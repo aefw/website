@@ -1,59 +1,77 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+namespace PhpOffice\PhpSpreadsheet\Cell;
+
+use PhpOffice\PhpSpreadsheet\Calculation\Calculation;
+use PhpOffice\PhpSpreadsheet\Calculation\Functions;
+use PhpOffice\PhpSpreadsheet\Exception;
+
+/**
+ * Validate a cell value according to its validation rules.
+ */
+class DataValidator
+{
+    /**
+     * Does this cell contain valid value?
+     *
+     * @param Cell $cell Cell to check the value
+     *
+     * @return bool
+     */
+    public function isValid(Cell $cell)
+    {
+        if (!$cell->hasDataValidation()) {
+            return true;
+        }
+
+        $cellValue = $cell->getValue();
+        $dataValidation = $cell->getDataValidation();
+
+        if (!$dataValidation->getAllowBlank() && ($cellValue === null || $cellValue === '')) {
+            return false;
+        }
+
+        // TODO: write check on all cases
+        switch ($dataValidation->getType()) {
+            case DataValidation::TYPE_LIST:
+                return $this->isValueInList($cell);
+        }
+
+        return false;
+    }
+
+    /**
+     * Does this cell contain valid value, based on list?
+     *
+     * @param Cell $cell Cell to check the value
+     *
+     * @return bool
+     */
+    private function isValueInList(Cell $cell)
+    {
+        $cellValue = $cell->getValue();
+        $dataValidation = $cell->getDataValidation();
+
+        $formula1 = $dataValidation->getFormula1();
+        if (!empty($formula1)) {
+            // inline values list
+            if ($formula1[0] === '"') {
+                return in_array(strtolower($cellValue), explode(',', strtolower(trim($formula1, '"'))), true);
+            } elseif (strpos($formula1, ':') > 0) {
+                // values list cells
+                $matchFormula = '=MATCH(' . $cell->getCoordinate() . ', ' . $formula1 . ', 0)';
+                $calculation = Calculation::getInstance($cell->getWorksheet()->getParent());
+
+                try {
+                    $result = $calculation->calculateFormula($matchFormula, $cell->getCoordinate(), $cell);
+
+                    return $result !== Functions::NA();
+                } catch (Exception $ex) {
+                    return false;
+                }
+            }
+        }
+
+        return true;
+    }
+}

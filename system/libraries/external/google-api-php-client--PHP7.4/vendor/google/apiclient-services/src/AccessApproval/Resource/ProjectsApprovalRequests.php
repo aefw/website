@@ -1,63 +1,115 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AccessApproval\Resource;
+
+use Google\Service\AccessApproval\ApprovalRequest;
+use Google\Service\AccessApproval\ApproveApprovalRequestMessage;
+use Google\Service\AccessApproval\DismissApprovalRequestMessage;
+use Google\Service\AccessApproval\ListApprovalRequestsResponse;
+
+/**
+ * The "approvalRequests" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $accessapprovalService = new Google\Service\AccessApproval(...);
+ *   $approvalRequests = $accessapprovalService->approvalRequests;
+ *  </code>
+ */
+class ProjectsApprovalRequests extends \Google\Service\Resource
+{
+  /**
+   * Approves a request and returns the updated ApprovalRequest. Returns NOT_FOUND
+   * if the request does not exist. Returns FAILED_PRECONDITION if the request
+   * exists but is not in a pending state. (approvalRequests.approve)
+   *
+   * @param string $name Name of the approval request to approve.
+   * @param ApproveApprovalRequestMessage $postBody
+   * @param array $optParams Optional parameters.
+   * @return ApprovalRequest
+   */
+  public function approve($name, ApproveApprovalRequestMessage $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('approve', [$params], ApprovalRequest::class);
+  }
+  /**
+   * Dismisses a request. Returns the updated ApprovalRequest. NOTE: This does not
+   * deny access to the resource if another request has been made and approved. It
+   * is equivalent in effect to ignoring the request altogether. Returns NOT_FOUND
+   * if the request does not exist. Returns FAILED_PRECONDITION if the request
+   * exists but is not in a pending state. (approvalRequests.dismiss)
+   *
+   * @param string $name Name of the ApprovalRequest to dismiss.
+   * @param DismissApprovalRequestMessage $postBody
+   * @param array $optParams Optional parameters.
+   * @return ApprovalRequest
+   */
+  public function dismiss($name, DismissApprovalRequestMessage $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('dismiss', [$params], ApprovalRequest::class);
+  }
+  /**
+   * Gets an approval request. Returns NOT_FOUND if the request does not exist.
+   * (approvalRequests.get)
+   *
+   * @param string $name Name of the approval request to retrieve.
+   * @param array $optParams Optional parameters.
+   * @return ApprovalRequest
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], ApprovalRequest::class);
+  }
+  /**
+   * Lists approval requests associated with a project, folder, or organization.
+   * Approval requests can be filtered by state (pending, active, dismissed). The
+   * order is reverse chronological.
+   * (approvalRequests.listProjectsApprovalRequests)
+   *
+   * @param string $parent The parent resource. This may be "projects/{project}",
+   * "folders/{folder}", or "organizations/{organization}".
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter on the type of approval requests to
+   * retrieve. Must be one of the following values: * [not set]: Requests that are
+   * pending or have active approvals. * ALL: All requests. * PENDING: Only
+   * pending requests. * ACTIVE: Only active (i.e. currently approved) requests. *
+   * DISMISSED: Only requests that have been dismissed, or requests that are not
+   * approved and past expiration. * EXPIRED: Only requests that have been
+   * approved, and the approval has expired. * HISTORY: Active, dismissed and
+   * expired requests.
+   * @opt_param int pageSize Requested page size.
+   * @opt_param string pageToken A token identifying the page of results to
+   * return.
+   * @return ListApprovalRequestsResponse
+   */
+  public function listProjectsApprovalRequests($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListApprovalRequestsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsApprovalRequests::class, 'Google_Service_AccessApproval_Resource_ProjectsApprovalRequests');

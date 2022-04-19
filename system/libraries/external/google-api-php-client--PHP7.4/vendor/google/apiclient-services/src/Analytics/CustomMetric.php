@@ -1,96 +1,172 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Analytics;
+
+class CustomMetric extends \Google\Model
+{
+  protected $internal_gapi_mappings = [
+        "maxValue" => "max_value",
+        "minValue" => "min_value",
+  ];
+  public $accountId;
+  public $active;
+  public $created;
+  public $id;
+  public $index;
+  public $kind;
+  public $maxValue;
+  public $minValue;
+  public $name;
+  protected $parentLinkType = CustomMetricParentLink::class;
+  protected $parentLinkDataType = '';
+  public $scope;
+  public $selfLink;
+  public $type;
+  public $updated;
+  public $webPropertyId;
+
+  public function setAccountId($accountId)
+  {
+    $this->accountId = $accountId;
+  }
+  public function getAccountId()
+  {
+    return $this->accountId;
+  }
+  public function setActive($active)
+  {
+    $this->active = $active;
+  }
+  public function getActive()
+  {
+    return $this->active;
+  }
+  public function setCreated($created)
+  {
+    $this->created = $created;
+  }
+  public function getCreated()
+  {
+    return $this->created;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setIndex($index)
+  {
+    $this->index = $index;
+  }
+  public function getIndex()
+  {
+    return $this->index;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setMaxValue($maxValue)
+  {
+    $this->maxValue = $maxValue;
+  }
+  public function getMaxValue()
+  {
+    return $this->maxValue;
+  }
+  public function setMinValue($minValue)
+  {
+    $this->minValue = $minValue;
+  }
+  public function getMinValue()
+  {
+    return $this->minValue;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  /**
+   * @param CustomMetricParentLink
+   */
+  public function setParentLink(CustomMetricParentLink $parentLink)
+  {
+    $this->parentLink = $parentLink;
+  }
+  /**
+   * @return CustomMetricParentLink
+   */
+  public function getParentLink()
+  {
+    return $this->parentLink;
+  }
+  public function setScope($scope)
+  {
+    $this->scope = $scope;
+  }
+  public function getScope()
+  {
+    return $this->scope;
+  }
+  public function setSelfLink($selfLink)
+  {
+    $this->selfLink = $selfLink;
+  }
+  public function getSelfLink()
+  {
+    return $this->selfLink;
+  }
+  public function setType($type)
+  {
+    $this->type = $type;
+  }
+  public function getType()
+  {
+    return $this->type;
+  }
+  public function setUpdated($updated)
+  {
+    $this->updated = $updated;
+  }
+  public function getUpdated()
+  {
+    return $this->updated;
+  }
+  public function setWebPropertyId($webPropertyId)
+  {
+    $this->webPropertyId = $webPropertyId;
+  }
+  public function getWebPropertyId()
+  {
+    return $this->webPropertyId;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(CustomMetric::class, 'Google_Service_Analytics_CustomMetric');

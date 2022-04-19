@@ -1,95 +1,140 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+/**
+ * OpenSSH Formatted RSA Key Handler
+ *
+ * PHP version 5
+ *
+ * Place in $HOME/.ssh/authorized_keys
+ *
+ * @category  Crypt
+ * @package   RSA
+ * @author    Jim Wigginton <terrafrost@php.net>
+ * @copyright 2015 Jim Wigginton
+ * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      http://phpseclib.sourceforge.net
+ */
+
+namespace phpseclib3\Crypt\RSA\Formats\Keys;
+
+use ParagonIE\ConstantTime\Base64;
+use phpseclib3\Math\BigInteger;
+use phpseclib3\Common\Functions\Strings;
+use phpseclib3\Crypt\Common\Formats\Keys\OpenSSH as Progenitor;
+
+/**
+ * OpenSSH Formatted RSA Key Handler
+ *
+ * @package RSA
+ * @author  Jim Wigginton <terrafrost@php.net>
+ * @access  public
+ */
+abstract class OpenSSH extends Progenitor
+{
+    /**
+     * Supported Key Types
+     *
+     * @var array
+     */
+    protected static $types = ['ssh-rsa'];
+
+    /**
+     * Break a public or private key down into its constituent components
+     *
+     * @access public
+     * @param string $key
+     * @param string $password optional
+     * @return array
+     */
+    public static function load($key, $password = '')
+    {
+        static $one;
+        if (!isset($one)) {
+            $one = new BigInteger(1);
+        }
+
+        $parsed = parent::load($key, $password);
+
+        if (isset($parsed['paddedKey'])) {
+            list($type) = Strings::unpackSSH2('s', $parsed['paddedKey']);
+            if ($type != $parsed['type']) {
+                throw new \RuntimeException("The public and private keys are not of the same type ($type vs $parsed[type])");
+            }
+
+            $primes = $coefficients = [];
+
+            list(
+                $modulus,
+                $publicExponent,
+                $privateExponent,
+                $coefficients[2],
+                $primes[1],
+                $primes[2],
+                $comment,
+            ) = Strings::unpackSSH2('i6s', $parsed['paddedKey']);
+
+            $temp = $primes[1]->subtract($one);
+            $exponents = [1 => $publicExponent->modInverse($temp)];
+            $temp = $primes[2]->subtract($one);
+            $exponents[] = $publicExponent->modInverse($temp);
+
+            $isPublicKey = false;
+
+            return compact('publicExponent', 'modulus', 'privateExponent', 'primes', 'coefficients', 'exponents', 'comment', 'isPublicKey');
+        }
+
+        list($publicExponent, $modulus) = Strings::unpackSSH2('ii', $parsed['publicKey']);
+
+        return [
+            'isPublicKey' => true,
+            'modulus' => $modulus,
+            'publicExponent' => $publicExponent,
+            'comment' => $parsed['comment']
+        ];
+    }
+
+    /**
+     * Convert a public key to the appropriate format
+     *
+     * @access public
+     * @param \phpseclib3\Math\BigInteger $n
+     * @param \phpseclib3\Math\BigInteger $e
+     * @param array $options optional
+     * @return string
+     */
+    public static function savePublicKey(BigInteger $n, BigInteger $e, array $options = [])
+    {
+        $RSAPublicKey = Strings::packSSH2('sii', 'ssh-rsa', $e, $n);
+
+        if (isset($options['binary']) ? $options['binary'] : self::$binary) {
+            return $RSAPublicKey;
+        }
+
+        $comment = isset($options['comment']) ? $options['comment'] : self::$comment;
+        $RSAPublicKey = 'ssh-rsa ' . base64_encode($RSAPublicKey) . ' ' . $comment;
+
+        return $RSAPublicKey;
+    }
+
+    /**
+     * Convert a private key to the appropriate format.
+     *
+     * @access public
+     * @param \phpseclib3\Math\BigInteger $n
+     * @param \phpseclib3\Math\BigInteger $e
+     * @param \phpseclib3\Math\BigInteger $d
+     * @param array $primes
+     * @param array $exponents
+     * @param array $coefficients
+     * @param string $password optional
+     * @param array $options optional
+     * @return string
+     */
+    public static function savePrivateKey(BigInteger $n, BigInteger $e, BigInteger $d, array $primes, array $exponents, array $coefficients, $password = '', array $options = [])
+    {
+        $publicKey = self::savePublicKey($n, $e, ['binary' => true]);
+        $privateKey = Strings::packSSH2('si6', 'ssh-rsa', $n, $e, $d, $coefficients[2], $primes[1], $primes[2]);
+
+        return self::wrapPrivateKey($publicKey, $privateKey, $password, $options);
+    }
+}

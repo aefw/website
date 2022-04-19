@@ -1,71 +1,54 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+/*
+ * PHP QR Code encoder
+ *
+ * Common constants
+ *
+ * Based on libqrencode C library distributed under LGPL 2.1
+ * Copyright (C) 2006, 2007, 2008, 2009 Kentaro Fukuchi <fukuchi@megaui.net>
+ *
+ * PHP QR Code is distributed under LGPL 3
+ * Copyright (C) 2010 Dominik Dzienia <deltalab at poczta dot fm>
+ *
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public
+ * License as published by the Free Software Foundation; either
+ * version 3 of the License, or any later version.
+ *
+ * This library is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this library; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+ */
+ 
+	// Encoding modes
+	 
+	define('QR_MODE_NUL', -1);
+	define('QR_MODE_NUM', 0);
+	define('QR_MODE_AN', 1);
+	define('QR_MODE_8', 2);
+	define('QR_MODE_KANJI', 3);
+	define('QR_MODE_STRUCTURE', 4);
+
+	// Levels of error correction.
+
+	define('QR_ECLEVEL_L', 0);
+	define('QR_ECLEVEL_M', 1);
+	define('QR_ECLEVEL_Q', 2);
+	define('QR_ECLEVEL_H', 3);
+	
+	// Supported output formats
+	
+	define('QR_FORMAT_TEXT', 0);
+	define('QR_FORMAT_PNG',  1);
+	
+	class qrstr {
+		public static function set(&$srctab, $x, $y, $repl, $replLen = false) {
+			$srctab[$y] = substr_replace($srctab[$y], ($replLen !== false)?substr($repl,0,$replLen):$repl, $x, ($replLen !== false)?$replLen:strlen($repl));
+		}
+	}	

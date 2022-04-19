@@ -1,73 +1,116 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php declare(strict_types=1);
+
+/*
+ * This file is part of the Monolog package.
+ *
+ * (c) Jordi Boggiano <j.boggiano@seld.be>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Monolog\Handler;
+
+use Monolog\Logger;
+use Monolog\Utils;
+use Monolog\Formatter\FlowdockFormatter;
+use Monolog\Formatter\FormatterInterface;
+
+/**
+ * Sends notifications through the Flowdock push API
+ *
+ * This must be configured with a FlowdockFormatter instance via setFormatter()
+ *
+ * Notes:
+ * API token - Flowdock API token
+ *
+ * @author Dominik Liebler <liebler.dominik@gmail.com>
+ * @see https://www.flowdock.com/api/push
+ */
+class FlowdockHandler extends SocketHandler
+{
+    /**
+     * @var string
+     */
+    protected $apiToken;
+
+    /**
+     * @param string|int $level  The minimum logging level at which this handler will be triggered
+     * @param bool       $bubble Whether the messages that are handled can bubble up the stack or not
+     *
+     * @throws MissingExtensionException if OpenSSL is missing
+     */
+    public function __construct(string $apiToken, $level = Logger::DEBUG, bool $bubble = true)
+    {
+        if (!extension_loaded('openssl')) {
+            throw new MissingExtensionException('The OpenSSL PHP extension is required to use the FlowdockHandler');
+        }
+
+        parent::__construct('ssl://api.flowdock.com:443', $level, $bubble);
+        $this->apiToken = $apiToken;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function setFormatter(FormatterInterface $formatter): HandlerInterface
+    {
+        if (!$formatter instanceof FlowdockFormatter) {
+            throw new \InvalidArgumentException('The FlowdockHandler requires an instance of Monolog\Formatter\FlowdockFormatter to function correctly');
+        }
+
+        return parent::setFormatter($formatter);
+    }
+
+    /**
+     * Gets the default formatter.
+     */
+    protected function getDefaultFormatter(): FormatterInterface
+    {
+        throw new \InvalidArgumentException('The FlowdockHandler must be configured (via setFormatter) with an instance of Monolog\Formatter\FlowdockFormatter to function correctly');
+    }
+
+    /**
+     * {@inheritdoc}
+     *
+     * @param array $record
+     */
+    protected function write(array $record): void
+    {
+        parent::write($record);
+
+        $this->closeSocket();
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    protected function generateDataStream(array $record): string
+    {
+        $content = $this->buildContent($record);
+
+        return $this->buildHeader($content) . $content;
+    }
+
+    /**
+     * Builds the body of API call
+     */
+    private function buildContent(array $record): string
+    {
+        return Utils::jsonEncode($record['formatted']['flowdock']);
+    }
+
+    /**
+     * Builds the header of the API Call
+     */
+    private function buildHeader(string $content): string
+    {
+        $header = "POST /v1/messages/team_inbox/" . $this->apiToken . " HTTP/1.1\r\n";
+        $header .= "Host: api.flowdock.com\r\n";
+        $header .= "Content-Type: application/json\r\n";
+        $header .= "Content-Length: " . strlen($content) . "\r\n";
+        $header .= "\r\n";
+
+        return $header;
+    }
+}

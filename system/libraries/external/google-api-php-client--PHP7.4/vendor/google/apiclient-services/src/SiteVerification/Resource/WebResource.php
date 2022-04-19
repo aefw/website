@@ -1,77 +1,134 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\SiteVerification\Resource;
+
+use Google\Service\SiteVerification\SiteVerificationWebResourceGettokenRequest;
+use Google\Service\SiteVerification\SiteVerificationWebResourceGettokenResponse;
+use Google\Service\SiteVerification\SiteVerificationWebResourceListResponse;
+use Google\Service\SiteVerification\SiteVerificationWebResourceResource;
+
+/**
+ * The "webResource" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $siteVerificationService = new Google\Service\SiteVerification(...);
+ *   $webResource = $siteVerificationService->webResource;
+ *  </code>
+ */
+class WebResource extends \Google\Service\Resource
+{
+  /**
+   * Relinquish ownership of a website or domain. (webResource.delete)
+   *
+   * @param string $id The id of a verified site or domain.
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($id, $optParams = [])
+  {
+    $params = ['id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Get the most current data for a website or domain. (webResource.get)
+   *
+   * @param string $id The id of a verified site or domain.
+   * @param array $optParams Optional parameters.
+   * @return SiteVerificationWebResourceResource
+   */
+  public function get($id, $optParams = [])
+  {
+    $params = ['id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], SiteVerificationWebResourceResource::class);
+  }
+  /**
+   * Get a verification token for placing on a website or domain.
+   * (webResource.getToken)
+   *
+   * @param SiteVerificationWebResourceGettokenRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return SiteVerificationWebResourceGettokenResponse
+   */
+  public function getToken(SiteVerificationWebResourceGettokenRequest $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('getToken', [$params], SiteVerificationWebResourceGettokenResponse::class);
+  }
+  /**
+   * Attempt verification of a website or domain. (webResource.insert)
+   *
+   * @param string $verificationMethod The method to use for verifying a site or
+   * domain.
+   * @param SiteVerificationWebResourceResource $postBody
+   * @param array $optParams Optional parameters.
+   * @return SiteVerificationWebResourceResource
+   */
+  public function insert($verificationMethod, SiteVerificationWebResourceResource $postBody, $optParams = [])
+  {
+    $params = ['verificationMethod' => $verificationMethod, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], SiteVerificationWebResourceResource::class);
+  }
+  /**
+   * Get the list of your verified websites and domains.
+   * (webResource.listWebResource)
+   *
+   * @param array $optParams Optional parameters.
+   * @return SiteVerificationWebResourceListResponse
+   */
+  public function listWebResource($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], SiteVerificationWebResourceListResponse::class);
+  }
+  /**
+   * Modify the list of owners for your website or domain. This method supports
+   * patch semantics. (webResource.patch)
+   *
+   * @param string $id The id of a verified site or domain.
+   * @param SiteVerificationWebResourceResource $postBody
+   * @param array $optParams Optional parameters.
+   * @return SiteVerificationWebResourceResource
+   */
+  public function patch($id, SiteVerificationWebResourceResource $postBody, $optParams = [])
+  {
+    $params = ['id' => $id, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], SiteVerificationWebResourceResource::class);
+  }
+  /**
+   * Modify the list of owners for your website or domain. (webResource.update)
+   *
+   * @param string $id The id of a verified site or domain.
+   * @param SiteVerificationWebResourceResource $postBody
+   * @param array $optParams Optional parameters.
+   * @return SiteVerificationWebResourceResource
+   */
+  public function update($id, SiteVerificationWebResourceResource $postBody, $optParams = [])
+  {
+    $params = ['id' => $id, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], SiteVerificationWebResourceResource::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(WebResource::class, 'Google_Service_SiteVerification_Resource_WebResource');

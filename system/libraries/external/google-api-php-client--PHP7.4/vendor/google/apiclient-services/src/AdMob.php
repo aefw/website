@@ -1,66 +1,200 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-U0plNmDc0CuYjzDsz+cvn34KTG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for AdMob (v1).
+ *
+ * <p>
+ * The AdMob API allows publishers to programmatically get information about
+ * their AdMob account.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://developers.google.com/admob/api/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class AdMob extends \Google\Service
+{
+  /** See your AdMob data. */
+  const ADMOB_READONLY =
+      "https://www.googleapis.com/auth/admob.readonly";
+  /** See your AdMob data. */
+  const ADMOB_REPORT =
+      "https://www.googleapis.com/auth/admob.report";
+
+  public $accounts;
+  public $accounts_adUnits;
+  public $accounts_apps;
+  public $accounts_mediationReport;
+  public $accounts_networkReport;
+
+  /**
+   * Constructs the internal representation of the AdMob service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://admob.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'admob';
+
+    $this->accounts = new AdMob\Resource\Accounts(
+        $this,
+        $this->serviceName,
+        'accounts',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/accounts',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->accounts_adUnits = new AdMob\Resource\AccountsAdUnits(
+        $this,
+        $this->serviceName,
+        'adUnits',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/{+parent}/adUnits',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->accounts_apps = new AdMob\Resource\AccountsApps(
+        $this,
+        $this->serviceName,
+        'apps',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/{+parent}/apps',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->accounts_mediationReport = new AdMob\Resource\AccountsMediationReport(
+        $this,
+        $this->serviceName,
+        'mediationReport',
+        [
+          'methods' => [
+            'generate' => [
+              'path' => 'v1/{+parent}/mediationReport:generate',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->accounts_networkReport = new AdMob\Resource\AccountsNetworkReport(
+        $this,
+        $this->serviceName,
+        'networkReport',
+        [
+          'methods' => [
+            'generate' => [
+              'path' => 'v1/{+parent}/networkReport:generate',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AdMob::class, 'Google_Service_AdMob');

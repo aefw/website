@@ -1,133 +1,1038 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for CloudSearch (v1).
+ *
+ * <p>
+ * Cloud Search provides cloud-based search capabilities over G Suite data. The
+ * Cloud Search API allows indexing of non-G Suite data into Cloud Search.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://developers.google.com/cloud-search/docs/guides/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class CloudSearch extends \Google\Service
+{
+  /** Index and serve your organization's data with Cloud Search. */
+  const CLOUD_SEARCH =
+      "https://www.googleapis.com/auth/cloud_search";
+  /** Index and serve your organization's data with Cloud Search. */
+  const CLOUD_SEARCH_DEBUG =
+      "https://www.googleapis.com/auth/cloud_search.debug";
+  /** Index and serve your organization's data with Cloud Search. */
+  const CLOUD_SEARCH_INDEXING =
+      "https://www.googleapis.com/auth/cloud_search.indexing";
+  /** Search your organization's data in the Cloud Search index. */
+  const CLOUD_SEARCH_QUERY =
+      "https://www.googleapis.com/auth/cloud_search.query";
+  /** Index and serve your organization's data with Cloud Search. */
+  const CLOUD_SEARCH_SETTINGS =
+      "https://www.googleapis.com/auth/cloud_search.settings";
+  /** Index and serve your organization's data with Cloud Search. */
+  const CLOUD_SEARCH_SETTINGS_INDEXING =
+      "https://www.googleapis.com/auth/cloud_search.settings.indexing";
+  /** Index and serve your organization's data with Cloud Search. */
+  const CLOUD_SEARCH_SETTINGS_QUERY =
+      "https://www.googleapis.com/auth/cloud_search.settings.query";
+  /** Index and serve your organization's data with Cloud Search. */
+  const CLOUD_SEARCH_STATS =
+      "https://www.googleapis.com/auth/cloud_search.stats";
+  /** Index and serve your organization's data with Cloud Search. */
+  const CLOUD_SEARCH_STATS_INDEXING =
+      "https://www.googleapis.com/auth/cloud_search.stats.indexing";
+
+  public $debug_datasources_items;
+  public $debug_datasources_items_unmappedids;
+  public $debug_identitysources_items;
+  public $debug_identitysources_unmappedids;
+  public $indexing_datasources;
+  public $indexing_datasources_items;
+  public $media;
+  public $operations;
+  public $operations_lro;
+  public $query;
+  public $query_sources;
+  public $settings;
+  public $settings_datasources;
+  public $settings_searchapplications;
+  public $stats;
+  public $stats_index_datasources;
+  public $stats_query_searchapplications;
+  public $stats_session_searchapplications;
+  public $stats_user_searchapplications;
+
+  /**
+   * Constructs the internal representation of the CloudSearch service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://cloudsearch.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'cloudsearch';
+
+    $this->debug_datasources_items = new CloudSearch\Resource\DebugDatasourcesItems(
+        $this,
+        $this->serviceName,
+        'items',
+        [
+          'methods' => [
+            'checkAccess' => [
+              'path' => 'v1/debug/{+name}:checkAccess',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'debugOptions.enableDebugging' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'searchByViewUrl' => [
+              'path' => 'v1/debug/{+name}/items:searchByViewUrl',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->debug_datasources_items_unmappedids = new CloudSearch\Resource\DebugDatasourcesItemsUnmappedids(
+        $this,
+        $this->serviceName,
+        'unmappedids',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/debug/{+parent}/unmappedids',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'debugOptions.enableDebugging' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->debug_identitysources_items = new CloudSearch\Resource\DebugIdentitysourcesItems(
+        $this,
+        $this->serviceName,
+        'items',
+        [
+          'methods' => [
+            'listForunmappedidentity' => [
+              'path' => 'v1/debug/{+parent}/items:forunmappedidentity',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'debugOptions.enableDebugging' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'groupResourceName' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userResourceName' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->debug_identitysources_unmappedids = new CloudSearch\Resource\DebugIdentitysourcesUnmappedids(
+        $this,
+        $this->serviceName,
+        'unmappedids',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/debug/{+parent}/unmappedids',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'debugOptions.enableDebugging' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'resolutionStatusCode' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->indexing_datasources = new CloudSearch\Resource\IndexingDatasources(
+        $this,
+        $this->serviceName,
+        'datasources',
+        [
+          'methods' => [
+            'deleteSchema' => [
+              'path' => 'v1/indexing/{+name}/schema',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'debugOptions.enableDebugging' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'getSchema' => [
+              'path' => 'v1/indexing/{+name}/schema',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'debugOptions.enableDebugging' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'updateSchema' => [
+              'path' => 'v1/indexing/{+name}/schema',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->indexing_datasources_items = new CloudSearch\Resource\IndexingDatasourcesItems(
+        $this,
+        $this->serviceName,
+        'items',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'v1/indexing/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'connectorName' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'debugOptions.enableDebugging' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'mode' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'version' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'deleteQueueItems' => [
+              'path' => 'v1/indexing/{+name}/items:deleteQueueItems',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/indexing/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'connectorName' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'debugOptions.enableDebugging' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'index' => [
+              'path' => 'v1/indexing/{+name}:index',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/indexing/{+name}/items',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'brief' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'connectorName' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'debugOptions.enableDebugging' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'poll' => [
+              'path' => 'v1/indexing/{+name}/items:poll',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'push' => [
+              'path' => 'v1/indexing/{+name}:push',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'unreserve' => [
+              'path' => 'v1/indexing/{+name}/items:unreserve',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'upload' => [
+              'path' => 'v1/indexing/{+name}:upload',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->media = new CloudSearch\Resource\Media(
+        $this,
+        $this->serviceName,
+        'media',
+        [
+          'methods' => [
+            'upload' => [
+              'path' => 'v1/media/{+resourceName}',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resourceName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->operations = new CloudSearch\Resource\Operations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->operations_lro = new CloudSearch\Resource\OperationsLro(
+        $this,
+        $this->serviceName,
+        'lro',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/{+name}/lro',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->query = new CloudSearch\Resource\Query(
+        $this,
+        $this->serviceName,
+        'query',
+        [
+          'methods' => [
+            'search' => [
+              'path' => 'v1/query/search',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'suggest' => [
+              'path' => 'v1/query/suggest',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],
+          ]
+        ]
+    );
+    $this->query_sources = new CloudSearch\Resource\QuerySources(
+        $this,
+        $this->serviceName,
+        'sources',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/query/sources',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'requestOptions.debugOptions.enableDebugging' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'requestOptions.languageCode' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'requestOptions.searchApplicationId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'requestOptions.timeZone' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->settings = new CloudSearch\Resource\Settings(
+        $this,
+        $this->serviceName,
+        'settings',
+        [
+          'methods' => [
+            'getCustomer' => [
+              'path' => 'v1/settings/customer',
+              'httpMethod' => 'GET',
+              'parameters' => [],
+            ],'updateCustomer' => [
+              'path' => 'v1/settings/customer',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->settings_datasources = new CloudSearch\Resource\SettingsDatasources(
+        $this,
+        $this->serviceName,
+        'datasources',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/settings/datasources',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'delete' => [
+              'path' => 'v1/settings/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'debugOptions.enableDebugging' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/settings/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'debugOptions.enableDebugging' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/settings/datasources',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'debugOptions.enableDebugging' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'v1/settings/{+name}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->settings_searchapplications = new CloudSearch\Resource\SettingsSearchapplications(
+        $this,
+        $this->serviceName,
+        'searchapplications',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/settings/searchapplications',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'delete' => [
+              'path' => 'v1/settings/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'debugOptions.enableDebugging' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/settings/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'debugOptions.enableDebugging' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/settings/searchapplications',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'debugOptions.enableDebugging' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'reset' => [
+              'path' => 'v1/settings/{+name}:reset',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'v1/settings/{+name}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->stats = new CloudSearch\Resource\Stats(
+        $this,
+        $this->serviceName,
+        'stats',
+        [
+          'methods' => [
+            'getIndex' => [
+              'path' => 'v1/stats/index',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'fromDate.day' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'fromDate.month' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'fromDate.year' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'toDate.day' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'toDate.month' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'toDate.year' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'getQuery' => [
+              'path' => 'v1/stats/query',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'fromDate.day' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'fromDate.month' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'fromDate.year' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'toDate.day' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'toDate.month' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'toDate.year' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'getSession' => [
+              'path' => 'v1/stats/session',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'fromDate.day' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'fromDate.month' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'fromDate.year' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'toDate.day' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'toDate.month' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'toDate.year' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'getUser' => [
+              'path' => 'v1/stats/user',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'fromDate.day' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'fromDate.month' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'fromDate.year' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'toDate.day' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'toDate.month' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'toDate.year' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->stats_index_datasources = new CloudSearch\Resource\StatsIndexDatasources(
+        $this,
+        $this->serviceName,
+        'datasources',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/stats/index/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'fromDate.day' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'fromDate.month' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'fromDate.year' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'toDate.day' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'toDate.month' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'toDate.year' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->stats_query_searchapplications = new CloudSearch\Resource\StatsQuerySearchapplications(
+        $this,
+        $this->serviceName,
+        'searchapplications',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/stats/query/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'fromDate.day' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'fromDate.month' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'fromDate.year' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'toDate.day' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'toDate.month' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'toDate.year' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->stats_session_searchapplications = new CloudSearch\Resource\StatsSessionSearchapplications(
+        $this,
+        $this->serviceName,
+        'searchapplications',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/stats/session/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'fromDate.day' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'fromDate.month' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'fromDate.year' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'toDate.day' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'toDate.month' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'toDate.year' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->stats_user_searchapplications = new CloudSearch\Resource\StatsUserSearchapplications(
+        $this,
+        $this->serviceName,
+        'searchapplications',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/stats/user/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'fromDate.day' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'fromDate.month' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'fromDate.year' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'toDate.day' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'toDate.month' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'toDate.year' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(CloudSearch::class, 'Google_Service_CloudSearch');

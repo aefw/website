@@ -1,69 +1,140 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Monitoring\Resource;
+
+use Google\Service\Monitoring\ListUptimeCheckConfigsResponse;
+use Google\Service\Monitoring\MonitoringEmpty;
+use Google\Service\Monitoring\UptimeCheckConfig;
+
+/**
+ * The "uptimeCheckConfigs" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $monitoringService = new Google\Service\Monitoring(...);
+ *   $uptimeCheckConfigs = $monitoringService->uptimeCheckConfigs;
+ *  </code>
+ */
+class ProjectsUptimeCheckConfigs extends \Google\Service\Resource
+{
+  /**
+   * Creates a new Uptime check configuration. (uptimeCheckConfigs.create)
+   *
+   * @param string $parent Required. The project
+   * (https://cloud.google.com/monitoring/api/v3#project_name) in which to create
+   * the Uptime check. The format is: projects/[PROJECT_ID_OR_NUMBER]
+   * @param UptimeCheckConfig $postBody
+   * @param array $optParams Optional parameters.
+   * @return UptimeCheckConfig
+   */
+  public function create($parent, UptimeCheckConfig $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], UptimeCheckConfig::class);
+  }
+  /**
+   * Deletes an Uptime check configuration. Note that this method will fail if the
+   * Uptime check configuration is referenced by an alert policy or other
+   * dependent configs that would be rendered invalid by the deletion.
+   * (uptimeCheckConfigs.delete)
+   *
+   * @param string $name Required. The Uptime check configuration to delete. The
+   * format is:
+   * projects/[PROJECT_ID_OR_NUMBER]/uptimeCheckConfigs/[UPTIME_CHECK_ID]
+   * @param array $optParams Optional parameters.
+   * @return MonitoringEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], MonitoringEmpty::class);
+  }
+  /**
+   * Gets a single Uptime check configuration. (uptimeCheckConfigs.get)
+   *
+   * @param string $name Required. The Uptime check configuration to retrieve. The
+   * format is:
+   * projects/[PROJECT_ID_OR_NUMBER]/uptimeCheckConfigs/[UPTIME_CHECK_ID]
+   * @param array $optParams Optional parameters.
+   * @return UptimeCheckConfig
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], UptimeCheckConfig::class);
+  }
+  /**
+   * Lists the existing valid Uptime check configurations for the project (leaving
+   * out any invalid configurations).
+   * (uptimeCheckConfigs.listProjectsUptimeCheckConfigs)
+   *
+   * @param string $parent Required. The project
+   * (https://cloud.google.com/monitoring/api/v3#project_name) whose Uptime check
+   * configurations are listed. The format is: projects/[PROJECT_ID_OR_NUMBER]
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The maximum number of results to return in a single
+   * response. The server may further constrain the maximum number of results
+   * returned in a single page. If the page_size is <=0, the server will decide
+   * the number of results to be returned.
+   * @opt_param string pageToken If this field is not empty then it must contain
+   * the nextPageToken value returned by a previous call to this method. Using
+   * this field causes the method to return more results from the previous method
+   * call.
+   * @return ListUptimeCheckConfigsResponse
+   */
+  public function listProjectsUptimeCheckConfigs($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListUptimeCheckConfigsResponse::class);
+  }
+  /**
+   * Updates an Uptime check configuration. You can either replace the entire
+   * configuration with a new one or replace only certain fields in the current
+   * configuration by specifying the fields to be updated via updateMask. Returns
+   * the updated configuration. (uptimeCheckConfigs.patch)
+   *
+   * @param string $name A unique resource name for this Uptime check
+   * configuration. The format is:
+   * projects/[PROJECT_ID_OR_NUMBER]/uptimeCheckConfigs/[UPTIME_CHECK_ID]
+   * [PROJECT_ID_OR_NUMBER] is the Workspace host project associated with the
+   * Uptime check.This field should be omitted when creating the Uptime check
+   * configuration; on create, the resource name is assigned by the server and
+   * included in the response.
+   * @param UptimeCheckConfig $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Optional. If present, only the listed fields in
+   * the current Uptime check configuration are updated with values from the new
+   * configuration. If this field is empty, then the current configuration is
+   * completely replaced with the new configuration.
+   * @return UptimeCheckConfig
+   */
+  public function patch($name, UptimeCheckConfig $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], UptimeCheckConfig::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsUptimeCheckConfigs::class, 'Google_Service_Monitoring_Resource_ProjectsUptimeCheckConfigs');

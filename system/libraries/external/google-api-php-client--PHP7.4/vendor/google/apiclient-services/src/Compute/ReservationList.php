@@ -1,63 +1,95 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute;
+
+class ReservationList extends \Google\Collection
+{
+  protected $collection_key = 'items';
+  public $id;
+  protected $itemsType = Reservation::class;
+  protected $itemsDataType = 'array';
+  public $kind;
+  public $nextPageToken;
+  public $selfLink;
+  protected $warningType = ReservationListWarning::class;
+  protected $warningDataType = '';
+
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  /**
+   * @param Reservation[]
+   */
+  public function setItems($items)
+  {
+    $this->items = $items;
+  }
+  /**
+   * @return Reservation[]
+   */
+  public function getItems()
+  {
+    return $this->items;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setNextPageToken($nextPageToken)
+  {
+    $this->nextPageToken = $nextPageToken;
+  }
+  public function getNextPageToken()
+  {
+    return $this->nextPageToken;
+  }
+  public function setSelfLink($selfLink)
+  {
+    $this->selfLink = $selfLink;
+  }
+  public function getSelfLink()
+  {
+    return $this->selfLink;
+  }
+  /**
+   * @param ReservationListWarning
+   */
+  public function setWarning(ReservationListWarning $warning)
+  {
+    $this->warning = $warning;
+  }
+  /**
+   * @return ReservationListWarning
+   */
+  public function getWarning()
+  {
+    return $this->warning;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ReservationList::class, 'Google_Service_Compute_ReservationList');

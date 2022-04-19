@@ -1,59 +1,93 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPx0WV09teKGsVktf8Mw3EgZMfyGd9xzsufJ8NbngWve1VCn+Nib/B6V4kU3XUF+0LeS7Fw5J
-Wl9gKvIAryF42Xn3IcW7KNvQNh3ZdMnA3zOKI1i9zLEejGO9/24qSXIkQ74W69wW7mq8hXU52VCF
-ZIfDVw9UGQpi/+Di9D+lScFTDlBopls73sRvbqnML06fbEllugTC+hOEyJQLHUFIys2QO9ifmKdD
-J/MRE3xkPgJ2gEnXaPmb3p568CuCMsfHVg0WimpxHLwOPFsXMKpl/jclK+9mKourL8IeB86cFae5
-vLLeRiABQOY92egaL+M8L5dd6F/p3WFm0M5MjUSj8s1aU2vp/Z4Shgo10znkM8zlvxCvgcqtbzHj
-BGimLXF9sXFKEWm/+inlwvq1U0NlZm09H0+k0kuNMxNnOkc1HVv8wjA4OMWYclL+PNK7oAcI5TnY
-k/oywKFT0tnghtM2Ie/jFVlWJx+sDKTHuS0FlXY0TNbrIGEnIV75Hz1/OwLYX9WxaBrgX3k34idx
-cKghG1P4xqbNwCMv9YB++ECI1xtDYFxKcdNm7+D6bVhaqcNhjN08amxkwyUs7QcycevAOI/DaCQr
-wDU0srH+sIW5IcxHKLTh7PkrQUT8srVgAtLenOkxWQfJveTmncAUwLTxby+w5p0o0gL5agry/5/D
-bEGUbMd5sQw6DlHh91vjNZ4b2qs3IT8AkvO2lyXSHz30R1X7nJWrz3EiFdENytIuALEOTsi44deA
-isyJhrbMLl84qUDj5Ena9f8EUVKZ/GUSNbvBSEBUZ9QlxfY92h1uH3xdTiYm6Lgz5ia5UjUhf+QC
-Hgn6IgIT1/8/YpqMB0/1gaKQdhyp0Pp6Cts/sCe4loz3hOYonpMNmK6FGtMzSkvCIXTpXk+Ggkxe
-OTtZDzmunGCn7A2XeIbb/wUiReZGrTewaZkBM5ro9xiYgKDZeIJ4P9Zs4VTQwoKK2Cu6Zu4OUg4K
-K48K6Ap28Wm2uVxA3QU+qRhuodtxDZvr2Xg1uOqbKdfhAIs40eUZvIBbsnGdR+hmMQOfAchnRe7o
-v3k96H9D81Ie4CZ9Oxx5v7/sySJ4rTujAxoj5Gu0foOPGdAtXHTt4NGhmD+eFKE5Z0jbDYPLNRVM
-LjofGwSFjxmfSm9FdHHGBxIUCvsrueg/D5w8dbPzYM/1PCwtHVjbpoDmWYx819dtvRg4AhJFvBid
-WoYQuMEi7i33SBlMAKtaG8XnXHtXbxsgYL9OJedifDI+ylzH31Qg+3IfcVWw0EbIP1Sa4n1LnTf4
-Eu5ngsDAEmBhfIbNuhWclLR4OGviPUjkNWOn3NclldRTD0PIq0BWbpgGqVDaWTjkw4DXeQJjBqUu
-kxWMvrif8SekESYIhVDtxeG86Y1cHMPJBefbEMNHym6JQwvocMLfMFyEOkcD7AsmgziZrWts/v11
-xIOZg9ifn9rc9ax+R8+G09L8yeQIOdG/wCEriMolXlNCjDUKlRIUR2xfZIL2Yv8ApRy6LfJWe+zL
-pdFAT808TH6eM7tvB9MA50hxEaSWW6J3IUbYZojyooiSFfZrrCvDUuXuhaVUZ3SrjtGax30eLcsB
-VckXshYruw0WxTNzEs9tpIk4cmUYApdg1jzhOVD7ftcA8VnRZuWwx+pz9ShJMmOkPjd1o83vHX9V
-Fhdr+GEoPwtdkW7bFcAKGos6RXiEBqCU42EMFYLGsMoDnGuu/prbxTpi0tHXGG8v7XUgxCuQv904
-pZdL1N+kJ5kMk9bTu8vYutJbblqCOcLmc5+qxZg6ybrzT89H97EPPtcKH104nxxLM2YWZxdlBCj5
-+4XJ4OSIKnoznyzR+yLCd/injvKnwrgmDWu75q5uvDmUieXYiidz1qjsfqJsteAATlHos1+miDtI
-pDbeF+U/TWxI+z9QbcASlK0raJQ/8JPrP3TLuilTg5XziFZehWcZ397ij1QqQGJn5MQrsVZJrmsw
-h/eJAys5p6lyHZeQ+q14f/s+C+hLATQaoBZ28Tr4ubchS8xQKSPgfiEB1MzzoRxWu+ZxkN6vp/BO
-ZkBBl1nX02R/eaHvk+amwxidloIjCqqJhwtU+UBikjzwxoodkeh+eZknQCJl7fQsnZbLUFHOudfV
-vsX4y4udP2wyLpsLIHvZNXeakqQJOP8hCFFxBA2y62+FWo9xfBJ49pX4UvwjAin0nFvVycnjnifs
-BUxKPNQ2h3HU4riZ8zNffb4g3x9DYn7jdtWgIvzURjkrwdlt6Fw6Axo4hDTryjG5zr6wegt9yqoU
-xoaS+aFWLD1LSfkCZUYK4OEYBAFxXeGNy5KEj/6OSDwlvyq0voV4PX906PkoXVfrkK/nm9THuWz3
-0jwi5Bcmk/zrIxore6ZgIyJTxB8ShWK2TDdBQ4bQrcCDWGV0QFyFfoCmZUxx85OXL5TRZv2LWkMu
-YgG0vDK7ugBBoIQXvAIHdnpbUv325sUet28NtY28xrFHVh4l3n0IuzYOe0N6MCMbM9Y9bPs9DeI3
-yaP00wDjY8S/E5GJk5upH4W66yE56VjqRqOLIPi1tp5Cz32h1PSiNFausI6ysIZLDj26As1J/xl4
-WxQAdbfra52KfgZlWJG776w7r/e2JMnRjbjFN7u/Y36bFxUHTImjoKJoiWzPKTvOmgTULEatQple
-FRYjdZSlGV1xhwncSssSDDCG9G6Ul9uqH3HEY3X8c2ztB8ZLr+U7B4J7C7tOhWiXM/bcQSqgIOPi
-8iM0d+ZICG1qSzMmsNdEeG/Y2x2eKG35AlN/QvDnL2iFDch43aGJhiQIzDvisX1sarQ0rIqQEo7Y
-T6b7OCOSt8YgXR4g1NtIjTDbxyLFzwUaMEzfeJdRE8uPd3zjemCMcPvIPI2H6s+JJi3VaSCsNFfO
-bJZ2VfFEvODvMTgKhLqfnU77kW1dfyBz4OcnowY0CTdrQdbVHFACDE/yl9U3chC6R4g+zEJEIOcT
-BpiwGgeQETNRvxhkyiJD75kg+aUxzmA8L+TvW00Ql4/SXS9BLHpZ+0CxWPvgJsEs6yifeVXeFr6Y
-xji31fl4MoREaq7M5AVqvld2tC/vGRFCY+zM+8Hnp9DdJ8y3y3Em/ibhHCS4m5qYvYb8TM5Xarl3
-pDSwu5o11ssdJ9tdyy2QIcqtbitQak7p/9qfRDoK2er38YwUMeSnnDaHO3YnlrqKjqhu4U4tl551
-JXuMLRqj/If+XaFsxAOHgCehVy9PUjDaDnt1r3M6mqn2Iq6xJiOt0Mzdgo8OGK10To2s9Fy3670c
-t6/r7XO7YtCAMQ1Sln5qLdnGuYrjfDlTzwZQvFONrMZTmnmTRAYiNuvK7P6EGyKtgLi8LmcwiCXf
-/YGX5RmsyVHnjFy15rDtBrAamkJpc1YKGwvCqytOGhpmzfRdba9hZYCFgYDYyZPQUQS8RprdGmkI
-VjUZ71m9UcH6JNyTPfUcKcwNo59W56IDin5ZcdUfRJBZ1kNX56l96RLkLOzwMb2LRY3m7605xvKw
-kNng0nXUp+CCvrlhjhUD8kjhjdj0YPOxL3seyFrs95gmiAOCezP7PTr49yUVkEhLGXFlNCgqhqDG
-3GeegKodrFu3b2f7Ezg1b2YjE0RcGAa6Pzh75xVEPI1zFqonWWxhBSVcJR6ikPqHXo6Xmq7+/CCD
-RpbiG02egG8TT0EMBkdvXvWPNaNbEbw8fiCdhJLQaM3qigPrCxpW4k9fldiItEfpdJhs17A1ZhNQ
-bPnoPbS+2JKDYcQVq5QhKefUmwUaTI7ACENuRBGEYiIPH901sD/DtlLDXo0acEeQdzwCzkkvEfGU
-7POlNxfz7AEkQ4VX4v24SVstoab5R/0Czs3ca+0AdkSYKLYuL/i5L4eCIQp24OAkfcW/jcaM7jsd
-f6T/3U8UK6yDipx3qbmESVPhEZiw1zGWiPwJA3wQj9UgIOEP7MXFVc5yP86qUB3Lmehq7NHqU/HE
-TRzqKavI
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\YouTube\Resource;
+
+use Google\Service\YouTube\LiveChatMessage;
+use Google\Service\YouTube\LiveChatMessageListResponse;
+
+/**
+ * The "liveChatMessages" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $youtubeService = new Google\Service\YouTube(...);
+ *   $liveChatMessages = $youtubeService->liveChatMessages;
+ *  </code>
+ */
+class LiveChatMessages extends \Google\Service\Resource
+{
+  /**
+   * Deletes a chat message. (liveChatMessages.delete)
+   *
+   * @param string $id
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($id, $optParams = [])
+  {
+    $params = ['id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Inserts a new resource into this collection. (liveChatMessages.insert)
+   *
+   * @param string|array $part The *part* parameter serves two purposes. It
+   * identifies the properties that the write operation will set as well as the
+   * properties that the API response will include. Set the parameter value to
+   * snippet.
+   * @param LiveChatMessage $postBody
+   * @param array $optParams Optional parameters.
+   * @return LiveChatMessage
+   */
+  public function insert($part, LiveChatMessage $postBody, $optParams = [])
+  {
+    $params = ['part' => $part, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], LiveChatMessage::class);
+  }
+  /**
+   * Retrieves a list of resources, possibly filtered.
+   * (liveChatMessages.listLiveChatMessages)
+   *
+   * @param string $liveChatId The id of the live chat for which comments should
+   * be returned.
+   * @param string|array $part The *part* parameter specifies the liveChatComment
+   * resource parts that the API response will include. Supported values are id
+   * and snippet.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string hl Specifies the localization language in which the system
+   * messages should be returned.
+   * @opt_param string maxResults The *maxResults* parameter specifies the maximum
+   * number of items that should be returned in the result set.
+   * @opt_param string pageToken The *pageToken* parameter identifies a specific
+   * page in the result set that should be returned. In an API response, the
+   * nextPageToken property identify other pages that could be retrieved.
+   * @opt_param string profileImageSize Specifies the size of the profile image
+   * that should be returned for each user.
+   * @return LiveChatMessageListResponse
+   */
+  public function listLiveChatMessages($liveChatId, $part, $optParams = [])
+  {
+    $params = ['liveChatId' => $liveChatId, 'part' => $part];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], LiveChatMessageListResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(LiveChatMessages::class, 'Google_Service_YouTube_Resource_LiveChatMessages');

@@ -1,72 +1,182 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-wyp7DKfey0NYeZQw5KYXgUV41rO=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DLP\Resource;
+
+use Google\Service\DLP\GooglePrivacyDlpV2ActivateJobTriggerRequest;
+use Google\Service\DLP\GooglePrivacyDlpV2CreateJobTriggerRequest;
+use Google\Service\DLP\GooglePrivacyDlpV2DlpJob;
+use Google\Service\DLP\GooglePrivacyDlpV2JobTrigger;
+use Google\Service\DLP\GooglePrivacyDlpV2ListJobTriggersResponse;
+use Google\Service\DLP\GooglePrivacyDlpV2UpdateJobTriggerRequest;
+use Google\Service\DLP\GoogleProtobufEmpty;
+
+/**
+ * The "jobTriggers" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $dlpService = new Google\Service\DLP(...);
+ *   $jobTriggers = $dlpService->jobTriggers;
+ *  </code>
+ */
+class ProjectsJobTriggers extends \Google\Service\Resource
+{
+  /**
+   * Activate a job trigger. Causes the immediate execute of a trigger instead of
+   * waiting on the trigger event to occur. (jobTriggers.activate)
+   *
+   * @param string $name Required. Resource name of the trigger to activate, for
+   * example `projects/dlp-test-project/jobTriggers/53234423`.
+   * @param GooglePrivacyDlpV2ActivateJobTriggerRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GooglePrivacyDlpV2DlpJob
+   */
+  public function activate($name, GooglePrivacyDlpV2ActivateJobTriggerRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('activate', [$params], GooglePrivacyDlpV2DlpJob::class);
+  }
+  /**
+   * Creates a job trigger to run DLP actions such as scanning storage for
+   * sensitive information on a set schedule. See
+   * https://cloud.google.com/dlp/docs/creating-job-triggers to learn more.
+   * (jobTriggers.create)
+   *
+   * @param string $parent Required. Parent resource name. The format of this
+   * value varies depending on whether you have [specified a processing
+   * location](https://cloud.google.com/dlp/docs/specifying-location): + Projects
+   * scope, location specified: `projects/`PROJECT_ID`/locations/`LOCATION_ID +
+   * Projects scope, no location specified (defaults to global):
+   * `projects/`PROJECT_ID The following example `parent` string specifies a
+   * parent project with the identifier `example-project`, and specifies the
+   * `europe-west3` location for processing data: parent=projects/example-
+   * project/locations/europe-west3
+   * @param GooglePrivacyDlpV2CreateJobTriggerRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GooglePrivacyDlpV2JobTrigger
+   */
+  public function create($parent, GooglePrivacyDlpV2CreateJobTriggerRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GooglePrivacyDlpV2JobTrigger::class);
+  }
+  /**
+   * Deletes a job trigger. See https://cloud.google.com/dlp/docs/creating-job-
+   * triggers to learn more. (jobTriggers.delete)
+   *
+   * @param string $name Required. Resource name of the project and the
+   * triggeredJob, for example `projects/dlp-test-project/jobTriggers/53234423`.
+   * @param array $optParams Optional parameters.
+   * @return GoogleProtobufEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
+  }
+  /**
+   * Gets a job trigger. See https://cloud.google.com/dlp/docs/creating-job-
+   * triggers to learn more. (jobTriggers.get)
+   *
+   * @param string $name Required. Resource name of the project and the
+   * triggeredJob, for example `projects/dlp-test-project/jobTriggers/53234423`.
+   * @param array $optParams Optional parameters.
+   * @return GooglePrivacyDlpV2JobTrigger
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GooglePrivacyDlpV2JobTrigger::class);
+  }
+  /**
+   * Lists job triggers. See https://cloud.google.com/dlp/docs/creating-job-
+   * triggers to learn more. (jobTriggers.listProjectsJobTriggers)
+   *
+   * @param string $parent Required. Parent resource name. The format of this
+   * value varies depending on whether you have [specified a processing
+   * location](https://cloud.google.com/dlp/docs/specifying-location): + Projects
+   * scope, location specified: `projects/`PROJECT_ID`/locations/`LOCATION_ID +
+   * Projects scope, no location specified (defaults to global):
+   * `projects/`PROJECT_ID The following example `parent` string specifies a
+   * parent project with the identifier `example-project`, and specifies the
+   * `europe-west3` location for processing data: parent=projects/example-
+   * project/locations/europe-west3
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Allows filtering. Supported syntax: * Filter
+   * expressions are made up of one or more restrictions. * Restrictions can be
+   * combined by `AND` or `OR` logical operators. A sequence of restrictions
+   * implicitly uses `AND`. * A restriction has the form of `{field} {operator}
+   * {value}`. * Supported fields/values for inspect triggers: - `status` -
+   * HEALTHY|PAUSED|CANCELLED - `inspected_storage` -
+   * DATASTORE|CLOUD_STORAGE|BIGQUERY - 'last_run_time` - RFC 3339 formatted
+   * timestamp, surrounded by quotation marks. Nanoseconds are ignored. -
+   * 'error_count' - Number of errors that have occurred while running. * The
+   * operator must be `=` or `!=` for status and inspected_storage. Examples: *
+   * inspected_storage = cloud_storage AND status = HEALTHY * inspected_storage =
+   * cloud_storage OR inspected_storage = bigquery * inspected_storage =
+   * cloud_storage AND (state = PAUSED OR state = HEALTHY) * last_run_time >
+   * \"2017-12-12T00:00:00+00:00\" The length of this field should be no more than
+   * 500 characters.
+   * @opt_param string locationId Deprecated. This field has no effect.
+   * @opt_param string orderBy Comma separated list of triggeredJob fields to
+   * order by, followed by `asc` or `desc` postfix. This list is case-insensitive,
+   * default sorting order is ascending, redundant space characters are
+   * insignificant. Example: `name asc,update_time, create_time desc` Supported
+   * fields are: - `create_time`: corresponds to time the JobTrigger was created.
+   * - `update_time`: corresponds to time the JobTrigger was last updated. -
+   * `last_run_time`: corresponds to the last time the JobTrigger ran. - `name`:
+   * corresponds to JobTrigger's name. - `display_name`: corresponds to
+   * JobTrigger's display name. - `status`: corresponds to JobTrigger's status.
+   * @opt_param int pageSize Size of the page, can be limited by a server.
+   * @opt_param string pageToken Page token to continue retrieval. Comes from
+   * previous call to ListJobTriggers. `order_by` field must not change for
+   * subsequent calls.
+   * @opt_param string type The type of jobs. Will use `DlpJobType.INSPECT` if not
+   * set.
+   * @return GooglePrivacyDlpV2ListJobTriggersResponse
+   */
+  public function listProjectsJobTriggers($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GooglePrivacyDlpV2ListJobTriggersResponse::class);
+  }
+  /**
+   * Updates a job trigger. See https://cloud.google.com/dlp/docs/creating-job-
+   * triggers to learn more. (jobTriggers.patch)
+   *
+   * @param string $name Required. Resource name of the project and the
+   * triggeredJob, for example `projects/dlp-test-project/jobTriggers/53234423`.
+   * @param GooglePrivacyDlpV2UpdateJobTriggerRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GooglePrivacyDlpV2JobTrigger
+   */
+  public function patch($name, GooglePrivacyDlpV2UpdateJobTriggerRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], GooglePrivacyDlpV2JobTrigger::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsJobTriggers::class, 'Google_Service_DLP_Resource_ProjectsJobTriggers');

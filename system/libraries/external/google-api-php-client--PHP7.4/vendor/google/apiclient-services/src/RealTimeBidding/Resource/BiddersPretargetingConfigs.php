@@ -1,110 +1,265 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-j1RBh3s8t6Q5gotUR/C=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\RealTimeBidding\Resource;
+
+use Google\Service\RealTimeBidding\ActivatePretargetingConfigRequest;
+use Google\Service\RealTimeBidding\AddTargetedAppsRequest;
+use Google\Service\RealTimeBidding\AddTargetedPublishersRequest;
+use Google\Service\RealTimeBidding\AddTargetedSitesRequest;
+use Google\Service\RealTimeBidding\ListPretargetingConfigsResponse;
+use Google\Service\RealTimeBidding\PretargetingConfig;
+use Google\Service\RealTimeBidding\RealtimebiddingEmpty;
+use Google\Service\RealTimeBidding\RemoveTargetedAppsRequest;
+use Google\Service\RealTimeBidding\RemoveTargetedPublishersRequest;
+use Google\Service\RealTimeBidding\RemoveTargetedSitesRequest;
+use Google\Service\RealTimeBidding\SuspendPretargetingConfigRequest;
+
+/**
+ * The "pretargetingConfigs" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $realtimebiddingService = new Google\Service\RealTimeBidding(...);
+ *   $pretargetingConfigs = $realtimebiddingService->pretargetingConfigs;
+ *  </code>
+ */
+class BiddersPretargetingConfigs extends \Google\Service\Resource
+{
+  /**
+   * Activates a pretargeting configuration. (pretargetingConfigs.activate)
+   *
+   * @param string $name Required. The name of the pretargeting configuration.
+   * Format: bidders/{bidderAccountId}/pretargetingConfig/{configId}
+   * @param ActivatePretargetingConfigRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return PretargetingConfig
+   */
+  public function activate($name, ActivatePretargetingConfigRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('activate', [$params], PretargetingConfig::class);
+  }
+  /**
+   * Adds targeted apps to the pretargeting configuration.
+   * (pretargetingConfigs.addTargetedApps)
+   *
+   * @param string $pretargetingConfig Required. The name of the pretargeting
+   * configuration. Format:
+   * bidders/{bidderAccountId}/pretargetingConfig/{configId}
+   * @param AddTargetedAppsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return PretargetingConfig
+   */
+  public function addTargetedApps($pretargetingConfig, AddTargetedAppsRequest $postBody, $optParams = [])
+  {
+    $params = ['pretargetingConfig' => $pretargetingConfig, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('addTargetedApps', [$params], PretargetingConfig::class);
+  }
+  /**
+   * Adds targeted publishers to the pretargeting config.
+   * (pretargetingConfigs.addTargetedPublishers)
+   *
+   * @param string $pretargetingConfig Required. The name of the pretargeting
+   * configuration. Format:
+   * bidders/{bidderAccountId}/pretargetingConfig/{configId}
+   * @param AddTargetedPublishersRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return PretargetingConfig
+   */
+  public function addTargetedPublishers($pretargetingConfig, AddTargetedPublishersRequest $postBody, $optParams = [])
+  {
+    $params = ['pretargetingConfig' => $pretargetingConfig, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('addTargetedPublishers', [$params], PretargetingConfig::class);
+  }
+  /**
+   * Adds targeted sites to the pretargeting configuration.
+   * (pretargetingConfigs.addTargetedSites)
+   *
+   * @param string $pretargetingConfig Required. The name of the pretargeting
+   * configuration. Format:
+   * bidders/{bidderAccountId}/pretargetingConfig/{configId}
+   * @param AddTargetedSitesRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return PretargetingConfig
+   */
+  public function addTargetedSites($pretargetingConfig, AddTargetedSitesRequest $postBody, $optParams = [])
+  {
+    $params = ['pretargetingConfig' => $pretargetingConfig, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('addTargetedSites', [$params], PretargetingConfig::class);
+  }
+  /**
+   * Creates a pretargeting configuration. A pretargeting configuration's state
+   * (PretargetingConfig.state) is active upon creation, and it will start to
+   * affect traffic shortly after. A bidder may create a maximum of 10
+   * pretargeting configurations. Attempts to exceed this maximum results in a 400
+   * bad request error. (pretargetingConfigs.create)
+   *
+   * @param string $parent Required. Name of the bidder to create the pretargeting
+   * configuration for. Format: bidders/{bidderAccountId}
+   * @param PretargetingConfig $postBody
+   * @param array $optParams Optional parameters.
+   * @return PretargetingConfig
+   */
+  public function create($parent, PretargetingConfig $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], PretargetingConfig::class);
+  }
+  /**
+   * Deletes a pretargeting configuration. (pretargetingConfigs.delete)
+   *
+   * @param string $name Required. The name of the pretargeting configuration to
+   * delete. Format: bidders/{bidderAccountId}/pretargetingConfig/{configId}
+   * @param array $optParams Optional parameters.
+   * @return RealtimebiddingEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], RealtimebiddingEmpty::class);
+  }
+  /**
+   * Gets a pretargeting configuration. (pretargetingConfigs.get)
+   *
+   * @param string $name Required. Name of the pretargeting configuration to get.
+   * Format: bidders/{bidderAccountId}/pretargetingConfig/{configId}
+   * @param array $optParams Optional parameters.
+   * @return PretargetingConfig
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], PretargetingConfig::class);
+  }
+  /**
+   * Lists all pretargeting configurations for a single bidder.
+   * (pretargetingConfigs.listBiddersPretargetingConfigs)
+   *
+   * @param string $parent Required. Name of the bidder whose pretargeting
+   * configurations will be listed. Format: bidders/{bidderAccountId}
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The maximum number of pretargeting configurations to
+   * return. If unspecified, at most 10 pretargeting configurations will be
+   * returned. The maximum value is 100; values above 100 will be coerced to 100.
+   * @opt_param string pageToken A token identifying a page of results the server
+   * should return. This value is received from a previous
+   * `ListPretargetingConfigs` call in
+   * ListPretargetingConfigsResponse.nextPageToken.
+   * @return ListPretargetingConfigsResponse
+   */
+  public function listBiddersPretargetingConfigs($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListPretargetingConfigsResponse::class);
+  }
+  /**
+   * Updates a pretargeting configuration. (pretargetingConfigs.patch)
+   *
+   * @param string $name Output only. Name of the pretargeting configuration that
+   * must follow the pattern
+   * `bidders/{bidder_account_id}/pretargetingConfigs/{config_id}`
+   * @param PretargetingConfig $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Field mask to use for partial in-place updates.
+   * @return PretargetingConfig
+   */
+  public function patch($name, PretargetingConfig $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], PretargetingConfig::class);
+  }
+  /**
+   * Removes targeted apps from the pretargeting configuration.
+   * (pretargetingConfigs.removeTargetedApps)
+   *
+   * @param string $pretargetingConfig Required. The name of the pretargeting
+   * configuration. Format:
+   * bidders/{bidderAccountId}/pretargetingConfig/{configId}
+   * @param RemoveTargetedAppsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return PretargetingConfig
+   */
+  public function removeTargetedApps($pretargetingConfig, RemoveTargetedAppsRequest $postBody, $optParams = [])
+  {
+    $params = ['pretargetingConfig' => $pretargetingConfig, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('removeTargetedApps', [$params], PretargetingConfig::class);
+  }
+  /**
+   * Removes targeted publishers from the pretargeting config.
+   * (pretargetingConfigs.removeTargetedPublishers)
+   *
+   * @param string $pretargetingConfig Required. The name of the pretargeting
+   * configuration. Format:
+   * bidders/{bidderAccountId}/pretargetingConfig/{configId}
+   * @param RemoveTargetedPublishersRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return PretargetingConfig
+   */
+  public function removeTargetedPublishers($pretargetingConfig, RemoveTargetedPublishersRequest $postBody, $optParams = [])
+  {
+    $params = ['pretargetingConfig' => $pretargetingConfig, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('removeTargetedPublishers', [$params], PretargetingConfig::class);
+  }
+  /**
+   * Removes targeted sites from the pretargeting configuration.
+   * (pretargetingConfigs.removeTargetedSites)
+   *
+   * @param string $pretargetingConfig Required. The name of the pretargeting
+   * configuration. Format:
+   * bidders/{bidderAccountId}/pretargetingConfig/{configId}
+   * @param RemoveTargetedSitesRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return PretargetingConfig
+   */
+  public function removeTargetedSites($pretargetingConfig, RemoveTargetedSitesRequest $postBody, $optParams = [])
+  {
+    $params = ['pretargetingConfig' => $pretargetingConfig, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('removeTargetedSites', [$params], PretargetingConfig::class);
+  }
+  /**
+   * Suspends a pretargeting configuration. (pretargetingConfigs.suspend)
+   *
+   * @param string $name Required. The name of the pretargeting configuration.
+   * Format: bidders/{bidderAccountId}/pretargetingConfig/{configId}
+   * @param SuspendPretargetingConfigRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return PretargetingConfig
+   */
+  public function suspend($name, SuspendPretargetingConfigRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('suspend', [$params], PretargetingConfig::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(BiddersPretargetingConfigs::class, 'Google_Service_RealTimeBidding_Resource_BiddersPretargetingConfigs');

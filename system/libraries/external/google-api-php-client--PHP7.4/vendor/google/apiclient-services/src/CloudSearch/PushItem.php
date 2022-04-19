@@ -1,67 +1,96 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-3IyZ0zK2tkkGUjPBGnjPmYoWstmACASQ8RlP
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudSearch;
+
+class PushItem extends \Google\Model
+{
+  public $contentHash;
+  public $metadataHash;
+  public $payload;
+  public $queue;
+  protected $repositoryErrorType = RepositoryError::class;
+  protected $repositoryErrorDataType = '';
+  public $structuredDataHash;
+  public $type;
+
+  public function setContentHash($contentHash)
+  {
+    $this->contentHash = $contentHash;
+  }
+  public function getContentHash()
+  {
+    return $this->contentHash;
+  }
+  public function setMetadataHash($metadataHash)
+  {
+    $this->metadataHash = $metadataHash;
+  }
+  public function getMetadataHash()
+  {
+    return $this->metadataHash;
+  }
+  public function setPayload($payload)
+  {
+    $this->payload = $payload;
+  }
+  public function getPayload()
+  {
+    return $this->payload;
+  }
+  public function setQueue($queue)
+  {
+    $this->queue = $queue;
+  }
+  public function getQueue()
+  {
+    return $this->queue;
+  }
+  /**
+   * @param RepositoryError
+   */
+  public function setRepositoryError(RepositoryError $repositoryError)
+  {
+    $this->repositoryError = $repositoryError;
+  }
+  /**
+   * @return RepositoryError
+   */
+  public function getRepositoryError()
+  {
+    return $this->repositoryError;
+  }
+  public function setStructuredDataHash($structuredDataHash)
+  {
+    $this->structuredDataHash = $structuredDataHash;
+  }
+  public function getStructuredDataHash()
+  {
+    return $this->structuredDataHash;
+  }
+  public function setType($type)
+  {
+    $this->type = $type;
+  }
+  public function getType()
+  {
+    return $this->type;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PushItem::class, 'Google_Service_CloudSearch_PushItem');

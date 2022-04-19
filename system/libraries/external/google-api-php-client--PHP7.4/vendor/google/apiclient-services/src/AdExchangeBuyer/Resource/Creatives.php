@@ -1,75 +1,136 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AdExchangeBuyer\Resource;
+
+use Google\Service\AdExchangeBuyer\Creative;
+use Google\Service\AdExchangeBuyer\CreativeDealIds;
+use Google\Service\AdExchangeBuyer\CreativesList;
+
+/**
+ * The "creatives" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $adexchangebuyerService = new Google\Service\AdExchangeBuyer(...);
+ *   $creatives = $adexchangebuyerService->creatives;
+ *  </code>
+ */
+class Creatives extends \Google\Service\Resource
+{
+  /**
+   * Add a deal id association for the creative. (creatives.addDeal)
+   *
+   * @param int $accountId The id for the account that will serve this creative.
+   * @param string $buyerCreativeId The buyer-specific id for this creative.
+   * @param string $dealId The id of the deal id to associate with this creative.
+   * @param array $optParams Optional parameters.
+   */
+  public function addDeal($accountId, $buyerCreativeId, $dealId, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'buyerCreativeId' => $buyerCreativeId, 'dealId' => $dealId];
+    $params = array_merge($params, $optParams);
+    return $this->call('addDeal', [$params]);
+  }
+  /**
+   * Gets the status for a single creative. A creative will be available 30-40
+   * minutes after submission. (creatives.get)
+   *
+   * @param int $accountId The id for the account that will serve this creative.
+   * @param string $buyerCreativeId The buyer-specific id for this creative.
+   * @param array $optParams Optional parameters.
+   * @return Creative
+   */
+  public function get($accountId, $buyerCreativeId, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'buyerCreativeId' => $buyerCreativeId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Creative::class);
+  }
+  /**
+   * Submit a new creative. (creatives.insert)
+   *
+   * @param Creative $postBody
+   * @param array $optParams Optional parameters.
+   * @return Creative
+   */
+  public function insert(Creative $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Creative::class);
+  }
+  /**
+   * Retrieves a list of the authenticated user's active creatives. A creative
+   * will be available 30-40 minutes after submission. (creatives.listCreatives)
+   *
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int accountId When specified, only creatives for the given account
+   * ids are returned.
+   * @opt_param string buyerCreativeId When specified, only creatives for the
+   * given buyer creative ids are returned.
+   * @opt_param string dealsStatusFilter When specified, only creatives having the
+   * given deals status are returned.
+   * @opt_param string maxResults Maximum number of entries returned on one result
+   * page. If not set, the default is 100. Optional.
+   * @opt_param string openAuctionStatusFilter When specified, only creatives
+   * having the given open auction status are returned.
+   * @opt_param string pageToken A continuation token, used to page through ad
+   * clients. To retrieve the next page, set this parameter to the value of
+   * "nextPageToken" from the previous response. Optional.
+   * @return CreativesList
+   */
+  public function listCreatives($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], CreativesList::class);
+  }
+  /**
+   * Lists the external deal ids associated with the creative.
+   * (creatives.listDeals)
+   *
+   * @param int $accountId The id for the account that will serve this creative.
+   * @param string $buyerCreativeId The buyer-specific id for this creative.
+   * @param array $optParams Optional parameters.
+   * @return CreativeDealIds
+   */
+  public function listDeals($accountId, $buyerCreativeId, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'buyerCreativeId' => $buyerCreativeId];
+    $params = array_merge($params, $optParams);
+    return $this->call('listDeals', [$params], CreativeDealIds::class);
+  }
+  /**
+   * Remove a deal id associated with the creative. (creatives.removeDeal)
+   *
+   * @param int $accountId The id for the account that will serve this creative.
+   * @param string $buyerCreativeId The buyer-specific id for this creative.
+   * @param string $dealId The id of the deal id to disassociate with this
+   * creative.
+   * @param array $optParams Optional parameters.
+   */
+  public function removeDeal($accountId, $buyerCreativeId, $dealId, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'buyerCreativeId' => $buyerCreativeId, 'dealId' => $dealId];
+    $params = array_merge($params, $optParams);
+    return $this->call('removeDeal', [$params]);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Creatives::class, 'Google_Service_AdExchangeBuyer_Resource_Creatives');

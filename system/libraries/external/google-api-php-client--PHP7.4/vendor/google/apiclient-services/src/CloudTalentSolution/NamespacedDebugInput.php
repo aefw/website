@@ -1,97 +1,153 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-WAeVkzbVlji=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudTalentSolution;
+
+class NamespacedDebugInput extends \Google\Collection
+{
+  protected $collection_key = 'disableExps';
+  public $absolutelyForcedExpNames;
+  public $absolutelyForcedExpTags;
+  public $absolutelyForcedExps;
+  public $conditionallyForcedExpNames;
+  public $conditionallyForcedExpTags;
+  public $conditionallyForcedExps;
+  public $disableAutomaticEnrollmentSelection;
+  public $disableExpNames;
+  public $disableExpTags;
+  public $disableExps;
+  public $disableManualEnrollmentSelection;
+  public $disableOrganicSelection;
+  public $forcedFlags;
+  public $forcedRollouts;
+
+  public function setAbsolutelyForcedExpNames($absolutelyForcedExpNames)
+  {
+    $this->absolutelyForcedExpNames = $absolutelyForcedExpNames;
+  }
+  public function getAbsolutelyForcedExpNames()
+  {
+    return $this->absolutelyForcedExpNames;
+  }
+  public function setAbsolutelyForcedExpTags($absolutelyForcedExpTags)
+  {
+    $this->absolutelyForcedExpTags = $absolutelyForcedExpTags;
+  }
+  public function getAbsolutelyForcedExpTags()
+  {
+    return $this->absolutelyForcedExpTags;
+  }
+  public function setAbsolutelyForcedExps($absolutelyForcedExps)
+  {
+    $this->absolutelyForcedExps = $absolutelyForcedExps;
+  }
+  public function getAbsolutelyForcedExps()
+  {
+    return $this->absolutelyForcedExps;
+  }
+  public function setConditionallyForcedExpNames($conditionallyForcedExpNames)
+  {
+    $this->conditionallyForcedExpNames = $conditionallyForcedExpNames;
+  }
+  public function getConditionallyForcedExpNames()
+  {
+    return $this->conditionallyForcedExpNames;
+  }
+  public function setConditionallyForcedExpTags($conditionallyForcedExpTags)
+  {
+    $this->conditionallyForcedExpTags = $conditionallyForcedExpTags;
+  }
+  public function getConditionallyForcedExpTags()
+  {
+    return $this->conditionallyForcedExpTags;
+  }
+  public function setConditionallyForcedExps($conditionallyForcedExps)
+  {
+    $this->conditionallyForcedExps = $conditionallyForcedExps;
+  }
+  public function getConditionallyForcedExps()
+  {
+    return $this->conditionallyForcedExps;
+  }
+  public function setDisableAutomaticEnrollmentSelection($disableAutomaticEnrollmentSelection)
+  {
+    $this->disableAutomaticEnrollmentSelection = $disableAutomaticEnrollmentSelection;
+  }
+  public function getDisableAutomaticEnrollmentSelection()
+  {
+    return $this->disableAutomaticEnrollmentSelection;
+  }
+  public function setDisableExpNames($disableExpNames)
+  {
+    $this->disableExpNames = $disableExpNames;
+  }
+  public function getDisableExpNames()
+  {
+    return $this->disableExpNames;
+  }
+  public function setDisableExpTags($disableExpTags)
+  {
+    $this->disableExpTags = $disableExpTags;
+  }
+  public function getDisableExpTags()
+  {
+    return $this->disableExpTags;
+  }
+  public function setDisableExps($disableExps)
+  {
+    $this->disableExps = $disableExps;
+  }
+  public function getDisableExps()
+  {
+    return $this->disableExps;
+  }
+  public function setDisableManualEnrollmentSelection($disableManualEnrollmentSelection)
+  {
+    $this->disableManualEnrollmentSelection = $disableManualEnrollmentSelection;
+  }
+  public function getDisableManualEnrollmentSelection()
+  {
+    return $this->disableManualEnrollmentSelection;
+  }
+  public function setDisableOrganicSelection($disableOrganicSelection)
+  {
+    $this->disableOrganicSelection = $disableOrganicSelection;
+  }
+  public function getDisableOrganicSelection()
+  {
+    return $this->disableOrganicSelection;
+  }
+  public function setForcedFlags($forcedFlags)
+  {
+    $this->forcedFlags = $forcedFlags;
+  }
+  public function getForcedFlags()
+  {
+    return $this->forcedFlags;
+  }
+  public function setForcedRollouts($forcedRollouts)
+  {
+    $this->forcedRollouts = $forcedRollouts;
+  }
+  public function getForcedRollouts()
+  {
+    return $this->forcedRollouts;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(NamespacedDebugInput::class, 'Google_Service_CloudTalentSolution_NamespacedDebugInput');

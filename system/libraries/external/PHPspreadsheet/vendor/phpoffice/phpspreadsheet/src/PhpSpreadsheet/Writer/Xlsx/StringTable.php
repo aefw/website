@@ -1,192 +1,281 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+namespace PhpOffice\PhpSpreadsheet\Writer\Xlsx;
+
+use PhpOffice\PhpSpreadsheet\Cell\DataType;
+use PhpOffice\PhpSpreadsheet\RichText\RichText;
+use PhpOffice\PhpSpreadsheet\RichText\Run;
+use PhpOffice\PhpSpreadsheet\Shared\StringHelper;
+use PhpOffice\PhpSpreadsheet\Shared\XMLWriter;
+use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
+use PhpOffice\PhpSpreadsheet\Writer\Exception as WriterException;
+
+class StringTable extends WriterPart
+{
+    /**
+     * Create worksheet stringtable.
+     *
+     * @param Worksheet $pSheet Worksheet
+     * @param string[] $pExistingTable Existing table to eventually merge with
+     *
+     * @return string[] String table for worksheet
+     */
+    public function createStringTable(Worksheet $pSheet, $pExistingTable = null)
+    {
+        // Create string lookup table
+        $aStringTable = [];
+        $cellCollection = null;
+        $aFlippedStringTable = null; // For faster lookup
+
+        // Is an existing table given?
+        if (($pExistingTable !== null) && is_array($pExistingTable)) {
+            $aStringTable = $pExistingTable;
+        }
+
+        // Fill index array
+        $aFlippedStringTable = $this->flipStringTable($aStringTable);
+
+        // Loop through cells
+        foreach ($pSheet->getCoordinates() as $coordinate) {
+            $cell = $pSheet->getCell($coordinate);
+            $cellValue = $cell->getValue();
+            if (!is_object($cellValue) &&
+                ($cellValue !== null) &&
+                $cellValue !== '' &&
+                !isset($aFlippedStringTable[$cellValue]) &&
+                ($cell->getDataType() == DataType::TYPE_STRING || $cell->getDataType() == DataType::TYPE_STRING2 || $cell->getDataType() == DataType::TYPE_NULL)) {
+                $aStringTable[] = $cellValue;
+                $aFlippedStringTable[$cellValue] = true;
+            } elseif ($cellValue instanceof RichText &&
+                ($cellValue !== null) &&
+                !isset($aFlippedStringTable[$cellValue->getHashCode()])) {
+                $aStringTable[] = $cellValue;
+                $aFlippedStringTable[$cellValue->getHashCode()] = true;
+            }
+        }
+
+        return $aStringTable;
+    }
+
+    /**
+     * Write string table to XML format.
+     *
+     * @param string[] $pStringTable
+     *
+     * @throws WriterException
+     *
+     * @return string XML Output
+     */
+    public function writeStringTable(array $pStringTable)
+    {
+        // Create XML writer
+        $objWriter = null;
+        if ($this->getParentWriter()->getUseDiskCaching()) {
+            $objWriter = new XMLWriter(XMLWriter::STORAGE_DISK, $this->getParentWriter()->getDiskCachingDirectory());
+        } else {
+            $objWriter = new XMLWriter(XMLWriter::STORAGE_MEMORY);
+        }
+
+        // XML header
+        $objWriter->startDocument('1.0', 'UTF-8', 'yes');
+
+        // String table
+        $objWriter->startElement('sst');
+        $objWriter->writeAttribute('xmlns', 'http://schemas.openxmlformats.org/spreadsheetml/2006/main');
+        $objWriter->writeAttribute('uniqueCount', count($pStringTable));
+
+        // Loop through string table
+        foreach ($pStringTable as $textElement) {
+            $objWriter->startElement('si');
+
+            if (!$textElement instanceof RichText) {
+                $textToWrite = StringHelper::controlCharacterPHP2OOXML($textElement);
+                $objWriter->startElement('t');
+                if ($textToWrite !== trim($textToWrite)) {
+                    $objWriter->writeAttribute('xml:space', 'preserve');
+                }
+                $objWriter->writeRawData($textToWrite);
+                $objWriter->endElement();
+            } elseif ($textElement instanceof RichText) {
+                $this->writeRichText($objWriter, $textElement);
+            }
+
+            $objWriter->endElement();
+        }
+
+        $objWriter->endElement();
+
+        return $objWriter->getData();
+    }
+
+    /**
+     * Write Rich Text.
+     *
+     * @param XMLWriter $objWriter XML Writer
+     * @param RichText $pRichText Rich text
+     * @param string $prefix Optional Namespace prefix
+     */
+    public function writeRichText(XMLWriter $objWriter, RichText $pRichText, $prefix = null)
+    {
+        if ($prefix !== null) {
+            $prefix .= ':';
+        }
+
+        // Loop through rich text elements
+        $elements = $pRichText->getRichTextElements();
+        foreach ($elements as $element) {
+            // r
+            $objWriter->startElement($prefix . 'r');
+
+            // rPr
+            if ($element instanceof Run) {
+                // rPr
+                $objWriter->startElement($prefix . 'rPr');
+
+                // rFont
+                $objWriter->startElement($prefix . 'rFont');
+                $objWriter->writeAttribute('val', $element->getFont()->getName());
+                $objWriter->endElement();
+
+                // Bold
+                $objWriter->startElement($prefix . 'b');
+                $objWriter->writeAttribute('val', ($element->getFont()->getBold() ? 'true' : 'false'));
+                $objWriter->endElement();
+
+                // Italic
+                $objWriter->startElement($prefix . 'i');
+                $objWriter->writeAttribute('val', ($element->getFont()->getItalic() ? 'true' : 'false'));
+                $objWriter->endElement();
+
+                // Superscript / subscript
+                if ($element->getFont()->getSuperscript() || $element->getFont()->getSubscript()) {
+                    $objWriter->startElement($prefix . 'vertAlign');
+                    if ($element->getFont()->getSuperscript()) {
+                        $objWriter->writeAttribute('val', 'superscript');
+                    } elseif ($element->getFont()->getSubscript()) {
+                        $objWriter->writeAttribute('val', 'subscript');
+                    }
+                    $objWriter->endElement();
+                }
+
+                // Strikethrough
+                $objWriter->startElement($prefix . 'strike');
+                $objWriter->writeAttribute('val', ($element->getFont()->getStrikethrough() ? 'true' : 'false'));
+                $objWriter->endElement();
+
+                // Color
+                $objWriter->startElement($prefix . 'color');
+                $objWriter->writeAttribute('rgb', $element->getFont()->getColor()->getARGB());
+                $objWriter->endElement();
+
+                // Size
+                $objWriter->startElement($prefix . 'sz');
+                $objWriter->writeAttribute('val', $element->getFont()->getSize());
+                $objWriter->endElement();
+
+                // Underline
+                $objWriter->startElement($prefix . 'u');
+                $objWriter->writeAttribute('val', $element->getFont()->getUnderline());
+                $objWriter->endElement();
+
+                $objWriter->endElement();
+            }
+
+            // t
+            $objWriter->startElement($prefix . 't');
+            $objWriter->writeAttribute('xml:space', 'preserve');
+            $objWriter->writeRawData(StringHelper::controlCharacterPHP2OOXML($element->getText()));
+            $objWriter->endElement();
+
+            $objWriter->endElement();
+        }
+    }
+
+    /**
+     * Write Rich Text.
+     *
+     * @param XMLWriter $objWriter XML Writer
+     * @param RichText|string $pRichText text string or Rich text
+     * @param string $prefix Optional Namespace prefix
+     */
+    public function writeRichTextForCharts(XMLWriter $objWriter, $pRichText = null, $prefix = null)
+    {
+        if (!$pRichText instanceof RichText) {
+            $textRun = $pRichText;
+            $pRichText = new RichText();
+            $pRichText->createTextRun($textRun);
+        }
+
+        if ($prefix !== null) {
+            $prefix .= ':';
+        }
+
+        // Loop through rich text elements
+        $elements = $pRichText->getRichTextElements();
+        foreach ($elements as $element) {
+            // r
+            $objWriter->startElement($prefix . 'r');
+
+            // rPr
+            $objWriter->startElement($prefix . 'rPr');
+
+            // Bold
+            $objWriter->writeAttribute('b', ($element->getFont()->getBold() ? 1 : 0));
+            // Italic
+            $objWriter->writeAttribute('i', ($element->getFont()->getItalic() ? 1 : 0));
+            // Underline
+            $underlineType = $element->getFont()->getUnderline();
+            switch ($underlineType) {
+                case 'single':
+                    $underlineType = 'sng';
+
+                    break;
+                case 'double':
+                    $underlineType = 'dbl';
+
+                    break;
+            }
+            $objWriter->writeAttribute('u', $underlineType);
+            // Strikethrough
+            $objWriter->writeAttribute('strike', ($element->getFont()->getStrikethrough() ? 'sngStrike' : 'noStrike'));
+
+            // rFont
+            $objWriter->startElement($prefix . 'latin');
+            $objWriter->writeAttribute('typeface', $element->getFont()->getName());
+            $objWriter->endElement();
+
+            $objWriter->endElement();
+
+            // t
+            $objWriter->startElement($prefix . 't');
+            $objWriter->writeRawData(StringHelper::controlCharacterPHP2OOXML($element->getText()));
+            $objWriter->endElement();
+
+            $objWriter->endElement();
+        }
+    }
+
+    /**
+     * Flip string table (for index searching).
+     *
+     * @param array $stringTable Stringtable
+     *
+     * @return array
+     */
+    public function flipStringTable(array $stringTable)
+    {
+        // Return value
+        $returnValue = [];
+
+        // Loop through stringtable and add flipped items to $returnValue
+        foreach ($stringTable as $key => $value) {
+            if (!$value instanceof RichText) {
+                $returnValue[$value] = $key;
+            } elseif ($value instanceof RichText) {
+                $returnValue[$value->getHashCode()] = $key;
+            }
+        }
+
+        return $returnValue;
+    }
+}

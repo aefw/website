@@ -1,59 +1,71 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-x2wrXkJdeR6dLj3Q
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\PagespeedInsights;
+
+class ConfigSettings extends \Google\Model
+{
+  public $channel;
+  public $emulatedFormFactor;
+  public $formFactor;
+  public $locale;
+  public $onlyCategories;
+
+  public function setChannel($channel)
+  {
+    $this->channel = $channel;
+  }
+  public function getChannel()
+  {
+    return $this->channel;
+  }
+  public function setEmulatedFormFactor($emulatedFormFactor)
+  {
+    $this->emulatedFormFactor = $emulatedFormFactor;
+  }
+  public function getEmulatedFormFactor()
+  {
+    return $this->emulatedFormFactor;
+  }
+  public function setFormFactor($formFactor)
+  {
+    $this->formFactor = $formFactor;
+  }
+  public function getFormFactor()
+  {
+    return $this->formFactor;
+  }
+  public function setLocale($locale)
+  {
+    $this->locale = $locale;
+  }
+  public function getLocale()
+  {
+    return $this->locale;
+  }
+  public function setOnlyCategories($onlyCategories)
+  {
+    $this->onlyCategories = $onlyCategories;
+  }
+  public function getOnlyCategories()
+  {
+    return $this->onlyCategories;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ConfigSettings::class, 'Google_Service_PagespeedInsights_ConfigSettings');

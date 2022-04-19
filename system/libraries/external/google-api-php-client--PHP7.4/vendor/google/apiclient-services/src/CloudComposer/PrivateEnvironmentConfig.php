@@ -1,63 +1,78 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-73M7J4cv2bwvlZAmzZW=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudComposer;
+
+class PrivateEnvironmentConfig extends \Google\Model
+{
+  public $cloudSqlIpv4CidrBlock;
+  public $enablePrivateEnvironment;
+  protected $privateClusterConfigType = PrivateClusterConfig::class;
+  protected $privateClusterConfigDataType = '';
+  public $webServerIpv4CidrBlock;
+  public $webServerIpv4ReservedRange;
+
+  public function setCloudSqlIpv4CidrBlock($cloudSqlIpv4CidrBlock)
+  {
+    $this->cloudSqlIpv4CidrBlock = $cloudSqlIpv4CidrBlock;
+  }
+  public function getCloudSqlIpv4CidrBlock()
+  {
+    return $this->cloudSqlIpv4CidrBlock;
+  }
+  public function setEnablePrivateEnvironment($enablePrivateEnvironment)
+  {
+    $this->enablePrivateEnvironment = $enablePrivateEnvironment;
+  }
+  public function getEnablePrivateEnvironment()
+  {
+    return $this->enablePrivateEnvironment;
+  }
+  /**
+   * @param PrivateClusterConfig
+   */
+  public function setPrivateClusterConfig(PrivateClusterConfig $privateClusterConfig)
+  {
+    $this->privateClusterConfig = $privateClusterConfig;
+  }
+  /**
+   * @return PrivateClusterConfig
+   */
+  public function getPrivateClusterConfig()
+  {
+    return $this->privateClusterConfig;
+  }
+  public function setWebServerIpv4CidrBlock($webServerIpv4CidrBlock)
+  {
+    $this->webServerIpv4CidrBlock = $webServerIpv4CidrBlock;
+  }
+  public function getWebServerIpv4CidrBlock()
+  {
+    return $this->webServerIpv4CidrBlock;
+  }
+  public function setWebServerIpv4ReservedRange($webServerIpv4ReservedRange)
+  {
+    $this->webServerIpv4ReservedRange = $webServerIpv4ReservedRange;
+  }
+  public function getWebServerIpv4ReservedRange()
+  {
+    return $this->webServerIpv4ReservedRange;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PrivateEnvironmentConfig::class, 'Google_Service_CloudComposer_PrivateEnvironmentConfig');

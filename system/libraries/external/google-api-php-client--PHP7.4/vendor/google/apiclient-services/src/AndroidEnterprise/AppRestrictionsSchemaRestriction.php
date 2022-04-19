@@ -1,76 +1,113 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-QEDZYRXZCwmkD7jD
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AndroidEnterprise;
+
+class AppRestrictionsSchemaRestriction extends \Google\Collection
+{
+  protected $collection_key = 'nestedRestriction';
+  protected $defaultValueType = AppRestrictionsSchemaRestrictionRestrictionValue::class;
+  protected $defaultValueDataType = '';
+  public $description;
+  public $entry;
+  public $entryValue;
+  public $key;
+  protected $nestedRestrictionType = AppRestrictionsSchemaRestriction::class;
+  protected $nestedRestrictionDataType = 'array';
+  public $restrictionType;
+  public $title;
+
+  /**
+   * @param AppRestrictionsSchemaRestrictionRestrictionValue
+   */
+  public function setDefaultValue(AppRestrictionsSchemaRestrictionRestrictionValue $defaultValue)
+  {
+    $this->defaultValue = $defaultValue;
+  }
+  /**
+   * @return AppRestrictionsSchemaRestrictionRestrictionValue
+   */
+  public function getDefaultValue()
+  {
+    return $this->defaultValue;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setEntry($entry)
+  {
+    $this->entry = $entry;
+  }
+  public function getEntry()
+  {
+    return $this->entry;
+  }
+  public function setEntryValue($entryValue)
+  {
+    $this->entryValue = $entryValue;
+  }
+  public function getEntryValue()
+  {
+    return $this->entryValue;
+  }
+  public function setKey($key)
+  {
+    $this->key = $key;
+  }
+  public function getKey()
+  {
+    return $this->key;
+  }
+  /**
+   * @param AppRestrictionsSchemaRestriction[]
+   */
+  public function setNestedRestriction($nestedRestriction)
+  {
+    $this->nestedRestriction = $nestedRestriction;
+  }
+  /**
+   * @return AppRestrictionsSchemaRestriction[]
+   */
+  public function getNestedRestriction()
+  {
+    return $this->nestedRestriction;
+  }
+  public function setRestrictionType($restrictionType)
+  {
+    $this->restrictionType = $restrictionType;
+  }
+  public function getRestrictionType()
+  {
+    return $this->restrictionType;
+  }
+  public function setTitle($title)
+  {
+    $this->title = $title;
+  }
+  public function getTitle()
+  {
+    return $this->title;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AppRestrictionsSchemaRestriction::class, 'Google_Service_AndroidEnterprise_AppRestrictionsSchemaRestriction');

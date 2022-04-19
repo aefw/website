@@ -1,94 +1,161 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Logging;
+
+class HttpRequest extends \Google\Model
+{
+  public $cacheFillBytes;
+  public $cacheHit;
+  public $cacheLookup;
+  public $cacheValidatedWithOriginServer;
+  public $latency;
+  public $protocol;
+  public $referer;
+  public $remoteIp;
+  public $requestMethod;
+  public $requestSize;
+  public $requestUrl;
+  public $responseSize;
+  public $serverIp;
+  public $status;
+  public $userAgent;
+
+  public function setCacheFillBytes($cacheFillBytes)
+  {
+    $this->cacheFillBytes = $cacheFillBytes;
+  }
+  public function getCacheFillBytes()
+  {
+    return $this->cacheFillBytes;
+  }
+  public function setCacheHit($cacheHit)
+  {
+    $this->cacheHit = $cacheHit;
+  }
+  public function getCacheHit()
+  {
+    return $this->cacheHit;
+  }
+  public function setCacheLookup($cacheLookup)
+  {
+    $this->cacheLookup = $cacheLookup;
+  }
+  public function getCacheLookup()
+  {
+    return $this->cacheLookup;
+  }
+  public function setCacheValidatedWithOriginServer($cacheValidatedWithOriginServer)
+  {
+    $this->cacheValidatedWithOriginServer = $cacheValidatedWithOriginServer;
+  }
+  public function getCacheValidatedWithOriginServer()
+  {
+    return $this->cacheValidatedWithOriginServer;
+  }
+  public function setLatency($latency)
+  {
+    $this->latency = $latency;
+  }
+  public function getLatency()
+  {
+    return $this->latency;
+  }
+  public function setProtocol($protocol)
+  {
+    $this->protocol = $protocol;
+  }
+  public function getProtocol()
+  {
+    return $this->protocol;
+  }
+  public function setReferer($referer)
+  {
+    $this->referer = $referer;
+  }
+  public function getReferer()
+  {
+    return $this->referer;
+  }
+  public function setRemoteIp($remoteIp)
+  {
+    $this->remoteIp = $remoteIp;
+  }
+  public function getRemoteIp()
+  {
+    return $this->remoteIp;
+  }
+  public function setRequestMethod($requestMethod)
+  {
+    $this->requestMethod = $requestMethod;
+  }
+  public function getRequestMethod()
+  {
+    return $this->requestMethod;
+  }
+  public function setRequestSize($requestSize)
+  {
+    $this->requestSize = $requestSize;
+  }
+  public function getRequestSize()
+  {
+    return $this->requestSize;
+  }
+  public function setRequestUrl($requestUrl)
+  {
+    $this->requestUrl = $requestUrl;
+  }
+  public function getRequestUrl()
+  {
+    return $this->requestUrl;
+  }
+  public function setResponseSize($responseSize)
+  {
+    $this->responseSize = $responseSize;
+  }
+  public function getResponseSize()
+  {
+    return $this->responseSize;
+  }
+  public function setServerIp($serverIp)
+  {
+    $this->serverIp = $serverIp;
+  }
+  public function getServerIp()
+  {
+    return $this->serverIp;
+  }
+  public function setStatus($status)
+  {
+    $this->status = $status;
+  }
+  public function getStatus()
+  {
+    return $this->status;
+  }
+  public function setUserAgent($userAgent)
+  {
+    $this->userAgent = $userAgent;
+  }
+  public function getUserAgent()
+  {
+    return $this->userAgent;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(HttpRequest::class, 'Google_Service_Logging_HttpRequest');

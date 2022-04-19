@@ -1,59 +1,95 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ShoppingContent\Resource;
+
+use Google\Service\ShoppingContent\AccountStatus;
+use Google\Service\ShoppingContent\AccountstatusesCustomBatchRequest;
+use Google\Service\ShoppingContent\AccountstatusesCustomBatchResponse;
+use Google\Service\ShoppingContent\AccountstatusesListResponse;
+
+/**
+ * The "accountstatuses" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $contentService = new Google\Service\ShoppingContent(...);
+ *   $accountstatuses = $contentService->accountstatuses;
+ *  </code>
+ */
+class Accountstatuses extends \Google\Service\Resource
+{
+  /**
+   * Retrieves multiple Merchant Center account statuses in a single request.
+   * (accountstatuses.custombatch)
+   *
+   * @param AccountstatusesCustomBatchRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return AccountstatusesCustomBatchResponse
+   */
+  public function custombatch(AccountstatusesCustomBatchRequest $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('custombatch', [$params], AccountstatusesCustomBatchResponse::class);
+  }
+  /**
+   * Retrieves the status of a Merchant Center account. No itemLevelIssues are
+   * returned for multi-client accounts. (accountstatuses.get)
+   *
+   * @param string $merchantId The ID of the managing account. If this parameter
+   * is not the same as accountId, then this account must be a multi-client
+   * account and `accountId` must be the ID of a sub-account of this account.
+   * @param string $accountId The ID of the account.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string destinations If set, only issues for the specified
+   * destinations are returned, otherwise only issues for the Shopping
+   * destination.
+   * @return AccountStatus
+   */
+  public function get($merchantId, $accountId, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'accountId' => $accountId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], AccountStatus::class);
+  }
+  /**
+   * Lists the statuses of the sub-accounts in your Merchant Center account.
+   * (accountstatuses.listAccountstatuses)
+   *
+   * @param string $merchantId The ID of the managing account. This must be a
+   * multi-client account.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string destinations If set, only issues for the specified
+   * destinations are returned, otherwise only issues for the Shopping
+   * destination.
+   * @opt_param string maxResults The maximum number of account statuses to return
+   * in the response, used for paging.
+   * @opt_param string pageToken The token returned by the previous request.
+   * @return AccountstatusesListResponse
+   */
+  public function listAccountstatuses($merchantId, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], AccountstatusesListResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Accountstatuses::class, 'Google_Service_ShoppingContent_Resource_Accountstatuses');

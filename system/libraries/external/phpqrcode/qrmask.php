@@ -1,229 +1,328 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * PHP QR Code encoder
+ *
+ * Masking
+ *
+ * Based on libqrencode C library distributed under LGPL 2.1
+ * Copyright (C) 2006, 2007, 2008, 2009 Kentaro Fukuchi <fukuchi@megaui.net>
+ *
+ * PHP QR Code is distributed under LGPL 3
+ * Copyright (C) 2010 Dominik Dzienia <deltalab at poczta dot fm>
+ *
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public
+ * License as published by the Free Software Foundation; either
+ * version 3 of the License, or any later version.
+ *
+ * This library is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this library; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+ */
+ 
+	define('N1', 3);
+	define('N2', 3);
+	define('N3', 40);
+	define('N4', 10);
+
+	class QRmask {
+	
+		public $runLength = array();
+		
+		//----------------------------------------------------------------------
+		public function __construct() 
+        {
+            $this->runLength = array_fill(0, QRSPEC_WIDTH_MAX + 1, 0);
+        }
+        
+        //----------------------------------------------------------------------
+        public function writeFormatInformation($width, &$frame, $mask, $level)
+        {
+            $blacks = 0;
+            $format =  QRspec::getFormatInfo($mask, $level);
+
+            for($i=0; $i<8; $i++) {
+                if($format & 1) {
+                    $blacks += 2;
+                    $v = 0x85;
+                } else {
+                    $v = 0x84;
+                }
+                
+                $frame[8][$width - 1 - $i] = chr($v);
+                if($i < 6) {
+                    $frame[$i][8] = chr($v);
+                } else {
+                    $frame[$i + 1][8] = chr($v);
+                }
+                $format = $format >> 1;
+            }
+            
+            for($i=0; $i<7; $i++) {
+                if($format & 1) {
+                    $blacks += 2;
+                    $v = 0x85;
+                } else {
+                    $v = 0x84;
+                }
+                
+                $frame[$width - 7 + $i][8] = chr($v);
+                if($i == 0) {
+                    $frame[8][7] = chr($v);
+                } else {
+                    $frame[8][6 - $i] = chr($v);
+                }
+                
+                $format = $format >> 1;
+            }
+
+            return $blacks;
+        }
+        
+        //----------------------------------------------------------------------
+        public function mask0($x, $y) { return ($x+$y)&1;                       }
+        public function mask1($x, $y) { return ($y&1);                          }
+        public function mask2($x, $y) { return ($x%3);                          }
+        public function mask3($x, $y) { return ($x+$y)%3;                       }
+        public function mask4($x, $y) { return (((int)($y/2))+((int)($x/3)))&1; }
+        public function mask5($x, $y) { return (($x*$y)&1)+($x*$y)%3;           }
+        public function mask6($x, $y) { return ((($x*$y)&1)+($x*$y)%3)&1;       }
+        public function mask7($x, $y) { return ((($x*$y)%3)+(($x+$y)&1))&1;     }
+        
+        //----------------------------------------------------------------------
+        private function generateMaskNo($maskNo, $width, $frame)
+        {
+            $bitMask = array_fill(0, $width, array_fill(0, $width, 0));
+            
+            for($y=0; $y<$width; $y++) {
+                for($x=0; $x<$width; $x++) {
+                    if(ord($frame[$y][$x]) & 0x80) {
+                        $bitMask[$y][$x] = 0;
+                    } else {
+                        $maskFunc = call_user_func(array($this, 'mask'.$maskNo), $x, $y);
+                        $bitMask[$y][$x] = ($maskFunc == 0)?1:0;
+                    }
+                    
+                }
+            }
+            
+            return $bitMask;
+        }
+        
+        //----------------------------------------------------------------------
+        public static function serial($bitFrame)
+        {
+            $codeArr = array();
+            
+            foreach ($bitFrame as $line)
+                $codeArr[] = join('', $line);
+                
+            return gzcompress(join("\n", $codeArr), 9);
+        }
+        
+        //----------------------------------------------------------------------
+        public static function unserial($code)
+        {
+            $codeArr = array();
+            
+            $codeLines = explode("\n", gzuncompress($code));
+            foreach ($codeLines as $line)
+                $codeArr[] = str_split($line);
+            
+            return $codeArr;
+        }
+        
+        //----------------------------------------------------------------------
+        public function makeMaskNo($maskNo, $width, $s, &$d, $maskGenOnly = false) 
+        {
+            $b = 0;
+            $bitMask = array();
+            
+            $fileName = QR_CACHE_DIR.'mask_'.$maskNo.DIRECTORY_SEPARATOR.'mask_'.$width.'_'.$maskNo.'.dat';
+
+            if (QR_CACHEABLE) {
+                if (file_exists($fileName)) {
+                    $bitMask = self::unserial(file_get_contents($fileName));
+                } else {
+                    $bitMask = $this->generateMaskNo($maskNo, $width, $s, $d);
+                    if (!file_exists(QR_CACHE_DIR.'mask_'.$maskNo))
+                        mkdir(QR_CACHE_DIR.'mask_'.$maskNo);
+                    file_put_contents($fileName, self::serial($bitMask));
+                }
+            } else {
+                $bitMask = $this->generateMaskNo($maskNo, $width, $s, $d);
+            }
+
+            if ($maskGenOnly)
+                return;
+                
+            $d = $s;
+
+            for($y=0; $y<$width; $y++) {
+                for($x=0; $x<$width; $x++) {
+                    if($bitMask[$y][$x] == 1) {
+                        $d[$y][$x] = chr(ord($s[$y][$x]) ^ (int)$bitMask[$y][$x]);
+                    }
+                    $b += (int)(ord($d[$y][$x]) & 1);
+                }
+            }
+
+            return $b;
+        }
+        
+        //----------------------------------------------------------------------
+        public function makeMask($width, $frame, $maskNo, $level)
+        {
+            $masked = array_fill(0, $width, str_repeat("\0", $width));
+            $this->makeMaskNo($maskNo, $width, $frame, $masked);
+            $this->writeFormatInformation($width, $masked, $maskNo, $level);
+       
+            return $masked;
+        }
+        
+        //----------------------------------------------------------------------
+        public function calcN1N3($length)
+        {
+            $demerit = 0;
+
+            for($i=0; $i<$length; $i++) {
+                
+                if($this->runLength[$i] >= 5) {
+                    $demerit += (N1 + ($this->runLength[$i] - 5));
+                }
+                if($i & 1) {
+                    if(($i >= 3) && ($i < ($length-2)) && ($this->runLength[$i] % 3 == 0)) {
+                        $fact = (int)($this->runLength[$i] / 3);
+                        if(($this->runLength[$i-2] == $fact) &&
+                           ($this->runLength[$i-1] == $fact) &&
+                           ($this->runLength[$i+1] == $fact) &&
+                           ($this->runLength[$i+2] == $fact)) {
+                            if(($this->runLength[$i-3] < 0) || ($this->runLength[$i-3] >= (4 * $fact))) {
+                                $demerit += N3;
+                            } else if((($i+3) >= $length) || ($this->runLength[$i+3] >= (4 * $fact))) {
+                                $demerit += N3;
+                            }
+                        }
+                    }
+                }
+            }
+            return $demerit;
+        }
+        
+        //----------------------------------------------------------------------
+        public function evaluateSymbol($width, $frame)
+        {
+            $head = 0;
+            $demerit = 0;
+
+            for($y=0; $y<$width; $y++) {
+                $head = 0;
+                $this->runLength[0] = 1;
+                
+                $frameY = $frame[$y];
+                
+                if ($y>0)
+                    $frameYM = $frame[$y-1];
+                
+                for($x=0; $x<$width; $x++) {
+                    if(($x > 0) && ($y > 0)) {
+                        $b22 = ord($frameY[$x]) & ord($frameY[$x-1]) & ord($frameYM[$x]) & ord($frameYM[$x-1]);
+                        $w22 = ord($frameY[$x]) | ord($frameY[$x-1]) | ord($frameYM[$x]) | ord($frameYM[$x-1]);
+                        
+                        if(($b22 | ($w22 ^ 1))&1) {                                                                     
+                            $demerit += N2;
+                        }
+                    }
+                    if(($x == 0) && (ord($frameY[$x]) & 1)) {
+                        $this->runLength[0] = -1;
+                        $head = 1;
+                        $this->runLength[$head] = 1;
+                    } else if($x > 0) {
+                        if((ord($frameY[$x]) ^ ord($frameY[$x-1])) & 1) {
+                            $head++;
+                            $this->runLength[$head] = 1;
+                        } else {
+                            $this->runLength[$head]++;
+                        }
+                    }
+                }
+    
+                $demerit += $this->calcN1N3($head+1);
+            }
+
+            for($x=0; $x<$width; $x++) {
+                $head = 0;
+                $this->runLength[0] = 1;
+                
+                for($y=0; $y<$width; $y++) {
+                    if($y == 0 && (ord($frame[$y][$x]) & 1)) {
+                        $this->runLength[0] = -1;
+                        $head = 1;
+                        $this->runLength[$head] = 1;
+                    } else if($y > 0) {
+                        if((ord($frame[$y][$x]) ^ ord($frame[$y-1][$x])) & 1) {
+                            $head++;
+                            $this->runLength[$head] = 1;
+                        } else {
+                            $this->runLength[$head]++;
+                        }
+                    }
+                }
+            
+                $demerit += $this->calcN1N3($head+1);
+            }
+
+            return $demerit;
+        }
+        
+        
+        //----------------------------------------------------------------------
+        public function mask($width, $frame, $level)
+        {
+            $minDemerit = PHP_INT_MAX;
+            $bestMaskNum = 0;
+            $bestMask = array();
+            
+            $checked_masks = array(0,1,2,3,4,5,6,7);
+            
+            if (QR_FIND_FROM_RANDOM !== false) {
+            
+                $howManuOut = 8-(QR_FIND_FROM_RANDOM % 9);
+                for ($i = 0; $i <  $howManuOut; $i++) {
+                    $remPos = rand (0, count($checked_masks)-1);
+                    unset($checked_masks[$remPos]);
+                    $checked_masks = array_values($checked_masks);
+                }
+            
+            }
+            
+            $bestMask = $frame;
+             
+            foreach($checked_masks as $i) {
+                $mask = array_fill(0, $width, str_repeat("\0", $width));
+
+                $demerit = 0;
+                $blacks = 0;
+                $blacks  = $this->makeMaskNo($i, $width, $frame, $mask);
+                $blacks += $this->writeFormatInformation($width, $mask, $i, $level);
+                $blacks  = (int)(100 * $blacks / ($width * $width));
+                $demerit = (int)((int)(abs($blacks - 50) / 5) * N4);
+                $demerit += $this->evaluateSymbol($width, $mask);
+                
+                if($demerit < $minDemerit) {
+                    $minDemerit = $demerit;
+                    $bestMask = $mask;
+                    $bestMaskNum = $i;
+                }
+            }
+            
+            return $bestMask;
+        }
+        
+        //----------------------------------------------------------------------
+    }

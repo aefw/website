@@ -1,46 +1,180 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-1KWtbwgsYUJWom==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CustomSearchAPI\Resource;
+
+use Google\Service\CustomSearchAPI\Search;
+
+/**
+ * The "siterestrict" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $customsearchService = new Google\Service\CustomSearchAPI(...);
+ *   $siterestrict = $customsearchService->siterestrict;
+ *  </code>
+ */
+class CseSiterestrict extends \Google\Service\Resource
+{
+  /**
+   * Returns metadata about the search performed, metadata about the engine used
+   * for the search, and the search results. Uses a small set of url patterns.
+   * (siterestrict.listCseSiterestrict)
+   *
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string c2coff Enables or disables [Simplified and Traditional
+   * Chinese Search](https://developers.google.com/custom-
+   * search/docs/xml_results#chineseSearch). The default value for this parameter
+   * is 0 (zero), meaning that the feature is enabled. Supported values are: *
+   * `1`: Disabled * `0`: Enabled (default)
+   * @opt_param string cr Restricts search results to documents originating in a
+   * particular country. You may use [Boolean
+   * operators](https://developers.google.com/custom-
+   * search/docs/xml_results_appendices#booleanOperators) in the cr parameter's
+   * value. Google Search determines the country of a document by analyzing: * the
+   * top-level domain (TLD) of the document's URL * the geographic location of the
+   * Web server's IP address See the [Country Parameter
+   * Values](https://developers.google.com/custom-
+   * search/docs/xml_results_appendices#countryCollections) page for a list of
+   * valid values for this parameter.
+   * @opt_param string cx The Programmable Search Engine ID to use for this
+   * request.
+   * @opt_param string dateRestrict Restricts results to URLs based on date.
+   * Supported values include: * `d[number]`: requests results from the specified
+   * number of past days. * `w[number]`: requests results from the specified
+   * number of past weeks. * `m[number]`: requests results from the specified
+   * number of past months. * `y[number]`: requests results from the specified
+   * number of past years.
+   * @opt_param string exactTerms Identifies a phrase that all documents in the
+   * search results must contain.
+   * @opt_param string excludeTerms Identifies a word or phrase that should not
+   * appear in any documents in the search results.
+   * @opt_param string fileType Restricts results to files of a specified
+   * extension. A list of file types indexable by Google can be found in Search
+   * Console [Help Center](https://support.google.com/webmasters/answer/35287).
+   * @opt_param string filter Controls turning on or off the duplicate content
+   * filter. * See [Automatic Filtering](https://developers.google.com/custom-
+   * search/docs/xml_results#automaticFiltering) for more information about
+   * Google's search results filters. Note that host crowding filtering applies
+   * only to multi-site searches. * By default, Google applies filtering to all
+   * search results to improve the quality of those results. Acceptable values
+   * are: * `0`: Turns off duplicate content filter. * `1`: Turns on duplicate
+   * content filter.
+   * @opt_param string gl Geolocation of end user. * The `gl` parameter value is a
+   * two-letter country code. The `gl` parameter boosts search results whose
+   * country of origin matches the parameter value. See the [Country
+   * Codes](https://developers.google.com/custom-
+   * search/docs/xml_results_appendices#countryCodes) page for a list of valid
+   * values. * Specifying a `gl` parameter value should lead to more relevant
+   * results. This is particularly true for international customers and, even more
+   * specifically, for customers in English- speaking countries other than the
+   * United States.
+   * @opt_param string googlehost **Deprecated**. Use the `gl` parameter for a
+   * similar effect. The local Google domain (for example, google.com, google.de,
+   * or google.fr) to use to perform the search.
+   * @opt_param string highRange Specifies the ending value for a search range. *
+   * Use `lowRange` and `highRange` to append an inclusive search range of
+   * `lowRange...highRange` to the query.
+   * @opt_param string hl Sets the user interface language. * Explicitly setting
+   * this parameter improves the performance and the quality of your search
+   * results. * See the [Interface Languages](https://developers.google.com
+   * /custom-search/docs/xml_results#wsInterfaceLanguages) section of
+   * [Internationalizing Queries and Results
+   * Presentation](https://developers.google.com/custom-
+   * search/docs/xml_results#wsInternationalizing) for more information, and
+   * (Supported Interface Languages)[https://developers.google.com/custom-
+   * search/docs/xml_results_appendices#interfaceLanguages] for a list of
+   * supported languages.
+   * @opt_param string hq Appends the specified query terms to the query, as if
+   * they were combined with a logical AND operator.
+   * @opt_param string imgColorType Returns black and white, grayscale,
+   * transparent, or color images. Acceptable values are: * `"color"` * `"gray"` *
+   * `"mono"`: black and white * `"trans"`: transparent background
+   * @opt_param string imgDominantColor Returns images of a specific dominant
+   * color. Acceptable values are: * `"black"` * `"blue"` * `"brown"` * `"gray"` *
+   * `"green"` * `"orange"` * `"pink"` * `"purple"` * `"red"` * `"teal"` *
+   * `"white"` * `"yellow"`
+   * @opt_param string imgSize Returns images of a specified size. Acceptable
+   * values are: * `"huge"` * `"icon"` * `"large"` * `"medium"` * `"small"` *
+   * `"xlarge"` * `"xxlarge"`
+   * @opt_param string imgType Returns images of a type. Acceptable values are: *
+   * `"clipart"` * `"face"` * `"lineart"` * `"stock"` * `"photo"` * `"animated"`
+   * @opt_param string linkSite Specifies that all search results should contain a
+   * link to a particular URL.
+   * @opt_param string lowRange Specifies the starting value for a search range.
+   * Use `lowRange` and `highRange` to append an inclusive search range of
+   * `lowRange...highRange` to the query.
+   * @opt_param string lr Restricts the search to documents written in a
+   * particular language (e.g., `lr=lang_ja`). Acceptable values are: *
+   * `"lang_ar"`: Arabic * `"lang_bg"`: Bulgarian * `"lang_ca"`: Catalan *
+   * `"lang_cs"`: Czech * `"lang_da"`: Danish * `"lang_de"`: German * `"lang_el"`:
+   * Greek * `"lang_en"`: English * `"lang_es"`: Spanish * `"lang_et"`: Estonian *
+   * `"lang_fi"`: Finnish * `"lang_fr"`: French * `"lang_hr"`: Croatian *
+   * `"lang_hu"`: Hungarian * `"lang_id"`: Indonesian * `"lang_is"`: Icelandic *
+   * `"lang_it"`: Italian * `"lang_iw"`: Hebrew * `"lang_ja"`: Japanese *
+   * `"lang_ko"`: Korean * `"lang_lt"`: Lithuanian * `"lang_lv"`: Latvian *
+   * `"lang_nl"`: Dutch * `"lang_no"`: Norwegian * `"lang_pl"`: Polish *
+   * `"lang_pt"`: Portuguese * `"lang_ro"`: Romanian * `"lang_ru"`: Russian *
+   * `"lang_sk"`: Slovak * `"lang_sl"`: Slovenian * `"lang_sr"`: Serbian *
+   * `"lang_sv"`: Swedish * `"lang_tr"`: Turkish * `"lang_zh-CN"`: Chinese
+   * (Simplified) * `"lang_zh-TW"`: Chinese (Traditional)
+   * @opt_param int num Number of search results to return. * Valid values are
+   * integers between 1 and 10, inclusive.
+   * @opt_param string orTerms Provides additional search terms to check for in a
+   * document, where each document in the search results must contain at least one
+   * of the additional search terms.
+   * @opt_param string q Query
+   * @opt_param string relatedSite Specifies that all search results should be
+   * pages that are related to the specified URL.
+   * @opt_param string rights Filters based on licensing. Supported values
+   * include: `cc_publicdomain`, `cc_attribute`, `cc_sharealike`,
+   * `cc_noncommercial`, `cc_nonderived` and combinations of these. See [typical
+   * combinations](https://wiki.creativecommons.org/wiki/CC_Search_integration).
+   * @opt_param string safe Search safety level. Acceptable values are: *
+   * `"active"`: Enables SafeSearch filtering. * `"off"`: Disables SafeSearch
+   * filtering. (default)
+   * @opt_param string searchType Specifies the search type: `image`. If
+   * unspecified, results are limited to webpages. Acceptable values are: *
+   * `"image"`: custom image search.
+   * @opt_param string siteSearch Specifies a given site which should always be
+   * included or excluded from results (see `siteSearchFilter` parameter, below).
+   * @opt_param string siteSearchFilter Controls whether to include or exclude
+   * results from the site named in the `siteSearch` parameter. Acceptable values
+   * are: * `"e"`: exclude * `"i"`: include
+   * @opt_param string sort The sort expression to apply to the results. The sort
+   * parameter specifies that the results be sorted according to the specified
+   * expression i.e. sort by date. [Example:
+   * sort=date](https://developers.google.com/custom-search/docs/structured_search
+   * #sort-by-attribute).
+   * @opt_param string start The index of the first result to return. The default
+   * number of results per page is 10, so `=11` would start at the top of the
+   * second page of results. **Note**: The JSON API will never return more than
+   * 100 results, even if more than 100 documents match the query, so setting the
+   * sum of `start + num` to a number greater than 100 will produce an error. Also
+   * note that the maximum value for `num` is 10.
+   * @return Search
+   */
+  public function listCseSiterestrict($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], Search::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(CseSiterestrict::class, 'Google_Service_CustomSearchAPI_Resource_CseSiterestrict');

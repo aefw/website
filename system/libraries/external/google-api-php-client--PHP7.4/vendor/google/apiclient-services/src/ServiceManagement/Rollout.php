@@ -1,68 +1,103 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-TU+K+JU+kKoVk0==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ServiceManagement;
+
+class Rollout extends \Google\Model
+{
+  public $createTime;
+  public $createdBy;
+  protected $deleteServiceStrategyType = DeleteServiceStrategy::class;
+  protected $deleteServiceStrategyDataType = '';
+  public $rolloutId;
+  public $serviceName;
+  public $status;
+  protected $trafficPercentStrategyType = TrafficPercentStrategy::class;
+  protected $trafficPercentStrategyDataType = '';
+
+  public function setCreateTime($createTime)
+  {
+    $this->createTime = $createTime;
+  }
+  public function getCreateTime()
+  {
+    return $this->createTime;
+  }
+  public function setCreatedBy($createdBy)
+  {
+    $this->createdBy = $createdBy;
+  }
+  public function getCreatedBy()
+  {
+    return $this->createdBy;
+  }
+  /**
+   * @param DeleteServiceStrategy
+   */
+  public function setDeleteServiceStrategy(DeleteServiceStrategy $deleteServiceStrategy)
+  {
+    $this->deleteServiceStrategy = $deleteServiceStrategy;
+  }
+  /**
+   * @return DeleteServiceStrategy
+   */
+  public function getDeleteServiceStrategy()
+  {
+    return $this->deleteServiceStrategy;
+  }
+  public function setRolloutId($rolloutId)
+  {
+    $this->rolloutId = $rolloutId;
+  }
+  public function getRolloutId()
+  {
+    return $this->rolloutId;
+  }
+  public function setServiceName($serviceName)
+  {
+    $this->serviceName = $serviceName;
+  }
+  public function getServiceName()
+  {
+    return $this->serviceName;
+  }
+  public function setStatus($status)
+  {
+    $this->status = $status;
+  }
+  public function getStatus()
+  {
+    return $this->status;
+  }
+  /**
+   * @param TrafficPercentStrategy
+   */
+  public function setTrafficPercentStrategy(TrafficPercentStrategy $trafficPercentStrategy)
+  {
+    $this->trafficPercentStrategy = $trafficPercentStrategy;
+  }
+  /**
+   * @return TrafficPercentStrategy
+   */
+  public function getTrafficPercentStrategy()
+  {
+    return $this->trafficPercentStrategy;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Rollout::class, 'Google_Service_ServiceManagement_Rollout');

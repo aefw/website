@@ -1,64 +1,104 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Apigee\Resource;
+
+use Google\Service\Apigee\GoogleCloudApigeeV1Attribute;
+use Google\Service\Apigee\GoogleCloudApigeeV1Attributes;
+
+/**
+ * The "attributes" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $apigeeService = new Google\Service\Apigee(...);
+ *   $attributes = $apigeeService->attributes;
+ *  </code>
+ */
+class OrganizationsDevelopersAttributes extends \Google\Service\Resource
+{
+  /**
+   * Deletes a developer attribute. (attributes.delete)
+   *
+   * @param string $name Required. Name of the developer attribute. Use the
+   * following structure in your request:
+   * `organizations/{org}/developers/{developer_email}/attributes/{attribute}`
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1Attribute
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleCloudApigeeV1Attribute::class);
+  }
+  /**
+   * Returns the value of the specified developer attribute. (attributes.get)
+   *
+   * @param string $name Required. Name of the developer attribute. Use the
+   * following structure in your request:
+   * `organizations/{org}/developers/{developer_email}/attributes/{attribute}`
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1Attribute
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudApigeeV1Attribute::class);
+  }
+  /**
+   * Returns a list of all developer attributes.
+   * (attributes.listOrganizationsDevelopersAttributes)
+   *
+   * @param string $parent Required. Email address of the developer for which
+   * attributes are being listed in the following format:
+   * `organizations/{org}/developers/{developer_email}`
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1Attributes
+   */
+  public function listOrganizationsDevelopersAttributes($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleCloudApigeeV1Attributes::class);
+  }
+  /**
+   * Updates a developer attribute. **Note**: OAuth access tokens and Key
+   * Management Service (KMS) entities (apps, developers, and API products) are
+   * cached for 180 seconds (default). Any custom attributes associated with these
+   * entities are cached for at least 180 seconds after the entity is accessed at
+   * runtime. Therefore, an `ExpiresIn` element on the OAuthV2 policy won't be
+   * able to expire an access token in less than 180 seconds.
+   * (attributes.updateDeveloperAttribute)
+   *
+   * @param string $name Required. Name of the developer attribute. Use the
+   * following structure in your request:
+   * `organizations/{org}/developers/{developer_email}/attributes/{attribute}`
+   * @param GoogleCloudApigeeV1Attribute $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1Attribute
+   */
+  public function updateDeveloperAttribute($name, GoogleCloudApigeeV1Attribute $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('updateDeveloperAttribute', [$params], GoogleCloudApigeeV1Attribute::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(OrganizationsDevelopersAttributes::class, 'Google_Service_Apigee_Resource_OrganizationsDevelopersAttributes');

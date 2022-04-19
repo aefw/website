@@ -1,64 +1,101 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AdExchangeBuyerII\Resource;
+
+use Google\Service\AdExchangeBuyerII\AddDealAssociationRequest;
+use Google\Service\AdExchangeBuyerII\Adexchangebuyer2Empty;
+use Google\Service\AdExchangeBuyerII\ListDealAssociationsResponse;
+use Google\Service\AdExchangeBuyerII\RemoveDealAssociationRequest;
+
+/**
+ * The "dealAssociations" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $adexchangebuyer2Service = new Google\Service\AdExchangeBuyerII(...);
+ *   $dealAssociations = $adexchangebuyer2Service->dealAssociations;
+ *  </code>
+ */
+class AccountsCreativesDealAssociations extends \Google\Service\Resource
+{
+  /**
+   * Associate an existing deal with a creative. (dealAssociations.add)
+   *
+   * @param string $accountId The account the creative belongs to.
+   * @param string $creativeId The ID of the creative associated with the deal.
+   * @param AddDealAssociationRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Adexchangebuyer2Empty
+   */
+  public function add($accountId, $creativeId, AddDealAssociationRequest $postBody, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'creativeId' => $creativeId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('add', [$params], Adexchangebuyer2Empty::class);
+  }
+  /**
+   * List all creative-deal associations.
+   * (dealAssociations.listAccountsCreativesDealAssociations)
+   *
+   * @param string $accountId The account to list the associations from. Specify
+   * "-" to list all creatives the current user has access to.
+   * @param string $creativeId The creative ID to list the associations from.
+   * Specify "-" to list all creatives under the above account.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Requested page size. Server may return fewer
+   * associations than requested. If unspecified, server will pick an appropriate
+   * default.
+   * @opt_param string pageToken A token identifying a page of results the server
+   * should return. Typically, this is the value of
+   * ListDealAssociationsResponse.next_page_token returned from the previous call
+   * to 'ListDealAssociations' method.
+   * @opt_param string query An optional query string to filter deal associations.
+   * If no filter is specified, all associations will be returned. Supported
+   * queries are: - accountId=*account_id_string* -
+   * creativeId=*creative_id_string* - dealsId=*deals_id_string* -
+   * dealsStatus:{approved, conditionally_approved, disapproved, not_checked} -
+   * openAuctionStatus:{approved, conditionally_approved, disapproved,
+   * not_checked} Example: 'dealsId=12345 AND dealsStatus:disapproved'
+   * @return ListDealAssociationsResponse
+   */
+  public function listAccountsCreativesDealAssociations($accountId, $creativeId, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'creativeId' => $creativeId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListDealAssociationsResponse::class);
+  }
+  /**
+   * Remove the association between a deal and a creative.
+   * (dealAssociations.remove)
+   *
+   * @param string $accountId The account the creative belongs to.
+   * @param string $creativeId The ID of the creative associated with the deal.
+   * @param RemoveDealAssociationRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Adexchangebuyer2Empty
+   */
+  public function remove($accountId, $creativeId, RemoveDealAssociationRequest $postBody, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'creativeId' => $creativeId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('remove', [$params], Adexchangebuyer2Empty::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AccountsCreativesDealAssociations::class, 'Google_Service_AdExchangeBuyerII_Resource_AccountsCreativesDealAssociations');

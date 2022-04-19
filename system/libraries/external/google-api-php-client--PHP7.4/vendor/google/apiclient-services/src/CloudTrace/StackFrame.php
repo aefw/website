@@ -1,69 +1,124 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudTrace;
+
+class StackFrame extends \Google\Model
+{
+  public $columnNumber;
+  protected $fileNameType = TruncatableString::class;
+  protected $fileNameDataType = '';
+  protected $functionNameType = TruncatableString::class;
+  protected $functionNameDataType = '';
+  public $lineNumber;
+  protected $loadModuleType = Module::class;
+  protected $loadModuleDataType = '';
+  protected $originalFunctionNameType = TruncatableString::class;
+  protected $originalFunctionNameDataType = '';
+  protected $sourceVersionType = TruncatableString::class;
+  protected $sourceVersionDataType = '';
+
+  public function setColumnNumber($columnNumber)
+  {
+    $this->columnNumber = $columnNumber;
+  }
+  public function getColumnNumber()
+  {
+    return $this->columnNumber;
+  }
+  /**
+   * @param TruncatableString
+   */
+  public function setFileName(TruncatableString $fileName)
+  {
+    $this->fileName = $fileName;
+  }
+  /**
+   * @return TruncatableString
+   */
+  public function getFileName()
+  {
+    return $this->fileName;
+  }
+  /**
+   * @param TruncatableString
+   */
+  public function setFunctionName(TruncatableString $functionName)
+  {
+    $this->functionName = $functionName;
+  }
+  /**
+   * @return TruncatableString
+   */
+  public function getFunctionName()
+  {
+    return $this->functionName;
+  }
+  public function setLineNumber($lineNumber)
+  {
+    $this->lineNumber = $lineNumber;
+  }
+  public function getLineNumber()
+  {
+    return $this->lineNumber;
+  }
+  /**
+   * @param Module
+   */
+  public function setLoadModule(Module $loadModule)
+  {
+    $this->loadModule = $loadModule;
+  }
+  /**
+   * @return Module
+   */
+  public function getLoadModule()
+  {
+    return $this->loadModule;
+  }
+  /**
+   * @param TruncatableString
+   */
+  public function setOriginalFunctionName(TruncatableString $originalFunctionName)
+  {
+    $this->originalFunctionName = $originalFunctionName;
+  }
+  /**
+   * @return TruncatableString
+   */
+  public function getOriginalFunctionName()
+  {
+    return $this->originalFunctionName;
+  }
+  /**
+   * @param TruncatableString
+   */
+  public function setSourceVersion(TruncatableString $sourceVersion)
+  {
+    $this->sourceVersion = $sourceVersion;
+  }
+  /**
+   * @return TruncatableString
+   */
+  public function getSourceVersion()
+  {
+    return $this->sourceVersion;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(StackFrame::class, 'Google_Service_CloudTrace_StackFrame');

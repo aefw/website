@@ -1,63 +1,175 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for Genomics (v2alpha1).
+ *
+ * <p>
+ * Uploads, processes, queries, and searches Genomics data in the cloud.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/genomics" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class Genomics extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+  /** View and manage Genomics data. */
+  const GENOMICS =
+      "https://www.googleapis.com/auth/genomics";
+
+  public $pipelines;
+  public $projects_operations;
+  public $projects_workers;
+  public $workers;
+
+  /**
+   * Constructs the internal representation of the Genomics service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://genomics.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v2alpha1';
+    $this->serviceName = 'genomics';
+
+    $this->pipelines = new Genomics\Resource\Pipelines(
+        $this,
+        $this->serviceName,
+        'pipelines',
+        [
+          'methods' => [
+            'run' => [
+              'path' => 'v2alpha1/pipelines:run',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],
+          ]
+        ]
+    );
+    $this->projects_operations = new Genomics\Resource\ProjectsOperations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'cancel' => [
+              'path' => 'v2alpha1/{+name}:cancel',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v2alpha1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v2alpha1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_workers = new Genomics\Resource\ProjectsWorkers(
+        $this,
+        $this->serviceName,
+        'workers',
+        [
+          'methods' => [
+            'checkIn' => [
+              'path' => 'v2alpha1/{+id}:checkIn',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->workers = new Genomics\Resource\Workers(
+        $this,
+        $this->serviceName,
+        'workers',
+        [
+          'methods' => [
+            'checkIn' => [
+              'path' => 'v2alpha1/workers/{id}:checkIn',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Genomics::class, 'Google_Service_Genomics');

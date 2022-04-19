@@ -1,74 +1,116 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-MNSBSiLJ1ta4tf1LI4phMTgSuXUYU/D5Bm==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Books;
+
+class Bookshelf extends \Google\Model
+{
+  public $access;
+  public $created;
+  public $description;
+  public $id;
+  public $kind;
+  public $selfLink;
+  public $title;
+  public $updated;
+  public $volumeCount;
+  public $volumesLastUpdated;
+
+  public function setAccess($access)
+  {
+    $this->access = $access;
+  }
+  public function getAccess()
+  {
+    return $this->access;
+  }
+  public function setCreated($created)
+  {
+    $this->created = $created;
+  }
+  public function getCreated()
+  {
+    return $this->created;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setSelfLink($selfLink)
+  {
+    $this->selfLink = $selfLink;
+  }
+  public function getSelfLink()
+  {
+    return $this->selfLink;
+  }
+  public function setTitle($title)
+  {
+    $this->title = $title;
+  }
+  public function getTitle()
+  {
+    return $this->title;
+  }
+  public function setUpdated($updated)
+  {
+    $this->updated = $updated;
+  }
+  public function getUpdated()
+  {
+    return $this->updated;
+  }
+  public function setVolumeCount($volumeCount)
+  {
+    $this->volumeCount = $volumeCount;
+  }
+  public function getVolumeCount()
+  {
+    return $this->volumeCount;
+  }
+  public function setVolumesLastUpdated($volumesLastUpdated)
+  {
+    $this->volumesLastUpdated = $volumesLastUpdated;
+  }
+  public function getVolumesLastUpdated()
+  {
+    return $this->volumesLastUpdated;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Bookshelf::class, 'Google_Service_Books_Bookshelf');

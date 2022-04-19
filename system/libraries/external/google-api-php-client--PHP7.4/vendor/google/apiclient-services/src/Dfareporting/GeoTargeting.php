@@ -1,65 +1,116 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-WM37PWEL6EETj6pzziu=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dfareporting;
+
+class GeoTargeting extends \Google\Collection
+{
+  protected $collection_key = 'regions';
+  protected $citiesType = City::class;
+  protected $citiesDataType = 'array';
+  protected $countriesType = Country::class;
+  protected $countriesDataType = 'array';
+  public $excludeCountries;
+  protected $metrosType = Metro::class;
+  protected $metrosDataType = 'array';
+  protected $postalCodesType = PostalCode::class;
+  protected $postalCodesDataType = 'array';
+  protected $regionsType = Region::class;
+  protected $regionsDataType = 'array';
+
+  /**
+   * @param City[]
+   */
+  public function setCities($cities)
+  {
+    $this->cities = $cities;
+  }
+  /**
+   * @return City[]
+   */
+  public function getCities()
+  {
+    return $this->cities;
+  }
+  /**
+   * @param Country[]
+   */
+  public function setCountries($countries)
+  {
+    $this->countries = $countries;
+  }
+  /**
+   * @return Country[]
+   */
+  public function getCountries()
+  {
+    return $this->countries;
+  }
+  public function setExcludeCountries($excludeCountries)
+  {
+    $this->excludeCountries = $excludeCountries;
+  }
+  public function getExcludeCountries()
+  {
+    return $this->excludeCountries;
+  }
+  /**
+   * @param Metro[]
+   */
+  public function setMetros($metros)
+  {
+    $this->metros = $metros;
+  }
+  /**
+   * @return Metro[]
+   */
+  public function getMetros()
+  {
+    return $this->metros;
+  }
+  /**
+   * @param PostalCode[]
+   */
+  public function setPostalCodes($postalCodes)
+  {
+    $this->postalCodes = $postalCodes;
+  }
+  /**
+   * @return PostalCode[]
+   */
+  public function getPostalCodes()
+  {
+    return $this->postalCodes;
+  }
+  /**
+   * @param Region[]
+   */
+  public function setRegions($regions)
+  {
+    $this->regions = $regions;
+  }
+  /**
+   * @return Region[]
+   */
+  public function getRegions()
+  {
+    return $this->regions;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GeoTargeting::class, 'Google_Service_Dfareporting_GeoTargeting');

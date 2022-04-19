@@ -1,89 +1,143 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AndroidManagement;
+
+class PasswordRequirements extends \Google\Model
+{
+  public $maximumFailedPasswordsForWipe;
+  public $passwordExpirationTimeout;
+  public $passwordHistoryLength;
+  public $passwordMinimumLength;
+  public $passwordMinimumLetters;
+  public $passwordMinimumLowerCase;
+  public $passwordMinimumNonLetter;
+  public $passwordMinimumNumeric;
+  public $passwordMinimumSymbols;
+  public $passwordMinimumUpperCase;
+  public $passwordQuality;
+  public $passwordScope;
+  public $requirePasswordUnlock;
+
+  public function setMaximumFailedPasswordsForWipe($maximumFailedPasswordsForWipe)
+  {
+    $this->maximumFailedPasswordsForWipe = $maximumFailedPasswordsForWipe;
+  }
+  public function getMaximumFailedPasswordsForWipe()
+  {
+    return $this->maximumFailedPasswordsForWipe;
+  }
+  public function setPasswordExpirationTimeout($passwordExpirationTimeout)
+  {
+    $this->passwordExpirationTimeout = $passwordExpirationTimeout;
+  }
+  public function getPasswordExpirationTimeout()
+  {
+    return $this->passwordExpirationTimeout;
+  }
+  public function setPasswordHistoryLength($passwordHistoryLength)
+  {
+    $this->passwordHistoryLength = $passwordHistoryLength;
+  }
+  public function getPasswordHistoryLength()
+  {
+    return $this->passwordHistoryLength;
+  }
+  public function setPasswordMinimumLength($passwordMinimumLength)
+  {
+    $this->passwordMinimumLength = $passwordMinimumLength;
+  }
+  public function getPasswordMinimumLength()
+  {
+    return $this->passwordMinimumLength;
+  }
+  public function setPasswordMinimumLetters($passwordMinimumLetters)
+  {
+    $this->passwordMinimumLetters = $passwordMinimumLetters;
+  }
+  public function getPasswordMinimumLetters()
+  {
+    return $this->passwordMinimumLetters;
+  }
+  public function setPasswordMinimumLowerCase($passwordMinimumLowerCase)
+  {
+    $this->passwordMinimumLowerCase = $passwordMinimumLowerCase;
+  }
+  public function getPasswordMinimumLowerCase()
+  {
+    return $this->passwordMinimumLowerCase;
+  }
+  public function setPasswordMinimumNonLetter($passwordMinimumNonLetter)
+  {
+    $this->passwordMinimumNonLetter = $passwordMinimumNonLetter;
+  }
+  public function getPasswordMinimumNonLetter()
+  {
+    return $this->passwordMinimumNonLetter;
+  }
+  public function setPasswordMinimumNumeric($passwordMinimumNumeric)
+  {
+    $this->passwordMinimumNumeric = $passwordMinimumNumeric;
+  }
+  public function getPasswordMinimumNumeric()
+  {
+    return $this->passwordMinimumNumeric;
+  }
+  public function setPasswordMinimumSymbols($passwordMinimumSymbols)
+  {
+    $this->passwordMinimumSymbols = $passwordMinimumSymbols;
+  }
+  public function getPasswordMinimumSymbols()
+  {
+    return $this->passwordMinimumSymbols;
+  }
+  public function setPasswordMinimumUpperCase($passwordMinimumUpperCase)
+  {
+    $this->passwordMinimumUpperCase = $passwordMinimumUpperCase;
+  }
+  public function getPasswordMinimumUpperCase()
+  {
+    return $this->passwordMinimumUpperCase;
+  }
+  public function setPasswordQuality($passwordQuality)
+  {
+    $this->passwordQuality = $passwordQuality;
+  }
+  public function getPasswordQuality()
+  {
+    return $this->passwordQuality;
+  }
+  public function setPasswordScope($passwordScope)
+  {
+    $this->passwordScope = $passwordScope;
+  }
+  public function getPasswordScope()
+  {
+    return $this->passwordScope;
+  }
+  public function setRequirePasswordUnlock($requirePasswordUnlock)
+  {
+    $this->requirePasswordUnlock = $requirePasswordUnlock;
+  }
+  public function getRequirePasswordUnlock()
+  {
+    return $this->requirePasswordUnlock;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PasswordRequirements::class, 'Google_Service_AndroidManagement_PasswordRequirements');

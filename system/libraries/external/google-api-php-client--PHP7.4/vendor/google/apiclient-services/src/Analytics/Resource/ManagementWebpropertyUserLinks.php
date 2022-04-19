@@ -1,69 +1,106 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-2bMTKG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Analytics\Resource;
+
+use Google\Service\Analytics\EntityUserLink;
+use Google\Service\Analytics\EntityUserLinks;
+
+/**
+ * The "webpropertyUserLinks" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $analyticsService = new Google\Service\Analytics(...);
+ *   $webpropertyUserLinks = $analyticsService->webpropertyUserLinks;
+ *  </code>
+ */
+class ManagementWebpropertyUserLinks extends \Google\Service\Resource
+{
+  /**
+   * Removes a user from the given web property. (webpropertyUserLinks.delete)
+   *
+   * @param string $accountId Account ID to delete the user link for.
+   * @param string $webPropertyId Web Property ID to delete the user link for.
+   * @param string $linkId Link ID to delete the user link for.
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($accountId, $webPropertyId, $linkId, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'linkId' => $linkId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Adds a new user to the given web property. (webpropertyUserLinks.insert)
+   *
+   * @param string $accountId Account ID to create the user link for.
+   * @param string $webPropertyId Web Property ID to create the user link for.
+   * @param EntityUserLink $postBody
+   * @param array $optParams Optional parameters.
+   * @return EntityUserLink
+   */
+  public function insert($accountId, $webPropertyId, EntityUserLink $postBody, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], EntityUserLink::class);
+  }
+  /**
+   * Lists webProperty-user links for a given web property.
+   * (webpropertyUserLinks.listManagementWebpropertyUserLinks)
+   *
+   * @param string $accountId Account ID which the given web property belongs to.
+   * @param string $webPropertyId Web Property ID for the webProperty-user links
+   * to retrieve. Can either be a specific web property ID or '~all', which refers
+   * to all the web properties that user has access to.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int max-results The maximum number of webProperty-user Links to
+   * include in this response.
+   * @opt_param int start-index An index of the first webProperty-user link to
+   * retrieve. Use this parameter as a pagination mechanism along with the max-
+   * results parameter.
+   * @return EntityUserLinks
+   */
+  public function listManagementWebpropertyUserLinks($accountId, $webPropertyId, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], EntityUserLinks::class);
+  }
+  /**
+   * Updates permissions for an existing user on the given web property.
+   * (webpropertyUserLinks.update)
+   *
+   * @param string $accountId Account ID to update the account-user link for.
+   * @param string $webPropertyId Web property ID to update the account-user link
+   * for.
+   * @param string $linkId Link ID to update the account-user link for.
+   * @param EntityUserLink $postBody
+   * @param array $optParams Optional parameters.
+   * @return EntityUserLink
+   */
+  public function update($accountId, $webPropertyId, $linkId, EntityUserLink $postBody, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'linkId' => $linkId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], EntityUserLink::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ManagementWebpropertyUserLinks::class, 'Google_Service_Analytics_Resource_ManagementWebpropertyUserLinks');

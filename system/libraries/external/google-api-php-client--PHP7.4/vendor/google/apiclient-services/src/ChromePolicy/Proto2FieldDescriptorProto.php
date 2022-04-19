@@ -1,73 +1,107 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ChromePolicy;
+
+class Proto2FieldDescriptorProto extends \Google\Model
+{
+  public $defaultValue;
+  public $jsonName;
+  public $label;
+  public $name;
+  public $number;
+  public $oneofIndex;
+  public $proto3Optional;
+  public $type;
+  public $typeName;
+
+  public function setDefaultValue($defaultValue)
+  {
+    $this->defaultValue = $defaultValue;
+  }
+  public function getDefaultValue()
+  {
+    return $this->defaultValue;
+  }
+  public function setJsonName($jsonName)
+  {
+    $this->jsonName = $jsonName;
+  }
+  public function getJsonName()
+  {
+    return $this->jsonName;
+  }
+  public function setLabel($label)
+  {
+    $this->label = $label;
+  }
+  public function getLabel()
+  {
+    return $this->label;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setNumber($number)
+  {
+    $this->number = $number;
+  }
+  public function getNumber()
+  {
+    return $this->number;
+  }
+  public function setOneofIndex($oneofIndex)
+  {
+    $this->oneofIndex = $oneofIndex;
+  }
+  public function getOneofIndex()
+  {
+    return $this->oneofIndex;
+  }
+  public function setProto3Optional($proto3Optional)
+  {
+    $this->proto3Optional = $proto3Optional;
+  }
+  public function getProto3Optional()
+  {
+    return $this->proto3Optional;
+  }
+  public function setType($type)
+  {
+    $this->type = $type;
+  }
+  public function getType()
+  {
+    return $this->type;
+  }
+  public function setTypeName($typeName)
+  {
+    $this->typeName = $typeName;
+  }
+  public function getTypeName()
+  {
+    return $this->typeName;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Proto2FieldDescriptorProto::class, 'Google_Service_ChromePolicy_Proto2FieldDescriptorProto');

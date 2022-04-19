@@ -1,158 +1,371 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Bigquery;
+
+class Table extends \Google\Model
+{
+  protected $clusteringType = Clustering::class;
+  protected $clusteringDataType = '';
+  public $creationTime;
+  public $description;
+  protected $encryptionConfigurationType = EncryptionConfiguration::class;
+  protected $encryptionConfigurationDataType = '';
+  public $etag;
+  public $expirationTime;
+  protected $externalDataConfigurationType = ExternalDataConfiguration::class;
+  protected $externalDataConfigurationDataType = '';
+  public $friendlyName;
+  public $id;
+  public $kind;
+  public $labels;
+  public $lastModifiedTime;
+  public $location;
+  protected $materializedViewType = MaterializedViewDefinition::class;
+  protected $materializedViewDataType = '';
+  protected $modelType = ModelDefinition::class;
+  protected $modelDataType = '';
+  public $numBytes;
+  public $numLongTermBytes;
+  public $numPhysicalBytes;
+  public $numRows;
+  protected $rangePartitioningType = RangePartitioning::class;
+  protected $rangePartitioningDataType = '';
+  public $requirePartitionFilter;
+  protected $schemaType = TableSchema::class;
+  protected $schemaDataType = '';
+  public $selfLink;
+  protected $snapshotDefinitionType = SnapshotDefinition::class;
+  protected $snapshotDefinitionDataType = '';
+  protected $streamingBufferType = Streamingbuffer::class;
+  protected $streamingBufferDataType = '';
+  protected $tableReferenceType = TableReference::class;
+  protected $tableReferenceDataType = '';
+  protected $timePartitioningType = TimePartitioning::class;
+  protected $timePartitioningDataType = '';
+  public $type;
+  protected $viewType = ViewDefinition::class;
+  protected $viewDataType = '';
+
+  /**
+   * @param Clustering
+   */
+  public function setClustering(Clustering $clustering)
+  {
+    $this->clustering = $clustering;
+  }
+  /**
+   * @return Clustering
+   */
+  public function getClustering()
+  {
+    return $this->clustering;
+  }
+  public function setCreationTime($creationTime)
+  {
+    $this->creationTime = $creationTime;
+  }
+  public function getCreationTime()
+  {
+    return $this->creationTime;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  /**
+   * @param EncryptionConfiguration
+   */
+  public function setEncryptionConfiguration(EncryptionConfiguration $encryptionConfiguration)
+  {
+    $this->encryptionConfiguration = $encryptionConfiguration;
+  }
+  /**
+   * @return EncryptionConfiguration
+   */
+  public function getEncryptionConfiguration()
+  {
+    return $this->encryptionConfiguration;
+  }
+  public function setEtag($etag)
+  {
+    $this->etag = $etag;
+  }
+  public function getEtag()
+  {
+    return $this->etag;
+  }
+  public function setExpirationTime($expirationTime)
+  {
+    $this->expirationTime = $expirationTime;
+  }
+  public function getExpirationTime()
+  {
+    return $this->expirationTime;
+  }
+  /**
+   * @param ExternalDataConfiguration
+   */
+  public function setExternalDataConfiguration(ExternalDataConfiguration $externalDataConfiguration)
+  {
+    $this->externalDataConfiguration = $externalDataConfiguration;
+  }
+  /**
+   * @return ExternalDataConfiguration
+   */
+  public function getExternalDataConfiguration()
+  {
+    return $this->externalDataConfiguration;
+  }
+  public function setFriendlyName($friendlyName)
+  {
+    $this->friendlyName = $friendlyName;
+  }
+  public function getFriendlyName()
+  {
+    return $this->friendlyName;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setLabels($labels)
+  {
+    $this->labels = $labels;
+  }
+  public function getLabels()
+  {
+    return $this->labels;
+  }
+  public function setLastModifiedTime($lastModifiedTime)
+  {
+    $this->lastModifiedTime = $lastModifiedTime;
+  }
+  public function getLastModifiedTime()
+  {
+    return $this->lastModifiedTime;
+  }
+  public function setLocation($location)
+  {
+    $this->location = $location;
+  }
+  public function getLocation()
+  {
+    return $this->location;
+  }
+  /**
+   * @param MaterializedViewDefinition
+   */
+  public function setMaterializedView(MaterializedViewDefinition $materializedView)
+  {
+    $this->materializedView = $materializedView;
+  }
+  /**
+   * @return MaterializedViewDefinition
+   */
+  public function getMaterializedView()
+  {
+    return $this->materializedView;
+  }
+  /**
+   * @param ModelDefinition
+   */
+  public function setModel(ModelDefinition $model)
+  {
+    $this->model = $model;
+  }
+  /**
+   * @return ModelDefinition
+   */
+  public function getModel()
+  {
+    return $this->model;
+  }
+  public function setNumBytes($numBytes)
+  {
+    $this->numBytes = $numBytes;
+  }
+  public function getNumBytes()
+  {
+    return $this->numBytes;
+  }
+  public function setNumLongTermBytes($numLongTermBytes)
+  {
+    $this->numLongTermBytes = $numLongTermBytes;
+  }
+  public function getNumLongTermBytes()
+  {
+    return $this->numLongTermBytes;
+  }
+  public function setNumPhysicalBytes($numPhysicalBytes)
+  {
+    $this->numPhysicalBytes = $numPhysicalBytes;
+  }
+  public function getNumPhysicalBytes()
+  {
+    return $this->numPhysicalBytes;
+  }
+  public function setNumRows($numRows)
+  {
+    $this->numRows = $numRows;
+  }
+  public function getNumRows()
+  {
+    return $this->numRows;
+  }
+  /**
+   * @param RangePartitioning
+   */
+  public function setRangePartitioning(RangePartitioning $rangePartitioning)
+  {
+    $this->rangePartitioning = $rangePartitioning;
+  }
+  /**
+   * @return RangePartitioning
+   */
+  public function getRangePartitioning()
+  {
+    return $this->rangePartitioning;
+  }
+  public function setRequirePartitionFilter($requirePartitionFilter)
+  {
+    $this->requirePartitionFilter = $requirePartitionFilter;
+  }
+  public function getRequirePartitionFilter()
+  {
+    return $this->requirePartitionFilter;
+  }
+  /**
+   * @param TableSchema
+   */
+  public function setSchema(TableSchema $schema)
+  {
+    $this->schema = $schema;
+  }
+  /**
+   * @return TableSchema
+   */
+  public function getSchema()
+  {
+    return $this->schema;
+  }
+  public function setSelfLink($selfLink)
+  {
+    $this->selfLink = $selfLink;
+  }
+  public function getSelfLink()
+  {
+    return $this->selfLink;
+  }
+  /**
+   * @param SnapshotDefinition
+   */
+  public function setSnapshotDefinition(SnapshotDefinition $snapshotDefinition)
+  {
+    $this->snapshotDefinition = $snapshotDefinition;
+  }
+  /**
+   * @return SnapshotDefinition
+   */
+  public function getSnapshotDefinition()
+  {
+    return $this->snapshotDefinition;
+  }
+  /**
+   * @param Streamingbuffer
+   */
+  public function setStreamingBuffer(Streamingbuffer $streamingBuffer)
+  {
+    $this->streamingBuffer = $streamingBuffer;
+  }
+  /**
+   * @return Streamingbuffer
+   */
+  public function getStreamingBuffer()
+  {
+    return $this->streamingBuffer;
+  }
+  /**
+   * @param TableReference
+   */
+  public function setTableReference(TableReference $tableReference)
+  {
+    $this->tableReference = $tableReference;
+  }
+  /**
+   * @return TableReference
+   */
+  public function getTableReference()
+  {
+    return $this->tableReference;
+  }
+  /**
+   * @param TimePartitioning
+   */
+  public function setTimePartitioning(TimePartitioning $timePartitioning)
+  {
+    $this->timePartitioning = $timePartitioning;
+  }
+  /**
+   * @return TimePartitioning
+   */
+  public function getTimePartitioning()
+  {
+    return $this->timePartitioning;
+  }
+  public function setType($type)
+  {
+    $this->type = $type;
+  }
+  public function getType()
+  {
+    return $this->type;
+  }
+  /**
+   * @param ViewDefinition
+   */
+  public function setView(ViewDefinition $view)
+  {
+    $this->view = $view;
+  }
+  /**
+   * @return ViewDefinition
+   */
+  public function getView()
+  {
+    return $this->view;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Table::class, 'Google_Service_Bigquery_Table');

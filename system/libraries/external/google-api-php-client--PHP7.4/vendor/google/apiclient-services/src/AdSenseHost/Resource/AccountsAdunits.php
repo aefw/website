@@ -1,81 +1,159 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-50==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AdSenseHost\Resource;
+
+use Google\Service\AdSenseHost\AdCode;
+use Google\Service\AdSenseHost\AdUnit;
+use Google\Service\AdSenseHost\AdUnits;
+
+/**
+ * The "adunits" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $adsensehostService = new Google\Service\AdSenseHost(...);
+ *   $adunits = $adsensehostService->adunits;
+ *  </code>
+ */
+class AccountsAdunits extends \Google\Service\Resource
+{
+  /**
+   * Delete the specified ad unit from the specified publisher AdSense account.
+   * (adunits.delete)
+   *
+   * @param string $accountId Account which contains the ad unit.
+   * @param string $adClientId Ad client for which to get ad unit.
+   * @param string $adUnitId Ad unit to delete.
+   * @param array $optParams Optional parameters.
+   * @return AdUnit
+   */
+  public function delete($accountId, $adClientId, $adUnitId, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'adClientId' => $adClientId, 'adUnitId' => $adUnitId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], AdUnit::class);
+  }
+  /**
+   * Get the specified host ad unit in this AdSense account. (adunits.get)
+   *
+   * @param string $accountId Account which contains the ad unit.
+   * @param string $adClientId Ad client for which to get ad unit.
+   * @param string $adUnitId Ad unit to get.
+   * @param array $optParams Optional parameters.
+   * @return AdUnit
+   */
+  public function get($accountId, $adClientId, $adUnitId, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'adClientId' => $adClientId, 'adUnitId' => $adUnitId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], AdUnit::class);
+  }
+  /**
+   * Get ad code for the specified ad unit, attaching the specified host custom
+   * channels. (adunits.getAdCode)
+   *
+   * @param string $accountId Account which contains the ad client.
+   * @param string $adClientId Ad client with contains the ad unit.
+   * @param string $adUnitId Ad unit to get the code for.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string hostCustomChannelId Host custom channel to attach to the ad
+   * code.
+   * @return AdCode
+   */
+  public function getAdCode($accountId, $adClientId, $adUnitId, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'adClientId' => $adClientId, 'adUnitId' => $adUnitId];
+    $params = array_merge($params, $optParams);
+    return $this->call('getAdCode', [$params], AdCode::class);
+  }
+  /**
+   * Insert the supplied ad unit into the specified publisher AdSense account.
+   * (adunits.insert)
+   *
+   * @param string $accountId Account which will contain the ad unit.
+   * @param string $adClientId Ad client into which to insert the ad unit.
+   * @param AdUnit $postBody
+   * @param array $optParams Optional parameters.
+   * @return AdUnit
+   */
+  public function insert($accountId, $adClientId, AdUnit $postBody, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'adClientId' => $adClientId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], AdUnit::class);
+  }
+  /**
+   * List all ad units in the specified publisher's AdSense account.
+   * (adunits.listAccountsAdunits)
+   *
+   * @param string $accountId Account which contains the ad client.
+   * @param string $adClientId Ad client for which to list ad units.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool includeInactive Whether to include inactive ad units.
+   * Default: true.
+   * @opt_param string maxResults The maximum number of ad units to include in the
+   * response, used for paging.
+   * @opt_param string pageToken A continuation token, used to page through ad
+   * units. To retrieve the next page, set this parameter to the value of
+   * "nextPageToken" from the previous response.
+   * @return AdUnits
+   */
+  public function listAccountsAdunits($accountId, $adClientId, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'adClientId' => $adClientId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], AdUnits::class);
+  }
+  /**
+   * Update the supplied ad unit in the specified publisher AdSense account. This
+   * method supports patch semantics. (adunits.patch)
+   *
+   * @param string $accountId Account which contains the ad client.
+   * @param string $adClientId Ad client which contains the ad unit.
+   * @param string $adUnitId Ad unit to get.
+   * @param AdUnit $postBody
+   * @param array $optParams Optional parameters.
+   * @return AdUnit
+   */
+  public function patch($accountId, $adClientId, $adUnitId, AdUnit $postBody, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'adClientId' => $adClientId, 'adUnitId' => $adUnitId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], AdUnit::class);
+  }
+  /**
+   * Update the supplied ad unit in the specified publisher AdSense account.
+   * (adunits.update)
+   *
+   * @param string $accountId Account which contains the ad client.
+   * @param string $adClientId Ad client which contains the ad unit.
+   * @param AdUnit $postBody
+   * @param array $optParams Optional parameters.
+   * @return AdUnit
+   */
+  public function update($accountId, $adClientId, AdUnit $postBody, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'adClientId' => $adClientId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], AdUnit::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AccountsAdunits::class, 'Google_Service_AdSenseHost_Resource_AccountsAdunits');

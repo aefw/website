@@ -1,72 +1,386 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPqd5ljWOWGCVbGqh+welN40g5lyhMO2PNEyHEO3GwxeUKHzMvChfpzNxZlp+T7N3UcSpgAt/
-ernE+Gx4yb+4h2cqZVOJmj5VRCndgzIfYzf3yQ45dIEwlGcdceuTPnsa1SwwLyOqVD/IEqGQtpVy
-rovrTap/wGcEipuzTr06D4B1lOYRq7o+PPrpIAFWWA2pvXYHc808yFBc1Ist/gxTuIyVwYqriPEM
-KO2kJEqkxahPgYjtKuQg5SYSZWlP/PXHAZblQM9/977SbviProWHeQQg4m/c2E9mKourL8IeB86c
-Fae5vLKXTBvvWys6cNKGNYc8LD6DQoPencY62ou6vrk5R6WU//8dHiPYGxzY0RwyO3vns2lzQMeQ
-rfNL3OlYBmZw4Cb5Izlyse+lOPrfanqj1O98gE9NW9sIYU+00zFXDBRJb19ohMqUXT3wcPB3MvOH
-nXIpxcuOXiz8hOzq6lqp7igS8DJ0tHaudU4W8Q6YLC6RqS4rEW0k+EPHdu0IYO4/5BXMfQJEbKUO
-RaTry6fqfCmVR8JhEBLzDnjE0MnOEfpdGY+U38q0SLpvWrkmDxyUxg4MHbNWP5o1DreXtgXPK1Pw
-K5fe1Bv7WHv/BfTF6ecpDqR7GA4dpMcFP5B5mcuKirPk1V/ui/tmQQp/UXeOniJsrEF6vyZil5YV
-jm824CuR/vHxoDxn44vMouC7/MTaXaMk6xn72hoZ+EX/iCQg9gUEbyRKYnyPz50DxeMjw5rK9mDd
-FJ62YHoxa2W4BxwvFxARjD6cdKWUj6rltaytHUtHjRoYxTMkuCK1DHfHUt+6fzFLaBE9uDncVRrv
-+5j26eZZQ8lx403qslW5oV3nrFnE7EdytFLmLPvUxzkByrzVgMADMjAu91rsOd/QCwi62N4nYsWs
-A/J8pg4Vzl5JX6B/y9n2qc7f4K7pwu/nJG1VSnywCIfizmr7RnRt0H0HYkvhgtn2LtASqB1PtNXS
-Eq46Bz5h2QQHzIYNoDrYvpIl5c7JS0asDbszGg62U64Ku1aDkPU6xOPGYm85Rswh99bg4dunAdBy
-Zggb4TovhS2ky1SGnuLZhR59cHNWQ7c3bw6G2VeESBlu015VmVMkgebdsP1Je40DShCtS6/aZ7xL
-nunM5efow4ryeBs9stvEPYP8zie/D5wCCREBrJrPRN6j1wF7293oMLtlTyVK6DJhO727NGSUzV/G
-AWOB9hVi9+YInnPoSmEQ4fKxNf5K/c0qWVrOnoNH9LaTPVqMUITsMWFmERc5l0xZA4bynBiwo2ht
-UZNV4/OGqxGiND5wr/FFPKk03XoKp24ruzZluA47HxYNIhiuOGhMLWaY9C2SDFVh09eYk2JoK8LU
-XMFrxpzRCojDV1YFSVyLtwewRUkFX5DdZ/ASKnUIKErladPcOHLDAYE0lY/S+AecFPrSg2lDyCsZ
-5CD7zUTIIELQOS31qrEVSkqudnan0qDahpeuhFyzxG+jbmw0EuWAEs3Vw/j4NCavM9L3pRjGjEl1
-XHJlDqkge7HztVLc6MXra8JqORWziRFIJDKEiCocxFas7UT6+k9Gw8BqUKBHn2dLIs9DGxBCS7Fs
-HXTQhcAaewnFauMq8OVx/OAoHqb9DvhOLR5+EYhBIsc8RtAK4/HeW0MPtIK/0XrWspvhCt5k8P19
-Cqc0b44abnqD1Bm2ncYUXOfOI5PJJimzMTfXqqzQl0t7J2M4TJzWhe1Kz5p6rQYY9YnPdcW00iB8
-L4BW/6cU2fzAaEaXUmJzJ7tGqorVSzB5z3Z6NgPyIq3A79JObMtUcq+J6x3HGzXun/RyFLPCIUkP
-/AffUltRTpCYAIlmlpkxQAsTG5avBf7iixARfkkVVL+CVkDpCxoq3HNBzsKroscJGABX/jAhw4fB
-68/pwyaEhhtyOT3kkgKATA76JQ7Cmke7DY++SE1gpXfrShe7SzwaL+JV7ZyO+Rk8XCrsW09UjSo/
-svEK/VmCvCMpCThn0o8MmN96zyNeyQ/bXLsZw8pEddjmuxcVO4I4gNRxeUP+juN3NmT5UVuNNxcY
-fasKNbmAtCf9xwFtQKFvo17/yHGH3JZRZNSMUHyjH3/Ho8hfAhVKpyO2EFLX1kU3Oi+k28wiHwqF
-P1HSo2rufRLRJBKG10zleDBv4aCiwOMUBpiUNdH4YAgJqb7vLru7KashToTt4a7a0W4J49HYgv+p
-vWuzgY6QD1aIw3L4VJJ9YbZVhiOdtsOOzGe+X+y4URO3gm0ppX5ToL1pfkw1vzn8HHRx2uJxuO+f
-ynXbl5U/VMXoaG9KqA7BiiapwQWVWq+Ma7UamtyNq/HhTTs7Eyb9Lb5odsw1DtLrJRC0Qfd6wE0I
-lUh3MtS8mtTaZe1fHqwdPz2Kv0ElMEE1KG/+ggNVHTFAIRqz4ETwIGCshlHS50kdunmbIKbxe9zF
-4PGv5c5I3CVMtmT5i2K9ykQWTacb/p3vmgflq7iAMkytHNaBwTXOF+7illTezBHpCgPzrB6CuREQ
-f+8c/6UGFgh9EXZrpnKtNMvcorI5eQKZvH+RQj9CMBqe1Db2fk0G/iktvbRvbYXcaGeNiZG7JRah
-w1ooYSVIkZ9j0KWY+ZlBeiXen+ukLOc7D0Be1xzTERMoAzdKRRhgxP1fkU4NqBavVCMp98UtEcTP
-VBvYOrMhfz6wC/HuUa3HS4wjpKBuCH73XoTqW6oweeYFmVUoj3fzQkO+R+xtkNAjVPb/AmFdCJfN
-d+8tOczIufR4FIWnNs9vVin7Q1dmn+5k/vL+L87v/iwAHC4s6h6OzzqVOodRWsePYLUtyD87LRW6
-PVzc5dx9JV/iprhN3u8dRLBtwv1qUmGIbyvSBhOkPWLH5bvmKveKD0HzGU7sWU3s6flKtIE93/Q5
-304xOJDOfutc107OfLWgBXI4Iovhw497T9jmfCTCqrvoslHjSSY8y+ZAMtP6bs9f4s0Wn/V/ucCV
-gvULjkmrrT0NSydV/ds+SyjI0xwnPHPC+zWrh80nlgZ5T+/+Qy4+zqtrsPBpoQJ2xT9SP4DJKM5g
-o/GdueRrDmirct71LImXa8AJqMjpRHfT94iImXGLPn486iu7AeBqbmR0FNGzPX7iCsU3c4h/pSF+
-vQ0PQMOtrMen5dpR4hd9wrEuqPsFd47GnmmF/F114jIKSeKdkxPFmOfTKKxSS/sk4NGb9GQ0VuTV
-DFNbyn3HQxcmgYKGb4APxDrSySyfTt1JCqGOY3ZGvjhT8yKIlkf0R2pTrVvLTkXiFTPtkXDOhLWr
-Xrj6cxNOgis0+kSPYc59QuvjUfn/DPn/ey7pCD0qkjWMBduQIZ1muGnU5WJ8h+UHPoHxNo4cYGf2
-JZi5HfC3Fhjwu/O0vrzXTR4dA0q0Dr+eko4RVcG1PVjtk7pNE33gBZgJvYRcr5ZTiK313/3SuOY8
-xA2dDRHY/YuYWvtsizNt24Z8v6GVdpz19FQssa8P9Ggo+vD7zrNCPhGhMBSJqLY1vcjOI4PVNgBf
-upRK7fqWi/S2sfnlPh6T+oKGdSQ9Clpkc+Yj9Mk72/dCOwoO6UnIvZFN5OzYrMcn7XaOoTV4seaN
-DgStE/fzPr2GHeeNZ/xFK//YEuMBnMBg0o+g7vscTgLLkICBgF1TMT1NTDXMTxV4jbXRkqRPpg3m
-N7AxOvGKtqwBru4TZW73D4xe59y3RCjBN/EIwHDLU1viXZWWgBzZkXXdPxPgP7vNTLx9j0vc1iDq
-Xh+iO0VegIcTUcxiqkn8rE9h4WMo1AzLl9Sn1GwcLyKQRC2m8IMiL0R2wtg4II48st4rrd0ByZGK
-wEepZqEZrYB1P23D/JgQx4GtTBewOwToOM6Wm+UZVouwNMeV327oDv+1hBjaE0lA518gTLt2GDkY
-VnvxcuyeYhuvwbrnxw3SocNLqddxKlDNy2v71n4iujwWPZReyKcCMhHAkTL1bIZQO3JvFb/ShLCU
-hr8sDim2SY5iXO5AfN9dZxz+DAjch35z4S6dZId70sImTHNO/cqWI7X/zVbvpZL8598YfwASo18C
-wF1CsVGsPdGd3wCLOKFzVBp1w70HE2g51dasyuQ7MT/PHmepNDv/ADVZxwfCPXBYGNxSmGA98C9Q
-283fXPYKb7KM1U4DBq6c775La0oB2f9mFTKbTNNHGcBkdy5lqoJNyA12A0jxsHqtHdmFn4ebYYzW
-9HdktD9PVUh21a0zxnW46adqpHwcQaHdefaABWe9GXq3l1RMX3xYMVXrcNnCTN30BX+USe/tcmkK
-cY2wFYcOvrXJcf9cNrABopxJ0u9+QcoCmxqIt3tCMUAp3NbfT9a1cwa8LiDPp270yK6SRt9u7Xh8
-6hgDS5p39xI0EJHb9byvxYG1BCF1ci6B9DxbSmJvf2IPz0icPvQw0ilayN9ue6LRCeBaTsSURTVf
-nZuSpnCSJEUiidqtsY+2Hjo1NghFCsVvqaEVfYLBYMW+0ySlfYu4eb5Nx8B93n0tGHPfI7deP6Mw
-2EWC5F7aAkpxxzlvwx2Cl3rIullKr/NHmblC1FdE9R8MlE7zf2vpaWMJoBxy6q1EB34x8l3mz0yQ
-eNbbrvVtwhX0zga+pcp4wjCAxmJVI4xcznkQof8Xut1YgP8BlnGzwigNEZ/ayAH33ts7RDlyyQXq
-9ewOoGHYsHx0J7qSzStFkyrDT8ZDflwD332xhC0/t7oP4GO9NIn38tkwl3FgxJiWeB/yImvvyaIh
-ru9Cii6f9txnfF9CSAtqlxXJPqxrVYLZ5PwYpJeZOv1jAmqvpC5on8fBaBvppCaDspRVKkKC8j8B
-hgf2RCLCmNkp1hjMrfhF+uhsOH9Mpg0jGNmWImAK1Sv2hE7Grg8eME+l33ea8ULJ09N/dDeWSerB
-Dp0WrNVSAkSn5RPO1B+eB8On1B/vDPX3cJ/A+QavYmteXhjayVc15XhbQ3JSikMaFOz6h5e+CtnK
-/NV+tyZ7kkgsvgzyzG2aCyQRUm==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for Sheets (v4).
+ *
+ * <p>
+ * Reads and writes Google Sheets.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://developers.google.com/sheets/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class Sheets extends \Google\Service
+{
+  /** See, edit, create, and delete all of your Google Drive files. */
+  const DRIVE =
+      "https://www.googleapis.com/auth/drive";
+  /** See, edit, create, and delete only the specific Google Drive files you use with this app. */
+  const DRIVE_FILE =
+      "https://www.googleapis.com/auth/drive.file";
+  /** See and download all your Google Drive files. */
+  const DRIVE_READONLY =
+      "https://www.googleapis.com/auth/drive.readonly";
+  /** See, edit, create, and delete your spreadsheets in Google Drive. */
+  const SPREADSHEETS =
+      "https://www.googleapis.com/auth/spreadsheets";
+  /** View your Google Spreadsheets. */
+  const SPREADSHEETS_READONLY =
+      "https://www.googleapis.com/auth/spreadsheets.readonly";
+
+  public $spreadsheets;
+  public $spreadsheets_developerMetadata;
+  public $spreadsheets_sheets;
+  public $spreadsheets_values;
+
+  /**
+   * Constructs the internal representation of the Sheets service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://sheets.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v4';
+    $this->serviceName = 'sheets';
+
+    $this->spreadsheets = new Sheets\Resource\Spreadsheets(
+        $this,
+        $this->serviceName,
+        'spreadsheets',
+        [
+          'methods' => [
+            'batchUpdate' => [
+              'path' => 'v4/spreadsheets/{spreadsheetId}:batchUpdate',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'spreadsheetId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v4/spreadsheets',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'get' => [
+              'path' => 'v4/spreadsheets/{spreadsheetId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'spreadsheetId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'includeGridData' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'ranges' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],'getByDataFilter' => [
+              'path' => 'v4/spreadsheets/{spreadsheetId}:getByDataFilter',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'spreadsheetId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->spreadsheets_developerMetadata = new Sheets\Resource\SpreadsheetsDeveloperMetadata(
+        $this,
+        $this->serviceName,
+        'developerMetadata',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v4/spreadsheets/{spreadsheetId}/developerMetadata/{metadataId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'spreadsheetId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'metadataId' => [
+                  'location' => 'path',
+                  'type' => 'integer',
+                  'required' => true,
+                ],
+              ],
+            ],'search' => [
+              'path' => 'v4/spreadsheets/{spreadsheetId}/developerMetadata:search',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'spreadsheetId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->spreadsheets_sheets = new Sheets\Resource\SpreadsheetsSheets(
+        $this,
+        $this->serviceName,
+        'sheets',
+        [
+          'methods' => [
+            'copyTo' => [
+              'path' => 'v4/spreadsheets/{spreadsheetId}/sheets/{sheetId}:copyTo',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'spreadsheetId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'sheetId' => [
+                  'location' => 'path',
+                  'type' => 'integer',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->spreadsheets_values = new Sheets\Resource\SpreadsheetsValues(
+        $this,
+        $this->serviceName,
+        'values',
+        [
+          'methods' => [
+            'append' => [
+              'path' => 'v4/spreadsheets/{spreadsheetId}/values/{range}:append',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'spreadsheetId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'range' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'includeValuesInResponse' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'insertDataOption' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'responseDateTimeRenderOption' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'responseValueRenderOption' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'valueInputOption' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'batchClear' => [
+              'path' => 'v4/spreadsheets/{spreadsheetId}/values:batchClear',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'spreadsheetId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'batchClearByDataFilter' => [
+              'path' => 'v4/spreadsheets/{spreadsheetId}/values:batchClearByDataFilter',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'spreadsheetId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'batchGet' => [
+              'path' => 'v4/spreadsheets/{spreadsheetId}/values:batchGet',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'spreadsheetId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'dateTimeRenderOption' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'majorDimension' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ranges' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'valueRenderOption' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'batchGetByDataFilter' => [
+              'path' => 'v4/spreadsheets/{spreadsheetId}/values:batchGetByDataFilter',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'spreadsheetId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'batchUpdate' => [
+              'path' => 'v4/spreadsheets/{spreadsheetId}/values:batchUpdate',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'spreadsheetId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'batchUpdateByDataFilter' => [
+              'path' => 'v4/spreadsheets/{spreadsheetId}/values:batchUpdateByDataFilter',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'spreadsheetId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'clear' => [
+              'path' => 'v4/spreadsheets/{spreadsheetId}/values/{range}:clear',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'spreadsheetId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'range' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v4/spreadsheets/{spreadsheetId}/values/{range}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'spreadsheetId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'range' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'dateTimeRenderOption' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'majorDimension' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'valueRenderOption' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'v4/spreadsheets/{spreadsheetId}/values/{range}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'spreadsheetId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'range' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'includeValuesInResponse' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'responseDateTimeRenderOption' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'responseValueRenderOption' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'valueInputOption' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Sheets::class, 'Google_Service_Sheets');

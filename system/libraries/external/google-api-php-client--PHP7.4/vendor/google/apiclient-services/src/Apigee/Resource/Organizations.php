@@ -1,88 +1,209 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-UULW
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Apigee\Resource;
+
+use Google\Service\Apigee\GoogleCloudApigeeV1GetSyncAuthorizationRequest;
+use Google\Service\Apigee\GoogleCloudApigeeV1IngressConfig;
+use Google\Service\Apigee\GoogleCloudApigeeV1ListOrganizationsResponse;
+use Google\Service\Apigee\GoogleCloudApigeeV1Organization;
+use Google\Service\Apigee\GoogleCloudApigeeV1SetAddonsRequest;
+use Google\Service\Apigee\GoogleCloudApigeeV1SyncAuthorization;
+use Google\Service\Apigee\GoogleLongrunningOperation;
+
+/**
+ * The "organizations" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $apigeeService = new Google\Service\Apigee(...);
+ *   $organizations = $apigeeService->organizations;
+ *  </code>
+ */
+class Organizations extends \Google\Service\Resource
+{
+  /**
+   * Creates an Apigee organization. See [Create an Apigee
+   * organization](https://cloud.google.com/apigee/docs/api-platform/get-started
+   * /create-org). (organizations.create)
+   *
+   * @param GoogleCloudApigeeV1Organization $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string parent Required. Name of the GCP project in which to
+   * associate the Apigee organization. Pass the information as a query parameter
+   * using the following structure in your request: `projects/`
+   * @return GoogleLongrunningOperation
+   */
+  public function create(GoogleCloudApigeeV1Organization $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Delete an Apigee organization. Only supported for SubscriptionType TRIAL.
+   * (organizations.delete)
+   *
+   * @param string $name Required. Name of the organization. Use the following
+   * structure in your request: `organizations/{org}`
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Gets the profile for an Apigee organization. See [Understanding
+   * organizations](https://cloud.google.com/apigee/docs/api-platform/fundamentals
+   * /organization-structure). (organizations.get)
+   *
+   * @param string $name Required. Apigee organization name in the following
+   * format: `organizations/{org}`
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1Organization
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudApigeeV1Organization::class);
+  }
+  /**
+   * Gets the deployed ingress configuration for an organization.
+   * (organizations.getDeployedIngressConfig)
+   *
+   * @param string $name Required. Name of the deployed configuration for the
+   * organization in the following format:
+   * 'organizations/{org}/deployedIngressConfig'.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string view When set to FULL, additional details about the
+   * specific deployments receiving traffic will be included in the IngressConfig
+   * response's RoutingRules.
+   * @return GoogleCloudApigeeV1IngressConfig
+   */
+  public function getDeployedIngressConfig($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('getDeployedIngressConfig', [$params], GoogleCloudApigeeV1IngressConfig::class);
+  }
+  /**
+   * Lists the service accounts with the permissions required to allow the
+   * Synchronizer to download environment data from the control plane. An ETag is
+   * returned in the response to `getSyncAuthorization`. Pass that ETag when
+   * calling [setSyncAuthorization](setSyncAuthorization) to ensure that you are
+   * updating the correct version. If you don't pass the ETag in the call to
+   * `setSyncAuthorization`, then the existing authorization is overwritten
+   * indiscriminately. For more information, see [Configure the
+   * Synchronizer](https://cloud.google.com/apigee/docs/hybrid/latest
+   * /synchronizer-access). **Note**: Available to Apigee hybrid only.
+   * (organizations.getSyncAuthorization)
+   *
+   * @param string $name Required. Name of the Apigee organization. Use the
+   * following structure in your request: `organizations/{org}`
+   * @param GoogleCloudApigeeV1GetSyncAuthorizationRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1SyncAuthorization
+   */
+  public function getSyncAuthorization($name, GoogleCloudApigeeV1GetSyncAuthorizationRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('getSyncAuthorization', [$params], GoogleCloudApigeeV1SyncAuthorization::class);
+  }
+  /**
+   * Lists the Apigee organizations and associated GCP projects that you have
+   * permission to access. See [Understanding
+   * organizations](https://cloud.google.com/apigee/docs/api-platform/fundamentals
+   * /organization-structure). (organizations.listOrganizations)
+   *
+   * @param string $parent Required. Use the following structure in your request:
+   * `organizations`
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1ListOrganizationsResponse
+   */
+  public function listOrganizations($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleCloudApigeeV1ListOrganizationsResponse::class);
+  }
+  /**
+   * Configures the add-ons for the Apigee organization. The existing add-on
+   * configuration will be fully replaced. (organizations.setAddons)
+   *
+   * @param string $org Required. Name of the organization. Use the following
+   * structure in your request: `organizations/{org}`
+   * @param GoogleCloudApigeeV1SetAddonsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function setAddons($org, GoogleCloudApigeeV1SetAddonsRequest $postBody, $optParams = [])
+  {
+    $params = ['org' => $org, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setAddons', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Sets the permissions required to allow the Synchronizer to download
+   * environment data from the control plane. You must call this API to enable
+   * proper functioning of hybrid. Pass the ETag when calling
+   * `setSyncAuthorization` to ensure that you are updating the correct version.
+   * To get an ETag, call [getSyncAuthorization](getSyncAuthorization). If you
+   * don't pass the ETag in the call to `setSyncAuthorization`, then the existing
+   * authorization is overwritten indiscriminately. For more information, see
+   * [Configure the
+   * Synchronizer](https://cloud.google.com/apigee/docs/hybrid/latest
+   * /synchronizer-access). **Note**: Available to Apigee hybrid only.
+   * (organizations.setSyncAuthorization)
+   *
+   * @param string $name Required. Name of the Apigee organization. Use the
+   * following structure in your request: `organizations/{org}`
+   * @param GoogleCloudApigeeV1SyncAuthorization $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1SyncAuthorization
+   */
+  public function setSyncAuthorization($name, GoogleCloudApigeeV1SyncAuthorization $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setSyncAuthorization', [$params], GoogleCloudApigeeV1SyncAuthorization::class);
+  }
+  /**
+   * Updates the properties for an Apigee organization. No other fields in the
+   * organization profile will be updated. (organizations.update)
+   *
+   * @param string $name Required. Apigee organization name in the following
+   * format: `organizations/{org}`
+   * @param GoogleCloudApigeeV1Organization $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1Organization
+   */
+  public function update($name, GoogleCloudApigeeV1Organization $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], GoogleCloudApigeeV1Organization::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Organizations::class, 'Google_Service_Apigee_Resource_Organizations');

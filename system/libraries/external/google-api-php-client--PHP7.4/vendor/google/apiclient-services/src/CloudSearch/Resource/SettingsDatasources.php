@@ -1,68 +1,122 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudSearch\Resource;
+
+use Google\Service\CloudSearch\DataSource;
+use Google\Service\CloudSearch\ListDataSourceResponse;
+use Google\Service\CloudSearch\Operation;
+use Google\Service\CloudSearch\UpdateDataSourceRequest;
+
+/**
+ * The "datasources" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $cloudsearchService = new Google\Service\CloudSearch(...);
+ *   $datasources = $cloudsearchService->datasources;
+ *  </code>
+ */
+class SettingsDatasources extends \Google\Service\Resource
+{
+  /**
+   * Creates a datasource. **Note:** This API requires an admin account to
+   * execute. (datasources.create)
+   *
+   * @param DataSource $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function create(DataSource $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Operation::class);
+  }
+  /**
+   * Deletes a datasource. **Note:** This API requires an admin account to
+   * execute. (datasources.delete)
+   *
+   * @param string $name Name of the datasource. Format: datasources/{source_id}.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool debugOptions.enableDebugging If you are asked by Google to
+   * help with debugging, set this field. Otherwise, ignore this field.
+   * @return Operation
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Gets a datasource. **Note:** This API requires an admin account to execute.
+   * (datasources.get)
+   *
+   * @param string $name Name of the datasource resource. Format:
+   * datasources/{source_id}.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool debugOptions.enableDebugging If you are asked by Google to
+   * help with debugging, set this field. Otherwise, ignore this field.
+   * @return DataSource
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], DataSource::class);
+  }
+  /**
+   * Lists datasources. **Note:** This API requires an admin account to execute.
+   * (datasources.listSettingsDatasources)
+   *
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool debugOptions.enableDebugging If you are asked by Google to
+   * help with debugging, set this field. Otherwise, ignore this field.
+   * @opt_param int pageSize Maximum number of datasources to fetch in a request.
+   * The max value is 100. The default value is 10
+   * @opt_param string pageToken Starting index of the results.
+   * @return ListDataSourceResponse
+   */
+  public function listSettingsDatasources($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListDataSourceResponse::class);
+  }
+  /**
+   * Updates a datasource. **Note:** This API requires an admin account to
+   * execute. (datasources.update)
+   *
+   * @param string $name Name of the datasource resource. Format:
+   * datasources/{source_id}. The name is ignored when creating a datasource.
+   * @param UpdateDataSourceRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function update($name, UpdateDataSourceRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(SettingsDatasources::class, 'Google_Service_CloudSearch_Resource_SettingsDatasources');

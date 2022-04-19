@@ -1,71 +1,36 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+// For older (pre-2.7.2) verions of google/apiclient
+if (
+    file_exists(__DIR__ . '/../apiclient/src/Google/Client.php')
+    && !class_exists('Google_Client', false)
+) {
+    require_once(__DIR__ . '/../apiclient/src/Google/Client.php');
+    if (
+        defined('Google_Client::LIBVER')
+        && version_compare(Google_Client::LIBVER, '2.7.2', '<=')
+    ) {
+        $servicesClassMap = [
+            'Google\\Client' => 'Google_Client',
+            'Google\\Service' => 'Google_Service',
+            'Google\\Service\\Resource' => 'Google_Service_Resource',
+            'Google\\Model' => 'Google_Model',
+            'Google\\Collection' => 'Google_Collection',
+        ];
+        foreach ($servicesClassMap as $alias => $class) {
+            class_alias($class, $alias);
+        }
+    }
+}
+spl_autoload_register(function ($class) {
+    if (0 === strpos($class, 'Google_Service_')) {
+        // Autoload the new class, which will also create an alias for the
+        // old class by changing underscores to namespaces:
+        //     Google_Service_Speech_Resource_Operations
+        //      => Google\Service\Speech\Resource\Operations
+        $classExists = class_exists($newClass = str_replace('_', '\\', $class));
+        if ($classExists) {
+            return true;
+        }
+    }
+}, true, true);

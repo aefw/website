@@ -1,72 +1,154 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\OSConfig;
+
+class InventorySoftwarePackage extends \Google\Model
+{
+  protected $aptPackageType = InventoryVersionedPackage::class;
+  protected $aptPackageDataType = '';
+  protected $cosPackageType = InventoryVersionedPackage::class;
+  protected $cosPackageDataType = '';
+  protected $googetPackageType = InventoryVersionedPackage::class;
+  protected $googetPackageDataType = '';
+  protected $qfePackageType = InventoryWindowsQuickFixEngineeringPackage::class;
+  protected $qfePackageDataType = '';
+  protected $wuaPackageType = InventoryWindowsUpdatePackage::class;
+  protected $wuaPackageDataType = '';
+  protected $yumPackageType = InventoryVersionedPackage::class;
+  protected $yumPackageDataType = '';
+  protected $zypperPackageType = InventoryVersionedPackage::class;
+  protected $zypperPackageDataType = '';
+  protected $zypperPatchType = InventoryZypperPatch::class;
+  protected $zypperPatchDataType = '';
+
+  /**
+   * @param InventoryVersionedPackage
+   */
+  public function setAptPackage(InventoryVersionedPackage $aptPackage)
+  {
+    $this->aptPackage = $aptPackage;
+  }
+  /**
+   * @return InventoryVersionedPackage
+   */
+  public function getAptPackage()
+  {
+    return $this->aptPackage;
+  }
+  /**
+   * @param InventoryVersionedPackage
+   */
+  public function setCosPackage(InventoryVersionedPackage $cosPackage)
+  {
+    $this->cosPackage = $cosPackage;
+  }
+  /**
+   * @return InventoryVersionedPackage
+   */
+  public function getCosPackage()
+  {
+    return $this->cosPackage;
+  }
+  /**
+   * @param InventoryVersionedPackage
+   */
+  public function setGoogetPackage(InventoryVersionedPackage $googetPackage)
+  {
+    $this->googetPackage = $googetPackage;
+  }
+  /**
+   * @return InventoryVersionedPackage
+   */
+  public function getGoogetPackage()
+  {
+    return $this->googetPackage;
+  }
+  /**
+   * @param InventoryWindowsQuickFixEngineeringPackage
+   */
+  public function setQfePackage(InventoryWindowsQuickFixEngineeringPackage $qfePackage)
+  {
+    $this->qfePackage = $qfePackage;
+  }
+  /**
+   * @return InventoryWindowsQuickFixEngineeringPackage
+   */
+  public function getQfePackage()
+  {
+    return $this->qfePackage;
+  }
+  /**
+   * @param InventoryWindowsUpdatePackage
+   */
+  public function setWuaPackage(InventoryWindowsUpdatePackage $wuaPackage)
+  {
+    $this->wuaPackage = $wuaPackage;
+  }
+  /**
+   * @return InventoryWindowsUpdatePackage
+   */
+  public function getWuaPackage()
+  {
+    return $this->wuaPackage;
+  }
+  /**
+   * @param InventoryVersionedPackage
+   */
+  public function setYumPackage(InventoryVersionedPackage $yumPackage)
+  {
+    $this->yumPackage = $yumPackage;
+  }
+  /**
+   * @return InventoryVersionedPackage
+   */
+  public function getYumPackage()
+  {
+    return $this->yumPackage;
+  }
+  /**
+   * @param InventoryVersionedPackage
+   */
+  public function setZypperPackage(InventoryVersionedPackage $zypperPackage)
+  {
+    $this->zypperPackage = $zypperPackage;
+  }
+  /**
+   * @return InventoryVersionedPackage
+   */
+  public function getZypperPackage()
+  {
+    return $this->zypperPackage;
+  }
+  /**
+   * @param InventoryZypperPatch
+   */
+  public function setZypperPatch(InventoryZypperPatch $zypperPatch)
+  {
+    $this->zypperPatch = $zypperPatch;
+  }
+  /**
+   * @return InventoryZypperPatch
+   */
+  public function getZypperPatch()
+  {
+    return $this->zypperPatch;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(InventorySoftwarePackage::class, 'Google_Service_OSConfig_InventorySoftwarePackage');

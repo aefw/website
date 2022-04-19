@@ -1,79 +1,267 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute\Resource;
+
+use Google\Service\Compute\Operation;
+use Google\Service\Compute\PublicDelegatedPrefix;
+use Google\Service\Compute\PublicDelegatedPrefixAggregatedList;
+use Google\Service\Compute\PublicDelegatedPrefixList;
+
+/**
+ * The "publicDelegatedPrefixes" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $computeService = new Google\Service\Compute(...);
+ *   $publicDelegatedPrefixes = $computeService->publicDelegatedPrefixes;
+ *  </code>
+ */
+class PublicDelegatedPrefixes extends \Google\Service\Resource
+{
+  /**
+   * Lists all PublicDelegatedPrefix resources owned by the specific project
+   * across all scopes. (publicDelegatedPrefixes.aggregatedList)
+   *
+   * @param string $project Name of the project scoping this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param bool includeAllScopes Indicates whether every visible scope for
+   * each scope type (zone, region, global) should be included in the response.
+   * For new resource types added after this field, the flag has no effect as new
+   * resource types will always include every visible scope for each scope type in
+   * response. For resource types which predate this field, if this flag is
+   * omitted or false, only scopes of the scope types where the resource type is
+   * expected to be found will be included.
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return PublicDelegatedPrefixAggregatedList
+   */
+  public function aggregatedList($project, $optParams = [])
+  {
+    $params = ['project' => $project];
+    $params = array_merge($params, $optParams);
+    return $this->call('aggregatedList', [$params], PublicDelegatedPrefixAggregatedList::class);
+  }
+  /**
+   * Deletes the specified PublicDelegatedPrefix in the given region.
+   * (publicDelegatedPrefixes.delete)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region of this request.
+   * @param string $publicDelegatedPrefix Name of the PublicDelegatedPrefix
+   * resource to delete.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function delete($project, $region, $publicDelegatedPrefix, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'publicDelegatedPrefix' => $publicDelegatedPrefix];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Returns the specified PublicDelegatedPrefix resource in the given region.
+   * (publicDelegatedPrefixes.get)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region of this request.
+   * @param string $publicDelegatedPrefix Name of the PublicDelegatedPrefix
+   * resource to return.
+   * @param array $optParams Optional parameters.
+   * @return PublicDelegatedPrefix
+   */
+  public function get($project, $region, $publicDelegatedPrefix, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'publicDelegatedPrefix' => $publicDelegatedPrefix];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], PublicDelegatedPrefix::class);
+  }
+  /**
+   * Creates a PublicDelegatedPrefix in the specified project in the given region
+   * using the parameters that are included in the request.
+   * (publicDelegatedPrefixes.insert)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region of this request.
+   * @param PublicDelegatedPrefix $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function insert($project, $region, PublicDelegatedPrefix $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Operation::class);
+  }
+  /**
+   * Lists the PublicDelegatedPrefixes for a project in the given region.
+   * (publicDelegatedPrefixes.listPublicDelegatedPrefixes)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region of this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return PublicDelegatedPrefixList
+   */
+  public function listPublicDelegatedPrefixes($project, $region, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], PublicDelegatedPrefixList::class);
+  }
+  /**
+   * Patches the specified PublicDelegatedPrefix resource with the data included
+   * in the request. This method supports PATCH semantics and uses JSON merge
+   * patch format and processing rules. (publicDelegatedPrefixes.patch)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region for this request.
+   * @param string $publicDelegatedPrefix Name of the PublicDelegatedPrefix
+   * resource to patch.
+   * @param PublicDelegatedPrefix $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function patch($project, $region, $publicDelegatedPrefix, PublicDelegatedPrefix $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'publicDelegatedPrefix' => $publicDelegatedPrefix, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PublicDelegatedPrefixes::class, 'Google_Service_Compute_Resource_PublicDelegatedPrefixes');

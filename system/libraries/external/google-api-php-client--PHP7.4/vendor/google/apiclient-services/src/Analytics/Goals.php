@@ -1,68 +1,106 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Analytics;
+
+class Goals extends \Google\Collection
+{
+  protected $collection_key = 'items';
+  protected $itemsType = Goal::class;
+  protected $itemsDataType = 'array';
+  public $itemsPerPage;
+  public $kind;
+  public $nextLink;
+  public $previousLink;
+  public $startIndex;
+  public $totalResults;
+  public $username;
+
+  /**
+   * @param Goal[]
+   */
+  public function setItems($items)
+  {
+    $this->items = $items;
+  }
+  /**
+   * @return Goal[]
+   */
+  public function getItems()
+  {
+    return $this->items;
+  }
+  public function setItemsPerPage($itemsPerPage)
+  {
+    $this->itemsPerPage = $itemsPerPage;
+  }
+  public function getItemsPerPage()
+  {
+    return $this->itemsPerPage;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setNextLink($nextLink)
+  {
+    $this->nextLink = $nextLink;
+  }
+  public function getNextLink()
+  {
+    return $this->nextLink;
+  }
+  public function setPreviousLink($previousLink)
+  {
+    $this->previousLink = $previousLink;
+  }
+  public function getPreviousLink()
+  {
+    return $this->previousLink;
+  }
+  public function setStartIndex($startIndex)
+  {
+    $this->startIndex = $startIndex;
+  }
+  public function getStartIndex()
+  {
+    return $this->startIndex;
+  }
+  public function setTotalResults($totalResults)
+  {
+    $this->totalResults = $totalResults;
+  }
+  public function getTotalResults()
+  {
+    return $this->totalResults;
+  }
+  public function setUsername($username)
+  {
+    $this->username = $username;
+  }
+  public function getUsername()
+  {
+    return $this->username;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Goals::class, 'Google_Service_Analytics_Goals');

@@ -1,69 +1,106 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Books;
+
+class GeolayerdataGeo extends \Google\Collection
+{
+  protected $collection_key = 'boundary';
+  public $boundary;
+  public $cachePolicy;
+  public $countryCode;
+  public $latitude;
+  public $longitude;
+  public $mapType;
+  protected $viewportType = GeolayerdataGeoViewport::class;
+  protected $viewportDataType = '';
+  public $zoom;
+
+  public function setBoundary($boundary)
+  {
+    $this->boundary = $boundary;
+  }
+  public function getBoundary()
+  {
+    return $this->boundary;
+  }
+  public function setCachePolicy($cachePolicy)
+  {
+    $this->cachePolicy = $cachePolicy;
+  }
+  public function getCachePolicy()
+  {
+    return $this->cachePolicy;
+  }
+  public function setCountryCode($countryCode)
+  {
+    $this->countryCode = $countryCode;
+  }
+  public function getCountryCode()
+  {
+    return $this->countryCode;
+  }
+  public function setLatitude($latitude)
+  {
+    $this->latitude = $latitude;
+  }
+  public function getLatitude()
+  {
+    return $this->latitude;
+  }
+  public function setLongitude($longitude)
+  {
+    $this->longitude = $longitude;
+  }
+  public function getLongitude()
+  {
+    return $this->longitude;
+  }
+  public function setMapType($mapType)
+  {
+    $this->mapType = $mapType;
+  }
+  public function getMapType()
+  {
+    return $this->mapType;
+  }
+  /**
+   * @param GeolayerdataGeoViewport
+   */
+  public function setViewport(GeolayerdataGeoViewport $viewport)
+  {
+    $this->viewport = $viewport;
+  }
+  /**
+   * @return GeolayerdataGeoViewport
+   */
+  public function getViewport()
+  {
+    return $this->viewport;
+  }
+  public function setZoom($zoom)
+  {
+    $this->zoom = $zoom;
+  }
+  public function getZoom()
+  {
+    return $this->zoom;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GeolayerdataGeo::class, 'Google_Service_Books_GeolayerdataGeo');

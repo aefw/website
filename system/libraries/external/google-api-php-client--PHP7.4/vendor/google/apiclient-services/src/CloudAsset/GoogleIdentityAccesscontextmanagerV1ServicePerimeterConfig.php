@@ -1,71 +1,102 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-8BpM1AqwooTzOZOLTvJDHwuhfw6j
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudAsset;
+
+class GoogleIdentityAccesscontextmanagerV1ServicePerimeterConfig extends \Google\Collection
+{
+  protected $collection_key = 'restrictedServices';
+  public $accessLevels;
+  protected $egressPoliciesType = GoogleIdentityAccesscontextmanagerV1EgressPolicy::class;
+  protected $egressPoliciesDataType = 'array';
+  protected $ingressPoliciesType = GoogleIdentityAccesscontextmanagerV1IngressPolicy::class;
+  protected $ingressPoliciesDataType = 'array';
+  public $resources;
+  public $restrictedServices;
+  protected $vpcAccessibleServicesType = GoogleIdentityAccesscontextmanagerV1VpcAccessibleServices::class;
+  protected $vpcAccessibleServicesDataType = '';
+
+  public function setAccessLevels($accessLevels)
+  {
+    $this->accessLevels = $accessLevels;
+  }
+  public function getAccessLevels()
+  {
+    return $this->accessLevels;
+  }
+  /**
+   * @param GoogleIdentityAccesscontextmanagerV1EgressPolicy[]
+   */
+  public function setEgressPolicies($egressPolicies)
+  {
+    $this->egressPolicies = $egressPolicies;
+  }
+  /**
+   * @return GoogleIdentityAccesscontextmanagerV1EgressPolicy[]
+   */
+  public function getEgressPolicies()
+  {
+    return $this->egressPolicies;
+  }
+  /**
+   * @param GoogleIdentityAccesscontextmanagerV1IngressPolicy[]
+   */
+  public function setIngressPolicies($ingressPolicies)
+  {
+    $this->ingressPolicies = $ingressPolicies;
+  }
+  /**
+   * @return GoogleIdentityAccesscontextmanagerV1IngressPolicy[]
+   */
+  public function getIngressPolicies()
+  {
+    return $this->ingressPolicies;
+  }
+  public function setResources($resources)
+  {
+    $this->resources = $resources;
+  }
+  public function getResources()
+  {
+    return $this->resources;
+  }
+  public function setRestrictedServices($restrictedServices)
+  {
+    $this->restrictedServices = $restrictedServices;
+  }
+  public function getRestrictedServices()
+  {
+    return $this->restrictedServices;
+  }
+  /**
+   * @param GoogleIdentityAccesscontextmanagerV1VpcAccessibleServices
+   */
+  public function setVpcAccessibleServices(GoogleIdentityAccesscontextmanagerV1VpcAccessibleServices $vpcAccessibleServices)
+  {
+    $this->vpcAccessibleServices = $vpcAccessibleServices;
+  }
+  /**
+   * @return GoogleIdentityAccesscontextmanagerV1VpcAccessibleServices
+   */
+  public function getVpcAccessibleServices()
+  {
+    return $this->vpcAccessibleServices;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleIdentityAccesscontextmanagerV1ServicePerimeterConfig::class, 'Google_Service_CloudAsset_GoogleIdentityAccesscontextmanagerV1ServicePerimeterConfig');

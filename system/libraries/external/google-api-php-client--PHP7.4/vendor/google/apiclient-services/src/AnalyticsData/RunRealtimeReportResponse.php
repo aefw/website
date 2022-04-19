@@ -1,78 +1,157 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPshgdhxwVsEnyoCBdGG1nI9MlMnNwgsoZB78PWG80KyQCA2+Y7cGozl0lkjyWySlizQxNfW/
-3U1CyzUX15C0I7QoNp7klRz8ZgxR+3PHMFUC5sTEj/CdCeqrf0JbYer7JmuuQdgh7ekeJNcwQokT
-2i9TSqRPS/exneyulwP1zS/A1Yc61XDBekixDo8KHSLYbGEQC9NLWPdUTE6cN721QM/gKnsw+f3X
-KyzA4fUj7sp2LPdm7pPO4k1OEXwS4cQXmHAewlPSBkDHPokzrLedwlmz+U9mKourL8IeB86cFae5
-vLK4Rgg8EqdBn539AVw8L6a5L/yuhvic3N8C+aSgTYLqEvEy0+m0n8gtJD1k8HAHIgVfqAcYwD5I
-ukHHQXxP9g12tV6oQXEexG5Hu+19ODFPiTf/DcRaCrPqW0fPkDJ6fs4sLJA6fx8mlY/jpTPrfJQo
-sEVTE2HO6pG1XaZMffmXQkT/Ys4IqQecggU51kTuVRVymBtRR6l+xeehhoeRj/j31p7iiu2vz+la
-CfBSUsZQoRjgUXwBZtGQ+EJuuN2P+lTZlUraBsJAk40ngJ+aSAJI8P8qncUBD5hI8qHlFMFCqgDZ
-9i8UbVAgAuL9jMTs1xHL9dCd50fz/byOgHEVCFIRphNi2YKHqBnhvvqur4767E9K/wWmMlr1N365
-b5tSpZJQuzt5HOe3FomFlrf/HeunaLP+7L5d951GFxk6iRkyD7dvyE+yd6C5dL2+k0dQtvsE5k7g
-ejmvnBlQ85pxvWQ8XpqhZywClqVcek8nixHl5dP1Un0h/dLRd35e1qg1juBmwTiZoLIitnYTml5m
-bl9CP8wSrQmNpMRVfm/lvZ4khItM8KbrVFpXD6LhHaGjSMlgaCO0wI6lte593aGS8tcpU4+9Eil7
-70zCdU4CfEeh2vLOnGR4aZffgybDwURLk+ZxeJUaRTFBiiuArbXh8ZRfQpXlM4vQf+nQEvQ3BXo2
-wpMZggEAR3sNuZ5ibIRyI7rZOXkl8wVPoYxL8h11zxeUynCge12d4Setya3WMcojS9V9kFCOJkUl
-3op++eWUbc4DwWhGNBGWgJrNS7VHn3PXO08qtWEvkRAMP4Br7yjb6es0N1tlYXLijj7hrZGx4s14
-na9mJb1+ytWkMBrm7CCAG5GIqb/44IG1/Df4DDGmT/sztMqFkrD5FyxdAGt42NlTjNgRG9+feH1V
-w/OANdzSrPS7HmlzTd2TH7gcVfVfAgv9cvlGTazy/MBO4bGTbRpuqoekua0NU7O5FdKdgXBNXulO
-kcfMIL2mq1HOAulvNrNZyzgy2IMmHNaX8z88cbDXi1RYhD9BLpuLvr7EUAWOJscQ00OVUVzVkGF0
-i9TeTlipxgq+y/2PrCdSDMIqHFlxfAobReveMVhXs2QNsEdM0woMpgU+gntouwkqGEUX81TIkORe
-74/C7l1GOrlMy7025rDhAImjGPzPsuzm5VwgKgW77pGtpvRRjjkXsbLY7ZVOf6DkvZygGRTSJaR4
-IjHx5/jdbsIE0dEq9goXKjtC8N3gkuMEBeb7dtga7eZbp+WZsFzQ1Ls2RLAUDevkNoOqBqv/DM++
-kUvgAqorm3FLWQqvDNlazDR4XpviuwWxvqC04QPyW8aN8C0RGa+0lVtvBcZUhkqjRQl7Ki8Phpxu
-FnkBPDQ+DRn93KRzhGov0Lclw42TuFD1/v30LRmeMAacjvLqS8VT0r+SKMkzjc24OwLh19OII4HW
-oM560GuMUG0wX+gL4bJ1V0DBiVfkPYshfLp+jVP2175S3/GDDNzZdaC1TsLUoh7Nn+WIOXFfY1Mp
-mPUVzorn9mIAewYPWPVqAMA1OlYZcbZ7/nl+7wl2EKimtKO0+h7rzEv/MupoHhY9xxLcYpqvs+a3
-eQCbM/yOMQKlAyRcDYTqevW8QPq0b8kaXXYqzX2GHRvkk94U1Pybu8oKVZl6uLCT8l1pKCn+ECc3
-c28ju9IdsrYqkcCiinbnbgVDdnfUOANMbOYjNHRTbwRBhh69GUlIrHi+NlNJqjTQsUvQ2cu2+Y6E
-EbByO5wjf85NpRlJ00nvgJR0ee5hJ6wVFPWmKybdeDWTtQedincNQMoHfv0JdNF/AHHzTi9e9ZQo
-BxO/okz15LHNZmhAlyop2pIOAS14bS3Kuabs2SvbzZJBQ6Tl5p9LcI6ouMTZBGowY+81cOIKZzoL
-QW3E6RdY5aDKKNu0pE98+zjNx7tO2uwQ0rBz/IOrasbYxESRopapJzahUmhAwqLMzWqQ3U7E2HQS
-i+qb2nvzpdnoatHhpGxhY9edgEX8FQBlObgwAh9OGkocy9g1LIqZ0PaXOqCxklKexq+so70Szdji
-5PON2DeFPPB0MjG00RnUtD5LsEYs73RBk2lhPowdPIcTG1ss4JirlLzXFW7pvIfuqowBZ3dNaO4/
-uUwMtvFgDZ0RkW1VC60BQC7zXnr8qAvCbGQlvpJe09ByJcQzC2CXJyCSZAuLgVsc9v1JovIe8UPg
-s1vAgHb72gLC0kvgt5xc/T9O7OSxBsgm1yhYxZFS2IvHtfnjxK7v+IPYQTwzjzP1wHxkkUeGr6kU
-3IxD6VT5JaYOpD//1uiz+5XODDy1Pkdu8wegw4RkI6o+0n2y69oa1ztX9hAWQGIyPWQYwd6emrhN
-9X1240KhAxTCSUccHbm6JHPyJbdVbB2jnag/axmwI+xsDdjRj7Yu/gdo+fijozKH+IXj08Exz3Gx
-VobAFKlH4XyKTSCfMvMJTLmhNY8oSWv3ACxtlL123mPVjrNNvyPuI/+kpvmfZEFhPPduSDYbFjpn
-RDG3qMgTA0AA70LiC0vnCSfYlHHamXgxqlrcIhwK9qur9hbed6Ycg5Y9uWRO7XiUXxaYm8578pWS
-HnmV+a5oogsqUPVpn7Lk5P80WsAwwjI/Wa3+mJXWa+lv9jWjffp21mx288NmBqqZ0uioknNJGJ+Z
-gAbVIJWJXHml32WP/wONfxuHZbiRxe+mT4UIgW8F8BqQzKrq5WQbjsUmpH+9b79T5VKamhVSNXR2
-OcCfnWsREaP6nU4dJasEk0qvDZ6lsQEj71fSjlh5hV7SZ4s4ZCCVWXZ/aBhtXJ2WAuw4bxF+mzYx
-VnWnczQ1+G9LV6F2X6nmvjQry7BAWGbsUIdAPSBHf3X5ntTUAIwP/fn6g6gp6FScPDoRi/GE2pY5
-DdUw5VVpiK2s8xNspcXdXazTov9m3EH92KjKO1Mv3Q1dxKTqoga5I3jmAPoT/WHAWi9MfEYEq/7G
-7JQtV9RISzYXSzWznCy0mnghjHs1QUJioigpvosx+n+aBQRIq2JaSMHpYcy8BQk06Cxi5f77WOTh
-mo58habMXBJlCyrxnw/kz+57Eaglyc1EhDNY4mBxWf4brCD45X0zADJ/qE4YH3FJ18UuzhzxuQM0
-mNiMczxWKmsAcTo8GF+rAorpL0dK4qXt+ZtDAHTc+GfKDqfvgKyEIMhyQTFdH+QU586T7R8epLtQ
-zel2mEoBUOm/Qxjm7NyKOTYEdhiXN0u4GGBILTG1ZspoFw0XkEG82JfJ5XM/Y54OpjaEzL8zwGTO
-09nBJ74ms9Qrf/hvJTVw2jYVuyX15bmb3UBMgAnj13GACKgtLhnltYnZpmgdW17eDKXlG6JgGx44
-xLbxkxdTFHg79n5qf0POWqlaq/mI4O7o7ASw3v09t0iu5he+VgG9uHnxArvsSVvkwzkEdeBj1aM6
-9ymMxDi1ja7xK9zOvfoFrJ/uOYyLHrJB1hkXByPDTVlopOt4lrvi1OqL/s/jHQbraYuVxoccPuD1
-YYtzxx0qPY01rs+byszDoL1HmCOCrpsr8M6AVocg49b3i27ycKoqyTfx7rFR7WmiIA4+ViZBIUNk
-mZj4icydQwKBb39p9p+JTh31vRStifFcOQpHPMv3a+K9LVMAEQv5myVYaHKPn3ekSoIWRJ59KfKi
-crLosenrdY58pMqzzZV9hROafUdpW4pfn/3G4ljZ30uxOFPPp1qZ55lq55/Xmfg1ycDjtv0onQrh
-CXdAjXY4KPo1e93xAJXIC3dcmujMX8yVNiiSlicOzk0ihpdrTWkzsNDVPRc7fQRa+KwmzwbT5D+o
-R/LS5d7YTOtEPnF8xodGKecu26OZVOHi+N215hJjVaTQYv/T55uFw1rpca7qmGmHNPZUPlM+uy6r
-Zoc6HZ8cw9L//lyn+dbBOLMUne2fVz6JmlpljK80x9xntKPz35lbnK4UI0OBBQQoTHvv+5Q1JfyI
-msLC+Ei3xGSE3OWxJl1zpUTW06v4m1oyRqLE1yU+k4FBaAy2gVxfDtPYKZstOUe9Hb73T550+cjd
-N44LGgOhJGDSXNgJ9Lx0EkCnQ5+7/G9hH89IswdWZwzw88GIKkM2g5mBKe38NTbVpnvfGeaKR2va
-KDs4mpvTpMLG/Il0n3rCUroCiWYYFlloOTi1A+7fxNNBNGK/Qazq0BpX8IM4DwtmEaxgicqiQAm/
-Ek/Q6whg8oFkH2WGb78OOAhO2/BMknss7/rjPm7V+zemXm0L02WsDWgL7vZNP9Z+q9xfJPWuTutN
-Z+2Sbi7b6wp1KnsqFeSUCf/rPZzoE4XA5md4tNP8QUHzTbk3xz6cMWrdYTYXab5gaOMzVsQiDaiM
-MX1thdjKkIbJE2KXu2anQ+NDOnexsQ1cUI3mo7Nz0GAg4ZK34Vatu3saoG/IB44advSzQmwHgrSX
-UphV/fbcUP4FB8iIUa8xiZJkxB9FCx5QOsH9AhYZsq5YXFdD3X8Vk++Zm5dMqtIG+48QSKuMCRXm
-7HiS3ad6lyqSFtrkd5U4Nn7MFQ29+caF0OYFA2BzX9us3bVb/rciR/kvuIhYQ9wgdVD4PrvqjPEX
-xDutazbdb3dao2P235Ja0Ebt0iXYhyWJqdpJfN9boGG7Dx+RW0Ocv3ScqAdKKbl8mtToKVeMmxws
-24mogdrMYQ5Nc56xeiAANUPABXegQjGTc2Pk8sx9VF8Z2wDt9SaGQi0Xhh/aY3lYAFu6IHvIzyXB
-+XfN7HP/uReXx0c0sIesbd949Sq3GPT8NciIbL3Uy7fQRpUdVn8YzEijPHwuvUR739NAsbfuqs9T
-9DgETi/cPCZWEREcOWmFPg4tFst8MEtOeRxexHgA+v49EzIaLaAchAGmm/RG6iK1zodNUz6UEKIe
-kmxvkNQmzrWre3Tww0DB0+v0JOCt57sVNS72cXZU7CKM5RLnbUKG4CFerOmIgjps+sjOLrfGDIga
-BubvJTx8H+tZTkrA2nWA8kkYyYHYAljtRMkN1PXgQMz5lrLiJ7+qv2MxSfpyascf14+UPHlD/M3U
-OqGspAQokJ3Au/mjVgmBUPuNs1tW06kdGIeUQ742L6pJiIgGAlu5kI3rvG4z77ULkf3ZiWAMgkrB
-L9i=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AnalyticsData;
+
+class RunRealtimeReportResponse extends \Google\Collection
+{
+  protected $collection_key = 'totals';
+  protected $dimensionHeadersType = DimensionHeader::class;
+  protected $dimensionHeadersDataType = 'array';
+  public $kind;
+  protected $maximumsType = Row::class;
+  protected $maximumsDataType = 'array';
+  protected $metricHeadersType = MetricHeader::class;
+  protected $metricHeadersDataType = 'array';
+  protected $minimumsType = Row::class;
+  protected $minimumsDataType = 'array';
+  protected $propertyQuotaType = PropertyQuota::class;
+  protected $propertyQuotaDataType = '';
+  public $rowCount;
+  protected $rowsType = Row::class;
+  protected $rowsDataType = 'array';
+  protected $totalsType = Row::class;
+  protected $totalsDataType = 'array';
+
+  /**
+   * @param DimensionHeader[]
+   */
+  public function setDimensionHeaders($dimensionHeaders)
+  {
+    $this->dimensionHeaders = $dimensionHeaders;
+  }
+  /**
+   * @return DimensionHeader[]
+   */
+  public function getDimensionHeaders()
+  {
+    return $this->dimensionHeaders;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  /**
+   * @param Row[]
+   */
+  public function setMaximums($maximums)
+  {
+    $this->maximums = $maximums;
+  }
+  /**
+   * @return Row[]
+   */
+  public function getMaximums()
+  {
+    return $this->maximums;
+  }
+  /**
+   * @param MetricHeader[]
+   */
+  public function setMetricHeaders($metricHeaders)
+  {
+    $this->metricHeaders = $metricHeaders;
+  }
+  /**
+   * @return MetricHeader[]
+   */
+  public function getMetricHeaders()
+  {
+    return $this->metricHeaders;
+  }
+  /**
+   * @param Row[]
+   */
+  public function setMinimums($minimums)
+  {
+    $this->minimums = $minimums;
+  }
+  /**
+   * @return Row[]
+   */
+  public function getMinimums()
+  {
+    return $this->minimums;
+  }
+  /**
+   * @param PropertyQuota
+   */
+  public function setPropertyQuota(PropertyQuota $propertyQuota)
+  {
+    $this->propertyQuota = $propertyQuota;
+  }
+  /**
+   * @return PropertyQuota
+   */
+  public function getPropertyQuota()
+  {
+    return $this->propertyQuota;
+  }
+  public function setRowCount($rowCount)
+  {
+    $this->rowCount = $rowCount;
+  }
+  public function getRowCount()
+  {
+    return $this->rowCount;
+  }
+  /**
+   * @param Row[]
+   */
+  public function setRows($rows)
+  {
+    $this->rows = $rows;
+  }
+  /**
+   * @return Row[]
+   */
+  public function getRows()
+  {
+    return $this->rows;
+  }
+  /**
+   * @param Row[]
+   */
+  public function setTotals($totals)
+  {
+    $this->totals = $totals;
+  }
+  /**
+   * @return Row[]
+   */
+  public function getTotals()
+  {
+    return $this->totals;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(RunRealtimeReportResponse::class, 'Google_Service_AnalyticsData_RunRealtimeReportResponse');

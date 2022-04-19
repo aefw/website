@@ -1,78 +1,167 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\RealTimeBidding\Resource;
+
+use Google\Service\RealTimeBidding\CloseUserListRequest;
+use Google\Service\RealTimeBidding\GetRemarketingTagResponse;
+use Google\Service\RealTimeBidding\ListUserListsResponse;
+use Google\Service\RealTimeBidding\OpenUserListRequest;
+use Google\Service\RealTimeBidding\UserList;
+
+/**
+ * The "userLists" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $realtimebiddingService = new Google\Service\RealTimeBidding(...);
+ *   $userLists = $realtimebiddingService->userLists;
+ *  </code>
+ */
+class BuyersUserLists extends \Google\Service\Resource
+{
+  /**
+   * Change the status of a user list to CLOSED. This prevents new users from
+   * being added to the user list. (userLists.close)
+   *
+   * @param string $name Required. The name of the user list to close. See
+   * UserList.name
+   * @param CloseUserListRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return UserList
+   */
+  public function close($name, CloseUserListRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('close', [$params], UserList::class);
+  }
+  /**
+   * Create a new user list. (userLists.create)
+   *
+   * @param string $parent Required. The name of the parent buyer of the user list
+   * to be retrieved that must follow the pattern `buyers/{buyerAccountId}`, where
+   * `{buyerAccountId}` represents the account ID of the buyer who owns user
+   * lists. For a bidder accessing user lists on behalf of a child seat buyer ,
+   * `{buyerAccountId}` should represent the account ID of the child seat buyer.
+   * @param UserList $postBody
+   * @param array $optParams Optional parameters.
+   * @return UserList
+   */
+  public function create($parent, UserList $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], UserList::class);
+  }
+  /**
+   * Gets a user list by its name. (userLists.get)
+   *
+   * @param string $name Required. The name of the user list to be retrieved. See
+   * UserList.name.
+   * @param array $optParams Optional parameters.
+   * @return UserList
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], UserList::class);
+  }
+  /**
+   * Gets remarketing tag for a buyer. A remarketing tag is a piece of JavaScript
+   * code that can be placed on a web page. When a user visits a page containing a
+   * remarketing tag, Google adds the user to a user list.
+   * (userLists.getRemarketingTag)
+   *
+   * @param string $name Required. To fetch remarketing tag for an account, name
+   * must follow the pattern `buyers/{accountId}` where `{accountId}` represents
+   * ID of a buyer that owns the remarketing tag. For a bidder accessing
+   * remarketing tag on behalf of a child seat buyer, `{accountId}` should
+   * represent the ID of the child seat buyer. To fetch remarketing tag for a
+   * specific user list, name must follow the pattern
+   * `buyers/{accountId}/userLists/{userListId}`. See UserList.name.
+   * @param array $optParams Optional parameters.
+   * @return GetRemarketingTagResponse
+   */
+  public function getRemarketingTag($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('getRemarketingTag', [$params], GetRemarketingTagResponse::class);
+  }
+  /**
+   * Lists the user lists visible to the current user.
+   * (userLists.listBuyersUserLists)
+   *
+   * @param string $parent Required. The name of the parent buyer for the user
+   * lists to be returned that must follow the pattern `buyers/{buyerAccountId}`,
+   * where `{buyerAccountId}` represents the account ID of the buyer who owns user
+   * lists. For a bidder accessing user lists on behalf of a child seat buyer ,
+   * `{buyerAccountId}` should represent the account ID of the child seat buyer.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The number of results to return per page.
+   * @opt_param string pageToken Continuation page token (as received from a
+   * previous response).
+   * @return ListUserListsResponse
+   */
+  public function listBuyersUserLists($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListUserListsResponse::class);
+  }
+  /**
+   * Change the status of a user list to OPEN. This allows new users to be added
+   * to the user list. (userLists.open)
+   *
+   * @param string $name Required. The name of the user list to open. See
+   * UserList.name
+   * @param OpenUserListRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return UserList
+   */
+  public function open($name, OpenUserListRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('open', [$params], UserList::class);
+  }
+  /**
+   * Update the given user list. Only user lists with URLRestrictions can be
+   * updated. (userLists.update)
+   *
+   * @param string $name Output only. Name of the user list that must follow the
+   * pattern `buyers/{buyer}/userLists/{user_list}`, where `{buyer}` represents
+   * the account ID of the buyer who owns the user list. For a bidder accessing
+   * user lists on behalf of a child seat buyer, `{buyer}` represents the account
+   * ID of the child seat buyer. `{user_list}` is an int64 identifier assigned by
+   * Google to uniquely identify a user list.
+   * @param UserList $postBody
+   * @param array $optParams Optional parameters.
+   * @return UserList
+   */
+  public function update($name, UserList $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], UserList::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(BuyersUserLists::class, 'Google_Service_RealTimeBidding_Resource_BuyersUserLists');

@@ -1,79 +1,108 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPwngSRtt/tn9i/wZv9xFi62mQBV+2cjyylIB8J8Np21n02A8FXUCCFo4RmDaJSud2tPqhX9F
-SrJkBTBMO3M1SpxV0XO3qwgWLStHR00EsNC3wFtCPDh2rqgY8pqaOO9vOmIhFOSCl4aKzUa+CwtF
-/xCx8XdK/v+3RHVO0jF1D1duRBfYqg19KFhL4W9f6F+P8FGibOaSNr0CnSJRZfbMegEHRHs0Xxax
-oKz05zHdcCaea2bcDdIxTkS9Y99OdxrALyS6+NjoS1WGItLsSQtRW1ID/IpYS5CkDLI4g2o1fZvA
-1UMX0LKuRU5x6V1kqEernks8L1xN7F+A14wqffcrHWvYl39SNOGQtVnNlb1172p3M7Q3993sz9U+
-66EIvxfTj2mqbld8nDL+FK3NjbMViyNjCBkfXOUIkwn4okSa2CmZ9p9F9i00LkSgVY4d92zzEsHq
-GSABEf84qFD9cBJsU5263kqRgMEAbEvzeyGXhgAp4Al0WcuR+WVSxcNMZzbp/BsXov4OQNUMMrOp
-A4ks3/7n/IgwooGlueY7T5PuRPEHefz/x38CekVYUGHsI8MNN4W9RkG9HVekKsCIx3tf1imtPbku
-9K+arjy73JAuW/GFFgLkFiG0StFN4AZ/fj1iKuj5LYF8KvF7iHNI5oeJmtcbojh6VZ5al56cPZEs
-0DdPTBuOgrrE05Jz0nGSYj6LKEP9P9Z9uN/dGKlyYkQbJBaddAxHAUWWg/iXtEJRhXvMAZYspNPQ
-2IS9rK3+qynsokvztmBl/hirgGfjLJwix9DhMTtHhMTYUfrPNDAY2z4sRTcWGNl8du86fAhuzW1j
-2L7AMbLc5cBMkPvgx9by+3Q4xumAf8u2n73n3Mi6pazE5xpoAh5OYDxDhf4XvFKhV/amh+JwAPQI
-zMWRvyFvmMPLoFn7XAi3Ganq7ygpeiBuAGtDn0/59/oiFr9+sE3TNaA3tF8vqQl8P2nPEvrf90tZ
-aHcho/4a+JktjUaCoZb7Ff+q037R9XkdRsl6Ndu/PboT8Nq7kt1CZGHucpQmhcV+s+HAmeP6HnRn
-c7fPtvZb14ml32SUi5uq+IBGlih10MkX/UEgkVCNBdlBlegLWUADJ6bg0WJTHCoxE14QTO2dMQL2
-o7rrkHA3xt2iZEhmQSYheVG4Qsd0ZpMkIHthbcWSS8Blizw3DSt2WE08m9n5ZoRYTx5V6RNGfwIR
-aFVzOWongiVn1pdtXhq9jnhH86jsXW7ubLh6/3cQbie1tDWmnb6/NGVLcZA2qfqbeerpNMv0Y+ef
-EBVyDidG/PjM7hMUy4YSz0T0pkVEPqwl+SrcPErriZRfRNyPPfzsqtbQ6C3IduZy6/wv7mz5ylKr
-IVy5H4ngbCcaw+LjgNex+Imuz4VRaijgitHrDx4Fs7KF/TFe14xMKOtfqVsNHpdQ5/aqBKh1moQA
-5+zOQAY/RRolOU4xqodyMy2dgzEsKXs3GsjmT1ho4s1CJgEAkQa7hDaqogg9BT5tJtDd2BrUi8As
-YbzVtHsSZI6HcQi+zTiGQ8hyAVZsD3T1xWSYejeqQlqk9iywxp0pw5QEK08lANamYH9FTxa9NFCR
-mR7tfeg/e5CX5Jgj0cauGF3EBa+cPayQxz/TLmkG7RmLf5DUUcNphb9B/loDJbpSSnM/IXaAAH6+
-PzxGg97Tn26hbKM2CTGcEhGsNcVoef7RS4WRsPi8/usZ5AbtJ9Qu3Yley0fu2/irvU7kzi3XeEl2
-wnge3G8lWrWLpGG7PP9ygtfnfmuJgnqNkCEA5rmcFipPts1yM/F9ksKtvGGwagSKwK8GSA9ICvAG
-Dk8KxNiA5s0qijCkWLKWaFMRpflXlU1uagKXKUXRL1WZ3iLc+3ysJ0+/93WWSWb3p1/7C+PtHMcv
-Zu+T2WLXUh1itnLPjsD5WyLPwLjZjM95rEvzjYiDynCFuvWBLl66wiWBKYCchb3SZJY3RxyeVf63
-jhvMaXzcRyWbJUwrQW8YZeCWxXYekXn+kqh1Ctv62tro11lI/5LipzInhCZfdckiJiOFfu9VtsqC
-W5GIUvR2p4/TlNL2PpP224i+FXKEbFWEbSJ41JtfQk5CPQia/RDh8MlpvWZUaZkHoU+6s3Z12xyb
-0WMUcGxWr2vUknTsKMqdyYfguKJD6FJtbckcusasg10dVDfKZXgVP+WKozw5RLQZR5+/doOO9OBB
-IKwZOjNJmIiqQVXrJXobQOyMgKE1I2CWqXUnXPC2qL4rqu2E4+Ft2zEBwMB5rP4OdEwCL/ssNJC2
-f+XZZl4BLgen/FtDRycIR6nIZwN81jB4m/rVdCmtVK9FluCA4QAawUFsHKDKEmrzk6BFR6Jg3ax3
-0CW/lYZ0iAYVUWQoTuXSFc7XJfR/7PyWksuEgehUsO+r9ow67mZp2JZqMuNv3fzQ2lOjUGhVbX7B
-jXmw2cj2xbo+EO9hHV59+P3MkF8KKF5CZcK4zUAhGu4CRkCjMzdK51obXuCXj8xS2iu1FmCWEbuW
-ZT8Olj/tMA1tSFtxEMU6uns0/S+L7Vw1VQ5/ndUgdQh4fVw3aC5i0A6lC37JDb/lABsXM7kJUjMl
-vRY9sGWQ83KKdWjsckIWZmcm4aAQTDOP4SAbIyW2CXhA4jCQdDyE7nCKvU0iAGpp3N/PRPTKiOUt
-S9+W+RIIX47iNR82t+ddGSEqj03lE/SJDFtM8ALPTq7Xzt59vpFTGt8s6kUPlm/FZHxcJh9xkgfQ
-vhuRNYBM5B06pDfJcVD5L1kAYaNGCKeKkevRbURNynLHOLM6Lqf5fpM9hiMX34/UR5tfGzXsPgVf
-5mQt7vmUMRX9RRy8+IXGVvKfrqqZ+gJTdB9Pdn9G8zodVL9NRm8MuaBOsLzf7iHMi9RRa9CJklnY
-ai5hI8jAlP6Ix7BXgNt7P4Bf/uqR4TCcUJYuuBwsRSKcHa+ChkEmy+4cLQ6CAJZQney3hfEwIrr3
-MRswoMnhNWxLtm5eldntdXbVzR1WCNiTFWlwpEDU/hB5Yxo/TL2wKaUEyaNxMNF1FICN5pRmzlpj
-r260X5yuwCJcT5rCHDoE9CZ9fTrrcW9Q0zGKN86j+tol5xQBG6y7jvWhT5DZuKaIZ/TmO/AXgFLv
-eNAOOK1Gceq+YHqGx5p1IDKsvSoy96uN0/Rx0VPDPIZE4SbhuN2syMYDztOAOWA2Nm7K1gkkzyJ4
-+hv2xv1gKw1AnXL5G4/zzcXQlGrzZRpQ5zkDg66mU2bnt+VsKB8x8PEca6GWeH4WissvlSrxV8Wb
-bde6Ig7Y3rxplUweBAE951xp0PuP0iTEK7yF0+gWBd0K5K6HE2qOSVj35puT9ZlwgxUX92Ed8C0s
-Donb55KHkv4mjZUWurvC4JhqPWjRnC2VHnR7uEroFifnEBhVIBSfCjjlhibkZkiLBgxnm5yR4IJH
-mTSivvkO9qU93KvgDxwj50bOi5ZeL/+n7EZmHVuMuRTS5XdQ5n/wDyMTZriRZyopsfvmKT0K99Rb
-NSZkpe8hAIBNPlnq9AUAjeFJwUVUDQtJTnzA75IziYDo+DZLLWEDhvVYaAvtjzz6MjEROmrtfy5m
-I4g4ffLGWHwrJg/wUY4+4odYKthNRxt2M9eV9V8iR3JGJ+BltvV7ESF06og/sfbHoNb8c2b5MImP
-//R8+95TbKogn8E8L8LT0U8Z2wwDfT9MTEAquf0D+fkS5mtTyNKXxJzOIsHj/1b934YPvZXU7hes
-p+Wvn/5/yxqg7CJCewwE5ICRA+uH1F0Gl6Tp0d8uRTIDLNdDj0ir08Onr7q6ZrN40WXulzOuZBIb
-mm45vEfVy9/13cEvYlwz2wVEGKzlDXoFt4uIJiOAIqk8IigWzOkJy/sSp52UhyULhVA8G0dj6p5D
-i0YqpSF8+xwt2NLB9VZq+xHE5pBx0ztPh/sdLJi767FNvk4P6qc/vgAQWbkeH2Q6iGyD+jfviVYu
-YekDy+6KhihFBCSHFgr9wCN8GhPFFK6l8jRjfUIqYfu4DO+P8vfyutxam05uXtnowPdN8Cs1G0Ns
-st4Oc2llNYmxFsy9Kj2dc6fiFt81IvZEQNSHV9BXeCwDw+OxQnlnOJ1MxpHfheY7euZ9X/EvP5Ae
-2nRbdcf8yP5kyBhxFoJ1vCcMdJTnczCsMGdaoNNTs47xHXxwEhSDqXGOVpHqfTxQ78OJE+pG43yl
-/BIxq9O//iS1VvoqdZs+dKR9Ju5Wz1aic5HjYVi8qlArXpqXoums4hfynigKdB4vI/yK+erdhnzr
-ZFnqesBsh3YSFe9JV3yYzYTV9o6/04a8FeYPoyCIz0neBpbM+UIvzA+4CqfUNJiaj+T+CRCOKh4F
-vwaxgn9MBQzmn7tn713e4X0du23+hB7RDEuYL9ALUfFDsRMKivymAsvcC2CdhpGHHIwfCV7Yr/Jm
-aO8SJZujqT40gkZVoqLVnxRySgLJEapeanzCYQPP6hmNV4jSCykraPtW69y3gPjSDIeI8eOjuLCl
-D/+vHHMKvaTLQLYREB4wKGrzyW7fcd+TvQtLeL07C0AB2wzAXb3Y6NfR5FDAYUGOvXmp3VaYvxK4
-Xl9D5/isNb0xCIw8gIV2INq6AA0kQvjzqGFfZ84XifYLo5QxmvSghu8x/M8s6dHLkigV/XfW/HdL
-oip0HXZEPGApZ/g1uGBdmEH2EG/DooLKX4oWhLfWq4OOtG+re/k+l3xxtulqDqDKoh8B2tTkatXZ
-QRJJTUBhTCT6nuSZW+jSn0aubaVBVtEiuxeKOo7YXkmj+AuxMy+Irwlo5IZksp3nNshlFHRZxS1T
-HvfUuk9aSioeHdV2JfFDjH3hf+LINeuLAYxxhZqv//W/jBzLkc1rAzMvUvS+wWkD/l33yNo29JzM
-Qn4mqRZcQL+04XJIb4/etsXtoNk+kvDAT0OY/xaXD0fVef0193cLP7ACwrXIVZJPv1Dyzyf6xFC6
-AuUfgSeCpO8h8KlsLxOgB9Ft5FndqCfk3R7f0YgPxH1femg9/8BBrzn4Hc5EilCJhYlCmYK5coUD
-UCPbA/zIgeIQbnno8UQG83q6FqFslGH4avi1cO4k4EiPMzumCZBXqW3hFwffCRAWrSP2/s0w9ZaP
-AkgbvexPJMJ3bwVUmO2qRKASi9yoreuleiyEuBU1lcx7mAtz0enFvJ+Jtm+mp68MHdi3/heHOfoj
-/1dgumyrjAJioPBdZGPGPX2VVkUA1OHBW18+2dAObkpxzQ++6uij4U9hDUj4vFFJfLwWo4Rm1/C5
-ESlb6k4P1qzgk0yP9D0vEByf7T7Cimb0MOdFLxVECZb2hk5XDxv8BhZ86+mbjmi1vJtHWyRfe97l
-DKuQoLyX+XonqkIe4iIjp0LPlH+RGUKGsLJc9b+Om6gESu1TJNG2Ki3XN/hKkZYj5Drp9WcLte3y
-Od2nX7nTMxuf/xBzOP+rT/kTl5j9xT0SyCz2iekq30BoQBU+wC6NJIxgxinXqS1VEWNSHOvT74KA
-mzXTUeIPQo/1hIUItF0=
+<?php declare(strict_types=1);
+
+/*
+ * This file is part of the Monolog package.
+ *
+ * (c) Jordi Boggiano <j.boggiano@seld.be>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Monolog\Processor;
+
+use Monolog\Logger;
+
+/**
+ * Injects line/file:class/function where the log message came from
+ *
+ * Warning: This only works if the handler processes the logs directly.
+ * If you put the processor on a handler that is behind a FingersCrossedHandler
+ * for example, the processor will only be called once the trigger level is reached,
+ * and all the log records will have the same file/line/.. data from the call that
+ * triggered the FingersCrossedHandler.
+ *
+ * @author Jordi Boggiano <j.boggiano@seld.be>
+ */
+class IntrospectionProcessor implements ProcessorInterface
+{
+    private $level;
+
+    private $skipClassesPartials;
+
+    private $skipStackFramesCount;
+
+    private $skipFunctions = [
+        'call_user_func',
+        'call_user_func_array',
+    ];
+
+    /**
+     * @param string|int $level The minimum logging level at which this Processor will be triggered
+     */
+    public function __construct($level = Logger::DEBUG, array $skipClassesPartials = [], int $skipStackFramesCount = 0)
+    {
+        $this->level = Logger::toMonologLevel($level);
+        $this->skipClassesPartials = array_merge(['Monolog\\'], $skipClassesPartials);
+        $this->skipStackFramesCount = $skipStackFramesCount;
+    }
+
+    public function __invoke(array $record): array
+    {
+        // return if the level is not high enough
+        if ($record['level'] < $this->level) {
+            return $record;
+        }
+
+        $trace = debug_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS);
+
+        // skip first since it's always the current method
+        array_shift($trace);
+        // the call_user_func call is also skipped
+        array_shift($trace);
+
+        $i = 0;
+
+        while ($this->isTraceClassOrSkippedFunction($trace, $i)) {
+            if (isset($trace[$i]['class'])) {
+                foreach ($this->skipClassesPartials as $part) {
+                    if (strpos($trace[$i]['class'], $part) !== false) {
+                        $i++;
+
+                        continue 2;
+                    }
+                }
+            } elseif (in_array($trace[$i]['function'], $this->skipFunctions)) {
+                $i++;
+
+                continue;
+            }
+
+            break;
+        }
+
+        $i += $this->skipStackFramesCount;
+
+        // we should have the call source now
+        $record['extra'] = array_merge(
+            $record['extra'],
+            [
+                'file'      => isset($trace[$i - 1]['file']) ? $trace[$i - 1]['file'] : null,
+                'line'      => isset($trace[$i - 1]['line']) ? $trace[$i - 1]['line'] : null,
+                'class'     => isset($trace[$i]['class']) ? $trace[$i]['class'] : null,
+                'function'  => isset($trace[$i]['function']) ? $trace[$i]['function'] : null,
+            ]
+        );
+
+        return $record;
+    }
+
+    private function isTraceClassOrSkippedFunction(array $trace, int $index)
+    {
+        if (!isset($trace[$index])) {
+            return false;
+        }
+
+        return isset($trace[$index]['class']) || in_array($trace[$index]['function'], $this->skipFunctions);
+    }
+}

@@ -1,78 +1,155 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-KCddxyTPfgavfc3V2b6Qz5StFtyZLi2icsttiG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute;
+
+class HttpRouteAction extends \Google\Collection
+{
+  protected $collection_key = 'weightedBackendServices';
+  protected $corsPolicyType = CorsPolicy::class;
+  protected $corsPolicyDataType = '';
+  protected $faultInjectionPolicyType = HttpFaultInjection::class;
+  protected $faultInjectionPolicyDataType = '';
+  protected $maxStreamDurationType = Duration::class;
+  protected $maxStreamDurationDataType = '';
+  protected $requestMirrorPolicyType = RequestMirrorPolicy::class;
+  protected $requestMirrorPolicyDataType = '';
+  protected $retryPolicyType = HttpRetryPolicy::class;
+  protected $retryPolicyDataType = '';
+  protected $timeoutType = Duration::class;
+  protected $timeoutDataType = '';
+  protected $urlRewriteType = UrlRewrite::class;
+  protected $urlRewriteDataType = '';
+  protected $weightedBackendServicesType = WeightedBackendService::class;
+  protected $weightedBackendServicesDataType = 'array';
+
+  /**
+   * @param CorsPolicy
+   */
+  public function setCorsPolicy(CorsPolicy $corsPolicy)
+  {
+    $this->corsPolicy = $corsPolicy;
+  }
+  /**
+   * @return CorsPolicy
+   */
+  public function getCorsPolicy()
+  {
+    return $this->corsPolicy;
+  }
+  /**
+   * @param HttpFaultInjection
+   */
+  public function setFaultInjectionPolicy(HttpFaultInjection $faultInjectionPolicy)
+  {
+    $this->faultInjectionPolicy = $faultInjectionPolicy;
+  }
+  /**
+   * @return HttpFaultInjection
+   */
+  public function getFaultInjectionPolicy()
+  {
+    return $this->faultInjectionPolicy;
+  }
+  /**
+   * @param Duration
+   */
+  public function setMaxStreamDuration(Duration $maxStreamDuration)
+  {
+    $this->maxStreamDuration = $maxStreamDuration;
+  }
+  /**
+   * @return Duration
+   */
+  public function getMaxStreamDuration()
+  {
+    return $this->maxStreamDuration;
+  }
+  /**
+   * @param RequestMirrorPolicy
+   */
+  public function setRequestMirrorPolicy(RequestMirrorPolicy $requestMirrorPolicy)
+  {
+    $this->requestMirrorPolicy = $requestMirrorPolicy;
+  }
+  /**
+   * @return RequestMirrorPolicy
+   */
+  public function getRequestMirrorPolicy()
+  {
+    return $this->requestMirrorPolicy;
+  }
+  /**
+   * @param HttpRetryPolicy
+   */
+  public function setRetryPolicy(HttpRetryPolicy $retryPolicy)
+  {
+    $this->retryPolicy = $retryPolicy;
+  }
+  /**
+   * @return HttpRetryPolicy
+   */
+  public function getRetryPolicy()
+  {
+    return $this->retryPolicy;
+  }
+  /**
+   * @param Duration
+   */
+  public function setTimeout(Duration $timeout)
+  {
+    $this->timeout = $timeout;
+  }
+  /**
+   * @return Duration
+   */
+  public function getTimeout()
+  {
+    return $this->timeout;
+  }
+  /**
+   * @param UrlRewrite
+   */
+  public function setUrlRewrite(UrlRewrite $urlRewrite)
+  {
+    $this->urlRewrite = $urlRewrite;
+  }
+  /**
+   * @return UrlRewrite
+   */
+  public function getUrlRewrite()
+  {
+    return $this->urlRewrite;
+  }
+  /**
+   * @param WeightedBackendService[]
+   */
+  public function setWeightedBackendServices($weightedBackendServices)
+  {
+    $this->weightedBackendServices = $weightedBackendServices;
+  }
+  /**
+   * @return WeightedBackendService[]
+   */
+  public function getWeightedBackendServices()
+  {
+    return $this->weightedBackendServices;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(HttpRouteAction::class, 'Google_Service_Compute_HttpRouteAction');

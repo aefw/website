@@ -1,59 +1,102 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DisplayVideo\Resource;
+
+use Google\Service\DisplayVideo\BulkEditPartnerAssignedTargetingOptionsRequest;
+use Google\Service\DisplayVideo\BulkEditPartnerAssignedTargetingOptionsResponse;
+use Google\Service\DisplayVideo\ListPartnersResponse;
+use Google\Service\DisplayVideo\Partner;
+
+/**
+ * The "partners" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $displayvideoService = new Google\Service\DisplayVideo(...);
+ *   $partners = $displayvideoService->partners;
+ *  </code>
+ */
+class Partners extends \Google\Service\Resource
+{
+  /**
+   * Bulk edits targeting options under a single partner. The operation will
+   * delete the assigned targeting options provided in
+   * BulkEditPartnerAssignedTargetingOptionsRequest.deleteRequests and then create
+   * the assigned targeting options provided in
+   * BulkEditPartnerAssignedTargetingOptionsRequest.createRequests .
+   * (partners.bulkEditPartnerAssignedTargetingOptions)
+   *
+   * @param string $partnerId Required. The ID of the partner.
+   * @param BulkEditPartnerAssignedTargetingOptionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return BulkEditPartnerAssignedTargetingOptionsResponse
+   */
+  public function bulkEditPartnerAssignedTargetingOptions($partnerId, BulkEditPartnerAssignedTargetingOptionsRequest $postBody, $optParams = [])
+  {
+    $params = ['partnerId' => $partnerId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('bulkEditPartnerAssignedTargetingOptions', [$params], BulkEditPartnerAssignedTargetingOptionsResponse::class);
+  }
+  /**
+   * Gets a partner. (partners.get)
+   *
+   * @param string $partnerId Required. The ID of the partner to fetch.
+   * @param array $optParams Optional parameters.
+   * @return Partner
+   */
+  public function get($partnerId, $optParams = [])
+  {
+    $params = ['partnerId' => $partnerId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Partner::class);
+  }
+  /**
+   * Lists partners that are accessible to the current user. The order is defined
+   * by the order_by parameter. (partners.listPartners)
+   *
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Allows filtering by partner properties. Supported
+   * syntax: * Filter expressions are made up of one or more restrictions. *
+   * Restrictions can be combined by `AND` or `OR` logical operators. A sequence
+   * of restrictions implicitly uses `AND`. * A restriction has the form of
+   * `{field} {operator} {value}`. * The operator must be `EQUALS (=)`. *
+   * Supported fields: - `entityStatus` Examples: * All active partners:
+   * `entityStatus="ENTITY_STATUS_ACTIVE"` The length of this field should be no
+   * more than 500 characters.
+   * @opt_param string orderBy Field by which to sort the list. Acceptable values
+   * are: * `displayName` The default sorting order is ascending. To specify
+   * descending order for a field, a suffix "desc" should be added to the field
+   * name. For example, `displayName desc`.
+   * @opt_param int pageSize Requested page size. Must be between `1` and `100`.
+   * If unspecified will default to `100`.
+   * @opt_param string pageToken A token identifying a page of results the server
+   * should return. Typically, this is the value of next_page_token returned from
+   * the previous call to `ListPartners` method. If not specified, the first page
+   * of results will be returned.
+   * @return ListPartnersResponse
+   */
+  public function listPartners($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListPartnersResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Partners::class, 'Google_Service_DisplayVideo_Resource_Partners');

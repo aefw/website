@@ -1,85 +1,189 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\GoogleAnalyticsAdmin\Resource;
+
+use Google\Service\GoogleAnalyticsAdmin\GoogleAnalyticsAdminV1alphaEnhancedMeasurementSettings;
+use Google\Service\GoogleAnalyticsAdmin\GoogleAnalyticsAdminV1alphaGlobalSiteTag;
+use Google\Service\GoogleAnalyticsAdmin\GoogleAnalyticsAdminV1alphaListWebDataStreamsResponse;
+use Google\Service\GoogleAnalyticsAdmin\GoogleAnalyticsAdminV1alphaWebDataStream;
+use Google\Service\GoogleAnalyticsAdmin\GoogleProtobufEmpty;
+
+/**
+ * The "webDataStreams" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $analyticsadminService = new Google\Service\GoogleAnalyticsAdmin(...);
+ *   $webDataStreams = $analyticsadminService->webDataStreams;
+ *  </code>
+ */
+class PropertiesWebDataStreams extends \Google\Service\Resource
+{
+  /**
+   * Creates a web stream with the specified location and attributes.
+   * (webDataStreams.create)
+   *
+   * @param string $parent Required. The parent resource where this web data
+   * stream will be created. Format: properties/123
+   * @param GoogleAnalyticsAdminV1alphaWebDataStream $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleAnalyticsAdminV1alphaWebDataStream
+   */
+  public function create($parent, GoogleAnalyticsAdminV1alphaWebDataStream $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleAnalyticsAdminV1alphaWebDataStream::class);
+  }
+  /**
+   * Deletes a web stream on a property. (webDataStreams.delete)
+   *
+   * @param string $name Required. The name of the web data stream to delete.
+   * Format: properties/{property_id}/webDataStreams/{stream_id} Example:
+   * "properties/123/webDataStreams/456"
+   * @param array $optParams Optional parameters.
+   * @return GoogleProtobufEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
+  }
+  /**
+   * Lookup for a single WebDataStream (webDataStreams.get)
+   *
+   * @param string $name Required. The name of the web data stream to lookup.
+   * Format: properties/{property_id}/webDataStreams/{stream_id} Example:
+   * "properties/123/webDataStreams/456"
+   * @param array $optParams Optional parameters.
+   * @return GoogleAnalyticsAdminV1alphaWebDataStream
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleAnalyticsAdminV1alphaWebDataStream::class);
+  }
+  /**
+   * Returns the singleton enhanced measurement settings for this web stream. Note
+   * that the stream must enable enhanced measurement for these settings to take
+   * effect. (webDataStreams.getEnhancedMeasurementSettings)
+   *
+   * @param string $name Required. The name of the settings to lookup. Format: pro
+   * perties/{property_id}/webDataStreams/{stream_id}/enhancedMeasurementSettings
+   * Example: "properties/1000/webDataStreams/2000/enhancedMeasurementSettings"
+   * @param array $optParams Optional parameters.
+   * @return GoogleAnalyticsAdminV1alphaEnhancedMeasurementSettings
+   */
+  public function getEnhancedMeasurementSettings($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('getEnhancedMeasurementSettings', [$params], GoogleAnalyticsAdminV1alphaEnhancedMeasurementSettings::class);
+  }
+  /**
+   * Returns the Site Tag for the specified web stream. Site Tags are immutable
+   * singletons. (webDataStreams.getGlobalSiteTag)
+   *
+   * @param string $name Required. The name of the site tag to lookup. Note that
+   * site tags are singletons and do not have unique IDs. Format:
+   * properties/{property_id}/webDataStreams/{stream_id}/globalSiteTag Example:
+   * "properties/123/webDataStreams/456/globalSiteTag"
+   * @param array $optParams Optional parameters.
+   * @return GoogleAnalyticsAdminV1alphaGlobalSiteTag
+   */
+  public function getGlobalSiteTag($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('getGlobalSiteTag', [$params], GoogleAnalyticsAdminV1alphaGlobalSiteTag::class);
+  }
+  /**
+   * Returns child web data streams under the specified parent property. Web data
+   * streams will be excluded if the caller does not have access. Returns an empty
+   * list if no relevant web data streams are found.
+   * (webDataStreams.listPropertiesWebDataStreams)
+   *
+   * @param string $parent Required. The name of the parent property. For example,
+   * to list results of web streams under the property with Id 123:
+   * "properties/123"
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The maximum number of resources to return. If
+   * unspecified, at most 50 resources will be returned. The maximum value is 200;
+   * (higher values will be coerced to the maximum)
+   * @opt_param string pageToken A page token, received from a previous
+   * `ListWebDataStreams` call. Provide this to retrieve the subsequent page. When
+   * paginating, all other parameters provided to `ListWebDataStreams` must match
+   * the call that provided the page token.
+   * @return GoogleAnalyticsAdminV1alphaListWebDataStreamsResponse
+   */
+  public function listPropertiesWebDataStreams($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleAnalyticsAdminV1alphaListWebDataStreamsResponse::class);
+  }
+  /**
+   * Updates a web stream on a property. (webDataStreams.patch)
+   *
+   * @param string $name Output only. Resource name of this Data Stream. Format:
+   * properties/{property_id}/webDataStreams/{stream_id} Example:
+   * "properties/1000/webDataStreams/2000"
+   * @param GoogleAnalyticsAdminV1alphaWebDataStream $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. The list of fields to be updated.
+   * Field names must be in snake case (e.g., "field_to_update"). Omitted fields
+   * will not be updated. To replace the entire entity, use one path with the
+   * string "*" to match all fields.
+   * @return GoogleAnalyticsAdminV1alphaWebDataStream
+   */
+  public function patch($name, GoogleAnalyticsAdminV1alphaWebDataStream $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], GoogleAnalyticsAdminV1alphaWebDataStream::class);
+  }
+  /**
+   * Updates the singleton enhanced measurement settings for this web stream. Note
+   * that the stream must enable enhanced measurement for these settings to take
+   * effect. (webDataStreams.updateEnhancedMeasurementSettings)
+   *
+   * @param string $name Output only. Resource name of this Data Stream. Format: p
+   * roperties/{property_id}/webDataStreams/{stream_id}/enhancedMeasurementSetting
+   * s Example: "properties/1000/webDataStreams/2000/enhancedMeasurementSettings"
+   * @param GoogleAnalyticsAdminV1alphaEnhancedMeasurementSettings $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. The list of fields to be updated.
+   * Field names must be in snake case (e.g., "field_to_update"). Omitted fields
+   * will not be updated. To replace the entire entity, use one path with the
+   * string "*" to match all fields.
+   * @return GoogleAnalyticsAdminV1alphaEnhancedMeasurementSettings
+   */
+  public function updateEnhancedMeasurementSettings($name, GoogleAnalyticsAdminV1alphaEnhancedMeasurementSettings $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('updateEnhancedMeasurementSettings', [$params], GoogleAnalyticsAdminV1alphaEnhancedMeasurementSettings::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PropertiesWebDataStreams::class, 'Google_Service_GoogleAnalyticsAdmin_Resource_PropertiesWebDataStreams');

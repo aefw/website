@@ -1,162 +1,324 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2011 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+namespace Google;
+
+use Google\Exception as GoogleException;
+use ReflectionObject;
+use ReflectionProperty;
+use stdClass;
+
+/**
+ * This class defines attributes, valid values, and usage which is generated
+ * from a given json schema.
+ * http://tools.ietf.org/html/draft-zyp-json-schema-03#section-5
+ *
+ */
+class Model implements \ArrayAccess
+{
+  /**
+   * If you need to specify a NULL JSON value, use Google\Model::NULL_VALUE
+   * instead - it will be replaced when converting to JSON with a real null.
+   */
+  const NULL_VALUE = "{}gapi-php-null";
+  protected $internal_gapi_mappings = array();
+  protected $modelData = array();
+  protected $processed = array();
+
+  /**
+   * Polymorphic - accepts a variable number of arguments dependent
+   * on the type of the model subclass.
+   */
+  final public function __construct()
+  {
+    if (func_num_args() == 1 && is_array(func_get_arg(0))) {
+      // Initialize the model with the array's contents.
+      $array = func_get_arg(0);
+      $this->mapTypes($array);
+    }
+    $this->gapiInit();
+  }
+
+  /**
+   * Getter that handles passthrough access to the data array, and lazy object creation.
+   * @param string $key Property name.
+   * @return mixed The value if any, or null.
+   */
+  public function __get($key)
+  {
+    $keyType = $this->keyType($key);
+    $keyDataType = $this->dataType($key);
+    if ($keyType && !isset($this->processed[$key])) {
+      if (isset($this->modelData[$key])) {
+        $val = $this->modelData[$key];
+      } elseif ($keyDataType == 'array' || $keyDataType == 'map') {
+        $val = array();
+      } else {
+        $val = null;
+      }
+
+      if ($this->isAssociativeArray($val)) {
+        if ($keyDataType && 'map' == $keyDataType) {
+          foreach ($val as $arrayKey => $arrayItem) {
+              $this->modelData[$key][$arrayKey] =
+                new $keyType($arrayItem);
+          }
+        } else {
+          $this->modelData[$key] = new $keyType($val);
+        }
+      } else if (is_array($val)) {
+        $arrayObject = array();
+        foreach ($val as $arrayIndex => $arrayItem) {
+          $arrayObject[$arrayIndex] = new $keyType($arrayItem);
+        }
+        $this->modelData[$key] = $arrayObject;
+      }
+      $this->processed[$key] = true;
+    }
+
+    return isset($this->modelData[$key]) ? $this->modelData[$key] : null;
+  }
+
+  /**
+   * Initialize this object's properties from an array.
+   *
+   * @param array $array Used to seed this object's properties.
+   * @return void
+   */
+  protected function mapTypes($array)
+  {
+    // Hard initialise simple types, lazy load more complex ones.
+    foreach ($array as $key => $val) {
+      if ($keyType = $this->keyType($key)) {
+        $dataType = $this->dataType($key);
+        if ($dataType == 'array' || $dataType == 'map') {
+          $this->$key = array();
+          foreach ($val as $itemKey => $itemVal) {
+            if ($itemVal instanceof $keyType) {
+              $this->{$key}[$itemKey] = $itemVal;
+            } else {
+              $this->{$key}[$itemKey] = new $keyType($itemVal);
+            }
+          }
+        } elseif ($val instanceof $keyType) {
+          $this->$key = $val;
+        } else {
+          $this->$key = new $keyType($val);
+        }
+        unset($array[$key]);
+      } elseif (property_exists($this, $key)) {
+          $this->$key = $val;
+          unset($array[$key]);
+      } elseif (property_exists($this, $camelKey = $this->camelCase($key))) {
+          // This checks if property exists as camelCase, leaving it in array as snake_case
+          // in case of backwards compatibility issues.
+          $this->$camelKey = $val;
+      }
+    }
+    $this->modelData = $array;
+  }
+
+  /**
+   * Blank initialiser to be used in subclasses to do  post-construction initialisation - this
+   * avoids the need for subclasses to have to implement the variadics handling in their
+   * constructors.
+   */
+  protected function gapiInit()
+  {
+    return;
+  }
+
+  /**
+   * Create a simplified object suitable for straightforward
+   * conversion to JSON. This is relatively expensive
+   * due to the usage of reflection, but shouldn't be called
+   * a whole lot, and is the most straightforward way to filter.
+   */
+  public function toSimpleObject()
+  {
+    $object = new stdClass();
+
+    // Process all other data.
+    foreach ($this->modelData as $key => $val) {
+      $result = $this->getSimpleValue($val);
+      if ($result !== null) {
+        $object->$key = $this->nullPlaceholderCheck($result);
+      }
+    }
+
+    // Process all public properties.
+    $reflect = new ReflectionObject($this);
+    $props = $reflect->getProperties(ReflectionProperty::IS_PUBLIC);
+    foreach ($props as $member) {
+      $name = $member->getName();
+      $result = $this->getSimpleValue($this->$name);
+      if ($result !== null) {
+        $name = $this->getMappedName($name);
+        $object->$name = $this->nullPlaceholderCheck($result);
+      }
+    }
+
+    return $object;
+  }
+
+  /**
+   * Handle different types of values, primarily
+   * other objects and map and array data types.
+   */
+  private function getSimpleValue($value)
+  {
+    if ($value instanceof Model) {
+      return $value->toSimpleObject();
+    } else if (is_array($value)) {
+      $return = array();
+      foreach ($value as $key => $a_value) {
+        $a_value = $this->getSimpleValue($a_value);
+        if ($a_value !== null) {
+          $key = $this->getMappedName($key);
+          $return[$key] = $this->nullPlaceholderCheck($a_value);
+        }
+      }
+      return $return;
+    }
+    return $value;
+  }
+
+  /**
+   * Check whether the value is the null placeholder and return true null.
+   */
+  private function nullPlaceholderCheck($value)
+  {
+    if ($value === self::NULL_VALUE) {
+      return null;
+    }
+    return $value;
+  }
+
+  /**
+   * If there is an internal name mapping, use that.
+   */
+  private function getMappedName($key)
+  {
+    if (isset($this->internal_gapi_mappings, $this->internal_gapi_mappings[$key])) {
+      $key = $this->internal_gapi_mappings[$key];
+    }
+    return $key;
+  }
+
+  /**
+   * Returns true only if the array is associative.
+   * @param array $array
+   * @return bool True if the array is associative.
+   */
+  protected function isAssociativeArray($array)
+  {
+    if (!is_array($array)) {
+      return false;
+    }
+    $keys = array_keys($array);
+    foreach ($keys as $key) {
+      if (is_string($key)) {
+        return true;
+      }
+    }
+    return false;
+  }
+
+  /**
+   * Verify if $obj is an array.
+   * @throws \Google\Exception Thrown if $obj isn't an array.
+   * @param array $obj Items that should be validated.
+   * @param string $method Method expecting an array as an argument.
+   */
+  public function assertIsArray($obj, $method)
+  {
+    if ($obj && !is_array($obj)) {
+      throw new GoogleException(
+          "Incorrect parameter type passed to $method(). Expected an array."
+      );
+    }
+  }
+
+  public function offsetExists($offset)
+  {
+    return isset($this->$offset) || isset($this->modelData[$offset]);
+  }
+
+  public function offsetGet($offset)
+  {
+    return isset($this->$offset) ?
+        $this->$offset :
+        $this->__get($offset);
+  }
+
+  public function offsetSet($offset, $value)
+  {
+    if (property_exists($this, $offset)) {
+      $this->$offset = $value;
+    } else {
+      $this->modelData[$offset] = $value;
+      $this->processed[$offset] = true;
+    }
+  }
+
+  public function offsetUnset($offset)
+  {
+    unset($this->modelData[$offset]);
+  }
+
+  protected function keyType($key)
+  {
+    $keyType = $key . "Type";
+
+    // ensure keyType is a valid class
+    if (property_exists($this, $keyType) && class_exists($this->$keyType)) {
+      return $this->$keyType;
+    }
+  }
+
+  protected function dataType($key)
+  {
+    $dataType = $key . "DataType";
+
+    if (property_exists($this, $dataType)) {
+      return $this->$dataType;
+    }
+  }
+
+  public function __isset($key)
+  {
+    return isset($this->modelData[$key]);
+  }
+
+  public function __unset($key)
+  {
+    unset($this->modelData[$key]);
+  }
+
+  /**
+   * Convert a string to camelCase
+   * @param  string $value
+   * @return string
+   */
+  private function camelCase($value)
+  {
+    $value = ucwords(str_replace(array('-', '_'), ' ', $value));
+    $value = str_replace(' ', '', $value);
+    $value[0] = strtolower($value[0]);
+    return $value;
+  }
+}

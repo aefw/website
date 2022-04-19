@@ -1,90 +1,181 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AndroidEnterprise;
+
+class Notification extends \Google\Model
+{
+  protected $appRestrictionsSchemaChangeEventType = AppRestrictionsSchemaChangeEvent::class;
+  protected $appRestrictionsSchemaChangeEventDataType = '';
+  protected $appUpdateEventType = AppUpdateEvent::class;
+  protected $appUpdateEventDataType = '';
+  protected $deviceReportUpdateEventType = DeviceReportUpdateEvent::class;
+  protected $deviceReportUpdateEventDataType = '';
+  public $enterpriseId;
+  protected $installFailureEventType = InstallFailureEvent::class;
+  protected $installFailureEventDataType = '';
+  protected $newDeviceEventType = NewDeviceEvent::class;
+  protected $newDeviceEventDataType = '';
+  protected $newPermissionsEventType = NewPermissionsEvent::class;
+  protected $newPermissionsEventDataType = '';
+  public $notificationType;
+  protected $productApprovalEventType = ProductApprovalEvent::class;
+  protected $productApprovalEventDataType = '';
+  protected $productAvailabilityChangeEventType = ProductAvailabilityChangeEvent::class;
+  protected $productAvailabilityChangeEventDataType = '';
+  public $timestampMillis;
+
+  /**
+   * @param AppRestrictionsSchemaChangeEvent
+   */
+  public function setAppRestrictionsSchemaChangeEvent(AppRestrictionsSchemaChangeEvent $appRestrictionsSchemaChangeEvent)
+  {
+    $this->appRestrictionsSchemaChangeEvent = $appRestrictionsSchemaChangeEvent;
+  }
+  /**
+   * @return AppRestrictionsSchemaChangeEvent
+   */
+  public function getAppRestrictionsSchemaChangeEvent()
+  {
+    return $this->appRestrictionsSchemaChangeEvent;
+  }
+  /**
+   * @param AppUpdateEvent
+   */
+  public function setAppUpdateEvent(AppUpdateEvent $appUpdateEvent)
+  {
+    $this->appUpdateEvent = $appUpdateEvent;
+  }
+  /**
+   * @return AppUpdateEvent
+   */
+  public function getAppUpdateEvent()
+  {
+    return $this->appUpdateEvent;
+  }
+  /**
+   * @param DeviceReportUpdateEvent
+   */
+  public function setDeviceReportUpdateEvent(DeviceReportUpdateEvent $deviceReportUpdateEvent)
+  {
+    $this->deviceReportUpdateEvent = $deviceReportUpdateEvent;
+  }
+  /**
+   * @return DeviceReportUpdateEvent
+   */
+  public function getDeviceReportUpdateEvent()
+  {
+    return $this->deviceReportUpdateEvent;
+  }
+  public function setEnterpriseId($enterpriseId)
+  {
+    $this->enterpriseId = $enterpriseId;
+  }
+  public function getEnterpriseId()
+  {
+    return $this->enterpriseId;
+  }
+  /**
+   * @param InstallFailureEvent
+   */
+  public function setInstallFailureEvent(InstallFailureEvent $installFailureEvent)
+  {
+    $this->installFailureEvent = $installFailureEvent;
+  }
+  /**
+   * @return InstallFailureEvent
+   */
+  public function getInstallFailureEvent()
+  {
+    return $this->installFailureEvent;
+  }
+  /**
+   * @param NewDeviceEvent
+   */
+  public function setNewDeviceEvent(NewDeviceEvent $newDeviceEvent)
+  {
+    $this->newDeviceEvent = $newDeviceEvent;
+  }
+  /**
+   * @return NewDeviceEvent
+   */
+  public function getNewDeviceEvent()
+  {
+    return $this->newDeviceEvent;
+  }
+  /**
+   * @param NewPermissionsEvent
+   */
+  public function setNewPermissionsEvent(NewPermissionsEvent $newPermissionsEvent)
+  {
+    $this->newPermissionsEvent = $newPermissionsEvent;
+  }
+  /**
+   * @return NewPermissionsEvent
+   */
+  public function getNewPermissionsEvent()
+  {
+    return $this->newPermissionsEvent;
+  }
+  public function setNotificationType($notificationType)
+  {
+    $this->notificationType = $notificationType;
+  }
+  public function getNotificationType()
+  {
+    return $this->notificationType;
+  }
+  /**
+   * @param ProductApprovalEvent
+   */
+  public function setProductApprovalEvent(ProductApprovalEvent $productApprovalEvent)
+  {
+    $this->productApprovalEvent = $productApprovalEvent;
+  }
+  /**
+   * @return ProductApprovalEvent
+   */
+  public function getProductApprovalEvent()
+  {
+    return $this->productApprovalEvent;
+  }
+  /**
+   * @param ProductAvailabilityChangeEvent
+   */
+  public function setProductAvailabilityChangeEvent(ProductAvailabilityChangeEvent $productAvailabilityChangeEvent)
+  {
+    $this->productAvailabilityChangeEvent = $productAvailabilityChangeEvent;
+  }
+  /**
+   * @return ProductAvailabilityChangeEvent
+   */
+  public function getProductAvailabilityChangeEvent()
+  {
+    return $this->productAvailabilityChangeEvent;
+  }
+  public function setTimestampMillis($timestampMillis)
+  {
+    $this->timestampMillis = $timestampMillis;
+  }
+  public function getTimestampMillis()
+  {
+    return $this->timestampMillis;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Notification::class, 'Google_Service_AndroidEnterprise_Notification');

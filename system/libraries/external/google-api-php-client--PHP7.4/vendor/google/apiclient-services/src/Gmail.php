@@ -1,119 +1,1240 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cP+3KaiqqY6VYiHO7xe1YHG45npfJHES0sUsMwvasyF9Qiz63swiIqwSKNaxy+exWoiYebwP5
-w7Zkf3Vv0MOWtCECZx8KLDJfOJ+z3AMWa+qOzOabCMQbh5UblKM29c+OaUfpDbyQ0ai+Y+TkMXDk
-NOTyYRk4ro9VJFiQ/8tz4DEV3Tt9wrXBAAHsSPr5eREhuxa37qO8Mgt/mBdoyv9d5YIdySnPk+Xh
-0LjAIB7fi/rDd36iBTxIOVmbYdHnwga0MU2zjIdPg+y84vjXL5M3ABBFOMRYS5CkDLI4g2o1fZvA
-1ULLddKjhugs9VnRVpyEYDIb9Ic/gF+D7e3IljHO79qg5p8aj8GC7fM9KKGmCBY2Is3xxtbZlkEg
-BXlxpWi/w7+dxN39fH/XWFANHsePJ9yO+gzKZxPOoHErTFKX6LsvNXrwys7h8tjwteCHpdQOTLvw
-8RJz+VZKPaTZY0JWOo5732fXzt7xFGIMeYDJGv9SxV67S/6PMxjfPNs61zStm2Rf3t6/Y56LqZ3L
-h98LxBeCmFD1X4bd9Rsmx6/WTe6/m2Dpw56dfByH8YpqJjNiFOInVQI9/Ia/dDfmWQgEY32P3HEX
-yH6htxeBaJHPqPOGUhIMNtigSFDmhdbvfndVznX0dkMyoNAnaodbgIwseBSCPRwIx0z5Cl+FuhSX
-VAHXxHWzAR6RscYmxUyfPpla4ESCtDPTKVir8GT/ZUNq0gt5kgvWsb9A99RuH1c6u2NSP62JgTqu
-zJWV/eypnD4k7b7I+fXwx5GbEXu+c9xZ6zq1EdvFQvVPQwoFVIsa6yewB8aViU8JPpSNpGHNdejk
-rOsJgiDFhd1BFdxhRMTTpoL5p6ZNI2BUB3N5vOZhSKAAT+Ai0K503ZswVou5W3J5aYTtSXadtPpL
-2smc4ctcKjYOspzD5yhm4grYfh7rhBzWtPcXSf0LMeoio7b0hnzMRyMI2V1FgRSRYJMgZobAd03L
-5FQnv/xdUxxKG1aVhW2VVbyG/mLT+KTVP8HJ3RZCBt0DjB62D0zEZq6tj0aM1xcX5B6ZpCyB5aWS
-D8xQ94CldNzS2yoiFvpwAySplKA6/uSXlMrqvIUpotKQylwZXAKpXFSelDMBIyfECx02N/YMwFCg
-FagV1hIOMObgb2QVJXkQw++9dvrGizVgau3SOta38j3dq3uCZkrhjHfnnxnJ9Q4wcxnwYXdbLKzz
-5aVYSqhEmERYUw+/6eV2uji/G/iFvQ0wkiAwTJRNQagkFPygvlBnOQA1a/VZ83LfeoLCiXwl/qGp
-y4x/ItDMQvPlNtUxgnClr7GFmRWMYmRlUIzf3DXeCSZ6QTVZzNqU0v38jgBGlU+Saa26QhK6Tp41
-Jv7GBSYp7pbJb9MFUXINEzN+E1n7vV2t8Xm1mN5lxw+uXBc+dF+Fmnu3UGjekZEIZCCM1BdMnn2h
-Dpjq6pPfKm31o9n4MujqSALw4bX0ynA6z5Fjr4GUmFTwHOAZSGRE+Bh10DdxBYMalOdU8MsIzq8X
-6jK6YQuNAE07R1NhubZ69ZhzNb+EAvEeYmXCpbyTipFQK8eSdtInezwqV1nz0jqZNWqUh2HN1g4+
-pWCZvBeKPqhmiiCCAPwyCVtCbDQeUjeqSWF1MCLxzIACz8qk8JJk9y1vLcIvvADmJksajXinefZU
-6DApsJQcY1hg18veO+TJkseHg1Av6+9gqjcb1AP5Bn7cD/yI2wXONBjg5K6788naSO6sqQr57+l9
-+ZI5uM7WDimLIoaXJbgpwo6XlTeK4eGLilqhygNomBtuCRgRW/QZVnRkDweu88OJVdnRzF1VgDCW
-0Ssy0aKQar5TNUJkoJf+ftUMsuEnGb8U5T4f57l/xAGVhTrqel8SU8UabPyczz0tbci/a+KYJ/a2
-XfezzIvYXyHyurSiZaI+JTSVRfV5wPofQxRiCBGUWtgk4MwPQfL4slh+u8ELnxr0NdDUCRWCgbLC
-jUZRz3PKZITvJNRgFJ72D6zr1atQRverqqeNQgDI3EBD5JfFAALUOQu9DV+jSd159Q2wtHXVtVW5
-8nZQLgXdy1EIqiMHtPjGPj5+3DmXoQVlku8YAsR4p944XjfjyKXxMxuzWZwdN0avMIjhxAry8lt0
-RvN4nb0uowQLr2yjht2Sf3329yd+AL620RCSQVpHqbek4NkzaliMi5z0O9UMggWQvXCCQd77xF+h
-1NZv5PKgm91hOpzw8WB9EcRu7sbLiaJNKHt1XefIO+4g9O3F9ALDcPHsBIgIb0lluPyMyU38hcOh
-UKdfXaPUbY9bzJ6eg3/m6USPJmkMX7N3Yc6HwOpWhDtONWOb3QOBXHkpWEPNZeSnfEJpuLxB9Jfx
-q1WY/fDt6tMWqG+NHzLtxNlX3OUG6muosrg4nNyRn5BrmeolG6d/EHiab1NWH1eO4796JWmWjU1V
-5wxrkLLf25fmZFW8wQySqvpU4pEklE99UrTd55PboXWshwXKhN8/xKsYtQx+MjOta1W2eNa5Zqrf
-eMn3rJugE0Ym4/AQE9hSWaRqRtR9cVXEajuMgTONM+FdeVhaQpzX/5pkNkwGEzdyOQfX0+zXUCCk
-D9gRWhVmul2Rb1pGRuZ1TXL5gZRz6bpjKUH8KuCKsHDbUENxj4Bn9qE1kxpn0sgPc+/rlWZiZAE2
-W4Fv1xP/Mnj0WR1Af8NcXeoh41eTjzTRV0T4hzB5kixoQrc0XuEZ/IUJOxaUskUykbfwoq+xZwag
-S2pdAb2ejPOpH4W0H5JCFKNigS9iGp+WaIArjaols7ZSGwRB11zBJNZxzgT9BJT+aueJCkGle5Qx
-gx6bytbXJg9voka3gQhh5xy2Qk0kejySkQQ4HIUc9ARGB1E7xSWR77b/LHDRYvsH3WQU/0ZJ0K1n
-h4vkJTsV3PS81BMvHjOUTjYYWmjsxjS/vQAnSQ7ahm+xDFc2E/iUzkhupmfgbM6Owlx5jsWlRES4
-DcldZsz5OGW2OYvAZ0Os5C3F7hHLOyxbnQC/1bO/HXLwC/tC9VeBlOEVAqms6+6fQIISZoiFKuh0
-7HAZpJ/2jApxZRsJVAUWau46YkEmE702a8TM4G/XyKzVALOZ33foimv+78GABe8wK0GcRk2xdYcW
-z6WZ2YFK1AnasF9fr1BjwJ9k2k3z1gGg31BybLlYlNMJ24sAqZazHjQ4zVjSVcihi/VkGwxQkZJ+
-S7GaC75WnwtPth1rUAjTP4Pdt9O9VbO+xBsKEWyUZosf1+TbLoJuEJh8R9aMQP8KWC4MUTjB3eUX
-1b+BkF1Hv6yhEckuHj6rw76o3OXN9+EUM6ITuSq1rewNw0iwUnrJpaxbXmb9GuWDAbDS59z/O8mA
-dmC9ZAswrIf74QDsmN2i8h8d2vqmixzDf9DYu0G9HVCPjJW/yuOZruiQdQO1InuG02lniwL7atdh
-i9vLwRbeMkyNJInXRY0+Jx0VDXKQbXN9cDLpuyBjujR+iGae2Dadhpg12EoOxvrKA7NCYlbXGOEa
-b5wtQyLbi2an4obc2vvsPsD+xjQDe7G5kt/QCsmVXB9RCAgLljLId8ZU/ekqUZPQkbOZ2KfMQc5G
-WDeUr5WhW20iiR+PN3AZyTVB2pd/9G4tsx/vU2PgaQgsG+gCRUWO639l1FpLhMp6P+zQJsutnU1h
-86iJMNpO+RWImqmEj+tmOt+A/3a5S1moo1y6d4G8HoPswNlK0WaO+pKz3mDuwtTGrfYKUJl8bQDu
-DIyvs8mi/6DPmWZdpKbRHnCcB5eu2ZzPUp6ZGazzAC13bByCeBfMss5IPVe2hxSqEkUmYeMWMLmX
-nxv9B4NICdksiznKU7AX5sDRJx+Ar5akJZV1U+UYrTKin1ZJspwPfPlKz+OY7Hl1Fz+dR5QvftPj
-oUwLiH6RmNjEqCD5cN2k/R1MCVUGlW5UWg4zRGIMO/fIC9bHPp7LQyBid+XMuBq+yblj/2T0ZUy/
-/ukN94dvNvTusEDIkbB6pZAY92HsYLcETOYZR8uEXyuiSB2E+Is6kSO0xoJglZ/s2TtASgpywucN
-ibHmhcsiLh2iubkCb9CI6ElnIgvcrCEhwJRmLsVXgD+2yfHBuEIohoLOV9I+Ny8AOvkr/8fnR3xL
-Us1XJ2Es9hKjGDjzDcHrjg4S/Dfk5njJk/h4q+Itwen9//yZ54XBgn9n+zoVuRMWd4K7Y722Sv/u
-mRf/51xRGrRBDsaQXSXPJg0J8wFO7uKUOMCGahHvV9FLOwCjYjAT7kSg79hI0ZssEZNR/uJYQTGu
-90UhabHxmkZuZUSIcbNbosJeJH9oe2a6npcBxrwxWrGCo3t7W4+qQA+Q1wcpsJj5Ra8RACSroVdG
-TCd/7Z/siR0vpY8BR1D0a84gZhwtqbGk3SjZ1F1hAx0kUROUVbyk3GMPaKlyrg3VeZUcQS98Ren5
-YN8qbkH5i5bhlrk8LGT2PYt3InIF/wjfJPc2xJ5H39Xt01Na3rWCpTr1GaSosTWGLSV29XEymw0i
-lofYOm4jusjtT3RJYxBmXw8fXuTXwMyHoBfLhFB0h0C3WkVObdX5MDEG6LCsaPyxO2ZmWJv0Kz9O
-yz7KPtpJZs73sVMUqsseR7hsYiLhPlRo+mRHmgWewNub204nQcpvMQtv1+XXNcECZ9qiaENyviTt
-ZNDWIjYZNLzuLoixm/Y25FRf50MxqxdDW1L/VO6kNaU4JdPplLWSHvmUfoRxzgStd8/ybtID7gsm
-/8W01nWJ5fy2lA8IpjUJLi9Adq2RDKP3Fh8QuLo7lpyc9y/sc2pVXEybQMrutAbEqU0lgYagEiMN
-yE6wc/RITkkrf501A0hZ1TmzNCAV1LGImOlO4y359R4rpXTgwARH0QAi38y+JVKHJs4CMmlsKja3
-UnNfTEflLMAABkG0LANN6o37zupL1kUvqmysCdyo6Hc4AZh4kF3uxZxoXIGRHKJOtHpKx9qU4zx5
-IZeTqf6osTd5ERM3YdkmmLgLapsaOARKeHgStm8ntZ2BUbiMHx/ReX1y0h4fVdkqfV+pUooQX36q
-TOGLf++Xr690wTEOtC88iEbpWkr0k4neukWXJQoys8w1i1bSlq+1BonULZTzdFivZ53UWd6TXoQU
-PDUYNHb0ggr2d2JQjpc+Al7S/MvXD4nFHkkoPU7zfKNf3QcT5mEiPwwofUxNxuGJcuNtQKZyYHiR
-nHhCOJ3ApT5EPTV0CijT/m9SVa/YZiRjnzMZfszXdM/CkB+2Ah/XMo4NRqiBujYVqxwDabR6X7+o
-QIU/6nMqGCcbOw8nf3T/Tj86YjBADsSrT+CgyG8KfnQ5JL3EJz/0fiOHqlPYE4XI6Gm4PL55wW0o
-I0WVGesLi/Yivi2qMGUzADAh3youhnW3NR8P9YLUl2bTkvWNTjP98BE5hpTVKfyNEq5cuNwGnw7C
-2Dg8bT+72to9v2mrk5lfOAUGecYq68u00tMZiFZ4esKjS+UDerbr7hKGKdljAkHgbvR2099L3AwE
-RfrG3Bk/qAuefef/bmkixU8+phTDenpGJeXCsuHjKR/CACeQnzgnli6zQLt/xfIJctCp/E+0CFIi
-SgM07ZCfmz9zUzgt98MfvVh4vPKCcxzF7ijJfs8QEsfkQdyncWpRCQd/uzAph2Z+VSuPTWYl4sGm
-2o1owAklfoEnRZcvlc9VcYI/Q4oav0Z7UL1gP0fvSSRbV3fQtGfpRKD/9EfPe9tZ+RI5HPzcmTgX
-Kwx4dkCxfTLe9bj3KME6pqAi4VwwZuQDW2exCdDhnKREgQo/m3+PXNiBfjk3xVOKeLp5yU3i9+V9
-nmRX/1IZdUuSZ5xPbxTxfxRFuqs5Xbk3qPqOWjeXt0KodJJ99nUu491wQuj3xIFkd1GJPTjFtdMl
-7+CZfncQ9F4zAjqkToGvEs5wEuaEnrLv/9lPOYnjspFy8CMWgQ2DNvaMbcc0nS6WiqwV5wbY69ab
-DltW7W/PqwJ3cziTWvc6XOHqYdbCrvGreui8C6LkmWCtSM+tI6KkIsh9XytcAe4BPC8d6Xa+jYZH
-csCfdOOF+BsbGkZY96fJnZOJz4E0VfDddJjzn2kyrqEmvyt/Ix6h6laQ5NuB8iU1Ebb2aJ9T/BSo
-mgbTVBrPq5EIBCHVHEcd1Pd2I4JiQ5MjPYkbgBfYHvlz4tXO0MaUMVWh9gepJE0t8Z0sGMCn2nO+
-ROD8x0TNz3dQryaxJjiFylpPiAb6bzOItAUGtwwr0HTZ04b1N7KnVDr0bZ/lyEXe3lsUJvHTEcTF
-aP/QAff0o7iEy4hKkNocDFd5Prhqi60W98NQZF75M4D9rLCqwdHh1xeDrB8tXN94r/A/VqDaT9CC
-OI3kb8uR26Em4qIURAINehDT0klLqE8NLlVsx19jPcx21vceV+3a534td2T2Yynk2QzU7K5GztXQ
-jgb5/0UWcueGUq3uKHYFWUXzALPs0gYWN0dP4wXN0qK7mg5kBi33yrHMwCiU4oYjeBg94nfmf0fG
-aR3w077oL7ndWHc0mJuDUhGjmBO/fwg9u+jUCqG0zm1pp9/bIqPMk8cwxA0LBKQM+osPkDboiEtY
-CohU+ANBqJdHmxYa+NLjbNDmiG1thcTH314PO39wVPeHRUb25bhEzo7EXJERKAs3Qqe4UtmkVYXj
-9VPWubvenbhnTs7MW/UmDDdSyJ7vXyUzljjjsL8sZEaRHkx2Glo5n2V/dq+mstDMXwSRhScnMF/a
-KStz7DuoJh83/+5l9Zy1Tg8sjheTIOoe5JZKqwqNi5B5cCN/p5EBvdHBqUObwCWIzSOdb7KnB609
-8x437bHpN/75S4iSNHKKeHI4K3c38CGBMV27Bt/lGqZR49WIu/KSIIuR6kAvTfYGvTbh10WZ1yrI
-HejZsZZ/ba86NjDzgOaprFlkmCrnqyVr4cM6WsxP30C9Mgm1QTsWsw9MOhZn7v5uanImP7y74nYr
-mrWEPK8HLDDtApys9dndTHbSHnAAO+wJ937c1jr4Fi4kqYb3ak7BX9ZYys18rQqIkwr1iu6v5bc6
-zVECmJhiZYdBbeb/Audj/Um8J3PDJMQ52JNwpE3QuLTjvf9t41o/ClpfPOXAf4wiGpemhqSQGOyW
-FjOPGjkFJ3LHL3tmC7YAWW3VZIchNKur2YXxLOgbd83DhgdDjySqqbu6nab27FSQBI1mEuLtgNyZ
-620062upXyQOOqRCt9dolq2B3/PSBamv5mI9GXWMVLbV4p9zo6SAn4uPVI8G/GOpEIizX+4Q2IbY
-7RbopwD1nT67daAg+jrz1WvmjqQ+mSnkVSN/LzXLPI7KKgTESQgaeXFVeU3Qr/p7OmIXW334BLmz
-0HIdZXQRbnief1Bh8MWIIbjIxzkqihIIWSoIxvVmBPvU6Dw9kGxR2prRYFFIaedkZ0OqrmMLW93M
-qB/lsQ3Yb4ZlhfCvIcwsz7mjbGvOcIIRz+F68JEiI8ooy27UU4agxbnRwom/4QOPwcFBElf7Y8IZ
-u8+WQcEAGS9FPhOnnPb+RwhTz+ViFVbI+mkeuFuzMnzI4uh0B1VhfshDZvR3H5R3wa/jimd7mpGi
-hLZH+onyqY55wy15u7AnPTWZcVVdyxmisuSr3aBvBJ+vq3QLggZU1i7jPuiEmGoCL5XI8fOEtMIt
-xZdSTrx/GMgN/QQG/xxXy6VFwj7A2f3NFeMkqZX0CbFzVZ5RrsgVxINL0kxtLCDcwR3J889IGK4S
-5/PqZ6176sR6fXBcJFG2OvoVPxKeINjAb4VkBgEEFN1YATfwxHft8oxWWwutacrCEOFHU9qxxDDr
-BeGWMCfqTqnt00MvvOxlChFqVO4DRblrKQ/G8LTOk9Q646BvFxhuHwRPp0qDcU4PR0teC9V2IfIh
-mHofI5FRZnvRJihME2wW7T8qhAgiRgAoNyUTVcDis7zZH6HGVgoosk58qwjEt1aHEg/pZQbe+cvg
-mOSQ0pz6wa4zPiClSRp/BjydhQcAfuAswrPqlWq5xYYN0P1+5qqmhvcMn4E1NqpeEdglfGJ4WgtT
-yQ7g6oy5uafHFdSsaQ7efa+6Hq+JKyoD706RSdbht0Dc+PB2VEjZQnwMOdI/+rKjfiuGGwIeJPg8
-gaXucqMo8O3Yxqwehtwik5GFMys4Zvbcpx6968sbn0dfSDHBSbel/FYpunCzv8cffqcfPLAccpLJ
-XbHNkxVqUOo1drHkzm7Jz1xukWX8+m2WpUODHN/pvBuNZSj/d/PRBlHfJxCTbQbVU4L9GpaSkaCo
-ZciPZDG6rJQQUeWSDSxNN0ZjRNI0Iev4L+AaOieNROoWzHPPeWIoZWSGFxaWGIgj795Ut6PXhgnd
-7vrjWwjjHkXaa6JD2DphV0G1/wAjg4EiK2Ha8HHSxtJ0/DnDzi4tZtevSf4GRgYOBrPdBepUGlak
-J3JY85R1RtX6hFq/+/cJ65jETVc/0vIp+PFFsA4tdxhWi1O+S0O+bQFlNEY+icIwW2E8gXpc5a/T
-JTAJNLdrddUMOgAB5gRDQNLz0YFR/+4WX0eu9ENHzDG1IuTRBSx0hOIbG35Cbo0KvuA7THHA02+M
-7DFYa+heVbgRwY4sP0bZm67IFag/zG/7WxyFfvv12/nEbvIKgQBpFNS=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for Gmail (v1).
+ *
+ * <p>
+ * The Gmail API lets you view and manage Gmail mailbox data like threads,
+ * messages, and labels.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://developers.google.com/gmail/api/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class Gmail extends \Google\Service
+{
+  /** Read, compose, send, and permanently delete all your email from Gmail. */
+  const MAIL_GOOGLE_COM =
+      "https://mail.google.com/";
+  /** Manage drafts and send emails when you interact with the add-on. */
+  const GMAIL_ADDONS_CURRENT_ACTION_COMPOSE =
+      "https://www.googleapis.com/auth/gmail.addons.current.action.compose";
+  /** View your email messages when you interact with the add-on. */
+  const GMAIL_ADDONS_CURRENT_MESSAGE_ACTION =
+      "https://www.googleapis.com/auth/gmail.addons.current.message.action";
+  /** View your email message metadata when the add-on is running. */
+  const GMAIL_ADDONS_CURRENT_MESSAGE_METADATA =
+      "https://www.googleapis.com/auth/gmail.addons.current.message.metadata";
+  /** View your email messages when the add-on is running. */
+  const GMAIL_ADDONS_CURRENT_MESSAGE_READONLY =
+      "https://www.googleapis.com/auth/gmail.addons.current.message.readonly";
+  /** Manage drafts and send emails. */
+  const GMAIL_COMPOSE =
+      "https://www.googleapis.com/auth/gmail.compose";
+  /** Add emails into your Gmail mailbox. */
+  const GMAIL_INSERT =
+      "https://www.googleapis.com/auth/gmail.insert";
+  /** See and edit your email labels. */
+  const GMAIL_LABELS =
+      "https://www.googleapis.com/auth/gmail.labels";
+  /** View your email message metadata such as labels and headers, but not the email body. */
+  const GMAIL_METADATA =
+      "https://www.googleapis.com/auth/gmail.metadata";
+  /** Read, compose, and send emails from your Gmail account. */
+  const GMAIL_MODIFY =
+      "https://www.googleapis.com/auth/gmail.modify";
+  /** View your email messages and settings. */
+  const GMAIL_READONLY =
+      "https://www.googleapis.com/auth/gmail.readonly";
+  /** Send email on your behalf. */
+  const GMAIL_SEND =
+      "https://www.googleapis.com/auth/gmail.send";
+  /** See, edit, create, or change your email settings and filters in Gmail. */
+  const GMAIL_SETTINGS_BASIC =
+      "https://www.googleapis.com/auth/gmail.settings.basic";
+  /** Manage your sensitive mail settings, including who can manage your mail. */
+  const GMAIL_SETTINGS_SHARING =
+      "https://www.googleapis.com/auth/gmail.settings.sharing";
+
+  public $users;
+  public $users_drafts;
+  public $users_history;
+  public $users_labels;
+  public $users_messages;
+  public $users_messages_attachments;
+  public $users_settings;
+  public $users_settings_delegates;
+  public $users_settings_filters;
+  public $users_settings_forwardingAddresses;
+  public $users_settings_sendAs;
+  public $users_settings_sendAs_smimeInfo;
+  public $users_threads;
+
+  /**
+   * Constructs the internal representation of the Gmail service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://gmail.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'gmail';
+
+    $this->users = new Gmail\Resource\Users(
+        $this,
+        $this->serviceName,
+        'users',
+        [
+          'methods' => [
+            'getProfile' => [
+              'path' => 'gmail/v1/users/{userId}/profile',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'stop' => [
+              'path' => 'gmail/v1/users/{userId}/stop',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'watch' => [
+              'path' => 'gmail/v1/users/{userId}/watch',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->users_drafts = new Gmail\Resource\UsersDrafts(
+        $this,
+        $this->serviceName,
+        'drafts',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'gmail/v1/users/{userId}/drafts',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'gmail/v1/users/{userId}/drafts/{id}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'gmail/v1/users/{userId}/drafts/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'format' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'gmail/v1/users/{userId}/drafts',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'includeSpamTrash' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'q' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'send' => [
+              'path' => 'gmail/v1/users/{userId}/drafts/send',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'gmail/v1/users/{userId}/drafts/{id}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->users_history = new Gmail\Resource\UsersHistory(
+        $this,
+        $this->serviceName,
+        'history',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'gmail/v1/users/{userId}/history',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'historyTypes' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'labelId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'startHistoryId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->users_labels = new Gmail\Resource\UsersLabels(
+        $this,
+        $this->serviceName,
+        'labels',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'gmail/v1/users/{userId}/labels',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'gmail/v1/users/{userId}/labels/{id}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'gmail/v1/users/{userId}/labels/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'gmail/v1/users/{userId}/labels',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'gmail/v1/users/{userId}/labels/{id}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'gmail/v1/users/{userId}/labels/{id}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->users_messages = new Gmail\Resource\UsersMessages(
+        $this,
+        $this->serviceName,
+        'messages',
+        [
+          'methods' => [
+            'batchDelete' => [
+              'path' => 'gmail/v1/users/{userId}/messages/batchDelete',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'batchModify' => [
+              'path' => 'gmail/v1/users/{userId}/messages/batchModify',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'gmail/v1/users/{userId}/messages/{id}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'gmail/v1/users/{userId}/messages/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'format' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'metadataHeaders' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],'import' => [
+              'path' => 'gmail/v1/users/{userId}/messages/import',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'deleted' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'internalDateSource' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'neverMarkSpam' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'processForCalendar' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'gmail/v1/users/{userId}/messages',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'deleted' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'internalDateSource' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'gmail/v1/users/{userId}/messages',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'includeSpamTrash' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'labelIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'q' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'modify' => [
+              'path' => 'gmail/v1/users/{userId}/messages/{id}/modify',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'send' => [
+              'path' => 'gmail/v1/users/{userId}/messages/send',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'trash' => [
+              'path' => 'gmail/v1/users/{userId}/messages/{id}/trash',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'untrash' => [
+              'path' => 'gmail/v1/users/{userId}/messages/{id}/untrash',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->users_messages_attachments = new Gmail\Resource\UsersMessagesAttachments(
+        $this,
+        $this->serviceName,
+        'attachments',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'gmail/v1/users/{userId}/messages/{messageId}/attachments/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'messageId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->users_settings = new Gmail\Resource\UsersSettings(
+        $this,
+        $this->serviceName,
+        'settings',
+        [
+          'methods' => [
+            'getAutoForwarding' => [
+              'path' => 'gmail/v1/users/{userId}/settings/autoForwarding',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getImap' => [
+              'path' => 'gmail/v1/users/{userId}/settings/imap',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getLanguage' => [
+              'path' => 'gmail/v1/users/{userId}/settings/language',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getPop' => [
+              'path' => 'gmail/v1/users/{userId}/settings/pop',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getVacation' => [
+              'path' => 'gmail/v1/users/{userId}/settings/vacation',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'updateAutoForwarding' => [
+              'path' => 'gmail/v1/users/{userId}/settings/autoForwarding',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'updateImap' => [
+              'path' => 'gmail/v1/users/{userId}/settings/imap',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'updateLanguage' => [
+              'path' => 'gmail/v1/users/{userId}/settings/language',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'updatePop' => [
+              'path' => 'gmail/v1/users/{userId}/settings/pop',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'updateVacation' => [
+              'path' => 'gmail/v1/users/{userId}/settings/vacation',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->users_settings_delegates = new Gmail\Resource\UsersSettingsDelegates(
+        $this,
+        $this->serviceName,
+        'delegates',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'gmail/v1/users/{userId}/settings/delegates',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'gmail/v1/users/{userId}/settings/delegates/{delegateEmail}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'delegateEmail' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'gmail/v1/users/{userId}/settings/delegates/{delegateEmail}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'delegateEmail' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'gmail/v1/users/{userId}/settings/delegates',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->users_settings_filters = new Gmail\Resource\UsersSettingsFilters(
+        $this,
+        $this->serviceName,
+        'filters',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'gmail/v1/users/{userId}/settings/filters',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'gmail/v1/users/{userId}/settings/filters/{id}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'gmail/v1/users/{userId}/settings/filters/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'gmail/v1/users/{userId}/settings/filters',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->users_settings_forwardingAddresses = new Gmail\Resource\UsersSettingsForwardingAddresses(
+        $this,
+        $this->serviceName,
+        'forwardingAddresses',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'gmail/v1/users/{userId}/settings/forwardingAddresses',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'gmail/v1/users/{userId}/settings/forwardingAddresses/{forwardingEmail}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'forwardingEmail' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'gmail/v1/users/{userId}/settings/forwardingAddresses/{forwardingEmail}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'forwardingEmail' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'gmail/v1/users/{userId}/settings/forwardingAddresses',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->users_settings_sendAs = new Gmail\Resource\UsersSettingsSendAs(
+        $this,
+        $this->serviceName,
+        'sendAs',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'gmail/v1/users/{userId}/settings/sendAs',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'gmail/v1/users/{userId}/settings/sendAs/{sendAsEmail}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'sendAsEmail' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'gmail/v1/users/{userId}/settings/sendAs/{sendAsEmail}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'sendAsEmail' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'gmail/v1/users/{userId}/settings/sendAs',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'gmail/v1/users/{userId}/settings/sendAs/{sendAsEmail}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'sendAsEmail' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'gmail/v1/users/{userId}/settings/sendAs/{sendAsEmail}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'sendAsEmail' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'verify' => [
+              'path' => 'gmail/v1/users/{userId}/settings/sendAs/{sendAsEmail}/verify',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'sendAsEmail' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->users_settings_sendAs_smimeInfo = new Gmail\Resource\UsersSettingsSendAsSmimeInfo(
+        $this,
+        $this->serviceName,
+        'smimeInfo',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'gmail/v1/users/{userId}/settings/sendAs/{sendAsEmail}/smimeInfo/{id}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'sendAsEmail' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'gmail/v1/users/{userId}/settings/sendAs/{sendAsEmail}/smimeInfo/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'sendAsEmail' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'gmail/v1/users/{userId}/settings/sendAs/{sendAsEmail}/smimeInfo',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'sendAsEmail' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'gmail/v1/users/{userId}/settings/sendAs/{sendAsEmail}/smimeInfo',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'sendAsEmail' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'setDefault' => [
+              'path' => 'gmail/v1/users/{userId}/settings/sendAs/{sendAsEmail}/smimeInfo/{id}/setDefault',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'sendAsEmail' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->users_threads = new Gmail\Resource\UsersThreads(
+        $this,
+        $this->serviceName,
+        'threads',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'gmail/v1/users/{userId}/threads/{id}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'gmail/v1/users/{userId}/threads/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'format' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'metadataHeaders' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'gmail/v1/users/{userId}/threads',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'includeSpamTrash' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'labelIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'q' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'modify' => [
+              'path' => 'gmail/v1/users/{userId}/threads/{id}/modify',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'trash' => [
+              'path' => 'gmail/v1/users/{userId}/threads/{id}/trash',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'untrash' => [
+              'path' => 'gmail/v1/users/{userId}/threads/{id}/untrash',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Gmail::class, 'Google_Service_Gmail');

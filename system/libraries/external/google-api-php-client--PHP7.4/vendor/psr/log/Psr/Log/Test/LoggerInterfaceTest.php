@@ -1,129 +1,138 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-mWO=
+<?php
+
+namespace Psr\Log\Test;
+
+use Psr\Log\LoggerInterface;
+use Psr\Log\LogLevel;
+use PHPUnit\Framework\TestCase;
+
+/**
+ * Provides a base test class for ensuring compliance with the LoggerInterface.
+ *
+ * Implementors can extend the class and implement abstract methods to run this
+ * as part of their test suite.
+ */
+abstract class LoggerInterfaceTest extends TestCase
+{
+    /**
+     * @return LoggerInterface
+     */
+    abstract public function getLogger();
+
+    /**
+     * This must return the log messages in order.
+     *
+     * The simple formatting of the messages is: "<LOG LEVEL> <MESSAGE>".
+     *
+     * Example ->error('Foo') would yield "error Foo".
+     *
+     * @return string[]
+     */
+    abstract public function getLogs();
+
+    public function testImplements()
+    {
+        $this->assertInstanceOf('Psr\Log\LoggerInterface', $this->getLogger());
+    }
+
+    /**
+     * @dataProvider provideLevelsAndMessages
+     */
+    public function testLogsAtAllLevels($level, $message)
+    {
+        $logger = $this->getLogger();
+        $logger->{$level}($message, array('user' => 'Bob'));
+        $logger->log($level, $message, array('user' => 'Bob'));
+
+        $expected = array(
+            $level.' message of level '.$level.' with context: Bob',
+            $level.' message of level '.$level.' with context: Bob',
+        );
+        $this->assertEquals($expected, $this->getLogs());
+    }
+
+    public function provideLevelsAndMessages()
+    {
+        return array(
+            LogLevel::EMERGENCY => array(LogLevel::EMERGENCY, 'message of level emergency with context: {user}'),
+            LogLevel::ALERT => array(LogLevel::ALERT, 'message of level alert with context: {user}'),
+            LogLevel::CRITICAL => array(LogLevel::CRITICAL, 'message of level critical with context: {user}'),
+            LogLevel::ERROR => array(LogLevel::ERROR, 'message of level error with context: {user}'),
+            LogLevel::WARNING => array(LogLevel::WARNING, 'message of level warning with context: {user}'),
+            LogLevel::NOTICE => array(LogLevel::NOTICE, 'message of level notice with context: {user}'),
+            LogLevel::INFO => array(LogLevel::INFO, 'message of level info with context: {user}'),
+            LogLevel::DEBUG => array(LogLevel::DEBUG, 'message of level debug with context: {user}'),
+        );
+    }
+
+    /**
+     * @expectedException \Psr\Log\InvalidArgumentException
+     */
+    public function testThrowsOnInvalidLevel()
+    {
+        $logger = $this->getLogger();
+        $logger->log('invalid level', 'Foo');
+    }
+
+    public function testContextReplacement()
+    {
+        $logger = $this->getLogger();
+        $logger->info('{Message {nothing} {user} {foo.bar} a}', array('user' => 'Bob', 'foo.bar' => 'Bar'));
+
+        $expected = array('info {Message {nothing} Bob Bar a}');
+        $this->assertEquals($expected, $this->getLogs());
+    }
+
+    public function testObjectCastToString()
+    {
+        if (method_exists($this, 'createPartialMock')) {
+            $dummy = $this->createPartialMock('Psr\Log\Test\DummyTest', array('__toString'));
+        } else {
+            $dummy = $this->getMock('Psr\Log\Test\DummyTest', array('__toString'));
+        }
+        $dummy->expects($this->once())
+            ->method('__toString')
+            ->will($this->returnValue('DUMMY'));
+
+        $this->getLogger()->warning($dummy);
+
+        $expected = array('warning DUMMY');
+        $this->assertEquals($expected, $this->getLogs());
+    }
+
+    public function testContextCanContainAnything()
+    {
+        $closed = fopen('php://memory', 'r');
+        fclose($closed);
+
+        $context = array(
+            'bool' => true,
+            'null' => null,
+            'string' => 'Foo',
+            'int' => 0,
+            'float' => 0.5,
+            'nested' => array('with object' => new DummyTest),
+            'object' => new \DateTime,
+            'resource' => fopen('php://memory', 'r'),
+            'closed' => $closed,
+        );
+
+        $this->getLogger()->warning('Crazy context data', $context);
+
+        $expected = array('warning Crazy context data');
+        $this->assertEquals($expected, $this->getLogs());
+    }
+
+    public function testContextExceptionKeyCanBeExceptionOrOtherValues()
+    {
+        $logger = $this->getLogger();
+        $logger->warning('Random message', array('exception' => 'oops'));
+        $logger->critical('Uncaught Exception!', array('exception' => new \LogicException('Fail')));
+
+        $expected = array(
+            'warning Random message',
+            'critical Uncaught Exception!'
+        );
+        $this->assertEquals($expected, $this->getLogs());
+    }
+}

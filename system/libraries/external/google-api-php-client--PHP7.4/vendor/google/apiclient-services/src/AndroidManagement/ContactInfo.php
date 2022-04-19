@@ -1,66 +1,89 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AndroidManagement;
+
+class ContactInfo extends \Google\Model
+{
+  public $contactEmail;
+  public $dataProtectionOfficerEmail;
+  public $dataProtectionOfficerName;
+  public $dataProtectionOfficerPhone;
+  public $euRepresentativeEmail;
+  public $euRepresentativeName;
+  public $euRepresentativePhone;
+
+  public function setContactEmail($contactEmail)
+  {
+    $this->contactEmail = $contactEmail;
+  }
+  public function getContactEmail()
+  {
+    return $this->contactEmail;
+  }
+  public function setDataProtectionOfficerEmail($dataProtectionOfficerEmail)
+  {
+    $this->dataProtectionOfficerEmail = $dataProtectionOfficerEmail;
+  }
+  public function getDataProtectionOfficerEmail()
+  {
+    return $this->dataProtectionOfficerEmail;
+  }
+  public function setDataProtectionOfficerName($dataProtectionOfficerName)
+  {
+    $this->dataProtectionOfficerName = $dataProtectionOfficerName;
+  }
+  public function getDataProtectionOfficerName()
+  {
+    return $this->dataProtectionOfficerName;
+  }
+  public function setDataProtectionOfficerPhone($dataProtectionOfficerPhone)
+  {
+    $this->dataProtectionOfficerPhone = $dataProtectionOfficerPhone;
+  }
+  public function getDataProtectionOfficerPhone()
+  {
+    return $this->dataProtectionOfficerPhone;
+  }
+  public function setEuRepresentativeEmail($euRepresentativeEmail)
+  {
+    $this->euRepresentativeEmail = $euRepresentativeEmail;
+  }
+  public function getEuRepresentativeEmail()
+  {
+    return $this->euRepresentativeEmail;
+  }
+  public function setEuRepresentativeName($euRepresentativeName)
+  {
+    $this->euRepresentativeName = $euRepresentativeName;
+  }
+  public function getEuRepresentativeName()
+  {
+    return $this->euRepresentativeName;
+  }
+  public function setEuRepresentativePhone($euRepresentativePhone)
+  {
+    $this->euRepresentativePhone = $euRepresentativePhone;
+  }
+  public function getEuRepresentativePhone()
+  {
+    return $this->euRepresentativePhone;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ContactInfo::class, 'Google_Service_AndroidManagement_ContactInfo');

@@ -1,106 +1,218 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-KG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dataflow;
+
+class WorkItem extends \Google\Collection
+{
+  protected $collection_key = 'packages';
+  public $configuration;
+  public $id;
+  public $initialReportIndex;
+  public $jobId;
+  public $leaseExpireTime;
+  protected $mapTaskType = MapTask::class;
+  protected $mapTaskDataType = '';
+  protected $packagesType = Package::class;
+  protected $packagesDataType = 'array';
+  public $projectId;
+  public $reportStatusInterval;
+  protected $seqMapTaskType = SeqMapTask::class;
+  protected $seqMapTaskDataType = '';
+  protected $shellTaskType = ShellTask::class;
+  protected $shellTaskDataType = '';
+  protected $sourceOperationTaskType = SourceOperationRequest::class;
+  protected $sourceOperationTaskDataType = '';
+  protected $streamingComputationTaskType = StreamingComputationTask::class;
+  protected $streamingComputationTaskDataType = '';
+  protected $streamingConfigTaskType = StreamingConfigTask::class;
+  protected $streamingConfigTaskDataType = '';
+  protected $streamingSetupTaskType = StreamingSetupTask::class;
+  protected $streamingSetupTaskDataType = '';
+
+  public function setConfiguration($configuration)
+  {
+    $this->configuration = $configuration;
+  }
+  public function getConfiguration()
+  {
+    return $this->configuration;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setInitialReportIndex($initialReportIndex)
+  {
+    $this->initialReportIndex = $initialReportIndex;
+  }
+  public function getInitialReportIndex()
+  {
+    return $this->initialReportIndex;
+  }
+  public function setJobId($jobId)
+  {
+    $this->jobId = $jobId;
+  }
+  public function getJobId()
+  {
+    return $this->jobId;
+  }
+  public function setLeaseExpireTime($leaseExpireTime)
+  {
+    $this->leaseExpireTime = $leaseExpireTime;
+  }
+  public function getLeaseExpireTime()
+  {
+    return $this->leaseExpireTime;
+  }
+  /**
+   * @param MapTask
+   */
+  public function setMapTask(MapTask $mapTask)
+  {
+    $this->mapTask = $mapTask;
+  }
+  /**
+   * @return MapTask
+   */
+  public function getMapTask()
+  {
+    return $this->mapTask;
+  }
+  /**
+   * @param Package[]
+   */
+  public function setPackages($packages)
+  {
+    $this->packages = $packages;
+  }
+  /**
+   * @return Package[]
+   */
+  public function getPackages()
+  {
+    return $this->packages;
+  }
+  public function setProjectId($projectId)
+  {
+    $this->projectId = $projectId;
+  }
+  public function getProjectId()
+  {
+    return $this->projectId;
+  }
+  public function setReportStatusInterval($reportStatusInterval)
+  {
+    $this->reportStatusInterval = $reportStatusInterval;
+  }
+  public function getReportStatusInterval()
+  {
+    return $this->reportStatusInterval;
+  }
+  /**
+   * @param SeqMapTask
+   */
+  public function setSeqMapTask(SeqMapTask $seqMapTask)
+  {
+    $this->seqMapTask = $seqMapTask;
+  }
+  /**
+   * @return SeqMapTask
+   */
+  public function getSeqMapTask()
+  {
+    return $this->seqMapTask;
+  }
+  /**
+   * @param ShellTask
+   */
+  public function setShellTask(ShellTask $shellTask)
+  {
+    $this->shellTask = $shellTask;
+  }
+  /**
+   * @return ShellTask
+   */
+  public function getShellTask()
+  {
+    return $this->shellTask;
+  }
+  /**
+   * @param SourceOperationRequest
+   */
+  public function setSourceOperationTask(SourceOperationRequest $sourceOperationTask)
+  {
+    $this->sourceOperationTask = $sourceOperationTask;
+  }
+  /**
+   * @return SourceOperationRequest
+   */
+  public function getSourceOperationTask()
+  {
+    return $this->sourceOperationTask;
+  }
+  /**
+   * @param StreamingComputationTask
+   */
+  public function setStreamingComputationTask(StreamingComputationTask $streamingComputationTask)
+  {
+    $this->streamingComputationTask = $streamingComputationTask;
+  }
+  /**
+   * @return StreamingComputationTask
+   */
+  public function getStreamingComputationTask()
+  {
+    return $this->streamingComputationTask;
+  }
+  /**
+   * @param StreamingConfigTask
+   */
+  public function setStreamingConfigTask(StreamingConfigTask $streamingConfigTask)
+  {
+    $this->streamingConfigTask = $streamingConfigTask;
+  }
+  /**
+   * @return StreamingConfigTask
+   */
+  public function getStreamingConfigTask()
+  {
+    return $this->streamingConfigTask;
+  }
+  /**
+   * @param StreamingSetupTask
+   */
+  public function setStreamingSetupTask(StreamingSetupTask $streamingSetupTask)
+  {
+    $this->streamingSetupTask = $streamingSetupTask;
+  }
+  /**
+   * @return StreamingSetupTask
+   */
+  public function getStreamingSetupTask()
+  {
+    return $this->streamingSetupTask;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(WorkItem::class, 'Google_Service_Dataflow_WorkItem');

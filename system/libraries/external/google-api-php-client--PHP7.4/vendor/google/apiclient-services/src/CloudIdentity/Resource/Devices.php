@@ -1,72 +1,187 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudIdentity\Resource;
+
+use Google\Service\CloudIdentity\GoogleAppsCloudidentityDevicesV1CancelWipeDeviceRequest;
+use Google\Service\CloudIdentity\GoogleAppsCloudidentityDevicesV1Device;
+use Google\Service\CloudIdentity\GoogleAppsCloudidentityDevicesV1ListDevicesResponse;
+use Google\Service\CloudIdentity\GoogleAppsCloudidentityDevicesV1WipeDeviceRequest;
+use Google\Service\CloudIdentity\Operation;
+
+/**
+ * The "devices" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $cloudidentityService = new Google\Service\CloudIdentity(...);
+ *   $devices = $cloudidentityService->devices;
+ *  </code>
+ */
+class Devices extends \Google\Service\Resource
+{
+  /**
+   * Cancels an unfinished device wipe. This operation can be used to cancel
+   * device wipe in the gap between the wipe operation returning success and the
+   * device being wiped. This operation is possible when the device is in a
+   * "pending wipe" state. The device enters the "pending wipe" state when a wipe
+   * device command is issued, but has not yet been sent to the device. The cancel
+   * wipe will fail if the wipe command has already been issued to the device.
+   * (devices.cancelWipe)
+   *
+   * @param string $name Required. [Resource
+   * name](https://cloud.google.com/apis/design/resource_names) of the Device in
+   * format: `devices/{device_id}`, where device_id is the unique ID assigned to
+   * the Device.
+   * @param GoogleAppsCloudidentityDevicesV1CancelWipeDeviceRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function cancelWipe($name, GoogleAppsCloudidentityDevicesV1CancelWipeDeviceRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('cancelWipe', [$params], Operation::class);
+  }
+  /**
+   * Creates a device. Only company-owned device may be created. **Note**: This
+   * method is available only to customers who have one of the following SKUs:
+   * Enterprise Standard, Enterprise Plus, Enterprise for Education, and Cloud
+   * Identity Premium (devices.create)
+   *
+   * @param GoogleAppsCloudidentityDevicesV1Device $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string customer Optional. [Resource
+   * name](https://cloud.google.com/apis/design/resource_names) of the customer.
+   * If you're using this API for your own organization, use
+   * `customers/my_customer` If you're using this API to manage another
+   * organization, use `customers/{customer_id}`, where customer_id is the
+   * customer to whom the device belongs.
+   * @return Operation
+   */
+  public function create(GoogleAppsCloudidentityDevicesV1Device $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Operation::class);
+  }
+  /**
+   * Deletes the specified device. (devices.delete)
+   *
+   * @param string $name Required. [Resource
+   * name](https://cloud.google.com/apis/design/resource_names) of the Device in
+   * format: `devices/{device_id}`, where device_id is the unique ID assigned to
+   * the Device.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string customer Optional. [Resource
+   * name](https://cloud.google.com/apis/design/resource_names) of the customer.
+   * If you're using this API for your own organization, use
+   * `customers/my_customer` If you're using this API to manage another
+   * organization, use `customers/{customer_id}`, where customer_id is the
+   * customer to whom the device belongs.
+   * @return Operation
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Retrieves the specified device. (devices.get)
+   *
+   * @param string $name Required. [Resource
+   * name](https://cloud.google.com/apis/design/resource_names) of the Device in
+   * the format: `devices/{device_id}`, where device_id is the unique ID assigned
+   * to the Device.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string customer Optional. [Resource
+   * name](https://cloud.google.com/apis/design/resource_names) of the Customer in
+   * the format: `customers/{customer_id}`, where customer_id is the customer to
+   * whom the device belongs. If you're using this API for your own organization,
+   * use `customers/my_customer`. If you're using this API to manage another
+   * organization, use `customers/{customer_id}`, where customer_id is the
+   * customer to whom the device belongs.
+   * @return GoogleAppsCloudidentityDevicesV1Device
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleAppsCloudidentityDevicesV1Device::class);
+  }
+  /**
+   * Lists/Searches devices. (devices.listDevices)
+   *
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string customer Optional. [Resource
+   * name](https://cloud.google.com/apis/design/resource_names) of the customer in
+   * the format: `customers/{customer_id}`, where customer_id is the customer to
+   * whom the device belongs. If you're using this API for your own organization,
+   * use `customers/my_customer`. If you're using this API to manage another
+   * organization, use `customers/{customer_id}`, where customer_id is the
+   * customer to whom the device belongs.
+   * @opt_param string filter Optional. Additional restrictions when fetching list
+   * of devices. For a list of search fields, refer to [Mobile device search
+   * fields](https://developers.google.com/admin-sdk/directory/v1/search-
+   * operators). Multiple search fields are separated by the space character.
+   * @opt_param string orderBy Optional. Order specification for devices in the
+   * response. Only one of the following field names may be used to specify the
+   * order: `create_time`, `last_sync_time`, `model`, `os_version`, `device_type`
+   * and `serial_number`. `desc` may be specified optionally at the end to specify
+   * results to be sorted in descending order. Default order is ascending.
+   * @opt_param int pageSize Optional. The maximum number of Devices to return. If
+   * unspecified, at most 20 Devices will be returned. The maximum value is 100;
+   * values above 100 will be coerced to 100.
+   * @opt_param string pageToken Optional. A page token, received from a previous
+   * `ListDevices` call. Provide this to retrieve the subsequent page. When
+   * paginating, all other parameters provided to `ListDevices` must match the
+   * call that provided the page token.
+   * @opt_param string view Optional. The view to use for the List request.
+   * @return GoogleAppsCloudidentityDevicesV1ListDevicesResponse
+   */
+  public function listDevices($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleAppsCloudidentityDevicesV1ListDevicesResponse::class);
+  }
+  /**
+   * Wipes all data on the specified device. (devices.wipe)
+   *
+   * @param string $name Required. [Resource
+   * name](https://cloud.google.com/apis/design/resource_names) of the Device in
+   * format: `devices/{device_id}/deviceUsers/{device_user_id}`, where device_id
+   * is the unique ID assigned to the Device, and device_user_id is the unique ID
+   * assigned to the User.
+   * @param GoogleAppsCloudidentityDevicesV1WipeDeviceRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function wipe($name, GoogleAppsCloudidentityDevicesV1WipeDeviceRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('wipe', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Devices::class, 'Google_Service_CloudIdentity_Resource_Devices');

@@ -1,59 +1,99 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-BCRK
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Apigee\Resource;
+
+use Google\Service\Apigee\GoogleApiHttpBody;
+use Google\Service\Apigee\GoogleCloudApigeeV1ApiProxyRevision;
+
+/**
+ * The "revisions" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $apigeeService = new Google\Service\Apigee(...);
+ *   $revisions = $apigeeService->revisions;
+ *  </code>
+ */
+class OrganizationsApisRevisions extends \Google\Service\Resource
+{
+  /**
+   * Deletes an API proxy revision and all policies, resources, endpoints, and
+   * revisions associated with it. The API proxy revision must be undeployed
+   * before you can delete it. (revisions.delete)
+   *
+   * @param string $name Required. API proxy revision in the following format:
+   * `organizations/{org}/apis/{api}/revisions/{rev}`
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1ApiProxyRevision
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleCloudApigeeV1ApiProxyRevision::class);
+  }
+  /**
+   * Gets an API proxy revision. To download the API proxy configuration bundle
+   * for the specified revision as a zip file, set the `format` query parameter to
+   * `bundle`. If you are using curl, specify `-o filename.zip` to save the output
+   * to a file; otherwise, it displays to `stdout`. Then, develop the API proxy
+   * configuration locally and upload the updated API proxy configuration
+   * revision, as described in [updateApiProxyRevision](updateApiProxyRevision).
+   * (revisions.get)
+   *
+   * @param string $name Required. API proxy revision in the following format:
+   * `organizations/{org}/apis/{api}/revisions/{rev}`
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string format Format used when downloading the API proxy
+   * configuration revision. Set to `bundle` to download the API proxy
+   * configuration revision as a zip file.
+   * @return GoogleApiHttpBody
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleApiHttpBody::class);
+  }
+  /**
+   * Updates an existing API proxy revision by uploading the API proxy
+   * configuration bundle as a zip file from your local machine. You can update
+   * only API proxy revisions that have never been deployed. After deployment, an
+   * API proxy revision becomes immutable, even if it is undeployed. Set the
+   * `Content-Type` header to either `multipart/form-data` or `application/octet-
+   * stream`. (revisions.updateApiProxyRevision)
+   *
+   * @param string $name Required. API proxy revision to update in the following
+   * format: `organizations/{org}/apis/{api}/revisions/{rev}`
+   * @param GoogleApiHttpBody $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool validate Ignored. All uploads are validated regardless of the
+   * value of this field. Maintained for compatibility with Apigee Edge API.
+   * @return GoogleCloudApigeeV1ApiProxyRevision
+   */
+  public function updateApiProxyRevision($name, GoogleApiHttpBody $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('updateApiProxyRevision', [$params], GoogleCloudApigeeV1ApiProxyRevision::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(OrganizationsApisRevisions::class, 'Google_Service_Apigee_Resource_OrganizationsApisRevisions');

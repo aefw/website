@@ -1,71 +1,262 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for GamesManagement (v1management).
+ *
+ * <p>
+ * The Google Play Game Management API allows developers to manage resources
+ * from the Google Play Game service.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://developers.google.com/games/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class GamesManagement extends \Google\Service
+{
+  /** Create, edit, and delete your Google Play Games activity. */
+  const GAMES =
+      "https://www.googleapis.com/auth/games";
+
+  public $achievements;
+  public $applications;
+  public $events;
+  public $players;
+  public $scores;
+
+  /**
+   * Constructs the internal representation of the GamesManagement service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://gamesmanagement.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1management';
+    $this->serviceName = 'gamesManagement';
+
+    $this->achievements = new GamesManagement\Resource\Achievements(
+        $this,
+        $this->serviceName,
+        'achievements',
+        [
+          'methods' => [
+            'reset' => [
+              'path' => 'games/v1management/achievements/{achievementId}/reset',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'achievementId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'resetAll' => [
+              'path' => 'games/v1management/achievements/reset',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'resetAllForAllPlayers' => [
+              'path' => 'games/v1management/achievements/resetAllForAllPlayers',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'resetForAllPlayers' => [
+              'path' => 'games/v1management/achievements/{achievementId}/resetForAllPlayers',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'achievementId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'resetMultipleForAllPlayers' => [
+              'path' => 'games/v1management/achievements/resetMultipleForAllPlayers',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],
+          ]
+        ]
+    );
+    $this->applications = new GamesManagement\Resource\Applications(
+        $this,
+        $this->serviceName,
+        'applications',
+        [
+          'methods' => [
+            'listHidden' => [
+              'path' => 'games/v1management/applications/{applicationId}/players/hidden',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'applicationId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->events = new GamesManagement\Resource\Events(
+        $this,
+        $this->serviceName,
+        'events',
+        [
+          'methods' => [
+            'reset' => [
+              'path' => 'games/v1management/events/{eventId}/reset',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'eventId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'resetAll' => [
+              'path' => 'games/v1management/events/reset',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'resetAllForAllPlayers' => [
+              'path' => 'games/v1management/events/resetAllForAllPlayers',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'resetForAllPlayers' => [
+              'path' => 'games/v1management/events/{eventId}/resetForAllPlayers',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'eventId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'resetMultipleForAllPlayers' => [
+              'path' => 'games/v1management/events/resetMultipleForAllPlayers',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],
+          ]
+        ]
+    );
+    $this->players = new GamesManagement\Resource\Players(
+        $this,
+        $this->serviceName,
+        'players',
+        [
+          'methods' => [
+            'hide' => [
+              'path' => 'games/v1management/applications/{applicationId}/players/hidden/{playerId}',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'applicationId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'playerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'unhide' => [
+              'path' => 'games/v1management/applications/{applicationId}/players/hidden/{playerId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'applicationId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'playerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->scores = new GamesManagement\Resource\Scores(
+        $this,
+        $this->serviceName,
+        'scores',
+        [
+          'methods' => [
+            'reset' => [
+              'path' => 'games/v1management/leaderboards/{leaderboardId}/scores/reset',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'leaderboardId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'resetAll' => [
+              'path' => 'games/v1management/scores/reset',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'resetAllForAllPlayers' => [
+              'path' => 'games/v1management/scores/resetAllForAllPlayers',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'resetForAllPlayers' => [
+              'path' => 'games/v1management/leaderboards/{leaderboardId}/scores/resetForAllPlayers',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'leaderboardId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'resetMultipleForAllPlayers' => [
+              'path' => 'games/v1management/scores/resetMultipleForAllPlayers',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GamesManagement::class, 'Google_Service_GamesManagement');

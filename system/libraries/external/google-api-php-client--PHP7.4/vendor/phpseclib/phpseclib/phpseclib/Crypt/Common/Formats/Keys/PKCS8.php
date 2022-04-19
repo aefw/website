@@ -1,412 +1,702 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-cKJYKSR3mIhv6Z5znIDXNYqX6B1lOA6R
+<?php
+
+/**
+ * PKCS#8 Formatted Key Handler
+ *
+ * PHP version 5
+ *
+ * Used by PHP's openssl_public_encrypt() and openssl's rsautl (when -pubin is set)
+ *
+ * Processes keys with the following headers:
+ *
+ * -----BEGIN ENCRYPTED PRIVATE KEY-----
+ * -----BEGIN PRIVATE KEY-----
+ * -----BEGIN PUBLIC KEY-----
+ *
+ * Analogous to ssh-keygen's pkcs8 format (as specified by -m). Although PKCS8
+ * is specific to private keys it's basically creating a DER-encoded wrapper
+ * for keys. This just extends that same concept to public keys (much like ssh-keygen)
+ *
+ * @category  Crypt
+ * @package   Common
+ * @author    Jim Wigginton <terrafrost@php.net>
+ * @copyright 2015 Jim Wigginton
+ * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      http://phpseclib.sourceforge.net
+ */
+
+namespace phpseclib3\Crypt\Common\Formats\Keys;
+
+use ParagonIE\ConstantTime\Base64;
+use phpseclib3\Crypt\DES;
+use phpseclib3\Crypt\RC2;
+use phpseclib3\Crypt\RC4;
+use phpseclib3\Crypt\AES;
+use phpseclib3\Crypt\TripleDES;
+use phpseclib3\Crypt\Random;
+use phpseclib3\Math\BigInteger;
+use phpseclib3\File\ASN1;
+use phpseclib3\File\ASN1\Maps;
+use phpseclib3\Common\Functions\Strings;
+use phpseclib3\Exception\UnsupportedAlgorithmException;
+
+/**
+ * PKCS#8 Formatted Key Handler
+ *
+ * @package Common
+ * @author  Jim Wigginton <terrafrost@php.net>
+ * @access  public
+ */
+abstract class PKCS8 extends PKCS
+{
+    /**
+     * Default encryption algorithm
+     *
+     * @var string
+     * @access private
+     */
+    private static $defaultEncryptionAlgorithm = 'id-PBES2';
+
+    /**
+     * Default encryption scheme
+     *
+     * Only used when defaultEncryptionAlgorithm is id-PBES2
+     *
+     * @var string
+     * @access private
+     */
+    private static $defaultEncryptionScheme = 'aes128-CBC-PAD';
+
+    /**
+     * Default PRF
+     *
+     * Only used when defaultEncryptionAlgorithm is id-PBES2
+     *
+     * @var string
+     * @access private
+     */
+    private static $defaultPRF = 'id-hmacWithSHA256';
+
+    /**
+     * Default Iteration Count
+     *
+     * @var int
+     * @access private
+     */
+    private static $defaultIterationCount = 2048;
+
+    /**
+     * OIDs loaded
+     *
+     * @var bool
+     * @access private
+     */
+    private static $oidsLoaded = false;
+
+    /**
+     * Sets the default encryption algorithm
+     *
+     * @access public
+     * @param string $algo
+     */
+    public static function setEncryptionAlgorithm($algo)
+    {
+        self::$defaultEncryptionAlgorithm = $algo;
+    }
+
+    /**
+     * Sets the default encryption algorithm for PBES2
+     *
+     * @access public
+     * @param string $algo
+     */
+    public static function setEncryptionScheme($algo)
+    {
+        self::$defaultEncryptionScheme = $algo;
+    }
+
+    /**
+     * Sets the iteration count
+     *
+     * @access public
+     * @param int $count
+     */
+    public static function setIterationCount($count)
+    {
+        self::$defaultIterationCount = $count;
+    }
+
+    /**
+     * Sets the PRF for PBES2
+     *
+     * @access public
+     * @param string $algo
+     */
+    public static function setPRF($algo)
+    {
+        self::$defaultPRF = $algo;
+    }
+
+    /**
+     * Returns a SymmetricKey object based on a PBES1 $algo
+     *
+     * @return \phpseclib3\Crypt\Common\SymmetricKey
+     * @access public
+     * @param string $algo
+     */
+    private static function getPBES1EncryptionObject($algo)
+    {
+        $algo = preg_match('#^pbeWith(?:MD2|MD5|SHA1|SHA)And(.*?)-CBC$#', $algo, $matches) ?
+            $matches[1] :
+            substr($algo, 13); // strlen('pbeWithSHAAnd') == 13
+
+        switch ($algo) {
+            case 'DES':
+                $cipher = new DES('cbc');
+                break;
+            case 'RC2':
+                $cipher = new RC2('cbc');
+                break;
+            case '3-KeyTripleDES':
+                $cipher = new TripleDES('cbc');
+                break;
+            case '2-KeyTripleDES':
+                $cipher = new TripleDES('cbc');
+                $cipher->setKeyLength(128);
+                break;
+            case '128BitRC2':
+                $cipher = new RC2('cbc');
+                $cipher->setKeyLength(128);
+                break;
+            case '40BitRC2':
+                $cipher = new RC2('cbc');
+                $cipher->setKeyLength(40);
+                break;
+            case '128BitRC4':
+                $cipher = new RC4();
+                $cipher->setKeyLength(128);
+                break;
+            case '40BitRC4':
+                $cipher = new RC4();
+                $cipher->setKeyLength(40);
+                break;
+            default:
+                throw new UnsupportedAlgorithmException("$algo is not a supported algorithm");
+        }
+
+        return $cipher;
+    }
+
+    /**
+     * Returns a hash based on a PBES1 $algo
+     *
+     * @return string
+     * @access public
+     * @param string $algo
+     */
+    private static function getPBES1Hash($algo)
+    {
+        if (preg_match('#^pbeWith(MD2|MD5|SHA1|SHA)And.*?-CBC$#', $algo, $matches)) {
+            return $matches[1] == 'SHA' ? 'sha1' : $matches[1];
+        }
+
+        return 'sha1';
+    }
+
+    /**
+     * Returns a KDF baesd on a PBES1 $algo
+     *
+     * @return string
+     * @access public
+     * @param string $algo
+     */
+    private static function getPBES1KDF($algo)
+    {
+        switch ($algo) {
+            case 'pbeWithMD2AndDES-CBC':
+            case 'pbeWithMD2AndRC2-CBC':
+            case 'pbeWithMD5AndDES-CBC':
+            case 'pbeWithMD5AndRC2-CBC':
+            case 'pbeWithSHA1AndDES-CBC':
+            case 'pbeWithSHA1AndRC2-CBC':
+                return 'pbkdf1';
+        }
+
+        return 'pkcs12';
+    }
+
+    /**
+     * Returns a SymmetricKey object baesd on a PBES2 $algo
+     *
+     * @return SymmetricKey
+     * @access public
+     * @param string $algo
+     */
+    private static function getPBES2EncryptionObject($algo)
+    {
+        switch ($algo) {
+            case 'desCBC':
+                $cipher = new TripleDES('cbc');
+                break;
+            case 'des-EDE3-CBC':
+                $cipher = new TripleDES('cbc');
+                break;
+            case 'rc2CBC':
+                $cipher = new RC2('cbc');
+                // in theory this can be changed
+                $cipher->setKeyLength(128);
+                break;
+            case 'rc5-CBC-PAD':
+                throw new UnsupportedAlgorithmException('rc5-CBC-PAD is not supported for PBES2 PKCS#8 keys');
+            case 'aes128-CBC-PAD':
+            case 'aes192-CBC-PAD':
+            case 'aes256-CBC-PAD':
+                $cipher = new AES('cbc');
+                $cipher->setKeyLength(substr($algo, 3, 3));
+                break;
+            default:
+                throw new UnsupportedAlgorithmException("$algo is not supported");
+        }
+
+        return $cipher;
+    }
+
+    /**
+     * Initialize static variables
+     *
+     * @access private
+     */
+    private static function initialize_static_variables()
+    {
+        if (!static::$childOIDsLoaded) {
+            ASN1::loadOIDs(is_array(static::OID_NAME) ?
+                array_combine(static::OID_NAME, static::OID_VALUE) :
+                [static::OID_NAME => static::OID_VALUE]
+            );
+            static::$childOIDsLoaded = true;
+        }
+        if (!self::$oidsLoaded) {
+            // from https://tools.ietf.org/html/rfc2898
+            ASN1::loadOIDs([
+               // PBES1 encryption schemes
+               'pbeWithMD2AndDES-CBC' => '1.2.840.113549.1.5.1',
+               'pbeWithMD2AndRC2-CBC' => '1.2.840.113549.1.5.4',
+               'pbeWithMD5AndDES-CBC' => '1.2.840.113549.1.5.3',
+               'pbeWithMD5AndRC2-CBC' => '1.2.840.113549.1.5.6',
+               'pbeWithSHA1AndDES-CBC'=> '1.2.840.113549.1.5.10',
+               'pbeWithSHA1AndRC2-CBC'=> '1.2.840.113549.1.5.11',
+
+               // from PKCS#12:
+               // https://tools.ietf.org/html/rfc7292
+               'pbeWithSHAAnd128BitRC4' => '1.2.840.113549.1.12.1.1',
+               'pbeWithSHAAnd40BitRC4' => '1.2.840.113549.1.12.1.2',
+               'pbeWithSHAAnd3-KeyTripleDES-CBC' => '1.2.840.113549.1.12.1.3',
+               'pbeWithSHAAnd2-KeyTripleDES-CBC' => '1.2.840.113549.1.12.1.4',
+               'pbeWithSHAAnd128BitRC2-CBC' => '1.2.840.113549.1.12.1.5',
+               'pbeWithSHAAnd40BitRC2-CBC' => '1.2.840.113549.1.12.1.6',
+
+               'id-PBKDF2' => '1.2.840.113549.1.5.12',
+               'id-PBES2' => '1.2.840.113549.1.5.13',
+               'id-PBMAC1' => '1.2.840.113549.1.5.14',
+
+               // from PKCS#5 v2.1:
+               // http://www.rsa.com/rsalabs/pkcs/files/h11302-wp-pkcs5v2-1-password-based-cryptography-standard.pdf
+               'id-hmacWithSHA1' => '1.2.840.113549.2.7',
+               'id-hmacWithSHA224' => '1.2.840.113549.2.8',
+               'id-hmacWithSHA256' => '1.2.840.113549.2.9',
+               'id-hmacWithSHA384'=> '1.2.840.113549.2.10',
+               'id-hmacWithSHA512'=> '1.2.840.113549.2.11',
+               'id-hmacWithSHA512-224'=> '1.2.840.113549.2.12',
+               'id-hmacWithSHA512-256'=> '1.2.840.113549.2.13',
+
+               'desCBC'       => '1.3.14.3.2.7',
+               'des-EDE3-CBC' => '1.2.840.113549.3.7',
+               'rc2CBC' => '1.2.840.113549.3.2',
+               'rc5-CBC-PAD' => '1.2.840.113549.3.9',
+
+               'aes128-CBC-PAD' => '2.16.840.1.101.3.4.1.2',
+               'aes192-CBC-PAD'=> '2.16.840.1.101.3.4.1.22',
+               'aes256-CBC-PAD'=> '2.16.840.1.101.3.4.1.42'
+            ]);
+            self::$oidsLoaded = true;
+        }
+    }
+
+    /**
+     * Break a public or private key down into its constituent components
+     *
+     * @access public
+     * @param string $key
+     * @param string $password optional
+     * @return array
+     */
+    protected static function load($key, $password = '')
+    {
+        $decoded = self::preParse($key);
+
+        $meta = [];
+
+        $decrypted = ASN1::asn1map($decoded[0], Maps\EncryptedPrivateKeyInfo::MAP);
+        if (strlen($password) && is_array($decrypted)) {
+            $algorithm = $decrypted['encryptionAlgorithm']['algorithm'];
+            switch ($algorithm) {
+                // PBES1
+                case 'pbeWithMD2AndDES-CBC':
+                case 'pbeWithMD2AndRC2-CBC':
+                case 'pbeWithMD5AndDES-CBC':
+                case 'pbeWithMD5AndRC2-CBC':
+                case 'pbeWithSHA1AndDES-CBC':
+                case 'pbeWithSHA1AndRC2-CBC':
+                case 'pbeWithSHAAnd3-KeyTripleDES-CBC':
+                case 'pbeWithSHAAnd2-KeyTripleDES-CBC':
+                case 'pbeWithSHAAnd128BitRC2-CBC':
+                case 'pbeWithSHAAnd40BitRC2-CBC':
+                case 'pbeWithSHAAnd128BitRC4':
+                case 'pbeWithSHAAnd40BitRC4':
+                    $cipher = self::getPBES1EncryptionObject($algorithm);
+                    $hash = self::getPBES1Hash($algorithm);
+                    $kdf = self::getPBES1KDF($algorithm);
+
+                    $meta['meta']['algorithm'] = $algorithm;
+
+                    $temp = ASN1::decodeBER($decrypted['encryptionAlgorithm']['parameters']);
+                    extract(ASN1::asn1map($temp[0], Maps\PBEParameter::MAP));
+                    $iterationCount = (int) $iterationCount->toString();
+                    $cipher->setPassword($password, $kdf, $hash, $salt, $iterationCount);
+                    $key = $cipher->decrypt($decrypted['encryptedData']);
+                    $decoded = ASN1::decodeBER($key);
+                    if (empty($decoded)) {
+                        throw new \RuntimeException('Unable to decode BER 2');
+                    }
+
+                    break;
+                case 'id-PBES2':
+                    $meta['meta']['algorithm'] = $algorithm;
+
+                    $temp = ASN1::decodeBER($decrypted['encryptionAlgorithm']['parameters']);
+                    $temp = ASN1::asn1map($temp[0], Maps\PBES2params::MAP);
+                    extract($temp);
+
+                    $cipher = self::getPBES2EncryptionObject($encryptionScheme['algorithm']);
+                    $meta['meta']['cipher'] = $encryptionScheme['algorithm'];
+
+                    $temp = ASN1::decodeBER($decrypted['encryptionAlgorithm']['parameters']);
+                    $temp = ASN1::asn1map($temp[0], Maps\PBES2params::MAP);
+                    extract($temp);
+
+                    if (!$cipher instanceof RC2) {
+                        $cipher->setIV($encryptionScheme['parameters']['octetString']);
+                    } else {
+                        $temp = ASN1::decodeBER($encryptionScheme['parameters']);
+                        extract(ASN1::asn1map($temp[0], Maps\RC2CBCParameter::MAP));
+                        $effectiveKeyLength = (int) $rc2ParametersVersion->toString();
+                        switch ($effectiveKeyLength) {
+                            case 160:
+                                $effectiveKeyLength = 40;
+                                break;
+                            case 120:
+                                $effectiveKeyLength = 64;
+                                break;
+                            case 58:
+                                $effectiveKeyLength = 128;
+                                break;
+                            //default: // should be >= 256
+                        }
+                        $cipher->setIV($iv);
+                        $cipher->setKeyLength($effectiveKeyLength);
+                    }
+
+                    $meta['meta']['keyDerivationFunc'] = $keyDerivationFunc['algorithm'];
+                    switch ($keyDerivationFunc['algorithm']) {
+                        case 'id-PBKDF2':
+                            $temp = ASN1::decodeBER($keyDerivationFunc['parameters']);
+                            $prf = ['algorithm' => 'id-hmacWithSHA1'];
+                            $params = ASN1::asn1map($temp[0], Maps\PBKDF2params::MAP);
+                            extract($params);
+                            $meta['meta']['prf'] = $prf['algorithm'];
+                            $hash = str_replace('-', '/', substr($prf['algorithm'], 11));
+                            $params = [
+                                $password,
+                                'pbkdf2',
+                                $hash,
+                                $salt,
+                                (int) $iterationCount->toString()
+                            ];
+                            if (isset($keyLength)) {
+                                $params[] = (int) $keyLength->toString();
+                            }
+                            $cipher->setPassword(...$params);
+                            $key = $cipher->decrypt($decrypted['encryptedData']);
+                            $decoded = ASN1::decodeBER($key);
+                            if (empty($decoded)) {
+                                throw new \RuntimeException('Unable to decode BER 3');
+                            }
+                            break;
+                        default:
+                            throw new UnsupportedAlgorithmException('Only PBKDF2 is supported for PBES2 PKCS#8 keys');
+                    }
+                    break;
+                case 'id-PBMAC1':
+                    //$temp = ASN1::decodeBER($decrypted['encryptionAlgorithm']['parameters']);
+                    //$value = ASN1::asn1map($temp[0], Maps\PBMAC1params::MAP);
+                    // since i can't find any implementation that does PBMAC1 it is unsupported
+                    throw new UnsupportedAlgorithmException('Only PBES1 and PBES2 PKCS#8 keys are supported.');
+                // at this point we'll assume that the key conforms to PublicKeyInfo
+            }
+        }
+
+        $private = ASN1::asn1map($decoded[0], Maps\OneAsymmetricKey::MAP);
+        if (is_array($private)) {
+            if (isset($private['privateKeyAlgorithm']['parameters']) && !$private['privateKeyAlgorithm']['parameters'] instanceof ASN1\Element && isset($decoded[0]['content'][1]['content'][1])) {
+                $temp = $decoded[0]['content'][1]['content'][1];
+                $private['privateKeyAlgorithm']['parameters'] = new ASN1\Element(substr($key, $temp['start'], $temp['length']));
+            }
+            if (is_array(static::OID_NAME)) {
+                if (!in_array($private['privateKeyAlgorithm']['algorithm'], static::OID_NAME)) {
+                    throw new UnsupportedAlgorithmException($private['privateKeyAlgorithm']['algorithm'] . ' is not a supported key type');
+                }
+            } else {
+                if ($private['privateKeyAlgorithm']['algorithm'] != static::OID_NAME) {
+                    throw new UnsupportedAlgorithmException('Only ' . static::OID_NAME . ' keys are supported; this is a ' . $private['privateKeyAlgorithm']['algorithm'] . ' key');
+                }
+            }
+            if (isset($private['publicKey'])) {
+                if ($private['publicKey'][0] != "\0") {
+                    throw new \UnexpectedValueException('The first byte of the public key should be null - not ' . bin2hex($private['publicKey'][0]));
+                }
+                $private['publicKey'] = substr($private['publicKey'], 1);
+            }
+            return $private + $meta;
+        }
+
+        // EncryptedPrivateKeyInfo and PublicKeyInfo have largely identical "signatures". the only difference
+        // is that the former has an octet string and the later has a bit string. the first byte of a bit
+        // string represents the number of bits in the last byte that are to be ignored but, currently,
+        // bit strings wanting a non-zero amount of bits trimmed are not supported
+        $public = ASN1::asn1map($decoded[0], Maps\PublicKeyInfo::MAP);
+
+        if (is_array($public)) {
+            if ($public['publicKey'][0] != "\0") {
+                throw new \UnexpectedValueException('The first byte of the public key should be null - not ' . bin2hex($public['publicKey'][0]));
+            }
+            if (is_array(static::OID_NAME)) {
+                if (!in_array($public['publicKeyAlgorithm']['algorithm'], static::OID_NAME)) {
+                    throw new UnsupportedAlgorithmException($public['publicKeyAlgorithm']['algorithm'] . ' is not a supported key type');
+                }
+            } else {
+                if ($public['publicKeyAlgorithm']['algorithm'] != static::OID_NAME) {
+                    throw new UnsupportedAlgorithmException('Only ' . static::OID_NAME . ' keys are supported; this is a ' . $public['publicKeyAlgorithm']['algorithm'] . ' key');
+                }
+            }
+            if (isset($public['publicKeyAlgorithm']['parameters']) && !$public['publicKeyAlgorithm']['parameters'] instanceof ASN1\Element && isset($decoded[0]['content'][0]['content'][1])) {
+                $temp = $decoded[0]['content'][0]['content'][1];
+                $public['publicKeyAlgorithm']['parameters'] = new ASN1\Element(substr($key, $temp['start'], $temp['length']));
+            }
+            $public['publicKey'] = substr($public['publicKey'], 1);
+            return $public;
+        }
+
+        throw new \RuntimeException('Unable to parse using either OneAsymmetricKey or PublicKeyInfo ASN1 maps');
+    }
+
+    /**
+     * Wrap a private key appropriately
+     *
+     * @access public
+     * @param string $key
+     * @param string $attr
+     * @param mixed $params
+     * @param string $password
+     * @param string $oid optional
+     * @param string $publicKey optional
+     * @param array $options optional
+     * @return string
+     */
+    protected static function wrapPrivateKey($key, $attr, $params, $password, $oid = null, $publicKey = '', array $options = [])
+    {
+        self::initialize_static_variables();
+
+        $key = [
+            'version' => 'v1',
+            'privateKeyAlgorithm' => [
+                'algorithm' => is_string(static::OID_NAME) ? static::OID_NAME : $oid,
+                'parameters' => $params
+             ],
+            'privateKey' => $key
+        ];
+        if (!empty($attr)) {
+            $key['attributes'] = $attr;
+        }
+        if (!empty($publicKey)) {
+            $key['version'] = 'v2';
+            $key['publicKey'] = $publicKey;
+        }
+        $key = ASN1::encodeDER($key, Maps\OneAsymmetricKey::MAP);
+        if (!empty($password) && is_string($password)) {
+            $salt = Random::string(8);
+
+            $iterationCount = isset($options['iterationCount']) ? $options['iterationCount'] : self::$defaultIterationCount;
+            $encryptionAlgorithm = isset($options['encryptionAlgorithm']) ? $options['encryptionAlgorithm'] : self::$defaultEncryptionAlgorithm;
+            $encryptionScheme = isset($options['encryptionScheme']) ? $options['encryptionScheme'] : self::$defaultEncryptionScheme;
+            $prf = isset($options['PRF']) ? $options['PRF'] : self::$defaultPRF;
+
+            if ($encryptionAlgorithm == 'id-PBES2') {
+                $crypto = self::getPBES2EncryptionObject($encryptionScheme);
+                $hash = str_replace('-', '/', substr($prf, 11));
+                $kdf = 'pbkdf2';
+                $iv = Random::string($crypto->getBlockLength() >> 3);
+
+                $PBKDF2params = [
+                    'salt' => $salt,
+                    'iterationCount' => $iterationCount,
+                    'prf' => ['algorithm' => $prf, 'parameters' => null]
+                ];
+                $PBKDF2params = ASN1::encodeDER($PBKDF2params, Maps\PBKDF2params::MAP);
+
+                if (!$crypto instanceof RC2) {
+                    $params = ['octetString' => $iv];
+                } else {
+                    $params = [
+                        'rc2ParametersVersion' => 58,
+                        'iv' => $iv
+                    ];
+                    $params = ASN1::encodeDER($params, Maps\RC2CBCParameter::MAP);
+                    $params = new ASN1\Element($params);
+                }
+
+                $params = [
+                    'keyDerivationFunc' => [
+                        'algorithm' => 'id-PBKDF2',
+                        'parameters' => new ASN1\Element($PBKDF2params)
+                    ],
+                    'encryptionScheme' => [
+                        'algorithm' => $encryptionScheme,
+                        'parameters' => $params
+                    ]
+                ];
+                $params = ASN1::encodeDER($params, Maps\PBES2params::MAP);
+
+                $crypto->setIV($iv);
+            } else {
+                $crypto = self::getPBES1EncryptionObject($encryptionAlgorithm);
+                $hash = self::getPBES1Hash($encryptionAlgorithm);
+                $kdf = self::getPBES1KDF($encryptionAlgorithm);
+
+                $params = [
+                    'salt' => $salt,
+                    'iterationCount' => $iterationCount
+                ];
+                $params = ASN1::encodeDER($params, Maps\PBEParameter::MAP);
+            }
+            $crypto->setPassword($password, $kdf, $hash, $salt, $iterationCount);
+            $key = $crypto->encrypt($key);
+
+            $key = [
+                'encryptionAlgorithm' => [
+                    'algorithm' => $encryptionAlgorithm,
+                    'parameters' => new ASN1\Element($params)
+                ],
+                'encryptedData' => $key
+            ];
+
+            $key = ASN1::encodeDER($key, Maps\EncryptedPrivateKeyInfo::MAP);
+
+            return "-----BEGIN ENCRYPTED PRIVATE KEY-----\r\n" .
+                   chunk_split(Base64::encode($key), 64) .
+                   "-----END ENCRYPTED PRIVATE KEY-----";
+        }
+
+        return "-----BEGIN PRIVATE KEY-----\r\n" .
+               chunk_split(Base64::encode($key), 64) .
+               "-----END PRIVATE KEY-----";
+    }
+
+    /**
+     * Wrap a public key appropriately
+     *
+     * @access public
+     * @param string $key
+     * @param mixed $params
+     * @param string $oid
+     * @return string
+     */
+    protected static function wrapPublicKey($key, $params, $oid = null)
+    {
+        self::initialize_static_variables();
+
+        $key = [
+            'publicKeyAlgorithm' => [
+                'algorithm' => is_string(static::OID_NAME) ? static::OID_NAME : $oid,
+                'parameters' => $params
+            ],
+            'publicKey' => "\0" . $key
+        ];
+
+        $key = ASN1::encodeDER($key, Maps\PublicKeyInfo::MAP);
+
+        return "-----BEGIN PUBLIC KEY-----\r\n" .
+               chunk_split(Base64::encode($key), 64) .
+               "-----END PUBLIC KEY-----";
+    }
+
+    /**
+     * Perform some preliminary parsing of the key
+     *
+     * @param string $key
+     * @return array
+     */
+    private static function preParse(&$key)
+    {
+        self::initialize_static_variables();
+
+        if (!Strings::is_stringable($key)) {
+            throw new \UnexpectedValueException('Key should be a string - not a ' . gettype($key));
+        }
+
+        if (self::$format != self::MODE_DER) {
+            $decoded = ASN1::extractBER($key);
+            if ($decoded !== false) {
+                $key = $decoded;
+            } elseif (self::$format == self::MODE_PEM) {
+                throw new \UnexpectedValueException('Expected base64-encoded PEM format but was unable to decode base64 text');
+            }
+        }
+
+        $decoded = ASN1::decodeBER($key);
+        if (empty($decoded)) {
+            throw new \RuntimeException('Unable to decode BER');
+        }
+
+        return $decoded;
+    }
+
+    /**
+     * Returns the encryption parameters used by the key
+     *
+     * @param string $key
+     * @return array
+     */
+    public static function extractEncryptionAlgorithm($key)
+    {
+        $decoded = self::preParse($key);
+
+        $r = ASN1::asn1map($decoded[0], ASN1\Maps\EncryptedPrivateKeyInfo::MAP);
+        if (!is_array($r)) {
+            throw new \RuntimeException('Unable to parse using EncryptedPrivateKeyInfo map');
+        }
+
+        if ($r['encryptionAlgorithm']['algorithm'] == 'id-PBES2') {
+            $decoded = ASN1::decodeBER($r['encryptionAlgorithm']['parameters']->element);
+            $r['encryptionAlgorithm']['parameters'] = ASN1::asn1map($decoded[0], ASN1\Maps\PBES2params::MAP);
+
+            $kdf = &$r['encryptionAlgorithm']['parameters']['keyDerivationFunc'];
+            switch ($kdf['algorithm']) {
+                case 'id-PBKDF2':
+                    $decoded = ASN1::decodeBER($kdf['parameters']->element);
+                    $kdf['parameters'] = ASN1::asn1map($decoded[0], Maps\PBKDF2params::MAP);
+            }
+        }
+
+        return $r['encryptionAlgorithm'];
+    }
+}

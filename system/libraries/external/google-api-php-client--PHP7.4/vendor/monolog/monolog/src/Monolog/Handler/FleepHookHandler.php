@@ -1,71 +1,116 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-5fUFYcWAj6ItOrc/heo37+IiYhfk8G==
+<?php declare(strict_types=1);
+
+/*
+ * This file is part of the Monolog package.
+ *
+ * (c) Jordi Boggiano <j.boggiano@seld.be>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Monolog\Handler;
+
+use Monolog\Formatter\FormatterInterface;
+use Monolog\Formatter\LineFormatter;
+use Monolog\Logger;
+
+/**
+ * Sends logs to Fleep.io using Webhook integrations
+ *
+ * You'll need a Fleep.io account to use this handler.
+ *
+ * @see https://fleep.io/integrations/webhooks/ Fleep Webhooks Documentation
+ * @author Ando Roots <ando@sqroot.eu>
+ */
+class FleepHookHandler extends SocketHandler
+{
+    protected const FLEEP_HOST = 'fleep.io';
+
+    protected const FLEEP_HOOK_URI = '/hook/';
+
+    /**
+     * @var string Webhook token (specifies the conversation where logs are sent)
+     */
+    protected $token;
+
+    /**
+     * Construct a new Fleep.io Handler.
+     *
+     * For instructions on how to create a new web hook in your conversations
+     * see https://fleep.io/integrations/webhooks/
+     *
+     * @param  string                    $token  Webhook token
+     * @param  string|int                $level  The minimum logging level at which this handler will be triggered
+     * @param  bool                      $bubble Whether the messages that are handled can bubble up the stack or not
+     * @throws MissingExtensionException
+     */
+    public function __construct(string $token, $level = Logger::DEBUG, bool $bubble = true)
+    {
+        if (!extension_loaded('openssl')) {
+            throw new MissingExtensionException('The OpenSSL PHP extension is required to use the FleepHookHandler');
+        }
+
+        $this->token = $token;
+
+        $connectionString = 'ssl://' . static::FLEEP_HOST . ':443';
+        parent::__construct($connectionString, $level, $bubble);
+    }
+
+    /**
+     * Returns the default formatter to use with this handler
+     *
+     * Overloaded to remove empty context and extra arrays from the end of the log message.
+     *
+     * @return LineFormatter
+     */
+    protected function getDefaultFormatter(): FormatterInterface
+    {
+        return new LineFormatter(null, null, true, true);
+    }
+
+    /**
+     * Handles a log record
+     */
+    public function write(array $record): void
+    {
+        parent::write($record);
+        $this->closeSocket();
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    protected function generateDataStream(array $record): string
+    {
+        $content = $this->buildContent($record);
+
+        return $this->buildHeader($content) . $content;
+    }
+
+    /**
+     * Builds the header of the API Call
+     */
+    private function buildHeader(string $content): string
+    {
+        $header = "POST " . static::FLEEP_HOOK_URI . $this->token . " HTTP/1.1\r\n";
+        $header .= "Host: " . static::FLEEP_HOST . "\r\n";
+        $header .= "Content-Type: application/x-www-form-urlencoded\r\n";
+        $header .= "Content-Length: " . strlen($content) . "\r\n";
+        $header .= "\r\n";
+
+        return $header;
+    }
+
+    /**
+     * Builds the body of API call
+     */
+    private function buildContent(array $record): string
+    {
+        $dataArray = [
+            'message' => $record['formatted'],
+        ];
+
+        return http_build_query($dataArray);
+    }
+}

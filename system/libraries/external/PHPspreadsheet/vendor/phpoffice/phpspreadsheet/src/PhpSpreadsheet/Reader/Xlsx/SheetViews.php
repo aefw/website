@@ -1,103 +1,137 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-/6IxyLjHkCaSEU0=
+<?php
+
+namespace PhpOffice\PhpSpreadsheet\Reader\Xlsx;
+
+use PhpOffice\PhpSpreadsheet\Cell\Coordinate;
+use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
+
+class SheetViews extends BaseParserClass
+{
+    private $sheetViewXml;
+
+    private $worksheet;
+
+    public function __construct(\SimpleXMLElement $sheetViewXml, Worksheet $workSheet)
+    {
+        $this->sheetViewXml = $sheetViewXml;
+        $this->worksheet = $workSheet;
+    }
+
+    public function load()
+    {
+        $this->zoomScale();
+        $this->view();
+        $this->gridLines();
+        $this->headers();
+        $this->direction();
+        $this->showZeros();
+
+        if (isset($this->sheetViewXml->pane)) {
+            $this->pane();
+        }
+        if (isset($this->sheetViewXml->selection, $this->sheetViewXml->selection['sqref'])) {
+            $this->selection();
+        }
+    }
+
+    private function zoomScale()
+    {
+        if (isset($this->sheetViewXml['zoomScale'])) {
+            $zoomScale = (int) ($this->sheetViewXml['zoomScale']);
+            if ($zoomScale <= 0) {
+                // setZoomScale will throw an Exception if the scale is less than or equals 0
+                // that is OK when manually creating documents, but we should be able to read all documents
+                $zoomScale = 100;
+            }
+
+            $this->worksheet->getSheetView()->setZoomScale($zoomScale);
+        }
+
+        if (isset($this->sheetViewXml['zoomScaleNormal'])) {
+            $zoomScaleNormal = (int) ($this->sheetViewXml['zoomScaleNormal']);
+            if ($zoomScaleNormal <= 0) {
+                // setZoomScaleNormal will throw an Exception if the scale is less than or equals 0
+                // that is OK when manually creating documents, but we should be able to read all documents
+                $zoomScaleNormal = 100;
+            }
+
+            $this->worksheet->getSheetView()->setZoomScaleNormal($zoomScaleNormal);
+        }
+    }
+
+    private function view()
+    {
+        if (isset($this->sheetViewXml['view'])) {
+            $this->worksheet->getSheetView()->setView((string) $this->sheetViewXml['view']);
+        }
+    }
+
+    private function gridLines()
+    {
+        if (isset($this->sheetViewXml['showGridLines'])) {
+            $this->worksheet->setShowGridLines(
+                self::boolean((string) $this->sheetViewXml['showGridLines'])
+            );
+        }
+    }
+
+    private function headers()
+    {
+        if (isset($this->sheetViewXml['showRowColHeaders'])) {
+            $this->worksheet->setShowRowColHeaders(
+                self::boolean((string) $this->sheetViewXml['showRowColHeaders'])
+            );
+        }
+    }
+
+    private function direction()
+    {
+        if (isset($this->sheetViewXml['rightToLeft'])) {
+            $this->worksheet->setRightToLeft(
+                self::boolean((string) $this->sheetViewXml['rightToLeft'])
+            );
+        }
+    }
+
+    private function showZeros()
+    {
+        if (isset($this->sheetViewXml['showZeros'])) {
+            $this->worksheet->getSheetView()->setShowZeros(
+                self::boolean((string) $this->sheetViewXml['showZeros'])
+            );
+        }
+    }
+
+    private function pane()
+    {
+        $xSplit = 0;
+        $ySplit = 0;
+        $topLeftCell = null;
+
+        if (isset($this->sheetViewXml->pane['xSplit'])) {
+            $xSplit = (int) ($this->sheetViewXml->pane['xSplit']);
+        }
+
+        if (isset($this->sheetViewXml->pane['ySplit'])) {
+            $ySplit = (int) ($this->sheetViewXml->pane['ySplit']);
+        }
+
+        if (isset($this->sheetViewXml->pane['topLeftCell'])) {
+            $topLeftCell = (string) $this->sheetViewXml->pane['topLeftCell'];
+        }
+
+        $this->worksheet->freezePane(
+            Coordinate::stringFromColumnIndex($xSplit + 1) . ($ySplit + 1),
+            $topLeftCell
+        );
+    }
+
+    private function selection()
+    {
+        $sqref = (string) $this->sheetViewXml->selection['sqref'];
+        $sqref = explode(' ', $sqref);
+        $sqref = $sqref[0];
+
+        $this->worksheet->setSelectedCells($sqref);
+    }
+}

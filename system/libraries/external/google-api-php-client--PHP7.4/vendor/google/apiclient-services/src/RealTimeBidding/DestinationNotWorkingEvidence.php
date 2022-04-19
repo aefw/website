@@ -1,71 +1,98 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\RealTimeBidding;
+
+class DestinationNotWorkingEvidence extends \Google\Model
+{
+  public $dnsError;
+  public $expandedUrl;
+  public $httpError;
+  public $invalidPage;
+  public $lastCheckTime;
+  public $platform;
+  public $redirectionError;
+  public $urlRejected;
+
+  public function setDnsError($dnsError)
+  {
+    $this->dnsError = $dnsError;
+  }
+  public function getDnsError()
+  {
+    return $this->dnsError;
+  }
+  public function setExpandedUrl($expandedUrl)
+  {
+    $this->expandedUrl = $expandedUrl;
+  }
+  public function getExpandedUrl()
+  {
+    return $this->expandedUrl;
+  }
+  public function setHttpError($httpError)
+  {
+    $this->httpError = $httpError;
+  }
+  public function getHttpError()
+  {
+    return $this->httpError;
+  }
+  public function setInvalidPage($invalidPage)
+  {
+    $this->invalidPage = $invalidPage;
+  }
+  public function getInvalidPage()
+  {
+    return $this->invalidPage;
+  }
+  public function setLastCheckTime($lastCheckTime)
+  {
+    $this->lastCheckTime = $lastCheckTime;
+  }
+  public function getLastCheckTime()
+  {
+    return $this->lastCheckTime;
+  }
+  public function setPlatform($platform)
+  {
+    $this->platform = $platform;
+  }
+  public function getPlatform()
+  {
+    return $this->platform;
+  }
+  public function setRedirectionError($redirectionError)
+  {
+    $this->redirectionError = $redirectionError;
+  }
+  public function getRedirectionError()
+  {
+    return $this->redirectionError;
+  }
+  public function setUrlRejected($urlRejected)
+  {
+    $this->urlRejected = $urlRejected;
+  }
+  public function getUrlRejected()
+  {
+    return $this->urlRejected;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(DestinationNotWorkingEvidence::class, 'Google_Service_RealTimeBidding_DestinationNotWorkingEvidence');

@@ -1,109 +1,200 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-m8PeiXjtBiGuIg+HbiRNCAg/0zQlCm==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\MyBusinessLodging;
+
+class Policies extends \Google\Model
+{
+  public $allInclusiveAvailable;
+  public $allInclusiveAvailableException;
+  public $allInclusiveOnly;
+  public $allInclusiveOnlyException;
+  protected $checkinTimeType = TimeOfDay::class;
+  protected $checkinTimeDataType = '';
+  public $checkinTimeException;
+  protected $checkoutTimeType = TimeOfDay::class;
+  protected $checkoutTimeDataType = '';
+  public $checkoutTimeException;
+  public $kidsStayFree;
+  public $kidsStayFreeException;
+  public $maxChildAge;
+  public $maxChildAgeException;
+  public $maxKidsStayFreeCount;
+  public $maxKidsStayFreeCountException;
+  protected $paymentOptionsType = PaymentOptions::class;
+  protected $paymentOptionsDataType = '';
+  public $smokeFreeProperty;
+  public $smokeFreePropertyException;
+
+  public function setAllInclusiveAvailable($allInclusiveAvailable)
+  {
+    $this->allInclusiveAvailable = $allInclusiveAvailable;
+  }
+  public function getAllInclusiveAvailable()
+  {
+    return $this->allInclusiveAvailable;
+  }
+  public function setAllInclusiveAvailableException($allInclusiveAvailableException)
+  {
+    $this->allInclusiveAvailableException = $allInclusiveAvailableException;
+  }
+  public function getAllInclusiveAvailableException()
+  {
+    return $this->allInclusiveAvailableException;
+  }
+  public function setAllInclusiveOnly($allInclusiveOnly)
+  {
+    $this->allInclusiveOnly = $allInclusiveOnly;
+  }
+  public function getAllInclusiveOnly()
+  {
+    return $this->allInclusiveOnly;
+  }
+  public function setAllInclusiveOnlyException($allInclusiveOnlyException)
+  {
+    $this->allInclusiveOnlyException = $allInclusiveOnlyException;
+  }
+  public function getAllInclusiveOnlyException()
+  {
+    return $this->allInclusiveOnlyException;
+  }
+  /**
+   * @param TimeOfDay
+   */
+  public function setCheckinTime(TimeOfDay $checkinTime)
+  {
+    $this->checkinTime = $checkinTime;
+  }
+  /**
+   * @return TimeOfDay
+   */
+  public function getCheckinTime()
+  {
+    return $this->checkinTime;
+  }
+  public function setCheckinTimeException($checkinTimeException)
+  {
+    $this->checkinTimeException = $checkinTimeException;
+  }
+  public function getCheckinTimeException()
+  {
+    return $this->checkinTimeException;
+  }
+  /**
+   * @param TimeOfDay
+   */
+  public function setCheckoutTime(TimeOfDay $checkoutTime)
+  {
+    $this->checkoutTime = $checkoutTime;
+  }
+  /**
+   * @return TimeOfDay
+   */
+  public function getCheckoutTime()
+  {
+    return $this->checkoutTime;
+  }
+  public function setCheckoutTimeException($checkoutTimeException)
+  {
+    $this->checkoutTimeException = $checkoutTimeException;
+  }
+  public function getCheckoutTimeException()
+  {
+    return $this->checkoutTimeException;
+  }
+  public function setKidsStayFree($kidsStayFree)
+  {
+    $this->kidsStayFree = $kidsStayFree;
+  }
+  public function getKidsStayFree()
+  {
+    return $this->kidsStayFree;
+  }
+  public function setKidsStayFreeException($kidsStayFreeException)
+  {
+    $this->kidsStayFreeException = $kidsStayFreeException;
+  }
+  public function getKidsStayFreeException()
+  {
+    return $this->kidsStayFreeException;
+  }
+  public function setMaxChildAge($maxChildAge)
+  {
+    $this->maxChildAge = $maxChildAge;
+  }
+  public function getMaxChildAge()
+  {
+    return $this->maxChildAge;
+  }
+  public function setMaxChildAgeException($maxChildAgeException)
+  {
+    $this->maxChildAgeException = $maxChildAgeException;
+  }
+  public function getMaxChildAgeException()
+  {
+    return $this->maxChildAgeException;
+  }
+  public function setMaxKidsStayFreeCount($maxKidsStayFreeCount)
+  {
+    $this->maxKidsStayFreeCount = $maxKidsStayFreeCount;
+  }
+  public function getMaxKidsStayFreeCount()
+  {
+    return $this->maxKidsStayFreeCount;
+  }
+  public function setMaxKidsStayFreeCountException($maxKidsStayFreeCountException)
+  {
+    $this->maxKidsStayFreeCountException = $maxKidsStayFreeCountException;
+  }
+  public function getMaxKidsStayFreeCountException()
+  {
+    return $this->maxKidsStayFreeCountException;
+  }
+  /**
+   * @param PaymentOptions
+   */
+  public function setPaymentOptions(PaymentOptions $paymentOptions)
+  {
+    $this->paymentOptions = $paymentOptions;
+  }
+  /**
+   * @return PaymentOptions
+   */
+  public function getPaymentOptions()
+  {
+    return $this->paymentOptions;
+  }
+  public function setSmokeFreeProperty($smokeFreeProperty)
+  {
+    $this->smokeFreeProperty = $smokeFreeProperty;
+  }
+  public function getSmokeFreeProperty()
+  {
+    return $this->smokeFreeProperty;
+  }
+  public function setSmokeFreePropertyException($smokeFreePropertyException)
+  {
+    $this->smokeFreePropertyException = $smokeFreePropertyException;
+  }
+  public function getSmokeFreePropertyException()
+  {
+    return $this->smokeFreePropertyException;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Policies::class, 'Google_Service_MyBusinessLodging_Policies');

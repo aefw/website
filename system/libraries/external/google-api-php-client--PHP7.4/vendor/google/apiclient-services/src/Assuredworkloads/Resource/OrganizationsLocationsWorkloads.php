@@ -1,71 +1,137 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Assuredworkloads\Resource;
+
+use Google\Service\Assuredworkloads\GoogleCloudAssuredworkloadsV1ListWorkloadsResponse;
+use Google\Service\Assuredworkloads\GoogleCloudAssuredworkloadsV1Workload;
+use Google\Service\Assuredworkloads\GoogleLongrunningOperation;
+use Google\Service\Assuredworkloads\GoogleProtobufEmpty;
+
+/**
+ * The "workloads" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $assuredworkloadsService = new Google\Service\Assuredworkloads(...);
+ *   $workloads = $assuredworkloadsService->workloads;
+ *  </code>
+ */
+class OrganizationsLocationsWorkloads extends \Google\Service\Resource
+{
+  /**
+   * Creates Assured Workload. (workloads.create)
+   *
+   * @param string $parent Required. The resource name of the new Workload's
+   * parent. Must be of the form `organizations/{org_id}/locations/{location_id}`.
+   * @param GoogleCloudAssuredworkloadsV1Workload $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string externalId Optional. A identifier associated with the
+   * workload and underlying projects which allows for the break down of billing
+   * costs for a workload. The value provided for the identifier will add a label
+   * to the workload and contained projects with the identifier as the value.
+   * @return GoogleLongrunningOperation
+   */
+  public function create($parent, GoogleCloudAssuredworkloadsV1Workload $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Deletes the workload. Make sure that workload's direct children are already
+   * in a deleted state, otherwise the request will fail with a
+   * FAILED_PRECONDITION error. (workloads.delete)
+   *
+   * @param string $name Required. The `name` field is used to identify the
+   * workload. Format:
+   * organizations/{org_id}/locations/{location_id}/workloads/{workload_id}
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string etag Optional. The etag of the workload. If this is
+   * provided, it must match the server's etag.
+   * @return GoogleProtobufEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
+  }
+  /**
+   * Gets Assured Workload associated with a CRM Node (workloads.get)
+   *
+   * @param string $name Required. The resource name of the Workload to fetch.
+   * This is the workloads's relative path in the API, formatted as "organizations
+   * /{organization_id}/locations/{location_id}/workloads/{workload_id}". For
+   * example, "organizations/123/locations/us-east1/workloads/assured-workload-1".
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudAssuredworkloadsV1Workload
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudAssuredworkloadsV1Workload::class);
+  }
+  /**
+   * Lists Assured Workloads under a CRM Node.
+   * (workloads.listOrganizationsLocationsWorkloads)
+   *
+   * @param string $parent Required. Parent Resource to list workloads from. Must
+   * be of the form `organizations/{org_id}/locations/{location}`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A custom filter for filtering by properties of a
+   * workload. At this time, only filtering by labels is supported.
+   * @opt_param int pageSize Page size.
+   * @opt_param string pageToken Page token returned from previous request. Page
+   * token contains context from previous request. Page token needs to be passed
+   * in the second and following requests.
+   * @return GoogleCloudAssuredworkloadsV1ListWorkloadsResponse
+   */
+  public function listOrganizationsLocationsWorkloads($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleCloudAssuredworkloadsV1ListWorkloadsResponse::class);
+  }
+  /**
+   * Updates an existing workload. Currently allows updating of workload
+   * display_name and labels. For force updates don't set etag field in the
+   * Workload. Only one update operation per workload can be in progress.
+   * (workloads.patch)
+   *
+   * @param string $name Optional. The resource name of the workload. Format:
+   * organizations/{organization}/locations/{location}/workloads/{workload} Read-
+   * only.
+   * @param GoogleCloudAssuredworkloadsV1Workload $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. The list of fields to be updated.
+   * @return GoogleCloudAssuredworkloadsV1Workload
+   */
+  public function patch($name, GoogleCloudAssuredworkloadsV1Workload $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], GoogleCloudAssuredworkloadsV1Workload::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(OrganizationsLocationsWorkloads::class, 'Google_Service_Assuredworkloads_Resource_OrganizationsLocationsWorkloads');

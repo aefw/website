@@ -1,69 +1,96 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-ISTzM/L9ECRWm/5NVuoqctSEYm==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dialogflow;
+
+class GoogleCloudDialogflowCxV3beta1FormParameter extends \Google\Model
+{
+  public $defaultValue;
+  public $displayName;
+  public $entityType;
+  protected $fillBehaviorType = GoogleCloudDialogflowCxV3beta1FormParameterFillBehavior::class;
+  protected $fillBehaviorDataType = '';
+  public $isList;
+  public $redact;
+  public $required;
+
+  public function setDefaultValue($defaultValue)
+  {
+    $this->defaultValue = $defaultValue;
+  }
+  public function getDefaultValue()
+  {
+    return $this->defaultValue;
+  }
+  public function setDisplayName($displayName)
+  {
+    $this->displayName = $displayName;
+  }
+  public function getDisplayName()
+  {
+    return $this->displayName;
+  }
+  public function setEntityType($entityType)
+  {
+    $this->entityType = $entityType;
+  }
+  public function getEntityType()
+  {
+    return $this->entityType;
+  }
+  /**
+   * @param GoogleCloudDialogflowCxV3beta1FormParameterFillBehavior
+   */
+  public function setFillBehavior(GoogleCloudDialogflowCxV3beta1FormParameterFillBehavior $fillBehavior)
+  {
+    $this->fillBehavior = $fillBehavior;
+  }
+  /**
+   * @return GoogleCloudDialogflowCxV3beta1FormParameterFillBehavior
+   */
+  public function getFillBehavior()
+  {
+    return $this->fillBehavior;
+  }
+  public function setIsList($isList)
+  {
+    $this->isList = $isList;
+  }
+  public function getIsList()
+  {
+    return $this->isList;
+  }
+  public function setRedact($redact)
+  {
+    $this->redact = $redact;
+  }
+  public function getRedact()
+  {
+    return $this->redact;
+  }
+  public function setRequired($required)
+  {
+    $this->required = $required;
+  }
+  public function getRequired()
+  {
+    return $this->required;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudDialogflowCxV3beta1FormParameter::class, 'Google_Service_Dialogflow_GoogleCloudDialogflowCxV3beta1FormParameter');

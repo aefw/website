@@ -1,54 +1,249 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Vm7Bke34k4u=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Reports\Resource;
+
+use Google\Service\Reports\Activities as ActivitiesModel;
+use Google\Service\Reports\Channel;
+
+/**
+ * The "activities" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $adminService = new Google\Service\Reports(...);
+ *   $activities = $adminService->activities;
+ *  </code>
+ */
+class Activities extends \Google\Service\Resource
+{
+  /**
+   * Retrieves a list of activities for a specific customer's account and
+   * application such as the Admin console application or the Google Drive
+   * application. For more information, see the guides for administrator and
+   * Google Drive activity reports. For more information about the activity
+   * report's parameters, see the activity parameters reference guides.
+   * (activities.listActivities)
+   *
+   * @param string $userKey Represents the profile ID or the user email for which
+   * the data should be filtered. Can be `all` for all information, or `userKey`
+   * for a user's unique Google Workspace profile ID or their primary email
+   * address.
+   * @param string $applicationName Application name for which the events are to
+   * be retrieved.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string actorIpAddress The Internet Protocol (IP) Address of host
+   * where the event was performed. This is an additional way to filter a report's
+   * summary using the IP address of the user whose activity is being reported.
+   * This IP address may or may not reflect the user's physical location. For
+   * example, the IP address can be the user's proxy server's address or a virtual
+   * private network (VPN) address. This parameter supports both IPv4 and IPv6
+   * address versions.
+   * @opt_param string customerId The unique ID of the customer to retrieve data
+   * for.
+   * @opt_param string endTime Sets the end of the range of time shown in the
+   * report. The date is in the RFC 3339 format, for example
+   * 2010-10-28T10:26:35.000Z. The default value is the approximate time of the
+   * API request. An API report has three basic time concepts: - *Date of the
+   * API's request for a report*: When the API created and retrieved the report. -
+   * *Report's start time*: The beginning of the timespan shown in the report. The
+   * `startTime` must be before the `endTime` (if specified) and the current time
+   * when the request is made, or the API returns an error. - *Report's end time*:
+   * The end of the timespan shown in the report. For example, the timespan of
+   * events summarized in a report can start in April and end in May. The report
+   * itself can be requested in August. If the `endTime` is not specified, the
+   * report returns all activities from the `startTime` until the current time or
+   * the most recent 180 days if the `startTime` is more than 180 days in the
+   * past.
+   * @opt_param string eventName The name of the event being queried by the API.
+   * Each `eventName` is related to a specific Google Workspace service or feature
+   * which the API organizes into types of events. An example is the Google
+   * Calendar events in the Admin console application's reports. The Calendar
+   * Settings `type` structure has all of the Calendar `eventName` activities
+   * reported by the API. When an administrator changes a Calendar setting, the
+   * API reports this activity in the Calendar Settings `type` and `eventName`
+   * parameters. For more information about `eventName` query strings and
+   * parameters, see the list of event names for various applications above in
+   * `applicationName`.
+   * @opt_param string filters The `filters` query string is a comma-separated
+   * list. The list is composed of event parameters that are manipulated by
+   * relational operators. Event parameters are in the form `parameter1
+   * name[parameter1 value],parameter2 name[parameter2 value],...` These event
+   * parameters are associated with a specific `eventName`. An empty report is
+   * returned if the filtered request's parameter does not belong to the
+   * `eventName`. For more information about `eventName` parameters, see the list
+   * of event names for various applications above in `applicationName`. In the
+   * following Admin Activity example, the <> operator is URL-encoded in the
+   * request's query string (%3C%3E): GET...=CHANGE_CALENDAR_SETTING
+   * =NEW_VALUE%3C%3EREAD_ONLY_ACCESS In the following Drive example, the list can
+   * be a view or edit event's `doc_id` parameter with a value that is manipulated
+   * by an 'equal to' (==) or 'not equal to' (<>) relational operator. In the
+   * first example, the report returns each edited document's `doc_id`. In the
+   * second example, the report returns each viewed document's `doc_id` that
+   * equals the value 12345 and does not return any viewed document's which have a
+   * `doc_id` value of 98765. The <> operator is URL-encoded in the request's
+   * query string (%3C%3E): GET...=edit=doc_id
+   * GET...=view=doc_id==12345,doc_id%3C%3E98765 The relational operators include:
+   * - `==` - 'equal to'. - `<>` - 'not equal to'. It is URL-encoded (%3C%3E). -
+   * `<` - 'less than'. It is URL-encoded (%3C). - `<=` - 'less than or equal to'.
+   * It is URL-encoded (%3C=). - `>` - 'greater than'. It is URL-encoded (%3E). -
+   * `>=` - 'greater than or equal to'. It is URL-encoded (%3E=). *Note:* The API
+   * doesn't accept multiple values of a parameter. If a particular parameter is
+   * supplied more than once in the API request, the API only accepts the last
+   * value of that request parameter. In addition, if an invalid request parameter
+   * is supplied in the API request, the API ignores that request parameter and
+   * returns the response corresponding to the remaining valid request parameters.
+   * If no parameters are requested, all parameters are returned.
+   * @opt_param string groupIdFilter Comma separated group ids (obfuscated) on
+   * which user activities are filtered, i.e, the response will contain activities
+   * for only those users that are a part of at least one of the group ids
+   * mentioned here. Format: "id:abc123,id:xyz456"
+   * @opt_param int maxResults Determines how many activity records are shown on
+   * each response page. For example, if the request sets `maxResults=1` and the
+   * report has two activities, the report has two pages. The response's
+   * `nextPageToken` property has the token to the second page. The `maxResults`
+   * query string is optional in the request. The default value is 1000.
+   * @opt_param string orgUnitID ID of the organizational unit to report on.
+   * Activity records will be shown only for users who belong to the specified
+   * organizational unit. Data before Dec 17, 2018 doesn't appear in the filtered
+   * results.
+   * @opt_param string pageToken The token to specify next page. A report with
+   * multiple pages has a `nextPageToken` property in the response. In your
+   * follow-on request getting the next page of the report, enter the
+   * `nextPageToken` value in the `pageToken` query string.
+   * @opt_param string startTime Sets the beginning of the range of time shown in
+   * the report. The date is in the RFC 3339 format, for example
+   * 2010-10-28T10:26:35.000Z. The report returns all activities from `startTime`
+   * until `endTime`. The `startTime` must be before the `endTime` (if specified)
+   * and the current time when the request is made, or the API returns an error.
+   * @return ActivitiesModel
+   */
+  public function listActivities($userKey, $applicationName, $optParams = [])
+  {
+    $params = ['userKey' => $userKey, 'applicationName' => $applicationName];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ActivitiesModel::class);
+  }
+  /**
+   * Start receiving notifications for account activities. For more information,
+   * see Receiving Push Notifications. (activities.watch)
+   *
+   * @param string $userKey Represents the profile ID or the user email for which
+   * the data should be filtered. Can be `all` for all information, or `userKey`
+   * for a user's unique Google Workspace profile ID or their primary email
+   * address.
+   * @param string $applicationName Application name for which the events are to
+   * be retrieved.
+   * @param Channel $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string actorIpAddress The Internet Protocol (IP) Address of host
+   * where the event was performed. This is an additional way to filter a report's
+   * summary using the IP address of the user whose activity is being reported.
+   * This IP address may or may not reflect the user's physical location. For
+   * example, the IP address can be the user's proxy server's address or a virtual
+   * private network (VPN) address. This parameter supports both IPv4 and IPv6
+   * address versions.
+   * @opt_param string customerId The unique ID of the customer to retrieve data
+   * for.
+   * @opt_param string endTime Sets the end of the range of time shown in the
+   * report. The date is in the RFC 3339 format, for example
+   * 2010-10-28T10:26:35.000Z. The default value is the approximate time of the
+   * API request. An API report has three basic time concepts: - *Date of the
+   * API's request for a report*: When the API created and retrieved the report. -
+   * *Report's start time*: The beginning of the timespan shown in the report. The
+   * `startTime` must be before the `endTime` (if specified) and the current time
+   * when the request is made, or the API returns an error. - *Report's end time*:
+   * The end of the timespan shown in the report. For example, the timespan of
+   * events summarized in a report can start in April and end in May. The report
+   * itself can be requested in August. If the `endTime` is not specified, the
+   * report returns all activities from the `startTime` until the current time or
+   * the most recent 180 days if the `startTime` is more than 180 days in the
+   * past.
+   * @opt_param string eventName The name of the event being queried by the API.
+   * Each `eventName` is related to a specific Google Workspace service or feature
+   * which the API organizes into types of events. An example is the Google
+   * Calendar events in the Admin console application's reports. The Calendar
+   * Settings `type` structure has all of the Calendar `eventName` activities
+   * reported by the API. When an administrator changes a Calendar setting, the
+   * API reports this activity in the Calendar Settings `type` and `eventName`
+   * parameters. For more information about `eventName` query strings and
+   * parameters, see the list of event names for various applications above in
+   * `applicationName`.
+   * @opt_param string filters The `filters` query string is a comma-separated
+   * list. The list is composed of event parameters that are manipulated by
+   * relational operators. Event parameters are in the form `parameter1
+   * name[parameter1 value],parameter2 name[parameter2 value],...` These event
+   * parameters are associated with a specific `eventName`. An empty report is
+   * returned if the filtered request's parameter does not belong to the
+   * `eventName`. For more information about `eventName` parameters, see the list
+   * of event names for various applications above in `applicationName`. In the
+   * following Admin Activity example, the <> operator is URL-encoded in the
+   * request's query string (%3C%3E): GET...=CHANGE_CALENDAR_SETTING
+   * =NEW_VALUE%3C%3EREAD_ONLY_ACCESS In the following Drive example, the list can
+   * be a view or edit event's `doc_id` parameter with a value that is manipulated
+   * by an 'equal to' (==) or 'not equal to' (<>) relational operator. In the
+   * first example, the report returns each edited document's `doc_id`. In the
+   * second example, the report returns each viewed document's `doc_id` that
+   * equals the value 12345 and does not return any viewed document's which have a
+   * `doc_id` value of 98765. The <> operator is URL-encoded in the request's
+   * query string (%3C%3E): GET...=edit=doc_id
+   * GET...=view=doc_id==12345,doc_id%3C%3E98765 The relational operators include:
+   * - `==` - 'equal to'. - `<>` - 'not equal to'. It is URL-encoded (%3C%3E). -
+   * `<` - 'less than'. It is URL-encoded (%3C). - `<=` - 'less than or equal to'.
+   * It is URL-encoded (%3C=). - `>` - 'greater than'. It is URL-encoded (%3E). -
+   * `>=` - 'greater than or equal to'. It is URL-encoded (%3E=). *Note:* The API
+   * doesn't accept multiple values of a parameter. If a particular parameter is
+   * supplied more than once in the API request, the API only accepts the last
+   * value of that request parameter. In addition, if an invalid request parameter
+   * is supplied in the API request, the API ignores that request parameter and
+   * returns the response corresponding to the remaining valid request parameters.
+   * If no parameters are requested, all parameters are returned.
+   * @opt_param string groupIdFilter Comma separated group ids (obfuscated) on
+   * which user activities are filtered, i.e, the response will contain activities
+   * for only those users that are a part of at least one of the group ids
+   * mentioned here. Format: "id:abc123,id:xyz456"
+   * @opt_param int maxResults Determines how many activity records are shown on
+   * each response page. For example, if the request sets `maxResults=1` and the
+   * report has two activities, the report has two pages. The response's
+   * `nextPageToken` property has the token to the second page. The `maxResults`
+   * query string is optional in the request. The default value is 1000.
+   * @opt_param string orgUnitID ID of the organizational unit to report on.
+   * Activity records will be shown only for users who belong to the specified
+   * organizational unit. Data before Dec 17, 2018 doesn't appear in the filtered
+   * results.
+   * @opt_param string pageToken The token to specify next page. A report with
+   * multiple pages has a `nextPageToken` property in the response. In your
+   * follow-on request getting the next page of the report, enter the
+   * `nextPageToken` value in the `pageToken` query string.
+   * @opt_param string startTime Sets the beginning of the range of time shown in
+   * the report. The date is in the RFC 3339 format, for example
+   * 2010-10-28T10:26:35.000Z. The report returns all activities from `startTime`
+   * until `endTime`. The `startTime` must be before the `endTime` (if specified)
+   * and the current time when the request is made, or the API returns an error.
+   * @return Channel
+   */
+  public function watch($userKey, $applicationName, Channel $postBody, $optParams = [])
+  {
+    $params = ['userKey' => $userKey, 'applicationName' => $applicationName, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('watch', [$params], Channel::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Activities::class, 'Google_Service_Reports_Resource_Activities');

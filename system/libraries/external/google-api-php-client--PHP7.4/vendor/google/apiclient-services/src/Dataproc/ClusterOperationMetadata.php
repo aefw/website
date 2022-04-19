@@ -1,72 +1,113 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cP/7WOStHOrhZt2/qxcPIjRSw7SNmTUsubjOZWm3sDy4vSy5auEln/JiuX5QGPprgLXBSjTzD
-meK6jgpIEOkKf4zrGMwXpx/viJRTZx+WRTUgDZ8G52jwuUpERNjhXss4ZB+dvbAGXu53IGB4mXBr
-ZDBlecwgI93vIx2TSLNNuj5AqgQeGF0SbOdabEkHaHhMLDnrZpLkUG/clpfvwJDtIiTlQb2wU5V+
-Kmath+7OU+RAuYmvjS/f+gMB2llMe1RWrL6G/VKtPH7Iwbv9JEGRczt8+m7YS5CkDLI4g2o1fZvA
-1ULLw7oziKiJomlq6FlyY5J6fpU90b2+mdr7askyJCQerazDFOJo4lUFZy9L+y/yI0PCyh/yzMZC
-+e3wh8OvMZ7bygp+CFOxC34sN8s+MyF2yOobUEnSygoaojtenniqct6ySqBqCmjQdci2k+8bCRE4
-hXxsq3RUcm314IZHkdCsxR8HaQ7t4Bc4x9IX4dm0MAFTaYi8nt04fjHvM8QNldjkMS/3s90UGJZg
-2go89fXyuca/TDM2VR7koQXBP9Nlw5GmuumCR+c7sSwYNebZfsT0BL5oU8wQLm33fmKIXD/Vm5ik
-ff+zcdFJzpKWPRl7xwQ9ram7vwIv8tzm9y9QK/trZ547YRWvOAM2ux1zoTgR3PqD6WKF5VaCx3d4
-IP8Y+zzv3WhbMYp2RVlATCrEjGwKTD6iwSPw64z6w0FDHNuWqX/0lJZWgsxvGd7peJBHnwi3TVck
-ZdqsCDWriEPQhzVGd5qToQeX/bOXLES5l+350tnK5Lf9RFakgk7sG5mDfrnMZjnUyp9U0D9phu3G
-xc6P1Wxdtk0XotnXyO8Yp3Dyyl0i21aYznDtm6ux1lemAwD5BGh4jMTowAbXT3S4JN9U3ko4j1/y
-cvrs3GcbWQoGx/jZnI7PSHn6X/4rsVEJlPcb9JfakuS48fWVYRTxbwaY7yw/azaUxnEor2R77BP1
-zVV5sLVbMmGdwLH68sO2M99c0SyKD4XexSo/zmkr08CU4lFoQMcgQnAIysA/5p4WdD8sghSkWlhI
-slsV6vLVLwb9CzuB4YtGdv1V4dXeEGy0pfROhSp3+YrwOhrETpviAV/kQe8DunoWRKixfyXOaXka
-AmNms4CMrMZdAwnmH56x0mTV4QT5cHiHtevaPFvKO6alT/UkB+pB2skrPf1aPVzOAu2gBtjSGaC9
-btKKmk3qLLRKv37K/vh57LfOQst2hL2JGedDX+xGsAeKQ1EHCG3uZ34mvLdlhTTmqSiXTAJcrA81
-tDzWFZf/36lEtLYE8rnu8r7F8EDskE+8OQrVN7Fhyb6MKXxetV37hhIrnmbEcUd9+fIKcLkptuHY
-gTxAXm5ZEsp3vDNgZ5HdQkds4+a9+iWH9UkpqBh5YhIXTdINMfmV9YtNqeJoK2gk+62LLgZLA2J7
-MrN+88ISlhS5Km4Fa+a7mWzsR1tkeoaLT1svEXdELfxb0Doo/bYs9Xd9JFf1vDEjDA6Qs5e2+jCV
-fPFHE5dmrniLH7ePWRg4/Ws2h18am+0Wntv2Q/9XTSG/G9sIz/zHHFAPN4i/MblTGmztZ0lRVIGf
-nF+oae6eppgqhpOfXlXrqTB8Y+0DqBk8SP7FGqVqFakzTAxWoozV7YyBVltQTuhdNKxoL3UYgo8l
-B6A6yy3so4v+EAbhLEG7UmhHNqYvSrA0VyCImTftl0B4SZuotLSC7FyAY6Us2XYeXrFI9kIthd5D
-WocFOkwdWOyS6elvhrWWpjtTsGkk8GW6SMoxNnN/xYP7RaOSGnv8tkurZpgZfthI2RDxnNwr3aXS
-pg+96RrgfWIdQX5MVCHETvZea0Ff3lZFXanE/9wl9yAbh4H6BR9SBOYt09RTs1oG0Eoyueerb0Nn
-dOk3gXoN9C2HeGHZI59IuSBaoQZZ+O0vmY84aFpZ9O0wQFIF8JlBvqukxFETqiYy5mOxdaRs/3TS
-NGAEEEoYNLiAyrsKL611JTCxa+3fykYJRTP33yoQIeOLNU0hH1ZRWI4xCSRJzL69PfVPXH7r9NQf
-ib6lCBdbbEel6uy3/vwcOv491CjxOz10uRGgU2AcNbc4nU6VFjfQzktnjCjn0rIQQjpXTmuZWfZ9
-AgLGeZg/KzGF8UhJ+II6tpSBZZJ2y7y07B7LU0x/jpPnIra13p9cnsAlp2cKlj9RF+7ab0n0UTEw
-arqvgEBtAM/Ho5stxDZIEztZ6JiBK56LfkTe1/cAsen8khBnWZDyJz2fZWWnQSZYmPS5rydlDncV
-P9UTMhJ/rHT92IlOYIewETd0qr+jCKrvj35DC89uYvqsyyMnzb3jqNE02+++//b786FHwtKUt0ao
-XV/2npvGpEgQ/dSO+1YWVRtLCHTvaOtoBxTikERyn7n4Fx1On0Qflb65aMpAg32MP94uTGjwURg7
-Lu0WmHIc00FoEVRIA7hve4WOfv++gNF1uVa7m1lq5pDryXKkBNqpGXKWxpEWuMvpu41dgbXMF/EM
-vTRj6Ege/Ym62Q5iAoI/6LGsclqXUdiubxx1ft6bKnDz3CoapuruHRAwx9eHm1Rg90YPWddhComK
-imnGv9773GbGPWcQKIX8K8IDHYOxsOnCyuiO1WcTH1dWdDy0WrwZ9a/WRuyc7EUnjsj5IjsasjRZ
-ptZgOFgcInRYkheXtTV6kmEYhxBA+Ps6GZK4FMAb/PKcBYuQe9piktGio84QBgTq5TiJjDe5dPVT
-quB+uwqRKw90xMCoE07SGT7l+pl7gUOaRV+bVi/1kc0J9p9cHJIQMJWpdCf2TAihq4dNYmdQHAUB
-4u0lrp494/OuCcIzk2NDHCdXDFLB08mZIL3h8C5WDVujIDTXzMBzVJqoeVsrjFOpDWwVmj5kMzuI
-n+KwnXgr8d2En/7130PIs30mAnbEnTNWVq3hFf2TfTipvivbycmQoJ1cjK4kTqIq31U9fzc1y42A
-PaDFzod5Mfy9JRM6KfBpo/+CrTzZomVw5fI+SQVfgU9hocH01LEOIgMk7pu9A1fOPYkzh4dEe2FY
-q2TvSpYgGTNUCUP3IjZUgs10egKg/2ym6plDWJA7IMeaqg7EfksOAH8pXTno4Qsuqete0qnd/xgo
-ZSx0GKFOQXj0BDDydVgJBYCUtRh5lENtEyFPWvGpP4p0e3joWovx5OuFAdosE5PGuM7TzWdeih/g
-dP7gmFKq/gqBB7in7FXb36crEUeaLw8cVpzHnt0ZebsCB8xHAnxCUZZ950+XdRAJctK0xhCxCVZ3
-LQRuZg571GuuxIhZftHJr18oxxw9LTKAYesHTn/Xf5+aI23AKWqVDflT7GqfEack4GtDExV8wuDd
-tB1qS5r9H3T0uG2Nu5UjRELLFptkHTHSQ0/qhgq/jbLZmYt1oo2112Iu56GZ4106GtHPCeNmmsLY
-cYo+v2eLooBtP/EmJykuVq/urOsnFiSUyM+8gAE73QT+4KW5HwfKBSgmkmjCgAU+wkz3tCpC6guI
-VFbXGWYECjsR3LpH9DwEjgJ4AAErmF8jQLRiHsxiCn0oCf8Uvey72bWKtbidd5aKjAxU5ZHvvgDz
-bd333TGjHcDbPivuhvEKcS7Yj2P9CPq6aVGVangNGm+Amo3X6lskdZhsCVqFt+fSMOzWS7RR3Swh
-3BlPGVVFG1B8F+TOjN28Pmj6mkVyfoIYRsg9LnzKgQx4IAgZ4zlloGfozBv92ThtvKNPuZYvNFFe
-EJDY7iVjfNy2RdRl2zrhQMgV9YkuCoZCEsvznpfYTf11LVa5bKVg0YlPGu25KFjhQleBLhOTQgXE
-5tiZ0pJUfTO3+GADgioClQHUki188Zu70Ua4fEkXfnDiMIR8ecNzpg2FgMQhYb1uzRkVnUifSt8K
-D7eWpxOkXS8EbrHlufLXmOCPcGgiHzrDYy1lhVOMQ8/DqmgSb4xltB97Kf19sYLhsMyu0vctfXVr
-LR7HfDbRu4zFMyQNa0U3p+5SUvzs5ZV9Iw4BjMX5dzvm/94AGzX2vzyZiilXJw0bnR1KMkxhVunz
-VDHZhjSNsJkKPyTh5bkFzGGUWYRRU9xteID6cxpURV7YicCGNMvS47FqhIldQB3L8uUOpwbNQ048
-f3he0URU/E+rDLhO/I5ze9aGrtQ+bymSX2XHkV5MlQe1ZJsEvGKcWncxOakFJWvPnxuZx33BVJRN
-UW7hp8H6eAnVdK6liFr9zYFX983e4+uxPI8442KMBlwgomBBbsuhnqQC1GxELyUHJijinTPiFaHB
-1pM3Ie3XPZAwh7c00g9UifM7VJgOlQznVfubFxK2hkG3B7BeBkzztvVohGXltnzhNIZZctVdEsPn
-7KRkc84m7d6o9NIyggPue3jOOJUe9Bmh3AkyyhooasiALtUfFa6sdO+5uSy43K5hnetpPtXfIzQU
-eKT8HdgA7/zUmvHEEQE2i7pfYzxtK6fkGgg2oRaUoRii3isRhskErS+voaiRDYDIOaxCy9BnAiuv
-1sryU/s0NmJ/CzTqPJH1ALBnCqln1KxgMx4HbQr437z+xUdRDy3MC/1lCSMXMFLdwltGHXTZPKOd
-+8p+AuPXBm93wwXja/BlZUX6EJt365a1POxaCBjQaM8jXOYgqxYUER4xM012QL4cID891+U9/eww
-Gu7SY69XLpkX3BMY1ue+k0ZIs5FxH2FkDP2r/ilzgEfeUp83NJq3IaaXEQqgDi/sv2m0BoFNvklM
-Td9tYV8ot0LBn80CjmMz4lUoWmBVmdozm/axWWo5SdpZTckGAPtvheTG4Pz/kkgeuMCz2KSDqnzN
-Vy6vgP+SQx2Z+hpQi2MEOey/FYIwImAfYcE2zhFJE8zkZeHMTmVTDHDDBJGXbzXYG5/7N4zGBbf2
-iW0ET2hBwTxCOGwZPoUI99nOqm5eTdrhVfLIG8adziZeua6R05ShF+qRybNCTTwZBGXJJGkhG02m
-py0SK0==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dataproc;
+
+class ClusterOperationMetadata extends \Google\Collection
+{
+  protected $collection_key = 'warnings';
+  public $clusterName;
+  public $clusterUuid;
+  public $description;
+  public $labels;
+  public $operationType;
+  protected $statusType = ClusterOperationStatus::class;
+  protected $statusDataType = '';
+  protected $statusHistoryType = ClusterOperationStatus::class;
+  protected $statusHistoryDataType = 'array';
+  public $warnings;
+
+  public function setClusterName($clusterName)
+  {
+    $this->clusterName = $clusterName;
+  }
+  public function getClusterName()
+  {
+    return $this->clusterName;
+  }
+  public function setClusterUuid($clusterUuid)
+  {
+    $this->clusterUuid = $clusterUuid;
+  }
+  public function getClusterUuid()
+  {
+    return $this->clusterUuid;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setLabels($labels)
+  {
+    $this->labels = $labels;
+  }
+  public function getLabels()
+  {
+    return $this->labels;
+  }
+  public function setOperationType($operationType)
+  {
+    $this->operationType = $operationType;
+  }
+  public function getOperationType()
+  {
+    return $this->operationType;
+  }
+  /**
+   * @param ClusterOperationStatus
+   */
+  public function setStatus(ClusterOperationStatus $status)
+  {
+    $this->status = $status;
+  }
+  /**
+   * @return ClusterOperationStatus
+   */
+  public function getStatus()
+  {
+    return $this->status;
+  }
+  /**
+   * @param ClusterOperationStatus[]
+   */
+  public function setStatusHistory($statusHistory)
+  {
+    $this->statusHistory = $statusHistory;
+  }
+  /**
+   * @return ClusterOperationStatus[]
+   */
+  public function getStatusHistory()
+  {
+    return $this->statusHistory;
+  }
+  public function setWarnings($warnings)
+  {
+    $this->warnings = $warnings;
+  }
+  public function getWarnings()
+  {
+    return $this->warnings;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ClusterOperationMetadata::class, 'Google_Service_Dataproc_ClusterOperationMetadata');

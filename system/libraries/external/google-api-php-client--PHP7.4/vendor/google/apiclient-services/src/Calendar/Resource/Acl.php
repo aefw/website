@@ -1,78 +1,197 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-vL/I8hO5kZHnWsy=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Calendar\Resource;
+
+use Google\Service\Calendar\Acl as AclModel;
+use Google\Service\Calendar\AclRule;
+use Google\Service\Calendar\Channel;
+
+/**
+ * The "acl" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $calendarService = new Google\Service\Calendar(...);
+ *   $acl = $calendarService->acl;
+ *  </code>
+ */
+class Acl extends \Google\Service\Resource
+{
+  /**
+   * Deletes an access control rule. (acl.delete)
+   *
+   * @param string $calendarId Calendar identifier. To retrieve calendar IDs call
+   * the calendarList.list method. If you want to access the primary calendar of
+   * the currently logged in user, use the "primary" keyword.
+   * @param string $ruleId ACL rule identifier.
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($calendarId, $ruleId, $optParams = [])
+  {
+    $params = ['calendarId' => $calendarId, 'ruleId' => $ruleId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Returns an access control rule. (acl.get)
+   *
+   * @param string $calendarId Calendar identifier. To retrieve calendar IDs call
+   * the calendarList.list method. If you want to access the primary calendar of
+   * the currently logged in user, use the "primary" keyword.
+   * @param string $ruleId ACL rule identifier.
+   * @param array $optParams Optional parameters.
+   * @return AclRule
+   */
+  public function get($calendarId, $ruleId, $optParams = [])
+  {
+    $params = ['calendarId' => $calendarId, 'ruleId' => $ruleId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], AclRule::class);
+  }
+  /**
+   * Creates an access control rule. (acl.insert)
+   *
+   * @param string $calendarId Calendar identifier. To retrieve calendar IDs call
+   * the calendarList.list method. If you want to access the primary calendar of
+   * the currently logged in user, use the "primary" keyword.
+   * @param AclRule $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool sendNotifications Whether to send notifications about the
+   * calendar sharing change. Optional. The default is True.
+   * @return AclRule
+   */
+  public function insert($calendarId, AclRule $postBody, $optParams = [])
+  {
+    $params = ['calendarId' => $calendarId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], AclRule::class);
+  }
+  /**
+   * Returns the rules in the access control list for the calendar. (acl.listAcl)
+   *
+   * @param string $calendarId Calendar identifier. To retrieve calendar IDs call
+   * the calendarList.list method. If you want to access the primary calendar of
+   * the currently logged in user, use the "primary" keyword.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int maxResults Maximum number of entries returned on one result
+   * page. By default the value is 100 entries. The page size can never be larger
+   * than 250 entries. Optional.
+   * @opt_param string pageToken Token specifying which result page to return.
+   * Optional.
+   * @opt_param bool showDeleted Whether to include deleted ACLs in the result.
+   * Deleted ACLs are represented by role equal to "none". Deleted ACLs will
+   * always be included if syncToken is provided. Optional. The default is False.
+   * @opt_param string syncToken Token obtained from the nextSyncToken field
+   * returned on the last page of results from the previous list request. It makes
+   * the result of this list request contain only entries that have changed since
+   * then. All entries deleted since the previous list request will always be in
+   * the result set and it is not allowed to set showDeleted to False. If the
+   * syncToken expires, the server will respond with a 410 GONE response code and
+   * the client should clear its storage and perform a full synchronization
+   * without any syncToken. Learn more about incremental synchronization.
+   * Optional. The default is to return all entries.
+   * @return AclModel
+   */
+  public function listAcl($calendarId, $optParams = [])
+  {
+    $params = ['calendarId' => $calendarId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], AclModel::class);
+  }
+  /**
+   * Updates an access control rule. This method supports patch semantics.
+   * (acl.patch)
+   *
+   * @param string $calendarId Calendar identifier. To retrieve calendar IDs call
+   * the calendarList.list method. If you want to access the primary calendar of
+   * the currently logged in user, use the "primary" keyword.
+   * @param string $ruleId ACL rule identifier.
+   * @param AclRule $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool sendNotifications Whether to send notifications about the
+   * calendar sharing change. Note that there are no notifications on access
+   * removal. Optional. The default is True.
+   * @return AclRule
+   */
+  public function patch($calendarId, $ruleId, AclRule $postBody, $optParams = [])
+  {
+    $params = ['calendarId' => $calendarId, 'ruleId' => $ruleId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], AclRule::class);
+  }
+  /**
+   * Updates an access control rule. (acl.update)
+   *
+   * @param string $calendarId Calendar identifier. To retrieve calendar IDs call
+   * the calendarList.list method. If you want to access the primary calendar of
+   * the currently logged in user, use the "primary" keyword.
+   * @param string $ruleId ACL rule identifier.
+   * @param AclRule $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool sendNotifications Whether to send notifications about the
+   * calendar sharing change. Note that there are no notifications on access
+   * removal. Optional. The default is True.
+   * @return AclRule
+   */
+  public function update($calendarId, $ruleId, AclRule $postBody, $optParams = [])
+  {
+    $params = ['calendarId' => $calendarId, 'ruleId' => $ruleId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], AclRule::class);
+  }
+  /**
+   * Watch for changes to ACL resources. (acl.watch)
+   *
+   * @param string $calendarId Calendar identifier. To retrieve calendar IDs call
+   * the calendarList.list method. If you want to access the primary calendar of
+   * the currently logged in user, use the "primary" keyword.
+   * @param Channel $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int maxResults Maximum number of entries returned on one result
+   * page. By default the value is 100 entries. The page size can never be larger
+   * than 250 entries. Optional.
+   * @opt_param string pageToken Token specifying which result page to return.
+   * Optional.
+   * @opt_param bool showDeleted Whether to include deleted ACLs in the result.
+   * Deleted ACLs are represented by role equal to "none". Deleted ACLs will
+   * always be included if syncToken is provided. Optional. The default is False.
+   * @opt_param string syncToken Token obtained from the nextSyncToken field
+   * returned on the last page of results from the previous list request. It makes
+   * the result of this list request contain only entries that have changed since
+   * then. All entries deleted since the previous list request will always be in
+   * the result set and it is not allowed to set showDeleted to False. If the
+   * syncToken expires, the server will respond with a 410 GONE response code and
+   * the client should clear its storage and perform a full synchronization
+   * without any syncToken. Learn more about incremental synchronization.
+   * Optional. The default is to return all entries.
+   * @return Channel
+   */
+  public function watch($calendarId, Channel $postBody, $optParams = [])
+  {
+    $params = ['calendarId' => $calendarId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('watch', [$params], Channel::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Acl::class, 'Google_Service_Calendar_Resource_Acl');

@@ -1,65 +1,122 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DataCatalog\Resource;
+
+use Google\Service\DataCatalog\DatacatalogEmpty;
+use Google\Service\DataCatalog\GoogleCloudDatacatalogV1beta1ListTagsResponse;
+use Google\Service\DataCatalog\GoogleCloudDatacatalogV1beta1Tag;
+
+/**
+ * The "tags" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $datacatalogService = new Google\Service\DataCatalog(...);
+ *   $tags = $datacatalogService->tags;
+ *  </code>
+ */
+class ProjectsLocationsEntryGroupsTags extends \Google\Service\Resource
+{
+  /**
+   * Creates a tag on an Entry. Note: The project identified by the `parent`
+   * parameter for the [tag](https://cloud.google.com/data-catalog/docs/reference/
+   * rest/v1beta1/projects.locations.entryGroups.entries.tags/create#path-
+   * parameters) and the [tag template](https://cloud.google.com/data-
+   * catalog/docs/reference/rest/v1beta1/projects.locations.tagTemplates/create
+   * #path-parameters) used to create the tag must be from the same organization.
+   * (tags.create)
+   *
+   * @param string $parent Required. The name of the resource to attach this tag
+   * to. Tags can be attached to Entries. Example: * projects/{project_id}/locatio
+   * ns/{location}/entryGroups/{entry_group_id}/entries/{entry_id} Note that this
+   * Tag and its child resources may not actually be stored in the location in
+   * this name.
+   * @param GoogleCloudDatacatalogV1beta1Tag $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudDatacatalogV1beta1Tag
+   */
+  public function create($parent, GoogleCloudDatacatalogV1beta1Tag $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleCloudDatacatalogV1beta1Tag::class);
+  }
+  /**
+   * Deletes a tag. (tags.delete)
+   *
+   * @param string $name Required. The name of the tag to delete. Example: * proje
+   * cts/{project_id}/locations/{location}/entryGroups/{entry_group_id}/entries/{e
+   * ntry_id}/tags/{tag_id}
+   * @param array $optParams Optional parameters.
+   * @return DatacatalogEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], DatacatalogEmpty::class);
+  }
+  /**
+   * Lists the tags on an Entry. (tags.listProjectsLocationsEntryGroupsTags)
+   *
+   * @param string $parent Required. The name of the Data Catalog resource to list
+   * the tags of. The resource could be an Entry or an EntryGroup. Examples: *
+   * projects/{project_id}/locations/{location}/entryGroups/{entry_group_id} * pro
+   * jects/{project_id}/locations/{location}/entryGroups/{entry_group_id}/entries/
+   * {entry_id}
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The maximum number of tags to return. Default is 10.
+   * Max limit is 1000.
+   * @opt_param string pageToken Token that specifies which page is requested. If
+   * empty, the first page is returned.
+   * @return GoogleCloudDatacatalogV1beta1ListTagsResponse
+   */
+  public function listProjectsLocationsEntryGroupsTags($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleCloudDatacatalogV1beta1ListTagsResponse::class);
+  }
+  /**
+   * Updates an existing tag. (tags.patch)
+   *
+   * @param string $name The resource name of the tag in URL format. Example: * pr
+   * ojects/{project_id}/locations/{location}/entrygroups/{entry_group_id}/entries
+   * /{entry_id}/tags/{tag_id} where `tag_id` is a system-generated identifier.
+   * Note that this Tag may not actually be stored in the location in this name.
+   * @param GoogleCloudDatacatalogV1beta1Tag $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Note: Currently, this parameter can only take
+   * `"fields"` as value. Names of fields whose values to overwrite on a tag.
+   * Currently, a tag has the only modifiable field with the name `fields`. In
+   * general, if this parameter is absent or empty, all modifiable fields are
+   * overwritten. If such fields are non-required and omitted in the request body,
+   * their values are emptied.
+   * @return GoogleCloudDatacatalogV1beta1Tag
+   */
+  public function patch($name, GoogleCloudDatacatalogV1beta1Tag $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], GoogleCloudDatacatalogV1beta1Tag::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsEntryGroupsTags::class, 'Google_Service_DataCatalog_Resource_ProjectsLocationsEntryGroupsTags');

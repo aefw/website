@@ -1,67 +1,97 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Datastore;
+
+class QueryResultBatch extends \Google\Collection
+{
+  protected $collection_key = 'entityResults';
+  public $endCursor;
+  public $entityResultType;
+  protected $entityResultsType = EntityResult::class;
+  protected $entityResultsDataType = 'array';
+  public $moreResults;
+  public $skippedCursor;
+  public $skippedResults;
+  public $snapshotVersion;
+
+  public function setEndCursor($endCursor)
+  {
+    $this->endCursor = $endCursor;
+  }
+  public function getEndCursor()
+  {
+    return $this->endCursor;
+  }
+  public function setEntityResultType($entityResultType)
+  {
+    $this->entityResultType = $entityResultType;
+  }
+  public function getEntityResultType()
+  {
+    return $this->entityResultType;
+  }
+  /**
+   * @param EntityResult[]
+   */
+  public function setEntityResults($entityResults)
+  {
+    $this->entityResults = $entityResults;
+  }
+  /**
+   * @return EntityResult[]
+   */
+  public function getEntityResults()
+  {
+    return $this->entityResults;
+  }
+  public function setMoreResults($moreResults)
+  {
+    $this->moreResults = $moreResults;
+  }
+  public function getMoreResults()
+  {
+    return $this->moreResults;
+  }
+  public function setSkippedCursor($skippedCursor)
+  {
+    $this->skippedCursor = $skippedCursor;
+  }
+  public function getSkippedCursor()
+  {
+    return $this->skippedCursor;
+  }
+  public function setSkippedResults($skippedResults)
+  {
+    $this->skippedResults = $skippedResults;
+  }
+  public function getSkippedResults()
+  {
+    return $this->skippedResults;
+  }
+  public function setSnapshotVersion($snapshotVersion)
+  {
+    $this->snapshotVersion = $snapshotVersion;
+  }
+  public function getSnapshotVersion()
+  {
+    return $this->snapshotVersion;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(QueryResultBatch::class, 'Google_Service_Datastore_QueryResultBatch');

@@ -1,72 +1,133 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Slides;
+
+class LineProperties extends \Google\Model
+{
+  public $dashStyle;
+  public $endArrow;
+  protected $endConnectionType = LineConnection::class;
+  protected $endConnectionDataType = '';
+  protected $lineFillType = LineFill::class;
+  protected $lineFillDataType = '';
+  protected $linkType = Link::class;
+  protected $linkDataType = '';
+  public $startArrow;
+  protected $startConnectionType = LineConnection::class;
+  protected $startConnectionDataType = '';
+  protected $weightType = Dimension::class;
+  protected $weightDataType = '';
+
+  public function setDashStyle($dashStyle)
+  {
+    $this->dashStyle = $dashStyle;
+  }
+  public function getDashStyle()
+  {
+    return $this->dashStyle;
+  }
+  public function setEndArrow($endArrow)
+  {
+    $this->endArrow = $endArrow;
+  }
+  public function getEndArrow()
+  {
+    return $this->endArrow;
+  }
+  /**
+   * @param LineConnection
+   */
+  public function setEndConnection(LineConnection $endConnection)
+  {
+    $this->endConnection = $endConnection;
+  }
+  /**
+   * @return LineConnection
+   */
+  public function getEndConnection()
+  {
+    return $this->endConnection;
+  }
+  /**
+   * @param LineFill
+   */
+  public function setLineFill(LineFill $lineFill)
+  {
+    $this->lineFill = $lineFill;
+  }
+  /**
+   * @return LineFill
+   */
+  public function getLineFill()
+  {
+    return $this->lineFill;
+  }
+  /**
+   * @param Link
+   */
+  public function setLink(Link $link)
+  {
+    $this->link = $link;
+  }
+  /**
+   * @return Link
+   */
+  public function getLink()
+  {
+    return $this->link;
+  }
+  public function setStartArrow($startArrow)
+  {
+    $this->startArrow = $startArrow;
+  }
+  public function getStartArrow()
+  {
+    return $this->startArrow;
+  }
+  /**
+   * @param LineConnection
+   */
+  public function setStartConnection(LineConnection $startConnection)
+  {
+    $this->startConnection = $startConnection;
+  }
+  /**
+   * @return LineConnection
+   */
+  public function getStartConnection()
+  {
+    return $this->startConnection;
+  }
+  /**
+   * @param Dimension
+   */
+  public function setWeight(Dimension $weight)
+  {
+    $this->weight = $weight;
+  }
+  /**
+   * @return Dimension
+   */
+  public function getWeight()
+  {
+    return $this->weight;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(LineProperties::class, 'Google_Service_Slides_LineProperties');

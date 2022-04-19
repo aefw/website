@@ -1,94 +1,217 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Ake=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudIot\Resource;
+
+use Google\Service\CloudIot\BindDeviceToGatewayRequest;
+use Google\Service\CloudIot\BindDeviceToGatewayResponse;
+use Google\Service\CloudIot\CloudiotEmpty;
+use Google\Service\CloudIot\DeviceRegistry;
+use Google\Service\CloudIot\GetIamPolicyRequest;
+use Google\Service\CloudIot\ListDeviceRegistriesResponse;
+use Google\Service\CloudIot\Policy;
+use Google\Service\CloudIot\SetIamPolicyRequest;
+use Google\Service\CloudIot\TestIamPermissionsRequest;
+use Google\Service\CloudIot\TestIamPermissionsResponse;
+use Google\Service\CloudIot\UnbindDeviceFromGatewayRequest;
+use Google\Service\CloudIot\UnbindDeviceFromGatewayResponse;
+
+/**
+ * The "registries" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $cloudiotService = new Google\Service\CloudIot(...);
+ *   $registries = $cloudiotService->registries;
+ *  </code>
+ */
+class ProjectsLocationsRegistries extends \Google\Service\Resource
+{
+  /**
+   * Associates the device with the gateway. (registries.bindDeviceToGateway)
+   *
+   * @param string $parent Required. The name of the registry. For example,
+   * `projects/example-project/locations/us-central1/registries/my-registry`.
+   * @param BindDeviceToGatewayRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return BindDeviceToGatewayResponse
+   */
+  public function bindDeviceToGateway($parent, BindDeviceToGatewayRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('bindDeviceToGateway', [$params], BindDeviceToGatewayResponse::class);
+  }
+  /**
+   * Creates a device registry that contains devices. (registries.create)
+   *
+   * @param string $parent Required. The project and cloud region where this
+   * device registry must be created. For example, `projects/example-
+   * project/locations/us-central1`.
+   * @param DeviceRegistry $postBody
+   * @param array $optParams Optional parameters.
+   * @return DeviceRegistry
+   */
+  public function create($parent, DeviceRegistry $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], DeviceRegistry::class);
+  }
+  /**
+   * Deletes a device registry configuration. (registries.delete)
+   *
+   * @param string $name Required. The name of the device registry. For example,
+   * `projects/example-project/locations/us-central1/registries/my-registry`.
+   * @param array $optParams Optional parameters.
+   * @return CloudiotEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], CloudiotEmpty::class);
+  }
+  /**
+   * Gets a device registry configuration. (registries.get)
+   *
+   * @param string $name Required. The name of the device registry. For example,
+   * `projects/example-project/locations/us-central1/registries/my-registry`.
+   * @param array $optParams Optional parameters.
+   * @return DeviceRegistry
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], DeviceRegistry::class);
+  }
+  /**
+   * Gets the access control policy for a resource. Returns an empty policy if the
+   * resource exists and does not have a policy set. (registries.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param GetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function getIamPolicy($resource, GetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Lists device registries. (registries.listProjectsLocationsRegistries)
+   *
+   * @param string $parent Required. The project and cloud region path. For
+   * example, `projects/example-project/locations/us-central1`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The maximum number of registries to return in the
+   * response. If this value is zero, the service will select a default size. A
+   * call may return fewer objects than requested. A non-empty `next_page_token`
+   * in the response indicates that more data is available.
+   * @opt_param string pageToken The value returned by the last
+   * `ListDeviceRegistriesResponse`; indicates that this is a continuation of a
+   * prior `ListDeviceRegistries` call and the system should return the next page
+   * of data.
+   * @return ListDeviceRegistriesResponse
+   */
+  public function listProjectsLocationsRegistries($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListDeviceRegistriesResponse::class);
+  }
+  /**
+   * Updates a device registry configuration. (registries.patch)
+   *
+   * @param string $name The resource path name. For example, `projects/example-
+   * project/locations/us-central1/registries/my-registry`.
+   * @param DeviceRegistry $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. Only updates the `device_registry`
+   * fields indicated by this mask. The field mask must not be empty, and it must
+   * not contain fields that are immutable or only set by the server. Mutable top-
+   * level fields: `event_notification_config`, `http_config`, `mqtt_config`, and
+   * `state_notification_config`.
+   * @return DeviceRegistry
+   */
+  public function patch($name, DeviceRegistry $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], DeviceRegistry::class);
+  }
+  /**
+   * Sets the access control policy on the specified resource. Replaces any
+   * existing policy. (registries.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource. If the
+   * resource does not exist, this will return an empty set of permissions, not a
+   * NOT_FOUND error. (registries.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+  /**
+   * Deletes the association between the device and the gateway.
+   * (registries.unbindDeviceFromGateway)
+   *
+   * @param string $parent Required. The name of the registry. For example,
+   * `projects/example-project/locations/us-central1/registries/my-registry`.
+   * @param UnbindDeviceFromGatewayRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return UnbindDeviceFromGatewayResponse
+   */
+  public function unbindDeviceFromGateway($parent, UnbindDeviceFromGatewayRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('unbindDeviceFromGateway', [$params], UnbindDeviceFromGatewayResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsRegistries::class, 'Google_Service_CloudIot_Resource_ProjectsLocationsRegistries');

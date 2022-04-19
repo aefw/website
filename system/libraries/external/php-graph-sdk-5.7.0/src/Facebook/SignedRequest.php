@@ -1,117 +1,326 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/**
+ * Copyright 2017 Facebook, Inc.
+ *
+ * You are hereby granted a non-exclusive, worldwide, royalty-free license to
+ * use, copy, modify, and distribute this software in source code or binary
+ * form for use in connection with the web services and APIs provided by
+ * Facebook.
+ *
+ * As with any software that integrates with the Facebook platform, your use
+ * of this software is subject to the Facebook Developer Principles and
+ * Policies [http://developers.facebook.com/policy/]. This copyright notice
+ * shall be included in all copies or substantial portions of the software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+ * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+ *
+ */
+namespace Facebook;
+
+use Facebook\Exceptions\FacebookSDKException;
+
+/**
+ * Class SignedRequest
+ *
+ * @package Facebook
+ */
+class SignedRequest
+{
+    /**
+     * @var FacebookApp The FacebookApp entity.
+     */
+    protected $app;
+
+    /**
+     * @var string The raw encrypted signed request.
+     */
+    protected $rawSignedRequest;
+
+    /**
+     * @var array The payload from the decrypted signed request.
+     */
+    protected $payload;
+
+    /**
+     * Instantiate a new SignedRequest entity.
+     *
+     * @param FacebookApp $facebookApp      The FacebookApp entity.
+     * @param string|null $rawSignedRequest The raw signed request.
+     */
+    public function __construct(FacebookApp $facebookApp, $rawSignedRequest = null)
+    {
+        $this->app = $facebookApp;
+
+        if (!$rawSignedRequest) {
+            return;
+        }
+
+        $this->rawSignedRequest = $rawSignedRequest;
+
+        $this->parse();
+    }
+
+    /**
+     * Returns the raw signed request data.
+     *
+     * @return string|null
+     */
+    public function getRawSignedRequest()
+    {
+        return $this->rawSignedRequest;
+    }
+
+    /**
+     * Returns the parsed signed request data.
+     *
+     * @return array|null
+     */
+    public function getPayload()
+    {
+        return $this->payload;
+    }
+
+    /**
+     * Returns a property from the signed request data if available.
+     *
+     * @param string     $key
+     * @param mixed|null $default
+     *
+     * @return mixed|null
+     */
+    public function get($key, $default = null)
+    {
+        if (isset($this->payload[$key])) {
+            return $this->payload[$key];
+        }
+
+        return $default;
+    }
+
+    /**
+     * Returns user_id from signed request data if available.
+     *
+     * @return string|null
+     */
+    public function getUserId()
+    {
+        return $this->get('user_id');
+    }
+
+    /**
+     * Checks for OAuth data in the payload.
+     *
+     * @return boolean
+     */
+    public function hasOAuthData()
+    {
+        return $this->get('oauth_token') || $this->get('code');
+    }
+
+    /**
+     * Creates a signed request from an array of data.
+     *
+     * @param array $payload
+     *
+     * @return string
+     */
+    public function make(array $payload)
+    {
+        $payload['algorithm'] = isset($payload['algorithm']) ? $payload['algorithm'] : 'HMAC-SHA256';
+        $payload['issued_at'] = isset($payload['issued_at']) ? $payload['issued_at'] : time();
+        $encodedPayload = $this->base64UrlEncode(json_encode($payload));
+
+        $hashedSig = $this->hashSignature($encodedPayload);
+        $encodedSig = $this->base64UrlEncode($hashedSig);
+
+        return $encodedSig . '.' . $encodedPayload;
+    }
+
+    /**
+     * Validates and decodes a signed request and saves
+     * the payload to an array.
+     */
+    protected function parse()
+    {
+        list($encodedSig, $encodedPayload) = $this->split();
+
+        // Signature validation
+        $sig = $this->decodeSignature($encodedSig);
+        $hashedSig = $this->hashSignature($encodedPayload);
+        $this->validateSignature($hashedSig, $sig);
+
+        $this->payload = $this->decodePayload($encodedPayload);
+
+        // Payload validation
+        $this->validateAlgorithm();
+    }
+
+    /**
+     * Splits a raw signed request into signature and payload.
+     *
+     * @return array
+     *
+     * @throws FacebookSDKException
+     */
+    protected function split()
+    {
+        if (strpos($this->rawSignedRequest, '.') === false) {
+            throw new FacebookSDKException('Malformed signed request.', 606);
+        }
+
+        return explode('.', $this->rawSignedRequest, 2);
+    }
+
+    /**
+     * Decodes the raw signature from a signed request.
+     *
+     * @param string $encodedSig
+     *
+     * @return string
+     *
+     * @throws FacebookSDKException
+     */
+    protected function decodeSignature($encodedSig)
+    {
+        $sig = $this->base64UrlDecode($encodedSig);
+
+        if (!$sig) {
+            throw new FacebookSDKException('Signed request has malformed encoded signature data.', 607);
+        }
+
+        return $sig;
+    }
+
+    /**
+     * Decodes the raw payload from a signed request.
+     *
+     * @param string $encodedPayload
+     *
+     * @return array
+     *
+     * @throws FacebookSDKException
+     */
+    protected function decodePayload($encodedPayload)
+    {
+        $payload = $this->base64UrlDecode($encodedPayload);
+
+        if ($payload) {
+            $payload = json_decode($payload, true);
+        }
+
+        if (!is_array($payload)) {
+            throw new FacebookSDKException('Signed request has malformed encoded payload data.', 607);
+        }
+
+        return $payload;
+    }
+
+    /**
+     * Validates the algorithm used in a signed request.
+     *
+     * @throws FacebookSDKException
+     */
+    protected function validateAlgorithm()
+    {
+        if ($this->get('algorithm') !== 'HMAC-SHA256') {
+            throw new FacebookSDKException('Signed request is using the wrong algorithm.', 605);
+        }
+    }
+
+    /**
+     * Hashes the signature used in a signed request.
+     *
+     * @param string $encodedData
+     *
+     * @return string
+     *
+     * @throws FacebookSDKException
+     */
+    protected function hashSignature($encodedData)
+    {
+        $hashedSig = hash_hmac(
+            'sha256',
+            $encodedData,
+            $this->app->getSecret(),
+            $raw_output = true
+        );
+
+        if (!$hashedSig) {
+            throw new FacebookSDKException('Unable to hash signature from encoded payload data.', 602);
+        }
+
+        return $hashedSig;
+    }
+
+    /**
+     * Validates the signature used in a signed request.
+     *
+     * @param string $hashedSig
+     * @param string $sig
+     *
+     * @throws FacebookSDKException
+     */
+    protected function validateSignature($hashedSig, $sig)
+    {
+        if (\hash_equals($hashedSig, $sig)) {
+            return;
+        }
+
+        throw new FacebookSDKException('Signed request has an invalid signature.', 602);
+    }
+
+    /**
+     * Base64 decoding which replaces characters:
+     *   + instead of -
+     *   / instead of _
+     *
+     * @link http://en.wikipedia.org/wiki/Base64#URL_applications
+     *
+     * @param string $input base64 url encoded input
+     *
+     * @return string decoded string
+     */
+    public function base64UrlDecode($input)
+    {
+        $urlDecodedBase64 = strtr($input, '-_', '+/');
+        $this->validateBase64($urlDecodedBase64);
+
+        return base64_decode($urlDecodedBase64);
+    }
+
+    /**
+     * Base64 encoding which replaces characters:
+     *   + instead of -
+     *   / instead of _
+     *
+     * @link http://en.wikipedia.org/wiki/Base64#URL_applications
+     *
+     * @param string $input string to encode
+     *
+     * @return string base64 url encoded input
+     */
+    public function base64UrlEncode($input)
+    {
+        return strtr(base64_encode($input), '+/', '-_');
+    }
+
+    /**
+     * Validates a base64 string.
+     *
+     * @param string $input base64 value to validate
+     *
+     * @throws FacebookSDKException
+     */
+    protected function validateBase64($input)
+    {
+        if (!preg_match('/^[a-zA-Z0-9\/\r\n+]*={0,2}$/', $input)) {
+            throw new FacebookSDKException('Signed request contains malformed base64 encoding.', 608);
+        }
+    }
+}

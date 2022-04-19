@@ -1,79 +1,78 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+namespace PhpOffice\PhpSpreadsheet\Writer\Pdf;
+
+use PhpOffice\PhpSpreadsheet\Worksheet\PageSetup;
+use PhpOffice\PhpSpreadsheet\Writer\Pdf;
+
+class Dompdf extends Pdf
+{
+    /**
+     * Gets the implementation of external PDF library that should be used.
+     *
+     * @return \Dompdf\Dompdf implementation
+     */
+    protected function createExternalWriterInstance()
+    {
+        return new \Dompdf\Dompdf();
+    }
+
+    /**
+     * Save Spreadsheet to file.
+     *
+     * @param string $pFilename Name of the file to save as
+     *
+     * @throws \PhpOffice\PhpSpreadsheet\Writer\Exception
+     */
+    public function save($pFilename)
+    {
+        $fileHandle = parent::prepareForSave($pFilename);
+
+        //  Default PDF paper size
+        $paperSize = 'LETTER'; //    Letter    (8.5 in. by 11 in.)
+
+        //  Check for paper size and page orientation
+        if ($this->getSheetIndex() === null) {
+            $orientation = ($this->spreadsheet->getSheet(0)->getPageSetup()->getOrientation()
+                == PageSetup::ORIENTATION_LANDSCAPE) ? 'L' : 'P';
+            $printPaperSize = $this->spreadsheet->getSheet(0)->getPageSetup()->getPaperSize();
+        } else {
+            $orientation = ($this->spreadsheet->getSheet($this->getSheetIndex())->getPageSetup()->getOrientation()
+                == PageSetup::ORIENTATION_LANDSCAPE) ? 'L' : 'P';
+            $printPaperSize = $this->spreadsheet->getSheet($this->getSheetIndex())->getPageSetup()->getPaperSize();
+        }
+
+        $orientation = ($orientation == 'L') ? 'landscape' : 'portrait';
+
+        //  Override Page Orientation
+        if ($this->getOrientation() !== null) {
+            $orientation = ($this->getOrientation() == PageSetup::ORIENTATION_DEFAULT)
+                ? PageSetup::ORIENTATION_PORTRAIT
+                : $this->getOrientation();
+        }
+        //  Override Paper Size
+        if ($this->getPaperSize() !== null) {
+            $printPaperSize = $this->getPaperSize();
+        }
+
+        if (isset(self::$paperSizes[$printPaperSize])) {
+            $paperSize = self::$paperSizes[$printPaperSize];
+        }
+
+        //  Create PDF
+        $pdf = $this->createExternalWriterInstance();
+        $pdf->setPaper(strtolower($paperSize), $orientation);
+
+        $pdf->loadHtml(
+            $this->generateHTMLHeader(false) .
+            $this->generateSheetData() .
+            $this->generateHTMLFooter()
+        );
+        $pdf->render();
+
+        //  Write to file
+        fwrite($fileHandle, $pdf->output());
+
+        parent::restoreStateAfterSave($fileHandle);
+    }
+}

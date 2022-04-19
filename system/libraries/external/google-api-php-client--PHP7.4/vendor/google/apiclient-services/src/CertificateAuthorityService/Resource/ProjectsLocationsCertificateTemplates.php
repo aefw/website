@@ -1,87 +1,231 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CertificateAuthorityService\Resource;
+
+use Google\Service\CertificateAuthorityService\CertificateTemplate;
+use Google\Service\CertificateAuthorityService\ListCertificateTemplatesResponse;
+use Google\Service\CertificateAuthorityService\Operation;
+use Google\Service\CertificateAuthorityService\Policy;
+use Google\Service\CertificateAuthorityService\SetIamPolicyRequest;
+use Google\Service\CertificateAuthorityService\TestIamPermissionsRequest;
+use Google\Service\CertificateAuthorityService\TestIamPermissionsResponse;
+
+/**
+ * The "certificateTemplates" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $privatecaService = new Google\Service\CertificateAuthorityService(...);
+ *   $certificateTemplates = $privatecaService->certificateTemplates;
+ *  </code>
+ */
+class ProjectsLocationsCertificateTemplates extends \Google\Service\Resource
+{
+  /**
+   * Create a new CertificateTemplate in a given Project and Location.
+   * (certificateTemplates.create)
+   *
+   * @param string $parent Required. The resource name of the location associated
+   * with the CertificateTemplate, in the format `projects/locations`.
+   * @param CertificateTemplate $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string certificateTemplateId Required. It must be unique within a
+   * location and match the regular expression `[a-zA-Z0-9_-]{1,63}`
+   * @opt_param string requestId Optional. An ID to identify requests. Specify a
+   * unique request ID so that if you must retry your request, the server will
+   * know to ignore the request if it has already been completed. The server will
+   * guarantee that for at least 60 minutes since the first request. For example,
+   * consider a situation where you make an initial request and t he request times
+   * out. If you make the request again with the same request ID, the server can
+   * check if original operation with the same request ID was received, and if so,
+   * will ignore the second request. This prevents clients from accidentally
+   * creating duplicate commitments. The request ID must be a valid UUID with the
+   * exception that zero UUID is not supported
+   * (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function create($parent, CertificateTemplate $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Operation::class);
+  }
+  /**
+   * DeleteCertificateTemplate deletes a CertificateTemplate.
+   * (certificateTemplates.delete)
+   *
+   * @param string $name Required. The resource name for this CertificateTemplate
+   * in the format `projects/locations/certificateTemplates`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId Optional. An ID to identify requests. Specify a
+   * unique request ID so that if you must retry your request, the server will
+   * know to ignore the request if it has already been completed. The server will
+   * guarantee that for at least 60 minutes since the first request. For example,
+   * consider a situation where you make an initial request and t he request times
+   * out. If you make the request again with the same request ID, the server can
+   * check if original operation with the same request ID was received, and if so,
+   * will ignore the second request. This prevents clients from accidentally
+   * creating duplicate commitments. The request ID must be a valid UUID with the
+   * exception that zero UUID is not supported
+   * (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Returns a CertificateTemplate. (certificateTemplates.get)
+   *
+   * @param string $name Required. The name of the CertificateTemplate to get.
+   * @param array $optParams Optional parameters.
+   * @return CertificateTemplate
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], CertificateTemplate::class);
+  }
+  /**
+   * Gets the access control policy for a resource. Returns an empty policy if the
+   * resource exists and does not have a policy set.
+   * (certificateTemplates.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int options.requestedPolicyVersion Optional. The policy format
+   * version to be returned. Valid values are 0, 1, and 3. Requests specifying an
+   * invalid value will be rejected. Requests for policies with any conditional
+   * bindings must specify version 3. Policies without any conditional bindings
+   * may specify any valid value or leave the field unset. To learn which
+   * resources support conditions in their IAM policies, see the [IAM
+   * documentation](https://cloud.google.com/iam/help/conditions/resource-
+   * policies).
+   * @return Policy
+   */
+  public function getIamPolicy($resource, $optParams = [])
+  {
+    $params = ['resource' => $resource];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Lists CertificateTemplates.
+   * (certificateTemplates.listProjectsLocationsCertificateTemplates)
+   *
+   * @param string $parent Required. The resource name of the location associated
+   * with the CertificateTemplates, in the format `projects/locations`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Optional. Only include resources that match the
+   * filter in the response.
+   * @opt_param string orderBy Optional. Specify how the results should be sorted.
+   * @opt_param int pageSize Optional. Limit on the number of CertificateTemplates
+   * to include in the response. Further CertificateTemplates can subsequently be
+   * obtained by including the ListCertificateTemplatesResponse.next_page_token in
+   * a subsequent request. If unspecified, the server will pick an appropriate
+   * default.
+   * @opt_param string pageToken Optional. Pagination token, returned earlier via
+   * ListCertificateTemplatesResponse.next_page_token.
+   * @return ListCertificateTemplatesResponse
+   */
+  public function listProjectsLocationsCertificateTemplates($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListCertificateTemplatesResponse::class);
+  }
+  /**
+   * Update a CertificateTemplate. (certificateTemplates.patch)
+   *
+   * @param string $name Output only. The resource name for this
+   * CertificateTemplate in the format `projects/locations/certificateTemplates`.
+   * @param CertificateTemplate $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId Optional. An ID to identify requests. Specify a
+   * unique request ID so that if you must retry your request, the server will
+   * know to ignore the request if it has already been completed. The server will
+   * guarantee that for at least 60 minutes since the first request. For example,
+   * consider a situation where you make an initial request and t he request times
+   * out. If you make the request again with the same request ID, the server can
+   * check if original operation with the same request ID was received, and if so,
+   * will ignore the second request. This prevents clients from accidentally
+   * creating duplicate commitments. The request ID must be a valid UUID with the
+   * exception that zero UUID is not supported
+   * (00000000-0000-0000-0000-000000000000).
+   * @opt_param string updateMask Required. A list of fields to be updated in this
+   * request.
+   * @return Operation
+   */
+  public function patch($name, CertificateTemplate $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+  /**
+   * Sets the access control policy on the specified resource. Replaces any
+   * existing policy. Can return `NOT_FOUND`, `INVALID_ARGUMENT`, and
+   * `PERMISSION_DENIED` errors. (certificateTemplates.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource. If the
+   * resource does not exist, this will return an empty set of permissions, not a
+   * `NOT_FOUND` error. Note: This operation is designed to be used for building
+   * permission-aware UIs and command-line tools, not for authorization checking.
+   * This operation may "fail open" without warning.
+   * (certificateTemplates.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsCertificateTemplates::class, 'Google_Service_CertificateAuthorityService_Resource_ProjectsLocationsCertificateTemplates');

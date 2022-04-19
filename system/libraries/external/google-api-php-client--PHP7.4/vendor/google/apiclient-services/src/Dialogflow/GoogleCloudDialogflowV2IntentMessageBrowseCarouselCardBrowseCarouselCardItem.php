@@ -1,67 +1,85 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-sNL/y4+ZeT1wXt6Z9qXVldQq9gIrDUbY
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dialogflow;
+
+class GoogleCloudDialogflowV2IntentMessageBrowseCarouselCardBrowseCarouselCardItem extends \Google\Model
+{
+  public $description;
+  public $footer;
+  protected $imageType = GoogleCloudDialogflowV2IntentMessageImage::class;
+  protected $imageDataType = '';
+  protected $openUriActionType = GoogleCloudDialogflowV2IntentMessageBrowseCarouselCardBrowseCarouselCardItemOpenUrlAction::class;
+  protected $openUriActionDataType = '';
+  public $title;
+
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setFooter($footer)
+  {
+    $this->footer = $footer;
+  }
+  public function getFooter()
+  {
+    return $this->footer;
+  }
+  /**
+   * @param GoogleCloudDialogflowV2IntentMessageImage
+   */
+  public function setImage(GoogleCloudDialogflowV2IntentMessageImage $image)
+  {
+    $this->image = $image;
+  }
+  /**
+   * @return GoogleCloudDialogflowV2IntentMessageImage
+   */
+  public function getImage()
+  {
+    return $this->image;
+  }
+  /**
+   * @param GoogleCloudDialogflowV2IntentMessageBrowseCarouselCardBrowseCarouselCardItemOpenUrlAction
+   */
+  public function setOpenUriAction(GoogleCloudDialogflowV2IntentMessageBrowseCarouselCardBrowseCarouselCardItemOpenUrlAction $openUriAction)
+  {
+    $this->openUriAction = $openUriAction;
+  }
+  /**
+   * @return GoogleCloudDialogflowV2IntentMessageBrowseCarouselCardBrowseCarouselCardItemOpenUrlAction
+   */
+  public function getOpenUriAction()
+  {
+    return $this->openUriAction;
+  }
+  public function setTitle($title)
+  {
+    $this->title = $title;
+  }
+  public function getTitle()
+  {
+    return $this->title;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudDialogflowV2IntentMessageBrowseCarouselCardBrowseCarouselCardItem::class, 'Google_Service_Dialogflow_GoogleCloudDialogflowV2IntentMessageBrowseCarouselCardBrowseCarouselCardItem');

@@ -1,81 +1,449 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-dy06SSu9PYpu292/AlNA8eAipBWDjtpJ
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for RecommendationsAI (v1beta1).
+ *
+ * <p>
+ * Note that we now highly recommend new customers to use Retail API, which
+ * incorporates the GA version of the Recommendations AI funtionalities. To
+ * enable Retail API, please visit
+ * https://console.cloud.google.com/apis/library/retail.googleapis.com. The
+ * Recommendations AI service enables customers to build end-to-end personalized
+ * recommendation systems without requiring a high level of expertise in machine
+ * learning, recommendation system, or Google Cloud.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/recommendations-ai/docs" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class RecommendationsAI extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+
+  public $projects_locations_catalogs;
+  public $projects_locations_catalogs_catalogItems;
+  public $projects_locations_catalogs_eventStores_operations;
+  public $projects_locations_catalogs_eventStores_placements;
+  public $projects_locations_catalogs_eventStores_predictionApiKeyRegistrations;
+  public $projects_locations_catalogs_eventStores_userEvents;
+  public $projects_locations_catalogs_operations;
+
+  /**
+   * Constructs the internal representation of the RecommendationsAI service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://recommendationengine.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1beta1';
+    $this->serviceName = 'recommendationengine';
+
+    $this->projects_locations_catalogs = new RecommendationsAI\Resource\ProjectsLocationsCatalogs(
+        $this,
+        $this->serviceName,
+        'catalogs',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1beta1/{+parent}/catalogs',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_catalogs_catalogItems = new RecommendationsAI\Resource\ProjectsLocationsCatalogsCatalogItems(
+        $this,
+        $this->serviceName,
+        'catalogItems',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1beta1/{+parent}/catalogItems',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'import' => [
+              'path' => 'v1beta1/{+parent}/catalogItems:import',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1beta1/{+parent}/catalogItems',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_catalogs_eventStores_operations = new RecommendationsAI\Resource\ProjectsLocationsCatalogsEventStoresOperations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1beta1/{+name}/operations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_catalogs_eventStores_placements = new RecommendationsAI\Resource\ProjectsLocationsCatalogsEventStoresPlacements(
+        $this,
+        $this->serviceName,
+        'placements',
+        [
+          'methods' => [
+            'predict' => [
+              'path' => 'v1beta1/{+name}:predict',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_catalogs_eventStores_predictionApiKeyRegistrations = new RecommendationsAI\Resource\ProjectsLocationsCatalogsEventStoresPredictionApiKeyRegistrations(
+        $this,
+        $this->serviceName,
+        'predictionApiKeyRegistrations',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1beta1/{+parent}/predictionApiKeyRegistrations',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1beta1/{+parent}/predictionApiKeyRegistrations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_catalogs_eventStores_userEvents = new RecommendationsAI\Resource\ProjectsLocationsCatalogsEventStoresUserEvents(
+        $this,
+        $this->serviceName,
+        'userEvents',
+        [
+          'methods' => [
+            'collect' => [
+              'path' => 'v1beta1/{+parent}/userEvents:collect',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'ets' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'uri' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userEvent' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'import' => [
+              'path' => 'v1beta1/{+parent}/userEvents:import',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1beta1/{+parent}/userEvents',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'purge' => [
+              'path' => 'v1beta1/{+parent}/userEvents:purge',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'rejoin' => [
+              'path' => 'v1beta1/{+parent}/userEvents:rejoin',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'write' => [
+              'path' => 'v1beta1/{+parent}/userEvents:write',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_catalogs_operations = new RecommendationsAI\Resource\ProjectsLocationsCatalogsOperations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1beta1/{+name}/operations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(RecommendationsAI::class, 'Google_Service_RecommendationsAI');

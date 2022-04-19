@@ -1,60 +1,117 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\HomeGraphService\Resource;
+
+use Google\Service\HomeGraphService\QueryRequest;
+use Google\Service\HomeGraphService\QueryResponse;
+use Google\Service\HomeGraphService\ReportStateAndNotificationRequest;
+use Google\Service\HomeGraphService\ReportStateAndNotificationResponse;
+use Google\Service\HomeGraphService\RequestSyncDevicesRequest;
+use Google\Service\HomeGraphService\RequestSyncDevicesResponse;
+use Google\Service\HomeGraphService\SyncRequest;
+use Google\Service\HomeGraphService\SyncResponse;
+
+/**
+ * The "devices" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $homegraphService = new Google\Service\HomeGraphService(...);
+ *   $devices = $homegraphService->devices;
+ *  </code>
+ */
+class Devices extends \Google\Service\Resource
+{
+  /**
+   * Gets the current states in Home Graph for the given set of the third-party
+   * user's devices. The third-party user's identity is passed in via the
+   * `agent_user_id` (see QueryRequest). This request must be authorized using
+   * service account credentials from your Actions console project.
+   * (devices.query)
+   *
+   * @param QueryRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return QueryResponse
+   */
+  public function query(QueryRequest $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('query', [$params], QueryResponse::class);
+  }
+  /**
+   * Reports device state and optionally sends device notifications. Called by
+   * your smart home Action when the state of a third-party device changes or you
+   * need to send a notification about the device. See [Implement Report
+   * State](https://developers.google.com/assistant/smarthome/develop/report-
+   * state) for more information. This method updates the device state according
+   * to its declared
+   * [traits](https://developers.google.com/assistant/smarthome/concepts/devices-
+   * traits). Publishing a new state value outside of these traits will result in
+   * an `INVALID_ARGUMENT` error response. The third-party user's identity is
+   * passed in via the `agent_user_id` (see ReportStateAndNotificationRequest).
+   * This request must be authorized using service account credentials from your
+   * Actions console project. (devices.reportStateAndNotification)
+   *
+   * @param ReportStateAndNotificationRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return ReportStateAndNotificationResponse
+   */
+  public function reportStateAndNotification(ReportStateAndNotificationRequest $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('reportStateAndNotification', [$params], ReportStateAndNotificationResponse::class);
+  }
+  /**
+   * Requests Google to send an `action.devices.SYNC` [intent](https://developers.
+   * google.com/assistant/smarthome/reference/intent/sync) to your smart home
+   * Action to update device metadata for the given user. The third-party user's
+   * identity is passed via the `agent_user_id` (see RequestSyncDevicesRequest).
+   * This request must be authorized using service account credentials from your
+   * Actions console project. (devices.requestSync)
+   *
+   * @param RequestSyncDevicesRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return RequestSyncDevicesResponse
+   */
+  public function requestSync(RequestSyncDevicesRequest $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('requestSync', [$params], RequestSyncDevicesResponse::class);
+  }
+  /**
+   * Gets all the devices associated with the given third-party user. The third-
+   * party user's identity is passed in via the `agent_user_id` (see SyncRequest).
+   * This request must be authorized using service account credentials from your
+   * Actions console project. (devices.sync)
+   *
+   * @param SyncRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return SyncResponse
+   */
+  public function sync(SyncRequest $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('sync', [$params], SyncResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Devices::class, 'Google_Service_HomeGraphService_Resource_Devices');

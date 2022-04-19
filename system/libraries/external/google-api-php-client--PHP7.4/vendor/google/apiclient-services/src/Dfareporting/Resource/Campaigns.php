@@ -1,69 +1,135 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-OdtAgg+NAg0P3Y7JyOhc5xmsIPmJ
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dfareporting\Resource;
+
+use Google\Service\Dfareporting\Campaign;
+use Google\Service\Dfareporting\CampaignsListResponse;
+
+/**
+ * The "campaigns" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $dfareportingService = new Google\Service\Dfareporting(...);
+ *   $campaigns = $dfareportingService->campaigns;
+ *  </code>
+ */
+class Campaigns extends \Google\Service\Resource
+{
+  /**
+   * Gets one campaign by ID. (campaigns.get)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param string $id Campaign ID.
+   * @param array $optParams Optional parameters.
+   * @return Campaign
+   */
+  public function get($profileId, $id, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Campaign::class);
+  }
+  /**
+   * Inserts a new campaign. (campaigns.insert)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param Campaign $postBody
+   * @param array $optParams Optional parameters.
+   * @return Campaign
+   */
+  public function insert($profileId, Campaign $postBody, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Campaign::class);
+  }
+  /**
+   * Retrieves a list of campaigns, possibly filtered. This method supports
+   * paging. (campaigns.listCampaigns)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string advertiserGroupIds Select only campaigns whose advertisers
+   * belong to these advertiser groups.
+   * @opt_param string advertiserIds Select only campaigns that belong to these
+   * advertisers.
+   * @opt_param bool archived Select only archived campaigns. Don't set this field
+   * to select both archived and non-archived campaigns.
+   * @opt_param bool atLeastOneOptimizationActivity Select only campaigns that
+   * have at least one optimization activity.
+   * @opt_param string excludedIds Exclude campaigns with these IDs.
+   * @opt_param string ids Select only campaigns with these IDs.
+   * @opt_param int maxResults Maximum number of results to return.
+   * @opt_param string overriddenEventTagId Select only campaigns that have
+   * overridden this event tag ID.
+   * @opt_param string pageToken Value of the nextPageToken from the previous
+   * result page.
+   * @opt_param string searchString Allows searching for campaigns by name or ID.
+   * Wildcards (*) are allowed. For example, "campaign*2015" will return campaigns
+   * with names like "campaign June 2015", "campaign April 2015", or simply
+   * "campaign 2015". Most of the searches also add wildcards implicitly at the
+   * start and the end of the search string. For example, a search string of
+   * "campaign" will match campaigns with name "my campaign", "campaign 2015", or
+   * simply "campaign".
+   * @opt_param string sortField Field by which to sort the list.
+   * @opt_param string sortOrder Order of sorted results.
+   * @opt_param string subaccountId Select only campaigns that belong to this
+   * subaccount.
+   * @return CampaignsListResponse
+   */
+  public function listCampaigns($profileId, $optParams = [])
+  {
+    $params = ['profileId' => $profileId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], CampaignsListResponse::class);
+  }
+  /**
+   * Updates an existing campaign. This method supports patch semantics.
+   * (campaigns.patch)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param string $id Campaign ID.
+   * @param Campaign $postBody
+   * @param array $optParams Optional parameters.
+   * @return Campaign
+   */
+  public function patch($profileId, $id, Campaign $postBody, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'id' => $id, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Campaign::class);
+  }
+  /**
+   * Updates an existing campaign. (campaigns.update)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param Campaign $postBody
+   * @param array $optParams Optional parameters.
+   * @return Campaign
+   */
+  public function update($profileId, Campaign $postBody, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Campaign::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Campaigns::class, 'Google_Service_Dfareporting_Resource_Campaigns');

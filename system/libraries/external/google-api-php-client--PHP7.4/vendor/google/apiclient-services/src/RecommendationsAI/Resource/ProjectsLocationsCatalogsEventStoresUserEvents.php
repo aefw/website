@@ -1,76 +1,191 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-YEZNvP2hbQ99XDLPJIEieliWybsvlzWmxuu=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\RecommendationsAI\Resource;
+
+use Google\Service\RecommendationsAI\GoogleApiHttpBody;
+use Google\Service\RecommendationsAI\GoogleCloudRecommendationengineV1beta1ImportUserEventsRequest;
+use Google\Service\RecommendationsAI\GoogleCloudRecommendationengineV1beta1ListUserEventsResponse;
+use Google\Service\RecommendationsAI\GoogleCloudRecommendationengineV1beta1PurgeUserEventsRequest;
+use Google\Service\RecommendationsAI\GoogleCloudRecommendationengineV1beta1RejoinUserEventsRequest;
+use Google\Service\RecommendationsAI\GoogleCloudRecommendationengineV1beta1UserEvent;
+use Google\Service\RecommendationsAI\GoogleLongrunningOperation;
+
+/**
+ * The "userEvents" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $recommendationengineService = new Google\Service\RecommendationsAI(...);
+ *   $userEvents = $recommendationengineService->userEvents;
+ *  </code>
+ */
+class ProjectsLocationsCatalogsEventStoresUserEvents extends \Google\Service\Resource
+{
+  /**
+   * Writes a single user event from the browser. This uses a GET request to due
+   * to browser restriction of POST-ing to a 3rd party domain. This method is used
+   * only by the Recommendations AI JavaScript pixel. Users should not call this
+   * method directly. (userEvents.collect)
+   *
+   * @param string $parent Required. The parent eventStore name, such as `projects
+   * /1234/locations/global/catalogs/default_catalog/eventStores/default_event_sto
+   * re`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string ets Optional. The event timestamp in milliseconds. This
+   * prevents browser caching of otherwise identical get requests. The name is
+   * abbreviated to reduce the payload bytes.
+   * @opt_param string uri Optional. The url including cgi-parameters but
+   * excluding the hash fragment. The URL must be truncated to 1.5K bytes to
+   * conservatively be under the 2K bytes. This is often more useful than the
+   * referer url, because many browsers only send the domain for 3rd party
+   * requests.
+   * @opt_param string userEvent Required. URL encoded UserEvent proto.
+   * @return GoogleApiHttpBody
+   */
+  public function collect($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('collect', [$params], GoogleApiHttpBody::class);
+  }
+  /**
+   * Bulk import of User events. Request processing might be synchronous. Events
+   * that already exist are skipped. Use this method for backfilling historical
+   * user events. Operation.response is of type ImportResponse. Note that it is
+   * possible for a subset of the items to be successfully inserted.
+   * Operation.metadata is of type ImportMetadata. (userEvents.import)
+   *
+   * @param string $parent Required. `projects/1234/locations/global/catalogs/defa
+   * ult_catalog/eventStores/default_event_store`
+   * @param GoogleCloudRecommendationengineV1beta1ImportUserEventsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function import($parent, GoogleCloudRecommendationengineV1beta1ImportUserEventsRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('import', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Gets a list of user events within a time range, with potential filtering. The
+   * method does not list unjoined user events. Unjoined user event definition:
+   * when a user event is ingested from Recommendations AI User Event APIs, the
+   * catalog item included in the user event is connected with the current
+   * catalog. If a catalog item of the ingested event is not in the current
+   * catalog, it could lead to degraded model quality. This is called an unjoined
+   * event. (userEvents.listProjectsLocationsCatalogsEventStoresUserEvents)
+   *
+   * @param string $parent Required. The parent eventStore resource name, such as
+   * `projects/locations/catalogs/default_catalog/eventStores/default_event_store`
+   * .
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Optional. Filtering expression to specify
+   * restrictions over returned events. This is a sequence of terms, where each
+   * term applies some kind of a restriction to the returned user events. Use this
+   * expression to restrict results to a specific time range, or filter events by
+   * eventType. eg: eventTime > "2012-04-23T18:25:43.511Z"
+   * eventsMissingCatalogItems eventTime<"2012-04-23T18:25:43.511Z"
+   * eventType=search We expect only 3 types of fields: * eventTime: this can be
+   * specified a maximum of 2 times, once with a less than operator and once with
+   * a greater than operator. The eventTime restrict should result in one
+   * contiguous valid eventTime range. * eventType: only 1 eventType restriction
+   * can be specified. * eventsMissingCatalogItems: specififying this will
+   * restrict results to events for which catalog items were not found in the
+   * catalog. The default behavior is to return only those events for which
+   * catalog items were found. Some examples of valid filters expressions: *
+   * Example 1: eventTime > "2012-04-23T18:25:43.511Z" eventTime <
+   * "2012-04-23T18:30:43.511Z" * Example 2: eventTime >
+   * "2012-04-23T18:25:43.511Z" eventType = detail-page-view * Example 3:
+   * eventsMissingCatalogItems eventType = search eventTime <
+   * "2018-04-23T18:30:43.511Z" * Example 4: eventTime >
+   * "2012-04-23T18:25:43.511Z" * Example 5: eventType = search * Example 6:
+   * eventsMissingCatalogItems
+   * @opt_param int pageSize Optional. Maximum number of results to return per
+   * page. If zero, the service will choose a reasonable default.
+   * @opt_param string pageToken Optional. The previous
+   * ListUserEventsResponse.next_page_token.
+   * @return GoogleCloudRecommendationengineV1beta1ListUserEventsResponse
+   */
+  public function listProjectsLocationsCatalogsEventStoresUserEvents($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleCloudRecommendationengineV1beta1ListUserEventsResponse::class);
+  }
+  /**
+   * Deletes permanently all user events specified by the filter provided.
+   * Depending on the number of events specified by the filter, this operation
+   * could take hours or days to complete. To test a filter, use the list command
+   * first. (userEvents.purge)
+   *
+   * @param string $parent Required. The resource name of the event_store under
+   * which the events are created. The format is `projects/${projectId}/locations/
+   * global/catalogs/${catalogId}/eventStores/${eventStoreId}`
+   * @param GoogleCloudRecommendationengineV1beta1PurgeUserEventsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function purge($parent, GoogleCloudRecommendationengineV1beta1PurgeUserEventsRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('purge', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Triggers a user event rejoin operation with latest catalog data. Events will
+   * not be annotated with detailed catalog information if catalog item is missing
+   * at the time the user event is ingested, and these events are stored as
+   * unjoined events with a limited usage on training and serving. This API can be
+   * used to trigger a 'join' operation on specified events with latest version of
+   * catalog items. It can also be used to correct events joined with wrong
+   * catalog items. (userEvents.rejoin)
+   *
+   * @param string $parent Required. Full resource name of user event, such as `pr
+   * ojects/locations/catalogs/default_catalog/eventStores/default_event_store`.
+   * @param GoogleCloudRecommendationengineV1beta1RejoinUserEventsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function rejoin($parent, GoogleCloudRecommendationengineV1beta1RejoinUserEventsRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('rejoin', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Writes a single user event. (userEvents.write)
+   *
+   * @param string $parent Required. The parent eventStore resource name, such as
+   * "projects/1234/locations/global/catalogs/default_catalog/eventStores/default_
+   * event_store".
+   * @param GoogleCloudRecommendationengineV1beta1UserEvent $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudRecommendationengineV1beta1UserEvent
+   */
+  public function write($parent, GoogleCloudRecommendationengineV1beta1UserEvent $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('write', [$params], GoogleCloudRecommendationengineV1beta1UserEvent::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsCatalogsEventStoresUserEvents::class, 'Google_Service_RecommendationsAI_Resource_ProjectsLocationsCatalogsEventStoresUserEvents');

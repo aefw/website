@@ -1,97 +1,947 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for SQLAdmin (v1beta4).
+ *
+ * <p>
+ * API for Cloud SQL database instance management</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://developers.google.com/cloud-sql/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class SQLAdmin extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+  /** Manage your Google SQL Service instances. */
+  const SQLSERVICE_ADMIN =
+      "https://www.googleapis.com/auth/sqlservice.admin";
+
+  public $backupRuns;
+  public $databases;
+  public $flags;
+  public $instances;
+  public $operations;
+  public $projects_instances;
+  public $sslCerts;
+  public $tiers;
+  public $users;
+
+  /**
+   * Constructs the internal representation of the SQLAdmin service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://sqladmin.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1beta4';
+    $this->serviceName = 'sqladmin';
+
+    $this->backupRuns = new SQLAdmin\Resource\BackupRuns(
+        $this,
+        $this->serviceName,
+        'backupRuns',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'sql/v1beta4/projects/{project}/instances/{instance}/backupRuns/{id}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instance' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'sql/v1beta4/projects/{project}/instances/{instance}/backupRuns/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instance' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'sql/v1beta4/projects/{project}/instances/{instance}/backupRuns',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instance' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'sql/v1beta4/projects/{project}/instances/{instance}/backupRuns',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instance' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->databases = new SQLAdmin\Resource\Databases(
+        $this,
+        $this->serviceName,
+        'databases',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'sql/v1beta4/projects/{project}/instances/{instance}/databases/{database}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instance' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'database' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'sql/v1beta4/projects/{project}/instances/{instance}/databases/{database}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instance' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'database' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'sql/v1beta4/projects/{project}/instances/{instance}/databases',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instance' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'sql/v1beta4/projects/{project}/instances/{instance}/databases',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instance' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'sql/v1beta4/projects/{project}/instances/{instance}/databases/{database}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instance' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'database' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'sql/v1beta4/projects/{project}/instances/{instance}/databases/{database}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instance' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'database' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->flags = new SQLAdmin\Resource\Flags(
+        $this,
+        $this->serviceName,
+        'flags',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'sql/v1beta4/flags',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'databaseVersion' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->instances = new SQLAdmin\Resource\Instances(
+        $this,
+        $this->serviceName,
+        'instances',
+        [
+          'methods' => [
+            'addServerCa' => [
+              'path' => 'sql/v1beta4/projects/{project}/instances/{instance}/addServerCa',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instance' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'clone' => [
+              'path' => 'sql/v1beta4/projects/{project}/instances/{instance}/clone',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instance' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'sql/v1beta4/projects/{project}/instances/{instance}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instance' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'demoteMaster' => [
+              'path' => 'sql/v1beta4/projects/{project}/instances/{instance}/demoteMaster',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instance' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'export' => [
+              'path' => 'sql/v1beta4/projects/{project}/instances/{instance}/export',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instance' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'failover' => [
+              'path' => 'sql/v1beta4/projects/{project}/instances/{instance}/failover',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instance' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'sql/v1beta4/projects/{project}/instances/{instance}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instance' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'import' => [
+              'path' => 'sql/v1beta4/projects/{project}/instances/{instance}/import',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instance' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'sql/v1beta4/projects/{project}/instances',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'sql/v1beta4/projects/{project}/instances',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'listServerCas' => [
+              'path' => 'sql/v1beta4/projects/{project}/instances/{instance}/listServerCas',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instance' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'sql/v1beta4/projects/{project}/instances/{instance}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instance' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'promoteReplica' => [
+              'path' => 'sql/v1beta4/projects/{project}/instances/{instance}/promoteReplica',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instance' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'resetSslConfig' => [
+              'path' => 'sql/v1beta4/projects/{project}/instances/{instance}/resetSslConfig',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instance' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'restart' => [
+              'path' => 'sql/v1beta4/projects/{project}/instances/{instance}/restart',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instance' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'restoreBackup' => [
+              'path' => 'sql/v1beta4/projects/{project}/instances/{instance}/restoreBackup',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instance' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'rotateServerCa' => [
+              'path' => 'sql/v1beta4/projects/{project}/instances/{instance}/rotateServerCa',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instance' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'startReplica' => [
+              'path' => 'sql/v1beta4/projects/{project}/instances/{instance}/startReplica',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instance' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'stopReplica' => [
+              'path' => 'sql/v1beta4/projects/{project}/instances/{instance}/stopReplica',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instance' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'truncateLog' => [
+              'path' => 'sql/v1beta4/projects/{project}/instances/{instance}/truncateLog',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instance' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'sql/v1beta4/projects/{project}/instances/{instance}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instance' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->operations = new SQLAdmin\Resource\Operations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'sql/v1beta4/projects/{project}/operations/{operation}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'operation' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'sql/v1beta4/projects/{project}/operations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instance' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_instances = new SQLAdmin\Resource\ProjectsInstances(
+        $this,
+        $this->serviceName,
+        'instances',
+        [
+          'methods' => [
+            'rescheduleMaintenance' => [
+              'path' => 'sql/v1beta4/projects/{project}/instances/{instance}/rescheduleMaintenance',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instance' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'startExternalSync' => [
+              'path' => 'sql/v1beta4/projects/{project}/instances/{instance}/startExternalSync',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instance' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'skipVerification' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'syncMode' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'verifyExternalSyncSettings' => [
+              'path' => 'sql/v1beta4/projects/{project}/instances/{instance}/verifyExternalSyncSettings',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instance' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'syncMode' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'verifyConnectionOnly' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->sslCerts = new SQLAdmin\Resource\SslCerts(
+        $this,
+        $this->serviceName,
+        'sslCerts',
+        [
+          'methods' => [
+            'createEphemeral' => [
+              'path' => 'sql/v1beta4/projects/{project}/instances/{instance}/createEphemeral',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instance' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'sql/v1beta4/projects/{project}/instances/{instance}/sslCerts/{sha1Fingerprint}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instance' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'sha1Fingerprint' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'sql/v1beta4/projects/{project}/instances/{instance}/sslCerts/{sha1Fingerprint}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instance' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'sha1Fingerprint' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'sql/v1beta4/projects/{project}/instances/{instance}/sslCerts',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instance' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'sql/v1beta4/projects/{project}/instances/{instance}/sslCerts',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instance' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->tiers = new SQLAdmin\Resource\Tiers(
+        $this,
+        $this->serviceName,
+        'tiers',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'sql/v1beta4/projects/{project}/tiers',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->users = new SQLAdmin\Resource\Users(
+        $this,
+        $this->serviceName,
+        'users',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'sql/v1beta4/projects/{project}/instances/{instance}/users',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instance' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'host' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'name' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'sql/v1beta4/projects/{project}/instances/{instance}/users',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instance' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'sql/v1beta4/projects/{project}/instances/{instance}/users',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instance' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'sql/v1beta4/projects/{project}/instances/{instance}/users',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instance' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'host' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'name' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(SQLAdmin::class, 'Google_Service_SQLAdmin');

@@ -1,111 +1,586 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-bcL3fI+qBXACnm==
+<?php
+
+namespace PhpOffice\PhpSpreadsheet\Worksheet;
+
+use PhpOffice\PhpSpreadsheet\Shared\PasswordHasher;
+
+class Protection
+{
+    /**
+     * Sheet.
+     *
+     * @var bool
+     */
+    private $sheet = false;
+
+    /**
+     * Objects.
+     *
+     * @var bool
+     */
+    private $objects = false;
+
+    /**
+     * Scenarios.
+     *
+     * @var bool
+     */
+    private $scenarios = false;
+
+    /**
+     * Format cells.
+     *
+     * @var bool
+     */
+    private $formatCells = false;
+
+    /**
+     * Format columns.
+     *
+     * @var bool
+     */
+    private $formatColumns = false;
+
+    /**
+     * Format rows.
+     *
+     * @var bool
+     */
+    private $formatRows = false;
+
+    /**
+     * Insert columns.
+     *
+     * @var bool
+     */
+    private $insertColumns = false;
+
+    /**
+     * Insert rows.
+     *
+     * @var bool
+     */
+    private $insertRows = false;
+
+    /**
+     * Insert hyperlinks.
+     *
+     * @var bool
+     */
+    private $insertHyperlinks = false;
+
+    /**
+     * Delete columns.
+     *
+     * @var bool
+     */
+    private $deleteColumns = false;
+
+    /**
+     * Delete rows.
+     *
+     * @var bool
+     */
+    private $deleteRows = false;
+
+    /**
+     * Select locked cells.
+     *
+     * @var bool
+     */
+    private $selectLockedCells = false;
+
+    /**
+     * Sort.
+     *
+     * @var bool
+     */
+    private $sort = false;
+
+    /**
+     * AutoFilter.
+     *
+     * @var bool
+     */
+    private $autoFilter = false;
+
+    /**
+     * Pivot tables.
+     *
+     * @var bool
+     */
+    private $pivotTables = false;
+
+    /**
+     * Select unlocked cells.
+     *
+     * @var bool
+     */
+    private $selectUnlockedCells = false;
+
+    /**
+     * Password.
+     *
+     * @var string
+     */
+    private $password = '';
+
+    /**
+     * Create a new Protection.
+     */
+    public function __construct()
+    {
+    }
+
+    /**
+     * Is some sort of protection enabled?
+     *
+     * @return bool
+     */
+    public function isProtectionEnabled()
+    {
+        return $this->sheet ||
+            $this->objects ||
+            $this->scenarios ||
+            $this->formatCells ||
+            $this->formatColumns ||
+            $this->formatRows ||
+            $this->insertColumns ||
+            $this->insertRows ||
+            $this->insertHyperlinks ||
+            $this->deleteColumns ||
+            $this->deleteRows ||
+            $this->selectLockedCells ||
+            $this->sort ||
+            $this->autoFilter ||
+            $this->pivotTables ||
+            $this->selectUnlockedCells;
+    }
+
+    /**
+     * Get Sheet.
+     *
+     * @return bool
+     */
+    public function getSheet()
+    {
+        return $this->sheet;
+    }
+
+    /**
+     * Set Sheet.
+     *
+     * @param bool $pValue
+     *
+     * @return Protection
+     */
+    public function setSheet($pValue)
+    {
+        $this->sheet = $pValue;
+
+        return $this;
+    }
+
+    /**
+     * Get Objects.
+     *
+     * @return bool
+     */
+    public function getObjects()
+    {
+        return $this->objects;
+    }
+
+    /**
+     * Set Objects.
+     *
+     * @param bool $pValue
+     *
+     * @return Protection
+     */
+    public function setObjects($pValue)
+    {
+        $this->objects = $pValue;
+
+        return $this;
+    }
+
+    /**
+     * Get Scenarios.
+     *
+     * @return bool
+     */
+    public function getScenarios()
+    {
+        return $this->scenarios;
+    }
+
+    /**
+     * Set Scenarios.
+     *
+     * @param bool $pValue
+     *
+     * @return Protection
+     */
+    public function setScenarios($pValue)
+    {
+        $this->scenarios = $pValue;
+
+        return $this;
+    }
+
+    /**
+     * Get FormatCells.
+     *
+     * @return bool
+     */
+    public function getFormatCells()
+    {
+        return $this->formatCells;
+    }
+
+    /**
+     * Set FormatCells.
+     *
+     * @param bool $pValue
+     *
+     * @return Protection
+     */
+    public function setFormatCells($pValue)
+    {
+        $this->formatCells = $pValue;
+
+        return $this;
+    }
+
+    /**
+     * Get FormatColumns.
+     *
+     * @return bool
+     */
+    public function getFormatColumns()
+    {
+        return $this->formatColumns;
+    }
+
+    /**
+     * Set FormatColumns.
+     *
+     * @param bool $pValue
+     *
+     * @return Protection
+     */
+    public function setFormatColumns($pValue)
+    {
+        $this->formatColumns = $pValue;
+
+        return $this;
+    }
+
+    /**
+     * Get FormatRows.
+     *
+     * @return bool
+     */
+    public function getFormatRows()
+    {
+        return $this->formatRows;
+    }
+
+    /**
+     * Set FormatRows.
+     *
+     * @param bool $pValue
+     *
+     * @return Protection
+     */
+    public function setFormatRows($pValue)
+    {
+        $this->formatRows = $pValue;
+
+        return $this;
+    }
+
+    /**
+     * Get InsertColumns.
+     *
+     * @return bool
+     */
+    public function getInsertColumns()
+    {
+        return $this->insertColumns;
+    }
+
+    /**
+     * Set InsertColumns.
+     *
+     * @param bool $pValue
+     *
+     * @return Protection
+     */
+    public function setInsertColumns($pValue)
+    {
+        $this->insertColumns = $pValue;
+
+        return $this;
+    }
+
+    /**
+     * Get InsertRows.
+     *
+     * @return bool
+     */
+    public function getInsertRows()
+    {
+        return $this->insertRows;
+    }
+
+    /**
+     * Set InsertRows.
+     *
+     * @param bool $pValue
+     *
+     * @return Protection
+     */
+    public function setInsertRows($pValue)
+    {
+        $this->insertRows = $pValue;
+
+        return $this;
+    }
+
+    /**
+     * Get InsertHyperlinks.
+     *
+     * @return bool
+     */
+    public function getInsertHyperlinks()
+    {
+        return $this->insertHyperlinks;
+    }
+
+    /**
+     * Set InsertHyperlinks.
+     *
+     * @param bool $pValue
+     *
+     * @return Protection
+     */
+    public function setInsertHyperlinks($pValue)
+    {
+        $this->insertHyperlinks = $pValue;
+
+        return $this;
+    }
+
+    /**
+     * Get DeleteColumns.
+     *
+     * @return bool
+     */
+    public function getDeleteColumns()
+    {
+        return $this->deleteColumns;
+    }
+
+    /**
+     * Set DeleteColumns.
+     *
+     * @param bool $pValue
+     *
+     * @return Protection
+     */
+    public function setDeleteColumns($pValue)
+    {
+        $this->deleteColumns = $pValue;
+
+        return $this;
+    }
+
+    /**
+     * Get DeleteRows.
+     *
+     * @return bool
+     */
+    public function getDeleteRows()
+    {
+        return $this->deleteRows;
+    }
+
+    /**
+     * Set DeleteRows.
+     *
+     * @param bool $pValue
+     *
+     * @return Protection
+     */
+    public function setDeleteRows($pValue)
+    {
+        $this->deleteRows = $pValue;
+
+        return $this;
+    }
+
+    /**
+     * Get SelectLockedCells.
+     *
+     * @return bool
+     */
+    public function getSelectLockedCells()
+    {
+        return $this->selectLockedCells;
+    }
+
+    /**
+     * Set SelectLockedCells.
+     *
+     * @param bool $pValue
+     *
+     * @return Protection
+     */
+    public function setSelectLockedCells($pValue)
+    {
+        $this->selectLockedCells = $pValue;
+
+        return $this;
+    }
+
+    /**
+     * Get Sort.
+     *
+     * @return bool
+     */
+    public function getSort()
+    {
+        return $this->sort;
+    }
+
+    /**
+     * Set Sort.
+     *
+     * @param bool $pValue
+     *
+     * @return Protection
+     */
+    public function setSort($pValue)
+    {
+        $this->sort = $pValue;
+
+        return $this;
+    }
+
+    /**
+     * Get AutoFilter.
+     *
+     * @return bool
+     */
+    public function getAutoFilter()
+    {
+        return $this->autoFilter;
+    }
+
+    /**
+     * Set AutoFilter.
+     *
+     * @param bool $pValue
+     *
+     * @return Protection
+     */
+    public function setAutoFilter($pValue)
+    {
+        $this->autoFilter = $pValue;
+
+        return $this;
+    }
+
+    /**
+     * Get PivotTables.
+     *
+     * @return bool
+     */
+    public function getPivotTables()
+    {
+        return $this->pivotTables;
+    }
+
+    /**
+     * Set PivotTables.
+     *
+     * @param bool $pValue
+     *
+     * @return Protection
+     */
+    public function setPivotTables($pValue)
+    {
+        $this->pivotTables = $pValue;
+
+        return $this;
+    }
+
+    /**
+     * Get SelectUnlockedCells.
+     *
+     * @return bool
+     */
+    public function getSelectUnlockedCells()
+    {
+        return $this->selectUnlockedCells;
+    }
+
+    /**
+     * Set SelectUnlockedCells.
+     *
+     * @param bool $pValue
+     *
+     * @return Protection
+     */
+    public function setSelectUnlockedCells($pValue)
+    {
+        $this->selectUnlockedCells = $pValue;
+
+        return $this;
+    }
+
+    /**
+     * Get Password (hashed).
+     *
+     * @return string
+     */
+    public function getPassword()
+    {
+        return $this->password;
+    }
+
+    /**
+     * Set Password.
+     *
+     * @param string $pValue
+     * @param bool $pAlreadyHashed If the password has already been hashed, set this to true
+     *
+     * @return Protection
+     */
+    public function setPassword($pValue, $pAlreadyHashed = false)
+    {
+        if (!$pAlreadyHashed) {
+            $pValue = PasswordHasher::hashPassword($pValue);
+        }
+        $this->password = $pValue;
+
+        return $this;
+    }
+
+    /**
+     * Implement PHP __clone to create a deep clone, not just a shallow copy.
+     */
+    public function __clone()
+    {
+        $vars = get_object_vars($this);
+        foreach ($vars as $key => $value) {
+            if (is_object($value)) {
+                $this->$key = clone $value;
+            } else {
+                $this->$key = $value;
+            }
+        }
+    }
+}

@@ -1,71 +1,99 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-z4jbhRSQbyx4
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dataproc;
+
+class BatchOperationMetadata extends \Google\Collection
+{
+  protected $collection_key = 'warnings';
+  public $batch;
+  public $batchUuid;
+  public $createTime;
+  public $description;
+  public $doneTime;
+  public $labels;
+  public $operationType;
+  public $warnings;
+
+  public function setBatch($batch)
+  {
+    $this->batch = $batch;
+  }
+  public function getBatch()
+  {
+    return $this->batch;
+  }
+  public function setBatchUuid($batchUuid)
+  {
+    $this->batchUuid = $batchUuid;
+  }
+  public function getBatchUuid()
+  {
+    return $this->batchUuid;
+  }
+  public function setCreateTime($createTime)
+  {
+    $this->createTime = $createTime;
+  }
+  public function getCreateTime()
+  {
+    return $this->createTime;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setDoneTime($doneTime)
+  {
+    $this->doneTime = $doneTime;
+  }
+  public function getDoneTime()
+  {
+    return $this->doneTime;
+  }
+  public function setLabels($labels)
+  {
+    $this->labels = $labels;
+  }
+  public function getLabels()
+  {
+    return $this->labels;
+  }
+  public function setOperationType($operationType)
+  {
+    $this->operationType = $operationType;
+  }
+  public function getOperationType()
+  {
+    return $this->operationType;
+  }
+  public function setWarnings($warnings)
+  {
+    $this->warnings = $warnings;
+  }
+  public function getWarnings()
+  {
+    return $this->warnings;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(BatchOperationMetadata::class, 'Google_Service_Dataproc_BatchOperationMetadata');

@@ -1,110 +1,141 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php declare(strict_types=1);
+
+/*
+ * This file is part of the Monolog package.
+ *
+ * (c) Jordi Boggiano <j.boggiano@seld.be>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Monolog\Formatter;
+
+use MongoDB\BSON\UTCDateTime;
+use Monolog\Utils;
+
+/**
+ * Formats a record for use with the MongoDBHandler.
+ *
+ * @author Florian Plattner <me@florianplattner.de>
+ */
+class MongoDBFormatter implements FormatterInterface
+{
+    private $exceptionTraceAsString;
+    private $maxNestingLevel;
+    private $isLegacyMongoExt;
+
+    /**
+     * @param int  $maxNestingLevel        0 means infinite nesting, the $record itself is level 1, $record['context'] is 2
+     * @param bool $exceptionTraceAsString set to false to log exception traces as a sub documents instead of strings
+     */
+    public function __construct(int $maxNestingLevel = 3, bool $exceptionTraceAsString = true)
+    {
+        $this->maxNestingLevel = max($maxNestingLevel, 0);
+        $this->exceptionTraceAsString = $exceptionTraceAsString;
+
+        $this->isLegacyMongoExt = extension_loaded('mongodb') && version_compare(phpversion('mongodb'), '1.1.9', '<=');
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function format(array $record): array
+    {
+        return $this->formatArray($record);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function formatBatch(array $records): array
+    {
+        foreach ($records as $key => $record) {
+            $records[$key] = $this->format($record);
+        }
+
+        return $records;
+    }
+
+    /**
+     * @return array|string Array except when max nesting level is reached then a string "[...]"
+     */
+    protected function formatArray(array $record, int $nestingLevel = 0)
+    {
+        if ($this->maxNestingLevel == 0 || $nestingLevel <= $this->maxNestingLevel) {
+            foreach ($record as $name => $value) {
+                if ($value instanceof \DateTimeInterface) {
+                    $record[$name] = $this->formatDate($value, $nestingLevel + 1);
+                } elseif ($value instanceof \Throwable) {
+                    $record[$name] = $this->formatException($value, $nestingLevel + 1);
+                } elseif (is_array($value)) {
+                    $record[$name] = $this->formatArray($value, $nestingLevel + 1);
+                } elseif (is_object($value)) {
+                    $record[$name] = $this->formatObject($value, $nestingLevel + 1);
+                }
+            }
+        } else {
+            $record = '[...]';
+        }
+
+        return $record;
+    }
+
+    protected function formatObject($value, int $nestingLevel)
+    {
+        $objectVars = get_object_vars($value);
+        $objectVars['class'] = Utils::getClass($value);
+
+        return $this->formatArray($objectVars, $nestingLevel);
+    }
+
+    protected function formatException(\Throwable $exception, int $nestingLevel)
+    {
+        $formattedException = [
+            'class' => Utils::getClass($exception),
+            'message' => $exception->getMessage(),
+            'code' => (int) $exception->getCode(),
+            'file' => $exception->getFile() . ':' . $exception->getLine(),
+        ];
+
+        if ($this->exceptionTraceAsString === true) {
+            $formattedException['trace'] = $exception->getTraceAsString();
+        } else {
+            $formattedException['trace'] = $exception->getTrace();
+        }
+
+        return $this->formatArray($formattedException, $nestingLevel);
+    }
+
+    protected function formatDate(\DateTimeInterface $value, int $nestingLevel): UTCDateTime
+    {
+        if ($this->isLegacyMongoExt) {
+            return $this->legacyGetMongoDbDateTime($value);
+        }
+
+        return $this->getMongoDbDateTime($value);
+    }
+
+    private function getMongoDbDateTime(\DateTimeInterface $value): UTCDateTime
+    {
+        return new UTCDateTime((int) floor(((float) $value->format('U.u')) * 1000));
+    }
+
+    /**
+     * This is needed to support MongoDB Driver v1.19 and below
+     *
+     * See https://github.com/mongodb/mongo-php-driver/issues/426
+     *
+     * It can probably be removed in 2.1 or later once MongoDB's 1.2 is released and widely adopted
+     */
+    private function legacyGetMongoDbDateTime(\DateTimeInterface $value): UTCDateTime
+    {
+        $milliseconds = floor(((float) $value->format('U.u')) * 1000);
+
+        $milliseconds = (PHP_INT_SIZE == 8) //64-bit OS?
+            ? (int) $milliseconds
+            : (string) $milliseconds;
+
+        return new UTCDateTime($milliseconds);
+    }
+}

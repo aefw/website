@@ -1,73 +1,154 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dns\Resource;
+
+use Google\Service\Dns\ManagedZone;
+use Google\Service\Dns\ManagedZonesListResponse;
+use Google\Service\Dns\Operation;
+
+/**
+ * The "managedZones" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $dnsService = new Google\Service\Dns(...);
+ *   $managedZones = $dnsService->managedZones;
+ *  </code>
+ */
+class ManagedZones extends \Google\Service\Resource
+{
+  /**
+   * Creates a new ManagedZone. (managedZones.create)
+   *
+   * @param string $project Identifies the project addressed by this request.
+   * @param ManagedZone $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string clientOperationId For mutating operation requests only. An
+   * optional identifier specified by the client. Must be unique for operation
+   * resources in the Operations collection.
+   * @return ManagedZone
+   */
+  public function create($project, ManagedZone $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], ManagedZone::class);
+  }
+  /**
+   * Deletes a previously created ManagedZone. (managedZones.delete)
+   *
+   * @param string $project Identifies the project addressed by this request.
+   * @param string $managedZone Identifies the managed zone addressed by this
+   * request. Can be the managed zone name or ID.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string clientOperationId For mutating operation requests only. An
+   * optional identifier specified by the client. Must be unique for operation
+   * resources in the Operations collection.
+   */
+  public function delete($project, $managedZone, $optParams = [])
+  {
+    $params = ['project' => $project, 'managedZone' => $managedZone];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Fetches the representation of an existing ManagedZone. (managedZones.get)
+   *
+   * @param string $project Identifies the project addressed by this request.
+   * @param string $managedZone Identifies the managed zone addressed by this
+   * request. Can be the managed zone name or ID.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string clientOperationId For mutating operation requests only. An
+   * optional identifier specified by the client. Must be unique for operation
+   * resources in the Operations collection.
+   * @return ManagedZone
+   */
+  public function get($project, $managedZone, $optParams = [])
+  {
+    $params = ['project' => $project, 'managedZone' => $managedZone];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], ManagedZone::class);
+  }
+  /**
+   * Enumerates ManagedZones that have been created but not yet deleted.
+   * (managedZones.listManagedZones)
+   *
+   * @param string $project Identifies the project addressed by this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string dnsName Restricts the list to return only zones with this
+   * domain name.
+   * @opt_param int maxResults Optional. Maximum number of results to be returned.
+   * If unspecified, the server decides how many results to return.
+   * @opt_param string pageToken Optional. A tag returned by a previous list
+   * request that was truncated. Use this parameter to continue a previous list
+   * request.
+   * @return ManagedZonesListResponse
+   */
+  public function listManagedZones($project, $optParams = [])
+  {
+    $params = ['project' => $project];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ManagedZonesListResponse::class);
+  }
+  /**
+   * Applies a partial update to an existing ManagedZone. (managedZones.patch)
+   *
+   * @param string $project Identifies the project addressed by this request.
+   * @param string $managedZone Identifies the managed zone addressed by this
+   * request. Can be the managed zone name or ID.
+   * @param ManagedZone $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string clientOperationId For mutating operation requests only. An
+   * optional identifier specified by the client. Must be unique for operation
+   * resources in the Operations collection.
+   * @return Operation
+   */
+  public function patch($project, $managedZone, ManagedZone $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'managedZone' => $managedZone, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+  /**
+   * Updates an existing ManagedZone. (managedZones.update)
+   *
+   * @param string $project Identifies the project addressed by this request.
+   * @param string $managedZone Identifies the managed zone addressed by this
+   * request. Can be the managed zone name or ID.
+   * @param ManagedZone $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string clientOperationId For mutating operation requests only. An
+   * optional identifier specified by the client. Must be unique for operation
+   * resources in the Operations collection.
+   * @return Operation
+   */
+  public function update($project, $managedZone, ManagedZone $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'managedZone' => $managedZone, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ManagedZones::class, 'Google_Service_Dns_Resource_ManagedZones');

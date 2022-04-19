@@ -1,67 +1,129 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudHealthcare\Resource;
+
+use Google\Service\CloudHealthcare\ConsentArtifact;
+use Google\Service\CloudHealthcare\HealthcareEmpty;
+use Google\Service\CloudHealthcare\ListConsentArtifactsResponse;
+
+/**
+ * The "consentArtifacts" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $healthcareService = new Google\Service\CloudHealthcare(...);
+ *   $consentArtifacts = $healthcareService->consentArtifacts;
+ *  </code>
+ */
+class ProjectsLocationsDatasetsConsentStoresConsentArtifacts extends \Google\Service\Resource
+{
+  /**
+   * Creates a new Consent artifact in the parent consent store.
+   * (consentArtifacts.create)
+   *
+   * @param string $parent Required. The name of the consent store this Consent
+   * artifact belongs to.
+   * @param ConsentArtifact $postBody
+   * @param array $optParams Optional parameters.
+   * @return ConsentArtifact
+   */
+  public function create($parent, ConsentArtifact $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], ConsentArtifact::class);
+  }
+  /**
+   * Deletes the specified Consent artifact. Fails if the artifact is referenced
+   * by the latest revision of any Consent. (consentArtifacts.delete)
+   *
+   * @param string $name Required. The resource name of the Consent artifact to
+   * delete. To preserve referential integrity, Consent artifacts referenced by
+   * the latest revision of a Consent cannot be deleted.
+   * @param array $optParams Optional parameters.
+   * @return HealthcareEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], HealthcareEmpty::class);
+  }
+  /**
+   * Gets the specified Consent artifact. (consentArtifacts.get)
+   *
+   * @param string $name Required. The resource name of the Consent artifact to
+   * retrieve.
+   * @param array $optParams Optional parameters.
+   * @return ConsentArtifact
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], ConsentArtifact::class);
+  }
+  /**
+   * Lists the Consent artifacts in the specified consent store.
+   * (consentArtifacts.listProjectsLocationsDatasetsConsentStoresConsentArtifacts)
+   *
+   * @param string $parent Required. Name of the consent store to retrieve consent
+   * artifacts from.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Optional. Restricts the artifacts returned to those
+   * matching a filter. The following syntax is available: * A string field value
+   * can be written as text inside quotation marks, for example `"query text"`.
+   * The only valid relational operation for text fields is equality (`=`), where
+   * text is searched within the field, rather than having the field be equal to
+   * the text. For example, `"Comment = great"` returns messages with `great` in
+   * the comment field. * A number field value can be written as an integer, a
+   * decimal, or an exponential. The valid relational operators for number fields
+   * are the equality operator (`=`), along with the less than/greater than
+   * operators (`<`, `<=`, `>`, `>=`). Note that there is no inequality (`!=`)
+   * operator. You can prepend the `NOT` operator to an expression to negate it. *
+   * A date field value must be written in `yyyy-mm-dd` form. Fields with date and
+   * time use the RFC3339 time format. Leading zeros are required for one-digit
+   * months and days. The valid relational operators for date fields are the
+   * equality operator (`=`) , along with the less than/greater than operators
+   * (`<`, `<=`, `>`, `>=`). Note that there is no inequality (`!=`) operator. You
+   * can prepend the `NOT` operator to an expression to negate it. * Multiple
+   * field query expressions can be combined in one query by adding `AND` or `OR`
+   * operators between the expressions. If a boolean operator appears within a
+   * quoted string, it is not treated as special, it's just another part of the
+   * character string to be matched. You can prepend the `NOT` operator to an
+   * expression to negate it. The fields available for filtering are: - user_id.
+   * For example, `filter=user_id=\"user123\"`. - consent_content_version -
+   * metadata. For example, `filter=Metadata(\"testkey\")=\"value\"` or
+   * `filter=HasMetadata(\"testkey\")`.
+   * @opt_param int pageSize Optional. Limit on the number of consent artifacts to
+   * return in a single response. If not specified, 100 is used. May not be larger
+   * than 1000.
+   * @opt_param string pageToken Optional. The next_page_token value returned from
+   * the previous List request, if any.
+   * @return ListConsentArtifactsResponse
+   */
+  public function listProjectsLocationsDatasetsConsentStoresConsentArtifacts($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListConsentArtifactsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsDatasetsConsentStoresConsentArtifacts::class, 'Google_Service_CloudHealthcare_Resource_ProjectsLocationsDatasetsConsentStoresConsentArtifacts');

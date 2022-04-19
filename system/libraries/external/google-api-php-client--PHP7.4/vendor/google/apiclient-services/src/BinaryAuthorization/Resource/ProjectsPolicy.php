@@ -1,60 +1,101 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\BinaryAuthorization\Resource;
+
+use Google\Service\BinaryAuthorization\IamPolicy;
+use Google\Service\BinaryAuthorization\SetIamPolicyRequest;
+use Google\Service\BinaryAuthorization\TestIamPermissionsRequest;
+use Google\Service\BinaryAuthorization\TestIamPermissionsResponse;
+
+/**
+ * The "policy" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $binaryauthorizationService = new Google\Service\BinaryAuthorization(...);
+ *   $policy = $binaryauthorizationService->policy;
+ *  </code>
+ */
+class ProjectsPolicy extends \Google\Service\Resource
+{
+  /**
+   * Gets the access control policy for a resource. Returns an empty policy if the
+   * resource exists and does not have a policy set. (policy.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int options.requestedPolicyVersion Optional. The policy format
+   * version to be returned. Valid values are 0, 1, and 3. Requests specifying an
+   * invalid value will be rejected. Requests for policies with any conditional
+   * bindings must specify version 3. Policies without any conditional bindings
+   * may specify any valid value or leave the field unset. To learn which
+   * resources support conditions in their IAM policies, see the [IAM
+   * documentation](https://cloud.google.com/iam/help/conditions/resource-
+   * policies).
+   * @return IamPolicy
+   */
+  public function getIamPolicy($resource, $optParams = [])
+  {
+    $params = ['resource' => $resource];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], IamPolicy::class);
+  }
+  /**
+   * Sets the access control policy on the specified resource. Replaces any
+   * existing policy. Can return `NOT_FOUND`, `INVALID_ARGUMENT`, and
+   * `PERMISSION_DENIED` errors. (policy.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return IamPolicy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], IamPolicy::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource. If the
+   * resource does not exist, this will return an empty set of permissions, not a
+   * `NOT_FOUND` error. Note: This operation is designed to be used for building
+   * permission-aware UIs and command-line tools, not for authorization checking.
+   * This operation may "fail open" without warning. (policy.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsPolicy::class, 'Google_Service_BinaryAuthorization_Resource_ProjectsPolicy');

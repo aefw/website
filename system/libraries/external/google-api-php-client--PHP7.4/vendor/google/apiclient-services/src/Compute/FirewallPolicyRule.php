@@ -1,84 +1,133 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-zgO=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute;
+
+class FirewallPolicyRule extends \Google\Collection
+{
+  protected $collection_key = 'targetServiceAccounts';
+  public $action;
+  public $description;
+  public $direction;
+  public $disabled;
+  public $enableLogging;
+  public $kind;
+  protected $matchType = FirewallPolicyRuleMatcher::class;
+  protected $matchDataType = '';
+  public $priority;
+  public $ruleTupleCount;
+  public $targetResources;
+  public $targetServiceAccounts;
+
+  public function setAction($action)
+  {
+    $this->action = $action;
+  }
+  public function getAction()
+  {
+    return $this->action;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setDirection($direction)
+  {
+    $this->direction = $direction;
+  }
+  public function getDirection()
+  {
+    return $this->direction;
+  }
+  public function setDisabled($disabled)
+  {
+    $this->disabled = $disabled;
+  }
+  public function getDisabled()
+  {
+    return $this->disabled;
+  }
+  public function setEnableLogging($enableLogging)
+  {
+    $this->enableLogging = $enableLogging;
+  }
+  public function getEnableLogging()
+  {
+    return $this->enableLogging;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  /**
+   * @param FirewallPolicyRuleMatcher
+   */
+  public function setMatch(FirewallPolicyRuleMatcher $match)
+  {
+    $this->match = $match;
+  }
+  /**
+   * @return FirewallPolicyRuleMatcher
+   */
+  public function getMatch()
+  {
+    return $this->match;
+  }
+  public function setPriority($priority)
+  {
+    $this->priority = $priority;
+  }
+  public function getPriority()
+  {
+    return $this->priority;
+  }
+  public function setRuleTupleCount($ruleTupleCount)
+  {
+    $this->ruleTupleCount = $ruleTupleCount;
+  }
+  public function getRuleTupleCount()
+  {
+    return $this->ruleTupleCount;
+  }
+  public function setTargetResources($targetResources)
+  {
+    $this->targetResources = $targetResources;
+  }
+  public function getTargetResources()
+  {
+    return $this->targetResources;
+  }
+  public function setTargetServiceAccounts($targetServiceAccounts)
+  {
+    $this->targetServiceAccounts = $targetServiceAccounts;
+  }
+  public function getTargetServiceAccounts()
+  {
+    return $this->targetServiceAccounts;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(FirewallPolicyRule::class, 'Google_Service_Compute_FirewallPolicyRule');

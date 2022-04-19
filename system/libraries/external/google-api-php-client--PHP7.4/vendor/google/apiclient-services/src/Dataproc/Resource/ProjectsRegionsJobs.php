@@ -1,100 +1,248 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-f3xReM46BmU3hnwegd94jxriqbAK
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dataproc\Resource;
+
+use Google\Service\Dataproc\CancelJobRequest;
+use Google\Service\Dataproc\DataprocEmpty;
+use Google\Service\Dataproc\GetIamPolicyRequest;
+use Google\Service\Dataproc\Job;
+use Google\Service\Dataproc\ListJobsResponse;
+use Google\Service\Dataproc\Operation;
+use Google\Service\Dataproc\Policy;
+use Google\Service\Dataproc\SetIamPolicyRequest;
+use Google\Service\Dataproc\SubmitJobRequest;
+use Google\Service\Dataproc\TestIamPermissionsRequest;
+use Google\Service\Dataproc\TestIamPermissionsResponse;
+
+/**
+ * The "jobs" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $dataprocService = new Google\Service\Dataproc(...);
+ *   $jobs = $dataprocService->jobs;
+ *  </code>
+ */
+class ProjectsRegionsJobs extends \Google\Service\Resource
+{
+  /**
+   * Starts a job cancellation request. To access the job resource after
+   * cancellation, call regions/{region}/jobs.list (https://cloud.google.com/datap
+   * roc/docs/reference/rest/v1/projects.regions.jobs/list) or
+   * regions/{region}/jobs.get (https://cloud.google.com/dataproc/docs/reference/r
+   * est/v1/projects.regions.jobs/get). (jobs.cancel)
+   *
+   * @param string $projectId Required. The ID of the Google Cloud Platform
+   * project that the job belongs to.
+   * @param string $region Required. The Dataproc region in which to handle the
+   * request.
+   * @param string $jobId Required. The job ID.
+   * @param CancelJobRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Job
+   */
+  public function cancel($projectId, $region, $jobId, CancelJobRequest $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'region' => $region, 'jobId' => $jobId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('cancel', [$params], Job::class);
+  }
+  /**
+   * Deletes the job from the project. If the job is active, the delete fails, and
+   * the response returns FAILED_PRECONDITION. (jobs.delete)
+   *
+   * @param string $projectId Required. The ID of the Google Cloud Platform
+   * project that the job belongs to.
+   * @param string $region Required. The Dataproc region in which to handle the
+   * request.
+   * @param string $jobId Required. The job ID.
+   * @param array $optParams Optional parameters.
+   * @return DataprocEmpty
+   */
+  public function delete($projectId, $region, $jobId, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'region' => $region, 'jobId' => $jobId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], DataprocEmpty::class);
+  }
+  /**
+   * Gets the resource representation for a job in a project. (jobs.get)
+   *
+   * @param string $projectId Required. The ID of the Google Cloud Platform
+   * project that the job belongs to.
+   * @param string $region Required. The Dataproc region in which to handle the
+   * request.
+   * @param string $jobId Required. The job ID.
+   * @param array $optParams Optional parameters.
+   * @return Job
+   */
+  public function get($projectId, $region, $jobId, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'region' => $region, 'jobId' => $jobId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Job::class);
+  }
+  /**
+   * Gets the access control policy for a resource. Returns an empty policy if the
+   * resource exists and does not have a policy set. (jobs.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param GetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function getIamPolicy($resource, GetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Lists regions/{region}/jobs in a project. (jobs.listProjectsRegionsJobs)
+   *
+   * @param string $projectId Required. The ID of the Google Cloud Platform
+   * project that the job belongs to.
+   * @param string $region Required. The Dataproc region in which to handle the
+   * request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string clusterName Optional. If set, the returned jobs list
+   * includes only jobs that were submitted to the named cluster.
+   * @opt_param string filter Optional. A filter constraining the jobs to list.
+   * Filters are case-sensitive and have the following syntax:field = value AND
+   * field = value ...where field is status.state or labels.[KEY], and [KEY] is a
+   * label key. value can be * to match all values. status.state can be either
+   * ACTIVE or NON_ACTIVE. Only the logical AND operator is supported; space-
+   * separated items are treated as having an implicit AND operator.Example
+   * filter:status.state = ACTIVE AND labels.env = staging AND labels.starred = *
+   * @opt_param string jobStateMatcher Optional. Specifies enumerated categories
+   * of jobs to list. (default = match ALL jobs).If filter is provided,
+   * jobStateMatcher will be ignored.
+   * @opt_param int pageSize Optional. The number of results to return in each
+   * response.
+   * @opt_param string pageToken Optional. The page token, returned by a previous
+   * call, to request the next page of results.
+   * @return ListJobsResponse
+   */
+  public function listProjectsRegionsJobs($projectId, $region, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'region' => $region];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListJobsResponse::class);
+  }
+  /**
+   * Updates a job in a project. (jobs.patch)
+   *
+   * @param string $projectId Required. The ID of the Google Cloud Platform
+   * project that the job belongs to.
+   * @param string $region Required. The Dataproc region in which to handle the
+   * request.
+   * @param string $jobId Required. The job ID.
+   * @param Job $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. Specifies the path, relative to Job,
+   * of the field to update. For example, to update the labels of a Job the
+   * update_mask parameter would be specified as labels, and the PATCH request
+   * body would specify the new value. *Note:* Currently, labels is the only field
+   * that can be updated.
+   * @return Job
+   */
+  public function patch($projectId, $region, $jobId, Job $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'region' => $region, 'jobId' => $jobId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Job::class);
+  }
+  /**
+   * Sets the access control policy on the specified resource. Replaces any
+   * existing policy.Can return NOT_FOUND, INVALID_ARGUMENT, and PERMISSION_DENIED
+   * errors. (jobs.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Submits a job to a cluster. (jobs.submit)
+   *
+   * @param string $projectId Required. The ID of the Google Cloud Platform
+   * project that the job belongs to.
+   * @param string $region Required. The Dataproc region in which to handle the
+   * request.
+   * @param SubmitJobRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Job
+   */
+  public function submit($projectId, $region, SubmitJobRequest $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'region' => $region, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('submit', [$params], Job::class);
+  }
+  /**
+   * Submits job to a cluster. (jobs.submitAsOperation)
+   *
+   * @param string $projectId Required. The ID of the Google Cloud Platform
+   * project that the job belongs to.
+   * @param string $region Required. The Dataproc region in which to handle the
+   * request.
+   * @param SubmitJobRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function submitAsOperation($projectId, $region, SubmitJobRequest $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'region' => $region, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('submitAsOperation', [$params], Operation::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource. If the
+   * resource does not exist, this will return an empty set of permissions, not a
+   * NOT_FOUND error.Note: This operation is designed to be used for building
+   * permission-aware UIs and command-line tools, not for authorization checking.
+   * This operation may "fail open" without warning. (jobs.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsRegionsJobs::class, 'Google_Service_Dataproc_Resource_ProjectsRegionsJobs');

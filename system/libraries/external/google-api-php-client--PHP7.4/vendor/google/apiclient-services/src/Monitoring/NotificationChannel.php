@@ -1,79 +1,131 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Monitoring;
+
+class NotificationChannel extends \Google\Collection
+{
+  protected $collection_key = 'mutationRecords';
+  protected $creationRecordType = MutationRecord::class;
+  protected $creationRecordDataType = '';
+  public $description;
+  public $displayName;
+  public $enabled;
+  public $labels;
+  protected $mutationRecordsType = MutationRecord::class;
+  protected $mutationRecordsDataType = 'array';
+  public $name;
+  public $type;
+  public $userLabels;
+  public $verificationStatus;
+
+  /**
+   * @param MutationRecord
+   */
+  public function setCreationRecord(MutationRecord $creationRecord)
+  {
+    $this->creationRecord = $creationRecord;
+  }
+  /**
+   * @return MutationRecord
+   */
+  public function getCreationRecord()
+  {
+    return $this->creationRecord;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setDisplayName($displayName)
+  {
+    $this->displayName = $displayName;
+  }
+  public function getDisplayName()
+  {
+    return $this->displayName;
+  }
+  public function setEnabled($enabled)
+  {
+    $this->enabled = $enabled;
+  }
+  public function getEnabled()
+  {
+    return $this->enabled;
+  }
+  public function setLabels($labels)
+  {
+    $this->labels = $labels;
+  }
+  public function getLabels()
+  {
+    return $this->labels;
+  }
+  /**
+   * @param MutationRecord[]
+   */
+  public function setMutationRecords($mutationRecords)
+  {
+    $this->mutationRecords = $mutationRecords;
+  }
+  /**
+   * @return MutationRecord[]
+   */
+  public function getMutationRecords()
+  {
+    return $this->mutationRecords;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setType($type)
+  {
+    $this->type = $type;
+  }
+  public function getType()
+  {
+    return $this->type;
+  }
+  public function setUserLabels($userLabels)
+  {
+    $this->userLabels = $userLabels;
+  }
+  public function getUserLabels()
+  {
+    return $this->userLabels;
+  }
+  public function setVerificationStatus($verificationStatus)
+  {
+    $this->verificationStatus = $verificationStatus;
+  }
+  public function getVerificationStatus()
+  {
+    return $this->verificationStatus;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(NotificationChannel::class, 'Google_Service_Monitoring_NotificationChannel');

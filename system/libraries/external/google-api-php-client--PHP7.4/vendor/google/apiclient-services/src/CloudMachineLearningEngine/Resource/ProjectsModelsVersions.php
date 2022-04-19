@@ -1,77 +1,166 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-xtZRCxoXDb7tXW==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudMachineLearningEngine\Resource;
+
+use Google\Service\CloudMachineLearningEngine\GoogleCloudMlV1ListVersionsResponse;
+use Google\Service\CloudMachineLearningEngine\GoogleCloudMlV1SetDefaultVersionRequest;
+use Google\Service\CloudMachineLearningEngine\GoogleCloudMlV1Version;
+use Google\Service\CloudMachineLearningEngine\GoogleLongrunningOperation;
+
+/**
+ * The "versions" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $mlService = new Google\Service\CloudMachineLearningEngine(...);
+ *   $versions = $mlService->versions;
+ *  </code>
+ */
+class ProjectsModelsVersions extends \Google\Service\Resource
+{
+  /**
+   * Creates a new version of a model from a trained TensorFlow model. If the
+   * version created in the cloud by this call is the first deployed version of
+   * the specified model, it will be made the default version of the model. When
+   * you add a version to a model that already has one or more versions, the
+   * default version does not automatically change. If you want a new version to
+   * be the default, you must call projects.models.versions.setDefault.
+   * (versions.create)
+   *
+   * @param string $parent Required. The name of the model.
+   * @param GoogleCloudMlV1Version $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function create($parent, GoogleCloudMlV1Version $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Deletes a model version. Each model can have multiple versions deployed and
+   * in use at any given time. Use this method to remove a single version. Note:
+   * You cannot delete the version that is set as the default version of the model
+   * unless it is the only remaining version. (versions.delete)
+   *
+   * @param string $name Required. The name of the version. You can get the names
+   * of all the versions of a model by calling projects.models.versions.list.
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Gets information about a model version. Models can have multiple versions.
+   * You can call projects.models.versions.list to get the same information that
+   * this method returns for all of the versions of a model. (versions.get)
+   *
+   * @param string $name Required. The name of the version.
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudMlV1Version
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudMlV1Version::class);
+  }
+  /**
+   * Gets basic information about all the versions of a model. If you expect that
+   * a model has many versions, or if you need to handle only a limited number of
+   * results at a time, you can request that the list be retrieved in batches
+   * (called pages). If there are no versions that match the request parameters,
+   * the list request returns an empty response body: {}.
+   * (versions.listProjectsModelsVersions)
+   *
+   * @param string $parent Required. The name of the model for which to list the
+   * version.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Optional. Specifies the subset of versions to
+   * retrieve.
+   * @opt_param int pageSize Optional. The number of versions to retrieve per
+   * "page" of results. If there are more remaining results than this number, the
+   * response message will contain a valid value in the `next_page_token` field.
+   * The default value is 20, and the maximum page size is 100.
+   * @opt_param string pageToken Optional. A page token to request the next page
+   * of results. You get the token from the `next_page_token` field of the
+   * response from the previous call.
+   * @return GoogleCloudMlV1ListVersionsResponse
+   */
+  public function listProjectsModelsVersions($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleCloudMlV1ListVersionsResponse::class);
+  }
+  /**
+   * Updates the specified Version resource. Currently the only update-able fields
+   * are `description`, `requestLoggingConfig`, `autoScaling.minNodes`, and
+   * `manualScaling.nodes`. (versions.patch)
+   *
+   * @param string $name Required. The name of the model.
+   * @param GoogleCloudMlV1Version $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. Specifies the path, relative to
+   * `Version`, of the field to update. Must be present and non-empty. For
+   * example, to change the description of a version to "foo", the `update_mask`
+   * parameter would be specified as `description`, and the `PATCH` request body
+   * would specify the new value, as follows: ``` { "description": "foo" } ```
+   * Currently the only supported update mask fields are `description`,
+   * `requestLoggingConfig`, `autoScaling.minNodes`, and `manualScaling.nodes`.
+   * However, you can only update `manualScaling.nodes` if the version uses a
+   * [Compute Engine (N1) machine type](/ml-engine/docs/machine-types-online-
+   * prediction).
+   * @return GoogleLongrunningOperation
+   */
+  public function patch($name, GoogleCloudMlV1Version $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Designates a version to be the default for the model. The default version is
+   * used for prediction requests made against the model that don't specify a
+   * version. The first version to be created for a model is automatically set as
+   * the default. You must make any subsequent changes to the default version
+   * setting manually using this method. (versions.setDefault)
+   *
+   * @param string $name Required. The name of the version to make the default for
+   * the model. You can get the names of all the versions of a model by calling
+   * projects.models.versions.list.
+   * @param GoogleCloudMlV1SetDefaultVersionRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudMlV1Version
+   */
+  public function setDefault($name, GoogleCloudMlV1SetDefaultVersionRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setDefault', [$params], GoogleCloudMlV1Version::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsModelsVersions::class, 'Google_Service_CloudMachineLearningEngine_Resource_ProjectsModelsVersions');

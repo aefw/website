@@ -1,103 +1,219 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+/**
+ * Curves over a*x^2 + y^2 = 1 + d*x^2*y^2
+ *
+ * http://www.secg.org/SEC2-Ver-1.0.pdf provides for curves with custom parameters.
+ * ie. the coefficients can be arbitrary set through specially formatted keys, etc.
+ * As such, Prime.php is built very generically and it's not able to take full
+ * advantage of curves with 0 coefficients to produce simplified point doubling,
+ * point addition. Twisted Edwards curves, in contrast, do not have a way, currently,
+ * to customize them. As such, we can omit the super generic stuff from this class
+ * and let the named curves (Ed25519 and Ed448) define their own custom tailored
+ * point addition and point doubling methods.
+ *
+ * More info:
+ *
+ * https://en.wikipedia.org/wiki/Twisted_Edwards_curve
+ *
+ * PHP version 5 and 7
+ *
+ * @category  Crypt
+ * @package   EC
+ * @author    Jim Wigginton <terrafrost@php.net>
+ * @copyright 2017 Jim Wigginton
+ * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      http://pear.php.net/package/Math_BigInteger
+ */
+
+namespace phpseclib3\Crypt\EC\BaseCurves;
+
+use phpseclib3\Math\PrimeField;
+use phpseclib3\Math\BigInteger;
+use phpseclib3\Math\PrimeField\Integer as PrimeInteger;
+
+/**
+ * Curves over a*x^2 + y^2 = 1 + d*x^2*y^2
+ *
+ * @package Prime
+ * @author  Jim Wigginton <terrafrost@php.net>
+ * @access  public
+ */
+class TwistedEdwards extends Base
+{
+    /**
+     * The modulo
+     *
+     * @var BigInteger
+     */
+    protected $modulo;
+
+    /**
+     * Cofficient for x^2
+     *
+     * @var object
+     */
+    protected $a;
+
+    /**
+     * Cofficient for x^2*y^2
+     *
+     * @var object
+     */
+    protected $d;
+
+    /**
+     * Base Point
+     *
+     * @var object[]
+     */
+    protected $p;
+
+    /**
+     * The number zero over the specified finite field
+     *
+     * @var object
+     */
+    protected $zero;
+
+    /**
+     * The number one over the specified finite field
+     *
+     * @var object
+     */
+    protected $one;
+
+    /**
+     * The number two over the specified finite field
+     *
+     * @var object
+     */
+    protected $two;
+
+    /**
+     * Sets the modulo
+     */
+    public function setModulo(BigInteger $modulo)
+    {
+        $this->modulo = $modulo;
+        $this->factory = new PrimeField($modulo);
+        $this->zero = $this->factory->newInteger(new BigInteger(0));
+        $this->one = $this->factory->newInteger(new BigInteger(1));
+        $this->two = $this->factory->newInteger(new BigInteger(2));
+    }
+
+    /**
+     * Set coefficients a and b
+     */
+    public function setCoefficients(BigInteger $a, BigInteger $d)
+    {
+        if (!isset($this->factory)) {
+            throw new \RuntimeException('setModulo needs to be called before this method');
+        }
+        $this->a = $this->factory->newInteger($a);
+        $this->d = $this->factory->newInteger($d);
+    }
+
+    /**
+     * Set x and y coordinates for the base point
+     */
+    public function setBasePoint($x, $y)
+    {
+        switch (true) {
+            case !$x instanceof BigInteger && !$x instanceof PrimeInteger:
+                throw new \UnexpectedValueException('Argument 1 passed to Prime::setBasePoint() must be an instance of either BigInteger or PrimeField\Integer');
+            case !$y instanceof BigInteger && !$y instanceof PrimeInteger:
+                throw new \UnexpectedValueException('Argument 2 passed to Prime::setBasePoint() must be an instance of either BigInteger or PrimeField\Integer');
+        }
+        if (!isset($this->factory)) {
+            throw new \RuntimeException('setModulo needs to be called before this method');
+        }
+        $this->p = [
+            $x instanceof BigInteger ? $this->factory->newInteger($x) : $x,
+            $y instanceof BigInteger ? $this->factory->newInteger($y) : $y
+        ];
+    }
+
+    /**
+     * Returns the a coefficient
+     *
+     * @return \phpseclib3\Math\PrimeField\Integer
+     */
+    public function getA()
+    {
+        return $this->a;
+    }
+
+    /**
+     * Returns the a coefficient
+     *
+     * @return \phpseclib3\Math\PrimeField\Integer
+     */
+    public function getD()
+    {
+        return $this->d;
+    }
+
+    /**
+     * Retrieve the base point as an array
+     *
+     * @return array
+     */
+    public function getBasePoint()
+    {
+        if (!isset($this->factory)) {
+            throw new \RuntimeException('setModulo needs to be called before this method');
+        }
+        /*
+        if (!isset($this->p)) {
+            throw new \RuntimeException('setBasePoint needs to be called before this method');
+        }
+        */
+        return $this->p;
+    }
+
+    /**
+     * Returns the affine point
+     *
+     * @return \phpseclib3\Math\PrimeField\Integer[]
+     */
+    public function convertToAffine(array $p)
+    {
+        if (!isset($p[2])) {
+            return $p;
+        }
+        list($x, $y, $z) = $p;
+        $z = $this->one->divide($z);
+        return [
+            $x->multiply($z),
+            $y->multiply($z)
+        ];
+    }
+
+    /**
+     * Returns the modulo
+     *
+     * @return \phpseclib3\Math\BigInteger
+     */
+    public function getModulo()
+    {
+        return $this->modulo;
+    }
+
+    /**
+     * Tests whether or not the x / y values satisfy the equation
+     *
+     * @return boolean
+     */
+    public function verifyPoint(array $p)
+    {
+        list($x, $y) = $p;
+        $x2 = $x->multiply($x);
+        $y2 = $y->multiply($y);
+
+        $lhs = $this->a->multiply($x2)->add($y2);
+        $rhs = $this->d->multiply($x2)->multiply($y2)->add($this->one);
+
+        return $lhs->equals($rhs);
+    }
+}

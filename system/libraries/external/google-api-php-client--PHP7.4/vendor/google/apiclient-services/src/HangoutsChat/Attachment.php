@@ -1,69 +1,112 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\HangoutsChat;
+
+class Attachment extends \Google\Model
+{
+  protected $attachmentDataRefType = AttachmentDataRef::class;
+  protected $attachmentDataRefDataType = '';
+  public $contentName;
+  public $contentType;
+  public $downloadUri;
+  protected $driveDataRefType = DriveDataRef::class;
+  protected $driveDataRefDataType = '';
+  public $name;
+  public $source;
+  public $thumbnailUri;
+
+  /**
+   * @param AttachmentDataRef
+   */
+  public function setAttachmentDataRef(AttachmentDataRef $attachmentDataRef)
+  {
+    $this->attachmentDataRef = $attachmentDataRef;
+  }
+  /**
+   * @return AttachmentDataRef
+   */
+  public function getAttachmentDataRef()
+  {
+    return $this->attachmentDataRef;
+  }
+  public function setContentName($contentName)
+  {
+    $this->contentName = $contentName;
+  }
+  public function getContentName()
+  {
+    return $this->contentName;
+  }
+  public function setContentType($contentType)
+  {
+    $this->contentType = $contentType;
+  }
+  public function getContentType()
+  {
+    return $this->contentType;
+  }
+  public function setDownloadUri($downloadUri)
+  {
+    $this->downloadUri = $downloadUri;
+  }
+  public function getDownloadUri()
+  {
+    return $this->downloadUri;
+  }
+  /**
+   * @param DriveDataRef
+   */
+  public function setDriveDataRef(DriveDataRef $driveDataRef)
+  {
+    $this->driveDataRef = $driveDataRef;
+  }
+  /**
+   * @return DriveDataRef
+   */
+  public function getDriveDataRef()
+  {
+    return $this->driveDataRef;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setSource($source)
+  {
+    $this->source = $source;
+  }
+  public function getSource()
+  {
+    return $this->source;
+  }
+  public function setThumbnailUri($thumbnailUri)
+  {
+    $this->thumbnailUri = $thumbnailUri;
+  }
+  public function getThumbnailUri()
+  {
+    return $this->thumbnailUri;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Attachment::class, 'Google_Service_HangoutsChat_Attachment');

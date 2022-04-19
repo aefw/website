@@ -1,66 +1,89 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-pRnalk0JwP67O4gphGuL71y=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Sheets;
+
+class GridProperties extends \Google\Model
+{
+  public $columnCount;
+  public $columnGroupControlAfter;
+  public $frozenColumnCount;
+  public $frozenRowCount;
+  public $hideGridlines;
+  public $rowCount;
+  public $rowGroupControlAfter;
+
+  public function setColumnCount($columnCount)
+  {
+    $this->columnCount = $columnCount;
+  }
+  public function getColumnCount()
+  {
+    return $this->columnCount;
+  }
+  public function setColumnGroupControlAfter($columnGroupControlAfter)
+  {
+    $this->columnGroupControlAfter = $columnGroupControlAfter;
+  }
+  public function getColumnGroupControlAfter()
+  {
+    return $this->columnGroupControlAfter;
+  }
+  public function setFrozenColumnCount($frozenColumnCount)
+  {
+    $this->frozenColumnCount = $frozenColumnCount;
+  }
+  public function getFrozenColumnCount()
+  {
+    return $this->frozenColumnCount;
+  }
+  public function setFrozenRowCount($frozenRowCount)
+  {
+    $this->frozenRowCount = $frozenRowCount;
+  }
+  public function getFrozenRowCount()
+  {
+    return $this->frozenRowCount;
+  }
+  public function setHideGridlines($hideGridlines)
+  {
+    $this->hideGridlines = $hideGridlines;
+  }
+  public function getHideGridlines()
+  {
+    return $this->hideGridlines;
+  }
+  public function setRowCount($rowCount)
+  {
+    $this->rowCount = $rowCount;
+  }
+  public function getRowCount()
+  {
+    return $this->rowCount;
+  }
+  public function setRowGroupControlAfter($rowGroupControlAfter)
+  {
+    $this->rowGroupControlAfter = $rowGroupControlAfter;
+  }
+  public function getRowGroupControlAfter()
+  {
+    return $this->rowGroupControlAfter;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GridProperties::class, 'Google_Service_Sheets_GridProperties');

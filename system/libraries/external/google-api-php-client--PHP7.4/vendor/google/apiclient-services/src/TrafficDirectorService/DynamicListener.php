@@ -1,63 +1,99 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-1hZI4GNO3p7BYdO2OqNt6XtqlU3I6pi=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\TrafficDirectorService;
+
+class DynamicListener extends \Google\Model
+{
+  protected $activeStateType = DynamicListenerState::class;
+  protected $activeStateDataType = '';
+  protected $drainingStateType = DynamicListenerState::class;
+  protected $drainingStateDataType = '';
+  protected $errorStateType = UpdateFailureState::class;
+  protected $errorStateDataType = '';
+  public $name;
+  protected $warmingStateType = DynamicListenerState::class;
+  protected $warmingStateDataType = '';
+
+  /**
+   * @param DynamicListenerState
+   */
+  public function setActiveState(DynamicListenerState $activeState)
+  {
+    $this->activeState = $activeState;
+  }
+  /**
+   * @return DynamicListenerState
+   */
+  public function getActiveState()
+  {
+    return $this->activeState;
+  }
+  /**
+   * @param DynamicListenerState
+   */
+  public function setDrainingState(DynamicListenerState $drainingState)
+  {
+    $this->drainingState = $drainingState;
+  }
+  /**
+   * @return DynamicListenerState
+   */
+  public function getDrainingState()
+  {
+    return $this->drainingState;
+  }
+  /**
+   * @param UpdateFailureState
+   */
+  public function setErrorState(UpdateFailureState $errorState)
+  {
+    $this->errorState = $errorState;
+  }
+  /**
+   * @return UpdateFailureState
+   */
+  public function getErrorState()
+  {
+    return $this->errorState;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  /**
+   * @param DynamicListenerState
+   */
+  public function setWarmingState(DynamicListenerState $warmingState)
+  {
+    $this->warmingState = $warmingState;
+  }
+  /**
+   * @return DynamicListenerState
+   */
+  public function getWarmingState()
+  {
+    return $this->warmingState;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(DynamicListener::class, 'Google_Service_TrafficDirectorService_DynamicListener');

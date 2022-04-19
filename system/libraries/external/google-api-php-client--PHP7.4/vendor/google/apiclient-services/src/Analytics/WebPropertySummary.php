@@ -1,71 +1,106 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-bvuj
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Analytics;
+
+class WebPropertySummary extends \Google\Collection
+{
+  protected $collection_key = 'profiles';
+  public $id;
+  public $internalWebPropertyId;
+  public $kind;
+  public $level;
+  public $name;
+  protected $profilesType = ProfileSummary::class;
+  protected $profilesDataType = 'array';
+  public $starred;
+  public $websiteUrl;
+
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setInternalWebPropertyId($internalWebPropertyId)
+  {
+    $this->internalWebPropertyId = $internalWebPropertyId;
+  }
+  public function getInternalWebPropertyId()
+  {
+    return $this->internalWebPropertyId;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setLevel($level)
+  {
+    $this->level = $level;
+  }
+  public function getLevel()
+  {
+    return $this->level;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  /**
+   * @param ProfileSummary[]
+   */
+  public function setProfiles($profiles)
+  {
+    $this->profiles = $profiles;
+  }
+  /**
+   * @return ProfileSummary[]
+   */
+  public function getProfiles()
+  {
+    return $this->profiles;
+  }
+  public function setStarred($starred)
+  {
+    $this->starred = $starred;
+  }
+  public function getStarred()
+  {
+    return $this->starred;
+  }
+  public function setWebsiteUrl($websiteUrl)
+  {
+    $this->websiteUrl = $websiteUrl;
+  }
+  public function getWebsiteUrl()
+  {
+    return $this->websiteUrl;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(WebPropertySummary::class, 'Google_Service_Analytics_WebPropertySummary');

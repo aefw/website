@@ -1,82 +1,546 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for RealTimeBidding (v1).
+ *
+ * <p>
+ * Allows external bidders to manage their RTB integration with Google. This
+ * includes managing bidder endpoints, QPS quotas, configuring what ad inventory
+ * to receive via pretargeting, submitting creatives for verification, and
+ * accessing creative metadata such as approval status.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://developers.google.com/authorized-buyers/apis/realtimebidding/reference/rest/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class RealTimeBidding extends \Google\Service
+{
+  /** See, create, edit, and delete your Authorized Buyers and Open Bidding account entities. */
+  const REALTIME_BIDDING =
+      "https://www.googleapis.com/auth/realtime-bidding";
+
+  public $bidders;
+  public $bidders_creatives;
+  public $bidders_endpoints;
+  public $bidders_pretargetingConfigs;
+  public $buyers;
+  public $buyers_creatives;
+  public $buyers_userLists;
+
+  /**
+   * Constructs the internal representation of the RealTimeBidding service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://realtimebidding.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'realtimebidding';
+
+    $this->bidders = new RealTimeBidding\Resource\Bidders(
+        $this,
+        $this->serviceName,
+        'bidders',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/bidders',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->bidders_creatives = new RealTimeBidding\Resource\BiddersCreatives(
+        $this,
+        $this->serviceName,
+        'creatives',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/{+parent}/creatives',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'watch' => [
+              'path' => 'v1/{+parent}/creatives:watch',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->bidders_endpoints = new RealTimeBidding\Resource\BiddersEndpoints(
+        $this,
+        $this->serviceName,
+        'endpoints',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/endpoints',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->bidders_pretargetingConfigs = new RealTimeBidding\Resource\BiddersPretargetingConfigs(
+        $this,
+        $this->serviceName,
+        'pretargetingConfigs',
+        [
+          'methods' => [
+            'activate' => [
+              'path' => 'v1/{+name}:activate',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'addTargetedApps' => [
+              'path' => 'v1/{+pretargetingConfig}:addTargetedApps',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'pretargetingConfig' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'addTargetedPublishers' => [
+              'path' => 'v1/{+pretargetingConfig}:addTargetedPublishers',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'pretargetingConfig' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'addTargetedSites' => [
+              'path' => 'v1/{+pretargetingConfig}:addTargetedSites',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'pretargetingConfig' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1/{+parent}/pretargetingConfigs',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/pretargetingConfigs',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'removeTargetedApps' => [
+              'path' => 'v1/{+pretargetingConfig}:removeTargetedApps',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'pretargetingConfig' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'removeTargetedPublishers' => [
+              'path' => 'v1/{+pretargetingConfig}:removeTargetedPublishers',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'pretargetingConfig' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'removeTargetedSites' => [
+              'path' => 'v1/{+pretargetingConfig}:removeTargetedSites',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'pretargetingConfig' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'suspend' => [
+              'path' => 'v1/{+name}:suspend',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->buyers = new RealTimeBidding\Resource\Buyers(
+        $this,
+        $this->serviceName,
+        'buyers',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getRemarketingTag' => [
+              'path' => 'v1/{+name}:getRemarketingTag',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/buyers',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->buyers_creatives = new RealTimeBidding\Resource\BuyersCreatives(
+        $this,
+        $this->serviceName,
+        'creatives',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/creatives',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/creatives',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->buyers_userLists = new RealTimeBidding\Resource\BuyersUserLists(
+        $this,
+        $this->serviceName,
+        'userLists',
+        [
+          'methods' => [
+            'close' => [
+              'path' => 'v1/{+name}:close',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1/{+parent}/userLists',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getRemarketingTag' => [
+              'path' => 'v1/{+name}:getRemarketingTag',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/userLists',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'open' => [
+              'path' => 'v1/{+name}:open',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(RealTimeBidding::class, 'Google_Service_RealTimeBidding');

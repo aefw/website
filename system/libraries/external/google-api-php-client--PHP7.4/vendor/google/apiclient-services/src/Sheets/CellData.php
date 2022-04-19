@@ -1,91 +1,198 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-P//jiJbCtx6bdN48pZApdO+ePTjef0==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Sheets;
+
+class CellData extends \Google\Collection
+{
+  protected $collection_key = 'textFormatRuns';
+  protected $dataSourceFormulaType = DataSourceFormula::class;
+  protected $dataSourceFormulaDataType = '';
+  protected $dataSourceTableType = DataSourceTable::class;
+  protected $dataSourceTableDataType = '';
+  protected $dataValidationType = DataValidationRule::class;
+  protected $dataValidationDataType = '';
+  protected $effectiveFormatType = CellFormat::class;
+  protected $effectiveFormatDataType = '';
+  protected $effectiveValueType = ExtendedValue::class;
+  protected $effectiveValueDataType = '';
+  public $formattedValue;
+  public $hyperlink;
+  public $note;
+  protected $pivotTableType = PivotTable::class;
+  protected $pivotTableDataType = '';
+  protected $textFormatRunsType = TextFormatRun::class;
+  protected $textFormatRunsDataType = 'array';
+  protected $userEnteredFormatType = CellFormat::class;
+  protected $userEnteredFormatDataType = '';
+  protected $userEnteredValueType = ExtendedValue::class;
+  protected $userEnteredValueDataType = '';
+
+  /**
+   * @param DataSourceFormula
+   */
+  public function setDataSourceFormula(DataSourceFormula $dataSourceFormula)
+  {
+    $this->dataSourceFormula = $dataSourceFormula;
+  }
+  /**
+   * @return DataSourceFormula
+   */
+  public function getDataSourceFormula()
+  {
+    return $this->dataSourceFormula;
+  }
+  /**
+   * @param DataSourceTable
+   */
+  public function setDataSourceTable(DataSourceTable $dataSourceTable)
+  {
+    $this->dataSourceTable = $dataSourceTable;
+  }
+  /**
+   * @return DataSourceTable
+   */
+  public function getDataSourceTable()
+  {
+    return $this->dataSourceTable;
+  }
+  /**
+   * @param DataValidationRule
+   */
+  public function setDataValidation(DataValidationRule $dataValidation)
+  {
+    $this->dataValidation = $dataValidation;
+  }
+  /**
+   * @return DataValidationRule
+   */
+  public function getDataValidation()
+  {
+    return $this->dataValidation;
+  }
+  /**
+   * @param CellFormat
+   */
+  public function setEffectiveFormat(CellFormat $effectiveFormat)
+  {
+    $this->effectiveFormat = $effectiveFormat;
+  }
+  /**
+   * @return CellFormat
+   */
+  public function getEffectiveFormat()
+  {
+    return $this->effectiveFormat;
+  }
+  /**
+   * @param ExtendedValue
+   */
+  public function setEffectiveValue(ExtendedValue $effectiveValue)
+  {
+    $this->effectiveValue = $effectiveValue;
+  }
+  /**
+   * @return ExtendedValue
+   */
+  public function getEffectiveValue()
+  {
+    return $this->effectiveValue;
+  }
+  public function setFormattedValue($formattedValue)
+  {
+    $this->formattedValue = $formattedValue;
+  }
+  public function getFormattedValue()
+  {
+    return $this->formattedValue;
+  }
+  public function setHyperlink($hyperlink)
+  {
+    $this->hyperlink = $hyperlink;
+  }
+  public function getHyperlink()
+  {
+    return $this->hyperlink;
+  }
+  public function setNote($note)
+  {
+    $this->note = $note;
+  }
+  public function getNote()
+  {
+    return $this->note;
+  }
+  /**
+   * @param PivotTable
+   */
+  public function setPivotTable(PivotTable $pivotTable)
+  {
+    $this->pivotTable = $pivotTable;
+  }
+  /**
+   * @return PivotTable
+   */
+  public function getPivotTable()
+  {
+    return $this->pivotTable;
+  }
+  /**
+   * @param TextFormatRun[]
+   */
+  public function setTextFormatRuns($textFormatRuns)
+  {
+    $this->textFormatRuns = $textFormatRuns;
+  }
+  /**
+   * @return TextFormatRun[]
+   */
+  public function getTextFormatRuns()
+  {
+    return $this->textFormatRuns;
+  }
+  /**
+   * @param CellFormat
+   */
+  public function setUserEnteredFormat(CellFormat $userEnteredFormat)
+  {
+    $this->userEnteredFormat = $userEnteredFormat;
+  }
+  /**
+   * @return CellFormat
+   */
+  public function getUserEnteredFormat()
+  {
+    return $this->userEnteredFormat;
+  }
+  /**
+   * @param ExtendedValue
+   */
+  public function setUserEnteredValue(ExtendedValue $userEnteredValue)
+  {
+    $this->userEnteredValue = $userEnteredValue;
+  }
+  /**
+   * @return ExtendedValue
+   */
+  public function getUserEnteredValue()
+  {
+    return $this->userEnteredValue;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(CellData::class, 'Google_Service_Sheets_CellData');

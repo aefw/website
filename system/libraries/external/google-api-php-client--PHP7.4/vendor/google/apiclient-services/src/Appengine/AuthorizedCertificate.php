@@ -1,76 +1,122 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Appengine;
+
+class AuthorizedCertificate extends \Google\Collection
+{
+  protected $collection_key = 'visibleDomainMappings';
+  protected $certificateRawDataType = CertificateRawData::class;
+  protected $certificateRawDataDataType = '';
+  public $displayName;
+  public $domainMappingsCount;
+  public $domainNames;
+  public $expireTime;
+  public $id;
+  protected $managedCertificateType = ManagedCertificate::class;
+  protected $managedCertificateDataType = '';
+  public $name;
+  public $visibleDomainMappings;
+
+  /**
+   * @param CertificateRawData
+   */
+  public function setCertificateRawData(CertificateRawData $certificateRawData)
+  {
+    $this->certificateRawData = $certificateRawData;
+  }
+  /**
+   * @return CertificateRawData
+   */
+  public function getCertificateRawData()
+  {
+    return $this->certificateRawData;
+  }
+  public function setDisplayName($displayName)
+  {
+    $this->displayName = $displayName;
+  }
+  public function getDisplayName()
+  {
+    return $this->displayName;
+  }
+  public function setDomainMappingsCount($domainMappingsCount)
+  {
+    $this->domainMappingsCount = $domainMappingsCount;
+  }
+  public function getDomainMappingsCount()
+  {
+    return $this->domainMappingsCount;
+  }
+  public function setDomainNames($domainNames)
+  {
+    $this->domainNames = $domainNames;
+  }
+  public function getDomainNames()
+  {
+    return $this->domainNames;
+  }
+  public function setExpireTime($expireTime)
+  {
+    $this->expireTime = $expireTime;
+  }
+  public function getExpireTime()
+  {
+    return $this->expireTime;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  /**
+   * @param ManagedCertificate
+   */
+  public function setManagedCertificate(ManagedCertificate $managedCertificate)
+  {
+    $this->managedCertificate = $managedCertificate;
+  }
+  /**
+   * @return ManagedCertificate
+   */
+  public function getManagedCertificate()
+  {
+    return $this->managedCertificate;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setVisibleDomainMappings($visibleDomainMappings)
+  {
+    $this->visibleDomainMappings = $visibleDomainMappings;
+  }
+  public function getVisibleDomainMappings()
+  {
+    return $this->visibleDomainMappings;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AuthorizedCertificate::class, 'Google_Service_Appengine_AuthorizedCertificate');

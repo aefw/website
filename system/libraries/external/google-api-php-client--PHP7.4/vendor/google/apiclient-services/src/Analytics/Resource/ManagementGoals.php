@@ -1,75 +1,128 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-1W==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Analytics\Resource;
+
+use Google\Service\Analytics\Goal;
+use Google\Service\Analytics\Goals;
+
+/**
+ * The "goals" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $analyticsService = new Google\Service\Analytics(...);
+ *   $goals = $analyticsService->goals;
+ *  </code>
+ */
+class ManagementGoals extends \Google\Service\Resource
+{
+  /**
+   * Gets a goal to which the user has access. (goals.get)
+   *
+   * @param string $accountId Account ID to retrieve the goal for.
+   * @param string $webPropertyId Web property ID to retrieve the goal for.
+   * @param string $profileId View (Profile) ID to retrieve the goal for.
+   * @param string $goalId Goal ID to retrieve the goal for.
+   * @param array $optParams Optional parameters.
+   * @return Goal
+   */
+  public function get($accountId, $webPropertyId, $profileId, $goalId, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId, 'goalId' => $goalId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Goal::class);
+  }
+  /**
+   * Create a new goal. (goals.insert)
+   *
+   * @param string $accountId Account ID to create the goal for.
+   * @param string $webPropertyId Web property ID to create the goal for.
+   * @param string $profileId View (Profile) ID to create the goal for.
+   * @param Goal $postBody
+   * @param array $optParams Optional parameters.
+   * @return Goal
+   */
+  public function insert($accountId, $webPropertyId, $profileId, Goal $postBody, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Goal::class);
+  }
+  /**
+   * Lists goals to which the user has access. (goals.listManagementGoals)
+   *
+   * @param string $accountId Account ID to retrieve goals for. Can either be a
+   * specific account ID or '~all', which refers to all the accounts that user has
+   * access to.
+   * @param string $webPropertyId Web property ID to retrieve goals for. Can
+   * either be a specific web property ID or '~all', which refers to all the web
+   * properties that user has access to.
+   * @param string $profileId View (Profile) ID to retrieve goals for. Can either
+   * be a specific view (profile) ID or '~all', which refers to all the views
+   * (profiles) that user has access to.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int max-results The maximum number of goals to include in this
+   * response.
+   * @opt_param int start-index An index of the first goal to retrieve. Use this
+   * parameter as a pagination mechanism along with the max-results parameter.
+   * @return Goals
+   */
+  public function listManagementGoals($accountId, $webPropertyId, $profileId, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], Goals::class);
+  }
+  /**
+   * Updates an existing goal. This method supports patch semantics. (goals.patch)
+   *
+   * @param string $accountId Account ID to update the goal.
+   * @param string $webPropertyId Web property ID to update the goal.
+   * @param string $profileId View (Profile) ID to update the goal.
+   * @param string $goalId Index of the goal to be updated.
+   * @param Goal $postBody
+   * @param array $optParams Optional parameters.
+   * @return Goal
+   */
+  public function patch($accountId, $webPropertyId, $profileId, $goalId, Goal $postBody, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId, 'goalId' => $goalId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Goal::class);
+  }
+  /**
+   * Updates an existing goal. (goals.update)
+   *
+   * @param string $accountId Account ID to update the goal.
+   * @param string $webPropertyId Web property ID to update the goal.
+   * @param string $profileId View (Profile) ID to update the goal.
+   * @param string $goalId Index of the goal to be updated.
+   * @param Goal $postBody
+   * @param array $optParams Optional parameters.
+   * @return Goal
+   */
+  public function update($accountId, $webPropertyId, $profileId, $goalId, Goal $postBody, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId, 'goalId' => $goalId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Goal::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ManagementGoals::class, 'Google_Service_Analytics_Resource_ManagementGoals');

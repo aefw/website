@@ -1,71 +1,111 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPqKUcgeXpNwDJD4FYNlxpEuFSGjvPCFI8wl8y9rFQyApr0tuiB6eLXyrivP0K4w7Bfhx3gNc
-DMohuPSwb6EUVFpQxaCi24EIDW/cjr8m/J2OxYiB7gfYqikg2anvbQOjIF1zU6gczHwchSxR1jKh
-ir0ofOIoDnO/wkuq1EfcyL5obf71WzsRVo+WvhhyJ1s8LpjuXsHZ06+Wd20oc+AYaUhiMs3vUdGt
-BxjeQmL5ce5XL1+mjpyR1jOLRZ4HeCswTcaHaR/BtQlIQGQg/JxxLGaB++9mKourL8IeB86cFae5
-vLN/ss/xU2arkT8G3to8rC6f9O2BB9Iooc0Y9LLkQsAik9PQo2158awu9DHTWtlpfJvZXBgRHqMd
-EgapyxedYvYd8d7WlsKJUecNt8IAPh///V6UTsVBdHNsg3guIDFmo9VD4AOOZEnMr/cZjMSc3gGL
-eKE8GOfY4gE/SUNF8MUNG4PQEPc8WOEBmAuYl0kSe7eGQ8Kr8dvcc6wyUOq67vaLIZ1O+3MxjlD4
-9ltbK7ABsRr+qIiQspX1ILCAm0ONGl/5MKo6OuvceGiAvQfmwzajK2wsVZL5IZwH8LiPhAeVkrqn
-rJDM7POmMACqCLQxRS/5KTrvSOR0vjuNPH/uJ959SP53uP3/w/eWZm8fsC4FdAS5iKKCPvkJ1x9k
-ctvPT+QC8DFZxcRkqoSRukOMqc2Wy5cq33f/ui7BE3172iqbF/b4ILbtAcpuHLachc01+mRr2tEB
-vFeTIwcCDlmTTdXzC/8Ct+QQvK4wuwnvkGim4TD65AeLvGBhKOo060kC+t86a5WJkCcuaWOdBmGX
-IQN3/EIIRWAjloEjSxXtLIkSTgcA3ZVZc5QRWVaLY0IJrZ5jMtECoR2fkU8gXoyoO6hecEEw5SHN
-xQ16s44ncvqRdk7I8lDM6v2hPUpa71SNB1YMx3v7tdInYJ28Ymw8zW73jguw+5G/1ceYjGBzcGVD
-/rDt+GLg/JB7nYSAxHni7ONh6sx+5rUWNZadCOoX478gvcFJUCDCAR77wZQeu6GRn+eROrpaidpX
-DU9JgbSqZT9Ict1RWCKVEHclagOafmGWYX+SAjf/LBHIsne0hYvQ7kus6E5FxR3UkIL1lL0879f+
-MquRMvAwGQsTuH9bHynnE9vwMKW4A7cHKxovitjETmAv1Gx4PigDrQ0Z+npbTa2LLH6FP/mQ1a1l
-MzA1IiuXG2smLUu9yNlHbXcnzIDPrhMbdCVV+F7LfkEZw6msGxS8BKimHft/Qeo/7FLnnjAJxbZy
-ND2pGV1ZXySxuWHvOv91iz6NXAyV53zXGic+O2fiAZCa6C/oXP+o80/ldyrB5pkv/T3yvVtZqvIw
-TYZzNjdpKCaYhWnVBV+/pV2kR0r7JkdEG4pFoAOeESjWSP3GCtYW3TXVahSp1rYA7NFv3A+9NBTn
-i+5BtQZxQgiPP0NmRQBqo95eiVhkc4WYd18orzdGlInNvkcBwKAxtcFLtnd8mQzmPt+94gxcW50Q
-g5HQCkvb7REntuxoow209nL2TS1Ny0EQzgD+rfpowayoOhteBLkrBfHnhBYG3D93GM/GTdMZgbZN
-ZOhCsaIB9dOBWABOVzSJVB+NBfKG/W4opUo6vNo17iHGo45JbxdRuM03kffyT5qzf6KlhcjnuA9C
-P5CRICs01KLSMOpJOZ/PZ/pwLoWwa+bJJko1CPnLmiq1PQowxbBXi4GFgehhQKzzjejhMrMWIAMA
-8Hscdjy/lw6eIa/xLJDmFbp+rORSEyC3SLmIoBWmZ9YZXOvxSllK4Vr4FZZYnjrO2hKp9WPCInCO
-UrwuQYh1ixF+bD8G+TUyTGCfa3lfWxsKkjpCM8gElCpIydFbhCYKFLPJOtAwicAYRZCzWtaLCTnR
-Scs9HZjcTdVhB6hBKzfAPRnsx5TPThtamATVt2THbQk/ZLeB2O5S2pPvZzfA8Y3GSDI1xxoUEG+g
-JzfdHkdirjfkp1XAGVcyLg6J9c+3x6oA/WOnbZMD5AXtDQEY0N/+92mVcyVYpNtr5L6W0eMfq5qE
-rkFstUwN60YWRldmxEsYruYSscDzxhbDKzh+u/pMCAjMZ8m2z0lwIoUwB41+C/iT368xYdZyHNnA
-5lHWlYHPnkFkTrzi1FQypcl+i3Hj5HOb+wFCIIR7pWhQyZG2LQTiEb7F6NbWVba2dE1gQ/s92SMN
-QdqKuzKX/VqHoFntGndPYLvwj7qARHlGtOmhyboGuWY321+1lqWt1eouV8iDqBFVIUbP54HYaFNP
-BnqtTm4ghPQQ1J1AW7wdjRgcOFl/XqxLQX5NJLGrZePh+c8uu9YqSoWZfMmA3YqZw+Xmuo3EYZ0w
-pK9Y6CDB6YysasAewTMzurd9xSOVKexubfMB71bPnILvwmXNYB+LCoHElS8DT8ypBhMZ0V/iERVp
-HLEMbPyW0cewpPY9ZqYtPP51bcO+/w4Lqon8NqAnAyp+WVe6lOpo55/u8IxfiTowICrPgSc4CueY
-Vxeadype8cIgOGfdqFriWeX90uB1jIbLIg0TxMOMkIfWzqBS9XCpF+iYuHz8nUiBTj/+3Gw4VRbM
-4JdGjKet5fjuQ11uaBLoPfz0U1Oca0wDc7FadrubkdC028ICleXT0wGOPeHimX1jWpN0JOF6vp5L
-zAvUCqF0SRVZvrLMsPScnMCoeyWUWDEGfH1hh5kvOAr6AaO1Vtbs2vrn/q2xroTnieo/lPtkEIgk
-QEy8qHTwIpTjTZjoecO7HjNj6yOGoevz/tDLlDy+pNTFjs6Yg43wlQCQAI/eTeDeWn1WwNv8nS12
-IIp2/IerNFXmUv0vxWcHA9s3VwYHvQOumJCv4nHdWCeUvILLGqKd5/tCi3PoIDlsP6v5o4bz22Ol
-wt2qXy+rATYddCdmCL5y0ruApx2kEZWATQP5E8OLDCwTjaqmWdKWf4zq3WppchpP7lTXyk/vrsno
-m0fF9Vb6JLaajh+CGgP0+J6hslC0WJfHeC8LARd7OOy2wsXodh/GYVW21aSW52odqOhBk3iP/FZu
-LtaweB31BXZuX7jcz9uriRT6i10kaF3zJJ8uXIyJ4wWqiwnl5ANYCTETjGXBs0eoowFDVme+IjLS
-r8HR5bbKoZeLb2CDfxtU5fj/64qzaGQza3MbNmv3TCZeCVwKIpKeD36EA0aKB/m7Pv9hWcqAbU+U
-JR6AaN9bSlE9/s7JDynaUnT02TMl5i7D373IXtgj/CfZFrugyzYRt4y4mUi/hxQ9tWjDGMvsiNuK
-Hqmkt3v4OyidnMM+kSjIWvj2tNXlzBblKjOaSx3CGkae4CEEVvAvRIWCje5ddHn2d9oIf6HQbX3i
-gHtbiaaeW0VuanfSYdFpKJ04TSlWUHp73qqggSQCEHnysX7sCWvyY9HhhPhvKHKcduHqCKbhbWDd
-fXkZ2lHf3POJkndyQMvo89dhSRKC2O8SSwKq0bsJD12IWNOtFmCfyGqEbFf7lgpIb2rt6JExGgsp
-lLJkk/S6PNvgz65Hxz/xW4oNRyEN8bzbr5zgpXnOsYl+XJRwb/JsqR4ffxxiiwqVbo+3DsUZcnq2
-QqCmoaeJdNqb/1H6G8Len3dgk4uL0Fi19W7zDnqnbEp6mYCWTwqg8pOGA+K5khYlfCPMLT1QeIgA
-AiPSs0kQ8Fa47sIVSIPkTrA1BaKnaZhItImzEZFPJUZI3YwXB5xSs3H0NQd/kkNoKW1RAPhU0XLH
-g5G4bBvrTbLgXAogoXHCNFGsNSKEFI60l6/xzPedW+Odv17No585jZLkKQc0bXMUv/UjlqmPKTMV
-RRPVfcKOY/bKkYDtMwjdfHw6TE1sG10Cl/W09d5vMcW3qPwRFvnD/SyvBdMpGSvMKW8fpCmQt1QI
-YF5utNPzO068bbURNMZoAOXuw01cUwtZqHREuLqx/lmNtI9IgtKaQdht7+Lig+2Nya4Laok8fsC9
-7l8YuEiAVk15S7EcGUuRWRLCJfs3+pILkG0on4mYVFvL5xEbafMgB9boZPiBa+csIMpMs9Af1hyl
-albjG2bZiwSiZectULHbQh0lO+3q3Dh8mnD2jnuJau22SxmrSG+zOOnESpw4sNFzrVleCC2D/GDT
-rLCY/lw8vj7/D4MLQfL/rO3CJFc0qACslGf3nOHWvj69T7VWJ4S08uPrn43PDuiKZKJ/fMlzI//Q
-vvovEfeX5vlPw8Vf5Bz636l3AceqECwUAX/7UX/c+nz0ImHHwZ7BeGW7IZvH3WzSc36Foi6GSgMJ
-LqaNJQy27D0nZxbQdSNKgPSD/WHM6YKVGrE6MIGjZFCImZ5VcCR14x5xdbXaK+xJsLLVa+YfbsE/
-GjdXb6I414yMRt9LfQZkaW7bnAdBQ0H6SMwyuTrr+zMI2uMEeEppbXSspZLN3w+WtSIGfmiIjlyF
-f7o6AJD1cvKnr/fJAEqUvrbn5hJnmr4a2q3KwiY/FsiAUBncnNLN9ca6IyhA9tgw+TN/3+3b5b9G
-6e76QThTnrRjtGhUgHCbqptjXoM94VndHphRm0jQnVjZd7ZHFptK8Yc+wxQVy5Py75o3Rn6Szxw0
-gNsKwqkpd+CRmiWtr+SdplQsDexkpC1dQtONIRglj+AWCZCkRmYLHXgqHWswhlVkj+KpX3khovU4
-UpjcuBlVjeaLzp06Cuu/7b3SfHITdTpEpzX9jAIrQGERmC8NzjFSz3O6pkpHiZUPV3IcbXJfNUG3
-3xrkoTcuxB3fTOHZdnXzkGC9q/YcOmvPJF7HdtQBcN2nMlYiIqOosuwA0sLaQA/tME7ygiQGozhl
-y/XjkakPG2ZVMM33NRdH+b3YCJNwOVb6ih2QEG8EQUMfk6ZkTW2gMPQ60LHvFtYHCri2KfXu7WnC
-QiKvH4jO0MlYiFhW8uvIFOcvr3NUNNiN/cFttRjocqiS
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dfareporting;
+
+class ReportCrossDimensionReachCriteria extends \Google\Collection
+{
+  protected $collection_key = 'overlapMetricNames';
+  protected $breakdownType = SortedDimension::class;
+  protected $breakdownDataType = 'array';
+  protected $dateRangeType = DateRange::class;
+  protected $dateRangeDataType = '';
+  public $dimension;
+  protected $dimensionFiltersType = DimensionValue::class;
+  protected $dimensionFiltersDataType = 'array';
+  public $metricNames;
+  public $overlapMetricNames;
+  public $pivoted;
+
+  /**
+   * @param SortedDimension[]
+   */
+  public function setBreakdown($breakdown)
+  {
+    $this->breakdown = $breakdown;
+  }
+  /**
+   * @return SortedDimension[]
+   */
+  public function getBreakdown()
+  {
+    return $this->breakdown;
+  }
+  /**
+   * @param DateRange
+   */
+  public function setDateRange(DateRange $dateRange)
+  {
+    $this->dateRange = $dateRange;
+  }
+  /**
+   * @return DateRange
+   */
+  public function getDateRange()
+  {
+    return $this->dateRange;
+  }
+  public function setDimension($dimension)
+  {
+    $this->dimension = $dimension;
+  }
+  public function getDimension()
+  {
+    return $this->dimension;
+  }
+  /**
+   * @param DimensionValue[]
+   */
+  public function setDimensionFilters($dimensionFilters)
+  {
+    $this->dimensionFilters = $dimensionFilters;
+  }
+  /**
+   * @return DimensionValue[]
+   */
+  public function getDimensionFilters()
+  {
+    return $this->dimensionFilters;
+  }
+  public function setMetricNames($metricNames)
+  {
+    $this->metricNames = $metricNames;
+  }
+  public function getMetricNames()
+  {
+    return $this->metricNames;
+  }
+  public function setOverlapMetricNames($overlapMetricNames)
+  {
+    $this->overlapMetricNames = $overlapMetricNames;
+  }
+  public function getOverlapMetricNames()
+  {
+    return $this->overlapMetricNames;
+  }
+  public function setPivoted($pivoted)
+  {
+    $this->pivoted = $pivoted;
+  }
+  public function getPivoted()
+  {
+    return $this->pivoted;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ReportCrossDimensionReachCriteria::class, 'Google_Service_Dfareporting_ReportCrossDimensionReachCriteria');

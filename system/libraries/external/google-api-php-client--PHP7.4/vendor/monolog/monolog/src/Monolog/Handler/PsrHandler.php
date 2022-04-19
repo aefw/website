@@ -1,62 +1,97 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php declare(strict_types=1);
+
+/*
+ * This file is part of the Monolog package.
+ *
+ * (c) Jordi Boggiano <j.boggiano@seld.be>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Monolog\Handler;
+
+use Monolog\Logger;
+use Psr\Log\LoggerInterface;
+use Monolog\Formatter\FormatterInterface;
+
+/**
+ * Proxies log messages to an existing PSR-3 compliant logger.
+ *
+ * If a formatter is configured, the formatter's output MUST be a string and the
+ * formatted message will be fed to the wrapped PSR logger instead of the original
+ * log record's message.
+ *
+ * @author Michael Moussa <michael.moussa@gmail.com>
+ */
+class PsrHandler extends AbstractHandler implements FormattableHandlerInterface
+{
+    /**
+     * PSR-3 compliant logger
+     *
+     * @var LoggerInterface
+     */
+    protected $logger;
+
+    /**
+     * @var FormatterInterface|null
+     */
+    protected $formatter;
+
+    /**
+     * @param LoggerInterface $logger The underlying PSR-3 compliant logger to which messages will be proxied
+     * @param string|int      $level  The minimum logging level at which this handler will be triggered
+     * @param bool            $bubble Whether the messages that are handled can bubble up the stack or not
+     */
+    public function __construct(LoggerInterface $logger, $level = Logger::DEBUG, bool $bubble = true)
+    {
+        parent::__construct($level, $bubble);
+
+        $this->logger = $logger;
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function handle(array $record): bool
+    {
+        if (!$this->isHandling($record)) {
+            return false;
+        }
+
+        if ($this->formatter) {
+            $formatted = $this->formatter->format($record);
+            $this->logger->log(strtolower($record['level_name']), (string) $formatted, $record['context']);
+        } else {
+            $this->logger->log(strtolower($record['level_name']), $record['message'], $record['context']);
+        }
+
+        return false === $this->bubble;
+    }
+
+    /**
+     * Sets the formatter.
+     *
+     * @param FormatterInterface $formatter
+     */
+    public function setFormatter(FormatterInterface $formatter): HandlerInterface
+    {
+        $this->formatter = $formatter;
+
+        return $this;
+    }
+
+    /**
+     * Gets the formatter.
+     *
+     * @return FormatterInterface
+     */
+    public function getFormatter(): FormatterInterface
+    {
+        if (!$this->formatter) {
+            throw new \LogicException('No formatter has been set and this handler does not have a default formatter');
+        }
+
+        return $this->formatter;
+    }
+}

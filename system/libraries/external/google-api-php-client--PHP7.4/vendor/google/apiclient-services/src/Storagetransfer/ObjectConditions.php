@@ -1,63 +1,81 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Storagetransfer;
+
+class ObjectConditions extends \Google\Collection
+{
+  protected $collection_key = 'includePrefixes';
+  public $excludePrefixes;
+  public $includePrefixes;
+  public $lastModifiedBefore;
+  public $lastModifiedSince;
+  public $maxTimeElapsedSinceLastModification;
+  public $minTimeElapsedSinceLastModification;
+
+  public function setExcludePrefixes($excludePrefixes)
+  {
+    $this->excludePrefixes = $excludePrefixes;
+  }
+  public function getExcludePrefixes()
+  {
+    return $this->excludePrefixes;
+  }
+  public function setIncludePrefixes($includePrefixes)
+  {
+    $this->includePrefixes = $includePrefixes;
+  }
+  public function getIncludePrefixes()
+  {
+    return $this->includePrefixes;
+  }
+  public function setLastModifiedBefore($lastModifiedBefore)
+  {
+    $this->lastModifiedBefore = $lastModifiedBefore;
+  }
+  public function getLastModifiedBefore()
+  {
+    return $this->lastModifiedBefore;
+  }
+  public function setLastModifiedSince($lastModifiedSince)
+  {
+    $this->lastModifiedSince = $lastModifiedSince;
+  }
+  public function getLastModifiedSince()
+  {
+    return $this->lastModifiedSince;
+  }
+  public function setMaxTimeElapsedSinceLastModification($maxTimeElapsedSinceLastModification)
+  {
+    $this->maxTimeElapsedSinceLastModification = $maxTimeElapsedSinceLastModification;
+  }
+  public function getMaxTimeElapsedSinceLastModification()
+  {
+    return $this->maxTimeElapsedSinceLastModification;
+  }
+  public function setMinTimeElapsedSinceLastModification($minTimeElapsedSinceLastModification)
+  {
+    $this->minTimeElapsedSinceLastModification = $minTimeElapsedSinceLastModification;
+  }
+  public function getMinTimeElapsedSinceLastModification()
+  {
+    return $this->minTimeElapsedSinceLastModification;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ObjectConditions::class, 'Google_Service_Storagetransfer_ObjectConditions');

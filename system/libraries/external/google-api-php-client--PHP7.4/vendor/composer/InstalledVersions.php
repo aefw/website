@@ -1,150 +1,337 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-lsFpEQN7HzwnZ9cEiYm+aQm=
+<?php
+
+/*
+ * This file is part of Composer.
+ *
+ * (c) Nils Adermann <naderman@naderman.de>
+ *     Jordi Boggiano <j.boggiano@seld.be>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Composer;
+
+use Composer\Autoload\ClassLoader;
+use Composer\Semver\VersionParser;
+
+/**
+ * This class is copied in every Composer installed project and available to all
+ *
+ * See also https://getcomposer.org/doc/07-runtime.md#installed-versions
+ *
+ * To require it's presence, you can require `composer-runtime-api ^2.0`
+ */
+class InstalledVersions
+{
+    private static $installed;
+    private static $canGetVendors;
+    private static $installedByVendor = array();
+
+    /**
+     * Returns a list of all package names which are present, either by being installed, replaced or provided
+     *
+     * @return string[]
+     * @psalm-return list<string>
+     */
+    public static function getInstalledPackages()
+    {
+        $packages = array();
+        foreach (self::getInstalled() as $installed) {
+            $packages[] = array_keys($installed['versions']);
+        }
+
+        if (1 === \count($packages)) {
+            return $packages[0];
+        }
+
+        return array_keys(array_flip(\call_user_func_array('array_merge', $packages)));
+    }
+
+    /**
+     * Returns a list of all package names with a specific type e.g. 'library'
+     *
+     * @param  string   $type
+     * @return string[]
+     * @psalm-return list<string>
+     */
+    public static function getInstalledPackagesByType($type)
+    {
+        $packagesByType = array();
+
+        foreach (self::getInstalled() as $installed) {
+            foreach ($installed['versions'] as $name => $package) {
+                if (isset($package['type']) && $package['type'] === $type) {
+                    $packagesByType[] = $name;
+                }
+            }
+        }
+
+        return $packagesByType;
+    }
+
+    /**
+     * Checks whether the given package is installed
+     *
+     * This also returns true if the package name is provided or replaced by another package
+     *
+     * @param  string $packageName
+     * @param  bool   $includeDevRequirements
+     * @return bool
+     */
+    public static function isInstalled($packageName, $includeDevRequirements = true)
+    {
+        foreach (self::getInstalled() as $installed) {
+            if (isset($installed['versions'][$packageName])) {
+                return $includeDevRequirements || empty($installed['versions'][$packageName]['dev_requirement']);
+            }
+        }
+
+        return false;
+    }
+
+    /**
+     * Checks whether the given package satisfies a version constraint
+     *
+     * e.g. If you want to know whether version 2.3+ of package foo/bar is installed, you would call:
+     *
+     *   Composer\InstalledVersions::satisfies(new VersionParser, 'foo/bar', '^2.3')
+     *
+     * @param  VersionParser $parser      Install composer/semver to have access to this class and functionality
+     * @param  string        $packageName
+     * @param  string|null   $constraint  A version constraint to check for, if you pass one you have to make sure composer/semver is required by your package
+     * @return bool
+     */
+    public static function satisfies(VersionParser $parser, $packageName, $constraint)
+    {
+        $constraint = $parser->parseConstraints($constraint);
+        $provided = $parser->parseConstraints(self::getVersionRanges($packageName));
+
+        return $provided->matches($constraint);
+    }
+
+    /**
+     * Returns a version constraint representing all the range(s) which are installed for a given package
+     *
+     * It is easier to use this via isInstalled() with the $constraint argument if you need to check
+     * whether a given version of a package is installed, and not just whether it exists
+     *
+     * @param  string $packageName
+     * @return string Version constraint usable with composer/semver
+     */
+    public static function getVersionRanges($packageName)
+    {
+        foreach (self::getInstalled() as $installed) {
+            if (!isset($installed['versions'][$packageName])) {
+                continue;
+            }
+
+            $ranges = array();
+            if (isset($installed['versions'][$packageName]['pretty_version'])) {
+                $ranges[] = $installed['versions'][$packageName]['pretty_version'];
+            }
+            if (array_key_exists('aliases', $installed['versions'][$packageName])) {
+                $ranges = array_merge($ranges, $installed['versions'][$packageName]['aliases']);
+            }
+            if (array_key_exists('replaced', $installed['versions'][$packageName])) {
+                $ranges = array_merge($ranges, $installed['versions'][$packageName]['replaced']);
+            }
+            if (array_key_exists('provided', $installed['versions'][$packageName])) {
+                $ranges = array_merge($ranges, $installed['versions'][$packageName]['provided']);
+            }
+
+            return implode(' || ', $ranges);
+        }
+
+        throw new \OutOfBoundsException('Package "' . $packageName . '" is not installed');
+    }
+
+    /**
+     * @param  string      $packageName
+     * @return string|null If the package is being replaced or provided but is not really installed, null will be returned as version, use satisfies or getVersionRanges if you need to know if a given version is present
+     */
+    public static function getVersion($packageName)
+    {
+        foreach (self::getInstalled() as $installed) {
+            if (!isset($installed['versions'][$packageName])) {
+                continue;
+            }
+
+            if (!isset($installed['versions'][$packageName]['version'])) {
+                return null;
+            }
+
+            return $installed['versions'][$packageName]['version'];
+        }
+
+        throw new \OutOfBoundsException('Package "' . $packageName . '" is not installed');
+    }
+
+    /**
+     * @param  string      $packageName
+     * @return string|null If the package is being replaced or provided but is not really installed, null will be returned as version, use satisfies or getVersionRanges if you need to know if a given version is present
+     */
+    public static function getPrettyVersion($packageName)
+    {
+        foreach (self::getInstalled() as $installed) {
+            if (!isset($installed['versions'][$packageName])) {
+                continue;
+            }
+
+            if (!isset($installed['versions'][$packageName]['pretty_version'])) {
+                return null;
+            }
+
+            return $installed['versions'][$packageName]['pretty_version'];
+        }
+
+        throw new \OutOfBoundsException('Package "' . $packageName . '" is not installed');
+    }
+
+    /**
+     * @param  string      $packageName
+     * @return string|null If the package is being replaced or provided but is not really installed, null will be returned as reference
+     */
+    public static function getReference($packageName)
+    {
+        foreach (self::getInstalled() as $installed) {
+            if (!isset($installed['versions'][$packageName])) {
+                continue;
+            }
+
+            if (!isset($installed['versions'][$packageName]['reference'])) {
+                return null;
+            }
+
+            return $installed['versions'][$packageName]['reference'];
+        }
+
+        throw new \OutOfBoundsException('Package "' . $packageName . '" is not installed');
+    }
+
+    /**
+     * @param  string      $packageName
+     * @return string|null If the package is being replaced or provided but is not really installed, null will be returned as install path. Packages of type metapackages also have a null install path.
+     */
+    public static function getInstallPath($packageName)
+    {
+        foreach (self::getInstalled() as $installed) {
+            if (!isset($installed['versions'][$packageName])) {
+                continue;
+            }
+
+            return isset($installed['versions'][$packageName]['install_path']) ? $installed['versions'][$packageName]['install_path'] : null;
+        }
+
+        throw new \OutOfBoundsException('Package "' . $packageName . '" is not installed');
+    }
+
+    /**
+     * @return array
+     * @psalm-return array{name: string, version: string, reference: string, pretty_version: string, aliases: string[], dev: bool, install_path: string}
+     */
+    public static function getRootPackage()
+    {
+        $installed = self::getInstalled();
+
+        return $installed[0]['root'];
+    }
+
+    /**
+     * Returns the raw installed.php data for custom implementations
+     *
+     * @deprecated Use getAllRawData() instead which returns all datasets for all autoloaders present in the process. getRawData only returns the first dataset loaded, which may not be what you expect.
+     * @return array[]
+     * @psalm-return array{root: array{name: string, version: string, reference: string, pretty_version: string, aliases: string[], dev: bool, install_path: string}, versions: array<string, array{dev_requirement: bool, pretty_version?: string, version?: string, aliases?: string[], reference?: string, replaced?: string[], provided?: string[], install_path?: string}>}
+     */
+    public static function getRawData()
+    {
+        @trigger_error('getRawData only returns the first dataset loaded, which may not be what you expect. Use getAllRawData() instead which returns all datasets for all autoloaders present in the process.', E_USER_DEPRECATED);
+
+        if (null === self::$installed) {
+            // only require the installed.php file if this file is loaded from its dumped location,
+            // and not from its source location in the composer/composer package, see https://github.com/composer/composer/issues/9937
+            if (substr(__DIR__, -8, 1) !== 'C') {
+                self::$installed = include __DIR__ . '/installed.php';
+            } else {
+                self::$installed = array();
+            }
+        }
+
+        return self::$installed;
+    }
+
+    /**
+     * Returns the raw data of all installed.php which are currently loaded for custom implementations
+     *
+     * @return array[]
+     * @psalm-return list<array{root: array{name: string, version: string, reference: string, pretty_version: string, aliases: string[], dev: bool, install_path: string}, versions: array<string, array{dev_requirement: bool, pretty_version?: string, version?: string, aliases?: string[], reference?: string, replaced?: string[], provided?: string[], install_path?: string}>}>
+     */
+    public static function getAllRawData()
+    {
+        return self::getInstalled();
+    }
+
+    /**
+     * Lets you reload the static array from another file
+     *
+     * This is only useful for complex integrations in which a project needs to use
+     * this class but then also needs to execute another project's autoloader in process,
+     * and wants to ensure both projects have access to their version of installed.php.
+     *
+     * A typical case would be PHPUnit, where it would need to make sure it reads all
+     * the data it needs from this class, then call reload() with
+     * `require $CWD/vendor/composer/installed.php` (or similar) as input to make sure
+     * the project in which it runs can then also use this class safely, without
+     * interference between PHPUnit's dependencies and the project's dependencies.
+     *
+     * @param  array[] $data A vendor/composer/installed.php data set
+     * @return void
+     *
+     * @psalm-param array{root: array{name: string, version: string, reference: string, pretty_version: string, aliases: string[], dev: bool, install_path: string}, versions: array<string, array{dev_requirement: bool, pretty_version?: string, version?: string, aliases?: string[], reference?: string, replaced?: string[], provided?: string[], install_path?: string}>} $data
+     */
+    public static function reload($data)
+    {
+        self::$installed = $data;
+        self::$installedByVendor = array();
+    }
+
+    /**
+     * @return array[]
+     * @psalm-return list<array{root: array{name: string, version: string, reference: string, pretty_version: string, aliases: string[], dev: bool, install_path: string}, versions: array<string, array{dev_requirement: bool, pretty_version?: string, version?: string, aliases?: string[], reference?: string, replaced?: string[], provided?: string[], install_path?: string}>}>
+     */
+    private static function getInstalled()
+    {
+        if (null === self::$canGetVendors) {
+            self::$canGetVendors = method_exists('Composer\Autoload\ClassLoader', 'getRegisteredLoaders');
+        }
+
+        $installed = array();
+
+        if (self::$canGetVendors) {
+            foreach (ClassLoader::getRegisteredLoaders() as $vendorDir => $loader) {
+                if (isset(self::$installedByVendor[$vendorDir])) {
+                    $installed[] = self::$installedByVendor[$vendorDir];
+                } elseif (is_file($vendorDir.'/composer/installed.php')) {
+                    $installed[] = self::$installedByVendor[$vendorDir] = require $vendorDir.'/composer/installed.php';
+                    if (null === self::$installed && strtr($vendorDir.'/composer', '\\', '/') === strtr(__DIR__, '\\', '/')) {
+                        self::$installed = $installed[count($installed) - 1];
+                    }
+                }
+            }
+        }
+
+        if (null === self::$installed) {
+            // only require the installed.php file if this file is loaded from its dumped location,
+            // and not from its source location in the composer/composer package, see https://github.com/composer/composer/issues/9937
+            if (substr(__DIR__, -8, 1) !== 'C') {
+                self::$installed = require __DIR__ . '/installed.php';
+            } else {
+                self::$installed = array();
+            }
+        }
+        $installed[] = self::$installed;
+
+        return $installed;
+    }
+}

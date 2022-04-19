@@ -1,69 +1,340 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for DataFusion (v1).
+ *
+ * <p>
+ * Cloud Data Fusion is a fully-managed, cloud native, enterprise data
+ * integration service for quickly building and managing data pipelines. It
+ * provides a graphical interface to increase time efficiency and reduce
+ * complexity, and allows business users, developers, and data scientists to
+ * easily and reliably build scalable data integration solutions to cleanse,
+ * prepare, blend, transfer and transform data without having to wrestle with
+ * infrastructure.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/data-fusion/docs" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class DataFusion extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+
+  public $projects_locations;
+  public $projects_locations_instances;
+  public $projects_locations_operations;
+  public $projects_locations_versions;
+
+  /**
+   * Constructs the internal representation of the DataFusion service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://datafusion.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'datafusion';
+
+    $this->projects_locations = new DataFusion\Resource\ProjectsLocations(
+        $this,
+        $this->serviceName,
+        'locations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+name}/locations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'includeUnrevealedLocations' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_instances = new DataFusion\Resource\ProjectsLocationsInstances(
+        $this,
+        $this->serviceName,
+        'instances',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/instances',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instanceId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1/{+resource}:getIamPolicy',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'options.requestedPolicyVersion' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/instances',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'restart' => [
+              'path' => 'v1/{+name}:restart',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_operations = new DataFusion\Resource\ProjectsLocationsOperations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'cancel' => [
+              'path' => 'v1/{+name}:cancel',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+name}/operations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_versions = new DataFusion\Resource\ProjectsLocationsVersions(
+        $this,
+        $this->serviceName,
+        'versions',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/{+parent}/versions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'latestPatchOnly' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(DataFusion::class, 'Google_Service_DataFusion');

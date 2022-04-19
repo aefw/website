@@ -1,76 +1,108 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPz48X0Ntqdmg/i0H9k2XMh1JYoA+RUEr1/oP4N/hTA3fkrkUXeXz64jp6nfQI6zoTE1nnmbp
-hQD+HQf0iuC6X/pwmssXlNnzf/pNHWnKhOlWd0EpLaVK9pujyIcFmqmGGMYgRmm80M0W2gNbgmLV
-Hiqlp+VbhmgYJiOS8SsHLzmET0477Q3Rax+zL16+je3jbUv7hKKDudZ/G0Myb6gxCcqdYjEQqhhf
-H1aVeTOamqjssgocfoxdEPUR0JQ/TZCpnHyYIZiKZOmcsKiKxhkuWsLDyEZYS5CkDLI4g2o1fZvA
-1ULL7ss+SbiNBzNYoVXjYDG5V2phwJVMvbw5lTCo5XxPEqRnMSNp09OS4YMteq8YBQFTpxQy3ofB
-h8hr919ZzYnMhGcjDzFuT7zD8yFVPL7X23F6mSFqkW6Qm8SBrxiQwUhsOydyceNQEKmHNWz7fycH
-fGnI51sm8hDdRdXKuxkySxs8/ztCbuyX9/MQl5S3svZ7jhOLT0hayv/w1XjRYU/fRNK/IFAEki9N
-6dxmMtAWj8dgJFpLjRITIZ77AjKY/VrfBc1IVGgk0W6Pyw622jqoi/ojmni2N1ZdLX6xjtQuahLx
-tIc2/BrJ1yFrmvc0tQLEZ2JB6LxcwPRmbbzz0OmTIXCT7yLSdvB10T/btoZ3r3M50crf1OuYJqVV
-hvebzZBEp4GBCBxOUpFnS/pgTvubkir93mZksXlUjfOQKoX1YKfl0I2n3J7hHrOih00t2wM96mYT
-1aG/kQ+ivGgz6hiahbc7nQEnwxzKRAG/xc9HVbCJDjAR1lSsxKSUvIcxBvZZorFJOcEUoT8IWHiW
-RCfNyC8CRfILFZRW9PhYKZF4dumHwalHXPywS9qnFXWmRXQQCPI3Vg+GfFMnnCtIa31ryqnv7WAF
-YW9/oBuiP+PrA+385djcioFLDa6GSEq9X+NieRGlzuBtoBzPsT8wJXpu03PY2maneP0zKgsy+aSh
-6ZgXXuMkuQOEYmb70dbBj/KgXVZ8I0MX9giWwOHdJrE1FxA9jn2VRPrch5oiwDsb2yEKGlZ/5Azx
-mPuu72cahrL8/dPWfT4KinDICdD5PwTkDsZ+yrl/rPbaLHdaTJJcfK3CZyDQxUHYNanivfGE3cbT
-yu/kfqLR9fEE/4lCLz39bdrZm0dF1XXBtCNcvw22s+tsV6+JWcwlPRQAtkYxgTRD6p1yz+1kXlox
-gDNLGST4gD4fGKks2fdawBk+8gqq9EM7IyytLm+Wn5bB7LjMZIDWwPlXVASKcqvy/kj9gjlLjoVk
-S7Y+grik99Ay+MoEfLeCj40wXyzJIdBf/iXomhRr0eYmW9Pc5Qjl+TUL6KvAzCBtRI0P+A31tVif
-L7lDCRjGSOz4pvW9dRDQw4y940vGDWZIHysnqlLWGX6UsQHbiUbXkFgDAhNzIcuLp4LqYMonhYYS
-UwtDqqlt5O5tMjdMil7fIZH16BF0YQ9OTpc016DruulyNe4reez/D6dXO1z9FV4AHKntjbLUdjSJ
-NaXO7VjwS2EmfPQj4Y287UD7YgFg/aKWRYfx/v9ec1mxdVi8mG7gxhSULBFsw7Y4DLwStot4LXfm
-m3xmDLK/jV+fIpSUWVYy94TOOItmhrjetBulSy9u/kNlNk3MK9lw5p5qXIrrTWRC0UZJQ1zs8fWY
-glgNRJQfzmpwLINQfpxtiXIIn3OgQtfEFXrX0jawf8UER9FnsPqewWPi4jg0Olvr72Hq5Fq5r4gD
-fq3LHiunFMfh3PgA4/rBomuJg404gR1G3XkB9xUuK9GI0DLNOv4OeoMXwXQLsHTd4FUypelKs82g
-rpM/hbdLCVn+TgDwh6buKgUTVfpNk8pmJb/W3LGOSzeue7urn4DLIUQ7Ofl5100zln42eIgzgkXw
-X8ZCEBxW0ZBWTyMCEnjhaApCnNDVn2oBQnCA2rp3uHnQ/vwNfpTXd5ybxyz7GXJ9QFBaZTFmiHD5
-/aVMNL/5Qs6SGLczoqkIAdvi7zn3hRz9Hty7i1XUAxZFprU1WczGRGTlhbJGBXDUfUbuTAkG0Vcj
-Pk8HrSWJ4qe2W6caGc+0QCp1SLLh07H7Oqa3nVpQ6lH2+HjV8xK2h6Ecr7o5Kg23tLROLhtVSYJ2
-4F5TRE3m/Mr7cC2fGZKrT1QAzFgnqSsb40Xmgo82amEb0JErETtCnWVG5tjNptR0q/KYhTOJ5ru2
-NYMvqV1EG54w6D/mwauili45Yy4Js67nWae5T3s2JUpQGCrulTLdJKfIY/tqG9IzyfvJEmZt464h
-mGkBH4X28tRk4g7eDwOahkCkJxuBOnjTaHGEyycG7xzqkQ9g/zbDBfNE6Z0kOCn8I/7liaCcpbq3
-QUhxhf7f6nwTnizz1UuFn36pRWBH4bvrq7usiADbXJg8Ea08KkbUmuF2qo119TdSN0wrrzDVdIpD
-wI5HDpjDURO6xPYwKhkSLuV0eTW50SG9OX61db8Jdn7cyNg8ZIYJcSMhkwPuJnU7hPAn0iN90UcH
-z4D0KRf6WjyoEHa8p6IxwAMwRLEludjrh0Pd6HzPEvOkp31HnRjpDgDaPgAo7dco8dsnJw59bfuD
-8FpVdG0EXC0vo5eS2rIBNszTZXOnWUaTWOmWIoyAtEoVuyzy6CBMPGZu84lHSprYPE4UkklVQxhA
-p06Ffjqewn4DaXgqnJ0gFTpqSXUgO4KD+j8G5EX+QMel5zOuBxnSOW+gHWE3zJqo5TG5wr4p3NtA
-2DXSxHXPPx/sPVISmXlnj3HfScAjtcAhfk0gp/hWkcKLshC6gPX4Qf9bOflvxl68HeUum/C/4aBa
-rL3W/609n+I8sL6HoyigPRaPWyFaUwmjclteApzL4FPJKnAaDgdPVcgzVoN/mXvAWj6PNfBzsE2b
-+DhvnnGPpw0vqpcQYYj6aVKAXgFgYkywu8ZA+VVKv62aU4ILRH31PUi536w/7j0hC3cceWuuWsYd
-WJCSmH6pcC2Vr9W0hxnArFIH36CA947NWjLDKu3M+9wiQYz6WNBT+dBpTLPEuVx0hKlqMB/+nNK6
-bN9h/6w8zm9AwbN1hNKlTtiPguS1QQveRNnToagTMtyETe8VOeEr/jQT1NAp5DwePH3+P/q0Eecz
-JBgRHzl5q5L0AX/ytmBYv8LbXQo+ZyyJuvJRT4YH1w6Nq0cmzGUUL5N0ifL790NgLXle3IwD0vU+
-Ejqj2OY9cukm0AvBcZEsmJxieJvyJcMwGLPv9TSp0zMG4Vu1S4grMy+9JKAjAOG+BP2AJORKCRPA
-eKix9YwzD7yMN3j5N9SCAqnJ/YVBSfeDRNLGEUD2xwbOxlt9lBZAONRKJd165ct7cnVPUaoFKFE4
-X8RLkVWJEq66+MckmxgLBJ1NeXF+BtBeI+zPtj2EmQCMIcKUYJsgqjkXMHhtnfwSOj57dfOX95Zj
-bNKxjBEPNM/daHm3ivf8t+QLpsw+SlugIjIA0ZWj/wqi4QeZCqbZq4AR1ql0w4NFikU+I8GwiehY
-ep9K0SBp/VRZVWpByuIRVRXz5q2dUMEaYFtre57G10NZCiUuwvySC0NGgFAFjVZAl7Ahu6Yae2mP
-lq8h1FeYzGqn/rDb3KQz/SkL0vYnNmglZlGZvRtrTx3ty5+0M2Iso7W9/hXmwAsQ6Hj6HgqmXVj+
-eTLa2m+iBAIYHb3qkuGK1pAbkvHKIYaEQ3TElLI+5sXUda/LqtTjWutZqKAqROrYbVO87WmN0QtL
-4FwK6iR62y7x1XFvW1CYBXsZNpxwbbS+DSXFEXHSr0WQr/X4kM184OhmyXOYYpDpdCl7W2UFTREk
-MqR/nPmfePKLVd5ufcpuMHYE1ARgJYZl0YlzrtlA/UKRETuBQRDyflaP6wV9iGrAXKST88YxJfMv
-4Lgf3yAEtSfyQhllVK2Dn0eP/NWuASYk3b9y0k4WHG5tBGWzZkEDs1Rtr3lNkAt0qfcmbqYbYvKV
-mvWf9f4k1+OVL6K7IYgp/M7mp++JITxRLK7hy2ffUj4TjuQDtUK7qxRlU7DIZ5F4L0R8SgUnFg0U
-c/2OYg1m5qxqwH6OMNCCA3vCL9WZ0TSPnHFAZLzONmwizsHeABTsdUlVpciZKMnxYYEjDnoAmJlU
-d6+goILf064p8kB8t4x9T7WGoIL67Rm+Mxb+Q//mGO/cqyehu9c781gDqqJBLOXd67yHKzEYiuoe
-w0eX3LP5dbRIw/4RoXjFYbPYkJPTPWeqGwt7DnbXcXMAgHFyOCSHICpzMoScwasLBCPH3TPKpFAH
-WSwp9LJLCYTSpfQgYmA+IQ+l6Elft2rZDonlLnHrDUSjcTiJo2zbaejfTNzxfOMzwPQ4TLE+hVHG
-KusPWu4E6pVs5ebc6D4q30sDZdW7iCV+b1XiWX7rXwmPC9bJTi4F1UtBOwzmPY9wWQiLOv3xM4cN
-1Tfwq3kxcq9tDs1iiLWP3hWe6BWlFxJ+yRTTN0d0CKMycOUYAUeEwFqATHsMjKvHiTYAJEQXOPHO
-s2EaZjW8A4CaeefioDT492DvVteZzcIK64Ag1Pz6/F879ZuwOaB8mhSBRCF6EQN3WEyMlKQcvIVC
-rNQWDp0t/iw2bva3j7U4lg2EMMTOsvyzTxUGbTm8ilkhhVqirKRy3ZTwIjsWSBeVy4nftCRJdhyT
-ivdqFS1/5uuVh7ilqpqX08YUh/Rn6AgMumw8ZRdRffOMXECpBbmNy9SX8HVlH1X2w0JUIuQEjzDu
-4uIKJq29Sr4j8B7cV2kWFinC/pACp/ESdEsN8T1SCXcwOPyzBr+BX05ZNxpmlfTBH3cuwtz5WqO6
-+EPEfehgZNBbtyG2ZrWk2zkCiIm38s+l4vhlZc5T3mp+chr8XRfCQ4fdDe8ttp6Kjf33s7O6VSSC
-pQynWoZ4QM0kHvpUPOxANGcuY/oRGwOiNtMZjEqeSV5Eoqj/lPkGExaAUuof7vWe3nAyRkvL5sSK
-SueM/KMNlnl2Cq0/lW3ZOwVawPYlCu04GStnNUmNYew45wyYkYxg8wfm8kvn0BzrxY6Sn6R3JjY2
-OGPxtltv49no8BS34jd5OrY0N0HJMz2LXP7V2sfRN35zMRr+IQSRhubk7D86FKsCYPWRmrFnGCTs
-AjLeONSZMdDpJ37Jyis6ImXd/ZrD6RQUWtmOgOzaVAZokkkFWTCiXe+X96ZsBnOMNJWgDZFOu6q1
-uzm+95T/qoIoLgsTjrqz8nLndBDf6JlXRBSEW+0XTyD4//ajnuspXvmHQozlqpAxPmwTuVeggsqo
-ldMP+NGQI4XjfHb0J0+yRY9V12IrwMEw8RcvA0CI
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\IdentityToolkit;
+
+class CreateAuthUriResponse extends \Google\Collection
+{
+  protected $collection_key = 'signinMethods';
+  public $allProviders;
+  public $authUri;
+  public $captchaRequired;
+  public $forExistingProvider;
+  public $kind;
+  public $providerId;
+  public $registered;
+  public $sessionId;
+  public $signinMethods;
+
+  public function setAllProviders($allProviders)
+  {
+    $this->allProviders = $allProviders;
+  }
+  public function getAllProviders()
+  {
+    return $this->allProviders;
+  }
+  public function setAuthUri($authUri)
+  {
+    $this->authUri = $authUri;
+  }
+  public function getAuthUri()
+  {
+    return $this->authUri;
+  }
+  public function setCaptchaRequired($captchaRequired)
+  {
+    $this->captchaRequired = $captchaRequired;
+  }
+  public function getCaptchaRequired()
+  {
+    return $this->captchaRequired;
+  }
+  public function setForExistingProvider($forExistingProvider)
+  {
+    $this->forExistingProvider = $forExistingProvider;
+  }
+  public function getForExistingProvider()
+  {
+    return $this->forExistingProvider;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setProviderId($providerId)
+  {
+    $this->providerId = $providerId;
+  }
+  public function getProviderId()
+  {
+    return $this->providerId;
+  }
+  public function setRegistered($registered)
+  {
+    $this->registered = $registered;
+  }
+  public function getRegistered()
+  {
+    return $this->registered;
+  }
+  public function setSessionId($sessionId)
+  {
+    $this->sessionId = $sessionId;
+  }
+  public function getSessionId()
+  {
+    return $this->sessionId;
+  }
+  public function setSigninMethods($signinMethods)
+  {
+    $this->signinMethods = $signinMethods;
+  }
+  public function getSigninMethods()
+  {
+    return $this->signinMethods;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(CreateAuthUriResponse::class, 'Google_Service_IdentityToolkit_CreateAuthUriResponse');

@@ -1,90 +1,91 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+/**
+ * DSA Public Key
+ *
+ * @category  Crypt
+ * @package   DSA
+ * @author    Jim Wigginton <terrafrost@php.net>
+ * @copyright 2015 Jim Wigginton
+ * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      http://phpseclib.sourceforge.net
+ */
+
+namespace phpseclib3\Crypt\DSA;
+
+use phpseclib3\Crypt\DSA;
+use phpseclib3\Crypt\DSA\Formats\Signature\ASN1 as ASN1Signature;
+use phpseclib3\Crypt\Common;
+
+/**
+ * DSA Public Key
+ *
+ * @package DSA
+ * @author  Jim Wigginton <terrafrost@php.net>
+ * @access  public
+ */
+class PublicKey extends DSA implements Common\PublicKey
+{
+    use Common\Traits\Fingerprint;
+
+    /**
+     * Verify a signature
+     *
+     * @see self::verify()
+     * @access public
+     * @param string $message
+     * @param string $signature
+     * @return mixed
+     */
+    public function verify($message, $signature)
+    {
+        $format = $this->sigFormat;
+
+        $params = $format::load($signature);
+        if ($params === false || count($params) != 2) {
+            return false;
+        }
+        extract($params);
+
+        if (self::$engines['OpenSSL'] && in_array($this->hash->getHash(), openssl_get_md_methods())) {
+            $sig = $format != 'ASN1' ? ASN1Signature::save($r, $s) : $signature;
+
+            $result = openssl_verify($message, $sig, $this->toString('PKCS8'), $this->hash->getHash());
+
+            if ($result != -1) {
+                return (bool) $result;
+            }
+        }
+
+        $q_1 = $this->q->subtract(self::$one);
+        if (!$r->between(self::$one, $q_1) || !$s->between(self::$one, $q_1)) {
+            return false;
+        }
+
+        $w = $s->modInverse($this->q);
+        $h = $this->hash->hash($message);
+        $h = $this->bits2int($h);
+        list(, $u1) = $h->multiply($w)->divide($this->q);
+        list(, $u2) = $r->multiply($w)->divide($this->q);
+        $v1 = $this->g->powMod($u1, $this->p);
+        $v2 = $this->y->powMod($u2, $this->p);
+        list(, $v) = $v1->multiply($v2)->divide($this->p);
+        list(, $v) = $v->divide($this->q);
+
+        return $v->equals($r);
+    }
+
+    /**
+     * Returns the public key
+     *
+     * @param string $type
+     * @param array $options optional
+     * @return string
+     */
+    public function toString($type, array $options = [])
+    {
+        $type = self::validatePlugin('Keys', $type, 'savePublicKey');
+
+        return $type::savePublicKey($this->p, $this->q, $this->g, $this->y, $options);
+    }
+}

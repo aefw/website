@@ -1,72 +1,120 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPu65DF1LGOt7K4sXqtW2GZu3AOFGGFxSuVn/fCtxugHJFPJDzNkSaKvg4Gw92fAFw2lPyW3F
-FxAAALdupYqAgXUM/fRuMePrTnBDEvMAf3OTUDEpPufARdrVJqVJ/HZOuTyDoAQfLvZa3Dk+IHfj
-L4jOAE+8wxh39C96JK33JydSG900JNtREXU1cCBNifiBW0itKsazpVLr9gr83yIHIW9hiKEZXAZv
-OFiWBWuj26cbNCiiTiI6+sTwIp0XI0nrRIdHYxi96/e5vxvIAQlF4AjNeeVYS5CkDLI4g2o1fZvA
-1ULLScr0giAvFK5nSAT5YDJy7b7NyrIIPGIBn+/bbuxK+Wi0KaVWOjDuZU+J51MG6rFJLm/QRguG
-Z0qHKa2hK1tD6aufqvzR1umGIwV6SAZmf42XqHEvMC1CBVNbGOCXiIJ3ZxFFzqrbXVE9yiMM++eD
-3NQQByf5aoSjGmsjnM6e+VAc0LR2OmREuc+tQ/Qw4wKZQ1QYPjemYDNsO2P/DrPAXsawq1HQl9TZ
-RELHVAi5H5lsyuyn0F599+wEfSXcdJgP5LqclQlzKtiUCzqKLRnW7ChIXI7nNHNYbmN6KUyFJxsR
-f9hSaZZObDgH7I8dlWb9YvyOukLWSAuJQSl4DO5e653CBkRLcmdilIh7HL82KkM13a+QDZWEuF3F
-cWK4lexWH2lW/0t//0X7Qc4OeYrk85tYYwsZmxp3LbLEVa1ryEsa9SNPojJw9oKgRH0L5vRlQCOP
-8G13Nk3I34WvSH/zo1fTmSepb/4X49hwStUJ6IyRKwlKxEjdS1Cao8peWSiiE5vdi6lME7JSRVZs
-HqFTdsDiv7wXb/ldo8+CzAjpiSilWpVzihieQMRafuvj4ZOU57VA5rwrrdVoIdy7I5T2tXA+5pcH
-jP4vk+Ki53JS1HFy4VE0FjBCMG1z8EmID+FT9VNDXFFdWcW2o2J+4EShsnTDL/fITkt/xQ72JYTs
-LYGjaNKvNKHCAWqvs6xHeHKkdlR+o9RAB11I5Es3+xXZBU1YOLroYOiP2m1zLXW3aiP8jILvcDuD
-wG6bVpqEPeWzqVwFto6APEq8eWrQsL2KeG0qtAMUeUO0K+s5HA/Gh9T2xCzul6IdLKG0C4o9OzmF
-lwVw79PArpLe8gwx3vxo/i0/gBfc87vKTkfTKp8rvRJca1i8TDVYysLRahehoglJbz5aBW3HOO2K
-J/tStdbLitt3qt1EIoScwMZSgPh0DstBosEu2B7Z02XQ+xJywr4aAekH0txLcALk62TwT48LyCYl
-3k8V0Bo8TrSqt8Evuvn1zTL0tKxqZJcTgIXQA+gw0sZTmQXTFHV9vuw/zEf8xLdxPbp+cWzYmYxk
-okInS2Z/eQ4oZj1VID0rvzkCTSucFf+Q7hWqofMpzWByedN8I47vlj8xyQ4T7Dx+Pu4uyspoLRL5
-a5pTjraa2SDFPZJF7+S3AehuxMj3iGNxrpDUGN8kr1iZxZGJEplWfQb7Gibdr3k4CP6WN+pxRvwN
-DPWFGU6DJNioX7iS8tKeN0A0FJJcBGIQtZDOR9dKASzZUlSXADvzn51VgyBltQpcWFG+zQbgA9Ko
-5UUtSedJ+hbFS7a3z03yjIvdEG9vCg6MfLm9ibyeg9r60c1/SUiEsv/ffTeWu+gleUbA0K8jfd0m
-FT7AEPbNmnPmVJWf+6a/8pGBABifPoKE9VsL+yzhImHzDl+N6uE1pWCOi0kHO2YIJtW41/RVQc0Y
-cMrFqBxYGH3RfC9lynbs2nfhAgd9jn4hT/KmS0g2AY2nJqXRrzX+fiBKTk1DnVYI71F8T/wNoukf
-nbJVi0Q7sENnzoi3Pb6/rzk+leL88B19xmIibl6fMqoODK5mRHFaN43luuDHPPqW+CTRPST3NuVO
-VgTrrg4ZYNeCG4RczHDkjRlt9RsoMyLNLOmQubgSwGMZDjiQ6LCNFuXywERXsTHoCVu8aKEXSncK
-b2y5mRL2W5rIIDy81VbEN2Wef8ZZbmNAowPxeIuI26YzRtAzORfjTFIKtUiDhngBV93rG1mYAtny
-W6k6nn42/mOxuUWjxbtuhrqJMPyvUtch8TW4HI7Q07yj6urpPtYesDtnhYEmDzB6ePHm4cAB5cyc
-jnHrn3B1jCQB94NAGfHaj2VMVYhgNcm1lfAMWiE492sS+pkQADjGVhyjgxpBR9N8Mbquta0pMqjh
-YVLRU84HXEiQr1POXz6L8BsjfZ6hQDf/4dXmPpFgYIFAh8WHJ8UivVIeuIG8lBj8CIeW/IuVDLdt
-wdyMRs0WLDmYRH4DJz5ni60Tqz6ss9WvlzeApcsaGPWII6cMGHAkPfUnue4XKE3dDl7Ims+OtRgg
-mFN+96/d+pLu6ZkSk6iRD5FggK6FxesrLbPP8vk9d6Gci1es27FXrjfLi60fLxb7kdqRyun7MeI3
-dOmTwT85OKw1zbPI0jwiCih/FMHr7rrYJNg6eKkzsDIkcXzzo2TucayEmSpOIyzlXpq/di/PlOHe
-7ZqGHzwtkGNNs9194jdK7EA6PIAjE+mIBRbPyRkWFSak+Q+b0ISmmf5Y4cUXD5cT+GLrXUAZ5vLL
-H5xDk+DWJsUZozY3nnjCnQnfPKI/dWQwBKwEVxiAbj/Z9u9DI2wR6b9TLrFCzunXkEz8uWAE//M4
-aWvCrSFUkNrY5NxtIWb9YIQVIQhlpffASofJyP+oa2tF2WCBkW3oJnhx9+Bl1LaZEdYvWoUP2n19
-RgXpOCFNxS4KH/UykfyJHGi4T2TbDc1cSehSZvoHlTAy0j1HcOgV5hfTpJQ3Vdr50U2BSvOknvA+
-XIdQUO4MZVfuQLh6lFFa4PQcytK6Xrw5bGWsJ+P/CgT+4chjlW67BQXxA7mKxyE6WkXkLrfx2rUd
-esPw4k/mke4qHPT4WcV8fsQo9mMzk6Y2NVkaNK45RPtDk6SunWuPHJbLB2QEtPPkDeFlHZPxTd8o
-wc0uogBJOFkCEPpw3jwffcHm1G/eQ6RmL4BM/4vWq6RRQe/PM4L3HCfccAJOetp34EESWgu5al/p
-WuEk3sRo8/elhtcFDxORLRB4yHGwDz2sp0agpl0RXqGq1oQmEL4Ubv18//LOPPT2sEzqe7II0T0Q
-xzc1VOwZrID8TWbuR3eY3w11U1PhVNHazjjWFa0Crj7sAdq1KsZDa4HTEh6ynOAO/5mMkQqO5Rs8
-oHkSysPtJaS28v/N5/MKcdjNOPnSXhwmlDIAFKmOA+gncEqmXf/rk5Wk83jwIiZOYmYUAD+Uvsw5
-/oy0C+bev9Ckn3X5MCS2TjGFns6aZIEWA9haKtBNJnGAU5TNj8CzwVShMbV8XDSfbnvEhSUJ6JC5
-6jfnW4wm7obNfn9zjg4L1GNh5+ftRue+JQMM947fX5EQP8RksyFwF+QbBt6JxNxJ8zLVCEZNbIl/
-VLlvuGfT4hQSM5CMKIbfHlyO8XMb/Xkd/fjqbBtdWvGjrLQ6A/BwLojfZ+ArSmJkr4lUP4JbY9kE
-J+A3bRQYJC8ovPphmEdNmEc7ZSNx8pzLC046vsmoBByMGHCkKUR63k8hIP3/DqkqvkXbqak7w1aS
-h6vp/hDuYHrtbGSIoJrzgBPuHUsh4A1KqAEIMVRrPka5ylAQ4LDt9yKCr4Scogr7S3Igk8FtHzJS
-+cqJidkljG25Uyj08oXJSujFOOhVD3g9BcNAdTmftERb19fPFZxyoEJ6+8JXS6/WyuN6j5qPqe4g
-3y6BgrxmvkLBvpxpqUv3i9q7x8SiyMHO4Md43z9LexxsLnpJDA2I8xqfjlL14ILYpjvOzb/FKJ1k
-8/pvOEMWO844zb9m9EAVJVaZkN88HNiYe1ZEaL1nsQcRtKEK+ZdQoOK0EZi3h7rEpHVukG9JciNi
-vZWAbq2nvqOF8obfKbFdMgmMR2PLk49X20QiZ9zsKcA1SzncE+Egr08AZyATurXVoD5IcJs8/Hys
-YicX5dZnslMLWJk9TUQcE1p56hPcmwkaPNL/9Js4vBjV/O/vbwB/FHADPXLyw94nmEPyvBUBgBq+
-tNyi1824CUTVK6kIl3GLzY1m0H5kgVww7HzrntFoT9SohgD2c5ysAYwJ/ZjTRMEoKEizqk0AHfUq
-doaHSSjPNoc2mfLkE9DLULAx+KLwONp9M485wN6e624IhIc88PM/qT69OEf5oEas62oiV2uUT+0t
-iTu+OYrgcS6KvtuaeiiPi8OHYfrAZTcKLmdgL7NPiyu7/dH7cOi4gw8jDVTG9bWr9jd3/7/yg8/0
-n0GDixAQb7e1S9e62mXGsjSEWWQmiujmKv8cDYf2u7gJnAUolz1JjkGEvDQZqCduX7g9m/tnQ5Is
-hW+RcgWBcdWTSTebQbAJXPjAJPjopb6/rouKwg4bDJ6paVbHemdEV0HUZMCkswK60OTG/BMdGn6t
-8uV/zxv62ck+wmR1BTg/wWYg51p7I+nuPAp/Cwsm0p6/5eXuycv/+lU7h8KO1G5UyMsSXQG+EUJS
-fWsF2pxCZJdlI/JQZGQY1IUcI25BmOFJB8I61l2glSQNyplTe36bgVydeThSe25cBnHW58r4bLMf
-pOUiwlj8228adsCT6CQ5pYCvLrAz8luUV03EdzggeGDfFUUhO6dhKOEfN/9otXcoprRN/tqXdoHG
-nEZ6Huu/pV7P8kt1vV26q6/CfQr2NZIKxFURcT9eOokDMLDlx0nnxW9IkzEEEG+qqqFPkIfHEbd7
-N82L8igHCxfPpGGlpu/Yc1BkSSZcdiNQO+ZaLBsLOTwjWrifVaCCeO8I5G3Hr+VKNQF+RVygxtkV
-eS+FCMgpmvV1cfvpIazAi44AyqapnMO11uAUIsvk8yzpVLh6KFguZXWU/B41rLqRTxzJljjxPr/9
-L+RcUIBv38B562l5Rf1FhOqdcCILArRNH/RV8bAWNO6S5Q6zGKGDqF3WBx9fH92jIV0fIiqLgW23
-rLwknUYm41frNB+TmbyCYuSUQYnjNQ3v1AEdiah5quG=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Cloudbilling;
+
+class Sku extends \Google\Collection
+{
+  protected $collection_key = 'serviceRegions';
+  protected $categoryType = Category::class;
+  protected $categoryDataType = '';
+  public $description;
+  protected $geoTaxonomyType = GeoTaxonomy::class;
+  protected $geoTaxonomyDataType = '';
+  public $name;
+  protected $pricingInfoType = PricingInfo::class;
+  protected $pricingInfoDataType = 'array';
+  public $serviceProviderName;
+  public $serviceRegions;
+  public $skuId;
+
+  /**
+   * @param Category
+   */
+  public function setCategory(Category $category)
+  {
+    $this->category = $category;
+  }
+  /**
+   * @return Category
+   */
+  public function getCategory()
+  {
+    return $this->category;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  /**
+   * @param GeoTaxonomy
+   */
+  public function setGeoTaxonomy(GeoTaxonomy $geoTaxonomy)
+  {
+    $this->geoTaxonomy = $geoTaxonomy;
+  }
+  /**
+   * @return GeoTaxonomy
+   */
+  public function getGeoTaxonomy()
+  {
+    return $this->geoTaxonomy;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  /**
+   * @param PricingInfo[]
+   */
+  public function setPricingInfo($pricingInfo)
+  {
+    $this->pricingInfo = $pricingInfo;
+  }
+  /**
+   * @return PricingInfo[]
+   */
+  public function getPricingInfo()
+  {
+    return $this->pricingInfo;
+  }
+  public function setServiceProviderName($serviceProviderName)
+  {
+    $this->serviceProviderName = $serviceProviderName;
+  }
+  public function getServiceProviderName()
+  {
+    return $this->serviceProviderName;
+  }
+  public function setServiceRegions($serviceRegions)
+  {
+    $this->serviceRegions = $serviceRegions;
+  }
+  public function getServiceRegions()
+  {
+    return $this->serviceRegions;
+  }
+  public function setSkuId($skuId)
+  {
+    $this->skuId = $skuId;
+  }
+  public function getSkuId()
+  {
+    return $this->skuId;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Sku::class, 'Google_Service_Cloudbilling_Sku');

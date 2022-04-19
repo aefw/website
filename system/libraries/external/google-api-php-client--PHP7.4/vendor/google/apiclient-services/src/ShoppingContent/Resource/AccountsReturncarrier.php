@@ -1,68 +1,98 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPrhtvu7ZQjosYZXoejFxfflsmm8dqx6e8y6D4rA4YwDSDnPnMbhLXQ4ao64hyvxZJSASnyFs
-HmA7bZRnIG6fZXNeImS0RM+n1YxM6Az2yHPPohal8f+2G+v9OaBg/bUQYy5TEf+bGP5AlvSSwjpm
-zuO1sJBxqAplXqy1PE9Wk8hvXtCHYi7h4YXgn3NvGCfeuYIQt7y5PgZ6ssK3r2VHaq4fUiDvPxix
-kZgzXbdSYmsMsMSoRzGngMPxO04MQ4k3Ssghf8qFcRnULYAC0XYla3RGkBZYS5CkDLI4g2o1fZvA
-1ULLGd6JM7ToOVG4CjiCYDHHvpRpRkJkbac2AHvMTHjc7jrG3tlmg384VkbatSlztjgZ6d6OgyXd
-o1tRkQi+741YmhxtdREMN6N7SigXP2EEpM/Rqie8jEdIJK2vTNhZt2uVNMAvQRXzkDNII7vkwFYH
-xHl+Q9G/0/3Kgv0wWVtuBJucIQ8qKhVHjnNV52Jz5bjHyBW1kCEKO0Kraaq8jR8JV3qWHncbAsWl
-0Uxzl5cQeD1wUuoVUHqDk1InQ7Z3qWr/WEAz9/ljK6qqPkS7RZT+Ezf09DQ+78CtrL7PCaouIOwQ
-lMVld4Y8og+AAkqJx/ijUb05vwMmS93T3T71T2vANeWkmcvnbhwFld4A8qW6Ut2llNZ3hLN/DE5s
-g/F2gL2cn+lrcHPwwKGgcDCKCT+GjYpoFYL4WHr2+lxl9w+bTH+onz41x7HJSwuBoHgqooTCsnhz
-Gfby0PXVlPdoUnS+JiVg4UF+BaEU7j4WJ3Jm2HezA35Pi2U3cvMAVC8J9tSwQXpGqVBbNrpkn72Z
-+CxWmSoQOeSoBUQuYtPuBIxhRNxLAd3O2Bnn731K60KHSV4LzNPuZnQFEArokaoy7qtLL/EpgTR/
-ML/VlgUgBbrp0l01sDFDNWYhJG+0xrfbmCqzM24d8bNFtpQvLbMorZ3ekjUKic3Zr1pdQKZlOn2z
-zteCFfK0iV3Bd8uP6ATuPdpL/FJOa6MJBF+1H0wKYBUp+zE4O6vqwVtSy2R8b8z8ym5mq/0dnLaF
-DyZ9T8i9piQvmTwZPLPdP6RJhrHqinPygWybpt7OIjq2owhsrHFXahSjgzj0VldRbLrdqgYbPjwQ
-UZG80PYMR1pbJJlt0Pym1jFsAgtPKoaIWiaiNku/0oYaYoq535Bc1rgqKSTcXOxp3Ux3Z9uVqSER
-E/InbSNDUxtKp2B8wMLPcITi2r0vcGIs25ywIfZ1pSNsKD9zMfjx5Tk03c9T/28li7WPuxIKyOOG
-dutOTDQNkgWXj9X9475ODXeO1+hsvIKqxcxqiW5Ei5y6LHmWtaiTHQ85soL1N1+y5IqD1Z1e/t90
-Lgacs20IUnsvQSsSa+34/uJPbmVX58HBfrXgwm8s28RQ33aMS1vZpWSrZ8sHiEoiJtR/O160OrUL
-grRKNdfIjYqNDSMuW6MXoSRxGgmr6lpm1VKLEhBNy2UncNYMebPzhCYHxmgAQCFklQ8kjIhrGiSP
-K/wIYdkEOI82nXbVDUkBbysUCr4kciqlov/72CM+UGCaeicI+rGz7InhESg3T4uGCE8J9zzhdqLh
-x9oXZWw5wTBj1rpHA7sBipVM42RG2RLRkBjx3+yCmgcFPbhHbBwYHG61UYC34RMyKO1o/XLls94t
-8PE9p81YIiCP6n0hhfSAWlpdlwBRMCnK0rRh5QDO6AlLNxohqdwpEtxAb10vsONOLsLg0/qgmlGe
-sX2VLXyHFJ99iABtLPrD16++TIENXRaikyX8+WnE3uHt5BohaS1hGZctZWdFAV7yL70hPSQSedb6
-lkPg7za6XNguHqs2vO9qY+1bDHXwH9NRPU+DfhjjwMifOAZ98ApdIbdAyCAJqBwXW0tU4u3wMdxx
-L/yizf402N8EsBl8eCwgmrX+pvUsty5mp1ODwNM2UMFNF+RGu99HV/IdSqZiLQfU5BJ/8VggMsZT
-betY66aTxF3IiGKscabOf3hxv+oiZ9F6Ur22VSeKzm/Dx9QF8nCDmAeIb0EG9s5rLh8OReoB2TJ5
-7SpWEIhIJxbzRAmPXFGM1dedU096tx1PsnT1ZtiasTsKCdGU6AxucLu+OLkfFPWBRT7dES4ZasaC
-wtfIJ20sJoC0rbXzTpvK/aiG7zY+nvNZjf+EzKXMZu2FlHKK7YdOyh4doEOQwkNFsxHg/tJ8Sdxw
-CJFDoCuXwCnes8M8Zx1AN7bktEqdLbFw3IjuERQ/7nRlKBqfW/uDboXLnreMyh1YrV8cWB5HXgq5
-HNVGAsVlOudW2+P1cpX0hPXTfQbjrTVp+xRVv5Mt8KNmAhcTX70oVbs34JrFUbiwBIc5vrOaebTu
-yGkHiiVyKBFEangaB1AyHv3ZyR/VAUUoZUfw1KJBpSTo/nLDIYGsSEhqf6XMUS25m5QtqpLx/6yf
-0Ee1GjzZxCTEu2miNlf1Hw1XVMCcIl/aVzy0WNhKBzrFrQQb3NdxyLqR29A2DX/0oBFP+X5OK4S8
-V408HklEKPefHPjTNwFLKn3OVAjaT6f0d7QiSqctXWrZu0IuKZUjcjwCEiAAKRGMW8wniClUn/SN
-js9kSZQ8MsRM63Gi3OOF0oDfdSgrj7OOyzISO2jorwMqFcr0EbxwyWsM7fWkrZu216Ed2nk2QzO8
-A3l13ojQEYL9aqhZ7s8LA00memLnJhwsrS4KBoXIiX3V1iPp7gsWYyVBKTVGTGd4Ot06jXnDrYVE
-RwkmMWC49p3/DeEe74XuchLhGEevXGTVO7oiKsx7Bjt4B+DOHvbzX8x5V7n5nFlyP4wLdBDejHUf
-PHs7AGkcbVaijndBDkhSG0ukDO7Q8zHCHRnR2cJSUnUnv5triZPzJlh++KYl/X3hHVG+PB8NX4x8
-Iu/ywhAST6KLP5lRUftTd1N1fKSraQHdsrZxG/0+k8bj5BFHG3zN1GAo51hC0L/39DyIUOXvFpUi
-lMUB+uvipPyhngmJu5FDXI8MxYg+kJXO5z4FRYhgCmSEDB6peTNWlHbhlp18pYmAhN397AmHgRIK
-aTTpKBlV/zCv2B9dk9JnXgLTH2pkdZy0QsRzGWJyQ/ehVtvBct0cH1w1J5PNM7N3lGF5oZgsWRJF
-obhExzGmgh+71o0ITdE4usxWkEpH25iE099myTl4YbLVoxGfzBNhOJyTcECsULU8Na4o09Pvw8ZZ
-0HFXH8uObF09FYztOIkKhbiPSWOcQ7Po/wc/cj97ZJUAGxsjCArbzH6b5WVQ/9Ul2zGsvs5qnDoF
-8GoCD1ykq70kdMIveVRHMR6tFllkxaioX3z5UW/8gA6moTAvYSzuU+f909RKVEPjuyvp1hDrHzY0
-5s8S5BX3naC1AS9arfipdprz35CtM12dPTuAiv8eZv+ieazTgXhwvWJiugUHUV9+zxGYPZacPWr/
-98R6R4WaNUfGZFYUYWfv0GMPTN/z6jijumI+ZxsLCtPzb55/PLt4Tehgps3lMkZa/Uu7En1VucP7
-VfYJnuH7skDg8KFeUDYKBrdyhwfDo53PPWUU1AlsEoapeuGDq5A5qV4PI9GtI/6N80VC3RT8+LB/
-z92mr8w9XFvrjW3kaODK+m0OR9Ak4H/XyEhh4zBgsXTwHvX+jaqc+IZrStJbI1AOV1ESj/5OVlvP
-UrVGLrd0KWOgleBvIuulLBCbRbquajHpmRpfGNd7WqbRPIaiab6o/A7R9kcua1nOh7qxfbXdUQzn
-EKtA82MQdqmURZIvxxcxvjkn9Blhk5bWJXd6GDIJ3Cer5FTrSxA5qUd5m9fBioB/hoLKItc40fEl
-xbjUw2vZEQ7xLPiRaTukaxRM8Kf+h9j38Bc95D8Bxxvf+QO/N9aY10P3Vi5imsjzpoL9uUmm7OsN
-QlMWL1JiIQ4lsXdwOYL79LUBz7R86j68VnQZEfecpOoVmyDk+YaBycaZikmPjCOlj4RTKGoPR01T
-fwpVr71znGuq5NHrkFpd7GdVTtw4aFBAffOcW4kufiTK5xeKQ2obr63MAnn0ySS289q5oFaNvUv0
-Hc1QfkjUVKE1G6+ZqPeFNzou6RzOUq7yPDQ5Wo4XdMh76s7C6IAq03rodT2BDSJeGbapnXggLjYM
-nLw2utDI/+LSwKz+GhMXUH6d0yabsYVA94wp7XxtqFlrkV7SU0NZg47v2GZDtk0+oprFsGJrrvvL
-dLqXWwBl99AEz6GmPa2fXEzI6vBAjkbx0Yp2Dbpa706vqnQWZePX9XfgDH0AvV4kXRT5EsUwK5Dq
-CWgQ0oVJWf5GVSvBAGgWb2a3FzuVthwnh4714Sstv76QbMkZrkeFjezE1QkTBsNUj13pwouMdW5O
-K5Pd3qqd32OAKLIZZXcKuZXqA/3EZg2rJtF2ib8NIo1uVia94kFKkPDx7liXNG354l+3VGuCQOF4
-fP9XedGYLodWZafY1KrUG/x1WibG8eD69yz8h4TRLs2ZC508BqggZzC2n59Y322QRfxubobyMuTp
-RoiB6phR8yZKc/G2nsU9DHhlVBREJiEC7hiECpy7JWVBMz5iqU715EBHKJe0NvbrTtsMoHVwpPzi
-lRJI9NEPriD6BSjnoSvlmrKFowrFFb/v6DMxiRsHAYI2IIxziXwzIHKv2UMh1NMM2Rj00xgvLgci
-EcJe
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ShoppingContent\Resource;
+
+use Google\Service\ShoppingContent\AccountReturnCarrier;
+use Google\Service\ShoppingContent\ListAccountReturnCarrierResponse;
+
+/**
+ * The "returncarrier" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $contentService = new Google\Service\ShoppingContent(...);
+ *   $returncarrier = $contentService->returncarrier;
+ *  </code>
+ */
+class AccountsReturncarrier extends \Google\Service\Resource
+{
+  /**
+   * Links return carrier to a merchant account. (returncarrier.create)
+   *
+   * @param string $accountId Required. The Merchant Center Account Id under which
+   * the Return Carrier is to be linked.
+   * @param AccountReturnCarrier $postBody
+   * @param array $optParams Optional parameters.
+   * @return AccountReturnCarrier
+   */
+  public function create($accountId, AccountReturnCarrier $postBody, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], AccountReturnCarrier::class);
+  }
+  /**
+   * Delete a return carrier in the merchant account. (returncarrier.delete)
+   *
+   * @param string $accountId Required. The Merchant Center Account Id under which
+   * the Return Carrier is to be linked.
+   * @param string $carrierAccountId Required. The Google-provided unique carrier
+   * ID, used to update the resource.
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($accountId, $carrierAccountId, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'carrierAccountId' => $carrierAccountId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Lists available return carriers in the merchant account.
+   * (returncarrier.listAccountsReturncarrier)
+   *
+   * @param string $accountId Required. The Merchant Center Account Id under which
+   * the Return Carrier is to be linked.
+   * @param array $optParams Optional parameters.
+   * @return ListAccountReturnCarrierResponse
+   */
+  public function listAccountsReturncarrier($accountId, $optParams = [])
+  {
+    $params = ['accountId' => $accountId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListAccountReturnCarrierResponse::class);
+  }
+  /**
+   * Updates a return carrier in the merchant account. (returncarrier.patch)
+   *
+   * @param string $accountId Required. The Merchant Center Account Id under which
+   * the Return Carrier is to be linked.
+   * @param string $carrierAccountId Required. The Google-provided unique carrier
+   * ID, used to update the resource.
+   * @param AccountReturnCarrier $postBody
+   * @param array $optParams Optional parameters.
+   * @return AccountReturnCarrier
+   */
+  public function patch($accountId, $carrierAccountId, AccountReturnCarrier $postBody, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'carrierAccountId' => $carrierAccountId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], AccountReturnCarrier::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AccountsReturncarrier::class, 'Google_Service_ShoppingContent_Resource_AccountsReturncarrier');

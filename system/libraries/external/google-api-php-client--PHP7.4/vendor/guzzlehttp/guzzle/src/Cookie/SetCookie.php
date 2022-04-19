@@ -1,151 +1,410 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+namespace GuzzleHttp\Cookie;
+
+/**
+ * Set-Cookie object
+ */
+class SetCookie
+{
+    /**
+     * @var array
+     */
+    private static $defaults = [
+        'Name'     => null,
+        'Value'    => null,
+        'Domain'   => null,
+        'Path'     => '/',
+        'Max-Age'  => null,
+        'Expires'  => null,
+        'Secure'   => false,
+        'Discard'  => false,
+        'HttpOnly' => false
+    ];
+
+    /**
+     * @var array Cookie data
+     */
+    private $data;
+
+    /**
+     * Create a new SetCookie object from a string.
+     *
+     * @param string $cookie Set-Cookie header string
+     */
+    public static function fromString(string $cookie): self
+    {
+        // Create the default return array
+        $data = self::$defaults;
+        // Explode the cookie string using a series of semicolons
+        $pieces = \array_filter(\array_map('trim', \explode(';', $cookie)));
+        // The name of the cookie (first kvp) must exist and include an equal sign.
+        if (!isset($pieces[0]) || \strpos($pieces[0], '=') === false) {
+            return new self($data);
+        }
+
+        // Add the cookie pieces into the parsed data array
+        foreach ($pieces as $part) {
+            $cookieParts = \explode('=', $part, 2);
+            $key = \trim($cookieParts[0]);
+            $value = isset($cookieParts[1])
+                ? \trim($cookieParts[1], " \n\r\t\0\x0B")
+                : true;
+
+            // Only check for non-cookies when cookies have been found
+            if (!isset($data['Name'])) {
+                $data['Name'] = $key;
+                $data['Value'] = $value;
+            } else {
+                foreach (\array_keys(self::$defaults) as $search) {
+                    if (!\strcasecmp($search, $key)) {
+                        $data[$search] = $value;
+                        continue 2;
+                    }
+                }
+                $data[$key] = $value;
+            }
+        }
+
+        return new self($data);
+    }
+
+    /**
+     * @param array $data Array of cookie data provided by a Cookie parser
+     */
+    public function __construct(array $data = [])
+    {
+        /** @var array|null $replaced will be null in case of replace error */
+        $replaced = \array_replace(self::$defaults, $data);
+        if ($replaced === null) {
+            throw new \InvalidArgumentException('Unable to replace the default values for the Cookie.');
+        }
+
+        $this->data = $replaced;
+        // Extract the Expires value and turn it into a UNIX timestamp if needed
+        if (!$this->getExpires() && $this->getMaxAge()) {
+            // Calculate the Expires date
+            $this->setExpires(\time() + $this->getMaxAge());
+        } elseif (null !== ($expires = $this->getExpires()) && !\is_numeric($expires)) {
+            $this->setExpires($expires);
+        }
+    }
+
+    public function __toString()
+    {
+        $str = $this->data['Name'] . '=' . $this->data['Value'] . '; ';
+        foreach ($this->data as $k => $v) {
+            if ($k !== 'Name' && $k !== 'Value' && $v !== null && $v !== false) {
+                if ($k === 'Expires') {
+                    $str .= 'Expires=' . \gmdate('D, d M Y H:i:s \G\M\T', $v) . '; ';
+                } else {
+                    $str .= ($v === true ? $k : "{$k}={$v}") . '; ';
+                }
+            }
+        }
+
+        return \rtrim($str, '; ');
+    }
+
+    public function toArray(): array
+    {
+        return $this->data;
+    }
+
+    /**
+     * Get the cookie name.
+     *
+     * @return string
+     */
+    public function getName()
+    {
+        return $this->data['Name'];
+    }
+
+    /**
+     * Set the cookie name.
+     *
+     * @param string $name Cookie name
+     */
+    public function setName($name): void
+    {
+        $this->data['Name'] = $name;
+    }
+
+    /**
+     * Get the cookie value.
+     *
+     * @return string|null
+     */
+    public function getValue()
+    {
+        return $this->data['Value'];
+    }
+
+    /**
+     * Set the cookie value.
+     *
+     * @param string $value Cookie value
+     */
+    public function setValue($value): void
+    {
+        $this->data['Value'] = $value;
+    }
+
+    /**
+     * Get the domain.
+     *
+     * @return string|null
+     */
+    public function getDomain()
+    {
+        return $this->data['Domain'];
+    }
+
+    /**
+     * Set the domain of the cookie.
+     *
+     * @param string $domain
+     */
+    public function setDomain($domain): void
+    {
+        $this->data['Domain'] = $domain;
+    }
+
+    /**
+     * Get the path.
+     *
+     * @return string
+     */
+    public function getPath()
+    {
+        return $this->data['Path'];
+    }
+
+    /**
+     * Set the path of the cookie.
+     *
+     * @param string $path Path of the cookie
+     */
+    public function setPath($path): void
+    {
+        $this->data['Path'] = $path;
+    }
+
+    /**
+     * Maximum lifetime of the cookie in seconds.
+     *
+     * @return int|null
+     */
+    public function getMaxAge()
+    {
+        return $this->data['Max-Age'];
+    }
+
+    /**
+     * Set the max-age of the cookie.
+     *
+     * @param int $maxAge Max age of the cookie in seconds
+     */
+    public function setMaxAge($maxAge): void
+    {
+        $this->data['Max-Age'] = $maxAge;
+    }
+
+    /**
+     * The UNIX timestamp when the cookie Expires.
+     *
+     * @return string|int|null
+     */
+    public function getExpires()
+    {
+        return $this->data['Expires'];
+    }
+
+    /**
+     * Set the unix timestamp for which the cookie will expire.
+     *
+     * @param int|string $timestamp Unix timestamp or any English textual datetime description.
+     */
+    public function setExpires($timestamp): void
+    {
+        $this->data['Expires'] = \is_numeric($timestamp)
+            ? (int) $timestamp
+            : \strtotime($timestamp);
+    }
+
+    /**
+     * Get whether or not this is a secure cookie.
+     *
+     * @return bool|null
+     */
+    public function getSecure()
+    {
+        return $this->data['Secure'];
+    }
+
+    /**
+     * Set whether or not the cookie is secure.
+     *
+     * @param bool $secure Set to true or false if secure
+     */
+    public function setSecure($secure): void
+    {
+        $this->data['Secure'] = $secure;
+    }
+
+    /**
+     * Get whether or not this is a session cookie.
+     *
+     * @return bool|null
+     */
+    public function getDiscard()
+    {
+        return $this->data['Discard'];
+    }
+
+    /**
+     * Set whether or not this is a session cookie.
+     *
+     * @param bool $discard Set to true or false if this is a session cookie
+     */
+    public function setDiscard($discard): void
+    {
+        $this->data['Discard'] = $discard;
+    }
+
+    /**
+     * Get whether or not this is an HTTP only cookie.
+     *
+     * @return bool
+     */
+    public function getHttpOnly()
+    {
+        return $this->data['HttpOnly'];
+    }
+
+    /**
+     * Set whether or not this is an HTTP only cookie.
+     *
+     * @param bool $httpOnly Set to true or false if this is HTTP only
+     */
+    public function setHttpOnly($httpOnly): void
+    {
+        $this->data['HttpOnly'] = $httpOnly;
+    }
+
+    /**
+     * Check if the cookie matches a path value.
+     *
+     * A request-path path-matches a given cookie-path if at least one of
+     * the following conditions holds:
+     *
+     * - The cookie-path and the request-path are identical.
+     * - The cookie-path is a prefix of the request-path, and the last
+     *   character of the cookie-path is %x2F ("/").
+     * - The cookie-path is a prefix of the request-path, and the first
+     *   character of the request-path that is not included in the cookie-
+     *   path is a %x2F ("/") character.
+     *
+     * @param string $requestPath Path to check against
+     */
+    public function matchesPath(string $requestPath): bool
+    {
+        $cookiePath = $this->getPath();
+
+        // Match on exact matches or when path is the default empty "/"
+        if ($cookiePath === '/' || $cookiePath == $requestPath) {
+            return true;
+        }
+
+        // Ensure that the cookie-path is a prefix of the request path.
+        if (0 !== \strpos($requestPath, $cookiePath)) {
+            return false;
+        }
+
+        // Match if the last character of the cookie-path is "/"
+        if (\substr($cookiePath, -1, 1) === '/') {
+            return true;
+        }
+
+        // Match if the first character not included in cookie path is "/"
+        return \substr($requestPath, \strlen($cookiePath), 1) === '/';
+    }
+
+    /**
+     * Check if the cookie matches a domain value.
+     *
+     * @param string $domain Domain to check against
+     */
+    public function matchesDomain(string $domain): bool
+    {
+        $cookieDomain = $this->getDomain();
+        if (null === $cookieDomain) {
+            return true;
+        }
+
+        // Remove the leading '.' as per spec in RFC 6265.
+        // https://tools.ietf.org/html/rfc6265#section-5.2.3
+        $cookieDomain = \ltrim($cookieDomain, '.');
+
+        // Domain not set or exact match.
+        if (!$cookieDomain || !\strcasecmp($domain, $cookieDomain)) {
+            return true;
+        }
+
+        // Matching the subdomain according to RFC 6265.
+        // https://tools.ietf.org/html/rfc6265#section-5.1.3
+        if (\filter_var($domain, \FILTER_VALIDATE_IP)) {
+            return false;
+        }
+
+        return (bool) \preg_match('/\.' . \preg_quote($cookieDomain, '/') . '$/', $domain);
+    }
+
+    /**
+     * Check if the cookie is expired.
+     */
+    public function isExpired(): bool
+    {
+        return $this->getExpires() !== null && \time() > $this->getExpires();
+    }
+
+    /**
+     * Check if the cookie is valid according to RFC 6265.
+     *
+     * @return bool|string Returns true if valid or an error message if invalid
+     */
+    public function validate()
+    {
+        $name = $this->getName();
+        if ($name === '') {
+            return 'The cookie name must not be empty';
+        }
+
+        // Check if any of the invalid characters are present in the cookie name
+        if (\preg_match(
+            '/[\x00-\x20\x22\x28-\x29\x2c\x2f\x3a-\x40\x5c\x7b\x7d\x7f]/',
+            $name
+        )) {
+            return 'Cookie name must not contain invalid characters: ASCII '
+                . 'Control characters (0-31;127), space, tab and the '
+                . 'following characters: ()<>@,;:\"/?={}';
+        }
+
+        // Value must not be null. 0 and empty string are valid. Empty strings
+        // are technically against RFC 6265, but known to happen in the wild.
+        $value = $this->getValue();
+        if ($value === null) {
+            return 'The cookie value must not be empty';
+        }
+
+        // Domains must not be empty, but can be 0. "0" is not a valid internet
+        // domain, but may be used as server name in a private network.
+        $domain = $this->getDomain();
+        if ($domain === null || $domain === '') {
+            return 'The cookie domain must not be empty';
+        }
+
+        return true;
+    }
+}

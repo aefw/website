@@ -1,88 +1,212 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-GnPJZgEz/odsNeCzWDzpe2gBY4C=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\SecretManager\Resource;
+
+use Google\Service\SecretManager\AddSecretVersionRequest;
+use Google\Service\SecretManager\ListSecretsResponse;
+use Google\Service\SecretManager\Policy;
+use Google\Service\SecretManager\Secret;
+use Google\Service\SecretManager\SecretVersion;
+use Google\Service\SecretManager\SecretmanagerEmpty;
+use Google\Service\SecretManager\SetIamPolicyRequest;
+use Google\Service\SecretManager\TestIamPermissionsRequest;
+use Google\Service\SecretManager\TestIamPermissionsResponse;
+
+/**
+ * The "secrets" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $secretmanagerService = new Google\Service\SecretManager(...);
+ *   $secrets = $secretmanagerService->secrets;
+ *  </code>
+ */
+class ProjectsSecrets extends \Google\Service\Resource
+{
+  /**
+   * Creates a new SecretVersion containing secret data and attaches it to an
+   * existing Secret. (secrets.addVersion)
+   *
+   * @param string $parent Required. The resource name of the Secret to associate
+   * with the SecretVersion in the format `projects/secrets`.
+   * @param AddSecretVersionRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return SecretVersion
+   */
+  public function addVersion($parent, AddSecretVersionRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('addVersion', [$params], SecretVersion::class);
+  }
+  /**
+   * Creates a new Secret containing no SecretVersions. (secrets.create)
+   *
+   * @param string $parent Required. The resource name of the project to associate
+   * with the Secret, in the format `projects`.
+   * @param Secret $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string secretId Required. This must be unique within the project.
+   * A secret ID is a string with a maximum length of 255 characters and can
+   * contain uppercase and lowercase letters, numerals, and the hyphen (`-`) and
+   * underscore (`_`) characters.
+   * @return Secret
+   */
+  public function create($parent, Secret $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Secret::class);
+  }
+  /**
+   * Deletes a Secret. (secrets.delete)
+   *
+   * @param string $name Required. The resource name of the Secret to delete in
+   * the format `projects/secrets`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string etag Optional. Etag of the Secret. The request succeeds if
+   * it matches the etag of the currently stored secret object. If the etag is
+   * omitted, the request succeeds.
+   * @return SecretmanagerEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], SecretmanagerEmpty::class);
+  }
+  /**
+   * Gets metadata for a given Secret. (secrets.get)
+   *
+   * @param string $name Required. The resource name of the Secret, in the format
+   * `projects/secrets`.
+   * @param array $optParams Optional parameters.
+   * @return Secret
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Secret::class);
+  }
+  /**
+   * Gets the access control policy for a secret. Returns empty policy if the
+   * secret exists and does not have a policy set. (secrets.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int options.requestedPolicyVersion Optional. The policy format
+   * version to be returned. Valid values are 0, 1, and 3. Requests specifying an
+   * invalid value will be rejected. Requests for policies with any conditional
+   * bindings must specify version 3. Policies without any conditional bindings
+   * may specify any valid value or leave the field unset. To learn which
+   * resources support conditions in their IAM policies, see the [IAM
+   * documentation](https://cloud.google.com/iam/help/conditions/resource-
+   * policies).
+   * @return Policy
+   */
+  public function getIamPolicy($resource, $optParams = [])
+  {
+    $params = ['resource' => $resource];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Lists Secrets. (secrets.listProjectsSecrets)
+   *
+   * @param string $parent Required. The resource name of the project associated
+   * with the Secrets, in the format `projects`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Optional. The maximum number of results to be
+   * returned in a single page. If set to 0, the server decides the number of
+   * results to return. If the number is greater than 25000, it is capped at
+   * 25000.
+   * @opt_param string pageToken Optional. Pagination token, returned earlier via
+   * ListSecretsResponse.next_page_token.
+   * @return ListSecretsResponse
+   */
+  public function listProjectsSecrets($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListSecretsResponse::class);
+  }
+  /**
+   * Updates metadata of an existing Secret. (secrets.patch)
+   *
+   * @param string $name Output only. The resource name of the Secret in the
+   * format `projects/secrets`.
+   * @param Secret $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. Specifies the fields to be updated.
+   * @return Secret
+   */
+  public function patch($name, Secret $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Secret::class);
+  }
+  /**
+   * Sets the access control policy on the specified secret. Replaces any existing
+   * policy. Permissions on SecretVersions are enforced according to the policy
+   * set on the associated Secret. (secrets.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Returns permissions that a caller has for the specified secret. If the secret
+   * does not exist, this call returns an empty set of permissions, not a
+   * NOT_FOUND error. Note: This operation is designed to be used for building
+   * permission-aware UIs and command-line tools, not for authorization checking.
+   * This operation may "fail open" without warning. (secrets.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsSecrets::class, 'Google_Service_SecretManager_Resource_ProjectsSecrets');

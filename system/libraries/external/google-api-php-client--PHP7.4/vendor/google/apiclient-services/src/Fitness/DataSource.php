@@ -1,72 +1,120 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-gDDXHvhEpqdGnhWDksfAaMcZGBf0jm==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Fitness;
+
+class DataSource extends \Google\Collection
+{
+  protected $collection_key = 'dataQualityStandard';
+  protected $applicationType = Application::class;
+  protected $applicationDataType = '';
+  public $dataQualityStandard;
+  public $dataStreamId;
+  public $dataStreamName;
+  protected $dataTypeType = DataType::class;
+  protected $dataTypeDataType = '';
+  protected $deviceType = Device::class;
+  protected $deviceDataType = '';
+  public $name;
+  public $type;
+
+  /**
+   * @param Application
+   */
+  public function setApplication(Application $application)
+  {
+    $this->application = $application;
+  }
+  /**
+   * @return Application
+   */
+  public function getApplication()
+  {
+    return $this->application;
+  }
+  public function setDataQualityStandard($dataQualityStandard)
+  {
+    $this->dataQualityStandard = $dataQualityStandard;
+  }
+  public function getDataQualityStandard()
+  {
+    return $this->dataQualityStandard;
+  }
+  public function setDataStreamId($dataStreamId)
+  {
+    $this->dataStreamId = $dataStreamId;
+  }
+  public function getDataStreamId()
+  {
+    return $this->dataStreamId;
+  }
+  public function setDataStreamName($dataStreamName)
+  {
+    $this->dataStreamName = $dataStreamName;
+  }
+  public function getDataStreamName()
+  {
+    return $this->dataStreamName;
+  }
+  /**
+   * @param DataType
+   */
+  public function setDataType(DataType $dataType)
+  {
+    $this->dataType = $dataType;
+  }
+  /**
+   * @return DataType
+   */
+  public function getDataType()
+  {
+    return $this->dataType;
+  }
+  /**
+   * @param Device
+   */
+  public function setDevice(Device $device)
+  {
+    $this->device = $device;
+  }
+  /**
+   * @return Device
+   */
+  public function getDevice()
+  {
+    return $this->device;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setType($type)
+  {
+    $this->type = $type;
+  }
+  public function getType()
+  {
+    return $this->type;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(DataSource::class, 'Google_Service_Fitness_DataSource');

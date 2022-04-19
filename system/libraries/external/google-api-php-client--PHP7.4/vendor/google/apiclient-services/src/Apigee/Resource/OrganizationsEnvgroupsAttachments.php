@@ -1,64 +1,105 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Apigee\Resource;
+
+use Google\Service\Apigee\GoogleCloudApigeeV1EnvironmentGroupAttachment;
+use Google\Service\Apigee\GoogleCloudApigeeV1ListEnvironmentGroupAttachmentsResponse;
+use Google\Service\Apigee\GoogleLongrunningOperation;
+
+/**
+ * The "attachments" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $apigeeService = new Google\Service\Apigee(...);
+ *   $attachments = $apigeeService->attachments;
+ *  </code>
+ */
+class OrganizationsEnvgroupsAttachments extends \Google\Service\Resource
+{
+  /**
+   * Creates a new attachment of an environment to an environment group.
+   * (attachments.create)
+   *
+   * @param string $parent Required. EnvironmentGroup under which to create the
+   * attachment in the following format:
+   * `organizations/{org}/envgroups/{envgroup}`.
+   * @param GoogleCloudApigeeV1EnvironmentGroupAttachment $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function create($parent, GoogleCloudApigeeV1EnvironmentGroupAttachment $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Deletes an environment group attachment. (attachments.delete)
+   *
+   * @param string $name Required. Name of the environment group attachment to
+   * delete in the following format:
+   * `organizations/{org}/envgroups/{envgroup}/attachments/{attachment}`.
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Gets an environment group attachment. (attachments.get)
+   *
+   * @param string $name Required. Name of the environment group attachment in the
+   * following format:
+   * `organizations/{org}/envgroups/{envgroup}/attachments/{attachment}`
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1EnvironmentGroupAttachment
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudApigeeV1EnvironmentGroupAttachment::class);
+  }
+  /**
+   * Lists all attachments of an environment group.
+   * (attachments.listOrganizationsEnvgroupsAttachments)
+   *
+   * @param string $parent Required. Name of the environment group in the
+   * following format: `organizations/{org}/envgroups/{envgroup}`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Maximum number of environment group attachments to
+   * return. The page size defaults to 25.
+   * @opt_param string pageToken Page token, returned by a previous
+   * ListEnvironmentGroupAttachments call, that you can use to retrieve the next
+   * page.
+   * @return GoogleCloudApigeeV1ListEnvironmentGroupAttachmentsResponse
+   */
+  public function listOrganizationsEnvgroupsAttachments($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleCloudApigeeV1ListEnvironmentGroupAttachmentsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(OrganizationsEnvgroupsAttachments::class, 'Google_Service_Apigee_Resource_OrganizationsEnvgroupsAttachments');

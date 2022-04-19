@@ -1,68 +1,99 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPnFQT27WYKqNZHNX0YfxjWj9owX9mBsNljT4Kb2YsATS76Ah283A2/aQxb38NtPgPebKO/XM
-yaj9N6cMtSJ95Ks4lqzC+Crd6Lg01+oQcEpMLdYdHh5VTK6QfwDlEAccWnzOeqizII5W5YcMml2j
-RmeX4lqoesWwsvSoZHsQ2gPd1o9lNwO4xrKYlP5b91wGRHHSMx49wtVsY1TUKo35g5aF530fGc08
-hD3keDy7xGJ0PRYCO2BonRQrTMX8/u/+w7TzfMU8Z+G7uN87/m+7wtDjgSRYS5CkDLI4g2o1fZvA
-1ULLucfHSoJGklneid5fYDJv7bh/po11IdGoUlmSry/EjV59U/xfii+E8C/p13SGIjfA7UuHkBY2
-AP8/vU8tIhPhihJ6T85Wr8CWhKwPx+NYlKMAvWMUgt3Zv1iacBjEh4Mymuujk9I4MZJWEkOvRex+
-xieVFjDrv2cgx0GjuLQFOUBNRQdtH0xVC7vc3cdkpZQlIWQXAKUhTQqAFJUfSsoHrh7pxqeeneAQ
-edrhq3epW/E7PuR8yz9xdDpNZt700fZ3fG/GT+s/APsBKKFEXo1WWOlloMCzbIDTgaSaerGgyN4U
-r1wIu1ma5aMxwbrqut2J3LTy/wAU7DXtDX+e2JDRv/vEskrtympkb455y/UjWg3UN/GidtLwIOa4
-MRPZI6VSKFhkVC7X9NRpv5KhcbIdRrNQ5kelkwWpcTriwj5xdHh4tEacbnEPZbglJequSVvW6PBk
-gO7MoiVmt0GbzKx4Z3FXqGOSCwvZYCdfWYjHXkeV8MP5zF0lPUFf6bPbKLm2jTmoHJjnjE0+kt+w
-w8C/gJjAatoCUsvNxpAlfNzlo0p9Ak9beSW8kCCz9wWXtKVsADWwaR1mvds5O9X/w9eqfbAH2DcF
-6IXP3ZH6Cvt9xOEK5g57dxez77XKd6NT6arV0zxGgu3Kb+VlVdHjpRIg9TEkzLlmXHj0EHkFUwIE
-4JHlocdunDzvdzyV2ig6oe4tkX/ODAzfWj/N+LX2NQvJeww9PAQyNkF1saP9HkK6GgCFCOXySWXQ
-QTWA2vu2jU5tBEy32UFQUieQEm/yw9moRN1NRTy/DIIqeh7VAti21HwB+0dyKHW5jEHHbyhrdy3O
-8FZDzI4lQpT79oo5XSoMrEns7nIzQkJvEm4YksGOspYGakjq/YqG3Fg9AHryQIY6yKTPHp6xY1LV
-IFBwZhY2N3j8v73+r1amebKwfnkCUsQEeezQOCB+tUNehtW1hF3r+bU6mkHZ+H/JbdHSlnfutUtP
-g4QNX68r3QSYdQIUTCER5X5EJOiV4kN9ag2iUQuqB2h/nISOyHkKPN2jIZHQW0r35C0DgG1bBLUf
-n0A1LWZsz0i4aBMoSKCm3EysbdTPYEtGehNZs06iELp72bbRtOfNeDYn1mqzBjeMl7BbqbV+wwVJ
-614PWnez4olsJoP1QHasc/i5jpOqwb8JSBotqryVXKuB/xZbXIR79EC3ZjK2Ud8DQfn5OfCt6E0r
-jH6aWk3s/b8RGo4TWv+SBwTHLYSpTn7LPuMwCnl1HWkHgI8ZsXxQStQcvZw9XwVNQtLEVTmhFfSG
-6rKsOXrjoN3Ci0E1ZOKBsEXNd8NJNmIYads2FvwaR3yqIA85dARwhA2JnseJ8f4HX6V5DIbf8fPi
-a5VO+6QVoaGN4fioQiAWst/f1sw5wzSYiAAezxfRS4mEG9e8KBYFAikuLWwVddHifoZrkdmt+G57
-S3CvUfJfUL1pQ5UcgaN45UFOkIC81oH9RN8krG6BqqIAxP6BE8rQYH0cV3ilUHhUfplga2zAieMt
-9kNapnPsmzdfvjAWkqmlx9o0JyRxKRa09wLUWmjW2oP3YGFuzqdnATWE1SJZd63M3hjQDWINJ5OQ
-/bOBNNhwTJgPnVy7T811kI+R3zlgfK3b8m0dh3kqLmsbOnb0dHUbC49QDR38C3WFzp8vf+wLGylD
-0Ex7GvrUP8cqtgNofkKURuBWq/pQdawQxj2KeKPXoaNRRJSagd4BmBvwvhdoobEVMuajfTb9oSIO
-29pGZfrx/ziQylUH+PfTDc6WWXfft9yFkhfwu2L6SxapATL1wZgQ5lWD0CUm9WQWUYuByC0bQs6t
-uHpnV+T2YDtY9aLcfAeLYMBnSX8Wu3lVV/SvDXk1vMpOi811JK8qlWFmbDbSqwzIuooaTXT2OpMI
-etsgiBcN1eqTqu8Jbd2BYsbcYA1ndD0uPZ9+JwZgfvtNctYiPllXwruS4QGkE40z0smhziVF25pg
-1WvGmk/RgxoVBE2r4QCAIQZdCr3j6LD+yJ1p8TEJFXOVHigTetSMG7I3A7amPLAV8Me4OLNRRJ19
-1+dshcl/9/OCXKoZQV8k1ljQrPrTUFrvqezp5G+nd9EEC7SqsVvIITjjtjeHc9kn0KaW+AU+2B/T
-OgVCAxJ1wE0LH+/2O5UId+ScVJC/u1dBccJ63jhWvPVZLCe/faP4L5dvQl0aJI2LwPYaT61eakn4
-ca2xGne8gL46xSUFnQWmFKkvHcsnY/Qet45R8JsxOXjtHe/PY2KNGdP7DNKPQ71LTZ6QUzap/2xA
-jA4fV6eLCii5dFtn109QGd7FfRp5uJ+RvMOvVfG0dh2YQNB2AUBrzemDXj+eZLRBqqVXtsknQjrS
-RacLqqEqZDpfdhMSbySqRcSKTXLNjwUDX9sQhpRuuL44PJrRmgO4cs65dU1TzrkueIaxjjZHKtrR
-d34+YsYBweZPAnZ97RM445LQh0s/I3VBtL5wHGNrWFnOrRABZ6K6vQG+hWbUXTnc3HGBHcodBrOR
-lbyjkr26aodH3x5EyhIEltChErJda2TgVeVQUHuqp2u3WG+ySbu8kkHtVm4Wd3TOzm4FxiGaCwWc
-LW95Wri3SKA0QKzsvKTJ7wMXaierfqiWX0xKJKw1tL4WfNLnAEVPYE7nLdUqbQ9OphL8kE29WTLT
-nfjnfLsM+jF+ZTLyfF2EKavUp8E5SWkrbIzHDF+ywFNYLYcOmaFEQVbs34jHuMXURQixsctrosVh
-rOI/bj8Rprrbsnvq7aoXYxfc+BEld390089D2KdqvS2zT0kb9ioioyG0NHzsK9K0DrcillPKwy8j
-rFN8g2avB+KucpjrLLtaAnHGq5vKqJ/DgV6hH6Nsu+KEIQ9y9PoqXgxY/RhBXkg0Md77yGjnS2Zn
-fdzr0k+RJYqwcKit0/2yEa+7Ya3MaOKXiffNZyvXrRiB4/qLUw3GMAfBpOxHiU3t9vf8zWunSCQH
-hA+6NihDmH1FH8RVxaFkls28hMpQZtKB2Q61cfGaoRxy78TC2qw/fhO6h4YotxN4hP3VqdLClqSA
-g1SWeoPuVMwK06QdxLZBfLo3EP0JRfgnU8vY/CRxl0yiaGvGw9pcRFSJSlnf9RYo/OqP4N/4Iazd
-/ee0yovcqtZI4/uorlSWLhmN2VfCpqZ/o/drOAePvIruCh09S12PW8BSbP903yUH6Dve9fk5UydI
-veZ2dDP3bhvhKQDn7JycsD5mmuZdUcgXZ6zNb3jVq4kj6JtvTol5X6ByUeSIvcrD4VmfxrLf8bnN
-jniz+N9zLG1eOJML9aECqBwH/Dyh43AwIFDNdf0B5WqdGOljatGPwcr/ijs1lpQ34UEOpy2mKqIR
-5hsd4FnWZqEEKKjL32fm08yiLSM+tzjmyCjEox8aY3N9tHLskPOAm4VjPSMzyN6A7jG4JlkBtyIK
-i3Tdtj9Qf8hyk6Yl8tRpE3ABo99g/XevHReosHr7mpBIjmaXwP0ZnjGu69RhtYzE/zpNUlzhm1FM
-McHgZ6FryR7B9jHS1OL5JRaOz4Tb1Gm6VpUkWbxcKg+pCnm6MenKpuDHW85cdaVdhTMkhhWlwyrf
-nCZMsOp0fSgYggVLlmGZpGJON4JGp1Uv8KXSGluqRvXfA+nPpT218hnXz9XfnTPQp+xgBjrzciJW
-kMyriqZVZqIBDoxVhVQYpzWEZ8hP4ZK6MLlXFz96exHM3toPeVvrs5HvPCb/LaUA+VfrAxGt+caF
-91DG4Za+piKcA00ab0RBRw2Ncv6JGY3dkokFRj0vYvDKB/7eq5VwaDZIbS+UBhkzPRxIWpO+5lKB
-gF4FCRymbA+2r9zpy1yHnV0M04xsA+ud+hpWnwcegxv1iOlnkJdAp32f8VO6ut44VYzdlPFL3i8n
-xXFu4Xi4oQymCx8hjXvdasquXgWVlSYnevibOoppP9nNyhsYSQNkDRztItsOUg5uVz4L3iJ3a6Fe
-hR9bppvIV6JyYnRXW+xckRj0FH3K5Jv5wgQh0HvMJkALFIUYRTZZ96qEm6vcv85P5HwTfgLz0gZ+
-ivMpBpc3UGSwazm8uAfOIZSIzMl/YDO+MxsAx4b0p7d9LtqBIug1rS3yWTQpggweQkxaTaEbeWO4
-eXDmDAEBNy73etlLAKjk9Q9N74aU3A5x+R5EFkfK1owsSH13TeK5QpJ22lliJ5Y7/0u4K0k2v26Y
-1BgvBssmEeIGW3CZzvuGYX9Da3DcAViTkLjja4tOcPEb/NAmEVBZRTioA2ewzwGNLtnuMW7KBZNP
-cyLkjeCIFPpoqCqSengiwtd+rL+CfVVvwNhttA+R4nrEjAvMMcgowTO6OhanGWmrOPJzKSxh6T0G
-wvBDROMO0P3ZrgVN5wHSLx0UROMLIfbHCci+5gSkojCH7KgfmfLYIATZq6eKk5Rli+LfE+e=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute;
+
+class CorsPolicy extends \Google\Collection
+{
+  protected $collection_key = 'exposeHeaders';
+  public $allowCredentials;
+  public $allowHeaders;
+  public $allowMethods;
+  public $allowOriginRegexes;
+  public $allowOrigins;
+  public $disabled;
+  public $exposeHeaders;
+  public $maxAge;
+
+  public function setAllowCredentials($allowCredentials)
+  {
+    $this->allowCredentials = $allowCredentials;
+  }
+  public function getAllowCredentials()
+  {
+    return $this->allowCredentials;
+  }
+  public function setAllowHeaders($allowHeaders)
+  {
+    $this->allowHeaders = $allowHeaders;
+  }
+  public function getAllowHeaders()
+  {
+    return $this->allowHeaders;
+  }
+  public function setAllowMethods($allowMethods)
+  {
+    $this->allowMethods = $allowMethods;
+  }
+  public function getAllowMethods()
+  {
+    return $this->allowMethods;
+  }
+  public function setAllowOriginRegexes($allowOriginRegexes)
+  {
+    $this->allowOriginRegexes = $allowOriginRegexes;
+  }
+  public function getAllowOriginRegexes()
+  {
+    return $this->allowOriginRegexes;
+  }
+  public function setAllowOrigins($allowOrigins)
+  {
+    $this->allowOrigins = $allowOrigins;
+  }
+  public function getAllowOrigins()
+  {
+    return $this->allowOrigins;
+  }
+  public function setDisabled($disabled)
+  {
+    $this->disabled = $disabled;
+  }
+  public function getDisabled()
+  {
+    return $this->disabled;
+  }
+  public function setExposeHeaders($exposeHeaders)
+  {
+    $this->exposeHeaders = $exposeHeaders;
+  }
+  public function getExposeHeaders()
+  {
+    return $this->exposeHeaders;
+  }
+  public function setMaxAge($maxAge)
+  {
+    $this->maxAge = $maxAge;
+  }
+  public function getMaxAge()
+  {
+    return $this->maxAge;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(CorsPolicy::class, 'Google_Service_Compute_CorsPolicy');

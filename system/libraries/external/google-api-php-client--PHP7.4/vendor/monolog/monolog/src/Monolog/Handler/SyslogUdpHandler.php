@@ -1,96 +1,127 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php declare(strict_types=1);
+
+/*
+ * This file is part of the Monolog package.
+ *
+ * (c) Jordi Boggiano <j.boggiano@seld.be>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Monolog\Handler;
+
+use DateTimeInterface;
+use Monolog\Logger;
+use Monolog\Handler\SyslogUdp\UdpSocket;
+
+/**
+ * A Handler for logging to a remote syslogd server.
+ *
+ * @author Jesper Skovgaard Nielsen <nulpunkt@gmail.com>
+ * @author Dominik Kukacka <dominik.kukacka@gmail.com>
+ */
+class SyslogUdpHandler extends AbstractSyslogHandler
+{
+    const RFC3164 = 0;
+    const RFC5424 = 1;
+    const RFC5424e = 2;
+
+    private $dateFormats = array(
+        self::RFC3164 => 'M d H:i:s',
+        self::RFC5424 => \DateTime::RFC3339,
+        self::RFC5424e => \DateTime::RFC3339_EXTENDED,
+    );
+
+    protected $socket;
+    protected $ident;
+    protected $rfc;
+
+    /**
+     * @param string     $host     Either IP/hostname or a path to a unix socket (port must be 0 then)
+     * @param int        $port     Port number, or 0 if $host is a unix socket
+     * @param string|int $facility Either one of the names of the keys in $this->facilities, or a LOG_* facility constant
+     * @param string|int $level    The minimum logging level at which this handler will be triggered
+     * @param bool       $bubble   Whether the messages that are handled can bubble up the stack or not
+     * @param string     $ident    Program name or tag for each log message.
+     * @param int        $rfc      RFC to format the message for.
+     */
+    public function __construct(string $host, int $port = 514, $facility = LOG_USER, $level = Logger::DEBUG, bool $bubble = true, string $ident = 'php', int $rfc = self::RFC5424)
+    {
+        parent::__construct($facility, $level, $bubble);
+
+        $this->ident = $ident;
+        $this->rfc = $rfc;
+
+        $this->socket = new UdpSocket($host, $port);
+    }
+
+    protected function write(array $record): void
+    {
+        $lines = $this->splitMessageIntoLines($record['formatted']);
+
+        $header = $this->makeCommonSyslogHeader($this->logLevels[$record['level']], $record['datetime']);
+
+        foreach ($lines as $line) {
+            $this->socket->write($line, $header);
+        }
+    }
+
+    public function close(): void
+    {
+        $this->socket->close();
+    }
+
+    private function splitMessageIntoLines($message): array
+    {
+        if (is_array($message)) {
+            $message = implode("\n", $message);
+        }
+
+        return preg_split('/$\R?^/m', (string) $message, -1, PREG_SPLIT_NO_EMPTY);
+    }
+
+    /**
+     * Make common syslog header (see rfc5424 or rfc3164)
+     */
+    protected function makeCommonSyslogHeader(int $severity, DateTimeInterface $datetime): string
+    {
+        $priority = $severity + $this->facility;
+
+        if (!$pid = getmypid()) {
+            $pid = '-';
+        }
+
+        if (!$hostname = gethostname()) {
+            $hostname = '-';
+        }
+
+        if ($this->rfc === self::RFC3164 && ($datetime instanceof \DateTimeImmutable || $datetime instanceof \DateTime)) {
+            $datetime->setTimezone(new \DateTimeZone('UTC'));
+        }
+        $date = $datetime->format($this->dateFormats[$this->rfc]);
+
+        if ($this->rfc === self::RFC3164) {
+            return "<$priority>" .
+                $date . " " .
+                $hostname . " " .
+                $this->ident . "[" . $pid . "]: ";
+        } else {
+            return "<$priority>1 " .
+                $date . " " .
+                $hostname . " " .
+                $this->ident . " " .
+                $pid . " - - ";
+        }
+    }
+
+    /**
+     * Inject your own socket, mainly used for testing
+     */
+    public function setSocket(UdpSocket $socket): self
+    {
+        $this->socket = $socket;
+
+        return $this;
+    }
+}

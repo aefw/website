@@ -1,60 +1,83 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPxS2DvLWmulQ3S+YjaYmQfhUohfJhks30T8vEgC1HOzO+bdahiVS0l/hxcFZGUYc4ROGKJM5
-13VByd5gvnUbHfoyDsx+AJBwhOBi6WrpXlmS+rDceuxQyT3SpVlk28h0tWo/T+kR/gh8wUQLm/Bl
-/Pufs2kk2lD6EWZqM6c4bYCOREbA/eeYf8VDOzA/4yvxlSY4J4hxyDWEURwxj0JeonaaX7+VcLSk
-I4ZNfdaVQcStgoAoqFwYshsJNk3fQsdMVoTEf3wYX97IcktsNOeNM95f21lYS5CkDLI4g2o1fZvA
-1ULLM7eVsrQIdbsI+YC7YDHh1I7/HTWrR5Pw1ZuwEwl/eFSwYHPEhQmr0enRVEGDDPz6PRDkxCcH
-PLPy0nx613MQuZHqEDcQ3fj49X9q3cFuuQzsm4hZiHz0R/poHgTqMjhwGwkDD/h3MpOjxY27nYBe
-vKkCRn7kA2PYj9eIeKwSk2ud/QvuTBclsgODkra+YGTXcKh2WmG/FQ/Qone34H0maatvdjTeA0aR
-Fdkmue7gwTllK7MIusPcY+BwuVAw7fs0QUpvfcSTsC+miNbpwMOIM4tmKgWFUHxaayj+eyFO7O1U
-VmkQ+i39foaP19VbWQK3jLJ3bPwEXBb5LWtrwfFeT+GQKH+XVaa/tNKamzck7OXX1selGsbo8nv8
-xdI2eJ/QdnGDfBaR/fUzLCq8ahr29lrkf3UFqEplhTrEM9GTwLKL6mxmuIZJ3qyo/xKC+ELzSdOd
-pnwktE2p5/SPOobIJj4SvnYzq2rK0Qa9bgHB1+zGn0SckHzCtVv+UDHqXwC9E8DatcHPqK/zp6Ij
-axd/xMIqBkwo1If+k+W4b+8LkzeV6dCbfZq/3Hy0nS4gmN4rCCsSthSMARQ5YNSLMwcz6Gsm3ItX
-tKOoqLIVafHK8blygxyQ6HTJRyw/aXmJSiMfsCWf1DS9IT8se776Ky09mzGXOI+DRBvd5BqWjCCX
-W7y/v+KqYJz6XFc0bKeCDkuDh8dWDio1CRzf/uQ1PrmMQBRX9HuEMv3k7MqHXqhw69sTWRFl+TYq
-cgQM/mC9lfLTPrVanp2SNBSYSEMm/Yb9Q5pPEmF2AX8D0eocTRWOFNZMQ0JHdNOY+BOlC313VHEc
-9T2JAV2DJy9GY4O0/PCD1wRL9fcSUM+MO73MPWVSIyK+/JeUGHp65tWg3J69MEFdEKV1+JD8U0kQ
-S7AHGNtIwq3KsXIZ8XdgqEqNPI/i/Dx82DrPV5tt/bMf10CR9c1EPZ055ihcTGEVixVNJyNaMtRh
-NggbyJwEiWsH1B4NVN1d/7UsIp4ubxsb7NavzxXNZ9tFKfhRLwbrPt2HKd1em0qCnRFVKGNkpJF/
-7BK3hNd+OOy760FVIT/KaA3gI06oQGN8//fqgc292yjdYV4GkFFyNAZVQSngA/F2MhUbtOtFJWx5
-qqkSt+Gi7IZpB1Q3Sr9nbZ9V1Us3K61iswg6UaRzZkiInUdkMv3/46LyXxHNKYRS/jipvJUY4Cdu
-lwsXYApn52JM1HyfROKTNyt/KatsLVeaRJ2cSAs+onq1v4eV3iv7w52HXeRW7CS5ZxdMGccEzmsZ
-Y6jxZmPmY52PecqqB83wajU6xLNH4xNqQRgsW4o+oT7P6UBCmnYossbxqxcIhpyrjIOhpO7/Ru+O
-tuLfMwh9nsfTto/c4WJuK01Ram811LM58TQX2E9NymlE8q2nl4LkimaRtut18hCi7Xsb36R0Hll5
-tnII9Dr1UCs6rxLahpyD6veokNo9nOLTIJOPGgs62eBu5f/+Z9nAXj6nwlP/Fj1yVTOb5Zq5M77+
-ISKqbjJUjoXMqCD9YZ+WUrzWeKDYvL43qXB3/M4hcsf+oFjHiT2cZoRKSLdrrLryYHSAkJFAAO2a
-Oq4LLyc1qhHoBmJ2qywAbo2IZxLMBm8qMs99iFQCmh0kpKX1l3uQkutpX24L84yEcLoYyvJB2KUq
-cvr2fKy2W4IWmt3BZUKbn6OOrzho4+AUA1t+YDj474Os6DlxCX5hzNTuvf7tEsRmRQUU3CGjP1k6
-yvHcKFLc9Y2FApSU4mD108MEgYQEkdZY/itlP0F5inmB3MIYfCMuoWhetd5fg1j1Mhf2hGtJh8sF
-4pOkwrvzjusUKFVgSn7r6zxs0IDPU0pepyZuXk1x9rDuPA4w0IGSo/wkjVuqDTou7Oe2Y955a2Vg
-gzG8GTLsJRhOXdRBoPk2QGiQS/aRMtY6IU4aCuby7teDaRbcmhCoJqFfy3FuCZW7EZefE+YEzjp7
-Mg/9tbEFIiCc+gcu6dDLAHzAndXTEUYEoRLlozagE2/Vf3PabzH1H7uCwjqG90P2xEZUPs77qcwW
-iPRGddOmZB9rrDg7IpVPsbwDO+kHoreZdHf4UippH4WF+Czg9l9PvaY9PQImwr3YGpfUW3LGDVqV
-1iVzzcMW6bcVaUca7OgpimH2hl0QKNlRAASX2/DU3Htmjcznq4sUvCJpPW70BtY/JeOHkbANPWLw
-PZUYqhCYAk/ol++Ra84V+WQvKxeSy7z65gQGkouheVlMxI/vqw7P8s631+LCO2hikTOzRXPKEVU7
-c/dcrb70KFE8G6jrNJfI644tDFLwgc9ZS8MCaz+ofkpUvWxRGrsnWU1C4tivPaNygruvjcrjkqTX
-QNlj2gD2+gIIBfjYq+tERiMq6/Mp9rUN1BZLZoRTMJzeowZebndQxkaTiYZgZM5T/xIUARchGjEn
-K1nMord5WHdlfMgjBrQfQ6O8UJQGxz/XYDKVUh7e0gxBOvIHOvt6ucai+DIcYN8D3FDNLIloe0Ba
-TP1+SdxdmT/w740telH1xCq7pKZghFaF25rUFpvOQY41ztV982YzVJXfVzi82n5Ovb5XTPMvv8Um
-NX4qiw+8gW5STYyb4GuP0VS490jqyUMDlaA/vLXjpCehXjudYx7w/Y/e4f3HLN7l8hvDrKmI++kw
-xHDGnXJl/iTP7bWO5UlrxYPX/fGd1nQc/8rSi9c2QK/J86rPh/ho0Ko6j261DmOxWLlM1qxEIUHl
-Lt9S9yaHauz4bCF1LR6Hg4u/k9dC3JtRfBoo7a5r/mA0kSj8Ygjy8RY1Aco+xt4j1kXO/otrQkyp
-Uhk2XmEeyNf8Ca/BazAkvh8lI8Ok6JgPQlu/BRDZEgk6uk7UcX9f94BHeqOLFQwCn1UqOCakxctA
-KxH7pty//Z+Dt0kpufrZVznvq1vcHHI0grRGf3Fn3vu3vxMBF+kWdl3J/y87h1NYBLLai8g58zV6
-yFWLi4g8RvpIyqp9QELk0/DT9vYb0a7R0fwoy8R9uLOuu2+MPlnQS0vSgyRVQXyvR2ZyrHGrx6D4
-Y7Kxq1Wa6ZBo6yBK6BClc/kT4wfGyiD29tXNGb4cZ/xnkW2j4X7vco4CpQxdWZIdRRhQDxbdhRGt
-frUqzF+4CrqdPNC7Dwzw57gcUCCgNoWaLUJXHxyMh95YjQoy024SEOeW77c+lvP63MexUDmnJ8Lc
-KKPWY9Lc82dj8rBP0C8NfEj+WXvCE1M2GRFyHmqZyKid5vQnjutSXk1eCTvFkbve6OxJZFyHPW1n
-55mQMGcY6IDQtu7mkBlnppLN4PKZsxaBD0UGYxe2AlJdhP+8xoQ7Ds66BCLi7uV7kZCun7uBLDHe
-tgZDondfWSnyVG6aNOeASwaKrtgBQM/KJmDhRcAA/e8ksYuWMM4u/bSWOj9LEFA40qoAUyJ5Z8kt
-Olif7hJtZRgpjk118Udp/R/ERKkfOIh1+CvgGmmcTi6aOSCjaDUgxR1h5rVoPepbMudJeXHsu7xc
-ydbbEBWeuUq+6Tj1NDdaLfWWzf0wUwWYWqdtrJhjVxJCET5Xf7D5BoTVYuHvNtanQNdCsDzY83fJ
-DW8SS5sYLByKThJJtgHKMPg8jiqP9fOGZ/vBkTHMWOTd86MAiXUNNXwBvhbu3g3vF/AOTdZj8jK7
-YWU2gQKzWXwDJAnln3bQEGZKVSYB9/QONCBSYQEEV8Ey8CA0kzFZ+sA4tAx2kESeg7n8RMbltv16
-y24Sh6hU1lP4OM7wm2Rj1OyJc4Dg1bcgYDl5OBGoS67e
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Apigee\Resource;
+
+use Google\Service\Apigee\GoogleCloudApigeeV1FlowHook;
+
+/**
+ * The "flowhooks" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $apigeeService = new Google\Service\Apigee(...);
+ *   $flowhooks = $apigeeService->flowhooks;
+ *  </code>
+ */
+class OrganizationsEnvironmentsFlowhooks extends \Google\Service\Resource
+{
+  /**
+   * Attaches a shared flow to a flow hook. (flowhooks.attachSharedFlowToFlowHook)
+   *
+   * @param string $name Required. Name of the flow hook to which the shared flow
+   * should be attached in the following format:
+   * `organizations/{org}/environments/{env}/flowhooks/{flowhook}`
+   * @param GoogleCloudApigeeV1FlowHook $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1FlowHook
+   */
+  public function attachSharedFlowToFlowHook($name, GoogleCloudApigeeV1FlowHook $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('attachSharedFlowToFlowHook', [$params], GoogleCloudApigeeV1FlowHook::class);
+  }
+  /**
+   * Detaches a shared flow from a flow hook.
+   * (flowhooks.detachSharedFlowFromFlowHook)
+   *
+   * @param string $name Required. Name of the flow hook to detach in the
+   * following format:
+   * `organizations/{org}/environments/{env}/flowhooks/{flowhook}`
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1FlowHook
+   */
+  public function detachSharedFlowFromFlowHook($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('detachSharedFlowFromFlowHook', [$params], GoogleCloudApigeeV1FlowHook::class);
+  }
+  /**
+   * Returns the name of the shared flow attached to the specified flow hook. If
+   * there's no shared flow attached to the flow hook, the API does not return an
+   * error; it simply does not return a name in the response. (flowhooks.get)
+   *
+   * @param string $name Required. Name of the flow hook in the following format:
+   * `organizations/{org}/environments/{env}/flowhooks/{flowhook}`
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1FlowHook
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudApigeeV1FlowHook::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(OrganizationsEnvironmentsFlowhooks::class, 'Google_Service_Apigee_Resource_OrganizationsEnvironmentsFlowhooks');

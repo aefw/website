@@ -1,63 +1,104 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPz3K9l/ja7URCnqQinztxf+lo9RHEEEzHiWr1VpNuT1awCGLBWdbAC1fqxMhD+fjVUywL3sv
-3qPWaCw+5cBWJkrxU6aVSF5XVCmZC1JMn8otajiXzN5ZeZFNKTH0otl3j/lP6rceGsogUbclXsk4
-rIwSSawHalVatAjkvRc5OAdNOwRN+4uIx1iuxXy2SWqXEGkPJ09hJucvWuz4ig0NmGZvLkOgVktV
-OXsC2Ps7Zv9iHlQQnvzTLdRbMWEY/Afnn0r2Q4Ips6VZXwHLqf5noqBCDihYS5CkDLI4g2o1fZvA
-1ULLNtKTixrFZUQWalAGY5JLdGm9+ZtMug6JnK3lZ252VOq7ROt0+kv+RiFNzcs8FXHnLRedUTPi
-AhWnsoHJ3Gmh20UxG/E4c66or4ZontM9uk67HxXAmmNCOyflReaTphvWxkritcsVWh7KtNR6jGQ8
-J92z4oVcTMzx6h/PaFj+dmwA1m10dbYs5tWFS4OJJMDAu4To4TIXpCaiT5TIWYukTpdN2VCaqWmj
-EfEtn9ilD5r7RJWDyz/Y5KWQt2I20T+rLGI9kVFgJKOgN0UGzvp0Z1ZimKqpNtM2gW/3C1gm1CCB
-zS2dnKHkofBFW0WoyLs5VasqVWuN03XxEu0uVx/ZBD8BgWAWaS/RgJF1j0kvNwjZbBEL1RuoF/yT
-n1Ie0edKvE2Rva/tVW6JoVzlMeHo89Wr4Q2LlWAj9R80Scba1OKLvoWdShMKWZPDul9mtH+r0WgP
-ld6Xzxe/T8dJcufP0dowPtBmmu8IcsijGKcO6wPN2WLu2m2NuOADBgyqyOdb85C9eRsG2SCmNbxi
-YJ72l6n8TRFcq+M2Myr1J6PbTamNiyxmc3R9aAYskNPx1P589UneqcUnV4ohejnleWRXTet9dJzt
-XEiwbOADQyBL3EyOu4UOWob4+3T3cFVuUH4F1b8HGZ0BdTGC3iyn2jZdO0UvH1RO/3PQZddH4u1I
-wlWBwvpXsBsuo7osanlxK0MzbP7/+GZx8hiPeeCHod4l1hYuLUqsPKPQrE9Z99dF4RC+nLXOtvaU
-xrqvz2XWN/kDHRRIgLC1uJYAVy9qdpF2mwbNRD4cDwaz63bSzGhq06qQApGrn7RCqyrTfe45B7/J
-3kV8uxgBR87Ag+hb0ytBPRGBuRBFvTl5fey6/d6vAMo4PsiReM/OSDsaJUNabg+mw/WHdUlGhEPr
-Iu7xvL0N829zgEKPzGO09mtBpfdxE5nY5eujpPOQoba5X/FdFWKG4dxfX5Dq22yO7+ZiQ2apXcqj
-1SqR0aBhCzpCS0Nvh/vggCj5gvetJB9LxZYBGIYfBUIXOYVpIGwsu+MV0ZFMxnJAc3FUn+seg+m7
-zr3/8LKEN3ApVHmXU6dZ0EAjdw+NS0EbYjMJpkBo38HmqHWMyxL0WomWl4SDemAw1unZw931kAdx
-wWj6HyieCWPwsLgkIqZ4hw8OvYNXcKpI6rVMPLKOfk4FA0dnVSbBBByivsDxrptb1+a8pNUM1Ogm
-Snd6Ra0XMmZJqjLEiPoHr9SGU/1FDvR1aBJEMwj093CCca434ymRaATN2z8WUYuTYEVhwY9S3Z5R
-3ynxFmv/sJCc0QsVaBZifOeK/BupbwR+WuioeyytAwt6EamT7EBXT6OCN9N/UCUhRW1iMx3gr6CI
-3+ZuTGmfwIcG6GwXbfu6nZg4pfWcdUFsRfueNrClT///fjjaY4BsVpQlQRIaJYOn3s6mmLlfwCNe
-nmxu39gUsOkdActrx2g25l1oJOtNsKnTTKUiGsCjXxOvla7uxm15GUt46RV2tDHto7mDlVOvyMV2
-akUotCOpTfjQ+FBIdiBqlOfK2D2drAqxUX71rjO3Vz/RDlVERLmovMpL547irset/M4e/X6LyIvH
-8hJ2KF53caw9//+RcwvtyWD5tEIdTQPnfEdSe3QA5xZYlnI+MyyUYXIiDBvjegVr2r1gZJh/U51d
-4WrY4g+7Tnd30/3pb1VauKb+rW4BDFxTjvp0UZJdhpuXCtpHyhbolQs7GH/iHCc7KWCBCZPO/lDF
-DM1w/zj9/3xclnzG8TcSAygKXdwPejjQrwJwhDjWQJhbl8b7g7C9mjr6zZ16x2dn2TImFxTiku5G
-7smHeYuZ9CghKi06BhXXAioc6RCmo6Agekk45T0GziWEVpHl1/su2Sx/XYuBx6Erd/ms7cZvAkkK
-W/sT7Cj41cxvvFyPbd9D5boRf0D2g7KbucYvlDGm5YQxt/9vwgkGmzyY0ELfzxA0eUWtGYTkQ892
-gNj5rVwm6AFKfwHpbKwpfMzRu7kVXQY9bK60L5/FV3Xa5Be8IkBie4/5qkm9hmyvzh4xQBXAwVG4
-MZtODU9Xv5IG4OzU2s7yu1Vw33Cveap9vxgN0U6tRq7/EAQ6Aw9YOe50xJVe4NNIBKZv0jXIaOVf
-1KP82hY01Po6+/ghXJdmxt4ZyttEnIdy/j9C1D0pHC34WZhVrBsKnn36miEmARY0sCnLwV/p/SU+
-zKRX7RVEpy7upWTGv/YTdAfZSqxbB05MuRxpAb6ZWa8Lg2pUsWSxkHmon02jfjlMvXkVrIAa4w/h
-yi3kcHA7Eo+CoRFpXYxN+eyZdeByx6R0vI8Hzsr+Y8ALh5dnSQfKbgrmTyyRXMA01dtlsbhlUNk0
-06rcQEAjdyCkVnxGPUwJWa2d4TDDv80C21OARktMt0Y4E1PmfDnN51B0cZ9BliU1HUK+viVytVQg
-o7ofUfJtdjNcZk478ZrZ5/fsr8G4POplyVoC4E699NEG+O0o9KROmz1bH5sVJWpZKIbtQDCaSWo3
-4EC3GTNzMO8HzTqHMgma79SAf/LfE9+muRHBQAlqZvGX1WuDk14uSTION+K7Xv0bxJXicv5ZTJU8
-RpvbI1mZLcZWGwp4YeNBpd7ulIj8MMjLkZJXkLsrxjKQc7AVY28Bci4vQabppQv7OB6u8sUzw4tF
-ebKnZLbaXj7gFHcKBEzWT0YUUMSTWmsQA7l5vRqnoWakIK+J04iOfAgTzgJQ95nFiI1kHz8aNEv1
-6McvvPFjCo7XvdkC/Qc4ZiY+5AWhXvjolhzKtN0M8kQi4NGje3+g9xV//9MwfXr3NAib95pR33i8
-WiYijZNHsBltiutkV0LGndiPOqOe03rAaH8C1mVmkCfPZUM50tR8LAytdZ0+vHk0RY2amzk7GpyO
-r20nTDGIVOA7aIXnWZeCSngEOuoUCEATGJBCs5wYj6xhOOh+Kjt/gYId4HW9c1G00RaRqEpAFH+o
-h7ZNyMk6EaI0q4y19cLHz2H1zft+ZVMnoosD6oLUG7hwETBqWjv43/IhrKh52qduYl6Rr0hYhd+x
-4qaqCHlvv03Dr4WKyeQC0NhBa+zJZb0FSpGOUOPuwoSOw80dniDzwJbrD353YRK7v1qXA6n310fw
-Xu8r8igKZPP3Ua//yWXq5rGdLzMgOYLK9BxLnvF+dK4eYfR9EwkwfsPrn0E5WPtIRFxVcORDswGq
-a9fltFFlD4ZdGswP/HjwgmIOs44VyYDGeKwg3qrCegKwY829aFwE4EtB9W0o8fRMmlq73SnGw8JG
-mZB6bWG1yvW8KEdRIf0g+A//yGhkFjQfUGwCUWs/O7zNUcel0JY1IBjCEinCoUKASJ/o/fExTl0X
-MvcJrQmLosTC+dhRR4VQPROwPCo55HP9clVp6kqJf9XKe3zTenpPDOSH9qExgj1aS1hMtR1Cp6GD
-qdfi+03ssXupNnfI/Xfu39v+YtZFC8F9s8X0jOwt3IX7mJSJGZPY6FyuPLKK3nV8D0IQjfYGgNEL
-EU5MYS70Wkk2NK4aTDwpnnaLkWtpmCl5S7ff/LBzLbam/ien5eXY7nBWVdRkvnG/Bd4EbaljkAuN
-NqorCagSJN0os7nG3QqV6WAAW3FEEbHhJOjy3CVnvWht9GA/MYQ6OEKxpXw9SwZ3wd4stXPn82Op
-mWOvZFxkIgXJktLR9dc0Oi2Tey+HPhwjpUjz62juUSjJ5Igdzv4pBodmz/QQV9jr0oYW2q6vA0S/
-IVVVWc59c9ml8yebssZ+JlYU1476RaDYTIp7hKnCDXFhl0x6tNWCmbxT4CkZbOBIGy5KmoL56yoh
-Vkn/UlXDNy7jdt4uO9LfS5WEz6oSEoIbAD3FzXPebfzwSMX+NmZXVLExtx3NbtELhZGjCZbGtZLN
-EhubN3ATq26c6e1VNbPkAL755mNjeR1Q6m8RgqXsnFh4yRt9wnRnvS8Hx4y35IACmDC+n9Y/425k
-rMqP+7wSawG5vhdk7NQ+h8RZ+ODBQYVKsKDsiDhXGN2iOysPWW==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\OSConfig\Resource;
+
+use Google\Service\OSConfig\CancelPatchJobRequest;
+use Google\Service\OSConfig\ExecutePatchJobRequest;
+use Google\Service\OSConfig\ListPatchJobsResponse;
+use Google\Service\OSConfig\PatchJob;
+
+/**
+ * The "patchJobs" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $osconfigService = new Google\Service\OSConfig(...);
+ *   $patchJobs = $osconfigService->patchJobs;
+ *  </code>
+ */
+class ProjectsPatchJobs extends \Google\Service\Resource
+{
+  /**
+   * Cancel a patch job. The patch job must be active. Canceled patch jobs cannot
+   * be restarted. (patchJobs.cancel)
+   *
+   * @param string $name Required. Name of the patch in the form
+   * `projects/patchJobs`
+   * @param CancelPatchJobRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return PatchJob
+   */
+  public function cancel($name, CancelPatchJobRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('cancel', [$params], PatchJob::class);
+  }
+  /**
+   * Patch VM instances by creating and running a patch job. (patchJobs.execute)
+   *
+   * @param string $parent Required. The project in which to run this patch in the
+   * form `projects`
+   * @param ExecutePatchJobRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return PatchJob
+   */
+  public function execute($parent, ExecutePatchJobRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('execute', [$params], PatchJob::class);
+  }
+  /**
+   * Get the patch job. This can be used to track the progress of an ongoing patch
+   * job or review the details of completed jobs. (patchJobs.get)
+   *
+   * @param string $name Required. Name of the patch in the form
+   * `projects/patchJobs`
+   * @param array $optParams Optional parameters.
+   * @return PatchJob
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], PatchJob::class);
+  }
+  /**
+   * Get a list of patch jobs. (patchJobs.listProjectsPatchJobs)
+   *
+   * @param string $parent Required. In the form of `projects`
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter If provided, this field specifies the criteria that
+   * must be met by patch jobs to be included in the response. Currently,
+   * filtering is only available on the patch_deployment field.
+   * @opt_param int pageSize The maximum number of instance status to return.
+   * @opt_param string pageToken A pagination token returned from a previous call
+   * that indicates where this listing should continue from.
+   * @return ListPatchJobsResponse
+   */
+  public function listProjectsPatchJobs($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListPatchJobsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsPatchJobs::class, 'Google_Service_OSConfig_Resource_ProjectsPatchJobs');

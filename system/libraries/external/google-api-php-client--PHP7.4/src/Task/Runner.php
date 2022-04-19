@@ -1,106 +1,287 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-VTm=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+namespace Google\Task;
+
+use Google\Service\Exception as GoogleServiceException;
+use Google\Task\Exception as GoogleTaskException;
+
+/**
+ * A task runner with exponential backoff support.
+ *
+ * @see https://developers.google.com/drive/web/handle-errors#implementing_exponential_backoff
+ */
+class Runner
+{
+  const TASK_RETRY_NEVER = 0;
+  const TASK_RETRY_ONCE = 1;
+  const TASK_RETRY_ALWAYS = -1;
+
+  /**
+   * @var integer $maxDelay The max time (in seconds) to wait before a retry.
+   */
+  private $maxDelay = 60;
+  /**
+   * @var integer $delay The previous delay from which the next is calculated.
+   */
+  private $delay = 1;
+
+  /**
+   * @var integer $factor The base number for the exponential back off.
+   */
+  private $factor = 2;
+  /**
+   * @var float $jitter A random number between -$jitter and $jitter will be
+   * added to $factor on each iteration to allow for a better distribution of
+   * retries.
+   */
+  private $jitter = 0.5;
+
+  /**
+   * @var integer $attempts The number of attempts that have been tried so far.
+   */
+  private $attempts = 0;
+  /**
+   * @var integer $maxAttempts The max number of attempts allowed.
+   */
+  private $maxAttempts = 1;
+
+  /**
+   * @var callable $action The task to run and possibly retry.
+   */
+  private $action;
+  /**
+   * @var array $arguments The task arguments.
+   */
+  private $arguments;
+
+  /**
+   * @var array $retryMap Map of errors with retry counts.
+   */
+  protected $retryMap = [
+    '500' => self::TASK_RETRY_ALWAYS,
+    '503' => self::TASK_RETRY_ALWAYS,
+    'rateLimitExceeded' => self::TASK_RETRY_ALWAYS,
+    'userRateLimitExceeded' => self::TASK_RETRY_ALWAYS,
+    6  => self::TASK_RETRY_ALWAYS,  // CURLE_COULDNT_RESOLVE_HOST
+    7  => self::TASK_RETRY_ALWAYS,  // CURLE_COULDNT_CONNECT
+    28 => self::TASK_RETRY_ALWAYS,  // CURLE_OPERATION_TIMEOUTED
+    35 => self::TASK_RETRY_ALWAYS,  // CURLE_SSL_CONNECT_ERROR
+    52 => self::TASK_RETRY_ALWAYS,  // CURLE_GOT_NOTHING
+    'lighthouseError' => self::TASK_RETRY_NEVER
+  ];
+
+  /**
+   * Creates a new task runner with exponential backoff support.
+   *
+   * @param array $config The task runner config
+   * @param string $name The name of the current task (used for logging)
+   * @param callable $action The task to run and possibly retry
+   * @param array $arguments The task arguments
+   * @throws \Google\Task\Exception when misconfigured
+   */
+  public function __construct(
+      $config,
+      $name,
+      $action,
+      array $arguments = array()
+  ) {
+    if (isset($config['initial_delay'])) {
+      if ($config['initial_delay'] < 0) {
+        throw new GoogleTaskException(
+            'Task configuration `initial_delay` must not be negative.'
+        );
+      }
+
+      $this->delay = $config['initial_delay'];
+    }
+
+    if (isset($config['max_delay'])) {
+      if ($config['max_delay'] <= 0) {
+        throw new GoogleTaskException(
+            'Task configuration `max_delay` must be greater than 0.'
+        );
+      }
+
+      $this->maxDelay = $config['max_delay'];
+    }
+
+    if (isset($config['factor'])) {
+      if ($config['factor'] <= 0) {
+        throw new GoogleTaskException(
+            'Task configuration `factor` must be greater than 0.'
+        );
+      }
+
+      $this->factor = $config['factor'];
+    }
+
+    if (isset($config['jitter'])) {
+      if ($config['jitter'] <= 0) {
+        throw new GoogleTaskException(
+            'Task configuration `jitter` must be greater than 0.'
+        );
+      }
+
+      $this->jitter = $config['jitter'];
+    }
+
+    if (isset($config['retries'])) {
+      if ($config['retries'] < 0) {
+        throw new GoogleTaskException(
+            'Task configuration `retries` must not be negative.'
+        );
+      }
+      $this->maxAttempts += $config['retries'];
+    }
+
+    if (!is_callable($action)) {
+        throw new GoogleTaskException(
+            'Task argument `$action` must be a valid callable.'
+        );
+    }
+
+    $this->action = $action;
+    $this->arguments = $arguments;
+  }
+
+  /**
+   * Checks if a retry can be attempted.
+   *
+   * @return boolean
+   */
+  public function canAttempt()
+  {
+    return $this->attempts < $this->maxAttempts;
+  }
+
+  /**
+   * Runs the task and (if applicable) automatically retries when errors occur.
+   *
+   * @return mixed
+   * @throws \Google\Service\Exception on failure when no retries are available.
+   */
+  public function run()
+  {
+    while ($this->attempt()) {
+      try {
+        return call_user_func_array($this->action, $this->arguments);
+      } catch (GoogleServiceException $exception) {
+        $allowedRetries = $this->allowedRetries(
+            $exception->getCode(),
+            $exception->getErrors()
+        );
+
+        if (!$this->canAttempt() || !$allowedRetries) {
+          throw $exception;
+        }
+
+        if ($allowedRetries > 0) {
+          $this->maxAttempts = min(
+              $this->maxAttempts,
+              $this->attempts + $allowedRetries
+          );
+        }
+      }
+    }
+  }
+
+  /**
+   * Runs a task once, if possible. This is useful for bypassing the `run()`
+   * loop.
+   *
+   * NOTE: If this is not the first attempt, this function will sleep in
+   * accordance to the backoff configurations before running the task.
+   *
+   * @return boolean
+   */
+  public function attempt()
+  {
+    if (!$this->canAttempt()) {
+      return false;
+    }
+
+    if ($this->attempts > 0) {
+      $this->backOff();
+    }
+
+    $this->attempts++;
+    return true;
+  }
+
+  /**
+   * Sleeps in accordance to the backoff configurations.
+   */
+  private function backOff()
+  {
+    $delay = $this->getDelay();
+
+    usleep($delay * 1000000);
+  }
+
+  /**
+   * Gets the delay (in seconds) for the current backoff period.
+   *
+   * @return float
+   */
+  private function getDelay()
+  {
+    $jitter = $this->getJitter();
+    $factor = $this->attempts > 1 ? $this->factor + $jitter : 1 + abs($jitter);
+
+    return $this->delay = min($this->maxDelay, $this->delay * $factor);
+  }
+
+  /**
+   * Gets the current jitter (random number between -$this->jitter and
+   * $this->jitter).
+   *
+   * @return float
+   */
+  private function getJitter()
+  {
+    return $this->jitter * 2 * mt_rand() / mt_getrandmax() - $this->jitter;
+  }
+
+  /**
+   * Gets the number of times the associated task can be retried.
+   *
+   * NOTE: -1 is returned if the task can be retried indefinitely
+   *
+   * @return integer
+   */
+  public function allowedRetries($code, $errors = array())
+  {
+    if (isset($this->retryMap[$code])) {
+      return $this->retryMap[$code];
+    }
+
+    if (
+        !empty($errors) &&
+        isset($errors[0]['reason'], $this->retryMap[$errors[0]['reason']])
+    ) {
+      return $this->retryMap[$errors[0]['reason']];
+    }
+
+    return 0;
+  }
+
+  public function setRetryMap($retryMap)
+  {
+    $this->retryMap = $retryMap;
+  }
+}

@@ -1,81 +1,154 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2016 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+namespace Google\Auth\Cache;
+
+use Psr\Cache\CacheItemInterface;
+use Psr\Cache\CacheItemPoolInterface;
+
+/**
+ * Simple in-memory cache implementation.
+ */
+final class MemoryCacheItemPool implements CacheItemPoolInterface
+{
+    /**
+     * @var CacheItemInterface[]
+     */
+    private $items;
+
+    /**
+     * @var CacheItemInterface[]
+     */
+    private $deferredItems;
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getItem($key)
+    {
+        return current($this->getItems([$key]));
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getItems(array $keys = [])
+    {
+        $items = [];
+
+        foreach ($keys as $key) {
+            $items[$key] = $this->hasItem($key) ? clone $this->items[$key] : new Item($key);
+        }
+
+        return $items;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function hasItem($key)
+    {
+        $this->isValidKey($key);
+
+        return isset($this->items[$key]) && $this->items[$key]->isHit();
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function clear()
+    {
+        $this->items = [];
+        $this->deferredItems = [];
+
+        return true;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function deleteItem($key)
+    {
+        return $this->deleteItems([$key]);
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function deleteItems(array $keys)
+    {
+        array_walk($keys, [$this, 'isValidKey']);
+
+        foreach ($keys as $key) {
+            unset($this->items[$key]);
+        }
+
+        return true;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function save(CacheItemInterface $item)
+    {
+        $this->items[$item->getKey()] = $item;
+
+        return true;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function saveDeferred(CacheItemInterface $item)
+    {
+        $this->deferredItems[$item->getKey()] = $item;
+
+        return true;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function commit()
+    {
+        foreach ($this->deferredItems as $item) {
+            $this->save($item);
+        }
+
+        $this->deferredItems = [];
+
+        return true;
+    }
+
+    /**
+     * Determines if the provided key is valid.
+     *
+     * @param string $key
+     * @return bool
+     * @throws InvalidArgumentException
+     */
+    private function isValidKey($key)
+    {
+        $invalidCharacters = '{}()/\\\\@:';
+
+        if (!is_string($key) || preg_match("#[$invalidCharacters]#", $key)) {
+            throw new InvalidArgumentException('The provided key is not valid: ' . var_export($key, true));
+        }
+
+        return true;
+    }
+}

@@ -1,59 +1,171 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-kbIj80==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for MyBusinessPlaceActions (v1).
+ *
+ * <p>
+ * The My Business Place Actions API provides an interface for managing place
+ * action links of a location on Google.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://developers.google.com/my-business/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class MyBusinessPlaceActions extends \Google\Service
+{
+
+
+  public $locations_placeActionLinks;
+  public $placeActionTypeMetadata;
+
+  /**
+   * Constructs the internal representation of the MyBusinessPlaceActions
+   * service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://mybusinessplaceactions.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'mybusinessplaceactions';
+
+    $this->locations_placeActionLinks = new MyBusinessPlaceActions\Resource\LocationsPlaceActionLinks(
+        $this,
+        $this->serviceName,
+        'placeActionLinks',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/placeActionLinks',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/placeActionLinks',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->placeActionTypeMetadata = new MyBusinessPlaceActions\Resource\PlaceActionTypeMetadata(
+        $this,
+        $this->serviceName,
+        'placeActionTypeMetadata',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/placeActionTypeMetadata',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'languageCode' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(MyBusinessPlaceActions::class, 'Google_Service_MyBusinessPlaceActions');

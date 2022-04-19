@@ -1,71 +1,128 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\SQLAdmin\Resource;
+
+use Google\Service\SQLAdmin\Operation;
+use Google\Service\SQLAdmin\SslCert;
+use Google\Service\SQLAdmin\SslCertsCreateEphemeralRequest;
+use Google\Service\SQLAdmin\SslCertsInsertRequest;
+use Google\Service\SQLAdmin\SslCertsInsertResponse;
+use Google\Service\SQLAdmin\SslCertsListResponse;
+
+/**
+ * The "sslCerts" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $sqladminService = new Google\Service\SQLAdmin(...);
+ *   $sslCerts = $sqladminService->sslCerts;
+ *  </code>
+ */
+class SslCerts extends \Google\Service\Resource
+{
+  /**
+   * Generates a short-lived X509 certificate containing the provided public key
+   * and signed by a private key specific to the target instance. Users may use
+   * the certificate to authenticate as themselves when connecting to the
+   * database. (sslCerts.createEphemeral)
+   *
+   * @param string $project Project ID of the Cloud SQL project.
+   * @param string $instance Cloud SQL instance ID. This does not include the
+   * project ID.
+   * @param SslCertsCreateEphemeralRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return SslCert
+   */
+  public function createEphemeral($project, $instance, SslCertsCreateEphemeralRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'instance' => $instance, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('createEphemeral', [$params], SslCert::class);
+  }
+  /**
+   * Deletes the SSL certificate. For First Generation instances, the certificate
+   * remains valid until the instance is restarted. (sslCerts.delete)
+   *
+   * @param string $project Project ID of the project that contains the instance.
+   * @param string $instance Cloud SQL instance ID. This does not include the
+   * project ID.
+   * @param string $sha1Fingerprint Sha1 FingerPrint.
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function delete($project, $instance, $sha1Fingerprint, $optParams = [])
+  {
+    $params = ['project' => $project, 'instance' => $instance, 'sha1Fingerprint' => $sha1Fingerprint];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Retrieves a particular SSL certificate. Does not include the private key
+   * (required for usage). The private key must be saved from the response to
+   * initial creation. (sslCerts.get)
+   *
+   * @param string $project Project ID of the project that contains the instance.
+   * @param string $instance Cloud SQL instance ID. This does not include the
+   * project ID.
+   * @param string $sha1Fingerprint Sha1 FingerPrint.
+   * @param array $optParams Optional parameters.
+   * @return SslCert
+   */
+  public function get($project, $instance, $sha1Fingerprint, $optParams = [])
+  {
+    $params = ['project' => $project, 'instance' => $instance, 'sha1Fingerprint' => $sha1Fingerprint];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], SslCert::class);
+  }
+  /**
+   * Creates an SSL certificate and returns it along with the private key and
+   * server certificate authority. The new certificate will not be usable until
+   * the instance is restarted. (sslCerts.insert)
+   *
+   * @param string $project Project ID of the project that contains the instance.
+   * @param string $instance Cloud SQL instance ID. This does not include the
+   * project ID.
+   * @param SslCertsInsertRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return SslCertsInsertResponse
+   */
+  public function insert($project, $instance, SslCertsInsertRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'instance' => $instance, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], SslCertsInsertResponse::class);
+  }
+  /**
+   * Lists all of the current SSL certificates for the instance.
+   * (sslCerts.listSslCerts)
+   *
+   * @param string $project Project ID of the project that contains the instance.
+   * @param string $instance Cloud SQL instance ID. This does not include the
+   * project ID.
+   * @param array $optParams Optional parameters.
+   * @return SslCertsListResponse
+   */
+  public function listSslCerts($project, $instance, $optParams = [])
+  {
+    $params = ['project' => $project, 'instance' => $instance];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], SslCertsListResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(SslCerts::class, 'Google_Service_SQLAdmin_Resource_SslCerts');

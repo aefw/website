@@ -1,63 +1,92 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Bx6Du/Ut
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ResourceSettings;
+
+class GoogleCloudResourcesettingsV1Setting extends \Google\Model
+{
+  protected $effectiveValueType = GoogleCloudResourcesettingsV1Value::class;
+  protected $effectiveValueDataType = '';
+  public $etag;
+  protected $localValueType = GoogleCloudResourcesettingsV1Value::class;
+  protected $localValueDataType = '';
+  protected $metadataType = GoogleCloudResourcesettingsV1SettingMetadata::class;
+  protected $metadataDataType = '';
+  public $name;
+
+  /**
+   * @param GoogleCloudResourcesettingsV1Value
+   */
+  public function setEffectiveValue(GoogleCloudResourcesettingsV1Value $effectiveValue)
+  {
+    $this->effectiveValue = $effectiveValue;
+  }
+  /**
+   * @return GoogleCloudResourcesettingsV1Value
+   */
+  public function getEffectiveValue()
+  {
+    return $this->effectiveValue;
+  }
+  public function setEtag($etag)
+  {
+    $this->etag = $etag;
+  }
+  public function getEtag()
+  {
+    return $this->etag;
+  }
+  /**
+   * @param GoogleCloudResourcesettingsV1Value
+   */
+  public function setLocalValue(GoogleCloudResourcesettingsV1Value $localValue)
+  {
+    $this->localValue = $localValue;
+  }
+  /**
+   * @return GoogleCloudResourcesettingsV1Value
+   */
+  public function getLocalValue()
+  {
+    return $this->localValue;
+  }
+  /**
+   * @param GoogleCloudResourcesettingsV1SettingMetadata
+   */
+  public function setMetadata(GoogleCloudResourcesettingsV1SettingMetadata $metadata)
+  {
+    $this->metadata = $metadata;
+  }
+  /**
+   * @return GoogleCloudResourcesettingsV1SettingMetadata
+   */
+  public function getMetadata()
+  {
+    return $this->metadata;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudResourcesettingsV1Setting::class, 'Google_Service_ResourceSettings_GoogleCloudResourcesettingsV1Setting');

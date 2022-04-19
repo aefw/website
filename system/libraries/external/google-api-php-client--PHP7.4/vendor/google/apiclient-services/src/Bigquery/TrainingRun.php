@@ -1,66 +1,116 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Bigquery;
+
+class TrainingRun extends \Google\Collection
+{
+  protected $collection_key = 'results';
+  protected $dataSplitResultType = DataSplitResult::class;
+  protected $dataSplitResultDataType = '';
+  protected $evaluationMetricsType = EvaluationMetrics::class;
+  protected $evaluationMetricsDataType = '';
+  protected $globalExplanationsType = GlobalExplanation::class;
+  protected $globalExplanationsDataType = 'array';
+  protected $resultsType = IterationResult::class;
+  protected $resultsDataType = 'array';
+  public $startTime;
+  protected $trainingOptionsType = TrainingOptions::class;
+  protected $trainingOptionsDataType = '';
+
+  /**
+   * @param DataSplitResult
+   */
+  public function setDataSplitResult(DataSplitResult $dataSplitResult)
+  {
+    $this->dataSplitResult = $dataSplitResult;
+  }
+  /**
+   * @return DataSplitResult
+   */
+  public function getDataSplitResult()
+  {
+    return $this->dataSplitResult;
+  }
+  /**
+   * @param EvaluationMetrics
+   */
+  public function setEvaluationMetrics(EvaluationMetrics $evaluationMetrics)
+  {
+    $this->evaluationMetrics = $evaluationMetrics;
+  }
+  /**
+   * @return EvaluationMetrics
+   */
+  public function getEvaluationMetrics()
+  {
+    return $this->evaluationMetrics;
+  }
+  /**
+   * @param GlobalExplanation[]
+   */
+  public function setGlobalExplanations($globalExplanations)
+  {
+    $this->globalExplanations = $globalExplanations;
+  }
+  /**
+   * @return GlobalExplanation[]
+   */
+  public function getGlobalExplanations()
+  {
+    return $this->globalExplanations;
+  }
+  /**
+   * @param IterationResult[]
+   */
+  public function setResults($results)
+  {
+    $this->results = $results;
+  }
+  /**
+   * @return IterationResult[]
+   */
+  public function getResults()
+  {
+    return $this->results;
+  }
+  public function setStartTime($startTime)
+  {
+    $this->startTime = $startTime;
+  }
+  public function getStartTime()
+  {
+    return $this->startTime;
+  }
+  /**
+   * @param TrainingOptions
+   */
+  public function setTrainingOptions(TrainingOptions $trainingOptions)
+  {
+    $this->trainingOptions = $trainingOptions;
+  }
+  /**
+   * @return TrainingOptions
+   */
+  public function getTrainingOptions()
+  {
+    return $this->trainingOptions;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(TrainingRun::class, 'Google_Service_Bigquery_TrainingRun');

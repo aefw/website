@@ -1,66 +1,103 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-BW==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\MyBusinessAccountManagement\Resource;
+
+use Google\Service\MyBusinessAccountManagement\Admin;
+use Google\Service\MyBusinessAccountManagement\ListAccountAdminsResponse;
+use Google\Service\MyBusinessAccountManagement\MybusinessaccountmanagementEmpty;
+
+/**
+ * The "admins" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $mybusinessaccountmanagementService = new Google\Service\MyBusinessAccountManagement(...);
+ *   $admins = $mybusinessaccountmanagementService->admins;
+ *  </code>
+ */
+class AccountsAdmins extends \Google\Service\Resource
+{
+  /**
+   * Invites the specified user to become an administrator for the specified
+   * account. The invitee must accept the invitation in order to be granted access
+   * to the account. See AcceptInvitation to programmatically accept an
+   * invitation. (admins.create)
+   *
+   * @param string $parent Required. The resource name of the account this admin
+   * is created for. `accounts/{account_id}`.
+   * @param Admin $postBody
+   * @param array $optParams Optional parameters.
+   * @return Admin
+   */
+  public function create($parent, Admin $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Admin::class);
+  }
+  /**
+   * Removes the specified admin from the specified account. (admins.delete)
+   *
+   * @param string $name Required. The resource name of the admin to remove from
+   * the account. `accounts/{account_id}/admins/{admin_id}`.
+   * @param array $optParams Optional parameters.
+   * @return MybusinessaccountmanagementEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], MybusinessaccountmanagementEmpty::class);
+  }
+  /**
+   * Lists the admins for the specified account. (admins.listAccountsAdmins)
+   *
+   * @param string $parent Required. The name of the account from which to
+   * retrieve a list of admins. `accounts/{account_id}/admins`.
+   * @param array $optParams Optional parameters.
+   * @return ListAccountAdminsResponse
+   */
+  public function listAccountsAdmins($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListAccountAdminsResponse::class);
+  }
+  /**
+   * Updates the Admin for the specified Account Admin. (admins.patch)
+   *
+   * @param string $name Immutable. The resource name. For account admins, this is
+   * in the form: `accounts/{account_id}/admins/{admin_id}` For location admins,
+   * this is in the form: `locations/{location_id}/admins/{admin_id}` This field
+   * will be ignored if set during admin creation.
+   * @param Admin $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. The specific fields that should be
+   * updated. The only editable field is role.
+   * @return Admin
+   */
+  public function patch($name, Admin $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Admin::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AccountsAdmins::class, 'Google_Service_MyBusinessAccountManagement_Resource_AccountsAdmins');

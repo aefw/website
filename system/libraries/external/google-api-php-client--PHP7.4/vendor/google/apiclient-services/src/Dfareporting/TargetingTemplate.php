@@ -1,96 +1,192 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dfareporting;
+
+class TargetingTemplate extends \Google\Model
+{
+  public $accountId;
+  public $advertiserId;
+  protected $advertiserIdDimensionValueType = DimensionValue::class;
+  protected $advertiserIdDimensionValueDataType = '';
+  protected $dayPartTargetingType = DayPartTargeting::class;
+  protected $dayPartTargetingDataType = '';
+  protected $geoTargetingType = GeoTargeting::class;
+  protected $geoTargetingDataType = '';
+  public $id;
+  protected $keyValueTargetingExpressionType = KeyValueTargetingExpression::class;
+  protected $keyValueTargetingExpressionDataType = '';
+  public $kind;
+  protected $languageTargetingType = LanguageTargeting::class;
+  protected $languageTargetingDataType = '';
+  protected $listTargetingExpressionType = ListTargetingExpression::class;
+  protected $listTargetingExpressionDataType = '';
+  public $name;
+  public $subaccountId;
+  protected $technologyTargetingType = TechnologyTargeting::class;
+  protected $technologyTargetingDataType = '';
+
+  public function setAccountId($accountId)
+  {
+    $this->accountId = $accountId;
+  }
+  public function getAccountId()
+  {
+    return $this->accountId;
+  }
+  public function setAdvertiserId($advertiserId)
+  {
+    $this->advertiserId = $advertiserId;
+  }
+  public function getAdvertiserId()
+  {
+    return $this->advertiserId;
+  }
+  /**
+   * @param DimensionValue
+   */
+  public function setAdvertiserIdDimensionValue(DimensionValue $advertiserIdDimensionValue)
+  {
+    $this->advertiserIdDimensionValue = $advertiserIdDimensionValue;
+  }
+  /**
+   * @return DimensionValue
+   */
+  public function getAdvertiserIdDimensionValue()
+  {
+    return $this->advertiserIdDimensionValue;
+  }
+  /**
+   * @param DayPartTargeting
+   */
+  public function setDayPartTargeting(DayPartTargeting $dayPartTargeting)
+  {
+    $this->dayPartTargeting = $dayPartTargeting;
+  }
+  /**
+   * @return DayPartTargeting
+   */
+  public function getDayPartTargeting()
+  {
+    return $this->dayPartTargeting;
+  }
+  /**
+   * @param GeoTargeting
+   */
+  public function setGeoTargeting(GeoTargeting $geoTargeting)
+  {
+    $this->geoTargeting = $geoTargeting;
+  }
+  /**
+   * @return GeoTargeting
+   */
+  public function getGeoTargeting()
+  {
+    return $this->geoTargeting;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  /**
+   * @param KeyValueTargetingExpression
+   */
+  public function setKeyValueTargetingExpression(KeyValueTargetingExpression $keyValueTargetingExpression)
+  {
+    $this->keyValueTargetingExpression = $keyValueTargetingExpression;
+  }
+  /**
+   * @return KeyValueTargetingExpression
+   */
+  public function getKeyValueTargetingExpression()
+  {
+    return $this->keyValueTargetingExpression;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  /**
+   * @param LanguageTargeting
+   */
+  public function setLanguageTargeting(LanguageTargeting $languageTargeting)
+  {
+    $this->languageTargeting = $languageTargeting;
+  }
+  /**
+   * @return LanguageTargeting
+   */
+  public function getLanguageTargeting()
+  {
+    return $this->languageTargeting;
+  }
+  /**
+   * @param ListTargetingExpression
+   */
+  public function setListTargetingExpression(ListTargetingExpression $listTargetingExpression)
+  {
+    $this->listTargetingExpression = $listTargetingExpression;
+  }
+  /**
+   * @return ListTargetingExpression
+   */
+  public function getListTargetingExpression()
+  {
+    return $this->listTargetingExpression;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setSubaccountId($subaccountId)
+  {
+    $this->subaccountId = $subaccountId;
+  }
+  public function getSubaccountId()
+  {
+    return $this->subaccountId;
+  }
+  /**
+   * @param TechnologyTargeting
+   */
+  public function setTechnologyTargeting(TechnologyTargeting $technologyTargeting)
+  {
+    $this->technologyTargeting = $technologyTargeting;
+  }
+  /**
+   * @return TechnologyTargeting
+   */
+  public function getTechnologyTargeting()
+  {
+    return $this->technologyTargeting;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(TargetingTemplate::class, 'Google_Service_Dfareporting_TargetingTemplate');

@@ -1,143 +1,324 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Dk1VsH8B4Qv+YwaJ
+<?php
+
+/**
+ * RouterOS API client implementation.
+
+ *
+ * RouterOS is the flag product of the company MikroTik and is a powerful router software. One of its many abilities is to allow control over it via an API. This package provides a client for that API, in turn allowing you to use PHP to control RouterOS hosts.
+ *
+ * PHP version 5
+ *
+ * @category  Net
+ * @package   PEAR2_Net_RouterOS
+ * @author    Vasil Rangelov <boen.robot@gmail.com>
+ * @copyright 2011 Vasil Rangelov
+ * @license   http://www.gnu.org/copyleft/lesser.html LGPL License 2.1
+ * @version   1.0.0b6
+ * @link      http://pear2.php.net/PEAR2_Net_RouterOS
+ */
+/**
+ * The namespace declaration.
+ */
+namespace PEAR2\Net\RouterOS;
+
+/**
+ * Refers to transmitter direction constants.
+ */
+use PEAR2\Net\Transmitter as T;
+
+/**
+ * Locks are released upon any exception from anywhere.
+ */
+use Exception as E;
+
+/**
+ * Represents a RouterOS response.
+ *
+ * @category Net
+ * @package  PEAR2_Net_RouterOS
+ * @author   Vasil Rangelov <boen.robot@gmail.com>
+ * @license  http://www.gnu.org/copyleft/lesser.html LGPL License 2.1
+ * @link     http://pear2.php.net/PEAR2_Net_RouterOS
+ */
+class Response extends Message
+{
+
+    /**
+     * The last response for a request.
+     */
+    const TYPE_FINAL = '!done';
+
+    /**
+     * A response with data.
+     */
+    const TYPE_DATA = '!re';
+
+    /**
+     * A response signifying error.
+     */
+    const TYPE_ERROR = '!trap';
+
+    /**
+     * A response signifying a fatal error, due to which the connection would be
+     * terminated.
+     */
+    const TYPE_FATAL = '!fatal';
+
+    /**
+     * An array of unrecognized words in network order.
+     *
+     * @var string[]
+     */
+    protected $unrecognizedWords = array();
+
+    /**
+     * The response type.
+     *
+     * @var string
+     */
+    private $_type;
+
+    /**
+     * Extracts a new response from a communicator.
+     *
+     * @param Communicator  $com       The communicator from which to extract
+     *     the new response.
+     * @param bool          $asStream  Whether to populate the argument values
+     *     with streams instead of strings.
+     * @param int           $sTimeout  If a response is not immediately
+     *     available, wait this many seconds. If NULL, wait indefinitely.
+     * @param int|null      $usTimeout Microseconds to add to the waiting time.
+     * @param Registry|null $reg       An optional registry to sync the
+     *     response with.
+     *
+     * @see getType()
+     * @see getArgument()
+     */
+    public function __construct(
+        Communicator $com,
+        $asStream = false,
+        $sTimeout = 0,
+        $usTimeout = null,
+        Registry $reg = null
+    ) {
+        if (null === $reg) {
+            if ($com->getTransmitter()->isPersistent()) {
+                $old = $com->getTransmitter()
+                    ->lock(T\Stream::DIRECTION_RECEIVE);
+                try {
+                    $this->_receive($com, $asStream, $sTimeout, $usTimeout);
+                } catch (E $e) {
+                    $com->getTransmitter()->lock($old, true);
+                    throw $e;
+                }
+                $com->getTransmitter()->lock($old, true);
+            } else {
+                $this->_receive($com, $asStream, $sTimeout, $usTimeout);
+            }
+        } else {
+            while (null === ($response = $reg->getNextResponse())) {
+                $newResponse = new self($com, true, $sTimeout, $usTimeout);
+                $tagInfo = $reg::parseTag($newResponse->getTag());
+                $newResponse->setTag($tagInfo[1]);
+                if (!$reg->add($newResponse, $tagInfo[0])) {
+                    $response = $newResponse;
+                    break;
+                }
+            }
+
+            $this->_type = $response->_type;
+            $this->attributes = $response->attributes;
+            $this->unrecognizedWords = $response->unrecognizedWords;
+            $this->setTag($response->getTag());
+
+            if (!$asStream) {
+                foreach ($this->attributes as $name => $value) {
+                    $this->setAttribute(
+                        $name,
+                        stream_get_contents($value)
+                    );
+                }
+                foreach ($response->unrecognizedWords as $i => $value) {
+                    $this->unrecognizedWords[$i] = stream_get_contents($value);
+                }
+            }
+        }
+    }
+
+    /**
+     * Extracts a new response from a communicator.
+     *
+     * This is the function that performs the actual receiving, while the
+     * constructor is also involved in locks and registry sync.
+     *
+     * @param Communicator $com       The communicator from which to extract
+     *     the new response.
+     * @param bool         $asStream  Whether to populate the argument values
+     *     with streams instead of strings.
+     * @param int          $sTimeout  If a response is not immediately
+     *     available, wait this many seconds. If NULL, wait indefinitely.
+     *     Note that if an empty sentence is received, the timeout will be
+     *     reset for another sentence receiving.
+     * @param int|null     $usTimeout Microseconds to add to the waiting time.
+     *
+     * @return void
+     */
+    private function _receive(
+        Communicator $com,
+        $asStream = false,
+        $sTimeout = 0,
+        $usTimeout = null
+    ) {
+        do {
+            if (!$com->getTransmitter()->isDataAwaiting(
+                $sTimeout,
+                $usTimeout
+            )) {
+                throw new SocketException(
+                    'No data within the time limit',
+                    SocketException::CODE_NO_DATA
+                );
+            }
+            $type = $com->getNextWord();
+        } while ('' === $type);
+        $this->setType($type);
+        if ($asStream) {
+            for ($word = $com->getNextWordAsStream(), fseek($word, 0, SEEK_END);
+                ftell($word) !== 0;
+                $word = $com->getNextWordAsStream(), fseek(
+                    $word,
+                    0,
+                    SEEK_END
+                )) {
+                rewind($word);
+                $ind = fread($word, 1);
+                if ('=' === $ind || '.' === $ind) {
+                    $prefix = stream_get_line($word, null, '=');
+                }
+                if ('=' === $ind) {
+                    $value = fopen('php://temp', 'r+b');
+                    $bytesCopied = ftell($word);
+                    while (!feof($word)) {
+                        $bytesCopied += stream_copy_to_stream(
+                            $word,
+                            $value,
+                            0xFFFFF,
+                            $bytesCopied
+                        );
+                    }
+                    rewind($value);
+                    $this->setAttribute($prefix, $value);
+                    continue;
+                }
+                if ('.' === $ind && 'tag' === $prefix) {
+                    $this->setTag(stream_get_contents($word, -1, -1));
+                    continue;
+                }
+                rewind($word);
+                $this->unrecognizedWords[] = $word;
+            }
+        } else {
+            for ($word = $com->getNextWord(); '' !== $word;
+                $word = $com->getNextWord()) {
+                if (preg_match('/^=([^=]+)=(.*)$/sS', $word, $matches)) {
+                    $this->setAttribute($matches[1], $matches[2]);
+                } elseif (preg_match('/^\.tag=(.*)$/sS', $word, $matches)) {
+                    $this->setTag($matches[1]);
+                } else {
+                    $this->unrecognizedWords[] = $word;
+                }
+            }
+        }
+    }
+
+    /**
+     * Sets the response type.
+     *
+     * Sets the response type. Valid values are the TYPE_* constants.
+     *
+     * @param string $type The new response type.
+     *
+     * @return $this The response object.
+     *
+     * @see getType()
+     */
+    protected function setType($type)
+    {
+        switch ($type) {
+        case self::TYPE_FINAL:
+        case self::TYPE_DATA:
+        case self::TYPE_ERROR:
+        case self::TYPE_FATAL:
+            $this->_type = $type;
+            return $this;
+        default:
+            throw new UnexpectedValueException(
+                'Unrecognized response type.',
+                UnexpectedValueException::CODE_RESPONSE_TYPE_UNKNOWN,
+                null,
+                $type
+            );
+        }
+    }
+
+    /**
+     * Gets the response type.
+     *
+     * @return string The response type.
+     *
+     * @see setType()
+     */
+    public function getType()
+    {
+        return $this->_type;
+    }
+
+    /**
+     * Gets the value of an argument.
+     *
+     * @param string $name The name of the argument.
+     *
+     * @return string|resource|null The value of the specified argument.
+     *     Returns NULL if such an argument is not set.
+     *
+     * @deprecated         1.0.0b5 Use {@link static::getProperty()} instead.
+     *     This method will be removed upon final release, and is currently
+     *     left standing merely because it can't be easily search&replaced in
+     *     existing code, due to the fact the name "getArgument()" is shared
+     *     with {@link Request::getArgument()}, which is still valid.
+     * @codeCoverageIgnore
+     */
+    public function getArgument($name)
+    {
+        trigger_error(
+            'Response::getArgument() is deprecated in favor of ' .
+            'Response::getProperty() (but note that Request::getArgument() ' .
+            'is still valid)',
+            E_USER_DEPRECATED
+        );
+        return $this->getAttribute($name);
+    }
+
+    /**
+     * Gets the value of a property.
+     *
+     * @param string $name The name of the property.
+     *
+     * @return string|resource|null The value of the specified property.
+     *     Returns NULL if such a property is not set.
+     */
+    public function getProperty($name)
+    {
+        return parent::getAttribute($name);
+    }
+
+    /**
+     * Gets a list of unrecognized words.
+     *
+     * @return string[] The list of unrecognized words.
+     */
+    public function getUnrecognizedWords()
+    {
+        return $this->unrecognizedWords;
+    }
+}

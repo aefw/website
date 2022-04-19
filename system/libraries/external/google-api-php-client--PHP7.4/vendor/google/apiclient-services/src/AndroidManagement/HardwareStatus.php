@@ -1,67 +1,90 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-pInKSnX5kq3bmcZzqRDabFhnBwOCHhBb
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AndroidManagement;
+
+class HardwareStatus extends \Google\Collection
+{
+  protected $collection_key = 'skinTemperatures';
+  public $batteryTemperatures;
+  public $cpuTemperatures;
+  public $cpuUsages;
+  public $createTime;
+  public $fanSpeeds;
+  public $gpuTemperatures;
+  public $skinTemperatures;
+
+  public function setBatteryTemperatures($batteryTemperatures)
+  {
+    $this->batteryTemperatures = $batteryTemperatures;
+  }
+  public function getBatteryTemperatures()
+  {
+    return $this->batteryTemperatures;
+  }
+  public function setCpuTemperatures($cpuTemperatures)
+  {
+    $this->cpuTemperatures = $cpuTemperatures;
+  }
+  public function getCpuTemperatures()
+  {
+    return $this->cpuTemperatures;
+  }
+  public function setCpuUsages($cpuUsages)
+  {
+    $this->cpuUsages = $cpuUsages;
+  }
+  public function getCpuUsages()
+  {
+    return $this->cpuUsages;
+  }
+  public function setCreateTime($createTime)
+  {
+    $this->createTime = $createTime;
+  }
+  public function getCreateTime()
+  {
+    return $this->createTime;
+  }
+  public function setFanSpeeds($fanSpeeds)
+  {
+    $this->fanSpeeds = $fanSpeeds;
+  }
+  public function getFanSpeeds()
+  {
+    return $this->fanSpeeds;
+  }
+  public function setGpuTemperatures($gpuTemperatures)
+  {
+    $this->gpuTemperatures = $gpuTemperatures;
+  }
+  public function getGpuTemperatures()
+  {
+    return $this->gpuTemperatures;
+  }
+  public function setSkinTemperatures($skinTemperatures)
+  {
+    $this->skinTemperatures = $skinTemperatures;
+  }
+  public function getSkinTemperatures()
+  {
+    return $this->skinTemperatures;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(HardwareStatus::class, 'Google_Service_AndroidManagement_HardwareStatus');

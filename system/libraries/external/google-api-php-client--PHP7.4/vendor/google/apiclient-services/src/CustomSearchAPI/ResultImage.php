@@ -1,66 +1,89 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-pcZxOXLxQHS6gUzv16/IhIehcXq=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CustomSearchAPI;
+
+class ResultImage extends \Google\Model
+{
+  public $byteSize;
+  public $contextLink;
+  public $height;
+  public $thumbnailHeight;
+  public $thumbnailLink;
+  public $thumbnailWidth;
+  public $width;
+
+  public function setByteSize($byteSize)
+  {
+    $this->byteSize = $byteSize;
+  }
+  public function getByteSize()
+  {
+    return $this->byteSize;
+  }
+  public function setContextLink($contextLink)
+  {
+    $this->contextLink = $contextLink;
+  }
+  public function getContextLink()
+  {
+    return $this->contextLink;
+  }
+  public function setHeight($height)
+  {
+    $this->height = $height;
+  }
+  public function getHeight()
+  {
+    return $this->height;
+  }
+  public function setThumbnailHeight($thumbnailHeight)
+  {
+    $this->thumbnailHeight = $thumbnailHeight;
+  }
+  public function getThumbnailHeight()
+  {
+    return $this->thumbnailHeight;
+  }
+  public function setThumbnailLink($thumbnailLink)
+  {
+    $this->thumbnailLink = $thumbnailLink;
+  }
+  public function getThumbnailLink()
+  {
+    return $this->thumbnailLink;
+  }
+  public function setThumbnailWidth($thumbnailWidth)
+  {
+    $this->thumbnailWidth = $thumbnailWidth;
+  }
+  public function getThumbnailWidth()
+  {
+    return $this->thumbnailWidth;
+  }
+  public function setWidth($width)
+  {
+    $this->width = $width;
+  }
+  public function getWidth()
+  {
+    return $this->width;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ResultImage::class, 'Google_Service_CustomSearchAPI_ResultImage');

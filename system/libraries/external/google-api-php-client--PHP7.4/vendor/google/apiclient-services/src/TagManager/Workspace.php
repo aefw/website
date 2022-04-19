@@ -1,67 +1,98 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-bXITs/1MBmaYgDCutQW=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\TagManager;
+
+class Workspace extends \Google\Model
+{
+  public $accountId;
+  public $containerId;
+  public $description;
+  public $fingerprint;
+  public $name;
+  public $path;
+  public $tagManagerUrl;
+  public $workspaceId;
+
+  public function setAccountId($accountId)
+  {
+    $this->accountId = $accountId;
+  }
+  public function getAccountId()
+  {
+    return $this->accountId;
+  }
+  public function setContainerId($containerId)
+  {
+    $this->containerId = $containerId;
+  }
+  public function getContainerId()
+  {
+    return $this->containerId;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setFingerprint($fingerprint)
+  {
+    $this->fingerprint = $fingerprint;
+  }
+  public function getFingerprint()
+  {
+    return $this->fingerprint;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setPath($path)
+  {
+    $this->path = $path;
+  }
+  public function getPath()
+  {
+    return $this->path;
+  }
+  public function setTagManagerUrl($tagManagerUrl)
+  {
+    $this->tagManagerUrl = $tagManagerUrl;
+  }
+  public function getTagManagerUrl()
+  {
+    return $this->tagManagerUrl;
+  }
+  public function setWorkspaceId($workspaceId)
+  {
+    $this->workspaceId = $workspaceId;
+  }
+  public function getWorkspaceId()
+  {
+    return $this->workspaceId;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Workspace::class, 'Google_Service_TagManager_Workspace');

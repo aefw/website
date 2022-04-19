@@ -1,88 +1,190 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Spanner;
+
+class Metric extends \Google\Model
+{
+  public $aggregation;
+  protected $categoryType = LocalizedString::class;
+  protected $categoryDataType = '';
+  protected $derivedType = DerivedMetric::class;
+  protected $derivedDataType = '';
+  protected $displayLabelType = LocalizedString::class;
+  protected $displayLabelDataType = '';
+  public $hasNonzeroData;
+  public $hotValue;
+  protected $indexedHotKeysType = IndexedHotKey::class;
+  protected $indexedHotKeysDataType = 'map';
+  protected $indexedKeyRangeInfosType = IndexedKeyRangeInfos::class;
+  protected $indexedKeyRangeInfosDataType = 'map';
+  protected $infoType = LocalizedString::class;
+  protected $infoDataType = '';
+  protected $matrixType = MetricMatrix::class;
+  protected $matrixDataType = '';
+  protected $unitType = LocalizedString::class;
+  protected $unitDataType = '';
+  public $visible;
+
+  public function setAggregation($aggregation)
+  {
+    $this->aggregation = $aggregation;
+  }
+  public function getAggregation()
+  {
+    return $this->aggregation;
+  }
+  /**
+   * @param LocalizedString
+   */
+  public function setCategory(LocalizedString $category)
+  {
+    $this->category = $category;
+  }
+  /**
+   * @return LocalizedString
+   */
+  public function getCategory()
+  {
+    return $this->category;
+  }
+  /**
+   * @param DerivedMetric
+   */
+  public function setDerived(DerivedMetric $derived)
+  {
+    $this->derived = $derived;
+  }
+  /**
+   * @return DerivedMetric
+   */
+  public function getDerived()
+  {
+    return $this->derived;
+  }
+  /**
+   * @param LocalizedString
+   */
+  public function setDisplayLabel(LocalizedString $displayLabel)
+  {
+    $this->displayLabel = $displayLabel;
+  }
+  /**
+   * @return LocalizedString
+   */
+  public function getDisplayLabel()
+  {
+    return $this->displayLabel;
+  }
+  public function setHasNonzeroData($hasNonzeroData)
+  {
+    $this->hasNonzeroData = $hasNonzeroData;
+  }
+  public function getHasNonzeroData()
+  {
+    return $this->hasNonzeroData;
+  }
+  public function setHotValue($hotValue)
+  {
+    $this->hotValue = $hotValue;
+  }
+  public function getHotValue()
+  {
+    return $this->hotValue;
+  }
+  /**
+   * @param IndexedHotKey[]
+   */
+  public function setIndexedHotKeys($indexedHotKeys)
+  {
+    $this->indexedHotKeys = $indexedHotKeys;
+  }
+  /**
+   * @return IndexedHotKey[]
+   */
+  public function getIndexedHotKeys()
+  {
+    return $this->indexedHotKeys;
+  }
+  /**
+   * @param IndexedKeyRangeInfos[]
+   */
+  public function setIndexedKeyRangeInfos($indexedKeyRangeInfos)
+  {
+    $this->indexedKeyRangeInfos = $indexedKeyRangeInfos;
+  }
+  /**
+   * @return IndexedKeyRangeInfos[]
+   */
+  public function getIndexedKeyRangeInfos()
+  {
+    return $this->indexedKeyRangeInfos;
+  }
+  /**
+   * @param LocalizedString
+   */
+  public function setInfo(LocalizedString $info)
+  {
+    $this->info = $info;
+  }
+  /**
+   * @return LocalizedString
+   */
+  public function getInfo()
+  {
+    return $this->info;
+  }
+  /**
+   * @param MetricMatrix
+   */
+  public function setMatrix(MetricMatrix $matrix)
+  {
+    $this->matrix = $matrix;
+  }
+  /**
+   * @return MetricMatrix
+   */
+  public function getMatrix()
+  {
+    return $this->matrix;
+  }
+  /**
+   * @param LocalizedString
+   */
+  public function setUnit(LocalizedString $unit)
+  {
+    $this->unit = $unit;
+  }
+  /**
+   * @return LocalizedString
+   */
+  public function getUnit()
+  {
+    return $this->unit;
+  }
+  public function setVisible($visible)
+  {
+    $this->visible = $visible;
+  }
+  public function getVisible()
+  {
+    return $this->visible;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Metric::class, 'Google_Service_Spanner_Metric');

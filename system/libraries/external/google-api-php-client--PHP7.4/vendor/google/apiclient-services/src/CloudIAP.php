@@ -1,63 +1,237 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for CloudIAP (v1).
+ *
+ * <p>
+ * Controls access to cloud applications running on Google Cloud Platform.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/iap" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class CloudIAP extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+
+  public $projects_brands;
+  public $projects_brands_identityAwareProxyClients;
+  public $v1;
+
+  /**
+   * Constructs the internal representation of the CloudIAP service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://iap.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'iap';
+
+    $this->projects_brands = new CloudIAP\Resource\ProjectsBrands(
+        $this,
+        $this->serviceName,
+        'brands',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/brands',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/brands',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_brands_identityAwareProxyClients = new CloudIAP\Resource\ProjectsBrandsIdentityAwareProxyClients(
+        $this,
+        $this->serviceName,
+        'identityAwareProxyClients',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/identityAwareProxyClients',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/identityAwareProxyClients',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'resetSecret' => [
+              'path' => 'v1/{+name}:resetSecret',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->v1 = new CloudIAP\Resource\V1(
+        $this,
+        $this->serviceName,
+        'v1',
+        [
+          'methods' => [
+            'getIamPolicy' => [
+              'path' => 'v1/{+resource}:getIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getIapSettings' => [
+              'path' => 'v1/{+name}:iapSettings',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'updateIapSettings' => [
+              'path' => 'v1/{+name}:iapSettings',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(CloudIAP::class, 'Google_Service_CloudIAP');

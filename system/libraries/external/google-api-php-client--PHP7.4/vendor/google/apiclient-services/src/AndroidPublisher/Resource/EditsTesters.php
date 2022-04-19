@@ -1,62 +1,82 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-rYZ5sxmvcjQK
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AndroidPublisher\Resource;
+
+use Google\Service\AndroidPublisher\Testers;
+
+/**
+ * The "testers" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $androidpublisherService = new Google\Service\AndroidPublisher(...);
+ *   $testers = $androidpublisherService->testers;
+ *  </code>
+ */
+class EditsTesters extends \Google\Service\Resource
+{
+  /**
+   * Gets testers. (testers.get)
+   *
+   * @param string $packageName Package name of the app.
+   * @param string $editId Identifier of the edit.
+   * @param string $track The track to read from.
+   * @param array $optParams Optional parameters.
+   * @return Testers
+   */
+  public function get($packageName, $editId, $track, $optParams = [])
+  {
+    $params = ['packageName' => $packageName, 'editId' => $editId, 'track' => $track];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Testers::class);
+  }
+  /**
+   * Patches testers. (testers.patch)
+   *
+   * @param string $packageName Package name of the app.
+   * @param string $editId Identifier of the edit.
+   * @param string $track The track to update.
+   * @param Testers $postBody
+   * @param array $optParams Optional parameters.
+   * @return Testers
+   */
+  public function patch($packageName, $editId, $track, Testers $postBody, $optParams = [])
+  {
+    $params = ['packageName' => $packageName, 'editId' => $editId, 'track' => $track, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Testers::class);
+  }
+  /**
+   * Updates testers. (testers.update)
+   *
+   * @param string $packageName Package name of the app.
+   * @param string $editId Identifier of the edit.
+   * @param string $track The track to update.
+   * @param Testers $postBody
+   * @param array $optParams Optional parameters.
+   * @return Testers
+   */
+  public function update($packageName, $editId, $track, Testers $postBody, $optParams = [])
+  {
+    $params = ['packageName' => $packageName, 'editId' => $editId, 'track' => $track, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Testers::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(EditsTesters::class, 'Google_Service_AndroidPublisher_Resource_EditsTesters');

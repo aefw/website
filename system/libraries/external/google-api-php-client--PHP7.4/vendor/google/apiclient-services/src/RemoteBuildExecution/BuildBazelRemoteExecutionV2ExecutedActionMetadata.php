@@ -1,89 +1,126 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\RemoteBuildExecution;
+
+class BuildBazelRemoteExecutionV2ExecutedActionMetadata extends \Google\Collection
+{
+  protected $collection_key = 'auxiliaryMetadata';
+  public $auxiliaryMetadata;
+  public $executionCompletedTimestamp;
+  public $executionStartTimestamp;
+  public $inputFetchCompletedTimestamp;
+  public $inputFetchStartTimestamp;
+  public $outputUploadCompletedTimestamp;
+  public $outputUploadStartTimestamp;
+  public $queuedTimestamp;
+  public $worker;
+  public $workerCompletedTimestamp;
+  public $workerStartTimestamp;
+
+  public function setAuxiliaryMetadata($auxiliaryMetadata)
+  {
+    $this->auxiliaryMetadata = $auxiliaryMetadata;
+  }
+  public function getAuxiliaryMetadata()
+  {
+    return $this->auxiliaryMetadata;
+  }
+  public function setExecutionCompletedTimestamp($executionCompletedTimestamp)
+  {
+    $this->executionCompletedTimestamp = $executionCompletedTimestamp;
+  }
+  public function getExecutionCompletedTimestamp()
+  {
+    return $this->executionCompletedTimestamp;
+  }
+  public function setExecutionStartTimestamp($executionStartTimestamp)
+  {
+    $this->executionStartTimestamp = $executionStartTimestamp;
+  }
+  public function getExecutionStartTimestamp()
+  {
+    return $this->executionStartTimestamp;
+  }
+  public function setInputFetchCompletedTimestamp($inputFetchCompletedTimestamp)
+  {
+    $this->inputFetchCompletedTimestamp = $inputFetchCompletedTimestamp;
+  }
+  public function getInputFetchCompletedTimestamp()
+  {
+    return $this->inputFetchCompletedTimestamp;
+  }
+  public function setInputFetchStartTimestamp($inputFetchStartTimestamp)
+  {
+    $this->inputFetchStartTimestamp = $inputFetchStartTimestamp;
+  }
+  public function getInputFetchStartTimestamp()
+  {
+    return $this->inputFetchStartTimestamp;
+  }
+  public function setOutputUploadCompletedTimestamp($outputUploadCompletedTimestamp)
+  {
+    $this->outputUploadCompletedTimestamp = $outputUploadCompletedTimestamp;
+  }
+  public function getOutputUploadCompletedTimestamp()
+  {
+    return $this->outputUploadCompletedTimestamp;
+  }
+  public function setOutputUploadStartTimestamp($outputUploadStartTimestamp)
+  {
+    $this->outputUploadStartTimestamp = $outputUploadStartTimestamp;
+  }
+  public function getOutputUploadStartTimestamp()
+  {
+    return $this->outputUploadStartTimestamp;
+  }
+  public function setQueuedTimestamp($queuedTimestamp)
+  {
+    $this->queuedTimestamp = $queuedTimestamp;
+  }
+  public function getQueuedTimestamp()
+  {
+    return $this->queuedTimestamp;
+  }
+  public function setWorker($worker)
+  {
+    $this->worker = $worker;
+  }
+  public function getWorker()
+  {
+    return $this->worker;
+  }
+  public function setWorkerCompletedTimestamp($workerCompletedTimestamp)
+  {
+    $this->workerCompletedTimestamp = $workerCompletedTimestamp;
+  }
+  public function getWorkerCompletedTimestamp()
+  {
+    return $this->workerCompletedTimestamp;
+  }
+  public function setWorkerStartTimestamp($workerStartTimestamp)
+  {
+    $this->workerStartTimestamp = $workerStartTimestamp;
+  }
+  public function getWorkerStartTimestamp()
+  {
+    return $this->workerStartTimestamp;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(BuildBazelRemoteExecutionV2ExecutedActionMetadata::class, 'Google_Service_RemoteBuildExecution_BuildBazelRemoteExecutionV2ExecutedActionMetadata');

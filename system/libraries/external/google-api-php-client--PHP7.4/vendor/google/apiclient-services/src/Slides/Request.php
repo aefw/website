@@ -1,218 +1,714 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Slides;
+
+class Request extends \Google\Model
+{
+  protected $createImageType = CreateImageRequest::class;
+  protected $createImageDataType = '';
+  protected $createLineType = CreateLineRequest::class;
+  protected $createLineDataType = '';
+  protected $createParagraphBulletsType = CreateParagraphBulletsRequest::class;
+  protected $createParagraphBulletsDataType = '';
+  protected $createShapeType = CreateShapeRequest::class;
+  protected $createShapeDataType = '';
+  protected $createSheetsChartType = CreateSheetsChartRequest::class;
+  protected $createSheetsChartDataType = '';
+  protected $createSlideType = CreateSlideRequest::class;
+  protected $createSlideDataType = '';
+  protected $createTableType = CreateTableRequest::class;
+  protected $createTableDataType = '';
+  protected $createVideoType = CreateVideoRequest::class;
+  protected $createVideoDataType = '';
+  protected $deleteObjectType = DeleteObjectRequest::class;
+  protected $deleteObjectDataType = '';
+  protected $deleteParagraphBulletsType = DeleteParagraphBulletsRequest::class;
+  protected $deleteParagraphBulletsDataType = '';
+  protected $deleteTableColumnType = DeleteTableColumnRequest::class;
+  protected $deleteTableColumnDataType = '';
+  protected $deleteTableRowType = DeleteTableRowRequest::class;
+  protected $deleteTableRowDataType = '';
+  protected $deleteTextType = DeleteTextRequest::class;
+  protected $deleteTextDataType = '';
+  protected $duplicateObjectType = DuplicateObjectRequest::class;
+  protected $duplicateObjectDataType = '';
+  protected $groupObjectsType = GroupObjectsRequest::class;
+  protected $groupObjectsDataType = '';
+  protected $insertTableColumnsType = InsertTableColumnsRequest::class;
+  protected $insertTableColumnsDataType = '';
+  protected $insertTableRowsType = InsertTableRowsRequest::class;
+  protected $insertTableRowsDataType = '';
+  protected $insertTextType = InsertTextRequest::class;
+  protected $insertTextDataType = '';
+  protected $mergeTableCellsType = MergeTableCellsRequest::class;
+  protected $mergeTableCellsDataType = '';
+  protected $refreshSheetsChartType = RefreshSheetsChartRequest::class;
+  protected $refreshSheetsChartDataType = '';
+  protected $replaceAllShapesWithImageType = ReplaceAllShapesWithImageRequest::class;
+  protected $replaceAllShapesWithImageDataType = '';
+  protected $replaceAllShapesWithSheetsChartType = ReplaceAllShapesWithSheetsChartRequest::class;
+  protected $replaceAllShapesWithSheetsChartDataType = '';
+  protected $replaceAllTextType = ReplaceAllTextRequest::class;
+  protected $replaceAllTextDataType = '';
+  protected $replaceImageType = ReplaceImageRequest::class;
+  protected $replaceImageDataType = '';
+  protected $rerouteLineType = RerouteLineRequest::class;
+  protected $rerouteLineDataType = '';
+  protected $ungroupObjectsType = UngroupObjectsRequest::class;
+  protected $ungroupObjectsDataType = '';
+  protected $unmergeTableCellsType = UnmergeTableCellsRequest::class;
+  protected $unmergeTableCellsDataType = '';
+  protected $updateImagePropertiesType = UpdateImagePropertiesRequest::class;
+  protected $updateImagePropertiesDataType = '';
+  protected $updateLineCategoryType = UpdateLineCategoryRequest::class;
+  protected $updateLineCategoryDataType = '';
+  protected $updateLinePropertiesType = UpdateLinePropertiesRequest::class;
+  protected $updateLinePropertiesDataType = '';
+  protected $updatePageElementAltTextType = UpdatePageElementAltTextRequest::class;
+  protected $updatePageElementAltTextDataType = '';
+  protected $updatePageElementTransformType = UpdatePageElementTransformRequest::class;
+  protected $updatePageElementTransformDataType = '';
+  protected $updatePageElementsZOrderType = UpdatePageElementsZOrderRequest::class;
+  protected $updatePageElementsZOrderDataType = '';
+  protected $updatePagePropertiesType = UpdatePagePropertiesRequest::class;
+  protected $updatePagePropertiesDataType = '';
+  protected $updateParagraphStyleType = UpdateParagraphStyleRequest::class;
+  protected $updateParagraphStyleDataType = '';
+  protected $updateShapePropertiesType = UpdateShapePropertiesRequest::class;
+  protected $updateShapePropertiesDataType = '';
+  protected $updateSlidesPositionType = UpdateSlidesPositionRequest::class;
+  protected $updateSlidesPositionDataType = '';
+  protected $updateTableBorderPropertiesType = UpdateTableBorderPropertiesRequest::class;
+  protected $updateTableBorderPropertiesDataType = '';
+  protected $updateTableCellPropertiesType = UpdateTableCellPropertiesRequest::class;
+  protected $updateTableCellPropertiesDataType = '';
+  protected $updateTableColumnPropertiesType = UpdateTableColumnPropertiesRequest::class;
+  protected $updateTableColumnPropertiesDataType = '';
+  protected $updateTableRowPropertiesType = UpdateTableRowPropertiesRequest::class;
+  protected $updateTableRowPropertiesDataType = '';
+  protected $updateTextStyleType = UpdateTextStyleRequest::class;
+  protected $updateTextStyleDataType = '';
+  protected $updateVideoPropertiesType = UpdateVideoPropertiesRequest::class;
+  protected $updateVideoPropertiesDataType = '';
+
+  /**
+   * @param CreateImageRequest
+   */
+  public function setCreateImage(CreateImageRequest $createImage)
+  {
+    $this->createImage = $createImage;
+  }
+  /**
+   * @return CreateImageRequest
+   */
+  public function getCreateImage()
+  {
+    return $this->createImage;
+  }
+  /**
+   * @param CreateLineRequest
+   */
+  public function setCreateLine(CreateLineRequest $createLine)
+  {
+    $this->createLine = $createLine;
+  }
+  /**
+   * @return CreateLineRequest
+   */
+  public function getCreateLine()
+  {
+    return $this->createLine;
+  }
+  /**
+   * @param CreateParagraphBulletsRequest
+   */
+  public function setCreateParagraphBullets(CreateParagraphBulletsRequest $createParagraphBullets)
+  {
+    $this->createParagraphBullets = $createParagraphBullets;
+  }
+  /**
+   * @return CreateParagraphBulletsRequest
+   */
+  public function getCreateParagraphBullets()
+  {
+    return $this->createParagraphBullets;
+  }
+  /**
+   * @param CreateShapeRequest
+   */
+  public function setCreateShape(CreateShapeRequest $createShape)
+  {
+    $this->createShape = $createShape;
+  }
+  /**
+   * @return CreateShapeRequest
+   */
+  public function getCreateShape()
+  {
+    return $this->createShape;
+  }
+  /**
+   * @param CreateSheetsChartRequest
+   */
+  public function setCreateSheetsChart(CreateSheetsChartRequest $createSheetsChart)
+  {
+    $this->createSheetsChart = $createSheetsChart;
+  }
+  /**
+   * @return CreateSheetsChartRequest
+   */
+  public function getCreateSheetsChart()
+  {
+    return $this->createSheetsChart;
+  }
+  /**
+   * @param CreateSlideRequest
+   */
+  public function setCreateSlide(CreateSlideRequest $createSlide)
+  {
+    $this->createSlide = $createSlide;
+  }
+  /**
+   * @return CreateSlideRequest
+   */
+  public function getCreateSlide()
+  {
+    return $this->createSlide;
+  }
+  /**
+   * @param CreateTableRequest
+   */
+  public function setCreateTable(CreateTableRequest $createTable)
+  {
+    $this->createTable = $createTable;
+  }
+  /**
+   * @return CreateTableRequest
+   */
+  public function getCreateTable()
+  {
+    return $this->createTable;
+  }
+  /**
+   * @param CreateVideoRequest
+   */
+  public function setCreateVideo(CreateVideoRequest $createVideo)
+  {
+    $this->createVideo = $createVideo;
+  }
+  /**
+   * @return CreateVideoRequest
+   */
+  public function getCreateVideo()
+  {
+    return $this->createVideo;
+  }
+  /**
+   * @param DeleteObjectRequest
+   */
+  public function setDeleteObject(DeleteObjectRequest $deleteObject)
+  {
+    $this->deleteObject = $deleteObject;
+  }
+  /**
+   * @return DeleteObjectRequest
+   */
+  public function getDeleteObject()
+  {
+    return $this->deleteObject;
+  }
+  /**
+   * @param DeleteParagraphBulletsRequest
+   */
+  public function setDeleteParagraphBullets(DeleteParagraphBulletsRequest $deleteParagraphBullets)
+  {
+    $this->deleteParagraphBullets = $deleteParagraphBullets;
+  }
+  /**
+   * @return DeleteParagraphBulletsRequest
+   */
+  public function getDeleteParagraphBullets()
+  {
+    return $this->deleteParagraphBullets;
+  }
+  /**
+   * @param DeleteTableColumnRequest
+   */
+  public function setDeleteTableColumn(DeleteTableColumnRequest $deleteTableColumn)
+  {
+    $this->deleteTableColumn = $deleteTableColumn;
+  }
+  /**
+   * @return DeleteTableColumnRequest
+   */
+  public function getDeleteTableColumn()
+  {
+    return $this->deleteTableColumn;
+  }
+  /**
+   * @param DeleteTableRowRequest
+   */
+  public function setDeleteTableRow(DeleteTableRowRequest $deleteTableRow)
+  {
+    $this->deleteTableRow = $deleteTableRow;
+  }
+  /**
+   * @return DeleteTableRowRequest
+   */
+  public function getDeleteTableRow()
+  {
+    return $this->deleteTableRow;
+  }
+  /**
+   * @param DeleteTextRequest
+   */
+  public function setDeleteText(DeleteTextRequest $deleteText)
+  {
+    $this->deleteText = $deleteText;
+  }
+  /**
+   * @return DeleteTextRequest
+   */
+  public function getDeleteText()
+  {
+    return $this->deleteText;
+  }
+  /**
+   * @param DuplicateObjectRequest
+   */
+  public function setDuplicateObject(DuplicateObjectRequest $duplicateObject)
+  {
+    $this->duplicateObject = $duplicateObject;
+  }
+  /**
+   * @return DuplicateObjectRequest
+   */
+  public function getDuplicateObject()
+  {
+    return $this->duplicateObject;
+  }
+  /**
+   * @param GroupObjectsRequest
+   */
+  public function setGroupObjects(GroupObjectsRequest $groupObjects)
+  {
+    $this->groupObjects = $groupObjects;
+  }
+  /**
+   * @return GroupObjectsRequest
+   */
+  public function getGroupObjects()
+  {
+    return $this->groupObjects;
+  }
+  /**
+   * @param InsertTableColumnsRequest
+   */
+  public function setInsertTableColumns(InsertTableColumnsRequest $insertTableColumns)
+  {
+    $this->insertTableColumns = $insertTableColumns;
+  }
+  /**
+   * @return InsertTableColumnsRequest
+   */
+  public function getInsertTableColumns()
+  {
+    return $this->insertTableColumns;
+  }
+  /**
+   * @param InsertTableRowsRequest
+   */
+  public function setInsertTableRows(InsertTableRowsRequest $insertTableRows)
+  {
+    $this->insertTableRows = $insertTableRows;
+  }
+  /**
+   * @return InsertTableRowsRequest
+   */
+  public function getInsertTableRows()
+  {
+    return $this->insertTableRows;
+  }
+  /**
+   * @param InsertTextRequest
+   */
+  public function setInsertText(InsertTextRequest $insertText)
+  {
+    $this->insertText = $insertText;
+  }
+  /**
+   * @return InsertTextRequest
+   */
+  public function getInsertText()
+  {
+    return $this->insertText;
+  }
+  /**
+   * @param MergeTableCellsRequest
+   */
+  public function setMergeTableCells(MergeTableCellsRequest $mergeTableCells)
+  {
+    $this->mergeTableCells = $mergeTableCells;
+  }
+  /**
+   * @return MergeTableCellsRequest
+   */
+  public function getMergeTableCells()
+  {
+    return $this->mergeTableCells;
+  }
+  /**
+   * @param RefreshSheetsChartRequest
+   */
+  public function setRefreshSheetsChart(RefreshSheetsChartRequest $refreshSheetsChart)
+  {
+    $this->refreshSheetsChart = $refreshSheetsChart;
+  }
+  /**
+   * @return RefreshSheetsChartRequest
+   */
+  public function getRefreshSheetsChart()
+  {
+    return $this->refreshSheetsChart;
+  }
+  /**
+   * @param ReplaceAllShapesWithImageRequest
+   */
+  public function setReplaceAllShapesWithImage(ReplaceAllShapesWithImageRequest $replaceAllShapesWithImage)
+  {
+    $this->replaceAllShapesWithImage = $replaceAllShapesWithImage;
+  }
+  /**
+   * @return ReplaceAllShapesWithImageRequest
+   */
+  public function getReplaceAllShapesWithImage()
+  {
+    return $this->replaceAllShapesWithImage;
+  }
+  /**
+   * @param ReplaceAllShapesWithSheetsChartRequest
+   */
+  public function setReplaceAllShapesWithSheetsChart(ReplaceAllShapesWithSheetsChartRequest $replaceAllShapesWithSheetsChart)
+  {
+    $this->replaceAllShapesWithSheetsChart = $replaceAllShapesWithSheetsChart;
+  }
+  /**
+   * @return ReplaceAllShapesWithSheetsChartRequest
+   */
+  public function getReplaceAllShapesWithSheetsChart()
+  {
+    return $this->replaceAllShapesWithSheetsChart;
+  }
+  /**
+   * @param ReplaceAllTextRequest
+   */
+  public function setReplaceAllText(ReplaceAllTextRequest $replaceAllText)
+  {
+    $this->replaceAllText = $replaceAllText;
+  }
+  /**
+   * @return ReplaceAllTextRequest
+   */
+  public function getReplaceAllText()
+  {
+    return $this->replaceAllText;
+  }
+  /**
+   * @param ReplaceImageRequest
+   */
+  public function setReplaceImage(ReplaceImageRequest $replaceImage)
+  {
+    $this->replaceImage = $replaceImage;
+  }
+  /**
+   * @return ReplaceImageRequest
+   */
+  public function getReplaceImage()
+  {
+    return $this->replaceImage;
+  }
+  /**
+   * @param RerouteLineRequest
+   */
+  public function setRerouteLine(RerouteLineRequest $rerouteLine)
+  {
+    $this->rerouteLine = $rerouteLine;
+  }
+  /**
+   * @return RerouteLineRequest
+   */
+  public function getRerouteLine()
+  {
+    return $this->rerouteLine;
+  }
+  /**
+   * @param UngroupObjectsRequest
+   */
+  public function setUngroupObjects(UngroupObjectsRequest $ungroupObjects)
+  {
+    $this->ungroupObjects = $ungroupObjects;
+  }
+  /**
+   * @return UngroupObjectsRequest
+   */
+  public function getUngroupObjects()
+  {
+    return $this->ungroupObjects;
+  }
+  /**
+   * @param UnmergeTableCellsRequest
+   */
+  public function setUnmergeTableCells(UnmergeTableCellsRequest $unmergeTableCells)
+  {
+    $this->unmergeTableCells = $unmergeTableCells;
+  }
+  /**
+   * @return UnmergeTableCellsRequest
+   */
+  public function getUnmergeTableCells()
+  {
+    return $this->unmergeTableCells;
+  }
+  /**
+   * @param UpdateImagePropertiesRequest
+   */
+  public function setUpdateImageProperties(UpdateImagePropertiesRequest $updateImageProperties)
+  {
+    $this->updateImageProperties = $updateImageProperties;
+  }
+  /**
+   * @return UpdateImagePropertiesRequest
+   */
+  public function getUpdateImageProperties()
+  {
+    return $this->updateImageProperties;
+  }
+  /**
+   * @param UpdateLineCategoryRequest
+   */
+  public function setUpdateLineCategory(UpdateLineCategoryRequest $updateLineCategory)
+  {
+    $this->updateLineCategory = $updateLineCategory;
+  }
+  /**
+   * @return UpdateLineCategoryRequest
+   */
+  public function getUpdateLineCategory()
+  {
+    return $this->updateLineCategory;
+  }
+  /**
+   * @param UpdateLinePropertiesRequest
+   */
+  public function setUpdateLineProperties(UpdateLinePropertiesRequest $updateLineProperties)
+  {
+    $this->updateLineProperties = $updateLineProperties;
+  }
+  /**
+   * @return UpdateLinePropertiesRequest
+   */
+  public function getUpdateLineProperties()
+  {
+    return $this->updateLineProperties;
+  }
+  /**
+   * @param UpdatePageElementAltTextRequest
+   */
+  public function setUpdatePageElementAltText(UpdatePageElementAltTextRequest $updatePageElementAltText)
+  {
+    $this->updatePageElementAltText = $updatePageElementAltText;
+  }
+  /**
+   * @return UpdatePageElementAltTextRequest
+   */
+  public function getUpdatePageElementAltText()
+  {
+    return $this->updatePageElementAltText;
+  }
+  /**
+   * @param UpdatePageElementTransformRequest
+   */
+  public function setUpdatePageElementTransform(UpdatePageElementTransformRequest $updatePageElementTransform)
+  {
+    $this->updatePageElementTransform = $updatePageElementTransform;
+  }
+  /**
+   * @return UpdatePageElementTransformRequest
+   */
+  public function getUpdatePageElementTransform()
+  {
+    return $this->updatePageElementTransform;
+  }
+  /**
+   * @param UpdatePageElementsZOrderRequest
+   */
+  public function setUpdatePageElementsZOrder(UpdatePageElementsZOrderRequest $updatePageElementsZOrder)
+  {
+    $this->updatePageElementsZOrder = $updatePageElementsZOrder;
+  }
+  /**
+   * @return UpdatePageElementsZOrderRequest
+   */
+  public function getUpdatePageElementsZOrder()
+  {
+    return $this->updatePageElementsZOrder;
+  }
+  /**
+   * @param UpdatePagePropertiesRequest
+   */
+  public function setUpdatePageProperties(UpdatePagePropertiesRequest $updatePageProperties)
+  {
+    $this->updatePageProperties = $updatePageProperties;
+  }
+  /**
+   * @return UpdatePagePropertiesRequest
+   */
+  public function getUpdatePageProperties()
+  {
+    return $this->updatePageProperties;
+  }
+  /**
+   * @param UpdateParagraphStyleRequest
+   */
+  public function setUpdateParagraphStyle(UpdateParagraphStyleRequest $updateParagraphStyle)
+  {
+    $this->updateParagraphStyle = $updateParagraphStyle;
+  }
+  /**
+   * @return UpdateParagraphStyleRequest
+   */
+  public function getUpdateParagraphStyle()
+  {
+    return $this->updateParagraphStyle;
+  }
+  /**
+   * @param UpdateShapePropertiesRequest
+   */
+  public function setUpdateShapeProperties(UpdateShapePropertiesRequest $updateShapeProperties)
+  {
+    $this->updateShapeProperties = $updateShapeProperties;
+  }
+  /**
+   * @return UpdateShapePropertiesRequest
+   */
+  public function getUpdateShapeProperties()
+  {
+    return $this->updateShapeProperties;
+  }
+  /**
+   * @param UpdateSlidesPositionRequest
+   */
+  public function setUpdateSlidesPosition(UpdateSlidesPositionRequest $updateSlidesPosition)
+  {
+    $this->updateSlidesPosition = $updateSlidesPosition;
+  }
+  /**
+   * @return UpdateSlidesPositionRequest
+   */
+  public function getUpdateSlidesPosition()
+  {
+    return $this->updateSlidesPosition;
+  }
+  /**
+   * @param UpdateTableBorderPropertiesRequest
+   */
+  public function setUpdateTableBorderProperties(UpdateTableBorderPropertiesRequest $updateTableBorderProperties)
+  {
+    $this->updateTableBorderProperties = $updateTableBorderProperties;
+  }
+  /**
+   * @return UpdateTableBorderPropertiesRequest
+   */
+  public function getUpdateTableBorderProperties()
+  {
+    return $this->updateTableBorderProperties;
+  }
+  /**
+   * @param UpdateTableCellPropertiesRequest
+   */
+  public function setUpdateTableCellProperties(UpdateTableCellPropertiesRequest $updateTableCellProperties)
+  {
+    $this->updateTableCellProperties = $updateTableCellProperties;
+  }
+  /**
+   * @return UpdateTableCellPropertiesRequest
+   */
+  public function getUpdateTableCellProperties()
+  {
+    return $this->updateTableCellProperties;
+  }
+  /**
+   * @param UpdateTableColumnPropertiesRequest
+   */
+  public function setUpdateTableColumnProperties(UpdateTableColumnPropertiesRequest $updateTableColumnProperties)
+  {
+    $this->updateTableColumnProperties = $updateTableColumnProperties;
+  }
+  /**
+   * @return UpdateTableColumnPropertiesRequest
+   */
+  public function getUpdateTableColumnProperties()
+  {
+    return $this->updateTableColumnProperties;
+  }
+  /**
+   * @param UpdateTableRowPropertiesRequest
+   */
+  public function setUpdateTableRowProperties(UpdateTableRowPropertiesRequest $updateTableRowProperties)
+  {
+    $this->updateTableRowProperties = $updateTableRowProperties;
+  }
+  /**
+   * @return UpdateTableRowPropertiesRequest
+   */
+  public function getUpdateTableRowProperties()
+  {
+    return $this->updateTableRowProperties;
+  }
+  /**
+   * @param UpdateTextStyleRequest
+   */
+  public function setUpdateTextStyle(UpdateTextStyleRequest $updateTextStyle)
+  {
+    $this->updateTextStyle = $updateTextStyle;
+  }
+  /**
+   * @return UpdateTextStyleRequest
+   */
+  public function getUpdateTextStyle()
+  {
+    return $this->updateTextStyle;
+  }
+  /**
+   * @param UpdateVideoPropertiesRequest
+   */
+  public function setUpdateVideoProperties(UpdateVideoPropertiesRequest $updateVideoProperties)
+  {
+    $this->updateVideoProperties = $updateVideoProperties;
+  }
+  /**
+   * @return UpdateVideoPropertiesRequest
+   */
+  public function getUpdateVideoProperties()
+  {
+    return $this->updateVideoProperties;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Request::class, 'Google_Service_Slides_Request');

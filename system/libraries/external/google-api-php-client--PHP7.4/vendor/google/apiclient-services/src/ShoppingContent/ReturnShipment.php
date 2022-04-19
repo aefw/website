@@ -1,67 +1,97 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ShoppingContent;
+
+class ReturnShipment extends \Google\Collection
+{
+  protected $collection_key = 'shipmentTrackingInfos';
+  public $creationDate;
+  public $deliveryDate;
+  public $returnMethodType;
+  public $shipmentId;
+  protected $shipmentTrackingInfosType = ShipmentTrackingInfo::class;
+  protected $shipmentTrackingInfosDataType = 'array';
+  public $shippingDate;
+  public $state;
+
+  public function setCreationDate($creationDate)
+  {
+    $this->creationDate = $creationDate;
+  }
+  public function getCreationDate()
+  {
+    return $this->creationDate;
+  }
+  public function setDeliveryDate($deliveryDate)
+  {
+    $this->deliveryDate = $deliveryDate;
+  }
+  public function getDeliveryDate()
+  {
+    return $this->deliveryDate;
+  }
+  public function setReturnMethodType($returnMethodType)
+  {
+    $this->returnMethodType = $returnMethodType;
+  }
+  public function getReturnMethodType()
+  {
+    return $this->returnMethodType;
+  }
+  public function setShipmentId($shipmentId)
+  {
+    $this->shipmentId = $shipmentId;
+  }
+  public function getShipmentId()
+  {
+    return $this->shipmentId;
+  }
+  /**
+   * @param ShipmentTrackingInfo[]
+   */
+  public function setShipmentTrackingInfos($shipmentTrackingInfos)
+  {
+    $this->shipmentTrackingInfos = $shipmentTrackingInfos;
+  }
+  /**
+   * @return ShipmentTrackingInfo[]
+   */
+  public function getShipmentTrackingInfos()
+  {
+    return $this->shipmentTrackingInfos;
+  }
+  public function setShippingDate($shippingDate)
+  {
+    $this->shippingDate = $shippingDate;
+  }
+  public function getShippingDate()
+  {
+    return $this->shippingDate;
+  }
+  public function setState($state)
+  {
+    $this->state = $state;
+  }
+  public function getState()
+  {
+    return $this->state;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ReturnShipment::class, 'Google_Service_ShoppingContent_ReturnShipment');

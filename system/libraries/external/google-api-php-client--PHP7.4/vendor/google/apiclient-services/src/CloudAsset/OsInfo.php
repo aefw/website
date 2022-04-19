@@ -1,68 +1,98 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Bei=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudAsset;
+
+class OsInfo extends \Google\Model
+{
+  public $architecture;
+  public $hostname;
+  public $kernelRelease;
+  public $kernelVersion;
+  public $longName;
+  public $osconfigAgentVersion;
+  public $shortName;
+  public $version;
+
+  public function setArchitecture($architecture)
+  {
+    $this->architecture = $architecture;
+  }
+  public function getArchitecture()
+  {
+    return $this->architecture;
+  }
+  public function setHostname($hostname)
+  {
+    $this->hostname = $hostname;
+  }
+  public function getHostname()
+  {
+    return $this->hostname;
+  }
+  public function setKernelRelease($kernelRelease)
+  {
+    $this->kernelRelease = $kernelRelease;
+  }
+  public function getKernelRelease()
+  {
+    return $this->kernelRelease;
+  }
+  public function setKernelVersion($kernelVersion)
+  {
+    $this->kernelVersion = $kernelVersion;
+  }
+  public function getKernelVersion()
+  {
+    return $this->kernelVersion;
+  }
+  public function setLongName($longName)
+  {
+    $this->longName = $longName;
+  }
+  public function getLongName()
+  {
+    return $this->longName;
+  }
+  public function setOsconfigAgentVersion($osconfigAgentVersion)
+  {
+    $this->osconfigAgentVersion = $osconfigAgentVersion;
+  }
+  public function getOsconfigAgentVersion()
+  {
+    return $this->osconfigAgentVersion;
+  }
+  public function setShortName($shortName)
+  {
+    $this->shortName = $shortName;
+  }
+  public function getShortName()
+  {
+    return $this->shortName;
+  }
+  public function setVersion($version)
+  {
+    $this->version = $version;
+  }
+  public function getVersion()
+  {
+    return $this->version;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(OsInfo::class, 'Google_Service_CloudAsset_OsInfo');

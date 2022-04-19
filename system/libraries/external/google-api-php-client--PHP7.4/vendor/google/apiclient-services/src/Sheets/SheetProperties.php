@@ -1,82 +1,144 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-GIcVVPzMQeOzL/cd1jIM/sC=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Sheets;
+
+class SheetProperties extends \Google\Model
+{
+  protected $dataSourceSheetPropertiesType = DataSourceSheetProperties::class;
+  protected $dataSourceSheetPropertiesDataType = '';
+  protected $gridPropertiesType = GridProperties::class;
+  protected $gridPropertiesDataType = '';
+  public $hidden;
+  public $index;
+  public $rightToLeft;
+  public $sheetId;
+  public $sheetType;
+  protected $tabColorType = Color::class;
+  protected $tabColorDataType = '';
+  protected $tabColorStyleType = ColorStyle::class;
+  protected $tabColorStyleDataType = '';
+  public $title;
+
+  /**
+   * @param DataSourceSheetProperties
+   */
+  public function setDataSourceSheetProperties(DataSourceSheetProperties $dataSourceSheetProperties)
+  {
+    $this->dataSourceSheetProperties = $dataSourceSheetProperties;
+  }
+  /**
+   * @return DataSourceSheetProperties
+   */
+  public function getDataSourceSheetProperties()
+  {
+    return $this->dataSourceSheetProperties;
+  }
+  /**
+   * @param GridProperties
+   */
+  public function setGridProperties(GridProperties $gridProperties)
+  {
+    $this->gridProperties = $gridProperties;
+  }
+  /**
+   * @return GridProperties
+   */
+  public function getGridProperties()
+  {
+    return $this->gridProperties;
+  }
+  public function setHidden($hidden)
+  {
+    $this->hidden = $hidden;
+  }
+  public function getHidden()
+  {
+    return $this->hidden;
+  }
+  public function setIndex($index)
+  {
+    $this->index = $index;
+  }
+  public function getIndex()
+  {
+    return $this->index;
+  }
+  public function setRightToLeft($rightToLeft)
+  {
+    $this->rightToLeft = $rightToLeft;
+  }
+  public function getRightToLeft()
+  {
+    return $this->rightToLeft;
+  }
+  public function setSheetId($sheetId)
+  {
+    $this->sheetId = $sheetId;
+  }
+  public function getSheetId()
+  {
+    return $this->sheetId;
+  }
+  public function setSheetType($sheetType)
+  {
+    $this->sheetType = $sheetType;
+  }
+  public function getSheetType()
+  {
+    return $this->sheetType;
+  }
+  /**
+   * @param Color
+   */
+  public function setTabColor(Color $tabColor)
+  {
+    $this->tabColor = $tabColor;
+  }
+  /**
+   * @return Color
+   */
+  public function getTabColor()
+  {
+    return $this->tabColor;
+  }
+  /**
+   * @param ColorStyle
+   */
+  public function setTabColorStyle(ColorStyle $tabColorStyle)
+  {
+    $this->tabColorStyle = $tabColorStyle;
+  }
+  /**
+   * @return ColorStyle
+   */
+  public function getTabColorStyle()
+  {
+    return $this->tabColorStyle;
+  }
+  public function setTitle($title)
+  {
+    $this->title = $title;
+  }
+  public function getTitle()
+  {
+    return $this->title;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(SheetProperties::class, 'Google_Service_Sheets_SheetProperties');

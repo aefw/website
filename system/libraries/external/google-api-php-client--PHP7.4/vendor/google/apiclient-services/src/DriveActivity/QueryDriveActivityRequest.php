@@ -1,64 +1,87 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DriveActivity;
+
+class QueryDriveActivityRequest extends \Google\Model
+{
+  public $ancestorName;
+  protected $consolidationStrategyType = ConsolidationStrategy::class;
+  protected $consolidationStrategyDataType = '';
+  public $filter;
+  public $itemName;
+  public $pageSize;
+  public $pageToken;
+
+  public function setAncestorName($ancestorName)
+  {
+    $this->ancestorName = $ancestorName;
+  }
+  public function getAncestorName()
+  {
+    return $this->ancestorName;
+  }
+  /**
+   * @param ConsolidationStrategy
+   */
+  public function setConsolidationStrategy(ConsolidationStrategy $consolidationStrategy)
+  {
+    $this->consolidationStrategy = $consolidationStrategy;
+  }
+  /**
+   * @return ConsolidationStrategy
+   */
+  public function getConsolidationStrategy()
+  {
+    return $this->consolidationStrategy;
+  }
+  public function setFilter($filter)
+  {
+    $this->filter = $filter;
+  }
+  public function getFilter()
+  {
+    return $this->filter;
+  }
+  public function setItemName($itemName)
+  {
+    $this->itemName = $itemName;
+  }
+  public function getItemName()
+  {
+    return $this->itemName;
+  }
+  public function setPageSize($pageSize)
+  {
+    $this->pageSize = $pageSize;
+  }
+  public function getPageSize()
+  {
+    return $this->pageSize;
+  }
+  public function setPageToken($pageToken)
+  {
+    $this->pageToken = $pageToken;
+  }
+  public function getPageToken()
+  {
+    return $this->pageToken;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(QueryDriveActivityRequest::class, 'Google_Service_DriveActivity_QueryDriveActivityRequest');

@@ -1,65 +1,116 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Firestore;
+
+class Write extends \Google\Collection
+{
+  protected $collection_key = 'updateTransforms';
+  protected $currentDocumentType = Precondition::class;
+  protected $currentDocumentDataType = '';
+  public $delete;
+  protected $transformType = DocumentTransform::class;
+  protected $transformDataType = '';
+  protected $updateType = Document::class;
+  protected $updateDataType = '';
+  protected $updateMaskType = DocumentMask::class;
+  protected $updateMaskDataType = '';
+  protected $updateTransformsType = FieldTransform::class;
+  protected $updateTransformsDataType = 'array';
+
+  /**
+   * @param Precondition
+   */
+  public function setCurrentDocument(Precondition $currentDocument)
+  {
+    $this->currentDocument = $currentDocument;
+  }
+  /**
+   * @return Precondition
+   */
+  public function getCurrentDocument()
+  {
+    return $this->currentDocument;
+  }
+  public function setDelete($delete)
+  {
+    $this->delete = $delete;
+  }
+  public function getDelete()
+  {
+    return $this->delete;
+  }
+  /**
+   * @param DocumentTransform
+   */
+  public function setTransform(DocumentTransform $transform)
+  {
+    $this->transform = $transform;
+  }
+  /**
+   * @return DocumentTransform
+   */
+  public function getTransform()
+  {
+    return $this->transform;
+  }
+  /**
+   * @param Document
+   */
+  public function setUpdate(Document $update)
+  {
+    $this->update = $update;
+  }
+  /**
+   * @return Document
+   */
+  public function getUpdate()
+  {
+    return $this->update;
+  }
+  /**
+   * @param DocumentMask
+   */
+  public function setUpdateMask(DocumentMask $updateMask)
+  {
+    $this->updateMask = $updateMask;
+  }
+  /**
+   * @return DocumentMask
+   */
+  public function getUpdateMask()
+  {
+    return $this->updateMask;
+  }
+  /**
+   * @param FieldTransform[]
+   */
+  public function setUpdateTransforms($updateTransforms)
+  {
+    $this->updateTransforms = $updateTransforms;
+  }
+  /**
+   * @return FieldTransform[]
+   */
+  public function getUpdateTransforms()
+  {
+    return $this->updateTransforms;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Write::class, 'Google_Service_Firestore_Write');

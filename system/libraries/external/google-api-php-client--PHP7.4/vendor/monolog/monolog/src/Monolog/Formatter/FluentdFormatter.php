@@ -1,59 +1,88 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php declare(strict_types=1);
+
+/*
+ * This file is part of the Monolog package.
+ *
+ * (c) Jordi Boggiano <j.boggiano@seld.be>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Monolog\Formatter;
+
+use Monolog\Utils;
+
+/**
+ * Class FluentdFormatter
+ *
+ * Serializes a log message to Fluentd unix socket protocol
+ *
+ * Fluentd config:
+ *
+ * <source>
+ *  type unix
+ *  path /var/run/td-agent/td-agent.sock
+ * </source>
+ *
+ * Monolog setup:
+ *
+ * $logger = new Monolog\Logger('fluent.tag');
+ * $fluentHandler = new Monolog\Handler\SocketHandler('unix:///var/run/td-agent/td-agent.sock');
+ * $fluentHandler->setFormatter(new Monolog\Formatter\FluentdFormatter());
+ * $logger->pushHandler($fluentHandler);
+ *
+ * @author Andrius Putna <fordnox@gmail.com>
+ */
+class FluentdFormatter implements FormatterInterface
+{
+    /**
+     * @var bool $levelTag should message level be a part of the fluentd tag
+     */
+    protected $levelTag = false;
+
+    public function __construct(bool $levelTag = false)
+    {
+        if (!function_exists('json_encode')) {
+            throw new \RuntimeException('PHP\'s json extension is required to use Monolog\'s FluentdUnixFormatter');
+        }
+
+        $this->levelTag = $levelTag;
+    }
+
+    public function isUsingLevelsInTag(): bool
+    {
+        return $this->levelTag;
+    }
+
+    public function format(array $record): string
+    {
+        $tag = $record['channel'];
+        if ($this->levelTag) {
+            $tag .= '.' . strtolower($record['level_name']);
+        }
+
+        $message = [
+            'message' => $record['message'],
+            'context' => $record['context'],
+            'extra' => $record['extra'],
+        ];
+
+        if (!$this->levelTag) {
+            $message['level'] = $record['level'];
+            $message['level_name'] = $record['level_name'];
+        }
+
+        return Utils::jsonEncode([$tag, $record['datetime']->getTimestamp(), $message]);
+    }
+
+    public function formatBatch(array $records): string
+    {
+        $message = '';
+        foreach ($records as $record) {
+            $message .= $this->format($record);
+        }
+
+        return $message;
+    }
+}

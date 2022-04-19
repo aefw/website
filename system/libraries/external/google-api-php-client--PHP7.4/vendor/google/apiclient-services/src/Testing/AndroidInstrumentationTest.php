@@ -1,80 +1,136 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-AYbBP0v5ghguuX4XuDXRfI2ZURNkd/M2
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Testing;
+
+class AndroidInstrumentationTest extends \Google\Collection
+{
+  protected $collection_key = 'testTargets';
+  protected $appApkType = FileReference::class;
+  protected $appApkDataType = '';
+  protected $appBundleType = AppBundle::class;
+  protected $appBundleDataType = '';
+  public $appPackageId;
+  public $orchestratorOption;
+  protected $shardingOptionType = ShardingOption::class;
+  protected $shardingOptionDataType = '';
+  protected $testApkType = FileReference::class;
+  protected $testApkDataType = '';
+  public $testPackageId;
+  public $testRunnerClass;
+  public $testTargets;
+
+  /**
+   * @param FileReference
+   */
+  public function setAppApk(FileReference $appApk)
+  {
+    $this->appApk = $appApk;
+  }
+  /**
+   * @return FileReference
+   */
+  public function getAppApk()
+  {
+    return $this->appApk;
+  }
+  /**
+   * @param AppBundle
+   */
+  public function setAppBundle(AppBundle $appBundle)
+  {
+    $this->appBundle = $appBundle;
+  }
+  /**
+   * @return AppBundle
+   */
+  public function getAppBundle()
+  {
+    return $this->appBundle;
+  }
+  public function setAppPackageId($appPackageId)
+  {
+    $this->appPackageId = $appPackageId;
+  }
+  public function getAppPackageId()
+  {
+    return $this->appPackageId;
+  }
+  public function setOrchestratorOption($orchestratorOption)
+  {
+    $this->orchestratorOption = $orchestratorOption;
+  }
+  public function getOrchestratorOption()
+  {
+    return $this->orchestratorOption;
+  }
+  /**
+   * @param ShardingOption
+   */
+  public function setShardingOption(ShardingOption $shardingOption)
+  {
+    $this->shardingOption = $shardingOption;
+  }
+  /**
+   * @return ShardingOption
+   */
+  public function getShardingOption()
+  {
+    return $this->shardingOption;
+  }
+  /**
+   * @param FileReference
+   */
+  public function setTestApk(FileReference $testApk)
+  {
+    $this->testApk = $testApk;
+  }
+  /**
+   * @return FileReference
+   */
+  public function getTestApk()
+  {
+    return $this->testApk;
+  }
+  public function setTestPackageId($testPackageId)
+  {
+    $this->testPackageId = $testPackageId;
+  }
+  public function getTestPackageId()
+  {
+    return $this->testPackageId;
+  }
+  public function setTestRunnerClass($testRunnerClass)
+  {
+    $this->testRunnerClass = $testRunnerClass;
+  }
+  public function getTestRunnerClass()
+  {
+    return $this->testRunnerClass;
+  }
+  public function setTestTargets($testTargets)
+  {
+    $this->testTargets = $testTargets;
+  }
+  public function getTestTargets()
+  {
+    return $this->testTargets;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AndroidInstrumentationTest::class, 'Google_Service_Testing_AndroidInstrumentationTest');

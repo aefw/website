@@ -1,70 +1,132 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-OpB+upDOgReKSXO1
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Sheets;
+
+class WaterfallChartSeries extends \Google\Collection
+{
+  protected $collection_key = 'customSubtotals';
+  protected $customSubtotalsType = WaterfallChartCustomSubtotal::class;
+  protected $customSubtotalsDataType = 'array';
+  protected $dataType = ChartData::class;
+  protected $dataDataType = '';
+  protected $dataLabelType = DataLabel::class;
+  protected $dataLabelDataType = '';
+  public $hideTrailingSubtotal;
+  protected $negativeColumnsStyleType = WaterfallChartColumnStyle::class;
+  protected $negativeColumnsStyleDataType = '';
+  protected $positiveColumnsStyleType = WaterfallChartColumnStyle::class;
+  protected $positiveColumnsStyleDataType = '';
+  protected $subtotalColumnsStyleType = WaterfallChartColumnStyle::class;
+  protected $subtotalColumnsStyleDataType = '';
+
+  /**
+   * @param WaterfallChartCustomSubtotal[]
+   */
+  public function setCustomSubtotals($customSubtotals)
+  {
+    $this->customSubtotals = $customSubtotals;
+  }
+  /**
+   * @return WaterfallChartCustomSubtotal[]
+   */
+  public function getCustomSubtotals()
+  {
+    return $this->customSubtotals;
+  }
+  /**
+   * @param ChartData
+   */
+  public function setData(ChartData $data)
+  {
+    $this->data = $data;
+  }
+  /**
+   * @return ChartData
+   */
+  public function getData()
+  {
+    return $this->data;
+  }
+  /**
+   * @param DataLabel
+   */
+  public function setDataLabel(DataLabel $dataLabel)
+  {
+    $this->dataLabel = $dataLabel;
+  }
+  /**
+   * @return DataLabel
+   */
+  public function getDataLabel()
+  {
+    return $this->dataLabel;
+  }
+  public function setHideTrailingSubtotal($hideTrailingSubtotal)
+  {
+    $this->hideTrailingSubtotal = $hideTrailingSubtotal;
+  }
+  public function getHideTrailingSubtotal()
+  {
+    return $this->hideTrailingSubtotal;
+  }
+  /**
+   * @param WaterfallChartColumnStyle
+   */
+  public function setNegativeColumnsStyle(WaterfallChartColumnStyle $negativeColumnsStyle)
+  {
+    $this->negativeColumnsStyle = $negativeColumnsStyle;
+  }
+  /**
+   * @return WaterfallChartColumnStyle
+   */
+  public function getNegativeColumnsStyle()
+  {
+    return $this->negativeColumnsStyle;
+  }
+  /**
+   * @param WaterfallChartColumnStyle
+   */
+  public function setPositiveColumnsStyle(WaterfallChartColumnStyle $positiveColumnsStyle)
+  {
+    $this->positiveColumnsStyle = $positiveColumnsStyle;
+  }
+  /**
+   * @return WaterfallChartColumnStyle
+   */
+  public function getPositiveColumnsStyle()
+  {
+    return $this->positiveColumnsStyle;
+  }
+  /**
+   * @param WaterfallChartColumnStyle
+   */
+  public function setSubtotalColumnsStyle(WaterfallChartColumnStyle $subtotalColumnsStyle)
+  {
+    $this->subtotalColumnsStyle = $subtotalColumnsStyle;
+  }
+  /**
+   * @return WaterfallChartColumnStyle
+   */
+  public function getSubtotalColumnsStyle()
+  {
+    return $this->subtotalColumnsStyle;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(WaterfallChartSeries::class, 'Google_Service_Sheets_WaterfallChartSeries');

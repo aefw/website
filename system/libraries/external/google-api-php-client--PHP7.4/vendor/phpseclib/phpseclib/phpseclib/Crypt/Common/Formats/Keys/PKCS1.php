@@ -1,145 +1,223 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-5TEm1rRc7bq1Zgyit6fc
+<?php
+
+/**
+ * PKCS1 Formatted Key Handler
+ *
+ * PHP version 5
+ *
+ * @category  Crypt
+ * @package   Common
+ * @author    Jim Wigginton <terrafrost@php.net>
+ * @copyright 2015 Jim Wigginton
+ * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      http://phpseclib.sourceforge.net
+ */
+
+namespace phpseclib3\Crypt\Common\Formats\Keys;
+
+use ParagonIE\ConstantTime\Base64;
+use ParagonIE\ConstantTime\Hex;
+use phpseclib3\Crypt\Random;
+use phpseclib3\Crypt\AES;
+use phpseclib3\Crypt\DES;
+use phpseclib3\Crypt\TripleDES;
+use phpseclib3\File\ASN1;
+use phpseclib3\Common\Functions\Strings;
+use phpseclib3\Exception\UnsupportedAlgorithmException;
+
+/**
+ * PKCS1 Formatted Key Handler
+ *
+ * @package RSA
+ * @author  Jim Wigginton <terrafrost@php.net>
+ * @access  public
+ */
+abstract class PKCS1 extends PKCS
+{
+    /**
+     * Default encryption algorithm
+     *
+     * @var string
+     * @access private
+     */
+    private static $defaultEncryptionAlgorithm = 'AES-128-CBC';
+
+    /**
+     * Sets the default encryption algorithm
+     *
+     * @access public
+     * @param string $algo
+     */
+    public static function setEncryptionAlgorithm($algo)
+    {
+        self::$defaultEncryptionAlgorithm = $algo;
+    }
+
+    /**
+     * Returns the mode constant corresponding to the mode string
+     *
+     * @access public
+     * @param string $mode
+     * @return int
+     * @throws \UnexpectedValueException if the block cipher mode is unsupported
+     */
+    private static function getEncryptionMode($mode)
+    {
+        switch ($mode) {
+            case 'CBC':
+            case 'ECB':
+            case 'CFB':
+            case 'OFB':
+            case 'CTR':
+                return $mode;
+        }
+        throw new \UnexpectedValueException('Unsupported block cipher mode of operation');
+    }
+
+    /**
+     * Returns a cipher object corresponding to a string
+     *
+     * @access public
+     * @param string $algo
+     * @return string
+     * @throws \UnexpectedValueException if the encryption algorithm is unsupported
+     */
+    private static function getEncryptionObject($algo)
+    {
+        $modes = '(CBC|ECB|CFB|OFB|CTR)';
+        switch (true) {
+            case preg_match("#^AES-(128|192|256)-$modes$#", $algo, $matches):
+                $cipher = new AES(self::getEncryptionMode($matches[2]));
+                $cipher->setKeyLength($matches[1]);
+                return $cipher;
+            case preg_match("#^DES-EDE3-$modes$#", $algo, $matches):
+                return new TripleDES(self::getEncryptionMode($matches[1]));
+            case preg_match("#^DES-$modes$#", $algo, $matches):
+                return new DES(self::getEncryptionMode($matches[1]));
+            default:
+                throw new UnsupportedAlgorithmException($algo . ' is not a supported algorithm');
+        }
+    }
+
+    /**
+     * Generate a symmetric key for PKCS#1 keys
+     *
+     * @access private
+     * @param string $password
+     * @param string $iv
+     * @param int $length
+     * @return string
+     */
+    private static function generateSymmetricKey($password, $iv, $length)
+    {
+        $symkey = '';
+        $iv = substr($iv, 0, 8);
+        while (strlen($symkey) < $length) {
+            $symkey.= md5($symkey . $password . $iv, true);
+        }
+        return substr($symkey, 0, $length);
+    }
+
+    /**
+     * Break a public or private key down into its constituent components
+     *
+     * @access public
+     * @param string $key
+     * @param string $password optional
+     * @return array
+     */
+    protected static function load($key, $password)
+    {
+        if (!Strings::is_stringable($key)) {
+            throw new \UnexpectedValueException('Key should be a string - not a ' . gettype($key));
+        }
+
+        /* Although PKCS#1 proposes a format that public and private keys can use, encrypting them is
+           "outside the scope" of PKCS#1.  PKCS#1 then refers you to PKCS#12 and PKCS#15 if you're wanting to
+           protect private keys, however, that's not what OpenSSL* does.  OpenSSL protects private keys by adding
+           two new "fields" to the key - DEK-Info and Proc-Type.  These fields are discussed here:
+
+           http://tools.ietf.org/html/rfc1421#section-4.6.1.1
+           http://tools.ietf.org/html/rfc1421#section-4.6.1.3
+
+           DES-EDE3-CBC as an algorithm, however, is not discussed anywhere, near as I can tell.
+           DES-CBC and DES-EDE are discussed in RFC1423, however, DES-EDE3-CBC isn't, nor is its key derivation
+           function.  As is, the definitive authority on this encoding scheme isn't the IETF but rather OpenSSL's
+           own implementation.  ie. the implementation *is* the standard and any bugs that may exist in that
+           implementation are part of the standard, as well.
+
+           * OpenSSL is the de facto standard.  It's utilized by OpenSSH and other projects */
+        if (preg_match('#DEK-Info: (.+),(.+)#', $key, $matches)) {
+            $iv = Hex::decode(trim($matches[2]));
+            // remove the Proc-Type / DEK-Info sections as they're no longer needed
+            $key = preg_replace('#^(?:Proc-Type|DEK-Info): .*#m', '', $key);
+            $ciphertext = ASN1::extractBER($key);
+            if ($ciphertext === false) {
+                $ciphertext = $key;
+            }
+            $crypto = self::getEncryptionObject($matches[1]);
+            $crypto->setKey(self::generateSymmetricKey($password, $iv, $crypto->getKeyLength() >> 3));
+            $crypto->setIV($iv);
+            $key = $crypto->decrypt($ciphertext);
+        } else {
+            if (self::$format != self::MODE_DER) {
+                $decoded = ASN1::extractBER($key);
+                if ($decoded !== false) {
+                    $key = $decoded;
+                } elseif (self::$format == self::MODE_PEM) {
+                    throw new \UnexpectedValueException('Expected base64-encoded PEM format but was unable to decode base64 text');
+                }
+            }
+        }
+
+        return $key;
+    }
+
+    /**
+     * Wrap a private key appropriately
+     *
+     * @access public
+     * @param string $key
+     * @param string $type
+     * @param string $password
+     * @param array $options optional
+     * @return string
+     */
+    protected static function wrapPrivateKey($key, $type, $password, array $options = [])
+    {
+        if (empty($password) || !is_string($password)) {
+            return "-----BEGIN $type PRIVATE KEY-----\r\n" .
+                   chunk_split(Base64::encode($key), 64) .
+                   "-----END $type PRIVATE KEY-----";
+        }
+
+        $encryptionAlgorithm = isset($options['encryptionAlgorithm']) ? $options['encryptionAlgorithm'] : self::$defaultEncryptionAlgorithm;
+
+        $cipher = self::getEncryptionObject($encryptionAlgorithm);
+        $iv = Random::string($cipher->getBlockLength() >> 3);
+        $cipher->setKey(self::generateSymmetricKey($password, $iv, $cipher->getKeyLength() >> 3));
+        $cipher->setIV($iv);
+        $iv = strtoupper(Hex::encode($iv));
+        return "-----BEGIN $type PRIVATE KEY-----\r\n" .
+               "Proc-Type: 4,ENCRYPTED\r\n" .
+               "DEK-Info: " . $encryptionAlgorithm. ",$iv\r\n" .
+               "\r\n" .
+               chunk_split(Base64::encode($cipher->encrypt($key)), 64) .
+               "-----END $type PRIVATE KEY-----";
+    }
+
+    /**
+     * Wrap a public key appropriately
+     *
+     * @access public
+     * @param string $key
+     * @param string $type
+     * @return string
+     */
+    protected static function wrapPublicKey($key, $type)
+    {
+        return "-----BEGIN $type PUBLIC KEY-----\r\n" .
+               chunk_split(Base64::encode($key), 64) .
+               "-----END $type PUBLIC KEY-----";
+    }
+}

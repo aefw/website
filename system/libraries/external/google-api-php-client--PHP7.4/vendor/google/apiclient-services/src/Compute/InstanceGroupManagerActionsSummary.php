@@ -1,72 +1,107 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-r+yplQQuh4e=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute;
+
+class InstanceGroupManagerActionsSummary extends \Google\Model
+{
+  public $abandoning;
+  public $creating;
+  public $creatingWithoutRetries;
+  public $deleting;
+  public $none;
+  public $recreating;
+  public $refreshing;
+  public $restarting;
+  public $verifying;
+
+  public function setAbandoning($abandoning)
+  {
+    $this->abandoning = $abandoning;
+  }
+  public function getAbandoning()
+  {
+    return $this->abandoning;
+  }
+  public function setCreating($creating)
+  {
+    $this->creating = $creating;
+  }
+  public function getCreating()
+  {
+    return $this->creating;
+  }
+  public function setCreatingWithoutRetries($creatingWithoutRetries)
+  {
+    $this->creatingWithoutRetries = $creatingWithoutRetries;
+  }
+  public function getCreatingWithoutRetries()
+  {
+    return $this->creatingWithoutRetries;
+  }
+  public function setDeleting($deleting)
+  {
+    $this->deleting = $deleting;
+  }
+  public function getDeleting()
+  {
+    return $this->deleting;
+  }
+  public function setNone($none)
+  {
+    $this->none = $none;
+  }
+  public function getNone()
+  {
+    return $this->none;
+  }
+  public function setRecreating($recreating)
+  {
+    $this->recreating = $recreating;
+  }
+  public function getRecreating()
+  {
+    return $this->recreating;
+  }
+  public function setRefreshing($refreshing)
+  {
+    $this->refreshing = $refreshing;
+  }
+  public function getRefreshing()
+  {
+    return $this->refreshing;
+  }
+  public function setRestarting($restarting)
+  {
+    $this->restarting = $restarting;
+  }
+  public function getRestarting()
+  {
+    return $this->restarting;
+  }
+  public function setVerifying($verifying)
+  {
+    $this->verifying = $verifying;
+  }
+  public function getVerifying()
+  {
+    return $this->verifying;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(InstanceGroupManagerActionsSummary::class, 'Google_Service_Compute_InstanceGroupManagerActionsSummary');

@@ -1,92 +1,138 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+<?php
+/**
+ *--------------------------------------------------------------------
+ *
+ * Sub-Class - PostNet
+ *
+ * A postnet is composed of either 5, 9 or 11 digits used by US postal service.
+ *
+ *--------------------------------------------------------------------
+ * Copyright (C) Jean-Sebastien Goupil
+ * http://www.barcodephp.com
+ */
+include_once('BCGParseException.php');
+include_once('BCGBarcode1D.php');
+
+class BCGpostnet extends BCGBarcode1D {
+    /**
+     * Constructor.
+     */
+    public function __construct() {
+        parent::__construct();
+
+        $this->keys = array('0', '1', '2', '3', '4', '5', '6', '7', '8', '9');
+        $this->code = array(
+            '11000',    /* 0 */
+            '00011',    /* 1 */
+            '00101',    /* 2 */
+            '00110',    /* 3 */
+            '01001',    /* 4 */
+            '01010',    /* 5 */
+            '01100',    /* 6 */
+            '10001',    /* 7 */
+            '10010',    /* 8 */
+            '10100'     /* 9 */
+        );
+
+        $this->setThickness(9);
+    }
+
+    /**
+     * Draws the barcode.
+     *
+     * @param resource $im
+     */
+    public function draw($im) {
+        // Checksum
+        $checksum = 0;
+        $c = strlen($this->text);
+        for ($i = 0; $i < $c; $i++) {
+            $checksum += intval($this->text[$i]);
+        }
+
+        $checksum = 10 - ($checksum % 10);
+
+        // Starting Code
+        $this->drawChar($im, '1');
+
+        // Code
+        for ($i = 0; $i < $c; $i++) {
+            $this->drawChar($im, $this->findCode($this->text[$i]));
+        }
+
+        // Checksum
+        $this->drawChar($im, $this->findCode($checksum));
+
+        // Ending Code
+        $this->drawChar($im, '1');
+        $this->drawText($im, 0, 0, $this->positionX, $this->thickness);
+    }
+
+    /**
+     * Returns the maximal size of a barcode.
+     *
+     * @param int $w
+     * @param int $h
+     * @return int[]
+     */
+    public function getDimension($w, $h) {
+        $c = strlen($this->text);
+        $startlength = 3;
+        $textlength = $c * 5 * 3;
+        $checksumlength = 5 * 3;
+        $endlength = 3;
+
+        // We remove the white on the right
+        $removelength = -1.56;
+
+        $w += $startlength + $textlength + $checksumlength + $endlength + $removelength;
+        $h += $this->thickness;
+        return parent::getDimension($w, $h);
+    }
+
+    /**
+     * Validates the input.
+     */
+    protected function validate() {
+        $c = strlen($this->text);
+        if ($c === 0) {
+            throw new BCGParseException('postnet', 'No data has been entered.');
+        }
+
+        // Checking if all chars are allowed
+        for ($i = 0; $i < $c; $i++) {
+            if (array_search($this->text[$i], $this->keys) === false) {
+                throw new BCGParseException('postnet', 'The character \'' . $this->text[$i] . '\' is not allowed.');
+            }
+        }
+
+        // Must contain 5, 9 or 11 chars
+        if ($c !== 5 && $c !== 9 && $c !== 11) {
+            throw new BCGParseException('postnet', 'Must contain 5, 9, or 11 characters.');
+        }
+
+        parent::validate();
+    }
+
+    /**
+     * Overloaded method for drawing special barcode.
+     *
+     * @param resource $im
+     * @param string $code
+     * @param boolean $startBar
+     */
+    protected function drawChar($im, $code, $startBar = true) {
+        $c = strlen($code);
+        for ($i = 0; $i < $c; $i++) {
+            if ($code[$i] === '0') {
+                $posY = $this->thickness - ($this->thickness / 2.5);
+            } else {
+                $posY = 0;
+            }
+
+            $this->drawFilledRectangle($im, $this->positionX, $posY, $this->positionX + 0.44, $this->thickness - 1, BCGBarcode::COLOR_FG);
+            $this->positionX += 3;
+        }
+    }
+}
 ?>
-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
-Dwtc+cKX

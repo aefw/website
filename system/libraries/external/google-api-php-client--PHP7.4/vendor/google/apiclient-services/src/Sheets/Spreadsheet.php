@@ -1,74 +1,141 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Eekgmm61iG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Sheets;
+
+class Spreadsheet extends \Google\Collection
+{
+  protected $collection_key = 'sheets';
+  protected $dataSourceSchedulesType = DataSourceRefreshSchedule::class;
+  protected $dataSourceSchedulesDataType = 'array';
+  protected $dataSourcesType = DataSource::class;
+  protected $dataSourcesDataType = 'array';
+  protected $developerMetadataType = DeveloperMetadata::class;
+  protected $developerMetadataDataType = 'array';
+  protected $namedRangesType = NamedRange::class;
+  protected $namedRangesDataType = 'array';
+  protected $propertiesType = SpreadsheetProperties::class;
+  protected $propertiesDataType = '';
+  protected $sheetsType = Sheet::class;
+  protected $sheetsDataType = 'array';
+  public $spreadsheetId;
+  public $spreadsheetUrl;
+
+  /**
+   * @param DataSourceRefreshSchedule[]
+   */
+  public function setDataSourceSchedules($dataSourceSchedules)
+  {
+    $this->dataSourceSchedules = $dataSourceSchedules;
+  }
+  /**
+   * @return DataSourceRefreshSchedule[]
+   */
+  public function getDataSourceSchedules()
+  {
+    return $this->dataSourceSchedules;
+  }
+  /**
+   * @param DataSource[]
+   */
+  public function setDataSources($dataSources)
+  {
+    $this->dataSources = $dataSources;
+  }
+  /**
+   * @return DataSource[]
+   */
+  public function getDataSources()
+  {
+    return $this->dataSources;
+  }
+  /**
+   * @param DeveloperMetadata[]
+   */
+  public function setDeveloperMetadata($developerMetadata)
+  {
+    $this->developerMetadata = $developerMetadata;
+  }
+  /**
+   * @return DeveloperMetadata[]
+   */
+  public function getDeveloperMetadata()
+  {
+    return $this->developerMetadata;
+  }
+  /**
+   * @param NamedRange[]
+   */
+  public function setNamedRanges($namedRanges)
+  {
+    $this->namedRanges = $namedRanges;
+  }
+  /**
+   * @return NamedRange[]
+   */
+  public function getNamedRanges()
+  {
+    return $this->namedRanges;
+  }
+  /**
+   * @param SpreadsheetProperties
+   */
+  public function setProperties(SpreadsheetProperties $properties)
+  {
+    $this->properties = $properties;
+  }
+  /**
+   * @return SpreadsheetProperties
+   */
+  public function getProperties()
+  {
+    return $this->properties;
+  }
+  /**
+   * @param Sheet[]
+   */
+  public function setSheets($sheets)
+  {
+    $this->sheets = $sheets;
+  }
+  /**
+   * @return Sheet[]
+   */
+  public function getSheets()
+  {
+    return $this->sheets;
+  }
+  public function setSpreadsheetId($spreadsheetId)
+  {
+    $this->spreadsheetId = $spreadsheetId;
+  }
+  public function getSpreadsheetId()
+  {
+    return $this->spreadsheetId;
+  }
+  public function setSpreadsheetUrl($spreadsheetUrl)
+  {
+    $this->spreadsheetUrl = $spreadsheetUrl;
+  }
+  public function getSpreadsheetUrl()
+  {
+    return $this->spreadsheetUrl;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Spreadsheet::class, 'Google_Service_Sheets_Spreadsheet');

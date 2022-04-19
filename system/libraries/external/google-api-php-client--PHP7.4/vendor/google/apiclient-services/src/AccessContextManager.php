@@ -1,74 +1,449 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-t/HAlFAsuWi9Y0==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for AccessContextManager (v1).
+ *
+ * <p>
+ * An API for setting attribute based access control to requests to GCP
+ * services.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/access-context-manager/docs/reference/rest/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class AccessContextManager extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+
+  public $accessPolicies;
+  public $accessPolicies_accessLevels;
+  public $accessPolicies_servicePerimeters;
+  public $operations;
+  public $organizations_gcpUserAccessBindings;
+
+  /**
+   * Constructs the internal representation of the AccessContextManager service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://accesscontextmanager.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'accesscontextmanager';
+
+    $this->accessPolicies = new AccessContextManager\Resource\AccessPolicies(
+        $this,
+        $this->serviceName,
+        'accessPolicies',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/accessPolicies',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/accessPolicies',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'parent' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->accessPolicies_accessLevels = new AccessContextManager\Resource\AccessPoliciesAccessLevels(
+        $this,
+        $this->serviceName,
+        'accessLevels',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/accessLevels',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'accessLevelFormat' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/accessLevels',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'accessLevelFormat' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'replaceAll' => [
+              'path' => 'v1/{+parent}/accessLevels:replaceAll',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->accessPolicies_servicePerimeters = new AccessContextManager\Resource\AccessPoliciesServicePerimeters(
+        $this,
+        $this->serviceName,
+        'servicePerimeters',
+        [
+          'methods' => [
+            'commit' => [
+              'path' => 'v1/{+parent}/servicePerimeters:commit',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1/{+parent}/servicePerimeters',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/servicePerimeters',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'replaceAll' => [
+              'path' => 'v1/{+parent}/servicePerimeters:replaceAll',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->operations = new AccessContextManager\Resource\Operations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'cancel' => [
+              'path' => 'v1/{+name}:cancel',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_gcpUserAccessBindings = new AccessContextManager\Resource\OrganizationsGcpUserAccessBindings(
+        $this,
+        $this->serviceName,
+        'gcpUserAccessBindings',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/gcpUserAccessBindings',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/gcpUserAccessBindings',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AccessContextManager::class, 'Google_Service_AccessContextManager');

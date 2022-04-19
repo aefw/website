@@ -1,106 +1,233 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-cDs7A9QhIuQbTaFY9tnHXEAUizhDam6aG8oJEm==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\OnDemandScanning;
+
+class Occurrence extends \Google\Model
+{
+  protected $attestationType = AttestationOccurrence::class;
+  protected $attestationDataType = '';
+  protected $buildType = BuildOccurrence::class;
+  protected $buildDataType = '';
+  protected $complianceType = ComplianceOccurrence::class;
+  protected $complianceDataType = '';
+  public $createTime;
+  protected $deploymentType = DeploymentOccurrence::class;
+  protected $deploymentDataType = '';
+  protected $discoveryType = DiscoveryOccurrence::class;
+  protected $discoveryDataType = '';
+  protected $imageType = ImageOccurrence::class;
+  protected $imageDataType = '';
+  public $kind;
+  public $name;
+  public $noteName;
+  protected $packageType = PackageOccurrence::class;
+  protected $packageDataType = '';
+  public $remediation;
+  public $resourceUri;
+  public $updateTime;
+  protected $upgradeType = UpgradeOccurrence::class;
+  protected $upgradeDataType = '';
+  protected $vulnerabilityType = VulnerabilityOccurrence::class;
+  protected $vulnerabilityDataType = '';
+
+  /**
+   * @param AttestationOccurrence
+   */
+  public function setAttestation(AttestationOccurrence $attestation)
+  {
+    $this->attestation = $attestation;
+  }
+  /**
+   * @return AttestationOccurrence
+   */
+  public function getAttestation()
+  {
+    return $this->attestation;
+  }
+  /**
+   * @param BuildOccurrence
+   */
+  public function setBuild(BuildOccurrence $build)
+  {
+    $this->build = $build;
+  }
+  /**
+   * @return BuildOccurrence
+   */
+  public function getBuild()
+  {
+    return $this->build;
+  }
+  /**
+   * @param ComplianceOccurrence
+   */
+  public function setCompliance(ComplianceOccurrence $compliance)
+  {
+    $this->compliance = $compliance;
+  }
+  /**
+   * @return ComplianceOccurrence
+   */
+  public function getCompliance()
+  {
+    return $this->compliance;
+  }
+  public function setCreateTime($createTime)
+  {
+    $this->createTime = $createTime;
+  }
+  public function getCreateTime()
+  {
+    return $this->createTime;
+  }
+  /**
+   * @param DeploymentOccurrence
+   */
+  public function setDeployment(DeploymentOccurrence $deployment)
+  {
+    $this->deployment = $deployment;
+  }
+  /**
+   * @return DeploymentOccurrence
+   */
+  public function getDeployment()
+  {
+    return $this->deployment;
+  }
+  /**
+   * @param DiscoveryOccurrence
+   */
+  public function setDiscovery(DiscoveryOccurrence $discovery)
+  {
+    $this->discovery = $discovery;
+  }
+  /**
+   * @return DiscoveryOccurrence
+   */
+  public function getDiscovery()
+  {
+    return $this->discovery;
+  }
+  /**
+   * @param ImageOccurrence
+   */
+  public function setImage(ImageOccurrence $image)
+  {
+    $this->image = $image;
+  }
+  /**
+   * @return ImageOccurrence
+   */
+  public function getImage()
+  {
+    return $this->image;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setNoteName($noteName)
+  {
+    $this->noteName = $noteName;
+  }
+  public function getNoteName()
+  {
+    return $this->noteName;
+  }
+  /**
+   * @param PackageOccurrence
+   */
+  public function setPackage(PackageOccurrence $package)
+  {
+    $this->package = $package;
+  }
+  /**
+   * @return PackageOccurrence
+   */
+  public function getPackage()
+  {
+    return $this->package;
+  }
+  public function setRemediation($remediation)
+  {
+    $this->remediation = $remediation;
+  }
+  public function getRemediation()
+  {
+    return $this->remediation;
+  }
+  public function setResourceUri($resourceUri)
+  {
+    $this->resourceUri = $resourceUri;
+  }
+  public function getResourceUri()
+  {
+    return $this->resourceUri;
+  }
+  public function setUpdateTime($updateTime)
+  {
+    $this->updateTime = $updateTime;
+  }
+  public function getUpdateTime()
+  {
+    return $this->updateTime;
+  }
+  /**
+   * @param UpgradeOccurrence
+   */
+  public function setUpgrade(UpgradeOccurrence $upgrade)
+  {
+    $this->upgrade = $upgrade;
+  }
+  /**
+   * @return UpgradeOccurrence
+   */
+  public function getUpgrade()
+  {
+    return $this->upgrade;
+  }
+  /**
+   * @param VulnerabilityOccurrence
+   */
+  public function setVulnerability(VulnerabilityOccurrence $vulnerability)
+  {
+    $this->vulnerability = $vulnerability;
+  }
+  /**
+   * @return VulnerabilityOccurrence
+   */
+  public function getVulnerability()
+  {
+    return $this->vulnerability;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Occurrence::class, 'Google_Service_OnDemandScanning_Occurrence');

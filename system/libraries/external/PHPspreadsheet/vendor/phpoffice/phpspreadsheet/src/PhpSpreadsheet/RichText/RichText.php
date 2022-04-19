@@ -1,81 +1,177 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-2LIH+mOhvl74tcbqpq8jH0TQzYD7epB3Nie=
+<?php
+
+namespace PhpOffice\PhpSpreadsheet\RichText;
+
+use PhpOffice\PhpSpreadsheet\Cell\Cell;
+use PhpOffice\PhpSpreadsheet\Cell\DataType;
+use PhpOffice\PhpSpreadsheet\Exception;
+use PhpOffice\PhpSpreadsheet\IComparable;
+
+class RichText implements IComparable
+{
+    /**
+     * Rich text elements.
+     *
+     * @var ITextElement[]
+     */
+    private $richTextElements;
+
+    /**
+     * Create a new RichText instance.
+     *
+     * @param Cell $pCell
+     *
+     * @throws Exception
+     */
+    public function __construct(Cell $pCell = null)
+    {
+        // Initialise variables
+        $this->richTextElements = [];
+
+        // Rich-Text string attached to cell?
+        if ($pCell !== null) {
+            // Add cell text and style
+            if ($pCell->getValue() != '') {
+                $objRun = new Run($pCell->getValue());
+                $objRun->setFont(clone $pCell->getWorksheet()->getStyle($pCell->getCoordinate())->getFont());
+                $this->addText($objRun);
+            }
+
+            // Set parent value
+            $pCell->setValueExplicit($this, DataType::TYPE_STRING);
+        }
+    }
+
+    /**
+     * Add text.
+     *
+     * @param ITextElement $pText Rich text element
+     *
+     * @return RichText
+     */
+    public function addText(ITextElement $pText)
+    {
+        $this->richTextElements[] = $pText;
+
+        return $this;
+    }
+
+    /**
+     * Create text.
+     *
+     * @param string $pText Text
+     *
+     * @throws Exception
+     *
+     * @return TextElement
+     */
+    public function createText($pText)
+    {
+        $objText = new TextElement($pText);
+        $this->addText($objText);
+
+        return $objText;
+    }
+
+    /**
+     * Create text run.
+     *
+     * @param string $pText Text
+     *
+     * @throws Exception
+     *
+     * @return Run
+     */
+    public function createTextRun($pText)
+    {
+        $objText = new Run($pText);
+        $this->addText($objText);
+
+        return $objText;
+    }
+
+    /**
+     * Get plain text.
+     *
+     * @return string
+     */
+    public function getPlainText()
+    {
+        // Return value
+        $returnValue = '';
+
+        // Loop through all ITextElements
+        foreach ($this->richTextElements as $text) {
+            $returnValue .= $text->getText();
+        }
+
+        return $returnValue;
+    }
+
+    /**
+     * Convert to string.
+     *
+     * @return string
+     */
+    public function __toString()
+    {
+        return $this->getPlainText();
+    }
+
+    /**
+     * Get Rich Text elements.
+     *
+     * @return ITextElement[]
+     */
+    public function getRichTextElements()
+    {
+        return $this->richTextElements;
+    }
+
+    /**
+     * Set Rich Text elements.
+     *
+     * @param ITextElement[] $textElements Array of elements
+     *
+     * @return RichText
+     */
+    public function setRichTextElements(array $textElements)
+    {
+        $this->richTextElements = $textElements;
+
+        return $this;
+    }
+
+    /**
+     * Get hash code.
+     *
+     * @return string Hash code
+     */
+    public function getHashCode()
+    {
+        $hashElements = '';
+        foreach ($this->richTextElements as $element) {
+            $hashElements .= $element->getHashCode();
+        }
+
+        return md5(
+            $hashElements .
+            __CLASS__
+        );
+    }
+
+    /**
+     * Implement PHP __clone to create a deep clone, not just a shallow copy.
+     */
+    public function __clone()
+    {
+        $vars = get_object_vars($this);
+        foreach ($vars as $key => $value) {
+            if (is_object($value)) {
+                $this->$key = clone $value;
+            } else {
+                $this->$key = $value;
+            }
+        }
+    }
+}

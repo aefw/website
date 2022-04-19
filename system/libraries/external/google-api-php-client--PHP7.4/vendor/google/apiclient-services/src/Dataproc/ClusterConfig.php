@@ -1,105 +1,253 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-maA9WG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dataproc;
+
+class ClusterConfig extends \Google\Collection
+{
+  protected $collection_key = 'initializationActions';
+  protected $autoscalingConfigType = AutoscalingConfig::class;
+  protected $autoscalingConfigDataType = '';
+  public $configBucket;
+  protected $encryptionConfigType = EncryptionConfig::class;
+  protected $encryptionConfigDataType = '';
+  protected $endpointConfigType = EndpointConfig::class;
+  protected $endpointConfigDataType = '';
+  protected $gceClusterConfigType = GceClusterConfig::class;
+  protected $gceClusterConfigDataType = '';
+  protected $gkeClusterConfigType = GkeClusterConfig::class;
+  protected $gkeClusterConfigDataType = '';
+  protected $initializationActionsType = NodeInitializationAction::class;
+  protected $initializationActionsDataType = 'array';
+  protected $lifecycleConfigType = LifecycleConfig::class;
+  protected $lifecycleConfigDataType = '';
+  protected $masterConfigType = InstanceGroupConfig::class;
+  protected $masterConfigDataType = '';
+  protected $metastoreConfigType = MetastoreConfig::class;
+  protected $metastoreConfigDataType = '';
+  protected $secondaryWorkerConfigType = InstanceGroupConfig::class;
+  protected $secondaryWorkerConfigDataType = '';
+  protected $securityConfigType = SecurityConfig::class;
+  protected $securityConfigDataType = '';
+  protected $softwareConfigType = SoftwareConfig::class;
+  protected $softwareConfigDataType = '';
+  public $tempBucket;
+  protected $workerConfigType = InstanceGroupConfig::class;
+  protected $workerConfigDataType = '';
+
+  /**
+   * @param AutoscalingConfig
+   */
+  public function setAutoscalingConfig(AutoscalingConfig $autoscalingConfig)
+  {
+    $this->autoscalingConfig = $autoscalingConfig;
+  }
+  /**
+   * @return AutoscalingConfig
+   */
+  public function getAutoscalingConfig()
+  {
+    return $this->autoscalingConfig;
+  }
+  public function setConfigBucket($configBucket)
+  {
+    $this->configBucket = $configBucket;
+  }
+  public function getConfigBucket()
+  {
+    return $this->configBucket;
+  }
+  /**
+   * @param EncryptionConfig
+   */
+  public function setEncryptionConfig(EncryptionConfig $encryptionConfig)
+  {
+    $this->encryptionConfig = $encryptionConfig;
+  }
+  /**
+   * @return EncryptionConfig
+   */
+  public function getEncryptionConfig()
+  {
+    return $this->encryptionConfig;
+  }
+  /**
+   * @param EndpointConfig
+   */
+  public function setEndpointConfig(EndpointConfig $endpointConfig)
+  {
+    $this->endpointConfig = $endpointConfig;
+  }
+  /**
+   * @return EndpointConfig
+   */
+  public function getEndpointConfig()
+  {
+    return $this->endpointConfig;
+  }
+  /**
+   * @param GceClusterConfig
+   */
+  public function setGceClusterConfig(GceClusterConfig $gceClusterConfig)
+  {
+    $this->gceClusterConfig = $gceClusterConfig;
+  }
+  /**
+   * @return GceClusterConfig
+   */
+  public function getGceClusterConfig()
+  {
+    return $this->gceClusterConfig;
+  }
+  /**
+   * @param GkeClusterConfig
+   */
+  public function setGkeClusterConfig(GkeClusterConfig $gkeClusterConfig)
+  {
+    $this->gkeClusterConfig = $gkeClusterConfig;
+  }
+  /**
+   * @return GkeClusterConfig
+   */
+  public function getGkeClusterConfig()
+  {
+    return $this->gkeClusterConfig;
+  }
+  /**
+   * @param NodeInitializationAction[]
+   */
+  public function setInitializationActions($initializationActions)
+  {
+    $this->initializationActions = $initializationActions;
+  }
+  /**
+   * @return NodeInitializationAction[]
+   */
+  public function getInitializationActions()
+  {
+    return $this->initializationActions;
+  }
+  /**
+   * @param LifecycleConfig
+   */
+  public function setLifecycleConfig(LifecycleConfig $lifecycleConfig)
+  {
+    $this->lifecycleConfig = $lifecycleConfig;
+  }
+  /**
+   * @return LifecycleConfig
+   */
+  public function getLifecycleConfig()
+  {
+    return $this->lifecycleConfig;
+  }
+  /**
+   * @param InstanceGroupConfig
+   */
+  public function setMasterConfig(InstanceGroupConfig $masterConfig)
+  {
+    $this->masterConfig = $masterConfig;
+  }
+  /**
+   * @return InstanceGroupConfig
+   */
+  public function getMasterConfig()
+  {
+    return $this->masterConfig;
+  }
+  /**
+   * @param MetastoreConfig
+   */
+  public function setMetastoreConfig(MetastoreConfig $metastoreConfig)
+  {
+    $this->metastoreConfig = $metastoreConfig;
+  }
+  /**
+   * @return MetastoreConfig
+   */
+  public function getMetastoreConfig()
+  {
+    return $this->metastoreConfig;
+  }
+  /**
+   * @param InstanceGroupConfig
+   */
+  public function setSecondaryWorkerConfig(InstanceGroupConfig $secondaryWorkerConfig)
+  {
+    $this->secondaryWorkerConfig = $secondaryWorkerConfig;
+  }
+  /**
+   * @return InstanceGroupConfig
+   */
+  public function getSecondaryWorkerConfig()
+  {
+    return $this->secondaryWorkerConfig;
+  }
+  /**
+   * @param SecurityConfig
+   */
+  public function setSecurityConfig(SecurityConfig $securityConfig)
+  {
+    $this->securityConfig = $securityConfig;
+  }
+  /**
+   * @return SecurityConfig
+   */
+  public function getSecurityConfig()
+  {
+    return $this->securityConfig;
+  }
+  /**
+   * @param SoftwareConfig
+   */
+  public function setSoftwareConfig(SoftwareConfig $softwareConfig)
+  {
+    $this->softwareConfig = $softwareConfig;
+  }
+  /**
+   * @return SoftwareConfig
+   */
+  public function getSoftwareConfig()
+  {
+    return $this->softwareConfig;
+  }
+  public function setTempBucket($tempBucket)
+  {
+    $this->tempBucket = $tempBucket;
+  }
+  public function getTempBucket()
+  {
+    return $this->tempBucket;
+  }
+  /**
+   * @param InstanceGroupConfig
+   */
+  public function setWorkerConfig(InstanceGroupConfig $workerConfig)
+  {
+    $this->workerConfig = $workerConfig;
+  }
+  /**
+   * @return InstanceGroupConfig
+   */
+  public function getWorkerConfig()
+  {
+    return $this->workerConfig;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ClusterConfig::class, 'Google_Service_Dataproc_ClusterConfig');

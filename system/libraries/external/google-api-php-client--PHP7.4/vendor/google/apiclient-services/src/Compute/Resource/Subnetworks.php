@@ -1,112 +1,446 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPoecSOcMkqcl7+Raget5C+ucLDtNspq44lEY1gloGRtfu8BEh0jRTclhYdG0Rj77Vx0vlcxh
-Amblo9mnEpIbdrpEYZ6FiYjgg0QelSpk5Bi+/cM5t8WFKBlZWw8GgoTyRgGv+4jeDVkfG77ks+98
-7/TwMwoUl6iDYB+Jc5xS8tg+PBLfjyQO1HuxWpNPkYX1mWBqsGE7sCvuysA8A2XGOfdxXdGYHJRz
-0GbOVqOdVSM/246hVn4MSCy5wk1yk2KN1MFmBLItdZkRojPN1+DmK/s12ZhYS5CkDLI4g2o1fZvA
-1ULLGM/YXOBf+1G0WS+jYDJx7bn0TxrEhImGGwYLufEO1f8nEWNN14DLPR3OnUVkPISwxYx4mrn4
-60bSaVt2V47+oyQD6rMXzQD79/A7HSV4KqJJu9n51mtoRuhQdOWUnkVUkvQsXyyzi1/YyKlxkjR5
-FPKQRvBDOEl1AicDuvTIX50+/55Ssul715l/jyDuRZ8qm3SfkC7/ccK5gHReJ4hzdlseEf+5Ltia
-XIN14vRru3tjOxPkYmZdRDMj8vQ4YGSHsh6UEKycJ/NsNnPlHw7WYS8l9IomvbbayXPt5gOTc8mW
-gtx+alvKRwEtGleIn96gEDK105G35BZrzkJMYxFaoutCWSE5VTi6dSPlfMhgInnzipTrEwhs0//u
-vkXvs+DPV+h84zIoP99DW1P7pLpaxgBCPalqKadrenpilfPWcujVRTHeExMrlZTftLimVaqkwLbi
-QQxvbQJXUodgV5sTz37cR6umdQG8M+GKqZDLxJSOWyUL9/MStqvtNoGK8Lsn1N8JjHdqa3umE1RI
-Qpj8iaeT5Bcr19vKToAI57JT7V9DTSXk2cWILbvbwSvxZEAKQ5B7xwMnz13k9Wrjo95ikxMnAPDE
-ADMK1P0wki08sNKScjxW90wmw4eEOFiEUFApE7RUDSBgS7u86gMLzQG70nhLSUonjC3ti77BpnHt
-brkODkfx+pN8rEn2MrfmVaWpQJCjbI8geb1D+s1wqkPUqdT3g5HgwK+EIMdd3DlFzWMuIN4/j3u/
-RP5Ji/AGtPre2EHU9vl83wfNw6K29+J+ivThslflMxVzXyBL2m7fiKxY+pW7Lev9fFu907cKe1Jr
-eONcgnbBxdvYGeXI191g5xBy8WxWH5bt7MUX2dSqb44pa+h3TZtb3ZZPedHWtI6TVer1gxtZRPtC
-kOjMy9JSD/XSaqj1ZDunknyX0+0uKd4LGhM8/BZr0sBmcr0fJlAfsfH0JJc74S3kHwRgmQDIOeda
-JqMs1PcnGM8lapAVgq+uCDTfeC95CZeTvvVgxpV2SL/Evj93KixOA6VqCtdSero5FISaZISZ0orm
-cdd/83T1ybNhRbUulkaNPIl8kOqUrdgV+EK6KOP163eRDuuPOxKiD0pPlamNP8sR/1YspALcgQa/
-3zEgHYCkGYJRSiigN87n0gx83Ew59OwM8ezzh7ly4hB/dALPr4prGC6w+hKAOX8V6tlHMTdiEzBA
-2wVsqLeC8n6Dtc3CjIvkLSUteUV7Afn/PVZYGhna5nPJ6autk3Hu6Kp4hXIOzCIy17neHdTkr48R
-saitUVu3KdJ2ujEdebsLki+iRzmLSNpeA8oBeaHIJFXOka4rzOqTPtb6yY5lNnQ9auKoxJRK/nK1
-1YkGMDajsi6mG11qO/vcoZG4PUIFR19ZjeXySRI3Kl/hDuLo0Rb3sd9aRPoR47pW8Mc/GI3WOSFc
-ccCVyu/h7/SLSZJJdNKEY7phNafVYx1tiKL0InssEJU0/K/ah/A2zt6KpjmxivhG6ckHu7SW02Bh
-+1p8BGi3r5srr4NTrkf4UyeoaJB+x2DGhtoirYdLQZ6Xo2U2pG49s/hLHtawHu/XiY+fRUatdBYC
-jyVyMfy6tUKTtcVYzEB/7BPKHWBPTUaFjuhL+buNfyG4cjYYN7RXk5LtwQJAp2wf6w5xj8T6p/ox
-4SiiqHEnso5LEpSgIlM23iu40wDa/cfBx3VUQVVWnrMmVwBSbiohL/wTtHndc7wEe/m88+5aVmXL
-BUXtKYyUyON0fw5vDkaKaDUBMHPdPtraaXmlTxQuY/3LpkqG1B/mKRIgYvfNEc2wzEvoXBtpW3wb
-Z02wEjKQ3iqDVAhSx2WMbe+d2VtU5IeKsu94JwENcKamPsuVHHxVnRi2+hu80lpHRynIjNn0YYbd
-Oxtd16ebl0hJEFkqCSncdV54FwscDfQDYHyjUmpOqy0sjUFW3Ph+MJFLUpkLiRPEDq9ZfcZ1GbG0
-bbuvC2jFn9sBfO/mVpl8nRid7ff1qLX3ZyQLcpBYpS9BwtOY9B4QGwfHWXhEaENENhc6x/5KIR8i
-KuAnnHsHtQdk9UAAZfjjidS0xWv7iHM8tKyw/LdPuyN/iQnneo7/GaQhGoaNOEeSesfmFqmkttT7
-SmWH/rtL2ECtIYfF5K9SzSnRfMebSU2whYp5vvGVd4vqlj8LN+MmaCyAM66jlVNfi5ax26ByWncZ
-/K++qwoeAKrq2RHxbi2NOnpWjkHzMSUMDY2U72n8ojHY0Tc8ouEbNdwj/d53mptMybe2S+z5oOEd
-o8clnmZOihbd90FhXdWbH7Y+c1LGWz9OnF6rh9A0zJ1QQ2W6mLSr7VRewUgwlUdgwSRb6OZdI6ko
-IooA2eYk6BLcWTfBdAOepP7dmAVHw/liLZAfFwFpbL/CadBw6W4cBMCxuD0sniU9SyBgfegndUpq
-LvASzsthYhmo4lzc9/fsPBiDuK4PlGWU5rcpbsKBfD8nEa0RY0OfXR3BneN3GXYMAqEbTxbwIosy
-cl4UPZBpkDrfatgMZcRWaQFWD7+xYCoFX7zU168vEi+y4PafLxJrhpTjHjIWy+h/MOzmAgvbXge2
-3+nlSF0U8VGL0L34zBAlHxzmT6r9W/a7qAXBqVizhQQytnq82nrHstf3SUHnOHHUM4xFvkryAbbw
-Bhrrb0pDInV76Y28XLb98ZhVNoau6s0BVxNMT6PM3yWDbp1A/zNrlgKz4+Cw9q0BnZzicsDgbgxI
-ZDxRva6u5UM6icw0piMVTDRuqEObJ2fmTI6/83g6LuPlyEllR3jYdUxTKOYtNu4fIKB9H7lQt1E4
-ITe5btsykAKImr+CKHOYG7/MBScH74c6j3yJHXKvgiV/et+2cN5tQCOnSBAFBo94TLEPKPcs+KyX
-vcHgi1UImH1FRmSZNVxQ+JQ+Y28KPfvASoQVYfjS+x+BOLrEol4aEH5LMpY2xuUBuV2/bJ3dqGON
-rkDrcw6waX3la+lGGiha+hXPNTHZgUkK7iU2OYOBbEpHmgCriWFkh0g6i2bLxQxbOD5Id2fn9sCG
-k1OR932TNhIPlzhOt+TrAjeqHC8edfaQMLWXJVkb8N10VOWikhOoStBHBMV9nvkrtHNa636Vf65a
-PvkBatYr7TIJJip6qZZoK7CrCcNiT0VSYfR8cTrNC0FjkNmiopi0Ptk899ZiPPhgvUXQU5/lWaDu
-ONJWIStrZrlrm9V3b+QJmYt9VUiDtaE7dzhUJm1/S/eA8DpNobAWOeOjLGelBznAEOUdFzegao7x
-y5ad50tWg1RbMgmJC1hhFkicBmTu3XPwQqjPrIJzbKa523DsMS6lBFyYNxlak+EBFfeNtDH5W+B/
-ljT0GXDxV3gh62cAz6BErtrJ88Va/vLb2ef/fSl0Lcw6BNNG0pyXGmlsYgcrAdHCNbImgiHcRgf0
-Stm0YWpBDpRWWObIH7+UPu1GySCnkMceo/K1Rkkmsp+ZOCZrimf86hrBMWP3WmD8BF+QiGQBtJ9N
-tEyC3+BL1OiEjNdymwvtetO5Q0vS5y2X1Eb8EbahOQqIyiwm+ZYxBqLVSJ2Y1JIlCMLCLhi5MMms
-3cF5+QRMcwbyp/cAAqxbGGrz2LlH2P/6Ccq46FkZOf0bYZjXAy+T59OOJw/zdfiNoaEWPfEHRHqf
-xMOqTynq6bpQXSa2t3GA5yTy4Vph0j9EwtyUQYBhP+vmwet8delBLkmjSbpnLUIElzCjpw60Uz2d
-auIq5YpuNxs9fAAKE8I0Ri2VRUUG5c/Qj4OIf8/5SkDuc/ySfQwtS6/F4AQYOyCZiPOMluWNurOz
-6+hjZ1YiSc9EtDX+XBRzneA9OsHE/tA7FLNsB4Ctf7Zbrr1L1NL+iMTdoBcF3MI5OM2Xp7L2J5WC
-XaBK1W/132+sar3PTfsEnPIjjNeMAF0G0nlQQYGnxsNPGFJvV9qlYfsqUhkxLjZf+bxPyAcTXpjN
-tcte2O0iHjBa83zHIvqzIbgS7w4OqsrFR1yF6nZPkdQnKJ9MvRkYxkkKlF5Ppjx3vnd02uut6tS5
-pFH3dLVQIaC6lcdRbQ1YgQGrLWfkOautmMbWeBA8hN/cJHnyoAPNxFhW0Dq+cFyU49eAQkbArphB
-Uz7LDnwdocRSJeh5guIhTiAvdcCZySjFCX3wg8/4Lc6hWvZwd29MnI163rQ7yDU+LWR/r2Qodr9q
-I7nwHDpNT75cv6FTzfv+RSCh235OkrXg6el29xzcaJ2WfYb+xTfsoDWXdJqhuzr0XdLEH+afEw8m
-lYm2oUH5LIRxg3Ikq9B97Od70zBjAb9ZBguxOSoPDII9Aupuu/CR7oQ81slxTVM7nPTHSswXJaIv
-EipnSfaxzU7B4kLtxYZAyTg6o+5dPj4kcFZ4tK1kvdjdLJFP+gvjyUV/uihOGA4QaKkrOq7CuFkf
-lhBYT6uWSoTgjlQa1YtZJFBwA3sFBN+mU14g7LFHFib4k6oJI/ETfNU+9XAymknsteBxrrF9Fzzr
-4P+KTofQE+Bjy2Ef4e52WVANq7/iTuKYgj6jzciBXVXfd7Phbg+BEc6EvSqqlHVgKPVyH+lyBz55
-BaQhR6EHBHKYqOJG9ox04DoevLLCdRaaaYMak7VgDDQ2oCdaV8b90l8DlLvNCL8eJQ1tLcp3W0kx
-I11pICe5xFpOh0iBw6eKpyHWCZbxMF2yxMFUHyJ82nyS/YfU1JSrQmPIby5J3UzSo3LWnDk6SlLq
-Pw6JX1zAMKkKS09edez8vuTwRv3gvBMMORjPE8BFY+ClLUCsoQDR/gxRBr463FGxnkdAzllzRelQ
-O/Mt18hd8QhwYX43/jQR1cOm6CZlDbwV/seWkj+0Aq9u/CuZoLBI+rJOwZC3PwXoaMXf6scYCnQa
-K4uxbOrfrOE9cQ4x9NkuOuK/WQpDvWBwY/Paabm3SV+c2Vip52N08wb7Wa9jyo2SvL6130O+Lbpe
-03KdGr7X5cWoN1o8ViU96yUuphL+SFy9TzCAbCDx1DEsd34/+THphYAn5rzy5M//F+l54IzemWfF
-DfTJZ9ATunmgqc+no/JF/eF8bZdYYNbuHUB+S+cBq6A/qh2P70wicmibQGN2z+ma+/YCobfMd37s
-h1ZDl9fJS4tqOHTOdNyGC7K8v6nRid7XmCYHjPKGe77uD/VJZ2Bt3nKu8OmIWRdvNKMd/gw5GNwQ
-qb6K86fy7gPF18BdQ7s+mVWPy8lSgsStYC1ggkxJOKaHrqBXwjnGfBMZBGkUmGFRI/P21stH8BY8
-hDQvje1O+T+VHm3Jx3tnZOKI3lWTEpNqGtdWXohYVJ9Ka5KwstUBDwE4kA5tT5IycuzLlx4oaFuA
-8+YM1Q4pWuF3+ORCeuYrdV710rThUCTxfe0A9zI+tpdvFvjNzwQ9hco2fomrWjGwmouaQNLLR7lj
-BkAdzK3snA5jBVkINzQ4ClAoljemlfMyuB8/fQX1nGUXlF11EnhKLSBNVYaWCuCweX7w52tVtvOk
-k+KsH3eXy1xzeUXqqkukphP4g3be4kEnFvXYCLngs4GzWenU5yKLKNF0bmLdlbaKX5W6h4yUmsgh
-2XC3dY9x1Re0LJ23KsjIgWsLX+3KyB9abxEvWkLrt/3rOvy+MT3uiIbnyduxIu7xVK9QNgSQ/fXM
-DnmkQpvKK3Hl4sKB9zhQJ0QfYGqNHyneNeNiTlWibKZpyePvO6IlIdiC4yTMlWXc0jgn8iDkm6xF
-U16RfA1/XvFW7PFdpDEV2429dBDmScoaBy0ep+Lgk03VAbnWiAGwhRns24TVyI6UIdmvia+OPEXC
-HZVWHZLURQvKL1DTPzp202xlYkEu+23UVvVzm2rK9Xh1W/xQWTss1BZCChAERJ2NLaL+sZb0OigG
-g2AgGaN6NWgmzVDCmSNxRkRQwYtyi5OVPaWwxXrJ2mhFaauUkeHZ4I/x++fN/m9KBg6RFtwxT75U
-WtalMPi9uRcFT//Y1tVvZHdfGyc0uFJ5Rz6GNdMUKFk/KP2KAjrTkVbKtPBSCu1s0q41qqFmIY+S
-gJL5YJVD7ux3qcn8YVXe4k/IYTsh1PJvmGTSGvhKjtsfkbGl1JZjI/A59p3KkToEyq3j1KnqSy/z
-ogsHknfIROSv3lhjBOXxufATiFJd9y63WOU706aknwPPr8Kp6yPwsX7vas6f7R92HTJc8EcdhH/2
-9wDO4GaBehMFoni0N9zjLMddbTtlhwBIV2V1nfkitLe/V+CehSRJ1kjufgf4eLNdGH3YxAF5dRw7
-nnbOBd05P1SdeqMLOz25KW5FQAaTJS7CRpW7AsN1dogoXInCLR4eCjbL6EtoxAHvjBop9BKOamEj
-mxtKbmLOV+gkdHveaka4aBkDuopFZTg319YNeTAoX32cHwQLBH9hIO755w/uTkJQxQ/k/CsUV1Tr
-AINJANYKct3YohHcAZj6hpNOwe2VdJYzTOTUDAn5tRb9qm8vOPK+w9iWRxCxWcSF76Gg5EY5QXK4
-5VT93NFHViI8bpYj+6XDnzqsBdL2sRa8hbvfOR0fLKTDSl5h/XW0Rwgf9bWdWotwKB2/AOxF8PFm
-Zedcj/3BnKmpbHxdKwBx7Z7/FriUmE3aJPBricfnFmJ7JWUKOuS++wBEuvlfS2R82V+F1s42k1OE
-7DDTR99th9wHzf47G5A8Gt6Li6PCh3COZ36yeky3DH+Og6F+kNR2XnLRWqSYwxJlGjLAz+Y27D49
-bLdETSGeKFCchZW13LxKl4efuoYayHKXnAso3dQu0PixFeNiKcnhNMdqnyPHEtUBIVjUmUInVwc5
-KVciv9tFeLfKZ25hLs0aHaNkadCrGYTo1LupYANQJ7yw48l3tkAcMvl+ycUflapYaWYcHaG8aNee
-GYEiiQe+vTIIXfU6qE322UE9cteMNVsmj1w8bWnsyfpEDTP/z1QSvXP/OCglXGWc2T5zKzU5zfIv
-8BLlyq6P9IUnjT2RhUx2cyaTIMP/R6KaOvBpkKmJOqEl65SXgcYLA3jl3wE2sgHZvDJNlbPZ0Ecl
-qisouvvsBVjNyUNhsjpD1gWZuihY4MFv/VkxkPoEH4LJL4nWnm1HkXaoYbcteVZGm2dlOcHEamiZ
-g4kp5sRwzFRq+qDgZqZdP9zLKnX/T7yw5xw5MfZj7qw10vW0r0eJRUVSitUJForvuz65m6luHvn/
-nQnm6vLQBbbznW6T8/qI04/jXtLZJbuxZ/CBKZJKVLxc+N9a7j81zR67Kf+A/XyVQrzAB4V8ojVp
-qSCCxuZDb18RaHNFfjdCIkiu1JxJPFueb815riIOgl3UWe7L/PmCJQkF6XvKoZC54hvQE54Bs0oR
-IqfOrBtLeGIo/vi/B7yZ+8XUR39Iit7WpKr4UQs9KNRaabLaxsbzL1JRf9m74kcwVDvbYM+7LLxv
-KxInBkhhoEzXPp6HL1+g+/AED3zksWU4rJRdP2W1VTgrtsM12wPonPihhzWev/J3oV9/bB2g2fm7
-xykNLJy1aIHzLcvOlODY0+joA2rzWx6D356dE+CJOquIHPVZgHIanJsCp512dDnsy2Cc2qcQL1H/
-QhQ83SPB5HJiEtMLaIF0YRPUVmZ67/GCh+oGeVzaZFdERIUMtNFuLMnwMw6ypvX5e1c+ynJAaDnm
-1Tue2EC3aD5Z6d9w6kXDPfGiK2mgBqZN11YHfyI5dMrOxKewJo9SfH7V7VIfhahCGBlPPA0ZmSrY
-RQ3787CaxQiCJExi4y98iqTSMLm=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute\Resource;
+
+use Google\Service\Compute\Operation;
+use Google\Service\Compute\Policy;
+use Google\Service\Compute\RegionSetPolicyRequest;
+use Google\Service\Compute\Subnetwork;
+use Google\Service\Compute\SubnetworkAggregatedList;
+use Google\Service\Compute\SubnetworkList;
+use Google\Service\Compute\SubnetworksExpandIpCidrRangeRequest;
+use Google\Service\Compute\SubnetworksSetPrivateIpGoogleAccessRequest;
+use Google\Service\Compute\TestPermissionsRequest;
+use Google\Service\Compute\TestPermissionsResponse;
+use Google\Service\Compute\UsableSubnetworksAggregatedList;
+
+/**
+ * The "subnetworks" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $computeService = new Google\Service\Compute(...);
+ *   $subnetworks = $computeService->subnetworks;
+ *  </code>
+ */
+class Subnetworks extends \Google\Service\Resource
+{
+  /**
+   * Retrieves an aggregated list of subnetworks. (subnetworks.aggregatedList)
+   *
+   * @param string $project Project ID for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param bool includeAllScopes Indicates whether every visible scope for
+   * each scope type (zone, region, global) should be included in the response.
+   * For new resource types added after this field, the flag has no effect as new
+   * resource types will always include every visible scope for each scope type in
+   * response. For resource types which predate this field, if this flag is
+   * omitted or false, only scopes of the scope types where the resource type is
+   * expected to be found will be included.
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return SubnetworkAggregatedList
+   */
+  public function aggregatedList($project, $optParams = [])
+  {
+    $params = ['project' => $project];
+    $params = array_merge($params, $optParams);
+    return $this->call('aggregatedList', [$params], SubnetworkAggregatedList::class);
+  }
+  /**
+   * Deletes the specified subnetwork. (subnetworks.delete)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param string $subnetwork Name of the Subnetwork resource to delete.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function delete($project, $region, $subnetwork, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'subnetwork' => $subnetwork];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Expands the IP CIDR range of the subnetwork to a specified value.
+   * (subnetworks.expandIpCidrRange)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param string $subnetwork Name of the Subnetwork resource to update.
+   * @param SubnetworksExpandIpCidrRangeRequest $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function expandIpCidrRange($project, $region, $subnetwork, SubnetworksExpandIpCidrRangeRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'subnetwork' => $subnetwork, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('expandIpCidrRange', [$params], Operation::class);
+  }
+  /**
+   * Returns the specified subnetwork. Gets a list of available subnetworks list()
+   * request. (subnetworks.get)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param string $subnetwork Name of the Subnetwork resource to return.
+   * @param array $optParams Optional parameters.
+   * @return Subnetwork
+   */
+  public function get($project, $region, $subnetwork, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'subnetwork' => $subnetwork];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Subnetwork::class);
+  }
+  /**
+   * Gets the access control policy for a resource. May be empty if no such policy
+   * or resource exists. (subnetworks.getIamPolicy)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region The name of the region for this request.
+   * @param string $resource Name or id of the resource for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int optionsRequestedPolicyVersion Requested IAM Policy version.
+   * @return Policy
+   */
+  public function getIamPolicy($project, $region, $resource, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'resource' => $resource];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Creates a subnetwork in the specified project using the data included in the
+   * request. (subnetworks.insert)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param Subnetwork $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function insert($project, $region, Subnetwork $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Operation::class);
+  }
+  /**
+   * Retrieves a list of subnetworks available to the specified project.
+   * (subnetworks.listSubnetworks)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return SubnetworkList
+   */
+  public function listSubnetworks($project, $region, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], SubnetworkList::class);
+  }
+  /**
+   * Retrieves an aggregated list of all usable subnetworks in the project.
+   * (subnetworks.listUsable)
+   *
+   * @param string $project Project ID for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return UsableSubnetworksAggregatedList
+   */
+  public function listUsable($project, $optParams = [])
+  {
+    $params = ['project' => $project];
+    $params = array_merge($params, $optParams);
+    return $this->call('listUsable', [$params], UsableSubnetworksAggregatedList::class);
+  }
+  /**
+   * Patches the specified subnetwork with the data included in the request. Only
+   * certain fields can be updated with a patch request as indicated in the field
+   * descriptions. You must specify the current fingerprint of the subnetwork
+   * resource being patched. (subnetworks.patch)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param string $subnetwork Name of the Subnetwork resource to patch.
+   * @param Subnetwork $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int drainTimeoutSeconds The drain timeout specifies the upper
+   * bound in seconds on the amount of time allowed to drain connections from the
+   * current ACTIVE subnetwork to the current BACKUP subnetwork. The drain timeout
+   * is only applicable when the following conditions are true: - the subnetwork
+   * being patched has purpose = INTERNAL_HTTPS_LOAD_BALANCER - the subnetwork
+   * being patched has role = BACKUP - the patch request is setting the role to
+   * ACTIVE. Note that after this patch operation the roles of the ACTIVE and
+   * BACKUP subnetworks will be swapped.
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function patch($project, $region, $subnetwork, Subnetwork $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'subnetwork' => $subnetwork, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+  /**
+   * Sets the access control policy on the specified resource. Replaces any
+   * existing policy. (subnetworks.setIamPolicy)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region The name of the region for this request.
+   * @param string $resource Name or id of the resource for this request.
+   * @param RegionSetPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($project, $region, $resource, RegionSetPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Set whether VMs in this subnet can access Google services without assigning
+   * external IP addresses through Private Google Access.
+   * (subnetworks.setPrivateIpGoogleAccess)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param string $subnetwork Name of the Subnetwork resource.
+   * @param SubnetworksSetPrivateIpGoogleAccessRequest $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function setPrivateIpGoogleAccess($project, $region, $subnetwork, SubnetworksSetPrivateIpGoogleAccessRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'subnetwork' => $subnetwork, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setPrivateIpGoogleAccess', [$params], Operation::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource.
+   * (subnetworks.testIamPermissions)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region The name of the region for this request.
+   * @param string $resource Name or id of the resource for this request.
+   * @param TestPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestPermissionsResponse
+   */
+  public function testIamPermissions($project, $region, $resource, TestPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestPermissionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Subnetworks::class, 'Google_Service_Compute_Resource_Subnetworks');

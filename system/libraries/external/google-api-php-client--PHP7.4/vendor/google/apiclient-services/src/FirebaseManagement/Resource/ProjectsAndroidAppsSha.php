@@ -1,61 +1,98 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-eTM7iI6AlpS=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\FirebaseManagement\Resource;
+
+use Google\Service\FirebaseManagement\FirebaseEmpty;
+use Google\Service\FirebaseManagement\ListShaCertificatesResponse;
+use Google\Service\FirebaseManagement\ShaCertificate;
+
+/**
+ * The "sha" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $firebaseService = new Google\Service\FirebaseManagement(...);
+ *   $sha = $firebaseService->sha;
+ *  </code>
+ */
+class ProjectsAndroidAppsSha extends \Google\Service\Resource
+{
+  /**
+   * Adds a ShaCertificate to the specified AndroidApp. (sha.create)
+   *
+   * @param string $parent The resource name of the parent AndroidApp to which to
+   * add a ShaCertificate, in the format: projects/PROJECT_IDENTIFIER/androidApps/
+   * APP_ID Since an APP_ID is a unique identifier, the Unique Resource from Sub-
+   * Collection access pattern may be used here, in the format:
+   * projects/-/androidApps/APP_ID Refer to the `AndroidApp`
+   * [`name`](../projects.androidApps#AndroidApp.FIELDS.name) field for details
+   * about PROJECT_IDENTIFIER and APP_ID values.
+   * @param ShaCertificate $postBody
+   * @param array $optParams Optional parameters.
+   * @return ShaCertificate
+   */
+  public function create($parent, ShaCertificate $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], ShaCertificate::class);
+  }
+  /**
+   * Removes a ShaCertificate from the specified AndroidApp. (sha.delete)
+   *
+   * @param string $name The resource name of the ShaCertificate to remove from
+   * the parent AndroidApp, in the format:
+   * projects/PROJECT_IDENTIFIER/androidApps/APP_ID /sha/SHA_HASH Refer to the
+   * `ShaCertificate`
+   * [`name`](../projects.androidApps.sha#ShaCertificate.FIELDS.name) field for
+   * details about PROJECT_IDENTIFIER, APP_ID, and SHA_HASH values. You can obtain
+   * the full resource name of the `ShaCertificate` from the response of
+   * [`ListShaCertificates`](../projects.androidApps.sha/list) or the original
+   * [`CreateShaCertificate`](../projects.androidApps.sha/create).
+   * @param array $optParams Optional parameters.
+   * @return FirebaseEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], FirebaseEmpty::class);
+  }
+  /**
+   * Lists the SHA-1 and SHA-256 certificates for the specified AndroidApp.
+   * (sha.listProjectsAndroidAppsSha)
+   *
+   * @param string $parent The resource name of the parent AndroidApp for which to
+   * list each associated ShaCertificate, in the format:
+   * projects/PROJECT_IDENTIFIER /androidApps/APP_ID Since an APP_ID is a unique
+   * identifier, the Unique Resource from Sub-Collection access pattern may be
+   * used here, in the format: projects/-/androidApps/APP_ID Refer to the
+   * `AndroidApp` [`name`](../projects.androidApps#AndroidApp.FIELDS.name) field
+   * for details about PROJECT_IDENTIFIER and APP_ID values.
+   * @param array $optParams Optional parameters.
+   * @return ListShaCertificatesResponse
+   */
+  public function listProjectsAndroidAppsSha($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListShaCertificatesResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsAndroidAppsSha::class, 'Google_Service_FirebaseManagement_Resource_ProjectsAndroidAppsSha');

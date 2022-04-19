@@ -1,65 +1,89 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-dHocjEyay0==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Games;
+
+class InstanceIosDetails extends \Google\Model
+{
+  public $bundleIdentifier;
+  public $itunesAppId;
+  public $kind;
+  public $preferredForIpad;
+  public $preferredForIphone;
+  public $supportIpad;
+  public $supportIphone;
+
+  public function setBundleIdentifier($bundleIdentifier)
+  {
+    $this->bundleIdentifier = $bundleIdentifier;
+  }
+  public function getBundleIdentifier()
+  {
+    return $this->bundleIdentifier;
+  }
+  public function setItunesAppId($itunesAppId)
+  {
+    $this->itunesAppId = $itunesAppId;
+  }
+  public function getItunesAppId()
+  {
+    return $this->itunesAppId;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setPreferredForIpad($preferredForIpad)
+  {
+    $this->preferredForIpad = $preferredForIpad;
+  }
+  public function getPreferredForIpad()
+  {
+    return $this->preferredForIpad;
+  }
+  public function setPreferredForIphone($preferredForIphone)
+  {
+    $this->preferredForIphone = $preferredForIphone;
+  }
+  public function getPreferredForIphone()
+  {
+    return $this->preferredForIphone;
+  }
+  public function setSupportIpad($supportIpad)
+  {
+    $this->supportIpad = $supportIpad;
+  }
+  public function getSupportIpad()
+  {
+    return $this->supportIpad;
+  }
+  public function setSupportIphone($supportIphone)
+  {
+    $this->supportIphone = $supportIphone;
+  }
+  public function getSupportIphone()
+  {
+    return $this->supportIphone;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(InstanceIosDetails::class, 'Google_Service_Games_InstanceIosDetails');

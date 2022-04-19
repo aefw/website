@@ -1,65 +1,109 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPtN2UloDWL/qE0plt+VVGEHW05LjKhlrz+TBVa3Hf+E8AUH9dM0nu7/5Ma9SkH56Zqej1GDc
-FVKi5HSpDt6GSZEL8G7ffhAv8gJ/Vvx6o7dK4KPDwKvUs6PMcFRI6ykgdKhMbUwRaNpaejFC1Gdw
-Jffz856n7+s4uM7EZyvG82jX+H6bGE0+IUD8geNatxqMRt2cTtA4GO8SCU+PPVPvCUsivcI7ryli
-v+uKGaJjRtRKP6K+sHvZ5iN0Ull55dYNoRanzQsruFuBwm8lkFaLHj7hTX3YS5CkDLI4g2o1fZvA
-1ULLmtM6XRqSSj6MZiSAY5J6foR/5oOsyC77kad0Lj7HImD844MNKtZplln0WUMYWNzqL3txfZae
-3fJsrKPa0jQDMEiEmhp7oDVeoi+eFQQVXPD0ZHhaMXJhvuHZ58Wk9yG5DdyNnrS6vMJ/80AMYFBX
-RxpRGr+IMv6Ji2VDID74a7yirhimqX9tN4CjWtVDxJIMVxYg1yJQFhHbaq09X5Vz5foDUmzROA0O
-OECmmWQ4LuTQynGxdDv+TluG3DK3eW42Xs1ERdf5fVqEOQNCzrWLRhI9/erkUOYXrvoSeMZq53a9
-g0sPkn5R50Cjr8XRGyjP/94/bOx8UeN/ZbfeuWFpbOE8WciABcmWCSE9e3qHZVHTS1NNZc5G/e+F
-NBmct9JG+pjA+KDlAzIGlpVfzWGWXKPKIz07YKeZ5U+lKoxpV5CFYYgk4bdEScsfDXvO6M+oJuNp
-lVD0qL/9e9q3oejdmzJoIB5ra1ZQHAJBR0Th4kj3CiKacdbYR7CkWSncC2JeqzYPL1DDOsetaJCo
-dJgfqeOQXN+kpQlRg2B/F/kM6nhrOOCxyBYDvp04Q67/4+D5E8jnexc98MhdxRit5287ftIWW13d
-UjWoYiXv9yw1HZ56+Bus8bCaghlH6qsoasJDCckO4sqso6DTiB7FseOHrB2E6gRrqHjCOUfudd9J
-wfU+4tem5TSkDfSJIQBvnsKivdhk/FDOauoKOO2+kVkrqE9wkFHTekroWX1DL2FWnndVLpDEhE7f
-3PYhj+Ka9YKozkBE96FHGWOZ72K6Sqc1fD1F1uKzSwADaLBthr4pVmhE3c0YI+0joL7phX+JyZkr
-nA304SZ1/jJ/XsVIyAWR2gwMr3haLwlMli8odoyReh7DHtvvtlGhQjJ7qbKpEibfK+40TcnIuohw
-ufX42MltNbOMsD5k2iqT13cLIaJGJqxK6Vvw+miHgZCGM0LQ0G9oHbTcMzPuAPwAkiJu9YtJS6Aj
-keqJMM5B4EP3jx7oGRdVaB/EPhNrbND5j7OZbaJEyHpYTlF6XZJycsUcIbY2IVsHQHd2EBkq5GQ2
-4sMX9snTNhv5/L8C5TV5vT1Jy+tv1T0eLbi4dYdOWghL0YfONGTbruuo70WUgcEclvclle/tsE9U
-1krDeeIDT6DIYyonNKwJ4jSEnpuNF+i2rttWrJ+AGszPEoozczF1Qzl0YOkKO7PTKTNZfKVxpzBi
-OghrXW3GZuUT24d/BOxor8QTB7nHCAEnN1lBIUXNExzE/60POhpPJxHYSOgZpVsxjepOFLPO4D1N
-plIMPb4xVEMu49t4RDUFYvFG1LmGvL0a3QmHMPyIKRe66/AjxA/tX6Ea2oTE/xolGCWBKsDpbfCb
-NjGaR6YvaTbyjvQugAE8zpVE8YPaQ6LhKWHwMDAlUaKgaUHJKGcq84r+QCTdxDFxyTGHIrJVmJg+
-FSOV6KcvsLu7dsNBoIrbrhMKW8T6kQKd1qM1l51ZOQKxDjzD40C4QIiFuzwQd4UvB49/H68rBclY
-HBmZXWYAAViO8yiOtkSZHyyDlOZGPXedUQQzP0xHAlzf9kQO9+UTDu7+HB7FTu2nugKwFvhtZulR
-AFgbwNvlQ/e+6yFlUfqL/NLWqIhL9pljMTm3hRK+/m9e6WNWGnUY2qYzzcv+mgClCb5i03JNlpbX
-iATa3iGzgCvdgoyUfN9jrjkNNs9ftoJFHfsdVFjCm51iVVikltE2hGyoLmYkZLskwnr9W/73Wkpw
-256mP/vqXLfhdigZQx/SM10Fw5X7Q9vo6E8PD1udtn17mGeYmZi8b3f7XPyp0Vn7ZxntFOZUQmil
-4cZl/n6WfBevNC2WCKo9XEf048r/O0YmhUiQbjQOUMN6zGZZRpBOtamAnRU37Bf4/+gxUJdpyFaA
-m2gWOrEEEBR759NY3sdqG0cyHFwavAqbn5gKQrDvKSGx8zdO6f2yabMS3v9dTOdDQ63KdhkhLpIu
-qumx1IMltXbBpzwIHYYq/8xYjiDPnpX9L9X9EXvF1O6VUKvD9FvsD21Eu1oaqEAUNV8V7sGUTHwV
-PCs+G7vKCofPcsh88rTBVsRm+zzW/f14slHXzeTYkibTJz1dEb7vHj/ZUsCiPP8T2gVbCfJrgOIv
-Btli5AWfsCJ3ZS1O9b3GgQBHA7WfE/N3NJBZYFWaah+93tDVCX4YoeZKKPrzHrGSCuXMRJP2aCJi
-C9WOsk9E4VSJEI4safQFAkFOP6RcWVQgdsvWmg5+4gQJ1E+ilje/itkqX1sKFr2ANbjoq394gUfn
-FWpwNl7U36VSCXm8+hf8zA5/WLGdwmU3JzBmC4vxlsLiSx60U1eeMou4kJexs7DoGwqpNsEC4mz2
-pS4ESAwfgReffSaJ6D3kP57+xWecpcBLVunVrHZ6x0UMHw2SUCzrkTzUJAa6K8o4JdycxIqPK3DM
-UiDEaPbD1KbAXYgXGl+MQLXNzErrIVSfi9fX17SoQPP3JrZCQCRORzw3/JZK5DoMtEJh6rzluHhT
-cPn5nKi5WdJbwakF1n98sngELy4ihQ1WjF6YkqKotuxlSK/HwKsapLE2hj4njXNaKzOl6dtD6hF4
-mxqvqHFKEvWSNenQaxtnGB4DlCRhNm0vNiudbyjbKG2PZoR6h2nJ9crRuZ+nEFWXw8Zxh8BJne7L
-OeO6CHbZEGbWUJNtUbGhnUpaq8IfElzvdEL3fZH/lYDvXxyqIuc11ZhBd3WwrjsG65dzrzfToCJK
-2V3cXhmDY3iJYN5dHRYGq/UC5vwEiAprMP5DaQcucqg6A4YpfUDVq9Lte/udnHWTijK4/zbVRKI4
-D6DClb7wccTbndTHnAQkQXX0cmniZBa2nyER2mB//t94HxbEmUch5/J3yisMsfNGMEAPIfQbNUGp
-+xEXlTGzFInJG0PZoMVxhui2G3VjVSJJXtxcZCXtFgP/c2BlnhoEQlhN5jhSEm9T9MQPOZ7vXABz
-VB26WB/iP1IBiyQu2codSnOG1tHnxSIQGGTcnTrzR2HNvt2NodiZ+T9k3FGn/zIC2ZxBdcoGeqZC
-Uqb5sRTlLIOXImXeyxdKhnER87qtDamttlz4ONW0etA6LmvWvJfFOHdFPPHEz0jhW+L1SAt2KH11
-iYZck/Hi1+pxG09AIAYCW/ZKqWsOjj/lTRtQ20jlyKTOdiWq4SVyqki/JAXalrshALxNXOOoX3qX
-HsecnnGbJyF0w1wlrDk5DkQbgbWpQTVhjLBElzo9WTkZqk+qnEsoulUT4AS0OkB3ezWm98xD3B3a
-FSLV8S/nX3wh4zgOaaT6io98fna0YBzucXaEk6bl7O3S/NaSPp+0LAJ+6ShmzkjFjzAT2YLPqLZ0
-QW6DwpXcQKC2NvrupL97+RDBg4ctjx16GVQ5e50gHc1q/nC1tSrQCvsEGD7BNiX0t34e3hZk0dPq
-puQ2N1tBCaUORZj+Gs7NEpb6zZtOMrNuVMBjH01ePqZS1URk7vjRC5jZMftnPmUUEgtBRbbdTvek
-ilJpqelFnzYUOjZaEVkThfTL9VGnVq4sSCxzs3Fx+9rYB8KvjqBgcjT61iHk6kIuBArBgD0GhY1V
-G8tBVernSGkU8QqmCijfJyCpPXWB74MyEa5I2eu9UQN0WTazbqF9rQKiRgy9gGMj+X1wZJEDx/zL
-GuOg3ybHOrNo5dRDljmCz3i6qv6eTsTdeAlEam/om52vy7CS7yET3Rq/JdQ7D4s0SsEXOpyRJXFC
-X2I4iq4KpDUiiJR5cLvXD639pXVtShyYBB1Xt+kMsfGOSvyI5R2s4+KHxLI6pJlNIWQJSX8Oy476
-5JqP+YcuyoOnaFjIYHVzkSKRYaqGPpdw+gbrp/zf3rKsKXzKd2vyS0f/geA3wNco87WhRYeeA9M6
-VAFsqXi8QgHucySwpJUDwkZXd9VsgASoJVHGNGmo3mxP3kjfhA9cieeVO1hMGwzxlJ+BumH3ruQY
-L2xGn3WAdNHr9tcH3hAqeOd7NC6FVqaA+l6ZRv9vrro68MDXz1LafTRCRLuuZLu7vKw9pi0rpxjM
-ZU8Irp1nc/RHR8zM0v4NnqnybQnJcEet310qRcLWKdVmzWCbJQ2lUoPYwS4PDDvoRDgdhB4ERlsW
-UsUlb8gEoPMfCIDJbO8Q10MZ687o4Y72BEnQXb7PszIEA/DD31ZPfg4wQHuX7ByR1UFG
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dfareporting\Resource;
+
+use Google\Service\Dfareporting\Account;
+use Google\Service\Dfareporting\AccountsListResponse;
+
+/**
+ * The "accounts" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $dfareportingService = new Google\Service\Dfareporting(...);
+ *   $accounts = $dfareportingService->accounts;
+ *  </code>
+ */
+class Accounts extends \Google\Service\Resource
+{
+  /**
+   * Gets one account by ID. (accounts.get)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param string $id Account ID.
+   * @param array $optParams Optional parameters.
+   * @return Account
+   */
+  public function get($profileId, $id, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Account::class);
+  }
+  /**
+   * Retrieves the list of accounts, possibly filtered. This method supports
+   * paging. (accounts.listAccounts)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool active Select only active accounts. Don't set this field to
+   * select both active and non-active accounts.
+   * @opt_param string ids Select only accounts with these IDs.
+   * @opt_param int maxResults Maximum number of results to return.
+   * @opt_param string pageToken Value of the nextPageToken from the previous
+   * result page.
+   * @opt_param string searchString Allows searching for objects by name or ID.
+   * Wildcards (*) are allowed. For example, "account*2015" will return objects
+   * with names like "account June 2015", "account April 2015", or simply "account
+   * 2015". Most of the searches also add wildcards implicitly at the start and
+   * the end of the search string. For example, a search string of "account" will
+   * match objects with name "my account", "account 2015", or simply "account".
+   * @opt_param string sortField Field by which to sort the list.
+   * @opt_param string sortOrder Order of sorted results.
+   * @return AccountsListResponse
+   */
+  public function listAccounts($profileId, $optParams = [])
+  {
+    $params = ['profileId' => $profileId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], AccountsListResponse::class);
+  }
+  /**
+   * Updates an existing account. This method supports patch semantics.
+   * (accounts.patch)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param string $id Account ID.
+   * @param Account $postBody
+   * @param array $optParams Optional parameters.
+   * @return Account
+   */
+  public function patch($profileId, $id, Account $postBody, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'id' => $id, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Account::class);
+  }
+  /**
+   * Updates an existing account. (accounts.update)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param Account $postBody
+   * @param array $optParams Optional parameters.
+   * @return Account
+   */
+  public function update($profileId, Account $postBody, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Account::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Accounts::class, 'Google_Service_Dfareporting_Resource_Accounts');

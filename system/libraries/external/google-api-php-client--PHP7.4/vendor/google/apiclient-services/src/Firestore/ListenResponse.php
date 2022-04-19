@@ -1,59 +1,106 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPxCFUzHPt5ySLCBkzxvVYAhwnb9N2mRvUlzKrlLK/YrLtG2cPdZ6PzhwYA1PoBS2EteNIMYs
-vt/9A4EHQ4hhiryMP+ZYSxuIcsR8haNmN9lKC48SXTpxL0ILffnPblqPX6x/ypToN7MsRlEowc32
-ldEB7D/FZNuQC0WrX33i+fJE+jb3QiwCfS2SMAk+P52+VBtSbutm4aMm9RqY+CKJL/tIgjptt6tu
-l87ubh2LQ9OrNShgUFqX9Tt79zh48ZUD21BUJq+7mJG2/GekrIUBDd5F2GhYS5CkDLI4g2o1fZvA
-1ULLeNVB1iFgNzzk2GKIY5JO05DqOX5VhdOp4BqNPV6ky9wwzV8KnLUilK2cWstZjlejXwm/P3df
-8He0PwGeYCNLE/AVbecd7AXn8o6CoSoT8jAgOy247Sgbv7earapeM2aZLcZYsP+858UOexQMqVtp
-8vf67xg+y/sByfU+7iKv54wM8ufgDN+JK2YApyTr/MZvowpBTAqp2V6WXihgjjbSDKvIJmflUz1V
-OFurbT7yVdQVdkZYUudbvvxrTAOBgPzbwBlPYnfVz3zeWDFh3RJY+xdu3HnNq+e2zwVUbGjukLH8
-SWLDJNvfoIL7wEPqX45MynIR60vRmGD6uJXukuHL52bVKZT6wJDlqvvrTVn5JuzetZzLU22hedrG
-XnDUZ5xHaIQv2CO0HE2Ko2ubK/nkK7NLjiB1efYZADw+VCiUqfvBGzIOxJZj+LOmU+dTJNPcCpVY
-FdnVkxcnpnej7qoNd5IBVJZkkvPFK2cAiMQs8iwbIu0ISu+26RL3/QhQp4j26WBtptTqaLnL1uNG
-dEHzUAmbHxlPCWco84npglUY8F9Nr7KQiCa40ROwAmOaJvzDvYAsoKc5cVQIjYlnj8r2v/TCN0VA
-SKTi15fnCXLj5r4CBby09zrifZSdklmqi86s5NwDj542Aim8Ph3ipVXxDrdtwSgaMLc8Pn5AixsG
-Gak9vJ5AD4RC7g/BinMmlh4M9BBAwhs4ESyZRAddjy2mbeofHqs/pE8wSIaJrFHBqdQQkyYYWocO
-wSAk3c1DL44aWckNpfBXkx+JrXe+E+080S+edt4nvCkUj/V2jyF9XzlMLwkxXc1XIRZnNAptfvq9
-zrBliLXL/z8mBArHAUWrNdSExCPSiuFo64A7QjPcIz4m1ch1v8F4Dffgz+PI6Rci7YzLeTtMgv5u
-xGEeAZ1zlqqS1toFPhKBTD5PvD+JHsLOCPUlqWxHy/zcIg6OfNXFNwV8Ve+UkbN3/AarsFGxwz4K
-IfzHFqh8sCHako0mVosF4GPv4Iw/tNuoxmcfJE/Nh0khXpQufWuOB3yM/EMe6x8kpR4L6T4/OPhU
-G8cTQbN/87MDK1bqUckOqmqid19WT1cF8T0EKwFtW0KPXGvpvNcRgEC+XpgRI5/azETeki5PuJYc
-G8e06vP1AgdQYSKQNM4hA8xc+OwaWm/lDiCouuSpgycbEr8XI/4dEyvS/JFy+467k2F/D2sc2RoX
-NHAxuuk5egLWd0/qlUuJq3RgjjkqG620B2qhNRmP0ihxXyP0mrlQawchjqtfBmktk9xe4J5ZnRHb
-7+mSp7WpkbnpdmsTIqS4peVglNxyE17kbiRumci17Li4nfRZFtZrzd+qSAypP2mXbc4BPhwNMqBk
-Bso5HdX9Wsl68dwmK4v7TeNYJzeJ08Q1Y1ZAXxMV4s0iIl/JrAYhujrdBLqR8JSlOcL9fICQT5h8
-tqH5d+XeyLHekdAhmKolr6VdxHKLdBJXirIpReKXwO6eVLxG3tFJH5X53UKWNluTHBC8cAylCs+i
-l43LCC9VHU7yTY28kHWrtu06YGy5MoCSkWfoxPm8lqu1kjMj1M1V92UIifsCWcalOxKEHsb40c80
-ZchIVPPrYegmBzPkP1UbOgd/aeGr8sIlrkzW2UOlGDDnyw2Zwe9LzziSawOjJ7l+M59HxkNqENte
-FKQaY78H0m4lOo1P2JAQsa6GWUNV81lSpDJhyj5O2SUT3iwr2uLXDv39xbzFrY6dw25GU9mJkiEv
-9CBo6ITOAhz9V9UVD1t3muihG+45DRczsOIvrX+42xuZvK2cHYmfWRe5MVovp6ztQfYsCjGA+QeX
-N1lcEz3m5Fwg8yTPgh+s8H2SIyYY9sEtGvzxCg0fgl87i+EenAHl7qFu4bHfBwu+yOo/Pla+Z6NA
-oFXGGZ4cPpc0CoUYaJeNwoudkjYtaJZV2KvKLtLllFUCtVdGNCQgc6JjpJre4absFGCUbaujMme6
-9q0ut3DE3d7OPM78YewIln68sMlffjpaykweMhlYfrLFnCZ3md+Eu7J3kduMTbbPr7C1p1XN2Hwg
-cSut4K8tPzyw4yi3td+gQNiwcDfcshdN/QqvO2JwnErQxvdAlohjt0KPGTBJPpQv9u658SzMlgFH
-FdmCIQoPFMgRwvapWVnVLjgtfVBU1AAMEavC9AsDR/bHQiPcpbrHzLw+Xmtz0EJnrkZlqSvCNjZZ
-qo3S0Z3ERlvStJdkM6FnC0vf9k+lj3r5L49F2tEf0kc3t+/EgcPWOIojwwlQRO7WWmCc5Q81O5Eg
-bd5J7eQVMjFDOErty27hGpbNiKhQHvb6a8+ATfAZKUv7SBcfjfcJS9KR/z22qIDz/VBurL24ti70
-+dhHmJ9QZaL8u62biuyTu/n1SXa1xn0OgIjmMJ3cZCZ1qb3uLJFAgfaeebL86ny4Yefq4UAWiYix
-USTA6Cro31E8/a1VDV/ru1STo0bXcjEJ4MRuBSVil3fQ2vO/TV8MyuzUY/jYtN33CRkqob3TV+a+
-AhGm1Xnyt3GpW606ddpp/J9xHy6kdR8x+GJZ1EXLXDU5DGmRQ/wMqAObVPXlZzP7XqmlPdINg/4h
-DrlgPe65V2m+yfj8nQGJbbH02R9179B/j8AJkR0ikLFE7FSu85YsggQ2n9DuwLIOm7NSZdMtM9GT
-Q+QN9nuelCugYZdTfyBeHjxTlPbULciFQmtagBKIOF4ahS9D6ZGkb8aDa+YPVymaJU7s7mPXs/qM
-zVzNM7yLtO4vjSudhRG5ARfStocYNK6fXpGPq8SMRDLTEMZQEP+yOl5fbGi25Wp2m+FBafn0bfJs
-8ahYZTg2cL6DdBjYep3l0s2FwTcpE6Q5w7BubHJ2uKkie1P7y1hOGrFRdzKsMCl6nI57S7ro/olm
-/qhb0Iu8HEsBK5ONJDyokVB5b+GGx7yzO9qaG8/T/0KRnQUN1msKPpUx+a1NpBMOeDPKJUB6Ygcq
-6RJ9jhplYSeWjrE3+RNhf0jqA5FiYUW8QOWict3JrrPO6UwPshoubDdu+aE/RopeKj0Z8RnJ3xch
-bxc8yVoh2JSeP8Zh6fzfkSTw/pJtR+rfoqnlLqXrH7ye6PMkHAvZGd4aoirFhtdxucKGdca1MPPz
-W7EpLtMznHwPwK5I4jEWo6R/YXSPkkbN4LdWrrhuQzaPEPdepW5rfbe3mDyqzpYmnib/XmSj6pzi
-juwcq+NRyznY0CtJkJRda5vVMA7CLkUau2RuaapMH0RkUiLl+2sZY1S1KFu2EcBtAGdK/hzNivnH
-Od11gEC6DJfLO6WbifzO5/WoHHF6dQGo8kcbagZClymFbGRi6wFoZyTz/rrLi/OAicDMv5SPVAdA
-Qi/kQMjN/IXtcPwKArvSLlXgf/qKiBkwrLUKHlWU2JloJk52zr5l9u1lz9WR+72b6KsWzaaeKZun
-Cg4g4OlCs82/3uBfQKh2fx2Erl0Ls3SN9Vcg6aMu15M/ZSnF/s/P+B/1duK+2QOjahj+HfNR+1h2
-v3ch6BRDbV9f516ctgm8jprI+ceEPa69bSbRc5NeTvvzpvTR+MJ4Wdxpa8q/vNsLJMnmRb41o8R1
-nRZuXuDo5PeN1noSLsixzOZLvnuSA9kWwATKglrFs6OF6GTfvEGDsEvHw/PX5lgmKxcxsyOlMOy9
-naTneKnKXujqzyKi8ZNVSxPNvJhVZAdAMTbz7l/PZqYKKw/O8Rw14HEseqPtMwe=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Firestore;
+
+class ListenResponse extends \Google\Model
+{
+  protected $documentChangeType = DocumentChange::class;
+  protected $documentChangeDataType = '';
+  protected $documentDeleteType = DocumentDelete::class;
+  protected $documentDeleteDataType = '';
+  protected $documentRemoveType = DocumentRemove::class;
+  protected $documentRemoveDataType = '';
+  protected $filterType = ExistenceFilter::class;
+  protected $filterDataType = '';
+  protected $targetChangeType = TargetChange::class;
+  protected $targetChangeDataType = '';
+
+  /**
+   * @param DocumentChange
+   */
+  public function setDocumentChange(DocumentChange $documentChange)
+  {
+    $this->documentChange = $documentChange;
+  }
+  /**
+   * @return DocumentChange
+   */
+  public function getDocumentChange()
+  {
+    return $this->documentChange;
+  }
+  /**
+   * @param DocumentDelete
+   */
+  public function setDocumentDelete(DocumentDelete $documentDelete)
+  {
+    $this->documentDelete = $documentDelete;
+  }
+  /**
+   * @return DocumentDelete
+   */
+  public function getDocumentDelete()
+  {
+    return $this->documentDelete;
+  }
+  /**
+   * @param DocumentRemove
+   */
+  public function setDocumentRemove(DocumentRemove $documentRemove)
+  {
+    $this->documentRemove = $documentRemove;
+  }
+  /**
+   * @return DocumentRemove
+   */
+  public function getDocumentRemove()
+  {
+    return $this->documentRemove;
+  }
+  /**
+   * @param ExistenceFilter
+   */
+  public function setFilter(ExistenceFilter $filter)
+  {
+    $this->filter = $filter;
+  }
+  /**
+   * @return ExistenceFilter
+   */
+  public function getFilter()
+  {
+    return $this->filter;
+  }
+  /**
+   * @param TargetChange
+   */
+  public function setTargetChange(TargetChange $targetChange)
+  {
+    $this->targetChange = $targetChange;
+  }
+  /**
+   * @return TargetChange
+   */
+  public function getTargetChange()
+  {
+    return $this->targetChange;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ListenResponse::class, 'Google_Service_Firestore_ListenResponse');

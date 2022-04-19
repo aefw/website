@@ -1,98 +1,197 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudMachineLearningEngine\Resource;
+
+use Google\Service\CloudMachineLearningEngine\GoogleCloudMlV1AddTrialMeasurementRequest;
+use Google\Service\CloudMachineLearningEngine\GoogleCloudMlV1CheckTrialEarlyStoppingStateRequest;
+use Google\Service\CloudMachineLearningEngine\GoogleCloudMlV1CompleteTrialRequest;
+use Google\Service\CloudMachineLearningEngine\GoogleCloudMlV1ListOptimalTrialsRequest;
+use Google\Service\CloudMachineLearningEngine\GoogleCloudMlV1ListOptimalTrialsResponse;
+use Google\Service\CloudMachineLearningEngine\GoogleCloudMlV1ListTrialsResponse;
+use Google\Service\CloudMachineLearningEngine\GoogleCloudMlV1StopTrialRequest;
+use Google\Service\CloudMachineLearningEngine\GoogleCloudMlV1SuggestTrialsRequest;
+use Google\Service\CloudMachineLearningEngine\GoogleCloudMlV1Trial;
+use Google\Service\CloudMachineLearningEngine\GoogleLongrunningOperation;
+use Google\Service\CloudMachineLearningEngine\GoogleProtobufEmpty;
+
+/**
+ * The "trials" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $mlService = new Google\Service\CloudMachineLearningEngine(...);
+ *   $trials = $mlService->trials;
+ *  </code>
+ */
+class ProjectsLocationsStudiesTrials extends \Google\Service\Resource
+{
+  /**
+   * Adds a measurement of the objective metrics to a trial. This measurement is
+   * assumed to have been taken before the trial is complete.
+   * (trials.addMeasurement)
+   *
+   * @param string $name Required. The trial name.
+   * @param GoogleCloudMlV1AddTrialMeasurementRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudMlV1Trial
+   */
+  public function addMeasurement($name, GoogleCloudMlV1AddTrialMeasurementRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('addMeasurement', [$params], GoogleCloudMlV1Trial::class);
+  }
+  /**
+   * Checks whether a trial should stop or not. Returns a long-running operation.
+   * When the operation is successful, it will contain a
+   * CheckTrialEarlyStoppingStateResponse. (trials.checkEarlyStoppingState)
+   *
+   * @param string $name Required. The trial name.
+   * @param GoogleCloudMlV1CheckTrialEarlyStoppingStateRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function checkEarlyStoppingState($name, GoogleCloudMlV1CheckTrialEarlyStoppingStateRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('checkEarlyStoppingState', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Marks a trial as complete. (trials.complete)
+   *
+   * @param string $name Required. The trial name.metat
+   * @param GoogleCloudMlV1CompleteTrialRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudMlV1Trial
+   */
+  public function complete($name, GoogleCloudMlV1CompleteTrialRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('complete', [$params], GoogleCloudMlV1Trial::class);
+  }
+  /**
+   * Adds a user provided trial to a study. (trials.create)
+   *
+   * @param string $parent Required. The name of the study that the trial belongs
+   * to.
+   * @param GoogleCloudMlV1Trial $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudMlV1Trial
+   */
+  public function create($parent, GoogleCloudMlV1Trial $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleCloudMlV1Trial::class);
+  }
+  /**
+   * Deletes a trial. (trials.delete)
+   *
+   * @param string $name Required. The trial name.
+   * @param array $optParams Optional parameters.
+   * @return GoogleProtobufEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
+  }
+  /**
+   * Gets a trial. (trials.get)
+   *
+   * @param string $name Required. The trial name.
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudMlV1Trial
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudMlV1Trial::class);
+  }
+  /**
+   * Lists the trials associated with a study.
+   * (trials.listProjectsLocationsStudiesTrials)
+   *
+   * @param string $parent Required. The name of the study that the trial belongs
+   * to.
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudMlV1ListTrialsResponse
+   */
+  public function listProjectsLocationsStudiesTrials($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleCloudMlV1ListTrialsResponse::class);
+  }
+  /**
+   * Lists the pareto-optimal trials for multi-objective study or the optimal
+   * trials for single-objective study. The definition of pareto-optimal can be
+   * checked in wiki page. https://en.wikipedia.org/wiki/Pareto_efficiency
+   * (trials.listOptimalTrials)
+   *
+   * @param string $parent Required. The name of the study that the pareto-optimal
+   * trial belongs to.
+   * @param GoogleCloudMlV1ListOptimalTrialsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudMlV1ListOptimalTrialsResponse
+   */
+  public function listOptimalTrials($parent, GoogleCloudMlV1ListOptimalTrialsRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('listOptimalTrials', [$params], GoogleCloudMlV1ListOptimalTrialsResponse::class);
+  }
+  /**
+   * Stops a trial. (trials.stop)
+   *
+   * @param string $name Required. The trial name.
+   * @param GoogleCloudMlV1StopTrialRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudMlV1Trial
+   */
+  public function stop($name, GoogleCloudMlV1StopTrialRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('stop', [$params], GoogleCloudMlV1Trial::class);
+  }
+  /**
+   * Adds one or more trials to a study, with parameter values suggested by AI
+   * Platform Vizier. Returns a long-running operation associated with the
+   * generation of trial suggestions. When this long-running operation succeeds,
+   * it will contain a SuggestTrialsResponse. (trials.suggest)
+   *
+   * @param string $parent Required. The name of the study that the trial belongs
+   * to.
+   * @param GoogleCloudMlV1SuggestTrialsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function suggest($parent, GoogleCloudMlV1SuggestTrialsRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('suggest', [$params], GoogleLongrunningOperation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsStudiesTrials::class, 'Google_Service_CloudMachineLearningEngine_Resource_ProjectsLocationsStudiesTrials');

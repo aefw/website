@@ -1,222 +1,557 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPvIKiao040TZBNqdRuTWv83M9VvEYAJAyfN8xkZBGIFGQJGiy6TqZhW5ZyJyO11YRRZdHwI3
-hGpBk9jCVkAaGEKDCDGPhx6sNKLhGgO9wJEuIXaXVdryGQYuR54B2oDGZ3RxZkpxeDH0JSePh8HM
-z1+cOH68l15XzDKL2VGI7dvWlDEUN2y8rRVQ0dKuxjdO4VlYlZF5qnyM4BHEMGRXpGidYAYlgZgi
-jzlWljT55MhlXN1M4ih0+mgMqOzMjVzxqV7scnTVmIN5M2oKRr4+02/soU9mKourL8IeB86cFae5
-vLLOS1yBvapMCyCav8w8LE1p8o0+ip6Q9ijvqs4VUbsAfxOD3H4YyVB6gfRfIPeT07qWdeC0EDTz
-Nvh0/XTvfy8G2Zzqm5ECAVkt9AeHM2kMHU121Q11KusqTZhslEvEEJ4QyE/DLEh4Zo9x1FtppYgh
-/HWgXkjkZ7Mj/oaEefjKUfGfPG3S3Sb9ZqcY3w2lM+MUcbWRsCEfqlkXnVXzq7A5f6xdNFEdQy9C
-xDhJraLsvYtnwpVJJsiGfV5PztQfQLigqw5rdPUQT/aVJkhbkwZ7GOKiw3cZaJi/xl0KeuCMuGHk
-wNotKU65rwmJszWdLdXSIQbr1HfUbUie4mFGgeYJiMAW1ozsiqvJKY/c+vZnSmPcRGi+77u2/x9I
-Obj1Z0yX2tQk0BZytdlqvKVml9KJ5KdR8aEdUip6+d1VXVqsN9VmxnMdQc8gtXQ8M1UWuqLmd/AP
-Yjr47E4gpD800xBB06ZiDWZb9F1RfhVS6W/LuVuTovV6Fkl7tIiXcAea161DVMM0Zvbu0qDp/9px
-zvVHCt/DyN5JD8tIzC7KcStHQ1DsbXVSHMMPdMxEf61hbe5AXbXNAH+sKjpnB5UfYc6Qg+2fFKJX
-3DI3FVXU+bNV27FCkbxpuwpwcPRCTo+BvReukdG/XZtoxaNAA6SBwdnjR6UUKIwJE57XIZeYz3Zi
-U6CqCicFksteTR5s0sRODGP3yVP71FCdkLV1QfDChMzQAwBYA2+eyNrAC2lKGZY5GBRjyLNdvNfQ
-tZHX3EqbhPH2FfC6TgVaOfu2pg/5eNZJJtgz6VgDcPRiYDb+kekI5DZY3Uzyi4USGud6+xLvrYvw
-2/Dla3KzuUO0hGVKHZ4KJt1B9zNfKoqrKLvv6uNHmOUA8ffvy3dHgu4C/61AtuJLaNW2dyrynEZU
-8wlC9Zfgo6Q49/aMg6PyWUnVBhmGjYpjbXVvpkjWk/Gr9TpH98BJVwls8GmXsqpNIPTn7ZkIew1B
-L6LXlkcgq8CEanTIsAIakYSlHsAnNMDfO8LQ4qklH6jjGYnP/n6kr3TQm5pXZ6h4ns4CjpYVHvxz
-Hm6cAfMje5UijXJ35ENc9+o7nWimtz5A7pDuBl8F7dsbnpjUUkN21zj9N+Fx0eWbVm6w4qFOIPr5
-DJs/eD67JaXgAM+Tja1FNGi6GWV88BOGwMjeW/geUmpPiroYQ7yKZvn7VvWWDCB5J4TKEgxbNmsp
-fg6C+B7oVhAXuH1YCCb4okB1aHtGqN+RGjeqYuwbA80VNp1rgWITDugLFcdQ/b1M7XOVULPoSRyZ
-pVRoGjv/9LQD7h9Clur+JXCWRDW0FW6f2WaEoaCAwgjDoelsJKn6pD32ql6fKyumDbldR38ck9Fa
-m352PTxWNHsO+4r69tybYDACy7FhPDBJTVF2R/nGmLHsteqr87qUMui5U+wen52bZ8hW19ndokBN
-/MA55HWT4b4hubIgbIKztYAPIY6uwurdlPKFt65VALs6Huw7mi8GO+Fin6cFW0qJRmRpigkTz2/O
-jrgxaMGl6d+QugSYjquVrOooSJ+Uy4lGNKyqUK8cJOsNgE6TTx216z3dal4b8ZgyUbOFJlFbjCxP
-l8Zc4iNq+Zfad44oWNsJR4w0ZjfRinfSBSTJujGSlPhMgN32aHMtmHovilBkDF2tVNV03EYcNn6F
-Vj1I1fNb2etB2Wnmdf+czoroj8+8jycTgM0n77Ldes863DY6iiLm+3u9tUk4UHr+xwEt7vngyxJQ
-25/4S6auhmEkEKfqekp30ZEuu41977ec3TInU0PcsihqiGkCSyQU4RIRMV3kUYa3+IsIPjj0qFfn
-ITleQ8YbBhiZFHDG4EiXnoCb7TzcjKE57j/L4n8e0mcheTYp847FDsIZgp0emBeLeskvedqVjlsl
-982e96nadTlymGGoLCEA6Z+ApBEZXo2qCTNS3wuC6B2fHIfQ3FxXPIgTI5bMgpUn6W4fKE9bjOzt
-oojTm5uqrSirbRiGLMSEP7xGgYsZZC92LooTerz68FujlQra7+qLt/06ewOtt8bR8O7MvPttxT6c
-/0xKDRpJzSl82mpH0qY/JH1MJZu1p93eI8fwkUapaDPOSNEN3qpxaSTi94hDBZ26K7h4AntKCDOG
-1TjmW6IDSm3KNpZfEmVWYu6byD5xgeFilXBHLF0U5SA6qC5K1rTWWqR2Z4PPiX/vWbrRUX3TuDOY
-UFZmbeGRVxIZ/9e62QDB9oNCZOqREVCxKF9PfOb+dIxIUOVQd35pvO4vNk8kLLWV0hm3AJrWkASe
-dTFTi4NH/vkkY+pUyLz659cQXll/MKznM19sgLKYfcD8WjU0eQShVhqOVidOmKe3ztfHgQarD1dY
-UCtwwULrEDsNbyX9UkP4QZK2EaLa3cBxOzkr2XrohbVds4Qmfcq99zmRoHOQrTlcbdicUsJ9o7fN
-ABMgKKewBYPu9clTx30QRrvR/dtE5aP6GZMOBmd6xuz4Lt+7Xy/7MsenmjqQ/Ua8GtsRWzIMyBuV
-za0MNZ6DOmfid75Z19xAm4dE4Zu944F02sM4REn1tYHImBsB+zSqSa/alEi9OBJtHUhfISkIp8FC
-ajQQsBeIvXID0+awN7Q5G37VDoWgL1m8c6pH23/w7IH5ae3M2PjH+ySjedSJyfemKurRntKtaIxX
-3sGqmmWdJsKvrO+R0E7D1mhgxzzVf7ypyV3QVlwmfgS21+QlJbcSLeTkL1LdPOXtJ0BAi4PhoxoU
-r6p9TkN4IsXn9gnj7VQA+2/E7detSQeuBr1sMn8+GYNaqjjTNjj0/STHAw/vcqvSoQNqtFPmiNoj
-NHoJrdT856t5esD43fJN6jIWp2uxAisL1eO57LL+xiIRg+742pTuOMcQAiGpDp2xas/hLgz03t1k
-t1J29kLvrjbm9pZZ+vuekE3DRa75HSp7wAVo5B9ZsKgX5O73X0RrlxMnwOcHNZDl35vUWgTx6sIx
-aZ2VJgsP1Ed8ZveEtPdmx+tP4C/udKMfUAjGLYHAWnmHQ8BOsG/zJiEwn3JMPSxP2SG+f3CJXHWw
-7VSVkVH5sxpEvKA7UOoyVxIy8QCQpPpDVJKrwZ8o0Syogt6Dc4ubb/4Hmbq6vhNEGgMR9+kvyh0A
-mdL7CSuVxP6kYCHnnYX2cgnjeVeE0be690WcRbg2clLCVrg+G2n8r3wr0+P4V//niaEdZCLeyEfk
-xRrb7IpLD8dLyEGIX64uhcldzRgXv+NJg8P4iKdHZ1qIWeJaMOJfE3yIi8RG+hbeKDjy+Au/tw8W
-JW8S8ZBwNkyJ9PirDfvoqpBqElIlFjfkblf/3aYtzDqEeHtHBFHQIfouf9z6bGYCi09hG0AydvWu
-kuBDxCvz2c4jCAtHNAcbd6FBuytDhhQ75X4Cjr2tbEpa7dRz56tsqb39Kd5k6vpW47pgPHOSwZqg
-oAKpAKeKVH/Bs6TL6Ro/PcXrHfbQJ8Zz/Z1dkGKYzDPxPdttD5UKwazWDOk2YdGCd3huQk1zULXv
-CjQpQF+xdOe6KNGi2PJJQXAio0peX9RkTnR6HqS1ctzp3bHTJQQk2gIRWCWPMWb7P6krtdkBrRLo
-x+E48hJ+/yf3VsD3kHLsb00QZem+0k0J4foT6kR36qDodNzhZEXX489V81MUHlRbwORWc1hZMBX9
-Nv2ughShRr/T8Xrn2EfhHDRWfgXw221woF5sju8j/04M1xIWi1pT6DYn+jooLQLVDLaLt/m/myNq
-mDazpaCWJVwxBrpJ00UggSlv+c37tMK5PTOFIrPy+XMVlKXptPN5KeCQFte8I0SYa0lv0ChfawlA
-UgExdgTzWOZ26JT9MssCnT8vA0Gcz3xDgxFIcEfYHmSG/q/hAdrmcp8KD5/zx/qJsu/P1F8W+x4W
-nqPLthvkP1OvYmhLaTk0Nt7IBf5zwkHiVcUzwath2Sm8KoXvPigoa3AuH37BIwLwfzb1s+KQK+Qu
-SGjERU//LKnI2yREbmo47M/Jixfrm0EkFNKNEnZA5Z6aG0C3NMPJNXutYah5Q7UnO1hHhRp7uWQg
-cLbUhTYfeZVd+h/4bnjadxOpavorwWtk5SKZRznygyyojaU2qKMtaCDgSjUwxvwNQVTBCXBOcZIR
-pB01AJtU6xnoMRqYH4haMv7GeS1PPKNQE/CqPshNZFR2PMHxdHYKWwKYaGiScjs9bMxcGdM99Jum
-KeZa7LiLh3PE5kbiv3Cmem0EH5knvtloIkXkcyac6i40VRahZPCDYHkByqikcmEyWuZLRU+xi7qe
-XXKIOTbCd5VxEEPTBFebdwg9h8MiL84MKn7jw4LBUIW921wJCEhfuIq1YpNdP2wYZMLVu/hiFGBV
-7op22ZHJ4DIFWNvQJcidPTtgRIZeIMv/C7ZcQTuMMV/n5EPTpwvhdlxnbw2IUMTAHAQa8BM151nV
-/FF+VVMu6qw9SkvRuuAjahV+nHXPSemK3jBda1F6O/qYk8nyif10AlYWq4xwmmYTwcZ6CrzoUD4/
-GbRyJkNT4pk7LWWXGDQhsFNBDmNu/cMN/NzrKZb5LGA8ILMOBFLEiUJo1KpzH//iXfzCriK8LOWF
-tLxZntfLbPi9GAPpn7TVKayoc8ALTotEGt2ZDBK8R9yIzYCtVVpx5eKlrMRLFw2nRDkeHP1840h4
-6KaWsb1QLWxe6mqm6G7KQ6lvW7XU5NlO9rMw+JSvQRW6vL5MjOLuuTAc/QLXoNYS4kzc7jNjHbVZ
-UG77bkuxAVx2hwtK6BgP29nqiAkMu7LiB9gbHLVmp9gSDflWhioOmSQimnS/kgKlLRvkjXNBK6pp
-2YlKbEa+lPUF2p8tyBqSCLKWznSFWzQ21+lipGlKhkCVBnV/XYBBuUXjK8befmjiKVLJCjIOVwXF
-74XOzZli6/nkzQ5nDEq88aa521HZgr4GeNLtXIepzWompkoPc+K4Sr8nOz4JDBOtBA4f9fTib8lD
-Sq3rqRZGcftXQnLAsinRymjieOrZ/u2nxfWddnUvn0rYrLb7uqE84caBWr03v2odJOTnNu+VhWjY
-X3tdm63JRsvzQRc1Twudn00Ljx01mGR8FGC9t+e2/EWdfVR/sTlv520nTLYF5N2jx6DfCjMD+v+P
-mAEH3N6GJJKek/vFinsQd4Ph7W9mgsNoQxIHsGTrEzFKWdF8QRbz8y5d8ltVIPTGOCqetDZzD4Lx
-c8lJZwQlMVFNBmFVQwwNToVE/AxcA6/iQfJYpNXjxRMEZjMYvpxq2pxEO0rVtuiZOLtbG/2Ld6ET
-4UHI7PiiYeESI9/0SQISoB5T7mHwaw2VDjHwJH3PWCYLNw+L9EPusvLiOzbySLVpG9JsmC7n2Z+u
-qtnACf0cyI0FKTe09KcQKGk6WobpkcFJmE/S9lDKlCyQk6aDfoSvZeXLWxTxHnU60cR/SLbxr590
-aHgw6WdfS3cCPUjPk9XMDXYv78xvjYpjaxxroInXRjednmfLBqL5ZWqNQ7FkzSyjrU/UWyjNAhVu
-5av3BKp5qdUSa4KlCrjqeSu2DYMHA5DuA9g53JEDxn3kqPA8oU0DpXNErvFbJ5oFzCa50fqCFHde
-G2InfGPFAKfbjUUneonpq9MtgZjf6/CaGjWTPH2yRH0abiDNkqQe5vLDeWMWB98C8mPSj/pgo08t
-AVNmYQlJv5AEQxYRyBNdgZySdyiPMf05CEAsJaDsGkVIChWn83DQGHSsuVvlTujj4uSlHnwPUTr4
-D023/nuq6spKBYShvh2e59lVsmhaoPSVneDiRfaXk03JIN/6Hw7XBxSYS7tjmVR0N+caE7tp8YuD
-kx4gpJOEho6C7ZEVbRMqYmiYyU6y6bBlJHdNYyWGbQypWmX7VQxqV03XtE/SDZYbZLgzISbmFc+T
-FqXLEVBUIcxhNPFas9g2jI0cSj6ihc+I9mCzjiOoQZhrVXUa0w67vUYAnNAK/DQLHQL+FV2zUOPa
-/nxV8jzC7NRHFW7zHRTim7QOvnUGiDe7kZBfGmHsjlV7VHdv6gplKXBt1yYISYfiVp3Z77BTlhjA
-LLBpmW5lWI0qmkXGSA6bOpq02OyZw+D/d3B0Yqve9DMvoaHYVORjahA4y5TkG7a4oeYCB8GgGG/+
-YtoP3uRc/lVek+q3g7GwE9HQbYD/DD2S+fdEJWwbP5TOGyPsdbI3YEL2nVzNB9Z5/oyLsfZotSh0
-cdk+qwo/JF4pivzLjWE3Rq3Ab+t9VzvPXtP77Lb2mxDO4hHysfWF85aBfWHh/DfpHyrMg39Qw5wU
-pa50JmjATgn1b2KX71dIqvok5zyUu3NLDT5Edb3/CXbOAcutDufAHUhMM2hbieIYrN1KgBkLtS9R
-EHAHqvrukWSTDdHms9LBqSxipueeuTcz0P7AtY40WfqU2gOV59hbCpyKr3bG1uDCKmq8YzVGPlpI
-meca3TDnG2Io/6VEE5s2aJwOdcVJV3//wnUvx1BRFLgzLJ+21S56EzSPBXspSEzoehHhUkaTYr+c
-gkfcBwk1Q4jFGojmWKvRToPBv3hYdfduEn17LHIsjlj6Aa1UJ1+FtO/a5HQy8tyOPefFX7qoJ90E
-w+sn7bfEfJFY/oRR2rc7l2TMGRIA5SEApwIGLUdJcXFesWjdNTv6H4lUNslf2BhE5ih/Waz1A/vh
-3l/6zND6e75QZWE+4PiZxREfkBMBp1ouoCdOxZhsr+iBFgXj8XGzlxLyzSCzDvValng7EvZ4bK/t
-xWNiOLAYyf1pyO//6vNdUfcsHdQG0LZKEkr2ul3JQOQ/au9u/Rt3tZjKP/hW1xvMxPwxjQf0XLdp
-NZSqp41FcuLW2A4wvjTr3i6iMMZkQx6gDx8FJFRv9PEtstn6jLq/fSuCW24uQBRLKGke0naa8dXc
-piF5bNkUta/eBIa1AYgWxicpJVaQHyVHHLIykRM46m01bg0H8ulqYRA3f5u+2ulymz35kYxbXO7j
-uMzWKWMiSwWDkTE/xYU4ruQ/WIEU+Y9vH0KWx7yO/+HRGDtt/1ISUPT3Tz3lYZ8F8vIzCCTM4PBJ
-AveA4J6eyDbmGITr3E0elh/xBaKb1v1El9DyRPu0Z7kcqo//MM6Pt3FeoHY0QgJmm42WgoxwIt/L
-YAsLP3Nmpwa6YRFE69FactBp61GHFaNQ7+6J/+Xf5NIKI2erPyzrUDj3D5jupTRYAsvvRGXD0JVk
-531cgD/vCAN90up7kRdjHRyf+GuWmYGZdbmYveU4T625J7iDdiOuz7GvVH4YW6B2/7FYxxbiqPEv
-/2iu7/w0AAxhbz2vpoNkqLuWTUGLSHAZw17uJjAH9GGRmv9eosNSBgy7SwoM1Jv30SoNIpZl4xAJ
-t7yOT/B9vjSVauZFR7ulPMhi7eHHD1PufZeedvzSvkvegXyD8tjb0J1MztmrkY3z9DiMcDM0f5tz
-UcKHHC4coQA7XAFtW5mhG99ZcgaikWml85bqzIh5Vg8wO0iivTMZzIddHxEXjAzdhnMqFVqQz3W9
-SvifUkCOGaxMulOhJD1xizwnd6E/QaklAge1zAi7xUAHNdTHgr9NtnLiIBbiAk1It4qJ/Zl21VU5
-xM0+V7l2sBuAH98/DTS8Cc/YK0nu1Mkkn22x7gzLTsSEvzNXa1TjhbmM7CfX5Ypc4uJYZHICJpxt
-STIpWZxTGqq1dNFsg3BxceI/ru0SFVyJTS1UZj5ee3jWGXYc5pcirQfUZiVAvRc9ayZWlnI78clv
-tVc2/YI50AXrXAGu49UIeF/Wwnq6+w5eYlkIx09GpQsYKuTNXhtSewVWtZeO1OgqZ1wrgLpGdH/g
-q8CjoUqGXrTvKALPVWnK3EpkZ5r8LsV+jt8HSygkXbSsQsTWXUNpp/uIsmZ+ttFwVeZ0NZleBFSz
-sqh7dDO7wq+oPdz04105R9drIidMFoMq9OICP5fIy3sOWveqkfjs1/ECk0P4sHZhPVxiBGaivtrS
-Oje/H0HVXp0U71jG84tnW3KYQkuQNCjZHcN9+77NThzzEbuGhYuhoamm7blOv7f5qcI52ImIZz21
-Kf5Pq5g4JX45DkXsmI8YIyKWC5HxzKgMgXOlT/fS28M/oTl2beLA403sBi9BPVqFHcUD2QTSfgUD
-EzZZdXPcDe1QzJgYb7KwgJg+lzIXOCc9tBkqkq2t/AZpBu9sHhCKETRvNCp5BmSM3hoeyUeA4wf+
-q8tUQpZIhhxc4mge8NkACb2vVcTxcslWZF73Y1DEfG2ccMfRf2k2ftJayJXBkQVSOKlX9BsbwV/D
-eV861N8SUUHFysjrHXRXqpwic3jOt3P3HO2LpIr0XYX3qtpMxOe2JmHkdY3U8gjhEahdSxWfW/bL
-9Xha9rgkOAhZ2guIB9fNVMV7GO7ACeGgr67VXRIjINZiAq9Y+NORKmQjK/LPkWIwauo9uPsXOLsw
-Hw36q0pJvVopY5rhyUwCYmO2/5OP2qKDE5Xa0Zj6aev/G/vR2vIY6nJvi2tNt4dx+Ncv7QoEYGgl
-/aarNHOv8xzq9BZT4n97px/U+E6GAuxJqqocOle8FW9wu7WXapGJLgEPac1FBNgbO5Jmlg7DxIb4
-B7ZJqmp+Q4+a0cNdAnPseS5DkY1HVIPykNpvV5C6IIlBN89YAyhA48UxEIuwK008JfBtXfT4j18A
-/1UbKqFYXCCwH7sx14IG29vDJKN5RuBn+ikvIwZIEGIfqZag9kUwiKFh4/Su6A7x2juZR5qgbTFp
-mU0bAtXL5phsTvpJR97ZVM21Soe96/HyxH8i/fpV7YHR4BkZwrkmo7YyEFsQElg+x4OCNmxk0RYB
-1Sj3jPYbTGylLbvJ9dw7Krnyx71KC5to5UfSODakKRoU5coMogc5mBkqsxBvbxwf04+gTp4l2L2y
-1ugZMP9AaUtCcdPD2MXj+vFfFU1KITqLqhV5KwFelOzN5eIW97HfEq2bDdJGOfu4xtN7lPHFET2M
-PNCvZJSlB85A2OAIggt5d25g478cDMhrEtlxQf6jlP5ZCUajc/DLO6RBhnGNVOs/m3s86U0dm7sc
-xPAlH1zAW2w6bRgizGeotvqu1LD/PW+ueA19m6kAEoxxBSWC2iM9cyPI2XGDVyJXwrU3FjeL/sg+
-hWOg7yoQ37csxTmfMpVmzHTnDafQ0+gvR1ETSR1q8+N0VVT+I/4RHOpEpY1DyGg+hVzuttT/WyH2
-TDvIqf5uW83sPz0iJISbzOft0tpvaK47xA/LsIxSzlkFh4DT5RPFt9fvykgZGnmcOmEnMR3ANH8r
-9BsKq5vCgK0OpBGzyzt/Ea495dcoUKuiCc+RFpJ1LRAf/V65qMJExdanjWM3uMqSiYc6LWOejqGW
-aBKLbuq7Qeq8tOtD/1ff9rvQofnk8PhxLo6RX+rh8sPFX8ZNUk1O/byE0SOoAHHCb9s3+yzmFPoC
-VULWB7mdyg+0vHjWdIzbAXQjJndyN2zKuGR/LP30dhjzw6+80lWuIIxYvjw+CKQQp9HoJ4Akbvae
-oNYMoONdyB9jLVF/TDBFB3Qbd5P5lPVcgN5pl+5cOCywcjhuqnynWardfDStCqR8tRd7K6M1xo7T
-7sc1trB54qZPQ8YbT7ed4W8I9Jy6hwPNI4F5aNd6qJVwfSBTK0BkUgV8ccoE1s0Fuaad5k6JBGqZ
-qnGYkhHzb7GUh4IbeSo6Gs1JGE/rVxG2CcIcbt3NwTVa+OGcMMeOeMEnQmXulKaFGr1/M0YizB/N
-NsW4fC7Et3GcEZFX5PM9SxYq6D2mLFzjZ6A93jhIWSttoT/voYJtAO9pyLUvGV/xRLYYGDeJTF/t
-7B6J0Gb+fR6n2gvORzB+Ot+W1qyoAE1NEgJgNQaDgjsfDq98rbjO1iJZAAXTZ199txkUlq8ZjsPT
-truidkF4iDjWOsURKxru39Y+EE8Dw+yLgjLmdpsiwH8DeyCjjmWLe5TtkfSw3Q1yGcJALxN9YU6Z
-bQJTZY/3ilQiNrZ9VVNztgOdQJODYQzJcl1AsvQnNNHxGty+07nkEYk5+07j1tH88jy7Zv1uLdj/
-TYU6lgIppviaSIZKPbessD3xcUteRZ7RIlFwUdzHakl2rd+gCBPz6eCFx75Tk2yezBFoGb3p5WDU
-likv1GLgPEa7PQPn0yXHmbbqjwP8dghiOfOAYgeiZYE0AmyXWysfB8OstvuqZyxCjqTy7Qw//zjB
-pbSuVhbSPm6RXT4R/pbATkYEdJbSyZTj7UrxX5tKP7/AczSZuIXOtFYXODvdixZ5X5BYsyAdW6av
-4p/jQSi0FpQL2JL5i9N3sZ2NrRf5Nka1swydjMMNKcvgx3/gjaPvyIkLA/VGJ/h+X7hEmef/UtId
-Y3TRNVsNcW/+zva22EQb9QMrINc00pX8ejjTfnQVsPKeakSpur3TaqsqwOfDOz8nt35GDtD5WwKZ
-N0diGVAbfaoxaHxHDtLXBtJSuaFx8n/tyg3Zuo9IWHPxM92rxdR/xHzifxdDKLmxgKyXbqIZ5qMJ
-nmfcSan+FvMJuXquH0EteFT2Uh/f0QFOgGoUGC4cVp5KszvwzD14mwO15vi/6GsMAqyw5X24q2fv
-SYzExS2Q6993bODCw5rs+16tDpvzHRzWhrCZtOtAp08HkjO91rnaTOJf7OExqBgJYlSgQm0aQ4Hx
-h9eTO/HKjYn6VUHWNlelTO04ff9HId1ZVJNWhFMLPRQ4CvZxdoZC4YAtYu0zvCXeye3ZZbt9R9SM
-RzChXiMNK8OJytoWTXJsYLicvmpM2vSilpFtutBInNWarXXC5puXR9tTIz/FYenx9Iu1plUChp9t
-WPacLCCY6WY5ZLWWkOcQKMXmxYfIbrHEnPv/qWkRd3C6HktFPwbcigsfOIX4xLgWOFU4+MVJQJrE
-LQdxiIEBlSK+w0NQKjC+/t3YJtQj7dU4iZ7wPdVmZp1SaVWgd7FW5awukZGnzn6rXbICYjjhiVf2
-WRE4p+o6HLZkhScePjzg1kMDcX/1E2u9NwrAhHhqrBKwOj/RS4uAxFzmeDYq5lmNo5qpV0cyQwub
-nc6DC+7XEmoXnKCgFNu6eChR0Pu1C9HA1NtRmXegHAHWtKvIV3lC+0eddFPpTDga4M4b8Uq1Osei
-ANXe8prIlRl7hyrlU8KGI4vG/zfvM/cpKKs3k+G81DFnpfOeYtlJ52mZYlVBsuImDlvibkjxDeGh
-515T7ify7CyHNn5UpqCIKMxl8p+BOadxdR5UXzWzcJLS9OBsc0EE2oFj7DO8iLvh18DzH1EZH1a3
-JAGcD+9SHsmS6WzY4dpRBvisg8fqgKQIOroIdsO5dwfKPP1t85HhCeI+ffLqial/2JitroJ0LBZA
-JbcmMxz7SmNz8ujSKvHEJcy4uS0XCTCw6cM2U1up7wDrEHbr1JGU8j1tgnSa09/HI7FSMQzO92GK
-j13MTcfAZRKIQXqgViD4eTM57vTODBCitpi6aWHTO+W5EGosadgOfdgq2MI6XHK+8uJW3/uJcBdT
-ca99PB7VnwBsQK6djj7Go45lUlh7Ob7M1FhgXqfleUBt2ztfyPg2N2IU+D3Hzltz7Uh1Hvs2V33J
-o7lYoOIgQnui0xAm97dUYbmrr9MF+/7O1KJaOcf3sWKNSI2lkydVtFWLLOBI7Ye/vzpCWty5Mx7V
-Wi9rUzBPZDevbudjYOIxgSb1coqKNksEgVMeI9RP0KFS2QDWjKZbPYOjCXyQ2sOov+oeRG4k8YpZ
-hzYn/d/er9lQku989gyvOkOmYOLMVf21HUWKLmGfldVVVJkUw4LoXx9nOH0p+PnA41nVPYkSSwIj
-ukO40Li/tn1itXTj5eRzXPdDapQNEUJtfC0wz6oIXKzJagHBmTW7xYnhpIQGNcgNJ/Bblv9HafGG
-TltV2RuRTPZn4egDuvoxt32Mtq9uhggDPGq0/pDDQAm5fzSv98I7+BfwxCgSDQWLSh/541CpSIL+
-UrMVHRCCfzCfH4mSPA+xwqy1uVmOHmZper0ZLLQjKZHGSHnD+9M8zG5L7tLB+lsVdkYGBzLmlwgO
-lg8pIgg4kjuCCWwuvw4s93wq+gtW+gEDhy43OFfdyhth7TVyTVLcQTviNSsXhHZituwIaMVIDncj
-QtSL62Da+YLQoLHZ3h867gS2BK/tlDqcLLCu7CPpgldpEiPDQ8+Dcl1beSYMyG1ZoArKT4EUSMlT
-HKvkMJhe0568Bl7RaEcFwSWwwOAALaF/MNHWVh715E0VO3IZSkpm5dk70MM5//nt06f85guZe2GQ
-Wswxaq5rYFdcDyrp8gbUGEao67mcPnqM7yk4rGVaLY7xCnGGBLCeErKrFH/9VmiZHdsNvDLoC+0O
-anoQJesIMzDILSYq/d8eK4pk4d3k1cHUbfHbacAO8TK/R02nYLzLnqaQqbP45eoGPdXAgNkqYFgQ
-NPE09JPWd51GKqlg2FDlco3mRnMat3Tauz9He4welYFO3ID8f56PSJMTE4WF53dPJXyeA07TNWz2
-OR3jDqCzb2TDZZ9GtTSD6ML8HdPuNYsZTNNqAehyUEpNaFZoadrojOTBuXPteCQZ9YYbc5rUyNv/
-CbVJOn6eBiDdzzNQwrnlrjViQlWdAfj1/5Ho7qkU699Zlr2tl6DZCRGZMU5zDnwvii2issA/0CZi
-/b9YWhHyntXhECEtMSKSK4Z1qgscZ2fJvqWS+PoGeuNI3gUe2zA2fDsCXXH5b0gtKxNX7WChDBId
-QCh4PHmRj6h9g1oH4NaiGNsbFmTieXWGND2jGRwuNlBaf0hl2r2K7UI+XTWnxAj1S1BaeXWdAHdX
-rYK3rcVRdPWUE6n4RHbWl5Xa/inh1d/q1Cy0sSFZ3aAPL6PJdvc+XGnTfzlz4BDMZVa9ey2vEcKx
-UTBAOC7i7CZTRu/x6ABLIAehD8aAJED2JXMXS/lpYjwTvSNs+5dVj1vbDQof2xEiZchhOB8DeeFR
-Z0dme9Lj1wA/IvkKb0EDfYRthnxByysnEh98DGJIZu63fHFtD1yQsOup6YIZdPp2TX2R5quJ1j/T
-7l5XSO6YHqjS1ROppgvL2Et8mqopyF2sHdoUVG3PclIpf1hocx1KBS4kbg1wrYeoOs9JEPjnGdFZ
-gYHsrlBPinKK1pNRtJc5L73md2op8taUzuNStxDGY7F2moEsJm/wiZEddXO8N2raevoFHCLdejol
-KyTK2FbW9Qfd1bqdz8XOlA2FaAQJL0x5padXRYwj/k/xXnpblfapO+Q6YxiSVrjXW7bWit4466xE
-ldDV3AjHmV1RWjJvOufvAdRMBrzEMB2esXl6Ns3+G7YmooLHj5dMBf3Vp3ufPELIrZiqJl6wQn7E
-RD8F0aOclXYuSBh0Eol6Ic+SXa1ZPpSZdvYzWFrYLFlEPPW7bOdG+dMidmWeVEycpafcevoGBX9G
-YF22DtPdvfy7johg0gUs/1I2NPlqilf6oCDpOT58fJ0cKBiDVF/tnPFY7cZAz1bQFRVpWvH+VlFX
-BkzJgRg7Y0CL2jtzj5uQTAKhxyb6aO58VGMDE/hY3gq0OpV26uyG3ntQSssvXqD76Nr0wYocUt71
-6FUspahprPzFkngcT9TQt5fuYZi2wNYhH9d2BIXTAdG+dvxHT8tLwS0BNHSzHhH3EVpgHxZ82sd+
-/Le70M2Vn2wK1Sk+AqUuLQgXNiooC6illlPSGmRYjaCKbln/ybh2FesJxTbhBM5NiVernIDg1DQ1
-lV66nY+Ri0gstQ/TdAsazR2tNvIljMf/tdl4kel3KxTfo4G8rCJUY/VvrgeTXCkMqECaDtDViF1X
-nJtOZkHkwq7U3gCxPy8/VMRyHv6HRPjtlrG8t1KWs368Fnnxy2kOy2DUUJqax1qMuKopbPy9e4km
-9ViQv2xlgvcDfHxCkIe/E5SV5bLnLGKiMh/Jr7fyv9BtVnKCNxMUiRO28/o3wVwea+/i2l34HKN+
-OUY4Tyv6NQcnB0mY4PoGLEW/HzD+zAzsgF7Homoio8jPjUJ36ABlI8jt0VOAEtyUjjduqRlxKsal
-8WuP1X3QUHNekPysjWmatTa+ZwvgzWtDkaPAf/f0BxxnXuaDVt4sJEsY0hy+aXFxLm6Kbne1WVby
-PWSgrbxQk5zfGm0sYqYyHoyFEywnkGzwiaWN81ZRvoC6pczgAbDoLwmttGsid/ky/3q71nLd2nTi
-VZMzTBjfpZLXS+fMJ0UoIH2U4yl7/HfRKSSslLsXt/LwKltVp053P5U4k59nmwTLdxOmSp6+EY5S
-f2hTYlRV/lhCQjKbA84fVq2QZpx8o7wf6EtRVVjBT1++bLsirLqZVE7fcSvuWGEYjgqihfVHi9pT
-nCKVkUWGPobczETbOXDxSfiWW8Toxm4n1vhvyAJVWIpGioSFU/SJme4tp1ZeumdbT/DE4XH4DA/6
-YS8ETTOmdjDfFRrlEraRPMSC1QkVVg4TzJ2v+FklPHVGBVY/oY3hHBsCpDri1al3gCS4zHAD320D
-RIl92idRlAPnBpBXDq9OjxF9UKyYRvEDMldcZNRFtSizBWwqLff219IEcweKHEs2pOzM1SwoAjVd
-xEln9KhUPXzNXoLBP2ZjsXIXlBu8L6tffB61bVZU490zc9noejd/emwc+GvVNHB8IVPlYACrMYT9
-aVntIncS07ZrNBiM69zA8QVZ+ZszFo5NOhD4nycMhBl+mHPsw1SqqAfE3diNCKCIMZYXr7lGcLHY
-/z6Y/KyilTerl+ESjnum9ZPSDPDVGKUjduZkLqzCvBKSwywtiaKsgzOd10e1m+uPu0hTZu5j+tWq
-jxty1pSjGUoilltVJhLI9wfXw7uV+SqM7pKqgOXq062XLUwiUjjS/6/o6wj5o3XLI9zuXKrpAr5P
-OK/5dCV3Hcr47ROcXV/oW7f6hbzbuTJbnf1OsFejXLdQsbd/maAf8jsfOukypvtkRN0c0Mq5qcjx
-7xUjjLyj1ca06OX6DevBsISqOj/FKYHkxDkBK5uf3IYfgCthKkdie2NLJq0LoegYKNfz1Db7QmWA
-wwwx+0R/7W1sl+rXWRuF6zzDOC1KNap0dilyBWx/zX1MusE2n45olAEPbRCwhWUFbPUK+ovQwuNQ
-rt5LokgDCDEhBq9keNAsDbhrTJ2wfgBspH7bGrv2/7C1P+F+Azjh7Z2Si+sCSFVOeri2vL2P5dLE
-U86oawBPc4VVNd+FMK+9UnIdk936H1IyJt7d2lblC72+ZJ1lbDvUVsd4+4dyTcCHazRLlkwa1eI+
-LIMDJGh6EC2o3+/GaKDn9j8n6p/lEZBls+dtc0TGiRKS2wR/shE/8iactTAPVNgrebpO1BIOUXvR
-nAaYwRLu8KXKvMZRWULO8Q3+4+tnXo5UQOWu1+XNOdTA1wes7FJng2Oiuw24ZEwQ5hiCe1uY1jjA
-FV+7exfoD1ts90A1QWBZWHqqbmAtxKjF9Fnya0ViO1tQk3RMSpQCKyMD1cifLT3xLLPcOk47MUEV
-PskxwgJ9UIV+jSgzh/D6/kUkbX3FXqi6BkBgeAJHEOIO8rwrv81xJ1LzpGguPnP7cCi+BqtXIbdZ
-TawPsx07NeGLMY7ofMzJuLIeRorY02/5IN/V4c/ZQAIGhb6GRQaLohd3PJIkGY5NINiuerdO6uPJ
-dEeIDpVR+zEAwjI53hByfLztYot4XqLJeekZkeM0MLOgIGzExRtdV9qaCxB3T9Q6b8jWe0/NQg06
-1rqc0K50mA5Y+wNwhY/RMIvrIvYDbCRpgWZmd3DO/zL+Y8JCqHAKgr6X6zvApCg4Mwg7IjbHU+uo
-k8lSFXo40ReQaC6FdDFOz/97hTbXCldjHbJLdV0JCUYE5Bs4n0RS+0vSrMUi8ALYGOIzu4r2Fahe
-uwGBjq2Qtd8am/hog1scUeqmLer36bER1a8GLcvX9wmTiQXXNC0qyZRzoqmMijo6rV5g68EMD36F
-BBMkybuhrCF1Ey0FbIjzWiKaN4rZsRh8ku9yWTnqvFHgA5i3o8BarZU4A3FmnSQqBVKrp+uO2TJ9
-RUJRxDUeVXgIkuS4WoMGXDwMe0Rj7fVdbaSraZeBwnAVR35HZAOJUJMGtGGgAZGeKvrZphUXPzOi
-pJX3j7l0U5BwaxtHaEy1ep+5Te4gANuBHK+7vcbyd5Wn60smVOk+g13dbyVBB9zjQyeN7Zfztem7
-c3HdsNzgWoKEDLyoLB8VLr/H
+<?php
+
+namespace PhpOffice\PhpSpreadsheet\Chart;
+
+/**
+ * Created by PhpStorm.
+ * User: Wiktor Trzonkowski
+ * Date: 6/17/14
+ * Time: 12:11 PM.
+ */
+class Axis extends Properties
+{
+    /**
+     * Axis Number.
+     *
+     * @var array of mixed
+     */
+    private $axisNumber = [
+        'format' => self::FORMAT_CODE_GENERAL,
+        'source_linked' => 1,
+    ];
+
+    /**
+     * Axis Options.
+     *
+     * @var array of mixed
+     */
+    private $axisOptions = [
+        'minimum' => null,
+        'maximum' => null,
+        'major_unit' => null,
+        'minor_unit' => null,
+        'orientation' => self::ORIENTATION_NORMAL,
+        'minor_tick_mark' => self::TICK_MARK_NONE,
+        'major_tick_mark' => self::TICK_MARK_NONE,
+        'axis_labels' => self::AXIS_LABELS_NEXT_TO,
+        'horizontal_crosses' => self::HORIZONTAL_CROSSES_AUTOZERO,
+        'horizontal_crosses_value' => null,
+    ];
+
+    /**
+     * Fill Properties.
+     *
+     * @var array of mixed
+     */
+    private $fillProperties = [
+        'type' => self::EXCEL_COLOR_TYPE_ARGB,
+        'value' => null,
+        'alpha' => 0,
+    ];
+
+    /**
+     * Line Properties.
+     *
+     * @var array of mixed
+     */
+    private $lineProperties = [
+        'type' => self::EXCEL_COLOR_TYPE_ARGB,
+        'value' => null,
+        'alpha' => 0,
+    ];
+
+    /**
+     * Line Style Properties.
+     *
+     * @var array of mixed
+     */
+    private $lineStyleProperties = [
+        'width' => '9525',
+        'compound' => self::LINE_STYLE_COMPOUND_SIMPLE,
+        'dash' => self::LINE_STYLE_DASH_SOLID,
+        'cap' => self::LINE_STYLE_CAP_FLAT,
+        'join' => self::LINE_STYLE_JOIN_BEVEL,
+        'arrow' => [
+            'head' => [
+                'type' => self::LINE_STYLE_ARROW_TYPE_NOARROW,
+                'size' => self::LINE_STYLE_ARROW_SIZE_5,
+            ],
+            'end' => [
+                'type' => self::LINE_STYLE_ARROW_TYPE_NOARROW,
+                'size' => self::LINE_STYLE_ARROW_SIZE_8,
+            ],
+        ],
+    ];
+
+    /**
+     * Shadow Properties.
+     *
+     * @var array of mixed
+     */
+    private $shadowProperties = [
+        'presets' => self::SHADOW_PRESETS_NOSHADOW,
+        'effect' => null,
+        'color' => [
+            'type' => self::EXCEL_COLOR_TYPE_STANDARD,
+            'value' => 'black',
+            'alpha' => 40,
+        ],
+        'size' => [
+            'sx' => null,
+            'sy' => null,
+            'kx' => null,
+        ],
+        'blur' => null,
+        'direction' => null,
+        'distance' => null,
+        'algn' => null,
+        'rotWithShape' => null,
+    ];
+
+    /**
+     * Glow Properties.
+     *
+     * @var array of mixed
+     */
+    private $glowProperties = [
+        'size' => null,
+        'color' => [
+            'type' => self::EXCEL_COLOR_TYPE_STANDARD,
+            'value' => 'black',
+            'alpha' => 40,
+        ],
+    ];
+
+    /**
+     * Soft Edge Properties.
+     *
+     * @var array of mixed
+     */
+    private $softEdges = [
+        'size' => null,
+    ];
+
+    /**
+     * Get Series Data Type.
+     *
+     * @param mixed $format_code
+     *
+     * @return string
+     */
+    public function setAxisNumberProperties($format_code)
+    {
+        $this->axisNumber['format'] = (string) $format_code;
+        $this->axisNumber['source_linked'] = 0;
+    }
+
+    /**
+     * Get Axis Number Format Data Type.
+     *
+     * @return string
+     */
+    public function getAxisNumberFormat()
+    {
+        return $this->axisNumber['format'];
+    }
+
+    /**
+     * Get Axis Number Source Linked.
+     *
+     * @return string
+     */
+    public function getAxisNumberSourceLinked()
+    {
+        return (string) $this->axisNumber['source_linked'];
+    }
+
+    /**
+     * Set Axis Options Properties.
+     *
+     * @param string $axis_labels
+     * @param string $horizontal_crosses_value
+     * @param string $horizontal_crosses
+     * @param string $axis_orientation
+     * @param string $major_tmt
+     * @param string $minor_tmt
+     * @param string $minimum
+     * @param string $maximum
+     * @param string $major_unit
+     * @param string $minor_unit
+     */
+    public function setAxisOptionsProperties($axis_labels, $horizontal_crosses_value = null, $horizontal_crosses = null, $axis_orientation = null, $major_tmt = null, $minor_tmt = null, $minimum = null, $maximum = null, $major_unit = null, $minor_unit = null)
+    {
+        $this->axisOptions['axis_labels'] = (string) $axis_labels;
+        ($horizontal_crosses_value !== null) ? $this->axisOptions['horizontal_crosses_value'] = (string) $horizontal_crosses_value : null;
+        ($horizontal_crosses !== null) ? $this->axisOptions['horizontal_crosses'] = (string) $horizontal_crosses : null;
+        ($axis_orientation !== null) ? $this->axisOptions['orientation'] = (string) $axis_orientation : null;
+        ($major_tmt !== null) ? $this->axisOptions['major_tick_mark'] = (string) $major_tmt : null;
+        ($minor_tmt !== null) ? $this->axisOptions['minor_tick_mark'] = (string) $minor_tmt : null;
+        ($minor_tmt !== null) ? $this->axisOptions['minor_tick_mark'] = (string) $minor_tmt : null;
+        ($minimum !== null) ? $this->axisOptions['minimum'] = (string) $minimum : null;
+        ($maximum !== null) ? $this->axisOptions['maximum'] = (string) $maximum : null;
+        ($major_unit !== null) ? $this->axisOptions['major_unit'] = (string) $major_unit : null;
+        ($minor_unit !== null) ? $this->axisOptions['minor_unit'] = (string) $minor_unit : null;
+    }
+
+    /**
+     * Get Axis Options Property.
+     *
+     * @param string $property
+     *
+     * @return string
+     */
+    public function getAxisOptionsProperty($property)
+    {
+        return $this->axisOptions[$property];
+    }
+
+    /**
+     * Set Axis Orientation Property.
+     *
+     * @param string $orientation
+     */
+    public function setAxisOrientation($orientation)
+    {
+        $this->axisOptions['orientation'] = (string) $orientation;
+    }
+
+    /**
+     * Set Fill Property.
+     *
+     * @param string $color
+     * @param int $alpha
+     * @param string $type
+     */
+    public function setFillParameters($color, $alpha = 0, $type = self::EXCEL_COLOR_TYPE_ARGB)
+    {
+        $this->fillProperties = $this->setColorProperties($color, $alpha, $type);
+    }
+
+    /**
+     * Set Line Property.
+     *
+     * @param string $color
+     * @param int $alpha
+     * @param string $type
+     */
+    public function setLineParameters($color, $alpha = 0, $type = self::EXCEL_COLOR_TYPE_ARGB)
+    {
+        $this->lineProperties = $this->setColorProperties($color, $alpha, $type);
+    }
+
+    /**
+     * Get Fill Property.
+     *
+     * @param string $property
+     *
+     * @return string
+     */
+    public function getFillProperty($property)
+    {
+        return $this->fillProperties[$property];
+    }
+
+    /**
+     * Get Line Property.
+     *
+     * @param string $property
+     *
+     * @return string
+     */
+    public function getLineProperty($property)
+    {
+        return $this->lineProperties[$property];
+    }
+
+    /**
+     * Set Line Style Properties.
+     *
+     * @param float $line_width
+     * @param string $compound_type
+     * @param string $dash_type
+     * @param string $cap_type
+     * @param string $join_type
+     * @param string $head_arrow_type
+     * @param string $head_arrow_size
+     * @param string $end_arrow_type
+     * @param string $end_arrow_size
+     */
+    public function setLineStyleProperties($line_width = null, $compound_type = null, $dash_type = null, $cap_type = null, $join_type = null, $head_arrow_type = null, $head_arrow_size = null, $end_arrow_type = null, $end_arrow_size = null)
+    {
+        ($line_width !== null) ? $this->lineStyleProperties['width'] = $this->getExcelPointsWidth((float) $line_width) : null;
+        ($compound_type !== null) ? $this->lineStyleProperties['compound'] = (string) $compound_type : null;
+        ($dash_type !== null) ? $this->lineStyleProperties['dash'] = (string) $dash_type : null;
+        ($cap_type !== null) ? $this->lineStyleProperties['cap'] = (string) $cap_type : null;
+        ($join_type !== null) ? $this->lineStyleProperties['join'] = (string) $join_type : null;
+        ($head_arrow_type !== null) ? $this->lineStyleProperties['arrow']['head']['type'] = (string) $head_arrow_type : null;
+        ($head_arrow_size !== null) ? $this->lineStyleProperties['arrow']['head']['size'] = (string) $head_arrow_size : null;
+        ($end_arrow_type !== null) ? $this->lineStyleProperties['arrow']['end']['type'] = (string) $end_arrow_type : null;
+        ($end_arrow_size !== null) ? $this->lineStyleProperties['arrow']['end']['size'] = (string) $end_arrow_size : null;
+    }
+
+    /**
+     * Get Line Style Property.
+     *
+     * @param array|string $elements
+     *
+     * @return string
+     */
+    public function getLineStyleProperty($elements)
+    {
+        return $this->getArrayElementsValue($this->lineStyleProperties, $elements);
+    }
+
+    /**
+     * Get Line Style Arrow Excel Width.
+     *
+     * @param string $arrow
+     *
+     * @return string
+     */
+    public function getLineStyleArrowWidth($arrow)
+    {
+        return $this->getLineStyleArrowSize($this->lineStyleProperties['arrow'][$arrow]['size'], 'w');
+    }
+
+    /**
+     * Get Line Style Arrow Excel Length.
+     *
+     * @param string $arrow
+     *
+     * @return string
+     */
+    public function getLineStyleArrowLength($arrow)
+    {
+        return $this->getLineStyleArrowSize($this->lineStyleProperties['arrow'][$arrow]['size'], 'len');
+    }
+
+    /**
+     * Set Shadow Properties.
+     *
+     * @param int $sh_presets
+     * @param string $sh_color_value
+     * @param string $sh_color_type
+     * @param string $sh_color_alpha
+     * @param float $sh_blur
+     * @param int $sh_angle
+     * @param float $sh_distance
+     */
+    public function setShadowProperties($sh_presets, $sh_color_value = null, $sh_color_type = null, $sh_color_alpha = null, $sh_blur = null, $sh_angle = null, $sh_distance = null)
+    {
+        $this->setShadowPresetsProperties((int) $sh_presets)
+            ->setShadowColor(
+                $sh_color_value === null ? $this->shadowProperties['color']['value'] : $sh_color_value,
+                $sh_color_alpha === null ? (int) $this->shadowProperties['color']['alpha'] : $sh_color_alpha,
+                $sh_color_type === null ? $this->shadowProperties['color']['type'] : $sh_color_type
+            )
+            ->setShadowBlur($sh_blur)
+            ->setShadowAngle($sh_angle)
+            ->setShadowDistance($sh_distance);
+    }
+
+    /**
+     * Set Shadow Color.
+     *
+     * @param int $shadow_presets
+     *
+     * @return Axis
+     */
+    private function setShadowPresetsProperties($shadow_presets)
+    {
+        $this->shadowProperties['presets'] = $shadow_presets;
+        $this->setShadowProperiesMapValues($this->getShadowPresetsMap($shadow_presets));
+
+        return $this;
+    }
+
+    /**
+     * Set Shadow Properties from Mapped Values.
+     *
+     * @param array $properties_map
+     * @param mixed &$reference
+     *
+     * @return Axis
+     */
+    private function setShadowProperiesMapValues(array $properties_map, &$reference = null)
+    {
+        $base_reference = $reference;
+        foreach ($properties_map as $property_key => $property_val) {
+            if (is_array($property_val)) {
+                if ($reference === null) {
+                    $reference = &$this->shadowProperties[$property_key];
+                } else {
+                    $reference = &$reference[$property_key];
+                }
+                $this->setShadowProperiesMapValues($property_val, $reference);
+            } else {
+                if ($base_reference === null) {
+                    $this->shadowProperties[$property_key] = $property_val;
+                } else {
+                    $reference[$property_key] = $property_val;
+                }
+            }
+        }
+
+        return $this;
+    }
+
+    /**
+     * Set Shadow Color.
+     *
+     * @param string $color
+     * @param int $alpha
+     * @param string $type
+     *
+     * @return Axis
+     */
+    private function setShadowColor($color, $alpha, $type)
+    {
+        $this->shadowProperties['color'] = $this->setColorProperties($color, $alpha, $type);
+
+        return $this;
+    }
+
+    /**
+     * Set Shadow Blur.
+     *
+     * @param float $blur
+     *
+     * @return Axis
+     */
+    private function setShadowBlur($blur)
+    {
+        if ($blur !== null) {
+            $this->shadowProperties['blur'] = (string) $this->getExcelPointsWidth($blur);
+        }
+
+        return $this;
+    }
+
+    /**
+     * Set Shadow Angle.
+     *
+     * @param int $angle
+     *
+     * @return Axis
+     */
+    private function setShadowAngle($angle)
+    {
+        if ($angle !== null) {
+            $this->shadowProperties['direction'] = (string) $this->getExcelPointsAngle($angle);
+        }
+
+        return $this;
+    }
+
+    /**
+     * Set Shadow Distance.
+     *
+     * @param float $distance
+     *
+     * @return Axis
+     */
+    private function setShadowDistance($distance)
+    {
+        if ($distance !== null) {
+            $this->shadowProperties['distance'] = (string) $this->getExcelPointsWidth($distance);
+        }
+
+        return $this;
+    }
+
+    /**
+     * Get Shadow Property.
+     *
+     * @param string|string[] $elements
+     *
+     * @return null|array|int|string
+     */
+    public function getShadowProperty($elements)
+    {
+        return $this->getArrayElementsValue($this->shadowProperties, $elements);
+    }
+
+    /**
+     * Set Glow Properties.
+     *
+     * @param float $size
+     * @param string $color_value
+     * @param int $color_alpha
+     * @param string $color_type
+     */
+    public function setGlowProperties($size, $color_value = null, $color_alpha = null, $color_type = null)
+    {
+        $this->setGlowSize($size)
+            ->setGlowColor(
+                $color_value === null ? $this->glowProperties['color']['value'] : $color_value,
+                $color_alpha === null ? (int) $this->glowProperties['color']['alpha'] : $color_alpha,
+                $color_type === null ? $this->glowProperties['color']['type'] : $color_type
+            );
+    }
+
+    /**
+     * Get Glow Property.
+     *
+     * @param array|string $property
+     *
+     * @return string
+     */
+    public function getGlowProperty($property)
+    {
+        return $this->getArrayElementsValue($this->glowProperties, $property);
+    }
+
+    /**
+     * Set Glow Color.
+     *
+     * @param float $size
+     *
+     * @return Axis
+     */
+    private function setGlowSize($size)
+    {
+        if ($size !== null) {
+            $this->glowProperties['size'] = $this->getExcelPointsWidth($size);
+        }
+
+        return $this;
+    }
+
+    /**
+     * Set Glow Color.
+     *
+     * @param string $color
+     * @param int $alpha
+     * @param string $type
+     *
+     * @return Axis
+     */
+    private function setGlowColor($color, $alpha, $type)
+    {
+        $this->glowProperties['color'] = $this->setColorProperties($color, $alpha, $type);
+
+        return $this;
+    }
+
+    /**
+     * Set Soft Edges Size.
+     *
+     * @param float $size
+     */
+    public function setSoftEdges($size)
+    {
+        if ($size !== null) {
+            $softEdges['size'] = (string) $this->getExcelPointsWidth($size);
+        }
+    }
+
+    /**
+     * Get Soft Edges Size.
+     *
+     * @return string
+     */
+    public function getSoftEdgesSize()
+    {
+        return $this->softEdges['size'];
+    }
+}

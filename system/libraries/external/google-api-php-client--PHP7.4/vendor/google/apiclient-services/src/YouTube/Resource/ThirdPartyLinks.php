@@ -1,61 +1,103 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\YouTube\Resource;
+
+use Google\Service\YouTube\ThirdPartyLink;
+
+/**
+ * The "thirdPartyLinks" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $youtubeService = new Google\Service\YouTube(...);
+ *   $thirdPartyLinks = $youtubeService->thirdPartyLinks;
+ *  </code>
+ */
+class ThirdPartyLinks extends \Google\Service\Resource
+{
+  /**
+   * Deletes a resource. (thirdPartyLinks.delete)
+   *
+   * @param string $linkingToken Delete the partner links with the given linking
+   * token.
+   * @param string $type Type of the link to be deleted.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string part Do not use. Required for compatibility.
+   */
+  public function delete($linkingToken, $type, $optParams = [])
+  {
+    $params = ['linkingToken' => $linkingToken, 'type' => $type];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Inserts a new resource into this collection. (thirdPartyLinks.insert)
+   *
+   * @param string|array $part The *part* parameter specifies the thirdPartyLink
+   * resource parts that the API request and response will include. Supported
+   * values are linkingToken, status, and snippet.
+   * @param ThirdPartyLink $postBody
+   * @param array $optParams Optional parameters.
+   * @return ThirdPartyLink
+   */
+  public function insert($part, ThirdPartyLink $postBody, $optParams = [])
+  {
+    $params = ['part' => $part, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], ThirdPartyLink::class);
+  }
+  /**
+   * Retrieves a list of resources, possibly filtered.
+   * (thirdPartyLinks.listThirdPartyLinks)
+   *
+   * @param string|array $part The *part* parameter specifies the thirdPartyLink
+   * resource parts that the API response will include. Supported values are
+   * linkingToken, status, and snippet.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string linkingToken Get a third party link with the given linking
+   * token.
+   * @opt_param string type Get a third party link of the given type.
+   * @return ThirdPartyLink
+   */
+  public function listThirdPartyLinks($part, $optParams = [])
+  {
+    $params = ['part' => $part];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ThirdPartyLink::class);
+  }
+  /**
+   * Updates an existing resource. (thirdPartyLinks.update)
+   *
+   * @param string|array $part The *part* parameter specifies the thirdPartyLink
+   * resource parts that the API request and response will include. Supported
+   * values are linkingToken, status, and snippet.
+   * @param ThirdPartyLink $postBody
+   * @param array $optParams Optional parameters.
+   * @return ThirdPartyLink
+   */
+  public function update($part, ThirdPartyLink $postBody, $optParams = [])
+  {
+    $params = ['part' => $part, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], ThirdPartyLink::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ThirdPartyLinks::class, 'Google_Service_YouTube_Resource_ThirdPartyLinks');

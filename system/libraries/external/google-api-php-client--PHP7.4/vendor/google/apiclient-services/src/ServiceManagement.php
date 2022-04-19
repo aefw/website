@@ -1,75 +1,400 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPvnEU7Bd6456ZeRjKNGHQiWlTGe8++zo2h38/AAxTvzqsYOPXo5xFI1FpxVDdtsd+5uCaLSJ
-zJdZBIRz1x0csicxDtDZJl6pIJfCnxBoIzdlRqpqiFmIA5hCZPTLe4rLXaaNiyfYEaSm8FC947OX
-5X2n23CBy1hDLK91oapvNGTE0IhfGHpztGzTdLlohPPp1Gt1aFUPnmw/Yke2MQjve6pEbI42KhAz
-Vro8muqJt+YJpq+Ge6XDFtbecC+3dCdIl7Yd1uT9cBTpsO05SlucxampmE9mKourL8IeB86cFae5
-vLKfR2leW+07B1TqDzY8LC+DIVyn39E4uV4iogfnAIvn3QGXmYB4BptddSmzjCkPiGYvdJh6wfiO
-KAMI1JrwQIdv85XDVkWmFQYTumKaA8hVNanJdJ2g1YftBsNu/9EvPeIAXTYgVO3W10njS7nlaPRG
-GMyxp6gytRKRT+aOwC4uUfCkJuDIMjF0/RKsMUXJhsdtOpLTwfTTYk0NoTjEPuo2K3jdHUp2oXsZ
-BovWsn7emlO4PyjfL2eQyRH2iLIXyDjtVbBP8jqakNf4TJNH1VODv2oV2yahtLEojf+XpKaeRiWi
-pU/tmtHvn7+AX32i+HiiiEcq5/Llkmq8aqqJJXD7+TFruhLhb/SCgh8aGuqczGeH/r/uGMh2lP7c
-dgcu46a/yNyoj57ITUJ8uTODLjgahlEc3Zh5emucNA20DJOLoPaswxEs/+Bk1G+kh8pn0qStsqyM
-Q+hOvjh2gPg5Hcfqz+8lOjT+ANueQ/OGE1o+Cx7owBJV4iXedS495rtw+6x9W5b4CpvK6NwqxUmt
-Z5OMBlqUfEPTRMLWdp5V7NczxpKcXu//JOPkODOSnRjYXStWkH881J9s2doyQW7Gybl+7EEPRK6V
-IWZl06l6Yf/BPPoiqQORz7aY3hJcxxPQghEYUUUp+CfiECoqx/0V2BV4MecxeudLNJYstwGcDCdh
-hRdHQ18OqKh+2MHYDb3LCllMTaSdWA5WBDqIG6kxcf+Y6SBV11rGvr3sFV+8YEele2rOGpMvlHhi
-mM4RXwePrsQvt8RuSH7vgRTL1TNk94pGyDWK9++odaBmsuipL5ejK9CvmRGEYzVkwOj0ZNm4vZtN
-qVN6AfPN2Y1oMX6qEFL/x2+s83SReH9EyTZldh+1+UR3x+voxlVm7cNuTD+kOvIAIWe5cS/L7HDf
-SCatiNzDC9xG78WAplH85XUzZ9ntHwc1IXzFn0lM6KDT5JSbum2shxjMxlWcRGjk5zf6WoPKkUGd
-ej1Fc+7oWdBv5mXOxATY633rzCcONZHxUwxBqfP6KlY/Rr/VbND8TOjhnf7Z90nWGvjkDVzLBn71
-9xNp1rh6+EBCWX9x2lAi/xDprxYeCc/W7rY1mhMzVzgRDdGz9zQ2r5UIh4ov+X5fEAVBR74i5sLV
-menOGMBrQewgcFsBa/e5jK0lQmkRVpKO/qhA5fe/jMJH/f/GGJMn//ZTu4jlA6yFEy2wCWjGNplq
-9Ni82qHi+vrJK6uKiPtI65O1xyNkVRNG4Ub4t7bZD7lKVvC7t63GjPZVdFBO644Nq6DiN4pcr4FW
-RJ3F8AoKyBaCjAVI7TKWDjZ5tQK+uGl0wiBcCQ0njxLrSoFTlEGLKoc/dTEQEKDJLAswTOH2pg+5
-9uEY11AdJN2VNNIxEIbzzei4Ri1awEu5BVsiYkGDthLtGy09sMlokZYSppDejtSs0Exda+OBRFcZ
-Xpz5wZLds+sNAj0CmuMiN1JXmXPvfAI88qZ8XH3ftkGM2TZdG9nH2nvKpXinuuKph+bq+RHHEdkQ
-q69uHy4fxkzIoVkvKEwBAsAT320lylrhNT9KsETmvVeNIoUcKhjSt8njXBhOy89dpmC49AYMSV1W
-os7l95XatkJdihl0US903pKLxUEyOUBtMSUMbju95qBmSXRCcNYZEQpZLJcwh7Dd5TKMxu4RMcNY
-nj79khatj+EjBJR3TtEESCiMV8FWaI+lxiUZVhAUkjloZWAuBGIiZ+Dz2ag20EbZpuCs+Om3/BBC
-atEzw3t/ZE1+tY/ulpc9KNrDLTn1znU+SZvZTtBaHcpAFeCXPpYN6D1XEDcKKRE85BwJsCvGpV63
-qWuv89WT9tR20nYKhS4257YF9xEqUQaBlQSgOVI7i362jL7oq/2AvxCPXoqwWP/FAdqbA8eueEcL
-4hG20ac3rQ3OtI26CUs17dUbHEmTm206+8FYbWVRDo3GDRQ9Ld1MO1pA/DNyuE37Z1eUEBscoPl4
-6Qhw4PXwzepRiXcXaytie/xa5TcuEwgh9w3pXWzjHsA8PT5Y5GKCWgkWBv8XAz2XNUW4Sr+bRE1s
-NXiQ0kD5nQm+UEIHfRwPN3JwrjXOIKVnckFdH6Ug4+J2OV/n8fsTJ6iV6AqkHd0F/V1R3LX3tJJc
-Ne0t731+MdNfufaXyG83iStlRDE46ESrM3LFp7WHbWPTK3RoIyZcu69erIZXjIKUmxrPYBTV/QsE
-paFTi4PKmr3pGzvfhpbugwHJG9zhXLK1Ac/ynz1jyYvUqxPt9e0ShKEjnheD1O3wVVTCECFvxvYc
-Ji7ldxIxhWAXWHhiFlaeVpUY+d5V1TVuw5ypivWoiYbIPPeAkr3WMXCmQuRtVa/PsqudmClE4IZh
-Ycko7xAUddiVQYQ2PRJb6JT3R7cq7dlOWoXmTbA1DiuI60VQcPEnM86c56q5UzkYPwq+NdsFmn1x
-TDTLlBvFsGbHgaFJa34XpGQE2U1e9fTdEGaRKGhjC2NpoaDgdLvXFMRJyucloeTloMdMaj72jdbP
-fTZ85rZcxS8I0pH0KVq8wScSImAiSpax5x5dALbvTyUhkASP3RmSPwgwzcL1+d4kB0AUQ6PRFxk2
-i3IDMcM3nLwvRZ9hfQdEJH77Rv2sZtkPYhUl4ftNwt5HQr5OSINPMb7UX+R2mjSbJmcj+OtHPiV0
-1f9g7jS4TrKGEgfeVVANHdnfJaCx7qkSQ/5e48kw+UEp95ht10OIDRgC3wFMbw2xNDPFE46FkXab
-ZYxlPcb2g20SX1Eu4tfhxCeb8LL3XSjuCWcycyCumc+MhBL/A7x/G0ieHqjPx0sibc3tmpP1a66B
-rWrMgNM3apCkZOL/C4z2vLcvpCHQxXx2fUD/MYnu7158HdvRmMbvv+1HRPfyfR+ast8GTfNYhHHd
-FdXE61RuH0gNsf3yVVSPk96zPUXFAsdP4hM9nQlHxEJOhDmuCtcebR6x8RN9G2Ie4tqnN3iRTHy7
-ksk8jY4h3RnOzJPjJ1qQbJelTPXdjw8spcnoLw3hSwO8ZxPr2OC8CXveOpaGaAtLLZByJ0Un5rhi
-ijFh1xrH0gAx9ZLV1+hNAeLw5vkvU3u4RUpEdjpS3dRatUKKPSxY9aLGCuiYgqqOxHker9lGY029
-9RK5oSiS9t7SIVlxWdAjn13uvurt4q7hOVeRzADIGmDqQT26hyutp+fBNWXXiM618fst6dnpJL4p
-Qaqsswd1jBGtZ9Vslew6LqfzskL+lhMccvH08mczAzhpm4G897Kb8GLF1n1jA7diDJq8P32veDiR
-YfD1bAgU9RElwyRVj+0JT8QPoqZzwm9hOgIc2w0ETnaQvj0elnesdcFmmFjgRpaHfcGXgCUfTBCM
-XPNxOYaCluLPPFjfN0QSRlb74TwtW6JGj0vHiji3ou7+nBLrVfaQ4AMUmIps3fbkGFIZ27C8G/at
-0s52w4gLmcJqPfZol98zdLDETgT4Q5IUvWV7D8/v+VBHpubbMWCk7S09/wTmvhPj5YMJnaOfwAbs
-9yxrg3EFSw7HwS5WASpoYnF3pWtbnG1qEdWFho1N3qYzL0olKRkJ01ZpGjzQ3gRn5KILXJLUIQtL
-CX0MX5KctYqviotY5CnVjD2tqvLneWKIIXzxIgFozWmw7N+Qffe8EspndmnGCNkhLrxsa97sNf5m
-DHDwx04lQPKxpmdlgGM+ZRly7sI9knRGgB3aFkPEn13G+j5PiGzahBtyhPI5xKyImdOUjnecrmUc
-EXVCp3G/CmDrUFim8n1mPhX3S2J3gN+vMiOBD8as4Rzmr7xQHlBggE519HBtEpBDkVOELX7PlEHZ
-LFAqLlCFG36TSB3+i1J/hgWkTr7OlqRShTpIuu4bmcquq1CqAzOmEnRlsP0ix0FvdYw9PKTa8CiY
-hlUQfQ7sDrZ/0o9gy+/0t8fsfIYd3ZJ+Tj4r2Yz/i/kzM7BRbUZeat992dZaZ2kKvONVQdAu50sX
-fF7pZGg39Y8Vg9V38KTJ07993OV5HiI1zj9U5fgv1DhdMzdPz6Fz0QQDkCgHPHIXZj+tbX30swWO
-U4iTWEi5lQ0WxwKqYxxQlcv5sEr7FU2Zs0ks3yoWvqHTTlsotDol21gcSRybchlspt/HPDmZXH3Y
-Ic1+JjjFc0rlUTd5RKTSZXwBCwQ01JJXmoluFoBepNqSrPLabXz8orIQBZCg8u67wjoPIk66lB/D
-pZBk+cOmtbWAQ9wc9EEiCAPUlBK0kzaYf460d7btOddp/+mFM5cEBrr4I3jYQCp8kZtS89OJi2EC
-o00Cyzufy0oQ8I/2ZA+fwLFpex+FGB+mIJEHmayZ8FVBkqa3/8G0EikSUJ2SBFPYkzyBZ++Tp2Y6
-EvaVArpYAEavLdvabcXZMfoXgjg4Q2hDSIQPhpFyjQMd1kHX+Z2B9n8Ajr5oHbXkAF4G1/TEEEnJ
-yREx8odWBGkUBGZ8dMzOJFk0pIWXKX9iyp3M3HTJNzw2jxrQSGS/NhnyQ6HYmLudei0/oWU+Foii
-CHf6GWe9Cu+N95uvR8k1M2ZO8qv7OJUR9Gy4Oj+9yOI9Ga1xW0jZcdX//b+qc50Yhvsgp7xmhmb+
-xTSeKog13FJ9459XmiZRMQagYfM6wNe9CGNYx7Gp3J5nf9hgGutEJQ+9C2j7J+Wspt/quDhARueo
-PmJQFiE7/sT7eTtZC50niULltwIHJjbhRCK6gj7Pcm1dEiXqQWY60gfrxk5zWmK7ZbPaSLCAi5OU
-r14e9zd4lTCA3aSmCTNRIo22LM+qksc70pXLI5xOvHKAqaezCxMBooG5TAyzbTjzY02/wS3Qsv1R
-HBJtlx9VLyXAeod6iLQcqMGC2ApqN30CTAiG9Xwc92uHIxLvP6uNhNDJoz9GkttcggR8Mfzp708E
-64+jYTn7l4qYzzk/YRs2jmaRjyS26CBsAB/gwhMp2nNB7Fu/iDoZUhfiUD5Vf+ugZpS=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for ServiceManagement (v1).
+ *
+ * <p>
+ * Google Service Management allows service producers to publish their services
+ * on Google Cloud Platform so that they can be discovered and used by service
+ * consumers.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/service-management/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class ServiceManagement extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+  /** View your data across Google Cloud Platform services. */
+  const CLOUD_PLATFORM_READ_ONLY =
+      "https://www.googleapis.com/auth/cloud-platform.read-only";
+  /** Manage your Google API service configuration. */
+  const SERVICE_MANAGEMENT =
+      "https://www.googleapis.com/auth/service.management";
+  /** View your Google API service configuration. */
+  const SERVICE_MANAGEMENT_READONLY =
+      "https://www.googleapis.com/auth/service.management.readonly";
+
+  public $operations;
+  public $services;
+  public $services_configs;
+  public $services_consumers;
+  public $services_rollouts;
+
+  /**
+   * Constructs the internal representation of the ServiceManagement service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://servicemanagement.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'servicemanagement';
+
+    $this->operations = new ServiceManagement\Resource\Operations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/operations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'name' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->services = new ServiceManagement\Resource\Services(
+        $this,
+        $this->serviceName,
+        'services',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/services',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'delete' => [
+              'path' => 'v1/services/{serviceName}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'serviceName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'generateConfigReport' => [
+              'path' => 'v1/services:generateConfigReport',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'get' => [
+              'path' => 'v1/services/{serviceName}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'serviceName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getConfig' => [
+              'path' => 'v1/services/{serviceName}/config',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'serviceName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'configId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1/{+resource}:getIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/services',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'consumerId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'producerProjectId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'undelete' => [
+              'path' => 'v1/services/{serviceName}:undelete',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'serviceName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->services_configs = new ServiceManagement\Resource\ServicesConfigs(
+        $this,
+        $this->serviceName,
+        'configs',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/services/{serviceName}/configs',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'serviceName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/services/{serviceName}/configs/{configId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'serviceName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'configId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/services/{serviceName}/configs',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'serviceName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'submit' => [
+              'path' => 'v1/services/{serviceName}/configs:submit',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'serviceName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->services_consumers = new ServiceManagement\Resource\ServicesConsumers(
+        $this,
+        $this->serviceName,
+        'consumers',
+        [
+          'methods' => [
+            'getIamPolicy' => [
+              'path' => 'v1/{+resource}:getIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->services_rollouts = new ServiceManagement\Resource\ServicesRollouts(
+        $this,
+        $this->serviceName,
+        'rollouts',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/services/{serviceName}/rollouts',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'serviceName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/services/{serviceName}/rollouts/{rolloutId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'serviceName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'rolloutId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/services/{serviceName}/rollouts',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'serviceName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ServiceManagement::class, 'Google_Service_ServiceManagement');

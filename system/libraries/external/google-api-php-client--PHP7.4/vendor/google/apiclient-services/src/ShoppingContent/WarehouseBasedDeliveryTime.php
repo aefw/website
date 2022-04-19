@@ -1,69 +1,89 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-AzcBjwrGznS=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ShoppingContent;
+
+class WarehouseBasedDeliveryTime extends \Google\Model
+{
+  public $carrier;
+  public $carrierService;
+  public $originAdministrativeArea;
+  public $originCity;
+  public $originCountry;
+  public $originPostalCode;
+  public $originStreetAddress;
+
+  public function setCarrier($carrier)
+  {
+    $this->carrier = $carrier;
+  }
+  public function getCarrier()
+  {
+    return $this->carrier;
+  }
+  public function setCarrierService($carrierService)
+  {
+    $this->carrierService = $carrierService;
+  }
+  public function getCarrierService()
+  {
+    return $this->carrierService;
+  }
+  public function setOriginAdministrativeArea($originAdministrativeArea)
+  {
+    $this->originAdministrativeArea = $originAdministrativeArea;
+  }
+  public function getOriginAdministrativeArea()
+  {
+    return $this->originAdministrativeArea;
+  }
+  public function setOriginCity($originCity)
+  {
+    $this->originCity = $originCity;
+  }
+  public function getOriginCity()
+  {
+    return $this->originCity;
+  }
+  public function setOriginCountry($originCountry)
+  {
+    $this->originCountry = $originCountry;
+  }
+  public function getOriginCountry()
+  {
+    return $this->originCountry;
+  }
+  public function setOriginPostalCode($originPostalCode)
+  {
+    $this->originPostalCode = $originPostalCode;
+  }
+  public function getOriginPostalCode()
+  {
+    return $this->originPostalCode;
+  }
+  public function setOriginStreetAddress($originStreetAddress)
+  {
+    $this->originStreetAddress = $originStreetAddress;
+  }
+  public function getOriginStreetAddress()
+  {
+    return $this->originStreetAddress;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(WarehouseBasedDeliveryTime::class, 'Google_Service_ShoppingContent_WarehouseBasedDeliveryTime');

@@ -1,69 +1,160 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-h0s04GuTNT/RLrvleZOrPCQ/guvdpdG=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Logging\Resource;
+
+use Google\Service\Logging\ListBucketsResponse;
+use Google\Service\Logging\LogBucket;
+use Google\Service\Logging\LoggingEmpty;
+use Google\Service\Logging\UndeleteBucketRequest;
+
+/**
+ * The "buckets" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $loggingService = new Google\Service\Logging(...);
+ *   $buckets = $loggingService->buckets;
+ *  </code>
+ */
+class BillingAccountsLocationsBuckets extends \Google\Service\Resource
+{
+  /**
+   * Creates a bucket that can be used to store log entries. Once a bucket has
+   * been created, the region cannot be changed. (buckets.create)
+   *
+   * @param string $parent Required. The resource in which to create the bucket:
+   * "projects/[PROJECT_ID]/locations/[LOCATION_ID]" Example: "projects/my-
+   * logging-project/locations/global"
+   * @param LogBucket $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string bucketId Required. A client-assigned identifier such as
+   * "my-bucket". Identifiers are limited to 100 characters and can include only
+   * letters, digits, underscores, hyphens, and periods.
+   * @return LogBucket
+   */
+  public function create($parent, LogBucket $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], LogBucket::class);
+  }
+  /**
+   * Deletes a bucket. Moves the bucket to the DELETE_REQUESTED state. After 7
+   * days, the bucket will be purged and all logs in the bucket will be
+   * permanently deleted. (buckets.delete)
+   *
+   * @param string $name Required. The full resource name of the bucket to delete.
+   * "projects/[PROJECT_ID]/locations/[LOCATION_ID]/buckets/[BUCKET_ID]"
+   * "organizations/[ORGANIZATION_ID]/locations/[LOCATION_ID]/buckets/[BUCKET_ID]"
+   * "billingAccounts/[BILLING_ACCOUNT_ID]/locations/[LOCATION_ID]/buckets/[BUCKET
+   * _ID]" "folders/[FOLDER_ID]/locations/[LOCATION_ID]/buckets/[BUCKET_ID]"
+   * Example: "projects/my-project-id/locations/my-location/buckets/my-bucket-id".
+   * @param array $optParams Optional parameters.
+   * @return LoggingEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], LoggingEmpty::class);
+  }
+  /**
+   * Lists buckets. (buckets.listBillingAccountsLocationsBuckets)
+   *
+   * @param string $parent Required. The parent resource whose buckets are to be
+   * listed: "projects/[PROJECT_ID]/locations/[LOCATION_ID]"
+   * "organizations/[ORGANIZATION_ID]/locations/[LOCATION_ID]"
+   * "billingAccounts/[BILLING_ACCOUNT_ID]/locations/[LOCATION_ID]"
+   * "folders/[FOLDER_ID]/locations/[LOCATION_ID]" Note: The locations portion of
+   * the resource must be specified, but supplying the character - in place of
+   * LOCATION_ID will return all buckets.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Optional. The maximum number of results to return
+   * from this request. Non-positive values are ignored. The presence of
+   * nextPageToken in the response indicates that more results might be available.
+   * @opt_param string pageToken Optional. If present, then retrieve the next
+   * batch of results from the preceding call to this method. pageToken must be
+   * the value of nextPageToken from the previous response. The values of other
+   * method parameters should be identical to those in the previous call.
+   * @return ListBucketsResponse
+   */
+  public function listBillingAccountsLocationsBuckets($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListBucketsResponse::class);
+  }
+  /**
+   * Updates a bucket. This method replaces the following fields in the existing
+   * bucket with values from the new bucket: retention_periodIf the retention
+   * period is decreased and the bucket is locked, FAILED_PRECONDITION will be
+   * returned.If the bucket has a LifecycleState of DELETE_REQUESTED,
+   * FAILED_PRECONDITION will be returned.A buckets region may not be modified
+   * after it is created. (buckets.patch)
+   *
+   * @param string $name Required. The full resource name of the bucket to update.
+   * "projects/[PROJECT_ID]/locations/[LOCATION_ID]/buckets/[BUCKET_ID]"
+   * "organizations/[ORGANIZATION_ID]/locations/[LOCATION_ID]/buckets/[BUCKET_ID]"
+   * "billingAccounts/[BILLING_ACCOUNT_ID]/locations/[LOCATION_ID]/buckets/[BUCKET
+   * _ID]" "folders/[FOLDER_ID]/locations/[LOCATION_ID]/buckets/[BUCKET_ID]"
+   * Example: "projects/my-project-id/locations/my-location/buckets/my-bucket-id".
+   * Also requires permission "resourcemanager.projects.updateLiens" to set the
+   * locked property
+   * @param LogBucket $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. Field mask that specifies the fields
+   * in bucket that need an update. A bucket field will be overwritten if, and
+   * only if, it is in the update mask. name and output only fields cannot be
+   * updated.For a detailed FieldMask definition, see
+   * https://developers.google.com/protocol-
+   * buffers/docs/reference/google.protobuf#google.protobuf.FieldMaskExample:
+   * updateMask=retention_days.
+   * @return LogBucket
+   */
+  public function patch($name, LogBucket $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], LogBucket::class);
+  }
+  /**
+   * Undeletes a bucket. A bucket that has been deleted may be undeleted within
+   * the grace period of 7 days. (buckets.undelete)
+   *
+   * @param string $name Required. The full resource name of the bucket to
+   * undelete. "projects/[PROJECT_ID]/locations/[LOCATION_ID]/buckets/[BUCKET_ID]"
+   * "organizations/[ORGANIZATION_ID]/locations/[LOCATION_ID]/buckets/[BUCKET_ID]"
+   * "billingAccounts/[BILLING_ACCOUNT_ID]/locations/[LOCATION_ID]/buckets/[BUCKET
+   * _ID]" "folders/[FOLDER_ID]/locations/[LOCATION_ID]/buckets/[BUCKET_ID]"
+   * Example: "projects/my-project-id/locations/my-location/buckets/my-bucket-id".
+   * @param UndeleteBucketRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return LoggingEmpty
+   */
+  public function undelete($name, UndeleteBucketRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('undelete', [$params], LoggingEmpty::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(BillingAccountsLocationsBuckets::class, 'Google_Service_Logging_Resource_BillingAccountsLocationsBuckets');

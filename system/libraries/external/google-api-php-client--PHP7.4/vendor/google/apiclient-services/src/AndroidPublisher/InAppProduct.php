@@ -1,84 +1,146 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-3AFqltqFTdih/HoYfkwtNYna/0==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AndroidPublisher;
+
+class InAppProduct extends \Google\Model
+{
+  public $defaultLanguage;
+  protected $defaultPriceType = Price::class;
+  protected $defaultPriceDataType = '';
+  public $gracePeriod;
+  protected $listingsType = InAppProductListing::class;
+  protected $listingsDataType = 'map';
+  public $packageName;
+  protected $pricesType = Price::class;
+  protected $pricesDataType = 'map';
+  public $purchaseType;
+  public $sku;
+  public $status;
+  public $subscriptionPeriod;
+  public $trialPeriod;
+
+  public function setDefaultLanguage($defaultLanguage)
+  {
+    $this->defaultLanguage = $defaultLanguage;
+  }
+  public function getDefaultLanguage()
+  {
+    return $this->defaultLanguage;
+  }
+  /**
+   * @param Price
+   */
+  public function setDefaultPrice(Price $defaultPrice)
+  {
+    $this->defaultPrice = $defaultPrice;
+  }
+  /**
+   * @return Price
+   */
+  public function getDefaultPrice()
+  {
+    return $this->defaultPrice;
+  }
+  public function setGracePeriod($gracePeriod)
+  {
+    $this->gracePeriod = $gracePeriod;
+  }
+  public function getGracePeriod()
+  {
+    return $this->gracePeriod;
+  }
+  /**
+   * @param InAppProductListing[]
+   */
+  public function setListings($listings)
+  {
+    $this->listings = $listings;
+  }
+  /**
+   * @return InAppProductListing[]
+   */
+  public function getListings()
+  {
+    return $this->listings;
+  }
+  public function setPackageName($packageName)
+  {
+    $this->packageName = $packageName;
+  }
+  public function getPackageName()
+  {
+    return $this->packageName;
+  }
+  /**
+   * @param Price[]
+   */
+  public function setPrices($prices)
+  {
+    $this->prices = $prices;
+  }
+  /**
+   * @return Price[]
+   */
+  public function getPrices()
+  {
+    return $this->prices;
+  }
+  public function setPurchaseType($purchaseType)
+  {
+    $this->purchaseType = $purchaseType;
+  }
+  public function getPurchaseType()
+  {
+    return $this->purchaseType;
+  }
+  public function setSku($sku)
+  {
+    $this->sku = $sku;
+  }
+  public function getSku()
+  {
+    return $this->sku;
+  }
+  public function setStatus($status)
+  {
+    $this->status = $status;
+  }
+  public function getStatus()
+  {
+    return $this->status;
+  }
+  public function setSubscriptionPeriod($subscriptionPeriod)
+  {
+    $this->subscriptionPeriod = $subscriptionPeriod;
+  }
+  public function getSubscriptionPeriod()
+  {
+    return $this->subscriptionPeriod;
+  }
+  public function setTrialPeriod($trialPeriod)
+  {
+    $this->trialPeriod = $trialPeriod;
+  }
+  public function getTrialPeriod()
+  {
+    return $this->trialPeriod;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(InAppProduct::class, 'Google_Service_AndroidPublisher_InAppProduct');

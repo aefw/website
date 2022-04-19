@@ -1,60 +1,87 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\SASPortalTesting\Resource;
+
+use Google\Service\SASPortalTesting\SasPortalCreateSignedDeviceRequest;
+use Google\Service\SASPortalTesting\SasPortalDevice;
+use Google\Service\SASPortalTesting\SasPortalListDevicesResponse;
+
+/**
+ * The "devices" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $prod_tt_sasportalService = new Google\Service\SASPortalTesting(...);
+ *   $devices = $prod_tt_sasportalService->devices;
+ *  </code>
+ */
+class NodesNodesDevices extends \Google\Service\Resource
+{
+  /**
+   * Creates a device under a node or customer. (devices.create)
+   *
+   * @param string $parent Required. The name of the parent resource.
+   * @param SasPortalDevice $postBody
+   * @param array $optParams Optional parameters.
+   * @return SasPortalDevice
+   */
+  public function create($parent, SasPortalDevice $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], SasPortalDevice::class);
+  }
+  /**
+   * Creates a signed device under a node or customer. (devices.createSigned)
+   *
+   * @param string $parent Required. The name of the parent resource.
+   * @param SasPortalCreateSignedDeviceRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return SasPortalDevice
+   */
+  public function createSigned($parent, SasPortalCreateSignedDeviceRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('createSigned', [$params], SasPortalDevice::class);
+  }
+  /**
+   * Lists devices under a node or customer. (devices.listNodesNodesDevices)
+   *
+   * @param string $parent Required. The name of the parent resource.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter The filter expression. The filter should have one of
+   * the following formats: "sn=123454" or "display_name=MyDevice". sn corresponds
+   * to serial number of the device. The filter is case insensitive.
+   * @opt_param int pageSize The maximum number of devices to return in the
+   * response. If empty or zero, all devices will be listed. Must be in the range
+   * [0, 1000].
+   * @opt_param string pageToken A pagination token returned from a previous call
+   * to ListDevices that indicates where this listing should continue from.
+   * @return SasPortalListDevicesResponse
+   */
+  public function listNodesNodesDevices($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], SasPortalListDevicesResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(NodesNodesDevices::class, 'Google_Service_SASPortalTesting_Resource_NodesNodesDevices');

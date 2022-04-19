@@ -1,81 +1,131 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AIPlatformNotebooks;
+
+class Schedule extends \Google\Collection
+{
+  protected $collection_key = 'recentExecutions';
+  public $createTime;
+  public $cronSchedule;
+  public $description;
+  public $displayName;
+  protected $executionTemplateType = ExecutionTemplate::class;
+  protected $executionTemplateDataType = '';
+  public $name;
+  protected $recentExecutionsType = Execution::class;
+  protected $recentExecutionsDataType = 'array';
+  public $state;
+  public $timeZone;
+  public $updateTime;
+
+  public function setCreateTime($createTime)
+  {
+    $this->createTime = $createTime;
+  }
+  public function getCreateTime()
+  {
+    return $this->createTime;
+  }
+  public function setCronSchedule($cronSchedule)
+  {
+    $this->cronSchedule = $cronSchedule;
+  }
+  public function getCronSchedule()
+  {
+    return $this->cronSchedule;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setDisplayName($displayName)
+  {
+    $this->displayName = $displayName;
+  }
+  public function getDisplayName()
+  {
+    return $this->displayName;
+  }
+  /**
+   * @param ExecutionTemplate
+   */
+  public function setExecutionTemplate(ExecutionTemplate $executionTemplate)
+  {
+    $this->executionTemplate = $executionTemplate;
+  }
+  /**
+   * @return ExecutionTemplate
+   */
+  public function getExecutionTemplate()
+  {
+    return $this->executionTemplate;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  /**
+   * @param Execution[]
+   */
+  public function setRecentExecutions($recentExecutions)
+  {
+    $this->recentExecutions = $recentExecutions;
+  }
+  /**
+   * @return Execution[]
+   */
+  public function getRecentExecutions()
+  {
+    return $this->recentExecutions;
+  }
+  public function setState($state)
+  {
+    $this->state = $state;
+  }
+  public function getState()
+  {
+    return $this->state;
+  }
+  public function setTimeZone($timeZone)
+  {
+    $this->timeZone = $timeZone;
+  }
+  public function getTimeZone()
+  {
+    return $this->timeZone;
+  }
+  public function setUpdateTime($updateTime)
+  {
+    $this->updateTime = $updateTime;
+  }
+  public function getUpdateTime()
+  {
+    return $this->updateTime;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Schedule::class, 'Google_Service_AIPlatformNotebooks_Schedule');

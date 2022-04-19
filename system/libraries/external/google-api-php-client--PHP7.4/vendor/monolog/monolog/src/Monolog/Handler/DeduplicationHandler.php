@@ -1,126 +1,173 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php declare(strict_types=1);
+
+/*
+ * This file is part of the Monolog package.
+ *
+ * (c) Jordi Boggiano <j.boggiano@seld.be>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Monolog\Handler;
+
+use Monolog\Logger;
+
+/**
+ * Simple handler wrapper that deduplicates log records across multiple requests
+ *
+ * It also includes the BufferHandler functionality and will buffer
+ * all messages until the end of the request or flush() is called.
+ *
+ * This works by storing all log records' messages above $deduplicationLevel
+ * to the file specified by $deduplicationStore. When further logs come in at the end of the
+ * request (or when flush() is called), all those above $deduplicationLevel are checked
+ * against the existing stored logs. If they match and the timestamps in the stored log is
+ * not older than $time seconds, the new log record is discarded. If no log record is new, the
+ * whole data set is discarded.
+ *
+ * This is mainly useful in combination with Mail handlers or things like Slack or HipChat handlers
+ * that send messages to people, to avoid spamming with the same message over and over in case of
+ * a major component failure like a database server being down which makes all requests fail in the
+ * same way.
+ *
+ * @author Jordi Boggiano <j.boggiano@seld.be>
+ */
+class DeduplicationHandler extends BufferHandler
+{
+    /**
+     * @var string
+     */
+    protected $deduplicationStore;
+
+    /**
+     * @var int
+     */
+    protected $deduplicationLevel;
+
+    /**
+     * @var int
+     */
+    protected $time;
+
+    /**
+     * @var bool
+     */
+    private $gc = false;
+
+    /**
+     * @param HandlerInterface $handler            Handler.
+     * @param string           $deduplicationStore The file/path where the deduplication log should be kept
+     * @param string|int       $deduplicationLevel The minimum logging level for log records to be looked at for deduplication purposes
+     * @param int              $time               The period (in seconds) during which duplicate entries should be suppressed after a given log is sent through
+     * @param bool             $bubble             Whether the messages that are handled can bubble up the stack or not
+     */
+    public function __construct(HandlerInterface $handler, ?string $deduplicationStore = null, $deduplicationLevel = Logger::ERROR, int $time = 60, bool $bubble = true)
+    {
+        parent::__construct($handler, 0, Logger::DEBUG, $bubble, false);
+
+        $this->deduplicationStore = $deduplicationStore === null ? sys_get_temp_dir() . '/monolog-dedup-' . substr(md5(__FILE__), 0, 20) .'.log' : $deduplicationStore;
+        $this->deduplicationLevel = Logger::toMonologLevel($deduplicationLevel);
+        $this->time = $time;
+    }
+
+    public function flush(): void
+    {
+        if ($this->bufferSize === 0) {
+            return;
+        }
+
+        $passthru = null;
+
+        foreach ($this->buffer as $record) {
+            if ($record['level'] >= $this->deduplicationLevel) {
+                $passthru = $passthru || !$this->isDuplicate($record);
+                if ($passthru) {
+                    $this->appendRecord($record);
+                }
+            }
+        }
+
+        // default of null is valid as well as if no record matches duplicationLevel we just pass through
+        if ($passthru === true || $passthru === null) {
+            $this->handler->handleBatch($this->buffer);
+        }
+
+        $this->clear();
+
+        if ($this->gc) {
+            $this->collectLogs();
+        }
+    }
+
+    private function isDuplicate(array $record): bool
+    {
+        if (!file_exists($this->deduplicationStore)) {
+            return false;
+        }
+
+        $store = file($this->deduplicationStore, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+        if (!is_array($store)) {
+            return false;
+        }
+
+        $yesterday = time() - 86400;
+        $timestampValidity = $record['datetime']->getTimestamp() - $this->time;
+        $expectedMessage = preg_replace('{[\r\n].*}', '', $record['message']);
+
+        for ($i = count($store) - 1; $i >= 0; $i--) {
+            list($timestamp, $level, $message) = explode(':', $store[$i], 3);
+
+            if ($level === $record['level_name'] && $message === $expectedMessage && $timestamp > $timestampValidity) {
+                return true;
+            }
+
+            if ($timestamp < $yesterday) {
+                $this->gc = true;
+            }
+        }
+
+        return false;
+    }
+
+    private function collectLogs(): void
+    {
+        if (!file_exists($this->deduplicationStore)) {
+            return;
+        }
+
+        $handle = fopen($this->deduplicationStore, 'rw+');
+
+        if (!$handle) {
+            throw new \RuntimeException('Failed to open file for reading and writing: ' . $this->deduplicationStore);
+        }
+
+        flock($handle, LOCK_EX);
+        $validLogs = [];
+
+        $timestampValidity = time() - $this->time;
+
+        while (!feof($handle)) {
+            $log = fgets($handle);
+            if ($log && substr($log, 0, 10) >= $timestampValidity) {
+                $validLogs[] = $log;
+            }
+        }
+
+        ftruncate($handle, 0);
+        rewind($handle);
+        foreach ($validLogs as $log) {
+            fwrite($handle, $log);
+        }
+
+        flock($handle, LOCK_UN);
+        fclose($handle);
+
+        $this->gc = false;
+    }
+
+    private function appendRecord(array $record): void
+    {
+        file_put_contents($this->deduplicationStore, $record['datetime']->getTimestamp() . ':' . $record['level_name'] . ':' . preg_replace('{[\r\n].*}', '', $record['message']) . "\n", FILE_APPEND);
+    }
+}

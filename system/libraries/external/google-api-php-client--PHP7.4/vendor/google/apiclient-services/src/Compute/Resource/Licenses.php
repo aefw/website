@@ -1,80 +1,230 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-x70kNo0v2M5aMH74eFobYXG=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute\Resource;
+
+use Google\Service\Compute\GlobalSetPolicyRequest;
+use Google\Service\Compute\License;
+use Google\Service\Compute\LicensesListResponse;
+use Google\Service\Compute\Operation;
+use Google\Service\Compute\Policy;
+use Google\Service\Compute\TestPermissionsRequest;
+use Google\Service\Compute\TestPermissionsResponse;
+
+/**
+ * The "licenses" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $computeService = new Google\Service\Compute(...);
+ *   $licenses = $computeService->licenses;
+ *  </code>
+ */
+class Licenses extends \Google\Service\Resource
+{
+  /**
+   * Deletes the specified license.  Caution This resource is intended for use
+   * only by third-party partners who are creating Cloud Marketplace images.
+   * (licenses.delete)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $license Name of the license resource to delete.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function delete($project, $license, $optParams = [])
+  {
+    $params = ['project' => $project, 'license' => $license];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Returns the specified License resource.  Caution This resource is intended
+   * for use only by third-party partners who are creating Cloud Marketplace
+   * images. (licenses.get)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $license Name of the License resource to return.
+   * @param array $optParams Optional parameters.
+   * @return License
+   */
+  public function get($project, $license, $optParams = [])
+  {
+    $params = ['project' => $project, 'license' => $license];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], License::class);
+  }
+  /**
+   * Gets the access control policy for a resource. May be empty if no such policy
+   * or resource exists.  Caution This resource is intended for use only by third-
+   * party partners who are creating Cloud Marketplace images.
+   * (licenses.getIamPolicy)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $resource Name or id of the resource for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int optionsRequestedPolicyVersion Requested IAM Policy version.
+   * @return Policy
+   */
+  public function getIamPolicy($project, $resource, $optParams = [])
+  {
+    $params = ['project' => $project, 'resource' => $resource];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Create a License resource in the specified project.  Caution This resource is
+   * intended for use only by third-party partners who are creating Cloud
+   * Marketplace images. (licenses.insert)
+   *
+   * @param string $project Project ID for this request.
+   * @param License $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function insert($project, License $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Operation::class);
+  }
+  /**
+   * Retrieves the list of licenses available in the specified project. This
+   * method does not get any licenses that belong to other projects, including
+   * licenses attached to publicly-available images, like Debian 9. If you want to
+   * get a list of publicly-available licenses, use this method to make a request
+   * to the respective image project, such as debian-cloud or windows-cloud.
+   * Caution This resource is intended for use only by third-party partners who
+   * are creating Cloud Marketplace images. (licenses.listLicenses)
+   *
+   * @param string $project Project ID for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return LicensesListResponse
+   */
+  public function listLicenses($project, $optParams = [])
+  {
+    $params = ['project' => $project];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], LicensesListResponse::class);
+  }
+  /**
+   * Sets the access control policy on the specified resource. Replaces any
+   * existing policy.  Caution This resource is intended for use only by third-
+   * party partners who are creating Cloud Marketplace images.
+   * (licenses.setIamPolicy)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $resource Name or id of the resource for this request.
+   * @param GlobalSetPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($project, $resource, GlobalSetPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource.  Caution
+   * This resource is intended for use only by third-party partners who are
+   * creating Cloud Marketplace images. (licenses.testIamPermissions)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $resource Name or id of the resource for this request.
+   * @param TestPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestPermissionsResponse
+   */
+  public function testIamPermissions($project, $resource, TestPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestPermissionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Licenses::class, 'Google_Service_Compute_Resource_Licenses');

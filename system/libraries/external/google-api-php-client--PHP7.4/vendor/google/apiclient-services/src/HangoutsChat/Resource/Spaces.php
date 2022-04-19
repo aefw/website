@@ -1,59 +1,94 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-azh8i6XaE6W=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\HangoutsChat\Resource;
+
+use Google\Service\HangoutsChat\ListSpacesResponse;
+use Google\Service\HangoutsChat\Message;
+use Google\Service\HangoutsChat\Space;
+
+/**
+ * The "spaces" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $chatService = new Google\Service\HangoutsChat(...);
+ *   $spaces = $chatService->spaces;
+ *  </code>
+ */
+class Spaces extends \Google\Service\Resource
+{
+  /**
+   * Returns a space. (spaces.get)
+   *
+   * @param string $name Required. Resource name of the space, in the form
+   * "spaces". Example: spaces/AAAAMpdlehY
+   * @param array $optParams Optional parameters.
+   * @return Space
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Space::class);
+  }
+  /**
+   * Lists spaces the caller is a member of. (spaces.listSpaces)
+   *
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Requested page size. The value is capped at 1000.
+   * Server may return fewer results than requested. If unspecified, server will
+   * default to 100.
+   * @opt_param string pageToken A token identifying a page of results the server
+   * should return.
+   * @return ListSpacesResponse
+   */
+  public function listSpaces($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListSpacesResponse::class);
+  }
+  /**
+   * Legacy path for creating message. Calling these will result in a BadRequest
+   * response. (spaces.webhooks)
+   *
+   * @param string $parent Required. Space resource name, in the form "spaces".
+   * Example: spaces/AAAAMpdlehY
+   * @param Message $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string threadKey Opaque thread identifier string that can be
+   * specified to group messages into a single thread. If this is the first
+   * message with a given thread identifier, a new thread is created. Subsequent
+   * messages with the same thread identifier will be posted into the same thread.
+   * This relieves bots and webhooks from having to store the Hangouts Chat thread
+   * ID of a thread (created earlier by them) to post further updates to it. Has
+   * no effect if thread field, corresponding to an existing thread, is set in
+   * message.
+   * @return Message
+   */
+  public function webhooks($parent, Message $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('webhooks', [$params], Message::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Spaces::class, 'Google_Service_HangoutsChat_Resource_Spaces');

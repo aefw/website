@@ -1,74 +1,106 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-iUKaFm==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudBillingBudget;
+
+class GoogleCloudBillingBudgetsV1Filter extends \Google\Collection
+{
+  protected $collection_key = 'subaccounts';
+  public $calendarPeriod;
+  public $creditTypes;
+  public $creditTypesTreatment;
+  protected $customPeriodType = GoogleCloudBillingBudgetsV1CustomPeriod::class;
+  protected $customPeriodDataType = '';
+  public $labels;
+  public $projects;
+  public $services;
+  public $subaccounts;
+
+  public function setCalendarPeriod($calendarPeriod)
+  {
+    $this->calendarPeriod = $calendarPeriod;
+  }
+  public function getCalendarPeriod()
+  {
+    return $this->calendarPeriod;
+  }
+  public function setCreditTypes($creditTypes)
+  {
+    $this->creditTypes = $creditTypes;
+  }
+  public function getCreditTypes()
+  {
+    return $this->creditTypes;
+  }
+  public function setCreditTypesTreatment($creditTypesTreatment)
+  {
+    $this->creditTypesTreatment = $creditTypesTreatment;
+  }
+  public function getCreditTypesTreatment()
+  {
+    return $this->creditTypesTreatment;
+  }
+  /**
+   * @param GoogleCloudBillingBudgetsV1CustomPeriod
+   */
+  public function setCustomPeriod(GoogleCloudBillingBudgetsV1CustomPeriod $customPeriod)
+  {
+    $this->customPeriod = $customPeriod;
+  }
+  /**
+   * @return GoogleCloudBillingBudgetsV1CustomPeriod
+   */
+  public function getCustomPeriod()
+  {
+    return $this->customPeriod;
+  }
+  public function setLabels($labels)
+  {
+    $this->labels = $labels;
+  }
+  public function getLabels()
+  {
+    return $this->labels;
+  }
+  public function setProjects($projects)
+  {
+    $this->projects = $projects;
+  }
+  public function getProjects()
+  {
+    return $this->projects;
+  }
+  public function setServices($services)
+  {
+    $this->services = $services;
+  }
+  public function getServices()
+  {
+    return $this->services;
+  }
+  public function setSubaccounts($subaccounts)
+  {
+    $this->subaccounts = $subaccounts;
+  }
+  public function getSubaccounts()
+  {
+    return $this->subaccounts;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudBillingBudgetsV1Filter::class, 'Google_Service_CloudBillingBudget_GoogleCloudBillingBudgetsV1Filter');

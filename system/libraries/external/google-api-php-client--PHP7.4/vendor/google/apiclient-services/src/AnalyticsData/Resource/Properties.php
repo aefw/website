@@ -1,74 +1,185 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AnalyticsData\Resource;
+
+use Google\Service\AnalyticsData\BatchRunPivotReportsRequest;
+use Google\Service\AnalyticsData\BatchRunPivotReportsResponse;
+use Google\Service\AnalyticsData\BatchRunReportsRequest;
+use Google\Service\AnalyticsData\BatchRunReportsResponse;
+use Google\Service\AnalyticsData\Metadata;
+use Google\Service\AnalyticsData\RunPivotReportRequest;
+use Google\Service\AnalyticsData\RunPivotReportResponse;
+use Google\Service\AnalyticsData\RunRealtimeReportRequest;
+use Google\Service\AnalyticsData\RunRealtimeReportResponse;
+use Google\Service\AnalyticsData\RunReportRequest;
+use Google\Service\AnalyticsData\RunReportResponse;
+
+/**
+ * The "properties" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $analyticsdataService = new Google\Service\AnalyticsData(...);
+ *   $properties = $analyticsdataService->properties;
+ *  </code>
+ */
+class Properties extends \Google\Service\Resource
+{
+  /**
+   * Returns multiple pivot reports in a batch. All reports must be for the same
+   * GA4 Property. (properties.batchRunPivotReports)
+   *
+   * @param string $property A Google Analytics GA4 property identifier whose
+   * events are tracked. Specified in the URL path and not the body. To learn
+   * more, see [where to find your Property
+   * ID](https://developers.google.com/analytics/devguides/reporting/data/v1
+   * /property-id). This property must be specified for the batch. The property
+   * within RunPivotReportRequest may either be unspecified or consistent with
+   * this property. Example: properties/1234
+   * @param BatchRunPivotReportsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return BatchRunPivotReportsResponse
+   */
+  public function batchRunPivotReports($property, BatchRunPivotReportsRequest $postBody, $optParams = [])
+  {
+    $params = ['property' => $property, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('batchRunPivotReports', [$params], BatchRunPivotReportsResponse::class);
+  }
+  /**
+   * Returns multiple reports in a batch. All reports must be for the same GA4
+   * Property. (properties.batchRunReports)
+   *
+   * @param string $property A Google Analytics GA4 property identifier whose
+   * events are tracked. Specified in the URL path and not the body. To learn
+   * more, see [where to find your Property
+   * ID](https://developers.google.com/analytics/devguides/reporting/data/v1
+   * /property-id). This property must be specified for the batch. The property
+   * within RunReportRequest may either be unspecified or consistent with this
+   * property. Example: properties/1234
+   * @param BatchRunReportsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return BatchRunReportsResponse
+   */
+  public function batchRunReports($property, BatchRunReportsRequest $postBody, $optParams = [])
+  {
+    $params = ['property' => $property, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('batchRunReports', [$params], BatchRunReportsResponse::class);
+  }
+  /**
+   * Returns metadata for dimensions and metrics available in reporting methods.
+   * Used to explore the dimensions and metrics. In this method, a Google
+   * Analytics GA4 Property Identifier is specified in the request, and the
+   * metadata response includes Custom dimensions and metrics as well as Universal
+   * metadata. For example if a custom metric with parameter name
+   * `levels_unlocked` is registered to a property, the Metadata response will
+   * contain `customEvent:levels_unlocked`. Universal metadata are dimensions and
+   * metrics applicable to any property such as `country` and `totalUsers`.
+   * (properties.getMetadata)
+   *
+   * @param string $name Required. The resource name of the metadata to retrieve.
+   * This name field is specified in the URL path and not URL parameters. Property
+   * is a numeric Google Analytics GA4 Property identifier. To learn more, see
+   * [where to find your Property
+   * ID](https://developers.google.com/analytics/devguides/reporting/data/v1
+   * /property-id). Example: properties/1234/metadata Set the Property ID to 0 for
+   * dimensions and metrics common to all properties. In this special mode, this
+   * method will not return custom dimensions and metrics.
+   * @param array $optParams Optional parameters.
+   * @return Metadata
+   */
+  public function getMetadata($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('getMetadata', [$params], Metadata::class);
+  }
+  /**
+   * Returns a customized pivot report of your Google Analytics event data. Pivot
+   * reports are more advanced and expressive formats than regular reports. In a
+   * pivot report, dimensions are only visible if they are included in a pivot.
+   * Multiple pivots can be specified to further dissect your data.
+   * (properties.runPivotReport)
+   *
+   * @param string $property A Google Analytics GA4 property identifier whose
+   * events are tracked. Specified in the URL path and not the body. To learn
+   * more, see [where to find your Property
+   * ID](https://developers.google.com/analytics/devguides/reporting/data/v1
+   * /property-id). Within a batch request, this property should either be
+   * unspecified or consistent with the batch-level property. Example:
+   * properties/1234
+   * @param RunPivotReportRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return RunPivotReportResponse
+   */
+  public function runPivotReport($property, RunPivotReportRequest $postBody, $optParams = [])
+  {
+    $params = ['property' => $property, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('runPivotReport', [$params], RunPivotReportResponse::class);
+  }
+  /**
+   * The Google Analytics Realtime API returns a customized report of realtime
+   * event data for your property. These reports show events and usage from the
+   * last 30 minutes. (properties.runRealtimeReport)
+   *
+   * @param string $property A Google Analytics GA4 property identifier whose
+   * events are tracked. Specified in the URL path and not the body. To learn
+   * more, see [where to find your Property
+   * ID](https://developers.google.com/analytics/devguides/reporting/data/v1
+   * /property-id). Example: properties/1234
+   * @param RunRealtimeReportRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return RunRealtimeReportResponse
+   */
+  public function runRealtimeReport($property, RunRealtimeReportRequest $postBody, $optParams = [])
+  {
+    $params = ['property' => $property, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('runRealtimeReport', [$params], RunRealtimeReportResponse::class);
+  }
+  /**
+   * Returns a customized report of your Google Analytics event data. Reports
+   * contain statistics derived from data collected by the Google Analytics
+   * tracking code. The data returned from the API is as a table with columns for
+   * the requested dimensions and metrics. Metrics are individual measurements of
+   * user activity on your property, such as active users or event count.
+   * Dimensions break down metrics across some common criteria, such as country or
+   * event name. (properties.runReport)
+   *
+   * @param string $property A Google Analytics GA4 property identifier whose
+   * events are tracked. Specified in the URL path and not the body. To learn
+   * more, see [where to find your Property
+   * ID](https://developers.google.com/analytics/devguides/reporting/data/v1
+   * /property-id). Within a batch request, this property should either be
+   * unspecified or consistent with the batch-level property. Example:
+   * properties/1234
+   * @param RunReportRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return RunReportResponse
+   */
+  public function runReport($property, RunReportRequest $postBody, $optParams = [])
+  {
+    $params = ['property' => $property, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('runReport', [$params], RunReportResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Properties::class, 'Google_Service_AnalyticsData_Resource_Properties');

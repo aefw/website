@@ -1,66 +1,111 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPxYcqAVMEYc8tsX5X2OoAwKL56UlPBOhh+oVky/6ng2+jMff/qoGLjsvBZW2KG3qxQqXrQv/
-RLk9360wK6SOCUw+rQsXubFu3M1OA9bLYCwmBBPNdhXhcWriaoYw5UKMKxTtwkahIt00QoVVfo7u
-VxSQeBnRFkhE+0bGxtLmBHqqH2npLxWpmOd0IMufvpT4TuLoJIJAJ8k4BTxV0SSFHiQ5gizqC5Q+
-U+i4vvuoQqYcDN493TJs4whuYoYjatz0GMV2Hq7+iyBfkr/YwqS+z6kAiKlYS5CkDLI4g2o1fZvA
-1ULLssxMtOKaX21di1YWYDHRvqx/dioxy4EEl3bUMmm2k/WIUovGArdsvaL8vds/YtXYSI7SkqOr
-QvKbG3gv/RNMfXdp+gnccxYusvNcVzgJonqTikVaxJHiVQyVijVO5K+foI5xkUgqdZ8BpenaG4FQ
-u01EDxCdFl3k9k09/bXyLHtkcRypky65morjZvaAitnDUipftrbNDj+fP2TEkocrB8eKPGYnwkAd
-IaCtuN53PnpG6Xp3coIh5f2jaG5S62R/O6OXbMA0Zy/7OZaZOJ79cRpwe3fUJxDpdB+jg2k7Isn8
-50UoCPconifU0683rvnCfu2Q/y+GPG21ZNoysTfDPloaQLpvHTdZNephhay9WY8oMNorGS7kCPxC
-VI3IWok94FZ4IoAaf3wlgT/yai6FutLqW0GED+Qf2oYExflVykiSZFfzWrtXtG+lYReHW0NM+3cr
-4FjvLn9/0li0zZQppLG6FrNAXL3xBrkbDegwWYqN/5hiNYAN0vYg19w+pEYCiXHarjw/KgINJGi1
-Y6iDcMbfWYzJv5cXQhTaU0dZsWK5oTxiHrS+bEDDLrarG4zVRd9Vmj60TuT3BY/J+V/IkLDQRl9N
-Z/bK56s9tqbqyJeQMgbyGXI70C/hAWRrl2UBpuwQgV2oiQV6pTdbJNGHLyQj23N9Pe2dWOir7fhm
-TuxtKNqsGwE30nDu02LQi2BF3SQX/H4jcCMOoQh4vaRKfw5Yeghzdh1qffgON3do2lulrxcj2oco
-Dx/olSa/lw5cfAsZJ9e4F+N9vxy5vY3h3pOrgSX2BZ9M+NOcXflqpUhhY4ZfM2d7HFQ9SXjdt4MG
-WJDLGhzrqDYZY2scufsWxdqjqs7VMAydGOP2VTOBxhKf75gkqH26fIp+94byWNuBSU7cXOg0U9Sd
-C2J4ZcWcZMDAPc5QU0rhZk0P67P6RKITEmLp4x6BgZeeq2t30WrSN3dLny6azB4C9NJMh5/VrxJr
-p0u705FQU4bzh8cbJ5ED3is4wo4BGXZnWt4elC90os7k+dMK4OKxlOUGQvzSNdaRamI0Ml5GULiv
-fXRkdBkyoIXv+U/27pzUuNCumJKGe5fA0kThc9Qgw/XwzK683jYAnoyisJjVlGURoimVSv6un5/f
-ctulQYgLxy3G9t90jlCOB4UW0rJmW18kQ+QAKIvoG0D9jJ3yHIUN1/C0k6HGFrMjjqrp5p6MCgYH
-Brl302Og3CTqT4j/0Q23n1BufU359lAf6mWfgXFXt4tOjfj+bzdQd+/8mOmnGpKhYv/sCn+FIMjQ
-5sTkn6YzKFKPcuLaeoovyvdI5UcQpq+tqcawmjK8UW394ktToB3RIJIjHJFe9qmmuASmHj/p7sqZ
-/ryDDNh1oT95Wt7jwygtuO6hJ020xP9pAZ0ECr2bkFmp66WqZ8wHH6s97OAPighDWGl2vKssXui7
-/MWeE1qVZi9hn9qnrAdgvY1NXvAFjxl/yZR/yy36tKWLaaD7UJNesdu5boKS++d/KdZ/S5MnPQSm
-q7LQ6bi4nSpwCMwJtTCnPai5H4prSa//TvYgC9RUioinKvi/QCuvd2KevgwRHb8EMbtDN8c6HGsr
-aXualR8DxAWKz7Dhp85vN8xJiVdABuLceHxURCpfa08qA+/rvBEV4V0QWEMzMG+BIr+tCY8zs2g0
-azluzgzuDvy8Y2xle47bR+7m5EUbgmLNQ68dlxznl4tPWQuDGqCARnl9+VWaorCmXG32a9ufiWHq
-cAKqBY/LV+vc5aZJJYYkkOii7f0tTSoPy1HKMZycUvE6crCzD4xu/GQyLVCMqu1ShhOHCdeGrGgj
-w69sE1+K/hw7SXvkwAevJ50to7oiWF1KU86zW7fbbTNQBD/1TUfjJvF4BYj+BltEvwQW+Sg7mIdX
-nOaxx3CLt42VkcsgPu7sqPmUeNhVAJ5lm472po8kZkjSGzxIqtQV01UtaeGgc39FGZyIX5urRlzy
-Wog8eBesXxq/50gZ7M9YKUFqzEEtjmbnO2LCgCFn6h5vXDadhHPgPiGaEBgSW0uwgCxsfHCJaCx+
-t7Ov7L/+m0u0xkeLcEDrZP2ihqocdFKSfxHmhMadl4VTEpPSra3cbcrxguknnGvxZ7K8fFtQ3PjI
-Z/IL0K/sxTq121PUJTDkxtdCHAlZi8hx9LHcpdODgE+nTEfWZBxLOqbpx+FZAwRkiFfgWhieyRDC
-1gNJOQ4RKNvtWd4d5Wf/x/ymZtfnBHRT6kWYiHLJpOW7p9kyV7IJHUMUxJ+Kue8vq6pXJDCHPmbH
-V/t63sHHkrfCzDDgiGq/+Nde3Z5a/lHfpDYZW1wOUXGSmy9MLY8aul5YSJO5HtkAsX88ndHfbGLC
-cRjulAZsMA7W8RePgLPF5olQhdw+ysUUUlqAdoeiR/Vi3BA8B6+T/rLGB4fhD6YfCBslZFr7yH4U
-YKQ541q7p2REiexdrAiIFMVinZs/13HFPgow280b9SHbXbNfNkup5MO+yx/aZBGY9uhgYl30iYqR
-dq7uJsdT+BdxzdkitKtu1XrwiGOga8S+hMXwEUqCbJ/An1tbhdQNl2l8bVUC+uU54hoSlUZBsqfI
-dR+eo00xlDRNa2XrLZdmWSnjl7pczPgmA49Cmjjn6mh4vKleo9j4VqWXZ1se+rKG8Rn2e8sTwFkv
-5g46pVxfuj8s1nt0Nmo8VOn65T1zdqL4K/mmXfjc5NUAA2vnjzHo6RyiZkMN7jY5n5mqTeQm1Jlm
-PXWDpb2f201gfWfbryfKSrL6YbT/4PW35ke36Oi+NrSeE2DP0gTaRV7b9NyvMlFL+OGJuKgi+SXZ
-XHG1Vpt/+Rw04RJ8b2Y55W5vNAySrtG5p0HoTm3JlA/IEpQ569MJG26BZc2v/5R8zUzYfMa5cA3B
-b/nKaFkmVaaSJ9qIIvHkkip+4UtAv9xJWuXBOs9yoOnoiIDRRxChT0e9nrnZMJOfEdQzb5S2HF87
-2tXRSx+kKThtyJ0Za4CMzujHZn5vkR5TfhVzRiFXmHnG/GSzcFsP+YVOWrGsstrSAhgorChvxsKK
-5EISdzY0enBIIjJCEz350MNJ7E0a5W5xKJ5cxAP7hWchkBdAJ2GFtVt87x4Lptt0bbamKDTGcW6F
-3fsjpAKJLKBECk00AyziLIkWegbPeafy8gmKwmiNzbcj4V/zKpld0pFoqYU6grNLvMXY0iBN/pbK
-wBCIwSSfKst8l8jyy20clbxLBOCGdfjFzLiaAUQ5tvFEJKRxPLs5+oblcQVPTBLXR1yLH3D217Rx
-jzX8UlQAFqc3eg4Gs84JU7NVVVDVGXHcV0K3g7u7CH1zssdpQlsPWPzofpYcqsD8/nc0S2LRtUHh
-tZhDgkNLbprXsRN6cEPswWs7784GVTF+1ZTMLslZr291CG+rAMMRdxqgb7u3+QjMqvB+12DrUuXV
-wYPlvyZfJGKbpqhJbrHrp3ew4aGSJPO8d42kqNI83BymhX5qxHDD12Yc+IgE4c6iI1ej7toP8pLG
-DsV2YdTp//GSBVMkO1PUDNvxXadH91Cj/LJ/otrIzhPt8csXO2s0RWbIcWw6en922/C82RmQhi0R
-Fn3y7Q6+nPe+pnIMO7WmYrAe+Y7AA/44cLS8BujppSvFHl3QWeVRqm+eQHbcdlmLLohnCpRyTGD4
-CAdUWkPCH9YPOAnu7FCSadgMgfYC/RE18ocELGLogMxUKjW5DFn+0lzmp1C4AvLUUA6o2OyEQYp/
-QzBIMlpgYhoVK32jHsfHk9RGohZldX6MsPB3xRYHQCwIRU+Pq6429ILhmtB9ZBFgUhdIzZ0VYPGx
-b4M1mooJBnNCsyoqbQJRzid4/KE7s4gkgRUwKplRPrG/zYaC6HsH0KtKDqjBWz8QYI4POx/Rr53e
-XaIhztf60aK7NEZpdyknX8RMuNsxi+vW7g6N+UH4R/UDBPfz+ZNf4WHT7z9UIb87i7gnr++LJm+1
-rDW9DNoCtJXY48gNIHzWftmWt4IFgMcZ5ISad+DUUcEgZ+GEqfdt9uwHdClmLAe37FEkBV6bZaI7
-x7dN2LLU7sv9Q0TUgxV06/uK0vvUeGA5P7kWBJdpnngrcGcl0uq/SW0Sog6r1eKAV7i9Fouzj5ih
-paoHIVfFE6uBZ/30uT5nLrlOXP1FjoPr3uf7sCcUNeFd9eMYAJDjnJf2qbAX5xOpdcYP3RKkwQKG
-AHMF3y0S7YO2qHUKV05/d4X92CpwlVG02AfYi+SJOmy=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Vault;
+
+class Hold extends \Google\Collection
+{
+  protected $collection_key = 'accounts';
+  protected $accountsType = HeldAccount::class;
+  protected $accountsDataType = 'array';
+  public $corpus;
+  public $holdId;
+  public $name;
+  protected $orgUnitType = HeldOrgUnit::class;
+  protected $orgUnitDataType = '';
+  protected $queryType = CorpusQuery::class;
+  protected $queryDataType = '';
+  public $updateTime;
+
+  /**
+   * @param HeldAccount[]
+   */
+  public function setAccounts($accounts)
+  {
+    $this->accounts = $accounts;
+  }
+  /**
+   * @return HeldAccount[]
+   */
+  public function getAccounts()
+  {
+    return $this->accounts;
+  }
+  public function setCorpus($corpus)
+  {
+    $this->corpus = $corpus;
+  }
+  public function getCorpus()
+  {
+    return $this->corpus;
+  }
+  public function setHoldId($holdId)
+  {
+    $this->holdId = $holdId;
+  }
+  public function getHoldId()
+  {
+    return $this->holdId;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  /**
+   * @param HeldOrgUnit
+   */
+  public function setOrgUnit(HeldOrgUnit $orgUnit)
+  {
+    $this->orgUnit = $orgUnit;
+  }
+  /**
+   * @return HeldOrgUnit
+   */
+  public function getOrgUnit()
+  {
+    return $this->orgUnit;
+  }
+  /**
+   * @param CorpusQuery
+   */
+  public function setQuery(CorpusQuery $query)
+  {
+    $this->query = $query;
+  }
+  /**
+   * @return CorpusQuery
+   */
+  public function getQuery()
+  {
+    return $this->query;
+  }
+  public function setUpdateTime($updateTime)
+  {
+    $this->updateTime = $updateTime;
+  }
+  public function getUpdateTime()
+  {
+    return $this->updateTime;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Hold::class, 'Google_Service_Vault_Hold');

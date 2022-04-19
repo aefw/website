@@ -1,59 +1,96 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-VqS=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AccessApproval\Resource;
+
+use Google\Service\AccessApproval\AccessApprovalSettings;
+use Google\Service\AccessApproval\AccessapprovalEmpty;
+
+/**
+ * The "organizations" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $accessapprovalService = new Google\Service\AccessApproval(...);
+ *   $organizations = $accessapprovalService->organizations;
+ *  </code>
+ */
+class Organizations extends \Google\Service\Resource
+{
+  /**
+   * Deletes the settings associated with a project, folder, or organization. This
+   * will have the effect of disabling Access Approval for the project, folder, or
+   * organization, but only if all ancestors also have Access Approval disabled.
+   * If Access Approval is enabled at a higher level of the hierarchy, then Access
+   * Approval will still be enabled at this level as the settings are inherited.
+   * (organizations.deleteAccessApprovalSettings)
+   *
+   * @param string $name Name of the AccessApprovalSettings to delete.
+   * @param array $optParams Optional parameters.
+   * @return AccessapprovalEmpty
+   */
+  public function deleteAccessApprovalSettings($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('deleteAccessApprovalSettings', [$params], AccessapprovalEmpty::class);
+  }
+  /**
+   * Gets the settings associated with a project, folder, or organization.
+   * (organizations.getAccessApprovalSettings)
+   *
+   * @param string $name Name of the AccessApprovalSettings to retrieve.
+   * @param array $optParams Optional parameters.
+   * @return AccessApprovalSettings
+   */
+  public function getAccessApprovalSettings($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('getAccessApprovalSettings', [$params], AccessApprovalSettings::class);
+  }
+  /**
+   * Updates the settings associated with a project, folder, or organization.
+   * Settings to update are determined by the value of field_mask.
+   * (organizations.updateAccessApprovalSettings)
+   *
+   * @param string $name The resource name of the settings. Format is one of: *
+   * "projects/{project}/accessApprovalSettings" *
+   * "folders/{folder}/accessApprovalSettings" *
+   * "organizations/{organization}/accessApprovalSettings"
+   * @param AccessApprovalSettings $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask The update mask applies to the settings. Only
+   * the top level fields of AccessApprovalSettings (notification_emails &
+   * enrolled_services) are supported. For each field, if it is included, the
+   * currently stored value will be entirely overwritten with the value of the
+   * field passed in this request. For the `FieldMask` definition, see
+   * https://developers.google.com/protocol-
+   * buffers/docs/reference/google.protobuf#fieldmask If this field is left unset,
+   * only the notification_emails field will be updated.
+   * @return AccessApprovalSettings
+   */
+  public function updateAccessApprovalSettings($name, AccessApprovalSettings $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('updateAccessApprovalSettings', [$params], AccessApprovalSettings::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Organizations::class, 'Google_Service_AccessApproval_Resource_Organizations');

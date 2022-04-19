@@ -1,88 +1,363 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-/sTdnxVbdqzcKJAvZx2uhaAS
+<?php
+
+namespace GuzzleHttp\Promise;
+
+/**
+ * Get the global task queue used for promise resolution.
+ *
+ * This task queue MUST be run in an event loop in order for promises to be
+ * settled asynchronously. It will be automatically run when synchronously
+ * waiting on a promise.
+ *
+ * <code>
+ * while ($eventLoop->isRunning()) {
+ *     GuzzleHttp\Promise\queue()->run();
+ * }
+ * </code>
+ *
+ * @param TaskQueueInterface $assign Optionally specify a new queue instance.
+ *
+ * @return TaskQueueInterface
+ *
+ * @deprecated queue will be removed in guzzlehttp/promises:2.0. Use Utils::queue instead.
+ */
+function queue(TaskQueueInterface $assign = null)
+{
+    return Utils::queue($assign);
+}
+
+/**
+ * Adds a function to run in the task queue when it is next `run()` and returns
+ * a promise that is fulfilled or rejected with the result.
+ *
+ * @param callable $task Task function to run.
+ *
+ * @return PromiseInterface
+ *
+ * @deprecated task will be removed in guzzlehttp/promises:2.0. Use Utils::task instead.
+ */
+function task(callable $task)
+{
+    return Utils::task($task);
+}
+
+/**
+ * Creates a promise for a value if the value is not a promise.
+ *
+ * @param mixed $value Promise or value.
+ *
+ * @return PromiseInterface
+ *
+ * @deprecated promise_for will be removed in guzzlehttp/promises:2.0. Use Create::promiseFor instead.
+ */
+function promise_for($value)
+{
+    return Create::promiseFor($value);
+}
+
+/**
+ * Creates a rejected promise for a reason if the reason is not a promise. If
+ * the provided reason is a promise, then it is returned as-is.
+ *
+ * @param mixed $reason Promise or reason.
+ *
+ * @return PromiseInterface
+ *
+ * @deprecated rejection_for will be removed in guzzlehttp/promises:2.0. Use Create::rejectionFor instead.
+ */
+function rejection_for($reason)
+{
+    return Create::rejectionFor($reason);
+}
+
+/**
+ * Create an exception for a rejected promise value.
+ *
+ * @param mixed $reason
+ *
+ * @return \Exception|\Throwable
+ *
+ * @deprecated exception_for will be removed in guzzlehttp/promises:2.0. Use Create::exceptionFor instead.
+ */
+function exception_for($reason)
+{
+    return Create::exceptionFor($reason);
+}
+
+/**
+ * Returns an iterator for the given value.
+ *
+ * @param mixed $value
+ *
+ * @return \Iterator
+ *
+ * @deprecated iter_for will be removed in guzzlehttp/promises:2.0. Use Create::iterFor instead.
+ */
+function iter_for($value)
+{
+    return Create::iterFor($value);
+}
+
+/**
+ * Synchronously waits on a promise to resolve and returns an inspection state
+ * array.
+ *
+ * Returns a state associative array containing a "state" key mapping to a
+ * valid promise state. If the state of the promise is "fulfilled", the array
+ * will contain a "value" key mapping to the fulfilled value of the promise. If
+ * the promise is rejected, the array will contain a "reason" key mapping to
+ * the rejection reason of the promise.
+ *
+ * @param PromiseInterface $promise Promise or value.
+ *
+ * @return array
+ *
+ * @deprecated inspect will be removed in guzzlehttp/promises:2.0. Use Utils::inspect instead.
+ */
+function inspect(PromiseInterface $promise)
+{
+    return Utils::inspect($promise);
+}
+
+/**
+ * Waits on all of the provided promises, but does not unwrap rejected promises
+ * as thrown exception.
+ *
+ * Returns an array of inspection state arrays.
+ *
+ * @see inspect for the inspection state array format.
+ *
+ * @param PromiseInterface[] $promises Traversable of promises to wait upon.
+ *
+ * @return array
+ *
+ * @deprecated inspect will be removed in guzzlehttp/promises:2.0. Use Utils::inspectAll instead.
+ */
+function inspect_all($promises)
+{
+    return Utils::inspectAll($promises);
+}
+
+/**
+ * Waits on all of the provided promises and returns the fulfilled values.
+ *
+ * Returns an array that contains the value of each promise (in the same order
+ * the promises were provided). An exception is thrown if any of the promises
+ * are rejected.
+ *
+ * @param iterable<PromiseInterface> $promises Iterable of PromiseInterface objects to wait on.
+ *
+ * @return array
+ *
+ * @throws \Exception on error
+ * @throws \Throwable on error in PHP >=7
+ *
+ * @deprecated unwrap will be removed in guzzlehttp/promises:2.0. Use Utils::unwrap instead.
+ */
+function unwrap($promises)
+{
+    return Utils::unwrap($promises);
+}
+
+/**
+ * Given an array of promises, return a promise that is fulfilled when all the
+ * items in the array are fulfilled.
+ *
+ * The promise's fulfillment value is an array with fulfillment values at
+ * respective positions to the original array. If any promise in the array
+ * rejects, the returned promise is rejected with the rejection reason.
+ *
+ * @param mixed $promises  Promises or values.
+ * @param bool  $recursive If true, resolves new promises that might have been added to the stack during its own resolution.
+ *
+ * @return PromiseInterface
+ *
+ * @deprecated all will be removed in guzzlehttp/promises:2.0. Use Utils::all instead.
+ */
+function all($promises, $recursive = false)
+{
+    return Utils::all($promises, $recursive);
+}
+
+/**
+ * Initiate a competitive race between multiple promises or values (values will
+ * become immediately fulfilled promises).
+ *
+ * When count amount of promises have been fulfilled, the returned promise is
+ * fulfilled with an array that contains the fulfillment values of the winners
+ * in order of resolution.
+ *
+ * This promise is rejected with a {@see AggregateException} if the number of
+ * fulfilled promises is less than the desired $count.
+ *
+ * @param int   $count    Total number of promises.
+ * @param mixed $promises Promises or values.
+ *
+ * @return PromiseInterface
+ *
+ * @deprecated some will be removed in guzzlehttp/promises:2.0. Use Utils::some instead.
+ */
+function some($count, $promises)
+{
+    return Utils::some($count, $promises);
+}
+
+/**
+ * Like some(), with 1 as count. However, if the promise fulfills, the
+ * fulfillment value is not an array of 1 but the value directly.
+ *
+ * @param mixed $promises Promises or values.
+ *
+ * @return PromiseInterface
+ *
+ * @deprecated any will be removed in guzzlehttp/promises:2.0. Use Utils::any instead.
+ */
+function any($promises)
+{
+    return Utils::any($promises);
+}
+
+/**
+ * Returns a promise that is fulfilled when all of the provided promises have
+ * been fulfilled or rejected.
+ *
+ * The returned promise is fulfilled with an array of inspection state arrays.
+ *
+ * @see inspect for the inspection state array format.
+ *
+ * @param mixed $promises Promises or values.
+ *
+ * @return PromiseInterface
+ *
+ * @deprecated settle will be removed in guzzlehttp/promises:2.0. Use Utils::settle instead.
+ */
+function settle($promises)
+{
+    return Utils::settle($promises);
+}
+
+/**
+ * Given an iterator that yields promises or values, returns a promise that is
+ * fulfilled with a null value when the iterator has been consumed or the
+ * aggregate promise has been fulfilled or rejected.
+ *
+ * $onFulfilled is a function that accepts the fulfilled value, iterator index,
+ * and the aggregate promise. The callback can invoke any necessary side
+ * effects and choose to resolve or reject the aggregate if needed.
+ *
+ * $onRejected is a function that accepts the rejection reason, iterator index,
+ * and the aggregate promise. The callback can invoke any necessary side
+ * effects and choose to resolve or reject the aggregate if needed.
+ *
+ * @param mixed    $iterable    Iterator or array to iterate over.
+ * @param callable $onFulfilled
+ * @param callable $onRejected
+ *
+ * @return PromiseInterface
+ *
+ * @deprecated each will be removed in guzzlehttp/promises:2.0. Use Each::of instead.
+ */
+function each(
+    $iterable,
+    callable $onFulfilled = null,
+    callable $onRejected = null
+) {
+    return Each::of($iterable, $onFulfilled, $onRejected);
+}
+
+/**
+ * Like each, but only allows a certain number of outstanding promises at any
+ * given time.
+ *
+ * $concurrency may be an integer or a function that accepts the number of
+ * pending promises and returns a numeric concurrency limit value to allow for
+ * dynamic a concurrency size.
+ *
+ * @param mixed        $iterable
+ * @param int|callable $concurrency
+ * @param callable     $onFulfilled
+ * @param callable     $onRejected
+ *
+ * @return PromiseInterface
+ *
+ * @deprecated each_limit will be removed in guzzlehttp/promises:2.0. Use Each::ofLimit instead.
+ */
+function each_limit(
+    $iterable,
+    $concurrency,
+    callable $onFulfilled = null,
+    callable $onRejected = null
+) {
+    return Each::ofLimit($iterable, $concurrency, $onFulfilled, $onRejected);
+}
+
+/**
+ * Like each_limit, but ensures that no promise in the given $iterable argument
+ * is rejected. If any promise is rejected, then the aggregate promise is
+ * rejected with the encountered rejection.
+ *
+ * @param mixed        $iterable
+ * @param int|callable $concurrency
+ * @param callable     $onFulfilled
+ *
+ * @return PromiseInterface
+ *
+ * @deprecated each_limit_all will be removed in guzzlehttp/promises:2.0. Use Each::ofLimitAll instead.
+ */
+function each_limit_all(
+    $iterable,
+    $concurrency,
+    callable $onFulfilled = null
+) {
+    return Each::ofLimitAll($iterable, $concurrency, $onFulfilled);
+}
+
+/**
+ * Returns true if a promise is fulfilled.
+ *
+ * @return bool
+ *
+ * @deprecated is_fulfilled will be removed in guzzlehttp/promises:2.0. Use Is::fulfilled instead.
+ */
+function is_fulfilled(PromiseInterface $promise)
+{
+    return Is::fulfilled($promise);
+}
+
+/**
+ * Returns true if a promise is rejected.
+ *
+ * @return bool
+ *
+ * @deprecated is_rejected will be removed in guzzlehttp/promises:2.0. Use Is::rejected instead.
+ */
+function is_rejected(PromiseInterface $promise)
+{
+    return Is::rejected($promise);
+}
+
+/**
+ * Returns true if a promise is fulfilled or rejected.
+ *
+ * @return bool
+ *
+ * @deprecated is_settled will be removed in guzzlehttp/promises:2.0. Use Is::settled instead.
+ */
+function is_settled(PromiseInterface $promise)
+{
+    return Is::settled($promise);
+}
+
+/**
+ * Create a new coroutine.
+ *
+ * @see Coroutine
+ *
+ * @return PromiseInterface
+ *
+ * @deprecated coroutine will be removed in guzzlehttp/promises:2.0. Use Coroutine::of instead.
+ */
+function coroutine(callable $generatorFn)
+{
+    return Coroutine::of($generatorFn);
+}

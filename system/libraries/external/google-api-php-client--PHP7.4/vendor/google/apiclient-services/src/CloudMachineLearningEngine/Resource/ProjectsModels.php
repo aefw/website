@@ -1,87 +1,200 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-nNrYCMx9nxhMmWLaIWynk7DVXqK=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudMachineLearningEngine\Resource;
+
+use Google\Service\CloudMachineLearningEngine\GoogleCloudMlV1ListModelsResponse;
+use Google\Service\CloudMachineLearningEngine\GoogleCloudMlV1Model;
+use Google\Service\CloudMachineLearningEngine\GoogleIamV1Policy;
+use Google\Service\CloudMachineLearningEngine\GoogleIamV1SetIamPolicyRequest;
+use Google\Service\CloudMachineLearningEngine\GoogleIamV1TestIamPermissionsRequest;
+use Google\Service\CloudMachineLearningEngine\GoogleIamV1TestIamPermissionsResponse;
+use Google\Service\CloudMachineLearningEngine\GoogleLongrunningOperation;
+
+/**
+ * The "models" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $mlService = new Google\Service\CloudMachineLearningEngine(...);
+ *   $models = $mlService->models;
+ *  </code>
+ */
+class ProjectsModels extends \Google\Service\Resource
+{
+  /**
+   * Creates a model which will later contain one or more versions. You must add
+   * at least one version before you can request predictions from the model. Add
+   * versions by calling projects.models.versions.create. (models.create)
+   *
+   * @param string $parent Required. The project name.
+   * @param GoogleCloudMlV1Model $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudMlV1Model
+   */
+  public function create($parent, GoogleCloudMlV1Model $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleCloudMlV1Model::class);
+  }
+  /**
+   * Deletes a model. You can only delete a model if there are no versions in it.
+   * You can delete versions by calling projects.models.versions.delete.
+   * (models.delete)
+   *
+   * @param string $name Required. The name of the model.
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Gets information about a model, including its name, the description (if set),
+   * and the default version (if at least one version of the model has been
+   * deployed). (models.get)
+   *
+   * @param string $name Required. The name of the model.
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudMlV1Model
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudMlV1Model::class);
+  }
+  /**
+   * Gets the access control policy for a resource. Returns an empty policy if the
+   * resource exists and does not have a policy set. (models.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int options.requestedPolicyVersion Optional. The policy format
+   * version to be returned. Valid values are 0, 1, and 3. Requests specifying an
+   * invalid value will be rejected. Requests for policies with any conditional
+   * bindings must specify version 3. Policies without any conditional bindings
+   * may specify any valid value or leave the field unset. To learn which
+   * resources support conditions in their IAM policies, see the [IAM
+   * documentation](https://cloud.google.com/iam/help/conditions/resource-
+   * policies).
+   * @return GoogleIamV1Policy
+   */
+  public function getIamPolicy($resource, $optParams = [])
+  {
+    $params = ['resource' => $resource];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], GoogleIamV1Policy::class);
+  }
+  /**
+   * Lists the models in a project. Each project can contain multiple models, and
+   * each model can have multiple versions. If there are no models that match the
+   * request parameters, the list request returns an empty response body: {}.
+   * (models.listProjectsModels)
+   *
+   * @param string $parent Required. The name of the project whose models are to
+   * be listed.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Optional. Specifies the subset of models to
+   * retrieve.
+   * @opt_param int pageSize Optional. The number of models to retrieve per "page"
+   * of results. If there are more remaining results than this number, the
+   * response message will contain a valid value in the `next_page_token` field.
+   * The default value is 20, and the maximum page size is 100.
+   * @opt_param string pageToken Optional. A page token to request the next page
+   * of results. You get the token from the `next_page_token` field of the
+   * response from the previous call.
+   * @return GoogleCloudMlV1ListModelsResponse
+   */
+  public function listProjectsModels($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleCloudMlV1ListModelsResponse::class);
+  }
+  /**
+   * Updates a specific model resource. Currently the only supported fields to
+   * update are `description` and `default_version.name`. (models.patch)
+   *
+   * @param string $name Required. The project name.
+   * @param GoogleCloudMlV1Model $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. Specifies the path, relative to
+   * `Model`, of the field to update. For example, to change the description of a
+   * model to "foo" and set its default version to "version_1", the `update_mask`
+   * parameter would be specified as `description`, `default_version.name`, and
+   * the `PATCH` request body would specify the new value, as follows: {
+   * "description": "foo", "defaultVersion": { "name":"version_1" } } Currently
+   * the supported update masks are `description` and `default_version.name`.
+   * @return GoogleLongrunningOperation
+   */
+  public function patch($name, GoogleCloudMlV1Model $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Sets the access control policy on the specified resource. Replaces any
+   * existing policy. Can return `NOT_FOUND`, `INVALID_ARGUMENT`, and
+   * `PERMISSION_DENIED` errors. (models.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param GoogleIamV1SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleIamV1Policy
+   */
+  public function setIamPolicy($resource, GoogleIamV1SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], GoogleIamV1Policy::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource. If the
+   * resource does not exist, this will return an empty set of permissions, not a
+   * `NOT_FOUND` error. Note: This operation is designed to be used for building
+   * permission-aware UIs and command-line tools, not for authorization checking.
+   * This operation may "fail open" without warning. (models.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param GoogleIamV1TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleIamV1TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, GoogleIamV1TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], GoogleIamV1TestIamPermissionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsModels::class, 'Google_Service_CloudMachineLearningEngine_Resource_ProjectsModels');

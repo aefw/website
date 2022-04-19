@@ -1,71 +1,147 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ServiceDirectory\Resource;
+
+use Google\Service\ServiceDirectory\Endpoint;
+use Google\Service\ServiceDirectory\ListEndpointsResponse;
+use Google\Service\ServiceDirectory\ServicedirectoryEmpty;
+
+/**
+ * The "endpoints" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $servicedirectoryService = new Google\Service\ServiceDirectory(...);
+ *   $endpoints = $servicedirectoryService->endpoints;
+ *  </code>
+ */
+class ProjectsLocationsNamespacesServicesEndpoints extends \Google\Service\Resource
+{
+  /**
+   * Creates an endpoint, and returns the new endpoint. (endpoints.create)
+   *
+   * @param string $parent Required. The resource name of the service that this
+   * endpoint provides.
+   * @param Endpoint $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string endpointId Required. The Resource ID must be 1-63
+   * characters long, and comply with RFC1035. Specifically, the name must be 1-63
+   * characters long and match the regular expression
+   * `[a-z](?:[-a-z0-9]{0,61}[a-z0-9])?` which means the first character must be a
+   * lowercase letter, and all following characters must be a dash, lowercase
+   * letter, or digit, except the last character, which cannot be a dash.
+   * @return Endpoint
+   */
+  public function create($parent, Endpoint $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Endpoint::class);
+  }
+  /**
+   * Deletes an endpoint. (endpoints.delete)
+   *
+   * @param string $name Required. The name of the endpoint to delete.
+   * @param array $optParams Optional parameters.
+   * @return ServicedirectoryEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], ServicedirectoryEmpty::class);
+  }
+  /**
+   * Gets an endpoint. (endpoints.get)
+   *
+   * @param string $name Required. The name of the endpoint to get.
+   * @param array $optParams Optional parameters.
+   * @return Endpoint
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Endpoint::class);
+  }
+  /**
+   * Lists all endpoints.
+   * (endpoints.listProjectsLocationsNamespacesServicesEndpoints)
+   *
+   * @param string $parent Required. The resource name of the service whose
+   * endpoints you'd like to list.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Optional. The filter to list results by. General
+   * `filter` string syntax: ` ()` * `` can be `name`, `address`, `port`, or
+   * `annotations.` for map field * `` can be `<`, `>`, `<=`, `>=`, `!=`, `=`,
+   * `:`. Of which `:` means `HAS`, and is roughly the same as `=` * `` must be
+   * the same data type as field * `` can be `AND`, `OR`, `NOT` Examples of valid
+   * filters: * `annotations.owner` returns endpoints that have a annotation with
+   * the key `owner`, this is the same as `annotations:owner` *
+   * `annotations.protocol=gRPC` returns endpoints that have key/value
+   * `protocol=gRPC` * `address=192.108.1.105` returns endpoints that have this
+   * address * `port>8080` returns endpoints that have port number larger than
+   * 8080 * `name>projects/my-project/locations/us-east1/namespaces/my-
+   * namespace/services/my-service/endpoints/endpoint-c` returns endpoints that
+   * have name that is alphabetically later than the string, so "endpoint-e" is
+   * returned but "endpoint-a" is not * `annotations.owner!=sd AND
+   * annotations.foo=bar` returns endpoints that have `owner` in annotation key
+   * but value is not `sd` AND have key/value `foo=bar` * `doesnotexist.foo=bar`
+   * returns an empty list. Note that endpoint doesn't have a field called
+   * "doesnotexist". Since the filter does not match any endpoints, it returns no
+   * results For more information about filtering, see [API
+   * Filtering](https://aip.dev/160).
+   * @opt_param string orderBy Optional. The order to list results by. General
+   * `order_by` string syntax: ` () (,)` * `` allows values: `name`, `address`,
+   * `port` * `` ascending or descending order by ``. If this is left blank, `asc`
+   * is used Note that an empty `order_by` string results in default order, which
+   * is order by `name` in ascending order.
+   * @opt_param int pageSize Optional. The maximum number of items to return.
+   * @opt_param string pageToken Optional. The next_page_token value returned from
+   * a previous List request, if any.
+   * @return ListEndpointsResponse
+   */
+  public function listProjectsLocationsNamespacesServicesEndpoints($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListEndpointsResponse::class);
+  }
+  /**
+   * Updates an endpoint. (endpoints.patch)
+   *
+   * @param string $name Immutable. The resource name for the endpoint in the
+   * format `projects/locations/namespaces/services/endpoints`.
+   * @param Endpoint $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. List of fields to be updated in this
+   * request.
+   * @return Endpoint
+   */
+  public function patch($name, Endpoint $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Endpoint::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsNamespacesServicesEndpoints::class, 'Google_Service_ServiceDirectory_Resource_ProjectsLocationsNamespacesServicesEndpoints');

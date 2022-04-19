@@ -1,94 +1,158 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute;
+
+class RouterNat extends \Google\Collection
+{
+  protected $collection_key = 'subnetworks';
+  public $drainNatIps;
+  public $enableEndpointIndependentMapping;
+  public $icmpIdleTimeoutSec;
+  protected $logConfigType = RouterNatLogConfig::class;
+  protected $logConfigDataType = '';
+  public $minPortsPerVm;
+  public $name;
+  public $natIpAllocateOption;
+  public $natIps;
+  public $sourceSubnetworkIpRangesToNat;
+  protected $subnetworksType = RouterNatSubnetworkToNat::class;
+  protected $subnetworksDataType = 'array';
+  public $tcpEstablishedIdleTimeoutSec;
+  public $tcpTransitoryIdleTimeoutSec;
+  public $udpIdleTimeoutSec;
+
+  public function setDrainNatIps($drainNatIps)
+  {
+    $this->drainNatIps = $drainNatIps;
+  }
+  public function getDrainNatIps()
+  {
+    return $this->drainNatIps;
+  }
+  public function setEnableEndpointIndependentMapping($enableEndpointIndependentMapping)
+  {
+    $this->enableEndpointIndependentMapping = $enableEndpointIndependentMapping;
+  }
+  public function getEnableEndpointIndependentMapping()
+  {
+    return $this->enableEndpointIndependentMapping;
+  }
+  public function setIcmpIdleTimeoutSec($icmpIdleTimeoutSec)
+  {
+    $this->icmpIdleTimeoutSec = $icmpIdleTimeoutSec;
+  }
+  public function getIcmpIdleTimeoutSec()
+  {
+    return $this->icmpIdleTimeoutSec;
+  }
+  /**
+   * @param RouterNatLogConfig
+   */
+  public function setLogConfig(RouterNatLogConfig $logConfig)
+  {
+    $this->logConfig = $logConfig;
+  }
+  /**
+   * @return RouterNatLogConfig
+   */
+  public function getLogConfig()
+  {
+    return $this->logConfig;
+  }
+  public function setMinPortsPerVm($minPortsPerVm)
+  {
+    $this->minPortsPerVm = $minPortsPerVm;
+  }
+  public function getMinPortsPerVm()
+  {
+    return $this->minPortsPerVm;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setNatIpAllocateOption($natIpAllocateOption)
+  {
+    $this->natIpAllocateOption = $natIpAllocateOption;
+  }
+  public function getNatIpAllocateOption()
+  {
+    return $this->natIpAllocateOption;
+  }
+  public function setNatIps($natIps)
+  {
+    $this->natIps = $natIps;
+  }
+  public function getNatIps()
+  {
+    return $this->natIps;
+  }
+  public function setSourceSubnetworkIpRangesToNat($sourceSubnetworkIpRangesToNat)
+  {
+    $this->sourceSubnetworkIpRangesToNat = $sourceSubnetworkIpRangesToNat;
+  }
+  public function getSourceSubnetworkIpRangesToNat()
+  {
+    return $this->sourceSubnetworkIpRangesToNat;
+  }
+  /**
+   * @param RouterNatSubnetworkToNat[]
+   */
+  public function setSubnetworks($subnetworks)
+  {
+    $this->subnetworks = $subnetworks;
+  }
+  /**
+   * @return RouterNatSubnetworkToNat[]
+   */
+  public function getSubnetworks()
+  {
+    return $this->subnetworks;
+  }
+  public function setTcpEstablishedIdleTimeoutSec($tcpEstablishedIdleTimeoutSec)
+  {
+    $this->tcpEstablishedIdleTimeoutSec = $tcpEstablishedIdleTimeoutSec;
+  }
+  public function getTcpEstablishedIdleTimeoutSec()
+  {
+    return $this->tcpEstablishedIdleTimeoutSec;
+  }
+  public function setTcpTransitoryIdleTimeoutSec($tcpTransitoryIdleTimeoutSec)
+  {
+    $this->tcpTransitoryIdleTimeoutSec = $tcpTransitoryIdleTimeoutSec;
+  }
+  public function getTcpTransitoryIdleTimeoutSec()
+  {
+    return $this->tcpTransitoryIdleTimeoutSec;
+  }
+  public function setUdpIdleTimeoutSec($udpIdleTimeoutSec)
+  {
+    $this->udpIdleTimeoutSec = $udpIdleTimeoutSec;
+  }
+  public function getUdpIdleTimeoutSec()
+  {
+    return $this->udpIdleTimeoutSec;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(RouterNat::class, 'Google_Service_Compute_RouterNat');

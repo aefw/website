@@ -1,71 +1,107 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-lS+/nw4LdG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AdExchangeBuyerII;
+
+class Client extends \Google\Model
+{
+  public $clientAccountId;
+  public $clientName;
+  public $entityId;
+  public $entityName;
+  public $entityType;
+  public $partnerClientId;
+  public $role;
+  public $status;
+  public $visibleToSeller;
+
+  public function setClientAccountId($clientAccountId)
+  {
+    $this->clientAccountId = $clientAccountId;
+  }
+  public function getClientAccountId()
+  {
+    return $this->clientAccountId;
+  }
+  public function setClientName($clientName)
+  {
+    $this->clientName = $clientName;
+  }
+  public function getClientName()
+  {
+    return $this->clientName;
+  }
+  public function setEntityId($entityId)
+  {
+    $this->entityId = $entityId;
+  }
+  public function getEntityId()
+  {
+    return $this->entityId;
+  }
+  public function setEntityName($entityName)
+  {
+    $this->entityName = $entityName;
+  }
+  public function getEntityName()
+  {
+    return $this->entityName;
+  }
+  public function setEntityType($entityType)
+  {
+    $this->entityType = $entityType;
+  }
+  public function getEntityType()
+  {
+    return $this->entityType;
+  }
+  public function setPartnerClientId($partnerClientId)
+  {
+    $this->partnerClientId = $partnerClientId;
+  }
+  public function getPartnerClientId()
+  {
+    return $this->partnerClientId;
+  }
+  public function setRole($role)
+  {
+    $this->role = $role;
+  }
+  public function getRole()
+  {
+    return $this->role;
+  }
+  public function setStatus($status)
+  {
+    $this->status = $status;
+  }
+  public function getStatus()
+  {
+    return $this->status;
+  }
+  public function setVisibleToSeller($visibleToSeller)
+  {
+    $this->visibleToSeller = $visibleToSeller;
+  }
+  public function getVisibleToSeller()
+  {
+    return $this->visibleToSeller;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Client::class, 'Google_Service_AdExchangeBuyerII_Client');

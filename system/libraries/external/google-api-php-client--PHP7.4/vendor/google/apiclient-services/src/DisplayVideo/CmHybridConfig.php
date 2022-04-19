@@ -1,64 +1,81 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DisplayVideo;
+
+class CmHybridConfig extends \Google\Collection
+{
+  protected $collection_key = 'cmSyncableSiteIds';
+  public $cmAccountId;
+  public $cmFloodlightConfigId;
+  public $cmFloodlightLinkingAuthorized;
+  public $cmSyncableSiteIds;
+  public $dv360ToCmCostReportingEnabled;
+  public $dv360ToCmDataSharingEnabled;
+
+  public function setCmAccountId($cmAccountId)
+  {
+    $this->cmAccountId = $cmAccountId;
+  }
+  public function getCmAccountId()
+  {
+    return $this->cmAccountId;
+  }
+  public function setCmFloodlightConfigId($cmFloodlightConfigId)
+  {
+    $this->cmFloodlightConfigId = $cmFloodlightConfigId;
+  }
+  public function getCmFloodlightConfigId()
+  {
+    return $this->cmFloodlightConfigId;
+  }
+  public function setCmFloodlightLinkingAuthorized($cmFloodlightLinkingAuthorized)
+  {
+    $this->cmFloodlightLinkingAuthorized = $cmFloodlightLinkingAuthorized;
+  }
+  public function getCmFloodlightLinkingAuthorized()
+  {
+    return $this->cmFloodlightLinkingAuthorized;
+  }
+  public function setCmSyncableSiteIds($cmSyncableSiteIds)
+  {
+    $this->cmSyncableSiteIds = $cmSyncableSiteIds;
+  }
+  public function getCmSyncableSiteIds()
+  {
+    return $this->cmSyncableSiteIds;
+  }
+  public function setDv360ToCmCostReportingEnabled($dv360ToCmCostReportingEnabled)
+  {
+    $this->dv360ToCmCostReportingEnabled = $dv360ToCmCostReportingEnabled;
+  }
+  public function getDv360ToCmCostReportingEnabled()
+  {
+    return $this->dv360ToCmCostReportingEnabled;
+  }
+  public function setDv360ToCmDataSharingEnabled($dv360ToCmDataSharingEnabled)
+  {
+    $this->dv360ToCmDataSharingEnabled = $dv360ToCmDataSharingEnabled;
+  }
+  public function getDv360ToCmDataSharingEnabled()
+  {
+    return $this->dv360ToCmDataSharingEnabled;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(CmHybridConfig::class, 'Google_Service_DisplayVideo_CmHybridConfig');

@@ -1,59 +1,72 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-DD2OMvFnDBAps+CGSOa6yN2rgstMK0==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ChromeUXReport;
+
+class QueryRequest extends \Google\Collection
+{
+  protected $collection_key = 'metrics';
+  public $effectiveConnectionType;
+  public $formFactor;
+  public $metrics;
+  public $origin;
+  public $url;
+
+  public function setEffectiveConnectionType($effectiveConnectionType)
+  {
+    $this->effectiveConnectionType = $effectiveConnectionType;
+  }
+  public function getEffectiveConnectionType()
+  {
+    return $this->effectiveConnectionType;
+  }
+  public function setFormFactor($formFactor)
+  {
+    $this->formFactor = $formFactor;
+  }
+  public function getFormFactor()
+  {
+    return $this->formFactor;
+  }
+  public function setMetrics($metrics)
+  {
+    $this->metrics = $metrics;
+  }
+  public function getMetrics()
+  {
+    return $this->metrics;
+  }
+  public function setOrigin($origin)
+  {
+    $this->origin = $origin;
+  }
+  public function getOrigin()
+  {
+    return $this->origin;
+  }
+  public function setUrl($url)
+  {
+    $this->url = $url;
+  }
+  public function getUrl()
+  {
+    return $this->url;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(QueryRequest::class, 'Google_Service_ChromeUXReport_QueryRequest');

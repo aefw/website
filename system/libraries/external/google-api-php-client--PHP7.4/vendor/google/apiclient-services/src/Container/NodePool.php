@@ -1,103 +1,204 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPn4BjgY5m0gF8CqZYvvrdyF6klLCKc6MIx/8x+/tlQYJ5hrtkxMnMtAAKFCWcLJ0I8CEcGn4
-VmBtb31Btmv4/MdZ+hAgci6RLMlbpAuLt45tLTUmJuuGtrkUOVYplSVHTvcWvrs+X9Fj9qnhwloL
-2FUcXM65dOQhkNi11Cqn6M1vsq9RmAxWMlgNaIOZ5a9lrtZ+EolgB3V0dKTfBTW9NkCgMIPhLdyM
-Y6hBgojbbRbJk4v6DivoIIJIRrlWr0QMe4/O3T/5pD64wtSoRbaIL/tTlk9mKourL8IeB86cFae5
-vLNRSs3SH7i74f8FfyU8rFaU42i7UDJGMnAdC8Hal+6Lpn1Vawqflf4OHQazBOLapxAzXIzRXfzF
-2WfBc9FKa5GF6v3txV+Qcejj5TNx+DU1CGGnx9J5/OhM8NrSkOy8IRSn5fKGTGN31u7Yo4aYZUut
-Bxydd9oIyEcGFqqwNeV6ZZ5/CSGbajQrGKZpCWUm9HVQfJqJQ0WiAP9FmA8GH+8SqIR5M/mTsQfT
-ue5Zqtg8TAzxchldHL40LfYa6l23MBkOQtQKEa2N0ZG5pWc4lw56Cs1qi79EscLo1cyaIyeWTXdF
-baMCIGf0nybAHHT588/t7MHeeKNLwY0DMYs/eRP8D3Yq9TNGGq3Rr+/hxtw8+coiQCvCJN0AEf+J
-D2ZWttHJ+LqgwRLEqrLt2nZ9sxhppgNeVmiMWkJ9RJ/4sNE6vMIlf4IBPb+Bh3fn+kA6RpS6v++A
-td4vMA4j57njWi4dgWFWqKZLKfC1+tPBfM33c9nHqcEVyVxRai5gFXPsMRDphDFroReVSDsMBTb5
-WWMfaVn4YW87YOLrm6XZ1c84c9pTBn1adGYwmIMvDxG8POcS7KcqkFYfMHjbfpFo0O/z4Yqs0TYv
-Py4g/tRy9mD5tUKDrfNe9XY4lK5VT0Ccw2V3oekTkhA6bxZjfi0jVkZuXB4aMpPz8e4HblujjEB/
-SZ//dqw8xV89LQSEcczcKSqaK1jH7I17JGu1qyt8YsC50vk2WcI3tH52C9frg9w1z1sKHA0PBdTR
-Q8O2m1u7TywLMm2iovvopo4Uo7NWti+rhAxgn1IP2UJy7+967MyLhbGSJS6dfMSMYAWpaTiTX/ru
-UdlbijjZlmbrC4qEajCanZ6znBOrRM8koQc8Vv0vMFttUnZqaCO0w77HIVTmwd+lS9M/jBttDhNU
-nYu14PyRpCDgpPEM++M+ML0z/gte5t9MyQfG9cxYyQ/eO1KNTH2biC9jQWcQOo8Gil8p401yFMaV
-OcyMxQN5+NN+bBhd92zTIfEKavqtOYwJxwrUXR3Pvcm6A1+mkhnCcNAw2ZHRz/lQ2LpNhau0s4P0
-xfzOBfJtrvFPAB6PDY/xU1hY80Xzx8PZhWwBsY2+YTwq4b6OgmPnqUc5QuoN9flLUVnlHua2h1jd
-OhXlyvRYEiyBm/lk1W/5U/GNbz8KUkMcKXFFOxDF4d50MRFMyuybFncoDZ9NYn9q6N0bt0PJsFaw
-y6RkcGFfqt3Bbqneislfg8bGfTs4lwUkkQ+MmqKej5Kx6Uy/ePIneUgXCmwT2PCnb2XJdNU2XlXe
-3M99WvsfkWjWRBCklBA/XXfGjGEEE6wEHdNg36bPz3Lz9R3e6MQ+ORPrhXQ/rG16syfrGiMV51Fu
-0uyH1aGUszzFn3tSYevJYhIn6pY5YNL0c9Up7ciWIBfKiZa6IIv5kGDIj712fRxH/WTIx4638wcR
-d4qW9dM7bbyZcrOtpoS9VvdZwdLG892gkj+lGmyz7glaTbNy7K8i9G+rr7KIp0u6ZYkhSnaHeMp2
-X0lTshtHQYz1c5eAMecTaKcWvYX93lE59kQd+bCLznxA5p+BSYWPGI++2/bLKsneUitBoUCrohu1
-iGm1wmq4Bxba35RsgQB1nwsd7kxbitxr9cGdlSxKQjRATomRpyY32uAoQrdoFfdsEBkL39CZE0q2
-zQzMJs2t+MQ6/srs08Z4WyRZa8RQYnocWLvIwhUjTejhQgO+KXq95iHm0X0Huy6AsZJO87IqbW84
-XJkzvyl6EYKjz5itZH03/3+QnH3/IpL6c+NhSmPYauGTw8/f28dvRZYi8Fh6xH+CQiTOJ4qEfnRh
-JW7ucECmsxGUyAu3r+/XK5w7Xit9mW31VaOh8AQ8rvkNNEqoCcINbySfwr2IUeE2Swgdyss9AIVn
-xaYgxHfZMoFK/9tiSV+ceucoDwIP2qYAHJdTeL8aqgiU59nYW2Fc9DycoChPCABGFTXvCpRLkwQz
-jKO3FujqS9ZkBtpJwGX7Um2NjYn75smPpLkxD9h42zWdoDuDkvJeBhAMMateGQpOKzt2JFlYbbl1
-wP3suvT5IWuvjdlH3SvVmycbrdTAZP8Cjtsn+/kw4NDVyBKmEXHmn+5jJ+0txOA8I2jaZcjZc9LW
-WxfKKoi4BCC7iDePDH9JfNc7i602PY58oT8Bpak1ThEXPf0rYEGJU2HYcpwNA+FY3M5Svm/Kxqml
-lcCCf4HnMCpXksyviwOqsbm33iR8kxIHqUaRXl7G6A5gG7WHWwbahs0jqMyj+r0XAThC9CcpMDhO
-7HygX2cnNpbNnXvXIBMJflcAlOpezyVc+r1AeHDmXjODZ2c2HR+UCslWoO1J5PDqA5gvCLb20PNH
-D1JcjPetAwtVDV10qetZ1y7wGzMeOBd++8mfzHrGhPbn58L0PdZBDKlFkM26EhxFoTnAaG4z8Bwa
-NhM/6Mly+ZyUc8vyW0K6xGwV4B6St+hk7VD4/yrilsSRIF0C7ov0THJiqXFYY6GcjMSlQGk6G/Ez
-/5jJ1BfSpRyk31Z6GJYjnP0CAgC4ro/YAwsTZgg8ErtBz6ERapQ4kGywuuc50hKehV9PrGlEy9Tz
-QWJbr0pQy8CLashrS1yYS/XZCj7tQXnXsOyk8f4KfKUEKz/OMYJZ6aDaMiUsyUjffW9VX6DkFPJt
-6IxN90zX52PthbrsjnTof4kfKNnyV+Q/+Y9HGH9iwgDTMX+rqpFdPF5RclWw4FxTOSldAyhKsVFw
-66Hx/fgk01rFwHj0+ET4yTKBCfUbX2ofDv3JhjaPwRrFYvINMTmJA4tFjFUpSjlx1X22hMHC/IfE
-M85u5txwXQhOud4QYCMCyoH7ryJIjRy1J/T7WlaIvd1eKj35fN4HtegXA0IulPV2Bw/VgGJ5TaMZ
-EqyppRTxyPakaC4aYRsmxX7rEDGoYgKhiAYzTv/8SD+bMg24MSvNXD/fud93euUwc5b6+jKc/Jxr
-c+bCr1TrE9yoDzdU7Sh8ZMv5gnruXDymJ9tIT2gQ4k1Wj7S6CF6joEHM0DXK6Y8N0qHLGEsaZElL
-Vsfs/THiy5AMmTcB0EjTC4wiHxXA0sZrGqIJJkRzJJNhBzvp0/n44z8ZopwWOiIDCLz6WHsgy5Xs
-UDZg0xwQWNX/1Xr61SEa10nx6gmxhlSG8LVNAjp70BVYPCxyhRHDgwWoTqdfAHXeOJiIOQB09+W3
-VydonZwWfZsPAy/LFHscPsFQdOR2sOITKk+WUpI/E98D4eSmhnogTcecSSYHCSEKCwU2uWxqrHMB
-p3CKYCoUMYJJPKkq6rVjrSN19E62cFAdo2rJJkjj4VMkv8TcGw8XaUOjvKYmI76LhQgi8Gt4EXSu
-ReKqiao/AW9NAmlD9lxxgwh7sH7OkIDWFgO9v8jJ9ojBNZYkCq8j/2BPjdU0cm97Qts2q7wCi3Ia
-dYEy9FXC9bAJKUm6+bhP9R8/1Xqqn4rRTHG264yA+l4iKJ+SI8HxAehz9dZaZyYWiM+wtNNydMo1
-Lg80lMDnI9MSYJCcYKBOdXOkBiM96kiHclRFZXpUxPfPAJYj6RacCuIp32UuhdyWH3/Qj6aZNGjU
-WhFEBEhN54Z6rKDtpGoQ/RVfj51Pjv7TORPNkERFSBKlr6x2UiA63LzjNogG1TOFB0hMjPvT8aPL
-9wX8TFOwqwHIYeqCeYXOM136B4fbNszTGgnAS7gc1WkT6LU+a8qS3Oeb6TAs7PdyeFDHyBOsQFyq
-gfX1d8P6zkMAyt0vxI/+N7n5Pz86ALigc//Q2vllLNjiQ1BGaoS5u5MRKHWVjtm0UVSMwVj1Wg/F
-SJ4f1RrfB0QXg1KQgXJpgEm1eubou1af1RCxMSiFAKyNuLza44dOO225Vg6nGMOM2Hvp8ai57n8j
-rvzxxx925S/RH2dN5S2Snc8/rsr2jQ7Ujv4v5n+NSrhjKxXWyxu0mBsPIkKDtxU/wYNRpwmoqHno
-qm8xSqv6uJU31gtErpMz9X3wQVgQuTNwzey3L//Lk/hCRamulZ24wfK0IfVge2q6y+NTKxtOzQwE
-X+heFIjmc0KpP9YI/p7C6qpJM2Vk/PRyBz3QAeMLddYvq8jNMoHVPnMaqqlvXTI9EbBBNSP+ecGL
-pEDmio5RAD2JDNGVBGBbjDduGrFnaQfXzN2oYOT29bYaKYz+jDTAkC2b97z85ZXQDqTSz4QBuW7h
-k1zNE3J9n1Tk8UvNDotJcD1w6D/6mkrcmz/1fHAgaVvVzkwoZ40QYIK9DBM27EVHzNahKduUtzjC
-8BcNWJMsIkmdv5sBZdaNBt3PWEPKxB7rgzpFT1ZVUUeMojfs/cS/1CdIRB9rJSRDKXnuVrq0ek8g
-JLTOst90kw+qiMSqkBuhLrJ++a774Tb9l38jjnEQThlBzFUk5ZgR93wrNWc2Khh/9RkJj3jULbBs
-LJdx0V2c8o1I5rMsEi+ma+Hk59S3kaP/XyeFreRx1pYgPYasqIS8p+xpn7GFShZWy8Q7N6om1bCx
-M0TdPkywnUzGntqefEB0lgELOniQpEzn5Drc0XSe2P4mUmPuAsKwr/ljLRynZRu3/mIa2LurwOYA
-Zui4QiZSzi9cMu3nm+MXzacAEBk12Q1aYqt4/MI5gVqTtPEVFYFju1lVda7jUOqomsXmlYCohBJy
-QXWL10rbUmeOm6WSIR5+EvjU6LcxDyumElalLR4gb1RJdCy8VkJttyU2kHhdGkb9Piew6W8xTBBV
-HsqTz2i1QqliZVhWTwRJq6eW037bho8scSUjdoEPEv1gh2HYmHWNTH7p3YQilhqmnuVHQTPFpjXO
-DxNwnurLa+wDHqAnyD3oJEv9Nu1lnhy8guK0nxLaRdIE9oVp8zwgue4l1nSQ+rZvCyV60daUeVgn
-0Ye4O18ovkTegBEOs1YwIQcLqpU3OWocJoevwUoSMXlVv6PsGXMwI2X9fzBCWBe+0rupnhKZPGNS
-knn2SyB8uljIUcy+3el7qKBe89OSRD0M2FJOPbEWNhes7+YCSK6FMmOoYeXgcNpsnszjM80CL+eg
-nozOmWUCKBaTiVZ5IoNFgvgXINK7S3CxN1CuxchP0TapbM5qzB6NcbesFXaGeqcKla7GXGhykSuV
-88PC2ilkvV3SzuqX2vtgOMnvgw4gV+wbk3XY2uRkjyCclXP0XyA7cbT0H5cGOAxXE7SAr8c7ASFc
-67HfKADI+AeJwlv6Wh1CxE55JmgnUl2FQxA8ShHj3VTMqO0JNZrGHYazOhtULjpWzL1cGTu/4mOh
-MdbzaTUJI1xu1S5l5pyxE+4LyuQGMwEuSX9wQfNxXZ43eN2sWf5j0qSbbas5igQK29Ygt36h6+mn
-a9EcU6hj1OUexI49x+rS0FgqZIuBI0keAADhEx46QMK0MaRtOGnCKWPkdMeYyjOpMHswWkDcdKwB
-28MH+Z/+Cbqka1Ma72fL5lpt7R/M9FYHlO5KkiQLDiVBg//ijMHIUOEYJkF5mNV+bUg6OwWIXQdJ
-qvQ5skQxTAj/dttW8O56W7T1W7wPogKHSl7Jrour44aBWNcSxQLxMSdzmcbD6KrZH7bffrR7G0gA
-ueKGKNMOQox/WwdrycwO5RHRIwW0r2H/n8eMvnbTCiPNJRLNItR0ZDGN5AiWmHCDSha/4Gu7enQw
-eyUeL2gR4v7BjbQIsAEYtUiMq5A5qPAxdRTxDWDchLy65WDVfBExk4JZImZ5g2GI0311k1jBnHEp
-K7rd5Yd26dIfib6byDTpDXjT3L5gvwjKh9l+HqWe2/q/Q64IPSVlNj1XTKRa3lG9w19fPkF7QnP4
-Mt0gxcnvxbRH1ul2BKFTP5BdCc31HDZwbN4quKea3aFfmvmU3ui0lJRt8867WZDCvusmHeh7n4Rm
-2jrOKFiCxYTRuWQFlD+9MKbZO8iVUWDXy62CHLJ5XxEbOAFp+IibWQczrMcrAjbTWUnXf76s/zN+
-5uURDjsFmXapR3FM3+ig5sTxaba/L9hfeAjv7ViPGreWUV/iNkwFy0hqC7P8VDuh0VFah4fQOhmk
-C3HlU1ieRShMGGyKtlXx50zAmWiO3nO4GKhOEva0TwMnNIJ+EB/lVQEsK8M79vrZysHGR3Q7VFUY
-/JBgzIVeL2vogPvSI3N7M+QYRRpOxFXOjYpfQrB/0y0OzteErkRXwPls2yf+R4BYxDc6iOgG4gNo
-A3O06rTgzeQEdpJwL8R2Q3VC6HfqBR2+adw3ZQ0WqPevjCQlERu8/rUPjQ6gihlen5wg1nDOTvD5
-K2XqjTd8IXGBp04+G824S+JSmXPdx4t+pmXvBVUH90Id3FxKx17Y852uDtS5pGFQX8g3gE+Q4nYx
-hfPJELlzmLEjaqH+wA71hxiHTC4FUHqZH/VUnSXNmQmfwh1g2VWv9Kp8kU7smo9ufNyMyNHTQypY
-o5ikAojTI7mFJjSdCJvCtngfpkqELdDJbvUic/fQ2yjkv4PgD/bCg0Ft4GH1S7kDEPTsEuV8l9cw
-dy8l0MMGqAJ4pR5jEro1XcWYxC/x1VeeUA89szWZ4o6gtAFEm9gMWEk6XQ9P8u7bpNxakz+JEQMQ
-L/0UtHFlnHPSilaeDb2SwP+Aa/C6bZGjOL8MYdNRHrqkDTcVIJivMWkDWPFdPBFUv9WHUaia2RrV
-73tjbGDwvaFiDaMsRscYDYHL/m4NPpLyByG191PRc8jbCLmXA4WJFMFH3yWRWcXaND8WCLet9wbB
-kbWbtwckhWdMIn6HevePXEmxWQuROkLvFKJx0kbewGqa7InehEcW0TrwH6aTsSQzJXRaxFeL7qSY
-c8MbdUDJ16cygGonhhVz2s8aOhmFW6Sfyie70QX//+9I8CxjLzAoElSZMBy3otloTJ2RgFjCXJvk
-zzMYAhjTDU6yLFRn6yjEUiilmAv/LtDczIsihHTa2W6kkiagz+5NJgdHjDzBJqgNPqsYIRt0/QWX
-J2Fl02EqZYvXvr0JmrikeA3hPopkRVUmRuRpPopXEE4CJU9A2D46ldwX0nSCqqqT4WfLmiX0yu2r
-BFMJ4wasQVr4PQJB6CObs7+ssNEWw1DX2m==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Container;
+
+class NodePool extends \Google\Collection
+{
+  protected $collection_key = 'locations';
+  protected $autoscalingType = NodePoolAutoscaling::class;
+  protected $autoscalingDataType = '';
+  protected $conditionsType = StatusCondition::class;
+  protected $conditionsDataType = 'array';
+  protected $configType = NodeConfig::class;
+  protected $configDataType = '';
+  public $initialNodeCount;
+  public $instanceGroupUrls;
+  public $locations;
+  protected $managementType = NodeManagement::class;
+  protected $managementDataType = '';
+  protected $maxPodsConstraintType = MaxPodsConstraint::class;
+  protected $maxPodsConstraintDataType = '';
+  public $name;
+  public $podIpv4CidrSize;
+  public $selfLink;
+  public $status;
+  public $statusMessage;
+  protected $upgradeSettingsType = UpgradeSettings::class;
+  protected $upgradeSettingsDataType = '';
+  public $version;
+
+  /**
+   * @param NodePoolAutoscaling
+   */
+  public function setAutoscaling(NodePoolAutoscaling $autoscaling)
+  {
+    $this->autoscaling = $autoscaling;
+  }
+  /**
+   * @return NodePoolAutoscaling
+   */
+  public function getAutoscaling()
+  {
+    return $this->autoscaling;
+  }
+  /**
+   * @param StatusCondition[]
+   */
+  public function setConditions($conditions)
+  {
+    $this->conditions = $conditions;
+  }
+  /**
+   * @return StatusCondition[]
+   */
+  public function getConditions()
+  {
+    return $this->conditions;
+  }
+  /**
+   * @param NodeConfig
+   */
+  public function setConfig(NodeConfig $config)
+  {
+    $this->config = $config;
+  }
+  /**
+   * @return NodeConfig
+   */
+  public function getConfig()
+  {
+    return $this->config;
+  }
+  public function setInitialNodeCount($initialNodeCount)
+  {
+    $this->initialNodeCount = $initialNodeCount;
+  }
+  public function getInitialNodeCount()
+  {
+    return $this->initialNodeCount;
+  }
+  public function setInstanceGroupUrls($instanceGroupUrls)
+  {
+    $this->instanceGroupUrls = $instanceGroupUrls;
+  }
+  public function getInstanceGroupUrls()
+  {
+    return $this->instanceGroupUrls;
+  }
+  public function setLocations($locations)
+  {
+    $this->locations = $locations;
+  }
+  public function getLocations()
+  {
+    return $this->locations;
+  }
+  /**
+   * @param NodeManagement
+   */
+  public function setManagement(NodeManagement $management)
+  {
+    $this->management = $management;
+  }
+  /**
+   * @return NodeManagement
+   */
+  public function getManagement()
+  {
+    return $this->management;
+  }
+  /**
+   * @param MaxPodsConstraint
+   */
+  public function setMaxPodsConstraint(MaxPodsConstraint $maxPodsConstraint)
+  {
+    $this->maxPodsConstraint = $maxPodsConstraint;
+  }
+  /**
+   * @return MaxPodsConstraint
+   */
+  public function getMaxPodsConstraint()
+  {
+    return $this->maxPodsConstraint;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setPodIpv4CidrSize($podIpv4CidrSize)
+  {
+    $this->podIpv4CidrSize = $podIpv4CidrSize;
+  }
+  public function getPodIpv4CidrSize()
+  {
+    return $this->podIpv4CidrSize;
+  }
+  public function setSelfLink($selfLink)
+  {
+    $this->selfLink = $selfLink;
+  }
+  public function getSelfLink()
+  {
+    return $this->selfLink;
+  }
+  public function setStatus($status)
+  {
+    $this->status = $status;
+  }
+  public function getStatus()
+  {
+    return $this->status;
+  }
+  public function setStatusMessage($statusMessage)
+  {
+    $this->statusMessage = $statusMessage;
+  }
+  public function getStatusMessage()
+  {
+    return $this->statusMessage;
+  }
+  /**
+   * @param UpgradeSettings
+   */
+  public function setUpgradeSettings(UpgradeSettings $upgradeSettings)
+  {
+    $this->upgradeSettings = $upgradeSettings;
+  }
+  /**
+   * @return UpgradeSettings
+   */
+  public function getUpgradeSettings()
+  {
+    return $this->upgradeSettings;
+  }
+  public function setVersion($version)
+  {
+    $this->version = $version;
+  }
+  public function getVersion()
+  {
+    return $this->version;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(NodePool::class, 'Google_Service_Container_NodePool');

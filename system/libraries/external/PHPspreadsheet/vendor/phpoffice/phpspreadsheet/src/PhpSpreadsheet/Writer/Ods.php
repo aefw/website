@@ -1,111 +1,178 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-H/WtmxPylaEgdTK+lYiQPrS=
+<?php
+
+namespace PhpOffice\PhpSpreadsheet\Writer;
+
+use PhpOffice\PhpSpreadsheet\Shared\File;
+use PhpOffice\PhpSpreadsheet\Spreadsheet;
+use PhpOffice\PhpSpreadsheet\Writer\Exception as WriterException;
+use PhpOffice\PhpSpreadsheet\Writer\Ods\Content;
+use PhpOffice\PhpSpreadsheet\Writer\Ods\Meta;
+use PhpOffice\PhpSpreadsheet\Writer\Ods\MetaInf;
+use PhpOffice\PhpSpreadsheet\Writer\Ods\Mimetype;
+use PhpOffice\PhpSpreadsheet\Writer\Ods\Settings;
+use PhpOffice\PhpSpreadsheet\Writer\Ods\Styles;
+use PhpOffice\PhpSpreadsheet\Writer\Ods\Thumbnails;
+use ZipArchive;
+
+class Ods extends BaseWriter
+{
+    /**
+     * Private writer parts.
+     *
+     * @var Ods\WriterPart[]
+     */
+    private $writerParts = [];
+
+    /**
+     * Private PhpSpreadsheet.
+     *
+     * @var Spreadsheet
+     */
+    private $spreadSheet;
+
+    /**
+     * Create a new Ods.
+     *
+     * @param Spreadsheet $spreadsheet
+     */
+    public function __construct(Spreadsheet $spreadsheet)
+    {
+        $this->setSpreadsheet($spreadsheet);
+
+        $writerPartsArray = [
+            'content' => Content::class,
+            'meta' => Meta::class,
+            'meta_inf' => MetaInf::class,
+            'mimetype' => Mimetype::class,
+            'settings' => Settings::class,
+            'styles' => Styles::class,
+            'thumbnails' => Thumbnails::class,
+        ];
+
+        foreach ($writerPartsArray as $writer => $class) {
+            $this->writerParts[$writer] = new $class($this);
+        }
+    }
+
+    /**
+     * Get writer part.
+     *
+     * @param string $pPartName Writer part name
+     *
+     * @return null|Ods\WriterPart
+     */
+    public function getWriterPart($pPartName)
+    {
+        if ($pPartName != '' && isset($this->writerParts[strtolower($pPartName)])) {
+            return $this->writerParts[strtolower($pPartName)];
+        }
+
+        return null;
+    }
+
+    /**
+     * Save PhpSpreadsheet to file.
+     *
+     * @param string $pFilename
+     *
+     * @throws WriterException
+     */
+    public function save($pFilename)
+    {
+        if (!$this->spreadSheet) {
+            throw new WriterException('PhpSpreadsheet object unassigned.');
+        }
+
+        // garbage collect
+        $this->spreadSheet->garbageCollect();
+
+        // If $pFilename is php://output or php://stdout, make it a temporary file...
+        $originalFilename = $pFilename;
+        if (strtolower($pFilename) == 'php://output' || strtolower($pFilename) == 'php://stdout') {
+            $pFilename = @tempnam(File::sysGetTempDir(), 'phpxltmp');
+            if ($pFilename == '') {
+                $pFilename = $originalFilename;
+            }
+        }
+
+        $zip = $this->createZip($pFilename);
+
+        $zip->addFromString('META-INF/manifest.xml', $this->getWriterPart('meta_inf')->writeManifest());
+        $zip->addFromString('Thumbnails/thumbnail.png', $this->getWriterPart('thumbnails')->writeThumbnail());
+        $zip->addFromString('content.xml', $this->getWriterPart('content')->write());
+        $zip->addFromString('meta.xml', $this->getWriterPart('meta')->write());
+        $zip->addFromString('mimetype', $this->getWriterPart('mimetype')->write());
+        $zip->addFromString('settings.xml', $this->getWriterPart('settings')->write());
+        $zip->addFromString('styles.xml', $this->getWriterPart('styles')->write());
+
+        // Close file
+        if ($zip->close() === false) {
+            throw new WriterException("Could not close zip file $pFilename.");
+        }
+
+        // If a temporary file was used, copy it to the correct file stream
+        if ($originalFilename != $pFilename) {
+            if (copy($pFilename, $originalFilename) === false) {
+                throw new WriterException("Could not copy temporary zip file $pFilename to $originalFilename.");
+            }
+            @unlink($pFilename);
+        }
+    }
+
+    /**
+     * Create zip object.
+     *
+     * @param string $pFilename
+     *
+     * @throws WriterException
+     *
+     * @return ZipArchive
+     */
+    private function createZip($pFilename)
+    {
+        // Create new ZIP file and open it for writing
+        $zip = new ZipArchive();
+
+        if (file_exists($pFilename)) {
+            unlink($pFilename);
+        }
+        // Try opening the ZIP file
+        if ($zip->open($pFilename, ZipArchive::OVERWRITE) !== true) {
+            if ($zip->open($pFilename, ZipArchive::CREATE) !== true) {
+                throw new WriterException("Could not open $pFilename for writing.");
+            }
+        }
+
+        return $zip;
+    }
+
+    /**
+     * Get Spreadsheet object.
+     *
+     * @throws WriterException
+     *
+     * @return Spreadsheet
+     */
+    public function getSpreadsheet()
+    {
+        if ($this->spreadSheet !== null) {
+            return $this->spreadSheet;
+        }
+
+        throw new WriterException('No PhpSpreadsheet assigned.');
+    }
+
+    /**
+     * Set Spreadsheet object.
+     *
+     * @param Spreadsheet $spreadsheet PhpSpreadsheet object
+     *
+     * @return self
+     */
+    public function setSpreadsheet(Spreadsheet $spreadsheet)
+    {
+        $this->spreadSheet = $spreadsheet;
+
+        return $this;
+    }
+}

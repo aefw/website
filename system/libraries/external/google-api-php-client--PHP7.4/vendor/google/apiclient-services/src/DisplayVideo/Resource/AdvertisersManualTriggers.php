@@ -1,79 +1,159 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DisplayVideo\Resource;
+
+use Google\Service\DisplayVideo\ActivateManualTriggerRequest;
+use Google\Service\DisplayVideo\DeactivateManualTriggerRequest;
+use Google\Service\DisplayVideo\ListManualTriggersResponse;
+use Google\Service\DisplayVideo\ManualTrigger;
+
+/**
+ * The "manualTriggers" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $displayvideoService = new Google\Service\DisplayVideo(...);
+ *   $manualTriggers = $displayvideoService->manualTriggers;
+ *  </code>
+ */
+class AdvertisersManualTriggers extends \Google\Service\Resource
+{
+  /**
+   * Activates a manual trigger. Each activation of the manual trigger must be at
+   * least 5 minutes apart, otherwise an error will be returned.
+   * (manualTriggers.activate)
+   *
+   * @param string $advertiserId Required. The ID of the advertiser that the
+   * manual trigger belongs.
+   * @param string $triggerId Required. The ID of the manual trigger to activate.
+   * @param ActivateManualTriggerRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return ManualTrigger
+   */
+  public function activate($advertiserId, $triggerId, ActivateManualTriggerRequest $postBody, $optParams = [])
+  {
+    $params = ['advertiserId' => $advertiserId, 'triggerId' => $triggerId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('activate', [$params], ManualTrigger::class);
+  }
+  /**
+   * Creates a new manual trigger. Returns the newly created manual trigger if
+   * successful. (manualTriggers.create)
+   *
+   * @param string $advertiserId Required. Immutable. The unique ID of the
+   * advertiser that the manual trigger belongs to.
+   * @param ManualTrigger $postBody
+   * @param array $optParams Optional parameters.
+   * @return ManualTrigger
+   */
+  public function create($advertiserId, ManualTrigger $postBody, $optParams = [])
+  {
+    $params = ['advertiserId' => $advertiserId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], ManualTrigger::class);
+  }
+  /**
+   * Deactivates a manual trigger. (manualTriggers.deactivate)
+   *
+   * @param string $advertiserId Required. The ID of the advertiser that the
+   * manual trigger belongs.
+   * @param string $triggerId Required. The ID of the manual trigger to
+   * deactivate.
+   * @param DeactivateManualTriggerRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return ManualTrigger
+   */
+  public function deactivate($advertiserId, $triggerId, DeactivateManualTriggerRequest $postBody, $optParams = [])
+  {
+    $params = ['advertiserId' => $advertiserId, 'triggerId' => $triggerId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('deactivate', [$params], ManualTrigger::class);
+  }
+  /**
+   * Gets a manual trigger. (manualTriggers.get)
+   *
+   * @param string $advertiserId Required. The ID of the advertiser this manual
+   * trigger belongs to.
+   * @param string $triggerId Required. The ID of the manual trigger to fetch.
+   * @param array $optParams Optional parameters.
+   * @return ManualTrigger
+   */
+  public function get($advertiserId, $triggerId, $optParams = [])
+  {
+    $params = ['advertiserId' => $advertiserId, 'triggerId' => $triggerId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], ManualTrigger::class);
+  }
+  /**
+   * Lists manual triggers that are accessible to the current user for a given
+   * advertiser ID. The order is defined by the order_by parameter. A single
+   * advertiser_id is required. (manualTriggers.listAdvertisersManualTriggers)
+   *
+   * @param string $advertiserId Required. The ID of the advertiser that the
+   * fetched manual triggers belong to.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Allows filtering by manual trigger properties.
+   * Supported syntax: * Filter expressions are made up of one or more
+   * restrictions. * Restrictions can be combined by `AND` or `OR` logical
+   * operators. A sequence of restrictions implicitly uses `AND`. * A restriction
+   * has the form of `{field} {operator} {value}`. * The operator must be `EQUALS
+   * (=)`. * Supported fields: - `displayName` - `state` Examples: * All active
+   * manual triggers under an advertiser: `state="ACTIVE"` The length of this
+   * field should be no more than 500 characters.
+   * @opt_param string orderBy Field by which to sort the list. Acceptable values
+   * are: * `displayName` (default) * `state` The default sorting order is
+   * ascending. To specify descending order for a field, a suffix "desc" should be
+   * added to the field name. For example, `displayName desc`.
+   * @opt_param int pageSize Requested page size. Must be between `1` and `100`.
+   * If unspecified will default to `100`.
+   * @opt_param string pageToken A token identifying a page of results the server
+   * should return. Typically, this is the value of next_page_token returned from
+   * the previous call to `ListManualTriggers` method. If not specified, the first
+   * page of results will be returned.
+   * @return ListManualTriggersResponse
+   */
+  public function listAdvertisersManualTriggers($advertiserId, $optParams = [])
+  {
+    $params = ['advertiserId' => $advertiserId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListManualTriggersResponse::class);
+  }
+  /**
+   * Updates a manual trigger. Returns the updated manual trigger if successful.
+   * (manualTriggers.patch)
+   *
+   * @param string $advertiserId Required. Immutable. The unique ID of the
+   * advertiser that the manual trigger belongs to.
+   * @param string $triggerId Output only. The unique ID of the manual trigger.
+   * @param ManualTrigger $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. The mask to control which fields to
+   * update.
+   * @return ManualTrigger
+   */
+  public function patch($advertiserId, $triggerId, ManualTrigger $postBody, $optParams = [])
+  {
+    $params = ['advertiserId' => $advertiserId, 'triggerId' => $triggerId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], ManualTrigger::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AdvertisersManualTriggers::class, 'Google_Service_DisplayVideo_Resource_AdvertisersManualTriggers');

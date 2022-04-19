@@ -1,82 +1,145 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-4y2Oh2OsBurJoKu1fQZhuiQT
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AlertCenter;
+
+class RuleViolationInfo extends \Google\Collection
+{
+  protected $collection_key = 'triggeredActionTypes';
+  public $dataSource;
+  protected $matchInfoType = MatchInfo::class;
+  protected $matchInfoDataType = 'array';
+  public $recipients;
+  protected $resourceInfoType = ResourceInfo::class;
+  protected $resourceInfoDataType = '';
+  protected $ruleInfoType = RuleInfo::class;
+  protected $ruleInfoDataType = '';
+  public $suppressedActionTypes;
+  public $trigger;
+  protected $triggeredActionInfoType = ActionInfo::class;
+  protected $triggeredActionInfoDataType = 'array';
+  public $triggeredActionTypes;
+  public $triggeringUserEmail;
+
+  public function setDataSource($dataSource)
+  {
+    $this->dataSource = $dataSource;
+  }
+  public function getDataSource()
+  {
+    return $this->dataSource;
+  }
+  /**
+   * @param MatchInfo[]
+   */
+  public function setMatchInfo($matchInfo)
+  {
+    $this->matchInfo = $matchInfo;
+  }
+  /**
+   * @return MatchInfo[]
+   */
+  public function getMatchInfo()
+  {
+    return $this->matchInfo;
+  }
+  public function setRecipients($recipients)
+  {
+    $this->recipients = $recipients;
+  }
+  public function getRecipients()
+  {
+    return $this->recipients;
+  }
+  /**
+   * @param ResourceInfo
+   */
+  public function setResourceInfo(ResourceInfo $resourceInfo)
+  {
+    $this->resourceInfo = $resourceInfo;
+  }
+  /**
+   * @return ResourceInfo
+   */
+  public function getResourceInfo()
+  {
+    return $this->resourceInfo;
+  }
+  /**
+   * @param RuleInfo
+   */
+  public function setRuleInfo(RuleInfo $ruleInfo)
+  {
+    $this->ruleInfo = $ruleInfo;
+  }
+  /**
+   * @return RuleInfo
+   */
+  public function getRuleInfo()
+  {
+    return $this->ruleInfo;
+  }
+  public function setSuppressedActionTypes($suppressedActionTypes)
+  {
+    $this->suppressedActionTypes = $suppressedActionTypes;
+  }
+  public function getSuppressedActionTypes()
+  {
+    return $this->suppressedActionTypes;
+  }
+  public function setTrigger($trigger)
+  {
+    $this->trigger = $trigger;
+  }
+  public function getTrigger()
+  {
+    return $this->trigger;
+  }
+  /**
+   * @param ActionInfo[]
+   */
+  public function setTriggeredActionInfo($triggeredActionInfo)
+  {
+    $this->triggeredActionInfo = $triggeredActionInfo;
+  }
+  /**
+   * @return ActionInfo[]
+   */
+  public function getTriggeredActionInfo()
+  {
+    return $this->triggeredActionInfo;
+  }
+  public function setTriggeredActionTypes($triggeredActionTypes)
+  {
+    $this->triggeredActionTypes = $triggeredActionTypes;
+  }
+  public function getTriggeredActionTypes()
+  {
+    return $this->triggeredActionTypes;
+  }
+  public function setTriggeringUserEmail($triggeringUserEmail)
+  {
+    $this->triggeringUserEmail = $triggeringUserEmail;
+  }
+  public function getTriggeringUserEmail()
+  {
+    return $this->triggeringUserEmail;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(RuleViolationInfo::class, 'Google_Service_AlertCenter_RuleViolationInfo');

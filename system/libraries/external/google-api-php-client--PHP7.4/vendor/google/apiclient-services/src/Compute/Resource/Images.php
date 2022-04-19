@@ -1,102 +1,315 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-ktObUQu=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute\Resource;
+
+use Google\Service\Compute\DeprecationStatus;
+use Google\Service\Compute\GlobalSetLabelsRequest;
+use Google\Service\Compute\GlobalSetPolicyRequest;
+use Google\Service\Compute\Image;
+use Google\Service\Compute\ImageList;
+use Google\Service\Compute\Operation;
+use Google\Service\Compute\Policy;
+use Google\Service\Compute\TestPermissionsRequest;
+use Google\Service\Compute\TestPermissionsResponse;
+
+/**
+ * The "images" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $computeService = new Google\Service\Compute(...);
+ *   $images = $computeService->images;
+ *  </code>
+ */
+class Images extends \Google\Service\Resource
+{
+  /**
+   * Deletes the specified image. (images.delete)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $image Name of the image resource to delete.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function delete($project, $image, $optParams = [])
+  {
+    $params = ['project' => $project, 'image' => $image];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Sets the deprecation status of an image.
+   *
+   * If an empty request body is given, clears the deprecation status instead.
+   * (images.deprecate)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $image Image name.
+   * @param DeprecationStatus $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function deprecate($project, $image, DeprecationStatus $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'image' => $image, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('deprecate', [$params], Operation::class);
+  }
+  /**
+   * Returns the specified image. Gets a list of available images by making a
+   * list() request. (images.get)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $image Name of the image resource to return.
+   * @param array $optParams Optional parameters.
+   * @return Image
+   */
+  public function get($project, $image, $optParams = [])
+  {
+    $params = ['project' => $project, 'image' => $image];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Image::class);
+  }
+  /**
+   * Returns the latest image that is part of an image family and is not
+   * deprecated. (images.getFromFamily)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $family Name of the image family to search for.
+   * @param array $optParams Optional parameters.
+   * @return Image
+   */
+  public function getFromFamily($project, $family, $optParams = [])
+  {
+    $params = ['project' => $project, 'family' => $family];
+    $params = array_merge($params, $optParams);
+    return $this->call('getFromFamily', [$params], Image::class);
+  }
+  /**
+   * Gets the access control policy for a resource. May be empty if no such policy
+   * or resource exists. (images.getIamPolicy)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $resource Name or id of the resource for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int optionsRequestedPolicyVersion Requested IAM Policy version.
+   * @return Policy
+   */
+  public function getIamPolicy($project, $resource, $optParams = [])
+  {
+    $params = ['project' => $project, 'resource' => $resource];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Creates an image in the specified project using the data included in the
+   * request. (images.insert)
+   *
+   * @param string $project Project ID for this request.
+   * @param Image $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool forceCreate Force image creation if true.
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function insert($project, Image $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Operation::class);
+  }
+  /**
+   * Retrieves the list of custom images available to the specified project.
+   * Custom images are images you create that belong to your project. This method
+   * does not get any images that belong to other projects, including publicly-
+   * available images, like Debian 8. If you want to get a list of publicly-
+   * available images, use this method to make a request to the respective image
+   * project, such as debian-cloud or windows-cloud. (images.listImages)
+   *
+   * @param string $project Project ID for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return ImageList
+   */
+  public function listImages($project, $optParams = [])
+  {
+    $params = ['project' => $project];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ImageList::class);
+  }
+  /**
+   * Patches the specified image with the data included in the request. Only the
+   * following fields can be modified: family, description, deprecation status.
+   * (images.patch)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $image Name of the image resource to patch.
+   * @param Image $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function patch($project, $image, Image $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'image' => $image, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+  /**
+   * Sets the access control policy on the specified resource. Replaces any
+   * existing policy. (images.setIamPolicy)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $resource Name or id of the resource for this request.
+   * @param GlobalSetPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($project, $resource, GlobalSetPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Sets the labels on an image. To learn more about labels, read the Labeling
+   * Resources documentation. (images.setLabels)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $resource Name or id of the resource for this request.
+   * @param GlobalSetLabelsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function setLabels($project, $resource, GlobalSetLabelsRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setLabels', [$params], Operation::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource.
+   * (images.testIamPermissions)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $resource Name or id of the resource for this request.
+   * @param TestPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestPermissionsResponse
+   */
+  public function testIamPermissions($project, $resource, TestPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestPermissionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Images::class, 'Google_Service_Compute_Resource_Images');

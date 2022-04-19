@@ -1,81 +1,200 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Datastore\Resource;
+
+use Google\Service\Datastore\AllocateIdsRequest;
+use Google\Service\Datastore\AllocateIdsResponse;
+use Google\Service\Datastore\BeginTransactionRequest;
+use Google\Service\Datastore\BeginTransactionResponse;
+use Google\Service\Datastore\CommitRequest;
+use Google\Service\Datastore\CommitResponse;
+use Google\Service\Datastore\GoogleDatastoreAdminV1ExportEntitiesRequest;
+use Google\Service\Datastore\GoogleDatastoreAdminV1ImportEntitiesRequest;
+use Google\Service\Datastore\GoogleLongrunningOperation;
+use Google\Service\Datastore\LookupRequest;
+use Google\Service\Datastore\LookupResponse;
+use Google\Service\Datastore\ReserveIdsRequest;
+use Google\Service\Datastore\ReserveIdsResponse;
+use Google\Service\Datastore\RollbackRequest;
+use Google\Service\Datastore\RollbackResponse;
+use Google\Service\Datastore\RunQueryRequest;
+use Google\Service\Datastore\RunQueryResponse;
+
+/**
+ * The "projects" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $datastoreService = new Google\Service\Datastore(...);
+ *   $projects = $datastoreService->projects;
+ *  </code>
+ */
+class Projects extends \Google\Service\Resource
+{
+  /**
+   * Allocates IDs for the given keys, which is useful for referencing an entity
+   * before it is inserted. (projects.allocateIds)
+   *
+   * @param string $projectId Required. The ID of the project against which to
+   * make the request.
+   * @param AllocateIdsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return AllocateIdsResponse
+   */
+  public function allocateIds($projectId, AllocateIdsRequest $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('allocateIds', [$params], AllocateIdsResponse::class);
+  }
+  /**
+   * Begins a new transaction. (projects.beginTransaction)
+   *
+   * @param string $projectId Required. The ID of the project against which to
+   * make the request.
+   * @param BeginTransactionRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return BeginTransactionResponse
+   */
+  public function beginTransaction($projectId, BeginTransactionRequest $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('beginTransaction', [$params], BeginTransactionResponse::class);
+  }
+  /**
+   * Commits a transaction, optionally creating, deleting or modifying some
+   * entities. (projects.commit)
+   *
+   * @param string $projectId Required. The ID of the project against which to
+   * make the request.
+   * @param CommitRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return CommitResponse
+   */
+  public function commit($projectId, CommitRequest $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('commit', [$params], CommitResponse::class);
+  }
+  /**
+   * Exports a copy of all or a subset of entities from Google Cloud Datastore to
+   * another storage system, such as Google Cloud Storage. Recent updates to
+   * entities may not be reflected in the export. The export occurs in the
+   * background and its progress can be monitored and managed via the Operation
+   * resource that is created. The output of an export may only be used once the
+   * associated operation is done. If an export operation is cancelled before
+   * completion it may leave partial data behind in Google Cloud Storage.
+   * (projects.export)
+   *
+   * @param string $projectId Required. Project ID against which to make the
+   * request.
+   * @param GoogleDatastoreAdminV1ExportEntitiesRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function export($projectId, GoogleDatastoreAdminV1ExportEntitiesRequest $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('export', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Imports entities into Google Cloud Datastore. Existing entities with the same
+   * key are overwritten. The import occurs in the background and its progress can
+   * be monitored and managed via the Operation resource that is created. If an
+   * ImportEntities operation is cancelled, it is possible that a subset of the
+   * data has already been imported to Cloud Datastore. (projects.import)
+   *
+   * @param string $projectId Required. Project ID against which to make the
+   * request.
+   * @param GoogleDatastoreAdminV1ImportEntitiesRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function import($projectId, GoogleDatastoreAdminV1ImportEntitiesRequest $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('import', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Looks up entities by key. (projects.lookup)
+   *
+   * @param string $projectId Required. The ID of the project against which to
+   * make the request.
+   * @param LookupRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return LookupResponse
+   */
+  public function lookup($projectId, LookupRequest $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('lookup', [$params], LookupResponse::class);
+  }
+  /**
+   * Prevents the supplied keys' IDs from being auto-allocated by Cloud Datastore.
+   * (projects.reserveIds)
+   *
+   * @param string $projectId Required. The ID of the project against which to
+   * make the request.
+   * @param ReserveIdsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return ReserveIdsResponse
+   */
+  public function reserveIds($projectId, ReserveIdsRequest $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('reserveIds', [$params], ReserveIdsResponse::class);
+  }
+  /**
+   * Rolls back a transaction. (projects.rollback)
+   *
+   * @param string $projectId Required. The ID of the project against which to
+   * make the request.
+   * @param RollbackRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return RollbackResponse
+   */
+  public function rollback($projectId, RollbackRequest $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('rollback', [$params], RollbackResponse::class);
+  }
+  /**
+   * Queries for entities. (projects.runQuery)
+   *
+   * @param string $projectId Required. The ID of the project against which to
+   * make the request.
+   * @param RunQueryRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return RunQueryResponse
+   */
+  public function runQuery($projectId, RunQueryRequest $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('runQuery', [$params], RunQueryResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Projects::class, 'Google_Service_Datastore_Resource_Projects');

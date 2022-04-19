@@ -1,60 +1,115 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-qVLAlxGwNW8=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Adsense\Resource;
+
+use Google\Service\Adsense\AdUnit;
+use Google\Service\Adsense\AdUnitAdCode;
+use Google\Service\Adsense\ListAdUnitsResponse;
+use Google\Service\Adsense\ListLinkedCustomChannelsResponse;
+
+/**
+ * The "adunits" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $adsenseService = new Google\Service\Adsense(...);
+ *   $adunits = $adsenseService->adunits;
+ *  </code>
+ */
+class AccountsAdclientsAdunits extends \Google\Service\Resource
+{
+  /**
+   * Gets an ad unit from a specified account and ad client. (adunits.get)
+   *
+   * @param string $name Required. AdUnit to get information about. Format:
+   * accounts/{account_id}/adclient/{adclient_id}/adunit/{adunit_id}
+   * @param array $optParams Optional parameters.
+   * @return AdUnit
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], AdUnit::class);
+  }
+  /**
+   * Gets the AdSense code for a given ad unit. (adunits.getAdcode)
+   *
+   * @param string $name Required. Name of the adunit for which to get the adcode.
+   * Format: accounts/{account}/adclients/{adclient}/adunits/{adunit}
+   * @param array $optParams Optional parameters.
+   * @return AdUnitAdCode
+   */
+  public function getAdcode($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('getAdcode', [$params], AdUnitAdCode::class);
+  }
+  /**
+   * Lists all ad units under a specified account and ad client.
+   * (adunits.listAccountsAdclientsAdunits)
+   *
+   * @param string $parent Required. The ad client which owns the collection of ad
+   * units. Format: accounts/{account}/adclients/{adclient}
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The maximum number of ad units to include in the
+   * response, used for paging. If unspecified, at most 10000 ad units will be
+   * returned. The maximum value is 10000; values above 10000 will be coerced to
+   * 10000.
+   * @opt_param string pageToken A page token, received from a previous
+   * `ListAdUnits` call. Provide this to retrieve the subsequent page. When
+   * paginating, all other parameters provided to `ListAdUnits` must match the
+   * call that provided the page token.
+   * @return ListAdUnitsResponse
+   */
+  public function listAccountsAdclientsAdunits($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListAdUnitsResponse::class);
+  }
+  /**
+   * Lists all the custom channels available for an ad unit.
+   * (adunits.listLinkedCustomChannels)
+   *
+   * @param string $parent Required. The ad unit which owns the collection of
+   * custom channels. Format:
+   * accounts/{account}/adclients/{adclient}/adunits/{adunit}
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The maximum number of custom channels to include in
+   * the response, used for paging. If unspecified, at most 10000 custom channels
+   * will be returned. The maximum value is 10000; values above 10000 will be
+   * coerced to 10000.
+   * @opt_param string pageToken A page token, received from a previous
+   * `ListLinkedCustomChannels` call. Provide this to retrieve the subsequent
+   * page. When paginating, all other parameters provided to
+   * `ListLinkedCustomChannels` must match the call that provided the page token.
+   * @return ListLinkedCustomChannelsResponse
+   */
+  public function listLinkedCustomChannels($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('listLinkedCustomChannels', [$params], ListLinkedCustomChannelsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AccountsAdclientsAdunits::class, 'Google_Service_Adsense_Resource_AccountsAdclientsAdunits');

@@ -1,270 +1,481 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Gv8=
+<?php
+declare(strict_types=1);
+
+/**
+ *--------------------------------------------------------------------
+ *
+ * Base class for Barcode 1D and 2D
+ *
+ *--------------------------------------------------------------------
+ * Copyright (C) Jean-Sebastien Goupil
+ * http://www.barcodebakery.com
+ */
+namespace BarcodeBakery\Common;
+
+use BarcodeBakery\Common\Exception\BCGArgumentException;
+use BarcodeBakery\Common\Exception\BCGDrawException;
+
+abstract class BCGBarcode
+{
+    const COLOR_BG = 0;
+    const COLOR_FG = 1;
+
+    protected $colorFg;
+    protected $colorBg;       // Color Foreground, Barckground
+    protected $scale;                   // Scale of the graphic, default: 1
+    protected $offsetX;
+    protected $offsetY;       // Position where to start the drawing
+    protected $labels = array();        // Array of BCGLabel
+    protected $pushLabel = array(0, 0); // Push for the label, left and top
+
+    /**
+     * Constructor.
+     */
+    protected function __construct()
+    {
+        $this->setOffsetX(0);
+        $this->setOffsetY(0);
+        $this->setForegroundColor(0x000000);
+        $this->setBackgroundColor(0xffffff);
+        $this->setScale(1);
+    }
+
+    /**
+     * Parses the text before displaying it.
+     *
+     * @param mixed $text
+     */
+    public function parse($text)
+    {
+    }
+
+    /**
+     * Gets the foreground color of the barcode.
+     *
+     * @return BCGColor
+     */
+    public function getForegroundColor()
+    {
+        return $this->colorFg;
+    }
+
+    /**
+     * Sets the foreground color of the barcode. It could be a BCGColor
+     * value or simply a language code (white, black, yellow...) or hex value.
+     *
+     * @param mixed $code
+     */
+    public function setForegroundColor($code)
+    {
+        if ($code instanceof BCGColor) {
+            $this->colorFg = $code;
+        } else {
+            $this->colorFg = new BCGColor($code);
+        }
+    }
+
+    /**
+     * Gets the background color of the barcode.
+     *
+     * @return BCGColor
+     */
+    public function getBackgroundColor()
+    {
+        return $this->colorBg;
+    }
+
+    /**
+     * Sets the background color of the barcode. It could be a BCGColor
+     * value or simply a language code (white, black, yellow...) or hex value.
+     *
+     * @param mixed $code
+     */
+    public function setBackgroundColor($code)
+    {
+        if ($code instanceof BCGColor) {
+            $this->colorBg = $code;
+        } else {
+            $this->colorBg = new BCGColor($code);
+        }
+
+        foreach ($this->labels as $label) {
+            $label->setBackgroundColor($this->colorBg);
+        }
+    }
+
+    /**
+     * Sets the color.
+     *
+     * @param mixed $fg
+     * @param mixed $bg
+     */
+    public function setColor($fg, $bg)
+    {
+        $this->setForegroundColor($fg);
+        $this->setBackgroundColor($bg);
+    }
+
+    /**
+     * Gets the scale of the barcode.
+     *
+     * @return int
+     */
+    public function getScale()
+    {
+        return $this->scale;
+    }
+
+    /**
+     * Sets the scale of the barcode in pixel.
+     * If the scale is lower than 1, an exception is raised.
+     *
+     * @param int $scale
+     */
+    public function setScale($scale)
+    {
+        $scale = intval($scale);
+        if ($scale <= 0) {
+            throw new BCGArgumentException('The scale must be larger than 0.', 'scale');
+        }
+
+        $this->scale = $scale;
+    }
+
+    /**
+     * Abstract method that draws the barcode on the resource.
+     *
+     * @param resource $im
+     */
+    abstract public function draw($im);
+
+    /**
+     * Returns the maximal size of a barcode.
+     * [0]->width
+     * [1]->height
+     *
+     * @param int $w
+     * @param int $h
+     * @return int[]
+     */
+    public function getDimension($w, $h)
+    {
+        $labels = $this->getBiggestLabels(false);
+        $pixelsAround = array(0, 0, 0, 0); // TRBL
+        if (isset($labels[BCGLabel::POSITION_TOP])) {
+            $dimension = $labels[BCGLabel::POSITION_TOP]->getDimension();
+            $pixelsAround[0] += $dimension[1];
+        }
+
+        if (isset($labels[BCGLabel::POSITION_RIGHT])) {
+            $dimension = $labels[BCGLabel::POSITION_RIGHT]->getDimension();
+            $pixelsAround[1] += $dimension[0];
+        }
+
+        if (isset($labels[BCGLabel::POSITION_BOTTOM])) {
+            $dimension = $labels[BCGLabel::POSITION_BOTTOM]->getDimension();
+            $pixelsAround[2] += $dimension[1];
+        }
+
+        if (isset($labels[BCGLabel::POSITION_LEFT])) {
+            $dimension = $labels[BCGLabel::POSITION_LEFT]->getDimension();
+            $pixelsAround[3] += $dimension[0];
+        }
+
+        $finalW = ($w + $this->offsetX) * $this->scale;
+        $finalH = ($h + $this->offsetY) * $this->scale;
+
+        // This section will check if a top/bottom label is too big for its width and left/right too big for its height
+        $reversedLabels = $this->getBiggestLabels(true);
+        foreach ($reversedLabels as $label) {
+            $dimension = $label->getDimension();
+            $alignment = $label->getAlignment();
+            if ($label->getPosition() === BCGLabel::POSITION_LEFT || $label->getPosition() === BCGLabel::POSITION_RIGHT) {
+                if ($alignment === BCGLabel::ALIGN_TOP) {
+                    $pixelsAround[2] = max($pixelsAround[2], $dimension[1] - $finalH);
+                } elseif ($alignment === BCGLabel::ALIGN_CENTER) {
+                    $temp = (int)ceil(($dimension[1] - $finalH) / 2);
+                    $pixelsAround[0] = max($pixelsAround[0], $temp);
+                    $pixelsAround[2] = max($pixelsAround[2], $temp);
+                } elseif ($alignment === BCGLabel::ALIGN_BOTTOM) {
+                    $pixelsAround[0] = max($pixelsAround[0], $dimension[1] - $finalH);
+                }
+            } else {
+                if ($alignment === BCGLabel::ALIGN_LEFT) {
+                    $pixelsAround[1] = max($pixelsAround[1], $dimension[0] - $finalW);
+                } elseif ($alignment === BCGLabel::ALIGN_CENTER) {
+                    $temp = (int)ceil(($dimension[0] - $finalW) / 2);
+                    $pixelsAround[1] = max($pixelsAround[1], $temp);
+                    $pixelsAround[3] = max($pixelsAround[3], $temp);
+                } elseif ($alignment === BCGLabel::ALIGN_RIGHT) {
+                    $pixelsAround[3] = max($pixelsAround[3], $dimension[0] - $finalW);
+                }
+            }
+        }
+
+        $this->pushLabel[0] = $pixelsAround[3];
+        $this->pushLabel[1] = $pixelsAround[0];
+
+        $finalW = ($w + $this->offsetX) * $this->scale + $pixelsAround[1] + $pixelsAround[3];
+        $finalH = ($h + $this->offsetY) * $this->scale + $pixelsAround[0] + $pixelsAround[2];
+
+        return array((int)$finalW, (int)$finalH);
+    }
+
+    /**
+     * Gets the X offset.
+     *
+     * @return int
+     */
+    public function getOffsetX()
+    {
+        return $this->offsetX;
+    }
+
+    /**
+     * Sets the X offset.
+     *
+     * @param int $offsetX
+     */
+    public function setOffsetX($offsetX)
+    {
+        $offsetX = intval($offsetX);
+        if ($offsetX < 0) {
+            throw new BCGArgumentException('The offset X must be 0 or larger.', 'offsetX');
+        }
+
+        $this->offsetX = $offsetX;
+    }
+
+    /**
+     * Gets the Y offset.
+     *
+     * @return int
+     */
+    public function getOffsetY()
+    {
+        return $this->offsetY;
+    }
+
+    /**
+     * Sets the Y offset.
+     *
+     * @param int $offsetY
+     */
+    public function setOffsetY($offsetY)
+    {
+        $offsetY = intval($offsetY);
+        if ($offsetY < 0) {
+            throw new BCGArgumentException('The offset Y must be 0 or larger.', 'offsetY');
+        }
+
+        $this->offsetY = $offsetY;
+    }
+
+    /**
+     * Adds the label to the drawing.
+     *
+     * @param BCGLabel $label
+     */
+    public function addLabel(BCGLabel $label)
+    {
+        $label->setBackgroundColor($this->colorBg);
+        $this->labels[] = $label;
+    }
+
+    /**
+     * Removes the label from the drawing.
+     *
+     * @param BCGLabel $label
+     */
+    public function removeLabel(BCGLabel $label)
+    {
+        $remove = -1;
+        $c = count($this->labels);
+        for ($i = 0; $i < $c; $i++) {
+            if ($this->labels[$i] === $label) {
+                $remove = $i;
+                break;
+            }
+        }
+
+        if ($remove > -1) {
+            array_splice($this->labels, $remove, 1);
+        }
+    }
+
+    /**
+     * Gets the labels.
+     *
+     * @return BCGLabel[]
+     */
+    public function getLabels()
+    {
+        return $this->labels;
+    }
+
+    /**
+     * Clears the labels.
+     */
+    public function clearLabels()
+    {
+        $this->labels = array();
+    }
+
+    /**
+     * Draws the text.
+     * The coordinate passed are the positions of the barcode.
+     * $x1 and $y1 represent the top left corner.
+     * $x2 and $y2 represent the bottom right corner.
+     *
+     * @param resource $im
+     * @param int $x1
+     * @param int $y1
+     * @param int $x2
+     * @param int $y2
+     */
+    protected function drawText($im, $x1, $y1, $x2, $y2)
+    {
+        foreach ($this->labels as $label) {
+            $label->draw(
+                $im,
+                ($x1 + $this->offsetX) * $this->scale + $this->pushLabel[0],
+                ($y1 + $this->offsetY) * $this->scale + $this->pushLabel[1],
+                ($x2 + $this->offsetX) * $this->scale + $this->pushLabel[0],
+                ($y2 + $this->offsetY) * $this->scale + $this->pushLabel[1]
+            );
+        }
+    }
+
+    /**
+     * Draws 1 pixel on the resource at a specific position with a determined color.
+     *
+     * @param resource $im
+     * @param int $x
+     * @param int $y
+     * @param int $color
+     */
+    protected function drawPixel($im, $x, $y, $color = self::COLOR_FG)
+    {
+        $xR = ($x + $this->offsetX) * $this->scale + $this->pushLabel[0];
+        $yR = ($y + $this->offsetY) * $this->scale + $this->pushLabel[1];
+
+        // We always draw a rectangle
+        imagefilledrectangle(
+            $im,
+            $xR,
+            $yR,
+            $xR + $this->scale - 1,
+            $yR + $this->scale - 1,
+            $this->getColor($im, $color)
+        );
+    }
+
+    /**
+     * Draws an empty rectangle on the resource at a specific position with a determined color.
+     *
+     * @param resource $im
+     * @param int $x1
+     * @param int $y1
+     * @param int $x2
+     * @param int $y2
+     * @param int $color
+     */
+    protected function drawRectangle($im, $x1, $y1, $x2, $y2, $color = self::COLOR_FG)
+    {
+        if ($this->scale === 1) {
+            imagefilledrectangle(
+                $im,
+                ($x1 + $this->offsetX) + $this->pushLabel[0],
+                ($y1 + $this->offsetY) + $this->pushLabel[1],
+                ($x2 + $this->offsetX) + $this->pushLabel[0],
+                ($y2 + $this->offsetY) + $this->pushLabel[1],
+                $this->getColor($im, $color)
+            );
+        } else {
+            imagefilledrectangle($im, ($x1 + $this->offsetX) * $this->scale + $this->pushLabel[0], ($y1 + $this->offsetY) * $this->scale + $this->pushLabel[1], ($x2 + $this->offsetX) * $this->scale + $this->pushLabel[0] + $this->scale - 1, ($y1 + $this->offsetY) * $this->scale + $this->pushLabel[1] + $this->scale - 1, $this->getColor($im, $color));
+            imagefilledrectangle($im, ($x1 + $this->offsetX) * $this->scale + $this->pushLabel[0], ($y1 + $this->offsetY) * $this->scale + $this->pushLabel[1], ($x1 + $this->offsetX) * $this->scale + $this->pushLabel[0] + $this->scale - 1, ($y2 + $this->offsetY) * $this->scale + $this->pushLabel[1] + $this->scale - 1, $this->getColor($im, $color));
+            imagefilledrectangle($im, ($x2 + $this->offsetX) * $this->scale + $this->pushLabel[0], ($y1 + $this->offsetY) * $this->scale + $this->pushLabel[1], ($x2 + $this->offsetX) * $this->scale + $this->pushLabel[0] + $this->scale - 1, ($y2 + $this->offsetY) * $this->scale + $this->pushLabel[1] + $this->scale - 1, $this->getColor($im, $color));
+            imagefilledrectangle($im, ($x1 + $this->offsetX) * $this->scale + $this->pushLabel[0], ($y2 + $this->offsetY) * $this->scale + $this->pushLabel[1], ($x2 + $this->offsetX) * $this->scale + $this->pushLabel[0] + $this->scale - 1, ($y2 + $this->offsetY) * $this->scale + $this->pushLabel[1] + $this->scale - 1, $this->getColor($im, $color));
+        }
+    }
+
+    /**
+     * Draws a filled rectangle on the resource at a specific position with a determined color.
+     *
+     * @param resource $im
+     * @param int $x1
+     * @param int $y1
+     * @param int $x2
+     * @param int $y2
+     * @param int $color
+     */
+    protected function drawFilledRectangle($im, $x1, $y1, $x2, $y2, $color = self::COLOR_FG)
+    {
+        if ($x1 > $x2) { // Swap
+            $x1 ^= $x2 ^= $x1 ^= $x2;
+        }
+
+        if ($y1 > $y2) { // Swap
+            $y1 ^= $y2 ^= $y1 ^= $y2;
+        }
+
+        imagefilledrectangle(
+            $im,
+            ($x1 + $this->offsetX) * $this->scale + $this->pushLabel[0],
+            ($y1 + $this->offsetY) * $this->scale + $this->pushLabel[1],
+            ($x2 + $this->offsetX) * $this->scale + $this->pushLabel[0] + $this->scale - 1,
+            ($y2 + $this->offsetY) * $this->scale + $this->pushLabel[1] + $this->scale - 1,
+            $this->getColor($im, $color)
+        );
+    }
+
+    /**
+     * Allocates the color based on the integer.
+     *
+     * @param resource $im
+     * @param int $color
+     * @return resource
+     */
+    protected function getColor($im, $color)
+    {
+        if ($color === self::COLOR_BG) {
+            return $this->colorBg->allocate($im);
+        } else {
+            return $this->colorFg->allocate($im);
+        }
+    }
+
+    /**
+     * Returning the biggest label widths for LEFT/RIGHT and heights for TOP/BOTTOM.
+     *
+     * @param bool $reversed
+     * @return BCGLabel[]
+     */
+    private function getBiggestLabels($reversed = false)
+    {
+        $searchLR = $reversed ? 1 : 0;
+        $searchTB = $reversed ? 0 : 1;
+
+        $labels = array();
+        foreach ($this->labels as $label) {
+            $position = $label->getPosition();
+            if (isset($labels[$position])) {
+                $savedDimension = $labels[$position]->getDimension();
+                $dimension = $label->getDimension();
+                if ($position === BCGLabel::POSITION_LEFT || $position === BCGLabel::POSITION_RIGHT) {
+                    if ($dimension[$searchLR] > $savedDimension[$searchLR]) {
+                        $labels[$position] = $label;
+                    }
+                } else {
+                    if ($dimension[$searchTB] > $savedDimension[$searchTB]) {
+                        $labels[$position] = $label;
+                    }
+                }
+            } else {
+                $labels[$position] = $label;
+            }
+        }
+
+        return $labels;
+    }
+}

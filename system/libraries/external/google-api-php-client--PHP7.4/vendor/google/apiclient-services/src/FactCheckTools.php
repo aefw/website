@@ -1,59 +1,176 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-23EUy1rzZ7ZPvCeVBlEV5bv4nF2hcLd5Tm==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for FactCheckTools (v1alpha1).
+ *
+ * <p>
+</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://developers.google.com/fact-check/tools/api/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class FactCheckTools extends \Google\Service
+{
+  /** See your primary Google Account email address. */
+  const USERINFO_EMAIL =
+      "https://www.googleapis.com/auth/userinfo.email";
+
+  public $claims;
+  public $pages;
+
+  /**
+   * Constructs the internal representation of the FactCheckTools service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://factchecktools.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1alpha1';
+    $this->serviceName = 'factchecktools';
+
+    $this->claims = new FactCheckTools\Resource\Claims(
+        $this,
+        $this->serviceName,
+        'claims',
+        [
+          'methods' => [
+            'search' => [
+              'path' => 'v1alpha1/claims:search',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'languageCode' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxAgeDays' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'offset' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'query' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'reviewPublisherSiteFilter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->pages = new FactCheckTools\Resource\Pages(
+        $this,
+        $this->serviceName,
+        'pages',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1alpha1/pages',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'delete' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha1/pages',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'offset' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'organization' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'url' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(FactCheckTools::class, 'Google_Service_FactCheckTools');

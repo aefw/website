@@ -1,65 +1,90 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Reports;
+
+class NestedParameter extends \Google\Collection
+{
+  protected $collection_key = 'multiValue';
+  public $boolValue;
+  public $intValue;
+  public $multiBoolValue;
+  public $multiIntValue;
+  public $multiValue;
+  public $name;
+  public $value;
+
+  public function setBoolValue($boolValue)
+  {
+    $this->boolValue = $boolValue;
+  }
+  public function getBoolValue()
+  {
+    return $this->boolValue;
+  }
+  public function setIntValue($intValue)
+  {
+    $this->intValue = $intValue;
+  }
+  public function getIntValue()
+  {
+    return $this->intValue;
+  }
+  public function setMultiBoolValue($multiBoolValue)
+  {
+    $this->multiBoolValue = $multiBoolValue;
+  }
+  public function getMultiBoolValue()
+  {
+    return $this->multiBoolValue;
+  }
+  public function setMultiIntValue($multiIntValue)
+  {
+    $this->multiIntValue = $multiIntValue;
+  }
+  public function getMultiIntValue()
+  {
+    return $this->multiIntValue;
+  }
+  public function setMultiValue($multiValue)
+  {
+    $this->multiValue = $multiValue;
+  }
+  public function getMultiValue()
+  {
+    return $this->multiValue;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setValue($value)
+  {
+    $this->value = $value;
+  }
+  public function getValue()
+  {
+    return $this->value;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(NestedParameter::class, 'Google_Service_Reports_NestedParameter');

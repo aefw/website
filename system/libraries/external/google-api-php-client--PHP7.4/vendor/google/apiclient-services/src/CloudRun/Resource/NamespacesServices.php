@@ -1,68 +1,148 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-aaI8s0==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudRun\Resource;
+
+use Google\Service\CloudRun\ListServicesResponse;
+use Google\Service\CloudRun\Service;
+use Google\Service\CloudRun\Status;
+
+/**
+ * The "services" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $runService = new Google\Service\CloudRun(...);
+ *   $services = $runService->services;
+ *  </code>
+ */
+class NamespacesServices extends \Google\Service\Resource
+{
+  /**
+   * Create a service. (services.create)
+   *
+   * @param string $parent The namespace in which the service should be created.
+   * For Cloud Run (fully managed), replace {namespace_id} with the project ID or
+   * number.
+   * @param Service $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string dryRun Indicates that the server should validate the
+   * request and populate default values without persisting the request. Supported
+   * values: `all`
+   * @return Service
+   */
+  public function create($parent, Service $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Service::class);
+  }
+  /**
+   * Delete a service. This will cause the Service to stop serving traffic and
+   * will delete the child entities like Routes, Configurations and Revisions.
+   * (services.delete)
+   *
+   * @param string $name The name of the service to delete. For Cloud Run (fully
+   * managed), replace {namespace_id} with the project ID or number.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string apiVersion Cloud Run currently ignores this parameter.
+   * @opt_param string dryRun Indicates that the server should validate the
+   * request and populate default values without persisting the request. Supported
+   * values: `all`
+   * @opt_param string kind Cloud Run currently ignores this parameter.
+   * @opt_param string propagationPolicy Specifies the propagation policy of
+   * delete. Cloud Run currently ignores this setting, and deletes in the
+   * background. Please see kubernetes.io/docs/concepts/workloads/controllers
+   * /garbage-collection/ for more information.
+   * @return Status
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Status::class);
+  }
+  /**
+   * Get information about a service. (services.get)
+   *
+   * @param string $name The name of the service to retrieve. For Cloud Run (fully
+   * managed), replace {namespace_id} with the project ID or number.
+   * @param array $optParams Optional parameters.
+   * @return Service
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Service::class);
+  }
+  /**
+   * List services. (services.listNamespacesServices)
+   *
+   * @param string $parent The namespace from which the services should be listed.
+   * For Cloud Run (fully managed), replace {namespace_id} with the project ID or
+   * number.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string continue Optional encoded string to continue paging.
+   * @opt_param string fieldSelector Allows to filter resources based on a
+   * specific value for a field name. Send this in a query string format. i.e.
+   * 'metadata.name%3Dlorem'. Not currently used by Cloud Run.
+   * @opt_param bool includeUninitialized Not currently used by Cloud Run.
+   * @opt_param string labelSelector Allows to filter resources based on a label.
+   * Supported operations are =, !=, exists, in, and notIn.
+   * @opt_param int limit The maximum number of records that should be returned.
+   * @opt_param string resourceVersion The baseline resource version from which
+   * the list or watch operation should start. Not currently used by Cloud Run.
+   * @opt_param bool watch Flag that indicates that the client expects to watch
+   * this resource as well. Not currently used by Cloud Run.
+   * @return ListServicesResponse
+   */
+  public function listNamespacesServices($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListServicesResponse::class);
+  }
+  /**
+   * Replace a service. Only the spec and metadata labels and annotations are
+   * modifiable. After the Update request, Cloud Run will work to make the
+   * 'status' match the requested 'spec'. May provide metadata.resourceVersion to
+   * enforce update from last read for optimistic concurrency control.
+   * (services.replaceService)
+   *
+   * @param string $name The name of the service being replaced. For Cloud Run
+   * (fully managed), replace {namespace_id} with the project ID or number.
+   * @param Service $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string dryRun Indicates that the server should validate the
+   * request and populate default values without persisting the request. Supported
+   * values: `all`
+   * @return Service
+   */
+  public function replaceService($name, Service $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('replaceService', [$params], Service::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(NamespacesServices::class, 'Google_Service_CloudRun_Resource_NamespacesServices');

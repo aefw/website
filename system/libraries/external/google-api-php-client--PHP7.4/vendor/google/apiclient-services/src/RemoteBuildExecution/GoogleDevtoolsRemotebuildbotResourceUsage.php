@@ -1,62 +1,83 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPvMjmRZyCZg/YM1KcnmrgMgm43iU4i9YGup8dpTn+mAfDd5db9z0Tl4v7tkxC1wGcpdIb7yh
-Le92eH+SdSnDYZKaGeFAWO1rL/leoWfr0Frr5/JtTLyinSMxJ5p702s30IZHfoPLk38A070i2/pi
-kawa7oN/OLlTBkO0g6Dsxy4YOZFxuqQPr7cy2yDhKbs+4nyJV1FAeGSH2/6K293NP6ibRgGJFGRR
-OqjXnKum37kyk6QfMcwqQYsZtKHCulMxv4g7YgrYeTbt2wMwsr4UxoDofQwyLUVvsid3kSxXEHjC
-p7C+R0jgrCaCpEGn1Oal23dWJrnJFl9qm4JX22zfcpLiPzkN5CQjeSGAjuNRfsrUnCS536zKybuR
-7+9gtpL2D78uZWBHP9UiKuRZP4xWM5ra92OT9sXQavY27AqGldfCJTdfQBFLrUFXDBweqG3b6e+v
-SA9YNctCZVQFWBW4n0hPoB097SuNlGD+UdjaZ8rnaEcZ3SuJOcZ6uTqmERcvhl6aPdxVVHAv26ja
-YDx2eYV+/A+Yl/a1fQdM+X0OHIL/aesLf5YoTyHPfr69uxXQVLLm9dn52M3bC5FEtOno3DVrMQRZ
-L9NMInsoQBddnmXrmLyusTVfdJ8bHK0aGv1sdqXnQKXGByPt8ffwckYbwWHOUCzqYsixBAieMU6K
-tw2U454u0uLT+pU6MXSOqhp5PPxlyijHhfhs3DUplqOVrRuTFL/hcmanHk1nXWbzuVMnSRy3SkJ8
-OYAvbiW7VSis58vVOmEbXXqO4RflxoE91mpXFtV42wHVsUOE/EYFBT67fLTEHXHmsnWSvjKn6NIH
-bJMBrka8SxPZB46B2u11T101e7vXftdW1SNRn3QTVTN21936jXeaTzah80My0uV/Hty/S0DedQ5g
-vMpU8aOzgS76t6QnVuGEJYajka7gcS+UFvmAmda03OXNwzH6zDtZ4U0aChc1tgREPY6RJdcOHijm
-Ov5sssyHbhPRqmhZhbW2bB6C29nLpDSMnlvN2IV/DFRyY9F9Pi0rV614Sg/E1tKOwLwd2te2Eq3z
-mmqb+CA5EV2vqfgyW+I0UUu7iSjDViq/AzJb2BF2PjRxH5UDHtOBHHPgZx7wrCKghAYiJ5txME/2
-KmuRvuw33OSHoW5zm1oOrH4m74m3A0cyNHuLlAyUqdvijwmuJ0pBqrPMoIYfP9V3eByjdUshB8Hs
-g1xfAs3+20Lcai6rXWfid57/KokQsVz1QhWwSSdsb15+ExGGzEz4CMSFSAWz5FhbNmgO1cZiajTv
-ULd8OJvrodHlcquz9LbVpN9+bfu8VazHcfUhSayF7mWMOnNkeQNM12cuYHu+6VenkXdpZG+O0NHF
-A1RnFmtxBVeUUhbS+cuiCo3jrklOlfKDY5ew84JGPxO2P0ftO7WJtOkLInHkTpiG+BNudCxMaQOK
-OdC4cWLBMewrN8Tes0m1wHfraq4Bv9PDAwXyrg3jUXt6SK2tpdkZ9HDwAmWb1CrWpFT1TWL0dz8M
-Gj2PY4Rcp2cgCHReBrW0NbV1ZKs2POFH7wN291A+t/7b40A4CTaokujgBMoSiEAjy+H5gBonT2Yq
-tcCxektwkf/WHj3EqNBnrscutkll8YVCgcTBHZFRJAUumVMmafGia8ivQBIJGgL8eoWDlS/T7JKL
-GbfCRpIi3PNxKxM52bec9rH+BYLkNmPWiwVyAq/dZJHJNYQsjHG3/vpUMNCCqSeL/tMyhp1PCQid
-p45MTMLta8OgrXhkLCPlnXdGOkIWeEjzXpM/E/PFK7IZ8j5Fmr5/hcGPmrqCXLDjfyDeeda0zeFM
-C4G1/PmH7yHWXdjWxp7zawc1giOp+MsMddnNON8eTG9u0jbs19pFuQ1ks0+q0uOjNBLIIM3odphU
-YYpsHu2OM/xn5yehge8uI2clMx24hsMQsMyZtGbZ9xptKZgkkJ1dLXBZQ38hr5cyKBq05XmBkuEM
-4JeuylFdPWgjWB71zHpMg6oVK6PTuFEInc6Ou7aXd83rhITsjy1GQgMQrL+mjEGAagJypXtWqErI
-eEJTzEMc/cXy1aV/uuzqtDSn5bO89SWmK5bISzOB49dcX7e7lW3wS8gYIOXHq0xve44gBeqgwmS1
-aIIkNAT/epxtCvk1DCIM0q7bU9zH3QEw71XleNpRop2EhLssVEs+6hxKmTfDcFhl9PPQJBUgcZsl
-HqNS5n7OPjqUdDMAf/0Xxwyte+H3kqNTkCYrw19a8qyxq1mO0mMuvpM8aajYf2EqLuAcNh/OVjk+
-LIJH/4FDWTiVx4MKwmjAB0P/yP22Lfvw0UCuuvMuHFbtJ/oI1xkVrdErdGzoff+O7GGQ2YwpbU/E
-ao6c59PeDbteKc/sJ5kB8pQXMIwbPc0wAjvn932pkyEUAoI2dwZ36qyXrOFxHy+Lh8+7ha6hE+nN
-msGGzKzFDJla0A0TQZG7kQ5/8XkpwK8kIgBsXMA0ruGm69vnrKOBxGat4t+ZaADCLmUmPrdJxuHx
-tp+o6Widcn84HI8pmf6yhwjWu19dQgsEQcZxNuulsbVo62Lhqktn3+aSN8xsECh2Tp/tciEjfDv2
-Rc81pjq2zeVrJN8UAVO0Dt3du6szvuI4MMaFQjzI7ujZSMIDcHTI6ZvBOotCdwB+sSQODBLmpkCd
-IhPeFjjOW9YDhlAY2m5uMaK/yaqXKKNx93/d4krj6r45yFybDlEBPZjB8bhIV47ZcMKIySvnEsEX
-8BX4+DJGrn57yVCGWugsihi4bnCDpTOlZ8hGTl/K3kBKA1dTcBqMduZSkGEyZvEYuwsw+4NmJgDS
-fyYX41RCS43ZkHociSTv5W/Poy48wspWbnTli4GiWAvgIovnVkHKVRaEAfPv/l/dgdkud7emoy5I
-H+PdJ1Q9uUsp6cT0ysudo0W9iSnKzACB/xpJWou1hBDYWgXaY7hspuAnC4wlXPD5k+b82PRHRNM4
-o39VAVaoE88mLdO1hiSDNHI9tONbDTT8k4hbbsy/+H9rU3Q8J0rhejJ6ln74QaBPWcMY+RKEJkc/
-R57gqDNacwy9PhMQsyDJ80hCWIPzA7Xk58EWI3HAWwEbXIRPiBSVR7kIJ6W7N+fsP/xrOZ//XMTV
-mrAiMxERS2/3/RLpTjHKEkiN8L4XHWpyHwwvdKifNBCkEI9FgA9//C9j0uB7a+aLNV9y9A3jqnIP
-7cMtzcdSoSYJ3rXonj/DsGL8ZUveR6YSVg9toRyGD8zEKY6R0N9r4vFxLaXXavxr2xus+YPW4qOd
-syR6uLLQoqqVvnpiWBRfnxWm5h0iujPQUVGGvu3Ce+kIhSlPTbK+z9yvYm3dTC9gM/MaS5agOQvL
-EJd1U/V1EZFCfsVRBcAT5VKDo7Ghnrs80Ny/Z249kHeMOa7iOrnEib+HLNmausWeTjQ/20T5/TbK
-8n6pyniitpZsbiPHUbvHoaBPkiqw8HmNFVzqHfhvlJUoj7ik5DOujjyj3ON44pOtcmKETlAOQVpr
-BxL3u9sVTz72vAZOwy5Wtadw4vuOpa6u9/F38iviVyCQzAkKMkMgahbI7nqpwvnY/nzQCrfVJbgj
-xM1JL4F6NiVnycRq4kry+pSuYwsjdv3ihf0WeDKNUMYyTN8G4WFgzmYzG0ArxgxYVlI/pRNswk6Z
-cXp1DUzXv5KF5ZGuH8KKSXjoM6ENQrr+byKIccsjhuqRnw029jaw5yBVu2I3plaenxVicpXSzBlr
-qRJPGZvqR4Kt3UsXDgT2RzdSkshlJY2maIkaPyZy934TFLYfgVtX4gWMzEzzEtTFx/Foli8f//gx
-EgurTkf08VirIIxgsLzacZduW6cMOqDccdYFp4Vj7YzuB/rMQF3Ira4rX0cC+imokrQlrMv2CEjO
-55JHP60gSIfwuB6bK9awGYM3q8w84T9Ok31+IC9kRRfTqyaNjsgcWxRIp/kjMWGIuipysca8eRSD
-Qx5kdhPZV1PB7bMsEdCtMp+YjDsz8CScbtGR+tb6MTbDM7SOb6RzTem+9vMAOHgJkwpDYVC22NtK
-yh9jp29GiS21dNNdj0IxeBfrPAaNXx5KgL+aS5C0wuURR7/3eQTTTshdNigPHOdfc254/vGzcxzP
-tB7jKnJLXNtNV7H9y3CRUfg4WF2g5N0qT0mc+zpB0dIG+XcjGANgfb16/6ryrdZOKzqgiOKXIZbL
-IAQxAxaSNRcp5g3X0W==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\RemoteBuildExecution;
+
+class GoogleDevtoolsRemotebuildbotResourceUsage extends \Google\Model
+{
+  public $cpuUsedPercent;
+  protected $diskUsageType = GoogleDevtoolsRemotebuildbotResourceUsageStat::class;
+  protected $diskUsageDataType = '';
+  protected $memoryUsageType = GoogleDevtoolsRemotebuildbotResourceUsageStat::class;
+  protected $memoryUsageDataType = '';
+  protected $totalDiskIoStatsType = GoogleDevtoolsRemotebuildbotResourceUsageIOStats::class;
+  protected $totalDiskIoStatsDataType = '';
+
+  public function setCpuUsedPercent($cpuUsedPercent)
+  {
+    $this->cpuUsedPercent = $cpuUsedPercent;
+  }
+  public function getCpuUsedPercent()
+  {
+    return $this->cpuUsedPercent;
+  }
+  /**
+   * @param GoogleDevtoolsRemotebuildbotResourceUsageStat
+   */
+  public function setDiskUsage(GoogleDevtoolsRemotebuildbotResourceUsageStat $diskUsage)
+  {
+    $this->diskUsage = $diskUsage;
+  }
+  /**
+   * @return GoogleDevtoolsRemotebuildbotResourceUsageStat
+   */
+  public function getDiskUsage()
+  {
+    return $this->diskUsage;
+  }
+  /**
+   * @param GoogleDevtoolsRemotebuildbotResourceUsageStat
+   */
+  public function setMemoryUsage(GoogleDevtoolsRemotebuildbotResourceUsageStat $memoryUsage)
+  {
+    $this->memoryUsage = $memoryUsage;
+  }
+  /**
+   * @return GoogleDevtoolsRemotebuildbotResourceUsageStat
+   */
+  public function getMemoryUsage()
+  {
+    return $this->memoryUsage;
+  }
+  /**
+   * @param GoogleDevtoolsRemotebuildbotResourceUsageIOStats
+   */
+  public function setTotalDiskIoStats(GoogleDevtoolsRemotebuildbotResourceUsageIOStats $totalDiskIoStats)
+  {
+    $this->totalDiskIoStats = $totalDiskIoStats;
+  }
+  /**
+   * @return GoogleDevtoolsRemotebuildbotResourceUsageIOStats
+   */
+  public function getTotalDiskIoStats()
+  {
+    return $this->totalDiskIoStats;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleDevtoolsRemotebuildbotResourceUsage::class, 'Google_Service_RemoteBuildExecution_GoogleDevtoolsRemotebuildbotResourceUsage');

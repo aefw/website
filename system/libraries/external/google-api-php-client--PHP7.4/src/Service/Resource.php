@@ -1,156 +1,308 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/**
+ * Copyright 2010 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+namespace Google\Service;
+
+use Google\Model;
+use Google\Http\MediaFileUpload;
+use Google\Exception as GoogleException;
+use Google\Utils\UriTemplate;
+use GuzzleHttp\Psr7\Request;
+
+/**
+ * Implements the actual methods/resources of the discovered Google API using magic function
+ * calling overloading (__call()), which on call will see if the method name (plus.activities.list)
+ * is available in this service, and if so construct an apiHttpRequest representing it.
+ *
+ */
+class Resource
+{
+  // Valid query parameters that work, but don't appear in discovery.
+  private $stackParameters = array(
+      'alt' => array('type' => 'string', 'location' => 'query'),
+      'fields' => array('type' => 'string', 'location' => 'query'),
+      'trace' => array('type' => 'string', 'location' => 'query'),
+      'userIp' => array('type' => 'string', 'location' => 'query'),
+      'quotaUser' => array('type' => 'string', 'location' => 'query'),
+      'data' => array('type' => 'string', 'location' => 'body'),
+      'mimeType' => array('type' => 'string', 'location' => 'header'),
+      'uploadType' => array('type' => 'string', 'location' => 'query'),
+      'mediaUpload' => array('type' => 'complex', 'location' => 'query'),
+      'prettyPrint' => array('type' => 'string', 'location' => 'query'),
+  );
+
+  /** @var string $rootUrl */
+  private $rootUrl;
+
+  /** @var \Google\Client $client */
+  private $client;
+
+  /** @var string $serviceName */
+  private $serviceName;
+
+  /** @var string $servicePath */
+  private $servicePath;
+
+  /** @var string $resourceName */
+  private $resourceName;
+
+  /** @var array $methods */
+  private $methods;
+
+  public function __construct($service, $serviceName, $resourceName, $resource)
+  {
+    $this->rootUrl = $service->rootUrl;
+    $this->client = $service->getClient();
+    $this->servicePath = $service->servicePath;
+    $this->serviceName = $serviceName;
+    $this->resourceName = $resourceName;
+    $this->methods = is_array($resource) && isset($resource['methods']) ?
+        $resource['methods'] :
+        array($resourceName => $resource);
+  }
+
+  /**
+   * TODO: This function needs simplifying.
+   * @param $name
+   * @param $arguments
+   * @param $expectedClass - optional, the expected class name
+   * @return Request|$expectedClass
+   * @throws \Google\Exception
+   */
+  public function call($name, $arguments, $expectedClass = null)
+  {
+    if (! isset($this->methods[$name])) {
+      $this->client->getLogger()->error(
+          'Service method unknown',
+          array(
+              'service' => $this->serviceName,
+              'resource' => $this->resourceName,
+              'method' => $name
+          )
+      );
+
+      throw new GoogleException(
+          "Unknown function: " .
+          "{$this->serviceName}->{$this->resourceName}->{$name}()"
+      );
+    }
+    $method = $this->methods[$name];
+    $parameters = $arguments[0];
+
+    // postBody is a special case since it's not defined in the discovery
+    // document as parameter, but we abuse the param entry for storing it.
+    $postBody = null;
+    if (isset($parameters['postBody'])) {
+      if ($parameters['postBody'] instanceof Model) {
+        // In the cases the post body is an existing object, we want
+        // to use the smart method to create a simple object for
+        // for JSONification.
+        $parameters['postBody'] = $parameters['postBody']->toSimpleObject();
+      } else if (is_object($parameters['postBody'])) {
+        // If the post body is another kind of object, we will try and
+        // wrangle it into a sensible format.
+        $parameters['postBody'] =
+            $this->convertToArrayAndStripNulls($parameters['postBody']);
+      }
+      $postBody = (array) $parameters['postBody'];
+      unset($parameters['postBody']);
+    }
+
+    // TODO: optParams here probably should have been
+    // handled already - this may well be redundant code.
+    if (isset($parameters['optParams'])) {
+      $optParams = $parameters['optParams'];
+      unset($parameters['optParams']);
+      $parameters = array_merge($parameters, $optParams);
+    }
+
+    if (!isset($method['parameters'])) {
+      $method['parameters'] = array();
+    }
+
+    $method['parameters'] = array_merge(
+        $this->stackParameters,
+        $method['parameters']
+    );
+
+    foreach ($parameters as $key => $val) {
+      if ($key != 'postBody' && ! isset($method['parameters'][$key])) {
+        $this->client->getLogger()->error(
+            'Service parameter unknown',
+            array(
+                'service' => $this->serviceName,
+                'resource' => $this->resourceName,
+                'method' => $name,
+                'parameter' => $key
+            )
+        );
+        throw new GoogleException("($name) unknown parameter: '$key'");
+      }
+    }
+
+    foreach ($method['parameters'] as $paramName => $paramSpec) {
+      if (isset($paramSpec['required']) &&
+          $paramSpec['required'] &&
+          ! isset($parameters[$paramName])
+      ) {
+        $this->client->getLogger()->error(
+            'Service parameter missing',
+            array(
+                'service' => $this->serviceName,
+                'resource' => $this->resourceName,
+                'method' => $name,
+                'parameter' => $paramName
+            )
+        );
+        throw new GoogleException("($name) missing required param: '$paramName'");
+      }
+      if (isset($parameters[$paramName])) {
+        $value = $parameters[$paramName];
+        $parameters[$paramName] = $paramSpec;
+        $parameters[$paramName]['value'] = $value;
+        unset($parameters[$paramName]['required']);
+      } else {
+        // Ensure we don't pass nulls.
+        unset($parameters[$paramName]);
+      }
+    }
+
+    $this->client->getLogger()->info(
+        'Service Call',
+        array(
+            'service' => $this->serviceName,
+            'resource' => $this->resourceName,
+            'method' => $name,
+            'arguments' => $parameters,
+        )
+    );
+
+    // build the service uri
+    $url = $this->createRequestUri(
+        $method['path'],
+        $parameters
+    );
+
+    // NOTE: because we're creating the request by hand,
+    // and because the service has a rootUrl property
+    // the "base_uri" of the Http Client is not accounted for
+    $request = new Request(
+        $method['httpMethod'],
+        $url,
+        ['content-type' => 'application/json'],
+        $postBody ? json_encode($postBody) : ''
+    );
+
+    // support uploads
+    if (isset($parameters['data'])) {
+      $mimeType = isset($parameters['mimeType'])
+        ? $parameters['mimeType']['value']
+        : 'application/octet-stream';
+      $data = $parameters['data']['value'];
+      $upload = new MediaFileUpload($this->client, $request, $mimeType, $data);
+
+      // pull down the modified request
+      $request = $upload->getRequest();
+    }
+
+    // if this is a media type, we will return the raw response
+    // rather than using an expected class
+    if (isset($parameters['alt']) && $parameters['alt']['value'] == 'media') {
+      $expectedClass = null;
+    }
+
+    // if the client is marked for deferring, rather than
+    // execute the request, return the response
+    if ($this->client->shouldDefer()) {
+      // @TODO find a better way to do this
+      $request = $request
+        ->withHeader('X-Php-Expected-Class', $expectedClass);
+
+      return $request;
+    }
+
+    return $this->client->execute($request, $expectedClass);
+  }
+
+  protected function convertToArrayAndStripNulls($o)
+  {
+    $o = (array) $o;
+    foreach ($o as $k => $v) {
+      if ($v === null) {
+        unset($o[$k]);
+      } elseif (is_object($v) || is_array($v)) {
+        $o[$k] = $this->convertToArrayAndStripNulls($o[$k]);
+      }
+    }
+    return $o;
+  }
+
+  /**
+   * Parse/expand request parameters and create a fully qualified
+   * request uri.
+   * @static
+   * @param string $restPath
+   * @param array $params
+   * @return string $requestUrl
+   */
+  public function createRequestUri($restPath, $params)
+  {
+    // Override the default servicePath address if the $restPath use a /
+    if ('/' == substr($restPath, 0, 1)) {
+      $requestUrl = substr($restPath, 1);
+    } else {
+      $requestUrl = $this->servicePath . $restPath;
+    }
+
+    // code for leading slash
+    if ($this->rootUrl) {
+      if ('/' !== substr($this->rootUrl, -1) && '/' !== substr($requestUrl, 0, 1)) {
+        $requestUrl = '/' . $requestUrl;
+      }
+      $requestUrl = $this->rootUrl . $requestUrl;
+    }
+    $uriTemplateVars = array();
+    $queryVars = array();
+    foreach ($params as $paramName => $paramSpec) {
+      if ($paramSpec['type'] == 'boolean') {
+        $paramSpec['value'] = $paramSpec['value'] ? 'true' : 'false';
+      }
+      if ($paramSpec['location'] == 'path') {
+        $uriTemplateVars[$paramName] = $paramSpec['value'];
+      } else if ($paramSpec['location'] == 'query') {
+        if (is_array($paramSpec['value'])) {
+          foreach ($paramSpec['value'] as $value) {
+            $queryVars[] = $paramName . '=' . rawurlencode(rawurldecode($value));
+          }
+        } else {
+          $queryVars[] = $paramName . '=' . rawurlencode(rawurldecode($paramSpec['value']));
+        }
+      }
+    }
+
+    if (count($uriTemplateVars)) {
+      $uriTemplateParser = new UriTemplate();
+      $requestUrl = $uriTemplateParser->parse($requestUrl, $uriTemplateVars);
+    }
+
+    if (count($queryVars)) {
+      $requestUrl .= '?' . implode('&', $queryVars);
+    }
+
+    return $requestUrl;
+  }
+}

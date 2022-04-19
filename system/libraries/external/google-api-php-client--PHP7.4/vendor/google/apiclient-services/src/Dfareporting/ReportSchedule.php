@@ -1,68 +1,90 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-8oNwIY5PDBRSdIV/lMCxfuO=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dfareporting;
+
+class ReportSchedule extends \Google\Collection
+{
+  protected $collection_key = 'repeatsOnWeekDays';
+  public $active;
+  public $every;
+  public $expirationDate;
+  public $repeats;
+  public $repeatsOnWeekDays;
+  public $runsOnDayOfMonth;
+  public $startDate;
+
+  public function setActive($active)
+  {
+    $this->active = $active;
+  }
+  public function getActive()
+  {
+    return $this->active;
+  }
+  public function setEvery($every)
+  {
+    $this->every = $every;
+  }
+  public function getEvery()
+  {
+    return $this->every;
+  }
+  public function setExpirationDate($expirationDate)
+  {
+    $this->expirationDate = $expirationDate;
+  }
+  public function getExpirationDate()
+  {
+    return $this->expirationDate;
+  }
+  public function setRepeats($repeats)
+  {
+    $this->repeats = $repeats;
+  }
+  public function getRepeats()
+  {
+    return $this->repeats;
+  }
+  public function setRepeatsOnWeekDays($repeatsOnWeekDays)
+  {
+    $this->repeatsOnWeekDays = $repeatsOnWeekDays;
+  }
+  public function getRepeatsOnWeekDays()
+  {
+    return $this->repeatsOnWeekDays;
+  }
+  public function setRunsOnDayOfMonth($runsOnDayOfMonth)
+  {
+    $this->runsOnDayOfMonth = $runsOnDayOfMonth;
+  }
+  public function getRunsOnDayOfMonth()
+  {
+    return $this->runsOnDayOfMonth;
+  }
+  public function setStartDate($startDate)
+  {
+    $this->startDate = $startDate;
+  }
+  public function getStartDate()
+  {
+    return $this->startDate;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ReportSchedule::class, 'Google_Service_Dfareporting_ReportSchedule');

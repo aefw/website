@@ -1,74 +1,127 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Books;
+
+class DictlayerdataDictWordsSenses extends \Google\Collection
+{
+  protected $collection_key = 'synonyms';
+  protected $conjugationsType = DictlayerdataDictWordsSensesConjugations::class;
+  protected $conjugationsDataType = 'array';
+  protected $definitionsType = DictlayerdataDictWordsSensesDefinitions::class;
+  protected $definitionsDataType = 'array';
+  public $partOfSpeech;
+  public $pronunciation;
+  public $pronunciationUrl;
+  protected $sourceType = DictlayerdataDictWordsSensesSource::class;
+  protected $sourceDataType = '';
+  public $syllabification;
+  protected $synonymsType = DictlayerdataDictWordsSensesSynonyms::class;
+  protected $synonymsDataType = 'array';
+
+  /**
+   * @param DictlayerdataDictWordsSensesConjugations[]
+   */
+  public function setConjugations($conjugations)
+  {
+    $this->conjugations = $conjugations;
+  }
+  /**
+   * @return DictlayerdataDictWordsSensesConjugations[]
+   */
+  public function getConjugations()
+  {
+    return $this->conjugations;
+  }
+  /**
+   * @param DictlayerdataDictWordsSensesDefinitions[]
+   */
+  public function setDefinitions($definitions)
+  {
+    $this->definitions = $definitions;
+  }
+  /**
+   * @return DictlayerdataDictWordsSensesDefinitions[]
+   */
+  public function getDefinitions()
+  {
+    return $this->definitions;
+  }
+  public function setPartOfSpeech($partOfSpeech)
+  {
+    $this->partOfSpeech = $partOfSpeech;
+  }
+  public function getPartOfSpeech()
+  {
+    return $this->partOfSpeech;
+  }
+  public function setPronunciation($pronunciation)
+  {
+    $this->pronunciation = $pronunciation;
+  }
+  public function getPronunciation()
+  {
+    return $this->pronunciation;
+  }
+  public function setPronunciationUrl($pronunciationUrl)
+  {
+    $this->pronunciationUrl = $pronunciationUrl;
+  }
+  public function getPronunciationUrl()
+  {
+    return $this->pronunciationUrl;
+  }
+  /**
+   * @param DictlayerdataDictWordsSensesSource
+   */
+  public function setSource(DictlayerdataDictWordsSensesSource $source)
+  {
+    $this->source = $source;
+  }
+  /**
+   * @return DictlayerdataDictWordsSensesSource
+   */
+  public function getSource()
+  {
+    return $this->source;
+  }
+  public function setSyllabification($syllabification)
+  {
+    $this->syllabification = $syllabification;
+  }
+  public function getSyllabification()
+  {
+    return $this->syllabification;
+  }
+  /**
+   * @param DictlayerdataDictWordsSensesSynonyms[]
+   */
+  public function setSynonyms($synonyms)
+  {
+    $this->synonyms = $synonyms;
+  }
+  /**
+   * @return DictlayerdataDictWordsSensesSynonyms[]
+   */
+  public function getSynonyms()
+  {
+    return $this->synonyms;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(DictlayerdataDictWordsSenses::class, 'Google_Service_Books_DictlayerdataDictWordsSenses');

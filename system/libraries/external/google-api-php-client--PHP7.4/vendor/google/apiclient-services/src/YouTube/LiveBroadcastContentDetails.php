@@ -1,110 +1,186 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-i3VRn8NkiyRhMvLAh5RWe46hgN/ZMI0=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\YouTube;
+
+class LiveBroadcastContentDetails extends \Google\Model
+{
+  public $boundStreamId;
+  public $boundStreamLastUpdateTimeMs;
+  public $closedCaptionsType;
+  public $enableAutoStart;
+  public $enableAutoStop;
+  public $enableClosedCaptions;
+  public $enableContentEncryption;
+  public $enableDvr;
+  public $enableEmbed;
+  public $enableLowLatency;
+  public $latencyPreference;
+  public $mesh;
+  protected $monitorStreamType = MonitorStreamInfo::class;
+  protected $monitorStreamDataType = '';
+  public $projection;
+  public $recordFromStart;
+  public $startWithSlate;
+  public $stereoLayout;
+
+  public function setBoundStreamId($boundStreamId)
+  {
+    $this->boundStreamId = $boundStreamId;
+  }
+  public function getBoundStreamId()
+  {
+    return $this->boundStreamId;
+  }
+  public function setBoundStreamLastUpdateTimeMs($boundStreamLastUpdateTimeMs)
+  {
+    $this->boundStreamLastUpdateTimeMs = $boundStreamLastUpdateTimeMs;
+  }
+  public function getBoundStreamLastUpdateTimeMs()
+  {
+    return $this->boundStreamLastUpdateTimeMs;
+  }
+  public function setClosedCaptionsType($closedCaptionsType)
+  {
+    $this->closedCaptionsType = $closedCaptionsType;
+  }
+  public function getClosedCaptionsType()
+  {
+    return $this->closedCaptionsType;
+  }
+  public function setEnableAutoStart($enableAutoStart)
+  {
+    $this->enableAutoStart = $enableAutoStart;
+  }
+  public function getEnableAutoStart()
+  {
+    return $this->enableAutoStart;
+  }
+  public function setEnableAutoStop($enableAutoStop)
+  {
+    $this->enableAutoStop = $enableAutoStop;
+  }
+  public function getEnableAutoStop()
+  {
+    return $this->enableAutoStop;
+  }
+  public function setEnableClosedCaptions($enableClosedCaptions)
+  {
+    $this->enableClosedCaptions = $enableClosedCaptions;
+  }
+  public function getEnableClosedCaptions()
+  {
+    return $this->enableClosedCaptions;
+  }
+  public function setEnableContentEncryption($enableContentEncryption)
+  {
+    $this->enableContentEncryption = $enableContentEncryption;
+  }
+  public function getEnableContentEncryption()
+  {
+    return $this->enableContentEncryption;
+  }
+  public function setEnableDvr($enableDvr)
+  {
+    $this->enableDvr = $enableDvr;
+  }
+  public function getEnableDvr()
+  {
+    return $this->enableDvr;
+  }
+  public function setEnableEmbed($enableEmbed)
+  {
+    $this->enableEmbed = $enableEmbed;
+  }
+  public function getEnableEmbed()
+  {
+    return $this->enableEmbed;
+  }
+  public function setEnableLowLatency($enableLowLatency)
+  {
+    $this->enableLowLatency = $enableLowLatency;
+  }
+  public function getEnableLowLatency()
+  {
+    return $this->enableLowLatency;
+  }
+  public function setLatencyPreference($latencyPreference)
+  {
+    $this->latencyPreference = $latencyPreference;
+  }
+  public function getLatencyPreference()
+  {
+    return $this->latencyPreference;
+  }
+  public function setMesh($mesh)
+  {
+    $this->mesh = $mesh;
+  }
+  public function getMesh()
+  {
+    return $this->mesh;
+  }
+  /**
+   * @param MonitorStreamInfo
+   */
+  public function setMonitorStream(MonitorStreamInfo $monitorStream)
+  {
+    $this->monitorStream = $monitorStream;
+  }
+  /**
+   * @return MonitorStreamInfo
+   */
+  public function getMonitorStream()
+  {
+    return $this->monitorStream;
+  }
+  public function setProjection($projection)
+  {
+    $this->projection = $projection;
+  }
+  public function getProjection()
+  {
+    return $this->projection;
+  }
+  public function setRecordFromStart($recordFromStart)
+  {
+    $this->recordFromStart = $recordFromStart;
+  }
+  public function getRecordFromStart()
+  {
+    return $this->recordFromStart;
+  }
+  public function setStartWithSlate($startWithSlate)
+  {
+    $this->startWithSlate = $startWithSlate;
+  }
+  public function getStartWithSlate()
+  {
+    return $this->startWithSlate;
+  }
+  public function setStereoLayout($stereoLayout)
+  {
+    $this->stereoLayout = $stereoLayout;
+  }
+  public function getStereoLayout()
+  {
+    return $this->stereoLayout;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(LiveBroadcastContentDetails::class, 'Google_Service_YouTube_LiveBroadcastContentDetails');

@@ -1,100 +1,170 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Storagetransfer;
+
+class TransferCounters extends \Google\Model
+{
+  public $bytesCopiedToSink;
+  public $bytesDeletedFromSink;
+  public $bytesDeletedFromSource;
+  public $bytesFailedToDeleteFromSink;
+  public $bytesFoundFromSource;
+  public $bytesFoundOnlyFromSink;
+  public $bytesFromSourceFailed;
+  public $bytesFromSourceSkippedBySync;
+  public $objectsCopiedToSink;
+  public $objectsDeletedFromSink;
+  public $objectsDeletedFromSource;
+  public $objectsFailedToDeleteFromSink;
+  public $objectsFoundFromSource;
+  public $objectsFoundOnlyFromSink;
+  public $objectsFromSourceFailed;
+  public $objectsFromSourceSkippedBySync;
+
+  public function setBytesCopiedToSink($bytesCopiedToSink)
+  {
+    $this->bytesCopiedToSink = $bytesCopiedToSink;
+  }
+  public function getBytesCopiedToSink()
+  {
+    return $this->bytesCopiedToSink;
+  }
+  public function setBytesDeletedFromSink($bytesDeletedFromSink)
+  {
+    $this->bytesDeletedFromSink = $bytesDeletedFromSink;
+  }
+  public function getBytesDeletedFromSink()
+  {
+    return $this->bytesDeletedFromSink;
+  }
+  public function setBytesDeletedFromSource($bytesDeletedFromSource)
+  {
+    $this->bytesDeletedFromSource = $bytesDeletedFromSource;
+  }
+  public function getBytesDeletedFromSource()
+  {
+    return $this->bytesDeletedFromSource;
+  }
+  public function setBytesFailedToDeleteFromSink($bytesFailedToDeleteFromSink)
+  {
+    $this->bytesFailedToDeleteFromSink = $bytesFailedToDeleteFromSink;
+  }
+  public function getBytesFailedToDeleteFromSink()
+  {
+    return $this->bytesFailedToDeleteFromSink;
+  }
+  public function setBytesFoundFromSource($bytesFoundFromSource)
+  {
+    $this->bytesFoundFromSource = $bytesFoundFromSource;
+  }
+  public function getBytesFoundFromSource()
+  {
+    return $this->bytesFoundFromSource;
+  }
+  public function setBytesFoundOnlyFromSink($bytesFoundOnlyFromSink)
+  {
+    $this->bytesFoundOnlyFromSink = $bytesFoundOnlyFromSink;
+  }
+  public function getBytesFoundOnlyFromSink()
+  {
+    return $this->bytesFoundOnlyFromSink;
+  }
+  public function setBytesFromSourceFailed($bytesFromSourceFailed)
+  {
+    $this->bytesFromSourceFailed = $bytesFromSourceFailed;
+  }
+  public function getBytesFromSourceFailed()
+  {
+    return $this->bytesFromSourceFailed;
+  }
+  public function setBytesFromSourceSkippedBySync($bytesFromSourceSkippedBySync)
+  {
+    $this->bytesFromSourceSkippedBySync = $bytesFromSourceSkippedBySync;
+  }
+  public function getBytesFromSourceSkippedBySync()
+  {
+    return $this->bytesFromSourceSkippedBySync;
+  }
+  public function setObjectsCopiedToSink($objectsCopiedToSink)
+  {
+    $this->objectsCopiedToSink = $objectsCopiedToSink;
+  }
+  public function getObjectsCopiedToSink()
+  {
+    return $this->objectsCopiedToSink;
+  }
+  public function setObjectsDeletedFromSink($objectsDeletedFromSink)
+  {
+    $this->objectsDeletedFromSink = $objectsDeletedFromSink;
+  }
+  public function getObjectsDeletedFromSink()
+  {
+    return $this->objectsDeletedFromSink;
+  }
+  public function setObjectsDeletedFromSource($objectsDeletedFromSource)
+  {
+    $this->objectsDeletedFromSource = $objectsDeletedFromSource;
+  }
+  public function getObjectsDeletedFromSource()
+  {
+    return $this->objectsDeletedFromSource;
+  }
+  public function setObjectsFailedToDeleteFromSink($objectsFailedToDeleteFromSink)
+  {
+    $this->objectsFailedToDeleteFromSink = $objectsFailedToDeleteFromSink;
+  }
+  public function getObjectsFailedToDeleteFromSink()
+  {
+    return $this->objectsFailedToDeleteFromSink;
+  }
+  public function setObjectsFoundFromSource($objectsFoundFromSource)
+  {
+    $this->objectsFoundFromSource = $objectsFoundFromSource;
+  }
+  public function getObjectsFoundFromSource()
+  {
+    return $this->objectsFoundFromSource;
+  }
+  public function setObjectsFoundOnlyFromSink($objectsFoundOnlyFromSink)
+  {
+    $this->objectsFoundOnlyFromSink = $objectsFoundOnlyFromSink;
+  }
+  public function getObjectsFoundOnlyFromSink()
+  {
+    return $this->objectsFoundOnlyFromSink;
+  }
+  public function setObjectsFromSourceFailed($objectsFromSourceFailed)
+  {
+    $this->objectsFromSourceFailed = $objectsFromSourceFailed;
+  }
+  public function getObjectsFromSourceFailed()
+  {
+    return $this->objectsFromSourceFailed;
+  }
+  public function setObjectsFromSourceSkippedBySync($objectsFromSourceSkippedBySync)
+  {
+    $this->objectsFromSourceSkippedBySync = $objectsFromSourceSkippedBySync;
+  }
+  public function getObjectsFromSourceSkippedBySync()
+  {
+    return $this->objectsFromSourceSkippedBySync;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(TransferCounters::class, 'Google_Service_Storagetransfer_TransferCounters');

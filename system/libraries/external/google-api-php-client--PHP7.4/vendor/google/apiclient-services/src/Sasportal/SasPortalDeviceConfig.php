@@ -1,81 +1,138 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Sasportal;
+
+class SasPortalDeviceConfig extends \Google\Collection
+{
+  protected $collection_key = 'measurementCapabilities';
+  protected $airInterfaceType = SasPortalDeviceAirInterface::class;
+  protected $airInterfaceDataType = '';
+  public $callSign;
+  public $category;
+  protected $installationParamsType = SasPortalInstallationParams::class;
+  protected $installationParamsDataType = '';
+  public $isSigned;
+  public $measurementCapabilities;
+  protected $modelType = SasPortalDeviceModel::class;
+  protected $modelDataType = '';
+  public $state;
+  public $updateTime;
+  public $userId;
+
+  /**
+   * @param SasPortalDeviceAirInterface
+   */
+  public function setAirInterface(SasPortalDeviceAirInterface $airInterface)
+  {
+    $this->airInterface = $airInterface;
+  }
+  /**
+   * @return SasPortalDeviceAirInterface
+   */
+  public function getAirInterface()
+  {
+    return $this->airInterface;
+  }
+  public function setCallSign($callSign)
+  {
+    $this->callSign = $callSign;
+  }
+  public function getCallSign()
+  {
+    return $this->callSign;
+  }
+  public function setCategory($category)
+  {
+    $this->category = $category;
+  }
+  public function getCategory()
+  {
+    return $this->category;
+  }
+  /**
+   * @param SasPortalInstallationParams
+   */
+  public function setInstallationParams(SasPortalInstallationParams $installationParams)
+  {
+    $this->installationParams = $installationParams;
+  }
+  /**
+   * @return SasPortalInstallationParams
+   */
+  public function getInstallationParams()
+  {
+    return $this->installationParams;
+  }
+  public function setIsSigned($isSigned)
+  {
+    $this->isSigned = $isSigned;
+  }
+  public function getIsSigned()
+  {
+    return $this->isSigned;
+  }
+  public function setMeasurementCapabilities($measurementCapabilities)
+  {
+    $this->measurementCapabilities = $measurementCapabilities;
+  }
+  public function getMeasurementCapabilities()
+  {
+    return $this->measurementCapabilities;
+  }
+  /**
+   * @param SasPortalDeviceModel
+   */
+  public function setModel(SasPortalDeviceModel $model)
+  {
+    $this->model = $model;
+  }
+  /**
+   * @return SasPortalDeviceModel
+   */
+  public function getModel()
+  {
+    return $this->model;
+  }
+  public function setState($state)
+  {
+    $this->state = $state;
+  }
+  public function getState()
+  {
+    return $this->state;
+  }
+  public function setUpdateTime($updateTime)
+  {
+    $this->updateTime = $updateTime;
+  }
+  public function getUpdateTime()
+  {
+    return $this->updateTime;
+  }
+  public function setUserId($userId)
+  {
+    $this->userId = $userId;
+  }
+  public function getUserId()
+  {
+    return $this->userId;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(SasPortalDeviceConfig::class, 'Google_Service_Sasportal_SasPortalDeviceConfig');

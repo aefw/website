@@ -1,97 +1,169 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dns;
+
+class Quota extends \Google\Collection
+{
+  protected $collection_key = 'whitelistedKeySpecs';
+  public $dnsKeysPerManagedZone;
+  public $kind;
+  public $managedZones;
+  public $managedZonesPerNetwork;
+  public $networksPerManagedZone;
+  public $networksPerPolicy;
+  public $policies;
+  public $resourceRecordsPerRrset;
+  public $rrsetAdditionsPerChange;
+  public $rrsetDeletionsPerChange;
+  public $rrsetsPerManagedZone;
+  public $targetNameServersPerManagedZone;
+  public $targetNameServersPerPolicy;
+  public $totalRrdataSizePerChange;
+  protected $whitelistedKeySpecsType = DnsKeySpec::class;
+  protected $whitelistedKeySpecsDataType = 'array';
+
+  public function setDnsKeysPerManagedZone($dnsKeysPerManagedZone)
+  {
+    $this->dnsKeysPerManagedZone = $dnsKeysPerManagedZone;
+  }
+  public function getDnsKeysPerManagedZone()
+  {
+    return $this->dnsKeysPerManagedZone;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setManagedZones($managedZones)
+  {
+    $this->managedZones = $managedZones;
+  }
+  public function getManagedZones()
+  {
+    return $this->managedZones;
+  }
+  public function setManagedZonesPerNetwork($managedZonesPerNetwork)
+  {
+    $this->managedZonesPerNetwork = $managedZonesPerNetwork;
+  }
+  public function getManagedZonesPerNetwork()
+  {
+    return $this->managedZonesPerNetwork;
+  }
+  public function setNetworksPerManagedZone($networksPerManagedZone)
+  {
+    $this->networksPerManagedZone = $networksPerManagedZone;
+  }
+  public function getNetworksPerManagedZone()
+  {
+    return $this->networksPerManagedZone;
+  }
+  public function setNetworksPerPolicy($networksPerPolicy)
+  {
+    $this->networksPerPolicy = $networksPerPolicy;
+  }
+  public function getNetworksPerPolicy()
+  {
+    return $this->networksPerPolicy;
+  }
+  public function setPolicies($policies)
+  {
+    $this->policies = $policies;
+  }
+  public function getPolicies()
+  {
+    return $this->policies;
+  }
+  public function setResourceRecordsPerRrset($resourceRecordsPerRrset)
+  {
+    $this->resourceRecordsPerRrset = $resourceRecordsPerRrset;
+  }
+  public function getResourceRecordsPerRrset()
+  {
+    return $this->resourceRecordsPerRrset;
+  }
+  public function setRrsetAdditionsPerChange($rrsetAdditionsPerChange)
+  {
+    $this->rrsetAdditionsPerChange = $rrsetAdditionsPerChange;
+  }
+  public function getRrsetAdditionsPerChange()
+  {
+    return $this->rrsetAdditionsPerChange;
+  }
+  public function setRrsetDeletionsPerChange($rrsetDeletionsPerChange)
+  {
+    $this->rrsetDeletionsPerChange = $rrsetDeletionsPerChange;
+  }
+  public function getRrsetDeletionsPerChange()
+  {
+    return $this->rrsetDeletionsPerChange;
+  }
+  public function setRrsetsPerManagedZone($rrsetsPerManagedZone)
+  {
+    $this->rrsetsPerManagedZone = $rrsetsPerManagedZone;
+  }
+  public function getRrsetsPerManagedZone()
+  {
+    return $this->rrsetsPerManagedZone;
+  }
+  public function setTargetNameServersPerManagedZone($targetNameServersPerManagedZone)
+  {
+    $this->targetNameServersPerManagedZone = $targetNameServersPerManagedZone;
+  }
+  public function getTargetNameServersPerManagedZone()
+  {
+    return $this->targetNameServersPerManagedZone;
+  }
+  public function setTargetNameServersPerPolicy($targetNameServersPerPolicy)
+  {
+    $this->targetNameServersPerPolicy = $targetNameServersPerPolicy;
+  }
+  public function getTargetNameServersPerPolicy()
+  {
+    return $this->targetNameServersPerPolicy;
+  }
+  public function setTotalRrdataSizePerChange($totalRrdataSizePerChange)
+  {
+    $this->totalRrdataSizePerChange = $totalRrdataSizePerChange;
+  }
+  public function getTotalRrdataSizePerChange()
+  {
+    return $this->totalRrdataSizePerChange;
+  }
+  /**
+   * @param DnsKeySpec[]
+   */
+  public function setWhitelistedKeySpecs($whitelistedKeySpecs)
+  {
+    $this->whitelistedKeySpecs = $whitelistedKeySpecs;
+  }
+  /**
+   * @return DnsKeySpec[]
+   */
+  public function getWhitelistedKeySpecs()
+  {
+    return $this->whitelistedKeySpecs;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Quota::class, 'Google_Service_Dns_Quota');

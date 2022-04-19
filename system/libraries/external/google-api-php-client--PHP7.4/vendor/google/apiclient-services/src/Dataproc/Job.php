@@ -1,119 +1,296 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPwYlzYF08SiKxMrZ02PWI1aM8R2Qu1Ew8CCAwTKObhWARqV+xFS8oIKzesZQu9Auj59oIgFi
-ZI3TjUfUxXb07Aic5U9xGEfQOOzpPFpcswDh2gcqWoMSb94aup4v2wespjoC5S245r1GgkGA5ai2
-xo25CA5S8XcB7GC3o5vQgcEEWkcOf2G4n+SkKlSaUB1L2nL/b5mO6Jq4LE/6ttZy3mxruFOIpdAb
-wXw58zwYyiI/e1Ty1NUVWeD9LPnkKCe8mLRLrNsPSOcxdHPWYc7351BcH4WLud1JBZLKXAWiWQO+
-IWNbLVngefthtDk8XnNCBuZKnQS6/+grYbpSlQqd6167zhoLPK5LWQtP2TGMxtS68czr4ltSZ/7+
-4/EYmo8H4V1wAfNLQSKOBOnhGdrJO1sxY3V+vtqpQrRRR5MRyjXHpmwO6SJwVQgATFvi1Ltrnq90
-ZnGD5ADoN4lZ2KAyIelKsc98yEgflSbfud21fyfXnkCvK1bWmNjeGx7AwNK7uD/wcHEhvcHb26EO
-ERyfHnkW1W7LLBE9PJWj6tArsHTyhFX5Mh8PsKnT0VrFZn8+gLdkabzjSET3kRgkiOAG6uaKNQ7l
-aVe6OtP6nKL4h/q1tf/xhzjGAqDEwCUXnANec2LMcfaeo4Q5PybFSqqPQ+LbGOLIUH8jReCDtSNi
-O9ewT4jEyxt8pD7lqjTY1T6tQ0k95N2LCl0JcWTPXz/Wo9gCGhwXakiCqOt4uKyAxfuK4qn0ch1T
-Nn06E5lg2hZDUQOFP5i5zOlJ2GPF7V8LKgC+dYQyiix6x6Np8rT2CGw1k0ifWB+bUoC3dS+lhiBs
-aRwHWe3173FX/MnmMg7/nDAgzEDxQhsmciMH15PKmQACZtJUOOe+Vw9hcZFLMDpVGbbOU1mvLgfu
-vZkD6+Rr1NQHnFhNlxKha8DpeMCbmQVy93URVTfEUiAj5qaj1DAeWImWDpwkHlHOvGc7naRq2B+R
-eVEYf6n+WBlf7vUlCEHV8CiUi7a61yewNO2Ve8VA/Qf9MMAQBHL0bFYIvhaVTKujHD1nw671xb2Y
-5iDXe6BEsh98Tjqw7KOADBkQ7rcOqgjD3viB5vvy2x+AczGscY5kEKmIOBN/UJ6bDv/62OIKMpyv
-tj9PwzemDmnFT5r/C5sh8QJDBSMhK/u7IBS+LhtcZ+SCN36XtWnX5vsSOW7VWinWV4r2l8YWlKK0
-QALi1VVQCErWFgUFenN3nmjLUMA5KQhhu/uccYLOITnypRoLEXMHDPoL/iguCKIEXFd1nQ8SOHNg
-iPJ/8inFBmsYrg2Nb9Qrqdd1WUFTq0un9C3excgCb/inrE1mjkn7PI5ju70J8cBtv667H4hl7FjM
-UjLCNFx99iX4OZt1MCf6ojH9ZhXoDhHojpWrfnqZXOpivRJgoIeUJ35TNlcrLHHFFgoll5Fi9m6y
-VUiA/Fx8rYHnJNMdKhfzDCZ7WvUI+hGKxggdhg5v9aIt4K0ke99OZ9neeg+Vh1sTD64FuHRG+kPF
-3rGk88h3FKOwty3nTlGbqw7DE1O9V/xR5X9fHJGGInEOGXJpKHIQhUY2XQR7ZPLHb+f5nkpbFMgb
-gq78OYQIRJ0Bmji4VOftm377zd/eiNhgf5bEva97KyZ9qM4mA4zJIlrc5ejDkDO0kIebKkWhdWrf
-JE2Opbf60a8K42WdIeQO0mcV1kG9AlClXzyPxlEUyBeqFIXTw3+o0iCMHp5Po97Ga/mDGfemKDqi
-EtvagKDBVaOF1O2kNTon9yQnsA3XFzCPClIoV124K2Wh+xEW+T5LcxXNIv1CtBtqYmAdnQu3Eauk
-nPkr//1fUQQNxotrB9i1YFHWePc+THgAMYzMfp8bAHMyhYE7UKXhm+NMarsyUjz3o0Yd4ricPz63
-fr0nazvIshTZV4Seg7l+TkkORC9CNvpSZJANfCHYxGoJINsuiy91muZy67BaCCEdyJIxOVM7OX7D
-QcBwqgqjQnQ7chAXaisrswNfVGWsL40AT3DmreMvC8oV1gKK2WdG+If8Ct6slk6tKIrfyPpFGhev
-W5e5e2ZaxIFj7V/k9Nlq5/+Mn8/l4LhTvF0pd6Ov+OLEpLV3opPjxudH8XNYTQL4odrJNdFGdy2i
-c+GanrLm436niohve0cODjuwxDN7o6r6Wtv5wR4CIU5vv7ZfFpyv+wLjA31SXHo188rKCZIVuFev
-2sIq0KFLa8XaTAf1Ri0Z8HPvzao5sJHtBRAdxEf6sOmcn4i+n8tnzHKo/iKNTmniIkD/3MHgoMOw
-ridT1yE5clz0PQ14LhS71mulkDxLZe22pMWcoD8MWDtkMxvXY/IcOJzahwM87e69/R7/u9NxuUoT
-9d/9DeuXu3EmqnHYJES63CnZGOCJEq6ONhIk7x8SVr74Fytjd3Wr/p8ZpfCIXceOmzljUEjLYqA6
-BErkukMt1tKFaXbRpgRpnF3v1oxFiktUBuTcZ6XzaTfrnDLhAEFq8OyPyW8BYJs4OO4ccl9GzBHd
-Kj5RqBNK/S2t3eEQ8jveiwBNSPI9PDOgO3xvCzTPy+o4HG810xjuWlCHW3NqqAt+M0jpZCRww+mb
-JAMhMkhKL/fQPyRgdDARwCIj5g/z+MGFiTroUfgAoNuBoRdsjUs0aXOmIqE1HB1wZEfsVjrnuFRI
-yWFeZSN4AURc3a9VUq30Jj3PFS6HdCGXE486cKFJDxQ4ahnEWQsE7es2rSScuqh839Nt+n/v7Os5
-kqND57WQO0qedWp/IGgUTGGQzPeqWGmYgui375iaT65iRgrz6nVs0mV/KJsbZBdWMH3EM1ZxG9n9
-Dvmv8gD3HvYnGrCvM3WgnF/63Ce+tutl3DVcVbN2EV6rcYYHufSKOXT3Fun0DjqtEmDMM1xjQIfM
-KuRbO0owx4eY+yZuICiJHJrH3jTyKiLcULbxctJ5T3gMVrB9obaTl5iULRA/9YvnFjsDDw89IZ3w
-qJNu22ntgPNceODJr3Np/HzrY7Se0qzEKIhA5+6r4kfbM2Mh+iAe3/eLWOOuGhJ62hiG/AAImzU7
-skCe12XERqcJ9SMN0nwFGyI83/uFWNrr4xXDJnG0ImgejFJELSV28ZTdnEfA0coDeXJAgH/qYBwy
-sJq1qAF/VTyKydWlp6Chv8DZE2VCgPpnRvP1AkmKLiFRIX/Bn6YEWiLbkAcyFHofyxxh0OM11mea
-6xjDuueuI8WbOodq4ygFWRRtIcuJcOO4rqP3IwhQQrbXU2/XUSn4VptnCWa7utNUL4hulrbENBL3
-/dOtmFoh0D1HzMZnH+7HMZEDj/EkJF67BwmjCvWxCwCM3XzOKLUQEyNIW4Rjnn6CQvyCxDO+xt+2
-9R7KKcLNjvP7odrPBunI820uyOXsYWkuy2zEb8P4zZCzB+c6xHQUenSf0vbcQ/2mcQBfdfuXvSA5
-JWOEMMj8fHGrWxOci0su5T0H/vvPNIQvHWOHEV+Vo3ulK8CfbOZDwt82MiQpQdsX5x4AlwQvypv+
-RBorapYhgkvMhZYJhD0QBgG9hC2M1jf2t88S0NvXWg6KTDF76DRQLq+qzuvc4NwmDC1FswmjIGpD
-soOUzFoIDNOBeFCYUN7YP4RePlVto9kXlCivtE2MTzCDM2AstHpywUFY1VADo3Rz39MRQoo/r/cn
-mA2BqHdV2hGoiHch8oCGwsjRGBpp6KzVA4cnT6ZLVRaWBpgcw0uG5hAJgP2564a5/SCi/P9VlkIY
-fMM+x0QznjG7uiMfyc/mLEyOEHBwnSHt1Gj1VYJGOX4Gec5h+XSfFQQaG/Xw1XPxi6yA45Av0EQZ
-6bqsiNjha4sMaYGZg4JzcAKWTLXMwnVjrbgwYt8x7iZXqcp3dbc/qE3sj6S9RAOCYYg1zsd7iatS
-P8RQdRwkB10fCs8F6qOUK1J6F+oC/uiLwZ0hrUIixoBgn3thk9arjIOHtjK/SH5fATL9TT9jKjhp
-bZPnWt+7efVa3SB7C83IcY1UK14z/pqAjS6cIH3hbBLKLY9YY1rJLHMaRT/IQUVhSHTl893LIWXo
-etawpI3IaC0CRq9qRfAsAUfZR2fK5J68OpFXAvckrNBC6yKbNXTEtjGk+rjWsnpIw7Qxd9WaJjyT
-b5zx9jx6HD4bxxyDN6RiaNEIoC2vG//24EIREWDrVFMEn3zihrJjSq2f7lGC01/YDcvFwMoHmQ3w
-P7zY3xJC7U37ySbUMV2jaD3E5JBy1NU5XKo47niUGYlzFOPh6tSDEuOYiogXKciXLtmDDEPp5TLO
-3Hp4mlsZilCV+HWZvolKR2ZVNOSA+H79hzsj57H1T0Q/Y0l6zE/NZP8luh3z9P6GPlqpXOrbQPl4
-UZZWJDEtCFhRtjMnRyo3FXnsenkjyBMqfG/vHznn+Zr5MlKFsQH30kJUz+v89P4PRjZxTM4kLgXO
-5eLMODNzuaFePdNOLtk58I1tVU8N2HFNNbK5cT5a68Vg1jIql96g95Xqbxn3lf3cyA8m/+kH0AmS
-5xs9YTBLp4468nchC2mkNM5bhZ8cJExi6reHf/0DxeX2TsGvovGE86XKhWu0+bQ9rR5v3m8Rn9L0
-5ltzCbx3gjNwlTpLhS8CN2860xIfA/DGV/5aWtw1ydgcPCAVUODAN59z50EqFKbNnXVBKNpfLxbD
-mAjLFqdrV+QmtnVdbQXbQyjhWNbvaZfgA6csHmI2cy5UwOKHqNuob1EFMOEwQFOdPqh/xTfFp5Gf
-bRoviodgzOnjKYw/8cQury3T8MFHIz3sSPnznlutDsPMn7lSeEAh2oDozSrmfHxqfoXI60BClX51
-XA1xhbo3NczhzFbEkGC0k7Zm7JdV4Iltn0yoPokCrOgwShhP/Sywk1XgR5+CZoFuXgvYPW+nIOwT
-eQrm01glKUK8gA+xWm7xOpibmg3vcGF1cnNBQyM4reg5+F7KuXbsBE9njVdg8rhBNjqtYosyZQCe
-EN+kcJ7I91twX+0p2MgwflxSIBPdZrCsmPvgvshUIpUlS1Nd1Wb+lZxoJuIqXgnJgBBdz+rXNPki
-yKy9WCG4uRj5LWkB3KG2xpcwbLZoeZMlaHtqKtWWSwhSCrGn7Du7KdNakDDs2CnUpeuJmV9Vl7H7
-y37xqfq/4V6F2i2PxDojp99B7LG3iVv8lvYsaKKI5AMJax3KFkrqA+iGB8kjCWTXWkSwIkN5AOPv
-CEKL130tA84nVhRt4dGPQTbg7oJWS+3Y8Ksj4UvCzIznorgt4r99+dzeQMgaw9SMLb3WeGtPUWtG
-xnoJ0XKqB2qLgBQoh/0fx+4U9X9/VEfXHJwhTpWPesJdLiMi4PTmcD2/YFOp1tvLtYn1OuVX1rjY
-J+GrlyKD8beI6mh1IsfZBUEGIebdTt9ccrRic22Yf7WFq8t/ZDC4A0RdVFMHAcnBoRppkZdVw2Zs
-uYHv7aEIghowNJOL7qHah20IA8eJDrk/okt8QObA91n0JhWXdTRQ4T7FBP5Nyme6JeSD2Lp2fPMS
-hoQiB9hXxme3GqqjOQie+AgKLveQcN6NEJO5svTx4m8Z/yyfEWOgbJA9XfrF88dRkXdrsRkvRlVw
-5KoIeFfSyAW3i7Am+aYbVfkV8a6lec0ewmKU4r7hOLKKFr/qKAZupRlV9YmcMFEEbYtQG6MnJhkQ
-N/sK38xy/1QxQMAitQ6BaT43tq0jLnhdQssu9rmOzER4IopiHYyRZaCdIfSvZ6CNM43H1DefUdUs
-XnARngCSIDh6cnTgtqLzq9stDojsFkTFXxfIZsvU8bJMG7NExsKGm80vruVTitmUl8yJ0b8fUN0t
-hm1viER7pNQC/6z2vnhYdRrMkEktIT71m4voUE+27H1QHN9hBMVXFPX9gvd4Uo15p2k9xHHTG93W
-IiHW+rHt+A/J0lm66X1aAQHK7ZigoWDSsJ6EfZEJbwCGEXfVKQiJIaUYLEbxFs7llV6g1H8z36ah
-r5B8xaK2uTTZ9M50w/zYiUv6dWt88xhKDW+l9+J90QRJTYclB4+TkUM2XAjZUkiaRtIYwR1VzsnT
-LsgfDm8vVIEOOL6KWpHvvgX/EJuF7VoTAOHFCI14SPmqyjta8su0yiy71O+1DYckfY7Qn3KkTHfJ
-KbBFf4TbW/LZQIgFG94KRO32dlUuVGPX9x3TiVwDHlC2cgowbff6G7vhKRECXSQyi0MP0jN2Bg0f
-QoXGKOO24IeDOnOtBh/7di+g49XydPGw7mqqegmHnh2tdn/URCWgStdSy22vfPkdVLmdYmVgpRBE
-PG8I23CLzo3sIxmJWGrrYOWCtEgh5CBXrx+UwBRue1GCyFeF0wZm5JsneDweeIndGtuwgj+NlIUw
-Re/SH5fuLMBTixtdwTGitibzSPwGZFgp/ZlTDyyFZXrTl6Bq1+L6t/wYVY8lC7y3az89JM9b1h89
-7hDfd7ctEmYrQQ9gwEbOk21Pw+47thaZpa+NPQSF/2HrXCEz2vE/ClzP1DbEEmXBjXG1fgy22nx5
-igwoZ4OKfMTTkmAJ4WY1YHDpDtTNv2AjBfs1h/b+EaG84DJyZ+kX8cR9iDo7pNAjU1I+5SpiHS3b
-1zmwXVXtqNgOwFoXoQ77ZxHyHrlT2UQUs8l78khtH1yZeVxiQwBwDjwy8K+Ninkl8I8kPk5LOtPm
-21mLCi+dF/Ip0kt6JrJoWATeRV6QqDICO5HKPDHF6LD/dEuI2s8M8r1JsSgVUxtKafyB31TbHlC9
-Nbm9gr+6i8jv21Qy9jED8coecO9LUVfBvErUftHcBDbmY8CnXvgpdhxca5LSeW5ZjJlYqkGKdNJX
-4UuOATSVhZz4fvYRsfwV0iHUAXmsDV/iq5WD6Ipb4t5xnutv03MC6TOxkhWYIhFKzjl+CsQr1Z+j
-Fb4f6/KkMukgPr0g0DHIfxleuVyHmcsLhC7INhiASsd3V/63sWa8korvD8jYCm+4knIHHgFiJF1a
-7oORXexAU+OtQPZtPhOPSiLHQSEGYKBiWgmCT52NXbKnIScuStzzHDGHKQX+/SLLrNFd2TQQ3FBf
-sGm8sfjOV+ZMds7JLQh6gEi1lylEgDyCpVNyPaJKwk4GExbBFM987HK81/jr+1yGCUIHjrA6sMaL
-LmxqTn7hcsNQNNH3yo9NhDH1gmtptqelbba0h4WCQNXBTY5NhIPXV5zGwELnB74KqqE5dz4SqfgB
-aYforiK5p15eyTy3odDk/BRH3EQNkivHgFR1zoZiIGGJLX0ogntiDkT81GtHvaReJwWWdhBcqFeH
-2Yvq43GuywLVdqrJG4R5TOwIRWmItDEC5JeLTdaq+35R3aQ7J9ai2yhjMg3OWO7JTrupDeoviD6e
-TFIW0Fc7Swmf5w+8t84h/XdF2VeUTeOS/yyDHMwWZ7MYJMZE8QdR+6Cz/olT9TWHhucdLslgADwR
-5NCeSldE5IrarS8wccyMGEKROMqLRC7G8RcS9iYUxng9XPklLcsfK9we8iYtb87RC4yI6fIQa0GJ
-JhziqTYCrk2DS6phuiHKxejosz7yoHx/DnsMrP149nbbz8tIQbIofL9XKEOWFRKcN4WNMxZ+MtUR
-k+UDQfd+ujU5imHcKWp3YzK6DBzMVPG9qa3t2U5pHZuNyNJgwoSl20B0rtqcGmrQrheitjWhLb2c
-plTJ/N1NAH+IgTYfTbb//uz9Mv36ApI4/uZJLvP9xiAlwsElJ+AB3G52k6F+MMpee8jEqa86q/DH
-xRRrwAQ+8ngRlNrMoEwCk34XYT6LEXNm4heqOgHQZjRVm/VlYaSxwiy+vPPZhkbecZMGbD1/Tm09
-Dqrlp2AlC9RE/Y81QQ/wXyC7tIJBW8W13COeZDZ5ZQpM/ksnuzXAVFDNiY/WS7lZ0RoCKKkCC6Na
-y2fOZU9/JgUQqKeJ3X4omUB/wSlyzYHD/O441A+hQSB4fIBaarU6S26xn8dLyfMhGUbiVAbzG07a
-TmPMa/cUli2TJSD1OUNQHENHfBIna9VBbGmvRst9tnfl74Kp+2SG3AEBiHf1bhv6nh7emUaIRpM3
-4hdAmeKg3O+vWo1eSZDQgkrEIfaBIO81pqlD6OXPYgazDPaA9Jwht920QfW/dDQfIALbIkYQCZrI
-LEzKWOj80VfqrLsAQjg/VDuvdsRbyhtCs7PA100RGB69Zec5PCvQhpqxOgwcegO0+CaYgRfHQmPF
-MTvtw+b26CqgQOD0W+7jPi92hiC5iVUxKPs9GW/Z+tjKnJEzLrbtc2u53b22rtfQYnlcyLBzaZcZ
-ofeocYAVJmFOzRGGY3/BLd6Apg2rK5sOvU3vxQinj52GhzHIfjRBc7+kEdeTFeNtF/4FbHLdOqpE
-Vjlo/VkU9uoNQY9sg+JygHTTmLAuK6H6DS75Lfa8iKBw8++/yXiRcqzlZuPFb6S6jZCKF+oKCYDW
-c/E6cf0NZO7gq3e8A0S521D4+5OeQt06QurKjXnTgTdHFw+5CgPglmWCLsQSAMBYTRTSMZ1sOP8G
-Sm6VOmjgBGGE6s5h432tZDJ4iGL7t5GpeZDbDDVYy5Y8AXE4yL/G2sI3KsIFHQr/x8b7rVpXBelh
-eOvPUH/1B09sdqBhtP3ePkYATyJOyHU0fTg8dAeNyN+x46PHiy1z6DwHRq/5CKpffi41d8u=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dataproc;
+
+class Job extends \Google\Collection
+{
+  protected $collection_key = 'yarnApplications';
+  public $done;
+  public $driverControlFilesUri;
+  public $driverOutputResourceUri;
+  protected $hadoopJobType = HadoopJob::class;
+  protected $hadoopJobDataType = '';
+  protected $hiveJobType = HiveJob::class;
+  protected $hiveJobDataType = '';
+  public $jobUuid;
+  public $labels;
+  protected $pigJobType = PigJob::class;
+  protected $pigJobDataType = '';
+  protected $placementType = JobPlacement::class;
+  protected $placementDataType = '';
+  protected $prestoJobType = PrestoJob::class;
+  protected $prestoJobDataType = '';
+  protected $pysparkJobType = PySparkJob::class;
+  protected $pysparkJobDataType = '';
+  protected $referenceType = JobReference::class;
+  protected $referenceDataType = '';
+  protected $schedulingType = JobScheduling::class;
+  protected $schedulingDataType = '';
+  protected $sparkJobType = SparkJob::class;
+  protected $sparkJobDataType = '';
+  protected $sparkRJobType = SparkRJob::class;
+  protected $sparkRJobDataType = '';
+  protected $sparkSqlJobType = SparkSqlJob::class;
+  protected $sparkSqlJobDataType = '';
+  protected $statusType = JobStatus::class;
+  protected $statusDataType = '';
+  protected $statusHistoryType = JobStatus::class;
+  protected $statusHistoryDataType = 'array';
+  protected $yarnApplicationsType = YarnApplication::class;
+  protected $yarnApplicationsDataType = 'array';
+
+  public function setDone($done)
+  {
+    $this->done = $done;
+  }
+  public function getDone()
+  {
+    return $this->done;
+  }
+  public function setDriverControlFilesUri($driverControlFilesUri)
+  {
+    $this->driverControlFilesUri = $driverControlFilesUri;
+  }
+  public function getDriverControlFilesUri()
+  {
+    return $this->driverControlFilesUri;
+  }
+  public function setDriverOutputResourceUri($driverOutputResourceUri)
+  {
+    $this->driverOutputResourceUri = $driverOutputResourceUri;
+  }
+  public function getDriverOutputResourceUri()
+  {
+    return $this->driverOutputResourceUri;
+  }
+  /**
+   * @param HadoopJob
+   */
+  public function setHadoopJob(HadoopJob $hadoopJob)
+  {
+    $this->hadoopJob = $hadoopJob;
+  }
+  /**
+   * @return HadoopJob
+   */
+  public function getHadoopJob()
+  {
+    return $this->hadoopJob;
+  }
+  /**
+   * @param HiveJob
+   */
+  public function setHiveJob(HiveJob $hiveJob)
+  {
+    $this->hiveJob = $hiveJob;
+  }
+  /**
+   * @return HiveJob
+   */
+  public function getHiveJob()
+  {
+    return $this->hiveJob;
+  }
+  public function setJobUuid($jobUuid)
+  {
+    $this->jobUuid = $jobUuid;
+  }
+  public function getJobUuid()
+  {
+    return $this->jobUuid;
+  }
+  public function setLabels($labels)
+  {
+    $this->labels = $labels;
+  }
+  public function getLabels()
+  {
+    return $this->labels;
+  }
+  /**
+   * @param PigJob
+   */
+  public function setPigJob(PigJob $pigJob)
+  {
+    $this->pigJob = $pigJob;
+  }
+  /**
+   * @return PigJob
+   */
+  public function getPigJob()
+  {
+    return $this->pigJob;
+  }
+  /**
+   * @param JobPlacement
+   */
+  public function setPlacement(JobPlacement $placement)
+  {
+    $this->placement = $placement;
+  }
+  /**
+   * @return JobPlacement
+   */
+  public function getPlacement()
+  {
+    return $this->placement;
+  }
+  /**
+   * @param PrestoJob
+   */
+  public function setPrestoJob(PrestoJob $prestoJob)
+  {
+    $this->prestoJob = $prestoJob;
+  }
+  /**
+   * @return PrestoJob
+   */
+  public function getPrestoJob()
+  {
+    return $this->prestoJob;
+  }
+  /**
+   * @param PySparkJob
+   */
+  public function setPysparkJob(PySparkJob $pysparkJob)
+  {
+    $this->pysparkJob = $pysparkJob;
+  }
+  /**
+   * @return PySparkJob
+   */
+  public function getPysparkJob()
+  {
+    return $this->pysparkJob;
+  }
+  /**
+   * @param JobReference
+   */
+  public function setReference(JobReference $reference)
+  {
+    $this->reference = $reference;
+  }
+  /**
+   * @return JobReference
+   */
+  public function getReference()
+  {
+    return $this->reference;
+  }
+  /**
+   * @param JobScheduling
+   */
+  public function setScheduling(JobScheduling $scheduling)
+  {
+    $this->scheduling = $scheduling;
+  }
+  /**
+   * @return JobScheduling
+   */
+  public function getScheduling()
+  {
+    return $this->scheduling;
+  }
+  /**
+   * @param SparkJob
+   */
+  public function setSparkJob(SparkJob $sparkJob)
+  {
+    $this->sparkJob = $sparkJob;
+  }
+  /**
+   * @return SparkJob
+   */
+  public function getSparkJob()
+  {
+    return $this->sparkJob;
+  }
+  /**
+   * @param SparkRJob
+   */
+  public function setSparkRJob(SparkRJob $sparkRJob)
+  {
+    $this->sparkRJob = $sparkRJob;
+  }
+  /**
+   * @return SparkRJob
+   */
+  public function getSparkRJob()
+  {
+    return $this->sparkRJob;
+  }
+  /**
+   * @param SparkSqlJob
+   */
+  public function setSparkSqlJob(SparkSqlJob $sparkSqlJob)
+  {
+    $this->sparkSqlJob = $sparkSqlJob;
+  }
+  /**
+   * @return SparkSqlJob
+   */
+  public function getSparkSqlJob()
+  {
+    return $this->sparkSqlJob;
+  }
+  /**
+   * @param JobStatus
+   */
+  public function setStatus(JobStatus $status)
+  {
+    $this->status = $status;
+  }
+  /**
+   * @return JobStatus
+   */
+  public function getStatus()
+  {
+    return $this->status;
+  }
+  /**
+   * @param JobStatus[]
+   */
+  public function setStatusHistory($statusHistory)
+  {
+    $this->statusHistory = $statusHistory;
+  }
+  /**
+   * @return JobStatus[]
+   */
+  public function getStatusHistory()
+  {
+    return $this->statusHistory;
+  }
+  /**
+   * @param YarnApplication[]
+   */
+  public function setYarnApplications($yarnApplications)
+  {
+    $this->yarnApplications = $yarnApplications;
+  }
+  /**
+   * @return YarnApplication[]
+   */
+  public function getYarnApplications()
+  {
+    return $this->yarnApplications;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Job::class, 'Google_Service_Dataproc_Job');

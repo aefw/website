@@ -1,63 +1,96 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-JbW5HiCcwFOZnxGhtJHOvMgbtAkkjFwc
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dfareporting\Resource;
+
+use Google\Service\Dfareporting\DynamicTargetingKey;
+use Google\Service\Dfareporting\DynamicTargetingKeysListResponse;
+
+/**
+ * The "dynamicTargetingKeys" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $dfareportingService = new Google\Service\Dfareporting(...);
+ *   $dynamicTargetingKeys = $dfareportingService->dynamicTargetingKeys;
+ *  </code>
+ */
+class DynamicTargetingKeys extends \Google\Service\Resource
+{
+  /**
+   * Deletes an existing dynamic targeting key. (dynamicTargetingKeys.delete)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param string $objectId ID of the object of this dynamic targeting key. This
+   * is a required field.
+   * @param string $name Name of this dynamic targeting key. This is a required
+   * field. Must be less than 256 characters long and cannot contain commas. All
+   * characters are converted to lowercase.
+   * @param string $objectType Type of the object of this dynamic targeting key.
+   * This is a required field.
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($profileId, $objectId, $name, $objectType, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'objectId' => $objectId, 'name' => $name, 'objectType' => $objectType];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Inserts a new dynamic targeting key. Keys must be created at the advertiser
+   * level before being assigned to the advertiser's ads, creatives, or
+   * placements. There is a maximum of 1000 keys per advertiser, out of which a
+   * maximum of 20 keys can be assigned per ad, creative, or placement.
+   * (dynamicTargetingKeys.insert)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param DynamicTargetingKey $postBody
+   * @param array $optParams Optional parameters.
+   * @return DynamicTargetingKey
+   */
+  public function insert($profileId, DynamicTargetingKey $postBody, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], DynamicTargetingKey::class);
+  }
+  /**
+   * Retrieves a list of dynamic targeting keys.
+   * (dynamicTargetingKeys.listDynamicTargetingKeys)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string advertiserId Select only dynamic targeting keys whose
+   * object has this advertiser ID.
+   * @opt_param string names Select only dynamic targeting keys exactly matching
+   * these names.
+   * @opt_param string objectId Select only dynamic targeting keys with this
+   * object ID.
+   * @opt_param string objectType Select only dynamic targeting keys with this
+   * object type.
+   * @return DynamicTargetingKeysListResponse
+   */
+  public function listDynamicTargetingKeys($profileId, $optParams = [])
+  {
+    $params = ['profileId' => $profileId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], DynamicTargetingKeysListResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(DynamicTargetingKeys::class, 'Google_Service_Dfareporting_Resource_DynamicTargetingKeys');

@@ -1,99 +1,348 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-wB70Zt6FcJBzztr7M+7tRWjgA7+hHEFNj8ZNbZK=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Cloudchannel\Resource;
+
+use Google\Service\Cloudchannel\GoogleCloudChannelV1ActivateEntitlementRequest;
+use Google\Service\Cloudchannel\GoogleCloudChannelV1CancelEntitlementRequest;
+use Google\Service\Cloudchannel\GoogleCloudChannelV1ChangeOfferRequest;
+use Google\Service\Cloudchannel\GoogleCloudChannelV1ChangeParametersRequest;
+use Google\Service\Cloudchannel\GoogleCloudChannelV1ChangeRenewalSettingsRequest;
+use Google\Service\Cloudchannel\GoogleCloudChannelV1CreateEntitlementRequest;
+use Google\Service\Cloudchannel\GoogleCloudChannelV1Entitlement;
+use Google\Service\Cloudchannel\GoogleCloudChannelV1ListEntitlementsResponse;
+use Google\Service\Cloudchannel\GoogleCloudChannelV1Offer;
+use Google\Service\Cloudchannel\GoogleCloudChannelV1StartPaidServiceRequest;
+use Google\Service\Cloudchannel\GoogleCloudChannelV1SuspendEntitlementRequest;
+use Google\Service\Cloudchannel\GoogleLongrunningOperation;
+
+/**
+ * The "entitlements" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $cloudchannelService = new Google\Service\Cloudchannel(...);
+ *   $entitlements = $cloudchannelService->entitlements;
+ *  </code>
+ */
+class AccountsCustomersEntitlements extends \Google\Service\Resource
+{
+  /**
+   * Activates a previously suspended entitlement. Entitlements suspended for
+   * pending ToS acceptance can't be activated using this method. An entitlement
+   * activation is a long-running operation and it updates the state of the
+   * customer entitlement. Possible error codes: * PERMISSION_DENIED: The reseller
+   * account making the request is different from the reseller account in the API
+   * request. * INVALID_ARGUMENT: Required request parameters are missing or
+   * invalid. * NOT_FOUND: Entitlement resource not found. *
+   * SUSPENSION_NOT_RESELLER_INITIATED: Can only activate reseller-initiated
+   * suspensions and entitlements that have accepted the TOS. * NOT_SUSPENDED: Can
+   * only activate suspended entitlements not in an ACTIVE state. * INTERNAL: Any
+   * non-user error related to a technical issue in the backend. Contact Cloud
+   * Channel support. * UNKNOWN: Any non-user error related to a technical issue
+   * in the backend. Contact Cloud Channel support. Return value: The ID of a
+   * long-running operation. To get the results of the operation, call the
+   * GetOperation method of CloudChannelOperationsService. The Operation metadata
+   * will contain an instance of OperationMetadata. (entitlements.activate)
+   *
+   * @param string $name Required. The resource name of the entitlement to
+   * activate. Name uses the format:
+   * accounts/{account_id}/customers/{customer_id}/entitlements/{entitlement_id}
+   * @param GoogleCloudChannelV1ActivateEntitlementRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function activate($name, GoogleCloudChannelV1ActivateEntitlementRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('activate', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Cancels a previously fulfilled entitlement. An entitlement cancellation is a
+   * long-running operation. Possible error codes: * PERMISSION_DENIED: The
+   * reseller account making the request is different from the reseller account in
+   * the API request. * FAILED_PRECONDITION: There are Google Cloud projects
+   * linked to the Google Cloud entitlement's Cloud Billing subaccount. *
+   * INVALID_ARGUMENT: Required request parameters are missing or invalid. *
+   * NOT_FOUND: Entitlement resource not found. * DELETION_TYPE_NOT_ALLOWED:
+   * Cancel is only allowed for Google Workspace add-ons, or entitlements for
+   * Google Cloud's development platform. * INTERNAL: Any non-user error related
+   * to a technical issue in the backend. Contact Cloud Channel support. *
+   * UNKNOWN: Any non-user error related to a technical issue in the backend.
+   * Contact Cloud Channel support. Return value: The ID of a long-running
+   * operation. To get the results of the operation, call the GetOperation method
+   * of CloudChannelOperationsService. The response will contain
+   * google.protobuf.Empty on success. The Operation metadata will contain an
+   * instance of OperationMetadata. (entitlements.cancel)
+   *
+   * @param string $name Required. The resource name of the entitlement to cancel.
+   * Name uses the format:
+   * accounts/{account_id}/customers/{customer_id}/entitlements/{entitlement_id}
+   * @param GoogleCloudChannelV1CancelEntitlementRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function cancel($name, GoogleCloudChannelV1CancelEntitlementRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('cancel', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Updates the Offer for an existing customer entitlement. An entitlement update
+   * is a long-running operation and it updates the entitlement as a result of
+   * fulfillment. Possible error codes: * PERMISSION_DENIED: The customer doesn't
+   * belong to the reseller. * INVALID_ARGUMENT: Required request parameters are
+   * missing or invalid. * NOT_FOUND: Offer or Entitlement resource not found. *
+   * INTERNAL: Any non-user error related to a technical issue in the backend.
+   * Contact Cloud Channel support. * UNKNOWN: Any non-user error related to a
+   * technical issue in the backend. Contact Cloud Channel support. Return value:
+   * The ID of a long-running operation. To get the results of the operation, call
+   * the GetOperation method of CloudChannelOperationsService. The Operation
+   * metadata will contain an instance of OperationMetadata.
+   * (entitlements.changeOffer)
+   *
+   * @param string $name Required. The resource name of the entitlement to update.
+   * Name uses the format:
+   * accounts/{account_id}/customers/{customer_id}/entitlements/{entitlement_id}
+   * @param GoogleCloudChannelV1ChangeOfferRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function changeOffer($name, GoogleCloudChannelV1ChangeOfferRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('changeOffer', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Change parameters of the entitlement. An entitlement update is a long-running
+   * operation and it updates the entitlement as a result of fulfillment. Possible
+   * error codes: * PERMISSION_DENIED: The customer doesn't belong to the
+   * reseller. * INVALID_ARGUMENT: Required request parameters are missing or
+   * invalid. For example, the number of seats being changed is greater than the
+   * allowed number of max seats, or decreasing seats for a commitment based plan.
+   * * NOT_FOUND: Entitlement resource not found. * INTERNAL: Any non-user error
+   * related to a technical issue in the backend. Contact Cloud Channel support. *
+   * UNKNOWN: Any non-user error related to a technical issue in the backend.
+   * Contact Cloud Channel support. Return value: The ID of a long-running
+   * operation. To get the results of the operation, call the GetOperation method
+   * of CloudChannelOperationsService. The Operation metadata will contain an
+   * instance of OperationMetadata. (entitlements.changeParameters)
+   *
+   * @param string $name Required. The name of the entitlement to update. Name
+   * uses the format:
+   * accounts/{account_id}/customers/{customer_id}/entitlements/{entitlement_id}
+   * @param GoogleCloudChannelV1ChangeParametersRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function changeParameters($name, GoogleCloudChannelV1ChangeParametersRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('changeParameters', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Updates the renewal settings for an existing customer entitlement. An
+   * entitlement update is a long-running operation and it updates the entitlement
+   * as a result of fulfillment. Possible error codes: * PERMISSION_DENIED: The
+   * customer doesn't belong to the reseller. * INVALID_ARGUMENT: Required request
+   * parameters are missing or invalid. * NOT_FOUND: Entitlement resource not
+   * found. * NOT_COMMITMENT_PLAN: Renewal Settings are only applicable for a
+   * commitment plan. Can't enable or disable renewals for non-commitment plans. *
+   * INTERNAL: Any non-user error related to a technical issue in the backend.
+   * Contact Cloud Channel support. * UNKNOWN: Any non-user error related to a
+   * technical issue in the backend. Contact Cloud Channel support. Return value:
+   * The ID of a long-running operation. To get the results of the operation, call
+   * the GetOperation method of CloudChannelOperationsService. The Operation
+   * metadata will contain an instance of OperationMetadata.
+   * (entitlements.changeRenewalSettings)
+   *
+   * @param string $name Required. The name of the entitlement to update. Name
+   * uses the format:
+   * accounts/{account_id}/customers/{customer_id}/entitlements/{entitlement_id}
+   * @param GoogleCloudChannelV1ChangeRenewalSettingsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function changeRenewalSettings($name, GoogleCloudChannelV1ChangeRenewalSettingsRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('changeRenewalSettings', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Creates an entitlement for a customer. Possible error codes: *
+   * PERMISSION_DENIED: The customer doesn't belong to the reseller. *
+   * INVALID_ARGUMENT: * Required request parameters are missing or invalid. *
+   * There is already a customer entitlement for a SKU from the same product
+   * family. * INVALID_VALUE: Make sure the OfferId is valid. If it is, contact
+   * Google Channel support for further troubleshooting. * NOT_FOUND: The customer
+   * or offer resource was not found. * ALREADY_EXISTS: * The SKU was already
+   * purchased for the customer. * The customer's primary email already exists.
+   * Retry after changing the customer's primary contact email. *
+   * CONDITION_NOT_MET or FAILED_PRECONDITION: * The domain required for
+   * purchasing a SKU has not been verified. * A pre-requisite SKU required to
+   * purchase an Add-On SKU is missing. For example, Google Workspace Business
+   * Starter is required to purchase Vault or Drive. * (Developer accounts only)
+   * Reseller and resold domain must meet the following naming requirements: *
+   * Domain names must start with goog-test. * Domain names must include the
+   * reseller domain. * INTERNAL: Any non-user error related to a technical issue
+   * in the backend. Contact Cloud Channel support. * UNKNOWN: Any non-user error
+   * related to a technical issue in the backend. Contact Cloud Channel support.
+   * Return value: The ID of a long-running operation. To get the results of the
+   * operation, call the GetOperation method of CloudChannelOperationsService. The
+   * Operation metadata will contain an instance of OperationMetadata.
+   * (entitlements.create)
+   *
+   * @param string $parent Required. The resource name of the reseller's customer
+   * account in which to create the entitlement. Parent uses the format:
+   * accounts/{account_id}/customers/{customer_id}
+   * @param GoogleCloudChannelV1CreateEntitlementRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function create($parent, GoogleCloudChannelV1CreateEntitlementRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Returns the requested Entitlement resource. Possible error codes: *
+   * PERMISSION_DENIED: The customer doesn't belong to the reseller. *
+   * INVALID_ARGUMENT: Required request parameters are missing or invalid. *
+   * NOT_FOUND: The customer entitlement was not found. Return value: The
+   * requested Entitlement resource. (entitlements.get)
+   *
+   * @param string $name Required. The resource name of the entitlement to
+   * retrieve. Name uses the format:
+   * accounts/{account_id}/customers/{customer_id}/entitlements/{entitlement_id}
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudChannelV1Entitlement
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudChannelV1Entitlement::class);
+  }
+  /**
+   * Lists Entitlements belonging to a customer. Possible error codes: *
+   * PERMISSION_DENIED: The customer doesn't belong to the reseller. *
+   * INVALID_ARGUMENT: Required request parameters are missing or invalid. Return
+   * value: A list of the customer's Entitlements.
+   * (entitlements.listAccountsCustomersEntitlements)
+   *
+   * @param string $parent Required. The resource name of the reseller's customer
+   * account to list entitlements for. Parent uses the format:
+   * accounts/{account_id}/customers/{customer_id}
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Optional. Requested page size. Server might return
+   * fewer results than requested. If unspecified, return at most 50 entitlements.
+   * The maximum value is 100; the server will coerce values above 100.
+   * @opt_param string pageToken Optional. A token for a page of results other
+   * than the first page. Obtained using ListEntitlementsResponse.next_page_token
+   * of the previous CloudChannelService.ListEntitlements call.
+   * @return GoogleCloudChannelV1ListEntitlementsResponse
+   */
+  public function listAccountsCustomersEntitlements($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleCloudChannelV1ListEntitlementsResponse::class);
+  }
+  /**
+   * Returns the requested Offer resource. Possible error codes: *
+   * PERMISSION_DENIED: The entitlement doesn't belong to the reseller. *
+   * INVALID_ARGUMENT: Required request parameters are missing or invalid. *
+   * NOT_FOUND: Entitlement or offer was not found. Return value: The Offer
+   * resource. (entitlements.lookupOffer)
+   *
+   * @param string $entitlement Required. The resource name of the entitlement to
+   * retrieve the Offer. Entitlement uses the format:
+   * accounts/{account_id}/customers/{customer_id}/entitlements/{entitlement_id}
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudChannelV1Offer
+   */
+  public function lookupOffer($entitlement, $optParams = [])
+  {
+    $params = ['entitlement' => $entitlement];
+    $params = array_merge($params, $optParams);
+    return $this->call('lookupOffer', [$params], GoogleCloudChannelV1Offer::class);
+  }
+  /**
+   * Starts paid service for a trial entitlement. Starts paid service for a trial
+   * entitlement immediately. This method is only applicable if a plan is set up
+   * for a trial entitlement but has some trial days remaining. Possible error
+   * codes: * PERMISSION_DENIED: The customer doesn't belong to the reseller. *
+   * INVALID_ARGUMENT: Required request parameters are missing or invalid. *
+   * NOT_FOUND: Entitlement resource not found. *
+   * FAILED_PRECONDITION/NOT_IN_TRIAL: This method only works for entitlement on
+   * trial plans. * INTERNAL: Any non-user error related to a technical issue in
+   * the backend. Contact Cloud Channel support. * UNKNOWN: Any non-user error
+   * related to a technical issue in the backend. Contact Cloud Channel support.
+   * Return value: The ID of a long-running operation. To get the results of the
+   * operation, call the GetOperation method of CloudChannelOperationsService. The
+   * Operation metadata will contain an instance of OperationMetadata.
+   * (entitlements.startPaidService)
+   *
+   * @param string $name Required. The name of the entitlement to start a paid
+   * service for. Name uses the format:
+   * accounts/{account_id}/customers/{customer_id}/entitlements/{entitlement_id}
+   * @param GoogleCloudChannelV1StartPaidServiceRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function startPaidService($name, GoogleCloudChannelV1StartPaidServiceRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('startPaidService', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Suspends a previously fulfilled entitlement. An entitlement suspension is a
+   * long-running operation. Possible error codes: * PERMISSION_DENIED: The
+   * customer doesn't belong to the reseller. * INVALID_ARGUMENT: Required request
+   * parameters are missing or invalid. * NOT_FOUND: Entitlement resource not
+   * found. * NOT_ACTIVE: Entitlement is not active. * INTERNAL: Any non-user
+   * error related to a technical issue in the backend. Contact Cloud Channel
+   * support. * UNKNOWN: Any non-user error related to a technical issue in the
+   * backend. Contact Cloud Channel support. Return value: The ID of a long-
+   * running operation. To get the results of the operation, call the GetOperation
+   * method of CloudChannelOperationsService. The Operation metadata will contain
+   * an instance of OperationMetadata. (entitlements.suspend)
+   *
+   * @param string $name Required. The resource name of the entitlement to
+   * suspend. Name uses the format:
+   * accounts/{account_id}/customers/{customer_id}/entitlements/{entitlement_id}
+   * @param GoogleCloudChannelV1SuspendEntitlementRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function suspend($name, GoogleCloudChannelV1SuspendEntitlementRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('suspend', [$params], GoogleLongrunningOperation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AccountsCustomersEntitlements::class, 'Google_Service_Cloudchannel_Resource_AccountsCustomersEntitlements');

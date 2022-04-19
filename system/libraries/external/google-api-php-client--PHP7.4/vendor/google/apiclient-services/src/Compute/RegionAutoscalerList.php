@@ -1,65 +1,95 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-gyJeGdS=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute;
+
+class RegionAutoscalerList extends \Google\Collection
+{
+  protected $collection_key = 'items';
+  public $id;
+  protected $itemsType = Autoscaler::class;
+  protected $itemsDataType = 'array';
+  public $kind;
+  public $nextPageToken;
+  public $selfLink;
+  protected $warningType = RegionAutoscalerListWarning::class;
+  protected $warningDataType = '';
+
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  /**
+   * @param Autoscaler[]
+   */
+  public function setItems($items)
+  {
+    $this->items = $items;
+  }
+  /**
+   * @return Autoscaler[]
+   */
+  public function getItems()
+  {
+    return $this->items;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setNextPageToken($nextPageToken)
+  {
+    $this->nextPageToken = $nextPageToken;
+  }
+  public function getNextPageToken()
+  {
+    return $this->nextPageToken;
+  }
+  public function setSelfLink($selfLink)
+  {
+    $this->selfLink = $selfLink;
+  }
+  public function getSelfLink()
+  {
+    return $this->selfLink;
+  }
+  /**
+   * @param RegionAutoscalerListWarning
+   */
+  public function setWarning(RegionAutoscalerListWarning $warning)
+  {
+    $this->warning = $warning;
+  }
+  /**
+   * @return RegionAutoscalerListWarning
+   */
+  public function getWarning()
+  {
+    return $this->warning;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(RegionAutoscalerList::class, 'Google_Service_Compute_RegionAutoscalerList');

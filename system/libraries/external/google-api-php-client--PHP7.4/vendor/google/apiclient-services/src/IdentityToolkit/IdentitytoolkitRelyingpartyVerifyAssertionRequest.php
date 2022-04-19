@@ -1,94 +1,143 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-opE/7ZrxUE4p11iU5Kue2NY+gVewAIK=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\IdentityToolkit;
+
+class IdentitytoolkitRelyingpartyVerifyAssertionRequest extends \Google\Model
+{
+  public $autoCreate;
+  public $delegatedProjectNumber;
+  public $idToken;
+  public $instanceId;
+  public $pendingIdToken;
+  public $postBody;
+  public $requestUri;
+  public $returnIdpCredential;
+  public $returnRefreshToken;
+  public $returnSecureToken;
+  public $sessionId;
+  public $tenantId;
+  public $tenantProjectNumber;
+
+  public function setAutoCreate($autoCreate)
+  {
+    $this->autoCreate = $autoCreate;
+  }
+  public function getAutoCreate()
+  {
+    return $this->autoCreate;
+  }
+  public function setDelegatedProjectNumber($delegatedProjectNumber)
+  {
+    $this->delegatedProjectNumber = $delegatedProjectNumber;
+  }
+  public function getDelegatedProjectNumber()
+  {
+    return $this->delegatedProjectNumber;
+  }
+  public function setIdToken($idToken)
+  {
+    $this->idToken = $idToken;
+  }
+  public function getIdToken()
+  {
+    return $this->idToken;
+  }
+  public function setInstanceId($instanceId)
+  {
+    $this->instanceId = $instanceId;
+  }
+  public function getInstanceId()
+  {
+    return $this->instanceId;
+  }
+  public function setPendingIdToken($pendingIdToken)
+  {
+    $this->pendingIdToken = $pendingIdToken;
+  }
+  public function getPendingIdToken()
+  {
+    return $this->pendingIdToken;
+  }
+  public function setPostBody($postBody)
+  {
+    $this->postBody = $postBody;
+  }
+  public function getPostBody()
+  {
+    return $this->postBody;
+  }
+  public function setRequestUri($requestUri)
+  {
+    $this->requestUri = $requestUri;
+  }
+  public function getRequestUri()
+  {
+    return $this->requestUri;
+  }
+  public function setReturnIdpCredential($returnIdpCredential)
+  {
+    $this->returnIdpCredential = $returnIdpCredential;
+  }
+  public function getReturnIdpCredential()
+  {
+    return $this->returnIdpCredential;
+  }
+  public function setReturnRefreshToken($returnRefreshToken)
+  {
+    $this->returnRefreshToken = $returnRefreshToken;
+  }
+  public function getReturnRefreshToken()
+  {
+    return $this->returnRefreshToken;
+  }
+  public function setReturnSecureToken($returnSecureToken)
+  {
+    $this->returnSecureToken = $returnSecureToken;
+  }
+  public function getReturnSecureToken()
+  {
+    return $this->returnSecureToken;
+  }
+  public function setSessionId($sessionId)
+  {
+    $this->sessionId = $sessionId;
+  }
+  public function getSessionId()
+  {
+    return $this->sessionId;
+  }
+  public function setTenantId($tenantId)
+  {
+    $this->tenantId = $tenantId;
+  }
+  public function getTenantId()
+  {
+    return $this->tenantId;
+  }
+  public function setTenantProjectNumber($tenantProjectNumber)
+  {
+    $this->tenantProjectNumber = $tenantProjectNumber;
+  }
+  public function getTenantProjectNumber()
+  {
+    return $this->tenantProjectNumber;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(IdentitytoolkitRelyingpartyVerifyAssertionRequest::class, 'Google_Service_IdentityToolkit_IdentitytoolkitRelyingpartyVerifyAssertionRequest');

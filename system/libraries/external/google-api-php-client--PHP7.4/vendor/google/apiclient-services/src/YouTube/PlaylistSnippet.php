@@ -1,80 +1,131 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-1Ec3Lsu0UfFBgCGnQXJ3ViOehZ28ngy=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\YouTube;
+
+class PlaylistSnippet extends \Google\Collection
+{
+  protected $collection_key = 'tags';
+  public $channelId;
+  public $channelTitle;
+  public $defaultLanguage;
+  public $description;
+  protected $localizedType = PlaylistLocalization::class;
+  protected $localizedDataType = '';
+  public $publishedAt;
+  public $tags;
+  public $thumbnailVideoId;
+  protected $thumbnailsType = ThumbnailDetails::class;
+  protected $thumbnailsDataType = '';
+  public $title;
+
+  public function setChannelId($channelId)
+  {
+    $this->channelId = $channelId;
+  }
+  public function getChannelId()
+  {
+    return $this->channelId;
+  }
+  public function setChannelTitle($channelTitle)
+  {
+    $this->channelTitle = $channelTitle;
+  }
+  public function getChannelTitle()
+  {
+    return $this->channelTitle;
+  }
+  public function setDefaultLanguage($defaultLanguage)
+  {
+    $this->defaultLanguage = $defaultLanguage;
+  }
+  public function getDefaultLanguage()
+  {
+    return $this->defaultLanguage;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  /**
+   * @param PlaylistLocalization
+   */
+  public function setLocalized(PlaylistLocalization $localized)
+  {
+    $this->localized = $localized;
+  }
+  /**
+   * @return PlaylistLocalization
+   */
+  public function getLocalized()
+  {
+    return $this->localized;
+  }
+  public function setPublishedAt($publishedAt)
+  {
+    $this->publishedAt = $publishedAt;
+  }
+  public function getPublishedAt()
+  {
+    return $this->publishedAt;
+  }
+  public function setTags($tags)
+  {
+    $this->tags = $tags;
+  }
+  public function getTags()
+  {
+    return $this->tags;
+  }
+  public function setThumbnailVideoId($thumbnailVideoId)
+  {
+    $this->thumbnailVideoId = $thumbnailVideoId;
+  }
+  public function getThumbnailVideoId()
+  {
+    return $this->thumbnailVideoId;
+  }
+  /**
+   * @param ThumbnailDetails
+   */
+  public function setThumbnails(ThumbnailDetails $thumbnails)
+  {
+    $this->thumbnails = $thumbnails;
+  }
+  /**
+   * @return ThumbnailDetails
+   */
+  public function getThumbnails()
+  {
+    return $this->thumbnails;
+  }
+  public function setTitle($title)
+  {
+    $this->title = $title;
+  }
+  public function getTitle()
+  {
+    return $this->title;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PlaylistSnippet::class, 'Google_Service_YouTube_PlaylistSnippet');

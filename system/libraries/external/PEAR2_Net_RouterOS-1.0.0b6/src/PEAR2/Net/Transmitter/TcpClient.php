@@ -1,166 +1,422 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+/**
+ * Wrapper for network stream functionality.
+
+ *
+ * PHP has built in support for various types of network streams, such as HTTP and TCP sockets. One problem that arises with them is the fact that a single fread/fwrite call might not read/write all the data you intended, regardless of whether you're in blocking mode or not. While the PHP manual offers a workaround in the form of a loop with a few variables, using it every single time you want to read/write can be tedious.
+
+This package abstracts this away, so that when you want to get exactly N amount of bytes, you can be sure the upper levels of your app will be dealing with N bytes. Oh, and the functionality is nicely wrapped in an object (but that's just the icing on the cake).
+ *
+ * PHP version 5
+ *
+ * @category  Net
+ * @package   PEAR2_Net_Transmitter
+ * @author    Vasil Rangelov <boen.robot@gmail.com>
+ * @copyright 2011 Vasil Rangelov
+ * @license   http://www.gnu.org/copyleft/lesser.html LGPL License 2.1
+ * @version   1.0.0b2
+ * @link      http://pear2.php.net/PEAR2_Net_Transmitter
+ */
+/**
+ * The namespace declaration.
+ */
+namespace PEAR2\Net\Transmitter;
+
+/**
+ * Used for managing persistent connections.
+ */
+use PEAR2\Cache\SHM;
+
+/**
+ * Used for matching arbitrary exceptions in
+ * {@link TcpClient::createException()} and releasing locks properly.
+ */
+use Exception as E;
+
+/**
+ * A socket transmitter.
+ *
+ * This is a convenience wrapper for socket functionality. Used to ensure data
+ * integrity.
+ *
+ * @category Net
+ * @package  PEAR2_Net_Transmitter
+ * @author   Vasil Rangelov <boen.robot@gmail.com>
+ * @license  http://www.gnu.org/copyleft/lesser.html LGPL License 2.1
+ * @link     http://pear2.php.net/PEAR2_Net_Transmitter
+ */
+class TcpClient extends NetworkStream
+{
+
+    /**
+     * The error code of the last error on the socket.
+     *
+     * @var int
+     */
+    protected $errorNo = 0;
+
+    /**
+     * The error message of the last error on the socket.
+     *
+     * @var string
+     */
+    protected $errorStr = null;
+
+    /**
+     * Persistent connection handler.
+     *
+     * Remains NULL for non-persistent connections.
+     *
+     * @var SHM
+     */
+    protected $shmHandler = null;
+
+    /**
+     * An array with all connections from this PHP request (as keys)
+     * and their lock state (as a value).
+     *
+     * @var array
+     */
+    protected static $lockState = array();
+
+    /**
+     * Mappings from a protocol name to an URI scheme.
+     *
+     * @var array<string,string>
+     */
+    protected static $cryptoScheme = array(
+        parent::CRYPTO_OFF => 'tcp',
+        parent::CRYPTO_SSL2 => 'sslv2',
+        parent::CRYPTO_SSL3 => 'sslv3',
+        parent::CRYPTO_SSL => 'ssl',
+        parent::CRYPTO_TLS => 'tls'
+    );
+
+    /**
+     * The URI of this connection.
+     *
+     * @var string
+     */
+    protected $uri;
+
+    /**
+     * Creates a new connection with the specified options.
+     *
+     * @param string   $host    Hostname (IP or domain) of the server.
+     * @param int      $port    The port on the server.
+     * @param bool     $persist Whether or not the connection should be a
+     *     persistent one.
+     * @param float    $timeout The timeout for the connection.
+     * @param string   $key     A string that uniquely identifies the
+     *     connection. Ignored for non-persistent connections.
+     * @param string   $crypto  Encryption setting. Must be one of the
+     *     NetworkStream::CRYPTO_* constants. By default, encryption is
+     *     disabled. If the setting has an associated scheme for it, it will be
+     *     used, and if not, the setting will be adjusted right after the
+     *     connection is established.
+     * @param resource $context A context for the socket.
+     */
+    public function __construct(
+        $host,
+        $port,
+        $persist = false,
+        $timeout = null,
+        $key = '',
+        $crypto = parent::CRYPTO_OFF,
+        $context = null
+    ) {
+        $this->streamType = '_CLIENT';
+
+        if (strpos($host, ':') !== false) {
+            $host = "[{$host}]";
+        }
+
+        $timeout
+            = null == $timeout ? ini_get('default_socket_timeout') : $timeout;
+
+        if (null === $context) {
+            $context = stream_context_get_default();
+        } elseif ((!is_resource($context))
+            || ('stream-context' !== get_resource_type($context))
+        ) {
+            throw $this->createException('Invalid context supplied.', 6);
+        }
+        $hasCryptoScheme = array_key_exists($crypto, static::$cryptoScheme);
+        $scheme = $hasCryptoScheme ? static::$cryptoScheme[$crypto] : 'tcp';
+        $flags = STREAM_CLIENT_CONNECT;
+        if ($persist) {
+            $flags |= STREAM_CLIENT_PERSISTENT;
+            $key = rawurlencode($key);
+            $this->uri = "{$scheme}://{$host}:{$port}/{$key}";
+        } else {
+            $this->uri = "{$scheme}://{$host}:{$port}";
+        }
+        set_error_handler(array($this, 'handleError'));
+        try {
+            parent::__construct(
+                stream_socket_client(
+                    $this->uri,
+                    $this->errorNo,
+                    $this->errorStr,
+                    $timeout,
+                    $flags,
+                    $context
+                )
+            );
+            restore_error_handler();
+        } catch (E $e) {
+            restore_error_handler();
+            if (0 === $this->errorNo) {
+                throw $this->createException(
+                    'Failed to initialize socket.',
+                    7,
+                    $e
+                );
+            }
+            throw $this->createException(
+                'Failed to connect with socket.',
+                8,
+                $e
+            );
+        }
+
+        if ($hasCryptoScheme) {
+            $this->crypto = $crypto;
+        } elseif (parent::CRYPTO_OFF !== $crypto) {
+            $this->setCrypto($crypto);
+        }
+        if (parent::CRYPTO_OFF !== $crypto) {
+            $this->setIsBlocking(false);
+        }
+
+        if ($persist) {
+            $this->shmHandler = SHM::factory(
+                __CLASS__ . ' ' . $this->uri . ' '
+            );
+            self::$lockState[$this->uri] = self::DIRECTION_NONE;
+        }
+    }
+
+    /**
+     * Creates a new exception.
+     *
+     * Creates a new exception. Used by the rest of the functions in this class.
+     *
+     * @param string                   $message  The exception message.
+     * @param int                      $code     The exception code.
+     * @param E|null                   $previous Previous exception thrown,
+     *     or NULL if there is none.
+     * @param int|string|resource|null $fragment The fragment up until the
+     *     point of failure.
+     *     On failure with sending, this is the number of bytes sent
+     *     successfully before the failure.
+     *     On failure when receiving, this is a string/stream holding
+     *     the contents received successfully before the failure.
+     *
+     * @return SocketException The exception to then be thrown.
+     */
+    protected function createException(
+        $message,
+        $code = 0,
+        E $previous = null,
+        $fragment = null
+    ) {
+        return new SocketException(
+            $message,
+            $code,
+            $previous,
+            $fragment,
+            $this->errorNo,
+            $this->errorStr
+        );
+    }
+
+    /**
+     * Locks transmission.
+     *
+     * Locks transmission in one or more directions. Useful when dealing with
+     * persistent connections. Note that every send/receive call implicitly
+     * calls this function and then restores it to the previous state. You only
+     * need to call this function if you need to do an uninterrupted sequence of
+     * such calls.
+     *
+     * @param int  $direction The direction(s) to have locked. Acceptable values
+     *     are the DIRECTION_* constants. If a lock for a direction can't be
+     *     obtained immediately, the function will block until one is acquired.
+     *     Note that if you specify {@link static::DIRECTION_ALL},
+     *     the sending lock will be obtained before the receiving one,
+     *     and if obtaining the receiving lock afterwards fails,
+     *     the sending lock will be released too.
+     * @param bool $replace   Whether to replace all locks with the specified
+     *     ones. Setting this to FALSE will make the function only obtain the
+     *     locks which are not already obtained.
+     *
+     * @return int|false The previous state or FALSE if the connection is not
+     *     persistent or arguments are invalid.
+     */
+    public function lock($direction = self::DIRECTION_ALL, $replace = false)
+    {
+        if ($this->persist && is_int($direction)) {
+            $old = self::$lockState[$this->uri];
+
+            if ($direction & self::DIRECTION_SEND) {
+                if (($old & self::DIRECTION_SEND)
+                    || $this->shmHandler->lock(self::DIRECTION_SEND)
+                ) {
+                    self::$lockState[$this->uri] |= self::DIRECTION_SEND;
+                } else {
+                    throw new LockException('Unable to obtain sending lock.');
+                }
+            } elseif ($replace) {
+                if (!($old & self::DIRECTION_SEND)
+                    || $this->shmHandler->unlock(self::DIRECTION_SEND)
+                ) {
+                    self::$lockState[$this->uri] &= ~self::DIRECTION_SEND;
+                } else {
+                    throw new LockException('Unable to release sending lock.');
+                }
+            }
+
+            try {
+                if ($direction & self::DIRECTION_RECEIVE) {
+                    if (($old & self::DIRECTION_RECEIVE)
+                        || $this->shmHandler->lock(self::DIRECTION_RECEIVE)
+                    ) {
+                        self::$lockState[$this->uri] |= self::DIRECTION_RECEIVE;
+                    } else {
+                        throw new LockException(
+                            'Unable to obtain receiving lock.'
+                        );
+                    }
+                } elseif ($replace) {
+                    if (!($old & self::DIRECTION_RECEIVE)
+                        || $this->shmHandler->unlock(self::DIRECTION_RECEIVE)
+                    ) {
+                        self::$lockState[$this->uri]
+                            &= ~self::DIRECTION_RECEIVE;
+                    } else {
+                        throw new LockException(
+                            'Unable to release receiving lock.'
+                        );
+                    }
+                }
+            } catch (LockException $e) {
+                if ($direction & self::DIRECTION_SEND
+                    && !($old & self::DIRECTION_SEND)
+                ) {
+                    $this->shmHandler->unlock(self::DIRECTION_SEND);
+                }
+                throw $e;
+            }
+            return $old;
+        }
+        return false;
+    }
+
+
+    /**
+     * Sends a string or stream to the server.
+     *
+     * Sends a string or stream to the server. If a seekable stream is
+     * provided, it will be seeked back to the same position it was passed as,
+     * regardless of the $offset parameter.
+     *
+     * @param string|resource $contents The string or stream to send.
+     * @param int             $offset   The offset from which to start sending.
+     *     If a stream is provided, and this is set to NULL, sending will start
+     *     from the current stream position.
+     * @param int             $length   The maximum length to send. If omitted,
+     *     the string/stream will be sent to its end.
+     *
+     * @return int The number of bytes sent.
+     * @throws E
+     */
+    public function send($contents, $offset = null, $length = null)
+    {
+        if (false === ($previousState = $this->lock(self::DIRECTION_SEND))
+            && $this->persist
+        ) {
+            throw $this->createException(
+                'Unable to obtain sending lock',
+                10
+            );
+        }
+        try {
+            $result = parent::send($contents, $offset, $length);
+        } catch (E $e) {
+            $this->lock($previousState, true);
+            throw $e;
+        }
+        $this->lock($previousState, true);
+        return $result;
+    }
+
+    /**
+     * Receives data from the server.
+     *
+     * Receives data from the server as a string.
+     *
+     * @param int    $length The number of bytes to receive.
+     * @param string $what   Descriptive string about what is being received
+     *     (used in exception messages).
+     *
+     * @return string The received content.
+     */
+    public function receive($length, $what = 'data')
+    {
+        if (false === ($previousState = $this->lock(self::DIRECTION_RECEIVE))
+            && $this->persist
+        ) {
+            throw $this->createException(
+                'Unable to obtain receiving lock',
+                9
+            );
+        }
+        try {
+            $result = parent::receive($length, $what);
+        } catch (E $e) {
+            $this->lock($previousState, true);
+            throw $e;
+        }
+        $this->lock($previousState, true);
+        return $result;
+    }
+
+    /**
+     * Receives data from the server.
+     *
+     * Receives data from the server as a stream.
+     *
+     * @param int              $length  The number of bytes to receive.
+     * @param FilterCollection $filters A collection of filters to apply to the
+     *     stream while receiving. Note that the filters will not be present on
+     *     the stream after receiving is done.
+     * @param string           $what    Descriptive string about what is being
+     *     received (used in exception messages).
+     *
+     * @return resource The received content.
+     */
+    public function receiveStream(
+        $length,
+        FilterCollection $filters = null,
+        $what = 'stream data'
+    ) {
+        if (false === ($previousState = $this->lock(self::DIRECTION_RECEIVE))
+            && $this->persist
+        ) {
+            throw $this->createException(
+                'Unable to obtain receiving lock',
+                9
+            );
+        }
+        try {
+            $result = parent::receiveStream($length, $filters, $what);
+        } catch (E $e) {
+            $this->lock($previousState, true);
+            throw $e;
+        }
+        $this->lock($previousState, true);
+        return $result;
+    }
+}

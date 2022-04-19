@@ -1,72 +1,284 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-yjnh1vxNb4bQrRsyMx6aYm==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for Cloudbilling (v1).
+ *
+ * <p>
+ * Allows developers to manage billing for their Google Cloud Platform projects
+ * programmatically.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/billing/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class Cloudbilling extends \Google\Service
+{
+  /** View and manage your Google Cloud Platform billing accounts. */
+  const CLOUD_BILLING =
+      "https://www.googleapis.com/auth/cloud-billing";
+  /** View your Google Cloud Platform billing accounts. */
+  const CLOUD_BILLING_READONLY =
+      "https://www.googleapis.com/auth/cloud-billing.readonly";
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+
+  public $billingAccounts;
+  public $billingAccounts_projects;
+  public $projects;
+  public $services;
+  public $services_skus;
+
+  /**
+   * Constructs the internal representation of the Cloudbilling service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://cloudbilling.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'cloudbilling';
+
+    $this->billingAccounts = new Cloudbilling\Resource\BillingAccounts(
+        $this,
+        $this->serviceName,
+        'billingAccounts',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/billingAccounts',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1/{+resource}:getIamPolicy',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'options.requestedPolicyVersion' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/billingAccounts',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->billingAccounts_projects = new Cloudbilling\Resource\BillingAccountsProjects(
+        $this,
+        $this->serviceName,
+        'projects',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/{+name}/projects',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects = new Cloudbilling\Resource\Projects(
+        $this,
+        $this->serviceName,
+        'projects',
+        [
+          'methods' => [
+            'getBillingInfo' => [
+              'path' => 'v1/{+name}/billingInfo',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'updateBillingInfo' => [
+              'path' => 'v1/{+name}/billingInfo',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->services = new Cloudbilling\Resource\Services(
+        $this,
+        $this->serviceName,
+        'services',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/services',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->services_skus = new Cloudbilling\Resource\ServicesSkus(
+        $this,
+        $this->serviceName,
+        'skus',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/{+parent}/skus',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'currencyCode' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'endTime' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'startTime' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Cloudbilling::class, 'Google_Service_Cloudbilling');

@@ -1,80 +1,266 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-TmY+LoMT+k1fWguukzby
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute\Resource;
+
+use Google\Service\Compute\InterconnectAttachment;
+use Google\Service\Compute\InterconnectAttachmentAggregatedList;
+use Google\Service\Compute\InterconnectAttachmentList;
+use Google\Service\Compute\Operation;
+
+/**
+ * The "interconnectAttachments" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $computeService = new Google\Service\Compute(...);
+ *   $interconnectAttachments = $computeService->interconnectAttachments;
+ *  </code>
+ */
+class InterconnectAttachments extends \Google\Service\Resource
+{
+  /**
+   * Retrieves an aggregated list of interconnect attachments.
+   * (interconnectAttachments.aggregatedList)
+   *
+   * @param string $project Project ID for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param bool includeAllScopes Indicates whether every visible scope for
+   * each scope type (zone, region, global) should be included in the response.
+   * For new resource types added after this field, the flag has no effect as new
+   * resource types will always include every visible scope for each scope type in
+   * response. For resource types which predate this field, if this flag is
+   * omitted or false, only scopes of the scope types where the resource type is
+   * expected to be found will be included.
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return InterconnectAttachmentAggregatedList
+   */
+  public function aggregatedList($project, $optParams = [])
+  {
+    $params = ['project' => $project];
+    $params = array_merge($params, $optParams);
+    return $this->call('aggregatedList', [$params], InterconnectAttachmentAggregatedList::class);
+  }
+  /**
+   * Deletes the specified interconnect attachment.
+   * (interconnectAttachments.delete)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region for this request.
+   * @param string $interconnectAttachment Name of the interconnect attachment to
+   * delete.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function delete($project, $region, $interconnectAttachment, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'interconnectAttachment' => $interconnectAttachment];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Returns the specified interconnect attachment. (interconnectAttachments.get)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region for this request.
+   * @param string $interconnectAttachment Name of the interconnect attachment to
+   * return.
+   * @param array $optParams Optional parameters.
+   * @return InterconnectAttachment
+   */
+  public function get($project, $region, $interconnectAttachment, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'interconnectAttachment' => $interconnectAttachment];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], InterconnectAttachment::class);
+  }
+  /**
+   * Creates an InterconnectAttachment in the specified project using the data
+   * included in the request. (interconnectAttachments.insert)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region for this request.
+   * @param InterconnectAttachment $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @opt_param bool validateOnly If true, the request will not be committed.
+   * @return Operation
+   */
+  public function insert($project, $region, InterconnectAttachment $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Operation::class);
+  }
+  /**
+   * Retrieves the list of interconnect attachments contained within the specified
+   * region. (interconnectAttachments.listInterconnectAttachments)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return InterconnectAttachmentList
+   */
+  public function listInterconnectAttachments($project, $region, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], InterconnectAttachmentList::class);
+  }
+  /**
+   * Updates the specified interconnect attachment with the data included in the
+   * request. This method supports PATCH semantics and uses the JSON merge patch
+   * format and processing rules. (interconnectAttachments.patch)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param string $interconnectAttachment Name of the interconnect attachment to
+   * patch.
+   * @param InterconnectAttachment $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function patch($project, $region, $interconnectAttachment, InterconnectAttachment $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'interconnectAttachment' => $interconnectAttachment, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(InterconnectAttachments::class, 'Google_Service_Compute_Resource_InterconnectAttachments');

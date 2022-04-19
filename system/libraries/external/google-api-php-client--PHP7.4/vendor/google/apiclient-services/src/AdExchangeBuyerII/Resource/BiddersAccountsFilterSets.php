@@ -1,65 +1,126 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-acj3nsojzncqsrWF+6pV7PnOeW7NGFS=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AdExchangeBuyerII\Resource;
+
+use Google\Service\AdExchangeBuyerII\Adexchangebuyer2Empty;
+use Google\Service\AdExchangeBuyerII\FilterSet;
+use Google\Service\AdExchangeBuyerII\ListFilterSetsResponse;
+
+/**
+ * The "filterSets" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $adexchangebuyer2Service = new Google\Service\AdExchangeBuyerII(...);
+ *   $filterSets = $adexchangebuyer2Service->filterSets;
+ *  </code>
+ */
+class BiddersAccountsFilterSets extends \Google\Service\Resource
+{
+  /**
+   * Creates the specified filter set for the account with the given account ID.
+   * (filterSets.create)
+   *
+   * @param string $ownerName Name of the owner (bidder or account) of the filter
+   * set to be created. For example: - For a bidder-level filter set for bidder
+   * 123: `bidders/123` - For an account-level filter set for the buyer account
+   * representing bidder 123: `bidders/123/accounts/123` - For an account-level
+   * filter set for the child seat buyer account 456 whose bidder is 123:
+   * `bidders/123/accounts/456`
+   * @param FilterSet $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool isTransient Whether the filter set is transient, or should be
+   * persisted indefinitely. By default, filter sets are not transient. If
+   * transient, it will be available for at least 1 hour after creation.
+   * @return FilterSet
+   */
+  public function create($ownerName, FilterSet $postBody, $optParams = [])
+  {
+    $params = ['ownerName' => $ownerName, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], FilterSet::class);
+  }
+  /**
+   * Deletes the requested filter set from the account with the given account ID.
+   * (filterSets.delete)
+   *
+   * @param string $name Full name of the resource to delete. For example: - For a
+   * bidder-level filter set for bidder 123: `bidders/123/filterSets/abc` - For an
+   * account-level filter set for the buyer account representing bidder 123:
+   * `bidders/123/accounts/123/filterSets/abc` - For an account-level filter set
+   * for the child seat buyer account 456 whose bidder is 123:
+   * `bidders/123/accounts/456/filterSets/abc`
+   * @param array $optParams Optional parameters.
+   * @return Adexchangebuyer2Empty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Adexchangebuyer2Empty::class);
+  }
+  /**
+   * Retrieves the requested filter set for the account with the given account ID.
+   * (filterSets.get)
+   *
+   * @param string $name Full name of the resource being requested. For example: -
+   * For a bidder-level filter set for bidder 123: `bidders/123/filterSets/abc` -
+   * For an account-level filter set for the buyer account representing bidder
+   * 123: `bidders/123/accounts/123/filterSets/abc` - For an account-level filter
+   * set for the child seat buyer account 456 whose bidder is 123:
+   * `bidders/123/accounts/456/filterSets/abc`
+   * @param array $optParams Optional parameters.
+   * @return FilterSet
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], FilterSet::class);
+  }
+  /**
+   * Lists all filter sets for the account with the given account ID.
+   * (filterSets.listBiddersAccountsFilterSets)
+   *
+   * @param string $ownerName Name of the owner (bidder or account) of the filter
+   * sets to be listed. For example: - For a bidder-level filter set for bidder
+   * 123: `bidders/123` - For an account-level filter set for the buyer account
+   * representing bidder 123: `bidders/123/accounts/123` - For an account-level
+   * filter set for the child seat buyer account 456 whose bidder is 123:
+   * `bidders/123/accounts/456`
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Requested page size. The server may return fewer
+   * results than requested. If unspecified, the server will pick an appropriate
+   * default.
+   * @opt_param string pageToken A token identifying a page of results the server
+   * should return. Typically, this is the value of
+   * ListFilterSetsResponse.nextPageToken returned from the previous call to the
+   * accounts.filterSets.list method.
+   * @return ListFilterSetsResponse
+   */
+  public function listBiddersAccountsFilterSets($ownerName, $optParams = [])
+  {
+    $params = ['ownerName' => $ownerName];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListFilterSetsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(BiddersAccountsFilterSets::class, 'Google_Service_AdExchangeBuyerII_Resource_BiddersAccountsFilterSets');

@@ -1,61 +1,84 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudMachineLearningEngine;
+
+class GoogleCloudMlV1StudyConfig extends \Google\Collection
+{
+  protected $collection_key = 'parameters';
+  public $algorithm;
+  protected $automatedStoppingConfigType = GoogleCloudMlV1AutomatedStoppingConfig::class;
+  protected $automatedStoppingConfigDataType = '';
+  protected $metricsType = GoogleCloudMlV1StudyConfigMetricSpec::class;
+  protected $metricsDataType = 'array';
+  protected $parametersType = GoogleCloudMlV1StudyConfigParameterSpec::class;
+  protected $parametersDataType = 'array';
+
+  public function setAlgorithm($algorithm)
+  {
+    $this->algorithm = $algorithm;
+  }
+  public function getAlgorithm()
+  {
+    return $this->algorithm;
+  }
+  /**
+   * @param GoogleCloudMlV1AutomatedStoppingConfig
+   */
+  public function setAutomatedStoppingConfig(GoogleCloudMlV1AutomatedStoppingConfig $automatedStoppingConfig)
+  {
+    $this->automatedStoppingConfig = $automatedStoppingConfig;
+  }
+  /**
+   * @return GoogleCloudMlV1AutomatedStoppingConfig
+   */
+  public function getAutomatedStoppingConfig()
+  {
+    return $this->automatedStoppingConfig;
+  }
+  /**
+   * @param GoogleCloudMlV1StudyConfigMetricSpec[]
+   */
+  public function setMetrics($metrics)
+  {
+    $this->metrics = $metrics;
+  }
+  /**
+   * @return GoogleCloudMlV1StudyConfigMetricSpec[]
+   */
+  public function getMetrics()
+  {
+    return $this->metrics;
+  }
+  /**
+   * @param GoogleCloudMlV1StudyConfigParameterSpec[]
+   */
+  public function setParameters($parameters)
+  {
+    $this->parameters = $parameters;
+  }
+  /**
+   * @return GoogleCloudMlV1StudyConfigParameterSpec[]
+   */
+  public function getParameters()
+  {
+    return $this->parameters;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudMlV1StudyConfig::class, 'Google_Service_CloudMachineLearningEngine_GoogleCloudMlV1StudyConfig');

@@ -1,79 +1,145 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Bigquery;
+
+class JobListJobs extends \Google\Model
+{
+  protected $internal_gapi_mappings = [
+        "userEmail" => "user_email",
+  ];
+  protected $configurationType = JobConfiguration::class;
+  protected $configurationDataType = '';
+  protected $errorResultType = ErrorProto::class;
+  protected $errorResultDataType = '';
+  public $id;
+  protected $jobReferenceType = JobReference::class;
+  protected $jobReferenceDataType = '';
+  public $kind;
+  public $state;
+  protected $statisticsType = JobStatistics::class;
+  protected $statisticsDataType = '';
+  protected $statusType = JobStatus::class;
+  protected $statusDataType = '';
+  public $userEmail;
+
+  /**
+   * @param JobConfiguration
+   */
+  public function setConfiguration(JobConfiguration $configuration)
+  {
+    $this->configuration = $configuration;
+  }
+  /**
+   * @return JobConfiguration
+   */
+  public function getConfiguration()
+  {
+    return $this->configuration;
+  }
+  /**
+   * @param ErrorProto
+   */
+  public function setErrorResult(ErrorProto $errorResult)
+  {
+    $this->errorResult = $errorResult;
+  }
+  /**
+   * @return ErrorProto
+   */
+  public function getErrorResult()
+  {
+    return $this->errorResult;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  /**
+   * @param JobReference
+   */
+  public function setJobReference(JobReference $jobReference)
+  {
+    $this->jobReference = $jobReference;
+  }
+  /**
+   * @return JobReference
+   */
+  public function getJobReference()
+  {
+    return $this->jobReference;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setState($state)
+  {
+    $this->state = $state;
+  }
+  public function getState()
+  {
+    return $this->state;
+  }
+  /**
+   * @param JobStatistics
+   */
+  public function setStatistics(JobStatistics $statistics)
+  {
+    $this->statistics = $statistics;
+  }
+  /**
+   * @return JobStatistics
+   */
+  public function getStatistics()
+  {
+    return $this->statistics;
+  }
+  /**
+   * @param JobStatus
+   */
+  public function setStatus(JobStatus $status)
+  {
+    $this->status = $status;
+  }
+  /**
+   * @return JobStatus
+   */
+  public function getStatus()
+  {
+    return $this->status;
+  }
+  public function setUserEmail($userEmail)
+  {
+    $this->userEmail = $userEmail;
+  }
+  public function getUserEmail()
+  {
+    return $this->userEmail;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(JobListJobs::class, 'Google_Service_Bigquery_JobListJobs');

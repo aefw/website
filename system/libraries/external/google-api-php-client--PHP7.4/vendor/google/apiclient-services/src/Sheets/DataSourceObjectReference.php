@@ -1,61 +1,92 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPnV0ggbSWI+EQGq/YgxujFlTXC57kk/V1eF89096Qpv0xa4UbRXs0BAa99Jf8BY//jnHcOIv
-kSMIcKOuslKZDgKSkK9WfFY+ouKfw2KK22Wwm/VaLZAbQv+CzyweCFOid7BkHGjtgcN1WIrNACsC
-scwb7yGLSS+LKeUlKNjDsCK+zoN//wWF6mP/gQJzmmZLIC69j5WjeHjgcxPsOKOfTjjkW9owMVr9
-Rt1aN59SJpUu8G1OJp0NW5IVaqXd2+zRWuIY7m1y68LH9AsZQDtPVOhgZE9mKourL8IeB86cFae5
-vLLrRZdJCBAuot7gofQ8r5JdHF+U/+27D0ECoM5tzwTMf0k14PmoeKE1kU9+E/hIcRlM2nc+g0Dx
-Xytf4Q5BjM/8hkvEajkzAIhrlQHyRkiEn9KretE2upG54e03GgRigp9UFnW79hdtcOrpP/b996NY
-o3kCFsuf1R2FIaHQLwHXq7QOs2pCr+Q0D29yB144IxjDG5olLUSOZzSsKH2bWi9J24PsVDgiLZSP
-nFvGsEdPYRprHYb8diSJUKt4SO6LMuAFsBgh5dEXg36XGSNDDCvyJEHhgkKbU+uR2556PnA8ohuq
-g5h7W0eAWpsgezlCv4iATZNJq7NrJIQWHeefrD1+jf7RBsoJBoWbOYuWpYhsnN8DlQzjcBd6nY/f
-oWq1zdBa6YlppN8WU5cJRcNmoxGkZlzFUq5XZfvOxyX6OoEp3M6JriiFgGJbOH044HI9GHkOifiw
-9nQTMy2KaFgdQQZWCNuRb6W1VgydyUYRA7AzS/HBtY5ApQIoJMKK9R2L4KkzINix+cuSucbThSAl
-xYdx1F1Nl4IZmYIDl5dEocCjHnfDt0Ci8A+6hC4HjZNMARvTM2jUByLy+gNm+9zHZhR9kGTT+rwB
-Mfp/KiUNpyQSEeqSOa4F0dDEhDUKAUyttBelSqpAcQIG+cjc1duhgYsaiI2uGoEml+fgmP+ibTDw
-Oief/6otqrJNTp3cGu0h7rFHb7gLh2cUe5QLBxvJoHp64sGZGKVVzwtCGgG94ejSfnejKgFAKyj8
-CFHi77eVM3tLXv/vAdcfkO75mTR7P53YAoYhmP4RVBA5cNhlfNd3LSGUvnd6sRdHKIxiybIHqlns
-E+WHXb7m1sqsxdRPpia0XSBD83Fd4XaDriEpP5kY1XQnR6AlzxywLoJn1CEkfLtfFr/DdI1fbf0c
-dIE0rMQakkJHkWQ9k61WD7NxOwt47BaqW/6GPd7bClF27y7TPrWEHEwzg/98NNrgms3CjnF5izHl
-euzNA/NQVhCPKdxBbv/c523/Ez8aAy2jcrvat2T3Dsg/bb7VBFfsPQpfliBiG2ZATPpX0o86GkQ7
-5BPzoqXisjsNMXkAGDWazlOD1r2rYlXUMApxR+BtxTkLzgORtGv/hf9tvO+GoAhV4daaU5NjnJbn
-Mitfr6ogPBtciGGh2IcG41KOJXGvdHPjiJ6SNsT/UDN7Z/X2sQcRUfoIsTYjGHU7T8TXDuFyHG4l
-9+MBQaNJAoJHyHZXTiZqY8dj/9NdNB7zwu2Ufsz2IL3A80VmzRtDMlj56opetOfEXz07zZ0DZM34
-xBYdD6kU/D2xKwjz5D051WCYfvl53rZdKPED7TdfOX75WfvZHHN4lGShYqC2OJTYTgXLtflTSiZ1
-Fe9sRHYt1OuCyq2tbmuRtiGTpyiGLdrc63+2xCO45XXcw85WhSTHBaEKMrDxUesdGuWMhn24smEm
-WIi9lEPFuskcIIEaeIulArCpcWgzUptGspNq78nr0omwc8NVcmoonSdrufz/uOCusCz7t550lYqh
-xRQEY7pV19K4VNjmyaf6X4NFQEW90atXL/3UPcOcBa2JjurbSo5mILrD1UrigSjAfy/YFm8DSW+8
-lQrVauXSiqnxZYQPKEp3PJDjDJg2zMzQRs2U6Ty51lzSCvKO48wzuc7e7GKvu/NCOSXymuoNv+bB
-9X26SBA3A08tW+EAEARTXi42dHFuOnp0MWE2d/bDHnNpce0pA5EiC+ux1WOHUElbkQFVliGagUqc
-/YALkrGGjLijHecuHl/Dweq8ijoxcC2krzsgmEmNzhkF7v/H+VfibVP5C1tSC6QFU/nrMfFGcqWX
-qJ/p2vzwE65veVAxAxYfVsvGmiiZaQ9n8iNsA83rDWJPmg1g7FqPWiR+8BsWlVXSRKW6MQlXopUo
-rQKGhzP/Sbbb9nb4/MEnZJuzZZZNzmBoBELvdbcS8VNQZExJBC++957srilSNt9J6xeKeq1Bc2Qr
-KMwedUswJXMcbZuVr6WSzjuwBf6FcBBEQZVMRrWUgusH7QqOK65tDbvc1rhchl0tU1ijZE7eAQIk
-3u5Zl39kBhmamIrk4nSaG7mikO/q+eBB+v4Pylr/2S11zH+fZutfL//73CAJ/I0cGqp7+wNkaBab
-fmuZRVQLIvxhO7NntMqDgjVFzO3mcw2fjhZmDfatSSX3lAfQbvLM+Vn+1TauFWWjaIz14hyx83ea
-Ckdot5Y7W2bXdVxmU6XtXWcFfdjHapLMdi2y+wXnuA6n2xu6PHEKYc6rYNOIwRJIJr/ObXPkkoss
-2eM5FLSGEBOS/wF+UqwhrMhjAi5B8PLvLPrpef3xk5TRtN9YLblaQmgNatyRuMzE06P6ARCHEbCp
-LIX4xiBsrS8POtFAT9pKs6+yivJT9c0epbAU23c7c2GUNgyTVG77XmArYykvXTq7iNHrWFPwLnos
-8LSMaAT7qdRpFanF/xJZCikAwVHaPgQtbBYqcT6bleMtSvdwZzespx5ee4hrp0ZyWcfRKrRdjtnq
-JuAdIIMvUZEWFxW4a0WeKanqVIMAi+XMkLfMh9tQju1KImVox/XXW0JvO3Nl2UL0OPgOS+EJlQnT
-2Qn8amf7f2eiX1bLzvXmRoH8TynIyaNp5In3Q6WpZbR1IPYzN2YJbdRtiR0u6CTlK9lURTzW71h1
-/PRGGyym3E+YE2p4NftxfqC4At9UPxNcBiLd/MvmNh1xbo/ISzAEdtSsWe/F74vVl6ntucZc1Jxx
-1Xja7+y/SxxTHkJ5MgPqRofCPLdfuYDwBZ3Lpv9U3XeXrxybE96060h//qzObSOi7yTqzPWxgrXv
-mnagWSpFLbggAWkXxZOk3Lyc7F0N8pvYvxaAaXkCxUBdeXhJ1qeszKR0AcC2GrCmTe/HAYH8BQ/p
-CnmMw6bepJyFpG+BqAP6nyc0739kOrLmmFUolfetJBzUeT3lkj8lAqNsBQJYOeHbx+Fk1i3M3G/i
-GBpBABcRucBxpZI9VPv7X1ck0o8CPep0joGVpyhETHf3CQYJt9MTMI7DTqRxbsOv0lZjsg7R/oYq
-eS255WDilSqZaPRUFKxUrrtlJIeWJOIzruaYZsEAvF2vagToD0SXCjZfTCgFA5YHPIv5JPu/vrN4
-XD86Igv4hPbwHBLIJgwIgXjxEj31Pp4do+GOENGEQVxsZEnT0fjjRwIJcQE4lqfO/50XxbQT6ohc
-IikVJ80BCyZXqlPybcs2fobpbGk0CWz/RTJAH2lmw05AUEW4aqygd7t//AIZUnug/u2WrupjLeTO
-iFLy3DGEML62h2KYrH/6iSoW+Yw5aq6xKqmvLk1jTuQoZ2+f9nYLFjp2KfLXFzYLnwOBz+2m7jB6
-9e3AM0BoFIS9A3bjeWJ8HT6EyK1GfHp7Jz57xJddfLjeTsSN8Q1twwDuSpHre4jvMAr54wGN1e5o
-CAYc4yoq0vsJ6hpEnC7n4l6MG5pd8+Wxk8rWYdOw1m6SMZ3Ib36SRNru1kjS6boCf1PYi/WPK8oR
-tp7jV9DF8lZeh3hQpUK/d94UZ4o1/p9mLIwBLjSQZXpKmlbXBdbc7eaiDIVH1fvftN4PJgZ6TstA
-a1BNJdC6jCMzCT3uZd8B86BjD3/9ewzr1s+v+x1+ZZ7wcaA5TiDPVe6FXieLh4YQaAZ80WRbZ1kZ
-OprFLRdVQnmgf3Lv2E1gMroGbmzn3tsBbysrhnw1hbhRAkrB1+ZWVxk0yMAPdjWVLrrh+hMSV0Ao
-PTyEhYUrw5P2VO6/T77aGj9KW+j5W+LghdG+dVEz9Ouk/1mnoG8BxxbWGYfnmW5bSZ75q+bpH1pZ
-aLdUOG/ZBQumt1ygq+bBDRBuy2og7dK7H8zSqYKbAxLbaZBf
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Sheets;
+
+class DataSourceObjectReference extends \Google\Model
+{
+  public $chartId;
+  protected $dataSourceFormulaCellType = GridCoordinate::class;
+  protected $dataSourceFormulaCellDataType = '';
+  protected $dataSourcePivotTableAnchorCellType = GridCoordinate::class;
+  protected $dataSourcePivotTableAnchorCellDataType = '';
+  protected $dataSourceTableAnchorCellType = GridCoordinate::class;
+  protected $dataSourceTableAnchorCellDataType = '';
+  public $sheetId;
+
+  public function setChartId($chartId)
+  {
+    $this->chartId = $chartId;
+  }
+  public function getChartId()
+  {
+    return $this->chartId;
+  }
+  /**
+   * @param GridCoordinate
+   */
+  public function setDataSourceFormulaCell(GridCoordinate $dataSourceFormulaCell)
+  {
+    $this->dataSourceFormulaCell = $dataSourceFormulaCell;
+  }
+  /**
+   * @return GridCoordinate
+   */
+  public function getDataSourceFormulaCell()
+  {
+    return $this->dataSourceFormulaCell;
+  }
+  /**
+   * @param GridCoordinate
+   */
+  public function setDataSourcePivotTableAnchorCell(GridCoordinate $dataSourcePivotTableAnchorCell)
+  {
+    $this->dataSourcePivotTableAnchorCell = $dataSourcePivotTableAnchorCell;
+  }
+  /**
+   * @return GridCoordinate
+   */
+  public function getDataSourcePivotTableAnchorCell()
+  {
+    return $this->dataSourcePivotTableAnchorCell;
+  }
+  /**
+   * @param GridCoordinate
+   */
+  public function setDataSourceTableAnchorCell(GridCoordinate $dataSourceTableAnchorCell)
+  {
+    $this->dataSourceTableAnchorCell = $dataSourceTableAnchorCell;
+  }
+  /**
+   * @return GridCoordinate
+   */
+  public function getDataSourceTableAnchorCell()
+  {
+    return $this->dataSourceTableAnchorCell;
+  }
+  public function setSheetId($sheetId)
+  {
+    $this->sheetId = $sheetId;
+  }
+  public function getSheetId()
+  {
+    return $this->sheetId;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(DataSourceObjectReference::class, 'Google_Service_Sheets_DataSourceObjectReference');

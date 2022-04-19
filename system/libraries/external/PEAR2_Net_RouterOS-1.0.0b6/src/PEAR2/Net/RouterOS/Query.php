@@ -1,104 +1,305 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-yf60ZYQSCT9R8r2X927Rjm==
+<?php
+
+/**
+ * RouterOS API client implementation.
+
+ *
+ * RouterOS is the flag product of the company MikroTik and is a powerful router software. One of its many abilities is to allow control over it via an API. This package provides a client for that API, in turn allowing you to use PHP to control RouterOS hosts.
+ *
+ * PHP version 5
+ *
+ * @category  Net
+ * @package   PEAR2_Net_RouterOS
+ * @author    Vasil Rangelov <boen.robot@gmail.com>
+ * @copyright 2011 Vasil Rangelov
+ * @license   http://www.gnu.org/copyleft/lesser.html LGPL License 2.1
+ * @version   1.0.0b6
+ * @link      http://pear2.php.net/PEAR2_Net_RouterOS
+ */
+/**
+ * The namespace declaration.
+ */
+namespace PEAR2\Net\RouterOS;
+
+/**
+ * Refers to transmitter direction constants.
+ */
+use PEAR2\Net\Transmitter as T;
+
+/**
+ * Represents a query for RouterOS requests.
+ *
+ * @category Net
+ * @package  PEAR2_Net_RouterOS
+ * @author   Vasil Rangelov <boen.robot@gmail.com>
+ * @license  http://www.gnu.org/copyleft/lesser.html LGPL License 2.1
+ * @link     http://pear2.php.net/PEAR2_Net_RouterOS
+ */
+class Query
+{
+
+    /**
+     * Checks if the property exists.
+     */
+    const OP_EX = '';
+
+    /**
+     * Checks if the property does not exist.
+     */
+    const OP_NEX = '-';
+
+    /**
+     * Checks if the property equals a certain value.
+     */
+    const OP_EQ = '=';
+
+    /**
+     * Checks if the property is less than a certain value.
+     */
+    const OP_LT = '<';
+
+    /**
+     * Checks if the property is greater than a certain value.
+     */
+    const OP_GT = '>';
+
+    /**
+     * An array of the words forming the query.
+     *
+     * Each value is an array with the first member being the predicate
+     * (operator and name), and the second member being the value
+     * for the predicate.
+     *
+     * @var array<string,string|null>[]
+     */
+    protected $words = array();
+
+    /**
+     * This class is not to be instantiated normally, but by static methods
+     * instead. Use {@link static::where()} to create an instance of it.
+     */
+    protected function __construct()
+    {
+
+    }
+
+    /**
+     * Sanitizes the operator of a condition.
+     *
+     * @param string $operator The operator to sanitize.
+     *
+     * @return string The sanitized operator.
+     */
+    protected static function sanitizeOperator($operator)
+    {
+        $operator = (string) $operator;
+        switch ($operator) {
+        case Query::OP_EX:
+        case Query::OP_NEX:
+        case Query::OP_EQ:
+        case Query::OP_LT:
+        case Query::OP_GT:
+            return $operator;
+        default:
+            throw new UnexpectedValueException(
+                'Unknown operator specified',
+                UnexpectedValueException::CODE_ACTION_UNKNOWN,
+                null,
+                $operator
+            );
+        }
+    }
+
+    /**
+     * Creates a new query with an initial condition.
+     *
+     * @param string               $name     The name of the property to test.
+     * @param string|resource|null $value    Value of the property as a string
+     *     or seekable stream. Not required for existence tests.
+     *     If a seekable stream is provided, it is sent from its current
+     *     position to its end, and the pointer is seeked back to its current
+     *     position after sending.
+     *     Non seekable streams, as well as all other types, are casted to a
+     *     string.
+     * @param string               $operator One of the OP_* constants.
+     *     Describes the operation to perform.
+     *
+     * @return static A new query object.
+     */
+    public static function where(
+        $name,
+        $value = null,
+        $operator = self::OP_EX
+    ) {
+        $query = new static;
+        return $query->addWhere($name, $value, $operator);
+    }
+
+    /**
+     * Negates the query.
+     *
+     * @return $this The query object.
+     */
+    public function not()
+    {
+        $this->words[] = array('#!', null);
+        return $this;
+    }
+
+    /**
+     * Adds a condition as an alternative to the query.
+     *
+     * @param string               $name     The name of the property to test.
+     * @param string|resource|null $value    Value of the property as a string
+     *     or seekable stream. Not required for existence tests.
+     *     If a seekable stream is provided, it is sent from its current
+     *     position to its end, and the pointer is seeked back to its current
+     *     position after sending.
+     *     Non seekable streams, as well as all other types, are casted to a
+     *     string.
+     * @param string               $operator One of the OP_* constants.
+     *     Describes the operation to perform.
+     *
+     * @return $this The query object.
+     */
+    public function orWhere($name, $value = null, $operator = self::OP_EX)
+    {
+        $this->addWhere($name, $value, $operator)->words[] = array('#|', null);
+        return $this;
+    }
+
+    /**
+     * Adds a condition in addition to the query.
+     *
+     * @param string               $name     The name of the property to test.
+     * @param string|resource|null $value    Value of the property as a string
+     *     or seekable stream. Not required for existence tests.
+     *     If a seekable stream is provided, it is sent from its current
+     *     position to its end, and the pointer is seeked back to its current
+     *     position after sending.
+     *     Non seekable streams, as well as all other types, are casted to a
+     *     string.
+     * @param string               $operator One of the OP_* constants.
+     *     Describes the operation to perform.
+     *
+     * @return $this The query object.
+     */
+    public function andWhere($name, $value = null, $operator = self::OP_EX)
+    {
+        $this->addWhere($name, $value, $operator)->words[] = array('#&', null);
+        return $this;
+    }
+
+    /**
+     * Sends the query over a communicator.
+     *
+     * @param Communicator $com The communicator to send the query over.
+     *
+     * @return int The number of bytes sent.
+     */
+    public function send(Communicator $com)
+    {
+        if ($com->getTransmitter()->isPersistent()) {
+            $old = $com->getTransmitter()->lock(T\Stream::DIRECTION_SEND);
+            $bytes = $this->_send($com);
+            $com->getTransmitter()->lock($old, true);
+            return $bytes;
+        }
+        return $this->_send($com);
+    }
+
+    /**
+     * Sends the query over a communicator.
+     *
+     * The only difference with the non private equivalent is that this one does
+     * not do locking.
+     *
+     * @param Communicator $com The communicator to send the query over.
+     *
+     * @return int The number of bytes sent.
+     */
+    private function _send(Communicator $com)
+    {
+        if (!$com->getTransmitter()->isAcceptingData()) {
+            throw new SocketException(
+                'Transmitter is invalid. Sending aborted.',
+                SocketException::CODE_QUERY_SEND_FAIL
+            );
+        }
+        $bytes = 0;
+        foreach ($this->words as $queryWord) {
+            list($predicate, $value) = $queryWord;
+            $prefix = '?' . $predicate;
+            if (null === $value) {
+                $bytes += $com->sendWord($prefix);
+            } else {
+                $prefix .= '=';
+                if (is_string($value)) {
+                    $bytes += $com->sendWord($prefix . $value);
+                } else {
+                    $bytes += $com->sendWordFromStream($prefix, $value);
+                }
+            }
+        }
+        return $bytes;
+    }
+
+    /**
+     * Verifies the query.
+     *
+     * Verifies the query against a communicator, i.e. whether the query
+     * could successfully be sent (assuming the connection is still opened).
+     *
+     * @param Communicator $com The Communicator to check against.
+     *
+     * @return $this The query object itself.
+     *
+     * @throws LengthException If the resulting length of an API word is not
+     *     supported.
+     */
+    public function verify(Communicator $com)
+    {
+        foreach ($this->words as $queryWord) {
+            list($predicate, $value) = $queryWord;
+            if (null === $value) {
+                $com::verifyLengthSupport(strlen('?' . $predicate));
+            } elseif (is_string($value)) {
+                $com::verifyLengthSupport(
+                    strlen('?' . $predicate . '=' . $value)
+                );
+            } else {
+                $com::verifyLengthSupport(
+                    strlen('?' . $predicate . '=') +
+                    $com::seekableStreamLength($value)
+                );
+            }
+        }
+        return $this;
+    }
+
+    /**
+     * Adds a condition.
+     *
+     * @param string               $name     The name of the property to test.
+     * @param string|resource|null $value    Value of the property as a string
+     *     or seekable stream. Not required for existence tests.
+     *     If a seekable stream is provided, it is sent from its current
+     *     position to its end, and the pointer is seeked back to its current
+     *     position after sending.
+     *     Non seekable streams, as well as all other types, are casted to a
+     *     string.
+     * @param string               $operator One of the ACTION_* constants.
+     *     Describes the operation to perform.
+     *
+     * @return $this The query object.
+     */
+    protected function addWhere($name, $value, $operator)
+    {
+        $this->words[] = array(
+            static::sanitizeOperator($operator)
+            . Message::sanitizeAttributeName($name),
+            (null === $value ? null : Message::sanitizeAttributeValue($value))
+        );
+        return $this;
+    }
+}

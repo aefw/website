@@ -1,78 +1,126 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/**
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+namespace Google\Auth\HttpHandler;
+
+use Exception;
+use GuzzleHttp\ClientInterface;
+use GuzzleHttp\Message\ResponseInterface as Guzzle5ResponseInterface;
+use GuzzleHttp\Promise\Promise;
+use GuzzleHttp\Promise\RejectedPromise;
+use GuzzleHttp\Psr7\Response;
+use Psr\Http\Message\RequestInterface;
+use Psr\Http\Message\ResponseInterface;
+
+class Guzzle5HttpHandler
+{
+    /**
+     * @var ClientInterface
+     */
+    private $client;
+
+    /**
+     * @param ClientInterface $client
+     */
+    public function __construct(ClientInterface $client)
+    {
+        $this->client = $client;
+    }
+
+    /**
+     * Accepts a PSR-7 Request and an array of options and returns a PSR-7 response.
+     *
+     * @param RequestInterface $request
+     * @param array $options
+     * @return ResponseInterface
+     */
+    public function __invoke(RequestInterface $request, array $options = [])
+    {
+        $response = $this->client->send(
+            $this->createGuzzle5Request($request, $options)
+        );
+
+        return $this->createPsr7Response($response);
+    }
+
+    /**
+     * Accepts a PSR-7 request and an array of options and returns a PromiseInterface
+     *
+     * @param RequestInterface $request
+     * @param array $options
+     * @return Promise
+     */
+    public function async(RequestInterface $request, array $options = [])
+    {
+        if (!class_exists('GuzzleHttp\Promise\Promise')) {
+            throw new Exception('Install guzzlehttp/promises to use async with Guzzle 5');
+        }
+
+        $futureResponse = $this->client->send(
+            $this->createGuzzle5Request(
+                $request,
+                ['future' => true] + $options
+            )
+        );
+
+        $promise = new Promise(
+            function () use ($futureResponse) {
+                try {
+                    $futureResponse->wait();
+                } catch (Exception $e) {
+                    // The promise is already delivered when the exception is
+                    // thrown, so don't rethrow it.
+                }
+            },
+            [$futureResponse, 'cancel']
+        );
+
+        $futureResponse->then([$promise, 'resolve'], [$promise, 'reject']);
+
+        return $promise->then(
+            function (Guzzle5ResponseInterface $response) {
+                // Adapt the Guzzle 5 Response to a PSR-7 Response.
+                return $this->createPsr7Response($response);
+            },
+            function (Exception $e) {
+                return new RejectedPromise($e);
+            }
+        );
+    }
+
+    private function createGuzzle5Request(RequestInterface $request, array $options)
+    {
+        return $this->client->createRequest(
+            $request->getMethod(),
+            $request->getUri(),
+            array_merge_recursive([
+                'headers' => $request->getHeaders(),
+                'body' => $request->getBody(),
+            ], $options)
+        );
+    }
+
+    private function createPsr7Response(Guzzle5ResponseInterface $response)
+    {
+        return new Response(
+            $response->getStatusCode(),
+            $response->getHeaders() ?: [],
+            $response->getBody(),
+            $response->getProtocolVersion(),
+            $response->getReasonPhrase()
+        );
+    }
+}

@@ -1,59 +1,187 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for StreetViewPublish (v1).
+ *
+ * <p>
+ * Publishes 360 photos to Google Maps, along with position, orientation, and
+ * connectivity metadata. Apps can offer an interface for positioning,
+ * connecting, and uploading user-generated Street View images.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://developers.google.com/streetview/publish/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class StreetViewPublish extends \Google\Service
+{
+  /** Publish and manage your 360 photos on Google Street View. */
+  const STREETVIEWPUBLISH =
+      "https://www.googleapis.com/auth/streetviewpublish";
+
+  public $photo;
+  public $photos;
+
+  /**
+   * Constructs the internal representation of the StreetViewPublish service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://streetviewpublish.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'streetviewpublish';
+
+    $this->photo = new StreetViewPublish\Resource\Photo(
+        $this,
+        $this->serviceName,
+        'photo',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/photo',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'delete' => [
+              'path' => 'v1/photo/{photoId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'photoId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/photo/{photoId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'photoId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'languageCode' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'startUpload' => [
+              'path' => 'v1/photo:startUpload',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'update' => [
+              'path' => 'v1/photo/{id}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->photos = new StreetViewPublish\Resource\Photos(
+        $this,
+        $this->serviceName,
+        'photos',
+        [
+          'methods' => [
+            'batchDelete' => [
+              'path' => 'v1/photos:batchDelete',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'batchGet' => [
+              'path' => 'v1/photos:batchGet',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'languageCode' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'photoIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'batchUpdate' => [
+              'path' => 'v1/photos:batchUpdate',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'list' => [
+              'path' => 'v1/photos',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'languageCode' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(StreetViewPublish::class, 'Google_Service_StreetViewPublish');

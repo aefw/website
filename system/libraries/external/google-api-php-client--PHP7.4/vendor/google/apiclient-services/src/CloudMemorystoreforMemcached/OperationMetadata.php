@@ -1,68 +1,89 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudMemorystoreforMemcached;
+
+class OperationMetadata extends \Google\Model
+{
+  public $apiVersion;
+  public $cancelRequested;
+  public $createTime;
+  public $endTime;
+  public $statusDetail;
+  public $target;
+  public $verb;
+
+  public function setApiVersion($apiVersion)
+  {
+    $this->apiVersion = $apiVersion;
+  }
+  public function getApiVersion()
+  {
+    return $this->apiVersion;
+  }
+  public function setCancelRequested($cancelRequested)
+  {
+    $this->cancelRequested = $cancelRequested;
+  }
+  public function getCancelRequested()
+  {
+    return $this->cancelRequested;
+  }
+  public function setCreateTime($createTime)
+  {
+    $this->createTime = $createTime;
+  }
+  public function getCreateTime()
+  {
+    return $this->createTime;
+  }
+  public function setEndTime($endTime)
+  {
+    $this->endTime = $endTime;
+  }
+  public function getEndTime()
+  {
+    return $this->endTime;
+  }
+  public function setStatusDetail($statusDetail)
+  {
+    $this->statusDetail = $statusDetail;
+  }
+  public function getStatusDetail()
+  {
+    return $this->statusDetail;
+  }
+  public function setTarget($target)
+  {
+    $this->target = $target;
+  }
+  public function getTarget()
+  {
+    return $this->target;
+  }
+  public function setVerb($verb)
+  {
+    $this->verb = $verb;
+  }
+  public function getVerb()
+  {
+    return $this->verb;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(OperationMetadata::class, 'Google_Service_CloudMemorystoreforMemcached_OperationMetadata');

@@ -1,69 +1,104 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AndroidPublisher;
+
+class TrackRelease extends \Google\Collection
+{
+  protected $collection_key = 'versionCodes';
+  protected $countryTargetingType = CountryTargeting::class;
+  protected $countryTargetingDataType = '';
+  public $inAppUpdatePriority;
+  public $name;
+  protected $releaseNotesType = LocalizedText::class;
+  protected $releaseNotesDataType = 'array';
+  public $status;
+  public $userFraction;
+  public $versionCodes;
+
+  /**
+   * @param CountryTargeting
+   */
+  public function setCountryTargeting(CountryTargeting $countryTargeting)
+  {
+    $this->countryTargeting = $countryTargeting;
+  }
+  /**
+   * @return CountryTargeting
+   */
+  public function getCountryTargeting()
+  {
+    return $this->countryTargeting;
+  }
+  public function setInAppUpdatePriority($inAppUpdatePriority)
+  {
+    $this->inAppUpdatePriority = $inAppUpdatePriority;
+  }
+  public function getInAppUpdatePriority()
+  {
+    return $this->inAppUpdatePriority;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  /**
+   * @param LocalizedText[]
+   */
+  public function setReleaseNotes($releaseNotes)
+  {
+    $this->releaseNotes = $releaseNotes;
+  }
+  /**
+   * @return LocalizedText[]
+   */
+  public function getReleaseNotes()
+  {
+    return $this->releaseNotes;
+  }
+  public function setStatus($status)
+  {
+    $this->status = $status;
+  }
+  public function getStatus()
+  {
+    return $this->status;
+  }
+  public function setUserFraction($userFraction)
+  {
+    $this->userFraction = $userFraction;
+  }
+  public function getUserFraction()
+  {
+    return $this->userFraction;
+  }
+  public function setVersionCodes($versionCodes)
+  {
+    $this->versionCodes = $versionCodes;
+  }
+  public function getVersionCodes()
+  {
+    return $this->versionCodes;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(TrackRelease::class, 'Google_Service_AndroidPublisher_TrackRelease');

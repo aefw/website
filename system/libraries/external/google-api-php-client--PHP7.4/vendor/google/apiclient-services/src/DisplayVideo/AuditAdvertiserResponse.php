@@ -1,73 +1,98 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-HO8klDld0Um=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DisplayVideo;
+
+class AuditAdvertiserResponse extends \Google\Model
+{
+  public $adGroupCriteriaCount;
+  public $campaignCriteriaCount;
+  public $channelsCount;
+  public $negativeKeywordListsCount;
+  public $negativelyTargetedChannelsCount;
+  public $usedCampaignsCount;
+  public $usedInsertionOrdersCount;
+  public $usedLineItemsCount;
+
+  public function setAdGroupCriteriaCount($adGroupCriteriaCount)
+  {
+    $this->adGroupCriteriaCount = $adGroupCriteriaCount;
+  }
+  public function getAdGroupCriteriaCount()
+  {
+    return $this->adGroupCriteriaCount;
+  }
+  public function setCampaignCriteriaCount($campaignCriteriaCount)
+  {
+    $this->campaignCriteriaCount = $campaignCriteriaCount;
+  }
+  public function getCampaignCriteriaCount()
+  {
+    return $this->campaignCriteriaCount;
+  }
+  public function setChannelsCount($channelsCount)
+  {
+    $this->channelsCount = $channelsCount;
+  }
+  public function getChannelsCount()
+  {
+    return $this->channelsCount;
+  }
+  public function setNegativeKeywordListsCount($negativeKeywordListsCount)
+  {
+    $this->negativeKeywordListsCount = $negativeKeywordListsCount;
+  }
+  public function getNegativeKeywordListsCount()
+  {
+    return $this->negativeKeywordListsCount;
+  }
+  public function setNegativelyTargetedChannelsCount($negativelyTargetedChannelsCount)
+  {
+    $this->negativelyTargetedChannelsCount = $negativelyTargetedChannelsCount;
+  }
+  public function getNegativelyTargetedChannelsCount()
+  {
+    return $this->negativelyTargetedChannelsCount;
+  }
+  public function setUsedCampaignsCount($usedCampaignsCount)
+  {
+    $this->usedCampaignsCount = $usedCampaignsCount;
+  }
+  public function getUsedCampaignsCount()
+  {
+    return $this->usedCampaignsCount;
+  }
+  public function setUsedInsertionOrdersCount($usedInsertionOrdersCount)
+  {
+    $this->usedInsertionOrdersCount = $usedInsertionOrdersCount;
+  }
+  public function getUsedInsertionOrdersCount()
+  {
+    return $this->usedInsertionOrdersCount;
+  }
+  public function setUsedLineItemsCount($usedLineItemsCount)
+  {
+    $this->usedLineItemsCount = $usedLineItemsCount;
+  }
+  public function getUsedLineItemsCount()
+  {
+    return $this->usedLineItemsCount;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AuditAdvertiserResponse::class, 'Google_Service_DisplayVideo_AuditAdvertiserResponse');

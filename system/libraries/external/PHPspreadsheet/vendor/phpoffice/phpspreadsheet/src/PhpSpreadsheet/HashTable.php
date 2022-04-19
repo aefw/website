@@ -1,72 +1,179 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+namespace PhpOffice\PhpSpreadsheet;
+
+class HashTable
+{
+    /**
+     * HashTable elements.
+     *
+     * @var IComparable[]
+     */
+    protected $items = [];
+
+    /**
+     * HashTable key map.
+     *
+     * @var string[]
+     */
+    protected $keyMap = [];
+
+    /**
+     * Create a new \PhpOffice\PhpSpreadsheet\HashTable.
+     *
+     * @param IComparable[] $pSource Optional source array to create HashTable from
+     *
+     * @throws Exception
+     */
+    public function __construct($pSource = null)
+    {
+        if ($pSource !== null) {
+            // Create HashTable
+            $this->addFromSource($pSource);
+        }
+    }
+
+    /**
+     * Add HashTable items from source.
+     *
+     * @param IComparable[] $pSource Source array to create HashTable from
+     *
+     * @throws Exception
+     */
+    public function addFromSource(array $pSource = null)
+    {
+        // Check if an array was passed
+        if ($pSource == null) {
+            return;
+        }
+
+        foreach ($pSource as $item) {
+            $this->add($item);
+        }
+    }
+
+    /**
+     * Add HashTable item.
+     *
+     * @param IComparable $pSource Item to add
+     */
+    public function add(IComparable $pSource)
+    {
+        $hash = $pSource->getHashCode();
+        if (!isset($this->items[$hash])) {
+            $this->items[$hash] = $pSource;
+            $this->keyMap[count($this->items) - 1] = $hash;
+        }
+    }
+
+    /**
+     * Remove HashTable item.
+     *
+     * @param IComparable $pSource Item to remove
+     */
+    public function remove(IComparable $pSource)
+    {
+        $hash = $pSource->getHashCode();
+        if (isset($this->items[$hash])) {
+            unset($this->items[$hash]);
+
+            $deleteKey = -1;
+            foreach ($this->keyMap as $key => $value) {
+                if ($deleteKey >= 0) {
+                    $this->keyMap[$key - 1] = $value;
+                }
+
+                if ($value == $hash) {
+                    $deleteKey = $key;
+                }
+            }
+            unset($this->keyMap[count($this->keyMap) - 1]);
+        }
+    }
+
+    /**
+     * Clear HashTable.
+     */
+    public function clear()
+    {
+        $this->items = [];
+        $this->keyMap = [];
+    }
+
+    /**
+     * Count.
+     *
+     * @return int
+     */
+    public function count()
+    {
+        return count($this->items);
+    }
+
+    /**
+     * Get index for hash code.
+     *
+     * @param string $pHashCode
+     *
+     * @return int Index
+     */
+    public function getIndexForHashCode($pHashCode)
+    {
+        return array_search($pHashCode, $this->keyMap);
+    }
+
+    /**
+     * Get by index.
+     *
+     * @param int $pIndex
+     *
+     * @return IComparable
+     */
+    public function getByIndex($pIndex)
+    {
+        if (isset($this->keyMap[$pIndex])) {
+            return $this->getByHashCode($this->keyMap[$pIndex]);
+        }
+
+        return null;
+    }
+
+    /**
+     * Get by hashcode.
+     *
+     * @param string $pHashCode
+     *
+     * @return IComparable
+     */
+    public function getByHashCode($pHashCode)
+    {
+        if (isset($this->items[$pHashCode])) {
+            return $this->items[$pHashCode];
+        }
+
+        return null;
+    }
+
+    /**
+     * HashTable to array.
+     *
+     * @return IComparable[]
+     */
+    public function toArray()
+    {
+        return $this->items;
+    }
+
+    /**
+     * Implement PHP __clone to create a deep clone, not just a shallow copy.
+     */
+    public function __clone()
+    {
+        $vars = get_object_vars($this);
+        foreach ($vars as $key => $value) {
+            if (is_object($value)) {
+                $this->$key = clone $value;
+            }
+        }
+    }
+}

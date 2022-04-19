@@ -1,68 +1,277 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for BinaryAuthorization (v1).
+ *
+ * <p>
+ * The management interface for Binary Authorization, a system providing policy
+ * control for images deployed to Kubernetes Engine clusters.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/binary-authorization/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class BinaryAuthorization extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+
+  public $projects;
+  public $projects_attestors;
+  public $projects_policy;
+  public $systempolicy;
+
+  /**
+   * Constructs the internal representation of the BinaryAuthorization service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://binaryauthorization.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'binaryauthorization';
+
+    $this->projects = new BinaryAuthorization\Resource\Projects(
+        $this,
+        $this->serviceName,
+        'projects',
+        [
+          'methods' => [
+            'getPolicy' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'updatePolicy' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_attestors = new BinaryAuthorization\Resource\ProjectsAttestors(
+        $this,
+        $this->serviceName,
+        'attestors',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/attestors',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'attestorId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1/{+resource}:getIamPolicy',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'options.requestedPolicyVersion' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/attestors',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'validateAttestationOccurrence' => [
+              'path' => 'v1/{+attestor}:validateAttestationOccurrence',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'attestor' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_policy = new BinaryAuthorization\Resource\ProjectsPolicy(
+        $this,
+        $this->serviceName,
+        'policy',
+        [
+          'methods' => [
+            'getIamPolicy' => [
+              'path' => 'v1/{+resource}:getIamPolicy',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'options.requestedPolicyVersion' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->systempolicy = new BinaryAuthorization\Resource\Systempolicy(
+        $this,
+        $this->serviceName,
+        'systempolicy',
+        [
+          'methods' => [
+            'getPolicy' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(BinaryAuthorization::class, 'Google_Service_BinaryAuthorization');

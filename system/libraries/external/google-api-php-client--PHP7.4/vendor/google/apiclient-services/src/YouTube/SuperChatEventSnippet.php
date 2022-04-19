@@ -1,81 +1,130 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-8Qh2jUdDLfy=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\YouTube;
+
+class SuperChatEventSnippet extends \Google\Model
+{
+  public $amountMicros;
+  public $channelId;
+  public $commentText;
+  public $createdAt;
+  public $currency;
+  public $displayString;
+  public $isSuperStickerEvent;
+  public $messageType;
+  protected $superStickerMetadataType = SuperStickerMetadata::class;
+  protected $superStickerMetadataDataType = '';
+  protected $supporterDetailsType = ChannelProfileDetails::class;
+  protected $supporterDetailsDataType = '';
+
+  public function setAmountMicros($amountMicros)
+  {
+    $this->amountMicros = $amountMicros;
+  }
+  public function getAmountMicros()
+  {
+    return $this->amountMicros;
+  }
+  public function setChannelId($channelId)
+  {
+    $this->channelId = $channelId;
+  }
+  public function getChannelId()
+  {
+    return $this->channelId;
+  }
+  public function setCommentText($commentText)
+  {
+    $this->commentText = $commentText;
+  }
+  public function getCommentText()
+  {
+    return $this->commentText;
+  }
+  public function setCreatedAt($createdAt)
+  {
+    $this->createdAt = $createdAt;
+  }
+  public function getCreatedAt()
+  {
+    return $this->createdAt;
+  }
+  public function setCurrency($currency)
+  {
+    $this->currency = $currency;
+  }
+  public function getCurrency()
+  {
+    return $this->currency;
+  }
+  public function setDisplayString($displayString)
+  {
+    $this->displayString = $displayString;
+  }
+  public function getDisplayString()
+  {
+    return $this->displayString;
+  }
+  public function setIsSuperStickerEvent($isSuperStickerEvent)
+  {
+    $this->isSuperStickerEvent = $isSuperStickerEvent;
+  }
+  public function getIsSuperStickerEvent()
+  {
+    return $this->isSuperStickerEvent;
+  }
+  public function setMessageType($messageType)
+  {
+    $this->messageType = $messageType;
+  }
+  public function getMessageType()
+  {
+    return $this->messageType;
+  }
+  /**
+   * @param SuperStickerMetadata
+   */
+  public function setSuperStickerMetadata(SuperStickerMetadata $superStickerMetadata)
+  {
+    $this->superStickerMetadata = $superStickerMetadata;
+  }
+  /**
+   * @return SuperStickerMetadata
+   */
+  public function getSuperStickerMetadata()
+  {
+    return $this->superStickerMetadata;
+  }
+  /**
+   * @param ChannelProfileDetails
+   */
+  public function setSupporterDetails(ChannelProfileDetails $supporterDetails)
+  {
+    $this->supporterDetails = $supporterDetails;
+  }
+  /**
+   * @return ChannelProfileDetails
+   */
+  public function getSupporterDetails()
+  {
+    return $this->supporterDetails;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(SuperChatEventSnippet::class, 'Google_Service_YouTube_SuperChatEventSnippet');

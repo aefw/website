@@ -1,64 +1,102 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-DEchDj/B0W==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\SemanticTile;
+
+class FeatureTile extends \Google\Collection
+{
+  protected $collection_key = 'providers';
+  protected $coordinatesType = TileCoordinates::class;
+  protected $coordinatesDataType = '';
+  protected $featuresType = Feature::class;
+  protected $featuresDataType = 'array';
+  public $name;
+  protected $providersType = ProviderInfo::class;
+  protected $providersDataType = 'array';
+  public $status;
+  public $versionId;
+
+  /**
+   * @param TileCoordinates
+   */
+  public function setCoordinates(TileCoordinates $coordinates)
+  {
+    $this->coordinates = $coordinates;
+  }
+  /**
+   * @return TileCoordinates
+   */
+  public function getCoordinates()
+  {
+    return $this->coordinates;
+  }
+  /**
+   * @param Feature[]
+   */
+  public function setFeatures($features)
+  {
+    $this->features = $features;
+  }
+  /**
+   * @return Feature[]
+   */
+  public function getFeatures()
+  {
+    return $this->features;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  /**
+   * @param ProviderInfo[]
+   */
+  public function setProviders($providers)
+  {
+    $this->providers = $providers;
+  }
+  /**
+   * @return ProviderInfo[]
+   */
+  public function getProviders()
+  {
+    return $this->providers;
+  }
+  public function setStatus($status)
+  {
+    $this->status = $status;
+  }
+  public function getStatus()
+  {
+    return $this->status;
+  }
+  public function setVersionId($versionId)
+  {
+    $this->versionId = $versionId;
+  }
+  public function getVersionId()
+  {
+    return $this->versionId;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(FeatureTile::class, 'Google_Service_SemanticTile_FeatureTile');

@@ -1,62 +1,162 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPn6/V+EKBqJL4NBgm5yK8qSf0S15uUlItuN8IzXze3SGTHNWpCZ5OsQ/U8aeAnwAnlja53Qg
-W/dxFmR7pfClWpWPSbEn/lrFcmOCXLElJFHvg21OQ1JEI4IjngJPDeo0MI5VkMy550PNCFN9emHz
-XuF8jKanoOMrpjhga8kD4NqhNtCwmns9KAEBW1MhmZfznfUfJ/M9w/VXgunPv9XBhm2t5fTFMLQj
-2SsJvxpVpt8P4dOc2GuJ5lCoaGFI6nfayztWhwk7XQ7Aj2GI1/PvkM6J9AwyLUVvsid3kSxXEHjC
-p7FnS9ujS5ysEw1F3CWlY98U8//CkuQ2pF4+LLdHB9f68h+gPULtBuwiXeMpjUfc5xgYMAy966WO
-RFPdmzEfq4cOXW+CyCWkNhflN3rhj0g0wUPNGLlhgklkCJyP5Jq0i9pg0sKfx1L4uOK8UjMzlvGT
-bANITT8KjYNEAlfeJ2Ir9AfGO1R5bqOBefR/DmvK2SFWxoWidK1ndxOrMp5PoZhG6XQuo4rKwT8T
-HXhJs0os9JjuJzr5sFIs8rJJrfHVJs3XDm5YqLQVuG4+VWb4BwVEJuqkfwIqlmX5J5dqS4jSimmZ
-4cwBdG6VFnvEMSclbAmczBi7tc6SORER6+PQPXU8OCJuzxBaJZgvQoRdWeQ1KxePUxeQA562WZh7
-NDOT+szqjGJ88OWlp7CBLEDLdqjErRVDqWCISHbiEpw7X9TphscaptiGU2XY/55sLBV/iK4cudCs
-YpuTcPwvGnT7Y8QSP3aFktdM5FpJ/qC9PFwElHVdBcCgeYgxTq4w8vVAe9SvaXKZtqmQAc5Eh5TK
-7PcxROF1SE25rsX1UhO4PuOZdofWpFzNAsidLbQcCheIqU2iW0Sr9VghtILGDLdkIU0z7grkxU/R
-3ShYhCf0UvaRqYNB60AsFS77ezc3l7EFFPguD6iAnc4KkUdZwSu+UTaQPt3UH56WE8p65Z+1UcMO
-CdyB1Um2+KSMNMaJYlAkxL1w/FmzHH/dDgdw4fVkJCc7ll0B5r3yYessibQYWUPHvZ+jJjhkOrUe
-TYxjJlsKXsNsk5lgLjNKh9WlhfL24qQzS3IlZm7/6W8ndt3SE/HhCTsilbzCEHHaMypsytSVrNg+
-b/bajn64A1+8JlUcKj0ex+dokvBi8N0D+t3D0bj6owBuoUm/kwFd0rG4pVGq3lx8UMbCPEamkRg/
-z/Fui7i2p/ExE0T+shDrv5PuucsR5MW//ASAEWf1VR/mtZiosK+i2QgTnI/alommMuSbMhSlSchl
-CeVgiFZtk6kiVkG7EWhRwUVz/Od5g/n6PlHWdsqK5yhXuPKNSzqCZ7UqA7uVXee/SSNmHi2l10zP
-i+odapNToK389w/hwyk4v2WTA8QQ+HvHcifCK7lG9Rxf2kCsfjpK3BgtpMKIrPU86GVHikoPPH76
-AAootMnx+Lehpb3QupdlHGjKGxOlVVNGGRcPMCG1P2uYR8cj9PMFSmPvNXsku6FzOT2GIxMP0LgE
-C2OPGUWM+DQN1PtAMmDbqY3gvRkjbGUUFS1H0er2fnUGzpboDqmlgp+Y0Ew+bakunVsQco2EaMrp
-QTu/5KqAYAR9aSLSOaP8CMg9sI8HmS24JIp0CpC3gVKGqfcyDiOTVE6opam+y+vEbHUxHnjL3yiY
-ipIYS3P++U94pLc8LFoi12Ezn1bfnl+P7U9WQt3LcBDW/nf7aAfddXCQPOWHJX6KcWDNQ9XZZxMy
-IfCA9ihcs76dZprPTq1vzroLPxm3iLnP4ujLMqDbD4SJXMa6l5n5fTaUgI3r1OfaA3ukKwhjdsi+
-VHN1xiNwRbfGeGvOEVYBU62efxwRu5ssfLd1GZ1TizW2qzrRpX3fx6+qcrugg13O+dBH47QvH97M
-uHR0RKHlLDw3ERcPKUvHOcAe3qR1TvCdwMxTqRFHloyjO0DZSQO/BsXO2umBG6n0SrWJ00lLTdyG
-X7oXhUjFz6elWqFqaFwb6zxtx3d9nBH0LXWPYXR+jYZ8K24acCrtH4B4lLUnAX/T2xQuVHOXMFUq
-+VjOwXLHPfj1vkyJfIdVfQxkScCWLD7HFkas14DvkdhGPDB5e69knjw1qeLYIpqjD3SsYdbG5Krl
-5Cfj53BMCTS1rmBNXmxZ39zUIYJPqt0u6imbBgWkbHbx3Zg7yUib68HzHRWfIoDLc+qTdlHsbh1S
-7I9IQ2o6m5SXwrQr2E+Vw0KkfPNWODxNB5epi2H8zCLzLapm+mQonm87MqGe1avayGztAkyEvHro
-wUpHQyy2MMaRTs9PdVWhS+ljNssZBaR75EIouUe4lXva1APS5zjSqWw5/CBLzbd815FeDhpzd++U
-iG+wmOUuO3i0/tG85G8oHxja88Eiww5x8cAQIeZANXMyytSeDma5POEwBZHhAHwr7mgrCDEZ/owT
-Nk2dfcQOt9YIgt81KR8wOkzd3PajvZCAwoOObmVt9Gx+vOw9+iS9Bba55h33MQH4r0JzfhEnQBDh
-qM9mOet59BPFDkmldsqar8wxw1cy1AsHhZdTHVRsxELWpupCHBujCtbzSd9sECh8Zsm/aWS7svFk
-mONKEdiIuip4hG8bZiuA/qmxyeDeqzrk5rLKe3/sdMvrNZk7pxufo7OmjgfW935Woo7UjHNJOSSa
-VH3Qf5KwdWjErrNJ5eppX/9C1/7PVQ3HMNhqo3EyHZaNXyNYqV/4A6oK/CaXcUDHoe072vg1hEnf
-Mg8t+FDrOS82UQuKGXzrxwFWCO0e87jTAnZ+9lnpg0AR7ue3HJK+z7RleiUuHkEdgLSC5j1u0as3
-Qp7W89T2vYXEKGKcWRIm6c2tjSnFfq4LCBhI+coNNbVlRDOQqgTnGsqz/sEWIvznvHPuPtlIE2Ei
-w90DshoB3zCpjT4J++u8r/LwP0/j8WT0RmBU5UkNxkEP25s6uMHSXbY6TK7JJQFa5C53S8ZrZ2UP
-2M1rzodRtE2OO86tqWVBxBhfypygSHiUjaJOIFfl+tx/e21xYvTvZy48xeMIv4eHDEhKwoCN8XhW
-cRu9fRBpDr+2YmWGuPuUELAAWlas4OoIA8z5bJaz3n5P3KknQexBNDr5qGEpoWmb9clVZFUX1NxM
-r8Ns80fJMJEBIO2vGGJm+9bRTt1Jo3t2ImfuP8pKMDcBzoHUQ1IKbuV5TgtnR0zSG/EchlOg07s3
-jChBA6seylxrRxMrrxZ24gctRotWYXGt1RMtM1mqu5fcRFNOsFD6CqJcRjxqdzNfzG3SAfoGVWgh
-qtGAH0kjNXbjZRsAys7C6riPUpZgq80elvU+uhiKhar0xhRG9DLCLoH2MTh0JaEWXYs1qYp/6wxR
-tTrKC4NF7iKfnL9Lg/KfMRTmcjc5Z9fAcGYkn7bFcYOrWn6KSv/0OcUBiUch76eskSFeCdqn/DEs
-Z8EFOAvwt5CSHewz8fdCddPh+sNSGDZTd07Yh9y35TsyIhhMqZCuHUItA6Mh85Y+cSmqyHuFJRI8
-EdxfUrR1a9llGPcVXmzYoeKpdYrZkC0mkjGedaTd0K0/JTpQ8Ds0sJEC1qBHyRtz+DcSPE16K2CX
-gm2QWA/w309GUvn4wl0ANkItACwcY+m7qIviQgUIDZ1MwWeOxI0abTETD9Niesup+8rCeI9rnAJc
-8BBQACGeShf97s1jkzyvJTWXflWO3R4NOHGI/X2ix1XHzsnWTY00cWNr/vPHaoAr8ybEwxHjcQZr
-hPPN2hmnjC8N/p+0G7WcX5j1vwxpvIgHdb9i7VoQ9FavT8cNii+0dmAJPmyo5Q6LX+6JJT0K/m7S
-qYVllC+DNu+MNU3dCaelXEGR2rHMPrLAhPoi7RnIholver915QPXKMD5sNPl2tQ0Iigm433gedaa
-IRGbQkjVe2EuUZ9qRluEG+BeyJ2Cvy+tsMZYg4A96zADtG+QhVJID2N+sXqO8XcDQEGahfId0sT6
-ecvXR8n8edANhb/j80UkEFoXV3L60kc3rgRFPxLzCjbHMrLsp2KdS00pmu8K89GFUee2E65480Lk
-sSC5nACG0D4p8eZoSFvdY7CXZFmKjbspoAVrOttosii93RtIhysH2KHX3DSi1HI8964lP/6teYAw
-tJRrcZh9h88bnUDzhaVhgXoROnPOVFSfgLuqHaw893bYFRIS7bRv0dpo2GDoR2NC3t3paiuYJJy9
-gpB6vfVP8zSGbf7KRDI8Dr7E0ZVWgPuiLWgvjsp1+WyjRZ3SlN6WxQO=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute\Resource;
+
+use Google\Service\Compute\Address;
+use Google\Service\Compute\AddressList;
+use Google\Service\Compute\Operation;
+
+/**
+ * The "globalAddresses" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $computeService = new Google\Service\Compute(...);
+ *   $globalAddresses = $computeService->globalAddresses;
+ *  </code>
+ */
+class GlobalAddresses extends \Google\Service\Resource
+{
+  /**
+   * Deletes the specified address resource. (globalAddresses.delete)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $address Name of the address resource to delete.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function delete($project, $address, $optParams = [])
+  {
+    $params = ['project' => $project, 'address' => $address];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Returns the specified address resource. Gets a list of available addresses by
+   * making a list() request. (globalAddresses.get)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $address Name of the address resource to return.
+   * @param array $optParams Optional parameters.
+   * @return Address
+   */
+  public function get($project, $address, $optParams = [])
+  {
+    $params = ['project' => $project, 'address' => $address];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Address::class);
+  }
+  /**
+   * Creates an address resource in the specified project by using the data
+   * included in the request. (globalAddresses.insert)
+   *
+   * @param string $project Project ID for this request.
+   * @param Address $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function insert($project, Address $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Operation::class);
+  }
+  /**
+   * Retrieves a list of global addresses. (globalAddresses.listGlobalAddresses)
+   *
+   * @param string $project Project ID for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return AddressList
+   */
+  public function listGlobalAddresses($project, $optParams = [])
+  {
+    $params = ['project' => $project];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], AddressList::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GlobalAddresses::class, 'Google_Service_Compute_Resource_GlobalAddresses');

@@ -1,83 +1,153 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudTasks;
+
+class Task extends \Google\Model
+{
+  protected $appEngineHttpRequestType = AppEngineHttpRequest::class;
+  protected $appEngineHttpRequestDataType = '';
+  public $createTime;
+  public $dispatchCount;
+  public $dispatchDeadline;
+  protected $firstAttemptType = Attempt::class;
+  protected $firstAttemptDataType = '';
+  protected $httpRequestType = HttpRequest::class;
+  protected $httpRequestDataType = '';
+  protected $lastAttemptType = Attempt::class;
+  protected $lastAttemptDataType = '';
+  public $name;
+  public $responseCount;
+  public $scheduleTime;
+  public $view;
+
+  /**
+   * @param AppEngineHttpRequest
+   */
+  public function setAppEngineHttpRequest(AppEngineHttpRequest $appEngineHttpRequest)
+  {
+    $this->appEngineHttpRequest = $appEngineHttpRequest;
+  }
+  /**
+   * @return AppEngineHttpRequest
+   */
+  public function getAppEngineHttpRequest()
+  {
+    return $this->appEngineHttpRequest;
+  }
+  public function setCreateTime($createTime)
+  {
+    $this->createTime = $createTime;
+  }
+  public function getCreateTime()
+  {
+    return $this->createTime;
+  }
+  public function setDispatchCount($dispatchCount)
+  {
+    $this->dispatchCount = $dispatchCount;
+  }
+  public function getDispatchCount()
+  {
+    return $this->dispatchCount;
+  }
+  public function setDispatchDeadline($dispatchDeadline)
+  {
+    $this->dispatchDeadline = $dispatchDeadline;
+  }
+  public function getDispatchDeadline()
+  {
+    return $this->dispatchDeadline;
+  }
+  /**
+   * @param Attempt
+   */
+  public function setFirstAttempt(Attempt $firstAttempt)
+  {
+    $this->firstAttempt = $firstAttempt;
+  }
+  /**
+   * @return Attempt
+   */
+  public function getFirstAttempt()
+  {
+    return $this->firstAttempt;
+  }
+  /**
+   * @param HttpRequest
+   */
+  public function setHttpRequest(HttpRequest $httpRequest)
+  {
+    $this->httpRequest = $httpRequest;
+  }
+  /**
+   * @return HttpRequest
+   */
+  public function getHttpRequest()
+  {
+    return $this->httpRequest;
+  }
+  /**
+   * @param Attempt
+   */
+  public function setLastAttempt(Attempt $lastAttempt)
+  {
+    $this->lastAttempt = $lastAttempt;
+  }
+  /**
+   * @return Attempt
+   */
+  public function getLastAttempt()
+  {
+    return $this->lastAttempt;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setResponseCount($responseCount)
+  {
+    $this->responseCount = $responseCount;
+  }
+  public function getResponseCount()
+  {
+    return $this->responseCount;
+  }
+  public function setScheduleTime($scheduleTime)
+  {
+    $this->scheduleTime = $scheduleTime;
+  }
+  public function getScheduleTime()
+  {
+    return $this->scheduleTime;
+  }
+  public function setView($view)
+  {
+    $this->view = $view;
+  }
+  public function getView()
+  {
+    return $this->view;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Task::class, 'Google_Service_CloudTasks_Task');

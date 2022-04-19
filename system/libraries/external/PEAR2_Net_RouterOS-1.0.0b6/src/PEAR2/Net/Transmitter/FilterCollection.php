@@ -1,88 +1,234 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+/**
+ * Wrapper for network stream functionality.
+
+ *
+ * PHP has built in support for various types of network streams, such as HTTP and TCP sockets. One problem that arises with them is the fact that a single fread/fwrite call might not read/write all the data you intended, regardless of whether you're in blocking mode or not. While the PHP manual offers a workaround in the form of a loop with a few variables, using it every single time you want to read/write can be tedious.
+
+This package abstracts this away, so that when you want to get exactly N amount of bytes, you can be sure the upper levels of your app will be dealing with N bytes. Oh, and the functionality is nicely wrapped in an object (but that's just the icing on the cake).
+ *
+ * PHP version 5
+ *
+ * @category  Net
+ * @package   PEAR2_Net_Transmitter
+ * @author    Vasil Rangelov <boen.robot@gmail.com>
+ * @copyright 2011 Vasil Rangelov
+ * @license   http://www.gnu.org/copyleft/lesser.html LGPL License 2.1
+ * @version   1.0.0b2
+ * @link      http://pear2.php.net/PEAR2_Net_Transmitter
+ */
+/**
+ * The namespace declaration.
+ */
+namespace PEAR2\Net\Transmitter;
+
+/**
+ * A filter collection.
+ *
+ * Represents a collection of stream filters.
+ *
+ * @category Net
+ * @package  PEAR2_Net_Transmitter
+ * @author   Vasil Rangelov <boen.robot@gmail.com>
+ * @license  http://www.gnu.org/copyleft/lesser.html LGPL License 2.1
+ * @link     http://pear2.php.net/PEAR2_Net_Transmitter
+ * @see      Client
+ */
+class FilterCollection implements \SeekableIterator, \Countable
+{
+    /**
+     * The filter collection itself.
+     *
+     * @var array
+     */
+    protected $filters = array();
+
+    /**
+     * A pointer, as required by SeekableIterator.
+     *
+     * @var int
+     */
+    protected $position = 0;
+
+    /**
+     * Appends a filter to the collection
+     *
+     * @param string $name   The name of the filter.
+     * @param array  $params An array of parameters for the filter.
+     *
+     * @return $this The collection itself.
+     */
+    public function append($name, array $params = array())
+    {
+        $this->filters[] = array((string) $name, $params);
+        return $this;
+    }
+
+    /**
+     * Inserts the filter before a position.
+     *
+     * Inserts the specified filter before a filter at a specified position. The
+     * new filter takes the specified position, while previous filters are moved
+     * forward by one.
+     *
+     * @param int    $position The position before which the filter will be
+     *     inserted.
+     * @param string $name     The name of the filter.
+     * @param array  $params   An array of parameters for the filter.
+     *
+     * @return $this The collection itself.
+     */
+    public function insertBefore($position, $name, array $params = array())
+    {
+        $position = (int) $position;
+        if ($position <= 0) {
+            $this->filters = array_merge(
+                array(0 => array((string) $name, $params)),
+                $this->filters
+            );
+            return $this;
+        }
+        if ($position > count($this->filters)) {
+            return $this->append($name, $params);
+        }
+        $this->filters = array_merge(
+            array_slice($this->filters, 0, $position),
+            array(0 => array((string) $name, $params)),
+            array_slice($this->filters, $position)
+        );
+        return $this;
+    }
+
+    /**
+     * Removes a filter at a specified position.
+     *
+     * @param int $position The position from which to remove a filter.
+     *
+     * @return $this The collection itself.
+     */
+    public function removeAt($position)
+    {
+        unset($this->filters[$position]);
+        $this->filters = array_values($this->filters);
+        return $this;
+    }
+
+    /**
+     * Clears the collection
+     *
+     * @return $this The collection itself.
+     */
+    public function clear()
+    {
+        $this->filters = array();
+        return $this;
+    }
+
+    /**
+     * Gets the number of filters in the collection.
+     *
+     * @return int The number of filters in the collection.
+     */
+    public function count()
+    {
+        return count($this->filters);
+    }
+
+    /**
+     * Resets the pointer to 0.
+     *
+     * @return bool TRUE if the collection is not empty, FALSE otherwise.
+     */
+    public function rewind()
+    {
+        return $this->seek(0);
+    }
+
+    /**
+     * Moves the pointer to a specified position.
+     *
+     * @param int $position The position to move to.
+     *
+     * @return bool TRUE if the specified position is valid, FALSE otherwise.
+     */
+    public function seek($position)
+    {
+        $this->position = $position;
+        return $this->valid();
+    }
+
+    /**
+     * Gets the current position.
+     *
+     * @return int The current position.
+     */
+    public function getCurrentPosition()
+    {
+        return $this->position;
+    }
+
+    /**
+     * Moves the pointer forward by 1.
+     *
+     * @return bool TRUE if the new position is valid, FALSE otherwise.
+     */
+    public function next()
+    {
+        ++$this->position;
+        return $this->valid();
+    }
+
+    /**
+     * Gets the filter name at the current pointer position.
+     *
+     * @return string|false The name of the filter at the current position.
+     */
+    public function key()
+    {
+        return $this->valid() ? $this->filters[$this->position][0] : false;
+    }
+
+    /**
+     * Gets the filter parameters at the current pointer position.
+     *
+     * @return array|false An array of parameters for the filter at the current
+     *     position, or FALSE if the position is not valid.
+     */
+    public function current()
+    {
+        return $this->valid() ? $this->filters[$this->position][1] : false;
+    }
+
+    /**
+     * Moves the pointer backwards by 1.
+     *
+     * @return bool TRUE if the new position is valid, FALSE otherwise.
+     */
+    public function prev()
+    {
+        --$this->position;
+        return $this->valid();
+    }
+
+    /**
+     * Moves the pointer to the last valid position.
+     *
+     * @return bool TRUE if the collection is not empty, FALSE otherwise.
+     */
+    public function end()
+    {
+        $this->position = count($this->filters) - 1;
+        return $this->valid();
+    }
+
+    /**
+     * Checks if the pointer is still pointing to an existing offset.
+     *
+     * @return bool TRUE if the pointer is valid, FALSE otherwise.
+     */
+    public function valid()
+    {
+        return array_key_exists($this->position, $this->filters);
+    }
+}

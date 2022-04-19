@@ -1,109 +1,242 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-h7YMvXIZxrOZ60JkCeOLPb5JLUkytTuOzG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Vault;
+
+class Query extends \Google\Model
+{
+  protected $accountInfoType = AccountInfo::class;
+  protected $accountInfoDataType = '';
+  public $corpus;
+  public $dataScope;
+  protected $driveOptionsType = DriveOptions::class;
+  protected $driveOptionsDataType = '';
+  public $endTime;
+  protected $hangoutsChatInfoType = HangoutsChatInfo::class;
+  protected $hangoutsChatInfoDataType = '';
+  protected $hangoutsChatOptionsType = HangoutsChatOptions::class;
+  protected $hangoutsChatOptionsDataType = '';
+  protected $mailOptionsType = MailOptions::class;
+  protected $mailOptionsDataType = '';
+  public $method;
+  protected $orgUnitInfoType = OrgUnitInfo::class;
+  protected $orgUnitInfoDataType = '';
+  public $searchMethod;
+  protected $sharedDriveInfoType = SharedDriveInfo::class;
+  protected $sharedDriveInfoDataType = '';
+  public $startTime;
+  protected $teamDriveInfoType = TeamDriveInfo::class;
+  protected $teamDriveInfoDataType = '';
+  public $terms;
+  public $timeZone;
+  protected $voiceOptionsType = VoiceOptions::class;
+  protected $voiceOptionsDataType = '';
+
+  /**
+   * @param AccountInfo
+   */
+  public function setAccountInfo(AccountInfo $accountInfo)
+  {
+    $this->accountInfo = $accountInfo;
+  }
+  /**
+   * @return AccountInfo
+   */
+  public function getAccountInfo()
+  {
+    return $this->accountInfo;
+  }
+  public function setCorpus($corpus)
+  {
+    $this->corpus = $corpus;
+  }
+  public function getCorpus()
+  {
+    return $this->corpus;
+  }
+  public function setDataScope($dataScope)
+  {
+    $this->dataScope = $dataScope;
+  }
+  public function getDataScope()
+  {
+    return $this->dataScope;
+  }
+  /**
+   * @param DriveOptions
+   */
+  public function setDriveOptions(DriveOptions $driveOptions)
+  {
+    $this->driveOptions = $driveOptions;
+  }
+  /**
+   * @return DriveOptions
+   */
+  public function getDriveOptions()
+  {
+    return $this->driveOptions;
+  }
+  public function setEndTime($endTime)
+  {
+    $this->endTime = $endTime;
+  }
+  public function getEndTime()
+  {
+    return $this->endTime;
+  }
+  /**
+   * @param HangoutsChatInfo
+   */
+  public function setHangoutsChatInfo(HangoutsChatInfo $hangoutsChatInfo)
+  {
+    $this->hangoutsChatInfo = $hangoutsChatInfo;
+  }
+  /**
+   * @return HangoutsChatInfo
+   */
+  public function getHangoutsChatInfo()
+  {
+    return $this->hangoutsChatInfo;
+  }
+  /**
+   * @param HangoutsChatOptions
+   */
+  public function setHangoutsChatOptions(HangoutsChatOptions $hangoutsChatOptions)
+  {
+    $this->hangoutsChatOptions = $hangoutsChatOptions;
+  }
+  /**
+   * @return HangoutsChatOptions
+   */
+  public function getHangoutsChatOptions()
+  {
+    return $this->hangoutsChatOptions;
+  }
+  /**
+   * @param MailOptions
+   */
+  public function setMailOptions(MailOptions $mailOptions)
+  {
+    $this->mailOptions = $mailOptions;
+  }
+  /**
+   * @return MailOptions
+   */
+  public function getMailOptions()
+  {
+    return $this->mailOptions;
+  }
+  public function setMethod($method)
+  {
+    $this->method = $method;
+  }
+  public function getMethod()
+  {
+    return $this->method;
+  }
+  /**
+   * @param OrgUnitInfo
+   */
+  public function setOrgUnitInfo(OrgUnitInfo $orgUnitInfo)
+  {
+    $this->orgUnitInfo = $orgUnitInfo;
+  }
+  /**
+   * @return OrgUnitInfo
+   */
+  public function getOrgUnitInfo()
+  {
+    return $this->orgUnitInfo;
+  }
+  public function setSearchMethod($searchMethod)
+  {
+    $this->searchMethod = $searchMethod;
+  }
+  public function getSearchMethod()
+  {
+    return $this->searchMethod;
+  }
+  /**
+   * @param SharedDriveInfo
+   */
+  public function setSharedDriveInfo(SharedDriveInfo $sharedDriveInfo)
+  {
+    $this->sharedDriveInfo = $sharedDriveInfo;
+  }
+  /**
+   * @return SharedDriveInfo
+   */
+  public function getSharedDriveInfo()
+  {
+    return $this->sharedDriveInfo;
+  }
+  public function setStartTime($startTime)
+  {
+    $this->startTime = $startTime;
+  }
+  public function getStartTime()
+  {
+    return $this->startTime;
+  }
+  /**
+   * @param TeamDriveInfo
+   */
+  public function setTeamDriveInfo(TeamDriveInfo $teamDriveInfo)
+  {
+    $this->teamDriveInfo = $teamDriveInfo;
+  }
+  /**
+   * @return TeamDriveInfo
+   */
+  public function getTeamDriveInfo()
+  {
+    return $this->teamDriveInfo;
+  }
+  public function setTerms($terms)
+  {
+    $this->terms = $terms;
+  }
+  public function getTerms()
+  {
+    return $this->terms;
+  }
+  public function setTimeZone($timeZone)
+  {
+    $this->timeZone = $timeZone;
+  }
+  public function getTimeZone()
+  {
+    return $this->timeZone;
+  }
+  /**
+   * @param VoiceOptions
+   */
+  public function setVoiceOptions(VoiceOptions $voiceOptions)
+  {
+    $this->voiceOptions = $voiceOptions;
+  }
+  /**
+   * @return VoiceOptions
+   */
+  public function getVoiceOptions()
+  {
+    return $this->voiceOptions;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Query::class, 'Google_Service_Vault_Query');

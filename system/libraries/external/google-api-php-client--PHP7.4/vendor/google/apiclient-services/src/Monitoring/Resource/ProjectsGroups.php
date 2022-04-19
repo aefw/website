@@ -1,65 +1,145 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Monitoring\Resource;
+
+use Google\Service\Monitoring\Group;
+use Google\Service\Monitoring\ListGroupsResponse;
+use Google\Service\Monitoring\MonitoringEmpty;
+
+/**
+ * The "groups" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $monitoringService = new Google\Service\Monitoring(...);
+ *   $groups = $monitoringService->groups;
+ *  </code>
+ */
+class ProjectsGroups extends \Google\Service\Resource
+{
+  /**
+   * Creates a new group. (groups.create)
+   *
+   * @param string $name Required. The project
+   * (https://cloud.google.com/monitoring/api/v3#project_name) in which to create
+   * the group. The format is: projects/[PROJECT_ID_OR_NUMBER]
+   * @param Group $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool validateOnly If true, validate this request but do not create
+   * the group.
+   * @return Group
+   */
+  public function create($name, Group $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Group::class);
+  }
+  /**
+   * Deletes an existing group. (groups.delete)
+   *
+   * @param string $name Required. The group to delete. The format is:
+   * projects/[PROJECT_ID_OR_NUMBER]/groups/[GROUP_ID]
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool recursive If this field is true, then the request means to
+   * delete a group with all its descendants. Otherwise, the request means to
+   * delete a group only when it has no descendants. The default value is false.
+   * @return MonitoringEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], MonitoringEmpty::class);
+  }
+  /**
+   * Gets a single group. (groups.get)
+   *
+   * @param string $name Required. The group to retrieve. The format is:
+   * projects/[PROJECT_ID_OR_NUMBER]/groups/[GROUP_ID]
+   * @param array $optParams Optional parameters.
+   * @return Group
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Group::class);
+  }
+  /**
+   * Lists the existing groups. (groups.listProjectsGroups)
+   *
+   * @param string $name Required. The project
+   * (https://cloud.google.com/monitoring/api/v3#project_name) whose groups are to
+   * be listed. The format is: projects/[PROJECT_ID_OR_NUMBER]
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string ancestorsOfGroup A group name. The format is:
+   * projects/[PROJECT_ID_OR_NUMBER]/groups/[GROUP_ID] Returns groups that are
+   * ancestors of the specified group. The groups are returned in order, starting
+   * with the immediate parent and ending with the most distant ancestor. If the
+   * specified group has no immediate parent, the results are empty.
+   * @opt_param string childrenOfGroup A group name. The format is:
+   * projects/[PROJECT_ID_OR_NUMBER]/groups/[GROUP_ID] Returns groups whose
+   * parent_name field contains the group name. If no groups have this parent, the
+   * results are empty.
+   * @opt_param string descendantsOfGroup A group name. The format is:
+   * projects/[PROJECT_ID_OR_NUMBER]/groups/[GROUP_ID] Returns the descendants of
+   * the specified group. This is a superset of the results returned by the
+   * children_of_group filter, and includes children-of-children, and so forth.
+   * @opt_param int pageSize A positive number that is the maximum number of
+   * results to return.
+   * @opt_param string pageToken If this field is not empty then it must contain
+   * the next_page_token value returned by a previous call to this method. Using
+   * this field causes the method to return additional results from the previous
+   * method call.
+   * @return ListGroupsResponse
+   */
+  public function listProjectsGroups($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListGroupsResponse::class);
+  }
+  /**
+   * Updates an existing group. You can change any group attributes except name.
+   * (groups.update)
+   *
+   * @param string $name Output only. The name of this group. The format is:
+   * projects/[PROJECT_ID_OR_NUMBER]/groups/[GROUP_ID] When creating a group, this
+   * field is ignored and a new name is created consisting of the project
+   * specified in the call to CreateGroup and a unique [GROUP_ID] that is
+   * generated automatically.
+   * @param Group $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool validateOnly If true, validate this request but do not update
+   * the existing group.
+   * @return Group
+   */
+  public function update($name, Group $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Group::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsGroups::class, 'Google_Service_Monitoring_Resource_ProjectsGroups');

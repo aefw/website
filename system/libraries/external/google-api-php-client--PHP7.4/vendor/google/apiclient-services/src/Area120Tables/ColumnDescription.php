@@ -1,70 +1,111 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Area120Tables;
+
+class ColumnDescription extends \Google\Collection
+{
+  protected $collection_key = 'labels';
+  public $dataType;
+  public $id;
+  protected $labelsType = LabeledItem::class;
+  protected $labelsDataType = 'array';
+  protected $lookupDetailsType = LookupDetails::class;
+  protected $lookupDetailsDataType = '';
+  public $multipleValuesDisallowed;
+  public $name;
+  protected $relationshipDetailsType = RelationshipDetails::class;
+  protected $relationshipDetailsDataType = '';
+
+  public function setDataType($dataType)
+  {
+    $this->dataType = $dataType;
+  }
+  public function getDataType()
+  {
+    return $this->dataType;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  /**
+   * @param LabeledItem[]
+   */
+  public function setLabels($labels)
+  {
+    $this->labels = $labels;
+  }
+  /**
+   * @return LabeledItem[]
+   */
+  public function getLabels()
+  {
+    return $this->labels;
+  }
+  /**
+   * @param LookupDetails
+   */
+  public function setLookupDetails(LookupDetails $lookupDetails)
+  {
+    $this->lookupDetails = $lookupDetails;
+  }
+  /**
+   * @return LookupDetails
+   */
+  public function getLookupDetails()
+  {
+    return $this->lookupDetails;
+  }
+  public function setMultipleValuesDisallowed($multipleValuesDisallowed)
+  {
+    $this->multipleValuesDisallowed = $multipleValuesDisallowed;
+  }
+  public function getMultipleValuesDisallowed()
+  {
+    return $this->multipleValuesDisallowed;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  /**
+   * @param RelationshipDetails
+   */
+  public function setRelationshipDetails(RelationshipDetails $relationshipDetails)
+  {
+    $this->relationshipDetails = $relationshipDetails;
+  }
+  /**
+   * @return RelationshipDetails
+   */
+  public function getRelationshipDetails()
+  {
+    return $this->relationshipDetails;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ColumnDescription::class, 'Google_Service_Area120Tables_ColumnDescription');

@@ -1,81 +1,132 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Analytics;
+
+class McfDataQuery extends \Google\Collection
+{
+  protected $collection_key = 'sort';
+  protected $internal_gapi_mappings = [
+        "endDate" => "end-date",
+        "maxResults" => "max-results",
+        "startDate" => "start-date",
+        "startIndex" => "start-index",
+  ];
+  public $dimensions;
+  public $endDate;
+  public $filters;
+  public $ids;
+  public $maxResults;
+  public $metrics;
+  public $samplingLevel;
+  public $segment;
+  public $sort;
+  public $startDate;
+  public $startIndex;
+
+  public function setDimensions($dimensions)
+  {
+    $this->dimensions = $dimensions;
+  }
+  public function getDimensions()
+  {
+    return $this->dimensions;
+  }
+  public function setEndDate($endDate)
+  {
+    $this->endDate = $endDate;
+  }
+  public function getEndDate()
+  {
+    return $this->endDate;
+  }
+  public function setFilters($filters)
+  {
+    $this->filters = $filters;
+  }
+  public function getFilters()
+  {
+    return $this->filters;
+  }
+  public function setIds($ids)
+  {
+    $this->ids = $ids;
+  }
+  public function getIds()
+  {
+    return $this->ids;
+  }
+  public function setMaxResults($maxResults)
+  {
+    $this->maxResults = $maxResults;
+  }
+  public function getMaxResults()
+  {
+    return $this->maxResults;
+  }
+  public function setMetrics($metrics)
+  {
+    $this->metrics = $metrics;
+  }
+  public function getMetrics()
+  {
+    return $this->metrics;
+  }
+  public function setSamplingLevel($samplingLevel)
+  {
+    $this->samplingLevel = $samplingLevel;
+  }
+  public function getSamplingLevel()
+  {
+    return $this->samplingLevel;
+  }
+  public function setSegment($segment)
+  {
+    $this->segment = $segment;
+  }
+  public function getSegment()
+  {
+    return $this->segment;
+  }
+  public function setSort($sort)
+  {
+    $this->sort = $sort;
+  }
+  public function getSort()
+  {
+    return $this->sort;
+  }
+  public function setStartDate($startDate)
+  {
+    $this->startDate = $startDate;
+  }
+  public function getStartDate()
+  {
+    return $this->startDate;
+  }
+  public function setStartIndex($startIndex)
+  {
+    $this->startIndex = $startIndex;
+  }
+  public function getStartIndex()
+  {
+    return $this->startIndex;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(McfDataQuery::class, 'Google_Service_Analytics_McfDataQuery');

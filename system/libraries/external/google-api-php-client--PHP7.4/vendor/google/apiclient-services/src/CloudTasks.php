@@ -1,65 +1,319 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-9tCd31cmvn/e8xix3RQeRzwfzG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for CloudTasks (v2).
+ *
+ * <p>
+ * Manages the execution of large numbers of distributed requests.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/tasks/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class CloudTasks extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+
+  public $projects_locations;
+  public $projects_locations_queues;
+  public $projects_locations_queues_tasks;
+
+  /**
+   * Constructs the internal representation of the CloudTasks service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://cloudtasks.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v2';
+    $this->serviceName = 'cloudtasks';
+
+    $this->projects_locations = new CloudTasks\Resource\ProjectsLocations(
+        $this,
+        $this->serviceName,
+        'locations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v2/{+name}/locations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_queues = new CloudTasks\Resource\ProjectsLocationsQueues(
+        $this,
+        $this->serviceName,
+        'queues',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v2/{+parent}/queues',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v2/{+resource}:getIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v2/{+parent}/queues',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'pause' => [
+              'path' => 'v2/{+name}:pause',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'purge' => [
+              'path' => 'v2/{+name}:purge',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'resume' => [
+              'path' => 'v2/{+name}:resume',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v2/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v2/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_queues_tasks = new CloudTasks\Resource\ProjectsLocationsQueuesTasks(
+        $this,
+        $this->serviceName,
+        'tasks',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v2/{+parent}/tasks',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'responseView' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v2/{+parent}/tasks',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'responseView' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'run' => [
+              'path' => 'v2/{+name}:run',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(CloudTasks::class, 'Google_Service_CloudTasks');

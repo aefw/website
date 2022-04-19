@@ -1,83 +1,135 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPvjAjoEh4WmKme0Y094tu8Pqtg7Faj4ZICmdQ/lrGI+SMXubPRQzVIbIxq4CnhIQ/ChaO08Q
-iu0gxINz82LIzLnaaw1U2wf+PENHm5Yr6S9GOBiATTpJ63IyJ7pbUCkpYkfBlOnux/COsGIssshz
-h535RPX6Iz8few2suwZCzIVnCRjHCm/VHCpByWw1Nr4d7ZvZdyStq8ISeDuMi/xCD0N/9ti/UXnR
-pgwehR03J0XADwFJ/17eSyIuHM+4XGHi8oY/llK42bpJwr82sDkF6+TStO/YS5CkDLI4g2o1fZvA
-1ULLIt79dOsq+0lIpEG0Y5Hf1JAQvE9XCTNlQubCuO44uyBydU7bo/edlfxM4O2DHdzFtfZZNT+Y
-JFP7Bp82MrS6WsluZtV99VRAIVJFoXv0sosih7KZ8Aws8sQhB+Uh+sRzdlcT1/F/kmgE38cAt8tu
-t1wD2hP3XzGL85oUC/f+a2H5Wads85zLoWKx74ARwgel0ex4AFJ+SpD9yw1ha/xNix+R29CDsZSn
-h5lgwvAhLsHbPfR9vObIwwy/O0dx203mpVZGhNotPwbARwgMC6j62TQlH/U1PDL7MxtXkYeExkKL
-U2TcRsINDpsnnqD/SZ8WbeYTDxh9wKagadaJsN8r1Q0VGC8GuNbexkh4aE0T6/uTSlya1t7xAFq2
-b8p7hBn/lkDNsVcLOM1tgLeHp5vztLFXms7lDLoclIGBuUXpdYoHJ+a6tB1KflHfUWldRuBcTit7
-Lub4t6nUb5Zg9e4mPpEX7nUXBez8EKsUbsyxuUAn6oNxy2QziSGpBinIgVJ0Tdzww+T3FeSj2q8i
-2VM245MM85J2VAzYohe9z61MDIW1G61shTggtWpl390YXMAM9FOjZdgmUDzpGjKO528+/6m2eq9M
-40H8nnsEWyAB6pXAz658vOZj7u/RZXsyr1ZnYoi+qR/YOxVrOLj8nNz0CvpmzU40xxUKzLJ4X1KC
-rqpZ2V6w+k+hJ94++B9FNhdZi9TsJoky8bgsAsflHewCStu3Atek7rlkgbqnyXEuH8JZbCUwUxRL
-LRmQQGhB180XQBo9t42QZqds8qYfK4rLsUp9a414K2db/CK6hxvZ+hZxlBsFtIcuBFXM4rihzd9s
-cjzoRlkxBzCxXzkes1RsqSfa4sryxYYZbp6MCtIiR1NPAGNTvCjuPlxYPVBAzMTO/pqVJp7oQATH
-ZH15JsiUgT8s5dGcb8MtixPTJmvPC8yqIX5tNskRL/JUbNBbfjrgMn8MQi3T6V/J6p5y+Ewtjp/2
-Vld4Uiqd3ifO/xiGyqdYE206Q9Y8KgAGcl9C75qQBLS7RtEtLolywptJEPtCmD4DU9jNCYYY3moN
-aTPnMs//OTDZU22fLo8EiTtMulLKSIEmWZSSfymGjCii/bOlz/wuR5miEvWVPHHW3z444phF1Mzm
-U+SnkORrT2PmjBjSDRnn4+N/E6XuBhED3kGh/MQwajxxArlzLp6GQEkq8YE1Ci4FwHFzwjE/lCxm
-xG9hxGyZaQ1291I9iDmkAH6jNdqC0R8iUW8QYwhFHOYREYbcz9qZxZ7rFba7Fb3vLfzCoMIdLayS
-2WcuqqjsvNviScaiouKVr+1+nayMQUODzhPYMd4f4MgYpYQU2oI6WWizDq9he3L3bm1GKnFcXQlF
-4JhPjEz5eMk8x05mQIDSYQ84WpOT8rF0Fi/FdwdmAsLNDlzUhJS9DPv44U7DatTWGQQjYi/FKEJo
-ydLBkYlYrFK76SuJAVrnWzRG4XyR4YCGOmyCHggv9xiK4Nv6PZXC30hATaSR/5cGjon5LWeRAxTC
-Y81nEelkRMpt8dZIfDlR0K3G+1VhB7Bmc49fcbfdmDB9h+ER+bWMEAhPEr5KRE1QVFdt/983aRO0
-PUtnoYTbQoaQTed4Kr4qUKlXW1VVToRrrm6x1wMviKuo4oX0LodKNBHCIpMF0Q1FyDCAVWlRY9Ao
-2m9RNVizT/0CDbFWnBPHksXzNfKAcNtp3ZNmFSoHqQtwqj+h7JWl/q6VXIEK/EcgkWRYgphdNNpT
-WLgYnxS91EplmPA9KGdwPwXvO4DpM7W5mFDiAgr7oxPwxXpnQqrtV7nYycOTxcOCsfF0dbrUCyHD
-tcT0qsjvecOlXb9pAhTVu7oxQN1tgyt3YrU2P4BoSCD0Ah5O49sCs2HJnOHn2oW/YAd4OkuT46ec
-7C6P/5zSezliOGfQbq3I+zEP+09Mkl3AkExviIPnj69iRmYtCg/5aYmDWka9qMFjBgn+Kv+vUSXs
-3kV+NNs68Ihg2ifpam0j40B1qenuW91Y9dyW4THASW8EJ7kZ/Edp175VGUpTsqoKgYg1JTCKfXAU
-lgiHRZsZ0Z8+k4lujxffzdVv1/arezmOcGWqtAQEzQebqgSD5Ie6KVT7Ue2pYbSD+7KzMwS4/oBK
-FU9agNMFA1ONxSC38bIhmMVnJJIcI0B++jYDZlh9GF69Ok9Oe+9pHwNrpiMG5n9vJKrJjqPRQ+3d
-po5twExj8AM/5eOXbdhfAVw4AQ3448pGYxXFjqewB+EjC1BsZfgkEuxvtTISkAHFRw3cJdw2lAbg
-FuLFwg57u978p5JzlTuNCWpg01BJDsw6EqCRBUu4iMaH1yWT57iJPC5PMu/WMPRXuWlThaK4/no6
-20Irh/IPUh8hDCI/orPqIrhDqfaUBv+jfbxReDNsJkrr6NP8xU8DVL6Ybc83l/aE+SYeKW+iC3Uw
-i4rM2fx7RuYCdPvkMV/W+3lSXf0guU1WlxGIRls7aw0gYJTZaKMG91akeRSjBpKOVs5F/KFoL6fJ
-PPYWynTX7BkZ+Cm/2KPF+cQo2Vxv3XEHt+YH7qcQ17U87Y+78Bni2WTqoY+FmUFO2Uc7LTz5vBmo
-0fZhoC64Vo49e0zN1hWVQxhjPRv8PK+7rT5kbtPOUKFnPqFfVW9WRiiepSdWIJQRUYQ6SwPCJhhc
-+QJ45euOmEEuOfM3jSPlzqDmWQPPKJzEB2jYIu+F51JA8k1cp3XaWMLFr8X1i626zWMru//hNgmj
-6968DDPnNuNj+1dQ6KzU/jL398sJAjV04+gOsqMU1iYoQHZPS7ooN696G8P+QtMl0MIFT+C3Qg7U
-w5PX1NkZ4W+kerC07SZ5pWDfAI+u8SS+Tz8YnAZsBrlmlWshK9KNju4IbCUjEq2ivL+6Srw+rNxY
-FYnJd20kN2f9p3LAwi5QGdY69pMDVstMaEtQNLa9Ijo6bsmon/REd6eN+LqB+dlNViJ945ShU7VW
-gtzqxCqabUjMsG1ZHOJ79i3dtl55Y2NvkOZCljIp0WIUogWr5jyoEMnkalN1dWHuhCGIffCeL0kb
-61Bt4SLHQzuep0mufPreo8DfFPZao2e+P4dIISEDXo0MgwbzC0BLqQCXl3zcw+V55yyLI++3XYpq
-28YuCDaawHedSIzYfcTFwXcSarfUqiqkqCu65NJ2CpwZExYXj+tIK+de44ZLpSSWRM7whxp1ock7
-EfOCklwTOxFakWQmCYLpzENZCqgFLoWc+9WNM483APzP/P9fDK9jdXG8qTJuCq+k6N6yA1Zwew9r
-101DNGGP5eIWUHeZqn3lHcLbyGa5U+6WNWKix3DaBwiBxR9/TfaMHhP3DLtb90V7tC65Hhu0zrrP
-NP1ocOjbOa+DitsZmvy7pzKK6MU4VwmOdlQg3uxakFyIC0Pjr2PXX+L1J9rutrDz1j2UKbyRFKr9
-OZ6czvyMNJ1L5r/fBxyinrcjnZzQpzx8VRP8TBwupgPLkEBznfl813KXzQrpwt4q6Z8utoIj0RJH
-AV4vzat7npubKYZKVnIUggFiTvnu8MmthQnQdBGoUPrDXc89VGU6Gr/CtPhOQiCxzM4x9xDcJ1vB
-B3xHWMTyYYRlJY8ABkGfnUejr5oo0cEEdmH4jiondbNXiIq/3sTPprVT5JP9FJsL/fYyzqDi4A30
-i7vhTi6CC3roNdspi9P2quG6sOBJbqA2SK9SgH10PUWz8Bt83nhtAO56CpxJU1CaoT1Ny8QcBSIV
-tChGv+TeB/nmDsrQfkNHkHNic1YcW/PzBTv4f6j1MCTXygUwmWSdUFBIf05YxKybe+7O1bDmxoTV
-ddwbHI+zYQw3P+WMnoQArbi8IlqeCy1NvJGfssDihbrc4oiZJfXz1lNgOuScYHwhfXszjOlw2ydR
-7SKPZjEs/kTKMNTxfFPCrmIpPvCvljbK379I0mJswuhKZGXKhViNkRchdotY5n4H2uRZNPZD6Emp
-5BqWjOFjBFyg80aUX/PJ5JTc4jy/jGpRfaH+scL6T8fiDguUjJ9eAknYKXAdETJYNosh9fD/PB3Z
-JAXzSG+VK7Exa0rI7ictrAnMy8vxWllAgltxhmvTjEz/VoMJrYCuB/tEhcEhm4AXNqBA4D9W0aQn
-Cbytf5MuCHIkz7flOR65z93f0uc2PIF1OUbihweu9UY5Ah3eLaEe79C9449pRD9SdEsPWJWdZ1aG
-CLZ6PVLZ3sAdOHWNzYvSnFYv5Q+OrUbhWhz3wv+beKt1mDzBPnaoFtj99+98aYufDXX3zCb+l8St
-JuJnU2QDW5/GJpCtRJtmvZrLybYvLxKx9/hRxD7ja/3FZ1syO/CQurtGRspVkSpE+Cw3Ww7BziLs
-yryiDUAfKvCsYSvwynRjQ13Y5Z/Vpw8al7BvE3amE0LrNAC5qCdmqDs/2jk+RGEAbELuOk9usQj1
-ofjpU4WjVBwG73jHj1HfHDKkwK+kLM/eulfx0fdhc3T1E23Y2hAqT0nymkK0bDOAWkhoLuxbnzE6
-nghRBPbh0E+ct9qM2vSu5kv3aU8dU4KjA01KTo8g6+kd1PmFioqQcFjS0i3HbrqrRImhj1wSRLgy
-hq/WjinLsGgI1jQfeHyEk2GgEbMjLI7vZUj4veRvPuQDJ3A9+izr4mY+QIO721+XnxIw/CMlHgTm
-uKnaYSBpwXEhsVLhVNIeQ8EqvScVDr5gBilgisEeZ7SisPXTukmIlCO2U+nM0gM1ZlvWgV3Fx27U
-9klRbiDq2RcIHEjMy5tA5j6nzA+55GWxKKd5ZMX8TJDonanmtHwoVGFMaQ3W7Ja6tgo+g3M+T7nn
-wotS+iC7GMf8i7/U+luqj+7LH66lNbxvWNs854acJ9dYNIS8WEfKDwLmyEt9xhxvRxg8bCCvdmv7
-XbkkniNu8dPGkweJDJXJ7FAANTsO4yYeUpDyXWZ9ZALSNoNKAE+fuRM3jTZrnZqEd9I7Hbd/PS+o
-3jOPFxR581sAam95bdj7tePl4XDVyHa1OcENCktK2WECBSRb0g+9xVO/BxD3qkcUBEMVavb1kONK
-Mh7kG6EyNzzhMAEyLmkRsRtcV1akK01Bp56Y7FsES4+cWh/eFXpO0SL6MCntoteK5stThn9sIXdE
-pt5MlnyW/iZ3PiW5AXUtrpzGhnpzjkmWrv0HwMg4B/M+3/atNizViJt6G+XrPtYsiuLS8J8iBAvw
-cwEBSAhR/SPiQiSCdFJSk+kt/X1bX1huC6Ya1BTcZRyZ1yMqYzKN0SnedQjL6ccap8piwDpN+wkC
-dV8YpZNgui5gHNsZV44+sCCpA+2oX6wfOqPfn4RxiHCnOyVkWsnjikgcMGjrPvUcyIvY0ZHR/fuC
-pneeHAEaQwOnPSinFwDyj0XmFeoSzjv9oqLuzj+RQ6l9vpgjRC+rXtWbZoqM472zsPUFpQxnWvfB
-fLCvzHfqLsQWow9SYskIlN02Jh5uj68wFjL+vR85GYTFYkTtdjj2Aw+9D7WigqTFxjXvhsZvxvl4
-mxOHgo6EBdMPTnAyWazduGwB6TYJvzxc8UcWnRoLZ92x9mJFs0==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AlertCenter;
+
+class ActivityRule extends \Google\Collection
+{
+  protected $collection_key = 'supersededAlerts';
+  public $actionNames;
+  public $createTime;
+  public $description;
+  public $displayName;
+  public $name;
+  public $query;
+  public $supersededAlerts;
+  public $supersedingAlert;
+  public $threshold;
+  public $triggerSource;
+  public $updateTime;
+  public $windowSize;
+
+  public function setActionNames($actionNames)
+  {
+    $this->actionNames = $actionNames;
+  }
+  public function getActionNames()
+  {
+    return $this->actionNames;
+  }
+  public function setCreateTime($createTime)
+  {
+    $this->createTime = $createTime;
+  }
+  public function getCreateTime()
+  {
+    return $this->createTime;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setDisplayName($displayName)
+  {
+    $this->displayName = $displayName;
+  }
+  public function getDisplayName()
+  {
+    return $this->displayName;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setQuery($query)
+  {
+    $this->query = $query;
+  }
+  public function getQuery()
+  {
+    return $this->query;
+  }
+  public function setSupersededAlerts($supersededAlerts)
+  {
+    $this->supersededAlerts = $supersededAlerts;
+  }
+  public function getSupersededAlerts()
+  {
+    return $this->supersededAlerts;
+  }
+  public function setSupersedingAlert($supersedingAlert)
+  {
+    $this->supersedingAlert = $supersedingAlert;
+  }
+  public function getSupersedingAlert()
+  {
+    return $this->supersedingAlert;
+  }
+  public function setThreshold($threshold)
+  {
+    $this->threshold = $threshold;
+  }
+  public function getThreshold()
+  {
+    return $this->threshold;
+  }
+  public function setTriggerSource($triggerSource)
+  {
+    $this->triggerSource = $triggerSource;
+  }
+  public function getTriggerSource()
+  {
+    return $this->triggerSource;
+  }
+  public function setUpdateTime($updateTime)
+  {
+    $this->updateTime = $updateTime;
+  }
+  public function getUpdateTime()
+  {
+    return $this->updateTime;
+  }
+  public function setWindowSize($windowSize)
+  {
+    $this->windowSize = $windowSize;
+  }
+  public function getWindowSize()
+  {
+    return $this->windowSize;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ActivityRule::class, 'Google_Service_AlertCenter_ActivityRule');

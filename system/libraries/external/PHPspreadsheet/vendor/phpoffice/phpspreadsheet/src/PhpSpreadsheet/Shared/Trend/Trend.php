@@ -1,77 +1,120 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+namespace PhpOffice\PhpSpreadsheet\Shared\Trend;
+
+class Trend
+{
+    const TREND_LINEAR = 'Linear';
+    const TREND_LOGARITHMIC = 'Logarithmic';
+    const TREND_EXPONENTIAL = 'Exponential';
+    const TREND_POWER = 'Power';
+    const TREND_POLYNOMIAL_2 = 'Polynomial_2';
+    const TREND_POLYNOMIAL_3 = 'Polynomial_3';
+    const TREND_POLYNOMIAL_4 = 'Polynomial_4';
+    const TREND_POLYNOMIAL_5 = 'Polynomial_5';
+    const TREND_POLYNOMIAL_6 = 'Polynomial_6';
+    const TREND_BEST_FIT = 'Bestfit';
+    const TREND_BEST_FIT_NO_POLY = 'Bestfit_no_Polynomials';
+
+    /**
+     * Names of the best-fit Trend analysis methods.
+     *
+     * @var string[]
+     */
+    private static $trendTypes = [
+        self::TREND_LINEAR,
+        self::TREND_LOGARITHMIC,
+        self::TREND_EXPONENTIAL,
+        self::TREND_POWER,
+    ];
+
+    /**
+     * Names of the best-fit Trend polynomial orders.
+     *
+     * @var string[]
+     */
+    private static $trendTypePolynomialOrders = [
+        self::TREND_POLYNOMIAL_2,
+        self::TREND_POLYNOMIAL_3,
+        self::TREND_POLYNOMIAL_4,
+        self::TREND_POLYNOMIAL_5,
+        self::TREND_POLYNOMIAL_6,
+    ];
+
+    /**
+     * Cached results for each method when trying to identify which provides the best fit.
+     *
+     * @var bestFit[]
+     */
+    private static $trendCache = [];
+
+    public static function calculate($trendType = self::TREND_BEST_FIT, $yValues = [], $xValues = [], $const = true)
+    {
+        //    Calculate number of points in each dataset
+        $nY = count($yValues);
+        $nX = count($xValues);
+
+        //    Define X Values if necessary
+        if ($nX == 0) {
+            $xValues = range(1, $nY);
+            $nX = $nY;
+        } elseif ($nY != $nX) {
+            //    Ensure both arrays of points are the same size
+            trigger_error('Trend(): Number of elements in coordinate arrays do not match.', E_USER_ERROR);
+        }
+
+        $key = md5($trendType . $const . serialize($yValues) . serialize($xValues));
+        //    Determine which Trend method has been requested
+        switch ($trendType) {
+            //    Instantiate and return the class for the requested Trend method
+            case self::TREND_LINEAR:
+            case self::TREND_LOGARITHMIC:
+            case self::TREND_EXPONENTIAL:
+            case self::TREND_POWER:
+                if (!isset(self::$trendCache[$key])) {
+                    $className = '\PhpOffice\PhpSpreadsheet\Shared\Trend\\' . $trendType . 'BestFit';
+                    self::$trendCache[$key] = new $className($yValues, $xValues, $const);
+                }
+
+                return self::$trendCache[$key];
+            case self::TREND_POLYNOMIAL_2:
+            case self::TREND_POLYNOMIAL_3:
+            case self::TREND_POLYNOMIAL_4:
+            case self::TREND_POLYNOMIAL_5:
+            case self::TREND_POLYNOMIAL_6:
+                if (!isset(self::$trendCache[$key])) {
+                    $order = substr($trendType, -1);
+                    self::$trendCache[$key] = new PolynomialBestFit($order, $yValues, $xValues, $const);
+                }
+
+                return self::$trendCache[$key];
+            case self::TREND_BEST_FIT:
+            case self::TREND_BEST_FIT_NO_POLY:
+                //    If the request is to determine the best fit regression, then we test each Trend line in turn
+                //    Start by generating an instance of each available Trend method
+                foreach (self::$trendTypes as $trendMethod) {
+                    $className = '\PhpOffice\PhpSpreadsheet\Shared\Trend\\' . $trendType . 'BestFit';
+                    $bestFit[$trendMethod] = new $className($yValues, $xValues, $const);
+                    $bestFitValue[$trendMethod] = $bestFit[$trendMethod]->getGoodnessOfFit();
+                }
+                if ($trendType != self::TREND_BEST_FIT_NO_POLY) {
+                    foreach (self::$trendTypePolynomialOrders as $trendMethod) {
+                        $order = substr($trendMethod, -1);
+                        $bestFit[$trendMethod] = new PolynomialBestFit($order, $yValues, $xValues, $const);
+                        if ($bestFit[$trendMethod]->getError()) {
+                            unset($bestFit[$trendMethod]);
+                        } else {
+                            $bestFitValue[$trendMethod] = $bestFit[$trendMethod]->getGoodnessOfFit();
+                        }
+                    }
+                }
+                //    Determine which of our Trend lines is the best fit, and then we return the instance of that Trend class
+                arsort($bestFitValue);
+                $bestFitType = key($bestFitValue);
+
+                return $bestFit[$bestFitType];
+            default:
+                return false;
+        }
+    }
+}

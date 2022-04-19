@@ -1,69 +1,96 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudMemorystoreforMemcached;
+
+class MaintenancePolicy extends \Google\Model
+{
+  public $createTime;
+  public $description;
+  public $labels;
+  public $name;
+  public $state;
+  protected $updatePolicyType = UpdatePolicy::class;
+  protected $updatePolicyDataType = '';
+  public $updateTime;
+
+  public function setCreateTime($createTime)
+  {
+    $this->createTime = $createTime;
+  }
+  public function getCreateTime()
+  {
+    return $this->createTime;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setLabels($labels)
+  {
+    $this->labels = $labels;
+  }
+  public function getLabels()
+  {
+    return $this->labels;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setState($state)
+  {
+    $this->state = $state;
+  }
+  public function getState()
+  {
+    return $this->state;
+  }
+  /**
+   * @param UpdatePolicy
+   */
+  public function setUpdatePolicy(UpdatePolicy $updatePolicy)
+  {
+    $this->updatePolicy = $updatePolicy;
+  }
+  /**
+   * @return UpdatePolicy
+   */
+  public function getUpdatePolicy()
+  {
+    return $this->updatePolicy;
+  }
+  public function setUpdateTime($updateTime)
+  {
+    $this->updateTime = $updateTime;
+  }
+  public function getUpdateTime()
+  {
+    return $this->updateTime;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(MaintenancePolicy::class, 'Google_Service_CloudMemorystoreforMemcached_MaintenancePolicy');

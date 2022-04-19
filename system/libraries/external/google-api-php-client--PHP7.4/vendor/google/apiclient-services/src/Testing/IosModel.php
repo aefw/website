@@ -1,72 +1,108 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Testing;
+
+class IosModel extends \Google\Collection
+{
+  protected $collection_key = 'tags';
+  public $deviceCapabilities;
+  public $formFactor;
+  public $id;
+  public $name;
+  public $screenDensity;
+  public $screenX;
+  public $screenY;
+  public $supportedVersionIds;
+  public $tags;
+
+  public function setDeviceCapabilities($deviceCapabilities)
+  {
+    $this->deviceCapabilities = $deviceCapabilities;
+  }
+  public function getDeviceCapabilities()
+  {
+    return $this->deviceCapabilities;
+  }
+  public function setFormFactor($formFactor)
+  {
+    $this->formFactor = $formFactor;
+  }
+  public function getFormFactor()
+  {
+    return $this->formFactor;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setScreenDensity($screenDensity)
+  {
+    $this->screenDensity = $screenDensity;
+  }
+  public function getScreenDensity()
+  {
+    return $this->screenDensity;
+  }
+  public function setScreenX($screenX)
+  {
+    $this->screenX = $screenX;
+  }
+  public function getScreenX()
+  {
+    return $this->screenX;
+  }
+  public function setScreenY($screenY)
+  {
+    $this->screenY = $screenY;
+  }
+  public function getScreenY()
+  {
+    return $this->screenY;
+  }
+  public function setSupportedVersionIds($supportedVersionIds)
+  {
+    $this->supportedVersionIds = $supportedVersionIds;
+  }
+  public function getSupportedVersionIds()
+  {
+    return $this->supportedVersionIds;
+  }
+  public function setTags($tags)
+  {
+    $this->tags = $tags;
+  }
+  public function getTags()
+  {
+    return $this->tags;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(IosModel::class, 'Google_Service_Testing_IosModel');

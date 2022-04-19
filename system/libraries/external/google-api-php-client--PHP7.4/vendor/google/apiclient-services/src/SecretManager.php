@@ -1,65 +1,310 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for SecretManager (v1).
+ *
+ * <p>
+ * Stores sensitive data such as API keys, passwords, and certificates. Provides
+ * convenience while improving security.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/secret-manager/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class SecretManager extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+
+  public $projects_locations;
+  public $projects_secrets;
+  public $projects_secrets_versions;
+
+  /**
+   * Constructs the internal representation of the SecretManager service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://secretmanager.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'secretmanager';
+
+    $this->projects_locations = new SecretManager\Resource\ProjectsLocations(
+        $this,
+        $this->serviceName,
+        'locations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+name}/locations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_secrets = new SecretManager\Resource\ProjectsSecrets(
+        $this,
+        $this->serviceName,
+        'secrets',
+        [
+          'methods' => [
+            'addVersion' => [
+              'path' => 'v1/{+parent}:addVersion',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1/{+parent}/secrets',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'secretId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'etag' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1/{+resource}:getIamPolicy',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'options.requestedPolicyVersion' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/secrets',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_secrets_versions = new SecretManager\Resource\ProjectsSecretsVersions(
+        $this,
+        $this->serviceName,
+        'versions',
+        [
+          'methods' => [
+            'access' => [
+              'path' => 'v1/{+name}:access',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'destroy' => [
+              'path' => 'v1/{+name}:destroy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'disable' => [
+              'path' => 'v1/{+name}:disable',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'enable' => [
+              'path' => 'v1/{+name}:enable',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/versions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(SecretManager::class, 'Google_Service_SecretManager');

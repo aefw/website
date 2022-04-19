@@ -1,62 +1,105 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Efm=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\SQLAdmin\Resource;
+
+use Google\Service\SQLAdmin\Operation;
+use Google\Service\SQLAdmin\User;
+use Google\Service\SQLAdmin\UsersListResponse;
+
+/**
+ * The "users" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $sqladminService = new Google\Service\SQLAdmin(...);
+ *   $users = $sqladminService->users;
+ *  </code>
+ */
+class Users extends \Google\Service\Resource
+{
+  /**
+   * Deletes a user from a Cloud SQL instance. (users.delete)
+   *
+   * @param string $project Project ID of the project that contains the instance.
+   * @param string $instance Database instance ID. This does not include the
+   * project ID.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string host Host of the user in the instance.
+   * @opt_param string name Name of the user in the instance.
+   * @return Operation
+   */
+  public function delete($project, $instance, $optParams = [])
+  {
+    $params = ['project' => $project, 'instance' => $instance];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Creates a new user in a Cloud SQL instance. (users.insert)
+   *
+   * @param string $project Project ID of the project that contains the instance.
+   * @param string $instance Database instance ID. This does not include the
+   * project ID.
+   * @param User $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function insert($project, $instance, User $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'instance' => $instance, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Operation::class);
+  }
+  /**
+   * Lists users in the specified Cloud SQL instance. (users.listUsers)
+   *
+   * @param string $project Project ID of the project that contains the instance.
+   * @param string $instance Database instance ID. This does not include the
+   * project ID.
+   * @param array $optParams Optional parameters.
+   * @return UsersListResponse
+   */
+  public function listUsers($project, $instance, $optParams = [])
+  {
+    $params = ['project' => $project, 'instance' => $instance];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], UsersListResponse::class);
+  }
+  /**
+   * Updates an existing user in a Cloud SQL instance. (users.update)
+   *
+   * @param string $project Project ID of the project that contains the instance.
+   * @param string $instance Database instance ID. This does not include the
+   * project ID.
+   * @param User $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string host Optional. Host of the user in the instance.
+   * @opt_param string name Name of the user in the instance.
+   * @return Operation
+   */
+  public function update($project, $instance, User $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'instance' => $instance, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Users::class, 'Google_Service_SQLAdmin_Resource_Users');

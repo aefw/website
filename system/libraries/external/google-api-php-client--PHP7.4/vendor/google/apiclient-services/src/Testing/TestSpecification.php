@@ -1,84 +1,165 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Testing;
+
+class TestSpecification extends \Google\Model
+{
+  protected $androidInstrumentationTestType = AndroidInstrumentationTest::class;
+  protected $androidInstrumentationTestDataType = '';
+  protected $androidRoboTestType = AndroidRoboTest::class;
+  protected $androidRoboTestDataType = '';
+  protected $androidTestLoopType = AndroidTestLoop::class;
+  protected $androidTestLoopDataType = '';
+  public $disablePerformanceMetrics;
+  public $disableVideoRecording;
+  protected $iosTestLoopType = IosTestLoop::class;
+  protected $iosTestLoopDataType = '';
+  protected $iosTestSetupType = IosTestSetup::class;
+  protected $iosTestSetupDataType = '';
+  protected $iosXcTestType = IosXcTest::class;
+  protected $iosXcTestDataType = '';
+  protected $testSetupType = TestSetup::class;
+  protected $testSetupDataType = '';
+  public $testTimeout;
+
+  /**
+   * @param AndroidInstrumentationTest
+   */
+  public function setAndroidInstrumentationTest(AndroidInstrumentationTest $androidInstrumentationTest)
+  {
+    $this->androidInstrumentationTest = $androidInstrumentationTest;
+  }
+  /**
+   * @return AndroidInstrumentationTest
+   */
+  public function getAndroidInstrumentationTest()
+  {
+    return $this->androidInstrumentationTest;
+  }
+  /**
+   * @param AndroidRoboTest
+   */
+  public function setAndroidRoboTest(AndroidRoboTest $androidRoboTest)
+  {
+    $this->androidRoboTest = $androidRoboTest;
+  }
+  /**
+   * @return AndroidRoboTest
+   */
+  public function getAndroidRoboTest()
+  {
+    return $this->androidRoboTest;
+  }
+  /**
+   * @param AndroidTestLoop
+   */
+  public function setAndroidTestLoop(AndroidTestLoop $androidTestLoop)
+  {
+    $this->androidTestLoop = $androidTestLoop;
+  }
+  /**
+   * @return AndroidTestLoop
+   */
+  public function getAndroidTestLoop()
+  {
+    return $this->androidTestLoop;
+  }
+  public function setDisablePerformanceMetrics($disablePerformanceMetrics)
+  {
+    $this->disablePerformanceMetrics = $disablePerformanceMetrics;
+  }
+  public function getDisablePerformanceMetrics()
+  {
+    return $this->disablePerformanceMetrics;
+  }
+  public function setDisableVideoRecording($disableVideoRecording)
+  {
+    $this->disableVideoRecording = $disableVideoRecording;
+  }
+  public function getDisableVideoRecording()
+  {
+    return $this->disableVideoRecording;
+  }
+  /**
+   * @param IosTestLoop
+   */
+  public function setIosTestLoop(IosTestLoop $iosTestLoop)
+  {
+    $this->iosTestLoop = $iosTestLoop;
+  }
+  /**
+   * @return IosTestLoop
+   */
+  public function getIosTestLoop()
+  {
+    return $this->iosTestLoop;
+  }
+  /**
+   * @param IosTestSetup
+   */
+  public function setIosTestSetup(IosTestSetup $iosTestSetup)
+  {
+    $this->iosTestSetup = $iosTestSetup;
+  }
+  /**
+   * @return IosTestSetup
+   */
+  public function getIosTestSetup()
+  {
+    return $this->iosTestSetup;
+  }
+  /**
+   * @param IosXcTest
+   */
+  public function setIosXcTest(IosXcTest $iosXcTest)
+  {
+    $this->iosXcTest = $iosXcTest;
+  }
+  /**
+   * @return IosXcTest
+   */
+  public function getIosXcTest()
+  {
+    return $this->iosXcTest;
+  }
+  /**
+   * @param TestSetup
+   */
+  public function setTestSetup(TestSetup $testSetup)
+  {
+    $this->testSetup = $testSetup;
+  }
+  /**
+   * @return TestSetup
+   */
+  public function getTestSetup()
+  {
+    return $this->testSetup;
+  }
+  public function setTestTimeout($testTimeout)
+  {
+    $this->testTimeout = $testTimeout;
+  }
+  public function getTestTimeout()
+  {
+    return $this->testTimeout;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(TestSpecification::class, 'Google_Service_Testing_TestSpecification');

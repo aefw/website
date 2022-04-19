@@ -1,73 +1,132 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\TagManager\Resource;
+
+use Google\Service\TagManager\ListZonesResponse;
+use Google\Service\TagManager\RevertZoneResponse;
+use Google\Service\TagManager\Zone;
+
+/**
+ * The "zones" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $tagmanagerService = new Google\Service\TagManager(...);
+ *   $zones = $tagmanagerService->zones;
+ *  </code>
+ */
+class AccountsContainersWorkspacesZones extends \Google\Service\Resource
+{
+  /**
+   * Creates a GTM Zone. (zones.create)
+   *
+   * @param string $parent GTM Workspace's API relative path. Example:
+   * accounts/{account_id}/containers/{container_id}/workspaces/{workspace_id}
+   * @param Zone $postBody
+   * @param array $optParams Optional parameters.
+   * @return Zone
+   */
+  public function create($parent, Zone $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Zone::class);
+  }
+  /**
+   * Deletes a GTM Zone. (zones.delete)
+   *
+   * @param string $path GTM Zone's API relative path. Example: accounts/{account_
+   * id}/containers/{container_id}/workspaces/{workspace_id}/zones/{zone_id}
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($path, $optParams = [])
+  {
+    $params = ['path' => $path];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Gets a GTM Zone. (zones.get)
+   *
+   * @param string $path GTM Zone's API relative path. Example: accounts/{account_
+   * id}/containers/{container_id}/workspaces/{workspace_id}/zones/{zone_id}
+   * @param array $optParams Optional parameters.
+   * @return Zone
+   */
+  public function get($path, $optParams = [])
+  {
+    $params = ['path' => $path];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Zone::class);
+  }
+  /**
+   * Lists all GTM Zones of a GTM container workspace.
+   * (zones.listAccountsContainersWorkspacesZones)
+   *
+   * @param string $parent GTM Workspace's API relative path. Example:
+   * accounts/{account_id}/containers/{container_id}/workspaces/{workspace_id}
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string pageToken Continuation token for fetching the next page of
+   * results.
+   * @return ListZonesResponse
+   */
+  public function listAccountsContainersWorkspacesZones($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListZonesResponse::class);
+  }
+  /**
+   * Reverts changes to a GTM Zone in a GTM Workspace. (zones.revert)
+   *
+   * @param string $path GTM Zone's API relative path. Example: accounts/{account_
+   * id}/containers/{container_id}/workspaces/{workspace_id}/zones/{zone_id}
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string fingerprint When provided, this fingerprint must match the
+   * fingerprint of the zone in storage.
+   * @return RevertZoneResponse
+   */
+  public function revert($path, $optParams = [])
+  {
+    $params = ['path' => $path];
+    $params = array_merge($params, $optParams);
+    return $this->call('revert', [$params], RevertZoneResponse::class);
+  }
+  /**
+   * Updates a GTM Zone. (zones.update)
+   *
+   * @param string $path GTM Zone's API relative path. Example: accounts/{account_
+   * id}/containers/{container_id}/workspaces/{workspace_id}/zones/{zone_id}
+   * @param Zone $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string fingerprint When provided, this fingerprint must match the
+   * fingerprint of the zone in storage.
+   * @return Zone
+   */
+  public function update($path, Zone $postBody, $optParams = [])
+  {
+    $params = ['path' => $path, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Zone::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AccountsContainersWorkspacesZones::class, 'Google_Service_TagManager_Resource_AccountsContainersWorkspacesZones');

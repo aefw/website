@@ -1,60 +1,103 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-HD5xHAkyS6/+2m==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Container\Resource;
+
+use Google\Service\Container\CancelOperationRequest;
+use Google\Service\Container\ContainerEmpty;
+use Google\Service\Container\ListOperationsResponse;
+use Google\Service\Container\Operation;
+
+/**
+ * The "operations" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $containerService = new Google\Service\Container(...);
+ *   $operations = $containerService->operations;
+ *  </code>
+ */
+class ProjectsLocationsOperations extends \Google\Service\Resource
+{
+  /**
+   * Cancels the specified operation. (operations.cancel)
+   *
+   * @param string $name The name (project, location, operation id) of the
+   * operation to cancel. Specified in the format `projects/locations/operations`.
+   * @param CancelOperationRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return ContainerEmpty
+   */
+  public function cancel($name, CancelOperationRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('cancel', [$params], ContainerEmpty::class);
+  }
+  /**
+   * Gets the specified operation. (operations.get)
+   *
+   * @param string $name The name (project, location, operation id) of the
+   * operation to get. Specified in the format `projects/locations/operations`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string operationId Deprecated. The server-assigned `name` of the
+   * operation. This field has been deprecated and replaced by the name field.
+   * @opt_param string projectId Deprecated. The Google Developers Console
+   * [project ID or project
+   * number](https://support.google.com/cloud/answer/6158840). This field has been
+   * deprecated and replaced by the name field.
+   * @opt_param string zone Deprecated. The name of the Google Compute Engine
+   * [zone](https://cloud.google.com/compute/docs/zones#available) in which the
+   * cluster resides. This field has been deprecated and replaced by the name
+   * field.
+   * @return Operation
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Operation::class);
+  }
+  /**
+   * Lists all operations in a project in a specific zone or all zones.
+   * (operations.listProjectsLocationsOperations)
+   *
+   * @param string $parent The parent (project and location) where the operations
+   * will be listed. Specified in the format `projects/locations`. Location "-"
+   * matches all zones and all regions.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string projectId Deprecated. The Google Developers Console
+   * [project ID or project
+   * number](https://support.google.com/cloud/answer/6158840). This field has been
+   * deprecated and replaced by the parent field.
+   * @opt_param string zone Deprecated. The name of the Google Compute Engine
+   * [zone](https://cloud.google.com/compute/docs/zones#available) to return
+   * operations for, or `-` for all zones. This field has been deprecated and
+   * replaced by the parent field.
+   * @return ListOperationsResponse
+   */
+  public function listProjectsLocationsOperations($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListOperationsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsOperations::class, 'Google_Service_Container_Resource_ProjectsLocationsOperations');

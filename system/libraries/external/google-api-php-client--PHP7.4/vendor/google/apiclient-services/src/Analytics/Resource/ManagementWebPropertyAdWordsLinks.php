@@ -1,80 +1,147 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-kRAWO9/+lv2dEPSDB0==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Analytics\Resource;
+
+use Google\Service\Analytics\EntityAdWordsLink;
+use Google\Service\Analytics\EntityAdWordsLinks;
+
+/**
+ * The "webPropertyAdWordsLinks" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $analyticsService = new Google\Service\Analytics(...);
+ *   $webPropertyAdWordsLinks = $analyticsService->webPropertyAdWordsLinks;
+ *  </code>
+ */
+class ManagementWebPropertyAdWordsLinks extends \Google\Service\Resource
+{
+  /**
+   * Deletes a web property-Google Ads link. (webPropertyAdWordsLinks.delete)
+   *
+   * @param string $accountId ID of the account which the given web property
+   * belongs to.
+   * @param string $webPropertyId Web property ID to delete the Google Ads link
+   * for.
+   * @param string $webPropertyAdWordsLinkId Web property Google Ads link ID.
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($accountId, $webPropertyId, $webPropertyAdWordsLinkId, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'webPropertyAdWordsLinkId' => $webPropertyAdWordsLinkId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Returns a web property-Google Ads link to which the user has access.
+   * (webPropertyAdWordsLinks.get)
+   *
+   * @param string $accountId ID of the account which the given web property
+   * belongs to.
+   * @param string $webPropertyId Web property ID to retrieve the Google Ads link
+   * for.
+   * @param string $webPropertyAdWordsLinkId Web property-Google Ads link ID.
+   * @param array $optParams Optional parameters.
+   * @return EntityAdWordsLink
+   */
+  public function get($accountId, $webPropertyId, $webPropertyAdWordsLinkId, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'webPropertyAdWordsLinkId' => $webPropertyAdWordsLinkId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], EntityAdWordsLink::class);
+  }
+  /**
+   * Creates a webProperty-Google Ads link. (webPropertyAdWordsLinks.insert)
+   *
+   * @param string $accountId ID of the Google Analytics account to create the
+   * link for.
+   * @param string $webPropertyId Web property ID to create the link for.
+   * @param EntityAdWordsLink $postBody
+   * @param array $optParams Optional parameters.
+   * @return EntityAdWordsLink
+   */
+  public function insert($accountId, $webPropertyId, EntityAdWordsLink $postBody, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], EntityAdWordsLink::class);
+  }
+  /**
+   * Lists webProperty-Google Ads links for a given web property.
+   * (webPropertyAdWordsLinks.listManagementWebPropertyAdWordsLinks)
+   *
+   * @param string $accountId ID of the account which the given web property
+   * belongs to.
+   * @param string $webPropertyId Web property ID to retrieve the Google Ads links
+   * for.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int max-results The maximum number of webProperty-Google Ads links
+   * to include in this response.
+   * @opt_param int start-index An index of the first webProperty-Google Ads link
+   * to retrieve. Use this parameter as a pagination mechanism along with the max-
+   * results parameter.
+   * @return EntityAdWordsLinks
+   */
+  public function listManagementWebPropertyAdWordsLinks($accountId, $webPropertyId, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], EntityAdWordsLinks::class);
+  }
+  /**
+   * Updates an existing webProperty-Google Ads link. This method supports patch
+   * semantics. (webPropertyAdWordsLinks.patch)
+   *
+   * @param string $accountId ID of the account which the given web property
+   * belongs to.
+   * @param string $webPropertyId Web property ID to retrieve the Google Ads link
+   * for.
+   * @param string $webPropertyAdWordsLinkId Web property-Google Ads link ID.
+   * @param EntityAdWordsLink $postBody
+   * @param array $optParams Optional parameters.
+   * @return EntityAdWordsLink
+   */
+  public function patch($accountId, $webPropertyId, $webPropertyAdWordsLinkId, EntityAdWordsLink $postBody, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'webPropertyAdWordsLinkId' => $webPropertyAdWordsLinkId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], EntityAdWordsLink::class);
+  }
+  /**
+   * Updates an existing webProperty-Google Ads link.
+   * (webPropertyAdWordsLinks.update)
+   *
+   * @param string $accountId ID of the account which the given web property
+   * belongs to.
+   * @param string $webPropertyId Web property ID to retrieve the Google Ads link
+   * for.
+   * @param string $webPropertyAdWordsLinkId Web property-Google Ads link ID.
+   * @param EntityAdWordsLink $postBody
+   * @param array $optParams Optional parameters.
+   * @return EntityAdWordsLink
+   */
+  public function update($accountId, $webPropertyId, $webPropertyAdWordsLinkId, EntityAdWordsLink $postBody, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'webPropertyAdWordsLinkId' => $webPropertyAdWordsLinkId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], EntityAdWordsLink::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ManagementWebPropertyAdWordsLinks::class, 'Google_Service_Analytics_Resource_ManagementWebPropertyAdWordsLinks');

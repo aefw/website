@@ -1,66 +1,90 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\YouTubeAnalytics;
+
+class ErrorProto extends \Google\Collection
+{
+  protected $collection_key = 'argument';
+  public $argument;
+  public $code;
+  public $debugInfo;
+  public $domain;
+  public $externalErrorMessage;
+  public $location;
+  public $locationType;
+
+  public function setArgument($argument)
+  {
+    $this->argument = $argument;
+  }
+  public function getArgument()
+  {
+    return $this->argument;
+  }
+  public function setCode($code)
+  {
+    $this->code = $code;
+  }
+  public function getCode()
+  {
+    return $this->code;
+  }
+  public function setDebugInfo($debugInfo)
+  {
+    $this->debugInfo = $debugInfo;
+  }
+  public function getDebugInfo()
+  {
+    return $this->debugInfo;
+  }
+  public function setDomain($domain)
+  {
+    $this->domain = $domain;
+  }
+  public function getDomain()
+  {
+    return $this->domain;
+  }
+  public function setExternalErrorMessage($externalErrorMessage)
+  {
+    $this->externalErrorMessage = $externalErrorMessage;
+  }
+  public function getExternalErrorMessage()
+  {
+    return $this->externalErrorMessage;
+  }
+  public function setLocation($location)
+  {
+    $this->location = $location;
+  }
+  public function getLocation()
+  {
+    return $this->location;
+  }
+  public function setLocationType($locationType)
+  {
+    $this->locationType = $locationType;
+  }
+  public function getLocationType()
+  {
+    return $this->locationType;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ErrorProto::class, 'Google_Service_YouTubeAnalytics_ErrorProto');

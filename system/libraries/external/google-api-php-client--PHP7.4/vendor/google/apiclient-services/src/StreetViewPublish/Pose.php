@@ -1,67 +1,103 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\StreetViewPublish;
+
+class Pose extends \Google\Model
+{
+  public $accuracyMeters;
+  public $altitude;
+  public $heading;
+  protected $latLngPairType = LatLng::class;
+  protected $latLngPairDataType = '';
+  protected $levelType = Level::class;
+  protected $levelDataType = '';
+  public $pitch;
+  public $roll;
+
+  public function setAccuracyMeters($accuracyMeters)
+  {
+    $this->accuracyMeters = $accuracyMeters;
+  }
+  public function getAccuracyMeters()
+  {
+    return $this->accuracyMeters;
+  }
+  public function setAltitude($altitude)
+  {
+    $this->altitude = $altitude;
+  }
+  public function getAltitude()
+  {
+    return $this->altitude;
+  }
+  public function setHeading($heading)
+  {
+    $this->heading = $heading;
+  }
+  public function getHeading()
+  {
+    return $this->heading;
+  }
+  /**
+   * @param LatLng
+   */
+  public function setLatLngPair(LatLng $latLngPair)
+  {
+    $this->latLngPair = $latLngPair;
+  }
+  /**
+   * @return LatLng
+   */
+  public function getLatLngPair()
+  {
+    return $this->latLngPair;
+  }
+  /**
+   * @param Level
+   */
+  public function setLevel(Level $level)
+  {
+    $this->level = $level;
+  }
+  /**
+   * @return Level
+   */
+  public function getLevel()
+  {
+    return $this->level;
+  }
+  public function setPitch($pitch)
+  {
+    $this->pitch = $pitch;
+  }
+  public function getPitch()
+  {
+    return $this->pitch;
+  }
+  public function setRoll($roll)
+  {
+    $this->roll = $roll;
+  }
+  public function getRoll()
+  {
+    return $this->roll;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Pose::class, 'Google_Service_StreetViewPublish_Pose');

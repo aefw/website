@@ -1,69 +1,96 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-9JjocZgVNBwEtuvwBHu50wHrRhqS
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Container;
+
+class NetworkConfig extends \Google\Model
+{
+  public $datapathProvider;
+  protected $defaultSnatStatusType = DefaultSnatStatus::class;
+  protected $defaultSnatStatusDataType = '';
+  public $enableIntraNodeVisibility;
+  public $enableL4ilbSubsetting;
+  public $network;
+  public $privateIpv6GoogleAccess;
+  public $subnetwork;
+
+  public function setDatapathProvider($datapathProvider)
+  {
+    $this->datapathProvider = $datapathProvider;
+  }
+  public function getDatapathProvider()
+  {
+    return $this->datapathProvider;
+  }
+  /**
+   * @param DefaultSnatStatus
+   */
+  public function setDefaultSnatStatus(DefaultSnatStatus $defaultSnatStatus)
+  {
+    $this->defaultSnatStatus = $defaultSnatStatus;
+  }
+  /**
+   * @return DefaultSnatStatus
+   */
+  public function getDefaultSnatStatus()
+  {
+    return $this->defaultSnatStatus;
+  }
+  public function setEnableIntraNodeVisibility($enableIntraNodeVisibility)
+  {
+    $this->enableIntraNodeVisibility = $enableIntraNodeVisibility;
+  }
+  public function getEnableIntraNodeVisibility()
+  {
+    return $this->enableIntraNodeVisibility;
+  }
+  public function setEnableL4ilbSubsetting($enableL4ilbSubsetting)
+  {
+    $this->enableL4ilbSubsetting = $enableL4ilbSubsetting;
+  }
+  public function getEnableL4ilbSubsetting()
+  {
+    return $this->enableL4ilbSubsetting;
+  }
+  public function setNetwork($network)
+  {
+    $this->network = $network;
+  }
+  public function getNetwork()
+  {
+    return $this->network;
+  }
+  public function setPrivateIpv6GoogleAccess($privateIpv6GoogleAccess)
+  {
+    $this->privateIpv6GoogleAccess = $privateIpv6GoogleAccess;
+  }
+  public function getPrivateIpv6GoogleAccess()
+  {
+    return $this->privateIpv6GoogleAccess;
+  }
+  public function setSubnetwork($subnetwork)
+  {
+    $this->subnetwork = $subnetwork;
+  }
+  public function getSubnetwork()
+  {
+    return $this->subnetwork;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(NetworkConfig::class, 'Google_Service_Container_NetworkConfig');

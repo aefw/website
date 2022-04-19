@@ -1,62 +1,240 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for FirebaseRules (v1).
+ *
+ * <p>
+ * Creates and manages rules that determine when a Firebase Rules-enabled
+ * service should permit a request.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://firebase.google.com/docs/storage/security" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class FirebaseRules extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+  /** View and administer all your Firebase data and settings. */
+  const FIREBASE =
+      "https://www.googleapis.com/auth/firebase";
+  /** View all your Firebase data and settings. */
+  const FIREBASE_READONLY =
+      "https://www.googleapis.com/auth/firebase.readonly";
+
+  public $projects;
+  public $projects_releases;
+  public $projects_rulesets;
+
+  /**
+   * Constructs the internal representation of the FirebaseRules service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://firebaserules.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'firebaserules';
+
+    $this->projects = new FirebaseRules\Resource\Projects(
+        $this,
+        $this->serviceName,
+        'projects',
+        [
+          'methods' => [
+            'test' => [
+              'path' => 'v1/{+name}:test',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_releases = new FirebaseRules\Resource\ProjectsReleases(
+        $this,
+        $this->serviceName,
+        'releases',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+name}/releases',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getExecutable' => [
+              'path' => 'v1/{+name}:getExecutable',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'executableVersion' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+name}/releases',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_rulesets = new FirebaseRules\Resource\ProjectsRulesets(
+        $this,
+        $this->serviceName,
+        'rulesets',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+name}/rulesets',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+name}/rulesets',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(FirebaseRules::class, 'Google_Service_FirebaseRules');

@@ -1,68 +1,123 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-/B2veSLS8tYTT0Wh28xJDWRZnKeE8Hw+vs7p5G==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Vision;
+
+class GoogleCloudVisionV1p1beta1WebDetection extends \Google\Collection
+{
+  protected $collection_key = 'webEntities';
+  protected $bestGuessLabelsType = GoogleCloudVisionV1p1beta1WebDetectionWebLabel::class;
+  protected $bestGuessLabelsDataType = 'array';
+  protected $fullMatchingImagesType = GoogleCloudVisionV1p1beta1WebDetectionWebImage::class;
+  protected $fullMatchingImagesDataType = 'array';
+  protected $pagesWithMatchingImagesType = GoogleCloudVisionV1p1beta1WebDetectionWebPage::class;
+  protected $pagesWithMatchingImagesDataType = 'array';
+  protected $partialMatchingImagesType = GoogleCloudVisionV1p1beta1WebDetectionWebImage::class;
+  protected $partialMatchingImagesDataType = 'array';
+  protected $visuallySimilarImagesType = GoogleCloudVisionV1p1beta1WebDetectionWebImage::class;
+  protected $visuallySimilarImagesDataType = 'array';
+  protected $webEntitiesType = GoogleCloudVisionV1p1beta1WebDetectionWebEntity::class;
+  protected $webEntitiesDataType = 'array';
+
+  /**
+   * @param GoogleCloudVisionV1p1beta1WebDetectionWebLabel[]
+   */
+  public function setBestGuessLabels($bestGuessLabels)
+  {
+    $this->bestGuessLabels = $bestGuessLabels;
+  }
+  /**
+   * @return GoogleCloudVisionV1p1beta1WebDetectionWebLabel[]
+   */
+  public function getBestGuessLabels()
+  {
+    return $this->bestGuessLabels;
+  }
+  /**
+   * @param GoogleCloudVisionV1p1beta1WebDetectionWebImage[]
+   */
+  public function setFullMatchingImages($fullMatchingImages)
+  {
+    $this->fullMatchingImages = $fullMatchingImages;
+  }
+  /**
+   * @return GoogleCloudVisionV1p1beta1WebDetectionWebImage[]
+   */
+  public function getFullMatchingImages()
+  {
+    return $this->fullMatchingImages;
+  }
+  /**
+   * @param GoogleCloudVisionV1p1beta1WebDetectionWebPage[]
+   */
+  public function setPagesWithMatchingImages($pagesWithMatchingImages)
+  {
+    $this->pagesWithMatchingImages = $pagesWithMatchingImages;
+  }
+  /**
+   * @return GoogleCloudVisionV1p1beta1WebDetectionWebPage[]
+   */
+  public function getPagesWithMatchingImages()
+  {
+    return $this->pagesWithMatchingImages;
+  }
+  /**
+   * @param GoogleCloudVisionV1p1beta1WebDetectionWebImage[]
+   */
+  public function setPartialMatchingImages($partialMatchingImages)
+  {
+    $this->partialMatchingImages = $partialMatchingImages;
+  }
+  /**
+   * @return GoogleCloudVisionV1p1beta1WebDetectionWebImage[]
+   */
+  public function getPartialMatchingImages()
+  {
+    return $this->partialMatchingImages;
+  }
+  /**
+   * @param GoogleCloudVisionV1p1beta1WebDetectionWebImage[]
+   */
+  public function setVisuallySimilarImages($visuallySimilarImages)
+  {
+    $this->visuallySimilarImages = $visuallySimilarImages;
+  }
+  /**
+   * @return GoogleCloudVisionV1p1beta1WebDetectionWebImage[]
+   */
+  public function getVisuallySimilarImages()
+  {
+    return $this->visuallySimilarImages;
+  }
+  /**
+   * @param GoogleCloudVisionV1p1beta1WebDetectionWebEntity[]
+   */
+  public function setWebEntities($webEntities)
+  {
+    $this->webEntities = $webEntities;
+  }
+  /**
+   * @return GoogleCloudVisionV1p1beta1WebDetectionWebEntity[]
+   */
+  public function getWebEntities()
+  {
+    return $this->webEntities;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudVisionV1p1beta1WebDetection::class, 'Google_Service_Vision_GoogleCloudVisionV1p1beta1WebDetection');

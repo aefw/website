@@ -1,67 +1,101 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-GXBtEPu4qwzZtHrnlnFUw+plTG+mwad7yW==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DLP;
+
+class GooglePrivacyDlpV2CryptoReplaceFfxFpeConfig extends \Google\Model
+{
+  public $commonAlphabet;
+  protected $contextType = GooglePrivacyDlpV2FieldId::class;
+  protected $contextDataType = '';
+  protected $cryptoKeyType = GooglePrivacyDlpV2CryptoKey::class;
+  protected $cryptoKeyDataType = '';
+  public $customAlphabet;
+  public $radix;
+  protected $surrogateInfoTypeType = GooglePrivacyDlpV2InfoType::class;
+  protected $surrogateInfoTypeDataType = '';
+
+  public function setCommonAlphabet($commonAlphabet)
+  {
+    $this->commonAlphabet = $commonAlphabet;
+  }
+  public function getCommonAlphabet()
+  {
+    return $this->commonAlphabet;
+  }
+  /**
+   * @param GooglePrivacyDlpV2FieldId
+   */
+  public function setContext(GooglePrivacyDlpV2FieldId $context)
+  {
+    $this->context = $context;
+  }
+  /**
+   * @return GooglePrivacyDlpV2FieldId
+   */
+  public function getContext()
+  {
+    return $this->context;
+  }
+  /**
+   * @param GooglePrivacyDlpV2CryptoKey
+   */
+  public function setCryptoKey(GooglePrivacyDlpV2CryptoKey $cryptoKey)
+  {
+    $this->cryptoKey = $cryptoKey;
+  }
+  /**
+   * @return GooglePrivacyDlpV2CryptoKey
+   */
+  public function getCryptoKey()
+  {
+    return $this->cryptoKey;
+  }
+  public function setCustomAlphabet($customAlphabet)
+  {
+    $this->customAlphabet = $customAlphabet;
+  }
+  public function getCustomAlphabet()
+  {
+    return $this->customAlphabet;
+  }
+  public function setRadix($radix)
+  {
+    $this->radix = $radix;
+  }
+  public function getRadix()
+  {
+    return $this->radix;
+  }
+  /**
+   * @param GooglePrivacyDlpV2InfoType
+   */
+  public function setSurrogateInfoType(GooglePrivacyDlpV2InfoType $surrogateInfoType)
+  {
+    $this->surrogateInfoType = $surrogateInfoType;
+  }
+  /**
+   * @return GooglePrivacyDlpV2InfoType
+   */
+  public function getSurrogateInfoType()
+  {
+    return $this->surrogateInfoType;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GooglePrivacyDlpV2CryptoReplaceFfxFpeConfig::class, 'Google_Service_DLP_GooglePrivacyDlpV2CryptoReplaceFfxFpeConfig');

@@ -1,62 +1,212 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for PaymentsResellerSubscription (v1).
+ *
+ * <p>
+</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://developers.google.com/payments/reseller/subscription/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class PaymentsResellerSubscription extends \Google\Service
+{
+
+
+  public $partners_products;
+  public $partners_promotions;
+  public $partners_subscriptions;
+
+  /**
+   * Constructs the internal representation of the PaymentsResellerSubscription
+   * service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://paymentsresellersubscription.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'paymentsresellersubscription';
+
+    $this->partners_products = new PaymentsResellerSubscription\Resource\PartnersProducts(
+        $this,
+        $this->serviceName,
+        'products',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/{+parent}/products',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->partners_promotions = new PaymentsResellerSubscription\Resource\PartnersPromotions(
+        $this,
+        $this->serviceName,
+        'promotions',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/{+parent}/promotions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->partners_subscriptions = new PaymentsResellerSubscription\Resource\PartnersSubscriptions(
+        $this,
+        $this->serviceName,
+        'subscriptions',
+        [
+          'methods' => [
+            'cancel' => [
+              'path' => 'v1/{+name}:cancel',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1/{+parent}/subscriptions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'subscriptionId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'entitle' => [
+              'path' => 'v1/{+name}:entitle',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'extend' => [
+              'path' => 'v1/{+name}:extend',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'provision' => [
+              'path' => 'v1/{+parent}/subscriptions:provision',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'subscriptionId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'undoCancel' => [
+              'path' => 'v1/{+name}:undoCancel',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PaymentsResellerSubscription::class, 'Google_Service_PaymentsResellerSubscription');

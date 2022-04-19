@@ -1,71 +1,118 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Analytics\Resource;
+
+use Google\Service\Analytics\Webproperties;
+use Google\Service\Analytics\Webproperty;
+
+/**
+ * The "webproperties" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $analyticsService = new Google\Service\Analytics(...);
+ *   $webproperties = $analyticsService->webproperties;
+ *  </code>
+ */
+class ManagementWebproperties extends \Google\Service\Resource
+{
+  /**
+   * Gets a web property to which the user has access. (webproperties.get)
+   *
+   * @param string $accountId Account ID to retrieve the web property for.
+   * @param string $webPropertyId ID to retrieve the web property for.
+   * @param array $optParams Optional parameters.
+   * @return Webproperty
+   */
+  public function get($accountId, $webPropertyId, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Webproperty::class);
+  }
+  /**
+   * Create a new property if the account has fewer than 20 properties. Web
+   * properties are visible in the Google Analytics interface only if they have at
+   * least one profile. (webproperties.insert)
+   *
+   * @param string $accountId Account ID to create the web property for.
+   * @param Webproperty $postBody
+   * @param array $optParams Optional parameters.
+   * @return Webproperty
+   */
+  public function insert($accountId, Webproperty $postBody, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Webproperty::class);
+  }
+  /**
+   * Lists web properties to which the user has access.
+   * (webproperties.listManagementWebproperties)
+   *
+   * @param string $accountId Account ID to retrieve web properties for. Can
+   * either be a specific account ID or '~all', which refers to all the accounts
+   * that user has access to.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int max-results The maximum number of web properties to include in
+   * this response.
+   * @opt_param int start-index An index of the first entity to retrieve. Use this
+   * parameter as a pagination mechanism along with the max-results parameter.
+   * @return Webproperties
+   */
+  public function listManagementWebproperties($accountId, $optParams = [])
+  {
+    $params = ['accountId' => $accountId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], Webproperties::class);
+  }
+  /**
+   * Updates an existing web property. This method supports patch semantics.
+   * (webproperties.patch)
+   *
+   * @param string $accountId Account ID to which the web property belongs
+   * @param string $webPropertyId Web property ID
+   * @param Webproperty $postBody
+   * @param array $optParams Optional parameters.
+   * @return Webproperty
+   */
+  public function patch($accountId, $webPropertyId, Webproperty $postBody, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Webproperty::class);
+  }
+  /**
+   * Updates an existing web property. (webproperties.update)
+   *
+   * @param string $accountId Account ID to which the web property belongs
+   * @param string $webPropertyId Web property ID
+   * @param Webproperty $postBody
+   * @param array $optParams Optional parameters.
+   * @return Webproperty
+   */
+  public function update($accountId, $webPropertyId, Webproperty $postBody, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Webproperty::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ManagementWebproperties::class, 'Google_Service_Analytics_Resource_ManagementWebproperties');

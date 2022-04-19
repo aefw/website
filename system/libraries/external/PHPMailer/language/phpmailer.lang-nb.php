@@ -1,65 +1,25 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-OmcT9MeT9VKN6wZvvu0W
+<?php
+/**
+ * Norwegian Bokmål PHPMailer language file: refer to English translation for definitive list
+ * @package PHPMailer
+ */
+
+$PHPMAILER_LANG['authenticate']         = 'SMTP Feil: Kunne ikke autentisere.';
+$PHPMAILER_LANG['connect_host']         = 'SMTP Feil: Kunne ikke koble til SMTP tjener.';
+$PHPMAILER_LANG['data_not_accepted']    = 'SMTP Feil: Datainnhold ikke akseptert.';
+$PHPMAILER_LANG['empty_message']        = 'Meldingsinnhold mangler';
+$PHPMAILER_LANG['encoding']             = 'Ukjent koding: ';
+$PHPMAILER_LANG['execute']              = 'Kunne ikke utføre: ';
+$PHPMAILER_LANG['file_access']          = 'Får ikke tilgang til filen: ';
+$PHPMAILER_LANG['file_open']            = 'Fil Feil: Kunne ikke åpne filen: ';
+$PHPMAILER_LANG['from_failed']          = 'Følgende Frå adresse feilet: ';
+$PHPMAILER_LANG['instantiate']          = 'Kunne ikke initialisere post funksjon.';
+$PHPMAILER_LANG['invalid_address']      = 'Ugyldig adresse: ';
+$PHPMAILER_LANG['mailer_not_supported'] = ' sender er ikke støttet.';
+$PHPMAILER_LANG['provide_address']      = 'Du må opppgi minst en mottakeradresse.';
+$PHPMAILER_LANG['recipients_failed']    = 'SMTP Feil: Følgende mottakeradresse feilet: ';
+$PHPMAILER_LANG['signing']              = 'Signering Feil: ';
+$PHPMAILER_LANG['smtp_connect_failed']  = 'SMTP connect() feilet.';
+$PHPMAILER_LANG['smtp_error']           = 'SMTP server feil: ';
+$PHPMAILER_LANG['variable_set']         = 'Kan ikke skrive eller omskrive variabel: ';
+$PHPMAILER_LANG['extension_missing']    = 'Utvidelse mangler: ';

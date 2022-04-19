@@ -1,78 +1,158 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AdExchangeBuyerII\Resource;
+
+use Google\Service\AdExchangeBuyerII\Adexchangebuyer2Empty;
+use Google\Service\AdExchangeBuyerII\Creative;
+use Google\Service\AdExchangeBuyerII\ListCreativesResponse;
+use Google\Service\AdExchangeBuyerII\StopWatchingCreativeRequest;
+use Google\Service\AdExchangeBuyerII\WatchCreativeRequest;
+
+/**
+ * The "creatives" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $adexchangebuyer2Service = new Google\Service\AdExchangeBuyerII(...);
+ *   $creatives = $adexchangebuyer2Service->creatives;
+ *  </code>
+ */
+class AccountsCreatives extends \Google\Service\Resource
+{
+  /**
+   * Creates a creative. (creatives.create)
+   *
+   * @param string $accountId The account that this creative belongs to. Can be
+   * used to filter the response of the creatives.list method.
+   * @param Creative $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string duplicateIdMode Indicates if multiple creatives can share
+   * an ID or not. Default is NO_DUPLICATES (one ID per creative).
+   * @return Creative
+   */
+  public function create($accountId, Creative $postBody, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Creative::class);
+  }
+  /**
+   * Gets a creative. (creatives.get)
+   *
+   * @param string $accountId The account the creative belongs to.
+   * @param string $creativeId The ID of the creative to retrieve.
+   * @param array $optParams Optional parameters.
+   * @return Creative
+   */
+  public function get($accountId, $creativeId, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'creativeId' => $creativeId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Creative::class);
+  }
+  /**
+   * Lists creatives. (creatives.listAccountsCreatives)
+   *
+   * @param string $accountId The account to list the creatives from. Specify "-"
+   * to list all creatives the current user has access to.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Requested page size. The server may return fewer
+   * creatives than requested (due to timeout constraint) even if more are
+   * available via another call. If unspecified, server will pick an appropriate
+   * default. Acceptable values are 1 to 1000, inclusive.
+   * @opt_param string pageToken A token identifying a page of results the server
+   * should return. Typically, this is the value of
+   * ListCreativesResponse.next_page_token returned from the previous call to
+   * 'ListCreatives' method.
+   * @opt_param string query An optional query string to filter creatives. If no
+   * filter is specified, all active creatives will be returned. Supported queries
+   * are: - accountId=*account_id_string* - creativeId=*creative_id_string* -
+   * dealsStatus: {approved, conditionally_approved, disapproved, not_checked} -
+   * openAuctionStatus: {approved, conditionally_approved, disapproved,
+   * not_checked} - attribute: {a numeric attribute from the list of attributes} -
+   * disapprovalReason: {a reason from DisapprovalReason} Example:
+   * 'accountId=12345 AND (dealsStatus:disapproved AND
+   * disapprovalReason:unacceptable_content) OR attribute:47'
+   * @return ListCreativesResponse
+   */
+  public function listAccountsCreatives($accountId, $optParams = [])
+  {
+    $params = ['accountId' => $accountId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListCreativesResponse::class);
+  }
+  /**
+   * Stops watching a creative. Will stop push notifications being sent to the
+   * topics when the creative changes status. (creatives.stopWatching)
+   *
+   * @param string $accountId The account of the creative to stop notifications
+   * for.
+   * @param string $creativeId The creative ID of the creative to stop
+   * notifications for. Specify "-" to specify stopping account level
+   * notifications.
+   * @param StopWatchingCreativeRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Adexchangebuyer2Empty
+   */
+  public function stopWatching($accountId, $creativeId, StopWatchingCreativeRequest $postBody, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'creativeId' => $creativeId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('stopWatching', [$params], Adexchangebuyer2Empty::class);
+  }
+  /**
+   * Updates a creative. (creatives.update)
+   *
+   * @param string $accountId The account that this creative belongs to. Can be
+   * used to filter the response of the creatives.list method.
+   * @param string $creativeId The buyer-defined creative ID of this creative. Can
+   * be used to filter the response of the creatives.list method.
+   * @param Creative $postBody
+   * @param array $optParams Optional parameters.
+   * @return Creative
+   */
+  public function update($accountId, $creativeId, Creative $postBody, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'creativeId' => $creativeId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Creative::class);
+  }
+  /**
+   * Watches a creative. Will result in push notifications being sent to the topic
+   * when the creative changes status. (creatives.watch)
+   *
+   * @param string $accountId The account of the creative to watch.
+   * @param string $creativeId The creative ID to watch for status changes.
+   * Specify "-" to watch all creatives under the above account. If both creative-
+   * level and account-level notifications are sent, only a single notification
+   * will be sent to the creative-level notification topic.
+   * @param WatchCreativeRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Adexchangebuyer2Empty
+   */
+  public function watch($accountId, $creativeId, WatchCreativeRequest $postBody, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'creativeId' => $creativeId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('watch', [$params], Adexchangebuyer2Empty::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AccountsCreatives::class, 'Google_Service_AdExchangeBuyerII_Resource_AccountsCreatives');

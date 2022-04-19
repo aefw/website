@@ -1,78 +1,203 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DisplayVideo\Resource;
+
+use Google\Service\DisplayVideo\BulkListInsertionOrderAssignedTargetingOptionsResponse;
+use Google\Service\DisplayVideo\DisplayvideoEmpty;
+use Google\Service\DisplayVideo\InsertionOrder;
+use Google\Service\DisplayVideo\ListInsertionOrdersResponse;
+
+/**
+ * The "insertionOrders" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $displayvideoService = new Google\Service\DisplayVideo(...);
+ *   $insertionOrders = $displayvideoService->insertionOrders;
+ *  </code>
+ */
+class AdvertisersInsertionOrders extends \Google\Service\Resource
+{
+  /**
+   * Lists assigned targeting options of an insertion order across targeting
+   * types. (insertionOrders.bulkListInsertionOrderAssignedTargetingOptions)
+   *
+   * @param string $advertiserId Required. The ID of the advertiser the insertion
+   * order belongs to.
+   * @param string $insertionOrderId Required. The ID of the insertion order to
+   * list assigned targeting options for.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Allows filtering by assigned targeting option
+   * properties. Supported syntax: * Filter expressions are made up of one or more
+   * restrictions. * Restrictions can be combined by the logical operator `OR` on
+   * the same field. * A restriction has the form of `{field} {operator} {value}`.
+   * * The operator must be `EQUALS (=)`. * Supported fields: - `targetingType` -
+   * `inheritance` Examples: * AssignedTargetingOptions of targeting type
+   * TARGETING_TYPE_PROXIMITY_LOCATION_LIST or TARGETING_TYPE_CHANNEL
+   * `targetingType="TARGETING_TYPE_PROXIMITY_LOCATION_LIST" OR
+   * targetingType="TARGETING_TYPE_CHANNEL"` * AssignedTargetingOptions with
+   * inheritance status of NOT_INHERITED or INHERITED_FROM_PARTNER
+   * `inheritance="NOT_INHERITED" OR inheritance="INHERITED_FROM_PARTNER"` The
+   * length of this field should be no more than 500 characters.
+   * @opt_param string orderBy Field by which to sort the list. Acceptable values
+   * are: * `targetingType` (default) The default sorting order is ascending. To
+   * specify descending order for a field, a suffix "desc" should be added to the
+   * field name. Example: `targetingType desc`.
+   * @opt_param int pageSize Requested page size. The size must be an integer
+   * between `1` and `5000`. If unspecified, the default is `5000`. Returns error
+   * code `INVALID_ARGUMENT` if an invalid value is specified.
+   * @opt_param string pageToken A token that lets the client fetch the next page
+   * of results. Typically, this is the value of next_page_token returned from the
+   * previous call to `BulkListInsertionOrderAssignedTargetingOptions` method. If
+   * not specified, the first page of results will be returned.
+   * @return BulkListInsertionOrderAssignedTargetingOptionsResponse
+   */
+  public function bulkListInsertionOrderAssignedTargetingOptions($advertiserId, $insertionOrderId, $optParams = [])
+  {
+    $params = ['advertiserId' => $advertiserId, 'insertionOrderId' => $insertionOrderId];
+    $params = array_merge($params, $optParams);
+    return $this->call('bulkListInsertionOrderAssignedTargetingOptions', [$params], BulkListInsertionOrderAssignedTargetingOptionsResponse::class);
+  }
+  /**
+   * Creates a new insertion order. Returns the newly created insertion order if
+   * successful. (insertionOrders.create)
+   *
+   * @param string $advertiserId Output only. The unique ID of the advertiser the
+   * insertion order belongs to.
+   * @param InsertionOrder $postBody
+   * @param array $optParams Optional parameters.
+   * @return InsertionOrder
+   */
+  public function create($advertiserId, InsertionOrder $postBody, $optParams = [])
+  {
+    $params = ['advertiserId' => $advertiserId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], InsertionOrder::class);
+  }
+  /**
+   * Deletes an insertion order. Returns error code `NOT_FOUND` if the insertion
+   * order does not exist. The insertion order should be archived first, i.e. set
+   * entity_status to `ENTITY_STATUS_ARCHIVED`, to be able to delete it.
+   * (insertionOrders.delete)
+   *
+   * @param string $advertiserId The ID of the advertiser this insertion order
+   * belongs to.
+   * @param string $insertionOrderId The ID of the insertion order we need to
+   * delete.
+   * @param array $optParams Optional parameters.
+   * @return DisplayvideoEmpty
+   */
+  public function delete($advertiserId, $insertionOrderId, $optParams = [])
+  {
+    $params = ['advertiserId' => $advertiserId, 'insertionOrderId' => $insertionOrderId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], DisplayvideoEmpty::class);
+  }
+  /**
+   * Gets an insertion order. Returns error code `NOT_FOUND` if the insertion
+   * order does not exist. (insertionOrders.get)
+   *
+   * @param string $advertiserId Required. The ID of the advertiser this insertion
+   * order belongs to.
+   * @param string $insertionOrderId Required. The ID of the insertion order to
+   * fetch.
+   * @param array $optParams Optional parameters.
+   * @return InsertionOrder
+   */
+  public function get($advertiserId, $insertionOrderId, $optParams = [])
+  {
+    $params = ['advertiserId' => $advertiserId, 'insertionOrderId' => $insertionOrderId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], InsertionOrder::class);
+  }
+  /**
+   * Lists insertion orders in an advertiser. The order is defined by the order_by
+   * parameter. If a filter by entity_status is not specified, insertion orders
+   * with `ENTITY_STATUS_ARCHIVED` will not be included in the results.
+   * (insertionOrders.listAdvertisersInsertionOrders)
+   *
+   * @param string $advertiserId Required. The ID of the advertiser to list
+   * insertion orders for.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Allows filtering by insertion order properties.
+   * Supported syntax: * Filter expressions are made up of one or more
+   * restrictions. * Restrictions can be combined by `AND` or `OR` logical
+   * operators. A sequence of restrictions implicitly uses `AND`. * A restriction
+   * has the form of `{field} {operator} {value}`. * The operator used on
+   * `budget.budget_segments.date_range.end_date` must be LESS THAN (<). * The
+   * operator used on `updateTime` must be `GREATER THAN OR EQUAL TO (>=)` or
+   * `LESS THAN OR EQUAL TO (<=)`. * The operators used on all other fields must
+   * be `EQUALS (=)`. * Supported fields: - `campaignId` - `displayName` -
+   * `entityStatus` - `budget.budget_segments.date_range.end_date` (input as YYYY-
+   * MM-DD) - `updateTime` (input in ISO 8601 format, or YYYY-MM-DDTHH:MM:SSZ)
+   * Examples: * All insertion orders under a campaign: `campaignId="1234"` * All
+   * `ENTITY_STATUS_ACTIVE` or `ENTITY_STATUS_PAUSED` insertion orders under an
+   * advertiser: `(entityStatus="ENTITY_STATUS_ACTIVE" OR
+   * entityStatus="ENTITY_STATUS_PAUSED")` * All insertion orders whose budget
+   * segments' dates end before March 28, 2019:
+   * `budget.budget_segments.date_range.end_date<"2019-03-28"` * All insertion
+   * orders with an update time less than or equal to `2020-11-04T18:54:47Z
+   * (format of ISO 8601)`: `updateTime<="2020-11-04T18:54:47Z"` * All insertion
+   * orders with an update time greater than or equal to `2020-11-04T18:54:47Z
+   * (format of ISO 8601)`: `updateTime>="2020-11-04T18:54:47Z"` The length of
+   * this field should be no more than 500 characters.
+   * @opt_param string orderBy Field by which to sort the list. Acceptable values
+   * are: * "displayName" (default) * "entityStatus" * "updateTime" The default
+   * sorting order is ascending. To specify descending order for a field, a suffix
+   * "desc" should be added to the field name. Example: `displayName desc`.
+   * @opt_param int pageSize Requested page size. Must be between `1` and `100`.
+   * If unspecified will default to `100`. Returns error code `INVALID_ARGUMENT`
+   * if an invalid value is specified.
+   * @opt_param string pageToken A token identifying a page of results the server
+   * should return. Typically, this is the value of next_page_token returned from
+   * the previous call to `ListInsertionOrders` method. If not specified, the
+   * first page of results will be returned.
+   * @return ListInsertionOrdersResponse
+   */
+  public function listAdvertisersInsertionOrders($advertiserId, $optParams = [])
+  {
+    $params = ['advertiserId' => $advertiserId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListInsertionOrdersResponse::class);
+  }
+  /**
+   * Updates an existing insertion order. Returns the updated insertion order if
+   * successful. (insertionOrders.patch)
+   *
+   * @param string $advertiserId Output only. The unique ID of the advertiser the
+   * insertion order belongs to.
+   * @param string $insertionOrderId Output only. The unique ID of the insertion
+   * order. Assigned by the system.
+   * @param InsertionOrder $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. The mask to control which fields to
+   * update.
+   * @return InsertionOrder
+   */
+  public function patch($advertiserId, $insertionOrderId, InsertionOrder $postBody, $optParams = [])
+  {
+    $params = ['advertiserId' => $advertiserId, 'insertionOrderId' => $insertionOrderId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], InsertionOrder::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AdvertisersInsertionOrders::class, 'Google_Service_DisplayVideo_Resource_AdvertisersInsertionOrders');

@@ -1,83 +1,140 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ServiceManagement;
+
+class MetricDescriptor extends \Google\Collection
+{
+  protected $collection_key = 'monitoredResourceTypes';
+  public $description;
+  public $displayName;
+  protected $labelsType = LabelDescriptor::class;
+  protected $labelsDataType = 'array';
+  public $launchStage;
+  protected $metadataType = MetricDescriptorMetadata::class;
+  protected $metadataDataType = '';
+  public $metricKind;
+  public $monitoredResourceTypes;
+  public $name;
+  public $type;
+  public $unit;
+  public $valueType;
+
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setDisplayName($displayName)
+  {
+    $this->displayName = $displayName;
+  }
+  public function getDisplayName()
+  {
+    return $this->displayName;
+  }
+  /**
+   * @param LabelDescriptor[]
+   */
+  public function setLabels($labels)
+  {
+    $this->labels = $labels;
+  }
+  /**
+   * @return LabelDescriptor[]
+   */
+  public function getLabels()
+  {
+    return $this->labels;
+  }
+  public function setLaunchStage($launchStage)
+  {
+    $this->launchStage = $launchStage;
+  }
+  public function getLaunchStage()
+  {
+    return $this->launchStage;
+  }
+  /**
+   * @param MetricDescriptorMetadata
+   */
+  public function setMetadata(MetricDescriptorMetadata $metadata)
+  {
+    $this->metadata = $metadata;
+  }
+  /**
+   * @return MetricDescriptorMetadata
+   */
+  public function getMetadata()
+  {
+    return $this->metadata;
+  }
+  public function setMetricKind($metricKind)
+  {
+    $this->metricKind = $metricKind;
+  }
+  public function getMetricKind()
+  {
+    return $this->metricKind;
+  }
+  public function setMonitoredResourceTypes($monitoredResourceTypes)
+  {
+    $this->monitoredResourceTypes = $monitoredResourceTypes;
+  }
+  public function getMonitoredResourceTypes()
+  {
+    return $this->monitoredResourceTypes;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setType($type)
+  {
+    $this->type = $type;
+  }
+  public function getType()
+  {
+    return $this->type;
+  }
+  public function setUnit($unit)
+  {
+    $this->unit = $unit;
+  }
+  public function getUnit()
+  {
+    return $this->unit;
+  }
+  public function setValueType($valueType)
+  {
+    $this->valueType = $valueType;
+  }
+  public function getValueType()
+  {
+    return $this->valueType;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(MetricDescriptor::class, 'Google_Service_ServiceManagement_MetricDescriptor');

@@ -1,117 +1,285 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+namespace PhpOffice\PhpSpreadsheet\Shared\JAMA;
+
+use PhpOffice\PhpSpreadsheet\Calculation\Exception as CalculationException;
+
+/**
+ *    For an m-by-n matrix A with m >= n, the LU decomposition is an m-by-n
+ *    unit lower triangular matrix L, an n-by-n upper triangular matrix U,
+ *    and a permutation vector piv of length m so that A(piv,:) = L*U.
+ *    If m < n, then L is m-by-m and U is m-by-n.
+ *
+ *    The LU decompostion with pivoting always exists, even if the matrix is
+ *    singular, so the constructor will never fail. The primary use of the
+ *    LU decomposition is in the solution of square systems of simultaneous
+ *    linear equations. This will fail if isNonsingular() returns false.
+ *
+ *    @author Paul Meagher
+ *    @author Bartosz Matosiuk
+ *    @author Michael Bommarito
+ *
+ *    @version 1.1
+ */
+class LUDecomposition
+{
+    const MATRIX_SINGULAR_EXCEPTION = 'Can only perform operation on singular matrix.';
+    const MATRIX_SQUARE_EXCEPTION = 'Mismatched Row dimension';
+
+    /**
+     * Decomposition storage.
+     *
+     * @var array
+     */
+    private $LU = [];
+
+    /**
+     * Row dimension.
+     *
+     * @var int
+     */
+    private $m;
+
+    /**
+     * Column dimension.
+     *
+     * @var int
+     */
+    private $n;
+
+    /**
+     * Pivot sign.
+     *
+     * @var int
+     */
+    private $pivsign;
+
+    /**
+     * Internal storage of pivot vector.
+     *
+     * @var array
+     */
+    private $piv = [];
+
+    /**
+     * LU Decomposition constructor.
+     *
+     * @param Matrix $A Rectangular matrix
+     */
+    public function __construct($A)
+    {
+        if ($A instanceof Matrix) {
+            // Use a "left-looking", dot-product, Crout/Doolittle algorithm.
+            $this->LU = $A->getArray();
+            $this->m = $A->getRowDimension();
+            $this->n = $A->getColumnDimension();
+            for ($i = 0; $i < $this->m; ++$i) {
+                $this->piv[$i] = $i;
+            }
+            $this->pivsign = 1;
+            $LUrowi = $LUcolj = [];
+
+            // Outer loop.
+            for ($j = 0; $j < $this->n; ++$j) {
+                // Make a copy of the j-th column to localize references.
+                for ($i = 0; $i < $this->m; ++$i) {
+                    $LUcolj[$i] = &$this->LU[$i][$j];
+                }
+                // Apply previous transformations.
+                for ($i = 0; $i < $this->m; ++$i) {
+                    $LUrowi = $this->LU[$i];
+                    // Most of the time is spent in the following dot product.
+                    $kmax = min($i, $j);
+                    $s = 0.0;
+                    for ($k = 0; $k < $kmax; ++$k) {
+                        $s += $LUrowi[$k] * $LUcolj[$k];
+                    }
+                    $LUrowi[$j] = $LUcolj[$i] -= $s;
+                }
+                // Find pivot and exchange if necessary.
+                $p = $j;
+                for ($i = $j + 1; $i < $this->m; ++$i) {
+                    if (abs($LUcolj[$i]) > abs($LUcolj[$p])) {
+                        $p = $i;
+                    }
+                }
+                if ($p != $j) {
+                    for ($k = 0; $k < $this->n; ++$k) {
+                        $t = $this->LU[$p][$k];
+                        $this->LU[$p][$k] = $this->LU[$j][$k];
+                        $this->LU[$j][$k] = $t;
+                    }
+                    $k = $this->piv[$p];
+                    $this->piv[$p] = $this->piv[$j];
+                    $this->piv[$j] = $k;
+                    $this->pivsign = $this->pivsign * -1;
+                }
+                // Compute multipliers.
+                if (($j < $this->m) && ($this->LU[$j][$j] != 0.0)) {
+                    for ($i = $j + 1; $i < $this->m; ++$i) {
+                        $this->LU[$i][$j] /= $this->LU[$j][$j];
+                    }
+                }
+            }
+        } else {
+            throw new CalculationException(Matrix::ARGUMENT_TYPE_EXCEPTION);
+        }
+    }
+
+    //    function __construct()
+
+    /**
+     * Get lower triangular factor.
+     *
+     * @return Matrix Lower triangular factor
+     */
+    public function getL()
+    {
+        for ($i = 0; $i < $this->m; ++$i) {
+            for ($j = 0; $j < $this->n; ++$j) {
+                if ($i > $j) {
+                    $L[$i][$j] = $this->LU[$i][$j];
+                } elseif ($i == $j) {
+                    $L[$i][$j] = 1.0;
+                } else {
+                    $L[$i][$j] = 0.0;
+                }
+            }
+        }
+
+        return new Matrix($L);
+    }
+
+    //    function getL()
+
+    /**
+     * Get upper triangular factor.
+     *
+     * @return Matrix Upper triangular factor
+     */
+    public function getU()
+    {
+        for ($i = 0; $i < $this->n; ++$i) {
+            for ($j = 0; $j < $this->n; ++$j) {
+                if ($i <= $j) {
+                    $U[$i][$j] = $this->LU[$i][$j];
+                } else {
+                    $U[$i][$j] = 0.0;
+                }
+            }
+        }
+
+        return new Matrix($U);
+    }
+
+    //    function getU()
+
+    /**
+     * Return pivot permutation vector.
+     *
+     * @return array Pivot vector
+     */
+    public function getPivot()
+    {
+        return $this->piv;
+    }
+
+    //    function getPivot()
+
+    /**
+     * Alias for getPivot.
+     *
+     *    @see getPivot
+     */
+    public function getDoublePivot()
+    {
+        return $this->getPivot();
+    }
+
+    //    function getDoublePivot()
+
+    /**
+     *    Is the matrix nonsingular?
+     *
+     * @return bool true if U, and hence A, is nonsingular
+     */
+    public function isNonsingular()
+    {
+        for ($j = 0; $j < $this->n; ++$j) {
+            if ($this->LU[$j][$j] == 0) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    //    function isNonsingular()
+
+    /**
+     * Count determinants.
+     *
+     * @return array d matrix deterninat
+     */
+    public function det()
+    {
+        if ($this->m == $this->n) {
+            $d = $this->pivsign;
+            for ($j = 0; $j < $this->n; ++$j) {
+                $d *= $this->LU[$j][$j];
+            }
+
+            return $d;
+        }
+
+        throw new CalculationException(Matrix::MATRIX_DIMENSION_EXCEPTION);
+    }
+
+    //    function det()
+
+    /**
+     * Solve A*X = B.
+     *
+     * @param mixed $B a Matrix with as many rows as A and any number of columns
+     *
+     * @throws CalculationException illegalArgumentException Matrix row dimensions must agree
+     * @throws CalculationException runtimeException  Matrix is singular
+     *
+     * @return Matrix X so that L*U*X = B(piv,:)
+     */
+    public function solve($B)
+    {
+        if ($B->getRowDimension() == $this->m) {
+            if ($this->isNonsingular()) {
+                // Copy right hand side with pivoting
+                $nx = $B->getColumnDimension();
+                $X = $B->getMatrix($this->piv, 0, $nx - 1);
+                // Solve L*Y = B(piv,:)
+                for ($k = 0; $k < $this->n; ++$k) {
+                    for ($i = $k + 1; $i < $this->n; ++$i) {
+                        for ($j = 0; $j < $nx; ++$j) {
+                            $X->A[$i][$j] -= $X->A[$k][$j] * $this->LU[$i][$k];
+                        }
+                    }
+                }
+                // Solve U*X = Y;
+                for ($k = $this->n - 1; $k >= 0; --$k) {
+                    for ($j = 0; $j < $nx; ++$j) {
+                        $X->A[$k][$j] /= $this->LU[$k][$k];
+                    }
+                    for ($i = 0; $i < $k; ++$i) {
+                        for ($j = 0; $j < $nx; ++$j) {
+                            $X->A[$i][$j] -= $X->A[$k][$j] * $this->LU[$i][$k];
+                        }
+                    }
+                }
+
+                return $X;
+            }
+
+            throw new CalculationException(self::MATRIX_SINGULAR_EXCEPTION);
+        }
+
+        throw new CalculationException(self::MATRIX_SQUARE_EXCEPTION);
+    }
+}

@@ -1,72 +1,127 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Spanner;
+
+class KeyRangeInfo extends \Google\Collection
+{
+  protected $collection_key = 'contextValues';
+  protected $contextValuesType = ContextValue::class;
+  protected $contextValuesDataType = 'array';
+  public $endKeyIndex;
+  protected $infoType = LocalizedString::class;
+  protected $infoDataType = '';
+  public $keysCount;
+  protected $metricType = LocalizedString::class;
+  protected $metricDataType = '';
+  public $startKeyIndex;
+  protected $unitType = LocalizedString::class;
+  protected $unitDataType = '';
+  public $value;
+
+  /**
+   * @param ContextValue[]
+   */
+  public function setContextValues($contextValues)
+  {
+    $this->contextValues = $contextValues;
+  }
+  /**
+   * @return ContextValue[]
+   */
+  public function getContextValues()
+  {
+    return $this->contextValues;
+  }
+  public function setEndKeyIndex($endKeyIndex)
+  {
+    $this->endKeyIndex = $endKeyIndex;
+  }
+  public function getEndKeyIndex()
+  {
+    return $this->endKeyIndex;
+  }
+  /**
+   * @param LocalizedString
+   */
+  public function setInfo(LocalizedString $info)
+  {
+    $this->info = $info;
+  }
+  /**
+   * @return LocalizedString
+   */
+  public function getInfo()
+  {
+    return $this->info;
+  }
+  public function setKeysCount($keysCount)
+  {
+    $this->keysCount = $keysCount;
+  }
+  public function getKeysCount()
+  {
+    return $this->keysCount;
+  }
+  /**
+   * @param LocalizedString
+   */
+  public function setMetric(LocalizedString $metric)
+  {
+    $this->metric = $metric;
+  }
+  /**
+   * @return LocalizedString
+   */
+  public function getMetric()
+  {
+    return $this->metric;
+  }
+  public function setStartKeyIndex($startKeyIndex)
+  {
+    $this->startKeyIndex = $startKeyIndex;
+  }
+  public function getStartKeyIndex()
+  {
+    return $this->startKeyIndex;
+  }
+  /**
+   * @param LocalizedString
+   */
+  public function setUnit(LocalizedString $unit)
+  {
+    $this->unit = $unit;
+  }
+  /**
+   * @return LocalizedString
+   */
+  public function getUnit()
+  {
+    return $this->unit;
+  }
+  public function setValue($value)
+  {
+    $this->value = $value;
+  }
+  public function getValue()
+  {
+    return $this->value;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(KeyRangeInfo::class, 'Google_Service_Spanner_KeyRangeInfo');

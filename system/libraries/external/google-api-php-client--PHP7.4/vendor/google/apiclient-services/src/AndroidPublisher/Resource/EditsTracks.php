@@ -1,67 +1,97 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AndroidPublisher\Resource;
+
+use Google\Service\AndroidPublisher\Track;
+use Google\Service\AndroidPublisher\TracksListResponse;
+
+/**
+ * The "tracks" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $androidpublisherService = new Google\Service\AndroidPublisher(...);
+ *   $tracks = $androidpublisherService->tracks;
+ *  </code>
+ */
+class EditsTracks extends \Google\Service\Resource
+{
+  /**
+   * Gets a track. (tracks.get)
+   *
+   * @param string $packageName Package name of the app.
+   * @param string $editId Identifier of the edit.
+   * @param string $track Identifier of the track.
+   * @param array $optParams Optional parameters.
+   * @return Track
+   */
+  public function get($packageName, $editId, $track, $optParams = [])
+  {
+    $params = ['packageName' => $packageName, 'editId' => $editId, 'track' => $track];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Track::class);
+  }
+  /**
+   * Lists all tracks. (tracks.listEditsTracks)
+   *
+   * @param string $packageName Package name of the app.
+   * @param string $editId Identifier of the edit.
+   * @param array $optParams Optional parameters.
+   * @return TracksListResponse
+   */
+  public function listEditsTracks($packageName, $editId, $optParams = [])
+  {
+    $params = ['packageName' => $packageName, 'editId' => $editId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], TracksListResponse::class);
+  }
+  /**
+   * Patches a track. (tracks.patch)
+   *
+   * @param string $packageName Package name of the app.
+   * @param string $editId Identifier of the edit.
+   * @param string $track Identifier of the track.
+   * @param Track $postBody
+   * @param array $optParams Optional parameters.
+   * @return Track
+   */
+  public function patch($packageName, $editId, $track, Track $postBody, $optParams = [])
+  {
+    $params = ['packageName' => $packageName, 'editId' => $editId, 'track' => $track, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Track::class);
+  }
+  /**
+   * Updates a track. (tracks.update)
+   *
+   * @param string $packageName Package name of the app.
+   * @param string $editId Identifier of the edit.
+   * @param string $track Identifier of the track.
+   * @param Track $postBody
+   * @param array $optParams Optional parameters.
+   * @return Track
+   */
+  public function update($packageName, $editId, $track, Track $postBody, $optParams = [])
+  {
+    $params = ['packageName' => $packageName, 'editId' => $editId, 'track' => $track, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Track::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(EditsTracks::class, 'Google_Service_AndroidPublisher_Resource_EditsTracks');

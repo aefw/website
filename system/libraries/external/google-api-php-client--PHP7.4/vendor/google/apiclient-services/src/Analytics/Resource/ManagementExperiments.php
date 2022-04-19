@@ -1,80 +1,140 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-/JgqSxN3dZvd
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Analytics\Resource;
+
+use Google\Service\Analytics\Experiment;
+use Google\Service\Analytics\Experiments;
+
+/**
+ * The "experiments" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $analyticsService = new Google\Service\Analytics(...);
+ *   $experiments = $analyticsService->experiments;
+ *  </code>
+ */
+class ManagementExperiments extends \Google\Service\Resource
+{
+  /**
+   * Delete an experiment. (experiments.delete)
+   *
+   * @param string $accountId Account ID to which the experiment belongs
+   * @param string $webPropertyId Web property ID to which the experiment belongs
+   * @param string $profileId View (Profile) ID to which the experiment belongs
+   * @param string $experimentId ID of the experiment to delete
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($accountId, $webPropertyId, $profileId, $experimentId, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId, 'experimentId' => $experimentId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Returns an experiment to which the user has access. (experiments.get)
+   *
+   * @param string $accountId Account ID to retrieve the experiment for.
+   * @param string $webPropertyId Web property ID to retrieve the experiment for.
+   * @param string $profileId View (Profile) ID to retrieve the experiment for.
+   * @param string $experimentId Experiment ID to retrieve the experiment for.
+   * @param array $optParams Optional parameters.
+   * @return Experiment
+   */
+  public function get($accountId, $webPropertyId, $profileId, $experimentId, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId, 'experimentId' => $experimentId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Experiment::class);
+  }
+  /**
+   * Create a new experiment. (experiments.insert)
+   *
+   * @param string $accountId Account ID to create the experiment for.
+   * @param string $webPropertyId Web property ID to create the experiment for.
+   * @param string $profileId View (Profile) ID to create the experiment for.
+   * @param Experiment $postBody
+   * @param array $optParams Optional parameters.
+   * @return Experiment
+   */
+  public function insert($accountId, $webPropertyId, $profileId, Experiment $postBody, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Experiment::class);
+  }
+  /**
+   * Lists experiments to which the user has access.
+   * (experiments.listManagementExperiments)
+   *
+   * @param string $accountId Account ID to retrieve experiments for.
+   * @param string $webPropertyId Web property ID to retrieve experiments for.
+   * @param string $profileId View (Profile) ID to retrieve experiments for.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int max-results The maximum number of experiments to include in
+   * this response.
+   * @opt_param int start-index An index of the first experiment to retrieve. Use
+   * this parameter as a pagination mechanism along with the max-results
+   * parameter.
+   * @return Experiments
+   */
+  public function listManagementExperiments($accountId, $webPropertyId, $profileId, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], Experiments::class);
+  }
+  /**
+   * Update an existing experiment. This method supports patch semantics.
+   * (experiments.patch)
+   *
+   * @param string $accountId Account ID of the experiment to update.
+   * @param string $webPropertyId Web property ID of the experiment to update.
+   * @param string $profileId View (Profile) ID of the experiment to update.
+   * @param string $experimentId Experiment ID of the experiment to update.
+   * @param Experiment $postBody
+   * @param array $optParams Optional parameters.
+   * @return Experiment
+   */
+  public function patch($accountId, $webPropertyId, $profileId, $experimentId, Experiment $postBody, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId, 'experimentId' => $experimentId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Experiment::class);
+  }
+  /**
+   * Update an existing experiment. (experiments.update)
+   *
+   * @param string $accountId Account ID of the experiment to update.
+   * @param string $webPropertyId Web property ID of the experiment to update.
+   * @param string $profileId View (Profile) ID of the experiment to update.
+   * @param string $experimentId Experiment ID of the experiment to update.
+   * @param Experiment $postBody
+   * @param array $optParams Optional parameters.
+   * @return Experiment
+   */
+  public function update($accountId, $webPropertyId, $profileId, $experimentId, Experiment $postBody, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'profileId' => $profileId, 'experimentId' => $experimentId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Experiment::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ManagementExperiments::class, 'Google_Service_Analytics_Resource_ManagementExperiments');

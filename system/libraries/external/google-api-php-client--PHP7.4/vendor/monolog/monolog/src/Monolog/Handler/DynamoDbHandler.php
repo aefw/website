@@ -1,71 +1,103 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php declare(strict_types=1);
+
+/*
+ * This file is part of the Monolog package.
+ *
+ * (c) Jordi Boggiano <j.boggiano@seld.be>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Monolog\Handler;
+
+use Aws\Sdk;
+use Aws\DynamoDb\DynamoDbClient;
+use Monolog\Formatter\FormatterInterface;
+use Aws\DynamoDb\Marshaler;
+use Monolog\Formatter\ScalarFormatter;
+use Monolog\Logger;
+
+/**
+ * Amazon DynamoDB handler (http://aws.amazon.com/dynamodb/)
+ *
+ * @link https://github.com/aws/aws-sdk-php/
+ * @author Andrew Lawson <adlawson@gmail.com>
+ */
+class DynamoDbHandler extends AbstractProcessingHandler
+{
+    public const DATE_FORMAT = 'Y-m-d\TH:i:s.uO';
+
+    /**
+     * @var DynamoDbClient
+     */
+    protected $client;
+
+    /**
+     * @var string
+     */
+    protected $table;
+
+    /**
+     * @var int
+     */
+    protected $version;
+
+    /**
+     * @var Marshaler
+     */
+    protected $marshaler;
+
+    /**
+     * @param int|string $level
+     */
+    public function __construct(DynamoDbClient $client, string $table, $level = Logger::DEBUG, bool $bubble = true)
+    {
+        /** @phpstan-ignore-next-line */
+        if (defined('Aws\Sdk::VERSION') && version_compare(Sdk::VERSION, '3.0', '>=')) {
+            $this->version = 3;
+            $this->marshaler = new Marshaler;
+        } else {
+            $this->version = 2;
+        }
+
+        $this->client = $client;
+        $this->table = $table;
+
+        parent::__construct($level, $bubble);
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    protected function write(array $record): void
+    {
+        $filtered = $this->filterEmptyFields($record['formatted']);
+        if ($this->version === 3) {
+            $formatted = $this->marshaler->marshalItem($filtered);
+        } else {
+            /** @phpstan-ignore-next-line */
+            $formatted = $this->client->formatAttributes($filtered);
+        }
+
+        $this->client->putItem([
+            'TableName' => $this->table,
+            'Item' => $formatted,
+        ]);
+    }
+
+    protected function filterEmptyFields(array $record): array
+    {
+        return array_filter($record, function ($value) {
+            return !empty($value) || false === $value || 0 === $value;
+        });
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    protected function getDefaultFormatter(): FormatterInterface
+    {
+        return new ScalarFormatter(self::DATE_FORMAT);
+    }
+}

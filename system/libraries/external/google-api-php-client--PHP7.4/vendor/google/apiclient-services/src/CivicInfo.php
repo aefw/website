@@ -1,60 +1,176 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for CivicInfo (v2).
+ *
+ * <p>
+ * Provides polling places, early vote locations, contest data, election
+ * officials, and government representatives for U.S. residential addresses.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://developers.google.com/civic-information/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class CivicInfo extends \Google\Service
+{
+
+
+  public $divisions;
+  public $elections;
+  public $representatives;
+
+  /**
+   * Constructs the internal representation of the CivicInfo service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://civicinfo.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v2';
+    $this->serviceName = 'civicinfo';
+
+    $this->divisions = new CivicInfo\Resource\Divisions(
+        $this,
+        $this->serviceName,
+        'divisions',
+        [
+          'methods' => [
+            'search' => [
+              'path' => 'civicinfo/v2/divisions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'query' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->elections = new CivicInfo\Resource\Elections(
+        $this,
+        $this->serviceName,
+        'elections',
+        [
+          'methods' => [
+            'electionQuery' => [
+              'path' => 'civicinfo/v2/elections',
+              'httpMethod' => 'GET',
+              'parameters' => [],
+            ],'voterInfoQuery' => [
+              'path' => 'civicinfo/v2/voterinfo',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'address' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'electionId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'officialOnly' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'returnAllAvailableData' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->representatives = new CivicInfo\Resource\Representatives(
+        $this,
+        $this->serviceName,
+        'representatives',
+        [
+          'methods' => [
+            'representativeInfoByAddress' => [
+              'path' => 'civicinfo/v2/representatives',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'address' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'includeOffices' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'levels' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'roles' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],'representativeInfoByDivision' => [
+              'path' => 'civicinfo/v2/representatives/{ocdId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'ocdId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'levels' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'recursive' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'roles' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(CivicInfo::class, 'Google_Service_CivicInfo');

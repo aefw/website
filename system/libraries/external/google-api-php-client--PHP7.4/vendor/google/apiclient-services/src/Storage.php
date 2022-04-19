@@ -1,113 +1,1762 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-O4Xg5fI+Ngx4IDCc
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for Storage (v1).
+ *
+ * <p>
+ * Stores and retrieves potentially large, immutable data objects.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://developers.google.com/storage/docs/json_api/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class Storage extends \Google\Service
+{
+  /** View and manage your data across Google Cloud Platform services. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+  /** View your data across Google Cloud Platform services. */
+  const CLOUD_PLATFORM_READ_ONLY =
+      "https://www.googleapis.com/auth/cloud-platform.read-only";
+  /** Manage your data and permissions in Google Cloud Storage. */
+  const DEVSTORAGE_FULL_CONTROL =
+      "https://www.googleapis.com/auth/devstorage.full_control";
+  /** View your data in Google Cloud Storage. */
+  const DEVSTORAGE_READ_ONLY =
+      "https://www.googleapis.com/auth/devstorage.read_only";
+  /** Manage your data in Google Cloud Storage. */
+  const DEVSTORAGE_READ_WRITE =
+      "https://www.googleapis.com/auth/devstorage.read_write";
+
+  public $bucketAccessControls;
+  public $buckets;
+  public $channels;
+  public $defaultObjectAccessControls;
+  public $notifications;
+  public $objectAccessControls;
+  public $objects;
+  public $projects_hmacKeys;
+  public $projects_serviceAccount;
+
+  /**
+   * Constructs the internal representation of the Storage service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://storage.googleapis.com/';
+    $this->servicePath = 'storage/v1/';
+    $this->batchPath = 'batch/storage/v1';
+    $this->version = 'v1';
+    $this->serviceName = 'storage';
+
+    $this->bucketAccessControls = new Storage\Resource\BucketAccessControls(
+        $this,
+        $this->serviceName,
+        'bucketAccessControls',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'b/{bucket}/acl/{entity}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'bucket' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'entity' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'provisionalUserProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'b/{bucket}/acl/{entity}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'bucket' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'entity' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'provisionalUserProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'b/{bucket}/acl',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'bucket' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'provisionalUserProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'b/{bucket}/acl',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'bucket' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'provisionalUserProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'b/{bucket}/acl/{entity}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'bucket' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'entity' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'provisionalUserProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'b/{bucket}/acl/{entity}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'bucket' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'entity' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'provisionalUserProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->buckets = new Storage\Resource\Buckets(
+        $this,
+        $this->serviceName,
+        'buckets',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'b/{bucket}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'bucket' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'ifMetagenerationMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ifMetagenerationNotMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'provisionalUserProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'b/{bucket}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'bucket' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'ifMetagenerationMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ifMetagenerationNotMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'projection' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'provisionalUserProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'b/{bucket}/iam',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'bucket' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'optionsRequestedPolicyVersion' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'provisionalUserProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'b',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'project' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'predefinedAcl' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'predefinedDefaultObjectAcl' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'projection' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'provisionalUserProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'b',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'project' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'prefix' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'projection' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'provisionalUserProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'lockRetentionPolicy' => [
+              'path' => 'b/{bucket}/lockRetentionPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'bucket' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'ifMetagenerationMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'provisionalUserProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'b/{bucket}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'bucket' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'ifMetagenerationMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ifMetagenerationNotMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'predefinedAcl' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'predefinedDefaultObjectAcl' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'projection' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'provisionalUserProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'b/{bucket}/iam',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'bucket' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'provisionalUserProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'b/{bucket}/iam/testPermissions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'bucket' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'permissions' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+                'provisionalUserProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'b/{bucket}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'bucket' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'ifMetagenerationMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ifMetagenerationNotMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'predefinedAcl' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'predefinedDefaultObjectAcl' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'projection' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'provisionalUserProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->channels = new Storage\Resource\Channels(
+        $this,
+        $this->serviceName,
+        'channels',
+        [
+          'methods' => [
+            'stop' => [
+              'path' => 'channels/stop',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],
+          ]
+        ]
+    );
+    $this->defaultObjectAccessControls = new Storage\Resource\DefaultObjectAccessControls(
+        $this,
+        $this->serviceName,
+        'defaultObjectAccessControls',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'b/{bucket}/defaultObjectAcl/{entity}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'bucket' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'entity' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'provisionalUserProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'b/{bucket}/defaultObjectAcl/{entity}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'bucket' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'entity' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'provisionalUserProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'b/{bucket}/defaultObjectAcl',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'bucket' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'provisionalUserProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'b/{bucket}/defaultObjectAcl',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'bucket' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'ifMetagenerationMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ifMetagenerationNotMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'provisionalUserProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'b/{bucket}/defaultObjectAcl/{entity}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'bucket' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'entity' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'provisionalUserProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'b/{bucket}/defaultObjectAcl/{entity}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'bucket' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'entity' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'provisionalUserProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->notifications = new Storage\Resource\Notifications(
+        $this,
+        $this->serviceName,
+        'notifications',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'b/{bucket}/notificationConfigs/{notification}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'bucket' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'notification' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'provisionalUserProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'b/{bucket}/notificationConfigs/{notification}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'bucket' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'notification' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'provisionalUserProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'b/{bucket}/notificationConfigs',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'bucket' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'provisionalUserProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'b/{bucket}/notificationConfigs',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'bucket' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'provisionalUserProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->objectAccessControls = new Storage\Resource\ObjectAccessControls(
+        $this,
+        $this->serviceName,
+        'objectAccessControls',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'b/{bucket}/o/{object}/acl/{entity}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'bucket' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'object' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'entity' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'generation' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'provisionalUserProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'b/{bucket}/o/{object}/acl/{entity}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'bucket' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'object' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'entity' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'generation' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'provisionalUserProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'b/{bucket}/o/{object}/acl',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'bucket' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'object' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'generation' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'provisionalUserProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'b/{bucket}/o/{object}/acl',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'bucket' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'object' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'generation' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'provisionalUserProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'b/{bucket}/o/{object}/acl/{entity}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'bucket' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'object' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'entity' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'generation' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'provisionalUserProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'b/{bucket}/o/{object}/acl/{entity}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'bucket' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'object' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'entity' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'generation' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'provisionalUserProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->objects = new Storage\Resource\Objects(
+        $this,
+        $this->serviceName,
+        'objects',
+        [
+          'methods' => [
+            'compose' => [
+              'path' => 'b/{destinationBucket}/o/{destinationObject}/compose',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'destinationBucket' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'destinationObject' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'destinationPredefinedAcl' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ifGenerationMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ifMetagenerationMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'kmsKeyName' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'provisionalUserProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'copy' => [
+              'path' => 'b/{sourceBucket}/o/{sourceObject}/copyTo/b/{destinationBucket}/o/{destinationObject}',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'sourceBucket' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'sourceObject' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'destinationBucket' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'destinationObject' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'destinationKmsKeyName' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'destinationPredefinedAcl' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ifGenerationMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ifGenerationNotMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ifMetagenerationMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ifMetagenerationNotMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ifSourceGenerationMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ifSourceGenerationNotMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ifSourceMetagenerationMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ifSourceMetagenerationNotMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'projection' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'provisionalUserProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sourceGeneration' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'b/{bucket}/o/{object}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'bucket' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'object' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'generation' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ifGenerationMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ifGenerationNotMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ifMetagenerationMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ifMetagenerationNotMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'provisionalUserProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'b/{bucket}/o/{object}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'bucket' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'object' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'generation' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ifGenerationMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ifGenerationNotMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ifMetagenerationMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ifMetagenerationNotMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'projection' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'provisionalUserProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'b/{bucket}/o/{object}/iam',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'bucket' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'object' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'generation' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'provisionalUserProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'b/{bucket}/o',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'bucket' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'contentEncoding' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ifGenerationMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ifGenerationNotMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ifMetagenerationMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ifMetagenerationNotMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'kmsKeyName' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'name' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'predefinedAcl' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'projection' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'provisionalUserProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'b/{bucket}/o',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'bucket' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'delimiter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'endOffset' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'includeTrailingDelimiter' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'prefix' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'projection' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'provisionalUserProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'startOffset' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'versions' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'b/{bucket}/o/{object}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'bucket' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'object' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'generation' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ifGenerationMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ifGenerationNotMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ifMetagenerationMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ifMetagenerationNotMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'predefinedAcl' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'projection' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'provisionalUserProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'rewrite' => [
+              'path' => 'b/{sourceBucket}/o/{sourceObject}/rewriteTo/b/{destinationBucket}/o/{destinationObject}',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'sourceBucket' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'sourceObject' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'destinationBucket' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'destinationObject' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'destinationKmsKeyName' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'destinationPredefinedAcl' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ifGenerationMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ifGenerationNotMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ifMetagenerationMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ifMetagenerationNotMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ifSourceGenerationMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ifSourceGenerationNotMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ifSourceMetagenerationMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ifSourceMetagenerationNotMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxBytesRewrittenPerCall' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'projection' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'provisionalUserProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'rewriteToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sourceGeneration' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'b/{bucket}/o/{object}/iam',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'bucket' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'object' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'generation' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'provisionalUserProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'b/{bucket}/o/{object}/iam/testPermissions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'bucket' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'object' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'permissions' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+                'generation' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'provisionalUserProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'b/{bucket}/o/{object}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'bucket' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'object' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'generation' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ifGenerationMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ifGenerationNotMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ifMetagenerationMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ifMetagenerationNotMatch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'predefinedAcl' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'projection' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'provisionalUserProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'watchAll' => [
+              'path' => 'b/{bucket}/o/watch',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'bucket' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'delimiter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'endOffset' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'includeTrailingDelimiter' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'prefix' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'projection' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'provisionalUserProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'startOffset' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'versions' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_hmacKeys = new Storage\Resource\ProjectsHmacKeys(
+        $this,
+        $this->serviceName,
+        'hmacKeys',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'projects/{projectId}/hmacKeys',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'serviceAccountEmail' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'projects/{projectId}/hmacKeys/{accessId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'accessId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'projects/{projectId}/hmacKeys/{accessId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'accessId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'projects/{projectId}/hmacKeys',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'serviceAccountEmail' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'showDeletedKeys' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'projects/{projectId}/hmacKeys/{accessId}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'accessId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_serviceAccount = new Storage\Resource\ProjectsServiceAccount(
+        $this,
+        $this->serviceName,
+        'serviceAccount',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'projects/{projectId}/serviceAccount',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'provisionalUserProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProject' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Storage::class, 'Google_Service_Storage');

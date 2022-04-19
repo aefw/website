@@ -1,62 +1,202 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for SmartDeviceManagement (v1).
+ *
+ * <p>
+ * Allow select enterprise partners to access, control, and manage Google and
+ * Nest devices programmatically.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://developers.google.com/nest/device-access" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class SmartDeviceManagement extends \Google\Service
+{
+  /** See and/or control the devices that you selected. */
+  const SDM_SERVICE =
+      "https://www.googleapis.com/auth/sdm.service";
+  /** See and control the Nest thermostats that you select. */
+  const SDM_THERMOSTAT_SERVICE =
+      "https://www.googleapis.com/auth/sdm.thermostat.service";
+
+  public $enterprises_devices;
+  public $enterprises_structures;
+  public $enterprises_structures_rooms;
+
+  /**
+   * Constructs the internal representation of the SmartDeviceManagement
+   * service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://smartdevicemanagement.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'smartdevicemanagement';
+
+    $this->enterprises_devices = new SmartDeviceManagement\Resource\EnterprisesDevices(
+        $this,
+        $this->serviceName,
+        'devices',
+        [
+          'methods' => [
+            'executeCommand' => [
+              'path' => 'v1/{+name}:executeCommand',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/devices',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->enterprises_structures = new SmartDeviceManagement\Resource\EnterprisesStructures(
+        $this,
+        $this->serviceName,
+        'structures',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/structures',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->enterprises_structures_rooms = new SmartDeviceManagement\Resource\EnterprisesStructuresRooms(
+        $this,
+        $this->serviceName,
+        'rooms',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/rooms',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(SmartDeviceManagement::class, 'Google_Service_SmartDeviceManagement');

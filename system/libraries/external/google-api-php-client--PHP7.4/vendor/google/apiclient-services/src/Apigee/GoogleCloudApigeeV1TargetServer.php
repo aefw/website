@@ -1,67 +1,96 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-YbcPOfWjTrDLkwOhGjre
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Apigee;
+
+class GoogleCloudApigeeV1TargetServer extends \Google\Model
+{
+  public $description;
+  public $host;
+  public $isEnabled;
+  public $name;
+  public $port;
+  public $protocol;
+  protected $sSLInfoType = GoogleCloudApigeeV1TlsInfo::class;
+  protected $sSLInfoDataType = '';
+
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setHost($host)
+  {
+    $this->host = $host;
+  }
+  public function getHost()
+  {
+    return $this->host;
+  }
+  public function setIsEnabled($isEnabled)
+  {
+    $this->isEnabled = $isEnabled;
+  }
+  public function getIsEnabled()
+  {
+    return $this->isEnabled;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setPort($port)
+  {
+    $this->port = $port;
+  }
+  public function getPort()
+  {
+    return $this->port;
+  }
+  public function setProtocol($protocol)
+  {
+    $this->protocol = $protocol;
+  }
+  public function getProtocol()
+  {
+    return $this->protocol;
+  }
+  /**
+   * @param GoogleCloudApigeeV1TlsInfo
+   */
+  public function setSSLInfo(GoogleCloudApigeeV1TlsInfo $sSLInfo)
+  {
+    $this->sSLInfo = $sSLInfo;
+  }
+  /**
+   * @return GoogleCloudApigeeV1TlsInfo
+   */
+  public function getSSLInfo()
+  {
+    return $this->sSLInfo;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudApigeeV1TargetServer::class, 'Google_Service_Apigee_GoogleCloudApigeeV1TargetServer');

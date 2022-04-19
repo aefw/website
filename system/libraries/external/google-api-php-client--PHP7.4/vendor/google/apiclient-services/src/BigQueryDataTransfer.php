@@ -1,89 +1,638 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for BigQueryDataTransfer (v1).
+ *
+ * <p>
+ * Schedule queries or transfer external data from SaaS applications to Google
+ * BigQuery on a regular basis.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/bigquery-transfer/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class BigQueryDataTransfer extends \Google\Service
+{
+  /** View and manage your data in Google BigQuery. */
+  const BIGQUERY =
+      "https://www.googleapis.com/auth/bigquery";
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+  /** View your data across Google Cloud Platform services. */
+  const CLOUD_PLATFORM_READ_ONLY =
+      "https://www.googleapis.com/auth/cloud-platform.read-only";
+
+  public $projects_dataSources;
+  public $projects_locations;
+  public $projects_locations_dataSources;
+  public $projects_locations_transferConfigs;
+  public $projects_locations_transferConfigs_runs;
+  public $projects_locations_transferConfigs_runs_transferLogs;
+  public $projects_transferConfigs;
+  public $projects_transferConfigs_runs;
+  public $projects_transferConfigs_runs_transferLogs;
+
+  /**
+   * Constructs the internal representation of the BigQueryDataTransfer service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://bigquerydatatransfer.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'bigquerydatatransfer';
+
+    $this->projects_dataSources = new BigQueryDataTransfer\Resource\ProjectsDataSources(
+        $this,
+        $this->serviceName,
+        'dataSources',
+        [
+          'methods' => [
+            'checkValidCreds' => [
+              'path' => 'v1/{+name}:checkValidCreds',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/dataSources',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations = new BigQueryDataTransfer\Resource\ProjectsLocations(
+        $this,
+        $this->serviceName,
+        'locations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+name}/locations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_dataSources = new BigQueryDataTransfer\Resource\ProjectsLocationsDataSources(
+        $this,
+        $this->serviceName,
+        'dataSources',
+        [
+          'methods' => [
+            'checkValidCreds' => [
+              'path' => 'v1/{+name}:checkValidCreds',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/dataSources',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_transferConfigs = new BigQueryDataTransfer\Resource\ProjectsLocationsTransferConfigs(
+        $this,
+        $this->serviceName,
+        'transferConfigs',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/transferConfigs',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'authorizationCode' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'serviceAccountName' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'versionInfo' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/transferConfigs',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'dataSourceIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'authorizationCode' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'serviceAccountName' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'versionInfo' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'scheduleRuns' => [
+              'path' => 'v1/{+parent}:scheduleRuns',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'startManualRuns' => [
+              'path' => 'v1/{+parent}:startManualRuns',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_transferConfigs_runs = new BigQueryDataTransfer\Resource\ProjectsLocationsTransferConfigsRuns(
+        $this,
+        $this->serviceName,
+        'runs',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/runs',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'runAttempt' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'states' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_transferConfigs_runs_transferLogs = new BigQueryDataTransfer\Resource\ProjectsLocationsTransferConfigsRunsTransferLogs(
+        $this,
+        $this->serviceName,
+        'transferLogs',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/{+parent}/transferLogs',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'messageTypes' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_transferConfigs = new BigQueryDataTransfer\Resource\ProjectsTransferConfigs(
+        $this,
+        $this->serviceName,
+        'transferConfigs',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/transferConfigs',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'authorizationCode' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'serviceAccountName' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'versionInfo' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/transferConfigs',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'dataSourceIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'authorizationCode' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'serviceAccountName' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'versionInfo' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'scheduleRuns' => [
+              'path' => 'v1/{+parent}:scheduleRuns',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'startManualRuns' => [
+              'path' => 'v1/{+parent}:startManualRuns',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_transferConfigs_runs = new BigQueryDataTransfer\Resource\ProjectsTransferConfigsRuns(
+        $this,
+        $this->serviceName,
+        'runs',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/runs',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'runAttempt' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'states' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_transferConfigs_runs_transferLogs = new BigQueryDataTransfer\Resource\ProjectsTransferConfigsRunsTransferLogs(
+        $this,
+        $this->serviceName,
+        'transferLogs',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/{+parent}/transferLogs',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'messageTypes' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(BigQueryDataTransfer::class, 'Google_Service_BigQueryDataTransfer');

@@ -1,83 +1,152 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Sheets;
+
+class PivotGroup extends \Google\Collection
+{
+  protected $collection_key = 'valueMetadata';
+  protected $dataSourceColumnReferenceType = DataSourceColumnReference::class;
+  protected $dataSourceColumnReferenceDataType = '';
+  protected $groupLimitType = PivotGroupLimit::class;
+  protected $groupLimitDataType = '';
+  protected $groupRuleType = PivotGroupRule::class;
+  protected $groupRuleDataType = '';
+  public $label;
+  public $repeatHeadings;
+  public $showTotals;
+  public $sortOrder;
+  public $sourceColumnOffset;
+  protected $valueBucketType = PivotGroupSortValueBucket::class;
+  protected $valueBucketDataType = '';
+  protected $valueMetadataType = PivotGroupValueMetadata::class;
+  protected $valueMetadataDataType = 'array';
+
+  /**
+   * @param DataSourceColumnReference
+   */
+  public function setDataSourceColumnReference(DataSourceColumnReference $dataSourceColumnReference)
+  {
+    $this->dataSourceColumnReference = $dataSourceColumnReference;
+  }
+  /**
+   * @return DataSourceColumnReference
+   */
+  public function getDataSourceColumnReference()
+  {
+    return $this->dataSourceColumnReference;
+  }
+  /**
+   * @param PivotGroupLimit
+   */
+  public function setGroupLimit(PivotGroupLimit $groupLimit)
+  {
+    $this->groupLimit = $groupLimit;
+  }
+  /**
+   * @return PivotGroupLimit
+   */
+  public function getGroupLimit()
+  {
+    return $this->groupLimit;
+  }
+  /**
+   * @param PivotGroupRule
+   */
+  public function setGroupRule(PivotGroupRule $groupRule)
+  {
+    $this->groupRule = $groupRule;
+  }
+  /**
+   * @return PivotGroupRule
+   */
+  public function getGroupRule()
+  {
+    return $this->groupRule;
+  }
+  public function setLabel($label)
+  {
+    $this->label = $label;
+  }
+  public function getLabel()
+  {
+    return $this->label;
+  }
+  public function setRepeatHeadings($repeatHeadings)
+  {
+    $this->repeatHeadings = $repeatHeadings;
+  }
+  public function getRepeatHeadings()
+  {
+    return $this->repeatHeadings;
+  }
+  public function setShowTotals($showTotals)
+  {
+    $this->showTotals = $showTotals;
+  }
+  public function getShowTotals()
+  {
+    return $this->showTotals;
+  }
+  public function setSortOrder($sortOrder)
+  {
+    $this->sortOrder = $sortOrder;
+  }
+  public function getSortOrder()
+  {
+    return $this->sortOrder;
+  }
+  public function setSourceColumnOffset($sourceColumnOffset)
+  {
+    $this->sourceColumnOffset = $sourceColumnOffset;
+  }
+  public function getSourceColumnOffset()
+  {
+    return $this->sourceColumnOffset;
+  }
+  /**
+   * @param PivotGroupSortValueBucket
+   */
+  public function setValueBucket(PivotGroupSortValueBucket $valueBucket)
+  {
+    $this->valueBucket = $valueBucket;
+  }
+  /**
+   * @return PivotGroupSortValueBucket
+   */
+  public function getValueBucket()
+  {
+    return $this->valueBucket;
+  }
+  /**
+   * @param PivotGroupValueMetadata[]
+   */
+  public function setValueMetadata($valueMetadata)
+  {
+    $this->valueMetadata = $valueMetadata;
+  }
+  /**
+   * @return PivotGroupValueMetadata[]
+   */
+  public function getValueMetadata()
+  {
+    return $this->valueMetadata;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PivotGroup::class, 'Google_Service_Sheets_PivotGroup');

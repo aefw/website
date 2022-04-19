@@ -1,81 +1,369 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-YnEo6NbX+piCHNbSSsgnby5HPm==
+<?php
+
+namespace PhpOffice\PhpSpreadsheet\Chart;
+
+/**
+ * Created by PhpStorm.
+ * User: nhw2h8s
+ * Date: 7/2/14
+ * Time: 5:45 PM.
+ */
+abstract class Properties
+{
+    const
+        EXCEL_COLOR_TYPE_STANDARD = 'prstClr';
+    const EXCEL_COLOR_TYPE_SCHEME = 'schemeClr';
+    const EXCEL_COLOR_TYPE_ARGB = 'srgbClr';
+
+    const
+        AXIS_LABELS_LOW = 'low';
+    const AXIS_LABELS_HIGH = 'high';
+    const AXIS_LABELS_NEXT_TO = 'nextTo';
+    const AXIS_LABELS_NONE = 'none';
+
+    const
+        TICK_MARK_NONE = 'none';
+    const TICK_MARK_INSIDE = 'in';
+    const TICK_MARK_OUTSIDE = 'out';
+    const TICK_MARK_CROSS = 'cross';
+
+    const
+        HORIZONTAL_CROSSES_AUTOZERO = 'autoZero';
+    const HORIZONTAL_CROSSES_MAXIMUM = 'max';
+
+    const
+        FORMAT_CODE_GENERAL = 'General';
+    const FORMAT_CODE_NUMBER = '#,##0.00';
+    const FORMAT_CODE_CURRENCY = '$#,##0.00';
+    const FORMAT_CODE_ACCOUNTING = '_($* #,##0.00_);_($* (#,##0.00);_($* "-"??_);_(@_)';
+    const FORMAT_CODE_DATE = 'm/d/yyyy';
+    const FORMAT_CODE_TIME = '[$-F400]h:mm:ss AM/PM';
+    const FORMAT_CODE_PERCENTAGE = '0.00%';
+    const FORMAT_CODE_FRACTION = '# ?/?';
+    const FORMAT_CODE_SCIENTIFIC = '0.00E+00';
+    const FORMAT_CODE_TEXT = '@';
+    const FORMAT_CODE_SPECIAL = '00000';
+
+    const
+        ORIENTATION_NORMAL = 'minMax';
+    const ORIENTATION_REVERSED = 'maxMin';
+
+    const
+        LINE_STYLE_COMPOUND_SIMPLE = 'sng';
+    const LINE_STYLE_COMPOUND_DOUBLE = 'dbl';
+    const LINE_STYLE_COMPOUND_THICKTHIN = 'thickThin';
+    const LINE_STYLE_COMPOUND_THINTHICK = 'thinThick';
+    const LINE_STYLE_COMPOUND_TRIPLE = 'tri';
+    const LINE_STYLE_DASH_SOLID = 'solid';
+    const LINE_STYLE_DASH_ROUND_DOT = 'sysDot';
+    const LINE_STYLE_DASH_SQUERE_DOT = 'sysDash';
+    const LINE_STYPE_DASH_DASH = 'dash';
+    const LINE_STYLE_DASH_DASH_DOT = 'dashDot';
+    const LINE_STYLE_DASH_LONG_DASH = 'lgDash';
+    const LINE_STYLE_DASH_LONG_DASH_DOT = 'lgDashDot';
+    const LINE_STYLE_DASH_LONG_DASH_DOT_DOT = 'lgDashDotDot';
+    const LINE_STYLE_CAP_SQUARE = 'sq';
+    const LINE_STYLE_CAP_ROUND = 'rnd';
+    const LINE_STYLE_CAP_FLAT = 'flat';
+    const LINE_STYLE_JOIN_ROUND = 'bevel';
+    const LINE_STYLE_JOIN_MITER = 'miter';
+    const LINE_STYLE_JOIN_BEVEL = 'bevel';
+    const LINE_STYLE_ARROW_TYPE_NOARROW = null;
+    const LINE_STYLE_ARROW_TYPE_ARROW = 'triangle';
+    const LINE_STYLE_ARROW_TYPE_OPEN = 'arrow';
+    const LINE_STYLE_ARROW_TYPE_STEALTH = 'stealth';
+    const LINE_STYLE_ARROW_TYPE_DIAMOND = 'diamond';
+    const LINE_STYLE_ARROW_TYPE_OVAL = 'oval';
+    const LINE_STYLE_ARROW_SIZE_1 = 1;
+    const LINE_STYLE_ARROW_SIZE_2 = 2;
+    const LINE_STYLE_ARROW_SIZE_3 = 3;
+    const LINE_STYLE_ARROW_SIZE_4 = 4;
+    const LINE_STYLE_ARROW_SIZE_5 = 5;
+    const LINE_STYLE_ARROW_SIZE_6 = 6;
+    const LINE_STYLE_ARROW_SIZE_7 = 7;
+    const LINE_STYLE_ARROW_SIZE_8 = 8;
+    const LINE_STYLE_ARROW_SIZE_9 = 9;
+
+    const
+        SHADOW_PRESETS_NOSHADOW = null;
+    const SHADOW_PRESETS_OUTER_BOTTTOM_RIGHT = 1;
+    const SHADOW_PRESETS_OUTER_BOTTOM = 2;
+    const SHADOW_PRESETS_OUTER_BOTTOM_LEFT = 3;
+    const SHADOW_PRESETS_OUTER_RIGHT = 4;
+    const SHADOW_PRESETS_OUTER_CENTER = 5;
+    const SHADOW_PRESETS_OUTER_LEFT = 6;
+    const SHADOW_PRESETS_OUTER_TOP_RIGHT = 7;
+    const SHADOW_PRESETS_OUTER_TOP = 8;
+    const SHADOW_PRESETS_OUTER_TOP_LEFT = 9;
+    const SHADOW_PRESETS_INNER_BOTTTOM_RIGHT = 10;
+    const SHADOW_PRESETS_INNER_BOTTOM = 11;
+    const SHADOW_PRESETS_INNER_BOTTOM_LEFT = 12;
+    const SHADOW_PRESETS_INNER_RIGHT = 13;
+    const SHADOW_PRESETS_INNER_CENTER = 14;
+    const SHADOW_PRESETS_INNER_LEFT = 15;
+    const SHADOW_PRESETS_INNER_TOP_RIGHT = 16;
+    const SHADOW_PRESETS_INNER_TOP = 17;
+    const SHADOW_PRESETS_INNER_TOP_LEFT = 18;
+    const SHADOW_PRESETS_PERSPECTIVE_BELOW = 19;
+    const SHADOW_PRESETS_PERSPECTIVE_UPPER_RIGHT = 20;
+    const SHADOW_PRESETS_PERSPECTIVE_UPPER_LEFT = 21;
+    const SHADOW_PRESETS_PERSPECTIVE_LOWER_RIGHT = 22;
+    const SHADOW_PRESETS_PERSPECTIVE_LOWER_LEFT = 23;
+
+    /**
+     * @param float $width
+     *
+     * @return float
+     */
+    protected function getExcelPointsWidth($width)
+    {
+        return $width * 12700;
+    }
+
+    /**
+     * @param float $angle
+     *
+     * @return float
+     */
+    protected function getExcelPointsAngle($angle)
+    {
+        return $angle * 60000;
+    }
+
+    protected function getTrueAlpha($alpha)
+    {
+        return (string) 100 - $alpha . '000';
+    }
+
+    protected function setColorProperties($color, $alpha, $type)
+    {
+        return [
+            'type' => (string) $type,
+            'value' => (string) $color,
+            'alpha' => (string) $this->getTrueAlpha($alpha),
+        ];
+    }
+
+    protected function getLineStyleArrowSize($array_selector, $array_kay_selector)
+    {
+        $sizes = [
+            1 => ['w' => 'sm', 'len' => 'sm'],
+            2 => ['w' => 'sm', 'len' => 'med'],
+            3 => ['w' => 'sm', 'len' => 'lg'],
+            4 => ['w' => 'med', 'len' => 'sm'],
+            5 => ['w' => 'med', 'len' => 'med'],
+            6 => ['w' => 'med', 'len' => 'lg'],
+            7 => ['w' => 'lg', 'len' => 'sm'],
+            8 => ['w' => 'lg', 'len' => 'med'],
+            9 => ['w' => 'lg', 'len' => 'lg'],
+        ];
+
+        return $sizes[$array_selector][$array_kay_selector];
+    }
+
+    protected function getShadowPresetsMap($shadow_presets_option)
+    {
+        $presets_options = [
+            //OUTER
+            1 => [
+                'effect' => 'outerShdw',
+                'blur' => '50800',
+                'distance' => '38100',
+                'direction' => '2700000',
+                'algn' => 'tl',
+                'rotWithShape' => '0',
+            ],
+            2 => [
+                'effect' => 'outerShdw',
+                'blur' => '50800',
+                'distance' => '38100',
+                'direction' => '5400000',
+                'algn' => 't',
+                'rotWithShape' => '0',
+            ],
+            3 => [
+                'effect' => 'outerShdw',
+                'blur' => '50800',
+                'distance' => '38100',
+                'direction' => '8100000',
+                'algn' => 'tr',
+                'rotWithShape' => '0',
+            ],
+            4 => [
+                'effect' => 'outerShdw',
+                'blur' => '50800',
+                'distance' => '38100',
+                'algn' => 'l',
+                'rotWithShape' => '0',
+            ],
+            5 => [
+                'effect' => 'outerShdw',
+                'size' => [
+                    'sx' => '102000',
+                    'sy' => '102000',
+                ],
+                'blur' => '63500',
+                'distance' => '38100',
+                'algn' => 'ctr',
+                'rotWithShape' => '0',
+            ],
+            6 => [
+                'effect' => 'outerShdw',
+                'blur' => '50800',
+                'distance' => '38100',
+                'direction' => '10800000',
+                'algn' => 'r',
+                'rotWithShape' => '0',
+            ],
+            7 => [
+                'effect' => 'outerShdw',
+                'blur' => '50800',
+                'distance' => '38100',
+                'direction' => '18900000',
+                'algn' => 'bl',
+                'rotWithShape' => '0',
+            ],
+            8 => [
+                'effect' => 'outerShdw',
+                'blur' => '50800',
+                'distance' => '38100',
+                'direction' => '16200000',
+                'rotWithShape' => '0',
+            ],
+            9 => [
+                'effect' => 'outerShdw',
+                'blur' => '50800',
+                'distance' => '38100',
+                'direction' => '13500000',
+                'algn' => 'br',
+                'rotWithShape' => '0',
+            ],
+            //INNER
+            10 => [
+                'effect' => 'innerShdw',
+                'blur' => '63500',
+                'distance' => '50800',
+                'direction' => '2700000',
+            ],
+            11 => [
+                'effect' => 'innerShdw',
+                'blur' => '63500',
+                'distance' => '50800',
+                'direction' => '5400000',
+            ],
+            12 => [
+                'effect' => 'innerShdw',
+                'blur' => '63500',
+                'distance' => '50800',
+                'direction' => '8100000',
+            ],
+            13 => [
+                'effect' => 'innerShdw',
+                'blur' => '63500',
+                'distance' => '50800',
+            ],
+            14 => [
+                'effect' => 'innerShdw',
+                'blur' => '114300',
+            ],
+            15 => [
+                'effect' => 'innerShdw',
+                'blur' => '63500',
+                'distance' => '50800',
+                'direction' => '10800000',
+            ],
+            16 => [
+                'effect' => 'innerShdw',
+                'blur' => '63500',
+                'distance' => '50800',
+                'direction' => '18900000',
+            ],
+            17 => [
+                'effect' => 'innerShdw',
+                'blur' => '63500',
+                'distance' => '50800',
+                'direction' => '16200000',
+            ],
+            18 => [
+                'effect' => 'innerShdw',
+                'blur' => '63500',
+                'distance' => '50800',
+                'direction' => '13500000',
+            ],
+            //perspective
+            19 => [
+                'effect' => 'outerShdw',
+                'blur' => '152400',
+                'distance' => '317500',
+                'size' => [
+                    'sx' => '90000',
+                    'sy' => '-19000',
+                ],
+                'direction' => '5400000',
+                'rotWithShape' => '0',
+            ],
+            20 => [
+                'effect' => 'outerShdw',
+                'blur' => '76200',
+                'direction' => '18900000',
+                'size' => [
+                    'sy' => '23000',
+                    'kx' => '-1200000',
+                ],
+                'algn' => 'bl',
+                'rotWithShape' => '0',
+            ],
+            21 => [
+                'effect' => 'outerShdw',
+                'blur' => '76200',
+                'direction' => '13500000',
+                'size' => [
+                    'sy' => '23000',
+                    'kx' => '1200000',
+                ],
+                'algn' => 'br',
+                'rotWithShape' => '0',
+            ],
+            22 => [
+                'effect' => 'outerShdw',
+                'blur' => '76200',
+                'distance' => '12700',
+                'direction' => '2700000',
+                'size' => [
+                    'sy' => '-23000',
+                    'kx' => '-800400',
+                ],
+                'algn' => 'bl',
+                'rotWithShape' => '0',
+            ],
+            23 => [
+                'effect' => 'outerShdw',
+                'blur' => '76200',
+                'distance' => '12700',
+                'direction' => '8100000',
+                'size' => [
+                    'sy' => '-23000',
+                    'kx' => '800400',
+                ],
+                'algn' => 'br',
+                'rotWithShape' => '0',
+            ],
+        ];
+
+        return $presets_options[$shadow_presets_option];
+    }
+
+    protected function getArrayElementsValue($properties, $elements)
+    {
+        $reference = &$properties;
+        if (!is_array($elements)) {
+            return $reference[$elements];
+        }
+
+        foreach ($elements as $keys) {
+            $reference = &$reference[$keys];
+        }
+
+        return $reference;
+    }
+}

@@ -1,59 +1,78 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-kvU5juamLqskB3DpqG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DatabaseMigrationService;
+
+class Operation extends \Google\Model
+{
+  public $done;
+  protected $errorType = Status::class;
+  protected $errorDataType = '';
+  public $metadata;
+  public $name;
+  public $response;
+
+  public function setDone($done)
+  {
+    $this->done = $done;
+  }
+  public function getDone()
+  {
+    return $this->done;
+  }
+  /**
+   * @param Status
+   */
+  public function setError(Status $error)
+  {
+    $this->error = $error;
+  }
+  /**
+   * @return Status
+   */
+  public function getError()
+  {
+    return $this->error;
+  }
+  public function setMetadata($metadata)
+  {
+    $this->metadata = $metadata;
+  }
+  public function getMetadata()
+  {
+    return $this->metadata;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setResponse($response)
+  {
+    $this->response = $response;
+  }
+  public function getResponse()
+  {
+    return $this->response;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Operation::class, 'Google_Service_DatabaseMigrationService_Operation');

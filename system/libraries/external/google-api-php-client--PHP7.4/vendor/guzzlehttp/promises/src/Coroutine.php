@@ -1,99 +1,169 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+namespace GuzzleHttp\Promise;
+
+use Exception;
+use Generator;
+use Throwable;
+
+/**
+ * Creates a promise that is resolved using a generator that yields values or
+ * promises (somewhat similar to C#'s async keyword).
+ *
+ * When called, the Coroutine::of method will start an instance of the generator
+ * and returns a promise that is fulfilled with its final yielded value.
+ *
+ * Control is returned back to the generator when the yielded promise settles.
+ * This can lead to less verbose code when doing lots of sequential async calls
+ * with minimal processing in between.
+ *
+ *     use GuzzleHttp\Promise;
+ *
+ *     function createPromise($value) {
+ *         return new Promise\FulfilledPromise($value);
+ *     }
+ *
+ *     $promise = Promise\Coroutine::of(function () {
+ *         $value = (yield createPromise('a'));
+ *         try {
+ *             $value = (yield createPromise($value . 'b'));
+ *         } catch (\Exception $e) {
+ *             // The promise was rejected.
+ *         }
+ *         yield $value . 'c';
+ *     });
+ *
+ *     // Outputs "abc"
+ *     $promise->then(function ($v) { echo $v; });
+ *
+ * @param callable $generatorFn Generator function to wrap into a promise.
+ *
+ * @return Promise
+ *
+ * @link https://github.com/petkaantonov/bluebird/blob/master/API.md#generators inspiration
+ */
+final class Coroutine implements PromiseInterface
+{
+    /**
+     * @var PromiseInterface|null
+     */
+    private $currentPromise;
+
+    /**
+     * @var Generator
+     */
+    private $generator;
+
+    /**
+     * @var Promise
+     */
+    private $result;
+
+    public function __construct(callable $generatorFn)
+    {
+        $this->generator = $generatorFn();
+        $this->result = new Promise(function () {
+            while (isset($this->currentPromise)) {
+                $this->currentPromise->wait();
+            }
+        });
+        try {
+            $this->nextCoroutine($this->generator->current());
+        } catch (\Exception $exception) {
+            $this->result->reject($exception);
+        } catch (Throwable $throwable) {
+            $this->result->reject($throwable);
+        }
+    }
+
+    /**
+     * Create a new coroutine.
+     *
+     * @return self
+     */
+    public static function of(callable $generatorFn)
+    {
+        return new self($generatorFn);
+    }
+
+    public function then(
+        callable $onFulfilled = null,
+        callable $onRejected = null
+    ) {
+        return $this->result->then($onFulfilled, $onRejected);
+    }
+
+    public function otherwise(callable $onRejected)
+    {
+        return $this->result->otherwise($onRejected);
+    }
+
+    public function wait($unwrap = true)
+    {
+        return $this->result->wait($unwrap);
+    }
+
+    public function getState()
+    {
+        return $this->result->getState();
+    }
+
+    public function resolve($value)
+    {
+        $this->result->resolve($value);
+    }
+
+    public function reject($reason)
+    {
+        $this->result->reject($reason);
+    }
+
+    public function cancel()
+    {
+        $this->currentPromise->cancel();
+        $this->result->cancel();
+    }
+
+    private function nextCoroutine($yielded)
+    {
+        $this->currentPromise = Create::promiseFor($yielded)
+            ->then([$this, '_handleSuccess'], [$this, '_handleFailure']);
+    }
+
+    /**
+     * @internal
+     */
+    public function _handleSuccess($value)
+    {
+        unset($this->currentPromise);
+        try {
+            $next = $this->generator->send($value);
+            if ($this->generator->valid()) {
+                $this->nextCoroutine($next);
+            } else {
+                $this->result->resolve($value);
+            }
+        } catch (Exception $exception) {
+            $this->result->reject($exception);
+        } catch (Throwable $throwable) {
+            $this->result->reject($throwable);
+        }
+    }
+
+    /**
+     * @internal
+     */
+    public function _handleFailure($reason)
+    {
+        unset($this->currentPromise);
+        try {
+            $nextYield = $this->generator->throw(Create::exceptionFor($reason));
+            // The throw was caught, so keep iterating on the coroutine
+            $this->nextCoroutine($nextYield);
+        } catch (Exception $exception) {
+            $this->result->reject($exception);
+        } catch (Throwable $throwable) {
+            $this->result->reject($throwable);
+        }
+    }
+}

@@ -1,131 +1,1431 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-pbv3PnfqHdvVwzMUL78b+P+mxMUwgW==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for AndroidEnterprise (v1).
+ *
+ * <p>
+ * Manages the deployment of apps to Android Enterprise devices.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://developers.google.com/android/work/play/emm-api" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class AndroidEnterprise extends \Google\Service
+{
+  /** Manage corporate Android devices. */
+  const ANDROIDENTERPRISE =
+      "https://www.googleapis.com/auth/androidenterprise";
+
+  public $devices;
+  public $enterprises;
+  public $entitlements;
+  public $grouplicenses;
+  public $grouplicenseusers;
+  public $installs;
+  public $managedconfigurationsfordevice;
+  public $managedconfigurationsforuser;
+  public $managedconfigurationssettings;
+  public $permissions;
+  public $products;
+  public $serviceaccountkeys;
+  public $storelayoutclusters;
+  public $storelayoutpages;
+  public $users;
+  public $webapps;
+
+  /**
+   * Constructs the internal representation of the AndroidEnterprise service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://androidenterprise.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'androidenterprise';
+
+    $this->devices = new AndroidEnterprise\Resource\Devices(
+        $this,
+        $this->serviceName,
+        'devices',
+        [
+          'methods' => [
+            'forceReportUpload' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/users/{userId}/devices/{deviceId}/forceReportUpload',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'deviceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/users/{userId}/devices/{deviceId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'deviceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getState' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/users/{userId}/devices/{deviceId}/state',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'deviceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/users/{userId}/devices',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'setState' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/users/{userId}/devices/{deviceId}/state',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'deviceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/users/{userId}/devices/{deviceId}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'deviceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->enterprises = new AndroidEnterprise\Resource\Enterprises(
+        $this,
+        $this->serviceName,
+        'enterprises',
+        [
+          'methods' => [
+            'acknowledgeNotificationSet' => [
+              'path' => 'androidenterprise/v1/enterprises/acknowledgeNotificationSet',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'notificationSetId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'completeSignup' => [
+              'path' => 'androidenterprise/v1/enterprises/completeSignup',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'completionToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'enterpriseToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'createWebToken' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/createWebToken',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'enroll' => [
+              'path' => 'androidenterprise/v1/enterprises/enroll',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'token' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'generateSignupUrl' => [
+              'path' => 'androidenterprise/v1/enterprises/signupUrl',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'callbackUrl' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getServiceAccount' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/serviceAccount',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'keyType' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'getStoreLayout' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/storeLayout',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'androidenterprise/v1/enterprises',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'domain' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'pullNotificationSet' => [
+              'path' => 'androidenterprise/v1/enterprises/pullNotificationSet',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'requestMode' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'sendTestPushNotification' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/sendTestPushNotification',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'setAccount' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/account',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'setStoreLayout' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/storeLayout',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'unenroll' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/unenroll',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->entitlements = new AndroidEnterprise\Resource\Entitlements(
+        $this,
+        $this->serviceName,
+        'entitlements',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/users/{userId}/entitlements/{entitlementId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'entitlementId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/users/{userId}/entitlements/{entitlementId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'entitlementId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/users/{userId}/entitlements',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/users/{userId}/entitlements/{entitlementId}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'entitlementId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'install' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->grouplicenses = new AndroidEnterprise\Resource\Grouplicenses(
+        $this,
+        $this->serviceName,
+        'grouplicenses',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/groupLicenses/{groupLicenseId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'groupLicenseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/groupLicenses',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->grouplicenseusers = new AndroidEnterprise\Resource\Grouplicenseusers(
+        $this,
+        $this->serviceName,
+        'grouplicenseusers',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/groupLicenses/{groupLicenseId}/users',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'groupLicenseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->installs = new AndroidEnterprise\Resource\Installs(
+        $this,
+        $this->serviceName,
+        'installs',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/users/{userId}/devices/{deviceId}/installs/{installId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'deviceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'installId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/users/{userId}/devices/{deviceId}/installs/{installId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'deviceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'installId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/users/{userId}/devices/{deviceId}/installs',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'deviceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/users/{userId}/devices/{deviceId}/installs/{installId}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'deviceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'installId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->managedconfigurationsfordevice = new AndroidEnterprise\Resource\Managedconfigurationsfordevice(
+        $this,
+        $this->serviceName,
+        'managedconfigurationsfordevice',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/users/{userId}/devices/{deviceId}/managedConfigurationsForDevice/{managedConfigurationForDeviceId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'deviceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'managedConfigurationForDeviceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/users/{userId}/devices/{deviceId}/managedConfigurationsForDevice/{managedConfigurationForDeviceId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'deviceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'managedConfigurationForDeviceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/users/{userId}/devices/{deviceId}/managedConfigurationsForDevice',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'deviceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/users/{userId}/devices/{deviceId}/managedConfigurationsForDevice/{managedConfigurationForDeviceId}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'deviceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'managedConfigurationForDeviceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->managedconfigurationsforuser = new AndroidEnterprise\Resource\Managedconfigurationsforuser(
+        $this,
+        $this->serviceName,
+        'managedconfigurationsforuser',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/users/{userId}/managedConfigurationsForUser/{managedConfigurationForUserId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'managedConfigurationForUserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/users/{userId}/managedConfigurationsForUser/{managedConfigurationForUserId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'managedConfigurationForUserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/users/{userId}/managedConfigurationsForUser',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/users/{userId}/managedConfigurationsForUser/{managedConfigurationForUserId}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'managedConfigurationForUserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->managedconfigurationssettings = new AndroidEnterprise\Resource\Managedconfigurationssettings(
+        $this,
+        $this->serviceName,
+        'managedconfigurationssettings',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/products/{productId}/managedConfigurationsSettings',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'productId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->permissions = new AndroidEnterprise\Resource\Permissions(
+        $this,
+        $this->serviceName,
+        'permissions',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'androidenterprise/v1/permissions/{permissionId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'permissionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'language' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->products = new AndroidEnterprise\Resource\Products(
+        $this,
+        $this->serviceName,
+        'products',
+        [
+          'methods' => [
+            'approve' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/products/{productId}/approve',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'productId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'generateApprovalUrl' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/products/{productId}/generateApprovalUrl',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'productId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'languageCode' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/products/{productId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'productId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'language' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'getAppRestrictionsSchema' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/products/{productId}/appRestrictionsSchema',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'productId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'language' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'getPermissions' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/products/{productId}/permissions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'productId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/products',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'approved' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'language' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'query' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'token' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'unapprove' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/products/{productId}/unapprove',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'productId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->serviceaccountkeys = new AndroidEnterprise\Resource\Serviceaccountkeys(
+        $this,
+        $this->serviceName,
+        'serviceaccountkeys',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/serviceAccountKeys/{keyId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'keyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/serviceAccountKeys',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/serviceAccountKeys',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->storelayoutclusters = new AndroidEnterprise\Resource\Storelayoutclusters(
+        $this,
+        $this->serviceName,
+        'storelayoutclusters',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/storeLayout/pages/{pageId}/clusters/{clusterId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'clusterId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/storeLayout/pages/{pageId}/clusters/{clusterId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'clusterId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/storeLayout/pages/{pageId}/clusters',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/storeLayout/pages/{pageId}/clusters',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/storeLayout/pages/{pageId}/clusters/{clusterId}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'clusterId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->storelayoutpages = new AndroidEnterprise\Resource\Storelayoutpages(
+        $this,
+        $this->serviceName,
+        'storelayoutpages',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/storeLayout/pages/{pageId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/storeLayout/pages/{pageId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/storeLayout/pages',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/storeLayout/pages',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/storeLayout/pages/{pageId}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->users = new AndroidEnterprise\Resource\Users(
+        $this,
+        $this->serviceName,
+        'users',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/users/{userId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'generateAuthenticationToken' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/users/{userId}/authenticationToken',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/users/{userId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getAvailableProductSet' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/users/{userId}/availableProductSet',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/users',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/users',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'email' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'revokeDeviceAccess' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/users/{userId}/deviceAccess',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'setAvailableProductSet' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/users/{userId}/availableProductSet',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/users/{userId}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->webapps = new AndroidEnterprise\Resource\Webapps(
+        $this,
+        $this->serviceName,
+        'webapps',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/webApps/{webAppId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webAppId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/webApps/{webAppId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webAppId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/webApps',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/webApps',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'androidenterprise/v1/enterprises/{enterpriseId}/webApps/{webAppId}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'enterpriseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webAppId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AndroidEnterprise::class, 'Google_Service_AndroidEnterprise');

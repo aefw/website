@@ -1,226 +1,261 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+/**
+ * PuTTY Formatted Key Handler
+ *
+ * PHP version 5
+ *
+ * @category  Crypt
+ * @package   Common
+ * @author    Jim Wigginton <terrafrost@php.net>
+ * @copyright 2016 Jim Wigginton
+ * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      http://phpseclib.sourceforge.net
+ */
+
+namespace phpseclib3\Crypt\Common\Formats\Keys;
+
+use ParagonIE\ConstantTime\Base64;
+use ParagonIE\ConstantTime\Hex;
+use phpseclib3\Crypt\AES;
+use phpseclib3\Crypt\Hash;
+use phpseclib3\Crypt\Random;
+use phpseclib3\Common\Functions\Strings;
+use phpseclib3\Exception\UnsupportedAlgorithmException;
+
+/**
+ * PuTTY Formatted Key Handler
+ *
+ * @package Common
+ * @author  Jim Wigginton <terrafrost@php.net>
+ * @access  public
+ */
+abstract class PuTTY
+{
+    /**
+     * Default comment
+     *
+     * @var string
+     * @access private
+     */
+    private static $comment = 'phpseclib-generated-key';
+
+    /**
+     * Sets the default comment
+     *
+     * @access public
+     * @param string $comment
+     */
+    public static function setComment($comment)
+    {
+        self::$comment = str_replace(["\r", "\n"], '', $comment);
+    }
+
+    /**
+     * Generate a symmetric key for PuTTY keys
+     *
+     * @access public
+     * @param string $password
+     * @param int $length
+     * @return string
+     */
+    private static function generateSymmetricKey($password, $length)
+    {
+        $symkey = '';
+        $sequence = 0;
+        while (strlen($symkey) < $length) {
+            $temp = pack('Na*', $sequence++, $password);
+            $symkey.= Hex::decode(sha1($temp));
+        }
+        return substr($symkey, 0, $length);
+    }
+
+    /**
+     * Break a public or private key down into its constituent components
+     *
+     * @access public
+     * @param string $key
+     * @param string $password
+     * @return array
+     */
+    public static function load($key, $password)
+    {
+        if (!Strings::is_stringable($key)) {
+            throw new \UnexpectedValueException('Key should be a string - not a ' . gettype($key));
+        }
+
+        if (strpos($key, 'BEGIN SSH2 PUBLIC KEY') !== false) {
+            $lines = preg_split('#[\r\n]+#', $key);
+            switch (true) {
+                case $lines[0] != '---- BEGIN SSH2 PUBLIC KEY ----':
+                    throw new \UnexpectedValueException('Key doesn\'t start with ---- BEGIN SSH2 PUBLIC KEY ----');
+                case $lines[count($lines) - 1] != '---- END SSH2 PUBLIC KEY ----':
+                    throw new \UnexpectedValueException('Key doesn\'t end with ---- END SSH2 PUBLIC KEY ----');
+            }
+            $lines = array_splice($lines, 1, -1);
+            $lines = array_map(function ($line) {
+                return rtrim($line, "\r\n");
+            }, $lines);
+            $data = $current = '';
+            $values = [];
+            $in_value = false;
+            foreach ($lines as $line) {
+                switch (true) {
+                    case preg_match('#^(.*?): (.*)#', $line, $match):
+                        $in_value = $line[strlen($line) - 1] == '\\';
+                        $current = strtolower($match[1]);
+                        $values[$current] = $in_value ? substr($match[2], 0, -1) : $match[2];
+                        break;
+                    case $in_value:
+                        $in_value = $line[strlen($line) - 1] == '\\';
+                        $values[$current].= $in_value ? substr($line, 0, -1) : $line;
+                        break;
+                    default:
+                        $data.= $line;
+                }
+            }
+
+            $components = call_user_func([static::PUBLIC_HANDLER, 'load'], $data);
+            if ($components === false) {
+                throw new \UnexpectedValueException('Unable to decode public key');
+            }
+            $components+= $values;
+            $components['comment'] = str_replace(['\\\\', '\"'], ['\\', '"'], $values['comment']);
+
+            return $components;
+        }
+
+        $components = [];
+
+        $key = preg_split('#\r\n|\r|\n#', trim($key));
+        $type = trim(preg_replace('#PuTTY-User-Key-File-2: (.+)#', '$1', $key[0]));
+        $components['type'] = $type;
+        if (!in_array($type, static::$types)) {
+            $error = count(static::$types) == 1 ?
+                'Only ' . static::$types[0] . ' keys are supported. ' :
+                '';
+            throw new UnsupportedAlgorithmException($error . 'This is an unsupported ' . $type . ' key');
+        }
+        $encryption = trim(preg_replace('#Encryption: (.+)#', '$1', $key[1]));
+        $components['comment'] = trim(preg_replace('#Comment: (.+)#', '$1', $key[2]));
+
+        $publicLength = trim(preg_replace('#Public-Lines: (\d+)#', '$1', $key[3]));
+        $public = Base64::decode(implode('', array_map('trim', array_slice($key, 4, $publicLength))));
+
+        $source = Strings::packSSH2('ssss', $type, $encryption, $components['comment'], $public);
+
+        extract(unpack('Nlength', Strings::shift($public, 4)));
+        $newtype = Strings::shift($public, $length);
+        if ($newtype != $type) {
+            throw new \RuntimeException('The binary type does not match the human readable type field');
+        }
+
+        $components['public'] = $public;
+
+        $privateLength = trim(preg_replace('#Private-Lines: (\d+)#', '$1', $key[$publicLength + 4]));
+        $private = Base64::decode(implode('', array_map('trim', array_slice($key, $publicLength + 5, $privateLength))));
+
+        switch ($encryption) {
+            case 'aes256-cbc':
+                $symkey = self::generateSymmetricKey($password, 32);
+                $crypto = new AES('cbc');
+        }
+
+        $hashkey = 'putty-private-key-file-mac-key';
+
+        if ($encryption != 'none') {
+            $hashkey.= $password;
+            $crypto->setKey($symkey);
+            $crypto->setIV(str_repeat("\0", $crypto->getBlockLength() >> 3));
+            $crypto->disablePadding();
+            $private = $crypto->decrypt($private);
+        }
+
+        $source.= Strings::packSSH2('s', $private);
+
+        $hash = new Hash('sha1');
+        $hash->setKey(sha1($hashkey, true));
+        $hmac = trim(preg_replace('#Private-MAC: (.+)#', '$1', $key[$publicLength + $privateLength + 5]));
+        $hmac = Hex::decode($hmac);
+
+        if (!hash_equals($hash->hash($source), $hmac)) {
+            throw new \UnexpectedValueException('MAC validation error');
+        }
+
+        $components['private'] = $private;
+
+        return $components;
+    }
+
+    /**
+     * Wrap a private key appropriately
+     *
+     * @access private
+     * @param string $public
+     * @param string $private
+     * @param string $type
+     * @param string $password
+     * @param array $options optional
+     * @return string
+     */
+    protected static function wrapPrivateKey($public, $private, $type, $password, array $options = [])
+    {
+        $encryption = (!empty($password) || is_string($password)) ? 'aes256-cbc' : 'none';
+        $comment = isset($options['comment']) ? $options['comment'] : self::$comment;
+
+        $key = "PuTTY-User-Key-File-2: " . $type . "\r\nEncryption: ";        $key.= $encryption;
+        $key.= "\r\nComment: " . $comment . "\r\n";
+
+        $public = Strings::packSSH2('s', $type) . $public;
+
+        $source = Strings::packSSH2('ssss', $type, $encryption, $comment, $public);
+
+        $public = Base64::encode($public);
+        $key.= "Public-Lines: " . ((strlen($public) + 63) >> 6) . "\r\n";
+        $key.= chunk_split($public, 64);
+
+        if (empty($password) && !is_string($password)) {
+            $source.= Strings::packSSH2('s', $private);
+            $hashkey = 'putty-private-key-file-mac-key';
+        } else {
+            $private.= Random::string(16 - (strlen($private) & 15));
+            $source.= Strings::packSSH2('s', $private);
+            $crypto = new AES('cbc');
+
+            $crypto->setKey(self::generateSymmetricKey($password, 32));
+            $crypto->setIV(str_repeat("\0", $crypto->getBlockLength() >> 3));
+            $crypto->disablePadding();
+            $private = $crypto->encrypt($private);
+            $hashkey = 'putty-private-key-file-mac-key' . $password;
+        }
+
+        $private = Base64::encode($private);
+        $key.= 'Private-Lines: ' . ((strlen($private) + 63) >> 6) . "\r\n";
+        $key.= chunk_split($private, 64);
+        $hash = new Hash('sha1');
+        $hash->setKey(sha1($hashkey, true));
+        $key.= 'Private-MAC: ' . Hex::encode($hash->hash($source)) . "\r\n";
+
+        return $key;
+    }
+
+    /**
+     * Wrap a public key appropriately
+     *
+     * This is basically the format described in RFC 4716 (https://tools.ietf.org/html/rfc4716)
+     *
+     * @access private
+     * @param string $key
+     * @param string $type
+     * @return string
+     */
+    protected static function wrapPublicKey($key, $type)
+    {
+        $key = pack('Na*a*', strlen($type), $type, $key);
+        $key = "---- BEGIN SSH2 PUBLIC KEY ----\r\n" .
+               'Comment: "' . str_replace(['\\', '"'], ['\\\\', '\"'], self::$comment) . "\"\r\n" .
+               chunk_split(Base64::encode($key), 64) .
+               '---- END SSH2 PUBLIC KEY ----';
+        return $key;
+    }
+}

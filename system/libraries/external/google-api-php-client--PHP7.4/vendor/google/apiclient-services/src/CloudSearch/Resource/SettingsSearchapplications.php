@@ -1,73 +1,140 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPvDx1AENxloK7hEHW06q8hgvEi/HI/Db2jcCP22eySpU4ktTSxpODxxvmVcyrUl2xIq8i0WN
-mfp2wWOLLNGvHn9esSI4WSvLxwF/oDpgnE2fpymkIiIKyTxl0G5YpHAWAktnPXWfe9tTE3raMGUa
-M/R8X8GWIOhO7YktBFanIrzy8waulsb5g0xGyxrBX5sa0jiPunfYbsgJ8fVl04kjdNKl9fti7OsK
-EwKkwbTCthqzN6RSRtXYR/wRdJXt5hxQXAcGfii6M84ffSP4eJWjMyXnnq7YS5CkDLI4g2o1fZvA
-1ULLMdHKOv5nyHEgiCN4Y5HfvIklMkaQ6YlrT1aM9Qw+jI+5lwDpmbAcoTmLmEsPMsTZiKzlrHCx
-wS4UWXjAHooHUDswqmqjkX/g6bYjikbHbtP8A4ivLdPCcMQ2WWwXJWziIABspSNK+XXrClIKWfEK
-WUli1GemUJ/UVoxtD18bPhAk3n7uQSqCtRlyDryb6c8OyrhqZ0liVSBP8joe7M9pmVSKCK6Xw2tp
-ky5uz5y4ZtTtn3/+tqrP7gukcaHhU7nZAulIH4+6KqTuXXf8wxRw3grlo0CDPk0mKtjKiCHySVBP
-mikAOY2+9hD04Jx+OubP/nPIBoOHZ3YkjEJy1yvNkhFQYG7y01Erb21zl8GIxAHOaN1iV2kUDuYf
-mEmZFeNbbcpQJuw1VAOmkbl4vn+qpNRqYp60+JWAVrtZorS/OnUtd7uKqtrzgXsJa3T41ZYo2hNj
-m+9vfsTLEA+6dfSf8jeLNiIyuRmpWS/TxgLyzbZKIKfDQ6dYOzFsHI1dcE+X/iPJccdqyuQhKMiD
-AuN6EYvcG6Hki9GsZ6/6Idlr8Cl0ynUwPAkgHD2rwu4KMEyBGhpxWtqzgDgC2mF2pYzqoiwGRtDs
-YuNSAxGGiuL0Qv9ognrfKT2oz/Q77vKQmS9v7X2pfzTv29HIkXUuGB7i6N0qrM04Wu425g7ETkro
-Tk3NT4Zkfhvw9Ry6cHOg/jKRuAALkGvzVOr0KeOKBmxNmzfgswxJkTQf7nJ4m40AK9wPYpI+Mz+D
-N/B/76mxmffUcNJ6aWYPOFN11OFrYF7yWM8AdL+ky5sW7Y2SdEdcVWPXXiris8T75rYN7cY0goWe
-ioiNOwKpj103Bt6J9lmfMy811TzOgumBq3L0r5qMThnsXAcLVa+eA8XF4bM7ypKuBHuUyJlYGlDb
-YeDM63UaHglpMHmAkfdUEiqNbMxLyFvV/h7CHXwYYnT0Ae/D31smQ2PWVds4wYpl2c0jQ5NceAP/
-szluflLF1RiWCJAVvag7aebDBUNoOUBHXsTQ9brkEQ8apa18sEkALmPIShSNx2PVDvS9UhBv7Yly
-m533c6XIE20Sw472uTHkZ6g9a4eFXEHacx2z6ItaYcY6uLpt383SOGGmRtAJWULOMcWP+t5xzl98
-y/ZL/PAGJiSt2E5T1IJt2LlkbQRob8KdDb3Whlegsr4cnkeaifNtZdSI10SuFoOsI4BMp2P3OYhh
-pmWFbM3YbtsUynm/Ji6Ij1d3hjg/e+TF4fZDOe9sYaoiESrtArDG/PlSGqPLJqKf2D3ANuCWZFk9
-gwIYOIKT7ew1Cw/SBtBepTraaun8iAUMuzLkTeVAH3DOEEPutpgDJHrlp0Csm+d6LfsfWvK2fY20
-amz5DLFA6kcEtUTAoB8Gl2ZHf40hFvAJz2gLYNQXL9mvuiR9iMl1VNbx/LsALbCt1eot7gTpQV0c
-FXT/L3QBG4wzN6a+v485IRgYN8RQM9DrPTUI9gpXQijrp8BqxmjXijvrb7vbLSUtQKZWx1RCo1hw
-3I3vAfxR9OTGjxc7snDbN9PWFmGh5Qc0dzObfdSwgSrNTrnx/GY+sFt9EqPWDJjI7bBH7HLhr7rf
-M+DoMMNoZfLMBRAi0fBXlT78l0XGosBqiyegl4CMg/Bwv+jejiR2opaTaZ2A0Y4Vle6v4zLzrTkN
-4jbMVql+FVcCv/203ohHcrAaikTzCdX3TbmbK8aiPY2xsUag8YltsVli4FAb4sZd/1NkevS+3/ws
-28gpY/GvLvPFJtls+lk4cXxu/g4ElQDxNZ9MIfmA95zqZZQN/klxCdYnRL+Ch4qcbZAJ70CE+sWn
-wAX9DXMR6buVSapfS5NNBP+iJtVmn/gHMZJGzymWvuqTyhWnPuLo/3EvkpB+m9mDhgZmQlsCKxMz
-bcDZTKoRvNgWIynEKkYhkoFQnye9LNyl+Hrd160XD59Me+c6QFzfS89/sPmNmGclSxBRi4FeB0we
-rTMGI2tUtCh5y7wFihfmQEPd7xmEDOBdkZFEzPZ9mVh7AOJ9OWcRm+Y75IIVb2BeDViluLcsvYDL
-Uilpg9Ghpt+xIpbeTcJrH9y1v1SLg82ug1J/hdIfye+PMtz8W48Weczm+Q1yzqizIGU2t990p2F/
-Wr13+95G23dMzUyVl44mTzdY3q4n/v7h2roz9JeWTMdO1K9pQJ/+QeGpXFGGD+ihKnvrGvyOKcem
-r7PGBv31TPTiguqNZBQc3M5Ox6FF9f6yMRJUSViwTkqEtlN5Lqs0GX9IfWnz09jGz0ONqyXWsyJP
-tRhmgolRFylAGpVuWflU2JbA26kHMVH8OtFCipCvkg18eZVA4r+Ky5fF9Se7bMbo0p9+Sf1ebhpP
-I72juBVx3IxF7fxNfXYhqMcK/36vVrkamv5/jH6jwuS2Apj3y6CIKcnB6s53VeGPiLviRuig/xwR
-csV16k2p66uORJq7THtHxNgMSo0DxhZO9z98S/+S4PIXTpA2myFPgTpxSS6bHmxOQU4wKeovExNO
-XkJnv80u2/4QzHwccd7eL4xLerfsWOH1RjUBYqx5XYGbWxVPSF3P0v7YuH+dX2gE43PlUPWgfXOo
-UHQHt7BosTqHlJrfQ0tEj1V1pQ2j3uQK8aKYjGMXJ9Yco6itOyUtl+ovCbJPie1tEoTGiYTKgEV9
-z3+lFgedRTNKcFDd8qK70Bc2umoW0urD5MpVZvcnC+lbOT9GAZZRbG5+YuRDLmM8jZfJy6XJ7J0r
-WNp+Lw74hr142aWlbL7iACrPJOh8EO8WGsR0bB/+lr5KrI3OT+oug1SR2mMuE3CFY4bRn7TIs80J
-P/av2CIFn/wjDtkzYl+e0HBa4C+NrHf4/fejJjMy7LvAN7I2rll7p8zRvLgGl+QKDU2ZTvG8/uRf
-0EVez92G8iCPZEfsdedyhtTgycKB/5/VBn54lp3w3DgyNXlFlcagSOle6j0FNB6JVKANwKnsPwYE
-wuG3TLMQrLnmXCWUjxXaeQuAt/zPSKDh9raGlOXjjuZ9v14IFsjYYKHD6DQDlklX3mlZoSF1PZZV
-wcp/PH3eJ5C9cotmM9FPYnjAZb/FviNGaOefxyBmZxWCbHRqAJHhaoXrI5weiaTqKj/3mjH9ceWX
-wES1DNCh47WG6ENcOVbf/Crqxad04ksAaCjX9yw12sp/vhxQtfZy0mC0bJ+J16qSSA2nRHp6K1Zu
-I7//udTcU9AmW293WOPPfnb3Ku76vEF2c/NC3XTeo+T8vuROGUyIsh38RUHf09tykkoNxT3FcD+Q
-ciXSEcDIhUqFfSlJY/8Or8FNaCTc6K3Dtqf+9/kjJvXxZj7J4mI7Gs/T8owu5hP7CXr0Zl+lfAI8
-OU9xBnkMKRKA7rYaAAivdn1kH5x43bhyKL/ER20nQNPxPaK+nY3qzJlWZX1E+e7qCJkgzAvs6C27
-m0jLBdASIBYG/Hx8t9tMw8kXQ4cXBKx5au2JSGOUs+o3KZrfD8axyQYJGwbrtDEU++uTgaOZ1C9d
-N5oqU//RvdD1x6QwGdKFKml0V7AbVERcimdZjvw3bNmFYLqpxMk5KDcSmMAK1ZRAwD0dtQ+JvRVG
-nPqfDzkl7s27yk1VcANQ1MnNHWnTg/WtXH1HkSAlUhmgDRk7p6ohyQRm7AFY8RGMhB17jXsCW7Ej
-B2AJBf/ftjQ+EEDNk71kn9LOJfoLqlWmiR7pCqtbcL03UvVzSSchPeRHa2QB9ULp8haQs6XhTxyM
-/dVy+ZGTLAlwtmZR6pzcj9WH0zMaZXL35f5UKUxZ/FYzKxxA3jpxPFvq5IEcEx4Z1Xz1Rwz91wja
-JbN5ukJGBm7P2h8p9sgl089fg/XZNpq5AocWVBHjFx0S/mnZsrhflRJ/jClE7UneV8+kYDPzbdHL
-aFW6I8laJYU36C/Ok8j4UY0489cXHoKdndGEOLvuACjznlwUrorB+BBdkT7HgKs+yw515R6R/T9Q
-p76buNVSK1SgmTncVoaRaFhoSNkgY+WuQY0e62O7SU5Hw3t0AX7ZP0unMyuOykC8jsFdI856x4HO
-RoTAM7Muckn1Ovj2pIG4X7kcLYKNcs16hE7NP0PuvvYN2ByqdtfbuUoyeBFvm/Fyv2NGPC1fsw+b
-ykNUbQj9dEuXcJdZoxAgMXl8Q5e18vp4dxImaPKcjdwrsXd9W8I1JA3w4ozHZJBNZEm+e8NEEbEB
-R3HH/7x/4FBqMp2rnkktYrdSPPlIA0RKsrlV+iN3VlwYL90hh1HyGRU4vH8+9vdkyDqZZtaZvu0O
-+ztqedqvlEapXo7ey2TSVsuTnHJe0YUIIRtXmk1umBB0RfMluWLeC1P9rZyW9EabhSsSpzI4Rogh
-IXy1DyxzuFZNqjgAg3Uz9K9MmRODVgJ+BWKTO+waot0VV5HM7owGK1zlwxJTx5ESYwXLjfM4cLdC
-9Th/GGv53BCUTMygo8oFrXqmO/onQq+3A7tm7g2MjDAnAdBYsBCLbLUS42sCL9krYofUKoj6+6yF
-GWX73FJLir4ZsiEz21H53oYlSshE52Prwblnq8sfO6f35AwNK4VPBhwX+Is29krRPDhx7PGEqpHL
-gXSDU7UaqlUVN+b2qYMCdSnXbra/IiukLWj8mhxbINQRh6QhM3u6H2IZ1wyu851BYOfulUtV4bGN
-OEjE8Kwt/oXRXgu7fEQEC8YClz0Z6nP/N26zAamh5Y5jcxDdF/JDGs7HoWrsJi0lM+FraHPJHAIn
-ktqS4GGBic0TmM3N6tK3GN/bdI0GIVl5Z8MslIORtN6o0GgqwYofv/ke4W==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudSearch\Resource;
+
+use Google\Service\CloudSearch\ListSearchApplicationsResponse;
+use Google\Service\CloudSearch\Operation;
+use Google\Service\CloudSearch\ResetSearchApplicationRequest;
+use Google\Service\CloudSearch\SearchApplication;
+
+/**
+ * The "searchapplications" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $cloudsearchService = new Google\Service\CloudSearch(...);
+ *   $searchapplications = $cloudsearchService->searchapplications;
+ *  </code>
+ */
+class SettingsSearchapplications extends \Google\Service\Resource
+{
+  /**
+   * Creates a search application. **Note:** This API requires an admin account to
+   * execute. (searchapplications.create)
+   *
+   * @param SearchApplication $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function create(SearchApplication $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Operation::class);
+  }
+  /**
+   * Deletes a search application. **Note:** This API requires an admin account to
+   * execute. (searchapplications.delete)
+   *
+   * @param string $name The name of the search application to be deleted. Format:
+   * applications/{application_id}.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool debugOptions.enableDebugging If you are asked by Google to
+   * help with debugging, set this field. Otherwise, ignore this field.
+   * @return Operation
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Gets the specified search application. **Note:** This API requires an admin
+   * account to execute. (searchapplications.get)
+   *
+   * @param string $name Name of the search application. Format:
+   * searchapplications/{application_id}.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool debugOptions.enableDebugging If you are asked by Google to
+   * help with debugging, set this field. Otherwise, ignore this field.
+   * @return SearchApplication
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], SearchApplication::class);
+  }
+  /**
+   * Lists all search applications. **Note:** This API requires an admin account
+   * to execute. (searchapplications.listSettingsSearchapplications)
+   *
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool debugOptions.enableDebugging If you are asked by Google to
+   * help with debugging, set this field. Otherwise, ignore this field.
+   * @opt_param int pageSize The maximum number of items to return.
+   * @opt_param string pageToken The next_page_token value returned from a
+   * previous List request, if any. The default value is 10
+   * @return ListSearchApplicationsResponse
+   */
+  public function listSettingsSearchapplications($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListSearchApplicationsResponse::class);
+  }
+  /**
+   * Resets a search application to default settings. This will return an empty
+   * response. **Note:** This API requires an admin account to execute.
+   * (searchapplications.reset)
+   *
+   * @param string $name The name of the search application to be reset. Format:
+   * applications/{application_id}.
+   * @param ResetSearchApplicationRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function reset($name, ResetSearchApplicationRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('reset', [$params], Operation::class);
+  }
+  /**
+   * Updates a search application. **Note:** This API requires an admin account to
+   * execute. (searchapplications.update)
+   *
+   * @param string $name Name of the Search Application. Format:
+   * searchapplications/{application_id}.
+   * @param SearchApplication $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function update($name, SearchApplication $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(SettingsSearchapplications::class, 'Google_Service_CloudSearch_Resource_SettingsSearchapplications');

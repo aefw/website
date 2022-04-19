@@ -1,70 +1,100 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php declare(strict_types=1);
+
+/*
+ * This file is part of the Monolog package.
+ *
+ * (c) Jordi Boggiano <j.boggiano@seld.be>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Monolog\Handler;
+
+use Monolog\Logger;
+
+/**
+ * SendGridrHandler uses the SendGrid API v2 function to send Log emails, more information in https://sendgrid.com/docs/API_Reference/Web_API/mail.html
+ *
+ * @author Ricardo Fontanelli <ricardo.fontanelli@hotmail.com>
+ */
+class SendGridHandler extends MailHandler
+{
+    /**
+     * The SendGrid API User
+     * @var string
+     */
+    protected $apiUser;
+
+    /**
+     * The SendGrid API Key
+     * @var string
+     */
+    protected $apiKey;
+
+    /**
+     * The email addresses to which the message will be sent
+     * @var string
+     */
+    protected $from;
+
+    /**
+     * The email addresses to which the message will be sent
+     * @var array
+     */
+    protected $to;
+
+    /**
+     * The subject of the email
+     * @var string
+     */
+    protected $subject;
+
+    /**
+     * @param string       $apiUser The SendGrid API User
+     * @param string       $apiKey  The SendGrid API Key
+     * @param string       $from    The sender of the email
+     * @param string|array $to      The recipients of the email
+     * @param string       $subject The subject of the mail
+     * @param int|string   $level   The minimum logging level at which this handler will be triggered
+     * @param bool         $bubble  Whether the messages that are handled can bubble up the stack or not
+     */
+    public function __construct(string $apiUser, string $apiKey, string $from, $to, string $subject, $level = Logger::ERROR, bool $bubble = true)
+    {
+        parent::__construct($level, $bubble);
+        $this->apiUser = $apiUser;
+        $this->apiKey = $apiKey;
+        $this->from = $from;
+        $this->to = (array) $to;
+        $this->subject = $subject;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    protected function send(string $content, array $records): void
+    {
+        $message = [];
+        $message['api_user'] = $this->apiUser;
+        $message['api_key'] = $this->apiKey;
+        $message['from'] = $this->from;
+        foreach ($this->to as $recipient) {
+            $message['to[]'] = $recipient;
+        }
+        $message['subject'] = $this->subject;
+        $message['date'] = date('r');
+
+        if ($this->isHtmlBody($content)) {
+            $message['html'] = $content;
+        } else {
+            $message['text'] = $content;
+        }
+
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, 'https://api.sendgrid.com/api/mail.send.json');
+        curl_setopt($ch, CURLOPT_POST, 1);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($message));
+        Curl\Util::execute($ch, 2);
+    }
+}

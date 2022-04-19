@@ -1,60 +1,235 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for ResourceSettings (v1).
+ *
+ * <p>
+ * The Resource Settings API allows users to control and modify the behavior of
+ * their GCP resources (e.g., VM, firewall, Project, etc.) across the Cloud
+ * Resource Hierarchy.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/resource-manager/docs/resource-settings/overview" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class ResourceSettings extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+
+  public $folders_settings;
+  public $organizations_settings;
+  public $projects_settings;
+
+  /**
+   * Constructs the internal representation of the ResourceSettings service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://resourcesettings.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'resourcesettings';
+
+    $this->folders_settings = new ResourceSettings\Resource\FoldersSettings(
+        $this,
+        $this->serviceName,
+        'settings',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/settings',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_settings = new ResourceSettings\Resource\OrganizationsSettings(
+        $this,
+        $this->serviceName,
+        'settings',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/settings',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_settings = new ResourceSettings\Resource\ProjectsSettings(
+        $this,
+        $this->serviceName,
+        'settings',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/settings',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ResourceSettings::class, 'Google_Service_ResourceSettings');

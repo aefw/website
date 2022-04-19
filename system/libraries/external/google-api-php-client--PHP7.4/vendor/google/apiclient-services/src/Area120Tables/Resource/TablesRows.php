@@ -1,80 +1,185 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-H82CS402i6Mpztn/kG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Area120Tables\Resource;
+
+use Google\Service\Area120Tables\Area120tablesEmpty;
+use Google\Service\Area120Tables\BatchCreateRowsRequest;
+use Google\Service\Area120Tables\BatchCreateRowsResponse;
+use Google\Service\Area120Tables\BatchDeleteRowsRequest;
+use Google\Service\Area120Tables\BatchUpdateRowsRequest;
+use Google\Service\Area120Tables\BatchUpdateRowsResponse;
+use Google\Service\Area120Tables\ListRowsResponse;
+use Google\Service\Area120Tables\Row;
+
+/**
+ * The "rows" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $area120tablesService = new Google\Service\Area120Tables(...);
+ *   $rows = $area120tablesService->rows;
+ *  </code>
+ */
+class TablesRows extends \Google\Service\Resource
+{
+  /**
+   * Creates multiple rows. (rows.batchCreate)
+   *
+   * @param string $parent Required. The parent table where the rows will be
+   * created. Format: tables/{table}
+   * @param BatchCreateRowsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return BatchCreateRowsResponse
+   */
+  public function batchCreate($parent, BatchCreateRowsRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('batchCreate', [$params], BatchCreateRowsResponse::class);
+  }
+  /**
+   * Deletes multiple rows. (rows.batchDelete)
+   *
+   * @param string $parent Required. The parent table shared by all rows being
+   * deleted. Format: tables/{table}
+   * @param BatchDeleteRowsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Area120tablesEmpty
+   */
+  public function batchDelete($parent, BatchDeleteRowsRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('batchDelete', [$params], Area120tablesEmpty::class);
+  }
+  /**
+   * Updates multiple rows. (rows.batchUpdate)
+   *
+   * @param string $parent Required. The parent table shared by all rows being
+   * updated. Format: tables/{table}
+   * @param BatchUpdateRowsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return BatchUpdateRowsResponse
+   */
+  public function batchUpdate($parent, BatchUpdateRowsRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('batchUpdate', [$params], BatchUpdateRowsResponse::class);
+  }
+  /**
+   * Creates a row. (rows.create)
+   *
+   * @param string $parent Required. The parent table where this row will be
+   * created. Format: tables/{table}
+   * @param Row $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string view Optional. Column key to use for values in the row.
+   * Defaults to user entered name.
+   * @return Row
+   */
+  public function create($parent, Row $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Row::class);
+  }
+  /**
+   * Deletes a row. (rows.delete)
+   *
+   * @param string $name Required. The name of the row to delete. Format:
+   * tables/{table}/rows/{row}
+   * @param array $optParams Optional parameters.
+   * @return Area120tablesEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Area120tablesEmpty::class);
+  }
+  /**
+   * Gets a row. Returns NOT_FOUND if the row does not exist in the table.
+   * (rows.get)
+   *
+   * @param string $name Required. The name of the row to retrieve. Format:
+   * tables/{table}/rows/{row}
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string view Optional. Column key to use for values in the row.
+   * Defaults to user entered name.
+   * @return Row
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Row::class);
+  }
+  /**
+   * Lists rows in a table. Returns NOT_FOUND if the table does not exist.
+   * (rows.listTablesRows)
+   *
+   * @param string $parent Required. The parent table. Format: tables/{table}
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Optional. Filter to only include resources matching
+   * the requirements. For more information, see [Filtering list
+   * results](https://support.google.com/area120-tables/answer/10503371).
+   * @opt_param string orderBy Optional. Sorting order for the list of rows on
+   * createTime/updateTime.
+   * @opt_param int pageSize The maximum number of rows to return. The service may
+   * return fewer than this value. If unspecified, at most 50 rows are returned.
+   * The maximum value is 1,000; values above 1,000 are coerced to 1,000.
+   * @opt_param string pageToken A page token, received from a previous `ListRows`
+   * call. Provide this to retrieve the subsequent page. When paginating, all
+   * other parameters provided to `ListRows` must match the call that provided the
+   * page token.
+   * @opt_param string view Optional. Column key to use for values in the row.
+   * Defaults to user entered name.
+   * @return ListRowsResponse
+   */
+  public function listTablesRows($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListRowsResponse::class);
+  }
+  /**
+   * Updates a row. (rows.patch)
+   *
+   * @param string $name The resource name of the row. Row names have the form
+   * `tables/{table}/rows/{row}`. The name is ignored when creating a row.
+   * @param Row $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask The list of fields to update.
+   * @opt_param string view Optional. Column key to use for values in the row.
+   * Defaults to user entered name.
+   * @return Row
+   */
+  public function patch($name, Row $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Row::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(TablesRows::class, 'Google_Service_Area120Tables_Resource_TablesRows');

@@ -1,153 +1,242 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+/**
+ * Miccrosoft BLOB Formatted RSA Key Handler
+ *
+ * More info:
+ *
+ * https://msdn.microsoft.com/en-us/library/windows/desktop/aa375601(v=vs.85).aspx
+ *
+ * PHP version 5
+ *
+ * @category  Crypt
+ * @package   RSA
+ * @author    Jim Wigginton <terrafrost@php.net>
+ * @copyright 2015 Jim Wigginton
+ * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      http://phpseclib.sourceforge.net
+ */
+
+namespace phpseclib3\Crypt\RSA\Formats\Keys;
+
+use ParagonIE\ConstantTime\Base64;
+use phpseclib3\Math\BigInteger;
+use phpseclib3\Common\Functions\Strings;
+use phpseclib3\Exception\UnsupportedFormatException;
+
+/**
+ * Microsoft BLOB Formatted RSA Key Handler
+ *
+ * @package RSA
+ * @author  Jim Wigginton <terrafrost@php.net>
+ * @access  public
+ */
+abstract class MSBLOB
+{
+    /**
+     * Public/Private Key Pair
+     *
+     * @access private
+     */
+    const PRIVATEKEYBLOB = 0x7;
+    /**
+     * Public Key
+     *
+     * @access private
+     */
+    const PUBLICKEYBLOB = 0x6;
+    /**
+     * Public Key
+     *
+     * @access private
+     */
+    const PUBLICKEYBLOBEX = 0xA;
+    /**
+     * RSA public key exchange algorithm
+     *
+     * @access private
+     */
+    const CALG_RSA_KEYX = 0x0000A400;
+    /**
+     * RSA public key exchange algorithm
+     *
+     * @access private
+     */
+    const CALG_RSA_SIGN = 0x00002400;
+    /**
+     * Public Key
+     *
+     * @access private
+     */
+    const RSA1 = 0x31415352;
+    /**
+     * Private Key
+     *
+     * @access private
+     */
+    const RSA2 = 0x32415352;
+
+    /**
+     * Break a public or private key down into its constituent components
+     *
+     * @access public
+     * @param string $key
+     * @param string $password optional
+     * @return array
+     */
+    public static function load($key, $password = '')
+    {
+        if (!Strings::is_stringable($key)) {
+            throw new \UnexpectedValueException('Key should be a string - not a ' . gettype($key));
+        }
+
+        $key = Base64::decode($key);
+
+        if (!is_string($key)) {
+            throw new \UnexpectedValueException('Base64 decoding produced an error');
+        }
+        if (strlen($key) < 20) {
+            throw new \UnexpectedValueException('Key appears to be malformed');
+        }
+
+        // PUBLICKEYSTRUC  publickeystruc
+        // https://msdn.microsoft.com/en-us/library/windows/desktop/aa387453(v=vs.85).aspx
+        extract(unpack('atype/aversion/vreserved/Valgo', Strings::shift($key, 8)));
+        /**
+         * @var string $type
+         * @var string $version
+         * @var integer $reserved
+         * @var integer $algo
+         */
+        switch (ord($type)) {
+            case self::PUBLICKEYBLOB:
+            case self::PUBLICKEYBLOBEX:
+                $publickey = true;
+                break;
+            case self::PRIVATEKEYBLOB:
+                $publickey = false;
+                break;
+            default:
+                throw new \UnexpectedValueException('Key appears to be malformed');
+        }
+
+        $components = ['isPublicKey' => $publickey];
+
+        // https://msdn.microsoft.com/en-us/library/windows/desktop/aa375549(v=vs.85).aspx
+        switch ($algo) {
+            case self::CALG_RSA_KEYX:
+            case self::CALG_RSA_SIGN:
+                break;
+            default:
+                throw new \UnexpectedValueException('Key appears to be malformed');
+        }
+
+        // RSAPUBKEY rsapubkey
+        // https://msdn.microsoft.com/en-us/library/windows/desktop/aa387685(v=vs.85).aspx
+        // could do V for pubexp but that's unsigned 32-bit whereas some PHP installs only do signed 32-bit
+        extract(unpack('Vmagic/Vbitlen/a4pubexp', Strings::shift($key, 12)));
+        /**
+         * @var integer $magic
+         * @var integer $bitlen
+         * @var string $pubexp
+         */
+        switch ($magic) {
+            case self::RSA2:
+                $components['isPublicKey'] = false;
+            case self::RSA1:
+                break;
+            default:
+                throw new \UnexpectedValueException('Key appears to be malformed');
+        }
+
+        $baseLength = $bitlen / 16;
+        if (strlen($key) != 2 * $baseLength && strlen($key) != 9 * $baseLength) {
+            throw new \UnexpectedValueException('Key appears to be malformed');
+        }
+
+        $components[$components['isPublicKey'] ? 'publicExponent' : 'privateExponent'] = new BigInteger(strrev($pubexp), 256);
+        // BYTE modulus[rsapubkey.bitlen/8]
+        $components['modulus'] = new BigInteger(strrev(Strings::shift($key, $bitlen / 8)), 256);
+
+        if ($publickey) {
+            return $components;
+        }
+
+        $components['isPublicKey'] = false;
+
+        // BYTE prime1[rsapubkey.bitlen/16]
+        $components['primes'] = [1 => new BigInteger(strrev(Strings::shift($key, $bitlen / 16)), 256)];
+        // BYTE prime2[rsapubkey.bitlen/16]
+        $components['primes'][] = new BigInteger(strrev(Strings::shift($key, $bitlen / 16)), 256);
+        // BYTE exponent1[rsapubkey.bitlen/16]
+        $components['exponents'] = [1 => new BigInteger(strrev(Strings::shift($key, $bitlen / 16)), 256)];
+        // BYTE exponent2[rsapubkey.bitlen/16]
+        $components['exponents'][] = new BigInteger(strrev(Strings::shift($key, $bitlen / 16)), 256);
+        // BYTE coefficient[rsapubkey.bitlen/16]
+        $components['coefficients'] = [2 => new BigInteger(strrev(Strings::shift($key, $bitlen / 16)), 256)];
+        if (isset($components['privateExponent'])) {
+            $components['publicExponent'] = $components['privateExponent'];
+        }
+        // BYTE privateExponent[rsapubkey.bitlen/8]
+        $components['privateExponent'] = new BigInteger(strrev(Strings::shift($key, $bitlen / 8)), 256);
+
+        return $components;
+    }
+
+    /**
+     * Convert a private key to the appropriate format.
+     *
+     * @access public
+     * @param \phpseclib3\Math\BigInteger $n
+     * @param \phpseclib3\Math\BigInteger $e
+     * @param \phpseclib3\Math\BigInteger $d
+     * @param array $primes
+     * @param array $exponents
+     * @param array $coefficients
+     * @param string $password optional
+     * @return string
+     */
+    public static function savePrivateKey(BigInteger $n, BigInteger $e, BigInteger $d, array $primes, array $exponents, array $coefficients, $password = '')
+    {
+        if (count($primes) != 2) {
+            throw new \InvalidArgumentException('MSBLOB does not support multi-prime RSA keys');
+        }
+
+        if (!empty($password) && is_string($password)) {
+            throw new UnsupportedFormatException('MSBLOB private keys do not support encryption');
+        }
+
+        $n = strrev($n->toBytes());
+        $e = str_pad(strrev($e->toBytes()), 4, "\0");
+        $key = pack('aavV', chr(self::PRIVATEKEYBLOB), chr(2), 0, self::CALG_RSA_KEYX);
+        $key.= pack('VVa*', self::RSA2, 8 * strlen($n), $e);
+        $key.= $n;
+        $key.= strrev($primes[1]->toBytes());
+        $key.= strrev($primes[2]->toBytes());
+        $key.= strrev($exponents[1]->toBytes());
+        $key.= strrev($exponents[2]->toBytes());
+        $key.= strrev($coefficients[2]->toBytes());
+        $key.= strrev($d->toBytes());
+
+        return Base64::encode($key);
+    }
+
+    /**
+     * Convert a public key to the appropriate format
+     *
+     * @access public
+     * @param \phpseclib3\Math\BigInteger $n
+     * @param \phpseclib3\Math\BigInteger $e
+     * @return string
+     */
+    public static function savePublicKey(BigInteger $n, BigInteger $e)
+    {
+        $n = strrev($n->toBytes());
+        $e = str_pad(strrev($e->toBytes()), 4, "\0");
+        $key = pack('aavV', chr(self::PUBLICKEYBLOB), chr(2), 0, self::CALG_RSA_KEYX);
+        $key.= pack('VVa*', self::RSA1, 8 * strlen($n), $e);
+        $key.= $n;
+
+        return Base64::encode($key);
+    }
+}

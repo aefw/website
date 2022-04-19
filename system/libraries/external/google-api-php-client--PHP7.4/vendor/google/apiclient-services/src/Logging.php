@@ -1,186 +1,2382 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for Logging (v2).
+ *
+ * <p>
+ * Writes log entries and manages your Cloud Logging configuration. The table
+ * entries below are presented in alphabetical order, not in order of common
+ * use. For explanations of the concepts found in the table entries, read the
+ * documentation at https://cloud.google.com/logging/docs.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/logging/docs/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class Logging extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+  /** View your data across Google Cloud Platform services. */
+  const CLOUD_PLATFORM_READ_ONLY =
+      "https://www.googleapis.com/auth/cloud-platform.read-only";
+  /** Administrate log data for your projects. */
+  const LOGGING_ADMIN =
+      "https://www.googleapis.com/auth/logging.admin";
+  /** View log data for your projects. */
+  const LOGGING_READ =
+      "https://www.googleapis.com/auth/logging.read";
+  /** Submit log data for your projects. */
+  const LOGGING_WRITE =
+      "https://www.googleapis.com/auth/logging.write";
+
+  public $billingAccounts_buckets;
+  public $billingAccounts_buckets_views;
+  public $billingAccounts_exclusions;
+  public $billingAccounts_locations;
+  public $billingAccounts_locations_buckets;
+  public $billingAccounts_locations_buckets_views;
+  public $billingAccounts_logs;
+  public $billingAccounts_sinks;
+  public $entries;
+  public $exclusions;
+  public $folders_exclusions;
+  public $folders_locations;
+  public $folders_locations_buckets;
+  public $folders_locations_buckets_views;
+  public $folders_logs;
+  public $folders_sinks;
+  public $locations;
+  public $locations_buckets;
+  public $locations_buckets_views;
+  public $logs;
+  public $monitoredResourceDescriptors;
+  public $organizations;
+  public $organizations_exclusions;
+  public $organizations_locations;
+  public $organizations_locations_buckets;
+  public $organizations_locations_buckets_views;
+  public $organizations_logs;
+  public $organizations_sinks;
+  public $projects_exclusions;
+  public $projects_locations;
+  public $projects_locations_buckets;
+  public $projects_locations_buckets_views;
+  public $projects_logs;
+  public $projects_metrics;
+  public $projects_sinks;
+  public $sinks;
+  public $v2;
+
+  /**
+   * Constructs the internal representation of the Logging service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://logging.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v2';
+    $this->serviceName = 'logging';
+
+    $this->billingAccounts_buckets = new Logging\Resource\BillingAccountsBuckets(
+        $this,
+        $this->serviceName,
+        'buckets',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->billingAccounts_buckets_views = new Logging\Resource\BillingAccountsBucketsViews(
+        $this,
+        $this->serviceName,
+        'views',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->billingAccounts_exclusions = new Logging\Resource\BillingAccountsExclusions(
+        $this,
+        $this->serviceName,
+        'exclusions',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v2/{+parent}/exclusions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v2/{+parent}/exclusions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->billingAccounts_locations = new Logging\Resource\BillingAccountsLocations(
+        $this,
+        $this->serviceName,
+        'locations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v2/{+name}/locations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->billingAccounts_locations_buckets = new Logging\Resource\BillingAccountsLocationsBuckets(
+        $this,
+        $this->serviceName,
+        'buckets',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v2/{+parent}/buckets',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'bucketId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v2/{+parent}/buckets',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'undelete' => [
+              'path' => 'v2/{+name}:undelete',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->billingAccounts_locations_buckets_views = new Logging\Resource\BillingAccountsLocationsBucketsViews(
+        $this,
+        $this->serviceName,
+        'views',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v2/{+parent}/views',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'viewId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v2/{+parent}/views',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->billingAccounts_logs = new Logging\Resource\BillingAccountsLogs(
+        $this,
+        $this->serviceName,
+        'logs',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'v2/{+logName}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'logName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v2/{+parent}/logs',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'resourceNames' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->billingAccounts_sinks = new Logging\Resource\BillingAccountsSinks(
+        $this,
+        $this->serviceName,
+        'sinks',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v2/{+parent}/sinks',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'uniqueWriterIdentity' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v2/{+sinkName}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'sinkName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v2/{+sinkName}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'sinkName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v2/{+parent}/sinks',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v2/{+sinkName}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'sinkName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'uniqueWriterIdentity' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'v2/{+sinkName}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'sinkName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'uniqueWriterIdentity' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->entries = new Logging\Resource\Entries(
+        $this,
+        $this->serviceName,
+        'entries',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v2/entries:list',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'tail' => [
+              'path' => 'v2/entries:tail',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'write' => [
+              'path' => 'v2/entries:write',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],
+          ]
+        ]
+    );
+    $this->exclusions = new Logging\Resource\Exclusions(
+        $this,
+        $this->serviceName,
+        'exclusions',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v2/{+parent}/exclusions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v2/{+parent}/exclusions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->folders_exclusions = new Logging\Resource\FoldersExclusions(
+        $this,
+        $this->serviceName,
+        'exclusions',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v2/{+parent}/exclusions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v2/{+parent}/exclusions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->folders_locations = new Logging\Resource\FoldersLocations(
+        $this,
+        $this->serviceName,
+        'locations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v2/{+name}/locations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->folders_locations_buckets = new Logging\Resource\FoldersLocationsBuckets(
+        $this,
+        $this->serviceName,
+        'buckets',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v2/{+parent}/buckets',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'bucketId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v2/{+parent}/buckets',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'undelete' => [
+              'path' => 'v2/{+name}:undelete',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->folders_locations_buckets_views = new Logging\Resource\FoldersLocationsBucketsViews(
+        $this,
+        $this->serviceName,
+        'views',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v2/{+parent}/views',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'viewId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v2/{+parent}/views',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->folders_logs = new Logging\Resource\FoldersLogs(
+        $this,
+        $this->serviceName,
+        'logs',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'v2/{+logName}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'logName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v2/{+parent}/logs',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'resourceNames' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->folders_sinks = new Logging\Resource\FoldersSinks(
+        $this,
+        $this->serviceName,
+        'sinks',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v2/{+parent}/sinks',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'uniqueWriterIdentity' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v2/{+sinkName}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'sinkName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v2/{+sinkName}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'sinkName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v2/{+parent}/sinks',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v2/{+sinkName}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'sinkName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'uniqueWriterIdentity' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'v2/{+sinkName}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'sinkName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'uniqueWriterIdentity' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->locations = new Logging\Resource\Locations(
+        $this,
+        $this->serviceName,
+        'locations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v2/{+name}/locations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->locations_buckets = new Logging\Resource\LocationsBuckets(
+        $this,
+        $this->serviceName,
+        'buckets',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v2/{+parent}/buckets',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'bucketId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v2/{+parent}/buckets',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'undelete' => [
+              'path' => 'v2/{+name}:undelete',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->locations_buckets_views = new Logging\Resource\LocationsBucketsViews(
+        $this,
+        $this->serviceName,
+        'views',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v2/{+parent}/views',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'viewId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v2/{+parent}/views',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->logs = new Logging\Resource\Logs(
+        $this,
+        $this->serviceName,
+        'logs',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'v2/{+logName}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'logName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v2/{+parent}/logs',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'resourceNames' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->monitoredResourceDescriptors = new Logging\Resource\MonitoredResourceDescriptors(
+        $this,
+        $this->serviceName,
+        'monitoredResourceDescriptors',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v2/monitoredResourceDescriptors',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations = new Logging\Resource\Organizations(
+        $this,
+        $this->serviceName,
+        'organizations',
+        [
+          'methods' => [
+            'getCmekSettings' => [
+              'path' => 'v2/{+name}/cmekSettings',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'updateCmekSettings' => [
+              'path' => 'v2/{+name}/cmekSettings',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_exclusions = new Logging\Resource\OrganizationsExclusions(
+        $this,
+        $this->serviceName,
+        'exclusions',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v2/{+parent}/exclusions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v2/{+parent}/exclusions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_locations = new Logging\Resource\OrganizationsLocations(
+        $this,
+        $this->serviceName,
+        'locations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v2/{+name}/locations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_locations_buckets = new Logging\Resource\OrganizationsLocationsBuckets(
+        $this,
+        $this->serviceName,
+        'buckets',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v2/{+parent}/buckets',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'bucketId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v2/{+parent}/buckets',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'undelete' => [
+              'path' => 'v2/{+name}:undelete',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_locations_buckets_views = new Logging\Resource\OrganizationsLocationsBucketsViews(
+        $this,
+        $this->serviceName,
+        'views',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v2/{+parent}/views',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'viewId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v2/{+parent}/views',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_logs = new Logging\Resource\OrganizationsLogs(
+        $this,
+        $this->serviceName,
+        'logs',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'v2/{+logName}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'logName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v2/{+parent}/logs',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'resourceNames' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_sinks = new Logging\Resource\OrganizationsSinks(
+        $this,
+        $this->serviceName,
+        'sinks',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v2/{+parent}/sinks',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'uniqueWriterIdentity' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v2/{+sinkName}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'sinkName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v2/{+sinkName}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'sinkName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v2/{+parent}/sinks',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v2/{+sinkName}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'sinkName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'uniqueWriterIdentity' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'v2/{+sinkName}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'sinkName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'uniqueWriterIdentity' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_exclusions = new Logging\Resource\ProjectsExclusions(
+        $this,
+        $this->serviceName,
+        'exclusions',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v2/{+parent}/exclusions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v2/{+parent}/exclusions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations = new Logging\Resource\ProjectsLocations(
+        $this,
+        $this->serviceName,
+        'locations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v2/{+name}/locations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_buckets = new Logging\Resource\ProjectsLocationsBuckets(
+        $this,
+        $this->serviceName,
+        'buckets',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v2/{+parent}/buckets',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'bucketId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v2/{+parent}/buckets',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'undelete' => [
+              'path' => 'v2/{+name}:undelete',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_buckets_views = new Logging\Resource\ProjectsLocationsBucketsViews(
+        $this,
+        $this->serviceName,
+        'views',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v2/{+parent}/views',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'viewId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v2/{+parent}/views',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_logs = new Logging\Resource\ProjectsLogs(
+        $this,
+        $this->serviceName,
+        'logs',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'v2/{+logName}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'logName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v2/{+parent}/logs',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'resourceNames' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_metrics = new Logging\Resource\ProjectsMetrics(
+        $this,
+        $this->serviceName,
+        'metrics',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v2/{+parent}/metrics',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v2/{+metricName}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'metricName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v2/{+metricName}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'metricName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v2/{+parent}/metrics',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'v2/{+metricName}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'metricName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_sinks = new Logging\Resource\ProjectsSinks(
+        $this,
+        $this->serviceName,
+        'sinks',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v2/{+parent}/sinks',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'uniqueWriterIdentity' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v2/{+sinkName}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'sinkName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v2/{+sinkName}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'sinkName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v2/{+parent}/sinks',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v2/{+sinkName}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'sinkName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'uniqueWriterIdentity' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'v2/{+sinkName}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'sinkName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'uniqueWriterIdentity' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->sinks = new Logging\Resource\Sinks(
+        $this,
+        $this->serviceName,
+        'sinks',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v2/{+parent}/sinks',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'uniqueWriterIdentity' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v2/{+sinkName}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'sinkName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v2/{+sinkName}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'sinkName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v2/{+parent}/sinks',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'v2/{+sinkName}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'sinkName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'uniqueWriterIdentity' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->v2 = new Logging\Resource\V2(
+        $this,
+        $this->serviceName,
+        'v2',
+        [
+          'methods' => [
+            'getCmekSettings' => [
+              'path' => 'v2/{+name}/cmekSettings',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'updateCmekSettings' => [
+              'path' => 'v2/{+name}/cmekSettings',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Logging::class, 'Google_Service_Logging');

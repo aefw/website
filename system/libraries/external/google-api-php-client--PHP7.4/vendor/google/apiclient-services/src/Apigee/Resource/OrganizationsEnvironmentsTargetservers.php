@@ -1,64 +1,103 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Apigee\Resource;
+
+use Google\Service\Apigee\GoogleCloudApigeeV1TargetServer;
+
+/**
+ * The "targetservers" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $apigeeService = new Google\Service\Apigee(...);
+ *   $targetservers = $apigeeService->targetservers;
+ *  </code>
+ */
+class OrganizationsEnvironmentsTargetservers extends \Google\Service\Resource
+{
+  /**
+   * Creates a TargetServer in the specified environment. (targetservers.create)
+   *
+   * @param string $parent Required. The parent environment name under which the
+   * TargetServer will be created. Must be of the form
+   * `organizations/{org}/environments/{env}`.
+   * @param GoogleCloudApigeeV1TargetServer $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string name Optional. The ID to give the TargetServer. This will
+   * overwrite the value in TargetServer.
+   * @return GoogleCloudApigeeV1TargetServer
+   */
+  public function create($parent, GoogleCloudApigeeV1TargetServer $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleCloudApigeeV1TargetServer::class);
+  }
+  /**
+   * Deletes a TargetServer from an environment. Returns the deleted TargetServer
+   * resource. (targetservers.delete)
+   *
+   * @param string $name Required. The name of the TargetServer to delete. Must be
+   * of the form
+   * `organizations/{org}/environments/{env}/targetservers/{target_server_id}`.
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1TargetServer
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleCloudApigeeV1TargetServer::class);
+  }
+  /**
+   * Gets a TargetServer resource. (targetservers.get)
+   *
+   * @param string $name Required. The name of the TargetServer to get. Must be of
+   * the form
+   * `organizations/{org}/environments/{env}/targetservers/{target_server_id}`.
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1TargetServer
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudApigeeV1TargetServer::class);
+  }
+  /**
+   * Updates an existing TargetServer. Note that this operation has PUT semantics;
+   * it will replace the entirety of the existing TargetServer with the resource
+   * in the request body. (targetservers.update)
+   *
+   * @param string $name Required. The name of the TargetServer to replace. Must
+   * be of the form
+   * `organizations/{org}/environments/{env}/targetservers/{target_server_id}`.
+   * @param GoogleCloudApigeeV1TargetServer $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1TargetServer
+   */
+  public function update($name, GoogleCloudApigeeV1TargetServer $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], GoogleCloudApigeeV1TargetServer::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(OrganizationsEnvironmentsTargetservers::class, 'Google_Service_Apigee_Resource_OrganizationsEnvironmentsTargetservers');

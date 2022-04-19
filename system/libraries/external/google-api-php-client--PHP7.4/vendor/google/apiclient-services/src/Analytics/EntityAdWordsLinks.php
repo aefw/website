@@ -1,66 +1,97 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Analytics;
+
+class EntityAdWordsLinks extends \Google\Collection
+{
+  protected $collection_key = 'items';
+  protected $itemsType = EntityAdWordsLink::class;
+  protected $itemsDataType = 'array';
+  public $itemsPerPage;
+  public $kind;
+  public $nextLink;
+  public $previousLink;
+  public $startIndex;
+  public $totalResults;
+
+  /**
+   * @param EntityAdWordsLink[]
+   */
+  public function setItems($items)
+  {
+    $this->items = $items;
+  }
+  /**
+   * @return EntityAdWordsLink[]
+   */
+  public function getItems()
+  {
+    return $this->items;
+  }
+  public function setItemsPerPage($itemsPerPage)
+  {
+    $this->itemsPerPage = $itemsPerPage;
+  }
+  public function getItemsPerPage()
+  {
+    return $this->itemsPerPage;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setNextLink($nextLink)
+  {
+    $this->nextLink = $nextLink;
+  }
+  public function getNextLink()
+  {
+    return $this->nextLink;
+  }
+  public function setPreviousLink($previousLink)
+  {
+    $this->previousLink = $previousLink;
+  }
+  public function getPreviousLink()
+  {
+    return $this->previousLink;
+  }
+  public function setStartIndex($startIndex)
+  {
+    $this->startIndex = $startIndex;
+  }
+  public function getStartIndex()
+  {
+    return $this->startIndex;
+  }
+  public function setTotalResults($totalResults)
+  {
+    $this->totalResults = $totalResults;
+  }
+  public function getTotalResults()
+  {
+    return $this->totalResults;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(EntityAdWordsLinks::class, 'Google_Service_Analytics_EntityAdWordsLinks');

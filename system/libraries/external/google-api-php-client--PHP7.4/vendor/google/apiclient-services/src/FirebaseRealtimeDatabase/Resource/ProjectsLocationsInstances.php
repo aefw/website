@@ -1,77 +1,167 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-cCU8rTcY660dooEJgQ0tD3Ayu5OeB0==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\FirebaseRealtimeDatabase\Resource;
+
+use Google\Service\FirebaseRealtimeDatabase\DatabaseInstance;
+use Google\Service\FirebaseRealtimeDatabase\DisableDatabaseInstanceRequest;
+use Google\Service\FirebaseRealtimeDatabase\ListDatabaseInstancesResponse;
+use Google\Service\FirebaseRealtimeDatabase\ReenableDatabaseInstanceRequest;
+
+/**
+ * The "instances" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $firebasedatabaseService = new Google\Service\FirebaseRealtimeDatabase(...);
+ *   $instances = $firebasedatabaseService->instances;
+ *  </code>
+ */
+class ProjectsLocationsInstances extends \Google\Service\Resource
+{
+  /**
+   * Requests that a new DatabaseInstance be created. The state of a successfully
+   * created DatabaseInstance is ACTIVE. Only available for projects on the Blaze
+   * plan. Projects can be upgraded using the Cloud Billing API https://cloud.goog
+   * le.com/billing/reference/rest/v1/projects/updateBillingInfo. Note that it
+   * might take a few minutes for billing enablement state to propagate to
+   * Firebase systems. (instances.create)
+   *
+   * @param string $parent The parent project for which to create a database
+   * instance, in the form: `projects/{project-number}/locations/{location-id}`.
+   * @param DatabaseInstance $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string databaseId The globally unique identifier of the database
+   * instance.
+   * @opt_param bool validateOnly When set to true, the request will be validated
+   * but not submitted.
+   * @return DatabaseInstance
+   */
+  public function create($parent, DatabaseInstance $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], DatabaseInstance::class);
+  }
+  /**
+   * Marks a DatabaseInstance to be deleted. The DatabaseInstance will be purged
+   * within 30 days. The default database cannot be deleted. IDs for deleted
+   * database instances may never be recovered or re-used. The Database may only
+   * be deleted if it is already in a DISABLED state. (instances.delete)
+   *
+   * @param string $name The fully qualified resource name of the database
+   * instance, in the form: `projects/{project-number}/locations/{location-
+   * id}/instances/{database-id}`
+   * @param array $optParams Optional parameters.
+   * @return DatabaseInstance
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], DatabaseInstance::class);
+  }
+  /**
+   * Disables a DatabaseInstance. The database can be re-enabled later using
+   * ReenableDatabaseInstance. When a database is disabled, all reads and writes
+   * are denied, including view access in the Firebase console.
+   * (instances.disable)
+   *
+   * @param string $name The fully qualified resource name of the database
+   * instance, in the form: `projects/{project-number}/locations/{location-
+   * id}/instances/{database-id}`
+   * @param DisableDatabaseInstanceRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return DatabaseInstance
+   */
+  public function disable($name, DisableDatabaseInstanceRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('disable', [$params], DatabaseInstance::class);
+  }
+  /**
+   * Gets the DatabaseInstance identified by the specified resource name.
+   * (instances.get)
+   *
+   * @param string $name The fully qualified resource name of the database
+   * instance, in the form: `projects/{project-number}/locations/{location-
+   * id}/instances/{database-id}`. `database-id` is a globally unique identifier
+   * across all parent collections. For convenience, this method allows you to
+   * supply `-` as a wildcard character in place of specific collections under
+   * `projects` and `locations`. The resulting wildcarding form of the method is:
+   * `projects/-/locations/-/instances/{database-id}`.
+   * @param array $optParams Optional parameters.
+   * @return DatabaseInstance
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], DatabaseInstance::class);
+  }
+  /**
+   * Lists each DatabaseInstance associated with the specified parent project. The
+   * list items are returned in no particular order, but will be a consistent view
+   * of the database instances when additional requests are made with a
+   * `pageToken`. The resulting list contains instances in any STATE. The list
+   * results may be stale by a few seconds. Use GetDatabaseInstance for consistent
+   * reads. (instances.listProjectsLocationsInstances)
+   *
+   * @param string $parent The parent project for which to list database
+   * instances, in the form: `projects/{project-number}/locations/{location-id}`
+   * To list across all locations, use a parent in the form: `projects/{project-
+   * number}/locations/-`
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The maximum number of database instances to return in
+   * the response. The server may return fewer than this at its discretion. If no
+   * value is specified (or too large a value is specified), then the server will
+   * impose its own limit.
+   * @opt_param string pageToken Token returned from a previous call to
+   * `ListDatabaseInstances` indicating where in the set of database instances to
+   * resume listing.
+   * @return ListDatabaseInstancesResponse
+   */
+  public function listProjectsLocationsInstances($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListDatabaseInstancesResponse::class);
+  }
+  /**
+   * Enables a DatabaseInstance. The database must have been disabled previously
+   * using DisableDatabaseInstance. The state of a successfully reenabled
+   * DatabaseInstance is ACTIVE. (instances.reenable)
+   *
+   * @param string $name The fully qualified resource name of the database
+   * instance, in the form: `projects/{project-number}/locations/{location-
+   * id}/instances/{database-id}`
+   * @param ReenableDatabaseInstanceRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return DatabaseInstance
+   */
+  public function reenable($name, ReenableDatabaseInstanceRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('reenable', [$params], DatabaseInstance::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsInstances::class, 'Google_Service_FirebaseRealtimeDatabase_Resource_ProjectsLocationsInstances');

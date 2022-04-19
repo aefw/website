@@ -1,67 +1,227 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute\Resource;
+
+use Google\Service\Compute\Operation;
+use Google\Service\Compute\SslCertificate;
+use Google\Service\Compute\SslCertificateAggregatedList;
+use Google\Service\Compute\SslCertificateList;
+
+/**
+ * The "sslCertificates" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $computeService = new Google\Service\Compute(...);
+ *   $sslCertificates = $computeService->sslCertificates;
+ *  </code>
+ */
+class SslCertificates extends \Google\Service\Resource
+{
+  /**
+   * Retrieves the list of all SslCertificate resources, regional and global,
+   * available to the specified project. (sslCertificates.aggregatedList)
+   *
+   * @param string $project Name of the project scoping this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param bool includeAllScopes Indicates whether every visible scope for
+   * each scope type (zone, region, global) should be included in the response.
+   * For new resource types added after this field, the flag has no effect as new
+   * resource types will always include every visible scope for each scope type in
+   * response. For resource types which predate this field, if this flag is
+   * omitted or false, only scopes of the scope types where the resource type is
+   * expected to be found will be included.
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return SslCertificateAggregatedList
+   */
+  public function aggregatedList($project, $optParams = [])
+  {
+    $params = ['project' => $project];
+    $params = array_merge($params, $optParams);
+    return $this->call('aggregatedList', [$params], SslCertificateAggregatedList::class);
+  }
+  /**
+   * Deletes the specified SslCertificate resource. (sslCertificates.delete)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $sslCertificate Name of the SslCertificate resource to delete.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function delete($project, $sslCertificate, $optParams = [])
+  {
+    $params = ['project' => $project, 'sslCertificate' => $sslCertificate];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Returns the specified SslCertificate resource. Gets a list of available SSL
+   * certificates by making a list() request. (sslCertificates.get)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $sslCertificate Name of the SslCertificate resource to return.
+   * @param array $optParams Optional parameters.
+   * @return SslCertificate
+   */
+  public function get($project, $sslCertificate, $optParams = [])
+  {
+    $params = ['project' => $project, 'sslCertificate' => $sslCertificate];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], SslCertificate::class);
+  }
+  /**
+   * Creates a SslCertificate resource in the specified project using the data
+   * included in the request. (sslCertificates.insert)
+   *
+   * @param string $project Project ID for this request.
+   * @param SslCertificate $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function insert($project, SslCertificate $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Operation::class);
+  }
+  /**
+   * Retrieves the list of SslCertificate resources available to the specified
+   * project. (sslCertificates.listSslCertificates)
+   *
+   * @param string $project Project ID for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return SslCertificateList
+   */
+  public function listSslCertificates($project, $optParams = [])
+  {
+    $params = ['project' => $project];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], SslCertificateList::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(SslCertificates::class, 'Google_Service_Compute_Resource_SslCertificates');

@@ -1,412 +1,932 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+declare(strict_types=1);
+
+/**
+ *--------------------------------------------------------------------
+ *
+ * Sub-Class - Code 128, A, B, C
+ *
+ * # Code C Working properly only on PHP4 or PHP5.0.3+ due to bug :
+ * http://bugs.php.net/bug.php?id=28862
+ *
+ * !! Warning !!
+ * If you display the checksum on the label, you may obtain
+ * some garbage since some characters are not displayable.
+ *
+ *--------------------------------------------------------------------
+ * Copyright (C) Jean-Sebastien Goupil
+ * http://www.barcodebakery.com
+ */
+namespace BarcodeBakery\Barcode;
+
+use BarcodeBakery\Common\BCGBarcode1D;
+use BarcodeBakery\Common\BCGArgumentException;
+use BarcodeBakery\Common\BCGParseException;
+
+define('CODE128_A', 1);            // Table A
+define('CODE128_B', 2);            // Table B
+define('CODE128_C', 3);            // Table C
+class BCGcode128 extends BCGBarcode1D
+{
+    const CODE128_A = 1;
+    const CODE128_B = 2;
+    const CODE128_C = 3;
+
+    // TODO assign private to these const. PHP 7.1
+    const KEYA_FNC3 = 96;
+    const KEYA_FNC2 = 97;
+    const KEYA_SHIFT = 98;
+    const KEYA_CODEC = 99;
+    const KEYA_CODEB = 100;
+    const KEYA_FNC4 = 101;
+    const KEYA_FNC1 = 102;
+
+    const KEYB_FNC3 = 96;
+    const KEYB_FNC2 = 97;
+    const KEYB_SHIFT = 98;
+    const KEYB_CODEC = 99;
+    const KEYB_FNC4 = 100;
+    const KEYB_CODEA = 101;
+    const KEYB_FNC1 = 102;
+
+    const KEYC_CODEB = 100;
+    const KEYC_CODEA = 101;
+    const KEYC_FNC1 = 102;
+
+    const KEY_STARTA = 103;
+    const KEY_STARTB = 104;
+    const KEY_STARTC = 105;
+
+    const KEY_STOP = 106;
+
+    protected $keysA;
+    protected $keysB;
+    protected $keysC;
+    private $starting_text;
+    private $indcheck;
+    private $data;
+    private $lastTable;
+    private $tilde;
+
+    private $shift;
+    private $latch;
+    private $fnc;
+
+    private $METHOD            = null; // Array of method available to create Code128 (CODE128_A, CODE128_B, CODE128_C)
+
+    /**
+     * Constructor.
+     *
+     * @param char $start
+     */
+    public function __construct($start = null)
+    {
+        parent::__construct();
+
+        /* CODE 128 A */
+        $this->keysA = ' !"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_';
+        for ($i = 0; $i < 32; $i++) {
+            $this->keysA .= chr($i);
+        }
+
+        /* CODE 128 B */
+        $this->keysB = ' !"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~' . chr(127);
+
+        /* CODE 128 C */
+        $this->keysC = '0123456789';
+
+        $this->code = array(
+            '101111',   /* 00 */
+            '111011',   /* 01 */
+            '111110',   /* 02 */
+            '010112',   /* 03 */
+            '010211',   /* 04 */
+            '020111',   /* 05 */
+            '011102',   /* 06 */
+            '011201',   /* 07 */
+            '021101',   /* 08 */
+            '110102',   /* 09 */
+            '110201',   /* 10 */
+            '120101',   /* 11 */
+            '001121',   /* 12 */
+            '011021',   /* 13 */
+            '011120',   /* 14 */
+            '002111',   /* 15 */
+            '012011',   /* 16 */
+            '012110',   /* 17 */
+            '112100',   /* 18 */
+            '110021',   /* 19 */
+            '110120',   /* 20 */
+            '102101',   /* 21 */
+            '112001',   /* 22 */
+            '201020',   /* 23 */
+            '200111',   /* 24 */
+            '210011',   /* 25 */
+            '210110',   /* 26 */
+            '201101',   /* 27 */
+            '211001',   /* 28 */
+            '211100',   /* 29 */
+            '101012',   /* 30 */
+            '101210',   /* 31 */
+            '121010',   /* 32 */
+            '000212',   /* 33 */
+            '020012',   /* 34 */
+            '020210',   /* 35 */
+            '001202',   /* 36 */
+            '021002',   /* 37 */
+            '021200',   /* 38 */
+            '100202',   /* 39 */
+            '120002',   /* 40 */
+            '120200',   /* 41 */
+            '001022',   /* 42 */
+            '001220',   /* 43 */
+            '021020',   /* 44 */
+            '002012',   /* 45 */
+            '002210',   /* 46 */
+            '022010',   /* 47 */
+            '202010',   /* 48 */
+            '100220',   /* 49 */
+            '120020',   /* 50 */
+            '102002',   /* 51 */
+            '102200',   /* 52 */
+            '102020',   /* 53 */
+            '200012',   /* 54 */
+            '200210',   /* 55 */
+            '220010',   /* 56 */
+            '201002',   /* 57 */
+            '201200',   /* 58 */
+            '221000',   /* 59 */
+            '203000',   /* 60 */
+            '110300',   /* 61 */
+            '320000',   /* 62 */
+            '000113',   /* 63 */
+            '000311',   /* 64 */
+            '010013',   /* 65 */
+            '010310',   /* 66 */
+            '030011',   /* 67 */
+            '030110',   /* 68 */
+            '001103',   /* 69 */
+            '001301',   /* 70 */
+            '011003',   /* 71 */
+            '011300',   /* 72 */
+            '031001',   /* 73 */
+            '031100',   /* 74 */
+            '130100',   /* 75 */
+            '110003',   /* 76 */
+            '302000',   /* 77 */
+            '130001',   /* 78 */
+            '023000',   /* 79 */
+            '000131',   /* 80 */
+            '010031',   /* 81 */
+            '010130',   /* 82 */
+            '003101',   /* 83 */
+            '013001',   /* 84 */
+            '013100',   /* 85 */
+            '300101',   /* 86 */
+            '310001',   /* 87 */
+            '310100',   /* 88 */
+            '101030',   /* 89 */
+            '103010',   /* 90 */
+            '301010',   /* 91 */
+            '000032',   /* 92 */
+            '000230',   /* 93 */
+            '020030',   /* 94 */
+            '003002',   /* 95 */
+            '003200',   /* 96 */
+            '300002',   /* 97 */
+            '300200',   /* 98 */
+            '002030',   /* 99 */
+            '003020',   /* 100*/
+            '200030',   /* 101*/
+            '300020',   /* 102*/
+            '100301',   /* 103*/
+            '100103',   /* 104*/
+            '100121',   /* 105*/
+            '122000'    /*STOP*/
+        );
+        $this->setStart($start);
+        $this->setTilde(true);
+
+        // Latches and Shifts
+        $this->latch = array(
+            array(null,             self::KEYA_CODEB,   self::KEYA_CODEC),
+            array(self::KEYB_CODEA, null,               self::KEYB_CODEC),
+            array(self::KEYC_CODEA, self::KEYC_CODEB,   null)
+        );
+        $this->shift = array(
+            array(null,             self::KEYA_SHIFT),
+            array(self::KEYB_SHIFT, null)
+        );
+        $this->fnc = array(
+            array(self::KEYA_FNC1,  self::KEYA_FNC2,    self::KEYA_FNC3,    self::KEYA_FNC4),
+            array(self::KEYB_FNC1,  self::KEYB_FNC2,    self::KEYB_FNC3,    self::KEYB_FNC4),
+            array(self::KEYC_FNC1,  null,               null,               null)
+        );
+
+        // Method available
+        $this->METHOD        = array(CODE128_A => 'A', CODE128_B => 'B', CODE128_C => 'C');
+    }
+
+    /**
+     * Specifies the start code. Can be 'A', 'B', 'C', or null
+     *  - Table A: Capitals + ASCII 0-31 + punct
+     *  - Table B: Capitals + LowerCase + punct
+     *  - Table C: Numbers
+     *
+     * If null is specified, the table selection is automatically made.
+     * The default is null.
+     *
+     * @param string $table
+     */
+    public function setStart($table)
+    {
+        if ($table !== 'A' && $table !== 'B' && $table !== 'C' && $table !== null) {
+            throw new BCGArgumentException('The starting table must be A, B, C or null.', 'table');
+        }
+
+        $this->starting_text = $table;
+    }
+
+    /**
+     * Gets the tilde.
+     *
+     * @return bool
+     */
+    public function getTilde()
+    {
+        return $this->tilde;
+    }
+
+    /**
+     * Accepts tilde to be process as a special character.
+     * If true, you can do this:
+     *  - ~~     : to make ONE tilde
+     *  - ~Fx    : to insert FCNx. x is equal from 1 to 4.
+     *
+     * @param boolean $accept
+     */
+    public function setTilde($accept)
+    {
+        $this->tilde = (bool)$accept;
+    }
+
+    /**
+     * Parses the text before displaying it.
+     *
+     * @param mixed $text
+     */
+    public function parse($text)
+    {
+        $this->setStartFromText($text);
+
+        $this->text = '';
+        $seq = '';
+
+        $currentMode = $this->starting_text;
+
+        // Here, we format correctly what the user gives.
+        if (!is_array($text)) {
+            $seq = $this->getSequence($text, $currentMode);
+            $this->text = $text;
+        } else {
+            // This loop checks for UnknownText AND raises an exception if a character is not allowed in a table
+            $ao = new \ArrayObject($text);
+            $it = $ao->getIterator();
+            while ($it->valid()) { // We take each value
+                $val1 = $it->current();
+                if (!is_array($val1)) {                    // This is not a table
+                    if (is_string($val1)) {                // If it's a string, parse as unknown
+                        $seq .= $this->getSequence($val1, $currentMode);
+                        $this->text .= $val1;
+                    } else {
+                        // it's the case of "array(ENCODING, 'text')"
+                        // We got ENCODING in $val1, getting the next in $val2
+                        $it->next();
+                        $val2 = $it->current();
+                        $seq .= $this->{'setParse' . $this->METHOD[$val1]}($val2, $currentMode);
+                        $this->text .= $val2;
+                    }
+                } else {                        // The method is specified
+                    // $val1[0] = ENCODING
+                    // $val1[1] = 'text'
+                    $value = isset($val1[1]) ? $val1[1] : '';    // If data available
+                    $seq .= $this->{'setParse' . $this->METHOD[$val1[0]]}($value, $currentMode);
+                    $this->text .= $value;
+                }
+
+                $it->next();
+            }
+        }
+
+        if ($seq !== '') {
+            $bitstream = $this->createBinaryStream($this->text, $seq);
+            $this->setData($bitstream);
+        }
+
+        $this->addDefaultLabel();
+    }
+
+    /**
+     * Draws the barcode.
+     *
+     * @param resource $im
+     */
+    public function draw($im)
+    {
+        $c = count($this->data);
+        for ($i = 0; $i < $c; $i++) {
+            $this->drawChar($im, $this->data[$i], true);
+        }
+
+        $this->drawChar($im, '1', true);
+        $this->drawText($im, 0, 0, $this->positionX, $this->thickness);
+    }
+
+    /**
+     * Returns the maximal size of a barcode.
+     *
+     * @param int $w
+     * @param int $h
+     * @return int[]
+     */
+    public function getDimension($w, $h)
+    {
+        // Contains start + text + checksum + stop
+        $textlength = count($this->data) * 11;
+        $endlength = 2; // + final bar
+
+        $w += $textlength + $endlength;
+        $h += $this->thickness;
+        return parent::getDimension($w, $h);
+    }
+
+    /**
+     * Validates the input.
+     */
+    protected function validate()
+    {
+        $c = count($this->data);
+        if ($c === 0) {
+            throw new BCGParseException('code128', 'No data has been entered.');
+        }
+
+        parent::validate();
+    }
+
+    /**
+     * Overloaded method to calculate checksum.
+     */
+    protected function calculateChecksum()
+    {
+        // Checksum
+        // First Char (START)
+        // + Starting with the first data character following the start character,
+        // take the value of the character (between 0 and 102, inclusive) multiply
+        // it by its character position (1) and add that to the running checksum.
+        // Modulated 103
+        $this->checksumValue = $this->indcheck[0];
+        $c = count($this->indcheck);
+        for ($i = 1; $i < $c; $i++) {
+            $this->checksumValue += $this->indcheck[$i] * $i;
+        }
+
+        $this->checksumValue = $this->checksumValue % 103;
+    }
+
+    /**
+     * Overloaded method to display the checksum.
+     */
+    protected function processChecksum()
+    {
+        if ($this->checksumValue === false) { // Calculate the checksum only once
+            $this->calculateChecksum();
+        }
+
+        if ($this->checksumValue !== false) {
+            if ($this->lastTable === 'C') {
+                return (string)$this->checksumValue;
+            }
+
+            return $this->{'keys' . $this->lastTable}[$this->checksumValue];
+        }
+
+        return false;
+    }
+
+    /**
+     * Specifies the starting_text table if none has been specified earlier.
+     *
+     * @param string $text
+     */
+    private function setStartFromText($text)
+    {
+        if ($this->starting_text === null) {
+            // If we have a forced table at the start, we get that one...
+            if (is_array($text)) {
+                if (is_array($text[0])) {
+                    // Code like array(array(ENCODING, ''))
+                    $this->starting_text = $this->METHOD[$text[0][0]];
+                    return;
+                } else {
+                    if (is_string($text[0])) {
+                        // Code like array('test') (Automatic text)
+                        $text = $text[0];
+                    } else {
+                        // Code like array(ENCODING, '')
+                        $this->starting_text = $this->METHOD[$text[0]];
+                        return;
+                    }
+                }
+            }
+
+            // At this point, we had an "automatic" table selection...
+            // If we can get at least 4 numbers, go in C; otherwise go in B.
+            $tmp = preg_quote($this->keysC, '/');
+            $length = strlen($text);
+            if ($length >= 4 && preg_match('/[' . $tmp . ']/', substr($text, 0, 4))) {
+                $this->starting_text = 'C';
+            } else {
+                if ($length > 0 && strpos($this->keysB, $text[0]) !== false) {
+                    $this->starting_text = 'B';
+                } else {
+                    $this->starting_text = 'A';
+                }
+            }
+        }
+    }
+
+    /**
+     * Extracts the ~ value from the $text at the $pos.
+     * If the tilde is not ~~, ~F1, ~F2, ~F3, ~F4; an error is raised.
+     *
+     * @param string $text
+     * @param int $pos
+     * @return string
+     */
+    private static function extractTilde($text, $pos)
+    {
+        if ($text[$pos] === '~') {
+            if (isset($text[$pos + 1])) {
+                // Do we have a tilde?
+                if ($text[$pos + 1] === '~') {
+                    return '~~';
+                } elseif ($text[$pos + 1] === 'F') {
+                    // Do we have a number after?
+                    if (isset($text[$pos + 2])) {
+                        $v = intval($text[$pos + 2]);
+                        if ($v >= 1 && $v <= 4) {
+                            return '~F' . $v;
+                        } else {
+                            throw new BCGParseException('code128', 'Bad ~F. You must provide a number from 1 to 4.');
+                        }
+                    } else {
+                        throw new BCGParseException('code128', 'Bad ~F. You must provide a number from 1 to 4.');
+                    }
+                } else {
+                    throw new BCGParseException('code128', 'Wrong code after the ~.');
+                }
+            } else {
+                throw new BCGParseException('code128', 'Wrong code after the ~.');
+            }
+        } else {
+            throw new BCGParseException('code128', 'There is no ~ at this location.');
+        }
+    }
+
+    /**
+     * Gets the "dotted" sequence for the $text based on the $currentMode.
+     * There is also a check if we use the special tilde ~
+     *
+     * @param string $text
+     * @param string $currentMode
+     * @return string
+     */
+    private function getSequenceParsed($text, $currentMode)
+    {
+        if ($this->tilde) {
+            $sequence = '';
+            $previousPos = 0;
+            while (($pos = strpos($text, '~', $previousPos)) !== false) {
+                $tildeData = self::extractTilde($text, $pos);
+
+                $simpleTilde = ($tildeData === '~~');
+                if ($simpleTilde && $currentMode !== 'B') {
+                    throw new BCGParseException('code128', 'The Table ' . $currentMode . ' doesn\'t contain the character ~.');
+                }
+
+                // At this point, we know we have ~Fx
+                if ($tildeData !== '~F1' && $currentMode === 'C') {
+                    // The mode C doesn't support ~F2, ~F3, ~F4
+                    throw new BCGParseException('code128', 'The Table C doesn\'t contain the function ' . $tildeData . '.');
+                }
+
+                $length = $pos - $previousPos;
+                if ($currentMode === 'C') {
+                    if ($length % 2 === 1) {
+                        throw new BCGParseException('code128', 'The text "' . $text . '" must have an even number of character to be encoded in Table C.');
+                    }
+                }
+
+                $sequence .= str_repeat('.', $length);
+                $sequence .= '.';
+                $sequence .= (!$simpleTilde) ? 'F' : '';
+                $previousPos = $pos + strlen($tildeData);
+            }
+
+            // Flushing
+            $length = strlen($text) - $previousPos;
+            if ($currentMode === 'C') {
+                if ($length % 2 === 1) {
+                    throw new BCGParseException('code128', 'The text "' . $text . '" must have an even number of character to be encoded in Table C.');
+                }
+            }
+
+            $sequence .= str_repeat('.', $length);
+
+            return $sequence;
+        } else {
+            return str_repeat('.', strlen($text));
+        }
+    }
+
+    /**
+     * Parses the text and returns the appropriate sequence for the Table A.
+     *
+     * @param string $text
+     * @param string $currentMode
+     * @return string
+     */
+    private function setParseA($text, &$currentMode)
+    {
+        $tmp = preg_quote($this->keysA, '/');
+
+        // If we accept the ~ for special character, we must allow it.
+        if ($this->tilde) {
+            $tmp .= '~';
+        }
+
+        $match = array();
+        if (preg_match('/[^' . $tmp . ']/', $text, $match) === 1) {
+            // We found something not allowed
+            throw new BCGParseException('code128', 'The text "' . $text . '" can\'t be parsed with the Table A. The character "' . $match[0] . '" is not allowed.');
+        } else {
+            $latch = ($currentMode === 'A') ? '' : '0';
+            $currentMode = 'A';
+
+            return $latch . $this->getSequenceParsed($text, $currentMode);
+        }
+    }
+
+    /**
+     * Parses the text and returns the appropriate sequence for the Table B.
+     *
+     * @param string $text
+     * @param string $currentMode
+     * @return string
+     */
+    private function setParseB($text, &$currentMode)
+    {
+        $tmp = preg_quote($this->keysB, '/');
+
+        $match = array();
+        if (preg_match('/[^' . $tmp . ']/', $text, $match) === 1) {
+            // We found something not allowed
+            throw new BCGParseException('code128', 'The text "' . $text . '" can\'t be parsed with the Table B. The character "' . $match[0] . '" is not allowed.');
+        } else {
+            $latch = ($currentMode === 'B') ? '' : '1';
+            $currentMode = 'B';
+
+            return $latch . $this->getSequenceParsed($text, $currentMode);
+        }
+    }
+
+    /**
+     * Parses the text and returns the appropriate sequence for the Table C.
+     *
+     * @param string $text
+     * @param string $currentMode
+     * @return string
+     */
+    private function setParseC($text, &$currentMode)
+    {
+        $tmp = preg_quote($this->keysC, '/');
+
+        // If we accept the ~ for special character, we must allow it.
+        if ($this->tilde) {
+            $tmp .= '~F';
+        }
+
+        $match = array();
+        if (preg_match('/[^' . $tmp . ']/', $text, $match) === 1) {
+            // We found something not allowed
+            throw new BCGParseException('code128', 'The text "' . $text . '" can\'t be parsed with the Table C. The character "' . $match[0] . '" is not allowed.');
+        } else {
+            $latch = ($currentMode === 'C') ? '' : '2';
+            $currentMode = 'C';
+
+            return $latch . $this->getSequenceParsed($text, $currentMode);
+        }
+    }
+
+    /**
+     * Depending on the $text, it will return the correct
+     * sequence to encode the text.
+     *
+     * @param string $text
+     * @param string $starting_text
+     * @return string
+     */
+    private function getSequence($text, &$starting_text)
+    {
+        $e = 10000;
+        $latLen = array(
+            array(0, 1, 1),
+            array(1, 0, 1),
+            array(1, 1, 0)
+        );
+        $shftLen = array(
+            array($e, 1, $e),
+            array(1, $e, $e),
+            array($e, $e, $e)
+        );
+        $charSiz = array(2, 2, 1);
+
+        $startA = $e;
+        $startB = $e;
+        $startC = $e;
+        if ($starting_text === 'A') {
+            $startA = 0;
+        }
+        if ($starting_text === 'B') {
+            $startB = 0;
+        }
+        if ($starting_text === 'C') {
+            $startC = 0;
+        }
+
+        $curLen = array($startA, $startB, $startC);
+        $curSeq = array(null, null, null);
+
+        $nextNumber = false;
+
+        $x = 0;
+        $xLen = strlen($text);
+        for ($x = 0; $x < $xLen; $x++) {
+            $input = $text[$x];
+
+            // 1.
+            for ($i = 0; $i < 3; $i++) {
+                for ($j = 0; $j < 3; $j++) {
+                    if (($curLen[$i] + $latLen[$i][$j]) < $curLen[$j]) {
+                        $curLen[$j] = $curLen[$i] + $latLen[$i][$j];
+                        $curSeq[$j] = $curSeq[$i] . $j;
+                    }
+                }
+            }
+
+            // 2.
+            $nxtLen = array($e, $e, $e);
+            $nxtSeq = array();
+
+            // 3.
+            $flag = false;
+            $posArray = array();
+
+            // Special case, we do have a tilde and we process them
+            if ($this->tilde && $input === '~') {
+                $tildeData = self::extractTilde($text, $x);
+
+                if ($tildeData === '~~') {
+                    // We simply skip a tilde
+                    $posArray[] = 1;
+                    $x++;
+                } elseif (substr($tildeData, 0, 2) === '~F') {
+                    $v = intval($tildeData[2]);
+                    $posArray[] = 0;
+                    $posArray[] = 1;
+                    if ($v === 1) {
+                        $posArray[] = 2;
+                    }
+
+                    $x += 2;
+                    $flag = true;
+                }
+            } else {
+                $pos = strpos($this->keysA, $input);
+                if ($pos !== false) {
+                    $posArray[] = 0;
+                }
+
+                $pos = strpos($this->keysB, $input);
+                if ($pos !== false) {
+                    $posArray[] = 1;
+                }
+
+                // Do we have the next char a number?? OR a ~F1
+                $pos = strpos($this->keysC, $input);
+                if ($nextNumber || ($pos !== false && isset($text[$x + 1]) && strpos($this->keysC, $text[$x + 1]) !== false)) {
+                    $nextNumber = !$nextNumber;
+                    $posArray[] = 2;
+                }
+            }
+
+            $c = count($posArray);
+            for ($i = 0; $i < $c; $i++) {
+                if (($curLen[$posArray[$i]] + $charSiz[$posArray[$i]]) < $nxtLen[$posArray[$i]]) {
+                    $nxtLen[$posArray[$i]] = $curLen[$posArray[$i]] + $charSiz[$posArray[$i]];
+                    $nxtSeq[$posArray[$i]] = $curSeq[$posArray[$i]] . '.';
+                }
+
+                for ($j = 0; $j < 2; $j++) {
+                    if ($j === $posArray[$i]) {
+                        continue;
+                    }
+                    if (($curLen[$j] + $shftLen[$j][$posArray[$i]] + $charSiz[$posArray[$i]]) < $nxtLen[$j]) {
+                        $nxtLen[$j] = $curLen[$j] + $shftLen[$j][$posArray[$i]] + $charSiz[$posArray[$i]];
+                        $nxtSeq[$j] = $curSeq[$j] . chr($posArray[$i] + 65) . '.';
+                    }
+                }
+            }
+
+            if ($c === 0) {
+                // We found an unsuported character
+                throw new BCGParseException('code128', 'Character ' .  $input . ' not supported.');
+            }
+
+            if ($flag) {
+                for ($i = 0; $i < 5; $i++) {
+                    if (isset($nxtSeq[$i])) {
+                        $nxtSeq[$i] .= 'F';
+                    }
+                }
+            }
+
+            // 4.
+            for ($i = 0; $i < 3; $i++) {
+                $curLen[$i] = $nxtLen[$i];
+                if (isset($nxtSeq[$i])) {
+                    $curSeq[$i] = $nxtSeq[$i];
+                }
+            }
+        }
+
+        // Every curLen under $e is possible but we take the smallest
+        $m = $e;
+        $k = -1;
+        for ($i = 0; $i < 3; $i++) {
+            if ($curLen[$i] < $m) {
+                $k = $i;
+                $m = $curLen[$i];
+            }
+        }
+
+        if ($k === -1) {
+            return '';
+        }
+
+        return $curSeq[$k];
+    }
+
+    /**
+     * Depending on the sequence $seq given (returned from getSequence()),
+     * this method will return the code stream in an array. Each char will be a
+     * string of bit based on the Code 128.
+     *
+     * Each letter from the sequence represents bits.
+     *
+     * 0 to 2 are latches
+     * A to B are Shift + Letter
+     * . is a char in the current encoding
+     *
+     * @param string $text
+     * @param string $seq
+     * @return string[][]
+     */
+    private function createBinaryStream($text, $seq)
+    {
+        $c = strlen($seq);
+
+        $data = array(); // code stream
+        $indcheck = array(); // index for checksum
+
+        $currentEncoding = 0;
+        if ($this->starting_text === 'A') {
+            $currentEncoding = 0;
+            $indcheck[] = self::KEY_STARTA;
+            $this->lastTable = 'A';
+        } elseif ($this->starting_text === 'B') {
+            $currentEncoding = 1;
+            $indcheck[] = self::KEY_STARTB;
+            $this->lastTable = 'B';
+        } elseif ($this->starting_text === 'C') {
+            $currentEncoding = 2;
+            $indcheck[] = self::KEY_STARTC;
+            $this->lastTable = 'C';
+        }
+
+        $data[] = $this->code[103 + $currentEncoding];
+
+        $temporaryEncoding = -1;
+        for ($i = 0, $counter = 0; $i < $c; $i++) {
+            $input = $seq[$i];
+            $inputI = intval($input);
+            if ($input === '.') {
+                $this->encodeChar($data, $currentEncoding, $seq, $text, $i, $counter, $indcheck);
+                if ($temporaryEncoding !== -1) {
+                    $currentEncoding = $temporaryEncoding;
+                    $temporaryEncoding = -1;
+                }
+            } elseif ($input >= 'A' && $input <= 'B') {
+                // We shift
+                $encoding = ord($input) - 65;
+                $shift = $this->shift[$currentEncoding][$encoding];
+                $indcheck[] = $shift;
+                $data[] = $this->code[$shift];
+                if ($temporaryEncoding === -1) {
+                    $temporaryEncoding = $currentEncoding;
+                }
+
+                $currentEncoding = $encoding;
+            } elseif ($inputI >= 0 && $inputI < 3) {
+                $temporaryEncoding = -1;
+
+                // We latch
+                $latch = $this->latch[$currentEncoding][$inputI];
+                if ($latch !== null) {
+                    $indcheck[] = $latch;
+                    $this->lastTable = chr(65 + $inputI);
+                    $data[] = $this->code[$latch];
+                    $currentEncoding = $inputI;
+                }
+            }
+        }
+
+        return array($indcheck, $data);
+    }
+
+    /**
+     * Encodes characters, base on its encoding and sequence
+     *
+     * @param int[] $data
+     * @param int $encoding
+     * @param string $seq
+     * @param string $text
+     * @param int $i
+     * @param int $counter
+     * @param int[] $indcheck
+     */
+    private function encodeChar(&$data, $encoding, $seq, $text, &$i, &$counter, &$indcheck)
+    {
+        if (isset($seq[$i + 1]) && $seq[$i + 1] === 'F') {
+            // We have a flag !!
+            if ($text[$counter + 1] === 'F') {
+                $number = $text[$counter + 2];
+                $fnc = $this->fnc[$encoding][$number - 1];
+                $indcheck[] = $fnc;
+                $data[] = $this->code[$fnc];
+
+                // Skip F + number
+                $counter += 2;
+            } else {
+                // Not supposed
+            }
+
+            $i++;
+        } else {
+            if ($encoding === 2) {
+                // We take 2 numbers in the same time
+                $code = (int)substr($text, $counter, 2);
+                $indcheck[] = $code;
+                $data[] = $this->code[$code];
+                $counter++;
+                $i++;
+            } else {
+                $keys = ($encoding === 0) ? $this->keysA : $this->keysB;
+                $pos = strpos($keys, $text[$counter]);
+                $indcheck[] = $pos;
+                $data[] = $this->code[$pos];
+            }
+        }
+
+        $counter++;
+    }
+
+    /**
+     * Saves data into the classes.
+     *
+     * This method will save data, calculate real column number
+     * (if -1 was selected), the real error level (if -1 was
+     * selected)... It will add Padding to the end and generate
+     * the error codes.
+     *
+     * @param array $data
+     */
+    private function setData($data)
+    {
+        $this->indcheck = $data[0];
+        $this->data = $data[1];
+        $this->calculateChecksum();
+        $this->data[] = $this->code[$this->checksumValue];
+        $this->data[] = $this->code[self::KEY_STOP];
+    }
+}

@@ -1,86 +1,160 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\OSConfig;
+
+class PatchDeployment extends \Google\Model
+{
+  public $createTime;
+  public $description;
+  public $duration;
+  protected $instanceFilterType = PatchInstanceFilter::class;
+  protected $instanceFilterDataType = '';
+  public $lastExecuteTime;
+  public $name;
+  protected $oneTimeScheduleType = OneTimeSchedule::class;
+  protected $oneTimeScheduleDataType = '';
+  protected $patchConfigType = PatchConfig::class;
+  protected $patchConfigDataType = '';
+  protected $recurringScheduleType = RecurringSchedule::class;
+  protected $recurringScheduleDataType = '';
+  protected $rolloutType = PatchRollout::class;
+  protected $rolloutDataType = '';
+  public $updateTime;
+
+  public function setCreateTime($createTime)
+  {
+    $this->createTime = $createTime;
+  }
+  public function getCreateTime()
+  {
+    return $this->createTime;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setDuration($duration)
+  {
+    $this->duration = $duration;
+  }
+  public function getDuration()
+  {
+    return $this->duration;
+  }
+  /**
+   * @param PatchInstanceFilter
+   */
+  public function setInstanceFilter(PatchInstanceFilter $instanceFilter)
+  {
+    $this->instanceFilter = $instanceFilter;
+  }
+  /**
+   * @return PatchInstanceFilter
+   */
+  public function getInstanceFilter()
+  {
+    return $this->instanceFilter;
+  }
+  public function setLastExecuteTime($lastExecuteTime)
+  {
+    $this->lastExecuteTime = $lastExecuteTime;
+  }
+  public function getLastExecuteTime()
+  {
+    return $this->lastExecuteTime;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  /**
+   * @param OneTimeSchedule
+   */
+  public function setOneTimeSchedule(OneTimeSchedule $oneTimeSchedule)
+  {
+    $this->oneTimeSchedule = $oneTimeSchedule;
+  }
+  /**
+   * @return OneTimeSchedule
+   */
+  public function getOneTimeSchedule()
+  {
+    return $this->oneTimeSchedule;
+  }
+  /**
+   * @param PatchConfig
+   */
+  public function setPatchConfig(PatchConfig $patchConfig)
+  {
+    $this->patchConfig = $patchConfig;
+  }
+  /**
+   * @return PatchConfig
+   */
+  public function getPatchConfig()
+  {
+    return $this->patchConfig;
+  }
+  /**
+   * @param RecurringSchedule
+   */
+  public function setRecurringSchedule(RecurringSchedule $recurringSchedule)
+  {
+    $this->recurringSchedule = $recurringSchedule;
+  }
+  /**
+   * @return RecurringSchedule
+   */
+  public function getRecurringSchedule()
+  {
+    return $this->recurringSchedule;
+  }
+  /**
+   * @param PatchRollout
+   */
+  public function setRollout(PatchRollout $rollout)
+  {
+    $this->rollout = $rollout;
+  }
+  /**
+   * @return PatchRollout
+   */
+  public function getRollout()
+  {
+    return $this->rollout;
+  }
+  public function setUpdateTime($updateTime)
+  {
+    $this->updateTime = $updateTime;
+  }
+  public function getUpdateTime()
+  {
+    return $this->updateTime;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PatchDeployment::class, 'Google_Service_OSConfig_PatchDeployment');

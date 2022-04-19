@@ -1,60 +1,47 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-4AhBNwwP
+<?php
+
+/**
+ * secp192k1
+ *
+ * PHP version 5 and 7
+ *
+ * @category  Crypt
+ * @package   EC
+ * @author    Jim Wigginton <terrafrost@php.net>
+ * @copyright 2017 Jim Wigginton
+ * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      http://pear.php.net/package/Math_BigInteger
+ */
+
+namespace phpseclib3\Crypt\EC\Curves;
+
+use phpseclib3\Crypt\EC\BaseCurves\KoblitzPrime;
+use phpseclib3\Math\BigInteger;
+
+class secp192k1 extends KoblitzPrime
+{
+    public function __construct()
+    {
+        $this->setModulo(new BigInteger('FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFEE37', 16));
+        $this->setCoefficients(
+            new BigInteger('000000000000000000000000000000000000000000000000', 16),
+            new BigInteger('000000000000000000000000000000000000000000000003', 16)
+        );
+        $this->setBasePoint(
+            new BigInteger('DB4FF10EC057E9AE26B07D0280B7F4341DA5D1B1EAE06C7D', 16),
+            new BigInteger('9B2F2F6D9C5628A7844163D015BE86344082AA88D95E2F9D', 16)
+        );
+        $this->setOrder(new BigInteger('FFFFFFFFFFFFFFFFFFFFFFFE26F2FC170F69466A74DEFD8D', 16));
+
+        $this->basis = [];
+        $this->basis[] = [
+            'a' => new BigInteger('00B3FB3400DEC5C4ADCEB8655C', -16),
+            'b' => new BigInteger('8EE96418CCF4CFC7124FDA0F', -16)
+        ];
+        $this->basis[] = [
+            'a' => new BigInteger('01D90D03E8F096B9948B20F0A9', -16),
+            'b' => new BigInteger('42E49819ABBA9474E1083F6B', -16)
+        ];
+        $this->beta = $this->factory->newInteger(new BigInteger('447A96E6C647963E2F7809FEAAB46947F34B0AA3CA0BBA74', -16));
+    }
+}

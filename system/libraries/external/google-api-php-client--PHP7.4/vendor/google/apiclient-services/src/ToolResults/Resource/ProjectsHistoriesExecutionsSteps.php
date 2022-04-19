@@ -1,91 +1,201 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ToolResults\Resource;
+
+use Google\Service\ToolResults\ListStepAccessibilityClustersResponse;
+use Google\Service\ToolResults\ListStepsResponse;
+use Google\Service\ToolResults\PerfMetricsSummary;
+use Google\Service\ToolResults\PublishXunitXmlFilesRequest;
+use Google\Service\ToolResults\Step;
+
+/**
+ * The "steps" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $toolresultsService = new Google\Service\ToolResults(...);
+ *   $steps = $toolresultsService->steps;
+ *  </code>
+ */
+class ProjectsHistoriesExecutionsSteps extends \Google\Service\Resource
+{
+  /**
+   * Lists accessibility clusters for a given Step May return any of the following
+   * canonical error codes: - PERMISSION_DENIED - if the user is not authorized to
+   * read project - INVALID_ARGUMENT - if the request is malformed -
+   * FAILED_PRECONDITION - if an argument in the request happens to be invalid;
+   * e.g. if the locale format is incorrect - NOT_FOUND - if the containing Step
+   * does not exist (steps.accessibilityClusters)
+   *
+   * @param string $name A full resource name of the step. For example, projects
+   * /my-project/histories/bh.1234567890abcdef/executions/
+   * 1234567890123456789/steps/bs.1234567890abcdef Required.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string locale The accepted format is the canonical Unicode format
+   * with hyphen as a delimiter. Language must be lowercase, Language Script -
+   * Capitalized, Region - UPPERCASE. See
+   * http://www.unicode.org/reports/tr35/#Unicode_locale_identifier for details.
+   * Required.
+   * @return ListStepAccessibilityClustersResponse
+   */
+  public function accessibilityClusters($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('accessibilityClusters', [$params], ListStepAccessibilityClustersResponse::class);
+  }
+  /**
+   * Creates a Step. The returned Step will have the id set. May return any of the
+   * following canonical error codes: - PERMISSION_DENIED - if the user is not
+   * authorized to write to project - INVALID_ARGUMENT - if the request is
+   * malformed - FAILED_PRECONDITION - if the step is too large (more than 10Mib)
+   * - NOT_FOUND - if the containing Execution does not exist (steps.create)
+   *
+   * @param string $projectId Required. A Project id.
+   * @param string $historyId Required. A History id.
+   * @param string $executionId Required. An Execution id.
+   * @param Step $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId A unique request ID for server to detect
+   * duplicated requests. For example, a UUID. Optional, but strongly recommended.
+   * @return Step
+   */
+  public function create($projectId, $historyId, $executionId, Step $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'historyId' => $historyId, 'executionId' => $executionId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Step::class);
+  }
+  /**
+   * Gets a Step. May return any of the following canonical error codes: -
+   * PERMISSION_DENIED - if the user is not authorized to read project -
+   * INVALID_ARGUMENT - if the request is malformed - NOT_FOUND - if the Step does
+   * not exist (steps.get)
+   *
+   * @param string $projectId A Project id. Required.
+   * @param string $historyId A History id. Required.
+   * @param string $executionId A Execution id. Required.
+   * @param string $stepId A Step id. Required.
+   * @param array $optParams Optional parameters.
+   * @return Step
+   */
+  public function get($projectId, $historyId, $executionId, $stepId, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'historyId' => $historyId, 'executionId' => $executionId, 'stepId' => $stepId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Step::class);
+  }
+  /**
+   * Retrieves a PerfMetricsSummary. May return any of the following error
+   * code(s): - NOT_FOUND - The specified PerfMetricsSummary does not exist
+   * (steps.getPerfMetricsSummary)
+   *
+   * @param string $projectId The cloud project
+   * @param string $historyId A tool results history ID.
+   * @param string $executionId A tool results execution ID.
+   * @param string $stepId A tool results step ID.
+   * @param array $optParams Optional parameters.
+   * @return PerfMetricsSummary
+   */
+  public function getPerfMetricsSummary($projectId, $historyId, $executionId, $stepId, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'historyId' => $historyId, 'executionId' => $executionId, 'stepId' => $stepId];
+    $params = array_merge($params, $optParams);
+    return $this->call('getPerfMetricsSummary', [$params], PerfMetricsSummary::class);
+  }
+  /**
+   * Lists Steps for a given Execution. The steps are sorted by creation_time in
+   * descending order. The step_id key will be used to order the steps with the
+   * same creation_time. May return any of the following canonical error codes: -
+   * PERMISSION_DENIED - if the user is not authorized to read project -
+   * INVALID_ARGUMENT - if the request is malformed - FAILED_PRECONDITION - if an
+   * argument in the request happens to be invalid; e.g. if an attempt is made to
+   * list the children of a nonexistent Step - NOT_FOUND - if the containing
+   * Execution does not exist (steps.listProjectsHistoriesExecutionsSteps)
+   *
+   * @param string $projectId A Project id. Required.
+   * @param string $historyId A History id. Required.
+   * @param string $executionId A Execution id. Required.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The maximum number of Steps to fetch. Default value:
+   * 25. The server will use this default if the field is not set or has a value
+   * of 0. Optional.
+   * @opt_param string pageToken A continuation token to resume the query at the
+   * next item. Optional.
+   * @return ListStepsResponse
+   */
+  public function listProjectsHistoriesExecutionsSteps($projectId, $historyId, $executionId, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'historyId' => $historyId, 'executionId' => $executionId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListStepsResponse::class);
+  }
+  /**
+   * Updates an existing Step with the supplied partial entity. May return any of
+   * the following canonical error codes: - PERMISSION_DENIED - if the user is not
+   * authorized to write project - INVALID_ARGUMENT - if the request is malformed
+   * - FAILED_PRECONDITION - if the requested state transition is illegal (e.g try
+   * to upload a duplicate xml file), if the updated step is too large (more than
+   * 10Mib) - NOT_FOUND - if the containing Execution does not exist (steps.patch)
+   *
+   * @param string $projectId A Project id. Required.
+   * @param string $historyId A History id. Required.
+   * @param string $executionId A Execution id. Required.
+   * @param string $stepId A Step id. Required.
+   * @param Step $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId A unique request ID for server to detect
+   * duplicated requests. For example, a UUID. Optional, but strongly recommended.
+   * @return Step
+   */
+  public function patch($projectId, $historyId, $executionId, $stepId, Step $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'historyId' => $historyId, 'executionId' => $executionId, 'stepId' => $stepId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Step::class);
+  }
+  /**
+   * Publish xml files to an existing Step. May return any of the following
+   * canonical error codes: - PERMISSION_DENIED - if the user is not authorized to
+   * write project - INVALID_ARGUMENT - if the request is malformed -
+   * FAILED_PRECONDITION - if the requested state transition is illegal, e.g try
+   * to upload a duplicate xml file or a file too large. - NOT_FOUND - if the
+   * containing Execution does not exist (steps.publishXunitXmlFiles)
+   *
+   * @param string $projectId A Project id. Required.
+   * @param string $historyId A History id. Required.
+   * @param string $executionId A Execution id. Required.
+   * @param string $stepId A Step id. Note: This step must include a
+   * TestExecutionStep. Required.
+   * @param PublishXunitXmlFilesRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Step
+   */
+  public function publishXunitXmlFiles($projectId, $historyId, $executionId, $stepId, PublishXunitXmlFilesRequest $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'historyId' => $historyId, 'executionId' => $executionId, 'stepId' => $stepId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('publishXunitXmlFiles', [$params], Step::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsHistoriesExecutionsSteps::class, 'Google_Service_ToolResults_Resource_ProjectsHistoriesExecutionsSteps');

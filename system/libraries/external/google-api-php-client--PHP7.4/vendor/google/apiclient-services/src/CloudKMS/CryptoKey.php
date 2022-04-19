@@ -1,70 +1,112 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudKMS;
+
+class CryptoKey extends \Google\Model
+{
+  public $createTime;
+  public $labels;
+  public $name;
+  public $nextRotationTime;
+  protected $primaryType = CryptoKeyVersion::class;
+  protected $primaryDataType = '';
+  public $purpose;
+  public $rotationPeriod;
+  protected $versionTemplateType = CryptoKeyVersionTemplate::class;
+  protected $versionTemplateDataType = '';
+
+  public function setCreateTime($createTime)
+  {
+    $this->createTime = $createTime;
+  }
+  public function getCreateTime()
+  {
+    return $this->createTime;
+  }
+  public function setLabels($labels)
+  {
+    $this->labels = $labels;
+  }
+  public function getLabels()
+  {
+    return $this->labels;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setNextRotationTime($nextRotationTime)
+  {
+    $this->nextRotationTime = $nextRotationTime;
+  }
+  public function getNextRotationTime()
+  {
+    return $this->nextRotationTime;
+  }
+  /**
+   * @param CryptoKeyVersion
+   */
+  public function setPrimary(CryptoKeyVersion $primary)
+  {
+    $this->primary = $primary;
+  }
+  /**
+   * @return CryptoKeyVersion
+   */
+  public function getPrimary()
+  {
+    return $this->primary;
+  }
+  public function setPurpose($purpose)
+  {
+    $this->purpose = $purpose;
+  }
+  public function getPurpose()
+  {
+    return $this->purpose;
+  }
+  public function setRotationPeriod($rotationPeriod)
+  {
+    $this->rotationPeriod = $rotationPeriod;
+  }
+  public function getRotationPeriod()
+  {
+    return $this->rotationPeriod;
+  }
+  /**
+   * @param CryptoKeyVersionTemplate
+   */
+  public function setVersionTemplate(CryptoKeyVersionTemplate $versionTemplate)
+  {
+    $this->versionTemplate = $versionTemplate;
+  }
+  /**
+   * @return CryptoKeyVersionTemplate
+   */
+  public function getVersionTemplate()
+  {
+    return $this->versionTemplate;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(CryptoKey::class, 'Google_Service_CloudKMS_CryptoKey');

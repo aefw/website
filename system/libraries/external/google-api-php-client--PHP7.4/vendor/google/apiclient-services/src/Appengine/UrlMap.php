@@ -1,72 +1,119 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-pRZdFQEoVmQyC0w3/xHDUX7G4Met46RNhMt2gfG=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Appengine;
+
+class UrlMap extends \Google\Model
+{
+  protected $apiEndpointType = ApiEndpointHandler::class;
+  protected $apiEndpointDataType = '';
+  public $authFailAction;
+  public $login;
+  public $redirectHttpResponseCode;
+  protected $scriptType = ScriptHandler::class;
+  protected $scriptDataType = '';
+  public $securityLevel;
+  protected $staticFilesType = StaticFilesHandler::class;
+  protected $staticFilesDataType = '';
+  public $urlRegex;
+
+  /**
+   * @param ApiEndpointHandler
+   */
+  public function setApiEndpoint(ApiEndpointHandler $apiEndpoint)
+  {
+    $this->apiEndpoint = $apiEndpoint;
+  }
+  /**
+   * @return ApiEndpointHandler
+   */
+  public function getApiEndpoint()
+  {
+    return $this->apiEndpoint;
+  }
+  public function setAuthFailAction($authFailAction)
+  {
+    $this->authFailAction = $authFailAction;
+  }
+  public function getAuthFailAction()
+  {
+    return $this->authFailAction;
+  }
+  public function setLogin($login)
+  {
+    $this->login = $login;
+  }
+  public function getLogin()
+  {
+    return $this->login;
+  }
+  public function setRedirectHttpResponseCode($redirectHttpResponseCode)
+  {
+    $this->redirectHttpResponseCode = $redirectHttpResponseCode;
+  }
+  public function getRedirectHttpResponseCode()
+  {
+    return $this->redirectHttpResponseCode;
+  }
+  /**
+   * @param ScriptHandler
+   */
+  public function setScript(ScriptHandler $script)
+  {
+    $this->script = $script;
+  }
+  /**
+   * @return ScriptHandler
+   */
+  public function getScript()
+  {
+    return $this->script;
+  }
+  public function setSecurityLevel($securityLevel)
+  {
+    $this->securityLevel = $securityLevel;
+  }
+  public function getSecurityLevel()
+  {
+    return $this->securityLevel;
+  }
+  /**
+   * @param StaticFilesHandler
+   */
+  public function setStaticFiles(StaticFilesHandler $staticFiles)
+  {
+    $this->staticFiles = $staticFiles;
+  }
+  /**
+   * @return StaticFilesHandler
+   */
+  public function getStaticFiles()
+  {
+    return $this->staticFiles;
+  }
+  public function setUrlRegex($urlRegex)
+  {
+    $this->urlRegex = $urlRegex;
+  }
+  public function getUrlRegex()
+  {
+    return $this->urlRegex;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(UrlMap::class, 'Google_Service_Appengine_UrlMap');

@@ -1,103 +1,91 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-kfWi/Ha=
+<?php
+
+namespace PhpOffice\PhpSpreadsheet\Reader\Xlsx;
+
+use PhpOffice\PhpSpreadsheet\Document\Properties as DocumentProperties;
+use PhpOffice\PhpSpreadsheet\Reader\Security\XmlScanner;
+use PhpOffice\PhpSpreadsheet\Settings;
+
+class Properties
+{
+    private $securityScanner;
+
+    private $docProps;
+
+    public function __construct(XmlScanner $securityScanner, DocumentProperties $docProps)
+    {
+        $this->securityScanner = $securityScanner;
+        $this->docProps = $docProps;
+    }
+
+    private function extractPropertyData($propertyData)
+    {
+        return simplexml_load_string(
+            $this->securityScanner->scan($propertyData),
+            'SimpleXMLElement',
+            Settings::getLibXmlLoaderOptions()
+        );
+    }
+
+    public function readCoreProperties($propertyData)
+    {
+        $xmlCore = $this->extractPropertyData($propertyData);
+
+        if (is_object($xmlCore)) {
+            $xmlCore->registerXPathNamespace('dc', 'http://purl.org/dc/elements/1.1/');
+            $xmlCore->registerXPathNamespace('dcterms', 'http://purl.org/dc/terms/');
+            $xmlCore->registerXPathNamespace('cp', 'http://schemas.openxmlformats.org/package/2006/metadata/core-properties');
+
+            $this->docProps->setCreator((string) self::getArrayItem($xmlCore->xpath('dc:creator')));
+            $this->docProps->setLastModifiedBy((string) self::getArrayItem($xmlCore->xpath('cp:lastModifiedBy')));
+            $this->docProps->setCreated(strtotime(self::getArrayItem($xmlCore->xpath('dcterms:created')))); //! respect xsi:type
+            $this->docProps->setModified(strtotime(self::getArrayItem($xmlCore->xpath('dcterms:modified')))); //! respect xsi:type
+            $this->docProps->setTitle((string) self::getArrayItem($xmlCore->xpath('dc:title')));
+            $this->docProps->setDescription((string) self::getArrayItem($xmlCore->xpath('dc:description')));
+            $this->docProps->setSubject((string) self::getArrayItem($xmlCore->xpath('dc:subject')));
+            $this->docProps->setKeywords((string) self::getArrayItem($xmlCore->xpath('cp:keywords')));
+            $this->docProps->setCategory((string) self::getArrayItem($xmlCore->xpath('cp:category')));
+        }
+    }
+
+    public function readExtendedProperties($propertyData)
+    {
+        $xmlCore = $this->extractPropertyData($propertyData);
+
+        if (is_object($xmlCore)) {
+            if (isset($xmlCore->Company)) {
+                $this->docProps->setCompany((string) $xmlCore->Company);
+            }
+            if (isset($xmlCore->Manager)) {
+                $this->docProps->setManager((string) $xmlCore->Manager);
+            }
+        }
+    }
+
+    public function readCustomProperties($propertyData)
+    {
+        $xmlCore = $this->extractPropertyData($propertyData);
+
+        if (is_object($xmlCore)) {
+            foreach ($xmlCore as $xmlProperty) {
+                /** @var \SimpleXMLElement $xmlProperty */
+                $cellDataOfficeAttributes = $xmlProperty->attributes();
+                if (isset($cellDataOfficeAttributes['name'])) {
+                    $propertyName = (string) $cellDataOfficeAttributes['name'];
+                    $cellDataOfficeChildren = $xmlProperty->children('http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes');
+
+                    $attributeType = $cellDataOfficeChildren->getName();
+                    $attributeValue = (string) $cellDataOfficeChildren->{$attributeType};
+                    $attributeValue = DocumentProperties::convertProperty($attributeValue, $attributeType);
+                    $attributeType = DocumentProperties::convertPropertyType($attributeType);
+                    $this->docProps->setCustomProperty($propertyName, $attributeValue, $attributeType);
+                }
+            }
+        }
+    }
+
+    private static function getArrayItem(array $array, $key = 0)
+    {
+        return $array[$key] ?? null;
+    }
+}

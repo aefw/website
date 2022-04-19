@@ -1,73 +1,150 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-uCvUIW==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DisplayVideo\Resource;
+
+use Google\Service\DisplayVideo\BulkEditSitesRequest;
+use Google\Service\DisplayVideo\BulkEditSitesResponse;
+use Google\Service\DisplayVideo\DisplayvideoEmpty;
+use Google\Service\DisplayVideo\ListSitesResponse;
+use Google\Service\DisplayVideo\ReplaceSitesRequest;
+use Google\Service\DisplayVideo\ReplaceSitesResponse;
+use Google\Service\DisplayVideo\Site;
+
+/**
+ * The "sites" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $displayvideoService = new Google\Service\DisplayVideo(...);
+ *   $sites = $displayvideoService->sites;
+ *  </code>
+ */
+class PartnersChannelsSites extends \Google\Service\Resource
+{
+  /**
+   * Bulk edits sites under a single channel. The operation will delete the sites
+   * provided in BulkEditSitesRequest.deleted_sites and then create the sites
+   * provided in BulkEditSitesRequest.created_sites. (sites.bulkEdit)
+   *
+   * @param string $partnerId The ID of the partner that owns the parent channel.
+   * @param string $channelId Required. The ID of the parent channel to which the
+   * sites belong.
+   * @param BulkEditSitesRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return BulkEditSitesResponse
+   */
+  public function bulkEdit($partnerId, $channelId, BulkEditSitesRequest $postBody, $optParams = [])
+  {
+    $params = ['partnerId' => $partnerId, 'channelId' => $channelId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('bulkEdit', [$params], BulkEditSitesResponse::class);
+  }
+  /**
+   * Creates a site in a channel. (sites.create)
+   *
+   * @param string $partnerId The ID of the partner that owns the parent channel.
+   * @param string $channelId Required. The ID of the parent channel in which the
+   * site will be created.
+   * @param Site $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string advertiserId The ID of the advertiser that owns the parent
+   * channel.
+   * @return Site
+   */
+  public function create($partnerId, $channelId, Site $postBody, $optParams = [])
+  {
+    $params = ['partnerId' => $partnerId, 'channelId' => $channelId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Site::class);
+  }
+  /**
+   * Deletes a site from a channel. (sites.delete)
+   *
+   * @param string $partnerId The ID of the partner that owns the parent channel.
+   * @param string $channelId Required. The ID of the parent channel to which the
+   * site belongs.
+   * @param string $urlOrAppId Required. The URL or app ID of the site to delete.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string advertiserId The ID of the advertiser that owns the parent
+   * channel.
+   * @return DisplayvideoEmpty
+   */
+  public function delete($partnerId, $channelId, $urlOrAppId, $optParams = [])
+  {
+    $params = ['partnerId' => $partnerId, 'channelId' => $channelId, 'urlOrAppId' => $urlOrAppId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], DisplayvideoEmpty::class);
+  }
+  /**
+   * Lists sites in a channel. (sites.listPartnersChannelsSites)
+   *
+   * @param string $partnerId The ID of the partner that owns the parent channel.
+   * @param string $channelId Required. The ID of the parent channel to which the
+   * requested sites belong.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string advertiserId The ID of the advertiser that owns the parent
+   * channel.
+   * @opt_param string filter Allows filtering by site fields. Supported syntax: *
+   * Filter expressions for site currently can only contain at most one *
+   * restriction. * A restriction has the form of `{field} {operator} {value}`. *
+   * The operator must be `CONTAINS (:)`. * Supported fields: - `urlOrAppId`
+   * Examples: * All sites for which the URL or app ID contains "google":
+   * `urlOrAppId : "google"`
+   * @opt_param string orderBy Field by which to sort the list. Acceptable values
+   * are: * `urlOrAppId` (default) The default sorting order is ascending. To
+   * specify descending order for a field, a suffix " desc" should be added to the
+   * field name. Example: `urlOrAppId desc`.
+   * @opt_param int pageSize Requested page size. Must be between `1` and `10000`.
+   * If unspecified will default to `100`. Returns error code `INVALID_ARGUMENT`
+   * if an invalid value is specified.
+   * @opt_param string pageToken A token identifying a page of results the server
+   * should return. Typically, this is the value of next_page_token returned from
+   * the previous call to `ListSites` method. If not specified, the first page of
+   * results will be returned.
+   * @return ListSitesResponse
+   */
+  public function listPartnersChannelsSites($partnerId, $channelId, $optParams = [])
+  {
+    $params = ['partnerId' => $partnerId, 'channelId' => $channelId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListSitesResponse::class);
+  }
+  /**
+   * Replaces all of the sites under a single channel. The operation will replace
+   * the sites under a channel with the sites provided in
+   * ReplaceSitesRequest.new_sites. (sites.replace)
+   *
+   * @param string $partnerId The ID of the partner that owns the parent channel.
+   * @param string $channelId Required. The ID of the parent channel whose sites
+   * will be replaced.
+   * @param ReplaceSitesRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return ReplaceSitesResponse
+   */
+  public function replace($partnerId, $channelId, ReplaceSitesRequest $postBody, $optParams = [])
+  {
+    $params = ['partnerId' => $partnerId, 'channelId' => $channelId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('replace', [$params], ReplaceSitesResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PartnersChannelsSites::class, 'Google_Service_DisplayVideo_Resource_PartnersChannelsSites');

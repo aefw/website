@@ -1,100 +1,175 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\BigQueryDataTransfer;
+
+class TransferRun extends \Google\Model
+{
+  public $dataSourceId;
+  public $destinationDatasetId;
+  protected $emailPreferencesType = EmailPreferences::class;
+  protected $emailPreferencesDataType = '';
+  public $endTime;
+  protected $errorStatusType = Status::class;
+  protected $errorStatusDataType = '';
+  public $name;
+  public $notificationPubsubTopic;
+  public $params;
+  public $runTime;
+  public $schedule;
+  public $scheduleTime;
+  public $startTime;
+  public $state;
+  public $updateTime;
+  public $userId;
+
+  public function setDataSourceId($dataSourceId)
+  {
+    $this->dataSourceId = $dataSourceId;
+  }
+  public function getDataSourceId()
+  {
+    return $this->dataSourceId;
+  }
+  public function setDestinationDatasetId($destinationDatasetId)
+  {
+    $this->destinationDatasetId = $destinationDatasetId;
+  }
+  public function getDestinationDatasetId()
+  {
+    return $this->destinationDatasetId;
+  }
+  /**
+   * @param EmailPreferences
+   */
+  public function setEmailPreferences(EmailPreferences $emailPreferences)
+  {
+    $this->emailPreferences = $emailPreferences;
+  }
+  /**
+   * @return EmailPreferences
+   */
+  public function getEmailPreferences()
+  {
+    return $this->emailPreferences;
+  }
+  public function setEndTime($endTime)
+  {
+    $this->endTime = $endTime;
+  }
+  public function getEndTime()
+  {
+    return $this->endTime;
+  }
+  /**
+   * @param Status
+   */
+  public function setErrorStatus(Status $errorStatus)
+  {
+    $this->errorStatus = $errorStatus;
+  }
+  /**
+   * @return Status
+   */
+  public function getErrorStatus()
+  {
+    return $this->errorStatus;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setNotificationPubsubTopic($notificationPubsubTopic)
+  {
+    $this->notificationPubsubTopic = $notificationPubsubTopic;
+  }
+  public function getNotificationPubsubTopic()
+  {
+    return $this->notificationPubsubTopic;
+  }
+  public function setParams($params)
+  {
+    $this->params = $params;
+  }
+  public function getParams()
+  {
+    return $this->params;
+  }
+  public function setRunTime($runTime)
+  {
+    $this->runTime = $runTime;
+  }
+  public function getRunTime()
+  {
+    return $this->runTime;
+  }
+  public function setSchedule($schedule)
+  {
+    $this->schedule = $schedule;
+  }
+  public function getSchedule()
+  {
+    return $this->schedule;
+  }
+  public function setScheduleTime($scheduleTime)
+  {
+    $this->scheduleTime = $scheduleTime;
+  }
+  public function getScheduleTime()
+  {
+    return $this->scheduleTime;
+  }
+  public function setStartTime($startTime)
+  {
+    $this->startTime = $startTime;
+  }
+  public function getStartTime()
+  {
+    return $this->startTime;
+  }
+  public function setState($state)
+  {
+    $this->state = $state;
+  }
+  public function getState()
+  {
+    return $this->state;
+  }
+  public function setUpdateTime($updateTime)
+  {
+    $this->updateTime = $updateTime;
+  }
+  public function getUpdateTime()
+  {
+    return $this->updateTime;
+  }
+  public function setUserId($userId)
+  {
+    $this->userId = $userId;
+  }
+  public function getUserId()
+  {
+    return $this->userId;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(TransferRun::class, 'Google_Service_BigQueryDataTransfer_TransferRun');

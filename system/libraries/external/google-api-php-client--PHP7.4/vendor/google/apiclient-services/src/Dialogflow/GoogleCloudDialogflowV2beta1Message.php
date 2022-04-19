@@ -1,78 +1,121 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dialogflow;
+
+class GoogleCloudDialogflowV2beta1Message extends \Google\Model
+{
+  public $content;
+  public $createTime;
+  public $languageCode;
+  protected $messageAnnotationType = GoogleCloudDialogflowV2beta1MessageAnnotation::class;
+  protected $messageAnnotationDataType = '';
+  public $name;
+  public $participant;
+  public $participantRole;
+  public $sendTime;
+  protected $sentimentAnalysisType = GoogleCloudDialogflowV2beta1SentimentAnalysisResult::class;
+  protected $sentimentAnalysisDataType = '';
+
+  public function setContent($content)
+  {
+    $this->content = $content;
+  }
+  public function getContent()
+  {
+    return $this->content;
+  }
+  public function setCreateTime($createTime)
+  {
+    $this->createTime = $createTime;
+  }
+  public function getCreateTime()
+  {
+    return $this->createTime;
+  }
+  public function setLanguageCode($languageCode)
+  {
+    $this->languageCode = $languageCode;
+  }
+  public function getLanguageCode()
+  {
+    return $this->languageCode;
+  }
+  /**
+   * @param GoogleCloudDialogflowV2beta1MessageAnnotation
+   */
+  public function setMessageAnnotation(GoogleCloudDialogflowV2beta1MessageAnnotation $messageAnnotation)
+  {
+    $this->messageAnnotation = $messageAnnotation;
+  }
+  /**
+   * @return GoogleCloudDialogflowV2beta1MessageAnnotation
+   */
+  public function getMessageAnnotation()
+  {
+    return $this->messageAnnotation;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setParticipant($participant)
+  {
+    $this->participant = $participant;
+  }
+  public function getParticipant()
+  {
+    return $this->participant;
+  }
+  public function setParticipantRole($participantRole)
+  {
+    $this->participantRole = $participantRole;
+  }
+  public function getParticipantRole()
+  {
+    return $this->participantRole;
+  }
+  public function setSendTime($sendTime)
+  {
+    $this->sendTime = $sendTime;
+  }
+  public function getSendTime()
+  {
+    return $this->sendTime;
+  }
+  /**
+   * @param GoogleCloudDialogflowV2beta1SentimentAnalysisResult
+   */
+  public function setSentimentAnalysis(GoogleCloudDialogflowV2beta1SentimentAnalysisResult $sentimentAnalysis)
+  {
+    $this->sentimentAnalysis = $sentimentAnalysis;
+  }
+  /**
+   * @return GoogleCloudDialogflowV2beta1SentimentAnalysisResult
+   */
+  public function getSentimentAnalysis()
+  {
+    return $this->sentimentAnalysis;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudDialogflowV2beta1Message::class, 'Google_Service_Dialogflow_GoogleCloudDialogflowV2beta1Message');

@@ -1,95 +1,192 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AndroidProvisioningPartner\Resource;
+
+use Google\Service\AndroidProvisioningPartner\AndroiddeviceprovisioningEmpty;
+use Google\Service\AndroidProvisioningPartner\ClaimDeviceRequest;
+use Google\Service\AndroidProvisioningPartner\ClaimDeviceResponse;
+use Google\Service\AndroidProvisioningPartner\ClaimDevicesRequest;
+use Google\Service\AndroidProvisioningPartner\Device;
+use Google\Service\AndroidProvisioningPartner\DeviceMetadata;
+use Google\Service\AndroidProvisioningPartner\FindDevicesByDeviceIdentifierRequest;
+use Google\Service\AndroidProvisioningPartner\FindDevicesByDeviceIdentifierResponse;
+use Google\Service\AndroidProvisioningPartner\FindDevicesByOwnerRequest;
+use Google\Service\AndroidProvisioningPartner\FindDevicesByOwnerResponse;
+use Google\Service\AndroidProvisioningPartner\Operation;
+use Google\Service\AndroidProvisioningPartner\UnclaimDeviceRequest;
+use Google\Service\AndroidProvisioningPartner\UnclaimDevicesRequest;
+use Google\Service\AndroidProvisioningPartner\UpdateDeviceMetadataInBatchRequest;
+use Google\Service\AndroidProvisioningPartner\UpdateDeviceMetadataRequest;
+
+/**
+ * The "devices" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $androiddeviceprovisioningService = new Google\Service\AndroidProvisioningPartner(...);
+ *   $devices = $androiddeviceprovisioningService->devices;
+ *  </code>
+ */
+class PartnersDevices extends \Google\Service\Resource
+{
+  /**
+   * Claims a device for a customer and adds it to zero-touch enrollment. If the
+   * device is already claimed by another customer, the call returns an error.
+   * (devices.claim)
+   *
+   * @param string $partnerId Required. The ID of the reseller partner.
+   * @param ClaimDeviceRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return ClaimDeviceResponse
+   */
+  public function claim($partnerId, ClaimDeviceRequest $postBody, $optParams = [])
+  {
+    $params = ['partnerId' => $partnerId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('claim', [$params], ClaimDeviceResponse::class);
+  }
+  /**
+   * Claims a batch of devices for a customer asynchronously. Adds the devices to
+   * zero-touch enrollment. To learn more, read [Long‑running batch operations
+   * ](/zero-touch/guides/how-it-works#operations). (devices.claimAsync)
+   *
+   * @param string $partnerId Required. The ID of the reseller partner.
+   * @param ClaimDevicesRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function claimAsync($partnerId, ClaimDevicesRequest $postBody, $optParams = [])
+  {
+    $params = ['partnerId' => $partnerId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('claimAsync', [$params], Operation::class);
+  }
+  /**
+   * Finds devices by hardware identifiers, such as IMEI.
+   * (devices.findByIdentifier)
+   *
+   * @param string $partnerId Required. The ID of the reseller partner.
+   * @param FindDevicesByDeviceIdentifierRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return FindDevicesByDeviceIdentifierResponse
+   */
+  public function findByIdentifier($partnerId, FindDevicesByDeviceIdentifierRequest $postBody, $optParams = [])
+  {
+    $params = ['partnerId' => $partnerId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('findByIdentifier', [$params], FindDevicesByDeviceIdentifierResponse::class);
+  }
+  /**
+   * Finds devices claimed for customers. The results only contain devices
+   * registered to the reseller that's identified by the `partnerId` argument. The
+   * customer's devices purchased from other resellers don't appear in the
+   * results. (devices.findByOwner)
+   *
+   * @param string $partnerId Required. The ID of the reseller partner.
+   * @param FindDevicesByOwnerRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return FindDevicesByOwnerResponse
+   */
+  public function findByOwner($partnerId, FindDevicesByOwnerRequest $postBody, $optParams = [])
+  {
+    $params = ['partnerId' => $partnerId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('findByOwner', [$params], FindDevicesByOwnerResponse::class);
+  }
+  /**
+   * Gets a device. (devices.get)
+   *
+   * @param string $name Required. The device API resource name in the format
+   * `partners/[PARTNER_ID]/devices/[DEVICE_ID]`.
+   * @param array $optParams Optional parameters.
+   * @return Device
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Device::class);
+  }
+  /**
+   * Updates reseller metadata associated with the device. (devices.metadata)
+   *
+   * @param string $metadataOwnerId Required. The owner of the newly set metadata.
+   * Set this to the partner ID.
+   * @param string $deviceId Required. The ID of the device.
+   * @param UpdateDeviceMetadataRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return DeviceMetadata
+   */
+  public function metadata($metadataOwnerId, $deviceId, UpdateDeviceMetadataRequest $postBody, $optParams = [])
+  {
+    $params = ['metadataOwnerId' => $metadataOwnerId, 'deviceId' => $deviceId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('metadata', [$params], DeviceMetadata::class);
+  }
+  /**
+   * Unclaims a device from a customer and removes it from zero-touch enrollment.
+   * (devices.unclaim)
+   *
+   * @param string $partnerId Required. The ID of the reseller partner.
+   * @param UnclaimDeviceRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return AndroiddeviceprovisioningEmpty
+   */
+  public function unclaim($partnerId, UnclaimDeviceRequest $postBody, $optParams = [])
+  {
+    $params = ['partnerId' => $partnerId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('unclaim', [$params], AndroiddeviceprovisioningEmpty::class);
+  }
+  /**
+   * Unclaims a batch of devices for a customer asynchronously. Removes the
+   * devices from zero-touch enrollment. To learn more, read [Long‑running batch
+   * operations](/zero-touch/guides/how-it-works#operations).
+   * (devices.unclaimAsync)
+   *
+   * @param string $partnerId Required. The reseller partner ID.
+   * @param UnclaimDevicesRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function unclaimAsync($partnerId, UnclaimDevicesRequest $postBody, $optParams = [])
+  {
+    $params = ['partnerId' => $partnerId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('unclaimAsync', [$params], Operation::class);
+  }
+  /**
+   * Updates the reseller metadata attached to a batch of devices. This method
+   * updates devices asynchronously and returns an `Operation` that can be used to
+   * track progress. Read [Long‑running batch operations](/zero-touch/guides/how-
+   * it-works#operations). (devices.updateMetadataAsync)
+   *
+   * @param string $partnerId Required. The reseller partner ID.
+   * @param UpdateDeviceMetadataInBatchRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function updateMetadataAsync($partnerId, UpdateDeviceMetadataInBatchRequest $postBody, $optParams = [])
+  {
+    $params = ['partnerId' => $partnerId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('updateMetadataAsync', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PartnersDevices::class, 'Google_Service_AndroidProvisioningPartner_Resource_PartnersDevices');

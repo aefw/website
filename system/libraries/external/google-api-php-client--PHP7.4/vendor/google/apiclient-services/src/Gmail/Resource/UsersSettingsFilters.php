@@ -1,63 +1,95 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Z7e0sL+W8cFe07prxrxPrsQHZzvWPksvIkKbf0==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Gmail\Resource;
+
+use Google\Service\Gmail\Filter;
+use Google\Service\Gmail\ListFiltersResponse;
+
+/**
+ * The "filters" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $gmailService = new Google\Service\Gmail(...);
+ *   $filters = $gmailService->filters;
+ *  </code>
+ */
+class UsersSettingsFilters extends \Google\Service\Resource
+{
+  /**
+   * Creates a filter. Note: you can only create a maximum of 1,000 filters.
+   * (filters.create)
+   *
+   * @param string $userId User's email address. The special value "me" can be
+   * used to indicate the authenticated user.
+   * @param Filter $postBody
+   * @param array $optParams Optional parameters.
+   * @return Filter
+   */
+  public function create($userId, Filter $postBody, $optParams = [])
+  {
+    $params = ['userId' => $userId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Filter::class);
+  }
+  /**
+   * Deletes a filter. (filters.delete)
+   *
+   * @param string $userId User's email address. The special value "me" can be
+   * used to indicate the authenticated user.
+   * @param string $id The ID of the filter to be deleted.
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($userId, $id, $optParams = [])
+  {
+    $params = ['userId' => $userId, 'id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Gets a filter. (filters.get)
+   *
+   * @param string $userId User's email address. The special value "me" can be
+   * used to indicate the authenticated user.
+   * @param string $id The ID of the filter to be fetched.
+   * @param array $optParams Optional parameters.
+   * @return Filter
+   */
+  public function get($userId, $id, $optParams = [])
+  {
+    $params = ['userId' => $userId, 'id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Filter::class);
+  }
+  /**
+   * Lists the message filters of a Gmail user. (filters.listUsersSettingsFilters)
+   *
+   * @param string $userId User's email address. The special value "me" can be
+   * used to indicate the authenticated user.
+   * @param array $optParams Optional parameters.
+   * @return ListFiltersResponse
+   */
+  public function listUsersSettingsFilters($userId, $optParams = [])
+  {
+    $params = ['userId' => $userId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListFiltersResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(UsersSettingsFilters::class, 'Google_Service_Gmail_Resource_UsersSettingsFilters');

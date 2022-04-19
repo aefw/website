@@ -1,82 +1,125 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-x3FqxMZgaFqNGoo3hv5dvumC1WGG1Ub0f2BPaCy=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ContainerAnalysis;
+
+class CVSSv3 extends \Google\Model
+{
+  public $attackComplexity;
+  public $attackVector;
+  public $availabilityImpact;
+  public $baseScore;
+  public $confidentialityImpact;
+  public $exploitabilityScore;
+  public $impactScore;
+  public $integrityImpact;
+  public $privilegesRequired;
+  public $scope;
+  public $userInteraction;
+
+  public function setAttackComplexity($attackComplexity)
+  {
+    $this->attackComplexity = $attackComplexity;
+  }
+  public function getAttackComplexity()
+  {
+    return $this->attackComplexity;
+  }
+  public function setAttackVector($attackVector)
+  {
+    $this->attackVector = $attackVector;
+  }
+  public function getAttackVector()
+  {
+    return $this->attackVector;
+  }
+  public function setAvailabilityImpact($availabilityImpact)
+  {
+    $this->availabilityImpact = $availabilityImpact;
+  }
+  public function getAvailabilityImpact()
+  {
+    return $this->availabilityImpact;
+  }
+  public function setBaseScore($baseScore)
+  {
+    $this->baseScore = $baseScore;
+  }
+  public function getBaseScore()
+  {
+    return $this->baseScore;
+  }
+  public function setConfidentialityImpact($confidentialityImpact)
+  {
+    $this->confidentialityImpact = $confidentialityImpact;
+  }
+  public function getConfidentialityImpact()
+  {
+    return $this->confidentialityImpact;
+  }
+  public function setExploitabilityScore($exploitabilityScore)
+  {
+    $this->exploitabilityScore = $exploitabilityScore;
+  }
+  public function getExploitabilityScore()
+  {
+    return $this->exploitabilityScore;
+  }
+  public function setImpactScore($impactScore)
+  {
+    $this->impactScore = $impactScore;
+  }
+  public function getImpactScore()
+  {
+    return $this->impactScore;
+  }
+  public function setIntegrityImpact($integrityImpact)
+  {
+    $this->integrityImpact = $integrityImpact;
+  }
+  public function getIntegrityImpact()
+  {
+    return $this->integrityImpact;
+  }
+  public function setPrivilegesRequired($privilegesRequired)
+  {
+    $this->privilegesRequired = $privilegesRequired;
+  }
+  public function getPrivilegesRequired()
+  {
+    return $this->privilegesRequired;
+  }
+  public function setScope($scope)
+  {
+    $this->scope = $scope;
+  }
+  public function getScope()
+  {
+    return $this->scope;
+  }
+  public function setUserInteraction($userInteraction)
+  {
+    $this->userInteraction = $userInteraction;
+  }
+  public function getUserInteraction()
+  {
+    return $this->userInteraction;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(CVSSv3::class, 'Google_Service_ContainerAnalysis_CVSSv3');

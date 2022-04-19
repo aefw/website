@@ -1,158 +1,144 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+<?php
+/**
+ * PHPMailer - PHP email creation and transport class.
+ * PHP Version 5.5
+ * @package PHPMailer
+ * @see https://github.com/PHPMailer/PHPMailer/ The PHPMailer GitHub project
+ * @author Marcus Bointon (Synchro/coolbru) <phpmailer@synchromedia.co.uk>
+ * @author Jim Jagielski (jimjag) <jimjag@gmail.com>
+ * @author Andy Prevost (codeworxtech) <codeworxtech@users.sourceforge.net>
+ * @author Brent R. Matzelle (original founder)
+ * @copyright 2012 - 2020 Marcus Bointon
+ * @copyright 2010 - 2012 Jim Jagielski
+ * @copyright 2004 - 2009 Andy Prevost
+ * @license http://www.gnu.org/copyleft/lesser.html GNU Lesser General Public License
+ * @note This program is distributed in the hope that it will be useful - WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+ * FITNESS FOR A PARTICULAR PURPOSE.
+ */
+/**
+ * Get an OAuth2 token from an OAuth2 provider.
+ * * Install this script on your server so that it's accessible
+ * as [https/http]://<yourdomain>/<folder>/get_oauth_token.php
+ * e.g.: http://localhost/phpmailer/get_oauth_token.php
+ * * Ensure dependencies are installed with 'composer install'
+ * * Set up an app in your Google/Yahoo/Microsoft account
+ * * Set the script address as the app's redirect URL
+ * If no refresh token is obtained when running this file,
+ * revoke access to your app and run the script again.
+ */
+
+namespace PHPMailer\PHPMailer;
+
+/**
+ * Aliases for League Provider Classes
+ * Make sure you have added these to your composer.json and run `composer install`
+ * Plenty to choose from here:
+ * @see http://oauth2-client.thephpleague.com/providers/thirdparty/
+ */
+// @see https://github.com/thephpleague/oauth2-google
+use League\OAuth2\Client\Provider\Google;
+// @see https://packagist.org/packages/hayageek/oauth2-yahoo
+use Hayageek\OAuth2\Client\Provider\Yahoo;
+// @see https://github.com/stevenmaguire/oauth2-microsoft
+use Stevenmaguire\OAuth2\Client\Provider\Microsoft;
+
+if (!isset($_GET['code']) && !isset($_GET['provider'])) {
 ?>
-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
+<html>
+<body>Select Provider:<br/>
+<a href='?provider=Google'>Google</a><br/>
+<a href='?provider=Yahoo'>Yahoo</a><br/>
+<a href='?provider=Microsoft'>Microsoft/Outlook/Hotmail/Live/Office365</a><br/>
+</body>
+</html>
+<?php
+exit;
+}
+
+require 'vendor/autoload.php';
+
+session_start();
+
+$providerName = '';
+
+if (array_key_exists('provider', $_GET)) {
+    $providerName = $_GET['provider'];
+    $_SESSION['provider'] = $providerName;
+} elseif (array_key_exists('provider', $_SESSION)) {
+    $providerName = $_SESSION['provider'];
+}
+if (!in_array($providerName, ['Google', 'Microsoft', 'Yahoo'])) {
+    exit('Only Google, Microsoft and Yahoo OAuth2 providers are currently supported in this script.');
+}
+
+//These details are obtained by setting up an app in the Google developer console,
+//or whichever provider you're using.
+$clientId = 'RANDOMCHARS-----duv1n2.apps.googleusercontent.com';
+$clientSecret = 'RANDOMCHARS-----lGyjPcRtvP';
+
+//If this automatic URL doesn't work, set it yourself manually to the URL of this script
+$redirectUri = (isset($_SERVER['HTTPS']) ? 'https://' : 'http://') . $_SERVER['HTTP_HOST'] . $_SERVER['PHP_SELF'];
+//$redirectUri = 'http://localhost/PHPMailer/redirect';
+
+$params = [
+    'clientId' => $clientId,
+    'clientSecret' => $clientSecret,
+    'redirectUri' => $redirectUri,
+    'accessType' => 'offline'
+];
+
+$options = [];
+$provider = null;
+
+switch ($providerName) {
+    case 'Google':
+        $provider = new Google($params);
+        $options = [
+            'scope' => [
+                'https://mail.google.com/'
+            ]
+        ];
+        break;
+    case 'Yahoo':
+        $provider = new Yahoo($params);
+        break;
+    case 'Microsoft':
+        $provider = new Microsoft($params);
+        $options = [
+            'scope' => [
+                'wl.imap',
+                'wl.offline_access'
+            ]
+        ];
+        break;
+}
+
+if (null === $provider) {
+    exit('Provider missing');
+}
+
+if (!isset($_GET['code'])) {
+    // If we don't have an authorization code then get one
+    $authUrl = $provider->getAuthorizationUrl($options);
+    $_SESSION['oauth2state'] = $provider->getState();
+    header('Location: ' . $authUrl);
+    exit;
+// Check given state against previously stored one to mitigate CSRF attack
+} elseif (empty($_GET['state']) || ($_GET['state'] !== $_SESSION['oauth2state'])) {
+    unset($_SESSION['oauth2state']);
+    unset($_SESSION['provider']);
+    exit('Invalid state');
+} else {
+    unset($_SESSION['provider']);
+    // Try to get an access token (using the authorization code grant)
+    $token = $provider->getAccessToken(
+        'authorization_code',
+        [
+            'code' => $_GET['code']
+        ]
+    );
+    // Use this to interact with an API on the users behalf
+    // Use this to get a new access token if the old one expires
+    echo 'Refresh Token: ', $token->getRefreshToken();
+}

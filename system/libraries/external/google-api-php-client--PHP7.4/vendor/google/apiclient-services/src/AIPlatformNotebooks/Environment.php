@@ -1,70 +1,103 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-aiy=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AIPlatformNotebooks;
+
+class Environment extends \Google\Model
+{
+  protected $containerImageType = ContainerImage::class;
+  protected $containerImageDataType = '';
+  public $createTime;
+  public $description;
+  public $displayName;
+  public $name;
+  public $postStartupScript;
+  protected $vmImageType = VmImage::class;
+  protected $vmImageDataType = '';
+
+  /**
+   * @param ContainerImage
+   */
+  public function setContainerImage(ContainerImage $containerImage)
+  {
+    $this->containerImage = $containerImage;
+  }
+  /**
+   * @return ContainerImage
+   */
+  public function getContainerImage()
+  {
+    return $this->containerImage;
+  }
+  public function setCreateTime($createTime)
+  {
+    $this->createTime = $createTime;
+  }
+  public function getCreateTime()
+  {
+    return $this->createTime;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setDisplayName($displayName)
+  {
+    $this->displayName = $displayName;
+  }
+  public function getDisplayName()
+  {
+    return $this->displayName;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setPostStartupScript($postStartupScript)
+  {
+    $this->postStartupScript = $postStartupScript;
+  }
+  public function getPostStartupScript()
+  {
+    return $this->postStartupScript;
+  }
+  /**
+   * @param VmImage
+   */
+  public function setVmImage(VmImage $vmImage)
+  {
+    $this->vmImage = $vmImage;
+  }
+  /**
+   * @return VmImage
+   */
+  public function getVmImage()
+  {
+    return $this->vmImage;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Environment::class, 'Google_Service_AIPlatformNotebooks_Environment');

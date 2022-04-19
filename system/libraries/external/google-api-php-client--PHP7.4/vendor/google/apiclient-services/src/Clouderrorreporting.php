@@ -1,67 +1,241 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for Clouderrorreporting (v1beta1).
+ *
+ * <p>
+ * Groups and counts similar errors from cloud services and applications,
+ * reports new errors, and provides access to error groups and their associated
+ * errors.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/error-reporting/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class Clouderrorreporting extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+
+  public $projects;
+  public $projects_events;
+  public $projects_groupStats;
+  public $projects_groups;
+
+  /**
+   * Constructs the internal representation of the Clouderrorreporting service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://clouderrorreporting.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1beta1';
+    $this->serviceName = 'clouderrorreporting';
+
+    $this->projects = new Clouderrorreporting\Resource\Projects(
+        $this,
+        $this->serviceName,
+        'projects',
+        [
+          'methods' => [
+            'deleteEvents' => [
+              'path' => 'v1beta1/{+projectName}/events',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'projectName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_events = new Clouderrorreporting\Resource\ProjectsEvents(
+        $this,
+        $this->serviceName,
+        'events',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1beta1/{+projectName}/events',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'groupId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'serviceFilter.resourceType' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'serviceFilter.service' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'serviceFilter.version' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'timeRange.period' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'report' => [
+              'path' => 'v1beta1/{+projectName}/events:report',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_groupStats = new Clouderrorreporting\Resource\ProjectsGroupStats(
+        $this,
+        $this->serviceName,
+        'groupStats',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1beta1/{+projectName}/groupStats',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'alignment' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'alignmentTime' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'groupId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'order' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'serviceFilter.resourceType' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'serviceFilter.service' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'serviceFilter.version' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'timeRange.period' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'timedCountDuration' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_groups = new Clouderrorreporting\Resource\ProjectsGroups(
+        $this,
+        $this->serviceName,
+        'groups',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1beta1/{+groupName}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'groupName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Clouderrorreporting::class, 'Google_Service_Clouderrorreporting');

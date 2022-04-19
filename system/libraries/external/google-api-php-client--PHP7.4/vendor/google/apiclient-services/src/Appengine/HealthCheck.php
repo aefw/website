@@ -1,64 +1,89 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Appengine;
+
+class HealthCheck extends \Google\Model
+{
+  public $checkInterval;
+  public $disableHealthCheck;
+  public $healthyThreshold;
+  public $host;
+  public $restartThreshold;
+  public $timeout;
+  public $unhealthyThreshold;
+
+  public function setCheckInterval($checkInterval)
+  {
+    $this->checkInterval = $checkInterval;
+  }
+  public function getCheckInterval()
+  {
+    return $this->checkInterval;
+  }
+  public function setDisableHealthCheck($disableHealthCheck)
+  {
+    $this->disableHealthCheck = $disableHealthCheck;
+  }
+  public function getDisableHealthCheck()
+  {
+    return $this->disableHealthCheck;
+  }
+  public function setHealthyThreshold($healthyThreshold)
+  {
+    $this->healthyThreshold = $healthyThreshold;
+  }
+  public function getHealthyThreshold()
+  {
+    return $this->healthyThreshold;
+  }
+  public function setHost($host)
+  {
+    $this->host = $host;
+  }
+  public function getHost()
+  {
+    return $this->host;
+  }
+  public function setRestartThreshold($restartThreshold)
+  {
+    $this->restartThreshold = $restartThreshold;
+  }
+  public function getRestartThreshold()
+  {
+    return $this->restartThreshold;
+  }
+  public function setTimeout($timeout)
+  {
+    $this->timeout = $timeout;
+  }
+  public function getTimeout()
+  {
+    return $this->timeout;
+  }
+  public function setUnhealthyThreshold($unhealthyThreshold)
+  {
+    $this->unhealthyThreshold = $unhealthyThreshold;
+  }
+  public function getUnhealthyThreshold()
+  {
+    return $this->unhealthyThreshold;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(HealthCheck::class, 'Google_Service_Appengine_HealthCheck');

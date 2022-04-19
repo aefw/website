@@ -1,80 +1,52 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+namespace Complex;
+
+include('../classes/Bootstrap.php');
+
+echo 'Function Examples', PHP_EOL;
+
+$functions = array(
+    'abs',
+    'acos',
+    'acosh',
+    'acsc',
+    'acsch',
+    'argument',
+    'asec',
+    'asech',
+    'asin',
+    'asinh',
+    'conjugate',
+    'cos',
+    'cosh',
+    'csc',
+    'csch',
+    'exp',
+    'inverse',
+    'ln',
+    'log2',
+    'log10',
+    'rho',
+    'sec',
+    'sech',
+    'sin',
+    'sinh',
+    'sqrt',
+    'theta'
+);
+
+for ($real = -3.5; $real <= 3.5; $real += 0.5) {
+    for ($imaginary = -3.5; $imaginary <= 3.5; $imaginary += 0.5) {
+        foreach ($functions as $function) {
+            $complexFunction = __NAMESPACE__ . '\\' . $function;
+            $complex = new Complex($real, $imaginary);
+            try {
+                echo $function, '(', $complex, ') = ', $complexFunction($complex), PHP_EOL;
+            } catch (\Exception $e) {
+                echo $function, '(', $complex, ') ERROR: ', $e->getMessage(), PHP_EOL;
+            }
+        }
+        echo PHP_EOL;
+    }
+}

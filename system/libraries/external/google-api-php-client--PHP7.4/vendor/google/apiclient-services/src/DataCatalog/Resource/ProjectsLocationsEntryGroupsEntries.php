@@ -1,81 +1,199 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DataCatalog\Resource;
+
+use Google\Service\DataCatalog\DatacatalogEmpty;
+use Google\Service\DataCatalog\GetIamPolicyRequest;
+use Google\Service\DataCatalog\GoogleCloudDatacatalogV1beta1Entry;
+use Google\Service\DataCatalog\GoogleCloudDatacatalogV1beta1ListEntriesResponse;
+use Google\Service\DataCatalog\Policy;
+use Google\Service\DataCatalog\TestIamPermissionsRequest;
+use Google\Service\DataCatalog\TestIamPermissionsResponse;
+
+/**
+ * The "entries" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $datacatalogService = new Google\Service\DataCatalog(...);
+ *   $entries = $datacatalogService->entries;
+ *  </code>
+ */
+class ProjectsLocationsEntryGroupsEntries extends \Google\Service\Resource
+{
+  /**
+   * Creates an entry. Only entries of 'FILESET' type or user-specified type can
+   * be created. Users should enable the Data Catalog API in the project
+   * identified by the `parent` parameter (see [Data Catalog Resource Project]
+   * (https://cloud.google.com/data-catalog/docs/concepts/resource-project) for
+   * more information). A maximum of 100,000 entries may be created per entry
+   * group. (entries.create)
+   *
+   * @param string $parent Required. The name of the entry group this entry is in.
+   * Example: *
+   * projects/{project_id}/locations/{location}/entryGroups/{entry_group_id} Note
+   * that this Entry and its child resources may not actually be stored in the
+   * location in this name.
+   * @param GoogleCloudDatacatalogV1beta1Entry $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string entryId Required. The id of the entry to create.
+   * @return GoogleCloudDatacatalogV1beta1Entry
+   */
+  public function create($parent, GoogleCloudDatacatalogV1beta1Entry $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleCloudDatacatalogV1beta1Entry::class);
+  }
+  /**
+   * Deletes an existing entry. Only entries created through CreateEntry method
+   * can be deleted. Users should enable the Data Catalog API in the project
+   * identified by the `name` parameter (see [Data Catalog Resource Project]
+   * (https://cloud.google.com/data-catalog/docs/concepts/resource-project) for
+   * more information). (entries.delete)
+   *
+   * @param string $name Required. The name of the entry. Example: * projects/{pro
+   * ject_id}/locations/{location}/entryGroups/{entry_group_id}/entries/{entry_id}
+   * @param array $optParams Optional parameters.
+   * @return DatacatalogEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], DatacatalogEmpty::class);
+  }
+  /**
+   * Gets an entry. (entries.get)
+   *
+   * @param string $name Required. The name of the entry. Example: * projects/{pro
+   * ject_id}/locations/{location}/entryGroups/{entry_group_id}/entries/{entry_id}
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudDatacatalogV1beta1Entry
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudDatacatalogV1beta1Entry::class);
+  }
+  /**
+   * Gets the access control policy for a resource. A `NOT_FOUND` error is
+   * returned if the resource does not exist. An empty policy is returned if the
+   * resource exists but does not have a policy set on it. Supported resources
+   * are: - Tag templates. - Entries. - Entry groups. Note, this method cannot be
+   * used to manage policies for BigQuery, Pub/Sub and any external Google Cloud
+   * Platform resources synced to Data Catalog. Callers must have following Google
+   * IAM permission - `datacatalog.tagTemplates.getIamPolicy` to get policies on
+   * tag templates. - `datacatalog.entries.getIamPolicy` to get policies on
+   * entries. - `datacatalog.entryGroups.getIamPolicy` to get policies on entry
+   * groups. (entries.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param GetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function getIamPolicy($resource, GetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Lists entries. (entries.listProjectsLocationsEntryGroupsEntries)
+   *
+   * @param string $parent Required. The name of the entry group that contains the
+   * entries, which can be provided in URL format. Example: *
+   * projects/{project_id}/locations/{location}/entryGroups/{entry_group_id}
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The maximum number of items to return. Default is 10.
+   * Max limit is 1000. Throws an invalid argument for `page_size > 1000`.
+   * @opt_param string pageToken Token that specifies which page is requested. If
+   * empty, the first page is returned.
+   * @opt_param string readMask The fields to return for each Entry. If not set or
+   * empty, all fields are returned. For example, setting read_mask to contain
+   * only one path "name" will cause ListEntries to return a list of Entries with
+   * only "name" field.
+   * @return GoogleCloudDatacatalogV1beta1ListEntriesResponse
+   */
+  public function listProjectsLocationsEntryGroupsEntries($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleCloudDatacatalogV1beta1ListEntriesResponse::class);
+  }
+  /**
+   * Updates an existing entry. Users should enable the Data Catalog API in the
+   * project identified by the `entry.name` parameter (see [Data Catalog Resource
+   * Project] (https://cloud.google.com/data-catalog/docs/concepts/resource-
+   * project) for more information). (entries.patch)
+   *
+   * @param string $name Output only. The Data Catalog resource name of the entry
+   * in URL format. Example: * projects/{project_id}/locations/{location}/entryGro
+   * ups/{entry_group_id}/entries/{entry_id} Note that this Entry and its child
+   * resources may not actually be stored in the location in this name.
+   * @param GoogleCloudDatacatalogV1beta1Entry $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Names of fields whose values to overwrite on an
+   * entry. If this parameter is absent or empty, all modifiable fields are
+   * overwritten. If such fields are non-required and omitted in the request body,
+   * their values are emptied. The following fields are modifiable: * For entries
+   * with type `DATA_STREAM`: * `schema` * For entries with type `FILESET`: *
+   * `schema` * `display_name` * `description` * `gcs_fileset_spec` *
+   * `gcs_fileset_spec.file_patterns` * For entries with `user_specified_type`: *
+   * `schema` * `display_name` * `description` * `user_specified_type` *
+   * `user_specified_system` * `linked_resource` * `source_system_timestamps`
+   * @return GoogleCloudDatacatalogV1beta1Entry
+   */
+  public function patch($name, GoogleCloudDatacatalogV1beta1Entry $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], GoogleCloudDatacatalogV1beta1Entry::class);
+  }
+  /**
+   * Returns the caller's permissions on a resource. If the resource does not
+   * exist, an empty set of permissions is returned (We don't return a `NOT_FOUND`
+   * error). Supported resources are: - Tag templates. - Entries. - Entry groups.
+   * Note, this method cannot be used to manage policies for BigQuery, Pub/Sub and
+   * any external Google Cloud Platform resources synced to Data Catalog. A caller
+   * is not required to have Google IAM permission to make this request.
+   * (entries.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsEntryGroupsEntries::class, 'Google_Service_DataCatalog_Resource_ProjectsLocationsEntryGroupsEntries');

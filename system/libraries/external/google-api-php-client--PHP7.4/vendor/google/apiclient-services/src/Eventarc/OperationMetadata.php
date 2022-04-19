@@ -1,65 +1,89 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Eventarc;
+
+class OperationMetadata extends \Google\Model
+{
+  public $apiVersion;
+  public $createTime;
+  public $endTime;
+  public $requestedCancellation;
+  public $statusMessage;
+  public $target;
+  public $verb;
+
+  public function setApiVersion($apiVersion)
+  {
+    $this->apiVersion = $apiVersion;
+  }
+  public function getApiVersion()
+  {
+    return $this->apiVersion;
+  }
+  public function setCreateTime($createTime)
+  {
+    $this->createTime = $createTime;
+  }
+  public function getCreateTime()
+  {
+    return $this->createTime;
+  }
+  public function setEndTime($endTime)
+  {
+    $this->endTime = $endTime;
+  }
+  public function getEndTime()
+  {
+    return $this->endTime;
+  }
+  public function setRequestedCancellation($requestedCancellation)
+  {
+    $this->requestedCancellation = $requestedCancellation;
+  }
+  public function getRequestedCancellation()
+  {
+    return $this->requestedCancellation;
+  }
+  public function setStatusMessage($statusMessage)
+  {
+    $this->statusMessage = $statusMessage;
+  }
+  public function getStatusMessage()
+  {
+    return $this->statusMessage;
+  }
+  public function setTarget($target)
+  {
+    $this->target = $target;
+  }
+  public function getTarget()
+  {
+    return $this->target;
+  }
+  public function setVerb($verb)
+  {
+    $this->verb = $verb;
+  }
+  public function getVerb()
+  {
+    return $this->verb;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(OperationMetadata::class, 'Google_Service_Eventarc_OperationMetadata');

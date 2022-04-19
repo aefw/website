@@ -1,67 +1,94 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-1gUTuOc/UW0M5pW17xBeFbDR
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Firestore;
+
+class GoogleFirestoreAdminV1IndexOperationMetadata extends \Google\Model
+{
+  public $endTime;
+  public $index;
+  protected $progressBytesType = GoogleFirestoreAdminV1Progress::class;
+  protected $progressBytesDataType = '';
+  protected $progressDocumentsType = GoogleFirestoreAdminV1Progress::class;
+  protected $progressDocumentsDataType = '';
+  public $startTime;
+  public $state;
+
+  public function setEndTime($endTime)
+  {
+    $this->endTime = $endTime;
+  }
+  public function getEndTime()
+  {
+    return $this->endTime;
+  }
+  public function setIndex($index)
+  {
+    $this->index = $index;
+  }
+  public function getIndex()
+  {
+    return $this->index;
+  }
+  /**
+   * @param GoogleFirestoreAdminV1Progress
+   */
+  public function setProgressBytes(GoogleFirestoreAdminV1Progress $progressBytes)
+  {
+    $this->progressBytes = $progressBytes;
+  }
+  /**
+   * @return GoogleFirestoreAdminV1Progress
+   */
+  public function getProgressBytes()
+  {
+    return $this->progressBytes;
+  }
+  /**
+   * @param GoogleFirestoreAdminV1Progress
+   */
+  public function setProgressDocuments(GoogleFirestoreAdminV1Progress $progressDocuments)
+  {
+    $this->progressDocuments = $progressDocuments;
+  }
+  /**
+   * @return GoogleFirestoreAdminV1Progress
+   */
+  public function getProgressDocuments()
+  {
+    return $this->progressDocuments;
+  }
+  public function setStartTime($startTime)
+  {
+    $this->startTime = $startTime;
+  }
+  public function getStartTime()
+  {
+    return $this->startTime;
+  }
+  public function setState($state)
+  {
+    $this->state = $state;
+  }
+  public function getState()
+  {
+    return $this->state;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleFirestoreAdminV1IndexOperationMetadata::class, 'Google_Service_Firestore_GoogleFirestoreAdminV1IndexOperationMetadata');

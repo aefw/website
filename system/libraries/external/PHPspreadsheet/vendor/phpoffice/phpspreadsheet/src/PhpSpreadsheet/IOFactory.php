@@ -1,91 +1,228 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-YAYtv7bx
+<?php
+
+namespace PhpOffice\PhpSpreadsheet;
+
+use PhpOffice\PhpSpreadsheet\Shared\File;
+
+/**
+ * Factory to create readers and writers easily.
+ *
+ * It is not required to use this class, but it should make it easier to read and write files.
+ * Especially for reading files with an unknown format.
+ */
+abstract class IOFactory
+{
+    private static $readers = [
+        'Xlsx' => Reader\Xlsx::class,
+        'Xls' => Reader\Xls::class,
+        'Xml' => Reader\Xml::class,
+        'Ods' => Reader\Ods::class,
+        'Slk' => Reader\Slk::class,
+        'Gnumeric' => Reader\Gnumeric::class,
+        'Html' => Reader\Html::class,
+        'Csv' => Reader\Csv::class,
+    ];
+
+    private static $writers = [
+        'Xls' => Writer\Xls::class,
+        'Xlsx' => Writer\Xlsx::class,
+        'Ods' => Writer\Ods::class,
+        'Csv' => Writer\Csv::class,
+        'Html' => Writer\Html::class,
+        'Tcpdf' => Writer\Pdf\Tcpdf::class,
+        'Dompdf' => Writer\Pdf\Dompdf::class,
+        'Mpdf' => Writer\Pdf\Mpdf::class,
+    ];
+
+    /**
+     * Create Writer\IWriter.
+     *
+     * @param Spreadsheet $spreadsheet
+     * @param string $writerType Example: Xlsx
+     *
+     * @throws Writer\Exception
+     *
+     * @return Writer\IWriter
+     */
+    public static function createWriter(Spreadsheet $spreadsheet, $writerType)
+    {
+        if (!isset(self::$writers[$writerType])) {
+            throw new Writer\Exception("No writer found for type $writerType");
+        }
+
+        // Instantiate writer
+        $className = self::$writers[$writerType];
+
+        return new $className($spreadsheet);
+    }
+
+    /**
+     * Create Reader\IReader.
+     *
+     * @param string $readerType Example: Xlsx
+     *
+     * @throws Reader\Exception
+     *
+     * @return Reader\IReader
+     */
+    public static function createReader($readerType)
+    {
+        if (!isset(self::$readers[$readerType])) {
+            throw new Reader\Exception("No reader found for type $readerType");
+        }
+
+        // Instantiate reader
+        $className = self::$readers[$readerType];
+
+        return new $className();
+    }
+
+    /**
+     * Loads Spreadsheet from file using automatic Reader\IReader resolution.
+     *
+     * @param string $pFilename The name of the spreadsheet file
+     *
+     * @throws Reader\Exception
+     *
+     * @return Spreadsheet
+     */
+    public static function load($pFilename)
+    {
+        $reader = self::createReaderForFile($pFilename);
+
+        return $reader->load($pFilename);
+    }
+
+    /**
+     * Identify file type using automatic Reader\IReader resolution.
+     *
+     * @param string $pFilename The name of the spreadsheet file to identify
+     *
+     * @throws Reader\Exception
+     *
+     * @return string
+     */
+    public static function identify($pFilename)
+    {
+        $reader = self::createReaderForFile($pFilename);
+        $className = get_class($reader);
+        $classType = explode('\\', $className);
+        unset($reader);
+
+        return array_pop($classType);
+    }
+
+    /**
+     * Create Reader\IReader for file using automatic Reader\IReader resolution.
+     *
+     * @param string $filename The name of the spreadsheet file
+     *
+     * @throws Reader\Exception
+     *
+     * @return Reader\IReader
+     */
+    public static function createReaderForFile($filename)
+    {
+        File::assertFile($filename);
+
+        // First, lucky guess by inspecting file extension
+        $guessedReader = self::getReaderTypeFromExtension($filename);
+        if ($guessedReader !== null) {
+            $reader = self::createReader($guessedReader);
+
+            // Let's see if we are lucky
+            if (isset($reader) && $reader->canRead($filename)) {
+                return $reader;
+            }
+        }
+
+        // If we reach here then "lucky guess" didn't give any result
+        // Try walking through all the options in self::$autoResolveClasses
+        foreach (self::$readers as $type => $class) {
+            //    Ignore our original guess, we know that won't work
+            if ($type !== $guessedReader) {
+                $reader = self::createReader($type);
+                if ($reader->canRead($filename)) {
+                    return $reader;
+                }
+            }
+        }
+
+        throw new Reader\Exception('Unable to identify a reader for this file');
+    }
+
+    /**
+     * Guess a reader type from the file extension, if any.
+     *
+     * @param string $filename
+     *
+     * @return null|string
+     */
+    private static function getReaderTypeFromExtension($filename)
+    {
+        $pathinfo = pathinfo($filename);
+        if (!isset($pathinfo['extension'])) {
+            return null;
+        }
+
+        switch (strtolower($pathinfo['extension'])) {
+            case 'xlsx': // Excel (OfficeOpenXML) Spreadsheet
+            case 'xlsm': // Excel (OfficeOpenXML) Macro Spreadsheet (macros will be discarded)
+            case 'xltx': // Excel (OfficeOpenXML) Template
+            case 'xltm': // Excel (OfficeOpenXML) Macro Template (macros will be discarded)
+                return 'Xlsx';
+            case 'xls': // Excel (BIFF) Spreadsheet
+            case 'xlt': // Excel (BIFF) Template
+                return 'Xls';
+            case 'ods': // Open/Libre Offic Calc
+            case 'ots': // Open/Libre Offic Calc Template
+                return 'Ods';
+            case 'slk':
+                return 'Slk';
+            case 'xml': // Excel 2003 SpreadSheetML
+                return 'Xml';
+            case 'gnumeric':
+                return 'Gnumeric';
+            case 'htm':
+            case 'html':
+                return 'Html';
+            case 'csv':
+                // Do nothing
+                // We must not try to use CSV reader since it loads
+                // all files including Excel files etc.
+                return null;
+            default:
+                return null;
+        }
+    }
+
+    /**
+     * Register a writer with its type and class name.
+     *
+     * @param string $writerType
+     * @param string $writerClass
+     */
+    public static function registerWriter($writerType, $writerClass)
+    {
+        if (!is_a($writerClass, Writer\IWriter::class, true)) {
+            throw new Writer\Exception('Registered writers must implement ' . Writer\IWriter::class);
+        }
+
+        self::$writers[$writerType] = $writerClass;
+    }
+
+    /**
+     * Register a reader with its type and class name.
+     *
+     * @param string $readerType
+     * @param string $readerClass
+     */
+    public static function registerReader($readerType, $readerClass)
+    {
+        if (!is_a($readerClass, Reader\IReader::class, true)) {
+            throw new Reader\Exception('Registered readers must implement ' . Reader\IReader::class);
+        }
+
+        self::$readers[$readerType] = $readerClass;
+    }
+}

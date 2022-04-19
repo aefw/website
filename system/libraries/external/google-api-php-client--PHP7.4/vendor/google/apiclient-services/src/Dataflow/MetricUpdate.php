@@ -1,81 +1,132 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-LBNh0IS8mRAhgxRcH3rxgh6OiTaD
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dataflow;
+
+class MetricUpdate extends \Google\Model
+{
+  public $cumulative;
+  public $distribution;
+  public $gauge;
+  public $internal;
+  public $kind;
+  public $meanCount;
+  public $meanSum;
+  protected $nameType = MetricStructuredName::class;
+  protected $nameDataType = '';
+  public $scalar;
+  public $set;
+  public $updateTime;
+
+  public function setCumulative($cumulative)
+  {
+    $this->cumulative = $cumulative;
+  }
+  public function getCumulative()
+  {
+    return $this->cumulative;
+  }
+  public function setDistribution($distribution)
+  {
+    $this->distribution = $distribution;
+  }
+  public function getDistribution()
+  {
+    return $this->distribution;
+  }
+  public function setGauge($gauge)
+  {
+    $this->gauge = $gauge;
+  }
+  public function getGauge()
+  {
+    return $this->gauge;
+  }
+  public function setInternal($internal)
+  {
+    $this->internal = $internal;
+  }
+  public function getInternal()
+  {
+    return $this->internal;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setMeanCount($meanCount)
+  {
+    $this->meanCount = $meanCount;
+  }
+  public function getMeanCount()
+  {
+    return $this->meanCount;
+  }
+  public function setMeanSum($meanSum)
+  {
+    $this->meanSum = $meanSum;
+  }
+  public function getMeanSum()
+  {
+    return $this->meanSum;
+  }
+  /**
+   * @param MetricStructuredName
+   */
+  public function setName(MetricStructuredName $name)
+  {
+    $this->name = $name;
+  }
+  /**
+   * @return MetricStructuredName
+   */
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setScalar($scalar)
+  {
+    $this->scalar = $scalar;
+  }
+  public function getScalar()
+  {
+    return $this->scalar;
+  }
+  public function setSet($set)
+  {
+    $this->set = $set;
+  }
+  public function getSet()
+  {
+    return $this->set;
+  }
+  public function setUpdateTime($updateTime)
+  {
+    $this->updateTime = $updateTime;
+  }
+  public function getUpdateTime()
+  {
+    return $this->updateTime;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(MetricUpdate::class, 'Google_Service_Dataflow_MetricUpdate');

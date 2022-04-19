@@ -1,337 +1,4809 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-dBtAfkNbmqI/kR/Zdbq=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for Dfareporting (v3.5).
+ *
+ * <p>
+ * Build applications to efficiently manage large or complex trafficking,
+ * reporting, and attribution workflows for Campaign Manager 360.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://developers.google.com/doubleclick-advertisers/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class Dfareporting extends \Google\Service
+{
+  /** Manage DoubleClick Digital Marketing conversions. */
+  const DDMCONVERSIONS =
+      "https://www.googleapis.com/auth/ddmconversions";
+  /** View and manage DoubleClick for Advertisers reports. */
+  const DFAREPORTING =
+      "https://www.googleapis.com/auth/dfareporting";
+  /** View and manage your DoubleClick Campaign Manager's (DCM) display ad campaigns. */
+  const DFATRAFFICKING =
+      "https://www.googleapis.com/auth/dfatrafficking";
+
+  public $accountActiveAdSummaries;
+  public $accountPermissionGroups;
+  public $accountPermissions;
+  public $accountUserProfiles;
+  public $accounts;
+  public $ads;
+  public $advertiserGroups;
+  public $advertiserLandingPages;
+  public $advertisers;
+  public $browsers;
+  public $campaignCreativeAssociations;
+  public $campaigns;
+  public $changeLogs;
+  public $cities;
+  public $connectionTypes;
+  public $contentCategories;
+  public $conversions;
+  public $countries;
+  public $creativeAssets;
+  public $creativeFieldValues;
+  public $creativeFields;
+  public $creativeGroups;
+  public $creatives;
+  public $dimensionValues;
+  public $directorySites;
+  public $dynamicTargetingKeys;
+  public $eventTags;
+  public $files;
+  public $floodlightActivities;
+  public $floodlightActivityGroups;
+  public $floodlightConfigurations;
+  public $inventoryItems;
+  public $languages;
+  public $metros;
+  public $mobileApps;
+  public $mobileCarriers;
+  public $operatingSystemVersions;
+  public $operatingSystems;
+  public $orderDocuments;
+  public $orders;
+  public $placementGroups;
+  public $placementStrategies;
+  public $placements;
+  public $platformTypes;
+  public $postalCodes;
+  public $projects;
+  public $regions;
+  public $remarketingListShares;
+  public $remarketingLists;
+  public $reports;
+  public $reports_compatibleFields;
+  public $reports_files;
+  public $sites;
+  public $sizes;
+  public $subaccounts;
+  public $targetableRemarketingLists;
+  public $targetingTemplates;
+  public $userProfiles;
+  public $userRolePermissionGroups;
+  public $userRolePermissions;
+  public $userRoles;
+  public $videoFormats;
+
+  /**
+   * Constructs the internal representation of the Dfareporting service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://dfareporting.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v3.5';
+    $this->serviceName = 'dfareporting';
+
+    $this->accountActiveAdSummaries = new Dfareporting\Resource\AccountActiveAdSummaries(
+        $this,
+        $this->serviceName,
+        'accountActiveAdSummaries',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/accountActiveAdSummaries/{summaryAccountId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'summaryAccountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->accountPermissionGroups = new Dfareporting\Resource\AccountPermissionGroups(
+        $this,
+        $this->serviceName,
+        'accountPermissionGroups',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/accountPermissionGroups/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/accountPermissionGroups',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->accountPermissions = new Dfareporting\Resource\AccountPermissions(
+        $this,
+        $this->serviceName,
+        'accountPermissions',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/accountPermissions/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/accountPermissions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->accountUserProfiles = new Dfareporting\Resource\AccountUserProfiles(
+        $this,
+        $this->serviceName,
+        'accountUserProfiles',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/accountUserProfiles/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/accountUserProfiles',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/accountUserProfiles',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'active' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'ids' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'searchString' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortField' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortOrder' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'subaccountId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userRoleId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/accountUserProfiles',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/accountUserProfiles',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->accounts = new Dfareporting\Resource\Accounts(
+        $this,
+        $this->serviceName,
+        'accounts',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/accounts/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/accounts',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'active' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'ids' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'searchString' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortField' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortOrder' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/accounts',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/accounts',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->ads = new Dfareporting\Resource\Ads(
+        $this,
+        $this->serviceName,
+        'ads',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/ads/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/ads',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/ads',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'active' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'advertiserId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'archived' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'audienceSegmentIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'campaignIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'compatibility' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'creativeIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'creativeOptimizationConfigurationIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'dynamicClickTracker' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'ids' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'landingPageIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'overriddenEventTagId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'placementIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'remarketingListIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'searchString' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sizeIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'sortField' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortOrder' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sslCompliant' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'sslRequired' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'type' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/ads',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/ads',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->advertiserGroups = new Dfareporting\Resource\AdvertiserGroups(
+        $this,
+        $this->serviceName,
+        'advertiserGroups',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/advertiserGroups/{id}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/advertiserGroups/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/advertiserGroups',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/advertiserGroups',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'ids' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'searchString' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortField' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortOrder' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/advertiserGroups',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/advertiserGroups',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->advertiserLandingPages = new Dfareporting\Resource\AdvertiserLandingPages(
+        $this,
+        $this->serviceName,
+        'advertiserLandingPages',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/advertiserLandingPages/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/advertiserLandingPages',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/advertiserLandingPages',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'advertiserIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'archived' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'campaignIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'ids' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'searchString' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortField' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortOrder' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'subaccountId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/advertiserLandingPages',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/advertiserLandingPages',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->advertisers = new Dfareporting\Resource\Advertisers(
+        $this,
+        $this->serviceName,
+        'advertisers',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/advertisers/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/advertisers',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/advertisers',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'advertiserGroupIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'floodlightConfigurationIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'ids' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'includeAdvertisersWithoutGroupsOnly' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'onlyParent' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'searchString' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortField' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortOrder' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'status' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'subaccountId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/advertisers',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/advertisers',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->browsers = new Dfareporting\Resource\Browsers(
+        $this,
+        $this->serviceName,
+        'browsers',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/browsers',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->campaignCreativeAssociations = new Dfareporting\Resource\CampaignCreativeAssociations(
+        $this,
+        $this->serviceName,
+        'campaignCreativeAssociations',
+        [
+          'methods' => [
+            'insert' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/campaigns/{campaignId}/campaignCreativeAssociations',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'campaignId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/campaigns/{campaignId}/campaignCreativeAssociations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'campaignId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortOrder' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->campaigns = new Dfareporting\Resource\Campaigns(
+        $this,
+        $this->serviceName,
+        'campaigns',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/campaigns/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/campaigns',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/campaigns',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'advertiserGroupIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'advertiserIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'archived' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'atLeastOneOptimizationActivity' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'excludedIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'ids' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'overriddenEventTagId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'searchString' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortField' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortOrder' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'subaccountId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/campaigns',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/campaigns',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->changeLogs = new Dfareporting\Resource\ChangeLogs(
+        $this,
+        $this->serviceName,
+        'changeLogs',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/changeLogs/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/changeLogs',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'action' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ids' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'maxChangeTime' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'minChangeTime' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'objectIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'objectType' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'searchString' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProfileIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->cities = new Dfareporting\Resource\Cities(
+        $this,
+        $this->serviceName,
+        'cities',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/cities',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'countryDartIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'dartIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'namePrefix' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'regionDartIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->connectionTypes = new Dfareporting\Resource\ConnectionTypes(
+        $this,
+        $this->serviceName,
+        'connectionTypes',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/connectionTypes/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/connectionTypes',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->contentCategories = new Dfareporting\Resource\ContentCategories(
+        $this,
+        $this->serviceName,
+        'contentCategories',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/contentCategories/{id}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/contentCategories/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/contentCategories',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/contentCategories',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'ids' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'searchString' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortField' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortOrder' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/contentCategories',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/contentCategories',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->conversions = new Dfareporting\Resource\Conversions(
+        $this,
+        $this->serviceName,
+        'conversions',
+        [
+          'methods' => [
+            'batchinsert' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/conversions/batchinsert',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'batchupdate' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/conversions/batchupdate',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->countries = new Dfareporting\Resource\Countries(
+        $this,
+        $this->serviceName,
+        'countries',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/countries/{dartId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'dartId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/countries',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->creativeAssets = new Dfareporting\Resource\CreativeAssets(
+        $this,
+        $this->serviceName,
+        'creativeAssets',
+        [
+          'methods' => [
+            'insert' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/creativeAssets/{advertiserId}/creativeAssets',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->creativeFieldValues = new Dfareporting\Resource\CreativeFieldValues(
+        $this,
+        $this->serviceName,
+        'creativeFieldValues',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/creativeFields/{creativeFieldId}/creativeFieldValues/{id}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'creativeFieldId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/creativeFields/{creativeFieldId}/creativeFieldValues/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'creativeFieldId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/creativeFields/{creativeFieldId}/creativeFieldValues',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'creativeFieldId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/creativeFields/{creativeFieldId}/creativeFieldValues',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'creativeFieldId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'ids' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'searchString' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortField' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortOrder' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/creativeFields/{creativeFieldId}/creativeFieldValues',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'creativeFieldId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/creativeFields/{creativeFieldId}/creativeFieldValues',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'creativeFieldId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->creativeFields = new Dfareporting\Resource\CreativeFields(
+        $this,
+        $this->serviceName,
+        'creativeFields',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/creativeFields/{id}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/creativeFields/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/creativeFields',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/creativeFields',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'advertiserIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'ids' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'searchString' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortField' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortOrder' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/creativeFields',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/creativeFields',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->creativeGroups = new Dfareporting\Resource\CreativeGroups(
+        $this,
+        $this->serviceName,
+        'creativeGroups',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/creativeGroups/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/creativeGroups',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/creativeGroups',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'advertiserIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'groupNumber' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'ids' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'searchString' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortField' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortOrder' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/creativeGroups',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/creativeGroups',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->creatives = new Dfareporting\Resource\Creatives(
+        $this,
+        $this->serviceName,
+        'creatives',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/creatives/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/creatives',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/creatives',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'active' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'advertiserId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'archived' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'campaignId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'companionCreativeIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'creativeFieldIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'ids' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'renderingIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'searchString' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sizeIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'sortField' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortOrder' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'studioCreativeId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'types' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/creatives',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/creatives',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->dimensionValues = new Dfareporting\Resource\DimensionValues(
+        $this,
+        $this->serviceName,
+        'dimensionValues',
+        [
+          'methods' => [
+            'query' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/dimensionvalues/query',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->directorySites = new Dfareporting\Resource\DirectorySites(
+        $this,
+        $this->serviceName,
+        'directorySites',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/directorySites/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/directorySites',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/directorySites',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'acceptsInStreamVideoPlacements' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'acceptsInterstitialPlacements' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'acceptsPublisherPaidPlacements' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'active' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'dfpNetworkCode' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ids' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'searchString' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortField' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortOrder' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->dynamicTargetingKeys = new Dfareporting\Resource\DynamicTargetingKeys(
+        $this,
+        $this->serviceName,
+        'dynamicTargetingKeys',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/dynamicTargetingKeys/{objectId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'objectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'name' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'objectType' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/dynamicTargetingKeys',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/dynamicTargetingKeys',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'advertiserId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'names' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'objectId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'objectType' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->eventTags = new Dfareporting\Resource\EventTags(
+        $this,
+        $this->serviceName,
+        'eventTags',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/eventTags/{id}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/eventTags/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/eventTags',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/eventTags',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'adId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'advertiserId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'campaignId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'definitionsOnly' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'enabled' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'eventTagTypes' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'ids' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'searchString' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortField' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortOrder' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/eventTags',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/eventTags',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->files = new Dfareporting\Resource\Files(
+        $this,
+        $this->serviceName,
+        'files',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'dfareporting/v3.5/reports/{reportId}/files/{fileId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'reportId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'fileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/files',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'scope' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortField' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortOrder' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->floodlightActivities = new Dfareporting\Resource\FloodlightActivities(
+        $this,
+        $this->serviceName,
+        'floodlightActivities',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/floodlightActivities/{id}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'generatetag' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/floodlightActivities/generatetag',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'floodlightActivityId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/floodlightActivities/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/floodlightActivities',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/floodlightActivities',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'advertiserId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'floodlightActivityGroupIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'floodlightActivityGroupName' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'floodlightActivityGroupTagString' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'floodlightActivityGroupType' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'floodlightConfigurationId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ids' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'searchString' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortField' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortOrder' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'tagString' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/floodlightActivities',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/floodlightActivities',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->floodlightActivityGroups = new Dfareporting\Resource\FloodlightActivityGroups(
+        $this,
+        $this->serviceName,
+        'floodlightActivityGroups',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/floodlightActivityGroups/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/floodlightActivityGroups',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/floodlightActivityGroups',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'advertiserId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'floodlightConfigurationId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ids' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'searchString' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortField' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortOrder' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'type' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/floodlightActivityGroups',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/floodlightActivityGroups',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->floodlightConfigurations = new Dfareporting\Resource\FloodlightConfigurations(
+        $this,
+        $this->serviceName,
+        'floodlightConfigurations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/floodlightConfigurations/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/floodlightConfigurations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'ids' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/floodlightConfigurations',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/floodlightConfigurations',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->inventoryItems = new Dfareporting\Resource\InventoryItems(
+        $this,
+        $this->serviceName,
+        'inventoryItems',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/projects/{projectId}/inventoryItems/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/projects/{projectId}/inventoryItems',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'ids' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'inPlan' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'orderId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'siteId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'sortField' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortOrder' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'type' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->languages = new Dfareporting\Resource\Languages(
+        $this,
+        $this->serviceName,
+        'languages',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/languages',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->metros = new Dfareporting\Resource\Metros(
+        $this,
+        $this->serviceName,
+        'metros',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/metros',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->mobileApps = new Dfareporting\Resource\MobileApps(
+        $this,
+        $this->serviceName,
+        'mobileApps',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/mobileApps/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/mobileApps',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'directories' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'ids' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'searchString' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->mobileCarriers = new Dfareporting\Resource\MobileCarriers(
+        $this,
+        $this->serviceName,
+        'mobileCarriers',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/mobileCarriers/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/mobileCarriers',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->operatingSystemVersions = new Dfareporting\Resource\OperatingSystemVersions(
+        $this,
+        $this->serviceName,
+        'operatingSystemVersions',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/operatingSystemVersions/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/operatingSystemVersions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->operatingSystems = new Dfareporting\Resource\OperatingSystems(
+        $this,
+        $this->serviceName,
+        'operatingSystems',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/operatingSystems/{dartId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'dartId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/operatingSystems',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->orderDocuments = new Dfareporting\Resource\OrderDocuments(
+        $this,
+        $this->serviceName,
+        'orderDocuments',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/projects/{projectId}/orderDocuments/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/projects/{projectId}/orderDocuments',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'approved' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'ids' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'orderId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'searchString' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'siteId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'sortField' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortOrder' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->orders = new Dfareporting\Resource\Orders(
+        $this,
+        $this->serviceName,
+        'orders',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/projects/{projectId}/orders/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/projects/{projectId}/orders',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'ids' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'searchString' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'siteId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'sortField' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortOrder' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->placementGroups = new Dfareporting\Resource\PlacementGroups(
+        $this,
+        $this->serviceName,
+        'placementGroups',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/placementGroups/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/placementGroups',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/placementGroups',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'advertiserIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'archived' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'campaignIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'contentCategoryIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'directorySiteIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'ids' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'maxEndDate' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'maxStartDate' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'minEndDate' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'minStartDate' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'placementGroupType' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'placementStrategyIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'pricingTypes' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'searchString' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'siteIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'sortField' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortOrder' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/placementGroups',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/placementGroups',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->placementStrategies = new Dfareporting\Resource\PlacementStrategies(
+        $this,
+        $this->serviceName,
+        'placementStrategies',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/placementStrategies/{id}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/placementStrategies/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/placementStrategies',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/placementStrategies',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'ids' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'searchString' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortField' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortOrder' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/placementStrategies',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/placementStrategies',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->placements = new Dfareporting\Resource\Placements(
+        $this,
+        $this->serviceName,
+        'placements',
+        [
+          'methods' => [
+            'generatetags' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/placements/generatetags',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'campaignId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'placementIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'tagFormats' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/placements/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/placements',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/placements',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'advertiserIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'archived' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'campaignIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'compatibilities' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'contentCategoryIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'directorySiteIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'groupIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'ids' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'maxEndDate' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'maxStartDate' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'minEndDate' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'minStartDate' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'paymentSource' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'placementStrategyIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'pricingTypes' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'searchString' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'siteIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'sizeIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'sortField' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortOrder' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/placements',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/placements',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->platformTypes = new Dfareporting\Resource\PlatformTypes(
+        $this,
+        $this->serviceName,
+        'platformTypes',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/platformTypes/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/platformTypes',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->postalCodes = new Dfareporting\Resource\PostalCodes(
+        $this,
+        $this->serviceName,
+        'postalCodes',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/postalCodes/{code}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'code' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/postalCodes',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects = new Dfareporting\Resource\Projects(
+        $this,
+        $this->serviceName,
+        'projects',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/projects/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/projects',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'advertiserIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'ids' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'searchString' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortField' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortOrder' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->regions = new Dfareporting\Resource\Regions(
+        $this,
+        $this->serviceName,
+        'regions',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/regions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->remarketingListShares = new Dfareporting\Resource\RemarketingListShares(
+        $this,
+        $this->serviceName,
+        'remarketingListShares',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/remarketingListShares/{remarketingListId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'remarketingListId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/remarketingListShares',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/remarketingListShares',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->remarketingLists = new Dfareporting\Resource\RemarketingLists(
+        $this,
+        $this->serviceName,
+        'remarketingLists',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/remarketingLists/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/remarketingLists',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/remarketingLists',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'advertiserId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'active' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'floodlightActivityId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'name' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortField' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortOrder' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/remarketingLists',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/remarketingLists',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->reports = new Dfareporting\Resource\Reports(
+        $this,
+        $this->serviceName,
+        'reports',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/reports/{reportId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'reportId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/reports/{reportId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'reportId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/reports',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/reports',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'scope' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortField' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortOrder' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/reports/{reportId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'reportId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'run' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/reports/{reportId}/run',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'reportId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'synchronous' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/reports/{reportId}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'reportId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->reports_compatibleFields = new Dfareporting\Resource\ReportsCompatibleFields(
+        $this,
+        $this->serviceName,
+        'compatibleFields',
+        [
+          'methods' => [
+            'query' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/reports/compatiblefields/query',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->reports_files = new Dfareporting\Resource\ReportsFiles(
+        $this,
+        $this->serviceName,
+        'files',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/reports/{reportId}/files/{fileId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'reportId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'fileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/reports/{reportId}/files',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'reportId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortField' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortOrder' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->sites = new Dfareporting\Resource\Sites(
+        $this,
+        $this->serviceName,
+        'sites',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/sites/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/sites',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/sites',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'acceptsInStreamVideoPlacements' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'acceptsInterstitialPlacements' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'acceptsPublisherPaidPlacements' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'adWordsSite' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'approved' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'campaignIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'directorySiteIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'ids' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'searchString' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortField' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortOrder' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'subaccountId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'unmappedSite' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/sites',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/sites',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->sizes = new Dfareporting\Resource\Sizes(
+        $this,
+        $this->serviceName,
+        'sizes',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/sizes/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/sizes',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/sizes',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'height' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'iabStandard' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'ids' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'width' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->subaccounts = new Dfareporting\Resource\Subaccounts(
+        $this,
+        $this->serviceName,
+        'subaccounts',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/subaccounts/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/subaccounts',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/subaccounts',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'ids' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'searchString' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortField' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortOrder' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/subaccounts',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/subaccounts',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->targetableRemarketingLists = new Dfareporting\Resource\TargetableRemarketingLists(
+        $this,
+        $this->serviceName,
+        'targetableRemarketingLists',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/targetableRemarketingLists/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/targetableRemarketingLists',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'advertiserId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'active' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'name' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortField' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortOrder' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->targetingTemplates = new Dfareporting\Resource\TargetingTemplates(
+        $this,
+        $this->serviceName,
+        'targetingTemplates',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/targetingTemplates/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/targetingTemplates',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/targetingTemplates',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'advertiserId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ids' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'searchString' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortField' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortOrder' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/targetingTemplates',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/targetingTemplates',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->userProfiles = new Dfareporting\Resource\UserProfiles(
+        $this,
+        $this->serviceName,
+        'userProfiles',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles',
+              'httpMethod' => 'GET',
+              'parameters' => [],
+            ],
+          ]
+        ]
+    );
+    $this->userRolePermissionGroups = new Dfareporting\Resource\UserRolePermissionGroups(
+        $this,
+        $this->serviceName,
+        'userRolePermissionGroups',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/userRolePermissionGroups/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/userRolePermissionGroups',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->userRolePermissions = new Dfareporting\Resource\UserRolePermissions(
+        $this,
+        $this->serviceName,
+        'userRolePermissions',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/userRolePermissions/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/userRolePermissions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'ids' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->userRoles = new Dfareporting\Resource\UserRoles(
+        $this,
+        $this->serviceName,
+        'userRoles',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/userRoles/{id}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/userRoles/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/userRoles',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/userRoles',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'accountUserRoleOnly' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'ids' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'searchString' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortField' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortOrder' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'subaccountId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/userRoles',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/userRoles',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->videoFormats = new Dfareporting\Resource\VideoFormats(
+        $this,
+        $this->serviceName,
+        'videoFormats',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/videoFormats/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'integer',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dfareporting/v3.5/userprofiles/{profileId}/videoFormats',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Dfareporting::class, 'Google_Service_Dfareporting');

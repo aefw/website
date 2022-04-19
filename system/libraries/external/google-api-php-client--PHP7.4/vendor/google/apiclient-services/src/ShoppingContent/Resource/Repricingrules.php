@@ -1,72 +1,134 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-uBVUacOnZEx/j0EtwL4=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ShoppingContent\Resource;
+
+use Google\Service\ShoppingContent\ListRepricingRulesResponse;
+use Google\Service\ShoppingContent\RepricingRule;
+
+/**
+ * The "repricingrules" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $contentService = new Google\Service\ShoppingContent(...);
+ *   $repricingrules = $contentService->repricingrules;
+ *  </code>
+ */
+class Repricingrules extends \Google\Service\Resource
+{
+  /**
+   * Creates a repricing rule for your Merchant Center account.
+   * (repricingrules.create)
+   *
+   * @param string $merchantId Required. The id of the merchant who owns the
+   * repricing rule.
+   * @param RepricingRule $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string ruleId Required. The id of the rule to create.
+   * @return RepricingRule
+   */
+  public function create($merchantId, RepricingRule $postBody, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], RepricingRule::class);
+  }
+  /**
+   * Deletes a repricing rule in your Merchant Center account.
+   * (repricingrules.delete)
+   *
+   * @param string $merchantId Required. The id of the merchant who owns the
+   * repricing rule.
+   * @param string $ruleId Required. The id of the rule to Delete.
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($merchantId, $ruleId, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'ruleId' => $ruleId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Retrieves a repricing rule from your Merchant Center account.
+   * (repricingrules.get)
+   *
+   * @param string $merchantId Required. The id of the merchant who owns the
+   * repricing rule.
+   * @param string $ruleId Required. The id of the rule to retrieve.
+   * @param array $optParams Optional parameters.
+   * @return RepricingRule
+   */
+  public function get($merchantId, $ruleId, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'ruleId' => $ruleId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], RepricingRule::class);
+  }
+  /**
+   * Lists the repricing rules in your Merchant Center account.
+   * (repricingrules.listRepricingrules)
+   *
+   * @param string $merchantId Required. The id of the merchant who owns the
+   * repricing rule.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string countryCode [CLDR country
+   * code](http://www.unicode.org/repos/cldr/tags/latest/common/main/en.xml) (e.g.
+   * "US"), used as a filter on repricing rules.
+   * @opt_param string languageCode The two-letter ISO 639-1 language code
+   * associated with the repricing rule, used as a filter.
+   * @opt_param int pageSize The maximum number of repricing rules to return. The
+   * service may return fewer than this value. If unspecified, at most 50 rules
+   * will be returned. The maximum value is 1000; values above 1000 will be
+   * coerced to 1000.
+   * @opt_param string pageToken A page token, received from a previous
+   * `ListRepricingRules` call. Provide this to retrieve the subsequent page. When
+   * paginating, all other parameters provided to `ListRepricingRules` must match
+   * the call that provided the page token.
+   * @return ListRepricingRulesResponse
+   */
+  public function listRepricingrules($merchantId, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListRepricingRulesResponse::class);
+  }
+  /**
+   * Updates a repricing rule in your Merchant Center account. All mutable fields
+   * will be overwritten in each update request. In each update, you must provide
+   * all required mutable fields, or an error will be thrown. If you do not
+   * provide an optional field in the update request, if that field currently
+   * exists, it will be deleted from the rule. (repricingrules.patch)
+   *
+   * @param string $merchantId Required. The id of the merchant who owns the
+   * repricing rule.
+   * @param string $ruleId Required. The id of the rule to update.
+   * @param RepricingRule $postBody
+   * @param array $optParams Optional parameters.
+   * @return RepricingRule
+   */
+  public function patch($merchantId, $ruleId, RepricingRule $postBody, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'ruleId' => $ruleId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], RepricingRule::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Repricingrules::class, 'Google_Service_ShoppingContent_Resource_Repricingrules');

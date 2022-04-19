@@ -1,69 +1,104 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-zKmsBG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AndroidEnterprise\Resource;
+
+use Google\Service\AndroidEnterprise\Entitlement;
+use Google\Service\AndroidEnterprise\EntitlementsListResponse;
+
+/**
+ * The "entitlements" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $androidenterpriseService = new Google\Service\AndroidEnterprise(...);
+ *   $entitlements = $androidenterpriseService->entitlements;
+ *  </code>
+ */
+class Entitlements extends \Google\Service\Resource
+{
+  /**
+   * Removes an entitlement to an app for a user. (entitlements.delete)
+   *
+   * @param string $enterpriseId The ID of the enterprise.
+   * @param string $userId The ID of the user.
+   * @param string $entitlementId The ID of the entitlement (a product ID), e.g.
+   * "app:com.google.android.gm".
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($enterpriseId, $userId, $entitlementId, $optParams = [])
+  {
+    $params = ['enterpriseId' => $enterpriseId, 'userId' => $userId, 'entitlementId' => $entitlementId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Retrieves details of an entitlement. (entitlements.get)
+   *
+   * @param string $enterpriseId The ID of the enterprise.
+   * @param string $userId The ID of the user.
+   * @param string $entitlementId The ID of the entitlement (a product ID), e.g.
+   * "app:com.google.android.gm".
+   * @param array $optParams Optional parameters.
+   * @return Entitlement
+   */
+  public function get($enterpriseId, $userId, $entitlementId, $optParams = [])
+  {
+    $params = ['enterpriseId' => $enterpriseId, 'userId' => $userId, 'entitlementId' => $entitlementId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Entitlement::class);
+  }
+  /**
+   * Lists all entitlements for the specified user. Only the ID is set.
+   * (entitlements.listEntitlements)
+   *
+   * @param string $enterpriseId The ID of the enterprise.
+   * @param string $userId The ID of the user.
+   * @param array $optParams Optional parameters.
+   * @return EntitlementsListResponse
+   */
+  public function listEntitlements($enterpriseId, $userId, $optParams = [])
+  {
+    $params = ['enterpriseId' => $enterpriseId, 'userId' => $userId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], EntitlementsListResponse::class);
+  }
+  /**
+   * Adds or updates an entitlement to an app for a user. (entitlements.update)
+   *
+   * @param string $enterpriseId The ID of the enterprise.
+   * @param string $userId The ID of the user.
+   * @param string $entitlementId The ID of the entitlement (a product ID), e.g.
+   * "app:com.google.android.gm".
+   * @param Entitlement $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool install Set to true to also install the product on all the
+   * user's devices where possible. Failure to install on one or more devices will
+   * not prevent this operation from returning successfully, as long as the
+   * entitlement was successfully assigned to the user.
+   * @return Entitlement
+   */
+  public function update($enterpriseId, $userId, $entitlementId, Entitlement $postBody, $optParams = [])
+  {
+    $params = ['enterpriseId' => $enterpriseId, 'userId' => $userId, 'entitlementId' => $entitlementId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Entitlement::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Entitlements::class, 'Google_Service_AndroidEnterprise_Resource_Entitlements');

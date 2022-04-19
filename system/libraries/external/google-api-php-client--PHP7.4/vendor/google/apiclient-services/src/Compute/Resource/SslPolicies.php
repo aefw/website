@@ -1,74 +1,254 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-3lYbk0==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute\Resource;
+
+use Google\Service\Compute\Operation;
+use Google\Service\Compute\SslPoliciesList;
+use Google\Service\Compute\SslPoliciesListAvailableFeaturesResponse;
+use Google\Service\Compute\SslPolicy;
+
+/**
+ * The "sslPolicies" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $computeService = new Google\Service\Compute(...);
+ *   $sslPolicies = $computeService->sslPolicies;
+ *  </code>
+ */
+class SslPolicies extends \Google\Service\Resource
+{
+  /**
+   * Deletes the specified SSL policy. The SSL policy resource can be deleted only
+   * if it is not in use by any TargetHttpsProxy or TargetSslProxy resources.
+   * (sslPolicies.delete)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $sslPolicy Name of the SSL policy to delete. The name must be
+   * 1-63 characters long, and comply with RFC1035.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function delete($project, $sslPolicy, $optParams = [])
+  {
+    $params = ['project' => $project, 'sslPolicy' => $sslPolicy];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Lists all of the ordered rules present in a single specified policy.
+   * (sslPolicies.get)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $sslPolicy Name of the SSL policy to update. The name must be
+   * 1-63 characters long, and comply with RFC1035.
+   * @param array $optParams Optional parameters.
+   * @return SslPolicy
+   */
+  public function get($project, $sslPolicy, $optParams = [])
+  {
+    $params = ['project' => $project, 'sslPolicy' => $sslPolicy];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], SslPolicy::class);
+  }
+  /**
+   * Returns the specified SSL policy resource. Gets a list of available SSL
+   * policies by making a list() request. (sslPolicies.insert)
+   *
+   * @param string $project Project ID for this request.
+   * @param SslPolicy $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function insert($project, SslPolicy $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Operation::class);
+  }
+  /**
+   * Lists all the SSL policies that have been configured for the specified
+   * project. (sslPolicies.listSslPolicies)
+   *
+   * @param string $project Project ID for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return SslPoliciesList
+   */
+  public function listSslPolicies($project, $optParams = [])
+  {
+    $params = ['project' => $project];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], SslPoliciesList::class);
+  }
+  /**
+   * Lists all features that can be specified in the SSL policy when using custom
+   * profile. (sslPolicies.listAvailableFeatures)
+   *
+   * @param string $project Project ID for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return SslPoliciesListAvailableFeaturesResponse
+   */
+  public function listAvailableFeatures($project, $optParams = [])
+  {
+    $params = ['project' => $project];
+    $params = array_merge($params, $optParams);
+    return $this->call('listAvailableFeatures', [$params], SslPoliciesListAvailableFeaturesResponse::class);
+  }
+  /**
+   * Patches the specified SSL policy with the data included in the request.
+   * (sslPolicies.patch)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $sslPolicy Name of the SSL policy to update. The name must be
+   * 1-63 characters long, and comply with RFC1035.
+   * @param SslPolicy $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function patch($project, $sslPolicy, SslPolicy $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'sslPolicy' => $sslPolicy, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(SslPolicies::class, 'Google_Service_Compute_Resource_SslPolicies');

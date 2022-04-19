@@ -1,74 +1,509 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for DatabaseMigrationService (v1).
+ *
+ * <p>
+ * Manage Cloud Database Migration Service resources on Google Cloud Platform.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/database-migration/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class DatabaseMigrationService extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+
+  public $projects_locations;
+  public $projects_locations_connectionProfiles;
+  public $projects_locations_migrationJobs;
+  public $projects_locations_operations;
+
+  /**
+   * Constructs the internal representation of the DatabaseMigrationService
+   * service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://datamigration.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'datamigration';
+
+    $this->projects_locations = new DatabaseMigrationService\Resource\ProjectsLocations(
+        $this,
+        $this->serviceName,
+        'locations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+name}/locations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_connectionProfiles = new DatabaseMigrationService\Resource\ProjectsLocationsConnectionProfiles(
+        $this,
+        $this->serviceName,
+        'connectionProfiles',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/connectionProfiles',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'connectionProfileId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'requestId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'force' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'requestId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1/{+resource}:getIamPolicy',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'options.requestedPolicyVersion' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/connectionProfiles',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'requestId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_migrationJobs = new DatabaseMigrationService\Resource\ProjectsLocationsMigrationJobs(
+        $this,
+        $this->serviceName,
+        'migrationJobs',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/migrationJobs',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'migrationJobId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'requestId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'force' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'requestId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'generateSshScript' => [
+              'path' => 'v1/{+migrationJob}:generateSshScript',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'migrationJob' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1/{+resource}:getIamPolicy',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'options.requestedPolicyVersion' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/migrationJobs',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'requestId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'promote' => [
+              'path' => 'v1/{+name}:promote',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'restart' => [
+              'path' => 'v1/{+name}:restart',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'resume' => [
+              'path' => 'v1/{+name}:resume',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'start' => [
+              'path' => 'v1/{+name}:start',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'stop' => [
+              'path' => 'v1/{+name}:stop',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'verify' => [
+              'path' => 'v1/{+name}:verify',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_operations = new DatabaseMigrationService\Resource\ProjectsLocationsOperations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'cancel' => [
+              'path' => 'v1/{+name}:cancel',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+name}/operations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(DatabaseMigrationService::class, 'Google_Service_DatabaseMigrationService');

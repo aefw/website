@@ -1,59 +1,91 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-tyoaeT94ZeG=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\PubsubLite\Resource;
+
+use Google\Service\PubsubLite\ComputeHeadCursorRequest;
+use Google\Service\PubsubLite\ComputeHeadCursorResponse;
+use Google\Service\PubsubLite\ComputeMessageStatsRequest;
+use Google\Service\PubsubLite\ComputeMessageStatsResponse;
+use Google\Service\PubsubLite\ComputeTimeCursorRequest;
+use Google\Service\PubsubLite\ComputeTimeCursorResponse;
+
+/**
+ * The "topics" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $pubsubliteService = new Google\Service\PubsubLite(...);
+ *   $topics = $pubsubliteService->topics;
+ *  </code>
+ */
+class TopicStatsProjectsLocationsTopics extends \Google\Service\Resource
+{
+  /**
+   * Compute the head cursor for the partition. The head cursor's offset is
+   * guaranteed to be less than or equal to all messages which have not yet been
+   * acknowledged as published, and greater than the offset of any message whose
+   * publish has already been acknowledged. It is zero if there have never been
+   * messages in the partition. (topics.computeHeadCursor)
+   *
+   * @param string $topic Required. The topic for which we should compute the head
+   * cursor.
+   * @param ComputeHeadCursorRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return ComputeHeadCursorResponse
+   */
+  public function computeHeadCursor($topic, ComputeHeadCursorRequest $postBody, $optParams = [])
+  {
+    $params = ['topic' => $topic, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('computeHeadCursor', [$params], ComputeHeadCursorResponse::class);
+  }
+  /**
+   * Compute statistics about a range of messages in a given topic and partition.
+   * (topics.computeMessageStats)
+   *
+   * @param string $topic Required. The topic for which we should compute message
+   * stats.
+   * @param ComputeMessageStatsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return ComputeMessageStatsResponse
+   */
+  public function computeMessageStats($topic, ComputeMessageStatsRequest $postBody, $optParams = [])
+  {
+    $params = ['topic' => $topic, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('computeMessageStats', [$params], ComputeMessageStatsResponse::class);
+  }
+  /**
+   * Compute the corresponding cursor for a publish or event time in a topic
+   * partition. (topics.computeTimeCursor)
+   *
+   * @param string $topic Required. The topic for which we should compute the
+   * cursor.
+   * @param ComputeTimeCursorRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return ComputeTimeCursorResponse
+   */
+  public function computeTimeCursor($topic, ComputeTimeCursorRequest $postBody, $optParams = [])
+  {
+    $params = ['topic' => $topic, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('computeTimeCursor', [$params], ComputeTimeCursorResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(TopicStatsProjectsLocationsTopics::class, 'Google_Service_PubsubLite_Resource_TopicStatsProjectsLocationsTopics');

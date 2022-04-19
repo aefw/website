@@ -1,65 +1,95 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-rVHQ
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute;
+
+class InstanceGroupList extends \Google\Collection
+{
+  protected $collection_key = 'items';
+  public $id;
+  protected $itemsType = InstanceGroup::class;
+  protected $itemsDataType = 'array';
+  public $kind;
+  public $nextPageToken;
+  public $selfLink;
+  protected $warningType = InstanceGroupListWarning::class;
+  protected $warningDataType = '';
+
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  /**
+   * @param InstanceGroup[]
+   */
+  public function setItems($items)
+  {
+    $this->items = $items;
+  }
+  /**
+   * @return InstanceGroup[]
+   */
+  public function getItems()
+  {
+    return $this->items;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setNextPageToken($nextPageToken)
+  {
+    $this->nextPageToken = $nextPageToken;
+  }
+  public function getNextPageToken()
+  {
+    return $this->nextPageToken;
+  }
+  public function setSelfLink($selfLink)
+  {
+    $this->selfLink = $selfLink;
+  }
+  public function getSelfLink()
+  {
+    return $this->selfLink;
+  }
+  /**
+   * @param InstanceGroupListWarning
+   */
+  public function setWarning(InstanceGroupListWarning $warning)
+  {
+    $this->warning = $warning;
+  }
+  /**
+   * @return InstanceGroupListWarning
+   */
+  public function getWarning()
+  {
+    return $this->warning;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(InstanceGroupList::class, 'Google_Service_Compute_InstanceGroupList');

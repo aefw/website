@@ -1,223 +1,441 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+/* vim: set expandtab tabstop=4 shiftwidth=4 softtabstop=4: */
+
+/**
+ * This file is part of the PEAR2\Console\CommandLine package.
+ *
+ * PHP version 5
+ *
+ * LICENSE: This source file is subject to the MIT license that is available
+ * through the world-wide-web at the following URI:
+ * http://opensource.org/licenses/mit-license.php
+ *
+ * @category  Console
+ * @package   PEAR2\Console\CommandLine
+ * @author    David JEAN LOUIS <izimobil@gmail.com>
+ * @copyright 2007-2009 David JEAN LOUIS
+ * @license   http://opensource.org/licenses/mit-license.php MIT License
+ * @version   0.2.3
+ * @link      http://pear2.php.net/PEAR2_Console_CommandLine
+ * @since     File available since release 0.1.0
+ */
+
+namespace PEAR2\Console\CommandLine;
+
+/**
+ * PEAR2\Console\CommandLine default renderer.
+ *
+ * @category  Console
+ * @package   PEAR2\Console\CommandLine
+ * @author    David JEAN LOUIS <izimobil@gmail.com>
+ * @copyright 2007-2009 David JEAN LOUIS
+ * @license   http://opensource.org/licenses/mit-license.php MIT License
+ * @link      http://pear2.php.net/PEAR2_Console_CommandLine
+ * @since     Class available since release 0.1.0
+ */
+class Renderer_Default implements Renderer
+{
+    // Properties {{{
+
+    /**
+     * Integer that define the max width of the help text.
+     *
+     * @var integer $line_width Line width
+     */
+    public $line_width = 75;
+
+    /**
+     * Integer that define the max width of the help text.
+     *
+     * @var integer $line_width Line width
+     */
+    public $options_on_different_lines = false;
+
+    /**
+     * An instance of PEAR2\Console\CommandLine.
+     *
+     * @var PEAR2\Console\CommandLine $parser The parser
+     */
+    public $parser = false;
+
+    // }}}
+    // __construct() {{{
+
+    /**
+     * Constructor.
+     *
+     * @param object $parser A PEAR2\Console\CommandLine instance
+     *
+     * @return void
+     */
+    public function __construct($parser = false)
+    {
+        $this->parser = $parser;
+    }
+
+    // }}}
+    // usage() {{{
+
+    /**
+     * Returns the full usage message.
+     *
+     * @return string The usage message
+     */
+    public function usage()
+    {
+        $ret = '';
+        if (!empty($this->parser->description)) {
+            $ret .= $this->description() . "\n\n";
+        }
+        $ret .= $this->usageLine() . "\n";
+        if (count($this->parser->commands) > 0) {
+            $ret .= $this->commandUsageLine() . "\n";
+        }
+        if (count($this->parser->options) > 0) {
+            $ret .= "\n" . $this->optionList() . "\n";
+        }
+        if (count($this->parser->args) > 0) {
+            $ret .= "\n" . $this->argumentList() . "\n";
+        }
+        if (count($this->parser->commands) > 0) {
+            $ret .= "\n" . $this->commandList() . "\n";
+        }
+        $ret .= "\n";
+        return $ret;
+    }
+    // }}}
+    // error() {{{
+
+    /**
+     * Returns a formatted error message.
+     *
+     * @param string $error The error message to format
+     *
+     * @return string The error string
+     */
+    public function error($error)
+    {
+        $ret = 'Error: ' . $error . "\n";
+        if ($this->parser->add_help_option) {
+            $name = $this->name();
+            $ret .= $this->wrap(
+                $this->parser->message_provider->get(
+                    'PROG_HELP_LINE',
+                    array('progname' => $name)
+                )
+            ) . "\n";
+            if (count($this->parser->commands) > 0) {
+                $ret .= $this->wrap(
+                    $this->parser->message_provider->get(
+                        'COMMAND_HELP_LINE',
+                        array('progname' => $name)
+                    )
+                ) . "\n";
+            }
+        }
+        return $ret;
+    }
+
+    // }}}
+    // version() {{{
+
+    /**
+     * Returns the program version string.
+     *
+     * @return string The version string
+     */
+    public function version()
+    {
+        return $this->parser->message_provider->get(
+            'PROG_VERSION_LINE',
+            array(
+                'progname' => $this->name(),
+                'version'  => $this->parser->version
+            )
+        ) . "\n";
+    }
+
+    // }}}
+    // name() {{{
+
+    /**
+     * Returns the full name of the program or the sub command
+     *
+     * @return string The name of the program
+     */
+    protected function name()
+    {
+        $name   = $this->parser->name;
+        $parent = $this->parser->parent;
+        while ($parent) {
+            if (count($parent->options) > 0) {
+                $name = '['
+                    . strtolower(
+                        $this->parser->message_provider->get(
+                            'OPTION_WORD',
+                            array('plural' => 's')
+                        )
+                    ) . '] ' . $name;
+            }
+            $name = $parent->name . ' ' . $name;
+            $parent = $parent->parent;
+        }
+        return $this->wrap($name);
+    }
+
+    // }}}
+    // description() {{{
+
+    /**
+     * Returns the command line description message.
+     *
+     * @return string The description message
+     */
+    protected function description()
+    {
+        return $this->wrap($this->parser->description);
+    }
+
+    // }}}
+    // usageLine() {{{
+
+    /**
+     * Returns the command line usage message
+     *
+     * @return string the usage message
+     */
+    protected function usageLine()
+    {
+        $usage = $this->parser->message_provider->get('USAGE_WORD') . ":\n";
+        $ret   = $usage . '  ' . $this->name();
+        if (count($this->parser->options) > 0) {
+            $ret .= ' ['
+                . strtolower($this->parser->message_provider->get('OPTION_WORD'))
+                . ']';
+        }
+        if (count($this->parser->args) > 0) {
+            foreach ($this->parser->args as $name=>$arg) {
+                $arg_str = $arg->help_name;
+                if ($arg->multiple) {
+                    $arg_str .= '1 ' . $arg->help_name . '2 ...';
+                }
+                if ($arg->optional) {
+                    $arg_str = '[' . $arg_str . ']';
+                }
+                $ret .= ' ' . $arg_str;
+            }
+        }
+        return $this->columnWrap($ret, 2);
+    }
+
+    // }}}
+    // commandUsageLine() {{{
+
+    /**
+     * Returns the command line usage message for subcommands.
+     *
+     * @return string The usage line
+     */
+    protected function commandUsageLine()
+    {
+        if (count($this->parser->commands) == 0) {
+            return '';
+        }
+        $ret = '  ' . $this->name();
+        if (count($this->parser->options) > 0) {
+            $ret .= ' ['
+                . strtolower($this->parser->message_provider->get('OPTION_WORD'))
+                . ']';
+        }
+        $ret       .= " <command>";
+        $hasArgs    = false;
+        $hasOptions = false;
+        foreach ($this->parser->commands as $command) {
+            if (!$hasArgs && count($command->args) > 0) {
+                $hasArgs = true;
+            }
+            if (!$hasOptions && ($command->add_help_option
+                || $command->add_version_option
+                || count($command->options) > 0)
+            ) {
+                $hasOptions = true;
+            }
+        }
+        if ($hasOptions) {
+            $ret .= ' [options]';
+        }
+        if ($hasArgs) {
+            $ret .= ' [args]';
+        }
+        return $this->columnWrap($ret, 2);
+    }
+
+    // }}}
+    // argumentList() {{{
+
+    /**
+     * Render the arguments list that will be displayed to the user, you can
+     * override this method if you want to change the look of the list.
+     *
+     * @return string The formatted argument list
+     */
+    protected function argumentList()
+    {
+        $col  = 0;
+        $args = array();
+        foreach ($this->parser->args as $arg) {
+            $argstr = '  ' . $arg->toString();
+            $args[] = array($argstr, $arg->description);
+            $ln     = strlen($argstr);
+            if ($col < $ln) {
+                $col = $ln;
+            }
+        }
+        $ret = $this->parser->message_provider->get('ARGUMENT_WORD') . ":";
+        foreach ($args as $arg) {
+            $text = str_pad($arg[0], $col) . '  ' . $arg[1];
+            $ret .= "\n" . $this->columnWrap($text, $col+2);
+        }
+        return $ret;
+    }
+
+    // }}}
+    // optionList() {{{
+
+    /**
+     * Render the options list that will be displayed to the user, you can
+     * override this method if you want to change the look of the list.
+     *
+     * @return string The formatted option list
+     */
+    protected function optionList()
+    {
+        $col     = 0;
+        $options = array();
+        foreach ($this->parser->options as $option) {
+            $delim    = $this->options_on_different_lines ? "\n" : ', ';
+            $optstr   = $option->toString($delim);
+            $lines    = explode("\n", $optstr);
+            $lines[0] = '  ' . $lines[0];
+            if (count($lines) > 1) {
+                $lines[1] = '  ' . $lines[1];
+                $ln       = strlen($lines[1]);
+            } else {
+                $ln = strlen($lines[0]);
+            }
+            $options[] = array($lines, $option->description);
+            if ($col < $ln) {
+                $col = $ln;
+            }
+        }
+        $ret = $this->parser->message_provider->get('OPTION_WORD') . ":";
+        foreach ($options as $option) {
+            if (count($option[0]) > 1) {
+                $text = str_pad($option[0][1], $col) . '  ' . $option[1];
+                $pre  = $option[0][0] . "\n";
+            } else {
+                $text = str_pad($option[0][0], $col) . '  ' . $option[1];
+                $pre  = '';
+            }
+            $ret .= "\n" . $pre . $this->columnWrap($text, $col+2);
+        }
+        return $ret;
+    }
+
+    // }}}
+    // commandList() {{{
+
+    /**
+     * Render the command list that will be displayed to the user, you can
+     * override this method if you want to change the look of the list.
+     *
+     * @return string The formatted subcommand list
+     */
+    protected function commandList()
+    {
+
+        $commands = array();
+        $col      = 0;
+        foreach ($this->parser->commands as $cmdname=>$command) {
+            $cmdname    = '  ' . $cmdname;
+            $commands[] = array($cmdname, $command->description, $command->aliases);
+            $ln         = strlen($cmdname);
+            if ($col < $ln) {
+                $col = $ln;
+            }
+        }
+        $ret = $this->parser->message_provider->get('COMMAND_WORD') . ":";
+        foreach ($commands as $command) {
+            $text = str_pad($command[0], $col) . '  ' . $command[1];
+            if ($aliasesCount = count($command[2])) {
+                $pad = '';
+                $text .= ' (';
+                $text .= $aliasesCount > 1 ? 'aliases: ' : 'alias: ';
+                foreach ($command[2] as $alias) {
+                    $text .= $pad . $alias;
+                    $pad   = ', ';
+                }
+                $text .= ')';
+            }
+            $ret .= "\n" . $this->columnWrap($text, $col+2);
+        }
+        return $ret;
+    }
+
+    // }}}
+    // wrap() {{{
+
+    /**
+     * Wraps the text passed to the method.
+     *
+     * @param string $text The text to wrap
+     * @param int    $lw   The column width (defaults to line_width property)
+     *
+     * @return string The wrapped text
+     */
+    protected function wrap($text, $lw=null)
+    {
+        if ($this->line_width > 0) {
+            if ($lw === null) {
+                $lw = $this->line_width;
+            }
+            return wordwrap($text, $lw, "\n", false);
+        }
+        return $text;
+    }
+
+    // }}}
+    // columnWrap() {{{
+
+    /**
+     * Wraps the text passed to the method at the specified width.
+     *
+     * @param string $text The text to wrap
+     * @param int    $cw   The wrap width
+     *
+     * @return string The wrapped text
+     */
+    protected function columnWrap($text, $cw)
+    {
+        $tokens = explode("\n", $this->wrap($text));
+        $ret    = $tokens[0];
+        $text   = trim(substr($text, strlen($ret)));
+        if (empty($text)) {
+            return $ret;
+        }
+
+        $chunks = $this->wrap($text, $this->line_width - $cw);
+        $tokens = explode("\n", $chunks);
+        foreach ($tokens as $token) {
+            if (!empty($token)) {
+                $ret .= "\n" . str_repeat(' ', $cw) . $token;
+            } else {
+                $ret .= "\n";
+            }
+        }
+        return $ret;
+    }
+
+    // }}}
+}

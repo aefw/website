@@ -1,61 +1,80 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-WGpRevT7kz1COquaok3E6ZuhYs3FgJcxMvxi10==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dfareporting\Resource;
+
+use Google\Service\Dfareporting\RemarketingListShare;
+
+/**
+ * The "remarketingListShares" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $dfareportingService = new Google\Service\Dfareporting(...);
+ *   $remarketingListShares = $dfareportingService->remarketingListShares;
+ *  </code>
+ */
+class RemarketingListShares extends \Google\Service\Resource
+{
+  /**
+   * Gets one remarketing list share by remarketing list ID.
+   * (remarketingListShares.get)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param string $remarketingListId Remarketing list ID.
+   * @param array $optParams Optional parameters.
+   * @return RemarketingListShare
+   */
+  public function get($profileId, $remarketingListId, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'remarketingListId' => $remarketingListId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], RemarketingListShare::class);
+  }
+  /**
+   * Updates an existing remarketing list share. This method supports patch
+   * semantics. (remarketingListShares.patch)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param string $id RemarketingList ID.
+   * @param RemarketingListShare $postBody
+   * @param array $optParams Optional parameters.
+   * @return RemarketingListShare
+   */
+  public function patch($profileId, $id, RemarketingListShare $postBody, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'id' => $id, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], RemarketingListShare::class);
+  }
+  /**
+   * Updates an existing remarketing list share. (remarketingListShares.update)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param RemarketingListShare $postBody
+   * @param array $optParams Optional parameters.
+   * @return RemarketingListShare
+   */
+  public function update($profileId, RemarketingListShare $postBody, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], RemarketingListShare::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(RemarketingListShares::class, 'Google_Service_Dfareporting_Resource_RemarketingListShares');

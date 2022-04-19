@@ -1,84 +1,562 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-7v2JLnj+l7tGLIhihHRyVsu=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for PeopleService (v1).
+ *
+ * <p>
+ * Provides access to information about profiles and contacts.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://developers.google.com/people/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class PeopleService extends \Google\Service
+{
+  /** See, edit, download, and permanently delete your contacts. */
+  const CONTACTS =
+      "https://www.googleapis.com/auth/contacts";
+  /** See and download contact info automatically saved in your "Other contacts". */
+  const CONTACTS_OTHER_READONLY =
+      "https://www.googleapis.com/auth/contacts.other.readonly";
+  /** See and download your contacts. */
+  const CONTACTS_READONLY =
+      "https://www.googleapis.com/auth/contacts.readonly";
+  /** See and download your organization's GSuite directory. */
+  const DIRECTORY_READONLY =
+      "https://www.googleapis.com/auth/directory.readonly";
+  /** View your street addresses. */
+  const USER_ADDRESSES_READ =
+      "https://www.googleapis.com/auth/user.addresses.read";
+  /** See and download your exact date of birth. */
+  const USER_BIRTHDAY_READ =
+      "https://www.googleapis.com/auth/user.birthday.read";
+  /** See and download all of your Google Account email addresses. */
+  const USER_EMAILS_READ =
+      "https://www.googleapis.com/auth/user.emails.read";
+  /** See your gender. */
+  const USER_GENDER_READ =
+      "https://www.googleapis.com/auth/user.gender.read";
+  /** See your education, work history and org info. */
+  const USER_ORGANIZATION_READ =
+      "https://www.googleapis.com/auth/user.organization.read";
+  /** See and download your personal phone numbers. */
+  const USER_PHONENUMBERS_READ =
+      "https://www.googleapis.com/auth/user.phonenumbers.read";
+  /** See your primary Google Account email address. */
+  const USERINFO_EMAIL =
+      "https://www.googleapis.com/auth/userinfo.email";
+  /** See your personal info, including any personal info you've made publicly available. */
+  const USERINFO_PROFILE =
+      "https://www.googleapis.com/auth/userinfo.profile";
+
+  public $contactGroups;
+  public $contactGroups_members;
+  public $otherContacts;
+  public $people;
+  public $people_connections;
+
+  /**
+   * Constructs the internal representation of the PeopleService service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://people.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'people';
+
+    $this->contactGroups = new PeopleService\Resource\ContactGroups(
+        $this,
+        $this->serviceName,
+        'contactGroups',
+        [
+          'methods' => [
+            'batchGet' => [
+              'path' => 'v1/contactGroups:batchGet',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'groupFields' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxMembers' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'resourceNames' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1/contactGroups',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'delete' => [
+              'path' => 'v1/{+resourceName}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'resourceName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'deleteContacts' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+resourceName}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'resourceName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'groupFields' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxMembers' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/contactGroups',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'groupFields' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'syncToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'v1/{+resourceName}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'resourceName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->contactGroups_members = new PeopleService\Resource\ContactGroupsMembers(
+        $this,
+        $this->serviceName,
+        'members',
+        [
+          'methods' => [
+            'modify' => [
+              'path' => 'v1/{+resourceName}/members:modify',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resourceName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->otherContacts = new PeopleService\Resource\OtherContacts(
+        $this,
+        $this->serviceName,
+        'otherContacts',
+        [
+          'methods' => [
+            'copyOtherContactToMyContactsGroup' => [
+              'path' => 'v1/{+resourceName}:copyOtherContactToMyContactsGroup',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resourceName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/otherContacts',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'readMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'requestSyncToken' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'syncToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'search' => [
+              'path' => 'v1/otherContacts:search',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'query' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'readMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->people = new PeopleService\Resource\People(
+        $this,
+        $this->serviceName,
+        'people',
+        [
+          'methods' => [
+            'batchCreateContacts' => [
+              'path' => 'v1/people:batchCreateContacts',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'batchDeleteContacts' => [
+              'path' => 'v1/people:batchDeleteContacts',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'batchUpdateContacts' => [
+              'path' => 'v1/people:batchUpdateContacts',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'createContact' => [
+              'path' => 'v1/people:createContact',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'personFields' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sources' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],'deleteContact' => [
+              'path' => 'v1/{+resourceName}:deleteContact',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'resourceName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'deleteContactPhoto' => [
+              'path' => 'v1/{+resourceName}:deleteContactPhoto',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'resourceName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'personFields' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sources' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+resourceName}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'resourceName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'personFields' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'requestMask.includeField' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sources' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],'getBatchGet' => [
+              'path' => 'v1/people:batchGet',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'personFields' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'requestMask.includeField' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'resourceNames' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'sources' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],'listDirectoryPeople' => [
+              'path' => 'v1/people:listDirectoryPeople',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'mergeSources' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'readMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'requestSyncToken' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'sources' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'syncToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'searchContacts' => [
+              'path' => 'v1/people:searchContacts',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'query' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'readMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sources' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],'searchDirectoryPeople' => [
+              'path' => 'v1/people:searchDirectoryPeople',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'mergeSources' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'query' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'readMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sources' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],'updateContact' => [
+              'path' => 'v1/{+resourceName}:updateContact',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'resourceName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'personFields' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sources' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'updatePersonFields' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'updateContactPhoto' => [
+              'path' => 'v1/{+resourceName}:updateContactPhoto',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'resourceName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->people_connections = new PeopleService\Resource\PeopleConnections(
+        $this,
+        $this->serviceName,
+        'connections',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/{+resourceName}/connections',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'resourceName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'personFields' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'requestMask.includeField' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'requestSyncToken' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'sortOrder' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sources' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'syncToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PeopleService::class, 'Google_Service_PeopleService');

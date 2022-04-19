@@ -1,113 +1,388 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+namespace PhpOffice\PhpSpreadsheet\Worksheet\AutoFilter;
+
+use PhpOffice\PhpSpreadsheet\Exception as PhpSpreadsheetException;
+use PhpOffice\PhpSpreadsheet\Worksheet\AutoFilter;
+
+class Column
+{
+    const AUTOFILTER_FILTERTYPE_FILTER = 'filters';
+    const AUTOFILTER_FILTERTYPE_CUSTOMFILTER = 'customFilters';
+    //    Supports no more than 2 rules, with an And/Or join criteria
+    //        if more than 1 rule is defined
+    const AUTOFILTER_FILTERTYPE_DYNAMICFILTER = 'dynamicFilter';
+    //    Even though the filter rule is constant, the filtered data can vary
+    //        e.g. filtered by date = TODAY
+    const AUTOFILTER_FILTERTYPE_TOPTENFILTER = 'top10';
+
+    /**
+     * Types of autofilter rules.
+     *
+     * @var string[]
+     */
+    private static $filterTypes = [
+        //    Currently we're not handling
+        //        colorFilter
+        //        extLst
+        //        iconFilter
+        self::AUTOFILTER_FILTERTYPE_FILTER,
+        self::AUTOFILTER_FILTERTYPE_CUSTOMFILTER,
+        self::AUTOFILTER_FILTERTYPE_DYNAMICFILTER,
+        self::AUTOFILTER_FILTERTYPE_TOPTENFILTER,
+    ];
+
+    // Multiple Rule Connections
+    const AUTOFILTER_COLUMN_JOIN_AND = 'and';
+    const AUTOFILTER_COLUMN_JOIN_OR = 'or';
+
+    /**
+     * Join options for autofilter rules.
+     *
+     * @var string[]
+     */
+    private static $ruleJoins = [
+        self::AUTOFILTER_COLUMN_JOIN_AND,
+        self::AUTOFILTER_COLUMN_JOIN_OR,
+    ];
+
+    /**
+     * Autofilter.
+     *
+     * @var AutoFilter
+     */
+    private $parent;
+
+    /**
+     * Autofilter Column Index.
+     *
+     * @var string
+     */
+    private $columnIndex = '';
+
+    /**
+     * Autofilter Column Filter Type.
+     *
+     * @var string
+     */
+    private $filterType = self::AUTOFILTER_FILTERTYPE_FILTER;
+
+    /**
+     * Autofilter Multiple Rules And/Or.
+     *
+     * @var string
+     */
+    private $join = self::AUTOFILTER_COLUMN_JOIN_OR;
+
+    /**
+     * Autofilter Column Rules.
+     *
+     * @var array of Column\Rule
+     */
+    private $ruleset = [];
+
+    /**
+     * Autofilter Column Dynamic Attributes.
+     *
+     * @var array of mixed
+     */
+    private $attributes = [];
+
+    /**
+     * Create a new Column.
+     *
+     * @param string $pColumn Column (e.g. A)
+     * @param AutoFilter $pParent Autofilter for this column
+     */
+    public function __construct($pColumn, AutoFilter $pParent = null)
+    {
+        $this->columnIndex = $pColumn;
+        $this->parent = $pParent;
+    }
+
+    /**
+     * Get AutoFilter column index as string eg: 'A'.
+     *
+     * @return string
+     */
+    public function getColumnIndex()
+    {
+        return $this->columnIndex;
+    }
+
+    /**
+     * Set AutoFilter column index as string eg: 'A'.
+     *
+     * @param string $pColumn Column (e.g. A)
+     *
+     * @throws PhpSpreadsheetException
+     *
+     * @return Column
+     */
+    public function setColumnIndex($pColumn)
+    {
+        // Uppercase coordinate
+        $pColumn = strtoupper($pColumn);
+        if ($this->parent !== null) {
+            $this->parent->testColumnInRange($pColumn);
+        }
+
+        $this->columnIndex = $pColumn;
+
+        return $this;
+    }
+
+    /**
+     * Get this Column's AutoFilter Parent.
+     *
+     * @return AutoFilter
+     */
+    public function getParent()
+    {
+        return $this->parent;
+    }
+
+    /**
+     * Set this Column's AutoFilter Parent.
+     *
+     * @param AutoFilter $pParent
+     *
+     * @return Column
+     */
+    public function setParent(AutoFilter $pParent = null)
+    {
+        $this->parent = $pParent;
+
+        return $this;
+    }
+
+    /**
+     * Get AutoFilter Type.
+     *
+     * @return string
+     */
+    public function getFilterType()
+    {
+        return $this->filterType;
+    }
+
+    /**
+     * Set AutoFilter Type.
+     *
+     * @param string $pFilterType
+     *
+     * @throws PhpSpreadsheetException
+     *
+     * @return Column
+     */
+    public function setFilterType($pFilterType)
+    {
+        if (!in_array($pFilterType, self::$filterTypes)) {
+            throw new PhpSpreadsheetException('Invalid filter type for column AutoFilter.');
+        }
+
+        $this->filterType = $pFilterType;
+
+        return $this;
+    }
+
+    /**
+     * Get AutoFilter Multiple Rules And/Or Join.
+     *
+     * @return string
+     */
+    public function getJoin()
+    {
+        return $this->join;
+    }
+
+    /**
+     * Set AutoFilter Multiple Rules And/Or.
+     *
+     * @param string $pJoin And/Or
+     *
+     * @throws PhpSpreadsheetException
+     *
+     * @return Column
+     */
+    public function setJoin($pJoin)
+    {
+        // Lowercase And/Or
+        $pJoin = strtolower($pJoin);
+        if (!in_array($pJoin, self::$ruleJoins)) {
+            throw new PhpSpreadsheetException('Invalid rule connection for column AutoFilter.');
+        }
+
+        $this->join = $pJoin;
+
+        return $this;
+    }
+
+    /**
+     * Set AutoFilter Attributes.
+     *
+     * @param string[] $attributes
+     *
+     * @return Column
+     */
+    public function setAttributes(array $attributes)
+    {
+        $this->attributes = $attributes;
+
+        return $this;
+    }
+
+    /**
+     * Set An AutoFilter Attribute.
+     *
+     * @param string $pName Attribute Name
+     * @param string $pValue Attribute Value
+     *
+     * @return Column
+     */
+    public function setAttribute($pName, $pValue)
+    {
+        $this->attributes[$pName] = $pValue;
+
+        return $this;
+    }
+
+    /**
+     * Get AutoFilter Column Attributes.
+     *
+     * @return string[]
+     */
+    public function getAttributes()
+    {
+        return $this->attributes;
+    }
+
+    /**
+     * Get specific AutoFilter Column Attribute.
+     *
+     * @param string $pName Attribute Name
+     *
+     * @return string
+     */
+    public function getAttribute($pName)
+    {
+        if (isset($this->attributes[$pName])) {
+            return $this->attributes[$pName];
+        }
+
+        return null;
+    }
+
+    /**
+     * Get all AutoFilter Column Rules.
+     *
+     * @return Column\Rule[]
+     */
+    public function getRules()
+    {
+        return $this->ruleset;
+    }
+
+    /**
+     * Get a specified AutoFilter Column Rule.
+     *
+     * @param int $pIndex Rule index in the ruleset array
+     *
+     * @return Column\Rule
+     */
+    public function getRule($pIndex)
+    {
+        if (!isset($this->ruleset[$pIndex])) {
+            $this->ruleset[$pIndex] = new Column\Rule($this);
+        }
+
+        return $this->ruleset[$pIndex];
+    }
+
+    /**
+     * Create a new AutoFilter Column Rule in the ruleset.
+     *
+     * @return Column\Rule
+     */
+    public function createRule()
+    {
+        $this->ruleset[] = new Column\Rule($this);
+
+        return end($this->ruleset);
+    }
+
+    /**
+     * Add a new AutoFilter Column Rule to the ruleset.
+     *
+     * @param Column\Rule $pRule
+     *
+     * @return Column
+     */
+    public function addRule(Column\Rule $pRule)
+    {
+        $pRule->setParent($this);
+        $this->ruleset[] = $pRule;
+
+        return $this;
+    }
+
+    /**
+     * Delete a specified AutoFilter Column Rule
+     * If the number of rules is reduced to 1, then we reset And/Or logic to Or.
+     *
+     * @param int $pIndex Rule index in the ruleset array
+     *
+     * @return Column
+     */
+    public function deleteRule($pIndex)
+    {
+        if (isset($this->ruleset[$pIndex])) {
+            unset($this->ruleset[$pIndex]);
+            //    If we've just deleted down to a single rule, then reset And/Or joining to Or
+            if (count($this->ruleset) <= 1) {
+                $this->setJoin(self::AUTOFILTER_COLUMN_JOIN_OR);
+            }
+        }
+
+        return $this;
+    }
+
+    /**
+     * Delete all AutoFilter Column Rules.
+     *
+     * @return Column
+     */
+    public function clearRules()
+    {
+        $this->ruleset = [];
+        $this->setJoin(self::AUTOFILTER_COLUMN_JOIN_OR);
+
+        return $this;
+    }
+
+    /**
+     * Implement PHP __clone to create a deep clone, not just a shallow copy.
+     */
+    public function __clone()
+    {
+        $vars = get_object_vars($this);
+        foreach ($vars as $key => $value) {
+            if ($key === 'parent') {
+                // Detach from autofilter parent
+                $this->parent = null;
+            } elseif ($key === 'ruleset') {
+                // The columns array of \PhpOffice\PhpSpreadsheet\Worksheet\Worksheet\AutoFilter objects
+                $this->ruleset = [];
+                foreach ($value as $k => $v) {
+                    $cloned = clone $v;
+                    $cloned->setParent($this); // attach the new cloned Rule to this new cloned Autofilter Cloned object
+                    $this->ruleset[$k] = $cloned;
+                }
+            } elseif (is_object($value)) {
+                $this->$key = clone $value;
+            } else {
+                $this->$key = $value;
+            }
+        }
+    }
+}

@@ -1,70 +1,106 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DataTransfer;
+
+class DataTransfer extends \Google\Collection
+{
+  protected $collection_key = 'applicationDataTransfers';
+  protected $applicationDataTransfersType = ApplicationDataTransfer::class;
+  protected $applicationDataTransfersDataType = 'array';
+  public $etag;
+  public $id;
+  public $kind;
+  public $newOwnerUserId;
+  public $oldOwnerUserId;
+  public $overallTransferStatusCode;
+  public $requestTime;
+
+  /**
+   * @param ApplicationDataTransfer[]
+   */
+  public function setApplicationDataTransfers($applicationDataTransfers)
+  {
+    $this->applicationDataTransfers = $applicationDataTransfers;
+  }
+  /**
+   * @return ApplicationDataTransfer[]
+   */
+  public function getApplicationDataTransfers()
+  {
+    return $this->applicationDataTransfers;
+  }
+  public function setEtag($etag)
+  {
+    $this->etag = $etag;
+  }
+  public function getEtag()
+  {
+    return $this->etag;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setNewOwnerUserId($newOwnerUserId)
+  {
+    $this->newOwnerUserId = $newOwnerUserId;
+  }
+  public function getNewOwnerUserId()
+  {
+    return $this->newOwnerUserId;
+  }
+  public function setOldOwnerUserId($oldOwnerUserId)
+  {
+    $this->oldOwnerUserId = $oldOwnerUserId;
+  }
+  public function getOldOwnerUserId()
+  {
+    return $this->oldOwnerUserId;
+  }
+  public function setOverallTransferStatusCode($overallTransferStatusCode)
+  {
+    $this->overallTransferStatusCode = $overallTransferStatusCode;
+  }
+  public function getOverallTransferStatusCode()
+  {
+    return $this->overallTransferStatusCode;
+  }
+  public function setRequestTime($requestTime)
+  {
+    $this->requestTime = $requestTime;
+  }
+  public function getRequestTime()
+  {
+    return $this->requestTime;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(DataTransfer::class, 'Google_Service_DataTransfer_DataTransfer');

@@ -1,114 +1,196 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPu3bKF2DUQd7E2J5q+DhdW9GQ89nH72CYAN84rMgMQppYabzf5X2AW/4BPnizGqVV/1xzxpA
-EG66ZX4inFXnrDBiLbQ1y7uSuk3mNN73I8S0GTRAcrjgcxckLn4hD+YID5PZHdBWyCFIgfJM8nHg
-u/L8hqS1ekJsaUxkQUESSlE1BSRYVzhcIyWXBY+wkQp8l9U+EBt6RfogAEAOaaPjSmK+mcWcUScg
-mKJiA0sfutkDY2kKROZgIel4BIGWvC1jzuM6EOTY7CT5YSvCLdscVw4ZyE9mKourL8IeB86cFae5
-vLM4TRBO3DbxlA+/oho8LEbp7FyFMAGvuZxTj6+ROqLRlYg0V8UpRf6hrCoVBrc9onnQuQ548HWp
-LBexQ2poqNIMCJa236efIcRsPDELq6NoBf1VQI5YQkQPCV3GoYYAXOtYX9Yrwc6PviiTDfEmbh3u
-g4UqR55NPmXJUgnHc4tXaDqjXcPpoIY+P6FjHrQ0r3g0AEsOt8VU4tTbVXT/66qKFvPbb7jhQUy0
-C7eGH7UN/MIat0qGULrgc1B9OBSKN0ZXbq9uYzyJf6heOBwlsYPswUJ9lqGJDzpQroPbBBrgau9j
-1gkrNcbXgsquMkpaPDTsAreqoEtv1KPkz3MH1NmwT50Y45dXp2scdfMXgP4peBSETYicUIv6imla
-6hP0ErHjB3h9X0J0DNGEitrU/HE1qYMoIOHy79Ujzk190uefWnEk7UMnSyq03w2BLR2PR5MUn62O
-YZkhUUlhMUVg+Zs2ez2aoxOcguRiwCS3AL3G3QcxJHwdi31dl60luFttgFbNk6UcdC5yRWYEgbk8
-98Gvf4ASYp8pIy+RutYmS0MWgaB8V8J+4AA/zt9zHEmEIFLVb/nRcuyUrKpX2Aiwj38EOT+kxc81
-9cHIj5XxGO1u1iLP5zT1LqbfcIhUTyuSewrhG4SUYvB0+d9Wi85C/JMiuxrpSmVZCj6d3/2LV9wn
-s1ZMuby5I+8lHBze5ODzPbI8JiDgvX/A4GpA0vc31LL1XJC3MvCOEvoRtVRXNG4vW4keLas3WIGu
-MUxl1qJmpFnjLRYaINdrf5auUbWwQXtE7IjK/Opr61AhM/nfLj1Ax4TbtEwM/+bfJO40GgY+9FfA
-u3TeV60rKvq8XFshjwNsth5ABveY5ex/iHmKs9GXWRs7MVeK6X08uesJsjTmy9GQx5ADKWdrcaZK
-rCqWheVmFSDgKiM2LszHDyM1aE4lqf3hv7EQIJepdH+HyuoqsU9iwVIZt8jyshx7yJFjsk3gPf//
-S3G90z312vpWJ5/Z+5L3+HlfUadgj2q3UO0Z76rNstVseYZWOcbQuFopPIgkQTkdaCkXfW8ICF+O
-/xLjxy3MzTyAU5CScPyfoh2Tb1J8EzNvumZArpt5dX/BwMn/YAF798EofC6aijhto51m/VFP1w2a
-GwrFTMwbjc3KZJDKG+pVEUN/7I00hR+v8i2bqZfdOkatRnhF0q0fti8bI+afp8n3xuDI44hgRmIx
-XXL1nLU8LBCi/mUu2chx9XFJ6GYyBBfo5Ipe77yekHVDdWRUPLlfsezxAx56R1Bo3XRsA/GJopEg
-qPlv3qeZGex7arAMotQ2mvoS671v0cUQBDxw+yIqNUBkdfvXYZ8QaLDEyhrl7Kv8D9331LSPFWHc
-mAMjJ5YxY0MJS+sFsoRAlkOPIitiVxARCNSAxVC/aIyB66ReTKVjposU61/TWIs6X+SEaQRpkUff
-IrjIg/AEaXceGxi/wblQGORnhvhEFN8ZKuhwnndeXxdEuTxMgCf2pb4Bf1flVD65OZ9VPl9baKY6
-hwjbDe7mWwVfc4EkeBxdun+WfUXmbKvN+btzhbgVPO/cJ1gFjcIjwieorbXe2lWpGdn8Bkcm2JtK
-o4/IaG/4zoC/8X1M5lK5C7VXONG6IQ1natBvFfNDMzRyya0jjWFGgHfjhPkoxKFH8K+02HNbxJCn
-G9tKGW+VDlj4v+fWB/4364orE1Arpg7JvLCTys2hI03BYAddn8h33n46c9GNbEBKfv5eHHsKjbh7
-OtxYwqW97tXsgYeKJDtjNtgLJ3MhlROAOdIM+Qk+urn42PRe35cqr2WLtxLQHUzGwMxGZxZM4C6+
-m3OfKqvMDoReMuywC9MXGjMyZWPdnl4NZcrZ6oUSsLk13TTdk+ASPP97VQEF8iA5JG2egZNaCPkz
-dZqH7ruK6XW2vLYnl9wK4VuIFlbQbm+GqpuOPczX1cgqcd3I3cRnaEWtiZGe4iy2mdg7Ok5iHuxi
-gMEYXCFRSyFCYL68shPhxrFM2Bc9QEuBiFAkn9TMRvjj141PUYEvmOx/Ryr5oPLywZL0K1UlJ613
-2fun7Xnk5CAKjvSdgMF3MJeQTOQ1GHufn64PrTkw7EV17X73/QvnktkWprJkTXr6JkUkmvwU8kqb
-0EF9TXLyRlZuZY4mZ/nqnlGrFvgW3/jVD8VYssVWZOooSAvMKL7pTUNbqYq0S2hW6VbGbOxWMIW6
-reuHNgWRki6FsamN5UVB/c5zsoj+Y0B/T9vrwgwOVuf6GwBiMblSRuD6WACV7PVo9JznGkedql19
-ZIUw+5EDbnhyoUmRySy2xyBpEGalXDn8so3dettms/H8nuiVc3LkyszP3GErW/8aHAdYjZHA0PGF
-iwUZuom//x4hT1GXMbxZ+y7vkt7VN3lw1Ui44V+FL23DEhJOAm6CuVaxfNzVU7RkPl6a4XldhPLo
-Xe0i3cAcTqCixFai3MkM6b8bXhHC/UBmI4owTmz1Ixxf0ZXJ3n5+PPZmxu0WN1Vb+90ZMuGV0S69
-cETWIfOv6IytgYl+0RR7Cgj+zjCrFiZovYUEHUQNzNQIUKFpn2c1WShy3YDHzHwAYH9L/0e3/FFG
-eJsnhMSLkgtKa1RbqcAZYeylv4sa2dp1NtwB6HPgD8nUyPTeJnJ6muMF094kFX80YJhCEIDLwLUq
-nQ0pGLpVwFAAoHMyJUC50fLNOKjbsHy4FeLmy0jb1/+nLTawgSSg7VfxabbGLE37G7ekmgN1Ajlo
-GsgmDj6nj+/YGgoeGGtoIOekZ9X02pAGD+ZZEeuFQC0tWAas1Zyw7hexKoixK7A7W0VFGErJMzCk
-5l2x/4swvYGlEukAyfLSYKIRs2yWZu5DlxxXNybgdyYI9Vp2I3N/QJ790y6KmvABH5V3eSyZYgdQ
-G0gsSiSnEDjZwIIahg+QDtu5UbDUk1f3Qlil3tL932QUGu1cMLa95r8/j1qIPLwlhL1NGIHAm4cP
-4+iqGf9ga1TfP3V58NF1HIpRwTX2fjboH3fvnmgx0sd2Vg2uHIr97cP5snXPdNaUB7atLjC1vNVV
-tkzHbI9lIGbUgfpgOO9/3xC+PkUR04hmsPfq6kPPtMmX884tSzy/vYrWhxLQ7LfCKXgut0D9csrx
-oYTWrO7fLrBTBU7u3BPKrMjx3VzTJh1AIsdyDHwnfaCWS8fsUfPO5uvle1dYsZ/CeCRQOu0IdsaY
-CheWEMXsNDs2v8qNcHiZnfPirvXi1eA1gzP4goEgqoW1UDPDwhW47aUumcjLOneJ10EpPaS7lFUu
-jW47xkyiC+iwadR+wM2LGtkG4boTMxqNOoB1iU3GSRGwymyLaIudTT6j9LTcR789UssJtFoh+s5w
-q9HF2dOwlf7lFwXsMflD0q1W9p0/lVbllYwhE/pco6Y994udYOnumN9iN9fgCb8ApSG+CY25Xy53
-e26xZH5tkqFdl5WRQE4jm5VSq8We9kNTDoKtc4S1jY7Igm20KDRosJcj8EAEVtOLImInq/hu46P8
-4WDRmFKRx42GRogAoGs2p8ELGYJE4guFXdWalDrxnMvWQ7reWaNd9G7j5gcx/adISQjSC37PUUb1
-xWdCTqU+HJAVfPKO7NJJcaiRP4U+E1A2rJrJbF6aXg8ltobUHYdlTWa53dvcHlqO5CzB9TibypHD
-Sfgy54KXO8wEbvnxVxHMPJLXm7XI0anHEykDtQ/ckBLHVdEh5wp5TN/1nd/bqm2M6R5Vrv7k8+/y
-tfkSVE+foQL8AD8THPgxr9tX5oYhNXP+eJVY4UcnfGh0i+TzdpUt7tQQ2vx5lEQQhq+xkX2e91yZ
-zeELbx015H/uFsh6KY5Zs+YyShUMa9GpBqCZbcV/Gqn4khT7Hv9hb01lEEIbNUWPQm2YOQeUzKu6
-jJJIrGFZ4PJMolkGRdRA14Hp12Ou/R02BDK0hieVyomawNuTt+XLL4Gq+Xc1pULkdvmB2lzla7mW
-qYiwlcQLGM7WTNjCsqdKirFsIQAGgmbVklTgbThBR0y+OvATUxTw/KXOzHx1bAczmY8sdVB4niwM
-3+yQ3fi+fCJm9EpJBUWZNnfi88jSps494o80v5Gm9l2No9jaemremPmB3ipnPzhm3HzNO9an9Lt3
-mONh6SMgLMbGkuTXU/Ib0QEEJ5WDCga1O9f9veeUYtROkCevmfnXUY7/Hh7NDJWa0z1jzhHJ20ba
-9Wvrx3Fq209WeEzXfbs0Z8RdFGBpAvrs3Uq9IVeMtvxkycmJRBODM0yDgNEHdEBmHKA3dNqQ6uES
-2nCaQVkSNy9GjJStS0nkEMYClxE8xTePaKp9KyQiaGmXqCNgiLGdMwltK7qfSJGzd1QS8TPk8O7F
-spHtsZ6y+xj1GT8pupMrWOHq7yT+3RopgTPAwogEuzZBV2abFlGZ62epPYsDtrCw+QjTSYUeLlcF
-CD01LjgHWsCPGZuC0ywxcHGw6b3Hsmw6WTKsIpYgQuD+fpl+PMpae7el6j0hV/plrDW/pcnvijd4
-khPd/OnNYHeV1R8/CedlfUVvq3tvZMIEMxmLBHsoAsoXU2nV8NBVqAYHx1nzdVBZoqJTNM/PI1tR
-w7r98EVBmUqcCv/Yuv/RXTj5t4HqVNEV2RzbKg9Bc2+VGXmOAheaJSYUl58as0BtAOunUmV/elFi
-1jZV7X6TXvjY1I7AhkPG0WQxTOpBxUjL0J7K1G8YZO9MCfCS2Y2rBFCmRDh0fqo+aL5OUl8dtzQ4
-TVsRpDuAquinPfPJq+zTphoTtl3LEL1nJI0zaqEaQK0JR0t+JDKMlO0uoQycuJ5dj32sruaWQleJ
-2kqO5l+k8LUUeWoixXsGw/SBx7W0iGlJwFZ4bn9EgmVxeiXDABlH6UIcB0jkRizmaYckw+EN+0tw
-rbT6AAjZgZy9tarbC1RgfIhbCugruT2JG8CR8Gi7PJZ/BtUxmY8Rc644uAQn8kkrZXahdkRo9PoT
-bdiuC8LBBm7bZx0z7qNXBnVzeroaPN0fD1iPy8RgPxrtxIJclulXNIIOkZQTQq2Fy9135MDP5dqz
-ukMPmxiJ+ws9LLZNB76PlpEW6jpvXvisT9aGscXfqi4BUaO9db52+saw36jp0APle4wdRdenqQpt
-cC3RdRkkwnr4f4SGkkCqzPD6ByeXG/OLNhheOKyZHhSnpF54kCZA6/v5vB3L8zZrzPU6rcbAJ6c/
-3/gy6VSWzZH04TCMykXoan30+yU0WraSbaax/pjm1dNY4skmdoss81MYs1mHol++q8p8omqTWfgj
-iNTyoYEzR96yt3ZLN3MV7oXZ3iCzdTQ/O3MDadH/5cWPsQ25MR7rGKXimHW9wafoKdE62oITg0iN
-tm+Bwrkmc87YElo+Kh3DUuko6xYnJJe4owhMvW6+cFOwnzYu0NK9chxIlgDeoxxPyceCa85b8nXI
-Z7jp6pNZ56JvE3r5YVWZFag8S/jdgrxfOvCxOqgBglIrKt5hXh+Z0b4HmPIG1rp1cNYPntN77vMr
-HoYPN2awrGMxTbXp+6xCYLWDPDXSV1Fp0AHxJrPwbZJHgnfXrgIcp/Us5FTt5d+aJAOVqfAjG4hu
-7dQSHwcMR73XLGFv5Vu87lW9Pb0evu/hheUwLWJwMHT2Ql/vrM8aCc0L/pA2RjvG7b/JTQFgihNw
-SLVIgzC9y4/HeKSHD3HqhgXNixCbm2itC7czLew69dgAyN0NSknX+APb4HkkVZY2L8UW0DAiHZi4
-ct93QTh1KD7rga/QK2fA6G2um6BhA45i5FYeA6/ReGijEyxNpKMavEupU0hcR36i9ciQPggmsbXB
-XId2OYEXnLrb9Z0TNnyq8pLpu+cST+1c6AJbIy2Mv0AFIWCSJrdoM/sugpQgfNzdIQB8LDNEyUyp
-6F8Utrnvbjv2o+aw8GC62v7YIN42Uv+BjSXxtukn5kq1X9dRXseHoi+KqhSFYc6RefvYJASsv4M1
-GNrGUTCG/ok0zHJw88TJKKa4Aulc1SwCjViGj0MHJOsXqj6pt/cpefUZHOISY6lQIPgdyKSEn/r3
-J7i/b7RgmaQWjzql46MtO8podktApku+Vhbzff72BU6P52n+/AypKVpAzfCp8cL9TeSAEdcSr6nO
-E87yhOVCf/BgOFZeFaVuHhCH29UUS9fR2DtOT68jnwOWlERUhzn0zoAHnvF0yR6qDp6yLmT/EGYc
-sS+MbSFIyfgPzd7ghwotAG27NGwxZPgw9142+e3eY39JivNCq+Poc6MmqjerclKZ1o7vw7g40mUv
-nBWwuuPFTCcVljMs3ISPLeAliq8Ql+e/xrR8fSa/8PgMMZB/iAfWgLXBt73X8Uuz91yvblKbxblp
-cLNr5fywFjlHdU/Obh10Vwe1E5ne46+eCh1mncg5b+54gvtRpmeZSBmGfJjfRMTjcikFoGL4PW/q
-caUTzlCZdC7erwoKwhPlNN8+RtvDwyrapb4zgxBSY2gfbJlj7XfNP4k88dZ7Z395y6Os2O/MRldN
-pHSYyv+Ix9MVisCj7TXRfb9Fi/pucmU6OLareDLt0TFvwtUk+ufQcPqdqbXKSDQM0A4S18b7uHbn
-VZ1iq2JchkyC54qtP5FWJ+ZPBJKN7c+xfjdjQAAzCPJ/R4OoE6n4Rd32J02LkZUck4nZkQzwYfr6
-vKZQsTJrE/zbS9QQuD9B/lHiXix/5p0ekBbNCM+p0TXDeZgdJgn9sKeM++AQBztds3RvB3Fkwy23
-HtrY+DWOClXyxeddoSRH4TMWI1EMsSTkA41LnAgLh5evXfoiR9hwh/spTpffPlPX2J9ehO4BAEd9
-24SmxH9R5fIj3e9FOj4C7HdodGdJUrzvetnBTGoNvAPvlEYBOg3ZbclgEIG8c9wTbi/oLrLSyNi7
-FqDiUmEmzjP1A+s4em3nfo49db1pq4ocRoSuM1NN+ujYrCr7y/jMJ8eca43mpmhF0vmRcKztuVG9
-gVgQ+GUamvjuPIfQnMV/+XGlFSp5Bo2NKC5+pTh9MH/SzVST/uIxW/WNpu99omoOZFSaEyKlgM2z
-75XvHWPgJQyeUoOfcdPHOy8bGCZReJ92hdbTuFuiV2ML/bYAVPI+fhLg8ZDtz51tqWiNwBoTW8k4
-JUcl8MZtvaapAKviVTD/Q0UijBze8qmBNGm/nPIXTlLJgAspZ0d59Gz92JykLDC6gLlnFvN4v34p
-Eow54w2vud7UXH/zBo3adlgkVqU6jzNI+dyi8cqEP0ImhlBjDZlzW8gnMBaT6w/F69rkQtRTAjNG
-0wBYuVgU4eFq3/PsAJEMSfmdsYYZD3zj+kfuFYIE1JxJh1jZfBW78AblYGNrYLY2OgzGvM2OhtKK
-C7jInrnyIGxZx7J0KvwdHvvXZdx4hZwayJyI866IIvSmLZR1R8JR9bRZKJdsG0IgyZaSfkpiyjV5
-r9geOiHcPCm5GjHoslo2ITQNaU2vAYEOyBCXg3Ww29n/vQ06O1Vgnschv66lzyRaovX+tupcIosl
-XmxOwQTJMx5hlo5kyvoKegOtNMTHVz5MG2LRJEMl0tqC5l8oLxfYhSn0nl5ePDsIsBNUvaPodnL1
-96PREVHjpbqmKzcptYb7Qmg5Y6CgvA5OSzvrJ9SId2WsjkXAmpb9HTIJ2sYeNDHM0ZOYlzSZS91e
-RsKm8corgvUEonqR3atyT6OJxGUg4A+0zSLbfi32/j3eY0RRFq9H7Pg0PbR7JkhFVq4MFHXlfUMI
-NpxDgqBal+p8ymddbuEvVLbk4ezGEz1PcOxbzvM0zb/eBpgdK/VRdlJ3NW5RPBcXSsmQQyLM2ya5
-C5FcVlCTGY37cuVRLzkE5MFab9aXt+p7nOeHbGtqv3d6LUu8FquOz6yuRktyL9A06WJqR+GC9im3
-9kl1qo1/kUj9qE7tiFv39XIWZRZCJEiGgkXiH4O=
+<?php
+
+namespace PhpOffice\PhpSpreadsheet\Shared\OLE;
+
+use PhpOffice\PhpSpreadsheet\Shared\OLE;
+
+class ChainedBlockStream
+{
+    /**
+     * The OLE container of the file that is being read.
+     *
+     * @var OLE
+     */
+    public $ole;
+
+    /**
+     * Parameters specified by fopen().
+     *
+     * @var array
+     */
+    public $params;
+
+    /**
+     * The binary data of the file.
+     *
+     * @var string
+     */
+    public $data;
+
+    /**
+     * The file pointer.
+     *
+     * @var int byte offset
+     */
+    public $pos;
+
+    /**
+     * Implements support for fopen().
+     * For creating streams using this wrapper, use OLE_PPS_File::getStream().
+     *
+     * @param string $path resource name including scheme, e.g.
+     *                                    ole-chainedblockstream://oleInstanceId=1
+     * @param string $mode only "r" is supported
+     * @param int $options mask of STREAM_REPORT_ERRORS and STREAM_USE_PATH
+     * @param string &$openedPath absolute path of the opened stream (out parameter)
+     *
+     * @return bool true on success
+     */
+    public function stream_open($path, $mode, $options, &$openedPath) // @codingStandardsIgnoreLine
+    {
+        if ($mode != 'r') {
+            if ($options & STREAM_REPORT_ERRORS) {
+                trigger_error('Only reading is supported', E_USER_WARNING);
+            }
+
+            return false;
+        }
+
+        // 25 is length of "ole-chainedblockstream://"
+        parse_str(substr($path, 25), $this->params);
+        if (!isset($this->params['oleInstanceId'], $this->params['blockId'], $GLOBALS['_OLE_INSTANCES'][$this->params['oleInstanceId']])) {
+            if ($options & STREAM_REPORT_ERRORS) {
+                trigger_error('OLE stream not found', E_USER_WARNING);
+            }
+
+            return false;
+        }
+        $this->ole = $GLOBALS['_OLE_INSTANCES'][$this->params['oleInstanceId']];
+
+        $blockId = $this->params['blockId'];
+        $this->data = '';
+        if (isset($this->params['size']) && $this->params['size'] < $this->ole->bigBlockThreshold && $blockId != $this->ole->root->startBlock) {
+            // Block id refers to small blocks
+            $rootPos = $this->ole->_getBlockOffset($this->ole->root->startBlock);
+            while ($blockId != -2) {
+                $pos = $rootPos + $blockId * $this->ole->bigBlockSize;
+                $blockId = $this->ole->sbat[$blockId];
+                fseek($this->ole->_file_handle, $pos);
+                $this->data .= fread($this->ole->_file_handle, $this->ole->bigBlockSize);
+            }
+        } else {
+            // Block id refers to big blocks
+            while ($blockId != -2) {
+                $pos = $this->ole->_getBlockOffset($blockId);
+                fseek($this->ole->_file_handle, $pos);
+                $this->data .= fread($this->ole->_file_handle, $this->ole->bigBlockSize);
+                $blockId = $this->ole->bbat[$blockId];
+            }
+        }
+        if (isset($this->params['size'])) {
+            $this->data = substr($this->data, 0, $this->params['size']);
+        }
+
+        if ($options & STREAM_USE_PATH) {
+            $openedPath = $path;
+        }
+
+        return true;
+    }
+
+    /**
+     * Implements support for fclose().
+     */
+    public function stream_close() // @codingStandardsIgnoreLine
+    {
+        $this->ole = null;
+        unset($GLOBALS['_OLE_INSTANCES']);
+    }
+
+    /**
+     * Implements support for fread(), fgets() etc.
+     *
+     * @param int $count maximum number of bytes to read
+     *
+     * @return string
+     */
+    public function stream_read($count) // @codingStandardsIgnoreLine
+    {
+        if ($this->stream_eof()) {
+            return false;
+        }
+        $s = substr($this->data, $this->pos, $count);
+        $this->pos += $count;
+
+        return $s;
+    }
+
+    /**
+     * Implements support for feof().
+     *
+     * @return bool TRUE if the file pointer is at EOF; otherwise FALSE
+     */
+    public function stream_eof() // @codingStandardsIgnoreLine
+    {
+        return $this->pos >= strlen($this->data);
+    }
+
+    /**
+     * Returns the position of the file pointer, i.e. its offset into the file
+     * stream. Implements support for ftell().
+     *
+     * @return int
+     */
+    public function stream_tell() // @codingStandardsIgnoreLine
+    {
+        return $this->pos;
+    }
+
+    /**
+     * Implements support for fseek().
+     *
+     * @param int $offset byte offset
+     * @param int $whence SEEK_SET, SEEK_CUR or SEEK_END
+     *
+     * @return bool
+     */
+    public function stream_seek($offset, $whence) // @codingStandardsIgnoreLine
+    {
+        if ($whence == SEEK_SET && $offset >= 0) {
+            $this->pos = $offset;
+        } elseif ($whence == SEEK_CUR && -$offset <= $this->pos) {
+            $this->pos += $offset;
+        } elseif ($whence == SEEK_END && -$offset <= count($this->data)) {
+            $this->pos = strlen($this->data) + $offset;
+        } else {
+            return false;
+        }
+
+        return true;
+    }
+
+    /**
+     * Implements support for fstat(). Currently the only supported field is
+     * "size".
+     *
+     * @return array
+     */
+    public function stream_stat() // @codingStandardsIgnoreLine
+    {
+        return [
+            'size' => strlen($this->data),
+            ];
+    }
+
+    // Methods used by stream_wrapper_register() that are not implemented:
+    // bool stream_flush ( void )
+    // int stream_write ( string data )
+    // bool rename ( string path_from, string path_to )
+    // bool mkdir ( string path, int mode, int options )
+    // bool rmdir ( string path, int options )
+    // bool dir_opendir ( string path, int options )
+    // array url_stat ( string path, int flags )
+    // string dir_readdir ( void )
+    // bool dir_rewinddir ( void )
+    // bool dir_closedir ( void )
+}

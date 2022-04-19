@@ -1,66 +1,94 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-JwLhDvFzMz9NudICmHvWrhgmhZFa6G==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\OrgPolicyAPI;
+
+class GoogleCloudOrgpolicyV2Constraint extends \Google\Model
+{
+  protected $booleanConstraintType = GoogleCloudOrgpolicyV2ConstraintBooleanConstraint::class;
+  protected $booleanConstraintDataType = '';
+  public $constraintDefault;
+  public $description;
+  public $displayName;
+  protected $listConstraintType = GoogleCloudOrgpolicyV2ConstraintListConstraint::class;
+  protected $listConstraintDataType = '';
+  public $name;
+
+  /**
+   * @param GoogleCloudOrgpolicyV2ConstraintBooleanConstraint
+   */
+  public function setBooleanConstraint(GoogleCloudOrgpolicyV2ConstraintBooleanConstraint $booleanConstraint)
+  {
+    $this->booleanConstraint = $booleanConstraint;
+  }
+  /**
+   * @return GoogleCloudOrgpolicyV2ConstraintBooleanConstraint
+   */
+  public function getBooleanConstraint()
+  {
+    return $this->booleanConstraint;
+  }
+  public function setConstraintDefault($constraintDefault)
+  {
+    $this->constraintDefault = $constraintDefault;
+  }
+  public function getConstraintDefault()
+  {
+    return $this->constraintDefault;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setDisplayName($displayName)
+  {
+    $this->displayName = $displayName;
+  }
+  public function getDisplayName()
+  {
+    return $this->displayName;
+  }
+  /**
+   * @param GoogleCloudOrgpolicyV2ConstraintListConstraint
+   */
+  public function setListConstraint(GoogleCloudOrgpolicyV2ConstraintListConstraint $listConstraint)
+  {
+    $this->listConstraint = $listConstraint;
+  }
+  /**
+   * @return GoogleCloudOrgpolicyV2ConstraintListConstraint
+   */
+  public function getListConstraint()
+  {
+    return $this->listConstraint;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudOrgpolicyV2Constraint::class, 'Google_Service_OrgPolicyAPI_GoogleCloudOrgpolicyV2Constraint');

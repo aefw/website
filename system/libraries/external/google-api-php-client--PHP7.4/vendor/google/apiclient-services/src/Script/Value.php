@@ -1,70 +1,121 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Script;
+
+class Value extends \Google\Model
+{
+  public $boolValue;
+  public $bytesValue;
+  public $dateValue;
+  protected $listValueType = ListValue::class;
+  protected $listValueDataType = '';
+  public $nullValue;
+  public $numberValue;
+  public $protoValue;
+  public $stringValue;
+  protected $structValueType = Struct::class;
+  protected $structValueDataType = '';
+
+  public function setBoolValue($boolValue)
+  {
+    $this->boolValue = $boolValue;
+  }
+  public function getBoolValue()
+  {
+    return $this->boolValue;
+  }
+  public function setBytesValue($bytesValue)
+  {
+    $this->bytesValue = $bytesValue;
+  }
+  public function getBytesValue()
+  {
+    return $this->bytesValue;
+  }
+  public function setDateValue($dateValue)
+  {
+    $this->dateValue = $dateValue;
+  }
+  public function getDateValue()
+  {
+    return $this->dateValue;
+  }
+  /**
+   * @param ListValue
+   */
+  public function setListValue(ListValue $listValue)
+  {
+    $this->listValue = $listValue;
+  }
+  /**
+   * @return ListValue
+   */
+  public function getListValue()
+  {
+    return $this->listValue;
+  }
+  public function setNullValue($nullValue)
+  {
+    $this->nullValue = $nullValue;
+  }
+  public function getNullValue()
+  {
+    return $this->nullValue;
+  }
+  public function setNumberValue($numberValue)
+  {
+    $this->numberValue = $numberValue;
+  }
+  public function getNumberValue()
+  {
+    return $this->numberValue;
+  }
+  public function setProtoValue($protoValue)
+  {
+    $this->protoValue = $protoValue;
+  }
+  public function getProtoValue()
+  {
+    return $this->protoValue;
+  }
+  public function setStringValue($stringValue)
+  {
+    $this->stringValue = $stringValue;
+  }
+  public function getStringValue()
+  {
+    return $this->stringValue;
+  }
+  /**
+   * @param Struct
+   */
+  public function setStructValue(Struct $structValue)
+  {
+    $this->structValue = $structValue;
+  }
+  /**
+   * @return Struct
+   */
+  public function getStructValue()
+  {
+    return $this->structValue;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Value::class, 'Google_Service_Script_Value');

@@ -1,64 +1,120 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-nRrP0m7IsgTcd+M2exF7/2S=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Script\Resource;
+
+use Google\Service\Script\Content;
+use Google\Service\Script\CreateProjectRequest;
+use Google\Service\Script\Metrics;
+use Google\Service\Script\Project;
+
+/**
+ * The "projects" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $scriptService = new Google\Service\Script(...);
+ *   $projects = $scriptService->projects;
+ *  </code>
+ */
+class Projects extends \Google\Service\Resource
+{
+  /**
+   * Creates a new, empty script project with no script files and a base manifest
+   * file. (projects.create)
+   *
+   * @param CreateProjectRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Project
+   */
+  public function create(CreateProjectRequest $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Project::class);
+  }
+  /**
+   * Gets a script project's metadata. (projects.get)
+   *
+   * @param string $scriptId The script project's Drive ID.
+   * @param array $optParams Optional parameters.
+   * @return Project
+   */
+  public function get($scriptId, $optParams = [])
+  {
+    $params = ['scriptId' => $scriptId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Project::class);
+  }
+  /**
+   * Gets the content of the script project, including the code source and
+   * metadata for each script file. (projects.getContent)
+   *
+   * @param string $scriptId The script project's Drive ID.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int versionNumber The version number of the project to retrieve.
+   * If not provided, the project's HEAD version is returned.
+   * @return Content
+   */
+  public function getContent($scriptId, $optParams = [])
+  {
+    $params = ['scriptId' => $scriptId];
+    $params = array_merge($params, $optParams);
+    return $this->call('getContent', [$params], Content::class);
+  }
+  /**
+   * Get metrics data for scripts, such as number of executions and active users.
+   * (projects.getMetrics)
+   *
+   * @param string $scriptId Required field indicating the script to get metrics
+   * for.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string metricsFilter.deploymentId Optional field indicating a
+   * specific deployment to retrieve metrics from.
+   * @opt_param string metricsGranularity Required field indicating what
+   * granularity of metrics are returned.
+   * @return Metrics
+   */
+  public function getMetrics($scriptId, $optParams = [])
+  {
+    $params = ['scriptId' => $scriptId];
+    $params = array_merge($params, $optParams);
+    return $this->call('getMetrics', [$params], Metrics::class);
+  }
+  /**
+   * Updates the content of the specified script project. This content is stored
+   * as the HEAD version, and is used when the script is executed as a trigger, in
+   * the script editor, in add-on preview mode, or as a web app or Apps Script API
+   * in development mode. This clears all the existing files in the project.
+   * (projects.updateContent)
+   *
+   * @param string $scriptId The script project's Drive ID.
+   * @param Content $postBody
+   * @param array $optParams Optional parameters.
+   * @return Content
+   */
+  public function updateContent($scriptId, Content $postBody, $optParams = [])
+  {
+    $params = ['scriptId' => $scriptId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('updateContent', [$params], Content::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Projects::class, 'Google_Service_Script_Resource_Projects');

@@ -1,68 +1,117 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-+gLTBZ/g6KY/dUgqMCER5JwbU1HsCxwtRbJGC0==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Drive\Resource;
+
+use Google\Service\Drive\Comment;
+use Google\Service\Drive\CommentList;
+
+/**
+ * The "comments" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $driveService = new Google\Service\Drive(...);
+ *   $comments = $driveService->comments;
+ *  </code>
+ */
+class Comments extends \Google\Service\Resource
+{
+  /**
+   * Creates a new comment on a file. (comments.create)
+   *
+   * @param string $fileId The ID of the file.
+   * @param Comment $postBody
+   * @param array $optParams Optional parameters.
+   * @return Comment
+   */
+  public function create($fileId, Comment $postBody, $optParams = [])
+  {
+    $params = ['fileId' => $fileId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Comment::class);
+  }
+  /**
+   * Deletes a comment. (comments.delete)
+   *
+   * @param string $fileId The ID of the file.
+   * @param string $commentId The ID of the comment.
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($fileId, $commentId, $optParams = [])
+  {
+    $params = ['fileId' => $fileId, 'commentId' => $commentId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Gets a comment by ID. (comments.get)
+   *
+   * @param string $fileId The ID of the file.
+   * @param string $commentId The ID of the comment.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool includeDeleted Whether to return deleted comments. Deleted
+   * comments will not include their original content.
+   * @return Comment
+   */
+  public function get($fileId, $commentId, $optParams = [])
+  {
+    $params = ['fileId' => $fileId, 'commentId' => $commentId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Comment::class);
+  }
+  /**
+   * Lists a file's comments. (comments.listComments)
+   *
+   * @param string $fileId The ID of the file.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool includeDeleted Whether to include deleted comments. Deleted
+   * comments will not include their original content.
+   * @opt_param int pageSize The maximum number of comments to return per page.
+   * @opt_param string pageToken The token for continuing a previous list request
+   * on the next page. This should be set to the value of 'nextPageToken' from the
+   * previous response.
+   * @opt_param string startModifiedTime The minimum value of 'modifiedTime' for
+   * the result comments (RFC 3339 date-time).
+   * @return CommentList
+   */
+  public function listComments($fileId, $optParams = [])
+  {
+    $params = ['fileId' => $fileId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], CommentList::class);
+  }
+  /**
+   * Updates a comment with patch semantics. (comments.update)
+   *
+   * @param string $fileId The ID of the file.
+   * @param string $commentId The ID of the comment.
+   * @param Comment $postBody
+   * @param array $optParams Optional parameters.
+   * @return Comment
+   */
+  public function update($fileId, $commentId, Comment $postBody, $optParams = [])
+  {
+    $params = ['fileId' => $fileId, 'commentId' => $commentId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Comment::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Comments::class, 'Google_Service_Drive_Resource_Comments');

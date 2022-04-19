@@ -1,80 +1,140 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Calendar;
+
+class Events extends \Google\Collection
+{
+  protected $collection_key = 'items';
+  public $accessRole;
+  protected $defaultRemindersType = EventReminder::class;
+  protected $defaultRemindersDataType = 'array';
+  public $description;
+  public $etag;
+  protected $itemsType = Event::class;
+  protected $itemsDataType = 'array';
+  public $kind;
+  public $nextPageToken;
+  public $nextSyncToken;
+  public $summary;
+  public $timeZone;
+  public $updated;
+
+  public function setAccessRole($accessRole)
+  {
+    $this->accessRole = $accessRole;
+  }
+  public function getAccessRole()
+  {
+    return $this->accessRole;
+  }
+  /**
+   * @param EventReminder[]
+   */
+  public function setDefaultReminders($defaultReminders)
+  {
+    $this->defaultReminders = $defaultReminders;
+  }
+  /**
+   * @return EventReminder[]
+   */
+  public function getDefaultReminders()
+  {
+    return $this->defaultReminders;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setEtag($etag)
+  {
+    $this->etag = $etag;
+  }
+  public function getEtag()
+  {
+    return $this->etag;
+  }
+  /**
+   * @param Event[]
+   */
+  public function setItems($items)
+  {
+    $this->items = $items;
+  }
+  /**
+   * @return Event[]
+   */
+  public function getItems()
+  {
+    return $this->items;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setNextPageToken($nextPageToken)
+  {
+    $this->nextPageToken = $nextPageToken;
+  }
+  public function getNextPageToken()
+  {
+    return $this->nextPageToken;
+  }
+  public function setNextSyncToken($nextSyncToken)
+  {
+    $this->nextSyncToken = $nextSyncToken;
+  }
+  public function getNextSyncToken()
+  {
+    return $this->nextSyncToken;
+  }
+  public function setSummary($summary)
+  {
+    $this->summary = $summary;
+  }
+  public function getSummary()
+  {
+    return $this->summary;
+  }
+  public function setTimeZone($timeZone)
+  {
+    $this->timeZone = $timeZone;
+  }
+  public function getTimeZone()
+  {
+    return $this->timeZone;
+  }
+  public function setUpdated($updated)
+  {
+    $this->updated = $updated;
+  }
+  public function getUpdated()
+  {
+    return $this->updated;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Events::class, 'Google_Service_Calendar_Events');

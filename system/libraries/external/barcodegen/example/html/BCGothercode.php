@@ -1,67 +1,41 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+<?php
+define('IN_CB', true);
+include('include/header.php');
+
+$default_value['label'] = '';
+$label = isset($_POST['label']) ? $_POST['label'] : $default_value['label'];
+registerImageKey('label', $label);
+registerImageKey('code', 'BCGothercode');
+
+$characters = array('0', '1', '2', '3', '4', '5', '6', '7', '8', '9');
 ?>
-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
+
+<ul id="specificOptions">
+    <li class="option">
+        <div class="title">
+            <label for="label">Label</label>
+        </div>
+        <div class="value">
+            <?php echo getInputTextHtml('label', $label); ?>
+        </div>
+    </li>
+</ul>
+
+<div id="validCharacters">
+    <h3>Valid Characters</h3>
+    <?php foreach ($characters as $character) {
+    echo getButton($character);
+} ?>
+</div>
+
+<div id="explanation">
+    <h3>Explanation</h3>
+    <ul>
+        <li>Enter width of each bars with one characters. Begin by a bar.</li>
+        <li>10523: Will do 2px bar, 1px space, 6px bar, 3px space, 4px bar.</li>
+    </ul>
+</div>
+
+<?php
+include('include/footer.php');
+?>

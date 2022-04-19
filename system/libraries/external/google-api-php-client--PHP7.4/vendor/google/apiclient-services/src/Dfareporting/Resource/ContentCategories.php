@@ -1,74 +1,135 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dfareporting\Resource;
+
+use Google\Service\Dfareporting\ContentCategoriesListResponse;
+use Google\Service\Dfareporting\ContentCategory;
+
+/**
+ * The "contentCategories" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $dfareportingService = new Google\Service\Dfareporting(...);
+ *   $contentCategories = $dfareportingService->contentCategories;
+ *  </code>
+ */
+class ContentCategories extends \Google\Service\Resource
+{
+  /**
+   * Deletes an existing content category. (contentCategories.delete)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param string $id Content category ID.
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($profileId, $id, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Gets one content category by ID. (contentCategories.get)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param string $id Content category ID.
+   * @param array $optParams Optional parameters.
+   * @return ContentCategory
+   */
+  public function get($profileId, $id, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], ContentCategory::class);
+  }
+  /**
+   * Inserts a new content category. (contentCategories.insert)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param ContentCategory $postBody
+   * @param array $optParams Optional parameters.
+   * @return ContentCategory
+   */
+  public function insert($profileId, ContentCategory $postBody, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], ContentCategory::class);
+  }
+  /**
+   * Retrieves a list of content categories, possibly filtered. This method
+   * supports paging. (contentCategories.listContentCategories)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string ids Select only content categories with these IDs.
+   * @opt_param int maxResults Maximum number of results to return.
+   * @opt_param string pageToken Value of the nextPageToken from the previous
+   * result page.
+   * @opt_param string searchString Allows searching for objects by name or ID.
+   * Wildcards (*) are allowed. For example, "contentcategory*2015" will return
+   * objects with names like "contentcategory June 2015", "contentcategory April
+   * 2015", or simply "contentcategory 2015". Most of the searches also add
+   * wildcards implicitly at the start and the end of the search string. For
+   * example, a search string of "contentcategory" will match objects with name
+   * "my contentcategory", "contentcategory 2015", or simply "contentcategory".
+   * @opt_param string sortField Field by which to sort the list.
+   * @opt_param string sortOrder Order of sorted results.
+   * @return ContentCategoriesListResponse
+   */
+  public function listContentCategories($profileId, $optParams = [])
+  {
+    $params = ['profileId' => $profileId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ContentCategoriesListResponse::class);
+  }
+  /**
+   * Updates an existing content category. This method supports patch semantics.
+   * (contentCategories.patch)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param string $id ContentCategory ID.
+   * @param ContentCategory $postBody
+   * @param array $optParams Optional parameters.
+   * @return ContentCategory
+   */
+  public function patch($profileId, $id, ContentCategory $postBody, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'id' => $id, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], ContentCategory::class);
+  }
+  /**
+   * Updates an existing content category. (contentCategories.update)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param ContentCategory $postBody
+   * @param array $optParams Optional parameters.
+   * @return ContentCategory
+   */
+  public function update($profileId, ContentCategory $postBody, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], ContentCategory::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ContentCategories::class, 'Google_Service_Dfareporting_Resource_ContentCategories');

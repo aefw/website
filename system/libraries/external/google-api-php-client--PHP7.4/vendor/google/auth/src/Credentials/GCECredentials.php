@@ -1,182 +1,547 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2015 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+namespace Google\Auth\Credentials;
+
+use Google\Auth\CredentialsLoader;
+use Google\Auth\GetQuotaProjectInterface;
+use Google\Auth\HttpHandler\HttpClientCache;
+use Google\Auth\HttpHandler\HttpHandlerFactory;
+use Google\Auth\Iam;
+use Google\Auth\ProjectIdProviderInterface;
+use Google\Auth\SignBlobInterface;
+use GuzzleHttp\Exception\ClientException;
+use GuzzleHttp\Exception\ConnectException;
+use GuzzleHttp\Exception\RequestException;
+use GuzzleHttp\Exception\ServerException;
+use GuzzleHttp\Psr7\Request;
+use InvalidArgumentException;
+
+/**
+ * GCECredentials supports authorization on Google Compute Engine.
+ *
+ * It can be used to authorize requests using the AuthTokenMiddleware, but will
+ * only succeed if being run on GCE:
+ *
+ *   use Google\Auth\Credentials\GCECredentials;
+ *   use Google\Auth\Middleware\AuthTokenMiddleware;
+ *   use GuzzleHttp\Client;
+ *   use GuzzleHttp\HandlerStack;
+ *
+ *   $gce = new GCECredentials();
+ *   $middleware = new AuthTokenMiddleware($gce);
+ *   $stack = HandlerStack::create();
+ *   $stack->push($middleware);
+ *
+ *   $client = new Client([
+ *      'handler' => $stack,
+ *      'base_uri' => 'https://www.googleapis.com/taskqueue/v1beta2/projects/',
+ *      'auth' => 'google_auth'
+ *   ]);
+ *
+ *   $res = $client->get('myproject/taskqueues/myqueue');
+ */
+class GCECredentials extends CredentialsLoader implements
+    SignBlobInterface,
+    ProjectIdProviderInterface,
+    GetQuotaProjectInterface
+{
+    // phpcs:disable
+    const cacheKey = 'GOOGLE_AUTH_PHP_GCE';
+    // phpcs:enable
+
+    /**
+     * The metadata IP address on appengine instances.
+     *
+     * The IP is used instead of the domain 'metadata' to avoid slow responses
+     * when not on Compute Engine.
+     */
+    const METADATA_IP = '169.254.169.254';
+
+    /**
+     * The metadata path of the default token.
+     */
+    const TOKEN_URI_PATH = 'v1/instance/service-accounts/default/token';
+
+    /**
+     * The metadata path of the default id token.
+     */
+    const ID_TOKEN_URI_PATH = 'v1/instance/service-accounts/default/identity';
+
+    /**
+     * The metadata path of the client ID.
+     */
+    const CLIENT_ID_URI_PATH = 'v1/instance/service-accounts/default/email';
+
+    /**
+     * The metadata path of the project ID.
+     */
+    const PROJECT_ID_URI_PATH = 'v1/project/project-id';
+
+    /**
+     * The header whose presence indicates GCE presence.
+     */
+    const FLAVOR_HEADER = 'Metadata-Flavor';
+
+    /**
+     * Note: the explicit `timeout` and `tries` below is a workaround. The underlying
+     * issue is that resolving an unknown host on some networks will take
+     * 20-30 seconds; making this timeout short fixes the issue, but
+     * could lead to false negatives in the event that we are on GCE, but
+     * the metadata resolution was particularly slow. The latter case is
+     * "unlikely" since the expected 4-nines time is about 0.5 seconds.
+     * This allows us to limit the total ping maximum timeout to 1.5 seconds
+     * for developer desktop scenarios.
+     */
+    const MAX_COMPUTE_PING_TRIES = 3;
+    const COMPUTE_PING_CONNECTION_TIMEOUT_S = 0.5;
+
+    /**
+     * Flag used to ensure that the onGCE test is only done once;.
+     *
+     * @var bool
+     */
+    private $hasCheckedOnGce = false;
+
+    /**
+     * Flag that stores the value of the onGCE check.
+     *
+     * @var bool
+     */
+    private $isOnGce = false;
+
+    /**
+     * Result of fetchAuthToken.
+     */
+    protected $lastReceivedToken;
+
+    /**
+     * @var string|null
+     */
+    private $clientName;
+
+    /**
+     * @var string|null
+     */
+    private $projectId;
+
+    /**
+     * @var Iam|null
+     */
+    private $iam;
+
+    /**
+     * @var string
+     */
+    private $tokenUri;
+
+    /**
+     * @var string
+     */
+    private $targetAudience;
+
+    /**
+     * @var string|null
+     */
+    private $quotaProject;
+
+    /**
+     * @var string|null
+     */
+    private $serviceAccountIdentity;
+
+    /**
+     * @param Iam $iam [optional] An IAM instance.
+     * @param string|array $scope [optional] the scope of the access request,
+     *        expressed either as an array or as a space-delimited string.
+     * @param string $targetAudience [optional] The audience for the ID token.
+     * @param string $quotaProject [optional] Specifies a project to bill for access
+     *   charges associated with the request.
+     * @param string $serviceAccountIdentity [optional] Specify a service
+     *   account identity name to use instead of "default".
+     */
+    public function __construct(
+        Iam $iam = null,
+        $scope = null,
+        $targetAudience = null,
+        $quotaProject = null,
+        $serviceAccountIdentity = null
+    ) {
+        $this->iam = $iam;
+
+        if ($scope && $targetAudience) {
+            throw new InvalidArgumentException(
+                'Scope and targetAudience cannot both be supplied'
+            );
+        }
+
+        $tokenUri = self::getTokenUri($serviceAccountIdentity);
+        if ($scope) {
+            if (is_string($scope)) {
+                $scope = explode(' ', $scope);
+            }
+
+            $scope = implode(',', $scope);
+
+            $tokenUri = $tokenUri . '?scopes='. $scope;
+        } elseif ($targetAudience) {
+            $tokenUri = self::getIdTokenUri($serviceAccountIdentity);
+            $tokenUri = $tokenUri . '?audience='. $targetAudience;
+            $this->targetAudience = $targetAudience;
+        }
+
+        $this->tokenUri = $tokenUri;
+        $this->quotaProject = $quotaProject;
+        $this->serviceAccountIdentity = $serviceAccountIdentity;
+    }
+
+    /**
+     * The full uri for accessing the default token.
+     *
+     * @param string $serviceAccountIdentity [optional] Specify a service
+     *   account identity name to use instead of "default".
+     * @return string
+     */
+    public static function getTokenUri($serviceAccountIdentity = null)
+    {
+        $base = 'http://' . self::METADATA_IP . '/computeMetadata/';
+        $base .= self::TOKEN_URI_PATH;
+
+        if ($serviceAccountIdentity) {
+            return str_replace(
+                '/default/',
+                '/' . $serviceAccountIdentity . '/',
+                $base
+            );
+        }
+        return $base;
+    }
+
+    /**
+     * The full uri for accessing the default service account.
+     *
+     * @param string $serviceAccountIdentity [optional] Specify a service
+     *   account identity name to use instead of "default".
+     * @return string
+     */
+    public static function getClientNameUri($serviceAccountIdentity = null)
+    {
+        $base = 'http://' . self::METADATA_IP . '/computeMetadata/';
+        $base .= self::CLIENT_ID_URI_PATH;
+
+        if ($serviceAccountIdentity) {
+            return str_replace(
+                '/default/',
+                '/' . $serviceAccountIdentity . '/',
+                $base
+            );
+        }
+
+        return $base;
+    }
+
+    /**
+     * The full uri for accesesing the default identity token.
+     *
+     * @param string $serviceAccountIdentity [optional] Specify a service
+     *   account identity name to use instead of "default".
+     * @return string
+     */
+    private static function getIdTokenUri($serviceAccountIdentity = null)
+    {
+        $base = 'http://' . self::METADATA_IP . '/computeMetadata/';
+        $base .= self::ID_TOKEN_URI_PATH;
+
+        if ($serviceAccountIdentity) {
+            return str_replace(
+                '/default/',
+                '/' . $serviceAccountIdentity . '/',
+                $base
+            );
+        }
+
+        return $base;
+    }
+
+    /**
+     * The full uri for accessing the default project ID.
+     *
+     * @return string
+     */
+    private static function getProjectIdUri()
+    {
+        $base = 'http://' . self::METADATA_IP . '/computeMetadata/';
+
+        return $base . self::PROJECT_ID_URI_PATH;
+    }
+
+    /**
+     * Determines if this an App Engine Flexible instance, by accessing the
+     * GAE_INSTANCE environment variable.
+     *
+     * @return bool true if this an App Engine Flexible Instance, false otherwise
+     */
+    public static function onAppEngineFlexible()
+    {
+        return substr(getenv('GAE_INSTANCE'), 0, 4) === 'aef-';
+    }
+
+    /**
+     * Determines if this a GCE instance, by accessing the expected metadata
+     * host.
+     * If $httpHandler is not specified a the default HttpHandler is used.
+     *
+     * @param callable $httpHandler callback which delivers psr7 request
+     * @return bool True if this a GCEInstance, false otherwise
+     */
+    public static function onGce(callable $httpHandler = null)
+    {
+        $httpHandler = $httpHandler
+            ?: HttpHandlerFactory::build(HttpClientCache::getHttpClient());
+
+        $checkUri = 'http://' . self::METADATA_IP;
+        for ($i = 1; $i <= self::MAX_COMPUTE_PING_TRIES; $i++) {
+            try {
+                // Comment from: oauth2client/client.py
+                //
+                // Note: the explicit `timeout` below is a workaround. The underlying
+                // issue is that resolving an unknown host on some networks will take
+                // 20-30 seconds; making this timeout short fixes the issue, but
+                // could lead to false negatives in the event that we are on GCE, but
+                // the metadata resolution was particularly slow. The latter case is
+                // "unlikely".
+                $resp = $httpHandler(
+                    new Request(
+                        'GET',
+                        $checkUri,
+                        [self::FLAVOR_HEADER => 'Google']
+                    ),
+                    ['timeout' => self::COMPUTE_PING_CONNECTION_TIMEOUT_S]
+                );
+
+                return $resp->getHeaderLine(self::FLAVOR_HEADER) == 'Google';
+            } catch (ClientException $e) {
+            } catch (ServerException $e) {
+            } catch (RequestException $e) {
+            } catch (ConnectException $e) {
+            }
+        }
+        return false;
+    }
+
+    /**
+     * Implements FetchAuthTokenInterface#fetchAuthToken.
+     *
+     * Fetches the auth tokens from the GCE metadata host if it is available.
+     * If $httpHandler is not specified a the default HttpHandler is used.
+     *
+     * @param callable $httpHandler callback which delivers psr7 request
+     *
+     * @return array A set of auth related metadata, based on the token type.
+     *
+     * Access tokens have the following keys:
+     *   - access_token (string)
+     *   - expires_in (int)
+     *   - token_type (string)
+     * ID tokens have the following keys:
+     *   - id_token (string)
+     *
+     * @throws \Exception
+     */
+    public function fetchAuthToken(callable $httpHandler = null)
+    {
+        $httpHandler = $httpHandler
+            ?: HttpHandlerFactory::build(HttpClientCache::getHttpClient());
+
+        if (!$this->hasCheckedOnGce) {
+            $this->isOnGce = self::onGce($httpHandler);
+            $this->hasCheckedOnGce = true;
+        }
+        if (!$this->isOnGce) {
+            return array();  // return an empty array with no access token
+        }
+
+        $response = $this->getFromMetadata($httpHandler, $this->tokenUri);
+
+        if ($this->targetAudience) {
+            return ['id_token' => $response];
+        }
+
+        if (null === $json = json_decode($response, true)) {
+            throw new \Exception('Invalid JSON response');
+        }
+
+        $json['expires_at'] = time() + $json['expires_in'];
+
+        // store this so we can retrieve it later
+        $this->lastReceivedToken = $json;
+
+        return $json;
+    }
+
+    /**
+     * @return string
+     */
+    public function getCacheKey()
+    {
+        return self::cacheKey;
+    }
+
+    /**
+     * @return array|null
+     */
+    public function getLastReceivedToken()
+    {
+        if ($this->lastReceivedToken) {
+            return [
+                'access_token' => $this->lastReceivedToken['access_token'],
+                'expires_at' => $this->lastReceivedToken['expires_at'],
+            ];
+        }
+
+        return null;
+    }
+
+    /**
+     * Get the client name from GCE metadata.
+     *
+     * Subsequent calls will return a cached value.
+     *
+     * @param callable $httpHandler callback which delivers psr7 request
+     * @return string
+     */
+    public function getClientName(callable $httpHandler = null)
+    {
+        if ($this->clientName) {
+            return $this->clientName;
+        }
+
+        $httpHandler = $httpHandler
+            ?: HttpHandlerFactory::build(HttpClientCache::getHttpClient());
+
+        if (!$this->hasCheckedOnGce) {
+            $this->isOnGce = self::onGce($httpHandler);
+            $this->hasCheckedOnGce = true;
+        }
+
+        if (!$this->isOnGce) {
+            return '';
+        }
+
+        $this->clientName = $this->getFromMetadata(
+            $httpHandler,
+            self::getClientNameUri($this->serviceAccountIdentity)
+        );
+
+        return $this->clientName;
+    }
+
+    /**
+     * Sign a string using the default service account private key.
+     *
+     * This implementation uses IAM's signBlob API.
+     *
+     * @see https://cloud.google.com/iam/credentials/reference/rest/v1/projects.serviceAccounts/signBlob SignBlob
+     *
+     * @param string $stringToSign The string to sign.
+     * @param bool $forceOpenSsl [optional] Does not apply to this credentials
+     *        type.
+     * @param string $accessToken The access token to use to sign the blob. If
+     *        provided, saves a call to the metadata server for a new access
+     *        token. **Defaults to** `null`.
+     * @return string
+     */
+    public function signBlob($stringToSign, $forceOpenSsl = false, $accessToken = null)
+    {
+        $httpHandler = HttpHandlerFactory::build(HttpClientCache::getHttpClient());
+
+        // Providing a signer is useful for testing, but it's undocumented
+        // because it's not something a user would generally need to do.
+        $signer = $this->iam ?: new Iam($httpHandler);
+
+        $email = $this->getClientName($httpHandler);
+
+        if (is_null($accessToken)) {
+            $previousToken = $this->getLastReceivedToken();
+            $accessToken = $previousToken
+                ? $previousToken['access_token']
+                : $this->fetchAuthToken($httpHandler)['access_token'];
+        }
+
+        return $signer->signBlob($email, $accessToken, $stringToSign);
+    }
+
+    /**
+     * Fetch the default Project ID from compute engine.
+     *
+     * Returns null if called outside GCE.
+     *
+     * @param callable $httpHandler Callback which delivers psr7 request
+     * @return string|null
+     */
+    public function getProjectId(callable $httpHandler = null)
+    {
+        if ($this->projectId) {
+            return $this->projectId;
+        }
+
+        $httpHandler = $httpHandler
+            ?: HttpHandlerFactory::build(HttpClientCache::getHttpClient());
+
+        if (!$this->hasCheckedOnGce) {
+            $this->isOnGce = self::onGce($httpHandler);
+            $this->hasCheckedOnGce = true;
+        }
+
+        if (!$this->isOnGce) {
+            return null;
+        }
+
+        $this->projectId = $this->getFromMetadata($httpHandler, self::getProjectIdUri());
+        return $this->projectId;
+    }
+
+    /**
+     * Fetch the value of a GCE metadata server URI.
+     *
+     * @param callable $httpHandler An HTTP Handler to deliver PSR7 requests.
+     * @param string $uri The metadata URI.
+     * @return string
+     */
+    private function getFromMetadata(callable $httpHandler, $uri)
+    {
+        $resp = $httpHandler(
+            new Request(
+                'GET',
+                $uri,
+                [self::FLAVOR_HEADER => 'Google']
+            )
+        );
+
+        return (string) $resp->getBody();
+    }
+
+    /**
+     * Get the quota project used for this API request
+     *
+     * @return string|null
+     */
+    public function getQuotaProject()
+    {
+        return $this->quotaProject;
+    }
+}

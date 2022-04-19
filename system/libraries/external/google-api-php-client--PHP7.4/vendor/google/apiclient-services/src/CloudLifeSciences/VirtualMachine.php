@@ -1,103 +1,197 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-hAFsEzPKk2eGrL1zBBr9kqTfk1qed3e=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudLifeSciences;
+
+class VirtualMachine extends \Google\Collection
+{
+  protected $collection_key = 'volumes';
+  protected $acceleratorsType = Accelerator::class;
+  protected $acceleratorsDataType = 'array';
+  public $bootDiskSizeGb;
+  public $bootImage;
+  public $cpuPlatform;
+  protected $disksType = Disk::class;
+  protected $disksDataType = 'array';
+  public $dockerCacheImages;
+  public $enableStackdriverMonitoring;
+  public $labels;
+  public $machineType;
+  protected $networkType = Network::class;
+  protected $networkDataType = '';
+  public $nvidiaDriverVersion;
+  public $preemptible;
+  public $reservation;
+  protected $serviceAccountType = ServiceAccount::class;
+  protected $serviceAccountDataType = '';
+  protected $volumesType = Volume::class;
+  protected $volumesDataType = 'array';
+
+  /**
+   * @param Accelerator[]
+   */
+  public function setAccelerators($accelerators)
+  {
+    $this->accelerators = $accelerators;
+  }
+  /**
+   * @return Accelerator[]
+   */
+  public function getAccelerators()
+  {
+    return $this->accelerators;
+  }
+  public function setBootDiskSizeGb($bootDiskSizeGb)
+  {
+    $this->bootDiskSizeGb = $bootDiskSizeGb;
+  }
+  public function getBootDiskSizeGb()
+  {
+    return $this->bootDiskSizeGb;
+  }
+  public function setBootImage($bootImage)
+  {
+    $this->bootImage = $bootImage;
+  }
+  public function getBootImage()
+  {
+    return $this->bootImage;
+  }
+  public function setCpuPlatform($cpuPlatform)
+  {
+    $this->cpuPlatform = $cpuPlatform;
+  }
+  public function getCpuPlatform()
+  {
+    return $this->cpuPlatform;
+  }
+  /**
+   * @param Disk[]
+   */
+  public function setDisks($disks)
+  {
+    $this->disks = $disks;
+  }
+  /**
+   * @return Disk[]
+   */
+  public function getDisks()
+  {
+    return $this->disks;
+  }
+  public function setDockerCacheImages($dockerCacheImages)
+  {
+    $this->dockerCacheImages = $dockerCacheImages;
+  }
+  public function getDockerCacheImages()
+  {
+    return $this->dockerCacheImages;
+  }
+  public function setEnableStackdriverMonitoring($enableStackdriverMonitoring)
+  {
+    $this->enableStackdriverMonitoring = $enableStackdriverMonitoring;
+  }
+  public function getEnableStackdriverMonitoring()
+  {
+    return $this->enableStackdriverMonitoring;
+  }
+  public function setLabels($labels)
+  {
+    $this->labels = $labels;
+  }
+  public function getLabels()
+  {
+    return $this->labels;
+  }
+  public function setMachineType($machineType)
+  {
+    $this->machineType = $machineType;
+  }
+  public function getMachineType()
+  {
+    return $this->machineType;
+  }
+  /**
+   * @param Network
+   */
+  public function setNetwork(Network $network)
+  {
+    $this->network = $network;
+  }
+  /**
+   * @return Network
+   */
+  public function getNetwork()
+  {
+    return $this->network;
+  }
+  public function setNvidiaDriverVersion($nvidiaDriverVersion)
+  {
+    $this->nvidiaDriverVersion = $nvidiaDriverVersion;
+  }
+  public function getNvidiaDriverVersion()
+  {
+    return $this->nvidiaDriverVersion;
+  }
+  public function setPreemptible($preemptible)
+  {
+    $this->preemptible = $preemptible;
+  }
+  public function getPreemptible()
+  {
+    return $this->preemptible;
+  }
+  public function setReservation($reservation)
+  {
+    $this->reservation = $reservation;
+  }
+  public function getReservation()
+  {
+    return $this->reservation;
+  }
+  /**
+   * @param ServiceAccount
+   */
+  public function setServiceAccount(ServiceAccount $serviceAccount)
+  {
+    $this->serviceAccount = $serviceAccount;
+  }
+  /**
+   * @return ServiceAccount
+   */
+  public function getServiceAccount()
+  {
+    return $this->serviceAccount;
+  }
+  /**
+   * @param Volume[]
+   */
+  public function setVolumes($volumes)
+  {
+    $this->volumes = $volumes;
+  }
+  /**
+   * @return Volume[]
+   */
+  public function getVolumes()
+  {
+    return $this->volumes;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(VirtualMachine::class, 'Google_Service_CloudLifeSciences_VirtualMachine');

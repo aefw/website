@@ -1,136 +1,254 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+namespace GuzzleHttp\Promise;
+
+/**
+ * Represents a promise that iterates over many promises and invokes
+ * side-effect functions in the process.
+ */
+class EachPromise implements PromisorInterface
+{
+    private $pending = [];
+
+    private $nextPendingIndex = 0;
+
+    /** @var \Iterator|null */
+    private $iterable;
+
+    /** @var callable|int|null */
+    private $concurrency;
+
+    /** @var callable|null */
+    private $onFulfilled;
+
+    /** @var callable|null */
+    private $onRejected;
+
+    /** @var Promise|null */
+    private $aggregate;
+
+    /** @var bool|null */
+    private $mutex;
+
+    /**
+     * Configuration hash can include the following key value pairs:
+     *
+     * - fulfilled: (callable) Invoked when a promise fulfills. The function
+     *   is invoked with three arguments: the fulfillment value, the index
+     *   position from the iterable list of the promise, and the aggregate
+     *   promise that manages all of the promises. The aggregate promise may
+     *   be resolved from within the callback to short-circuit the promise.
+     * - rejected: (callable) Invoked when a promise is rejected. The
+     *   function is invoked with three arguments: the rejection reason, the
+     *   index position from the iterable list of the promise, and the
+     *   aggregate promise that manages all of the promises. The aggregate
+     *   promise may be resolved from within the callback to short-circuit
+     *   the promise.
+     * - concurrency: (integer) Pass this configuration option to limit the
+     *   allowed number of outstanding concurrently executing promises,
+     *   creating a capped pool of promises. There is no limit by default.
+     *
+     * @param mixed $iterable Promises or values to iterate.
+     * @param array $config   Configuration options
+     */
+    public function __construct($iterable, array $config = [])
+    {
+        $this->iterable = Create::iterFor($iterable);
+
+        if (isset($config['concurrency'])) {
+            $this->concurrency = $config['concurrency'];
+        }
+
+        if (isset($config['fulfilled'])) {
+            $this->onFulfilled = $config['fulfilled'];
+        }
+
+        if (isset($config['rejected'])) {
+            $this->onRejected = $config['rejected'];
+        }
+    }
+
+    /** @psalm-suppress InvalidNullableReturnType */
+    public function promise()
+    {
+        if ($this->aggregate) {
+            return $this->aggregate;
+        }
+
+        try {
+            $this->createPromise();
+            /** @psalm-assert Promise $this->aggregate */
+            $this->iterable->rewind();
+            if (!$this->checkIfFinished()) {
+                $this->refillPending();
+            }
+        } catch (\Throwable $e) {
+            /**
+             * @psalm-suppress NullReference
+             * @phpstan-ignore-next-line
+             */
+            $this->aggregate->reject($e);
+        } catch (\Exception $e) {
+            /**
+             * @psalm-suppress NullReference
+             * @phpstan-ignore-next-line
+             */
+            $this->aggregate->reject($e);
+        }
+
+        /**
+         * @psalm-suppress NullableReturnStatement
+         * @phpstan-ignore-next-line
+         */
+        return $this->aggregate;
+    }
+
+    private function createPromise()
+    {
+        $this->mutex = false;
+        $this->aggregate = new Promise(function () {
+            reset($this->pending);
+            // Consume a potentially fluctuating list of promises while
+            // ensuring that indexes are maintained (precluding array_shift).
+            while ($promise = current($this->pending)) {
+                next($this->pending);
+                $promise->wait();
+                if (Is::settled($this->aggregate)) {
+                    return;
+                }
+            }
+        });
+
+        // Clear the references when the promise is resolved.
+        $clearFn = function () {
+            $this->iterable = $this->concurrency = $this->pending = null;
+            $this->onFulfilled = $this->onRejected = null;
+            $this->nextPendingIndex = 0;
+        };
+
+        $this->aggregate->then($clearFn, $clearFn);
+    }
+
+    private function refillPending()
+    {
+        if (!$this->concurrency) {
+            // Add all pending promises.
+            while ($this->addPending() && $this->advanceIterator());
+            return;
+        }
+
+        // Add only up to N pending promises.
+        $concurrency = is_callable($this->concurrency)
+            ? call_user_func($this->concurrency, count($this->pending))
+            : $this->concurrency;
+        $concurrency = max($concurrency - count($this->pending), 0);
+        // Concurrency may be set to 0 to disallow new promises.
+        if (!$concurrency) {
+            return;
+        }
+        // Add the first pending promise.
+        $this->addPending();
+        // Note this is special handling for concurrency=1 so that we do
+        // not advance the iterator after adding the first promise. This
+        // helps work around issues with generators that might not have the
+        // next value to yield until promise callbacks are called.
+        while (--$concurrency
+            && $this->advanceIterator()
+            && $this->addPending());
+    }
+
+    private function addPending()
+    {
+        if (!$this->iterable || !$this->iterable->valid()) {
+            return false;
+        }
+
+        $promise = Create::promiseFor($this->iterable->current());
+        $key = $this->iterable->key();
+
+        // Iterable keys may not be unique, so we use a counter to
+        // guarantee uniqueness
+        $idx = $this->nextPendingIndex++;
+
+        $this->pending[$idx] = $promise->then(
+            function ($value) use ($idx, $key) {
+                if ($this->onFulfilled) {
+                    call_user_func(
+                        $this->onFulfilled,
+                        $value,
+                        $key,
+                        $this->aggregate
+                    );
+                }
+                $this->step($idx);
+            },
+            function ($reason) use ($idx, $key) {
+                if ($this->onRejected) {
+                    call_user_func(
+                        $this->onRejected,
+                        $reason,
+                        $key,
+                        $this->aggregate
+                    );
+                }
+                $this->step($idx);
+            }
+        );
+
+        return true;
+    }
+
+    private function advanceIterator()
+    {
+        // Place a lock on the iterator so that we ensure to not recurse,
+        // preventing fatal generator errors.
+        if ($this->mutex) {
+            return false;
+        }
+
+        $this->mutex = true;
+
+        try {
+            $this->iterable->next();
+            $this->mutex = false;
+            return true;
+        } catch (\Throwable $e) {
+            $this->aggregate->reject($e);
+            $this->mutex = false;
+            return false;
+        } catch (\Exception $e) {
+            $this->aggregate->reject($e);
+            $this->mutex = false;
+            return false;
+        }
+    }
+
+    private function step($idx)
+    {
+        // If the promise was already resolved, then ignore this step.
+        if (Is::settled($this->aggregate)) {
+            return;
+        }
+
+        unset($this->pending[$idx]);
+
+        // Only refill pending promises if we are not locked, preventing the
+        // EachPromise to recursively invoke the provided iterator, which
+        // cause a fatal error: "Cannot resume an already running generator"
+        if ($this->advanceIterator() && !$this->checkIfFinished()) {
+            // Add more pending promises if possible.
+            $this->refillPending();
+        }
+    }
+
+    private function checkIfFinished()
+    {
+        if (!$this->pending && !$this->iterable->valid()) {
+            // Resolve the promise if there's nothing left to do.
+            $this->aggregate->resolve(null);
+            return true;
+        }
+
+        return false;
+    }
+}

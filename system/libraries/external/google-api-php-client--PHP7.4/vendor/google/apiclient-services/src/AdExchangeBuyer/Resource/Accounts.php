@@ -1,63 +1,96 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-+IS0zreqPEmOWNpqfEhMCIlylBEv9fW=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AdExchangeBuyer\Resource;
+
+use Google\Service\AdExchangeBuyer\Account;
+use Google\Service\AdExchangeBuyer\AccountsList;
+
+/**
+ * The "accounts" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $adexchangebuyerService = new Google\Service\AdExchangeBuyer(...);
+ *   $accounts = $adexchangebuyerService->accounts;
+ *  </code>
+ */
+class Accounts extends \Google\Service\Resource
+{
+  /**
+   * Gets one account by ID. (accounts.get)
+   *
+   * @param int $id The account id
+   * @param array $optParams Optional parameters.
+   * @return Account
+   */
+  public function get($id, $optParams = [])
+  {
+    $params = ['id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Account::class);
+  }
+  /**
+   * Retrieves the authenticated user's list of accounts. (accounts.listAccounts)
+   *
+   * @param array $optParams Optional parameters.
+   * @return AccountsList
+   */
+  public function listAccounts($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], AccountsList::class);
+  }
+  /**
+   * Updates an existing account. This method supports patch semantics.
+   * (accounts.patch)
+   *
+   * @param int $id The account id
+   * @param Account $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool confirmUnsafeAccountChange Confirmation for erasing bidder
+   * and cookie matching urls.
+   * @return Account
+   */
+  public function patch($id, Account $postBody, $optParams = [])
+  {
+    $params = ['id' => $id, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Account::class);
+  }
+  /**
+   * Updates an existing account. (accounts.update)
+   *
+   * @param int $id The account id
+   * @param Account $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool confirmUnsafeAccountChange Confirmation for erasing bidder
+   * and cookie matching urls.
+   * @return Account
+   */
+  public function update($id, Account $postBody, $optParams = [])
+  {
+    $params = ['id' => $id, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Account::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Accounts::class, 'Google_Service_AdExchangeBuyer_Resource_Accounts');

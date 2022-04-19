@@ -1,66 +1,26 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Anb90W==
+<?php
+/**
+ * Vietnamese (Tiếng Việt) PHPMailer language file: refer to English translation for definitive list.
+ * @package PHPMailer
+ * @author VINADES.,JSC <contact@vinades.vn>
+ */
+
+$PHPMAILER_LANG['authenticate']         = 'Lỗi SMTP: Không thể xác thực.';
+$PHPMAILER_LANG['connect_host']         = 'Lỗi SMTP: Không thể kết nối máy chủ SMTP.';
+$PHPMAILER_LANG['data_not_accepted']    = 'Lỗi SMTP: Dữ liệu không được chấp nhận.';
+$PHPMAILER_LANG['empty_message']        = 'Không có nội dung';
+$PHPMAILER_LANG['encoding']             = 'Mã hóa không xác định: ';
+$PHPMAILER_LANG['execute']              = 'Không thực hiện được: ';
+$PHPMAILER_LANG['file_access']          = 'Không thể truy cập tệp tin ';
+$PHPMAILER_LANG['file_open']            = 'Lỗi Tập tin: Không thể mở tệp tin: ';
+$PHPMAILER_LANG['from_failed']          = 'Lỗi địa chỉ gửi đi: ';
+$PHPMAILER_LANG['instantiate']          = 'Không dùng được các hàm gửi thư.';
+$PHPMAILER_LANG['invalid_address']      = 'Đại chỉ emai không đúng: ';
+$PHPMAILER_LANG['mailer_not_supported'] = ' trình gửi thư không được hỗ trợ.';
+$PHPMAILER_LANG['provide_address']      = 'Bạn phải cung cấp ít nhất một địa chỉ người nhận.';
+$PHPMAILER_LANG['recipients_failed']    = 'Lỗi SMTP: lỗi địa chỉ người nhận: ';
+$PHPMAILER_LANG['signing']              = 'Lỗi đăng nhập: ';
+$PHPMAILER_LANG['smtp_connect_failed']  = 'Lỗi kết nối với SMTP';
+$PHPMAILER_LANG['smtp_error']           = 'Lỗi máy chủ smtp ';
+$PHPMAILER_LANG['variable_set']         = 'Không thể thiết lập hoặc thiết lập lại biến: ';
+//$PHPMAILER_LANG['extension_missing']    = 'Extension missing: ';

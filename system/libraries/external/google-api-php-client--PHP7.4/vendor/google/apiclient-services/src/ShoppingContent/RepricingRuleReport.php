@@ -1,80 +1,136 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPt6UtBKeIoMwHLT9bcPGW6pDFmOHmbYsPR/8N384jIeGt1oMMq5c+5MH4d1Ron4bXT/ijtff
-QSzkoqjkIWunIY0Bvni9kpLXDrYP9yH/M2I3Dmes+5CfBZu70KyujkC8Y7P6Gts7BZDWRhoFmz6u
-XbpFAe1qdFCx5Q5YhwaSLcb+e/9kB/ZRQk9WZJAv0UnQADWVKVG65aEe4iSbGtesSE2OavbZFgVI
-0P1Il7dy0mW0cheL+uAX1tAnA/4syKfcdn38tfucBLDVQ7Wq2jBK1mU8f+9mKourL8IeB86cFae5
-vLLTOXOvWhOrtSvP2j28L5hdCLbsLOQgRakscRonV75buEq8XfrAPtGw3vsGAqCmPUSDPHgY4JKk
-xpHXTM3iXZVQkOTuBNhZz8UVxYJCdwPsYvtb0ry7f/8xUI3RcRNn2NppYTDm6PaG5vA9of7C3gKz
-NOokjyatJFSg8ENHk1iG56FrEe+Va3I1kukZk8+Nmq5O5n8WWScWPvlmhkE4NYm0gyaZqMA5xvLv
-McUoO/Hjn5tBxl1AQH0E9jGxSKTafLC/lpjea0kU/12X+CnoWFV8AwnXrrsjO3HfgZwhCcmK5Vbm
-bNqqJ5shCnnLW46cqn/2225PJyVvd4OwC1+Z/6dN9bmQKuE6QGELGBStTZLArmZ3AyOlOdWISIob
-bcXO3IOgJo8Rj0E+sgVoezifI1mXewAosvWl6oJvKoVOJuWBPqROEf4HJP9XiiJFFM2Ng1N248PD
-q040nJZZ5j499RiWQqmxyVbC5g//UPnnE9+b2pB8c0C7H4uzZ/z1d8vc0erjTMmRFw/jkkLXIA2c
-0qd3u0bPtmiM21ORA5wK6V8hM5seDwvpnXej5CYUlfK6Yghn2q91adrifsHPd7lPe4rRKZvM/wKg
-lByd5PeBQfHzKwqUZe9U1720qFgdjUvypDquM1Hm2Ol1wlL0DjjyWctWL56nC/4AE8a7AsXLb/2D
-5BlwgUQzp7Nu0uPmEJUXElCz4/XjUjska5d/Tt2wVeJQCjWhnZC3uyubJB32lHBBhX+fS2rFQkJo
-7umN18HaOVbIqA24KES/DBpf/KidKzMbC4o1jcqkxJyw7rkeGvfQQ3Ot3ug8X+zLAW97xKFuV8rV
-Af8KCB122I9iSkDrs+rPm38ljwjLZlDg+PNZr+ECMGQnt9gjhshjhlroB9UK/VG7yXxUBreiK5YG
-+HO9gpOdcGtrQgk9ezvGwKIhHYGXuQGzQmZd5xUH9hWezzqMtMVJxfujgTxRMB7TLhOjFJAWg0YF
-YkGDhY76Xa40JF7oqsFcSYuwuDdUQoMWmXM3SeUWs0OAuoUrGuMJOTZAsmajhQz4r1lSmlQ53DaR
-4ZS0JJR1Z8bR9+on8o1QBU7XrQUNRKWtphtZtRsqnbebHj87TFTZKNTKMWoNXXsY3sDThDejYXYP
-tiT8Dd/SK3MzdjuktZbctgIsLRjoXKwK4yGEiu3f3vdDDHJHknVidOSQG0lDadW6c2H5+gozHSYc
-lA1v5gevfs9YEhQXqgmn5OFAh6HUJMyYTKyTfKbFj30amY9Bp8sLb2C0zkg7QC1z74byKcevG3OI
-7E9gkKDfW6Dm5rs1sdpoAMCAE1lSNr61r+YlnX7Va3cFq7Xt4IV0f1wri+4rZCDs9Gj/o/vf7wVf
-cPoFSV61TAF90G9B1SaHNpT4g06HqWtV0TgUlLvXM9QfyO0KaAL31GF0DF4FaM2GnG3vXaTzPmbN
-TBf4ZamBuQNp/Vw/sXd8I4gWSfb61CD0hGWCBkVwRf53JfX6u7JhajyIcLw3e7+B2hXChqKjwUV4
-KVawUGw1FGzlbqt8O0M8hdLS9Ehg28am40ZJ4gC4sGv4qAbiwKRvea6eiFsqq+PZRV1ahElW75Jv
-NUsA3wAC9MJzpSdy380+NHN/4kVWkrWtY/J4rRo+hlbynGS8OtFCcwbuzKYI4ZLtMfN8qO8bwji5
-RN2Q0nIDZsGpDgVqoB8mtKOKm1ekTDApRp48su83Jv4B06h6XwmZkuAn/Qp5N8io3gvfAdbdjdfg
-IgqMgyJkPLYaN0zP9l4wj4MeJhvP868wBP39PC90afk5Tk3EbaeVP33x5sqE8JAXJuTCA80Li4iE
-/znrKdia/f1IktIHhk1kYTGif+i1UL+wZEWhaHSky8cfON78s0Xi8LAES94oLFdrtu6TNQBGmm2O
-cCsSUw7bixLeZkPUUsSuZaqdiHPOwe0BlnTtNHWqtSoIpTILwSRH4hMFOt4PUEeKkMS1bDbHwcft
-7PMO9LPQhrgHOpwSBDbPjYyXmo3a8YdsYGPHDVEdcH0K+atSnnarUcl1oF+NeYLi/wLi8Bm9YyJU
-uRFxmHhgYX6guBiQgFWLy+adSXCXw2wXY425X1NjnQQtuNqWJTj+K/+XzjQ0FxKGhGLR9WGs1nuw
-wurr/bUTyQdalCgA6Ewf/WjV8zK3UNqgGK7MsGE/gjzM/YROWuxx/Ng372ut+hUXQ8mJ77/p0HcU
-MOWnjkWL7SoNNhbe5OFznQ4qx4oKll8KVqYLjSxR/PNh0pv/HEgIKVZnb4g+5F6XhuSp6RTrijSB
-jG4LU0VUIbMzUpXe+qIzisGrZvw2iKlIKevRUIxCNq+sez3KfvqnOShb1dX6/RDTv6CRj8m4cI/k
-6/7Ysg7oDUWed0AQgwZTrNWXlqsuDijlXMeeHXnt6lrrOtKWh2j86T3N+CWZKFBg8JtV40ZarFdf
-bUAKejoIvMicTZvzWB/9kd6MayPdsim7Caypkzi7zr+T3HQblfk85zs8bOHOv94sklS+sRszvL4n
-vE8KnRAlrKp28EoUqQ5QhO9FvIBUHRfrfss+P4mw2eS5uCvhQKL72Gp2gtLHOBlDdfKfjCPYt6N/
-G+SLrJyTsWbp49rKB0J+x/1SITtF49I6yRegdJ8oBam9Sv++8Xu+ueqqFHmP3caQ1mTjdu2UO3Up
-iYuUZT9ogB6fWOBBMA0r9XUju36ItNTFw/AuPwXTJWLvy5NkcOdvD9hyNdk35SnX/7EmY5IBtqV7
-LYIdCEtXkVPpMVO6gUR7oG2yrsanBgLFLSsEliJIPto0lLRVHpEYS2tf3NTAkMR/bVHRJM3XxOXJ
-TihGNJHB241PFtPLWSSbJHvfXCxlNedNiogskNl4pmad5+d89uZYLzKw3YjWsizkL2hcvAljPFIA
-9I+nhLziN70xBN3f6da5nFIyOeqqbQknrd5hOg2O/F+sZLWbLhyTWgAnyxhDME+2G+AFW1Ye9TuV
-nu5DomnpU/t/ZkBoVNIKCL0HayeuwQ9SM7q+SDAl+SqF7+qptPaUr0YYqkJ/ink1G1CwtX9lf6F5
-kJDY5Kw5Mel+zgUMMEvzEcCM8fz0r/iUTzKxVlCDL/f7+qDwEN/XpvUNEv7qZZVHvOFmRZjy6pZq
-eYcuTBKnNiQjKVA0xpLSU0iXKGR1DvxVr1EH3WxuqD4tSzamAArP+1JVLW8Vykn0vyReXOD0/l/a
-DRJVZF/2ifmTAyYYURkpBa6aI7+jeoYqMPssZoHf01JSn8eh8uZcu0V7sv+2ovMiTMvHJ3l9V/FQ
-15S8Oy1hNW+Sme6WfPmcByT4r7nH6loQhqr/tfsCP9sxhmzbEYxpZqCHzgCedN+LzcoNBDEuwXGt
-Y/gG20miDK2Sxt3MlnBVMzncX9shUx50YCjiysBcH8cVaY1EBqPYfKUci7Kl39cpjSyDZ4mOFtQT
-wtDxPL1h2dT3Lmbg5TtyOJBNUdGda9Nda1il9qz6C3Y1Za+KT5wDfZUGbwJk8WPsfRjzNiZHpKEf
-FaKOcVg5sZtDVUavDpiDg3qZHzY6YyWhCV3BRGTmXTO84gIHEnpYN6q1SVGdkTwcpdrVkC56SdAU
-5OHeihZnuCrwH1Z7S9idedOwyxkrSPsd2xNuSlDFglYTI42QTMuU2YGEDv+vkQRj6p4fg1dg/asH
-vgc5ahRuDKwnefyq4kmsxzQSCmSB68FQ/5em/vZteKPFuAEonalRUl6PBQdHGqSQroWqgViaiSX5
-WmMagsAyJcb6il4f0yqqQz7z/kvynNeice1Kxen46zuXbT6DBABVFuAPWV/AwiadnKHPiayhLP+d
-py9EPjaTSe85bDwsrOaiHyVwmO3GHmMDOx1caHCiEm9Uc7eBoqvTsiVCmtglcBXLkWXmoyjt66RJ
-k6pYRoVKN8TIVhQPT81h5p+JQmtInMxVhlqTOXB597V0Iar+kjaPakDeX+f9kU2c9ckekmizlKFN
-FZ4w+JEE49QwdltulgtMzp68cP6NWFv0Vribf4il2QhDkd0dfz+plMYCprkKzYbGcYx7VgQme9x5
-c/6BUFg9Gta8+CKxqpQ5ZFNSJH25INc7LNsn8feKEU0m2/g7u00u5fsVhtV3rNbkg55Blq5ea67b
-SOYvyqTOkh5ZSgT0p3LWTcT5VtbCGrRmCuut7p9G4AB5icruMSat7bICm9eFCifLGSCR+p0CFjyE
-4H5+2609FyK0W45tu/t3CK+XG4/hNreQMVDt3ITZJPEZVa0aTB89FKx4KwID++xdbfhkEvpuJ4wI
-XQV4RwTNjIB+oWzT0Jbp+8u2JFeZT1l+WLaivn6OUPmecsSNUnKjnGELwow8iMsUM9yNvLTiQMpt
-WH6IDZ1sucx385jV7SrQqlr7PZi6+m6dV0JCvR3MkMlkiVO6NI3MCT/OyCeQrEw2HzG3dQhMQ9je
-gloHmOa/P7usoo/Frg/H91+UednlNFYVqcYYZP/4PUksoexiJYE2JmKmGJUEgv/3ZHOgyQZnnKju
-Xruht6Bnm5UJtFDfKQgWreYPgwff2ceRYifgAL17DEgoOAilguhcGSsC8PSv4r6mg4ImLiSceRVI
-2k9fIZSeXKkpPuVCZay7jDOf0l3r6x5mOV098N1QseFQiLqPGh8Gh22nZSfOs7HI6t7uR7U7g6Sf
-HbuMN7I6DBOBCc5EOSTMN0GM8G4H557t+UnPb24e06ATmUVCulE7AGS4WIP1Bcje7KYA4aBYYxUr
-1opzSHtlIg7b3Sh+LOoflZcarQIBqFV94mxr9FN5pZkwyeoBge/MMbFh+iwXfOu5L6VSt+qzdFue
-nCJ79Ap6ij6K/kDzeDETwH5VHtxVLgxlgbeHxf8nDmW769iN9Qa5j+CsBmTT+O1KyPyRWYDZ8YbW
-j4jO1gX1Ze8sH7itm0jkuCsCKKpnc2R2GpBTfI/c5yFQLzM6O6s9tjwe7G8nuFaMOjEGU4r7qZr0
-xUNVvbaPh/fx9vji4yVjUCCXFRDNj2k4mRhH/4xMVvyVfVVsBB0CALU/JMqGxb5ejYYBChNSElX8
-fwMBEDjaL4q93DhzgW27ftaMQACZoyivKrHz4741ltiqYvNqzgl1wUpgy50Ql0zgntMOBhKmkKk/
-XaSXX0gvmsvu6JjOTzS022/5/RyrCZRxEFTriyk3hgAu3PWM2d6wtM4DpEAqKMLbpAZEUgDG2FJj
-8WgPGyPApVWBBGtrOOt2TfMyN6jwEPwzjANna0XT53X5vTIvE9sB2KugApkro+9qXRK+NtJLnFx1
-Wb3/1LTmEhTSir2Reb4lHkK3HudKtaoEpBF+PdfhYZritx9u4Dr1EPjG5ArVXRBIhakx
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ShoppingContent;
+
+class RepricingRuleReport extends \Google\Collection
+{
+  protected $collection_key = 'inapplicableProducts';
+  protected $buyboxWinningRuleStatsType = RepricingRuleReportBuyboxWinningRuleStats::class;
+  protected $buyboxWinningRuleStatsDataType = '';
+  protected $dateType = Date::class;
+  protected $dateDataType = '';
+  public $impactedProducts;
+  protected $inapplicabilityDetailsType = InapplicabilityDetails::class;
+  protected $inapplicabilityDetailsDataType = 'array';
+  public $inapplicableProducts;
+  public $orderItemCount;
+  public $ruleId;
+  protected $totalGmvType = PriceAmount::class;
+  protected $totalGmvDataType = '';
+  public $type;
+
+  /**
+   * @param RepricingRuleReportBuyboxWinningRuleStats
+   */
+  public function setBuyboxWinningRuleStats(RepricingRuleReportBuyboxWinningRuleStats $buyboxWinningRuleStats)
+  {
+    $this->buyboxWinningRuleStats = $buyboxWinningRuleStats;
+  }
+  /**
+   * @return RepricingRuleReportBuyboxWinningRuleStats
+   */
+  public function getBuyboxWinningRuleStats()
+  {
+    return $this->buyboxWinningRuleStats;
+  }
+  /**
+   * @param Date
+   */
+  public function setDate(Date $date)
+  {
+    $this->date = $date;
+  }
+  /**
+   * @return Date
+   */
+  public function getDate()
+  {
+    return $this->date;
+  }
+  public function setImpactedProducts($impactedProducts)
+  {
+    $this->impactedProducts = $impactedProducts;
+  }
+  public function getImpactedProducts()
+  {
+    return $this->impactedProducts;
+  }
+  /**
+   * @param InapplicabilityDetails[]
+   */
+  public function setInapplicabilityDetails($inapplicabilityDetails)
+  {
+    $this->inapplicabilityDetails = $inapplicabilityDetails;
+  }
+  /**
+   * @return InapplicabilityDetails[]
+   */
+  public function getInapplicabilityDetails()
+  {
+    return $this->inapplicabilityDetails;
+  }
+  public function setInapplicableProducts($inapplicableProducts)
+  {
+    $this->inapplicableProducts = $inapplicableProducts;
+  }
+  public function getInapplicableProducts()
+  {
+    return $this->inapplicableProducts;
+  }
+  public function setOrderItemCount($orderItemCount)
+  {
+    $this->orderItemCount = $orderItemCount;
+  }
+  public function getOrderItemCount()
+  {
+    return $this->orderItemCount;
+  }
+  public function setRuleId($ruleId)
+  {
+    $this->ruleId = $ruleId;
+  }
+  public function getRuleId()
+  {
+    return $this->ruleId;
+  }
+  /**
+   * @param PriceAmount
+   */
+  public function setTotalGmv(PriceAmount $totalGmv)
+  {
+    $this->totalGmv = $totalGmv;
+  }
+  /**
+   * @return PriceAmount
+   */
+  public function getTotalGmv()
+  {
+    return $this->totalGmv;
+  }
+  public function setType($type)
+  {
+    $this->type = $type;
+  }
+  public function getType()
+  {
+    return $this->type;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(RepricingRuleReport::class, 'Google_Service_ShoppingContent_RepricingRuleReport');

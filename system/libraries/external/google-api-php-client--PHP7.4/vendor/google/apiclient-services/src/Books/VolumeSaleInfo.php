@@ -1,71 +1,120 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-5EIpY6jQVbrhdHXhDN5CsyKXWqEvNggPCG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Books;
+
+class VolumeSaleInfo extends \Google\Collection
+{
+  protected $collection_key = 'offers';
+  public $buyLink;
+  public $country;
+  public $isEbook;
+  protected $listPriceType = VolumeSaleInfoListPrice::class;
+  protected $listPriceDataType = '';
+  protected $offersType = VolumeSaleInfoOffers::class;
+  protected $offersDataType = 'array';
+  public $onSaleDate;
+  protected $retailPriceType = VolumeSaleInfoRetailPrice::class;
+  protected $retailPriceDataType = '';
+  public $saleability;
+
+  public function setBuyLink($buyLink)
+  {
+    $this->buyLink = $buyLink;
+  }
+  public function getBuyLink()
+  {
+    return $this->buyLink;
+  }
+  public function setCountry($country)
+  {
+    $this->country = $country;
+  }
+  public function getCountry()
+  {
+    return $this->country;
+  }
+  public function setIsEbook($isEbook)
+  {
+    $this->isEbook = $isEbook;
+  }
+  public function getIsEbook()
+  {
+    return $this->isEbook;
+  }
+  /**
+   * @param VolumeSaleInfoListPrice
+   */
+  public function setListPrice(VolumeSaleInfoListPrice $listPrice)
+  {
+    $this->listPrice = $listPrice;
+  }
+  /**
+   * @return VolumeSaleInfoListPrice
+   */
+  public function getListPrice()
+  {
+    return $this->listPrice;
+  }
+  /**
+   * @param VolumeSaleInfoOffers[]
+   */
+  public function setOffers($offers)
+  {
+    $this->offers = $offers;
+  }
+  /**
+   * @return VolumeSaleInfoOffers[]
+   */
+  public function getOffers()
+  {
+    return $this->offers;
+  }
+  public function setOnSaleDate($onSaleDate)
+  {
+    $this->onSaleDate = $onSaleDate;
+  }
+  public function getOnSaleDate()
+  {
+    return $this->onSaleDate;
+  }
+  /**
+   * @param VolumeSaleInfoRetailPrice
+   */
+  public function setRetailPrice(VolumeSaleInfoRetailPrice $retailPrice)
+  {
+    $this->retailPrice = $retailPrice;
+  }
+  /**
+   * @return VolumeSaleInfoRetailPrice
+   */
+  public function getRetailPrice()
+  {
+    return $this->retailPrice;
+  }
+  public function setSaleability($saleability)
+  {
+    $this->saleability = $saleability;
+  }
+  public function getSaleability()
+  {
+    return $this->saleability;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(VolumeSaleInfo::class, 'Google_Service_Books_VolumeSaleInfo');

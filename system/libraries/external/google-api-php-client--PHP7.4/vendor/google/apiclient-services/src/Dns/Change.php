@@ -1,63 +1,104 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPsH8Elea6P/zGOMlsKc288iaSJu2H9C7fvt8Ruw0b0WvBb2V3c/Sck2z9HHskJesGmjK1K+i
-aG1dNmN6/qndvV+f+z10bcM340SKjRurTO3f4VLwnqBC0m/iYnmEpb5GOVU5dqZiUC9Ujc59zCR1
-4dRm+mYGzulyXf02aDt5bN+BjEu4iaIW/rDNydm2EbPZBOn/1wwnvbetCjMZSOvLKaWX9XhZgOG1
-ihEQVo2JUoXghSNbGfLUuSR9OPUheoM51ATnQ1v8qoqHGAy8wHA/qlhLjU9mKourL8IeB86cFae5
-vLMYQn7hn55YYrhChHk8rD80Alz6IxdrH905b5ww5EgLqQqYw928U/Ug8i9iiArC+3ui6j4pnLEW
-GgizszkW5U6KlV5vn33iz3rm5kyxjf8fusOa9kOkVecaID28gbWdI5jEdTFTHC/RCYTB1XzxtTsG
-7oyzai8iV++hWjaJe1AZaAIU0Yc5WaeKA9fYKqUqry/ByLX56KEVDfSougE06U0gm3glm8/JuWgY
-tPUg9ildsSP3jP2DDdYFDxmjm/5hZZ3eSS06SzIBfRPBg1f30eCAgx/NE8kY/WC4X32fZAXEgazq
-liHOEZBe+Q05Xzs0oEVm2PX3R7Fj7DKmvYLA2sCdRzBBqzn+B7vVDi/utA9w7VaC/pH1I2dGcKB8
-Qk5Qs/R9HsFzXulWtba3pZfyC9PTyoS8pu7SX7hNtNa+vKMXXBpVIti1vBwGy8YKtvuWQ9y/NqU1
-o/QSM8O9KCPFf+RqSkIEMydNNyTN4QaNNeOAh9KSQw3ZewhiS+IE0jnFW7kLdks+hc2lZR3LGmi0
-lAapsjDK8FlcaoQZ8+uCIO6cfr1BzydR5wsm1m3yB/chCtuNKRzm+MY4tZhGCFUDvekKySgNKuYh
-2BQdnOhTUyBMUpOJekkX4cPpgXPAx13Ps7kzuHrA25Hlq4TN5gY6RWB7cLNV1v1ZJ8ea4bIkDT0I
-UYrCVashS8nG+e9voyGMBlQtKMx/JIzfhXmqmCVJz+D8/G1kDL+DV7/gRfsQQBYpsa2PRlUSsGAT
-iumCYMC1TAVDz/7s/PMC40fw0XGxCe8MfAGxQ05rX19WV0H/kHjDzzkneqPCwwG9ejMsidxvyKmS
-q/P1r6lhFZ/FvPrwrEYc7rAUg96lyf5n2jTtNctNp9suXCBZwRg9hxcVk2Vgmw9nN51QMb9fwmBy
-SvxuXpdGMIYh/lw42GQX6fO3DiesMM51jzsVTSgyzgMrapfqYEo86HoTB9D20MmqfZU4FH6qkxZG
-JgoUntvupb/qT0eR6n0Xr8qkhQ60kwhnqZ2HNBlMCf9y3cBfU7ym7jCjYHHMekki2N5ieUdPKpXT
-v9r1Ops1L2ELqLBnlM4DaOJOnDoyXvKvqgSKJbnmlMl0KiwEuhH8SLbdti8dH/VOYD9gkGGoK+fI
-PFD7hVUy8qw49VopgAMblUXbTv+RQ9lApy71BcMOqYnWj0FX9zHkixJW5mc3ybqdh8aPTur8gz1k
-2rtH865+x6mLaNDkvfjHwtjxnMjR70ScejcZjTwJgkJCT8NVShhYvzIwaQzxoPxI7P1qmmWw8TCE
-NO2ts1E2Ikzbkz2+3zCSMIpZPWRfTflSpCgaDJDC9L4kX5TZ8BLRjJe8msNq549e5bd8VAbfAGsb
-4KIJgBzM8rSIwwJIw8GnaiRvx8V1BCCaQg4XWwqjbcnvnOfsQvMHw+deTAJ+thB2hX1nj2g4VPNt
-6Oi6FOLyDEFf4CyPypST/fPR1sXDU7P2ReI/hEFpFjXXLjHYoFHBmozo4epOAmjrtud6BUooUAC7
-CmasDTavv2fMwn3/v+tbDmg42GG6Cw6EZIP9X2Tm3ZFEHi9Z0HOkzmtZXsPda4KuVls2bzAuMA8d
-V7cKzXGmJr8kT3SxJk1+g+Uw5XWT/kRbRwntA2dayuANIfduvh/7jWdo131Vin3J1tEmb/0mmxi/
-/UfQxbRQod4xJjuKxwoc85hiVR/bxz0leMOxT5oHkx/QVCC/jGgImf1YbZkc+Em3Nfns8pXS759G
-jC72OMaM21YOMB3q044Qbt/Ni1i4S0xi5bM/Heb0SNsR3sXFyNMzbUzGiJ9/ZMgGjSxVwMJNfbEU
-AFEaKhqIrfGn2gVmV2784aEAZEsTVsRH+sV+xVd8BrH8cMmCuvEHzbh3EPqKzyLKSvHlUZsAz4Mj
-F+WQu5nnRjGdqVQ6ltzwbo75/OGTaxR3AJT3KMAx6OS8JVM5u6k7YL8b5f5wIsgxgQs/7C6u0FCV
-/KWC15lOolVVYbjGL8gXSD6oI0vcUNJjLOOEgHplSmdB0QeoHuEZgxbX7Huv68c5OiJ5MY2i8wP0
-rMZAHe5SwyWbkOXcd5SA/8bka7isIbJOxBFuu1rEQgL3DJQSCU4N8rcUFqZHCA1l9Yj9/m30tpQB
-92g36WRcwKQHfXO1ZUl+0gWl2ef50mHu5siVsDW0UbDfJ9LvAfnDoTMcywWOplPG9OxsvsJ+5rrF
-M7qnmIoE6A2w00hKqOgbLeD1MmuIqgye6G9VkjYqxKGF/fldRKx9t7tm3bf8kzHaWtDJzK9pVCLK
-TF1ZVTEI/2N8Nyk/ZDBwtJjckwgxTjtAj+bfQU6VFRFIqPYT8W7VqX7IQYf+P9kKXZN16XxxCn8l
-0C6D+YX7QkuiBB3HsuyLiOnd783e08Gl+fasVqBnYAPvoJN/c3kGDxfY9ugQP3WfXise8ild9zDM
-1VjHvLXLx/sWMACYcnyNyO5BtiKbhGuuY8ZHUFp55dcpG0yD3JGKvJ2N4nF8bCT6LoevdjuLWBCs
-O1gok5lPPrXS+hbMLnIloJq9lLXP211nGLa1CE3Fpjq9GUQWCziCK1JbmNyN5Ne4PpBHZdo1Vzrg
-2Tty/KC5NL1+iXIvrKvmAHPKrJQyPbWdQIkJdLGkOT66N0T80bp0Jg83nKpDDTh48ChHKRvdc//B
-XbmlilfIaiiax3yonYlDC7Gcn1ERW6RYXLGsKTYWHF/np5Zr0LxjirxlSoZ/9GIhUvm2d+HOIFU1
-hMrz6vSUFW9oa6C/A9VU1DAJX49nhw5MvRRNpATutZtLmXZE3mQCL0hgguqZx5OlQ1tfBpSxUqLr
-oGYqNpdpr3hZd8w974EDoX9Sefh4j1G+Lcqr5n3fuu+ao1LDsYQv2KVesnkNHyEGs26zC3UWejvz
-0KQTUbwHnMUSmMltzlRJhNEZi8gGO8PkYjZLpNmoZLKR9Hw86p55vcEwiqklCl2Qes0+BQ7PWYQd
-s19oVlZU6WqiTS1hSfFIivxPSi6UY7Z6Deza55zI3efLmv3Onqs5xY7JnvZccQmTZFX1GijVe5Zf
-7gKVFvUE+wYj+OOmg2V8UvYcwSPp/uYtBwSf7y4EXxaYmc5rzPutB0k7tvZZOjQzpfxvHOmEKYJB
-7HcloKTm0E1NmRpMcFw47ki+bJJvlhImSJS4GAlEyTpdFhiaNzcuW33WErHH0TsGrOE+q1BDkP6Y
-qvOjPjj0leWZKur4/vbiXot0nTs18dKJrwDobX20FQ7SYIohtVLqYJwxOjktvbXHa1iNXz2vTYJn
-0ECdIESMXIopQmTbDGMyifriXCjZdpq9bcB5R6w0AQHtIh9v0ZcagevsR7Ow8NE30lZ6E910bwTT
-TQkPKmZSIZVKdYrieWveVTRMB3kA/mxLD1VWlRfQUZHdskU8g0dK10XInTpwQwFqfMy401nX7SNp
-TYvP6XbhEM9yMCvH+V2cbYzLbKX0FanXjsMkYRpJmz0XTp0hSCjd61KRVqw+KlM8pjexa4ADIisP
-sdtOwZTEWCrAXKJclOrNB3M4jpT/ZTPmw0E/7FshXRXtP3zBWqx0wkedyk5tRQcY91hqUHLXfDWk
-l0ruhqRnldwOK3Lb1VBRx14HptRliUDejD05JSBWzqKPEhMq0AeFR4I9BrrjqS9w9UgCL9ug+9rJ
-BWP5rgMH0Rxp87tN9x/DVcSQ7ov3sbjr4dJuBYhFpqOq74pvq//30L+ekRyvobfzMnEzliHMM76M
-k3HOeiLN6TC9r8awMGA5Z22NyqH/l9+QQb4nY6K3h+TxN6It4j2Qk0fh5+2a8l98/Lb+KBX5Dpks
-v5Sn4+Voli+L1jSwu6+43MCOAPZLFiYDKgzfQkWAySmT/X/d15NW9nkMVYGef1+Tv5gII0lFKq9E
-SyOmxobWEejNaCmQVP5Pvd1CeRLMYrAUG64cHp7B0QtxlZOHqJs/nhveO+Wk+FG5nWADcou1imDX
-+3LvUF+JI8QroyU9+m==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dns;
+
+class Change extends \Google\Collection
+{
+  protected $collection_key = 'deletions';
+  protected $additionsType = ResourceRecordSet::class;
+  protected $additionsDataType = 'array';
+  protected $deletionsType = ResourceRecordSet::class;
+  protected $deletionsDataType = 'array';
+  public $id;
+  public $isServing;
+  public $kind;
+  public $startTime;
+  public $status;
+
+  /**
+   * @param ResourceRecordSet[]
+   */
+  public function setAdditions($additions)
+  {
+    $this->additions = $additions;
+  }
+  /**
+   * @return ResourceRecordSet[]
+   */
+  public function getAdditions()
+  {
+    return $this->additions;
+  }
+  /**
+   * @param ResourceRecordSet[]
+   */
+  public function setDeletions($deletions)
+  {
+    $this->deletions = $deletions;
+  }
+  /**
+   * @return ResourceRecordSet[]
+   */
+  public function getDeletions()
+  {
+    return $this->deletions;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setIsServing($isServing)
+  {
+    $this->isServing = $isServing;
+  }
+  public function getIsServing()
+  {
+    return $this->isServing;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setStartTime($startTime)
+  {
+    $this->startTime = $startTime;
+  }
+  public function getStartTime()
+  {
+    return $this->startTime;
+  }
+  public function setStatus($status)
+  {
+    $this->status = $status;
+  }
+  public function getStatus()
+  {
+    return $this->status;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Change::class, 'Google_Service_Dns_Change');

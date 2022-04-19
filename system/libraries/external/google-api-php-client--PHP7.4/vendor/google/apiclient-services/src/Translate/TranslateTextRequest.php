@@ -1,67 +1,97 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-1dDoBTmo5EHc67kjl8PblssYNZWkFG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Translate;
+
+class TranslateTextRequest extends \Google\Collection
+{
+  protected $collection_key = 'contents';
+  public $contents;
+  protected $glossaryConfigType = TranslateTextGlossaryConfig::class;
+  protected $glossaryConfigDataType = '';
+  public $labels;
+  public $mimeType;
+  public $model;
+  public $sourceLanguageCode;
+  public $targetLanguageCode;
+
+  public function setContents($contents)
+  {
+    $this->contents = $contents;
+  }
+  public function getContents()
+  {
+    return $this->contents;
+  }
+  /**
+   * @param TranslateTextGlossaryConfig
+   */
+  public function setGlossaryConfig(TranslateTextGlossaryConfig $glossaryConfig)
+  {
+    $this->glossaryConfig = $glossaryConfig;
+  }
+  /**
+   * @return TranslateTextGlossaryConfig
+   */
+  public function getGlossaryConfig()
+  {
+    return $this->glossaryConfig;
+  }
+  public function setLabels($labels)
+  {
+    $this->labels = $labels;
+  }
+  public function getLabels()
+  {
+    return $this->labels;
+  }
+  public function setMimeType($mimeType)
+  {
+    $this->mimeType = $mimeType;
+  }
+  public function getMimeType()
+  {
+    return $this->mimeType;
+  }
+  public function setModel($model)
+  {
+    $this->model = $model;
+  }
+  public function getModel()
+  {
+    return $this->model;
+  }
+  public function setSourceLanguageCode($sourceLanguageCode)
+  {
+    $this->sourceLanguageCode = $sourceLanguageCode;
+  }
+  public function getSourceLanguageCode()
+  {
+    return $this->sourceLanguageCode;
+  }
+  public function setTargetLanguageCode($targetLanguageCode)
+  {
+    $this->targetLanguageCode = $targetLanguageCode;
+  }
+  public function getTargetLanguageCode()
+  {
+    return $this->targetLanguageCode;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(TranslateTextRequest::class, 'Google_Service_Translate_TranslateTextRequest');

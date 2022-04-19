@@ -1,74 +1,143 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-spkBOIGMFuLkfTC5JVq=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\BigtableAdmin\Resource;
+
+use Google\Service\BigtableAdmin\BigtableadminEmpty;
+use Google\Service\BigtableAdmin\Cluster;
+use Google\Service\BigtableAdmin\ListClustersResponse;
+use Google\Service\BigtableAdmin\Operation;
+
+/**
+ * The "clusters" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $bigtableadminService = new Google\Service\BigtableAdmin(...);
+ *   $clusters = $bigtableadminService->clusters;
+ *  </code>
+ */
+class ProjectsInstancesClusters extends \Google\Service\Resource
+{
+  /**
+   * Creates a cluster within an instance. (clusters.create)
+   *
+   * @param string $parent Required. The unique name of the instance in which to
+   * create the new cluster. Values are of the form
+   * `projects/{project}/instances/{instance}`.
+   * @param Cluster $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string clusterId Required. The ID to be used when referring to the
+   * new cluster within its instance, e.g., just `mycluster` rather than
+   * `projects/myproject/instances/myinstance/clusters/mycluster`.
+   * @return Operation
+   */
+  public function create($parent, Cluster $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Operation::class);
+  }
+  /**
+   * Deletes a cluster from an instance. (clusters.delete)
+   *
+   * @param string $name Required. The unique name of the cluster to be deleted.
+   * Values are of the form
+   * `projects/{project}/instances/{instance}/clusters/{cluster}`.
+   * @param array $optParams Optional parameters.
+   * @return BigtableadminEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], BigtableadminEmpty::class);
+  }
+  /**
+   * Gets information about a cluster. (clusters.get)
+   *
+   * @param string $name Required. The unique name of the requested cluster.
+   * Values are of the form
+   * `projects/{project}/instances/{instance}/clusters/{cluster}`.
+   * @param array $optParams Optional parameters.
+   * @return Cluster
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Cluster::class);
+  }
+  /**
+   * Lists information about clusters in an instance.
+   * (clusters.listProjectsInstancesClusters)
+   *
+   * @param string $parent Required. The unique name of the instance for which a
+   * list of clusters is requested. Values are of the form
+   * `projects/{project}/instances/{instance}`. Use `{instance} = '-'` to list
+   * Clusters for all Instances in a project, e.g.,
+   * `projects/myproject/instances/-`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string pageToken DEPRECATED: This field is unused and ignored.
+   * @return ListClustersResponse
+   */
+  public function listProjectsInstancesClusters($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListClustersResponse::class);
+  }
+  /**
+   * Partially updates a cluster within a project. This method is the preferred
+   * way to update a Cluster.  (clusters.partialUpdateCluster)
+   *
+   * @param string $name The unique name of the cluster. Values are of the form
+   * `projects/{project}/instances/{instance}/clusters/a-z*`.
+   * @param Cluster $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. The subset of Cluster fields which
+   * should be replaced. Must be explicitly set.
+   * @return Operation
+   */
+  public function partialUpdateCluster($name, Cluster $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('partialUpdateCluster', [$params], Operation::class);
+  }
+  /**
+   * Updates a cluster within an instance. UpdateCluster is deprecated. Please use
+   * PartialUpdateCluster instead. (clusters.update)
+   *
+   * @param string $name The unique name of the cluster. Values are of the form
+   * `projects/{project}/instances/{instance}/clusters/a-z*`.
+   * @param Cluster $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function update($name, Cluster $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsInstancesClusters::class, 'Google_Service_BigtableAdmin_Resource_ProjectsInstancesClusters');

@@ -1,79 +1,124 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPxgESXpBMqTKuaVdF+NTn2Lofw/vs1jGLyqXnfKUY0asZd6bFRW2De1rBy8AKmFOpgH3kj/n
-YmF7Zf+TlwRFfe4vJDgvmgkt8iyVOSF8Jq4GdfYp1z/Sko+OTZipE1h8yhx9Un6kPkFTZHCSxDiA
-SP4Az5iYHMTmk25dkVhhIySw057O6bVBEkKlZSl7e3fEvDVT5vaXm889mdZZpYt0aCfyiF/iE+zz
-4lvQcsH6i1F5y0dydLvLzuAWKbVMsa7By9tXQQKA/TTpDlIYvG3NN0GWMAMkl5Nd+Th9mxdEuJaR
-JCnpjNZk8/tEkUISHQblBmYI7W7/QQuVllBDxgvyZ7bAPg7u1d8E+xk4OunbWWeFe8ead/5ZQgS0
-mnlRj785GsDrYSJf7OLPat57qcuDRF6aconDMlbk6TxCpdUn2Crz15e1AO4letT61PJN9Oyxujzz
-PwUtZEbYvnEadRtiB0vW7ZSX97dsy8qf7NSsaq4va/EEJ5skiJdAx+LYnOXo229RgpE0zMX91m6l
-PRYZZ4XQ+KCCzkvHO6J0SZ5U5Uvmcwk26ylI6B9/v1pil3dKPxz35eYzXh7sdbpai849hRqkTg+0
-WeWw9fQpRbSfN7FFrMkrAwrmIHYzGcrbNsjyMn98IkaStXaq1bu9H4W9yEDmi7n40uvslYcJ1R0l
-ymgfSbjhyS2o1TSrxY4d5q9/uXi4GLT2UgsGOR3JSliBMBQwJFCQIS4kqwJJSGDJNnY6BNc+6hIQ
-nCWGvs/TfPOFeREC/vDoAQjDOCg7XFjdcgEpNG4aghN3XEonmiOkggTf9yM/Ww9CME6Sf5MZfpuu
-01/ZhZ5NA+q6PX+6nxwCd5ysOMwgWrW0SDjuaECUclObitvJNo6NkRLMRF8hS8ig1Vb1TzR1hOZ7
-RsAVY+/9ihGPl4En4vMIb2vSp9AgkS1YisKM9wrF+Xs8B8YoI3FYtDkVvh0LUYIRCRSuORFniyvJ
-K+3FWsd+SHIcrKORELEHPVwSkgO9mKTDcsRrHir7I11MXGKtqzbgv/GSy0AIQhDCM5VcOKZ7FMXq
-9WIww3rtlPf3e8C69ot0PzH6yMcsFNoGm/uBKS8YlrRT5D5Kcv2bs1Phc6t4VrjFP2U6d9Ur1QON
-Bb0g3X3eUVjk8ijqz8LHg9acBHCSh+cDJmwNLHELIawy6vgNyTBuFXFaE1f7HYG9EF1paPvqKiGK
-9P/klgvjP0eGZKDnO+YcG1V5e19Juk0egolW/oP6W+B7C524Ww5k4/Ko4o6l7n1siAOPk2gzmLdq
-UPr6k72ZsXAwQFKg+4BKHQUy/QEAzjjK1SNs9E3hFNaTPd3xaItkA5baZC9o+z8iSocqsPrva7l/
-ujW3kJgRINDCJgdajJI4Mu5+v2KQRGheto5p3BlcwB4pgYq4xIaeOiJUyNfK1MHpefBvIXzyAveM
-snI+uUUVnnMnjdKaKUAucwXS5PnsY0MxUdOdarvPXyxoOWcIwGhkWJg/HgZ35jiL4/tpnsnxyqvI
-2PPip6TdDxICXyiqNxKdytQnjfMz60mYp5ZWP9k7J8fsJfIV4pNiiZKD8AaInNwq3end0KdNfbJo
-B+MH6v2l0HWwaibfallsRhS5GVWOVW4WPGmKx1cFuIrmIj+V/ZU9Abv12l/20FV8S0vYvEF6muMq
-lvgRRMLKlyLgP+KlnaG8WCcZKTkTC/E08Hz11Fyfjz2eTta5OK1UgLRgKXWFqhrqhwQ3vEXf6Hou
-B5upGXJLG360HiLYnNRWWL0MGx37ovsmxm0YZiGWnFv8lYErg2seNWjQll8LDrzpjsNuvSVLz34f
-0m1LQHewC0ajPox4WN9mbw5asumDOr2Dgsf03usNx83r0TEZPP2/am46aLsdOoM86tGWvnPS0rac
-xKS5wT+5h0cg0sc5qE2OTdhm1gFM7BYQ4vcig6gU/85Jgcu7Mag+ly5t76st3Pl3oXA5t2Oe1Rj4
-BVXxUuwB7uw6aU98+T8He3bDrMQJmRHHJUTyGjBwXjfJpQDTBj6k0tXrJNds4KoKwIkLdtgeJ2qP
-cM0MWV8CwPQnXxK2xiHWRQL8vhkXGt7QguQ0nmGYbFfZ6zXsPDy63QJ3OjaYvvYfV69CJADyVu6K
-h4VazZX5GHIkLyJAY2y1NArbnA7DhWUOsnK60beTyJZph/e7u13/a4hosAF2tZ9vT9mFCWeK4vWV
-34DQdR7cwbbP6MHQMaDrsU8lUDgG5WQOn8qDH/4su6ufhT19CVtCEPcJ1oKJ8waqR3CmO99C33HH
-n/gr2Wuj0XZR3wsrnKJjEMKvxQlDNgAdXv9GEWJZD4QLtxbWjX3jEqBYRAmvFydmWcvBtfFxJDj8
-3/SJTUHW1QS7ECOVdEdqEc5lI/tPl3h33QNiwJMGqq04aa1fXNZ/XTACXByhRYtvLB2Il4WYTinz
-canTaQCsyeaBofOroWMKjPVwoPLkquzOhandXW/9/zSCWxEG7GSb3DObr6xkvJ7LXJjPOS/qwLKn
-Nk2qof2wUXJKfh5VmHrNE/f3Kw4eGde5nRcVE+hAmB5nE5gIVJh4MdirC7gnYgTdWbaZqeZlAEHB
-kCMViE5fQIZjz+VYj0raYlvcakSUITYZ9iyEGeMOfBRz0s+XqZBGer/zKCZk0/YUHPVU7R+F5VTX
-sxQtELdC/g5PPj7QzCqDja6cU0mP8gCq4mBg2ZzdT/N627CwBd2G2e9iW+gRRvt/alcMSnvebFWD
-MgMfVuKIZC00I3YLvgER8hrTpx/YH4EIqVgClDijOwIkwf6Lt2gE7xvXHKNcsE2j5grE4Y1jvG52
-t4wWyIb/gh/iUOWNJJfCkDteUoUa+5N1woznqfmUrBUwJqzYf+SLDtkSWKiMwhA+eY14if8II7Jz
-2whMHJ6wOwRe666b9bBYZK1hNl13JuQnqNkbOaA+HiDp8f0llpLC4sHNmM044pQFhmfg3J8B4hlS
-WUM22SatsicOk4mkcZ0ZRRIZgLxdz4DZlztdF+1mkTtQPckGhKHFyeplsfFafEKjjqqBZsRn4pQB
-L48iyJWMW57+c9NkRrzNhP1Zh4TiirLR/J8goBVOEf53o/Qa1b8oGqB6imW36mKs/oCGnRy/mKdR
-mOpuecpNix/xXWc/m0HeNKRXRCftm4KO5HIoNILu8ZeQyMIo/nvWjOCQ0KAVIwaZreq8aqXSYvbr
-cPv72zQpzl02KrxQNwBn5ICUHUy/+zv8btQG9AcpRWgmqh3o4vVYijuI/MZUasDu6JFkZl9EcxKB
-xPfbE+JUYIEMvwowUeZ7ZUpEDHMaPrfKiLXOfdN4MalPzC7m3KeWfznLBWsMTxv9lq0itaZAfT/x
-Gm2Kfva/dTFrsv6g68WbhFb2nKAlC6Gp+BFlyCX5A1mTIDkFVg7KXigU/kFjIn01Jnt0MgiATu/m
-Sas5w7SSxg+yqNScPXDjz8jt5YJ/hic/TnNDKq8wo1uJkudq0ByzL91FpvCzMi1dXuJIrDSJyYNG
-M0p+lhuL1zLtePxnXXOL+zGaCYY/ZtdZNCgoJJHknIocPEfAr6URGRW9s380veNxtFfCnir6UAQH
-esh2B+uC1MAXZTH9omWnzf46LDGYklkXheYXOCmgrOgaqOBGMDAv6d9PdmNR8KstPG99eeU/uB7v
-gPUnyn8IqQCvwbAtI711u4J5W60CzAJf0nx3/Lh/IDmo1OjQCcPAAa+ZJ7hJ8Wz7Z9trP0wB4dnU
-oprAbDoK+i3B0hz/7r/oi5NqdlTGBQh5QcjLTjfm/mxWTJ/zEIGcQhEIbsgSX/Al4/+ScGxw3r6c
-dwkn9h80PFAv0Shsk/Vllp6fDvd6B0waRZNQtJRtVeeAqgpe3UtOqlwIxs8s/jTi0iv4H3NC9vtt
-wWhuBSheyLwaZfJ05TZwjPPCuK2wHxeUJ9UNWY29mEOWVu78o69wfGws2BBDRB/fkZOQ3RCXIXt3
-Pue0ZsrCvUawK3s2WJxtz0T6gBw0xQDofj4AaiUaJys1AZrmGx5VIboZs1Q7yiRNsk8/722qaOIW
-hf4q1ARnNCeXmMlhqp0Su1eZQuWp0dD+XycYVMuADKeYm3xwk8zkwEPMbAFASxO9S1VeVH073kUW
-uf9nw//ZUvJgNe9NpaiIBb78Ch1j/o3vLG/kfm5TGKZeqhJr1anIMUkgbrRIZN7N+LSgb01myXH8
-gAfpIMqdywt3s6K806VNaysrirdewbUDw1iZcHbX91NTA6wyBh911aJgwDE/XVNpyOFD4zv8MYEA
-sWgKz22y07AOmcHv0fkeWZGtVDSZDC67ObF8VK/af9MigOFZ18hRKlXz5pP20dXSOv1fVzU0sAS+
-4Y4pRGKxB3e5Q0hT2KYGz6leuIAHZCwk1GVYIOysY/MO/jhhxrxVNd4tUJON3TVj0cgZfJRwPtJx
-mHDWBGwdKw4kXwEaHw48T8Jowc1JXnRgtMjLWX1JEj1UZ+/CdCO2VgzXxzOSzlcwq7/JWs9EDh1/
-n+Alj6LutrYDAqS1gMc3cZQ+UXBJiSkxOpjTJcVMhhEnBWYXKnP+wbgoG+iLoG4zn1bxWepog/I4
-wkrzUoDMmJdL7lTd+n8CDsTQtzp+gGanuCvYsHddpvBEDCbVyLpwUpc1LURaxyXJPHKHNLoyQHxo
-+Lirhbt8TyM9vJg/g0tE+zxUr/nlR+2lmDjwkLqX1A3LnBcpCyYy3in73ET9djJHhKF0zH8vrcfg
-qY4PRuMH2tPoU0xdERGMyRUeVxYMbTg30Iat2pCFEKAcJfz8QGGEaE9hYGGl9aBlEbTXNCTZIzwh
-d8qZjYF2izoKMpcBzl9hl8Z2rf0uHrvCbYm8V/ytSIqghhlzrwRkI5AQbgxx7kD8ku9tvHkkcSvz
-4SjSQXJgxsePMbkujc/e0+0nYm4sYcJHRFUIIQ515F2ANgVTsVWUGeSJs4k9kE8NYZJEgBEDtrmr
-yhp8mbUIWl5Z6ousa3O1WIlI6LaCrX1EPgliTk39y8iqDFJC4cKCv2tIiUqweOyfqS0C7I5Ajezq
-qLbdH7DNZts56srzqZgDDqiR0fRAwXBOml+hrczzyhOFDqR6H6gFSkbpXPorlrXdZvO12MH5dddu
-7btpOGMdqHIqRgKcw2nYAY2YMzKpIUXAvHnhHUBM0GGKDuyNwYyXJ/aIosLfZGtlpQEL35M8Uoem
-Gh1Xr2sgJJhpqXUfU3tCMcWA7ODt24sEvh64O8HcsS0hXcVUP2fsAz9QEvksPoKrSiKtqZ/CT0+6
-V9WIdd8/13Sbdf1gOg0jVOtMOKbUWuQeEm6s6G5P3Wsj0Zki1Huru+p62d2w+Nx9FozcDj6VBxIt
-+RdUOp+s/noWiZ8WNWNG2bLXdfUd9qHRRqJA/SRZ/CAgMIRaT1kkK5pZ2wsx/KrwECjgdZh07wF6
-L6B4bho0qzDeFKqsFoOxo7UR9l1HnehFK45xmlrdW0OuB8MwLKFY1T4pk51/iCpOibv1VAg8siLK
-34CWkwA0mSi=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute;
+
+class RouterStatusBgpPeerStatus extends \Google\Collection
+{
+  protected $collection_key = 'advertisedRoutes';
+  protected $advertisedRoutesType = Route::class;
+  protected $advertisedRoutesDataType = 'array';
+  public $ipAddress;
+  public $linkedVpnTunnel;
+  public $name;
+  public $numLearnedRoutes;
+  public $peerIpAddress;
+  public $state;
+  public $status;
+  public $uptime;
+  public $uptimeSeconds;
+
+  /**
+   * @param Route[]
+   */
+  public function setAdvertisedRoutes($advertisedRoutes)
+  {
+    $this->advertisedRoutes = $advertisedRoutes;
+  }
+  /**
+   * @return Route[]
+   */
+  public function getAdvertisedRoutes()
+  {
+    return $this->advertisedRoutes;
+  }
+  public function setIpAddress($ipAddress)
+  {
+    $this->ipAddress = $ipAddress;
+  }
+  public function getIpAddress()
+  {
+    return $this->ipAddress;
+  }
+  public function setLinkedVpnTunnel($linkedVpnTunnel)
+  {
+    $this->linkedVpnTunnel = $linkedVpnTunnel;
+  }
+  public function getLinkedVpnTunnel()
+  {
+    return $this->linkedVpnTunnel;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setNumLearnedRoutes($numLearnedRoutes)
+  {
+    $this->numLearnedRoutes = $numLearnedRoutes;
+  }
+  public function getNumLearnedRoutes()
+  {
+    return $this->numLearnedRoutes;
+  }
+  public function setPeerIpAddress($peerIpAddress)
+  {
+    $this->peerIpAddress = $peerIpAddress;
+  }
+  public function getPeerIpAddress()
+  {
+    return $this->peerIpAddress;
+  }
+  public function setState($state)
+  {
+    $this->state = $state;
+  }
+  public function getState()
+  {
+    return $this->state;
+  }
+  public function setStatus($status)
+  {
+    $this->status = $status;
+  }
+  public function getStatus()
+  {
+    return $this->status;
+  }
+  public function setUptime($uptime)
+  {
+    $this->uptime = $uptime;
+  }
+  public function getUptime()
+  {
+    return $this->uptime;
+  }
+  public function setUptimeSeconds($uptimeSeconds)
+  {
+    $this->uptimeSeconds = $uptimeSeconds;
+  }
+  public function getUptimeSeconds()
+  {
+    return $this->uptimeSeconds;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(RouterStatusBgpPeerStatus::class, 'Google_Service_Compute_RouterStatusBgpPeerStatus');

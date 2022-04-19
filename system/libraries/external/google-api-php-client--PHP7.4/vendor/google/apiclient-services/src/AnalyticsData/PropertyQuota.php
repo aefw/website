@@ -1,63 +1,106 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-bPvjEDETpv9WbIi9+6Hln5klzCzx4W==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AnalyticsData;
+
+class PropertyQuota extends \Google\Model
+{
+  protected $concurrentRequestsType = QuotaStatus::class;
+  protected $concurrentRequestsDataType = '';
+  protected $potentiallyThresholdedRequestsPerHourType = QuotaStatus::class;
+  protected $potentiallyThresholdedRequestsPerHourDataType = '';
+  protected $serverErrorsPerProjectPerHourType = QuotaStatus::class;
+  protected $serverErrorsPerProjectPerHourDataType = '';
+  protected $tokensPerDayType = QuotaStatus::class;
+  protected $tokensPerDayDataType = '';
+  protected $tokensPerHourType = QuotaStatus::class;
+  protected $tokensPerHourDataType = '';
+
+  /**
+   * @param QuotaStatus
+   */
+  public function setConcurrentRequests(QuotaStatus $concurrentRequests)
+  {
+    $this->concurrentRequests = $concurrentRequests;
+  }
+  /**
+   * @return QuotaStatus
+   */
+  public function getConcurrentRequests()
+  {
+    return $this->concurrentRequests;
+  }
+  /**
+   * @param QuotaStatus
+   */
+  public function setPotentiallyThresholdedRequestsPerHour(QuotaStatus $potentiallyThresholdedRequestsPerHour)
+  {
+    $this->potentiallyThresholdedRequestsPerHour = $potentiallyThresholdedRequestsPerHour;
+  }
+  /**
+   * @return QuotaStatus
+   */
+  public function getPotentiallyThresholdedRequestsPerHour()
+  {
+    return $this->potentiallyThresholdedRequestsPerHour;
+  }
+  /**
+   * @param QuotaStatus
+   */
+  public function setServerErrorsPerProjectPerHour(QuotaStatus $serverErrorsPerProjectPerHour)
+  {
+    $this->serverErrorsPerProjectPerHour = $serverErrorsPerProjectPerHour;
+  }
+  /**
+   * @return QuotaStatus
+   */
+  public function getServerErrorsPerProjectPerHour()
+  {
+    return $this->serverErrorsPerProjectPerHour;
+  }
+  /**
+   * @param QuotaStatus
+   */
+  public function setTokensPerDay(QuotaStatus $tokensPerDay)
+  {
+    $this->tokensPerDay = $tokensPerDay;
+  }
+  /**
+   * @return QuotaStatus
+   */
+  public function getTokensPerDay()
+  {
+    return $this->tokensPerDay;
+  }
+  /**
+   * @param QuotaStatus
+   */
+  public function setTokensPerHour(QuotaStatus $tokensPerHour)
+  {
+    $this->tokensPerHour = $tokensPerHour;
+  }
+  /**
+   * @return QuotaStatus
+   */
+  public function getTokensPerHour()
+  {
+    return $this->tokensPerHour;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PropertyQuota::class, 'Google_Service_AnalyticsData_PropertyQuota');

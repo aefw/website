@@ -1,80 +1,151 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-/0==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Vault;
+
+class Export extends \Google\Model
+{
+  protected $cloudStorageSinkType = CloudStorageSink::class;
+  protected $cloudStorageSinkDataType = '';
+  public $createTime;
+  protected $exportOptionsType = ExportOptions::class;
+  protected $exportOptionsDataType = '';
+  public $id;
+  public $matterId;
+  public $name;
+  protected $queryType = Query::class;
+  protected $queryDataType = '';
+  protected $requesterType = UserInfo::class;
+  protected $requesterDataType = '';
+  protected $statsType = ExportStats::class;
+  protected $statsDataType = '';
+  public $status;
+
+  /**
+   * @param CloudStorageSink
+   */
+  public function setCloudStorageSink(CloudStorageSink $cloudStorageSink)
+  {
+    $this->cloudStorageSink = $cloudStorageSink;
+  }
+  /**
+   * @return CloudStorageSink
+   */
+  public function getCloudStorageSink()
+  {
+    return $this->cloudStorageSink;
+  }
+  public function setCreateTime($createTime)
+  {
+    $this->createTime = $createTime;
+  }
+  public function getCreateTime()
+  {
+    return $this->createTime;
+  }
+  /**
+   * @param ExportOptions
+   */
+  public function setExportOptions(ExportOptions $exportOptions)
+  {
+    $this->exportOptions = $exportOptions;
+  }
+  /**
+   * @return ExportOptions
+   */
+  public function getExportOptions()
+  {
+    return $this->exportOptions;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setMatterId($matterId)
+  {
+    $this->matterId = $matterId;
+  }
+  public function getMatterId()
+  {
+    return $this->matterId;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  /**
+   * @param Query
+   */
+  public function setQuery(Query $query)
+  {
+    $this->query = $query;
+  }
+  /**
+   * @return Query
+   */
+  public function getQuery()
+  {
+    return $this->query;
+  }
+  /**
+   * @param UserInfo
+   */
+  public function setRequester(UserInfo $requester)
+  {
+    $this->requester = $requester;
+  }
+  /**
+   * @return UserInfo
+   */
+  public function getRequester()
+  {
+    return $this->requester;
+  }
+  /**
+   * @param ExportStats
+   */
+  public function setStats(ExportStats $stats)
+  {
+    $this->stats = $stats;
+  }
+  /**
+   * @return ExportStats
+   */
+  public function getStats()
+  {
+    return $this->stats;
+  }
+  public function setStatus($status)
+  {
+    $this->status = $status;
+  }
+  public function getStatus()
+  {
+    return $this->status;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Export::class, 'Google_Service_Vault_Export');

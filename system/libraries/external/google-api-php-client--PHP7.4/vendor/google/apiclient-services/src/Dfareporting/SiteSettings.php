@@ -1,63 +1,87 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dfareporting;
+
+class SiteSettings extends \Google\Model
+{
+  public $activeViewOptOut;
+  public $adBlockingOptOut;
+  public $disableNewCookie;
+  protected $tagSettingType = TagSetting::class;
+  protected $tagSettingDataType = '';
+  public $videoActiveViewOptOutTemplate;
+  public $vpaidAdapterChoiceTemplate;
+
+  public function setActiveViewOptOut($activeViewOptOut)
+  {
+    $this->activeViewOptOut = $activeViewOptOut;
+  }
+  public function getActiveViewOptOut()
+  {
+    return $this->activeViewOptOut;
+  }
+  public function setAdBlockingOptOut($adBlockingOptOut)
+  {
+    $this->adBlockingOptOut = $adBlockingOptOut;
+  }
+  public function getAdBlockingOptOut()
+  {
+    return $this->adBlockingOptOut;
+  }
+  public function setDisableNewCookie($disableNewCookie)
+  {
+    $this->disableNewCookie = $disableNewCookie;
+  }
+  public function getDisableNewCookie()
+  {
+    return $this->disableNewCookie;
+  }
+  /**
+   * @param TagSetting
+   */
+  public function setTagSetting(TagSetting $tagSetting)
+  {
+    $this->tagSetting = $tagSetting;
+  }
+  /**
+   * @return TagSetting
+   */
+  public function getTagSetting()
+  {
+    return $this->tagSetting;
+  }
+  public function setVideoActiveViewOptOutTemplate($videoActiveViewOptOutTemplate)
+  {
+    $this->videoActiveViewOptOutTemplate = $videoActiveViewOptOutTemplate;
+  }
+  public function getVideoActiveViewOptOutTemplate()
+  {
+    return $this->videoActiveViewOptOutTemplate;
+  }
+  public function setVpaidAdapterChoiceTemplate($vpaidAdapterChoiceTemplate)
+  {
+    $this->vpaidAdapterChoiceTemplate = $vpaidAdapterChoiceTemplate;
+  }
+  public function getVpaidAdapterChoiceTemplate()
+  {
+    return $this->vpaidAdapterChoiceTemplate;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(SiteSettings::class, 'Google_Service_Dfareporting_SiteSettings');

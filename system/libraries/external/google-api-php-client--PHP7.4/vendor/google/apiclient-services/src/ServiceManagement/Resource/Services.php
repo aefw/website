@@ -1,89 +1,236 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ServiceManagement\Resource;
+
+use Google\Service\ServiceManagement\GenerateConfigReportRequest;
+use Google\Service\ServiceManagement\GenerateConfigReportResponse;
+use Google\Service\ServiceManagement\GetIamPolicyRequest;
+use Google\Service\ServiceManagement\ListServicesResponse;
+use Google\Service\ServiceManagement\ManagedService;
+use Google\Service\ServiceManagement\Operation;
+use Google\Service\ServiceManagement\Policy;
+use Google\Service\ServiceManagement\Service;
+use Google\Service\ServiceManagement\SetIamPolicyRequest;
+use Google\Service\ServiceManagement\TestIamPermissionsRequest;
+use Google\Service\ServiceManagement\TestIamPermissionsResponse;
+
+/**
+ * The "services" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $servicemanagementService = new Google\Service\ServiceManagement(...);
+ *   $services = $servicemanagementService->services;
+ *  </code>
+ */
+class Services extends \Google\Service\Resource
+{
+  /**
+   * Creates a new managed service. A managed service is immutable, and is subject
+   * to mandatory 30-day data retention. You cannot move a service or recreate it
+   * within 30 days after deletion. One producer project can own no more than 500
+   * services. For security and reliability purposes, a production service should
+   * be hosted in a dedicated producer project. Operation (services.create)
+   *
+   * @param ManagedService $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function create(ManagedService $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Operation::class);
+  }
+  /**
+   * Deletes a managed service. This method will change the service to the `Soft-
+   * Delete` state for 30 days. Within this period, service producers may call
+   * UndeleteService to restore the service. After 30 days, the service will be
+   * permanently deleted. Operation (services.delete)
+   *
+   * @param string $serviceName Required. The name of the service. See the
+   * [overview](/service-management/overview) for naming requirements. For
+   * example: `example.googleapis.com`.
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function delete($serviceName, $optParams = [])
+  {
+    $params = ['serviceName' => $serviceName];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Generates and returns a report (errors, warnings and changes from existing
+   * configurations) associated with GenerateConfigReportRequest.new_value If
+   * GenerateConfigReportRequest.old_value is specified,
+   * GenerateConfigReportRequest will contain a single ChangeReport based on the
+   * comparison between GenerateConfigReportRequest.new_value and
+   * GenerateConfigReportRequest.old_value. If
+   * GenerateConfigReportRequest.old_value is not specified, this method will
+   * compare GenerateConfigReportRequest.new_value with the last pushed service
+   * configuration. (services.generateConfigReport)
+   *
+   * @param GenerateConfigReportRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GenerateConfigReportResponse
+   */
+  public function generateConfigReport(GenerateConfigReportRequest $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('generateConfigReport', [$params], GenerateConfigReportResponse::class);
+  }
+  /**
+   * Gets a managed service. Authentication is required unless the service is
+   * public. (services.get)
+   *
+   * @param string $serviceName Required. The name of the service. See the
+   * `ServiceManager` overview for naming requirements. For example:
+   * `example.googleapis.com`.
+   * @param array $optParams Optional parameters.
+   * @return ManagedService
+   */
+  public function get($serviceName, $optParams = [])
+  {
+    $params = ['serviceName' => $serviceName];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], ManagedService::class);
+  }
+  /**
+   * Gets a service configuration (version) for a managed service.
+   * (services.getConfig)
+   *
+   * @param string $serviceName Required. The name of the service. See the
+   * [overview](/service-management/overview) for naming requirements. For
+   * example: `example.googleapis.com`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string configId Required. The id of the service configuration
+   * resource. This field must be specified for the server to return all fields,
+   * including `SourceInfo`.
+   * @opt_param string view Specifies which parts of the Service Config should be
+   * returned in the response.
+   * @return Service
+   */
+  public function getConfig($serviceName, $optParams = [])
+  {
+    $params = ['serviceName' => $serviceName];
+    $params = array_merge($params, $optParams);
+    return $this->call('getConfig', [$params], Service::class);
+  }
+  /**
+   * Gets the access control policy for a resource. Returns an empty policy if the
+   * resource exists and does not have a policy set. (services.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param GetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function getIamPolicy($resource, GetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Lists managed services. Returns all public services. For authenticated users,
+   * also returns all services the calling user has
+   * "servicemanagement.services.get" permission for. (services.listServices)
+   *
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string consumerId Include services consumed by the specified
+   * consumer. The Google Service Management implementation accepts the following
+   * forms: - project:
+   * @opt_param int pageSize The max number of items to include in the response
+   * list. Page size is 50 if not specified. Maximum value is 100.
+   * @opt_param string pageToken Token identifying which result to start with;
+   * returned by a previous list call.
+   * @opt_param string producerProjectId Include services produced by the
+   * specified project.
+   * @return ListServicesResponse
+   */
+  public function listServices($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListServicesResponse::class);
+  }
+  /**
+   * Sets the access control policy on the specified resource. Replaces any
+   * existing policy. Can return `NOT_FOUND`, `INVALID_ARGUMENT`, and
+   * `PERMISSION_DENIED` errors. (services.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource. If the
+   * resource does not exist, this will return an empty set of permissions, not a
+   * `NOT_FOUND` error. Note: This operation is designed to be used for building
+   * permission-aware UIs and command-line tools, not for authorization checking.
+   * This operation may "fail open" without warning. (services.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+  /**
+   * Revives a previously deleted managed service. The method restores the service
+   * using the configuration at the time the service was deleted. The target
+   * service must exist and must have been deleted within the last 30 days.
+   * Operation (services.undelete)
+   *
+   * @param string $serviceName Required. The name of the service. See the
+   * [overview](/service-management/overview) for naming requirements. For
+   * example: `example.googleapis.com`.
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function undelete($serviceName, $optParams = [])
+  {
+    $params = ['serviceName' => $serviceName];
+    $params = array_merge($params, $optParams);
+    return $this->call('undelete', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Services::class, 'Google_Service_ServiceManagement_Resource_Services');

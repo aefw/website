@@ -1,67 +1,80 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\GoogleAnalyticsAdmin;
+
+class GoogleAnalyticsAdminV1alphaDataSharingSettings extends \Google\Model
+{
+  public $name;
+  public $sharingWithGoogleAnySalesEnabled;
+  public $sharingWithGoogleAssignedSalesEnabled;
+  public $sharingWithGoogleProductsEnabled;
+  public $sharingWithGoogleSupportEnabled;
+  public $sharingWithOthersEnabled;
+
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setSharingWithGoogleAnySalesEnabled($sharingWithGoogleAnySalesEnabled)
+  {
+    $this->sharingWithGoogleAnySalesEnabled = $sharingWithGoogleAnySalesEnabled;
+  }
+  public function getSharingWithGoogleAnySalesEnabled()
+  {
+    return $this->sharingWithGoogleAnySalesEnabled;
+  }
+  public function setSharingWithGoogleAssignedSalesEnabled($sharingWithGoogleAssignedSalesEnabled)
+  {
+    $this->sharingWithGoogleAssignedSalesEnabled = $sharingWithGoogleAssignedSalesEnabled;
+  }
+  public function getSharingWithGoogleAssignedSalesEnabled()
+  {
+    return $this->sharingWithGoogleAssignedSalesEnabled;
+  }
+  public function setSharingWithGoogleProductsEnabled($sharingWithGoogleProductsEnabled)
+  {
+    $this->sharingWithGoogleProductsEnabled = $sharingWithGoogleProductsEnabled;
+  }
+  public function getSharingWithGoogleProductsEnabled()
+  {
+    return $this->sharingWithGoogleProductsEnabled;
+  }
+  public function setSharingWithGoogleSupportEnabled($sharingWithGoogleSupportEnabled)
+  {
+    $this->sharingWithGoogleSupportEnabled = $sharingWithGoogleSupportEnabled;
+  }
+  public function getSharingWithGoogleSupportEnabled()
+  {
+    return $this->sharingWithGoogleSupportEnabled;
+  }
+  public function setSharingWithOthersEnabled($sharingWithOthersEnabled)
+  {
+    $this->sharingWithOthersEnabled = $sharingWithOthersEnabled;
+  }
+  public function getSharingWithOthersEnabled()
+  {
+    return $this->sharingWithOthersEnabled;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleAnalyticsAdminV1alphaDataSharingSettings::class, 'Google_Service_GoogleAnalyticsAdmin_GoogleAnalyticsAdminV1alphaDataSharingSettings');

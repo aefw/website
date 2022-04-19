@@ -1,65 +1,97 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-vMhfxh2sWEfdJW==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Apigee\Resource;
+
+use Google\Service\Apigee\GoogleCloudApigeeV1Reference;
+
+/**
+ * The "references" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $apigeeService = new Google\Service\Apigee(...);
+ *   $references = $apigeeService->references;
+ *  </code>
+ */
+class OrganizationsEnvironmentsReferences extends \Google\Service\Resource
+{
+  /**
+   * Creates a Reference in the specified environment. (references.create)
+   *
+   * @param string $parent Required. The parent environment name under which the
+   * Reference will be created. Must be of the form
+   * `organizations/{org}/environments/{env}`.
+   * @param GoogleCloudApigeeV1Reference $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1Reference
+   */
+  public function create($parent, GoogleCloudApigeeV1Reference $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleCloudApigeeV1Reference::class);
+  }
+  /**
+   * Deletes a Reference from an environment. Returns the deleted Reference
+   * resource. (references.delete)
+   *
+   * @param string $name Required. The name of the Reference to delete. Must be of
+   * the form `organizations/{org}/environments/{env}/references/{ref}`.
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1Reference
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleCloudApigeeV1Reference::class);
+  }
+  /**
+   * Gets a Reference resource. (references.get)
+   *
+   * @param string $name Required. The name of the Reference to get. Must be of
+   * the form `organizations/{org}/environments/{env}/references/{ref}`.
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1Reference
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudApigeeV1Reference::class);
+  }
+  /**
+   * Updates an existing Reference. Note that this operation has PUT semantics; it
+   * will replace the entirety of the existing Reference with the resource in the
+   * request body. (references.update)
+   *
+   * @param string $name Required. The name of the Reference to update. Must be of
+   * the form `organizations/{org}/environments/{env}/references/{ref}`.
+   * @param GoogleCloudApigeeV1Reference $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1Reference
+   */
+  public function update($name, GoogleCloudApigeeV1Reference $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], GoogleCloudApigeeV1Reference::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(OrganizationsEnvironmentsReferences::class, 'Google_Service_Apigee_Resource_OrganizationsEnvironmentsReferences');

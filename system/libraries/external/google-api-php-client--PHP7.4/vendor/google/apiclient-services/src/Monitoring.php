@@ -1,119 +1,1107 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-kxUvtYQeTFgCoW==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for Monitoring (v3).
+ *
+ * <p>
+ * Manages your Cloud Monitoring data and configurations. Most projects must be
+ * associated with a Workspace, with a few exceptions as noted on the individual
+ * method pages. The table entries below are presented in alphabetical order,
+ * not in order of common use. For explanations of the concepts found in the
+ * table entries, read the Cloud Monitoring documentation.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/monitoring/api/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class Monitoring extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+  /** View and write monitoring data for all of your Google and third-party Cloud and API projects. */
+  const MONITORING =
+      "https://www.googleapis.com/auth/monitoring";
+  /** View monitoring data for all of your Google Cloud and third-party projects. */
+  const MONITORING_READ =
+      "https://www.googleapis.com/auth/monitoring.read";
+  /** Publish metric data to your Google Cloud projects. */
+  const MONITORING_WRITE =
+      "https://www.googleapis.com/auth/monitoring.write";
+
+  public $folders_timeSeries;
+  public $organizations_timeSeries;
+  public $projects_alertPolicies;
+  public $projects_collectdTimeSeries;
+  public $projects_groups;
+  public $projects_groups_members;
+  public $projects_metricDescriptors;
+  public $projects_monitoredResourceDescriptors;
+  public $projects_notificationChannelDescriptors;
+  public $projects_notificationChannels;
+  public $projects_timeSeries;
+  public $projects_uptimeCheckConfigs;
+  public $services;
+  public $services_serviceLevelObjectives;
+  public $uptimeCheckIps;
+
+  /**
+   * Constructs the internal representation of the Monitoring service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://monitoring.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v3';
+    $this->serviceName = 'monitoring';
+
+    $this->folders_timeSeries = new Monitoring\Resource\FoldersTimeSeries(
+        $this,
+        $this->serviceName,
+        'timeSeries',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v3/{+name}/timeSeries',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'aggregation.alignmentPeriod' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'aggregation.crossSeriesReducer' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'aggregation.groupByFields' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'aggregation.perSeriesAligner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'interval.endTime' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'interval.startTime' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'secondaryAggregation.alignmentPeriod' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'secondaryAggregation.crossSeriesReducer' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'secondaryAggregation.groupByFields' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'secondaryAggregation.perSeriesAligner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_timeSeries = new Monitoring\Resource\OrganizationsTimeSeries(
+        $this,
+        $this->serviceName,
+        'timeSeries',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v3/{+name}/timeSeries',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'aggregation.alignmentPeriod' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'aggregation.crossSeriesReducer' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'aggregation.groupByFields' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'aggregation.perSeriesAligner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'interval.endTime' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'interval.startTime' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'secondaryAggregation.alignmentPeriod' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'secondaryAggregation.crossSeriesReducer' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'secondaryAggregation.groupByFields' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'secondaryAggregation.perSeriesAligner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_alertPolicies = new Monitoring\Resource\ProjectsAlertPolicies(
+        $this,
+        $this->serviceName,
+        'alertPolicies',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v3/{+name}/alertPolicies',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v3/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v3/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v3/{+name}/alertPolicies',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v3/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_collectdTimeSeries = new Monitoring\Resource\ProjectsCollectdTimeSeries(
+        $this,
+        $this->serviceName,
+        'collectdTimeSeries',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v3/{+name}/collectdTimeSeries',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_groups = new Monitoring\Resource\ProjectsGroups(
+        $this,
+        $this->serviceName,
+        'groups',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v3/{+name}/groups',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'validateOnly' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v3/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'recursive' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v3/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v3/{+name}/groups',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'ancestorsOfGroup' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'childrenOfGroup' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'descendantsOfGroup' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'v3/{+name}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'validateOnly' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_groups_members = new Monitoring\Resource\ProjectsGroupsMembers(
+        $this,
+        $this->serviceName,
+        'members',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v3/{+name}/members',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'interval.endTime' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'interval.startTime' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_metricDescriptors = new Monitoring\Resource\ProjectsMetricDescriptors(
+        $this,
+        $this->serviceName,
+        'metricDescriptors',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v3/{+name}/metricDescriptors',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v3/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v3/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v3/{+name}/metricDescriptors',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_monitoredResourceDescriptors = new Monitoring\Resource\ProjectsMonitoredResourceDescriptors(
+        $this,
+        $this->serviceName,
+        'monitoredResourceDescriptors',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v3/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v3/{+name}/monitoredResourceDescriptors',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_notificationChannelDescriptors = new Monitoring\Resource\ProjectsNotificationChannelDescriptors(
+        $this,
+        $this->serviceName,
+        'notificationChannelDescriptors',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v3/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v3/{+name}/notificationChannelDescriptors',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_notificationChannels = new Monitoring\Resource\ProjectsNotificationChannels(
+        $this,
+        $this->serviceName,
+        'notificationChannels',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v3/{+name}/notificationChannels',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v3/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'force' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v3/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getVerificationCode' => [
+              'path' => 'v3/{+name}:getVerificationCode',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v3/{+name}/notificationChannels',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v3/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'sendVerificationCode' => [
+              'path' => 'v3/{+name}:sendVerificationCode',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'verify' => [
+              'path' => 'v3/{+name}:verify',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_timeSeries = new Monitoring\Resource\ProjectsTimeSeries(
+        $this,
+        $this->serviceName,
+        'timeSeries',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v3/{+name}/timeSeries',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v3/{+name}/timeSeries',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'aggregation.alignmentPeriod' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'aggregation.crossSeriesReducer' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'aggregation.groupByFields' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'aggregation.perSeriesAligner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'interval.endTime' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'interval.startTime' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'secondaryAggregation.alignmentPeriod' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'secondaryAggregation.crossSeriesReducer' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'secondaryAggregation.groupByFields' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'secondaryAggregation.perSeriesAligner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'query' => [
+              'path' => 'v3/{+name}/timeSeries:query',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_uptimeCheckConfigs = new Monitoring\Resource\ProjectsUptimeCheckConfigs(
+        $this,
+        $this->serviceName,
+        'uptimeCheckConfigs',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v3/{+parent}/uptimeCheckConfigs',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v3/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v3/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v3/{+parent}/uptimeCheckConfigs',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v3/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->services = new Monitoring\Resource\Services(
+        $this,
+        $this->serviceName,
+        'services',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v3/{+parent}/services',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'serviceId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v3/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v3/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v3/{+parent}/services',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v3/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->services_serviceLevelObjectives = new Monitoring\Resource\ServicesServiceLevelObjectives(
+        $this,
+        $this->serviceName,
+        'serviceLevelObjectives',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v3/{+parent}/serviceLevelObjectives',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'serviceLevelObjectiveId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v3/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v3/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v3/{+parent}/serviceLevelObjectives',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v3/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->uptimeCheckIps = new Monitoring\Resource\UptimeCheckIps(
+        $this,
+        $this->serviceName,
+        'uptimeCheckIps',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v3/uptimeCheckIps',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Monitoring::class, 'Google_Service_Monitoring');

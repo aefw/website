@@ -1,72 +1,27 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/**
+ * Arabic PHPMailer language file: refer to English translation for definitive list
+ * @package PHPMailer
+ * @author bahjat al mostafa <bahjat983@hotmail.com>
+ */
+
+$PHPMAILER_LANG['authenticate']         = 'خطأ SMTP : لا يمكن تأكيد الهوية.';
+$PHPMAILER_LANG['connect_host']         = 'خطأ SMTP: لا يمكن الاتصال بالخادم SMTP.';
+$PHPMAILER_LANG['data_not_accepted']    = 'خطأ SMTP: لم يتم قبول المعلومات .';
+$PHPMAILER_LANG['empty_message']        = 'نص الرسالة فارغ';
+$PHPMAILER_LANG['encoding']             = 'ترميز غير معروف: ';
+$PHPMAILER_LANG['execute']              = 'لا يمكن تنفيذ : ';
+$PHPMAILER_LANG['file_access']          = 'لا يمكن الوصول للملف: ';
+$PHPMAILER_LANG['file_open']            = 'خطأ في الملف: لا يمكن فتحه: ';
+$PHPMAILER_LANG['from_failed']          = 'خطأ على مستوى عنوان المرسل : ';
+$PHPMAILER_LANG['instantiate']          = 'لا يمكن توفير خدمة البريد.';
+$PHPMAILER_LANG['invalid_address']      = 'الإرسال غير ممكن لأن عنوان البريد الإلكتروني غير صالح: ';
+$PHPMAILER_LANG['mailer_not_supported'] = ' برنامج الإرسال غير مدعوم.';
+$PHPMAILER_LANG['provide_address']      = 'يجب توفير عنوان البريد الإلكتروني لمستلم واحد على الأقل.';
+$PHPMAILER_LANG['recipients_failed']    = 'خطأ SMTP: الأخطاء التالية ' .
+                                          'فشل في الارسال لكل من : ';
+$PHPMAILER_LANG['signing']              = 'خطأ في التوقيع: ';
+$PHPMAILER_LANG['smtp_connect_failed']  = 'SMTP Connect() غير ممكن.';
+$PHPMAILER_LANG['smtp_error']           = 'خطأ على مستوى الخادم SMTP: ';
+$PHPMAILER_LANG['variable_set']         = 'لا يمكن تعيين أو إعادة تعيين متغير: ';
+$PHPMAILER_LANG['extension_missing']    = 'الإضافة غير موجودة: ';

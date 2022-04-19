@@ -1,63 +1,221 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for ApiKeysService (v2).
+ *
+ * <p>
+ * Manages the API keys associated with developer projects.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/api-keys/docs" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class ApiKeysService extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+  /** View your data across Google Cloud Platform services. */
+  const CLOUD_PLATFORM_READ_ONLY =
+      "https://www.googleapis.com/auth/cloud-platform.read-only";
+
+  public $keys;
+  public $operations;
+  public $projects_locations_keys;
+
+  /**
+   * Constructs the internal representation of the ApiKeysService service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://apikeys.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v2';
+    $this->serviceName = 'apikeys';
+
+    $this->keys = new ApiKeysService\Resource\Keys(
+        $this,
+        $this->serviceName,
+        'keys',
+        [
+          'methods' => [
+            'lookupKey' => [
+              'path' => 'v2/keys:lookupKey',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'keyString' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->operations = new ApiKeysService\Resource\Operations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_keys = new ApiKeysService\Resource\ProjectsLocationsKeys(
+        $this,
+        $this->serviceName,
+        'keys',
+        [
+          'methods' => [
+            'clone' => [
+              'path' => 'v2/{+name}:clone',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v2/{+parent}/keys',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'keyId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'etag' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getKeyString' => [
+              'path' => 'v2/{+name}/keyString',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v2/{+parent}/keys',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'undelete' => [
+              'path' => 'v2/{+name}:undelete',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ApiKeysService::class, 'Google_Service_ApiKeysService');

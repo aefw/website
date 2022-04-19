@@ -1,71 +1,107 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php declare(strict_types=1);
+
+/*
+ * This file is part of the Monolog package.
+ *
+ * (c) Jordi Boggiano <j.boggiano@seld.be>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Monolog\Formatter;
+
+/**
+ * formats the record to be used in the FlowdockHandler
+ *
+ * @author Dominik Liebler <liebler.dominik@gmail.com>
+ */
+class FlowdockFormatter implements FormatterInterface
+{
+    /**
+     * @var string
+     */
+    private $source;
+
+    /**
+     * @var string
+     */
+    private $sourceEmail;
+
+    public function __construct(string $source, string $sourceEmail)
+    {
+        $this->source = $source;
+        $this->sourceEmail = $sourceEmail;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function format(array $record): array
+    {
+        $tags = [
+            '#logs',
+            '#' . strtolower($record['level_name']),
+            '#' . $record['channel'],
+        ];
+
+        foreach ($record['extra'] as $value) {
+            $tags[] = '#' . $value;
+        }
+
+        $subject = sprintf(
+            'in %s: %s - %s',
+            $this->source,
+            $record['level_name'],
+            $this->getShortMessage($record['message'])
+        );
+
+        $record['flowdock'] = [
+            'source' => $this->source,
+            'from_address' => $this->sourceEmail,
+            'subject' => $subject,
+            'content' => $record['message'],
+            'tags' => $tags,
+            'project' => $this->source,
+        ];
+
+        return $record;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function formatBatch(array $records): array
+    {
+        $formatted = [];
+
+        foreach ($records as $record) {
+            $formatted[] = $this->format($record);
+        }
+
+        return $formatted;
+    }
+
+    public function getShortMessage(string $message): string
+    {
+        static $hasMbString;
+
+        if (null === $hasMbString) {
+            $hasMbString = function_exists('mb_strlen');
+        }
+
+        $maxLength = 45;
+
+        if ($hasMbString) {
+            if (mb_strlen($message, 'UTF-8') > $maxLength) {
+                $message = mb_substr($message, 0, $maxLength - 4, 'UTF-8') . ' ...';
+            }
+        } else {
+            if (strlen($message) > $maxLength) {
+                $message = substr($message, 0, $maxLength - 4) . ' ...';
+            }
+        }
+
+        return $message;
+    }
+}

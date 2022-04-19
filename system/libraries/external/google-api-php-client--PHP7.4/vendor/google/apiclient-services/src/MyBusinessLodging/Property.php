@@ -1,70 +1,98 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\MyBusinessLodging;
+
+class Property extends \Google\Model
+{
+  public $builtYear;
+  public $builtYearException;
+  public $floorsCount;
+  public $floorsCountException;
+  public $lastRenovatedYear;
+  public $lastRenovatedYearException;
+  public $roomsCount;
+  public $roomsCountException;
+
+  public function setBuiltYear($builtYear)
+  {
+    $this->builtYear = $builtYear;
+  }
+  public function getBuiltYear()
+  {
+    return $this->builtYear;
+  }
+  public function setBuiltYearException($builtYearException)
+  {
+    $this->builtYearException = $builtYearException;
+  }
+  public function getBuiltYearException()
+  {
+    return $this->builtYearException;
+  }
+  public function setFloorsCount($floorsCount)
+  {
+    $this->floorsCount = $floorsCount;
+  }
+  public function getFloorsCount()
+  {
+    return $this->floorsCount;
+  }
+  public function setFloorsCountException($floorsCountException)
+  {
+    $this->floorsCountException = $floorsCountException;
+  }
+  public function getFloorsCountException()
+  {
+    return $this->floorsCountException;
+  }
+  public function setLastRenovatedYear($lastRenovatedYear)
+  {
+    $this->lastRenovatedYear = $lastRenovatedYear;
+  }
+  public function getLastRenovatedYear()
+  {
+    return $this->lastRenovatedYear;
+  }
+  public function setLastRenovatedYearException($lastRenovatedYearException)
+  {
+    $this->lastRenovatedYearException = $lastRenovatedYearException;
+  }
+  public function getLastRenovatedYearException()
+  {
+    return $this->lastRenovatedYearException;
+  }
+  public function setRoomsCount($roomsCount)
+  {
+    $this->roomsCount = $roomsCount;
+  }
+  public function getRoomsCount()
+  {
+    return $this->roomsCount;
+  }
+  public function setRoomsCountException($roomsCountException)
+  {
+    $this->roomsCountException = $roomsCountException;
+  }
+  public function getRoomsCountException()
+  {
+    return $this->roomsCountException;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Property::class, 'Google_Service_MyBusinessLodging_Property');

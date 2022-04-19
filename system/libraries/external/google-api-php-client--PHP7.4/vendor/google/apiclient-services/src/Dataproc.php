@@ -1,91 +1,1052 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-914L3+HC2gvjZhhmSbR4vHGn1QPYqCgn
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for Dataproc (v1).
+ *
+ * <p>
+ * Manages Hadoop-based clusters and jobs on Google Cloud Platform.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/dataproc/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class Dataproc extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+
+  public $projects_locations_autoscalingPolicies;
+  public $projects_locations_workflowTemplates;
+  public $projects_regions_autoscalingPolicies;
+  public $projects_regions_clusters;
+  public $projects_regions_jobs;
+  public $projects_regions_operations;
+  public $projects_regions_workflowTemplates;
+
+  /**
+   * Constructs the internal representation of the Dataproc service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://dataproc.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'dataproc';
+
+    $this->projects_locations_autoscalingPolicies = new Dataproc\Resource\ProjectsLocationsAutoscalingPolicies(
+        $this,
+        $this->serviceName,
+        'autoscalingPolicies',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/autoscalingPolicies',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1/{+resource}:getIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/autoscalingPolicies',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_workflowTemplates = new Dataproc\Resource\ProjectsLocationsWorkflowTemplates(
+        $this,
+        $this->serviceName,
+        'workflowTemplates',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/workflowTemplates',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'version' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'version' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1/{+resource}:getIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'instantiate' => [
+              'path' => 'v1/{+name}:instantiate',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'instantiateInline' => [
+              'path' => 'v1/{+parent}/workflowTemplates:instantiateInline',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'requestId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/workflowTemplates',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_regions_autoscalingPolicies = new Dataproc\Resource\ProjectsRegionsAutoscalingPolicies(
+        $this,
+        $this->serviceName,
+        'autoscalingPolicies',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/autoscalingPolicies',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1/{+resource}:getIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/autoscalingPolicies',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_regions_clusters = new Dataproc\Resource\ProjectsRegionsClusters(
+        $this,
+        $this->serviceName,
+        'clusters',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/projects/{projectId}/regions/{region}/clusters',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'region' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'requestId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/projects/{projectId}/regions/{region}/clusters/{clusterName}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'region' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'clusterName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'clusterUuid' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'requestId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'diagnose' => [
+              'path' => 'v1/projects/{projectId}/regions/{region}/clusters/{clusterName}:diagnose',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'region' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'clusterName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/projects/{projectId}/regions/{region}/clusters/{clusterName}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'region' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'clusterName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1/{+resource}:getIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'injectCredentials' => [
+              'path' => 'v1/{+project}/{+region}/{+cluster}:injectCredentials',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'region' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'cluster' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/projects/{projectId}/regions/{region}/clusters',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'region' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/projects/{projectId}/regions/{region}/clusters/{clusterName}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'region' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'clusterName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'gracefulDecommissionTimeout' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'requestId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'start' => [
+              'path' => 'v1/projects/{projectId}/regions/{region}/clusters/{clusterName}:start',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'region' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'clusterName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'stop' => [
+              'path' => 'v1/projects/{projectId}/regions/{region}/clusters/{clusterName}:stop',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'region' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'clusterName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_regions_jobs = new Dataproc\Resource\ProjectsRegionsJobs(
+        $this,
+        $this->serviceName,
+        'jobs',
+        [
+          'methods' => [
+            'cancel' => [
+              'path' => 'v1/projects/{projectId}/regions/{region}/jobs/{jobId}:cancel',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'region' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'jobId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/projects/{projectId}/regions/{region}/jobs/{jobId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'region' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'jobId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/projects/{projectId}/regions/{region}/jobs/{jobId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'region' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'jobId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1/{+resource}:getIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/projects/{projectId}/regions/{region}/jobs',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'region' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'clusterName' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'jobStateMatcher' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/projects/{projectId}/regions/{region}/jobs/{jobId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'region' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'jobId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'submit' => [
+              'path' => 'v1/projects/{projectId}/regions/{region}/jobs:submit',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'region' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'submitAsOperation' => [
+              'path' => 'v1/projects/{projectId}/regions/{region}/jobs:submitAsOperation',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'region' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_regions_operations = new Dataproc\Resource\ProjectsRegionsOperations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'cancel' => [
+              'path' => 'v1/{+name}:cancel',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1/{+resource}:getIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_regions_workflowTemplates = new Dataproc\Resource\ProjectsRegionsWorkflowTemplates(
+        $this,
+        $this->serviceName,
+        'workflowTemplates',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/workflowTemplates',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'version' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'version' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1/{+resource}:getIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'instantiate' => [
+              'path' => 'v1/{+name}:instantiate',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'instantiateInline' => [
+              'path' => 'v1/{+parent}/workflowTemplates:instantiateInline',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'requestId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/workflowTemplates',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Dataproc::class, 'Google_Service_Dataproc');

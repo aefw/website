@@ -1,60 +1,172 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-ufQnXtoyjSHujFq=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute\Resource;
+
+use Google\Service\Compute\AcceleratorType;
+use Google\Service\Compute\AcceleratorTypeAggregatedList;
+use Google\Service\Compute\AcceleratorTypeList;
+
+/**
+ * The "acceleratorTypes" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $computeService = new Google\Service\Compute(...);
+ *   $acceleratorTypes = $computeService->acceleratorTypes;
+ *  </code>
+ */
+class AcceleratorTypes extends \Google\Service\Resource
+{
+  /**
+   * Retrieves an aggregated list of accelerator types.
+   * (acceleratorTypes.aggregatedList)
+   *
+   * @param string $project Project ID for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param bool includeAllScopes Indicates whether every visible scope for
+   * each scope type (zone, region, global) should be included in the response.
+   * For new resource types added after this field, the flag has no effect as new
+   * resource types will always include every visible scope for each scope type in
+   * response. For resource types which predate this field, if this flag is
+   * omitted or false, only scopes of the scope types where the resource type is
+   * expected to be found will be included.
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return AcceleratorTypeAggregatedList
+   */
+  public function aggregatedList($project, $optParams = [])
+  {
+    $params = ['project' => $project];
+    $params = array_merge($params, $optParams);
+    return $this->call('aggregatedList', [$params], AcceleratorTypeAggregatedList::class);
+  }
+  /**
+   * Returns the specified accelerator type. (acceleratorTypes.get)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone for this request.
+   * @param string $acceleratorType Name of the accelerator type to return.
+   * @param array $optParams Optional parameters.
+   * @return AcceleratorType
+   */
+  public function get($project, $zone, $acceleratorType, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'acceleratorType' => $acceleratorType];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], AcceleratorType::class);
+  }
+  /**
+   * Retrieves a list of accelerator types that are available to the specified
+   * project. (acceleratorTypes.listAcceleratorTypes)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return AcceleratorTypeList
+   */
+  public function listAcceleratorTypes($project, $zone, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], AcceleratorTypeList::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AcceleratorTypes::class, 'Google_Service_Compute_Resource_AcceleratorTypes');

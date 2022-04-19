@@ -1,67 +1,88 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-xV9W5bA11Vsq8xOY+Ld1IPvZlYCtM70=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AccessContextManager;
+
+class DevicePolicy extends \Google\Collection
+{
+  protected $collection_key = 'osConstraints';
+  public $allowedDeviceManagementLevels;
+  public $allowedEncryptionStatuses;
+  protected $osConstraintsType = OsConstraint::class;
+  protected $osConstraintsDataType = 'array';
+  public $requireAdminApproval;
+  public $requireCorpOwned;
+  public $requireScreenlock;
+
+  public function setAllowedDeviceManagementLevels($allowedDeviceManagementLevels)
+  {
+    $this->allowedDeviceManagementLevels = $allowedDeviceManagementLevels;
+  }
+  public function getAllowedDeviceManagementLevels()
+  {
+    return $this->allowedDeviceManagementLevels;
+  }
+  public function setAllowedEncryptionStatuses($allowedEncryptionStatuses)
+  {
+    $this->allowedEncryptionStatuses = $allowedEncryptionStatuses;
+  }
+  public function getAllowedEncryptionStatuses()
+  {
+    return $this->allowedEncryptionStatuses;
+  }
+  /**
+   * @param OsConstraint[]
+   */
+  public function setOsConstraints($osConstraints)
+  {
+    $this->osConstraints = $osConstraints;
+  }
+  /**
+   * @return OsConstraint[]
+   */
+  public function getOsConstraints()
+  {
+    return $this->osConstraints;
+  }
+  public function setRequireAdminApproval($requireAdminApproval)
+  {
+    $this->requireAdminApproval = $requireAdminApproval;
+  }
+  public function getRequireAdminApproval()
+  {
+    return $this->requireAdminApproval;
+  }
+  public function setRequireCorpOwned($requireCorpOwned)
+  {
+    $this->requireCorpOwned = $requireCorpOwned;
+  }
+  public function getRequireCorpOwned()
+  {
+    return $this->requireCorpOwned;
+  }
+  public function setRequireScreenlock($requireScreenlock)
+  {
+    $this->requireScreenlock = $requireScreenlock;
+  }
+  public function getRequireScreenlock()
+  {
+    return $this->requireScreenlock;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(DevicePolicy::class, 'Google_Service_AccessContextManager_DevicePolicy');

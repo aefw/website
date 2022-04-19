@@ -1,62 +1,86 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\MyBusinessAccountManagement\Resource;
+
+use Google\Service\MyBusinessAccountManagement\AcceptInvitationRequest;
+use Google\Service\MyBusinessAccountManagement\DeclineInvitationRequest;
+use Google\Service\MyBusinessAccountManagement\ListInvitationsResponse;
+use Google\Service\MyBusinessAccountManagement\MybusinessaccountmanagementEmpty;
+
+/**
+ * The "invitations" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $mybusinessaccountmanagementService = new Google\Service\MyBusinessAccountManagement(...);
+ *   $invitations = $mybusinessaccountmanagementService->invitations;
+ *  </code>
+ */
+class AccountsInvitations extends \Google\Service\Resource
+{
+  /**
+   * Accepts the specified invitation. (invitations.accept)
+   *
+   * @param string $name Required. The name of the invitation that is being
+   * accepted. `accounts/{account_id}/invitations/{invitation_id}`
+   * @param AcceptInvitationRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return MybusinessaccountmanagementEmpty
+   */
+  public function accept($name, AcceptInvitationRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('accept', [$params], MybusinessaccountmanagementEmpty::class);
+  }
+  /**
+   * Declines the specified invitation. (invitations.decline)
+   *
+   * @param string $name Required. The name of the account invitation that is
+   * being declined. `accounts/{account_id}/invitations/{invitation_id}`
+   * @param DeclineInvitationRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return MybusinessaccountmanagementEmpty
+   */
+  public function decline($name, DeclineInvitationRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('decline', [$params], MybusinessaccountmanagementEmpty::class);
+  }
+  /**
+   * Lists pending invitations for the specified account.
+   * (invitations.listAccountsInvitations)
+   *
+   * @param string $parent Required. The name of the account from which the list
+   * of invitations is being retrieved. `accounts/{account_id}/invitations`
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Optional. Filtering the response is supported via
+   * the Invitation.target_type field.
+   * @return ListInvitationsResponse
+   */
+  public function listAccountsInvitations($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListInvitationsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AccountsInvitations::class, 'Google_Service_MyBusinessAccountManagement_Resource_AccountsInvitations');

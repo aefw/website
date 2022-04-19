@@ -1,68 +1,134 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPqNB7xm0dkIphGIAd+z+SQyaFW7uY4khLuh873js2V+d9Px+WrIOmlbYO6Yud3CBsHZU2stU
-Z4YcRzpNbXQ+pbv8sxjfvIverm2PM5zQ3pPPFVgBMPA0Ea/9VngcGvMCQjvaE/xG3qsZRMTYnCfz
-psUGxjGn/MS4wTpUbhmHXELUM2aUeGZ58IBugbXkaAIIK0D6nKhFy17lh3bCCg9R39Mec0chQLTJ
-n9GU4DysjDugPY6D+iSCClMnxMSZZdHd+4f1Q3sswMtwaDBHO1BlWmmeR+9mKourL8IeB86cFae5
-vLNXRiJUEreNjGnC9BI8LCQdIVzDmfh3/bZCK25U09jTX2OTzpvQosoDArwcD6UbfKLN2vZ1SAuU
-KxUpAPK5Wva4DsXFRA+IdXfLpXRBZ1glIW7wE99xVMKn2xfAZ53bJStbDboPNl9ttCEaUaqmuuC4
-J1T633rjqcYT+TbUM6/VkAZR3qYTO3J8YQKqxFD+0DMxBG7NPett0tkPVwXg45umKN2eLNfEHdnE
-10BPFXxO9EafxJPshxUEFHN869YT5xXhkwA/LRIeisUM+D2XwHMyAKmqXCUQoseamyPgtxUKTbpe
-RRM/o5cNMqciTBkuoH7LUnrTHJJeQ2HPPNcz6seQ+6wCW/rtz4z8N7oee80Kr7GaBj7bTHWLDw7x
-aylk6a8sNvpW5djeHJ+5eysPS2+sCbTnpX4cBbO8qH8aZpcucsU4cbVGCHet/07DxwvbA8F47xga
-c6Z7YOZhcT7jdB3UC7qsgKaEkmX8PLgx42Pn6JVqezmR+xlvKxF91upNaZX77gG+iVfntY8T7CIC
-59tiI7hO0Tr9RXa8w+tWncevDXooRjA73duCMDop7wqNMYRU/K2MKN1LU+h+MHBtBEcm9y9bqzxi
-6pSDyUTXk4nS9Dvq1UOe8Xv6p+vei7E7UzLrSlLBcfHWMfOfCk/W4jYn9WucJjZCRfs/OF6kbAwF
-/WSVckXch1rXLhZoGZdV08OsoScNTXvs1f/0sjAf2RKuW2yVghSHGWjbkC1tvflICynT0iC8u4SW
-Dgm6Ds0pj9LSbOENbVadNZkFbLAHV3ulepP8Qv+7n4vbWvDQXq7TzUddMzNNkV60dPLeqPMdgvUS
-cWzQxlMyMUNkVYRrBQKBFj3m/yk6tddyRrR+Rfv3BOYzjk0kgZLO6YNGbXUgnYBfcIQ+AzI3KdXN
-06dv6FfmB9Q4gtpLi5xmTEbJ1SwH9173FrOIxUD0Bs9zUO8+3c4pZI9FTxW4V9pCWdw5H/vPxhV0
-AZXfRaJA9k7uH+LNnr9Uvtxp3qruGQQ7/shOH+CW9mmTG/w5X2chvMKZSO9lEpbi84JzaIQmJvNs
-QuBqkWg3cU1ycGqfg5Sdit4fXJYCNO50gocuQFM3QskXyCH+aEvRaKUQq4jCyRWCmsOGaa0XP6fJ
-yxCN7qTTy1xOrDwkUMKJBMdMR0v+LdF+PpI7P/ej+y2z7m/HIh+yPXHFpkuCSvjfv/Ajja81eRxZ
-bkqO9alj6z48ElNIBo5xRwhgDzuFiKa0ORXUaCqzV+sqUezCIcaf49kqKmniVFSrkb/BSfmfj/ZU
-MK0DIaplsE6AyE/YFP+oAHnYnulGj0VKWRlUt6iX/lMQk6EJ2iZNAHctSA5psRzAXOVZCMwas+Un
-u2VJTH6tyc58byoVZ9rVvwrm5+vKuv7BoeMNf2vf/zemu4+jb0OS+igHQruPXdT3c6HnWmRhIZ4i
-9gNLQZsu+Eo2t1B6z/QVfevuHQRI7G4hRGJg8lzK6IuoWa0tGr8epIsFK1yPPetJLqYxQUGSzJ/U
-MUPJv97+5MuELgL4wH9TyLgJUQQccrrgpw82GmQpB4q1+46soCJ/FswH5xuWI5PfgDyUzOasYJqj
-KXWsiLlRr/+Sri0tTxvO3tH1XV1GHNZYDm49Huao8E4wPi0LZZSrlZ97Ssr3e8SEtj+Lw1MAHsZS
-nVoiLIANsi8rJ2Yr+f1NI7Xo5MJ22xWpxihGrJNQ6stAbY+8nFeHhC3ZE/CvvY++w6CTan//gG+n
-EYd/jmCJx0JzX4fOiBTYeasqZgDloOMve9EghF3MM8NIog4tyLAFHCQlL2So8CK672jUwPDv3OOp
-mWHVYSA0Dtj46D0GBPxuIwlEvNpoPE17sEqJzlNKnu5wNDLLoGSQfT1TWSbqthydcqRXOSdwQcV2
-c3BKzeKjf3MgM592Fwj8uFp7kUyOtNA4cHFEZ+3e/+uG0soGxCUAK+F6IpVsjXmN64Nbhhluibtz
-vVLpRtSh0rqdIsoVKCOgzNOhpU3neUF7XHmz8K66UDxlTWRRC81lafAnDuhdi5CjgUlIBNM5porm
-Au52Y9OV9hHAAcQEyWr6zLfQlQTSp9hFKmyWPs1zE0wAOrmGTF1AIv+sx26hnfWfOV0hJVCIHdV7
-yKU54gMOrGsbsSwwM7nbYW+BFG7dsBS3acvXPJQ655ADL7LB6cfDL4E+HK+i8SDURgclJ/Vvyy90
-mNFiABKqCK5cTUZ5u+EdDmFzOG17v3LOjVu8OgmjpmgiNk42hhPu0ZqBPRX/Cq7udY2UJ469CBpo
-02ke4MwE+dg2pSdfyFOZhHEPduhAzYBcHbz9PDzGDMtxZTxVZs/x8ZrXH/Q9YTGsRky+MsvMsNbJ
-g3+kyE8okKPUuKfYwFf7KrCCSe32G1gX6f23okWrC+MSZoKgjqcEj/0oRfHjM8lQz0h/M7rsV0YQ
-DWsm/55cAoxiRUhW3bF2HtJT7pTvbvTSvqyJYdvLiJaDXFJoo307nukyBTGByxhDR+k6V1lJJiVp
-EvfrdrnUVSSHjfOOt0BHoy5riIy9iOx/PikfR/KtJRlAjxrl+K4nexkBMSqj8S37f2ilLW4QA99S
-Rwx3XMIFQooOjsc5hUBxwNV1eCVG9wRn7mLAECMFHCb/k089irkKB3cmDJGPZv2hbjyooi0In/7P
-sQuwNP7H+J7mJ5qNyACTL4bzRyieZYjA453jGeI6gNFeN0yAmHlg8qAvwg7PdPrnbArnD+lpo/dY
-3ZUgLPb9ll9sn5H6cKdPByR81LJMBt2/Y07Q1o8UIRi8nArfRcl/8uIQn0hKMreokz8FCqd+mKzt
-/1/zk6siDiVidA1dzYlQxZRKxNofR2rvCAJJg2eTMtsUhUn77YfoSxppo3ww6oGLtxE/3BS//nAb
-f/LmVEXlCwjRXdyLe5Cbqyd474Wl5jKQtt4aoqslb/0V8ufkdUVsr5/kAvYew57Qf35Ut5etkkdf
-SFcWEKI/n3cYPmXrOR27QIp86IvzoeeGjbqZ/DNKHcAQrkr6cHW4LRMBvC6LqlOOG9yfItk6MFUb
-pcyb6U81JNSJcnWRcy1qv5kJ5J+DMMC+XHuBEKsCjeFpgEWccYyKqC/Dca0b4e2hSLUkzYcQH75a
-XieeauS4vg4fTVzqAQZXnM+LFLX0fwwgz7KXvph/iAUUAjn/92RcMJjt2QtQZ75Am/q1piDl+jOE
-OcjyfRLWbOQmrTQZBJddU8aJvGBZNaK3b2a4CrFbmyUQ4xin/RDc+PkD3hEKFmWV+qCkQSyONcYZ
-G1WvhJ+53PlAOEPxSyiwcJx4475rw6OofyyzXFxii4D0uDeQs7t0Z/+2i3CHXTHdMC1S3/6vLuaz
-r8dlMT4sVn/97DuFGDorUVulirQB88Nttoq92WEsBuBCnRRxr4sItO4jyQc5ws72tTth8Qk+mVD0
-amCQGf486VDJLmKuszKH7vv8S/MMhbFxfcfsXRVC/SSlhSx02yL4E/j5Z+XAfAdQOVq8w+PBQEin
-97+ifvjFJMiuWONDs0hfs8gBhyXpUH1i2kAlCoBEa/Gdc2Vji1cfmuR0X7qiRi7V7d+DUlRkZcnx
-boXyGOmzYnmCc2yHcBv2ptCgaFzX6TLxKvofV9y95w+e53GYfnoh5GqQ3CqpvT7riADzCeQTrTtQ
-jQHHR/LmgHfAWK9J3kFPS1JCgZEGblLCByQfhekp8DrFUncU4QZJXfeKZ8nCLBlvoawzo7gjxcR3
-qyVVkcI56/NiyOTx8qnp5vMY49QxSzBT0XiXoPeSGT//ZgvGThh/39Q+rSxkCOgIwf1Q/j4vGePw
-sLIN7dd4XUjqA4WrHELKIGx/ajbmV4/00IGhphQZXdur/WrB3BKYo+SlRhkbJgU6XO+7MiNDW+as
-x8NjIqwCZLxA53B+JFwxjdauUHFE4W0HTA99x7s6G+MWmoV/4TRAqkT5Ovj72qtjgYIaXpHn2kN9
-oKZb1lPWgzitLcTk5rsjJpqG+eDWnNImKEsuYNIQZH8iHBIDBbIN2h5uFQB3OE2a25p0Q1tkYIHw
-/Fp2PMfTECaSJdUV+wEjePsO+4RR8Z2niN4EKyMihmd2MdRoS6BdGoTYKdxWTbmYVH+oT0JDfm8R
-xpMgPZkkILuRrH3ORKDUK5KdfyiMd7AOfeme3PzqCT34Pz+gb3LSVAX3AxhBPnIG2ajd1IsT3ocO
-nX4GUeEyEEiPdeVXEZYcElwMANPVW1IjooamCK00vXXcLd9jnMMveMm+5zSR/HSIQKpzKO5zFLE0
-hm03PNfUYrKiOn/J19e934xSA0NIUS/jkhjZg9wfYqaADFgKKpsGgqul+/cAcAZa318AVCdIqe7u
-yhO4jfWSCwcpjdAyS1UzTrzyD846fvN22glLB12NoTx6O8u554Iobc2O5W==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dfareporting\Resource;
+
+use Google\Service\Dfareporting\Site;
+use Google\Service\Dfareporting\SitesListResponse;
+
+/**
+ * The "sites" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $dfareportingService = new Google\Service\Dfareporting(...);
+ *   $sites = $dfareportingService->sites;
+ *  </code>
+ */
+class Sites extends \Google\Service\Resource
+{
+  /**
+   * Gets one site by ID. (sites.get)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param string $id Site ID.
+   * @param array $optParams Optional parameters.
+   * @return Site
+   */
+  public function get($profileId, $id, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Site::class);
+  }
+  /**
+   * Inserts a new site. (sites.insert)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param Site $postBody
+   * @param array $optParams Optional parameters.
+   * @return Site
+   */
+  public function insert($profileId, Site $postBody, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Site::class);
+  }
+  /**
+   * Retrieves a list of sites, possibly filtered. This method supports paging.
+   * (sites.listSites)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool acceptsInStreamVideoPlacements This search filter is no
+   * longer supported and will have no effect on the results returned.
+   * @opt_param bool acceptsInterstitialPlacements This search filter is no longer
+   * supported and will have no effect on the results returned.
+   * @opt_param bool acceptsPublisherPaidPlacements Select only sites that accept
+   * publisher paid placements.
+   * @opt_param bool adWordsSite Select only AdWords sites.
+   * @opt_param bool approved Select only approved sites.
+   * @opt_param string campaignIds Select only sites with these campaign IDs.
+   * @opt_param string directorySiteIds Select only sites with these directory
+   * site IDs.
+   * @opt_param string ids Select only sites with these IDs.
+   * @opt_param int maxResults Maximum number of results to return.
+   * @opt_param string pageToken Value of the nextPageToken from the previous
+   * result page.
+   * @opt_param string searchString Allows searching for objects by name, ID or
+   * keyName. Wildcards (*) are allowed. For example, "site*2015" will return
+   * objects with names like "site June 2015", "site April 2015", or simply "site
+   * 2015". Most of the searches also add wildcards implicitly at the start and
+   * the end of the search string. For example, a search string of "site" will
+   * match objects with name "my site", "site 2015", or simply "site".
+   * @opt_param string sortField Field by which to sort the list.
+   * @opt_param string sortOrder Order of sorted results.
+   * @opt_param string subaccountId Select only sites with this subaccount ID.
+   * @opt_param bool unmappedSite Select only sites that have not been mapped to a
+   * directory site.
+   * @return SitesListResponse
+   */
+  public function listSites($profileId, $optParams = [])
+  {
+    $params = ['profileId' => $profileId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], SitesListResponse::class);
+  }
+  /**
+   * Updates an existing site. This method supports patch semantics. (sites.patch)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param string $id Site ID.
+   * @param Site $postBody
+   * @param array $optParams Optional parameters.
+   * @return Site
+   */
+  public function patch($profileId, $id, Site $postBody, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'id' => $id, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Site::class);
+  }
+  /**
+   * Updates an existing site. (sites.update)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param Site $postBody
+   * @param array $optParams Optional parameters.
+   * @return Site
+   */
+  public function update($profileId, Site $postBody, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Site::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Sites::class, 'Google_Service_Dfareporting_Resource_Sites');

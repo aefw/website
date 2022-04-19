@@ -1,143 +1,216 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-IWWEe13NlPYa0HLyfLQGH6EZvQDiZ0==
+<?php
+
+namespace GuzzleHttp;
+
+use GuzzleHttp\Exception\BadResponseException;
+use GuzzleHttp\Exception\TooManyRedirectsException;
+use GuzzleHttp\Promise\PromiseInterface;
+use Psr\Http\Message\RequestInterface;
+use Psr\Http\Message\ResponseInterface;
+use Psr\Http\Message\UriInterface;
+
+/**
+ * Request redirect middleware.
+ *
+ * Apply this middleware like other middleware using
+ * {@see \GuzzleHttp\Middleware::redirect()}.
+ *
+ * @final
+ */
+class RedirectMiddleware
+{
+    public const HISTORY_HEADER = 'X-Guzzle-Redirect-History';
+
+    public const STATUS_HISTORY_HEADER = 'X-Guzzle-Redirect-Status-History';
+
+    /**
+     * @var array
+     */
+    public static $defaultSettings = [
+        'max'             => 5,
+        'protocols'       => ['http', 'https'],
+        'strict'          => false,
+        'referer'         => false,
+        'track_redirects' => false,
+    ];
+
+    /**
+     * @var callable(RequestInterface, array): PromiseInterface
+     */
+    private $nextHandler;
+
+    /**
+     * @param callable(RequestInterface, array): PromiseInterface $nextHandler Next handler to invoke.
+     */
+    public function __construct(callable $nextHandler)
+    {
+        $this->nextHandler = $nextHandler;
+    }
+
+    public function __invoke(RequestInterface $request, array $options): PromiseInterface
+    {
+        $fn = $this->nextHandler;
+
+        if (empty($options['allow_redirects'])) {
+            return $fn($request, $options);
+        }
+
+        if ($options['allow_redirects'] === true) {
+            $options['allow_redirects'] = self::$defaultSettings;
+        } elseif (!\is_array($options['allow_redirects'])) {
+            throw new \InvalidArgumentException('allow_redirects must be true, false, or array');
+        } else {
+            // Merge the default settings with the provided settings
+            $options['allow_redirects'] += self::$defaultSettings;
+        }
+
+        if (empty($options['allow_redirects']['max'])) {
+            return $fn($request, $options);
+        }
+
+        return $fn($request, $options)
+            ->then(function (ResponseInterface $response) use ($request, $options) {
+                return $this->checkRedirect($request, $options, $response);
+            });
+    }
+
+    /**
+     * @return ResponseInterface|PromiseInterface
+     */
+    public function checkRedirect(RequestInterface $request, array $options, ResponseInterface $response)
+    {
+        if (\strpos((string) $response->getStatusCode(), '3') !== 0
+            || !$response->hasHeader('Location')
+        ) {
+            return $response;
+        }
+
+        $this->guardMax($request, $response, $options);
+        $nextRequest = $this->modifyRequest($request, $options, $response);
+
+        if (isset($options['allow_redirects']['on_redirect'])) {
+            ($options['allow_redirects']['on_redirect'])(
+                $request,
+                $response,
+                $nextRequest->getUri()
+            );
+        }
+
+        $promise = $this($nextRequest, $options);
+
+        // Add headers to be able to track history of redirects.
+        if (!empty($options['allow_redirects']['track_redirects'])) {
+            return $this->withTracking(
+                $promise,
+                (string) $nextRequest->getUri(),
+                $response->getStatusCode()
+            );
+        }
+
+        return $promise;
+    }
+
+    /**
+     * Enable tracking on promise.
+     */
+    private function withTracking(PromiseInterface $promise, string $uri, int $statusCode): PromiseInterface
+    {
+        return $promise->then(
+            static function (ResponseInterface $response) use ($uri, $statusCode) {
+                // Note that we are pushing to the front of the list as this
+                // would be an earlier response than what is currently present
+                // in the history header.
+                $historyHeader = $response->getHeader(self::HISTORY_HEADER);
+                $statusHeader = $response->getHeader(self::STATUS_HISTORY_HEADER);
+                \array_unshift($historyHeader, $uri);
+                \array_unshift($statusHeader, (string) $statusCode);
+
+                return $response->withHeader(self::HISTORY_HEADER, $historyHeader)
+                                ->withHeader(self::STATUS_HISTORY_HEADER, $statusHeader);
+            }
+        );
+    }
+
+    /**
+     * Check for too many redirects
+     *
+     * @throws TooManyRedirectsException Too many redirects.
+     */
+    private function guardMax(RequestInterface $request, ResponseInterface $response, array &$options): void
+    {
+        $current = $options['__redirect_count']
+            ?? 0;
+        $options['__redirect_count'] = $current + 1;
+        $max = $options['allow_redirects']['max'];
+
+        if ($options['__redirect_count'] > $max) {
+            throw new TooManyRedirectsException("Will not follow more than {$max} redirects", $request, $response);
+        }
+    }
+
+    public function modifyRequest(RequestInterface $request, array $options, ResponseInterface $response): RequestInterface
+    {
+        // Request modifications to apply.
+        $modify = [];
+        $protocols = $options['allow_redirects']['protocols'];
+
+        // Use a GET request if this is an entity enclosing request and we are
+        // not forcing RFC compliance, but rather emulating what all browsers
+        // would do.
+        $statusCode = $response->getStatusCode();
+        if ($statusCode == 303 ||
+            ($statusCode <= 302 && !$options['allow_redirects']['strict'])
+        ) {
+            $safeMethods = ['GET', 'HEAD', 'OPTIONS'];
+            $requestMethod = $request->getMethod();
+
+            $modify['method'] = in_array($requestMethod, $safeMethods) ? $requestMethod : 'GET';
+            $modify['body'] = '';
+        }
+
+        $uri = $this->redirectUri($request, $response, $protocols);
+        if (isset($options['idn_conversion']) && ($options['idn_conversion'] !== false)) {
+            $idnOptions = ($options['idn_conversion'] === true) ? \IDNA_DEFAULT : $options['idn_conversion'];
+            $uri = Utils::idnUriConvert($uri, $idnOptions);
+        }
+
+        $modify['uri'] = $uri;
+        Psr7\Message::rewindBody($request);
+
+        // Add the Referer header if it is told to do so and only
+        // add the header if we are not redirecting from https to http.
+        if ($options['allow_redirects']['referer']
+            && $modify['uri']->getScheme() === $request->getUri()->getScheme()
+        ) {
+            $uri = $request->getUri()->withUserInfo('');
+            $modify['set_headers']['Referer'] = (string) $uri;
+        } else {
+            $modify['remove_headers'][] = 'Referer';
+        }
+
+        // Remove Authorization header if host is different.
+        if ($request->getUri()->getHost() !== $modify['uri']->getHost()) {
+            $modify['remove_headers'][] = 'Authorization';
+        }
+
+        return Psr7\Utils::modifyRequest($request, $modify);
+    }
+
+    /**
+     * Set the appropriate URL on the request based on the location header
+     */
+    private function redirectUri(RequestInterface $request, ResponseInterface $response, array $protocols): UriInterface
+    {
+        $location = Psr7\UriResolver::resolve(
+            $request->getUri(),
+            new Psr7\Uri($response->getHeaderLine('Location'))
+        );
+
+        // Ensure that the redirect URI is allowed based on the protocols.
+        if (!\in_array($location->getScheme(), $protocols)) {
+            throw new BadResponseException(\sprintf('Redirect URI, %s, does not use one of the allowed redirect protocols: %s', $location, \implode(', ', $protocols)), $request, $response);
+        }
+
+        return $location;
+    }
+}

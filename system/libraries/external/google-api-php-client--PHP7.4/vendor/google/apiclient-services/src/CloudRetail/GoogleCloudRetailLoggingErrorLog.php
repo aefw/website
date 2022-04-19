@@ -1,71 +1,117 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudRetail;
+
+class GoogleCloudRetailLoggingErrorLog extends \Google\Model
+{
+  protected $contextType = GoogleCloudRetailLoggingErrorContext::class;
+  protected $contextDataType = '';
+  protected $importPayloadType = GoogleCloudRetailLoggingImportErrorContext::class;
+  protected $importPayloadDataType = '';
+  public $message;
+  public $requestPayload;
+  public $responsePayload;
+  protected $serviceContextType = GoogleCloudRetailLoggingServiceContext::class;
+  protected $serviceContextDataType = '';
+  protected $statusType = GoogleRpcStatus::class;
+  protected $statusDataType = '';
+
+  /**
+   * @param GoogleCloudRetailLoggingErrorContext
+   */
+  public function setContext(GoogleCloudRetailLoggingErrorContext $context)
+  {
+    $this->context = $context;
+  }
+  /**
+   * @return GoogleCloudRetailLoggingErrorContext
+   */
+  public function getContext()
+  {
+    return $this->context;
+  }
+  /**
+   * @param GoogleCloudRetailLoggingImportErrorContext
+   */
+  public function setImportPayload(GoogleCloudRetailLoggingImportErrorContext $importPayload)
+  {
+    $this->importPayload = $importPayload;
+  }
+  /**
+   * @return GoogleCloudRetailLoggingImportErrorContext
+   */
+  public function getImportPayload()
+  {
+    return $this->importPayload;
+  }
+  public function setMessage($message)
+  {
+    $this->message = $message;
+  }
+  public function getMessage()
+  {
+    return $this->message;
+  }
+  public function setRequestPayload($requestPayload)
+  {
+    $this->requestPayload = $requestPayload;
+  }
+  public function getRequestPayload()
+  {
+    return $this->requestPayload;
+  }
+  public function setResponsePayload($responsePayload)
+  {
+    $this->responsePayload = $responsePayload;
+  }
+  public function getResponsePayload()
+  {
+    return $this->responsePayload;
+  }
+  /**
+   * @param GoogleCloudRetailLoggingServiceContext
+   */
+  public function setServiceContext(GoogleCloudRetailLoggingServiceContext $serviceContext)
+  {
+    $this->serviceContext = $serviceContext;
+  }
+  /**
+   * @return GoogleCloudRetailLoggingServiceContext
+   */
+  public function getServiceContext()
+  {
+    return $this->serviceContext;
+  }
+  /**
+   * @param GoogleRpcStatus
+   */
+  public function setStatus(GoogleRpcStatus $status)
+  {
+    $this->status = $status;
+  }
+  /**
+   * @return GoogleRpcStatus
+   */
+  public function getStatus()
+  {
+    return $this->status;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudRetailLoggingErrorLog::class, 'Google_Service_CloudRetail_GoogleCloudRetailLoggingErrorLog');

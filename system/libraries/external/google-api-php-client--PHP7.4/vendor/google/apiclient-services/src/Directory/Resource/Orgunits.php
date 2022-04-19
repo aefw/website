@@ -1,74 +1,167 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Directory\Resource;
+
+use Google\Service\Directory\OrgUnit;
+use Google\Service\Directory\OrgUnits as OrgUnitsModel;
+
+/**
+ * The "orgunits" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $adminService = new Google\Service\Directory(...);
+ *   $orgunits = $adminService->orgunits;
+ *  </code>
+ */
+class Orgunits extends \Google\Service\Resource
+{
+  /**
+   * Removes an organizational unit. (orgunits.delete)
+   *
+   * @param string $customerId The unique ID for the customer's Google Workspace
+   * account. As an account administrator, you can also use the `my_customer`
+   * alias to represent your account's `customerId`. The `customerId` is also
+   * returned as part of the [Users resource](/admin-
+   * sdk/directory/v1/reference/users).
+   * @param string $orgUnitPath The full path of the organizational unit or its
+   * unique ID.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool allowPlus Parses org unit path without url decode to allow
+   * for plus in ou name
+   */
+  public function delete($customerId, $orgUnitPath, $optParams = [])
+  {
+    $params = ['customerId' => $customerId, 'orgUnitPath' => $orgUnitPath];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Retrieves an organizational unit. (orgunits.get)
+   *
+   * @param string $customerId The unique ID for the customer's Google Workspace
+   * account. As an account administrator, you can also use the `my_customer`
+   * alias to represent your account's `customerId`. The `customerId` is also
+   * returned as part of the [Users resource](/admin-
+   * sdk/directory/v1/reference/users).
+   * @param string $orgUnitPath The full path of the organizational unit or its
+   * unique ID.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool allowPlus Parses org unit path without url decode to allow
+   * for plus in ou name
+   * @return OrgUnit
+   */
+  public function get($customerId, $orgUnitPath, $optParams = [])
+  {
+    $params = ['customerId' => $customerId, 'orgUnitPath' => $orgUnitPath];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], OrgUnit::class);
+  }
+  /**
+   * Adds an organizational unit. (orgunits.insert)
+   *
+   * @param string $customerId The unique ID for the customer's Google Workspace
+   * account. As an account administrator, you can also use the `my_customer`
+   * alias to represent your account's `customerId`. The `customerId` is also
+   * returned as part of the [Users resource](/admin-
+   * sdk/directory/v1/reference/users).
+   * @param OrgUnit $postBody
+   * @param array $optParams Optional parameters.
+   * @return OrgUnit
+   */
+  public function insert($customerId, OrgUnit $postBody, $optParams = [])
+  {
+    $params = ['customerId' => $customerId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], OrgUnit::class);
+  }
+  /**
+   * Retrieves a list of all organizational units for an account.
+   * (orgunits.listOrgunits)
+   *
+   * @param string $customerId The unique ID for the customer's Google Workspace
+   * account. As an account administrator, you can also use the `my_customer`
+   * alias to represent your account's `customerId`. The `customerId` is also
+   * returned as part of the [Users resource](/admin-
+   * sdk/directory/v1/reference/users).
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string orgUnitPath The full path to the organizational unit or its
+   * unique ID. Returns the children of the specified organizational unit.
+   * @opt_param string type Whether to return all sub-organizations or just
+   * immediate children.
+   * @return OrgUnitsModel
+   */
+  public function listOrgunits($customerId, $optParams = [])
+  {
+    $params = ['customerId' => $customerId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], OrgUnitsModel::class);
+  }
+  /**
+   * Updates an organizational unit. This method supports [patch semantics
+   * ](/admin-sdk/directory/v1/guides/performance#patch) (orgunits.patch)
+   *
+   * @param string $customerId The unique ID for the customer's Google Workspace
+   * account. As an account administrator, you can also use the `my_customer`
+   * alias to represent your account's `customerId`. The `customerId` is also
+   * returned as part of the [Users resource](/admin-
+   * sdk/directory/v1/reference/users).
+   * @param string $orgUnitPath The full path of the organizational unit or its
+   * unique ID.
+   * @param OrgUnit $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool allowPlus Parses org unit path without url decode to allow
+   * for plus in ou name
+   * @return OrgUnit
+   */
+  public function patch($customerId, $orgUnitPath, OrgUnit $postBody, $optParams = [])
+  {
+    $params = ['customerId' => $customerId, 'orgUnitPath' => $orgUnitPath, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], OrgUnit::class);
+  }
+  /**
+   * Updates an organizational unit. (orgunits.update)
+   *
+   * @param string $customerId The unique ID for the customer's Google Workspace
+   * account. As an account administrator, you can also use the `my_customer`
+   * alias to represent your account's `customerId`. The `customerId` is also
+   * returned as part of the [Users resource](/admin-
+   * sdk/directory/v1/reference/users).
+   * @param string $orgUnitPath The full path of the organizational unit or its
+   * unique ID.
+   * @param OrgUnit $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool allowPlus Parses org unit path without url decode to allow
+   * for plus in ou name
+   * @return OrgUnit
+   */
+  public function update($customerId, $orgUnitPath, OrgUnit $postBody, $optParams = [])
+  {
+    $params = ['customerId' => $customerId, 'orgUnitPath' => $orgUnitPath, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], OrgUnit::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Orgunits::class, 'Google_Service_Directory_Resource_Orgunits');

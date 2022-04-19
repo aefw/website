@@ -1,66 +1,80 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-a32wm1S/S0==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\RecommendationsAI;
+
+class GoogleCloudRecommendationengineV1beta1ImportMetadata extends \Google\Model
+{
+  public $createTime;
+  public $failureCount;
+  public $operationName;
+  public $requestId;
+  public $successCount;
+  public $updateTime;
+
+  public function setCreateTime($createTime)
+  {
+    $this->createTime = $createTime;
+  }
+  public function getCreateTime()
+  {
+    return $this->createTime;
+  }
+  public function setFailureCount($failureCount)
+  {
+    $this->failureCount = $failureCount;
+  }
+  public function getFailureCount()
+  {
+    return $this->failureCount;
+  }
+  public function setOperationName($operationName)
+  {
+    $this->operationName = $operationName;
+  }
+  public function getOperationName()
+  {
+    return $this->operationName;
+  }
+  public function setRequestId($requestId)
+  {
+    $this->requestId = $requestId;
+  }
+  public function getRequestId()
+  {
+    return $this->requestId;
+  }
+  public function setSuccessCount($successCount)
+  {
+    $this->successCount = $successCount;
+  }
+  public function getSuccessCount()
+  {
+    return $this->successCount;
+  }
+  public function setUpdateTime($updateTime)
+  {
+    $this->updateTime = $updateTime;
+  }
+  public function getUpdateTime()
+  {
+    return $this->updateTime;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudRecommendationengineV1beta1ImportMetadata::class, 'Google_Service_RecommendationsAI_GoogleCloudRecommendationengineV1beta1ImportMetadata');

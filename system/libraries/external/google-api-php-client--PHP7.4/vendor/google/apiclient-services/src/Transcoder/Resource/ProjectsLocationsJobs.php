@@ -1,63 +1,98 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Transcoder\Resource;
+
+use Google\Service\Transcoder\Job;
+use Google\Service\Transcoder\ListJobsResponse;
+use Google\Service\Transcoder\TranscoderEmpty;
+
+/**
+ * The "jobs" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $transcoderService = new Google\Service\Transcoder(...);
+ *   $jobs = $transcoderService->jobs;
+ *  </code>
+ */
+class ProjectsLocationsJobs extends \Google\Service\Resource
+{
+  /**
+   * Creates a job in the specified region. (jobs.create)
+   *
+   * @param string $parent Required. The parent location to create and process
+   * this job. Format: `projects/{project}/locations/{location}`
+   * @param Job $postBody
+   * @param array $optParams Optional parameters.
+   * @return Job
+   */
+  public function create($parent, Job $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Job::class);
+  }
+  /**
+   * Deletes a job. (jobs.delete)
+   *
+   * @param string $name Required. The name of the job to delete. Format:
+   * `projects/{project}/locations/{location}/jobs/{job}`
+   * @param array $optParams Optional parameters.
+   * @return TranscoderEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], TranscoderEmpty::class);
+  }
+  /**
+   * Returns the job data. (jobs.get)
+   *
+   * @param string $name Required. The name of the job to retrieve. Format:
+   * `projects/{project}/locations/{location}/jobs/{job}`
+   * @param array $optParams Optional parameters.
+   * @return Job
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Job::class);
+  }
+  /**
+   * Lists jobs in the specified region. (jobs.listProjectsLocationsJobs)
+   *
+   * @param string $parent Required. Format:
+   * `projects/{project}/locations/{location}`
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The maximum number of items to return.
+   * @opt_param string pageToken The `next_page_token` value returned from a
+   * previous List request, if any.
+   * @return ListJobsResponse
+   */
+  public function listProjectsLocationsJobs($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListJobsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsJobs::class, 'Google_Service_Transcoder_Resource_ProjectsLocationsJobs');

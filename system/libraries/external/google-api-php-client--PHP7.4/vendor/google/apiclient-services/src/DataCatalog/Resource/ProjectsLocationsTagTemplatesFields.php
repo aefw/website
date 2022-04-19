@@ -1,66 +1,135 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-x8IjyFwwLt5VrI7oRoqeuDgGQhioB28M
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DataCatalog\Resource;
+
+use Google\Service\DataCatalog\DatacatalogEmpty;
+use Google\Service\DataCatalog\GoogleCloudDatacatalogV1beta1RenameTagTemplateFieldRequest;
+use Google\Service\DataCatalog\GoogleCloudDatacatalogV1beta1TagTemplateField;
+
+/**
+ * The "fields" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $datacatalogService = new Google\Service\DataCatalog(...);
+ *   $fields = $datacatalogService->fields;
+ *  </code>
+ */
+class ProjectsLocationsTagTemplatesFields extends \Google\Service\Resource
+{
+  /**
+   * Creates a field in a tag template. The user should enable the Data Catalog
+   * API in the project identified by the `parent` parameter (see [Data Catalog
+   * Resource Project](https://cloud.google.com/data-catalog/docs/concepts
+   * /resource-project) for more information). (fields.create)
+   *
+   * @param string $parent Required. The name of the project and the template
+   * location [region](https://cloud.google.com/data-
+   * catalog/docs/concepts/regions). Example: * projects/{project_id}/locations
+   * /us-central1/tagTemplates/{tag_template_id}
+   * @param GoogleCloudDatacatalogV1beta1TagTemplateField $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string tagTemplateFieldId Required. The ID of the tag template
+   * field to create. Field ids can contain letters (both uppercase and
+   * lowercase), numbers (0-9), underscores (_) and dashes (-). Field IDs must be
+   * at least 1 character long and at most 128 characters long. Field IDs must
+   * also be unique within their template.
+   * @return GoogleCloudDatacatalogV1beta1TagTemplateField
+   */
+  public function create($parent, GoogleCloudDatacatalogV1beta1TagTemplateField $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleCloudDatacatalogV1beta1TagTemplateField::class);
+  }
+  /**
+   * Deletes a field in a tag template and all uses of that field. Users should
+   * enable the Data Catalog API in the project identified by the `name` parameter
+   * (see [Data Catalog Resource Project] (https://cloud.google.com/data-
+   * catalog/docs/concepts/resource-project) for more information).
+   * (fields.delete)
+   *
+   * @param string $name Required. The name of the tag template field to delete.
+   * Example: * projects/{project_id}/locations/{location}/tagTemplates/{tag_templ
+   * ate_id}/fields/{tag_template_field_id}
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool force Required. Currently, this field must always be set to
+   * `true`. This confirms the deletion of this field from any tags using this
+   * field. `force = false` will be supported in the future.
+   * @return DatacatalogEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], DatacatalogEmpty::class);
+  }
+  /**
+   * Updates a field in a tag template. This method cannot be used to update the
+   * field type. Users should enable the Data Catalog API in the project
+   * identified by the `name` parameter (see [Data Catalog Resource Project]
+   * (https://cloud.google.com/data-catalog/docs/concepts/resource-project) for
+   * more information). (fields.patch)
+   *
+   * @param string $name Required. The name of the tag template field. Example: *
+   * projects/{project_id}/locations/{location}/tagTemplates/{tag_template_id}/fie
+   * lds/{tag_template_field_id}
+   * @param GoogleCloudDatacatalogV1beta1TagTemplateField $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Optional. Names of fields whose values to
+   * overwrite on an individual field of a tag template. The following fields are
+   * modifiable: * `display_name` * `type.enum_type` * `is_required` If this
+   * parameter is absent or empty, all modifiable fields are overwritten. If such
+   * fields are non-required and omitted in the request body, their values are
+   * emptied with one exception: when updating an enum type, the provided values
+   * are merged with the existing values. Therefore, enum values can only be
+   * added, existing enum values cannot be deleted or renamed. Additionally,
+   * updating a template field from optional to required is *not* allowed.
+   * @return GoogleCloudDatacatalogV1beta1TagTemplateField
+   */
+  public function patch($name, GoogleCloudDatacatalogV1beta1TagTemplateField $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], GoogleCloudDatacatalogV1beta1TagTemplateField::class);
+  }
+  /**
+   * Renames a field in a tag template. The user should enable the Data Catalog
+   * API in the project identified by the `name` parameter (see [Data Catalog
+   * Resource Project](https://cloud.google.com/data-catalog/docs/concepts
+   * /resource-project) for more information). (fields.rename)
+   *
+   * @param string $name Required. The name of the tag template. Example: * projec
+   * ts/{project_id}/locations/{location}/tagTemplates/{tag_template_id}/fields/{t
+   * ag_template_field_id}
+   * @param GoogleCloudDatacatalogV1beta1RenameTagTemplateFieldRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudDatacatalogV1beta1TagTemplateField
+   */
+  public function rename($name, GoogleCloudDatacatalogV1beta1RenameTagTemplateFieldRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('rename', [$params], GoogleCloudDatacatalogV1beta1TagTemplateField::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsTagTemplatesFields::class, 'Google_Service_DataCatalog_Resource_ProjectsLocationsTagTemplatesFields');

@@ -1,93 +1,177 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-IwecZlKen4saTINxHKesAkYAuvocIGtRGG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Monitoring;
+
+class UptimeCheckConfig extends \Google\Collection
+{
+  protected $collection_key = 'selectedRegions';
+  protected $contentMatchersType = ContentMatcher::class;
+  protected $contentMatchersDataType = 'array';
+  public $displayName;
+  protected $httpCheckType = HttpCheck::class;
+  protected $httpCheckDataType = '';
+  protected $internalCheckersType = InternalChecker::class;
+  protected $internalCheckersDataType = 'array';
+  public $isInternal;
+  protected $monitoredResourceType = MonitoredResource::class;
+  protected $monitoredResourceDataType = '';
+  public $name;
+  public $period;
+  protected $resourceGroupType = ResourceGroup::class;
+  protected $resourceGroupDataType = '';
+  public $selectedRegions;
+  protected $tcpCheckType = TcpCheck::class;
+  protected $tcpCheckDataType = '';
+  public $timeout;
+
+  /**
+   * @param ContentMatcher[]
+   */
+  public function setContentMatchers($contentMatchers)
+  {
+    $this->contentMatchers = $contentMatchers;
+  }
+  /**
+   * @return ContentMatcher[]
+   */
+  public function getContentMatchers()
+  {
+    return $this->contentMatchers;
+  }
+  public function setDisplayName($displayName)
+  {
+    $this->displayName = $displayName;
+  }
+  public function getDisplayName()
+  {
+    return $this->displayName;
+  }
+  /**
+   * @param HttpCheck
+   */
+  public function setHttpCheck(HttpCheck $httpCheck)
+  {
+    $this->httpCheck = $httpCheck;
+  }
+  /**
+   * @return HttpCheck
+   */
+  public function getHttpCheck()
+  {
+    return $this->httpCheck;
+  }
+  /**
+   * @param InternalChecker[]
+   */
+  public function setInternalCheckers($internalCheckers)
+  {
+    $this->internalCheckers = $internalCheckers;
+  }
+  /**
+   * @return InternalChecker[]
+   */
+  public function getInternalCheckers()
+  {
+    return $this->internalCheckers;
+  }
+  public function setIsInternal($isInternal)
+  {
+    $this->isInternal = $isInternal;
+  }
+  public function getIsInternal()
+  {
+    return $this->isInternal;
+  }
+  /**
+   * @param MonitoredResource
+   */
+  public function setMonitoredResource(MonitoredResource $monitoredResource)
+  {
+    $this->monitoredResource = $monitoredResource;
+  }
+  /**
+   * @return MonitoredResource
+   */
+  public function getMonitoredResource()
+  {
+    return $this->monitoredResource;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setPeriod($period)
+  {
+    $this->period = $period;
+  }
+  public function getPeriod()
+  {
+    return $this->period;
+  }
+  /**
+   * @param ResourceGroup
+   */
+  public function setResourceGroup(ResourceGroup $resourceGroup)
+  {
+    $this->resourceGroup = $resourceGroup;
+  }
+  /**
+   * @return ResourceGroup
+   */
+  public function getResourceGroup()
+  {
+    return $this->resourceGroup;
+  }
+  public function setSelectedRegions($selectedRegions)
+  {
+    $this->selectedRegions = $selectedRegions;
+  }
+  public function getSelectedRegions()
+  {
+    return $this->selectedRegions;
+  }
+  /**
+   * @param TcpCheck
+   */
+  public function setTcpCheck(TcpCheck $tcpCheck)
+  {
+    $this->tcpCheck = $tcpCheck;
+  }
+  /**
+   * @return TcpCheck
+   */
+  public function getTcpCheck()
+  {
+    return $this->tcpCheck;
+  }
+  public function setTimeout($timeout)
+  {
+    $this->timeout = $timeout;
+  }
+  public function getTimeout()
+  {
+    return $this->timeout;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(UptimeCheckConfig::class, 'Google_Service_Monitoring_UptimeCheckConfig');

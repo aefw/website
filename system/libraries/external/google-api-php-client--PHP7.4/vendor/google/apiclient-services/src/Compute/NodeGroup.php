@@ -1,94 +1,175 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPqCP/CD8iSJqPTrfu1jy4iCrYcq/9Q1vcR38FsQphwLFmCX5TkDt4D3wnynkyWEQirNX5Y5B
-A/kHEGA1NnYHknCPxwx1sVlnpuE/jKn97pjj6LbuuTS2ypr24ethsk/TOTMwfjy5UicZ2S3FQZAX
-Qos5QGHRcd5GxvXY1JZh/PALkhhSWCwNpyfe11SHR4UHdlkn0gVQ/unP53qsgyKDa8BbfwCCSEaz
-9+FBFt840d63pTafuvoQ2BTMfmynngylzU7dqnIRKxBqN9rfzXTd436P9E9mKourL8IeB86cFae5
-vLM6SdyBFelqNhwQrhM8rFmUIO62dJ42Qm0vwP2Fxrah55Cn8eCm5WA5ODJhQSEhLwdbWupAKDTg
-lSc/cyuZ9HA8AZdhvhOQjagRKgA4NJYLddBiH2rG5rhU5+Wq2L8WljWrznX0gyBUWbxuR94xFZjW
-+LMp9t6Eir00bl+mZQK6Lxqf2F7tOhazANwyRuoEmDTkENA9VGPE8HXil+Tdx39aUVltxZ36elLt
-+YypCjqsFdPmtuGTt4odlSH9VFSF8RaBJ+2AZQ7kqU3Xyro/q4m2JgG4SI5YOciYoNshTfjYPAw9
-iB4wXlj2Bk2jYMO4dMF3pkx+/2Da+FszMgfNhhEQXNyEdM5UE4R9pYnDB+SLZqNN4lyqpHXyBX6Z
-O7mWPMN5MpD/7FsxRryTefARMt8tD2p9qpWk0NOhYF15xuI45fK3DqwmerkSpGsVHbfRJ4FVoELI
-oyKfhTKlnNvehv3BdkIa3Qk34FsaMizYcZXpp0MZ5A0p6UPIfVS+ITZB1wPxUcDA+YBQrKW857qx
-x7FOdAU4BH3T0B5eutTO6Ivzfron/vUzIcShB8gtHuhyJU4mZ0L7AIwDu6KR09KtXqtr+Ddi0+C5
-haPw6yDM8c9ktM+ndhgswIMWyVR1sP4PWjNnRlHe14yQRAVgZP8sCC5iaLuvEkeEWYJ34/lhzG3f
-Ia04lkxTAK4LO4zU2GzRx7+1whi+1AWJghkXMHSKD13/5beVd5SlsEhTfp5wlPwk2mq6O3z43fBX
-E4vGI2bUkSHxTqTeG//W3cbDatHSrIHn63Q5pSfAqKdWl4PbonSjrh7+mfE1s0nFeT8Cl92hMPV6
-d2ZCR73Ruw/b+zZmHa+faHUjfdEDV1bqIjJy6kVPjrn4yWM4p2Fnse7m+sYg0MeCYQEn76d6UKPt
-h+GeYF1tkAujQsVK9JM9fY7qfWNOLT2DumkckOlOHXlX8SBGStdL5O2GTKLf8oyd4PYt/ujzaoIk
-UFrcmVuoOv8VjoMdHTCkl1Tcrvrn17ZSGWbdktxgVM196xqWPBLBdTnzB61wpo47/QIcacjX4bhd
-jQ57RgPWzcQFIRX9o4aMOxgkVk9yxT2NjcY4ZTgwnMuYOMdI3GHYEVreUjLfafq/Z0OCU6AV4uMq
-0yOO5eYAGC+EJE/Mi0zQiqlomCBMCXO5PbiwB3jtnWZhwfynvUTCinnnqBBugHd1CWPQBcr5XRZN
-OH6nbzX8+GqP/43ULl/LmHlkyn5istka/Dt+BdsIe+M2RgrGHvxv1YodQOd5P4BVyx131bIJeY3s
-ZlHZM0mYaTvWTEejJp6VETZt09B7YZxvZJtBmjmqnKGbxoeuUd2UHGLNUr3zpT++UV3If2MKgZXM
-enxuNbhVFQRmJ292+GLHXbL4vweOJprBh4k2xvvKMgqeLiz+iPQ0dzOpmd/3ovZMewQm36xasgkR
-KTfK6XbRNXj03bL+sU80yTF6g4Fe3BNdeWr72Dflr7DFzO0rfbCbhBZXY3x6XDdyOZDeoGZfJAWW
-5UNIoXXLH8czDQPnNryIv0LHJ7zw2PLDKV9WhGvB4ovtH6MPW19nrgzMFh0Ldp+YBtGCmW3UGr28
-UJ03HwFOYYfn7BCuowMDYUH4hqeswQhmu+o7QM2XNPdYrxP1FerhkK0d9vvnMarUOOoeO15x3Q9q
-pDG8wxeOhcPV7o0eOlxfstUucJIOIodO7stxqemtqgHAGmjf61kOt8V5S1tIk/7VGkAFCc05Gr2i
-OtMl+DcMyMLWXsp/9rvr6PdfqqgLEP4KPW2qGgdu6w8EDl3UJ7TuCUkPuENBIFiJdXHYZc9SAvww
-lDRuDuA1NSdqiF6hx/xwkWTaP2ngSc4ioIzFPE1O40NHVvfeqdRoVilf6xHuQ5ZdC1BKmzkhq4sd
-eZyxKHApYAHh4FGLSwOS2c2PCUAmsIpUcpLS2E8rsAtlhsuEfCRuFH5fSyywUDc3YsaHPxhE0cJ8
-k93PzrqCjmdBhsh4Y6E827kGuHeqyGEqIPiowBKe7HB9enI18jJciRLkWu7sTDwqvyWFNX1jMk60
-GApqIiVsnCat+rzkFrnClyT2LduHZ8GsYI2p1ey6MKa12gTDGFTX5pwrh8Q4mw0r+Zt8Mc/QU1N5
-QuVZAqxresd7hqCYE1mu9ZU8TA6ikTlwcbkjG+Ar//d9tSQEO/O/uIm9rziT59SoAhk4Tb+EPCM8
-ruTXyW7fvST1hofC9L3OChnSbfWMD8q3sr7jn/DGADwEz6N2tTtbnlIKbM4GLfv8LxCkKWMrEEUz
-+qib2JNVoJekzJRlPwt3oU/8ELpoE91GonOAGFCGJaD1CrknXrj5vGHRtWo9Mg6ptBlARStiyD47
-q8nRZ8EQgtSV/pUc+aINwDgfWq4pJEqlN0sS5J8pSfmLxJqZvSWbrjTgjeTo7qQmqncf4fzkRMb/
-V2Amy6cakf5jYk1I1DIbOXCV/o5pNMqIfj+cRnh8c3jLDeiS/UQE3DWFdOlOLx6g5uOkJz0Y++xd
-MCJQNHMibRG4ZfyMQoRk487YaiVm+bO/UWqfB0yCqGo9FN5Ad5x8Gw/Oz3+zYFwlo/UN10EFDc1d
-HCF782EtZJ4CCJXVIUPQnxnsmDPEdqsaGOePE6Iy0fSwHpSsmtKJKThwcgdmLNXKbmyOMqU9lvKD
-pNZ9B/5i2ztkxTmUSsRCYLOC9eHE4qgF9jEtbYQZE7HmjFskM5FrTYHAGzKpTC0EKNnM3Jf0gNxD
-fs6oC/Ann+pVcL5No/wNtKPKOHfdfzn/nkHexq64vajnWvIvXP2uKXPinlm3z4l/9f/kY3IjN9rc
-nvHqS8M01cVxab5KSdBBVKmNjj3R30uH8WdW56pslm5q3ym/rFxJYWxTS5DdggPkS8iYAEnroJLA
-oONSyLStNH9acpsFFmdrmBf5eijLU8zYLMrVkzyvqsY6lWmAuVhNjAwvoTVRZi5g49DPb4XupTU5
-CWWWIR9uurnrFqFjFye2Df0M+FCQD38qNfER+chU940v1sYBRcvY4K8kI989a1T2l2dy6Q6JVf4L
-IN0XcyPT3GIhhQ9VjCMVLE0DkmjeRHFUQALjM1M2rmARLYjxlSyTjbmmPQpoltn3/I3ZW2bv8kpx
-USQcZPnoho/FavUMSLOA/mAXQHXQU6gZvoE1liDjLO+bRx2oGjw1begQwqs9R0UKQiHtAojgHCDN
-yIWwRNlixeLTgqGDWkhC8ZPxwlVfcFD+zlTHXcPy2hq04B9QwDpqpPvy7K3nybtYUuIefAjUuEhq
-5oG+z2zRN/SdVeDQVuPijL92lIT8W9IPYGTq6Ue/eQkVDH13fhwadzdBIQpm5ZhghlkylACrTM5S
-IodMFQ6cNpM2V3NvHnW1mxCrd40E3w4qHuSP3b59M8G07rBtNiWHasCa9bK2Kd2U00jf5Cjevg0q
-MSUceEDVpn2mGqmBbpFEA0ZkurX3ybckuApBkE/2cas9wXsa/ORJ7n47RA0kuO/4kp4iObPqUEgp
-Gr1pZsHR5LEe4xyPYvqiAbiO5hNlvOi/CYQ5IZ2ZXI015HOSzC1vU/xoQ3wokTWzLigskNO2WE/X
-Z+Lc/2kfqiS74NgVRKJo1N0qDpDZvQcGB+0+2rboA5Vk8eWRi2MaNvhIAlfbH9yTT5DKsA+5+9/U
-wFfhxPG2O8P6BjDhy7eFxGbkw6Jp96//Lyt2cXpL4Mzdzkkj62MbMqzkIbbVvdMO76NbXhdsybAo
-nfVaCFIsPy+yv2Pp90PlYY2Q8LZVSJXSA2NPSyUqbh/WbRaePLlihILIv67Ffp5N7CLzdwNyTNbh
-U/qlWXUisKH+HWWal7ZliZKgrL4zqIH+L9giwa6LWke39iAiB+07TyJUfnk5JzroqE01s1A2ENjn
-RTgIWoIUb//yKdHvMdAX/p8pBNmJtLlsU59Nc6SYxUhmF/4giir+vboXuvSth7k6PkXFZnVMCagF
-ZZ+KKsFpF/DNaq/UOV/9dQjV/eU1lLmnwbExMA37+RQr4ojznr6ZQzAFJPunViKUJJH4+Y0Zo8o6
-zHGeDcOGWsw1ZZLeJjiscscmHVN4k1I6ZY6CuDcgQD0XDAGaNIFHLtBI5/KAK//MyzI1KmchvBsp
-Yne77KDtgt4pGVeqwKQaGnOIXrnlJZLm7hhzn69E41bFkzc1+z0tqs8SMwu5zvI5QCeZkLOifmxH
-wscLsXp/+xU51h50PIU5CwyjrwAowp+xPSYzNGdbGQVBSdHnslGDc1HcacIRN4Tx3+K0RMBDBgGX
-1+4F/7W/x7IqvjyuWcn3Jqous4Mpqb67ggC4+aPnQowfPj6vzSmEPzbP7BLuqjDGhSNrNMjuPOCP
-84D+AWxnfhvqbfr221ynqaDkIKLeL+Vk4g0YUYxj3PoUNyf1O4jQe4bHp8MVm4FFSS5ymZQfSC9u
-k2qs8PtEkY5fRBE6JH8dG1KKND2S4Vf/tc2q0mUrUCMFRI18vN1RxGOa1fcgGMiayJqV2VaKHmhA
-G54Qz7IQ6fqLVh5CpYvVsKuHqqo9WWIvmaAo01KPCdthAVySq6eDqSr+JAaWbxOxKutvPMLLJRsx
-gdCgd+4ULL6/48XtIEiAQx8bbYIogO9EWN8s0zvjn6RFBV+17qR6To0kzZa8dp8+1/hsssKVgexM
-0yy4QA5d/1i/3nonKdOpa4kUJpYHfL3QWS2uKwXcvXiQLa5t0ptnruRZEz0Z0ooEZMMY8b7DNcHF
-4BOUSydLIEwIS6ALbzpE4nnN1qLYKq+miYAo01oXxmVmcBcDz/7A38XLG6AtepuJGgm2BYb6aXPu
-qU373LZlwrKIN7IKd0S6KzQNqtZerbIEJLRoWBCv2yoD4IDEiWoNpihtpMZSjgCeBQrZftLwRV6B
-9q4b6LbY/x7Dn76vWuj7JzRwxDEkoYEnTLEm0F6JEOP0GcWjKTndedZlSneU488vAKxXt/FSqb4Q
-0QqCreNi1X4XJgTsf9NZgBkguSPPO1sQ0Z/zsQWAQld34wuOVR0+Jk2Pxm+Qz1iqdsEIrHkLB2Dh
-DdNCZy4F9BP9hNuqSJ/TqJJejbdg4ItDgU57LXzSYUFTHrvBZWMX3x/T11FwbUvqvfAXBpIIWAC7
-Vk9jknIRN1ZERJKGWcGCQP/bS6YWIAd5lWvqopXoF+wJMvZEN84+WUHU6duXidiS6OzUVjrDgpiJ
-IbGfXw/3B0yMGR1l6CjYIm5dVD00hswbV1LlyJxFBk7bB5g97f/s+xn+slZrrLytmKlPYlZsdZ9l
-QoeWLyEAjBnxbsyVevRcJyjfW14QrwAZMXnQog5nz1jPAfpHEgqDEZqdqzMbOZlxrW4fimVx/LF5
-caN1PI3S3mG6T11yOh/OTT4GJTH29XI8loTC0vqO7rcNV6/rZiwvn83ifaZ6TWvhGFTS65JO/WE9
-uU6QGo1eplOFpJyChcV8piOQGDAGEsPW+6AXqjeYrDhbLVnsk+HJA5gTFc3Y9S/9rb+jAaNJCN8C
-dGARuzu4zQtyqhG8A6e7B52a1Yzubq3JeEP0Q14h4p2aGhkfMv8vDtKTlZb5UqpY0G4HhWA0cMaC
-OhnbbGGhR4XkkX/7GpamwGBpckdohI31C5wGivqO2NT9jpirS7QfijNH8slXO5TXxb6FrVfV0so+
-qyR8SBVyLgA94TP5Xwg3pnB5dVW13O8vg7qMoDjgy/mbPZ6/Dsu6jjMgbyftsTI7HRglVRUE974L
-EtJLEpWR4w/I7s5QEjfeQ36jqtuGqym85XjRtmW1b73+XV1WVcW0kfXhtcvOjEb8HFaJkxUskuD5
-L51nYMyqrFnYbvUx5HFg2V+UqhlasnM0a5YTliqO2D/7EzUvs4r6eaSXbWY6lQfcsBEUc+lJzFgn
-bEBXOG5ClCDL6PqET4QJMjChMvfHZnS5KmeQTPsWIOmz4gR7teWvHytI7MPj7+boS0qeh65PgOV1
-H6MAx3fe4dhQp2olbT3jBTSdH6oDbNRVBFyt2RJmGiJVhcC7pO7j4S2SEt321ByPqAwQB/St/Piq
-+g48o4xZHeDX8dPyZAVItpTzFU55XyP/H8yNAs6vyBox8Ws20YYETr21bH3zFUUk1a2/uRRuaXvp
-nmq3mohXXTVTDMcx3Y8aWPWIaMMwGoMAw5EZN27Juy795VUeylJfKwzJmIrehT2zu2Wx90Mh2eOJ
-eSihSNlGDQF4bf2E5PQTQKXWVMgAWLyoGH4PQUpvgJzdclAoLl7xOBS4eTrp+ZBtEp2v8rMZPHBm
-PT+mi61kSrRK0lpRDJE/fj+oINj2ZjbesA6ioJt01dr+VbRwg+OcxTDLINS0AE789VzavHuNwb5a
-5B7c1VgunNojM8qSjIEAgvdLuY3ofJ5K6e/+gnzoeACU6u8=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute;
+
+class NodeGroup extends \Google\Model
+{
+  protected $autoscalingPolicyType = NodeGroupAutoscalingPolicy::class;
+  protected $autoscalingPolicyDataType = '';
+  public $creationTimestamp;
+  public $description;
+  public $fingerprint;
+  public $id;
+  public $kind;
+  public $locationHint;
+  public $maintenancePolicy;
+  protected $maintenanceWindowType = NodeGroupMaintenanceWindow::class;
+  protected $maintenanceWindowDataType = '';
+  public $name;
+  public $nodeTemplate;
+  public $selfLink;
+  public $size;
+  public $status;
+  public $zone;
+
+  /**
+   * @param NodeGroupAutoscalingPolicy
+   */
+  public function setAutoscalingPolicy(NodeGroupAutoscalingPolicy $autoscalingPolicy)
+  {
+    $this->autoscalingPolicy = $autoscalingPolicy;
+  }
+  /**
+   * @return NodeGroupAutoscalingPolicy
+   */
+  public function getAutoscalingPolicy()
+  {
+    return $this->autoscalingPolicy;
+  }
+  public function setCreationTimestamp($creationTimestamp)
+  {
+    $this->creationTimestamp = $creationTimestamp;
+  }
+  public function getCreationTimestamp()
+  {
+    return $this->creationTimestamp;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setFingerprint($fingerprint)
+  {
+    $this->fingerprint = $fingerprint;
+  }
+  public function getFingerprint()
+  {
+    return $this->fingerprint;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setLocationHint($locationHint)
+  {
+    $this->locationHint = $locationHint;
+  }
+  public function getLocationHint()
+  {
+    return $this->locationHint;
+  }
+  public function setMaintenancePolicy($maintenancePolicy)
+  {
+    $this->maintenancePolicy = $maintenancePolicy;
+  }
+  public function getMaintenancePolicy()
+  {
+    return $this->maintenancePolicy;
+  }
+  /**
+   * @param NodeGroupMaintenanceWindow
+   */
+  public function setMaintenanceWindow(NodeGroupMaintenanceWindow $maintenanceWindow)
+  {
+    $this->maintenanceWindow = $maintenanceWindow;
+  }
+  /**
+   * @return NodeGroupMaintenanceWindow
+   */
+  public function getMaintenanceWindow()
+  {
+    return $this->maintenanceWindow;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setNodeTemplate($nodeTemplate)
+  {
+    $this->nodeTemplate = $nodeTemplate;
+  }
+  public function getNodeTemplate()
+  {
+    return $this->nodeTemplate;
+  }
+  public function setSelfLink($selfLink)
+  {
+    $this->selfLink = $selfLink;
+  }
+  public function getSelfLink()
+  {
+    return $this->selfLink;
+  }
+  public function setSize($size)
+  {
+    $this->size = $size;
+  }
+  public function getSize()
+  {
+    return $this->size;
+  }
+  public function setStatus($status)
+  {
+    $this->status = $status;
+  }
+  public function getStatus()
+  {
+    return $this->status;
+  }
+  public function setZone($zone)
+  {
+    $this->zone = $zone;
+  }
+  public function getZone()
+  {
+    return $this->zone;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(NodeGroup::class, 'Google_Service_Compute_NodeGroup');

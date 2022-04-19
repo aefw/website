@@ -1,60 +1,172 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Rt7E
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute\Resource;
+
+use Google\Service\Compute\MachineType;
+use Google\Service\Compute\MachineTypeAggregatedList;
+use Google\Service\Compute\MachineTypeList;
+
+/**
+ * The "machineTypes" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $computeService = new Google\Service\Compute(...);
+ *   $machineTypes = $computeService->machineTypes;
+ *  </code>
+ */
+class MachineTypes extends \Google\Service\Resource
+{
+  /**
+   * Retrieves an aggregated list of machine types. (machineTypes.aggregatedList)
+   *
+   * @param string $project Project ID for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param bool includeAllScopes Indicates whether every visible scope for
+   * each scope type (zone, region, global) should be included in the response.
+   * For new resource types added after this field, the flag has no effect as new
+   * resource types will always include every visible scope for each scope type in
+   * response. For resource types which predate this field, if this flag is
+   * omitted or false, only scopes of the scope types where the resource type is
+   * expected to be found will be included.
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return MachineTypeAggregatedList
+   */
+  public function aggregatedList($project, $optParams = [])
+  {
+    $params = ['project' => $project];
+    $params = array_merge($params, $optParams);
+    return $this->call('aggregatedList', [$params], MachineTypeAggregatedList::class);
+  }
+  /**
+   * Returns the specified machine type. Gets a list of available machine types by
+   * making a list() request. (machineTypes.get)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone for this request.
+   * @param string $machineType Name of the machine type to return.
+   * @param array $optParams Optional parameters.
+   * @return MachineType
+   */
+  public function get($project, $zone, $machineType, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'machineType' => $machineType];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], MachineType::class);
+  }
+  /**
+   * Retrieves a list of machine types available to the specified project.
+   * (machineTypes.listMachineTypes)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return MachineTypeList
+   */
+  public function listMachineTypes($project, $zone, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], MachineTypeList::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(MachineTypes::class, 'Google_Service_Compute_Resource_MachineTypes');

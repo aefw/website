@@ -1,130 +1,177 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPxiMLdiOnAfybSh3M4wPJjpZY/sb8YFtIz43nuiM+nllRLqF3AcYq64odJ5gArB8pKyv5TVA
-eTIRKTUWg1z+oPYyDLsZ11AkOeY7XhZ8XPjez7rSVo7+pg2VydQJDR0+i40InYHRQ7TOLFEKErEj
-YeMf+xfZr4AaxdnlhywgApcRNsS0lOXlLN/T5wVGCG2A4TDKftXT7uMKrA6DIEI4vhdgg5Tz90k4
-cdlvn9W8o4X162mzGkmDmoicaLkzD1w+dVG6k1qUeXG0LBPlDdOPAgXbNb3wud1JBZLKXAWiWQO+
-IWNbLIrkkKWSKchv7AOBmOZKExqa5z+iXpfxsclAc6WwH2q6KSa7XIVk4NFkX9Wb3LHlVvbOJoqM
-3DEOz4g5N5/Pyil/bTfXkBT+nyM2Yj+uZ7F1QMB3A3ZkD0DkFMNkaxy6SQfTdbPQYUSxdcSk2Fsu
-a3RsPqZuoO0qeFUu3ODi8vhQGGAchR5mRzP/YTN4BQK97LSCwrttb2Tq7Syc+F+zXQmiXnwwwe8l
-2CkWDKlnsg28+O2EZyZtXHhCD787Ptfg9oSSe486CZF7HdXpoKGMwJ/4GnPWrO7BPrAdByObzJ8L
-TKm2Q/rUUptwSlo19Gi03F8/gxvDuDd5UzlnuliXPIAsBF/Sar9GuIkJ570ZWTDA6DVN107hxYyQ
-fu0uP6Dgot41ByA/pMg4JBydmkieD7X17G+FRIha3ZvfONXjIl3VRBCJJZf01YoBbhRca28AHznD
-U6lWKJjvdSF383iEfSA3W7DklUn92KPgsEEFT/JOUGd7dQiRo41RHuBaJuqLv64uhQuaO2gr3rY7
-/L1+FdLcqIQtye1noNYlirLDyHlUsFGEEMnTj9PoA1+q8HR5SNMw3V+yxtQytXc/4Pyxbr/e7CGe
-tlQ8J+2pFpRxRDuHe9sNHGWjHFqf2nRZ6Sy9aNLxvAr0j4ZgHvtq44yaq3k4QKxzRpPdYnVd6dgi
-YIOJaCbUxSdylZq4KaQCZZi8MbCvMJNQWhpU0ctZE07Qc69dFXZ7tJCAixnBbPpVtLM2vdLuO/7t
-gRPPqy8Gkqa6Mf62/UaUt0zrnYPnKBNu0DzJ/QaM/XS8iDMn6orWtTFfXxnoOtjZ5FsuiS87PN8R
-jawsFb1549qRYDn5K81ynFiSZIEQDOAdsUSAhTg0XAmHy+R6dZXPrliDi0rMJil0oJtl1bh6b3+t
-+sfUlc8xnVoMi78CEZgRQcuNIMsK80p3Xu50RznoGv9TQbgG2Fc71mJ5Z4t80+n0EhLfPKyz4sO/
-6GmCsuHVrtPCSFum6VHh+XFPWIan76AR3NAEzD0Rg5mBDG81M54CYKN9sjUWvGNCsFn9lvrnmVOP
-uIo1kEVkcdSB3yOP//VFn8pyQPgipZVa5k4LEHvKNFpkBYjF2+rXKVJNpcIT3OmiRsIOIRN9qJyP
-maJz2mr+MK6Vjmaz8/l8y7zV5pGGzq3jhpaTI+16k+LG/VaCYe5euz1dGA7oYV96qBax2tOlZ2Fj
-wYJR5h395Srl0YsOv22TuOjhIPCGFbfQeugP+5KYdegMtxcMBMDmxeXPqCQWrH5+QbT1LBZ144SU
-p/VycQnP9Ll/Ia5S6VD6dmYcsyUgl9DBmTrApsTlKPm6YsbPCYs+qsZboNCpu0+HJiwlAMBiCuiM
-6LUIzly16nPAWcJU7eLsjAczsK9oT2Xpy4vBwoWK/orB03diyvWBTs7Qyti/4Mp8STd4xFTd486b
-VsVMyS160qYKjtV9j8dA5iNuTSYNApLq19SAsWccnklI/9k0QHWj6eMDdbES6smVGcaYRt7OdA1D
-95oD5WkSDDf4r9z4iBXhvUycdz03oK5Aw4VpB+1BWdHq2chHDoClcdxJdMOdZ5yKx6zwu1TVrgwk
-EwMp2CKKopEoDMfUmZbkmfGxZGC6h2wiQZjp4ydyPYttYbESYkUywqhvmuWSgSSuu0K3ojVfG/p1
-9faNfnarCNkerMpZ4ntDr7hx95WLWSBNSfYyBnoyd2A1y2SarX678QLyxcJIv34Rfgh2ANhIpleB
-YX9dtF9pq/F9bIQuhNTCNl//KoBwy9CQ2iHJhw5YmlKEWQr3Ec0/8vv37FjPGxj9SkuV/Xa6gU56
-USjh+1SEKm57KJ7pzYB2f5pdQNZWBELPFN8UqU93hRBoOv5p4KAh2fH0TcT6A6I9Cg0NEHMkMypK
-IQFurv+zdrUwlPohyKHLS1EEnDOtJ8jRGXXeCiYcjK3kYo+vSTpkUESYMGdoePd+f7FejbMNzoKb
-YsJLa+SQea1pXR28x51dxF8XaGm837Le1+em3t/SFl3c6VAl41/ygGN85iImirTtO4b8qeJ6JTd3
-gIVLk3BHmXIMbMIBtfffdMMg+FTv/rE4VAF1/0DKaOqjhL9+nxcUIvo4fqmj24ScnwAWPSBBZHW2
-AIyFTk3PY/6Af46o4Hwnb1b9ZQqqZUf/ID4Ev8Bdvg1shjCvzZ4d0X6wWgiUpFnRB8fGP2LP+MYT
-uvybkFut+rTTZJuzZoX93m6t8dyb5u9XglLS5Xf7aIT1mJ9VOUYeZXz4HN7j5LZElNw5LhU+8WIE
-phq5UCE+6k9u2nDoRHdVw745ECdvHk/IdH987Khma+GEgZGqCIRS6f5BbVKbdQcciVPy0GzPY9Ua
-KyCmp6Q9EgIoKEozLuQaAAusrk86maIT3cTZOyOQMzSUOz/A0/xqO84fKErhdAen2fhCXrpqC6oi
-dX4olVVlLK0HRwNJrsDlMyAafOBp9LXi7KIj8awN8vqlsKT58xN0oJhsQS+hIMDS3dL77QFOiHWO
-q8P5ij3A5HvhKSem0CD56dpglFnQcC/oQTeadIZdX90KaDByyoqTsK1I2h2AzM315BZ5oRrGVzg4
-wLyt9LKqG69pxReKIcSUkLt+cCuqaW6Q144ahbARkm9NbcRiBsz0ajiSfCO8UA5qGT3ts0cjf045
-fcUupmRTtAJITDjLIXjQBHAj8Uk8xzTOD4SePErG2qCbhYUqMTQPUuXCCU1fWx7haXgY08pN/gLX
-oQtXnKy63ZzCXnE+pKGnCsxqdkXcMLrXNvhFn/McgqH8IIjS8V4GOhMi/rMz+YQ38Q0kXs7WPMQz
-rhyZQZMHXDq+8VLWUIaE/xTxAIzZYKz6TIoWGkRImtXZxSnzAHfgB/rbkfXNezTKo6frcpHZWP16
-3B9gWFCC8YUynKdXtThopl+bv4Mxh/4KhWD+Z1kNkfQ80ifkoV16/LarTbM5BK6OxGu8zt00iCfr
-x/+KfBrxDNEACjAc5Ndxx+h1z/E2wTBNSUBevk+403rgMEevld0htBXfqMXgPNhdD12XAmWfsSwL
-K7Z6heJQWeW153ZJkr12Pm34t4KU2oE7QfF726TLfOrfUtivvhnGnj0N9+HHmYoOTgYYX5IDvqdG
-j85NrhqEG/y1pYwmwMxgfU78QiIoimqZWNo8B9KsE8T12rkB10r0KbERXdzYtq37R/1peDLGbaQ0
-90EIOE0nedsa4wLMxaW9qFophEglc6gf87f9qwjTbjXPekiTHzjsOQ4pzFbJbNARR0PldOTvVQoW
-0OhFKoEvX25MqfCqbX0tSR1xqfN1TJIMxvrgtCMEJbx8e/fp/6+RQoV8COOTwjkPx2S1ivmoRkrW
-JObGkJVFd38Hk/rGykcMIJVD3U22GJE2IPhWrENg69f2+kBBEMvUt8Yh/rAef3YDBBGPIhgWxt21
-upNbBkmEXbpQf5s0OIj3b2AaN08Jfx9fG9b6GIFjvJGW2sRqfAFIiNazZlDIom+W8mIEWN9rioRL
-t6TNJk8hp5R/XuTUH/2/AOwPjbjkJiWY2ui7LtJYDxL4DhjzeGuw3d57uLTSSJetEqmYt0D7i7M4
-LnchydYe0lWNDdkzdpNxj990A+98d8MXt/b/yKgO/ljTxzj67ZYrgDB16UXf+Q2YB93/kdeBMT4N
-6LJ7MLElDGBiMgDEBZj7OeorTN/PWcs4uVIsA9uYI0GupdYxwYCTrEMu4Pxb73Ji7XLtGUA+KPOA
-bWUJR5Yi0MCmzVAWvgPJGZ5o7rv4TWbCogptj5qwobVkDgegvs9XM7pFVXVIY0sSYR744Wox6mH4
-ZulxaPT9Q2Y9oJGC9ohpGba/PjMXcWVMXu51H+VnO1bTwK2wGnXtlVuzIawBsE4nRyIYur4KvRdw
-OmKzWkk3NqSKvql4ZWNGZ/HlbubaRSDJTa9fcgc7w5GRHXTE29QKSGeg08GXVo8I0gyMTzlKoP+Q
-Vn2lbCKu4wYt3h1I7w0KSy9odc+9EOsvhFgOn18Z0HtsSmdAKtN8WoonZaByyM6gLn+wZKeESopR
-EDngO+z+5gQIioTj6D4L5ubQyKP2aKPbVOo0KtNEGwnkbb7U22kkNYP+FJE7tKji3hIjJVnh/JJQ
-N03mYP+51xK/hM6farmVeQnIPRSH43GYYE9bgBFvd14CcEaKijc+X368Ah62o1fqUWa04zQEe8K0
-umCGJCRIueVb5G+WAt3/z2ioBYNcBPIkX5qqCl0TW5eJRSIUJJrWTqikihvcp0MMfTKsMHzSh5ko
-g/AA2BSPZhJwZiNm0oqUI/WL+jEQb7mGp9WzMS7banu5RtQ6LN7A0MFM3MRDere0TKmd1WxMk2TZ
-Togg167dSWs/fDrnZtMtSViHxYomtiBY2jOn1mg/q7bSLaOq2U5i7R/XxD0WrhQtI5cwS8idLoY2
-BdFmwl9OpksyOePVq4xCneJMfNYoB/2UgwVj6UCVd/hHp9Gl9Zy3WuXe/Yk5OQs5Ip54zceAfh7W
-EPu1r9V/pbU6RkyCX38E4a9p+0z02vTGiF9YWYlO+aSk0unVqmTgVn6+Sb2TLk6col7X02G+0aph
-r5pbYpfMK9xZhXyug1FgmH9OFj7btRkfjC+IVPoCNKQh/xOGInEnJcCaBykoI/kG1LeJJ7uw6lOm
-xuHBYkB+xoM1EHJSUohHZOpSD6j/p+KlXfZV/q51MdHQSRN55cf/RtRuAwWpOnBR5sgfsS0+GQ56
-ZgZXp1OgH7qWnfHyKnpiq8kI7w8XQLDGFTsj83YUX8synu28UvvHVrnBAsTD8U9njiOrz2SNMBUE
-1XXqAEPUrjV8L8lveGloQwoqtEFR4zZIte9M/4bVaH5BHFw7zPw8K5ROdTBDO8ibcRZKDYdCWOIH
-GtCDhvp46nawsI46ROoNtKDUhZW5eb3vTaKYvipKtZsGFVzMEWLD5zE/GtU3hc4vtnitKD3MIUfp
-r63r7XWnyeLCTVER/K6or5QRi44AgdAmkj3XUoBA4Px096D0vrpO1eLYGWZJ/L6sfk3u73Legtya
-0kwIn8F9OdgeHktb6UZCuHuxvtDmBkRvSJ1xGX5ceJOR4Wslg0WnqDSKEWTdGxyZEjiQ9zqBUtfd
-WYnLqzPN0YZGR8eNaBfRBcPfHVKGm+UJnzargnBO1q6+GdmVW1jL4f+H5IhTBu+GyjO1yZJRywD1
-7lQCwSzWkzv1diJqooM9LGMOvyIdArRop9bKLoBVNHkNUeLpY6za0OXGEgvixdM+/1Bs9ULDq9QM
-ESqrWZGeUmbVwR4YJQAAMjlqd9PI6MDpk/g2pyjdVS+kj8D/S6NpXULh2KQHJHZ05UM27jSjJGVn
-qngwwGTZ8kW7gehn/bbJVFInmPNMudyzBjRTBsr7XLrHZtlu8/3GqzvbvbDIVqYAqAwG3A2UN3cK
-GEGl0uHwLmVAti0+567PfeYhUODfGs1ZHRPQU2aTjcf4YbbmkQuOQyiN1olPmgB7h2hc8xFw7qJQ
-K9sqvIYYbRnS9J8fqgJOYgpNketo0ol0UogdEbnz4Ai7tSrWuhKAEKA9cfqWrpOnvZux7MldDihe
-YCbXo+iSPqyZLStTmPu6uqYzA1oJMu7UNT9Q0g07NraQ36mRl0w0gY+z3BwHNHLiMpMrT50xmuJa
-8EU1cL7oqBlIWLEF/63wd8TBmZXmsyIX7QcyWhdFAZ2Ns1CN+pvk1RoAdAmeWmdNmC0t95Ye00IZ
-S1QZvzps5HsCIGd2UO/clwphjJcicJe243tvtbQHc52MJiKbZMGFy73mZmPPZeS0QsJ/R1MEop1+
-0aOadlbYYIhJz+Qvdx/al4R+V/DWxMATi+y/E+CNEhFzN+oUa7isa0f7z/n13YnCBz9qFeRE0buR
-ZKzuHHKAdR9WxgyYDOXxlEsBf866dJ+TJ18zD80KBsVyUqUWg+36WJkW+qd884pI2NaoIaQ1fx+m
-HOPakmNxs5Q20ezKOl+I/Cm4I92VES1ksD7u47iI8vWWJCvPkGDJbLw0HwPGKh9frZk2fpk3m2U0
-lmg6Vw5Ni50LZ5T6Yctt1oJittj3X9S/Ys0fyU4ZCqfY4f2A9eCL1NEPjLWWHJ5HsCJpb18sQFaF
-flpaOrotpEk2OSSjJMrnSB/bGNAG93aQLqms4dyJnehQzaAMEKfgzi6Mpib+wo6zJ9EU/s15XOcf
-sADgV6upJnNGdLxFcSpJyx8tL1ktjjRmk5VnyV1Ik/avHBPKjEuUbVEf+wxtPbr8elnSagC+89Ms
-0Cg/eNYceaT8hJ5YHLKpi6KcElzuNVp5buubsLsZtQb4VdzMGQ4m1UDz/wFyI550iZGqMS76mKHi
-P0Y4Jw8bgKAJgJKhxXSz4KKVVwAGZw2Xcc1b0TSzE6sorzY3M7RnkLM+kylSq9o81Up3/rZ7vmeQ
-RlVaMCQxrlq5scwC9/cgzQotHjfzlWGI9aKdpZFg0w+NnLEHtRjUVOiPVRKxKdFUzC0m1FTFthiN
-ivaTT7BrAC/8ioTcCqfqIT8dxVLJpK4faNQxruh4N9Rgaz1eLTFnWMmSOQW34kOMtymCIxB63EwH
-bp1NqbyYMKwYhB4ShAtvgTYdSmuXhS5HJ7eL5cF3sM6AOWBG92JZ2z/h1+gAahRiTfDSr1wzoUmx
-5AeuEbKWf0HIMnDB4Lvf9b7KLYxFTjuH/+bSifQzf4PW4Ew3hqez0DywiQxQ44fD4XU8XiUIUKTW
-RrV0Kvoh+bYSb0jtaAMJ/6oxljwfLhBwJ0NqNb2vJMLu15RYUO/IB3jGvKujptpjYVZ7GYuHmcek
-eITPHe+2dbClABUrQ8rIselz7BBA0d5HWcPTYi8FbNkqKVNTviLsj+VjueKu0ciV5dIFi6DiON/w
-ChnefhpVst9LvSRe0mVw2yQ/uH1wAxjx8VHoJSHtcvA7JB4NsRC4HwPw8ERuwe3vYNv7JW3vBx8N
-WFztTunobc2zITwDhEPIl1SzUp1u2fB8ib8q0qWTWHt5YqMyb2soNGgK7E+tUwU7H18oXY/1zs5j
-EamzPys+17Xz8FQ4EMFH3XDw9X+mVR2VrKVdI5UdqedieYL1AcnTFkdrfPTmFQz73eOmx2g3MmzL
-HUInW8Vue8YyNR5D16PwSfED1nMiNROfRJvjCFfTH67jS3URhjwOcrgVcxDpYvqECbs4pFxim4R5
-YH0SZk0x3926aDzbcxHDQLjvUSXV58WCw+IhcDzwNLcTjL5kpsU5lGSX9emJcIiMBU2mEn3D1nQU
-v0nPbkhXow3nwiSr5sJUzyg2OMD0rpK3kwUtPv6/cdYyGfCmOkFOPekdVI5/wj27zGPZ3X63A6OQ
-/dk7w6cuIMbYwCPRSb9BDB8YSON6YztGYQqO/raBIgrNX+psxyrs5AHtoH8DZjaoZpEyiHbGQy/z
-e49PT2AQJdRJYAfGN6JZZoJyBnCxEALi8A+MXFmiX7IxBi+HBqSwRg18CEQZ9iikmQL/tAZXsX4w
-JB2BeTMWIn5ATPFGrbCH+tx4FTFUWG885tDeVlfPBkRXjW92jms/MAtE81i0r63EROHdruOm9Tm0
-NrpFwz257vq6XZZqi8KA4YMwM1dxMxRhPFIzAOj3aIsVt8O9DbjLeUO38pZrzlAI9KgsigBa0vt+
-OS41CPhvfS4RdaHrNLcHzdSIwpK41mD0sJ2pwXUrebOVb6DkFh/JPA1IItXu2Kq4I3NeUxshv0m3
-BPC3Z9WHZx5MBWdA3DkumWrAYN5VEzrXz2/rSPAeWK0MSeJPNm2XydG49aKKt/JPsexgeQjyAciE
-wf4vExvNs+BObkN7aexcOdRCYJi7TaOuriEKDZwJEGIcRVBEnWrvC+n+m8E1Rfqot6cwzlPBC7P4
-fw9OTHIs32JMf6DDjy+tsZYPKbM5qm1TtQfjETIfX+VLkSQ/aV5dQzte/vc+KNGbDvgie+yMkvJ0
-X7L4ZdZhCIXf7HHR+efaDDd4j1UDWjx8XNApdUAFnooS6AxWRmh5UDvesLCqxFqjWr0dqxDUGXpz
-5q4L6y64O5cBMIS1AolIMdpIA8c8+375pUc0mZg9o73f5m4Abr8o/Q85sY/6extEhLdPK9RBvSFj
-C2ZFhZrgoJskPVyLR19m38yxMtDqc1Mm8JD0KJzr3fpymH0I6pPxFHzNNVq8tdrk2ZBBB9ABHB8g
-FSpC4BdgBnyoH5PY5gpg+D0TqAuqSBXgzbutLASJYIkRqDeZt02APK72+UQchpaxzxbgLDNp0D8K
-HQvCU6z2/+pKUC/aKspj0k0DSJbHrnhWE54Nm/8OdNZryr7F7PG7b+wW8t9n3hq+qL7InOLGyUXW
-JH7UOuq6yxDkuE7oqtkqisbVLdc+DlYTEzJwqPtRdARqOmoO8qgWT7OeD6SHo4Rx2iUxIvbhomRI
-wGEjG1AxfXLyx4257rfExDHN3cqXTJDabO9tppVXmtDLP0BtYvSBAkv7B0Cuqq4xhfxHhg6lTK37
-gbdey+JhPgYpPSfQQyQvOZG09oiXrV6aFRm9I/SpyRdztD+SKGfGprvDe7/Sx/agtg79Ykre5WRh
-0fBdEar3iuj3QEhRccRl441CmiYO6BjqdsJfrcu8AFp92eRD1w3hex7zJN4j2+ZCxKptQXp7v0C2
-j7rkYJEHo/QazkfzrR7RkIgtWFOu0jcd3I5HL5a7j0pwNSkSCq/HB55ulmD/PPTj07pBhzHluaxh
-kx612pRtmfdLFolBYEJ6RMcidCPp4WltxMRHikTSoCcVhFzhZ98/d6OhM1rMhMYdRdHQTDH51tJf
-HTIsfPT5hbWZz6/8jitpt3Dnrgf/mKFP3pvH/OQ14TCBXDR5S/NjQ0+MpnJf67XH/7GblkEfRCVF
-TjN7BHGsDVUgZb0UOM/Xf19RiuR4b5fJVL5myvEVvrVxHPznO/oncUaRaA2978iXr3zUaAQYJFmD
-W1ZzlblUenqpyiojPkjXUP+uotZf/oCMNQoD7oexT+mLSwgzPhGiLoNQY1udgu3osKUCgdJ1zU49
-hmMWzzUoKgeJr7x9agz0VkfPvmQYT760LV9xn9NsEJWQ6CUfiED9tKnaXVRMfX6ipl592h4Rizr4
-/Aobl5bv9VorwGYzKfjOG065gKubja4=
+<?php declare(strict_types=1);
+
+/*
+ * This file is part of the Monolog package.
+ *
+ * (c) Jordi Boggiano <j.boggiano@seld.be>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Monolog\Handler;
+
+use Monolog\Logger;
+use Monolog\Utils;
+
+/**
+ * Stores to any stream resource
+ *
+ * Can be used to store into php://stderr, remote and local files, etc.
+ *
+ * @author Jordi Boggiano <j.boggiano@seld.be>
+ */
+class StreamHandler extends AbstractProcessingHandler
+{
+    /** @var resource|null */
+    protected $stream;
+    protected $url;
+    /** @var string|null */
+    private $errorMessage;
+    protected $filePermission;
+    protected $useLocking;
+    private $dirCreated;
+
+    /**
+     * @param resource|string $stream         If a missing path can't be created, an UnexpectedValueException will be thrown on first write
+     * @param string|int      $level          The minimum logging level at which this handler will be triggered
+     * @param bool            $bubble         Whether the messages that are handled can bubble up the stack or not
+     * @param int|null        $filePermission Optional file permissions (default (0644) are only for owner read/write)
+     * @param bool            $useLocking     Try to lock log file before doing any writes
+     *
+     * @throws \InvalidArgumentException If stream is not a resource or string
+     */
+    public function __construct($stream, $level = Logger::DEBUG, bool $bubble = true, ?int $filePermission = null, bool $useLocking = false)
+    {
+        parent::__construct($level, $bubble);
+        if (is_resource($stream)) {
+            $this->stream = $stream;
+        } elseif (is_string($stream)) {
+            $this->url = Utils::canonicalizePath($stream);
+        } else {
+            throw new \InvalidArgumentException('A stream must either be a resource or a string.');
+        }
+
+        $this->filePermission = $filePermission;
+        $this->useLocking = $useLocking;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function close(): void
+    {
+        if ($this->url && is_resource($this->stream)) {
+            fclose($this->stream);
+        }
+        $this->stream = null;
+        $this->dirCreated = null;
+    }
+
+    /**
+     * Return the currently active stream if it is open
+     *
+     * @return resource|null
+     */
+    public function getStream()
+    {
+        return $this->stream;
+    }
+
+    /**
+     * Return the stream URL if it was configured with a URL and not an active resource
+     *
+     * @return string|null
+     */
+    public function getUrl(): ?string
+    {
+        return $this->url;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    protected function write(array $record): void
+    {
+        if (!is_resource($this->stream)) {
+            if (null === $this->url || '' === $this->url) {
+                throw new \LogicException('Missing stream url, the stream can not be opened. This may be caused by a premature call to close().');
+            }
+            $this->createDir();
+            $this->errorMessage = null;
+            set_error_handler([$this, 'customErrorHandler']);
+            $this->stream = fopen($this->url, 'a');
+            if ($this->filePermission !== null) {
+                @chmod($this->url, $this->filePermission);
+            }
+            restore_error_handler();
+            if (!is_resource($this->stream)) {
+                $this->stream = null;
+
+                throw new \UnexpectedValueException(sprintf('The stream or file "%s" could not be opened in append mode: '.$this->errorMessage, $this->url));
+            }
+        }
+
+        if ($this->useLocking) {
+            // ignoring errors here, there's not much we can do about them
+            flock($this->stream, LOCK_EX);
+        }
+
+        $this->streamWrite($this->stream, $record);
+
+        if ($this->useLocking) {
+            flock($this->stream, LOCK_UN);
+        }
+    }
+
+    /**
+     * Write to stream
+     * @param resource $stream
+     * @param array    $record
+     */
+    protected function streamWrite($stream, array $record): void
+    {
+        fwrite($stream, (string) $record['formatted']);
+    }
+
+    private function customErrorHandler($code, $msg): bool
+    {
+        $this->errorMessage = preg_replace('{^(fopen|mkdir)\(.*?\): }', '', $msg);
+
+        return true;
+    }
+
+    private function getDirFromStream(string $stream): ?string
+    {
+        $pos = strpos($stream, '://');
+        if ($pos === false) {
+            return dirname($stream);
+        }
+
+        if ('file://' === substr($stream, 0, 7)) {
+            return dirname(substr($stream, 7));
+        }
+
+        return null;
+    }
+
+    private function createDir(): void
+    {
+        // Do not try to create dir if it has already been tried.
+        if ($this->dirCreated) {
+            return;
+        }
+
+        $dir = $this->getDirFromStream($this->url);
+        if (null !== $dir && !is_dir($dir)) {
+            $this->errorMessage = null;
+            set_error_handler([$this, 'customErrorHandler']);
+            $status = mkdir($dir, 0777, true);
+            restore_error_handler();
+            if (false === $status && !is_dir($dir)) {
+                throw new \UnexpectedValueException(sprintf('There is no existing directory at "%s" and it could not be created: '.$this->errorMessage, $dir));
+            }
+        }
+        $this->dirCreated = true;
+    }
+}

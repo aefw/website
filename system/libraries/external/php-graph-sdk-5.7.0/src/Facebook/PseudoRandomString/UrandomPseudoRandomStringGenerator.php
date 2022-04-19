@@ -1,66 +1,89 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPmnpCw1CqOUNURscWvS7R9+1jykaSfcBChB8yZUF1DlVXiBGEUXGryCIi21HPc74cD0ZoCyn
-YKfe3MBejYbX3cnZdUUOvKbA2fRp0K/f6or/WOZAWEpcLiSgpksVPnNjlnfpzq8bewIID4wTleI0
-b/63QIq5PF2I5iK2ER+/tue/yCMHBR7vzgHZskb6fPqlk4HHPj2vVCFtFyLN1rZ0aJCfDZJj/vAg
-Xw2r+5yfhx2sbVHrYzYQli/Wl8vGbuTJxwBvivTd5ny/6dnRe35zLZXXTE9mKourL8IeB86cFae5
-vLL1TPrqqsR+JPS+KC28LBaAEQLNXhjbe9J9zlk+ZD1mM+C5MqbuHPDFet1GXGnaKP9cZt/vXip8
-lHUuyuOqSBexVqXa567U9zkpRDeLFl5whm1dJICjpHYaWAPhcaOBB5pTbKrYlcqhYqcAombXYz4l
-6QZxzXiLpLZ4IvX0CdzrK0/4Ts3KjOyKwhWe+phN9JTGQ9wXxFyc0dp+aCwthEcT3YwBZ3boXGaQ
-UpIrGOME+c/kggnBlN6P1q5PzN7CSZRUiVhKIzFJwmlvaT7AgNKweyJFJYvS1T103uP7N1izPzHc
-U8V8MFmGjqcRvWJ6K1lNs3Y+u0D06HLqJq6ihkYuRahutoQqRZwFv7wZbFpg83q1FY9e2/1qEB63
-PXeXCm0LYF5Gyned12HcasX2QGB33EitNt22uJxgciMcvPklvBlqAWqL+If+BnirKMyzzwFqWUfg
-7Ewis7tCpXALYAzjqlw4yFCvacrPkk4ttahvoLAqxH7OvjUJFwPJ07E/3u599Xw+ZUyMNxwb8Aa5
-GMjZov+NErJOE8h8wiRXUDcxJdcOX1SDh91jJ9Cp/gy79hVMwCPhPijkGmjKWKQsg8aTzgsTv9Yn
-qG95EnQsV2NvRiFfltRVJcaIf0i0WQkeRykAGLpbPrL591aoXKba4rp9CmNCzImU555ZgOQoPZlc
-cX8JJ8CYYESZSiaEh8OWpMs2k2kXgZEBQLHoklxXQ1u5Oe26RHWAa1T2a+LwfNPr1oT8dIT/TCV9
-u+4rGuw42qL7rOmxNt4mxxePIUtH1EbeWBo/fHnVYe9l8BVU7g3T5zkwjf59WGBNpC9zCoYaVMjM
-vG5Dct99LewTmFybtlyv7IFo047t1059iia+b5X/1rC1Mz96GbQVBcQ40trpmVdA8sVRuMZnzxN9
-R77pVNARFnXKGzbnKaHonxvgmUo1+bEau1TgNsBHSI7N2fQUqPDI0ruJh89wK4OW98KflU2OL+Xn
-ku8P4HoLGZwPnwzQKqoTijap5K3/wMmhiFQ5Oj50e2+1cjKJ/EtYFrb/pWtByL6izJXxrvmSAaDU
-5KvgQjCNSFROl9NyOSceE5QSPJZcg35PyflpBybXJHIQrYwFXx7w/kn7uZ9DlDfp2HJ2bXjbrJkk
-SPKVERULcktfUg7C5EkYii90qyDArgHiRVonZxKwqTy9C4BGHKwi/eISB8UWsUSD7xT9Ep6rK9Gv
-JKTiTw9dfpM7w8nf24HMY5fswF3ovpyGy++Hki+/eBaKyYGBQXVGSii77Sb/Ksc5uLd4sgbvvF+G
-a/iXZBto+3j4t+x0VU1halk2Af8H8xgBM/gu1H9UOOiBQYTJvvs9LEOti7cMYlSIArvBbZM1NwO1
-qYJtoEYKkfKsRF76PPpr4t8RDSc4fp4YVamlDF/BUrvqbJCO/oEDsb0wZX16Te2E26C+EqVYUWbJ
-Ji3/1647nTy0f/JZBF15b+ifgkiRJ/xxJfOVHZ0AJDjFWy4GVjMmlVE69KgdVOAzLADk5mzmP9+u
-S2wEhCW5WktpQ9+n050cLVem4jlD51U9qKKa/v5ykI6l/v5QIKcpbdDZ43wZ5xKobPJXYY9F6HmF
-7Lt+UjrPxekRJxyiR6yxQ2dd8jmE1a2U1xLumVS+KYV2rDwu/Ro8egUcqMnQIT+2IC3h05J1GXEV
-nuCSLeOHC8J75HnccqCbggHOujAyOQgatqJEQgB2BtwC1VP9dGKC1KCEaNc71kGOgvfyyDcRxep0
-b5U3Tw97IXXSKyOQq2bL4sx9VyBcbDQZa3WaVI8txLBu1iXHdG/OQFWG+Bxam4aZaqdDUai7OwdV
-YrRXXuWuYnd8Bfm2ijBUGeqRIBsGtFJzDiWKOqQU5rM5CEhIC8pgY1jiLxEO1sDYs8byfKUFRlxv
-zDo9DhxYp00U+MZuQwCTITv6WiKvo41mpALcD4jP1icCjoG6yhcWMNOF4S7Ag2+kHR2uMQfnFdT+
-1ZbBmGmtIHZQxfAvSjO/DxphgCWsbg7svZ7c9AJRvJk30Xa/zBr0RLsXECYS74z20K2lDgR5Sc3s
-TN8386MBl1fFMPbUi30vOqMyt+5ZcuN0Wil3c9dynJvFBud0sTEQd63QRzxyVGVxHXD7zwxCrrV3
-qob0T5DiDT7Y6WFs0POR0vHpOKT4dHfvUptiQrq8ajTLhrKWPcg8dcSbXwGRcIasMn7pwl/1VLhb
-akTe/PHsVAIg6ei06i0LVgwzSM1zKWppkfllwjgo6z9UPul2sDhceej7l9a2Lv92dSxjV8sTY1R7
-bfk7C9DEi+h9DF1TpZsW9wb+0uvIB18+5RbsLgVHSb6bcsBq1FN/KNEAV3ZUeLSstL3BY3PE9uSf
-x5l9Ikosl6HrSj5Nz8w3wHhyIKXJk00UKAAMRaZrdUPA2hwqBjsFl3eWdfpzZpZX0WEpmdOARzNn
-4TBPLsX4A8mmbSbMKf9LToug/yGGoqeDt9oTdgZhhk8HdckA94LkDsfdwh/EdZwTDl2yQayOQuje
-EBZCSXUAyKqndIJT1xVDyNEMwVhtVxdeUgI8kbNRkWFKGyS+GDJjG2WL0+udnYNehptBcUqXcLqT
-uHRmW6D53zX0Ru2J56chkrjIpFthuCXN/OPLnbhIFVSbsEf3bEX4aFgqP7HRzZ9chKMINeLeAs3e
-ZtWZJIsmOquNX+8nj/lwXFc80W3z/YwvGqJT4T07y/rg+vbKJ8Qhj6AG5EYausWpBTcs66pNpqV9
-WewXt3ucRnVUrGqgJPxtjKxcQ9gT8bcL2isMh0BI5sL+mMw/dsJO2oQY6DoqbWANmdtpzXXR/Gzt
-blqrjiB+o6j0drC8gD8hhLVJ1PONgq9aa5ltIGkDu6tOPX46J7KQD7XWN2Pkw26bhA7jDTgPrJya
-v5HvHXS2No3eS3vVVwCnH+9oolVIqBM7Itr8M5aNSKzBLZ+XGUEW//LQgJWk+ftpQhB6wBdYpebN
-IbxPp4Cq2eQgmlchyAXAN0OQh9oWfvFQjyUjZ8B0GsVElplvSJIwxnHh7Hec7bUPIlsl+0R0BNeO
-kum5fL9h2qZjnhwVhD+cCGcrWMmLBCTzgYrsJXBxh6TBM2ThfRGEPI/9lobSxeENKjt7yOVBaWz9
-U7WVVyLT49+MpbrBhgYDpo+6Eed7K1oFAClMyRVwXaaWMNidCYGxGf3sg4w+b5wB3dZMaDDv8GFF
-0mm+t9Ivv/VPL5w9HIYTLdbEA01jq54tKKCqZTbhy9b/2YLlg3HZ/+9dB4HGge24VYUg8iXv5ljC
-UKyx9Tp12f48r5aGYrWdYg9lckVjNKS2IInenxyEVwzym1DQLKIgplEM01TtEFAlBuJQgKg1fYPT
-iBWeuyW3oDcrOc9Sxf63/4rqCzUASY+L/wWhDucCPdmq2TiJq6oM4DdhtLX8TltJP80rYs/iIy3g
-T2PFLpSUWE9WA4rJyqmjqVGrzXowOFjdTuvgmPcSk9O1yMB+rpIS3KJPHG2h4bK3lEo5J0nG1YFW
-sxKi9gFhtaz7oKV53et+bwKHek8DobAmqj+S0GTASrE4LUGqqPrxDy/CZ2uXVZqHewpc89UQ8OGg
-rLF7sKNfyd19WIAu9Q+ulkwRifs4TsarS4vBt60nvYvP36u1GWFav7e01eymdfu0FiWeQxp7UnhW
-FLzTC1T2/XeZtxz5Gdvy5KN/flbu5nH25VajaK5DakkPMuNHVVGf5AEBzXvhXmt64Qxkv6Jlu6np
-Be6S35dHUWIi+PrPOTNAwnC1gzxCDas7R1v93qSYnVeAdRRL3c+ojGhklfSVGKTvywHixES9Wt/J
-vrbNZx796CkzUqYZ0HenxbXI5QCgY1yeymn2ddN+oY0I34pQDGbqY8oAH+uAhGo6wevPXxGbcLPe
-kfLbXdkf0dDdR6AiiGp1xZRnCVWGP3B7jiF7iQ8uGRib6tuTlMk3N/eEd8bQ/yaPszUv5I9o/iCD
-+itR20iziIWY/DQglsOqKN4Dz8MIf/Vz+H6sVUd+k6Rn/YTI5Xe2mqE9xd260MKdsRbwN4V2qwxg
-m9hNLiUBnZQyDSGrGBXdEw8c4dYmB4SU/mDXUhpzfyDwrfUnwYUq+7vLV3F0PQJM0j20kzKMOUnj
-hao+hauktvkyQ3Wk6o3wMv7R7se47vgz9fWxPKiQUZl5iSy1R5mxMf+uhvSZwuQ3U1wzJIQT//MA
-qYh/7w51nGwG/dW1oQm24UQd
+<?php
+/**
+ * Copyright 2017 Facebook, Inc.
+ *
+ * You are hereby granted a non-exclusive, worldwide, royalty-free license to
+ * use, copy, modify, and distribute this software in source code or binary
+ * form for use in connection with the web services and APIs provided by
+ * Facebook.
+ *
+ * As with any software that integrates with the Facebook platform, your use
+ * of this software is subject to the Facebook Developer Principles and
+ * Policies [http://developers.facebook.com/policy/]. This copyright notice
+ * shall be included in all copies or substantial portions of the software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+ * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+ *
+ */
+namespace Facebook\PseudoRandomString;
+
+use Facebook\Exceptions\FacebookSDKException;
+
+class UrandomPseudoRandomStringGenerator implements PseudoRandomStringGeneratorInterface
+{
+
+    use PseudoRandomStringGeneratorTrait;
+
+    /**
+     * @const string The error message when generating the string fails.
+     */
+    const ERROR_MESSAGE = 'Unable to generate a cryptographically secure pseudo-random string from /dev/urandom. ';
+
+    /**
+     * @throws FacebookSDKException
+     */
+    public function __construct()
+    {
+        if (ini_get('open_basedir')) {
+            throw new FacebookSDKException(
+                static::ERROR_MESSAGE .
+                'There is an open_basedir constraint that prevents access to /dev/urandom.'
+            );
+        }
+
+        if (!is_readable('/dev/urandom')) {
+            throw new FacebookSDKException(
+                static::ERROR_MESSAGE .
+                'Unable to read from /dev/urandom.'
+            );
+        }
+    }
+
+    /**
+     * @inheritdoc
+     */
+    public function getPseudoRandomString($length)
+    {
+        $this->validateLength($length);
+
+        $stream = fopen('/dev/urandom', 'rb');
+        if (!is_resource($stream)) {
+            throw new FacebookSDKException(
+                static::ERROR_MESSAGE .
+                'Unable to open stream to /dev/urandom.'
+            );
+        }
+
+        if (!defined('HHVM_VERSION')) {
+            stream_set_read_buffer($stream, 0);
+        }
+
+        $binaryString = fread($stream, $length);
+        fclose($stream);
+
+        if (!$binaryString) {
+            throw new FacebookSDKException(
+                static::ERROR_MESSAGE .
+                'Stream to /dev/urandom returned no data.'
+            );
+        }
+
+        return $this->binToHex($binaryString, $length);
+    }
+}

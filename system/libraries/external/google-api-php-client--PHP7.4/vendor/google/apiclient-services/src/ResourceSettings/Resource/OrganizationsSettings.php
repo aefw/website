@@ -1,60 +1,102 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ResourceSettings\Resource;
+
+use Google\Service\ResourceSettings\GoogleCloudResourcesettingsV1ListSettingsResponse;
+use Google\Service\ResourceSettings\GoogleCloudResourcesettingsV1Setting;
+
+/**
+ * The "settings" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $resourcesettingsService = new Google\Service\ResourceSettings(...);
+ *   $settings = $resourcesettingsService->settings;
+ *  </code>
+ */
+class OrganizationsSettings extends \Google\Service\Resource
+{
+  /**
+   * Returns a specified setting. Returns a `google.rpc.Status` with
+   * `google.rpc.Code.NOT_FOUND` if the setting does not exist. (settings.get)
+   *
+   * @param string $name Required. The name of the setting to get. See Setting for
+   * naming requirements.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string view The SettingView for this request.
+   * @return GoogleCloudResourcesettingsV1Setting
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudResourcesettingsV1Setting::class);
+  }
+  /**
+   * Lists all the settings that are available on the Cloud resource `parent`.
+   * (settings.listOrganizationsSettings)
+   *
+   * @param string $parent Required. The project, folder, or organization that is
+   * the parent resource for this setting. Must be in one of the following forms:
+   * * `projects/{project_number}` * `projects/{project_id}` *
+   * `folders/{folder_id}` * `organizations/{organization_id}`
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Unused. The size of the page to be returned.
+   * @opt_param string pageToken Unused. A page token used to retrieve the next
+   * page.
+   * @opt_param string view The SettingView for this request.
+   * @return GoogleCloudResourcesettingsV1ListSettingsResponse
+   */
+  public function listOrganizationsSettings($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleCloudResourcesettingsV1ListSettingsResponse::class);
+  }
+  /**
+   * Updates a specified setting. Returns a `google.rpc.Status` with
+   * `google.rpc.Code.NOT_FOUND` if the setting does not exist. Returns a
+   * `google.rpc.Status` with `google.rpc.Code.FAILED_PRECONDITION` if the setting
+   * is flagged as read only. Returns a `google.rpc.Status` with
+   * `google.rpc.Code.ABORTED` if the etag supplied in the request does not match
+   * the persisted etag of the setting value. On success, the response will
+   * contain only `name`, `local_value` and `etag`. The `metadata` and
+   * `effective_value` cannot be updated through this API. Note: the supplied
+   * setting will perform a full overwrite of the `local_value` field.
+   * (settings.patch)
+   *
+   * @param string $name The resource name of the setting. Must be in one of the
+   * following forms: * `projects/{project_number}/settings/{setting_name}` *
+   * `folders/{folder_id}/settings/{setting_name}` *
+   * `organizations/{organization_id}/settings/{setting_name}` For example,
+   * "/projects/123/settings/gcp-enableMyFeature"
+   * @param GoogleCloudResourcesettingsV1Setting $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudResourcesettingsV1Setting
+   */
+  public function patch($name, GoogleCloudResourcesettingsV1Setting $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], GoogleCloudResourcesettingsV1Setting::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(OrganizationsSettings::class, 'Google_Service_ResourceSettings_Resource_OrganizationsSettings');

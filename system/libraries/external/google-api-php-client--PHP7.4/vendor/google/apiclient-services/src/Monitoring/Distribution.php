@@ -1,69 +1,111 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-2w2IOEOW
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Monitoring;
+
+class Distribution extends \Google\Collection
+{
+  protected $collection_key = 'exemplars';
+  public $bucketCounts;
+  protected $bucketOptionsType = BucketOptions::class;
+  protected $bucketOptionsDataType = '';
+  public $count;
+  protected $exemplarsType = Exemplar::class;
+  protected $exemplarsDataType = 'array';
+  public $mean;
+  protected $rangeType = Range::class;
+  protected $rangeDataType = '';
+  public $sumOfSquaredDeviation;
+
+  public function setBucketCounts($bucketCounts)
+  {
+    $this->bucketCounts = $bucketCounts;
+  }
+  public function getBucketCounts()
+  {
+    return $this->bucketCounts;
+  }
+  /**
+   * @param BucketOptions
+   */
+  public function setBucketOptions(BucketOptions $bucketOptions)
+  {
+    $this->bucketOptions = $bucketOptions;
+  }
+  /**
+   * @return BucketOptions
+   */
+  public function getBucketOptions()
+  {
+    return $this->bucketOptions;
+  }
+  public function setCount($count)
+  {
+    $this->count = $count;
+  }
+  public function getCount()
+  {
+    return $this->count;
+  }
+  /**
+   * @param Exemplar[]
+   */
+  public function setExemplars($exemplars)
+  {
+    $this->exemplars = $exemplars;
+  }
+  /**
+   * @return Exemplar[]
+   */
+  public function getExemplars()
+  {
+    return $this->exemplars;
+  }
+  public function setMean($mean)
+  {
+    $this->mean = $mean;
+  }
+  public function getMean()
+  {
+    return $this->mean;
+  }
+  /**
+   * @param Range
+   */
+  public function setRange(Range $range)
+  {
+    $this->range = $range;
+  }
+  /**
+   * @return Range
+   */
+  public function getRange()
+  {
+    return $this->range;
+  }
+  public function setSumOfSquaredDeviation($sumOfSquaredDeviation)
+  {
+    $this->sumOfSquaredDeviation = $sumOfSquaredDeviation;
+  }
+  public function getSumOfSquaredDeviation()
+  {
+    return $this->sumOfSquaredDeviation;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Distribution::class, 'Google_Service_Monitoring_Distribution');

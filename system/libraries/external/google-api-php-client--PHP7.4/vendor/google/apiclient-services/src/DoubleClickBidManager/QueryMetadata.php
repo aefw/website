@@ -1,85 +1,126 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DoubleClickBidManager;
+
+class QueryMetadata extends \Google\Collection
+{
+  protected $collection_key = 'shareEmailAddress';
+  public $dataRange;
+  public $format;
+  public $googleCloudStoragePathForLatestReport;
+  public $googleDrivePathForLatestReport;
+  public $latestReportRunTimeMs;
+  public $locale;
+  public $reportCount;
+  public $running;
+  public $sendNotification;
+  public $shareEmailAddress;
+  public $title;
+
+  public function setDataRange($dataRange)
+  {
+    $this->dataRange = $dataRange;
+  }
+  public function getDataRange()
+  {
+    return $this->dataRange;
+  }
+  public function setFormat($format)
+  {
+    $this->format = $format;
+  }
+  public function getFormat()
+  {
+    return $this->format;
+  }
+  public function setGoogleCloudStoragePathForLatestReport($googleCloudStoragePathForLatestReport)
+  {
+    $this->googleCloudStoragePathForLatestReport = $googleCloudStoragePathForLatestReport;
+  }
+  public function getGoogleCloudStoragePathForLatestReport()
+  {
+    return $this->googleCloudStoragePathForLatestReport;
+  }
+  public function setGoogleDrivePathForLatestReport($googleDrivePathForLatestReport)
+  {
+    $this->googleDrivePathForLatestReport = $googleDrivePathForLatestReport;
+  }
+  public function getGoogleDrivePathForLatestReport()
+  {
+    return $this->googleDrivePathForLatestReport;
+  }
+  public function setLatestReportRunTimeMs($latestReportRunTimeMs)
+  {
+    $this->latestReportRunTimeMs = $latestReportRunTimeMs;
+  }
+  public function getLatestReportRunTimeMs()
+  {
+    return $this->latestReportRunTimeMs;
+  }
+  public function setLocale($locale)
+  {
+    $this->locale = $locale;
+  }
+  public function getLocale()
+  {
+    return $this->locale;
+  }
+  public function setReportCount($reportCount)
+  {
+    $this->reportCount = $reportCount;
+  }
+  public function getReportCount()
+  {
+    return $this->reportCount;
+  }
+  public function setRunning($running)
+  {
+    $this->running = $running;
+  }
+  public function getRunning()
+  {
+    return $this->running;
+  }
+  public function setSendNotification($sendNotification)
+  {
+    $this->sendNotification = $sendNotification;
+  }
+  public function getSendNotification()
+  {
+    return $this->sendNotification;
+  }
+  public function setShareEmailAddress($shareEmailAddress)
+  {
+    $this->shareEmailAddress = $shareEmailAddress;
+  }
+  public function getShareEmailAddress()
+  {
+    return $this->shareEmailAddress;
+  }
+  public function setTitle($title)
+  {
+    $this->title = $title;
+  }
+  public function getTitle()
+  {
+    return $this->title;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(QueryMetadata::class, 'Google_Service_DoubleClickBidManager_QueryMetadata');

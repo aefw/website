@@ -1,65 +1,70 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-NV8=
+<?php declare(strict_types=1);
+
+/*
+ * This file is part of the Monolog package.
+ *
+ * (c) Jordi Boggiano <j.boggiano@seld.be>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Monolog\Handler;
+
+use Monolog\Logger;
+use Monolog\Utils;
+
+/**
+ * IFTTTHandler uses cURL to trigger IFTTT Maker actions
+ *
+ * Register a secret key and trigger/event name at https://ifttt.com/maker
+ *
+ * value1 will be the channel from monolog's Logger constructor,
+ * value2 will be the level name (ERROR, WARNING, ..)
+ * value3 will be the log record's message
+ *
+ * @author Nehal Patel <nehal@nehalpatel.me>
+ */
+class IFTTTHandler extends AbstractProcessingHandler
+{
+    private $eventName;
+    private $secretKey;
+
+    /**
+     * @param string     $eventName The name of the IFTTT Maker event that should be triggered
+     * @param string     $secretKey A valid IFTTT secret key
+     * @param string|int $level     The minimum logging level at which this handler will be triggered
+     * @param bool       $bubble    Whether the messages that are handled can bubble up the stack or not
+     */
+    public function __construct(string $eventName, string $secretKey, $level = Logger::ERROR, bool $bubble = true)
+    {
+        $this->eventName = $eventName;
+        $this->secretKey = $secretKey;
+
+        parent::__construct($level, $bubble);
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function write(array $record): void
+    {
+        $postData = [
+            "value1" => $record["channel"],
+            "value2" => $record["level_name"],
+            "value3" => $record["message"],
+        ];
+        $postString = Utils::jsonEncode($postData);
+
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, "https://maker.ifttt.com/trigger/" . $this->eventName . "/with/key/" . $this->secretKey);
+        curl_setopt($ch, CURLOPT_POST, true);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $postString);
+        curl_setopt($ch, CURLOPT_HTTPHEADER, [
+            "Content-Type: application/json",
+        ]);
+
+        Curl\Util::execute($ch);
+    }
+}

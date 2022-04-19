@@ -1,151 +1,456 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPzU3jlxbD0lnW5eZtK6sJzkWlUeANseUP938v6tmwUSWp3q/nMFdMTOxLr1X+EOKHUiYcebQ
-UwOhg41/K3aKCFYmqbVqR+lBxxni7vMfW64FZtPimIDf6n8LV6NFWW4hiGvBte4fsbpTEJE+WFA8
-mwoxqikWQFO3M8qm9JcaSKkMBkRXrgAxjj1c7Irgz+o9T3sGFhmJGReaBYWF8umJXWLeavH8wUoB
-XO9zeP3RJI+YpzFH4H85shysyjoO4a/IAMDsgX/KDuS4uMZYZCWpWKyGCU9mKourL8IeB86cFae5
-vLK5RzWWC/3NByLR9As8rEth5l/v117sjK2Eo4uFeHnpAZW0a10h6Y/qBQrl7LepFKAAx2iC58J7
-cCtR4aKWNh3lDU9sX9lnG4/hKW/lmnULrWqHVy6wUclBa8W6dAV0wGhMuv7BDaFiY+6rl0CViqH8
-W0LG7sKdiv5Xj+MF0mzKnOu3kbnx5B3opjUnUzd0yLGUJMpKhx33I+yK5mLDkpWPHGx35GDln2BZ
-BiRbl5xkQxsmjkW68CCRqZcLBNo91B2syexmbiWD7/i0yUyePtATqmlnfR4Ublcv9PM6LGva/jlS
-6e5mSHS9rMHSrccAdS6o1fS1GR7EMYnP1a/8kG815z+gt5fMxyVaPB81ibNzXpHW/zKoIsPAPr00
-Lc9IAAFgqvqTnYf3gyvLffJz61INkWJ3BFmojA9/mJFPSfwL6Fh1+xkDAQSOnTC0AyfsWWfjN2n5
-yh+lar+rJ2/KWoo1arJDSrAqV5Cd+LY1fcit/WXgrVx8bEQ2IfpppdEzoFkmT6LcSOEzttGAYyIh
-TVqauphYjGafoy8YhUnWsWcsTxAQlalS4+hdk+Q2z7ODj2Or0Oyd8Ww6yM+xEpszWctTcGyhC/rp
-Mk0Djkku1Yct+eM3SJzynWZsyWfTq7SYG/+XIxJbnWm3+Y0NjuNpCkuNu2jV6ziXESFgRjHhoSfA
-bUUuP+hx4kb5Q6RMPf7Bk7lmZNfxNGfOswABHzBw8T+0nwTqTYozDBQqOzV/EtySWFah4RpwqXtq
-qKrEWToeDg6JKJOAjspPE/YsrUGNLvUszlOJJxxlm+rywgXL3ALOJ0AwKWS3CZ9T5Phtce74hGxn
-icH6IvY27bnWJmZvmUShW7qq55sNbpwDhIArVEotccifWr0TKX/jRZ8RkENz3CEFiMfzcgNni4Nw
-NyXKSvNnW1C8r/itlRHag9jz4+FYLcI9lH3+2JxmQdDVGNng9K6KWDBG9uroaBPPFVfydItMStXB
-+falYTQ+xQdhNnd5AqpG+K/F1yHerKrsNPHTHKPtJpWNuCueH0nk3e2ig5zBrcpYNs2eGFng+yk+
-dR6r9aGZVFdDWFd7kqFyWPLps3XuztlhnxLrdBJbiWpfZqlsN8OYIEal8+Hm+PGoMGx60dkxlQz9
-fmZcfn6X4RHnfP3wzEHoGRNECy1egVKohG1kEuiGzRpOOytDnloFpQpYx2F0qZ1tZHRsLPsC14om
-xuUZfhZuuzfpONjMr2IbLEWMQCystIGG5ZeTtCm1W19IekjnFZHh2fFbe+/BKeVuVY517xdsBlBx
-EFXR90M2aSsznSt/s2GA3LJd+4PvqeDO/AAja8VLEwUe5ArlpFDmNCyxn6wD8GwQOJ5QTZ2nSGVh
-hhYm4YIrnfN11TYRq1Q+l5/lv8Q0Ctm2kXyzTCOToQmVyWBNgXRvw6Pf2KDfJOtSnp23Had23gbz
-JGw2sq2sbw4Y7dOG9RZdKNlH3uxyXigASE1EUxax4gFKiWDH5FQh26sCcA7Q+U0Or/naPHlK+a4e
-rPSO7YNIMq90oCj0WKnZphfDfHEwiIjRg0HXBSXndU1MHIJzHtYTX5yCa3c2da1Jo4x6oNHI/vMF
-D0Cb+Ak4l7FR3Qe7X1Z9+1cMvPBOCXj4lLjitIZ16Y4R8+Vp+aAuGDt7h/YstfRx54HdYdgQfuaI
-RAjWzgyxj4rm3zkU/Jb22DmjOcVl4004SBaH0P5P4qCkMNi3GCuiKtCHNFQUe65HdhSf95N/1GxV
-XpXS3mp/+ToKHRJVp0hQAwudVmcs1FBC2oyIFQURaUBSJRZekztAekei/lR6ZpCc7uH1JKlGZe9V
-hEdmLGrcyB/8dXuJCwstBRFjL/6wZYvcKHyWMVdUk0K0aLbV1YBBp1RWmsmz0utNzAE4qAYSQpBc
-T2L1AX4ZKx0/zbXU1FjI9UKX+wQhYF1hUCU8/mUOgnY/oeYe2kQHqLwas21//kkmhWaAxOaKIfG8
-uIWKe/jd+7V7r9KBYueguqcj0PCzNYjn/TuAjPkNXmhOszBoXybVKGSB6G0foxebQhmKH2+uMi5u
-8XAx7Rrc+Ee2wFSfYEPxHjYvLEm/iX6g1HtfURXh7HjK9LE8gmddRIj5PFUYUshk3sHOZxEuCeEr
-yNXFTvB9ngiTNNu9g58m6dq4uz2/YSm+b+X7wvHD/5UgZpfNENyfbqMCtz8FF+CpDsuMxbYZujgW
-SVFI88LqHgkfLdrtUHTnXcVxXNdXZOrv87bDM3SGO9fxXGBCnJVHKutAo3kq2eUgwRSYVreYCKld
-Bbr/kETCrKWod4dkAyh7JNpi64ts/56H9omVsviClXSuK8mUbdBPwsqSmUO5qNOgiGlEGUz3h6LI
-3k4DxHrmrvOoMXSDx4apqfX0FrDloJs92nBv+9IPO6b3sNbz4lSH4eqWTZRoWRZsYWPrIMjyiwyV
-xFewNpCXh4nV/wE4VXxbib6btXeuFi1vOj3bADdCLJ4qW9jzn5tr+jNTgHpxraO9lmEVxcy2eSVH
-IKfzkpiHsYOZjcxAMDhPRXCetTVueKWDHHasvBHITbzvlB2ibL8ilQS/2rKoTObu6WGp/pjIpM28
-4z+psgbUTcCPsH5BGLi1rfF/uEWtteC+VS55cjMZANMCbnu5+myl2SC5ZQa5GaM5a1Q2IJzA50+Q
-LvN+T07ju7gliM+u6eTMtKA7qLYK8n0aaTB5NZ2SCTvZlJEzTqHoKpUg4b/9BiM1EdGZCy6w0tDx
-4wARw73pBils500PnBK5vcR5MDFdBwl/4nCSvW488uMAz7mug753Q5q5XYLtoX6vmuUClLKs888u
-55C0xYvPgRPtZssXdheUQs3Xji+bQpMTuCnH57IEIsLSSv7c+liuUSvlat/RlYpg4P5TUphko68J
-xBjYDK2V7GQeqTD8QVEoCrsmKZsAkZbH8Xcehxgj1kI50r8C8l96cxl4lb6LF//zrDnqJxvfcwm/
-W0zmUUnxNdi9m6ow/Y7Fr2zbFNT+S0J09lRSTx5IQN0kWY3Mv+nyrYZR/KNDvztoQixg+9uBVf6h
-SsAM0y4QZmztXz2G0Djn+Cj+X+ZbgxKTyFtFJy9JcfuWCRHeCc/BwTpIymZq3quvZv53u9mX1ucc
-VW/TBpxgpnQ21/R/gY1NBF/NsvUHFyjdf120OSIu6+wLdvTOs5mgupKEiBZMjle57BEwCItfd2us
-BZZPlwr4REiLrX8orV83JcnPXx+Foe+SD/SkUxhZXggAUUTpfMTuuKZPfpQV+WAqWSXXKN4iP/ZC
-g8Wo0qVFq6ewYfq/HQpozUE3/rzbaE0BPEUJ/HasDR3wG+NDkqz4UGYjyCCJ/CHxDBHJhKf6wk3y
-3SNN75+voRKgICOWolOHEIim4ytXREpwJ+ulboI7mDCT37iipqYhpoSIhYNzUJMUHrQjOHcxp6dr
-JU0RMB0z52mRVIjtM2a4JY4FOlIp1pcBnNIK4P6hKfO9Wsa+qFyEW27L5XPr//rH5Cdzu2JYoaaX
-vMgjbgIR/eUmclMyIk3ogDyNKaeonPPKsRujG1pcUYVRq2FdCoE3n9nQwClpfWwnVDnn/WA1PUcK
-Gm+IN8IGQioVW5/7+teYQB0fqANkdea1KZRks8Ri+w3e4hIYqpw6qHeiiOPth8Y3OgH5eGKusECm
-vcAI+/McQbky9flUnl6qpQMR3aUbuPuSkU1SP3ecVcexH8qSUkFNa+y9TTJtw0locUTUCOWTub6U
-T26jwb6HCzmuj/okWn9xWvsZCogGXk2QfNCVZX7rbDeMT8yjfTN5y/3jckIk8Vj82X4im9bKqTV5
-19j/Gr7g2ysc9AiL1h9+1oN/hdcxuyWZC4QlhdquH1wCDXjwPMtYW+3Om91EO2dzxPQVhuJlZLX+
-v9a2AjQVtUC8pO5R/zIVxgf6wPnrOp3rDVQQ0z1b5yQM6nsa1ES3NsiU+EAAQBjiCspvXVbQzwtp
-6HMU+AM7NSUEt+gM5C9jh3tT+3qxpkKoaUC8IlFIs6LPszsLCjsnAAgNdShz01Gi7aw483WIyuQ8
-jaJWXrq/vRO0IOr4TUSk6HzyxdFV/Tew4wKDC0Yug9BAhNN1IQFUu9Af+wyNvysjNX876qwdCxfu
-cFovcTZYanrQglu9/idl7legaW9KsF4aICtb1YFjCqcT9MW83RGRl+Uz3wYFKl+kWUu2rbqCWvzH
-9PXw0ipGH1iUDfNAOLLRsOnyIAVrFjfFRpT8/1D9MOlh+EqLXZHvQT8rde63J8yjejYWS/9TWblY
-PjWvtw0QsDuxLd6rCw9RwKGBmz60HDny8v/VgofkzgSVIJP97Es++u/fcMGEanSCPWtp7h/rY4eO
-B9AbUq4G+h579gQEYcQSv8I7uX14IHk/HHKBMXgROPPloO+n9RpkZCj8DPnoWUt5LvKVQ5HpN+WG
-m7CAWTJE4Z2Bwae6cgQdH13irYOBaMZTX4Q21dAReoQSXzLzxZw0HKxPzmaTnhBrzlYUBt0xjWSp
-/EUxD6wPZmvUDIdxD/heZTvo40PATSOnukAf1m4hWPg9UicIWpEKbHAdcLCEEcmxfvl1S/hECkFo
-gm07AjJZqZxHlJd7zhMgJ6rhmklaNFmn/ESeuFiRYODWM5UWcuuvGs75+wLroPQMEGjt5kLdgN2Z
-WgHohLFOeEN2aZFcUwVD9B7KZzDcSUFfAgMe8p9shOAo7G/01PbQsjz2TpzgAOhkn9wzDFVrVl4n
-I08dq6ADwlVOO+1J493p1fCHLrcQ3jnbQP4h9sjY1J+UnZSSgRvBZUUd8AD684veG+1oKc+Fjrmv
-NmyABUZBRXWQfytDrYH9Lv8UMLNJRKwWYAAA3Q/SS7jJf74I1b/6hwtHtVjMJCv08DhtoqZ/i6Sj
-XcuwoCati871+bR8xEzZW9E8e/ZKSE0DIcqD+wH9gn1vlIj5InIIFwC9hF+unBwfGKlJd+W6dUzy
-oKK3PBujCuY0Mx4kdFkRdUVHXGPJsq/N5Nax5FERDqi5oCo9lSfzvRTPZT9MxFz3gz8SM9Bb40O+
-sbexthi/RbpjxKe2z/GnS2CnFMju6FMtAR7Fy5ZWWB/rLR39Tn2SJnvL0EonY952UvE1oDUo1vA3
-PklEgs//Yc7Sc0CKFyjBPberbb0sRb3soM3A+15SK2xZRvq5/BblBySBOoV8E6NHVsVcKsCRFN9P
-NMRY3xN3qhTXVwIDxwoEAQpkpxfK6JU9PF/HgxPW88lKpYOQC8fMVeeomG2RWYqSj78YdZLezfCk
-DWLptuI8WWu4vKkrkVIifz3xCv3AHrBwgtOvfDVCOCyQh4Lmo+9V7Nql8OI/5aOXyGuwUUdzD4TD
-f8/x+ogtl/z+DghW6nRYXF3rPclfn0j8LxrOufYR9cFdNYaiZi5K2nNI7IXC/movy7qPYvYixECT
-4BrkIlmFYjo/4H685gRiGGao/Y8AhuE61EZ/kvCzHtUk5bLLSA9LTGjRgMxKGfU5aTTDphX0SCQW
-6kC+96y0FSUY15W8rJJhFOyqIlUQD3W2tsj8R29edRa6lmteRpjZad3egSuqx2KRgRpHKfOk//b2
-7Sm8wc5f6ET77TPFr/TdnOamS6skhI/seWDLEiYA7ie9hPpVRcJ4QCGZHT3VSB/59r20bxhSoTl7
-bjyT+fb5Chd8+JAvXFuECCGQHmK5q7IfVsn0+8GrCy7GbO8Td/EYsd3dwjYRS8rsGtHqwkCJPurJ
-gs2CJis9ISqb+tX2a4fP3+OIqNXhvrR95kSWIBzy1QvFayevIuei67wnw/13MqoqsQMmmk0aiQXo
-KN2i0qFUbLMI3khCzC3fwPwGIMQta9RNccN6yWNLzea7SAmeDPzZwcuulQ9iR4Jy26aZFlJPkmQc
-5tgv0oAB8VoAzfQhxFyWMlPq85dn4XcPkdneNyY9VNmufuy61VS4wjzN1WyqU0Q0yEygzAMjdNDU
-3KxQ8azOnUQYN8fWiYFljldsgzFk3NEH0nCI65tAp9ReW1fM7lCBZYreX63a0NokITMsyTic4jaM
-pdUf70ExxAwJd6fBgd9+jlgSYGQMUlHyaWxFDbdY+xV0KzKU5Mn/2qiHI7vEeO+PZPhEWyZ+qhaA
-atc3DiOveFAYar8Fc1Mzo9N3mZlFwaAswQjvVCjyJUri6K4XTqxPJrDKftZ6eLlafCQ2b8AWHIRY
-LNwIKyO7FuQpDP3u/b23xZbxyJz2DA1MJuvCEUGwg8LNvrZXzNlJSfTupwwkMc7k07l+uhT1J1P/
-EqSU/fbC8EhqiCTrtr1GGXF6zltwd/dDmi7YBvXO1lScpweEXgBaGK7Zo/4t9yAz0nYeAG9O8yf9
-2mPzaEF0G156YDrlliYmO9i31XVOxnTa0aYnFhoEV2kwgi4fhYCBjxWEuuQO9P+Atl9N0Vg1DxwP
-Rh+Vr+dBXpIYDUFfa8DXc9o0fUsVQpJ4qi5X3rMZfPct5Rm33s1wzVrGLMbEDLs7YrxzproJV4Cx
-OlPa2+gtQ+ezm6vyz0q3TvhfrjGCk0fh8xzRjG/lh8WpqCoUdWElv2lfdpulleMwsQ2AS268YK6C
-RGkkCm3JL1hnzzxKkQcEY3WqjdPvx8GoR//rDy51YrqsGFrRDaH5einK1Zujs2xZJ9XzZsJuv3zR
-Vy3/ftXGQCHWrGW94imwk+peTl6FHVEIPjpXVNF1yreTafkiBmMMzatTiO+c6CATWQbbGwgBc6lM
-jqMQcemDzeSJ19ez5krSYptSRRklPHBUenqJAPSuR44eslJMl4HrRWLTGUSBaLEoebMaRhomJvwA
-iKHEYGBThRQQaWVcU47iiK8AuMNiOeH1Rs9lNbGdeL3U670Hl+CbqMDmqPw8lTZydIuUe9yZ5Lcv
-Dx4loztUsSXPgJjh0ROMJ2IZMprQB5WueR6vZ1PFW80EL/H0GkY9Zy9PmcuWU29zd/UUfCeoubLx
-aNTdxX9WHds7aIXO05//3OSFE2PyxB2LaByrVAqx11409NzTzZd31qZhX9xHciV/bD7tQGz2b6ls
-aZdbTHa0ZaQAH5wYkNPElllIysCYSz+6uWGdeRrR2yBGh/J82/MVWRiKZPArk2V5ngb+34mQL8Eo
-jExx0a+1i5UIwpOm7OsUFy0roY7SbQPF+3WvS0Q8ZBwurnTHOhgtxpSBT1+97+sIzt3lHT5qauSg
-yTGJjNgwfmzzHep757I7LnErvyKn7f0sYBn13DpqpCwFEfMUCagIKf+sLnhG6ck/CsHR7ypou4V1
-kTDOR16+gmWH6l8pyszM+AixV7G3g2quR57DsA5OludajsZfWGOpVQrgFYky1w7qLCnAH3AlmNX+
-VgfULeaz9ThvGejM6PKYDXZcDZJ4h7wE3wDohbYXdaKFMAKicRRYcKpdISkaRLydAo6AU1xJaktK
-sHhyCXK9RNGUFWrLiM9TOOGLtZEkfo3zvBjDgsOC1O4pXxhvTnIdGZSNuC60ua6gDdFP9JgsETod
-ACjTN5NEQs2FBXSYTEgYYDIPDvgMcFYRzNXvdxRPwzuwfM/sC8nuJUTyVl3dGPSXErT+4G6nIPMV
-QYi/sfCacrPMjeV0IvQEb1T4dCKiMyjJSAPq0dlfTx2jWoeXpnVecd9BLklv+Qq+LHouN5B21lFU
-c/a2mXb6Rg7dL5nwqP4LP1WZNQkVHiK7/n5Iz4g6B+MF7MFzfMcTejPVlysA8eok21cY1B60htpH
-EcQ4lu3d73bhytk+jWNxIGpgczFvzJkGiK0wplrzUu/BEiCJiT0fQmQXmRXRi3/Zbuy3oZMPt+1Z
-pKlDcb7WXIojWyoy7C/F0nGY6jZhYgmx/90o+Ma3Bu8G9KdILeTYFzDYNZgqHAmehuJ8MG55NPsi
-9qBYXUEZ18CtOwhIkpNcTNX4Ku/8vM4PXXaB5eV2Ahi6AWbK69923w9o0bpa9QKNKMn7P2nnt8Ca
-+P9f8oWJDe8PTt0YEGpTvA05VBTf94npjP68QtM5Koggsd/tZUfeReODqa8pGx7IFxDC2mi6m07N
-1/EPY+86+DwBLDcT/1VIaQgFyOJv0G0KckyPO0LBsJv4HGyxXjpQUQercGWX2X4f4XKBJrdXD46f
-znoObUbJs4Q8LXCkcG+p48+dl0n5nTFZ7VDqzaUVxNbhqclCP6wt5ZXm/0gINVdYRJGFIrMlxxlI
-O64UWr4qEFvoOnDzvlNbP/XBsIGb8Kfu4oYY0TASZGcfayGuhAJy7OVP08ebNTQAC2T0YUxnn92X
-JQjpDTDx82P5IkE99yarDqCn/QOc2cS+Bplrx6zdtfUlmC55XvelSmzoGeoYKfpVBcofGepPRshP
-x6sETPc/Ddx8LqGRisZRqXw7PthiWB+LR+XrTqsyHXc5x7mJzGP+0MzRLeRHokacEWRr9Qp2P0bR
-98Ao/asZQT1oipdDgm/Ui/Y5as/HqVVv3f5AY1BELdcUZi1OYRFy3DeYk4jLsokSo9T5Uh69Bd/1
-HeefGlALd95/K/KmTibZr2KIVcgXAHHPYylQwfJ9BTLuX9Rtr0yRj7QBlzDk2iRsU+rlKuk5GaDC
-5WTAzPXn0DAU5nB3d+PJB/Jrk248pC7j5we7qKeOZlUR0qAA7fK87teOLj5ji9QG/87VVk24bixT
-wA/J3Jt5wfmkfnSuo5wpnmgKH14i7awE0uyZZTvxDZw/OH8cVycYTYAsimmiGz/Xk8FXECO6PKYD
-6WOWqKz5PdJ6+IMZ/8Ip4yeTJXQXteLoAOaViq+w5yF69bUsc7HNL9C7EjPCKngCosq8IFCQACwk
-xPz5n+pmhkfYo3qxMdNI9d+1v04+meR2d08nyduFZT4Gf1WTCgZSuvd7OnktA1hLU0zxY+ziKb8r
-QqkIK9RWtMy4Y+gBG5OnpbuotvSUBaAdaxMyvYjZ0bOQXZPDFxyVDjr0VPJuhc6GzQUb9RtsYOiA
-JLRNLfbuyflttkx57RlFEV5kvyoOSg2nHtnzbecZg/RWXBfLBGG+ZtP1W0fqBGgj2FHwjYw7NF4q
-/qeqENVf+Ge1obsLZYYsnKtJb+BBIclJIqR/i2WYFQl6vXF+h3j+R605ZxYwi7O6zm8jXT4H3/30
-XHYkMeZFi93dyJV8ROfN/80uDJJ1MXqPrHKBL1p4/qzmaeU4+BU1Z+lfKVLEh9udLFxqKEOIw2RP
-Tqp2ogLyJuvf4wLjLBt9uUYheobCoUGccNp9FiYoP52kiOiq6kWYBXk/9SftUYfqgI90wa0RAMIC
-1p5jjIgkVethGFIOfDqW0xXjhRU0uhIaAXEKQXEaXQ8IfHzAksDevroYXuBDWObI/8OFJ6K3Hkgy
-1Y6ZR2STiJcoAZhYGyT/6ih90/ijxnuHyimFMBMcfcoLGTKp2qzNv1hI2uZEhu55k6ZdhfwC7pxc
-eR228XgJy1V/rkhb4otJiNX7v0TjzdUcLNcx6NsdaomTiuqbChbVGjL86iG5cdv7MKTVpGg86fd/
-4qe3g/0Y8LOdllshT74/5KTcp/BnQB8SlwDSfNEozPLYIFT73pRsT65Gerz4ntaBVcnGUBKPI6ih
-zpV2OQnsl/mttW27+kQzTxOsl5auARs0uRM0OgoF/+NcsnILn0zFdYKP+gV+aJw5XRiYES5DvXZU
-Dyj6Us6pASavB39UXgYXNqXSSg+1OEI8jHeWL5ByQnJAMZyd+2sJ9nGDonX1hnmCQljHe45pGS7f
-Nxk3ws0Yy8jQMv5t/R3KnyTs4PZlRpPAhxOsLKWrT4JUuwW8LfeOPPJiBTxn82WqrXKzU4UB1ZiP
-f0yd3hPfN9uWT+NkJ1sCgen0kqcqawZjlzm704P0/6dnOKImgw1Bo+RDy1psJGkmWy5YcNkS6bNM
-WHq8NdE48SO13JRz/ACrqmPrUzfHW30d2IGVX0gPpSl+z9QCfBBtbqfuh4cb+8rYg7a/LAEUs/qa
-SVoKuMrAl27fCxDxsgyGhiXCxdzXblzLE4wlL9cPL9EE8Lr3Vh/KBtBGE5EovsKlaAm+l5q8ocOt
-t0oCQPmvn7doyfVZoIuq9FeDaYvz9HlobI8EAus3795VacMP+3X1vGk18TGlGsf+AkwIPPWKvVPz
-HtudK0vQE7NWENxeFtf5/sQf41OQB330Y5Z/dau/J7e2jqEj8TO9cSr0yQ75K4j7cRPbLADaqvjH
-VxbZersSHcKalaLohXygYFG2+UOr2FQmIDitbeYXF//GCYaKoilWzAl1SzI2dcR3zE54FyJ5RSSY
-Sl64XSh7Lmp1DGxHbqg2DjhD3MFkL6gsp11pRn7ThyCaGg8Xs3uzm6dlO4CIPsMmR39AfR3HrxBX
-+QNkAX1QJcPDn7+WOGovd6M2VXS/avOPu85ODau0+cRUef1YJXF5wrbDCI6h1GAhOc1bSEnMWdV6
-2P025mcPD//ooaNKivBvbpBTpSYRstDZBotos9va/nzbQ0LrArXp08tYvYvGcriMc6elpZLzmhGP
-GNwmZ6BjdvuDw2ZmIOGKhdtGFcIIo6If4hNOEoRSv9Zb4aJB/kSXu1TbVJk0OfvYkx6OZWBTuosn
-c396myWmfm6K5HAEft4c/nozuv+TkrJ9dn92rNvPedsN4GIa6rZAjM4bx83A1tTr4zKlH3gHJpat
-QXjrMF+zh4ZN1hwVUegPOs+cqo3RxP+YBlWcKtXE7kSb2vf/k/UGOqWJMNq1HkVx+/AP5auIiwyY
-XutQ
+<?php
+
+/**
+ * Pure-PHP implementation of Triple DES.
+ *
+ * Uses mcrypt, if available, and an internal implementation, otherwise.  Operates in the EDE3 mode (encrypt-decrypt-encrypt).
+ *
+ * PHP version 5
+ *
+ * Here's a short example of how to use this library:
+ * <code>
+ * <?php
+ *    include 'vendor/autoload.php';
+ *
+ *    $des = new \phpseclib3\Crypt\TripleDES('ctr');
+ *
+ *    $des->setKey('abcdefghijklmnopqrstuvwx');
+ *
+ *    $size = 10 * 1024;
+ *    $plaintext = '';
+ *    for ($i = 0; $i < $size; $i++) {
+ *        $plaintext.= 'a';
+ *    }
+ *
+ *    echo $des->decrypt($des->encrypt($plaintext));
+ * ?>
+ * </code>
+ *
+ * @category  Crypt
+ * @package   TripleDES
+ * @author    Jim Wigginton <terrafrost@php.net>
+ * @copyright 2007 Jim Wigginton
+ * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      http://phpseclib.sourceforge.net
+ */
+
+namespace phpseclib3\Crypt;
+
+/**
+ * Pure-PHP implementation of Triple DES.
+ *
+ * @package TripleDES
+ * @author  Jim Wigginton <terrafrost@php.net>
+ * @access  public
+ */
+class TripleDES extends DES
+{
+    /**
+     * Encrypt / decrypt using inner chaining
+     *
+     * Inner chaining is used by SSH-1 and is generally considered to be less secure then outer chaining (self::MODE_CBC3).
+     */
+    const MODE_3CBC = -2;
+
+    /**
+     * Encrypt / decrypt using outer chaining
+     *
+     * Outer chaining is used by SSH-2 and when the mode is set to \phpseclib3\Crypt\Common\BlockCipher::MODE_CBC.
+     */
+    const MODE_CBC3 = self::MODE_CBC;
+
+    /**
+     * Key Length (in bytes)
+     *
+     * @see \phpseclib3\Crypt\TripleDES::setKeyLength()
+     * @var int
+     * @access private
+     */
+    protected $key_length = 24;
+
+    /**
+     * The mcrypt specific name of the cipher
+     *
+     * @see \phpseclib3\Crypt\DES::cipher_name_mcrypt
+     * @see \phpseclib3\Crypt\Common\SymmetricKey::cipher_name_mcrypt
+     * @var string
+     * @access private
+     */
+    protected $cipher_name_mcrypt = 'tripledes';
+
+    /**
+     * Optimizing value while CFB-encrypting
+     *
+     * @see \phpseclib3\Crypt\Common\SymmetricKey::cfb_init_len
+     * @var int
+     * @access private
+     */
+    protected $cfb_init_len = 750;
+
+    /**
+     * max possible size of $key
+     *
+     * @see self::setKey()
+     * @see \phpseclib3\Crypt\DES::setKey()
+     * @var string
+     * @access private
+     */
+    protected $key_length_max = 24;
+
+    /**
+     * Internal flag whether using self::MODE_3CBC or not
+     *
+     * @var bool
+     * @access private
+     */
+    private $mode_3cbc;
+
+    /**
+     * The \phpseclib3\Crypt\DES objects
+     *
+     * Used only if $mode_3cbc === true
+     *
+     * @var array
+     * @access private
+     */
+    private $des;
+
+    /**
+     * Default Constructor.
+     *
+     * Determines whether or not the mcrypt or OpenSSL extensions should be used.
+     *
+     * $mode could be:
+     *
+     * - ecb
+     *
+     * - cbc
+     *
+     * - ctr
+     *
+     * - cfb
+     *
+     * - ofb
+     *
+     * - 3cbc
+     *
+     * - cbc3 (same as cbc)
+     *
+     * @see \phpseclib3\Crypt\DES::__construct()
+     * @see \phpseclib3\Crypt\Common\SymmetricKey::__construct()
+     * @param string $mode
+     * @access public
+     */
+    public function __construct($mode)
+    {
+        switch (strtolower($mode)) {
+            // In case of self::MODE_3CBC, we init as CRYPT_DES_MODE_CBC
+            // and additional flag us internally as 3CBC
+            case '3cbc':
+                parent::__construct('cbc');
+                $this->mode_3cbc = true;
+
+                // This three $des'es will do the 3CBC work (if $key > 64bits)
+                $this->des = [
+                    new DES('cbc'),
+                    new DES('cbc'),
+                    new DES('cbc'),
+                ];
+
+                // we're going to be doing the padding, ourselves, so disable it in the \phpseclib3\Crypt\DES objects
+                $this->des[0]->disablePadding();
+                $this->des[1]->disablePadding();
+                $this->des[2]->disablePadding();
+                break;
+            case 'cbc3':
+                $mode = 'cbc';
+            // If not 3CBC, we init as usual
+            default:
+                parent::__construct($mode);
+
+                if ($this->mode == self::MODE_STREAM) {
+                    throw new BadModeException('Block ciphers cannot be ran in stream mode');
+                }
+        }
+    }
+
+    /**
+     * Test for engine validity
+     *
+     * This is mainly just a wrapper to set things up for \phpseclib3\Crypt\Common\SymmetricKey::isValidEngine()
+     *
+     * @see \phpseclib3\Crypt\Common\SymmetricKey::__construct()
+     * @param int $engine
+     * @access protected
+     * @return bool
+     */
+    protected function isValidEngineHelper($engine)
+    {
+        if ($engine == self::ENGINE_OPENSSL) {
+            $this->cipher_name_openssl_ecb = 'des-ede3';
+            $mode = $this->openssl_translate_mode();
+            $this->cipher_name_openssl = $mode == 'ecb' ? 'des-ede3' : 'des-ede3-' . $mode;
+        }
+
+        return parent::isValidEngineHelper($engine);
+    }
+
+    /**
+     * Sets the initialization vector.
+     *
+     * SetIV is not required when \phpseclib3\Crypt\Common\SymmetricKey::MODE_ECB is being used.
+     *
+     * @see \phpseclib3\Crypt\Common\SymmetricKey::setIV()
+     * @access public
+     * @param string $iv
+     */
+    public function setIV($iv)
+    {
+        parent::setIV($iv);
+        if ($this->mode_3cbc) {
+            $this->des[0]->setIV($iv);
+            $this->des[1]->setIV($iv);
+            $this->des[2]->setIV($iv);
+        }
+    }
+
+    /**
+     * Sets the key length.
+     *
+     * Valid key lengths are 128 and 192 bits.
+     *
+     * If you want to use a 64-bit key use DES.php
+     *
+     * @see \phpseclib3\Crypt\Common\SymmetricKey:setKeyLength()
+     * @access public
+     * @throws \LengthException if the key length is invalid
+     * @param int $length
+     */
+    public function setKeyLength($length)
+    {
+        switch ($length) {
+            case 128:
+            case 192:
+                break;
+            default:
+                throw new \LengthException('Key size of ' . $length . ' bits is not supported by this algorithm. Only keys of sizes 128 or 192 bits are supported');
+        }
+
+        parent::setKeyLength($length);
+    }
+
+    /**
+     * Sets the key.
+     *
+     * Triple DES can use 128-bit (eg. strlen($key) == 16) or 192-bit (eg. strlen($key) == 24) keys.
+     *
+     * DES also requires that every eighth bit be a parity bit, however, we'll ignore that.
+     *
+     * @access public
+     * @see \phpseclib3\Crypt\DES::setKey()
+     * @see \phpseclib3\Crypt\Common\SymmetricKey::setKey()
+     * @throws \LengthException if the key length is invalid
+     * @param string $key
+     */
+    public function setKey($key)
+    {
+        if ($this->explicit_key_length !== false && strlen($key) != $this->explicit_key_length) {
+            throw new \LengthException('Key length has already been set to ' . $this->explicit_key_length . ' bytes and this key is ' . strlen($key) . ' bytes');
+        }
+
+        switch (strlen($key)) {
+            case 16:
+                $key.= substr($key, 0, 8);
+                break;
+            case 24:
+                break;
+            default:
+                throw new \LengthException('Key of size ' . strlen($key) . ' not supported by this algorithm. Only keys of sizes 16 or 24 are supported');
+        }
+
+        // copied from self::setKey()
+        $this->key = $key;
+        $this->key_length = strlen($key);
+        $this->changed = $this->nonIVChanged = true;
+        $this->setEngine();
+
+        if ($this->mode_3cbc) {
+            $this->des[0]->setKey(substr($key,  0, 8));
+            $this->des[1]->setKey(substr($key,  8, 8));
+            $this->des[2]->setKey(substr($key, 16, 8));
+        }
+    }
+
+    /**
+     * Encrypts a message.
+     *
+     * @see \phpseclib3\Crypt\Common\SymmetricKey::encrypt()
+     * @access public
+     * @param string $plaintext
+     * @return string $cipertext
+     */
+    public function encrypt($plaintext)
+    {
+        // parent::en/decrypt() is able to do all the work for all modes and keylengths,
+        // except for: self::MODE_3CBC (inner chaining CBC) with a key > 64bits
+
+        // if the key is smaller then 8, do what we'd normally do
+        if ($this->mode_3cbc && strlen($this->key) > 8) {
+            return $this->des[2]->encrypt(
+                $this->des[1]->decrypt(
+                    $this->des[0]->encrypt(
+                        $this->pad($plaintext)
+                    )
+                )
+            );
+        }
+
+        return parent::encrypt($plaintext);
+    }
+
+    /**
+     * Decrypts a message.
+     *
+     * @see \phpseclib3\Crypt\Common\SymmetricKey::decrypt()
+     * @access public
+     * @param string $ciphertext
+     * @return string $plaintext
+     */
+    public function decrypt($ciphertext)
+    {
+        if ($this->mode_3cbc && strlen($this->key) > 8) {
+            return $this->unpad(
+                $this->des[0]->decrypt(
+                    $this->des[1]->encrypt(
+                        $this->des[2]->decrypt(
+                            str_pad($ciphertext, (strlen($ciphertext) + 7) & 0xFFFFFFF8, "\0")
+                        )
+                    )
+                )
+            );
+        }
+
+        return parent::decrypt($ciphertext);
+    }
+
+    /**
+     * Treat consecutive "packets" as if they are a continuous buffer.
+     *
+     * Say you have a 16-byte plaintext $plaintext.  Using the default behavior, the two following code snippets
+     * will yield different outputs:
+     *
+     * <code>
+     *    echo $des->encrypt(substr($plaintext, 0, 8));
+     *    echo $des->encrypt(substr($plaintext, 8, 8));
+     * </code>
+     * <code>
+     *    echo $des->encrypt($plaintext);
+     * </code>
+     *
+     * The solution is to enable the continuous buffer.  Although this will resolve the above discrepancy, it creates
+     * another, as demonstrated with the following:
+     *
+     * <code>
+     *    $des->encrypt(substr($plaintext, 0, 8));
+     *    echo $des->decrypt($des->encrypt(substr($plaintext, 8, 8)));
+     * </code>
+     * <code>
+     *    echo $des->decrypt($des->encrypt(substr($plaintext, 8, 8)));
+     * </code>
+     *
+     * With the continuous buffer disabled, these would yield the same output.  With it enabled, they yield different
+     * outputs.  The reason is due to the fact that the initialization vector's change after every encryption /
+     * decryption round when the continuous buffer is enabled.  When it's disabled, they remain constant.
+     *
+     * Put another way, when the continuous buffer is enabled, the state of the \phpseclib3\Crypt\DES() object changes after each
+     * encryption / decryption round, whereas otherwise, it'd remain constant.  For this reason, it's recommended that
+     * continuous buffers not be used.  They do offer better security and are, in fact, sometimes required (SSH uses them),
+     * however, they are also less intuitive and more likely to cause you problems.
+     *
+     * @see \phpseclib3\Crypt\Common\SymmetricKey::enableContinuousBuffer()
+     * @see self::disableContinuousBuffer()
+     * @access public
+     */
+    public function enableContinuousBuffer()
+    {
+        parent::enableContinuousBuffer();
+        if ($this->mode_3cbc) {
+            $this->des[0]->enableContinuousBuffer();
+            $this->des[1]->enableContinuousBuffer();
+            $this->des[2]->enableContinuousBuffer();
+        }
+    }
+
+    /**
+     * Treat consecutive packets as if they are a discontinuous buffer.
+     *
+     * The default behavior.
+     *
+     * @see \phpseclib3\Crypt\Common\SymmetricKey::disableContinuousBuffer()
+     * @see self::enableContinuousBuffer()
+     * @access public
+     */
+    public function disableContinuousBuffer()
+    {
+        parent::disableContinuousBuffer();
+        if ($this->mode_3cbc) {
+            $this->des[0]->disableContinuousBuffer();
+            $this->des[1]->disableContinuousBuffer();
+            $this->des[2]->disableContinuousBuffer();
+        }
+    }
+
+    /**
+     * Creates the key schedule
+     *
+     * @see \phpseclib3\Crypt\DES::setupKey()
+     * @see \phpseclib3\Crypt\Common\SymmetricKey::setupKey()
+     * @access private
+     */
+    protected function setupKey()
+    {
+        switch (true) {
+            // if $key <= 64bits we configure our internal pure-php cipher engine
+            // to act as regular [1]DES, not as 3DES. mcrypt.so::tripledes does the same.
+            case strlen($this->key) <= 8:
+                $this->des_rounds = 1;
+                break;
+
+            // otherwise, if $key > 64bits, we configure our engine to work as 3DES.
+            default:
+                $this->des_rounds = 3;
+
+                // (only) if 3CBC is used we have, of course, to setup the $des[0-2] keys also separately.
+                if ($this->mode_3cbc) {
+                    $this->des[0]->setupKey();
+                    $this->des[1]->setupKey();
+                    $this->des[2]->setupKey();
+
+                    // because $des[0-2] will, now, do all the work we can return here
+                    // not need unnecessary stress parent::setupKey() with our, now unused, $key.
+                    return;
+                }
+        }
+        // setup our key
+        parent::setupKey();
+    }
+
+    /**
+     * Sets the internal crypt engine
+     *
+     * @see \phpseclib3\Crypt\Common\SymmetricKey::__construct()
+     * @see \phpseclib3\Crypt\Common\SymmetricKey::setPreferredEngine()
+     * @param int $engine
+     * @access public
+     */
+    public function setPreferredEngine($engine)
+    {
+        if ($this->mode_3cbc) {
+            $this->des[0]->setPreferredEngine($engine);
+            $this->des[1]->setPreferredEngine($engine);
+            $this->des[2]->setPreferredEngine($engine);
+        }
+
+        parent::setPreferredEngine($engine);
+    }
+}

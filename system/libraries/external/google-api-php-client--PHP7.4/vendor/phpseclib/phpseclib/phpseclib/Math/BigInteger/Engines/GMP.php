@@ -1,263 +1,751 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Gbttqk9Ex8Jo2FjuaDFnOh50t5Re
+<?php
+
+/**
+ * GMP BigInteger Engine
+ *
+ * PHP version 5 and 7
+ *
+ * @category  Math
+ * @package   BigInteger
+ * @author    Jim Wigginton <terrafrost@php.net>
+ * @copyright 2017 Jim Wigginton
+ * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      http://pear.php.net/package/Math_BigInteger
+ */
+
+namespace phpseclib3\Math\BigInteger\Engines;
+
+use ParagonIE\ConstantTime\Hex;
+use phpseclib3\Exception\BadConfigurationException;
+
+/**
+ * GMP Engine.
+ *
+ * @package GMP
+ * @author  Jim Wigginton <terrafrost@php.net>
+ * @access  public
+ */
+class GMP extends Engine
+{
+    /**
+     * Can Bitwise operations be done fast?
+     *
+     * @see parent::bitwise_leftRotate()
+     * @see parent::bitwise_rightRotate()
+     * @access protected
+     */
+    const FAST_BITWISE = true;
+
+    /**
+     * Engine Directory
+     *
+     * @see parent::setModExpEngine
+     * @access protected
+     */
+    const ENGINE_DIR = 'GMP';
+
+    /**
+     * Modular Exponentiation Engine
+     *
+     * @var string
+     */
+    protected static $modexpEngine;
+
+    /**
+     * Engine Validity Flag
+     *
+     * @var bool
+     */
+    protected static $isValidEngine;
+
+    /**
+     * BigInteger(0)
+     *
+     * @var \phpseclib3\Math\BigInteger\Engines\GMP
+     */
+    protected static $zero;
+
+    /**
+     * BigInteger(1)
+     *
+     * @var \phpseclib3\Math\BigInteger\Engines\GMP
+     */
+    protected static $one;
+
+    /**
+     * BigInteger(2)
+     *
+     * @var \phpseclib3\Math\BigInteger\Engines\GMP
+     */
+    protected static $two;
+
+    /**
+     * Primes > 2 and < 1000
+     *
+     * Unused for GMP Engine
+     *
+     * @var mixed
+     */
+    protected static $primes;
+
+    /**
+     * Test for engine validity
+     *
+     * @see parent::__construct()
+     * @return bool
+     */
+    public static function isValidEngine()
+    {
+        return extension_loaded('gmp');
+    }
+
+    /**
+     * Default constructor
+     *
+     * @param mixed $x integer Base-10 number or base-$base number if $base set.
+     * @param int $base
+     * @see parent::__construct()
+     * @return \phpseclib3\Math\BigInteger\Engines\GMP
+     */
+    public function __construct($x = 0, $base = 10)
+    {
+        if (!isset(self::$isValidEngine)) {
+            self::$isValidEngine = self::isValidEngine();
+        }
+        if (!self::$isValidEngine) {
+            throw new BadConfigurationException('GMP is not setup correctly on this system');
+        }
+
+        if ($x instanceof \GMP) {
+            $this->value = $x;
+            return;
+        }
+
+        $this->value = gmp_init(0);
+
+        parent::__construct($x, $base);
+    }
+
+    /**
+     * Initialize a GMP BigInteger Engine instance
+     *
+     * @param int $base
+     * @see parent::__construct()
+     */
+    protected function initialize($base)
+    {
+        switch (abs($base)) {
+            case 256:
+                $this->value = gmp_import($this->value);
+                if ($this->is_negative) {
+                    $this->value = -$this->value;
+                }
+                break;
+            case 16:
+                $temp = $this->is_negative ? '-0x' . $this->value : '0x' . $this->value;
+                $this->value = gmp_init($temp);
+                break;
+            case 10:
+                $this->value = gmp_init(isset($this->value) ? $this->value : '0');
+        }
+    }
+
+    /**
+     * Converts a BigInteger to a base-10 number.
+     *
+     * @return string
+     */
+    public function toString()
+    {
+        return (string) $this->value;
+    }
+
+    /**
+     * Converts a BigInteger to a bit string (eg. base-2).
+     *
+     * Negative numbers are saved as positive numbers, unless $twos_compliment is set to true, at which point, they're
+     * saved as two's compliment.
+     *
+     * @param bool $twos_compliment
+     * @return string
+     */
+    public function toBits($twos_compliment = false)
+    {
+        $hex = $this->toHex($twos_compliment);
+
+        $bits = gmp_strval(gmp_init($hex, 16), 2);
+
+        if ($this->precision > 0) {
+            $bits = substr($bits, -$this->precision);
+        }
+
+        if ($twos_compliment && $this->compare(new static()) > 0 && $this->precision <= 0) {
+            return '0' . $bits;
+        }
+
+        return $bits;
+    }
+
+    /**
+     * Converts a BigInteger to a byte string (eg. base-256).
+     *
+     * @param bool $twos_compliment
+     * @return string
+     */
+    function toBytes($twos_compliment = false)
+    {
+        if ($twos_compliment) {
+            return $this->toBytesHelper();
+        }
+
+        if (gmp_cmp($this->value, gmp_init(0)) == 0) {
+            return $this->precision > 0 ? str_repeat(chr(0), ($this->precision + 1) >> 3) : '';
+        }
+
+        $temp = gmp_export($this->value);
+
+        return $this->precision > 0 ?
+            substr(str_pad($temp, $this->precision >> 3, chr(0), STR_PAD_LEFT), -($this->precision >> 3)) :
+            ltrim($temp, chr(0));
+    }
+
+    /**
+     * Adds two BigIntegers.
+     *
+     * @param GMP $y
+     * @return GMP
+     */
+    public function add(GMP $y)
+    {
+        $temp = new self();
+        $temp->value = $this->value + $y->value;
+
+        return $this->normalize($temp);
+    }
+
+    /**
+     * Subtracts two BigIntegers.
+     *
+     * @param GMP $y
+     * @return GMP
+     */
+    public function subtract(GMP $y)
+    {
+        $temp = new self();
+        $temp->value = $this->value - $y->value;
+
+        return $this->normalize($temp);
+    }
+
+    /**
+     * Multiplies two BigIntegers.
+     *
+     * @param GMP $x
+     * @return GMP
+     */
+    public function multiply(GMP $x)
+    {
+        $temp = new self();
+        $temp->value = $this->value * $x->value;
+
+        return $this->normalize($temp);
+    }
+
+    /**
+     * Divides two BigIntegers.
+     *
+     * Returns an array whose first element contains the quotient and whose second element contains the
+     * "common residue".  If the remainder would be positive, the "common residue" and the remainder are the
+     * same.  If the remainder would be negative, the "common residue" is equal to the sum of the remainder
+     * and the divisor (basically, the "common residue" is the first positive modulo).
+     *
+     * @param GMP $y
+     * @return GMP
+     */
+    public function divide(GMP $y)
+    {
+        $quotient = new self();
+        $remainder = new self();
+
+        list($quotient->value, $remainder->value) = gmp_div_qr($this->value, $y->value);
+
+        if (gmp_sign($remainder->value) < 0) {
+            $remainder->value = $remainder->value + gmp_abs($y->value);
+        }
+
+        return [$this->normalize($quotient), $this->normalize($remainder)];
+    }
+
+    /**
+     * Compares two numbers.
+     *
+     * Although one might think !$x->compare($y) means $x != $y, it, in fact, means the opposite.  The reason for this is
+     * demonstrated thusly:
+     *
+     * $x  > $y: $x->compare($y)  > 0
+     * $x  < $y: $x->compare($y)  < 0
+     * $x == $y: $x->compare($y) == 0
+     *
+     * Note how the same comparison operator is used.  If you want to test for equality, use $x->equals($y).
+     *
+     * {@internal Could return $this->subtract($x), but that's not as fast as what we do do.}
+     *
+     * @param GMP $y
+     * @return int in case < 0 if $this is less than $y; > 0 if $this is greater than $y, and 0 if they are equal.
+     * @access public
+     * @see self::equals()
+     */
+    public function compare(GMP $y)
+    {
+        $r = gmp_cmp($this->value, $y->value);
+        if ($r < -1) {
+            $r = -1;
+        }
+        if ($r > 1) {
+            $r = 1;
+        }
+        return $r;
+    }
+
+    /**
+     * Tests the equality of two numbers.
+     *
+     * If you need to see if one number is greater than or less than another number, use BigInteger::compare()
+     *
+     * @param GMP $x
+     * @return bool
+     */
+    public function equals(GMP $x)
+    {
+        return $this->value == $x->value;
+    }
+
+    /**
+     * Calculates modular inverses.
+     *
+     * Say you have (30 mod 17 * x mod 17) mod 17 == 1.  x can be found using modular inverses.
+     *
+     * @param GMP $n
+     * @return false|GMP
+     */
+    public function modInverse(GMP $n)
+    {
+        $temp = new self();
+        $temp->value = gmp_invert($this->value, $n->value);
+
+        return $temp->value === false ? false : $this->normalize($temp);
+    }
+
+    /**
+     * Calculates the greatest common divisor and Bezout's identity.
+     *
+     * Say you have 693 and 609.  The GCD is 21.  Bezout's identity states that there exist integers x and y such that
+     * 693*x + 609*y == 21.  In point of fact, there are actually an infinite number of x and y combinations and which
+     * combination is returned is dependent upon which mode is in use.  See
+     * {@link http://en.wikipedia.org/wiki/B%C3%A9zout%27s_identity Bezout's identity - Wikipedia} for more information.
+     *
+     * @param \phpseclib3\Math\BigInteger\Engines\GMP $n
+     * @return \phpseclib3\Math\BigInteger\Engines\GMP[]
+     */
+    public function extendedGCD(GMP $n)
+    {
+        extract(gmp_gcdext($this->value, $n->value));
+
+        return [
+            'gcd' => $this->normalize(new self($g)),
+            'x'   => $this->normalize(new self($s)),
+            'y'   => $this->normalize(new self($t))
+        ];
+    }
+
+    /**
+     * Calculates the greatest common divisor
+     *
+     * Say you have 693 and 609.  The GCD is 21.
+     *
+     * @param GMP $n
+     * @return GMP
+     */
+    public function gcd(GMP $n)
+    {
+        $r = gmp_gcd($this->value, $n->value);
+        return $this->normalize(new self($r));
+    }
+
+    /**
+     * Absolute value.
+     *
+     * @return \phpseclib3\Math\BigInteger\Engines\GMP
+     * @access public
+     */
+    public function abs()
+    {
+        $temp = new self();
+        $temp->value = gmp_abs($this->value);
+
+        return $temp;
+    }
+
+    /**
+     * Logical And
+     *
+     * @param GMP $x
+     * @return GMP
+     */
+    public function bitwise_and(GMP $x)
+    {
+        $temp = new self();
+        $temp->value = $this->value & $x->value;
+
+        return $this->normalize($temp);
+    }
+
+    /**
+     * Logical Or
+     *
+     * @param GMP $x
+     * @return GMP
+     */
+    public function bitwise_or(GMP $x)
+    {
+        $temp = new self();
+        $temp->value = $this->value | $x->value;
+
+        return $this->normalize($temp);
+    }
+
+    /**
+     * Logical Exclusive Or
+     *
+     * @param GMP $x
+     * @return GMP
+     */
+    public function bitwise_xor(GMP $x)
+    {
+        $temp = new self();
+        $temp->value = $this->value ^ $x->value;
+
+        return $this->normalize($temp);
+    }
+
+    /**
+     * Logical Right Shift
+     *
+     * Shifts BigInteger's by $shift bits, effectively dividing by 2**$shift.
+     *
+     * @param int $shift
+     * @return \phpseclib3\Math\BigInteger\Engines\GMP
+     */
+    public function bitwise_rightShift($shift)
+    {
+        // 0xFFFFFFFF >> 2 == -1 (on 32-bit systems)
+        // gmp_init('0xFFFFFFFF') >> 2 == gmp_init('0x3FFFFFFF')
+
+        $temp = new self();
+        $temp->value = $this->value >> $shift;
+
+        return $this->normalize($temp);
+    }
+
+    /**
+     * Logical Left Shift
+     *
+     * Shifts BigInteger's by $shift bits, effectively multiplying by 2**$shift.
+     *
+     * @param int $shift
+     * @return \phpseclib3\Math\BigInteger\Engines\GMP
+     */
+    public function bitwise_leftShift($shift)
+    {
+        $temp = new self();
+        $temp->value = $this->value << $shift;
+
+        return $this->normalize($temp);
+    }
+
+    /**
+     * Performs modular exponentiation.
+     *
+     * @param GMP $e
+     * @param GMP $n
+     * @return GMP
+     */
+    public function modPow(GMP $e, GMP $n)
+    {
+        return $this->powModOuter($e, $n);
+    }
+
+    /**
+     * Performs modular exponentiation.
+     *
+     * Alias for modPow().
+     *
+     * @param GMP $e
+     * @param GMP $n
+     * @return GMP
+     */
+    public function powMod(GMP $e, GMP $n)
+    {
+        return $this->powModOuter($e, $n);
+    }
+
+    /**
+     * Performs modular exponentiation.
+     *
+     * @param GMP $e
+     * @param GMP $n
+     * @return GMP
+     */
+    protected function powModInner(GMP $e, GMP $n)
+    {
+        $class = self::$modexpEngine;
+        return $class::powModHelper($this, $e, $n);
+    }
+
+    /**
+     * Normalize
+     *
+     * Removes leading zeros and truncates (if necessary) to maintain the appropriate precision
+     *
+     * @param GMP $result
+     * @return GMP
+     */
+    protected function normalize(GMP $result)
+    {
+        unset($result->reduce);
+
+        $result->precision = $this->precision;
+        $result->bitmask = $this->bitmask;
+
+        if ($result->bitmask !== false) {
+            $flip = $result->value < 0;
+            if ($flip) {
+                $result->value = -$result->value;
+            }
+            $result->value = $result->value & $result->bitmask->value;
+            if ($flip) {
+                $result->value = -$result->value;
+            }
+        }
+
+        return $result;
+    }
+
+    /**
+     * Performs some post-processing for randomRangePrime
+     *
+     * @param Engine $x
+     * @param Engine $min
+     * @param Engine $max
+     * @return GMP
+     */
+    protected static function randomRangePrimeInner(Engine $x, Engine $min, Engine $max)
+    {
+        $p = gmp_nextprime($x->value);
+
+        if ($p <= $max->value) {
+            return new self($p);
+        }
+
+        if ($min->value != $x->value) {
+            $x = new self($x->value - 1);
+        }
+
+        return self::randomRangePrime($min, $x);
+    }
+
+    /**
+     * Generate a random prime number between a range
+     *
+     * If there's not a prime within the given range, false will be returned.
+     *
+     * @param GMP $min
+     * @param GMP $max
+     * @return false|GMP
+     */
+    public static function randomRangePrime(GMP $min, GMP $max)
+    {
+        return self::randomRangePrimeOuter($min, $max);
+    }
+
+    /**
+     * Generate a random number between a range
+     *
+     * Returns a random number between $min and $max where $min and $max
+     * can be defined using one of the two methods:
+     *
+     * BigInteger::randomRange($min, $max)
+     * BigInteger::randomRange($max, $min)
+     *
+     * @param GMP $min
+     * @param GMP $max
+     * @return GMP
+     */
+    public static function randomRange(GMP $min, GMP $max)
+    {
+        return self::randomRangeHelper($min, $max);
+    }
+
+    /**
+     * Make the current number odd
+     *
+     * If the current number is odd it'll be unchanged.  If it's even, one will be added to it.
+     *
+     * @see self::randomPrime()
+     */
+    protected function make_odd()
+    {
+        gmp_setbit($this->value, 0);
+    }
+
+    /**
+     * Tests Primality
+     *
+     * @param int $t
+     * @return bool
+     */
+    protected function testPrimality($t)
+    {
+        return gmp_prob_prime($this->value, $t) != 0;
+    }
+
+    /**
+     * Calculates the nth root of a biginteger.
+     *
+     * Returns the nth root of a positive biginteger, where n defaults to 2
+     *
+     * @param int $n
+     * @return GMP
+     */
+    protected function rootInner($n)
+    {
+        $root = new self();
+        $root->value = gmp_root($this->value, $n);
+        return $this->normalize($root);
+    }
+
+    /**
+     * Performs exponentiation.
+     *
+     * @param GMP $n
+     * @return GMP
+     */
+    public function pow(GMP $n)
+    {
+        $temp = new self();
+        $temp->value = $this->value ** $n->value;
+
+        return $this->normalize($temp);
+    }
+
+    /**
+     * Return the minimum BigInteger between an arbitrary number of BigIntegers.
+     *
+     * @param GMP ...$nums
+     * @return GMP
+     */
+    public static function min(GMP ...$nums)
+    {
+        return self::minHelper($nums);
+    }
+
+    /**
+     * Return the maximum BigInteger between an arbitrary number of BigIntegers.
+     *
+     * @param GMP ...$nums
+     * @return GMP
+     */
+    public static function max(GMP ...$nums)
+    {
+        return self::maxHelper($nums);
+    }
+
+    /**
+     * Tests BigInteger to see if it is between two integers, inclusive
+     *
+     * @param GMP $min
+     * @param GMP $max
+     * @return bool
+     */
+    public function between(GMP $min, GMP $max)
+    {
+        return $this->compare($min) >= 0 && $this->compare($max) <= 0;
+    }
+
+    /**
+     * Create Recurring Modulo Function
+     *
+     * Sometimes it may be desirable to do repeated modulos with the same number outside of
+     * modular exponentiation
+     *
+     * @return callable
+     */
+    public function createRecurringModuloFunction()
+    {
+        $temp = $this->value;
+        $this->reduce = function(GMP $x) use ($temp) {
+            return new GMP($x->value % $temp);
+        };
+        return $this->reduce;
+    }
+
+    /**
+     * Scan for 1 and right shift by that amount
+     *
+     * ie. $s = gmp_scan1($n, 0) and $r = gmp_div_q($n, gmp_pow(gmp_init('2'), $s));
+     *
+     * @param GMP $r
+     * @return int
+     */
+    public static function scan1divide(GMP $r)
+    {
+        $s = gmp_scan1($r->value, 0);
+        $r->value >>= $s;
+        return $s;
+    }
+
+    /**
+     * Is Odd?
+     *
+     * @return boolean
+     */
+    public function isOdd()
+    {
+        return gmp_testbit($this->value, 0);
+    }
+
+    /**
+     * Tests if a bit is set
+     *
+     * @return boolean
+     */
+    public function testBit($x)
+    {
+        return gmp_testbit($this->value, $x);
+    }
+
+    /**
+     * Is Negative?
+     *
+     * @return boolean
+     */
+    public function isNegative()
+    {
+        return gmp_sign($this->value) == -1;
+    }
+
+    /**
+     * Negate
+     *
+     * Given $k, returns -$k
+     *
+     * @return GMP
+     */
+    public function negate()
+    {
+        $temp = clone $this;
+        $temp->value = -$this->value;
+
+        return $temp;
+    }
+}

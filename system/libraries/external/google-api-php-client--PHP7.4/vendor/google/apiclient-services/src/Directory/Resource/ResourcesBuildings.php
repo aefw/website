@@ -1,75 +1,145 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-H67Mt/h4FQocQyUOU/534wte5cSU
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Directory\Resource;
+
+use Google\Service\Directory\Building;
+use Google\Service\Directory\Buildings;
+
+/**
+ * The "buildings" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $adminService = new Google\Service\Directory(...);
+ *   $buildings = $adminService->buildings;
+ *  </code>
+ */
+class ResourcesBuildings extends \Google\Service\Resource
+{
+  /**
+   * Deletes a building. (buildings.delete)
+   *
+   * @param string $customer The unique ID for the customer's Google Workspace
+   * account. As an account administrator, you can also use the `my_customer`
+   * alias to represent your account's customer ID.
+   * @param string $buildingId The id of the building to delete.
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($customer, $buildingId, $optParams = [])
+  {
+    $params = ['customer' => $customer, 'buildingId' => $buildingId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Retrieves a building. (buildings.get)
+   *
+   * @param string $customer The unique ID for the customer's Google Workspace
+   * account. As an account administrator, you can also use the `my_customer`
+   * alias to represent your account's customer ID.
+   * @param string $buildingId The unique ID of the building to retrieve.
+   * @param array $optParams Optional parameters.
+   * @return Building
+   */
+  public function get($customer, $buildingId, $optParams = [])
+  {
+    $params = ['customer' => $customer, 'buildingId' => $buildingId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Building::class);
+  }
+  /**
+   * Inserts a building. (buildings.insert)
+   *
+   * @param string $customer The unique ID for the customer's Google Workspace
+   * account. As an account administrator, you can also use the `my_customer`
+   * alias to represent your account's customer ID.
+   * @param Building $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string coordinatesSource Source from which Building.coordinates
+   * are derived.
+   * @return Building
+   */
+  public function insert($customer, Building $postBody, $optParams = [])
+  {
+    $params = ['customer' => $customer, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Building::class);
+  }
+  /**
+   * Retrieves a list of buildings for an account.
+   * (buildings.listResourcesBuildings)
+   *
+   * @param string $customer The unique ID for the customer's Google Workspace
+   * account. As an account administrator, you can also use the `my_customer`
+   * alias to represent your account's customer ID.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int maxResults Maximum number of results to return.
+   * @opt_param string pageToken Token to specify the next page in the list.
+   * @return Buildings
+   */
+  public function listResourcesBuildings($customer, $optParams = [])
+  {
+    $params = ['customer' => $customer];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], Buildings::class);
+  }
+  /**
+   * Patches a building via Apiary Patch Orchestration. (buildings.patch)
+   *
+   * @param string $customer The unique ID for the customer's Google Workspace
+   * account. As an account administrator, you can also use the `my_customer`
+   * alias to represent your account's customer ID.
+   * @param string $buildingId The id of the building to update.
+   * @param Building $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string coordinatesSource Source from which Building.coordinates
+   * are derived.
+   * @return Building
+   */
+  public function patch($customer, $buildingId, Building $postBody, $optParams = [])
+  {
+    $params = ['customer' => $customer, 'buildingId' => $buildingId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Building::class);
+  }
+  /**
+   * Updates a building. (buildings.update)
+   *
+   * @param string $customer The unique ID for the customer's Google Workspace
+   * account. As an account administrator, you can also use the `my_customer`
+   * alias to represent your account's customer ID.
+   * @param string $buildingId The id of the building to update.
+   * @param Building $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string coordinatesSource Source from which Building.coordinates
+   * are derived.
+   * @return Building
+   */
+  public function update($customer, $buildingId, Building $postBody, $optParams = [])
+  {
+    $params = ['customer' => $customer, 'buildingId' => $buildingId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Building::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ResourcesBuildings::class, 'Google_Service_Directory_Resource_ResourcesBuildings');

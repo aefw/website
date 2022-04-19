@@ -1,89 +1,63 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+//////////////////////////////////////////////////////////////
+//   phpThumb() by James Heinrich <info@silisoftware.com>   //
+//        available at http://phpthumb.sourceforge.net      //
+//         and/or https://github.com/JamesHeinrich/phpThumb //
+//////////////////////////////////////////////////////////////
+///                                                         //
+// phpThumb.demo.object.simple.php                          //
+// James Heinrich <info@silisoftware.com>                   //
+//                                                          //
+// Simplified example of how to use phpthumb.class.php as   //
+// an object -- please also see phpThumb.demo.object.php    //
+//                                                          //
+//////////////////////////////////////////////////////////////
+
+// Note: phpThumb.php is where the caching code is located, if
+//   you instantiate your own phpThumb() object that code is
+//   bypassed and it's up to you to handle the reading and
+//   writing of cached files, if appropriate.
+
+die('For security reasons, this demo is disabled by default. Please comment out line '.__LINE__.' in '.basename(__FILE__));
+
+require_once '../phpthumb.class.php';
+
+// create phpThumb object
+$phpThumb = new phpThumb();
+
+$thumbnail_width = 100;
+
+// set data source -- do this first, any settings must be made AFTER this call
+if (is_uploaded_file(@$_FILES['userfile']['tmp_name'])) {
+	$phpThumb->setSourceFilename($_FILES['userfile']['tmp_name']);
+	$output_filename = './thumbnails/'.basename($_FILES['userfile']['name']).'_'.$thumbnail_width.'.'.$phpThumb->config_output_format;
+} else {
+	$phpThumb->setSourceData(file_get_contents('..\images\disk.jpg'));
+	$output_filename = './thumbnails/disk_small.jpg';
+}
+
+// PLEASE NOTE:
+// You must set any relevant config settings here. The phpThumb
+// object mode does NOT pull any settings from phpThumb.config.php
+//$phpThumb->setParameter('config_document_root', '/home/groups/p/ph/phpthumb/htdocs/');
+//$phpThumb->setParameter('config_cache_directory', '/tmp/persistent/phpthumb/cache/');
+
+// set parameters (see "URL Parameters" in phpthumb.readme.txt)
+$phpThumb->setParameter('w', $thumbnail_width);
+//$phpThumb->setParameter('fltr', 'gam|1.2');
+//$phpThumb->setParameter('fltr', 'wmi|../watermark.jpg|C|75|20|20');
+
+// generate & output thumbnail
+if ($phpThumb->GenerateThumbnail()) { // this line is VERY important, do not remove it!
+	if ($phpThumb->RenderToFile($output_filename)) {
+		// do something on success
+		echo 'Successfully rendered to "'.$output_filename.'"';
+	} else {
+		// do something with debug/error messages
+		echo 'Failed:<pre>'.implode("\n\n", $phpThumb->debugmessages).'</pre>';
+	}
+	$phpThumb->purgeTempFiles();
+} else {
+	// do something with debug/error messages
+	echo 'Failed:<pre>'.$phpThumb->fatalerror."\n\n".implode("\n\n", $phpThumb->debugmessages).'</pre>';
+}

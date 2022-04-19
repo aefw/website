@@ -1,65 +1,78 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-XCGqrENIZAoiMxPX/VmU
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\RemoteBuildExecution;
+
+class GoogleDevtoolsRemotebuildexecutionAdminV1alphaInstance extends \Google\Model
+{
+  protected $featurePolicyType = GoogleDevtoolsRemotebuildexecutionAdminV1alphaFeaturePolicy::class;
+  protected $featurePolicyDataType = '';
+  public $location;
+  public $loggingEnabled;
+  public $name;
+  public $state;
+
+  /**
+   * @param GoogleDevtoolsRemotebuildexecutionAdminV1alphaFeaturePolicy
+   */
+  public function setFeaturePolicy(GoogleDevtoolsRemotebuildexecutionAdminV1alphaFeaturePolicy $featurePolicy)
+  {
+    $this->featurePolicy = $featurePolicy;
+  }
+  /**
+   * @return GoogleDevtoolsRemotebuildexecutionAdminV1alphaFeaturePolicy
+   */
+  public function getFeaturePolicy()
+  {
+    return $this->featurePolicy;
+  }
+  public function setLocation($location)
+  {
+    $this->location = $location;
+  }
+  public function getLocation()
+  {
+    return $this->location;
+  }
+  public function setLoggingEnabled($loggingEnabled)
+  {
+    $this->loggingEnabled = $loggingEnabled;
+  }
+  public function getLoggingEnabled()
+  {
+    return $this->loggingEnabled;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setState($state)
+  {
+    $this->state = $state;
+  }
+  public function getState()
+  {
+    return $this->state;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleDevtoolsRemotebuildexecutionAdminV1alphaInstance::class, 'Google_Service_RemoteBuildExecution_GoogleDevtoolsRemotebuildexecutionAdminV1alphaInstance');

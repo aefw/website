@@ -1,61 +1,100 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-BpfHtbp1SWCT6S91TOHw2N6mef5/2G52h6638xS=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Firebaseappcheck\Resource;
+
+use Google\Service\Firebaseappcheck\GoogleFirebaseAppcheckV1betaBatchGetDeviceCheckConfigsResponse;
+use Google\Service\Firebaseappcheck\GoogleFirebaseAppcheckV1betaDeviceCheckConfig;
+
+/**
+ * The "deviceCheckConfig" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $firebaseappcheckService = new Google\Service\Firebaseappcheck(...);
+ *   $deviceCheckConfig = $firebaseappcheckService->deviceCheckConfig;
+ *  </code>
+ */
+class ProjectsAppsDeviceCheckConfig extends \Google\Service\Resource
+{
+  /**
+   * Gets the DeviceCheckConfigs for the specified list of apps atomically. For
+   * security reasons, the `private_key` field is never populated in the response.
+   * (deviceCheckConfig.batchGet)
+   *
+   * @param string $parent Required. The parent project name shared by all
+   * DeviceCheckConfigs being retrieved, in the format ```
+   * projects/{project_number} ``` The parent collection in the `name` field of
+   * any resource being retrieved must match this field, or the entire batch
+   * fails.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string names Required. The relative resource names of the
+   * DeviceCheckConfigs to retrieve, in the format ```
+   * projects/{project_number}/apps/{app_id}/deviceCheckConfig ``` A maximum of
+   * 100 objects can be retrieved in a batch.
+   * @return GoogleFirebaseAppcheckV1betaBatchGetDeviceCheckConfigsResponse
+   */
+  public function batchGet($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('batchGet', [$params], GoogleFirebaseAppcheckV1betaBatchGetDeviceCheckConfigsResponse::class);
+  }
+  /**
+   * Gets the DeviceCheckConfig for the specified app. For security reasons, the
+   * `private_key` field is never populated in the response.
+   * (deviceCheckConfig.get)
+   *
+   * @param string $name Required. The relative resource name of the
+   * DeviceCheckConfig, in the format: ```
+   * projects/{project_number}/apps/{app_id}/deviceCheckConfig ```
+   * @param array $optParams Optional parameters.
+   * @return GoogleFirebaseAppcheckV1betaDeviceCheckConfig
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleFirebaseAppcheckV1betaDeviceCheckConfig::class);
+  }
+  /**
+   * Updates the DeviceCheckConfig for the specified app. While this configuration
+   * is incomplete or invalid, the app will be unable to exchange DeviceCheck
+   * tokens for App Check tokens. For security reasons, the `private_key` field is
+   * never populated in the response. (deviceCheckConfig.patch)
+   *
+   * @param string $name Required. The relative resource name of the DeviceCheck
+   * configuration object, in the format: ```
+   * projects/{project_number}/apps/{app_id}/deviceCheckConfig ```
+   * @param GoogleFirebaseAppcheckV1betaDeviceCheckConfig $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. A comma-separated list of names of
+   * fields in the DeviceCheckConfig Gets to update. Example:
+   * `key_id,private_key`.
+   * @return GoogleFirebaseAppcheckV1betaDeviceCheckConfig
+   */
+  public function patch($name, GoogleFirebaseAppcheckV1betaDeviceCheckConfig $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], GoogleFirebaseAppcheckV1betaDeviceCheckConfig::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsAppsDeviceCheckConfig::class, 'Google_Service_Firebaseappcheck_Resource_ProjectsAppsDeviceCheckConfig');

@@ -1,100 +1,328 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Wew97eklcFjSkGYh7ziA9qDyIHwvqT5Li8N7C9q=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudHealthcare\Resource;
+
+use Google\Service\CloudHealthcare\DeidentifyFhirStoreRequest;
+use Google\Service\CloudHealthcare\ExportResourcesRequest;
+use Google\Service\CloudHealthcare\FhirStore;
+use Google\Service\CloudHealthcare\HealthcareEmpty;
+use Google\Service\CloudHealthcare\ImportResourcesRequest;
+use Google\Service\CloudHealthcare\ListFhirStoresResponse;
+use Google\Service\CloudHealthcare\Operation;
+use Google\Service\CloudHealthcare\Policy;
+use Google\Service\CloudHealthcare\SetIamPolicyRequest;
+use Google\Service\CloudHealthcare\TestIamPermissionsRequest;
+use Google\Service\CloudHealthcare\TestIamPermissionsResponse;
+
+/**
+ * The "fhirStores" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $healthcareService = new Google\Service\CloudHealthcare(...);
+ *   $fhirStores = $healthcareService->fhirStores;
+ *  </code>
+ */
+class ProjectsLocationsDatasetsFhirStores extends \Google\Service\Resource
+{
+  /**
+   * Creates a new FHIR store within the parent dataset. (fhirStores.create)
+   *
+   * @param string $parent The name of the dataset this FHIR store belongs to.
+   * @param FhirStore $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string fhirStoreId The ID of the FHIR store that is being created.
+   * The string must match the following regex: `[\p{L}\p{N}_\-\.]{1,256}`.
+   * @return FhirStore
+   */
+  public function create($parent, FhirStore $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], FhirStore::class);
+  }
+  /**
+   * De-identifies data from the source store and writes it to the destination
+   * store. The metadata field type is OperationMetadata. If the request is
+   * successful, the response field type is DeidentifyFhirStoreSummary. If errors
+   * occur, error is set. Error details are also logged to Cloud Logging (see
+   * [Viewing error logs in Cloud
+   * Logging](https://cloud.google.com/healthcare/docs/how-tos/logging)).
+   * (fhirStores.deidentify)
+   *
+   * @param string $sourceStore Source FHIR store resource name. For example, `pro
+   * jects/{project_id}/locations/{location_id}/datasets/{dataset_id}/fhirStores/{
+   * fhir_store_id}`.
+   * @param DeidentifyFhirStoreRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function deidentify($sourceStore, DeidentifyFhirStoreRequest $postBody, $optParams = [])
+  {
+    $params = ['sourceStore' => $sourceStore, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('deidentify', [$params], Operation::class);
+  }
+  /**
+   * Deletes the specified FHIR store and removes all resources within it.
+   * (fhirStores.delete)
+   *
+   * @param string $name The resource name of the FHIR store to delete.
+   * @param array $optParams Optional parameters.
+   * @return HealthcareEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], HealthcareEmpty::class);
+  }
+  /**
+   * Export resources from the FHIR store to the specified destination. This
+   * method returns an Operation that can be used to track the status of the
+   * export by calling GetOperation. Immediate fatal errors appear in the error
+   * field, errors are also logged to Cloud Logging (see [Viewing error logs in
+   * Cloud Logging](https://cloud.google.com/healthcare/docs/how-tos/logging)).
+   * Otherwise, when the operation finishes, a detailed response of type
+   * ExportResourcesResponse is returned in the response field. The metadata field
+   * type for this operation is OperationMetadata. (fhirStores.export)
+   *
+   * @param string $name The name of the FHIR store to export resource from, in
+   * the format of `projects/{project_id}/locations/{location_id}/datasets/{datase
+   * t_id}/fhirStores/{fhir_store_id}`.
+   * @param ExportResourcesRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function export($name, ExportResourcesRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('export', [$params], Operation::class);
+  }
+  /**
+   * Gets the configuration of the specified FHIR store. (fhirStores.get)
+   *
+   * @param string $name The resource name of the FHIR store to get.
+   * @param array $optParams Optional parameters.
+   * @return FhirStore
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], FhirStore::class);
+  }
+  /**
+   * Gets the access control policy for a resource. Returns an empty policy if the
+   * resource exists and does not have a policy set. (fhirStores.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int options.requestedPolicyVersion Optional. The policy format
+   * version to be returned. Valid values are 0, 1, and 3. Requests specifying an
+   * invalid value will be rejected. Requests for policies with any conditional
+   * bindings must specify version 3. Policies without any conditional bindings
+   * may specify any valid value or leave the field unset. To learn which
+   * resources support conditions in their IAM policies, see the [IAM
+   * documentation](https://cloud.google.com/iam/help/conditions/resource-
+   * policies).
+   * @return Policy
+   */
+  public function getIamPolicy($resource, $optParams = [])
+  {
+    $params = ['resource' => $resource];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Imports resources to the FHIR store by loading data from the specified
+   * sources. This method is optimized to load large quantities of data using
+   * import semantics that ignore some FHIR store configuration options and are
+   * not suitable for all use cases. It is primarily intended to load data into an
+   * empty FHIR store that is not being used by other clients. In cases where this
+   * method is not appropriate, consider using ExecuteBundle to load data. Every
+   * resource in the input must contain a client-supplied ID. Each resource is
+   * stored using the supplied ID regardless of the enable_update_create setting
+   * on the FHIR store. It is strongly advised not to include or encode any
+   * sensitive data such as patient identifiers in client-specified resource IDs.
+   * Those IDs are part of the FHIR resource path recorded in Cloud Audit Logs and
+   * Cloud Pub/Sub notifications. Those IDs can also be contained in reference
+   * fields within other resources. The import process does not enforce
+   * referential integrity, regardless of the disable_referential_integrity
+   * setting on the FHIR store. This allows the import of resources with arbitrary
+   * interdependencies without considering grouping or ordering, but if the input
+   * data contains invalid references or if some resources fail to be imported,
+   * the FHIR store might be left in a state that violates referential integrity.
+   * The import process does not trigger Pub/Sub notification or BigQuery
+   * streaming update, regardless of how those are configured on the FHIR store.
+   * If a resource with the specified ID already exists, the most recent version
+   * of the resource is overwritten without creating a new historical version,
+   * regardless of the disable_resource_versioning setting on the FHIR store. If
+   * transient failures occur during the import, it's possible that successfully
+   * imported resources will be overwritten more than once. The import operation
+   * is idempotent unless the input data contains multiple valid resources with
+   * the same ID but different contents. In that case, after the import completes,
+   * the store contains exactly one resource with that ID but there is no ordering
+   * guarantee on which version of the contents it will have. The operation result
+   * counters do not count duplicate IDs as an error and count one success for
+   * each resource in the input, which might result in a success count larger than
+   * the number of resources in the FHIR store. This often occurs when importing
+   * data organized in bundles produced by Patient-everything where each bundle
+   * contains its own copy of a resource such as Practitioner that might be
+   * referred to by many patients. If some resources fail to import, for example
+   * due to parsing errors, successfully imported resources are not rolled back.
+   * The location and format of the input data is specified by the parameters in
+   * ImportResourcesRequest. Note that if no format is specified, this method
+   * assumes the `BUNDLE` format. When using the `BUNDLE` format this method
+   * ignores the `Bundle.type` field, except that `history` bundles are rejected,
+   * and does not apply any of the bundle processing semantics for batch or
+   * transaction bundles. Unlike in ExecuteBundle, transaction bundles are not
+   * executed as a single transaction and bundle-internal references are not
+   * rewritten. The bundle is treated as a collection of resources to be written
+   * as provided in `Bundle.entry.resource`, ignoring `Bundle.entry.request`. As
+   * an example, this allows the import of `searchset` bundles produced by a FHIR
+   * search or Patient-everything operation. This method returns an Operation that
+   * can be used to track the status of the import by calling GetOperation.
+   * Immediate fatal errors appear in the error field, errors are also logged to
+   * Cloud Logging (see [Viewing error logs in Cloud
+   * Logging](https://cloud.google.com/healthcare/docs/how-tos/logging)).
+   * Otherwise, when the operation finishes, a detailed response of type
+   * ImportResourcesResponse is returned in the response field. The metadata field
+   * type for this operation is OperationMetadata. (fhirStores.import)
+   *
+   * @param string $name The name of the FHIR store to import FHIR resources to,
+   * in the format of `projects/{project_id}/locations/{location_id}/datasets/{dat
+   * aset_id}/fhirStores/{fhir_store_id}`.
+   * @param ImportResourcesRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function import($name, ImportResourcesRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('import', [$params], Operation::class);
+  }
+  /**
+   * Lists the FHIR stores in the given dataset.
+   * (fhirStores.listProjectsLocationsDatasetsFhirStores)
+   *
+   * @param string $parent Name of the dataset.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Restricts stores returned to those matching a
+   * filter. The following syntax is available: * A string field value can be
+   * written as text inside quotation marks, for example `"query text"`. The only
+   * valid relational operation for text fields is equality (`=`), where text is
+   * searched within the field, rather than having the field be equal to the text.
+   * For example, `"Comment = great"` returns messages with `great` in the comment
+   * field. * A number field value can be written as an integer, a decimal, or an
+   * exponential. The valid relational operators for number fields are the
+   * equality operator (`=`), along with the less than/greater than operators
+   * (`<`, `<=`, `>`, `>=`). Note that there is no inequality (`!=`) operator. You
+   * can prepend the `NOT` operator to an expression to negate it. * A date field
+   * value must be written in `yyyy-mm-dd` form. Fields with date and time use the
+   * RFC3339 time format. Leading zeros are required for one-digit months and
+   * days. The valid relational operators for date fields are the equality
+   * operator (`=`) , along with the less than/greater than operators (`<`, `<=`,
+   * `>`, `>=`). Note that there is no inequality (`!=`) operator. You can prepend
+   * the `NOT` operator to an expression to negate it. * Multiple field query
+   * expressions can be combined in one query by adding `AND` or `OR` operators
+   * between the expressions. If a boolean operator appears within a quoted
+   * string, it is not treated as special, it's just another part of the character
+   * string to be matched. You can prepend the `NOT` operator to an expression to
+   * negate it. Only filtering on labels is supported, for example
+   * `labels.key=value`.
+   * @opt_param int pageSize Limit on the number of FHIR stores to return in a
+   * single response. If not specified, 100 is used. May not be larger than 1000.
+   * @opt_param string pageToken The next_page_token value returned from the
+   * previous List request, if any.
+   * @return ListFhirStoresResponse
+   */
+  public function listProjectsLocationsDatasetsFhirStores($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListFhirStoresResponse::class);
+  }
+  /**
+   * Updates the configuration of the specified FHIR store. (fhirStores.patch)
+   *
+   * @param string $name Output only. Resource name of the FHIR store, of the form
+   * `projects/{project_id}/datasets/{dataset_id}/fhirStores/{fhir_store_id}`.
+   * @param FhirStore $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask The update mask applies to the resource. For the
+   * `FieldMask` definition, see https://developers.google.com/protocol-
+   * buffers/docs/reference/google.protobuf#fieldmask
+   * @return FhirStore
+   */
+  public function patch($name, FhirStore $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], FhirStore::class);
+  }
+  /**
+   * Sets the access control policy on the specified resource. Replaces any
+   * existing policy. Can return `NOT_FOUND`, `INVALID_ARGUMENT`, and
+   * `PERMISSION_DENIED` errors. (fhirStores.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource. If the
+   * resource does not exist, this will return an empty set of permissions, not a
+   * `NOT_FOUND` error. Note: This operation is designed to be used for building
+   * permission-aware UIs and command-line tools, not for authorization checking.
+   * This operation may "fail open" without warning.
+   * (fhirStores.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsDatasetsFhirStores::class, 'Google_Service_CloudHealthcare_Resource_ProjectsLocationsDatasetsFhirStores');

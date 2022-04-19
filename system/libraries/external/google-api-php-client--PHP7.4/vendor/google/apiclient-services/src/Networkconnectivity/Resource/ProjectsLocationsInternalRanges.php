@@ -1,62 +1,102 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Networkconnectivity\Resource;
+
+use Google\Service\Networkconnectivity\Policy;
+use Google\Service\Networkconnectivity\SetIamPolicyRequest;
+use Google\Service\Networkconnectivity\TestIamPermissionsRequest;
+use Google\Service\Networkconnectivity\TestIamPermissionsResponse;
+
+/**
+ * The "internalRanges" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $networkconnectivityService = new Google\Service\Networkconnectivity(...);
+ *   $internalRanges = $networkconnectivityService->internalRanges;
+ *  </code>
+ */
+class ProjectsLocationsInternalRanges extends \Google\Service\Resource
+{
+  /**
+   * Gets the access control policy for a resource. Returns an empty policy if the
+   * resource exists and does not have a policy set. (internalRanges.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int options.requestedPolicyVersion Optional. The policy format
+   * version to be returned. Valid values are 0, 1, and 3. Requests specifying an
+   * invalid value will be rejected. Requests for policies with any conditional
+   * bindings must specify version 3. Policies without any conditional bindings
+   * may specify any valid value or leave the field unset. To learn which
+   * resources support conditions in their IAM policies, see the [IAM
+   * documentation](https://cloud.google.com/iam/help/conditions/resource-
+   * policies).
+   * @return Policy
+   */
+  public function getIamPolicy($resource, $optParams = [])
+  {
+    $params = ['resource' => $resource];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Sets the access control policy on the specified resource. Replaces any
+   * existing policy. Can return `NOT_FOUND`, `INVALID_ARGUMENT`, and
+   * `PERMISSION_DENIED` errors. (internalRanges.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource. If the
+   * resource does not exist, this will return an empty set of permissions, not a
+   * `NOT_FOUND` error. Note: This operation is designed to be used for building
+   * permission-aware UIs and command-line tools, not for authorization checking.
+   * This operation may "fail open" without warning.
+   * (internalRanges.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsInternalRanges::class, 'Google_Service_Networkconnectivity_Resource_ProjectsLocationsInternalRanges');

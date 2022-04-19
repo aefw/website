@@ -1,68 +1,111 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute;
+
+class HttpRouteRuleMatch extends \Google\Collection
+{
+  protected $collection_key = 'queryParameterMatches';
+  public $fullPathMatch;
+  protected $headerMatchesType = HttpHeaderMatch::class;
+  protected $headerMatchesDataType = 'array';
+  public $ignoreCase;
+  protected $metadataFiltersType = MetadataFilter::class;
+  protected $metadataFiltersDataType = 'array';
+  public $prefixMatch;
+  protected $queryParameterMatchesType = HttpQueryParameterMatch::class;
+  protected $queryParameterMatchesDataType = 'array';
+  public $regexMatch;
+
+  public function setFullPathMatch($fullPathMatch)
+  {
+    $this->fullPathMatch = $fullPathMatch;
+  }
+  public function getFullPathMatch()
+  {
+    return $this->fullPathMatch;
+  }
+  /**
+   * @param HttpHeaderMatch[]
+   */
+  public function setHeaderMatches($headerMatches)
+  {
+    $this->headerMatches = $headerMatches;
+  }
+  /**
+   * @return HttpHeaderMatch[]
+   */
+  public function getHeaderMatches()
+  {
+    return $this->headerMatches;
+  }
+  public function setIgnoreCase($ignoreCase)
+  {
+    $this->ignoreCase = $ignoreCase;
+  }
+  public function getIgnoreCase()
+  {
+    return $this->ignoreCase;
+  }
+  /**
+   * @param MetadataFilter[]
+   */
+  public function setMetadataFilters($metadataFilters)
+  {
+    $this->metadataFilters = $metadataFilters;
+  }
+  /**
+   * @return MetadataFilter[]
+   */
+  public function getMetadataFilters()
+  {
+    return $this->metadataFilters;
+  }
+  public function setPrefixMatch($prefixMatch)
+  {
+    $this->prefixMatch = $prefixMatch;
+  }
+  public function getPrefixMatch()
+  {
+    return $this->prefixMatch;
+  }
+  /**
+   * @param HttpQueryParameterMatch[]
+   */
+  public function setQueryParameterMatches($queryParameterMatches)
+  {
+    $this->queryParameterMatches = $queryParameterMatches;
+  }
+  /**
+   * @return HttpQueryParameterMatch[]
+   */
+  public function getQueryParameterMatches()
+  {
+    return $this->queryParameterMatches;
+  }
+  public function setRegexMatch($regexMatch)
+  {
+    $this->regexMatch = $regexMatch;
+  }
+  public function getRegexMatch()
+  {
+    return $this->regexMatch;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(HttpRouteRuleMatch::class, 'Google_Service_Compute_HttpRouteRuleMatch');

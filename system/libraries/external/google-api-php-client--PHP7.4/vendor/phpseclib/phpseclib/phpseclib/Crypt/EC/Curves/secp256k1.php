@@ -1,60 +1,51 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+/**
+ * secp256k1
+ *
+ * This is the curve used in Bitcoin
+ *
+ * PHP version 5 and 7
+ *
+ * @category  Crypt
+ * @package   EC
+ * @author    Jim Wigginton <terrafrost@php.net>
+ * @copyright 2017 Jim Wigginton
+ * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      http://pear.php.net/package/Math_BigInteger
+ */
+
+namespace phpseclib3\Crypt\EC\Curves;
+
+//use phpseclib3\Crypt\EC\BaseCurves\Prime;
+use phpseclib3\Crypt\EC\BaseCurves\KoblitzPrime;
+use phpseclib3\Math\BigInteger;
+
+//class secp256k1 extends Prime
+class secp256k1 extends KoblitzPrime
+{
+    public function __construct()
+    {
+        $this->setModulo(new BigInteger('FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFC2F', 16));
+        $this->setCoefficients(
+            new BigInteger('0000000000000000000000000000000000000000000000000000000000000000', 16),
+            new BigInteger('0000000000000000000000000000000000000000000000000000000000000007', 16)
+        );
+        $this->setOrder(new BigInteger('FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEBAAEDCE6AF48A03BBFD25E8CD0364141', 16));
+        $this->setBasePoint(
+            new BigInteger('79BE667EF9DCBBAC55A06295CE870B07029BFCDB2DCE28D959F2815B16F81798', 16),
+            new BigInteger('483ADA7726A3C4655DA4FBFC0E1108A8FD17B448A68554199C47D08FFB10D4B8', 16)
+        );
+
+        $this->basis = [];
+        $this->basis[] = [
+            'a' => new BigInteger('3086D221A7D46BCDE86C90E49284EB15', -16),
+            'b' => new BigInteger('FF1BBC8129FEF177D790AB8056F5401B3D', -16)
+        ];
+        $this->basis[] = [
+            'a' => new BigInteger('114CA50F7A8E2F3F657C1108D9D44CFD8', -16),
+            'b' => new BigInteger('3086D221A7D46BCDE86C90E49284EB15', -16)
+        ];
+        $this->beta = $this->factory->newInteger(new BigInteger('7AE96A2B657C07106E64479EAC3434E99CF0497512F58995C1396C28719501EE', -16));
+    }
+}

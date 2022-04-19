@@ -1,93 +1,252 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/**
+ * Copyright 2017 Facebook, Inc.
+ *
+ * You are hereby granted a non-exclusive, worldwide, royalty-free license to
+ * use, copy, modify, and distribute this software in source code or binary
+ * form for use in connection with the web services and APIs provided by
+ * Facebook.
+ *
+ * As with any software that integrates with the Facebook platform, your use
+ * of this software is subject to the Facebook Developer Principles and
+ * Policies [http://developers.facebook.com/policy/]. This copyright notice
+ * shall be included in all copies or substantial portions of the software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+ * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+ *
+ */
+namespace Facebook\GraphNodes;
+
+use Facebook\FacebookRequest;
+use Facebook\Url\FacebookUrlManipulator;
+use Facebook\Exceptions\FacebookSDKException;
+
+/**
+ * Class GraphEdge
+ *
+ * @package Facebook
+ */
+class GraphEdge extends Collection
+{
+    /**
+     * @var FacebookRequest The original request that generated this data.
+     */
+    protected $request;
+
+    /**
+     * @var array An array of Graph meta data like pagination, etc.
+     */
+    protected $metaData = [];
+
+    /**
+     * @var string|null The parent Graph edge endpoint that generated the list.
+     */
+    protected $parentEdgeEndpoint;
+
+    /**
+     * @var string|null The subclass of the child GraphNode's.
+     */
+    protected $subclassName;
+
+    /**
+     * Init this collection of GraphNode's.
+     *
+     * @param FacebookRequest $request            The original request that generated this data.
+     * @param array           $data               An array of GraphNode's.
+     * @param array           $metaData           An array of Graph meta data like pagination, etc.
+     * @param string|null     $parentEdgeEndpoint The parent Graph edge endpoint that generated the list.
+     * @param string|null     $subclassName       The subclass of the child GraphNode's.
+     */
+    public function __construct(FacebookRequest $request, array $data = [], array $metaData = [], $parentEdgeEndpoint = null, $subclassName = null)
+    {
+        $this->request = $request;
+        $this->metaData = $metaData;
+        $this->parentEdgeEndpoint = $parentEdgeEndpoint;
+        $this->subclassName = $subclassName;
+
+        parent::__construct($data);
+    }
+
+    /**
+     * Gets the parent Graph edge endpoint that generated the list.
+     *
+     * @return string|null
+     */
+    public function getParentGraphEdge()
+    {
+        return $this->parentEdgeEndpoint;
+    }
+
+    /**
+     * Gets the subclass name that the child GraphNode's are cast as.
+     *
+     * @return string|null
+     */
+    public function getSubClassName()
+    {
+        return $this->subclassName;
+    }
+
+    /**
+     * Returns the raw meta data associated with this GraphEdge.
+     *
+     * @return array
+     */
+    public function getMetaData()
+    {
+        return $this->metaData;
+    }
+
+    /**
+     * Returns the next cursor if it exists.
+     *
+     * @return string|null
+     */
+    public function getNextCursor()
+    {
+        return $this->getCursor('after');
+    }
+
+    /**
+     * Returns the previous cursor if it exists.
+     *
+     * @return string|null
+     */
+    public function getPreviousCursor()
+    {
+        return $this->getCursor('before');
+    }
+
+    /**
+     * Returns the cursor for a specific direction if it exists.
+     *
+     * @param string $direction The direction of the page: after|before
+     *
+     * @return string|null
+     */
+    public function getCursor($direction)
+    {
+        if (isset($this->metaData['paging']['cursors'][$direction])) {
+            return $this->metaData['paging']['cursors'][$direction];
+        }
+
+        return null;
+    }
+
+    /**
+     * Generates a pagination URL based on a cursor.
+     *
+     * @param string $direction The direction of the page: next|previous
+     *
+     * @return string|null
+     *
+     * @throws FacebookSDKException
+     */
+    public function getPaginationUrl($direction)
+    {
+        $this->validateForPagination();
+
+        // Do we have a paging URL?
+        if (!isset($this->metaData['paging'][$direction])) {
+            return null;
+        }
+
+        $pageUrl = $this->metaData['paging'][$direction];
+
+        return FacebookUrlManipulator::baseGraphUrlEndpoint($pageUrl);
+    }
+
+    /**
+     * Validates whether or not we can paginate on this request.
+     *
+     * @throws FacebookSDKException
+     */
+    public function validateForPagination()
+    {
+        if ($this->request->getMethod() !== 'GET') {
+            throw new FacebookSDKException('You can only paginate on a GET request.', 720);
+        }
+    }
+
+    /**
+     * Gets the request object needed to make a next|previous page request.
+     *
+     * @param string $direction The direction of the page: next|previous
+     *
+     * @return FacebookRequest|null
+     *
+     * @throws FacebookSDKException
+     */
+    public function getPaginationRequest($direction)
+    {
+        $pageUrl = $this->getPaginationUrl($direction);
+        if (!$pageUrl) {
+            return null;
+        }
+
+        $newRequest = clone $this->request;
+        $newRequest->setEndpoint($pageUrl);
+
+        return $newRequest;
+    }
+
+    /**
+     * Gets the request object needed to make a "next" page request.
+     *
+     * @return FacebookRequest|null
+     *
+     * @throws FacebookSDKException
+     */
+    public function getNextPageRequest()
+    {
+        return $this->getPaginationRequest('next');
+    }
+
+    /**
+     * Gets the request object needed to make a "previous" page request.
+     *
+     * @return FacebookRequest|null
+     *
+     * @throws FacebookSDKException
+     */
+    public function getPreviousPageRequest()
+    {
+        return $this->getPaginationRequest('previous');
+    }
+
+    /**
+     * The total number of results according to Graph if it exists.
+     *
+     * This will be returned if the summary=true modifier is present in the request.
+     *
+     * @return int|null
+     */
+    public function getTotalCount()
+    {
+        if (isset($this->metaData['summary']['total_count'])) {
+            return $this->metaData['summary']['total_count'];
+        }
+
+        return null;
+    }
+
+    /**
+     * @inheritDoc
+     */
+    public function map(\Closure $callback)
+    {
+        return new static(
+            $this->request,
+            array_map($callback, $this->items, array_keys($this->items)),
+            $this->metaData,
+            $this->parentEdgeEndpoint,
+            $this->subclassName
+        );
+    }
+}

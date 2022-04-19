@@ -1,67 +1,145 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DataprocMetastore\Resource;
+
+use Google\Service\DataprocMetastore\ListMetadataImportsResponse;
+use Google\Service\DataprocMetastore\MetadataImport;
+use Google\Service\DataprocMetastore\Operation;
+
+/**
+ * The "metadataImports" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $metastoreService = new Google\Service\DataprocMetastore(...);
+ *   $metadataImports = $metastoreService->metadataImports;
+ *  </code>
+ */
+class ProjectsLocationsServicesMetadataImports extends \Google\Service\Resource
+{
+  /**
+   * Creates a new MetadataImport in a given project and location.
+   * (metadataImports.create)
+   *
+   * @param string $parent Required. The relative resource name of the service in
+   * which to create a metastore import, in the following
+   * form:projects/{project_number}/locations/{location_id}/services/{service_id}.
+   * @param MetadataImport $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string metadataImportId Required. The ID of the metadata import,
+   * which is used as the final component of the metadata import's name.This value
+   * must be between 1 and 64 characters long, begin with a letter, end with a
+   * letter or number, and consist of alpha-numeric ASCII characters or hyphens.
+   * @opt_param string requestId Optional. A request ID. Specify a unique request
+   * ID to allow the server to ignore the request if it has completed. The server
+   * will ignore subsequent requests that provide a duplicate request ID for at
+   * least 60 minutes after the first request.For example, if an initial request
+   * times out, followed by another request with the same request ID, the server
+   * ignores the second request to prevent the creation of duplicate
+   * commitments.The request ID must be a valid UUID
+   * (https://en.wikipedia.org/wiki/Universally_unique_identifier#Format) A zero
+   * UUID (00000000-0000-0000-0000-000000000000) is not supported.
+   * @return Operation
+   */
+  public function create($parent, MetadataImport $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Operation::class);
+  }
+  /**
+   * Gets details of a single import. (metadataImports.get)
+   *
+   * @param string $name Required. The relative resource name of the metadata
+   * import to retrieve, in the following form:projects/{project_number}/locations
+   * /{location_id}/services/{service_id}/metadataImports/{import_id}.
+   * @param array $optParams Optional parameters.
+   * @return MetadataImport
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], MetadataImport::class);
+  }
+  /**
+   * Lists imports in a service.
+   * (metadataImports.listProjectsLocationsServicesMetadataImports)
+   *
+   * @param string $parent Required. The relative resource name of the service
+   * whose metadata imports to list, in the following form:projects/{project_numbe
+   * r}/locations/{location_id}/services/{service_id}/metadataImports.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Optional. The filter to apply to list results.
+   * @opt_param string orderBy Optional. Specify the ordering of results as
+   * described in Sorting Order
+   * (https://cloud.google.com/apis/design/design_patterns#sorting_order). If not
+   * specified, the results will be sorted in the default order.
+   * @opt_param int pageSize Optional. The maximum number of imports to return.
+   * The response may contain less than the maximum number. If unspecified, no
+   * more than 500 imports are returned. The maximum value is 1000; values above
+   * 1000 are changed to 1000.
+   * @opt_param string pageToken Optional. A page token, received from a previous
+   * DataprocMetastore.ListServices call. Provide this token to retrieve the
+   * subsequent page.To retrieve the first page, supply an empty page token.When
+   * paginating, other parameters provided to DataprocMetastore.ListServices must
+   * match the call that provided the page token.
+   * @return ListMetadataImportsResponse
+   */
+  public function listProjectsLocationsServicesMetadataImports($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListMetadataImportsResponse::class);
+  }
+  /**
+   * Updates a single import. Only the description field of MetadataImport is
+   * supported to be updated. (metadataImports.patch)
+   *
+   * @param string $name Immutable. The relative resource name of the metadata
+   * import, of the form:projects/{project_number}/locations/{location_id}/service
+   * s/{service_id}/metadataImports/{metadata_import_id}.
+   * @param MetadataImport $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId Optional. A request ID. Specify a unique request
+   * ID to allow the server to ignore the request if it has completed. The server
+   * will ignore subsequent requests that provide a duplicate request ID for at
+   * least 60 minutes after the first request.For example, if an initial request
+   * times out, followed by another request with the same request ID, the server
+   * ignores the second request to prevent the creation of duplicate
+   * commitments.The request ID must be a valid UUID
+   * (https://en.wikipedia.org/wiki/Universally_unique_identifier#Format) A zero
+   * UUID (00000000-0000-0000-0000-000000000000) is not supported.
+   * @opt_param string updateMask Required. A field mask used to specify the
+   * fields to be overwritten in the metadata import resource by the update.
+   * Fields specified in the update_mask are relative to the resource (not to the
+   * full request). A field is overwritten if it is in the mask.
+   * @return Operation
+   */
+  public function patch($name, MetadataImport $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsServicesMetadataImports::class, 'Google_Service_DataprocMetastore_Resource_ProjectsLocationsServicesMetadataImports');

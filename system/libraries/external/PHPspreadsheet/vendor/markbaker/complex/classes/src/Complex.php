@@ -1,136 +1,387 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-awqkqnSar0/XfNmo954ssCo/qhEbCm==
+<?php
+
+/**
+ *
+ * Class for the management of Complex numbers
+ *
+ * @copyright  Copyright (c) 2013-2018 Mark Baker (https://github.com/MarkBaker/PHPComplex)
+ * @license    https://opensource.org/licenses/MIT    MIT
+ */
+namespace Complex;
+
+/**
+ * Complex Number object.
+ *
+ * @package Complex
+ *
+ * @method float abs()
+ * @method Complex acos()
+ * @method Complex acosh()
+ * @method Complex acot()
+ * @method Complex acoth()
+ * @method Complex acsc()
+ * @method Complex acsch()
+ * @method float argument()
+ * @method Complex asec()
+ * @method Complex asech()
+ * @method Complex asin()
+ * @method Complex asinh()
+ * @method Complex atan()
+ * @method Complex atanh()
+ * @method Complex conjugate()
+ * @method Complex cos()
+ * @method Complex cosh()
+ * @method Complex cot()
+ * @method Complex coth()
+ * @method Complex csc()
+ * @method Complex csch()
+ * @method Complex exp()
+ * @method Complex inverse()
+ * @method Complex ln()
+ * @method Complex log2()
+ * @method Complex log10()
+ * @method Complex negative()
+ * @method Complex pow(int|float $power)
+ * @method float rho()
+ * @method Complex sec()
+ * @method Complex sech()
+ * @method Complex sin()
+ * @method Complex sinh()
+ * @method Complex sqrt()
+ * @method Complex tan()
+ * @method Complex tanh()
+ * @method float theta()
+ * @method Complex add(...$complexValues)
+ * @method Complex subtract(...$complexValues)
+ * @method Complex multiply(...$complexValues)
+ * @method Complex divideby(...$complexValues)
+ * @method Complex divideinto(...$complexValues)
+ */
+class Complex
+{
+    /**
+     * @constant    Euler's Number.
+     */
+    const EULER = 2.7182818284590452353602874713526624977572;
+
+    /**
+     * @constant    Regexp to split an input string into real and imaginary components and suffix
+     */
+    const NUMBER_SPLIT_REGEXP =
+        '` ^
+            (                                   # Real part
+                [-+]?(\d+\.?\d*|\d*\.?\d+)          # Real value (integer or float)
+                ([Ee][-+]?[0-2]?\d{1,3})?           # Optional real exponent for scientific format
+            )
+            (                                   # Imaginary part
+                [-+]?(\d+\.?\d*|\d*\.?\d+)          # Imaginary value (integer or float)
+                ([Ee][-+]?[0-2]?\d{1,3})?           # Optional imaginary exponent for scientific format
+            )?
+            (                                   # Imaginary part is optional
+                ([-+]?)                             # Imaginary (implicit 1 or -1) only
+                ([ij]?)                             # Imaginary i or j - depending on whether mathematical or engineering
+            )
+        $`uix';
+
+    /**
+     * @var    float    $realPart    The value of of this complex number on the real plane.
+     */
+    protected $realPart = 0.0;
+
+    /**
+     * @var    float    $imaginaryPart    The value of of this complex number on the imaginary plane.
+     */
+    protected $imaginaryPart = 0.0;
+
+    /**
+     * @var    string    $suffix    The suffix for this complex number (i or j).
+     */
+    protected $suffix;
+
+
+    /**
+     * Validates whether the argument is a valid complex number, converting scalar or array values if possible
+     *
+     * @param     mixed    $complexNumber   The value to parse
+     * @return    array
+     * @throws    Exception    If the argument isn't a Complex number or cannot be converted to one
+     */
+    private static function parseComplex($complexNumber)
+    {
+        // Test for real number, with no imaginary part
+        if (is_numeric($complexNumber)) {
+            return [$complexNumber, 0, null];
+        }
+
+        // Fix silly human errors
+        $complexNumber = str_replace(
+            ['+-', '-+', '++', '--'],
+            ['-', '-', '+', '+'],
+            $complexNumber
+        );
+
+        // Basic validation of string, to parse out real and imaginary parts, and any suffix
+        $validComplex = preg_match(
+            self::NUMBER_SPLIT_REGEXP,
+            $complexNumber,
+            $complexParts
+        );
+
+        if (!$validComplex) {
+            // Neither real nor imaginary part, so test to see if we actually have a suffix
+            $validComplex = preg_match('/^([\-\+]?)([ij])$/ui', $complexNumber, $complexParts);
+            if (!$validComplex) {
+                throw new Exception('Invalid complex number');
+            }
+            // We have a suffix, so set the real to 0, the imaginary to either 1 or -1 (as defined by the sign)
+            $imaginary = 1;
+            if ($complexParts[1] === '-') {
+                $imaginary = 0 - $imaginary;
+            }
+            return [0, $imaginary, $complexParts[2]];
+        }
+
+        // If we don't have an imaginary part, identify whether it should be +1 or -1...
+        if (($complexParts[4] === '') && ($complexParts[9] !== '')) {
+            if ($complexParts[7] !== $complexParts[9]) {
+                $complexParts[4] = 1;
+                if ($complexParts[8] === '-') {
+                    $complexParts[4] = -1;
+                }
+            } else {
+                // ... or if we have only the real and no imaginary part
+                //  (in which case our real should be the imaginary)
+                $complexParts[4] = $complexParts[1];
+                $complexParts[1] = 0;
+            }
+        }
+
+        // Return real and imaginary parts and suffix as an array, and set a default suffix if user input lazily
+        return [
+            $complexParts[1],
+            $complexParts[4],
+            !empty($complexParts[9]) ? $complexParts[9] : 'i'
+        ];
+    }
+
+
+    public function __construct($realPart = 0.0, $imaginaryPart = null, $suffix = 'i')
+    {
+        if ($imaginaryPart === null) {
+            if (is_array($realPart)) {
+                // We have an array of (potentially) real and imaginary parts, and any suffix
+                list ($realPart, $imaginaryPart, $suffix) = array_values($realPart) + [0.0, 0.0, 'i'];
+            } elseif ((is_string($realPart)) || (is_numeric($realPart))) {
+                // We've been given a string to parse to extract the real and imaginary parts, and any suffix
+                list($realPart, $imaginaryPart, $suffix) = self::parseComplex($realPart);
+            }
+        }
+        if ($imaginaryPart <> 0.0 && empty($suffix)) {
+            $suffix = 'i';
+        }
+
+        // Set parsed values in our properties
+        $this->realPart = (float) $realPart;
+        $this->imaginaryPart = (float) $imaginaryPart;
+        $this->suffix = strtolower($suffix);
+    }
+
+    /**
+     * Gets the real part of this complex number
+     *
+     * @return Float
+     */
+    public function getReal()
+    {
+        return $this->realPart;
+    }
+
+    /**
+     * Gets the imaginary part of this complex number
+     *
+     * @return Float
+     */
+    public function getImaginary()
+    {
+        return $this->imaginaryPart;
+    }
+
+    /**
+     * Gets the suffix of this complex number
+     *
+     * @return String
+     */
+    public function getSuffix()
+    {
+        return $this->suffix;
+    }
+
+    /**
+     * Returns true if this is a real value, false if a complex value
+     *
+     * @return Bool
+     */
+    public function isReal()
+    {
+        return $this->imaginaryPart == 0.0;
+    }
+
+    /**
+     * Returns true if this is a complex value, false if a real value
+     *
+     * @return Bool
+     */
+    public function isComplex()
+    {
+        return !$this->isReal();
+    }
+
+    public function format()
+    {
+        $str = "";
+        if ($this->imaginaryPart != 0.0) {
+            if (\abs($this->imaginaryPart) != 1.0) {
+                $str .= $this->imaginaryPart . $this->suffix;
+            } else {
+                $str .= (($this->imaginaryPart < 0.0) ? '-' : '') . $this->suffix;
+            }
+        }
+        if ($this->realPart != 0.0) {
+            if (($str) && ($this->imaginaryPart > 0.0)) {
+                $str = "+" . $str;
+            }
+            $str = $this->realPart . $str;
+        }
+        if (!$str) {
+            $str = "0.0";
+        }
+
+        return $str;
+    }
+
+    public function __toString()
+    {
+        return $this->format();
+    }
+
+    /**
+     * Validates whether the argument is a valid complex number, converting scalar or array values if possible
+     *
+     * @param     mixed    $complex   The value to validate
+     * @return    Complex
+     * @throws    Exception    If the argument isn't a Complex number or cannot be converted to one
+     */
+    public static function validateComplexArgument($complex)
+    {
+        if (is_scalar($complex) || is_array($complex)) {
+            $complex = new Complex($complex);
+        } elseif (!is_object($complex) || !($complex instanceof Complex)) {
+            throw new Exception('Value is not a valid complex number');
+        }
+
+        return $complex;
+    }
+
+    /**
+     * Returns the reverse of this complex number
+     *
+     * @return    Complex
+     */
+    public function reverse()
+    {
+        return new Complex(
+            $this->imaginaryPart,
+            $this->realPart,
+            ($this->realPart == 0.0) ? null : $this->suffix
+        );
+    }
+
+    public function invertImaginary()
+    {
+        return new Complex(
+            $this->realPart,
+            $this->imaginaryPart * -1,
+            ($this->imaginaryPart == 0.0) ? null : $this->suffix
+        );
+    }
+
+    public function invertReal()
+    {
+        return new Complex(
+            $this->realPart * -1,
+            $this->imaginaryPart,
+            ($this->imaginaryPart == 0.0) ? null : $this->suffix
+        );
+    }
+
+    protected static $functions = [
+        'abs',
+        'acos',
+        'acosh',
+        'acot',
+        'acoth',
+        'acsc',
+        'acsch',
+        'argument',
+        'asec',
+        'asech',
+        'asin',
+        'asinh',
+        'atan',
+        'atanh',
+        'conjugate',
+        'cos',
+        'cosh',
+        'cot',
+        'coth',
+        'csc',
+        'csch',
+        'exp',
+        'inverse',
+        'ln',
+        'log2',
+        'log10',
+        'negative',
+        'pow',
+        'rho',
+        'sec',
+        'sech',
+        'sin',
+        'sinh',
+        'sqrt',
+        'tan',
+        'tanh',
+        'theta',
+    ];
+
+    protected static $operations = [
+        'add',
+        'subtract',
+        'multiply',
+        'divideby',
+        'divideinto',
+    ];
+
+    /**
+     * Returns the result of the function call or operation
+     *
+     * @return    Complex|float
+     * @throws    Exception|\InvalidArgumentException
+     */
+    public function __call($functionName, $arguments)
+    {
+        $functionName = strtolower(str_replace('_', '', $functionName));
+
+        // Test for function calls
+        if (in_array($functionName, self::$functions)) {
+            $functionName = "\\" . __NAMESPACE__ . "\\{$functionName}";
+            return $functionName($this, ...$arguments);
+        }
+        // Test for operation calls
+        if (in_array($functionName, self::$operations)) {
+            $functionName = "\\" . __NAMESPACE__ . "\\{$functionName}";
+            return $functionName($this, ...$arguments);
+        }
+        throw new Exception('Function or Operation does not exist');
+    }
+}

@@ -1,66 +1,87 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Apigee;
+
+class GoogleCloudApigeeV1RuntimeTraceConfigOverride extends \Google\Model
+{
+  public $apiProxy;
+  public $name;
+  public $revisionCreateTime;
+  public $revisionId;
+  protected $samplingConfigType = GoogleCloudApigeeV1RuntimeTraceSamplingConfig::class;
+  protected $samplingConfigDataType = '';
+  public $uid;
+
+  public function setApiProxy($apiProxy)
+  {
+    $this->apiProxy = $apiProxy;
+  }
+  public function getApiProxy()
+  {
+    return $this->apiProxy;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setRevisionCreateTime($revisionCreateTime)
+  {
+    $this->revisionCreateTime = $revisionCreateTime;
+  }
+  public function getRevisionCreateTime()
+  {
+    return $this->revisionCreateTime;
+  }
+  public function setRevisionId($revisionId)
+  {
+    $this->revisionId = $revisionId;
+  }
+  public function getRevisionId()
+  {
+    return $this->revisionId;
+  }
+  /**
+   * @param GoogleCloudApigeeV1RuntimeTraceSamplingConfig
+   */
+  public function setSamplingConfig(GoogleCloudApigeeV1RuntimeTraceSamplingConfig $samplingConfig)
+  {
+    $this->samplingConfig = $samplingConfig;
+  }
+  /**
+   * @return GoogleCloudApigeeV1RuntimeTraceSamplingConfig
+   */
+  public function getSamplingConfig()
+  {
+    return $this->samplingConfig;
+  }
+  public function setUid($uid)
+  {
+    $this->uid = $uid;
+  }
+  public function getUid()
+  {
+    return $this->uid;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudApigeeV1RuntimeTraceConfigOverride::class, 'Google_Service_Apigee_GoogleCloudApigeeV1RuntimeTraceConfigOverride');

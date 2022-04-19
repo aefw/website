@@ -1,69 +1,98 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\GKEHub;
+
+class ConfigManagementGitConfig extends \Google\Model
+{
+  public $gcpServiceAccountEmail;
+  public $httpsProxy;
+  public $policyDir;
+  public $secretType;
+  public $syncBranch;
+  public $syncRepo;
+  public $syncRev;
+  public $syncWaitSecs;
+
+  public function setGcpServiceAccountEmail($gcpServiceAccountEmail)
+  {
+    $this->gcpServiceAccountEmail = $gcpServiceAccountEmail;
+  }
+  public function getGcpServiceAccountEmail()
+  {
+    return $this->gcpServiceAccountEmail;
+  }
+  public function setHttpsProxy($httpsProxy)
+  {
+    $this->httpsProxy = $httpsProxy;
+  }
+  public function getHttpsProxy()
+  {
+    return $this->httpsProxy;
+  }
+  public function setPolicyDir($policyDir)
+  {
+    $this->policyDir = $policyDir;
+  }
+  public function getPolicyDir()
+  {
+    return $this->policyDir;
+  }
+  public function setSecretType($secretType)
+  {
+    $this->secretType = $secretType;
+  }
+  public function getSecretType()
+  {
+    return $this->secretType;
+  }
+  public function setSyncBranch($syncBranch)
+  {
+    $this->syncBranch = $syncBranch;
+  }
+  public function getSyncBranch()
+  {
+    return $this->syncBranch;
+  }
+  public function setSyncRepo($syncRepo)
+  {
+    $this->syncRepo = $syncRepo;
+  }
+  public function getSyncRepo()
+  {
+    return $this->syncRepo;
+  }
+  public function setSyncRev($syncRev)
+  {
+    $this->syncRev = $syncRev;
+  }
+  public function getSyncRev()
+  {
+    return $this->syncRev;
+  }
+  public function setSyncWaitSecs($syncWaitSecs)
+  {
+    $this->syncWaitSecs = $syncWaitSecs;
+  }
+  public function getSyncWaitSecs()
+  {
+    return $this->syncWaitSecs;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ConfigManagementGitConfig::class, 'Google_Service_GKEHub_ConfigManagementGitConfig');

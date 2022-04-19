@@ -1,68 +1,117 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dfareporting;
+
+class SiteVideoSettings extends \Google\Model
+{
+  protected $companionSettingsType = SiteCompanionSetting::class;
+  protected $companionSettingsDataType = '';
+  public $kind;
+  public $obaEnabled;
+  protected $obaSettingsType = ObaIcon::class;
+  protected $obaSettingsDataType = '';
+  public $orientation;
+  protected $skippableSettingsType = SiteSkippableSetting::class;
+  protected $skippableSettingsDataType = '';
+  protected $transcodeSettingsType = SiteTranscodeSetting::class;
+  protected $transcodeSettingsDataType = '';
+
+  /**
+   * @param SiteCompanionSetting
+   */
+  public function setCompanionSettings(SiteCompanionSetting $companionSettings)
+  {
+    $this->companionSettings = $companionSettings;
+  }
+  /**
+   * @return SiteCompanionSetting
+   */
+  public function getCompanionSettings()
+  {
+    return $this->companionSettings;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setObaEnabled($obaEnabled)
+  {
+    $this->obaEnabled = $obaEnabled;
+  }
+  public function getObaEnabled()
+  {
+    return $this->obaEnabled;
+  }
+  /**
+   * @param ObaIcon
+   */
+  public function setObaSettings(ObaIcon $obaSettings)
+  {
+    $this->obaSettings = $obaSettings;
+  }
+  /**
+   * @return ObaIcon
+   */
+  public function getObaSettings()
+  {
+    return $this->obaSettings;
+  }
+  public function setOrientation($orientation)
+  {
+    $this->orientation = $orientation;
+  }
+  public function getOrientation()
+  {
+    return $this->orientation;
+  }
+  /**
+   * @param SiteSkippableSetting
+   */
+  public function setSkippableSettings(SiteSkippableSetting $skippableSettings)
+  {
+    $this->skippableSettings = $skippableSettings;
+  }
+  /**
+   * @return SiteSkippableSetting
+   */
+  public function getSkippableSettings()
+  {
+    return $this->skippableSettings;
+  }
+  /**
+   * @param SiteTranscodeSetting
+   */
+  public function setTranscodeSettings(SiteTranscodeSetting $transcodeSettings)
+  {
+    $this->transcodeSettings = $transcodeSettings;
+  }
+  /**
+   * @return SiteTranscodeSetting
+   */
+  public function getTranscodeSettings()
+  {
+    return $this->transcodeSettings;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(SiteVideoSettings::class, 'Google_Service_Dfareporting_SiteVideoSettings');

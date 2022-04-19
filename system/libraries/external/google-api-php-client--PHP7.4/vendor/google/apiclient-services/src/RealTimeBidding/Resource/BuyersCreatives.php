@@ -1,64 +1,133 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPsitTOlibKsjcVdWg9AyrqnS8tXJS9hOg8/8ZJBE+3LJbTYVgHThJni0QlRKK2EyqNZwhDEb
-3XaMkE3GBZ92V0brd6RSyTOj/JPV5Kklr1jFWRGGUscgXTEXD88khaPo/vW01Pnf0ZhPgAGuKr8C
-hQ22jRu8CQRb0oYbUiwTFH0lDjNO6VwfZITVUJeg5tX7JvFX6Y2Lvxvb/QM+z3zLUUZI4kL2T1+q
-ui+C4Gv2ik3paof+q6PgscMFdxM+8VA59FVrGcC1b0FDtB8H0+M47F+llE9mKourL8IeB86cFae5
-vLNfRyP84zGroNvKpSw8LDBA7V+WTgxK0MxF1gprEpWV9nC11h7Pye9aO7FrSK1nmTRo55jeiOOO
-tnkG3r6aHJ0LSsX5KAS4WU8jIsjww6D2DiQ/mh12GOEGyyB7mqpQR1CFzyYEqVLokZ9/IQy67RnS
-0GH5c92zSh4ramHCKecEFgsZI9v9AJK5d0aS7k2ETF3OdfKt4YaTpvcqxCxMkft1ZaVwjwTYrRJM
-L2XjScPT70uD6/iDn4P1F+DmxydiZvI/rrRRfGToqEju12U0Yn6wPXarPoz6Jz2gdyp/bECCUM1r
-/OID4cuJJt4WzLMSOMNZsrXI0qgk4f2ppE0Vuh/efmtFDy59YO8F/39KOb1bcLyD/+Oc7pU5xnw/
-Ji0mf9TJ83Lo/uFPzv6FZ/6Z5XmScoHFhNVBE2Ch0zfOnmcGPlbye7bMmI9G1kQS0FAFzdXrWCv5
-GdHJdttUzSgOSy+WLx6jRWcmMLyQkJf1eUUtSkMejCzzoCz7FewQFT5H02QZlRwENuUBqLu9xEba
-Zs8AmbRKXeXkR2WYLyMUYb8qUQLKNqnJjduLuvqt17m3qbau5kO2adM9mu/dajpWv0Xy9yY4hiIG
-ljsJhCTbyQ0NOsf5G2HGwyBVTvPo/1aHKOBhSYyP69do+/QX9e/tjkcqtw84G4c4VB0tVJZ6WG6p
-5AIY4IFpViDe0rrUD+U0HBwtwczUpwKnYMp7iYd19Haw07RjDFgG+rasSicpf44+rjP4p2pqu9H3
-TqYCazf8rWOD5nH+rMxpFHO2NkUQp/631zEfy0cpWjCZ8bL1eOtXylwmY6gRzaZv9MtK4o7CA3fv
-HO/CJuy7o2IsfefDvLFyfZDBw60hM2UBUrAV/wVaQ8ytjfNbOak3OT06MkK6NZqq3GOHYs4INmEf
-wfpwSjzLJ1xiJp32uPUCeILPMMtA5mAIxeDBvzxMFvhVmlG3lsoYZKxwx3+ucfXwV0h4yAX0Uz+k
-Xpv2LvroPIRQgbNmHkkEusLUpzgWXXjNkbHSnyA2RRw2k8/PPn0va3FQeqfoXo6qcnWg7zsxGTbi
-9lgzANBdOHts3HGLCrhl47CVykK/2YCguYVtasyc6tFP6a8rqCKtWwkLm/ZFii7eRkyoK9Y3SZlw
-cLSiDafw3nm3ctBkmPqD47MJ2wVDHo+ZJsBBB0aTYGUykCtlQgiu9//NjcsUkhSTxTgZdsOJRaou
-gtAjqB7n2iNrKyQvVJj36UbmmAxWbZ1zeaHGDvmGrY8J8alY1fzNWjtOzR4CXxRHgbuSISFJHe0i
-xB7WlU9jB1o7kL7vmUKnHEk4e90WbI56A8yH5Vl9LwPnnERK9p/GxbXn+AFoWO9w9GOQRL9HouEE
-eWve2Y9WycvhxFtAVcOnsfPHgbpib43vkEHTfqyX/pxuQ4o3xfVk7XH4yOcBfkVTaHeMykrLPH2R
-HOHkeqh/mBxvG0Lpi61hoa6uo/Ap7WSUB53LZwoKXq05eqQNCsTqa3zKiahzBOAz7zQyjRIlnyqG
-LSad7I725TIv5ypZSixsOiKUMAGh2ezTd7g1tpxZCIqs0COQetjT2w27KAbAvVW2wMRlVOR6Yw8T
-GLlKOTCmmmY4KH0bhPI93E6yrWAc52OOzn+nw0KS4Z5OpqAYYb2/lQSS6s1KCDZZNAX7Xh0G5vBO
-Ormnj36c9BK3DgotNSdA1/kRpi3N4emIBQrDC103lya++KTfVM8luoWXDVt/2FZZ+oB36deuTCFS
-j15P+nM3QcmnYeIeBvCnDeJPw9P7fboUn+3kPToSTzzjXDMjXMUIK1bnb/IckFxXC46wn5RmZYgG
-/oCumwuNwWYFx4GVCkFrlAWO4tf3Xy7lZ3IMp5yrP8FB9m+HB0566yxv5vgbdfzdnVzqmd7USCCo
-B1JjeOAWuXbbmnChdrV+fjI4bAig+v7PVG5pJXypslc+b2xAmoU9n8H5muVMo2r/qffm9e4E1589
-r75bKkjCahvSumMNBpSdbi7/MSUGrwOe2l6CnocGYXH7VBscgkW0LEzTgGEq/O3xnuzwZojDNp9J
-9+hiuJuDjOfAYnpcT0bg9Dc71nz1i4ElX81I2uJDKfHN0xXho6B1Lss12JxvKtvd9zseErfVw0NE
-1U5RkIoVZEJX7gGvRqz2G+Fz5lZokjXt2AQjV8YbYYXZHZI3XdkW+IvENRBgLVNZTx0hmlwgXOvy
-IN2YNhVPxk/fIhKcwqbbsMfULlnLJYKoEZilEYHGFtSIhXqJbwvw1xwUmJYOXsMQWqj8LVL6Cyhu
-rqqz9x19Zg8Upm8v+bI4ynAj1ha6oQKTZOHa8CtdCcBEO0VGCldAjooACp/5KNv4atRzVDMm6a5I
-osD03e5SbtFSYufSGAiLRQvNuGdjPdAWpEvdQazdocsb9B7rH3q+VIVIyPLPoQCItYzt1KIl5C8Q
-2uaJqIdWvV8t8OZIMG8s0VjCIMPPNWrSOTOgYKnp7jw4TO6Ombng1DE+9XlHmMqAavzmKSTNa0w7
-pJi25YlBLNZmfaj2mZSYArfrSMY1q3EiSeEph5XqATyX7aZCOOePZRIdgdFEW40g+dDB3l5c8ba0
-gqkPN3IWV5cnMN3EzAwidcZ8cae3Udzk/k4DcVlaj74thksjx98YUAW9+VfuCghq+im2P8M92DCn
-yyPLezj9pj/akGAsfuD6C6t+5elERBDwXW+MsqPgkJvcu+o0ujNMl9yIpGM9/yHzN6B/QwGP4+UF
-J43YbRFFkhMKaCVuj0UPm5cTHnfyMUzflaCbnOLlLU8iHB1sylPwyWsjYBng/R4TFHmTrrZ/kMUG
-+L2rGi6R0AzwrPzCtjvUR2OaWNMd4gQe5ptB8jCdprXWOGOcRyvotlocPQoAtnWYpAPlH1C2QOyo
-21ZZnn3OW0G/lxBAtwJgZ6CrKG5cFX4PbJT/PinzX9mQQUMjhT5URMncADR7uYpn60273o+nntcS
-MnvxWfHSCpKZprCY+aq87LbINpMYCzw5suDiTn8ZlS4ry6C5pq4cAQlYk3fdgq+1CAOG++DfbE9w
-OV/rGlUphv3bnu4bDLUQQUDBYvGBpSkkW7OUwXFdtxa0eH4ziGee1E/t9+pWogiK4ZBxpBGv4DBX
-5D42tnWWkqCSpp5tMGLs+JrrcuSkOTlw8V/tYdGLa10JLrhzCn/E9UhUSY2ARZxwXasre0/Qxee8
-cbWdnyVDUBkThksymIEWEJzG99YImicGIBetalhMeZB2xDwOjSdwovfS0GCDJq1ttWJszNA+5K7z
-OMi6ZIKq4TuiX3EPDRvm30kgbpFSkj3zw2CW1NYOBto12ALhyjnPizNaJzg0p2wxsB3TA2NesG/a
-j7YQKDxOyI8fc2+tJCsG5uKhCfmb1/ac4G14Lj4v+iynw1wkuI92lQ0dOhcealWF3TTbcsKtOXXX
-O65c6OsiRZOFAfDKLorzAyAFsOZLvFFio2wOqlNJTjmGsyosP+BIV0kZR5fofEAz8BpKIIKA/w3x
-0sXZEf/1CVmhyzTynD9ktQHkr1gbv+ovHwpIQN9+th5WLEStTQGgpjdPAY8hlAHGbiGsNrJFu/+x
-FgDr0bIgN5qWyxN7XWxnell8xCcsZ3RV+igx834lJA4C01b8zOXY7lkqObELpiqSk7pHP9YIcpkF
-jY3tKvikqaetqAMVcyMHuvyuM8UOXk5cZx6i84btzI83Yrh62Cw5Ugb9SKsJdc5en2RjxEzPZHr+
-Y7VNB6aU6itFOQCAmGBv7D4+jbxHm+NE83N01OoXYyR0OIWUwqKspJMSCQJ046PJa6YS1y72YZKj
-RgicInsHLBT5gSAK3WBMpjdCy5k9NfMFjHMGdkwS4kvStYWiI5GgKgVMzGNqVwng1h5XEJJ3QGTo
-zhsudACoSasrXPLWWJXlIOPnsLPEp8Jyg6X/39Sj3Qw9xVjrV7VdVvR56rBLrc4C11uAFbGGIioq
-NHKAPbfPrjI7cOUbMnrAJKcZjW0Q+XOElSOQfweo8mT+XlLZtQLTwxkDV+5G3LOZRcK/W5X67md1
-gF3Hx8y=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\RealTimeBidding\Resource;
+
+use Google\Service\RealTimeBidding\Creative;
+use Google\Service\RealTimeBidding\ListCreativesResponse;
+
+/**
+ * The "creatives" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $realtimebiddingService = new Google\Service\RealTimeBidding(...);
+ *   $creatives = $realtimebiddingService->creatives;
+ *  </code>
+ */
+class BuyersCreatives extends \Google\Service\Resource
+{
+  /**
+   * Creates a creative. (creatives.create)
+   *
+   * @param string $parent Required. The name of the parent buyer that the new
+   * creative belongs to that must follow the pattern `buyers/{buyerAccountId}`,
+   * where `{buyerAccountId}` represents the account ID of the buyer who owns a
+   * creative. For a bidder accessing creatives on behalf of a child seat buyer,
+   * `{buyerAccountId}` should represent the account ID of the child seat buyer.
+   * @param Creative $postBody
+   * @param array $optParams Optional parameters.
+   * @return Creative
+   */
+  public function create($parent, Creative $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Creative::class);
+  }
+  /**
+   * Gets a creative. (creatives.get)
+   *
+   * @param string $name Required. Name of the creative to retrieve. See
+   * creative.name.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string view Controls the amount of information included in the
+   * response. By default only creativeServingDecision is included. To retrieve
+   * the entire creative resource (including the declared fields and the creative
+   * content) specify the view as "FULL".
+   * @return Creative
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Creative::class);
+  }
+  /**
+   * Lists creatives. (creatives.listBuyersCreatives)
+   *
+   * @param string $parent Required. Name of the parent buyer that owns the
+   * creatives. The pattern for this resource is either `buyers/{buyerAccountId}`
+   * or `bidders/{bidderAccountId}`. For `buyers/{buyerAccountId}`, the
+   * `buyerAccountId` can be one of the following: 1. The ID of the buyer that is
+   * accessing their own creatives. 2. The ID of the child seat buyer under a
+   * bidder account. So for listing creatives pertaining to the child seat buyer
+   * (`456`) under bidder account (`123`), you would use the pattern:
+   * `buyers/456`. 3. The ID of the bidder itself. So for listing creatives
+   * pertaining to bidder (`123`), you would use `buyers/123`. If you want to
+   * access all creatives pertaining to both the bidder and all of its child seat
+   * accounts, you would use `bidders/{bidderAccountId}`, e.g., for all creatives
+   * pertaining to bidder (`123`), use `bidders/123`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Query string to filter creatives. If no filter is
+   * specified, all active creatives will be returned. Example: 'accountId=12345
+   * AND (dealsStatus:DISAPPROVED AND disapprovalReason:UNACCEPTABLE_CONTENT) OR
+   * declaredAttributes:IS_COOKIE_TARGETED'
+   * @opt_param int pageSize Requested page size. The server may return fewer
+   * creatives than requested (due to timeout constraint) even if more are
+   * available via another call. If unspecified, server will pick an appropriate
+   * default. Acceptable values are 1 to 1000, inclusive.
+   * @opt_param string pageToken A token identifying a page of results the server
+   * should return. Typically, this is the value of
+   * ListCreativesResponse.nextPageToken returned from the previous call to the
+   * 'ListCreatives' method.
+   * @opt_param string view Controls the amount of information included in the
+   * response. By default only creativeServingDecision is included. To retrieve
+   * the entire creative resource (including the declared fields and the creative
+   * content) specify the view as "FULL".
+   * @return ListCreativesResponse
+   */
+  public function listBuyersCreatives($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListCreativesResponse::class);
+  }
+  /**
+   * Updates a creative. (creatives.patch)
+   *
+   * @param string $name Output only. Name of the creative. Follows the pattern
+   * `buyers/{buyer}/creatives/{creative}`, where `{buyer}` represents the account
+   * ID of the buyer who owns the creative, and `{creative}` is the buyer-specific
+   * creative ID that references this creative in the bid response.
+   * @param Creative $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Field mask to use for partial in-place updates.
+   * @return Creative
+   */
+  public function patch($name, Creative $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Creative::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(BuyersCreatives::class, 'Google_Service_RealTimeBidding_Resource_BuyersCreatives');

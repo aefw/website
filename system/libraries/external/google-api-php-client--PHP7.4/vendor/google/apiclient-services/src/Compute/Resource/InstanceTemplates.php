@@ -1,81 +1,221 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute\Resource;
+
+use Google\Service\Compute\GlobalSetPolicyRequest;
+use Google\Service\Compute\InstanceTemplate;
+use Google\Service\Compute\InstanceTemplateList;
+use Google\Service\Compute\Operation;
+use Google\Service\Compute\Policy;
+use Google\Service\Compute\TestPermissionsRequest;
+use Google\Service\Compute\TestPermissionsResponse;
+
+/**
+ * The "instanceTemplates" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $computeService = new Google\Service\Compute(...);
+ *   $instanceTemplates = $computeService->instanceTemplates;
+ *  </code>
+ */
+class InstanceTemplates extends \Google\Service\Resource
+{
+  /**
+   * Deletes the specified instance template. Deleting an instance template is
+   * permanent and cannot be undone. It is not possible to delete templates that
+   * are already in use by a managed instance group. (instanceTemplates.delete)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $instanceTemplate The name of the instance template to delete.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function delete($project, $instanceTemplate, $optParams = [])
+  {
+    $params = ['project' => $project, 'instanceTemplate' => $instanceTemplate];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Returns the specified instance template. Gets a list of available instance
+   * templates by making a list() request. (instanceTemplates.get)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $instanceTemplate The name of the instance template.
+   * @param array $optParams Optional parameters.
+   * @return InstanceTemplate
+   */
+  public function get($project, $instanceTemplate, $optParams = [])
+  {
+    $params = ['project' => $project, 'instanceTemplate' => $instanceTemplate];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], InstanceTemplate::class);
+  }
+  /**
+   * Gets the access control policy for a resource. May be empty if no such policy
+   * or resource exists. (instanceTemplates.getIamPolicy)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $resource Name or id of the resource for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int optionsRequestedPolicyVersion Requested IAM Policy version.
+   * @return Policy
+   */
+  public function getIamPolicy($project, $resource, $optParams = [])
+  {
+    $params = ['project' => $project, 'resource' => $resource];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Creates an instance template in the specified project using the data that is
+   * included in the request. If you are creating a new template to update an
+   * existing instance group, your new instance template must use the same network
+   * or, if applicable, the same subnetwork as the original template.
+   * (instanceTemplates.insert)
+   *
+   * @param string $project Project ID for this request.
+   * @param InstanceTemplate $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function insert($project, InstanceTemplate $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Operation::class);
+  }
+  /**
+   * Retrieves a list of instance templates that are contained within the
+   * specified project. (instanceTemplates.listInstanceTemplates)
+   *
+   * @param string $project Project ID for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return InstanceTemplateList
+   */
+  public function listInstanceTemplates($project, $optParams = [])
+  {
+    $params = ['project' => $project];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], InstanceTemplateList::class);
+  }
+  /**
+   * Sets the access control policy on the specified resource. Replaces any
+   * existing policy. (instanceTemplates.setIamPolicy)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $resource Name or id of the resource for this request.
+   * @param GlobalSetPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($project, $resource, GlobalSetPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource.
+   * (instanceTemplates.testIamPermissions)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $resource Name or id of the resource for this request.
+   * @param TestPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestPermissionsResponse
+   */
+  public function testIamPermissions($project, $resource, TestPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestPermissionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(InstanceTemplates::class, 'Google_Service_Compute_Resource_InstanceTemplates');

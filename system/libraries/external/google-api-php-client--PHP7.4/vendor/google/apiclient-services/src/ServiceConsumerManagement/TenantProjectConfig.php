@@ -1,68 +1,102 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPoAfo8NqE36gyMPTfcShVbxaT9m4SubWQCyiecILo2EsjRovcmy3nRYBdsdYf79zRHaUJo5E
-eA8scH/cOmoE/2w/8qqMRNJVTOOs28xrjYV8Y00/lpbGFUPpp0KOt3w7S+nT7+CXiomWxPTvIpuK
-eo6vtE31C3uFVmuUaoCp2FGeqNL6XGtiEZtcJCcn9XGduGf6rq4ZwwwJFiiApWyp4XgR7ZM7uHF3
-nqZ82N2jcZbV3iM4Mvn3fP7OnFYjFfebDfKzvcTLMIYJoiGooifaqpqO0s1Qud1JBZLKXAWiWQO+
-IWNbLVHcPlON7+kXw53ri8XKK+SzKY2hJyAlY7KQNE+sGOJzLHL+OcUwCHoCKCMLzjJETF0vFGAQ
-evAR8hMKG6oW4n1skZ2dxR1bqpAWJD3ne2Aarj6qhYdHDbk1aLpmn0C1/XDclZUT2IvMC3Phpc3G
-qx/RCAZ/oUengsQ0skSYetYy2Y0TNm6jlap21dYoqv88sGReKyVFFc1sW7Lcz4PhcRKF2xp/CfSr
-3EYwoBAc9pUxxjpI25vlp89HGopvBREElJTLSxQacnBoYRcA5o7M0g0Jbi5H1cL16KejC+ab5PZ1
-R1moH0VdahWUH5aRPDdWiC7Zp4Glpy5vyN4OPYBlKCCP3yffG9ut1n1WQyCnJ6ba+fbQwGQqDMt/
-IRUT5zVhTFoqC//26Su7AjJ9J2WQOBphpRsg7hvMArV+mF8TMs5W81VsoIGceeG2KXDCCqm2OB1f
-M5scqa8QVoy7oO5nHQlHjS0aDLFTkFknrNh+Uv50dgMCI/mxbYJCsdpeKir/oWKOERE4331/sOTO
-HretJTERMVkmLOeYfLBnoS66O2oEgs51Oqfpixh12e+R6aJAZb8XJIAbmFXEgDxxWUDDTcImc/6l
-rbT/u6wm9Zc3cbBc55eq5cVDrunohScI7djHkrEAClIvSc4xjdy3570YyLzU8y5TM97xpUjmkB66
-Kl8SyY/rxpVwCrhE368dVlZFiEKCRS7vRQ14E2UdgQueGT3eD5pijHeAvScDBJ+zAs3GUzr+kepB
-RBo2r1VR6zeUFY+OPM/NW5c2Olt6YpkWLDF90kTI/81Io3KcNeGxJWnNlAKFBd3cXiYa8hLrTP+D
-HMp3u74RC3DTcNp6NJRvlSDYy+QrbNZ0SaQERWfxD3U9+lbRD8DHLCqSgMPiqufrD8UavlLdw8wa
-Ni5yDot+H42O+rp5d7vTARkXLnzgcxFd7StNw1whIRVgLGDcEnXm72uYZEtl9aEf8WgvmbWgcewW
-xO5YTfZvskQj9ZzCGQq0TTFEssrtmyYELfka2EW2uy8u85WJI92CyP7mCLptmVhy77aV39T3IP0n
-yaDk/ugpe0Mpkvh42Y6TwIJ/Q5yJ6RTkGmkcBwPcSrPDiGsww5IcrRorqN/pbURZOAL5SNUTyoWs
-hziao9qM9w31pHBJEd7SS+ghmBw6sS1iEaYLmg04I4qBgjiQGDCa+dzWXCaChD6oZIFuj30F0JgK
-pwY3ka9jArbvTFpwgHOseMCoxzsWQJNI6lahlkUH4dSozxsATC5G2uNXpPxjUmbQ5HJ9DtxC7ZQj
-TBHhc1v1d/hn1Jvj+AN10xV7bfv22KNYokPOHJFC6vhjRRsoaVB0n4ORk23JmuoesGR7RqGKl42d
-jjr09VoppFSgKJGnyIFJXsxDKkE7tsbuC/8xObRfn0jpiU/r4loPfPseuqkRP+hXmTVyDzy1L5nL
-ukDNhNuDKJQZSdaOra1602aFeFfBIvyMsReQIxu3jevwPoLglYr9t1VrQaiSWWx2+U04jNV06lB+
-XDU1VTkEO/NM0nIqiEMFSmpDzh7WzyLO5+1QXhLCvafCIOlU5ukqWQz/XOEY1qVB2eoA+OX17xTG
-BL3LocHsIIcxzQZsG/28iLpwugctfnRa/1dFBmJf5EwR3TxH1hlXjPpfD12fBcNXUIiXyc2eLAa4
-TIrqJv71y/rILb89nlD9/hI+MzO4OIPpXsO8TOWBxj4i3B3E9U1dYMRhDUyDFk3UoPGVeetrH/2j
-pUhICZ+wRvLD7b1Qf0ZQBwO4vgWHKOupYIYE0XgYunSQD9xBkwyP7F3os5l7lV+AC7bhrdlJO2+8
-pKzxSdA9hwVmmti5zcVSqrYDUdrUMEzVSSjNPU5226Ap7LKzEnHp5Z2qrcnaRBRYqM1qqaj8DBZr
-tGA8MboL3lb7k1UhAJKKXoguG0ah4W8aH+al6PPZcEb5VAZmUmlP4kwsa8+7JcaCE3lsgAz3T+b6
-CBrHzwTkTT5pNBMiXuLdtxWJ3HftQcRoHGBm2sPs01OwGsbftdT0TI+VraL0RZI6GW5rWqzzM+C6
-S7E6RRoXRp2FM/Tht5pd5BQyRDu+Zan0O5/JZhcJ3c9oG4nVy1ybcFX/lSMoP8Qi8IRhB2h6bVDH
-521bqVTSzZJ4NEKs+uPG3d+q5tz1jpXp9lhyNWCg61EWB/DfPWfHlxzATXiwsQfCbjy7fWeqid5B
-QdwmKQ8QEpzl3+WnjVhX3YwMOrNnWH7Sxkf4v3TWodpeYDqdvyYRUvied6eV91vF+YGWhv7Q87d8
-Tp85+xgF8Z8Nzd1zEfNe3zAhDQ+XXV4vPgagN/iBOvho2/XbW7D8o/k2546lzNrfj34vJufghylC
-lc+LcMJ15SbVghvB6IJWPHxqp6g5lAbh7tWCgJlq9sv+OAOdp/CB+qvda6NNmIZ0h5YjwbDAMCs4
-BpVKm2q4DJxuiWD9o31A8T341Bb504/SuOvEWOe2QrjPGOI6wr4PbdSU/Bkv2ju1wopGa9tf9RaV
-eX07qGUbcJJ+0ukS/d5y5+2p5OVGOrtvQFi6d1nUCLAGKbcqgVj/W9wXPvIX7IwoHQb0PnyTDKG4
-5jlkOo1iv/wu/zzK/+lmqAyzWSw4+HK5h7d+wwhyhJ09AR8+g1WOeQYU7HWlSXTzTNWLsKsWD0Rh
-SMhIq02Kdu1l1XlumcxwXYYF6WcY4DtTuZu+7NF7T+KCrqkwHKwGBNCelzu3pbFTmiaiNxC/4m00
-IY2WxMwddgB6kUN3FRXS52SVmsS6OYkaatn8WrCm3vMyAfxKPjLKjs/ZbU1XH6faf+q2sScaYAr3
-iAHQdamQne/yOdQW5xC7NNGk0na9gTcZ8IpKMlJs20O9oxpanO+4sVTuPpNEhx4xVNanC7DO9tGO
-XAox7bjfoXsztfBmIp207x1kWKyNz2rui6Pc89AEgiw5TaKUDKRZX4r/bAVU9gl6JMmlk6lZkKKN
-jhL/Ul4nPKGKzEVjtM2spCXEDArcVb4isqQXm8BnhEl6FTE2NWHoTHMyEdQD75VL1HWpc3k9f2eR
-JWBKUBHg5GtM9GOTEIhpRh4wA40qDTpDOsHhGI1MUDsCtiCQzbui0qDfAJvhburqb2tYmyT5aDuM
-PlOnnjU9EvBcRpUxdrYtCG+IPKrFYax4zv/qIqnpPUzQqYOYA4uo6lpWrPXXqyvaCGHpoIxWCh86
-Hm69/5OvvR9CVigcO5da/mM3Rlti+vUbMZbrk7xyjnN75vmbw1xNH+M1h17uY701Goggl8kIQzDU
-oZWvostgr+jiKTYNbEu9yURjlS9GjiQBcdgafonZeezHfMWrNgZxMblkFp97SuyQV7JaxFHRnUZB
-CZCR0AiK78n5ByyaUKro9Qe/5h7IpJMIxzpILDGa44YEtxe+hp5Golx27N0dsWziAJjs8jPupW8S
-8HacwESp2tsbcBqlEa/2szhH6d2erbNfAeAPmeveS6N+5d9VBnlc9+WDn32GU00DZrG7lW3/qcOu
-ARkQSxEY4IytMD5z91hHGg9jSSngBRbfqb7+sTKoYJhvsOO6Vy19uXxow2k5ae/6iDC1xiB6mnz7
-KnxO7MCpDpWtvhkQOkX0pCxr0sLqlmN2exVnn5yLJKQ94T56Iaw30Obn3yGURTZx+Dl/egAfENmr
-eWwrXgcanZGxuyifLWgs1F9D0GansepgSWshJS/4N2UNiIKgP+BKGgQzoCHJCiZ8nJRJnMwM4OPR
-Ss4i6a4Gzxkg5ccj8mCZ0P0MIWHOI1QU9eWKHwMIodXTQREHqKIPvFQs7o5UZeRbz/vauCZmrGiq
-gdxKZL9ZvUijrGTbLTve+RAE950Dobse8F/xBB8tqHOenSkiksSQLMo5hh8Eq0GMpRkSxxi7evLU
-hDzZFQN62+Z3XcfuwQleaeNQScrSbAFPaDzlE8JgziejeO0W0WXj3GbjDvKmKTtiL0whLB2el4Im
-BjEEnhrzK5C+02nr9sA0DBQ9s71I6tvJe3i3+PPy1bSzZg1/GvZPyEZCGqhnZwXvFJrYB81k6HE0
-qPE2eh4/N+59srvIgDNf5UED6VsiF/igv6fpmr9CpnC+H5eeDPxKus7reTkrmTt9WzcF8GIBIEgR
-QVUkaU/CYbl0E5wN7gw0Ahi86zHf63fhHtp4ruqUJii9THhjYLwDopLw79SjlOUeNm8lSVi/SVpX
-WbfJeW29TyYFNld1G0SbYSBrYkl1btNRBkF6KNZGqwM0uqgxTHQxY0sPTaiJ/ZYvUzDtV38ejII9
-gcmjwTYRVx+B3d9CP+g8QUmixPUJD+77mke40HdCkfi8IT8TpRcNJRi4+dZKRahP2h+QBG/ygaK+
-7/8=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ServiceConsumerManagement;
+
+class TenantProjectConfig extends \Google\Collection
+{
+  protected $collection_key = 'services';
+  protected $billingConfigType = BillingConfig::class;
+  protected $billingConfigDataType = '';
+  public $folder;
+  public $labels;
+  protected $serviceAccountConfigType = ServiceAccountConfig::class;
+  protected $serviceAccountConfigDataType = '';
+  public $services;
+  protected $tenantProjectPolicyType = TenantProjectPolicy::class;
+  protected $tenantProjectPolicyDataType = '';
+
+  /**
+   * @param BillingConfig
+   */
+  public function setBillingConfig(BillingConfig $billingConfig)
+  {
+    $this->billingConfig = $billingConfig;
+  }
+  /**
+   * @return BillingConfig
+   */
+  public function getBillingConfig()
+  {
+    return $this->billingConfig;
+  }
+  public function setFolder($folder)
+  {
+    $this->folder = $folder;
+  }
+  public function getFolder()
+  {
+    return $this->folder;
+  }
+  public function setLabels($labels)
+  {
+    $this->labels = $labels;
+  }
+  public function getLabels()
+  {
+    return $this->labels;
+  }
+  /**
+   * @param ServiceAccountConfig
+   */
+  public function setServiceAccountConfig(ServiceAccountConfig $serviceAccountConfig)
+  {
+    $this->serviceAccountConfig = $serviceAccountConfig;
+  }
+  /**
+   * @return ServiceAccountConfig
+   */
+  public function getServiceAccountConfig()
+  {
+    return $this->serviceAccountConfig;
+  }
+  public function setServices($services)
+  {
+    $this->services = $services;
+  }
+  public function getServices()
+  {
+    return $this->services;
+  }
+  /**
+   * @param TenantProjectPolicy
+   */
+  public function setTenantProjectPolicy(TenantProjectPolicy $tenantProjectPolicy)
+  {
+    $this->tenantProjectPolicy = $tenantProjectPolicy;
+  }
+  /**
+   * @return TenantProjectPolicy
+   */
+  public function getTenantProjectPolicy()
+  {
+    return $this->tenantProjectPolicy;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(TenantProjectConfig::class, 'Google_Service_ServiceConsumerManagement_TenantProjectConfig');

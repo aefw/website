@@ -1,132 +1,316 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-cW==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ShoppingContent;
+
+class Order extends \Google\Collection
+{
+  protected $collection_key = 'shipments';
+  public $acknowledged;
+  protected $annotationsType = OrderOrderAnnotation::class;
+  protected $annotationsDataType = 'array';
+  protected $billingAddressType = OrderAddress::class;
+  protected $billingAddressDataType = '';
+  protected $customerType = OrderCustomer::class;
+  protected $customerDataType = '';
+  protected $deliveryDetailsType = OrderDeliveryDetails::class;
+  protected $deliveryDetailsDataType = '';
+  public $id;
+  public $kind;
+  protected $lineItemsType = OrderLineItem::class;
+  protected $lineItemsDataType = 'array';
+  public $merchantId;
+  public $merchantOrderId;
+  protected $netPriceAmountType = Price::class;
+  protected $netPriceAmountDataType = '';
+  protected $netTaxAmountType = Price::class;
+  protected $netTaxAmountDataType = '';
+  public $paymentStatus;
+  protected $pickupDetailsType = OrderPickupDetails::class;
+  protected $pickupDetailsDataType = '';
+  public $placedDate;
+  protected $promotionsType = OrderPromotion::class;
+  protected $promotionsDataType = 'array';
+  protected $refundsType = OrderRefund::class;
+  protected $refundsDataType = 'array';
+  protected $shipmentsType = OrderShipment::class;
+  protected $shipmentsDataType = 'array';
+  protected $shippingCostType = Price::class;
+  protected $shippingCostDataType = '';
+  protected $shippingCostTaxType = Price::class;
+  protected $shippingCostTaxDataType = '';
+  public $status;
+  public $taxCollector;
+
+  public function setAcknowledged($acknowledged)
+  {
+    $this->acknowledged = $acknowledged;
+  }
+  public function getAcknowledged()
+  {
+    return $this->acknowledged;
+  }
+  /**
+   * @param OrderOrderAnnotation[]
+   */
+  public function setAnnotations($annotations)
+  {
+    $this->annotations = $annotations;
+  }
+  /**
+   * @return OrderOrderAnnotation[]
+   */
+  public function getAnnotations()
+  {
+    return $this->annotations;
+  }
+  /**
+   * @param OrderAddress
+   */
+  public function setBillingAddress(OrderAddress $billingAddress)
+  {
+    $this->billingAddress = $billingAddress;
+  }
+  /**
+   * @return OrderAddress
+   */
+  public function getBillingAddress()
+  {
+    return $this->billingAddress;
+  }
+  /**
+   * @param OrderCustomer
+   */
+  public function setCustomer(OrderCustomer $customer)
+  {
+    $this->customer = $customer;
+  }
+  /**
+   * @return OrderCustomer
+   */
+  public function getCustomer()
+  {
+    return $this->customer;
+  }
+  /**
+   * @param OrderDeliveryDetails
+   */
+  public function setDeliveryDetails(OrderDeliveryDetails $deliveryDetails)
+  {
+    $this->deliveryDetails = $deliveryDetails;
+  }
+  /**
+   * @return OrderDeliveryDetails
+   */
+  public function getDeliveryDetails()
+  {
+    return $this->deliveryDetails;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  /**
+   * @param OrderLineItem[]
+   */
+  public function setLineItems($lineItems)
+  {
+    $this->lineItems = $lineItems;
+  }
+  /**
+   * @return OrderLineItem[]
+   */
+  public function getLineItems()
+  {
+    return $this->lineItems;
+  }
+  public function setMerchantId($merchantId)
+  {
+    $this->merchantId = $merchantId;
+  }
+  public function getMerchantId()
+  {
+    return $this->merchantId;
+  }
+  public function setMerchantOrderId($merchantOrderId)
+  {
+    $this->merchantOrderId = $merchantOrderId;
+  }
+  public function getMerchantOrderId()
+  {
+    return $this->merchantOrderId;
+  }
+  /**
+   * @param Price
+   */
+  public function setNetPriceAmount(Price $netPriceAmount)
+  {
+    $this->netPriceAmount = $netPriceAmount;
+  }
+  /**
+   * @return Price
+   */
+  public function getNetPriceAmount()
+  {
+    return $this->netPriceAmount;
+  }
+  /**
+   * @param Price
+   */
+  public function setNetTaxAmount(Price $netTaxAmount)
+  {
+    $this->netTaxAmount = $netTaxAmount;
+  }
+  /**
+   * @return Price
+   */
+  public function getNetTaxAmount()
+  {
+    return $this->netTaxAmount;
+  }
+  public function setPaymentStatus($paymentStatus)
+  {
+    $this->paymentStatus = $paymentStatus;
+  }
+  public function getPaymentStatus()
+  {
+    return $this->paymentStatus;
+  }
+  /**
+   * @param OrderPickupDetails
+   */
+  public function setPickupDetails(OrderPickupDetails $pickupDetails)
+  {
+    $this->pickupDetails = $pickupDetails;
+  }
+  /**
+   * @return OrderPickupDetails
+   */
+  public function getPickupDetails()
+  {
+    return $this->pickupDetails;
+  }
+  public function setPlacedDate($placedDate)
+  {
+    $this->placedDate = $placedDate;
+  }
+  public function getPlacedDate()
+  {
+    return $this->placedDate;
+  }
+  /**
+   * @param OrderPromotion[]
+   */
+  public function setPromotions($promotions)
+  {
+    $this->promotions = $promotions;
+  }
+  /**
+   * @return OrderPromotion[]
+   */
+  public function getPromotions()
+  {
+    return $this->promotions;
+  }
+  /**
+   * @param OrderRefund[]
+   */
+  public function setRefunds($refunds)
+  {
+    $this->refunds = $refunds;
+  }
+  /**
+   * @return OrderRefund[]
+   */
+  public function getRefunds()
+  {
+    return $this->refunds;
+  }
+  /**
+   * @param OrderShipment[]
+   */
+  public function setShipments($shipments)
+  {
+    $this->shipments = $shipments;
+  }
+  /**
+   * @return OrderShipment[]
+   */
+  public function getShipments()
+  {
+    return $this->shipments;
+  }
+  /**
+   * @param Price
+   */
+  public function setShippingCost(Price $shippingCost)
+  {
+    $this->shippingCost = $shippingCost;
+  }
+  /**
+   * @return Price
+   */
+  public function getShippingCost()
+  {
+    return $this->shippingCost;
+  }
+  /**
+   * @param Price
+   */
+  public function setShippingCostTax(Price $shippingCostTax)
+  {
+    $this->shippingCostTax = $shippingCostTax;
+  }
+  /**
+   * @return Price
+   */
+  public function getShippingCostTax()
+  {
+    return $this->shippingCostTax;
+  }
+  public function setStatus($status)
+  {
+    $this->status = $status;
+  }
+  public function getStatus()
+  {
+    return $this->status;
+  }
+  public function setTaxCollector($taxCollector)
+  {
+    $this->taxCollector = $taxCollector;
+  }
+  public function getTaxCollector()
+  {
+    return $this->taxCollector;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Order::class, 'Google_Service_ShoppingContent_Order');

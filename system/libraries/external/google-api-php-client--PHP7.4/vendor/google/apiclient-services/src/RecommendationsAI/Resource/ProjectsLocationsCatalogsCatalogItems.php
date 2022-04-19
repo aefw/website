@@ -1,76 +1,145 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\RecommendationsAI\Resource;
+
+use Google\Service\RecommendationsAI\GoogleCloudRecommendationengineV1beta1CatalogItem;
+use Google\Service\RecommendationsAI\GoogleCloudRecommendationengineV1beta1ImportCatalogItemsRequest;
+use Google\Service\RecommendationsAI\GoogleCloudRecommendationengineV1beta1ListCatalogItemsResponse;
+use Google\Service\RecommendationsAI\GoogleLongrunningOperation;
+use Google\Service\RecommendationsAI\GoogleProtobufEmpty;
+
+/**
+ * The "catalogItems" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $recommendationengineService = new Google\Service\RecommendationsAI(...);
+ *   $catalogItems = $recommendationengineService->catalogItems;
+ *  </code>
+ */
+class ProjectsLocationsCatalogsCatalogItems extends \Google\Service\Resource
+{
+  /**
+   * Creates a catalog item. (catalogItems.create)
+   *
+   * @param string $parent Required. The parent catalog resource name, such as
+   * `projects/locations/global/catalogs/default_catalog`.
+   * @param GoogleCloudRecommendationengineV1beta1CatalogItem $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudRecommendationengineV1beta1CatalogItem
+   */
+  public function create($parent, GoogleCloudRecommendationengineV1beta1CatalogItem $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleCloudRecommendationengineV1beta1CatalogItem::class);
+  }
+  /**
+   * Deletes a catalog item. (catalogItems.delete)
+   *
+   * @param string $name Required. Full resource name of catalog item, such as `pr
+   * ojects/locations/global/catalogs/default_catalog/catalogItems/some_catalog_it
+   * em_id`.
+   * @param array $optParams Optional parameters.
+   * @return GoogleProtobufEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
+  }
+  /**
+   * Gets a specific catalog item. (catalogItems.get)
+   *
+   * @param string $name Required. Full resource name of catalog item, such as `pr
+   * ojects/locations/global/catalogs/default_catalog/catalogitems/some_catalog_it
+   * em_id`.
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudRecommendationengineV1beta1CatalogItem
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudRecommendationengineV1beta1CatalogItem::class);
+  }
+  /**
+   * Bulk import of multiple catalog items. Request processing may be synchronous.
+   * No partial updating supported. Non-existing items will be created.
+   * Operation.response is of type ImportResponse. Note that it is possible for a
+   * subset of the items to be successfully updated. (catalogItems.import)
+   *
+   * @param string $parent Required.
+   * `projects/1234/locations/global/catalogs/default_catalog` If no updateMask is
+   * specified, requires catalogItems.create permission. If updateMask is
+   * specified, requires catalogItems.update permission.
+   * @param GoogleCloudRecommendationengineV1beta1ImportCatalogItemsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function import($parent, GoogleCloudRecommendationengineV1beta1ImportCatalogItemsRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('import', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Gets a list of catalog items.
+   * (catalogItems.listProjectsLocationsCatalogsCatalogItems)
+   *
+   * @param string $parent Required. The parent catalog resource name, such as
+   * `projects/locations/global/catalogs/default_catalog`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Optional. A filter to apply on the list results.
+   * @opt_param int pageSize Optional. Maximum number of results to return per
+   * page. If zero, the service will choose a reasonable default.
+   * @opt_param string pageToken Optional. The previous
+   * ListCatalogItemsResponse.next_page_token.
+   * @return GoogleCloudRecommendationengineV1beta1ListCatalogItemsResponse
+   */
+  public function listProjectsLocationsCatalogsCatalogItems($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleCloudRecommendationengineV1beta1ListCatalogItemsResponse::class);
+  }
+  /**
+   * Updates a catalog item. Partial updating is supported. Non-existing items
+   * will be created. (catalogItems.patch)
+   *
+   * @param string $name Required. Full resource name of catalog item, such as `pr
+   * ojects/locations/global/catalogs/default_catalog/catalogItems/some_catalog_it
+   * em_id`.
+   * @param GoogleCloudRecommendationengineV1beta1CatalogItem $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Optional. Indicates which fields in the provided
+   * 'item' to update. If not set, will by default update all fields.
+   * @return GoogleCloudRecommendationengineV1beta1CatalogItem
+   */
+  public function patch($name, GoogleCloudRecommendationengineV1beta1CatalogItem $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], GoogleCloudRecommendationengineV1beta1CatalogItem::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsCatalogsCatalogItems::class, 'Google_Service_RecommendationsAI_Resource_ProjectsLocationsCatalogsCatalogItems');

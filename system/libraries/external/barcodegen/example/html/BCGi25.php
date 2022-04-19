@@ -1,68 +1,41 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+<?php
+define('IN_CB', true);
+include('include/header.php');
+
+$default_value['checksum'] = '';
+$checksum = isset($_POST['checksum']) ? $_POST['checksum'] : $default_value['checksum'];
+registerImageKey('checksum', $checksum);
+registerImageKey('code', 'BCGi25');
+
+$characters = array('0', '1', '2', '3', '4', '5', '6', '7', '8', '9');
 ?>
-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
+
+<ul id="specificOptions">
+    <li class="option">
+        <div class="title">
+            <label for="checksum">Checksum</label>
+        </div>
+        <div class="value">
+            <?php echo getCheckboxHtml('checksum', $checksum, array('value' => 1)); ?>
+        </div>
+    </li>
+</ul>
+
+<div id="validCharacters">
+    <h3>Valid Characters</h3>
+    <?php foreach ($characters as $character) {
+    echo getButton($character);
+} ?>
+</div>
+
+<div id="explanation">
+    <h3>Explanation</h3>
+    <ul>
+        <li>Interleaved 2 of 5 is based on Standard 2 of 5 symbology.</li>
+        <li>There is an optional checksum.</li>
+    </ul>
+</div>
+
+<?php
+include('include/footer.php');
+?>

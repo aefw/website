@@ -1,72 +1,213 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Logging\Resource;
+
+use Google\Service\Logging\ListSinksResponse;
+use Google\Service\Logging\LogSink;
+use Google\Service\Logging\LoggingEmpty;
+
+/**
+ * The "sinks" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $loggingService = new Google\Service\Logging(...);
+ *   $sinks = $loggingService->sinks;
+ *  </code>
+ */
+class BillingAccountsSinks extends \Google\Service\Resource
+{
+  /**
+   * Creates a sink that exports specified log entries to a destination. The
+   * export of newly-ingested log entries begins immediately, unless the sink's
+   * writer_identity is not permitted to write to the destination. A sink can
+   * export log entries only from the resource owning the sink. (sinks.create)
+   *
+   * @param string $parent Required. The resource in which to create the sink:
+   * "projects/[PROJECT_ID]" "organizations/[ORGANIZATION_ID]"
+   * "billingAccounts/[BILLING_ACCOUNT_ID]" "folders/[FOLDER_ID]" Examples:
+   * "projects/my-logging-project", "organizations/123456789".
+   * @param LogSink $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool uniqueWriterIdentity Optional. Determines the kind of IAM
+   * identity returned as writer_identity in the new sink. If this value is
+   * omitted or set to false, and if the sink's parent is a project, then the
+   * value returned as writer_identity is the same group or service account used
+   * by Logging before the addition of writer identities to this API. The sink's
+   * destination must be in the same project as the sink itself.If this field is
+   * set to true, or if the sink is owned by a non-project resource such as an
+   * organization, then the value of writer_identity will be a unique service
+   * account used only for exports from the new sink. For more information, see
+   * writer_identity in LogSink.
+   * @return LogSink
+   */
+  public function create($parent, LogSink $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], LogSink::class);
+  }
+  /**
+   * Deletes a sink. If the sink has a unique writer_identity, then that service
+   * account is also deleted. (sinks.delete)
+   *
+   * @param string $sinkName Required. The full resource name of the sink to
+   * delete, including the parent resource and the sink identifier:
+   * "projects/[PROJECT_ID]/sinks/[SINK_ID]"
+   * "organizations/[ORGANIZATION_ID]/sinks/[SINK_ID]"
+   * "billingAccounts/[BILLING_ACCOUNT_ID]/sinks/[SINK_ID]"
+   * "folders/[FOLDER_ID]/sinks/[SINK_ID]" Example: "projects/my-project-id/sinks
+   * /my-sink-id".
+   * @param array $optParams Optional parameters.
+   * @return LoggingEmpty
+   */
+  public function delete($sinkName, $optParams = [])
+  {
+    $params = ['sinkName' => $sinkName];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], LoggingEmpty::class);
+  }
+  /**
+   * Gets a sink. (sinks.get)
+   *
+   * @param string $sinkName Required. The resource name of the sink:
+   * "projects/[PROJECT_ID]/sinks/[SINK_ID]"
+   * "organizations/[ORGANIZATION_ID]/sinks/[SINK_ID]"
+   * "billingAccounts/[BILLING_ACCOUNT_ID]/sinks/[SINK_ID]"
+   * "folders/[FOLDER_ID]/sinks/[SINK_ID]" Example: "projects/my-project-id/sinks
+   * /my-sink-id".
+   * @param array $optParams Optional parameters.
+   * @return LogSink
+   */
+  public function get($sinkName, $optParams = [])
+  {
+    $params = ['sinkName' => $sinkName];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], LogSink::class);
+  }
+  /**
+   * Lists sinks. (sinks.listBillingAccountsSinks)
+   *
+   * @param string $parent Required. The parent resource whose sinks are to be
+   * listed: "projects/[PROJECT_ID]" "organizations/[ORGANIZATION_ID]"
+   * "billingAccounts/[BILLING_ACCOUNT_ID]" "folders/[FOLDER_ID]"
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Optional. The maximum number of results to return
+   * from this request. Non-positive values are ignored. The presence of
+   * nextPageToken in the response indicates that more results might be available.
+   * @opt_param string pageToken Optional. If present, then retrieve the next
+   * batch of results from the preceding call to this method. pageToken must be
+   * the value of nextPageToken from the previous response. The values of other
+   * method parameters should be identical to those in the previous call.
+   * @return ListSinksResponse
+   */
+  public function listBillingAccountsSinks($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListSinksResponse::class);
+  }
+  /**
+   * Updates a sink. This method replaces the following fields in the existing
+   * sink with values from the new sink: destination, and filter.The updated sink
+   * might also have a new writer_identity; see the unique_writer_identity field.
+   * (sinks.patch)
+   *
+   * @param string $sinkName Required. The full resource name of the sink to
+   * update, including the parent resource and the sink identifier:
+   * "projects/[PROJECT_ID]/sinks/[SINK_ID]"
+   * "organizations/[ORGANIZATION_ID]/sinks/[SINK_ID]"
+   * "billingAccounts/[BILLING_ACCOUNT_ID]/sinks/[SINK_ID]"
+   * "folders/[FOLDER_ID]/sinks/[SINK_ID]" Example: "projects/my-project-id/sinks
+   * /my-sink-id".
+   * @param LogSink $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool uniqueWriterIdentity Optional. See sinks.create for a
+   * description of this field. When updating a sink, the effect of this field on
+   * the value of writer_identity in the updated sink depends on both the old and
+   * new values of this field: If the old and new values of this field are both
+   * false or both true, then there is no change to the sink's writer_identity. If
+   * the old value is false and the new value is true, then writer_identity is
+   * changed to a unique service account. It is an error if the old value is true
+   * and the new value is set to false or defaulted to false.
+   * @opt_param string updateMask Optional. Field mask that specifies the fields
+   * in sink that need an update. A sink field will be overwritten if, and only
+   * if, it is in the update mask. name and output only fields cannot be
+   * updated.An empty updateMask is temporarily treated as using the following
+   * mask for backwards compatibility purposes: destination,filter,includeChildren
+   * At some point in the future, behavior will be removed and specifying an empty
+   * updateMask will be an error.For a detailed FieldMask definition, see
+   * https://developers.google.com/protocol-
+   * buffers/docs/reference/google.protobuf#google.protobuf.FieldMaskExample:
+   * updateMask=filter.
+   * @return LogSink
+   */
+  public function patch($sinkName, LogSink $postBody, $optParams = [])
+  {
+    $params = ['sinkName' => $sinkName, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], LogSink::class);
+  }
+  /**
+   * Updates a sink. This method replaces the following fields in the existing
+   * sink with values from the new sink: destination, and filter.The updated sink
+   * might also have a new writer_identity; see the unique_writer_identity field.
+   * (sinks.update)
+   *
+   * @param string $sinkName Required. The full resource name of the sink to
+   * update, including the parent resource and the sink identifier:
+   * "projects/[PROJECT_ID]/sinks/[SINK_ID]"
+   * "organizations/[ORGANIZATION_ID]/sinks/[SINK_ID]"
+   * "billingAccounts/[BILLING_ACCOUNT_ID]/sinks/[SINK_ID]"
+   * "folders/[FOLDER_ID]/sinks/[SINK_ID]" Example: "projects/my-project-id/sinks
+   * /my-sink-id".
+   * @param LogSink $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool uniqueWriterIdentity Optional. See sinks.create for a
+   * description of this field. When updating a sink, the effect of this field on
+   * the value of writer_identity in the updated sink depends on both the old and
+   * new values of this field: If the old and new values of this field are both
+   * false or both true, then there is no change to the sink's writer_identity. If
+   * the old value is false and the new value is true, then writer_identity is
+   * changed to a unique service account. It is an error if the old value is true
+   * and the new value is set to false or defaulted to false.
+   * @opt_param string updateMask Optional. Field mask that specifies the fields
+   * in sink that need an update. A sink field will be overwritten if, and only
+   * if, it is in the update mask. name and output only fields cannot be
+   * updated.An empty updateMask is temporarily treated as using the following
+   * mask for backwards compatibility purposes: destination,filter,includeChildren
+   * At some point in the future, behavior will be removed and specifying an empty
+   * updateMask will be an error.For a detailed FieldMask definition, see
+   * https://developers.google.com/protocol-
+   * buffers/docs/reference/google.protobuf#google.protobuf.FieldMaskExample:
+   * updateMask=filter.
+   * @return LogSink
+   */
+  public function update($sinkName, LogSink $postBody, $optParams = [])
+  {
+    $params = ['sinkName' => $sinkName, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], LogSink::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(BillingAccountsSinks::class, 'Google_Service_Logging_Resource_BillingAccountsSinks');

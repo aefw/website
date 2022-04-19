@@ -1,64 +1,103 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-RNR+IQF3o2yY
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AndroidManagement\Resource;
+
+use Google\Service\AndroidManagement\AndroidmanagementEmpty;
+use Google\Service\AndroidManagement\ListPoliciesResponse;
+use Google\Service\AndroidManagement\Policy;
+
+/**
+ * The "policies" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $androidmanagementService = new Google\Service\AndroidManagement(...);
+ *   $policies = $androidmanagementService->policies;
+ *  </code>
+ */
+class EnterprisesPolicies extends \Google\Service\Resource
+{
+  /**
+   * Deletes a policy. This operation is only permitted if no devices are
+   * currently referencing the policy. (policies.delete)
+   *
+   * @param string $name The name of the policy in the form
+   * enterprises/{enterpriseId}/policies/{policyId}.
+   * @param array $optParams Optional parameters.
+   * @return AndroidmanagementEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], AndroidmanagementEmpty::class);
+  }
+  /**
+   * Gets a policy. (policies.get)
+   *
+   * @param string $name The name of the policy in the form
+   * enterprises/{enterpriseId}/policies/{policyId}.
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Policy::class);
+  }
+  /**
+   * Lists policies for a given enterprise. (policies.listEnterprisesPolicies)
+   *
+   * @param string $parent The name of the enterprise in the form
+   * enterprises/{enterpriseId}.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The requested page size. The actual page size may be
+   * fixed to a min or max value.
+   * @opt_param string pageToken A token identifying a page of results returned by
+   * the server.
+   * @return ListPoliciesResponse
+   */
+  public function listEnterprisesPolicies($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListPoliciesResponse::class);
+  }
+  /**
+   * Updates or creates a policy. (policies.patch)
+   *
+   * @param string $name The name of the policy in the form
+   * enterprises/{enterpriseId}/policies/{policyId}.
+   * @param Policy $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask The field mask indicating the fields to update.
+   * If not set, all modifiable fields will be modified.
+   * @return Policy
+   */
+  public function patch($name, Policy $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Policy::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(EnterprisesPolicies::class, 'Google_Service_AndroidManagement_Resource_EnterprisesPolicies');

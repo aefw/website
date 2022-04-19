@@ -1,75 +1,209 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute\Resource;
+
+use Google\Service\Compute\Interconnect;
+use Google\Service\Compute\InterconnectList;
+use Google\Service\Compute\InterconnectsGetDiagnosticsResponse;
+use Google\Service\Compute\Operation;
+
+/**
+ * The "interconnects" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $computeService = new Google\Service\Compute(...);
+ *   $interconnects = $computeService->interconnects;
+ *  </code>
+ */
+class Interconnects extends \Google\Service\Resource
+{
+  /**
+   * Deletes the specified interconnect. (interconnects.delete)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $interconnect Name of the interconnect to delete.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function delete($project, $interconnect, $optParams = [])
+  {
+    $params = ['project' => $project, 'interconnect' => $interconnect];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Returns the specified interconnect. Get a list of available interconnects by
+   * making a list() request. (interconnects.get)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $interconnect Name of the interconnect to return.
+   * @param array $optParams Optional parameters.
+   * @return Interconnect
+   */
+  public function get($project, $interconnect, $optParams = [])
+  {
+    $params = ['project' => $project, 'interconnect' => $interconnect];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Interconnect::class);
+  }
+  /**
+   * Returns the interconnectDiagnostics for the specified interconnect.
+   * (interconnects.getDiagnostics)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $interconnect Name of the interconnect resource to query.
+   * @param array $optParams Optional parameters.
+   * @return InterconnectsGetDiagnosticsResponse
+   */
+  public function getDiagnostics($project, $interconnect, $optParams = [])
+  {
+    $params = ['project' => $project, 'interconnect' => $interconnect];
+    $params = array_merge($params, $optParams);
+    return $this->call('getDiagnostics', [$params], InterconnectsGetDiagnosticsResponse::class);
+  }
+  /**
+   * Creates a Interconnect in the specified project using the data included in
+   * the request. (interconnects.insert)
+   *
+   * @param string $project Project ID for this request.
+   * @param Interconnect $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function insert($project, Interconnect $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Operation::class);
+  }
+  /**
+   * Retrieves the list of interconnect available to the specified project.
+   * (interconnects.listInterconnects)
+   *
+   * @param string $project Project ID for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return InterconnectList
+   */
+  public function listInterconnects($project, $optParams = [])
+  {
+    $params = ['project' => $project];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], InterconnectList::class);
+  }
+  /**
+   * Updates the specified interconnect with the data included in the request.
+   * This method supports PATCH semantics and uses the JSON merge patch format and
+   * processing rules. (interconnects.patch)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $interconnect Name of the interconnect to update.
+   * @param Interconnect $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function patch($project, $interconnect, Interconnect $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'interconnect' => $interconnect, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Interconnects::class, 'Google_Service_Compute_Resource_Interconnects');

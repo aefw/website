@@ -1,83 +1,197 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Licensing\Resource;
+
+use Google\Service\Licensing\LicenseAssignment;
+use Google\Service\Licensing\LicenseAssignmentInsert;
+use Google\Service\Licensing\LicenseAssignmentList;
+use Google\Service\Licensing\LicensingEmpty;
+
+/**
+ * The "licenseAssignments" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $licensingService = new Google\Service\Licensing(...);
+ *   $licenseAssignments = $licensingService->licenseAssignments;
+ *  </code>
+ */
+class LicenseAssignments extends \Google\Service\Resource
+{
+  /**
+   * Revoke a license. (licenseAssignments.delete)
+   *
+   * @param string $productId A product's unique identifier. For more information
+   * about products in this version of the API, see Products and SKUs.
+   * @param string $skuId A product SKU's unique identifier. For more information
+   * about available SKUs in this version of the API, see Products and SKUs.
+   * @param string $userId The user's current primary email address. If the user's
+   * email address changes, use the new email address in your API requests. Since
+   * a `userId` is subject to change, do not use a `userId` value as a key for
+   * persistent data. This key could break if the current user's email address
+   * changes. If the `userId` is suspended, the license status changes.
+   * @param array $optParams Optional parameters.
+   * @return LicensingEmpty
+   */
+  public function delete($productId, $skuId, $userId, $optParams = [])
+  {
+    $params = ['productId' => $productId, 'skuId' => $skuId, 'userId' => $userId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], LicensingEmpty::class);
+  }
+  /**
+   * Get a specific user's license by product SKU. (licenseAssignments.get)
+   *
+   * @param string $productId A product's unique identifier. For more information
+   * about products in this version of the API, see Products and SKUs.
+   * @param string $skuId A product SKU's unique identifier. For more information
+   * about available SKUs in this version of the API, see Products and SKUs.
+   * @param string $userId The user's current primary email address. If the user's
+   * email address changes, use the new email address in your API requests. Since
+   * a `userId` is subject to change, do not use a `userId` value as a key for
+   * persistent data. This key could break if the current user's email address
+   * changes. If the `userId` is suspended, the license status changes.
+   * @param array $optParams Optional parameters.
+   * @return LicenseAssignment
+   */
+  public function get($productId, $skuId, $userId, $optParams = [])
+  {
+    $params = ['productId' => $productId, 'skuId' => $skuId, 'userId' => $userId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], LicenseAssignment::class);
+  }
+  /**
+   * Assign a license. (licenseAssignments.insert)
+   *
+   * @param string $productId A product's unique identifier. For more information
+   * about products in this version of the API, see Products and SKUs.
+   * @param string $skuId A product SKU's unique identifier. For more information
+   * about available SKUs in this version of the API, see Products and SKUs.
+   * @param LicenseAssignmentInsert $postBody
+   * @param array $optParams Optional parameters.
+   * @return LicenseAssignment
+   */
+  public function insert($productId, $skuId, LicenseAssignmentInsert $postBody, $optParams = [])
+  {
+    $params = ['productId' => $productId, 'skuId' => $skuId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], LicenseAssignment::class);
+  }
+  /**
+   * List all users assigned licenses for a specific product SKU.
+   * (licenseAssignments.listForProduct)
+   *
+   * @param string $productId A product's unique identifier. For more information
+   * about products in this version of the API, see Products and SKUs.
+   * @param string $customerId Customer's `customerId`. A previous version of this
+   * API accepted the primary domain name as a value for this field. If the
+   * customer is suspended, the server returns an error.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string maxResults The `maxResults` query string determines how
+   * many entries are returned on each page of a large response. This is an
+   * optional parameter. The value must be a positive number.
+   * @opt_param string pageToken Token to fetch the next page of data. The
+   * `maxResults` query string is related to the `pageToken` since `maxResults`
+   * determines how many entries are returned on each page. This is an optional
+   * query string. If not specified, the server returns the first page.
+   * @return LicenseAssignmentList
+   */
+  public function listForProduct($productId, $customerId, $optParams = [])
+  {
+    $params = ['productId' => $productId, 'customerId' => $customerId];
+    $params = array_merge($params, $optParams);
+    return $this->call('listForProduct', [$params], LicenseAssignmentList::class);
+  }
+  /**
+   * List all users assigned licenses for a specific product SKU.
+   * (licenseAssignments.listForProductAndSku)
+   *
+   * @param string $productId A product's unique identifier. For more information
+   * about products in this version of the API, see Products and SKUs.
+   * @param string $skuId A product SKU's unique identifier. For more information
+   * about available SKUs in this version of the API, see Products and SKUs.
+   * @param string $customerId Customer's `customerId`. A previous version of this
+   * API accepted the primary domain name as a value for this field. If the
+   * customer is suspended, the server returns an error.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string maxResults The `maxResults` query string determines how
+   * many entries are returned on each page of a large response. This is an
+   * optional parameter. The value must be a positive number.
+   * @opt_param string pageToken Token to fetch the next page of data. The
+   * `maxResults` query string is related to the `pageToken` since `maxResults`
+   * determines how many entries are returned on each page. This is an optional
+   * query string. If not specified, the server returns the first page.
+   * @return LicenseAssignmentList
+   */
+  public function listForProductAndSku($productId, $skuId, $customerId, $optParams = [])
+  {
+    $params = ['productId' => $productId, 'skuId' => $skuId, 'customerId' => $customerId];
+    $params = array_merge($params, $optParams);
+    return $this->call('listForProductAndSku', [$params], LicenseAssignmentList::class);
+  }
+  /**
+   * Reassign a user's product SKU with a different SKU in the same product. This
+   * method supports patch semantics. (licenseAssignments.patch)
+   *
+   * @param string $productId A product's unique identifier. For more information
+   * about products in this version of the API, see Products and SKUs.
+   * @param string $skuId A product SKU's unique identifier. For more information
+   * about available SKUs in this version of the API, see Products and SKUs.
+   * @param string $userId The user's current primary email address. If the user's
+   * email address changes, use the new email address in your API requests. Since
+   * a `userId` is subject to change, do not use a `userId` value as a key for
+   * persistent data. This key could break if the current user's email address
+   * changes. If the `userId` is suspended, the license status changes.
+   * @param LicenseAssignment $postBody
+   * @param array $optParams Optional parameters.
+   * @return LicenseAssignment
+   */
+  public function patch($productId, $skuId, $userId, LicenseAssignment $postBody, $optParams = [])
+  {
+    $params = ['productId' => $productId, 'skuId' => $skuId, 'userId' => $userId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], LicenseAssignment::class);
+  }
+  /**
+   * Reassign a user's product SKU with a different SKU in the same product.
+   * (licenseAssignments.update)
+   *
+   * @param string $productId A product's unique identifier. For more information
+   * about products in this version of the API, see Products and SKUs.
+   * @param string $skuId A product SKU's unique identifier. For more information
+   * about available SKUs in this version of the API, see Products and SKUs.
+   * @param string $userId The user's current primary email address. If the user's
+   * email address changes, use the new email address in your API requests. Since
+   * a `userId` is subject to change, do not use a `userId` value as a key for
+   * persistent data. This key could break if the current user's email address
+   * changes. If the `userId` is suspended, the license status changes.
+   * @param LicenseAssignment $postBody
+   * @param array $optParams Optional parameters.
+   * @return LicenseAssignment
+   */
+  public function update($productId, $skuId, $userId, LicenseAssignment $postBody, $optParams = [])
+  {
+    $params = ['productId' => $productId, 'skuId' => $skuId, 'userId' => $userId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], LicenseAssignment::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(LicenseAssignments::class, 'Google_Service_Licensing_Resource_LicenseAssignments');

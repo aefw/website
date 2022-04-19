@@ -1,66 +1,109 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-xeVy707FjoeABEK=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\FirebaseRules;
+
+class TestResult extends \Google\Collection
+{
+  protected $collection_key = 'visitedExpressions';
+  public $debugMessages;
+  protected $errorPositionType = SourcePosition::class;
+  protected $errorPositionDataType = '';
+  protected $expressionReportsType = ExpressionReport::class;
+  protected $expressionReportsDataType = 'array';
+  protected $functionCallsType = FunctionCall::class;
+  protected $functionCallsDataType = 'array';
+  public $state;
+  protected $visitedExpressionsType = VisitedExpression::class;
+  protected $visitedExpressionsDataType = 'array';
+
+  public function setDebugMessages($debugMessages)
+  {
+    $this->debugMessages = $debugMessages;
+  }
+  public function getDebugMessages()
+  {
+    return $this->debugMessages;
+  }
+  /**
+   * @param SourcePosition
+   */
+  public function setErrorPosition(SourcePosition $errorPosition)
+  {
+    $this->errorPosition = $errorPosition;
+  }
+  /**
+   * @return SourcePosition
+   */
+  public function getErrorPosition()
+  {
+    return $this->errorPosition;
+  }
+  /**
+   * @param ExpressionReport[]
+   */
+  public function setExpressionReports($expressionReports)
+  {
+    $this->expressionReports = $expressionReports;
+  }
+  /**
+   * @return ExpressionReport[]
+   */
+  public function getExpressionReports()
+  {
+    return $this->expressionReports;
+  }
+  /**
+   * @param FunctionCall[]
+   */
+  public function setFunctionCalls($functionCalls)
+  {
+    $this->functionCalls = $functionCalls;
+  }
+  /**
+   * @return FunctionCall[]
+   */
+  public function getFunctionCalls()
+  {
+    return $this->functionCalls;
+  }
+  public function setState($state)
+  {
+    $this->state = $state;
+  }
+  public function getState()
+  {
+    return $this->state;
+  }
+  /**
+   * @param VisitedExpression[]
+   */
+  public function setVisitedExpressions($visitedExpressions)
+  {
+    $this->visitedExpressions = $visitedExpressions;
+  }
+  /**
+   * @return VisitedExpression[]
+   */
+  public function getVisitedExpressions()
+  {
+    return $this->visitedExpressions;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(TestResult::class, 'Google_Service_FirebaseRules_TestResult');

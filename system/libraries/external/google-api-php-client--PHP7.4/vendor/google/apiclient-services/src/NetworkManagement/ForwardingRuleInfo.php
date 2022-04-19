@@ -1,67 +1,89 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPp1/5I2pxEqNEh600w5MwBo1toF1zjnX+CIl+ZiY2Lgc/iLVzF5ZPZXLB0KzkB3/oCcocDJL
-yP15auMCMvrLq9HWQb/M56Mmv77R62B62wR+SXRHLeMM5qu+//0Rb2/QDzd/fZDq6Tk7TgJ6Inph
-NdOh3We4PR8OWNRSy7iEpFNb8KvXAhmXyzd20oNOk3lxIOpGuezIjJ8RnRleQxkaAEJ3JLhRTvmq
-9VD0Lv1pglc5ZHvehFCGkiwqy9YUHb++WtDpt8vGoZb+pQeO3Q86r/wsuaBYS5CkDLI4g2o1fZvA
-1ULLDNOWMfOWFkNjJ+heYDJKdMy+wtCixzBVi+FBb59QMKRLEl3DjOboNK9L3nmCeYCciDjS9C6N
-BXVakXQBUIuhbMedsfQntaKYBSz6yoyBOfQFAWLut6KmZHYdottDUlB+kaH47PdROWFqPIDuwXTw
-TcTsFwdmFU/rklfYdW7jsXQj5A0etUD5y4nL8iJ95rkZnYaRUFBbM87yBMmLvjOe8IIfNO6LJqNi
-tk2bmAXTzsdAwTuhCYoKZ+8HdYAEca/p4Uolz0Bptnb/qkvpXL5UHuoyT48ZdFmQOLsjXE7JOBXG
-TExiXC/1qZPitXrw3RGgKEW29zYMhLrLt35zF/v8eaF2waY7y8w5s4NB5U4Gj+KFZrC6KFDN623j
-YJekYkDR/7cQftY/zvw8Y2bwx02CvxLZUv4DhhM8BPZK0zx78XravcKUWYHZvM6qiONmVtAzVClp
-y1aB02wRpRmZaQQZdRS0CLjjHAj+479lrm+m3ZVagrANKk5JnUtNpMFYmrSjwW8nl1TEvoM9vi6m
-iUthGs4nrOgL5j3Sn92lbmpyNzE0JATsC+94uLecDxabd/VHHQiWMiPhJRZywyQILx9iEA7RKz9C
-XcI8NkCOsCfFSrDNgFpsUjNmEWvmnxE3kyJc5n6uzFOgiY1VGBPqBczrVxjRruqPt2o0vozmUQtn
-mSvG8n3F8A5HckzYBWJIJXhLHpCdvPnJY1SNdczLeADZZrFj1ywxjcYPXX7qL2wxs2qhXzIsPIJY
-0d3F8Vl4zJgdMcUek0xyjhl3Eftu7xedvj504Lzy2IkUkUm2AeNG949Vmye/5uBAgLLnMgjn4o/C
-e45HGpJ0u9Dks8CToeC5kXA0zcCg7JdqpYtPqjRAT6P4Mul1VLf2CPrTMsMqgMCqy8SJ8hEXb9By
-pN7ZPDRyid1keZLjOnUbJ/8O4QwLTbvUgZWwW9ET7ygwiXPf8XhBfssIKiMcqum0+mbSpZzVRt6e
-THmUi8vZ1s5VfZfvCF9o/QwrkOgfn/BqjdbzY2ESqGTUh7X0SqjXiwyfXXIaEIyHlrMwpCq9C6dg
-dQld9nTCCnu23p4prxoJaI/yeCvh6CiTehZfZomA31acHjtAxWvZWdkhn82EkZNjmY8mki4xd6M2
-5pz0bEEaPYYY/DZEg9iLY3VFIuWJ74ueHPVQFpifILeiRRTumw0GdBk+6MqJz7uSncffk9SdlUcY
-D5NzyPI5N5/8BM6LXCjQk/5SNmecm5G9OB8nMxM6M9/z87R6cK6W+Q5D3zL19wlw1Q5suKS19lB4
-iyfnMCAsYYSYQHa6y6yIu8UR8ZUZmUl44J9PmJ7OVBQPTngSM/IMl+TAIHHuFU+3fVsVd93KD07F
-k/Iuoy21OBd7isOaCnQBAXjxdIQWCHo7YzN7uSzYjqx9D+YbeHBIQzdlqXD51Kf+YmNR7ffgqPUq
-xzEwqFHH/jjtaN7nHWQOUZ3jsulMR7gWC9ZOcSYuhZ9gs2No7WDVoFlhwDW/cdnnmwD51611COcZ
-A3uv2iC5WMhVvKyr7YZX4V9rkDBQRf7YgDz8ucPeXt3KmuP28266ud2eVIIBb+srbpO3nykt5qjq
-i2mvT3UkAFypC58d48WowEQNAUyYDH0+xHVwWwEJqyFJyLYiGBsIWT4JlYlhP20+WE97g422H3ut
-0Di4rOoSHflrm5TrLw2LSEPPf+Q+mh/A0TMiG63IYmzO9ROJMrH/sVHlTnXWkrIKFPorwrBIV7w8
-YyDBppgsftfZR3yqBaeoLZHkSmnxl/x6oJ5I5F24mpQ2bGnrqJHSaJWGNWDMUxmbX6uNW8kmZKkE
-Yr/u8aZXXU2Ld6ip6/99COulHi3eE1tQyARLLgkzmk4jR7XMyi4fKuubVNHcacaXEmSoM0HuR4be
-dzchBGm/QeCVm4wACksBtPez315Mhga6+KUafQOCMfhqvxYvWAxooPreaR2id9RZP1j5WN5ZR9us
-f7hibGJraVc3QzxDHHoiSNZDEtzTjrzM0FhZMt/ksxaBVZZekfFp788jvLXFx156xtHcDx4T0XPN
-UHYz58agsvit0YKxHh7ssxvI3fxeZhrr+DPCbHy00YAQYzL2oEg+tfu8Q7rC009C4n6I24AD319P
-1e3C/fcL0hfurjMrsNlK6LNB260zj0n10XFp8zIWOBwGlm2kYCxMBt1QiOXfYmb+znAVL9n4Verl
-HkRa47Qz+GBSuDp9lB75Wf8dGAWD5HSL80Kri82wTgSsjD9BfbjAvgvUmj77kAlSxRUMOLdFkFjY
-1xrlGWfcpQD5+jq9UNOfzcYKHEQGUdC4e1cHL3HipR6Kt0MpnmI/zBbCjJ+9rkyhfJIxaBv4+tg9
-jnuVg5eVGS9OKbhVWra2B1cPQS4VfH9PwixwulA9PxnViihGhHAd4VZboPt8+ZI4JUeVoIvBGwHq
-u8aXy5SVFLVKxP/IiMJpT88AXytubzsJ7QlgfVBIZuxpb2pwvZS2ljgbpDkhQ1Sm/OZ/uD2T1SEA
-pdAqyHeQfySaM9FxwNCKCgnPc+EHkoGR6fKNPa+y5P36A/ttHABpjj4CwUoI4KfTP+EOwqjLubl4
-PN3J7x5jdtsEGLPbEBvmy8v5eMStBz0PDvflGTN3GB6QwswSVRGlahMyqkEuwbZ/PnFN6zEyJudU
-OZxUbj2yOCEBJS35u0mIuWGXl5YEfL5KDiUTWpTJ0NjI0e4ff64Z7w9kbbBP/bVomKYnHCiI26NU
-acBdKASAT4Z0+4e7T4WDmnCunOB6wq8xz52ZNQDtewsq96kLdYDnpuhFzPhuz0c9gvydGtHTwlrM
-e2wZTh703TZ3ZaynmaK+bySu/rbXhMQSKRk31Ql5laEmz7IYumW53iSLn50Ev4t8jf7tzAwSTQ6O
-3RrTPViPl2ES4nDASi+9XkyV0MOJu1B119NwzUczcaM/AMkq1e5gMloqTkVOKkheBUgJU79mqTg6
-oT/+DpVMGfvt5SQmKB5A/UmFEtTPRLBTrZDHAj9PK1utVh7H1AOQ81gCJH3IcHkMqbnUZeqN4WXq
-jkqaXVh3geP93LPwOyWa8xjCNH9YJjDCqn+UpaZzw6sHyWpezVpvu9cnbgaeI4VmnSW8l/fYOo0Y
-/1YttFCBota5RQFDLLIIECJHilMUDtQRuTJEDL5Gc5//2kTM9yRgxub0X4xRDq5xd2J8jNYS/CcV
-YNVzzqZSsZH7u6Cb/fVJCxV+i2hRn7DkXN7imRHNofqDyA1ujFGv3IiQalz8eAfKe0riL8xSsE/J
-BIP28S54eoU1ItCcLCqUXD1QwaZnGVOapMtSB2yMDXiDdMn9Iil4PrMdqviP2grx0fwpD8HP4g1q
-83+fgtB/znC/9FFUx2tmqfV0rLvCW/GY7LlWcffGDzVuwd/nOYlZP/sP6+hM5JgEB6Yz/MYkxwSo
-7tpWYb8gv4vJNrxcPDmvhVyCt0vmPoIFQ2qe7uFOGzM0fjl9ST7MhwlAMW1M7G1HQIxPQeKaI2G6
-6s7YOjB78JYlrts0mZvyX09aGFam8bQqAT/TftPXT1c069xuXhq6ZWw/egVvk2FANIjfIFdoia2R
-BagbC4W87o+4IJNB04XWnfykibZd1/NWKQt9crSgQVPltJtCpj3PEx1/lVWgGvkSMzVt8ESC92gD
-z+bZxkFzt4mQyNlQxIbY6uQXlw7sgKo4JQ6SYedbsfkLcpB5r3v1DZHLUV6oOh1Gm/y07GffTM9U
-uRV+rUl9TT03pqjbqkz4qxdCubKoiYgdi6SQ5dCbUU3MfC7H6AJSICEWWLc2N5Kikqgr3yeqa1sL
-Q0brl5qrh42tIcZWVS0gA1xgXihvLu/0qOo0PcLMAcv+k3K//yR6mENfYrSGeq+9xXNewsFvhnM0
-EvkvDI28RS9d/LV3zp3YgrPnrVMHD+3lnxi9AnBLxb5odu04n4XUkwep7+o1KzJuvaBEGRbb4zh6
-cKR1b86uLqOIrzPAiejp5DWBrI/zvERE4ZU6n82f4099Iqy66lmoW61b1iQ2Su/QD1uQnpZ2GlOv
-a74zf5Kp8Hdvz1xEgG50oVwzsn/R33GZbYOhSTzs1TocP0yeydx7ooVzLKHj1cVXIlJc5q1GhVfS
-U2MlO1mca9mBldjNw+su+ptgERcKK7Lwrn8ZIDy3KsYvTgG/fF3OdNZjpiJfa88ovHEOgYfLZtZs
-V63HH25WV5WjOsT+Av+cleFiMZQc5gLAngWqyQ8jZbOnt1p5zSw6EArrSUdIJlp0NycWhkuPf5z9
-nDC=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\NetworkManagement;
+
+class ForwardingRuleInfo extends \Google\Model
+{
+  public $displayName;
+  public $matchedPortRange;
+  public $matchedProtocol;
+  public $networkUri;
+  public $target;
+  public $uri;
+  public $vip;
+
+  public function setDisplayName($displayName)
+  {
+    $this->displayName = $displayName;
+  }
+  public function getDisplayName()
+  {
+    return $this->displayName;
+  }
+  public function setMatchedPortRange($matchedPortRange)
+  {
+    $this->matchedPortRange = $matchedPortRange;
+  }
+  public function getMatchedPortRange()
+  {
+    return $this->matchedPortRange;
+  }
+  public function setMatchedProtocol($matchedProtocol)
+  {
+    $this->matchedProtocol = $matchedProtocol;
+  }
+  public function getMatchedProtocol()
+  {
+    return $this->matchedProtocol;
+  }
+  public function setNetworkUri($networkUri)
+  {
+    $this->networkUri = $networkUri;
+  }
+  public function getNetworkUri()
+  {
+    return $this->networkUri;
+  }
+  public function setTarget($target)
+  {
+    $this->target = $target;
+  }
+  public function getTarget()
+  {
+    return $this->target;
+  }
+  public function setUri($uri)
+  {
+    $this->uri = $uri;
+  }
+  public function getUri()
+  {
+    return $this->uri;
+  }
+  public function setVip($vip)
+  {
+    $this->vip = $vip;
+  }
+  public function getVip()
+  {
+    return $this->vip;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ForwardingRuleInfo::class, 'Google_Service_NetworkManagement_ForwardingRuleInfo');

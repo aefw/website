@@ -1,69 +1,111 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Translate;
+
+class BatchTranslateTextRequest extends \Google\Collection
+{
+  protected $collection_key = 'targetLanguageCodes';
+  protected $glossariesType = TranslateTextGlossaryConfig::class;
+  protected $glossariesDataType = 'map';
+  protected $inputConfigsType = InputConfig::class;
+  protected $inputConfigsDataType = 'array';
+  public $labels;
+  public $models;
+  protected $outputConfigType = OutputConfig::class;
+  protected $outputConfigDataType = '';
+  public $sourceLanguageCode;
+  public $targetLanguageCodes;
+
+  /**
+   * @param TranslateTextGlossaryConfig[]
+   */
+  public function setGlossaries($glossaries)
+  {
+    $this->glossaries = $glossaries;
+  }
+  /**
+   * @return TranslateTextGlossaryConfig[]
+   */
+  public function getGlossaries()
+  {
+    return $this->glossaries;
+  }
+  /**
+   * @param InputConfig[]
+   */
+  public function setInputConfigs($inputConfigs)
+  {
+    $this->inputConfigs = $inputConfigs;
+  }
+  /**
+   * @return InputConfig[]
+   */
+  public function getInputConfigs()
+  {
+    return $this->inputConfigs;
+  }
+  public function setLabels($labels)
+  {
+    $this->labels = $labels;
+  }
+  public function getLabels()
+  {
+    return $this->labels;
+  }
+  public function setModels($models)
+  {
+    $this->models = $models;
+  }
+  public function getModels()
+  {
+    return $this->models;
+  }
+  /**
+   * @param OutputConfig
+   */
+  public function setOutputConfig(OutputConfig $outputConfig)
+  {
+    $this->outputConfig = $outputConfig;
+  }
+  /**
+   * @return OutputConfig
+   */
+  public function getOutputConfig()
+  {
+    return $this->outputConfig;
+  }
+  public function setSourceLanguageCode($sourceLanguageCode)
+  {
+    $this->sourceLanguageCode = $sourceLanguageCode;
+  }
+  public function getSourceLanguageCode()
+  {
+    return $this->sourceLanguageCode;
+  }
+  public function setTargetLanguageCodes($targetLanguageCodes)
+  {
+    $this->targetLanguageCodes = $targetLanguageCodes;
+  }
+  public function getTargetLanguageCodes()
+  {
+    return $this->targetLanguageCodes;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(BatchTranslateTextRequest::class, 'Google_Service_Translate_BatchTranslateTextRequest');

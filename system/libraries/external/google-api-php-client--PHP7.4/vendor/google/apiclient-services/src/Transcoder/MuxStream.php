@@ -1,64 +1,95 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-lxMww2xeTNxki40n1L4EdDjlm83k1+opqTCktG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Transcoder;
+
+class MuxStream extends \Google\Collection
+{
+  protected $collection_key = 'elementaryStreams';
+  public $container;
+  public $elementaryStreams;
+  protected $encryptionType = Encryption::class;
+  protected $encryptionDataType = '';
+  public $fileName;
+  public $key;
+  protected $segmentSettingsType = SegmentSettings::class;
+  protected $segmentSettingsDataType = '';
+
+  public function setContainer($container)
+  {
+    $this->container = $container;
+  }
+  public function getContainer()
+  {
+    return $this->container;
+  }
+  public function setElementaryStreams($elementaryStreams)
+  {
+    $this->elementaryStreams = $elementaryStreams;
+  }
+  public function getElementaryStreams()
+  {
+    return $this->elementaryStreams;
+  }
+  /**
+   * @param Encryption
+   */
+  public function setEncryption(Encryption $encryption)
+  {
+    $this->encryption = $encryption;
+  }
+  /**
+   * @return Encryption
+   */
+  public function getEncryption()
+  {
+    return $this->encryption;
+  }
+  public function setFileName($fileName)
+  {
+    $this->fileName = $fileName;
+  }
+  public function getFileName()
+  {
+    return $this->fileName;
+  }
+  public function setKey($key)
+  {
+    $this->key = $key;
+  }
+  public function getKey()
+  {
+    return $this->key;
+  }
+  /**
+   * @param SegmentSettings
+   */
+  public function setSegmentSettings(SegmentSettings $segmentSettings)
+  {
+    $this->segmentSettings = $segmentSettings;
+  }
+  /**
+   * @return SegmentSettings
+   */
+  public function getSegmentSettings()
+  {
+    return $this->segmentSettings;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(MuxStream::class, 'Google_Service_Transcoder_MuxStream');

@@ -1,64 +1,118 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Appengine\Resource;
+
+use Google\Service\Appengine\ListServicesResponse;
+use Google\Service\Appengine\Operation;
+use Google\Service\Appengine\Service;
+
+/**
+ * The "services" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $appengineService = new Google\Service\Appengine(...);
+ *   $services = $appengineService->services;
+ *  </code>
+ */
+class AppsServices extends \Google\Service\Resource
+{
+  /**
+   * Deletes the specified service and all enclosed versions. (services.delete)
+   *
+   * @param string $appsId Part of `name`. Name of the resource requested.
+   * Example: apps/myapp/services/default.
+   * @param string $servicesId Part of `name`. See documentation of `appsId`.
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function delete($appsId, $servicesId, $optParams = [])
+  {
+    $params = ['appsId' => $appsId, 'servicesId' => $servicesId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Gets the current configuration of the specified service. (services.get)
+   *
+   * @param string $appsId Part of `name`. Name of the resource requested.
+   * Example: apps/myapp/services/default.
+   * @param string $servicesId Part of `name`. See documentation of `appsId`.
+   * @param array $optParams Optional parameters.
+   * @return Service
+   */
+  public function get($appsId, $servicesId, $optParams = [])
+  {
+    $params = ['appsId' => $appsId, 'servicesId' => $servicesId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Service::class);
+  }
+  /**
+   * Lists all the services in the application. (services.listAppsServices)
+   *
+   * @param string $appsId Part of `parent`. Name of the parent Application
+   * resource. Example: apps/myapp.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Maximum results to return per page.
+   * @opt_param string pageToken Continuation token for fetching the next page of
+   * results.
+   * @return ListServicesResponse
+   */
+  public function listAppsServices($appsId, $optParams = [])
+  {
+    $params = ['appsId' => $appsId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListServicesResponse::class);
+  }
+  /**
+   * Updates the configuration of the specified service. (services.patch)
+   *
+   * @param string $appsId Part of `name`. Name of the resource to update.
+   * Example: apps/myapp/services/default.
+   * @param string $servicesId Part of `name`. See documentation of `appsId`.
+   * @param Service $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool migrateTraffic Set to true to gradually shift traffic to one
+   * or more versions that you specify. By default, traffic is shifted
+   * immediately. For gradual traffic migration, the target versions must be
+   * located within instances that are configured for both warmup requests
+   * (https://cloud.google.com/appengine/docs/admin-
+   * api/reference/rest/v1/apps.services.versions#InboundServiceType) and
+   * automatic scaling (https://cloud.google.com/appengine/docs/admin-
+   * api/reference/rest/v1/apps.services.versions#AutomaticScaling). You must
+   * specify the shardBy (https://cloud.google.com/appengine/docs/admin-
+   * api/reference/rest/v1/apps.services#ShardBy) field in the Service resource.
+   * Gradual traffic migration is not supported in the App Engine flexible
+   * environment. For examples, see Migrating and Splitting Traffic
+   * (https://cloud.google.com/appengine/docs/admin-api/migrating-splitting-
+   * traffic).
+   * @opt_param string updateMask Required. Standard field mask for the set of
+   * fields to be updated.
+   * @return Operation
+   */
+  public function patch($appsId, $servicesId, Service $postBody, $optParams = [])
+  {
+    $params = ['appsId' => $appsId, 'servicesId' => $servicesId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AppsServices::class, 'Google_Service_Appengine_Resource_AppsServices');

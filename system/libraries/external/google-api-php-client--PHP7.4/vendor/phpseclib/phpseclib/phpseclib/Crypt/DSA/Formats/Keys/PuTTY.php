@@ -1,74 +1,118 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+/**
+ * PuTTY Formatted DSA Key Handler
+ *
+ * puttygen does not generate DSA keys with an N of anything other than 160, however,
+ * it can still load them and convert them. PuTTY will load them, too, but SSH servers
+ * won't accept them. Since PuTTY formatted keys are primarily used with SSH this makes
+ * keys with N > 160 kinda useless, hence this handlers not supporting such keys.
+ *
+ * PHP version 5
+ *
+ * @category  Crypt
+ * @package   DSA
+ * @author    Jim Wigginton <terrafrost@php.net>
+ * @copyright 2015 Jim Wigginton
+ * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      http://phpseclib.sourceforge.net
+ */
+
+namespace phpseclib3\Crypt\DSA\Formats\Keys;
+
+use phpseclib3\Math\BigInteger;
+use phpseclib3\Common\Functions\Strings;
+use phpseclib3\Crypt\Common\Formats\Keys\PuTTY as Progenitor;
+
+/**
+ * PuTTY Formatted DSA Key Handler
+ *
+ * @package DSA
+ * @author  Jim Wigginton <terrafrost@php.net>
+ * @access  public
+ */
+abstract class PuTTY extends Progenitor
+{
+    /**
+     * Public Handler
+     *
+     * @var string
+     * @access private
+     */
+    const PUBLIC_HANDLER = 'phpseclib3\Crypt\DSA\Formats\Keys\OpenSSH';
+
+    /**
+     * Algorithm Identifier
+     *
+     * @var array
+     * @access private
+     */
+    protected static $types = ['ssh-dss'];
+
+    /**
+     * Break a public or private key down into its constituent components
+     *
+     * @access public
+     * @param string $key
+     * @param string $password optional
+     * @return array
+     */
+    public static function load($key, $password = '')
+    {
+        $components = parent::load($key, $password);
+        if (!isset($components['private'])) {
+            return $components;
+        }
+        extract($components);
+        unset($components['public'], $components['private']);
+
+        list($p, $q, $g, $y) = Strings::unpackSSH2('iiii', $public);
+        list($x) = Strings::unpackSSH2('i', $private);
+
+        return compact('p', 'q', 'g', 'y', 'x', 'comment');
+    }
+
+    /**
+     * Convert a private key to the appropriate format.
+     *
+     * @access public
+     * @param \phpseclib3\Math\BigInteger $p
+     * @param \phpseclib3\Math\BigInteger $q
+     * @param \phpseclib3\Math\BigInteger $g
+     * @param \phpseclib3\Math\BigInteger $y
+     * @param \phpseclib3\Math\BigInteger $x
+     * @param string $password optional
+     * @param array $options optional
+     * @return string
+     */
+    public static function savePrivateKey(BigInteger $p, BigInteger $q, BigInteger $g, BigInteger $y, BigInteger $x, $password = false, array $options = [])
+    {
+        if ($q->getLength() != 160) {
+            throw new \InvalidArgumentException('SSH only supports keys with an N (length of Group Order q) of 160');
+        }
+
+        $public = Strings::packSSH2('iiii', $p, $q, $g, $y);
+        $private = Strings::packSSH2('i', $x);
+
+        return self::wrapPrivateKey($public, $private, 'ssh-dsa', $password, $options);
+    }
+
+    /**
+     * Convert a public key to the appropriate format
+     *
+     * @access public
+     * @param \phpseclib3\Math\BigInteger $p
+     * @param \phpseclib3\Math\BigInteger $q
+     * @param \phpseclib3\Math\BigInteger $g
+     * @param \phpseclib3\Math\BigInteger $y
+     * @return string
+     */
+    public static function savePublicKey(BigInteger $p, BigInteger $q, BigInteger $g, BigInteger $y)
+    {
+        if ($q->getLength() != 160) {
+            throw new \InvalidArgumentException('SSH only supports keys with an N (length of Group Order q) of 160');
+        }
+
+        return self::wrapPublicKey(Strings::packSSH2('iiii', $p, $q, $g, $y), 'ssh-dsa');
+    }
+}

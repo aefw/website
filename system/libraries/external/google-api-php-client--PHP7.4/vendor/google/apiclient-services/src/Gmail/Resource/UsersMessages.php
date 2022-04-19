@@ -1,94 +1,244 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-fao3eLGxauX03RSlB+zb
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Gmail\Resource;
+
+use Google\Service\Gmail\BatchDeleteMessagesRequest;
+use Google\Service\Gmail\BatchModifyMessagesRequest;
+use Google\Service\Gmail\ListMessagesResponse;
+use Google\Service\Gmail\Message;
+use Google\Service\Gmail\ModifyMessageRequest;
+
+/**
+ * The "messages" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $gmailService = new Google\Service\Gmail(...);
+ *   $messages = $gmailService->messages;
+ *  </code>
+ */
+class UsersMessages extends \Google\Service\Resource
+{
+  /**
+   * Deletes many messages by message ID. Provides no guarantees that messages
+   * were not already deleted or even existed at all. (messages.batchDelete)
+   *
+   * @param string $userId The user's email address. The special value `me` can be
+   * used to indicate the authenticated user.
+   * @param BatchDeleteMessagesRequest $postBody
+   * @param array $optParams Optional parameters.
+   */
+  public function batchDelete($userId, BatchDeleteMessagesRequest $postBody, $optParams = [])
+  {
+    $params = ['userId' => $userId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('batchDelete', [$params]);
+  }
+  /**
+   * Modifies the labels on the specified messages. (messages.batchModify)
+   *
+   * @param string $userId The user's email address. The special value `me` can be
+   * used to indicate the authenticated user.
+   * @param BatchModifyMessagesRequest $postBody
+   * @param array $optParams Optional parameters.
+   */
+  public function batchModify($userId, BatchModifyMessagesRequest $postBody, $optParams = [])
+  {
+    $params = ['userId' => $userId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('batchModify', [$params]);
+  }
+  /**
+   * Immediately and permanently deletes the specified message. This operation
+   * cannot be undone. Prefer `messages.trash` instead. (messages.delete)
+   *
+   * @param string $userId The user's email address. The special value `me` can be
+   * used to indicate the authenticated user.
+   * @param string $id The ID of the message to delete.
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($userId, $id, $optParams = [])
+  {
+    $params = ['userId' => $userId, 'id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Gets the specified message. (messages.get)
+   *
+   * @param string $userId The user's email address. The special value `me` can be
+   * used to indicate the authenticated user.
+   * @param string $id The ID of the message to retrieve. This ID is usually
+   * retrieved using `messages.list`. The ID is also contained in the result when
+   * a message is inserted (`messages.insert`) or imported (`messages.import`).
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string format The format to return the message in.
+   * @opt_param string metadataHeaders When given and format is `METADATA`, only
+   * include headers specified.
+   * @return Message
+   */
+  public function get($userId, $id, $optParams = [])
+  {
+    $params = ['userId' => $userId, 'id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Message::class);
+  }
+  /**
+   * Imports a message into only this user's mailbox, with standard email delivery
+   * scanning and classification similar to receiving via SMTP. Does not send a
+   * message. Note: This function doesn't trigger forwarding rules or filters set
+   * up by the user. (messages.import)
+   *
+   * @param string $userId The user's email address. The special value `me` can be
+   * used to indicate the authenticated user.
+   * @param Message $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool deleted Mark the email as permanently deleted (not TRASH) and
+   * only visible in Google Vault to a Vault administrator. Only used for G Suite
+   * accounts.
+   * @opt_param string internalDateSource Source for Gmail's internal date of the
+   * message.
+   * @opt_param bool neverMarkSpam Ignore the Gmail spam classifier decision and
+   * never mark this email as SPAM in the mailbox.
+   * @opt_param bool processForCalendar Process calendar invites in the email and
+   * add any extracted meetings to the Google Calendar for this user.
+   * @return Message
+   */
+  public function import($userId, Message $postBody, $optParams = [])
+  {
+    $params = ['userId' => $userId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('import', [$params], Message::class);
+  }
+  /**
+   * Directly inserts a message into only this user's mailbox similar to `IMAP
+   * APPEND`, bypassing most scanning and classification. Does not send a message.
+   * (messages.insert)
+   *
+   * @param string $userId The user's email address. The special value `me` can be
+   * used to indicate the authenticated user.
+   * @param Message $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool deleted Mark the email as permanently deleted (not TRASH) and
+   * only visible in Google Vault to a Vault administrator. Only used for G Suite
+   * accounts.
+   * @opt_param string internalDateSource Source for Gmail's internal date of the
+   * message.
+   * @return Message
+   */
+  public function insert($userId, Message $postBody, $optParams = [])
+  {
+    $params = ['userId' => $userId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Message::class);
+  }
+  /**
+   * Lists the messages in the user's mailbox. (messages.listUsersMessages)
+   *
+   * @param string $userId The user's email address. The special value `me` can be
+   * used to indicate the authenticated user.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool includeSpamTrash Include messages from `SPAM` and `TRASH` in
+   * the results.
+   * @opt_param string labelIds Only return messages with labels that match all of
+   * the specified label IDs.
+   * @opt_param string maxResults Maximum number of messages to return. This field
+   * defaults to 100. The maximum allowed value for this field is 500.
+   * @opt_param string pageToken Page token to retrieve a specific page of results
+   * in the list.
+   * @opt_param string q Only return messages matching the specified query.
+   * Supports the same query format as the Gmail search box. For example,
+   * `"from:someuser@example.com rfc822msgid: is:unread"`. Parameter cannot be
+   * used when accessing the api using the gmail.metadata scope.
+   * @return ListMessagesResponse
+   */
+  public function listUsersMessages($userId, $optParams = [])
+  {
+    $params = ['userId' => $userId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListMessagesResponse::class);
+  }
+  /**
+   * Modifies the labels on the specified message. (messages.modify)
+   *
+   * @param string $userId The user's email address. The special value `me` can be
+   * used to indicate the authenticated user.
+   * @param string $id The ID of the message to modify.
+   * @param ModifyMessageRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Message
+   */
+  public function modify($userId, $id, ModifyMessageRequest $postBody, $optParams = [])
+  {
+    $params = ['userId' => $userId, 'id' => $id, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('modify', [$params], Message::class);
+  }
+  /**
+   * Sends the specified message to the recipients in the `To`, `Cc`, and `Bcc`
+   * headers. (messages.send)
+   *
+   * @param string $userId The user's email address. The special value `me` can be
+   * used to indicate the authenticated user.
+   * @param Message $postBody
+   * @param array $optParams Optional parameters.
+   * @return Message
+   */
+  public function send($userId, Message $postBody, $optParams = [])
+  {
+    $params = ['userId' => $userId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('send', [$params], Message::class);
+  }
+  /**
+   * Moves the specified message to the trash. (messages.trash)
+   *
+   * @param string $userId The user's email address. The special value `me` can be
+   * used to indicate the authenticated user.
+   * @param string $id The ID of the message to Trash.
+   * @param array $optParams Optional parameters.
+   * @return Message
+   */
+  public function trash($userId, $id, $optParams = [])
+  {
+    $params = ['userId' => $userId, 'id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('trash', [$params], Message::class);
+  }
+  /**
+   * Removes the specified message from the trash. (messages.untrash)
+   *
+   * @param string $userId The user's email address. The special value `me` can be
+   * used to indicate the authenticated user.
+   * @param string $id The ID of the message to remove from Trash.
+   * @param array $optParams Optional parameters.
+   * @return Message
+   */
+  public function untrash($userId, $id, $optParams = [])
+  {
+    $params = ['userId' => $userId, 'id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('untrash', [$params], Message::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(UsersMessages::class, 'Google_Service_Gmail_Resource_UsersMessages');

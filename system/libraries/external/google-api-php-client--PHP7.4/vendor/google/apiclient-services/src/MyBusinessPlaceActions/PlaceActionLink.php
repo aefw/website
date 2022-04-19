@@ -1,70 +1,98 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\MyBusinessPlaceActions;
+
+class PlaceActionLink extends \Google\Model
+{
+  public $createTime;
+  public $isEditable;
+  public $isPreferred;
+  public $name;
+  public $placeActionType;
+  public $providerType;
+  public $updateTime;
+  public $uri;
+
+  public function setCreateTime($createTime)
+  {
+    $this->createTime = $createTime;
+  }
+  public function getCreateTime()
+  {
+    return $this->createTime;
+  }
+  public function setIsEditable($isEditable)
+  {
+    $this->isEditable = $isEditable;
+  }
+  public function getIsEditable()
+  {
+    return $this->isEditable;
+  }
+  public function setIsPreferred($isPreferred)
+  {
+    $this->isPreferred = $isPreferred;
+  }
+  public function getIsPreferred()
+  {
+    return $this->isPreferred;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setPlaceActionType($placeActionType)
+  {
+    $this->placeActionType = $placeActionType;
+  }
+  public function getPlaceActionType()
+  {
+    return $this->placeActionType;
+  }
+  public function setProviderType($providerType)
+  {
+    $this->providerType = $providerType;
+  }
+  public function getProviderType()
+  {
+    return $this->providerType;
+  }
+  public function setUpdateTime($updateTime)
+  {
+    $this->updateTime = $updateTime;
+  }
+  public function getUpdateTime()
+  {
+    return $this->updateTime;
+  }
+  public function setUri($uri)
+  {
+    $this->uri = $uri;
+  }
+  public function getUri()
+  {
+    return $this->uri;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PlaceActionLink::class, 'Google_Service_MyBusinessPlaceActions_PlaceActionLink');

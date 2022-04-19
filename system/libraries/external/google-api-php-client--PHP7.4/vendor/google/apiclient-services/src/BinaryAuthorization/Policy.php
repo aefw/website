@@ -1,86 +1,159 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-BfHnTPTAkWrk2mSqk2q/ifW=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\BinaryAuthorization;
+
+class Policy extends \Google\Collection
+{
+  protected $collection_key = 'admissionWhitelistPatterns';
+  protected $admissionWhitelistPatternsType = AdmissionWhitelistPattern::class;
+  protected $admissionWhitelistPatternsDataType = 'array';
+  protected $clusterAdmissionRulesType = AdmissionRule::class;
+  protected $clusterAdmissionRulesDataType = 'map';
+  protected $defaultAdmissionRuleType = AdmissionRule::class;
+  protected $defaultAdmissionRuleDataType = '';
+  public $description;
+  public $globalPolicyEvaluationMode;
+  protected $istioServiceIdentityAdmissionRulesType = AdmissionRule::class;
+  protected $istioServiceIdentityAdmissionRulesDataType = 'map';
+  protected $kubernetesNamespaceAdmissionRulesType = AdmissionRule::class;
+  protected $kubernetesNamespaceAdmissionRulesDataType = 'map';
+  protected $kubernetesServiceAccountAdmissionRulesType = AdmissionRule::class;
+  protected $kubernetesServiceAccountAdmissionRulesDataType = 'map';
+  public $name;
+  public $updateTime;
+
+  /**
+   * @param AdmissionWhitelistPattern[]
+   */
+  public function setAdmissionWhitelistPatterns($admissionWhitelistPatterns)
+  {
+    $this->admissionWhitelistPatterns = $admissionWhitelistPatterns;
+  }
+  /**
+   * @return AdmissionWhitelistPattern[]
+   */
+  public function getAdmissionWhitelistPatterns()
+  {
+    return $this->admissionWhitelistPatterns;
+  }
+  /**
+   * @param AdmissionRule[]
+   */
+  public function setClusterAdmissionRules($clusterAdmissionRules)
+  {
+    $this->clusterAdmissionRules = $clusterAdmissionRules;
+  }
+  /**
+   * @return AdmissionRule[]
+   */
+  public function getClusterAdmissionRules()
+  {
+    return $this->clusterAdmissionRules;
+  }
+  /**
+   * @param AdmissionRule
+   */
+  public function setDefaultAdmissionRule(AdmissionRule $defaultAdmissionRule)
+  {
+    $this->defaultAdmissionRule = $defaultAdmissionRule;
+  }
+  /**
+   * @return AdmissionRule
+   */
+  public function getDefaultAdmissionRule()
+  {
+    return $this->defaultAdmissionRule;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setGlobalPolicyEvaluationMode($globalPolicyEvaluationMode)
+  {
+    $this->globalPolicyEvaluationMode = $globalPolicyEvaluationMode;
+  }
+  public function getGlobalPolicyEvaluationMode()
+  {
+    return $this->globalPolicyEvaluationMode;
+  }
+  /**
+   * @param AdmissionRule[]
+   */
+  public function setIstioServiceIdentityAdmissionRules($istioServiceIdentityAdmissionRules)
+  {
+    $this->istioServiceIdentityAdmissionRules = $istioServiceIdentityAdmissionRules;
+  }
+  /**
+   * @return AdmissionRule[]
+   */
+  public function getIstioServiceIdentityAdmissionRules()
+  {
+    return $this->istioServiceIdentityAdmissionRules;
+  }
+  /**
+   * @param AdmissionRule[]
+   */
+  public function setKubernetesNamespaceAdmissionRules($kubernetesNamespaceAdmissionRules)
+  {
+    $this->kubernetesNamespaceAdmissionRules = $kubernetesNamespaceAdmissionRules;
+  }
+  /**
+   * @return AdmissionRule[]
+   */
+  public function getKubernetesNamespaceAdmissionRules()
+  {
+    return $this->kubernetesNamespaceAdmissionRules;
+  }
+  /**
+   * @param AdmissionRule[]
+   */
+  public function setKubernetesServiceAccountAdmissionRules($kubernetesServiceAccountAdmissionRules)
+  {
+    $this->kubernetesServiceAccountAdmissionRules = $kubernetesServiceAccountAdmissionRules;
+  }
+  /**
+   * @return AdmissionRule[]
+   */
+  public function getKubernetesServiceAccountAdmissionRules()
+  {
+    return $this->kubernetesServiceAccountAdmissionRules;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setUpdateTime($updateTime)
+  {
+    $this->updateTime = $updateTime;
+  }
+  public function getUpdateTime()
+  {
+    return $this->updateTime;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Policy::class, 'Google_Service_BinaryAuthorization_Policy');

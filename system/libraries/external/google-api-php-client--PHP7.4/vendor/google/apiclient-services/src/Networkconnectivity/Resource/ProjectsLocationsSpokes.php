@@ -1,85 +1,221 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-FhOQ9AQL
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Networkconnectivity\Resource;
+
+use Google\Service\Networkconnectivity\GoogleLongrunningOperation;
+use Google\Service\Networkconnectivity\ListSpokesResponse;
+use Google\Service\Networkconnectivity\Policy;
+use Google\Service\Networkconnectivity\SetIamPolicyRequest;
+use Google\Service\Networkconnectivity\Spoke;
+use Google\Service\Networkconnectivity\TestIamPermissionsRequest;
+use Google\Service\Networkconnectivity\TestIamPermissionsResponse;
+
+/**
+ * The "spokes" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $networkconnectivityService = new Google\Service\Networkconnectivity(...);
+ *   $spokes = $networkconnectivityService->spokes;
+ *  </code>
+ */
+class ProjectsLocationsSpokes extends \Google\Service\Resource
+{
+  /**
+   * Creates a new Spoke in a given project and location. (spokes.create)
+   *
+   * @param string $parent Required. The parent's resource name of the Spoke.
+   * @param Spoke $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId Optional. An optional request ID to identify
+   * requests. Specify a unique request ID so that if you must retry your request,
+   * the server will know to ignore the request if it has already been completed.
+   * The server will guarantee that for at least 60 minutes since the first
+   * request. For example, consider a situation where you make an initial request
+   * and t he request times out. If you make the request again with the same
+   * request ID, the server can check if original operation with the same request
+   * ID was received, and if so, will ignore the second request. This prevents
+   * clients from accidentally creating duplicate commitments. The request ID must
+   * be a valid UUID with the exception that zero UUID is not supported
+   * (00000000-0000-0000-0000-000000000000).
+   * @opt_param string spokeId Optional. Unique id for the Spoke to create.
+   * @return GoogleLongrunningOperation
+   */
+  public function create($parent, Spoke $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Deletes a single Spoke. (spokes.delete)
+   *
+   * @param string $name Required. The name of the Spoke to delete.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId Optional. An optional request ID to identify
+   * requests. Specify a unique request ID so that if you must retry your request,
+   * the server will know to ignore the request if it has already been completed.
+   * The server will guarantee that for at least 60 minutes after the first
+   * request. For example, consider a situation where you make an initial request
+   * and t he request times out. If you make the request again with the same
+   * request ID, the server can check if original operation with the same request
+   * ID was received, and if so, will ignore the second request. This prevents
+   * clients from accidentally creating duplicate commitments. The request ID must
+   * be a valid UUID with the exception that zero UUID is not supported
+   * (00000000-0000-0000-0000-000000000000).
+   * @return GoogleLongrunningOperation
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Gets details of a single Spoke. (spokes.get)
+   *
+   * @param string $name Required. The name of Spoke resource.
+   * @param array $optParams Optional parameters.
+   * @return Spoke
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Spoke::class);
+  }
+  /**
+   * Gets the access control policy for a resource. Returns an empty policy if the
+   * resource exists and does not have a policy set. (spokes.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int options.requestedPolicyVersion Optional. The policy format
+   * version to be returned. Valid values are 0, 1, and 3. Requests specifying an
+   * invalid value will be rejected. Requests for policies with any conditional
+   * bindings must specify version 3. Policies without any conditional bindings
+   * may specify any valid value or leave the field unset. To learn which
+   * resources support conditions in their IAM policies, see the [IAM
+   * documentation](https://cloud.google.com/iam/help/conditions/resource-
+   * policies).
+   * @return Policy
+   */
+  public function getIamPolicy($resource, $optParams = [])
+  {
+    $params = ['resource' => $resource];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Lists Spokes in a given project and location.
+   * (spokes.listProjectsLocationsSpokes)
+   *
+   * @param string $parent Required. The parent's resource name.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters the results listed
+   * in the response.
+   * @opt_param string orderBy Sort the results by a certain order.
+   * @opt_param int pageSize The maximum number of results per page that should be
+   * returned.
+   * @opt_param string pageToken The page token.
+   * @return ListSpokesResponse
+   */
+  public function listProjectsLocationsSpokes($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListSpokesResponse::class);
+  }
+  /**
+   * Updates the parameters of a single Spoke. (spokes.patch)
+   *
+   * @param string $name Immutable. The name of a Spoke resource.
+   * @param Spoke $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId Optional. An optional request ID to identify
+   * requests. Specify a unique request ID so that if you must retry your request,
+   * the server will know to ignore the request if it has already been completed.
+   * The server will guarantee that for at least 60 minutes since the first
+   * request. For example, consider a situation where you make an initial request
+   * and t he request times out. If you make the request again with the same
+   * request ID, the server can check if original operation with the same request
+   * ID was received, and if so, will ignore the second request. This prevents
+   * clients from accidentally creating duplicate commitments. The request ID must
+   * be a valid UUID with the exception that zero UUID is not supported
+   * (00000000-0000-0000-0000-000000000000).
+   * @opt_param string updateMask Optional. Field mask is used to specify the
+   * fields to be overwritten in the Spoke resource by the update. The fields
+   * specified in the update_mask are relative to the resource, not the full
+   * request. A field will be overwritten if it is in the mask. If the user does
+   * not provide a mask then all fields will be overwritten.
+   * @return GoogleLongrunningOperation
+   */
+  public function patch($name, Spoke $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Sets the access control policy on the specified resource. Replaces any
+   * existing policy. Can return `NOT_FOUND`, `INVALID_ARGUMENT`, and
+   * `PERMISSION_DENIED` errors. (spokes.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource. If the
+   * resource does not exist, this will return an empty set of permissions, not a
+   * `NOT_FOUND` error. Note: This operation is designed to be used for building
+   * permission-aware UIs and command-line tools, not for authorization checking.
+   * This operation may "fail open" without warning. (spokes.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsSpokes::class, 'Google_Service_Networkconnectivity_Resource_ProjectsLocationsSpokes');

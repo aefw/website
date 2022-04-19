@@ -1,283 +1,963 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-JZYgplur2B+iVJz4knmI0om=
+<?php
+
+/**
+ * Pure-PHP PKCS#1 (v2.1) compliant implementation of RSA.
+ *
+ * PHP version 5
+ *
+ * Here's an example of how to encrypt and decrypt text with this library:
+ * <code>
+ * <?php
+ * include 'vendor/autoload.php';
+ *
+ * $private = \phpseclib3\Crypt\RSA::createKey();
+ * $public = $private->getPublicKey();
+ *
+ * $plaintext = 'terrafrost';
+ *
+ * $ciphertext = $public->encrypt($plaintext);
+ *
+ * echo $private->decrypt($ciphertext);
+ * ?>
+ * </code>
+ *
+ * Here's an example of how to create signatures and verify signatures with this library:
+ * <code>
+ * <?php
+ * include 'vendor/autoload.php';
+ *
+ * $private = \phpseclib3\Crypt\RSA::createKey();
+ * $public = $private->getPublicKey();
+ *
+ * $plaintext = 'terrafrost';
+ *
+ * $signature = $private->sign($plaintext);
+ *
+ * echo $public->verify($plaintext, $signature) ? 'verified' : 'unverified';
+ * ?>
+ * </code>
+ *
+ * One thing to consider when using this: so phpseclib uses PSS mode by default.
+ * Technically, id-RSASSA-PSS has a different key format than rsaEncryption. So
+ * should phpseclib save to the id-RSASSA-PSS format by default or the
+ * rsaEncryption format? For stand-alone keys I figure rsaEncryption is better
+ * because SSH doesn't use PSS and idk how many SSH servers would be able to
+ * decode an id-RSASSA-PSS key. For X.509 certificates the id-RSASSA-PSS
+ * format is used by default (unless you change it up to use PKCS1 instead)
+ *
+ * @category  Crypt
+ * @package   RSA
+ * @author    Jim Wigginton <terrafrost@php.net>
+ * @copyright 2009 Jim Wigginton
+ * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      http://phpseclib.sourceforge.net
+ */
+
+namespace phpseclib3\Crypt;
+
+use phpseclib3\Crypt\Common\AsymmetricKey;
+use phpseclib3\Crypt\RSA\PrivateKey;
+use phpseclib3\Crypt\RSA\PublicKey;
+use phpseclib3\Math\BigInteger;
+use phpseclib3\Exception\UnsupportedAlgorithmException;
+use phpseclib3\Exception\InconsistentSetupException;
+use phpseclib3\Crypt\RSA\Formats\Keys\PSS;
+
+/**
+ * Pure-PHP PKCS#1 compliant implementation of RSA.
+ *
+ * @package RSA
+ * @author  Jim Wigginton <terrafrost@php.net>
+ * @access  public
+ */
+abstract class RSA extends AsymmetricKey
+{
+    /**
+     * Algorithm Name
+     *
+     * @var string
+     * @access private
+     */
+    const ALGORITHM = 'RSA';
+
+    /**
+     * Use {@link http://en.wikipedia.org/wiki/Optimal_Asymmetric_Encryption_Padding Optimal Asymmetric Encryption Padding}
+     * (OAEP) for encryption / decryption.
+     *
+     * Uses sha256 by default
+     *
+     * @see self::setHash()
+     * @see self::setMGFHash()
+     * @access public
+     * @see self::encrypt()
+     * @see self::decrypt()
+     */
+    const ENCRYPTION_OAEP = 1;
+
+    /**
+     * Use PKCS#1 padding.
+     *
+     * Although self::PADDING_OAEP / self::PADDING_PSS  offers more security, including PKCS#1 padding is necessary for purposes of backwards
+     * compatibility with protocols (like SSH-1) written before OAEP's introduction.
+     *
+     * @access public
+     * @see self::encrypt()
+     * @see self::decrypt()
+     */
+    const ENCRYPTION_PKCS1 = 2;
+
+    /**
+     * Do not use any padding
+     *
+     * Although this method is not recommended it can none-the-less sometimes be useful if you're trying to decrypt some legacy
+     * stuff, if you're trying to diagnose why an encrypted message isn't decrypting, etc.
+     *
+     * @access public
+     * @see self::encrypt()
+     * @see self::decrypt()
+     */
+    const ENCRYPTION_NONE = 4;
+
+    /**
+     * Use the Probabilistic Signature Scheme for signing
+     *
+     * Uses sha256 and 0 as the salt length
+     *
+     * @see self::setSaltLength()
+     * @see self::setMGFHash()
+     * @see self::setHash()
+     * @see self::sign()
+     * @see self::verify()
+     * @see self::setHash()
+     * @access public
+     */
+    const SIGNATURE_PSS = 16;
+
+    /**
+     * Use a relaxed version of PKCS#1 padding for signature verification
+     *
+     * @see self::sign()
+     * @see self::verify()
+     * @see self::setHash()
+     * @access public
+     */
+    const SIGNATURE_RELAXED_PKCS1 = 32;
+
+    /**
+     * Use PKCS#1 padding for signature verification
+     *
+     * @see self::sign()
+     * @see self::verify()
+     * @see self::setHash()
+     * @access public
+     */
+    const SIGNATURE_PKCS1 = 64;
+
+    /**
+     * Encryption padding mode
+     *
+     * @var int
+     * @access private
+     */
+    protected $encryptionPadding = self::ENCRYPTION_OAEP;
+
+    /**
+     * Signature padding mode
+     *
+     * @var int
+     * @access private
+     */
+    protected $signaturePadding = self::SIGNATURE_PSS;
+
+    /**
+     * Length of hash function output
+     *
+     * @var int
+     * @access private
+     */
+    protected $hLen;
+
+    /**
+     * Length of salt
+     *
+     * @var int
+     * @access private
+     */
+    protected $sLen;
+
+    /**
+     * Label
+     *
+     * @var string
+     * @access private
+     */
+    protected $label = '';
+
+    /**
+     * Hash function for the Mask Generation Function
+     *
+     * @var \phpseclib3\Crypt\Hash
+     * @access private
+     */
+    protected $mgfHash;
+
+    /**
+     * Length of MGF hash function output
+     *
+     * @var int
+     * @access private
+     */
+    protected $mgfHLen;
+
+    /**
+     * Modulus (ie. n)
+     *
+     * @var \phpseclib3\Math\BigInteger
+     * @access private
+     */
+    protected $modulus;
+
+    /**
+     * Modulus length
+     *
+     * @var \phpseclib3\Math\BigInteger
+     * @access private
+     */
+    protected $k;
+
+    /**
+     * Exponent (ie. e or d)
+     *
+     * @var \phpseclib3\Math\BigInteger
+     * @access private
+     */
+    protected $exponent;
+
+    /**
+     * Default public exponent
+     *
+     * @var int
+     * @link http://en.wikipedia.org/wiki/65537_%28number%29
+     * @access private
+     */
+    private static $defaultExponent = 65537;
+
+    /**
+     * Enable Blinding?
+     *
+     * @var bool
+     * @access private
+     */
+    protected static $enableBlinding = true;
+
+    /**
+     * OpenSSL configuration file name.
+     *
+     * @see self::createKey()
+     * @var ?string
+     */
+    protected static $configFile;
+
+    /**
+     * Smallest Prime
+     *
+     * Per <http://cseweb.ucsd.edu/~hovav/dist/survey.pdf#page=5>, this number ought not result in primes smaller
+     * than 256 bits. As a consequence if the key you're trying to create is 1024 bits and you've set smallestPrime
+     * to 384 bits then you're going to get a 384 bit prime and a 640 bit prime (384 + 1024 % 384). At least if
+     * engine is set to self::ENGINE_INTERNAL. If Engine is set to self::ENGINE_OPENSSL then smallest Prime is
+     * ignored (ie. multi-prime RSA support is more intended as a way to speed up RSA key generation when there's
+     * a chance neither gmp nor OpenSSL are installed)
+     *
+     * @var int
+     * @access private
+     */
+    private static $smallestPrime = 4096;
+
+    /**
+     * Sets the public exponent for key generation
+     *
+     * This will be 65537 unless changed.
+     *
+     * @access public
+     * @param int $val
+     */
+    public static function setExponent($val)
+    {
+        self::$defaultExponent = $val;
+    }
+
+    /**
+     * Sets the smallest prime number in bits. Used for key generation
+     *
+     * This will be 4096 unless changed.
+     *
+     * @access public
+     * @param int $val
+     */
+    public static function setSmallestPrime($val)
+    {
+        self::$smallestPrime = $val;
+    }
+
+    /**
+     * Sets the OpenSSL config file path
+     *
+     * Set to the empty string to use the default config file
+     *
+     * @access public
+     * @param string $val
+     */
+    public static function setOpenSSLConfigPath($val)
+    {
+        self::$configFile = $val;
+    }
+
+    /**
+     * Create a private key
+     *
+     * The public key can be extracted from the private key
+     *
+     * @return RSA
+     * @access public
+     * @param int $bits
+     */
+    public static function createKey($bits = 2048)
+    {
+        self::initialize_static_variables();
+
+        $regSize = $bits >> 1; // divide by two to see how many bits P and Q would be
+        if ($regSize > self::$smallestPrime) {
+            $num_primes = floor($bits / self::$smallestPrime);
+            $regSize = self::$smallestPrime;
+        } else {
+            $num_primes = 2;
+        }
+
+        if ($num_primes == 2 && $bits >= 384 && self::$defaultExponent == 65537) {
+            if (!isset(self::$engines['PHP'])) {
+                self::useBestEngine();
+            }
+
+            // OpenSSL uses 65537 as the exponent and requires RSA keys be 384 bits minimum
+            if (self::$engines['OpenSSL']) {
+                $config = [];
+                if (self::$configFile) {
+                    $config['config'] = self::$configFile;
+                }
+                $rsa = openssl_pkey_new(['private_key_bits' => $bits] + $config);
+                openssl_pkey_export($rsa, $privatekeystr, null, $config);
+
+                // clear the buffer of error strings stemming from a minimalistic openssl.cnf
+                while (openssl_error_string() !== false) {
+                }
+
+                return RSA::load($privatekeystr);
+            }
+        }
+
+        static $e;
+        if (!isset($e)) {
+            $e = new BigInteger(self::$defaultExponent);
+        }
+
+        $n = clone self::$one;
+        $exponents = $coefficients = $primes = [];
+        $lcm = [
+            'top' => clone self::$one,
+            'bottom' => false
+        ];
+
+        do {
+            for ($i = 1; $i <= $num_primes; $i++) {
+                if ($i != $num_primes) {
+                    $primes[$i] = BigInteger::randomPrime($regSize);
+                } else {
+                    extract(BigInteger::minMaxBits($bits));
+                    /** @var BigInteger $min
+                     *  @var BigInteger $max
+                     */
+                    list($min) = $min->divide($n);
+                    $min = $min->add(self::$one);
+                    list($max) = $max->divide($n);
+                    $primes[$i] = BigInteger::randomRangePrime($min, $max);
+                }
+
+                // the first coefficient is calculated differently from the rest
+                // ie. instead of being $primes[1]->modInverse($primes[2]), it's $primes[2]->modInverse($primes[1])
+                if ($i > 2) {
+                    $coefficients[$i] = $n->modInverse($primes[$i]);
+                }
+
+                $n = $n->multiply($primes[$i]);
+
+                $temp = $primes[$i]->subtract(self::$one);
+
+                // textbook RSA implementations use Euler's totient function instead of the least common multiple.
+                // see http://en.wikipedia.org/wiki/Euler%27s_totient_function
+                $lcm['top'] = $lcm['top']->multiply($temp);
+                $lcm['bottom'] = $lcm['bottom'] === false ? $temp : $lcm['bottom']->gcd($temp);
+            }
+
+            list($temp) = $lcm['top']->divide($lcm['bottom']);
+            $gcd = $temp->gcd($e);
+            $i0 = 1;
+        } while (!$gcd->equals(self::$one));
+
+        $coefficients[2] = $primes[2]->modInverse($primes[1]);
+
+        $d = $e->modInverse($temp);
+
+        foreach ($primes as $i => $prime) {
+            $temp = $prime->subtract(self::$one);
+            $exponents[$i] = $e->modInverse($temp);
+        }
+
+        // from <http://tools.ietf.org/html/rfc3447#appendix-A.1.2>:
+        // RSAPrivateKey ::= SEQUENCE {
+        //     version           Version,
+        //     modulus           INTEGER,  -- n
+        //     publicExponent    INTEGER,  -- e
+        //     privateExponent   INTEGER,  -- d
+        //     prime1            INTEGER,  -- p
+        //     prime2            INTEGER,  -- q
+        //     exponent1         INTEGER,  -- d mod (p-1)
+        //     exponent2         INTEGER,  -- d mod (q-1)
+        //     coefficient       INTEGER,  -- (inverse of q) mod p
+        //     otherPrimeInfos   OtherPrimeInfos OPTIONAL
+        // }
+        $privatekey = new PrivateKey;
+        $privatekey->modulus = $n;
+        $privatekey->k = $bits >> 3;
+        $privatekey->publicExponent = $e;
+        $privatekey->exponent = $d;
+        $privatekey->privateExponent = $e;
+        $privatekey->primes = $primes;
+        $privatekey->exponents = $exponents;
+        $privatekey->coefficients = $coefficients;
+
+        /*
+        $publickey = new PublicKey;
+        $publickey->modulus = $n;
+        $publickey->k = $bits >> 3;
+        $publickey->exponent = $e;
+        $publickey->publicExponent = $e;
+        $publickey->isPublic = true;
+        */
+
+        return $privatekey;
+    }
+
+    /**
+     * OnLoad Handler
+     *
+     * @return bool
+     * @access protected
+     * @param array $components
+     */
+    protected static function onLoad($components)
+    {
+        $key = $components['isPublicKey'] ?
+            new PublicKey :
+            new PrivateKey;
+
+        $key->modulus = $components['modulus'];
+        $key->publicExponent = $components['publicExponent'];
+        $key->k = $key->modulus->getLengthInBytes();
+
+        if ($components['isPublicKey'] || !isset($components['privateExponent'])) {
+            $key->exponent = $key->publicExponent;
+        } else {
+            $key->privateExponent = $components['privateExponent'];
+            $key->exponent = $key->privateExponent;
+            $key->primes = $components['primes'];
+            $key->exponents = $components['exponents'];
+            $key->coefficients = $components['coefficients'];
+        }
+
+        if ($components['format'] == PSS::class) {
+            // in the X509 world RSA keys are assumed to use PKCS1 padding by default. only if the key is
+            // explicitly a PSS key is the use of PSS assumed. phpseclib does not work like this. phpseclib
+            // uses PSS padding by default. it assumes the more secure method by default and altho it provides
+            // for the less secure PKCS1 method you have to go out of your way to use it. this is consistent
+            // with the latest trends in crypto. libsodium (NaCl) is actually a little more extreme in that
+            // not only does it defaults to the most secure methods - it doesn't even let you choose less
+            // secure methods
+            //$key = $key->withPadding(self::SIGNATURE_PSS);
+            if (isset($components['hash'])) {
+                $key = $key->withHash($components['hash']);
+            }
+            if (isset($components['MGFHash'])) {
+                $key = $key->withMGFHash($components['MGFHash']);
+            }
+            if (isset($components['saltLength'])) {
+                $key = $key->withSaltLength($components['saltLength']);
+            }
+        }
+
+        return $key;
+    }
+
+    /**
+     * Initialize static variables
+     */
+    protected static function initialize_static_variables()
+    {
+        if (!isset(self::$configFile)) {
+            self::$configFile = dirname(__FILE__) . '/../openssl.cnf';
+        }
+
+        parent::initialize_static_variables();
+    }
+
+    /**
+     * Constructor
+     *
+     * PublicKey and PrivateKey objects can only be created from abstract RSA class
+     */
+    protected function __construct()
+    {
+        parent::__construct();
+
+        $this->hLen = $this->hash->getLengthInBytes();
+        $this->mgfHash = new Hash('sha256');
+        $this->mgfHLen = $this->mgfHash->getLengthInBytes();
+    }
+
+    /**
+     * Integer-to-Octet-String primitive
+     *
+     * See {@link http://tools.ietf.org/html/rfc3447#section-4.1 RFC3447#section-4.1}.
+     *
+     * @access private
+     * @param bool|\phpseclib3\Math\BigInteger $x
+     * @param int $xLen
+     * @return bool|string
+     */
+    protected function i2osp($x, $xLen)
+    {
+        if ($x === false) {
+            return false;
+        }
+        $x = $x->toBytes();
+        if (strlen($x) > $xLen) {
+            throw new \OutOfRangeException('Resultant string length out of range');
+        }
+        return str_pad($x, $xLen, chr(0), STR_PAD_LEFT);
+    }
+
+    /**
+     * Octet-String-to-Integer primitive
+     *
+     * See {@link http://tools.ietf.org/html/rfc3447#section-4.2 RFC3447#section-4.2}.
+     *
+     * @access private
+     * @param string $x
+     * @return \phpseclib3\Math\BigInteger
+     */
+    protected function os2ip($x)
+    {
+        return new BigInteger($x, 256);
+    }
+
+    /**
+     * EMSA-PKCS1-V1_5-ENCODE
+     *
+     * See {@link http://tools.ietf.org/html/rfc3447#section-9.2 RFC3447#section-9.2}.
+     *
+     * @access private
+     * @param string $m
+     * @param int $emLen
+     * @throws \LengthException if the intended encoded message length is too short
+     * @return string
+     */
+    protected function emsa_pkcs1_v1_5_encode($m, $emLen)
+    {
+        $h = $this->hash->hash($m);
+
+        // see http://tools.ietf.org/html/rfc3447#page-43
+        switch ($this->hash->getHash()) {
+            case 'md2':
+                $t = "\x30\x20\x30\x0c\x06\x08\x2a\x86\x48\x86\xf7\x0d\x02\x02\x05\x00\x04\x10";
+                break;
+            case 'md5':
+                $t = "\x30\x20\x30\x0c\x06\x08\x2a\x86\x48\x86\xf7\x0d\x02\x05\x05\x00\x04\x10";
+                break;
+            case 'sha1':
+                $t = "\x30\x21\x30\x09\x06\x05\x2b\x0e\x03\x02\x1a\x05\x00\x04\x14";
+                break;
+            case 'sha256':
+                $t = "\x30\x31\x30\x0d\x06\x09\x60\x86\x48\x01\x65\x03\x04\x02\x01\x05\x00\x04\x20";
+                break;
+            case 'sha384':
+                $t = "\x30\x41\x30\x0d\x06\x09\x60\x86\x48\x01\x65\x03\x04\x02\x02\x05\x00\x04\x30";
+                break;
+            case 'sha512':
+                $t = "\x30\x51\x30\x0d\x06\x09\x60\x86\x48\x01\x65\x03\x04\x02\x03\x05\x00\x04\x40";
+                break;
+            // from https://www.emc.com/collateral/white-papers/h11300-pkcs-1v2-2-rsa-cryptography-standard-wp.pdf#page=40
+            case 'sha224':
+                $t = "\x30\x2d\x30\x0d\x06\x09\x60\x86\x48\x01\x65\x03\x04\x02\x04\x05\x00\x04\x1c";
+                break;
+            case 'sha512/224':
+                $t = "\x30\x2d\x30\x0d\x06\x09\x60\x86\x48\x01\x65\x03\x04\x02\x05\x05\x00\x04\x1c";
+                break;
+            case 'sha512/256':
+                $t = "\x30\x31\x30\x0d\x06\x09\x60\x86\x48\x01\x65\x03\x04\x02\x06\x05\x00\x04\x20";
+        }
+        $t.= $h;
+        $tLen = strlen($t);
+
+        if ($emLen < $tLen + 11) {
+            throw new \LengthException('Intended encoded message length too short');
+        }
+
+        $ps = str_repeat(chr(0xFF), $emLen - $tLen - 3);
+
+        $em = "\0\1$ps\0$t";
+
+        return $em;
+    }
+
+    /**
+     * EMSA-PKCS1-V1_5-ENCODE (without NULL)
+     *
+     * Quoting https://tools.ietf.org/html/rfc8017#page-65,
+     *
+     * "The parameters field associated with id-sha1, id-sha224, id-sha256,
+     *  id-sha384, id-sha512, id-sha512/224, and id-sha512/256 should
+     *  generally be omitted, but if present, it shall have a value of type
+     *  NULL"
+     *
+     * @access private
+     * @param string $m
+     * @param int $emLen
+     * @return string
+     */
+    protected function emsa_pkcs1_v1_5_encode_without_null($m, $emLen)
+    {
+        $h = $this->hash->hash($m);
+
+        // see http://tools.ietf.org/html/rfc3447#page-43
+        switch ($this->hash->getHash()) {
+            case 'sha1':
+                $t = "\x30\x1f\x30\x07\x06\x05\x2b\x0e\x03\x02\x1a\x04\x14";
+                break;
+            case 'sha256':
+                $t = "\x30\x2f\x30\x0b\x06\x09\x60\x86\x48\x01\x65\x03\x04\x02\x01\x04\x20";
+                break;
+            case 'sha384':
+                $t = "\x30\x3f\x30\x0b\x06\x09\x60\x86\x48\x01\x65\x03\x04\x02\x02\x04\x30";
+                break;
+            case 'sha512':
+                $t = "\x30\x4f\x30\x0b\x06\x09\x60\x86\x48\x01\x65\x03\x04\x02\x03\x04\x40";
+                break;
+            // from https://www.emc.com/collateral/white-papers/h11300-pkcs-1v2-2-rsa-cryptography-standard-wp.pdf#page=40
+            case 'sha224':
+                $t = "\x30\x2b\x30\x0b\x06\x09\x60\x86\x48\x01\x65\x03\x04\x02\x04\x04\x1c";
+                break;
+            case 'sha512/224':
+                $t = "\x30\x2b\x30\x0b\x06\x09\x60\x86\x48\x01\x65\x03\x04\x02\x05\x04\x1c";
+                break;
+            case 'sha512/256':
+                $t = "\x30\x2f\x30\x0b\x06\x09\x60\x86\x48\x01\x65\x03\x04\x02\x06\x04\x20";
+                break;
+            default:
+                throw new UnsupportedAlgorithmException('md2 and md5 require NULLs');
+        }
+        $t.= $h;
+        $tLen = strlen($t);
+
+        if ($emLen < $tLen + 11) {
+            throw new \LengthException('Intended encoded message length too short');
+        }
+
+        $ps = str_repeat(chr(0xFF), $emLen - $tLen - 3);
+
+        $em = "\0\1$ps\0$t";
+
+        return $em;
+    }
+
+    /**
+     * MGF1
+     *
+     * See {@link http://tools.ietf.org/html/rfc3447#appendix-B.2.1 RFC3447#appendix-B.2.1}.
+     *
+     * @access private
+     * @param string $mgfSeed
+     * @param int $maskLen
+     * @return string
+     */
+    protected function mgf1($mgfSeed, $maskLen)
+    {
+        // if $maskLen would yield strings larger than 4GB, PKCS#1 suggests a "Mask too long" error be output.
+
+        $t = '';
+        $count = ceil($maskLen / $this->mgfHLen);
+        for ($i = 0; $i < $count; $i++) {
+            $c = pack('N', $i);
+            $t.= $this->mgfHash->hash($mgfSeed . $c);
+        }
+
+        return substr($t, 0, $maskLen);
+    }
+
+    /**
+     * Returns the key size
+     *
+     * More specifically, this returns the size of the modulo in bits.
+     *
+     * @access public
+     * @return int
+     */
+    public function getLength()
+    {
+        return !isset($this->modulus) ? 0 : $this->modulus->getLength();
+    }
+
+    /**
+     * Determines which hashing function should be used
+     *
+     * Used with signature production / verification and (if the encryption mode is self::PADDING_OAEP) encryption and
+     * decryption.
+     *
+     * @access public
+     * @param string $hash
+     */
+    public function withHash($hash)
+    {
+        $new = clone $this;
+
+        // \phpseclib3\Crypt\Hash supports algorithms that PKCS#1 doesn't support.  md5-96 and sha1-96, for example.
+        switch (strtolower($hash)) {
+            case 'md2':
+            case 'md5':
+            case 'sha1':
+            case 'sha256':
+            case 'sha384':
+            case 'sha512':
+            case 'sha224':
+            case 'sha512/224':
+            case 'sha512/256':
+                $new->hash = new Hash($hash);
+                break;
+            default:
+                throw new UnsupportedAlgorithmException(
+                    'The only supported hash algorithms are: md2, md5, sha1, sha256, sha384, sha512, sha224, sha512/224, sha512/256'
+                );
+        }
+        $new->hLen = $new->hash->getLengthInBytes();
+
+        return $new;
+    }
+
+    /**
+     * Determines which hashing function should be used for the mask generation function
+     *
+     * The mask generation function is used by self::PADDING_OAEP and self::PADDING_PSS and although it's
+     * best if Hash and MGFHash are set to the same thing this is not a requirement.
+     *
+     * @access public
+     * @param string $hash
+     */
+    public function withMGFHash($hash)
+    {
+        $new = clone $this;
+
+        // \phpseclib3\Crypt\Hash supports algorithms that PKCS#1 doesn't support.  md5-96 and sha1-96, for example.
+        switch (strtolower($hash)) {
+            case 'md2':
+            case 'md5':
+            case 'sha1':
+            case 'sha256':
+            case 'sha384':
+            case 'sha512':
+            case 'sha224':
+            case 'sha512/224':
+            case 'sha512/256':
+                $new->mgfHash = new Hash($hash);
+                break;
+            default:
+                throw new UnsupportedAlgorithmException(
+                    'The only supported hash algorithms are: md2, md5, sha1, sha256, sha384, sha512, sha224, sha512/224, sha512/256'
+                );
+        }
+        $new->mgfHLen = $new->mgfHash->getLengthInBytes();
+
+        return $new;
+    }
+
+    /**
+     * Returns the MGF hash algorithm currently being used
+     *
+     * @access public
+     */
+    public function getMGFHash()
+    {
+       return clone $this->mgfHash;
+    }
+
+    /**
+     * Determines the salt length
+     *
+     * Used by RSA::PADDING_PSS
+     *
+     * To quote from {@link http://tools.ietf.org/html/rfc3447#page-38 RFC3447#page-38}:
+     *
+     *    Typical salt lengths in octets are hLen (the length of the output
+     *    of the hash function Hash) and 0.
+     *
+     * @access public
+     * @param int $sLen
+     */
+    public function withSaltLength($sLen)
+    {
+        $new = clone $this;
+        $new->sLen = $sLen;
+        return $new;
+    }
+
+    /**
+     * Returns the salt length currently being used
+     *
+     * @access public
+     */
+    public function getSaltLength()
+    {
+       return $this->sLen !== null ? $this->sLen : $this->hLen;
+    }
+
+    /**
+     * Determines the label
+     *
+     * Used by RSA::PADDING_OAEP
+     *
+     * To quote from {@link http://tools.ietf.org/html/rfc3447#page-17 RFC3447#page-17}:
+     *
+     *    Both the encryption and the decryption operations of RSAES-OAEP take
+     *    the value of a label L as input.  In this version of PKCS #1, L is
+     *    the empty string; other uses of the label are outside the scope of
+     *    this document.
+     *
+     * @access public
+     * @param string $label
+     */
+    public function withLabel($label)
+    {
+        $new = clone $this;
+        $new->label = $label;
+        return $new;
+    }
+
+    /**
+     * Returns the label currently being used
+     *
+     * @access public
+     */
+    public function getLabel()
+    {
+       return $this->label;
+    }
+
+    /**
+     * Determines the padding modes
+     *
+     * Example: $key->withPadding(RSA::ENCRYPTION_PKCS1 | RSA::SIGNATURE_PKCS1);
+     *
+     * @access public
+     * @param int $padding
+     */
+    public function withPadding($padding)
+    {
+        $masks = [
+            self::ENCRYPTION_OAEP,
+            self::ENCRYPTION_PKCS1,
+            self::ENCRYPTION_NONE
+        ];
+        $numSelected = 0;
+        $selected = 0;
+        foreach ($masks as $mask) {
+            if ($padding & $mask) {
+                $selected = $mask;
+                $numSelected++;
+            }
+        }
+        if ($numSelected > 1) {
+            throw new InconsistentSetupException('Multiple encryption padding modes have been selected; at most only one should be selected');
+        }
+        $encryptionPadding = $selected;
+
+        $masks = [
+            self::SIGNATURE_PSS,
+            self::SIGNATURE_RELAXED_PKCS1,
+            self::SIGNATURE_PKCS1
+        ];
+        $numSelected = 0;
+        $selected = 0;
+        foreach ($masks as $mask) {
+            if ($padding & $mask) {
+                $selected = $mask;
+                $numSelected++;
+            }
+        }
+        if ($numSelected > 1) {
+            throw new InconsistentSetupException('Multiple signature padding modes have been selected; at most only one should be selected');
+        }
+        $signaturePadding = $selected;
+
+        $new = clone $this;
+        $new->encryptionPadding = $encryptionPadding;
+        $new->signaturePadding = $signaturePadding;
+        return $new;
+    }
+
+    /**
+     * Returns the padding currently being used
+     *
+     * @access public
+     */
+    public function getPadding()
+    {
+       return $this->signaturePadding | $this->encryptionPadding;
+    }
+
+    /**
+     * Returns the current engine being used
+     *
+     * OpenSSL is only used in this class (and it's subclasses) for key generation
+     * Even then it depends on the parameters you're using. It's not used for
+     * multi-prime RSA nor is it used if the key length is outside of the range
+     * supported by OpenSSL
+     *
+     * @see self::useInternalEngine()
+     * @see self::useBestEngine()
+     * @access public
+     * @return string
+     */
+    public function getEngine()
+    {
+        return self::$engines['OpenSSL'] && self::$defaultExponent == 65537 ?
+            'OpenSSL' :
+            'PHP';
+    }
+
+    /**
+     * Enable RSA Blinding
+     *
+     * @access public
+     */
+    public static function enableBlinding()
+    {
+        static::$enableBlinding = true;
+    }
+
+    /**
+     * Disable RSA Blinding
+     *
+     * @access public
+     */
+    public static function disableBlinding()
+    {
+        static::$enableBlinding = false;
+    }
+}

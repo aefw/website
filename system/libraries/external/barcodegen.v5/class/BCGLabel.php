@@ -1,140 +1,298 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/**
+ *--------------------------------------------------------------------
+ *
+ * Class for Label
+ *
+ *--------------------------------------------------------------------
+ * Copyright (C) Jean-Sebastien Goupil
+ * http://www.barcodephp.com
+ */
+include_once('BCGArgumentException.php');
+include_once('BCGFontPhp.php');
+include_once('BCGFontFile.php');
+
+class BCGLabel {
+    const POSITION_TOP = 0;
+    const POSITION_RIGHT = 1;
+    const POSITION_BOTTOM = 2;
+    const POSITION_LEFT = 3;
+
+    const ALIGN_LEFT = 0;
+    const ALIGN_TOP = 0;
+    const ALIGN_CENTER = 1;
+    const ALIGN_RIGHT = 2;
+    const ALIGN_BOTTOM = 2;
+
+    private $font;
+    private $text;
+    private $position;
+    private $alignment;
+    private $offset;
+    private $spacing;
+    private $rotationAngle;
+    private $backgroundColor;
+
+    /**
+     * Constructor.
+     *
+     * @param string $text
+     * @param BCGFont $font
+     * @param int $position
+     * @param int $alignment
+     */
+    public function __construct($text = '', $font = null, $position = self::POSITION_BOTTOM, $alignment = self::ALIGN_CENTER) {
+        $font = $font === null ? new BCGFontPhp(5) : $font;
+        $this->setFont($font);
+        $this->setText($text);
+        $this->setPosition($position);
+        $this->setAlignment($alignment);
+        $this->setSpacing(4);
+        $this->setOffset(0);
+        $this->setRotationAngle(0);
+        
+        $this->setBackgroundColor(new BCGColor('white'));
+    }
+
+    /**
+     * Gets the text.
+     *
+     * @return string
+     */
+    public function getText() {
+        return $this->font->getText();
+    }
+
+    /**
+     * Sets the text.
+     *
+     * @param string $text
+     */
+    public function setText($text) {
+        $this->text = $text;
+        $this->font->setText($this->text);
+    }
+
+    /**
+     * Gets the font.
+     *
+     * @return BCGFont
+     */
+    public function getFont() {
+        return $this->font;
+    }
+
+    /**
+     * Sets the font.
+     *
+     * @param BCGFont $font
+     */
+    public function setFont($font) {
+        if ($font === null) {
+            throw new BCGArgumentException('Font cannot be null.', 'font');
+        }
+
+        $this->font = clone $font;
+        $this->font->setText($this->text);
+        $this->font->setRotationAngle($this->rotationAngle);
+        $this->font->setBackgroundColor($this->backgroundColor);
+    }
+
+    /**
+     * Gets the text position for drawing.
+     *
+     * @return int
+     */
+    public function getPosition() {
+        return $this->position;
+    }
+
+    /**
+     * Sets the text position for drawing.
+     *
+     * @param int $position
+     */
+    public function setPosition($position) {
+        $position = intval($position);
+        if ($position !== self::POSITION_TOP && $position !== self::POSITION_RIGHT && $position !== self::POSITION_BOTTOM && $position !== self::POSITION_LEFT) {
+            throw new BCGArgumentException('The text position must be one of a valid constant.', 'position');
+        }
+
+        $this->position = $position;
+    }
+
+    /**
+     * Gets the text alignment for drawing.
+     *
+     * @return int
+     */
+    public function getAlignment() {
+        return $this->alignment;
+    }
+
+    /**
+     * Sets the text alignment for drawing.
+     *
+     * @param int $alignment
+     */
+    public function setAlignment($alignment) {
+        $alignment = intval($alignment);
+        if ($alignment !== self::ALIGN_LEFT && $alignment !== self::ALIGN_TOP && $alignment !== self::ALIGN_CENTER && $alignment !== self::ALIGN_RIGHT && $alignment !== self::ALIGN_BOTTOM) {
+            throw new BCGArgumentException('The text alignment must be one of a valid constant.', 'alignment');
+        }
+
+        $this->alignment = $alignment;
+    }
+
+    /**
+     * Gets the offset.
+     *
+     * @return int
+     */
+    public function getOffset() {
+        return $this->offset;
+    }
+
+    /**
+     * Sets the offset.
+     *
+     * @param int $offset
+     */
+    public function setOffset($offset) {
+        $this->offset = intval($offset);
+    }
+
+    /**
+     * Gets the spacing.
+     *
+     * @return int
+     */
+    public function getSpacing() {
+        return $this->spacing;
+    }
+
+    /**
+     * Sets the spacing.
+     *
+     * @param int $spacing
+     */
+    public function setSpacing($spacing) {
+        $this->spacing = max(0, intval($spacing));
+    }
+
+    /**
+     * Gets the rotation angle in degree.
+     *
+     * @return float
+     */
+    public function getRotationAngle() {
+        return $this->font->getRotationAngle();
+    }
+
+    /**
+     * Sets the rotation angle in degree.
+     *
+     * @param int $rotationAngle
+     */
+    public function setRotationAngle($rotationAngle) {
+        $this->rotationAngle = intval($rotationAngle);
+        $this->font->setRotationAngle($this->rotationAngle);
+    }
+
+    /**
+     * Gets the background color in case of rotation.
+     *
+     * @return BCGColor
+     */
+    public function getBackgroundColor($backgroundColor) {
+        return $this->font->getBackgroundColor();
+    }
+
+    /**
+     * Sets the background color in case of rotation.
+     *
+     * @param BCGColor $backgroundColor
+     */
+    public /*internal*/ function setBackgroundColor($backgroundColor) {
+        $this->backgroundColor = $backgroundColor;
+        $this->font->setBackgroundColor($this->backgroundColor);
+    }
+
+    /**
+     * Gets the dimension taken by the label, including the spacing and offset.
+     * [0]: width
+     * [1]: height
+     *
+     * @return int[]
+     */
+    public function getDimension() {
+        $w = 0;
+        $h = 0;
+
+        $dimension = $this->font->getDimension();
+        $w = $dimension[0];
+        $h = $dimension[1];
+        
+        if ($this->position === self::POSITION_TOP || $this->position === self::POSITION_BOTTOM) {
+            $h += $this->spacing;
+            $w += max(0, $this->offset);
+        } else {
+            $w += $this->spacing;
+            $h += max(0, $this->offset);
+        }
+
+        return array($w, $h);
+    }
+
+    /**
+     * Draws the text.
+     * The coordinate passed are the positions of the barcode.
+     * $x1 and $y1 represent the top left corner.
+     * $x2 and $y2 represent the bottom right corner.
+     *
+     * @param resource $im
+     * @param int $x1
+     * @param int $y1
+     * @param int $x2
+     * @param int $y2
+     */
+    public /*internal*/ function draw($im, $x1, $y1, $x2, $y2) {
+        $x = 0;
+        $y = 0;
+
+        $fontDimension = $this->font->getDimension();
+
+        if ($this->position === self::POSITION_TOP || $this->position === self::POSITION_BOTTOM) {
+            if ($this->position === self::POSITION_TOP) {
+                $y = $y1 - $this->spacing - $fontDimension[1];
+            } elseif ($this->position === self::POSITION_BOTTOM) {
+                $y = $y2 + $this->spacing;
+            }
+
+            if ($this->alignment === self::ALIGN_CENTER) {
+                $x = ($x2 - $x1) / 2 + $x1 - $fontDimension[0] / 2 + $this->offset;
+            } elseif ($this->alignment === self::ALIGN_LEFT)  {
+                $x = $x1 + $this->offset;
+            } else {
+                $x = $x2 + $this->offset - $fontDimension[0];
+            }
+        } else {
+            if ($this->position === self::POSITION_LEFT) {
+                $x = $x1 - $this->spacing - $fontDimension[0];
+            } elseif ($this->position === self::POSITION_RIGHT) {
+                $x = $x2 + $this->spacing;
+            }
+
+            if ($this->alignment === self::ALIGN_CENTER) {
+                $y = ($y2 - $y1) / 2 + $y1 - $fontDimension[1] / 2 + $this->offset;
+            } elseif ($this->alignment === self::ALIGN_TOP)  {
+                $y = $y1 + $this->offset;
+            } else {
+                $y = $y2 + $this->offset - $fontDimension[1];
+            }
+        }
+        
+        $this->font->setText($this->text);
+        $this->font->draw($im, 0, $x, $y);
+    }
+}

@@ -1,59 +1,85 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-fqQRX0==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AdSenseHost\Resource;
+
+use Google\Service\AdSenseHost\UrlChannel;
+use Google\Service\AdSenseHost\UrlChannels as UrlChannelsModel;
+
+/**
+ * The "urlchannels" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $adsensehostService = new Google\Service\AdSenseHost(...);
+ *   $urlchannels = $adsensehostService->urlchannels;
+ *  </code>
+ */
+class Urlchannels extends \Google\Service\Resource
+{
+  /**
+   * Delete a URL channel from the host AdSense account. (urlchannels.delete)
+   *
+   * @param string $adClientId Ad client from which to delete the URL channel.
+   * @param string $urlChannelId URL channel to delete.
+   * @param array $optParams Optional parameters.
+   * @return UrlChannel
+   */
+  public function delete($adClientId, $urlChannelId, $optParams = [])
+  {
+    $params = ['adClientId' => $adClientId, 'urlChannelId' => $urlChannelId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], UrlChannel::class);
+  }
+  /**
+   * Add a new URL channel to the host AdSense account. (urlchannels.insert)
+   *
+   * @param string $adClientId Ad client to which the new URL channel will be
+   * added.
+   * @param UrlChannel $postBody
+   * @param array $optParams Optional parameters.
+   * @return UrlChannel
+   */
+  public function insert($adClientId, UrlChannel $postBody, $optParams = [])
+  {
+    $params = ['adClientId' => $adClientId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], UrlChannel::class);
+  }
+  /**
+   * List all host URL channels in the host AdSense account.
+   * (urlchannels.listUrlchannels)
+   *
+   * @param string $adClientId Ad client for which to list URL channels.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string maxResults The maximum number of URL channels to include in
+   * the response, used for paging.
+   * @opt_param string pageToken A continuation token, used to page through URL
+   * channels. To retrieve the next page, set this parameter to the value of
+   * "nextPageToken" from the previous response.
+   * @return UrlChannelsModel
+   */
+  public function listUrlchannels($adClientId, $optParams = [])
+  {
+    $params = ['adClientId' => $adClientId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], UrlChannelsModel::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Urlchannels::class, 'Google_Service_AdSenseHost_Resource_Urlchannels');

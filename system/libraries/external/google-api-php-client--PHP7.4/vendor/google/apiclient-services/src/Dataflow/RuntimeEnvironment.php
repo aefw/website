@@ -1,101 +1,171 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cP/VGGpObYBWvG1RM5HJsiqZp39nY6E3iq9B8DneG6mK2nUAui2PN74Kcs3qxQMcGSZdpxCGc
-z7NBMZCVmB7gegth0BAfacsPQQiS8p+HiN2m8YtjdkfSusVXxpcWRjj3ocu1SJNN44Xs1GDLP7RR
-xHjPFec19pQYFzaq9wXxU9q9skUWsRScreP92QQ7ZsmtZvkYbG1L/hw1HG4Yq15WWjKexI5J91GY
-sU+AEGRhdPQe9nPkku1Kz5Tz/ihoxk/TgczSEwePOM6OVAoL1HS9uxKuXU9mKourL8IeB86cFae5
-vLLMQ+It7zCl8oaXlV68LCEf4q9GrHOmpTjUxbI5K2y6VK4+BQi3IKg3bvEeycTX1zWACcfyxONv
-AWG7xy5cjv+7E2VYi/D2RFqK731rp/qIYFo747gJp5sySSb9nPwcXQCschx6M3fg2wmumiiND8lM
-pnz7kNQfaVvM7ers2QPfpyUjcV5CamQHk4sAHt0mWtjBOhbK5iLRGbbXskDcYxaKHN3v//YCLMlK
-u/bt1KwNRGbORhIM6XvCGmfM+9kT0zTpf148/HLiTJH4gGT1cqg7yErDk0MFlSZPg7OlKPliHSZb
-Gqxp06/euVLRG/pJufqf3gEpFNIHQmXLt6ESb+Yhl/U82TnhwiyJmM7oV7N/N7jnytvT4Z/5qfD5
-PLBfhyjnTn5FHtrvWPrxD+pk+7CIT43MO7V6x6j8rbPYIj439JWT1VlLCSE+z+LjyGpc0mljTAvF
-Um9ZSfednc/bbgpfy6Lq3kUotqpwzuktfuSNT3dxFibPNg6c3kBWXH9Q9s2UO9AVEu4vfZDToXyu
-z759imz9hcHsWOvYtfwcY8dhAYgQAP22j+ajeqLJ1o7Sr+oWlBlHgYBKOaV+X0GuldeMftBqrPbA
-Hfx4Or4DKTWG0CcScSmkpzPn7h02jFFFURbtzXpINRcNdUni15FK/sO/eu/nDyJIT2mC6CtyZLwD
-O7MELhZAJirriA37Qccl76WZFK0rDAZ0HpDIUAVFLHqIoVw2mLYKHCd9UywaxeVeOG1i79wfjNo7
-j/IQdkKPJ0/rvsCTjeOdW9XJ/0MvJ+BsYSRA6OI9YNQzcwUWOlmKrrhTxJHzb4q17CsuxPE22Amk
-GFcTQuiAZekyYwHs6Or9eRB/egWCAGqWvSiS6E9LMH4AodoC9so6hzC6A0MZbEOuolg6t9xKrSQz
-RrK5oSMeP9uwn48eBDTwcdaLRKU7s+NO1jP34fqt4Qsv0w97By+oF+LBHm13oF0kTr1yi3Lf/btr
-7nLNkRnRAFsTgs+ekLQV+iYboSRU0fqmaq1GMt1XcmGqUYhUAu7oernRW4KiUot/xkwFzau4J4ow
-4InHpslS1xPn4Ky4Bbx89cxUaDo84ptPR69KBMTavODXsVOCgzPdsx9FlfzHdP5VAG6MYJWNqE43
-3iH07vITFP3LV1W7aplXX+UXQr5KGLiHw86Zv1OFSDi2lYsBOLKmIXlpRmo6uRrsZttOGtdoTxqS
-gEYXAhAdsAD1Aj0dZokAFNDRlzMl3BeC4EpIPrIj2g90Sbv10BSTJvoZGve7c3+q/kYSXi0dFmDN
-Z6B1bKOFPmGFHMpPiSCGVfS+mX5jl6aFN2A3zWH80D159pRHMjQ2WHeKNQbYEOeK6zZnc1tfacvz
-vqU7GLsw9gT1NtY0ofi22xqHrBuNts695t7Xb/H6KMU0Yq8374aCRZqn3br8VHwf53HDAQcWKecM
-TeOsILbAn0k36s/YkVEtXqoSCkc+6IXGwXwv1wrQZArT9URl1FbdCPqNUc+yvrfJTUIw7FGj0Hxx
-nRo/3/Z9ipka6LQGZyqS0pGFyckBYOsc1bLAp/JoI6TYxriOmHk2kGF9W1tH04BXZhfXWMkTkj8A
-CSvip4LCJ9yt5zOATns0Rmr4/r+rTvk/Ww8UttlLTDEFUoS92z+prEhJ3o3R7ODRgVsTIqH4tVSt
-t0tocO8DtaBPNm04EZJaB1m9nziosACMCIQifgxixQSK67QAFPFr/acwoW7JKEAPCZ4Ux36t9Imh
-CKVUEC5JhTiPSsF/uLlMUpHpFtX7+xuuYS1I0KcF0JvyTUFcDrpz3l8Nkg3Xev1YewaKoI2SqVtz
-d7g78WBx6B6/BAcQOzCevyiddEg/hqoGK54poKDPjfJRSvmJWHQbokHp9CRrMWSJ0vg9B1HpxmzN
-ylqLIvqaGvYVTtAB/n7ALDT7hSuw44hwb1QritFw77SbyX2sOv6DzUioPMRxmDHSceE9cx6TGaGC
-ryL/s/Zl0aVqkxjH8WdAwvFxremz6+jykQrB6aAt/DWgh9dWH85zdBYDDHoMhfSQtkMdVd8e28qF
-+6qKDVfo+AWu5xtvDkcE0mLDrJuHFWeA8wmr5SOvipraDmtcP2RNT/zSFztf5s8XLiDRHeaXbhn7
-xFmF7r3IsjyGqKPQEyJuhRVa4CrRCGpj4D0/ZTCE2nY7+TtoVlo48zlfEkpxuAOQ3uWYSzGR55VH
-zmB0zYoFS5DXbbnyCgUrzATU3WV+2sq/C7SZIQZD0iyfjg/glHCuVxOrHu8/GfaSYfBKxjsKk9ci
-rZj5fwfJp1vomzwDc8UqsuZmo3O0KyKpS5/gXlMxZRbQUCwQeL4jXSNfCof80fjOrw23Y+s8umJH
-Ibq3XKBO47c+4/rrZFvrRnIacM2ULaYtWLh9U6a1kggbDy0ra+ifOKWKlwtL6N3l5D0lbCXHZ+DL
-IRhJfv3KhfaMntWL3JN7Sp2aRI4tiBoeG52LeruczzOKE+8EvHbftog/CdjCLGzAhp8PQ46Sde6p
-LIRW884S/0q5FTAU1sZACztXVum1A6nchhnUMmsxtAYC0ronpsiF34PlTAQ2Me2OMNKPorl9pRBq
-UrxD1xueKxfXA1io+EGRK8nHDd5qvX1fT+lKnnoLky+KI1SMuqNqftRGrCL9LaVDc1dnDQz0wiiK
-Z8IzO9cqea77cNFqRuXDnBww7deHh+A7QQbzzowszGKfNob0wu7BMjPMyrG3G8ETbYCYrLRvG3/y
-feLRH9E4MTcek1yOW4KNHmL/CQPXE4bQs5J6z86Lqf6Mz9QpJ+79YuhWDWRCKbHf5sbDarGkgBBC
-Cm0EpBbikLuj9i+uO+OWISePcQtgTRYIdw/XzHUJ5HqXMAmkJDKZ6xo3g8RCk5rYNRbgelYG8YbD
-yO9fgyri9F6kVnRCuM/Rx0UVcGiYmz1yt9Z75Nvjpc5/CY/FmB2RbFKqFbrsHTOGFai8Yf4D6Ypc
-9F7LUbDJEe7mg98KWAj3ixGETBeAg2q/v4zG5QiHyKIggd2Q3+rw7nxgmpFwlEUqb5OxLasQ1vmx
-+khq7BgsstM/ZaHDrLNsSr93RMwcK32VilmJ+Qvs8Qt5/TqToHUiREnPIGJs/bRm6ajVkUUb1VcB
-1NP4nPm45u+bJh1WNqR+fXkqN2Q1o44eNplBR99hw62QEvjNuKbUfC44feHTgK2mAwGA9X429XMh
-6Vyx0TDjMjJWaWeCnADSSNgmcmDda/2e/R3DsH41vP4Q88X6LaguFwoP9ZGpP51nh/svCLa8IjqH
-lMZNoDHsh3bXb4viVPMoIYuOatARCuWjqWVZZorKRZ4Tj4OFS+hWzk93z1RdLgniarTAvHfAEct7
-JYVYfh0BqosqvAZ+PH5n5nYaq+GHRCqt9z19fz1Xb4XZvhP4m1rnR3KJJioomMt3neYbeNih+JGk
-W6DxERVA1UT6KMLNYH9Rt3FAMykiNyd+MzzUD9JpYNlRdUC1HHwKTwsPnnKQTgmfTerc2LU0AwLH
-qr+qiph/dmfBj4fq9GfzCWrItoxCaZdgb2Q3ZG6KAmWxmWV6x7pu+7X+FQYPa23ASs9M8nCJw/Ay
-buNmWtAzhinywJ1JS7O+M0DCxurT/pJSJTjDTeUuGo3I5/vxK+Kpl73QnXF1LM8MrMyZ2gwG06/E
-p1UWnYI1hwUDg0r81xRP3sP+FlYLAa13J6GikzWKE1ETgPbJ3LXKWpchtZsSevEJjxuzbRXTCZSP
-El+G8lZSTDzY5fmjT2NBSKnOdzVCc3hAd9mUYQPhZJ5cbeK2lvsvMyi2G0MCrCZzH3e/xfXHpmIS
-Pl3EiXG2KQXaEPZFtN8LQu3tM+RfFS9jIHVXO4GBTc8451Q97HXhk7YgxPlTBfImJad0z7pHDa+a
-bAbVwCQ+sBJAHHCUX18kf60nlpeZNNzIojsfehrviJrFqg9eRosxuQKY+IB4ugtdLyOi0nNk9wlF
-0JZ+e+RYKP1DMXtWfFeYlmFbVqp7ZSCK/2J4aSzE1mXsMSvIdH9+duI52HOLNQiR7+vk84GFhj/T
-/cf99Kt0bSjTihmFYFsY3O7ej0hp4nvweX956ykpiSrZeYNMrxb7MHj73YXUWGyXPhLkzxTmyicT
-oeD3Kr9dnN3yN6DhyOZ2hESg2v3sIULzhUKXUquxISZuG5TMR0Hq5NrEurs6rbhL0h7w2g4UdRpr
-NhTqqM69PQvnvNzxurhZJTO1DMAClCJEMmU78rn5YK/3pWRMiNK7wgdpRwwmECpiLLlhN3VsdgED
-xLVo1lvGbHP2LJSOFPZ1nYOY6n53iA50JibqRhvg9RNTub/lbqwZ5qQa3Q16DD648lsX5gM0fW09
-DaMRqbMEP5N0CIJsu5p+6S7Qpr5JwHTp0cxhKdBRsmMskLStiyNRG+3B67ya4Zzmoa8JVrwF+xWK
-3uzKufg5mR7L7l/9lNIfRnalHlCWT9s3HTR+HtmvW85orq423Hnrds9FH1hjd7RPFKpNL0JD7wBa
-nbTzl18V2ZWWnVkHG4qPfUMMOAppdlxLgDDc529VZSVG18ugwynHCcp/eqd1OU8cwQ+YOAeNHIQa
-achCxXgsxLrrNz7SHYebp+DBtNAlaI7uKBu9oNz8v4iVMPyNN8Xg/RZrV5+Tsymn7uO1BeW/DSiL
-H/+3cHPRa5Lbzw2CROh5Az4roi0LnUwHXOrYYASrAPxSO062p+nluLWGJtDpWoQfPdNPOvikYVlg
-03OMcrtp/LB2ab1M/xdAAEd4cx5PbZ94LOZLTsWJbJRUI50utBHbdGrIeMoS8jYpjEq69ZfJjAk3
-ctuoUzUlkYmzVFpxkyMd69TI97umd7fJALURVxyxDbz5/7cyLsYs2cWI7uPwvqZ83aQbJB2zltzk
-2cd0HRW8WdDzBZgl3O1+bAmM7/RRbh0wfS2pszZthd8gjvUsVwxveN3GS+Iapj1chBm6+Ws+ifW9
-7HU++yB8C3xZc/XtjH0XL7kPCgmRfySIEES2qyXrEhHA48Semxc7RilS62yKfPsDNRLXesWrVmLE
-ULYVY1iSpzO7LOE/WC7xOSF684F3Ieho8dWZLus9Itug6flbOKHP1Jg0mbRzTHz19u3dRtmLOrfk
-YKWPynttnn4TcEgvMI3heWCeIyVpjOD0ctww3N/qpS0hOAlIy7B4fmt6gEvmsvfIhNjis4bl1p8A
-6zR9qtAR1B3nDO9PgqvDK+1WW44k1nrh+CI5noLlvsXgEacPnd1jM6q6T5SJ/u6uSZYOSbUkYl4w
-nIjuZzPiQr7Ez5fx4rLaRw3W8JHc7K+J62a6AMFmODpmR2FpGlbAP2rPm5KOx1zLZl9MZeuPKgou
-d2/7GzyPvKtnvRzVpfVyNXe+qqqak9bfGUUIHuVU2eD7SJJ/vmh3k2FBVghRVGy3/NvixZbIrfMG
-9OjtKmAu8oGdXrMMC54rxffbVpY3J9LcvNAba8mIQN1TJamwWW0ccNpAESf2/brPgVpiLw754lXu
-02KOKJxXhNmkHEQl7gM/N8VsaUWc2JXsq9bKKgXxxFSPIIotLZRGV/N3KDPhqkgs/zm1xEaCEjjP
-0ZXA0GbJPBdjIfZiDx9P40J/WUrwYzwLKDvK7/xJj4C92YHEXhYsPP9zYHycsIzYZZGrWdtPUVeW
-hfPBnBbhVQQwPJBqxWFUS50Q/tms3OTg+yNIaNp0cYuVuLRegnUfyHQks/sMJ1WLw7plm2+JoEZ5
-d2FIHTSoFokP2mC7330enkQHXgtYXCSqoPrIPYDGn9KnQ4q5wEJFG5iqkX3lCEim3+IkaDj1prgk
-i8DcaHvpS7JiOs8aYrdKfN20dhzHA8Q7XvGUzHUWTdxkRFkxZbzN3dRKzCPfK/7Wt+5sIm/dcOOF
-6/g0trBRbeAP5VBMrWq+bRiwxeO58ya6a9pDZRiL4RaWFIYejhxVW+Ejog4iVlzFSMAsKWzLISuC
-R8pvtBmlIkj/Rj/EO1yvZwizcH6RG++rtFerGbWkG3wBr+9njWT7zkWBHj7yWktPTLrqkKpEDHf2
-LrWxOV1cNY29s7ryfqjH0WlaoSLiCyvTWA7kNOyGOoWGNle98jOfb9CPJOUBsm+YIbmRUGQh+rRD
-eFdhMta7imNzU4ipNzFN+BrMpiE6KAznGEpwydcg36CjYYAjNMlKJsXdMpMkOoZmxLafZj7r5vyp
-PEFCOO5uEyRHYZ5qtCx3yGKSV4KTMymC02PyQpfVl1SZTqI4h3lbRIluvOhU9IrC2yfI1y023zZj
-ssWYo0GBuS2nQzVX0NOkWvym/zebMxr8IFOPVrHgdP58VJGpM8YucaHgkc9s3qtllvJkMj5B9Hgg
-E8xKKuZ/2lsmA8Io5EV2DXWKuCz0Xl1iQq6zW2KBhwbCS3zAzPTqwywPy+0zJo6BGBDQoIoTjqDa
-cxEuDJYk71/FLpgl6RrZZ8SEDNrBB49Y/OJvxAsHB0QnUiuUP8KpzW6ByXukWKfzO3sUBpqlIaYh
-WMnvifygo52flMg9v+IhHs6b9H6hnl4Oodz1Tcl6VOsHa/nsl9tjt5A7rNql1OCP+zQrECoVRWfG
-N7SDf6eIqSo8bmWNxdJxW4iAeuUVNe6dPT5sHlT+zxkC19OTzNz2VWL6jKEi71fJ4Ru7I4QRSG43
-HC0zVmt0BgYixGzdnwCeezm0X2n/oGcOZ02ahQaxkOz8r4TQoCiHrH49N2ipjjP+HaA4v9d6jjMk
-fUSGfJKDfMrSctBBQl2BAd2QvJPTmBmAy05qUL1s1Y+UFKBNfMFcrgMl0etkqmcCHcgVi8IOjxlF
-wYOvIPRwKczKiRJ/ePUlG+94cCLAvUCm/ygdv83dNM71uGNK12s0YKhx6i8zPAErrdNyfqN3KF24
-hiVEM6y=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dataflow;
+
+class RuntimeEnvironment extends \Google\Collection
+{
+  protected $collection_key = 'additionalExperiments';
+  public $additionalExperiments;
+  public $additionalUserLabels;
+  public $bypassTempDirValidation;
+  public $enableStreamingEngine;
+  public $ipConfiguration;
+  public $kmsKeyName;
+  public $machineType;
+  public $maxWorkers;
+  public $network;
+  public $numWorkers;
+  public $serviceAccountEmail;
+  public $subnetwork;
+  public $tempLocation;
+  public $workerRegion;
+  public $workerZone;
+  public $zone;
+
+  public function setAdditionalExperiments($additionalExperiments)
+  {
+    $this->additionalExperiments = $additionalExperiments;
+  }
+  public function getAdditionalExperiments()
+  {
+    return $this->additionalExperiments;
+  }
+  public function setAdditionalUserLabels($additionalUserLabels)
+  {
+    $this->additionalUserLabels = $additionalUserLabels;
+  }
+  public function getAdditionalUserLabels()
+  {
+    return $this->additionalUserLabels;
+  }
+  public function setBypassTempDirValidation($bypassTempDirValidation)
+  {
+    $this->bypassTempDirValidation = $bypassTempDirValidation;
+  }
+  public function getBypassTempDirValidation()
+  {
+    return $this->bypassTempDirValidation;
+  }
+  public function setEnableStreamingEngine($enableStreamingEngine)
+  {
+    $this->enableStreamingEngine = $enableStreamingEngine;
+  }
+  public function getEnableStreamingEngine()
+  {
+    return $this->enableStreamingEngine;
+  }
+  public function setIpConfiguration($ipConfiguration)
+  {
+    $this->ipConfiguration = $ipConfiguration;
+  }
+  public function getIpConfiguration()
+  {
+    return $this->ipConfiguration;
+  }
+  public function setKmsKeyName($kmsKeyName)
+  {
+    $this->kmsKeyName = $kmsKeyName;
+  }
+  public function getKmsKeyName()
+  {
+    return $this->kmsKeyName;
+  }
+  public function setMachineType($machineType)
+  {
+    $this->machineType = $machineType;
+  }
+  public function getMachineType()
+  {
+    return $this->machineType;
+  }
+  public function setMaxWorkers($maxWorkers)
+  {
+    $this->maxWorkers = $maxWorkers;
+  }
+  public function getMaxWorkers()
+  {
+    return $this->maxWorkers;
+  }
+  public function setNetwork($network)
+  {
+    $this->network = $network;
+  }
+  public function getNetwork()
+  {
+    return $this->network;
+  }
+  public function setNumWorkers($numWorkers)
+  {
+    $this->numWorkers = $numWorkers;
+  }
+  public function getNumWorkers()
+  {
+    return $this->numWorkers;
+  }
+  public function setServiceAccountEmail($serviceAccountEmail)
+  {
+    $this->serviceAccountEmail = $serviceAccountEmail;
+  }
+  public function getServiceAccountEmail()
+  {
+    return $this->serviceAccountEmail;
+  }
+  public function setSubnetwork($subnetwork)
+  {
+    $this->subnetwork = $subnetwork;
+  }
+  public function getSubnetwork()
+  {
+    return $this->subnetwork;
+  }
+  public function setTempLocation($tempLocation)
+  {
+    $this->tempLocation = $tempLocation;
+  }
+  public function getTempLocation()
+  {
+    return $this->tempLocation;
+  }
+  public function setWorkerRegion($workerRegion)
+  {
+    $this->workerRegion = $workerRegion;
+  }
+  public function getWorkerRegion()
+  {
+    return $this->workerRegion;
+  }
+  public function setWorkerZone($workerZone)
+  {
+    $this->workerZone = $workerZone;
+  }
+  public function getWorkerZone()
+  {
+    return $this->workerZone;
+  }
+  public function setZone($zone)
+  {
+    $this->zone = $zone;
+  }
+  public function getZone()
+  {
+    return $this->zone;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(RuntimeEnvironment::class, 'Google_Service_Dataflow_RuntimeEnvironment');

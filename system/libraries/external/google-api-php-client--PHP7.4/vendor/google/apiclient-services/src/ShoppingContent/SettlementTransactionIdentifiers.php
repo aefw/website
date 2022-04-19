@@ -1,65 +1,81 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ShoppingContent;
+
+class SettlementTransactionIdentifiers extends \Google\Collection
+{
+  protected $collection_key = 'shipmentIds';
+  public $adjustmentId;
+  public $merchantOrderId;
+  public $orderItemId;
+  public $settlementEntryId;
+  public $shipmentIds;
+  public $transactionId;
+
+  public function setAdjustmentId($adjustmentId)
+  {
+    $this->adjustmentId = $adjustmentId;
+  }
+  public function getAdjustmentId()
+  {
+    return $this->adjustmentId;
+  }
+  public function setMerchantOrderId($merchantOrderId)
+  {
+    $this->merchantOrderId = $merchantOrderId;
+  }
+  public function getMerchantOrderId()
+  {
+    return $this->merchantOrderId;
+  }
+  public function setOrderItemId($orderItemId)
+  {
+    $this->orderItemId = $orderItemId;
+  }
+  public function getOrderItemId()
+  {
+    return $this->orderItemId;
+  }
+  public function setSettlementEntryId($settlementEntryId)
+  {
+    $this->settlementEntryId = $settlementEntryId;
+  }
+  public function getSettlementEntryId()
+  {
+    return $this->settlementEntryId;
+  }
+  public function setShipmentIds($shipmentIds)
+  {
+    $this->shipmentIds = $shipmentIds;
+  }
+  public function getShipmentIds()
+  {
+    return $this->shipmentIds;
+  }
+  public function setTransactionId($transactionId)
+  {
+    $this->transactionId = $transactionId;
+  }
+  public function getTransactionId()
+  {
+    return $this->transactionId;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(SettlementTransactionIdentifiers::class, 'Google_Service_ShoppingContent_SettlementTransactionIdentifiers');

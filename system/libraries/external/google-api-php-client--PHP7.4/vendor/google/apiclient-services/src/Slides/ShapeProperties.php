@@ -1,65 +1,115 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-o8jplbqA2YJZBrCLbi40bVuu9w/Mh2x/KOg+
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Slides;
+
+class ShapeProperties extends \Google\Model
+{
+  protected $autofitType = Autofit::class;
+  protected $autofitDataType = '';
+  public $contentAlignment;
+  protected $linkType = Link::class;
+  protected $linkDataType = '';
+  protected $outlineType = Outline::class;
+  protected $outlineDataType = '';
+  protected $shadowType = Shadow::class;
+  protected $shadowDataType = '';
+  protected $shapeBackgroundFillType = ShapeBackgroundFill::class;
+  protected $shapeBackgroundFillDataType = '';
+
+  /**
+   * @param Autofit
+   */
+  public function setAutofit(Autofit $autofit)
+  {
+    $this->autofit = $autofit;
+  }
+  /**
+   * @return Autofit
+   */
+  public function getAutofit()
+  {
+    return $this->autofit;
+  }
+  public function setContentAlignment($contentAlignment)
+  {
+    $this->contentAlignment = $contentAlignment;
+  }
+  public function getContentAlignment()
+  {
+    return $this->contentAlignment;
+  }
+  /**
+   * @param Link
+   */
+  public function setLink(Link $link)
+  {
+    $this->link = $link;
+  }
+  /**
+   * @return Link
+   */
+  public function getLink()
+  {
+    return $this->link;
+  }
+  /**
+   * @param Outline
+   */
+  public function setOutline(Outline $outline)
+  {
+    $this->outline = $outline;
+  }
+  /**
+   * @return Outline
+   */
+  public function getOutline()
+  {
+    return $this->outline;
+  }
+  /**
+   * @param Shadow
+   */
+  public function setShadow(Shadow $shadow)
+  {
+    $this->shadow = $shadow;
+  }
+  /**
+   * @return Shadow
+   */
+  public function getShadow()
+  {
+    return $this->shadow;
+  }
+  /**
+   * @param ShapeBackgroundFill
+   */
+  public function setShapeBackgroundFill(ShapeBackgroundFill $shapeBackgroundFill)
+  {
+    $this->shapeBackgroundFill = $shapeBackgroundFill;
+  }
+  /**
+   * @return ShapeBackgroundFill
+   */
+  public function getShapeBackgroundFill()
+  {
+    return $this->shapeBackgroundFill;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ShapeProperties::class, 'Google_Service_Slides_ShapeProperties');

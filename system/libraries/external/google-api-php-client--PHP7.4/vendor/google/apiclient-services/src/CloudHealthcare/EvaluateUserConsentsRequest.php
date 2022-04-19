@@ -1,70 +1,96 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudHealthcare;
+
+class EvaluateUserConsentsRequest extends \Google\Model
+{
+  protected $consentListType = ConsentList::class;
+  protected $consentListDataType = '';
+  public $pageSize;
+  public $pageToken;
+  public $requestAttributes;
+  public $resourceAttributes;
+  public $responseView;
+  public $userId;
+
+  /**
+   * @param ConsentList
+   */
+  public function setConsentList(ConsentList $consentList)
+  {
+    $this->consentList = $consentList;
+  }
+  /**
+   * @return ConsentList
+   */
+  public function getConsentList()
+  {
+    return $this->consentList;
+  }
+  public function setPageSize($pageSize)
+  {
+    $this->pageSize = $pageSize;
+  }
+  public function getPageSize()
+  {
+    return $this->pageSize;
+  }
+  public function setPageToken($pageToken)
+  {
+    $this->pageToken = $pageToken;
+  }
+  public function getPageToken()
+  {
+    return $this->pageToken;
+  }
+  public function setRequestAttributes($requestAttributes)
+  {
+    $this->requestAttributes = $requestAttributes;
+  }
+  public function getRequestAttributes()
+  {
+    return $this->requestAttributes;
+  }
+  public function setResourceAttributes($resourceAttributes)
+  {
+    $this->resourceAttributes = $resourceAttributes;
+  }
+  public function getResourceAttributes()
+  {
+    return $this->resourceAttributes;
+  }
+  public function setResponseView($responseView)
+  {
+    $this->responseView = $responseView;
+  }
+  public function getResponseView()
+  {
+    return $this->responseView;
+  }
+  public function setUserId($userId)
+  {
+    $this->userId = $userId;
+  }
+  public function getUserId()
+  {
+    return $this->userId;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(EvaluateUserConsentsRequest::class, 'Google_Service_CloudHealthcare_EvaluateUserConsentsRequest');

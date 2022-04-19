@@ -1,72 +1,122 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-2q5RmRvznFIuxw1UZRQXsRMZX0==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\GoogleAnalyticsAdmin\Resource;
+
+use Google\Service\GoogleAnalyticsAdmin\GoogleAnalyticsAdminV1alphaArchiveCustomDimensionRequest;
+use Google\Service\GoogleAnalyticsAdmin\GoogleAnalyticsAdminV1alphaCustomDimension;
+use Google\Service\GoogleAnalyticsAdmin\GoogleAnalyticsAdminV1alphaListCustomDimensionsResponse;
+use Google\Service\GoogleAnalyticsAdmin\GoogleProtobufEmpty;
+
+/**
+ * The "customDimensions" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $analyticsadminService = new Google\Service\GoogleAnalyticsAdmin(...);
+ *   $customDimensions = $analyticsadminService->customDimensions;
+ *  </code>
+ */
+class PropertiesCustomDimensions extends \Google\Service\Resource
+{
+  /**
+   * Archives a CustomDimension on a property. (customDimensions.archive)
+   *
+   * @param string $name Required. The name of the CustomDimension to archive.
+   * Example format: properties/1234/customDimensions/5678
+   * @param GoogleAnalyticsAdminV1alphaArchiveCustomDimensionRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleProtobufEmpty
+   */
+  public function archive($name, GoogleAnalyticsAdminV1alphaArchiveCustomDimensionRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('archive', [$params], GoogleProtobufEmpty::class);
+  }
+  /**
+   * Creates a CustomDimension. (customDimensions.create)
+   *
+   * @param string $parent Required. Example format: properties/1234
+   * @param GoogleAnalyticsAdminV1alphaCustomDimension $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleAnalyticsAdminV1alphaCustomDimension
+   */
+  public function create($parent, GoogleAnalyticsAdminV1alphaCustomDimension $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleAnalyticsAdminV1alphaCustomDimension::class);
+  }
+  /**
+   * Lookup for a single CustomDimension. (customDimensions.get)
+   *
+   * @param string $name Required. The name of the CustomDimension to get. Example
+   * format: properties/1234/customDimensions/5678
+   * @param array $optParams Optional parameters.
+   * @return GoogleAnalyticsAdminV1alphaCustomDimension
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleAnalyticsAdminV1alphaCustomDimension::class);
+  }
+  /**
+   * Lists CustomDimensions on a property.
+   * (customDimensions.listPropertiesCustomDimensions)
+   *
+   * @param string $parent Required. Example format: properties/1234
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The maximum number of resources to return. If
+   * unspecified, at most 50 resources will be returned. The maximum value is 200
+   * (higher values will be coerced to the maximum).
+   * @opt_param string pageToken A page token, received from a previous
+   * `ListCustomDimensions` call. Provide this to retrieve the subsequent page.
+   * When paginating, all other parameters provided to `ListCustomDimensions` must
+   * match the call that provided the page token.
+   * @return GoogleAnalyticsAdminV1alphaListCustomDimensionsResponse
+   */
+  public function listPropertiesCustomDimensions($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleAnalyticsAdminV1alphaListCustomDimensionsResponse::class);
+  }
+  /**
+   * Updates a CustomDimension on a property. (customDimensions.patch)
+   *
+   * @param string $name Output only. Resource name for this CustomDimension
+   * resource. Format: properties/{property}/customDimensions/{customDimension}
+   * @param GoogleAnalyticsAdminV1alphaCustomDimension $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. The list of fields to be updated.
+   * Omitted fields will not be updated. To replace the entire entity, use one
+   * path with the string "*" to match all fields.
+   * @return GoogleAnalyticsAdminV1alphaCustomDimension
+   */
+  public function patch($name, GoogleAnalyticsAdminV1alphaCustomDimension $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], GoogleAnalyticsAdminV1alphaCustomDimension::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PropertiesCustomDimensions::class, 'Google_Service_GoogleAnalyticsAdmin_Resource_PropertiesCustomDimensions');

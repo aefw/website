@@ -1,72 +1,123 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DisplayVideo;
+
+class AudienceGroupAssignedTargetingOptionDetails extends \Google\Collection
+{
+  protected $collection_key = 'includedFirstAndThirdPartyAudienceGroups';
+  protected $excludedFirstAndThirdPartyAudienceGroupType = FirstAndThirdPartyAudienceGroup::class;
+  protected $excludedFirstAndThirdPartyAudienceGroupDataType = '';
+  protected $excludedGoogleAudienceGroupType = GoogleAudienceGroup::class;
+  protected $excludedGoogleAudienceGroupDataType = '';
+  protected $includedCombinedAudienceGroupType = CombinedAudienceGroup::class;
+  protected $includedCombinedAudienceGroupDataType = '';
+  protected $includedCustomListGroupType = CustomListGroup::class;
+  protected $includedCustomListGroupDataType = '';
+  protected $includedFirstAndThirdPartyAudienceGroupsType = FirstAndThirdPartyAudienceGroup::class;
+  protected $includedFirstAndThirdPartyAudienceGroupsDataType = 'array';
+  protected $includedGoogleAudienceGroupType = GoogleAudienceGroup::class;
+  protected $includedGoogleAudienceGroupDataType = '';
+
+  /**
+   * @param FirstAndThirdPartyAudienceGroup
+   */
+  public function setExcludedFirstAndThirdPartyAudienceGroup(FirstAndThirdPartyAudienceGroup $excludedFirstAndThirdPartyAudienceGroup)
+  {
+    $this->excludedFirstAndThirdPartyAudienceGroup = $excludedFirstAndThirdPartyAudienceGroup;
+  }
+  /**
+   * @return FirstAndThirdPartyAudienceGroup
+   */
+  public function getExcludedFirstAndThirdPartyAudienceGroup()
+  {
+    return $this->excludedFirstAndThirdPartyAudienceGroup;
+  }
+  /**
+   * @param GoogleAudienceGroup
+   */
+  public function setExcludedGoogleAudienceGroup(GoogleAudienceGroup $excludedGoogleAudienceGroup)
+  {
+    $this->excludedGoogleAudienceGroup = $excludedGoogleAudienceGroup;
+  }
+  /**
+   * @return GoogleAudienceGroup
+   */
+  public function getExcludedGoogleAudienceGroup()
+  {
+    return $this->excludedGoogleAudienceGroup;
+  }
+  /**
+   * @param CombinedAudienceGroup
+   */
+  public function setIncludedCombinedAudienceGroup(CombinedAudienceGroup $includedCombinedAudienceGroup)
+  {
+    $this->includedCombinedAudienceGroup = $includedCombinedAudienceGroup;
+  }
+  /**
+   * @return CombinedAudienceGroup
+   */
+  public function getIncludedCombinedAudienceGroup()
+  {
+    return $this->includedCombinedAudienceGroup;
+  }
+  /**
+   * @param CustomListGroup
+   */
+  public function setIncludedCustomListGroup(CustomListGroup $includedCustomListGroup)
+  {
+    $this->includedCustomListGroup = $includedCustomListGroup;
+  }
+  /**
+   * @return CustomListGroup
+   */
+  public function getIncludedCustomListGroup()
+  {
+    return $this->includedCustomListGroup;
+  }
+  /**
+   * @param FirstAndThirdPartyAudienceGroup[]
+   */
+  public function setIncludedFirstAndThirdPartyAudienceGroups($includedFirstAndThirdPartyAudienceGroups)
+  {
+    $this->includedFirstAndThirdPartyAudienceGroups = $includedFirstAndThirdPartyAudienceGroups;
+  }
+  /**
+   * @return FirstAndThirdPartyAudienceGroup[]
+   */
+  public function getIncludedFirstAndThirdPartyAudienceGroups()
+  {
+    return $this->includedFirstAndThirdPartyAudienceGroups;
+  }
+  /**
+   * @param GoogleAudienceGroup
+   */
+  public function setIncludedGoogleAudienceGroup(GoogleAudienceGroup $includedGoogleAudienceGroup)
+  {
+    $this->includedGoogleAudienceGroup = $includedGoogleAudienceGroup;
+  }
+  /**
+   * @return GoogleAudienceGroup
+   */
+  public function getIncludedGoogleAudienceGroup()
+  {
+    return $this->includedGoogleAudienceGroup;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AudienceGroupAssignedTargetingOptionDetails::class, 'Google_Service_DisplayVideo_AudienceGroupAssignedTargetingOptionDetails');

@@ -1,356 +1,484 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-pM1xXH+WReI/2DoJ/t81pBxs5LkY
+<?php
+
+/**
+ * XML Formatted EC Key Handler
+ *
+ * More info:
+ *
+ * https://www.w3.org/TR/xmldsig-core/#sec-ECKeyValue
+ * http://en.wikipedia.org/wiki/XML_Signature
+ *
+ * PHP version 5
+ *
+ * @category  Crypt
+ * @package   EC
+ * @author    Jim Wigginton <terrafrost@php.net>
+ * @copyright 2015 Jim Wigginton
+ * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      http://phpseclib.sourceforge.net
+ */
+
+namespace phpseclib3\Crypt\EC\Formats\Keys;
+
+use ParagonIE\ConstantTime\Base64;
+use phpseclib3\Math\BigInteger;
+use phpseclib3\Crypt\EC\BaseCurves\Base as BaseCurve;
+use phpseclib3\Crypt\EC\BaseCurves\Prime as PrimeCurve;
+use phpseclib3\Crypt\EC\BaseCurves\TwistedEdwards as TwistedEdwardsCurve;
+use phpseclib3\Crypt\EC\BaseCurves\Montgomery as MontgomeryCurve;
+use phpseclib3\Common\Functions\Strings;
+use phpseclib3\Exception\UnsupportedCurveException;
+
+/**
+ * XML Formatted EC Key Handler
+ *
+ * @package EC
+ * @author  Jim Wigginton <terrafrost@php.net>
+ * @access  public
+ */
+abstract class XML
+{
+    use Common;
+
+    /**
+     * Default namespace
+     *
+     * @var string
+     */
+    private static $namespace;
+
+    /**
+     * Flag for using RFC4050 syntax
+     *
+     * @var bool
+     */
+    private static $rfc4050 = false;
+
+    /**
+     * Break a public or private key down into its constituent components
+     *
+     * @access public
+     * @param string $key
+     * @param string $password optional
+     * @return array
+     */
+    public static function load($key, $password = '')
+    {
+        self::initialize_static_variables();
+
+        if (!Strings::is_stringable($key)) {
+            throw new \UnexpectedValueException('Key should be a string - not a ' . gettype($key));
+        }
+
+        $use_errors = libxml_use_internal_errors(true);
+
+        $temp = self::isolateNamespace($key, 'http://www.w3.org/2009/xmldsig11#');
+        if ($temp) {
+            $key = $temp;
+        }
+
+        $temp = self::isolateNamespace($key, 'http://www.w3.org/2001/04/xmldsig-more#');
+        if ($temp) {
+            $key = $temp;
+        }
+
+        $dom = new \DOMDocument();
+        if (substr($key, 0, 5) != '<?xml') {
+            $key = '<xml>' . $key . '</xml>';
+        }
+
+        if (!$dom->loadXML($key)) {
+            libxml_use_internal_errors($use_errors);
+            throw new \UnexpectedValueException('Key does not appear to contain XML');
+        }
+        $xpath = new \DOMXPath($dom);
+        libxml_use_internal_errors($use_errors);
+        $curve = self::loadCurveByParam($xpath);
+
+        $pubkey = self::query($xpath, 'publickey', 'Public Key is not present');
+
+        $QA = self::query($xpath, 'ecdsakeyvalue')->length ?
+            self::extractPointRFC4050($xpath, $curve) :
+            self::extractPoint("\0" . $pubkey, $curve);
+
+        libxml_use_internal_errors($use_errors);
+
+        return compact('curve', 'QA');
+    }
+
+    /**
+     * Case-insensitive xpath query
+     *
+     * @param \DOMXPath $xpath
+     * @param string $name
+     * @param string $error optional
+     * @param bool $decode optional
+     * @return \DOMNodeList
+     */
+    private static function query($xpath, $name, $error = null, $decode = true)
+    {
+        $query = '/';
+        $names = explode('/', $name);
+        foreach ($names as $name) {
+            $query.= "/*[translate(local-name(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz')='$name']";
+        }
+        $result = $xpath->query($query);
+        if (!isset($error)) {
+            return $result;
+        }
+
+        if (!$result->length) {
+            throw new \RuntimeException($error);
+        }
+        return $decode ? self::decodeValue($result->item(0)->textContent) : $result->item(0)->textContent;
+    }
+
+    /**
+     * Finds the first element in the relevant namespace, strips the namespacing and returns the XML for that element.
+     *
+     * @param string $xml
+     * @param string $ns
+     */
+    private static function isolateNamespace($xml, $ns)
+    {
+        $dom = new \DOMDocument();
+        if (!$dom->loadXML($xml)) {
+            return false;
+        }
+        $xpath = new \DOMXPath($dom);
+        $nodes = $xpath->query("//*[namespace::*[.='$ns'] and not(../namespace::*[.='$ns'])]");
+        if (!$nodes->length) {
+            return false;
+        }
+        $node = $nodes->item(0);
+        $ns_name = $node->lookupPrefix($ns);
+        $node->removeAttributeNS($ns, $ns_name);
+        return $dom->saveXML($node);
+    }
+
+    /**
+     * Decodes the value
+     *
+     * @param string $value
+     */
+    private static function decodeValue($value)
+    {
+        return Base64::decode(str_replace(["\r", "\n", ' ', "\t"], '', $value));
+    }
+
+    /**
+     * Extract points from an XML document
+     *
+     * @param \DOMXPath $xpath
+     * @param \phpseclib3\Crypt\EC\BaseCurves\Base $curve
+     * @return object[]
+     */
+    private static function extractPointRFC4050(\DOMXPath $xpath, BaseCurve $curve)
+    {
+        $x = self::query($xpath, 'publickey/x');
+        $y = self::query($xpath, 'publickey/y');
+        if (!$x->length || !$x->item(0)->hasAttribute('Value')) {
+            throw new \RuntimeException('Public Key / X coordinate not found');
+        }
+        if (!$y->length || !$y->item(0)->hasAttribute('Value')) {
+            throw new \RuntimeException('Public Key / Y coordinate not found');
+        }
+        $point = [
+            $curve->convertInteger(new BigInteger($x->item(0)->getAttribute('Value'))),
+            $curve->convertInteger(new BigInteger($y->item(0)->getAttribute('Value')))
+        ];
+        if (!$curve->verifyPoint($point)) {
+            throw new \RuntimeException('Unable to verify that point exists on curve');
+        }
+        return $point;
+    }
+
+    /**
+     * Returns an instance of \phpseclib3\Crypt\EC\BaseCurves\Base based
+     * on the curve parameters
+     *
+     * @param \DomXPath $xpath
+     * @return \phpseclib3\Crypt\EC\BaseCurves\Base|false
+     */
+    private static function loadCurveByParam(\DOMXPath $xpath)
+    {
+        $namedCurve = self::query($xpath, 'namedcurve');
+        if ($namedCurve->length == 1) {
+            $oid = $namedCurve->item(0)->getAttribute('URN');
+            $oid = preg_replace('#[^\d.]#', '', $oid);
+            $name = array_search($oid, self::$curveOIDs);
+            if ($name === false) {
+                throw new UnsupportedCurveException('Curve with OID of ' . $oid . ' is not supported');
+            }
+
+            $curve = '\phpseclib3\Crypt\EC\Curves\\' . $name;
+            if (!class_exists($curve)) {
+                throw new UnsupportedCurveException('Named Curve of ' . $name . ' is not supported');
+            }
+            return new $curve();
+        }
+
+        $params = self::query($xpath, 'explicitparams');
+        if ($params->length) {
+            return self::loadCurveByParamRFC4050($xpath);
+        }
+
+        $params = self::query($xpath, 'ecparameters');
+        if (!$params->length) {
+            throw new \RuntimeException('No parameters are present');
+        }
+
+        $fieldTypes = [
+            'prime-field' => ['fieldid/prime/p'],
+            'gnb' => ['fieldid/gnb/m'],
+            'tnb' => ['fieldid/tnb/k'],
+            'pnb' => ['fieldid/pnb/k1', 'fieldid/pnb/k2', 'fieldid/pnb/k3'],
+            'unknown' => []
+        ];
+
+        foreach ($fieldTypes as $type => $queries) {
+            foreach ($queries as $query) {
+                $result = self::query($xpath, $query);
+                if (!$result->length) {
+                    continue 2;
+                }
+                $param = preg_replace('#.*/#', '', $query);
+                $$param = self::decodeValue($result->item(0)->textContent);
+            }
+            break;
+        }
+
+        $a = self::query($xpath, 'curve/a', 'A coefficient is not present');
+        $b = self::query($xpath, 'curve/b', 'B coefficient is not present');
+        $base = self::query($xpath, 'base', 'Base point is not present');
+        $order = self::query($xpath, 'order', 'Order is not present');
+
+        switch ($type) {
+            case 'prime-field':
+                $curve = new PrimeCurve();
+                $curve->setModulo(new BigInteger($p, 256));
+                $curve->setCoefficients(
+                    new BigInteger($a, 256),
+                    new BigInteger($b, 256)
+                );
+                $point = self::extractPoint("\0" . $base, $curve);
+                $curve->setBasePoint(...$point);
+                $curve->setOrder(new BigInteger($order, 256));
+                return $curve;
+            case 'gnb':
+            case 'tnb':
+            case 'pnb':
+            default:
+                throw new UnsupportedCurveException('Field Type of ' . $type . ' is not supported');
+        }
+    }
+
+    /**
+     * Returns an instance of \phpseclib3\Crypt\EC\BaseCurves\Base based
+     * on the curve parameters
+     *
+     * @param \DomXPath $xpath
+     * @return \phpseclib3\Crypt\EC\BaseCurves\Base|false
+     */
+    private static function loadCurveByParamRFC4050(\DOMXPath $xpath)
+    {
+        $fieldTypes = [
+            'prime-field' => ['primefieldparamstype/p'],
+            'unknown' => []
+        ];
+
+        foreach ($fieldTypes as $type => $queries) {
+            foreach ($queries as $query) {
+                $result = self::query($xpath, $query);
+                if (!$result->length) {
+                    continue 2;
+                }
+                $param = preg_replace('#.*/#', '', $query);
+                $$param = $result->item(0)->textContent;
+            }
+            break;
+        }
+
+        $a = self::query($xpath, 'curveparamstype/a', 'A coefficient is not present', false);
+        $b = self::query($xpath, 'curveparamstype/b', 'B coefficient is not present', false);
+        $x = self::query($xpath, 'basepointparams/basepoint/ecpointtype/x', 'Base Point X is not present', false);
+        $y = self::query($xpath, 'basepointparams/basepoint/ecpointtype/y', 'Base Point Y is not present', false);
+        $order = self::query($xpath, 'order', 'Order is not present', false);
+
+        switch ($type) {
+            case 'prime-field':
+                $curve = new PrimeCurve();
+
+                $p = str_replace(["\r", "\n", ' ', "\t"], '', $p);
+                $curve->setModulo(new BigInteger($p));
+
+                $a = str_replace(["\r", "\n", ' ', "\t"], '', $a);
+                $b = str_replace(["\r", "\n", ' ', "\t"], '', $b);
+                $curve->setCoefficients(
+                    new BigInteger($a),
+                    new BigInteger($b)
+                );
+
+                $x = str_replace(["\r", "\n", ' ', "\t"], '', $x);
+                $y = str_replace(["\r", "\n", ' ', "\t"], '', $y);
+                $curve->setBasePoint(
+                    new BigInteger($x),
+                    new BigInteger($y)
+                );
+
+                $order = str_replace(["\r", "\n", ' ', "\t"], '', $order);
+                $curve->setOrder(new BigInteger($order));
+                return $curve;
+            default:
+                throw new UnsupportedCurveException('Field Type of ' . $type . ' is not supported');
+        }
+    }
+
+    /**
+     * Sets the namespace. dsig11 is the most common one.
+     *
+     * Set to null to unset. Used only for creating public keys.
+     *
+     * @param string $namespace
+     */
+    public static function setNamespace($namespace)
+    {
+        self::$namespace = $namespace;
+    }
+
+    /**
+     * Uses the XML syntax specified in https://tools.ietf.org/html/rfc4050
+     */
+    public static function enableRFC4050Syntax()
+    {
+        self::$rfc4050 = true;
+    }
+
+    /**
+     * Uses the XML syntax specified in https://www.w3.org/TR/xmldsig-core/#sec-ECParameters
+     */
+    public static function disableRFC4050Syntax()
+    {
+        self::$rfc4050 = false;
+    }
+
+    /**
+     * Convert a public key to the appropriate format
+     *
+     * @param \phpseclib3\Crypt\EC\BaseCurves\Base $curve
+     * @param \phpseclib3\Math\Common\FiniteField\Integer[] $publicKey
+     * @param array $options optional
+     * @return string
+     */
+    public static function savePublicKey(BaseCurve $curve, array $publicKey, array $options = [])
+    {
+        self::initialize_static_variables();
+
+        if ($curve instanceof TwistedEdwardsCurve || $curve instanceof MontgomeryCurve) {
+            throw new UnsupportedCurveException('TwistedEdwards and Montgomery Curves are not supported');
+        }
+
+        if (empty(static::$namespace)) {
+            $pre = $post = '';
+        } else {
+            $pre = static::$namespace . ':';
+            $post = ':' . static::$namespace;
+        }
+
+        if (self::$rfc4050) {
+            return '<' . $pre . 'ECDSAKeyValue xmlns' . $post . '="http://www.w3.org/2001/04/xmldsig-more#">' . "\r\n" .
+                   self::encodeXMLParameters($curve, $pre, $options) . "\r\n" .
+                   '<' . $pre . 'PublicKey>' . "\r\n" .
+                   '<' . $pre . 'X Value="' . $publicKey[0] . '" />' . "\r\n" .
+                   '<' . $pre . 'Y Value="' . $publicKey[1] . '" />' . "\r\n" .
+                   '</' . $pre . 'PublicKey>' . "\r\n" .
+                   '</' . $pre . 'ECDSAKeyValue>';
+        }
+
+        $publicKey = "\4" . $publicKey[0]->toBytes() . $publicKey[1]->toBytes();
+
+        return '<' . $pre . 'ECDSAKeyValue xmlns' . $post . '="http://www.w3.org/2009/xmldsig11#">' . "\r\n" .
+               self::encodeXMLParameters($curve, $pre, $options) . "\r\n" .
+               '<' . $pre . 'PublicKey>' . Base64::encode($publicKey) . '</' . $pre . 'PublicKey>' . "\r\n" .
+               '</' . $pre . 'ECDSAKeyValue>';
+    }
+
+    /**
+     * Encode Parameters
+     *
+     * @param \phpseclib3\Crypt\EC\BaseCurves\Base $curve
+     * @param string $pre
+     * @param array $options optional
+     * @return string|false
+     */
+    private static function encodeXMLParameters(BaseCurve $curve, $pre, array $options = [])
+    {
+        $result = self::encodeParameters($curve, true, $options);
+
+        if (isset($result['namedCurve'])) {
+            $namedCurve = '<' . $pre . 'NamedCurve URI="urn:oid:' . self::$curveOIDs[$result['namedCurve']] . '" />';
+            return self::$rfc4050 ?
+                '<DomainParameters>' . str_replace('URI', 'URN', $namedCurve) . '</DomainParameters>' :
+                $namedCurve;
+        }
+
+        if (self::$rfc4050) {
+            $xml = '<' . $pre . 'ExplicitParams>' . "\r\n" .
+                  '<' . $pre . 'FieldParams>' . "\r\n";
+            $temp = $result['specifiedCurve'];
+            switch ($temp['fieldID']['fieldType']) {
+                case 'prime-field':
+                    $xml.= '<' . $pre . 'PrimeFieldParamsType>' . "\r\n" .
+                           '<' . $pre . 'P>' . $temp['fieldID']['parameters'] . '</' . $pre . 'P>' . "\r\n" .
+                           '</' . $pre . 'PrimeFieldParamsType>' . "\r\n";
+                    $a = $curve->getA();
+                    $b = $curve->getB();
+                    list($x, $y) = $curve->getBasePoint();
+                    break;
+                default:
+                    throw new UnsupportedCurveException('Field Type of ' . $temp['fieldID']['fieldType'] . ' is not supported');
+            }
+            $xml.= '</' . $pre . 'FieldParams>' . "\r\n" .
+                   '<' . $pre . 'CurveParamsType>' . "\r\n" .
+                   '<' . $pre . 'A>' . $a . '</' . $pre . 'A>' . "\r\n" .
+                   '<' . $pre . 'B>' . $b . '</' . $pre . 'B>' . "\r\n" .
+                   '</' . $pre . 'CurveParamsType>' . "\r\n" .
+                   '<' . $pre . 'BasePointParams>' . "\r\n" .
+                   '<' . $pre . 'BasePoint>' . "\r\n" .
+                   '<' . $pre . 'ECPointType>' . "\r\n" .
+                   '<' . $pre . 'X>' . $x . '</' . $pre . 'X>' . "\r\n" .
+                   '<' . $pre . 'Y>' . $y . '</' . $pre . 'Y>' . "\r\n" .
+                   '</' . $pre . 'ECPointType>' . "\r\n" .
+                   '</' . $pre . 'BasePoint>' . "\r\n" .
+                   '<' . $pre . 'Order>' . $curve->getOrder() . '</' . $pre . 'Order>' . "\r\n" .
+                   '</' . $pre . 'BasePointParams>' . "\r\n" .
+                   '</' . $pre . 'ExplicitParams>' . "\r\n";
+
+            return $xml;
+        }
+
+        if (isset($result['specifiedCurve'])) {
+            $xml = '<' . $pre . 'ECParameters>' . "\r\n" .
+                   '<' . $pre . 'FieldID>' . "\r\n";
+            $temp = $result['specifiedCurve'];
+            switch ($temp['fieldID']['fieldType']) {
+                case 'prime-field':
+                    $xml.= '<' . $pre . 'Prime>' . "\r\n" .
+                           '<' . $pre . 'P>' . Base64::encode($temp['fieldID']['parameters']->toBytes()) . '</' . $pre . 'P>' . "\r\n" .
+                           '</' . $pre . 'Prime>' . "\r\n" ;
+                    break;
+                default:
+                    throw new UnsupportedCurveException('Field Type of ' . $temp['fieldID']['fieldType'] . ' is not supported');
+            }
+            $xml.= '</' . $pre . 'FieldID>' . "\r\n" .
+                   '<' . $pre . 'Curve>' . "\r\n" .
+                   '<' . $pre . 'A>' . Base64::encode($temp['curve']['a']) . '</' . $pre . 'A>' . "\r\n" .
+                   '<' . $pre . 'B>' . Base64::encode($temp['curve']['b']) . '</' . $pre . 'B>' . "\r\n" .
+                   '</' . $pre . 'Curve>' . "\r\n" .
+                   '<' . $pre . 'Base>' . Base64::encode($temp['base']) . '</' . $pre . 'Base>' . "\r\n" .
+                   '<' . $pre . 'Order>' . Base64::encode($temp['order']) . '</' . $pre . 'Order>' . "\r\n" .
+                   '</' . $pre . 'ECParameters>';
+            return $xml;
+        }
+    }
+}

@@ -1,98 +1,190 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Container;
+
+class Operation extends \Google\Collection
+{
+  protected $collection_key = 'nodepoolConditions';
+  protected $clusterConditionsType = StatusCondition::class;
+  protected $clusterConditionsDataType = 'array';
+  public $detail;
+  public $endTime;
+  protected $errorType = Status::class;
+  protected $errorDataType = '';
+  public $location;
+  public $name;
+  protected $nodepoolConditionsType = StatusCondition::class;
+  protected $nodepoolConditionsDataType = 'array';
+  public $operationType;
+  protected $progressType = OperationProgress::class;
+  protected $progressDataType = '';
+  public $selfLink;
+  public $startTime;
+  public $status;
+  public $statusMessage;
+  public $targetLink;
+  public $zone;
+
+  /**
+   * @param StatusCondition[]
+   */
+  public function setClusterConditions($clusterConditions)
+  {
+    $this->clusterConditions = $clusterConditions;
+  }
+  /**
+   * @return StatusCondition[]
+   */
+  public function getClusterConditions()
+  {
+    return $this->clusterConditions;
+  }
+  public function setDetail($detail)
+  {
+    $this->detail = $detail;
+  }
+  public function getDetail()
+  {
+    return $this->detail;
+  }
+  public function setEndTime($endTime)
+  {
+    $this->endTime = $endTime;
+  }
+  public function getEndTime()
+  {
+    return $this->endTime;
+  }
+  /**
+   * @param Status
+   */
+  public function setError(Status $error)
+  {
+    $this->error = $error;
+  }
+  /**
+   * @return Status
+   */
+  public function getError()
+  {
+    return $this->error;
+  }
+  public function setLocation($location)
+  {
+    $this->location = $location;
+  }
+  public function getLocation()
+  {
+    return $this->location;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  /**
+   * @param StatusCondition[]
+   */
+  public function setNodepoolConditions($nodepoolConditions)
+  {
+    $this->nodepoolConditions = $nodepoolConditions;
+  }
+  /**
+   * @return StatusCondition[]
+   */
+  public function getNodepoolConditions()
+  {
+    return $this->nodepoolConditions;
+  }
+  public function setOperationType($operationType)
+  {
+    $this->operationType = $operationType;
+  }
+  public function getOperationType()
+  {
+    return $this->operationType;
+  }
+  /**
+   * @param OperationProgress
+   */
+  public function setProgress(OperationProgress $progress)
+  {
+    $this->progress = $progress;
+  }
+  /**
+   * @return OperationProgress
+   */
+  public function getProgress()
+  {
+    return $this->progress;
+  }
+  public function setSelfLink($selfLink)
+  {
+    $this->selfLink = $selfLink;
+  }
+  public function getSelfLink()
+  {
+    return $this->selfLink;
+  }
+  public function setStartTime($startTime)
+  {
+    $this->startTime = $startTime;
+  }
+  public function getStartTime()
+  {
+    return $this->startTime;
+  }
+  public function setStatus($status)
+  {
+    $this->status = $status;
+  }
+  public function getStatus()
+  {
+    return $this->status;
+  }
+  public function setStatusMessage($statusMessage)
+  {
+    $this->statusMessage = $statusMessage;
+  }
+  public function getStatusMessage()
+  {
+    return $this->statusMessage;
+  }
+  public function setTargetLink($targetLink)
+  {
+    $this->targetLink = $targetLink;
+  }
+  public function getTargetLink()
+  {
+    return $this->targetLink;
+  }
+  public function setZone($zone)
+  {
+    $this->zone = $zone;
+  }
+  public function getZone()
+  {
+    return $this->zone;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Operation::class, 'Google_Service_Container_Operation');

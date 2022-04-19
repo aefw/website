@@ -1,84 +1,152 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+namespace GuzzleHttp\Psr7;
+
+use Psr\Http\Message\StreamInterface;
+
+/**
+ * Stream decorator trait
+ *
+ * @property StreamInterface stream
+ */
+trait StreamDecoratorTrait
+{
+    /**
+     * @param StreamInterface $stream Stream to decorate
+     */
+    public function __construct(StreamInterface $stream)
+    {
+        $this->stream = $stream;
+    }
+
+    /**
+     * Magic method used to create a new stream if streams are not added in
+     * the constructor of a decorator (e.g., LazyOpenStream).
+     *
+     * @param string $name Name of the property (allows "stream" only).
+     *
+     * @return StreamInterface
+     */
+    public function __get($name)
+    {
+        if ($name == 'stream') {
+            $this->stream = $this->createStream();
+            return $this->stream;
+        }
+
+        throw new \UnexpectedValueException("$name not found on class");
+    }
+
+    public function __toString()
+    {
+        try {
+            if ($this->isSeekable()) {
+                $this->seek(0);
+            }
+            return $this->getContents();
+        } catch (\Exception $e) {
+            // Really, PHP? https://bugs.php.net/bug.php?id=53648
+            trigger_error('StreamDecorator::__toString exception: '
+                . (string) $e, E_USER_ERROR);
+            return '';
+        }
+    }
+
+    public function getContents()
+    {
+        return Utils::copyToString($this);
+    }
+
+    /**
+     * Allow decorators to implement custom methods
+     *
+     * @param string $method Missing method name
+     * @param array  $args   Method arguments
+     *
+     * @return mixed
+     */
+    public function __call($method, array $args)
+    {
+        $result = call_user_func_array([$this->stream, $method], $args);
+
+        // Always return the wrapped object if the result is a return $this
+        return $result === $this->stream ? $this : $result;
+    }
+
+    public function close()
+    {
+        $this->stream->close();
+    }
+
+    public function getMetadata($key = null)
+    {
+        return $this->stream->getMetadata($key);
+    }
+
+    public function detach()
+    {
+        return $this->stream->detach();
+    }
+
+    public function getSize()
+    {
+        return $this->stream->getSize();
+    }
+
+    public function eof()
+    {
+        return $this->stream->eof();
+    }
+
+    public function tell()
+    {
+        return $this->stream->tell();
+    }
+
+    public function isReadable()
+    {
+        return $this->stream->isReadable();
+    }
+
+    public function isWritable()
+    {
+        return $this->stream->isWritable();
+    }
+
+    public function isSeekable()
+    {
+        return $this->stream->isSeekable();
+    }
+
+    public function rewind()
+    {
+        $this->seek(0);
+    }
+
+    public function seek($offset, $whence = SEEK_SET)
+    {
+        $this->stream->seek($offset, $whence);
+    }
+
+    public function read($length)
+    {
+        return $this->stream->read($length);
+    }
+
+    public function write($string)
+    {
+        return $this->stream->write($string);
+    }
+
+    /**
+     * Implement in subclasses to dynamically create streams when requested.
+     *
+     * @return StreamInterface
+     *
+     * @throws \BadMethodCallException
+     */
+    protected function createStream()
+    {
+        throw new \BadMethodCallException('Not implemented');
+    }
+}

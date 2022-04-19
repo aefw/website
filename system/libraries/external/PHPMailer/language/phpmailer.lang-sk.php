@@ -1,67 +1,27 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-C9ypPxEiHJgsam==
+<?php
+/**
+ * Slovak PHPMailer language file: refer to English translation for definitive list
+ * @package PHPMailer
+ * @author Michal Tinka <michaltinka@gmail.com>
+ * @author Peter Orlický <pcmanik91@gmail.com>
+ */
+
+$PHPMAILER_LANG['authenticate']         = 'SMTP Error: Chyba autentifikácie.';
+$PHPMAILER_LANG['connect_host']         = 'SMTP Error: Nebolo možné nadviazať spojenie so SMTP serverom.';
+$PHPMAILER_LANG['data_not_accepted']    = 'SMTP Error: Dáta neboli prijaté';
+$PHPMAILER_LANG['empty_message']        = 'Prázdne telo správy.';
+$PHPMAILER_LANG['encoding']             = 'Neznáme kódovanie: ';
+$PHPMAILER_LANG['execute']              = 'Nedá sa vykonať: ';
+$PHPMAILER_LANG['file_access']          = 'Súbor nebol nájdený: ';
+$PHPMAILER_LANG['file_open']            = 'File Error: Súbor sa otvoriť pre čítanie: ';
+$PHPMAILER_LANG['from_failed']          = 'Následujúca adresa From je nesprávna: ';
+$PHPMAILER_LANG['instantiate']          = 'Nedá sa vytvoriť inštancia emailovej funkcie.';
+$PHPMAILER_LANG['invalid_address']      = 'Neodoslané, emailová adresa je nesprávna: ';
+$PHPMAILER_LANG['mailer_not_supported'] = ' emailový klient nieje podporovaný.';
+$PHPMAILER_LANG['provide_address']      = 'Musíte zadať aspoň jednu emailovú adresu príjemcu.';
+$PHPMAILER_LANG['recipients_failed']    = 'SMTP Error: Adresy príjemcov niesu správne ';
+$PHPMAILER_LANG['signing']              = 'Chyba prihlasovania: ';
+$PHPMAILER_LANG['smtp_connect_failed']  = 'SMTP Connect() zlyhalo.';
+$PHPMAILER_LANG['smtp_error']           = 'SMTP chyba serveru: ';
+$PHPMAILER_LANG['variable_set']         = 'Nemožno nastaviť alebo resetovať premennú: ';
+$PHPMAILER_LANG['extension_missing']    = 'Chýba rozšírenie: ';

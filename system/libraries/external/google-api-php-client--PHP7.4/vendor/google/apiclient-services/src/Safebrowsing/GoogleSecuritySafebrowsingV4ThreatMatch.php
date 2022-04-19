@@ -1,67 +1,93 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-89MpNbLbTxPhQtQu1c51lR3UKK4ezvwYVp/3E0==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Safebrowsing;
+
+class GoogleSecuritySafebrowsingV4ThreatMatch extends \Google\Model
+{
+  public $cacheDuration;
+  public $platformType;
+  protected $threatDataType = '';
+  protected $threatEntryMetadataType = GoogleSecuritySafebrowsingV4ThreatEntryMetadata::class;
+  protected $threatEntryMetadataDataType = '';
+  public $threatEntryType;
+  public $threatType;
+
+  public function setCacheDuration($cacheDuration)
+  {
+    $this->cacheDuration = $cacheDuration;
+  }
+  public function getCacheDuration()
+  {
+    return $this->cacheDuration;
+  }
+  public function setPlatformType($platformType)
+  {
+    $this->platformType = $platformType;
+  }
+  public function getPlatformType()
+  {
+    return $this->platformType;
+  }
+  /**
+   * @param GoogleSecuritySafebrowsingV4ThreatEntry
+   */
+  public function setThreat(GoogleSecuritySafebrowsingV4ThreatEntry $threat)
+  {
+    $this->threat = $threat;
+  }
+  /**
+   * @return GoogleSecuritySafebrowsingV4ThreatEntry
+   */
+  public function getThreat()
+  {
+    return $this->threat;
+  }
+  /**
+   * @param GoogleSecuritySafebrowsingV4ThreatEntryMetadata
+   */
+  public function setThreatEntryMetadata(GoogleSecuritySafebrowsingV4ThreatEntryMetadata $threatEntryMetadata)
+  {
+    $this->threatEntryMetadata = $threatEntryMetadata;
+  }
+  /**
+   * @return GoogleSecuritySafebrowsingV4ThreatEntryMetadata
+   */
+  public function getThreatEntryMetadata()
+  {
+    return $this->threatEntryMetadata;
+  }
+  public function setThreatEntryType($threatEntryType)
+  {
+    $this->threatEntryType = $threatEntryType;
+  }
+  public function getThreatEntryType()
+  {
+    return $this->threatEntryType;
+  }
+  public function setThreatType($threatType)
+  {
+    $this->threatType = $threatType;
+  }
+  public function getThreatType()
+  {
+    return $this->threatType;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleSecuritySafebrowsingV4ThreatMatch::class, 'Google_Service_Safebrowsing_GoogleSecuritySafebrowsingV4ThreatMatch');

@@ -1,75 +1,154 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AdExchangeBuyerII;
+
+class BidMetricsRow extends \Google\Model
+{
+  protected $bidsType = MetricValue::class;
+  protected $bidsDataType = '';
+  protected $bidsInAuctionType = MetricValue::class;
+  protected $bidsInAuctionDataType = '';
+  protected $billedImpressionsType = MetricValue::class;
+  protected $billedImpressionsDataType = '';
+  protected $impressionsWonType = MetricValue::class;
+  protected $impressionsWonDataType = '';
+  protected $measurableImpressionsType = MetricValue::class;
+  protected $measurableImpressionsDataType = '';
+  protected $reachedQueriesType = MetricValue::class;
+  protected $reachedQueriesDataType = '';
+  protected $rowDimensionsType = RowDimensions::class;
+  protected $rowDimensionsDataType = '';
+  protected $viewableImpressionsType = MetricValue::class;
+  protected $viewableImpressionsDataType = '';
+
+  /**
+   * @param MetricValue
+   */
+  public function setBids(MetricValue $bids)
+  {
+    $this->bids = $bids;
+  }
+  /**
+   * @return MetricValue
+   */
+  public function getBids()
+  {
+    return $this->bids;
+  }
+  /**
+   * @param MetricValue
+   */
+  public function setBidsInAuction(MetricValue $bidsInAuction)
+  {
+    $this->bidsInAuction = $bidsInAuction;
+  }
+  /**
+   * @return MetricValue
+   */
+  public function getBidsInAuction()
+  {
+    return $this->bidsInAuction;
+  }
+  /**
+   * @param MetricValue
+   */
+  public function setBilledImpressions(MetricValue $billedImpressions)
+  {
+    $this->billedImpressions = $billedImpressions;
+  }
+  /**
+   * @return MetricValue
+   */
+  public function getBilledImpressions()
+  {
+    return $this->billedImpressions;
+  }
+  /**
+   * @param MetricValue
+   */
+  public function setImpressionsWon(MetricValue $impressionsWon)
+  {
+    $this->impressionsWon = $impressionsWon;
+  }
+  /**
+   * @return MetricValue
+   */
+  public function getImpressionsWon()
+  {
+    return $this->impressionsWon;
+  }
+  /**
+   * @param MetricValue
+   */
+  public function setMeasurableImpressions(MetricValue $measurableImpressions)
+  {
+    $this->measurableImpressions = $measurableImpressions;
+  }
+  /**
+   * @return MetricValue
+   */
+  public function getMeasurableImpressions()
+  {
+    return $this->measurableImpressions;
+  }
+  /**
+   * @param MetricValue
+   */
+  public function setReachedQueries(MetricValue $reachedQueries)
+  {
+    $this->reachedQueries = $reachedQueries;
+  }
+  /**
+   * @return MetricValue
+   */
+  public function getReachedQueries()
+  {
+    return $this->reachedQueries;
+  }
+  /**
+   * @param RowDimensions
+   */
+  public function setRowDimensions(RowDimensions $rowDimensions)
+  {
+    $this->rowDimensions = $rowDimensions;
+  }
+  /**
+   * @return RowDimensions
+   */
+  public function getRowDimensions()
+  {
+    return $this->rowDimensions;
+  }
+  /**
+   * @param MetricValue
+   */
+  public function setViewableImpressions(MetricValue $viewableImpressions)
+  {
+    $this->viewableImpressions = $viewableImpressions;
+  }
+  /**
+   * @return MetricValue
+   */
+  public function getViewableImpressions()
+  {
+    return $this->viewableImpressions;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(BidMetricsRow::class, 'Google_Service_AdExchangeBuyerII_BidMetricsRow');

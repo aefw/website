@@ -1,68 +1,98 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-zYm=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dfareporting\Resource;
+
+use Google\Service\Dfareporting\FloodlightConfiguration;
+use Google\Service\Dfareporting\FloodlightConfigurationsListResponse;
+
+/**
+ * The "floodlightConfigurations" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $dfareportingService = new Google\Service\Dfareporting(...);
+ *   $floodlightConfigurations = $dfareportingService->floodlightConfigurations;
+ *  </code>
+ */
+class FloodlightConfigurations extends \Google\Service\Resource
+{
+  /**
+   * Gets one floodlight configuration by ID. (floodlightConfigurations.get)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param string $id Floodlight configuration ID.
+   * @param array $optParams Optional parameters.
+   * @return FloodlightConfiguration
+   */
+  public function get($profileId, $id, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], FloodlightConfiguration::class);
+  }
+  /**
+   * Retrieves a list of floodlight configurations, possibly filtered.
+   * (floodlightConfigurations.listFloodlightConfigurations)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string ids Set of IDs of floodlight configurations to retrieve.
+   * Required field; otherwise an empty list will be returned.
+   * @return FloodlightConfigurationsListResponse
+   */
+  public function listFloodlightConfigurations($profileId, $optParams = [])
+  {
+    $params = ['profileId' => $profileId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], FloodlightConfigurationsListResponse::class);
+  }
+  /**
+   * Updates an existing floodlight configuration. This method supports patch
+   * semantics. (floodlightConfigurations.patch)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param string $id FloodlightConfiguration ID.
+   * @param FloodlightConfiguration $postBody
+   * @param array $optParams Optional parameters.
+   * @return FloodlightConfiguration
+   */
+  public function patch($profileId, $id, FloodlightConfiguration $postBody, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'id' => $id, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], FloodlightConfiguration::class);
+  }
+  /**
+   * Updates an existing floodlight configuration.
+   * (floodlightConfigurations.update)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param FloodlightConfiguration $postBody
+   * @param array $optParams Optional parameters.
+   * @return FloodlightConfiguration
+   */
+  public function update($profileId, FloodlightConfiguration $postBody, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], FloodlightConfiguration::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(FloodlightConfigurations::class, 'Google_Service_Dfareporting_Resource_FloodlightConfigurations');

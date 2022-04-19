@@ -1,60 +1,103 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-e0tOuRJyZU3reLOJhLUzCAOuLq/E
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ServiceManagement\Resource;
+
+use Google\Service\ServiceManagement\ListServiceRolloutsResponse;
+use Google\Service\ServiceManagement\Operation;
+use Google\Service\ServiceManagement\Rollout;
+
+/**
+ * The "rollouts" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $servicemanagementService = new Google\Service\ServiceManagement(...);
+ *   $rollouts = $servicemanagementService->rollouts;
+ *  </code>
+ */
+class ServicesRollouts extends \Google\Service\Resource
+{
+  /**
+   * Creates a new service configuration rollout. Based on rollout, the Google
+   * Service Management will roll out the service configurations to different
+   * backend services. For example, the logging configuration will be pushed to
+   * Google Cloud Logging. Please note that any previous pending and running
+   * Rollouts and associated Operations will be automatically cancelled so that
+   * the latest Rollout will not be blocked by previous Rollouts. Only the 100
+   * most recent (in any state) and the last 10 successful (if not already part of
+   * the set of 100 most recent) rollouts are kept for each service. The rest will
+   * be deleted eventually. Operation (rollouts.create)
+   *
+   * @param string $serviceName Required. The name of the service. See the
+   * [overview](/service-management/overview) for naming requirements. For
+   * example: `example.googleapis.com`.
+   * @param Rollout $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function create($serviceName, Rollout $postBody, $optParams = [])
+  {
+    $params = ['serviceName' => $serviceName, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Operation::class);
+  }
+  /**
+   * Gets a service configuration rollout. (rollouts.get)
+   *
+   * @param string $serviceName Required. The name of the service. See the
+   * [overview](/service-management/overview) for naming requirements. For
+   * example: `example.googleapis.com`.
+   * @param string $rolloutId Required. The id of the rollout resource.
+   * @param array $optParams Optional parameters.
+   * @return Rollout
+   */
+  public function get($serviceName, $rolloutId, $optParams = [])
+  {
+    $params = ['serviceName' => $serviceName, 'rolloutId' => $rolloutId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Rollout::class);
+  }
+  /**
+   * Lists the history of the service configuration rollouts for a managed
+   * service, from the newest to the oldest. (rollouts.listServicesRollouts)
+   *
+   * @param string $serviceName Required. The name of the service. See the
+   * [overview](/service-management/overview) for naming requirements. For
+   * example: `example.googleapis.com`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Required. Use `filter` to return subset of rollouts.
+   * The following filters are supported: -- To limit the results to only those in
+   * [status](google.api.servicemanagement.v1.RolloutStatus) 'SUCCESS', use
+   * filter='status=SUCCESS' -- To limit the results to those in
+   * [status](google.api.servicemanagement.v1.RolloutStatus) 'CANCELLED' or
+   * 'FAILED', use filter='status=CANCELLED OR status=FAILED'
+   * @opt_param int pageSize The max number of items to include in the response
+   * list. Page size is 50 if not specified. Maximum value is 100.
+   * @opt_param string pageToken The token of the page to retrieve.
+   * @return ListServiceRolloutsResponse
+   */
+  public function listServicesRollouts($serviceName, $optParams = [])
+  {
+    $params = ['serviceName' => $serviceName];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListServiceRolloutsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ServicesRollouts::class, 'Google_Service_ServiceManagement_Resource_ServicesRollouts');

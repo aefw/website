@@ -1,59 +1,100 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-JvpVoL5aUAt7GsQZ
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ToolResults\Resource;
+
+use Google\Service\ToolResults\History;
+use Google\Service\ToolResults\ListHistoriesResponse;
+
+/**
+ * The "histories" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $toolresultsService = new Google\Service\ToolResults(...);
+ *   $histories = $toolresultsService->histories;
+ *  </code>
+ */
+class ProjectsHistories extends \Google\Service\Resource
+{
+  /**
+   * Creates a History. The returned History will have the id set. May return any
+   * of the following canonical error codes: - PERMISSION_DENIED - if the user is
+   * not authorized to write to project - INVALID_ARGUMENT - if the request is
+   * malformed - NOT_FOUND - if the containing project does not exist
+   * (histories.create)
+   *
+   * @param string $projectId A Project id. Required.
+   * @param History $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId A unique request ID for server to detect
+   * duplicated requests. For example, a UUID. Optional, but strongly recommended.
+   * @return History
+   */
+  public function create($projectId, History $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], History::class);
+  }
+  /**
+   * Gets a History. May return any of the following canonical error codes: -
+   * PERMISSION_DENIED - if the user is not authorized to read project -
+   * INVALID_ARGUMENT - if the request is malformed - NOT_FOUND - if the History
+   * does not exist (histories.get)
+   *
+   * @param string $projectId A Project id. Required.
+   * @param string $historyId A History id. Required.
+   * @param array $optParams Optional parameters.
+   * @return History
+   */
+  public function get($projectId, $historyId, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'historyId' => $historyId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], History::class);
+  }
+  /**
+   * Lists Histories for a given Project. The histories are sorted by modification
+   * time in descending order. The history_id key will be used to order the
+   * history with the same modification time. May return any of the following
+   * canonical error codes: - PERMISSION_DENIED - if the user is not authorized to
+   * read project - INVALID_ARGUMENT - if the request is malformed - NOT_FOUND -
+   * if the History does not exist (histories.listProjectsHistories)
+   *
+   * @param string $projectId A Project id. Required.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filterByName If set, only return histories with the given
+   * name. Optional.
+   * @opt_param int pageSize The maximum number of Histories to fetch. Default
+   * value: 20. The server will use this default if the field is not set or has a
+   * value of 0. Any value greater than 100 will be treated as 100. Optional.
+   * @opt_param string pageToken A continuation token to resume the query at the
+   * next item. Optional.
+   * @return ListHistoriesResponse
+   */
+  public function listProjectsHistories($projectId, $optParams = [])
+  {
+    $params = ['projectId' => $projectId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListHistoriesResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsHistories::class, 'Google_Service_ToolResults_Resource_ProjectsHistories');

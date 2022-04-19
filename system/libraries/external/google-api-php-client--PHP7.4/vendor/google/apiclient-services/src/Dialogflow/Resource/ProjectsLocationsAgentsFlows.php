@@ -1,94 +1,255 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPyalR4MOfrHh5UhvPfbxQiEy4hL1BqHqWVj1ymLZ4MAWV7xEaMVT2IqHB533Xx69b0nqv0Mg
-bNkymLGE4yAbl+TnI3jGeDB2MsalIY6OK6U2UYdedTnMj8MPS0k+Xk+9iC4Q7xJU2xUA/aniXPFv
-QB7lonJGDo5rahaw6cf6JbrtPDacV/JdR/E2Lm5W+uu5SiZS8pTgu/HCtVqGZveDKhz6ovTZRDBC
-0f/i0Ky2HE4UwVRtbVjkJ9YpVRdb7mbVwOebMuBr9IExOA688zhrymTfheYkl5Nd+Th9mxdEuJaR
-JCnpEtJfvjIuMnNeRM4NBmWifo//UBuSJldQU83GCAGkCfn0iUmYcUu0g/qlfKaK1+1ZwO9gj8/6
-wQsSO+mn49S9VQT64hpBXFLoOHtR81EyznXDaMJU4mqf3gtZ/XG5IA0OM3hKl/QycWRo6KVO2Z2R
-QUR9J5ImdRjdVbn9DpAfI5Gaqhi0D+W0U1RAH44q5pstnnRJUeR/gEQhAEcKFSB/1EikLW4uh4Nr
-CPijwmBu4Z6HoeCsnD7cPy8r85637MbNM6Dh3hpaBEJ9jMRKTwaJ0YW2BVqzjvbiWhR1M0Dwq51g
-ElrOPrcf3GhKVSAurtUD/S6HVDtIDH3SOsXvNbAECsJDvcMEaTTa2wllUT8oo7F02l9WSvnTedei
-pdm3G2eKZ2C4YjThFnHq8+DVL+Iuu4D5YOL2sDaw0ip1jf89bIvwONiYQZDmaENRpiULZlzcHg+1
-gCeoxVKDbd52nmsI1DwX1HtNUd06gw2pl6OMzMKbLAWJv7ywZlMwziOkkIqXszFk6w/EMzmIdQcf
-vtQZ15/U+bnke0ypX12I7hFoBEAN5JFbV9OuTtUlqUFkC2Edj8qpla2cf0JdMPw7vJHQb6UTCs9E
-xbU7N+pFQXy2PrODoMZdAoxTlULdm9/E6hckElGrNHIHYt5qZ5gzyrlSmmYpy/v2imdXPtbreWzO
-yOPPc60pS8hlEWozeR8kbbSWJKp+d0zv/uk2fqncQMcdh4+9x/XJo0zZvmGsadCpQjVEcKFg1KnB
-JSKTTEgzMizxZIz5aq+GxsZePf8S93MYm/nrXTDYcSDqRjFsCO88BGNFQvO9Zyo4FKzorFS2/cqP
-M8QU7HBLjJ35XKkwFr34M712OdOah7jagPfyajbd1dqUdisQVhl/Lb1D13S5b4eH0TANmy7rbCUh
-Q0zR+pJ4GXyOiV9yIlp48CHv8PmwylEK5tbkRM9bIty2tV6Hw2rQjpr7Y8v+cGjc+hilPQ/WJlos
-CISu6Wflh2xP+VEmbuH85wsDLuM+mEOsNi3665PbqYDkov/+yA7H82FX46ktCiZo1svEq4R/uBMQ
-bsHUaIt4Ji/rXU2iqGTK/18vvVEyBs8Cn1/TuImAWtxzX+YfQt9SvoVNNbZGwXFkM3KOpvvB2nDZ
-iLlprBQLpltUpYSmPxsHtzh9mgnG/4P+gA9R9+C9OKkDX3yqtdHtWdvogVVVE/cEvIWrrfMTPdrK
-L8yP2Zu8sOU3M3+lBS6Q+A9jbkJKlEBZYfrLxR/6w1v+lrm3iTlWwPTg0eJYbT3WM3VBbVNnM4GH
-Bjiq1lLwez6yMciiaw//r4owH/Ng5I1yqOabw2Ps8yzoKDYItpbtsixEpNjjgLi4W6NBEv4gV7yj
-zbEN+ExK2tcw/mpLUx3FFdlc4omtRQd+U3k5USjg7oVohioRYTNglBU2T/CtegpyQBjPTIzgvGZK
-CmHWa49UJ0WAJK05uvUmeGF+qrtC1UqA0tDyvLy1vv/5Iy8vnCkcEH2E3bw+Ptekdc4bvqUeHPAr
-ksDHUnpIUXuID2mwyqCUh8NeTQF/NBXax/bYJ1hH8QpCoX3UVPwd+6eVLwMGJbARCI8XSeXquajZ
-nmRXVdr5LO0j3zG2fb8f93xMmnxpXWhvCq7NaG4lofRGfy0WfIY8gmpfuZqr6a8sx9Y7T2Ec+cvj
-o5LPEnyZvY/kPQBp99YVLQLMSQ17oCfnIrkNKsPr8pZO3k0r8n+cQNcWFR+Q0dqYhcKI5dQf5AKX
-q1l/D2SVSsu+PqKFJbuqOzH9KhwMgi2Qto7cVVAb5pJSV4tr19m2SKZYFmVyoRpXxaBr1rQtCMWW
-0Qy4ABkAV07OuGz1dNAL5yytiaGrWrrWUTgNWreFqUHcXTEZCmxIYJg3rWiD3Ft6MDpTAnU10jqe
-C6QEFeBq6Ng8bkONErC4CyDTYBXfg5tpG2C4AoQDLoPpaD75+G/Cop4QvCqkO0flLadd+WWsQUPL
-ZMEY+GhmjqhrRKXun0heqwC4WLAHE1YTbtrydz9ZkLWj0thIAkAK1jH3zvPJ+od84eqIu/gf/oTm
-XcD+s0eOV4DByTUfetfpzGeiHFkR6rbk5jTfqdp29nDNqJKTW4Od3sZAdPupLvA9MizsXqLpNTLu
-P3wmX5tVC2OkaoezU/SfwIbvrOYVHb//evUX7c7YK25taniQKdgqZ2kgYpRigip5XYNSpU0iokJg
-8cvcArvLE7cSY1c73uYCZqmjTrGAWHzgykKayZHxSfRR8vCRIq8BVRPHyGXsOI2L1by7EW3idv72
-vQ8h9Jv1eMZBaG0cMPp5an1HxGwYsPv1YyfO70VjTx22ULORVGqlgW9l/7W6hf+BPXCsKSSpxNqr
-qv8WKKJzW3JoUR8umWb5T0swpHzgQdAv5Xh4TokfDYxRXAW1c3qBusH4ZGnTkuPDay5g4slpXrEp
-GR3dXFJBXmL/zZgejCjlSmaKpzp2Vg9Rn21aamOShYZ6DrW+6l2U/nX8l4BpKGK3m7KdiSuUudDp
-ptq9+delO/TVqsZDmgICoYCqPCtUGt0egmVLjdq5zvx5Ox1ij4CVlbfB3Z6BSCDbi2FxxfmPO2B5
-ElNvzdM6OJQaR7Apkd8NvhkFoY5RuOplYE+2b2uaAmyhmbZZU4pmbxbOP4PQ9ri8Iw7LOaYnPayz
-rZlWxLMkS7rp6eQgKbFj4b1oQoWwZzLIUA9ng/6uG54J+DOaCg61cIYWCYdxe/wrEHE6gD+1q87y
-52zz15dDGk3Mvfu8eFQz0+l/HQeG8GQqESPWWtNC26PTxG2/AcoGjuiZc8FPE49+or7/s+Fbflzq
-0S+qDauQk5vNkrTolKFMcU41RxhcTBJQU/ah6b9anYv5URY+EmYTS+256VTgmmUds7wxo9aKRzlg
-mrSNKYUPeq1kR7BG/nAhbhOX54UCMnh319fHiITlpgc4y9sonP1RPJ8qUBl1D5Nq24k+Ye/UGOkm
-8t0EPvpzqZBY0oz2wCl89ZRhzonnBeQknCVo0+GkxbXWRP3a2aoFUnSe5WPnYgD+CNcg0VsFJ5Gj
-yc3vOGoyYWvb5/aA3UWdmIuzKm8joWzj/OpsgT6fAugAxdFjxWNTaayuxBYX7M8z6oZ+40fro0yH
-qCkhANsMCsY2OQEwIRc6C2J/djc331q+JXiYEe3UebQOKT2O9Teb9FY2yLP+GLXfCegCqenEHdCT
-MEn0HSH0ke3xpOCRBHc6rEwMr42jbq0kzrTHgMKTHUnfEDG4EndlYUst26KdMvjFNOYI4++gDRYj
-+wsfeuZkVi12Tp2AsAqtdW0OWqZoRWg0Dc3c7A6zyHmK4xVynQFp2hJKW9JiIMEcnjHQ1Iy1JUEH
-XYfTRSzb3qKxBTu7200BUIVd7CwYSJ4f/MKP7j+OH2TQcpe3K2Dt+ST69Ud+iTLpGAozBN+sIrXM
-FbbYU9DpXYXqFrOJmRetUmTgFcrlG8pwHjeDWlpPvi1Znefti5gLMROlKzS0A+rnvhWCkl+Z4bWp
-/mrjXyrfZ1HkWnTcU5WDPknJxlpBYZNLN+1tkXFo+dv0T1IHJ3+Phd4g4bACMEF1lXuJQI+9/+w1
-or/AufePmRMEqH6eRFUPTUR+SwRcrcvtdye05Yw+8PSogHU9ZKeMPl8ROx4fVNAohcvkH+weDCWw
-szxAQ680NWn7ivhUaqwnmdZ13kMs4s+A0/VhTz7l4oshBoZWq5xWGuvEoCGdeJ41QGE6EbRWpN42
-/m2ntPevKR6rLm2k9a/bCLi3aymSOdnd3X530YElwmXsdOnjjtlEH85wA2zq5kcd1qnr2T8wMjac
-0znpuHCq1E+x7kONmlQPp/m2U5Hy7UUn5iE6zZqfeICfye+elWY+z7cI0ZPvSE0eW4zEX7CIH4t5
-lEvwMIlgnckpmoMa3X+TGKbli8WMHNf0xKPbvThd2IzJtBkF9ba4iS+PVqYqwDOQcObO/5MToqmz
-wfLTXC8dLXP0Oillirb6qfCB1Wq6tWoh8Xbgp9pW1NLLl2ERXFqi0yUgbrN2QLEHlIIrx74b8AGl
-asNqJ+6nsH99sl0idBKCYIHEPJI2alkt8NdqcKlZG6qlsBQTp9MD1t9B6k14bmbzn+umRPO3JBAK
-SdKSUneg3iNF2XccyiErZdTZKk9fXwjq3zOwJapuLRmogIOsoM+X7btAt3R9Dpf106dhmvuDNNg3
-WaRp7ZE14rScCFunRh1IFW8fK/n0yJQ+UTMj5xXB4E4iUIE8zHDNp0hi9Gg9nN8DVAwH5agRafYj
-hQYeTURicaWnznyImqPr3Yfr5xqk8+WAlySeXUWhmOD64FoeY9gJkYeoaeeP7HvMEW/NNQFvY4O7
-26bXs9SUKJ+t98kM37jXVgXyRYeJj9ftcTt4bcMhNhw+V7cA1tTqF+KSztL4Zc5ZacgW4Bq8wXNK
-+TRxmXTY2+NbWFGmPl3dXIUaA3MnO0BcW6BFYJiwkE2pAlNZWrJGrftoIRDn5MZNyR2bgpj76LXK
-rADVz2mYbuE4darn9ShcrLOV3h33dgewEi3f8boALYgLEHZuP6Du1TfJ9zN0tGKKoZIZe5k1zKXB
-kYtSJpZwHCYuliSvpFzjrNbIrTolZ8YD3PF6FTTKIDTF2dCI/b+FMNIgi6utAzMjtcgAvvDZWLxM
-HtSxuoWeXeTvGD2x4VaDmryj1A/NOvzrvIN6TxETe70w9EEHms6f4GffIzR8NIUXvqn5V3vivElh
-Fvr+o8Cjy0DhZqGL1sc1YQ8Cz9JQ90k0EwqRJhdrwvgUdhlBaValNQv4N2dKhzC7vc8RXGMORnNp
-UJG6dctbVJ5xFN9kPPHv5s5ntfpUzWmqBC6q9stcahIxIlHYZ757ffzlOYb/uByKGDG080ClV7nd
-PlcTfYJZfb2YO9ffl3qkEaR/8ZOZ/C9bS5QUkzzdgvkaMncg5tp8vYpyhqIJHsKQ1+hZB2k5ZHn8
-mn5vxGkUhYbte31v41ZPFO2cHycz1DM54oQiyXBta2PW4LktZqzmMQWO/DAMkXjOaGOYsvYrhHIz
-YY3SNyRbXfmQY6/xIcZAHlcr52Xz4POm8aDqxZYL8b42m56i3mJ2smweyeERRgvSRXk33WFj29wX
-zvcI3YHD9XipRzNInNN4bjfSvDgE5zkQVXMfiw+IvGZQMNIFNf7RU9DKpXf09gVEaRmXlNMRkCMO
-nJd5rte6YvTYRHreDnfN+j3XDQSlwBqTZrFkOv7suCHTlWL+ipY/ZXQHkXyERImEjdRYIql9P3rp
-vhb2RdZfeCUVu8jFnR86kDB7EtVjA3IeMfbdb0y1lZuGeeqSQDBctbXTr6xNBIhP+APRGAP8uCxG
-QNrwkvZpHympLjEMNbu7fvRlb/catI3/CB5pCt1M5Ab8IzddtDDTzeNDPAtaTYelzJ2ijSpZ4OcD
-lqGej0RLD9v0JD5GIf/Owv3OJiQFwvcw0la/ju+17nF6QCEcnHs3BrUAzIAZETPZSjixG/QDo0Ii
-qQu5pNEzlCnS0v5tdmzCjDBW4uVhe5UF+XaEBlhJZF8S8FKTm7Ht6NjpLGs3Em5dnzavbF+Zu1I0
-MiVVIge+VSynLdCoFMxgq2pYH3r6pyykoxlkGXrnRQbWbovMSfTm3hgAuPURp33l0sdF71rJWLd7
-9bmGK8SBGo9Jcn9q39f+d0mpsjy8/xOZzRytFeSW5RF7+zr/gyPzBtc/tSK/O94/+Deoo1rcA0ny
-im/yZ3iACR2UBx1nA611XBq69I3p6OKFtfadjf7/1kHzIWuVbZQDPWLFwhy6+R9lb4DhZcifamfr
-tAt2HkrmYl9JBlO5b2wHg4e4s9jNnm7wUVpFeJspvF7JF+23zR7TYPaWDL5KbPZE28t4cdEU2vvn
-O8OuRY/0SIthkIaNJv5V7ueQSP60bATI9i4lINIiOIIJ0cpyVsLL1DLIVKR6E1xG529s+Mn3nuFE
-zTd504pUcYfSZF7QsTMrzAweg6TbqWdGeQ+jFfI3X5DGADykfDTMcciQ9rCtwYzAWABfdAlnifKX
-bxf/4DubUenaMhj6Wkdz2FGBjhYg2ZjRfy3VJmQmQTH3D24Ku/bY3tHUhWeZtkMc1jLYmzeQBtWx
-+WXX9rbNE7P0gAsXX0lfrJwPvJye5YmXLVnWz8A1tAa+0osQiQj76m8l0/0fE3Le+4RjJJDvU7js
-6xBc/sU/FUktLwSS8KbkhjBxR7197zTmLx0rXzZZJ9ztKZPhMWZ7XXQgTSrT06KAiCTlIDiLEPO9
-k7ckDBp97RvEaI+D1nlZFqzkrWJPb6YeTWzETKI3IzakOyFGNvGhyun1v903vjZyxYZRnKtcK54N
-GwNmgsQm99ddoS7YLikRTjrysBhLIJNciOG3BM0LCHY/NvBRKSxF5hvL31qk
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dialogflow\Resource;
+
+use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3ExportFlowRequest;
+use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3Flow;
+use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3FlowValidationResult;
+use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3ImportFlowRequest;
+use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3ListFlowsResponse;
+use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3TrainFlowRequest;
+use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3ValidateFlowRequest;
+use Google\Service\Dialogflow\GoogleLongrunningOperation;
+use Google\Service\Dialogflow\GoogleProtobufEmpty;
+
+/**
+ * The "flows" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $dialogflowService = new Google\Service\Dialogflow(...);
+ *   $flows = $dialogflowService->flows;
+ *  </code>
+ */
+class ProjectsLocationsAgentsFlows extends \Google\Service\Resource
+{
+  /**
+   * Creates a flow in the specified agent. (flows.create)
+   *
+   * @param string $parent Required. The agent to create a flow for. Format:
+   * `projects//locations//agents/`.
+   * @param GoogleCloudDialogflowCxV3Flow $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string languageCode The language of the following fields in
+   * `flow`: * `Flow.event_handlers.trigger_fulfillment.messages` *
+   * `Flow.event_handlers.trigger_fulfillment.conditional_cases` *
+   * `Flow.transition_routes.trigger_fulfillment.messages` *
+   * `Flow.transition_routes.trigger_fulfillment.conditional_cases` If not
+   * specified, the agent's default language is used. [Many
+   * languages](https://cloud.google.com/dialogflow/cx/docs/reference/language)
+   * are supported. Note: languages must be enabled in the agent before they can
+   * be used.
+   * @return GoogleCloudDialogflowCxV3Flow
+   */
+  public function create($parent, GoogleCloudDialogflowCxV3Flow $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleCloudDialogflowCxV3Flow::class);
+  }
+  /**
+   * Deletes a specified flow. (flows.delete)
+   *
+   * @param string $name Required. The name of the flow to delete. Format:
+   * `projects//locations//agents//flows/`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool force This field has no effect for flows with no incoming
+   * transitions. For flows with incoming transitions: * If `force` is set to
+   * false, an error will be returned with message indicating the incoming
+   * transitions. * If `force` is set to true, Dialogflow will remove the flow, as
+   * well as any transitions to the flow (i.e. Target flow in event handlers or
+   * Target flow in transition routes that point to this flow will be cleared).
+   * @return GoogleProtobufEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
+  }
+  /**
+   * Exports the specified flow to a binary file. Note that resources (e.g.
+   * intents, entities, webhooks) that the flow references will also be exported.
+   * (flows.export)
+   *
+   * @param string $name Required. The name of the flow to export. Format:
+   * `projects//locations//agents//flows/`.
+   * @param GoogleCloudDialogflowCxV3ExportFlowRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function export($name, GoogleCloudDialogflowCxV3ExportFlowRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('export', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Retrieves the specified flow. (flows.get)
+   *
+   * @param string $name Required. The name of the flow to get. Format:
+   * `projects//locations//agents//flows/`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string languageCode The language to retrieve the flow for. The
+   * following fields are language dependent: *
+   * `Flow.event_handlers.trigger_fulfillment.messages` *
+   * `Flow.event_handlers.trigger_fulfillment.conditional_cases` *
+   * `Flow.transition_routes.trigger_fulfillment.messages` *
+   * `Flow.transition_routes.trigger_fulfillment.conditional_cases` If not
+   * specified, the agent's default language is used. [Many
+   * languages](https://cloud.google.com/dialogflow/cx/docs/reference/language)
+   * are supported. Note: languages must be enabled in the agent before they can
+   * be used.
+   * @return GoogleCloudDialogflowCxV3Flow
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudDialogflowCxV3Flow::class);
+  }
+  /**
+   * Gets the latest flow validation result. Flow validation is performed when
+   * ValidateFlow is called. (flows.getValidationResult)
+   *
+   * @param string $name Required. The flow name. Format:
+   * `projects//locations//agents//flows//validationResult`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string languageCode If not specified, the agent's default language
+   * is used.
+   * @return GoogleCloudDialogflowCxV3FlowValidationResult
+   */
+  public function getValidationResult($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('getValidationResult', [$params], GoogleCloudDialogflowCxV3FlowValidationResult::class);
+  }
+  /**
+   * Imports the specified flow to the specified agent from a binary file.
+   * (flows.import)
+   *
+   * @param string $parent Required. The agent to import the flow into. Format:
+   * `projects//locations//agents/`.
+   * @param GoogleCloudDialogflowCxV3ImportFlowRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function import($parent, GoogleCloudDialogflowCxV3ImportFlowRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('import', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Returns the list of all flows in the specified agent.
+   * (flows.listProjectsLocationsAgentsFlows)
+   *
+   * @param string $parent Required. The agent containing the flows. Format:
+   * `projects//locations//agents/`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string languageCode The language to list flows for. The following
+   * fields are language dependent: *
+   * `Flow.event_handlers.trigger_fulfillment.messages` *
+   * `Flow.event_handlers.trigger_fulfillment.conditional_cases` *
+   * `Flow.transition_routes.trigger_fulfillment.messages` *
+   * `Flow.transition_routes.trigger_fulfillment.conditional_cases` If not
+   * specified, the agent's default language is used. [Many
+   * languages](https://cloud.google.com/dialogflow/cx/docs/reference/language)
+   * are supported. Note: languages must be enabled in the agent before they can
+   * be used.
+   * @opt_param int pageSize The maximum number of items to return in a single
+   * page. By default 100 and at most 1000.
+   * @opt_param string pageToken The next_page_token value returned from a
+   * previous list request.
+   * @return GoogleCloudDialogflowCxV3ListFlowsResponse
+   */
+  public function listProjectsLocationsAgentsFlows($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleCloudDialogflowCxV3ListFlowsResponse::class);
+  }
+  /**
+   * Updates the specified flow. (flows.patch)
+   *
+   * @param string $name The unique identifier of the flow. Format:
+   * `projects//locations//agents//flows/`.
+   * @param GoogleCloudDialogflowCxV3Flow $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string languageCode The language of the following fields in
+   * `flow`: * `Flow.event_handlers.trigger_fulfillment.messages` *
+   * `Flow.event_handlers.trigger_fulfillment.conditional_cases` *
+   * `Flow.transition_routes.trigger_fulfillment.messages` *
+   * `Flow.transition_routes.trigger_fulfillment.conditional_cases` If not
+   * specified, the agent's default language is used. [Many
+   * languages](https://cloud.google.com/dialogflow/cx/docs/reference/language)
+   * are supported. Note: languages must be enabled in the agent before they can
+   * be used.
+   * @opt_param string updateMask Required. The mask to control which fields get
+   * updated. If `update_mask` is not specified, an error will be returned.
+   * @return GoogleCloudDialogflowCxV3Flow
+   */
+  public function patch($name, GoogleCloudDialogflowCxV3Flow $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], GoogleCloudDialogflowCxV3Flow::class);
+  }
+  /**
+   * Trains the specified flow. Note that only the flow in 'draft' environment is
+   * trained. (flows.train)
+   *
+   * @param string $name Required. The flow to train. Format:
+   * `projects//locations//agents//flows/`.
+   * @param GoogleCloudDialogflowCxV3TrainFlowRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function train($name, GoogleCloudDialogflowCxV3TrainFlowRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('train', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Validates the specified flow and creates or updates validation results.
+   * Please call this API after the training is completed to get the complete
+   * validation results. (flows.validate)
+   *
+   * @param string $name Required. The flow to validate. Format:
+   * `projects//locations//agents//flows/`.
+   * @param GoogleCloudDialogflowCxV3ValidateFlowRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudDialogflowCxV3FlowValidationResult
+   */
+  public function validate($name, GoogleCloudDialogflowCxV3ValidateFlowRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('validate', [$params], GoogleCloudDialogflowCxV3FlowValidationResult::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsAgentsFlows::class, 'Google_Service_Dialogflow_Resource_ProjectsLocationsAgentsFlows');

@@ -1,71 +1,107 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute;
+
+class HealthStatus extends \Google\Model
+{
+  public $annotations;
+  public $forwardingRule;
+  public $forwardingRuleIp;
+  public $healthState;
+  public $instance;
+  public $ipAddress;
+  public $port;
+  public $weight;
+  public $weightError;
+
+  public function setAnnotations($annotations)
+  {
+    $this->annotations = $annotations;
+  }
+  public function getAnnotations()
+  {
+    return $this->annotations;
+  }
+  public function setForwardingRule($forwardingRule)
+  {
+    $this->forwardingRule = $forwardingRule;
+  }
+  public function getForwardingRule()
+  {
+    return $this->forwardingRule;
+  }
+  public function setForwardingRuleIp($forwardingRuleIp)
+  {
+    $this->forwardingRuleIp = $forwardingRuleIp;
+  }
+  public function getForwardingRuleIp()
+  {
+    return $this->forwardingRuleIp;
+  }
+  public function setHealthState($healthState)
+  {
+    $this->healthState = $healthState;
+  }
+  public function getHealthState()
+  {
+    return $this->healthState;
+  }
+  public function setInstance($instance)
+  {
+    $this->instance = $instance;
+  }
+  public function getInstance()
+  {
+    return $this->instance;
+  }
+  public function setIpAddress($ipAddress)
+  {
+    $this->ipAddress = $ipAddress;
+  }
+  public function getIpAddress()
+  {
+    return $this->ipAddress;
+  }
+  public function setPort($port)
+  {
+    $this->port = $port;
+  }
+  public function getPort()
+  {
+    return $this->port;
+  }
+  public function setWeight($weight)
+  {
+    $this->weight = $weight;
+  }
+  public function getWeight()
+  {
+    return $this->weight;
+  }
+  public function setWeightError($weightError)
+  {
+    $this->weightError = $weightError;
+  }
+  public function getWeightError()
+  {
+    return $this->weightError;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(HealthStatus::class, 'Google_Service_Compute_HealthStatus');

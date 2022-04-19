@@ -1,103 +1,231 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dataflow;
+
+class CounterUpdate extends \Google\Model
+{
+  public $boolean;
+  public $cumulative;
+  protected $distributionType = DistributionUpdate::class;
+  protected $distributionDataType = '';
+  public $floatingPoint;
+  protected $floatingPointListType = FloatingPointList::class;
+  protected $floatingPointListDataType = '';
+  protected $floatingPointMeanType = FloatingPointMean::class;
+  protected $floatingPointMeanDataType = '';
+  protected $integerType = SplitInt64::class;
+  protected $integerDataType = '';
+  protected $integerGaugeType = IntegerGauge::class;
+  protected $integerGaugeDataType = '';
+  protected $integerListType = IntegerList::class;
+  protected $integerListDataType = '';
+  protected $integerMeanType = IntegerMean::class;
+  protected $integerMeanDataType = '';
+  public $internal;
+  protected $nameAndKindType = NameAndKind::class;
+  protected $nameAndKindDataType = '';
+  public $shortId;
+  protected $stringListType = StringList::class;
+  protected $stringListDataType = '';
+  protected $structuredNameAndMetadataType = CounterStructuredNameAndMetadata::class;
+  protected $structuredNameAndMetadataDataType = '';
+
+  public function setBoolean($boolean)
+  {
+    $this->boolean = $boolean;
+  }
+  public function getBoolean()
+  {
+    return $this->boolean;
+  }
+  public function setCumulative($cumulative)
+  {
+    $this->cumulative = $cumulative;
+  }
+  public function getCumulative()
+  {
+    return $this->cumulative;
+  }
+  /**
+   * @param DistributionUpdate
+   */
+  public function setDistribution(DistributionUpdate $distribution)
+  {
+    $this->distribution = $distribution;
+  }
+  /**
+   * @return DistributionUpdate
+   */
+  public function getDistribution()
+  {
+    return $this->distribution;
+  }
+  public function setFloatingPoint($floatingPoint)
+  {
+    $this->floatingPoint = $floatingPoint;
+  }
+  public function getFloatingPoint()
+  {
+    return $this->floatingPoint;
+  }
+  /**
+   * @param FloatingPointList
+   */
+  public function setFloatingPointList(FloatingPointList $floatingPointList)
+  {
+    $this->floatingPointList = $floatingPointList;
+  }
+  /**
+   * @return FloatingPointList
+   */
+  public function getFloatingPointList()
+  {
+    return $this->floatingPointList;
+  }
+  /**
+   * @param FloatingPointMean
+   */
+  public function setFloatingPointMean(FloatingPointMean $floatingPointMean)
+  {
+    $this->floatingPointMean = $floatingPointMean;
+  }
+  /**
+   * @return FloatingPointMean
+   */
+  public function getFloatingPointMean()
+  {
+    return $this->floatingPointMean;
+  }
+  /**
+   * @param SplitInt64
+   */
+  public function setInteger(SplitInt64 $integer)
+  {
+    $this->integer = $integer;
+  }
+  /**
+   * @return SplitInt64
+   */
+  public function getInteger()
+  {
+    return $this->integer;
+  }
+  /**
+   * @param IntegerGauge
+   */
+  public function setIntegerGauge(IntegerGauge $integerGauge)
+  {
+    $this->integerGauge = $integerGauge;
+  }
+  /**
+   * @return IntegerGauge
+   */
+  public function getIntegerGauge()
+  {
+    return $this->integerGauge;
+  }
+  /**
+   * @param IntegerList
+   */
+  public function setIntegerList(IntegerList $integerList)
+  {
+    $this->integerList = $integerList;
+  }
+  /**
+   * @return IntegerList
+   */
+  public function getIntegerList()
+  {
+    return $this->integerList;
+  }
+  /**
+   * @param IntegerMean
+   */
+  public function setIntegerMean(IntegerMean $integerMean)
+  {
+    $this->integerMean = $integerMean;
+  }
+  /**
+   * @return IntegerMean
+   */
+  public function getIntegerMean()
+  {
+    return $this->integerMean;
+  }
+  public function setInternal($internal)
+  {
+    $this->internal = $internal;
+  }
+  public function getInternal()
+  {
+    return $this->internal;
+  }
+  /**
+   * @param NameAndKind
+   */
+  public function setNameAndKind(NameAndKind $nameAndKind)
+  {
+    $this->nameAndKind = $nameAndKind;
+  }
+  /**
+   * @return NameAndKind
+   */
+  public function getNameAndKind()
+  {
+    return $this->nameAndKind;
+  }
+  public function setShortId($shortId)
+  {
+    $this->shortId = $shortId;
+  }
+  public function getShortId()
+  {
+    return $this->shortId;
+  }
+  /**
+   * @param StringList
+   */
+  public function setStringList(StringList $stringList)
+  {
+    $this->stringList = $stringList;
+  }
+  /**
+   * @return StringList
+   */
+  public function getStringList()
+  {
+    return $this->stringList;
+  }
+  /**
+   * @param CounterStructuredNameAndMetadata
+   */
+  public function setStructuredNameAndMetadata(CounterStructuredNameAndMetadata $structuredNameAndMetadata)
+  {
+    $this->structuredNameAndMetadata = $structuredNameAndMetadata;
+  }
+  /**
+   * @return CounterStructuredNameAndMetadata
+   */
+  public function getStructuredNameAndMetadata()
+  {
+    return $this->structuredNameAndMetadata;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(CounterUpdate::class, 'Google_Service_Dataflow_CounterUpdate');

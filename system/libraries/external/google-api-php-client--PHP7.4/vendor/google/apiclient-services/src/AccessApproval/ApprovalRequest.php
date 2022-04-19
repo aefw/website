@@ -1,79 +1,142 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AccessApproval;
+
+class ApprovalRequest extends \Google\Model
+{
+  protected $approveType = ApproveDecision::class;
+  protected $approveDataType = '';
+  protected $dismissType = DismissDecision::class;
+  protected $dismissDataType = '';
+  public $name;
+  public $requestTime;
+  public $requestedExpiration;
+  protected $requestedLocationsType = AccessLocations::class;
+  protected $requestedLocationsDataType = '';
+  protected $requestedReasonType = AccessReason::class;
+  protected $requestedReasonDataType = '';
+  public $requestedResourceName;
+  protected $requestedResourcePropertiesType = ResourceProperties::class;
+  protected $requestedResourcePropertiesDataType = '';
+
+  /**
+   * @param ApproveDecision
+   */
+  public function setApprove(ApproveDecision $approve)
+  {
+    $this->approve = $approve;
+  }
+  /**
+   * @return ApproveDecision
+   */
+  public function getApprove()
+  {
+    return $this->approve;
+  }
+  /**
+   * @param DismissDecision
+   */
+  public function setDismiss(DismissDecision $dismiss)
+  {
+    $this->dismiss = $dismiss;
+  }
+  /**
+   * @return DismissDecision
+   */
+  public function getDismiss()
+  {
+    return $this->dismiss;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setRequestTime($requestTime)
+  {
+    $this->requestTime = $requestTime;
+  }
+  public function getRequestTime()
+  {
+    return $this->requestTime;
+  }
+  public function setRequestedExpiration($requestedExpiration)
+  {
+    $this->requestedExpiration = $requestedExpiration;
+  }
+  public function getRequestedExpiration()
+  {
+    return $this->requestedExpiration;
+  }
+  /**
+   * @param AccessLocations
+   */
+  public function setRequestedLocations(AccessLocations $requestedLocations)
+  {
+    $this->requestedLocations = $requestedLocations;
+  }
+  /**
+   * @return AccessLocations
+   */
+  public function getRequestedLocations()
+  {
+    return $this->requestedLocations;
+  }
+  /**
+   * @param AccessReason
+   */
+  public function setRequestedReason(AccessReason $requestedReason)
+  {
+    $this->requestedReason = $requestedReason;
+  }
+  /**
+   * @return AccessReason
+   */
+  public function getRequestedReason()
+  {
+    return $this->requestedReason;
+  }
+  public function setRequestedResourceName($requestedResourceName)
+  {
+    $this->requestedResourceName = $requestedResourceName;
+  }
+  public function getRequestedResourceName()
+  {
+    return $this->requestedResourceName;
+  }
+  /**
+   * @param ResourceProperties
+   */
+  public function setRequestedResourceProperties(ResourceProperties $requestedResourceProperties)
+  {
+    $this->requestedResourceProperties = $requestedResourceProperties;
+  }
+  /**
+   * @return ResourceProperties
+   */
+  public function getRequestedResourceProperties()
+  {
+    return $this->requestedResourceProperties;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ApprovalRequest::class, 'Google_Service_AccessApproval_ApprovalRequest');

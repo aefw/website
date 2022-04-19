@@ -1,74 +1,290 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for PolicySimulator (v1).
+ *
+ * <p>
+ * Policy Simulator is a collection of endpoints for creating, running, and
+ * viewing a Replay. A `Replay` is a type of simulation that lets you see how
+ * your members' access to resources might change if you changed your IAM
+ * policy. During a `Replay`, Policy Simulator re-evaluates, or replays, past
+ * access attempts under both the current policy and your proposed policy, and
+ * compares those results to determine how your members' access might change
+ * under the proposed policy.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/iam/docs/simulating-access" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class PolicySimulator extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+
+  public $folders_locations_replays;
+  public $folders_locations_replays_results;
+  public $operations;
+  public $organizations_locations_replays;
+  public $organizations_locations_replays_results;
+  public $projects_locations_replays;
+  public $projects_locations_replays_results;
+
+  /**
+   * Constructs the internal representation of the PolicySimulator service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://policysimulator.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'policysimulator';
+
+    $this->folders_locations_replays = new PolicySimulator\Resource\FoldersLocationsReplays(
+        $this,
+        $this->serviceName,
+        'replays',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/replays',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->folders_locations_replays_results = new PolicySimulator\Resource\FoldersLocationsReplaysResults(
+        $this,
+        $this->serviceName,
+        'results',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/{+parent}/results',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->operations = new PolicySimulator\Resource\Operations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/operations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'name' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_locations_replays = new PolicySimulator\Resource\OrganizationsLocationsReplays(
+        $this,
+        $this->serviceName,
+        'replays',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/replays',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_locations_replays_results = new PolicySimulator\Resource\OrganizationsLocationsReplaysResults(
+        $this,
+        $this->serviceName,
+        'results',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/{+parent}/results',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_replays = new PolicySimulator\Resource\ProjectsLocationsReplays(
+        $this,
+        $this->serviceName,
+        'replays',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/replays',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_replays_results = new PolicySimulator\Resource\ProjectsLocationsReplaysResults(
+        $this,
+        $this->serviceName,
+        'results',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/{+parent}/results',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PolicySimulator::class, 'Google_Service_PolicySimulator');

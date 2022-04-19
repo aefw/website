@@ -1,64 +1,305 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-jea1PkXYGprGpDKnk01EXwNWqydA
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for CloudRedis (v1).
+ *
+ * <p>
+ * Creates and manages Redis instances on the Google Cloud Platform.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/memorystore/docs/redis/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class CloudRedis extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+
+  public $projects_locations;
+  public $projects_locations_instances;
+  public $projects_locations_operations;
+
+  /**
+   * Constructs the internal representation of the CloudRedis service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://redis.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'redis';
+
+    $this->projects_locations = new CloudRedis\Resource\ProjectsLocations(
+        $this,
+        $this->serviceName,
+        'locations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+name}/locations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_instances = new CloudRedis\Resource\ProjectsLocationsInstances(
+        $this,
+        $this->serviceName,
+        'instances',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/instances',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instanceId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'export' => [
+              'path' => 'v1/{+name}:export',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'failover' => [
+              'path' => 'v1/{+name}:failover',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getAuthString' => [
+              'path' => 'v1/{+name}/authString',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'import' => [
+              'path' => 'v1/{+name}:import',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/instances',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'rescheduleMaintenance' => [
+              'path' => 'v1/{+name}:rescheduleMaintenance',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'upgrade' => [
+              'path' => 'v1/{+name}:upgrade',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_operations = new CloudRedis\Resource\ProjectsLocationsOperations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'cancel' => [
+              'path' => 'v1/{+name}:cancel',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+name}/operations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(CloudRedis::class, 'Google_Service_CloudRedis');

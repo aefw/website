@@ -1,69 +1,125 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPr0ZRDgffbGUnEpv+InGCx5vrIkpLGbsEvd8UDN/KyuJwpqexJxfcMKEpS7mqZ3jhlX+nB1H
-ZF6n3VKXSTjUR3QflsmXcYimCc/6QRsfAPIiGk5JwIw6IclAgFg6zlqF8PgyN9qKKZbQVwDsXxdz
-AdAe3VqAoMzafuGqiGh9j5VejJU5CFkeU1EcBdFjbfICMlcAWKvxj/Z5ORApE+U43heeGgtR3pPz
-XAZ8I76uVYBIMfetNhPj6eqdLbqFJHFCP62j7DaQB3WfDMEW3q4GJ8dAg+9mKourL8IeB86cFae5
-vLLbRnyYltEnRVI2sEo8L6W51bijzSyqQnbN5BoEqIFKaEqwnHzzhQlgPBbG/UEUBan67sC54rX/
-QkCMHNBpKCuIpx8JR7Et/Thg6M4L8vU9sHx+twMdvD2VWhuWnRaRRSo3vhtZ7z/1r2djq7YBXlry
-MHmvFNVxGXAsFmqlJ6lLeSn77VGXraFy/Hq6QTHSOnLXVU4PROcHRYSpMzu2ajefi3y3cO5DQ3XW
-CBpJ3ByKbrN5/C0fw9ikRFQM3kNGlrN1iGPXUQ89V3l7dCKEIUQI+E2PxxS6cTF8gAiRolvKc/71
-5ZUl4bve+ip/hJjmnf3xzXKl1tqP4o60eDMUlfGx3LTEU5mD/uZVMwdNrcdYwttG6fgCvRv2oEBS
-ggDpmTLAe/dcS/eGFQCxBJgkmohmZjhb/VY4qheYM9wbYGhQz841WLfvMYCAKTVZEn5X8nspdgzH
-dVXV8O3HcMNfkunSPouILKw2AblRZ9PDNJrhZ1YzR3hXuCCnhP4c4QuxJZefHRFMl+ioQ/gRLydI
-YP4HEp8zo3x4HNEPDWu5HG+YNJ0DmUPe6pfq48LCzoA7FKlD4rGUSs5AjGnBBdUtpRBY1aPgfxrZ
-G1hTijiIVWqHBMiHlrxMDCNCyY6r0HCsna5yWc8KDhYVFSO/Lr4ukeJGfmGr/g7L3wpLnHxDBKOV
-PHgqvhYiz9NAWquqQ3OVrxDI4X7f77AvfLbnNpxBSeWqrJwAibo5sGtLu1b9oc96ojNpndN2WjU4
-DlgbCHsQSsUtJG9y+4TxmUuwQcO8W+dFYCvd6YxQdSla0OOQi5e1mNEiWwHDyoRcwiOfNfSl5lU+
-BRC2WRYInhOfI+8w1cEyTpjfSoHEOES7pjYLSy4CsR/c63jwYngmHINS9TR8Vc6LdKGEr6kzW1mA
-tTPyM65kaqtigp7SGYfpLYdJyYtSZp7Caj+6O8TLIrN9rGVyub2c8HAq8ZjuO7CiTXxBbgTLhNri
-l51jONoUx7apgi4BSSbpSZIJZxE9Tr22RN4KRez1092OfnpTBkqKbp/C0CoAx9NpDHaxpxRpzqAi
-LrT3SF/wzW9hyj2BNHzLDQGr1WTnL+TAw72kT29+tqvbyRJ+2Aq9ISkruichvWeGcTKOt4ZBJbgT
-zcZ2g94dHysHUtl+U1WeHU/psswv5z6Qw++ckr3an/Vj18dA+Y2R110dpRlDokfDxS2TTzXuB2JU
-/IPbypzXPPkSVefcJyPsr51K7rF+ok5KiJ70Gqt6B6m/AsCzQrQmLzFUyWkQK5QWBSoOgdfbp6sQ
-bHAf1isdxZ2sZwn+wiN4kuSF1V1BbM95Z5ox0vPYTSpq9NUFjy1XWc/KtzoqwckdQRpyVQbfSO0v
-4jUa/Tkg7nNI12Im8evP7rQt425Ga7UYR63bIzj0Mkut/+UrJdnuhmgCd1y7qvKmu+CBLjLCKYko
-4IZo5gI5GzPOP8JqzISeThAAHhmEpmhvOw48ZQbM/m4gGqHGXUQWnNfz+ncvGg5VYSNjFSQGVjpg
-Vjve1cWD5XUoQpsL0fAUYcGFJwUW5OWX/nl1RMys1WZcI3QzVV94cMvmmSGJNuCSTEAuk/4tnD1g
-Wg2n1BBf7aZRYspdHX8GMFrdKhcNBTgnVxQnj0xyEwrowdO2B5SKOIREaWsiS0lGqbUaowGNdOkc
-UgvvfZAqSDz0A1s8xkYHxp8YWTqCmkP9eDVNjIsJPSa1M2gfmHVynYwsZBxXzNkIUKwhOOgyXh44
-6w2kNI0k2lo+B/nweI6zX891EqeqU6oir2bnBs6ETqVb337nm9Gp6e4nsPV4L4K2J1s3xO2ZDD2e
-BAO+5xKpP4Vozlw8WxhN1FMUn93oIo6BvkwugOp+jcB89zhOfP6NPIOMtHQbOdoYKdkGqKDhd20L
-UL1HrraOyCJXjh1RrRF8nMRTQ5YHiN2XMI0lJdFjw8Ev6mfLDjd6MAJ94ob1EtH3DsZoo/7K6R34
-OPOdKlgCdAkNEfvzErnJPGzQUDQcEGGwCuyXvU5GDkVL8LLjxzwo5b7uiCmuOWdsocJvGe/VevpP
-/oiXwUIWR11+jeISvTlQfduxqzrQpQujmzPH+GYITBK+a2Bb1/yAIFejWtNC78No4wPqDU3qgp8P
-2PS64SLnX+XyZf4VdK5mS0psg+LakLVVjo+D3i6MkgkAoXr0qj6Vien6ILPuqceknOAmQwHsAMgf
-fVp42EiJpMngGl3tA9GYeXhP/uw2W3CeRWm2qsAK+28fgSuU0SIDxrcaM0aGPI5iznw0vN+iLFzf
-tc1osTbC6PeUP5jnfdJTGzLaFdETCmRpaNvBRsyULtLC5P89UrE/PEytnlDaS5j8Vo7PQlYyWz6H
-HujY9m+7I3AyrN1RKHXo8rz6NjtToEFhT/8Ggjxw7UXRv+YPjTwZVdKJLh0XUHXPHyCJ/wHCiiYb
-OPMkcKQF3t10/ymffPQqCmrjsS7ZHmfHzm2s5ZL2+IkBAWXs/aBSPRYc/bzDV/cTocBW9uZGVzet
-abelZr+/zfPD7IDj88b+ikaLQyz6VE1/lyWUO20JYAaEZx0ISujvtuqKZ1/tIwLhpW+hOna8D+Mm
-HDFSLmRh2HEYZ5P6qi9o1L0SzjzewD3aRxXMcaE6W9WdfFNVy5Z0yiiwrHcyIJOW7oNcO9Ql7uze
-++qFTUS6br97hC1zKMA7vyGXlr84B250bZ5EOQ25dFFwJ0f8vi6TsomRa/UZpByaU23517lOwuSd
-FtCTog8Y34Eja23HE7Ps4K5NjQbSoftLE0rv3rM0rhDf70/3Smnviuf2BOiLlQArv5EoZNblRAMz
-n+KH/Yi/bBTsLf2x1DOIpSHdGN0NyS/bqGBjTEsgi/rAqf50PCmB+AH4Trt1EEV/kIfNIcUQf1Yo
-ILP6IReS2s/C5VcT9VbqtdQnFc8Mb9YPtYyTHwRAQBmgnwXDuf6h0Z52A/EVZen/Vsx0hRJbQjCc
-wOaCN2eCgN7MmbT7ovr33jaa/01KE1RsLgVsjbMiL/uLRsxTEAm9A4e3eLnOSYXK9rUBUHhxEVT4
-qXX2GBKfeZVbKxAJxy6xhgbRN2lW/eIXy5yOvs8Q0kvBBwDfh4OrPgggh8xBfv+LBHOoUu09DBVb
-CcLlsKoRj1PJrFusA8ls7l+mkh/4IHd9mj8hDUyeoKNHdzJ7aQdjVCBx9yHtBiwWO4TI+DQvXKRj
-5JegVsYsOoSnOVMeVW/f90eVhjl3oKM8oA4AHUYcTPBzptWpmajpxxEEmvd+hUhF0Rqh7wqq7WAg
-M9R+kOjozMOSRXR4NK2NIvw8xX3P4iHWZMA5v7Q60bwz2q11aol9k2ha9SQ2NC7R1MmuNhr8wB08
-IjHJrbR6XpRfMR1ZspKdKPgOyh+1l74O+z5XBmXloPVOih/aMCth37927jBQAYeLvgRwLjkuV81W
-M0juqwHttg8qA3UVXlxpx+t/yWLyDGab6F3VdY2jKxBzBzd64LtbSChZSoXgDSWqzubCYX9mkw6k
-m3aWzMsbcbp/Ntlttf/OoCjMZOEShlCs7lpiyEJkL3Z8VBAFwKdPP3x1YWbJ3eMQUtLtjhxJQbiO
-rArua+0wWE59qskiPN3s2TJXx/ORctdKCqouhEMOSyEK6MSoftzuBdek2eBVjZlrVle2zF+glJrb
-9lLgundQ22HlIjWVGpiXGIx778uMkmyZRjVBcq5FfW6fmzQJqkLqCH2oOmNA9BBX2CtB3AtvTTgN
-zT8p/cUEjxhI+pwfhkMdvHZuGzlocWn3EOt0LqlD8ic5YhNcQGcPf0CXBjpD0ap7PgOZdjrvXZ8W
-t1YcymNMkZ+lz9pBPoJLSKn6YMBoWwLM707LJXoK2gwte9O8OB6HqvgtukqqbSwnEL6EgE/UMbsN
-/lnqhaEMoSo2fAMqypKhLSdixoiH0d2kcRCzJNNMIwyq4FiUOuJi9dYkmasF7Jkk12LKcWbQg0wD
-qAPpVyD6CqD7XLYfYGAL0M3GxdnZhblT3ifxXnuIfJ+pKulML9N67+jTtIfafavDpgmTdLEkttTn
-9HhJFpBJIJTgr+98VPV0C24KcP2b8tVizjAnEaLIOvZLPUA4LGFQ9LBX8MIy3HjLafDH5oz3JYQL
-bSrsgBewr9b6wwLbWMq9AVeHsmFYwEdhch9rUHamaoMv1ct6f87f7pdLg0/nyJ2zw7/dSAqEmV8E
-SggTQr49nsRVnMoMe0xn3Q8X0oydDGindqtxuhtrxGTR6T0XTNrS7Oi4eBK0qcJ+5BejrTAYD6v5
-T9f9BB57JaSOAueWVlAzcSp2MkdYG4XbrkvgoCIkQHRjduIobm5fOJfnbArk8LPs9DFr3sLQd1H4
-FrG0gbnB7r2AGWrP6EfJNhLodqwKaQnP2P8acLJNIYIzm5N4SD7vG0r0gqkkuC+evKurMb6tj2yK
-agFgSL8w
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AccessContextManager\Resource;
+
+use Google\Service\AccessContextManager\AccessPolicy;
+use Google\Service\AccessContextManager\ListAccessPoliciesResponse;
+use Google\Service\AccessContextManager\Operation;
+
+/**
+ * The "accessPolicies" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $accesscontextmanagerService = new Google\Service\AccessContextManager(...);
+ *   $accessPolicies = $accesscontextmanagerService->accessPolicies;
+ *  </code>
+ */
+class AccessPolicies extends \Google\Service\Resource
+{
+  /**
+   * Create an `AccessPolicy`. Fails if this organization already has a
+   * `AccessPolicy`. The longrunning Operation will have a successful status once
+   * the `AccessPolicy` has propagated to long-lasting storage. Syntactic and
+   * basic semantic errors will be returned in `metadata` as a BadRequest proto.
+   * (accessPolicies.create)
+   *
+   * @param AccessPolicy $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function create(AccessPolicy $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Operation::class);
+  }
+  /**
+   * Delete an AccessPolicy by resource name. The longrunning Operation will have
+   * a successful status once the AccessPolicy has been removed from long-lasting
+   * storage. (accessPolicies.delete)
+   *
+   * @param string $name Required. Resource name for the access policy to delete.
+   * Format `accessPolicies/{policy_id}`
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Get an AccessPolicy by name. (accessPolicies.get)
+   *
+   * @param string $name Required. Resource name for the access policy to get.
+   * Format `accessPolicies/{policy_id}`
+   * @param array $optParams Optional parameters.
+   * @return AccessPolicy
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], AccessPolicy::class);
+  }
+  /**
+   * List all AccessPolicies under a container.
+   * (accessPolicies.listAccessPolicies)
+   *
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Number of AccessPolicy instances to include in the
+   * list. Default 100.
+   * @opt_param string pageToken Next page token for the next batch of
+   * AccessPolicy instances. Defaults to the first page of results.
+   * @opt_param string parent Required. Resource name for the container to list
+   * AccessPolicy instances from. Format: `organizations/{org_id}`
+   * @return ListAccessPoliciesResponse
+   */
+  public function listAccessPolicies($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListAccessPoliciesResponse::class);
+  }
+  /**
+   * Update an AccessPolicy. The longrunning Operation from this RPC will have a
+   * successful status once the changes to the AccessPolicy have propagated to
+   * long-lasting storage. Syntactic and basic semantic errors will be returned in
+   * `metadata` as a BadRequest proto. (accessPolicies.patch)
+   *
+   * @param string $name Output only. Resource name of the `AccessPolicy`. Format:
+   * `accessPolicies/{policy_id}`
+   * @param AccessPolicy $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. Mask to control which fields get
+   * updated. Must be non-empty.
+   * @return Operation
+   */
+  public function patch($name, AccessPolicy $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AccessPolicies::class, 'Google_Service_AccessContextManager_Resource_AccessPolicies');

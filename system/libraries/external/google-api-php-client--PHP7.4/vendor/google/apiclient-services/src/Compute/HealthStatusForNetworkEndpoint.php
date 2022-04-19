@@ -1,62 +1,99 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-otxqI0tWDExE0nwR5Tot8gN3MW==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute;
+
+class HealthStatusForNetworkEndpoint extends \Google\Model
+{
+  protected $backendServiceType = BackendServiceReference::class;
+  protected $backendServiceDataType = '';
+  protected $forwardingRuleType = ForwardingRuleReference::class;
+  protected $forwardingRuleDataType = '';
+  protected $healthCheckType = HealthCheckReference::class;
+  protected $healthCheckDataType = '';
+  protected $healthCheckServiceType = HealthCheckServiceReference::class;
+  protected $healthCheckServiceDataType = '';
+  public $healthState;
+
+  /**
+   * @param BackendServiceReference
+   */
+  public function setBackendService(BackendServiceReference $backendService)
+  {
+    $this->backendService = $backendService;
+  }
+  /**
+   * @return BackendServiceReference
+   */
+  public function getBackendService()
+  {
+    return $this->backendService;
+  }
+  /**
+   * @param ForwardingRuleReference
+   */
+  public function setForwardingRule(ForwardingRuleReference $forwardingRule)
+  {
+    $this->forwardingRule = $forwardingRule;
+  }
+  /**
+   * @return ForwardingRuleReference
+   */
+  public function getForwardingRule()
+  {
+    return $this->forwardingRule;
+  }
+  /**
+   * @param HealthCheckReference
+   */
+  public function setHealthCheck(HealthCheckReference $healthCheck)
+  {
+    $this->healthCheck = $healthCheck;
+  }
+  /**
+   * @return HealthCheckReference
+   */
+  public function getHealthCheck()
+  {
+    return $this->healthCheck;
+  }
+  /**
+   * @param HealthCheckServiceReference
+   */
+  public function setHealthCheckService(HealthCheckServiceReference $healthCheckService)
+  {
+    $this->healthCheckService = $healthCheckService;
+  }
+  /**
+   * @return HealthCheckServiceReference
+   */
+  public function getHealthCheckService()
+  {
+    return $this->healthCheckService;
+  }
+  public function setHealthState($healthState)
+  {
+    $this->healthState = $healthState;
+  }
+  public function getHealthState()
+  {
+    return $this->healthState;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(HealthStatusForNetworkEndpoint::class, 'Google_Service_Compute_HealthStatusForNetworkEndpoint');

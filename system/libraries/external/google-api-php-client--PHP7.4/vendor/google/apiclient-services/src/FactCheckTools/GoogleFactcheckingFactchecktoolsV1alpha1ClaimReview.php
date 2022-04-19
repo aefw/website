@@ -1,68 +1,87 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-KQ+rMEbl
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\FactCheckTools;
+
+class GoogleFactcheckingFactchecktoolsV1alpha1ClaimReview extends \Google\Model
+{
+  public $languageCode;
+  protected $publisherType = GoogleFactcheckingFactchecktoolsV1alpha1Publisher::class;
+  protected $publisherDataType = '';
+  public $reviewDate;
+  public $textualRating;
+  public $title;
+  public $url;
+
+  public function setLanguageCode($languageCode)
+  {
+    $this->languageCode = $languageCode;
+  }
+  public function getLanguageCode()
+  {
+    return $this->languageCode;
+  }
+  /**
+   * @param GoogleFactcheckingFactchecktoolsV1alpha1Publisher
+   */
+  public function setPublisher(GoogleFactcheckingFactchecktoolsV1alpha1Publisher $publisher)
+  {
+    $this->publisher = $publisher;
+  }
+  /**
+   * @return GoogleFactcheckingFactchecktoolsV1alpha1Publisher
+   */
+  public function getPublisher()
+  {
+    return $this->publisher;
+  }
+  public function setReviewDate($reviewDate)
+  {
+    $this->reviewDate = $reviewDate;
+  }
+  public function getReviewDate()
+  {
+    return $this->reviewDate;
+  }
+  public function setTextualRating($textualRating)
+  {
+    $this->textualRating = $textualRating;
+  }
+  public function getTextualRating()
+  {
+    return $this->textualRating;
+  }
+  public function setTitle($title)
+  {
+    $this->title = $title;
+  }
+  public function getTitle()
+  {
+    return $this->title;
+  }
+  public function setUrl($url)
+  {
+    $this->url = $url;
+  }
+  public function getUrl()
+  {
+    return $this->url;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleFactcheckingFactchecktoolsV1alpha1ClaimReview::class, 'Google_Service_FactCheckTools_GoogleFactcheckingFactchecktoolsV1alpha1ClaimReview');

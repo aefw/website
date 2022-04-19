@@ -1,85 +1,220 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-yYU739aND8HU66mWrC7pg6EXkW5iw0==
+<?php
+
+/**
+ * Curve methods common to all curves
+ *
+ * PHP version 5 and 7
+ *
+ * @category  Crypt
+ * @package   EC
+ * @author    Jim Wigginton <terrafrost@php.net>
+ * @copyright 2017 Jim Wigginton
+ * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      http://pear.php.net/package/Math_BigInteger
+ */
+
+namespace phpseclib3\Crypt\EC\BaseCurves;
+
+use phpseclib3\Math\Common\FiniteField;
+use phpseclib3\Math\BigInteger;
+
+/**
+ * Base
+ *
+ * @package Prime
+ * @author  Jim Wigginton <terrafrost@php.net>
+ * @access  public
+ */
+abstract class Base
+{
+    /**
+     * Doubles
+     *
+     * @var object[]
+     */
+    protected $doubles;
+
+    /**
+     * NAF Points
+     *
+     * @var int[]
+     */
+    private $naf;
+
+    /**
+     * The Order
+     *
+     * @var BigInteger
+     */
+    protected $order;
+
+    /**
+     * Finite Field Integer factory
+     *
+     * @var \phpseclib3\Math\FiniteField\Integer
+     */
+    protected $factory;
+
+    /**
+     * Returns a random integer
+     *
+     * @return object
+     */
+    public function randomInteger()
+    {
+        return $this->factory->randomInteger();
+    }
+
+    /**
+     * Converts a BigInteger to a FiniteField integer
+     *
+     * @return object
+     */
+    public function convertInteger(BigInteger $x)
+    {
+        return $this->factory->newInteger($x);
+    }
+
+    /**
+     * Returns the length, in bytes, of the modulo
+     *
+     * @return integer
+     */
+    public function getLengthInBytes()
+    {
+        return $this->factory->getLengthInBytes();
+    }
+
+    /**
+     * Returns the length, in bits, of the modulo
+     *
+     * @return integer
+     */
+    public function getLength()
+    {
+        return $this->factory->getLength();
+    }
+
+    /**
+     * Multiply a point on the curve by a scalar
+     *
+     * Uses the montgomery ladder technique as described here:
+     *
+     * https://en.wikipedia.org/wiki/Elliptic_curve_point_multiplication#Montgomery_ladder
+     * https://github.com/phpecc/phpecc/issues/16#issuecomment-59176772
+     *
+     * @return array
+     */
+    public function multiplyPoint(array $p, FiniteField\Integer $d)
+    {
+        $alreadyInternal = isset($p[2]);
+        $r = $alreadyInternal ?
+            [[], $p] :
+            [[], $this->convertToInternal($p)];
+
+        $d = $d->toBits();
+        for ($i = 0; $i < strlen($d); $i++) {
+            $d_i = (int) $d[$i];
+            $r[1 - $d_i] = $this->addPoint($r[0], $r[1]);
+            $r[$d_i] = $this->doublePoint($r[$d_i]);
+        }
+
+        return $alreadyInternal ? $r[0] : $this->convertToAffine($r[0]);
+    }
+
+    /**
+     * Creates a random scalar multiplier
+     *
+     * @return FiniteField
+     */
+    public function createRandomMultiplier()
+    {
+        static $one;
+        if (!isset($one)) {
+            $one = new BigInteger(1);
+        }
+
+        $dA = BigInteger::randomRange($one, $this->order->subtract($one));
+        return $this->factory->newInteger($dA);
+    }
+
+    /**
+     * Sets the Order
+     */
+    public function setOrder(BigInteger $order)
+    {
+        $this->order = $order;
+    }
+
+    /**
+     * Returns the Order
+     *
+     * @return \phpseclib3\Math\BigInteger
+     */
+    public function getOrder()
+    {
+        return $this->order;
+    }
+
+    /**
+     * Use a custom defined modular reduction function
+     *
+     * @return object
+     */
+    public function setReduction(callable $func)
+    {
+        $this->factory->setReduction($func);
+    }
+
+    /**
+     * Returns the affine point
+     *
+     * @return object[]
+     */
+    public function convertToAffine(array $p)
+    {
+        return $p;
+    }
+
+    /**
+     * Converts an affine point to a jacobian coordinate
+     *
+     * @return object[]
+     */
+    public function convertToInternal(array $p)
+    {
+        return $p;
+    }
+
+    /**
+     * Negates a point
+     *
+     * @return object[]
+     */
+    public function negatePoint(array $p)
+    {
+        $temp = [
+            $p[0],
+            $p[1]->negate()
+        ];
+        if (isset($p[2])) {
+            $temp[] = $p[2];
+        }
+        return $temp;
+    }
+
+    /**
+     * Multiply and Add Points
+     *
+     * @return int[]
+     */
+    public function multiplyAddPoints(array $points, array $scalars)
+    {
+        $p1 = $this->convertToInternal($points[0]);
+        $p2 = $this->convertToInternal($points[1]);
+        $p1 = $this->multiplyPoint($p1, $scalars[0]);
+        $p2 = $this->multiplyPoint($p2, $scalars[1]);
+        $r = $this->addPoint($p1, $p2);
+        return $this->convertToAffine($r);
+    }
+}

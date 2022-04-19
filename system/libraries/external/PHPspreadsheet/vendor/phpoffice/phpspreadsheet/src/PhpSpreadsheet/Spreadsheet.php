@@ -1,457 +1,1490 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+namespace PhpOffice\PhpSpreadsheet;
+
+use PhpOffice\PhpSpreadsheet\Calculation\Calculation;
+use PhpOffice\PhpSpreadsheet\Style\Style;
+use PhpOffice\PhpSpreadsheet\Worksheet\Iterator;
+use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
+
+class Spreadsheet
+{
+    // Allowable values for workbook window visilbity
+    const VISIBILITY_VISIBLE = 'visible';
+    const VISIBILITY_HIDDEN = 'hidden';
+    const VISIBILITY_VERY_HIDDEN = 'veryHidden';
+
+    private static $workbookViewVisibilityValues = [
+        self::VISIBILITY_VISIBLE,
+        self::VISIBILITY_HIDDEN,
+        self::VISIBILITY_VERY_HIDDEN,
+    ];
+
+    /**
+     * Unique ID.
+     *
+     * @var string
+     */
+    private $uniqueID;
+
+    /**
+     * Document properties.
+     *
+     * @var Document\Properties
+     */
+    private $properties;
+
+    /**
+     * Document security.
+     *
+     * @var Document\Security
+     */
+    private $security;
+
+    /**
+     * Collection of Worksheet objects.
+     *
+     * @var Worksheet[]
+     */
+    private $workSheetCollection = [];
+
+    /**
+     * Calculation Engine.
+     *
+     * @var Calculation
+     */
+    private $calculationEngine;
+
+    /**
+     * Active sheet index.
+     *
+     * @var int
+     */
+    private $activeSheetIndex = 0;
+
+    /**
+     * Named ranges.
+     *
+     * @var NamedRange[]
+     */
+    private $namedRanges = [];
+
+    /**
+     * CellXf supervisor.
+     *
+     * @var Style
+     */
+    private $cellXfSupervisor;
+
+    /**
+     * CellXf collection.
+     *
+     * @var Style[]
+     */
+    private $cellXfCollection = [];
+
+    /**
+     * CellStyleXf collection.
+     *
+     * @var Style[]
+     */
+    private $cellStyleXfCollection = [];
+
+    /**
+     * hasMacros : this workbook have macros ?
+     *
+     * @var bool
+     */
+    private $hasMacros = false;
+
+    /**
+     * macrosCode : all macros code as binary data (the vbaProject.bin file, this include form, code,  etc.), null if no macro.
+     *
+     * @var string
+     */
+    private $macrosCode;
+
+    /**
+     * macrosCertificate : if macros are signed, contains binary data vbaProjectSignature.bin file, null if not signed.
+     *
+     * @var string
+     */
+    private $macrosCertificate;
+
+    /**
+     * ribbonXMLData : null if workbook is'nt Excel 2007 or not contain a customized UI.
+     *
+     * @var null|string
+     */
+    private $ribbonXMLData;
+
+    /**
+     * ribbonBinObjects : null if workbook is'nt Excel 2007 or not contain embedded objects (picture(s)) for Ribbon Elements
+     * ignored if $ribbonXMLData is null.
+     *
+     * @var null|array
+     */
+    private $ribbonBinObjects;
+
+    /**
+     * List of unparsed loaded data for export to same format with better compatibility.
+     * It has to be minimized when the library start to support currently unparsed data.
+     *
+     * @var array
+     */
+    private $unparsedLoadedData = [];
+
+    /**
+     * Controls visibility of the horizonal scroll bar in the application.
+     *
+     * @var bool
+     */
+    private $showHorizontalScroll = true;
+
+    /**
+     * Controls visibility of the horizonal scroll bar in the application.
+     *
+     * @var bool
+     */
+    private $showVerticalScroll = true;
+
+    /**
+     * Controls visibility of the sheet tabs in the application.
+     *
+     * @var bool
+     */
+    private $showSheetTabs = true;
+
+    /**
+     * Specifies a boolean value that indicates whether the workbook window
+     * is minimized.
+     *
+     * @var bool
+     */
+    private $minimized = false;
+
+    /**
+     * Specifies a boolean value that indicates whether to group dates
+     * when presenting the user with filtering optiomd in the user
+     * interface.
+     *
+     * @var bool
+     */
+    private $autoFilterDateGrouping = true;
+
+    /**
+     * Specifies the index to the first sheet in the book view.
+     *
+     * @var int
+     */
+    private $firstSheetIndex = 0;
+
+    /**
+     * Specifies the visible status of the workbook.
+     *
+     * @var string
+     */
+    private $visibility = self::VISIBILITY_VISIBLE;
+
+    /**
+     * Specifies the ratio between the workbook tabs bar and the horizontal
+     * scroll bar.  TabRatio is assumed to be out of 1000 of the horizontal
+     * window width.
+     *
+     * @var int
+     */
+    private $tabRatio = 600;
+
+    /**
+     * The workbook has macros ?
+     *
+     * @return bool
+     */
+    public function hasMacros()
+    {
+        return $this->hasMacros;
+    }
+
+    /**
+     * Define if a workbook has macros.
+     *
+     * @param bool $hasMacros true|false
+     */
+    public function setHasMacros($hasMacros)
+    {
+        $this->hasMacros = (bool) $hasMacros;
+    }
+
+    /**
+     * Set the macros code.
+     *
+     * @param string $macroCode string|null
+     */
+    public function setMacrosCode($macroCode)
+    {
+        $this->macrosCode = $macroCode;
+        $this->setHasMacros($macroCode !== null);
+    }
+
+    /**
+     * Return the macros code.
+     *
+     * @return null|string
+     */
+    public function getMacrosCode()
+    {
+        return $this->macrosCode;
+    }
+
+    /**
+     * Set the macros certificate.
+     *
+     * @param null|string $certificate
+     */
+    public function setMacrosCertificate($certificate)
+    {
+        $this->macrosCertificate = $certificate;
+    }
+
+    /**
+     * Is the project signed ?
+     *
+     * @return bool true|false
+     */
+    public function hasMacrosCertificate()
+    {
+        return $this->macrosCertificate !== null;
+    }
+
+    /**
+     * Return the macros certificate.
+     *
+     * @return null|string
+     */
+    public function getMacrosCertificate()
+    {
+        return $this->macrosCertificate;
+    }
+
+    /**
+     * Remove all macros, certificate from spreadsheet.
+     */
+    public function discardMacros()
+    {
+        $this->hasMacros = false;
+        $this->macrosCode = null;
+        $this->macrosCertificate = null;
+    }
+
+    /**
+     * set ribbon XML data.
+     *
+     * @param null|mixed $target
+     * @param null|mixed $xmlData
+     */
+    public function setRibbonXMLData($target, $xmlData)
+    {
+        if ($target !== null && $xmlData !== null) {
+            $this->ribbonXMLData = ['target' => $target, 'data' => $xmlData];
+        } else {
+            $this->ribbonXMLData = null;
+        }
+    }
+
+    /**
+     * retrieve ribbon XML Data.
+     *
+     * return string|null|array
+     *
+     * @param string $what
+     *
+     * @return string
+     */
+    public function getRibbonXMLData($what = 'all') //we need some constants here...
+    {
+        $returnData = null;
+        $what = strtolower($what);
+        switch ($what) {
+            case 'all':
+                $returnData = $this->ribbonXMLData;
+
+                break;
+            case 'target':
+            case 'data':
+                if (is_array($this->ribbonXMLData) && isset($this->ribbonXMLData[$what])) {
+                    $returnData = $this->ribbonXMLData[$what];
+                }
+
+                break;
+        }
+
+        return $returnData;
+    }
+
+    /**
+     * store binaries ribbon objects (pictures).
+     *
+     * @param null|mixed $BinObjectsNames
+     * @param null|mixed $BinObjectsData
+     */
+    public function setRibbonBinObjects($BinObjectsNames, $BinObjectsData)
+    {
+        if ($BinObjectsNames !== null && $BinObjectsData !== null) {
+            $this->ribbonBinObjects = ['names' => $BinObjectsNames, 'data' => $BinObjectsData];
+        } else {
+            $this->ribbonBinObjects = null;
+        }
+    }
+
+    /**
+     * List of unparsed loaded data for export to same format with better compatibility.
+     * It has to be minimized when the library start to support currently unparsed data.
+     *
+     * @internal
+     *
+     * @return array
+     */
+    public function getUnparsedLoadedData()
+    {
+        return $this->unparsedLoadedData;
+    }
+
+    /**
+     * List of unparsed loaded data for export to same format with better compatibility.
+     * It has to be minimized when the library start to support currently unparsed data.
+     *
+     * @internal
+     *
+     * @param array $unparsedLoadedData
+     */
+    public function setUnparsedLoadedData(array $unparsedLoadedData)
+    {
+        $this->unparsedLoadedData = $unparsedLoadedData;
+    }
+
+    /**
+     * return the extension of a filename. Internal use for a array_map callback (php<5.3 don't like lambda function).
+     *
+     * @param mixed $path
+     *
+     * @return string
+     */
+    private function getExtensionOnly($path)
+    {
+        return pathinfo($path, PATHINFO_EXTENSION);
+    }
+
+    /**
+     * retrieve Binaries Ribbon Objects.
+     *
+     * @param string $what
+     *
+     * @return null|array
+     */
+    public function getRibbonBinObjects($what = 'all')
+    {
+        $ReturnData = null;
+        $what = strtolower($what);
+        switch ($what) {
+            case 'all':
+                return $this->ribbonBinObjects;
+
+                break;
+            case 'names':
+            case 'data':
+                if (is_array($this->ribbonBinObjects) && isset($this->ribbonBinObjects[$what])) {
+                    $ReturnData = $this->ribbonBinObjects[$what];
+                }
+
+                break;
+            case 'types':
+                if (is_array($this->ribbonBinObjects) &&
+                    isset($this->ribbonBinObjects['data']) && is_array($this->ribbonBinObjects['data'])) {
+                    $tmpTypes = array_keys($this->ribbonBinObjects['data']);
+                    $ReturnData = array_unique(array_map([$this, 'getExtensionOnly'], $tmpTypes));
+                } else {
+                    $ReturnData = []; // the caller want an array... not null if empty
+                }
+
+                break;
+        }
+
+        return $ReturnData;
+    }
+
+    /**
+     * This workbook have a custom UI ?
+     *
+     * @return bool
+     */
+    public function hasRibbon()
+    {
+        return $this->ribbonXMLData !== null;
+    }
+
+    /**
+     * This workbook have additionnal object for the ribbon ?
+     *
+     * @return bool
+     */
+    public function hasRibbonBinObjects()
+    {
+        return $this->ribbonBinObjects !== null;
+    }
+
+    /**
+     * Check if a sheet with a specified code name already exists.
+     *
+     * @param string $pSheetCodeName Name of the worksheet to check
+     *
+     * @return bool
+     */
+    public function sheetCodeNameExists($pSheetCodeName)
+    {
+        return $this->getSheetByCodeName($pSheetCodeName) !== null;
+    }
+
+    /**
+     * Get sheet by code name. Warning : sheet don't have always a code name !
+     *
+     * @param string $pName Sheet name
+     *
+     * @return Worksheet
+     */
+    public function getSheetByCodeName($pName)
+    {
+        $worksheetCount = count($this->workSheetCollection);
+        for ($i = 0; $i < $worksheetCount; ++$i) {
+            if ($this->workSheetCollection[$i]->getCodeName() == $pName) {
+                return $this->workSheetCollection[$i];
+            }
+        }
+
+        return null;
+    }
+
+    /**
+     * Create a new PhpSpreadsheet with one Worksheet.
+     */
+    public function __construct()
+    {
+        $this->uniqueID = uniqid('', true);
+        $this->calculationEngine = new Calculation($this);
+
+        // Initialise worksheet collection and add one worksheet
+        $this->workSheetCollection = [];
+        $this->workSheetCollection[] = new Worksheet($this);
+        $this->activeSheetIndex = 0;
+
+        // Create document properties
+        $this->properties = new Document\Properties();
+
+        // Create document security
+        $this->security = new Document\Security();
+
+        // Set named ranges
+        $this->namedRanges = [];
+
+        // Create the cellXf supervisor
+        $this->cellXfSupervisor = new Style(true);
+        $this->cellXfSupervisor->bindParent($this);
+
+        // Create the default style
+        $this->addCellXf(new Style());
+        $this->addCellStyleXf(new Style());
+    }
+
+    /**
+     * Code to execute when this worksheet is unset().
+     */
+    public function __destruct()
+    {
+        $this->calculationEngine = null;
+        $this->disconnectWorksheets();
+    }
+
+    /**
+     * Disconnect all worksheets from this PhpSpreadsheet workbook object,
+     * typically so that the PhpSpreadsheet object can be unset.
+     */
+    public function disconnectWorksheets()
+    {
+        $worksheet = null;
+        foreach ($this->workSheetCollection as $k => &$worksheet) {
+            $worksheet->disconnectCells();
+            $this->workSheetCollection[$k] = null;
+        }
+        unset($worksheet);
+        $this->workSheetCollection = [];
+    }
+
+    /**
+     * Return the calculation engine for this worksheet.
+     *
+     * @return Calculation
+     */
+    public function getCalculationEngine()
+    {
+        return $this->calculationEngine;
+    }
+
+    /**
+     * Get properties.
+     *
+     * @return Document\Properties
+     */
+    public function getProperties()
+    {
+        return $this->properties;
+    }
+
+    /**
+     * Set properties.
+     *
+     * @param Document\Properties $pValue
+     */
+    public function setProperties(Document\Properties $pValue)
+    {
+        $this->properties = $pValue;
+    }
+
+    /**
+     * Get security.
+     *
+     * @return Document\Security
+     */
+    public function getSecurity()
+    {
+        return $this->security;
+    }
+
+    /**
+     * Set security.
+     *
+     * @param Document\Security $pValue
+     */
+    public function setSecurity(Document\Security $pValue)
+    {
+        $this->security = $pValue;
+    }
+
+    /**
+     * Get active sheet.
+     *
+     * @throws Exception
+     *
+     * @return Worksheet
+     */
+    public function getActiveSheet()
+    {
+        return $this->getSheet($this->activeSheetIndex);
+    }
+
+    /**
+     * Create sheet and add it to this workbook.
+     *
+     * @param null|int $sheetIndex Index where sheet should go (0,1,..., or null for last)
+     *
+     * @throws Exception
+     *
+     * @return Worksheet
+     */
+    public function createSheet($sheetIndex = null)
+    {
+        $newSheet = new Worksheet($this);
+        $this->addSheet($newSheet, $sheetIndex);
+
+        return $newSheet;
+    }
+
+    /**
+     * Check if a sheet with a specified name already exists.
+     *
+     * @param string $pSheetName Name of the worksheet to check
+     *
+     * @return bool
+     */
+    public function sheetNameExists($pSheetName)
+    {
+        return $this->getSheetByName($pSheetName) !== null;
+    }
+
+    /**
+     * Add sheet.
+     *
+     * @param Worksheet $pSheet
+     * @param null|int $iSheetIndex Index where sheet should go (0,1,..., or null for last)
+     *
+     * @throws Exception
+     *
+     * @return Worksheet
+     */
+    public function addSheet(Worksheet $pSheet, $iSheetIndex = null)
+    {
+        if ($this->sheetNameExists($pSheet->getTitle())) {
+            throw new Exception(
+                "Workbook already contains a worksheet named '{$pSheet->getTitle()}'. Rename this worksheet first."
+            );
+        }
+
+        if ($iSheetIndex === null) {
+            if ($this->activeSheetIndex < 0) {
+                $this->activeSheetIndex = 0;
+            }
+            $this->workSheetCollection[] = $pSheet;
+        } else {
+            // Insert the sheet at the requested index
+            array_splice(
+                $this->workSheetCollection,
+                $iSheetIndex,
+                0,
+                [$pSheet]
+            );
+
+            // Adjust active sheet index if necessary
+            if ($this->activeSheetIndex >= $iSheetIndex) {
+                ++$this->activeSheetIndex;
+            }
+        }
+
+        if ($pSheet->getParent() === null) {
+            $pSheet->rebindParent($this);
+        }
+
+        return $pSheet;
+    }
+
+    /**
+     * Remove sheet by index.
+     *
+     * @param int $pIndex Active sheet index
+     *
+     * @throws Exception
+     */
+    public function removeSheetByIndex($pIndex)
+    {
+        $numSheets = count($this->workSheetCollection);
+        if ($pIndex > $numSheets - 1) {
+            throw new Exception(
+                "You tried to remove a sheet by the out of bounds index: {$pIndex}. The actual number of sheets is {$numSheets}."
+            );
+        }
+        array_splice($this->workSheetCollection, $pIndex, 1);
+
+        // Adjust active sheet index if necessary
+        if (($this->activeSheetIndex >= $pIndex) &&
+            ($pIndex > count($this->workSheetCollection) - 1)) {
+            --$this->activeSheetIndex;
+        }
+    }
+
+    /**
+     * Get sheet by index.
+     *
+     * @param int $pIndex Sheet index
+     *
+     * @throws Exception
+     *
+     * @return Worksheet
+     */
+    public function getSheet($pIndex)
+    {
+        if (!isset($this->workSheetCollection[$pIndex])) {
+            $numSheets = $this->getSheetCount();
+
+            throw new Exception(
+                "Your requested sheet index: {$pIndex} is out of bounds. The actual number of sheets is {$numSheets}."
+            );
+        }
+
+        return $this->workSheetCollection[$pIndex];
+    }
+
+    /**
+     * Get all sheets.
+     *
+     * @return Worksheet[]
+     */
+    public function getAllSheets()
+    {
+        return $this->workSheetCollection;
+    }
+
+    /**
+     * Get sheet by name.
+     *
+     * @param string $pName Sheet name
+     *
+     * @return null|Worksheet
+     */
+    public function getSheetByName($pName)
+    {
+        $worksheetCount = count($this->workSheetCollection);
+        for ($i = 0; $i < $worksheetCount; ++$i) {
+            if ($this->workSheetCollection[$i]->getTitle() === trim($pName, "'")) {
+                return $this->workSheetCollection[$i];
+            }
+        }
+
+        return null;
+    }
+
+    /**
+     * Get index for sheet.
+     *
+     * @param Worksheet $pSheet
+     *
+     * @throws Exception
+     *
+     * @return int index
+     */
+    public function getIndex(Worksheet $pSheet)
+    {
+        foreach ($this->workSheetCollection as $key => $value) {
+            if ($value->getHashCode() == $pSheet->getHashCode()) {
+                return $key;
+            }
+        }
+
+        throw new Exception('Sheet does not exist.');
+    }
+
+    /**
+     * Set index for sheet by sheet name.
+     *
+     * @param string $sheetName Sheet name to modify index for
+     * @param int $newIndex New index for the sheet
+     *
+     * @throws Exception
+     *
+     * @return int New sheet index
+     */
+    public function setIndexByName($sheetName, $newIndex)
+    {
+        $oldIndex = $this->getIndex($this->getSheetByName($sheetName));
+        $pSheet = array_splice(
+            $this->workSheetCollection,
+            $oldIndex,
+            1
+        );
+        array_splice(
+            $this->workSheetCollection,
+            $newIndex,
+            0,
+            $pSheet
+        );
+
+        return $newIndex;
+    }
+
+    /**
+     * Get sheet count.
+     *
+     * @return int
+     */
+    public function getSheetCount()
+    {
+        return count($this->workSheetCollection);
+    }
+
+    /**
+     * Get active sheet index.
+     *
+     * @return int Active sheet index
+     */
+    public function getActiveSheetIndex()
+    {
+        return $this->activeSheetIndex;
+    }
+
+    /**
+     * Set active sheet index.
+     *
+     * @param int $pIndex Active sheet index
+     *
+     * @throws Exception
+     *
+     * @return Worksheet
+     */
+    public function setActiveSheetIndex($pIndex)
+    {
+        $numSheets = count($this->workSheetCollection);
+
+        if ($pIndex > $numSheets - 1) {
+            throw new Exception(
+                "You tried to set a sheet active by the out of bounds index: {$pIndex}. The actual number of sheets is {$numSheets}."
+            );
+        }
+        $this->activeSheetIndex = $pIndex;
+
+        return $this->getActiveSheet();
+    }
+
+    /**
+     * Set active sheet index by name.
+     *
+     * @param string $pValue Sheet title
+     *
+     * @throws Exception
+     *
+     * @return Worksheet
+     */
+    public function setActiveSheetIndexByName($pValue)
+    {
+        if (($worksheet = $this->getSheetByName($pValue)) instanceof Worksheet) {
+            $this->setActiveSheetIndex($this->getIndex($worksheet));
+
+            return $worksheet;
+        }
+
+        throw new Exception('Workbook does not contain sheet:' . $pValue);
+    }
+
+    /**
+     * Get sheet names.
+     *
+     * @return string[]
+     */
+    public function getSheetNames()
+    {
+        $returnValue = [];
+        $worksheetCount = $this->getSheetCount();
+        for ($i = 0; $i < $worksheetCount; ++$i) {
+            $returnValue[] = $this->getSheet($i)->getTitle();
+        }
+
+        return $returnValue;
+    }
+
+    /**
+     * Add external sheet.
+     *
+     * @param Worksheet $pSheet External sheet to add
+     * @param null|int $iSheetIndex Index where sheet should go (0,1,..., or null for last)
+     *
+     * @throws Exception
+     *
+     * @return Worksheet
+     */
+    public function addExternalSheet(Worksheet $pSheet, $iSheetIndex = null)
+    {
+        if ($this->sheetNameExists($pSheet->getTitle())) {
+            throw new Exception("Workbook already contains a worksheet named '{$pSheet->getTitle()}'. Rename the external sheet first.");
+        }
+
+        // count how many cellXfs there are in this workbook currently, we will need this below
+        $countCellXfs = count($this->cellXfCollection);
+
+        // copy all the shared cellXfs from the external workbook and append them to the current
+        foreach ($pSheet->getParent()->getCellXfCollection() as $cellXf) {
+            $this->addCellXf(clone $cellXf);
+        }
+
+        // move sheet to this workbook
+        $pSheet->rebindParent($this);
+
+        // update the cellXfs
+        foreach ($pSheet->getCoordinates(false) as $coordinate) {
+            $cell = $pSheet->getCell($coordinate);
+            $cell->setXfIndex($cell->getXfIndex() + $countCellXfs);
+        }
+
+        return $this->addSheet($pSheet, $iSheetIndex);
+    }
+
+    /**
+     * Get named ranges.
+     *
+     * @return NamedRange[]
+     */
+    public function getNamedRanges()
+    {
+        return $this->namedRanges;
+    }
+
+    /**
+     * Add named range.
+     *
+     * @param NamedRange $namedRange
+     *
+     * @return bool
+     */
+    public function addNamedRange(NamedRange $namedRange)
+    {
+        if ($namedRange->getScope() == null) {
+            // global scope
+            $this->namedRanges[$namedRange->getName()] = $namedRange;
+        } else {
+            // local scope
+            $this->namedRanges[$namedRange->getScope()->getTitle() . '!' . $namedRange->getName()] = $namedRange;
+        }
+
+        return true;
+    }
+
+    /**
+     * Get named range.
+     *
+     * @param string $namedRange
+     * @param null|Worksheet $pSheet Scope. Use null for global scope
+     *
+     * @return null|NamedRange
+     */
+    public function getNamedRange($namedRange, Worksheet $pSheet = null)
+    {
+        $returnValue = null;
+
+        if ($namedRange != '' && ($namedRange !== null)) {
+            // first look for global defined name
+            if (isset($this->namedRanges[$namedRange])) {
+                $returnValue = $this->namedRanges[$namedRange];
+            }
+
+            // then look for local defined name (has priority over global defined name if both names exist)
+            if (($pSheet !== null) && isset($this->namedRanges[$pSheet->getTitle() . '!' . $namedRange])) {
+                $returnValue = $this->namedRanges[$pSheet->getTitle() . '!' . $namedRange];
+            }
+        }
+
+        return $returnValue;
+    }
+
+    /**
+     * Remove named range.
+     *
+     * @param string $namedRange
+     * @param null|Worksheet $pSheet scope: use null for global scope
+     *
+     * @return Spreadsheet
+     */
+    public function removeNamedRange($namedRange, Worksheet $pSheet = null)
+    {
+        if ($pSheet === null) {
+            if (isset($this->namedRanges[$namedRange])) {
+                unset($this->namedRanges[$namedRange]);
+            }
+        } else {
+            if (isset($this->namedRanges[$pSheet->getTitle() . '!' . $namedRange])) {
+                unset($this->namedRanges[$pSheet->getTitle() . '!' . $namedRange]);
+            }
+        }
+
+        return $this;
+    }
+
+    /**
+     * Get worksheet iterator.
+     *
+     * @return Iterator
+     */
+    public function getWorksheetIterator()
+    {
+        return new Iterator($this);
+    }
+
+    /**
+     * Copy workbook (!= clone!).
+     *
+     * @return Spreadsheet
+     */
+    public function copy()
+    {
+        $copied = clone $this;
+
+        $worksheetCount = count($this->workSheetCollection);
+        for ($i = 0; $i < $worksheetCount; ++$i) {
+            $this->workSheetCollection[$i] = $this->workSheetCollection[$i]->copy();
+            $this->workSheetCollection[$i]->rebindParent($this);
+        }
+
+        return $copied;
+    }
+
+    /**
+     * Implement PHP __clone to create a deep clone, not just a shallow copy.
+     */
+    public function __clone()
+    {
+        foreach ($this as $key => $val) {
+            if (is_object($val) || (is_array($val))) {
+                $this->{$key} = unserialize(serialize($val));
+            }
+        }
+    }
+
+    /**
+     * Get the workbook collection of cellXfs.
+     *
+     * @return Style[]
+     */
+    public function getCellXfCollection()
+    {
+        return $this->cellXfCollection;
+    }
+
+    /**
+     * Get cellXf by index.
+     *
+     * @param int $pIndex
+     *
+     * @return Style
+     */
+    public function getCellXfByIndex($pIndex)
+    {
+        return $this->cellXfCollection[$pIndex];
+    }
+
+    /**
+     * Get cellXf by hash code.
+     *
+     * @param string $pValue
+     *
+     * @return false|Style
+     */
+    public function getCellXfByHashCode($pValue)
+    {
+        foreach ($this->cellXfCollection as $cellXf) {
+            if ($cellXf->getHashCode() == $pValue) {
+                return $cellXf;
+            }
+        }
+
+        return false;
+    }
+
+    /**
+     * Check if style exists in style collection.
+     *
+     * @param Style $pCellStyle
+     *
+     * @return bool
+     */
+    public function cellXfExists($pCellStyle)
+    {
+        return in_array($pCellStyle, $this->cellXfCollection, true);
+    }
+
+    /**
+     * Get default style.
+     *
+     * @throws Exception
+     *
+     * @return Style
+     */
+    public function getDefaultStyle()
+    {
+        if (isset($this->cellXfCollection[0])) {
+            return $this->cellXfCollection[0];
+        }
+
+        throw new Exception('No default style found for this workbook');
+    }
+
+    /**
+     * Add a cellXf to the workbook.
+     *
+     * @param Style $style
+     */
+    public function addCellXf(Style $style)
+    {
+        $this->cellXfCollection[] = $style;
+        $style->setIndex(count($this->cellXfCollection) - 1);
+    }
+
+    /**
+     * Remove cellXf by index. It is ensured that all cells get their xf index updated.
+     *
+     * @param int $pIndex Index to cellXf
+     *
+     * @throws Exception
+     */
+    public function removeCellXfByIndex($pIndex)
+    {
+        if ($pIndex > count($this->cellXfCollection) - 1) {
+            throw new Exception('CellXf index is out of bounds.');
+        }
+
+        // first remove the cellXf
+        array_splice($this->cellXfCollection, $pIndex, 1);
+
+        // then update cellXf indexes for cells
+        foreach ($this->workSheetCollection as $worksheet) {
+            foreach ($worksheet->getCoordinates(false) as $coordinate) {
+                $cell = $worksheet->getCell($coordinate);
+                $xfIndex = $cell->getXfIndex();
+                if ($xfIndex > $pIndex) {
+                    // decrease xf index by 1
+                    $cell->setXfIndex($xfIndex - 1);
+                } elseif ($xfIndex == $pIndex) {
+                    // set to default xf index 0
+                    $cell->setXfIndex(0);
+                }
+            }
+        }
+    }
+
+    /**
+     * Get the cellXf supervisor.
+     *
+     * @return Style
+     */
+    public function getCellXfSupervisor()
+    {
+        return $this->cellXfSupervisor;
+    }
+
+    /**
+     * Get the workbook collection of cellStyleXfs.
+     *
+     * @return Style[]
+     */
+    public function getCellStyleXfCollection()
+    {
+        return $this->cellStyleXfCollection;
+    }
+
+    /**
+     * Get cellStyleXf by index.
+     *
+     * @param int $pIndex Index to cellXf
+     *
+     * @return Style
+     */
+    public function getCellStyleXfByIndex($pIndex)
+    {
+        return $this->cellStyleXfCollection[$pIndex];
+    }
+
+    /**
+     * Get cellStyleXf by hash code.
+     *
+     * @param string $pValue
+     *
+     * @return false|Style
+     */
+    public function getCellStyleXfByHashCode($pValue)
+    {
+        foreach ($this->cellStyleXfCollection as $cellStyleXf) {
+            if ($cellStyleXf->getHashCode() == $pValue) {
+                return $cellStyleXf;
+            }
+        }
+
+        return false;
+    }
+
+    /**
+     * Add a cellStyleXf to the workbook.
+     *
+     * @param Style $pStyle
+     */
+    public function addCellStyleXf(Style $pStyle)
+    {
+        $this->cellStyleXfCollection[] = $pStyle;
+        $pStyle->setIndex(count($this->cellStyleXfCollection) - 1);
+    }
+
+    /**
+     * Remove cellStyleXf by index.
+     *
+     * @param int $pIndex Index to cellXf
+     *
+     * @throws Exception
+     */
+    public function removeCellStyleXfByIndex($pIndex)
+    {
+        if ($pIndex > count($this->cellStyleXfCollection) - 1) {
+            throw new Exception('CellStyleXf index is out of bounds.');
+        }
+        array_splice($this->cellStyleXfCollection, $pIndex, 1);
+    }
+
+    /**
+     * Eliminate all unneeded cellXf and afterwards update the xfIndex for all cells
+     * and columns in the workbook.
+     */
+    public function garbageCollect()
+    {
+        // how many references are there to each cellXf ?
+        $countReferencesCellXf = [];
+        foreach ($this->cellXfCollection as $index => $cellXf) {
+            $countReferencesCellXf[$index] = 0;
+        }
+
+        foreach ($this->getWorksheetIterator() as $sheet) {
+            // from cells
+            foreach ($sheet->getCoordinates(false) as $coordinate) {
+                $cell = $sheet->getCell($coordinate);
+                ++$countReferencesCellXf[$cell->getXfIndex()];
+            }
+
+            // from row dimensions
+            foreach ($sheet->getRowDimensions() as $rowDimension) {
+                if ($rowDimension->getXfIndex() !== null) {
+                    ++$countReferencesCellXf[$rowDimension->getXfIndex()];
+                }
+            }
+
+            // from column dimensions
+            foreach ($sheet->getColumnDimensions() as $columnDimension) {
+                ++$countReferencesCellXf[$columnDimension->getXfIndex()];
+            }
+        }
+
+        // remove cellXfs without references and create mapping so we can update xfIndex
+        // for all cells and columns
+        $countNeededCellXfs = 0;
+        foreach ($this->cellXfCollection as $index => $cellXf) {
+            if ($countReferencesCellXf[$index] > 0 || $index == 0) { // we must never remove the first cellXf
+                ++$countNeededCellXfs;
+            } else {
+                unset($this->cellXfCollection[$index]);
+            }
+            $map[$index] = $countNeededCellXfs - 1;
+        }
+        $this->cellXfCollection = array_values($this->cellXfCollection);
+
+        // update the index for all cellXfs
+        foreach ($this->cellXfCollection as $i => $cellXf) {
+            $cellXf->setIndex($i);
+        }
+
+        // make sure there is always at least one cellXf (there should be)
+        if (empty($this->cellXfCollection)) {
+            $this->cellXfCollection[] = new Style();
+        }
+
+        // update the xfIndex for all cells, row dimensions, column dimensions
+        foreach ($this->getWorksheetIterator() as $sheet) {
+            // for all cells
+            foreach ($sheet->getCoordinates(false) as $coordinate) {
+                $cell = $sheet->getCell($coordinate);
+                $cell->setXfIndex($map[$cell->getXfIndex()]);
+            }
+
+            // for all row dimensions
+            foreach ($sheet->getRowDimensions() as $rowDimension) {
+                if ($rowDimension->getXfIndex() !== null) {
+                    $rowDimension->setXfIndex($map[$rowDimension->getXfIndex()]);
+                }
+            }
+
+            // for all column dimensions
+            foreach ($sheet->getColumnDimensions() as $columnDimension) {
+                $columnDimension->setXfIndex($map[$columnDimension->getXfIndex()]);
+            }
+
+            // also do garbage collection for all the sheets
+            $sheet->garbageCollect();
+        }
+    }
+
+    /**
+     * Return the unique ID value assigned to this spreadsheet workbook.
+     *
+     * @return string
+     */
+    public function getID()
+    {
+        return $this->uniqueID;
+    }
+
+    /**
+     * Get the visibility of the horizonal scroll bar in the application.
+     *
+     * @return bool True if horizonal scroll bar is visible
+     */
+    public function getShowHorizontalScroll()
+    {
+        return $this->showHorizontalScroll;
+    }
+
+    /**
+     * Set the visibility of the horizonal scroll bar in the application.
+     *
+     * @param bool $showHorizontalScroll True if horizonal scroll bar is visible
+     */
+    public function setShowHorizontalScroll($showHorizontalScroll)
+    {
+        $this->showHorizontalScroll = (bool) $showHorizontalScroll;
+    }
+
+    /**
+     * Get the visibility of the vertical scroll bar in the application.
+     *
+     * @return bool True if vertical scroll bar is visible
+     */
+    public function getShowVerticalScroll()
+    {
+        return $this->showVerticalScroll;
+    }
+
+    /**
+     * Set the visibility of the vertical scroll bar in the application.
+     *
+     * @param bool $showVerticalScroll True if vertical scroll bar is visible
+     */
+    public function setShowVerticalScroll($showVerticalScroll)
+    {
+        $this->showVerticalScroll = (bool) $showVerticalScroll;
+    }
+
+    /**
+     * Get the visibility of the sheet tabs in the application.
+     *
+     * @return bool True if the sheet tabs are visible
+     */
+    public function getShowSheetTabs()
+    {
+        return $this->showSheetTabs;
+    }
+
+    /**
+     * Set the visibility of the sheet tabs  in the application.
+     *
+     * @param bool $showSheetTabs True if sheet tabs are visible
+     */
+    public function setShowSheetTabs($showSheetTabs)
+    {
+        $this->showSheetTabs = (bool) $showSheetTabs;
+    }
+
+    /**
+     * Return whether the workbook window is minimized.
+     *
+     * @return bool true if workbook window is minimized
+     */
+    public function getMinimized()
+    {
+        return $this->minimized;
+    }
+
+    /**
+     * Set whether the workbook window is minimized.
+     *
+     * @param bool $minimized true if workbook window is minimized
+     */
+    public function setMinimized($minimized)
+    {
+        $this->minimized = (bool) $minimized;
+    }
+
+    /**
+     * Return whether to group dates when presenting the user with
+     * filtering optiomd in the user interface.
+     *
+     * @return bool true if workbook window is minimized
+     */
+    public function getAutoFilterDateGrouping()
+    {
+        return $this->autoFilterDateGrouping;
+    }
+
+    /**
+     * Set whether to group dates when presenting the user with
+     * filtering optiomd in the user interface.
+     *
+     * @param bool $autoFilterDateGrouping true if workbook window is minimized
+     */
+    public function setAutoFilterDateGrouping($autoFilterDateGrouping)
+    {
+        $this->autoFilterDateGrouping = (bool) $autoFilterDateGrouping;
+    }
+
+    /**
+     * Return the first sheet in the book view.
+     *
+     * @return int First sheet in book view
+     */
+    public function getFirstSheetIndex()
+    {
+        return $this->firstSheetIndex;
+    }
+
+    /**
+     * Set the first sheet in the book view.
+     *
+     * @param int $firstSheetIndex First sheet in book view
+     *
+     * @throws Exception  if the given value is invalid
+     */
+    public function setFirstSheetIndex($firstSheetIndex)
+    {
+        if ($firstSheetIndex >= 0) {
+            $this->firstSheetIndex = (int) $firstSheetIndex;
+        } else {
+            throw new Exception('First sheet index must be a positive integer.');
+        }
+    }
+
+    /**
+     * Return the visibility status of the workbook.
+     *
+     * This may be one of the following three values:
+     * - visibile
+     *
+     * @return string Visible status
+     */
+    public function getVisibility()
+    {
+        return $this->visibility;
+    }
+
+    /**
+     * Set the visibility status of the workbook.
+     *
+     * Valid values are:
+     *  - 'visible' (self::VISIBILITY_VISIBLE):
+     *       Workbook window is visible
+     *  - 'hidden' (self::VISIBILITY_HIDDEN):
+     *       Workbook window is hidden, but can be shown by the user
+     *       via the user interface
+     *  - 'veryHidden' (self::VISIBILITY_VERY_HIDDEN):
+     *       Workbook window is hidden and cannot be shown in the
+     *       user interface.
+     *
+     * @param string $visibility visibility status of the workbook
+     *
+     * @throws Exception  if the given value is invalid
+     */
+    public function setVisibility($visibility)
+    {
+        if ($visibility === null) {
+            $visibility = self::VISIBILITY_VISIBLE;
+        }
+
+        if (in_array($visibility, self::$workbookViewVisibilityValues)) {
+            $this->visibility = $visibility;
+        } else {
+            throw new Exception('Invalid visibility value.');
+        }
+    }
+
+    /**
+     * Get the ratio between the workbook tabs bar and the horizontal scroll bar.
+     * TabRatio is assumed to be out of 1000 of the horizontal window width.
+     *
+     * @return int Ratio between the workbook tabs bar and the horizontal scroll bar
+     */
+    public function getTabRatio()
+    {
+        return $this->tabRatio;
+    }
+
+    /**
+     * Set the ratio between the workbook tabs bar and the horizontal scroll bar
+     * TabRatio is assumed to be out of 1000 of the horizontal window width.
+     *
+     * @param int $tabRatio Ratio between the tabs bar and the horizontal scroll bar
+     *
+     * @throws Exception  if the given value is invalid
+     */
+    public function setTabRatio($tabRatio)
+    {
+        if ($tabRatio >= 0 || $tabRatio <= 1000) {
+            $this->tabRatio = (int) $tabRatio;
+        } else {
+            throw new Exception('Tab ratio must be between 0 and 1000.');
+        }
+    }
+}

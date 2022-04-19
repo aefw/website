@@ -1,70 +1,188 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dialogflow\Resource;
+
+use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3ListPagesResponse;
+use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3Page;
+use Google\Service\Dialogflow\GoogleProtobufEmpty;
+
+/**
+ * The "pages" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $dialogflowService = new Google\Service\Dialogflow(...);
+ *   $pages = $dialogflowService->pages;
+ *  </code>
+ */
+class ProjectsLocationsAgentsFlowsPages extends \Google\Service\Resource
+{
+  /**
+   * Creates a page in the specified flow. (pages.create)
+   *
+   * @param string $parent Required. The flow to create a page for. Format:
+   * `projects//locations//agents//flows/`.
+   * @param GoogleCloudDialogflowCxV3Page $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string languageCode The language of the following fields in
+   * `page`: * `Page.entry_fulfillment.messages` *
+   * `Page.entry_fulfillment.conditional_cases` *
+   * `Page.event_handlers.trigger_fulfillment.messages` *
+   * `Page.event_handlers.trigger_fulfillment.conditional_cases` *
+   * `Page.form.parameters.fill_behavior.initial_prompt_fulfillment.messages` * `P
+   * age.form.parameters.fill_behavior.initial_prompt_fulfillment.conditional_case
+   * s` * `Page.form.parameters.fill_behavior.reprompt_event_handlers.messages` *
+   * `Page.form.parameters.fill_behavior.reprompt_event_handlers.conditional_cases
+   * ` * `Page.transition_routes.trigger_fulfillment.messages` *
+   * `Page.transition_routes.trigger_fulfillment.conditional_cases` If not
+   * specified, the agent's default language is used. [Many
+   * languages](https://cloud.google.com/dialogflow/cx/docs/reference/language)
+   * are supported. Note: languages must be enabled in the agent before they can
+   * be used.
+   * @return GoogleCloudDialogflowCxV3Page
+   */
+  public function create($parent, GoogleCloudDialogflowCxV3Page $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleCloudDialogflowCxV3Page::class);
+  }
+  /**
+   * Deletes the specified page. (pages.delete)
+   *
+   * @param string $name Required. The name of the page to delete. Format:
+   * `projects//locations//agents//Flows//pages/`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool force This field has no effect for pages with no incoming
+   * transitions. For pages with incoming transitions: * If `force` is set to
+   * false, an error will be returned with message indicating the incoming
+   * transitions. * If `force` is set to true, Dialogflow will remove the page, as
+   * well as any transitions to the page (i.e. Target page in event handlers or
+   * Target page in transition routes that point to this page will be cleared).
+   * @return GoogleProtobufEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
+  }
+  /**
+   * Retrieves the specified page. (pages.get)
+   *
+   * @param string $name Required. The name of the page. Format:
+   * `projects//locations//agents//flows//pages/`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string languageCode The language to retrieve the page for. The
+   * following fields are language dependent: * `Page.entry_fulfillment.messages`
+   * * `Page.entry_fulfillment.conditional_cases` *
+   * `Page.event_handlers.trigger_fulfillment.messages` *
+   * `Page.event_handlers.trigger_fulfillment.conditional_cases` *
+   * `Page.form.parameters.fill_behavior.initial_prompt_fulfillment.messages` * `P
+   * age.form.parameters.fill_behavior.initial_prompt_fulfillment.conditional_case
+   * s` * `Page.form.parameters.fill_behavior.reprompt_event_handlers.messages` *
+   * `Page.form.parameters.fill_behavior.reprompt_event_handlers.conditional_cases
+   * ` * `Page.transition_routes.trigger_fulfillment.messages` *
+   * `Page.transition_routes.trigger_fulfillment.conditional_cases` If not
+   * specified, the agent's default language is used. [Many
+   * languages](https://cloud.google.com/dialogflow/cx/docs/reference/language)
+   * are supported. Note: languages must be enabled in the agent before they can
+   * be used.
+   * @return GoogleCloudDialogflowCxV3Page
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudDialogflowCxV3Page::class);
+  }
+  /**
+   * Returns the list of all pages in the specified flow.
+   * (pages.listProjectsLocationsAgentsFlowsPages)
+   *
+   * @param string $parent Required. The flow to list all pages for. Format:
+   * `projects//locations//agents//flows/`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string languageCode The language to list pages for. The following
+   * fields are language dependent: * `Page.entry_fulfillment.messages` *
+   * `Page.entry_fulfillment.conditional_cases` *
+   * `Page.event_handlers.trigger_fulfillment.messages` *
+   * `Page.event_handlers.trigger_fulfillment.conditional_cases` *
+   * `Page.form.parameters.fill_behavior.initial_prompt_fulfillment.messages` * `P
+   * age.form.parameters.fill_behavior.initial_prompt_fulfillment.conditional_case
+   * s` * `Page.form.parameters.fill_behavior.reprompt_event_handlers.messages` *
+   * `Page.form.parameters.fill_behavior.reprompt_event_handlers.conditional_cases
+   * ` * `Page.transition_routes.trigger_fulfillment.messages` *
+   * `Page.transition_routes.trigger_fulfillment.conditional_cases` If not
+   * specified, the agent's default language is used. [Many
+   * languages](https://cloud.google.com/dialogflow/cx/docs/reference/language)
+   * are supported. Note: languages must be enabled in the agent before they can
+   * be used.
+   * @opt_param int pageSize The maximum number of items to return in a single
+   * page. By default 100 and at most 1000.
+   * @opt_param string pageToken The next_page_token value returned from a
+   * previous list request.
+   * @return GoogleCloudDialogflowCxV3ListPagesResponse
+   */
+  public function listProjectsLocationsAgentsFlowsPages($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleCloudDialogflowCxV3ListPagesResponse::class);
+  }
+  /**
+   * Updates the specified page. (pages.patch)
+   *
+   * @param string $name The unique identifier of the page. Required for the
+   * Pages.UpdatePage method. Pages.CreatePage populates the name automatically.
+   * Format: `projects//locations//agents//flows//pages/`.
+   * @param GoogleCloudDialogflowCxV3Page $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string languageCode The language of the following fields in
+   * `page`: * `Page.entry_fulfillment.messages` *
+   * `Page.entry_fulfillment.conditional_cases` *
+   * `Page.event_handlers.trigger_fulfillment.messages` *
+   * `Page.event_handlers.trigger_fulfillment.conditional_cases` *
+   * `Page.form.parameters.fill_behavior.initial_prompt_fulfillment.messages` * `P
+   * age.form.parameters.fill_behavior.initial_prompt_fulfillment.conditional_case
+   * s` * `Page.form.parameters.fill_behavior.reprompt_event_handlers.messages` *
+   * `Page.form.parameters.fill_behavior.reprompt_event_handlers.conditional_cases
+   * ` * `Page.transition_routes.trigger_fulfillment.messages` *
+   * `Page.transition_routes.trigger_fulfillment.conditional_cases` If not
+   * specified, the agent's default language is used. [Many
+   * languages](https://cloud.google.com/dialogflow/cx/docs/reference/language)
+   * are supported. Note: languages must be enabled in the agent before they can
+   * be used.
+   * @opt_param string updateMask The mask to control which fields get updated. If
+   * the mask is not present, all fields will be updated.
+   * @return GoogleCloudDialogflowCxV3Page
+   */
+  public function patch($name, GoogleCloudDialogflowCxV3Page $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], GoogleCloudDialogflowCxV3Page::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsAgentsFlowsPages::class, 'Google_Service_Dialogflow_Resource_ProjectsLocationsAgentsFlowsPages');

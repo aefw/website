@@ -1,115 +1,1198 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for TagManager (v2).
+ *
+ * <p>
+ * This API allows clients to access and modify container and tag configuration.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://developers.google.com/tag-manager" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class TagManager extends \Google\Service
+{
+  /** Delete your Google Tag Manager containers. */
+  const TAGMANAGER_DELETE_CONTAINERS =
+      "https://www.googleapis.com/auth/tagmanager.delete.containers";
+  /** Manage your Google Tag Manager container and its subcomponents, excluding versioning and publishing. */
+  const TAGMANAGER_EDIT_CONTAINERS =
+      "https://www.googleapis.com/auth/tagmanager.edit.containers";
+  /** Manage your Google Tag Manager container versions. */
+  const TAGMANAGER_EDIT_CONTAINERVERSIONS =
+      "https://www.googleapis.com/auth/tagmanager.edit.containerversions";
+  /** View and manage your Google Tag Manager accounts. */
+  const TAGMANAGER_MANAGE_ACCOUNTS =
+      "https://www.googleapis.com/auth/tagmanager.manage.accounts";
+  /** Manage user permissions of your Google Tag Manager account and container. */
+  const TAGMANAGER_MANAGE_USERS =
+      "https://www.googleapis.com/auth/tagmanager.manage.users";
+  /** Publish your Google Tag Manager container versions. */
+  const TAGMANAGER_PUBLISH =
+      "https://www.googleapis.com/auth/tagmanager.publish";
+  /** View your Google Tag Manager container and its subcomponents. */
+  const TAGMANAGER_READONLY =
+      "https://www.googleapis.com/auth/tagmanager.readonly";
+
+  public $accounts;
+  public $accounts_containers;
+  public $accounts_containers_environments;
+  public $accounts_containers_version_headers;
+  public $accounts_containers_versions;
+  public $accounts_containers_workspaces;
+  public $accounts_containers_workspaces_built_in_variables;
+  public $accounts_containers_workspaces_folders;
+  public $accounts_containers_workspaces_tags;
+  public $accounts_containers_workspaces_templates;
+  public $accounts_containers_workspaces_triggers;
+  public $accounts_containers_workspaces_variables;
+  public $accounts_containers_workspaces_zones;
+  public $accounts_user_permissions;
+
+  /**
+   * Constructs the internal representation of the TagManager service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://tagmanager.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v2';
+    $this->serviceName = 'tagmanager';
+
+    $this->accounts = new TagManager\Resource\Accounts(
+        $this,
+        $this->serviceName,
+        'accounts',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'tagmanager/v2/{+path}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'tagmanager/v2/accounts',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'tagmanager/v2/{+path}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'fingerprint' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->accounts_containers = new TagManager\Resource\AccountsContainers(
+        $this,
+        $this->serviceName,
+        'containers',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'tagmanager/v2/{+parent}/containers',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'tagmanager/v2/{+path}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'tagmanager/v2/{+path}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'tagmanager/v2/{+parent}/containers',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'tagmanager/v2/{+path}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'fingerprint' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->accounts_containers_environments = new TagManager\Resource\AccountsContainersEnvironments(
+        $this,
+        $this->serviceName,
+        'environments',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'tagmanager/v2/{+parent}/environments',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'tagmanager/v2/{+path}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'tagmanager/v2/{+path}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'tagmanager/v2/{+parent}/environments',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'reauthorize' => [
+              'path' => 'tagmanager/v2/{+path}:reauthorize',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'tagmanager/v2/{+path}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'fingerprint' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->accounts_containers_version_headers = new TagManager\Resource\AccountsContainersVersionHeaders(
+        $this,
+        $this->serviceName,
+        'version_headers',
+        [
+          'methods' => [
+            'latest' => [
+              'path' => 'tagmanager/v2/{+parent}/version_headers:latest',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'tagmanager/v2/{+parent}/version_headers',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'includeDeleted' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->accounts_containers_versions = new TagManager\Resource\AccountsContainersVersions(
+        $this,
+        $this->serviceName,
+        'versions',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'tagmanager/v2/{+path}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'tagmanager/v2/{+path}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'containerVersionId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'live' => [
+              'path' => 'tagmanager/v2/{+parent}/versions:live',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'publish' => [
+              'path' => 'tagmanager/v2/{+path}:publish',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'fingerprint' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'set_latest' => [
+              'path' => 'tagmanager/v2/{+path}:set_latest',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'undelete' => [
+              'path' => 'tagmanager/v2/{+path}:undelete',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'tagmanager/v2/{+path}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'fingerprint' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->accounts_containers_workspaces = new TagManager\Resource\AccountsContainersWorkspaces(
+        $this,
+        $this->serviceName,
+        'workspaces',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'tagmanager/v2/{+parent}/workspaces',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create_version' => [
+              'path' => 'tagmanager/v2/{+path}:create_version',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'tagmanager/v2/{+path}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'tagmanager/v2/{+path}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getStatus' => [
+              'path' => 'tagmanager/v2/{+path}/status',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'tagmanager/v2/{+parent}/workspaces',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'quick_preview' => [
+              'path' => 'tagmanager/v2/{+path}:quick_preview',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'resolve_conflict' => [
+              'path' => 'tagmanager/v2/{+path}:resolve_conflict',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'fingerprint' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'sync' => [
+              'path' => 'tagmanager/v2/{+path}:sync',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'tagmanager/v2/{+path}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'fingerprint' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->accounts_containers_workspaces_built_in_variables = new TagManager\Resource\AccountsContainersWorkspacesBuiltInVariables(
+        $this,
+        $this->serviceName,
+        'built_in_variables',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'tagmanager/v2/{+parent}/built_in_variables',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'type' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'tagmanager/v2/{+path}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'type' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'tagmanager/v2/{+parent}/built_in_variables',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'revert' => [
+              'path' => 'tagmanager/v2/{+path}/built_in_variables:revert',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'type' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->accounts_containers_workspaces_folders = new TagManager\Resource\AccountsContainersWorkspacesFolders(
+        $this,
+        $this->serviceName,
+        'folders',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'tagmanager/v2/{+parent}/folders',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'tagmanager/v2/{+path}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'entities' => [
+              'path' => 'tagmanager/v2/{+path}:entities',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'tagmanager/v2/{+path}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'tagmanager/v2/{+parent}/folders',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'move_entities_to_folder' => [
+              'path' => 'tagmanager/v2/{+path}:move_entities_to_folder',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'tagId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'triggerId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'variableId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],'revert' => [
+              'path' => 'tagmanager/v2/{+path}:revert',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'fingerprint' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'tagmanager/v2/{+path}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'fingerprint' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->accounts_containers_workspaces_tags = new TagManager\Resource\AccountsContainersWorkspacesTags(
+        $this,
+        $this->serviceName,
+        'tags',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'tagmanager/v2/{+parent}/tags',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'tagmanager/v2/{+path}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'tagmanager/v2/{+path}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'tagmanager/v2/{+parent}/tags',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'revert' => [
+              'path' => 'tagmanager/v2/{+path}:revert',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'fingerprint' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'tagmanager/v2/{+path}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'fingerprint' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->accounts_containers_workspaces_templates = new TagManager\Resource\AccountsContainersWorkspacesTemplates(
+        $this,
+        $this->serviceName,
+        'templates',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'tagmanager/v2/{+parent}/templates',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'tagmanager/v2/{+path}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'tagmanager/v2/{+path}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'tagmanager/v2/{+parent}/templates',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'revert' => [
+              'path' => 'tagmanager/v2/{+path}:revert',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'fingerprint' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'tagmanager/v2/{+path}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'fingerprint' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->accounts_containers_workspaces_triggers = new TagManager\Resource\AccountsContainersWorkspacesTriggers(
+        $this,
+        $this->serviceName,
+        'triggers',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'tagmanager/v2/{+parent}/triggers',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'tagmanager/v2/{+path}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'tagmanager/v2/{+path}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'tagmanager/v2/{+parent}/triggers',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'revert' => [
+              'path' => 'tagmanager/v2/{+path}:revert',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'fingerprint' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'tagmanager/v2/{+path}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'fingerprint' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->accounts_containers_workspaces_variables = new TagManager\Resource\AccountsContainersWorkspacesVariables(
+        $this,
+        $this->serviceName,
+        'variables',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'tagmanager/v2/{+parent}/variables',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'tagmanager/v2/{+path}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'tagmanager/v2/{+path}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'tagmanager/v2/{+parent}/variables',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'revert' => [
+              'path' => 'tagmanager/v2/{+path}:revert',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'fingerprint' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'tagmanager/v2/{+path}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'fingerprint' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->accounts_containers_workspaces_zones = new TagManager\Resource\AccountsContainersWorkspacesZones(
+        $this,
+        $this->serviceName,
+        'zones',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'tagmanager/v2/{+parent}/zones',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'tagmanager/v2/{+path}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'tagmanager/v2/{+path}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'tagmanager/v2/{+parent}/zones',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'revert' => [
+              'path' => 'tagmanager/v2/{+path}:revert',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'fingerprint' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'tagmanager/v2/{+path}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'fingerprint' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->accounts_user_permissions = new TagManager\Resource\AccountsUserPermissions(
+        $this,
+        $this->serviceName,
+        'user_permissions',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'tagmanager/v2/{+parent}/user_permissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'tagmanager/v2/{+path}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'tagmanager/v2/{+path}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'tagmanager/v2/{+parent}/user_permissions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'tagmanager/v2/{+path}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'path' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(TagManager::class, 'Google_Service_TagManager');

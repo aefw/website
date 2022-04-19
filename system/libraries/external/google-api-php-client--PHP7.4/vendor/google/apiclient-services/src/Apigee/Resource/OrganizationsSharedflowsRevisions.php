@@ -1,59 +1,100 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Apigee\Resource;
+
+use Google\Service\Apigee\GoogleApiHttpBody;
+use Google\Service\Apigee\GoogleCloudApigeeV1SharedFlowRevision;
+
+/**
+ * The "revisions" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $apigeeService = new Google\Service\Apigee(...);
+ *   $revisions = $apigeeService->revisions;
+ *  </code>
+ */
+class OrganizationsSharedflowsRevisions extends \Google\Service\Resource
+{
+  /**
+   * Deletes a shared flow and all associated policies, resources, and revisions.
+   * You must undeploy the shared flow before deleting it. (revisions.delete)
+   *
+   * @param string $name Required. The name of the shared flow revision to delete.
+   * Must be of the form: `organizations/{organization_id}/sharedflows/{shared_flo
+   * w_id}/revisions/{revision_id}`
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1SharedFlowRevision
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleCloudApigeeV1SharedFlowRevision::class);
+  }
+  /**
+   * Gets a revision of a shared flow. To download the shared flow configuration
+   * bundle for the specified revision as a zip file, set the `format` query
+   * parameter to `bundle`. If you are using curl, specify `-o filename.zip` to
+   * save the output to a file; otherwise, it displays to `stdout`. Then, develop
+   * the shared flow configuration locally and upload the updated sharedFlow
+   * configuration revision, as described in
+   * [updateSharedFlowRevision](updateSharedFlowRevision). (revisions.get)
+   *
+   * @param string $name Required. The name of the shared flow revision to get.
+   * Must be of the form: `organizations/{organization_id}/sharedflows/{shared_flo
+   * w_id}/revisions/{revision_id}`
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string format Specify `bundle` to export the contents of the
+   * shared flow bundle. Otherwise, the bundle metadata is returned.
+   * @return GoogleApiHttpBody
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleApiHttpBody::class);
+  }
+  /**
+   * Updates a shared flow revision. This operation is only allowed on revisions
+   * which have never been deployed. After deployment a revision becomes
+   * immutable, even if it becomes undeployed. The payload is a ZIP-formatted
+   * shared flow. Content type must be either multipart/form-data or application
+   * /octet-stream. (revisions.updateSharedFlowRevision)
+   *
+   * @param string $name Required. The name of the shared flow revision to update.
+   * Must be of the form: `organizations/{organization_id}/sharedflows/{shared_flo
+   * w_id}/revisions/{revision_id}`
+   * @param GoogleApiHttpBody $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool validate Ignored. All uploads are validated regardless of the
+   * value of this field. It is kept for compatibility with existing APIs. Must be
+   * `true` or `false` if provided.
+   * @return GoogleCloudApigeeV1SharedFlowRevision
+   */
+  public function updateSharedFlowRevision($name, GoogleApiHttpBody $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('updateSharedFlowRevision', [$params], GoogleCloudApigeeV1SharedFlowRevision::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(OrganizationsSharedflowsRevisions::class, 'Google_Service_Apigee_Resource_OrganizationsSharedflowsRevisions');

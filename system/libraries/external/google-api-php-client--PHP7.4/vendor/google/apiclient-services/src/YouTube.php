@@ -1,184 +1,2062 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for YouTube (v3).
+ *
+ * <p>
+ * The YouTube Data API v3 is an API that provides access to YouTube data, such
+ * as videos, playlists, and channels.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://developers.google.com/youtube/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class YouTube extends \Google\Service
+{
+  /** Manage your YouTube account. */
+  const YOUTUBE =
+      "https://www.googleapis.com/auth/youtube";
+  /** See a list of your current active channel members, their current level, and when they became a member. */
+  const YOUTUBE_CHANNEL_MEMBERSHIPS_CREATOR =
+      "https://www.googleapis.com/auth/youtube.channel-memberships.creator";
+  /** See, edit, and permanently delete your YouTube videos, ratings, comments and captions. */
+  const YOUTUBE_FORCE_SSL =
+      "https://www.googleapis.com/auth/youtube.force-ssl";
+  /** View your YouTube account. */
+  const YOUTUBE_READONLY =
+      "https://www.googleapis.com/auth/youtube.readonly";
+  /** Manage your YouTube videos. */
+  const YOUTUBE_UPLOAD =
+      "https://www.googleapis.com/auth/youtube.upload";
+  /** View and manage your assets and associated content on YouTube. */
+  const YOUTUBEPARTNER =
+      "https://www.googleapis.com/auth/youtubepartner";
+  /** View private information of your YouTube channel relevant during the audit process with a YouTube partner. */
+  const YOUTUBEPARTNER_CHANNEL_AUDIT =
+      "https://www.googleapis.com/auth/youtubepartner-channel-audit";
+
+  public $abuseReports;
+  public $activities;
+  public $captions;
+  public $channelBanners;
+  public $channelSections;
+  public $channels;
+  public $commentThreads;
+  public $comments;
+  public $i18nLanguages;
+  public $i18nRegions;
+  public $liveBroadcasts;
+  public $liveChatBans;
+  public $liveChatMessages;
+  public $liveChatModerators;
+  public $liveStreams;
+  public $members;
+  public $membershipsLevels;
+  public $playlistItems;
+  public $playlists;
+  public $search;
+  public $subscriptions;
+  public $superChatEvents;
+  public $tests;
+  public $thirdPartyLinks;
+  public $thumbnails;
+  public $videoAbuseReportReasons;
+  public $videoCategories;
+  public $videos;
+  public $watermarks;
+
+  /**
+   * Constructs the internal representation of the YouTube service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://youtube.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v3';
+    $this->serviceName = 'youtube';
+
+    $this->abuseReports = new YouTube\Resource\AbuseReports(
+        $this,
+        $this->serviceName,
+        'abuseReports',
+        [
+          'methods' => [
+            'insert' => [
+              'path' => 'youtube/v3/abuseReports',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->activities = new YouTube\Resource\Activities(
+        $this,
+        $this->serviceName,
+        'activities',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'youtube/v3/activities',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+                'channelId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'home' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'mine' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'publishedAfter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'publishedBefore' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'regionCode' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->captions = new YouTube\Resource\Captions(
+        $this,
+        $this->serviceName,
+        'captions',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'youtube/v3/captions',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'onBehalfOf' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'download' => [
+              'path' => 'youtube/v3/captions/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'onBehalfOf' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'tfmt' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'tlang' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'youtube/v3/captions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+                'onBehalfOf' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sync' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'youtube/v3/captions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+                'videoId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'onBehalfOf' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'youtube/v3/captions',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+                'onBehalfOf' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sync' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->channelBanners = new YouTube\Resource\ChannelBanners(
+        $this,
+        $this->serviceName,
+        'channelBanners',
+        [
+          'methods' => [
+            'insert' => [
+              'path' => 'youtube/v3/channelBanners/insert',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'channelId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'onBehalfOfContentOwnerChannel' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->channelSections = new YouTube\Resource\ChannelSections(
+        $this,
+        $this->serviceName,
+        'channelSections',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'youtube/v3/channelSections',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'youtube/v3/channelSections',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'onBehalfOfContentOwnerChannel' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'youtube/v3/channelSections',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+                'channelId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'hl' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'mine' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'youtube/v3/channelSections',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->channels = new YouTube\Resource\Channels(
+        $this,
+        $this->serviceName,
+        'channels',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'youtube/v3/channels',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+                'categoryId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'forUsername' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'hl' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'managedByMe' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'mine' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'mySubscribers' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'youtube/v3/channels',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->commentThreads = new YouTube\Resource\CommentThreads(
+        $this,
+        $this->serviceName,
+        'commentThreads',
+        [
+          'methods' => [
+            'insert' => [
+              'path' => 'youtube/v3/commentThreads',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'youtube/v3/commentThreads',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+                'allThreadsRelatedToChannelId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'channelId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'moderationStatus' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'order' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'searchTerms' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'textFormat' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'videoId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'youtube/v3/commentThreads',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->comments = new YouTube\Resource\Comments(
+        $this,
+        $this->serviceName,
+        'comments',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'youtube/v3/comments',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'youtube/v3/comments',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'youtube/v3/comments',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'parentId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'textFormat' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'markAsSpam' => [
+              'path' => 'youtube/v3/comments/markAsSpam',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+              ],
+            ],'setModerationStatus' => [
+              'path' => 'youtube/v3/comments/setModerationStatus',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+                'moderationStatus' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'banAuthor' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'youtube/v3/comments',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->i18nLanguages = new YouTube\Resource\I18nLanguages(
+        $this,
+        $this->serviceName,
+        'i18nLanguages',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'youtube/v3/i18nLanguages',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+                'hl' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->i18nRegions = new YouTube\Resource\I18nRegions(
+        $this,
+        $this->serviceName,
+        'i18nRegions',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'youtube/v3/i18nRegions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+                'hl' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->liveBroadcasts = new YouTube\Resource\LiveBroadcasts(
+        $this,
+        $this->serviceName,
+        'liveBroadcasts',
+        [
+          'methods' => [
+            'bind' => [
+              'path' => 'youtube/v3/liveBroadcasts/bind',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'onBehalfOfContentOwnerChannel' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'streamId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'youtube/v3/liveBroadcasts',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'onBehalfOfContentOwnerChannel' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'youtube/v3/liveBroadcasts',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'onBehalfOfContentOwnerChannel' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'youtube/v3/liveBroadcasts',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+                'broadcastStatus' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'broadcastType' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'mine' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'onBehalfOfContentOwnerChannel' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'transition' => [
+              'path' => 'youtube/v3/liveBroadcasts/transition',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'broadcastStatus' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'onBehalfOfContentOwnerChannel' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'youtube/v3/liveBroadcasts',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'onBehalfOfContentOwnerChannel' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->liveChatBans = new YouTube\Resource\LiveChatBans(
+        $this,
+        $this->serviceName,
+        'liveChatBans',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'youtube/v3/liveChat/bans',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'youtube/v3/liveChat/bans',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->liveChatMessages = new YouTube\Resource\LiveChatMessages(
+        $this,
+        $this->serviceName,
+        'liveChatMessages',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'youtube/v3/liveChat/messages',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'youtube/v3/liveChat/messages',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'youtube/v3/liveChat/messages',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'liveChatId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+                'hl' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'profileImageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->liveChatModerators = new YouTube\Resource\LiveChatModerators(
+        $this,
+        $this->serviceName,
+        'liveChatModerators',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'youtube/v3/liveChat/moderators',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'youtube/v3/liveChat/moderators',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'youtube/v3/liveChat/moderators',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'liveChatId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->liveStreams = new YouTube\Resource\LiveStreams(
+        $this,
+        $this->serviceName,
+        'liveStreams',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'youtube/v3/liveStreams',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'onBehalfOfContentOwnerChannel' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'youtube/v3/liveStreams',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'onBehalfOfContentOwnerChannel' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'youtube/v3/liveStreams',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'mine' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'onBehalfOfContentOwnerChannel' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'youtube/v3/liveStreams',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'onBehalfOfContentOwnerChannel' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->members = new YouTube\Resource\Members(
+        $this,
+        $this->serviceName,
+        'members',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'youtube/v3/members',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+                'filterByMemberChannelId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'hasAccessToLevel' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'mode' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->membershipsLevels = new YouTube\Resource\MembershipsLevels(
+        $this,
+        $this->serviceName,
+        'membershipsLevels',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'youtube/v3/membershipsLevels',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->playlistItems = new YouTube\Resource\PlaylistItems(
+        $this,
+        $this->serviceName,
+        'playlistItems',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'youtube/v3/playlistItems',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'youtube/v3/playlistItems',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'youtube/v3/playlistItems',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'playlistId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'videoId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'youtube/v3/playlistItems',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->playlists = new YouTube\Resource\Playlists(
+        $this,
+        $this->serviceName,
+        'playlists',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'youtube/v3/playlists',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'youtube/v3/playlists',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'onBehalfOfContentOwnerChannel' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'youtube/v3/playlists',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+                'channelId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'hl' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'mine' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'onBehalfOfContentOwnerChannel' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'youtube/v3/playlists',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->search = new YouTube\Resource\Search(
+        $this,
+        $this->serviceName,
+        'search',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'youtube/v3/search',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+                'channelId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'channelType' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'eventType' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'forContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'forDeveloper' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'forMine' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'location' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'locationRadius' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'order' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'publishedAfter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'publishedBefore' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'q' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'regionCode' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'relatedToVideoId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'relevanceLanguage' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'safeSearch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'topicId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'type' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'videoCaption' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'videoCategoryId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'videoDefinition' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'videoDimension' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'videoDuration' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'videoEmbeddable' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'videoLicense' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'videoSyndicated' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'videoType' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->subscriptions = new YouTube\Resource\Subscriptions(
+        $this,
+        $this->serviceName,
+        'subscriptions',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'youtube/v3/subscriptions',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'youtube/v3/subscriptions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'youtube/v3/subscriptions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+                'channelId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'forChannelId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'mine' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'myRecentSubscribers' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'mySubscribers' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'onBehalfOfContentOwnerChannel' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'order' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->superChatEvents = new YouTube\Resource\SuperChatEvents(
+        $this,
+        $this->serviceName,
+        'superChatEvents',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'youtube/v3/superChatEvents',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+                'hl' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->tests = new YouTube\Resource\Tests(
+        $this,
+        $this->serviceName,
+        'tests',
+        [
+          'methods' => [
+            'insert' => [
+              'path' => 'youtube/v3/tests',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->thirdPartyLinks = new YouTube\Resource\ThirdPartyLinks(
+        $this,
+        $this->serviceName,
+        'thirdPartyLinks',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'youtube/v3/thirdPartyLinks',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'linkingToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'type' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'youtube/v3/thirdPartyLinks',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'youtube/v3/thirdPartyLinks',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+                'linkingToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'type' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'youtube/v3/thirdPartyLinks',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->thumbnails = new YouTube\Resource\Thumbnails(
+        $this,
+        $this->serviceName,
+        'thumbnails',
+        [
+          'methods' => [
+            'set' => [
+              'path' => 'youtube/v3/thumbnails/set',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'videoId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->videoAbuseReportReasons = new YouTube\Resource\VideoAbuseReportReasons(
+        $this,
+        $this->serviceName,
+        'videoAbuseReportReasons',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'youtube/v3/videoAbuseReportReasons',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+                'hl' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->videoCategories = new YouTube\Resource\VideoCategories(
+        $this,
+        $this->serviceName,
+        'videoCategories',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'youtube/v3/videoCategories',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+                'hl' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'regionCode' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->videos = new YouTube\Resource\Videos(
+        $this,
+        $this->serviceName,
+        'videos',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'youtube/v3/videos',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'getRating' => [
+              'path' => 'youtube/v3/videos/getRating',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'youtube/v3/videos',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+                'autoLevels' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'notifySubscribers' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'onBehalfOfContentOwnerChannel' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'stabilize' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'youtube/v3/videos',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+                'chart' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'hl' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'locale' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxHeight' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'maxWidth' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'myRating' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'regionCode' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'videoCategoryId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'rate' => [
+              'path' => 'youtube/v3/videos/rate',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'rating' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'reportAbuse' => [
+              'path' => 'youtube/v3/videos/reportAbuse',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'youtube/v3/videos',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'part' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->watermarks = new YouTube\Resource\Watermarks(
+        $this,
+        $this->serviceName,
+        'watermarks',
+        [
+          'methods' => [
+            'set' => [
+              'path' => 'youtube/v3/watermarks/set',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'channelId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'unset' => [
+              'path' => 'youtube/v3/watermarks/unset',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'channelId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(YouTube::class, 'Google_Service_YouTube');

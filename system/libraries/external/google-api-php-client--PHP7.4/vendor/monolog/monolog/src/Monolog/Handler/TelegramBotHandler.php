@@ -1,107 +1,181 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-X0MX
+<?php declare(strict_types=1);
+
+/*
+ * This file is part of the Monolog package.
+ *
+ * (c) Jordi Boggiano <j.boggiano@seld.be>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Monolog\Handler;
+
+use RuntimeException;
+use Monolog\Logger;
+
+/**
+ * Handler send logs to Telegram using Telegram Bot API.
+ *
+ * How to use:
+ *  1) Create telegram bot with https://telegram.me/BotFather
+ *  2) Create a telegram channel where logs will be recorded.
+ *  3) Add created bot from step 1 to the created channel from step 2.
+ *
+ * Use telegram bot API key from step 1 and channel name with '@' prefix from step 2 to create instance of TelegramBotHandler
+ *
+ * @link https://core.telegram.org/bots/api
+ *
+ * @author Mazur Alexandr <alexandrmazur96@gmail.com>
+ */
+class TelegramBotHandler extends AbstractProcessingHandler
+{
+    private const BOT_API = 'https://api.telegram.org/bot';
+
+    /**
+     * @var array AVAILABLE_PARSE_MODES The available values of parseMode according to the Telegram api documentation
+     */
+    private const AVAILABLE_PARSE_MODES = [
+        'HTML',
+        'MarkdownV2',
+        'Markdown' // legacy mode without underline and strikethrough, use MarkdownV2 instead
+    ];
+
+    /**
+     * Telegram bot access token provided by BotFather.
+     * Create telegram bot with https://telegram.me/BotFather and use access token from it.
+     * @var string
+     */
+    private $apiKey;
+
+    /**
+     * Telegram channel name.
+     * Since to start with '@' symbol as prefix.
+     * @var string
+     */
+    private $channel;
+
+    /**
+     * The kind of formatting that is used for the message.
+     * See available options at https://core.telegram.org/bots/api#formatting-options
+     * or in AVAILABLE_PARSE_MODES
+     * @var string|null
+     */
+    private $parseMode;
+
+    /**
+     * Disables link previews for links in the message.
+     * @var bool|null
+     */
+    private $disableWebPagePreview;
+
+    /**
+     * Sends the message silently. Users will receive a notification with no sound.
+     * @var bool|null
+     */
+    private $disableNotification;
+
+    /**
+     * @param string $apiKey  Telegram bot access token provided by BotFather
+     * @param string $channel Telegram channel name
+     * @inheritDoc
+     */
+    public function __construct(
+        string $apiKey,
+        string $channel,
+        $level = Logger::DEBUG,
+        bool $bubble = true,
+        string $parseMode = null,
+        bool $disableWebPagePreview = null,
+        bool $disableNotification = null
+    ) {
+        parent::__construct($level, $bubble);
+
+        $this->apiKey = $apiKey;
+        $this->channel = $channel;
+        $this->setParseMode($parseMode);
+        $this->disableWebPagePreview($disableWebPagePreview);
+        $this->disableNotification($disableNotification);
+    }
+
+    public function setParseMode(string $parseMode = null): self
+    {
+        if ($parseMode !== null && !in_array($parseMode, self::AVAILABLE_PARSE_MODES)) {
+            throw new \InvalidArgumentException('Unknown parseMode, use one of these: ' . implode(', ', self::AVAILABLE_PARSE_MODES) . '.');
+        }
+
+        $this->parseMode = $parseMode;
+        return $this;
+    }
+
+    public function disableWebPagePreview(bool $disableWebPagePreview = null): self
+    {
+        $this->disableWebPagePreview = $disableWebPagePreview;
+        return $this;
+    }
+
+    public function disableNotification(bool $disableNotification = null): self
+    {
+        $this->disableNotification = $disableNotification;
+        return $this;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function handleBatch(array $records): void
+    {
+        $messages = [];
+
+        foreach ($records as $record) {
+            if (!$this->isHandling($record)) {
+                continue;
+            }
+
+            if ($this->processors) {
+                $record = $this->processRecord($record);
+            }
+
+            $messages[] = $record;
+        }
+
+        if (!empty($messages)) {
+            $this->send((string) $this->getFormatter()->formatBatch($messages));
+        }
+    }
+
+    /**
+     * @inheritDoc
+     */
+    protected function write(array $record): void
+    {
+        $this->send($record['formatted']);
+    }
+
+    /**
+     * Send request to @link https://api.telegram.org/bot on SendMessage action.
+     * @param string $message
+     */
+    protected function send(string $message): void
+    {
+        $ch = curl_init();
+        $url = self::BOT_API . $this->apiKey . '/SendMessage';
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, true);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query([
+            'text' => $message,
+            'chat_id' => $this->channel,
+            'parse_mode' => $this->parseMode,
+            'disable_web_page_preview' => $this->disableWebPagePreview,
+            'disable_notification' => $this->disableNotification,
+        ]));
+
+        $result = Curl\Util::execute($ch);
+        $result = json_decode($result, true);
+
+        if ($result['ok'] === false) {
+            throw new RuntimeException('Telegram API error. Description: ' . $result['description']);
+        }
+    }
+}

@@ -1,91 +1,199 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\BigQueryConnectionService\Resource;
+
+use Google\Service\BigQueryConnectionService\BigqueryconnectionEmpty;
+use Google\Service\BigQueryConnectionService\Connection;
+use Google\Service\BigQueryConnectionService\ConnectionCredential;
+use Google\Service\BigQueryConnectionService\GetIamPolicyRequest;
+use Google\Service\BigQueryConnectionService\ListConnectionsResponse;
+use Google\Service\BigQueryConnectionService\Policy;
+use Google\Service\BigQueryConnectionService\SetIamPolicyRequest;
+use Google\Service\BigQueryConnectionService\TestIamPermissionsRequest;
+use Google\Service\BigQueryConnectionService\TestIamPermissionsResponse;
+
+/**
+ * The "connections" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $bigqueryconnectionService = new Google\Service\BigQueryConnectionService(...);
+ *   $connections = $bigqueryconnectionService->connections;
+ *  </code>
+ */
+class ProjectsLocationsConnections extends \Google\Service\Resource
+{
+  /**
+   * Creates a new connection. (connections.create)
+   *
+   * @param string $parent Required. Parent resource name. Must be in the format
+   * `projects/{project_id}/locations/{location_id}`
+   * @param Connection $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string connectionId Optional. Connection id that should be
+   * assigned to the created connection.
+   * @return Connection
+   */
+  public function create($parent, Connection $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Connection::class);
+  }
+  /**
+   * Deletes connection and associated credential. (connections.delete)
+   *
+   * @param string $name Required. Name of the deleted connection, for example:
+   * `projects/{project_id}/locations/{location_id}/connections/{connection_id}`
+   * @param array $optParams Optional parameters.
+   * @return BigqueryconnectionEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], BigqueryconnectionEmpty::class);
+  }
+  /**
+   * Returns specified connection. (connections.get)
+   *
+   * @param string $name Required. Name of the requested connection, for example:
+   * `projects/{project_id}/locations/{location_id}/connections/{connection_id}`
+   * @param array $optParams Optional parameters.
+   * @return Connection
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Connection::class);
+  }
+  /**
+   * Gets the access control policy for a resource. Returns an empty policy if the
+   * resource exists and does not have a policy set. (connections.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param GetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function getIamPolicy($resource, GetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Returns a list of connections in the given project.
+   * (connections.listProjectsLocationsConnections)
+   *
+   * @param string $parent Required. Parent resource name. Must be in the form:
+   * `projects/{project_id}/locations/{location_id}`
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string maxResults Required. Maximum number of results per page.
+   * @opt_param string pageToken Page token.
+   * @return ListConnectionsResponse
+   */
+  public function listProjectsLocationsConnections($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListConnectionsResponse::class);
+  }
+  /**
+   * Updates the specified connection. For security reasons, also resets
+   * credential if connection properties are in the update field mask.
+   * (connections.patch)
+   *
+   * @param string $name Required. Name of the connection to update, for example:
+   * `projects/{project_id}/locations/{location_id}/connections/{connection_id}`
+   * @param Connection $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. Update mask for the connection fields
+   * to be updated.
+   * @return Connection
+   */
+  public function patch($name, Connection $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Connection::class);
+  }
+  /**
+   * Sets the access control policy on the specified resource. Replaces any
+   * existing policy. Can return `NOT_FOUND`, `INVALID_ARGUMENT`, and
+   * `PERMISSION_DENIED` errors. (connections.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource. If the
+   * resource does not exist, this will return an empty set of permissions, not a
+   * `NOT_FOUND` error. Note: This operation is designed to be used for building
+   * permission-aware UIs and command-line tools, not for authorization checking.
+   * This operation may "fail open" without warning.
+   * (connections.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+  /**
+   * Sets the credential for the specified connection.
+   * (connections.updateCredential)
+   *
+   * @param string $name Required. Name of the connection, for example: `projects/
+   * {project_id}/locations/{location_id}/connections/{connection_id}/credential`
+   * @param ConnectionCredential $postBody
+   * @param array $optParams Optional parameters.
+   * @return BigqueryconnectionEmpty
+   */
+  public function updateCredential($name, ConnectionCredential $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('updateCredential', [$params], BigqueryconnectionEmpty::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsConnections::class, 'Google_Service_BigQueryConnectionService_Resource_ProjectsLocationsConnections');

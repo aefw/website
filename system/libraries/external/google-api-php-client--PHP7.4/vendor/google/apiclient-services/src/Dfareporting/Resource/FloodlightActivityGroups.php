@@ -1,71 +1,136 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-a56a60sHBq3CACa7Z+UyOMpwbvqwsFQbr9oNBG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dfareporting\Resource;
+
+use Google\Service\Dfareporting\FloodlightActivityGroup;
+use Google\Service\Dfareporting\FloodlightActivityGroupsListResponse;
+
+/**
+ * The "floodlightActivityGroups" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $dfareportingService = new Google\Service\Dfareporting(...);
+ *   $floodlightActivityGroups = $dfareportingService->floodlightActivityGroups;
+ *  </code>
+ */
+class FloodlightActivityGroups extends \Google\Service\Resource
+{
+  /**
+   * Gets one floodlight activity group by ID. (floodlightActivityGroups.get)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param string $id Floodlight activity Group ID.
+   * @param array $optParams Optional parameters.
+   * @return FloodlightActivityGroup
+   */
+  public function get($profileId, $id, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], FloodlightActivityGroup::class);
+  }
+  /**
+   * Inserts a new floodlight activity group. (floodlightActivityGroups.insert)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param FloodlightActivityGroup $postBody
+   * @param array $optParams Optional parameters.
+   * @return FloodlightActivityGroup
+   */
+  public function insert($profileId, FloodlightActivityGroup $postBody, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], FloodlightActivityGroup::class);
+  }
+  /**
+   * Retrieves a list of floodlight activity groups, possibly filtered. This
+   * method supports paging.
+   * (floodlightActivityGroups.listFloodlightActivityGroups)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string advertiserId Select only floodlight activity groups with
+   * the specified advertiser ID. Must specify either advertiserId or
+   * floodlightConfigurationId for a non-empty result.
+   * @opt_param string floodlightConfigurationId Select only floodlight activity
+   * groups with the specified floodlight configuration ID. Must specify either
+   * advertiserId, or floodlightConfigurationId for a non-empty result.
+   * @opt_param string ids Select only floodlight activity groups with the
+   * specified IDs. Must specify either advertiserId or floodlightConfigurationId
+   * for a non-empty result.
+   * @opt_param int maxResults Maximum number of results to return.
+   * @opt_param string pageToken Value of the nextPageToken from the previous
+   * result page.
+   * @opt_param string searchString Allows searching for objects by name or ID.
+   * Wildcards (*) are allowed. For example, "floodlightactivitygroup*2015" will
+   * return objects with names like "floodlightactivitygroup June 2015",
+   * "floodlightactivitygroup April 2015", or simply "floodlightactivitygroup
+   * 2015". Most of the searches also add wildcards implicitly at the start and
+   * the end of the search string. For example, a search string of
+   * "floodlightactivitygroup" will match objects with name "my
+   * floodlightactivitygroup activity", "floodlightactivitygroup 2015", or simply
+   * "floodlightactivitygroup".
+   * @opt_param string sortField Field by which to sort the list.
+   * @opt_param string sortOrder Order of sorted results.
+   * @opt_param string type Select only floodlight activity groups with the
+   * specified floodlight activity group type.
+   * @return FloodlightActivityGroupsListResponse
+   */
+  public function listFloodlightActivityGroups($profileId, $optParams = [])
+  {
+    $params = ['profileId' => $profileId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], FloodlightActivityGroupsListResponse::class);
+  }
+  /**
+   * Updates an existing floodlight activity group. This method supports patch
+   * semantics. (floodlightActivityGroups.patch)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param string $id FloodlightActivityGroup ID.
+   * @param FloodlightActivityGroup $postBody
+   * @param array $optParams Optional parameters.
+   * @return FloodlightActivityGroup
+   */
+  public function patch($profileId, $id, FloodlightActivityGroup $postBody, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'id' => $id, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], FloodlightActivityGroup::class);
+  }
+  /**
+   * Updates an existing floodlight activity group.
+   * (floodlightActivityGroups.update)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param FloodlightActivityGroup $postBody
+   * @param array $optParams Optional parameters.
+   * @return FloodlightActivityGroup
+   */
+  public function update($profileId, FloodlightActivityGroup $postBody, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], FloodlightActivityGroup::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(FloodlightActivityGroups::class, 'Google_Service_Dfareporting_Resource_FloodlightActivityGroups');

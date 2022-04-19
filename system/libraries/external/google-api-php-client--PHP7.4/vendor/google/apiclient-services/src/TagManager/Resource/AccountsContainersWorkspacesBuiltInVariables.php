@@ -1,62 +1,105 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\TagManager\Resource;
+
+use Google\Service\TagManager\CreateBuiltInVariableResponse;
+use Google\Service\TagManager\ListEnabledBuiltInVariablesResponse;
+use Google\Service\TagManager\RevertBuiltInVariableResponse;
+
+/**
+ * The "built_in_variables" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $tagmanagerService = new Google\Service\TagManager(...);
+ *   $built_in_variables = $tagmanagerService->built_in_variables;
+ *  </code>
+ */
+class AccountsContainersWorkspacesBuiltInVariables extends \Google\Service\Resource
+{
+  /**
+   * Creates one or more GTM Built-In Variables. (built_in_variables.create)
+   *
+   * @param string $parent GTM Workspace's API relative path. Example:
+   * accounts/{account_id}/containers/{container_id}/workspaces/{workspace_id}
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string type The types of built-in variables to enable.
+   * @return CreateBuiltInVariableResponse
+   */
+  public function create($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], CreateBuiltInVariableResponse::class);
+  }
+  /**
+   * Deletes one or more GTM Built-In Variables. (built_in_variables.delete)
+   *
+   * @param string $path GTM BuiltInVariable's API relative path. Example: account
+   * s/{account_id}/containers/{container_id}/workspaces/{workspace_id}/built_in_v
+   * ariables
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string type The types of built-in variables to delete.
+   */
+  public function delete($path, $optParams = [])
+  {
+    $params = ['path' => $path];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Lists all the enabled Built-In Variables of a GTM Container.
+   * (built_in_variables.listAccountsContainersWorkspacesBuiltInVariables)
+   *
+   * @param string $parent GTM Workspace's API relative path. Example:
+   * accounts/{account_id}/containers/{container_id}/workspaces/{workspace_id}
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string pageToken Continuation token for fetching the next page of
+   * results.
+   * @return ListEnabledBuiltInVariablesResponse
+   */
+  public function listAccountsContainersWorkspacesBuiltInVariables($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListEnabledBuiltInVariablesResponse::class);
+  }
+  /**
+   * Reverts changes to a GTM Built-In Variables in a GTM Workspace.
+   * (built_in_variables.revert)
+   *
+   * @param string $path GTM BuiltInVariable's API relative path. Example: account
+   * s/{account_id}/containers/{container_id}/workspaces/{workspace_id}/built_in_v
+   * ariables
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string type The type of built-in variable to revert.
+   * @return RevertBuiltInVariableResponse
+   */
+  public function revert($path, $optParams = [])
+  {
+    $params = ['path' => $path];
+    $params = array_merge($params, $optParams);
+    return $this->call('revert', [$params], RevertBuiltInVariableResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AccountsContainersWorkspacesBuiltInVariables::class, 'Google_Service_TagManager_Resource_AccountsContainersWorkspacesBuiltInVariables');

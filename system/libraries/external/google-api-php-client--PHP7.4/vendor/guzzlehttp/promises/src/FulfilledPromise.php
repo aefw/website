@@ -1,77 +1,84 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPo4bSC72faZtw+pbuWuEoFM5evxMOS8/hkXR4N4aewmZX1BKgGNIM8ke4a3uCdSiBBBTPyKr
-pDADI9IvhPcBOMqgKDROROCOgGvs0hH0gwAZMHAm/0XxVZQ0f0R1+hpk6k1at769SPsYjrKC6mNw
-hMr5oKk4IuXiV8/n6rxhDqXfbV68rJXFSRC/nOT4qzN3l9fHj7gP7wF1rmot9zQaaGwwo4B9IaUd
-l4wB005/K1aVV5XYE+SQr9ZAfvLAmDyVTGIPjI8FqfJGKYOe3nx39hAPYilYS5CkDLI4g2o1fZvA
-1ULLTs+INqoucytgAR5WY5JRZHp/Wv+iO7l4+E1kKjEWuPUYPEWVx+ceGgLFOa+d/7jXf/DoCKY/
-ywsqrHZG0XarNUkUZ+2K66TvjZuOTq41XV0IoulS+Rc0Dp0nK7x4OSbQeFKcBaDcEiqvr90wmxKc
-ljg7Rad1GWbjhTSp6MndqNFirLxZP9hp2EIW7dvJfAacYNTgo2YqJ5xYu28S6H4YJ+M2TjHcPxI9
-DIGx5XKJGhwS0r/rCxVlvNLaC3iD5qoM0ozO/mOKX27h94wRsMtfPn1qyAqVIlnjZgGEeB59uO2K
-/Hc2A9d98gA7+SHyM1fKBR8X2Nq0z3Pv17YtssnSWH+rmiwt70/z6YWRbj1zpgXVNl+qqft08qlp
-fImuALFYZFMlIydRnkhyjwV0vdDd77p6IxA6IXtTzGuxoOSN81j5uwG8NrFRpjg1pDNJSDlsElbr
-AYLKrJc4uwQBcCIyMw49csvaXNekMJ/F2TrQJxU4x7Fmi0l+qXtvKbJxPGyHxILCBWMw9lrgKuo7
-QN7YYbm0fOYJsk46k0h8avRMRa8MsdhyuGiovneOt8K4YRZRPOMSyIg9/VEXJ0W9/u1DZb9dw8b6
-w5+DIdUh8ShkvNo1AUmwlWei6DIZgHKxOPKMZuPtS0mNP++O1hMxYHTN1oahNcGJl2PC61LWQfTh
-YwncIeZYp0hDkeIwFYjCAnGOs2y1/puWpqkp/RZZAmIhP3BBoElWB2vn97frHjxNIU/+sX5icKch
-9lzZ0x78Fx0Gdi4TEAlvb9TS7tcG0kS4/JTStWzp6HCbZjFYXo3DVzT9uB7r4vWwBjLLdabtSUOt
-Ch1tJx9R7NA8xnvI7Ej7X+opvolB+0ow0OxS5egI4rUwiA1yRW/280drSxmmmay5/hPCqiF0xy3i
-P42swZZO/LiGbAeC35dzRSJ+sg0dluzHB/0l5nhidx+KtI6tBrODRXPeHr6jFZcrAg6DjqBeKGC0
-GTG3jJQhnam7BQz7B1ItL3dnaxZ9lcc3rHYhvERnkemFW3UXqnfXvPdU6H9Itl6RtJJ/oL+o1H/Y
-at6xZ6VdBSdobIMHewEr9lpYDwI7ZxY+L6FQKpLaxA/w5Im6rmv7aSTSzl+OUb1RmnG2BlenPVKN
-GMOHtMZFovACmfB+nzyTZjSUmnLdzROmFxTAm3avXCtr/4oAkojELGuL3XgUQGgYZaRqu1UcYHlW
-l629biJeL2F/yRcB0fwwyDriZuYCAaML5/h/R+aAbVRHyL5y+/Q/25BiTq8IJJWiUAwaCjj2QX4o
-QEt/AXFN0/Y1OuKfzzVeSrE4PJsQKqIGiMT/nwkthn0fpMHTL0GWEtety4laDeO0wvy/0pI74s1/
-9tfej/Fk4h6dXyGGdasbV+EExB2f7VN22whHtb4RsxW3ro3SC+SgfYkH5GUra/dSk6zHWsM2f59j
-TG/9j7ojLNpEkWVN20Ne9iRwJRLWKONWGDQZffRhfhj9sfk/BTzx1jP5mX/+/Ix4tJAH+kHTc73d
-silqpf9m9P9qqB8b3JDS2IEAT1tgcUuiQBsXqgf4v8Gt/8Pva22cOi7V8cN+Uqbe3UXJO72LVTGC
-rlzEv0VbdC7UMJEyQ8f2ZJQCtuoNWg/XFj4BtNGl/vJ8PEwonIeRiTGrNue0Eu2sg53TPcMpbmlh
-J8ozGfe5p2ZkSmehCVQ2Mtt55H2Lb/+JNb5J8iUQKYhagZIYeMHZbfs6GWdga1qJwTvCxSGx3+ds
-0X5l3U2uxynNCuchEflvIt3vbdF3nJD3C3ZMOAguLXN/5l00KdAG0YJwpCLyNlysu4xvgDAfLP7l
-8tqH09UYZSwMI7tsC5lv4x4Hc34ff8dUh7SzKh2gHBNXcU3G2IJSIHqBZAONTN93Oyw+DFMJ6sBT
-uet43F9keu3M2j2wAv4qYzbiVc1b/ABVRdBW+P9dQWv3C40+Sl2r2LeJcN6OgvPxiGpj8HjQWCjr
-BS8LBDVYk89VGaDyPsERJIwTXzZyaHEE6shlNF+190rU+i4nNbMpqxQRJXjRKwuNnMFcN3VR7fAd
-wweJeGoyUfEvwDWdtoXhhKtO4/QqBe9E48+x52bw/dv3CUTPTgtycODAU1+xNuelHbF62QgNZt1V
-2l1eri1o1VmVE/ubTvRMHwsNCgreAJyo6c5CU8zGA9NBTZI1AakdzmBjMfvMUhj0b/lwO5pN/LMl
-p4/haxUYdTCcnZCbAUdM2O+eKJ2StoNQk66IfTUaAIl9qjmb3K4/lJhYh+mMNDva9fDNqK7McA4F
-Fh5Dzxs2fFbqWZ6xqCt9HneP5G7G8idPRmOHbPJaIHw7uTRc8bMjwagYfRlwcTYbZB8NbLHJQ4Y7
-nQqMcnD2yDw9+eO/ouSuboQBO7KJSt2uHKlxmSs1HP2qc/avzJlrGAP/udrhQFXtmG/sn580LHPN
-1SaN3KWpEVzILqJenTu6jZA6es+x0Ug/9llRMrx6KaHYvaElfbMJkFU7pChf28G7uq01hOKI5Zfo
-XH/be6xsUkO4nTbHZoIJMkwRetMag1aofP54A/oHwLJgfTzNU0NjXRwJftLjJF0VK7QkhEIBKq/F
-NhKbgAFsSfKnVcmla+rhCsOcX2bj34Mh2oKM3/ppEHmtDagMiPka5CCZl+BcCq1fiZChydwAt0Uf
-5P/mdUPdstWaaOhfOu2hl85zeBnVy5kAdoo94H0FgH9JXYzsW+ud9r2apzmY0lMh5ztAd6WNzb3/
-G7Fr74uNjLRj3n/zTSnw6AxG+B4oeQlS5ZRKRy+t7mtgHFuohn2ik0Ii9CX79NP4ll8RcayXRSTh
-w+mXTQJcDiA1YXkAsLNPmGscva/Pn3ZmPo0W1l9qj7hzg0l7Y4LDEXOt6orXhZksU0CoJmi1MhMo
-9bBzXCDLZhUFPKVcTY4g0gdVnE5y7INhwjrOiVTOvkmgSzqbqQf55+vprjiE95sXSnodPeVdTdQw
-/0PVKWewnvyNTGBljkxd8gPEt+exZfnKOSyroZKtPRLTZkkm3FdbeokIH0C1r8DZPKqN8AxwNHbE
-R6hQwFakwBjeur3c0Nw+f4ybLRd74TfryfhC4T6nqx/debIUSMSMU5hDia3anVOuaMTaIPCqwksQ
-KcgiRJsDN+t9TKKmQ1t/JftZp6OZv9vRJzDva2txvMLuAqbxw4ui/hOkreIpncwMNZ3kTy/7Zm3c
-BfXAj4saPfSbP2Fc7UP4oOpRo8f79wNY+ow8dknQA0Ll1x3pOC+nLPRnif2YDw2L1FS5bTfSBUTh
-dlAypyhr6FFXfPvFM9c/2XIKxPeAU+He8dtvH4wejL6Ze/rgQQQ4f+9qUavpvpMjiAqQxKwFwfTZ
-GK+sJQKhzk5a+rfa5InWm29ZGgv7hcbjmpMndE7XmQgyjkn86zBul1a6y1e0uHu5bsuAP+lLJUIQ
-bjx6M32zezmHzr55XKCDlBxLVt+1ix0X2VE4MiUU060EPkpG3aiSuuOWPWB9COQrOVmfEOlnN4wY
-Cs2NwPJ98zKj3vhfOw3JPd/cLhe+StWfQBilS0t4kFeLiq1usObE3PhT61ItusiuHc7CPa+sr2BC
-uxMKsSR76xejNeRpEFRf8zYukMWn3Hc3RPJbTM5lcmrYJTfUorq95bbWiA1ifWz56RD+bw2omdL3
-BurB5I8La/TjG9knXM5FL/7fpoUIxkFsg4B8PYzLNFvh9fyb/cDQaSj1DjsCfoPxSQx2eWSDWF5K
-J2IcOeuacW//P5UWnWWwD144rVRt8uoIXyr1ZVs9FpErLIGGyomk6KS5TtKE50t4QLhb2xxHK7MC
-NyJQrSU+d0cgVi90DzsYJXoSZW+UlsGoNN76okGPabJjxsYf1Eo98rALTuyrx0bJbF9t5UQmg2MX
-48l5YTkzpOnp6T1/0RVB8WD7NHw6k+mothRoWC7IK8IdNXW0sn8FghRk29uhZ1vUX7VGzuAoobu/
-095GdhAt3Cea1qrTRoUFtYHalOQLwaHF395qWITYiYA2Cj32BRqFttdEmo99N+sa4i6Zzz8EhZRl
-xe5y15Mxg0AFvGvVZuDGbFqjfUtx+2Sdgs+RWiU/L+xuwRNFl9Ox1QIzn6Y5/ZXe638cOEIYP7DG
-xhSi9l01/ck6aCIphkFG5MSZZrJNC0J7AERKuogV/3WpPzi1yI0CSqI0Zd6HXccuGunQu9TAeCDc
-6W7p2CknQmX54ohAnxnc1fNx5fVlBt+cZlXoC/tcMp6n2dikpCPzcyoLey4fDgRozfp3IKahj9hs
-BSbrWhZiElHwa4j7+ren+LVj/dtU8rNsJRbR52cfAyD1Tq0VB/cLyPvrNCPJ5JD0rgzx3400typM
-kH65/HT7bl9nQBza8aSb/32vDd1Vq79THTi81dNA3h3nno9ZrOzomFYxr3389kFACXw46fFRXFM2
-zL4rSpC5LxzKSKWAO+PeFQGaizwociHp7FsSPUHZOSZT+uBKBfK6v7MaiU1lsiz0cgLG7Ya8UZba
-zkYDuDBF496bSXQOqFh4XRgOKE97C745lX//FYzy6ak5ka0z4iTxu1X7Qj1w498JgH8i0GE5PqUb
-NGnh16GgxEDREQj0d+zfLSEu4BArBVxSxA5prPjxnf+QruRvYZA05QN15365NSx1SZb8bMnsa0m+
-Uwe1EQqcAEiWENDgCTF5hLOwY0uOKybQCeak8NzELEhw3jb93IE4ah9IA3t/Plx0pILkonOuftCn
-EP6dh5SZ48ZHJp2aD2Emf0h9Qn/xspxg8Bxl2PDOSpYLLcPEcDrHDIFTwRIHEXWs4TOsKibUsPvi
-GBaISm4te+JibslGHl052Bm6LPgFYTa3NHHibmIg0C1K9ZY1C3Fak/H1DW6TZkEUWNNOEMFnC7PC
-VJtLsBoh5iPP66GkVrZa9kb2x1Av5XpA3YqulQIOwBY4uaDItqbrr38hz6fiTrv0N9KYYeazqzzO
-eSieIJ+nyRsnNA8//Wz6Jz0I7/jVYBMBMZqYEPhHKzahdWAfADoL4RjI6WQzpJg4Nr7OxTuJieoJ
-acW0jOrDDju=
+<?php
+
+namespace GuzzleHttp\Promise;
+
+/**
+ * A promise that has been fulfilled.
+ *
+ * Thenning off of this promise will invoke the onFulfilled callback
+ * immediately and ignore other callbacks.
+ */
+class FulfilledPromise implements PromiseInterface
+{
+    private $value;
+
+    public function __construct($value)
+    {
+        if (is_object($value) && method_exists($value, 'then')) {
+            throw new \InvalidArgumentException(
+                'You cannot create a FulfilledPromise with a promise.'
+            );
+        }
+
+        $this->value = $value;
+    }
+
+    public function then(
+        callable $onFulfilled = null,
+        callable $onRejected = null
+    ) {
+        // Return itself if there is no onFulfilled function.
+        if (!$onFulfilled) {
+            return $this;
+        }
+
+        $queue = Utils::queue();
+        $p = new Promise([$queue, 'run']);
+        $value = $this->value;
+        $queue->add(static function () use ($p, $value, $onFulfilled) {
+            if (Is::pending($p)) {
+                try {
+                    $p->resolve($onFulfilled($value));
+                } catch (\Throwable $e) {
+                    $p->reject($e);
+                } catch (\Exception $e) {
+                    $p->reject($e);
+                }
+            }
+        });
+
+        return $p;
+    }
+
+    public function otherwise(callable $onRejected)
+    {
+        return $this->then(null, $onRejected);
+    }
+
+    public function wait($unwrap = true, $defaultDelivery = null)
+    {
+        return $unwrap ? $this->value : null;
+    }
+
+    public function getState()
+    {
+        return self::FULFILLED;
+    }
+
+    public function resolve($value)
+    {
+        if ($value !== $this->value) {
+            throw new \LogicException("Cannot resolve a fulfilled promise");
+        }
+    }
+
+    public function reject($reason)
+    {
+        throw new \LogicException("Cannot reject a fulfilled promise");
+    }
+
+    public function cancel()
+    {
+        // pass
+    }
+}

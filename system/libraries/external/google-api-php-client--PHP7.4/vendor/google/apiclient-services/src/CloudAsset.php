@@ -1,74 +1,384 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-x8JTDSWwxfYkFNDtFS5qyjiLvlc+/igk41FHlG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for CloudAsset (v1).
+ *
+ * <p>
+ * The cloud asset API manages the history and inventory of cloud resources.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/asset-inventory/docs/quickstart" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class CloudAsset extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+
+  public $assets;
+  public $feeds;
+  public $operations;
+  public $v1;
+
+  /**
+   * Constructs the internal representation of the CloudAsset service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://cloudasset.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'cloudasset';
+
+    $this->assets = new CloudAsset\Resource\Assets(
+        $this,
+        $this->serviceName,
+        'assets',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/{+parent}/assets',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'assetTypes' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'contentType' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'readTime' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->feeds = new CloudAsset\Resource\Feeds(
+        $this,
+        $this->serviceName,
+        'feeds',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/feeds',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/feeds',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->operations = new CloudAsset\Resource\Operations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->v1 = new CloudAsset\Resource\V1(
+        $this,
+        $this->serviceName,
+        'v1',
+        [
+          'methods' => [
+            'analyzeIamPolicy' => [
+              'path' => 'v1/{+scope}:analyzeIamPolicy',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'scope' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'analysisQuery.accessSelector.permissions' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'analysisQuery.accessSelector.roles' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'analysisQuery.conditionContext.accessTime' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'analysisQuery.identitySelector.identity' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'analysisQuery.options.analyzeServiceAccountImpersonation' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'analysisQuery.options.expandGroups' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'analysisQuery.options.expandResources' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'analysisQuery.options.expandRoles' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'analysisQuery.options.outputGroupEdges' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'analysisQuery.options.outputResourceEdges' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'analysisQuery.resourceSelector.fullResourceName' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'executionTimeout' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'analyzeIamPolicyLongrunning' => [
+              'path' => 'v1/{+scope}:analyzeIamPolicyLongrunning',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'scope' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'analyzeMove' => [
+              'path' => 'v1/{+resource}:analyzeMove',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'destinationParent' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'batchGetAssetsHistory' => [
+              'path' => 'v1/{+parent}:batchGetAssetsHistory',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'assetNames' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'contentType' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'readTimeWindow.endTime' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'readTimeWindow.startTime' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'exportAssets' => [
+              'path' => 'v1/{+parent}:exportAssets',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'searchAllIamPolicies' => [
+              'path' => 'v1/{+scope}:searchAllIamPolicies',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'scope' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'assetTypes' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'query' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'searchAllResources' => [
+              'path' => 'v1/{+scope}:searchAllResources',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'scope' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'assetTypes' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'query' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(CloudAsset::class, 'Google_Service_CloudAsset');

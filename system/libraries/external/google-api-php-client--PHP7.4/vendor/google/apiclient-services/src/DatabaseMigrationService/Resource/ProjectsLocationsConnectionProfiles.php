@@ -1,88 +1,225 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DatabaseMigrationService\Resource;
+
+use Google\Service\DatabaseMigrationService\ConnectionProfile;
+use Google\Service\DatabaseMigrationService\ListConnectionProfilesResponse;
+use Google\Service\DatabaseMigrationService\Operation;
+use Google\Service\DatabaseMigrationService\Policy;
+use Google\Service\DatabaseMigrationService\SetIamPolicyRequest;
+use Google\Service\DatabaseMigrationService\TestIamPermissionsRequest;
+use Google\Service\DatabaseMigrationService\TestIamPermissionsResponse;
+
+/**
+ * The "connectionProfiles" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $datamigrationService = new Google\Service\DatabaseMigrationService(...);
+ *   $connectionProfiles = $datamigrationService->connectionProfiles;
+ *  </code>
+ */
+class ProjectsLocationsConnectionProfiles extends \Google\Service\Resource
+{
+  /**
+   * Creates a new connection profile in a given project and location.
+   * (connectionProfiles.create)
+   *
+   * @param string $parent Required. The parent, which owns this collection of
+   * connection profiles.
+   * @param ConnectionProfile $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string connectionProfileId Required. The connection profile
+   * identifier.
+   * @opt_param string requestId A unique id used to identify the request. If the
+   * server receives two requests with the same id, then the second request will
+   * be ignored. It is recommended to always set this value to a UUID. The id must
+   * contain only letters (a-z, A-Z), numbers (0-9), underscores (_), and hyphens
+   * (-). The maximum length is 40 characters.
+   * @return Operation
+   */
+  public function create($parent, ConnectionProfile $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Operation::class);
+  }
+  /**
+   * Deletes a single Database Migration Service connection profile. A connection
+   * profile can only be deleted if it is not in use by any active migration jobs.
+   * (connectionProfiles.delete)
+   *
+   * @param string $name Required. Name of the connection profile resource to
+   * delete.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool force In case of force delete, the CloudSQL replica database
+   * is also deleted (only for CloudSQL connection profile).
+   * @opt_param string requestId A unique id used to identify the request. If the
+   * server receives two requests with the same id, then the second request will
+   * be ignored. It is recommended to always set this value to a UUID. The id must
+   * contain only letters (a-z, A-Z), numbers (0-9), underscores (_), and hyphens
+   * (-). The maximum length is 40 characters.
+   * @return Operation
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Gets details of a single connection profile. (connectionProfiles.get)
+   *
+   * @param string $name Required. Name of the connection profile resource to get.
+   * @param array $optParams Optional parameters.
+   * @return ConnectionProfile
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], ConnectionProfile::class);
+  }
+  /**
+   * Gets the access control policy for a resource. Returns an empty policy if the
+   * resource exists and does not have a policy set.
+   * (connectionProfiles.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int options.requestedPolicyVersion Optional. The policy format
+   * version to be returned. Valid values are 0, 1, and 3. Requests specifying an
+   * invalid value will be rejected. Requests for policies with any conditional
+   * bindings must specify version 3. Policies without any conditional bindings
+   * may specify any valid value or leave the field unset. To learn which
+   * resources support conditions in their IAM policies, see the [IAM
+   * documentation](https://cloud.google.com/iam/help/conditions/resource-
+   * policies).
+   * @return Policy
+   */
+  public function getIamPolicy($resource, $optParams = [])
+  {
+    $params = ['resource' => $resource];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Retrieve a list of all connection profiles in a given project and location.
+   * (connectionProfiles.listProjectsLocationsConnectionProfiles)
+   *
+   * @param string $parent Required. The parent, which owns this collection of
+   * connection profiles.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters connection profiles
+   * listed in the response. The expression must specify the field name, a
+   * comparison operator, and the value that you want to use for filtering. The
+   * value must be a string, a number, or a boolean. The comparison operator must
+   * be either =, !=, >, or <. For example, list connection profiles created this
+   * year by specifying **createTime %gt; 2020-01-01T00:00:00.000000000Z**. You
+   * can also filter nested fields. For example, you could specify
+   * **mySql.username = %lt;my_username%gt;** to list all connection profiles
+   * configured to connect with a specific username.
+   * @opt_param string orderBy the order by fields for the result.
+   * @opt_param int pageSize The maximum number of connection profiles to return.
+   * The service may return fewer than this value. If unspecified, at most 50
+   * connection profiles will be returned. The maximum value is 1000; values above
+   * 1000 will be coerced to 1000.
+   * @opt_param string pageToken A page token, received from a previous
+   * `ListConnectionProfiles` call. Provide this to retrieve the subsequent page.
+   * When paginating, all other parameters provided to `ListConnectionProfiles`
+   * must match the call that provided the page token.
+   * @return ListConnectionProfilesResponse
+   */
+  public function listProjectsLocationsConnectionProfiles($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListConnectionProfilesResponse::class);
+  }
+  /**
+   * Update the configuration of a single connection profile.
+   * (connectionProfiles.patch)
+   *
+   * @param string $name The name of this connection profile resource in the form
+   * of projects/{project}/locations/{location}/connectionProfiles/{instance}.
+   * @param ConnectionProfile $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId A unique id used to identify the request. If the
+   * server receives two requests with the same id, then the second request will
+   * be ignored. It is recommended to always set this value to a UUID. The id must
+   * contain only letters (a-z, A-Z), numbers (0-9), underscores (_), and hyphens
+   * (-). The maximum length is 40 characters.
+   * @opt_param string updateMask Required. Field mask is used to specify the
+   * fields to be overwritten in the connection profile resource by the update.
+   * @return Operation
+   */
+  public function patch($name, ConnectionProfile $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+  /**
+   * Sets the access control policy on the specified resource. Replaces any
+   * existing policy. Can return `NOT_FOUND`, `INVALID_ARGUMENT`, and
+   * `PERMISSION_DENIED` errors. (connectionProfiles.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource. If the
+   * resource does not exist, this will return an empty set of permissions, not a
+   * `NOT_FOUND` error. Note: This operation is designed to be used for building
+   * permission-aware UIs and command-line tools, not for authorization checking.
+   * This operation may "fail open" without warning.
+   * (connectionProfiles.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsConnectionProfiles::class, 'Google_Service_DatabaseMigrationService_Resource_ProjectsLocationsConnectionProfiles');

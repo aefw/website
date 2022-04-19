@@ -1,66 +1,86 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-QK12MmjL5FlDEN3ZbNzjMRvIDGL7
+<?php declare(strict_types=1);
+
+/*
+ * This file is part of the Monolog package.
+ *
+ * (c) Jordi Boggiano <j.boggiano@seld.be>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Monolog\Handler;
+
+use Monolog\Formatter\LineFormatter;
+use Monolog\Formatter\FormatterInterface;
+use Monolog\Logger;
+
+/**
+ * Stores to PHP error_log() handler.
+ *
+ * @author Elan Ruusamäe <glen@delfi.ee>
+ */
+class ErrorLogHandler extends AbstractProcessingHandler
+{
+    public const OPERATING_SYSTEM = 0;
+    public const SAPI = 4;
+
+    protected $messageType;
+    protected $expandNewlines;
+
+    /**
+     * @param int        $messageType    Says where the error should go.
+     * @param int|string $level          The minimum logging level at which this handler will be triggered
+     * @param bool       $bubble         Whether the messages that are handled can bubble up the stack or not
+     * @param bool       $expandNewlines If set to true, newlines in the message will be expanded to be take multiple log entries
+     */
+    public function __construct(int $messageType = self::OPERATING_SYSTEM, $level = Logger::DEBUG, bool $bubble = true, bool $expandNewlines = false)
+    {
+        parent::__construct($level, $bubble);
+
+        if (false === in_array($messageType, self::getAvailableTypes(), true)) {
+            $message = sprintf('The given message type "%s" is not supported', print_r($messageType, true));
+
+            throw new \InvalidArgumentException($message);
+        }
+
+        $this->messageType = $messageType;
+        $this->expandNewlines = $expandNewlines;
+    }
+
+    /**
+     * @return array With all available types
+     */
+    public static function getAvailableTypes(): array
+    {
+        return [
+            self::OPERATING_SYSTEM,
+            self::SAPI,
+        ];
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    protected function getDefaultFormatter(): FormatterInterface
+    {
+        return new LineFormatter('[%datetime%] %channel%.%level_name%: %message% %context% %extra%');
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    protected function write(array $record): void
+    {
+        if (!$this->expandNewlines) {
+            error_log((string) $record['formatted'], $this->messageType);
+
+            return;
+        }
+
+        $lines = preg_split('{[\r\n]+}', (string) $record['formatted']);
+        foreach ($lines as $line) {
+            error_log($line, $this->messageType);
+        }
+    }
+}

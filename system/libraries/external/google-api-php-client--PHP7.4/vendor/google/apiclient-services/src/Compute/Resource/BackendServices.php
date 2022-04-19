@@ -1,103 +1,405 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-bEbV2GvPlzgFkJX1sOC=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute\Resource;
+
+use Google\Service\Compute\BackendService;
+use Google\Service\Compute\BackendServiceAggregatedList;
+use Google\Service\Compute\BackendServiceGroupHealth;
+use Google\Service\Compute\BackendServiceList;
+use Google\Service\Compute\Operation;
+use Google\Service\Compute\ResourceGroupReference;
+use Google\Service\Compute\SecurityPolicyReference;
+use Google\Service\Compute\SignedUrlKey;
+
+/**
+ * The "backendServices" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $computeService = new Google\Service\Compute(...);
+ *   $backendServices = $computeService->backendServices;
+ *  </code>
+ */
+class BackendServices extends \Google\Service\Resource
+{
+  /**
+   * Adds a key for validating requests with signed URLs for this backend service.
+   * (backendServices.addSignedUrlKey)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $backendService Name of the BackendService resource to which
+   * the Signed URL Key should be added. The name should conform to RFC1035.
+   * @param SignedUrlKey $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function addSignedUrlKey($project, $backendService, SignedUrlKey $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'backendService' => $backendService, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('addSignedUrlKey', [$params], Operation::class);
+  }
+  /**
+   * Retrieves the list of all BackendService resources, regional and global,
+   * available to the specified project. (backendServices.aggregatedList)
+   *
+   * @param string $project Name of the project scoping this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param bool includeAllScopes Indicates whether every visible scope for
+   * each scope type (zone, region, global) should be included in the response.
+   * For new resource types added after this field, the flag has no effect as new
+   * resource types will always include every visible scope for each scope type in
+   * response. For resource types which predate this field, if this flag is
+   * omitted or false, only scopes of the scope types where the resource type is
+   * expected to be found will be included.
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return BackendServiceAggregatedList
+   */
+  public function aggregatedList($project, $optParams = [])
+  {
+    $params = ['project' => $project];
+    $params = array_merge($params, $optParams);
+    return $this->call('aggregatedList', [$params], BackendServiceAggregatedList::class);
+  }
+  /**
+   * Deletes the specified BackendService resource. (backendServices.delete)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $backendService Name of the BackendService resource to delete.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function delete($project, $backendService, $optParams = [])
+  {
+    $params = ['project' => $project, 'backendService' => $backendService];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Deletes a key for validating requests with signed URLs for this backend
+   * service. (backendServices.deleteSignedUrlKey)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $backendService Name of the BackendService resource to which
+   * the Signed URL Key should be added. The name should conform to RFC1035.
+   * @param string $keyName The name of the Signed URL Key to delete.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function deleteSignedUrlKey($project, $backendService, $keyName, $optParams = [])
+  {
+    $params = ['project' => $project, 'backendService' => $backendService, 'keyName' => $keyName];
+    $params = array_merge($params, $optParams);
+    return $this->call('deleteSignedUrlKey', [$params], Operation::class);
+  }
+  /**
+   * Returns the specified BackendService resource. Gets a list of available
+   * backend services. (backendServices.get)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $backendService Name of the BackendService resource to return.
+   * @param array $optParams Optional parameters.
+   * @return BackendService
+   */
+  public function get($project, $backendService, $optParams = [])
+  {
+    $params = ['project' => $project, 'backendService' => $backendService];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], BackendService::class);
+  }
+  /**
+   * Gets the most recent health check results for this BackendService.
+   *
+   * Example request body:
+   *
+   * { "group": "/zones/us-east1-b/instanceGroups/lb-backend-example" }
+   * (backendServices.getHealth)
+   *
+   * @param string $project
+   * @param string $backendService Name of the BackendService resource to which
+   * the queried instance belongs.
+   * @param ResourceGroupReference $postBody
+   * @param array $optParams Optional parameters.
+   * @return BackendServiceGroupHealth
+   */
+  public function getHealth($project, $backendService, ResourceGroupReference $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'backendService' => $backendService, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('getHealth', [$params], BackendServiceGroupHealth::class);
+  }
+  /**
+   * Creates a BackendService resource in the specified project using the data
+   * included in the request. For more information, see  Backend services
+   * overview. (backendServices.insert)
+   *
+   * @param string $project Project ID for this request.
+   * @param BackendService $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function insert($project, BackendService $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Operation::class);
+  }
+  /**
+   * Retrieves the list of BackendService resources available to the specified
+   * project. (backendServices.listBackendServices)
+   *
+   * @param string $project Project ID for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return BackendServiceList
+   */
+  public function listBackendServices($project, $optParams = [])
+  {
+    $params = ['project' => $project];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], BackendServiceList::class);
+  }
+  /**
+   * Patches the specified BackendService resource with the data included in the
+   * request. For more information, see  Backend services overview. This method
+   * supports PATCH semantics and uses the JSON merge patch format and processing
+   * rules. (backendServices.patch)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $backendService Name of the BackendService resource to patch.
+   * @param BackendService $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function patch($project, $backendService, BackendService $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'backendService' => $backendService, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+  /**
+   * Sets the Google Cloud Armor security policy for the specified backend
+   * service. For more information, see Google Cloud Armor Overview
+   * (backendServices.setSecurityPolicy)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $backendService Name of the BackendService resource to which
+   * the security policy should be set. The name should conform to RFC1035.
+   * @param SecurityPolicyReference $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function setSecurityPolicy($project, $backendService, SecurityPolicyReference $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'backendService' => $backendService, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setSecurityPolicy', [$params], Operation::class);
+  }
+  /**
+   * Updates the specified BackendService resource with the data included in the
+   * request. For more information, see Backend services overview.
+   * (backendServices.update)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $backendService Name of the BackendService resource to update.
+   * @param BackendService $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function update($project, $backendService, BackendService $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'backendService' => $backendService, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(BackendServices::class, 'Google_Service_Compute_Resource_BackendServices');

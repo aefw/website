@@ -1,115 +1,246 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute;
+
+class HealthCheck extends \Google\Model
+{
+  public $checkIntervalSec;
+  public $creationTimestamp;
+  public $description;
+  protected $grpcHealthCheckType = GRPCHealthCheck::class;
+  protected $grpcHealthCheckDataType = '';
+  public $healthyThreshold;
+  protected $http2HealthCheckType = HTTP2HealthCheck::class;
+  protected $http2HealthCheckDataType = '';
+  protected $httpHealthCheckType = HTTPHealthCheck::class;
+  protected $httpHealthCheckDataType = '';
+  protected $httpsHealthCheckType = HTTPSHealthCheck::class;
+  protected $httpsHealthCheckDataType = '';
+  public $id;
+  public $kind;
+  protected $logConfigType = HealthCheckLogConfig::class;
+  protected $logConfigDataType = '';
+  public $name;
+  public $region;
+  public $selfLink;
+  protected $sslHealthCheckType = SSLHealthCheck::class;
+  protected $sslHealthCheckDataType = '';
+  protected $tcpHealthCheckType = TCPHealthCheck::class;
+  protected $tcpHealthCheckDataType = '';
+  public $timeoutSec;
+  public $type;
+  public $unhealthyThreshold;
+
+  public function setCheckIntervalSec($checkIntervalSec)
+  {
+    $this->checkIntervalSec = $checkIntervalSec;
+  }
+  public function getCheckIntervalSec()
+  {
+    return $this->checkIntervalSec;
+  }
+  public function setCreationTimestamp($creationTimestamp)
+  {
+    $this->creationTimestamp = $creationTimestamp;
+  }
+  public function getCreationTimestamp()
+  {
+    return $this->creationTimestamp;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  /**
+   * @param GRPCHealthCheck
+   */
+  public function setGrpcHealthCheck(GRPCHealthCheck $grpcHealthCheck)
+  {
+    $this->grpcHealthCheck = $grpcHealthCheck;
+  }
+  /**
+   * @return GRPCHealthCheck
+   */
+  public function getGrpcHealthCheck()
+  {
+    return $this->grpcHealthCheck;
+  }
+  public function setHealthyThreshold($healthyThreshold)
+  {
+    $this->healthyThreshold = $healthyThreshold;
+  }
+  public function getHealthyThreshold()
+  {
+    return $this->healthyThreshold;
+  }
+  /**
+   * @param HTTP2HealthCheck
+   */
+  public function setHttp2HealthCheck(HTTP2HealthCheck $http2HealthCheck)
+  {
+    $this->http2HealthCheck = $http2HealthCheck;
+  }
+  /**
+   * @return HTTP2HealthCheck
+   */
+  public function getHttp2HealthCheck()
+  {
+    return $this->http2HealthCheck;
+  }
+  /**
+   * @param HTTPHealthCheck
+   */
+  public function setHttpHealthCheck(HTTPHealthCheck $httpHealthCheck)
+  {
+    $this->httpHealthCheck = $httpHealthCheck;
+  }
+  /**
+   * @return HTTPHealthCheck
+   */
+  public function getHttpHealthCheck()
+  {
+    return $this->httpHealthCheck;
+  }
+  /**
+   * @param HTTPSHealthCheck
+   */
+  public function setHttpsHealthCheck(HTTPSHealthCheck $httpsHealthCheck)
+  {
+    $this->httpsHealthCheck = $httpsHealthCheck;
+  }
+  /**
+   * @return HTTPSHealthCheck
+   */
+  public function getHttpsHealthCheck()
+  {
+    return $this->httpsHealthCheck;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  /**
+   * @param HealthCheckLogConfig
+   */
+  public function setLogConfig(HealthCheckLogConfig $logConfig)
+  {
+    $this->logConfig = $logConfig;
+  }
+  /**
+   * @return HealthCheckLogConfig
+   */
+  public function getLogConfig()
+  {
+    return $this->logConfig;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setRegion($region)
+  {
+    $this->region = $region;
+  }
+  public function getRegion()
+  {
+    return $this->region;
+  }
+  public function setSelfLink($selfLink)
+  {
+    $this->selfLink = $selfLink;
+  }
+  public function getSelfLink()
+  {
+    return $this->selfLink;
+  }
+  /**
+   * @param SSLHealthCheck
+   */
+  public function setSslHealthCheck(SSLHealthCheck $sslHealthCheck)
+  {
+    $this->sslHealthCheck = $sslHealthCheck;
+  }
+  /**
+   * @return SSLHealthCheck
+   */
+  public function getSslHealthCheck()
+  {
+    return $this->sslHealthCheck;
+  }
+  /**
+   * @param TCPHealthCheck
+   */
+  public function setTcpHealthCheck(TCPHealthCheck $tcpHealthCheck)
+  {
+    $this->tcpHealthCheck = $tcpHealthCheck;
+  }
+  /**
+   * @return TCPHealthCheck
+   */
+  public function getTcpHealthCheck()
+  {
+    return $this->tcpHealthCheck;
+  }
+  public function setTimeoutSec($timeoutSec)
+  {
+    $this->timeoutSec = $timeoutSec;
+  }
+  public function getTimeoutSec()
+  {
+    return $this->timeoutSec;
+  }
+  public function setType($type)
+  {
+    $this->type = $type;
+  }
+  public function getType()
+  {
+    return $this->type;
+  }
+  public function setUnhealthyThreshold($unhealthyThreshold)
+  {
+    $this->unhealthyThreshold = $unhealthyThreshold;
+  }
+  public function getUnhealthyThreshold()
+  {
+    return $this->unhealthyThreshold;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(HealthCheck::class, 'Google_Service_Compute_HealthCheck');

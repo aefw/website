@@ -1,75 +1,105 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-wK0=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Cloudchannel;
+
+class GoogleCloudChannelV1ChannelPartnerLink extends \Google\Model
+{
+  protected $channelPartnerCloudIdentityInfoType = GoogleCloudChannelV1CloudIdentityInfo::class;
+  protected $channelPartnerCloudIdentityInfoDataType = '';
+  public $createTime;
+  public $inviteLinkUri;
+  public $linkState;
+  public $name;
+  public $publicId;
+  public $resellerCloudIdentityId;
+  public $updateTime;
+
+  /**
+   * @param GoogleCloudChannelV1CloudIdentityInfo
+   */
+  public function setChannelPartnerCloudIdentityInfo(GoogleCloudChannelV1CloudIdentityInfo $channelPartnerCloudIdentityInfo)
+  {
+    $this->channelPartnerCloudIdentityInfo = $channelPartnerCloudIdentityInfo;
+  }
+  /**
+   * @return GoogleCloudChannelV1CloudIdentityInfo
+   */
+  public function getChannelPartnerCloudIdentityInfo()
+  {
+    return $this->channelPartnerCloudIdentityInfo;
+  }
+  public function setCreateTime($createTime)
+  {
+    $this->createTime = $createTime;
+  }
+  public function getCreateTime()
+  {
+    return $this->createTime;
+  }
+  public function setInviteLinkUri($inviteLinkUri)
+  {
+    $this->inviteLinkUri = $inviteLinkUri;
+  }
+  public function getInviteLinkUri()
+  {
+    return $this->inviteLinkUri;
+  }
+  public function setLinkState($linkState)
+  {
+    $this->linkState = $linkState;
+  }
+  public function getLinkState()
+  {
+    return $this->linkState;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setPublicId($publicId)
+  {
+    $this->publicId = $publicId;
+  }
+  public function getPublicId()
+  {
+    return $this->publicId;
+  }
+  public function setResellerCloudIdentityId($resellerCloudIdentityId)
+  {
+    $this->resellerCloudIdentityId = $resellerCloudIdentityId;
+  }
+  public function getResellerCloudIdentityId()
+  {
+    return $this->resellerCloudIdentityId;
+  }
+  public function setUpdateTime($updateTime)
+  {
+    $this->updateTime = $updateTime;
+  }
+  public function getUpdateTime()
+  {
+    return $this->updateTime;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudChannelV1ChannelPartnerLink::class, 'Google_Service_Cloudchannel_GoogleCloudChannelV1ChannelPartnerLink');

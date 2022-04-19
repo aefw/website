@@ -1,73 +1,120 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Directory\Resource;
+
+use Google\Service\Directory\Schema;
+use Google\Service\Directory\Schemas as SchemasModel;
+
+/**
+ * The "schemas" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $adminService = new Google\Service\Directory(...);
+ *   $schemas = $adminService->schemas;
+ *  </code>
+ */
+class Schemas extends \Google\Service\Resource
+{
+  /**
+   * Delete schema (schemas.delete)
+   *
+   * @param string $customerId Immutable ID of the Google Workspace account.
+   * @param string $schemaKey Name or immutable ID of the schema.
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($customerId, $schemaKey, $optParams = [])
+  {
+    $params = ['customerId' => $customerId, 'schemaKey' => $schemaKey];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Retrieve schema (schemas.get)
+   *
+   * @param string $customerId Immutable ID of the Google Workspace account.
+   * @param string $schemaKey Name or immutable ID of the schema.
+   * @param array $optParams Optional parameters.
+   * @return Schema
+   */
+  public function get($customerId, $schemaKey, $optParams = [])
+  {
+    $params = ['customerId' => $customerId, 'schemaKey' => $schemaKey];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Schema::class);
+  }
+  /**
+   * Create schema. (schemas.insert)
+   *
+   * @param string $customerId Immutable ID of the Google Workspace account.
+   * @param Schema $postBody
+   * @param array $optParams Optional parameters.
+   * @return Schema
+   */
+  public function insert($customerId, Schema $postBody, $optParams = [])
+  {
+    $params = ['customerId' => $customerId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Schema::class);
+  }
+  /**
+   * Retrieve all schemas for a customer (schemas.listSchemas)
+   *
+   * @param string $customerId Immutable ID of the Google Workspace account.
+   * @param array $optParams Optional parameters.
+   * @return SchemasModel
+   */
+  public function listSchemas($customerId, $optParams = [])
+  {
+    $params = ['customerId' => $customerId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], SchemasModel::class);
+  }
+  /**
+   * Patch Schema via Apiary Patch Orchestration (schemas.patch)
+   *
+   * @param string $customerId Immutable ID of the Google Workspace account.
+   * @param string $schemaKey Name or immutable ID of the schema.
+   * @param Schema $postBody
+   * @param array $optParams Optional parameters.
+   * @return Schema
+   */
+  public function patch($customerId, $schemaKey, Schema $postBody, $optParams = [])
+  {
+    $params = ['customerId' => $customerId, 'schemaKey' => $schemaKey, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Schema::class);
+  }
+  /**
+   * Update schema (schemas.update)
+   *
+   * @param string $customerId Immutable ID of the Google Workspace account.
+   * @param string $schemaKey Name or immutable ID of the schema.
+   * @param Schema $postBody
+   * @param array $optParams Optional parameters.
+   * @return Schema
+   */
+  public function update($customerId, $schemaKey, Schema $postBody, $optParams = [])
+  {
+    $params = ['customerId' => $customerId, 'schemaKey' => $schemaKey, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Schema::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Schemas::class, 'Google_Service_Directory_Resource_Schemas');

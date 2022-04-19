@@ -1,65 +1,106 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-xrb7EhqJzztC
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AdExchangeBuyerII;
+
+class MarketplaceTargeting extends \Google\Model
+{
+  protected $geoTargetingType = CriteriaTargeting::class;
+  protected $geoTargetingDataType = '';
+  protected $inventorySizeTargetingType = InventorySizeTargeting::class;
+  protected $inventorySizeTargetingDataType = '';
+  protected $placementTargetingType = PlacementTargeting::class;
+  protected $placementTargetingDataType = '';
+  protected $technologyTargetingType = TechnologyTargeting::class;
+  protected $technologyTargetingDataType = '';
+  protected $videoTargetingType = VideoTargeting::class;
+  protected $videoTargetingDataType = '';
+
+  /**
+   * @param CriteriaTargeting
+   */
+  public function setGeoTargeting(CriteriaTargeting $geoTargeting)
+  {
+    $this->geoTargeting = $geoTargeting;
+  }
+  /**
+   * @return CriteriaTargeting
+   */
+  public function getGeoTargeting()
+  {
+    return $this->geoTargeting;
+  }
+  /**
+   * @param InventorySizeTargeting
+   */
+  public function setInventorySizeTargeting(InventorySizeTargeting $inventorySizeTargeting)
+  {
+    $this->inventorySizeTargeting = $inventorySizeTargeting;
+  }
+  /**
+   * @return InventorySizeTargeting
+   */
+  public function getInventorySizeTargeting()
+  {
+    return $this->inventorySizeTargeting;
+  }
+  /**
+   * @param PlacementTargeting
+   */
+  public function setPlacementTargeting(PlacementTargeting $placementTargeting)
+  {
+    $this->placementTargeting = $placementTargeting;
+  }
+  /**
+   * @return PlacementTargeting
+   */
+  public function getPlacementTargeting()
+  {
+    return $this->placementTargeting;
+  }
+  /**
+   * @param TechnologyTargeting
+   */
+  public function setTechnologyTargeting(TechnologyTargeting $technologyTargeting)
+  {
+    $this->technologyTargeting = $technologyTargeting;
+  }
+  /**
+   * @return TechnologyTargeting
+   */
+  public function getTechnologyTargeting()
+  {
+    return $this->technologyTargeting;
+  }
+  /**
+   * @param VideoTargeting
+   */
+  public function setVideoTargeting(VideoTargeting $videoTargeting)
+  {
+    $this->videoTargeting = $videoTargeting;
+  }
+  /**
+   * @return VideoTargeting
+   */
+  public function getVideoTargeting()
+  {
+    return $this->videoTargeting;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(MarketplaceTargeting::class, 'Google_Service_AdExchangeBuyerII_MarketplaceTargeting');

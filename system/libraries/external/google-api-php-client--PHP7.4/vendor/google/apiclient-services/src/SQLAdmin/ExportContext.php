@@ -1,67 +1,104 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPqlTbfHmZslRVHC3jtRJgHfyaIivrSuFASPQvz3yKF6aVNYf8spVz++3Opd7V1EAQPjBs910
-lwT3bqJgGEAM8Xl5k/FkiEAf7vZuvlYYif42WEcamAoQHhy6JI5aisNprN4fNfQZNudq1RB6cBC3
-+g9bIS/yW6sJJ4IDPP720+FIAsqhjz6XmtbS5CxDYB1qxuscj/trdyovAiGVigLiOqR/y7k4MF2l
-p7d3siWUJwRKIagL7wBPCGByxgm082FjW2E7RpzvdH1+JCuwPjsIRuqJxxJYS5CkDLI4g2o1fZvA
-1ULLcNd/SruajbNQ5CJLYDIBvoa4UyvViebJC/gevhTwsh3lN+n7v4ESmfXQZ1/fgw9o11d00fnE
-epZb7OXwIBjwLO7P2HSmfwaT502BdIut9UogHSi0cfgkk4kwGoBjwLaFjOi92Zwom+Nozlw6+dso
-RGrEfic9pUWbd0jloW9lo3i7d5aPG+X89jktOs0PU8/sAIzXPIzPLsKgDDJaxOv6Z+yg4wsZidsy
-k/tkfU100HeEL3DPaluFvdS5PxWvqzhxb4dCOZ1ZorQiMkV9iZ9t+uhLDaCfTRn2LcJQnbXTjYiZ
-KiNH68BqIBUUKjMjgZc4vyCo2pjTvKlABRdLr63jdTj24vju6ewVftpDXeVyWVnzxCOdQATRm/1O
-3VTd6DW+cRNfdwGfo154S5YpO2+Vn7UaNf6ykvdMecBtHqzbDFtwMA+311IUio1xaOVQ30eZjui5
-0I5C+pi8pac2ljNwEY4LqCQqG964IZqkY8Z5ABwpHsFoxrLtEmJZKLf6yaiwArX07oR2GEArQUYg
-VNdUSiQdmtYvNNVX0srhlZltXDUWZ5n3u5+SwoKNKGqPTl13D23cUavvVb9SlFqk5eZwA5SmzAVY
-8+1q1ha/CpKtDMeARGt+a47mJYc4sSeHVyMJ51h9AtIMisRh00oJ8quJdP3Fcdcz/tCqb3EMxbwF
-VhwhWFbeJGn08LwhDuLV4+pbl3y0b4YsGRyiHuQcByYIqGsqFfUT6PSFIaFwfe6Z6Xe+hsnOYAb+
-4BZdbcttvns9YEGLNbnTS5hiuj1j9Hbb9Q+t7/7Ha2UV/iggb49eydvdZAGljrrPKfioYhkFSB/p
-mv+jg+jwf0vIox7N8ZWvdsB/xB81SxM57g7fMFt6X7YHmHEN0OphgE37KdRVCRrHBqMOEXWs/heN
-XfqEC3Hsioaohe+0JQIcN9W4HmAjkrT2rRYZrz+ahpa186E8VuR3TIe8t1qnwZvrsoLnpXKlhhZC
-sn8mLNkWAybK5sbxXl6btpCjYy0tHRVqwPSh/NlGOaJRpmFPI+nQrr0X2HLQnYB0blQLrT7auItK
-Dp7/pVTPcGgIV9bapuV1NQ+u8ouDQjnjYuPK0jiKVSJ19gdgHhHToadZUBGPkyUMAD3V0WIdCwVy
-ivoQIiLe1vAaSyhNQhMaZRMKffOjYIznEe/WPnKWwK9y9HCsPFvHvcQ8gos5ulwWKTF0KUM2+q3W
-GjS6zh4dwS9PMyVdWlcKBXeNtiXcoto1fIadS3gJwpxULu1hj+RQJOGqGXrLheHVjxlcHG0Cauhz
-hbdsZbT8k0QvbkpOBno6WSZCKW/uLEv3lXC/q/V7RaU3+Mb+O+ZRIG+xKKRr5WCovJBTsJEfDo3q
-JeF091nxsbz1Xbyd+o4PFL9TBvungEYBqml2Af1bCSrDW5TXWXxBt7LwXciMrVPzTkDSLZQ9/WJS
-GrCWiVi7wjrfrdu7CveVgnq4XoBylNyt0I+jB1IrzbqvRHQ36hWvj3rkzGV9E2T082Oj+lPzJ5WP
-lIwjLKYJYRPXHNwHOUPiYOywD43HOXi8Xqjmak6o6vXEc5Hvy0KaJ3u0YRzz61BJ+Aac3vrJrG9y
-cReH0E0Hp5g2XSA21xof/R97DrXs2bKryuQClAmnduU5BteRv3qdIPRcdNt28xluuBzvWEDhzJdJ
-gHlVs4nOMCNxaKOTCTpWfR88akj0o9Ekvkit+mExMl6P2bVbVQIzjwOUxeg39598rv5QrpZxTNS8
-VxDL5Afq/ohPRtS0h8+lBU/pOMzAcLWltEyn/J5QgLOkpKoNpqADkkXM3YWoR7ei8KPcL/pHK06g
-POSBcWAz7z8PEz+MipsaXTaxa7DWkuzot2OhJ446Tl1zrqCENbd1rbH1i+hzC261zQ9Lt0EobIvJ
-nXC7PGFfvO+BYEfSRxmDeUCg8E74EbMTkdMmh+rBGT2854D+S8lHeS+QsVMqJ8PvGwBYaZ78Vg95
-XT0qdv4SYNqvWAKlOGVVa2f2dVlj1nIVPLjRA+HiXXhwej3nYybGGnmmM+eMamDDKkuNFrGPI+iu
-hdrJgQAi+s6hD43Sc0eeW8BlRv7c8vY70yJPsyLAH8daIG3/CFuqirvDpZrQe4h2fApTsAi94xUF
-XsvUrV5Ie2Im1dACmbsCaCCZoXfRYgo9XBKCr2dL8ULUgnumo3eWttxqF+z6bJJQDlp8ay/eerIc
-8GTNIXaz7R92PdtWf4cQGnCsgxjQGc4aMdxBP8Y44lWBYbPjCPwW7nmgedACtd/Vaz+bMMtGV4yo
-KHA4+uXI2U3fB3zbDkVcaVNPJQcnUGGhu1Ag+Dj7cKkIKOPTd3v89YAqYNhlHqYPeoxH65ev3IQi
-wTh4M6osNNXU9M1FZ2uD6iZIhN4Xw3ARaQ9ZbYWZIN+lwNCZ31+8b3yFcwg5dTyl8PM96Y6nOt9+
-3NvymxfxR//4qvDPpW2pI7YW9wZMSROc90sjrjsFk7im2rDEwUfcs0uleb2ku+Pj15MWXwjU6P1p
-gFS+Nn8qOOh3m7SwsYz5EhQA/pS72oZdV+4iBmgyMkjOWAb4wdaJf0Rt+wXWWWwrorJtnm8mAu1j
-swC/hLidEIEhE8DLUY6vAy3WqMJWfwIFt0GfvBF0SMGKGOi/PkvQXILZgLTKr96kvWtun/fTUKVk
-/TyK6Q2C7cZrdPDriwA5goZfycUS2E05otU9W3Zja3YIgI8mjxvJ9CBp8VoKI2tq5py6f3MkoLWA
-pzNjXJt0+S3HoiZl+KzOCQ2ONNABzshJjjncVRY8fc2ZokLcmG1QpkivPG+NI3B12krvESdgnbbZ
-42HVEkTIGoQ67liHPHeOTVQ450DL99mXYN0pLIEYe0Mfu86rfKfBorzmr4JLQ40eQ++qJT7EqIg2
-E3Qze4qfgqVkoTAcqpxxY7wM6FAFwZgTYfW1rm2ZRBptpFa4xYiv/kQpZXpOmQirfruN8GLGlGgU
-0ccI598A0ZiqkeL4sHnReaojaI+sOt/6yvRR3MARc2BAS2QBsPPvGiGUifyGSp6oE0Eul3H3LRPV
-41+6Os0zg8HDuE1OVw69Z+Je9BLFZpEraCS30vkcrQWTEc5XxBsvJy+uhrawRiQ4xZee7sCzI2j0
-Wuzl3IiE3lZuJKZ/iIR5P6jGskZ8mgl6GXKggS4xlRABrLA4KycMPs7WyqN88ONbM3rd2Jc1/mFk
-2oyC6PvWq/BrWcjsa8uWt0RCZvqYcFW2tpyNN0MHtbBt3B3whtG2ETh2k6Swi3kGiPiYcOP2vyLC
-uvcvnb/N2gty85DeJExPOScISSgfuUcdtsj8keFlO0zYjFtv6z1pX9TMwjjMzHFug+blfk2T88qh
-QXZ2c5rTHJ9Q1KM2DeYn6w3MyOM3MMzcv3gQZJ0Kb245OLm4EoQBFzOvf4n6bAiOWXJXn8APd3UC
-oZ5/5eomrOqI0edyb28xuKT4pBMWzrIHgn8xS2FbuewrqNcrqsid7/yAYODVgwVujDUO3Q2AKqyX
-J7MFUGfIw5gLthmC2u84sXa/3TpG9/Aw0/3IKDlqwaoLz6CzRYTZmEcp7al7IBNJADRobl/RjXBo
-PdBVmbVA+m4DkzRJsWImkatPy128BlpXdccu1KD8cP7K+pr+Rxr/yNNB9m0ul1U3Y9BSc9xEzZbv
-TV46ihZ5/A8XM9Tu6LDmLSJT9zSk8zkKvhiLfwQLte6gGlMHGL8VyJ6La6dR3KisGLEKV9t4EbEt
-T9APgrPKb0R17EZiPZUM1jgJ0328E9dQ57Bod1le4lhXX7uqnFtfh6LJPacvSXQQc6T5lwKLYjGV
-tYvSFVE5+/6F9JD1/qV6xIqlK4kd8X106xGmC5x4PGf4DYi9Zi2vCpY5d0J712l0Fgv6Oi7ASH1w
-bN8HJj88AVUmMbW4jjtU8kkrBaEqH2q0x7pygh8bxY2sEW9sjXVmvkOS9WC8KDWXO8+tsLfn5Qk/
-YETvarVCmbH3GNj3TmaxIRly/G6Y4My7872Hpv0kC6fYgSewlo/LsXIrCp3sb0EEsSKgdiuO9Rqa
-zOErsFUcygw8VddkzYQip6NjL7tghpsYp5nGtWLlb1SNlzfa/TblXoNmIA5tt0DF1iUNQl0GigoG
-E6qVRcjNlysL9o6fgP2S3QhF3z1rUOVZB4F7IiOzCt/UfntHIWLvKbybdlj5RqqO9KNr7pEhZl4Y
-X5q507Je+FEUGx2G+mWpOUAJj3I4Fv/M2XEc4JZrnehklgKBNVFgy/Pa9I6OYhzT6RuQ0l2JdtvZ
-ln0TwDInaeZ81bqtHcflSKIb92UvMW==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\SQLAdmin;
+
+class ExportContext extends \Google\Collection
+{
+  protected $collection_key = 'databases';
+  protected $csvExportOptionsType = ExportContextCsvExportOptions::class;
+  protected $csvExportOptionsDataType = '';
+  public $databases;
+  public $fileType;
+  public $kind;
+  public $offload;
+  protected $sqlExportOptionsType = ExportContextSqlExportOptions::class;
+  protected $sqlExportOptionsDataType = '';
+  public $uri;
+
+  /**
+   * @param ExportContextCsvExportOptions
+   */
+  public function setCsvExportOptions(ExportContextCsvExportOptions $csvExportOptions)
+  {
+    $this->csvExportOptions = $csvExportOptions;
+  }
+  /**
+   * @return ExportContextCsvExportOptions
+   */
+  public function getCsvExportOptions()
+  {
+    return $this->csvExportOptions;
+  }
+  public function setDatabases($databases)
+  {
+    $this->databases = $databases;
+  }
+  public function getDatabases()
+  {
+    return $this->databases;
+  }
+  public function setFileType($fileType)
+  {
+    $this->fileType = $fileType;
+  }
+  public function getFileType()
+  {
+    return $this->fileType;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setOffload($offload)
+  {
+    $this->offload = $offload;
+  }
+  public function getOffload()
+  {
+    return $this->offload;
+  }
+  /**
+   * @param ExportContextSqlExportOptions
+   */
+  public function setSqlExportOptions(ExportContextSqlExportOptions $sqlExportOptions)
+  {
+    $this->sqlExportOptions = $sqlExportOptions;
+  }
+  /**
+   * @return ExportContextSqlExportOptions
+   */
+  public function getSqlExportOptions()
+  {
+    return $this->sqlExportOptions;
+  }
+  public function setUri($uri)
+  {
+    $this->uri = $uri;
+  }
+  public function getUri()
+  {
+    return $this->uri;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ExportContext::class, 'Google_Service_SQLAdmin_ExportContext');

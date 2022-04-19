@@ -1,62 +1,90 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\RecommendationsAI;
+
+class GoogleCloudRecommendationengineV1beta1InputConfig extends \Google\Model
+{
+  protected $bigQuerySourceType = GoogleCloudRecommendationengineV1beta1BigQuerySource::class;
+  protected $bigQuerySourceDataType = '';
+  protected $catalogInlineSourceType = GoogleCloudRecommendationengineV1beta1CatalogInlineSource::class;
+  protected $catalogInlineSourceDataType = '';
+  protected $gcsSourceType = GoogleCloudRecommendationengineV1beta1GcsSource::class;
+  protected $gcsSourceDataType = '';
+  protected $userEventInlineSourceType = GoogleCloudRecommendationengineV1beta1UserEventInlineSource::class;
+  protected $userEventInlineSourceDataType = '';
+
+  /**
+   * @param GoogleCloudRecommendationengineV1beta1BigQuerySource
+   */
+  public function setBigQuerySource(GoogleCloudRecommendationengineV1beta1BigQuerySource $bigQuerySource)
+  {
+    $this->bigQuerySource = $bigQuerySource;
+  }
+  /**
+   * @return GoogleCloudRecommendationengineV1beta1BigQuerySource
+   */
+  public function getBigQuerySource()
+  {
+    return $this->bigQuerySource;
+  }
+  /**
+   * @param GoogleCloudRecommendationengineV1beta1CatalogInlineSource
+   */
+  public function setCatalogInlineSource(GoogleCloudRecommendationengineV1beta1CatalogInlineSource $catalogInlineSource)
+  {
+    $this->catalogInlineSource = $catalogInlineSource;
+  }
+  /**
+   * @return GoogleCloudRecommendationengineV1beta1CatalogInlineSource
+   */
+  public function getCatalogInlineSource()
+  {
+    return $this->catalogInlineSource;
+  }
+  /**
+   * @param GoogleCloudRecommendationengineV1beta1GcsSource
+   */
+  public function setGcsSource(GoogleCloudRecommendationengineV1beta1GcsSource $gcsSource)
+  {
+    $this->gcsSource = $gcsSource;
+  }
+  /**
+   * @return GoogleCloudRecommendationengineV1beta1GcsSource
+   */
+  public function getGcsSource()
+  {
+    return $this->gcsSource;
+  }
+  /**
+   * @param GoogleCloudRecommendationengineV1beta1UserEventInlineSource
+   */
+  public function setUserEventInlineSource(GoogleCloudRecommendationengineV1beta1UserEventInlineSource $userEventInlineSource)
+  {
+    $this->userEventInlineSource = $userEventInlineSource;
+  }
+  /**
+   * @return GoogleCloudRecommendationengineV1beta1UserEventInlineSource
+   */
+  public function getUserEventInlineSource()
+  {
+    return $this->userEventInlineSource;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudRecommendationengineV1beta1InputConfig::class, 'Google_Service_RecommendationsAI_GoogleCloudRecommendationengineV1beta1InputConfig');

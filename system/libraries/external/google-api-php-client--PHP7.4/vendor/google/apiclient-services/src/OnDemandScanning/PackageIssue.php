@@ -1,68 +1,103 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-g1LqjNeuJqAnKF/uCVz8
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\OnDemandScanning;
+
+class PackageIssue extends \Google\Model
+{
+  public $affectedCpeUri;
+  public $affectedPackage;
+  protected $affectedVersionType = Version::class;
+  protected $affectedVersionDataType = '';
+  public $fixAvailable;
+  public $fixedCpeUri;
+  public $fixedPackage;
+  protected $fixedVersionType = Version::class;
+  protected $fixedVersionDataType = '';
+
+  public function setAffectedCpeUri($affectedCpeUri)
+  {
+    $this->affectedCpeUri = $affectedCpeUri;
+  }
+  public function getAffectedCpeUri()
+  {
+    return $this->affectedCpeUri;
+  }
+  public function setAffectedPackage($affectedPackage)
+  {
+    $this->affectedPackage = $affectedPackage;
+  }
+  public function getAffectedPackage()
+  {
+    return $this->affectedPackage;
+  }
+  /**
+   * @param Version
+   */
+  public function setAffectedVersion(Version $affectedVersion)
+  {
+    $this->affectedVersion = $affectedVersion;
+  }
+  /**
+   * @return Version
+   */
+  public function getAffectedVersion()
+  {
+    return $this->affectedVersion;
+  }
+  public function setFixAvailable($fixAvailable)
+  {
+    $this->fixAvailable = $fixAvailable;
+  }
+  public function getFixAvailable()
+  {
+    return $this->fixAvailable;
+  }
+  public function setFixedCpeUri($fixedCpeUri)
+  {
+    $this->fixedCpeUri = $fixedCpeUri;
+  }
+  public function getFixedCpeUri()
+  {
+    return $this->fixedCpeUri;
+  }
+  public function setFixedPackage($fixedPackage)
+  {
+    $this->fixedPackage = $fixedPackage;
+  }
+  public function getFixedPackage()
+  {
+    return $this->fixedPackage;
+  }
+  /**
+   * @param Version
+   */
+  public function setFixedVersion(Version $fixedVersion)
+  {
+    $this->fixedVersion = $fixedVersion;
+  }
+  /**
+   * @return Version
+   */
+  public function getFixedVersion()
+  {
+    return $this->fixedVersion;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PackageIssue::class, 'Google_Service_OnDemandScanning_PackageIssue');

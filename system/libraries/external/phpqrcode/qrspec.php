@@ -1,338 +1,592 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * PHP QR Code encoder
+ *
+ * QR Code specifications
+ *
+ * Based on libqrencode C library distributed under LGPL 2.1
+ * Copyright (C) 2006, 2007, 2008, 2009 Kentaro Fukuchi <fukuchi@megaui.net>
+ *
+ * PHP QR Code is distributed under LGPL 3
+ * Copyright (C) 2010 Dominik Dzienia <deltalab at poczta dot fm>
+ *
+ * The following data / specifications are taken from
+ * "Two dimensional symbol -- QR-code -- Basic Specification" (JIS X0510:2004)
+ *  or
+ * "Automatic identification and data capture techniques -- 
+ *  QR Code 2005 bar code symbology specification" (ISO/IEC 18004:2006)
+ *
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public
+ * License as published by the Free Software Foundation; either
+ * version 3 of the License, or any later version.
+ *
+ * This library is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this library; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+ */
+ 
+    define('QRSPEC_VERSION_MAX', 40);
+    define('QRSPEC_WIDTH_MAX',   177);
+
+    define('QRCAP_WIDTH',        0);
+    define('QRCAP_WORDS',        1);
+    define('QRCAP_REMINDER',     2);
+    define('QRCAP_EC',           3);
+
+    class QRspec {
+    
+        public static $capacity = array(
+            array(  0,    0, 0, array(   0,    0,    0,    0)),
+            array( 21,   26, 0, array(   7,   10,   13,   17)), // 1
+            array( 25,   44, 7, array(  10,   16,   22,   28)),
+            array( 29,   70, 7, array(  15,   26,   36,   44)),
+            array( 33,  100, 7, array(  20,   36,   52,   64)),
+            array( 37,  134, 7, array(  26,   48,   72,   88)), // 5
+            array( 41,  172, 7, array(  36,   64,   96,  112)),
+            array( 45,  196, 0, array(  40,   72,  108,  130)),
+            array( 49,  242, 0, array(  48,   88,  132,  156)),
+            array( 53,  292, 0, array(  60,  110,  160,  192)),
+            array( 57,  346, 0, array(  72,  130,  192,  224)), //10
+            array( 61,  404, 0, array(  80,  150,  224,  264)),
+            array( 65,  466, 0, array(  96,  176,  260,  308)),
+            array( 69,  532, 0, array( 104,  198,  288,  352)),
+            array( 73,  581, 3, array( 120,  216,  320,  384)),
+            array( 77,  655, 3, array( 132,  240,  360,  432)), //15
+            array( 81,  733, 3, array( 144,  280,  408,  480)),
+            array( 85,  815, 3, array( 168,  308,  448,  532)),
+            array( 89,  901, 3, array( 180,  338,  504,  588)),
+            array( 93,  991, 3, array( 196,  364,  546,  650)),
+            array( 97, 1085, 3, array( 224,  416,  600,  700)), //20
+            array(101, 1156, 4, array( 224,  442,  644,  750)),
+            array(105, 1258, 4, array( 252,  476,  690,  816)),
+            array(109, 1364, 4, array( 270,  504,  750,  900)),
+            array(113, 1474, 4, array( 300,  560,  810,  960)),
+            array(117, 1588, 4, array( 312,  588,  870, 1050)), //25
+            array(121, 1706, 4, array( 336,  644,  952, 1110)),
+            array(125, 1828, 4, array( 360,  700, 1020, 1200)),
+            array(129, 1921, 3, array( 390,  728, 1050, 1260)),
+            array(133, 2051, 3, array( 420,  784, 1140, 1350)),
+            array(137, 2185, 3, array( 450,  812, 1200, 1440)), //30
+            array(141, 2323, 3, array( 480,  868, 1290, 1530)),
+            array(145, 2465, 3, array( 510,  924, 1350, 1620)),
+            array(149, 2611, 3, array( 540,  980, 1440, 1710)),
+            array(153, 2761, 3, array( 570, 1036, 1530, 1800)),
+            array(157, 2876, 0, array( 570, 1064, 1590, 1890)), //35
+            array(161, 3034, 0, array( 600, 1120, 1680, 1980)),
+            array(165, 3196, 0, array( 630, 1204, 1770, 2100)),
+            array(169, 3362, 0, array( 660, 1260, 1860, 2220)),
+            array(173, 3532, 0, array( 720, 1316, 1950, 2310)),
+            array(177, 3706, 0, array( 750, 1372, 2040, 2430)) //40
+        );
+        
+        //----------------------------------------------------------------------
+        public static function getDataLength($version, $level)
+        {
+            return self::$capacity[$version][QRCAP_WORDS] - self::$capacity[$version][QRCAP_EC][$level];
+        }
+        
+        //----------------------------------------------------------------------
+        public static function getECCLength($version, $level)
+        {
+            return self::$capacity[$version][QRCAP_EC][$level];
+        }
+        
+        //----------------------------------------------------------------------
+        public static function getWidth($version)
+        {
+            return self::$capacity[$version][QRCAP_WIDTH];
+        }
+        
+        //----------------------------------------------------------------------
+        public static function getRemainder($version)
+        {
+            return self::$capacity[$version][QRCAP_REMINDER];
+        }
+        
+        //----------------------------------------------------------------------
+        public static function getMinimumVersion($size, $level)
+        {
+
+            for($i=1; $i<= QRSPEC_VERSION_MAX; $i++) {
+                $words  = self::$capacity[$i][QRCAP_WORDS] - self::$capacity[$i][QRCAP_EC][$level];
+                if($words >= $size) 
+                    return $i;
+            }
+
+            return -1;
+        }
+    
+        //######################################################################
+        
+        public static $lengthTableBits = array(
+            array(10, 12, 14),
+            array( 9, 11, 13),
+            array( 8, 16, 16),
+            array( 8, 10, 12)
+        );
+        
+        //----------------------------------------------------------------------
+        public static function lengthIndicator($mode, $version)
+        {
+            if ($mode == QR_MODE_STRUCTURE)
+                return 0;
+                
+            if ($version <= 9) {
+                $l = 0;
+            } else if ($version <= 26) {
+                $l = 1;
+            } else {
+                $l = 2;
+            }
+
+            return self::$lengthTableBits[$mode][$l];
+        }
+        
+        //----------------------------------------------------------------------
+        public static function maximumWords($mode, $version)
+        {
+            if($mode == QR_MODE_STRUCTURE) 
+                return 3;
+                
+            if($version <= 9) {
+                $l = 0;
+            } else if($version <= 26) {
+                $l = 1;
+            } else {
+                $l = 2;
+            }
+
+            $bits = self::$lengthTableBits[$mode][$l];
+            $words = (1 << $bits) - 1;
+            
+            if($mode == QR_MODE_KANJI) {
+                $words *= 2; // the number of bytes is required
+            }
+
+            return $words;
+        }
+
+        // Error correction code -----------------------------------------------
+        // Table of the error correction code (Reed-Solomon block)
+        // See Table 12-16 (pp.30-36), JIS X0510:2004.
+
+        public static $eccTable = array(
+            array(array( 0,  0), array( 0,  0), array( 0,  0), array( 0,  0)),
+            array(array( 1,  0), array( 1,  0), array( 1,  0), array( 1,  0)), // 1
+            array(array( 1,  0), array( 1,  0), array( 1,  0), array( 1,  0)),
+            array(array( 1,  0), array( 1,  0), array( 2,  0), array( 2,  0)),
+            array(array( 1,  0), array( 2,  0), array( 2,  0), array( 4,  0)),
+            array(array( 1,  0), array( 2,  0), array( 2,  2), array( 2,  2)), // 5
+            array(array( 2,  0), array( 4,  0), array( 4,  0), array( 4,  0)),
+            array(array( 2,  0), array( 4,  0), array( 2,  4), array( 4,  1)),
+            array(array( 2,  0), array( 2,  2), array( 4,  2), array( 4,  2)),
+            array(array( 2,  0), array( 3,  2), array( 4,  4), array( 4,  4)),
+            array(array( 2,  2), array( 4,  1), array( 6,  2), array( 6,  2)), //10
+            array(array( 4,  0), array( 1,  4), array( 4,  4), array( 3,  8)),
+            array(array( 2,  2), array( 6,  2), array( 4,  6), array( 7,  4)),
+            array(array( 4,  0), array( 8,  1), array( 8,  4), array(12,  4)),
+            array(array( 3,  1), array( 4,  5), array(11,  5), array(11,  5)),
+            array(array( 5,  1), array( 5,  5), array( 5,  7), array(11,  7)), //15
+            array(array( 5,  1), array( 7,  3), array(15,  2), array( 3, 13)),
+            array(array( 1,  5), array(10,  1), array( 1, 15), array( 2, 17)),
+            array(array( 5,  1), array( 9,  4), array(17,  1), array( 2, 19)),
+            array(array( 3,  4), array( 3, 11), array(17,  4), array( 9, 16)),
+            array(array( 3,  5), array( 3, 13), array(15,  5), array(15, 10)), //20
+            array(array( 4,  4), array(17,  0), array(17,  6), array(19,  6)),
+            array(array( 2,  7), array(17,  0), array( 7, 16), array(34,  0)),
+            array(array( 4,  5), array( 4, 14), array(11, 14), array(16, 14)),
+            array(array( 6,  4), array( 6, 14), array(11, 16), array(30,  2)),
+            array(array( 8,  4), array( 8, 13), array( 7, 22), array(22, 13)), //25
+            array(array(10,  2), array(19,  4), array(28,  6), array(33,  4)),
+            array(array( 8,  4), array(22,  3), array( 8, 26), array(12, 28)),
+            array(array( 3, 10), array( 3, 23), array( 4, 31), array(11, 31)),
+            array(array( 7,  7), array(21,  7), array( 1, 37), array(19, 26)),
+            array(array( 5, 10), array(19, 10), array(15, 25), array(23, 25)), //30
+            array(array(13,  3), array( 2, 29), array(42,  1), array(23, 28)),
+            array(array(17,  0), array(10, 23), array(10, 35), array(19, 35)),
+            array(array(17,  1), array(14, 21), array(29, 19), array(11, 46)),
+            array(array(13,  6), array(14, 23), array(44,  7), array(59,  1)),
+            array(array(12,  7), array(12, 26), array(39, 14), array(22, 41)), //35
+            array(array( 6, 14), array( 6, 34), array(46, 10), array( 2, 64)),
+            array(array(17,  4), array(29, 14), array(49, 10), array(24, 46)),
+            array(array( 4, 18), array(13, 32), array(48, 14), array(42, 32)),
+            array(array(20,  4), array(40,  7), array(43, 22), array(10, 67)),
+            array(array(19,  6), array(18, 31), array(34, 34), array(20, 61)),//40
+        );                                                                       
+
+        //----------------------------------------------------------------------
+        // CACHEABLE!!!
+        
+        public static function getEccSpec($version, $level, array &$spec)
+        {
+            if (count($spec) < 5) {
+                $spec = array(0,0,0,0,0);
+            }
+
+            $b1   = self::$eccTable[$version][$level][0];
+            $b2   = self::$eccTable[$version][$level][1];
+            $data = self::getDataLength($version, $level);
+            $ecc  = self::getECCLength($version, $level);
+
+            if($b2 == 0) {
+                $spec[0] = $b1;
+                $spec[1] = (int)($data / $b1);
+                $spec[2] = (int)($ecc / $b1);
+                $spec[3] = 0; 
+                $spec[4] = 0;
+            } else {
+                $spec[0] = $b1;
+                $spec[1] = (int)($data / ($b1 + $b2));
+                $spec[2] = (int)($ecc  / ($b1 + $b2));
+                $spec[3] = $b2;
+                $spec[4] = $spec[1] + 1;
+            }
+        }
+
+        // Alignment pattern ---------------------------------------------------
+
+        // Positions of alignment patterns.
+        // This array includes only the second and the third position of the 
+        // alignment patterns. Rest of them can be calculated from the distance 
+        // between them.
+         
+        // See Table 1 in Appendix E (pp.71) of JIS X0510:2004.
+         
+        public static $alignmentPattern = array(      
+            array( 0,  0),
+            array( 0,  0), array(18,  0), array(22,  0), array(26,  0), array(30,  0), // 1- 5
+            array(34,  0), array(22, 38), array(24, 42), array(26, 46), array(28, 50), // 6-10
+            array(30, 54), array(32, 58), array(34, 62), array(26, 46), array(26, 48), //11-15
+            array(26, 50), array(30, 54), array(30, 56), array(30, 58), array(34, 62), //16-20
+            array(28, 50), array(26, 50), array(30, 54), array(28, 54), array(32, 58), //21-25
+            array(30, 58), array(34, 62), array(26, 50), array(30, 54), array(26, 52), //26-30
+            array(30, 56), array(34, 60), array(30, 58), array(34, 62), array(30, 54), //31-35
+            array(24, 50), array(28, 54), array(32, 58), array(26, 54), array(30, 58), //35-40
+        );                                                                                  
+
+        
+        /** --------------------------------------------------------------------
+         * Put an alignment marker.
+         * @param frame
+         * @param width
+         * @param ox,oy center coordinate of the pattern
+         */
+        public static function putAlignmentMarker(array &$frame, $ox, $oy)
+        {
+            $finder = array(
+                "\xa1\xa1\xa1\xa1\xa1",
+                "\xa1\xa0\xa0\xa0\xa1",
+                "\xa1\xa0\xa1\xa0\xa1",
+                "\xa1\xa0\xa0\xa0\xa1",
+                "\xa1\xa1\xa1\xa1\xa1"
+            );                        
+            
+            $yStart = $oy-2;         
+            $xStart = $ox-2;
+            
+            for($y=0; $y<5; $y++) {
+                QRstr::set($frame, $xStart, $yStart+$y, $finder[$y]);
+            }
+        }
+
+        //----------------------------------------------------------------------
+        public static function putAlignmentPattern($version, &$frame, $width)
+        {
+            if($version < 2)
+                return;
+
+            $d = self::$alignmentPattern[$version][1] - self::$alignmentPattern[$version][0];
+            if($d < 0) {
+                $w = 2;
+            } else {
+                $w = (int)(($width - self::$alignmentPattern[$version][0]) / $d + 2);
+            }
+
+            if($w * $w - 3 == 1) {
+                $x = self::$alignmentPattern[$version][0];
+                $y = self::$alignmentPattern[$version][0];
+                self::putAlignmentMarker($frame, $x, $y);
+                return;
+            }
+
+            $cx = self::$alignmentPattern[$version][0];
+            for($x=1; $x<$w - 1; $x++) {
+                self::putAlignmentMarker($frame, 6, $cx);
+                self::putAlignmentMarker($frame, $cx,  6);
+                $cx += $d;
+            }
+
+            $cy = self::$alignmentPattern[$version][0];
+            for($y=0; $y<$w-1; $y++) {
+                $cx = self::$alignmentPattern[$version][0];
+                for($x=0; $x<$w-1; $x++) {
+                    self::putAlignmentMarker($frame, $cx, $cy);
+                    $cx += $d;
+                }
+                $cy += $d;
+            }
+        }
+
+        // Version information pattern -----------------------------------------
+
+		// Version information pattern (BCH coded).
+        // See Table 1 in Appendix D (pp.68) of JIS X0510:2004.
+        
+		// size: [QRSPEC_VERSION_MAX - 6]
+		
+        public static $versionPattern = array(
+            0x07c94, 0x085bc, 0x09a99, 0x0a4d3, 0x0bbf6, 0x0c762, 0x0d847, 0x0e60d,
+            0x0f928, 0x10b78, 0x1145d, 0x12a17, 0x13532, 0x149a6, 0x15683, 0x168c9,
+            0x177ec, 0x18ec4, 0x191e1, 0x1afab, 0x1b08e, 0x1cc1a, 0x1d33f, 0x1ed75,
+            0x1f250, 0x209d5, 0x216f0, 0x228ba, 0x2379f, 0x24b0b, 0x2542e, 0x26a64,
+            0x27541, 0x28c69
+        );
+
+        //----------------------------------------------------------------------
+        public static function getVersionPattern($version)
+        {
+            if($version < 7 || $version > QRSPEC_VERSION_MAX)
+                return 0;
+
+            return self::$versionPattern[$version -7];
+        }
+
+        // Format information --------------------------------------------------
+        // See calcFormatInfo in tests/test_qrspec.c (orginal qrencode c lib)
+        
+        public static $formatInfo = array(
+            array(0x77c4, 0x72f3, 0x7daa, 0x789d, 0x662f, 0x6318, 0x6c41, 0x6976),
+            array(0x5412, 0x5125, 0x5e7c, 0x5b4b, 0x45f9, 0x40ce, 0x4f97, 0x4aa0),
+            array(0x355f, 0x3068, 0x3f31, 0x3a06, 0x24b4, 0x2183, 0x2eda, 0x2bed),
+            array(0x1689, 0x13be, 0x1ce7, 0x19d0, 0x0762, 0x0255, 0x0d0c, 0x083b)
+        );
+
+        public static function getFormatInfo($mask, $level)
+        {
+            if($mask < 0 || $mask > 7)
+                return 0;
+                
+            if($level < 0 || $level > 3)
+                return 0;                
+
+            return self::$formatInfo[$level][$mask];
+        }
+
+        // Frame ---------------------------------------------------------------
+        // Cache of initial frames.
+         
+        public static $frames = array();
+
+        /** --------------------------------------------------------------------
+         * Put a finder pattern.
+         * @param frame
+         * @param width
+         * @param ox,oy upper-left coordinate of the pattern
+         */
+        public static function putFinderPattern(&$frame, $ox, $oy)
+        {
+            $finder = array(
+                "\xc1\xc1\xc1\xc1\xc1\xc1\xc1",
+                "\xc1\xc0\xc0\xc0\xc0\xc0\xc1",
+                "\xc1\xc0\xc1\xc1\xc1\xc0\xc1",
+                "\xc1\xc0\xc1\xc1\xc1\xc0\xc1",
+                "\xc1\xc0\xc1\xc1\xc1\xc0\xc1",
+                "\xc1\xc0\xc0\xc0\xc0\xc0\xc1",
+                "\xc1\xc1\xc1\xc1\xc1\xc1\xc1"
+            );                            
+            
+            for($y=0; $y<7; $y++) {
+                QRstr::set($frame, $ox, $oy+$y, $finder[$y]);
+            }
+        }
+
+        //----------------------------------------------------------------------
+        public static function createFrame($version)
+        {
+            $width = self::$capacity[$version][QRCAP_WIDTH];
+            $frameLine = str_repeat ("\0", $width);
+            $frame = array_fill(0, $width, $frameLine);
+
+            // Finder pattern
+            self::putFinderPattern($frame, 0, 0);
+            self::putFinderPattern($frame, $width - 7, 0);
+            self::putFinderPattern($frame, 0, $width - 7);
+            
+            // Separator
+            $yOffset = $width - 7;
+            
+            for($y=0; $y<7; $y++) {
+                $frame[$y][7] = "\xc0";
+                $frame[$y][$width - 8] = "\xc0";
+                $frame[$yOffset][7] = "\xc0";
+                $yOffset++;
+            }
+            
+            $setPattern = str_repeat("\xc0", 8);
+            
+            QRstr::set($frame, 0, 7, $setPattern);
+            QRstr::set($frame, $width-8, 7, $setPattern);
+            QRstr::set($frame, 0, $width - 8, $setPattern);
+        
+            // Format info
+            $setPattern = str_repeat("\x84", 9);
+            QRstr::set($frame, 0, 8, $setPattern);
+            QRstr::set($frame, $width - 8, 8, $setPattern, 8);
+            
+            $yOffset = $width - 8;
+
+            for($y=0; $y<8; $y++,$yOffset++) {
+                $frame[$y][8] = "\x84";
+                $frame[$yOffset][8] = "\x84";
+            }
+
+            // Timing pattern  
+            
+            for($i=1; $i<$width-15; $i++) {
+                $frame[6][7+$i] = chr(0x90 | ($i & 1));
+                $frame[7+$i][6] = chr(0x90 | ($i & 1));
+            }
+            
+            // Alignment pattern  
+            self::putAlignmentPattern($version, $frame, $width);
+            
+            // Version information 
+            if($version >= 7) {
+                $vinf = self::getVersionPattern($version);
+
+                $v = $vinf;
+                
+                for($x=0; $x<6; $x++) {
+                    for($y=0; $y<3; $y++) {
+                        $frame[($width - 11)+$y][$x] = chr(0x88 | ($v & 1));
+                        $v = $v >> 1;
+                    }
+                }
+
+                $v = $vinf;
+                for($y=0; $y<6; $y++) {
+                    for($x=0; $x<3; $x++) {
+                        $frame[$y][$x+($width - 11)] = chr(0x88 | ($v & 1));
+                        $v = $v >> 1;
+                    }
+                }
+            }
+    
+            // and a little bit...  
+            $frame[$width - 8][8] = "\x81";
+            
+            return $frame;
+        }
+
+        //----------------------------------------------------------------------
+        public static function debug($frame, $binary_mode = false)
+        {
+            if ($binary_mode) {
+            
+                    foreach ($frame as &$frameLine) {
+                        $frameLine = join('<span class="m">&nbsp;&nbsp;</span>', explode('0', $frameLine));
+                        $frameLine = join('&#9608;&#9608;', explode('1', $frameLine));
+                    }
+                    
+                    ?>
+                <style>
+                    .m { background-color: white; }
+                </style>
+                <?php
+                    echo '<pre><tt><br/ ><br/ ><br/ >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
+                    echo join("<br/ >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;", $frame);
+                    echo '</tt></pre><br/ ><br/ ><br/ ><br/ ><br/ ><br/ >';
+            
+            } else {
+            
+                foreach ($frame as &$frameLine) {
+                    $frameLine = join('<span class="m">&nbsp;</span>',  explode("\xc0", $frameLine));
+                    $frameLine = join('<span class="m">&#9618;</span>', explode("\xc1", $frameLine));
+                    $frameLine = join('<span class="p">&nbsp;</span>',  explode("\xa0", $frameLine));
+                    $frameLine = join('<span class="p">&#9618;</span>', explode("\xa1", $frameLine));
+                    $frameLine = join('<span class="s">&#9671;</span>', explode("\x84", $frameLine)); //format 0
+                    $frameLine = join('<span class="s">&#9670;</span>', explode("\x85", $frameLine)); //format 1
+                    $frameLine = join('<span class="x">&#9762;</span>', explode("\x81", $frameLine)); //special bit
+                    $frameLine = join('<span class="c">&nbsp;</span>',  explode("\x90", $frameLine)); //clock 0
+                    $frameLine = join('<span class="c">&#9719;</span>', explode("\x91", $frameLine)); //clock 1
+                    $frameLine = join('<span class="f">&nbsp;</span>',  explode("\x88", $frameLine)); //version
+                    $frameLine = join('<span class="f">&#9618;</span>', explode("\x89", $frameLine)); //version
+                    $frameLine = join('&#9830;', explode("\x01", $frameLine));
+                    $frameLine = join('&#8901;', explode("\0", $frameLine));
+                }
+                
+                ?>
+                <style>
+                    .p { background-color: yellow; }
+                    .m { background-color: #00FF00; }
+                    .s { background-color: #FF0000; }
+                    .c { background-color: aqua; }
+                    .x { background-color: pink; }
+                    .f { background-color: gold; }
+                </style>
+                <?php
+                echo "<pre><tt>";
+                echo join("<br/ >", $frame);
+                echo "</tt></pre>";
+            
+            }
+        }
+
+        //----------------------------------------------------------------------
+        public static function serial($frame)
+        {
+            return gzcompress(join("\n", $frame), 9);
+        }
+        
+        //----------------------------------------------------------------------
+        public static function unserial($code)
+        {
+            return explode("\n", gzuncompress($code));
+        }
+        
+        //----------------------------------------------------------------------
+        public static function newFrame($version)
+        {
+            if($version < 1 || $version > QRSPEC_VERSION_MAX) 
+                return null;
+
+            if(!isset(self::$frames[$version])) {
+                
+                $fileName = QR_CACHE_DIR.'frame_'.$version.'.dat';
+                
+                if (QR_CACHEABLE) {
+                    if (file_exists($fileName)) {
+                        self::$frames[$version] = self::unserial(file_get_contents($fileName));
+                    } else {
+                        self::$frames[$version] = self::createFrame($version);
+                        file_put_contents($fileName, self::serial(self::$frames[$version]));
+                    }
+                } else {
+                    self::$frames[$version] = self::createFrame($version);
+                }
+            }
+            
+            if(is_null(self::$frames[$version]))
+                return null;
+
+            return self::$frames[$version];
+        }
+
+        //----------------------------------------------------------------------
+        public static function rsBlockNum($spec)     { return $spec[0] + $spec[3]; }
+        public static function rsBlockNum1($spec)    { return $spec[0]; }
+        public static function rsDataCodes1($spec)   { return $spec[1]; }
+        public static function rsEccCodes1($spec)    { return $spec[2]; }
+        public static function rsBlockNum2($spec)    { return $spec[3]; }
+        public static function rsDataCodes2($spec)   { return $spec[4]; }
+        public static function rsEccCodes2($spec)    { return $spec[2]; }
+        public static function rsDataLength($spec)   { return ($spec[0] * $spec[1]) + ($spec[3] * $spec[4]);    }
+        public static function rsEccLength($spec)    { return ($spec[0] + $spec[3]) * $spec[2]; }
+        
+    }

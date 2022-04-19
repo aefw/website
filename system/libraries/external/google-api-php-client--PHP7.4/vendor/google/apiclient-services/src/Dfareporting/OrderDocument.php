@@ -1,106 +1,187 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-aQ9xPZsj
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dfareporting;
+
+class OrderDocument extends \Google\Collection
+{
+  protected $collection_key = 'lastSentRecipients';
+  public $accountId;
+  public $advertiserId;
+  public $amendedOrderDocumentId;
+  public $approvedByUserProfileIds;
+  public $cancelled;
+  protected $createdInfoType = LastModifiedInfo::class;
+  protected $createdInfoDataType = '';
+  public $effectiveDate;
+  public $id;
+  public $kind;
+  public $lastSentRecipients;
+  public $lastSentTime;
+  public $orderId;
+  public $projectId;
+  public $signed;
+  public $subaccountId;
+  public $title;
+  public $type;
+
+  public function setAccountId($accountId)
+  {
+    $this->accountId = $accountId;
+  }
+  public function getAccountId()
+  {
+    return $this->accountId;
+  }
+  public function setAdvertiserId($advertiserId)
+  {
+    $this->advertiserId = $advertiserId;
+  }
+  public function getAdvertiserId()
+  {
+    return $this->advertiserId;
+  }
+  public function setAmendedOrderDocumentId($amendedOrderDocumentId)
+  {
+    $this->amendedOrderDocumentId = $amendedOrderDocumentId;
+  }
+  public function getAmendedOrderDocumentId()
+  {
+    return $this->amendedOrderDocumentId;
+  }
+  public function setApprovedByUserProfileIds($approvedByUserProfileIds)
+  {
+    $this->approvedByUserProfileIds = $approvedByUserProfileIds;
+  }
+  public function getApprovedByUserProfileIds()
+  {
+    return $this->approvedByUserProfileIds;
+  }
+  public function setCancelled($cancelled)
+  {
+    $this->cancelled = $cancelled;
+  }
+  public function getCancelled()
+  {
+    return $this->cancelled;
+  }
+  /**
+   * @param LastModifiedInfo
+   */
+  public function setCreatedInfo(LastModifiedInfo $createdInfo)
+  {
+    $this->createdInfo = $createdInfo;
+  }
+  /**
+   * @return LastModifiedInfo
+   */
+  public function getCreatedInfo()
+  {
+    return $this->createdInfo;
+  }
+  public function setEffectiveDate($effectiveDate)
+  {
+    $this->effectiveDate = $effectiveDate;
+  }
+  public function getEffectiveDate()
+  {
+    return $this->effectiveDate;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setLastSentRecipients($lastSentRecipients)
+  {
+    $this->lastSentRecipients = $lastSentRecipients;
+  }
+  public function getLastSentRecipients()
+  {
+    return $this->lastSentRecipients;
+  }
+  public function setLastSentTime($lastSentTime)
+  {
+    $this->lastSentTime = $lastSentTime;
+  }
+  public function getLastSentTime()
+  {
+    return $this->lastSentTime;
+  }
+  public function setOrderId($orderId)
+  {
+    $this->orderId = $orderId;
+  }
+  public function getOrderId()
+  {
+    return $this->orderId;
+  }
+  public function setProjectId($projectId)
+  {
+    $this->projectId = $projectId;
+  }
+  public function getProjectId()
+  {
+    return $this->projectId;
+  }
+  public function setSigned($signed)
+  {
+    $this->signed = $signed;
+  }
+  public function getSigned()
+  {
+    return $this->signed;
+  }
+  public function setSubaccountId($subaccountId)
+  {
+    $this->subaccountId = $subaccountId;
+  }
+  public function getSubaccountId()
+  {
+    return $this->subaccountId;
+  }
+  public function setTitle($title)
+  {
+    $this->title = $title;
+  }
+  public function getTitle()
+  {
+    return $this->title;
+  }
+  public function setType($type)
+  {
+    $this->type = $type;
+  }
+  public function getType()
+  {
+    return $this->type;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(OrderDocument::class, 'Google_Service_Dfareporting_OrderDocument');

@@ -1,80 +1,125 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-SoO1AGqrHhOOeHVX
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute;
+
+class NetworkPeering extends \Google\Model
+{
+  public $autoCreateRoutes;
+  public $exchangeSubnetRoutes;
+  public $exportCustomRoutes;
+  public $exportSubnetRoutesWithPublicIp;
+  public $importCustomRoutes;
+  public $importSubnetRoutesWithPublicIp;
+  public $name;
+  public $network;
+  public $peerMtu;
+  public $state;
+  public $stateDetails;
+
+  public function setAutoCreateRoutes($autoCreateRoutes)
+  {
+    $this->autoCreateRoutes = $autoCreateRoutes;
+  }
+  public function getAutoCreateRoutes()
+  {
+    return $this->autoCreateRoutes;
+  }
+  public function setExchangeSubnetRoutes($exchangeSubnetRoutes)
+  {
+    $this->exchangeSubnetRoutes = $exchangeSubnetRoutes;
+  }
+  public function getExchangeSubnetRoutes()
+  {
+    return $this->exchangeSubnetRoutes;
+  }
+  public function setExportCustomRoutes($exportCustomRoutes)
+  {
+    $this->exportCustomRoutes = $exportCustomRoutes;
+  }
+  public function getExportCustomRoutes()
+  {
+    return $this->exportCustomRoutes;
+  }
+  public function setExportSubnetRoutesWithPublicIp($exportSubnetRoutesWithPublicIp)
+  {
+    $this->exportSubnetRoutesWithPublicIp = $exportSubnetRoutesWithPublicIp;
+  }
+  public function getExportSubnetRoutesWithPublicIp()
+  {
+    return $this->exportSubnetRoutesWithPublicIp;
+  }
+  public function setImportCustomRoutes($importCustomRoutes)
+  {
+    $this->importCustomRoutes = $importCustomRoutes;
+  }
+  public function getImportCustomRoutes()
+  {
+    return $this->importCustomRoutes;
+  }
+  public function setImportSubnetRoutesWithPublicIp($importSubnetRoutesWithPublicIp)
+  {
+    $this->importSubnetRoutesWithPublicIp = $importSubnetRoutesWithPublicIp;
+  }
+  public function getImportSubnetRoutesWithPublicIp()
+  {
+    return $this->importSubnetRoutesWithPublicIp;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setNetwork($network)
+  {
+    $this->network = $network;
+  }
+  public function getNetwork()
+  {
+    return $this->network;
+  }
+  public function setPeerMtu($peerMtu)
+  {
+    $this->peerMtu = $peerMtu;
+  }
+  public function getPeerMtu()
+  {
+    return $this->peerMtu;
+  }
+  public function setState($state)
+  {
+    $this->state = $state;
+  }
+  public function getState()
+  {
+    return $this->state;
+  }
+  public function setStateDetails($stateDetails)
+  {
+    $this->stateDetails = $stateDetails;
+  }
+  public function getStateDetails()
+  {
+    return $this->stateDetails;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(NetworkPeering::class, 'Google_Service_Compute_NetworkPeering');

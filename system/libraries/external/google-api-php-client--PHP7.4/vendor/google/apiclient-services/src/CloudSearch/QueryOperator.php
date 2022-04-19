@@ -1,84 +1,135 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudSearch;
+
+class QueryOperator extends \Google\Collection
+{
+  protected $collection_key = 'enumValues';
+  public $displayName;
+  public $enumValues;
+  public $greaterThanOperatorName;
+  public $isFacetable;
+  public $isRepeatable;
+  public $isReturnable;
+  public $isSortable;
+  public $isSuggestable;
+  public $lessThanOperatorName;
+  public $objectType;
+  public $operatorName;
+  public $type;
+
+  public function setDisplayName($displayName)
+  {
+    $this->displayName = $displayName;
+  }
+  public function getDisplayName()
+  {
+    return $this->displayName;
+  }
+  public function setEnumValues($enumValues)
+  {
+    $this->enumValues = $enumValues;
+  }
+  public function getEnumValues()
+  {
+    return $this->enumValues;
+  }
+  public function setGreaterThanOperatorName($greaterThanOperatorName)
+  {
+    $this->greaterThanOperatorName = $greaterThanOperatorName;
+  }
+  public function getGreaterThanOperatorName()
+  {
+    return $this->greaterThanOperatorName;
+  }
+  public function setIsFacetable($isFacetable)
+  {
+    $this->isFacetable = $isFacetable;
+  }
+  public function getIsFacetable()
+  {
+    return $this->isFacetable;
+  }
+  public function setIsRepeatable($isRepeatable)
+  {
+    $this->isRepeatable = $isRepeatable;
+  }
+  public function getIsRepeatable()
+  {
+    return $this->isRepeatable;
+  }
+  public function setIsReturnable($isReturnable)
+  {
+    $this->isReturnable = $isReturnable;
+  }
+  public function getIsReturnable()
+  {
+    return $this->isReturnable;
+  }
+  public function setIsSortable($isSortable)
+  {
+    $this->isSortable = $isSortable;
+  }
+  public function getIsSortable()
+  {
+    return $this->isSortable;
+  }
+  public function setIsSuggestable($isSuggestable)
+  {
+    $this->isSuggestable = $isSuggestable;
+  }
+  public function getIsSuggestable()
+  {
+    return $this->isSuggestable;
+  }
+  public function setLessThanOperatorName($lessThanOperatorName)
+  {
+    $this->lessThanOperatorName = $lessThanOperatorName;
+  }
+  public function getLessThanOperatorName()
+  {
+    return $this->lessThanOperatorName;
+  }
+  public function setObjectType($objectType)
+  {
+    $this->objectType = $objectType;
+  }
+  public function getObjectType()
+  {
+    return $this->objectType;
+  }
+  public function setOperatorName($operatorName)
+  {
+    $this->operatorName = $operatorName;
+  }
+  public function getOperatorName()
+  {
+    return $this->operatorName;
+  }
+  public function setType($type)
+  {
+    $this->type = $type;
+  }
+  public function getType()
+  {
+    return $this->type;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(QueryOperator::class, 'Google_Service_CloudSearch_QueryOperator');

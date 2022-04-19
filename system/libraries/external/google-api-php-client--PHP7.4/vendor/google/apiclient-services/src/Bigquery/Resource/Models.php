@@ -1,66 +1,103 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Bigquery\Resource;
+
+use Google\Service\Bigquery\ListModelsResponse;
+use Google\Service\Bigquery\Model;
+
+/**
+ * The "models" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $bigqueryService = new Google\Service\Bigquery(...);
+ *   $models = $bigqueryService->models;
+ *  </code>
+ */
+class Models extends \Google\Service\Resource
+{
+  /**
+   * Deletes the model specified by modelId from the dataset. (models.delete)
+   *
+   * @param string $projectId Required. Project ID of the model to delete.
+   * @param string $datasetId Required. Dataset ID of the model to delete.
+   * @param string $modelId Required. Model ID of the model to delete.
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($projectId, $datasetId, $modelId, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'datasetId' => $datasetId, 'modelId' => $modelId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Gets the specified model resource by model ID. (models.get)
+   *
+   * @param string $projectId Required. Project ID of the requested model.
+   * @param string $datasetId Required. Dataset ID of the requested model.
+   * @param string $modelId Required. Model ID of the requested model.
+   * @param array $optParams Optional parameters.
+   * @return Model
+   */
+  public function get($projectId, $datasetId, $modelId, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'datasetId' => $datasetId, 'modelId' => $modelId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Model::class);
+  }
+  /**
+   * Lists all models in the specified dataset. Requires the READER dataset role.
+   * After retrieving the list of models, you can get information about a
+   * particular model by calling the models.get method. (models.listModels)
+   *
+   * @param string $projectId Required. Project ID of the models to list.
+   * @param string $datasetId Required. Dataset ID of the models to list.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string maxResults The maximum number of results to return in a
+   * single response page. Leverage the page tokens to iterate through the entire
+   * collection.
+   * @opt_param string pageToken Page token, returned by a previous call to
+   * request the next page of results
+   * @return ListModelsResponse
+   */
+  public function listModels($projectId, $datasetId, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'datasetId' => $datasetId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListModelsResponse::class);
+  }
+  /**
+   * Patch specific fields in the specified model. (models.patch)
+   *
+   * @param string $projectId Required. Project ID of the model to patch.
+   * @param string $datasetId Required. Dataset ID of the model to patch.
+   * @param string $modelId Required. Model ID of the model to patch.
+   * @param Model $postBody
+   * @param array $optParams Optional parameters.
+   * @return Model
+   */
+  public function patch($projectId, $datasetId, $modelId, Model $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'datasetId' => $datasetId, 'modelId' => $modelId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Model::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Models::class, 'Google_Service_Bigquery_Resource_Models');

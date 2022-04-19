@@ -1,81 +1,123 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-r5yU2fY3RVoahHxCTIy=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ShoppingContent;
+
+class OrdersUpdateShipmentRequest extends \Google\Model
+{
+  public $carrier;
+  public $deliveryDate;
+  public $lastPickupDate;
+  public $operationId;
+  public $readyPickupDate;
+  protected $scheduledDeliveryDetailsType = OrdersCustomBatchRequestEntryUpdateShipmentScheduledDeliveryDetails::class;
+  protected $scheduledDeliveryDetailsDataType = '';
+  public $shipmentId;
+  public $status;
+  public $trackingId;
+  public $undeliveredDate;
+
+  public function setCarrier($carrier)
+  {
+    $this->carrier = $carrier;
+  }
+  public function getCarrier()
+  {
+    return $this->carrier;
+  }
+  public function setDeliveryDate($deliveryDate)
+  {
+    $this->deliveryDate = $deliveryDate;
+  }
+  public function getDeliveryDate()
+  {
+    return $this->deliveryDate;
+  }
+  public function setLastPickupDate($lastPickupDate)
+  {
+    $this->lastPickupDate = $lastPickupDate;
+  }
+  public function getLastPickupDate()
+  {
+    return $this->lastPickupDate;
+  }
+  public function setOperationId($operationId)
+  {
+    $this->operationId = $operationId;
+  }
+  public function getOperationId()
+  {
+    return $this->operationId;
+  }
+  public function setReadyPickupDate($readyPickupDate)
+  {
+    $this->readyPickupDate = $readyPickupDate;
+  }
+  public function getReadyPickupDate()
+  {
+    return $this->readyPickupDate;
+  }
+  /**
+   * @param OrdersCustomBatchRequestEntryUpdateShipmentScheduledDeliveryDetails
+   */
+  public function setScheduledDeliveryDetails(OrdersCustomBatchRequestEntryUpdateShipmentScheduledDeliveryDetails $scheduledDeliveryDetails)
+  {
+    $this->scheduledDeliveryDetails = $scheduledDeliveryDetails;
+  }
+  /**
+   * @return OrdersCustomBatchRequestEntryUpdateShipmentScheduledDeliveryDetails
+   */
+  public function getScheduledDeliveryDetails()
+  {
+    return $this->scheduledDeliveryDetails;
+  }
+  public function setShipmentId($shipmentId)
+  {
+    $this->shipmentId = $shipmentId;
+  }
+  public function getShipmentId()
+  {
+    return $this->shipmentId;
+  }
+  public function setStatus($status)
+  {
+    $this->status = $status;
+  }
+  public function getStatus()
+  {
+    return $this->status;
+  }
+  public function setTrackingId($trackingId)
+  {
+    $this->trackingId = $trackingId;
+  }
+  public function getTrackingId()
+  {
+    return $this->trackingId;
+  }
+  public function setUndeliveredDate($undeliveredDate)
+  {
+    $this->undeliveredDate = $undeliveredDate;
+  }
+  public function getUndeliveredDate()
+  {
+    return $this->undeliveredDate;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(OrdersUpdateShipmentRequest::class, 'Google_Service_ShoppingContent_OrdersUpdateShipmentRequest');

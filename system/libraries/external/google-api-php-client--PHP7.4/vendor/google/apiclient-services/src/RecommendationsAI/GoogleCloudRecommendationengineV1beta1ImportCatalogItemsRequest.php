@@ -1,62 +1,76 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\RecommendationsAI;
+
+class GoogleCloudRecommendationengineV1beta1ImportCatalogItemsRequest extends \Google\Model
+{
+  protected $errorsConfigType = GoogleCloudRecommendationengineV1beta1ImportErrorsConfig::class;
+  protected $errorsConfigDataType = '';
+  protected $inputConfigType = GoogleCloudRecommendationengineV1beta1InputConfig::class;
+  protected $inputConfigDataType = '';
+  public $requestId;
+  public $updateMask;
+
+  /**
+   * @param GoogleCloudRecommendationengineV1beta1ImportErrorsConfig
+   */
+  public function setErrorsConfig(GoogleCloudRecommendationengineV1beta1ImportErrorsConfig $errorsConfig)
+  {
+    $this->errorsConfig = $errorsConfig;
+  }
+  /**
+   * @return GoogleCloudRecommendationengineV1beta1ImportErrorsConfig
+   */
+  public function getErrorsConfig()
+  {
+    return $this->errorsConfig;
+  }
+  /**
+   * @param GoogleCloudRecommendationengineV1beta1InputConfig
+   */
+  public function setInputConfig(GoogleCloudRecommendationengineV1beta1InputConfig $inputConfig)
+  {
+    $this->inputConfig = $inputConfig;
+  }
+  /**
+   * @return GoogleCloudRecommendationengineV1beta1InputConfig
+   */
+  public function getInputConfig()
+  {
+    return $this->inputConfig;
+  }
+  public function setRequestId($requestId)
+  {
+    $this->requestId = $requestId;
+  }
+  public function getRequestId()
+  {
+    return $this->requestId;
+  }
+  public function setUpdateMask($updateMask)
+  {
+    $this->updateMask = $updateMask;
+  }
+  public function getUpdateMask()
+  {
+    return $this->updateMask;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudRecommendationengineV1beta1ImportCatalogItemsRequest::class, 'Google_Service_RecommendationsAI_GoogleCloudRecommendationengineV1beta1ImportCatalogItemsRequest');

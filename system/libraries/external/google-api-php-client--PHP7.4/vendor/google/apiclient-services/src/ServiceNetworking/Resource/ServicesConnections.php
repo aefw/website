@@ -1,66 +1,131 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-IxTrl/rTB3Yt6n+55m==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ServiceNetworking\Resource;
+
+use Google\Service\ServiceNetworking\Connection;
+use Google\Service\ServiceNetworking\DeleteConnectionRequest;
+use Google\Service\ServiceNetworking\ListConnectionsResponse;
+use Google\Service\ServiceNetworking\Operation;
+
+/**
+ * The "connections" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $servicenetworkingService = new Google\Service\ServiceNetworking(...);
+ *   $connections = $servicenetworkingService->connections;
+ *  </code>
+ */
+class ServicesConnections extends \Google\Service\Resource
+{
+  /**
+   * Creates a private connection that establishes a VPC Network Peering
+   * connection to a VPC network in the service producer's organization. The
+   * administrator of the service consumer's VPC network invokes this method. The
+   * administrator must assign one or more allocated IP ranges for provisioning
+   * subnetworks in the service producer's VPC network. This connection is used
+   * for all supported services in the service producer's organization, so it only
+   * needs to be invoked once. (connections.create)
+   *
+   * @param string $parent The service that is managing peering connectivity for a
+   * service producer's organization. For Google services that support this
+   * functionality, this value is `services/servicenetworking.googleapis.com`.
+   * @param Connection $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function create($parent, Connection $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Operation::class);
+  }
+  /**
+   * Deletes a private service access connection. (connections.deleteConnection)
+   *
+   * @param string $name Required. The private service connection that connects to
+   * a service producer organization. The name includes both the private service
+   * name and the VPC network peering name in the format of
+   * `services/{peering_service_name}/connections/{vpc_peering_name}`. For Google
+   * services that support this functionality, this is
+   * `services/servicenetworking.googleapis.com/connections/servicenetworking-
+   * googleapis-com`.
+   * @param DeleteConnectionRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function deleteConnection($name, DeleteConnectionRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('deleteConnection', [$params], Operation::class);
+  }
+  /**
+   * List the private connections that are configured in a service consumer's VPC
+   * network. (connections.listServicesConnections)
+   *
+   * @param string $parent The service that is managing peering connectivity for a
+   * service producer's organization. For Google services that support this
+   * functionality, this value is `services/servicenetworking.googleapis.com`. If
+   * you specify `services/-` as the parameter value, all configured peering
+   * services are listed.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string network The name of service consumer's VPC network that's
+   * connected with service producer network through a private connection. The
+   * network name must be in the following format:
+   * `projects/{project}/global/networks/{network}`. {project} is a project
+   * number, such as in `12345` that includes the VPC service consumer's VPC
+   * network. {network} is the name of the service consumer's VPC network.
+   * @return ListConnectionsResponse
+   */
+  public function listServicesConnections($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListConnectionsResponse::class);
+  }
+  /**
+   * Updates the allocated ranges that are assigned to a connection.
+   * (connections.patch)
+   *
+   * @param string $name The private service connection that connects to a service
+   * producer organization. The name includes both the private service name and
+   * the VPC network peering name in the format of
+   * `services/{peering_service_name}/connections/{vpc_peering_name}`. For Google
+   * services that support this functionality, this is
+   * `services/servicenetworking.googleapis.com/connections/servicenetworking-
+   * googleapis-com`.
+   * @param Connection $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool force If a previously defined allocated range is removed,
+   * force flag must be set to true.
+   * @opt_param string updateMask The update mask. If this is omitted, it defaults
+   * to "*". You can only update the listed peering ranges.
+   * @return Operation
+   */
+  public function patch($name, Connection $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ServicesConnections::class, 'Google_Service_ServiceNetworking_Resource_ServicesConnections');

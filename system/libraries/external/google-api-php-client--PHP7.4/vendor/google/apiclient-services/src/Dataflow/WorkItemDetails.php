@@ -1,67 +1,104 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-dFJ47WLcPp6PbLy69R3CCHMx
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dataflow;
+
+class WorkItemDetails extends \Google\Collection
+{
+  protected $collection_key = 'metrics';
+  public $attemptId;
+  public $endTime;
+  protected $metricsType = MetricUpdate::class;
+  protected $metricsDataType = 'array';
+  protected $progressType = ProgressTimeseries::class;
+  protected $progressDataType = '';
+  public $startTime;
+  public $state;
+  public $taskId;
+
+  public function setAttemptId($attemptId)
+  {
+    $this->attemptId = $attemptId;
+  }
+  public function getAttemptId()
+  {
+    return $this->attemptId;
+  }
+  public function setEndTime($endTime)
+  {
+    $this->endTime = $endTime;
+  }
+  public function getEndTime()
+  {
+    return $this->endTime;
+  }
+  /**
+   * @param MetricUpdate[]
+   */
+  public function setMetrics($metrics)
+  {
+    $this->metrics = $metrics;
+  }
+  /**
+   * @return MetricUpdate[]
+   */
+  public function getMetrics()
+  {
+    return $this->metrics;
+  }
+  /**
+   * @param ProgressTimeseries
+   */
+  public function setProgress(ProgressTimeseries $progress)
+  {
+    $this->progress = $progress;
+  }
+  /**
+   * @return ProgressTimeseries
+   */
+  public function getProgress()
+  {
+    return $this->progress;
+  }
+  public function setStartTime($startTime)
+  {
+    $this->startTime = $startTime;
+  }
+  public function getStartTime()
+  {
+    return $this->startTime;
+  }
+  public function setState($state)
+  {
+    $this->state = $state;
+  }
+  public function getState()
+  {
+    return $this->state;
+  }
+  public function setTaskId($taskId)
+  {
+    $this->taskId = $taskId;
+  }
+  public function getTaskId()
+  {
+    return $this->taskId;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(WorkItemDetails::class, 'Google_Service_Dataflow_WorkItemDetails');

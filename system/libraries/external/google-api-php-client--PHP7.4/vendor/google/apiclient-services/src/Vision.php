@@ -1,103 +1,641 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-BwEey4u3RxJ/eVS8Fwnrk2ai4S4=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for Vision (v1).
+ *
+ * <p>
+ * Integrates Google Vision features, including image labeling, face, logo, and
+ * landmark detection, optical character recognition (OCR), and detection of
+ * explicit content, into applications.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/vision/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class Vision extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+  /** Apply machine learning models to understand and label images. */
+  const CLOUD_VISION =
+      "https://www.googleapis.com/auth/cloud-vision";
+
+  public $files;
+  public $images;
+  public $locations_operations;
+  public $operations;
+  public $projects_files;
+  public $projects_images;
+  public $projects_locations_files;
+  public $projects_locations_images;
+  public $projects_locations_operations;
+  public $projects_locations_productSets;
+  public $projects_locations_productSets_products;
+  public $projects_locations_products;
+  public $projects_locations_products_referenceImages;
+  public $projects_operations;
+
+  /**
+   * Constructs the internal representation of the Vision service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://vision.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'vision';
+
+    $this->files = new Vision\Resource\Files(
+        $this,
+        $this->serviceName,
+        'files',
+        [
+          'methods' => [
+            'annotate' => [
+              'path' => 'v1/files:annotate',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'asyncBatchAnnotate' => [
+              'path' => 'v1/files:asyncBatchAnnotate',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],
+          ]
+        ]
+    );
+    $this->images = new Vision\Resource\Images(
+        $this,
+        $this->serviceName,
+        'images',
+        [
+          'methods' => [
+            'annotate' => [
+              'path' => 'v1/images:annotate',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'asyncBatchAnnotate' => [
+              'path' => 'v1/images:asyncBatchAnnotate',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],
+          ]
+        ]
+    );
+    $this->locations_operations = new Vision\Resource\LocationsOperations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->operations = new Vision\Resource\Operations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'cancel' => [
+              'path' => 'v1/{+name}:cancel',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_files = new Vision\Resource\ProjectsFiles(
+        $this,
+        $this->serviceName,
+        'files',
+        [
+          'methods' => [
+            'annotate' => [
+              'path' => 'v1/{+parent}/files:annotate',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'asyncBatchAnnotate' => [
+              'path' => 'v1/{+parent}/files:asyncBatchAnnotate',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_images = new Vision\Resource\ProjectsImages(
+        $this,
+        $this->serviceName,
+        'images',
+        [
+          'methods' => [
+            'annotate' => [
+              'path' => 'v1/{+parent}/images:annotate',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'asyncBatchAnnotate' => [
+              'path' => 'v1/{+parent}/images:asyncBatchAnnotate',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_files = new Vision\Resource\ProjectsLocationsFiles(
+        $this,
+        $this->serviceName,
+        'files',
+        [
+          'methods' => [
+            'annotate' => [
+              'path' => 'v1/{+parent}/files:annotate',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'asyncBatchAnnotate' => [
+              'path' => 'v1/{+parent}/files:asyncBatchAnnotate',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_images = new Vision\Resource\ProjectsLocationsImages(
+        $this,
+        $this->serviceName,
+        'images',
+        [
+          'methods' => [
+            'annotate' => [
+              'path' => 'v1/{+parent}/images:annotate',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'asyncBatchAnnotate' => [
+              'path' => 'v1/{+parent}/images:asyncBatchAnnotate',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_operations = new Vision\Resource\ProjectsLocationsOperations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_productSets = new Vision\Resource\ProjectsLocationsProductSets(
+        $this,
+        $this->serviceName,
+        'productSets',
+        [
+          'methods' => [
+            'addProduct' => [
+              'path' => 'v1/{+name}:addProduct',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1/{+parent}/productSets',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'productSetId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'import' => [
+              'path' => 'v1/{+parent}/productSets:import',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/productSets',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'removeProduct' => [
+              'path' => 'v1/{+name}:removeProduct',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_productSets_products = new Vision\Resource\ProjectsLocationsProductSetsProducts(
+        $this,
+        $this->serviceName,
+        'products',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/{+name}/products',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_products = new Vision\Resource\ProjectsLocationsProducts(
+        $this,
+        $this->serviceName,
+        'products',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/products',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'productId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/products',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'purge' => [
+              'path' => 'v1/{+parent}/products:purge',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_products_referenceImages = new Vision\Resource\ProjectsLocationsProductsReferenceImages(
+        $this,
+        $this->serviceName,
+        'referenceImages',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/referenceImages',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'referenceImageId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/referenceImages',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_operations = new Vision\Resource\ProjectsOperations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Vision::class, 'Google_Service_Vision');

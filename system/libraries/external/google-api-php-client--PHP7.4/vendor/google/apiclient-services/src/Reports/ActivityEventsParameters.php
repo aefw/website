@@ -1,73 +1,113 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-X509lNafG96mIOEYjZBN9XS=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Reports;
+
+class ActivityEventsParameters extends \Google\Collection
+{
+  protected $collection_key = 'multiValue';
+  public $boolValue;
+  public $intValue;
+  protected $messageValueType = ActivityEventsParametersMessageValue::class;
+  protected $messageValueDataType = '';
+  public $multiIntValue;
+  protected $multiMessageValueType = ActivityEventsParametersMultiMessageValue::class;
+  protected $multiMessageValueDataType = 'array';
+  public $multiValue;
+  public $name;
+  public $value;
+
+  public function setBoolValue($boolValue)
+  {
+    $this->boolValue = $boolValue;
+  }
+  public function getBoolValue()
+  {
+    return $this->boolValue;
+  }
+  public function setIntValue($intValue)
+  {
+    $this->intValue = $intValue;
+  }
+  public function getIntValue()
+  {
+    return $this->intValue;
+  }
+  /**
+   * @param ActivityEventsParametersMessageValue
+   */
+  public function setMessageValue(ActivityEventsParametersMessageValue $messageValue)
+  {
+    $this->messageValue = $messageValue;
+  }
+  /**
+   * @return ActivityEventsParametersMessageValue
+   */
+  public function getMessageValue()
+  {
+    return $this->messageValue;
+  }
+  public function setMultiIntValue($multiIntValue)
+  {
+    $this->multiIntValue = $multiIntValue;
+  }
+  public function getMultiIntValue()
+  {
+    return $this->multiIntValue;
+  }
+  /**
+   * @param ActivityEventsParametersMultiMessageValue[]
+   */
+  public function setMultiMessageValue($multiMessageValue)
+  {
+    $this->multiMessageValue = $multiMessageValue;
+  }
+  /**
+   * @return ActivityEventsParametersMultiMessageValue[]
+   */
+  public function getMultiMessageValue()
+  {
+    return $this->multiMessageValue;
+  }
+  public function setMultiValue($multiValue)
+  {
+    $this->multiValue = $multiValue;
+  }
+  public function getMultiValue()
+  {
+    return $this->multiValue;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setValue($value)
+  {
+    $this->value = $value;
+  }
+  public function getValue()
+  {
+    return $this->value;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ActivityEventsParameters::class, 'Google_Service_Reports_ActivityEventsParameters');

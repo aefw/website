@@ -1,66 +1,90 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-wHumxMKhHWvbOOzpC7RnForYREwfKwKS5yXe
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dataflow;
+
+class ParameterMetadata extends \Google\Collection
+{
+  protected $collection_key = 'regexes';
+  public $customMetadata;
+  public $helpText;
+  public $isOptional;
+  public $label;
+  public $name;
+  public $paramType;
+  public $regexes;
+
+  public function setCustomMetadata($customMetadata)
+  {
+    $this->customMetadata = $customMetadata;
+  }
+  public function getCustomMetadata()
+  {
+    return $this->customMetadata;
+  }
+  public function setHelpText($helpText)
+  {
+    $this->helpText = $helpText;
+  }
+  public function getHelpText()
+  {
+    return $this->helpText;
+  }
+  public function setIsOptional($isOptional)
+  {
+    $this->isOptional = $isOptional;
+  }
+  public function getIsOptional()
+  {
+    return $this->isOptional;
+  }
+  public function setLabel($label)
+  {
+    $this->label = $label;
+  }
+  public function getLabel()
+  {
+    return $this->label;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setParamType($paramType)
+  {
+    $this->paramType = $paramType;
+  }
+  public function getParamType()
+  {
+    return $this->paramType;
+  }
+  public function setRegexes($regexes)
+  {
+    $this->regexes = $regexes;
+  }
+  public function getRegexes()
+  {
+    return $this->regexes;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ParameterMetadata::class, 'Google_Service_Dataflow_ParameterMetadata');

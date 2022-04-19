@@ -1,64 +1,115 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Vault;
+
+class ExportOptions extends \Google\Model
+{
+  protected $driveOptionsType = DriveExportOptions::class;
+  protected $driveOptionsDataType = '';
+  protected $groupsOptionsType = GroupsExportOptions::class;
+  protected $groupsOptionsDataType = '';
+  protected $hangoutsChatOptionsType = HangoutsChatExportOptions::class;
+  protected $hangoutsChatOptionsDataType = '';
+  protected $mailOptionsType = MailExportOptions::class;
+  protected $mailOptionsDataType = '';
+  public $region;
+  protected $voiceOptionsType = VoiceExportOptions::class;
+  protected $voiceOptionsDataType = '';
+
+  /**
+   * @param DriveExportOptions
+   */
+  public function setDriveOptions(DriveExportOptions $driveOptions)
+  {
+    $this->driveOptions = $driveOptions;
+  }
+  /**
+   * @return DriveExportOptions
+   */
+  public function getDriveOptions()
+  {
+    return $this->driveOptions;
+  }
+  /**
+   * @param GroupsExportOptions
+   */
+  public function setGroupsOptions(GroupsExportOptions $groupsOptions)
+  {
+    $this->groupsOptions = $groupsOptions;
+  }
+  /**
+   * @return GroupsExportOptions
+   */
+  public function getGroupsOptions()
+  {
+    return $this->groupsOptions;
+  }
+  /**
+   * @param HangoutsChatExportOptions
+   */
+  public function setHangoutsChatOptions(HangoutsChatExportOptions $hangoutsChatOptions)
+  {
+    $this->hangoutsChatOptions = $hangoutsChatOptions;
+  }
+  /**
+   * @return HangoutsChatExportOptions
+   */
+  public function getHangoutsChatOptions()
+  {
+    return $this->hangoutsChatOptions;
+  }
+  /**
+   * @param MailExportOptions
+   */
+  public function setMailOptions(MailExportOptions $mailOptions)
+  {
+    $this->mailOptions = $mailOptions;
+  }
+  /**
+   * @return MailExportOptions
+   */
+  public function getMailOptions()
+  {
+    return $this->mailOptions;
+  }
+  public function setRegion($region)
+  {
+    $this->region = $region;
+  }
+  public function getRegion()
+  {
+    return $this->region;
+  }
+  /**
+   * @param VoiceExportOptions
+   */
+  public function setVoiceOptions(VoiceExportOptions $voiceOptions)
+  {
+    $this->voiceOptions = $voiceOptions;
+  }
+  /**
+   * @return VoiceExportOptions
+   */
+  public function getVoiceOptions()
+  {
+    return $this->voiceOptions;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ExportOptions::class, 'Google_Service_Vault_ExportOptions');

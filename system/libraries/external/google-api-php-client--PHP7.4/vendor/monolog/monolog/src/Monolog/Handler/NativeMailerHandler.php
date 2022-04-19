@@ -1,107 +1,176 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Ytkxzm==
+<?php declare(strict_types=1);
+
+/*
+ * This file is part of the Monolog package.
+ *
+ * (c) Jordi Boggiano <j.boggiano@seld.be>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Monolog\Handler;
+
+use Monolog\Logger;
+use Monolog\Formatter\LineFormatter;
+
+/**
+ * NativeMailerHandler uses the mail() function to send the emails
+ *
+ * @author Christophe Coevoet <stof@notk.org>
+ * @author Mark Garrett <mark@moderndeveloperllc.com>
+ */
+class NativeMailerHandler extends MailHandler
+{
+    /**
+     * The email addresses to which the message will be sent
+     * @var array
+     */
+    protected $to;
+
+    /**
+     * The subject of the email
+     * @var string
+     */
+    protected $subject;
+
+    /**
+     * Optional headers for the message
+     * @var array
+     */
+    protected $headers = [];
+
+    /**
+     * Optional parameters for the message
+     * @var array
+     */
+    protected $parameters = [];
+
+    /**
+     * The wordwrap length for the message
+     * @var int
+     */
+    protected $maxColumnWidth;
+
+    /**
+     * The Content-type for the message
+     * @var string|null
+     */
+    protected $contentType;
+
+    /**
+     * The encoding for the message
+     * @var string
+     */
+    protected $encoding = 'utf-8';
+
+    /**
+     * @param string|array $to             The receiver of the mail
+     * @param string       $subject        The subject of the mail
+     * @param string       $from           The sender of the mail
+     * @param string|int   $level          The minimum logging level at which this handler will be triggered
+     * @param bool         $bubble         Whether the messages that are handled can bubble up the stack or not
+     * @param int          $maxColumnWidth The maximum column width that the message lines will have
+     */
+    public function __construct($to, string $subject, string $from, $level = Logger::ERROR, bool $bubble = true, int $maxColumnWidth = 70)
+    {
+        parent::__construct($level, $bubble);
+        $this->to = (array) $to;
+        $this->subject = $subject;
+        $this->addHeader(sprintf('From: %s', $from));
+        $this->maxColumnWidth = $maxColumnWidth;
+    }
+
+    /**
+     * Add headers to the message
+     *
+     * @param string|array $headers Custom added headers
+     */
+    public function addHeader($headers): self
+    {
+        foreach ((array) $headers as $header) {
+            if (strpos($header, "\n") !== false || strpos($header, "\r") !== false) {
+                throw new \InvalidArgumentException('Headers can not contain newline characters for security reasons');
+            }
+            $this->headers[] = $header;
+        }
+
+        return $this;
+    }
+
+    /**
+     * Add parameters to the message
+     *
+     * @param string|array $parameters Custom added parameters
+     */
+    public function addParameter($parameters): self
+    {
+        $this->parameters = array_merge($this->parameters, (array) $parameters);
+
+        return $this;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    protected function send(string $content, array $records): void
+    {
+        $contentType = $this->getContentType() ?: ($this->isHtmlBody($content) ? 'text/html' : 'text/plain');
+
+        if ($contentType !== 'text/html') {
+            $content = wordwrap($content, $this->maxColumnWidth);
+        }
+
+        $headers = ltrim(implode("\r\n", $this->headers) . "\r\n", "\r\n");
+        $headers .= 'Content-type: ' . $contentType . '; charset=' . $this->getEncoding() . "\r\n";
+        if ($contentType === 'text/html' && false === strpos($headers, 'MIME-Version:')) {
+            $headers .= 'MIME-Version: 1.0' . "\r\n";
+        }
+
+        $subject = $this->subject;
+        if ($records) {
+            $subjectFormatter = new LineFormatter($this->subject);
+            $subject = $subjectFormatter->format($this->getHighestRecord($records));
+        }
+
+        $parameters = implode(' ', $this->parameters);
+        foreach ($this->to as $to) {
+            mail($to, $subject, $content, $headers, $parameters);
+        }
+    }
+
+    public function getContentType(): ?string
+    {
+        return $this->contentType;
+    }
+
+    public function getEncoding(): string
+    {
+        return $this->encoding;
+    }
+
+    /**
+     * @param string $contentType The content type of the email - Defaults to text/plain. Use text/html for HTML messages.
+     */
+    public function setContentType(string $contentType): self
+    {
+        if (strpos($contentType, "\n") !== false || strpos($contentType, "\r") !== false) {
+            throw new \InvalidArgumentException('The content type can not contain newline characters to prevent email header injection');
+        }
+
+        $this->contentType = $contentType;
+
+        return $this;
+    }
+
+    public function setEncoding(string $encoding): self
+    {
+        if (strpos($encoding, "\n") !== false || strpos($encoding, "\r") !== false) {
+            throw new \InvalidArgumentException('The encoding can not contain newline characters to prevent email header injection');
+        }
+
+        $this->encoding = $encoding;
+
+        return $this;
+    }
+}

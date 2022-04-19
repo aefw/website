@@ -1,68 +1,166 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-W18fbr+Id7KBB2PX4o2Upg6MN3Ahk3fb4m==
+<?php
+/**
+ * Copyright 2017 Facebook, Inc.
+ *
+ * You are hereby granted a non-exclusive, worldwide, royalty-free license to
+ * use, copy, modify, and distribute this software in source code or binary
+ * form for use in connection with the web services and APIs provided by
+ * Facebook.
+ *
+ * As with any software that integrates with the Facebook platform, your use
+ * of this software is subject to the Facebook Developer Principles and
+ * Policies [http://developers.facebook.com/policy/]. This copyright notice
+ * shall be included in all copies or substantial portions of the software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+ * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+ *
+ */
+namespace Facebook\Helpers;
+
+use Facebook\Facebook;
+use Facebook\FacebookApp;
+use Facebook\FacebookClient;
+use Facebook\SignedRequest;
+use Facebook\Authentication\AccessToken;
+use Facebook\Authentication\OAuth2Client;
+
+/**
+ * Class FacebookSignedRequestFromInputHelper
+ *
+ * @package Facebook
+ */
+abstract class FacebookSignedRequestFromInputHelper
+{
+    /**
+     * @var SignedRequest|null The SignedRequest entity.
+     */
+    protected $signedRequest;
+
+    /**
+     * @var FacebookApp The FacebookApp entity.
+     */
+    protected $app;
+
+    /**
+     * @var OAuth2Client The OAuth 2.0 client service.
+     */
+    protected $oAuth2Client;
+
+    /**
+     * Initialize the helper and process available signed request data.
+     *
+     * @param FacebookApp    $app          The FacebookApp entity.
+     * @param FacebookClient $client       The client to make HTTP requests.
+     * @param string|null    $graphVersion The version of Graph to use.
+     */
+    public function __construct(FacebookApp $app, FacebookClient $client, $graphVersion = null)
+    {
+        $this->app = $app;
+        $graphVersion = $graphVersion ?: Facebook::DEFAULT_GRAPH_VERSION;
+        $this->oAuth2Client = new OAuth2Client($this->app, $client, $graphVersion);
+
+        $this->instantiateSignedRequest();
+    }
+
+    /**
+     * Instantiates a new SignedRequest entity.
+     *
+     * @param string|null
+     */
+    public function instantiateSignedRequest($rawSignedRequest = null)
+    {
+        $rawSignedRequest = $rawSignedRequest ?: $this->getRawSignedRequest();
+
+        if (!$rawSignedRequest) {
+            return;
+        }
+
+        $this->signedRequest = new SignedRequest($this->app, $rawSignedRequest);
+    }
+
+    /**
+     * Returns an AccessToken entity from the signed request.
+     *
+     * @return AccessToken|null
+     *
+     * @throws \Facebook\Exceptions\FacebookSDKException
+     */
+    public function getAccessToken()
+    {
+        if ($this->signedRequest && $this->signedRequest->hasOAuthData()) {
+            $code = $this->signedRequest->get('code');
+            $accessToken = $this->signedRequest->get('oauth_token');
+
+            if ($code && !$accessToken) {
+                return $this->oAuth2Client->getAccessTokenFromCode($code);
+            }
+
+            $expiresAt = $this->signedRequest->get('expires', 0);
+
+            return new AccessToken($accessToken, $expiresAt);
+        }
+
+        return null;
+    }
+
+    /**
+     * Returns the SignedRequest entity.
+     *
+     * @return SignedRequest|null
+     */
+    public function getSignedRequest()
+    {
+        return $this->signedRequest;
+    }
+
+    /**
+     * Returns the user_id if available.
+     *
+     * @return string|null
+     */
+    public function getUserId()
+    {
+        return $this->signedRequest ? $this->signedRequest->getUserId() : null;
+    }
+
+    /**
+     * Get raw signed request from input.
+     *
+     * @return string|null
+     */
+    abstract public function getRawSignedRequest();
+
+    /**
+     * Get raw signed request from POST input.
+     *
+     * @return string|null
+     */
+    public function getRawSignedRequestFromPost()
+    {
+        if (isset($_POST['signed_request'])) {
+            return $_POST['signed_request'];
+        }
+
+        return null;
+    }
+
+    /**
+     * Get raw signed request from cookie set from the Javascript SDK.
+     *
+     * @return string|null
+     */
+    public function getRawSignedRequestFromCookie()
+    {
+        if (isset($_COOKIE['fbsr_' . $this->app->getId()])) {
+            return $_COOKIE['fbsr_' . $this->app->getId()];
+        }
+
+        return null;
+    }
+}

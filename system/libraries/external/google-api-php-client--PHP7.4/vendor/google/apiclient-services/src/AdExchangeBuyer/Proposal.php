@@ -1,132 +1,283 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AdExchangeBuyer;
+
+class Proposal extends \Google\Collection
+{
+  protected $collection_key = 'sellerContacts';
+  protected $billedBuyerType = Buyer::class;
+  protected $billedBuyerDataType = '';
+  protected $buyerType = Buyer::class;
+  protected $buyerDataType = '';
+  protected $buyerContactsType = ContactInformation::class;
+  protected $buyerContactsDataType = 'array';
+  protected $buyerPrivateDataType = PrivateData::class;
+  protected $buyerPrivateDataDataType = '';
+  public $dbmAdvertiserIds;
+  public $hasBuyerSignedOff;
+  public $hasSellerSignedOff;
+  public $inventorySource;
+  public $isRenegotiating;
+  public $isSetupComplete;
+  public $kind;
+  protected $labelsType = MarketplaceLabel::class;
+  protected $labelsDataType = 'array';
+  public $lastUpdaterOrCommentorRole;
+  public $name;
+  public $negotiationId;
+  public $originatorRole;
+  public $privateAuctionId;
+  public $proposalId;
+  public $proposalState;
+  public $revisionNumber;
+  public $revisionTimeMs;
+  protected $sellerType = Seller::class;
+  protected $sellerDataType = '';
+  protected $sellerContactsType = ContactInformation::class;
+  protected $sellerContactsDataType = 'array';
+
+  /**
+   * @param Buyer
+   */
+  public function setBilledBuyer(Buyer $billedBuyer)
+  {
+    $this->billedBuyer = $billedBuyer;
+  }
+  /**
+   * @return Buyer
+   */
+  public function getBilledBuyer()
+  {
+    return $this->billedBuyer;
+  }
+  /**
+   * @param Buyer
+   */
+  public function setBuyer(Buyer $buyer)
+  {
+    $this->buyer = $buyer;
+  }
+  /**
+   * @return Buyer
+   */
+  public function getBuyer()
+  {
+    return $this->buyer;
+  }
+  /**
+   * @param ContactInformation[]
+   */
+  public function setBuyerContacts($buyerContacts)
+  {
+    $this->buyerContacts = $buyerContacts;
+  }
+  /**
+   * @return ContactInformation[]
+   */
+  public function getBuyerContacts()
+  {
+    return $this->buyerContacts;
+  }
+  /**
+   * @param PrivateData
+   */
+  public function setBuyerPrivateData(PrivateData $buyerPrivateData)
+  {
+    $this->buyerPrivateData = $buyerPrivateData;
+  }
+  /**
+   * @return PrivateData
+   */
+  public function getBuyerPrivateData()
+  {
+    return $this->buyerPrivateData;
+  }
+  public function setDbmAdvertiserIds($dbmAdvertiserIds)
+  {
+    $this->dbmAdvertiserIds = $dbmAdvertiserIds;
+  }
+  public function getDbmAdvertiserIds()
+  {
+    return $this->dbmAdvertiserIds;
+  }
+  public function setHasBuyerSignedOff($hasBuyerSignedOff)
+  {
+    $this->hasBuyerSignedOff = $hasBuyerSignedOff;
+  }
+  public function getHasBuyerSignedOff()
+  {
+    return $this->hasBuyerSignedOff;
+  }
+  public function setHasSellerSignedOff($hasSellerSignedOff)
+  {
+    $this->hasSellerSignedOff = $hasSellerSignedOff;
+  }
+  public function getHasSellerSignedOff()
+  {
+    return $this->hasSellerSignedOff;
+  }
+  public function setInventorySource($inventorySource)
+  {
+    $this->inventorySource = $inventorySource;
+  }
+  public function getInventorySource()
+  {
+    return $this->inventorySource;
+  }
+  public function setIsRenegotiating($isRenegotiating)
+  {
+    $this->isRenegotiating = $isRenegotiating;
+  }
+  public function getIsRenegotiating()
+  {
+    return $this->isRenegotiating;
+  }
+  public function setIsSetupComplete($isSetupComplete)
+  {
+    $this->isSetupComplete = $isSetupComplete;
+  }
+  public function getIsSetupComplete()
+  {
+    return $this->isSetupComplete;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  /**
+   * @param MarketplaceLabel[]
+   */
+  public function setLabels($labels)
+  {
+    $this->labels = $labels;
+  }
+  /**
+   * @return MarketplaceLabel[]
+   */
+  public function getLabels()
+  {
+    return $this->labels;
+  }
+  public function setLastUpdaterOrCommentorRole($lastUpdaterOrCommentorRole)
+  {
+    $this->lastUpdaterOrCommentorRole = $lastUpdaterOrCommentorRole;
+  }
+  public function getLastUpdaterOrCommentorRole()
+  {
+    return $this->lastUpdaterOrCommentorRole;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setNegotiationId($negotiationId)
+  {
+    $this->negotiationId = $negotiationId;
+  }
+  public function getNegotiationId()
+  {
+    return $this->negotiationId;
+  }
+  public function setOriginatorRole($originatorRole)
+  {
+    $this->originatorRole = $originatorRole;
+  }
+  public function getOriginatorRole()
+  {
+    return $this->originatorRole;
+  }
+  public function setPrivateAuctionId($privateAuctionId)
+  {
+    $this->privateAuctionId = $privateAuctionId;
+  }
+  public function getPrivateAuctionId()
+  {
+    return $this->privateAuctionId;
+  }
+  public function setProposalId($proposalId)
+  {
+    $this->proposalId = $proposalId;
+  }
+  public function getProposalId()
+  {
+    return $this->proposalId;
+  }
+  public function setProposalState($proposalState)
+  {
+    $this->proposalState = $proposalState;
+  }
+  public function getProposalState()
+  {
+    return $this->proposalState;
+  }
+  public function setRevisionNumber($revisionNumber)
+  {
+    $this->revisionNumber = $revisionNumber;
+  }
+  public function getRevisionNumber()
+  {
+    return $this->revisionNumber;
+  }
+  public function setRevisionTimeMs($revisionTimeMs)
+  {
+    $this->revisionTimeMs = $revisionTimeMs;
+  }
+  public function getRevisionTimeMs()
+  {
+    return $this->revisionTimeMs;
+  }
+  /**
+   * @param Seller
+   */
+  public function setSeller(Seller $seller)
+  {
+    $this->seller = $seller;
+  }
+  /**
+   * @return Seller
+   */
+  public function getSeller()
+  {
+    return $this->seller;
+  }
+  /**
+   * @param ContactInformation[]
+   */
+  public function setSellerContacts($sellerContacts)
+  {
+    $this->sellerContacts = $sellerContacts;
+  }
+  /**
+   * @return ContactInformation[]
+   */
+  public function getSellerContacts()
+  {
+    return $this->sellerContacts;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Proposal::class, 'Google_Service_AdExchangeBuyer_Proposal');

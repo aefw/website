@@ -1,90 +1,183 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Sheets;
+
+class CellFormat extends \Google\Model
+{
+  protected $backgroundColorType = Color::class;
+  protected $backgroundColorDataType = '';
+  protected $backgroundColorStyleType = ColorStyle::class;
+  protected $backgroundColorStyleDataType = '';
+  protected $bordersType = Borders::class;
+  protected $bordersDataType = '';
+  public $horizontalAlignment;
+  public $hyperlinkDisplayType;
+  protected $numberFormatType = NumberFormat::class;
+  protected $numberFormatDataType = '';
+  protected $paddingType = Padding::class;
+  protected $paddingDataType = '';
+  public $textDirection;
+  protected $textFormatType = TextFormat::class;
+  protected $textFormatDataType = '';
+  protected $textRotationType = TextRotation::class;
+  protected $textRotationDataType = '';
+  public $verticalAlignment;
+  public $wrapStrategy;
+
+  /**
+   * @param Color
+   */
+  public function setBackgroundColor(Color $backgroundColor)
+  {
+    $this->backgroundColor = $backgroundColor;
+  }
+  /**
+   * @return Color
+   */
+  public function getBackgroundColor()
+  {
+    return $this->backgroundColor;
+  }
+  /**
+   * @param ColorStyle
+   */
+  public function setBackgroundColorStyle(ColorStyle $backgroundColorStyle)
+  {
+    $this->backgroundColorStyle = $backgroundColorStyle;
+  }
+  /**
+   * @return ColorStyle
+   */
+  public function getBackgroundColorStyle()
+  {
+    return $this->backgroundColorStyle;
+  }
+  /**
+   * @param Borders
+   */
+  public function setBorders(Borders $borders)
+  {
+    $this->borders = $borders;
+  }
+  /**
+   * @return Borders
+   */
+  public function getBorders()
+  {
+    return $this->borders;
+  }
+  public function setHorizontalAlignment($horizontalAlignment)
+  {
+    $this->horizontalAlignment = $horizontalAlignment;
+  }
+  public function getHorizontalAlignment()
+  {
+    return $this->horizontalAlignment;
+  }
+  public function setHyperlinkDisplayType($hyperlinkDisplayType)
+  {
+    $this->hyperlinkDisplayType = $hyperlinkDisplayType;
+  }
+  public function getHyperlinkDisplayType()
+  {
+    return $this->hyperlinkDisplayType;
+  }
+  /**
+   * @param NumberFormat
+   */
+  public function setNumberFormat(NumberFormat $numberFormat)
+  {
+    $this->numberFormat = $numberFormat;
+  }
+  /**
+   * @return NumberFormat
+   */
+  public function getNumberFormat()
+  {
+    return $this->numberFormat;
+  }
+  /**
+   * @param Padding
+   */
+  public function setPadding(Padding $padding)
+  {
+    $this->padding = $padding;
+  }
+  /**
+   * @return Padding
+   */
+  public function getPadding()
+  {
+    return $this->padding;
+  }
+  public function setTextDirection($textDirection)
+  {
+    $this->textDirection = $textDirection;
+  }
+  public function getTextDirection()
+  {
+    return $this->textDirection;
+  }
+  /**
+   * @param TextFormat
+   */
+  public function setTextFormat(TextFormat $textFormat)
+  {
+    $this->textFormat = $textFormat;
+  }
+  /**
+   * @return TextFormat
+   */
+  public function getTextFormat()
+  {
+    return $this->textFormat;
+  }
+  /**
+   * @param TextRotation
+   */
+  public function setTextRotation(TextRotation $textRotation)
+  {
+    $this->textRotation = $textRotation;
+  }
+  /**
+   * @return TextRotation
+   */
+  public function getTextRotation()
+  {
+    return $this->textRotation;
+  }
+  public function setVerticalAlignment($verticalAlignment)
+  {
+    $this->verticalAlignment = $verticalAlignment;
+  }
+  public function getVerticalAlignment()
+  {
+    return $this->verticalAlignment;
+  }
+  public function setWrapStrategy($wrapStrategy)
+  {
+    $this->wrapStrategy = $wrapStrategy;
+  }
+  public function getWrapStrategy()
+  {
+    return $this->wrapStrategy;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(CellFormat::class, 'Google_Service_Sheets_CellFormat');

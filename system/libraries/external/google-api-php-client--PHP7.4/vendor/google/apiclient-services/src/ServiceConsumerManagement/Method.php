@@ -1,68 +1,97 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPxHEuq4Z7TXsIe5sOl2MwZAd2WxO0rZt0Qd8GKzpfMuFyy0O6NKmMHwxw7O1aN5TSGIuza6a
-q6YzwdIV21BuHT4LX2UKND+boexSWkvB2LyT6tsA1YtzHfYDceoYiY8RWHndEHMYr1904U1EAHao
-/BY+BbrbPP1lEGnONHkCqHmbmss2WqRf94h5Pakm5QGCR4AnUI7ufmQSJ3NE042obYn6hgeBSdKn
-C1WkRqPmCS3pjVFbO2o9aI2mWQONnFMQ0Y6LLAoE8lvn5ThecW5ArW/9WE9mKourL8IeB86cFae5
-vLMuPDpuiUzMPuUvf5A8r57dOVy0AnUdRchWU1H3RhA1jDUW3uGV05NjfrB+bXTomdaDA94jsv5y
-GUezxQ99Sr526tMuTW5vmQ6bGDFomIlvSVzM89aQZvIGAyfzDar+wgTfeALId7WGAD+Y1M5dbO3n
-XXV8XUOKIOFo9A8r15s6adv6k5SPCvA2BkptCJ3phqvJyh+ojjh9lYlu6AXywzF2uv0uYi44Xm7e
-suusuJwNeM38xDjOLz8YVPmKgnMs629pYZ3tnkM/5aZYkghysvofGEWGUbICeWauGKDqSatXrGbj
-zuruuG8fg6D+6zWrXMnemr+7cxv8IS1h/AbIYT/cGdQkBaZ8z+9tEicMbIUT/gWR/rWJ+XnpsEky
-KalWQBcHerENol2PIQnGkP4C0ucs1hgHdh9tZMnhYGerQQav9L3Pnt/9WvluEucTeg1UshMg5rjT
-UTbOsbG8R++Kf2S3V0F9maNOdr3X+BmRJE4uzmUESsZZiil9iBr7unRtIt0FziSpud8J3a72oGro
-3HuDgd1F3mpJOFq7f2FavBpGUtUXJqLILrC/F/42r57YB9PZuDZwr4rXEHAqB53oR6OXfSBAUtb/
-EclSSMaLoKjjAFtdyfm9CxQMGzvh3Iqv9Pk8Tp16L/8LS5lPibju+3YilhyWLXtFOLjPgu+Ljh4P
-IptP4UEY2ZCZzUSpGGBkymw2NnXu5j+cZvFc5NGQ0idJLhdmfZ8BtBz9LklGliNEvj5XB5rFvrsv
-vkCnofcFGGR7i4KKDIQeyCCcjdjwavqAgKBp2zMPBDdHxi4cR3Gw80G/zvWonPsGuNvnBLEvh3QD
-oqv+ItaR5CDCbOIj7wZ55q5VBoNikR4D4M7Sc6CTXcCAR1KBRw2VyiTNpijxOKsPyPMHwzO3xrk5
-noehSjjgysypXXI9gGFgtt4idx4Jzydiq66XZvAXh6BW/0dXjK477TZ2YfStMVseCKTx7ybVw6NX
-pnVc14ATj24nFN8nI6touz9ATOEC1Tw7sjyuBBQRJJB2nnBC1NAv3Wnys7ZGSjTq71vx9V/ezHud
-1cOe7uU+zeuJ5cFRxYf4Zaog9AuIrQ+fudyGxRcd8YM+2my00ooBUgvbxgb8sRiaRn6PYenITYqW
-uhSAeZ/B5m44VwwIsGJUFPFgjnaYzfKZME0I0KRBVJ0ce2C8Hx8pSCOxDMHmiY7ojdq3L+oWakN5
-xQw6M7q1gwZQK7Jf7S1VGmcJ+2azoA9r0Jj+uuJSJiySOyGHfRf2bWzUPCIAckEHcmPOVR4oWJ4s
-xyWaJvnL5dlCVoXeEN2KdcIas63nt9a6TRch2DrP3RgBwJ7PLei7/5vPmMGGTPH/ykLhp8CgXz39
-TMZlvmJhH1gdOlWvD0GTnIAm2AX8g29BCpN22dc9bzyeYIScMbkq8h1czQlxL9kv/1Kio5IkckXM
-GZT1XHytqchb6W5DeC3n88s7QOiwKilUJRt3y++fjJTsjnkrPbqwGfGCXPrewuUhJEorzowiEk7m
-BCyByGXJsPSkXDZLKfiMUYpKXjFociW4to/03GQ9YhVzN03pr5mW7Xwxx+3Kv5bUGzM0QNoh9A7S
-ENzEDFPUx08/bI89R690rSgVVE2x3XR8qV6kTKSInM4jzSaZO89IuxQgyAFadgST+67eLen9HP6Q
-JB6Ojtyiws6onc120f2RDrur1IR4c6lOajFCzWQXAgSDKUKeu2+QCTkOMQhFXGsxHQodRvBhkYDz
-ylF17CqaAEx7DNUGdfH0cgdd1Eq1mt4uoNAQmcMI5w52l1Fe49YM3bRH0yuvyuCWwzpdkbsxmZap
-wkoHpdpVyDmhV6e7ucUjnuLa91O4xojoEc4sq+akqnAEQGnDggGVK/jBy1H/D3B49gTjfonWMCk4
-yGkE3TSeFyjeyqg3DbKkI5/ioAKpRIQdJi0ZtPajSFDOJDxXRH743XhTc39eusTK5hr0Q8tAgzQr
-uoHAIvKI9bBIfbVSi24uiDwptIRJz0QFdVLGg/l02KJF3H+ojBpZig26Xvfi18vqMs+g2tEEkcPi
-2MzFdGmNk6XQjEj68q6Hg0qYDVgCQDnC990V7/AoYmacDeO6y2PI/rnzD/c1jbIVlWCEkkQEss9F
-oA+Pw+dJ9nAkPbG5r1TwtME8nb3oxemG1XJmA3G+1vdDHUFNdHzuuASWtHMFGTWAb2mZL/5sGywt
-92APPV/IhXlgIJe+OxQql0wZx+DQoh8E7L6nhquw++KkWKuPet8e85ngw9F04lFltOaZ53HspfPG
-PJZAg51Iq+hVMkfhzN4/PElexX7DGOljw4DFwaAtTuNuhQTN0yARJNm9V9BX9A7To1akQTmi8cAw
-feKEXmubFk4dXHPLLW9WgOvwDiHuwhrUCojYvk9glAnqjmiGTq2+YRnT9zrGEz4thy6SWc3SagZv
-SEdUoIoIUb1NfxGk4l/LmPtXh/+Z7X0KvkZnC0HEnFjy6LEq+T+WOVxULrR3IXm2HXC7uhpFKCCx
-fpJOPVnK+qntZl6NoqK0PyLJYRncQitOsVRDaE/oFZFnGjGzuSza+oReIFNDq+eEkuxqZw1+WQWw
-RE1NwB12kWvqz7ju/ukl1l3CtRsf6R2jyQUn5nLJupjmKpaC12RTK/jLY3sgQIzCVezT/PEh7rvm
-JjkiMTpBi1fvKXyTsUnylY7P6plndPgO7uLLiCtKbTMMRdzlZ8IEzgy42a4+2KGNaYREM/8PJNRk
-O2yL5EkK8KQBbxJV2xesQliT4K7BoaZOEimEfGYUJyMlVUzT0VhW42GS/yjSogufk+HODmOk0mqx
-MAidUKNMDhq3BOambRx0wFPAJPBBSwHE3kd9NvSAqIJcN1eCx0K6fE5kCnAG+TADc+WkKRyqaA3Y
-0bsuS6MfmVoUk4NV8+K0OxCJPBwV4I5qgH0nkZNd+aRtcTojdQm3BusBBxvCxsjeirK44nILG7iq
-PBuzrcPj+E1Kv6a7hltIOSVXdrDh8J8ulEJCoUY1d9k6lcaVCftUFs5ZcjpRhEHUlQNc2EtJBnpL
-YyVHLcG6aJdwwwaFk0/EjZ7FWAI6rlTlSWD15BGJSn2N4TMH+bVJhnqA1teP0MvNDNgPQUS7enzn
-R/gIuk49qpVV2REgSqP8vfhx4EFKn+/5XNlWBr46Myu4JvjNyOQlNdqAL72XiSGiDnXM3CDIzYxa
-CJLpK/0EpAvdsTJyxzuznGpiZvYzWFp67VNDZEriXaivHgVQm4KtAI2k4gPfGmh0cYPpd6fKGw6l
-5nSgFseYWwbmGM61mybRibrIHysA74Z+oTs77wQcYwzzw+sLofLnYY5MBSCsm3YPtdD2wgPjoNji
-8zKlHYQI9O0G5IvsJGXqdHVkgBC5PkGk3ljTUFpeDbziEDkiFvDu7MI24tzAVJ3xKZrpMhVS9q8w
-Ilc4apq+BB2i4P2rTxaGUSlFUtdooPOh3TbhKB/VPyJ4u6uSZz7fu5JwKeItsqQRygISH/zpJZ2v
-pqEVFlVBpHSoEzoUNEygXH8Wc65qTrI0SxAVPxTzFf0Y1C3Szlflf2Fau/uECznIstExtsuwePr1
-syKTCwK4kHBmRO+vZ/Rwb65RKmEGiB3UDhWvOzdd+jk54sShNhHSOwv+v/MQqD5KQTzu56lbqExU
-Y4leY7q8eqNtCb4ikrwbSZaRvQVroJy/qA5IHsYAc6oOmP9Sqib/JLfKCAr5nkf7G1yGZJFVNk3P
-sPBlYIWvNrZ8V18rYwdLrwASR0TCfgwn9J5W57VDXQVZ3bzcnIlDCjcTvLMWT3fOYrGf6h9jS8nA
-0LPuCTDrKRzv+i/9eS+HFRlmyHg/AN8FcRd43Y+obXr2QeR16XRFHTkylqUWwRDaMtaDbC9GHPSL
-AakGxEKa7MNAsSZQUGrV86cP65jf792J4D94QyGgHDnkiuYcOHhfmxJjkvOM6qvr9C1735ItUwCI
-0uk+r1DiwmSRzf9GvRtH7VhV4nnbGQg+KA9B7nRyBfpSekvjcKtwk1ZyHyMF/BS5GFTM9Bq+IfzK
-r6KR6P+HReyJ6cKen7fZcB5qTWpsSC0rZr82OcQtQUnEIzvInjZatzvKgnEYWjacZTnjHZKHIefx
-gKq1wlsCa19kBANY9Cgi6VDv4u+zWylgeI82ioq0KljKu2QJ/9JYyMdVFVoH+UiALMOJBMJ0GrQ2
-j+w+lTciX9YABh0B1nxyBy6VE03L741CQlTZjIEHIOwfcHVesyWDlRCChaYuquu99Tyis7dg9DID
-QrsQwrxR8neScfCAib82vvZAauduM10c0NLJn7giiL/azdtHCV0H3MW1lGg5DKKRY1to9f8/qSZb
-4Ya3SEGZl3zfFfz+uqlPEAhMKtDy
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ServiceConsumerManagement;
+
+class Method extends \Google\Collection
+{
+  protected $collection_key = 'options';
+  public $name;
+  protected $optionsType = Option::class;
+  protected $optionsDataType = 'array';
+  public $requestStreaming;
+  public $requestTypeUrl;
+  public $responseStreaming;
+  public $responseTypeUrl;
+  public $syntax;
+
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  /**
+   * @param Option[]
+   */
+  public function setOptions($options)
+  {
+    $this->options = $options;
+  }
+  /**
+   * @return Option[]
+   */
+  public function getOptions()
+  {
+    return $this->options;
+  }
+  public function setRequestStreaming($requestStreaming)
+  {
+    $this->requestStreaming = $requestStreaming;
+  }
+  public function getRequestStreaming()
+  {
+    return $this->requestStreaming;
+  }
+  public function setRequestTypeUrl($requestTypeUrl)
+  {
+    $this->requestTypeUrl = $requestTypeUrl;
+  }
+  public function getRequestTypeUrl()
+  {
+    return $this->requestTypeUrl;
+  }
+  public function setResponseStreaming($responseStreaming)
+  {
+    $this->responseStreaming = $responseStreaming;
+  }
+  public function getResponseStreaming()
+  {
+    return $this->responseStreaming;
+  }
+  public function setResponseTypeUrl($responseTypeUrl)
+  {
+    $this->responseTypeUrl = $responseTypeUrl;
+  }
+  public function getResponseTypeUrl()
+  {
+    return $this->responseTypeUrl;
+  }
+  public function setSyntax($syntax)
+  {
+    $this->syntax = $syntax;
+  }
+  public function getSyntax()
+  {
+    return $this->syntax;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Method::class, 'Google_Service_ServiceConsumerManagement_Method');

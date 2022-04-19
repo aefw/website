@@ -1,96 +1,187 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPtmS+1FLjS0aqDbjC33jz6f2sPp402aUY8Z8jOS5auXmk8fGiQCrwBZwfEiUq39OFqf2uIZ4
-TRgnO16gEPASxIO3Qg/64wpPDmCQPE3nbnse0x1JUZiu12tvYJY4yEFRoAZZV9Mp28C640AnZeww
-b46lg9E2QN9xVcdj7f6Yu92QjtWkIs7XbolAnQ29V+E3CFx0WudhO6WHVA1Z12Xps8dwIxs3+C54
-TvUj4HRLZNBwnKQq3Ercp12u51nr4fc2JYhNRguGfVMo+czY5PVA2L0Z8k9mKourL8IeB86cFae5
-vLKCS6p3aXG7y4MkZpc8L6db3BMtey0drxFOiDOWYNX7D4DQtaQhJztPQtdM7XcdwA+7saZ9wELt
-QFTfBR616eRSgdjAX8YAKcwe8EGAyfbp4UxAydK7+/GGk8Oah5KMglfmH5gK4Z6PhOrpAIXSWMpq
-H6TAwoQj/5ZF4nBqq8WEvbY4fFDN9NyZBIgS0PSwHCi0l4jGDGrV7o+NQpOYrLXKixQlDSlLZAWl
-VKkACX5ZITTYMxqldJXUIeZJm3KkX5+fsnRnckHuZFuV17Cs7cIV+ZD41qGZ5FICFnPgxig9xjJz
-y8h3r56E0b5W2L02ecNQd0Z3f8c1Wfqut1Lu0WTLWoYYF+HvKjrrRIf9EzrYxiqi26Q005D0/rsh
-6Hy2D65RXMWvxCRAmEIIAUA90mPgkRdtYT+UOBDiptW0G69zIcqIBWZKAsKeb/kwfcPKBFspWQ1z
-3vxCuVW6fa35BAlpvEdPu7lyFSKqF/s7cpQnBElMvWByBV+sEPYS+HMe+T8uY9HAuCOFcJ6Ha2wD
-2f+MyfTlHk7L2HcBkQakhDGdKseHUrCIYh8HZRhAKsxOAKtR0BsKd0k4dNCJ4uYdkbnbJEtJnE1v
-d+mh+5xyBY3lmUwjs2gVUPwgVOPhk9dZ0Os9ToEzbWvH2tUI8TQWnNBFuU5LycKorQRBqSXpmndJ
-o1GzLrvcNj58GnQ0MBInPDD3cGSxS1Qt1It/0fE/4AfThSqSaMHGLfgItJTpmx+xucaiWeRjNKNp
-Fwsk6Lerbp2cY2yApx6XlCrYMUulfUKQ8Z15tR/bqmEh4b/u3Mk4FfiMS5yQ3ILfl8HRzTnT/wx0
-K321RYL6GhdADJF9TCZvDE1wBaEj2FMY61Ss9MUuuKnBvTF/eoXlg012NI6+ExOZlgh3i1ghomGE
-6fL5BJCpL8tJRDFNUVDlVUIEZRRjwWKazMpT/d2N9hsokFa3rUF+fXrkM/v5J2vyrVI0tSlmG1GU
-jANnRrLoznFQdSm9djOfAvssr1KF/wFBDAhJENgMU6FwSUxiJCSOdrgi5YuzNbLhisqgW34IO/zn
-BB2pkpy4Ug6r6hRki/clAfEeczJ48CsaxCV1AfaTl+5HvWSNA8fZu7Y5qybLS+Hx3T8frNy7YvdO
-2nuLfTWrFYHxQQRpbUfX2vG3Wj0s2Vx8peua2ulXNbvcrm6Wrzpy7fhdQD5iiuqHzG1+WcFjq8Dd
-usWDrc+CGY6uY7XmSg0mH5waQU8a5jMMjnAmWP1AcXs2FVaiW8JyTXfeBamSYOF08yI80kjDEQ0I
-8MHnfsOQURIAhMR40jkFayb12hdpT473D3vmov+U95eeEr8SUdTkKTeMqlEg9cs45ZqR2h6yhVuM
-CHCd9+DZAidwDZUFB3GlIc4jcvPavsn/7AHQ/wDSxJ3cLj5ddwLRuiqTSiGq0tTy9ILvKSpQZc1/
-5DNulKCDeCYSlugfClNvW+dt5lxUjVmkjVpf2HWasRwXjJ4wmHx/QonFd/eTftw0wgpuXK93V6CX
-TeQuHHe9iM2ShgbRpQx7muw/ivrmJEt3W+b8VxO7ul8vZ0TISkciVaxgotz9Juc0bmKoxFnuQoQQ
-DYxAzhyMuVrpgm/x43T2DlrD0/wDZRPQV5Glr0e22UzUhwkYrheaRTfA8DsvKBFBQPfz7TFkhL0U
-KjmQEXXioEFOIltNz//ZQpitK9c85XNSL0C6DwlTfnXxCtpzxz8OQosvTAeuVvrFC8WIj6S83KBd
-RlJ5P0cWlo+S0llKGbkNVFkWowKesLLT1ZckY3bazRQukAtvcERKodi96UxEhFYHYqtZFonWAy6J
-gakrvJ8Cyd4ji1QvYTji9Y4LAdR7PrNGDnIeyfEk37qdmOgwQCI5QBLMBXmityN/6CRdqxXTjRaF
-r7a67BdE769glqbOkbmLzydqDuVzZqSh3CJWq3uwzVjumo/U7SZFHG03dy28rRk2D8QLLgRfllHQ
-LFvBwNUr4miqWatVqcDGGmvr3BY99igfhwuPjbulKKn4cAODdWWpYpP7pbTzZuMrpksMBNf+1k7p
-vdQFWi8z5mCVXPmkWhHd6W8aOPpr0LS1PZiXbtLuOl/vsfk/1jRC75QOLHoYF/S7586O09mBwbRT
-5u5XYQv7Vj92VfkO6uwe2RpufJqo3YzZMGGYvwxJZJ2z2eSDetbXyLlvCX0NbtNKV8ytI3WJJIAz
-WR2r2ljtOWOw25dJpynZJaztX/VEkpJvlejYTZDf47DbwrKmy29N2iGdPi7T0yd7WEeqtMCOyeY9
-1yA7wGibJop+uqsaVB8RpOsd7UOutjyCdX515n0qhLdPc9+bhq57Mc7zvndasuX4HIq66Vgl+okP
-RSO1IPdpZkhU5UnwGHIPfm2bnPkJH+QYUfJ7zA6B3SxR03wxUIBhggv74IPasJebQPzWiEDVEBVG
-RpCI/ynREnLcmcIxDhCco5JVFfdKOqePARPNAy8QPfcq/TT52N1+IOEM0zCTKCqBeZRgCSjmaYyr
-OVLUXOhZ/ygkA7v4CVCuiq0tYmD9c7eEnX0A1BZ1OVdoqm6gtVAa4YLi0fZErLgeeKXvUayh2Dcg
-+few6X34x/G/ttyA4+wBjp7+jUHdEj5kOfByPVFfl/3BkbI0xN+5e68H/q3uoeChBIEyAtg1Ntoh
-/RE1hCOQkkxuGX2vyNwyIiztvtqUZJrx9DpfLCc7EVY4JuuiBpsMyX2DQlZVVmJJrXTu4W9WEZ5B
-Rd3f/f3QsMjNvlfc/J93JN8qsNyXX3Cge5a3I0Goqdp//Dq+9O4AmNKL3VK+XMj2UkD3p/0XX3z6
-dAG3xep3sxtqXY2xitsEThg9Y8LVDmk3SF4OkXJmAS8F0Tk9Gcves6gxqNAhpzORGQVpHnwQi/3J
-Xm0z48z9WEh2RM63NehvOQKpji9SMg2uSLYVir5o0T0gbItWU5+AGFfpZ1TBDHKSKncP7MeaNp7D
-cqI/Dbxnf8AUulHXh/CMVpPujgLzKon/4l5Q8zki7fQuxsydqJS5n+uEd3kqGaL36xmupQ8ltiKo
-4trxRv5qOi6opjjAfSGK4eH0BCUt3fWCwkcF2hmz1JuCZOxgFQvQmb0HEyotBdLRJsakyStnSaeL
-H6ZFG1VXniOVVRgNYdHvB/vHOBnobENmCAoMwu3+NpLEaQ60CN2rK0/xpD4wq26owImh8dE6w6sa
-Pj5z9C7S6kYUg92ggJyjzH7E/q03KOdKfW4tI9+0Fh4ppDxJt0tfvjHZTM0NZ3+uic8pBj6ejQks
-+rGTGedk0MLS6y2B3gc4RgtPCZf5PY6XBM8QLikdD05m4ynbV8wXiEGJuJbtlu5I6j9Sulnl+HYv
-pEErYSypohtJ9m45/1ZU8ckSkfz5EvJx4Lf7BPvthlWxOx00OFGuqlIQl9ijk0MckxeVs/objw6l
-rTCin+BZLgNi0iCZc1zNPt9T3QG9zsO5YKfKPfLeZPnMikunobSq/ykrBx/CSIoLyxMpdVi7AOB1
-/UXAxcg3A39j/mt6ilGNKj+ppJMipJZzSTjShIw703t6FUz8RNYIfevaPcEjW2uG0PcmA5nTFdKP
-8gofY3+PE2dHfODWqYnruaqTowafToaGlAsEqJMg1QmIFm6QbkX4vtiYt3gU8zhq6MYQ4oPysClK
-T4CopzaoHLNMOgqaxwx8tARoGczelM4uwuOamj+1Zr3bazf5DKFQwM3LhcdvsRfMizrAxvqnzDq8
-t+P+Z4b12WR7bkzBEmaNgE9vS1tMZMWQpVATZj18fIdEHRaKnzrk4J0uvSf4xeUFv8k+325QTnK6
-5AYT0uGxfsBjI6agzwrpYd//gHDXrAx5gPewVMUpsL5NZaqVzndZVzve/xS/iV2s8/WcPdmGYGfM
-4Xr7VRvHWY3lGh+J8GcA7CsosPOHOy5+Kbo7lfBlIJNmKq012oF2pT1na5ejkHIyUIBOZMr3hYuk
-7VVj7LRhwkyKBt0oOocKh3a9GBtBEJPLvLPF/OtbwJViyD2ninCPZBVCPY9sxgtBsuAh5pleVimu
-VYDHHEG6qv60ljJQ3MBWnGUuRUlEFqBLfZuMsvYGgTnJl3jHYVkNFNpY1lcljuVSuCv2D4MK69KI
-W4SmVUeJx4e5pfYRkTv4sEM2y+ibmGPjO7G4VDfRimVd8y43Gb2VTPTxhZKZOF/k/umIwcpXyBo2
-TQpjVeAnQ9+jDGGncfZcLaF2SxVKxcxFzzI2WciFlZVOlSM+aqWWe1Mjnju4EzZ8L4BTq483yoOx
-iq4ta5APaESCoQCX6TKCG8Ju3wP5o47XfV4oO/HG1KWoNt5Y/eaNOeOMpRgd6bWZXqwMlge7sAoy
-Zl6EmbLjMLs04IG1jzGXxBwpvSF0nvA0m1rawkv0Mh3QJ4ZfzvqOXQTNoIKQ7+alga9y5FHKCXto
-DVwP/bexBSI4HCDDdBqjinr7A5gYbf0uMnoH0GomtAj9U29F8levSm3ineyrMXS/Jow2sIWRMk9x
-FoDLhrxiuAiTinvTRjDUb61dJ2AFmoLABfZxSmZqh2Bc6P205OHoUjdJKOemYfFC0WQsLhgLhz/j
-DuKJPAGFRI1qdjxq7QFEaQ+xyKu+TUoNJ2xhcPxCyLAUrDXA4tY7ULgoDKecuOS3qzKqwHSWlGtJ
-aEZGFnsITDKekTrHEM5SGhd7oJ26tCnzRCGrpeHyJbiqdX0N/dwogcXY+pR+OiJhSrkKCCizqFwC
-f02U58mklVnhfzGwALD50BRRurHRjylJ/OmerYkjcufvS+eRUDJ+4nKnMAaWD00PfhlWlMHi9plE
-P5aY00W2zey+8BUCXRccpvD5vJDU66HOMax7M1QGZh2jYOFHof4kmOWMb42FLTuOP0t/pkQECY1j
-SYsskF5Fad54ztXZ2c8bX6I3mFjRyNIp/vpW3Prl9kxgy280EIE2mz5rtai6j7CYdcMAgQRgqIum
-3Z3m7mTDI3JPY9uiygLlyF8q90ODUzyr1BSE7QWe6w1S5ynhbyltmYPQWsZr1+S4H+c0eZU6EUaS
-Hr0EqR6LERPZ3FnEZbVn6bqRPTHqcik06GhH6dHncpU95Hk2ceDb3FLhmhe1vKP4eqxuOr8C9VK1
-9C8d6XF0TataMAv8qRdZ7E3/piv1J436hxsF/k2chtmqtUv5kRbAqFBeJMgwfcajHTE0Npc/K6Cb
-mDC6g7ZxaT2AREK4gBrMshjdeDLl8J4DWyiHZH/mTz6I1x5ARvgz6E71czKuTxcmYil4h2ysjClG
-YEyNfj8botcxrsqtnoiEWOH4pKti2ndDFjpNsMl/560rLUJbpJtBQTw7+yX2MHtje6x9i/1ujyf4
-IclgwQ0Ydv2Q1rCEDNxecNHbIlOxLWX8g2mL2dfzrs+7MNQwz3BJEFDWMHCHnnu6kY7MExUntfSO
-I1R+zPpgqtUjdQRHEq4jsFU7iU5Y88oiuz967InyY9Caf4mV0o8hm5pM62+p+TKNK/ttkfeWBu9F
-LWo1sIFl6H2QtyWU8byaJCWqIq2YEgIiP0KhNS4jVaqvr2Isy2d3l94+h7rcyQILB2tj5RjU5Cj5
-0yJTDmrAwmykSzlCcUzAMpR3dg8nQvEisvEdSx4ZhY1+3hCfuU0I0+BybainaL6Jn8delWyj1S2a
-ESzoxyHyDUaDLzIBnjRPr6kXgZCQyiy7MAMmVQd4nI443exz2sfWvPcyUjKx2rcF8C/czcQCfLId
-IDxsK7kR/LP+ua0sLqYUaUvS4S29OBww5Mt/jFV0IXKKzI0hdFn3AzeZOW0NAIfG1NvEzrOhoYyd
-DcMsI3w595rlDuEbDzbm1zJAz/7f2u1lQBE3N0z0DsVcOEt/6sKgEo9VLbmZqAUtxPb/opBzV/Ge
-tA4jPjRfwgUDUnQlziQxkP96NgSWNafxLf+DDWFwlKz4NNXczIqV89FtxGd0yPLPwH8oehOaOF8P
-umCj7oPwjTHfMLb0nOsOGz/zOxy94V0rtVN0hbeX7ZfiUn7bzx6Ctk1hR4iv0G+KFKSNCu+ah2ga
-bADQ31sGXaHR+tINnQeL+XjykHBVzqcQFGgMtqLg9oC0z6H/faN5QgRdg4CSzu2pKFSAcWXqE50Y
-XJNfCeHU0j2cVvv/KF0Vtlo//4EqzcNUVvMOCSIHnWSLasgGWcGO4xNcO1S10xklTlJTkHOwnXN4
-Lwlwd5obaOzAgJg45zS3FbL9cMVcAybPtSBSNGrN18WJ119MM6j65hBupz9/zBZyAsIdMIdkM3Jv
-PyBJFR3vyd0SR3N7Er+1KWxvQyNekuveo5eTED7eG31UbCnLXFnAw+Sh8mUh2UHuy0muOjFo8r00
-bdCkiFaBuPH8KXiFTNsv8U2r5bK8+P+Uq9rhxRme0jmo1lz9XuH2mImn/AUuIAPGuip8k9kZPc2J
-KkeRPVY0EyLQJR8xGkcV5CnLnICvzu0J4X6r7q/v4ScOWQOnHJvm3ZemwJZ/zY3OwIf9WpLL8Jvp
-R2kidk5NK/jzfI5qufI09lpuS0px7cM/HxibnF0UQ3/0D/nc1A2bpsoWlG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudScheduler;
+
+class Job extends \Google\Model
+{
+  protected $appEngineHttpTargetType = AppEngineHttpTarget::class;
+  protected $appEngineHttpTargetDataType = '';
+  public $attemptDeadline;
+  public $description;
+  protected $httpTargetType = HttpTarget::class;
+  protected $httpTargetDataType = '';
+  public $lastAttemptTime;
+  public $name;
+  protected $pubsubTargetType = PubsubTarget::class;
+  protected $pubsubTargetDataType = '';
+  protected $retryConfigType = RetryConfig::class;
+  protected $retryConfigDataType = '';
+  public $schedule;
+  public $scheduleTime;
+  public $state;
+  protected $statusType = Status::class;
+  protected $statusDataType = '';
+  public $timeZone;
+  public $userUpdateTime;
+
+  /**
+   * @param AppEngineHttpTarget
+   */
+  public function setAppEngineHttpTarget(AppEngineHttpTarget $appEngineHttpTarget)
+  {
+    $this->appEngineHttpTarget = $appEngineHttpTarget;
+  }
+  /**
+   * @return AppEngineHttpTarget
+   */
+  public function getAppEngineHttpTarget()
+  {
+    return $this->appEngineHttpTarget;
+  }
+  public function setAttemptDeadline($attemptDeadline)
+  {
+    $this->attemptDeadline = $attemptDeadline;
+  }
+  public function getAttemptDeadline()
+  {
+    return $this->attemptDeadline;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  /**
+   * @param HttpTarget
+   */
+  public function setHttpTarget(HttpTarget $httpTarget)
+  {
+    $this->httpTarget = $httpTarget;
+  }
+  /**
+   * @return HttpTarget
+   */
+  public function getHttpTarget()
+  {
+    return $this->httpTarget;
+  }
+  public function setLastAttemptTime($lastAttemptTime)
+  {
+    $this->lastAttemptTime = $lastAttemptTime;
+  }
+  public function getLastAttemptTime()
+  {
+    return $this->lastAttemptTime;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  /**
+   * @param PubsubTarget
+   */
+  public function setPubsubTarget(PubsubTarget $pubsubTarget)
+  {
+    $this->pubsubTarget = $pubsubTarget;
+  }
+  /**
+   * @return PubsubTarget
+   */
+  public function getPubsubTarget()
+  {
+    return $this->pubsubTarget;
+  }
+  /**
+   * @param RetryConfig
+   */
+  public function setRetryConfig(RetryConfig $retryConfig)
+  {
+    $this->retryConfig = $retryConfig;
+  }
+  /**
+   * @return RetryConfig
+   */
+  public function getRetryConfig()
+  {
+    return $this->retryConfig;
+  }
+  public function setSchedule($schedule)
+  {
+    $this->schedule = $schedule;
+  }
+  public function getSchedule()
+  {
+    return $this->schedule;
+  }
+  public function setScheduleTime($scheduleTime)
+  {
+    $this->scheduleTime = $scheduleTime;
+  }
+  public function getScheduleTime()
+  {
+    return $this->scheduleTime;
+  }
+  public function setState($state)
+  {
+    $this->state = $state;
+  }
+  public function getState()
+  {
+    return $this->state;
+  }
+  /**
+   * @param Status
+   */
+  public function setStatus(Status $status)
+  {
+    $this->status = $status;
+  }
+  /**
+   * @return Status
+   */
+  public function getStatus()
+  {
+    return $this->status;
+  }
+  public function setTimeZone($timeZone)
+  {
+    $this->timeZone = $timeZone;
+  }
+  public function getTimeZone()
+  {
+    return $this->timeZone;
+  }
+  public function setUserUpdateTime($userUpdateTime)
+  {
+    $this->userUpdateTime = $userUpdateTime;
+  }
+  public function getUserUpdateTime()
+  {
+    return $this->userUpdateTime;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Job::class, 'Google_Service_CloudScheduler_Job');

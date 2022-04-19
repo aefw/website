@@ -1,135 +1,447 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Container\Resource;
+
+use Google\Service\Container\Cluster;
+use Google\Service\Container\CompleteIPRotationRequest;
+use Google\Service\Container\CreateClusterRequest;
+use Google\Service\Container\ListClustersResponse;
+use Google\Service\Container\Operation;
+use Google\Service\Container\SetAddonsConfigRequest;
+use Google\Service\Container\SetLabelsRequest;
+use Google\Service\Container\SetLegacyAbacRequest;
+use Google\Service\Container\SetLocationsRequest;
+use Google\Service\Container\SetLoggingServiceRequest;
+use Google\Service\Container\SetMaintenancePolicyRequest;
+use Google\Service\Container\SetMasterAuthRequest;
+use Google\Service\Container\SetMonitoringServiceRequest;
+use Google\Service\Container\SetNetworkPolicyRequest;
+use Google\Service\Container\StartIPRotationRequest;
+use Google\Service\Container\UpdateClusterRequest;
+use Google\Service\Container\UpdateMasterRequest;
+
+/**
+ * The "clusters" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $containerService = new Google\Service\Container(...);
+ *   $clusters = $containerService->clusters;
+ *  </code>
+ */
+class ProjectsZonesClusters extends \Google\Service\Resource
+{
+  /**
+   * Sets the addons for a specific cluster. (clusters.addons)
+   *
+   * @param string $projectId Deprecated. The Google Developers Console [project
+   * ID or project number](https://support.google.com/cloud/answer/6158840). This
+   * field has been deprecated and replaced by the name field.
+   * @param string $zone Deprecated. The name of the Google Compute Engine
+   * [zone](https://cloud.google.com/compute/docs/zones#available) in which the
+   * cluster resides. This field has been deprecated and replaced by the name
+   * field.
+   * @param string $clusterId Deprecated. The name of the cluster to upgrade. This
+   * field has been deprecated and replaced by the name field.
+   * @param SetAddonsConfigRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function addons($projectId, $zone, $clusterId, SetAddonsConfigRequest $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'zone' => $zone, 'clusterId' => $clusterId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('addons', [$params], Operation::class);
+  }
+  /**
+   * Completes master IP rotation. (clusters.completeIpRotation)
+   *
+   * @param string $projectId Deprecated. The Google Developers Console [project
+   * ID or project
+   * number](https://developers.google.com/console/help/new/#projectnumber). This
+   * field has been deprecated and replaced by the name field.
+   * @param string $zone Deprecated. The name of the Google Compute Engine
+   * [zone](https://cloud.google.com/compute/docs/zones#available) in which the
+   * cluster resides. This field has been deprecated and replaced by the name
+   * field.
+   * @param string $clusterId Deprecated. The name of the cluster. This field has
+   * been deprecated and replaced by the name field.
+   * @param CompleteIPRotationRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function completeIpRotation($projectId, $zone, $clusterId, CompleteIPRotationRequest $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'zone' => $zone, 'clusterId' => $clusterId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('completeIpRotation', [$params], Operation::class);
+  }
+  /**
+   * Creates a cluster, consisting of the specified number and type of Google
+   * Compute Engine instances. By default, the cluster is created in the project's
+   * [default network](https://cloud.google.com/compute/docs/networks-and-
+   * firewalls#networks). One firewall is added for the cluster. After cluster
+   * creation, the Kubelet creates routes for each node to allow the containers on
+   * that node to communicate with all other instances in the cluster. Finally, an
+   * entry is added to the project's global metadata indicating which CIDR range
+   * the cluster is using. (clusters.create)
+   *
+   * @param string $projectId Deprecated. The Google Developers Console [project
+   * ID or project number](https://support.google.com/cloud/answer/6158840). This
+   * field has been deprecated and replaced by the parent field.
+   * @param string $zone Deprecated. The name of the Google Compute Engine
+   * [zone](https://cloud.google.com/compute/docs/zones#available) in which the
+   * cluster resides. This field has been deprecated and replaced by the parent
+   * field.
+   * @param CreateClusterRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function create($projectId, $zone, CreateClusterRequest $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'zone' => $zone, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Operation::class);
+  }
+  /**
+   * Deletes the cluster, including the Kubernetes endpoint and all worker nodes.
+   * Firewalls and routes that were configured during cluster creation are also
+   * deleted. Other Google Compute Engine resources that might be in use by the
+   * cluster, such as load balancer resources, are not deleted if they weren't
+   * present when the cluster was initially created. (clusters.delete)
+   *
+   * @param string $projectId Deprecated. The Google Developers Console [project
+   * ID or project number](https://support.google.com/cloud/answer/6158840). This
+   * field has been deprecated and replaced by the name field.
+   * @param string $zone Deprecated. The name of the Google Compute Engine
+   * [zone](https://cloud.google.com/compute/docs/zones#available) in which the
+   * cluster resides. This field has been deprecated and replaced by the name
+   * field.
+   * @param string $clusterId Deprecated. The name of the cluster to delete. This
+   * field has been deprecated and replaced by the name field.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string name The name (project, location, cluster) of the cluster
+   * to delete. Specified in the format `projects/locations/clusters`.
+   * @return Operation
+   */
+  public function delete($projectId, $zone, $clusterId, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'zone' => $zone, 'clusterId' => $clusterId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Gets the details of a specific cluster. (clusters.get)
+   *
+   * @param string $projectId Deprecated. The Google Developers Console [project
+   * ID or project number](https://support.google.com/cloud/answer/6158840). This
+   * field has been deprecated and replaced by the name field.
+   * @param string $zone Deprecated. The name of the Google Compute Engine
+   * [zone](https://cloud.google.com/compute/docs/zones#available) in which the
+   * cluster resides. This field has been deprecated and replaced by the name
+   * field.
+   * @param string $clusterId Deprecated. The name of the cluster to retrieve.
+   * This field has been deprecated and replaced by the name field.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string name The name (project, location, cluster) of the cluster
+   * to retrieve. Specified in the format `projects/locations/clusters`.
+   * @return Cluster
+   */
+  public function get($projectId, $zone, $clusterId, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'zone' => $zone, 'clusterId' => $clusterId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Cluster::class);
+  }
+  /**
+   * Enables or disables the ABAC authorization mechanism on a cluster.
+   * (clusters.legacyAbac)
+   *
+   * @param string $projectId Deprecated. The Google Developers Console [project
+   * ID or project number](https://support.google.com/cloud/answer/6158840). This
+   * field has been deprecated and replaced by the name field.
+   * @param string $zone Deprecated. The name of the Google Compute Engine
+   * [zone](https://cloud.google.com/compute/docs/zones#available) in which the
+   * cluster resides. This field has been deprecated and replaced by the name
+   * field.
+   * @param string $clusterId Deprecated. The name of the cluster to update. This
+   * field has been deprecated and replaced by the name field.
+   * @param SetLegacyAbacRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function legacyAbac($projectId, $zone, $clusterId, SetLegacyAbacRequest $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'zone' => $zone, 'clusterId' => $clusterId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('legacyAbac', [$params], Operation::class);
+  }
+  /**
+   * Lists all clusters owned by a project in either the specified zone or all
+   * zones. (clusters.listProjectsZonesClusters)
+   *
+   * @param string $projectId Deprecated. The Google Developers Console [project
+   * ID or project number](https://support.google.com/cloud/answer/6158840). This
+   * field has been deprecated and replaced by the parent field.
+   * @param string $zone Deprecated. The name of the Google Compute Engine
+   * [zone](https://cloud.google.com/compute/docs/zones#available) in which the
+   * cluster resides, or "-" for all zones. This field has been deprecated and
+   * replaced by the parent field.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string parent The parent (project and location) where the clusters
+   * will be listed. Specified in the format `projects/locations`. Location "-"
+   * matches all zones and all regions.
+   * @return ListClustersResponse
+   */
+  public function listProjectsZonesClusters($projectId, $zone, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'zone' => $zone];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListClustersResponse::class);
+  }
+  /**
+   * Sets the locations for a specific cluster. Deprecated. Use
+   * [projects.locations.clusters.update](https://cloud.google.com/kubernetes-
+   * engine/docs/reference/rest/v1/projects.locations.clusters/update) instead.
+   * (clusters.locations)
+   *
+   * @param string $projectId Deprecated. The Google Developers Console [project
+   * ID or project number](https://support.google.com/cloud/answer/6158840). This
+   * field has been deprecated and replaced by the name field.
+   * @param string $zone Deprecated. The name of the Google Compute Engine
+   * [zone](https://cloud.google.com/compute/docs/zones#available) in which the
+   * cluster resides. This field has been deprecated and replaced by the name
+   * field.
+   * @param string $clusterId Deprecated. The name of the cluster to upgrade. This
+   * field has been deprecated and replaced by the name field.
+   * @param SetLocationsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function locations($projectId, $zone, $clusterId, SetLocationsRequest $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'zone' => $zone, 'clusterId' => $clusterId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('locations', [$params], Operation::class);
+  }
+  /**
+   * Sets the logging service for a specific cluster. (clusters.logging)
+   *
+   * @param string $projectId Deprecated. The Google Developers Console [project
+   * ID or project number](https://support.google.com/cloud/answer/6158840). This
+   * field has been deprecated and replaced by the name field.
+   * @param string $zone Deprecated. The name of the Google Compute Engine
+   * [zone](https://cloud.google.com/compute/docs/zones#available) in which the
+   * cluster resides. This field has been deprecated and replaced by the name
+   * field.
+   * @param string $clusterId Deprecated. The name of the cluster to upgrade. This
+   * field has been deprecated and replaced by the name field.
+   * @param SetLoggingServiceRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function logging($projectId, $zone, $clusterId, SetLoggingServiceRequest $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'zone' => $zone, 'clusterId' => $clusterId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('logging', [$params], Operation::class);
+  }
+  /**
+   * Updates the master for a specific cluster. (clusters.master)
+   *
+   * @param string $projectId Deprecated. The Google Developers Console [project
+   * ID or project number](https://support.google.com/cloud/answer/6158840). This
+   * field has been deprecated and replaced by the name field.
+   * @param string $zone Deprecated. The name of the Google Compute Engine
+   * [zone](https://cloud.google.com/compute/docs/zones#available) in which the
+   * cluster resides. This field has been deprecated and replaced by the name
+   * field.
+   * @param string $clusterId Deprecated. The name of the cluster to upgrade. This
+   * field has been deprecated and replaced by the name field.
+   * @param UpdateMasterRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function master($projectId, $zone, $clusterId, UpdateMasterRequest $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'zone' => $zone, 'clusterId' => $clusterId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('master', [$params], Operation::class);
+  }
+  /**
+   * Sets the monitoring service for a specific cluster. (clusters.monitoring)
+   *
+   * @param string $projectId Deprecated. The Google Developers Console [project
+   * ID or project number](https://support.google.com/cloud/answer/6158840). This
+   * field has been deprecated and replaced by the name field.
+   * @param string $zone Deprecated. The name of the Google Compute Engine
+   * [zone](https://cloud.google.com/compute/docs/zones#available) in which the
+   * cluster resides. This field has been deprecated and replaced by the name
+   * field.
+   * @param string $clusterId Deprecated. The name of the cluster to upgrade. This
+   * field has been deprecated and replaced by the name field.
+   * @param SetMonitoringServiceRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function monitoring($projectId, $zone, $clusterId, SetMonitoringServiceRequest $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'zone' => $zone, 'clusterId' => $clusterId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('monitoring', [$params], Operation::class);
+  }
+  /**
+   * Sets labels on a cluster. (clusters.resourceLabels)
+   *
+   * @param string $projectId Deprecated. The Google Developers Console [project
+   * ID or project
+   * number](https://developers.google.com/console/help/new/#projectnumber). This
+   * field has been deprecated and replaced by the name field.
+   * @param string $zone Deprecated. The name of the Google Compute Engine
+   * [zone](https://cloud.google.com/compute/docs/zones#available) in which the
+   * cluster resides. This field has been deprecated and replaced by the name
+   * field.
+   * @param string $clusterId Deprecated. The name of the cluster. This field has
+   * been deprecated and replaced by the name field.
+   * @param SetLabelsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function resourceLabels($projectId, $zone, $clusterId, SetLabelsRequest $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'zone' => $zone, 'clusterId' => $clusterId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('resourceLabels', [$params], Operation::class);
+  }
+  /**
+   * Sets the maintenance policy for a cluster. (clusters.setMaintenancePolicy)
+   *
+   * @param string $projectId Required. The Google Developers Console [project ID
+   * or project number](https://support.google.com/cloud/answer/6158840).
+   * @param string $zone Required. The name of the Google Compute Engine
+   * [zone](https://cloud.google.com/compute/docs/zones#available) in which the
+   * cluster resides.
+   * @param string $clusterId Required. The name of the cluster to update.
+   * @param SetMaintenancePolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function setMaintenancePolicy($projectId, $zone, $clusterId, SetMaintenancePolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'zone' => $zone, 'clusterId' => $clusterId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setMaintenancePolicy', [$params], Operation::class);
+  }
+  /**
+   * Sets master auth materials. Currently supports changing the admin password or
+   * a specific cluster, either via password generation or explicitly setting the
+   * password. (clusters.setMasterAuth)
+   *
+   * @param string $projectId Deprecated. The Google Developers Console [project
+   * ID or project number](https://support.google.com/cloud/answer/6158840). This
+   * field has been deprecated and replaced by the name field.
+   * @param string $zone Deprecated. The name of the Google Compute Engine
+   * [zone](https://cloud.google.com/compute/docs/zones#available) in which the
+   * cluster resides. This field has been deprecated and replaced by the name
+   * field.
+   * @param string $clusterId Deprecated. The name of the cluster to upgrade. This
+   * field has been deprecated and replaced by the name field.
+   * @param SetMasterAuthRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function setMasterAuth($projectId, $zone, $clusterId, SetMasterAuthRequest $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'zone' => $zone, 'clusterId' => $clusterId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setMasterAuth', [$params], Operation::class);
+  }
+  /**
+   * Enables or disables Network Policy for a cluster. (clusters.setNetworkPolicy)
+   *
+   * @param string $projectId Deprecated. The Google Developers Console [project
+   * ID or project
+   * number](https://developers.google.com/console/help/new/#projectnumber). This
+   * field has been deprecated and replaced by the name field.
+   * @param string $zone Deprecated. The name of the Google Compute Engine
+   * [zone](https://cloud.google.com/compute/docs/zones#available) in which the
+   * cluster resides. This field has been deprecated and replaced by the name
+   * field.
+   * @param string $clusterId Deprecated. The name of the cluster. This field has
+   * been deprecated and replaced by the name field.
+   * @param SetNetworkPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function setNetworkPolicy($projectId, $zone, $clusterId, SetNetworkPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'zone' => $zone, 'clusterId' => $clusterId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setNetworkPolicy', [$params], Operation::class);
+  }
+  /**
+   * Starts master IP rotation. (clusters.startIpRotation)
+   *
+   * @param string $projectId Deprecated. The Google Developers Console [project
+   * ID or project
+   * number](https://developers.google.com/console/help/new/#projectnumber). This
+   * field has been deprecated and replaced by the name field.
+   * @param string $zone Deprecated. The name of the Google Compute Engine
+   * [zone](https://cloud.google.com/compute/docs/zones#available) in which the
+   * cluster resides. This field has been deprecated and replaced by the name
+   * field.
+   * @param string $clusterId Deprecated. The name of the cluster. This field has
+   * been deprecated and replaced by the name field.
+   * @param StartIPRotationRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function startIpRotation($projectId, $zone, $clusterId, StartIPRotationRequest $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'zone' => $zone, 'clusterId' => $clusterId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('startIpRotation', [$params], Operation::class);
+  }
+  /**
+   * Updates the settings of a specific cluster. (clusters.update)
+   *
+   * @param string $projectId Deprecated. The Google Developers Console [project
+   * ID or project number](https://support.google.com/cloud/answer/6158840). This
+   * field has been deprecated and replaced by the name field.
+   * @param string $zone Deprecated. The name of the Google Compute Engine
+   * [zone](https://cloud.google.com/compute/docs/zones#available) in which the
+   * cluster resides. This field has been deprecated and replaced by the name
+   * field.
+   * @param string $clusterId Deprecated. The name of the cluster to upgrade. This
+   * field has been deprecated and replaced by the name field.
+   * @param UpdateClusterRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function update($projectId, $zone, $clusterId, UpdateClusterRequest $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'zone' => $zone, 'clusterId' => $clusterId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsZonesClusters::class, 'Google_Service_Container_Resource_ProjectsZonesClusters');

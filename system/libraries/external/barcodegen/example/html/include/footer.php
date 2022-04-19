@@ -1,69 +1,37 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+<?php
+if (!defined('IN_CB')) {
+    die('You are not allowed to access to this page.');
+}
 ?>
-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
-fD8r2FanAM5yUP+ej0PW/aK=
+
+            <div class="output">
+                <section class="output">
+                    <h3>Output</h3>
+                    <?php
+                        $finalRequest = '';
+                        foreach (getImageKeys() as $key => $value) {
+                            $finalRequest .= '&' . $key . '=' . urlencode($value);
+                        }
+                        if (strlen($finalRequest) > 0) {
+                            $finalRequest[0] = '?';
+                        }
+                    ?>
+                    <div id="imageOutput">
+                        <?php if ($imageKeys['text'] !== '') {
+                        ?><img src="image.php<?php echo $finalRequest; ?>" alt="Barcode Image" /><?php
+                    } else {
+                        ?>Fill the form to generate a barcode.<?php
+                    } ?>
+                    </div>
+                </section>
+            </div>
+        </form>
+
+        <div class="footer">
+            <footer>
+            All Rights Reserved &copy; <?php date_default_timezone_set('UTC'); echo date('Y'); ?> <a href="http://www.barcodebakery.com" target="_blank">Barcode Bakery</a>
+            <br /><?php echo $code; ?> PHP-v<?php echo $codeVersion; ?>
+            </footer>
+        </div>
+    </body>
+</html>

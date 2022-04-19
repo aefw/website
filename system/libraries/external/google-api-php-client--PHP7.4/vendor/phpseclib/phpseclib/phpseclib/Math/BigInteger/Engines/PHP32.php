@@ -1,127 +1,418 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+/**
+ * Pure-PHP 32-bit BigInteger Engine
+ *
+ * PHP version 5 and 7
+ *
+ * @category  Math
+ * @package   BigInteger
+ * @author    Jim Wigginton <terrafrost@php.net>
+ * @copyright 2017 Jim Wigginton
+ * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      http://pear.php.net/package/Math_BigInteger
+ */
+
+namespace phpseclib3\Math\BigInteger\Engines;
+
+use ParagonIE\ConstantTime\Hex;
+
+/**
+ * Pure-PHP 32-bit Engine.
+ *
+ * Uses 64-bit floats if int size is 4 bits
+ *
+ * @package PHP32
+ * @author  Jim Wigginton <terrafrost@php.net>
+ * @access  public
+ */
+class PHP32 extends PHP
+{
+    // Constants used by PHP.php
+    const BASE = 26;
+    const BASE_FULL = 0x4000000;
+    const MAX_DIGIT = 0x3FFFFFF;
+    const MSB = 0x2000000;
+
+    /**
+     * MAX10 in greatest MAX10LEN satisfying
+     * MAX10 = 10**MAX10LEN <= 2**BASE.
+     */
+    const MAX10 = 10000000;
+
+    /**
+     * MAX10LEN in greatest MAX10LEN satisfying
+     * MAX10 = 10**MAX10LEN <= 2**BASE.
+     */
+    const MAX10LEN = 7;
+    const MAX_DIGIT2 = 4503599627370496;
+    /**#@-*/
+
+    /**
+     * Modular Exponentiation Engine
+     *
+     * @var string
+     */
+    protected static $modexpEngine;
+
+    /**
+     * Engine Validity Flag
+     *
+     * @var bool
+     */
+    protected static $isValidEngine;
+
+    /**
+     * Primes > 2 and < 1000
+     *
+     * @var array
+     */
+    protected static $primes;
+
+    /**
+     * BigInteger(0)
+     *
+     * @var \phpseclib3\Math\BigInteger\Engines\PHP32
+     */
+    protected static $zero;
+
+    /**
+     * BigInteger(1)
+     *
+     * @var \phpseclib3\Math\BigInteger\Engines\PHP32
+     */
+    protected static $one;
+
+    /**
+     * BigInteger(2)
+     *
+     * @var \phpseclib3\Math\BigInteger\Engines\PHP32
+     */
+    protected static $two;
+
+    /**
+     * Initialize a PHP32 BigInteger Engine instance
+     *
+     * @param int $base
+     * @see parent::initialize()
+     */
+    protected function initialize($base)
+    {
+        if ($base != 256 && $base != -256) {
+            return parent::initialize($base);
+        }
+
+        $val = $this->value;
+        $this->value = [];
+        $vals = &$this->value;
+        $i = strlen($val);
+        if (!$i) {
+            return;
+        }
+
+        while (true) {
+            $i-= 4;
+            if ($i < 0) {
+                if ($i == -4) {
+                    break;
+                }
+                $val = substr($val, 0, 4 + $i);
+                $val = str_pad($val, 4, "\0", STR_PAD_LEFT);
+                if ($val == "\0\0\0\0") {
+                    break;
+                }
+                $i = 0;
+            }
+            list(, $digit) = unpack('N', substr($val, $i, 4));
+            $step = count($vals) & 3;
+            if ($step) {
+                $digit>>= 2 * $step;
+            }
+            if ($step != 3) {
+                $digit&= static::MAX_DIGIT;
+                $i++;
+            }
+            $vals[] = $digit;
+        }
+        while (end($vals) === 0) {
+            array_pop($vals);
+        }
+        reset($vals);
+    }
+
+    /**
+     * Test for engine validity
+     *
+     * @see parent::__construct()
+     * @return bool
+     */
+    public static function isValidEngine()
+    {
+        return PHP_INT_SIZE >= 4;
+    }
+
+    /**
+     * Adds two BigIntegers.
+     *
+     * @param PHP32 $y
+     * @return PHP32
+     */
+    public function add(PHP32 $y)
+    {
+        $temp = self::addHelper($this->value, $this->is_negative, $y->value, $y->is_negative);
+
+        return $this->convertToObj($temp);
+    }
+
+    /**
+     * Subtracts two BigIntegers.
+     *
+     * @param PHP32 $y
+     * @return PHP32
+     */
+    public function subtract(PHP32 $y)
+    {
+        $temp = self::subtractHelper($this->value, $this->is_negative, $y->value, $y->is_negative);
+
+        return $this->convertToObj($temp);
+    }
+
+    /**
+     * Multiplies two BigIntegers.
+     *
+     * @param PHP32 $y
+     * @return PHP32
+     */
+    public function multiply(PHP32 $y)
+    {
+        $temp = self::multiplyHelper($this->value, $this->is_negative, $y->value, $y->is_negative);
+
+        return $this->convertToObj($temp);
+    }
+
+    /**
+     * Divides two BigIntegers.
+     *
+     * Returns an array whose first element contains the quotient and whose second element contains the
+     * "common residue".  If the remainder would be positive, the "common residue" and the remainder are the
+     * same.  If the remainder would be negative, the "common residue" is equal to the sum of the remainder
+     * and the divisor (basically, the "common residue" is the first positive modulo).
+     *
+     * @param PHP32 $y
+     * @return PHP32
+     */
+    public function divide(PHP32 $y)
+    {
+        return $this->divideHelper($y);
+    }
+
+    /**
+     * Calculates modular inverses.
+     *
+     * Say you have (30 mod 17 * x mod 17) mod 17 == 1.  x can be found using modular inverses.
+     * @param PHP32 $n
+     * @return false|PHP32
+     */
+    public function modInverse(PHP32 $n)
+    {
+        return $this->modInverseHelper($n);
+    }
+
+    /**
+     * Calculates modular inverses.
+     *
+     * Say you have (30 mod 17 * x mod 17) mod 17 == 1.  x can be found using modular inverses.
+     * @param PHP32 $n
+     * @return PHP32[]
+     */
+    public function extendedGCD(PHP32 $n)
+    {
+        return $this->extendedGCDHelper($n);
+    }
+
+    /**
+     * Calculates the greatest common divisor
+     *
+     * Say you have 693 and 609.  The GCD is 21.
+     *
+     * @param PHP32 $n
+     * @return PHP32
+     */
+    public function gcd(PHP32 $n)
+    {
+        return $this->extendedGCD($n)['gcd'];
+    }
+
+    /**
+     * Logical And
+     *
+     * @param PHP32 $x
+     * @return PHP32
+     */
+    public function bitwise_and(PHP32 $x)
+    {
+        return $this->bitwiseAndHelper($x);
+    }
+
+    /**
+     * Logical Or
+     *
+     * @param PHP32 $x
+     * @return PHP32
+     */
+    public function bitwise_or(PHP32 $x)
+    {
+        return $this->bitwiseOrHelper($x);
+    }
+
+    /**
+     * Logical Exclusive Or
+     *
+     * @param PHP32 $x
+     * @return PHP32
+     */
+    public function bitwise_xor(PHP32 $x)
+    {
+        return $this->bitwiseXorHelper($x);
+    }
+
+    /**
+     * Compares two numbers.
+     *
+     * Although one might think !$x->compare($y) means $x != $y, it, in fact, means the opposite.  The reason for this is
+     * demonstrated thusly:
+     *
+     * $x  > $y: $x->compare($y)  > 0
+     * $x  < $y: $x->compare($y)  < 0
+     * $x == $y: $x->compare($y) == 0
+     *
+     * Note how the same comparison operator is used.  If you want to test for equality, use $x->equals($y).
+     *
+     * {@internal Could return $this->subtract($x), but that's not as fast as what we do do.}
+     *
+     * @param PHP32 $y
+     * @return int in case < 0 if $this is less than $y; > 0 if $this is greater than $y, and 0 if they are equal.
+     * @access public
+     * @see self::equals()
+     */
+    public function compare(PHP32 $y)
+    {
+        return $this->compareHelper($this->value, $this->is_negative, $y->value, $y->is_negative);
+    }
+
+    /**
+     * Tests the equality of two numbers.
+     *
+     * If you need to see if one number is greater than or less than another number, use BigInteger::compare()
+     *
+     * @param PHP32 $x
+     * @return bool
+     */
+    public function equals(PHP32 $x)
+    {
+        return $this->value === $x->value && $this->is_negative == $x->is_negative;
+    }
+
+    /**
+     * Performs modular exponentiation.
+     *
+     * @param PHP32 $e
+     * @param PHP32 $n
+     * @return PHP32
+     */
+    public function modPow(PHP32 $e, PHP32 $n)
+    {
+        return $this->powModOuter($e, $n);
+    }
+
+    /**
+     * Performs modular exponentiation.
+     *
+     * Alias for modPow().
+     *
+     * @param PHP32 $e
+     * @param PHP32 $n
+     * @return PHP32
+     */
+    public function powMod(PHP32 $e, PHP32 $n)
+    {
+        return $this->powModOuter($e, $n);
+    }
+
+    /**
+     * Generate a random prime number between a range
+     *
+     * If there's not a prime within the given range, false will be returned.
+     *
+     * @param PHP32 $min
+     * @param PHP32 $max
+     * @return false|PHP32
+     */
+    public static function randomRangePrime(PHP32 $min, PHP32 $max)
+    {
+        return self::randomRangePrimeOuter($min, $max);
+    }
+
+    /**
+     * Generate a random number between a range
+     *
+     * Returns a random number between $min and $max where $min and $max
+     * can be defined using one of the two methods:
+     *
+     * BigInteger::randomRange($min, $max)
+     * BigInteger::randomRange($max, $min)
+     *
+     * @param PHP32 $min
+     * @param PHP32 $max
+     * @return PHP32
+     */
+    public static function randomRange(PHP32 $min, PHP32 $max)
+    {
+        return self::randomRangeHelper($min, $max);
+    }
+
+    /**
+     * Performs exponentiation.
+     *
+     * @param PHP32 $n
+     * @return PHP32
+     */
+    public function pow(PHP32 $n)
+    {
+        return $this->powHelper($n);
+    }
+
+    /**
+     * Return the minimum BigInteger between an arbitrary number of BigIntegers.
+     *
+     * @param PHP32 ...$nums
+     * @return PHP32
+     */
+    public static function min(PHP32 ...$nums)
+    {
+        return self::minHelper($nums);
+    }
+
+    /**
+     * Return the maximum BigInteger between an arbitrary number of BigIntegers.
+     *
+     * @param PHP32 ...$nums
+     * @return PHP32
+     */
+    public static function max(PHP32 ...$nums)
+    {
+        return self::maxHelper($nums);
+    }
+
+    /**
+     * Tests BigInteger to see if it is between two integers, inclusive
+     *
+     * @param PHP32 $min
+     * @param PHP32 $max
+     * @return bool
+     */
+    public function between(PHP32 $min, PHP32 $max)
+    {
+        return $this->compare($min) >= 0 && $this->compare($max) <= 0;
+    }
+}

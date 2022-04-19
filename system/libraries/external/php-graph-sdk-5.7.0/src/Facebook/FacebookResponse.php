@@ -1,113 +1,410 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/**
+ * Copyright 2017 Facebook, Inc.
+ *
+ * You are hereby granted a non-exclusive, worldwide, royalty-free license to
+ * use, copy, modify, and distribute this software in source code or binary
+ * form for use in connection with the web services and APIs provided by
+ * Facebook.
+ *
+ * As with any software that integrates with the Facebook platform, your use
+ * of this software is subject to the Facebook Developer Principles and
+ * Policies [http://developers.facebook.com/policy/]. This copyright notice
+ * shall be included in all copies or substantial portions of the software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+ * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+ *
+ */
+namespace Facebook;
+
+use Facebook\GraphNodes\GraphNodeFactory;
+use Facebook\Exceptions\FacebookResponseException;
+use Facebook\Exceptions\FacebookSDKException;
+
+/**
+ * Class FacebookResponse
+ *
+ * @package Facebook
+ */
+class FacebookResponse
+{
+    /**
+     * @var int The HTTP status code response from Graph.
+     */
+    protected $httpStatusCode;
+
+    /**
+     * @var array The headers returned from Graph.
+     */
+    protected $headers;
+
+    /**
+     * @var string The raw body of the response from Graph.
+     */
+    protected $body;
+
+    /**
+     * @var array The decoded body of the Graph response.
+     */
+    protected $decodedBody = [];
+
+    /**
+     * @var FacebookRequest The original request that returned this response.
+     */
+    protected $request;
+
+    /**
+     * @var FacebookSDKException The exception thrown by this request.
+     */
+    protected $thrownException;
+
+    /**
+     * Creates a new Response entity.
+     *
+     * @param FacebookRequest $request
+     * @param string|null     $body
+     * @param int|null        $httpStatusCode
+     * @param array|null      $headers
+     */
+    public function __construct(FacebookRequest $request, $body = null, $httpStatusCode = null, array $headers = [])
+    {
+        $this->request = $request;
+        $this->body = $body;
+        $this->httpStatusCode = $httpStatusCode;
+        $this->headers = $headers;
+
+        $this->decodeBody();
+    }
+
+    /**
+     * Return the original request that returned this response.
+     *
+     * @return FacebookRequest
+     */
+    public function getRequest()
+    {
+        return $this->request;
+    }
+
+    /**
+     * Return the FacebookApp entity used for this response.
+     *
+     * @return FacebookApp
+     */
+    public function getApp()
+    {
+        return $this->request->getApp();
+    }
+
+    /**
+     * Return the access token that was used for this response.
+     *
+     * @return string|null
+     */
+    public function getAccessToken()
+    {
+        return $this->request->getAccessToken();
+    }
+
+    /**
+     * Return the HTTP status code for this response.
+     *
+     * @return int
+     */
+    public function getHttpStatusCode()
+    {
+        return $this->httpStatusCode;
+    }
+
+    /**
+     * Return the HTTP headers for this response.
+     *
+     * @return array
+     */
+    public function getHeaders()
+    {
+        return $this->headers;
+    }
+
+    /**
+     * Return the raw body response.
+     *
+     * @return string
+     */
+    public function getBody()
+    {
+        return $this->body;
+    }
+
+    /**
+     * Return the decoded body response.
+     *
+     * @return array
+     */
+    public function getDecodedBody()
+    {
+        return $this->decodedBody;
+    }
+
+    /**
+     * Get the app secret proof that was used for this response.
+     *
+     * @return string|null
+     */
+    public function getAppSecretProof()
+    {
+        return $this->request->getAppSecretProof();
+    }
+
+    /**
+     * Get the ETag associated with the response.
+     *
+     * @return string|null
+     */
+    public function getETag()
+    {
+        return isset($this->headers['ETag']) ? $this->headers['ETag'] : null;
+    }
+
+    /**
+     * Get the version of Graph that returned this response.
+     *
+     * @return string|null
+     */
+    public function getGraphVersion()
+    {
+        return isset($this->headers['Facebook-API-Version']) ? $this->headers['Facebook-API-Version'] : null;
+    }
+
+    /**
+     * Returns true if Graph returned an error message.
+     *
+     * @return boolean
+     */
+    public function isError()
+    {
+        return isset($this->decodedBody['error']);
+    }
+
+    /**
+     * Throws the exception.
+     *
+     * @throws FacebookSDKException
+     */
+    public function throwException()
+    {
+        throw $this->thrownException;
+    }
+
+    /**
+     * Instantiates an exception to be thrown later.
+     */
+    public function makeException()
+    {
+        $this->thrownException = FacebookResponseException::create($this);
+    }
+
+    /**
+     * Returns the exception that was thrown for this request.
+     *
+     * @return FacebookResponseException|null
+     */
+    public function getThrownException()
+    {
+        return $this->thrownException;
+    }
+
+    /**
+     * Convert the raw response into an array if possible.
+     *
+     * Graph will return 2 types of responses:
+     * - JSON(P)
+     *    Most responses from Graph are JSON(P)
+     * - application/x-www-form-urlencoded key/value pairs
+     *    Happens on the `/oauth/access_token` endpoint when exchanging
+     *    a short-lived access token for a long-lived access token
+     * - And sometimes nothing :/ but that'd be a bug.
+     */
+    public function decodeBody()
+    {
+        $this->decodedBody = json_decode($this->body, true);
+
+        if ($this->decodedBody === null) {
+            $this->decodedBody = [];
+            parse_str($this->body, $this->decodedBody);
+        } elseif (is_bool($this->decodedBody)) {
+            // Backwards compatibility for Graph < 2.1.
+            // Mimics 2.1 responses.
+            // @TODO Remove this after Graph 2.0 is no longer supported
+            $this->decodedBody = ['success' => $this->decodedBody];
+        } elseif (is_numeric($this->decodedBody)) {
+            $this->decodedBody = ['id' => $this->decodedBody];
+        }
+
+        if (!is_array($this->decodedBody)) {
+            $this->decodedBody = [];
+        }
+
+        if ($this->isError()) {
+            $this->makeException();
+        }
+    }
+
+    /**
+     * Instantiate a new GraphObject from response.
+     *
+     * @param string|null $subclassName The GraphNode subclass to cast to.
+     *
+     * @return \Facebook\GraphNodes\GraphObject
+     *
+     * @throws FacebookSDKException
+     *
+     * @deprecated 5.0.0 getGraphObject() has been renamed to getGraphNode()
+     * @todo v6: Remove this method
+     */
+    public function getGraphObject($subclassName = null)
+    {
+        return $this->getGraphNode($subclassName);
+    }
+
+    /**
+     * Instantiate a new GraphNode from response.
+     *
+     * @param string|null $subclassName The GraphNode subclass to cast to.
+     *
+     * @return \Facebook\GraphNodes\GraphNode
+     *
+     * @throws FacebookSDKException
+     */
+    public function getGraphNode($subclassName = null)
+    {
+        $factory = new GraphNodeFactory($this);
+
+        return $factory->makeGraphNode($subclassName);
+    }
+
+    /**
+     * Convenience method for creating a GraphAlbum collection.
+     *
+     * @return \Facebook\GraphNodes\GraphAlbum
+     *
+     * @throws FacebookSDKException
+     */
+    public function getGraphAlbum()
+    {
+        $factory = new GraphNodeFactory($this);
+
+        return $factory->makeGraphAlbum();
+    }
+
+    /**
+     * Convenience method for creating a GraphPage collection.
+     *
+     * @return \Facebook\GraphNodes\GraphPage
+     *
+     * @throws FacebookSDKException
+     */
+    public function getGraphPage()
+    {
+        $factory = new GraphNodeFactory($this);
+
+        return $factory->makeGraphPage();
+    }
+
+    /**
+     * Convenience method for creating a GraphSessionInfo collection.
+     *
+     * @return \Facebook\GraphNodes\GraphSessionInfo
+     *
+     * @throws FacebookSDKException
+     */
+    public function getGraphSessionInfo()
+    {
+        $factory = new GraphNodeFactory($this);
+
+        return $factory->makeGraphSessionInfo();
+    }
+
+    /**
+     * Convenience method for creating a GraphUser collection.
+     *
+     * @return \Facebook\GraphNodes\GraphUser
+     *
+     * @throws FacebookSDKException
+     */
+    public function getGraphUser()
+    {
+        $factory = new GraphNodeFactory($this);
+
+        return $factory->makeGraphUser();
+    }
+
+    /**
+     * Convenience method for creating a GraphEvent collection.
+     *
+     * @return \Facebook\GraphNodes\GraphEvent
+     *
+     * @throws FacebookSDKException
+     */
+    public function getGraphEvent()
+    {
+        $factory = new GraphNodeFactory($this);
+
+        return $factory->makeGraphEvent();
+    }
+
+    /**
+     * Convenience method for creating a GraphGroup collection.
+     *
+     * @return \Facebook\GraphNodes\GraphGroup
+     *
+     * @throws FacebookSDKException
+     */
+    public function getGraphGroup()
+    {
+        $factory = new GraphNodeFactory($this);
+
+        return $factory->makeGraphGroup();
+    }
+
+    /**
+     * Instantiate a new GraphList from response.
+     *
+     * @param string|null $subclassName The GraphNode subclass to cast list items to.
+     * @param boolean     $auto_prefix  Toggle to auto-prefix the subclass name.
+     *
+     * @return \Facebook\GraphNodes\GraphList
+     *
+     * @throws FacebookSDKException
+     *
+     * @deprecated 5.0.0 getGraphList() has been renamed to getGraphEdge()
+     * @todo v6: Remove this method
+     */
+    public function getGraphList($subclassName = null, $auto_prefix = true)
+    {
+        return $this->getGraphEdge($subclassName, $auto_prefix);
+    }
+
+    /**
+     * Instantiate a new GraphEdge from response.
+     *
+     * @param string|null $subclassName The GraphNode subclass to cast list items to.
+     * @param boolean     $auto_prefix  Toggle to auto-prefix the subclass name.
+     *
+     * @return \Facebook\GraphNodes\GraphEdge
+     *
+     * @throws FacebookSDKException
+     */
+    public function getGraphEdge($subclassName = null, $auto_prefix = true)
+    {
+        $factory = new GraphNodeFactory($this);
+
+        return $factory->makeGraphEdge($subclassName, $auto_prefix);
+    }
+}

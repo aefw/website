@@ -1,70 +1,126 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ShoppingContent\Resource;
+
+use Google\Service\ShoppingContent\ListRegionsResponse;
+use Google\Service\ShoppingContent\Region;
+
+/**
+ * The "regions" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $contentService = new Google\Service\ShoppingContent(...);
+ *   $regions = $contentService->regions;
+ *  </code>
+ */
+class Regions extends \Google\Service\Resource
+{
+  /**
+   * Creates a region definition in your Merchant Center account. (regions.create)
+   *
+   * @param string $merchantId Required. The id of the merchant for which to
+   * create region definition.
+   * @param Region $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string regionId Required. The id of the region to create.
+   * @return Region
+   */
+  public function create($merchantId, Region $postBody, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Region::class);
+  }
+  /**
+   * Deletes a region definition from your Merchant Center account.
+   * (regions.delete)
+   *
+   * @param string $merchantId Required. The id of the merchant for which to
+   * delete region definition.
+   * @param string $regionId Required. The id of the region to delete.
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($merchantId, $regionId, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'regionId' => $regionId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Retrieves a region defined in your Merchant Center account. (regions.get)
+   *
+   * @param string $merchantId Required. The id of the merchant for which to
+   * retrieve region definition.
+   * @param string $regionId Required. The id of the region to retrieve.
+   * @param array $optParams Optional parameters.
+   * @return Region
+   */
+  public function get($merchantId, $regionId, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'regionId' => $regionId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Region::class);
+  }
+  /**
+   * Lists the regions in your Merchant Center account. (regions.listRegions)
+   *
+   * @param string $merchantId Required. The id of the merchant for which to list
+   * region definitions.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The maximum number of regions to return. The service
+   * may return fewer than this value. If unspecified, at most 50 rules will be
+   * returned. The maximum value is 1000; values above 1000 will be coerced to
+   * 1000.
+   * @opt_param string pageToken A page token, received from a previous
+   * `ListRegions` call. Provide this to retrieve the subsequent page. When
+   * paginating, all other parameters provided to `ListRegions` must match the
+   * call that provided the page token.
+   * @return ListRegionsResponse
+   */
+  public function listRegions($merchantId, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListRegionsResponse::class);
+  }
+  /**
+   * Updates a region definition in your Merchant Center account. (regions.patch)
+   *
+   * @param string $merchantId Required. The id of the merchant for which to
+   * update region definition.
+   * @param string $regionId Required. The id of the region to update.
+   * @param Region $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Optional. The comma-separated field mask
+   * indicating the fields to update. Example:
+   * `"displayName,postalCodeArea.regionCode"`.
+   * @return Region
+   */
+  public function patch($merchantId, $regionId, Region $postBody, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'regionId' => $regionId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Region::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Regions::class, 'Google_Service_ShoppingContent_Resource_Regions');

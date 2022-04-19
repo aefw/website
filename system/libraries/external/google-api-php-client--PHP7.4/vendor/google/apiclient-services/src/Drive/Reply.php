@@ -1,71 +1,114 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-gCEZJUO=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Drive;
+
+class Reply extends \Google\Model
+{
+  public $action;
+  protected $authorType = User::class;
+  protected $authorDataType = '';
+  public $content;
+  public $createdTime;
+  public $deleted;
+  public $htmlContent;
+  public $id;
+  public $kind;
+  public $modifiedTime;
+
+  public function setAction($action)
+  {
+    $this->action = $action;
+  }
+  public function getAction()
+  {
+    return $this->action;
+  }
+  /**
+   * @param User
+   */
+  public function setAuthor(User $author)
+  {
+    $this->author = $author;
+  }
+  /**
+   * @return User
+   */
+  public function getAuthor()
+  {
+    return $this->author;
+  }
+  public function setContent($content)
+  {
+    $this->content = $content;
+  }
+  public function getContent()
+  {
+    return $this->content;
+  }
+  public function setCreatedTime($createdTime)
+  {
+    $this->createdTime = $createdTime;
+  }
+  public function getCreatedTime()
+  {
+    return $this->createdTime;
+  }
+  public function setDeleted($deleted)
+  {
+    $this->deleted = $deleted;
+  }
+  public function getDeleted()
+  {
+    return $this->deleted;
+  }
+  public function setHtmlContent($htmlContent)
+  {
+    $this->htmlContent = $htmlContent;
+  }
+  public function getHtmlContent()
+  {
+    return $this->htmlContent;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setModifiedTime($modifiedTime)
+  {
+    $this->modifiedTime = $modifiedTime;
+  }
+  public function getModifiedTime()
+  {
+    return $this->modifiedTime;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Reply::class, 'Google_Service_Drive_Reply');

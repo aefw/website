@@ -1,76 +1,114 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPr9zOwFyxbULYRJsWC7ZhtEPZQagg6kBozwVk98dBDdbOWULETsb2TFN+GyVOzdOTZeVeM46
-PDct9nKT7qwVzcql/E0wK4ubEEBCwQdJ9PyBTahEVwYVcDdF4NGYBL5ymWLMJA3u2/Crn5FIuSSO
-pvfwru2nWsb7AvvARJawGFIuzwnZqkpWHrf0fRJgpH0i//mzYf0mCuomOm2eWuEKGUtqKFt6XuTu
-9SsxusPFwRFxSssTrvipkjWVfoWm7/8NvFki0gEkt9NBJRlRNlvkLva/MnZYS5CkDLI4g2o1fZvA
-1ULLtNRKZEJbPHNxqWUKYDIBvpNG72f5CzLzNJySvaPrFQ8EwoovHlofBInYEYBGMVglMmEfjYyO
-4gkJnNNR1/bSLHHbo9+do8NlyCTQBptrgxMc05nNf65B0tEaDE/ERudLHClZcXk4LBt94XJH9DzG
-l00vXLfNUY5IhY26aj8VNFwUh9oT12n9hxS9Z3cAuuQWA8BjJmK595hJy678WiGfZnPkntoM3Swe
-BuQCTeqWDq1co1Vs2/Lfp8x9inal9EhbKP3Yc3GbDamT7hRUXyq6UpebzAH6t9i/eV7Q9jTT5Lku
-RPNt92vFSwBzxUFg5i/MQxeay96Eh+Fw/tsfIFU9QAoRAuqBc9kirOqTpDEqxxLSVDyPBl+5llcf
-Ni7aQPx+jTaE4Wdgyzatf9K/tm+//t2t2G+KOsSSVqQH+t/JRl/vrvSH1c/Beykph0OZinE2gWKc
-gJC4FWCEPPi2EnaOhx8Tjx0fuc4U3CZUWwfLspOQRjSe9csiXrh5xDKJQDvPf+NY6kOv52Qb5lzm
-vlvz50sgpKvDwEFtP6+w54+fwuhxzG/fRi7RaVRmoerSDCiWiFO9MY3oserrI4eLh+7l1mwbbGJe
-DBdNOSDMnNQO3A8AmuxsuDU2KADCuR+k1iaTmcnTEW20g3XAwcFy5PxABMGD1TbA4yqnwrEGacIA
-Lu3qC7Ij3+JNj17BsQYcdjiGNI0Lpn8f/nIt9BE/hQA3u3/Ub5Kh4zLQpOq5IM4p6GQpWQprSTFz
-GNQLXn01hBDY5R+ubjMBsYLEULiTcSy3g8Vz5jUFXItnwzn3XjuKN0dU/ISiIw+JdbT3nX3bZR3e
-P8IraN7Yu/bVCTi/wMh58NizojxfapK2rV3UTxntTlxUx3R1ElAZv5t5U0NQ51AIaOKSNbL+76la
-t/awk4mOitj5+P4YJneAh/R3jQ7OsxfCs7jeH2/27XWcN4JvbaAmvURlRtgPLKpHiZwKEgntiRe/
-ip4F9k+rUx/wjY4P2oDHCTAOwC9pa7+EZdXvelKCdigrSGCLv20f7IZKy7yAKQpx9kOInaeYErKq
-IL3SclO5yDVKRskwTinCtdNB6xlFvJjrVX1CrSMwU8fvCTejXws0u3WSL/uNl6DBlMrIngNeJiWP
-vCMRnXThXjZVjDidvmYu5bG57B7b/lvcozq0N7tFY38+VeOomqgZRQfjQgN0heUw73LT7FFpsxJL
-ZRzkyv5GBzTcPGLjjmtvERZ4Noomb6XxrKMUBj1Ogav7jGupE53tXLg1C/9GBaTSwafi4MrY9L1e
-rxaqgWJM20s5m8OUtVAs66GsNdoq//t6wM3DErhslrUZcbYAESe07SXuLYM54b9sPoXfQm2phHpn
-rAaRHW+21csK5IL9jDgjc3t98PSj+k/8Qf7HG07W2/+P/Vky2f7JUIz/bEzQjlm3qbDcEWqC6kFc
-DIQxw+eBS4G+zHQnu0SBXjvgT9WBoM+JUfOBipeJH2WsTkdhk9Ox2BPdbwxmICzN3SwwGfdIyiOl
-+xf/ouxrpBoCWWjhUeT6nD7LYRlEnk10fhHefw48SKUmV4olaXNMjkWhe8Fm6uMhgRHrGc8J61DZ
-z364szDoh0zrdcCqB5et9gE0D3G94lGQUJiLDIy7T84HFh+p7s8kRIXvVbdcpl/AW1muoNPEJQnc
-3oX3IQVFUVmxTpzkHu1KQcxo980tzW2XEJfpM4FEkL7qqwfe3Zea6vIeSLgD9tT5oMnt14cCALB0
-YY4UzgqEYnQ7aYJfpEpHh7mBPVNiXHKXBgDWZFWoqZTnhTNzwR/reoMp6T+sZlTYHoe/QauiPchz
-Vi5GWo2V0lx8Zw734yB6+mqC4N29jHY4aw6BtkZdzTQl0T3CvK6c35kahaRaAh06w6bqtlpAn0NJ
-rIPaffVx4jitTOH1dBtGXi0FCeC9GEFlY4iA9zLWlP9h7UIYgix9oXfeqvI5+xek5/IIl2QAUkIk
-O+yDG0lAqcmHi2dqCK/FMaF9tBLoIISkiP4ml5TDD4ucBs5+ft3EAe93f56KWRPC0TguZwxWBctN
-3vML8dWKSyjV+5B0SuFtd/MoroFgh9xDDWZnKmgcXKKjb6J/Y2oCkG4izkCUUfmpjtKgkrYttu5j
-TDhRZDWjgmqVD8Slr2c6z3Zi5KK2WTcfXHTksJXnXPiwXG2MtxVQ/F794yLxb3/oIPwkLIvjA5mL
-2q8IRFrbyOx/N1bsvjHuPxmJOtLKmQEy4WqeBDEQDteMM/H0o72JIXSq+IPYXpe2yPVBUUoY3T0W
-kjA22Vhl6z0OB9XqCZ6kylqMxIqeMyKudyf5ZXUXo18Wv8fCCIombMC0ABARWPHomVpA8jjSpheP
-b3eLMV/eK8Csp+aVQjiVSP7LN7LVVC6JGe84sbTCNzLcLYE2IOMMYiflXbY3Ucq5J1qFJX0ph4Tn
-JYIpfGrPIk5n5GLgD7KYU3kPniGGqKi5/CkJLGtlSaJm13MXzGJrBQ+JkhS5XyW6JNthEC4U56+G
-1pb8kmkx+WPHkL2yQBPkFkwhTUvtw1PNX1+26nVq+uRevEIxvFz6xbV+q/yStNSrZFh7j1i8rfNS
-r7yJwNQcWGwLOIhvcoSNpXnMMAY/AogTKCf0UqCRK5y6sjkuhLWsJIDRN1nrZAyQTtZF4EnsgXSQ
-KUAYAVt0q2ePI0ZAgRl0D+h6u4pYzKs1iYe70B8to30brUsD098VwRPumgh3LWbYuJUrM3eXK1Yl
-4sTFPg+AjJqT+0K3wS0E3vmONDtCo1aK0hM2xV55GsFcx0+iTmTJ/nyfzlnITL1vP2M9NHVXVwtD
-CuQa1+cT4M2C4sdcRTpsBeQSw0+tOqmLUmnz79gyqsOD/STsdrrATq9BlCktuEeMPaYLN/kuJVhR
-bbPxaByT5Bg3AneT+hUquTZBlxY+b8zV8e+I/vuWnoHZzGejm1GnaqSl7jT+t98drXdCi9dxYDYT
-gKr1SPeHTaBgA87vmR70WsjSl+hc9RFjzwhW9Dr9thM7fJU4NA5Xe3Xgb9ucIJb6hRbL87BHR5Ml
-4cMrrmWmuI+Ue+6XSLQA2kIF9MAi2WyJlquzIclOVV3B0sY2S6tCMQhl+AgpbTjmXgzbr4L+b6sy
-HQ44YCJiPiuITsRZmNU0AnGnJJ/aKNMWx8uaVVkHqQ3k5gjbmE1FkrpdukOF8PV3CyW01uvExmG6
-/UZDGIKf4Vc3zjLlKAHJh71fSIo4kW/x0u6+jeCJqPiJKT8t4fzzzj1WUicTm5Ia9gP2J+exHxLE
-GEXwmKmsbbW4NzwoAcKXRPNvJdbFLnHLiCgNWKx3+3FKV88wEELgNOi8Xu8rKwBDhRZoW1Qvqcf9
-VxDRdinu8FS7s/+R6wvtsfcspm48YHBN7eX6Q4oF4vLU7O5An3FMqO9x5HY1REaNldB3fFD4LTEO
-modj/c+e2EQ4Icc6AtSRWPH/1hxYQuBHD4dV4uNIXI3g/yFcARDRXookBFzuhJNMB2ZxViM+81L7
-I6ZrMX0OmAiCBMXZXjq/FerDrk9Ebatr/pyKP4/0bTCUmnlKNOftko2OpyZIfq1O5fPr4kVXeNdp
-jt/wD3UwObgA0qbpdZD+gnAM+vcCByUS2ow3hhNdmsO4hVWL/Zf1Nf3HwgNhbZcfS97YU99A4Co2
-+R7xb5wP3iD8+jmBYEdFpXCZ9wUBABlOEQ7gMKcbRw0I5uBypUScn/yIXC7jFQvBQ86fFxTRDNcN
-LRtvSv7QiiRILY7Gt1Q3sG04gJF5mxPteivcIkCe7C+I5tFbykrnXS0+HzskAZvbLNHcNglbhcNp
-RSj8SUv1DBKh4MLMolScGEoZz0Db06bZzkyzaEk20vsqnqiJOYPBqjg8V7iaYvysvIWxq+aadeaY
-OJjkGbBFVG+/IIDadD0UTTDyVwkm5b66toCKMlg7siZRfKAxnetObWHi/BRs65M3yakfBqPvuMSM
-tGLbWFPS/1sfW2pzkV4Fn6cBPzba4+cdwpQJrASOJ4VWkkAkWQk1NfSX1mwNLxguNP9/5PdQ1SY4
-rk4+JauiXcdqyb2LKi/IzOPf54xTU6w9srJWyfpoNTRAIv0xk+zSnvcpyVtVnK+rqEX2ulpRba7k
-8SkViVteJ5HgmcESy5GeXLNx5NuE3GkSssRPaMkKd67iAb2j/j4VUcjoc5miEskgj2Z/TKbO3saN
-NpLMdx5xiKxP7cXrZgznd+lc1lg+9CFxsGzS3IW7QXllyxa3uw5yoK1Xr5qQ1oEwljzWJT+PsFyv
-0ZuKQY8u5uBw6g3SxDrzcpHDYn9I6XMlde8ZqYOqNGfxcnWjp6qz6/GRHVdCUn5uA2/E76WIivA/
-iPNHfUipPdc6a6mblKYeUGOPPlQOI4qUNvws3FHzkS5gpcOr9Ktimu6kLf0mVcYP+yQAtQcc9+2e
-gnXu34jVKb8JtG3cjyS0BTfFSx9oU1rhWCU81I4uFr2nlhC9VUHtAfEdR6l17gP+4cWjpS+K08fX
-9oY5iSK5NQin4Qr1H6P10And0R3PQVygqyCjNzC2a5sNBhxJYa81bDKRO3ZEftD6daDxd3lxPdhW
-gQjzDWTRBdlZ0TuFv26VeUsF53PIZfFpt5EJMH4AA+kSULV5Q3xAAFh37yqu0oVBMO1tSIIZ7hBZ
-EPJZWp4aj95xRUl/asuhGU9khD3KCzOT/dpZY9wg43SMCVZzL91SQCAvlnU2gozVtbCFM2K6d46a
-H/+COWREhbSIT3WjpHKEtwM5dtkyrpH2SVwLbYxW+PdZyYxiA+oHROdj3VOr55cYNCS8f3lhDAuI
-J6qAICvatPwVaALgDAHWwsYS5hDvagyrWWE4bYXczbrBU22dUWdoY6ruiaGTn1as21zyQuhdkRhJ
-4YjI6Bj0pnJANn7MhN1edNlvP5dq//1W1sXIDsYXXdcH+soLDwuPOqQF3M1DxHwTbmswtBr6sZ+v
-W4g9btlN5wGv8m/KpPoP7AyI/Ay9wVMYIzoESFj5C+xga8ymTlSU/yEKXu04knj37yq=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\SQLAdmin;
+
+class BackupConfiguration extends \Google\Model
+{
+  protected $backupRetentionSettingsType = BackupRetentionSettings::class;
+  protected $backupRetentionSettingsDataType = '';
+  public $binaryLogEnabled;
+  public $enabled;
+  public $kind;
+  public $location;
+  public $pointInTimeRecoveryEnabled;
+  public $replicationLogArchivingEnabled;
+  public $startTime;
+  public $transactionLogRetentionDays;
+
+  /**
+   * @param BackupRetentionSettings
+   */
+  public function setBackupRetentionSettings(BackupRetentionSettings $backupRetentionSettings)
+  {
+    $this->backupRetentionSettings = $backupRetentionSettings;
+  }
+  /**
+   * @return BackupRetentionSettings
+   */
+  public function getBackupRetentionSettings()
+  {
+    return $this->backupRetentionSettings;
+  }
+  public function setBinaryLogEnabled($binaryLogEnabled)
+  {
+    $this->binaryLogEnabled = $binaryLogEnabled;
+  }
+  public function getBinaryLogEnabled()
+  {
+    return $this->binaryLogEnabled;
+  }
+  public function setEnabled($enabled)
+  {
+    $this->enabled = $enabled;
+  }
+  public function getEnabled()
+  {
+    return $this->enabled;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setLocation($location)
+  {
+    $this->location = $location;
+  }
+  public function getLocation()
+  {
+    return $this->location;
+  }
+  public function setPointInTimeRecoveryEnabled($pointInTimeRecoveryEnabled)
+  {
+    $this->pointInTimeRecoveryEnabled = $pointInTimeRecoveryEnabled;
+  }
+  public function getPointInTimeRecoveryEnabled()
+  {
+    return $this->pointInTimeRecoveryEnabled;
+  }
+  public function setReplicationLogArchivingEnabled($replicationLogArchivingEnabled)
+  {
+    $this->replicationLogArchivingEnabled = $replicationLogArchivingEnabled;
+  }
+  public function getReplicationLogArchivingEnabled()
+  {
+    return $this->replicationLogArchivingEnabled;
+  }
+  public function setStartTime($startTime)
+  {
+    $this->startTime = $startTime;
+  }
+  public function getStartTime()
+  {
+    return $this->startTime;
+  }
+  public function setTransactionLogRetentionDays($transactionLogRetentionDays)
+  {
+    $this->transactionLogRetentionDays = $transactionLogRetentionDays;
+  }
+  public function getTransactionLogRetentionDays()
+  {
+    return $this->transactionLogRetentionDays;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(BackupConfiguration::class, 'Google_Service_SQLAdmin_BackupConfiguration');

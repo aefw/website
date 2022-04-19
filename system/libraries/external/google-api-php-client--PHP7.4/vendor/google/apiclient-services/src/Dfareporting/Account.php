@@ -1,116 +1,205 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-hNV0ojK=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dfareporting;
+
+class Account extends \Google\Collection
+{
+  protected $collection_key = 'availablePermissionIds';
+  public $accountPermissionIds;
+  public $accountProfile;
+  public $active;
+  public $activeAdsLimitTier;
+  public $activeViewOptOut;
+  public $availablePermissionIds;
+  public $countryId;
+  public $currencyId;
+  public $defaultCreativeSizeId;
+  public $description;
+  public $id;
+  public $kind;
+  public $locale;
+  public $maximumImageSize;
+  public $name;
+  public $nielsenOcrEnabled;
+  protected $reportsConfigurationType = ReportsConfiguration::class;
+  protected $reportsConfigurationDataType = '';
+  public $shareReportsWithTwitter;
+  public $teaserSizeLimit;
+
+  public function setAccountPermissionIds($accountPermissionIds)
+  {
+    $this->accountPermissionIds = $accountPermissionIds;
+  }
+  public function getAccountPermissionIds()
+  {
+    return $this->accountPermissionIds;
+  }
+  public function setAccountProfile($accountProfile)
+  {
+    $this->accountProfile = $accountProfile;
+  }
+  public function getAccountProfile()
+  {
+    return $this->accountProfile;
+  }
+  public function setActive($active)
+  {
+    $this->active = $active;
+  }
+  public function getActive()
+  {
+    return $this->active;
+  }
+  public function setActiveAdsLimitTier($activeAdsLimitTier)
+  {
+    $this->activeAdsLimitTier = $activeAdsLimitTier;
+  }
+  public function getActiveAdsLimitTier()
+  {
+    return $this->activeAdsLimitTier;
+  }
+  public function setActiveViewOptOut($activeViewOptOut)
+  {
+    $this->activeViewOptOut = $activeViewOptOut;
+  }
+  public function getActiveViewOptOut()
+  {
+    return $this->activeViewOptOut;
+  }
+  public function setAvailablePermissionIds($availablePermissionIds)
+  {
+    $this->availablePermissionIds = $availablePermissionIds;
+  }
+  public function getAvailablePermissionIds()
+  {
+    return $this->availablePermissionIds;
+  }
+  public function setCountryId($countryId)
+  {
+    $this->countryId = $countryId;
+  }
+  public function getCountryId()
+  {
+    return $this->countryId;
+  }
+  public function setCurrencyId($currencyId)
+  {
+    $this->currencyId = $currencyId;
+  }
+  public function getCurrencyId()
+  {
+    return $this->currencyId;
+  }
+  public function setDefaultCreativeSizeId($defaultCreativeSizeId)
+  {
+    $this->defaultCreativeSizeId = $defaultCreativeSizeId;
+  }
+  public function getDefaultCreativeSizeId()
+  {
+    return $this->defaultCreativeSizeId;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setLocale($locale)
+  {
+    $this->locale = $locale;
+  }
+  public function getLocale()
+  {
+    return $this->locale;
+  }
+  public function setMaximumImageSize($maximumImageSize)
+  {
+    $this->maximumImageSize = $maximumImageSize;
+  }
+  public function getMaximumImageSize()
+  {
+    return $this->maximumImageSize;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setNielsenOcrEnabled($nielsenOcrEnabled)
+  {
+    $this->nielsenOcrEnabled = $nielsenOcrEnabled;
+  }
+  public function getNielsenOcrEnabled()
+  {
+    return $this->nielsenOcrEnabled;
+  }
+  /**
+   * @param ReportsConfiguration
+   */
+  public function setReportsConfiguration(ReportsConfiguration $reportsConfiguration)
+  {
+    $this->reportsConfiguration = $reportsConfiguration;
+  }
+  /**
+   * @return ReportsConfiguration
+   */
+  public function getReportsConfiguration()
+  {
+    return $this->reportsConfiguration;
+  }
+  public function setShareReportsWithTwitter($shareReportsWithTwitter)
+  {
+    $this->shareReportsWithTwitter = $shareReportsWithTwitter;
+  }
+  public function getShareReportsWithTwitter()
+  {
+    return $this->shareReportsWithTwitter;
+  }
+  public function setTeaserSizeLimit($teaserSizeLimit)
+  {
+    $this->teaserSizeLimit = $teaserSizeLimit;
+  }
+  public function getTeaserSizeLimit()
+  {
+    return $this->teaserSizeLimit;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Account::class, 'Google_Service_Dfareporting_Account');

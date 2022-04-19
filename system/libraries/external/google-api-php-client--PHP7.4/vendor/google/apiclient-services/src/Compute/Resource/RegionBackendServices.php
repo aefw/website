@@ -1,84 +1,253 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-SHSdzJXYcjWhesPb7KfOXSaajPWPgF0=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute\Resource;
+
+use Google\Service\Compute\BackendService;
+use Google\Service\Compute\BackendServiceGroupHealth;
+use Google\Service\Compute\BackendServiceList;
+use Google\Service\Compute\Operation;
+use Google\Service\Compute\ResourceGroupReference;
+
+/**
+ * The "regionBackendServices" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $computeService = new Google\Service\Compute(...);
+ *   $regionBackendServices = $computeService->regionBackendServices;
+ *  </code>
+ */
+class RegionBackendServices extends \Google\Service\Resource
+{
+  /**
+   * Deletes the specified regional BackendService resource.
+   * (regionBackendServices.delete)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param string $backendService Name of the BackendService resource to delete.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function delete($project, $region, $backendService, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'backendService' => $backendService];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Returns the specified regional BackendService resource.
+   * (regionBackendServices.get)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param string $backendService Name of the BackendService resource to return.
+   * @param array $optParams Optional parameters.
+   * @return BackendService
+   */
+  public function get($project, $region, $backendService, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'backendService' => $backendService];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], BackendService::class);
+  }
+  /**
+   * Gets the most recent health check results for this regional BackendService.
+   * (regionBackendServices.getHealth)
+   *
+   * @param string $project
+   * @param string $region Name of the region scoping this request.
+   * @param string $backendService Name of the BackendService resource for which
+   * to get health.
+   * @param ResourceGroupReference $postBody
+   * @param array $optParams Optional parameters.
+   * @return BackendServiceGroupHealth
+   */
+  public function getHealth($project, $region, $backendService, ResourceGroupReference $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'backendService' => $backendService, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('getHealth', [$params], BackendServiceGroupHealth::class);
+  }
+  /**
+   * Creates a regional BackendService resource in the specified project using the
+   * data included in the request. For more information, see  Backend services
+   * overview. (regionBackendServices.insert)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param BackendService $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function insert($project, $region, BackendService $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Operation::class);
+  }
+  /**
+   * Retrieves the list of regional BackendService resources available to the
+   * specified project in the given region.
+   * (regionBackendServices.listRegionBackendServices)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return BackendServiceList
+   */
+  public function listRegionBackendServices($project, $region, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], BackendServiceList::class);
+  }
+  /**
+   * Updates the specified regional BackendService resource with the data included
+   * in the request. For more information, see  Understanding backend services
+   * This method supports PATCH semantics and uses the JSON merge patch format and
+   * processing rules. (regionBackendServices.patch)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param string $backendService Name of the BackendService resource to patch.
+   * @param BackendService $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function patch($project, $region, $backendService, BackendService $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'backendService' => $backendService, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+  /**
+   * Updates the specified regional BackendService resource with the data included
+   * in the request. For more information, see  Backend services overview.
+   * (regionBackendServices.update)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param string $backendService Name of the BackendService resource to update.
+   * @param BackendService $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function update($project, $region, $backendService, BackendService $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'backendService' => $backendService, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(RegionBackendServices::class, 'Google_Service_Compute_Resource_RegionBackendServices');

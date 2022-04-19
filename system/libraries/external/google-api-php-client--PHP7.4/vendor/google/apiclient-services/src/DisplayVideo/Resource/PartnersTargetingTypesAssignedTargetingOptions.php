@@ -1,69 +1,128 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DisplayVideo\Resource;
+
+use Google\Service\DisplayVideo\AssignedTargetingOption;
+use Google\Service\DisplayVideo\DisplayvideoEmpty;
+use Google\Service\DisplayVideo\ListPartnerAssignedTargetingOptionsResponse;
+
+/**
+ * The "assignedTargetingOptions" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $displayvideoService = new Google\Service\DisplayVideo(...);
+ *   $assignedTargetingOptions = $displayvideoService->assignedTargetingOptions;
+ *  </code>
+ */
+class PartnersTargetingTypesAssignedTargetingOptions extends \Google\Service\Resource
+{
+  /**
+   * Assigns a targeting option to a partner. Returns the assigned targeting
+   * option if successful. (assignedTargetingOptions.create)
+   *
+   * @param string $partnerId Required. The ID of the partner.
+   * @param string $targetingType Required. Identifies the type of this assigned
+   * targeting option. Supported targeting types: * `TARGETING_TYPE_CHANNEL`
+   * @param AssignedTargetingOption $postBody
+   * @param array $optParams Optional parameters.
+   * @return AssignedTargetingOption
+   */
+  public function create($partnerId, $targetingType, AssignedTargetingOption $postBody, $optParams = [])
+  {
+    $params = ['partnerId' => $partnerId, 'targetingType' => $targetingType, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], AssignedTargetingOption::class);
+  }
+  /**
+   * Deletes an assigned targeting option from a partner.
+   * (assignedTargetingOptions.delete)
+   *
+   * @param string $partnerId Required. The ID of the partner.
+   * @param string $targetingType Required. Identifies the type of this assigned
+   * targeting option. Supported targeting types: * `TARGETING_TYPE_CHANNEL`
+   * @param string $assignedTargetingOptionId Required. The ID of the assigned
+   * targeting option to delete.
+   * @param array $optParams Optional parameters.
+   * @return DisplayvideoEmpty
+   */
+  public function delete($partnerId, $targetingType, $assignedTargetingOptionId, $optParams = [])
+  {
+    $params = ['partnerId' => $partnerId, 'targetingType' => $targetingType, 'assignedTargetingOptionId' => $assignedTargetingOptionId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], DisplayvideoEmpty::class);
+  }
+  /**
+   * Gets a single targeting option assigned to a partner.
+   * (assignedTargetingOptions.get)
+   *
+   * @param string $partnerId Required. The ID of the partner.
+   * @param string $targetingType Required. Identifies the type of this assigned
+   * targeting option. Supported targeting types: * `TARGETING_TYPE_CHANNEL`
+   * @param string $assignedTargetingOptionId Required. An identifier unique to
+   * the targeting type in this partner that identifies the assigned targeting
+   * option being requested.
+   * @param array $optParams Optional parameters.
+   * @return AssignedTargetingOption
+   */
+  public function get($partnerId, $targetingType, $assignedTargetingOptionId, $optParams = [])
+  {
+    $params = ['partnerId' => $partnerId, 'targetingType' => $targetingType, 'assignedTargetingOptionId' => $assignedTargetingOptionId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], AssignedTargetingOption::class);
+  }
+  /**
+   * Lists the targeting options assigned to a partner.
+   * (assignedTargetingOptions.listPartnersTargetingTypesAssignedTargetingOptions)
+   *
+   * @param string $partnerId Required. The ID of the partner.
+   * @param string $targetingType Required. Identifies the type of assigned
+   * targeting options to list. Supported targeting types: *
+   * `TARGETING_TYPE_CHANNEL`
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Allows filtering by assigned targeting option
+   * properties. Supported syntax: * Filter expressions are made up of one or more
+   * restrictions. * Restrictions can be combined by the logical operator `OR`. *
+   * A restriction has the form of `{field} {operator} {value}`. * The operator
+   * must be `EQUALS (=)`. * Supported fields: - `assignedTargetingOptionId`
+   * Examples: * AssignedTargetingOption with ID 123456
+   * `assignedTargetingOptionId="123456"` The length of this field should be no
+   * more than 500 characters.
+   * @opt_param string orderBy Field by which to sort the list. Acceptable values
+   * are: * `assignedTargetingOptionId` (default) The default sorting order is
+   * ascending. To specify descending order for a field, a suffix "desc" should be
+   * added to the field name. Example: `assignedTargetingOptionId desc`.
+   * @opt_param int pageSize Requested page size. Must be between `1` and `100`.
+   * If unspecified will default to `100`. Returns error code `INVALID_ARGUMENT`
+   * if an invalid value is specified.
+   * @opt_param string pageToken A token identifying a page of results the server
+   * should return. Typically, this is the value of next_page_token returned from
+   * the previous call to `ListPartnerAssignedTargetingOptions` method. If not
+   * specified, the first page of results will be returned.
+   * @return ListPartnerAssignedTargetingOptionsResponse
+   */
+  public function listPartnersTargetingTypesAssignedTargetingOptions($partnerId, $targetingType, $optParams = [])
+  {
+    $params = ['partnerId' => $partnerId, 'targetingType' => $targetingType];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListPartnerAssignedTargetingOptionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PartnersTargetingTypesAssignedTargetingOptions::class, 'Google_Service_DisplayVideo_Resource_PartnersTargetingTypesAssignedTargetingOptions');

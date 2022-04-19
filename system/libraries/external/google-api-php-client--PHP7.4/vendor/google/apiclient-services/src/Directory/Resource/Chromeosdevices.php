@@ -1,77 +1,192 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-PNp98gP0bJEdha1DVfm=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Directory\Resource;
+
+use Google\Service\Directory\ChromeOsDevice;
+use Google\Service\Directory\ChromeOsDeviceAction;
+use Google\Service\Directory\ChromeOsDevices as ChromeOsDevicesModel;
+use Google\Service\Directory\ChromeOsMoveDevicesToOu;
+
+/**
+ * The "chromeosdevices" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $adminService = new Google\Service\Directory(...);
+ *   $chromeosdevices = $adminService->chromeosdevices;
+ *  </code>
+ */
+class Chromeosdevices extends \Google\Service\Resource
+{
+  /**
+   * Takes an action that affects a Chrome OS Device. This includes
+   * deprovisioning, disabling, and re-enabling devices. *Warning:* *
+   * Deprovisioning a device will stop device policy syncing and remove device-
+   * level printers. After a device is deprovisioned, it must be wiped before it
+   * can be re-enrolled. * Lost or stolen devices should use the disable action. *
+   * Re-enabling a disabled device will consume a device license. If you do not
+   * have sufficient licenses available when completing the re-enable action, you
+   * will receive an error. For more information about deprovisioning and
+   * disabling devices, visit the [help
+   * center](https://support.google.com/chrome/a/answer/3523633).
+   * (chromeosdevices.action)
+   *
+   * @param string $customerId The unique ID for the customer's Google Workspace
+   * account. As an account administrator, you can also use the `my_customer`
+   * alias to represent your account's `customerId`. The `customerId` is also
+   * returned as part of the [Users resource](/admin-
+   * sdk/directory/v1/reference/users).
+   * @param string $resourceId The unique ID of the device. The `resourceId`s are
+   * returned in the response from the [chromeosdevices.list](/admin-
+   * sdk/directory/v1/reference/chromeosdevices/list) method.
+   * @param ChromeOsDeviceAction $postBody
+   * @param array $optParams Optional parameters.
+   */
+  public function action($customerId, $resourceId, ChromeOsDeviceAction $postBody, $optParams = [])
+  {
+    $params = ['customerId' => $customerId, 'resourceId' => $resourceId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('action', [$params]);
+  }
+  /**
+   * Retrieves a Chrome OS device's properties. (chromeosdevices.get)
+   *
+   * @param string $customerId The unique ID for the customer's Google Workspace
+   * account. As an account administrator, you can also use the `my_customer`
+   * alias to represent your account's `customerId`. The `customerId` is also
+   * returned as part of the [Users resource](/admin-
+   * sdk/directory/v1/reference/users).
+   * @param string $deviceId The unique ID of the device. The `deviceId`s are
+   * returned in the response from the [chromeosdevices.list](/admin-
+   * sdk/directory/v1/reference/chromeosdevices/list) method.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string projection Determines whether the response contains the
+   * full list of properties or only a subset.
+   * @return ChromeOsDevice
+   */
+  public function get($customerId, $deviceId, $optParams = [])
+  {
+    $params = ['customerId' => $customerId, 'deviceId' => $deviceId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], ChromeOsDevice::class);
+  }
+  /**
+   * Retrieves a paginated list of Chrome OS devices within an account.
+   * (chromeosdevices.listChromeosdevices)
+   *
+   * @param string $customerId The unique ID for the customer's Google Workspace
+   * account. As an account administrator, you can also use the `my_customer`
+   * alias to represent your account's `customerId`. The `customerId` is also
+   * returned as part of the [Users resource](/admin-
+   * sdk/directory/v1/reference/users).
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int maxResults Maximum number of results to return.
+   * @opt_param string orderBy Device property to use for sorting results.
+   * @opt_param string orgUnitPath The full path of the organizational unit or its
+   * unique ID.
+   * @opt_param string pageToken The `pageToken` query parameter is used to
+   * request the next page of query results. The follow-on request's `pageToken`
+   * query parameter is the `nextPageToken` from your previous response.
+   * @opt_param string projection Restrict information returned to a set of
+   * selected fields.
+   * @opt_param string query Search string in the format given at
+   * http://support.google.com/chromeos/a/bin/answer.py?answer=1698333
+   * @opt_param string sortOrder Whether to return results in ascending or
+   * descending order. Must be used with the `orderBy` parameter.
+   * @return ChromeOsDevicesModel
+   */
+  public function listChromeosdevices($customerId, $optParams = [])
+  {
+    $params = ['customerId' => $customerId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ChromeOsDevicesModel::class);
+  }
+  /**
+   * Move or insert multiple Chrome OS devices to an organizational unit. You can
+   * move up to 50 devices at once. (chromeosdevices.moveDevicesToOu)
+   *
+   * @param string $customerId Immutable ID of the Google Workspace account
+   * @param string $orgUnitPath Full path of the target organizational unit or its
+   * ID
+   * @param ChromeOsMoveDevicesToOu $postBody
+   * @param array $optParams Optional parameters.
+   */
+  public function moveDevicesToOu($customerId, $orgUnitPath, ChromeOsMoveDevicesToOu $postBody, $optParams = [])
+  {
+    $params = ['customerId' => $customerId, 'orgUnitPath' => $orgUnitPath, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('moveDevicesToOu', [$params]);
+  }
+  /**
+   * Updates a device's updatable properties, such as `annotatedUser`,
+   * `annotatedLocation`, `notes`, `orgUnitPath`, or `annotatedAssetId`. This
+   * method supports [patch semantics](/admin-
+   * sdk/directory/v1/guides/performance#patch). (chromeosdevices.patch)
+   *
+   * @param string $customerId The unique ID for the customer's Google Workspace
+   * account. As an account administrator, you can also use the `my_customer`
+   * alias to represent your account's `customerId`. The `customerId` is also
+   * returned as part of the [Users resource](/admin-
+   * sdk/directory/v1/reference/users).
+   * @param string $deviceId The unique ID of the device. The `deviceId`s are
+   * returned in the response from the [chromeosdevices.list](/admin-
+   * sdk/v1/reference/chromeosdevices/list) method.
+   * @param ChromeOsDevice $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string projection Restrict information returned to a set of
+   * selected fields.
+   * @return ChromeOsDevice
+   */
+  public function patch($customerId, $deviceId, ChromeOsDevice $postBody, $optParams = [])
+  {
+    $params = ['customerId' => $customerId, 'deviceId' => $deviceId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], ChromeOsDevice::class);
+  }
+  /**
+   * Updates a device's updatable properties, such as `annotatedUser`,
+   * `annotatedLocation`, `notes`, `orgUnitPath`, or `annotatedAssetId`.
+   * (chromeosdevices.update)
+   *
+   * @param string $customerId The unique ID for the customer's Google Workspace
+   * account. As an account administrator, you can also use the `my_customer`
+   * alias to represent your account's `customerId`. The `customerId` is also
+   * returned as part of the [Users resource](/admin-
+   * sdk/directory/v1/reference/users).
+   * @param string $deviceId The unique ID of the device. The `deviceId`s are
+   * returned in the response from the [chromeosdevices.list](/admin-
+   * sdk/v1/reference/chromeosdevices/list) method.
+   * @param ChromeOsDevice $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string projection Restrict information returned to a set of
+   * selected fields.
+   * @return ChromeOsDevice
+   */
+  public function update($customerId, $deviceId, ChromeOsDevice $postBody, $optParams = [])
+  {
+    $params = ['customerId' => $customerId, 'deviceId' => $deviceId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], ChromeOsDevice::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Chromeosdevices::class, 'Google_Service_Directory_Resource_Chromeosdevices');

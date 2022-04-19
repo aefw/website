@@ -1,90 +1,62 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+# required: PHP 5.3+ and zlib extension
+
+// ini option check
+if (ini_get('phar.readonly')) {
+    echo "php.ini: set the 'phar.readonly' option to 0 to enable phar creation\n";
+    exit(1);
+}
+
+// output name
+$pharName = 'Matrix.phar';
+
+// target folder
+$sourceDir = __DIR__ . DIRECTORY_SEPARATOR . 'classes' . DIRECTORY_SEPARATOR . 'src' . DIRECTORY_SEPARATOR;
+
+// default meta information
+$metaData = array(
+    'Author'      => 'Mark Baker <mark@lange.demon.co.uk>',
+    'Description' => 'PHP Class for working with Matrix numbers',
+    'Copyright'   => 'Mark Baker (c) 2013-' . date('Y'),
+    'Timestamp'   => time(),
+    'Version'     => '0.1.0',
+    'Date'        => date('Y-m-d')
+);
+
+// cleanup
+if (file_exists($pharName)) {
+    echo "Removed: {$pharName}\n";
+    unlink($pharName);
+}
+
+echo "Building phar file...\n";
+
+// the phar object
+$phar = new Phar($pharName, null, 'Matrix');
+$phar->buildFromDirectory($sourceDir);
+$phar->setStub(
+<<<'EOT'
+<?php
+    spl_autoload_register(function ($className) {
+        include 'phar://' . $className . '.php';
+    });
+
+    try {
+        Phar::mapPhar();
+    } catch (PharException $e) {
+        error_log($e->getMessage());
+        exit(1);
+    }
+
+    include 'phar://functions/sqrt.php';
+
+    __HALT_COMPILER();
+EOT
+);
+$phar->setMetadata($metaData);
+$phar->compressFiles(Phar::GZ);
+
+echo "Complete.\n";
+
+exit();

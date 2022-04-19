@@ -1,139 +1,1833 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-4D8iX5KuAQxUKkJl
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for CloudHealthcare (v1).
+ *
+ * <p>
+ * Manage, store, and access healthcare data in Google Cloud Platform.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/healthcare" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class CloudHealthcare extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+
+  public $projects_locations;
+  public $projects_locations_datasets;
+  public $projects_locations_datasets_consentStores;
+  public $projects_locations_datasets_consentStores_attributeDefinitions;
+  public $projects_locations_datasets_consentStores_consentArtifacts;
+  public $projects_locations_datasets_consentStores_consents;
+  public $projects_locations_datasets_consentStores_userDataMappings;
+  public $projects_locations_datasets_dicomStores;
+  public $projects_locations_datasets_dicomStores_studies;
+  public $projects_locations_datasets_dicomStores_studies_series;
+  public $projects_locations_datasets_dicomStores_studies_series_instances;
+  public $projects_locations_datasets_dicomStores_studies_series_instances_frames;
+  public $projects_locations_datasets_fhirStores;
+  public $projects_locations_datasets_fhirStores_fhir;
+  public $projects_locations_datasets_hl7V2Stores;
+  public $projects_locations_datasets_hl7V2Stores_messages;
+  public $projects_locations_datasets_operations;
+
+  /**
+   * Constructs the internal representation of the CloudHealthcare service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://healthcare.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'healthcare';
+
+    $this->projects_locations = new CloudHealthcare\Resource\ProjectsLocations(
+        $this,
+        $this->serviceName,
+        'locations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+name}/locations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_datasets = new CloudHealthcare\Resource\ProjectsLocationsDatasets(
+        $this,
+        $this->serviceName,
+        'datasets',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/datasets',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'datasetId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'deidentify' => [
+              'path' => 'v1/{+sourceDataset}:deidentify',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'sourceDataset' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1/{+resource}:getIamPolicy',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'options.requestedPolicyVersion' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/datasets',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_datasets_consentStores = new CloudHealthcare\Resource\ProjectsLocationsDatasetsConsentStores(
+        $this,
+        $this->serviceName,
+        'consentStores',
+        [
+          'methods' => [
+            'checkDataAccess' => [
+              'path' => 'v1/{+consentStore}:checkDataAccess',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'consentStore' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1/{+parent}/consentStores',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'consentStoreId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'evaluateUserConsents' => [
+              'path' => 'v1/{+consentStore}:evaluateUserConsents',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'consentStore' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1/{+resource}:getIamPolicy',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'options.requestedPolicyVersion' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/consentStores',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'queryAccessibleData' => [
+              'path' => 'v1/{+consentStore}:queryAccessibleData',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'consentStore' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_datasets_consentStores_attributeDefinitions = new CloudHealthcare\Resource\ProjectsLocationsDatasetsConsentStoresAttributeDefinitions(
+        $this,
+        $this->serviceName,
+        'attributeDefinitions',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/attributeDefinitions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'attributeDefinitionId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/attributeDefinitions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_datasets_consentStores_consentArtifacts = new CloudHealthcare\Resource\ProjectsLocationsDatasetsConsentStoresConsentArtifacts(
+        $this,
+        $this->serviceName,
+        'consentArtifacts',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/consentArtifacts',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/consentArtifacts',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_datasets_consentStores_consents = new CloudHealthcare\Resource\ProjectsLocationsDatasetsConsentStoresConsents(
+        $this,
+        $this->serviceName,
+        'consents',
+        [
+          'methods' => [
+            'activate' => [
+              'path' => 'v1/{+name}:activate',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1/{+parent}/consents',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'deleteRevision' => [
+              'path' => 'v1/{+name}:deleteRevision',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/consents',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'listRevisions' => [
+              'path' => 'v1/{+name}:listRevisions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'reject' => [
+              'path' => 'v1/{+name}:reject',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'revoke' => [
+              'path' => 'v1/{+name}:revoke',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_datasets_consentStores_userDataMappings = new CloudHealthcare\Resource\ProjectsLocationsDatasetsConsentStoresUserDataMappings(
+        $this,
+        $this->serviceName,
+        'userDataMappings',
+        [
+          'methods' => [
+            'archive' => [
+              'path' => 'v1/{+name}:archive',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1/{+parent}/userDataMappings',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/userDataMappings',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_datasets_dicomStores = new CloudHealthcare\Resource\ProjectsLocationsDatasetsDicomStores(
+        $this,
+        $this->serviceName,
+        'dicomStores',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/dicomStores',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'dicomStoreId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'deidentify' => [
+              'path' => 'v1/{+sourceStore}:deidentify',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'sourceStore' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'export' => [
+              'path' => 'v1/{+name}:export',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1/{+resource}:getIamPolicy',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'options.requestedPolicyVersion' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'import' => [
+              'path' => 'v1/{+name}:import',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/dicomStores',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'searchForInstances' => [
+              'path' => 'v1/{+parent}/dicomWeb/{+dicomWebPath}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'dicomWebPath' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'searchForSeries' => [
+              'path' => 'v1/{+parent}/dicomWeb/{+dicomWebPath}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'dicomWebPath' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'searchForStudies' => [
+              'path' => 'v1/{+parent}/dicomWeb/{+dicomWebPath}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'dicomWebPath' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'storeInstances' => [
+              'path' => 'v1/{+parent}/dicomWeb/{+dicomWebPath}',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'dicomWebPath' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_datasets_dicomStores_studies = new CloudHealthcare\Resource\ProjectsLocationsDatasetsDicomStoresStudies(
+        $this,
+        $this->serviceName,
+        'studies',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'v1/{+parent}/dicomWeb/{+dicomWebPath}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'dicomWebPath' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'retrieveMetadata' => [
+              'path' => 'v1/{+parent}/dicomWeb/{+dicomWebPath}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'dicomWebPath' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'retrieveStudy' => [
+              'path' => 'v1/{+parent}/dicomWeb/{+dicomWebPath}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'dicomWebPath' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'searchForInstances' => [
+              'path' => 'v1/{+parent}/dicomWeb/{+dicomWebPath}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'dicomWebPath' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'searchForSeries' => [
+              'path' => 'v1/{+parent}/dicomWeb/{+dicomWebPath}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'dicomWebPath' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'storeInstances' => [
+              'path' => 'v1/{+parent}/dicomWeb/{+dicomWebPath}',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'dicomWebPath' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_datasets_dicomStores_studies_series = new CloudHealthcare\Resource\ProjectsLocationsDatasetsDicomStoresStudiesSeries(
+        $this,
+        $this->serviceName,
+        'series',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'v1/{+parent}/dicomWeb/{+dicomWebPath}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'dicomWebPath' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'retrieveMetadata' => [
+              'path' => 'v1/{+parent}/dicomWeb/{+dicomWebPath}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'dicomWebPath' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'retrieveSeries' => [
+              'path' => 'v1/{+parent}/dicomWeb/{+dicomWebPath}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'dicomWebPath' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'searchForInstances' => [
+              'path' => 'v1/{+parent}/dicomWeb/{+dicomWebPath}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'dicomWebPath' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_datasets_dicomStores_studies_series_instances = new CloudHealthcare\Resource\ProjectsLocationsDatasetsDicomStoresStudiesSeriesInstances(
+        $this,
+        $this->serviceName,
+        'instances',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'v1/{+parent}/dicomWeb/{+dicomWebPath}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'dicomWebPath' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'retrieveInstance' => [
+              'path' => 'v1/{+parent}/dicomWeb/{+dicomWebPath}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'dicomWebPath' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'retrieveMetadata' => [
+              'path' => 'v1/{+parent}/dicomWeb/{+dicomWebPath}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'dicomWebPath' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'retrieveRendered' => [
+              'path' => 'v1/{+parent}/dicomWeb/{+dicomWebPath}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'dicomWebPath' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_datasets_dicomStores_studies_series_instances_frames = new CloudHealthcare\Resource\ProjectsLocationsDatasetsDicomStoresStudiesSeriesInstancesFrames(
+        $this,
+        $this->serviceName,
+        'frames',
+        [
+          'methods' => [
+            'retrieveFrames' => [
+              'path' => 'v1/{+parent}/dicomWeb/{+dicomWebPath}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'dicomWebPath' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'retrieveRendered' => [
+              'path' => 'v1/{+parent}/dicomWeb/{+dicomWebPath}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'dicomWebPath' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_datasets_fhirStores = new CloudHealthcare\Resource\ProjectsLocationsDatasetsFhirStores(
+        $this,
+        $this->serviceName,
+        'fhirStores',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/fhirStores',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'fhirStoreId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'deidentify' => [
+              'path' => 'v1/{+sourceStore}:deidentify',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'sourceStore' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'export' => [
+              'path' => 'v1/{+name}:export',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1/{+resource}:getIamPolicy',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'options.requestedPolicyVersion' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'import' => [
+              'path' => 'v1/{+name}:import',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/fhirStores',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_datasets_fhirStores_fhir = new CloudHealthcare\Resource\ProjectsLocationsDatasetsFhirStoresFhir(
+        $this,
+        $this->serviceName,
+        'fhir',
+        [
+          'methods' => [
+            'Patient-everything' => [
+              'path' => 'v1/{+name}/$everything',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                '_count' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                '_page_token' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                '_since' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                '_type' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'end' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'start' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'Resource-purge' => [
+              'path' => 'v1/{+name}/$purge',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'capabilities' => [
+              'path' => 'v1/{+name}/fhir/metadata',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1/{+parent}/fhir/{+type}',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'type' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'executeBundle' => [
+              'path' => 'v1/{+parent}/fhir',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'history' => [
+              'path' => 'v1/{+name}/_history',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                '_at' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                '_count' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                '_page_token' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                '_since' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'read' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'search' => [
+              'path' => 'v1/{+parent}/fhir/_search',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'search-type' => [
+              'path' => 'v1/{+parent}/fhir/{resourceType}/_search',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'resourceType' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'vread' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_datasets_hl7V2Stores = new CloudHealthcare\Resource\ProjectsLocationsDatasetsHl7V2Stores(
+        $this,
+        $this->serviceName,
+        'hl7V2Stores',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/hl7V2Stores',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'hl7V2StoreId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1/{+resource}:getIamPolicy',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'options.requestedPolicyVersion' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/hl7V2Stores',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_datasets_hl7V2Stores_messages = new CloudHealthcare\Resource\ProjectsLocationsDatasetsHl7V2StoresMessages(
+        $this,
+        $this->serviceName,
+        'messages',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/messages',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'ingest' => [
+              'path' => 'v1/{+parent}/messages:ingest',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/messages',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_datasets_operations = new CloudHealthcare\Resource\ProjectsLocationsDatasetsOperations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'cancel' => [
+              'path' => 'v1/{+name}:cancel',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+name}/operations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(CloudHealthcare::class, 'Google_Service_CloudHealthcare');

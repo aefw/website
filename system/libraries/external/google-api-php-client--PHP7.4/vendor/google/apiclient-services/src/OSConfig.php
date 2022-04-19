@@ -1,66 +1,265 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-JHYKfm==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for OSConfig (v1).
+ *
+ * <p>
+ * OS management tools that can be used for patch management, patch compliance,
+ * and configuration management on VM instances.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/compute/docs/osconfig/rest" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class OSConfig extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+
+  public $operations;
+  public $projects_patchDeployments;
+  public $projects_patchJobs;
+  public $projects_patchJobs_instanceDetails;
+
+  /**
+   * Constructs the internal representation of the OSConfig service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://osconfig.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'osconfig';
+
+    $this->operations = new OSConfig\Resource\Operations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_patchDeployments = new OSConfig\Resource\ProjectsPatchDeployments(
+        $this,
+        $this->serviceName,
+        'patchDeployments',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/patchDeployments',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'patchDeploymentId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/patchDeployments',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_patchJobs = new OSConfig\Resource\ProjectsPatchJobs(
+        $this,
+        $this->serviceName,
+        'patchJobs',
+        [
+          'methods' => [
+            'cancel' => [
+              'path' => 'v1/{+name}:cancel',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'execute' => [
+              'path' => 'v1/{+parent}/patchJobs:execute',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/patchJobs',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_patchJobs_instanceDetails = new OSConfig\Resource\ProjectsPatchJobsInstanceDetails(
+        $this,
+        $this->serviceName,
+        'instanceDetails',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/{+parent}/instanceDetails',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(OSConfig::class, 'Google_Service_OSConfig');

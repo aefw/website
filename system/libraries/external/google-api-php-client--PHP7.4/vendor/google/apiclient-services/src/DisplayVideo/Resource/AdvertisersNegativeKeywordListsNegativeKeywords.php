@@ -1,76 +1,156 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-5sd0UEgSxykgkEk4DDRwjM4nxjUkWJHDfW==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DisplayVideo\Resource;
+
+use Google\Service\DisplayVideo\BulkEditNegativeKeywordsRequest;
+use Google\Service\DisplayVideo\BulkEditNegativeKeywordsResponse;
+use Google\Service\DisplayVideo\DisplayvideoEmpty;
+use Google\Service\DisplayVideo\ListNegativeKeywordsResponse;
+use Google\Service\DisplayVideo\NegativeKeyword;
+use Google\Service\DisplayVideo\ReplaceNegativeKeywordsRequest;
+use Google\Service\DisplayVideo\ReplaceNegativeKeywordsResponse;
+
+/**
+ * The "negativeKeywords" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $displayvideoService = new Google\Service\DisplayVideo(...);
+ *   $negativeKeywords = $displayvideoService->negativeKeywords;
+ *  </code>
+ */
+class AdvertisersNegativeKeywordListsNegativeKeywords extends \Google\Service\Resource
+{
+  /**
+   * Bulk edits negative keywords in a single negative keyword list. The operation
+   * will delete the negative keywords provided in
+   * BulkEditNegativeKeywordsRequest.deleted_negative_keywords and then create the
+   * negative keywords provided in
+   * BulkEditNegativeKeywordsRequest.created_negative_keywords. This operation is
+   * guaranteed to be atomic and will never result in a partial success or partial
+   * failure. (negativeKeywords.bulkEdit)
+   *
+   * @param string $advertiserId Required. The ID of the DV360 advertiser to which
+   * the parent negative keyword list belongs.
+   * @param string $negativeKeywordListId Required. The ID of the parent negative
+   * keyword list to which the negative keywords belong.
+   * @param BulkEditNegativeKeywordsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return BulkEditNegativeKeywordsResponse
+   */
+  public function bulkEdit($advertiserId, $negativeKeywordListId, BulkEditNegativeKeywordsRequest $postBody, $optParams = [])
+  {
+    $params = ['advertiserId' => $advertiserId, 'negativeKeywordListId' => $negativeKeywordListId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('bulkEdit', [$params], BulkEditNegativeKeywordsResponse::class);
+  }
+  /**
+   * Creates a negative keyword in a negative keyword list.
+   * (negativeKeywords.create)
+   *
+   * @param string $advertiserId Required. The ID of the DV360 advertiser to which
+   * the parent negative keyword list belongs.
+   * @param string $negativeKeywordListId Required. The ID of the parent negative
+   * keyword list in which the negative keyword will be created.
+   * @param NegativeKeyword $postBody
+   * @param array $optParams Optional parameters.
+   * @return NegativeKeyword
+   */
+  public function create($advertiserId, $negativeKeywordListId, NegativeKeyword $postBody, $optParams = [])
+  {
+    $params = ['advertiserId' => $advertiserId, 'negativeKeywordListId' => $negativeKeywordListId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], NegativeKeyword::class);
+  }
+  /**
+   * Deletes a negative keyword from a negative keyword list.
+   * (negativeKeywords.delete)
+   *
+   * @param string $advertiserId Required. The ID of the DV360 advertiser to which
+   * the parent negative keyword list belongs.
+   * @param string $negativeKeywordListId Required. The ID of the parent negative
+   * keyword list to which the negative keyword belongs.
+   * @param string $keywordValue Required. The keyword value of the negative
+   * keyword to delete.
+   * @param array $optParams Optional parameters.
+   * @return DisplayvideoEmpty
+   */
+  public function delete($advertiserId, $negativeKeywordListId, $keywordValue, $optParams = [])
+  {
+    $params = ['advertiserId' => $advertiserId, 'negativeKeywordListId' => $negativeKeywordListId, 'keywordValue' => $keywordValue];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], DisplayvideoEmpty::class);
+  }
+  /**
+   * Lists negative keywords in a negative keyword list.
+   * (negativeKeywords.listAdvertisersNegativeKeywordListsNegativeKeywords)
+   *
+   * @param string $advertiserId Required. The ID of the DV360 advertiser to which
+   * the parent negative keyword list belongs.
+   * @param string $negativeKeywordListId Required. The ID of the parent negative
+   * keyword list to which the requested negative keywords belong.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Allows filtering by negative keyword fields.
+   * Supported syntax: * Filter expressions for negative keyword currently can
+   * only contain at most one * restriction. * A restriction has the form of
+   * `{field} {operator} {value}`. * The operator must be `CONTAINS (:)`. *
+   * Supported fields: - `keywordValue` Examples: * All negative keywords for
+   * which the keyword value contains "google": `keywordValue : "google"`
+   * @opt_param string orderBy Field by which to sort the list. Acceptable values
+   * are: * `keywordValue` (default) The default sorting order is ascending. To
+   * specify descending order for a field, a suffix " desc" should be added to the
+   * field name. Example: `keywordValue desc`.
+   * @opt_param int pageSize Requested page size. Must be between `1` and `1000`.
+   * If unspecified will default to `100`. Returns error code `INVALID_ARGUMENT`
+   * if an invalid value is specified.
+   * @opt_param string pageToken A token identifying a page of results the server
+   * should return. Typically, this is the value of next_page_token returned from
+   * the previous call to `ListNegativeKeywords` method. If not specified, the
+   * first page of results will be returned.
+   * @return ListNegativeKeywordsResponse
+   */
+  public function listAdvertisersNegativeKeywordListsNegativeKeywords($advertiserId, $negativeKeywordListId, $optParams = [])
+  {
+    $params = ['advertiserId' => $advertiserId, 'negativeKeywordListId' => $negativeKeywordListId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListNegativeKeywordsResponse::class);
+  }
+  /**
+   * Replaces all negative keywords in a single negative keyword list. The
+   * operation will replace the keywords in a negative keyword list with keywords
+   * provided in ReplaceNegativeKeywordsRequest.new_negative_keywords.
+   * (negativeKeywords.replace)
+   *
+   * @param string $advertiserId Required. The ID of the DV360 advertiser to which
+   * the parent negative keyword list belongs.
+   * @param string $negativeKeywordListId Required. The ID of the parent negative
+   * keyword list to which the negative keywords belong.
+   * @param ReplaceNegativeKeywordsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return ReplaceNegativeKeywordsResponse
+   */
+  public function replace($advertiserId, $negativeKeywordListId, ReplaceNegativeKeywordsRequest $postBody, $optParams = [])
+  {
+    $params = ['advertiserId' => $advertiserId, 'negativeKeywordListId' => $negativeKeywordListId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('replace', [$params], ReplaceNegativeKeywordsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AdvertisersNegativeKeywordListsNegativeKeywords::class, 'Google_Service_DisplayVideo_Resource_AdvertisersNegativeKeywordListsNegativeKeywords');

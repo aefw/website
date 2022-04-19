@@ -1,183 +1,307 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-r3PRdTrEPz44beKbQsPC63AF00tqi0GwMLq=
+<?php
+use \ParagonIE\ConstantTime\Base32;
+use \ParagonIE\ConstantTime\Base32Hex;
+use \ParagonIE\ConstantTime\Base64;
+use \ParagonIE\ConstantTime\Base64DotSlash;
+use \ParagonIE\ConstantTime\Base64DotSlashOrdered;
+use \ParagonIE\ConstantTime\Base64UrlSafe;
+use \ParagonIE\ConstantTime\Encoding;
+use \ParagonIE\ConstantTime\Hex;
+
+class EncodingTest extends PHPUnit\Framework\TestCase
+{
+    public function testBase32Encode()
+    {
+        $this->assertSame(
+            Encoding::base32Encode("\x00"),
+            'aa======'
+        );
+        $this->assertSame(
+            Encoding::base32Encode("\x00\x00"),
+            'aaaa===='
+        );
+        $this->assertSame(
+            Encoding::base32Encode("\x00\x00\x00"),
+            'aaaaa==='
+        );
+        $this->assertSame(
+            Encoding::base32Encode("\x00\x00\x00\x00"),
+            'aaaaaaa='
+        );
+        $this->assertSame(
+            Encoding::base32Encode("\x00\x00\x00\x00\x00"),
+            'aaaaaaaa'
+        );
+        $this->assertSame(
+            Encoding::base32Encode("\x00\x00\x0F\xFF\xFF"),
+            'aaaa7777'
+        );
+        $this->assertSame(
+            Encoding::base32Encode("\xFF\xFF\xF0\x00\x00"),
+            '7777aaaa'
+        );
+
+        $this->assertSame(
+            Encoding::base32Encode("\xce\x73\x9c\xe7\x39"),
+            'zzzzzzzz'
+        );
+        $this->assertSame(
+            Encoding::base32Encode("\xd6\xb5\xad\x6b\x5a"),
+            '22222222'
+        );
+        $this->assertSame(
+            Base32::encodeUpper("\x00"),
+            'AA======'
+        );
+        $this->assertSame(
+            Base32::encodeUpper("\x00\x00"),
+            'AAAA===='
+        );
+        $this->assertSame(
+            Base32::encodeUpper("\x00\x00\x00"),
+            'AAAAA==='
+        );
+        $this->assertSame(
+            Base32::encodeUpper("\x00\x00\x00\x00"),
+            'AAAAAAA='
+        );
+        $this->assertSame(
+            Base32::encodeUpper("\x00\x00\x00\x00\x00"),
+            'AAAAAAAA'
+        );
+        $this->assertSame(
+            Base32::encodeUpper("\x00\x00\x0F\xFF\xFF"),
+            'AAAA7777'
+        );
+        $this->assertSame(
+            Base32::encodeUpper("\xFF\xFF\xF0\x00\x00"),
+            '7777AAAA'
+        );
+
+        $this->assertSame(
+            Base32::encodeUpper("\xce\x73\x9c\xe7\x39"),
+            'ZZZZZZZZ'
+        );
+        $this->assertSame(
+            Base32::encodeUpper("\xd6\xb5\xad\x6b\x5a"),
+            '22222222'
+        );
+    }
+
+    public function testBase32Hex()
+    {
+        $this->assertSame(
+            Base32Hex::encode("\x00"),
+            '00======'
+        );
+        $this->assertSame(
+            Base32Hex::encode("\x00\x00"),
+            '0000===='
+        );
+        $this->assertSame(
+            Base32Hex::encode("\x00\x00\x00"),
+            '00000==='
+        );
+        $this->assertSame(
+            Base32Hex::encode("\x00\x00\x00\x00"),
+            '0000000='
+        );
+        $this->assertSame(
+            Base32Hex::encode("\x00\x00\x00\x00\x00"),
+            '00000000'
+        );
+        $this->assertSame(
+            Base32Hex::encode("\x00\x00\x0F\xFF\xFF"),
+            '0000vvvv'
+        );
+        $this->assertSame(
+            Base32Hex::encode("\xFF\xFF\xF0\x00\x00"),
+            'vvvv0000'
+        );
+
+
+    }
+
+    /**
+     * Based on test vectors from RFC 4648
+     */
+    public function testBase32Decode()
+    {
+        $this->assertSame(
+            "\x00\x00\x00\x00\x00\x00",
+            Encoding::base32Decode('aaaaaaaaaa======')
+        );
+        $this->assertSame(
+            "\x00\x00\x00\x00\x00\x00\x00",
+            Encoding::base32Decode('aaaaaaaaaaaa====')
+        );
+        $this->assertSame(
+            "\x00\x00\x00\x00\x00\x00\x00\x00",
+            Encoding::base32Decode('aaaaaaaaaaaaa===')
+        );
+        $this->assertSame(
+            "\x00\x00\x00\x00\x00\x00\x00\x00\x00",
+            Encoding::base32Decode('aaaaaaaaaaaaaaa=')
+        );
+        $this->assertSame(
+            "\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00",
+            Encoding::base32Decode('aaaaaaaaaaaaaaaa')
+        );
+        $this->assertSame(
+            "\x00",
+            Encoding::base32Decode('aa======')
+        );
+        $this->assertSame(
+            "\x00\x00",
+            Encoding::base32Decode('aaaa====')
+        );
+        $this->assertSame(
+            "\x00\x00\x00",
+            Encoding::base32Decode('aaaaa===')
+        );
+        $this->assertSame(
+            "\x00\x00\x00\x00",
+            Encoding::base32Decode('aaaaaaa=')
+        );
+        $this->assertSame(
+            "\x00\x00\x00\x00\x00",
+            Encoding::base32Decode('aaaaaaaa')
+        );
+        $this->assertSame(
+            "\x00\x00\x0F\xFF\xFF",
+            Encoding::base32Decode('aaaa7777')
+        );
+        $this->assertSame(
+            "\xFF\xFF\xF0\x00\x00",
+            Encoding::base32Decode('7777aaaa')
+        );
+        $this->assertSame(
+            "\xce\x73\x9c\xe7\x39",
+            Encoding::base32Decode('zzzzzzzz')
+        );
+        $this->assertSame(
+            "\xd6\xb5\xad\x6b\x5a",
+            Encoding::base32Decode('22222222')
+        );
+        $this->assertSame(
+            'foobar',
+            Encoding::base32Decode('mzxw6ytboi======')
+        );
+
+        $rand = random_bytes(9);
+        $enc = Encoding::base32Encode($rand);
+
+        $this->assertSame(
+            Encoding::base32Encode($rand),
+            Encoding::base32Encode(Encoding::base32Decode($enc))
+        );
+        $this->assertSame(
+            $rand,
+            Encoding::base32Decode($enc)
+        );
+    }
+
+    /**
+     * @covers Encoding::hexDecode()
+     * @covers Encoding::hexEncode()
+     * @covers Encoding::base32Decode()
+     * @covers Encoding::base32Encode()
+     * @covers Encoding::base64Decode()
+     * @covers Encoding::base64Encode()
+     * @covers Encoding::base64DotSlashDecode()
+     * @covers Encoding::base64DotSlashEncode()
+     * @covers Encoding::base64DotSlashOrderedDecode()
+     * @covers Encoding::base64DotSlashOrderedEncode()
+     */
+    public function testBasicEncoding()
+    {
+        // Re-run the test at least 3 times for each length
+        for ($j = 0; $j < 3; ++$j) {
+            for ($i = 1; $i < 84; ++$i) {
+                $rand = random_bytes($i);
+                $enc = Encoding::hexEncode($rand);
+                $this->assertSame(
+                    \bin2hex($rand),
+                    $enc,
+                    "Hex Encoding - Length: " . $i
+                );
+                $this->assertSame(
+                    $rand,
+                    Encoding::hexDecode($enc),
+                    "Hex Encoding - Length: " . $i
+                );
+
+                // Uppercase variant:
+                $enc = Hex::encodeUpper($rand);
+                $this->assertSame(
+                    \strtoupper(\bin2hex($rand)),
+                    $enc,
+                    "Hex Encoding - Length: " . $i
+                );
+                $this->assertSame(
+                    $rand,
+                    Hex::decode($enc),
+                    "HexUpper Encoding - Length: " . $i
+                );
+
+                $enc = Encoding::base32Encode($rand);
+                $this->assertSame(
+                    $rand,
+                    Encoding::base32Decode($enc),
+                    "Base32 Encoding - Length: " . $i
+                );
+
+                $enc = Encoding::base32EncodeUpper($rand);
+                $this->assertSame(
+                    $rand,
+                    Encoding::base32DecodeUpper($enc),
+                    "Base32Upper Encoding - Length: " . $i
+                );
+
+                $enc = Encoding::base32HexEncode($rand);
+                $this->assertSame(
+                    bin2hex($rand),
+                    bin2hex(Encoding::base32HexDecode($enc)),
+                    "Base32Hex Encoding - Length: " . $i
+                );
+
+                $enc = Encoding::base32HexEncodeUpper($rand);
+                $this->assertSame(
+                    bin2hex($rand),
+                    bin2hex(Encoding::base32HexDecodeUpper($enc)),
+                    "Base32HexUpper Encoding - Length: " . $i
+                );
+
+                $enc = Encoding::base64Encode($rand);
+                $this->assertSame(
+                    $rand,
+                    Encoding::base64Decode($enc),
+                    "Base64 Encoding - Length: " . $i
+                );
+
+                $enc = Encoding::base64EncodeDotSlash($rand);
+                $this->assertSame(
+                    $rand,
+                    Encoding::base64DecodeDotSlash($enc),
+                    "Base64 DotSlash Encoding - Length: " . $i
+                );
+                $enc = Encoding::base64EncodeDotSlashOrdered($rand);
+                $this->assertSame(
+                    $rand,
+                    Encoding::base64DecodeDotSlashOrdered($enc),
+                    "Base64 Ordered DotSlash Encoding - Length: " . $i
+                );
+
+                $enc = Base64UrlSafe::encode($rand);
+                $this->assertSame(
+                    \strtr(\base64_encode($rand), '+/', '-_'),
+                    $enc
+                );
+                $this->assertSame(
+                    $rand,
+                    Base64UrlSafe::decode($enc)
+                );
+            }
+        }
+    }
+}

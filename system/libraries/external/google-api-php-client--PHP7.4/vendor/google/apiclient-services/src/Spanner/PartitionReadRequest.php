@@ -1,65 +1,102 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-7CkryQHQI5XriuJp3iC=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Spanner;
+
+class PartitionReadRequest extends \Google\Collection
+{
+  protected $collection_key = 'columns';
+  public $columns;
+  public $index;
+  protected $keySetType = KeySet::class;
+  protected $keySetDataType = '';
+  protected $partitionOptionsType = PartitionOptions::class;
+  protected $partitionOptionsDataType = '';
+  public $table;
+  protected $transactionType = TransactionSelector::class;
+  protected $transactionDataType = '';
+
+  public function setColumns($columns)
+  {
+    $this->columns = $columns;
+  }
+  public function getColumns()
+  {
+    return $this->columns;
+  }
+  public function setIndex($index)
+  {
+    $this->index = $index;
+  }
+  public function getIndex()
+  {
+    return $this->index;
+  }
+  /**
+   * @param KeySet
+   */
+  public function setKeySet(KeySet $keySet)
+  {
+    $this->keySet = $keySet;
+  }
+  /**
+   * @return KeySet
+   */
+  public function getKeySet()
+  {
+    return $this->keySet;
+  }
+  /**
+   * @param PartitionOptions
+   */
+  public function setPartitionOptions(PartitionOptions $partitionOptions)
+  {
+    $this->partitionOptions = $partitionOptions;
+  }
+  /**
+   * @return PartitionOptions
+   */
+  public function getPartitionOptions()
+  {
+    return $this->partitionOptions;
+  }
+  public function setTable($table)
+  {
+    $this->table = $table;
+  }
+  public function getTable()
+  {
+    return $this->table;
+  }
+  /**
+   * @param TransactionSelector
+   */
+  public function setTransaction(TransactionSelector $transaction)
+  {
+    $this->transaction = $transaction;
+  }
+  /**
+   * @return TransactionSelector
+   */
+  public function getTransaction()
+  {
+    return $this->transaction;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PartitionReadRequest::class, 'Google_Service_Spanner_PartitionReadRequest');

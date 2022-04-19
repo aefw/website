@@ -1,99 +1,161 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPxmiibKKfGQQaUadTeInEtCqggrWF++zhyKDVD54D+eNfxi04RJGIwowJIc8kbrc+4qMcFXm
-Fe2WlLdea2mG2wy89qQuYICrRb1vJzodtxwg9oS4Li+GwnBMz+MszyvMFo/FAngI4mMYHczBZ19b
-O7YyVQYC36BmyxME1ZQhHsSHKNa/jek+gxfBB8ME4pWIztGa1az1BxRYugdJ4TTq9dptlbeEAkBO
-L/U4XjCE+leQ85lSmy7X9gxYCY3OhsOrvAqa5CeriyUhwCPAtYfGtJNWNFZYS5CkDLI4g2o1fZvA
-1ULLzsrIGhEy8W1qBCG7YDJ1gH3/6d0PggSxDFV7SfzHWoBUKfVmWs/zu6feS7zAO6DA95C8gGse
-YzunHBdzvPVWNeCsiY8WcV/bwtPnJuO5gcT9LvQVps7d2tlwwrHaZHCWhM3AoARg4gCPGvM/yvGx
-olJ/Q4vtlHuBTTR+YiwdZj6GBwKhybLr9+Wju2xFfL+y656BoKLSmgt64Ad23ANRdelvyQ3Hq11W
-fF8Z90xQk59URDZtfnGa3How1rxivz9OjLkD53RYB4bfJh/Lkg1AAndqozp8kyWUyTRG/v5y0fWW
-lZrso0jdxKnu4lWuKc04uW4WfT61VaIGLm96Cm5mN+9T+JcsZGFBJ2fjjX82SNn3LgF76SsKNjDP
-uu086glcbYBIQZEQbpZdViVzSx6qj6IT+hteLSLTzCjpL7Iiv2u/ZvaI+CD9vMVR7R7dus3r7XIr
-S1PTZ2Lv8OMWtgAsCdxvpn2nemtFGoS/NkxnV1W46qfPBgt5qQVTd2fNsc6jRQ4QR+vktSekhV3u
-8M1AMx+O/rb7eKaeQViolm1ulvm98mok6L2NJkJ71f/2PgcF9JkqLo5Dbk8rE0K/eaFr9OR2r2TL
-SAE9ZgufoKrvHUhZK+t/YiWsRvO3hBKpAXVdgMwPry5E+1jmMFMr5RGNS8xMbV9B8jignjCAR0uo
-p+YAn4CXq+THRCv4KjkrsVCscYxjZJ5H/KOTA9o2VS/OY2NLjOxdaLhJfmPGnsQ3lGuv7ToX+utI
-lDt9IAnryAAdv7+Tpp7MNlwReMOep/7a2Uv/iYDan8FVhBMo+DpOOZ4SfzqfnTk8Khke67szSQde
-+H3fJJgs6QIiIDxmflOEHPf3wrRsOdNKQML0X5VKCPa8DMFglgbY41f6qCnFt6+b7T2SuDUytlHz
-sgRqRREr1fufEL7LKsdJpw+MwrNUironLUTt8remIrgj/PHi7qG/4NauQQG0HsShNitWE2Wcu/mL
-HlwUfKd6IMtwXnuTe8gX32l5+R/fIP79E3YqqgI5Ljfm/1Uzca6fow/HcBw7sGVQ5BifKieiXben
-K2t/EGpkV5cJmxEmZi60KLtwedwFZXDwZr+OUcB8+oyQfWl42qYUk56uGlIkku+nSoQxcRx7bSi+
-rG+pNEOj9MXIgqz9Rl2pOgoFQl+ERVIi70hj1g+SEXU8hEE4/5xMKZgnzdB6MQt9LG1sKLcce9Mo
-hZVUiKy6h3tqKXhD1u3FUDWG05c13XVjTQV67wz0G5Ymh/ML33vf5v5/yxeE1lt4fdF7FVjLK5v3
-hL0VCgVsKh40jrB8ulUdwPHEmgGPPEuLzG6EaP2gPyyUkfhuDdhUa2tOU5JxXv7C87gifGNbCoQp
-UdogJB0mg9d5Jb89XITs3C4zEpR86EtS3ClnLJYBSmBxC9C9GcOU9CwQCbaadaU7ASLRYcZfx4ZM
-eqh8QfHuZ8mG+QiKV8wq9tTypLmpPFQuBfpM9ZL8gj9FsXDWI6o2Gg6JSHzRfDQi1DY/5u+mYd9n
-J+yDpr99MjfjwQBzv/h0NvsoSS1LDYiEzps2dZywJRws9cgUQQwQWuyTiigZVkmvtEMO3PZlW563
-XQKq/4xGnJ8rHY5UmEXi5T211clqy6hUrxZCCH7nWf+ZQHR6M16Q7y3uxRjO69gfT/XE9rSj61cb
-YO0HGznOb8GGqvlD/uruJY43kTzyu6HjvLeCfa6E6OnmyznezJtgoCTT1qPRtgRAbORBGkgA9Euk
-cRFpB0ezlsJ3QaYVDk8mXFKc3jUMyDpCvA/rHsRMOGyLopB5cHsLyojCi+hFMvsSc09CETRGbW7u
-4zZLxLpgysoZ9VBJNlNs/VW/SLYQ/jxX7uKu8fZthhuVf5FJVGng/eOQRGtD7ndjPpXQO7Nc3D6p
-wtt6ZJhBrT2Kk5AnAcgv2trCEP1Jftvht4l5Z4w1evVFLP2cIJfLvLz2Qdm9yANBdRwxRLxXzPEC
-wL0ZHCxYCfz1BtnAbb5Iw56UwXPwiGAOv4WIqIJ0p86VT2SVww3HYSqJFsMBnUFxRyQ1qIwDSaQC
-43KrQoAZwCf2SqAa/0t7I0Z2nr+3fF8d6nVpmmx7UUzZqdjxgYfyb+0klEumbIjyJ2Pe38ubnLic
-I3HoZGt7m39KUyNyDqqiKn4ab2fR9teE8FcW9jAzZKHna5EZg7Uhv49kmLmvO9mm5gCg9grGhWqs
-htPzS0cFHtMyIkOmGbaOTxZygczknYrfjxttCkvT7EFkE6WWzXHrrbs6A6EMi4VP8l3cqh6oAbmD
-S7zflFmPDDaB/yJTJDzdBP9057dxYV/Ni3tyolfL/WwWl7P0aR5lo+OBfVEsFn9C5z69MZPPT9Ez
-ptFp4qZdW1ZG7Xj9osxwYClk82ZFfnNktGjEz4kuDFBog//mICgF0kAmHYJckbsmUWaEKSnsZRwz
-YO8GUN27LyC3lay0tjSYMlI383MYYMuJURwABpOtvgRdEYE00crsiRnD+zUe6wv1cafX/d4hb+TV
-l3WOuHyKabLcN+6gozpt6Tx4GWvONN306JYgNr9O4//vpP98kmujWhcfCmCPnZ4+qVeIMt1LciNz
-WUJEWC6xKV5IZqyt8N4DvBL48hmuuc3qCOh1GOVFDTgqYqlZs5HRirei9vsFdxFd33Ex3uJz6OOW
-uA7b56K4d4yu69Yv8wOWwz8sje8uywJxXpTRBqfYSyt+e7os8DPToSVNzorgcVWmG6EnfdAgvZJ2
-1V5+68mWolks+ZBl9rmA1+1+p1u0YF5WLvGoeG2aVY0fDvvGSzrxW3OWJihDGx8cQSfYXRzZI7jw
-/pklhkwEn48tLjEaX9xLOnTAnUpvBxNqWFS7XfJWfboVPrsRL5VKI7qNU+k+qaOj3EaPIqASipie
-Ftaoh+75wGBWuikUQqm63IYo+QMJOGs2IPCaLzuPvCxLngGpilUzGYtuYP5GiGeNHphUGmHI079S
-N65RJv+HDiNXuKiUUORX5cBwV0ijY3hhcjYR7xVnLDnJFdGMuQFec2/7aSlpu2pmAHJma2xMhoA8
-iX37i1PDxbxMxjXM6bJEuQyxntF9ZtgiYX8HdgZHgA6pbs1c5p5L56VSxli4L9yZxhcIJG+Flgmd
-9A11TOFcJhKZ7oVN6D1MzwYz7XZ8Y78kqwjz37kH5xi12JTrhYpGak+Sa0dI6TrUwbt2CXUPYEM5
-MawpzdQXDfIxRpeXQMsXkCgym+UHb7DLj/BoopJ71jZdtGC096/GVIE9qQrob3Tky7wOsA439dy+
-EZrwVwegG9LP1rHFBcfttY3c68fPfIin87f/WulmT2oEJUO7M7+mQJF55yWKDYz8enP/0Dvg1qvc
-pflGzPkqNIki1jydMH4n2hO3ZISVRAKmP9ZuQQue9vobowW2/9/2C1jZ+uP+82wFRL1xdQi9GOLi
-WR33taJUg7m0h7xQrf/Y8tLLDRNwm+aBeG8l5XI0jBBkPVI0uXulSOYeWLsV7+XcBsdogqA10WCJ
-ltqOxuFEElzg3+7HUFvgZ7KdKQ2PS2xt/iZKRkgenMNHp0qpajUxldHYNHfkqUVLFReVtNJnp+CY
-IaxOV1pusMRONghPHlrOf6IYZK/S3KpMcWzKJI+ObPMqOCVC897qL3HpbtiwRM/QlyxjnIml5Ehb
-nC7z+Mt1lKzX9C56zIQk2ah2888OW5OENJC45O27HlfKEc+VhYC3cBNctiyoSsKwO25tELNDW0Qh
-CQJKW6LzhYqV3lx6pjKVICxU8wdAXdDEKgXUipLPhti3ln/jvHuWZ86h3463hel95H9z0NTAjR/n
-yVAzQDdReO0FMK++bb+I3PRsOMFQfXruRw8Yz5VmRg9OJjPxzgzSqFFSX7xRlNwZWhDWPBV+bsVR
-0W24cHjuktQQSkrPLuUaJ1PDzXWe88h7I8nYq+cAmFrHTi1IzFBq8k/8uYgvTjHwE5Ooxxi32cPD
-o0KjRDOc/Z+E1NkWlqj4C1kaUfOa8AxK8TuU358tgcdePWP7Nupxu2ApgxACtydQmvWePdjVPP73
-l2L5bvBWgkj2UuZLvKEF8MON4QKwMsc5l9+KI1JRoJMZwvyMJH2ntu4AZVI6QeFNdDh59tfVC55G
-1JDV4Fon4X6IYoWDoOP3V5CPcTnuTaIdGL5CBFMV8f/utrcXdDjzmrVlhLD8O/NMYJEY1egvafjY
-NGYTPB6tCqvOE1J/yKvxo7sul1aqvM7HKj9hq7ROYYXFbA+0r4gD4iDbleIGrTJWQpH6/yUnNTaw
-18YwMYTBwYmMxysJbgfZqb932yhOEYrEkOoP9tP7MxzOGNMzuAYRbUW0O14mgJr9WiJegvkdRbGx
-WtQSzh2I0aea7/OYUvnwVVt8LF5OHR+fSy6B8OfBnlcgEmuKC5r0ZyQxT9S4PPUs+5AWPR/BEmO+
-RZekXJb9n5sZEzLlNEQ/R2iKX8A+CEmWlmCWnj3h1mOSQ2IacISuWmYd22z5HxTCKXoKRipWdFeS
-17SxV8SUwmnCoij81HJA0B5ytd2d6zUcnnbYXCtzQkne7cgm1PBUQVyejOpuTfAZeHAcTBd3lZOV
-RkiIaieSZSfUKbWSi1jDN4VxtI4P/qmDfDmIvBfVeb2lT4dX8eiog4Ew+XvnYNrgMsE0BCkTFazc
-ImpXiEeYP4MuhixQlG7ydEbNHryW6EhvXiHUpRJ/hS2ZU2JNKp+ySBgCPNAhf7RDcaYjug7gDLcz
-qkPekkze7k++/vSoNs4q8pZfuACJUXZSArrBACabeleLzznjiz1efVIEcD6oJg4t86D35wKnz4OL
-HqzHmFMHxzZfEx7yAs/kNRXrMRWb4LdmQNabhnwi6kVQU+VfdlEFU6hxRW9W3Boh+JMlKvHxcEcK
-n20MtIVXbESM3ZzY/n8YMi2gOb7y8dTLvazKSvifyAIJ5Gj3qaa6KT3VKkmA/N22H8LC03qSAu6Z
-WqcbzthljF9w/U/TSvqRJ2Pc6A1mK+SGCf0TndXnqe8jIuQT0X6VgTSkjee0YXQa/QntRoIrfjR0
-y1A7VVgvD/4AVkg+iprndC/23G/n+3MSpb2V51uSvlHVVXb6gOwd1shFfxZqZPL6MCKaVxKe4ZA7
-Y/xeNMLeH96J5gXi5hRQ8CjI8JtHduyBFRAvL7LJNnpn1M1ZfuoQnDV+hsj0QwlQztgAszHyfA2n
-S9Js5iKh9SXaCUaUxu6WxP7Sy2E719YAdhIuu+zioXoFUuoVqRAb+L2PPxER0mXh77FXe6usO4Ul
-jEsftNQYAL0rulUqij6+uRV453qkbulFeotseIzm+JNvW7Mkb4gGU/gK5Vgz6x3dY5yOaP7HoJ8l
-wER1jRm/k52APH6u4qqR7sNz1CdMQOapoaJOdB5KIRuAaApe2kGVc0qbhq+RFOEcFs/t1aOhCrCX
-Yx4uo0vxGFnIu8LUbix4pX4ltgD8sYosa9449QFfYPzaGTWLfEfbcdJtkh+gH9t06iCcD/UCz/ZQ
-Zmib0xlCkDg4Ipu/IFrKc/T2JFT39+/wsWl0NoPc0eu72kXdf/F7BaW57H0HYmWO4atUUHTRcHDS
-nf+q+nClL8vuP2wT9PKTtAfrN/zwMf3mwEABKjpmDwetGgh2XOVXOvaYO6OellU7aeQwjoZDyI7F
-Lwsdv3O/TljMBS1pFVDBoNvWnjqmkmjg62p7djuIl6qxUdIvvz5OfO7BUWVRF/vNnO9lX2wBMXcj
-d7zHSBbQ/yFMMF7WOd7S23Jr1IiXl8ZLAFxAh2hs/WLIGl9Y7gCzpbUenTStxaWHGpkQscd330t6
-z221zEbOoBirDbaqGqtPbLVh7+MxwVpiAuwGePKxah3+5l+YfajjOTneKvFD0xkSv5SFvbXfvBW1
-kfjAznoZ7BHT4x5kWa3+bAIZsDgsVQZIREut6+sN8eZRwvAQaEIrH6evevYLp2zz/xgfU/q65P5L
-eNBEXivrNZD8U5KXfzCLs1+MCnT34koOoVuJJIRo7oMfYzI9hcpF1s9SxnNk8sUt9KQ9ErHC2Fgw
-9Zs2pGODqQBG+wVMSSbvmo1sFUOle4PIYrVu2bqq4CGDQl/6+63wJDaFCWbgTDAkupuIJAw1+Ywu
-IyldkuuWLf1pULConh/A+RxwtYsYUllDMTvqZ7F6p3zADZr2E21Di7+Qa53363ekEUM4D2zDjPlM
-zV6C5qpl5x6dQMpR2Uo7aS6Ivui/jB51PjNK1w9ey340vUbegEpCpy4WXi6Z1nyvWEUbT/I4P4I8
-l7OQGi/3yiBeZWh3NYzEuR/6r1mpTHOCf5Ow/cLSeDoUVHfWmduNp+S5oESAyFsRyrhIhfiYOHYU
-vL4qpOgLS4ol6A6sxAkCd6ypomE506wHxG1UPFK8rc16/hj5IXFo3u8sZ5PL6ONHyfy9NLuixaRR
-u9CbM/Ut6ibkw92g0yOeba8dSNC/bzWuSFK/3B1WzCslBZYy5NGj0YLSR0VzNBQ3eoCrATpEl0hQ
-qhqSqffoNQN8TWrAW0YS3lXdYEXRXuGTyblF7/0tAs4qbK9NsDAxzAGgqbmb4hvbyKHc4jzAnZIJ
-uIx4rBI0/RMwMqvtnNZ8+0a+ISE4yY04aLnmv1C9MuFtc6CI3Zf32JJXnna5oUYgmpAMEZaZy9xp
-qFL+mrwIhWg/hGRq6/jhwydX7LphZLq2hHOdx2CjPvFAsYSwyQUy6VshzreAcSG6wWEz2b6oXE0t
-pm==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dataproc;
+
+class KerberosConfig extends \Google\Model
+{
+  public $crossRealmTrustAdminServer;
+  public $crossRealmTrustKdc;
+  public $crossRealmTrustRealm;
+  public $crossRealmTrustSharedPasswordUri;
+  public $enableKerberos;
+  public $kdcDbKeyUri;
+  public $keyPasswordUri;
+  public $keystorePasswordUri;
+  public $keystoreUri;
+  public $kmsKeyUri;
+  public $realm;
+  public $rootPrincipalPasswordUri;
+  public $tgtLifetimeHours;
+  public $truststorePasswordUri;
+  public $truststoreUri;
+
+  public function setCrossRealmTrustAdminServer($crossRealmTrustAdminServer)
+  {
+    $this->crossRealmTrustAdminServer = $crossRealmTrustAdminServer;
+  }
+  public function getCrossRealmTrustAdminServer()
+  {
+    return $this->crossRealmTrustAdminServer;
+  }
+  public function setCrossRealmTrustKdc($crossRealmTrustKdc)
+  {
+    $this->crossRealmTrustKdc = $crossRealmTrustKdc;
+  }
+  public function getCrossRealmTrustKdc()
+  {
+    return $this->crossRealmTrustKdc;
+  }
+  public function setCrossRealmTrustRealm($crossRealmTrustRealm)
+  {
+    $this->crossRealmTrustRealm = $crossRealmTrustRealm;
+  }
+  public function getCrossRealmTrustRealm()
+  {
+    return $this->crossRealmTrustRealm;
+  }
+  public function setCrossRealmTrustSharedPasswordUri($crossRealmTrustSharedPasswordUri)
+  {
+    $this->crossRealmTrustSharedPasswordUri = $crossRealmTrustSharedPasswordUri;
+  }
+  public function getCrossRealmTrustSharedPasswordUri()
+  {
+    return $this->crossRealmTrustSharedPasswordUri;
+  }
+  public function setEnableKerberos($enableKerberos)
+  {
+    $this->enableKerberos = $enableKerberos;
+  }
+  public function getEnableKerberos()
+  {
+    return $this->enableKerberos;
+  }
+  public function setKdcDbKeyUri($kdcDbKeyUri)
+  {
+    $this->kdcDbKeyUri = $kdcDbKeyUri;
+  }
+  public function getKdcDbKeyUri()
+  {
+    return $this->kdcDbKeyUri;
+  }
+  public function setKeyPasswordUri($keyPasswordUri)
+  {
+    $this->keyPasswordUri = $keyPasswordUri;
+  }
+  public function getKeyPasswordUri()
+  {
+    return $this->keyPasswordUri;
+  }
+  public function setKeystorePasswordUri($keystorePasswordUri)
+  {
+    $this->keystorePasswordUri = $keystorePasswordUri;
+  }
+  public function getKeystorePasswordUri()
+  {
+    return $this->keystorePasswordUri;
+  }
+  public function setKeystoreUri($keystoreUri)
+  {
+    $this->keystoreUri = $keystoreUri;
+  }
+  public function getKeystoreUri()
+  {
+    return $this->keystoreUri;
+  }
+  public function setKmsKeyUri($kmsKeyUri)
+  {
+    $this->kmsKeyUri = $kmsKeyUri;
+  }
+  public function getKmsKeyUri()
+  {
+    return $this->kmsKeyUri;
+  }
+  public function setRealm($realm)
+  {
+    $this->realm = $realm;
+  }
+  public function getRealm()
+  {
+    return $this->realm;
+  }
+  public function setRootPrincipalPasswordUri($rootPrincipalPasswordUri)
+  {
+    $this->rootPrincipalPasswordUri = $rootPrincipalPasswordUri;
+  }
+  public function getRootPrincipalPasswordUri()
+  {
+    return $this->rootPrincipalPasswordUri;
+  }
+  public function setTgtLifetimeHours($tgtLifetimeHours)
+  {
+    $this->tgtLifetimeHours = $tgtLifetimeHours;
+  }
+  public function getTgtLifetimeHours()
+  {
+    return $this->tgtLifetimeHours;
+  }
+  public function setTruststorePasswordUri($truststorePasswordUri)
+  {
+    $this->truststorePasswordUri = $truststorePasswordUri;
+  }
+  public function getTruststorePasswordUri()
+  {
+    return $this->truststorePasswordUri;
+  }
+  public function setTruststoreUri($truststoreUri)
+  {
+    $this->truststoreUri = $truststoreUri;
+  }
+  public function getTruststoreUri()
+  {
+    return $this->truststoreUri;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(KerberosConfig::class, 'Google_Service_Dataproc_KerberosConfig');

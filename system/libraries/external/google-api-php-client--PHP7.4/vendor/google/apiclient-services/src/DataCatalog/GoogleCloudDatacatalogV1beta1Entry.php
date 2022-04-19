@@ -1,102 +1,194 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPtn+poXiwZCF6RXQ2qGj670r55bzGaWSm+kCdzcw0WCq//6vR7lFQ8mBuiBNBTQAeXh2przS
-FOt5gIHqccuLWg1t5RTdghxnLR18clby/uyndhV1hNvennBnG4YxwP/glBEb/Xuzt3tHpMg39xRG
-E5cBpYL2UcsFVaYB48FseruqT0YSfdH7/dx/q/+lQeIXEflXFgobKrBZ+UlWNrgmzk9VwvEqcEpt
-1VzWwdOmW3NlkiOsthO8uPGF8DPnSh9rpJbOH8u/w16FNWo2yofL/APsDiWQud1JBZLKXAWiWQO+
-IWNbLG5sTZG6mKKazEbdD8ZK+Hu//xlrU9k0nGIDHEylP7FoNMVJHpXggRh1TFeE3K6x40nuJ6NG
-6Te/rLurT6joV85/vH7Nxeuv43303khRKORsuL1F24+/10vqCI9KrnIB/mvp9m01fdGHs4gRDIUS
-fDUuzoEM5pad3zTyjRTWWU49shncGzkhZf99qSvIJYUe9lLi51/xura4bj59AyvtdtcVggcGlEeH
-aRrIFJ59qjHgiUAmYCdqgV+98bO5o+yBBe8doW7S52Eeu/7bjE0QjPuba3PPmXc5GQwAzJbcsAyz
-wJZbDiKtCgHvVJswaavUyVLDxWr75bj8vX0/+o3T9yP9keek1BNcYcW4mID+OrzmWq2WemT21jlS
-21Xegu+Slz6qZlfLFwM7KMd6l/8/1D2DLO19AxDJwmoHo9Fk9OfTBTHYonyXaXFx2/2SLhL7MUCP
-4ycb6SwVyRedpCJgUiBEv9rSwYnFZv8XIVi0IC8Xkv2OoH4i/HvZPFGkKyPrzXfY0ZXTXky18IT4
-hmRNL8vy2M4wGt7r+4hwAKo8Ngz3nhGxI+gr+lUrh8HXuvoWbp9yfe15D5uECR0QxO0oFvAtFP8V
-6UUvC9hL1qNA+IV43+GEi2PrAMJZZEl3RXowhT4VIzDHADX/6nbbua3qzu9ATD3/1xiHITOIjIN+
-iFPxk7vF/305liNqtxf2z6hL0O+nnO1sMlyhD8VenQ9K0ympQrBujihDci6QHiXgVsovVUbxf/0Z
-4uapgDdfmNe8kQWXrIf++BvOgsx1Lp7RaA7A4yeRsj9DV7aF3mXhZIr0fTHPs1Pd34nIKH8u/k0c
-m836SkIlndRGfGqsHAW4ft4XAfzCV09qadTzIQe1azsgP0Z/QRhiqLxGW8MOnlIO1PtyYSBHseeW
-GJv36LMVWQZv5RaDe2mJlA20M/Fz4V72TDuE6DNAr1JCdqbfBpGgVmt8DGgPXC9TgRsKLFQ+ZBFJ
-pLIdG0TCMQ11vaTak0DINwbwGXemuY4K/3U74/vc8grJSQuX14ob0ZwFhNKb+9B/s2py5E9tEprV
-930EXSA4n3URLo2/dQHKuQWufx3LYk2krDAoiNuCr6hdnjHvO9phuthhnhvWT5yFgwMmMsHfeZuf
-E05jcBu2mbzxEzEgsfsyHli9TQ6MXk4ZsnsjvChqV98weM5lq4J+eprciLuF8oKaJQ4LHeohAGei
-YLLwmTb1w0YKY8DDFpBagBwtnRgLHu5atsQKMRi0ogD9ym2krtWWh1lCdQV6jGiz2iCIr2PY4DBn
-0V7fYZEmDvG4/9KgvTJWfqheGdQKDKPfxITCAEcZEDISL9Kt13rsNie7PK+rk3dCKcKQ4KLIsdgC
-htbLNoOuEif1u5Ney1sxq6r+9o4MjpP4mePFWF1nHty0s+vYS+4L/7KLsPsi1aKOsSBc3XHPrs7P
-h1NWevlXeJA72sS3uwbQyfufEpASRAXp09DmcVTJId4Z4aMpLHIfeK7jNI+o9qi8bkSJ3TD9PyJw
-YqfF/mke+wscl6pBfcy5zzXHQSCYlRBLzgmGFdvKMf/pkZDAILT+xAdyFU/yXvnQVmi4RazU8iRU
-/hpqOQICKoc/fEdFkw9cCKhErYxhbH1m4s0oBpVn+X3DGcC8FzaJf5bmmCtNgwnjOPW2MJGw7BWH
-QsDr/t3niGK/XHr45xmmzAAIMKUXUH9YCYncs7SlDdJW879tXUP7bFdpbcOJ65ZIKQpMA+siefr/
-YNi24JeLC/U90EHqhxv3K+RnhqqPqrBsrtnMW0+2j9+sd2fFYUoD1eWVi5n3KhsC2MV4RtabD77E
-i9KY4r3iofrH9L5Ug8Pwvd9vz9NsK7bjXnKZx2htQenGGY8XlKGuFRN1J2rjy2MI5buAI+Bf1li4
-UqHmwWhSUqlT212CbTEDf29n2n4FPRkRqfdFTvE+EtWlr3zubbUmhhlEhZVFfLsfpQc2BFiRC1tR
-vNKhQjmEPTVGy/GM4Nac6tZtEMe+kOtLnAD3ed0LXhLKrXFadscQOyC44XZc//pectZGfGjLbgfL
-qvDMGIfDpwG+jwBnCuCVStxze7gHOKZT2J2ELHA8Je+ljMBpm+MRJ0i1T0J/ZYnrD5WCk2L33ooP
-1Kp/xmICCAoLK60FU65uuKsU3QYSYwHmAmprOZTLxYxY8t+UeGKxxm00AYHySBfQLiYevblhqG6C
-hy6s1FTkKpsPMODTjYxZI5t9DG2ytn3kIOG+GCLg6wHi9uOsLSfiPUJ/ycuB4zKUiLvAzJacoUcF
-GryKUvcjf23uXyy6lPy25+/9n9did8O87C5CnSTMwynDAXzrSP7vxc/0g3ainHQCcjYe+ZbbC2F6
-PT+Bj4tWfzZhOjcGDIp2fNnaJu8YJOvnXP1BSr6iR86ezFQPmwseasCdMXsRquHjHxCXLoi500zo
-pUFrIPNswNTdEI5ZwSikQLwMX7y1gyuHnHV2NnaOL7OG02mp8mn1ulFv+O7EV5DRUQ1BFPvskWuK
-N5aAkjF4HPDWXm2uOP6HKjxmzCUjYQOsMnUWhpvjAfZYXz2wxrGt8SSBj68+MWXeu++PKTTaYIXp
-eELIuMRZBzJna2aBkQt/4THw1U3NROEYfYmZMzOp7BCzu3V73MCNGHwNVndoIMfTi1w2vrwd5K6A
-XbM+3bejTBFMEdQsOOdRwlXrzmiI7F3ZGYNinqZcpDSPKgW4UIl4XLM1t9UFezlQSC9ExhRdbjOQ
-WrxOoHws2omcXdPOnx6DTTyL9JWrWSU9YSauq9dfu0EYINScmbwLretoAhrf+vyO9N3lA3680XL5
-JvIsJ0aIRQ0pbGW++m3d1x1zPdhATlZEhSaK/jQOBKx4uKve3OoZ4Pjw6K966fRKKr92mB6FRz8p
-83iEYiDVjjfIfZ1EzRD2O7DcE9rsleWTZLCKZowmxlV/X29dvpyGP0Yj3A96KhIA7gXm90BNiFlc
-x7VxjV8fVls0CYsUzQAdk/4XUYkFRj/FuA6cHl3NhofpWQv/s5gSXs0s+LetW5sNL9f0tzUi+IKG
-UqwVJR/mMuZ9CPRiah9WI3G5XI7nQIh2f6Tx9TzjWbb+wXh5tsxkyVUunNer1tHy4YmcK6AU6Cqd
-k8wzOHJ9nUbrk0laVzemuFlFN3zGcXmbm3//3aR1jFFapkeH/cWjaV8bMuihi1R/vEEQRViSDGB5
-HzyaW0aSLoLMGScYNEXqMRBOkBSWUSUNOZcFXmWV0VrJ8Zji2v24HMw+35kN80AvxVIfALBVq/wu
-5aOuiTJptOW85Jk1Q9Au/lm1FW6ZMkQdHwxhPFyRyfrFYPdbNf5FEy6gjlNM7382gQa2aQ8f4gEH
-zCs4U9GKUufQAd9DMB5LszlJmpjZHjHzWWXvuh314uq3Chsz4xhkksCl3VPcgf98ELGAcq1Fp31B
-cb/YbylkpkoZKXz2M1pbsAJICvG/cJ0hG5QEeQJCiN1R/w1HiXisUaCvuz1rhjbQ4u3Ukh20VrkQ
-rJMo1YFXLMU+Y2R4D9M3et/FEuP6UjYfEvV+DJ5BLMubEPwN9b9AMl94J7G47c2boNJGOoKpRPME
-/SGcBokr9I83c/LmXPK89GFyGbGENBkiS6LuZpdjdPK4d/41eyufrlspBGmPflCTiYQM7nwda0U6
-CamXmIKWV2dMQme2coHWACF1cAt3twaMMhQd2hpeiCFAEeLgQ1OxwM/u3SKDcY28eVSRX4cmSQOG
-+Q/ymnLrJQlafKnfEaxZKyU5hMCojgwchpWJJsoIJkSqiKS0Y0MIEh+uIfMY205drCNibGtPAJ87
-7vr4Sas1wHL6FLtTICTn00S5eS4R+0ea+zF7vV5+T9XuLgCiLdSbjKbAB9+UBhkxeKjM8KhqNHmd
-me/Orbf4hbdstozWaCsrJsrypG98OiTvTzhvdQs7cABb4gx0gaDVUk0UieKT/8/H51Xi14QsmhWg
-H5gsZgiD79qdEuWCAvJNEILLDIkbmbLYNWlDg2inXIj5dk10Yd9+FrCperT3V+kvTRLK4IKMEoza
-GhUsV1It0I/JGQ7h0+7ngxhEDqO2s4pl7v58L3CFM0gXwjaoOScepeakbQIAlEJErjPWliXR7Bwy
-VGFAV+A56ITTwqHEJ8Z/cURDfe3WtX3zfGHcdzDcLND09drYwfaAD7JVzKeEEc/jyoCDiep6lUOr
-8ZI0/c7/s5VoyLuxBlly6bTWrxDxxFThCj42dzrKS7B1ohYC3nKAVa+1Us5WXaaSsT7VhtUkfuYP
-JDpa53FXFuUz/OSFv2LPUdSBvk+1iG7fc5EXjoevM3l3BoL46DPzQD+pdQc6foLO5N7/KNUku9RL
-+RRfOxnv+FpQ7nnG9EGeE9WVwYzVbLyw9G8SdgC28e1/470JZOITZFBPNQB/oHmP7YdHj+eKYWQ2
-+xGgpfG7YYdxruu4UIXHhlqVJnj3Ay6nYyt/fqAld3j0r3x5aqzE/DdcHjOQXyjqQ2AwZ8LsBR4S
-kW/9spSNFZtaIGQKr3br840FfBPmOlVq4Ga9x+M+QA2QHFz2ZefX/iL1y7Bgw6I8CloY2v+RvVpz
-KgtVusd23swuoG3mlqMcIzRsBn1Xruwwn9et1ZPvUIq3EDI71H2XU+7RSvxKeKwE3VXUqQaL6yXW
-S1pTMQJqT4lghQhQkIxaSNAyL6xZiRIq+qJQEXlLFMElzdZ3hV16slTpySuVGN/5HDA3sFlmUC2R
-gxT9aGGtwOw8Mh5BtlT2ih8zsjcK2gNdtNjYLB3N0qasT+monipf6RLPH00EkZ5JSc4FeXlKkwjz
-OG0WWDt+vE+mzEFL5mdzqu5WrEi9q9GPA4ZxCErxjI4Q60FGud4qXPSfkfamSqqV2bWgubdzBE24
-Fzwn0gLa/vBn2kUL87CCPG75h2FmZ30IUTwNVmAOFLhQrRBEmyH7BVohVnLLbsh2R9JCB1pDOjB0
-pCpW7w5nidrUx6uJ47kIVays06GnkCJyDWbDuQTzUXGj5uAmq9o8eI1IESUfo+o4nQPR7ZyTV48W
-YS3V7xw1Cm5LxiOxSp+oA51Ui/9mqSBwVbHRyCwolM0TjdN1R/fLbOb1YPcMS9j6BE+HSeZ+6FVC
-kBUPo+GJYNlfzQRhwKjVq4KvdBzUmvXCj+NGwTOM6TY6Miyj+isNHcMhFwPCKR3PtDOr6WKQ0wt4
-YRFfaFrB4Ie0jMQwTbVJa8+27Kz3kU8bFda/OM2+cwIRhpIxewT8pufVaDDE85vntt/9ti031CZD
-CKS6/X/L5q0CxoDVGpXRdXAofOkegad/Is2gzS075/OaQB/ijH3eM2EZuW64l7b+D8vlmc3V1WY6
-dORlJ+CxvO61pCSAi415Je+cRZOdEzRPWNyd5yTt8wC1yC/uiW7px+gMr0QEkMAuWOnC6HyOwxf7
-GX94aEkXgVzre8D1KRh50nbmmKySAZ6oJudcw55o3ul2MDh2ZRkCpNotnD8nAMjU0rS6gPJhN4Ef
-/aGTk3ikLsQTBJlGnkwNzTmD2QH2OO5Dknk5keiHUPX7iWhOQqrP4SlBaPyLfPLO7lPbcPcTsqYN
-dsF46bmVgwhP04vlX4jx+Q/H8AzPKIqjfaSs6rYf8GZlWJUVuvZMWpzLp1FMEBI9xQl7aMqTT4SI
-RGYXSIQFkw21cyPXhHyBfn917rihQwjvt+ug1k/9rqc0sc6mRp7hP34jLgHpiPDmLlkeM0u+8jnL
-Ki7j7hrTOVT5CIqQy0flVKKPy5o2Kj4/KhWwGVx9kDdst4AZxAw23b7pMsZOnh18y4qKvHM2MW+L
-xLlscdceDz+IXNCgdLwyx0XHvvNpFduvhVhcJVuZ2mIIgMf1PLQjfJZr7MsifVtDhJY4Mr69mqtD
-mFxRsJH5O85ol/TfHQD/yAjeUHKpXeDjwGTQ947OjpOqVUmARavZJmC6GMCCi1oo53AG9Zl0Jn7P
-Sf91HXlAxoJjs8sZiHHDr8s9GUDND0kS+O+/RE7p9LKYQv0oPU756sPgm0R7AU7Un3FNXk5+lMdf
-vWkIL3GGPy9fIYnGAMBeIu0+2kMtg55unUdx7UYD4Z9rBM/UQw4cQ+Zyd1Vhi1VTi+/Y/QiDd+jo
-E/TsQIBykLNu74mUBYs3IHPP97eVsfrO+ZEV4qVP5s6w/L3r80nEUiQ6hodSfqKmw1+8KFv/WLkC
-RAwSqAFhNqlThH36TZSErHHQ4cEAxc7weaJ61hlKULNIi+lheT7HnM5O4M1fB2qaM056G9TBXtnZ
-C/W8FavADLFEWxE18s7z+cO2lzo6SsOeXo62hvmcmvxB5qRoAlNTurDfjNDJGS/YK+CjenEAjkbU
-C6VMuD0PruP80zEMzJ7khTLrNSvc59TWFS9b60YCWifn/PDUA4AXXH+nODxENmRP7WwrAZunNURC
-8Xtwo0sXyfw4hswZjr3GrFFco2F/zuGo/NLKIVk4ZpYjnZk+jV7VmLCWaUTdbmIcdZOudf2r9ap/
-+66b9iwKCDMquhG1TVK1lEmL1ENQi36yv5dvO2/+yQj1d49SM9oECsRUEk0B5TsAApU4glGtWOIo
-B89lXkmS0cY9+ytjqPumKULX/UaS2lDNvhWrc9VPK9QUgnohddxuclEswI9ay9BvUUFfFHwNY47w
-y/iosmcobnarJ05nORi5VhFRYvdYn5lfuHwTVoXfC8NXioS0i4YqA4CmxzW4C8dg1rLS5iqDgtfl
-M29Et4RobTRt4xB7mnXKvzDRK9a9jC+bj2aRT/F2Rtk0LR60TB9bzIFYa7c9yGal9ODm5EbfH231
-/KuRXiuAh473aqI77QhkhfcGCKc4Y45FM+QlsNP5Yz9g9Z0Nx385jkoElV8nzD7wifhziUwdx7Ro
-BumH1JPE28Cmyg8ZUBewuqMuIHf9FmTxg/f2QaVM7gRFeHgOfpfFqkqSF+5nYEjH4So2wDsUYicq
-KTgF1s4JFh3T99k1rDnrPX8EUfl4ERR3Vwty4gmj
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DataCatalog;
+
+class GoogleCloudDatacatalogV1beta1Entry extends \Google\Model
+{
+  protected $bigqueryDateShardedSpecType = GoogleCloudDatacatalogV1beta1BigQueryDateShardedSpec::class;
+  protected $bigqueryDateShardedSpecDataType = '';
+  protected $bigqueryTableSpecType = GoogleCloudDatacatalogV1beta1BigQueryTableSpec::class;
+  protected $bigqueryTableSpecDataType = '';
+  public $description;
+  public $displayName;
+  protected $gcsFilesetSpecType = GoogleCloudDatacatalogV1beta1GcsFilesetSpec::class;
+  protected $gcsFilesetSpecDataType = '';
+  public $integratedSystem;
+  public $linkedResource;
+  public $name;
+  protected $schemaType = GoogleCloudDatacatalogV1beta1Schema::class;
+  protected $schemaDataType = '';
+  protected $sourceSystemTimestampsType = GoogleCloudDatacatalogV1beta1SystemTimestamps::class;
+  protected $sourceSystemTimestampsDataType = '';
+  public $type;
+  protected $usageSignalType = GoogleCloudDatacatalogV1beta1UsageSignal::class;
+  protected $usageSignalDataType = '';
+  public $userSpecifiedSystem;
+  public $userSpecifiedType;
+
+  /**
+   * @param GoogleCloudDatacatalogV1beta1BigQueryDateShardedSpec
+   */
+  public function setBigqueryDateShardedSpec(GoogleCloudDatacatalogV1beta1BigQueryDateShardedSpec $bigqueryDateShardedSpec)
+  {
+    $this->bigqueryDateShardedSpec = $bigqueryDateShardedSpec;
+  }
+  /**
+   * @return GoogleCloudDatacatalogV1beta1BigQueryDateShardedSpec
+   */
+  public function getBigqueryDateShardedSpec()
+  {
+    return $this->bigqueryDateShardedSpec;
+  }
+  /**
+   * @param GoogleCloudDatacatalogV1beta1BigQueryTableSpec
+   */
+  public function setBigqueryTableSpec(GoogleCloudDatacatalogV1beta1BigQueryTableSpec $bigqueryTableSpec)
+  {
+    $this->bigqueryTableSpec = $bigqueryTableSpec;
+  }
+  /**
+   * @return GoogleCloudDatacatalogV1beta1BigQueryTableSpec
+   */
+  public function getBigqueryTableSpec()
+  {
+    return $this->bigqueryTableSpec;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setDisplayName($displayName)
+  {
+    $this->displayName = $displayName;
+  }
+  public function getDisplayName()
+  {
+    return $this->displayName;
+  }
+  /**
+   * @param GoogleCloudDatacatalogV1beta1GcsFilesetSpec
+   */
+  public function setGcsFilesetSpec(GoogleCloudDatacatalogV1beta1GcsFilesetSpec $gcsFilesetSpec)
+  {
+    $this->gcsFilesetSpec = $gcsFilesetSpec;
+  }
+  /**
+   * @return GoogleCloudDatacatalogV1beta1GcsFilesetSpec
+   */
+  public function getGcsFilesetSpec()
+  {
+    return $this->gcsFilesetSpec;
+  }
+  public function setIntegratedSystem($integratedSystem)
+  {
+    $this->integratedSystem = $integratedSystem;
+  }
+  public function getIntegratedSystem()
+  {
+    return $this->integratedSystem;
+  }
+  public function setLinkedResource($linkedResource)
+  {
+    $this->linkedResource = $linkedResource;
+  }
+  public function getLinkedResource()
+  {
+    return $this->linkedResource;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  /**
+   * @param GoogleCloudDatacatalogV1beta1Schema
+   */
+  public function setSchema(GoogleCloudDatacatalogV1beta1Schema $schema)
+  {
+    $this->schema = $schema;
+  }
+  /**
+   * @return GoogleCloudDatacatalogV1beta1Schema
+   */
+  public function getSchema()
+  {
+    return $this->schema;
+  }
+  /**
+   * @param GoogleCloudDatacatalogV1beta1SystemTimestamps
+   */
+  public function setSourceSystemTimestamps(GoogleCloudDatacatalogV1beta1SystemTimestamps $sourceSystemTimestamps)
+  {
+    $this->sourceSystemTimestamps = $sourceSystemTimestamps;
+  }
+  /**
+   * @return GoogleCloudDatacatalogV1beta1SystemTimestamps
+   */
+  public function getSourceSystemTimestamps()
+  {
+    return $this->sourceSystemTimestamps;
+  }
+  public function setType($type)
+  {
+    $this->type = $type;
+  }
+  public function getType()
+  {
+    return $this->type;
+  }
+  /**
+   * @param GoogleCloudDatacatalogV1beta1UsageSignal
+   */
+  public function setUsageSignal(GoogleCloudDatacatalogV1beta1UsageSignal $usageSignal)
+  {
+    $this->usageSignal = $usageSignal;
+  }
+  /**
+   * @return GoogleCloudDatacatalogV1beta1UsageSignal
+   */
+  public function getUsageSignal()
+  {
+    return $this->usageSignal;
+  }
+  public function setUserSpecifiedSystem($userSpecifiedSystem)
+  {
+    $this->userSpecifiedSystem = $userSpecifiedSystem;
+  }
+  public function getUserSpecifiedSystem()
+  {
+    return $this->userSpecifiedSystem;
+  }
+  public function setUserSpecifiedType($userSpecifiedType)
+  {
+    $this->userSpecifiedType = $userSpecifiedType;
+  }
+  public function getUserSpecifiedType()
+  {
+    return $this->userSpecifiedType;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudDatacatalogV1beta1Entry::class, 'Google_Service_DataCatalog_GoogleCloudDatacatalogV1beta1Entry');

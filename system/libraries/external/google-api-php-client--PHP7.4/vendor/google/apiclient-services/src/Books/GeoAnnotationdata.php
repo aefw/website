@@ -1,72 +1,114 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-WxHePG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Books;
+
+class GeoAnnotationdata extends \Google\Model
+{
+  public $annotationType;
+  protected $dataType = Geolayerdata::class;
+  protected $dataDataType = '';
+  public $encodedData;
+  public $id;
+  public $kind;
+  public $layerId;
+  public $selfLink;
+  public $updated;
+  public $volumeId;
+
+  public function setAnnotationType($annotationType)
+  {
+    $this->annotationType = $annotationType;
+  }
+  public function getAnnotationType()
+  {
+    return $this->annotationType;
+  }
+  /**
+   * @param Geolayerdata
+   */
+  public function setData(Geolayerdata $data)
+  {
+    $this->data = $data;
+  }
+  /**
+   * @return Geolayerdata
+   */
+  public function getData()
+  {
+    return $this->data;
+  }
+  public function setEncodedData($encodedData)
+  {
+    $this->encodedData = $encodedData;
+  }
+  public function getEncodedData()
+  {
+    return $this->encodedData;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setLayerId($layerId)
+  {
+    $this->layerId = $layerId;
+  }
+  public function getLayerId()
+  {
+    return $this->layerId;
+  }
+  public function setSelfLink($selfLink)
+  {
+    $this->selfLink = $selfLink;
+  }
+  public function getSelfLink()
+  {
+    return $this->selfLink;
+  }
+  public function setUpdated($updated)
+  {
+    $this->updated = $updated;
+  }
+  public function getUpdated()
+  {
+    return $this->updated;
+  }
+  public function setVolumeId($volumeId)
+  {
+    $this->volumeId = $volumeId;
+  }
+  public function getVolumeId()
+  {
+    return $this->volumeId;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GeoAnnotationdata::class, 'Google_Service_Books_GeoAnnotationdata');

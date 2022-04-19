@@ -1,93 +1,120 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+//////////////////////////////////////////////////////////////
+//   phpThumb() by James Heinrich <info@silisoftware.com>   //
+//        available at http://phpthumb.sourceforge.net      //
+//         and/or https://github.com/JamesHeinrich/phpThumb //
+//////////////////////////////////////////////////////////////
+///                                                         //
+// phpthumb.ico.php - .ICO output format functions          //
+//                                                         ///
+//////////////////////////////////////////////////////////////
+
+
+class phpthumb_ico {
+
+	public function GD2ICOstring(&$gd_image_array) {
+		$ImageWidths  = array();
+		$ImageHeights = array();
+		$bpp          = array();
+		$totalcolors  = array();
+		$icXOR        = array();
+		$icAND        = array();
+		$icANDmask    = array();
+		foreach ($gd_image_array as $key => $gd_image) {
+
+			$ImageWidths[$key]  = imagesx($gd_image);
+			$ImageHeights[$key] = imagesy($gd_image);
+			$bpp[$key]          = imageistruecolor($gd_image) ? 32 : 24;
+			$totalcolors[$key]  = imagecolorstotal($gd_image);
+
+			$icXOR[$key] = '';
+			for ($y = $ImageHeights[$key] - 1; $y >= 0; $y--) {
+				for ($x = 0; $x < $ImageWidths[$key]; $x++) {
+					$argb = phpthumb_functions::GetPixelColor($gd_image, $x, $y);
+					$a = round(255 * ((127 - $argb['alpha']) / 127));
+					$r = $argb['red'];
+					$g = $argb['green'];
+					$b = $argb['blue'];
+
+					if ($bpp[$key] == 32) {
+						$icXOR[$key] .= chr($b).chr($g).chr($r).chr($a);
+					} elseif ($bpp[$key] == 24) {
+						$icXOR[$key] .= chr($b).chr($g).chr($r);
+					}
+
+					if ($a < 128) {
+						@$icANDmask[$key][$y] .= '1';
+					} else {
+						@$icANDmask[$key][$y] .= '0';
+					}
+				}
+				// mask bits are 32-bit aligned per scanline
+				while (strlen($icANDmask[$key][$y]) % 32) {
+					$icANDmask[$key][$y] .= '0';
+				}
+			}
+			$icAND[$key] = '';
+			foreach ($icANDmask[$key] as $y => $scanlinemaskbits) {
+				for ($i = 0, $iMax = strlen($scanlinemaskbits); $i < $iMax; $i += 8) {
+					$icAND[$key] .= chr(bindec(str_pad(substr($scanlinemaskbits, $i, 8), 8, '0', STR_PAD_LEFT)));
+				}
+			}
+
+		}
+
+		foreach ($gd_image_array as $key => $gd_image) {
+			$biSizeImage = $ImageWidths[$key] * $ImageHeights[$key] * ($bpp[$key] / 8);
+
+			// BITMAPINFOHEADER - 40 bytes
+			$BitmapInfoHeader[$key]  = '';
+			$BitmapInfoHeader[$key] .= "\x28\x00\x00\x00";                              // DWORD  biSize;
+			$BitmapInfoHeader[$key] .= phpthumb_functions::LittleEndian2String($ImageWidths[$key], 4);      // LONG   biWidth;
+			// The biHeight member specifies the combined
+			// height of the XOR and AND masks.
+			$BitmapInfoHeader[$key] .= phpthumb_functions::LittleEndian2String($ImageHeights[$key] * 2, 4); // LONG   biHeight;
+			$BitmapInfoHeader[$key] .= "\x01\x00";                                      // WORD   biPlanes;
+			$BitmapInfoHeader[$key] .= chr($bpp[$key])."\x00";                          // wBitCount;
+			$BitmapInfoHeader[$key] .= "\x00\x00\x00\x00";                              // DWORD  biCompression;
+			$BitmapInfoHeader[$key] .= phpthumb_functions::LittleEndian2String($biSizeImage, 4);            // DWORD  biSizeImage;
+			$BitmapInfoHeader[$key] .= "\x00\x00\x00\x00";                              // LONG   biXPelsPerMeter;
+			$BitmapInfoHeader[$key] .= "\x00\x00\x00\x00";                              // LONG   biYPelsPerMeter;
+			$BitmapInfoHeader[$key] .= "\x00\x00\x00\x00";                              // DWORD  biClrUsed;
+			$BitmapInfoHeader[$key] .= "\x00\x00\x00\x00";                              // DWORD  biClrImportant;
+		}
+
+
+		$icondata  = "\x00\x00";                                      // idReserved;   // Reserved (must be 0)
+		$icondata .= "\x01\x00";                                      // idType;       // Resource Type (1 for icons)
+		$icondata .= phpthumb_functions::LittleEndian2String(count($gd_image_array), 2);  // idCount;      // How many images?
+
+		$dwImageOffset = 6 + (count($gd_image_array) * 16);
+		foreach ($gd_image_array as $key => $gd_image) {
+			// ICONDIRENTRY   idEntries[1]; // An entry for each image (idCount of 'em)
+
+			$icondata .= chr($ImageWidths[$key]);                     // bWidth;          // Width, in pixels, of the image
+			$icondata .= chr($ImageHeights[$key]);                    // bHeight;         // Height, in pixels, of the image
+			$icondata .= chr($totalcolors[$key]);                     // bColorCount;     // Number of colors in image (0 if >=8bpp)
+			$icondata .= "\x00";                                      // bReserved;       // Reserved ( must be 0)
+
+			$icondata .= "\x01\x00";                                  // wPlanes;         // Color Planes
+			$icondata .= chr($bpp[$key])."\x00";                      // wBitCount;       // Bits per pixel
+
+			$dwBytesInRes = 40 + strlen($icXOR[$key]) + strlen($icAND[$key]);
+			$icondata .= phpthumb_functions::LittleEndian2String($dwBytesInRes, 4);       // dwBytesInRes;    // How many bytes in this resource?
+
+			$icondata .= phpthumb_functions::LittleEndian2String($dwImageOffset, 4);      // dwImageOffset;   // Where in the file is this image?
+			$dwImageOffset += strlen($BitmapInfoHeader[$key]);
+			$dwImageOffset += strlen($icXOR[$key]);
+			$dwImageOffset += strlen($icAND[$key]);
+		}
+
+		foreach ($gd_image_array as $key => $gd_image) {
+			$icondata .= $BitmapInfoHeader[$key];
+			$icondata .= $icXOR[$key];
+			$icondata .= $icAND[$key];
+		}
+
+		return $icondata;
+	}
+
+}

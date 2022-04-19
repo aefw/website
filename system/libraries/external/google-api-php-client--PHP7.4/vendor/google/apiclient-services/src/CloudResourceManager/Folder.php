@@ -1,67 +1,98 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudResourceManager;
+
+class Folder extends \Google\Model
+{
+  public $createTime;
+  public $deleteTime;
+  public $displayName;
+  public $etag;
+  public $name;
+  public $parent;
+  public $state;
+  public $updateTime;
+
+  public function setCreateTime($createTime)
+  {
+    $this->createTime = $createTime;
+  }
+  public function getCreateTime()
+  {
+    return $this->createTime;
+  }
+  public function setDeleteTime($deleteTime)
+  {
+    $this->deleteTime = $deleteTime;
+  }
+  public function getDeleteTime()
+  {
+    return $this->deleteTime;
+  }
+  public function setDisplayName($displayName)
+  {
+    $this->displayName = $displayName;
+  }
+  public function getDisplayName()
+  {
+    return $this->displayName;
+  }
+  public function setEtag($etag)
+  {
+    $this->etag = $etag;
+  }
+  public function getEtag()
+  {
+    return $this->etag;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setParent($parent)
+  {
+    $this->parent = $parent;
+  }
+  public function getParent()
+  {
+    return $this->parent;
+  }
+  public function setState($state)
+  {
+    $this->state = $state;
+  }
+  public function getState()
+  {
+    return $this->state;
+  }
+  public function setUpdateTime($updateTime)
+  {
+    $this->updateTime = $updateTime;
+  }
+  public function getUpdateTime()
+  {
+    return $this->updateTime;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Folder::class, 'Google_Service_CloudResourceManager_Folder');

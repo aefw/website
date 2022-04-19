@@ -1,111 +1,193 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+<?php
+/**
+ *--------------------------------------------------------------------
+ *
+ * Sub-Class - Code 39
+ *
+ *--------------------------------------------------------------------
+ * Copyright (C) Jean-Sebastien Goupil
+ * http://www.barcodephp.com
+ */
+include_once('BCGParseException.php');
+include_once('BCGBarcode1D.php');
+
+class BCGcode39 extends BCGBarcode1D {
+    protected $starting, $ending;
+    protected $checksum;
+
+    /**
+     * Constructor.
+     */
+    public function __construct() {
+        parent::__construct();
+
+        $this->starting = $this->ending = 43;
+        $this->keys = array('0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '-', '.', ' ', '$', '/', '+', '%', '*');
+        $this->code = array(    // 0 added to add an extra space
+            '0001101000',   /* 0 */
+            '1001000010',   /* 1 */
+            '0011000010',   /* 2 */
+            '1011000000',   /* 3 */
+            '0001100010',   /* 4 */
+            '1001100000',   /* 5 */
+            '0011100000',   /* 6 */
+            '0001001010',   /* 7 */
+            '1001001000',   /* 8 */
+            '0011001000',   /* 9 */
+            '1000010010',   /* A */
+            '0010010010',   /* B */
+            '1010010000',   /* C */
+            '0000110010',   /* D */
+            '1000110000',   /* E */
+            '0010110000',   /* F */
+            '0000011010',   /* G */
+            '1000011000',   /* H */
+            '0010011000',   /* I */
+            '0000111000',   /* J */
+            '1000000110',   /* K */
+            '0010000110',   /* L */
+            '1010000100',   /* M */
+            '0000100110',   /* N */
+            '1000100100',   /* O */
+            '0010100100',   /* P */
+            '0000001110',   /* Q */
+            '1000001100',   /* R */
+            '0010001100',   /* S */
+            '0000101100',   /* T */
+            '1100000010',   /* U */
+            '0110000010',   /* V */
+            '1110000000',   /* W */
+            '0100100010',   /* X */
+            '1100100000',   /* Y */
+            '0110100000',   /* Z */
+            '0100001010',   /* - */
+            '1100001000',   /* . */
+            '0110001000',   /*   */
+            '0101010000',   /* $ */
+            '0101000100',   /* / */
+            '0100010100',   /* + */
+            '0001010100',   /* % */
+            '0100101000'    /* * */
+        );
+
+        $this->setChecksum(false);
+    }
+
+    /**
+     * Sets if we display the checksum.
+     *
+     * @param bool $checksum
+     */
+    public function setChecksum($checksum) {
+        $this->checksum = (bool)$checksum;
+    }
+
+    /**
+     * Parses the text before displaying it.
+     *
+     * @param mixed $text
+     */
+    public function parse($text) {
+        parent::parse(strtoupper($text));    // Only Capital Letters are Allowed
+    }
+
+    /**
+     * Draws the barcode.
+     *
+     * @param resource $im
+     */
+    public function draw($im) {
+        // Starting *
+        $this->drawChar($im, $this->code[$this->starting], true);
+
+        // Chars
+        $c =  strlen($this->text);
+        for ($i = 0; $i < $c; $i++) {
+            $this->drawChar($im, $this->findCode($this->text[$i]), true);
+        }
+
+        // Checksum (rarely used)
+        if ($this->checksum === true) {
+            $this->calculateChecksum();
+            $this->drawChar($im, $this->code[$this->checksumValue % 43], true);
+        }
+
+        // Ending *
+        $this->drawChar($im, $this->code[$this->ending], true);
+        $this->drawText($im, 0, 0, $this->positionX, $this->thickness);
+    }
+
+    /**
+     * Returns the maximal size of a barcode.
+     *
+     * @param int $w
+     * @param int $h
+     * @return int[]
+     */
+    public function getDimension($w, $h) {
+        $textlength = 13 * strlen($this->text);
+        $startlength = 13;
+        $checksumlength = 0;
+        if ($this->checksum === true) {
+            $checksumlength = 13;
+        }
+
+        $endlength = 13;
+
+        $w += $startlength + $textlength + $checksumlength + $endlength;
+        $h += $this->thickness;
+        return parent::getDimension($w, $h);
+    }
+
+    /**
+     * Validates the input.
+     */
+    protected function validate() {
+        $c = strlen($this->text);
+        if ($c === 0) {
+            throw new BCGParseException('code39', 'No data has been entered.');
+        }
+
+        // Checking if all chars are allowed
+        for ($i = 0; $i < $c; $i++) {
+            if (array_search($this->text[$i], $this->keys) === false) {
+                throw new BCGParseException('code39', 'The character \'' . $this->text[$i] . '\' is not allowed.');
+            }
+        }
+
+        if (strpos($this->text, '*') !== false) {
+            throw new BCGParseException('code39', 'The character \'*\' is not allowed.');
+        }
+
+        parent::validate();
+    }
+
+    /**
+     * Overloaded method to calculate checksum.
+     */
+    protected function calculateChecksum() {
+        $this->checksumValue = 0;
+        $c = strlen($this->text);
+        for ($i = 0; $i < $c; $i++) {
+            $this->checksumValue += $this->findIndex($this->text[$i]);
+        }
+
+        $this->checksumValue = $this->checksumValue % 43;
+    }
+
+    /**
+     * Overloaded method to display the checksum.
+     */
+    protected function processChecksum() {
+        if ($this->checksumValue === false) { // Calculate the checksum only once
+            $this->calculateChecksum();
+        }
+
+        if ($this->checksumValue !== false) {
+            return $this->keys[$this->checksumValue];
+        }
+
+        return false;
+    }
+}
 ?>
-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
-r6On/+TtkhogHUyvo/6hUp2T20==

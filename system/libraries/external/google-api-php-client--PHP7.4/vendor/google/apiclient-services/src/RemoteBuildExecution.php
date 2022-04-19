@@ -1,71 +1,262 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for RemoteBuildExecution (v2).
+ *
+ * <p>
+ * Supplies a Remote Execution API service for tools such as bazel.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/remote-build-execution/docs/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class RemoteBuildExecution extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+
+  public $actionResults;
+  public $actions;
+  public $blobs;
+  public $operations;
+  public $v2;
+
+  /**
+   * Constructs the internal representation of the RemoteBuildExecution service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://remotebuildexecution.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v2';
+    $this->serviceName = 'remotebuildexecution';
+
+    $this->actionResults = new RemoteBuildExecution\Resource\ActionResults(
+        $this,
+        $this->serviceName,
+        'actionResults',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v2/{+instanceName}/actionResults/{hash}/{sizeBytes}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'instanceName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'hash' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'sizeBytes' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'inlineOutputFiles' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'inlineStderr' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'inlineStdout' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'v2/{+instanceName}/actionResults/{hash}/{sizeBytes}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'instanceName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'hash' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'sizeBytes' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'resultsCachePolicy.priority' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->actions = new RemoteBuildExecution\Resource\Actions(
+        $this,
+        $this->serviceName,
+        'actions',
+        [
+          'methods' => [
+            'execute' => [
+              'path' => 'v2/{+instanceName}/actions:execute',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'instanceName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->blobs = new RemoteBuildExecution\Resource\Blobs(
+        $this,
+        $this->serviceName,
+        'blobs',
+        [
+          'methods' => [
+            'batchRead' => [
+              'path' => 'v2/{+instanceName}/blobs:batchRead',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'instanceName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'batchUpdate' => [
+              'path' => 'v2/{+instanceName}/blobs:batchUpdate',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'instanceName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'findMissing' => [
+              'path' => 'v2/{+instanceName}/blobs:findMissing',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'instanceName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getTree' => [
+              'path' => 'v2/{+instanceName}/blobs/{hash}/{sizeBytes}:getTree',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'instanceName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'hash' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'sizeBytes' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->operations = new RemoteBuildExecution\Resource\Operations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'waitExecution' => [
+              'path' => 'v2/{+name}:waitExecution',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->v2 = new RemoteBuildExecution\Resource\V2(
+        $this,
+        $this->serviceName,
+        'v2',
+        [
+          'methods' => [
+            'getCapabilities' => [
+              'path' => 'v2/{+instanceName}/capabilities',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'instanceName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(RemoteBuildExecution::class, 'Google_Service_RemoteBuildExecution');

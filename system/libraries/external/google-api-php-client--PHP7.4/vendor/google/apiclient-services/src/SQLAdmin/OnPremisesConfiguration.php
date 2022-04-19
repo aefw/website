@@ -1,69 +1,98 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-0vH3tAePZJIXchTBiOpxHTd80BhKLz+P
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\SQLAdmin;
+
+class OnPremisesConfiguration extends \Google\Model
+{
+  public $caCertificate;
+  public $clientCertificate;
+  public $clientKey;
+  public $dumpFilePath;
+  public $hostPort;
+  public $kind;
+  public $password;
+  public $username;
+
+  public function setCaCertificate($caCertificate)
+  {
+    $this->caCertificate = $caCertificate;
+  }
+  public function getCaCertificate()
+  {
+    return $this->caCertificate;
+  }
+  public function setClientCertificate($clientCertificate)
+  {
+    $this->clientCertificate = $clientCertificate;
+  }
+  public function getClientCertificate()
+  {
+    return $this->clientCertificate;
+  }
+  public function setClientKey($clientKey)
+  {
+    $this->clientKey = $clientKey;
+  }
+  public function getClientKey()
+  {
+    return $this->clientKey;
+  }
+  public function setDumpFilePath($dumpFilePath)
+  {
+    $this->dumpFilePath = $dumpFilePath;
+  }
+  public function getDumpFilePath()
+  {
+    return $this->dumpFilePath;
+  }
+  public function setHostPort($hostPort)
+  {
+    $this->hostPort = $hostPort;
+  }
+  public function getHostPort()
+  {
+    return $this->hostPort;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setPassword($password)
+  {
+    $this->password = $password;
+  }
+  public function getPassword()
+  {
+    return $this->password;
+  }
+  public function setUsername($username)
+  {
+    $this->username = $username;
+  }
+  public function getUsername()
+  {
+    return $this->username;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(OnPremisesConfiguration::class, 'Google_Service_SQLAdmin_OnPremisesConfiguration');

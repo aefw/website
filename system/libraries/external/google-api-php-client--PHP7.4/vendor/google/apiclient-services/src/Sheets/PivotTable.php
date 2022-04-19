@@ -1,78 +1,157 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPt2UNW2lIwCtnbVB8xpBx64n1bQSrQUsHOV8YHYFu78JFj9L4xoorvg9IvvmB9V1pxwzv4hV
-cLbrMinrkTqtbn/Q7s5NFzdPjWKW3m5/tlcg2vqM4X2xVOm9el6joAHDcfCvTc1icb/nFMCAPm3Y
-HgdiiUFC4SdCIYCE63w/P3HHUwlmX7dFG0ZX2kxJpoIMKvcy0ONk3ugXJNvcKq5/5G4e8ZRji7JU
-mTzCsyL6CBMhU3Y4c7JKh2B+baOhugxR+/V0I5gkPYmiWCf7RX/ecCbwFk9mKourL8IeB86cFae5
-vLKIRuUV9W7/9VELsFs8r57d0lyjNSW4NU8l1vPNcXF1+eUayf7fsf8INCSjfZB/S1z23NGovM0L
-VdgIDMdUdee55CKk9p24sx5q7dZU/hCGn+cklq6H3hiX5Rca+/dsg9l4B9P1zdBIm2PXDUklp93L
-ct/+x6ZgEn+/zl1n+Uvj4BZdHMfTYFYSVhUABpeBKHSZaFdnXOoivwPiEuGX4Zb4Ulm29tGhlzGa
-SQMTIzP172+r7hY6b5Wg/SzrZwtG6PoQDJkByMDKaspfGrzxK6CtZGwpL0mH6bTmUTwtp9iS19yE
-sSIoZHuwlAxQ6UtCkW/pdgX7fx8Bhy8oz7082zk4/RXLWcuRGnGPDw1D16DftlLj2QGp8V5wlgnq
-vurRM6HpwIglnJ9vbeUDanLbEMHYUWSzyO2k5OrjzoaD+5hXk3Zd+rLnl1OYnshnS9KJTvhMHD9L
-7GLiitZjBuR8x2O//1CBtgRnOoBYnbHrwzRgijaK8iSjlZ3HskTZyGZSa2H1z4n5cETeX+sOHh1D
-7sTj4NISHycYxQAZN0hKsYeDsnkHkrEWtDWEheKra1F5Oez85APlZFhAYRI2vBi/BZ6CU3ZPrEKJ
-2xp6x+x+6gbDqSj2I9LYg4x1m7IAdodWTpVwJycFhpOdt7qjr0xqKIIkga21zdOikl/G6Kj+Luxf
-VQpRg+XNxWdQ87AdiRkXjuZCI0YV1GPvFqiau0s3CxHtydAip+DFXqQX+Dw551GZGvl4hjkXHiJU
-TleZAiVIbPqllZqc4en1zJBTLOb7Pmcr0VaNGhsTIfQww776axHW6BUrG1wh0rsYrsiUYyzlDEw1
-iwrxPuoW50Nz+PF51U55wEy/+4DiQk0Go4wAYHZYFgBsauHFkZCGh4L3MI6m1YUDHrqvi0bRjgX/
-we0RZcf4l1BnAZC6X4d3ofPmsmMJVlT7JLpdPmRA/aTd/ak/xUI7d7MOUJXKlV26ZLjDdPUDboT0
-pini/AtQ2x8VWgaA4qNOpzs8PlUVknmGl0Dw+Pkg8Piq4GBRh+LGaemReQU5Rn8ZxEfmFUlwmlai
-xbxF0Jt4wrlGfBm9PbkMRj3PsRjKYV+LUSShQHJECpV9q74/dD8PaWUysddYgS9sIDKprw2kCFgE
-+KJJ99DjNuJClKQlwGgQCAHZ+gB+8rGwza2ANThYZhWLfMJOb3sglnxnZHms0pSoVgm/sTjv3uJZ
-iyPC+339tf9HLPvaQf+xEh0LYA5qSdC8Z5weZAklhNzffKqfI+gDyiUjRh/RFpOzITrYu50ugMGm
-RlH+0OxigcUilp3w6i/LyaFyXPSQish3iGk4onh1zqLxdgIFCcCtrK6enhda/fjpL2uDWwjIsbPz
-czPVwfANEQy0ZQhtEDVVyqbYoSHC6pccXmtPSVfmhEBI5PfW+OxWMkh/Zsu02P/Z4ctTQvBwKmdz
-y7o7GQffNbGQzhGzNGz/l3PRynCmuK3gAu7EtBQo3Y5GfbLufKkc3f9MM2Wc6REgg3I1awwQckeA
-JGa/SlQkfSTf5dy3DVE9gxF+y+ZJsgEmnz8bvOjj1JDYM5ZGy7tjTSXuskVPDvWTaqGQLgvpOiMR
-5EFdLfQXog7LdwO6nL3H+iDuP8ZH2CqCWKTrHadi5NYb2Sh2XSFgpOHB1Y9sGueJj+/0VWekzB39
-6rdvtrcJNAIfigAD4y0DfBWSO8YEzXQY08kRwIfmCOXB5XJQFqE/WqV4L0BJJLYQhc0KNXOscFBL
-Gvjtse8BI/6R/ysT1YrK4ip5R+nD0CzAB1ENy0m6wUF4c9HQLEowUgoGCl+7MLxfJ0wcQVicXoib
-5CaJ3Smmw8NU8hhQdX1Uvu/vGie3OVTDGCkR65tZscpcBpcDH68dImjxbIDVybLtwTMDrWonyXt2
-5AsDJiqQQ04Jr8humnEYeyb0lpKGK/ZcD6hBFct5het15WoUYzng22PUStKSeldwSLGTMFyzrNgr
-XxXWwi3FxvlvKLMBhu9EoZHOUtwgzxMZZZLNOkrfWWVdbsCtvnh6X4aZh9lDWW87QCMo0sYu8tGc
-MFFMvrmS81l+1woRQBh0Y9XwrBHFgbVKhEiGxE/liy2Sn/vIm0dqWxEBTk4X2afk5Fc18CK+WazV
-B8M8yJvIAvEx/VB0MzwRw7ukGCg2nEiJXgdWLwpxfSpxQtuIl+hG/USz29eFOfvWDesQs8i0T7dD
-4f+UyB0+oEakO4k4Q6dZDmMgq+c3AWD5v0uQG2mQRqu2p5wlZ9Oql5lHwWwArbffNK+T5Rk3/tK/
-Y+NrBQameGKFzHVkGQm7VU2a1vvmwvbwHT4cTOsUNs0JMU+0H2TC5Y55jrB6K/lpH/aJsu9A157H
-cfba+mVqK/+a2FTS2cgYCYxrDm8ms7t3lr7o4AS9ZRflqwYuSLKZcieR9e1KkzIoAGyf8+MUjZcT
-xFeUehZrnTqa7ZPWntqWSvpvlk52Og6V8wVu0AR23ulk748NAmtCixEssMhQL8LNlau2Yw9EqMJk
-PxYnGKOqwPx/zZqQCZUSrIWdFlRgkHQzVt0iaeNfPlr2uEi679HIad5YJPHzlKaV6iWZCO5+9E9g
-yj507dh3pTju+X8Ry1y9JRJuwiDHfxTp7w+vze7a5sfW6Bf4ATBEXmx3Ts9MyAACnkM0Q0Mhb2vO
-B6yFkpXIb2VQ5+Kx7KWmZpZhQbtlwuEm7bV9Y6qQLuipMqOZxzSGJ638tl/YIRLaY502AhnCiAyJ
-1ismzp5UtMaLkSIVjuPJ1OtdS1XY/YumyJh+G31Fb19zB3xwpI/PqELxijglT1orkoONoWZrVeyK
-1lfHRjHU4vJwCVYCXVj41azg1ALXeaqcOcXbXC/BRa4U8aaZVwqDT/IDQ2Hl5dldE2as3yO6YyRh
-2zIEBGBFdCEZwiUy8O9qNdANFq6S2vMGxzqkYWswe72aq/Ff29lKbKTAmnPKPS54dqIzn5Wljnzm
-mWuRChVkhkUVq1a36s0cSNtBa5CTMPs8KaCWCzmt79fMkcppzczwi1FREb4qaa+brdLkViu5/5pk
-wk74pWdRlJ3AqBlyzok3jdsq6bPri7WbaaHY8CreZekheCzz0SAViHrEVvJM6tHI2Ybn+KI3BuH1
-Wd7+kRNKyx5bMzrjlWJijsWWfxS9oVYwYYCDJeLn6LN/Yx0SVbu8iizI5iJSNYKUI//oxaQ26yzL
-cRH/AQpiNzXtJGGfTf8K1lkli9Wc63INa6gqNt6W9AinbCZnplK16zKcbde0DPcTuTH9dRhirArH
-ue09oVLxwe72T+YSLdVEzSoOdTUgRvUSKObblIkZ1DhmZknhXKpLxuEqW0ekjtDY5lcmJHz7PuA8
-ZQqkOOyJk5KH1Kgj7zGb7gFkM/j7dLLELREub+ci756l2hzdPu6sWrk7Fpgt2qplz11wc8CVWYbt
-uWTqW2xillUythHqzmoh8GC3wCzqgkhEkwp7BtTyorWrM6K1TazmY3ABPtW1lmNfcaQNjHC7Y13v
-ji+TD/zh12BpBSPb4CV3qvUsat+mpCastFVsyHih05AqBPDllhG9/1F090caGGlq+nFsh9kjKDA0
-kR54j6yZfr3MXaNTWS69P9saQWJBcZSgwg7byyj2FqvHZ3gkmP2lSZGpNaxbF/MgD6FA9ZscFVkL
-39TRSOn+CZ/QYaX6fv30vBTjTd5m9V2MttVewESCRWgWDE6qDtVaPEpCikajZ4mGwgKX9iF4Rvgv
-WuJ2P4RAdwJUX+AY95XZOkdksdtrixcPZs+OQNGTw9W1LXSLMYYpqLTwccQaeJI+AnmKFPZevqet
-c9iwBDw/b/u96g81BNtcdhRU/9njjuICjc2qcULqYwKC0JQCPapzDP0NCh/7DJASPwvTU2dxBNb7
-sXFnXRXvc+JzBGGkQmz2nkcm7bpPq5y+qmj6skDBaUY8h0/LPw62RU7b1kWNFZ2H+We9Sd0IFMQD
-x9nap6usOAPlUPCBGhjvtgbjVBDcABWarLcN2CfDpRQCFqUti7Ncz+t3TtUAZYj3r1wWfm97l2gz
-xYflWS6sY1Ro2gx3unZnpdwugYrVRirVh7w0Cinrn3k42sOiWQ6XFdImtbnTgX72mDw7FaOzo6ub
-gYuvNUGkSUCYkynJDLzmi/dm19JncU77YfLrsKSqQJBpkP3rtTzRT5UkNs3k801MqvShW66unjGp
-CY2lfIfL2HR/lkQH2JfuQNDAOiHpAfSTQ4Grq7xJG6/anE5fodsZeIC9+PL4vPIJBXkHM8cZUzvn
-7zv9t5XhNdSNeYc45Exasly5PJbpquu9WS04Z+AOD0quryUUpnygGfZTJ7ZxRCg8knonhE9iRx56
-oISm20X8jDMiORPC6/6BdHz4sdy7qUpmupHi/KF4CkvbqFHdJCEGK2b8B+RyH0a0NIymfjgguT99
-itq1BjUMim5nw2jObpacTG5s8ngtspv+nNwmqjgvfUzeRcRTwjsZBKWelF0Zps3kJp8NAC91CkZ5
-Aqoa3XszSEFpxqdpi6I5oS9eNBCTl6pVmkBXuzrygPjv+hs2UFzo07V9qKYW1gnUm4NG0HarnLpl
-eBDiTmQBnt1YBQXjw4oTfgEY95WuAvbZ7XvB6Uq4GM/36Grw8tZ88sIrOHr8oprsitGOHK/QAN+G
-13Iw8CBBbLRrK1xDQnm0CQhSSrZthUIc+3cATqyR6cIUKyOP6sB7td09tCc0vUqTjzDJ4qZf1zMu
-HcNBopA1pee5P1I3GKC3Nm9uewR5HnLrzFEBV0rwkp349vAozjhhyQK5hZf/nPDU+p8fBoQxWz+H
-4sWQbkem86F/lwFqRBG8rh67DwuLbzn0vgfSxQ25SJhX45nlPPasJV1x6QKhHb0UmxttkkyJsoPP
-km4bDvuE19fIa8OmrFnfJUbBEUo/BC+EladR1mGF9KANSbbI32eE5b+vhUcqFGSCvHaQTuQmfPYE
-OU4Mh0xGmBVvA+AszMabc45l/ZVtlkp/kaMXpkZVYtglfkTQXDFShqkre+PoHk13wg4PBe296oSX
-K0g+RYGnu3EQMu+gyme2emmdYRwwQbCJ4OHh13xu8SWj7KzqrF20s9AnJYi672gusLPJ4eUiNSdF
-QlMO8j8rFatuM1ZCbacBtfmHy72qeva59ZFEZbY7g16AqNa=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Sheets;
+
+class PivotTable extends \Google\Collection
+{
+  protected $collection_key = 'values';
+  protected $columnsType = PivotGroup::class;
+  protected $columnsDataType = 'array';
+  protected $criteriaType = PivotFilterCriteria::class;
+  protected $criteriaDataType = 'map';
+  protected $dataExecutionStatusType = DataExecutionStatus::class;
+  protected $dataExecutionStatusDataType = '';
+  public $dataSourceId;
+  protected $filterSpecsType = PivotFilterSpec::class;
+  protected $filterSpecsDataType = 'array';
+  protected $rowsType = PivotGroup::class;
+  protected $rowsDataType = 'array';
+  protected $sourceType = GridRange::class;
+  protected $sourceDataType = '';
+  public $valueLayout;
+  protected $valuesType = PivotValue::class;
+  protected $valuesDataType = 'array';
+
+  /**
+   * @param PivotGroup[]
+   */
+  public function setColumns($columns)
+  {
+    $this->columns = $columns;
+  }
+  /**
+   * @return PivotGroup[]
+   */
+  public function getColumns()
+  {
+    return $this->columns;
+  }
+  /**
+   * @param PivotFilterCriteria[]
+   */
+  public function setCriteria($criteria)
+  {
+    $this->criteria = $criteria;
+  }
+  /**
+   * @return PivotFilterCriteria[]
+   */
+  public function getCriteria()
+  {
+    return $this->criteria;
+  }
+  /**
+   * @param DataExecutionStatus
+   */
+  public function setDataExecutionStatus(DataExecutionStatus $dataExecutionStatus)
+  {
+    $this->dataExecutionStatus = $dataExecutionStatus;
+  }
+  /**
+   * @return DataExecutionStatus
+   */
+  public function getDataExecutionStatus()
+  {
+    return $this->dataExecutionStatus;
+  }
+  public function setDataSourceId($dataSourceId)
+  {
+    $this->dataSourceId = $dataSourceId;
+  }
+  public function getDataSourceId()
+  {
+    return $this->dataSourceId;
+  }
+  /**
+   * @param PivotFilterSpec[]
+   */
+  public function setFilterSpecs($filterSpecs)
+  {
+    $this->filterSpecs = $filterSpecs;
+  }
+  /**
+   * @return PivotFilterSpec[]
+   */
+  public function getFilterSpecs()
+  {
+    return $this->filterSpecs;
+  }
+  /**
+   * @param PivotGroup[]
+   */
+  public function setRows($rows)
+  {
+    $this->rows = $rows;
+  }
+  /**
+   * @return PivotGroup[]
+   */
+  public function getRows()
+  {
+    return $this->rows;
+  }
+  /**
+   * @param GridRange
+   */
+  public function setSource(GridRange $source)
+  {
+    $this->source = $source;
+  }
+  /**
+   * @return GridRange
+   */
+  public function getSource()
+  {
+    return $this->source;
+  }
+  public function setValueLayout($valueLayout)
+  {
+    $this->valueLayout = $valueLayout;
+  }
+  public function getValueLayout()
+  {
+    return $this->valueLayout;
+  }
+  /**
+   * @param PivotValue[]
+   */
+  public function setValues($values)
+  {
+    $this->values = $values;
+  }
+  /**
+   * @return PivotValue[]
+   */
+  public function getValues()
+  {
+    return $this->values;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PivotTable::class, 'Google_Service_Sheets_PivotTable');

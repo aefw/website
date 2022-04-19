@@ -1,61 +1,84 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Safebrowsing;
+
+class GoogleSecuritySafebrowsingV4FindFullHashesRequest extends \Google\Collection
+{
+  protected $collection_key = 'clientStates';
+  protected $apiClientType = GoogleSecuritySafebrowsingV4ClientInfo::class;
+  protected $apiClientDataType = '';
+  protected $clientType = GoogleSecuritySafebrowsingV4ClientInfo::class;
+  protected $clientDataType = '';
+  public $clientStates;
+  protected $threatInfoType = GoogleSecuritySafebrowsingV4ThreatInfo::class;
+  protected $threatInfoDataType = '';
+
+  /**
+   * @param GoogleSecuritySafebrowsingV4ClientInfo
+   */
+  public function setApiClient(GoogleSecuritySafebrowsingV4ClientInfo $apiClient)
+  {
+    $this->apiClient = $apiClient;
+  }
+  /**
+   * @return GoogleSecuritySafebrowsingV4ClientInfo
+   */
+  public function getApiClient()
+  {
+    return $this->apiClient;
+  }
+  /**
+   * @param GoogleSecuritySafebrowsingV4ClientInfo
+   */
+  public function setClient(GoogleSecuritySafebrowsingV4ClientInfo $client)
+  {
+    $this->client = $client;
+  }
+  /**
+   * @return GoogleSecuritySafebrowsingV4ClientInfo
+   */
+  public function getClient()
+  {
+    return $this->client;
+  }
+  public function setClientStates($clientStates)
+  {
+    $this->clientStates = $clientStates;
+  }
+  public function getClientStates()
+  {
+    return $this->clientStates;
+  }
+  /**
+   * @param GoogleSecuritySafebrowsingV4ThreatInfo
+   */
+  public function setThreatInfo(GoogleSecuritySafebrowsingV4ThreatInfo $threatInfo)
+  {
+    $this->threatInfo = $threatInfo;
+  }
+  /**
+   * @return GoogleSecuritySafebrowsingV4ThreatInfo
+   */
+  public function getThreatInfo()
+  {
+    return $this->threatInfo;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleSecuritySafebrowsingV4FindFullHashesRequest::class, 'Google_Service_Safebrowsing_GoogleSecuritySafebrowsingV4FindFullHashesRequest');

@@ -1,88 +1,272 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-IrxzCfQLeuzodGq=
+<?php
+
+namespace PhpOffice\PhpSpreadsheet\Style;
+
+use PhpOffice\PhpSpreadsheet\IComparable;
+
+class Conditional implements IComparable
+{
+    // Condition types
+    const CONDITION_NONE = 'none';
+    const CONDITION_CELLIS = 'cellIs';
+    const CONDITION_CONTAINSTEXT = 'containsText';
+    const CONDITION_EXPRESSION = 'expression';
+    const CONDITION_CONTAINSBLANKS = 'containsBlanks';
+
+    // Operator types
+    const OPERATOR_NONE = '';
+    const OPERATOR_BEGINSWITH = 'beginsWith';
+    const OPERATOR_ENDSWITH = 'endsWith';
+    const OPERATOR_EQUAL = 'equal';
+    const OPERATOR_GREATERTHAN = 'greaterThan';
+    const OPERATOR_GREATERTHANOREQUAL = 'greaterThanOrEqual';
+    const OPERATOR_LESSTHAN = 'lessThan';
+    const OPERATOR_LESSTHANOREQUAL = 'lessThanOrEqual';
+    const OPERATOR_NOTEQUAL = 'notEqual';
+    const OPERATOR_CONTAINSTEXT = 'containsText';
+    const OPERATOR_NOTCONTAINS = 'notContains';
+    const OPERATOR_BETWEEN = 'between';
+
+    /**
+     * Condition type.
+     *
+     * @var string
+     */
+    private $conditionType = self::CONDITION_NONE;
+
+    /**
+     * Operator type.
+     *
+     * @var string
+     */
+    private $operatorType = self::OPERATOR_NONE;
+
+    /**
+     * Text.
+     *
+     * @var string
+     */
+    private $text;
+
+    /**
+     * Stop on this condition, if it matches.
+     *
+     * @var bool
+     */
+    private $stopIfTrue = false;
+
+    /**
+     * Condition.
+     *
+     * @var string[]
+     */
+    private $condition = [];
+
+    /**
+     * Style.
+     *
+     * @var Style
+     */
+    private $style;
+
+    /**
+     * Create a new Conditional.
+     */
+    public function __construct()
+    {
+        // Initialise values
+        $this->style = new Style(false, true);
+    }
+
+    /**
+     * Get Condition type.
+     *
+     * @return string
+     */
+    public function getConditionType()
+    {
+        return $this->conditionType;
+    }
+
+    /**
+     * Set Condition type.
+     *
+     * @param string $pValue Condition type, see self::CONDITION_*
+     *
+     * @return Conditional
+     */
+    public function setConditionType($pValue)
+    {
+        $this->conditionType = $pValue;
+
+        return $this;
+    }
+
+    /**
+     * Get Operator type.
+     *
+     * @return string
+     */
+    public function getOperatorType()
+    {
+        return $this->operatorType;
+    }
+
+    /**
+     * Set Operator type.
+     *
+     * @param string $pValue Conditional operator type, see self::OPERATOR_*
+     *
+     * @return Conditional
+     */
+    public function setOperatorType($pValue)
+    {
+        $this->operatorType = $pValue;
+
+        return $this;
+    }
+
+    /**
+     * Get text.
+     *
+     * @return string
+     */
+    public function getText()
+    {
+        return $this->text;
+    }
+
+    /**
+     * Set text.
+     *
+     * @param string $value
+     *
+     * @return Conditional
+     */
+    public function setText($value)
+    {
+        $this->text = $value;
+
+        return $this;
+    }
+
+    /**
+     * Get StopIfTrue.
+     *
+     * @return bool
+     */
+    public function getStopIfTrue()
+    {
+        return $this->stopIfTrue;
+    }
+
+    /**
+     * Set StopIfTrue.
+     *
+     * @param bool $value
+     *
+     * @return Conditional
+     */
+    public function setStopIfTrue($value)
+    {
+        $this->stopIfTrue = $value;
+
+        return $this;
+    }
+
+    /**
+     * Get Conditions.
+     *
+     * @return string[]
+     */
+    public function getConditions()
+    {
+        return $this->condition;
+    }
+
+    /**
+     * Set Conditions.
+     *
+     * @param string[] $pValue Condition
+     *
+     * @return Conditional
+     */
+    public function setConditions($pValue)
+    {
+        if (!is_array($pValue)) {
+            $pValue = [$pValue];
+        }
+        $this->condition = $pValue;
+
+        return $this;
+    }
+
+    /**
+     * Add Condition.
+     *
+     * @param string $pValue Condition
+     *
+     * @return Conditional
+     */
+    public function addCondition($pValue)
+    {
+        $this->condition[] = $pValue;
+
+        return $this;
+    }
+
+    /**
+     * Get Style.
+     *
+     * @return Style
+     */
+    public function getStyle()
+    {
+        return $this->style;
+    }
+
+    /**
+     * Set Style.
+     *
+     * @param Style $pValue
+     *
+     * @return Conditional
+     */
+    public function setStyle(Style $pValue = null)
+    {
+        $this->style = $pValue;
+
+        return $this;
+    }
+
+    /**
+     * Get hash code.
+     *
+     * @return string Hash code
+     */
+    public function getHashCode()
+    {
+        return md5(
+            $this->conditionType .
+            $this->operatorType .
+            implode(';', $this->condition) .
+            $this->style->getHashCode() .
+            __CLASS__
+        );
+    }
+
+    /**
+     * Implement PHP __clone to create a deep clone, not just a shallow copy.
+     */
+    public function __clone()
+    {
+        $vars = get_object_vars($this);
+        foreach ($vars as $key => $value) {
+            if (is_object($value)) {
+                $this->$key = clone $value;
+            } else {
+                $this->$key = $value;
+            }
+        }
+    }
+}

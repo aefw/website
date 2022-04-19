@@ -1,93 +1,165 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AdExchangeBuyer;
+
+class CreativeNativeAd extends \Google\Collection
+{
+  protected $collection_key = 'impressionTrackingUrl';
+  public $advertiser;
+  protected $appIconType = CreativeNativeAdAppIcon::class;
+  protected $appIconDataType = '';
+  public $body;
+  public $callToAction;
+  public $clickLinkUrl;
+  public $clickTrackingUrl;
+  public $headline;
+  protected $imageType = CreativeNativeAdImage::class;
+  protected $imageDataType = '';
+  public $impressionTrackingUrl;
+  protected $logoType = CreativeNativeAdLogo::class;
+  protected $logoDataType = '';
+  public $price;
+  public $starRating;
+  public $videoURL;
+
+  public function setAdvertiser($advertiser)
+  {
+    $this->advertiser = $advertiser;
+  }
+  public function getAdvertiser()
+  {
+    return $this->advertiser;
+  }
+  /**
+   * @param CreativeNativeAdAppIcon
+   */
+  public function setAppIcon(CreativeNativeAdAppIcon $appIcon)
+  {
+    $this->appIcon = $appIcon;
+  }
+  /**
+   * @return CreativeNativeAdAppIcon
+   */
+  public function getAppIcon()
+  {
+    return $this->appIcon;
+  }
+  public function setBody($body)
+  {
+    $this->body = $body;
+  }
+  public function getBody()
+  {
+    return $this->body;
+  }
+  public function setCallToAction($callToAction)
+  {
+    $this->callToAction = $callToAction;
+  }
+  public function getCallToAction()
+  {
+    return $this->callToAction;
+  }
+  public function setClickLinkUrl($clickLinkUrl)
+  {
+    $this->clickLinkUrl = $clickLinkUrl;
+  }
+  public function getClickLinkUrl()
+  {
+    return $this->clickLinkUrl;
+  }
+  public function setClickTrackingUrl($clickTrackingUrl)
+  {
+    $this->clickTrackingUrl = $clickTrackingUrl;
+  }
+  public function getClickTrackingUrl()
+  {
+    return $this->clickTrackingUrl;
+  }
+  public function setHeadline($headline)
+  {
+    $this->headline = $headline;
+  }
+  public function getHeadline()
+  {
+    return $this->headline;
+  }
+  /**
+   * @param CreativeNativeAdImage
+   */
+  public function setImage(CreativeNativeAdImage $image)
+  {
+    $this->image = $image;
+  }
+  /**
+   * @return CreativeNativeAdImage
+   */
+  public function getImage()
+  {
+    return $this->image;
+  }
+  public function setImpressionTrackingUrl($impressionTrackingUrl)
+  {
+    $this->impressionTrackingUrl = $impressionTrackingUrl;
+  }
+  public function getImpressionTrackingUrl()
+  {
+    return $this->impressionTrackingUrl;
+  }
+  /**
+   * @param CreativeNativeAdLogo
+   */
+  public function setLogo(CreativeNativeAdLogo $logo)
+  {
+    $this->logo = $logo;
+  }
+  /**
+   * @return CreativeNativeAdLogo
+   */
+  public function getLogo()
+  {
+    return $this->logo;
+  }
+  public function setPrice($price)
+  {
+    $this->price = $price;
+  }
+  public function getPrice()
+  {
+    return $this->price;
+  }
+  public function setStarRating($starRating)
+  {
+    $this->starRating = $starRating;
+  }
+  public function getStarRating()
+  {
+    return $this->starRating;
+  }
+  public function setVideoURL($videoURL)
+  {
+    $this->videoURL = $videoURL;
+  }
+  public function getVideoURL()
+  {
+    return $this->videoURL;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(CreativeNativeAd::class, 'Google_Service_AdExchangeBuyer_CreativeNativeAd');

@@ -1,275 +1,841 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-c43xKBhPnFc/qFI1ieO2sLmHhBKYge4=
+<?php
+
+namespace PhpOffice\PhpSpreadsheet\Helper;
+
+use DOMDocument;
+use DOMElement;
+use DOMNode;
+use DOMText;
+use PhpOffice\PhpSpreadsheet\RichText\RichText;
+use PhpOffice\PhpSpreadsheet\Style\Color;
+use PhpOffice\PhpSpreadsheet\Style\Font;
+
+class Html
+{
+    protected static $colourMap = [
+        'aliceblue' => 'f0f8ff',
+        'antiquewhite' => 'faebd7',
+        'antiquewhite1' => 'ffefdb',
+        'antiquewhite2' => 'eedfcc',
+        'antiquewhite3' => 'cdc0b0',
+        'antiquewhite4' => '8b8378',
+        'aqua' => '00ffff',
+        'aquamarine1' => '7fffd4',
+        'aquamarine2' => '76eec6',
+        'aquamarine4' => '458b74',
+        'azure1' => 'f0ffff',
+        'azure2' => 'e0eeee',
+        'azure3' => 'c1cdcd',
+        'azure4' => '838b8b',
+        'beige' => 'f5f5dc',
+        'bisque1' => 'ffe4c4',
+        'bisque2' => 'eed5b7',
+        'bisque3' => 'cdb79e',
+        'bisque4' => '8b7d6b',
+        'black' => '000000',
+        'blanchedalmond' => 'ffebcd',
+        'blue' => '0000ff',
+        'blue1' => '0000ff',
+        'blue2' => '0000ee',
+        'blue4' => '00008b',
+        'blueviolet' => '8a2be2',
+        'brown' => 'a52a2a',
+        'brown1' => 'ff4040',
+        'brown2' => 'ee3b3b',
+        'brown3' => 'cd3333',
+        'brown4' => '8b2323',
+        'burlywood' => 'deb887',
+        'burlywood1' => 'ffd39b',
+        'burlywood2' => 'eec591',
+        'burlywood3' => 'cdaa7d',
+        'burlywood4' => '8b7355',
+        'cadetblue' => '5f9ea0',
+        'cadetblue1' => '98f5ff',
+        'cadetblue2' => '8ee5ee',
+        'cadetblue3' => '7ac5cd',
+        'cadetblue4' => '53868b',
+        'chartreuse1' => '7fff00',
+        'chartreuse2' => '76ee00',
+        'chartreuse3' => '66cd00',
+        'chartreuse4' => '458b00',
+        'chocolate' => 'd2691e',
+        'chocolate1' => 'ff7f24',
+        'chocolate2' => 'ee7621',
+        'chocolate3' => 'cd661d',
+        'coral' => 'ff7f50',
+        'coral1' => 'ff7256',
+        'coral2' => 'ee6a50',
+        'coral3' => 'cd5b45',
+        'coral4' => '8b3e2f',
+        'cornflowerblue' => '6495ed',
+        'cornsilk1' => 'fff8dc',
+        'cornsilk2' => 'eee8cd',
+        'cornsilk3' => 'cdc8b1',
+        'cornsilk4' => '8b8878',
+        'cyan1' => '00ffff',
+        'cyan2' => '00eeee',
+        'cyan3' => '00cdcd',
+        'cyan4' => '008b8b',
+        'darkgoldenrod' => 'b8860b',
+        'darkgoldenrod1' => 'ffb90f',
+        'darkgoldenrod2' => 'eead0e',
+        'darkgoldenrod3' => 'cd950c',
+        'darkgoldenrod4' => '8b6508',
+        'darkgreen' => '006400',
+        'darkkhaki' => 'bdb76b',
+        'darkolivegreen' => '556b2f',
+        'darkolivegreen1' => 'caff70',
+        'darkolivegreen2' => 'bcee68',
+        'darkolivegreen3' => 'a2cd5a',
+        'darkolivegreen4' => '6e8b3d',
+        'darkorange' => 'ff8c00',
+        'darkorange1' => 'ff7f00',
+        'darkorange2' => 'ee7600',
+        'darkorange3' => 'cd6600',
+        'darkorange4' => '8b4500',
+        'darkorchid' => '9932cc',
+        'darkorchid1' => 'bf3eff',
+        'darkorchid2' => 'b23aee',
+        'darkorchid3' => '9a32cd',
+        'darkorchid4' => '68228b',
+        'darksalmon' => 'e9967a',
+        'darkseagreen' => '8fbc8f',
+        'darkseagreen1' => 'c1ffc1',
+        'darkseagreen2' => 'b4eeb4',
+        'darkseagreen3' => '9bcd9b',
+        'darkseagreen4' => '698b69',
+        'darkslateblue' => '483d8b',
+        'darkslategray' => '2f4f4f',
+        'darkslategray1' => '97ffff',
+        'darkslategray2' => '8deeee',
+        'darkslategray3' => '79cdcd',
+        'darkslategray4' => '528b8b',
+        'darkturquoise' => '00ced1',
+        'darkviolet' => '9400d3',
+        'deeppink1' => 'ff1493',
+        'deeppink2' => 'ee1289',
+        'deeppink3' => 'cd1076',
+        'deeppink4' => '8b0a50',
+        'deepskyblue1' => '00bfff',
+        'deepskyblue2' => '00b2ee',
+        'deepskyblue3' => '009acd',
+        'deepskyblue4' => '00688b',
+        'dimgray' => '696969',
+        'dodgerblue1' => '1e90ff',
+        'dodgerblue2' => '1c86ee',
+        'dodgerblue3' => '1874cd',
+        'dodgerblue4' => '104e8b',
+        'firebrick' => 'b22222',
+        'firebrick1' => 'ff3030',
+        'firebrick2' => 'ee2c2c',
+        'firebrick3' => 'cd2626',
+        'firebrick4' => '8b1a1a',
+        'floralwhite' => 'fffaf0',
+        'forestgreen' => '228b22',
+        'fuchsia' => 'ff00ff',
+        'gainsboro' => 'dcdcdc',
+        'ghostwhite' => 'f8f8ff',
+        'gold1' => 'ffd700',
+        'gold2' => 'eec900',
+        'gold3' => 'cdad00',
+        'gold4' => '8b7500',
+        'goldenrod' => 'daa520',
+        'goldenrod1' => 'ffc125',
+        'goldenrod2' => 'eeb422',
+        'goldenrod3' => 'cd9b1d',
+        'goldenrod4' => '8b6914',
+        'gray' => 'bebebe',
+        'gray1' => '030303',
+        'gray10' => '1a1a1a',
+        'gray11' => '1c1c1c',
+        'gray12' => '1f1f1f',
+        'gray13' => '212121',
+        'gray14' => '242424',
+        'gray15' => '262626',
+        'gray16' => '292929',
+        'gray17' => '2b2b2b',
+        'gray18' => '2e2e2e',
+        'gray19' => '303030',
+        'gray2' => '050505',
+        'gray20' => '333333',
+        'gray21' => '363636',
+        'gray22' => '383838',
+        'gray23' => '3b3b3b',
+        'gray24' => '3d3d3d',
+        'gray25' => '404040',
+        'gray26' => '424242',
+        'gray27' => '454545',
+        'gray28' => '474747',
+        'gray29' => '4a4a4a',
+        'gray3' => '080808',
+        'gray30' => '4d4d4d',
+        'gray31' => '4f4f4f',
+        'gray32' => '525252',
+        'gray33' => '545454',
+        'gray34' => '575757',
+        'gray35' => '595959',
+        'gray36' => '5c5c5c',
+        'gray37' => '5e5e5e',
+        'gray38' => '616161',
+        'gray39' => '636363',
+        'gray4' => '0a0a0a',
+        'gray40' => '666666',
+        'gray41' => '696969',
+        'gray42' => '6b6b6b',
+        'gray43' => '6e6e6e',
+        'gray44' => '707070',
+        'gray45' => '737373',
+        'gray46' => '757575',
+        'gray47' => '787878',
+        'gray48' => '7a7a7a',
+        'gray49' => '7d7d7d',
+        'gray5' => '0d0d0d',
+        'gray50' => '7f7f7f',
+        'gray51' => '828282',
+        'gray52' => '858585',
+        'gray53' => '878787',
+        'gray54' => '8a8a8a',
+        'gray55' => '8c8c8c',
+        'gray56' => '8f8f8f',
+        'gray57' => '919191',
+        'gray58' => '949494',
+        'gray59' => '969696',
+        'gray6' => '0f0f0f',
+        'gray60' => '999999',
+        'gray61' => '9c9c9c',
+        'gray62' => '9e9e9e',
+        'gray63' => 'a1a1a1',
+        'gray64' => 'a3a3a3',
+        'gray65' => 'a6a6a6',
+        'gray66' => 'a8a8a8',
+        'gray67' => 'ababab',
+        'gray68' => 'adadad',
+        'gray69' => 'b0b0b0',
+        'gray7' => '121212',
+        'gray70' => 'b3b3b3',
+        'gray71' => 'b5b5b5',
+        'gray72' => 'b8b8b8',
+        'gray73' => 'bababa',
+        'gray74' => 'bdbdbd',
+        'gray75' => 'bfbfbf',
+        'gray76' => 'c2c2c2',
+        'gray77' => 'c4c4c4',
+        'gray78' => 'c7c7c7',
+        'gray79' => 'c9c9c9',
+        'gray8' => '141414',
+        'gray80' => 'cccccc',
+        'gray81' => 'cfcfcf',
+        'gray82' => 'd1d1d1',
+        'gray83' => 'd4d4d4',
+        'gray84' => 'd6d6d6',
+        'gray85' => 'd9d9d9',
+        'gray86' => 'dbdbdb',
+        'gray87' => 'dedede',
+        'gray88' => 'e0e0e0',
+        'gray89' => 'e3e3e3',
+        'gray9' => '171717',
+        'gray90' => 'e5e5e5',
+        'gray91' => 'e8e8e8',
+        'gray92' => 'ebebeb',
+        'gray93' => 'ededed',
+        'gray94' => 'f0f0f0',
+        'gray95' => 'f2f2f2',
+        'gray97' => 'f7f7f7',
+        'gray98' => 'fafafa',
+        'gray99' => 'fcfcfc',
+        'green' => '00ff00',
+        'green1' => '00ff00',
+        'green2' => '00ee00',
+        'green3' => '00cd00',
+        'green4' => '008b00',
+        'greenyellow' => 'adff2f',
+        'honeydew1' => 'f0fff0',
+        'honeydew2' => 'e0eee0',
+        'honeydew3' => 'c1cdc1',
+        'honeydew4' => '838b83',
+        'hotpink' => 'ff69b4',
+        'hotpink1' => 'ff6eb4',
+        'hotpink2' => 'ee6aa7',
+        'hotpink3' => 'cd6090',
+        'hotpink4' => '8b3a62',
+        'indianred' => 'cd5c5c',
+        'indianred1' => 'ff6a6a',
+        'indianred2' => 'ee6363',
+        'indianred3' => 'cd5555',
+        'indianred4' => '8b3a3a',
+        'ivory1' => 'fffff0',
+        'ivory2' => 'eeeee0',
+        'ivory3' => 'cdcdc1',
+        'ivory4' => '8b8b83',
+        'khaki' => 'f0e68c',
+        'khaki1' => 'fff68f',
+        'khaki2' => 'eee685',
+        'khaki3' => 'cdc673',
+        'khaki4' => '8b864e',
+        'lavender' => 'e6e6fa',
+        'lavenderblush1' => 'fff0f5',
+        'lavenderblush2' => 'eee0e5',
+        'lavenderblush3' => 'cdc1c5',
+        'lavenderblush4' => '8b8386',
+        'lawngreen' => '7cfc00',
+        'lemonchiffon1' => 'fffacd',
+        'lemonchiffon2' => 'eee9bf',
+        'lemonchiffon3' => 'cdc9a5',
+        'lemonchiffon4' => '8b8970',
+        'light' => 'eedd82',
+        'lightblue' => 'add8e6',
+        'lightblue1' => 'bfefff',
+        'lightblue2' => 'b2dfee',
+        'lightblue3' => '9ac0cd',
+        'lightblue4' => '68838b',
+        'lightcoral' => 'f08080',
+        'lightcyan1' => 'e0ffff',
+        'lightcyan2' => 'd1eeee',
+        'lightcyan3' => 'b4cdcd',
+        'lightcyan4' => '7a8b8b',
+        'lightgoldenrod1' => 'ffec8b',
+        'lightgoldenrod2' => 'eedc82',
+        'lightgoldenrod3' => 'cdbe70',
+        'lightgoldenrod4' => '8b814c',
+        'lightgoldenrodyellow' => 'fafad2',
+        'lightgray' => 'd3d3d3',
+        'lightpink' => 'ffb6c1',
+        'lightpink1' => 'ffaeb9',
+        'lightpink2' => 'eea2ad',
+        'lightpink3' => 'cd8c95',
+        'lightpink4' => '8b5f65',
+        'lightsalmon1' => 'ffa07a',
+        'lightsalmon2' => 'ee9572',
+        'lightsalmon3' => 'cd8162',
+        'lightsalmon4' => '8b5742',
+        'lightseagreen' => '20b2aa',
+        'lightskyblue' => '87cefa',
+        'lightskyblue1' => 'b0e2ff',
+        'lightskyblue2' => 'a4d3ee',
+        'lightskyblue3' => '8db6cd',
+        'lightskyblue4' => '607b8b',
+        'lightslateblue' => '8470ff',
+        'lightslategray' => '778899',
+        'lightsteelblue' => 'b0c4de',
+        'lightsteelblue1' => 'cae1ff',
+        'lightsteelblue2' => 'bcd2ee',
+        'lightsteelblue3' => 'a2b5cd',
+        'lightsteelblue4' => '6e7b8b',
+        'lightyellow1' => 'ffffe0',
+        'lightyellow2' => 'eeeed1',
+        'lightyellow3' => 'cdcdb4',
+        'lightyellow4' => '8b8b7a',
+        'lime' => '00ff00',
+        'limegreen' => '32cd32',
+        'linen' => 'faf0e6',
+        'magenta' => 'ff00ff',
+        'magenta2' => 'ee00ee',
+        'magenta3' => 'cd00cd',
+        'magenta4' => '8b008b',
+        'maroon' => 'b03060',
+        'maroon1' => 'ff34b3',
+        'maroon2' => 'ee30a7',
+        'maroon3' => 'cd2990',
+        'maroon4' => '8b1c62',
+        'medium' => '66cdaa',
+        'mediumaquamarine' => '66cdaa',
+        'mediumblue' => '0000cd',
+        'mediumorchid' => 'ba55d3',
+        'mediumorchid1' => 'e066ff',
+        'mediumorchid2' => 'd15fee',
+        'mediumorchid3' => 'b452cd',
+        'mediumorchid4' => '7a378b',
+        'mediumpurple' => '9370db',
+        'mediumpurple1' => 'ab82ff',
+        'mediumpurple2' => '9f79ee',
+        'mediumpurple3' => '8968cd',
+        'mediumpurple4' => '5d478b',
+        'mediumseagreen' => '3cb371',
+        'mediumslateblue' => '7b68ee',
+        'mediumspringgreen' => '00fa9a',
+        'mediumturquoise' => '48d1cc',
+        'mediumvioletred' => 'c71585',
+        'midnightblue' => '191970',
+        'mintcream' => 'f5fffa',
+        'mistyrose1' => 'ffe4e1',
+        'mistyrose2' => 'eed5d2',
+        'mistyrose3' => 'cdb7b5',
+        'mistyrose4' => '8b7d7b',
+        'moccasin' => 'ffe4b5',
+        'navajowhite1' => 'ffdead',
+        'navajowhite2' => 'eecfa1',
+        'navajowhite3' => 'cdb38b',
+        'navajowhite4' => '8b795e',
+        'navy' => '000080',
+        'navyblue' => '000080',
+        'oldlace' => 'fdf5e6',
+        'olive' => '808000',
+        'olivedrab' => '6b8e23',
+        'olivedrab1' => 'c0ff3e',
+        'olivedrab2' => 'b3ee3a',
+        'olivedrab4' => '698b22',
+        'orange' => 'ffa500',
+        'orange1' => 'ffa500',
+        'orange2' => 'ee9a00',
+        'orange3' => 'cd8500',
+        'orange4' => '8b5a00',
+        'orangered1' => 'ff4500',
+        'orangered2' => 'ee4000',
+        'orangered3' => 'cd3700',
+        'orangered4' => '8b2500',
+        'orchid' => 'da70d6',
+        'orchid1' => 'ff83fa',
+        'orchid2' => 'ee7ae9',
+        'orchid3' => 'cd69c9',
+        'orchid4' => '8b4789',
+        'pale' => 'db7093',
+        'palegoldenrod' => 'eee8aa',
+        'palegreen' => '98fb98',
+        'palegreen1' => '9aff9a',
+        'palegreen2' => '90ee90',
+        'palegreen3' => '7ccd7c',
+        'palegreen4' => '548b54',
+        'paleturquoise' => 'afeeee',
+        'paleturquoise1' => 'bbffff',
+        'paleturquoise2' => 'aeeeee',
+        'paleturquoise3' => '96cdcd',
+        'paleturquoise4' => '668b8b',
+        'palevioletred' => 'db7093',
+        'palevioletred1' => 'ff82ab',
+        'palevioletred2' => 'ee799f',
+        'palevioletred3' => 'cd6889',
+        'palevioletred4' => '8b475d',
+        'papayawhip' => 'ffefd5',
+        'peachpuff1' => 'ffdab9',
+        'peachpuff2' => 'eecbad',
+        'peachpuff3' => 'cdaf95',
+        'peachpuff4' => '8b7765',
+        'pink' => 'ffc0cb',
+        'pink1' => 'ffb5c5',
+        'pink2' => 'eea9b8',
+        'pink3' => 'cd919e',
+        'pink4' => '8b636c',
+        'plum' => 'dda0dd',
+        'plum1' => 'ffbbff',
+        'plum2' => 'eeaeee',
+        'plum3' => 'cd96cd',
+        'plum4' => '8b668b',
+        'powderblue' => 'b0e0e6',
+        'purple' => 'a020f0',
+        'rebeccapurple' => '663399',
+        'purple1' => '9b30ff',
+        'purple2' => '912cee',
+        'purple3' => '7d26cd',
+        'purple4' => '551a8b',
+        'red' => 'ff0000',
+        'red1' => 'ff0000',
+        'red2' => 'ee0000',
+        'red3' => 'cd0000',
+        'red4' => '8b0000',
+        'rosybrown' => 'bc8f8f',
+        'rosybrown1' => 'ffc1c1',
+        'rosybrown2' => 'eeb4b4',
+        'rosybrown3' => 'cd9b9b',
+        'rosybrown4' => '8b6969',
+        'royalblue' => '4169e1',
+        'royalblue1' => '4876ff',
+        'royalblue2' => '436eee',
+        'royalblue3' => '3a5fcd',
+        'royalblue4' => '27408b',
+        'saddlebrown' => '8b4513',
+        'salmon' => 'fa8072',
+        'salmon1' => 'ff8c69',
+        'salmon2' => 'ee8262',
+        'salmon3' => 'cd7054',
+        'salmon4' => '8b4c39',
+        'sandybrown' => 'f4a460',
+        'seagreen1' => '54ff9f',
+        'seagreen2' => '4eee94',
+        'seagreen3' => '43cd80',
+        'seagreen4' => '2e8b57',
+        'seashell1' => 'fff5ee',
+        'seashell2' => 'eee5de',
+        'seashell3' => 'cdc5bf',
+        'seashell4' => '8b8682',
+        'sienna' => 'a0522d',
+        'sienna1' => 'ff8247',
+        'sienna2' => 'ee7942',
+        'sienna3' => 'cd6839',
+        'sienna4' => '8b4726',
+        'silver' => 'c0c0c0',
+        'skyblue' => '87ceeb',
+        'skyblue1' => '87ceff',
+        'skyblue2' => '7ec0ee',
+        'skyblue3' => '6ca6cd',
+        'skyblue4' => '4a708b',
+        'slateblue' => '6a5acd',
+        'slateblue1' => '836fff',
+        'slateblue2' => '7a67ee',
+        'slateblue3' => '6959cd',
+        'slateblue4' => '473c8b',
+        'slategray' => '708090',
+        'slategray1' => 'c6e2ff',
+        'slategray2' => 'b9d3ee',
+        'slategray3' => '9fb6cd',
+        'slategray4' => '6c7b8b',
+        'snow1' => 'fffafa',
+        'snow2' => 'eee9e9',
+        'snow3' => 'cdc9c9',
+        'snow4' => '8b8989',
+        'springgreen1' => '00ff7f',
+        'springgreen2' => '00ee76',
+        'springgreen3' => '00cd66',
+        'springgreen4' => '008b45',
+        'steelblue' => '4682b4',
+        'steelblue1' => '63b8ff',
+        'steelblue2' => '5cacee',
+        'steelblue3' => '4f94cd',
+        'steelblue4' => '36648b',
+        'tan' => 'd2b48c',
+        'tan1' => 'ffa54f',
+        'tan2' => 'ee9a49',
+        'tan3' => 'cd853f',
+        'tan4' => '8b5a2b',
+        'teal' => '008080',
+        'thistle' => 'd8bfd8',
+        'thistle1' => 'ffe1ff',
+        'thistle2' => 'eed2ee',
+        'thistle3' => 'cdb5cd',
+        'thistle4' => '8b7b8b',
+        'tomato1' => 'ff6347',
+        'tomato2' => 'ee5c42',
+        'tomato3' => 'cd4f39',
+        'tomato4' => '8b3626',
+        'turquoise' => '40e0d0',
+        'turquoise1' => '00f5ff',
+        'turquoise2' => '00e5ee',
+        'turquoise3' => '00c5cd',
+        'turquoise4' => '00868b',
+        'violet' => 'ee82ee',
+        'violetred' => 'd02090',
+        'violetred1' => 'ff3e96',
+        'violetred2' => 'ee3a8c',
+        'violetred3' => 'cd3278',
+        'violetred4' => '8b2252',
+        'wheat' => 'f5deb3',
+        'wheat1' => 'ffe7ba',
+        'wheat2' => 'eed8ae',
+        'wheat3' => 'cdba96',
+        'wheat4' => '8b7e66',
+        'white' => 'ffffff',
+        'whitesmoke' => 'f5f5f5',
+        'yellow' => 'ffff00',
+        'yellow1' => 'ffff00',
+        'yellow2' => 'eeee00',
+        'yellow3' => 'cdcd00',
+        'yellow4' => '8b8b00',
+        'yellowgreen' => '9acd32',
+    ];
+
+    protected $face;
+
+    protected $size;
+
+    protected $color;
+
+    protected $bold = false;
+
+    protected $italic = false;
+
+    protected $underline = false;
+
+    protected $superscript = false;
+
+    protected $subscript = false;
+
+    protected $strikethrough = false;
+
+    protected $startTagCallbacks = [
+        'font' => 'startFontTag',
+        'b' => 'startBoldTag',
+        'strong' => 'startBoldTag',
+        'i' => 'startItalicTag',
+        'em' => 'startItalicTag',
+        'u' => 'startUnderlineTag',
+        'ins' => 'startUnderlineTag',
+        'del' => 'startStrikethruTag',
+        'sup' => 'startSuperscriptTag',
+        'sub' => 'startSubscriptTag',
+    ];
+
+    protected $endTagCallbacks = [
+        'font' => 'endFontTag',
+        'b' => 'endBoldTag',
+        'strong' => 'endBoldTag',
+        'i' => 'endItalicTag',
+        'em' => 'endItalicTag',
+        'u' => 'endUnderlineTag',
+        'ins' => 'endUnderlineTag',
+        'del' => 'endStrikethruTag',
+        'sup' => 'endSuperscriptTag',
+        'sub' => 'endSubscriptTag',
+        'br' => 'breakTag',
+        'p' => 'breakTag',
+        'h1' => 'breakTag',
+        'h2' => 'breakTag',
+        'h3' => 'breakTag',
+        'h4' => 'breakTag',
+        'h5' => 'breakTag',
+        'h6' => 'breakTag',
+    ];
+
+    protected $stack = [];
+
+    protected $stringData = '';
+
+    /**
+     * @var RichText
+     */
+    protected $richTextObject;
+
+    protected function initialise()
+    {
+        $this->face = $this->size = $this->color = null;
+        $this->bold = $this->italic = $this->underline = $this->superscript = $this->subscript = $this->strikethrough = false;
+
+        $this->stack = [];
+
+        $this->stringData = '';
+    }
+
+    /**
+     * Parse HTML formatting and return the resulting RichText.
+     *
+     * @param string $html
+     *
+     * @return RichText
+     */
+    public function toRichTextObject($html)
+    {
+        $this->initialise();
+
+        //    Create a new DOM object
+        $dom = new DOMDocument();
+        //    Load the HTML file into the DOM object
+        //  Note the use of error suppression, because typically this will be an html fragment, so not fully valid markup
+        $prefix = '<?xml encoding="UTF-8">';
+        @$dom->loadHTML($prefix . $html, LIBXML_HTML_NOIMPLIED | LIBXML_HTML_NODEFDTD);
+        //    Discard excess white space
+        $dom->preserveWhiteSpace = false;
+
+        $this->richTextObject = new RichText();
+        $this->parseElements($dom);
+
+        // Clean any further spurious whitespace
+        $this->cleanWhitespace();
+
+        return $this->richTextObject;
+    }
+
+    protected function cleanWhitespace()
+    {
+        foreach ($this->richTextObject->getRichTextElements() as $key => $element) {
+            $text = $element->getText();
+            // Trim any leading spaces on the first run
+            if ($key == 0) {
+                $text = ltrim($text);
+            }
+            // Trim any spaces immediately after a line break
+            $text = preg_replace('/\n */mu', "\n", $text);
+            $element->setText($text);
+        }
+    }
+
+    protected function buildTextRun()
+    {
+        $text = $this->stringData;
+        if (trim($text) === '') {
+            return;
+        }
+
+        $richtextRun = $this->richTextObject->createTextRun($this->stringData);
+        if ($this->face) {
+            $richtextRun->getFont()->setName($this->face);
+        }
+        if ($this->size) {
+            $richtextRun->getFont()->setSize($this->size);
+        }
+        if ($this->color) {
+            $richtextRun->getFont()->setColor(new Color('ff' . $this->color));
+        }
+        if ($this->bold) {
+            $richtextRun->getFont()->setBold(true);
+        }
+        if ($this->italic) {
+            $richtextRun->getFont()->setItalic(true);
+        }
+        if ($this->underline) {
+            $richtextRun->getFont()->setUnderline(Font::UNDERLINE_SINGLE);
+        }
+        if ($this->superscript) {
+            $richtextRun->getFont()->setSuperscript(true);
+        }
+        if ($this->subscript) {
+            $richtextRun->getFont()->setSubscript(true);
+        }
+        if ($this->strikethrough) {
+            $richtextRun->getFont()->setStrikethrough(true);
+        }
+        $this->stringData = '';
+    }
+
+    protected function rgbToColour($rgb)
+    {
+        preg_match_all('/\d+/', $rgb, $values);
+        foreach ($values[0] as &$value) {
+            $value = str_pad(dechex($value), 2, '0', STR_PAD_LEFT);
+        }
+
+        return implode($values[0]);
+    }
+
+    protected function colourNameLookup($rgb)
+    {
+        return self::$colourMap[$rgb];
+    }
+
+    protected function startFontTag($tag)
+    {
+        foreach ($tag->attributes as $attribute) {
+            $attributeName = strtolower($attribute->name);
+            $attributeValue = $attribute->value;
+
+            if ($attributeName == 'color') {
+                if (preg_match('/rgb\s*\(/', $attributeValue)) {
+                    $this->$attributeName = $this->rgbToColour($attributeValue);
+                } elseif (strpos(trim($attributeValue), '#') === 0) {
+                    $this->$attributeName = ltrim($attributeValue, '#');
+                } else {
+                    $this->$attributeName = $this->colourNameLookup($attributeValue);
+                }
+            } else {
+                $this->$attributeName = $attributeValue;
+            }
+        }
+    }
+
+    protected function endFontTag()
+    {
+        $this->face = $this->size = $this->color = null;
+    }
+
+    protected function startBoldTag()
+    {
+        $this->bold = true;
+    }
+
+    protected function endBoldTag()
+    {
+        $this->bold = false;
+    }
+
+    protected function startItalicTag()
+    {
+        $this->italic = true;
+    }
+
+    protected function endItalicTag()
+    {
+        $this->italic = false;
+    }
+
+    protected function startUnderlineTag()
+    {
+        $this->underline = true;
+    }
+
+    protected function endUnderlineTag()
+    {
+        $this->underline = false;
+    }
+
+    protected function startSubscriptTag()
+    {
+        $this->subscript = true;
+    }
+
+    protected function endSubscriptTag()
+    {
+        $this->subscript = false;
+    }
+
+    protected function startSuperscriptTag()
+    {
+        $this->superscript = true;
+    }
+
+    protected function endSuperscriptTag()
+    {
+        $this->superscript = false;
+    }
+
+    protected function startStrikethruTag()
+    {
+        $this->strikethrough = true;
+    }
+
+    protected function endStrikethruTag()
+    {
+        $this->strikethrough = false;
+    }
+
+    protected function breakTag()
+    {
+        $this->stringData .= "\n";
+    }
+
+    protected function parseTextNode(DOMText $textNode)
+    {
+        $domText = preg_replace(
+            '/\s+/u',
+            ' ',
+            str_replace(["\r", "\n"], ' ', $textNode->nodeValue)
+        );
+        $this->stringData .= $domText;
+        $this->buildTextRun();
+    }
+
+    /**
+     * @param DOMElement $element
+     * @param string $callbackTag
+     * @param array $callbacks
+     */
+    protected function handleCallback(DOMElement $element, $callbackTag, array $callbacks)
+    {
+        if (isset($callbacks[$callbackTag])) {
+            $elementHandler = $callbacks[$callbackTag];
+            if (method_exists($this, $elementHandler)) {
+                call_user_func([$this, $elementHandler], $element);
+            }
+        }
+    }
+
+    protected function parseElementNode(DOMElement $element)
+    {
+        $callbackTag = strtolower($element->nodeName);
+        $this->stack[] = $callbackTag;
+
+        $this->handleCallback($element, $callbackTag, $this->startTagCallbacks);
+
+        $this->parseElements($element);
+        array_pop($this->stack);
+
+        $this->handleCallback($element, $callbackTag, $this->endTagCallbacks);
+    }
+
+    protected function parseElements(DOMNode $element)
+    {
+        foreach ($element->childNodes as $child) {
+            if ($child instanceof DOMText) {
+                $this->parseTextNode($child);
+            } elseif ($child instanceof DOMElement) {
+                $this->parseElementNode($child);
+            }
+        }
+    }
+}

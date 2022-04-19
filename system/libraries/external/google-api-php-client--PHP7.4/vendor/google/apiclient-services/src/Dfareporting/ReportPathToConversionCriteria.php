@@ -1,86 +1,164 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-5EGXosK6SefPj762kE5HGCi=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dfareporting;
+
+class ReportPathToConversionCriteria extends \Google\Collection
+{
+  protected $collection_key = 'perInteractionDimensions';
+  protected $activityFiltersType = DimensionValue::class;
+  protected $activityFiltersDataType = 'array';
+  protected $conversionDimensionsType = SortedDimension::class;
+  protected $conversionDimensionsDataType = 'array';
+  protected $customFloodlightVariablesType = SortedDimension::class;
+  protected $customFloodlightVariablesDataType = 'array';
+  protected $customRichMediaEventsType = DimensionValue::class;
+  protected $customRichMediaEventsDataType = 'array';
+  protected $dateRangeType = DateRange::class;
+  protected $dateRangeDataType = '';
+  protected $floodlightConfigIdType = DimensionValue::class;
+  protected $floodlightConfigIdDataType = '';
+  public $metricNames;
+  protected $perInteractionDimensionsType = SortedDimension::class;
+  protected $perInteractionDimensionsDataType = 'array';
+  protected $reportPropertiesType = ReportPathToConversionCriteriaReportProperties::class;
+  protected $reportPropertiesDataType = '';
+
+  /**
+   * @param DimensionValue[]
+   */
+  public function setActivityFilters($activityFilters)
+  {
+    $this->activityFilters = $activityFilters;
+  }
+  /**
+   * @return DimensionValue[]
+   */
+  public function getActivityFilters()
+  {
+    return $this->activityFilters;
+  }
+  /**
+   * @param SortedDimension[]
+   */
+  public function setConversionDimensions($conversionDimensions)
+  {
+    $this->conversionDimensions = $conversionDimensions;
+  }
+  /**
+   * @return SortedDimension[]
+   */
+  public function getConversionDimensions()
+  {
+    return $this->conversionDimensions;
+  }
+  /**
+   * @param SortedDimension[]
+   */
+  public function setCustomFloodlightVariables($customFloodlightVariables)
+  {
+    $this->customFloodlightVariables = $customFloodlightVariables;
+  }
+  /**
+   * @return SortedDimension[]
+   */
+  public function getCustomFloodlightVariables()
+  {
+    return $this->customFloodlightVariables;
+  }
+  /**
+   * @param DimensionValue[]
+   */
+  public function setCustomRichMediaEvents($customRichMediaEvents)
+  {
+    $this->customRichMediaEvents = $customRichMediaEvents;
+  }
+  /**
+   * @return DimensionValue[]
+   */
+  public function getCustomRichMediaEvents()
+  {
+    return $this->customRichMediaEvents;
+  }
+  /**
+   * @param DateRange
+   */
+  public function setDateRange(DateRange $dateRange)
+  {
+    $this->dateRange = $dateRange;
+  }
+  /**
+   * @return DateRange
+   */
+  public function getDateRange()
+  {
+    return $this->dateRange;
+  }
+  /**
+   * @param DimensionValue
+   */
+  public function setFloodlightConfigId(DimensionValue $floodlightConfigId)
+  {
+    $this->floodlightConfigId = $floodlightConfigId;
+  }
+  /**
+   * @return DimensionValue
+   */
+  public function getFloodlightConfigId()
+  {
+    return $this->floodlightConfigId;
+  }
+  public function setMetricNames($metricNames)
+  {
+    $this->metricNames = $metricNames;
+  }
+  public function getMetricNames()
+  {
+    return $this->metricNames;
+  }
+  /**
+   * @param SortedDimension[]
+   */
+  public function setPerInteractionDimensions($perInteractionDimensions)
+  {
+    $this->perInteractionDimensions = $perInteractionDimensions;
+  }
+  /**
+   * @return SortedDimension[]
+   */
+  public function getPerInteractionDimensions()
+  {
+    return $this->perInteractionDimensions;
+  }
+  /**
+   * @param ReportPathToConversionCriteriaReportProperties
+   */
+  public function setReportProperties(ReportPathToConversionCriteriaReportProperties $reportProperties)
+  {
+    $this->reportProperties = $reportProperties;
+  }
+  /**
+   * @return ReportPathToConversionCriteriaReportProperties
+   */
+  public function getReportProperties()
+  {
+    return $this->reportProperties;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ReportPathToConversionCriteria::class, 'Google_Service_Dfareporting_ReportPathToConversionCriteria');

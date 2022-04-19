@@ -1,69 +1,99 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-6ZHGPnEyULWGqoI4gATpO0a=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Networkconnectivity;
+
+class Hub extends \Google\Collection
+{
+  protected $collection_key = 'spokes';
+  public $createTime;
+  public $description;
+  public $labels;
+  public $name;
+  public $spokes;
+  public $state;
+  public $uniqueId;
+  public $updateTime;
+
+  public function setCreateTime($createTime)
+  {
+    $this->createTime = $createTime;
+  }
+  public function getCreateTime()
+  {
+    return $this->createTime;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setLabels($labels)
+  {
+    $this->labels = $labels;
+  }
+  public function getLabels()
+  {
+    return $this->labels;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setSpokes($spokes)
+  {
+    $this->spokes = $spokes;
+  }
+  public function getSpokes()
+  {
+    return $this->spokes;
+  }
+  public function setState($state)
+  {
+    $this->state = $state;
+  }
+  public function getState()
+  {
+    return $this->state;
+  }
+  public function setUniqueId($uniqueId)
+  {
+    $this->uniqueId = $uniqueId;
+  }
+  public function getUniqueId()
+  {
+    return $this->uniqueId;
+  }
+  public function setUpdateTime($updateTime)
+  {
+    $this->updateTime = $updateTime;
+  }
+  public function getUpdateTime()
+  {
+    return $this->updateTime;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Hub::class, 'Google_Service_Networkconnectivity_Hub');

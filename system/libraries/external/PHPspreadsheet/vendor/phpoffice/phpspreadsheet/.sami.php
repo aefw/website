@@ -1,71 +1,24 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+use Sami\RemoteRepository\GitHubRemoteRepository;
+use Sami\Sami;
+use Sami\Version\GitVersionCollection;
+use Symfony\Component\Finder\Finder;
+
+$iterator = Finder::create()
+    ->files()
+    ->name('*.php')
+    ->in($dir = __DIR__ . '/src');
+$versions = GitVersionCollection::create($dir)
+    ->addFromTags(function ($version) {
+        return preg_match('~^\d+\.\d+\.\d+$~', $version);
+    })
+    ->add('master');
+
+return new Sami($iterator, [
+    'title' => 'PhpSpreadsheet',
+    'versions' => $versions,
+    'build_dir' => __DIR__ . '/build/%version%',
+    'cache_dir' => __DIR__ . '/cache/%version%',
+    'remote_repository' => new GitHubRemoteRepository('PHPOffice/PhpSpreadsheet', dirname($dir)),
+]);

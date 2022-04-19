@@ -1,65 +1,107 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\GamesManagement\Resource;
+
+use Google\Service\GamesManagement\AchievementResetAllResponse;
+use Google\Service\GamesManagement\AchievementResetMultipleForAllRequest;
+use Google\Service\GamesManagement\AchievementResetResponse;
+
+/**
+ * The "achievements" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $gamesManagementService = new Google\Service\GamesManagement(...);
+ *   $achievements = $gamesManagementService->achievements;
+ *  </code>
+ */
+class Achievements extends \Google\Service\Resource
+{
+  /**
+   * Resets the achievement with the given ID for the currently authenticated
+   * player. This method is only accessible to whitelisted tester accounts for
+   * your application. (achievements.reset)
+   *
+   * @param string $achievementId The ID of the achievement used by this method.
+   * @param array $optParams Optional parameters.
+   * @return AchievementResetResponse
+   */
+  public function reset($achievementId, $optParams = [])
+  {
+    $params = ['achievementId' => $achievementId];
+    $params = array_merge($params, $optParams);
+    return $this->call('reset', [$params], AchievementResetResponse::class);
+  }
+  /**
+   * Resets all achievements for the currently authenticated player for your
+   * application. This method is only accessible to whitelisted tester accounts
+   * for your application. (achievements.resetAll)
+   *
+   * @param array $optParams Optional parameters.
+   * @return AchievementResetAllResponse
+   */
+  public function resetAll($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('resetAll', [$params], AchievementResetAllResponse::class);
+  }
+  /**
+   * Resets all draft achievements for all players. This method is only available
+   * to user accounts for your developer console.
+   * (achievements.resetAllForAllPlayers)
+   *
+   * @param array $optParams Optional parameters.
+   */
+  public function resetAllForAllPlayers($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('resetAllForAllPlayers', [$params]);
+  }
+  /**
+   * Resets the achievement with the given ID for all players. This method is only
+   * available to user accounts for your developer console. Only draft
+   * achievements can be reset. (achievements.resetForAllPlayers)
+   *
+   * @param string $achievementId The ID of the achievement used by this method.
+   * @param array $optParams Optional parameters.
+   */
+  public function resetForAllPlayers($achievementId, $optParams = [])
+  {
+    $params = ['achievementId' => $achievementId];
+    $params = array_merge($params, $optParams);
+    return $this->call('resetForAllPlayers', [$params]);
+  }
+  /**
+   * Resets achievements with the given IDs for all players. This method is only
+   * available to user accounts for your developer console. Only draft
+   * achievements may be reset. (achievements.resetMultipleForAllPlayers)
+   *
+   * @param AchievementResetMultipleForAllRequest $postBody
+   * @param array $optParams Optional parameters.
+   */
+  public function resetMultipleForAllPlayers(AchievementResetMultipleForAllRequest $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('resetMultipleForAllPlayers', [$params]);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Achievements::class, 'Google_Service_GamesManagement_Resource_Achievements');

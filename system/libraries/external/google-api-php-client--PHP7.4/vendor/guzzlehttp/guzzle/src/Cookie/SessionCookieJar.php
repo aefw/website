@@ -1,59 +1,77 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-1hgM8XZ0G8iTyPsrD4n0fm==
+<?php
+
+namespace GuzzleHttp\Cookie;
+
+/**
+ * Persists cookies in the client session
+ */
+class SessionCookieJar extends CookieJar
+{
+    /**
+     * @var string session key
+     */
+    private $sessionKey;
+
+    /**
+     * @var bool Control whether to persist session cookies or not.
+     */
+    private $storeSessionCookies;
+
+    /**
+     * Create a new SessionCookieJar object
+     *
+     * @param string $sessionKey          Session key name to store the cookie
+     *                                    data in session
+     * @param bool   $storeSessionCookies Set to true to store session cookies
+     *                                    in the cookie jar.
+     */
+    public function __construct(string $sessionKey, bool $storeSessionCookies = false)
+    {
+        parent::__construct();
+        $this->sessionKey = $sessionKey;
+        $this->storeSessionCookies = $storeSessionCookies;
+        $this->load();
+    }
+
+    /**
+     * Saves cookies to session when shutting down
+     */
+    public function __destruct()
+    {
+        $this->save();
+    }
+
+    /**
+     * Save cookies to the client session
+     */
+    public function save(): void
+    {
+        $json = [];
+        /** @var SetCookie $cookie */
+        foreach ($this as $cookie) {
+            if (CookieJar::shouldPersist($cookie, $this->storeSessionCookies)) {
+                $json[] = $cookie->toArray();
+            }
+        }
+
+        $_SESSION[$this->sessionKey] = \json_encode($json);
+    }
+
+    /**
+     * Load the contents of the client session into the data array
+     */
+    protected function load(): void
+    {
+        if (!isset($_SESSION[$this->sessionKey])) {
+            return;
+        }
+        $data = \json_decode($_SESSION[$this->sessionKey], true);
+        if (\is_array($data)) {
+            foreach ($data as $cookie) {
+                $this->setCookie(new SetCookie($cookie));
+            }
+        } elseif (\strlen($data)) {
+            throw new \RuntimeException("Invalid cookie data");
+        }
+    }
+}

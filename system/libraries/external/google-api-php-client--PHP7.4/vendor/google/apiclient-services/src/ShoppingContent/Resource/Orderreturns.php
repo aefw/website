@@ -1,73 +1,160 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ShoppingContent\Resource;
+
+use Google\Service\ShoppingContent\MerchantOrderReturn;
+use Google\Service\ShoppingContent\OrderreturnsAcknowledgeRequest;
+use Google\Service\ShoppingContent\OrderreturnsAcknowledgeResponse;
+use Google\Service\ShoppingContent\OrderreturnsCreateOrderReturnRequest;
+use Google\Service\ShoppingContent\OrderreturnsCreateOrderReturnResponse;
+use Google\Service\ShoppingContent\OrderreturnsListResponse;
+use Google\Service\ShoppingContent\OrderreturnsProcessRequest;
+use Google\Service\ShoppingContent\OrderreturnsProcessResponse;
+
+/**
+ * The "orderreturns" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $contentService = new Google\Service\ShoppingContent(...);
+ *   $orderreturns = $contentService->orderreturns;
+ *  </code>
+ */
+class Orderreturns extends \Google\Service\Resource
+{
+  /**
+   * Acks an order return in your Merchant Center account.
+   * (orderreturns.acknowledge)
+   *
+   * @param string $merchantId The ID of the account that manages the order. This
+   * cannot be a multi-client account.
+   * @param string $returnId The ID of the return.
+   * @param OrderreturnsAcknowledgeRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return OrderreturnsAcknowledgeResponse
+   */
+  public function acknowledge($merchantId, $returnId, OrderreturnsAcknowledgeRequest $postBody, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'returnId' => $returnId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('acknowledge', [$params], OrderreturnsAcknowledgeResponse::class);
+  }
+  /**
+   * Create return in your Merchant Center account.
+   * (orderreturns.createorderreturn)
+   *
+   * @param string $merchantId The ID of the account that manages the order. This
+   * cannot be a multi-client account.
+   * @param OrderreturnsCreateOrderReturnRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return OrderreturnsCreateOrderReturnResponse
+   */
+  public function createorderreturn($merchantId, OrderreturnsCreateOrderReturnRequest $postBody, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('createorderreturn', [$params], OrderreturnsCreateOrderReturnResponse::class);
+  }
+  /**
+   * Retrieves an order return from your Merchant Center account.
+   * (orderreturns.get)
+   *
+   * @param string $merchantId The ID of the account that manages the order. This
+   * cannot be a multi-client account.
+   * @param string $returnId Merchant order return ID generated by Google.
+   * @param array $optParams Optional parameters.
+   * @return MerchantOrderReturn
+   */
+  public function get($merchantId, $returnId, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'returnId' => $returnId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], MerchantOrderReturn::class);
+  }
+  /**
+   * Lists order returns in your Merchant Center account.
+   * (orderreturns.listOrderreturns)
+   *
+   * @param string $merchantId The ID of the account that manages the order. This
+   * cannot be a multi-client account.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool acknowledged Obtains order returns that match the
+   * acknowledgement status. When set to true, obtains order returns that have
+   * been acknowledged. When false, obtains order returns that have not been
+   * acknowledged. When not provided, obtains order returns regardless of their
+   * acknowledgement status. We recommend using this filter set to `false`, in
+   * conjunction with the `acknowledge` call, such that only un-acknowledged order
+   * returns are returned.
+   * @opt_param string createdEndDate Obtains order returns created before this
+   * date (inclusively), in ISO 8601 format.
+   * @opt_param string createdStartDate Obtains order returns created after this
+   * date (inclusively), in ISO 8601 format.
+   * @opt_param string googleOrderIds Obtains order returns with the specified
+   * order ids. If this parameter is provided, createdStartDate, createdEndDate,
+   * shipmentType, shipmentStatus, shipmentState and acknowledged parameters must
+   * be not set. Note: if googleOrderId and shipmentTrackingNumber parameters are
+   * provided, the obtained results will include all order returns that either
+   * match the specified order id or the specified tracking number.
+   * @opt_param string maxResults The maximum number of order returns to return in
+   * the response, used for paging. The default value is 25 returns per page, and
+   * the maximum allowed value is 250 returns per page.
+   * @opt_param string orderBy Return the results in the specified order.
+   * @opt_param string pageToken The token returned by the previous request.
+   * @opt_param string shipmentStates Obtains order returns that match any
+   * shipment state provided in this parameter. When this parameter is not
+   * provided, order returns are obtained regardless of their shipment states.
+   * @opt_param string shipmentStatus Obtains order returns that match any
+   * shipment status provided in this parameter. When this parameter is not
+   * provided, order returns are obtained regardless of their shipment statuses.
+   * @opt_param string shipmentTrackingNumbers Obtains order returns with the
+   * specified tracking numbers. If this parameter is provided, createdStartDate,
+   * createdEndDate, shipmentType, shipmentStatus, shipmentState and acknowledged
+   * parameters must be not set. Note: if googleOrderId and shipmentTrackingNumber
+   * parameters are provided, the obtained results will include all order returns
+   * that either match the specified order id or the specified tracking number.
+   * @opt_param string shipmentTypes Obtains order returns that match any shipment
+   * type provided in this parameter. When this parameter is not provided, order
+   * returns are obtained regardless of their shipment types.
+   * @return OrderreturnsListResponse
+   */
+  public function listOrderreturns($merchantId, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], OrderreturnsListResponse::class);
+  }
+  /**
+   * Processes return in your Merchant Center account. (orderreturns.process)
+   *
+   * @param string $merchantId The ID of the account that manages the order. This
+   * cannot be a multi-client account.
+   * @param string $returnId The ID of the return.
+   * @param OrderreturnsProcessRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return OrderreturnsProcessResponse
+   */
+  public function process($merchantId, $returnId, OrderreturnsProcessRequest $postBody, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'returnId' => $returnId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('process', [$params], OrderreturnsProcessResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Orderreturns::class, 'Google_Service_ShoppingContent_Resource_Orderreturns');

@@ -1,135 +1,372 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-chg8lbUUpeq=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\MyBusinessLodging;
+
+class Lodging extends \Google\Collection
+{
+  protected $collection_key = 'guestUnits';
+  protected $accessibilityType = Accessibility::class;
+  protected $accessibilityDataType = '';
+  protected $activitiesType = Activities::class;
+  protected $activitiesDataType = '';
+  protected $allUnitsType = GuestUnitFeatures::class;
+  protected $allUnitsDataType = '';
+  protected $businessType = Business::class;
+  protected $businessDataType = '';
+  protected $commonLivingAreaType = LivingArea::class;
+  protected $commonLivingAreaDataType = '';
+  protected $connectivityType = Connectivity::class;
+  protected $connectivityDataType = '';
+  protected $familiesType = Families::class;
+  protected $familiesDataType = '';
+  protected $foodAndDrinkType = FoodAndDrink::class;
+  protected $foodAndDrinkDataType = '';
+  protected $guestUnitsType = GuestUnitType::class;
+  protected $guestUnitsDataType = 'array';
+  protected $healthAndSafetyType = HealthAndSafety::class;
+  protected $healthAndSafetyDataType = '';
+  protected $housekeepingType = Housekeeping::class;
+  protected $housekeepingDataType = '';
+  protected $metadataType = LodgingMetadata::class;
+  protected $metadataDataType = '';
+  public $name;
+  protected $parkingType = Parking::class;
+  protected $parkingDataType = '';
+  protected $petsType = Pets::class;
+  protected $petsDataType = '';
+  protected $policiesType = Policies::class;
+  protected $policiesDataType = '';
+  protected $poolsType = Pools::class;
+  protected $poolsDataType = '';
+  protected $propertyType = Property::class;
+  protected $propertyDataType = '';
+  protected $servicesType = Services::class;
+  protected $servicesDataType = '';
+  protected $someUnitsType = GuestUnitFeatures::class;
+  protected $someUnitsDataType = '';
+  protected $transportationType = Transportation::class;
+  protected $transportationDataType = '';
+  protected $wellnessType = Wellness::class;
+  protected $wellnessDataType = '';
+
+  /**
+   * @param Accessibility
+   */
+  public function setAccessibility(Accessibility $accessibility)
+  {
+    $this->accessibility = $accessibility;
+  }
+  /**
+   * @return Accessibility
+   */
+  public function getAccessibility()
+  {
+    return $this->accessibility;
+  }
+  /**
+   * @param Activities
+   */
+  public function setActivities(Activities $activities)
+  {
+    $this->activities = $activities;
+  }
+  /**
+   * @return Activities
+   */
+  public function getActivities()
+  {
+    return $this->activities;
+  }
+  /**
+   * @param GuestUnitFeatures
+   */
+  public function setAllUnits(GuestUnitFeatures $allUnits)
+  {
+    $this->allUnits = $allUnits;
+  }
+  /**
+   * @return GuestUnitFeatures
+   */
+  public function getAllUnits()
+  {
+    return $this->allUnits;
+  }
+  /**
+   * @param Business
+   */
+  public function setBusiness(Business $business)
+  {
+    $this->business = $business;
+  }
+  /**
+   * @return Business
+   */
+  public function getBusiness()
+  {
+    return $this->business;
+  }
+  /**
+   * @param LivingArea
+   */
+  public function setCommonLivingArea(LivingArea $commonLivingArea)
+  {
+    $this->commonLivingArea = $commonLivingArea;
+  }
+  /**
+   * @return LivingArea
+   */
+  public function getCommonLivingArea()
+  {
+    return $this->commonLivingArea;
+  }
+  /**
+   * @param Connectivity
+   */
+  public function setConnectivity(Connectivity $connectivity)
+  {
+    $this->connectivity = $connectivity;
+  }
+  /**
+   * @return Connectivity
+   */
+  public function getConnectivity()
+  {
+    return $this->connectivity;
+  }
+  /**
+   * @param Families
+   */
+  public function setFamilies(Families $families)
+  {
+    $this->families = $families;
+  }
+  /**
+   * @return Families
+   */
+  public function getFamilies()
+  {
+    return $this->families;
+  }
+  /**
+   * @param FoodAndDrink
+   */
+  public function setFoodAndDrink(FoodAndDrink $foodAndDrink)
+  {
+    $this->foodAndDrink = $foodAndDrink;
+  }
+  /**
+   * @return FoodAndDrink
+   */
+  public function getFoodAndDrink()
+  {
+    return $this->foodAndDrink;
+  }
+  /**
+   * @param GuestUnitType[]
+   */
+  public function setGuestUnits($guestUnits)
+  {
+    $this->guestUnits = $guestUnits;
+  }
+  /**
+   * @return GuestUnitType[]
+   */
+  public function getGuestUnits()
+  {
+    return $this->guestUnits;
+  }
+  /**
+   * @param HealthAndSafety
+   */
+  public function setHealthAndSafety(HealthAndSafety $healthAndSafety)
+  {
+    $this->healthAndSafety = $healthAndSafety;
+  }
+  /**
+   * @return HealthAndSafety
+   */
+  public function getHealthAndSafety()
+  {
+    return $this->healthAndSafety;
+  }
+  /**
+   * @param Housekeeping
+   */
+  public function setHousekeeping(Housekeeping $housekeeping)
+  {
+    $this->housekeeping = $housekeeping;
+  }
+  /**
+   * @return Housekeeping
+   */
+  public function getHousekeeping()
+  {
+    return $this->housekeeping;
+  }
+  /**
+   * @param LodgingMetadata
+   */
+  public function setMetadata(LodgingMetadata $metadata)
+  {
+    $this->metadata = $metadata;
+  }
+  /**
+   * @return LodgingMetadata
+   */
+  public function getMetadata()
+  {
+    return $this->metadata;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  /**
+   * @param Parking
+   */
+  public function setParking(Parking $parking)
+  {
+    $this->parking = $parking;
+  }
+  /**
+   * @return Parking
+   */
+  public function getParking()
+  {
+    return $this->parking;
+  }
+  /**
+   * @param Pets
+   */
+  public function setPets(Pets $pets)
+  {
+    $this->pets = $pets;
+  }
+  /**
+   * @return Pets
+   */
+  public function getPets()
+  {
+    return $this->pets;
+  }
+  /**
+   * @param Policies
+   */
+  public function setPolicies(Policies $policies)
+  {
+    $this->policies = $policies;
+  }
+  /**
+   * @return Policies
+   */
+  public function getPolicies()
+  {
+    return $this->policies;
+  }
+  /**
+   * @param Pools
+   */
+  public function setPools(Pools $pools)
+  {
+    $this->pools = $pools;
+  }
+  /**
+   * @return Pools
+   */
+  public function getPools()
+  {
+    return $this->pools;
+  }
+  /**
+   * @param Property
+   */
+  public function setProperty(Property $property)
+  {
+    $this->property = $property;
+  }
+  /**
+   * @return Property
+   */
+  public function getProperty()
+  {
+    return $this->property;
+  }
+  /**
+   * @param Services
+   */
+  public function setServices(Services $services)
+  {
+    $this->services = $services;
+  }
+  /**
+   * @return Services
+   */
+  public function getServices()
+  {
+    return $this->services;
+  }
+  /**
+   * @param GuestUnitFeatures
+   */
+  public function setSomeUnits(GuestUnitFeatures $someUnits)
+  {
+    $this->someUnits = $someUnits;
+  }
+  /**
+   * @return GuestUnitFeatures
+   */
+  public function getSomeUnits()
+  {
+    return $this->someUnits;
+  }
+  /**
+   * @param Transportation
+   */
+  public function setTransportation(Transportation $transportation)
+  {
+    $this->transportation = $transportation;
+  }
+  /**
+   * @return Transportation
+   */
+  public function getTransportation()
+  {
+    return $this->transportation;
+  }
+  /**
+   * @param Wellness
+   */
+  public function setWellness(Wellness $wellness)
+  {
+    $this->wellness = $wellness;
+  }
+  /**
+   * @return Wellness
+   */
+  public function getWellness()
+  {
+    return $this->wellness;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Lodging::class, 'Google_Service_MyBusinessLodging_Lodging');

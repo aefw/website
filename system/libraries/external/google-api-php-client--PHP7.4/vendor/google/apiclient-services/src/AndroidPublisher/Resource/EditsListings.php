@@ -1,79 +1,128 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPtG9YpNOqWywrS0U5d2aPm8oZE7VeKJm7/vDBvoNE/1jewSGiuwTLQl/zpz/Oten8dlfRQDP
-86EnEUHq/XWonjIJih3erxDxXy50PKHZjnLP0SRAf68JmWwmMW/FNFjAhLq6X7BPe0QHUe/Eb9TZ
-Y/LmhV09iPC+py4H+5suefXf/ReRThVfnLG065PnfFVaByeDzxMM4l3Yb+QQ4pSUve8Bh+XhVDtx
-kLuTtipzgT2zeYJylnQBBGdml6dQt7cLixoILLFiplqAknmIjoLvfwMi7mxYS5CkDLI4g2o1fZvA
-1ULLr7LO89GKkN4i9rNuY5He1LDXEyar6k7CXvVAGvSDiLN9IxsP0L+9I+DyG8jama2Trf7BEuzv
-kU/WnF5I7vbuL/6JDg8+ECNZROx0ra9rwoBvzDBdGrrMznk/ve/f3H1m1o4FlmiBYMy2FV9tUhLU
-rF2GNfFSKKzP+7/XDCMXgCe4Rsl38/HG0mCtClMuWXBQiR4g3h7LhaWFc7X5dBWn47QU1erbO1zh
-OD3x30LjMdLrRGj8IaTLu7OuC90BaHEXx4z6OiVVaRq7JMx0sgL/O3zOCFsPa1FT0b/UoQNrMI9Z
-0e+uahjmpJtwUOiDsl1ImHI0GEFKw9koHbrMFVFq6jOZUs/P3Lhc5Pdc5kcWw3d54FV10T+BE//F
-dcTPY8v/iUYAp4yQR+IzYfLM2ahbJDz9ZiptefZuhS7bXh3XWG9vAgKl6/Uavparvufpn9mxPWkk
-ggKqSvO0zsEs/0wPPSKNPU+QUe8tNG6vhCew+TF2k/yW7mazZmhsmk9tA82jIubJZ3sSqpGcDYO4
-nG+n910MdTGi7wpONYU6Kw+gs6r3GG4ZaS8d6dwJaaQLO0+j75lrPZRYA8h9vLaY0LYpWcQ+2zLZ
-yfhSasHlEi7Crt/lpCkRAKaoWo76yP7Tqhd/2dMeaKh7pGOOIfEXJaOvpyARlMD+rJ82IEZi53An
-4raDVxr3FLdA8k6hLtG7+ctBOcaAEp9Tmc96/uwPlXENhKQi9pAxVXDHRLn3ImB4X0UrBAGNAPMZ
-CNRfW7TpetRa9RO4WKsUUcTrkGbeX0JurnufXNOuIQBB33jfOp6fLW+snE1zCXOtEigJwftHCaDx
-0UQwjzic3iTWOnINOrmhxbkPNNDQ8uJn3mG/0dznKpwa3UN3eTrraRPm96/1uzsMMeEP8hoBqrpX
-djAbHOlLKJZSiCnqI2x2H6ueEsgXxqnZxLmHInjn1MsqUP8ELaNTmSaI71pDoWvZudpIZHXL0tKt
-BImMp68cQG9BebbW3Vqs7+PrV5GHB116JsBxR1Bnmg2PkG76r0dWtVqEzKuaguG4tXsE/kb/jaQ/
-RQ6TgIaFbIQVdSR2TB02HfUAYemiKnOzmFebE2B7XHxO10yXyVP59JuPf37sb3Jpjkv+wPUh6/+2
-q4UFYl0fpDWumy6YRe6N2+VrdteAOhpUFstERvJgRWdOpv55nH0aFWdLzMQxojI8V8c7x1K8Niur
-0Doun4E9kSQ5sAmlGewlRpetwsKLc6AORAJcJJDCsgT7DNqETZahp1lQDjj6Dhx6wfE5CuFCkdUW
-ed1TGqvhYGLDnuaJHjBikugE1ls6sGm/4hYgECgOhfZEXjVy0iLR8n0fBfBEASKK+edUGfSG1ipV
-FUSEFXcG8qXk5JjPVEOL1nq/SniHlAjW0r1JCQeg4QZPp4OLKbBB9rcIfS6lEyT/ulyum4gci4oZ
-ztpdq85+1vUvJZah9SKz1vW4tfizzmPM2mlst1qOHKAvBIcx707ULTOl0wptWxiHJHOv0LjI8Wks
-BU043+49JzDhXdSVxd4ckDTzRkgR1bSK50lHajuDzq2vWa+oLxAMu4jfRxhunirXzluf6ogHMDma
-DMOhCrK3ZvHn/+Ad61AjNfpHBpDsrLZC0uOwVDkHkbfM3Lb2Qq0m9beUv9JmR4AI57LYsdoOftwb
-IbwFih7bIiEkpFVQsn/YAQR7NJ0rZBfg6vJPwoOTxfXOhF1jkbCxrRb5nfrY6v4kZOZOyeXXD5Qe
-Bui0nq8YHAzrNMZukuzDA8ldI3acT2JiWK+M6h3hVlFF3T6F8B+aRBEaJ6WogHlBMhjmfAPe5meE
-ITmGm5/CdKzw25fcb1uHQaU5WiWYjhpiw/RkpK3rZIk7rmKDE1Eyfemzv+HIeakRzWmWiFUAJGuF
-wmujpNkVuj/zAoidav5rPJa4av71Q7qWddWWDcB8zgQt26WRjjeAyw9S4u/KHso4ucuL3yrJRAh1
-ajRN0k7EP7D3WlC7+HFVOpugNjThG94o9uIHLtaEgKbhpMa7qQIVx8Hbo8dcASi1Xdf8xB1oU7sg
-UnHZ7CRdRb2XOvUPmxOlxzMHlyXymbU5bvTOm8uMuNKLWauW0uzadM9V+K2MJU8UW6jMkTu0gYxE
-4yAa31NvwL+vxViDMvq/IE0lv2v0qUlRYZYZ0rY3sAuSU+zOZotfum70y92GXthWs6y+4yDGtMhU
-7y4ZTkfYWXt8DeEJDVslOv5uxcXt/xw2Oczd0q2xo7NhEQyFFrXozN5tifZIkECWsZ7JfYhFHufC
-VQ7N6bVGQr0/fc4P6rfOB1DoIyD6uBhQ7Uqum2tGmX0BLk++xGNEYItiwaYwPoxJzPHoLpJv5dXG
-JH/hWpO59Rnx7DvEJ/X+cOzsM3T7F+WQn/+bXSHRQdDt+Cyu5pSzIcLh2W6hMYqw9H3BkQahwFYG
-cuwU5aJjbzkTc2L3jDrSL3Tj8oxHCDSHwOFO9UeHWL9UcMPi/cr4P03qU3smrR2mCSDkdT7jP3en
-MrmHZw4i1plgWvjCLbumKMlVIkk8bKDpNLc8J9DEONACi/n8oOzIQde3by/rE3Y1C6XxUSbJxShV
-VcVEhyB4i+SlY5TDHL0X9yQvGccFS+emyF8D7XVSzRD6CRT/dmu5mZTsZCOIUPoWJuBNplpKen6c
-NSKv7o0CGBjRcQdIqClqfMKdlUJGbHrwnFSgAOE3u3zPnmwcKWHOtSicBTQTeegVPMjQqv5MHYNu
-75tUTCQrf4Mai4hJrOufEGl8Njr0taE7p3q3lG2AD5oTjIcw705nCPDaKnhkCMZ8G2K5KFq5//e9
-gVF9UiuV+Spw8Z3lUlgDfWysK3K587OTgkMBMjwYrrpcFwnGTv3ADpQmOhCLkMrVxqXhL6qLb+om
-lXZg4xWUve96X1C/oqiah4P+IuIOrsUupcQ3S1qKucfKNGk1nHbh+gDY4n+wrpN5juJXqDvuiFcj
-dKuK48AU9lbbvVzoCHfR3jeN2S9jqfcMyYm2WwOI923SB/lHMZSaYdK1L/Mv479HAy14HDUqUrul
-/b6UK/kFl3HSXzQyJ0aTLwQddfajCnw5gAeWxikbyYlqoacupGL1C62k67ADjnINj0FnglPhq8Bb
-Xm7xAtji9wtnCFvewrIeo2gMXyDH4A3ryIR/hQ4RZh4C7n7VaYbubAI++geh1mV0HVNYfRRhP+Nq
-+3Bmgg1dD6+tBf8g4MVSFTLGMwGm4Ndj+4H5tX3pZR4L5cBs/UCS3eGBuA6GlbeiLseqv03/Ogmf
-dkShaBuMvIWJuR+bP1g/6OknpI9iM1pr63xTNg4Wk+v4qoAygZI9t9/vN6Wk2NDqt0D6sRFTGFLg
-ksFVkkRGO2r+y2g0JEP+jp4+K/LNs+vkPUGSdKPKeAnncwxZ+F96GAf9b4X0QXF0J43+phmk4TaO
-R1teCO3Gaqs729bzgeEjM2sYSuP2VQEz4Eoa8wFyEVQhzetfgmuslzAvq+G0TmlLf0D4zh8DLNCn
-5nXfo5UhH923IOADStoly6LXwAAW1dbZvbQhDu2jyw8eco50NAk1hKjAWbFc0OLRKzGTzkyOrl/1
-6eBczWDHXW6K4u8hhWaE5wyv1M+nWaKPXntA/C5Xz3yJaALXt4iXuSgPVYHeq4CBzANFlXPWR7Kq
-bOPfYvg9n3YA1CgQgS9xYgmQNzka/u1gj9bHropvLyH5aS6XwrffjfI0RGwnYkBG5NYpxokdHRqg
-vmtbtsJqnuUhpeDQk1AZDP5N21RHofWHjHrTYGeYggcpjfCdoCG8/+5jCgoiIl9BrzwSdNM0WKxs
-4qo3b/UoHShsf3a0ZPnElUt70KJUzv8jl5ro38OMaYILa7ofgAhABShXfn6tAey3Xa0sAmu22Fpv
-7NfIXtpkvXfk/TeF1ynL9kToyMQK+h5Rcd+68Bz3hmp3DvxNWyb2AQlxsHjV5fssc7uL4sSRFeQq
-jaP4QDTG/5zLkTQ8saqX4NinqiUe5AmTVXYI0xKBr5KwWtb3bCExN+shdByD2yHovX41liG2lLaS
-zb/miaaubePPRAaU8kKgY+J/CPpMdqxXr0wM3Y4wcaUFrENcJj95KXg/r1N72AIhD6GIhoP4FIQO
-Xk6YxhoNU/FehPIDKP3c5+kQFZTyJDO4AyYg3Z23wTEfaDyxoQGIjj5S03eRXVssfTEBiWwoM7eF
-g9a0RLtPofwbrgq+jpYCYO6a+uVZSd5llJ/0p2UE9BCZ3asoO4Nwx82OhTilTeMaFTELZ4xg89kg
-+Rg2qjEeAD1ZHKS0fNmtne1PkTyzuulbdUpMeYXF0RwTnv/kLYYrUpECZA+eEI4KtIe9zreLdwos
-yNzEJypyyD11nBZuZH0wAxCf6KRRukioKhBfoWeg9Gm+wHAyplObiZ9xPEUkYBWFwLEZUPa2tg1a
-RQWrMgSxMHs3cBGVrgB/69jpVHsVOjxlJSk815hQN32r1CxVkda5x0CZCJa9xDuLeziLmPrW02K2
-h97t25JQxgwHtOTO0WN/DaQED4/gN5ARuEttBRe92eZyy2X5MVyvTSpKiiCswOGztNZ3qs7bSqPp
-0KIYf1vMkEFozTpLVMuWIdTn2j439xKMipLBE+KsRIPtbrpLd0qm4xKIsukk3bH7MCfVSwPy/Q19
-9J40GENJc6GX+tv2Di7iOzFvQnneQY6uGNOiOJfvhyMmpVMcRo0FlQZB4jG75GJwPW/LS5e6QtuL
-h4HLXEovYgRNA0ETKwW+8iEfSrwcHCtk7E5vtnVusACJomm8ZdE4zv0U0ESq1/fwVHCco5FjYvoF
-x8MhfLOpGG0QTsizsDLsukEB/cbkbXb9XO4Zjvk3lFtm5ZUpu9oq3pQo1OksR5zUxfuO3TZNAtnH
-CC7EVXc7uyGtbDxR6+QH1/LAMDuuCphdvZb3havqrau03ta7ZXXuPMW7AD5UCaUn19PMcMWAVmU1
-d7afBqU7FeCsrKhe50UByf1nhG4o9JEHKuD31EQ6RGwb5eXtJ7xjzFSlmAhqLNnNikrhLk/cXZAh
-p4xM4JV5VpRxWhaE1tdVQuD6lRzPc7I2wPVRz6SCeJdv2NfeJ9fHPZlq/nANXdyxp1byBtdv9z/K
-ozDeV7vwKZzQ64AR97ug/CYirO/wPAqMH5HPtm7tsyD4JMm8K8INSNnSVJNkgolwUM1q0UApm6Bm
-HG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AndroidPublisher\Resource;
+
+use Google\Service\AndroidPublisher\Listing;
+use Google\Service\AndroidPublisher\ListingsListResponse;
+
+/**
+ * The "listings" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $androidpublisherService = new Google\Service\AndroidPublisher(...);
+ *   $listings = $androidpublisherService->listings;
+ *  </code>
+ */
+class EditsListings extends \Google\Service\Resource
+{
+  /**
+   * Deletes a localized store listing. (listings.delete)
+   *
+   * @param string $packageName Package name of the app.
+   * @param string $editId Identifier of the edit.
+   * @param string $language Language localization code (a BCP-47 language tag;
+   * for example, "de-AT" for Austrian German).
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($packageName, $editId, $language, $optParams = [])
+  {
+    $params = ['packageName' => $packageName, 'editId' => $editId, 'language' => $language];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Deletes all store listings. (listings.deleteall)
+   *
+   * @param string $packageName Package name of the app.
+   * @param string $editId Identifier of the edit.
+   * @param array $optParams Optional parameters.
+   */
+  public function deleteall($packageName, $editId, $optParams = [])
+  {
+    $params = ['packageName' => $packageName, 'editId' => $editId];
+    $params = array_merge($params, $optParams);
+    return $this->call('deleteall', [$params]);
+  }
+  /**
+   * Gets a localized store listing. (listings.get)
+   *
+   * @param string $packageName Package name of the app.
+   * @param string $editId Identifier of the edit.
+   * @param string $language Language localization code (a BCP-47 language tag;
+   * for example, "de-AT" for Austrian German).
+   * @param array $optParams Optional parameters.
+   * @return Listing
+   */
+  public function get($packageName, $editId, $language, $optParams = [])
+  {
+    $params = ['packageName' => $packageName, 'editId' => $editId, 'language' => $language];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Listing::class);
+  }
+  /**
+   * Lists all localized store listings. (listings.listEditsListings)
+   *
+   * @param string $packageName Package name of the app.
+   * @param string $editId Identifier of the edit.
+   * @param array $optParams Optional parameters.
+   * @return ListingsListResponse
+   */
+  public function listEditsListings($packageName, $editId, $optParams = [])
+  {
+    $params = ['packageName' => $packageName, 'editId' => $editId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListingsListResponse::class);
+  }
+  /**
+   * Patches a localized store listing. (listings.patch)
+   *
+   * @param string $packageName Package name of the app.
+   * @param string $editId Identifier of the edit.
+   * @param string $language Language localization code (a BCP-47 language tag;
+   * for example, "de-AT" for Austrian German).
+   * @param Listing $postBody
+   * @param array $optParams Optional parameters.
+   * @return Listing
+   */
+  public function patch($packageName, $editId, $language, Listing $postBody, $optParams = [])
+  {
+    $params = ['packageName' => $packageName, 'editId' => $editId, 'language' => $language, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Listing::class);
+  }
+  /**
+   * Creates or updates a localized store listing. (listings.update)
+   *
+   * @param string $packageName Package name of the app.
+   * @param string $editId Identifier of the edit.
+   * @param string $language Language localization code (a BCP-47 language tag;
+   * for example, "de-AT" for Austrian German).
+   * @param Listing $postBody
+   * @param array $optParams Optional parameters.
+   * @return Listing
+   */
+  public function update($packageName, $editId, $language, Listing $postBody, $optParams = [])
+  {
+    $params = ['packageName' => $packageName, 'editId' => $editId, 'language' => $language, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Listing::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(EditsListings::class, 'Google_Service_AndroidPublisher_Resource_EditsListings');

@@ -1,72 +1,168 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\FirebaseRules\Resource;
+
+use Google\Service\FirebaseRules\FirebaserulesEmpty;
+use Google\Service\FirebaseRules\GetReleaseExecutableResponse;
+use Google\Service\FirebaseRules\ListReleasesResponse;
+use Google\Service\FirebaseRules\Release;
+use Google\Service\FirebaseRules\UpdateReleaseRequest;
+
+/**
+ * The "releases" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $firebaserulesService = new Google\Service\FirebaseRules(...);
+ *   $releases = $firebaserulesService->releases;
+ *  </code>
+ */
+class ProjectsReleases extends \Google\Service\Resource
+{
+  /**
+   * Create a `Release`. Release names should reflect the developer's deployment
+   * practices. For example, the release name may include the environment name,
+   * application name, application version, or any other name meaningful to the
+   * developer. Once a `Release` refers to a `Ruleset`, the rules can be enforced
+   * by Firebase Rules-enabled services. More than one `Release` may be 'live'
+   * concurrently. Consider the following three `Release` names for `projects/foo`
+   * and the `Ruleset` to which they refer. Release Name | Ruleset Name
+   * --------------------------------|------------- projects/foo/releases/prod |
+   * projects/foo/rulesets/uuid123 projects/foo/releases/prod/beta |
+   * projects/foo/rulesets/uuid123 projects/foo/releases/prod/v23 |
+   * projects/foo/rulesets/uuid456 The table reflects the `Ruleset` rollout in
+   * progress. The `prod` and `prod/beta` releases refer to the same `Ruleset`.
+   * However, `prod/v23` refers to a new `Ruleset`. The `Ruleset` reference for a
+   * `Release` may be updated using the UpdateRelease method. (releases.create)
+   *
+   * @param string $name Required. Resource name for the project which owns this
+   * `Release`. Format: `projects/{project_id}`
+   * @param Release $postBody
+   * @param array $optParams Optional parameters.
+   * @return Release
+   */
+  public function create($name, Release $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Release::class);
+  }
+  /**
+   * Delete a `Release` by resource name. (releases.delete)
+   *
+   * @param string $name Required. Resource name for the `Release` to delete.
+   * Format: `projects/{project_id}/releases/{release_id}`
+   * @param array $optParams Optional parameters.
+   * @return FirebaserulesEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], FirebaserulesEmpty::class);
+  }
+  /**
+   * Get a `Release` by name. (releases.get)
+   *
+   * @param string $name Required. Resource name of the `Release`. Format:
+   * `projects/{project_id}/releases/{release_id}`
+   * @param array $optParams Optional parameters.
+   * @return Release
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Release::class);
+  }
+  /**
+   * Get the `Release` executable to use when enforcing rules.
+   * (releases.getExecutable)
+   *
+   * @param string $name Required. Resource name of the `Release`. Format:
+   * `projects/{project_id}/releases/{release_id}`
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string executableVersion The requested runtime executable version.
+   * Defaults to FIREBASE_RULES_EXECUTABLE_V1.
+   * @return GetReleaseExecutableResponse
+   */
+  public function getExecutable($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('getExecutable', [$params], GetReleaseExecutableResponse::class);
+  }
+  /**
+   * List the `Release` values for a project. This list may optionally be filtered
+   * by `Release` name, `Ruleset` name, `TestSuite` name, or any combination
+   * thereof. (releases.listProjectsReleases)
+   *
+   * @param string $name Required. Resource name for the project. Format:
+   * `projects/{project_id}`
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter `Release` filter. The list method supports filters
+   * with restrictions on the `Release.name`, and `Release.ruleset_name`. Example
+   * 1: A filter of 'name=prod*' might return `Release`s with names within
+   * 'projects/foo' prefixed with 'prod': Name -> Ruleset Name: *
+   * projects/foo/releases/prod -> projects/foo/rulesets/uuid1234 *
+   * projects/foo/releases/prod/v1 -> projects/foo/rulesets/uuid1234 *
+   * projects/foo/releases/prod/v2 -> projects/foo/rulesets/uuid8888 Example 2: A
+   * filter of `name=prod* ruleset_name=uuid1234` would return only `Release`
+   * instances for 'projects/foo' with names prefixed with 'prod' referring to the
+   * same `Ruleset` name of 'uuid1234': Name -> Ruleset Name: *
+   * projects/foo/releases/prod -> projects/foo/rulesets/1234 *
+   * projects/foo/releases/prod/v1 -> projects/foo/rulesets/1234 In the examples,
+   * the filter parameters refer to the search filters are relative to the
+   * project. Fully qualified prefixed may also be used.
+   * @opt_param int pageSize Page size to load. Maximum of 100. Defaults to 10.
+   * Note: `page_size` is just a hint and the service may choose to load fewer
+   * than `page_size` results due to the size of the output. To traverse all of
+   * the releases, the caller should iterate until the `page_token` on the
+   * response is empty.
+   * @opt_param string pageToken Next page token for the next batch of `Release`
+   * instances.
+   * @return ListReleasesResponse
+   */
+  public function listProjectsReleases($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListReleasesResponse::class);
+  }
+  /**
+   * Update a `Release` via PATCH. Only updates to `ruleset_name` will be honored.
+   * `Release` rename is not supported. To create a `Release` use the
+   * CreateRelease method. (releases.patch)
+   *
+   * @param string $name Required. Resource name for the project which owns this
+   * `Release`. Format: `projects/{project_id}`
+   * @param UpdateReleaseRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Release
+   */
+  public function patch($name, UpdateReleaseRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Release::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsReleases::class, 'Google_Service_FirebaseRules_Resource_ProjectsReleases');

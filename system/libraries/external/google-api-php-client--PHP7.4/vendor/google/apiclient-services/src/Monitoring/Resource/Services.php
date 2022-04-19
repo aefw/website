@@ -1,66 +1,139 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Monitoring\Resource;
+
+use Google\Service\Monitoring\ListServicesResponse;
+use Google\Service\Monitoring\MonitoringEmpty;
+use Google\Service\Monitoring\Service;
+
+/**
+ * The "services" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $monitoringService = new Google\Service\Monitoring(...);
+ *   $services = $monitoringService->services;
+ *  </code>
+ */
+class Services extends \Google\Service\Resource
+{
+  /**
+   * Create a Service. (services.create)
+   *
+   * @param string $parent Required. Resource name
+   * (https://cloud.google.com/monitoring/api/v3#project_name) of the parent
+   * workspace. The format is: projects/[PROJECT_ID_OR_NUMBER]
+   * @param Service $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string serviceId Optional. The Service id to use for this Service.
+   * If omitted, an id will be generated instead. Must match the pattern
+   * [a-z0-9\-]+
+   * @return Service
+   */
+  public function create($parent, Service $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Service::class);
+  }
+  /**
+   * Soft delete this Service. (services.delete)
+   *
+   * @param string $name Required. Resource name of the Service to delete. The
+   * format is: projects/[PROJECT_ID_OR_NUMBER]/services/[SERVICE_ID]
+   * @param array $optParams Optional parameters.
+   * @return MonitoringEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], MonitoringEmpty::class);
+  }
+  /**
+   * Get the named Service. (services.get)
+   *
+   * @param string $name Required. Resource name of the Service. The format is:
+   * projects/[PROJECT_ID_OR_NUMBER]/services/[SERVICE_ID]
+   * @param array $optParams Optional parameters.
+   * @return Service
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Service::class);
+  }
+  /**
+   * List Services for this workspace. (services.listServices)
+   *
+   * @param string $parent Required. Resource name of the parent containing the
+   * listed services, either a project
+   * (https://cloud.google.com/monitoring/api/v3#project_name) or a Monitoring
+   * Workspace. The formats are: projects/[PROJECT_ID_OR_NUMBER]
+   * workspaces/[HOST_PROJECT_ID_OR_NUMBER]
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter specifying what Services to return. The
+   * filter currently supports the following fields: - `identifier_case` -
+   * `app_engine.module_id` - `cloud_endpoints.service` (reserved for future use)
+   * - `mesh_istio.mesh_uid` - `mesh_istio.service_namespace` -
+   * `mesh_istio.service_name` - `cluster_istio.location` (deprecated) -
+   * `cluster_istio.cluster_name` (deprecated) - `cluster_istio.service_namespace`
+   * (deprecated) - `cluster_istio.service_name` (deprecated) identifier_case
+   * refers to which option in the identifier oneof is populated. For example, the
+   * filter identifier_case = "CUSTOM" would match all services with a value for
+   * the custom field. Valid options are "CUSTOM", "APP_ENGINE", "MESH_ISTIO",
+   * plus "CLUSTER_ISTIO" (deprecated) and "CLOUD_ENDPOINTS" (reserved for future
+   * use).
+   * @opt_param int pageSize A non-negative number that is the maximum number of
+   * results to return. When 0, use default page size.
+   * @opt_param string pageToken If this field is not empty then it must contain
+   * the nextPageToken value returned by a previous call to this method. Using
+   * this field causes the method to return additional results from the previous
+   * method call.
+   * @return ListServicesResponse
+   */
+  public function listServices($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListServicesResponse::class);
+  }
+  /**
+   * Update this Service. (services.patch)
+   *
+   * @param string $name Resource name for this Service. The format is:
+   * projects/[PROJECT_ID_OR_NUMBER]/services/[SERVICE_ID]
+   * @param Service $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask A set of field paths defining which fields to
+   * use for the update.
+   * @return Service
+   */
+  public function patch($name, Service $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Service::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Services::class, 'Google_Service_Monitoring_Resource_Services');

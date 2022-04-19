@@ -1,67 +1,98 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ServiceUsage;
+
+class BackendRule extends \Google\Model
+{
+  public $address;
+  public $deadline;
+  public $disableAuth;
+  public $jwtAudience;
+  public $operationDeadline;
+  public $pathTranslation;
+  public $protocol;
+  public $selector;
+
+  public function setAddress($address)
+  {
+    $this->address = $address;
+  }
+  public function getAddress()
+  {
+    return $this->address;
+  }
+  public function setDeadline($deadline)
+  {
+    $this->deadline = $deadline;
+  }
+  public function getDeadline()
+  {
+    return $this->deadline;
+  }
+  public function setDisableAuth($disableAuth)
+  {
+    $this->disableAuth = $disableAuth;
+  }
+  public function getDisableAuth()
+  {
+    return $this->disableAuth;
+  }
+  public function setJwtAudience($jwtAudience)
+  {
+    $this->jwtAudience = $jwtAudience;
+  }
+  public function getJwtAudience()
+  {
+    return $this->jwtAudience;
+  }
+  public function setOperationDeadline($operationDeadline)
+  {
+    $this->operationDeadline = $operationDeadline;
+  }
+  public function getOperationDeadline()
+  {
+    return $this->operationDeadline;
+  }
+  public function setPathTranslation($pathTranslation)
+  {
+    $this->pathTranslation = $pathTranslation;
+  }
+  public function getPathTranslation()
+  {
+    return $this->pathTranslation;
+  }
+  public function setProtocol($protocol)
+  {
+    $this->protocol = $protocol;
+  }
+  public function getProtocol()
+  {
+    return $this->protocol;
+  }
+  public function setSelector($selector)
+  {
+    $this->selector = $selector;
+  }
+  public function getSelector()
+  {
+    return $this->selector;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(BackendRule::class, 'Google_Service_ServiceUsage_BackendRule');

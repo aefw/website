@@ -1,68 +1,114 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\GamesConfiguration\Resource;
+
+use Google\Service\GamesConfiguration\AchievementConfiguration;
+use Google\Service\GamesConfiguration\AchievementConfigurationListResponse;
+
+/**
+ * The "achievementConfigurations" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $gamesConfigurationService = new Google\Service\GamesConfiguration(...);
+ *   $achievementConfigurations = $gamesConfigurationService->achievementConfigurations;
+ *  </code>
+ */
+class AchievementConfigurations extends \Google\Service\Resource
+{
+  /**
+   * Delete the achievement configuration with the given ID.
+   * (achievementConfigurations.delete)
+   *
+   * @param string $achievementId The ID of the achievement used by this method.
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($achievementId, $optParams = [])
+  {
+    $params = ['achievementId' => $achievementId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Retrieves the metadata of the achievement configuration with the given ID.
+   * (achievementConfigurations.get)
+   *
+   * @param string $achievementId The ID of the achievement used by this method.
+   * @param array $optParams Optional parameters.
+   * @return AchievementConfiguration
+   */
+  public function get($achievementId, $optParams = [])
+  {
+    $params = ['achievementId' => $achievementId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], AchievementConfiguration::class);
+  }
+  /**
+   * Insert a new achievement configuration in this application.
+   * (achievementConfigurations.insert)
+   *
+   * @param string $applicationId The application ID from the Google Play
+   * developer console.
+   * @param AchievementConfiguration $postBody
+   * @param array $optParams Optional parameters.
+   * @return AchievementConfiguration
+   */
+  public function insert($applicationId, AchievementConfiguration $postBody, $optParams = [])
+  {
+    $params = ['applicationId' => $applicationId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], AchievementConfiguration::class);
+  }
+  /**
+   * Returns a list of the achievement configurations in this application.
+   * (achievementConfigurations.listAchievementConfigurations)
+   *
+   * @param string $applicationId The application ID from the Google Play
+   * developer console.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int maxResults The maximum number of resource configurations to
+   * return in the response, used for paging. For any response, the actual number
+   * of resources returned may be less than the specified `maxResults`.
+   * @opt_param string pageToken The token returned by the previous request.
+   * @return AchievementConfigurationListResponse
+   */
+  public function listAchievementConfigurations($applicationId, $optParams = [])
+  {
+    $params = ['applicationId' => $applicationId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], AchievementConfigurationListResponse::class);
+  }
+  /**
+   * Update the metadata of the achievement configuration with the given ID.
+   * (achievementConfigurations.update)
+   *
+   * @param string $achievementId The ID of the achievement used by this method.
+   * @param AchievementConfiguration $postBody
+   * @param array $optParams Optional parameters.
+   * @return AchievementConfiguration
+   */
+  public function update($achievementId, AchievementConfiguration $postBody, $optParams = [])
+  {
+    $params = ['achievementId' => $achievementId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], AchievementConfiguration::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AchievementConfigurations::class, 'Google_Service_GamesConfiguration_Resource_AchievementConfigurations');

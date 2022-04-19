@@ -1,71 +1,154 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Sheets;
+
+class TreemapChartColorScale extends \Google\Model
+{
+  protected $maxValueColorType = Color::class;
+  protected $maxValueColorDataType = '';
+  protected $maxValueColorStyleType = ColorStyle::class;
+  protected $maxValueColorStyleDataType = '';
+  protected $midValueColorType = Color::class;
+  protected $midValueColorDataType = '';
+  protected $midValueColorStyleType = ColorStyle::class;
+  protected $midValueColorStyleDataType = '';
+  protected $minValueColorType = Color::class;
+  protected $minValueColorDataType = '';
+  protected $minValueColorStyleType = ColorStyle::class;
+  protected $minValueColorStyleDataType = '';
+  protected $noDataColorType = Color::class;
+  protected $noDataColorDataType = '';
+  protected $noDataColorStyleType = ColorStyle::class;
+  protected $noDataColorStyleDataType = '';
+
+  /**
+   * @param Color
+   */
+  public function setMaxValueColor(Color $maxValueColor)
+  {
+    $this->maxValueColor = $maxValueColor;
+  }
+  /**
+   * @return Color
+   */
+  public function getMaxValueColor()
+  {
+    return $this->maxValueColor;
+  }
+  /**
+   * @param ColorStyle
+   */
+  public function setMaxValueColorStyle(ColorStyle $maxValueColorStyle)
+  {
+    $this->maxValueColorStyle = $maxValueColorStyle;
+  }
+  /**
+   * @return ColorStyle
+   */
+  public function getMaxValueColorStyle()
+  {
+    return $this->maxValueColorStyle;
+  }
+  /**
+   * @param Color
+   */
+  public function setMidValueColor(Color $midValueColor)
+  {
+    $this->midValueColor = $midValueColor;
+  }
+  /**
+   * @return Color
+   */
+  public function getMidValueColor()
+  {
+    return $this->midValueColor;
+  }
+  /**
+   * @param ColorStyle
+   */
+  public function setMidValueColorStyle(ColorStyle $midValueColorStyle)
+  {
+    $this->midValueColorStyle = $midValueColorStyle;
+  }
+  /**
+   * @return ColorStyle
+   */
+  public function getMidValueColorStyle()
+  {
+    return $this->midValueColorStyle;
+  }
+  /**
+   * @param Color
+   */
+  public function setMinValueColor(Color $minValueColor)
+  {
+    $this->minValueColor = $minValueColor;
+  }
+  /**
+   * @return Color
+   */
+  public function getMinValueColor()
+  {
+    return $this->minValueColor;
+  }
+  /**
+   * @param ColorStyle
+   */
+  public function setMinValueColorStyle(ColorStyle $minValueColorStyle)
+  {
+    $this->minValueColorStyle = $minValueColorStyle;
+  }
+  /**
+   * @return ColorStyle
+   */
+  public function getMinValueColorStyle()
+  {
+    return $this->minValueColorStyle;
+  }
+  /**
+   * @param Color
+   */
+  public function setNoDataColor(Color $noDataColor)
+  {
+    $this->noDataColor = $noDataColor;
+  }
+  /**
+   * @return Color
+   */
+  public function getNoDataColor()
+  {
+    return $this->noDataColor;
+  }
+  /**
+   * @param ColorStyle
+   */
+  public function setNoDataColorStyle(ColorStyle $noDataColorStyle)
+  {
+    $this->noDataColorStyle = $noDataColorStyle;
+  }
+  /**
+   * @return ColorStyle
+   */
+  public function getNoDataColorStyle()
+  {
+    return $this->noDataColorStyle;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(TreemapChartColorScale::class, 'Google_Service_Sheets_TreemapChartColorScale');

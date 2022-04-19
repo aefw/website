@@ -1,75 +1,144 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\TagManager\Resource;
+
+use Google\Service\TagManager\ContainerVersion;
+use Google\Service\TagManager\PublishContainerVersionResponse;
+
+/**
+ * The "versions" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $tagmanagerService = new Google\Service\TagManager(...);
+ *   $versions = $tagmanagerService->versions;
+ *  </code>
+ */
+class AccountsContainersVersions extends \Google\Service\Resource
+{
+  /**
+   * Deletes a Container Version. (versions.delete)
+   *
+   * @param string $path GTM ContainerVersion's API relative path. Example:
+   * accounts/{account_id}/containers/{container_id}/versions/{version_id}
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($path, $optParams = [])
+  {
+    $params = ['path' => $path];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Gets a Container Version. (versions.get)
+   *
+   * @param string $path GTM ContainerVersion's API relative path. Example:
+   * accounts/{account_id}/containers/{container_id}/versions/{version_id}
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string containerVersionId The GTM ContainerVersion ID. Specify
+   * published to retrieve the currently published version.
+   * @return ContainerVersion
+   */
+  public function get($path, $optParams = [])
+  {
+    $params = ['path' => $path];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], ContainerVersion::class);
+  }
+  /**
+   * Gets the live (i.e. published) container version (versions.live)
+   *
+   * @param string $parent GTM Container's API relative path. Example:
+   * accounts/{account_id}/containers/{container_id}
+   * @param array $optParams Optional parameters.
+   * @return ContainerVersion
+   */
+  public function live($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('live', [$params], ContainerVersion::class);
+  }
+  /**
+   * Publishes a Container Version. (versions.publish)
+   *
+   * @param string $path GTM ContainerVersion's API relative path. Example:
+   * accounts/{account_id}/containers/{container_id}/versions/{version_id}
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string fingerprint When provided, this fingerprint must match the
+   * fingerprint of the container version in storage.
+   * @return PublishContainerVersionResponse
+   */
+  public function publish($path, $optParams = [])
+  {
+    $params = ['path' => $path];
+    $params = array_merge($params, $optParams);
+    return $this->call('publish', [$params], PublishContainerVersionResponse::class);
+  }
+  /**
+   * Sets the latest version used for synchronization of workspaces when detecting
+   * conflicts and errors. (versions.set_latest)
+   *
+   * @param string $path GTM ContainerVersion's API relative path. Example:
+   * accounts/{account_id}/containers/{container_id}/versions/{version_id}
+   * @param array $optParams Optional parameters.
+   * @return ContainerVersion
+   */
+  public function set_latest($path, $optParams = [])
+  {
+    $params = ['path' => $path];
+    $params = array_merge($params, $optParams);
+    return $this->call('set_latest', [$params], ContainerVersion::class);
+  }
+  /**
+   * Undeletes a Container Version. (versions.undelete)
+   *
+   * @param string $path GTM ContainerVersion's API relative path. Example:
+   * accounts/{account_id}/containers/{container_id}/versions/{version_id}
+   * @param array $optParams Optional parameters.
+   * @return ContainerVersion
+   */
+  public function undelete($path, $optParams = [])
+  {
+    $params = ['path' => $path];
+    $params = array_merge($params, $optParams);
+    return $this->call('undelete', [$params], ContainerVersion::class);
+  }
+  /**
+   * Updates a Container Version. (versions.update)
+   *
+   * @param string $path GTM ContainerVersion's API relative path. Example:
+   * accounts/{account_id}/containers/{container_id}/versions/{version_id}
+   * @param ContainerVersion $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string fingerprint When provided, this fingerprint must match the
+   * fingerprint of the container version in storage.
+   * @return ContainerVersion
+   */
+  public function update($path, ContainerVersion $postBody, $optParams = [])
+  {
+    $params = ['path' => $path, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], ContainerVersion::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AccountsContainersVersions::class, 'Google_Service_TagManager_Resource_AccountsContainersVersions');

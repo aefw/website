@@ -1,77 +1,151 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-3yAWzM/bvZXiY5h5tddXgCWtKhG=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AndroidPublisher\Resource;
+
+use Google\Service\AndroidPublisher\SubscriptionPurchase;
+use Google\Service\AndroidPublisher\SubscriptionPurchasesAcknowledgeRequest;
+use Google\Service\AndroidPublisher\SubscriptionPurchasesDeferRequest;
+use Google\Service\AndroidPublisher\SubscriptionPurchasesDeferResponse;
+
+/**
+ * The "subscriptions" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $androidpublisherService = new Google\Service\AndroidPublisher(...);
+ *   $subscriptions = $androidpublisherService->subscriptions;
+ *  </code>
+ */
+class PurchasesSubscriptions extends \Google\Service\Resource
+{
+  /**
+   * Acknowledges a subscription purchase. (subscriptions.acknowledge)
+   *
+   * @param string $packageName The package name of the application for which this
+   * subscription was purchased (for example, 'com.some.thing').
+   * @param string $subscriptionId The purchased subscription ID (for example,
+   * 'monthly001').
+   * @param string $token The token provided to the user's device when the
+   * subscription was purchased.
+   * @param SubscriptionPurchasesAcknowledgeRequest $postBody
+   * @param array $optParams Optional parameters.
+   */
+  public function acknowledge($packageName, $subscriptionId, $token, SubscriptionPurchasesAcknowledgeRequest $postBody, $optParams = [])
+  {
+    $params = ['packageName' => $packageName, 'subscriptionId' => $subscriptionId, 'token' => $token, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('acknowledge', [$params]);
+  }
+  /**
+   * Cancels a user's subscription purchase. The subscription remains valid until
+   * its expiration time. (subscriptions.cancel)
+   *
+   * @param string $packageName The package name of the application for which this
+   * subscription was purchased (for example, 'com.some.thing').
+   * @param string $subscriptionId The purchased subscription ID (for example,
+   * 'monthly001').
+   * @param string $token The token provided to the user's device when the
+   * subscription was purchased.
+   * @param array $optParams Optional parameters.
+   */
+  public function cancel($packageName, $subscriptionId, $token, $optParams = [])
+  {
+    $params = ['packageName' => $packageName, 'subscriptionId' => $subscriptionId, 'token' => $token];
+    $params = array_merge($params, $optParams);
+    return $this->call('cancel', [$params]);
+  }
+  /**
+   * Defers a user's subscription purchase until a specified future expiration
+   * time. (subscriptions.defer)
+   *
+   * @param string $packageName The package name of the application for which this
+   * subscription was purchased (for example, 'com.some.thing').
+   * @param string $subscriptionId The purchased subscription ID (for example,
+   * 'monthly001').
+   * @param string $token The token provided to the user's device when the
+   * subscription was purchased.
+   * @param SubscriptionPurchasesDeferRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return SubscriptionPurchasesDeferResponse
+   */
+  public function defer($packageName, $subscriptionId, $token, SubscriptionPurchasesDeferRequest $postBody, $optParams = [])
+  {
+    $params = ['packageName' => $packageName, 'subscriptionId' => $subscriptionId, 'token' => $token, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('defer', [$params], SubscriptionPurchasesDeferResponse::class);
+  }
+  /**
+   * Checks whether a user's subscription purchase is valid and returns its expiry
+   * time. (subscriptions.get)
+   *
+   * @param string $packageName The package name of the application for which this
+   * subscription was purchased (for example, 'com.some.thing').
+   * @param string $subscriptionId The purchased subscription ID (for example,
+   * 'monthly001').
+   * @param string $token The token provided to the user's device when the
+   * subscription was purchased.
+   * @param array $optParams Optional parameters.
+   * @return SubscriptionPurchase
+   */
+  public function get($packageName, $subscriptionId, $token, $optParams = [])
+  {
+    $params = ['packageName' => $packageName, 'subscriptionId' => $subscriptionId, 'token' => $token];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], SubscriptionPurchase::class);
+  }
+  /**
+   * Refunds a user's subscription purchase, but the subscription remains valid
+   * until its expiration time and it will continue to recur.
+   * (subscriptions.refund)
+   *
+   * @param string $packageName The package name of the application for which this
+   * subscription was purchased (for example, 'com.some.thing').
+   * @param string $subscriptionId "The purchased subscription ID (for example,
+   * 'monthly001').
+   * @param string $token The token provided to the user's device when the
+   * subscription was purchased.
+   * @param array $optParams Optional parameters.
+   */
+  public function refund($packageName, $subscriptionId, $token, $optParams = [])
+  {
+    $params = ['packageName' => $packageName, 'subscriptionId' => $subscriptionId, 'token' => $token];
+    $params = array_merge($params, $optParams);
+    return $this->call('refund', [$params]);
+  }
+  /**
+   * Refunds and immediately revokes a user's subscription purchase. Access to the
+   * subscription will be terminated immediately and it will stop recurring.
+   * (subscriptions.revoke)
+   *
+   * @param string $packageName The package name of the application for which this
+   * subscription was purchased (for example, 'com.some.thing').
+   * @param string $subscriptionId The purchased subscription ID (for example,
+   * 'monthly001').
+   * @param string $token The token provided to the user's device when the
+   * subscription was purchased.
+   * @param array $optParams Optional parameters.
+   */
+  public function revoke($packageName, $subscriptionId, $token, $optParams = [])
+  {
+    $params = ['packageName' => $packageName, 'subscriptionId' => $subscriptionId, 'token' => $token];
+    $params = array_merge($params, $optParams);
+    return $this->call('revoke', [$params]);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PurchasesSubscriptions::class, 'Google_Service_AndroidPublisher_Resource_PurchasesSubscriptions');

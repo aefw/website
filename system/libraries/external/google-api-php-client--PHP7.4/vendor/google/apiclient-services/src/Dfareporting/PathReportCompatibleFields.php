@@ -1,61 +1,100 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dfareporting;
+
+class PathReportCompatibleFields extends \Google\Collection
+{
+  protected $collection_key = 'pathFilters';
+  protected $channelGroupingsType = Dimension::class;
+  protected $channelGroupingsDataType = 'array';
+  protected $dimensionsType = Dimension::class;
+  protected $dimensionsDataType = 'array';
+  public $kind;
+  protected $metricsType = Metric::class;
+  protected $metricsDataType = 'array';
+  protected $pathFiltersType = Dimension::class;
+  protected $pathFiltersDataType = 'array';
+
+  /**
+   * @param Dimension[]
+   */
+  public function setChannelGroupings($channelGroupings)
+  {
+    $this->channelGroupings = $channelGroupings;
+  }
+  /**
+   * @return Dimension[]
+   */
+  public function getChannelGroupings()
+  {
+    return $this->channelGroupings;
+  }
+  /**
+   * @param Dimension[]
+   */
+  public function setDimensions($dimensions)
+  {
+    $this->dimensions = $dimensions;
+  }
+  /**
+   * @return Dimension[]
+   */
+  public function getDimensions()
+  {
+    return $this->dimensions;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  /**
+   * @param Metric[]
+   */
+  public function setMetrics($metrics)
+  {
+    $this->metrics = $metrics;
+  }
+  /**
+   * @return Metric[]
+   */
+  public function getMetrics()
+  {
+    return $this->metrics;
+  }
+  /**
+   * @param Dimension[]
+   */
+  public function setPathFilters($pathFilters)
+  {
+    $this->pathFilters = $pathFilters;
+  }
+  /**
+   * @return Dimension[]
+   */
+  public function getPathFilters()
+  {
+    return $this->pathFilters;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PathReportCompatibleFields::class, 'Google_Service_Dfareporting_PathReportCompatibleFields');

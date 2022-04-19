@@ -1,74 +1,153 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-tOX79Wmskcv+KnYZJCc9/IVTI3LmAulEkPaVLHO=
+<?php
+
+/**
+ * Wrapper for network stream functionality.
+
+ *
+ * PHP has built in support for various types of network streams, such as HTTP and TCP sockets. One problem that arises with them is the fact that a single fread/fwrite call might not read/write all the data you intended, regardless of whether you're in blocking mode or not. While the PHP manual offers a workaround in the form of a loop with a few variables, using it every single time you want to read/write can be tedious.
+
+This package abstracts this away, so that when you want to get exactly N amount of bytes, you can be sure the upper levels of your app will be dealing with N bytes. Oh, and the functionality is nicely wrapped in an object (but that's just the icing on the cake).
+ *
+ * PHP version 5
+ *
+ * @category  Net
+ * @package   PEAR2_Net_Transmitter
+ * @author    Vasil Rangelov <boen.robot@gmail.com>
+ * @copyright 2011 Vasil Rangelov
+ * @license   http://www.gnu.org/copyleft/lesser.html LGPL License 2.1
+ * @version   1.0.0b2
+ * @link      http://pear2.php.net/PEAR2_Net_Transmitter
+ */
+/**
+ * The namespace declaration.
+ */
+namespace PEAR2\Net\Transmitter;
+
+use Exception as E;
+
+/**
+ * A transmitter for connections to a socket server.
+ *
+ * This is a convenience wrapper for functionality of socket server connections.
+ * Used to ensure data integrity. Server handling is not part of the class in
+ * order to allow its usage as part of various server implementations (e.g. fork
+ * and/or sequential).
+ *
+ * @category Net
+ * @package  PEAR2_Net_Transmitter
+ * @author   Vasil Rangelov <boen.robot@gmail.com>
+ * @license  http://www.gnu.org/copyleft/lesser.html LGPL License 2.1
+ * @link     http://pear2.php.net/PEAR2_Net_Transmitter
+ */
+class TcpServerConnection extends NetworkStream
+{
+
+    /**
+     * The IP address of the connected client.
+     *
+     * @var string
+     */
+    protected $peerIP;
+
+    /**
+     * The port of the connected client.
+     *
+     * @var int
+     */
+    protected $peerPort;
+
+    /**
+     * Creates a new connection with the specified options.
+     *
+     * @param resource   $server  A socket server, created with
+     *     {@link stream_socket_server()}.
+     * @param float|null $timeout The timeout for the connection. Leaving this
+     *     to NULL uses the default socket timeout.
+     */
+    public function __construct($server, $timeout = null)
+    {
+        $this->streamType = '_SERVER';
+
+        if (!self::isStream($server)) {
+            throw $this->createException('Invalid server supplied.', 9);
+        }
+        $timeout
+            = null == $timeout ? ini_get('default_socket_timeout') : $timeout;
+
+        set_error_handler(array($this, 'handleError'));
+        try {
+            parent::__construct(
+                stream_socket_accept($server, $timeout, $peerName)
+            );
+            restore_error_handler();
+            $portString = strrchr($peerName, ':');
+            $this->peerPort = (int) substr($portString, 1);
+            $ipString = substr(
+                $peerName,
+                0,
+                strlen($peerName) - strlen($portString)
+            );
+            if (strpos($ipString, '[') === 0
+                && strpos(strrev($ipString), ']') === 0
+            ) {
+                $ipString = substr($ipString, 1, strlen($ipString) - 2);
+            }
+            $this->peerIP = $ipString;
+        } catch (E $e) {
+            restore_error_handler();
+            throw $this->createException(
+                'Failed to initialize connection.',
+                10,
+                $e
+            );
+        }
+    }
+
+    /**
+     * Gets the IP address of the connected client.
+     *
+     * @return string The IP address of the connected client.
+     */
+    public function getPeerIP()
+    {
+        return $this->peerIP;
+    }
+
+    /**
+     * Gets the port of the connected client.
+     *
+     * @return int The port of the connected client.
+     */
+    public function getPeerPort()
+    {
+        return $this->peerPort;
+    }
+
+    /**
+     * Creates a new exception.
+     *
+     * Creates a new exception. Used by the rest of the functions in this class.
+     *
+     * @param string      $message  The exception message.
+     * @param int         $code     The exception code.
+     * @param E|null      $previous Previous exception thrown, or NULL if there
+     *     is none.
+     * @param string|null $fragment The fragment up until the point of failure.
+     *     NULL if the failure occurred before the operation started.
+     *
+     * @return SocketException The exception to then be thrown.
+     */
+    protected function createException(
+        $message,
+        $code = 0,
+        E $previous = null,
+        $fragment = null
+    ) {
+        return new SocketException(
+            $message,
+            $code,
+            $previous,
+            $fragment
+        );
+    }
+}

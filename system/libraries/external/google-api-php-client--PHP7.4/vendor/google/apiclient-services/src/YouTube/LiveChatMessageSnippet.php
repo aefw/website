@@ -1,99 +1,192 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-8L6tmzntGQsArZYxLtGpgGt8chO=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\YouTube;
+
+class LiveChatMessageSnippet extends \Google\Model
+{
+  public $authorChannelId;
+  public $displayMessage;
+  protected $fanFundingEventDetailsType = LiveChatFanFundingEventDetails::class;
+  protected $fanFundingEventDetailsDataType = '';
+  public $hasDisplayContent;
+  public $liveChatId;
+  protected $messageDeletedDetailsType = LiveChatMessageDeletedDetails::class;
+  protected $messageDeletedDetailsDataType = '';
+  protected $messageRetractedDetailsType = LiveChatMessageRetractedDetails::class;
+  protected $messageRetractedDetailsDataType = '';
+  public $publishedAt;
+  protected $superChatDetailsType = LiveChatSuperChatDetails::class;
+  protected $superChatDetailsDataType = '';
+  protected $superStickerDetailsType = LiveChatSuperStickerDetails::class;
+  protected $superStickerDetailsDataType = '';
+  protected $textMessageDetailsType = LiveChatTextMessageDetails::class;
+  protected $textMessageDetailsDataType = '';
+  public $type;
+  protected $userBannedDetailsType = LiveChatUserBannedMessageDetails::class;
+  protected $userBannedDetailsDataType = '';
+
+  public function setAuthorChannelId($authorChannelId)
+  {
+    $this->authorChannelId = $authorChannelId;
+  }
+  public function getAuthorChannelId()
+  {
+    return $this->authorChannelId;
+  }
+  public function setDisplayMessage($displayMessage)
+  {
+    $this->displayMessage = $displayMessage;
+  }
+  public function getDisplayMessage()
+  {
+    return $this->displayMessage;
+  }
+  /**
+   * @param LiveChatFanFundingEventDetails
+   */
+  public function setFanFundingEventDetails(LiveChatFanFundingEventDetails $fanFundingEventDetails)
+  {
+    $this->fanFundingEventDetails = $fanFundingEventDetails;
+  }
+  /**
+   * @return LiveChatFanFundingEventDetails
+   */
+  public function getFanFundingEventDetails()
+  {
+    return $this->fanFundingEventDetails;
+  }
+  public function setHasDisplayContent($hasDisplayContent)
+  {
+    $this->hasDisplayContent = $hasDisplayContent;
+  }
+  public function getHasDisplayContent()
+  {
+    return $this->hasDisplayContent;
+  }
+  public function setLiveChatId($liveChatId)
+  {
+    $this->liveChatId = $liveChatId;
+  }
+  public function getLiveChatId()
+  {
+    return $this->liveChatId;
+  }
+  /**
+   * @param LiveChatMessageDeletedDetails
+   */
+  public function setMessageDeletedDetails(LiveChatMessageDeletedDetails $messageDeletedDetails)
+  {
+    $this->messageDeletedDetails = $messageDeletedDetails;
+  }
+  /**
+   * @return LiveChatMessageDeletedDetails
+   */
+  public function getMessageDeletedDetails()
+  {
+    return $this->messageDeletedDetails;
+  }
+  /**
+   * @param LiveChatMessageRetractedDetails
+   */
+  public function setMessageRetractedDetails(LiveChatMessageRetractedDetails $messageRetractedDetails)
+  {
+    $this->messageRetractedDetails = $messageRetractedDetails;
+  }
+  /**
+   * @return LiveChatMessageRetractedDetails
+   */
+  public function getMessageRetractedDetails()
+  {
+    return $this->messageRetractedDetails;
+  }
+  public function setPublishedAt($publishedAt)
+  {
+    $this->publishedAt = $publishedAt;
+  }
+  public function getPublishedAt()
+  {
+    return $this->publishedAt;
+  }
+  /**
+   * @param LiveChatSuperChatDetails
+   */
+  public function setSuperChatDetails(LiveChatSuperChatDetails $superChatDetails)
+  {
+    $this->superChatDetails = $superChatDetails;
+  }
+  /**
+   * @return LiveChatSuperChatDetails
+   */
+  public function getSuperChatDetails()
+  {
+    return $this->superChatDetails;
+  }
+  /**
+   * @param LiveChatSuperStickerDetails
+   */
+  public function setSuperStickerDetails(LiveChatSuperStickerDetails $superStickerDetails)
+  {
+    $this->superStickerDetails = $superStickerDetails;
+  }
+  /**
+   * @return LiveChatSuperStickerDetails
+   */
+  public function getSuperStickerDetails()
+  {
+    return $this->superStickerDetails;
+  }
+  /**
+   * @param LiveChatTextMessageDetails
+   */
+  public function setTextMessageDetails(LiveChatTextMessageDetails $textMessageDetails)
+  {
+    $this->textMessageDetails = $textMessageDetails;
+  }
+  /**
+   * @return LiveChatTextMessageDetails
+   */
+  public function getTextMessageDetails()
+  {
+    return $this->textMessageDetails;
+  }
+  public function setType($type)
+  {
+    $this->type = $type;
+  }
+  public function getType()
+  {
+    return $this->type;
+  }
+  /**
+   * @param LiveChatUserBannedMessageDetails
+   */
+  public function setUserBannedDetails(LiveChatUserBannedMessageDetails $userBannedDetails)
+  {
+    $this->userBannedDetails = $userBannedDetails;
+  }
+  /**
+   * @return LiveChatUserBannedMessageDetails
+   */
+  public function getUserBannedDetails()
+  {
+    return $this->userBannedDetails;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(LiveChatMessageSnippet::class, 'Google_Service_YouTube_LiveChatMessageSnippet');

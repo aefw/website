@@ -1,92 +1,192 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2010 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+namespace Google\Http;
+
+use Google\Auth\HttpHandler\HttpHandlerFactory;
+use Google\Client;
+use Google\Task\Runner;
+use Google\Service\Exception as GoogleServiceException;
+use GuzzleHttp\ClientInterface;
+use GuzzleHttp\Exception\RequestException;
+use GuzzleHttp\Psr7\Response;
+use Psr\Http\Message\RequestInterface;
+use Psr\Http\Message\ResponseInterface;
+
+/**
+ * This class implements the RESTful transport of apiServiceRequest()'s
+ */
+class REST
+{
+  /**
+   * Executes a Psr\Http\Message\RequestInterface and (if applicable) automatically retries
+   * when errors occur.
+   *
+   * @param Client $client
+   * @param RequestInterface $req
+   * @param string $expectedClass
+   * @param array $config
+   * @param array $retryMap
+   * @return array decoded result
+   * @throws \Google\Service\Exception on server side error (ie: not authenticated,
+   *  invalid or malformed post body, invalid url)
+   */
+  public static function execute(
+      ClientInterface $client,
+      RequestInterface $request,
+      $expectedClass = null,
+      $config = array(),
+      $retryMap = null
+  ) {
+    $runner = new Runner(
+        $config,
+        sprintf('%s %s', $request->getMethod(), (string) $request->getUri()),
+        array(get_class(), 'doExecute'),
+        array($client, $request, $expectedClass)
+    );
+
+    if (null !== $retryMap) {
+      $runner->setRetryMap($retryMap);
+    }
+
+    return $runner->run();
+  }
+
+  /**
+   * Executes a Psr\Http\Message\RequestInterface
+   *
+   * @param Client $client
+   * @param RequestInterface $request
+   * @param string $expectedClass
+   * @return array decoded result
+   * @throws \Google\Service\Exception on server side error (ie: not authenticated,
+   *  invalid or malformed post body, invalid url)
+   */
+  public static function doExecute(ClientInterface $client, RequestInterface $request, $expectedClass = null)
+  {
+    try {
+      $httpHandler = HttpHandlerFactory::build($client);
+      $response = $httpHandler($request);
+    } catch (RequestException $e) {
+      // if Guzzle throws an exception, catch it and handle the response
+      if (!$e->hasResponse()) {
+        throw $e;
+      }
+
+      $response = $e->getResponse();
+      // specific checking for Guzzle 5: convert to PSR7 response
+      if ($response instanceof \GuzzleHttp\Message\ResponseInterface) {
+        $response = new Response(
+            $response->getStatusCode(),
+            $response->getHeaders() ?: [],
+            $response->getBody(),
+            $response->getProtocolVersion(),
+            $response->getReasonPhrase()
+        );
+      }
+    }
+
+    return self::decodeHttpResponse($response, $request, $expectedClass);
+  }
+
+  /**
+   * Decode an HTTP Response.
+   * @static
+   * @throws \Google\Service\Exception
+   * @param RequestInterface $response The http response to be decoded.
+   * @param ResponseInterface $response
+   * @param string $expectedClass
+   * @return mixed|null
+   */
+  public static function decodeHttpResponse(
+      ResponseInterface $response,
+      RequestInterface $request = null,
+      $expectedClass = null
+  ) {
+    $code = $response->getStatusCode();
+
+    // retry strategy
+    if (intVal($code) >= 400) {
+      // if we errored out, it should be safe to grab the response body
+      $body = (string) $response->getBody();
+
+      // Check if we received errors, and add those to the Exception for convenience
+      throw new GoogleServiceException($body, $code, null, self::getResponseErrors($body));
+    }
+
+    // Ensure we only pull the entire body into memory if the request is not
+    // of media type
+    $body = self::decodeBody($response, $request);
+
+    if ($expectedClass = self::determineExpectedClass($expectedClass, $request)) {
+      $json = json_decode($body, true);
+
+      return new $expectedClass($json);
+    }
+
+    return $response;
+  }
+
+  private static function decodeBody(ResponseInterface $response, RequestInterface $request = null)
+  {
+    if (self::isAltMedia($request)) {
+      // don't decode the body, it's probably a really long string
+      return '';
+    }
+
+    return (string) $response->getBody();
+  }
+
+  private static function determineExpectedClass($expectedClass, RequestInterface $request = null)
+  {
+    // "false" is used to explicitly prevent an expected class from being returned
+    if (false === $expectedClass) {
+      return null;
+    }
+
+    // if we don't have a request, we just use what's passed in
+    if (null === $request) {
+      return $expectedClass;
+    }
+
+    // return what we have in the request header if one was not supplied
+    return $expectedClass ?: $request->getHeaderLine('X-Php-Expected-Class');
+  }
+
+  private static function getResponseErrors($body)
+  {
+    $json = json_decode($body, true);
+
+    if (isset($json['error']['errors'])) {
+      return $json['error']['errors'];
+    }
+
+    return null;
+  }
+
+  private static function isAltMedia(RequestInterface $request = null)
+  {
+    if ($request && $qs = $request->getUri()->getQuery()) {
+      parse_str($qs, $query);
+      if (isset($query['alt']) && $query['alt'] == 'media') {
+        return true;
+      }
+    }
+
+    return false;
+  }
+}

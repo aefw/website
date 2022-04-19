@@ -1,66 +1,109 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Ne6izDrZMWPYnWyXzRYqrXVWam==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Apigee\Resource;
+
+use Google\Service\Apigee\GoogleCloudApigeeV1DeveloperSubscription;
+use Google\Service\Apigee\GoogleCloudApigeeV1ExpireDeveloperSubscriptionRequest;
+use Google\Service\Apigee\GoogleCloudApigeeV1ListDeveloperSubscriptionsResponse;
+
+/**
+ * The "subscriptions" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $apigeeService = new Google\Service\Apigee(...);
+ *   $subscriptions = $apigeeService->subscriptions;
+ *  </code>
+ */
+class OrganizationsDevelopersSubscriptions extends \Google\Service\Resource
+{
+  /**
+   * Creates a subscription to an API product.  (subscriptions.create)
+   *
+   * @param string $parent Required. Email address of the developer that is
+   * purchasing a subscription to the API product. Use the following structure in
+   * your request: `organizations/{org}/developers/{developer_email}`
+   * @param GoogleCloudApigeeV1DeveloperSubscription $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1DeveloperSubscription
+   */
+  public function create($parent, GoogleCloudApigeeV1DeveloperSubscription $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleCloudApigeeV1DeveloperSubscription::class);
+  }
+  /**
+   * Expires an API product subscription immediately. (subscriptions.expire)
+   *
+   * @param string $name Required. Name of the API product subscription. Use the
+   * following structure in your request: `organizations/{org}/developers/{develop
+   * er_email}/subscriptions/{subscription}`
+   * @param GoogleCloudApigeeV1ExpireDeveloperSubscriptionRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1DeveloperSubscription
+   */
+  public function expire($name, GoogleCloudApigeeV1ExpireDeveloperSubscriptionRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('expire', [$params], GoogleCloudApigeeV1DeveloperSubscription::class);
+  }
+  /**
+   * Gets details for an API product subscription. (subscriptions.get)
+   *
+   * @param string $name Required. Name of the API product subscription. Use the
+   * following structure in your request: `organizations/{org}/developers/{develop
+   * er_email}/subscriptions/{subscription}`
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1DeveloperSubscription
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudApigeeV1DeveloperSubscription::class);
+  }
+  /**
+   * Lists all API product subscriptions for a developer.
+   * (subscriptions.listOrganizationsDevelopersSubscriptions)
+   *
+   * @param string $parent Required. Email address of the developer. Use the
+   * following structure in your request:
+   * `organizations/{org}/developers/{developer_email}`
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int count Number of API product subscriptions to return in the API
+   * call. Use with `startKey` to provide more targeted filtering. Defaults to
+   * 100. The maximum limit is 1000.
+   * @opt_param string startKey Name of the API product subscription from which to
+   * start displaying the list of subscriptions. If omitted, the list starts from
+   * the first item. For example, to view the API product subscriptions from
+   * 51-150, set the value of `startKey` to the name of the 51st subscription and
+   * set the value of `count` to 100.
+   * @return GoogleCloudApigeeV1ListDeveloperSubscriptionsResponse
+   */
+  public function listOrganizationsDevelopersSubscriptions($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleCloudApigeeV1ListDeveloperSubscriptionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(OrganizationsDevelopersSubscriptions::class, 'Google_Service_Apigee_Resource_OrganizationsDevelopersSubscriptions');

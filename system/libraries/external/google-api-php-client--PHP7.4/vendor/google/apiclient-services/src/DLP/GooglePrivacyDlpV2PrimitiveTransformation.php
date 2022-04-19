@@ -1,93 +1,202 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DLP;
+
+class GooglePrivacyDlpV2PrimitiveTransformation extends \Google\Model
+{
+  protected $bucketingConfigType = GooglePrivacyDlpV2BucketingConfig::class;
+  protected $bucketingConfigDataType = '';
+  protected $characterMaskConfigType = GooglePrivacyDlpV2CharacterMaskConfig::class;
+  protected $characterMaskConfigDataType = '';
+  protected $cryptoDeterministicConfigType = GooglePrivacyDlpV2CryptoDeterministicConfig::class;
+  protected $cryptoDeterministicConfigDataType = '';
+  protected $cryptoHashConfigType = GooglePrivacyDlpV2CryptoHashConfig::class;
+  protected $cryptoHashConfigDataType = '';
+  protected $cryptoReplaceFfxFpeConfigType = GooglePrivacyDlpV2CryptoReplaceFfxFpeConfig::class;
+  protected $cryptoReplaceFfxFpeConfigDataType = '';
+  protected $dateShiftConfigType = GooglePrivacyDlpV2DateShiftConfig::class;
+  protected $dateShiftConfigDataType = '';
+  protected $fixedSizeBucketingConfigType = GooglePrivacyDlpV2FixedSizeBucketingConfig::class;
+  protected $fixedSizeBucketingConfigDataType = '';
+  protected $redactConfigType = GooglePrivacyDlpV2RedactConfig::class;
+  protected $redactConfigDataType = '';
+  protected $replaceConfigType = GooglePrivacyDlpV2ReplaceValueConfig::class;
+  protected $replaceConfigDataType = '';
+  protected $replaceWithInfoTypeConfigType = GooglePrivacyDlpV2ReplaceWithInfoTypeConfig::class;
+  protected $replaceWithInfoTypeConfigDataType = '';
+  protected $timePartConfigType = GooglePrivacyDlpV2TimePartConfig::class;
+  protected $timePartConfigDataType = '';
+
+  /**
+   * @param GooglePrivacyDlpV2BucketingConfig
+   */
+  public function setBucketingConfig(GooglePrivacyDlpV2BucketingConfig $bucketingConfig)
+  {
+    $this->bucketingConfig = $bucketingConfig;
+  }
+  /**
+   * @return GooglePrivacyDlpV2BucketingConfig
+   */
+  public function getBucketingConfig()
+  {
+    return $this->bucketingConfig;
+  }
+  /**
+   * @param GooglePrivacyDlpV2CharacterMaskConfig
+   */
+  public function setCharacterMaskConfig(GooglePrivacyDlpV2CharacterMaskConfig $characterMaskConfig)
+  {
+    $this->characterMaskConfig = $characterMaskConfig;
+  }
+  /**
+   * @return GooglePrivacyDlpV2CharacterMaskConfig
+   */
+  public function getCharacterMaskConfig()
+  {
+    return $this->characterMaskConfig;
+  }
+  /**
+   * @param GooglePrivacyDlpV2CryptoDeterministicConfig
+   */
+  public function setCryptoDeterministicConfig(GooglePrivacyDlpV2CryptoDeterministicConfig $cryptoDeterministicConfig)
+  {
+    $this->cryptoDeterministicConfig = $cryptoDeterministicConfig;
+  }
+  /**
+   * @return GooglePrivacyDlpV2CryptoDeterministicConfig
+   */
+  public function getCryptoDeterministicConfig()
+  {
+    return $this->cryptoDeterministicConfig;
+  }
+  /**
+   * @param GooglePrivacyDlpV2CryptoHashConfig
+   */
+  public function setCryptoHashConfig(GooglePrivacyDlpV2CryptoHashConfig $cryptoHashConfig)
+  {
+    $this->cryptoHashConfig = $cryptoHashConfig;
+  }
+  /**
+   * @return GooglePrivacyDlpV2CryptoHashConfig
+   */
+  public function getCryptoHashConfig()
+  {
+    return $this->cryptoHashConfig;
+  }
+  /**
+   * @param GooglePrivacyDlpV2CryptoReplaceFfxFpeConfig
+   */
+  public function setCryptoReplaceFfxFpeConfig(GooglePrivacyDlpV2CryptoReplaceFfxFpeConfig $cryptoReplaceFfxFpeConfig)
+  {
+    $this->cryptoReplaceFfxFpeConfig = $cryptoReplaceFfxFpeConfig;
+  }
+  /**
+   * @return GooglePrivacyDlpV2CryptoReplaceFfxFpeConfig
+   */
+  public function getCryptoReplaceFfxFpeConfig()
+  {
+    return $this->cryptoReplaceFfxFpeConfig;
+  }
+  /**
+   * @param GooglePrivacyDlpV2DateShiftConfig
+   */
+  public function setDateShiftConfig(GooglePrivacyDlpV2DateShiftConfig $dateShiftConfig)
+  {
+    $this->dateShiftConfig = $dateShiftConfig;
+  }
+  /**
+   * @return GooglePrivacyDlpV2DateShiftConfig
+   */
+  public function getDateShiftConfig()
+  {
+    return $this->dateShiftConfig;
+  }
+  /**
+   * @param GooglePrivacyDlpV2FixedSizeBucketingConfig
+   */
+  public function setFixedSizeBucketingConfig(GooglePrivacyDlpV2FixedSizeBucketingConfig $fixedSizeBucketingConfig)
+  {
+    $this->fixedSizeBucketingConfig = $fixedSizeBucketingConfig;
+  }
+  /**
+   * @return GooglePrivacyDlpV2FixedSizeBucketingConfig
+   */
+  public function getFixedSizeBucketingConfig()
+  {
+    return $this->fixedSizeBucketingConfig;
+  }
+  /**
+   * @param GooglePrivacyDlpV2RedactConfig
+   */
+  public function setRedactConfig(GooglePrivacyDlpV2RedactConfig $redactConfig)
+  {
+    $this->redactConfig = $redactConfig;
+  }
+  /**
+   * @return GooglePrivacyDlpV2RedactConfig
+   */
+  public function getRedactConfig()
+  {
+    return $this->redactConfig;
+  }
+  /**
+   * @param GooglePrivacyDlpV2ReplaceValueConfig
+   */
+  public function setReplaceConfig(GooglePrivacyDlpV2ReplaceValueConfig $replaceConfig)
+  {
+    $this->replaceConfig = $replaceConfig;
+  }
+  /**
+   * @return GooglePrivacyDlpV2ReplaceValueConfig
+   */
+  public function getReplaceConfig()
+  {
+    return $this->replaceConfig;
+  }
+  /**
+   * @param GooglePrivacyDlpV2ReplaceWithInfoTypeConfig
+   */
+  public function setReplaceWithInfoTypeConfig(GooglePrivacyDlpV2ReplaceWithInfoTypeConfig $replaceWithInfoTypeConfig)
+  {
+    $this->replaceWithInfoTypeConfig = $replaceWithInfoTypeConfig;
+  }
+  /**
+   * @return GooglePrivacyDlpV2ReplaceWithInfoTypeConfig
+   */
+  public function getReplaceWithInfoTypeConfig()
+  {
+    return $this->replaceWithInfoTypeConfig;
+  }
+  /**
+   * @param GooglePrivacyDlpV2TimePartConfig
+   */
+  public function setTimePartConfig(GooglePrivacyDlpV2TimePartConfig $timePartConfig)
+  {
+    $this->timePartConfig = $timePartConfig;
+  }
+  /**
+   * @return GooglePrivacyDlpV2TimePartConfig
+   */
+  public function getTimePartConfig()
+  {
+    return $this->timePartConfig;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GooglePrivacyDlpV2PrimitiveTransformation::class, 'Google_Service_DLP_GooglePrivacyDlpV2PrimitiveTransformation');

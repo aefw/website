@@ -1,78 +1,138 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-X2e2WGP2NLfrbH7jIn5NNkqCYGEkhr8EY0==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Bigquery;
+
+class TableFieldSchema extends \Google\Collection
+{
+  protected $collection_key = 'fields';
+  protected $categoriesType = TableFieldSchemaCategories::class;
+  protected $categoriesDataType = '';
+  public $description;
+  protected $fieldsType = TableFieldSchema::class;
+  protected $fieldsDataType = 'array';
+  public $maxLength;
+  public $mode;
+  public $name;
+  protected $policyTagsType = TableFieldSchemaPolicyTags::class;
+  protected $policyTagsDataType = '';
+  public $precision;
+  public $scale;
+  public $type;
+
+  /**
+   * @param TableFieldSchemaCategories
+   */
+  public function setCategories(TableFieldSchemaCategories $categories)
+  {
+    $this->categories = $categories;
+  }
+  /**
+   * @return TableFieldSchemaCategories
+   */
+  public function getCategories()
+  {
+    return $this->categories;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  /**
+   * @param TableFieldSchema[]
+   */
+  public function setFields($fields)
+  {
+    $this->fields = $fields;
+  }
+  /**
+   * @return TableFieldSchema[]
+   */
+  public function getFields()
+  {
+    return $this->fields;
+  }
+  public function setMaxLength($maxLength)
+  {
+    $this->maxLength = $maxLength;
+  }
+  public function getMaxLength()
+  {
+    return $this->maxLength;
+  }
+  public function setMode($mode)
+  {
+    $this->mode = $mode;
+  }
+  public function getMode()
+  {
+    return $this->mode;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  /**
+   * @param TableFieldSchemaPolicyTags
+   */
+  public function setPolicyTags(TableFieldSchemaPolicyTags $policyTags)
+  {
+    $this->policyTags = $policyTags;
+  }
+  /**
+   * @return TableFieldSchemaPolicyTags
+   */
+  public function getPolicyTags()
+  {
+    return $this->policyTags;
+  }
+  public function setPrecision($precision)
+  {
+    $this->precision = $precision;
+  }
+  public function getPrecision()
+  {
+    return $this->precision;
+  }
+  public function setScale($scale)
+  {
+    $this->scale = $scale;
+  }
+  public function getScale()
+  {
+    return $this->scale;
+  }
+  public function setType($type)
+  {
+    $this->type = $type;
+  }
+  public function getType()
+  {
+    return $this->type;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(TableFieldSchema::class, 'Google_Service_Bigquery_TableFieldSchema');

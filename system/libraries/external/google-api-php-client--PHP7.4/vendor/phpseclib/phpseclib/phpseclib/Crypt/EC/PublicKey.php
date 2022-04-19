@@ -1,163 +1,177 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+/**
+ * EC Public Key
+ *
+ * @category  Crypt
+ * @package   EC
+ * @author    Jim Wigginton <terrafrost@php.net>
+ * @copyright 2015 Jim Wigginton
+ * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      http://phpseclib.sourceforge.net
+ */
+
+namespace phpseclib3\Crypt\EC;
+
+use phpseclib3\Crypt\EC;
+use phpseclib3\Crypt\Hash;
+use phpseclib3\Math\BigInteger;
+use phpseclib3\Crypt\EC\Formats\Signature\ASN1 as ASN1Signature;
+use phpseclib3\Crypt\EC\BaseCurves\TwistedEdwards as TwistedEdwardsCurve;
+use phpseclib3\Crypt\EC\BaseCurves\Montgomery as MontgomeryCurve;
+use phpseclib3\Crypt\EC\Curves\Ed25519;
+use phpseclib3\Crypt\EC\Formats\Keys\PKCS1;
+use phpseclib3\Crypt\Common;
+use phpseclib3\Exception\UnsupportedOperationException;
+use phpseclib3\Common\Functions\Strings;
+
+/**
+ * EC Public Key
+ *
+ * @package EC
+ * @author  Jim Wigginton <terrafrost@php.net>
+ * @access  public
+ */
+class PublicKey extends EC implements Common\PublicKey
+{
+    use Common\Traits\Fingerprint;
+
+    /**
+     * Verify a signature
+     *
+     * @see self::verify()
+     * @access public
+     * @param string $message
+     * @param string $signature
+     * @return mixed
+     */
+    public function verify($message, $signature)
+    {
+        if ($this->curve instanceof MontgomeryCurve) {
+            throw new UnsupportedOperationException('Montgomery Curves cannot be used to create signatures');
+        }
+
+        $shortFormat = $this->shortFormat;
+        $format = $this->sigFormat;
+        if ($format === false) {
+            return false;
+        }
+
+        $order = $this->curve->getOrder();
+
+        if ($this->curve instanceof TwistedEdwardsCurve) {
+            if ($shortFormat == 'SSH2') {
+                list(, $signature) = Strings::unpackSSH2('ss', $signature);
+            }
+
+            if ($this->curve instanceof Ed25519 && self::$engines['libsodium'] && !isset($this->context)) {
+                return sodium_crypto_sign_verify_detached($signature, $message, $this->toString('libsodium'));
+            }
+
+            $curve = $this->curve;
+            if (strlen($signature) != 2 * $curve::SIZE) {
+                return false;
+            }
+
+            $R = substr($signature, 0, $curve::SIZE);
+            $S = substr($signature, $curve::SIZE);
+
+            try {
+                $R = PKCS1::extractPoint($R, $curve);
+                $R = $this->curve->convertToInternal($R);
+            } catch (\Exception $e) {
+                return false;
+            }
+
+            $S = strrev($S);
+            $S = new BigInteger($S, 256);
+
+            if ($S->compare($order) >= 0) {
+                return false;
+            }
+
+            $A = $curve->encodePoint($this->QA);
+
+            if ($curve instanceof Ed25519) {
+                $dom2 = !isset($this->context) ? '' :
+                    'SigEd25519 no Ed25519 collisions' . "\0" . chr(strlen($this->context)) . $this->context;
+            } else {
+                $context = isset($this->context) ? $this->context : '';
+                $dom2 = 'SigEd448' . "\0" . chr(strlen($context)) . $context;
+            }
+
+            $hash = new Hash($curve::HASH);
+            $k = $hash->hash($dom2 . substr($signature, 0, $curve::SIZE) . $A . $message);
+            $k = strrev($k);
+            $k = new BigInteger($k, 256);
+            list(, $k) = $k->divide($order);
+
+            $qa = $curve->convertToInternal($this->QA);
+
+            $lhs = $curve->multiplyPoint($curve->getBasePoint(), $curve->convertInteger($S));
+            $rhs = $curve->multiplyPoint($qa, $curve->convertInteger($k));
+            $rhs = $curve->addPoint($rhs, $R);
+            $rhs = $curve->convertToAffine($rhs);
+
+            return $lhs[0]->equals($rhs[0]) && $lhs[1]->equals($rhs[1]);
+        }
+
+        $params = $format::load($signature);
+        if ($params === false || count($params) != 2) {
+            return false;
+        }
+        extract($params);
+
+        if (self::$engines['OpenSSL'] && in_array($this->hash->getHash(), openssl_get_md_methods())) {
+            $sig = $format != 'ASN1' ? ASN1Signature::save($r, $s) : $signature;
+
+            $result = openssl_verify($message, $sig, $this->toString('PKCS8', ['namedCurve' => false]), $this->hash->getHash());
+
+            if ($result != -1) {
+                return (bool) $result;
+            }
+        }
+
+        $n_1 = $order->subtract(self::$one);
+        if (!$r->between(self::$one, $n_1) || !$s->between(self::$one, $n_1)) {
+            return false;
+        }
+
+        $e = $this->hash->hash($message);
+        $e = new BigInteger($e, 256);
+
+        $Ln = $this->hash->getLength() - $order->getLength();
+        $z = $Ln > 0 ? $e->bitwise_rightShift($Ln) : $e;
+
+        $w = $s->modInverse($order);
+        list(, $u1) = $z->multiply($w)->divide($order);
+        list(, $u2) = $r->multiply($w)->divide($order);
+
+        $u1 = $this->curve->convertInteger($u1);
+        $u2 = $this->curve->convertInteger($u2);
+
+        list($x1, $y1) = $this->curve->multiplyAddPoints(
+            [$this->curve->getBasePoint(), $this->QA],
+            [$u1, $u2]
+        );
+
+        $x1 = $x1->toBigInteger();
+        list(, $x1) = $x1->divide($order);
+
+        return $x1->equals($r);
+    }
+
+    /**
+     * Returns the public key
+     *
+     * @param string $type
+     * @param array $options optional
+     * @return string
+     */
+    public function toString($type, array $options = [])
+    {
+        $type = self::validatePlugin('Keys', $type, 'savePublicKey');
+
+        return $type::savePublicKey($this->curve, $this->QA, $options);
+    }
+}

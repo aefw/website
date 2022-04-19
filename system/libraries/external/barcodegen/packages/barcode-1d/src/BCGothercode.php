@@ -1,69 +1,97 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+declare(strict_types=1);
+
+/**
+ *--------------------------------------------------------------------
+ *
+ * Sub-Class - othercode
+ *
+ * Other Codes
+ * Starting with a bar and altern to space, bar, ...
+ * 0 is the smallest
+ *
+ *--------------------------------------------------------------------
+ * Copyright (C) Jean-Sebastien Goupil
+ * http://www.barcodebakery.com
+ */
+namespace BarcodeBakery\Barcode;
+
+use BarcodeBakery\Common\BCGBarcode1D;
+use BarcodeBakery\Common\BCGParseException;
+
+class BCGothercode extends BCGBarcode1D
+{
+    /**
+     * Constructor.
+     */
+    public function __construct()
+    {
+        parent::__construct();
+
+        $this->keys = array('0', '1', '2', '3', '4', '5', '6', '7', '8', '9');
+    }
+
+    /**
+     * Draws the barcode.
+     *
+     * @param resource $im
+     */
+    public function draw($im)
+    {
+        $this->drawChar($im, $this->text, true);
+        $this->drawText($im, 0, 0, $this->positionX, $this->thickness);
+    }
+
+    /**
+     * Gets the label.
+     * If the label was set to BCGBarcode1D::AUTO_LABEL, the label will display the value from the text parsed.
+     *
+     * @return string
+     */
+    public function getLabel()
+    {
+        $label = $this->label;
+        if ($this->label === BCGBarcode1D::AUTO_LABEL) {
+            $label = '';
+        }
+
+        return $label;
+    }
+
+    /**
+     * Returns the maximal size of a barcode.
+     *
+     * @param int $w
+     * @param int $h
+     * @return int[]
+     */
+    public function getDimension($w, $h)
+    {
+        $array = str_split($this->text, 1);
+        $textlength = array_sum($array) + count($array);
+
+        $w += $textlength;
+        $h += $this->thickness;
+        return parent::getDimension($w, $h);
+    }
+
+    /**
+     * Validates the input.
+     */
+    protected function validate()
+    {
+        $c = strlen($this->text);
+        if ($c === 0) {
+            throw new BCGParseException('othercode', 'No data has been entered.');
+        }
+
+        // Checking if all chars are allowed
+        for ($i = 0; $i < $c; $i++) {
+            if (array_search($this->text[$i], $this->keys) === false) {
+                throw new BCGParseException('othercode', 'The character \'' . $this->text[$i] . '\' is not allowed.');
+            }
+        }
+
+        parent::validate();
+    }
+}

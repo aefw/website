@@ -1,68 +1,117 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AndroidManagement\Resource;
+
+use Google\Service\AndroidManagement\AndroidmanagementEmpty;
+use Google\Service\AndroidManagement\ListWebAppsResponse;
+use Google\Service\AndroidManagement\WebApp;
+
+/**
+ * The "webApps" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $androidmanagementService = new Google\Service\AndroidManagement(...);
+ *   $webApps = $androidmanagementService->webApps;
+ *  </code>
+ */
+class EnterprisesWebApps extends \Google\Service\Resource
+{
+  /**
+   * Creates a web app. (webApps.create)
+   *
+   * @param string $parent The name of the enterprise in the form
+   * enterprises/{enterpriseId}.
+   * @param WebApp $postBody
+   * @param array $optParams Optional parameters.
+   * @return WebApp
+   */
+  public function create($parent, WebApp $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], WebApp::class);
+  }
+  /**
+   * Deletes a web app. (webApps.delete)
+   *
+   * @param string $name The name of the web app in the form
+   * enterprises/{enterpriseId}/webApps/{packageName}.
+   * @param array $optParams Optional parameters.
+   * @return AndroidmanagementEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], AndroidmanagementEmpty::class);
+  }
+  /**
+   * Gets a web app. (webApps.get)
+   *
+   * @param string $name The name of the web app in the form
+   * enterprises/{enterpriseId}/webApp/{packageName}.
+   * @param array $optParams Optional parameters.
+   * @return WebApp
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], WebApp::class);
+  }
+  /**
+   * Lists web apps for a given enterprise. (webApps.listEnterprisesWebApps)
+   *
+   * @param string $parent The name of the enterprise in the form
+   * enterprises/{enterpriseId}.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The requested page size. The actual page size may be
+   * fixed to a min or max value.
+   * @opt_param string pageToken A token identifying a page of results returned by
+   * the server.
+   * @return ListWebAppsResponse
+   */
+  public function listEnterprisesWebApps($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListWebAppsResponse::class);
+  }
+  /**
+   * Updates a web app. (webApps.patch)
+   *
+   * @param string $name The name of the web app in the form
+   * enterprises/{enterpriseId}/webApps/{packageName}.
+   * @param WebApp $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask The field mask indicating the fields to update.
+   * If not set, all modifiable fields will be modified.
+   * @return WebApp
+   */
+  public function patch($name, WebApp $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], WebApp::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(EnterprisesWebApps::class, 'Google_Service_AndroidManagement_Resource_EnterprisesWebApps');

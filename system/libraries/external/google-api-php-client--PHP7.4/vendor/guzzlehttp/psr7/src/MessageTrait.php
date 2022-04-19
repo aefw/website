@@ -1,129 +1,214 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-URCgqrL830Zc6cA4+34ASW+AjZU2R/cnC01vPG==
+<?php
+
+namespace GuzzleHttp\Psr7;
+
+use Psr\Http\Message\StreamInterface;
+
+/**
+ * Trait implementing functionality common to requests and responses.
+ */
+trait MessageTrait
+{
+    /** @var array Map of all registered headers, as original name => array of values */
+    private $headers = [];
+
+    /** @var array Map of lowercase header name => original name at registration */
+    private $headerNames  = [];
+
+    /** @var string */
+    private $protocol = '1.1';
+
+    /** @var StreamInterface|null */
+    private $stream;
+
+    public function getProtocolVersion()
+    {
+        return $this->protocol;
+    }
+
+    public function withProtocolVersion($version)
+    {
+        if ($this->protocol === $version) {
+            return $this;
+        }
+
+        $new = clone $this;
+        $new->protocol = $version;
+        return $new;
+    }
+
+    public function getHeaders()
+    {
+        return $this->headers;
+    }
+
+    public function hasHeader($header)
+    {
+        return isset($this->headerNames[strtolower($header)]);
+    }
+
+    public function getHeader($header)
+    {
+        $header = strtolower($header);
+
+        if (!isset($this->headerNames[$header])) {
+            return [];
+        }
+
+        $header = $this->headerNames[$header];
+
+        return $this->headers[$header];
+    }
+
+    public function getHeaderLine($header)
+    {
+        return implode(', ', $this->getHeader($header));
+    }
+
+    public function withHeader($header, $value)
+    {
+        $this->assertHeader($header);
+        $value = $this->normalizeHeaderValue($value);
+        $normalized = strtolower($header);
+
+        $new = clone $this;
+        if (isset($new->headerNames[$normalized])) {
+            unset($new->headers[$new->headerNames[$normalized]]);
+        }
+        $new->headerNames[$normalized] = $header;
+        $new->headers[$header] = $value;
+
+        return $new;
+    }
+
+    public function withAddedHeader($header, $value)
+    {
+        $this->assertHeader($header);
+        $value = $this->normalizeHeaderValue($value);
+        $normalized = strtolower($header);
+
+        $new = clone $this;
+        if (isset($new->headerNames[$normalized])) {
+            $header = $this->headerNames[$normalized];
+            $new->headers[$header] = array_merge($this->headers[$header], $value);
+        } else {
+            $new->headerNames[$normalized] = $header;
+            $new->headers[$header] = $value;
+        }
+
+        return $new;
+    }
+
+    public function withoutHeader($header)
+    {
+        $normalized = strtolower($header);
+
+        if (!isset($this->headerNames[$normalized])) {
+            return $this;
+        }
+
+        $header = $this->headerNames[$normalized];
+
+        $new = clone $this;
+        unset($new->headers[$header], $new->headerNames[$normalized]);
+
+        return $new;
+    }
+
+    public function getBody()
+    {
+        if (!$this->stream) {
+            $this->stream = Utils::streamFor('');
+        }
+
+        return $this->stream;
+    }
+
+    public function withBody(StreamInterface $body)
+    {
+        if ($body === $this->stream) {
+            return $this;
+        }
+
+        $new = clone $this;
+        $new->stream = $body;
+        return $new;
+    }
+
+    private function setHeaders(array $headers)
+    {
+        $this->headerNames = $this->headers = [];
+        foreach ($headers as $header => $value) {
+            if (is_int($header)) {
+                // Numeric array keys are converted to int by PHP but having a header name '123' is not forbidden by the spec
+                // and also allowed in withHeader(). So we need to cast it to string again for the following assertion to pass.
+                $header = (string) $header;
+            }
+            $this->assertHeader($header);
+            $value = $this->normalizeHeaderValue($value);
+            $normalized = strtolower($header);
+            if (isset($this->headerNames[$normalized])) {
+                $header = $this->headerNames[$normalized];
+                $this->headers[$header] = array_merge($this->headers[$header], $value);
+            } else {
+                $this->headerNames[$normalized] = $header;
+                $this->headers[$header] = $value;
+            }
+        }
+    }
+
+    private function normalizeHeaderValue($value)
+    {
+        if (!is_array($value)) {
+            return $this->trimHeaderValues([$value]);
+        }
+
+        if (count($value) === 0) {
+            throw new \InvalidArgumentException('Header value can not be an empty array.');
+        }
+
+        return $this->trimHeaderValues($value);
+    }
+
+    /**
+     * Trims whitespace from the header values.
+     *
+     * Spaces and tabs ought to be excluded by parsers when extracting the field value from a header field.
+     *
+     * header-field = field-name ":" OWS field-value OWS
+     * OWS          = *( SP / HTAB )
+     *
+     * @param string[] $values Header values
+     *
+     * @return string[] Trimmed header values
+     *
+     * @see https://tools.ietf.org/html/rfc7230#section-3.2.4
+     */
+    private function trimHeaderValues(array $values)
+    {
+        return array_map(function ($value) {
+            if (!is_scalar($value) && null !== $value) {
+                throw new \InvalidArgumentException(sprintf(
+                    'Header value must be scalar or null but %s provided.',
+                    is_object($value) ? get_class($value) : gettype($value)
+                ));
+            }
+
+            return trim((string) $value, " \t");
+        }, array_values($values));
+    }
+
+    private function assertHeader($header)
+    {
+        if (!is_string($header)) {
+            throw new \InvalidArgumentException(sprintf(
+                'Header name must be a string but %s provided.',
+                is_object($header) ? get_class($header) : gettype($header)
+            ));
+        }
+
+        if ($header === '') {
+            throw new \InvalidArgumentException('Header name can not be empty.');
+        }
+    }
+}

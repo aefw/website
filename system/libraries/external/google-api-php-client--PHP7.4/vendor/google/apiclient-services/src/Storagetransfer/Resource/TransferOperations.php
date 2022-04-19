@@ -1,70 +1,139 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-iGeXVuQ/uehfR/MSa3Ld3iY638CoSbQMJfLcn0==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Storagetransfer\Resource;
+
+use Google\Service\Storagetransfer\CancelOperationRequest;
+use Google\Service\Storagetransfer\ListOperationsResponse;
+use Google\Service\Storagetransfer\Operation;
+use Google\Service\Storagetransfer\PauseTransferOperationRequest;
+use Google\Service\Storagetransfer\ResumeTransferOperationRequest;
+use Google\Service\Storagetransfer\StoragetransferEmpty;
+
+/**
+ * The "transferOperations" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $storagetransferService = new Google\Service\Storagetransfer(...);
+ *   $transferOperations = $storagetransferService->transferOperations;
+ *  </code>
+ */
+class TransferOperations extends \Google\Service\Resource
+{
+  /**
+   * Cancels a transfer. Use the transferOperations.get method to check if the
+   * cancellation succeeded or if the operation completed despite the `cancel`
+   * request. When you cancel an operation, the currently running transfer is
+   * interrupted. For recurring transfer jobs, the next instance of the transfer
+   * job will still run. For example, if your job is configured to run every day
+   * at 1pm and you cancel Monday's operation at 1:05pm, Monday's transfer will
+   * stop. However, a transfer job will still be attempted on Tuesday. This
+   * applies only to currently running operations. If an operation is not
+   * currently running, `cancel` does nothing. *Caution:* Canceling a transfer job
+   * can leave your data in an unknown state. We recommend that you restore the
+   * state at both the destination and the source after the `cancel` request
+   * completes so that your data is in a consistent state. When you cancel a job,
+   * the next job computes a delta of files and may repair any inconsistent state.
+   * For instance, if you run a job every day, and today's job found 10 new files
+   * and transferred five files before you canceled the job, tomorrow's transfer
+   * operation will compute a new delta with the five files that were not copied
+   * today plus any new files discovered tomorrow. (transferOperations.cancel)
+   *
+   * @param string $name The name of the operation resource to be cancelled.
+   * @param CancelOperationRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return StoragetransferEmpty
+   */
+  public function cancel($name, CancelOperationRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('cancel', [$params], StoragetransferEmpty::class);
+  }
+  /**
+   * Gets the latest state of a long-running operation. Clients can use this
+   * method to poll the operation result at intervals as recommended by the API
+   * service. (transferOperations.get)
+   *
+   * @param string $name The name of the operation resource.
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Operation::class);
+  }
+  /**
+   * Lists transfer operations. Operations are ordered by their creation time in
+   * reverse chronological order. (transferOperations.listTransferOperations)
+   *
+   * @param string $name Not used.
+   * @param string $filter Required. A list of query parameters specified as JSON
+   * text in the form of: `{"projectId":"my_project_id",
+   * "jobNames":["jobid1","jobid2",...], "operationNames":["opid1","opid2",...],
+   * "transferStatuses":["status1","status2",...]}` Since `jobNames`,
+   * `operationNames`, and `transferStatuses` support multiple values, they must
+   * be specified with array notation. `projectId` is required. `jobNames`,
+   * `operationNames`, and `transferStatuses` are optional. The valid values for
+   * `transferStatuses` are case-insensitive: IN_PROGRESS, PAUSED, SUCCESS,
+   * FAILED, and ABORTED.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The list page size. The max allowed value is 256.
+   * @opt_param string pageToken The list page token.
+   * @return ListOperationsResponse
+   */
+  public function listTransferOperations($name, $filter, $optParams = [])
+  {
+    $params = ['name' => $name, 'filter' => $filter];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListOperationsResponse::class);
+  }
+  /**
+   * Pauses a transfer operation. (transferOperations.pause)
+   *
+   * @param string $name Required. The name of the transfer operation.
+   * @param PauseTransferOperationRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return StoragetransferEmpty
+   */
+  public function pause($name, PauseTransferOperationRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('pause', [$params], StoragetransferEmpty::class);
+  }
+  /**
+   * Resumes a transfer operation that is paused. (transferOperations.resume)
+   *
+   * @param string $name Required. The name of the transfer operation.
+   * @param ResumeTransferOperationRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return StoragetransferEmpty
+   */
+  public function resume($name, ResumeTransferOperationRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('resume', [$params], StoragetransferEmpty::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(TransferOperations::class, 'Google_Service_Storagetransfer_Resource_TransferOperations');

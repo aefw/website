@@ -1,60 +1,56 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+namespace GuzzleHttp\Psr7;
+
+use Psr\Http\Message\StreamInterface;
+
+/**
+ * Uses PHP's zlib.inflate filter to inflate deflate or gzipped content.
+ *
+ * This stream decorator skips the first 10 bytes of the given stream to remove
+ * the gzip header, converts the provided stream to a PHP stream resource,
+ * then appends the zlib.inflate filter. The stream is then converted back
+ * to a Guzzle stream resource to be used as a Guzzle stream.
+ *
+ * @link http://tools.ietf.org/html/rfc1952
+ * @link http://php.net/manual/en/filters.compression.php
+ *
+ * @final
+ */
+class InflateStream implements StreamInterface
+{
+    use StreamDecoratorTrait;
+
+    public function __construct(StreamInterface $stream)
+    {
+        // read the first 10 bytes, ie. gzip header
+        $header = $stream->read(10);
+        $filenameHeaderLength = $this->getLengthOfPossibleFilenameHeader($stream, $header);
+        // Skip the header, that is 10 + length of filename + 1 (nil) bytes
+        $stream = new LimitStream($stream, -1, 10 + $filenameHeaderLength);
+        $resource = StreamWrapper::getResource($stream);
+        stream_filter_append($resource, 'zlib.inflate', STREAM_FILTER_READ);
+        $this->stream = $stream->isSeekable() ? new Stream($resource) : new NoSeekStream(new Stream($resource));
+    }
+
+    /**
+     * @param StreamInterface $stream
+     * @param $header
+     *
+     * @return int
+     */
+    private function getLengthOfPossibleFilenameHeader(StreamInterface $stream, $header)
+    {
+        $filename_header_length = 0;
+
+        if (substr(bin2hex($header), 6, 2) === '08') {
+            // we have a filename, read until nil
+            $filename_header_length = 1;
+            while ($stream->read(1) !== chr(0)) {
+                $filename_header_length++;
+            }
+        }
+
+        return $filename_header_length;
+    }
+}

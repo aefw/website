@@ -1,93 +1,113 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+// autoload_static.php @generated by Composer
+
+namespace Composer\Autoload;
+
+class ComposerStaticInita61dbcb1e7e61060418c79620c228be4
+{
+    public static $files = array (
+        'abede361264e2ae69ec1eee813a101af' => __DIR__ . '/..' . '/markbaker/complex/classes/src/functions/abs.php',
+        '21a5860fbef5be28db5ddfbc3cca67c4' => __DIR__ . '/..' . '/markbaker/complex/classes/src/functions/acos.php',
+        '1546e3f9d127f2a9bb2d1b6c31c26ef1' => __DIR__ . '/..' . '/markbaker/complex/classes/src/functions/acosh.php',
+        'd2516f7f4fba5ea5905f494b4a8262e0' => __DIR__ . '/..' . '/markbaker/complex/classes/src/functions/acot.php',
+        '4511163d560956219b96882c0980b65e' => __DIR__ . '/..' . '/markbaker/complex/classes/src/functions/acoth.php',
+        'c361f5616dc2a8da4fa3e137077cd4ea' => __DIR__ . '/..' . '/markbaker/complex/classes/src/functions/acsc.php',
+        '02d68920fc98da71991ce569c91df0f6' => __DIR__ . '/..' . '/markbaker/complex/classes/src/functions/acsch.php',
+        '88e19525eae308b4a6aa3419364875d3' => __DIR__ . '/..' . '/markbaker/complex/classes/src/functions/argument.php',
+        '60e8e2d0827b58bfc904f13957e51849' => __DIR__ . '/..' . '/markbaker/complex/classes/src/functions/asec.php',
+        '13d2f040713999eab66c359b4d79871d' => __DIR__ . '/..' . '/markbaker/complex/classes/src/functions/asech.php',
+        '838ab38beb32c68a79d3cd2c007d5a04' => __DIR__ . '/..' . '/markbaker/complex/classes/src/functions/asin.php',
+        'bb28eccd0f8f008333a1b3c163d604ac' => __DIR__ . '/..' . '/markbaker/complex/classes/src/functions/asinh.php',
+        '9e483de83558c98f7d3feaa402c78cb3' => __DIR__ . '/..' . '/markbaker/complex/classes/src/functions/atan.php',
+        '36b74b5b765ded91ee58c8ee3c0e85e3' => __DIR__ . '/..' . '/markbaker/complex/classes/src/functions/atanh.php',
+        '05c15ee9510da7fd6bf6136f436500c0' => __DIR__ . '/..' . '/markbaker/complex/classes/src/functions/conjugate.php',
+        'd3208dfbce2505e370788f9f22f6785f' => __DIR__ . '/..' . '/markbaker/complex/classes/src/functions/cos.php',
+        '141cf1fb3a3046f8b64534b0ebab33ca' => __DIR__ . '/..' . '/markbaker/complex/classes/src/functions/cosh.php',
+        'be660df75fd0dbe7fa7c03b7434b3294' => __DIR__ . '/..' . '/markbaker/complex/classes/src/functions/cot.php',
+        '01e31ea298a51bc9e91517e3ce6b9e76' => __DIR__ . '/..' . '/markbaker/complex/classes/src/functions/coth.php',
+        '803ddd97f7b1da68982a7b087c3476f6' => __DIR__ . '/..' . '/markbaker/complex/classes/src/functions/csc.php',
+        '3001cdfd101ec3c32da34ee43c2e149b' => __DIR__ . '/..' . '/markbaker/complex/classes/src/functions/csch.php',
+        '77b2d7629ef2a93fabb8c56754a91051' => __DIR__ . '/..' . '/markbaker/complex/classes/src/functions/exp.php',
+        '4a4471296dec796c21d4f4b6552396a9' => __DIR__ . '/..' . '/markbaker/complex/classes/src/functions/inverse.php',
+        'c3e9897e1744b88deb56fcdc39d34d85' => __DIR__ . '/..' . '/markbaker/complex/classes/src/functions/ln.php',
+        'a83cacf2de942cff288de15a83afd26d' => __DIR__ . '/..' . '/markbaker/complex/classes/src/functions/log2.php',
+        '6a861dacc9ee2f3061241d4c7772fa21' => __DIR__ . '/..' . '/markbaker/complex/classes/src/functions/log10.php',
+        '4d2522d968c8ba78d6c13548a1b4200e' => __DIR__ . '/..' . '/markbaker/complex/classes/src/functions/negative.php',
+        'fd587ca933fc0447fa5ab4843bdd97f7' => __DIR__ . '/..' . '/markbaker/complex/classes/src/functions/pow.php',
+        '383ef01c62028fc78cd4388082fce3c2' => __DIR__ . '/..' . '/markbaker/complex/classes/src/functions/rho.php',
+        '150fbd1b95029dc47292da97ecab9375' => __DIR__ . '/..' . '/markbaker/complex/classes/src/functions/sec.php',
+        '549abd9bae174286d660bdaa07407c68' => __DIR__ . '/..' . '/markbaker/complex/classes/src/functions/sech.php',
+        '6bfbf5eaea6b17a0ed85cb21ba80370c' => __DIR__ . '/..' . '/markbaker/complex/classes/src/functions/sin.php',
+        '22efe13f1a497b8e199540ae2d9dc59c' => __DIR__ . '/..' . '/markbaker/complex/classes/src/functions/sinh.php',
+        'e90135ab8e787795a509ed7147de207d' => __DIR__ . '/..' . '/markbaker/complex/classes/src/functions/sqrt.php',
+        'bb0a7923ffc6a90919cd64ec54ff06bc' => __DIR__ . '/..' . '/markbaker/complex/classes/src/functions/tan.php',
+        '2d302f32ce0fd4e433dd91c5bb404a28' => __DIR__ . '/..' . '/markbaker/complex/classes/src/functions/tanh.php',
+        '24dd4658a952171a4ee79218c4f9fd06' => __DIR__ . '/..' . '/markbaker/complex/classes/src/functions/theta.php',
+        'e49b7876281d6f5bc39536dde96d1f4a' => __DIR__ . '/..' . '/markbaker/complex/classes/src/operations/add.php',
+        '47596e02b43cd6da7700134fd08f88cf' => __DIR__ . '/..' . '/markbaker/complex/classes/src/operations/subtract.php',
+        '883af48563631547925fa4c3b48ead07' => __DIR__ . '/..' . '/markbaker/complex/classes/src/operations/multiply.php',
+        'f190e3308e6ca23234a2875edc985c03' => __DIR__ . '/..' . '/markbaker/complex/classes/src/operations/divideby.php',
+        'ac9e33ce6841aa5bf5d16d465a2f03a7' => __DIR__ . '/..' . '/markbaker/complex/classes/src/operations/divideinto.php',
+        '9d8e013a5160a09477beb8e44f8ae97b' => __DIR__ . '/..' . '/markbaker/matrix/classes/src/functions/adjoint.php',
+        '6e78d1bdea6248d6aa117229efae50f2' => __DIR__ . '/..' . '/markbaker/matrix/classes/src/functions/antidiagonal.php',
+        '4623d87924d94f5412fe5afbf1cef31d' => __DIR__ . '/..' . '/markbaker/matrix/classes/src/functions/cofactors.php',
+        '901fd1f6950a637ca85f66b701a45e13' => __DIR__ . '/..' . '/markbaker/matrix/classes/src/functions/determinant.php',
+        '83057abc0e4acc99ba80154ee5d02a49' => __DIR__ . '/..' . '/markbaker/matrix/classes/src/functions/diagonal.php',
+        '07b7fd7a434451149b4fd477fca0ce06' => __DIR__ . '/..' . '/markbaker/matrix/classes/src/functions/identity.php',
+        'c8d43b340583e07ae89f2a3baef2cf89' => __DIR__ . '/..' . '/markbaker/matrix/classes/src/functions/inverse.php',
+        '499bb10ed7a3aee2ba4c09a31a85e8d1' => __DIR__ . '/..' . '/markbaker/matrix/classes/src/functions/minors.php',
+        '1cad2e6414d652e8b1c64e8967f6f37d' => __DIR__ . '/..' . '/markbaker/matrix/classes/src/functions/trace.php',
+        '95a7f134ac17161d07def442b3b737e8' => __DIR__ . '/..' . '/markbaker/matrix/classes/src/functions/transpose.php',
+        'b3a6bc628377118d4b4b8ba08d1eb949' => __DIR__ . '/..' . '/markbaker/matrix/classes/src/operations/add.php',
+        '5fef6d0e407f3f8887266dfa4a6c534c' => __DIR__ . '/..' . '/markbaker/matrix/classes/src/operations/directsum.php',
+        '684ba247e1385946e3babdaa054119de' => __DIR__ . '/..' . '/markbaker/matrix/classes/src/operations/subtract.php',
+        'aa53dcba601214d17ad405b7c291b7e8' => __DIR__ . '/..' . '/markbaker/matrix/classes/src/operations/multiply.php',
+        '75c79eb1b25749b05a47976f32b0d8a2' => __DIR__ . '/..' . '/markbaker/matrix/classes/src/operations/divideby.php',
+        '6ab8ad87a734f276a6bcd5a0fe1289be' => __DIR__ . '/..' . '/markbaker/matrix/classes/src/operations/divideinto.php',
+    );
+
+    public static $prefixLengthsPsr4 = array (
+        'P' => 
+        array (
+            'Psr\\SimpleCache\\' => 16,
+            'PhpOffice\\PhpSpreadsheet\\' => 25,
+        ),
+        'M' => 
+        array (
+            'Matrix\\' => 7,
+        ),
+        'C' => 
+        array (
+            'Complex\\' => 8,
+        ),
+    );
+
+    public static $prefixDirsPsr4 = array (
+        'Psr\\SimpleCache\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/simple-cache/src',
+        ),
+        'PhpOffice\\PhpSpreadsheet\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/phpoffice/phpspreadsheet/src/PhpSpreadsheet',
+        ),
+        'Matrix\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/markbaker/matrix/classes/src',
+        ),
+        'Complex\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/markbaker/complex/classes/src',
+        ),
+    );
+
+    public static function getInitializer(ClassLoader $loader)
+    {
+        return \Closure::bind(function () use ($loader) {
+            $loader->prefixLengthsPsr4 = ComposerStaticInita61dbcb1e7e61060418c79620c228be4::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInita61dbcb1e7e61060418c79620c228be4::$prefixDirsPsr4;
+
+        }, null, ClassLoader::class);
+    }
+}

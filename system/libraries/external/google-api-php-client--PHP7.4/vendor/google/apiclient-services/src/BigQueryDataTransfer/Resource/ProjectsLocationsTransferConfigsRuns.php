@@ -1,59 +1,98 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-jMpVbAjUWsZbjSJ2kEks8Kqm/Ik/mLVJHW==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\BigQueryDataTransfer\Resource;
+
+use Google\Service\BigQueryDataTransfer\BigquerydatatransferEmpty;
+use Google\Service\BigQueryDataTransfer\ListTransferRunsResponse;
+use Google\Service\BigQueryDataTransfer\TransferRun;
+
+/**
+ * The "runs" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $bigquerydatatransferService = new Google\Service\BigQueryDataTransfer(...);
+ *   $runs = $bigquerydatatransferService->runs;
+ *  </code>
+ */
+class ProjectsLocationsTransferConfigsRuns extends \Google\Service\Resource
+{
+  /**
+   * Deletes the specified transfer run. (runs.delete)
+   *
+   * @param string $name Required. The field will contain name of the resource
+   * requested, for example:
+   * `projects/{project_id}/transferConfigs/{config_id}/runs/{run_id}` or `project
+   * s/{project_id}/locations/{location_id}/transferConfigs/{config_id}/runs/{run_
+   * id}`
+   * @param array $optParams Optional parameters.
+   * @return BigquerydatatransferEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], BigquerydatatransferEmpty::class);
+  }
+  /**
+   * Returns information about the particular transfer run. (runs.get)
+   *
+   * @param string $name Required. The field will contain name of the resource
+   * requested, for example:
+   * `projects/{project_id}/transferConfigs/{config_id}/runs/{run_id}` or `project
+   * s/{project_id}/locations/{location_id}/transferConfigs/{config_id}/runs/{run_
+   * id}`
+   * @param array $optParams Optional parameters.
+   * @return TransferRun
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], TransferRun::class);
+  }
+  /**
+   * Returns information about running and completed jobs.
+   * (runs.listProjectsLocationsTransferConfigsRuns)
+   *
+   * @param string $parent Required. Name of transfer configuration for which
+   * transfer runs should be retrieved. Format of transfer configuration resource
+   * name is: `projects/{project_id}/transferConfigs/{config_id}` or
+   * `projects/{project_id}/locations/{location_id}/transferConfigs/{config_id}`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Page size. The default page size is the maximum value
+   * of 1000 results.
+   * @opt_param string pageToken Pagination token, which can be used to request a
+   * specific page of `ListTransferRunsRequest` list results. For multiple-page
+   * results, `ListTransferRunsResponse` outputs a `next_page` token, which can be
+   * used as the `page_token` value to request the next page of list results.
+   * @opt_param string runAttempt Indicates how run attempts are to be pulled.
+   * @opt_param string states When specified, only transfer runs with requested
+   * states are returned.
+   * @return ListTransferRunsResponse
+   */
+  public function listProjectsLocationsTransferConfigsRuns($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListTransferRunsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsTransferConfigsRuns::class, 'Google_Service_BigQueryDataTransfer_Resource_ProjectsLocationsTransferConfigsRuns');

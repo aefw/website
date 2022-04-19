@@ -1,80 +1,117 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Storage;
+
+class BucketLifecycleRuleCondition extends \Google\Collection
+{
+  protected $collection_key = 'matchesStorageClass';
+  public $age;
+  public $createdBefore;
+  public $customTimeBefore;
+  public $daysSinceCustomTime;
+  public $daysSinceNoncurrentTime;
+  public $isLive;
+  public $matchesPattern;
+  public $matchesStorageClass;
+  public $noncurrentTimeBefore;
+  public $numNewerVersions;
+
+  public function setAge($age)
+  {
+    $this->age = $age;
+  }
+  public function getAge()
+  {
+    return $this->age;
+  }
+  public function setCreatedBefore($createdBefore)
+  {
+    $this->createdBefore = $createdBefore;
+  }
+  public function getCreatedBefore()
+  {
+    return $this->createdBefore;
+  }
+  public function setCustomTimeBefore($customTimeBefore)
+  {
+    $this->customTimeBefore = $customTimeBefore;
+  }
+  public function getCustomTimeBefore()
+  {
+    return $this->customTimeBefore;
+  }
+  public function setDaysSinceCustomTime($daysSinceCustomTime)
+  {
+    $this->daysSinceCustomTime = $daysSinceCustomTime;
+  }
+  public function getDaysSinceCustomTime()
+  {
+    return $this->daysSinceCustomTime;
+  }
+  public function setDaysSinceNoncurrentTime($daysSinceNoncurrentTime)
+  {
+    $this->daysSinceNoncurrentTime = $daysSinceNoncurrentTime;
+  }
+  public function getDaysSinceNoncurrentTime()
+  {
+    return $this->daysSinceNoncurrentTime;
+  }
+  public function setIsLive($isLive)
+  {
+    $this->isLive = $isLive;
+  }
+  public function getIsLive()
+  {
+    return $this->isLive;
+  }
+  public function setMatchesPattern($matchesPattern)
+  {
+    $this->matchesPattern = $matchesPattern;
+  }
+  public function getMatchesPattern()
+  {
+    return $this->matchesPattern;
+  }
+  public function setMatchesStorageClass($matchesStorageClass)
+  {
+    $this->matchesStorageClass = $matchesStorageClass;
+  }
+  public function getMatchesStorageClass()
+  {
+    return $this->matchesStorageClass;
+  }
+  public function setNoncurrentTimeBefore($noncurrentTimeBefore)
+  {
+    $this->noncurrentTimeBefore = $noncurrentTimeBefore;
+  }
+  public function getNoncurrentTimeBefore()
+  {
+    return $this->noncurrentTimeBefore;
+  }
+  public function setNumNewerVersions($numNewerVersions)
+  {
+    $this->numNewerVersions = $numNewerVersions;
+  }
+  public function getNumNewerVersions()
+  {
+    return $this->numNewerVersions;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(BucketLifecycleRuleCondition::class, 'Google_Service_Storage_BucketLifecycleRuleCondition');

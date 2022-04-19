@@ -1,61 +1,87 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-DVL7HXxsy34CYVzTaA2cp1Pa06ex7dciNP8RmW==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Apigee\Resource;
+
+use Google\Service\Apigee\GoogleCloudApigeeV1Export;
+use Google\Service\Apigee\GoogleCloudApigeeV1ExportRequest;
+use Google\Service\Apigee\GoogleCloudApigeeV1ListExportsResponse;
+
+/**
+ * The "exports" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $apigeeService = new Google\Service\Apigee(...);
+ *   $exports = $apigeeService->exports;
+ *  </code>
+ */
+class OrganizationsEnvironmentsAnalyticsExports extends \Google\Service\Resource
+{
+  /**
+   * Submit a data export job to be processed in the background. If the request is
+   * successful, the API returns a 201 status, a URI that can be used to retrieve
+   * the status of the export job, and the `state` value of "enqueued".
+   * (exports.create)
+   *
+   * @param string $parent Required. Names of the parent organization and
+   * environment. Must be of the form `organizations/{org}/environments/{env}`.
+   * @param GoogleCloudApigeeV1ExportRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1Export
+   */
+  public function create($parent, GoogleCloudApigeeV1ExportRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleCloudApigeeV1Export::class);
+  }
+  /**
+   * Gets the details and status of an analytics export job. If the export job is
+   * still in progress, its `state` is set to "running". After the export job has
+   * completed successfully, its `state` is set to "completed". If the export job
+   * fails, its `state` is set to `failed`. (exports.get)
+   *
+   * @param string $name Required. Resource name of the export to get.
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1Export
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudApigeeV1Export::class);
+  }
+  /**
+   * Lists the details and status of all analytics export jobs belonging to the
+   * parent organization and environment.
+   * (exports.listOrganizationsEnvironmentsAnalyticsExports)
+   *
+   * @param string $parent Required. Names of the parent organization and
+   * environment. Must be of the form `organizations/{org}/environments/{env}`.
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1ListExportsResponse
+   */
+  public function listOrganizationsEnvironmentsAnalyticsExports($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleCloudApigeeV1ListExportsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(OrganizationsEnvironmentsAnalyticsExports::class, 'Google_Service_Apigee_Resource_OrganizationsEnvironmentsAnalyticsExports');

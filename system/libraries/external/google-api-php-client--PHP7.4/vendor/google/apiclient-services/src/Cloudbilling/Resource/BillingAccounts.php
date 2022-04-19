@@ -1,80 +1,195 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-84m=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Cloudbilling\Resource;
+
+use Google\Service\Cloudbilling\BillingAccount;
+use Google\Service\Cloudbilling\ListBillingAccountsResponse;
+use Google\Service\Cloudbilling\Policy;
+use Google\Service\Cloudbilling\SetIamPolicyRequest;
+use Google\Service\Cloudbilling\TestIamPermissionsRequest;
+use Google\Service\Cloudbilling\TestIamPermissionsResponse;
+
+/**
+ * The "billingAccounts" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $cloudbillingService = new Google\Service\Cloudbilling(...);
+ *   $billingAccounts = $cloudbillingService->billingAccounts;
+ *  </code>
+ */
+class BillingAccounts extends \Google\Service\Resource
+{
+  /**
+   * This method creates [billing
+   * subaccounts](https://cloud.google.com/billing/docs/concepts#subaccounts).
+   * Google Cloud resellers should use the Channel Services APIs, [accounts.custom
+   * ers.create](https://cloud.google.com/channel/docs/reference/rest/v1/accounts.
+   * customers/create) and [accounts.customers.entitlements.create](https://cloud.
+   * google.com/channel/docs/reference/rest/v1/accounts.customers.entitlements/cre
+   * ate). When creating a subaccount, the current authenticated user must have
+   * the `billing.accounts.update` IAM permission on the parent account, which is
+   * typically given to billing account
+   * [administrators](https://cloud.google.com/billing/docs/how-to/billing-
+   * access). This method will return an error if the parent account has not been
+   * provisioned as a reseller account. (billingAccounts.create)
+   *
+   * @param BillingAccount $postBody
+   * @param array $optParams Optional parameters.
+   * @return BillingAccount
+   */
+  public function create(BillingAccount $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], BillingAccount::class);
+  }
+  /**
+   * Gets information about a billing account. The current authenticated user must
+   * be a [viewer of the billing account](https://cloud.google.com/billing/docs
+   * /how-to/billing-access). (billingAccounts.get)
+   *
+   * @param string $name Required. The resource name of the billing account to
+   * retrieve. For example, `billingAccounts/012345-567890-ABCDEF`.
+   * @param array $optParams Optional parameters.
+   * @return BillingAccount
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], BillingAccount::class);
+  }
+  /**
+   * Gets the access control policy for a billing account. The caller must have
+   * the `billing.accounts.getIamPolicy` permission on the account, which is often
+   * given to billing account [viewers](https://cloud.google.com/billing/docs/how-
+   * to/billing-access). (billingAccounts.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int options.requestedPolicyVersion Optional. The policy format
+   * version to be returned. Valid values are 0, 1, and 3. Requests specifying an
+   * invalid value will be rejected. Requests for policies with any conditional
+   * bindings must specify version 3. Policies without any conditional bindings
+   * may specify any valid value or leave the field unset. To learn which
+   * resources support conditions in their IAM policies, see the [IAM
+   * documentation](https://cloud.google.com/iam/help/conditions/resource-
+   * policies).
+   * @return Policy
+   */
+  public function getIamPolicy($resource, $optParams = [])
+  {
+    $params = ['resource' => $resource];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Lists the billing accounts that the current authenticated user has permission
+   * to [view](https://cloud.google.com/billing/docs/how-to/billing-access).
+   * (billingAccounts.listBillingAccounts)
+   *
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Options for how to filter the returned billing
+   * accounts. Currently this only supports filtering for
+   * [subaccounts](https://cloud.google.com/billing/docs/concepts) under a single
+   * provided reseller billing account. (e.g.
+   * "master_billing_account=billingAccounts/012345-678901-ABCDEF"). Boolean
+   * algebra and other fields are not currently supported.
+   * @opt_param int pageSize Requested page size. The maximum page size is 100;
+   * this is also the default.
+   * @opt_param string pageToken A token identifying a page of results to return.
+   * This should be a `next_page_token` value returned from a previous
+   * `ListBillingAccounts` call. If unspecified, the first page of results is
+   * returned.
+   * @return ListBillingAccountsResponse
+   */
+  public function listBillingAccounts($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListBillingAccountsResponse::class);
+  }
+  /**
+   * Updates a billing account's fields. Currently the only field that can be
+   * edited is `display_name`. The current authenticated user must have the
+   * `billing.accounts.update` IAM permission, which is typically given to the
+   * [administrator](https://cloud.google.com/billing/docs/how-to/billing-access)
+   * of the billing account. (billingAccounts.patch)
+   *
+   * @param string $name Required. The name of the billing account resource to be
+   * updated.
+   * @param BillingAccount $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask The update mask applied to the resource. Only
+   * "display_name" is currently supported.
+   * @return BillingAccount
+   */
+  public function patch($name, BillingAccount $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], BillingAccount::class);
+  }
+  /**
+   * Sets the access control policy for a billing account. Replaces any existing
+   * policy. The caller must have the `billing.accounts.setIamPolicy` permission
+   * on the account, which is often given to billing account
+   * [administrators](https://cloud.google.com/billing/docs/how-to/billing-
+   * access). (billingAccounts.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Tests the access control policy for a billing account. This method takes the
+   * resource and a set of permissions as input and returns the subset of the
+   * input permissions that the caller is allowed for that resource.
+   * (billingAccounts.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(BillingAccounts::class, 'Google_Service_Cloudbilling_Resource_BillingAccounts');

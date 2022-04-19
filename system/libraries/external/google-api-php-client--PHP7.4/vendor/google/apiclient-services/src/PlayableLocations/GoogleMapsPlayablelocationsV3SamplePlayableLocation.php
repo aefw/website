@@ -1,69 +1,95 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\PlayableLocations;
+
+class GoogleMapsPlayablelocationsV3SamplePlayableLocation extends \Google\Collection
+{
+  protected $collection_key = 'types';
+  protected $centerPointType = GoogleTypeLatLng::class;
+  protected $centerPointDataType = '';
+  public $name;
+  public $placeId;
+  public $plusCode;
+  protected $snappedPointType = GoogleTypeLatLng::class;
+  protected $snappedPointDataType = '';
+  public $types;
+
+  /**
+   * @param GoogleTypeLatLng
+   */
+  public function setCenterPoint(GoogleTypeLatLng $centerPoint)
+  {
+    $this->centerPoint = $centerPoint;
+  }
+  /**
+   * @return GoogleTypeLatLng
+   */
+  public function getCenterPoint()
+  {
+    return $this->centerPoint;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setPlaceId($placeId)
+  {
+    $this->placeId = $placeId;
+  }
+  public function getPlaceId()
+  {
+    return $this->placeId;
+  }
+  public function setPlusCode($plusCode)
+  {
+    $this->plusCode = $plusCode;
+  }
+  public function getPlusCode()
+  {
+    return $this->plusCode;
+  }
+  /**
+   * @param GoogleTypeLatLng
+   */
+  public function setSnappedPoint(GoogleTypeLatLng $snappedPoint)
+  {
+    $this->snappedPoint = $snappedPoint;
+  }
+  /**
+   * @return GoogleTypeLatLng
+   */
+  public function getSnappedPoint()
+  {
+    return $this->snappedPoint;
+  }
+  public function setTypes($types)
+  {
+    $this->types = $types;
+  }
+  public function getTypes()
+  {
+    return $this->types;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleMapsPlayablelocationsV3SamplePlayableLocation::class, 'Google_Service_PlayableLocations_GoogleMapsPlayablelocationsV3SamplePlayableLocation');

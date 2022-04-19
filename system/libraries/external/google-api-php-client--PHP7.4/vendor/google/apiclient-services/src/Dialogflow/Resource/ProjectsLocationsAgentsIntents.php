@@ -1,70 +1,149 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-YKoMyxnLXUbc
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dialogflow\Resource;
+
+use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3Intent;
+use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3ListIntentsResponse;
+use Google\Service\Dialogflow\GoogleProtobufEmpty;
+
+/**
+ * The "intents" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $dialogflowService = new Google\Service\Dialogflow(...);
+ *   $intents = $dialogflowService->intents;
+ *  </code>
+ */
+class ProjectsLocationsAgentsIntents extends \Google\Service\Resource
+{
+  /**
+   * Creates an intent in the specified agent. (intents.create)
+   *
+   * @param string $parent Required. The agent to create an intent for. Format:
+   * `projects//locations//agents/`.
+   * @param GoogleCloudDialogflowCxV3Intent $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string languageCode The language of the following fields in
+   * `intent`: * `Intent.training_phrases.parts.text` If not specified, the
+   * agent's default language is used. [Many
+   * languages](https://cloud.google.com/dialogflow/cx/docs/reference/language)
+   * are supported. Note: languages must be enabled in the agent before they can
+   * be used.
+   * @return GoogleCloudDialogflowCxV3Intent
+   */
+  public function create($parent, GoogleCloudDialogflowCxV3Intent $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleCloudDialogflowCxV3Intent::class);
+  }
+  /**
+   * Deletes the specified intent. (intents.delete)
+   *
+   * @param string $name Required. The name of the intent to delete. Format:
+   * `projects//locations//agents//intents/`.
+   * @param array $optParams Optional parameters.
+   * @return GoogleProtobufEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
+  }
+  /**
+   * Retrieves the specified intent. (intents.get)
+   *
+   * @param string $name Required. The name of the intent. Format:
+   * `projects//locations//agents//intents/`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string languageCode The language to retrieve the intent for. The
+   * following fields are language dependent: *
+   * `Intent.training_phrases.parts.text` If not specified, the agent's default
+   * language is used. [Many
+   * languages](https://cloud.google.com/dialogflow/cx/docs/reference/language)
+   * are supported. Note: languages must be enabled in the agent before they can
+   * be used.
+   * @return GoogleCloudDialogflowCxV3Intent
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudDialogflowCxV3Intent::class);
+  }
+  /**
+   * Returns the list of all intents in the specified agent.
+   * (intents.listProjectsLocationsAgentsIntents)
+   *
+   * @param string $parent Required. The agent to list all intents for. Format:
+   * `projects//locations//agents/`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string intentView The resource view to apply to the returned
+   * intent.
+   * @opt_param string languageCode The language to list intents for. The
+   * following fields are language dependent: *
+   * `Intent.training_phrases.parts.text` If not specified, the agent's default
+   * language is used. [Many
+   * languages](https://cloud.google.com/dialogflow/cx/docs/reference/language)
+   * are supported. Note: languages must be enabled in the agent before they can
+   * be used.
+   * @opt_param int pageSize The maximum number of items to return in a single
+   * page. By default 100 and at most 1000.
+   * @opt_param string pageToken The next_page_token value returned from a
+   * previous list request.
+   * @return GoogleCloudDialogflowCxV3ListIntentsResponse
+   */
+  public function listProjectsLocationsAgentsIntents($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleCloudDialogflowCxV3ListIntentsResponse::class);
+  }
+  /**
+   * Updates the specified intent. (intents.patch)
+   *
+   * @param string $name The unique identifier of the intent. Required for the
+   * Intents.UpdateIntent method. Intents.CreateIntent populates the name
+   * automatically. Format: `projects//locations//agents//intents/`.
+   * @param GoogleCloudDialogflowCxV3Intent $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string languageCode The language of the following fields in
+   * `intent`: * `Intent.training_phrases.parts.text` If not specified, the
+   * agent's default language is used. [Many
+   * languages](https://cloud.google.com/dialogflow/cx/docs/reference/language)
+   * are supported. Note: languages must be enabled in the agent before they can
+   * be used.
+   * @opt_param string updateMask The mask to control which fields get updated. If
+   * the mask is not present, all fields will be updated.
+   * @return GoogleCloudDialogflowCxV3Intent
+   */
+  public function patch($name, GoogleCloudDialogflowCxV3Intent $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], GoogleCloudDialogflowCxV3Intent::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsAgentsIntents::class, 'Google_Service_Dialogflow_Resource_ProjectsLocationsAgentsIntents');

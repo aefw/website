@@ -1,95 +1,162 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Testing;
+
+class AndroidModel extends \Google\Collection
+{
+  protected $collection_key = 'tags';
+  public $brand;
+  public $codename;
+  public $form;
+  public $formFactor;
+  public $id;
+  public $lowFpsVideoRecording;
+  public $manufacturer;
+  public $name;
+  public $screenDensity;
+  public $screenX;
+  public $screenY;
+  public $supportedAbis;
+  public $supportedVersionIds;
+  public $tags;
+  public $thumbnailUrl;
+
+  public function setBrand($brand)
+  {
+    $this->brand = $brand;
+  }
+  public function getBrand()
+  {
+    return $this->brand;
+  }
+  public function setCodename($codename)
+  {
+    $this->codename = $codename;
+  }
+  public function getCodename()
+  {
+    return $this->codename;
+  }
+  public function setForm($form)
+  {
+    $this->form = $form;
+  }
+  public function getForm()
+  {
+    return $this->form;
+  }
+  public function setFormFactor($formFactor)
+  {
+    $this->formFactor = $formFactor;
+  }
+  public function getFormFactor()
+  {
+    return $this->formFactor;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setLowFpsVideoRecording($lowFpsVideoRecording)
+  {
+    $this->lowFpsVideoRecording = $lowFpsVideoRecording;
+  }
+  public function getLowFpsVideoRecording()
+  {
+    return $this->lowFpsVideoRecording;
+  }
+  public function setManufacturer($manufacturer)
+  {
+    $this->manufacturer = $manufacturer;
+  }
+  public function getManufacturer()
+  {
+    return $this->manufacturer;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setScreenDensity($screenDensity)
+  {
+    $this->screenDensity = $screenDensity;
+  }
+  public function getScreenDensity()
+  {
+    return $this->screenDensity;
+  }
+  public function setScreenX($screenX)
+  {
+    $this->screenX = $screenX;
+  }
+  public function getScreenX()
+  {
+    return $this->screenX;
+  }
+  public function setScreenY($screenY)
+  {
+    $this->screenY = $screenY;
+  }
+  public function getScreenY()
+  {
+    return $this->screenY;
+  }
+  public function setSupportedAbis($supportedAbis)
+  {
+    $this->supportedAbis = $supportedAbis;
+  }
+  public function getSupportedAbis()
+  {
+    return $this->supportedAbis;
+  }
+  public function setSupportedVersionIds($supportedVersionIds)
+  {
+    $this->supportedVersionIds = $supportedVersionIds;
+  }
+  public function getSupportedVersionIds()
+  {
+    return $this->supportedVersionIds;
+  }
+  public function setTags($tags)
+  {
+    $this->tags = $tags;
+  }
+  public function getTags()
+  {
+    return $this->tags;
+  }
+  public function setThumbnailUrl($thumbnailUrl)
+  {
+    $this->thumbnailUrl = $thumbnailUrl;
+  }
+  public function getThumbnailUrl()
+  {
+    return $this->thumbnailUrl;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AndroidModel::class, 'Google_Service_Testing_AndroidModel');

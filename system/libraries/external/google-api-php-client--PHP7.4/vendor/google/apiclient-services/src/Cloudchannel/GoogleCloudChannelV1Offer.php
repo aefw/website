@@ -1,82 +1,150 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-VueViO8V+oFaSES9ozwmT6jr7aD00wF9rIHh
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Cloudchannel;
+
+class GoogleCloudChannelV1Offer extends \Google\Collection
+{
+  protected $collection_key = 'priceByResources';
+  protected $constraintsType = GoogleCloudChannelV1Constraints::class;
+  protected $constraintsDataType = '';
+  public $endTime;
+  protected $marketingInfoType = GoogleCloudChannelV1MarketingInfo::class;
+  protected $marketingInfoDataType = '';
+  public $name;
+  protected $parameterDefinitionsType = GoogleCloudChannelV1ParameterDefinition::class;
+  protected $parameterDefinitionsDataType = 'array';
+  protected $planType = GoogleCloudChannelV1Plan::class;
+  protected $planDataType = '';
+  protected $priceByResourcesType = GoogleCloudChannelV1PriceByResource::class;
+  protected $priceByResourcesDataType = 'array';
+  protected $skuType = GoogleCloudChannelV1Sku::class;
+  protected $skuDataType = '';
+  public $startTime;
+
+  /**
+   * @param GoogleCloudChannelV1Constraints
+   */
+  public function setConstraints(GoogleCloudChannelV1Constraints $constraints)
+  {
+    $this->constraints = $constraints;
+  }
+  /**
+   * @return GoogleCloudChannelV1Constraints
+   */
+  public function getConstraints()
+  {
+    return $this->constraints;
+  }
+  public function setEndTime($endTime)
+  {
+    $this->endTime = $endTime;
+  }
+  public function getEndTime()
+  {
+    return $this->endTime;
+  }
+  /**
+   * @param GoogleCloudChannelV1MarketingInfo
+   */
+  public function setMarketingInfo(GoogleCloudChannelV1MarketingInfo $marketingInfo)
+  {
+    $this->marketingInfo = $marketingInfo;
+  }
+  /**
+   * @return GoogleCloudChannelV1MarketingInfo
+   */
+  public function getMarketingInfo()
+  {
+    return $this->marketingInfo;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  /**
+   * @param GoogleCloudChannelV1ParameterDefinition[]
+   */
+  public function setParameterDefinitions($parameterDefinitions)
+  {
+    $this->parameterDefinitions = $parameterDefinitions;
+  }
+  /**
+   * @return GoogleCloudChannelV1ParameterDefinition[]
+   */
+  public function getParameterDefinitions()
+  {
+    return $this->parameterDefinitions;
+  }
+  /**
+   * @param GoogleCloudChannelV1Plan
+   */
+  public function setPlan(GoogleCloudChannelV1Plan $plan)
+  {
+    $this->plan = $plan;
+  }
+  /**
+   * @return GoogleCloudChannelV1Plan
+   */
+  public function getPlan()
+  {
+    return $this->plan;
+  }
+  /**
+   * @param GoogleCloudChannelV1PriceByResource[]
+   */
+  public function setPriceByResources($priceByResources)
+  {
+    $this->priceByResources = $priceByResources;
+  }
+  /**
+   * @return GoogleCloudChannelV1PriceByResource[]
+   */
+  public function getPriceByResources()
+  {
+    return $this->priceByResources;
+  }
+  /**
+   * @param GoogleCloudChannelV1Sku
+   */
+  public function setSku(GoogleCloudChannelV1Sku $sku)
+  {
+    $this->sku = $sku;
+  }
+  /**
+   * @return GoogleCloudChannelV1Sku
+   */
+  public function getSku()
+  {
+    return $this->sku;
+  }
+  public function setStartTime($startTime)
+  {
+    $this->startTime = $startTime;
+  }
+  public function getStartTime()
+  {
+    return $this->startTime;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudChannelV1Offer::class, 'Google_Service_Cloudchannel_GoogleCloudChannelV1Offer');

@@ -1,79 +1,150 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudSearch;
+
+class SearchRequest extends \Google\Collection
+{
+  protected $collection_key = 'facetOptions';
+  protected $contextAttributesType = ContextAttribute::class;
+  protected $contextAttributesDataType = 'array';
+  protected $dataSourceRestrictionsType = DataSourceRestriction::class;
+  protected $dataSourceRestrictionsDataType = 'array';
+  protected $facetOptionsType = FacetOptions::class;
+  protected $facetOptionsDataType = 'array';
+  public $pageSize;
+  public $query;
+  protected $queryInterpretationOptionsType = QueryInterpretationOptions::class;
+  protected $queryInterpretationOptionsDataType = '';
+  protected $requestOptionsType = RequestOptions::class;
+  protected $requestOptionsDataType = '';
+  protected $sortOptionsType = SortOptions::class;
+  protected $sortOptionsDataType = '';
+  public $start;
+
+  /**
+   * @param ContextAttribute[]
+   */
+  public function setContextAttributes($contextAttributes)
+  {
+    $this->contextAttributes = $contextAttributes;
+  }
+  /**
+   * @return ContextAttribute[]
+   */
+  public function getContextAttributes()
+  {
+    return $this->contextAttributes;
+  }
+  /**
+   * @param DataSourceRestriction[]
+   */
+  public function setDataSourceRestrictions($dataSourceRestrictions)
+  {
+    $this->dataSourceRestrictions = $dataSourceRestrictions;
+  }
+  /**
+   * @return DataSourceRestriction[]
+   */
+  public function getDataSourceRestrictions()
+  {
+    return $this->dataSourceRestrictions;
+  }
+  /**
+   * @param FacetOptions[]
+   */
+  public function setFacetOptions($facetOptions)
+  {
+    $this->facetOptions = $facetOptions;
+  }
+  /**
+   * @return FacetOptions[]
+   */
+  public function getFacetOptions()
+  {
+    return $this->facetOptions;
+  }
+  public function setPageSize($pageSize)
+  {
+    $this->pageSize = $pageSize;
+  }
+  public function getPageSize()
+  {
+    return $this->pageSize;
+  }
+  public function setQuery($query)
+  {
+    $this->query = $query;
+  }
+  public function getQuery()
+  {
+    return $this->query;
+  }
+  /**
+   * @param QueryInterpretationOptions
+   */
+  public function setQueryInterpretationOptions(QueryInterpretationOptions $queryInterpretationOptions)
+  {
+    $this->queryInterpretationOptions = $queryInterpretationOptions;
+  }
+  /**
+   * @return QueryInterpretationOptions
+   */
+  public function getQueryInterpretationOptions()
+  {
+    return $this->queryInterpretationOptions;
+  }
+  /**
+   * @param RequestOptions
+   */
+  public function setRequestOptions(RequestOptions $requestOptions)
+  {
+    $this->requestOptions = $requestOptions;
+  }
+  /**
+   * @return RequestOptions
+   */
+  public function getRequestOptions()
+  {
+    return $this->requestOptions;
+  }
+  /**
+   * @param SortOptions
+   */
+  public function setSortOptions(SortOptions $sortOptions)
+  {
+    $this->sortOptions = $sortOptions;
+  }
+  /**
+   * @return SortOptions
+   */
+  public function getSortOptions()
+  {
+    return $this->sortOptions;
+  }
+  public function setStart($start)
+  {
+    $this->start = $start;
+  }
+  public function getStart()
+  {
+    return $this->start;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(SearchRequest::class, 'Google_Service_CloudSearch_SearchRequest');

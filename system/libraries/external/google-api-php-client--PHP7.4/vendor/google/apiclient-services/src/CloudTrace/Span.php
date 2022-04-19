@@ -1,96 +1,194 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudTrace;
+
+class Span extends \Google\Model
+{
+  protected $attributesType = Attributes::class;
+  protected $attributesDataType = '';
+  public $childSpanCount;
+  protected $displayNameType = TruncatableString::class;
+  protected $displayNameDataType = '';
+  public $endTime;
+  protected $linksType = Links::class;
+  protected $linksDataType = '';
+  public $name;
+  public $parentSpanId;
+  public $sameProcessAsParentSpan;
+  public $spanId;
+  public $spanKind;
+  protected $stackTraceType = StackTrace::class;
+  protected $stackTraceDataType = '';
+  public $startTime;
+  protected $statusType = Status::class;
+  protected $statusDataType = '';
+  protected $timeEventsType = TimeEvents::class;
+  protected $timeEventsDataType = '';
+
+  /**
+   * @param Attributes
+   */
+  public function setAttributes(Attributes $attributes)
+  {
+    $this->attributes = $attributes;
+  }
+  /**
+   * @return Attributes
+   */
+  public function getAttributes()
+  {
+    return $this->attributes;
+  }
+  public function setChildSpanCount($childSpanCount)
+  {
+    $this->childSpanCount = $childSpanCount;
+  }
+  public function getChildSpanCount()
+  {
+    return $this->childSpanCount;
+  }
+  /**
+   * @param TruncatableString
+   */
+  public function setDisplayName(TruncatableString $displayName)
+  {
+    $this->displayName = $displayName;
+  }
+  /**
+   * @return TruncatableString
+   */
+  public function getDisplayName()
+  {
+    return $this->displayName;
+  }
+  public function setEndTime($endTime)
+  {
+    $this->endTime = $endTime;
+  }
+  public function getEndTime()
+  {
+    return $this->endTime;
+  }
+  /**
+   * @param Links
+   */
+  public function setLinks(Links $links)
+  {
+    $this->links = $links;
+  }
+  /**
+   * @return Links
+   */
+  public function getLinks()
+  {
+    return $this->links;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setParentSpanId($parentSpanId)
+  {
+    $this->parentSpanId = $parentSpanId;
+  }
+  public function getParentSpanId()
+  {
+    return $this->parentSpanId;
+  }
+  public function setSameProcessAsParentSpan($sameProcessAsParentSpan)
+  {
+    $this->sameProcessAsParentSpan = $sameProcessAsParentSpan;
+  }
+  public function getSameProcessAsParentSpan()
+  {
+    return $this->sameProcessAsParentSpan;
+  }
+  public function setSpanId($spanId)
+  {
+    $this->spanId = $spanId;
+  }
+  public function getSpanId()
+  {
+    return $this->spanId;
+  }
+  public function setSpanKind($spanKind)
+  {
+    $this->spanKind = $spanKind;
+  }
+  public function getSpanKind()
+  {
+    return $this->spanKind;
+  }
+  /**
+   * @param StackTrace
+   */
+  public function setStackTrace(StackTrace $stackTrace)
+  {
+    $this->stackTrace = $stackTrace;
+  }
+  /**
+   * @return StackTrace
+   */
+  public function getStackTrace()
+  {
+    return $this->stackTrace;
+  }
+  public function setStartTime($startTime)
+  {
+    $this->startTime = $startTime;
+  }
+  public function getStartTime()
+  {
+    return $this->startTime;
+  }
+  /**
+   * @param Status
+   */
+  public function setStatus(Status $status)
+  {
+    $this->status = $status;
+  }
+  /**
+   * @return Status
+   */
+  public function getStatus()
+  {
+    return $this->status;
+  }
+  /**
+   * @param TimeEvents
+   */
+  public function setTimeEvents(TimeEvents $timeEvents)
+  {
+    $this->timeEvents = $timeEvents;
+  }
+  /**
+   * @return TimeEvents
+   */
+  public function getTimeEvents()
+  {
+    return $this->timeEvents;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Span::class, 'Google_Service_CloudTrace_Span');

@@ -1,83 +1,133 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-4gdbxjTN
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ServiceNetworking;
+
+class ConsumerConfig extends \Google\Collection
+{
+  protected $collection_key = 'reservedRanges';
+  public $consumerExportCustomRoutes;
+  public $consumerExportSubnetRoutesWithPublicIp;
+  public $consumerImportCustomRoutes;
+  public $consumerImportSubnetRoutesWithPublicIp;
+  public $producerExportCustomRoutes;
+  public $producerExportSubnetRoutesWithPublicIp;
+  public $producerImportCustomRoutes;
+  public $producerImportSubnetRoutesWithPublicIp;
+  public $producerNetwork;
+  protected $reservedRangesType = GoogleCloudServicenetworkingV1ConsumerConfigReservedRange::class;
+  protected $reservedRangesDataType = 'array';
+  public $vpcScReferenceArchitectureEnabled;
+
+  public function setConsumerExportCustomRoutes($consumerExportCustomRoutes)
+  {
+    $this->consumerExportCustomRoutes = $consumerExportCustomRoutes;
+  }
+  public function getConsumerExportCustomRoutes()
+  {
+    return $this->consumerExportCustomRoutes;
+  }
+  public function setConsumerExportSubnetRoutesWithPublicIp($consumerExportSubnetRoutesWithPublicIp)
+  {
+    $this->consumerExportSubnetRoutesWithPublicIp = $consumerExportSubnetRoutesWithPublicIp;
+  }
+  public function getConsumerExportSubnetRoutesWithPublicIp()
+  {
+    return $this->consumerExportSubnetRoutesWithPublicIp;
+  }
+  public function setConsumerImportCustomRoutes($consumerImportCustomRoutes)
+  {
+    $this->consumerImportCustomRoutes = $consumerImportCustomRoutes;
+  }
+  public function getConsumerImportCustomRoutes()
+  {
+    return $this->consumerImportCustomRoutes;
+  }
+  public function setConsumerImportSubnetRoutesWithPublicIp($consumerImportSubnetRoutesWithPublicIp)
+  {
+    $this->consumerImportSubnetRoutesWithPublicIp = $consumerImportSubnetRoutesWithPublicIp;
+  }
+  public function getConsumerImportSubnetRoutesWithPublicIp()
+  {
+    return $this->consumerImportSubnetRoutesWithPublicIp;
+  }
+  public function setProducerExportCustomRoutes($producerExportCustomRoutes)
+  {
+    $this->producerExportCustomRoutes = $producerExportCustomRoutes;
+  }
+  public function getProducerExportCustomRoutes()
+  {
+    return $this->producerExportCustomRoutes;
+  }
+  public function setProducerExportSubnetRoutesWithPublicIp($producerExportSubnetRoutesWithPublicIp)
+  {
+    $this->producerExportSubnetRoutesWithPublicIp = $producerExportSubnetRoutesWithPublicIp;
+  }
+  public function getProducerExportSubnetRoutesWithPublicIp()
+  {
+    return $this->producerExportSubnetRoutesWithPublicIp;
+  }
+  public function setProducerImportCustomRoutes($producerImportCustomRoutes)
+  {
+    $this->producerImportCustomRoutes = $producerImportCustomRoutes;
+  }
+  public function getProducerImportCustomRoutes()
+  {
+    return $this->producerImportCustomRoutes;
+  }
+  public function setProducerImportSubnetRoutesWithPublicIp($producerImportSubnetRoutesWithPublicIp)
+  {
+    $this->producerImportSubnetRoutesWithPublicIp = $producerImportSubnetRoutesWithPublicIp;
+  }
+  public function getProducerImportSubnetRoutesWithPublicIp()
+  {
+    return $this->producerImportSubnetRoutesWithPublicIp;
+  }
+  public function setProducerNetwork($producerNetwork)
+  {
+    $this->producerNetwork = $producerNetwork;
+  }
+  public function getProducerNetwork()
+  {
+    return $this->producerNetwork;
+  }
+  /**
+   * @param GoogleCloudServicenetworkingV1ConsumerConfigReservedRange[]
+   */
+  public function setReservedRanges($reservedRanges)
+  {
+    $this->reservedRanges = $reservedRanges;
+  }
+  /**
+   * @return GoogleCloudServicenetworkingV1ConsumerConfigReservedRange[]
+   */
+  public function getReservedRanges()
+  {
+    return $this->reservedRanges;
+  }
+  public function setVpcScReferenceArchitectureEnabled($vpcScReferenceArchitectureEnabled)
+  {
+    $this->vpcScReferenceArchitectureEnabled = $vpcScReferenceArchitectureEnabled;
+  }
+  public function getVpcScReferenceArchitectureEnabled()
+  {
+    return $this->vpcScReferenceArchitectureEnabled;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ConsumerConfig::class, 'Google_Service_ServiceNetworking_ConsumerConfig');

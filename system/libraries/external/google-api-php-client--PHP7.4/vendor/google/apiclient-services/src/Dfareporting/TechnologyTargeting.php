@@ -1,67 +1,123 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-eCIY2dgU9mouvdoglmmQSNO=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dfareporting;
+
+class TechnologyTargeting extends \Google\Collection
+{
+  protected $collection_key = 'platformTypes';
+  protected $browsersType = Browser::class;
+  protected $browsersDataType = 'array';
+  protected $connectionTypesType = ConnectionType::class;
+  protected $connectionTypesDataType = 'array';
+  protected $mobileCarriersType = MobileCarrier::class;
+  protected $mobileCarriersDataType = 'array';
+  protected $operatingSystemVersionsType = OperatingSystemVersion::class;
+  protected $operatingSystemVersionsDataType = 'array';
+  protected $operatingSystemsType = OperatingSystem::class;
+  protected $operatingSystemsDataType = 'array';
+  protected $platformTypesType = PlatformType::class;
+  protected $platformTypesDataType = 'array';
+
+  /**
+   * @param Browser[]
+   */
+  public function setBrowsers($browsers)
+  {
+    $this->browsers = $browsers;
+  }
+  /**
+   * @return Browser[]
+   */
+  public function getBrowsers()
+  {
+    return $this->browsers;
+  }
+  /**
+   * @param ConnectionType[]
+   */
+  public function setConnectionTypes($connectionTypes)
+  {
+    $this->connectionTypes = $connectionTypes;
+  }
+  /**
+   * @return ConnectionType[]
+   */
+  public function getConnectionTypes()
+  {
+    return $this->connectionTypes;
+  }
+  /**
+   * @param MobileCarrier[]
+   */
+  public function setMobileCarriers($mobileCarriers)
+  {
+    $this->mobileCarriers = $mobileCarriers;
+  }
+  /**
+   * @return MobileCarrier[]
+   */
+  public function getMobileCarriers()
+  {
+    return $this->mobileCarriers;
+  }
+  /**
+   * @param OperatingSystemVersion[]
+   */
+  public function setOperatingSystemVersions($operatingSystemVersions)
+  {
+    $this->operatingSystemVersions = $operatingSystemVersions;
+  }
+  /**
+   * @return OperatingSystemVersion[]
+   */
+  public function getOperatingSystemVersions()
+  {
+    return $this->operatingSystemVersions;
+  }
+  /**
+   * @param OperatingSystem[]
+   */
+  public function setOperatingSystems($operatingSystems)
+  {
+    $this->operatingSystems = $operatingSystems;
+  }
+  /**
+   * @return OperatingSystem[]
+   */
+  public function getOperatingSystems()
+  {
+    return $this->operatingSystems;
+  }
+  /**
+   * @param PlatformType[]
+   */
+  public function setPlatformTypes($platformTypes)
+  {
+    $this->platformTypes = $platformTypes;
+  }
+  /**
+   * @return PlatformType[]
+   */
+  public function getPlatformTypes()
+  {
+    return $this->platformTypes;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(TechnologyTargeting::class, 'Google_Service_Dfareporting_TechnologyTargeting');

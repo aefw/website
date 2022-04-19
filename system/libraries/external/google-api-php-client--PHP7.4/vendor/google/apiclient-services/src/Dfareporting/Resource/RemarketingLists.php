@@ -1,69 +1,126 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-9ULnyN5y8DPJL7sqY70o10p1UtAgxdcILW==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dfareporting\Resource;
+
+use Google\Service\Dfareporting\RemarketingList;
+use Google\Service\Dfareporting\RemarketingListsListResponse;
+
+/**
+ * The "remarketingLists" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $dfareportingService = new Google\Service\Dfareporting(...);
+ *   $remarketingLists = $dfareportingService->remarketingLists;
+ *  </code>
+ */
+class RemarketingLists extends \Google\Service\Resource
+{
+  /**
+   * Gets one remarketing list by ID. (remarketingLists.get)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param string $id Remarketing list ID.
+   * @param array $optParams Optional parameters.
+   * @return RemarketingList
+   */
+  public function get($profileId, $id, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], RemarketingList::class);
+  }
+  /**
+   * Inserts a new remarketing list. (remarketingLists.insert)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param RemarketingList $postBody
+   * @param array $optParams Optional parameters.
+   * @return RemarketingList
+   */
+  public function insert($profileId, RemarketingList $postBody, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], RemarketingList::class);
+  }
+  /**
+   * Retrieves a list of remarketing lists, possibly filtered. This method
+   * supports paging. (remarketingLists.listRemarketingLists)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param string $advertiserId Select only remarketing lists owned by this
+   * advertiser.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool active Select only active or only inactive remarketing lists.
+   * @opt_param string floodlightActivityId Select only remarketing lists that
+   * have this floodlight activity ID.
+   * @opt_param int maxResults Maximum number of results to return.
+   * @opt_param string name Allows searching for objects by name or ID. Wildcards
+   * (*) are allowed. For example, "remarketing list*2015" will return objects
+   * with names like "remarketing list June 2015", "remarketing list April 2015",
+   * or simply "remarketing list 2015". Most of the searches also add wildcards
+   * implicitly at the start and the end of the search string. For example, a
+   * search string of "remarketing list" will match objects with name "my
+   * remarketing list", "remarketing list 2015", or simply "remarketing list".
+   * @opt_param string pageToken Value of the nextPageToken from the previous
+   * result page.
+   * @opt_param string sortField Field by which to sort the list.
+   * @opt_param string sortOrder Order of sorted results.
+   * @return RemarketingListsListResponse
+   */
+  public function listRemarketingLists($profileId, $advertiserId, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'advertiserId' => $advertiserId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], RemarketingListsListResponse::class);
+  }
+  /**
+   * Updates an existing remarketing list. This method supports patch semantics.
+   * (remarketingLists.patch)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param string $id RemarketingList ID.
+   * @param RemarketingList $postBody
+   * @param array $optParams Optional parameters.
+   * @return RemarketingList
+   */
+  public function patch($profileId, $id, RemarketingList $postBody, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'id' => $id, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], RemarketingList::class);
+  }
+  /**
+   * Updates an existing remarketing list. (remarketingLists.update)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param RemarketingList $postBody
+   * @param array $optParams Optional parameters.
+   * @return RemarketingList
+   */
+  public function update($profileId, RemarketingList $postBody, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], RemarketingList::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(RemarketingLists::class, 'Google_Service_Dfareporting_Resource_RemarketingLists');

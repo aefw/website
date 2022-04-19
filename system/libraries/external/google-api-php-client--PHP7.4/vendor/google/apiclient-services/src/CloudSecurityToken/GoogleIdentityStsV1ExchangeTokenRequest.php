@@ -1,69 +1,89 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudSecurityToken;
+
+class GoogleIdentityStsV1ExchangeTokenRequest extends \Google\Model
+{
+  public $audience;
+  public $grantType;
+  public $options;
+  public $requestedTokenType;
+  public $scope;
+  public $subjectToken;
+  public $subjectTokenType;
+
+  public function setAudience($audience)
+  {
+    $this->audience = $audience;
+  }
+  public function getAudience()
+  {
+    return $this->audience;
+  }
+  public function setGrantType($grantType)
+  {
+    $this->grantType = $grantType;
+  }
+  public function getGrantType()
+  {
+    return $this->grantType;
+  }
+  public function setOptions($options)
+  {
+    $this->options = $options;
+  }
+  public function getOptions()
+  {
+    return $this->options;
+  }
+  public function setRequestedTokenType($requestedTokenType)
+  {
+    $this->requestedTokenType = $requestedTokenType;
+  }
+  public function getRequestedTokenType()
+  {
+    return $this->requestedTokenType;
+  }
+  public function setScope($scope)
+  {
+    $this->scope = $scope;
+  }
+  public function getScope()
+  {
+    return $this->scope;
+  }
+  public function setSubjectToken($subjectToken)
+  {
+    $this->subjectToken = $subjectToken;
+  }
+  public function getSubjectToken()
+  {
+    return $this->subjectToken;
+  }
+  public function setSubjectTokenType($subjectTokenType)
+  {
+    $this->subjectTokenType = $subjectTokenType;
+  }
+  public function getSubjectTokenType()
+  {
+    return $this->subjectTokenType;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleIdentityStsV1ExchangeTokenRequest::class, 'Google_Service_CloudSecurityToken_GoogleIdentityStsV1ExchangeTokenRequest');

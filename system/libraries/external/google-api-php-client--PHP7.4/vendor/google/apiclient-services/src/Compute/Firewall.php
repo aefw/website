@@ -1,111 +1,219 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute;
+
+class Firewall extends \Google\Collection
+{
+  protected $collection_key = 'targetTags';
+  protected $allowedType = FirewallAllowed::class;
+  protected $allowedDataType = 'array';
+  public $creationTimestamp;
+  protected $deniedType = FirewallDenied::class;
+  protected $deniedDataType = 'array';
+  public $description;
+  public $destinationRanges;
+  public $direction;
+  public $disabled;
+  public $id;
+  public $kind;
+  protected $logConfigType = FirewallLogConfig::class;
+  protected $logConfigDataType = '';
+  public $name;
+  public $network;
+  public $priority;
+  public $selfLink;
+  public $sourceRanges;
+  public $sourceServiceAccounts;
+  public $sourceTags;
+  public $targetServiceAccounts;
+  public $targetTags;
+
+  /**
+   * @param FirewallAllowed[]
+   */
+  public function setAllowed($allowed)
+  {
+    $this->allowed = $allowed;
+  }
+  /**
+   * @return FirewallAllowed[]
+   */
+  public function getAllowed()
+  {
+    return $this->allowed;
+  }
+  public function setCreationTimestamp($creationTimestamp)
+  {
+    $this->creationTimestamp = $creationTimestamp;
+  }
+  public function getCreationTimestamp()
+  {
+    return $this->creationTimestamp;
+  }
+  /**
+   * @param FirewallDenied[]
+   */
+  public function setDenied($denied)
+  {
+    $this->denied = $denied;
+  }
+  /**
+   * @return FirewallDenied[]
+   */
+  public function getDenied()
+  {
+    return $this->denied;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setDestinationRanges($destinationRanges)
+  {
+    $this->destinationRanges = $destinationRanges;
+  }
+  public function getDestinationRanges()
+  {
+    return $this->destinationRanges;
+  }
+  public function setDirection($direction)
+  {
+    $this->direction = $direction;
+  }
+  public function getDirection()
+  {
+    return $this->direction;
+  }
+  public function setDisabled($disabled)
+  {
+    $this->disabled = $disabled;
+  }
+  public function getDisabled()
+  {
+    return $this->disabled;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  /**
+   * @param FirewallLogConfig
+   */
+  public function setLogConfig(FirewallLogConfig $logConfig)
+  {
+    $this->logConfig = $logConfig;
+  }
+  /**
+   * @return FirewallLogConfig
+   */
+  public function getLogConfig()
+  {
+    return $this->logConfig;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setNetwork($network)
+  {
+    $this->network = $network;
+  }
+  public function getNetwork()
+  {
+    return $this->network;
+  }
+  public function setPriority($priority)
+  {
+    $this->priority = $priority;
+  }
+  public function getPriority()
+  {
+    return $this->priority;
+  }
+  public function setSelfLink($selfLink)
+  {
+    $this->selfLink = $selfLink;
+  }
+  public function getSelfLink()
+  {
+    return $this->selfLink;
+  }
+  public function setSourceRanges($sourceRanges)
+  {
+    $this->sourceRanges = $sourceRanges;
+  }
+  public function getSourceRanges()
+  {
+    return $this->sourceRanges;
+  }
+  public function setSourceServiceAccounts($sourceServiceAccounts)
+  {
+    $this->sourceServiceAccounts = $sourceServiceAccounts;
+  }
+  public function getSourceServiceAccounts()
+  {
+    return $this->sourceServiceAccounts;
+  }
+  public function setSourceTags($sourceTags)
+  {
+    $this->sourceTags = $sourceTags;
+  }
+  public function getSourceTags()
+  {
+    return $this->sourceTags;
+  }
+  public function setTargetServiceAccounts($targetServiceAccounts)
+  {
+    $this->targetServiceAccounts = $targetServiceAccounts;
+  }
+  public function getTargetServiceAccounts()
+  {
+    return $this->targetServiceAccounts;
+  }
+  public function setTargetTags($targetTags)
+  {
+    $this->targetTags = $targetTags;
+  }
+  public function getTargetTags()
+  {
+    return $this->targetTags;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Firewall::class, 'Google_Service_Compute_Firewall');

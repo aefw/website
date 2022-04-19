@@ -1,72 +1,107 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-hW==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Gmail;
+
+class FilterCriteria extends \Google\Model
+{
+  public $excludeChats;
+  public $from;
+  public $hasAttachment;
+  public $negatedQuery;
+  public $query;
+  public $size;
+  public $sizeComparison;
+  public $subject;
+  public $to;
+
+  public function setExcludeChats($excludeChats)
+  {
+    $this->excludeChats = $excludeChats;
+  }
+  public function getExcludeChats()
+  {
+    return $this->excludeChats;
+  }
+  public function setFrom($from)
+  {
+    $this->from = $from;
+  }
+  public function getFrom()
+  {
+    return $this->from;
+  }
+  public function setHasAttachment($hasAttachment)
+  {
+    $this->hasAttachment = $hasAttachment;
+  }
+  public function getHasAttachment()
+  {
+    return $this->hasAttachment;
+  }
+  public function setNegatedQuery($negatedQuery)
+  {
+    $this->negatedQuery = $negatedQuery;
+  }
+  public function getNegatedQuery()
+  {
+    return $this->negatedQuery;
+  }
+  public function setQuery($query)
+  {
+    $this->query = $query;
+  }
+  public function getQuery()
+  {
+    return $this->query;
+  }
+  public function setSize($size)
+  {
+    $this->size = $size;
+  }
+  public function getSize()
+  {
+    return $this->size;
+  }
+  public function setSizeComparison($sizeComparison)
+  {
+    $this->sizeComparison = $sizeComparison;
+  }
+  public function getSizeComparison()
+  {
+    return $this->sizeComparison;
+  }
+  public function setSubject($subject)
+  {
+    $this->subject = $subject;
+  }
+  public function getSubject()
+  {
+    return $this->subject;
+  }
+  public function setTo($to)
+  {
+    $this->to = $to;
+  }
+  public function getTo()
+  {
+    return $this->to;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(FilterCriteria::class, 'Google_Service_Gmail_FilterCriteria');

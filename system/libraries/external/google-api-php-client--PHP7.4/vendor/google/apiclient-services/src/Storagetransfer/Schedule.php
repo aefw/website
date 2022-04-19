@@ -1,61 +1,99 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Storagetransfer;
+
+class Schedule extends \Google\Model
+{
+  protected $endTimeOfDayType = TimeOfDay::class;
+  protected $endTimeOfDayDataType = '';
+  public $repeatInterval;
+  protected $scheduleEndDateType = Date::class;
+  protected $scheduleEndDateDataType = '';
+  protected $scheduleStartDateType = Date::class;
+  protected $scheduleStartDateDataType = '';
+  protected $startTimeOfDayType = TimeOfDay::class;
+  protected $startTimeOfDayDataType = '';
+
+  /**
+   * @param TimeOfDay
+   */
+  public function setEndTimeOfDay(TimeOfDay $endTimeOfDay)
+  {
+    $this->endTimeOfDay = $endTimeOfDay;
+  }
+  /**
+   * @return TimeOfDay
+   */
+  public function getEndTimeOfDay()
+  {
+    return $this->endTimeOfDay;
+  }
+  public function setRepeatInterval($repeatInterval)
+  {
+    $this->repeatInterval = $repeatInterval;
+  }
+  public function getRepeatInterval()
+  {
+    return $this->repeatInterval;
+  }
+  /**
+   * @param Date
+   */
+  public function setScheduleEndDate(Date $scheduleEndDate)
+  {
+    $this->scheduleEndDate = $scheduleEndDate;
+  }
+  /**
+   * @return Date
+   */
+  public function getScheduleEndDate()
+  {
+    return $this->scheduleEndDate;
+  }
+  /**
+   * @param Date
+   */
+  public function setScheduleStartDate(Date $scheduleStartDate)
+  {
+    $this->scheduleStartDate = $scheduleStartDate;
+  }
+  /**
+   * @return Date
+   */
+  public function getScheduleStartDate()
+  {
+    return $this->scheduleStartDate;
+  }
+  /**
+   * @param TimeOfDay
+   */
+  public function setStartTimeOfDay(TimeOfDay $startTimeOfDay)
+  {
+    $this->startTimeOfDay = $startTimeOfDay;
+  }
+  /**
+   * @return TimeOfDay
+   */
+  public function getStartTimeOfDay()
+  {
+    return $this->startTimeOfDay;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Schedule::class, 'Google_Service_Storagetransfer_Schedule');

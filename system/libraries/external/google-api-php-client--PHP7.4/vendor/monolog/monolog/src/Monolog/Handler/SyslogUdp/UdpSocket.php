@@ -1,71 +1,69 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-c+FlQnQP/uk3Cz7pWQxScwR5
+<?php declare(strict_types=1);
+
+/*
+ * This file is part of the Monolog package.
+ *
+ * (c) Jordi Boggiano <j.boggiano@seld.be>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Monolog\Handler\SyslogUdp;
+
+use Monolog\Utils;
+use Socket;
+
+class UdpSocket
+{
+    protected const DATAGRAM_MAX_LENGTH = 65023;
+
+    /** @var string */
+    protected $ip;
+    /** @var int */
+    protected $port;
+    /** @var resource|Socket|null */
+    protected $socket;
+
+    public function __construct(string $ip, int $port = 514)
+    {
+        $this->ip = $ip;
+        $this->port = $port;
+        $domain = AF_INET;
+        $protocol = SOL_UDP;
+        // Check if we are using unix sockets.
+        if ($port === 0) {
+            $domain = AF_UNIX;
+            $protocol = IPPROTO_IP;
+        }
+        $this->socket = socket_create($domain, SOCK_DGRAM, $protocol) ?: null;
+    }
+
+    public function write($line, $header = "")
+    {
+        $this->send($this->assembleMessage($line, $header));
+    }
+
+    public function close(): void
+    {
+        if (is_resource($this->socket) || $this->socket instanceof Socket) {
+            socket_close($this->socket);
+            $this->socket = null;
+        }
+    }
+
+    protected function send(string $chunk): void
+    {
+        if (!is_resource($this->socket) && !$this->socket instanceof Socket) {
+            throw new \RuntimeException('The UdpSocket to '.$this->ip.':'.$this->port.' has been closed and can not be written to anymore');
+        }
+        socket_sendto($this->socket, $chunk, strlen($chunk), $flags = 0, $this->ip, $this->port);
+    }
+
+    protected function assembleMessage(string $line, string $header): string
+    {
+        $chunkSize = static::DATAGRAM_MAX_LENGTH - strlen($header);
+
+        return $header . Utils::substr($line, 0, $chunkSize);
+    }
+}

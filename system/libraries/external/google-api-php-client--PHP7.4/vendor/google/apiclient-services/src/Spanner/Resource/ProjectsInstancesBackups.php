@@ -1,83 +1,238 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-UWU10xgS08MB
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Spanner\Resource;
+
+use Google\Service\Spanner\Backup;
+use Google\Service\Spanner\GetIamPolicyRequest;
+use Google\Service\Spanner\ListBackupsResponse;
+use Google\Service\Spanner\Operation;
+use Google\Service\Spanner\Policy;
+use Google\Service\Spanner\SetIamPolicyRequest;
+use Google\Service\Spanner\SpannerEmpty;
+use Google\Service\Spanner\TestIamPermissionsRequest;
+use Google\Service\Spanner\TestIamPermissionsResponse;
+
+/**
+ * The "backups" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $spannerService = new Google\Service\Spanner(...);
+ *   $backups = $spannerService->backups;
+ *  </code>
+ */
+class ProjectsInstancesBackups extends \Google\Service\Resource
+{
+  /**
+   * Starts creating a new Cloud Spanner Backup. The returned backup long-running
+   * operation will have a name of the format
+   * `projects//instances//backups//operations/` and can be used to track creation
+   * of the backup. The metadata field type is CreateBackupMetadata. The response
+   * field type is Backup, if successful. Cancelling the returned operation will
+   * stop the creation and delete the backup. There can be only one pending backup
+   * creation per database. Backup creation of different databases can run
+   * concurrently. (backups.create)
+   *
+   * @param string $parent Required. The name of the instance in which the backup
+   * will be created. This must be the same instance that contains the database
+   * the backup will be created from. The backup will be stored in the location(s)
+   * specified in the instance configuration of this instance. Values are of the
+   * form `projects//instances/`.
+   * @param Backup $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string backupId Required. The id of the backup to be created. The
+   * `backup_id` appended to `parent` forms the full backup name of the form
+   * `projects//instances//backups/`.
+   * @opt_param string encryptionConfig.encryptionType Required. The encryption
+   * type of the backup.
+   * @opt_param string encryptionConfig.kmsKeyName Optional. The Cloud KMS key
+   * that will be used to protect the backup. This field should be set only when
+   * encryption_type is `CUSTOMER_MANAGED_ENCRYPTION`. Values are of the form
+   * `projects//locations//keyRings//cryptoKeys/`.
+   * @return Operation
+   */
+  public function create($parent, Backup $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Operation::class);
+  }
+  /**
+   * Deletes a pending or completed Backup. (backups.delete)
+   *
+   * @param string $name Required. Name of the backup to delete. Values are of the
+   * form `projects//instances//backups/`.
+   * @param array $optParams Optional parameters.
+   * @return SpannerEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], SpannerEmpty::class);
+  }
+  /**
+   * Gets metadata on a pending or completed Backup. (backups.get)
+   *
+   * @param string $name Required. Name of the backup. Values are of the form
+   * `projects//instances//backups/`.
+   * @param array $optParams Optional parameters.
+   * @return Backup
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Backup::class);
+  }
+  /**
+   * Gets the access control policy for a database or backup resource. Returns an
+   * empty policy if a database or backup exists but does not have a policy set.
+   * Authorization requires `spanner.databases.getIamPolicy` permission on
+   * resource. For backups, authorization requires `spanner.backups.getIamPolicy`
+   * permission on resource. (backups.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The Cloud Spanner resource for which the
+   * policy is being retrieved. The format is `projects//instances/` for instance
+   * resources and `projects//instances//databases/` for database resources.
+   * @param GetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function getIamPolicy($resource, GetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Lists completed and pending backups. Backups returned are ordered by
+   * `create_time` in descending order, starting from the most recent
+   * `create_time`. (backups.listProjectsInstancesBackups)
+   *
+   * @param string $parent Required. The instance to list backups from. Values are
+   * of the form `projects//instances/`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter An expression that filters the list of returned
+   * backups. A filter expression consists of a field name, a comparison operator,
+   * and a value for filtering. The value must be a string, a number, or a
+   * boolean. The comparison operator must be one of: `<`, `>`, `<=`, `>=`, `!=`,
+   * `=`, or `:`. Colon `:` is the contains operator. Filter rules are not case
+   * sensitive. The following fields in the Backup are eligible for filtering: *
+   * `name` * `database` * `state` * `create_time` (and values are of the format
+   * YYYY-MM-DDTHH:MM:SSZ) * `expire_time` (and values are of the format YYYY-MM-
+   * DDTHH:MM:SSZ) * `version_time` (and values are of the format YYYY-MM-
+   * DDTHH:MM:SSZ) * `size_bytes` You can combine multiple expressions by
+   * enclosing each expression in parentheses. By default, expressions are
+   * combined with AND logic, but you can specify AND, OR, and NOT logic
+   * explicitly. Here are a few examples: * `name:Howl` - The backup's name
+   * contains the string "howl". * `database:prod` - The database's name contains
+   * the string "prod". * `state:CREATING` - The backup is pending creation. *
+   * `state:READY` - The backup is fully created and ready for use. * `(name:howl)
+   * AND (create_time < \"2018-03-28T14:50:00Z\")` - The backup name contains the
+   * string "howl" and `create_time` of the backup is before 2018-03-28T14:50:00Z.
+   * * `expire_time < \"2018-03-28T14:50:00Z\"` - The backup `expire_time` is
+   * before 2018-03-28T14:50:00Z. * `size_bytes > 10000000000` - The backup's size
+   * is greater than 10GB
+   * @opt_param int pageSize Number of backups to be returned in the response. If
+   * 0 or less, defaults to the server's maximum allowed page size.
+   * @opt_param string pageToken If non-empty, `page_token` should contain a
+   * next_page_token from a previous ListBackupsResponse to the same `parent` and
+   * with the same `filter`.
+   * @return ListBackupsResponse
+   */
+  public function listProjectsInstancesBackups($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListBackupsResponse::class);
+  }
+  /**
+   * Updates a pending or completed Backup. (backups.patch)
+   *
+   * @param string $name Output only for the CreateBackup operation. Required for
+   * the UpdateBackup operation. A globally unique identifier for the backup which
+   * cannot be changed. Values are of the form
+   * `projects//instances//backups/a-z*[a-z0-9]` The final segment of the name
+   * must be between 2 and 60 characters in length. The backup is stored in the
+   * location(s) specified in the instance configuration of the instance
+   * containing the backup, identified by the prefix of the backup name of the
+   * form `projects//instances/`.
+   * @param Backup $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. A mask specifying which fields (e.g.
+   * `expire_time`) in the Backup resource should be updated. This mask is
+   * relative to the Backup resource, not to the request message. The field mask
+   * must always be specified; this prevents any future fields from being erased
+   * accidentally by clients that do not know about them.
+   * @return Backup
+   */
+  public function patch($name, Backup $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Backup::class);
+  }
+  /**
+   * Sets the access control policy on a database or backup resource. Replaces any
+   * existing policy. Authorization requires `spanner.databases.setIamPolicy`
+   * permission on resource. For backups, authorization requires
+   * `spanner.backups.setIamPolicy` permission on resource. (backups.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The Cloud Spanner resource for which the
+   * policy is being set. The format is `projects//instances/` for instance
+   * resources and `projects//instances//databases/` for databases resources.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Returns permissions that the caller has on the specified database or backup
+   * resource. Attempting this RPC on a non-existent Cloud Spanner database will
+   * result in a NOT_FOUND error if the user has `spanner.databases.list`
+   * permission on the containing Cloud Spanner instance. Otherwise returns an
+   * empty set of permissions. Calling this method on a backup that does not exist
+   * will result in a NOT_FOUND error if the user has `spanner.backups.list`
+   * permission on the containing instance. (backups.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The Cloud Spanner resource for which
+   * permissions are being tested. The format is `projects//instances/` for
+   * instance resources and `projects//instances//databases/` for database
+   * resources.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsInstancesBackups::class, 'Google_Service_Spanner_Resource_ProjectsInstancesBackups');

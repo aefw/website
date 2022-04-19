@@ -1,65 +1,129 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudDebugger\Resource;
+
+use Google\Service\CloudDebugger\Breakpoint;
+use Google\Service\CloudDebugger\ClouddebuggerEmpty;
+use Google\Service\CloudDebugger\GetBreakpointResponse;
+use Google\Service\CloudDebugger\ListBreakpointsResponse;
+use Google\Service\CloudDebugger\SetBreakpointResponse;
+
+/**
+ * The "breakpoints" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $clouddebuggerService = new Google\Service\CloudDebugger(...);
+ *   $breakpoints = $clouddebuggerService->breakpoints;
+ *  </code>
+ */
+class DebuggerDebuggeesBreakpoints extends \Google\Service\Resource
+{
+  /**
+   * Deletes the breakpoint from the debuggee. (breakpoints.delete)
+   *
+   * @param string $debuggeeId Required. ID of the debuggee whose breakpoint to
+   * delete.
+   * @param string $breakpointId Required. ID of the breakpoint to delete.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string clientVersion Required. The client version making the call.
+   * Schema: `domain/type/version` (e.g., `google.com/intellij/v1`).
+   * @return ClouddebuggerEmpty
+   */
+  public function delete($debuggeeId, $breakpointId, $optParams = [])
+  {
+    $params = ['debuggeeId' => $debuggeeId, 'breakpointId' => $breakpointId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], ClouddebuggerEmpty::class);
+  }
+  /**
+   * Gets breakpoint information. (breakpoints.get)
+   *
+   * @param string $debuggeeId Required. ID of the debuggee whose breakpoint to
+   * get.
+   * @param string $breakpointId Required. ID of the breakpoint to get.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string clientVersion Required. The client version making the call.
+   * Schema: `domain/type/version` (e.g., `google.com/intellij/v1`).
+   * @return GetBreakpointResponse
+   */
+  public function get($debuggeeId, $breakpointId, $optParams = [])
+  {
+    $params = ['debuggeeId' => $debuggeeId, 'breakpointId' => $breakpointId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GetBreakpointResponse::class);
+  }
+  /**
+   * Lists all breakpoints for the debuggee.
+   * (breakpoints.listDebuggerDebuggeesBreakpoints)
+   *
+   * @param string $debuggeeId Required. ID of the debuggee whose breakpoints to
+   * list.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string action.value Only breakpoints with the specified action
+   * will pass the filter.
+   * @opt_param string clientVersion Required. The client version making the call.
+   * Schema: `domain/type/version` (e.g., `google.com/intellij/v1`).
+   * @opt_param bool includeAllUsers When set to `true`, the response includes the
+   * list of breakpoints set by any user. Otherwise, it includes only breakpoints
+   * set by the caller.
+   * @opt_param bool includeInactive When set to `true`, the response includes
+   * active and inactive breakpoints. Otherwise, it includes only active
+   * breakpoints.
+   * @opt_param bool stripResults This field is deprecated. The following fields
+   * are always stripped out of the result: `stack_frames`,
+   * `evaluated_expressions` and `variable_table`.
+   * @opt_param string waitToken A wait token that, if specified, blocks the call
+   * until the breakpoints list has changed, or a server selected timeout has
+   * expired. The value should be set from the last response. The error code
+   * `google.rpc.Code.ABORTED` (RPC) is returned on wait timeout, which should be
+   * called again with the same `wait_token`.
+   * @return ListBreakpointsResponse
+   */
+  public function listDebuggerDebuggeesBreakpoints($debuggeeId, $optParams = [])
+  {
+    $params = ['debuggeeId' => $debuggeeId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListBreakpointsResponse::class);
+  }
+  /**
+   * Sets the breakpoint to the debuggee. (breakpoints.set)
+   *
+   * @param string $debuggeeId Required. ID of the debuggee where the breakpoint
+   * is to be set.
+   * @param Breakpoint $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string canaryOption The canary option set by the user upon setting
+   * breakpoint.
+   * @opt_param string clientVersion Required. The client version making the call.
+   * Schema: `domain/type/version` (e.g., `google.com/intellij/v1`).
+   * @return SetBreakpointResponse
+   */
+  public function set($debuggeeId, Breakpoint $postBody, $optParams = [])
+  {
+    $params = ['debuggeeId' => $debuggeeId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('set', [$params], SetBreakpointResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(DebuggerDebuggeesBreakpoints::class, 'Google_Service_CloudDebugger_Resource_DebuggerDebuggeesBreakpoints');

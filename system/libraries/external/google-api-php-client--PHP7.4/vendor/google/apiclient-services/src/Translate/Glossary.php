@@ -1,67 +1,110 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Translate;
+
+class Glossary extends \Google\Model
+{
+  public $endTime;
+  public $entryCount;
+  protected $inputConfigType = GlossaryInputConfig::class;
+  protected $inputConfigDataType = '';
+  protected $languageCodesSetType = LanguageCodesSet::class;
+  protected $languageCodesSetDataType = '';
+  protected $languagePairType = LanguageCodePair::class;
+  protected $languagePairDataType = '';
+  public $name;
+  public $submitTime;
+
+  public function setEndTime($endTime)
+  {
+    $this->endTime = $endTime;
+  }
+  public function getEndTime()
+  {
+    return $this->endTime;
+  }
+  public function setEntryCount($entryCount)
+  {
+    $this->entryCount = $entryCount;
+  }
+  public function getEntryCount()
+  {
+    return $this->entryCount;
+  }
+  /**
+   * @param GlossaryInputConfig
+   */
+  public function setInputConfig(GlossaryInputConfig $inputConfig)
+  {
+    $this->inputConfig = $inputConfig;
+  }
+  /**
+   * @return GlossaryInputConfig
+   */
+  public function getInputConfig()
+  {
+    return $this->inputConfig;
+  }
+  /**
+   * @param LanguageCodesSet
+   */
+  public function setLanguageCodesSet(LanguageCodesSet $languageCodesSet)
+  {
+    $this->languageCodesSet = $languageCodesSet;
+  }
+  /**
+   * @return LanguageCodesSet
+   */
+  public function getLanguageCodesSet()
+  {
+    return $this->languageCodesSet;
+  }
+  /**
+   * @param LanguageCodePair
+   */
+  public function setLanguagePair(LanguageCodePair $languagePair)
+  {
+    $this->languagePair = $languagePair;
+  }
+  /**
+   * @return LanguageCodePair
+   */
+  public function getLanguagePair()
+  {
+    return $this->languagePair;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setSubmitTime($submitTime)
+  {
+    $this->submitTime = $submitTime;
+  }
+  public function getSubmitTime()
+  {
+    return $this->submitTime;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Glossary::class, 'Google_Service_Translate_Glossary');

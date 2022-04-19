@@ -1,65 +1,116 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Sheets;
+
+class FilterCriteria extends \Google\Collection
+{
+  protected $collection_key = 'hiddenValues';
+  protected $conditionType = BooleanCondition::class;
+  protected $conditionDataType = '';
+  public $hiddenValues;
+  protected $visibleBackgroundColorType = Color::class;
+  protected $visibleBackgroundColorDataType = '';
+  protected $visibleBackgroundColorStyleType = ColorStyle::class;
+  protected $visibleBackgroundColorStyleDataType = '';
+  protected $visibleForegroundColorType = Color::class;
+  protected $visibleForegroundColorDataType = '';
+  protected $visibleForegroundColorStyleType = ColorStyle::class;
+  protected $visibleForegroundColorStyleDataType = '';
+
+  /**
+   * @param BooleanCondition
+   */
+  public function setCondition(BooleanCondition $condition)
+  {
+    $this->condition = $condition;
+  }
+  /**
+   * @return BooleanCondition
+   */
+  public function getCondition()
+  {
+    return $this->condition;
+  }
+  public function setHiddenValues($hiddenValues)
+  {
+    $this->hiddenValues = $hiddenValues;
+  }
+  public function getHiddenValues()
+  {
+    return $this->hiddenValues;
+  }
+  /**
+   * @param Color
+   */
+  public function setVisibleBackgroundColor(Color $visibleBackgroundColor)
+  {
+    $this->visibleBackgroundColor = $visibleBackgroundColor;
+  }
+  /**
+   * @return Color
+   */
+  public function getVisibleBackgroundColor()
+  {
+    return $this->visibleBackgroundColor;
+  }
+  /**
+   * @param ColorStyle
+   */
+  public function setVisibleBackgroundColorStyle(ColorStyle $visibleBackgroundColorStyle)
+  {
+    $this->visibleBackgroundColorStyle = $visibleBackgroundColorStyle;
+  }
+  /**
+   * @return ColorStyle
+   */
+  public function getVisibleBackgroundColorStyle()
+  {
+    return $this->visibleBackgroundColorStyle;
+  }
+  /**
+   * @param Color
+   */
+  public function setVisibleForegroundColor(Color $visibleForegroundColor)
+  {
+    $this->visibleForegroundColor = $visibleForegroundColor;
+  }
+  /**
+   * @return Color
+   */
+  public function getVisibleForegroundColor()
+  {
+    return $this->visibleForegroundColor;
+  }
+  /**
+   * @param ColorStyle
+   */
+  public function setVisibleForegroundColorStyle(ColorStyle $visibleForegroundColorStyle)
+  {
+    $this->visibleForegroundColorStyle = $visibleForegroundColorStyle;
+  }
+  /**
+   * @return ColorStyle
+   */
+  public function getVisibleForegroundColorStyle()
+  {
+    return $this->visibleForegroundColorStyle;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(FilterCriteria::class, 'Google_Service_Sheets_FilterCriteria');

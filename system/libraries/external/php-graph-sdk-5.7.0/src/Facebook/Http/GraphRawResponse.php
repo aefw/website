@@ -1,61 +1,138 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/**
+ * Copyright 2017 Facebook, Inc.
+ *
+ * You are hereby granted a non-exclusive, worldwide, royalty-free license to
+ * use, copy, modify, and distribute this software in source code or binary
+ * form for use in connection with the web services and APIs provided by
+ * Facebook.
+ *
+ * As with any software that integrates with the Facebook platform, your use
+ * of this software is subject to the Facebook Developer Principles and
+ * Policies [http://developers.facebook.com/policy/]. This copyright notice
+ * shall be included in all copies or substantial portions of the software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+ * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+ *
+ */
+namespace Facebook\Http;
+
+/**
+ * Class GraphRawResponse
+ *
+ * @package Facebook
+ */
+class GraphRawResponse
+{
+    /**
+     * @var array The response headers in the form of an associative array.
+     */
+    protected $headers;
+
+    /**
+     * @var string The raw response body.
+     */
+    protected $body;
+
+    /**
+     * @var int The HTTP status response code.
+     */
+    protected $httpResponseCode;
+
+    /**
+     * Creates a new GraphRawResponse entity.
+     *
+     * @param string|array $headers        The headers as a raw string or array.
+     * @param string       $body           The raw response body.
+     * @param int          $httpStatusCode The HTTP response code (if sending headers as parsed array).
+     */
+    public function __construct($headers, $body, $httpStatusCode = null)
+    {
+        if (is_numeric($httpStatusCode)) {
+            $this->httpResponseCode = (int)$httpStatusCode;
+        }
+
+        if (is_array($headers)) {
+            $this->headers = $headers;
+        } else {
+            $this->setHeadersFromString($headers);
+        }
+
+        $this->body = $body;
+    }
+
+    /**
+     * Return the response headers.
+     *
+     * @return array
+     */
+    public function getHeaders()
+    {
+        return $this->headers;
+    }
+
+    /**
+     * Return the body of the response.
+     *
+     * @return string
+     */
+    public function getBody()
+    {
+        return $this->body;
+    }
+
+    /**
+     * Return the HTTP response code.
+     *
+     * @return int
+     */
+    public function getHttpResponseCode()
+    {
+        return $this->httpResponseCode;
+    }
+
+    /**
+     * Sets the HTTP response code from a raw header.
+     *
+     * @param string $rawResponseHeader
+     */
+    public function setHttpResponseCodeFromHeader($rawResponseHeader)
+    {
+        // https://tools.ietf.org/html/rfc7230#section-3.1.2
+        list($version, $status, $reason) = array_pad(explode(' ', $rawResponseHeader, 3), 3, null);
+        $this->httpResponseCode = (int) $status;
+    }
+
+    /**
+     * Parse the raw headers and set as an array.
+     *
+     * @param string $rawHeaders The raw headers from the response.
+     */
+    protected function setHeadersFromString($rawHeaders)
+    {
+        // Normalize line breaks
+        $rawHeaders = str_replace("\r\n", "\n", $rawHeaders);
+
+        // There will be multiple headers if a 301 was followed
+        // or a proxy was followed, etc
+        $headerCollection = explode("\n\n", trim($rawHeaders));
+        // We just want the last response (at the end)
+        $rawHeader = array_pop($headerCollection);
+
+        $headerComponents = explode("\n", $rawHeader);
+        foreach ($headerComponents as $line) {
+            if (strpos($line, ': ') === false) {
+                $this->setHttpResponseCodeFromHeader($line);
+            } else {
+                list($key, $value) = explode(': ', $line, 2);
+                $this->headers[$key] = $value;
+            }
+        }
+    }
+}

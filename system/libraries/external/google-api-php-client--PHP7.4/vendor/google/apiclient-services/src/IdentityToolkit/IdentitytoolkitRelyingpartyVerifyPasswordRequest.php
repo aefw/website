@@ -1,87 +1,125 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-y/kdQ1RKe0FODCqDtEQmiCTHnr+/l6vh7zi=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\IdentityToolkit;
+
+class IdentitytoolkitRelyingpartyVerifyPasswordRequest extends \Google\Model
+{
+  public $captchaChallenge;
+  public $captchaResponse;
+  public $delegatedProjectNumber;
+  public $email;
+  public $idToken;
+  public $instanceId;
+  public $password;
+  public $pendingIdToken;
+  public $returnSecureToken;
+  public $tenantId;
+  public $tenantProjectNumber;
+
+  public function setCaptchaChallenge($captchaChallenge)
+  {
+    $this->captchaChallenge = $captchaChallenge;
+  }
+  public function getCaptchaChallenge()
+  {
+    return $this->captchaChallenge;
+  }
+  public function setCaptchaResponse($captchaResponse)
+  {
+    $this->captchaResponse = $captchaResponse;
+  }
+  public function getCaptchaResponse()
+  {
+    return $this->captchaResponse;
+  }
+  public function setDelegatedProjectNumber($delegatedProjectNumber)
+  {
+    $this->delegatedProjectNumber = $delegatedProjectNumber;
+  }
+  public function getDelegatedProjectNumber()
+  {
+    return $this->delegatedProjectNumber;
+  }
+  public function setEmail($email)
+  {
+    $this->email = $email;
+  }
+  public function getEmail()
+  {
+    return $this->email;
+  }
+  public function setIdToken($idToken)
+  {
+    $this->idToken = $idToken;
+  }
+  public function getIdToken()
+  {
+    return $this->idToken;
+  }
+  public function setInstanceId($instanceId)
+  {
+    $this->instanceId = $instanceId;
+  }
+  public function getInstanceId()
+  {
+    return $this->instanceId;
+  }
+  public function setPassword($password)
+  {
+    $this->password = $password;
+  }
+  public function getPassword()
+  {
+    return $this->password;
+  }
+  public function setPendingIdToken($pendingIdToken)
+  {
+    $this->pendingIdToken = $pendingIdToken;
+  }
+  public function getPendingIdToken()
+  {
+    return $this->pendingIdToken;
+  }
+  public function setReturnSecureToken($returnSecureToken)
+  {
+    $this->returnSecureToken = $returnSecureToken;
+  }
+  public function getReturnSecureToken()
+  {
+    return $this->returnSecureToken;
+  }
+  public function setTenantId($tenantId)
+  {
+    $this->tenantId = $tenantId;
+  }
+  public function getTenantId()
+  {
+    return $this->tenantId;
+  }
+  public function setTenantProjectNumber($tenantProjectNumber)
+  {
+    $this->tenantProjectNumber = $tenantProjectNumber;
+  }
+  public function getTenantProjectNumber()
+  {
+    return $this->tenantProjectNumber;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(IdentitytoolkitRelyingpartyVerifyPasswordRequest::class, 'Google_Service_IdentityToolkit_IdentitytoolkitRelyingpartyVerifyPasswordRequest');

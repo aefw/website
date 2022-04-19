@@ -1,171 +1,240 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-estMK0O=
+<?php declare(strict_types=1);
+
+/*
+ * This file is part of the Monolog package.
+ *
+ * (c) Jordi Boggiano <j.boggiano@seld.be>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Monolog\Handler;
+
+use Monolog\Formatter\LineFormatter;
+use Monolog\Formatter\FormatterInterface;
+use Monolog\Logger;
+use Monolog\Utils;
+use PhpConsole\Connector;
+use PhpConsole\Handler as VendorPhpConsoleHandler;
+use PhpConsole\Helper;
+
+/**
+ * Monolog handler for Google Chrome extension "PHP Console"
+ *
+ * Display PHP error/debug log messages in Google Chrome console and notification popups, executes PHP code remotely
+ *
+ * Usage:
+ * 1. Install Google Chrome extension https://chrome.google.com/webstore/detail/php-console/nfhmhhlpfleoednkpnnnkolmclajemef
+ * 2. See overview https://github.com/barbushin/php-console#overview
+ * 3. Install PHP Console library https://github.com/barbushin/php-console#installation
+ * 4. Example (result will looks like http://i.hizliresim.com/vg3Pz4.png)
+ *
+ *      $logger = new \Monolog\Logger('all', array(new \Monolog\Handler\PHPConsoleHandler()));
+ *      \Monolog\ErrorHandler::register($logger);
+ *      echo $undefinedVar;
+ *      $logger->debug('SELECT * FROM users', array('db', 'time' => 0.012));
+ *      PC::debug($_SERVER); // PHP Console debugger for any type of vars
+ *
+ * @author Sergey Barbushin https://www.linkedin.com/in/barbushin
+ */
+class PHPConsoleHandler extends AbstractProcessingHandler
+{
+    private $options = [
+        'enabled' => true, // bool Is PHP Console server enabled
+        'classesPartialsTraceIgnore' => ['Monolog\\'], // array Hide calls of classes started with...
+        'debugTagsKeysInContext' => [0, 'tag'], // bool Is PHP Console server enabled
+        'useOwnErrorsHandler' => false, // bool Enable errors handling
+        'useOwnExceptionsHandler' => false, // bool Enable exceptions handling
+        'sourcesBasePath' => null, // string Base path of all project sources to strip in errors source paths
+        'registerHelper' => true, // bool Register PhpConsole\Helper that allows short debug calls like PC::debug($var, 'ta.g.s')
+        'serverEncoding' => null, // string|null Server internal encoding
+        'headersLimit' => null, // int|null Set headers size limit for your web-server
+        'password' => null, // string|null Protect PHP Console connection by password
+        'enableSslOnlyMode' => false, // bool Force connection by SSL for clients with PHP Console installed
+        'ipMasks' => [], // array Set IP masks of clients that will be allowed to connect to PHP Console: array('192.168.*.*', '127.0.0.1')
+        'enableEvalListener' => false, // bool Enable eval request to be handled by eval dispatcher(if enabled, 'password' option is also required)
+        'dumperDetectCallbacks' => false, // bool Convert callback items in dumper vars to (callback SomeClass::someMethod) strings
+        'dumperLevelLimit' => 5, // int Maximum dumped vars array or object nested dump level
+        'dumperItemsCountLimit' => 100, // int Maximum dumped var same level array items or object properties number
+        'dumperItemSizeLimit' => 5000, // int Maximum length of any string or dumped array item
+        'dumperDumpSizeLimit' => 500000, // int Maximum approximate size of dumped vars result formatted in JSON
+        'detectDumpTraceAndSource' => false, // bool Autodetect and append trace data to debug
+        'dataStorage' => null, // \PhpConsole\Storage|null Fixes problem with custom $_SESSION handler(see http://goo.gl/Ne8juJ)
+    ];
+
+    /** @var Connector */
+    private $connector;
+
+    /**
+     * @param  array             $options   See \Monolog\Handler\PHPConsoleHandler::$options for more details
+     * @param  Connector|null    $connector Instance of \PhpConsole\Connector class (optional)
+     * @param  string|int        $level     The minimum logging level at which this handler will be triggered.
+     * @param  bool              $bubble    Whether the messages that are handled can bubble up the stack or not.
+     * @throws \RuntimeException
+     */
+    public function __construct(array $options = [], ?Connector $connector = null, $level = Logger::DEBUG, bool $bubble = true)
+    {
+        if (!class_exists('PhpConsole\Connector')) {
+            throw new \RuntimeException('PHP Console library not found. See https://github.com/barbushin/php-console#installation');
+        }
+        parent::__construct($level, $bubble);
+        $this->options = $this->initOptions($options);
+        $this->connector = $this->initConnector($connector);
+    }
+
+    private function initOptions(array $options): array
+    {
+        $wrongOptions = array_diff(array_keys($options), array_keys($this->options));
+        if ($wrongOptions) {
+            throw new \RuntimeException('Unknown options: ' . implode(', ', $wrongOptions));
+        }
+
+        return array_replace($this->options, $options);
+    }
+
+    private function initConnector(?Connector $connector = null): Connector
+    {
+        if (!$connector) {
+            if ($this->options['dataStorage']) {
+                Connector::setPostponeStorage($this->options['dataStorage']);
+            }
+            $connector = Connector::getInstance();
+        }
+
+        if ($this->options['registerHelper'] && !Helper::isRegistered()) {
+            Helper::register();
+        }
+
+        if ($this->options['enabled'] && $connector->isActiveClient()) {
+            if ($this->options['useOwnErrorsHandler'] || $this->options['useOwnExceptionsHandler']) {
+                $handler = VendorPhpConsoleHandler::getInstance();
+                $handler->setHandleErrors($this->options['useOwnErrorsHandler']);
+                $handler->setHandleExceptions($this->options['useOwnExceptionsHandler']);
+                $handler->start();
+            }
+            if ($this->options['sourcesBasePath']) {
+                $connector->setSourcesBasePath($this->options['sourcesBasePath']);
+            }
+            if ($this->options['serverEncoding']) {
+                $connector->setServerEncoding($this->options['serverEncoding']);
+            }
+            if ($this->options['password']) {
+                $connector->setPassword($this->options['password']);
+            }
+            if ($this->options['enableSslOnlyMode']) {
+                $connector->enableSslOnlyMode();
+            }
+            if ($this->options['ipMasks']) {
+                $connector->setAllowedIpMasks($this->options['ipMasks']);
+            }
+            if ($this->options['headersLimit']) {
+                $connector->setHeadersLimit($this->options['headersLimit']);
+            }
+            if ($this->options['detectDumpTraceAndSource']) {
+                $connector->getDebugDispatcher()->detectTraceAndSource = true;
+            }
+            $dumper = $connector->getDumper();
+            $dumper->levelLimit = $this->options['dumperLevelLimit'];
+            $dumper->itemsCountLimit = $this->options['dumperItemsCountLimit'];
+            $dumper->itemSizeLimit = $this->options['dumperItemSizeLimit'];
+            $dumper->dumpSizeLimit = $this->options['dumperDumpSizeLimit'];
+            $dumper->detectCallbacks = $this->options['dumperDetectCallbacks'];
+            if ($this->options['enableEvalListener']) {
+                $connector->startEvalRequestsListener();
+            }
+        }
+
+        return $connector;
+    }
+
+    public function getConnector(): Connector
+    {
+        return $this->connector;
+    }
+
+    public function getOptions(): array
+    {
+        return $this->options;
+    }
+
+    public function handle(array $record): bool
+    {
+        if ($this->options['enabled'] && $this->connector->isActiveClient()) {
+            return parent::handle($record);
+        }
+
+        return !$this->bubble;
+    }
+
+    /**
+     * Writes the record down to the log of the implementing handler
+     */
+    protected function write(array $record): void
+    {
+        if ($record['level'] < Logger::NOTICE) {
+            $this->handleDebugRecord($record);
+        } elseif (isset($record['context']['exception']) && $record['context']['exception'] instanceof \Throwable) {
+            $this->handleExceptionRecord($record);
+        } else {
+            $this->handleErrorRecord($record);
+        }
+    }
+
+    private function handleDebugRecord(array $record): void
+    {
+        $tags = $this->getRecordTags($record);
+        $message = $record['message'];
+        if ($record['context']) {
+            $message .= ' ' . Utils::jsonEncode($this->connector->getDumper()->dump(array_filter($record['context'])), null, true);
+        }
+        $this->connector->getDebugDispatcher()->dispatchDebug($message, $tags, $this->options['classesPartialsTraceIgnore']);
+    }
+
+    private function handleExceptionRecord(array $record): void
+    {
+        $this->connector->getErrorsDispatcher()->dispatchException($record['context']['exception']);
+    }
+
+    private function handleErrorRecord(array $record): void
+    {
+        $context = $record['context'];
+
+        $this->connector->getErrorsDispatcher()->dispatchError(
+            $context['code'] ?? null,
+            $context['message'] ?? $record['message'],
+            $context['file'] ?? null,
+            $context['line'] ?? null,
+            $this->options['classesPartialsTraceIgnore']
+        );
+    }
+
+    private function getRecordTags(array &$record)
+    {
+        $tags = null;
+        if (!empty($record['context'])) {
+            $context = & $record['context'];
+            foreach ($this->options['debugTagsKeysInContext'] as $key) {
+                if (!empty($context[$key])) {
+                    $tags = $context[$key];
+                    if ($key === 0) {
+                        array_shift($context);
+                    } else {
+                        unset($context[$key]);
+                    }
+                    break;
+                }
+            }
+        }
+
+        return $tags ?: strtolower($record['level_name']);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    protected function getDefaultFormatter(): FormatterInterface
+    {
+        return new LineFormatter('%message%');
+    }
+}

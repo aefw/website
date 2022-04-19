@@ -1,112 +1,186 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Localservices;
+
+class GoogleAdsHomeservicesLocalservicesV1AccountReport extends \Google\Model
+{
+  public $accountId;
+  protected $aggregatorInfoType = GoogleAdsHomeservicesLocalservicesV1AggregatorInfo::class;
+  protected $aggregatorInfoDataType = '';
+  public $averageFiveStarRating;
+  public $averageWeeklyBudget;
+  public $businessName;
+  public $currencyCode;
+  public $currentPeriodChargedLeads;
+  public $currentPeriodConnectedPhoneCalls;
+  public $currentPeriodPhoneCalls;
+  public $currentPeriodTotalCost;
+  public $impressionsLastTwoDays;
+  public $phoneLeadResponsiveness;
+  public $previousPeriodChargedLeads;
+  public $previousPeriodConnectedPhoneCalls;
+  public $previousPeriodPhoneCalls;
+  public $previousPeriodTotalCost;
+  public $totalReview;
+
+  public function setAccountId($accountId)
+  {
+    $this->accountId = $accountId;
+  }
+  public function getAccountId()
+  {
+    return $this->accountId;
+  }
+  /**
+   * @param GoogleAdsHomeservicesLocalservicesV1AggregatorInfo
+   */
+  public function setAggregatorInfo(GoogleAdsHomeservicesLocalservicesV1AggregatorInfo $aggregatorInfo)
+  {
+    $this->aggregatorInfo = $aggregatorInfo;
+  }
+  /**
+   * @return GoogleAdsHomeservicesLocalservicesV1AggregatorInfo
+   */
+  public function getAggregatorInfo()
+  {
+    return $this->aggregatorInfo;
+  }
+  public function setAverageFiveStarRating($averageFiveStarRating)
+  {
+    $this->averageFiveStarRating = $averageFiveStarRating;
+  }
+  public function getAverageFiveStarRating()
+  {
+    return $this->averageFiveStarRating;
+  }
+  public function setAverageWeeklyBudget($averageWeeklyBudget)
+  {
+    $this->averageWeeklyBudget = $averageWeeklyBudget;
+  }
+  public function getAverageWeeklyBudget()
+  {
+    return $this->averageWeeklyBudget;
+  }
+  public function setBusinessName($businessName)
+  {
+    $this->businessName = $businessName;
+  }
+  public function getBusinessName()
+  {
+    return $this->businessName;
+  }
+  public function setCurrencyCode($currencyCode)
+  {
+    $this->currencyCode = $currencyCode;
+  }
+  public function getCurrencyCode()
+  {
+    return $this->currencyCode;
+  }
+  public function setCurrentPeriodChargedLeads($currentPeriodChargedLeads)
+  {
+    $this->currentPeriodChargedLeads = $currentPeriodChargedLeads;
+  }
+  public function getCurrentPeriodChargedLeads()
+  {
+    return $this->currentPeriodChargedLeads;
+  }
+  public function setCurrentPeriodConnectedPhoneCalls($currentPeriodConnectedPhoneCalls)
+  {
+    $this->currentPeriodConnectedPhoneCalls = $currentPeriodConnectedPhoneCalls;
+  }
+  public function getCurrentPeriodConnectedPhoneCalls()
+  {
+    return $this->currentPeriodConnectedPhoneCalls;
+  }
+  public function setCurrentPeriodPhoneCalls($currentPeriodPhoneCalls)
+  {
+    $this->currentPeriodPhoneCalls = $currentPeriodPhoneCalls;
+  }
+  public function getCurrentPeriodPhoneCalls()
+  {
+    return $this->currentPeriodPhoneCalls;
+  }
+  public function setCurrentPeriodTotalCost($currentPeriodTotalCost)
+  {
+    $this->currentPeriodTotalCost = $currentPeriodTotalCost;
+  }
+  public function getCurrentPeriodTotalCost()
+  {
+    return $this->currentPeriodTotalCost;
+  }
+  public function setImpressionsLastTwoDays($impressionsLastTwoDays)
+  {
+    $this->impressionsLastTwoDays = $impressionsLastTwoDays;
+  }
+  public function getImpressionsLastTwoDays()
+  {
+    return $this->impressionsLastTwoDays;
+  }
+  public function setPhoneLeadResponsiveness($phoneLeadResponsiveness)
+  {
+    $this->phoneLeadResponsiveness = $phoneLeadResponsiveness;
+  }
+  public function getPhoneLeadResponsiveness()
+  {
+    return $this->phoneLeadResponsiveness;
+  }
+  public function setPreviousPeriodChargedLeads($previousPeriodChargedLeads)
+  {
+    $this->previousPeriodChargedLeads = $previousPeriodChargedLeads;
+  }
+  public function getPreviousPeriodChargedLeads()
+  {
+    return $this->previousPeriodChargedLeads;
+  }
+  public function setPreviousPeriodConnectedPhoneCalls($previousPeriodConnectedPhoneCalls)
+  {
+    $this->previousPeriodConnectedPhoneCalls = $previousPeriodConnectedPhoneCalls;
+  }
+  public function getPreviousPeriodConnectedPhoneCalls()
+  {
+    return $this->previousPeriodConnectedPhoneCalls;
+  }
+  public function setPreviousPeriodPhoneCalls($previousPeriodPhoneCalls)
+  {
+    $this->previousPeriodPhoneCalls = $previousPeriodPhoneCalls;
+  }
+  public function getPreviousPeriodPhoneCalls()
+  {
+    return $this->previousPeriodPhoneCalls;
+  }
+  public function setPreviousPeriodTotalCost($previousPeriodTotalCost)
+  {
+    $this->previousPeriodTotalCost = $previousPeriodTotalCost;
+  }
+  public function getPreviousPeriodTotalCost()
+  {
+    return $this->previousPeriodTotalCost;
+  }
+  public function setTotalReview($totalReview)
+  {
+    $this->totalReview = $totalReview;
+  }
+  public function getTotalReview()
+  {
+    return $this->totalReview;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleAdsHomeservicesLocalservicesV1AccountReport::class, 'Google_Service_Localservices_GoogleAdsHomeservicesLocalservicesV1AccountReport');

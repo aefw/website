@@ -1,59 +1,78 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-vL3DKlwB/ekyJvJBnkqsSh4HE0kF
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Cloudchannel;
+
+class GoogleLongrunningOperation extends \Google\Model
+{
+  public $done;
+  protected $errorType = GoogleRpcStatus::class;
+  protected $errorDataType = '';
+  public $metadata;
+  public $name;
+  public $response;
+
+  public function setDone($done)
+  {
+    $this->done = $done;
+  }
+  public function getDone()
+  {
+    return $this->done;
+  }
+  /**
+   * @param GoogleRpcStatus
+   */
+  public function setError(GoogleRpcStatus $error)
+  {
+    $this->error = $error;
+  }
+  /**
+   * @return GoogleRpcStatus
+   */
+  public function getError()
+  {
+    return $this->error;
+  }
+  public function setMetadata($metadata)
+  {
+    $this->metadata = $metadata;
+  }
+  public function getMetadata()
+  {
+    return $this->metadata;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setResponse($response)
+  {
+    $this->response = $response;
+  }
+  public function getResponse()
+  {
+    return $this->response;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleLongrunningOperation::class, 'Google_Service_Cloudchannel_GoogleLongrunningOperation');

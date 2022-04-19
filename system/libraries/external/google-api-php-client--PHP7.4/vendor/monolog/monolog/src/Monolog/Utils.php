@@ -1,120 +1,196 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php declare(strict_types=1);
+
+/*
+ * This file is part of the Monolog package.
+ *
+ * (c) Jordi Boggiano <j.boggiano@seld.be>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Monolog;
+
+final class Utils
+{
+    const DEFAULT_JSON_FLAGS = JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRESERVE_ZERO_FRACTION | JSON_INVALID_UTF8_SUBSTITUTE | JSON_PARTIAL_OUTPUT_ON_ERROR;
+
+    public static function getClass(object $object): string
+    {
+        $class = \get_class($object);
+
+        return 'c' === $class[0] && 0 === strpos($class, "class@anonymous\0") ? get_parent_class($class).'@anonymous' : $class;
+    }
+
+    public static function substr(string $string, int $start, ?int $length = null): string
+    {
+        if (extension_loaded('mbstring')) {
+            return mb_strcut($string, $start, $length);
+        }
+
+        return substr($string, $start, (null === $length) ? strlen($string) : $length);
+    }
+
+    /**
+     * Makes sure if a relative path is passed in it is turned into an absolute path
+     *
+     * @param string $streamUrl stream URL or path without protocol
+     */
+    public static function canonicalizePath(string $streamUrl): string
+    {
+        $prefix = '';
+        if ('file://' === substr($streamUrl, 0, 7)) {
+            $streamUrl = substr($streamUrl, 7);
+            $prefix = 'file://';
+        }
+
+        // other type of stream, not supported
+        if (false !== strpos($streamUrl, '://')) {
+            return $streamUrl;
+        }
+
+        // already absolute
+        if (substr($streamUrl, 0, 1) === '/' || substr($streamUrl, 1, 1) === ':' || substr($streamUrl, 0, 2) === '\\\\') {
+            return $prefix.$streamUrl;
+        }
+
+        $streamUrl = getcwd() . '/' . $streamUrl;
+
+        return $prefix.$streamUrl;
+    }
+
+    /**
+     * Return the JSON representation of a value
+     *
+     * @param  mixed             $data
+     * @param  int               $encodeFlags  flags to pass to json encode, defaults to DEFAULT_JSON_FLAGS
+     * @param  bool              $ignoreErrors whether to ignore encoding errors or to throw on error, when ignored and the encoding fails, "null" is returned which is valid json for null
+     * @throws \RuntimeException if encoding fails and errors are not ignored
+     * @return string            when errors are ignored and the encoding fails, "null" is returned which is valid json for null
+     */
+    public static function jsonEncode($data, ?int $encodeFlags = null, bool $ignoreErrors = false): string
+    {
+        if (null === $encodeFlags) {
+            $encodeFlags = self::DEFAULT_JSON_FLAGS;
+        }
+
+        if ($ignoreErrors) {
+            $json = @json_encode($data, $encodeFlags);
+            if (false === $json) {
+                return 'null';
+            }
+
+            return $json;
+        }
+
+        $json = json_encode($data, $encodeFlags);
+        if (false === $json) {
+            $json = self::handleJsonError(json_last_error(), $data);
+        }
+
+        return $json;
+    }
+
+    /**
+     * Handle a json_encode failure.
+     *
+     * If the failure is due to invalid string encoding, try to clean the
+     * input and encode again. If the second encoding attempt fails, the
+     * initial error is not encoding related or the input can't be cleaned then
+     * raise a descriptive exception.
+     *
+     * @param  int               $code        return code of json_last_error function
+     * @param  mixed             $data        data that was meant to be encoded
+     * @param  int               $encodeFlags flags to pass to json encode, defaults to JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRESERVE_ZERO_FRACTION
+     * @throws \RuntimeException if failure can't be corrected
+     * @return string            JSON encoded data after error correction
+     */
+    public static function handleJsonError(int $code, $data, ?int $encodeFlags = null): string
+    {
+        if ($code !== JSON_ERROR_UTF8) {
+            self::throwEncodeError($code, $data);
+        }
+
+        if (is_string($data)) {
+            self::detectAndCleanUtf8($data);
+        } elseif (is_array($data)) {
+            array_walk_recursive($data, array('Monolog\Utils', 'detectAndCleanUtf8'));
+        } else {
+            self::throwEncodeError($code, $data);
+        }
+
+        if (null === $encodeFlags) {
+            $encodeFlags = self::DEFAULT_JSON_FLAGS;
+        }
+
+        $json = json_encode($data, $encodeFlags);
+
+        if ($json === false) {
+            self::throwEncodeError(json_last_error(), $data);
+        }
+
+        return $json;
+    }
+
+    /**
+     * Throws an exception according to a given code with a customized message
+     *
+     * @param  int               $code return code of json_last_error function
+     * @param  mixed             $data data that was meant to be encoded
+     * @throws \RuntimeException
+     */
+    private static function throwEncodeError(int $code, $data): void
+    {
+        switch ($code) {
+            case JSON_ERROR_DEPTH:
+                $msg = 'Maximum stack depth exceeded';
+                break;
+            case JSON_ERROR_STATE_MISMATCH:
+                $msg = 'Underflow or the modes mismatch';
+                break;
+            case JSON_ERROR_CTRL_CHAR:
+                $msg = 'Unexpected control character found';
+                break;
+            case JSON_ERROR_UTF8:
+                $msg = 'Malformed UTF-8 characters, possibly incorrectly encoded';
+                break;
+            default:
+                $msg = 'Unknown error';
+        }
+
+        throw new \RuntimeException('JSON encoding failed: '.$msg.'. Encoding: '.var_export($data, true));
+    }
+
+    /**
+     * Detect invalid UTF-8 string characters and convert to valid UTF-8.
+     *
+     * Valid UTF-8 input will be left unmodified, but strings containing
+     * invalid UTF-8 codepoints will be reencoded as UTF-8 with an assumed
+     * original encoding of ISO-8859-15. This conversion may result in
+     * incorrect output if the actual encoding was not ISO-8859-15, but it
+     * will be clean UTF-8 output and will not rely on expensive and fragile
+     * detection algorithms.
+     *
+     * Function converts the input in place in the passed variable so that it
+     * can be used as a callback for array_walk_recursive.
+     *
+     * @param mixed $data Input to check and convert if needed, passed by ref
+     */
+    private static function detectAndCleanUtf8(&$data): void
+    {
+        if (is_string($data) && !preg_match('//u', $data)) {
+            $data = preg_replace_callback(
+                '/[\x80-\xFF]+/',
+                function ($m) {
+                    return utf8_encode($m[0]);
+                },
+                $data
+            );
+            $data = str_replace(
+                ['¤', '¦', '¨', '´', '¸', '¼', '½', '¾'],
+                ['€', 'Š', 'š', 'Ž', 'ž', 'Œ', 'œ', 'Ÿ'],
+                $data
+            );
+        }
+    }
+}

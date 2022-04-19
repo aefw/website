@@ -1,70 +1,89 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-gt9B
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AIPlatformNotebooks;
+
+class RuntimeSoftwareConfig extends \Google\Model
+{
+  public $customGpuDriverPath;
+  public $enableHealthMonitoring;
+  public $idleShutdown;
+  public $idleShutdownTimeout;
+  public $installGpuDriver;
+  public $notebookUpgradeSchedule;
+  public $postStartupScript;
+
+  public function setCustomGpuDriverPath($customGpuDriverPath)
+  {
+    $this->customGpuDriverPath = $customGpuDriverPath;
+  }
+  public function getCustomGpuDriverPath()
+  {
+    return $this->customGpuDriverPath;
+  }
+  public function setEnableHealthMonitoring($enableHealthMonitoring)
+  {
+    $this->enableHealthMonitoring = $enableHealthMonitoring;
+  }
+  public function getEnableHealthMonitoring()
+  {
+    return $this->enableHealthMonitoring;
+  }
+  public function setIdleShutdown($idleShutdown)
+  {
+    $this->idleShutdown = $idleShutdown;
+  }
+  public function getIdleShutdown()
+  {
+    return $this->idleShutdown;
+  }
+  public function setIdleShutdownTimeout($idleShutdownTimeout)
+  {
+    $this->idleShutdownTimeout = $idleShutdownTimeout;
+  }
+  public function getIdleShutdownTimeout()
+  {
+    return $this->idleShutdownTimeout;
+  }
+  public function setInstallGpuDriver($installGpuDriver)
+  {
+    $this->installGpuDriver = $installGpuDriver;
+  }
+  public function getInstallGpuDriver()
+  {
+    return $this->installGpuDriver;
+  }
+  public function setNotebookUpgradeSchedule($notebookUpgradeSchedule)
+  {
+    $this->notebookUpgradeSchedule = $notebookUpgradeSchedule;
+  }
+  public function getNotebookUpgradeSchedule()
+  {
+    return $this->notebookUpgradeSchedule;
+  }
+  public function setPostStartupScript($postStartupScript)
+  {
+    $this->postStartupScript = $postStartupScript;
+  }
+  public function getPostStartupScript()
+  {
+    return $this->postStartupScript;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(RuntimeSoftwareConfig::class, 'Google_Service_AIPlatformNotebooks_RuntimeSoftwareConfig');

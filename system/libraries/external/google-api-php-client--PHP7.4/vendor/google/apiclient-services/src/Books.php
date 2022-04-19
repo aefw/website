@@ -1,166 +1,1581 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-url0HFsb3YbmfIKMUI4=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for Books (v1).
+ *
+ * <p>
+ * The Google Books API allows clients to access the Google Books repository.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://code.google.com/apis/books/docs/v1/getting_started.html" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class Books extends \Google\Service
+{
+  /** Manage your books. */
+  const BOOKS =
+      "https://www.googleapis.com/auth/books";
+
+  public $bookshelves;
+  public $bookshelves_volumes;
+  public $cloudloading;
+  public $dictionary;
+  public $familysharing;
+  public $layers;
+  public $layers_annotationData;
+  public $layers_volumeAnnotations;
+  public $myconfig;
+  public $mylibrary_annotations;
+  public $mylibrary_bookshelves;
+  public $mylibrary_bookshelves_volumes;
+  public $mylibrary_readingpositions;
+  public $notification;
+  public $onboarding;
+  public $personalizedstream;
+  public $promooffer;
+  public $series;
+  public $series_membership;
+  public $volumes;
+  public $volumes_associated;
+  public $volumes_mybooks;
+  public $volumes_recommended;
+  public $volumes_useruploaded;
+
+  /**
+   * Constructs the internal representation of the Books service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://books.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'books';
+
+    $this->bookshelves = new Books\Resource\Bookshelves(
+        $this,
+        $this->serviceName,
+        'bookshelves',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'books/v1/users/{userId}/bookshelves/{shelf}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'shelf' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'source' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'books/v1/users/{userId}/bookshelves',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'source' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->bookshelves_volumes = new Books\Resource\BookshelvesVolumes(
+        $this,
+        $this->serviceName,
+        'volumes',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'books/v1/users/{userId}/bookshelves/{shelf}/volumes',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'shelf' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'showPreorders' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'source' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'startIndex' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->cloudloading = new Books\Resource\Cloudloading(
+        $this,
+        $this->serviceName,
+        'cloudloading',
+        [
+          'methods' => [
+            'addBook' => [
+              'path' => 'books/v1/cloudloading/addBook',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'drive_document_id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'mime_type' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'name' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'upload_client_token' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'deleteBook' => [
+              'path' => 'books/v1/cloudloading/deleteBook',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'volumeId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'updateBook' => [
+              'path' => 'books/v1/cloudloading/updateBook',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],
+          ]
+        ]
+    );
+    $this->dictionary = new Books\Resource\Dictionary(
+        $this,
+        $this->serviceName,
+        'dictionary',
+        [
+          'methods' => [
+            'listOfflineMetadata' => [
+              'path' => 'books/v1/dictionary/listOfflineMetadata',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'cpksver' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->familysharing = new Books\Resource\Familysharing(
+        $this,
+        $this->serviceName,
+        'familysharing',
+        [
+          'methods' => [
+            'getFamilyInfo' => [
+              'path' => 'books/v1/familysharing/getFamilyInfo',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'source' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'share' => [
+              'path' => 'books/v1/familysharing/share',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'docId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'source' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'volumeId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'unshare' => [
+              'path' => 'books/v1/familysharing/unshare',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'docId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'source' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'volumeId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->layers = new Books\Resource\Layers(
+        $this,
+        $this->serviceName,
+        'layers',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'books/v1/volumes/{volumeId}/layersummary/{summaryId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'volumeId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'summaryId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'contentVersion' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'source' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'books/v1/volumes/{volumeId}/layersummary',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'volumeId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'contentVersion' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'source' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->layers_annotationData = new Books\Resource\LayersAnnotationData(
+        $this,
+        $this->serviceName,
+        'annotationData',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'books/v1/volumes/{volumeId}/layers/{layerId}/data/{annotationDataId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'volumeId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'layerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'annotationDataId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'contentVersion' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'allowWebDefinitions' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'h' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'locale' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'scale' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'source' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'w' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'books/v1/volumes/{volumeId}/layers/{layerId}/data',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'volumeId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'layerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'contentVersion' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'annotationDataId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'h' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'locale' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'scale' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'source' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'updatedMax' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'updatedMin' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'w' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->layers_volumeAnnotations = new Books\Resource\LayersVolumeAnnotations(
+        $this,
+        $this->serviceName,
+        'volumeAnnotations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'books/v1/volumes/{volumeId}/layers/{layerId}/annotations/{annotationId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'volumeId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'layerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'annotationId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'locale' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'source' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'books/v1/volumes/{volumeId}/layers/{layerId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'volumeId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'layerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'contentVersion' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'endOffset' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'endPosition' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'locale' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'showDeleted' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'source' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'startOffset' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'startPosition' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'updatedMax' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'updatedMin' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'volumeAnnotationsVersion' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->myconfig = new Books\Resource\Myconfig(
+        $this,
+        $this->serviceName,
+        'myconfig',
+        [
+          'methods' => [
+            'getUserSettings' => [
+              'path' => 'books/v1/myconfig/getUserSettings',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'country' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'releaseDownloadAccess' => [
+              'path' => 'books/v1/myconfig/releaseDownloadAccess',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'cpksver' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'volumeIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+                'locale' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'source' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'requestAccess' => [
+              'path' => 'books/v1/myconfig/requestAccess',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'cpksver' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'nonce' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'source' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'volumeId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'licenseTypes' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'locale' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'syncVolumeLicenses' => [
+              'path' => 'books/v1/myconfig/syncVolumeLicenses',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'cpksver' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'nonce' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'source' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'features' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'includeNonComicsSeries' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'locale' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'showPreorders' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'volumeIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],'updateUserSettings' => [
+              'path' => 'books/v1/myconfig/updateUserSettings',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],
+          ]
+        ]
+    );
+    $this->mylibrary_annotations = new Books\Resource\MylibraryAnnotations(
+        $this,
+        $this->serviceName,
+        'annotations',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'books/v1/mylibrary/annotations/{annotationId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'annotationId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'source' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'books/v1/mylibrary/annotations',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'annotationId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'country' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'showOnlySummaryInResponse' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'source' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'books/v1/mylibrary/annotations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'contentVersion' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'layerId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'layerIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'showDeleted' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'source' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'updatedMax' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'updatedMin' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'volumeId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'summary' => [
+              'path' => 'books/v1/mylibrary/annotations/summary',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'layerIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+                'volumeId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'books/v1/mylibrary/annotations/{annotationId}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'annotationId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'source' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->mylibrary_bookshelves = new Books\Resource\MylibraryBookshelves(
+        $this,
+        $this->serviceName,
+        'bookshelves',
+        [
+          'methods' => [
+            'addVolume' => [
+              'path' => 'books/v1/mylibrary/bookshelves/{shelf}/addVolume',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'shelf' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'volumeId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'reason' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'source' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'clearVolumes' => [
+              'path' => 'books/v1/mylibrary/bookshelves/{shelf}/clearVolumes',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'shelf' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'source' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'books/v1/mylibrary/bookshelves/{shelf}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'shelf' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'source' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'books/v1/mylibrary/bookshelves',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'source' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'moveVolume' => [
+              'path' => 'books/v1/mylibrary/bookshelves/{shelf}/moveVolume',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'shelf' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'volumeId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'volumePosition' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                  'required' => true,
+                ],
+                'source' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'removeVolume' => [
+              'path' => 'books/v1/mylibrary/bookshelves/{shelf}/removeVolume',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'shelf' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'volumeId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'reason' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'source' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->mylibrary_bookshelves_volumes = new Books\Resource\MylibraryBookshelvesVolumes(
+        $this,
+        $this->serviceName,
+        'volumes',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'books/v1/mylibrary/bookshelves/{shelf}/volumes',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'shelf' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'country' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'projection' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'q' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'showPreorders' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'source' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'startIndex' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->mylibrary_readingpositions = new Books\Resource\MylibraryReadingpositions(
+        $this,
+        $this->serviceName,
+        'readingpositions',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'books/v1/mylibrary/readingpositions/{volumeId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'volumeId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'contentVersion' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'source' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'setPosition' => [
+              'path' => 'books/v1/mylibrary/readingpositions/{volumeId}/setPosition',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'volumeId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'position' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'timestamp' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'action' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'contentVersion' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'deviceCookie' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'source' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->notification = new Books\Resource\Notification(
+        $this,
+        $this->serviceName,
+        'notification',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'books/v1/notification/get',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'notification_id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'locale' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'source' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->onboarding = new Books\Resource\Onboarding(
+        $this,
+        $this->serviceName,
+        'onboarding',
+        [
+          'methods' => [
+            'listCategories' => [
+              'path' => 'books/v1/onboarding/listCategories',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'locale' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'listCategoryVolumes' => [
+              'path' => 'books/v1/onboarding/listCategoryVolumes',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'categoryId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'locale' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxAllowedMaturityRating' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->personalizedstream = new Books\Resource\Personalizedstream(
+        $this,
+        $this->serviceName,
+        'personalizedstream',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'books/v1/personalizedstream/get',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'locale' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxAllowedMaturityRating' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'source' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->promooffer = new Books\Resource\Promooffer(
+        $this,
+        $this->serviceName,
+        'promooffer',
+        [
+          'methods' => [
+            'accept' => [
+              'path' => 'books/v1/promooffer/accept',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'androidId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'device' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'manufacturer' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'model' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'offerId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'product' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'serial' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'volumeId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'dismiss' => [
+              'path' => 'books/v1/promooffer/dismiss',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'androidId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'device' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'manufacturer' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'model' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'offerId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'product' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'serial' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'books/v1/promooffer/get',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'androidId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'device' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'manufacturer' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'model' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'product' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'serial' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->series = new Books\Resource\Series(
+        $this,
+        $this->serviceName,
+        'series',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'books/v1/series/get',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'series_id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->series_membership = new Books\Resource\SeriesMembership(
+        $this,
+        $this->serviceName,
+        'membership',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'books/v1/series/membership/get',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'series_id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'page_size' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'page_token' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->volumes = new Books\Resource\Volumes(
+        $this,
+        $this->serviceName,
+        'volumes',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'books/v1/volumes/{volumeId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'volumeId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'country' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'includeNonComicsSeries' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'partner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'projection' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'source' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'user_library_consistent_read' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'books/v1/volumes',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'q' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'download' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'langRestrict' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'libraryRestrict' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxAllowedMaturityRating' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'partner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'printType' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'projection' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'showPreorders' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'source' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'startIndex' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->volumes_associated = new Books\Resource\VolumesAssociated(
+        $this,
+        $this->serviceName,
+        'associated',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'books/v1/volumes/{volumeId}/associated',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'volumeId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'association' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'locale' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxAllowedMaturityRating' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'source' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->volumes_mybooks = new Books\Resource\VolumesMybooks(
+        $this,
+        $this->serviceName,
+        'mybooks',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'books/v1/volumes/mybooks',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'acquireMethod' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'country' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'locale' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'processingState' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'source' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'startIndex' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->volumes_recommended = new Books\Resource\VolumesRecommended(
+        $this,
+        $this->serviceName,
+        'recommended',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'books/v1/volumes/recommended',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'locale' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxAllowedMaturityRating' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'source' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'rate' => [
+              'path' => 'books/v1/volumes/recommended/rate',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'rating' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'volumeId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'locale' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'source' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->volumes_useruploaded = new Books\Resource\VolumesUseruploaded(
+        $this,
+        $this->serviceName,
+        'useruploaded',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'books/v1/volumes/useruploaded',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'locale' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'processingState' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'source' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'startIndex' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'volumeId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Books::class, 'Google_Service_Books');

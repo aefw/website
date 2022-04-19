@@ -1,81 +1,131 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ShoppingContent;
+
+class AccountsCustomBatchRequestEntry extends \Google\Collection
+{
+  protected $collection_key = 'labelIds';
+  protected $accountType = Account::class;
+  protected $accountDataType = '';
+  public $accountId;
+  public $batchId;
+  public $force;
+  public $labelIds;
+  protected $linkRequestType = AccountsCustomBatchRequestEntryLinkRequest::class;
+  protected $linkRequestDataType = '';
+  public $merchantId;
+  public $method;
+  public $overwrite;
+  public $view;
+
+  /**
+   * @param Account
+   */
+  public function setAccount(Account $account)
+  {
+    $this->account = $account;
+  }
+  /**
+   * @return Account
+   */
+  public function getAccount()
+  {
+    return $this->account;
+  }
+  public function setAccountId($accountId)
+  {
+    $this->accountId = $accountId;
+  }
+  public function getAccountId()
+  {
+    return $this->accountId;
+  }
+  public function setBatchId($batchId)
+  {
+    $this->batchId = $batchId;
+  }
+  public function getBatchId()
+  {
+    return $this->batchId;
+  }
+  public function setForce($force)
+  {
+    $this->force = $force;
+  }
+  public function getForce()
+  {
+    return $this->force;
+  }
+  public function setLabelIds($labelIds)
+  {
+    $this->labelIds = $labelIds;
+  }
+  public function getLabelIds()
+  {
+    return $this->labelIds;
+  }
+  /**
+   * @param AccountsCustomBatchRequestEntryLinkRequest
+   */
+  public function setLinkRequest(AccountsCustomBatchRequestEntryLinkRequest $linkRequest)
+  {
+    $this->linkRequest = $linkRequest;
+  }
+  /**
+   * @return AccountsCustomBatchRequestEntryLinkRequest
+   */
+  public function getLinkRequest()
+  {
+    return $this->linkRequest;
+  }
+  public function setMerchantId($merchantId)
+  {
+    $this->merchantId = $merchantId;
+  }
+  public function getMerchantId()
+  {
+    return $this->merchantId;
+  }
+  public function setMethod($method)
+  {
+    $this->method = $method;
+  }
+  public function getMethod()
+  {
+    return $this->method;
+  }
+  public function setOverwrite($overwrite)
+  {
+    $this->overwrite = $overwrite;
+  }
+  public function getOverwrite()
+  {
+    return $this->overwrite;
+  }
+  public function setView($view)
+  {
+    $this->view = $view;
+  }
+  public function getView()
+  {
+    return $this->view;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AccountsCustomBatchRequestEntry::class, 'Google_Service_ShoppingContent_AccountsCustomBatchRequestEntry');

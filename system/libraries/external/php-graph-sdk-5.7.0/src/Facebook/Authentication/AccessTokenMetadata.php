@@ -1,110 +1,390 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPq05b6+Js6n06iK1JFS5gO8I6hAGOCHLaQp8CdvpWz2erxAMgLv0zQIGFhtGmO9qHgLYmgZD
-Ul/z2v6B8NYx6fELXhoSHW42i01kZsAxpRQl26rYJTZiWobDz7oL7WonGHN33qv+PQlSM49PZJ1e
-ScDaBaPfyvgdiPVGOwfc7Ru2yqCDeJ9xhsGnm9mkeo5rV0D/ZH+z0QqWgvA4OXiLsVJ7sDTyNsdR
-Y9rg/yAOn/vAYmQ8q/QoM5xmkZEIqDkcVL1tCvTe3C9sr87o5tQZcz88EwwyLUVvsid3kSxXEHjC
-p7FJSbDOvwYRFk4MNW0l27i73wiqMBTRdA6J09jfX9fvAAq+pXf1HLagYbTer0FjKz50lg7MVbRc
-pKMkzAOuOUFajkIR0k271ZsF4NCFtOJ34UNceeDW3u0Tk+6ktoioz0lVoBhid9cGXuxpc319KZjj
-8ePUResQ/o1Hi8fOdi8MlH83Tg/y4REV9RNkGt/+lIdz3LYjFpP8YpWu8TAUiyEFlV4n4z1EXL4W
-5txDb6bvW5LlwMovrp6AGC3l5ekFxGXJKHEQKElpf3DuEhg2BHAhwNIYsHKB/Z1LL0r6iOjr4NJL
-GvfhOiRezsjWE94HS7RFgj4Wq6A4P7UtbX+Ke8z7qOSoz7qL6M4w84PthaOV0Pw6/4ru/tWX915T
-fy0i8+b7Uy3l7mjKBA3AyUWWS23ejb1YjISSeuLHtpkJtX+8m5bGucBU1E+7zYerBF39kx/DcyPA
-yfaD14wZzqjP1+9dhLQC772sDMIOvb/fY5ytX+qDWpEvM5CvZxhERPO+vm6xxwtYDC52GuK/Z0B9
-43ZBkkiKwzGOCG1RAroMkov9u+JLgHz1pf9foNFbz4LiRngRpKwX4MCmRSvSguFxHwnhPSAu6T0d
-DVVtV2Vi5HUtCanC5foNqOrNDtmMmffrukhMwwHXu67kqLKQ1/CDvA2uIDylalgBxM7sYATWOzsa
-ziHmJQQoLfkb4kIfBM94lDihy/wNNn8xVOsP2NTy+bAgsg/bNXku2rrZQHEOdVw0il15Zw1/7BSs
-1c5FSMk4N+YBCT+wH5As5OW/C7OE+BT7QJ6IDoh38HtEwMA1lZP3Y0Zejk/FgICvTneJdruR/n/j
-zejYm5bs8Ho7wyNa9d6qAzKXCfnnkJ0CnjntTb5wd3/CXfKePKfYdfXHm1HX8CZvwMxGssPr0+3T
-CA9g87qQOnGlvpwtJ+Bt913CoK0pekkF60FJU7/oeezL3phiysgWj+wYtIiYKBoVKtC9U0Js4cHf
-CdhVloTj0b0KcLAkuiJ+Edg2xXTzAm8CRyoJcxrv51JHkQpY1KDfgD8rb/Jr3BpwkA4KftFZIxTK
-G3zxQbGdceMEmyZrkVyKekrB/x/yXzLzUMpovZzQsPhGRksvRS0VD6gxUokomRupw8gVYKWHhd+F
-yF102gnAI76HNTYCyltTRPdgbCgi/KkLkXSiUpl7p7kZ1rnrCWDvjdZoTotccsf1uARQKNjh5WFL
-0+ex5sgvsfqsLPiM49P7gNNGF+0SIGa1TYXNHc+bum4qhjvXtfSqCB+EAJftEdkqT3IBCc9c4b9+
-nLQbJ6EfFGamz9MBnYCc8Brr9Sis1x9KuHUxGEqRiF+YHYZy2rFMa4HPBsPdj1+0t2ZTH7Q3GtSW
-CfSWNwxQ0mithivzZ3rLPrRvy1lL0ZvCqdEXcLK0ea9hLGWni9ZpMIPnXF5tfC92vgdOifMj2r0V
-lxSzGZz4lptXaPJByJyaMnOalH0Q84F6i7X4l6+yDFulUBUwAFdV7qbJLSLNzP2KUv11SjGefuXa
-nonWqEMBs4IfPcvSDwZwqnSspPCLQSzNY6Bff3PFp4/XW6mmpIQOkNuVzZrHFGA11cFfo4cZ10uE
-sFS95716XLuFHpWG38NRv3HkH+quhl3Gay3yGhSi5i3SJTDqc+/x8vKYj2CKZha54Jf+kFPgeJUm
-gR14gP/W86bMfyZUVIcqGpYE0l1X3LlhhwC78kDxnO8i/cw+hIoG80/OgDaHpKBHq9w6MixXryR+
-6k9dh/Ttucp/4vYICChpbb7lQhzvzZyqqNRsT/KI60oBSjgXNX3bgVZJ5qBq7aHg8JtF2LEkUHhR
-w44+c6gyFMrbod4+yAmfpuXCwo04Jr5HZfJvX8INGZiMwLP0aC0D6dCR5pEaNA2sErnwP4Kvv+4c
-cqtI4GTfpMU8aqtWaUOj/Sr/9oYc/TtSXV5Rdq797P4vy5cjvt7OK8Ae/w5aDWaS1Bnvyze0RABy
-GVkugIYo2sGgznd890TVq9sXWZSN/EE2LnfmoE/5EDc/r2T6M611NmHhqj0Qds8NsPejY6T80rnL
-eDASrBeiK4RwZO1cCsKwdMfVfHhycmy0LeW3DFLa/4cvUmN/OTpf+mxhwFsB+UqhTKcpjf6HE7r1
-VvNhiXCSX198i6OUUtKpfBWqBY3CZIjs6dU7JpEWiltQ47P0ge6Lpo0+ZIe9dOY20JCWz8e1/4bc
-a5X0A5ApQ+i5FyQFjj2Id4lVZFm5UM+ma0mrL8pJd5sAInTApeH9m1OvczUj2Ennyjlk2PG/FW3+
-krVM0U4HUxWgeFRn2ZP4bQ1YJx3OHoovqytMGZRLA3M9Sm1vvlV7lkFkYuarj0gv2PwPFuU53WLr
-LGVng3cpfz3jtbxbo5tGg5cLRw/xj2InlKLgViXgWLeE8W8E94lnS3/Bo5wIyGxXMjsGkWjjw0ju
-D/ju7Zb10IQuYvmcbLZ+Y6FYRy9dp6O0oimPRYpkVIRt4HSnT483yg5gscxVTYxemDJIWymIc/qa
-cd/scayMez5IbvupFpwVAYjCn05XhjVFbihG6vsjqcJGLIDj/VWKThicEF9yYixdsRgVAc9Y4mgB
-r54sWN8BVmjul9XOVhQMOnBVc95MtO26Et168TQwcan3/pX+HCG4NH4twYQWvs/bXfDn4ozpbOLE
-QJ0EdUka1FgxcNPtaZQHEtWb1dkzKtVvnW1ZLmy4sJe0PDchLF9k8Scu+T3lF/3b3JLpoQFQZfY3
-2o/Yq53yfrHMh/hRsnDSwXVLh2lMsGBzj/T51JXQAvTldNLzOLD9UrMuUteBRxwjAHQaiaMpyjg/
-ThjkYs/nYAOzEpBv8SBFlS73pOKGAgkh2gI3sEZdZUH8jTRf66b32/Ce2VETX8Gv3oaS5LCA2uqN
-gYxMwNgxl5HN2+2wy9NZVR2H+sM4cEgAQcczUxtgRVI4MzRDjSaOceBtfHenU24jTx1Ptx5AnL+Z
-vU4all7B1Z2/VIyb3ks2BddArrV9ye1ylBtEBJ0OT3Gx27WTTKK3uYAE8JsMUo9QSD3MzGP4KMPp
-nIM0M6ICaur8o4gT1/oSvRIz6omEEHf5OB/dQ78F7A5ws3XEbgs6G/SIszHeHDTl/YLhrspfLNjB
-4/Ji70gRW3415jLXCT4AFh2Pd1/aesXOKh5hXflKkIrTEt1g2qoU2fa7lShGOiNYRsBULe6RTNm7
-MTnWrYrcLMpHRwuO/Svvgp2kwrv8XMx9NQQK7x7i1Vr0hpVxetYCXlHuqbCWL3vEr2HvjYPM0O2n
-kUv35zhoAxhU6OgUbxfx7c2YmcqFcGTTnA/mJP/4uwFIw3hCJVzrXt9IAla1mEj3IUBPZTIghcsH
-eh3m50W8YTbVsDNmpwT6syIsAyyjA036m5rqKcJQn6cIUIPDAWndE8OvcK/1ZpNv/glVjxMH4YLC
-eUVxBsGjbUqfFaMz35UEweAhKw+LmDkSgTj8Rz6ptAQ6t6PWIoCUyAXjCQsS9j7H1TWWrYrvhAiX
-/zqEAFJfAEHxnmAOd3bE7LUYHIOJXSlB3J1bX8laUcw1m8yqDPpJHxVY3vdd0U/ZrNFK/rm+ncOc
-BfSBVgMrj3Qs3w6jY1RRjwLtORhD+pdWArsbxR3+JiSZUORbWNtZzeKj5hZs653Ee90KpkihNKlG
-1PPy7d6FKq2V2jvdkNmw5iLTB28u+9RPVFhygPqpPSua+QLb5L8c9XHaxi0UJEwqsTcS8lVcAOjD
-vPM8uYzAMnh1LZczSxDbtM49G+iGhc3FSMykcaTZbPSRA3jRKS74AAHCdYzSPgmnGp1Qt+Z+Mvar
-kjHnJmMzvKdb8X1t086Fe2Olg8erFIpaWlBQ8ogfwEGvZZdz6HmaIaEeE8YvPlsWJ+eFzkk4/2I5
-Wqrh7jJJaM9Rn+wUiMYArQWVUK1rt4miSaAvbYLQg+S4eIQiYJ/I9Psi9nVaQ4uXEZdfGNKoVzu3
-1QEwf348miY0dcisv8kOk73Q/6PRvmc2b50dmgCO9yI4jd4ZwCe8yigEdKAADMwaed3wgp99jsJT
-Fw/bAZKN/bZMKVVPWCWq5ZOL2NoZsURp/tT05ue69rMC6gpdWHeU/N6ngSImxon+o/G2t4ioJxwS
-IwL9jvidm+5sIlhdw6fRIAjP5PpMGQWLKDeaH4GJTUkEIKxdxpcllAtK36iUCw2VCKtC2rQiuDdw
-SHHGPUoNtpMY4hm8c1uLa9mP7ccEpx1qmS45xoahlHgqqdWXfrYeMCtCSLqSFmKk0TYj1joTocAP
-+AHhiHXDri9TCYYvpx6prseF/3NKWgA0dw/4OaajSO0rU0xpEs8SrO2Shb4XbOpjIlIXperWs7mr
-EjRQi0P7MeoIFhhd/54HZAPlt3Y7aHfUqydlh+A+lHX4tj2oSFtBfwAdMNcXzP9LcEID5H2ECAft
-7cj+Jy+SZK0v5OS93wO447001LIGL/TbxHbA9fDdKVGCvEhpSBsHGJlZSCauDNSw/aI9c5zRjs1P
-T7LWsO1vegqgRS+z6eKdPnBttei+vB3ou7vXCrqrfYg8p7P/byf/bSLkErmE6zkg4vwMvbRgMeQK
-MRkyvtOpplD7jnxSNDAGE/xw9u7/TeWq+fA+06XBY81r19VQ/iTKA39hCznIBlWXBw5Te5K1i1S9
-OMpnYUc/RZH+tMPqSKOR76AoFcicwgfb1VLTjPRjCyIeam8bv4kGcFrOWPNtEK00YnFW3xDsWIDn
-ruh5uDBfQXPd2sJDv/4NQ26Vnb1d5MJpDR+lJQfA/xJCiQiUYeI63rR0uvSZzM0jkF71mEFZlWTS
-Ol3DKab98B4EtlOzl/Zp6yZVdsX9fzw03aJl0lJvU1USLb9yzDl6K+z2qa1Y3Sgnp/bhMsfMixjb
-QdJ1GF4r7OTz30WkPMnsYQme50ueW1O/unvmGBrShYwVrluhudOIT4uKwTDk9YZCIjMtTFveu8nR
-guYkLpFJp3Mtq/5a68d6drk9gcT/z5AcKDLBwMHOxTRTaxUVY/MFl5Hob2MzGotNBZhxcqxWw4kN
-HXsSASSGXib9WmsK/qC0xSv1CJLK25hZDxnzuYFKZV7Z6eRDI29c7IbNoIERJmPQt4O3yTqfqQEf
-RumWmZlpRVAQpoUEnqwFLv1ekVfYQu/vXOhNQFeOK1T3ITPU2nXkTgiogiqXOsB5KAjh2D7ZTEkT
-a52v55K8wXZb6HwE+PxtuImYW1nNzv/c6XI6d7BwJPovxXJGcaYX8k6jLQOxDFyn0/eoL9/4uWPk
-qzfZ7jG/g8UfpQQqM2/Pvu54LpBiL4jOo2vCeUPWVu9OOKxhpIiMBzG5dxrcN//T7VXdagembewT
-E9VbVHyBLHlX0Lbw1kbc34f/g9+dD0SKzKh7jLM1a0x5A0WhuImimkX8EZRuD/6oKqP8vvk9qvDx
-/SR0x379Igol2fj+dQt5l1B96Rz+qsGl5vBjXuiODWpaazp7f8uhNTZikJuEiVcECizMdqEHEORN
-Jy8LyW61SnlMkmlEdSAP4qWawYfpTsSjKWizixmkYW5u/ePa3f03rkz7RPM37IPCQkMhcWA3fm0x
-Wv5jFK8APCZV69CBe84RleuK/+zs+wYXfF3ayZH00CIUIUU+EWEemlEqXTPvmhE/nDuoDd+Ppkjw
-qHYnB2jjlNEBSexLvITfSNiwsSkWsnOY5NtBYKIdBbyDQa2avvrRi9s1BdfnL2TxINDF+32KehxI
-h0DZhsXmt9xqWiaMedBFTdia6L9h4zjFDIdwvjg3B20rr/YOZ/M9ifm/bBgLu54PNeTc33shlJi7
-GxVIu+R58DGEVg8CiZdCFJr+XLlizIvMhzPGixjOYOP6e8EXWCQc4bzQqh5EQwwdz+Qs+D18l4ZF
-q23SxEM3/HYr1xq+4aYW0/oq+TnDjIonVh437nzHM6kF4788uNB0cIwL8j3HFcF/wfZydbc/m778
-iPEEJPkWO8AyxSvV/ZBjYhaPTI2cKUojrV+n5dEg95FUSEu0kYxxLJ9pyisj3YtUa7sOjLRteAhz
-rGb8G38bFVo5LST91wQfvv2mB9t8sYixQDD9K2KcaZho6ltKbz0ek0f1mob7BW2LX/J2pMWR9FHu
-9aArdM88dnulSD3DhZOk0yle0Jw0xW+Wd1a+jFIJ8mni1UVrccd67yp2HBWYqiutucsqywNdgesR
-1mfgwZ7+sJfPjvmDSwRaco+OUdUA3XZ4mig+ZHXeY+5ZiMqVK2Wb7uCHsmPtRNqFAEzxCuP2Kshi
-IulnQ5ee8CV3a6/Qlv/+YphxAa99Q92xEvx6Uw96pGtHzfsIJbVnYDdyd2Q9/aL25IPy7U40WhY7
-W/Br/dZumtclTzW00Kb5WO0YC/q50IoEQAHn0SYAn18LUig7aB7oYkqsnus3g1LGvautGXGBabfK
-fi+0Z5g54Mkfhu7xzUDkWb8ufhkCC8yBGBP6zYLmP/9H5Ddk/NMvSWmFdkYG1AfTiznhtsiKbcY+
-n7C3Zb/Tee7uBigHtvMYFXoz75Ob//rAmJeHMEa0k6If2fINthjicevD2rWewdfR4TTrOc67tSZq
-3mxybp/na4Rfm5vam+M3ARhSev5pJ2FbIDl9C2mEYMmh/jepbkEMWjYNWSqe3ZM6KPlqYIn7Sx+6
-0SAatFGgsK+tKjsq+Qe4ey7VuA6aS3MJNZtUg3u0W7MqK6iHi2h+IbG/vqOwODW1kZlzv5AaYbLm
-Ru28SZiBbyDDXnhtjuiPWqyoa1RVfLRHvLBPTiC9ZeNewpIkOn6Qvj7K7Vamglk6XTSmJ8L+roo7
-OmcBt+bQ5TkYsXIqYi+MTlOHGz/87o6Cih6l9GClm2FUrrQJH2bj0GLrHhR0BR1fBHU2dQxQLFhP
-rcRH7z7Tmckv/YD9l6jIsjusIu4cBAaKeS27UOighR2JdESeTa/IhxTEv77tQw1w4oiH4QQP7j6K
-Pc5Qz+irSXiraXcUbqvJGyyt7yMjRzR0CoqgV7x/C6MaHFzE3XFYD6RhsvHg0sVIVroT3+5R4LAl
-FqTPDnkYgZCJcdY/6tTa8NjXeVcXP87Y7vx7m2WECTyI8B9wPHEudhGgmIm/HziuYaX2cejRdS36
-uVqWIO13eUDiT1FVjI3T5IF13INYVoxnsTg1NcTAz7FgdzuvC2rX+4EYi/PK/HXs6/6eeQLiFLlJ
-MRjcaXNNtgoqp7w05wnNMyvnK58vPPBXPOEHYwMd8UAXwAfyxq08YY2MyPfdAnCh+sSw9e+jqJjM
-fgz+dh9XVKe6LXXjlIiDDXc6PfaEVj7kLXZo6QZzllA4tJFYGe37FLzAzgghLeKgwzl/u6widXEn
-VvcVPjYSXnnkGg8WHa5ZE1dkTCkbOV0qfjxhCIRnXT6KW/rmZg1Cz+Oo+IPQjsN2oYdPwx8fpG04
-5Bpq3jkOGWH9X5k1/zchZ1vCZGHylIUIu1BaldS6DkaqYAFFrDSVhUNWRrrmeG2E2VAZsGIrvikP
-ZHdAl282+roanWOu6hmkAtLyxATomrWnp6+uRnhrAWMUDbSW3tW0WOIV7decTK8Iztp0oSknVqbK
-iQIvHXVuyriPzo92kj1I5Xyq2VfECdZKJtce+08Fq0==
+<?php
+/**
+ * Copyright 2017 Facebook, Inc.
+ *
+ * You are hereby granted a non-exclusive, worldwide, royalty-free license to
+ * use, copy, modify, and distribute this software in source code or binary
+ * form for use in connection with the web services and APIs provided by
+ * Facebook.
+ *
+ * As with any software that integrates with the Facebook platform, your use
+ * of this software is subject to the Facebook Developer Principles and
+ * Policies [http://developers.facebook.com/policy/]. This copyright notice
+ * shall be included in all copies or substantial portions of the software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+ * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+ *
+ */
+namespace Facebook\Authentication;
+
+use Facebook\Exceptions\FacebookSDKException;
+
+/**
+ * Class AccessTokenMetadata
+ *
+ * Represents metadata from an access token.
+ *
+ * @package Facebook
+ * @see     https://developers.facebook.com/docs/graph-api/reference/debug_token
+ */
+class AccessTokenMetadata
+{
+    /**
+     * The access token metadata.
+     *
+     * @var array
+     */
+    protected $metadata = [];
+
+    /**
+     * Properties that should be cast as DateTime objects.
+     *
+     * @var array
+     */
+    protected static $dateProperties = ['expires_at', 'issued_at'];
+
+    /**
+     * @param array $metadata
+     *
+     * @throws FacebookSDKException
+     */
+    public function __construct(array $metadata)
+    {
+        if (!isset($metadata['data'])) {
+            throw new FacebookSDKException('Unexpected debug token response data.', 401);
+        }
+
+        $this->metadata = $metadata['data'];
+
+        $this->castTimestampsToDateTime();
+    }
+
+    /**
+     * Returns a value from the metadata.
+     *
+     * @param string $field   The property to retrieve.
+     * @param mixed  $default The default to return if the property doesn't exist.
+     *
+     * @return mixed
+     */
+    public function getField($field, $default = null)
+    {
+        if (isset($this->metadata[$field])) {
+            return $this->metadata[$field];
+        }
+
+        return $default;
+    }
+
+    /**
+     * Returns a value from the metadata.
+     *
+     * @param string $field   The property to retrieve.
+     * @param mixed  $default The default to return if the property doesn't exist.
+     *
+     * @return mixed
+     *
+     * @deprecated 5.0.0 getProperty() has been renamed to getField()
+     * @todo v6: Remove this method
+     */
+    public function getProperty($field, $default = null)
+    {
+        return $this->getField($field, $default);
+    }
+
+    /**
+     * Returns a value from a child property in the metadata.
+     *
+     * @param string $parentField The parent property.
+     * @param string $field       The property to retrieve.
+     * @param mixed  $default     The default to return if the property doesn't exist.
+     *
+     * @return mixed
+     */
+    public function getChildProperty($parentField, $field, $default = null)
+    {
+        if (!isset($this->metadata[$parentField])) {
+            return $default;
+        }
+
+        if (!isset($this->metadata[$parentField][$field])) {
+            return $default;
+        }
+
+        return $this->metadata[$parentField][$field];
+    }
+
+    /**
+     * Returns a value from the error metadata.
+     *
+     * @param string $field   The property to retrieve.
+     * @param mixed  $default The default to return if the property doesn't exist.
+     *
+     * @return mixed
+     */
+    public function getErrorProperty($field, $default = null)
+    {
+        return $this->getChildProperty('error', $field, $default);
+    }
+
+    /**
+     * Returns a value from the "metadata" metadata. *Brain explodes*
+     *
+     * @param string $field   The property to retrieve.
+     * @param mixed  $default The default to return if the property doesn't exist.
+     *
+     * @return mixed
+     */
+    public function getMetadataProperty($field, $default = null)
+    {
+        return $this->getChildProperty('metadata', $field, $default);
+    }
+
+    /**
+     * The ID of the application this access token is for.
+     *
+     * @return string|null
+     */
+    public function getAppId()
+    {
+        return $this->getField('app_id');
+    }
+
+    /**
+     * Name of the application this access token is for.
+     *
+     * @return string|null
+     */
+    public function getApplication()
+    {
+        return $this->getField('application');
+    }
+
+    /**
+     * Any error that a request to the graph api
+     * would return due to the access token.
+     *
+     * @return bool|null
+     */
+    public function isError()
+    {
+        return $this->getField('error') !== null;
+    }
+
+    /**
+     * The error code for the error.
+     *
+     * @return int|null
+     */
+    public function getErrorCode()
+    {
+        return $this->getErrorProperty('code');
+    }
+
+    /**
+     * The error message for the error.
+     *
+     * @return string|null
+     */
+    public function getErrorMessage()
+    {
+        return $this->getErrorProperty('message');
+    }
+
+    /**
+     * The error subcode for the error.
+     *
+     * @return int|null
+     */
+    public function getErrorSubcode()
+    {
+        return $this->getErrorProperty('subcode');
+    }
+
+    /**
+     * DateTime when this access token expires.
+     *
+     * @return \DateTime|null
+     */
+    public function getExpiresAt()
+    {
+        return $this->getField('expires_at');
+    }
+
+    /**
+     * Whether the access token is still valid or not.
+     *
+     * @return boolean|null
+     */
+    public function getIsValid()
+    {
+        return $this->getField('is_valid');
+    }
+
+    /**
+     * DateTime when this access token was issued.
+     *
+     * Note that the issued_at field is not returned
+     * for short-lived access tokens.
+     *
+     * @see https://developers.facebook.com/docs/facebook-login/access-tokens#debug
+     *
+     * @return \DateTime|null
+     */
+    public function getIssuedAt()
+    {
+        return $this->getField('issued_at');
+    }
+
+    /**
+     * General metadata associated with the access token.
+     * Can contain data like 'sso', 'auth_type', 'auth_nonce'.
+     *
+     * @return array|null
+     */
+    public function getMetadata()
+    {
+        return $this->getField('metadata');
+    }
+
+    /**
+     * The 'sso' child property from the 'metadata' parent property.
+     *
+     * @return string|null
+     */
+    public function getSso()
+    {
+        return $this->getMetadataProperty('sso');
+    }
+
+    /**
+     * The 'auth_type' child property from the 'metadata' parent property.
+     *
+     * @return string|null
+     */
+    public function getAuthType()
+    {
+        return $this->getMetadataProperty('auth_type');
+    }
+
+    /**
+     * The 'auth_nonce' child property from the 'metadata' parent property.
+     *
+     * @return string|null
+     */
+    public function getAuthNonce()
+    {
+        return $this->getMetadataProperty('auth_nonce');
+    }
+
+    /**
+     * For impersonated access tokens, the ID of
+     * the page this token contains.
+     *
+     * @return string|null
+     */
+    public function getProfileId()
+    {
+        return $this->getField('profile_id');
+    }
+
+    /**
+     * List of permissions that the user has granted for
+     * the app in this access token.
+     *
+     * @return array
+     */
+    public function getScopes()
+    {
+        return $this->getField('scopes');
+    }
+
+    /**
+     * The ID of the user this access token is for.
+     *
+     * @return string|null
+     */
+    public function getUserId()
+    {
+        return $this->getField('user_id');
+    }
+
+    /**
+     * Ensures the app ID from the access token
+     * metadata is what we expect.
+     *
+     * @param string $appId
+     *
+     * @throws FacebookSDKException
+     */
+    public function validateAppId($appId)
+    {
+        if ($this->getAppId() !== $appId) {
+            throw new FacebookSDKException('Access token metadata contains unexpected app ID.', 401);
+        }
+    }
+
+    /**
+     * Ensures the user ID from the access token
+     * metadata is what we expect.
+     *
+     * @param string $userId
+     *
+     * @throws FacebookSDKException
+     */
+    public function validateUserId($userId)
+    {
+        if ($this->getUserId() !== $userId) {
+            throw new FacebookSDKException('Access token metadata contains unexpected user ID.', 401);
+        }
+    }
+
+    /**
+     * Ensures the access token has not expired yet.
+     *
+     * @throws FacebookSDKException
+     */
+    public function validateExpiration()
+    {
+        if (!$this->getExpiresAt() instanceof \DateTime) {
+            return;
+        }
+
+        if ($this->getExpiresAt()->getTimestamp() < time()) {
+            throw new FacebookSDKException('Inspection of access token metadata shows that the access token has expired.', 401);
+        }
+    }
+
+    /**
+     * Converts a unix timestamp into a DateTime entity.
+     *
+     * @param int $timestamp
+     *
+     * @return \DateTime
+     */
+    private function convertTimestampToDateTime($timestamp)
+    {
+        $dt = new \DateTime();
+        $dt->setTimestamp($timestamp);
+
+        return $dt;
+    }
+
+    /**
+     * Casts the unix timestamps as DateTime entities.
+     */
+    private function castTimestampsToDateTime()
+    {
+        foreach (static::$dateProperties as $key) {
+            if (isset($this->metadata[$key]) && $this->metadata[$key] !== 0) {
+                $this->metadata[$key] = $this->convertTimestampToDateTime($this->metadata[$key]);
+            }
+        }
+    }
+}

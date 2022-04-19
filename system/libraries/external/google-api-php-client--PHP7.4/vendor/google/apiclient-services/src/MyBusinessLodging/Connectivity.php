@@ -1,71 +1,98 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\MyBusinessLodging;
+
+class Connectivity extends \Google\Model
+{
+  public $freeWifi;
+  public $freeWifiException;
+  public $publicAreaWifiAvailable;
+  public $publicAreaWifiAvailableException;
+  public $publicInternetTerminal;
+  public $publicInternetTerminalException;
+  public $wifiAvailable;
+  public $wifiAvailableException;
+
+  public function setFreeWifi($freeWifi)
+  {
+    $this->freeWifi = $freeWifi;
+  }
+  public function getFreeWifi()
+  {
+    return $this->freeWifi;
+  }
+  public function setFreeWifiException($freeWifiException)
+  {
+    $this->freeWifiException = $freeWifiException;
+  }
+  public function getFreeWifiException()
+  {
+    return $this->freeWifiException;
+  }
+  public function setPublicAreaWifiAvailable($publicAreaWifiAvailable)
+  {
+    $this->publicAreaWifiAvailable = $publicAreaWifiAvailable;
+  }
+  public function getPublicAreaWifiAvailable()
+  {
+    return $this->publicAreaWifiAvailable;
+  }
+  public function setPublicAreaWifiAvailableException($publicAreaWifiAvailableException)
+  {
+    $this->publicAreaWifiAvailableException = $publicAreaWifiAvailableException;
+  }
+  public function getPublicAreaWifiAvailableException()
+  {
+    return $this->publicAreaWifiAvailableException;
+  }
+  public function setPublicInternetTerminal($publicInternetTerminal)
+  {
+    $this->publicInternetTerminal = $publicInternetTerminal;
+  }
+  public function getPublicInternetTerminal()
+  {
+    return $this->publicInternetTerminal;
+  }
+  public function setPublicInternetTerminalException($publicInternetTerminalException)
+  {
+    $this->publicInternetTerminalException = $publicInternetTerminalException;
+  }
+  public function getPublicInternetTerminalException()
+  {
+    return $this->publicInternetTerminalException;
+  }
+  public function setWifiAvailable($wifiAvailable)
+  {
+    $this->wifiAvailable = $wifiAvailable;
+  }
+  public function getWifiAvailable()
+  {
+    return $this->wifiAvailable;
+  }
+  public function setWifiAvailableException($wifiAvailableException)
+  {
+    $this->wifiAvailableException = $wifiAvailableException;
+  }
+  public function getWifiAvailableException()
+  {
+    return $this->wifiAvailableException;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Connectivity::class, 'Google_Service_MyBusinessLodging_Connectivity');

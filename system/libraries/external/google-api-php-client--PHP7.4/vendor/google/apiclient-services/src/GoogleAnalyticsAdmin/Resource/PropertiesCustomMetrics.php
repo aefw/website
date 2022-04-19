@@ -1,72 +1,122 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\GoogleAnalyticsAdmin\Resource;
+
+use Google\Service\GoogleAnalyticsAdmin\GoogleAnalyticsAdminV1alphaArchiveCustomMetricRequest;
+use Google\Service\GoogleAnalyticsAdmin\GoogleAnalyticsAdminV1alphaCustomMetric;
+use Google\Service\GoogleAnalyticsAdmin\GoogleAnalyticsAdminV1alphaListCustomMetricsResponse;
+use Google\Service\GoogleAnalyticsAdmin\GoogleProtobufEmpty;
+
+/**
+ * The "customMetrics" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $analyticsadminService = new Google\Service\GoogleAnalyticsAdmin(...);
+ *   $customMetrics = $analyticsadminService->customMetrics;
+ *  </code>
+ */
+class PropertiesCustomMetrics extends \Google\Service\Resource
+{
+  /**
+   * Archives a CustomMetric on a property. (customMetrics.archive)
+   *
+   * @param string $name Required. The name of the CustomMetric to archive.
+   * Example format: properties/1234/customMetrics/5678
+   * @param GoogleAnalyticsAdminV1alphaArchiveCustomMetricRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleProtobufEmpty
+   */
+  public function archive($name, GoogleAnalyticsAdminV1alphaArchiveCustomMetricRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('archive', [$params], GoogleProtobufEmpty::class);
+  }
+  /**
+   * Creates a CustomMetric. (customMetrics.create)
+   *
+   * @param string $parent Required. Example format: properties/1234
+   * @param GoogleAnalyticsAdminV1alphaCustomMetric $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleAnalyticsAdminV1alphaCustomMetric
+   */
+  public function create($parent, GoogleAnalyticsAdminV1alphaCustomMetric $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleAnalyticsAdminV1alphaCustomMetric::class);
+  }
+  /**
+   * Lookup for a single CustomMetric. (customMetrics.get)
+   *
+   * @param string $name Required. The name of the CustomMetric to get. Example
+   * format: properties/1234/customMetrics/5678
+   * @param array $optParams Optional parameters.
+   * @return GoogleAnalyticsAdminV1alphaCustomMetric
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleAnalyticsAdminV1alphaCustomMetric::class);
+  }
+  /**
+   * Lists CustomMetrics on a property.
+   * (customMetrics.listPropertiesCustomMetrics)
+   *
+   * @param string $parent Required. Example format: properties/1234
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The maximum number of resources to return. If
+   * unspecified, at most 50 resources will be returned. The maximum value is 200
+   * (higher values will be coerced to the maximum).
+   * @opt_param string pageToken A page token, received from a previous
+   * `ListCustomMetrics` call. Provide this to retrieve the subsequent page. When
+   * paginating, all other parameters provided to `ListCustomMetrics` must match
+   * the call that provided the page token.
+   * @return GoogleAnalyticsAdminV1alphaListCustomMetricsResponse
+   */
+  public function listPropertiesCustomMetrics($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleAnalyticsAdminV1alphaListCustomMetricsResponse::class);
+  }
+  /**
+   * Updates a CustomMetric on a property. (customMetrics.patch)
+   *
+   * @param string $name Output only. Resource name for this CustomMetric
+   * resource. Format: properties/{property}/customMetrics/{customMetric}
+   * @param GoogleAnalyticsAdminV1alphaCustomMetric $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. The list of fields to be updated.
+   * Omitted fields will not be updated. To replace the entire entity, use one
+   * path with the string "*" to match all fields.
+   * @return GoogleAnalyticsAdminV1alphaCustomMetric
+   */
+  public function patch($name, GoogleAnalyticsAdminV1alphaCustomMetric $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], GoogleAnalyticsAdminV1alphaCustomMetric::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PropertiesCustomMetrics::class, 'Google_Service_GoogleAnalyticsAdmin_Resource_PropertiesCustomMetrics');

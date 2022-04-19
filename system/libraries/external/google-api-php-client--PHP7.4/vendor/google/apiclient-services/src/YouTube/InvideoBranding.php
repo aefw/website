@@ -1,59 +1,85 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-NNz8e/HEqXS=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\YouTube;
+
+class InvideoBranding extends \Google\Model
+{
+  public $imageBytes;
+  public $imageUrl;
+  protected $positionType = InvideoPosition::class;
+  protected $positionDataType = '';
+  public $targetChannelId;
+  protected $timingType = InvideoTiming::class;
+  protected $timingDataType = '';
+
+  public function setImageBytes($imageBytes)
+  {
+    $this->imageBytes = $imageBytes;
+  }
+  public function getImageBytes()
+  {
+    return $this->imageBytes;
+  }
+  public function setImageUrl($imageUrl)
+  {
+    $this->imageUrl = $imageUrl;
+  }
+  public function getImageUrl()
+  {
+    return $this->imageUrl;
+  }
+  /**
+   * @param InvideoPosition
+   */
+  public function setPosition(InvideoPosition $position)
+  {
+    $this->position = $position;
+  }
+  /**
+   * @return InvideoPosition
+   */
+  public function getPosition()
+  {
+    return $this->position;
+  }
+  public function setTargetChannelId($targetChannelId)
+  {
+    $this->targetChannelId = $targetChannelId;
+  }
+  public function getTargetChannelId()
+  {
+    return $this->targetChannelId;
+  }
+  /**
+   * @param InvideoTiming
+   */
+  public function setTiming(InvideoTiming $timing)
+  {
+    $this->timing = $timing;
+  }
+  /**
+   * @return InvideoTiming
+   */
+  public function getTiming()
+  {
+    return $this->timing;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(InvideoBranding::class, 'Google_Service_YouTube_InvideoBranding');

@@ -1,187 +1,386 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-ITpag0k4E+G=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\MyBusinessLodging;
+
+class LivingAreaFeatures extends \Google\Model
+{
+  public $airConditioning;
+  public $airConditioningException;
+  public $bathtub;
+  public $bathtubException;
+  public $bidet;
+  public $bidetException;
+  public $dryer;
+  public $dryerException;
+  public $electronicRoomKey;
+  public $electronicRoomKeyException;
+  public $fireplace;
+  public $fireplaceException;
+  public $hairdryer;
+  public $hairdryerException;
+  public $heating;
+  public $heatingException;
+  public $inunitSafe;
+  public $inunitSafeException;
+  public $inunitWifiAvailable;
+  public $inunitWifiAvailableException;
+  public $ironingEquipment;
+  public $ironingEquipmentException;
+  public $payPerViewMovies;
+  public $payPerViewMoviesException;
+  public $privateBathroom;
+  public $privateBathroomException;
+  public $shower;
+  public $showerException;
+  public $toilet;
+  public $toiletException;
+  public $tv;
+  public $tvCasting;
+  public $tvCastingException;
+  public $tvException;
+  public $tvStreaming;
+  public $tvStreamingException;
+  public $universalPowerAdapters;
+  public $universalPowerAdaptersException;
+  public $washer;
+  public $washerException;
+
+  public function setAirConditioning($airConditioning)
+  {
+    $this->airConditioning = $airConditioning;
+  }
+  public function getAirConditioning()
+  {
+    return $this->airConditioning;
+  }
+  public function setAirConditioningException($airConditioningException)
+  {
+    $this->airConditioningException = $airConditioningException;
+  }
+  public function getAirConditioningException()
+  {
+    return $this->airConditioningException;
+  }
+  public function setBathtub($bathtub)
+  {
+    $this->bathtub = $bathtub;
+  }
+  public function getBathtub()
+  {
+    return $this->bathtub;
+  }
+  public function setBathtubException($bathtubException)
+  {
+    $this->bathtubException = $bathtubException;
+  }
+  public function getBathtubException()
+  {
+    return $this->bathtubException;
+  }
+  public function setBidet($bidet)
+  {
+    $this->bidet = $bidet;
+  }
+  public function getBidet()
+  {
+    return $this->bidet;
+  }
+  public function setBidetException($bidetException)
+  {
+    $this->bidetException = $bidetException;
+  }
+  public function getBidetException()
+  {
+    return $this->bidetException;
+  }
+  public function setDryer($dryer)
+  {
+    $this->dryer = $dryer;
+  }
+  public function getDryer()
+  {
+    return $this->dryer;
+  }
+  public function setDryerException($dryerException)
+  {
+    $this->dryerException = $dryerException;
+  }
+  public function getDryerException()
+  {
+    return $this->dryerException;
+  }
+  public function setElectronicRoomKey($electronicRoomKey)
+  {
+    $this->electronicRoomKey = $electronicRoomKey;
+  }
+  public function getElectronicRoomKey()
+  {
+    return $this->electronicRoomKey;
+  }
+  public function setElectronicRoomKeyException($electronicRoomKeyException)
+  {
+    $this->electronicRoomKeyException = $electronicRoomKeyException;
+  }
+  public function getElectronicRoomKeyException()
+  {
+    return $this->electronicRoomKeyException;
+  }
+  public function setFireplace($fireplace)
+  {
+    $this->fireplace = $fireplace;
+  }
+  public function getFireplace()
+  {
+    return $this->fireplace;
+  }
+  public function setFireplaceException($fireplaceException)
+  {
+    $this->fireplaceException = $fireplaceException;
+  }
+  public function getFireplaceException()
+  {
+    return $this->fireplaceException;
+  }
+  public function setHairdryer($hairdryer)
+  {
+    $this->hairdryer = $hairdryer;
+  }
+  public function getHairdryer()
+  {
+    return $this->hairdryer;
+  }
+  public function setHairdryerException($hairdryerException)
+  {
+    $this->hairdryerException = $hairdryerException;
+  }
+  public function getHairdryerException()
+  {
+    return $this->hairdryerException;
+  }
+  public function setHeating($heating)
+  {
+    $this->heating = $heating;
+  }
+  public function getHeating()
+  {
+    return $this->heating;
+  }
+  public function setHeatingException($heatingException)
+  {
+    $this->heatingException = $heatingException;
+  }
+  public function getHeatingException()
+  {
+    return $this->heatingException;
+  }
+  public function setInunitSafe($inunitSafe)
+  {
+    $this->inunitSafe = $inunitSafe;
+  }
+  public function getInunitSafe()
+  {
+    return $this->inunitSafe;
+  }
+  public function setInunitSafeException($inunitSafeException)
+  {
+    $this->inunitSafeException = $inunitSafeException;
+  }
+  public function getInunitSafeException()
+  {
+    return $this->inunitSafeException;
+  }
+  public function setInunitWifiAvailable($inunitWifiAvailable)
+  {
+    $this->inunitWifiAvailable = $inunitWifiAvailable;
+  }
+  public function getInunitWifiAvailable()
+  {
+    return $this->inunitWifiAvailable;
+  }
+  public function setInunitWifiAvailableException($inunitWifiAvailableException)
+  {
+    $this->inunitWifiAvailableException = $inunitWifiAvailableException;
+  }
+  public function getInunitWifiAvailableException()
+  {
+    return $this->inunitWifiAvailableException;
+  }
+  public function setIroningEquipment($ironingEquipment)
+  {
+    $this->ironingEquipment = $ironingEquipment;
+  }
+  public function getIroningEquipment()
+  {
+    return $this->ironingEquipment;
+  }
+  public function setIroningEquipmentException($ironingEquipmentException)
+  {
+    $this->ironingEquipmentException = $ironingEquipmentException;
+  }
+  public function getIroningEquipmentException()
+  {
+    return $this->ironingEquipmentException;
+  }
+  public function setPayPerViewMovies($payPerViewMovies)
+  {
+    $this->payPerViewMovies = $payPerViewMovies;
+  }
+  public function getPayPerViewMovies()
+  {
+    return $this->payPerViewMovies;
+  }
+  public function setPayPerViewMoviesException($payPerViewMoviesException)
+  {
+    $this->payPerViewMoviesException = $payPerViewMoviesException;
+  }
+  public function getPayPerViewMoviesException()
+  {
+    return $this->payPerViewMoviesException;
+  }
+  public function setPrivateBathroom($privateBathroom)
+  {
+    $this->privateBathroom = $privateBathroom;
+  }
+  public function getPrivateBathroom()
+  {
+    return $this->privateBathroom;
+  }
+  public function setPrivateBathroomException($privateBathroomException)
+  {
+    $this->privateBathroomException = $privateBathroomException;
+  }
+  public function getPrivateBathroomException()
+  {
+    return $this->privateBathroomException;
+  }
+  public function setShower($shower)
+  {
+    $this->shower = $shower;
+  }
+  public function getShower()
+  {
+    return $this->shower;
+  }
+  public function setShowerException($showerException)
+  {
+    $this->showerException = $showerException;
+  }
+  public function getShowerException()
+  {
+    return $this->showerException;
+  }
+  public function setToilet($toilet)
+  {
+    $this->toilet = $toilet;
+  }
+  public function getToilet()
+  {
+    return $this->toilet;
+  }
+  public function setToiletException($toiletException)
+  {
+    $this->toiletException = $toiletException;
+  }
+  public function getToiletException()
+  {
+    return $this->toiletException;
+  }
+  public function setTv($tv)
+  {
+    $this->tv = $tv;
+  }
+  public function getTv()
+  {
+    return $this->tv;
+  }
+  public function setTvCasting($tvCasting)
+  {
+    $this->tvCasting = $tvCasting;
+  }
+  public function getTvCasting()
+  {
+    return $this->tvCasting;
+  }
+  public function setTvCastingException($tvCastingException)
+  {
+    $this->tvCastingException = $tvCastingException;
+  }
+  public function getTvCastingException()
+  {
+    return $this->tvCastingException;
+  }
+  public function setTvException($tvException)
+  {
+    $this->tvException = $tvException;
+  }
+  public function getTvException()
+  {
+    return $this->tvException;
+  }
+  public function setTvStreaming($tvStreaming)
+  {
+    $this->tvStreaming = $tvStreaming;
+  }
+  public function getTvStreaming()
+  {
+    return $this->tvStreaming;
+  }
+  public function setTvStreamingException($tvStreamingException)
+  {
+    $this->tvStreamingException = $tvStreamingException;
+  }
+  public function getTvStreamingException()
+  {
+    return $this->tvStreamingException;
+  }
+  public function setUniversalPowerAdapters($universalPowerAdapters)
+  {
+    $this->universalPowerAdapters = $universalPowerAdapters;
+  }
+  public function getUniversalPowerAdapters()
+  {
+    return $this->universalPowerAdapters;
+  }
+  public function setUniversalPowerAdaptersException($universalPowerAdaptersException)
+  {
+    $this->universalPowerAdaptersException = $universalPowerAdaptersException;
+  }
+  public function getUniversalPowerAdaptersException()
+  {
+    return $this->universalPowerAdaptersException;
+  }
+  public function setWasher($washer)
+  {
+    $this->washer = $washer;
+  }
+  public function getWasher()
+  {
+    return $this->washer;
+  }
+  public function setWasherException($washerException)
+  {
+    $this->washerException = $washerException;
+  }
+  public function getWasherException()
+  {
+    return $this->washerException;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(LivingAreaFeatures::class, 'Google_Service_MyBusinessLodging_LivingAreaFeatures');

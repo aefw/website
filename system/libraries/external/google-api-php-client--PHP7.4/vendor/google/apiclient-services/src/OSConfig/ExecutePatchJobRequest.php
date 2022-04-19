@@ -1,69 +1,110 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-EmtCQ+M+6jiM1YIMXvr6zQJrOYx3
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\OSConfig;
+
+class ExecutePatchJobRequest extends \Google\Model
+{
+  public $description;
+  public $displayName;
+  public $dryRun;
+  public $duration;
+  protected $instanceFilterType = PatchInstanceFilter::class;
+  protected $instanceFilterDataType = '';
+  protected $patchConfigType = PatchConfig::class;
+  protected $patchConfigDataType = '';
+  protected $rolloutType = PatchRollout::class;
+  protected $rolloutDataType = '';
+
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setDisplayName($displayName)
+  {
+    $this->displayName = $displayName;
+  }
+  public function getDisplayName()
+  {
+    return $this->displayName;
+  }
+  public function setDryRun($dryRun)
+  {
+    $this->dryRun = $dryRun;
+  }
+  public function getDryRun()
+  {
+    return $this->dryRun;
+  }
+  public function setDuration($duration)
+  {
+    $this->duration = $duration;
+  }
+  public function getDuration()
+  {
+    return $this->duration;
+  }
+  /**
+   * @param PatchInstanceFilter
+   */
+  public function setInstanceFilter(PatchInstanceFilter $instanceFilter)
+  {
+    $this->instanceFilter = $instanceFilter;
+  }
+  /**
+   * @return PatchInstanceFilter
+   */
+  public function getInstanceFilter()
+  {
+    return $this->instanceFilter;
+  }
+  /**
+   * @param PatchConfig
+   */
+  public function setPatchConfig(PatchConfig $patchConfig)
+  {
+    $this->patchConfig = $patchConfig;
+  }
+  /**
+   * @return PatchConfig
+   */
+  public function getPatchConfig()
+  {
+    return $this->patchConfig;
+  }
+  /**
+   * @param PatchRollout
+   */
+  public function setRollout(PatchRollout $rollout)
+  {
+    $this->rollout = $rollout;
+  }
+  /**
+   * @return PatchRollout
+   */
+  public function getRollout()
+  {
+    return $this->rollout;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ExecutePatchJobRequest::class, 'Google_Service_OSConfig_ExecutePatchJobRequest');

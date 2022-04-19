@@ -1,90 +1,131 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+<?php
+/**
+ *--------------------------------------------------------------------
+ *
+ * Holds font for PHP.
+ *
+ *--------------------------------------------------------------------
+ * Copyright (C) Jean-Sebastien Goupil
+ * http://www.barcodephp.com
+ */
+include_once('BCGFont.php');
+include_once('BCGColor.php');
+
+class BCGFontPhp implements BCGFont {
+    private $font;
+    private $text;
+    private $rotationAngle;
+    private $backgroundColor;
+
+    /**
+     * Constructor.
+     *
+     * @param int $font
+     */
+    public function __construct($font) {
+        $this->font = max(0, intval($font));
+        $this->setRotationAngle(0);
+        $this->setBackgroundColor(new BCGColor('white'));
+    }
+
+    /**
+     * Gets the text associated to the font.
+     *
+     * @return string
+     */
+    public function getText() {
+        return $this->text;
+    }
+
+    /**
+     * Sets the text associated to the font.
+     *
+     * @param string text
+     */
+    public function setText($text) {
+        $this->text = $text;
+    }
+
+    /**
+     * Gets the rotation in degree.
+     *
+     * @return int
+     */
+    public function getRotationAngle() {
+        return $this->rotationAngle;
+    }
+
+    /**
+     * Sets the rotation in degree.
+     *
+     * @param int
+     */
+    public function setRotationAngle($rotationAngle) {
+        $this->rotationAngle = (int)$rotationAngle;
+        if ($this->rotationAngle !== 90 && $this->rotationAngle !== 180 && $this->rotationAngle !== 270) {
+            $this->rotationAngle = 0;
+        }
+    }
+
+    /**
+     * Gets the background color.
+     *
+     * @return BCGColor
+     */
+    public function getBackgroundColor() {
+        return $this->backgroundColor;
+    }
+
+    /**
+     * Sets the background color.
+     *
+     * @param BCGColor $backgroundColor
+     */
+    public function setBackgroundColor($backgroundColor) {
+        $this->backgroundColor = $backgroundColor;
+    }
+
+    /**
+     * Returns the width and height that the text takes to be written.
+     *
+     * @return int[]
+     */
+    public function getDimension() {
+        $w = imagefontwidth($this->font) * strlen($this->text);
+        $h = imagefontheight($this->font);
+
+        if ($this->rotationAngle === 90 || $this->rotationAngle === 270) {
+            return array($h, $w);
+        } else {
+            return array($w, $h);
+        }
+    }
+
+    /**
+     * Draws the text on the image at a specific position.
+     * $x and $y represent the left bottom corner.
+     *
+     * @param resource $im
+     * @param int $color
+     * @param int $x
+     * @param int $y
+     */
+    public function draw($im, $color, $x, $y) {
+        if ($this->rotationAngle !== 0) {
+            if (!function_exists('imagerotate')) {
+                throw new BCGDrawException('The method imagerotate doesn\'t exist on your server. Do not use any rotation.');
+            }
+        
+            $w = imagefontwidth($this->font) * strlen($this->text);
+            $h = imagefontheight($this->font);
+            $gd = imagecreatetruecolor($w, $h);
+            imagefilledrectangle($gd, 0, 0, $w - 1, $h - 1, $this->backgroundColor->allocate($gd));
+            imagestring($gd, $this->font, 0, 0, $this->text, $color);
+            $gd = imagerotate($gd, $this->rotationAngle, 0);
+            imagecopy($im, $gd, $x, $y, 0, 0, imagesx($gd), imagesy($gd));
+        } else {
+            imagestring($im, $this->font, $x, $y, $this->text, $color);
+        }
+    }
+}
 ?>
-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

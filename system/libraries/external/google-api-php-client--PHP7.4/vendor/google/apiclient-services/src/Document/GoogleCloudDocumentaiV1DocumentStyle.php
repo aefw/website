@@ -1,71 +1,117 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-mW4u7EpPMY8KQYYFaE/ECfrwKuKbmKYdTy0ID0==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Document;
+
+class GoogleCloudDocumentaiV1DocumentStyle extends \Google\Model
+{
+  protected $backgroundColorType = GoogleTypeColor::class;
+  protected $backgroundColorDataType = '';
+  protected $colorType = GoogleTypeColor::class;
+  protected $colorDataType = '';
+  protected $fontSizeType = GoogleCloudDocumentaiV1DocumentStyleFontSize::class;
+  protected $fontSizeDataType = '';
+  public $fontWeight;
+  protected $textAnchorType = GoogleCloudDocumentaiV1DocumentTextAnchor::class;
+  protected $textAnchorDataType = '';
+  public $textDecoration;
+  public $textStyle;
+
+  /**
+   * @param GoogleTypeColor
+   */
+  public function setBackgroundColor(GoogleTypeColor $backgroundColor)
+  {
+    $this->backgroundColor = $backgroundColor;
+  }
+  /**
+   * @return GoogleTypeColor
+   */
+  public function getBackgroundColor()
+  {
+    return $this->backgroundColor;
+  }
+  /**
+   * @param GoogleTypeColor
+   */
+  public function setColor(GoogleTypeColor $color)
+  {
+    $this->color = $color;
+  }
+  /**
+   * @return GoogleTypeColor
+   */
+  public function getColor()
+  {
+    return $this->color;
+  }
+  /**
+   * @param GoogleCloudDocumentaiV1DocumentStyleFontSize
+   */
+  public function setFontSize(GoogleCloudDocumentaiV1DocumentStyleFontSize $fontSize)
+  {
+    $this->fontSize = $fontSize;
+  }
+  /**
+   * @return GoogleCloudDocumentaiV1DocumentStyleFontSize
+   */
+  public function getFontSize()
+  {
+    return $this->fontSize;
+  }
+  public function setFontWeight($fontWeight)
+  {
+    $this->fontWeight = $fontWeight;
+  }
+  public function getFontWeight()
+  {
+    return $this->fontWeight;
+  }
+  /**
+   * @param GoogleCloudDocumentaiV1DocumentTextAnchor
+   */
+  public function setTextAnchor(GoogleCloudDocumentaiV1DocumentTextAnchor $textAnchor)
+  {
+    $this->textAnchor = $textAnchor;
+  }
+  /**
+   * @return GoogleCloudDocumentaiV1DocumentTextAnchor
+   */
+  public function getTextAnchor()
+  {
+    return $this->textAnchor;
+  }
+  public function setTextDecoration($textDecoration)
+  {
+    $this->textDecoration = $textDecoration;
+  }
+  public function getTextDecoration()
+  {
+    return $this->textDecoration;
+  }
+  public function setTextStyle($textStyle)
+  {
+    $this->textStyle = $textStyle;
+  }
+  public function getTextStyle()
+  {
+    return $this->textStyle;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudDocumentaiV1DocumentStyle::class, 'Google_Service_Document_GoogleCloudDocumentaiV1DocumentStyle');

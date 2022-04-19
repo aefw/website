@@ -1,102 +1,481 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+namespace PhpOffice\PhpSpreadsheet\Cell;
+
+class DataValidation
+{
+    // Data validation types
+    const TYPE_NONE = 'none';
+    const TYPE_CUSTOM = 'custom';
+    const TYPE_DATE = 'date';
+    const TYPE_DECIMAL = 'decimal';
+    const TYPE_LIST = 'list';
+    const TYPE_TEXTLENGTH = 'textLength';
+    const TYPE_TIME = 'time';
+    const TYPE_WHOLE = 'whole';
+
+    // Data validation error styles
+    const STYLE_STOP = 'stop';
+    const STYLE_WARNING = 'warning';
+    const STYLE_INFORMATION = 'information';
+
+    // Data validation operators
+    const OPERATOR_BETWEEN = 'between';
+    const OPERATOR_EQUAL = 'equal';
+    const OPERATOR_GREATERTHAN = 'greaterThan';
+    const OPERATOR_GREATERTHANOREQUAL = 'greaterThanOrEqual';
+    const OPERATOR_LESSTHAN = 'lessThan';
+    const OPERATOR_LESSTHANOREQUAL = 'lessThanOrEqual';
+    const OPERATOR_NOTBETWEEN = 'notBetween';
+    const OPERATOR_NOTEQUAL = 'notEqual';
+
+    /**
+     * Formula 1.
+     *
+     * @var string
+     */
+    private $formula1 = '';
+
+    /**
+     * Formula 2.
+     *
+     * @var string
+     */
+    private $formula2 = '';
+
+    /**
+     * Type.
+     *
+     * @var string
+     */
+    private $type = self::TYPE_NONE;
+
+    /**
+     * Error style.
+     *
+     * @var string
+     */
+    private $errorStyle = self::STYLE_STOP;
+
+    /**
+     * Operator.
+     *
+     * @var string
+     */
+    private $operator = self::OPERATOR_BETWEEN;
+
+    /**
+     * Allow Blank.
+     *
+     * @var bool
+     */
+    private $allowBlank = false;
+
+    /**
+     * Show DropDown.
+     *
+     * @var bool
+     */
+    private $showDropDown = false;
+
+    /**
+     * Show InputMessage.
+     *
+     * @var bool
+     */
+    private $showInputMessage = false;
+
+    /**
+     * Show ErrorMessage.
+     *
+     * @var bool
+     */
+    private $showErrorMessage = false;
+
+    /**
+     * Error title.
+     *
+     * @var string
+     */
+    private $errorTitle = '';
+
+    /**
+     * Error.
+     *
+     * @var string
+     */
+    private $error = '';
+
+    /**
+     * Prompt title.
+     *
+     * @var string
+     */
+    private $promptTitle = '';
+
+    /**
+     * Prompt.
+     *
+     * @var string
+     */
+    private $prompt = '';
+
+    /**
+     * Create a new DataValidation.
+     */
+    public function __construct()
+    {
+    }
+
+    /**
+     * Get Formula 1.
+     *
+     * @return string
+     */
+    public function getFormula1()
+    {
+        return $this->formula1;
+    }
+
+    /**
+     * Set Formula 1.
+     *
+     * @param string $value
+     *
+     * @return DataValidation
+     */
+    public function setFormula1($value)
+    {
+        $this->formula1 = $value;
+
+        return $this;
+    }
+
+    /**
+     * Get Formula 2.
+     *
+     * @return string
+     */
+    public function getFormula2()
+    {
+        return $this->formula2;
+    }
+
+    /**
+     * Set Formula 2.
+     *
+     * @param string $value
+     *
+     * @return DataValidation
+     */
+    public function setFormula2($value)
+    {
+        $this->formula2 = $value;
+
+        return $this;
+    }
+
+    /**
+     * Get Type.
+     *
+     * @return string
+     */
+    public function getType()
+    {
+        return $this->type;
+    }
+
+    /**
+     * Set Type.
+     *
+     * @param string $value
+     *
+     * @return DataValidation
+     */
+    public function setType($value)
+    {
+        $this->type = $value;
+
+        return $this;
+    }
+
+    /**
+     * Get Error style.
+     *
+     * @return string
+     */
+    public function getErrorStyle()
+    {
+        return $this->errorStyle;
+    }
+
+    /**
+     * Set Error style.
+     *
+     * @param string $value see self::STYLE_*
+     *
+     * @return DataValidation
+     */
+    public function setErrorStyle($value)
+    {
+        $this->errorStyle = $value;
+
+        return $this;
+    }
+
+    /**
+     * Get Operator.
+     *
+     * @return string
+     */
+    public function getOperator()
+    {
+        return $this->operator;
+    }
+
+    /**
+     * Set Operator.
+     *
+     * @param string $value
+     *
+     * @return DataValidation
+     */
+    public function setOperator($value)
+    {
+        $this->operator = $value;
+
+        return $this;
+    }
+
+    /**
+     * Get Allow Blank.
+     *
+     * @return bool
+     */
+    public function getAllowBlank()
+    {
+        return $this->allowBlank;
+    }
+
+    /**
+     * Set Allow Blank.
+     *
+     * @param bool $value
+     *
+     * @return DataValidation
+     */
+    public function setAllowBlank($value)
+    {
+        $this->allowBlank = $value;
+
+        return $this;
+    }
+
+    /**
+     * Get Show DropDown.
+     *
+     * @return bool
+     */
+    public function getShowDropDown()
+    {
+        return $this->showDropDown;
+    }
+
+    /**
+     * Set Show DropDown.
+     *
+     * @param bool $value
+     *
+     * @return DataValidation
+     */
+    public function setShowDropDown($value)
+    {
+        $this->showDropDown = $value;
+
+        return $this;
+    }
+
+    /**
+     * Get Show InputMessage.
+     *
+     * @return bool
+     */
+    public function getShowInputMessage()
+    {
+        return $this->showInputMessage;
+    }
+
+    /**
+     * Set Show InputMessage.
+     *
+     * @param bool $value
+     *
+     * @return DataValidation
+     */
+    public function setShowInputMessage($value)
+    {
+        $this->showInputMessage = $value;
+
+        return $this;
+    }
+
+    /**
+     * Get Show ErrorMessage.
+     *
+     * @return bool
+     */
+    public function getShowErrorMessage()
+    {
+        return $this->showErrorMessage;
+    }
+
+    /**
+     * Set Show ErrorMessage.
+     *
+     * @param bool $value
+     *
+     * @return DataValidation
+     */
+    public function setShowErrorMessage($value)
+    {
+        $this->showErrorMessage = $value;
+
+        return $this;
+    }
+
+    /**
+     * Get Error title.
+     *
+     * @return string
+     */
+    public function getErrorTitle()
+    {
+        return $this->errorTitle;
+    }
+
+    /**
+     * Set Error title.
+     *
+     * @param string $value
+     *
+     * @return DataValidation
+     */
+    public function setErrorTitle($value)
+    {
+        $this->errorTitle = $value;
+
+        return $this;
+    }
+
+    /**
+     * Get Error.
+     *
+     * @return string
+     */
+    public function getError()
+    {
+        return $this->error;
+    }
+
+    /**
+     * Set Error.
+     *
+     * @param string $value
+     *
+     * @return DataValidation
+     */
+    public function setError($value)
+    {
+        $this->error = $value;
+
+        return $this;
+    }
+
+    /**
+     * Get Prompt title.
+     *
+     * @return string
+     */
+    public function getPromptTitle()
+    {
+        return $this->promptTitle;
+    }
+
+    /**
+     * Set Prompt title.
+     *
+     * @param string $value
+     *
+     * @return DataValidation
+     */
+    public function setPromptTitle($value)
+    {
+        $this->promptTitle = $value;
+
+        return $this;
+    }
+
+    /**
+     * Get Prompt.
+     *
+     * @return string
+     */
+    public function getPrompt()
+    {
+        return $this->prompt;
+    }
+
+    /**
+     * Set Prompt.
+     *
+     * @param string $value
+     *
+     * @return DataValidation
+     */
+    public function setPrompt($value)
+    {
+        $this->prompt = $value;
+
+        return $this;
+    }
+
+    /**
+     * Get hash code.
+     *
+     * @return string Hash code
+     */
+    public function getHashCode()
+    {
+        return md5(
+            $this->formula1 .
+            $this->formula2 .
+            $this->type .
+            $this->errorStyle .
+            $this->operator .
+            ($this->allowBlank ? 't' : 'f') .
+            ($this->showDropDown ? 't' : 'f') .
+            ($this->showInputMessage ? 't' : 'f') .
+            ($this->showErrorMessage ? 't' : 'f') .
+            $this->errorTitle .
+            $this->error .
+            $this->promptTitle .
+            $this->prompt .
+            __CLASS__
+        );
+    }
+
+    /**
+     * Implement PHP __clone to create a deep clone, not just a shallow copy.
+     */
+    public function __clone()
+    {
+        $vars = get_object_vars($this);
+        foreach ($vars as $key => $value) {
+            if (is_object($value)) {
+                $this->$key = clone $value;
+            } else {
+                $this->$key = $value;
+            }
+        }
+    }
+}

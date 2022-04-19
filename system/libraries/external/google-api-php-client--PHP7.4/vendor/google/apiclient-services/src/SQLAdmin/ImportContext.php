@@ -1,66 +1,103 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Tm6dO0IDIfwbhbyTE4O=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\SQLAdmin;
+
+class ImportContext extends \Google\Model
+{
+  protected $bakImportOptionsType = ImportContextBakImportOptions::class;
+  protected $bakImportOptionsDataType = '';
+  protected $csvImportOptionsType = ImportContextCsvImportOptions::class;
+  protected $csvImportOptionsDataType = '';
+  public $database;
+  public $fileType;
+  public $importUser;
+  public $kind;
+  public $uri;
+
+  /**
+   * @param ImportContextBakImportOptions
+   */
+  public function setBakImportOptions(ImportContextBakImportOptions $bakImportOptions)
+  {
+    $this->bakImportOptions = $bakImportOptions;
+  }
+  /**
+   * @return ImportContextBakImportOptions
+   */
+  public function getBakImportOptions()
+  {
+    return $this->bakImportOptions;
+  }
+  /**
+   * @param ImportContextCsvImportOptions
+   */
+  public function setCsvImportOptions(ImportContextCsvImportOptions $csvImportOptions)
+  {
+    $this->csvImportOptions = $csvImportOptions;
+  }
+  /**
+   * @return ImportContextCsvImportOptions
+   */
+  public function getCsvImportOptions()
+  {
+    return $this->csvImportOptions;
+  }
+  public function setDatabase($database)
+  {
+    $this->database = $database;
+  }
+  public function getDatabase()
+  {
+    return $this->database;
+  }
+  public function setFileType($fileType)
+  {
+    $this->fileType = $fileType;
+  }
+  public function getFileType()
+  {
+    return $this->fileType;
+  }
+  public function setImportUser($importUser)
+  {
+    $this->importUser = $importUser;
+  }
+  public function getImportUser()
+  {
+    return $this->importUser;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setUri($uri)
+  {
+    $this->uri = $uri;
+  }
+  public function getUri()
+  {
+    return $this->uri;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ImportContext::class, 'Google_Service_SQLAdmin_ImportContext');

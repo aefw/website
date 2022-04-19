@@ -1,67 +1,94 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\PolicySimulator;
+
+class GoogleCloudPolicysimulatorV1beta1ReplayResultsSummary extends \Google\Model
+{
+  public $differenceCount;
+  public $errorCount;
+  public $logCount;
+  protected $newestDateType = GoogleTypeDate::class;
+  protected $newestDateDataType = '';
+  protected $oldestDateType = GoogleTypeDate::class;
+  protected $oldestDateDataType = '';
+  public $unchangedCount;
+
+  public function setDifferenceCount($differenceCount)
+  {
+    $this->differenceCount = $differenceCount;
+  }
+  public function getDifferenceCount()
+  {
+    return $this->differenceCount;
+  }
+  public function setErrorCount($errorCount)
+  {
+    $this->errorCount = $errorCount;
+  }
+  public function getErrorCount()
+  {
+    return $this->errorCount;
+  }
+  public function setLogCount($logCount)
+  {
+    $this->logCount = $logCount;
+  }
+  public function getLogCount()
+  {
+    return $this->logCount;
+  }
+  /**
+   * @param GoogleTypeDate
+   */
+  public function setNewestDate(GoogleTypeDate $newestDate)
+  {
+    $this->newestDate = $newestDate;
+  }
+  /**
+   * @return GoogleTypeDate
+   */
+  public function getNewestDate()
+  {
+    return $this->newestDate;
+  }
+  /**
+   * @param GoogleTypeDate
+   */
+  public function setOldestDate(GoogleTypeDate $oldestDate)
+  {
+    $this->oldestDate = $oldestDate;
+  }
+  /**
+   * @return GoogleTypeDate
+   */
+  public function getOldestDate()
+  {
+    return $this->oldestDate;
+  }
+  public function setUnchangedCount($unchangedCount)
+  {
+    $this->unchangedCount = $unchangedCount;
+  }
+  public function getUnchangedCount()
+  {
+    return $this->unchangedCount;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudPolicysimulatorV1beta1ReplayResultsSummary::class, 'Google_Service_PolicySimulator_GoogleCloudPolicysimulatorV1beta1ReplayResultsSummary');

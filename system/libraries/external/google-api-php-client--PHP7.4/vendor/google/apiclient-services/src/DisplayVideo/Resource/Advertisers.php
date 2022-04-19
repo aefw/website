@@ -1,83 +1,221 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-bBRsqOzMjlLcVYbGE2/6IONARJI33g2M3Zrj
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DisplayVideo\Resource;
+
+use Google\Service\DisplayVideo\Advertiser;
+use Google\Service\DisplayVideo\AuditAdvertiserResponse;
+use Google\Service\DisplayVideo\BulkEditAdvertiserAssignedTargetingOptionsRequest;
+use Google\Service\DisplayVideo\BulkEditAdvertiserAssignedTargetingOptionsResponse;
+use Google\Service\DisplayVideo\BulkListAdvertiserAssignedTargetingOptionsResponse;
+use Google\Service\DisplayVideo\DisplayvideoEmpty;
+use Google\Service\DisplayVideo\ListAdvertisersResponse;
+
+/**
+ * The "advertisers" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $displayvideoService = new Google\Service\DisplayVideo(...);
+ *   $advertisers = $displayvideoService->advertisers;
+ *  </code>
+ */
+class Advertisers extends \Google\Service\Resource
+{
+  /**
+   * Audits an advertiser. Returns the counts of used entities per resource type
+   * under the advertiser provided. Used entities count towards their respective
+   * resource limit. See https://support.google.com/displayvideo/answer/6071450.
+   * (advertisers.audit)
+   *
+   * @param string $advertiserId Required. The ID of the advertiser to audit.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string readMask Optional. The specific fields to return. If no
+   * mask is specified, all fields in the response proto will be filled. Valid
+   * values are: * usedLineItemsCount * usedInsertionOrdersCount *
+   * usedCampaignsCount * channelsCount * negativelyTargetedChannelsCount *
+   * negativeKeywordListsCount * adGroupCriteriaCount * campaignCriteriaCount
+   * @return AuditAdvertiserResponse
+   */
+  public function audit($advertiserId, $optParams = [])
+  {
+    $params = ['advertiserId' => $advertiserId];
+    $params = array_merge($params, $optParams);
+    return $this->call('audit', [$params], AuditAdvertiserResponse::class);
+  }
+  /**
+   * Bulk edits targeting options under a single advertiser. The operation will
+   * delete the assigned targeting options provided in
+   * BulkEditAdvertiserAssignedTargetingOptionsRequest.delete_requests and then
+   * create the assigned targeting options provided in
+   * BulkEditAdvertiserAssignedTargetingOptionsRequest.create_requests .
+   * (advertisers.bulkEditAdvertiserAssignedTargetingOptions)
+   *
+   * @param string $advertiserId Required. The ID of the advertiser.
+   * @param BulkEditAdvertiserAssignedTargetingOptionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return BulkEditAdvertiserAssignedTargetingOptionsResponse
+   */
+  public function bulkEditAdvertiserAssignedTargetingOptions($advertiserId, BulkEditAdvertiserAssignedTargetingOptionsRequest $postBody, $optParams = [])
+  {
+    $params = ['advertiserId' => $advertiserId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('bulkEditAdvertiserAssignedTargetingOptions', [$params], BulkEditAdvertiserAssignedTargetingOptionsResponse::class);
+  }
+  /**
+   * Lists assigned targeting options of an advertiser across targeting types.
+   * (advertisers.bulkListAdvertiserAssignedTargetingOptions)
+   *
+   * @param string $advertiserId Required. The ID of the advertiser the line item
+   * belongs to.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Allows filtering by assigned targeting option
+   * properties. Supported syntax: * Filter expressions are made up of one or more
+   * restrictions. * Restrictions can be combined by the logical operator `OR`.. *
+   * A restriction has the form of `{field} {operator} {value}`. * The operator
+   * must be `EQUALS (=)`. * Supported fields: - `targetingType` Examples: *
+   * targetingType with value TARGETING_TYPE_CHANNEL
+   * `targetingType="TARGETING_TYPE_CHANNEL"` The length of this field should be
+   * no more than 500 characters.
+   * @opt_param string orderBy Field by which to sort the list. Acceptable values
+   * are: * `targetingType` (default) The default sorting order is ascending. To
+   * specify descending order for a field, a suffix "desc" should be added to the
+   * field name. Example: `targetingType desc`.
+   * @opt_param int pageSize Requested page size. The size must be an integer
+   * between `1` and `5000`. If unspecified, the default is '5000'. Returns error
+   * code `INVALID_ARGUMENT` if an invalid value is specified.
+   * @opt_param string pageToken A token that lets the client fetch the next page
+   * of results. Typically, this is the value of next_page_token returned from the
+   * previous call to `BulkListAdvertiserAssignedTargetingOptions` method. If not
+   * specified, the first page of results will be returned.
+   * @return BulkListAdvertiserAssignedTargetingOptionsResponse
+   */
+  public function bulkListAdvertiserAssignedTargetingOptions($advertiserId, $optParams = [])
+  {
+    $params = ['advertiserId' => $advertiserId];
+    $params = array_merge($params, $optParams);
+    return $this->call('bulkListAdvertiserAssignedTargetingOptions', [$params], BulkListAdvertiserAssignedTargetingOptionsResponse::class);
+  }
+  /**
+   * Creates a new advertiser. Returns the newly created advertiser if successful.
+   * This method can take up to 180 seconds to complete. (advertisers.create)
+   *
+   * @param Advertiser $postBody
+   * @param array $optParams Optional parameters.
+   * @return Advertiser
+   */
+  public function create(Advertiser $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Advertiser::class);
+  }
+  /**
+   * Deletes an advertiser. Deleting an advertiser will delete all of its child
+   * resources, for example, campaigns, insertion orders and line items. A deleted
+   * advertiser cannot be recovered. (advertisers.delete)
+   *
+   * @param string $advertiserId The ID of the advertiser we need to delete.
+   * @param array $optParams Optional parameters.
+   * @return DisplayvideoEmpty
+   */
+  public function delete($advertiserId, $optParams = [])
+  {
+    $params = ['advertiserId' => $advertiserId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], DisplayvideoEmpty::class);
+  }
+  /**
+   * Gets an advertiser. (advertisers.get)
+   *
+   * @param string $advertiserId Required. The ID of the advertiser to fetch.
+   * @param array $optParams Optional parameters.
+   * @return Advertiser
+   */
+  public function get($advertiserId, $optParams = [])
+  {
+    $params = ['advertiserId' => $advertiserId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Advertiser::class);
+  }
+  /**
+   * Lists advertisers that are accessible to the current user. The order is
+   * defined by the order_by parameter. A single partner_id is required. Cross-
+   * partner listing is not supported. (advertisers.listAdvertisers)
+   *
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Allows filtering by advertiser properties. Supported
+   * syntax: * Filter expressions are made up of one or more restrictions. *
+   * Restrictions can be combined by `AND` or `OR` logical operators. A sequence
+   * of restrictions implicitly uses `AND`. * A restriction has the form of
+   * `{field} {operator} {value}`. * The operator used on `updateTime` must be
+   * `GREATER THAN OR EQUAL TO (>=)` or `LESS THAN OR EQUAL TO (<=)`. * The
+   * operator must be `EQUALS (=)`. * Supported fields: - `advertiserId` -
+   * `displayName` - `entityStatus` - `updateTime` (input in ISO 8601 format, or
+   * YYYY-MM-DDTHH:MM:SSZ) Examples: * All active advertisers under a partner:
+   * `entityStatus="ENTITY_STATUS_ACTIVE"` * All advertisers with an update time
+   * less than or equal to `2020-11-04T18:54:47Z (format of ISO 8601)`:
+   * `updateTime<="2020-11-04T18:54:47Z"` * All advertisers with an update time
+   * greater than or equal to `2020-11-04T18:54:47Z (format of ISO 8601)`:
+   * `updateTime>="2020-11-04T18:54:47Z"` The length of this field should be no
+   * more than 500 characters.
+   * @opt_param string orderBy Field by which to sort the list. Acceptable values
+   * are: * `displayName` (default) * `entityStatus` * `updateTime` The default
+   * sorting order is ascending. To specify descending order for a field, a suffix
+   * "desc" should be added to the field name. For example, `displayName desc`.
+   * @opt_param int pageSize Requested page size. Must be between `1` and `100`.
+   * If unspecified will default to `100`.
+   * @opt_param string pageToken A token identifying a page of results the server
+   * should return. Typically, this is the value of next_page_token returned from
+   * the previous call to `ListAdvertisers` method. If not specified, the first
+   * page of results will be returned.
+   * @opt_param string partnerId Required. The ID of the partner that the fetched
+   * advertisers should all belong to. The system only supports listing
+   * advertisers for one partner at a time.
+   * @return ListAdvertisersResponse
+   */
+  public function listAdvertisers($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListAdvertisersResponse::class);
+  }
+  /**
+   * Updates an existing advertiser. Returns the updated advertiser if successful.
+   * (advertisers.patch)
+   *
+   * @param string $advertiserId Output only. The unique ID of the advertiser.
+   * Assigned by the system.
+   * @param Advertiser $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. The mask to control which fields to
+   * update.
+   * @return Advertiser
+   */
+  public function patch($advertiserId, Advertiser $postBody, $optParams = [])
+  {
+    $params = ['advertiserId' => $advertiserId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Advertiser::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Advertisers::class, 'Google_Service_DisplayVideo_Resource_Advertisers');

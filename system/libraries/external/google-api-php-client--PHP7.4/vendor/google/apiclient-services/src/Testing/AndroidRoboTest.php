@@ -1,78 +1,143 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Testing;
+
+class AndroidRoboTest extends \Google\Collection
+{
+  protected $collection_key = 'startingIntents';
+  protected $appApkType = FileReference::class;
+  protected $appApkDataType = '';
+  protected $appBundleType = AppBundle::class;
+  protected $appBundleDataType = '';
+  public $appInitialActivity;
+  public $appPackageId;
+  public $maxDepth;
+  public $maxSteps;
+  protected $roboDirectivesType = RoboDirective::class;
+  protected $roboDirectivesDataType = 'array';
+  protected $roboScriptType = FileReference::class;
+  protected $roboScriptDataType = '';
+  protected $startingIntentsType = RoboStartingIntent::class;
+  protected $startingIntentsDataType = 'array';
+
+  /**
+   * @param FileReference
+   */
+  public function setAppApk(FileReference $appApk)
+  {
+    $this->appApk = $appApk;
+  }
+  /**
+   * @return FileReference
+   */
+  public function getAppApk()
+  {
+    return $this->appApk;
+  }
+  /**
+   * @param AppBundle
+   */
+  public function setAppBundle(AppBundle $appBundle)
+  {
+    $this->appBundle = $appBundle;
+  }
+  /**
+   * @return AppBundle
+   */
+  public function getAppBundle()
+  {
+    return $this->appBundle;
+  }
+  public function setAppInitialActivity($appInitialActivity)
+  {
+    $this->appInitialActivity = $appInitialActivity;
+  }
+  public function getAppInitialActivity()
+  {
+    return $this->appInitialActivity;
+  }
+  public function setAppPackageId($appPackageId)
+  {
+    $this->appPackageId = $appPackageId;
+  }
+  public function getAppPackageId()
+  {
+    return $this->appPackageId;
+  }
+  public function setMaxDepth($maxDepth)
+  {
+    $this->maxDepth = $maxDepth;
+  }
+  public function getMaxDepth()
+  {
+    return $this->maxDepth;
+  }
+  public function setMaxSteps($maxSteps)
+  {
+    $this->maxSteps = $maxSteps;
+  }
+  public function getMaxSteps()
+  {
+    return $this->maxSteps;
+  }
+  /**
+   * @param RoboDirective[]
+   */
+  public function setRoboDirectives($roboDirectives)
+  {
+    $this->roboDirectives = $roboDirectives;
+  }
+  /**
+   * @return RoboDirective[]
+   */
+  public function getRoboDirectives()
+  {
+    return $this->roboDirectives;
+  }
+  /**
+   * @param FileReference
+   */
+  public function setRoboScript(FileReference $roboScript)
+  {
+    $this->roboScript = $roboScript;
+  }
+  /**
+   * @return FileReference
+   */
+  public function getRoboScript()
+  {
+    return $this->roboScript;
+  }
+  /**
+   * @param RoboStartingIntent[]
+   */
+  public function setStartingIntents($startingIntents)
+  {
+    $this->startingIntents = $startingIntents;
+  }
+  /**
+   * @return RoboStartingIntent[]
+   */
+  public function getStartingIntents()
+  {
+    return $this->startingIntents;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AndroidRoboTest::class, 'Google_Service_Testing_AndroidRoboTest');

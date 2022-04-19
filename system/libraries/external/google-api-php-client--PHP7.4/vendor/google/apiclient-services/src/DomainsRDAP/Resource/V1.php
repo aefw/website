@@ -1,59 +1,101 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-IDAT
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DomainsRDAP\Resource;
+
+use Google\Service\DomainsRDAP\HttpBody;
+use Google\Service\DomainsRDAP\RdapResponse;
+
+/**
+ * The "v1" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $domainsrdapService = new Google\Service\DomainsRDAP(...);
+ *   $v1 = $domainsrdapService->v1;
+ *  </code>
+ */
+class V1 extends \Google\Service\Resource
+{
+  /**
+   * The RDAP API recognizes this command from the RDAP specification but does not
+   * support it. The response is a formatted 501 error. (v1.getDomains)
+   *
+   * @param array $optParams Optional parameters.
+   * @return RdapResponse
+   */
+  public function getDomains($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('getDomains', [$params], RdapResponse::class);
+  }
+  /**
+   * The RDAP API recognizes this command from the RDAP specification but does not
+   * support it. The response is a formatted 501 error. (v1.getEntities)
+   *
+   * @param array $optParams Optional parameters.
+   * @return RdapResponse
+   */
+  public function getEntities($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('getEntities', [$params], RdapResponse::class);
+  }
+  /**
+   * Get help information for the RDAP API, including links to documentation.
+   * (v1.getHelp)
+   *
+   * @param array $optParams Optional parameters.
+   * @return HttpBody
+   */
+  public function getHelp($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('getHelp', [$params], HttpBody::class);
+  }
+  /**
+   * The RDAP API recognizes this command from the RDAP specification but does not
+   * support it. The response is a formatted 501 error. (v1.getIp)
+   *
+   * @param array $optParams Optional parameters.
+   * @return HttpBody
+   */
+  public function getIp($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIp', [$params], HttpBody::class);
+  }
+  /**
+   * The RDAP API recognizes this command from the RDAP specification but does not
+   * support it. The response is a formatted 501 error. (v1.getNameservers)
+   *
+   * @param array $optParams Optional parameters.
+   * @return RdapResponse
+   */
+  public function getNameservers($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('getNameservers', [$params], RdapResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(V1::class, 'Google_Service_DomainsRDAP_Resource_V1');

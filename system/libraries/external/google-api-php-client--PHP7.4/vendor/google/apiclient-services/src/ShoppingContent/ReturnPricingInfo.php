@@ -1,63 +1,99 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ShoppingContent;
+
+class ReturnPricingInfo extends \Google\Model
+{
+  public $chargeReturnShippingFee;
+  protected $maxReturnShippingFeeType = MonetaryAmount::class;
+  protected $maxReturnShippingFeeDataType = '';
+  protected $refundableItemsTotalAmountType = MonetaryAmount::class;
+  protected $refundableItemsTotalAmountDataType = '';
+  protected $refundableShippingAmountType = MonetaryAmount::class;
+  protected $refundableShippingAmountDataType = '';
+  protected $totalRefundedAmountType = MonetaryAmount::class;
+  protected $totalRefundedAmountDataType = '';
+
+  public function setChargeReturnShippingFee($chargeReturnShippingFee)
+  {
+    $this->chargeReturnShippingFee = $chargeReturnShippingFee;
+  }
+  public function getChargeReturnShippingFee()
+  {
+    return $this->chargeReturnShippingFee;
+  }
+  /**
+   * @param MonetaryAmount
+   */
+  public function setMaxReturnShippingFee(MonetaryAmount $maxReturnShippingFee)
+  {
+    $this->maxReturnShippingFee = $maxReturnShippingFee;
+  }
+  /**
+   * @return MonetaryAmount
+   */
+  public function getMaxReturnShippingFee()
+  {
+    return $this->maxReturnShippingFee;
+  }
+  /**
+   * @param MonetaryAmount
+   */
+  public function setRefundableItemsTotalAmount(MonetaryAmount $refundableItemsTotalAmount)
+  {
+    $this->refundableItemsTotalAmount = $refundableItemsTotalAmount;
+  }
+  /**
+   * @return MonetaryAmount
+   */
+  public function getRefundableItemsTotalAmount()
+  {
+    return $this->refundableItemsTotalAmount;
+  }
+  /**
+   * @param MonetaryAmount
+   */
+  public function setRefundableShippingAmount(MonetaryAmount $refundableShippingAmount)
+  {
+    $this->refundableShippingAmount = $refundableShippingAmount;
+  }
+  /**
+   * @return MonetaryAmount
+   */
+  public function getRefundableShippingAmount()
+  {
+    return $this->refundableShippingAmount;
+  }
+  /**
+   * @param MonetaryAmount
+   */
+  public function setTotalRefundedAmount(MonetaryAmount $totalRefundedAmount)
+  {
+    $this->totalRefundedAmount = $totalRefundedAmount;
+  }
+  /**
+   * @return MonetaryAmount
+   */
+  public function getTotalRefundedAmount()
+  {
+    return $this->totalRefundedAmount;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ReturnPricingInfo::class, 'Google_Service_ShoppingContent_ReturnPricingInfo');

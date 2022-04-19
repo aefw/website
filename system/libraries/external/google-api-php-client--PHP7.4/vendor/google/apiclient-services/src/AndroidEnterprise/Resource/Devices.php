@@ -1,78 +1,145 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AndroidEnterprise\Resource;
+
+use Google\Service\AndroidEnterprise\Device;
+use Google\Service\AndroidEnterprise\DeviceState;
+use Google\Service\AndroidEnterprise\DevicesListResponse;
+
+/**
+ * The "devices" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $androidenterpriseService = new Google\Service\AndroidEnterprise(...);
+ *   $devices = $androidenterpriseService->devices;
+ *  </code>
+ */
+class Devices extends \Google\Service\Resource
+{
+  /**
+   * Uploads a report containing any changes in app states on the device since the
+   * last report was generated. You can call this method up to 3 times every 24
+   * hours for a given device. If you exceed the quota, then the Google Play EMM
+   * API returns HTTP 429 Too Many Requests. (devices.forceReportUpload)
+   *
+   * @param string $enterpriseId The ID of the enterprise.
+   * @param string $userId The ID of the user.
+   * @param string $deviceId The ID of the device.
+   * @param array $optParams Optional parameters.
+   */
+  public function forceReportUpload($enterpriseId, $userId, $deviceId, $optParams = [])
+  {
+    $params = ['enterpriseId' => $enterpriseId, 'userId' => $userId, 'deviceId' => $deviceId];
+    $params = array_merge($params, $optParams);
+    return $this->call('forceReportUpload', [$params]);
+  }
+  /**
+   * Retrieves the details of a device. (devices.get)
+   *
+   * @param string $enterpriseId The ID of the enterprise.
+   * @param string $userId The ID of the user.
+   * @param string $deviceId The ID of the device.
+   * @param array $optParams Optional parameters.
+   * @return Device
+   */
+  public function get($enterpriseId, $userId, $deviceId, $optParams = [])
+  {
+    $params = ['enterpriseId' => $enterpriseId, 'userId' => $userId, 'deviceId' => $deviceId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Device::class);
+  }
+  /**
+   * Retrieves whether a device's access to Google services is enabled or
+   * disabled. The device state takes effect only if enforcing EMM policies on
+   * Android devices is enabled in the Google Admin Console. Otherwise, the device
+   * state is ignored and all devices are allowed access to Google services. This
+   * is only supported for Google-managed users. (devices.getState)
+   *
+   * @param string $enterpriseId The ID of the enterprise.
+   * @param string $userId The ID of the user.
+   * @param string $deviceId The ID of the device.
+   * @param array $optParams Optional parameters.
+   * @return DeviceState
+   */
+  public function getState($enterpriseId, $userId, $deviceId, $optParams = [])
+  {
+    $params = ['enterpriseId' => $enterpriseId, 'userId' => $userId, 'deviceId' => $deviceId];
+    $params = array_merge($params, $optParams);
+    return $this->call('getState', [$params], DeviceState::class);
+  }
+  /**
+   * Retrieves the IDs of all of a user's devices. (devices.listDevices)
+   *
+   * @param string $enterpriseId The ID of the enterprise.
+   * @param string $userId The ID of the user.
+   * @param array $optParams Optional parameters.
+   * @return DevicesListResponse
+   */
+  public function listDevices($enterpriseId, $userId, $optParams = [])
+  {
+    $params = ['enterpriseId' => $enterpriseId, 'userId' => $userId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], DevicesListResponse::class);
+  }
+  /**
+   * Sets whether a device's access to Google services is enabled or disabled. The
+   * device state takes effect only if enforcing EMM policies on Android devices
+   * is enabled in the Google Admin Console. Otherwise, the device state is
+   * ignored and all devices are allowed access to Google services. This is only
+   * supported for Google-managed users. (devices.setState)
+   *
+   * @param string $enterpriseId The ID of the enterprise.
+   * @param string $userId The ID of the user.
+   * @param string $deviceId The ID of the device.
+   * @param DeviceState $postBody
+   * @param array $optParams Optional parameters.
+   * @return DeviceState
+   */
+  public function setState($enterpriseId, $userId, $deviceId, DeviceState $postBody, $optParams = [])
+  {
+    $params = ['enterpriseId' => $enterpriseId, 'userId' => $userId, 'deviceId' => $deviceId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setState', [$params], DeviceState::class);
+  }
+  /**
+   * Updates the device policy. To ensure the policy is properly enforced, you
+   * need to prevent unmanaged accounts from accessing Google Play by setting the
+   * allowed_accounts in the managed configuration for the Google Play package.
+   * See restrict accounts in Google Play. (devices.update)
+   *
+   * @param string $enterpriseId The ID of the enterprise.
+   * @param string $userId The ID of the user.
+   * @param string $deviceId The ID of the device.
+   * @param Device $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Mask that identifies which fields to update. If
+   * not set, all modifiable fields will be modified. When set in a query
+   * parameter, this field should be specified as updateMask=,,...
+   * @return Device
+   */
+  public function update($enterpriseId, $userId, $deviceId, Device $postBody, $optParams = [])
+  {
+    $params = ['enterpriseId' => $enterpriseId, 'userId' => $userId, 'deviceId' => $deviceId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Device::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Devices::class, 'Google_Service_AndroidEnterprise_Resource_Devices');

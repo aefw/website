@@ -1,124 +1,246 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Hx13DD13Q/YeMdDQ8W==
+<?php
+
+namespace GuzzleHttp\Psr7;
+
+use Psr\Http\Message\StreamInterface;
+
+/**
+ * Reads from multiple streams, one after the other.
+ *
+ * This is a read-only stream decorator.
+ *
+ * @final
+ */
+class AppendStream implements StreamInterface
+{
+    /** @var StreamInterface[] Streams being decorated */
+    private $streams = [];
+
+    private $seekable = true;
+    private $current = 0;
+    private $pos = 0;
+
+    /**
+     * @param StreamInterface[] $streams Streams to decorate. Each stream must
+     *                                   be readable.
+     */
+    public function __construct(array $streams = [])
+    {
+        foreach ($streams as $stream) {
+            $this->addStream($stream);
+        }
+    }
+
+    public function __toString()
+    {
+        try {
+            $this->rewind();
+            return $this->getContents();
+        } catch (\Exception $e) {
+            return '';
+        }
+    }
+
+    /**
+     * Add a stream to the AppendStream
+     *
+     * @param StreamInterface $stream Stream to append. Must be readable.
+     *
+     * @throws \InvalidArgumentException if the stream is not readable
+     */
+    public function addStream(StreamInterface $stream)
+    {
+        if (!$stream->isReadable()) {
+            throw new \InvalidArgumentException('Each stream must be readable');
+        }
+
+        // The stream is only seekable if all streams are seekable
+        if (!$stream->isSeekable()) {
+            $this->seekable = false;
+        }
+
+        $this->streams[] = $stream;
+    }
+
+    public function getContents()
+    {
+        return Utils::copyToString($this);
+    }
+
+    /**
+     * Closes each attached stream.
+     *
+     * {@inheritdoc}
+     */
+    public function close()
+    {
+        $this->pos = $this->current = 0;
+        $this->seekable = true;
+
+        foreach ($this->streams as $stream) {
+            $stream->close();
+        }
+
+        $this->streams = [];
+    }
+
+    /**
+     * Detaches each attached stream.
+     *
+     * Returns null as it's not clear which underlying stream resource to return.
+     *
+     * {@inheritdoc}
+     */
+    public function detach()
+    {
+        $this->pos = $this->current = 0;
+        $this->seekable = true;
+
+        foreach ($this->streams as $stream) {
+            $stream->detach();
+        }
+
+        $this->streams = [];
+
+        return null;
+    }
+
+    public function tell()
+    {
+        return $this->pos;
+    }
+
+    /**
+     * Tries to calculate the size by adding the size of each stream.
+     *
+     * If any of the streams do not return a valid number, then the size of the
+     * append stream cannot be determined and null is returned.
+     *
+     * {@inheritdoc}
+     */
+    public function getSize()
+    {
+        $size = 0;
+
+        foreach ($this->streams as $stream) {
+            $s = $stream->getSize();
+            if ($s === null) {
+                return null;
+            }
+            $size += $s;
+        }
+
+        return $size;
+    }
+
+    public function eof()
+    {
+        return !$this->streams ||
+            ($this->current >= count($this->streams) - 1 &&
+             $this->streams[$this->current]->eof());
+    }
+
+    public function rewind()
+    {
+        $this->seek(0);
+    }
+
+    /**
+     * Attempts to seek to the given position. Only supports SEEK_SET.
+     *
+     * {@inheritdoc}
+     */
+    public function seek($offset, $whence = SEEK_SET)
+    {
+        if (!$this->seekable) {
+            throw new \RuntimeException('This AppendStream is not seekable');
+        } elseif ($whence !== SEEK_SET) {
+            throw new \RuntimeException('The AppendStream can only seek with SEEK_SET');
+        }
+
+        $this->pos = $this->current = 0;
+
+        // Rewind each stream
+        foreach ($this->streams as $i => $stream) {
+            try {
+                $stream->rewind();
+            } catch (\Exception $e) {
+                throw new \RuntimeException('Unable to seek stream '
+                    . $i . ' of the AppendStream', 0, $e);
+            }
+        }
+
+        // Seek to the actual position by reading from each stream
+        while ($this->pos < $offset && !$this->eof()) {
+            $result = $this->read(min(8096, $offset - $this->pos));
+            if ($result === '') {
+                break;
+            }
+        }
+    }
+
+    /**
+     * Reads from all of the appended streams until the length is met or EOF.
+     *
+     * {@inheritdoc}
+     */
+    public function read($length)
+    {
+        $buffer = '';
+        $total = count($this->streams) - 1;
+        $remaining = $length;
+        $progressToNext = false;
+
+        while ($remaining > 0) {
+
+            // Progress to the next stream if needed.
+            if ($progressToNext || $this->streams[$this->current]->eof()) {
+                $progressToNext = false;
+                if ($this->current === $total) {
+                    break;
+                }
+                $this->current++;
+            }
+
+            $result = $this->streams[$this->current]->read($remaining);
+
+            // Using a loose comparison here to match on '', false, and null
+            if ($result == null) {
+                $progressToNext = true;
+                continue;
+            }
+
+            $buffer .= $result;
+            $remaining = $length - strlen($buffer);
+        }
+
+        $this->pos += strlen($buffer);
+
+        return $buffer;
+    }
+
+    public function isReadable()
+    {
+        return true;
+    }
+
+    public function isWritable()
+    {
+        return false;
+    }
+
+    public function isSeekable()
+    {
+        return $this->seekable;
+    }
+
+    public function write($string)
+    {
+        throw new \RuntimeException('Cannot write to an AppendStream');
+    }
+
+    public function getMetadata($key = null)
+    {
+        return $key ? null : [];
+    }
+}

@@ -1,88 +1,207 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ContainerAnalysis\Resource;
+
+use Google\Service\ContainerAnalysis\BatchCreateNotesRequest;
+use Google\Service\ContainerAnalysis\BatchCreateNotesResponse;
+use Google\Service\ContainerAnalysis\ContaineranalysisEmpty;
+use Google\Service\ContainerAnalysis\GetIamPolicyRequest;
+use Google\Service\ContainerAnalysis\ListNotesResponse;
+use Google\Service\ContainerAnalysis\Note;
+use Google\Service\ContainerAnalysis\Policy;
+use Google\Service\ContainerAnalysis\SetIamPolicyRequest;
+use Google\Service\ContainerAnalysis\TestIamPermissionsRequest;
+use Google\Service\ContainerAnalysis\TestIamPermissionsResponse;
+
+/**
+ * The "notes" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $containeranalysisService = new Google\Service\ContainerAnalysis(...);
+ *   $notes = $containeranalysisService->notes;
+ *  </code>
+ */
+class ProjectsNotes extends \Google\Service\Resource
+{
+  /**
+   * Creates new notes in batch. (notes.batchCreate)
+   *
+   * @param string $parent Required. The name of the project in the form of
+   * `projects/[PROJECT_ID]`, under which the notes are to be created.
+   * @param BatchCreateNotesRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return BatchCreateNotesResponse
+   */
+  public function batchCreate($parent, BatchCreateNotesRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('batchCreate', [$params], BatchCreateNotesResponse::class);
+  }
+  /**
+   * Creates a new note. (notes.create)
+   *
+   * @param string $parent Required. The name of the project in the form of
+   * `projects/[PROJECT_ID]`, under which the note is to be created.
+   * @param Note $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string noteId Required. The ID to use for this note.
+   * @return Note
+   */
+  public function create($parent, Note $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Note::class);
+  }
+  /**
+   * Deletes the specified note. (notes.delete)
+   *
+   * @param string $name Required. The name of the note in the form of
+   * `projects/[PROVIDER_ID]/notes/[NOTE_ID]`.
+   * @param array $optParams Optional parameters.
+   * @return ContaineranalysisEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], ContaineranalysisEmpty::class);
+  }
+  /**
+   * Gets the specified note. (notes.get)
+   *
+   * @param string $name Required. The name of the note in the form of
+   * `projects/[PROVIDER_ID]/notes/[NOTE_ID]`.
+   * @param array $optParams Optional parameters.
+   * @return Note
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Note::class);
+  }
+  /**
+   * Gets the access control policy for a note or an occurrence resource. Requires
+   * `containeranalysis.notes.setIamPolicy` or
+   * `containeranalysis.occurrences.setIamPolicy` permission if the resource is a
+   * note or occurrence, respectively. The resource takes the format
+   * `projects/[PROJECT_ID]/notes/[NOTE_ID]` for notes and
+   * `projects/[PROJECT_ID]/occurrences/[OCCURRENCE_ID]` for occurrences.
+   * (notes.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param GetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function getIamPolicy($resource, GetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Lists notes for the specified project. (notes.listProjectsNotes)
+   *
+   * @param string $parent Required. The name of the project to list notes for in
+   * the form of `projects/[PROJECT_ID]`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter The filter expression.
+   * @opt_param int pageSize Number of notes to return in the list. Must be
+   * positive. Max allowed page size is 1000. If not specified, page size defaults
+   * to 20.
+   * @opt_param string pageToken Token to provide to skip to a particular spot in
+   * the list.
+   * @return ListNotesResponse
+   */
+  public function listProjectsNotes($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListNotesResponse::class);
+  }
+  /**
+   * Updates the specified note. (notes.patch)
+   *
+   * @param string $name Required. The name of the note in the form of
+   * `projects/[PROVIDER_ID]/notes/[NOTE_ID]`.
+   * @param Note $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask The fields to update.
+   * @return Note
+   */
+  public function patch($name, Note $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Note::class);
+  }
+  /**
+   * Sets the access control policy on the specified note or occurrence. Requires
+   * `containeranalysis.notes.setIamPolicy` or
+   * `containeranalysis.occurrences.setIamPolicy` permission if the resource is a
+   * note or an occurrence, respectively. The resource takes the format
+   * `projects/[PROJECT_ID]/notes/[NOTE_ID]` for notes and
+   * `projects/[PROJECT_ID]/occurrences/[OCCURRENCE_ID]` for occurrences.
+   * (notes.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Returns the permissions that a caller has on the specified note or
+   * occurrence. Requires list permission on the project (for example,
+   * `containeranalysis.notes.list`). The resource takes the format
+   * `projects/[PROJECT_ID]/notes/[NOTE_ID]` for notes and
+   * `projects/[PROJECT_ID]/occurrences/[OCCURRENCE_ID]` for occurrences.
+   * (notes.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsNotes::class, 'Google_Service_ContainerAnalysis_Resource_ProjectsNotes');

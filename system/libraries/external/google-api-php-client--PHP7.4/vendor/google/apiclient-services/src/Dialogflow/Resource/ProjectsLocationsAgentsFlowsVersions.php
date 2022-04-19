@@ -1,76 +1,136 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-W38sIW==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dialogflow\Resource;
+
+use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3ListVersionsResponse;
+use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3LoadVersionRequest;
+use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3Version;
+use Google\Service\Dialogflow\GoogleLongrunningOperation;
+use Google\Service\Dialogflow\GoogleProtobufEmpty;
+
+/**
+ * The "versions" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $dialogflowService = new Google\Service\Dialogflow(...);
+ *   $versions = $dialogflowService->versions;
+ *  </code>
+ */
+class ProjectsLocationsAgentsFlowsVersions extends \Google\Service\Resource
+{
+  /**
+   * Creates a Version in the specified Flow. (versions.create)
+   *
+   * @param string $parent Required. The Flow to create an Version for. Format:
+   * `projects//locations//agents//flows/`.
+   * @param GoogleCloudDialogflowCxV3Version $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function create($parent, GoogleCloudDialogflowCxV3Version $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Deletes the specified Version. (versions.delete)
+   *
+   * @param string $name Required. The name of the Version to delete. Format:
+   * `projects//locations//agents//flows//versions/`.
+   * @param array $optParams Optional parameters.
+   * @return GoogleProtobufEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
+  }
+  /**
+   * Retrieves the specified Version. (versions.get)
+   *
+   * @param string $name Required. The name of the Version. Format:
+   * `projects//locations//agents//flows//versions/`.
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudDialogflowCxV3Version
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudDialogflowCxV3Version::class);
+  }
+  /**
+   * Returns the list of all versions in the specified Flow.
+   * (versions.listProjectsLocationsAgentsFlowsVersions)
+   *
+   * @param string $parent Required. The Flow to list all versions for. Format:
+   * `projects//locations//agents//flows/`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The maximum number of items to return in a single
+   * page. By default 20 and at most 100.
+   * @opt_param string pageToken The next_page_token value returned from a
+   * previous list request.
+   * @return GoogleCloudDialogflowCxV3ListVersionsResponse
+   */
+  public function listProjectsLocationsAgentsFlowsVersions($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleCloudDialogflowCxV3ListVersionsResponse::class);
+  }
+  /**
+   * Loads resources in the specified version to the draft flow. (versions.load)
+   *
+   * @param string $name Required. The Version to be loaded to draft flow. Format:
+   * `projects//locations//agents//flows//versions/`.
+   * @param GoogleCloudDialogflowCxV3LoadVersionRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function load($name, GoogleCloudDialogflowCxV3LoadVersionRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('load', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Updates the specified Version. (versions.patch)
+   *
+   * @param string $name Format: projects//locations//agents//flows//versions/.
+   * Version ID is a self-increasing number generated by Dialogflow upon version
+   * creation.
+   * @param GoogleCloudDialogflowCxV3Version $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. The mask to control which fields get
+   * updated. Currently only `description` and `display_name` can be updated.
+   * @return GoogleCloudDialogflowCxV3Version
+   */
+  public function patch($name, GoogleCloudDialogflowCxV3Version $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], GoogleCloudDialogflowCxV3Version::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsAgentsFlowsVersions::class, 'Google_Service_Dialogflow_Resource_ProjectsLocationsAgentsFlowsVersions');

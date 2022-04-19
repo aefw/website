@@ -1,76 +1,115 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudAsset;
+
+class WindowsUpdatePackage extends \Google\Collection
+{
+  protected $collection_key = 'moreInfoUrls';
+  protected $categoriesType = WindowsUpdateCategory::class;
+  protected $categoriesDataType = 'array';
+  public $description;
+  public $kbArticleIds;
+  public $lastDeploymentChangeTime;
+  public $moreInfoUrls;
+  public $revisionNumber;
+  public $supportUrl;
+  public $title;
+  public $updateId;
+
+  /**
+   * @param WindowsUpdateCategory[]
+   */
+  public function setCategories($categories)
+  {
+    $this->categories = $categories;
+  }
+  /**
+   * @return WindowsUpdateCategory[]
+   */
+  public function getCategories()
+  {
+    return $this->categories;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setKbArticleIds($kbArticleIds)
+  {
+    $this->kbArticleIds = $kbArticleIds;
+  }
+  public function getKbArticleIds()
+  {
+    return $this->kbArticleIds;
+  }
+  public function setLastDeploymentChangeTime($lastDeploymentChangeTime)
+  {
+    $this->lastDeploymentChangeTime = $lastDeploymentChangeTime;
+  }
+  public function getLastDeploymentChangeTime()
+  {
+    return $this->lastDeploymentChangeTime;
+  }
+  public function setMoreInfoUrls($moreInfoUrls)
+  {
+    $this->moreInfoUrls = $moreInfoUrls;
+  }
+  public function getMoreInfoUrls()
+  {
+    return $this->moreInfoUrls;
+  }
+  public function setRevisionNumber($revisionNumber)
+  {
+    $this->revisionNumber = $revisionNumber;
+  }
+  public function getRevisionNumber()
+  {
+    return $this->revisionNumber;
+  }
+  public function setSupportUrl($supportUrl)
+  {
+    $this->supportUrl = $supportUrl;
+  }
+  public function getSupportUrl()
+  {
+    return $this->supportUrl;
+  }
+  public function setTitle($title)
+  {
+    $this->title = $title;
+  }
+  public function getTitle()
+  {
+    return $this->title;
+  }
+  public function setUpdateId($updateId)
+  {
+    $this->updateId = $updateId;
+  }
+  public function getUpdateId()
+  {
+    return $this->updateId;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(WindowsUpdatePackage::class, 'Google_Service_CloudAsset_WindowsUpdatePackage');

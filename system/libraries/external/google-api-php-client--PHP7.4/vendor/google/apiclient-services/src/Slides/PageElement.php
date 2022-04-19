@@ -1,91 +1,213 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-u5NpDRCj8W5g4iYEgQEBtl+L9G==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Slides;
+
+class PageElement extends \Google\Model
+{
+  public $description;
+  protected $elementGroupType = Group::class;
+  protected $elementGroupDataType = '';
+  protected $imageType = Image::class;
+  protected $imageDataType = '';
+  protected $lineType = Line::class;
+  protected $lineDataType = '';
+  public $objectId;
+  protected $shapeType = Shape::class;
+  protected $shapeDataType = '';
+  protected $sheetsChartType = SheetsChart::class;
+  protected $sheetsChartDataType = '';
+  protected $sizeType = Size::class;
+  protected $sizeDataType = '';
+  protected $tableType = Table::class;
+  protected $tableDataType = '';
+  public $title;
+  protected $transformType = AffineTransform::class;
+  protected $transformDataType = '';
+  protected $videoType = Video::class;
+  protected $videoDataType = '';
+  protected $wordArtType = WordArt::class;
+  protected $wordArtDataType = '';
+
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  /**
+   * @param Group
+   */
+  public function setElementGroup(Group $elementGroup)
+  {
+    $this->elementGroup = $elementGroup;
+  }
+  /**
+   * @return Group
+   */
+  public function getElementGroup()
+  {
+    return $this->elementGroup;
+  }
+  /**
+   * @param Image
+   */
+  public function setImage(Image $image)
+  {
+    $this->image = $image;
+  }
+  /**
+   * @return Image
+   */
+  public function getImage()
+  {
+    return $this->image;
+  }
+  /**
+   * @param Line
+   */
+  public function setLine(Line $line)
+  {
+    $this->line = $line;
+  }
+  /**
+   * @return Line
+   */
+  public function getLine()
+  {
+    return $this->line;
+  }
+  public function setObjectId($objectId)
+  {
+    $this->objectId = $objectId;
+  }
+  public function getObjectId()
+  {
+    return $this->objectId;
+  }
+  /**
+   * @param Shape
+   */
+  public function setShape(Shape $shape)
+  {
+    $this->shape = $shape;
+  }
+  /**
+   * @return Shape
+   */
+  public function getShape()
+  {
+    return $this->shape;
+  }
+  /**
+   * @param SheetsChart
+   */
+  public function setSheetsChart(SheetsChart $sheetsChart)
+  {
+    $this->sheetsChart = $sheetsChart;
+  }
+  /**
+   * @return SheetsChart
+   */
+  public function getSheetsChart()
+  {
+    return $this->sheetsChart;
+  }
+  /**
+   * @param Size
+   */
+  public function setSize(Size $size)
+  {
+    $this->size = $size;
+  }
+  /**
+   * @return Size
+   */
+  public function getSize()
+  {
+    return $this->size;
+  }
+  /**
+   * @param Table
+   */
+  public function setTable(Table $table)
+  {
+    $this->table = $table;
+  }
+  /**
+   * @return Table
+   */
+  public function getTable()
+  {
+    return $this->table;
+  }
+  public function setTitle($title)
+  {
+    $this->title = $title;
+  }
+  public function getTitle()
+  {
+    return $this->title;
+  }
+  /**
+   * @param AffineTransform
+   */
+  public function setTransform(AffineTransform $transform)
+  {
+    $this->transform = $transform;
+  }
+  /**
+   * @return AffineTransform
+   */
+  public function getTransform()
+  {
+    return $this->transform;
+  }
+  /**
+   * @param Video
+   */
+  public function setVideo(Video $video)
+  {
+    $this->video = $video;
+  }
+  /**
+   * @return Video
+   */
+  public function getVideo()
+  {
+    return $this->video;
+  }
+  /**
+   * @param WordArt
+   */
+  public function setWordArt(WordArt $wordArt)
+  {
+    $this->wordArt = $wordArt;
+  }
+  /**
+   * @return WordArt
+   */
+  public function getWordArt()
+  {
+    return $this->wordArt;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PageElement::class, 'Google_Service_Slides_PageElement');

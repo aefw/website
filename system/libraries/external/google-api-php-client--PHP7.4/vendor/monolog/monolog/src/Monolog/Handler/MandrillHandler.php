@@ -1,76 +1,85 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-rBildArHPhksaHlROm==
+<?php declare(strict_types=1);
+
+/*
+ * This file is part of the Monolog package.
+ *
+ * (c) Jordi Boggiano <j.boggiano@seld.be>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Monolog\Handler;
+
+use Monolog\Logger;
+use Swift;
+use Swift_Message;
+
+/**
+ * MandrillHandler uses cURL to send the emails to the Mandrill API
+ *
+ * @author Adam Nicholson <adamnicholson10@gmail.com>
+ */
+class MandrillHandler extends MailHandler
+{
+    /** @var Swift_Message */
+    protected $message;
+    /** @var string */
+    protected $apiKey;
+
+    /**
+     * @psalm-param Swift_Message|callable(): Swift_Message $message
+     *
+     * @param string                 $apiKey  A valid Mandrill API key
+     * @param callable|Swift_Message $message An example message for real messages, only the body will be replaced
+     * @param string|int             $level   The minimum logging level at which this handler will be triggered
+     * @param bool                   $bubble  Whether the messages that are handled can bubble up the stack or not
+     */
+    public function __construct(string $apiKey, $message, $level = Logger::ERROR, bool $bubble = true)
+    {
+        parent::__construct($level, $bubble);
+
+        if (!$message instanceof Swift_Message && is_callable($message)) {
+            $message = $message();
+        }
+        if (!$message instanceof Swift_Message) {
+            throw new \InvalidArgumentException('You must provide either a Swift_Message instance or a callable returning it');
+        }
+        $this->message = $message;
+        $this->apiKey = $apiKey;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    protected function send(string $content, array $records): void
+    {
+        $mime = 'text/plain';
+        if ($this->isHtmlBody($content)) {
+            $mime = 'text/html';
+        }
+
+        $message = clone $this->message;
+        $message->setBody($content, $mime);
+        /** @phpstan-ignore-next-line */
+        if (version_compare(Swift::VERSION, '6.0.0', '>=')) {
+            $message->setDate(new \DateTimeImmutable());
+        } else {
+            /** @phpstan-ignore-next-line */
+            $message->setDate(time());
+        }
+
+        $ch = curl_init();
+
+        curl_setopt($ch, CURLOPT_URL, 'https://mandrillapp.com/api/1.0/messages/send-raw.json');
+        curl_setopt($ch, CURLOPT_POST, 1);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query([
+            'key' => $this->apiKey,
+            'raw_message' => (string) $message,
+            'async' => false,
+        ]));
+
+        Curl\Util::execute($ch);
+    }
+}

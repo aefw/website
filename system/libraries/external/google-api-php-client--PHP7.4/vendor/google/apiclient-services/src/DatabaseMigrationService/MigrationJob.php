@@ -1,117 +1,239 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DatabaseMigrationService;
+
+class MigrationJob extends \Google\Model
+{
+  public $createTime;
+  public $destination;
+  protected $destinationDatabaseType = DatabaseType::class;
+  protected $destinationDatabaseDataType = '';
+  public $displayName;
+  public $dumpPath;
+  public $duration;
+  public $endTime;
+  protected $errorType = Status::class;
+  protected $errorDataType = '';
+  public $labels;
+  public $name;
+  public $phase;
+  protected $reverseSshConnectivityType = ReverseSshConnectivity::class;
+  protected $reverseSshConnectivityDataType = '';
+  public $source;
+  protected $sourceDatabaseType = DatabaseType::class;
+  protected $sourceDatabaseDataType = '';
+  public $state;
+  protected $staticIpConnectivityType = StaticIpConnectivity::class;
+  protected $staticIpConnectivityDataType = '';
+  public $type;
+  public $updateTime;
+  protected $vpcPeeringConnectivityType = VpcPeeringConnectivity::class;
+  protected $vpcPeeringConnectivityDataType = '';
+
+  public function setCreateTime($createTime)
+  {
+    $this->createTime = $createTime;
+  }
+  public function getCreateTime()
+  {
+    return $this->createTime;
+  }
+  public function setDestination($destination)
+  {
+    $this->destination = $destination;
+  }
+  public function getDestination()
+  {
+    return $this->destination;
+  }
+  /**
+   * @param DatabaseType
+   */
+  public function setDestinationDatabase(DatabaseType $destinationDatabase)
+  {
+    $this->destinationDatabase = $destinationDatabase;
+  }
+  /**
+   * @return DatabaseType
+   */
+  public function getDestinationDatabase()
+  {
+    return $this->destinationDatabase;
+  }
+  public function setDisplayName($displayName)
+  {
+    $this->displayName = $displayName;
+  }
+  public function getDisplayName()
+  {
+    return $this->displayName;
+  }
+  public function setDumpPath($dumpPath)
+  {
+    $this->dumpPath = $dumpPath;
+  }
+  public function getDumpPath()
+  {
+    return $this->dumpPath;
+  }
+  public function setDuration($duration)
+  {
+    $this->duration = $duration;
+  }
+  public function getDuration()
+  {
+    return $this->duration;
+  }
+  public function setEndTime($endTime)
+  {
+    $this->endTime = $endTime;
+  }
+  public function getEndTime()
+  {
+    return $this->endTime;
+  }
+  /**
+   * @param Status
+   */
+  public function setError(Status $error)
+  {
+    $this->error = $error;
+  }
+  /**
+   * @return Status
+   */
+  public function getError()
+  {
+    return $this->error;
+  }
+  public function setLabels($labels)
+  {
+    $this->labels = $labels;
+  }
+  public function getLabels()
+  {
+    return $this->labels;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setPhase($phase)
+  {
+    $this->phase = $phase;
+  }
+  public function getPhase()
+  {
+    return $this->phase;
+  }
+  /**
+   * @param ReverseSshConnectivity
+   */
+  public function setReverseSshConnectivity(ReverseSshConnectivity $reverseSshConnectivity)
+  {
+    $this->reverseSshConnectivity = $reverseSshConnectivity;
+  }
+  /**
+   * @return ReverseSshConnectivity
+   */
+  public function getReverseSshConnectivity()
+  {
+    return $this->reverseSshConnectivity;
+  }
+  public function setSource($source)
+  {
+    $this->source = $source;
+  }
+  public function getSource()
+  {
+    return $this->source;
+  }
+  /**
+   * @param DatabaseType
+   */
+  public function setSourceDatabase(DatabaseType $sourceDatabase)
+  {
+    $this->sourceDatabase = $sourceDatabase;
+  }
+  /**
+   * @return DatabaseType
+   */
+  public function getSourceDatabase()
+  {
+    return $this->sourceDatabase;
+  }
+  public function setState($state)
+  {
+    $this->state = $state;
+  }
+  public function getState()
+  {
+    return $this->state;
+  }
+  /**
+   * @param StaticIpConnectivity
+   */
+  public function setStaticIpConnectivity(StaticIpConnectivity $staticIpConnectivity)
+  {
+    $this->staticIpConnectivity = $staticIpConnectivity;
+  }
+  /**
+   * @return StaticIpConnectivity
+   */
+  public function getStaticIpConnectivity()
+  {
+    return $this->staticIpConnectivity;
+  }
+  public function setType($type)
+  {
+    $this->type = $type;
+  }
+  public function getType()
+  {
+    return $this->type;
+  }
+  public function setUpdateTime($updateTime)
+  {
+    $this->updateTime = $updateTime;
+  }
+  public function getUpdateTime()
+  {
+    return $this->updateTime;
+  }
+  /**
+   * @param VpcPeeringConnectivity
+   */
+  public function setVpcPeeringConnectivity(VpcPeeringConnectivity $vpcPeeringConnectivity)
+  {
+    $this->vpcPeeringConnectivity = $vpcPeeringConnectivity;
+  }
+  /**
+   * @return VpcPeeringConnectivity
+   */
+  public function getVpcPeeringConnectivity()
+  {
+    return $this->vpcPeeringConnectivity;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(MigrationJob::class, 'Google_Service_DatabaseMigrationService_MigrationJob');

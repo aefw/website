@@ -1,68 +1,89 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AndroidManagement;
+
+class DeviceSettings extends \Google\Model
+{
+  public $adbEnabled;
+  public $developmentSettingsEnabled;
+  public $encryptionStatus;
+  public $isDeviceSecure;
+  public $isEncrypted;
+  public $unknownSourcesEnabled;
+  public $verifyAppsEnabled;
+
+  public function setAdbEnabled($adbEnabled)
+  {
+    $this->adbEnabled = $adbEnabled;
+  }
+  public function getAdbEnabled()
+  {
+    return $this->adbEnabled;
+  }
+  public function setDevelopmentSettingsEnabled($developmentSettingsEnabled)
+  {
+    $this->developmentSettingsEnabled = $developmentSettingsEnabled;
+  }
+  public function getDevelopmentSettingsEnabled()
+  {
+    return $this->developmentSettingsEnabled;
+  }
+  public function setEncryptionStatus($encryptionStatus)
+  {
+    $this->encryptionStatus = $encryptionStatus;
+  }
+  public function getEncryptionStatus()
+  {
+    return $this->encryptionStatus;
+  }
+  public function setIsDeviceSecure($isDeviceSecure)
+  {
+    $this->isDeviceSecure = $isDeviceSecure;
+  }
+  public function getIsDeviceSecure()
+  {
+    return $this->isDeviceSecure;
+  }
+  public function setIsEncrypted($isEncrypted)
+  {
+    $this->isEncrypted = $isEncrypted;
+  }
+  public function getIsEncrypted()
+  {
+    return $this->isEncrypted;
+  }
+  public function setUnknownSourcesEnabled($unknownSourcesEnabled)
+  {
+    $this->unknownSourcesEnabled = $unknownSourcesEnabled;
+  }
+  public function getUnknownSourcesEnabled()
+  {
+    return $this->unknownSourcesEnabled;
+  }
+  public function setVerifyAppsEnabled($verifyAppsEnabled)
+  {
+    $this->verifyAppsEnabled = $verifyAppsEnabled;
+  }
+  public function getVerifyAppsEnabled()
+  {
+    return $this->verifyAppsEnabled;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(DeviceSettings::class, 'Google_Service_AndroidManagement_DeviceSettings');

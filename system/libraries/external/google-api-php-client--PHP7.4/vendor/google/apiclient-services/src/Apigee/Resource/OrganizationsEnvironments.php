@@ -1,116 +1,320 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-AjEbsPB3mW==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Apigee\Resource;
+
+use Google\Service\Apigee\GoogleCloudApigeeV1DebugMask;
+use Google\Service\Apigee\GoogleCloudApigeeV1Environment;
+use Google\Service\Apigee\GoogleCloudApigeeV1EnvironmentConfig;
+use Google\Service\Apigee\GoogleCloudApigeeV1Subscription;
+use Google\Service\Apigee\GoogleCloudApigeeV1TraceConfig;
+use Google\Service\Apigee\GoogleIamV1Policy;
+use Google\Service\Apigee\GoogleIamV1SetIamPolicyRequest;
+use Google\Service\Apigee\GoogleIamV1TestIamPermissionsRequest;
+use Google\Service\Apigee\GoogleIamV1TestIamPermissionsResponse;
+use Google\Service\Apigee\GoogleLongrunningOperation;
+use Google\Service\Apigee\GoogleProtobufEmpty;
+
+/**
+ * The "environments" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $apigeeService = new Google\Service\Apigee(...);
+ *   $environments = $apigeeService->environments;
+ *  </code>
+ */
+class OrganizationsEnvironments extends \Google\Service\Resource
+{
+  /**
+   * Creates an environment in an organization. (environments.create)
+   *
+   * @param string $parent Required. Name of the organization in which the
+   * environment will be created. Use the following structure in your request:
+   * `organizations/{org}`
+   * @param GoogleCloudApigeeV1Environment $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string name Optional. Name of the environment. Alternatively, the
+   * name may be specified in the request body in the name field.
+   * @return GoogleLongrunningOperation
+   */
+  public function create($parent, GoogleCloudApigeeV1Environment $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Deletes an environment from an organization. (environments.delete)
+   *
+   * @param string $name Required. Name of the environment. Use the following
+   * structure in your request: `organizations/{org}/environments/{env}`
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Gets environment details. (environments.get)
+   *
+   * @param string $name Required. Name of the environment. Use the following
+   * structure in your request: `organizations/{org}/environments/{env}`
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1Environment
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudApigeeV1Environment::class);
+  }
+  /**
+   * Gets the debug mask singleton resource for an environment.
+   * (environments.getDebugmask)
+   *
+   * @param string $name Required. Name of the debug mask. Use the following
+   * structure in your request:
+   * `organizations/{org}/environments/{env}/debugmask`.
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1DebugMask
+   */
+  public function getDebugmask($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('getDebugmask', [$params], GoogleCloudApigeeV1DebugMask::class);
+  }
+  /**
+   * Gets the deployed configuration for an environment.
+   * (environments.getDeployedConfig)
+   *
+   * @param string $name Required. Name of the environment deployed configuration
+   * resource. Use the following structure in your request:
+   * `organizations/{org}/environments/{env}/deployedConfig`
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1EnvironmentConfig
+   */
+  public function getDeployedConfig($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('getDeployedConfig', [$params], GoogleCloudApigeeV1EnvironmentConfig::class);
+  }
+  /**
+   * Gets the IAM policy on an environment. For more information, see [Manage
+   * users, roles, and permissions using the
+   * API](https://cloud.google.com/apigee/docs/api-platform/system-administration
+   * /manage-users-roles). You must have the `apigee.environments.getIamPolicy`
+   * permission to call this API. (environments.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int options.requestedPolicyVersion Optional. The policy format
+   * version to be returned. Valid values are 0, 1, and 3. Requests specifying an
+   * invalid value will be rejected. Requests for policies with any conditional
+   * bindings must specify version 3. Policies without any conditional bindings
+   * may specify any valid value or leave the field unset. To learn which
+   * resources support conditions in their IAM policies, see the [IAM
+   * documentation](https://cloud.google.com/iam/help/conditions/resource-
+   * policies).
+   * @return GoogleIamV1Policy
+   */
+  public function getIamPolicy($resource, $optParams = [])
+  {
+    $params = ['resource' => $resource];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], GoogleIamV1Policy::class);
+  }
+  /**
+   * Get distributed trace configuration in an environment.
+   * (environments.getTraceConfig)
+   *
+   * @param string $name Required. Name of the trace configuration. Use the
+   * following structure in your request:
+   * "organizations/environments/traceConfig".
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1TraceConfig
+   */
+  public function getTraceConfig($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('getTraceConfig', [$params], GoogleCloudApigeeV1TraceConfig::class);
+  }
+  /**
+   * Sets the IAM policy on an environment, if the policy already exists it will
+   * be replaced. For more information, see [Manage users, roles, and permissions
+   * using the API](https://cloud.google.com/apigee/docs/api-platform/system-
+   * administration/manage-users-roles). You must have the
+   * `apigee.environments.setIamPolicy` permission to call this API.
+   * (environments.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param GoogleIamV1SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleIamV1Policy
+   */
+  public function setIamPolicy($resource, GoogleIamV1SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], GoogleIamV1Policy::class);
+  }
+  /**
+   * Creates a subscription for the environment's Pub/Sub topic. The server will
+   * assign a random name for this subscription. The "name" and "push_config" must
+   * *not* be specified. (environments.subscribe)
+   *
+   * @param string $parent Required. Name of the environment. Use the following
+   * structure in your request: `organizations/{org}/environments/{env}`
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1Subscription
+   */
+  public function subscribe($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('subscribe', [$params], GoogleCloudApigeeV1Subscription::class);
+  }
+  /**
+   * Tests the permissions of a user on an environment, and returns a subset of
+   * permissions that the user has on the environment. If the environment does not
+   * exist, an empty permission set is returned (a NOT_FOUND error is not
+   * returned). (environments.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param GoogleIamV1TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleIamV1TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, GoogleIamV1TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], GoogleIamV1TestIamPermissionsResponse::class);
+  }
+  /**
+   * Deletes a subscription for the environment's Pub/Sub topic.
+   * (environments.unsubscribe)
+   *
+   * @param string $parent Required. Name of the environment. Use the following
+   * structure in your request: `organizations/{org}/environments/{env}`
+   * @param GoogleCloudApigeeV1Subscription $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleProtobufEmpty
+   */
+  public function unsubscribe($parent, GoogleCloudApigeeV1Subscription $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('unsubscribe', [$params], GoogleProtobufEmpty::class);
+  }
+  /**
+   * Updates an existing environment. When updating properties, you must pass all
+   * existing properties to the API, even if they are not being changed. If you
+   * omit properties from the payload, the properties are removed. To get the
+   * current list of properties for the environment, use the [Get Environment
+   * API](get). (environments.update)
+   *
+   * @param string $name Required. Name of the environment. Use the following
+   * structure in your request: `organizations/{org}/environments/{env}`
+   * @param GoogleCloudApigeeV1Environment $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1Environment
+   */
+  public function update($name, GoogleCloudApigeeV1Environment $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], GoogleCloudApigeeV1Environment::class);
+  }
+  /**
+   * Updates the debug mask singleton resource for an environment.
+   * (environments.updateDebugmask)
+   *
+   * @param string $name Name of the debug mask.
+   * @param GoogleCloudApigeeV1DebugMask $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool replaceRepeatedFields Boolean flag that specifies whether to
+   * replace existing values in the debug mask when doing an update. Set to true
+   * to replace existing values. The default behavior is to append the values
+   * (false).
+   * @opt_param string updateMask Field debug mask to support partial updates.
+   * @return GoogleCloudApigeeV1DebugMask
+   */
+  public function updateDebugmask($name, GoogleCloudApigeeV1DebugMask $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('updateDebugmask', [$params], GoogleCloudApigeeV1DebugMask::class);
+  }
+  /**
+   * Updates an existing environment. When updating properties, you must pass all
+   * existing properties to the API, even if they are not being changed. If you
+   * omit properties from the payload, the properties are removed. To get the
+   * current list of properties for the environment, use the [Get Environment
+   * API](get). (environments.updateEnvironment)
+   *
+   * @param string $name Required. Name of the environment. Use the following
+   * structure in your request: `organizations/{org}/environments/{env}`
+   * @param GoogleCloudApigeeV1Environment $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1Environment
+   */
+  public function updateEnvironment($name, GoogleCloudApigeeV1Environment $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('updateEnvironment', [$params], GoogleCloudApigeeV1Environment::class);
+  }
+  /**
+   * Updates the trace configurations in an environment. Note that the repeated
+   * fields have replace semantics when included in the field mask and that they
+   * will be overwritten by the value of the fields in the request body.
+   * (environments.updateTraceConfig)
+   *
+   * @param string $name Required. Name of the trace configuration. Use the
+   * following structure in your request:
+   * "organizations/environments/traceConfig".
+   * @param GoogleCloudApigeeV1TraceConfig $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask List of fields to be updated.
+   * @return GoogleCloudApigeeV1TraceConfig
+   */
+  public function updateTraceConfig($name, GoogleCloudApigeeV1TraceConfig $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('updateTraceConfig', [$params], GoogleCloudApigeeV1TraceConfig::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(OrganizationsEnvironments::class, 'Google_Service_Apigee_Resource_OrganizationsEnvironments');

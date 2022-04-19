@@ -1,78 +1,134 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-aTmiCmImw38wi3jxFpq=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dfareporting;
+
+class ReportReachCriteria extends \Google\Collection
+{
+  protected $collection_key = 'reachByFrequencyMetricNames';
+  protected $activitiesType = Activities::class;
+  protected $activitiesDataType = '';
+  protected $customRichMediaEventsType = CustomRichMediaEvents::class;
+  protected $customRichMediaEventsDataType = '';
+  protected $dateRangeType = DateRange::class;
+  protected $dateRangeDataType = '';
+  protected $dimensionFiltersType = DimensionValue::class;
+  protected $dimensionFiltersDataType = 'array';
+  protected $dimensionsType = SortedDimension::class;
+  protected $dimensionsDataType = 'array';
+  public $enableAllDimensionCombinations;
+  public $metricNames;
+  public $reachByFrequencyMetricNames;
+
+  /**
+   * @param Activities
+   */
+  public function setActivities(Activities $activities)
+  {
+    $this->activities = $activities;
+  }
+  /**
+   * @return Activities
+   */
+  public function getActivities()
+  {
+    return $this->activities;
+  }
+  /**
+   * @param CustomRichMediaEvents
+   */
+  public function setCustomRichMediaEvents(CustomRichMediaEvents $customRichMediaEvents)
+  {
+    $this->customRichMediaEvents = $customRichMediaEvents;
+  }
+  /**
+   * @return CustomRichMediaEvents
+   */
+  public function getCustomRichMediaEvents()
+  {
+    return $this->customRichMediaEvents;
+  }
+  /**
+   * @param DateRange
+   */
+  public function setDateRange(DateRange $dateRange)
+  {
+    $this->dateRange = $dateRange;
+  }
+  /**
+   * @return DateRange
+   */
+  public function getDateRange()
+  {
+    return $this->dateRange;
+  }
+  /**
+   * @param DimensionValue[]
+   */
+  public function setDimensionFilters($dimensionFilters)
+  {
+    $this->dimensionFilters = $dimensionFilters;
+  }
+  /**
+   * @return DimensionValue[]
+   */
+  public function getDimensionFilters()
+  {
+    return $this->dimensionFilters;
+  }
+  /**
+   * @param SortedDimension[]
+   */
+  public function setDimensions($dimensions)
+  {
+    $this->dimensions = $dimensions;
+  }
+  /**
+   * @return SortedDimension[]
+   */
+  public function getDimensions()
+  {
+    return $this->dimensions;
+  }
+  public function setEnableAllDimensionCombinations($enableAllDimensionCombinations)
+  {
+    $this->enableAllDimensionCombinations = $enableAllDimensionCombinations;
+  }
+  public function getEnableAllDimensionCombinations()
+  {
+    return $this->enableAllDimensionCombinations;
+  }
+  public function setMetricNames($metricNames)
+  {
+    $this->metricNames = $metricNames;
+  }
+  public function getMetricNames()
+  {
+    return $this->metricNames;
+  }
+  public function setReachByFrequencyMetricNames($reachByFrequencyMetricNames)
+  {
+    $this->reachByFrequencyMetricNames = $reachByFrequencyMetricNames;
+  }
+  public function getReachByFrequencyMetricNames()
+  {
+    return $this->reachByFrequencyMetricNames;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ReportReachCriteria::class, 'Google_Service_Dfareporting_ReportReachCriteria');

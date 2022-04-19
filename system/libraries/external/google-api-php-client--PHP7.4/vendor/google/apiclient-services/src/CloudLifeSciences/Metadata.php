@@ -1,67 +1,104 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudLifeSciences;
+
+class Metadata extends \Google\Collection
+{
+  protected $collection_key = 'events';
+  public $createTime;
+  public $endTime;
+  protected $eventsType = Event::class;
+  protected $eventsDataType = 'array';
+  public $labels;
+  protected $pipelineType = Pipeline::class;
+  protected $pipelineDataType = '';
+  public $pubSubTopic;
+  public $startTime;
+
+  public function setCreateTime($createTime)
+  {
+    $this->createTime = $createTime;
+  }
+  public function getCreateTime()
+  {
+    return $this->createTime;
+  }
+  public function setEndTime($endTime)
+  {
+    $this->endTime = $endTime;
+  }
+  public function getEndTime()
+  {
+    return $this->endTime;
+  }
+  /**
+   * @param Event[]
+   */
+  public function setEvents($events)
+  {
+    $this->events = $events;
+  }
+  /**
+   * @return Event[]
+   */
+  public function getEvents()
+  {
+    return $this->events;
+  }
+  public function setLabels($labels)
+  {
+    $this->labels = $labels;
+  }
+  public function getLabels()
+  {
+    return $this->labels;
+  }
+  /**
+   * @param Pipeline
+   */
+  public function setPipeline(Pipeline $pipeline)
+  {
+    $this->pipeline = $pipeline;
+  }
+  /**
+   * @return Pipeline
+   */
+  public function getPipeline()
+  {
+    return $this->pipeline;
+  }
+  public function setPubSubTopic($pubSubTopic)
+  {
+    $this->pubSubTopic = $pubSubTopic;
+  }
+  public function getPubSubTopic()
+  {
+    return $this->pubSubTopic;
+  }
+  public function setStartTime($startTime)
+  {
+    $this->startTime = $startTime;
+  }
+  public function getStartTime()
+  {
+    return $this->startTime;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Metadata::class, 'Google_Service_CloudLifeSciences_Metadata');

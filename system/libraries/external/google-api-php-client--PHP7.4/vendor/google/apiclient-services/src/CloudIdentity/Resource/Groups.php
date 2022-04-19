@@ -1,73 +1,190 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudIdentity\Resource;
+
+use Google\Service\CloudIdentity\Group;
+use Google\Service\CloudIdentity\ListGroupsResponse;
+use Google\Service\CloudIdentity\LookupGroupNameResponse;
+use Google\Service\CloudIdentity\Operation;
+use Google\Service\CloudIdentity\SearchGroupsResponse;
+
+/**
+ * The "groups" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $cloudidentityService = new Google\Service\CloudIdentity(...);
+ *   $groups = $cloudidentityService->groups;
+ *  </code>
+ */
+class Groups extends \Google\Service\Resource
+{
+  /**
+   * Creates a Group. (groups.create)
+   *
+   * @param Group $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string initialGroupConfig Optional. The initial configuration
+   * option for the `Group`.
+   * @return Operation
+   */
+  public function create(Group $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Operation::class);
+  }
+  /**
+   * Deletes a `Group`. (groups.delete)
+   *
+   * @param string $name Required. The [resource
+   * name](https://cloud.google.com/apis/design/resource_names) of the `Group` to
+   * retrieve. Must be of the form `groups/{group_id}`.
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Retrieves a `Group`. (groups.get)
+   *
+   * @param string $name Required. The [resource
+   * name](https://cloud.google.com/apis/design/resource_names) of the `Group` to
+   * retrieve. Must be of the form `groups/{group_id}`.
+   * @param array $optParams Optional parameters.
+   * @return Group
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Group::class);
+  }
+  /**
+   * Lists the `Group` resources under a customer or namespace.
+   * (groups.listGroups)
+   *
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The maximum number of results to return. Note that
+   * the number of results returned may be less than this value even if there are
+   * more available results. To fetch all results, clients must continue calling
+   * this method repeatedly until the response no longer contains a
+   * `next_page_token`. If unspecified, defaults to 200 for `View.BASIC` and to 50
+   * for `View.FULL`. Must not be greater than 1000 for `View.BASIC` or 500 for
+   * `View.FULL`.
+   * @opt_param string pageToken The `next_page_token` value returned from a
+   * previous list request, if any.
+   * @opt_param string parent Required. The parent resource under which to list
+   * all `Group` resources. Must be of the form
+   * `identitysources/{identity_source_id}` for external- identity-mapped groups
+   * or `customers/{customer_id}` for Google Groups. The `customer_id` must begin
+   * with "C" (for example, 'C046psxkn').
+   * @opt_param string view The level of detail to be returned. If unspecified,
+   * defaults to `View.BASIC`.
+   * @return ListGroupsResponse
+   */
+  public function listGroups($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListGroupsResponse::class);
+  }
+  /**
+   * Looks up the [resource
+   * name](https://cloud.google.com/apis/design/resource_names) of a `Group` by
+   * its `EntityKey`. (groups.lookup)
+   *
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string groupKey.id The ID of the entity. For Google-managed
+   * entities, the `id` should be the email address of an existing group or user.
+   * For external-identity-mapped entities, the `id` must be a string conforming
+   * to the Identity Source's requirements. Must be unique within a `namespace`.
+   * @opt_param string groupKey.namespace The namespace in which the entity
+   * exists. If not specified, the `EntityKey` represents a Google-managed entity
+   * such as a Google user or a Google Group. If specified, the `EntityKey`
+   * represents an external-identity-mapped group. The namespace must correspond
+   * to an identity source created in Admin Console and must be in the form of
+   * `identitysources/{identity_source_id}`.
+   * @return LookupGroupNameResponse
+   */
+  public function lookup($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('lookup', [$params], LookupGroupNameResponse::class);
+  }
+  /**
+   * Updates a `Group`. (groups.patch)
+   *
+   * @param string $name Output only. The [resource
+   * name](https://cloud.google.com/apis/design/resource_names) of the `Group`.
+   * Shall be of the form `groups/{group_id}`.
+   * @param Group $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. The fully-qualified names of fields to
+   * update. May only contain the following fields: `display_name`, `description`,
+   * `labels`.
+   * @return Operation
+   */
+  public function patch($name, Group $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+  /**
+   * Searches for `Group` resources matching a specified query. (groups.search)
+   *
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The maximum number of results to return. Note that
+   * the number of results returned may be less than this value even if there are
+   * more available results. To fetch all results, clients must continue calling
+   * this method repeatedly until the response no longer contains a
+   * `next_page_token`. If unspecified, defaults to 200 for `GroupView.BASIC` and
+   * 50 for `GroupView.FULL`. Must not be greater than 1000 for `GroupView.BASIC`
+   * or 500 for `GroupView.FULL`.
+   * @opt_param string pageToken The `next_page_token` value returned from a
+   * previous search request, if any.
+   * @opt_param string query Required. The search query. Must be specified in
+   * [Common Expression Language](https://opensource.google/projects/cel). May
+   * only contain equality operators on the parent and inclusion operators on
+   * labels (e.g., `parent == 'customers/{customer_id}' &&
+   * 'cloudidentity.googleapis.com/groups.discussion_forum' in labels`). The
+   * `customer_id` must begin with "C" (for example, 'C046psxkn').
+   * @opt_param string view The level of detail to be returned. If unspecified,
+   * defaults to `View.BASIC`.
+   * @return SearchGroupsResponse
+   */
+  public function search($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('search', [$params], SearchGroupsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Groups::class, 'Google_Service_CloudIdentity_Resource_Groups');

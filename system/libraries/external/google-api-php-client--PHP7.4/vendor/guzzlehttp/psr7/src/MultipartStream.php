@@ -1,119 +1,158 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+namespace GuzzleHttp\Psr7;
+
+use Psr\Http\Message\StreamInterface;
+
+/**
+ * Stream that when read returns bytes for a streaming multipart or
+ * multipart/form-data stream.
+ *
+ * @final
+ */
+class MultipartStream implements StreamInterface
+{
+    use StreamDecoratorTrait;
+
+    private $boundary;
+
+    /**
+     * @param array  $elements Array of associative arrays, each containing a
+     *                         required "name" key mapping to the form field,
+     *                         name, a required "contents" key mapping to a
+     *                         StreamInterface/resource/string, an optional
+     *                         "headers" associative array of custom headers,
+     *                         and an optional "filename" key mapping to a
+     *                         string to send as the filename in the part.
+     * @param string $boundary You can optionally provide a specific boundary
+     *
+     * @throws \InvalidArgumentException
+     */
+    public function __construct(array $elements = [], $boundary = null)
+    {
+        $this->boundary = $boundary ?: sha1(uniqid('', true));
+        $this->stream = $this->createStream($elements);
+    }
+
+    /**
+     * Get the boundary
+     *
+     * @return string
+     */
+    public function getBoundary()
+    {
+        return $this->boundary;
+    }
+
+    public function isWritable()
+    {
+        return false;
+    }
+
+    /**
+     * Get the headers needed before transferring the content of a POST file
+     */
+    private function getHeaders(array $headers)
+    {
+        $str = '';
+        foreach ($headers as $key => $value) {
+            $str .= "{$key}: {$value}\r\n";
+        }
+
+        return "--{$this->boundary}\r\n" . trim($str) . "\r\n\r\n";
+    }
+
+    /**
+     * Create the aggregate stream that will be used to upload the POST data
+     */
+    protected function createStream(array $elements)
+    {
+        $stream = new AppendStream();
+
+        foreach ($elements as $element) {
+            $this->addElement($stream, $element);
+        }
+
+        // Add the trailing boundary with CRLF
+        $stream->addStream(Utils::streamFor("--{$this->boundary}--\r\n"));
+
+        return $stream;
+    }
+
+    private function addElement(AppendStream $stream, array $element)
+    {
+        foreach (['contents', 'name'] as $key) {
+            if (!array_key_exists($key, $element)) {
+                throw new \InvalidArgumentException("A '{$key}' key is required");
+            }
+        }
+
+        $element['contents'] = Utils::streamFor($element['contents']);
+
+        if (empty($element['filename'])) {
+            $uri = $element['contents']->getMetadata('uri');
+            if (substr($uri, 0, 6) !== 'php://') {
+                $element['filename'] = $uri;
+            }
+        }
+
+        list($body, $headers) = $this->createElement(
+            $element['name'],
+            $element['contents'],
+            isset($element['filename']) ? $element['filename'] : null,
+            isset($element['headers']) ? $element['headers'] : []
+        );
+
+        $stream->addStream(Utils::streamFor($this->getHeaders($headers)));
+        $stream->addStream($body);
+        $stream->addStream(Utils::streamFor("\r\n"));
+    }
+
+    /**
+     * @return array
+     */
+    private function createElement($name, StreamInterface $stream, $filename, array $headers)
+    {
+        // Set a default content-disposition header if one was no provided
+        $disposition = $this->getHeader($headers, 'content-disposition');
+        if (!$disposition) {
+            $headers['Content-Disposition'] = ($filename === '0' || $filename)
+                ? sprintf(
+                    'form-data; name="%s"; filename="%s"',
+                    $name,
+                    basename($filename)
+                )
+                : "form-data; name=\"{$name}\"";
+        }
+
+        // Set a default content-length header if one was no provided
+        $length = $this->getHeader($headers, 'content-length');
+        if (!$length) {
+            if ($length = $stream->getSize()) {
+                $headers['Content-Length'] = (string) $length;
+            }
+        }
+
+        // Set a default Content-Type if one was not supplied
+        $type = $this->getHeader($headers, 'content-type');
+        if (!$type && ($filename === '0' || $filename)) {
+            if ($type = MimeType::fromFilename($filename)) {
+                $headers['Content-Type'] = $type;
+            }
+        }
+
+        return [$stream, $headers];
+    }
+
+    private function getHeader(array $headers, $key)
+    {
+        $lowercaseHeader = strtolower($key);
+        foreach ($headers as $k => $v) {
+            if (strtolower($k) === $lowercaseHeader) {
+                return $v;
+            }
+        }
+
+        return null;
+    }
+}

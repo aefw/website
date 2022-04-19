@@ -1,61 +1,92 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cP+DkFlaP/oQ2/fIZgzf0sXXpwlHN09os2xp8hTQi1ZRpedoY16pSJzLqy3VN71VxMh82uOXX
-eAtanPd3ULE4U+xqkrzHLsBfZ8R3C23o+tx0/sUmMJsEukrPjo1VpAkZXlZjBdOBI+z8i6wWUPG2
-7NMPOlfJVGZxO99Ltbhia98xGrKRb3xwEd66lRIhHyMZfddVtaZUFM4iYE9tbMLp+vdzFJRTgIfa
-aIa0DJx3F/7sW1Ej6PsyzWP4tai+84i/WFkyNbv+tz7QuQlwcnLDUY8bAU9mKourL8IeB86cFae5
-vLKzTh6R0O055Jyv6fw8rD6TSs4jGfZgwfM+AyDsiEWKORbfd9gXZQLob60VYs+oxi295N278eUo
-jpIihZzALGDYfi0KyZVCu6DHBIetke985YlDIMkUeyHehgwJ8lKppLkW7lDWxhh2HEPsvCI9OYRF
-dJS5a/u68cmFLqCbvCdkLZ49pm4SWcpBOINOnjyQTCaX5DVEZ3gSwek6dZrwoMl8JVsRiNhH5EKA
-fh/2SrrxiIMiQ7traXv37T17Tgp/8d/2P3seBuZFsSct+xWbbpQfS9D79DO3SonnRtLZo0AMuXnT
-0EA40HkHHPC+9FR4PCukTa4u7vUVMEH4blKLj5VJZ8ZHd5NNjtuwD8DD/FFrBGkytYkS5cuP/vQs
-NojTmt2oS3KVUoy79VghFz68/Xzbt83GoWL7jHDXqr23SOnamST1qNNQh6SVPzv/n9a6QnE60FC6
-tA9p0ZVP/PHu5n9Sfgjbl3+J9pN0Wq0pOpODgBYpdWiQB8L8YyCHzTsCX6Z2OEk0KaS0yljpm8mV
-5Vyms6DoGxb5o93C4vqjO3jV4RyDnKuwdrfCzyTKdDi+NJFJEKeBgFPE4uVqLy/rdyXuDg+Y4aPt
-I+juCp/z9rlUWsVoEy2J2Pgyi07NO0YzfANxGsjg78sa5RE/lOfsu53+5ptVSFdV2wi3HC99Ljuc
-G7S3XpUylIDRJNvI4CnNpOsGXtS40vaTgIktCqKkqsIPPbHWOvJ/9LHZHFxLY9hZ4z+b1l23T5n5
-tXDJ7VZZ3zPPqfdrw8D87SNCEod4rExNOx8emw5TI3ZvWshkP71JcdBOvHV6040td/vbpBf96nrU
-xUfZsaC1cyuXH/v2KXTpVaya+V3iAEpLMOKEBHRbQ7V5UnEFVkogYBuddZzUPJMX28JZWg18HOPJ
-qbKgmSCkPHFH/7c1msuivx6SPmW0PHoqiB9ggCH7z/Mlx2SAe68rY+yXHqm1EGdrUw8RJzl4ARR6
-C9kOTZOPQb+0DeONB3MDMaomcc+dCzVLQsGD6SW6ThjxanyZl+bB4p4ed1CS3R/MKiSdE/VhWVoM
-C/yf+GF9GFnq5YopJeJCAKTbdV9Ez/bP1S8bwexZXqYeTyg80l4iWZxdfTK98HdGGNF8zd+KUhF0
-aPqqEs1z58cpTf+JvltPtZ0+d7TEHlFb7NR3v1TiopMdZ5rThF5DYAfWCYYJ4KogwYgLxhcBkMF+
-Dwv/8QEZXKdF5DLCcZ6kqBCmrTgpU9An42tcflybL3fNlQdAxYLjj4OBLA8S0H1fyCquPWxJGmGG
-nEUak/3PAlMej91oJbaxgeNuUY1ZWOLESA/JVC8CstDAA7Jp1GBiyQj4GQJ+aZ2mJCP5Ecydcd8B
-y3J6eG558293qiqA0tPrvIJRu3DgiV+c0qnk7uWW60aWhMO2PRYJL/JnHD6NwBztNQGE0eIQzu3X
-Ns7pit8/qPokIegNBhwTfWRG0F6jP1ZEb0M1xQYqWxuhDKRuZ4CnJSFOeV4ag89YIUOg0irOG4KR
-m/VvEPDE7cLKPifVsYhqc8TnJ2IirU6ukNdx4bQf1bDTrIohPMoOd/M9dmqxXAQICKEROLpYHCFR
-rPr+ZDrNhK+33RrSmKYvJqFSkV48D6FyAjQSrHOeFkGobyAjTO78Vsfncm3c9pjJ8ux4CmP5XfgJ
-H7gKeQFBPafRUD35sqH5ncj0dv09jQEaB3uPHYfIc+fsGsvBZGQ2Ui+bFMLiKLzTQ77dxtEM+MU/
-emYAO8Wk/ZzOB97Ccaw5sS3fY8GYlhq6gzIh70DfuKV62/tIHYsqkArj+V/MTZ5gxqj+puof5bX4
-XDLjn1nT5HHvueQRD0IQUC7v7ulJ8ygYOewPqR4qElEn/adD0WEK0PyjMacFeTj8dtmnxp27mgPz
-p1GWDWhFA5KbuqCTl7R64sJyluTm4ftEHxTsnJhWopY+f9UjTHizhjbKIf8eW/VSDY2VcRGSCScs
-uTNDcYH3N4Xgp4PbwNjoNaeEdEv3ymlfqRluGpsaKhs7M6Ao+9T2s07UhWEKUCog1Z8SmnjE05YG
-zS1u1ukHwFLtYnnJeH433mkJQoleeC659fZoG1eOcR1aBbjDLkNQxwF1VYloZMJ7UuANWW44/Mk+
-gBKiOY14T0aaFgWJr8NA86sX6zAo/e9xpWSZZp1ydYXpq/FPWDh07d9Rpt4FGYKinZ5FOVu0MnQk
-AB31pFu0fN5zdlxQ4dw5MHQmIAO5M/S54zTEfCuL/7LSXCiYzt2yDcOMXD8kQvu3DgUDS00aE3qh
-uryDLWTjmWFkfvgOjIIDGQcnN4znsYqjpQs4OfoRKkcFT5uBfWNu4y6Ei02M7xVIHeNCDlY8KOVm
-Y/J3pFKQPfxFrVCPqUlHv3FMdJz2IpA5C57kCDYtp32hXmJwQ+Dch7JM7SG5UkEMEQVkje3HXoTQ
-4f3dR+ZPn5tg0gsE7mxohay+snCt/wWWef7QorrN3j7bpLbnMV4P63iwjEI6ZtGpp3IZKxHcLWu2
-PYAVO9QYYdAqiXdsfDtGXL+qOla9fma4OTMUyqP42zmh14BHoopCQgBCxqMtXiBQt1On9mgRJFKh
-WbbB8VjsMp9DUyWzl0Bx7xJyHVxbWpC7AgGnVwyp6miVe9q8GJ6Bpu7vTpYmeoxLUMbiOmIRJp9m
-X5XM+lnbdc7v+ArNTdMXf7CXGjoBfGM1nkm20DK8HoWSkPL/Lg8m5l+JTTVQMHNEB0gUGbTJ3qcz
-vMkVpGKo7orwz9wL1oEBoMpKGyysCHRR7krgLlFDsKSO7eW1JgBOM6PvRte9U0zNH2iM8Tvv8c1K
-QlDlon2OYI0XrkWfUpr3wOlIBAIgRAV556jsD6oIQT/NmlhURnZzkquuGXUEPnVIzZI4FPqRr7vN
-pvJ09YqmJRedwysejldgcQKtcj9VzlNPrvPe8K/pcNf+W/d3gySd3SIcNbdMVyljvrZBRZIDsGxw
-muLmEVMmDgv25NpO9X3oEsIwcHC5NhYlPOojn+oGvY/J9dauMPNsoR0BXEF+NdS2cc/QqeraKDuX
-5A8cQRIVJK4xmHULwep024Fp/Kve0VZob3GDGSiFAnNlVHWOFdaV4dmA5un0Nw+7cGrNqmtHpfLC
-yVuazeuOMBCwtT+AgPktGYc4+sZ/oVNaMPCH4Vzs6JR4MO9mK0Z/HyMw1tuhlYBYEZCiau1NXwvv
-77L/6Kqgm0gly24ZiH83x2/9fsxOSlXfmjLbMK8ZM45BD6Mc2uIIZyj2A9qO+otzCeSo+t7alzX0
-1cZHsQ4sOI2rI1vxeobjVqBTwE/nkxRYlKl1CxoqI/03fCIzNQpw4kjq4CDAWu1wsAem+MJmSIDo
-DTXBH+NbIyJk7+w2XbNrqQ7dQCxBxKD40LrKXAq7uaSWyBosQY+4HjYkteou5I0ontdj7BAa+oX/
-inD3eG5uGHfIeO5CpTBlXLQFcJ/7dKwwqEh5xhSM2DrO3V9Rk7yBg9S2VxHxo47arOqRRt6yq08a
-nxsl+owhxCNdcU/shxba8+itybMJCoX8yLHUog/wGzWxx1c9dbAghrPp063x27y0YhG0eWF7tteM
-/uuNXRuhltXMKhtkxKUUNC223XdiyOMVZD7nef7V+6am+xSt0ZxzqPITM/+R0VJisJUu/l4O3Dps
-H+rgSKyL9uZKmrMoRCm4uj2PK139mrlX2LvetVPdqplYxPoXZwXmGj/Su/EhCz3VRX5w8OJGzd6w
-sh3F3nukNUsp6yXMZHs+UMOumQ8bfINvYzy1hCo4Y5St98qTBozQgKL30x1m3dW/SWXy384kKjKl
-nE8qu2/C0XDJwIL5PW6E67iidDN6A8w8YRyzfSEixci732nX9DGiGgHwZ29z
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Monitoring;
+
+class Condition extends \Google\Model
+{
+  protected $conditionAbsentType = MetricAbsence::class;
+  protected $conditionAbsentDataType = '';
+  protected $conditionMonitoringQueryLanguageType = MonitoringQueryLanguageCondition::class;
+  protected $conditionMonitoringQueryLanguageDataType = '';
+  protected $conditionThresholdType = MetricThreshold::class;
+  protected $conditionThresholdDataType = '';
+  public $displayName;
+  public $name;
+
+  /**
+   * @param MetricAbsence
+   */
+  public function setConditionAbsent(MetricAbsence $conditionAbsent)
+  {
+    $this->conditionAbsent = $conditionAbsent;
+  }
+  /**
+   * @return MetricAbsence
+   */
+  public function getConditionAbsent()
+  {
+    return $this->conditionAbsent;
+  }
+  /**
+   * @param MonitoringQueryLanguageCondition
+   */
+  public function setConditionMonitoringQueryLanguage(MonitoringQueryLanguageCondition $conditionMonitoringQueryLanguage)
+  {
+    $this->conditionMonitoringQueryLanguage = $conditionMonitoringQueryLanguage;
+  }
+  /**
+   * @return MonitoringQueryLanguageCondition
+   */
+  public function getConditionMonitoringQueryLanguage()
+  {
+    return $this->conditionMonitoringQueryLanguage;
+  }
+  /**
+   * @param MetricThreshold
+   */
+  public function setConditionThreshold(MetricThreshold $conditionThreshold)
+  {
+    $this->conditionThreshold = $conditionThreshold;
+  }
+  /**
+   * @return MetricThreshold
+   */
+  public function getConditionThreshold()
+  {
+    return $this->conditionThreshold;
+  }
+  public function setDisplayName($displayName)
+  {
+    $this->displayName = $displayName;
+  }
+  public function getDisplayName()
+  {
+    return $this->displayName;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Condition::class, 'Google_Service_Monitoring_Condition');

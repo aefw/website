@@ -1,77 +1,115 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\OSConfig;
+
+class InventoryWindowsUpdatePackage extends \Google\Collection
+{
+  protected $collection_key = 'moreInfoUrls';
+  protected $categoriesType = InventoryWindowsUpdatePackageWindowsUpdateCategory::class;
+  protected $categoriesDataType = 'array';
+  public $description;
+  public $kbArticleIds;
+  public $lastDeploymentChangeTime;
+  public $moreInfoUrls;
+  public $revisionNumber;
+  public $supportUrl;
+  public $title;
+  public $updateId;
+
+  /**
+   * @param InventoryWindowsUpdatePackageWindowsUpdateCategory[]
+   */
+  public function setCategories($categories)
+  {
+    $this->categories = $categories;
+  }
+  /**
+   * @return InventoryWindowsUpdatePackageWindowsUpdateCategory[]
+   */
+  public function getCategories()
+  {
+    return $this->categories;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setKbArticleIds($kbArticleIds)
+  {
+    $this->kbArticleIds = $kbArticleIds;
+  }
+  public function getKbArticleIds()
+  {
+    return $this->kbArticleIds;
+  }
+  public function setLastDeploymentChangeTime($lastDeploymentChangeTime)
+  {
+    $this->lastDeploymentChangeTime = $lastDeploymentChangeTime;
+  }
+  public function getLastDeploymentChangeTime()
+  {
+    return $this->lastDeploymentChangeTime;
+  }
+  public function setMoreInfoUrls($moreInfoUrls)
+  {
+    $this->moreInfoUrls = $moreInfoUrls;
+  }
+  public function getMoreInfoUrls()
+  {
+    return $this->moreInfoUrls;
+  }
+  public function setRevisionNumber($revisionNumber)
+  {
+    $this->revisionNumber = $revisionNumber;
+  }
+  public function getRevisionNumber()
+  {
+    return $this->revisionNumber;
+  }
+  public function setSupportUrl($supportUrl)
+  {
+    $this->supportUrl = $supportUrl;
+  }
+  public function getSupportUrl()
+  {
+    return $this->supportUrl;
+  }
+  public function setTitle($title)
+  {
+    $this->title = $title;
+  }
+  public function getTitle()
+  {
+    return $this->title;
+  }
+  public function setUpdateId($updateId)
+  {
+    $this->updateId = $updateId;
+  }
+  public function getUpdateId()
+  {
+    return $this->updateId;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(InventoryWindowsUpdatePackage::class, 'Google_Service_OSConfig_InventoryWindowsUpdatePackage');

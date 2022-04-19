@@ -1,114 +1,160 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-hwg+RJeY
+<?php declare(strict_types=1);
+
+/*
+ * This file is part of the Monolog package.
+ *
+ * (c) Jordi Boggiano <j.boggiano@seld.be>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Monolog\Handler;
+
+use Monolog\Logger;
+use Monolog\Formatter\FormatterInterface;
+use Monolog\Formatter\LogglyFormatter;
+use function array_key_exists;
+use CurlHandle;
+
+/**
+ * Sends errors to Loggly.
+ *
+ * @author Przemek Sobstel <przemek@sobstel.org>
+ * @author Adam Pancutt <adam@pancutt.com>
+ * @author Gregory Barchard <gregory@barchard.net>
+ */
+class LogglyHandler extends AbstractProcessingHandler
+{
+    protected const HOST = 'logs-01.loggly.com';
+    protected const ENDPOINT_SINGLE = 'inputs';
+    protected const ENDPOINT_BATCH = 'bulk';
+
+    /**
+     * Caches the curl handlers for every given endpoint.
+     *
+     * @var resource[]|CurlHandle[]
+     */
+    protected $curlHandlers = [];
+
+    protected $token;
+
+    protected $tag = [];
+
+    /**
+     * @param string     $token  API token supplied by Loggly
+     * @param string|int $level  The minimum logging level to trigger this handler
+     * @param bool       $bubble Whether or not messages that are handled should bubble up the stack.
+     *
+     * @throws MissingExtensionException If the curl extension is missing
+     */
+    public function __construct(string $token, $level = Logger::DEBUG, bool $bubble = true)
+    {
+        if (!extension_loaded('curl')) {
+            throw new MissingExtensionException('The curl extension is needed to use the LogglyHandler');
+        }
+
+        $this->token = $token;
+
+        parent::__construct($level, $bubble);
+    }
+
+    /**
+     * Loads and returns the shared curl handler for the given endpoint.
+     *
+     * @param string $endpoint
+     *
+     * @return resource|CurlHandle
+     */
+    protected function getCurlHandler(string $endpoint)
+    {
+        if (!array_key_exists($endpoint, $this->curlHandlers)) {
+            $this->curlHandlers[$endpoint] = $this->loadCurlHandle($endpoint);
+        }
+
+        return $this->curlHandlers[$endpoint];
+    }
+
+    /**
+     * Starts a fresh curl session for the given endpoint and returns its handler.
+     *
+     * @param string $endpoint
+     *
+     * @return resource|CurlHandle
+     */
+    private function loadCurlHandle(string $endpoint)
+    {
+        $url = sprintf("https://%s/%s/%s/", static::HOST, $endpoint, $this->token);
+
+        $ch = curl_init();
+
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_POST, true);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+
+        return $ch;
+    }
+
+    /**
+     * @param string[]|string $tag
+     */
+    public function setTag($tag): self
+    {
+        $tag = !empty($tag) ? $tag : [];
+        $this->tag = is_array($tag) ? $tag : [$tag];
+
+        return $this;
+    }
+
+    /**
+     * @param string[]|string $tag
+     */
+    public function addTag($tag): self
+    {
+        if (!empty($tag)) {
+            $tag = is_array($tag) ? $tag : [$tag];
+            $this->tag = array_unique(array_merge($this->tag, $tag));
+        }
+
+        return $this;
+    }
+
+    protected function write(array $record): void
+    {
+        $this->send($record["formatted"], static::ENDPOINT_SINGLE);
+    }
+
+    public function handleBatch(array $records): void
+    {
+        $level = $this->level;
+
+        $records = array_filter($records, function ($record) use ($level) {
+            return ($record['level'] >= $level);
+        });
+
+        if ($records) {
+            $this->send($this->getFormatter()->formatBatch($records), static::ENDPOINT_BATCH);
+        }
+    }
+
+    protected function send(string $data, string $endpoint): void
+    {
+        $ch = $this->getCurlHandler($endpoint);
+
+        $headers = ['Content-Type: application/json'];
+
+        if (!empty($this->tag)) {
+            $headers[] = 'X-LOGGLY-TAG: '.implode(',', $this->tag);
+        }
+
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+        curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+
+        Curl\Util::execute($ch, 5, false);
+    }
+
+    protected function getDefaultFormatter(): FormatterInterface
+    {
+        return new LogglyFormatter();
+    }
+}

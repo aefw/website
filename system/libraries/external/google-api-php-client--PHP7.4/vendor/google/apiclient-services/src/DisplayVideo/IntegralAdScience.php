@@ -1,96 +1,153 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPrKHLy6bpglsmDJ2uf+6/cBFSjoUdovzp/0ueoZq9bR7OGVK71/bTVlcB78b8Midzt1pQ+gl
-HYvk3G8/sp3Yagt3H3MpodONjuZO06LUniKjhhJ3OOQlw/Co1636KK9RyT+u+6kKwKz4RYIjpOMg
-CvZ7mzS9dAejI1z9Pxe7gO2P9/MEoH9/ZjW+eRJuWL6zSnqjIvbrEiW/B9y48JSq+7SsS5Ni5YAO
-5PlZ6PP3k+PAFvAqoAEIBJWIbfnednC2c/yLGx6690hzwn5H/Q4UTdKDtaEKud1JBZLKXAWiWQO+
-IWNbLR9l6uXEVwbDQrEgBuZKqW1o/muz6TlnSD3T1tq3zEqhZ/mI6sZYDtwLWlzsHKbb8I1W1JBr
-MO5v65HQDGBPXwZtmCVn+NpVg7RAxHlzR9wlQZaUc3OCQzTFQDiL8ZRHeXQI1mwzBavQ0Ih48G/C
-RPs2jbboi9eiqGo4BYnfgalPA18IXEt+oZ6q04SYlr/2h7sFcGGEd8APILtt1BWMKI7SsdJHiXbE
-dcWR2SAaUTSZCFTOuTTrA/u/CiWc3vInDo5WrUadaiQerahiedJgYfEn1pldSHKUsGaGehB0dU5V
-9FbBcjxSJMOOZAT7ETyZqyYATWcCO30wi2U3h1jzrQJfoI4/E4HroJuR02NvOLT+Ds2027/3bdOd
-7KHunyI594d5MTNxwT3IgNK+W0DesiELLUs0vnUq89VdGQdosele4SuC04xaampjOr2e3LEryhme
-PBOzsz7E5uCJLztC5yHP3Cre/jh9eFh7jn2ewoS8Xlxlnbs50x294QCAMjiUnIs3MGN7qCYMJgUA
-FgjK0xc8ncY0xXL+3rKD6VF5TtItQqTBRJMXyzXF4TcyqOreWi7SpvYs4mkXtsuC3aYPd8/q37ss
-kA9vaANnnjoukKrXIFSPK4vPl9n3uFxdlYXWJFkXp1IYcMLvNWKZyXDwXOLic8t59XAThEmPYX0L
-IQysLYxy2779LZAyR4ItnThX9g9dQWTRO/+T575z7XIISSKqGC5R+j4Qnt5ZJ+7PJU6aLQvHmoFl
-OuVkNIOxN0tDKo93b+B+N2v8ANgi/wEhVqeclkjPDjKcBf/jf2X5axrxE8KQhg4+NwppqqKmRoGB
-TB49scyLtKT6c5JT5Z6FZ2Uan+XSJtXRPdrAlWBv3yrW/M7TYhLsQbOWKcHjVs4YMQYAZaPnGjz6
-U0LOlbUdisWMnjgNxIwtteORTfwhN2fsBNh33AXb4mIZ46aLrdQtGnwQRmJ1iTlV6NwS64EwQMkC
-jhWKevoA7c6WpjWH39zSj1T8b2i/SPjayduXwI2OTuc96IRgNSosI84ZoVxmvGF1Dbhmk7nwSJde
-uvXPy8RtIV2toShj8ZhlTaB0Z/578XKQoU2Qn3bUKuqZNXPDz6ItE7NSbSGQNEJKG7mTUMVSZ8cS
-pVFvyi4xfLI44a9GXIjdA081aiM+v3VdAUkXo666//rgKR0j5xDs2RH1Xgo0jJI2VbolR5/5cWrK
-ZU+QGtmdS187B6HS3WSjOLkxu1frxTJJPBZQcLQfXzydVs0mUdBXNuWWzF3rIEIxzZK+MCI65Q7y
-FSkgNH1jNaTJrjmxXrtCyCxP2TFiyyM7WshjUVp3+U6wBHNRYrPecoJl4qDtVDeUzCUhyqE0SX3I
-wtgkZXFdavH/PVepoRVN5g/rkESiMs3qSmfWDZ7/8nnxhRu9WnSzh1qPaQLx5hZ9W/+yxBlZ3TZB
-Hk2UlwxBd39RxMeR9Hdi9esWg3uWVFczRNf1M9RfdAKrC3yhuBsbjeJaXAjZX4OJ8p9xLHxa1a8q
-2fEMDP52JFdGwI8+sl857DfaTqmTCUaQ+Ve4jnGfJGYXUNXVujYJUZykuD7YlkoDM/0KZ0bpesAK
-782Ohh74Pu6epG5HMMk/reh+HGvj8iaXLXfTMnA+z9+tGpAH2Mivz8+aRniA8iEM7w4TDjpo056O
-kGW6LvylwB0/vPxBv/0mQZ7LoT/mHA2rOrrbUt9J8VMdm+q20e7tHt8bz99TsyhobTHCLIcFNdNJ
-Q/+yEYzgapLl4G/2FoM2inZhPDXPi5oocvPaPP75h2YdgNtzo9YSPY4p8hPcTSfI26LOzN0EZm71
-iIW3iSxV7AOBSyZZe4HoKFtRapW+xRPRXFJSlCZ/QRTq48Jxu5pzihnlV8aKAirL5Dj5AckxdjXs
-58vuN1YTGiWlZalc4pHqf15au/6YLQjP/hbt0FsIo4c3I2nq4pDRdzsa1Pk7k1E0c9BTRPHoR9KK
-z9M+lxxTm/Vibj/qtCquyq1Jo33GiQ0b0/zPPu+n3pdo7lJnX464++NL1vCClBKZr6/ADlO8LmdZ
-Uf3wbJOJwseCBJsGp+hh6eBjTzWuLmi9WSwCncitNAqieKR16Tff3DNg5tG+t75gULO83KZ6Mc2+
-PB1/SrV83ljSPzWHUihPEUwxQnAJZArEbGXmvfj7WJd/ahnqfZUBDkfqkGDkiyAR6s1pOxSb1rnT
-pG4SN/EPdB9pb/WuelkLxsVVKZLLXzbHSQnwq4QWKJbPMjIpaGdrxXbZaiHbH25gLJFwNb6p8YCO
-9O2TcJY54BipShGHCBpcehTXvtDCq8C7Flpsm+nXaf5n38RX0ClrsxfSbFRpGM4EV9JatYBnPrXv
-YnaGk7ZV95rqRe8vMT+9IKgYyJN7bHOSsp8QRflz9COBHTx9b/ldtpJ9jZ7KfWKO8vaGHdrjRvPk
-DlQZiml/qCWWhTuSs4WkNndnhFkymKbKzQ8U82zmpVzcHuA6qzJaB6fT1FEZ6h0pRbw19vKGu2Ir
-2IUGQ07R6Ti6R1pj4vEqro9nCWdXjee0JqYoZiTI3v5TOvhKBWcag5fnm4LF5FGnAqBPOC222b3I
-nfHLYw55zSqpeIBdosyr/i/UAHKYUswoIteT9l+96qM+fFoerUGuN8tc9LrylKAs3D4tlr4UAmfm
-ww5+oIpFDHJWVM7dygY/FQXouLWTfCqPZ0g2dR7w9oSTXDu3wYO7K5ppgpD7QPNnEGoV3PLwjRd8
-VyhK2t742SxigHLnus50GGL1ppEMsKb8lFMFUqo0G4fSP3FmYZSnL6VasWXqWqnSQufHUWurUxeH
-wJ6b8Qbdd60jVzMsYUJl7BQlTAzy9jo2PpMbmQw49KufzJJAGfwCngJdudh57eR5QlKaQ1fLhJHA
-Ys6VAosnQDl9lUZ31eQYmv2ED3YXJAk1nCmocVppylOfTZWegCAoR4Qv5G+bcE0RSbjNlqZJI/yq
-/58d5bUzgGqMMXcC1zA+WIB71ECWuDVK2Ga3X97ty8E4ijHpHQ9GsYDKasIh19rg/xtk0c+1WAvH
-AgzrG04Lu0FNyCEeK43eUMjdQFT9qAVij0gWjcPnZsa4ZHvrLjR1v0Hg9Blidofi7xxXCbsjUkHI
-RQQplzzbsXPnZWvN/yuRGRrcM3F9cv10h0DN0xb6WfTNc/x54pad8XgfzL3cR0TvhIT9+y6Naz5M
-mV8DmDhLBsskQO4i8/SYcS4IR2xZDnILeY5bFHL9WTCpyEsZEcFJrD9AFJc36uL3Ykl8oQRGr4aO
-BjgPxD0FWelAMwPyi+o8DnQdl2i6EXLWAxql/o9FTGxB5f60Ijyj7zOdqKzDgVI4BNNQK9MljlN7
-3KIx/XyFx2f0qi3YRgIFfeTy79yAG7H7jEICXCDBkFWKdhSA5ZfF1kd7pzI7YW2Uy1IBdvHqsldN
-LvS78GZbsOQR8g6YhC4IU5SA/0USY+LTvSLwXca58kumQCYP43kGwG3/vLYqVDqihA6rkwzSEneC
-vTVc/UBkm/0XjLgmlnIZLvKzu4M742sek4+FqQ5fEA4NULsnZ3dWE0lWkJrczp8eNi59oiuvFR/e
-OfDa45a0ILeIk8LAc9f1g7wCumCE7cNXEh+Q/tMuqqw67cupedG2+XimW7waAjfd73CQLoG/geef
-f9KqzYqrQxpwkRUhPkADHc0oIn0wzsWmLLYi7muNu38Z/eJyT9oi+P9Ssfk2k2PgpcqTWCEnf7bz
-JwNMkxDL3DyC9tTC04lDPLgUMO28DMjMLQxMyZNaWCd+cssqbo7x0x8Uqx5ewyB06nb8fdddy1Bx
-LvYVKLoudQvHw4RtEoPw/0fcCxwH2mfhnKN6cWcQ84QvMfe8m9h+UEhLWThlPJMf0dTAePli7TCu
-lkRYzF5tf1w4BdFDNfEKbep7XEdvOb/uEHXjhC/VgqB0WVmho6ABVuEn7v1WkneZ7PRoa6KWNvwv
-40bvuthdWcDMpQxW8xGZaA04yvPcju6GLGMMuH+1Mt70v9BSjaWLvdBAdOwHIKgB8A45hGvky/Pn
-zb5BlXNOePLJNvFLEbmmNam8E0RxWNQNk2mmstZLM+tVuuPGhFNi/7+dKiWXNTb5x/qRBw8zBPpX
-t0SnIqFoNMghY+sntdaNdfx3YHVaXlbxNt5dRdUfLdhJQ0QAkPgQdJGj19NxMAf4/pOd1CqJxJOr
-lc1IaFAej9ud/jF0W7MKypyt+0J9cnKf93lhwewvocRLZtONeD/08J33Z6TZM0Nd9ue8rsn55daH
-AYJNQOAkfNmB0JByGVZ/7/ktI9tWqvqFWPKxEry7VOHUuzUW1GZD6/OEPOuuy9YC3i4bONX3/ow/
-OJqO4fTW3AM6A/RBOfC4PBMTf6PJNa7G0otKLWA7/6hRjKi7nhWlA56tZkbKaVoJMpKcoZ3lQaR+
-8CcB4veY/a8cP2/15dXU1yDY5WQFP+biXu5kS4AOorEvwxjcHCJnIvDU3NJ13EGpa6Z43Ef/mf0i
-2JN0SvuSivLiZrSpykZNterjaceH6tEwDnJDBl5AK0Isttspax+A74OYOBTWbvpz7m0oh6Z8EVEy
-kWId/o4n13GNRC1U8qsAcZhVh8Oa8Cfjn2udIdJwhSOzIt3AkXUWk91CSiAWtD5dOL/GVBhCrC22
-fTEtOQtX/oWl8VIk6j7sw+t7yXTLY/Hg1J9uBaUeubxp6L4QzgUwk9aA4aBgUZxJJgeuWL020txF
-OLs71pxwrOoy1j1WBbJDsFFdUsWoCKQbEeIGQm85ZaJMZfiusbhT4l9za+YwvSEJKqeIJ/U+eRaj
-DSNRMG+DRLhSOgjXn2NIgVwwPjV/vIckvro/PQLSAE2o7q0ngSGKwuLxPROpzpVs8kk7vbbaPlyA
-7kbWah1UMUuxIIwF5K2mBnkPDsAe3TI4e6K43lJ2xColRnNQc+CkwlCFnmZdp6HwyHaEaM+SJ6av
-ZBp5MdD0qIZyiKtN0Jk54/m/VcZrl6sG1uYtdKNYu5KecuDx3alCnEu3PDWXvsra7louCaoSJ5pT
-+c9Y/w7+wcjAXYD6SCengKi5FgG7zinocwcltAODzkBJmbIKbAnOBqLYrVoVkxTmVWGJsAd5Llnd
-6FUkiGB5oBgrv5mq+PyWBw80PvpUb+jqFt92lhhF/Ixy6DgtWaTUeSrQtO9jTiYwgJSda2AxHnFF
-HdFjgF6N3xj8j1ccgn2kmBw0lw7H0SE9i8P5Vh6Xrspkbr2dibC2xr0cITwpv5IfmRBT5iG/DpXF
-erqH8fDZA0fkaZr0D0BzU2lqNNKIZSfbCmY7ZyyhrhBgRRP88I7Ej8U4jylSrDRtm8VH6jVjWCCC
-6jucEGfgaKBFk6dOR8YSoYg0eWDw5c7M4I80uYWMBGq0mchMgsjA98MFIX4AnayFmW/YaNLIC5+h
-bPMbbOeB7ZblHPHtSncha2RtfV6OzK/h5NOItjo5me/33BX2DfAHkJ8fEAXaeQjG9/4o8aFWI1VH
-HR4+U0uvIBkUj78qNBW01qw8I1cjImvj8K74tWIo3Z65cEF6Q7XdafNLiiiV+LG91Dx6iwu58maM
-c0zm+q+4uXoFAKwQGy3FxXrkwukEzJ3h2KgVaxrgHvinKRnT9CbLXRATKegvORyxwzFMfKKJ4kX0
-8stjkEysvjrxxSCcTz4kmAfa9643ZnaXuouj2pHGvDdrGkTDTkcGuRND31eGQXFZwlU6I3aAlAQe
-o0ViuadzgiRyVAXaEnNHLfYPcVMWLuV+HXnexmbTn9HxPTNi1qESM08mXCRebPUGqisideGJB7Un
-rzsF1gRP1zjMPEw/MRPMP172/8GGCXodUXsy2fh4uVwcWfCm358rDhY3mMcvi5Yr6f31FZ6tUKTV
-SMl8pT128B9wqJveiQQnb9n3nEWO/V6t0ol5PSvrPtI+/YP9BOo3Jr+z4ArTFq8fUzQ1S//K8ded
-6pvHJE8W52ybn+FaRoXVQbTAzSBRWmeOu1/M5WMJHmwhSQZWDGB7ohVKtu1fgh4vBggU9Yzp4QIV
-IMAZhEaePV6UvNpuKNUQcchmqLvHWk3P0Dk9/6xBhO28Pokyuz/8HU6EGIuX7BlqyWjczwYa51Tw
-wC0hqS/iJch9WnuzEE2irMSb6QNz3xHTmyStRbT0jA5UUXgP59aBoa9LundTs9lo3BLY6LuFrwed
-GYjXHhSuKLeX69Pu4N/P5CU/m+e3g8mDQ+dLbi0nuF8GWTvrTtogWgPqHj+jlLHAZkoXheBQ9nYy
-NkdaoPzNwElsgzElZ3XSiw+BYnYURFPVaI8CuL2CV/toBKcefXvVfLQcO9nxso+z1dYxM2W5+/GY
-p6fmpjULJRnlwYnWsRRjhzlE14y2nGxDXCNIX1uPApa6EgcyxwUfT0nN8CIFXHaWGQm2eF38BxA7
-12nnigozc3kgeBAFViJ7BDejS2W4mJP3Ytam5L1sg/G/y90PwfZXKO5gaBx1Lp78ywxh1quY+IQv
-as9kAm==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DisplayVideo;
+
+class IntegralAdScience extends \Google\Collection
+{
+  protected $collection_key = 'customSegmentId';
+  public $customSegmentId;
+  public $displayViewability;
+  public $excludeUnrateable;
+  public $excludedAdFraudRisk;
+  public $excludedAdultRisk;
+  public $excludedAlcoholRisk;
+  public $excludedDrugsRisk;
+  public $excludedGamblingRisk;
+  public $excludedHateSpeechRisk;
+  public $excludedIllegalDownloadsRisk;
+  public $excludedOffensiveLanguageRisk;
+  public $excludedViolenceRisk;
+  public $traqScoreOption;
+  public $videoViewability;
+
+  public function setCustomSegmentId($customSegmentId)
+  {
+    $this->customSegmentId = $customSegmentId;
+  }
+  public function getCustomSegmentId()
+  {
+    return $this->customSegmentId;
+  }
+  public function setDisplayViewability($displayViewability)
+  {
+    $this->displayViewability = $displayViewability;
+  }
+  public function getDisplayViewability()
+  {
+    return $this->displayViewability;
+  }
+  public function setExcludeUnrateable($excludeUnrateable)
+  {
+    $this->excludeUnrateable = $excludeUnrateable;
+  }
+  public function getExcludeUnrateable()
+  {
+    return $this->excludeUnrateable;
+  }
+  public function setExcludedAdFraudRisk($excludedAdFraudRisk)
+  {
+    $this->excludedAdFraudRisk = $excludedAdFraudRisk;
+  }
+  public function getExcludedAdFraudRisk()
+  {
+    return $this->excludedAdFraudRisk;
+  }
+  public function setExcludedAdultRisk($excludedAdultRisk)
+  {
+    $this->excludedAdultRisk = $excludedAdultRisk;
+  }
+  public function getExcludedAdultRisk()
+  {
+    return $this->excludedAdultRisk;
+  }
+  public function setExcludedAlcoholRisk($excludedAlcoholRisk)
+  {
+    $this->excludedAlcoholRisk = $excludedAlcoholRisk;
+  }
+  public function getExcludedAlcoholRisk()
+  {
+    return $this->excludedAlcoholRisk;
+  }
+  public function setExcludedDrugsRisk($excludedDrugsRisk)
+  {
+    $this->excludedDrugsRisk = $excludedDrugsRisk;
+  }
+  public function getExcludedDrugsRisk()
+  {
+    return $this->excludedDrugsRisk;
+  }
+  public function setExcludedGamblingRisk($excludedGamblingRisk)
+  {
+    $this->excludedGamblingRisk = $excludedGamblingRisk;
+  }
+  public function getExcludedGamblingRisk()
+  {
+    return $this->excludedGamblingRisk;
+  }
+  public function setExcludedHateSpeechRisk($excludedHateSpeechRisk)
+  {
+    $this->excludedHateSpeechRisk = $excludedHateSpeechRisk;
+  }
+  public function getExcludedHateSpeechRisk()
+  {
+    return $this->excludedHateSpeechRisk;
+  }
+  public function setExcludedIllegalDownloadsRisk($excludedIllegalDownloadsRisk)
+  {
+    $this->excludedIllegalDownloadsRisk = $excludedIllegalDownloadsRisk;
+  }
+  public function getExcludedIllegalDownloadsRisk()
+  {
+    return $this->excludedIllegalDownloadsRisk;
+  }
+  public function setExcludedOffensiveLanguageRisk($excludedOffensiveLanguageRisk)
+  {
+    $this->excludedOffensiveLanguageRisk = $excludedOffensiveLanguageRisk;
+  }
+  public function getExcludedOffensiveLanguageRisk()
+  {
+    return $this->excludedOffensiveLanguageRisk;
+  }
+  public function setExcludedViolenceRisk($excludedViolenceRisk)
+  {
+    $this->excludedViolenceRisk = $excludedViolenceRisk;
+  }
+  public function getExcludedViolenceRisk()
+  {
+    return $this->excludedViolenceRisk;
+  }
+  public function setTraqScoreOption($traqScoreOption)
+  {
+    $this->traqScoreOption = $traqScoreOption;
+  }
+  public function getTraqScoreOption()
+  {
+    return $this->traqScoreOption;
+  }
+  public function setVideoViewability($videoViewability)
+  {
+    $this->videoViewability = $videoViewability;
+  }
+  public function getVideoViewability()
+  {
+    return $this->videoViewability;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(IntegralAdScience::class, 'Google_Service_DisplayVideo_IntegralAdScience');

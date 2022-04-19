@@ -1,67 +1,88 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-8aDbsweNdhBAJvkY9FwXC5hJtJSUmoEdJI/qXm==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DataCatalog;
+
+class GoogleCloudDatacatalogV1beta1Taxonomy extends \Google\Collection
+{
+  protected $collection_key = 'activatedPolicyTypes';
+  public $activatedPolicyTypes;
+  public $description;
+  public $displayName;
+  public $name;
+  public $policyTagCount;
+  protected $taxonomyTimestampsType = GoogleCloudDatacatalogV1beta1SystemTimestamps::class;
+  protected $taxonomyTimestampsDataType = '';
+
+  public function setActivatedPolicyTypes($activatedPolicyTypes)
+  {
+    $this->activatedPolicyTypes = $activatedPolicyTypes;
+  }
+  public function getActivatedPolicyTypes()
+  {
+    return $this->activatedPolicyTypes;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setDisplayName($displayName)
+  {
+    $this->displayName = $displayName;
+  }
+  public function getDisplayName()
+  {
+    return $this->displayName;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setPolicyTagCount($policyTagCount)
+  {
+    $this->policyTagCount = $policyTagCount;
+  }
+  public function getPolicyTagCount()
+  {
+    return $this->policyTagCount;
+  }
+  /**
+   * @param GoogleCloudDatacatalogV1beta1SystemTimestamps
+   */
+  public function setTaxonomyTimestamps(GoogleCloudDatacatalogV1beta1SystemTimestamps $taxonomyTimestamps)
+  {
+    $this->taxonomyTimestamps = $taxonomyTimestamps;
+  }
+  /**
+   * @return GoogleCloudDatacatalogV1beta1SystemTimestamps
+   */
+  public function getTaxonomyTimestamps()
+  {
+    return $this->taxonomyTimestamps;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudDatacatalogV1beta1Taxonomy::class, 'Google_Service_DataCatalog_GoogleCloudDatacatalogV1beta1Taxonomy');

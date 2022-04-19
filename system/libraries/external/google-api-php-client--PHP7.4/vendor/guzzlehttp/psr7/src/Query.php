@@ -1,69 +1,113 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-6psOXTkprsZV7m==
+<?php
+
+namespace GuzzleHttp\Psr7;
+
+final class Query
+{
+    /**
+     * Parse a query string into an associative array.
+     *
+     * If multiple values are found for the same key, the value of that key
+     * value pair will become an array. This function does not parse nested
+     * PHP style arrays into an associative array (e.g., `foo[a]=1&foo[b]=2`
+     * will be parsed into `['foo[a]' => '1', 'foo[b]' => '2'])`.
+     *
+     * @param string   $str         Query string to parse
+     * @param int|bool $urlEncoding How the query string is encoded
+     *
+     * @return array
+     */
+    public static function parse($str, $urlEncoding = true)
+    {
+        $result = [];
+
+        if ($str === '') {
+            return $result;
+        }
+
+        if ($urlEncoding === true) {
+            $decoder = function ($value) {
+                return rawurldecode(str_replace('+', ' ', $value));
+            };
+        } elseif ($urlEncoding === PHP_QUERY_RFC3986) {
+            $decoder = 'rawurldecode';
+        } elseif ($urlEncoding === PHP_QUERY_RFC1738) {
+            $decoder = 'urldecode';
+        } else {
+            $decoder = function ($str) {
+                return $str;
+            };
+        }
+
+        foreach (explode('&', $str) as $kvp) {
+            $parts = explode('=', $kvp, 2);
+            $key = $decoder($parts[0]);
+            $value = isset($parts[1]) ? $decoder($parts[1]) : null;
+            if (!isset($result[$key])) {
+                $result[$key] = $value;
+            } else {
+                if (!is_array($result[$key])) {
+                    $result[$key] = [$result[$key]];
+                }
+                $result[$key][] = $value;
+            }
+        }
+
+        return $result;
+    }
+
+    /**
+     * Build a query string from an array of key value pairs.
+     *
+     * This function can use the return value of `parse()` to build a query
+     * string. This function does not modify the provided keys when an array is
+     * encountered (like `http_build_query()` would).
+     *
+     * @param array     $params   Query string parameters.
+     * @param int|false $encoding Set to false to not encode, PHP_QUERY_RFC3986
+     *                            to encode using RFC3986, or PHP_QUERY_RFC1738
+     *                            to encode using RFC1738.
+     *
+     * @return string
+     */
+    public static function build(array $params, $encoding = PHP_QUERY_RFC3986)
+    {
+        if (!$params) {
+            return '';
+        }
+
+        if ($encoding === false) {
+            $encoder = function ($str) {
+                return $str;
+            };
+        } elseif ($encoding === PHP_QUERY_RFC3986) {
+            $encoder = 'rawurlencode';
+        } elseif ($encoding === PHP_QUERY_RFC1738) {
+            $encoder = 'urlencode';
+        } else {
+            throw new \InvalidArgumentException('Invalid type');
+        }
+
+        $qs = '';
+        foreach ($params as $k => $v) {
+            $k = $encoder($k);
+            if (!is_array($v)) {
+                $qs .= $k;
+                if ($v !== null) {
+                    $qs .= '=' . $encoder($v);
+                }
+                $qs .= '&';
+            } else {
+                foreach ($v as $vv) {
+                    $qs .= $k;
+                    if ($vv !== null) {
+                        $qs .= '=' . $encoder($vv);
+                    }
+                    $qs .= '&';
+                }
+            }
+        }
+
+        return $qs ? (string) substr($qs, 0, -1) : '';
+    }
+}

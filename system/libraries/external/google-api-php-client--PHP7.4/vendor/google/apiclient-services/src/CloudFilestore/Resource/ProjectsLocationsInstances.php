@@ -1,74 +1,151 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudFilestore\Resource;
+
+use Google\Service\CloudFilestore\Instance;
+use Google\Service\CloudFilestore\ListInstancesResponse;
+use Google\Service\CloudFilestore\Operation;
+use Google\Service\CloudFilestore\RestoreInstanceRequest;
+
+/**
+ * The "instances" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $fileService = new Google\Service\CloudFilestore(...);
+ *   $instances = $fileService->instances;
+ *  </code>
+ */
+class ProjectsLocationsInstances extends \Google\Service\Resource
+{
+  /**
+   * Creates an instance. When creating from a backup, the capacity of the new
+   * instance needs to be equal to or larger than the capacity of the backup (and
+   * also equal to or larger than the minimum capacity of the tier).
+   * (instances.create)
+   *
+   * @param string $parent Required. The instance's project and location, in the
+   * format projects/{project_id}/locations/{location}. In Cloud Filestore,
+   * locations map to GCP zones, for example **us-west1-b**.
+   * @param Instance $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string instanceId Required. The name of the instance to create.
+   * The name must be unique for the specified project and location.
+   * @return Operation
+   */
+  public function create($parent, Instance $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Operation::class);
+  }
+  /**
+   * Deletes an instance. (instances.delete)
+   *
+   * @param string $name Required. The instance resource name, in the format
+   * projects/{project_id}/locations/{location}/instances/{instance_id}
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Gets the details of a specific instance. (instances.get)
+   *
+   * @param string $name Required. The instance resource name, in the format
+   * projects/{project_id}/locations/{location}/instances/{instance_id}.
+   * @param array $optParams Optional parameters.
+   * @return Instance
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Instance::class);
+  }
+  /**
+   * Lists all instances in a project for either a specified location or for all
+   * locations. (instances.listProjectsLocationsInstances)
+   *
+   * @param string $parent Required. The project and location for which to
+   * retrieve instance information, in the format
+   * projects/{project_id}/locations/{location}. In Cloud Filestore, locations map
+   * to GCP zones, for example **us-west1-b**. To retrieve instance information
+   * for all locations, use "-" for the {location} value.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter List filter.
+   * @opt_param string orderBy Sort results. Supported values are "name", "name
+   * desc" or "" (unsorted).
+   * @opt_param int pageSize The maximum number of items to return.
+   * @opt_param string pageToken The next_page_token value to use if there are
+   * additional results to retrieve for this list request.
+   * @return ListInstancesResponse
+   */
+  public function listProjectsLocationsInstances($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListInstancesResponse::class);
+  }
+  /**
+   * Updates the settings of a specific instance. (instances.patch)
+   *
+   * @param string $name Output only. The resource name of the instance, in the
+   * format projects/{project}/locations/{location}/instances/{instance}.
+   * @param Instance $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Mask of fields to update. At least one path must
+   * be supplied in this field. The elements of the repeated paths field may only
+   * include these fields: * "description" * "file_shares" * "labels"
+   * @return Operation
+   */
+  public function patch($name, Instance $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+  /**
+   * Restores an existing instance's file share from a backup. The capacity of the
+   * instance needs to be equal to or larger than the capacity of the backup (and
+   * also equal to or larger than the minimum capacity of the tier).
+   * (instances.restore)
+   *
+   * @param string $name Required. The resource name of the instance, in the
+   * format
+   * projects/{project_number}/locations/{location_id}/instances/{instance_id}.
+   * @param RestoreInstanceRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function restore($name, RestoreInstanceRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('restore', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsInstances::class, 'Google_Service_CloudFilestore_Resource_ProjectsLocationsInstances');

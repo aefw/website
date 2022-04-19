@@ -1,59 +1,78 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-HqiQMCy/5gXzOEZ6
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dfareporting;
+
+class VideoFormat extends \Google\Model
+{
+  public $fileType;
+  public $id;
+  public $kind;
+  protected $resolutionType = Size::class;
+  protected $resolutionDataType = '';
+  public $targetBitRate;
+
+  public function setFileType($fileType)
+  {
+    $this->fileType = $fileType;
+  }
+  public function getFileType()
+  {
+    return $this->fileType;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  /**
+   * @param Size
+   */
+  public function setResolution(Size $resolution)
+  {
+    $this->resolution = $resolution;
+  }
+  /**
+   * @return Size
+   */
+  public function getResolution()
+  {
+    return $this->resolution;
+  }
+  public function setTargetBitRate($targetBitRate)
+  {
+    $this->targetBitRate = $targetBitRate;
+  }
+  public function getTargetBitRate()
+  {
+    return $this->targetBitRate;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(VideoFormat::class, 'Google_Service_Dfareporting_VideoFormat');

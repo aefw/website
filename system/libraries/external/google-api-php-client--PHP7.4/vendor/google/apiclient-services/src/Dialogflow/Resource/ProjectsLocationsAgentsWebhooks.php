@@ -1,69 +1,126 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dialogflow\Resource;
+
+use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3ListWebhooksResponse;
+use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3Webhook;
+use Google\Service\Dialogflow\GoogleProtobufEmpty;
+
+/**
+ * The "webhooks" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $dialogflowService = new Google\Service\Dialogflow(...);
+ *   $webhooks = $dialogflowService->webhooks;
+ *  </code>
+ */
+class ProjectsLocationsAgentsWebhooks extends \Google\Service\Resource
+{
+  /**
+   * Creates a webhook in the specified agent. (webhooks.create)
+   *
+   * @param string $parent Required. The agent to create a webhook for. Format:
+   * `projects//locations//agents/`.
+   * @param GoogleCloudDialogflowCxV3Webhook $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudDialogflowCxV3Webhook
+   */
+  public function create($parent, GoogleCloudDialogflowCxV3Webhook $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleCloudDialogflowCxV3Webhook::class);
+  }
+  /**
+   * Deletes the specified webhook. (webhooks.delete)
+   *
+   * @param string $name Required. The name of the webhook to delete. Format:
+   * `projects//locations//agents//webhooks/`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool force This field has no effect for webhook not being used.
+   * For webhooks that are used by pages/flows/transition route groups: * If
+   * `force` is set to false, an error will be returned with message indicating
+   * the referenced resources. * If `force` is set to true, Dialogflow will remove
+   * the webhook, as well as any references to the webhook (i.e. Webhook and tagin
+   * fulfillments that point to this webhook will be removed).
+   * @return GoogleProtobufEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
+  }
+  /**
+   * Retrieves the specified webhook. (webhooks.get)
+   *
+   * @param string $name Required. The name of the webhook. Format:
+   * `projects//locations//agents//webhooks/`.
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudDialogflowCxV3Webhook
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudDialogflowCxV3Webhook::class);
+  }
+  /**
+   * Returns the list of all webhooks in the specified agent.
+   * (webhooks.listProjectsLocationsAgentsWebhooks)
+   *
+   * @param string $parent Required. The agent to list all webhooks for. Format:
+   * `projects//locations//agents/`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The maximum number of items to return in a single
+   * page. By default 100 and at most 1000.
+   * @opt_param string pageToken The next_page_token value returned from a
+   * previous list request.
+   * @return GoogleCloudDialogflowCxV3ListWebhooksResponse
+   */
+  public function listProjectsLocationsAgentsWebhooks($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleCloudDialogflowCxV3ListWebhooksResponse::class);
+  }
+  /**
+   * Updates the specified webhook. (webhooks.patch)
+   *
+   * @param string $name The unique identifier of the webhook. Required for the
+   * Webhooks.UpdateWebhook method. Webhooks.CreateWebhook populates the name
+   * automatically. Format: `projects//locations//agents//webhooks/`.
+   * @param GoogleCloudDialogflowCxV3Webhook $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask The mask to control which fields get updated. If
+   * the mask is not present, all fields will be updated.
+   * @return GoogleCloudDialogflowCxV3Webhook
+   */
+  public function patch($name, GoogleCloudDialogflowCxV3Webhook $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], GoogleCloudDialogflowCxV3Webhook::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsAgentsWebhooks::class, 'Google_Service_Dialogflow_Resource_ProjectsLocationsAgentsWebhooks');

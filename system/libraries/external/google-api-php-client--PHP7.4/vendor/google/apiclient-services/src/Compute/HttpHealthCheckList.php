@@ -1,64 +1,95 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute;
+
+class HttpHealthCheckList extends \Google\Collection
+{
+  protected $collection_key = 'items';
+  public $id;
+  protected $itemsType = HttpHealthCheck::class;
+  protected $itemsDataType = 'array';
+  public $kind;
+  public $nextPageToken;
+  public $selfLink;
+  protected $warningType = HttpHealthCheckListWarning::class;
+  protected $warningDataType = '';
+
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  /**
+   * @param HttpHealthCheck[]
+   */
+  public function setItems($items)
+  {
+    $this->items = $items;
+  }
+  /**
+   * @return HttpHealthCheck[]
+   */
+  public function getItems()
+  {
+    return $this->items;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setNextPageToken($nextPageToken)
+  {
+    $this->nextPageToken = $nextPageToken;
+  }
+  public function getNextPageToken()
+  {
+    return $this->nextPageToken;
+  }
+  public function setSelfLink($selfLink)
+  {
+    $this->selfLink = $selfLink;
+  }
+  public function getSelfLink()
+  {
+    return $this->selfLink;
+  }
+  /**
+   * @param HttpHealthCheckListWarning
+   */
+  public function setWarning(HttpHealthCheckListWarning $warning)
+  {
+    $this->warning = $warning;
+  }
+  /**
+   * @return HttpHealthCheckListWarning
+   */
+  public function getWarning()
+  {
+    return $this->warning;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(HttpHealthCheckList::class, 'Google_Service_Compute_HttpHealthCheckList');

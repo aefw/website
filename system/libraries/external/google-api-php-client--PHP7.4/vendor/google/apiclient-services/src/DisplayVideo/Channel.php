@@ -1,65 +1,89 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DisplayVideo;
+
+class Channel extends \Google\Model
+{
+  public $advertiserId;
+  public $channelId;
+  public $displayName;
+  public $name;
+  public $negativelyTargetedLineItemCount;
+  public $partnerId;
+  public $positivelyTargetedLineItemCount;
+
+  public function setAdvertiserId($advertiserId)
+  {
+    $this->advertiserId = $advertiserId;
+  }
+  public function getAdvertiserId()
+  {
+    return $this->advertiserId;
+  }
+  public function setChannelId($channelId)
+  {
+    $this->channelId = $channelId;
+  }
+  public function getChannelId()
+  {
+    return $this->channelId;
+  }
+  public function setDisplayName($displayName)
+  {
+    $this->displayName = $displayName;
+  }
+  public function getDisplayName()
+  {
+    return $this->displayName;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setNegativelyTargetedLineItemCount($negativelyTargetedLineItemCount)
+  {
+    $this->negativelyTargetedLineItemCount = $negativelyTargetedLineItemCount;
+  }
+  public function getNegativelyTargetedLineItemCount()
+  {
+    return $this->negativelyTargetedLineItemCount;
+  }
+  public function setPartnerId($partnerId)
+  {
+    $this->partnerId = $partnerId;
+  }
+  public function getPartnerId()
+  {
+    return $this->partnerId;
+  }
+  public function setPositivelyTargetedLineItemCount($positivelyTargetedLineItemCount)
+  {
+    $this->positivelyTargetedLineItemCount = $positivelyTargetedLineItemCount;
+  }
+  public function getPositivelyTargetedLineItemCount()
+  {
+    return $this->positivelyTargetedLineItemCount;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Channel::class, 'Google_Service_DisplayVideo_Channel');

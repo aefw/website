@@ -1,73 +1,175 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-pjcuRLSRFImeyZsWk1rpkQe/u/WZ
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Appengine\Resource;
+
+use Google\Service\Appengine\ListVersionsResponse;
+use Google\Service\Appengine\Operation;
+use Google\Service\Appengine\Version;
+
+/**
+ * The "versions" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $appengineService = new Google\Service\Appengine(...);
+ *   $versions = $appengineService->versions;
+ *  </code>
+ */
+class AppsServicesVersions extends \Google\Service\Resource
+{
+  /**
+   * Deploys code and resource files to a new version. (versions.create)
+   *
+   * @param string $appsId Part of `parent`. Name of the parent resource to create
+   * this version under. Example: apps/myapp/services/default.
+   * @param string $servicesId Part of `parent`. See documentation of `appsId`.
+   * @param Version $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function create($appsId, $servicesId, Version $postBody, $optParams = [])
+  {
+    $params = ['appsId' => $appsId, 'servicesId' => $servicesId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Operation::class);
+  }
+  /**
+   * Deletes an existing Version resource. (versions.delete)
+   *
+   * @param string $appsId Part of `name`. Name of the resource requested.
+   * Example: apps/myapp/services/default/versions/v1.
+   * @param string $servicesId Part of `name`. See documentation of `appsId`.
+   * @param string $versionsId Part of `name`. See documentation of `appsId`.
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function delete($appsId, $servicesId, $versionsId, $optParams = [])
+  {
+    $params = ['appsId' => $appsId, 'servicesId' => $servicesId, 'versionsId' => $versionsId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Gets the specified Version resource. By default, only a BASIC_VIEW will be
+   * returned. Specify the FULL_VIEW parameter to get the full resource.
+   * (versions.get)
+   *
+   * @param string $appsId Part of `name`. Name of the resource requested.
+   * Example: apps/myapp/services/default/versions/v1.
+   * @param string $servicesId Part of `name`. See documentation of `appsId`.
+   * @param string $versionsId Part of `name`. See documentation of `appsId`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string view Controls the set of fields returned in the Get
+   * response.
+   * @return Version
+   */
+  public function get($appsId, $servicesId, $versionsId, $optParams = [])
+  {
+    $params = ['appsId' => $appsId, 'servicesId' => $servicesId, 'versionsId' => $versionsId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Version::class);
+  }
+  /**
+   * Lists the versions of a service. (versions.listAppsServicesVersions)
+   *
+   * @param string $appsId Part of `parent`. Name of the parent Service resource.
+   * Example: apps/myapp/services/default.
+   * @param string $servicesId Part of `parent`. See documentation of `appsId`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Maximum results to return per page.
+   * @opt_param string pageToken Continuation token for fetching the next page of
+   * results.
+   * @opt_param string view Controls the set of fields returned in the List
+   * response.
+   * @return ListVersionsResponse
+   */
+  public function listAppsServicesVersions($appsId, $servicesId, $optParams = [])
+  {
+    $params = ['appsId' => $appsId, 'servicesId' => $servicesId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListVersionsResponse::class);
+  }
+  /**
+   * Updates the specified Version resource. You can specify the following fields
+   * depending on the App Engine environment and type of scaling that the version
+   * resource uses:Standard environment instance_class
+   * (https://cloud.google.com/appengine/docs/admin-api/reference/rest/v1/apps.ser
+   * vices.versions#Version.FIELDS.instance_class)automatic scaling in the
+   * standard environment: automatic_scaling.min_idle_instances
+   * (https://cloud.google.com/appengine/docs/admin-api/reference/rest/v1/apps.ser
+   * vices.versions#Version.FIELDS.automatic_scaling)
+   * automatic_scaling.max_idle_instances (https://cloud.google.com/appengine/docs
+   * /admin-api/reference/rest/v1/apps.services.versions#Version.FIELDS.automatic_
+   * scaling) automaticScaling.standard_scheduler_settings.max_instances
+   * (https://cloud.google.com/appengine/docs/admin-
+   * api/reference/rest/v1/apps.services.versions#StandardSchedulerSettings)
+   * automaticScaling.standard_scheduler_settings.min_instances
+   * (https://cloud.google.com/appengine/docs/admin-
+   * api/reference/rest/v1/apps.services.versions#StandardSchedulerSettings)
+   * automaticScaling.standard_scheduler_settings.target_cpu_utilization
+   * (https://cloud.google.com/appengine/docs/admin-
+   * api/reference/rest/v1/apps.services.versions#StandardSchedulerSettings)
+   * automaticScaling.standard_scheduler_settings.target_throughput_utilization
+   * (https://cloud.google.com/appengine/docs/admin-
+   * api/reference/rest/v1/apps.services.versions#StandardSchedulerSettings)basic
+   * scaling or manual scaling in the standard environment: serving_status
+   * (https://cloud.google.com/appengine/docs/admin-
+   * api/reference/rest/v1/apps.services.versions#Version.FIELDS.serving_status)
+   * manual_scaling.instances (https://cloud.google.com/appengine/docs/admin-
+   * api/reference/rest/v1/apps.services.versions#manualscaling)Flexible
+   * environment serving_status (https://cloud.google.com/appengine/docs/admin-api
+   * /reference/rest/v1/apps.services.versions#Version.FIELDS.serving_status)autom
+   * atic scaling in the flexible environment:
+   * automatic_scaling.min_total_instances
+   * (https://cloud.google.com/appengine/docs/admin-api/reference/rest/v1/apps.ser
+   * vices.versions#Version.FIELDS.automatic_scaling)
+   * automatic_scaling.max_total_instances
+   * (https://cloud.google.com/appengine/docs/admin-api/reference/rest/v1/apps.ser
+   * vices.versions#Version.FIELDS.automatic_scaling)
+   * automatic_scaling.cool_down_period_sec
+   * (https://cloud.google.com/appengine/docs/admin-api/reference/rest/v1/apps.ser
+   * vices.versions#Version.FIELDS.automatic_scaling)
+   * automatic_scaling.cpu_utilization.target_utilization
+   * (https://cloud.google.com/appengine/docs/admin-api/reference/rest/v1/apps.ser
+   * vices.versions#Version.FIELDS.automatic_scaling)manual scaling in the
+   * flexible environment: manual_scaling.instances
+   * (https://cloud.google.com/appengine/docs/admin-
+   * api/reference/rest/v1/apps.services.versions#manualscaling) (versions.patch)
+   *
+   * @param string $appsId Part of `name`. Name of the resource to update.
+   * Example: apps/myapp/services/default/versions/1.
+   * @param string $servicesId Part of `name`. See documentation of `appsId`.
+   * @param string $versionsId Part of `name`. See documentation of `appsId`.
+   * @param Version $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Standard field mask for the set of fields to be
+   * updated.
+   * @return Operation
+   */
+  public function patch($appsId, $servicesId, $versionsId, Version $postBody, $optParams = [])
+  {
+    $params = ['appsId' => $appsId, 'servicesId' => $servicesId, 'versionsId' => $versionsId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AppsServicesVersions::class, 'Google_Service_Appengine_Resource_AppsServicesVersions');

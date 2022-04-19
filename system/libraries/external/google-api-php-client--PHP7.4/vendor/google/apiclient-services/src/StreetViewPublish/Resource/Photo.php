@@ -1,67 +1,159 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-s1Zram==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\StreetViewPublish\Resource;
+
+use Google\Service\StreetViewPublish\Photo as PhotoModel;
+use Google\Service\StreetViewPublish\StreetviewpublishEmpty;
+use Google\Service\StreetViewPublish\UploadRef;
+
+/**
+ * The "photo" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $streetviewpublishService = new Google\Service\StreetViewPublish(...);
+ *   $photo = $streetviewpublishService->photo;
+ *  </code>
+ */
+class Photo extends \Google\Service\Resource
+{
+  /**
+   * After the client finishes uploading the photo with the returned UploadRef,
+   * CreatePhoto publishes the uploaded Photo to Street View on Google Maps.
+   * Currently, the only way to set heading, pitch, and roll in CreatePhoto is
+   * through the [Photo Sphere XMP
+   * metadata](https://developers.google.com/streetview/spherical-metadata) in the
+   * photo bytes. CreatePhoto ignores the `pose.heading`, `pose.pitch`,
+   * `pose.roll`, `pose.altitude`, and `pose.level` fields in Pose. This method
+   * returns the following error codes: * google.rpc.Code.INVALID_ARGUMENT if the
+   * request is malformed or if the uploaded photo is not a 360 photo. *
+   * google.rpc.Code.NOT_FOUND if the upload reference does not exist. *
+   * google.rpc.Code.RESOURCE_EXHAUSTED if the account has reached the storage
+   * limit. (photo.create)
+   *
+   * @param PhotoModel $postBody
+   * @param array $optParams Optional parameters.
+   * @return PhotoModel
+   */
+  public function create(PhotoModel $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], PhotoModel::class);
+  }
+  /**
+   * Deletes a Photo and its metadata. This method returns the following error
+   * codes: * google.rpc.Code.PERMISSION_DENIED if the requesting user did not
+   * create the requested photo. * google.rpc.Code.NOT_FOUND if the photo ID does
+   * not exist. (photo.delete)
+   *
+   * @param string $photoId Required. ID of the Photo.
+   * @param array $optParams Optional parameters.
+   * @return StreetviewpublishEmpty
+   */
+  public function delete($photoId, $optParams = [])
+  {
+    $params = ['photoId' => $photoId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], StreetviewpublishEmpty::class);
+  }
+  /**
+   * Gets the metadata of the specified Photo. This method returns the following
+   * error codes: * google.rpc.Code.PERMISSION_DENIED if the requesting user did
+   * not create the requested Photo. * google.rpc.Code.NOT_FOUND if the requested
+   * Photo does not exist. * google.rpc.Code.UNAVAILABLE if the requested Photo is
+   * still being indexed. (photo.get)
+   *
+   * @param string $photoId Required. ID of the Photo.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string languageCode The BCP-47 language code, such as "en-US" or
+   * "sr-Latn". For more information, see
+   * http://www.unicode.org/reports/tr35/#Unicode_locale_identifier. If
+   * language_code is unspecified, the user's language preference for Google
+   * services is used.
+   * @opt_param string view Required. Specifies if a download URL for the photo
+   * bytes should be returned in the Photo response.
+   * @return PhotoModel
+   */
+  public function get($photoId, $optParams = [])
+  {
+    $params = ['photoId' => $photoId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], PhotoModel::class);
+  }
+  /**
+   * Creates an upload session to start uploading photo bytes. The method uses the
+   * upload URL of the returned UploadRef to upload the bytes for the Photo. In
+   * addition to the photo requirements shown in
+   * https://support.google.com/maps/answer/7012050?ref_topic=6275604, the photo
+   * must meet the following requirements: * Photo Sphere XMP metadata must be
+   * included in the photo metadata. See https://developers.google.com/streetview
+   * /spherical-metadata for the required fields. * The pixel size of the photo
+   * must meet the size requirements listed in
+   * https://support.google.com/maps/answer/7012050?ref_topic=6275604, and the
+   * photo must be a full 360 horizontally. After the upload completes, the method
+   * uses UploadRef with CreatePhoto to create the Photo object entry.
+   * (photo.startUpload)
+   *
+   * @param StreetviewpublishEmpty $postBody
+   * @param array $optParams Optional parameters.
+   * @return UploadRef
+   */
+  public function startUpload(StreetviewpublishEmpty $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('startUpload', [$params], UploadRef::class);
+  }
+  /**
+   * Updates the metadata of a Photo, such as pose, place association,
+   * connections, etc. Changing the pixels of a photo is not supported. Only the
+   * fields specified in the updateMask field are used. If `updateMask` is not
+   * present, the update applies to all fields. This method returns the following
+   * error codes: * google.rpc.Code.PERMISSION_DENIED if the requesting user did
+   * not create the requested photo. * google.rpc.Code.INVALID_ARGUMENT if the
+   * request is malformed. * google.rpc.Code.NOT_FOUND if the requested photo does
+   * not exist. * google.rpc.Code.UNAVAILABLE if the requested Photo is still
+   * being indexed. (photo.update)
+   *
+   * @param string $id Required. A unique identifier for a photo.
+   * @param PhotoModel $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. Mask that identifies fields on the
+   * photo metadata to update. If not present, the old Photo metadata is entirely
+   * replaced with the new Photo metadata in this request. The update fails if
+   * invalid fields are specified. Multiple fields can be specified in a comma-
+   * delimited list. The following fields are valid: * `pose.heading` *
+   * `pose.latLngPair` * `pose.pitch` * `pose.roll` * `pose.level` *
+   * `pose.altitude` * `connections` * `places` *Note:* When updateMask contains
+   * repeated fields, the entire set of repeated values get replaced with the new
+   * contents. For example, if updateMask contains `connections` and
+   * `UpdatePhotoRequest.photo.connections` is empty, all connections are removed.
+   * @return PhotoModel
+   */
+  public function update($id, PhotoModel $postBody, $optParams = [])
+  {
+    $params = ['id' => $id, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], PhotoModel::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Photo::class, 'Google_Service_StreetViewPublish_Resource_Photo');

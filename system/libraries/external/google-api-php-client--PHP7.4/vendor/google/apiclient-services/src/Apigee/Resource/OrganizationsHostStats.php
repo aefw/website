@@ -1,46 +1,85 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-4RYBlcFu
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Apigee\Resource;
+
+use Google\Service\Apigee\GoogleCloudApigeeV1Stats;
+
+/**
+ * The "hostStats" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $apigeeService = new Google\Service\Apigee(...);
+ *   $hostStats = $apigeeService->hostStats;
+ *  </code>
+ */
+class OrganizationsHostStats extends \Google\Service\Resource
+{
+  /**
+   * Retrieve metrics grouped by dimensions in host level. The types of metrics
+   * you can retrieve include traffic, message counts, API call latency, response
+   * size, and cache hits and counts. Dimensions let you view metrics in
+   * meaningful groups. The stats api does accept dimensions as path params. The
+   * dimensions are optional in which case the metrics are computed on the entire
+   * data for the given timerange. (hostStats.get)
+   *
+   * @param string $name Required. The resource name for which the interactive
+   * query will be executed. Must be of the form
+   * `organizations/{organization_id}/hostStats/{dimensions}`. Dimensions let you
+   * view metrics in meaningful groupings. E.g. apiproxy, target_host. The value
+   * of dimensions should be comma separated list as shown below
+   * `organizations/{org}/hostStats/apiproxy,request_verb`
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string accuracy Legacy field: not used anymore.
+   * @opt_param string envgroupHostname Required. The hostname for which the
+   * interactive query will be executed.
+   * @opt_param string filter Enables drill-down on specific dimension values.
+   * @opt_param string limit This parameter is used to limit the number of result
+   * items. Default and the max value is 14400.
+   * @opt_param string offset Use offset with limit to enable pagination of
+   * results. For example, to display results 11-20, set limit to '10' and offset
+   * to '10'.
+   * @opt_param bool realtime Legacy field: not used anymore.
+   * @opt_param string select The select parameter contains a comma separated list
+   * of metrics. E.g. sum(message_count),sum(error_count)
+   * @opt_param string sort This parameter specifies if the sort order should be
+   * ascending or descending Supported values are DESC and ASC.
+   * @opt_param string sortby Comma separated list of columns to sort the final
+   * result.
+   * @opt_param string timeRange Time interval for the interactive query. Time
+   * range is specified as start~end E.g. 04/15/2017 00:00~05/15/2017 23:59
+   * @opt_param string timeUnit A value of second, minute, hour, day, week, month.
+   * Time Unit specifies the granularity of metrics returned.
+   * @opt_param string topk Take 'top k' results from results, for example, to
+   * return the top 5 results 'topk=5'.
+   * @opt_param bool tsAscending Lists timestamps in ascending order if set to
+   * true. Recommend setting this value to true if you are using sortby with
+   * sort=DESC.
+   * @opt_param string tzo This parameters contains the timezone offset value.
+   * @return GoogleCloudApigeeV1Stats
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudApigeeV1Stats::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(OrganizationsHostStats::class, 'Google_Service_Apigee_Resource_OrganizationsHostStats');

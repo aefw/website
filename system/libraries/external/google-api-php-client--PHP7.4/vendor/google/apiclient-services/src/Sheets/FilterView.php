@@ -1,67 +1,118 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Sheets;
+
+class FilterView extends \Google\Collection
+{
+  protected $collection_key = 'sortSpecs';
+  protected $criteriaType = FilterCriteria::class;
+  protected $criteriaDataType = 'map';
+  protected $filterSpecsType = FilterSpec::class;
+  protected $filterSpecsDataType = 'array';
+  public $filterViewId;
+  public $namedRangeId;
+  protected $rangeType = GridRange::class;
+  protected $rangeDataType = '';
+  protected $sortSpecsType = SortSpec::class;
+  protected $sortSpecsDataType = 'array';
+  public $title;
+
+  /**
+   * @param FilterCriteria[]
+   */
+  public function setCriteria($criteria)
+  {
+    $this->criteria = $criteria;
+  }
+  /**
+   * @return FilterCriteria[]
+   */
+  public function getCriteria()
+  {
+    return $this->criteria;
+  }
+  /**
+   * @param FilterSpec[]
+   */
+  public function setFilterSpecs($filterSpecs)
+  {
+    $this->filterSpecs = $filterSpecs;
+  }
+  /**
+   * @return FilterSpec[]
+   */
+  public function getFilterSpecs()
+  {
+    return $this->filterSpecs;
+  }
+  public function setFilterViewId($filterViewId)
+  {
+    $this->filterViewId = $filterViewId;
+  }
+  public function getFilterViewId()
+  {
+    return $this->filterViewId;
+  }
+  public function setNamedRangeId($namedRangeId)
+  {
+    $this->namedRangeId = $namedRangeId;
+  }
+  public function getNamedRangeId()
+  {
+    return $this->namedRangeId;
+  }
+  /**
+   * @param GridRange
+   */
+  public function setRange(GridRange $range)
+  {
+    $this->range = $range;
+  }
+  /**
+   * @return GridRange
+   */
+  public function getRange()
+  {
+    return $this->range;
+  }
+  /**
+   * @param SortSpec[]
+   */
+  public function setSortSpecs($sortSpecs)
+  {
+    $this->sortSpecs = $sortSpecs;
+  }
+  /**
+   * @return SortSpec[]
+   */
+  public function getSortSpecs()
+  {
+    return $this->sortSpecs;
+  }
+  public function setTitle($title)
+  {
+    $this->title = $title;
+  }
+  public function getTitle()
+  {
+    return $this->title;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(FilterView::class, 'Google_Service_Sheets_FilterView');

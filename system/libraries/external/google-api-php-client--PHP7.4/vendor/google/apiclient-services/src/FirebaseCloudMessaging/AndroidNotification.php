@@ -1,135 +1,259 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-8HT4Tu42QGV3ycnXwnsIi4wqBdm=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\FirebaseCloudMessaging;
+
+class AndroidNotification extends \Google\Collection
+{
+  protected $collection_key = 'vibrateTimings';
+  public $body;
+  public $bodyLocArgs;
+  public $bodyLocKey;
+  public $channelId;
+  public $clickAction;
+  public $color;
+  public $defaultLightSettings;
+  public $defaultSound;
+  public $defaultVibrateTimings;
+  public $eventTime;
+  public $icon;
+  public $image;
+  protected $lightSettingsType = LightSettings::class;
+  protected $lightSettingsDataType = '';
+  public $localOnly;
+  public $notificationCount;
+  public $notificationPriority;
+  public $sound;
+  public $sticky;
+  public $tag;
+  public $ticker;
+  public $title;
+  public $titleLocArgs;
+  public $titleLocKey;
+  public $vibrateTimings;
+  public $visibility;
+
+  public function setBody($body)
+  {
+    $this->body = $body;
+  }
+  public function getBody()
+  {
+    return $this->body;
+  }
+  public function setBodyLocArgs($bodyLocArgs)
+  {
+    $this->bodyLocArgs = $bodyLocArgs;
+  }
+  public function getBodyLocArgs()
+  {
+    return $this->bodyLocArgs;
+  }
+  public function setBodyLocKey($bodyLocKey)
+  {
+    $this->bodyLocKey = $bodyLocKey;
+  }
+  public function getBodyLocKey()
+  {
+    return $this->bodyLocKey;
+  }
+  public function setChannelId($channelId)
+  {
+    $this->channelId = $channelId;
+  }
+  public function getChannelId()
+  {
+    return $this->channelId;
+  }
+  public function setClickAction($clickAction)
+  {
+    $this->clickAction = $clickAction;
+  }
+  public function getClickAction()
+  {
+    return $this->clickAction;
+  }
+  public function setColor($color)
+  {
+    $this->color = $color;
+  }
+  public function getColor()
+  {
+    return $this->color;
+  }
+  public function setDefaultLightSettings($defaultLightSettings)
+  {
+    $this->defaultLightSettings = $defaultLightSettings;
+  }
+  public function getDefaultLightSettings()
+  {
+    return $this->defaultLightSettings;
+  }
+  public function setDefaultSound($defaultSound)
+  {
+    $this->defaultSound = $defaultSound;
+  }
+  public function getDefaultSound()
+  {
+    return $this->defaultSound;
+  }
+  public function setDefaultVibrateTimings($defaultVibrateTimings)
+  {
+    $this->defaultVibrateTimings = $defaultVibrateTimings;
+  }
+  public function getDefaultVibrateTimings()
+  {
+    return $this->defaultVibrateTimings;
+  }
+  public function setEventTime($eventTime)
+  {
+    $this->eventTime = $eventTime;
+  }
+  public function getEventTime()
+  {
+    return $this->eventTime;
+  }
+  public function setIcon($icon)
+  {
+    $this->icon = $icon;
+  }
+  public function getIcon()
+  {
+    return $this->icon;
+  }
+  public function setImage($image)
+  {
+    $this->image = $image;
+  }
+  public function getImage()
+  {
+    return $this->image;
+  }
+  /**
+   * @param LightSettings
+   */
+  public function setLightSettings(LightSettings $lightSettings)
+  {
+    $this->lightSettings = $lightSettings;
+  }
+  /**
+   * @return LightSettings
+   */
+  public function getLightSettings()
+  {
+    return $this->lightSettings;
+  }
+  public function setLocalOnly($localOnly)
+  {
+    $this->localOnly = $localOnly;
+  }
+  public function getLocalOnly()
+  {
+    return $this->localOnly;
+  }
+  public function setNotificationCount($notificationCount)
+  {
+    $this->notificationCount = $notificationCount;
+  }
+  public function getNotificationCount()
+  {
+    return $this->notificationCount;
+  }
+  public function setNotificationPriority($notificationPriority)
+  {
+    $this->notificationPriority = $notificationPriority;
+  }
+  public function getNotificationPriority()
+  {
+    return $this->notificationPriority;
+  }
+  public function setSound($sound)
+  {
+    $this->sound = $sound;
+  }
+  public function getSound()
+  {
+    return $this->sound;
+  }
+  public function setSticky($sticky)
+  {
+    $this->sticky = $sticky;
+  }
+  public function getSticky()
+  {
+    return $this->sticky;
+  }
+  public function setTag($tag)
+  {
+    $this->tag = $tag;
+  }
+  public function getTag()
+  {
+    return $this->tag;
+  }
+  public function setTicker($ticker)
+  {
+    $this->ticker = $ticker;
+  }
+  public function getTicker()
+  {
+    return $this->ticker;
+  }
+  public function setTitle($title)
+  {
+    $this->title = $title;
+  }
+  public function getTitle()
+  {
+    return $this->title;
+  }
+  public function setTitleLocArgs($titleLocArgs)
+  {
+    $this->titleLocArgs = $titleLocArgs;
+  }
+  public function getTitleLocArgs()
+  {
+    return $this->titleLocArgs;
+  }
+  public function setTitleLocKey($titleLocKey)
+  {
+    $this->titleLocKey = $titleLocKey;
+  }
+  public function getTitleLocKey()
+  {
+    return $this->titleLocKey;
+  }
+  public function setVibrateTimings($vibrateTimings)
+  {
+    $this->vibrateTimings = $vibrateTimings;
+  }
+  public function getVibrateTimings()
+  {
+    return $this->vibrateTimings;
+  }
+  public function setVisibility($visibility)
+  {
+    $this->visibility = $visibility;
+  }
+  public function getVisibility()
+  {
+    return $this->visibility;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AndroidNotification::class, 'Google_Service_FirebaseCloudMessaging_AndroidNotification');

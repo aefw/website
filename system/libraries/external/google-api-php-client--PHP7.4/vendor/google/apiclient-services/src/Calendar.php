@@ -1,96 +1,959 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-dMijjcfy5PAsCGDLAdQ+qYq6tW==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for Calendar (v3).
+ *
+ * <p>
+ * Manipulates events and other calendar data.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://developers.google.com/google-apps/calendar/firstapp" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class Calendar extends \Google\Service
+{
+  /** See, edit, share, and permanently delete all the calendars you can access using Google Calendar. */
+  const CALENDAR =
+      "https://www.googleapis.com/auth/calendar";
+  /** View and edit events on all your calendars. */
+  const CALENDAR_EVENTS =
+      "https://www.googleapis.com/auth/calendar.events";
+  /** View events on all your calendars. */
+  const CALENDAR_EVENTS_READONLY =
+      "https://www.googleapis.com/auth/calendar.events.readonly";
+  /** See and download any calendar you can access using your Google Calendar. */
+  const CALENDAR_READONLY =
+      "https://www.googleapis.com/auth/calendar.readonly";
+  /** View your Calendar settings. */
+  const CALENDAR_SETTINGS_READONLY =
+      "https://www.googleapis.com/auth/calendar.settings.readonly";
+
+  public $acl;
+  public $calendarList;
+  public $calendars;
+  public $channels;
+  public $colors;
+  public $events;
+  public $freebusy;
+  public $settings;
+
+  /**
+   * Constructs the internal representation of the Calendar service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://www.googleapis.com/';
+    $this->servicePath = 'calendar/v3/';
+    $this->batchPath = 'batch/calendar/v3';
+    $this->version = 'v3';
+    $this->serviceName = 'calendar';
+
+    $this->acl = new Calendar\Resource\Acl(
+        $this,
+        $this->serviceName,
+        'acl',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'calendars/{calendarId}/acl/{ruleId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'calendarId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'ruleId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'calendars/{calendarId}/acl/{ruleId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'calendarId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'ruleId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'calendars/{calendarId}/acl',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'calendarId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'sendNotifications' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'calendars/{calendarId}/acl',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'calendarId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'showDeleted' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'syncToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'calendars/{calendarId}/acl/{ruleId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'calendarId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'ruleId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'sendNotifications' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'calendars/{calendarId}/acl/{ruleId}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'calendarId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'ruleId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'sendNotifications' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'watch' => [
+              'path' => 'calendars/{calendarId}/acl/watch',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'calendarId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'showDeleted' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'syncToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->calendarList = new Calendar\Resource\CalendarList(
+        $this,
+        $this->serviceName,
+        'calendarList',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'users/me/calendarList/{calendarId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'calendarId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'users/me/calendarList/{calendarId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'calendarId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'users/me/calendarList',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'colorRgbFormat' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'users/me/calendarList',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'minAccessRole' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'showDeleted' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'showHidden' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'syncToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'users/me/calendarList/{calendarId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'calendarId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'colorRgbFormat' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'users/me/calendarList/{calendarId}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'calendarId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'colorRgbFormat' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'watch' => [
+              'path' => 'users/me/calendarList/watch',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'minAccessRole' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'showDeleted' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'showHidden' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'syncToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->calendars = new Calendar\Resource\Calendars(
+        $this,
+        $this->serviceName,
+        'calendars',
+        [
+          'methods' => [
+            'clear' => [
+              'path' => 'calendars/{calendarId}/clear',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'calendarId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'calendars/{calendarId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'calendarId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'calendars/{calendarId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'calendarId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'calendars',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'patch' => [
+              'path' => 'calendars/{calendarId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'calendarId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'calendars/{calendarId}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'calendarId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->channels = new Calendar\Resource\Channels(
+        $this,
+        $this->serviceName,
+        'channels',
+        [
+          'methods' => [
+            'stop' => [
+              'path' => 'channels/stop',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],
+          ]
+        ]
+    );
+    $this->colors = new Calendar\Resource\Colors(
+        $this,
+        $this->serviceName,
+        'colors',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'colors',
+              'httpMethod' => 'GET',
+              'parameters' => [],
+            ],
+          ]
+        ]
+    );
+    $this->events = new Calendar\Resource\Events(
+        $this,
+        $this->serviceName,
+        'events',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'calendars/{calendarId}/events/{eventId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'calendarId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'eventId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'sendNotifications' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'sendUpdates' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'calendars/{calendarId}/events/{eventId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'calendarId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'eventId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'alwaysIncludeEmail' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'maxAttendees' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'timeZone' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'import' => [
+              'path' => 'calendars/{calendarId}/events/import',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'calendarId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'conferenceDataVersion' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'supportsAttachments' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'calendars/{calendarId}/events',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'calendarId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'conferenceDataVersion' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'maxAttendees' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'sendNotifications' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'sendUpdates' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'supportsAttachments' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'instances' => [
+              'path' => 'calendars/{calendarId}/events/{eventId}/instances',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'calendarId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'eventId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'alwaysIncludeEmail' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'maxAttendees' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'originalStart' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'showDeleted' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'timeMax' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'timeMin' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'timeZone' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'calendars/{calendarId}/events',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'calendarId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'alwaysIncludeEmail' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'iCalUID' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxAttendees' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'privateExtendedProperty' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'q' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sharedExtendedProperty' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'showDeleted' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'showHiddenInvitations' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'singleEvents' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'syncToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'timeMax' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'timeMin' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'timeZone' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'updatedMin' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'move' => [
+              'path' => 'calendars/{calendarId}/events/{eventId}/move',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'calendarId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'eventId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'destination' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'sendNotifications' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'sendUpdates' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'calendars/{calendarId}/events/{eventId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'calendarId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'eventId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'alwaysIncludeEmail' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'conferenceDataVersion' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'maxAttendees' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'sendNotifications' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'sendUpdates' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'supportsAttachments' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'quickAdd' => [
+              'path' => 'calendars/{calendarId}/events/quickAdd',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'calendarId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'text' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'sendNotifications' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'sendUpdates' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'calendars/{calendarId}/events/{eventId}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'calendarId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'eventId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'alwaysIncludeEmail' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'conferenceDataVersion' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'maxAttendees' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'sendNotifications' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'sendUpdates' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'supportsAttachments' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'watch' => [
+              'path' => 'calendars/{calendarId}/events/watch',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'calendarId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'alwaysIncludeEmail' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'iCalUID' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxAttendees' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'privateExtendedProperty' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'q' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sharedExtendedProperty' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'showDeleted' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'showHiddenInvitations' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'singleEvents' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'syncToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'timeMax' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'timeMin' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'timeZone' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'updatedMin' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->freebusy = new Calendar\Resource\Freebusy(
+        $this,
+        $this->serviceName,
+        'freebusy',
+        [
+          'methods' => [
+            'query' => [
+              'path' => 'freeBusy',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],
+          ]
+        ]
+    );
+    $this->settings = new Calendar\Resource\Settings(
+        $this,
+        $this->serviceName,
+        'settings',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'users/me/settings/{setting}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'setting' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'users/me/settings',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'syncToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'watch' => [
+              'path' => 'users/me/settings/watch',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'syncToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Calendar::class, 'Google_Service_Calendar');

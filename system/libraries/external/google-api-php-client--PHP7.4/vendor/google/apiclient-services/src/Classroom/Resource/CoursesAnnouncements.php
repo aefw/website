@@ -1,76 +1,191 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Classroom\Resource;
+
+use Google\Service\Classroom\Announcement;
+use Google\Service\Classroom\ClassroomEmpty;
+use Google\Service\Classroom\ListAnnouncementsResponse;
+use Google\Service\Classroom\ModifyAnnouncementAssigneesRequest;
+
+/**
+ * The "announcements" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $classroomService = new Google\Service\Classroom(...);
+ *   $announcements = $classroomService->announcements;
+ *  </code>
+ */
+class CoursesAnnouncements extends \Google\Service\Resource
+{
+  /**
+   * Creates an announcement. This method returns the following error codes: *
+   * `PERMISSION_DENIED` if the requesting user is not permitted to access the
+   * requested course, create announcements in the requested course, share a Drive
+   * attachment, or for access errors. * `INVALID_ARGUMENT` if the request is
+   * malformed. * `NOT_FOUND` if the requested course does not exist. *
+   * `FAILED_PRECONDITION` for the following request error: * AttachmentNotVisible
+   * (announcements.create)
+   *
+   * @param string $courseId Identifier of the course. This identifier can be
+   * either the Classroom-assigned identifier or an alias.
+   * @param Announcement $postBody
+   * @param array $optParams Optional parameters.
+   * @return Announcement
+   */
+  public function create($courseId, Announcement $postBody, $optParams = [])
+  {
+    $params = ['courseId' => $courseId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Announcement::class);
+  }
+  /**
+   * Deletes an announcement. This request must be made by the Developer Console
+   * project of the [OAuth client
+   * ID](https://support.google.com/cloud/answer/6158849) used to create the
+   * corresponding announcement item. This method returns the following error
+   * codes: * `PERMISSION_DENIED` if the requesting developer project did not
+   * create the corresponding announcement, if the requesting user is not
+   * permitted to delete the requested course or for access errors. *
+   * `FAILED_PRECONDITION` if the requested announcement has already been deleted.
+   * * `NOT_FOUND` if no course exists with the requested ID.
+   * (announcements.delete)
+   *
+   * @param string $courseId Identifier of the course. This identifier can be
+   * either the Classroom-assigned identifier or an alias.
+   * @param string $id Identifier of the announcement to delete. This identifier
+   * is a Classroom-assigned identifier.
+   * @param array $optParams Optional parameters.
+   * @return ClassroomEmpty
+   */
+  public function delete($courseId, $id, $optParams = [])
+  {
+    $params = ['courseId' => $courseId, 'id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], ClassroomEmpty::class);
+  }
+  /**
+   * Returns an announcement. This method returns the following error codes: *
+   * `PERMISSION_DENIED` if the requesting user is not permitted to access the
+   * requested course or announcement, or for access errors. * `INVALID_ARGUMENT`
+   * if the request is malformed. * `NOT_FOUND` if the requested course or
+   * announcement does not exist. (announcements.get)
+   *
+   * @param string $courseId Identifier of the course. This identifier can be
+   * either the Classroom-assigned identifier or an alias.
+   * @param string $id Identifier of the announcement.
+   * @param array $optParams Optional parameters.
+   * @return Announcement
+   */
+  public function get($courseId, $id, $optParams = [])
+  {
+    $params = ['courseId' => $courseId, 'id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Announcement::class);
+  }
+  /**
+   * Returns a list of announcements that the requester is permitted to view.
+   * Course students may only view `PUBLISHED` announcements. Course teachers and
+   * domain administrators may view all announcements. This method returns the
+   * following error codes: * `PERMISSION_DENIED` if the requesting user is not
+   * permitted to access the requested course or for access errors. *
+   * `INVALID_ARGUMENT` if the request is malformed. * `NOT_FOUND` if the
+   * requested course does not exist. (announcements.listCoursesAnnouncements)
+   *
+   * @param string $courseId Identifier of the course. This identifier can be
+   * either the Classroom-assigned identifier or an alias.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string announcementStates Restriction on the `state` of
+   * announcements returned. If this argument is left unspecified, the default
+   * value is `PUBLISHED`.
+   * @opt_param string orderBy Optional sort ordering for results. A comma-
+   * separated list of fields with an optional sort direction keyword. Supported
+   * field is `updateTime`. Supported direction keywords are `asc` and `desc`. If
+   * not specified, `updateTime desc` is the default behavior. Examples:
+   * `updateTime asc`, `updateTime`
+   * @opt_param int pageSize Maximum number of items to return. Zero or
+   * unspecified indicates that the server may assign a maximum. The server may
+   * return fewer than the specified number of results.
+   * @opt_param string pageToken nextPageToken value returned from a previous list
+   * call, indicating that the subsequent page of results should be returned. The
+   * list request must be otherwise identical to the one that resulted in this
+   * token.
+   * @return ListAnnouncementsResponse
+   */
+  public function listCoursesAnnouncements($courseId, $optParams = [])
+  {
+    $params = ['courseId' => $courseId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListAnnouncementsResponse::class);
+  }
+  /**
+   * Modifies assignee mode and options of an announcement. Only a teacher of the
+   * course that contains the announcement may call this method. This method
+   * returns the following error codes: * `PERMISSION_DENIED` if the requesting
+   * user is not permitted to access the requested course or course work or for
+   * access errors. * `INVALID_ARGUMENT` if the request is malformed. *
+   * `NOT_FOUND` if the requested course or course work does not exist.
+   * (announcements.modifyAssignees)
+   *
+   * @param string $courseId Identifier of the course. This identifier can be
+   * either the Classroom-assigned identifier or an alias.
+   * @param string $id Identifier of the announcement.
+   * @param ModifyAnnouncementAssigneesRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Announcement
+   */
+  public function modifyAssignees($courseId, $id, ModifyAnnouncementAssigneesRequest $postBody, $optParams = [])
+  {
+    $params = ['courseId' => $courseId, 'id' => $id, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('modifyAssignees', [$params], Announcement::class);
+  }
+  /**
+   * Updates one or more fields of an announcement. This method returns the
+   * following error codes: * `PERMISSION_DENIED` if the requesting developer
+   * project did not create the corresponding announcement or for access errors. *
+   * `INVALID_ARGUMENT` if the request is malformed. * `FAILED_PRECONDITION` if
+   * the requested announcement has already been deleted. * `NOT_FOUND` if the
+   * requested course or announcement does not exist (announcements.patch)
+   *
+   * @param string $courseId Identifier of the course. This identifier can be
+   * either the Classroom-assigned identifier or an alias.
+   * @param string $id Identifier of the announcement.
+   * @param Announcement $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Mask that identifies which fields on the
+   * announcement to update. This field is required to do an update. The update
+   * fails if invalid fields are specified. If a field supports empty values, it
+   * can be cleared by specifying it in the update mask and not in the
+   * Announcement object. If a field that does not support empty values is
+   * included in the update mask and not set in the Announcement object, an
+   * `INVALID_ARGUMENT` error is returned. The following fields may be specified
+   * by teachers: * `text` * `state` * `scheduled_time`
+   * @return Announcement
+   */
+  public function patch($courseId, $id, Announcement $postBody, $optParams = [])
+  {
+    $params = ['courseId' => $courseId, 'id' => $id, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Announcement::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(CoursesAnnouncements::class, 'Google_Service_Classroom_Resource_CoursesAnnouncements');

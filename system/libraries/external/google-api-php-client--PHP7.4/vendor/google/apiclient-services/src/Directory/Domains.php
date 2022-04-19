@@ -1,66 +1,97 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-+MIJ7kB5CSPOFkG6tx0+yKlXilMTPNJT
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Directory;
+
+class Domains extends \Google\Collection
+{
+  protected $collection_key = 'domainAliases';
+  public $creationTime;
+  protected $domainAliasesType = DomainAlias::class;
+  protected $domainAliasesDataType = 'array';
+  public $domainName;
+  public $etag;
+  public $isPrimary;
+  public $kind;
+  public $verified;
+
+  public function setCreationTime($creationTime)
+  {
+    $this->creationTime = $creationTime;
+  }
+  public function getCreationTime()
+  {
+    return $this->creationTime;
+  }
+  /**
+   * @param DomainAlias[]
+   */
+  public function setDomainAliases($domainAliases)
+  {
+    $this->domainAliases = $domainAliases;
+  }
+  /**
+   * @return DomainAlias[]
+   */
+  public function getDomainAliases()
+  {
+    return $this->domainAliases;
+  }
+  public function setDomainName($domainName)
+  {
+    $this->domainName = $domainName;
+  }
+  public function getDomainName()
+  {
+    return $this->domainName;
+  }
+  public function setEtag($etag)
+  {
+    $this->etag = $etag;
+  }
+  public function getEtag()
+  {
+    return $this->etag;
+  }
+  public function setIsPrimary($isPrimary)
+  {
+    $this->isPrimary = $isPrimary;
+  }
+  public function getIsPrimary()
+  {
+    return $this->isPrimary;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setVerified($verified)
+  {
+    $this->verified = $verified;
+  }
+  public function getVerified()
+  {
+    return $this->verified;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Domains::class, 'Google_Service_Directory_Domains');

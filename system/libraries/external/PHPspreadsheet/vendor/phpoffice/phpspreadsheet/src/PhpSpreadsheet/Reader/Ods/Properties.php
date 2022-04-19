@@ -1,93 +1,135 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-KSA7N/qng99E8ZNZs6Q5ktjO+e6n1nnarm==
+<?php
+
+namespace PhpOffice\PhpSpreadsheet\Reader\Ods;
+
+use PhpOffice\PhpSpreadsheet\Document\Properties as DocumentProperties;
+use PhpOffice\PhpSpreadsheet\Spreadsheet;
+
+class Properties
+{
+    private $spreadsheet;
+
+    public function __construct(Spreadsheet $spreadsheet)
+    {
+        $this->spreadsheet = $spreadsheet;
+    }
+
+    public function load(\SimpleXMLElement $xml, $namespacesMeta)
+    {
+        $docProps = $this->spreadsheet->getProperties();
+        $officeProperty = $xml->children($namespacesMeta['office']);
+        foreach ($officeProperty as $officePropertyData) {
+            // @var \SimpleXMLElement $officePropertyData
+            if (isset($namespacesMeta['dc'])) {
+                $officePropertiesDC = $officePropertyData->children($namespacesMeta['dc']);
+                $this->setCoreProperties($docProps, $officePropertiesDC);
+            }
+
+            $officePropertyMeta = (object) [];
+            if (isset($namespacesMeta['dc'])) {
+                $officePropertyMeta = $officePropertyData->children($namespacesMeta['meta']);
+            }
+            foreach ($officePropertyMeta as $propertyName => $propertyValue) {
+                $this->setMetaProperties($namespacesMeta, $propertyValue, $propertyName, $docProps);
+            }
+        }
+    }
+
+    private function setCoreProperties(DocumentProperties $docProps, \SimpleXMLElement $officePropertyDC)
+    {
+        foreach ($officePropertyDC as $propertyName => $propertyValue) {
+            $propertyValue = (string) $propertyValue;
+            switch ($propertyName) {
+                case 'title':
+                    $docProps->setTitle($propertyValue);
+
+                    break;
+                case 'subject':
+                    $docProps->setSubject($propertyValue);
+
+                    break;
+                case 'creator':
+                    $docProps->setCreator($propertyValue);
+                    $docProps->setLastModifiedBy($propertyValue);
+
+                    break;
+                case 'creation-date':
+                    $creationDate = strtotime($propertyValue);
+                    $docProps->setCreated($creationDate);
+                    $docProps->setModified($creationDate);
+
+                    break;
+                case 'keyword':
+                    $docProps->setKeywords($propertyValue);
+
+                    break;
+                case 'description':
+                    $docProps->setDescription($propertyValue);
+
+                    break;
+            }
+        }
+    }
+
+    private function setMetaProperties(
+        $namespacesMeta,
+        \SimpleXMLElement $propertyValue,
+        $propertyName,
+        DocumentProperties $docProps
+    ) {
+        $propertyValueAttributes = $propertyValue->attributes($namespacesMeta['meta']);
+        $propertyValue = (string) $propertyValue;
+        switch ($propertyName) {
+            case 'initial-creator':
+                $docProps->setCreator($propertyValue);
+
+                break;
+            case 'keyword':
+                $docProps->setKeywords($propertyValue);
+
+                break;
+            case 'creation-date':
+                $creationDate = strtotime($propertyValue);
+                $docProps->setCreated($creationDate);
+
+                break;
+            case 'user-defined':
+                $this->setUserDefinedProperty($propertyValueAttributes, $propertyValue, $docProps);
+
+                break;
+        }
+    }
+
+    private function setUserDefinedProperty($propertyValueAttributes, $propertyValue, DocumentProperties $docProps)
+    {
+        $propertyValueName = '';
+        $propertyValueType = DocumentProperties::PROPERTY_TYPE_STRING;
+        foreach ($propertyValueAttributes as $key => $value) {
+            if ($key == 'name') {
+                $propertyValueName = (string) $value;
+            } elseif ($key == 'value-type') {
+                switch ($value) {
+                    case 'date':
+                        $propertyValue = DocumentProperties::convertProperty($propertyValue, 'date');
+                        $propertyValueType = DocumentProperties::PROPERTY_TYPE_DATE;
+
+                        break;
+                    case 'boolean':
+                        $propertyValue = DocumentProperties::convertProperty($propertyValue, 'bool');
+                        $propertyValueType = DocumentProperties::PROPERTY_TYPE_BOOLEAN;
+
+                        break;
+                    case 'float':
+                        $propertyValue = DocumentProperties::convertProperty($propertyValue, 'r4');
+                        $propertyValueType = DocumentProperties::PROPERTY_TYPE_FLOAT;
+
+                        break;
+                    default:
+                        $propertyValueType = DocumentProperties::PROPERTY_TYPE_STRING;
+                }
+            }
+        }
+
+        $docProps->setCustomProperty($propertyValueName, $propertyValue, $propertyValueType);
+    }
+}

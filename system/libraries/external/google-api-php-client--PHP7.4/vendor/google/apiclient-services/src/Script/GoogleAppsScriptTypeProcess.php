@@ -1,66 +1,89 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Script;
+
+class GoogleAppsScriptTypeProcess extends \Google\Model
+{
+  public $duration;
+  public $functionName;
+  public $processStatus;
+  public $processType;
+  public $projectName;
+  public $startTime;
+  public $userAccessLevel;
+
+  public function setDuration($duration)
+  {
+    $this->duration = $duration;
+  }
+  public function getDuration()
+  {
+    return $this->duration;
+  }
+  public function setFunctionName($functionName)
+  {
+    $this->functionName = $functionName;
+  }
+  public function getFunctionName()
+  {
+    return $this->functionName;
+  }
+  public function setProcessStatus($processStatus)
+  {
+    $this->processStatus = $processStatus;
+  }
+  public function getProcessStatus()
+  {
+    return $this->processStatus;
+  }
+  public function setProcessType($processType)
+  {
+    $this->processType = $processType;
+  }
+  public function getProcessType()
+  {
+    return $this->processType;
+  }
+  public function setProjectName($projectName)
+  {
+    $this->projectName = $projectName;
+  }
+  public function getProjectName()
+  {
+    return $this->projectName;
+  }
+  public function setStartTime($startTime)
+  {
+    $this->startTime = $startTime;
+  }
+  public function getStartTime()
+  {
+    return $this->startTime;
+  }
+  public function setUserAccessLevel($userAccessLevel)
+  {
+    $this->userAccessLevel = $userAccessLevel;
+  }
+  public function getUserAccessLevel()
+  {
+    return $this->userAccessLevel;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleAppsScriptTypeProcess::class, 'Google_Service_Script_GoogleAppsScriptTypeProcess');

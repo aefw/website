@@ -1,66 +1,170 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute\Resource;
+
+use Google\Service\Compute\Operation;
+use Google\Service\Compute\SslCertificate;
+use Google\Service\Compute\SslCertificateList;
+
+/**
+ * The "regionSslCertificates" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $computeService = new Google\Service\Compute(...);
+ *   $regionSslCertificates = $computeService->regionSslCertificates;
+ *  </code>
+ */
+class RegionSslCertificates extends \Google\Service\Resource
+{
+  /**
+   * Deletes the specified SslCertificate resource in the region.
+   * (regionSslCertificates.delete)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param string $sslCertificate Name of the SslCertificate resource to delete.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function delete($project, $region, $sslCertificate, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'sslCertificate' => $sslCertificate];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Returns the specified SslCertificate resource in the specified region. Get a
+   * list of available SSL certificates by making a list() request.
+   * (regionSslCertificates.get)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param string $sslCertificate Name of the SslCertificate resource to return.
+   * @param array $optParams Optional parameters.
+   * @return SslCertificate
+   */
+  public function get($project, $region, $sslCertificate, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'sslCertificate' => $sslCertificate];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], SslCertificate::class);
+  }
+  /**
+   * Creates a SslCertificate resource in the specified project and region using
+   * the data included in the request (regionSslCertificates.insert)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param SslCertificate $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function insert($project, $region, SslCertificate $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Operation::class);
+  }
+  /**
+   * Retrieves the list of SslCertificate resources available to the specified
+   * project in the specified region.
+   * (regionSslCertificates.listRegionSslCertificates)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return SslCertificateList
+   */
+  public function listRegionSslCertificates($project, $region, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], SslCertificateList::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(RegionSslCertificates::class, 'Google_Service_Compute_Resource_RegionSslCertificates');

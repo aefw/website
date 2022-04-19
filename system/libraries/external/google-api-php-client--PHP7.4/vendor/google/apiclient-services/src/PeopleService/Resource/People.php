@@ -1,98 +1,406 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\PeopleService\Resource;
+
+use Google\Service\PeopleService\BatchCreateContactsRequest;
+use Google\Service\PeopleService\BatchCreateContactsResponse;
+use Google\Service\PeopleService\BatchDeleteContactsRequest;
+use Google\Service\PeopleService\BatchUpdateContactsRequest;
+use Google\Service\PeopleService\BatchUpdateContactsResponse;
+use Google\Service\PeopleService\DeleteContactPhotoResponse;
+use Google\Service\PeopleService\GetPeopleResponse;
+use Google\Service\PeopleService\ListDirectoryPeopleResponse;
+use Google\Service\PeopleService\PeopleEmpty;
+use Google\Service\PeopleService\Person;
+use Google\Service\PeopleService\SearchDirectoryPeopleResponse;
+use Google\Service\PeopleService\SearchResponse;
+use Google\Service\PeopleService\UpdateContactPhotoRequest;
+use Google\Service\PeopleService\UpdateContactPhotoResponse;
+
+/**
+ * The "people" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $peopleService = new Google\Service\PeopleService(...);
+ *   $people = $peopleService->people;
+ *  </code>
+ */
+class People extends \Google\Service\Resource
+{
+  /**
+   * Create a batch of new contacts and return the PersonResponses for the newly
+   * created contacts. Limited to 10 parallel requests per user.
+   * (people.batchCreateContacts)
+   *
+   * @param BatchCreateContactsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return BatchCreateContactsResponse
+   */
+  public function batchCreateContacts(BatchCreateContactsRequest $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('batchCreateContacts', [$params], BatchCreateContactsResponse::class);
+  }
+  /**
+   * Delete a batch of contacts. Any non-contact data will not be deleted. Limited
+   * to 10 parallel requests per user. (people.batchDeleteContacts)
+   *
+   * @param BatchDeleteContactsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return PeopleEmpty
+   */
+  public function batchDeleteContacts(BatchDeleteContactsRequest $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('batchDeleteContacts', [$params], PeopleEmpty::class);
+  }
+  /**
+   * Update a batch of contacts and return a map of resource names to
+   * PersonResponses for the updated contacts. Limited to 10 parallel requests per
+   * user. (people.batchUpdateContacts)
+   *
+   * @param BatchUpdateContactsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return BatchUpdateContactsResponse
+   */
+  public function batchUpdateContacts(BatchUpdateContactsRequest $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('batchUpdateContacts', [$params], BatchUpdateContactsResponse::class);
+  }
+  /**
+   * Create a new contact and return the person resource for that contact. The
+   * request returns a 400 error if more than one field is specified on a field
+   * that is a singleton for contact sources: * biographies * birthdays * genders
+   * * names (people.createContact)
+   *
+   * @param Person $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string personFields Required. A field mask to restrict which
+   * fields on each person are returned. Multiple fields can be specified by
+   * separating them with commas. Defaults to all fields if not set. Valid values
+   * are: * addresses * ageRanges * biographies * birthdays * calendarUrls *
+   * clientData * coverPhotos * emailAddresses * events * externalIds * genders *
+   * imClients * interests * locales * locations * memberships * metadata *
+   * miscKeywords * names * nicknames * occupations * organizations * phoneNumbers
+   * * photos * relations * sipAddresses * skills * urls * userDefined
+   * @opt_param string sources Optional. A mask of what source types to return.
+   * Defaults to READ_SOURCE_TYPE_CONTACT and READ_SOURCE_TYPE_PROFILE if not set.
+   * @return Person
+   */
+  public function createContact(Person $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('createContact', [$params], Person::class);
+  }
+  /**
+   * Delete a contact person. Any non-contact data will not be deleted.
+   * (people.deleteContact)
+   *
+   * @param string $resourceName Required. The resource name of the contact to
+   * delete.
+   * @param array $optParams Optional parameters.
+   * @return PeopleEmpty
+   */
+  public function deleteContact($resourceName, $optParams = [])
+  {
+    $params = ['resourceName' => $resourceName];
+    $params = array_merge($params, $optParams);
+    return $this->call('deleteContact', [$params], PeopleEmpty::class);
+  }
+  /**
+   * Delete a contact's photo. (people.deleteContactPhoto)
+   *
+   * @param string $resourceName Required. The resource name of the contact whose
+   * photo will be deleted.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string personFields Optional. A field mask to restrict which
+   * fields on the person are returned. Multiple fields can be specified by
+   * separating them with commas. Defaults to empty if not set, which will skip
+   * the post mutate get. Valid values are: * addresses * ageRanges * biographies
+   * * birthdays * calendarUrls * clientData * coverPhotos * emailAddresses *
+   * events * externalIds * genders * imClients * interests * locales * locations
+   * * memberships * metadata * miscKeywords * names * nicknames * occupations *
+   * organizations * phoneNumbers * photos * relations * sipAddresses * skills *
+   * urls * userDefined
+   * @opt_param string sources Optional. A mask of what source types to return.
+   * Defaults to READ_SOURCE_TYPE_CONTACT and READ_SOURCE_TYPE_PROFILE if not set.
+   * @return DeleteContactPhotoResponse
+   */
+  public function deleteContactPhoto($resourceName, $optParams = [])
+  {
+    $params = ['resourceName' => $resourceName];
+    $params = array_merge($params, $optParams);
+    return $this->call('deleteContactPhoto', [$params], DeleteContactPhotoResponse::class);
+  }
+  /**
+   * Provides information about a person by specifying a resource name. Use
+   * `people/me` to indicate the authenticated user. The request returns a 400
+   * error if 'personFields' is not specified. (people.get)
+   *
+   * @param string $resourceName Required. The resource name of the person to
+   * provide information about. - To get information about the authenticated user,
+   * specify `people/me`. - To get information about a google account, specify
+   * `people/{account_id}`. - To get information about a contact, specify the
+   * resource name that identifies the contact as returned by
+   * [`people.connections.list`](/people/api/rest/v1/people.connections/list).
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string personFields Required. A field mask to restrict which
+   * fields on the person are returned. Multiple fields can be specified by
+   * separating them with commas. Valid values are: * addresses * ageRanges *
+   * biographies * birthdays * calendarUrls * clientData * coverPhotos *
+   * emailAddresses * events * externalIds * genders * imClients * interests *
+   * locales * locations * memberships * metadata * miscKeywords * names *
+   * nicknames * occupations * organizations * phoneNumbers * photos * relations *
+   * sipAddresses * skills * urls * userDefined
+   * @opt_param string requestMask.includeField Required. Comma-separated list of
+   * person fields to be included in the response. Each path should start with
+   * `person.`: for example, `person.names` or `person.photos`.
+   * @opt_param string sources Optional. A mask of what source types to return.
+   * Defaults to READ_SOURCE_TYPE_PROFILE and READ_SOURCE_TYPE_CONTACT if not set.
+   * @return Person
+   */
+  public function get($resourceName, $optParams = [])
+  {
+    $params = ['resourceName' => $resourceName];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Person::class);
+  }
+  /**
+   * Provides information about a list of specific people by specifying a list of
+   * requested resource names. Use `people/me` to indicate the authenticated user.
+   * The request returns a 400 error if 'personFields' is not specified.
+   * (people.getBatchGet)
+   *
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string personFields Required. A field mask to restrict which
+   * fields on each person are returned. Multiple fields can be specified by
+   * separating them with commas. Valid values are: * addresses * ageRanges *
+   * biographies * birthdays * calendarUrls * clientData * coverPhotos *
+   * emailAddresses * events * externalIds * genders * imClients * interests *
+   * locales * locations * memberships * metadata * miscKeywords * names *
+   * nicknames * occupations * organizations * phoneNumbers * photos * relations *
+   * sipAddresses * skills * urls * userDefined
+   * @opt_param string requestMask.includeField Required. Comma-separated list of
+   * person fields to be included in the response. Each path should start with
+   * `person.`: for example, `person.names` or `person.photos`.
+   * @opt_param string resourceNames Required. The resource names of the people to
+   * provide information about. It's repeatable. The URL query parameter should be
+   * resourceNames==&... - To get information about the authenticated user,
+   * specify `people/me`. - To get information about a google account, specify
+   * `people/{account_id}`. - To get information about a contact, specify the
+   * resource name that identifies the contact as returned by
+   * [`people.connections.list`](/people/api/rest/v1/people.connections/list).
+   * There is a maximum of 200 resource names.
+   * @opt_param string sources Optional. A mask of what source types to return.
+   * Defaults to READ_SOURCE_TYPE_CONTACT and READ_SOURCE_TYPE_PROFILE if not set.
+   * @return GetPeopleResponse
+   */
+  public function getBatchGet($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('getBatchGet', [$params], GetPeopleResponse::class);
+  }
+  /**
+   * Provides a list of domain profiles and domain contacts in the authenticated
+   * user's domain directory. (people.listDirectoryPeople)
+   *
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string mergeSources Optional. Additional data to merge into the
+   * directory sources if they are connected through verified join keys such as
+   * email addresses or phone numbers.
+   * @opt_param int pageSize Optional. The number of people to include in the
+   * response. Valid values are between 1 and 1000, inclusive. Defaults to 100 if
+   * not set or set to 0.
+   * @opt_param string pageToken Optional. A page token, received from a previous
+   * `ListDirectoryPeople` call. Provide this to retrieve the subsequent page.
+   * When paginating, all other parameters provided to `ListDirectoryPeople` must
+   * match the call that provided the page token.
+   * @opt_param string readMask Required. A field mask to restrict which fields on
+   * each person are returned. Multiple fields can be specified by separating them
+   * with commas. Valid values are: * addresses * ageRanges * biographies *
+   * birthdays * calendarUrls * clientData * coverPhotos * emailAddresses * events
+   * * externalIds * genders * imClients * interests * locales * locations *
+   * memberships * metadata * miscKeywords * names * nicknames * occupations *
+   * organizations * phoneNumbers * photos * relations * sipAddresses * skills *
+   * urls * userDefined
+   * @opt_param bool requestSyncToken Optional. Whether the response should
+   * include `next_sync_token`, which can be used to get all changes since the
+   * last request. For subsequent sync requests use the `sync_token` param
+   * instead.
+   * @opt_param string sources Required. Directory sources to return.
+   * @opt_param string syncToken Optional. A sync token, received from a previous
+   * `ListDirectoryPeople` call. Provide this to retrieve only the resources
+   * changed since the last request. When syncing, all other parameters provided
+   * to `ListDirectoryPeople` must match the call that provided the sync token.
+   * @return ListDirectoryPeopleResponse
+   */
+  public function listDirectoryPeople($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('listDirectoryPeople', [$params], ListDirectoryPeopleResponse::class);
+  }
+  /**
+   * Provides a list of contacts in the authenticated user's grouped contacts that
+   * matches the search query. The query matches on a contact's `names`,
+   * `nickNames`, `emailAddresses`, `phoneNumbers`, and `organizations` fields
+   * that are from the CONTACT" source. **IMPORTANT**: Before searching, clients
+   * should send a warmup request with an empty query to update the cache. See
+   * https://developers.google.com/people/v1/contacts#search_the_users_contacts
+   * (people.searchContacts)
+   *
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Optional. The number of results to return. Defaults
+   * to 10 if field is not set, or set to 0. Values greater than 10 will be capped
+   * to 10.
+   * @opt_param string query Required. The plain-text query for the request. The
+   * query is used to match prefix phrases of the fields on a person. For example,
+   * a person with name "foo name" matches queries such as "f", "fo", "foo", "foo
+   * n", "nam", etc., but not "oo n".
+   * @opt_param string readMask Required. A field mask to restrict which fields on
+   * each person are returned. Multiple fields can be specified by separating them
+   * with commas. Valid values are: * addresses * ageRanges * biographies *
+   * birthdays * calendarUrls * clientData * coverPhotos * emailAddresses * events
+   * * externalIds * genders * imClients * interests * locales * locations *
+   * memberships * metadata * miscKeywords * names * nicknames * occupations *
+   * organizations * phoneNumbers * photos * relations * sipAddresses * skills *
+   * urls * userDefined
+   * @opt_param string sources Optional. A mask of what source types to return.
+   * Defaults to READ_SOURCE_TYPE_CONTACT if not set.
+   * @return SearchResponse
+   */
+  public function searchContacts($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('searchContacts', [$params], SearchResponse::class);
+  }
+  /**
+   * Provides a list of domain profiles and domain contacts in the authenticated
+   * user's domain directory that match the search query.
+   * (people.searchDirectoryPeople)
+   *
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string mergeSources Optional. Additional data to merge into the
+   * directory sources if they are connected through verified join keys such as
+   * email addresses or phone numbers.
+   * @opt_param int pageSize Optional. The number of people to include in the
+   * response. Valid values are between 1 and 500, inclusive. Defaults to 100 if
+   * not set or set to 0.
+   * @opt_param string pageToken Optional. A page token, received from a previous
+   * `SearchDirectoryPeople` call. Provide this to retrieve the subsequent page.
+   * When paginating, all other parameters provided to `SearchDirectoryPeople`
+   * must match the call that provided the page token.
+   * @opt_param string query Required. Prefix query that matches fields in the
+   * person. Does NOT use the read_mask for determining what fields to match.
+   * @opt_param string readMask Required. A field mask to restrict which fields on
+   * each person are returned. Multiple fields can be specified by separating them
+   * with commas. Valid values are: * addresses * ageRanges * biographies *
+   * birthdays * calendarUrls * clientData * coverPhotos * emailAddresses * events
+   * * externalIds * genders * imClients * interests * locales * locations *
+   * memberships * metadata * miscKeywords * names * nicknames * occupations *
+   * organizations * phoneNumbers * photos * relations * sipAddresses * skills *
+   * urls * userDefined
+   * @opt_param string sources Required. Directory sources to return.
+   * @return SearchDirectoryPeopleResponse
+   */
+  public function searchDirectoryPeople($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('searchDirectoryPeople', [$params], SearchDirectoryPeopleResponse::class);
+  }
+  /**
+   * Update contact data for an existing contact person. Any non-contact data will
+   * not be modified. Any non-contact data in the person to update will be
+   * ignored. All fields specified in the `update_mask` will be replaced. The
+   * server returns a 400 error if `person.metadata.sources` is not specified for
+   * the contact to be updated or if there is no contact source. The server
+   * returns a 400 error with reason `"failedPrecondition"` if
+   * `person.metadata.sources.etag` is different than the contact's etag, which
+   * indicates the contact has changed since its data was read. Clients should get
+   * the latest person and merge their updates into the latest person. The server
+   * returns a 400 error if `memberships` are being updated and there are no
+   * contact group memberships specified on the person. The server returns a 400
+   * error if more than one field is specified on a field that is a singleton for
+   * contact sources: * biographies * birthdays * genders * names
+   * (people.updateContact)
+   *
+   * @param string $resourceName The resource name for the person, assigned by the
+   * server. An ASCII string with a max length of 27 characters, in the form of
+   * `people/{person_id}`.
+   * @param Person $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string personFields Optional. A field mask to restrict which
+   * fields on each person are returned. Multiple fields can be specified by
+   * separating them with commas. Defaults to all fields if not set. Valid values
+   * are: * addresses * ageRanges * biographies * birthdays * calendarUrls *
+   * clientData * coverPhotos * emailAddresses * events * externalIds * genders *
+   * imClients * interests * locales * locations * memberships * metadata *
+   * miscKeywords * names * nicknames * occupations * organizations * phoneNumbers
+   * * photos * relations * sipAddresses * skills * urls * userDefined
+   * @opt_param string sources Optional. A mask of what source types to return.
+   * Defaults to READ_SOURCE_TYPE_CONTACT and READ_SOURCE_TYPE_PROFILE if not set.
+   * @opt_param string updatePersonFields Required. A field mask to restrict which
+   * fields on the person are updated. Multiple fields can be specified by
+   * separating them with commas. All updated fields will be replaced. Valid
+   * values are: * addresses * biographies * birthdays * calendarUrls * clientData
+   * * emailAddresses * events * externalIds * genders * imClients * interests *
+   * locales * locations * memberships * miscKeywords * names * nicknames *
+   * occupations * organizations * phoneNumbers * relations * sipAddresses * urls
+   * * userDefined
+   * @return Person
+   */
+  public function updateContact($resourceName, Person $postBody, $optParams = [])
+  {
+    $params = ['resourceName' => $resourceName, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('updateContact', [$params], Person::class);
+  }
+  /**
+   * Update a contact's photo. (people.updateContactPhoto)
+   *
+   * @param string $resourceName Required. Person resource name
+   * @param UpdateContactPhotoRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return UpdateContactPhotoResponse
+   */
+  public function updateContactPhoto($resourceName, UpdateContactPhotoRequest $postBody, $optParams = [])
+  {
+    $params = ['resourceName' => $resourceName, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('updateContactPhoto', [$params], UpdateContactPhotoResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(People::class, 'Google_Service_PeopleService_Resource_People');

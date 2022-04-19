@@ -1,296 +1,703 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+/**
+ * RouterOS API client implementation.
+
+ *
+ * RouterOS is the flag product of the company MikroTik and is a powerful router software. One of its many abilities is to allow control over it via an API. This package provides a client for that API, in turn allowing you to use PHP to control RouterOS hosts.
+ *
+ * PHP version 5
+ *
+ * @category  Net
+ * @package   PEAR2_Net_RouterOS
+ * @author    Vasil Rangelov <boen.robot@gmail.com>
+ * @copyright 2011 Vasil Rangelov
+ * @license   http://www.gnu.org/copyleft/lesser.html LGPL License 2.1
+ * @version   1.0.0b6
+ * @link      http://pear2.php.net/PEAR2_Net_RouterOS
+ */
+/**
+ * The namespace declaration.
+ */
+namespace PEAR2\Net\RouterOS;
+
+/**
+ * Using transmitters.
+ */
+use PEAR2\Net\Transmitter as T;
+
+/**
+ * A RouterOS communicator.
+ *
+ * Implementation of the RouterOS API protocol. Unlike the other classes in this
+ * package, this class doesn't provide any conveniences beyond the low level
+ * implementation details (automatic word length encoding/decoding, charset
+ * translation and data integrity), and because of that, its direct usage is
+ * strongly discouraged.
+ *
+ * @category Net
+ * @package  PEAR2_Net_RouterOS
+ * @author   Vasil Rangelov <boen.robot@gmail.com>
+ * @license  http://www.gnu.org/copyleft/lesser.html LGPL License 2.1
+ * @link     http://pear2.php.net/PEAR2_Net_RouterOS
+ * @see      Client
+ */
+class Communicator
+{
+    /**
+     * Used when getting/setting all (default) charsets.
+     */
+    const CHARSET_ALL = -1;
+
+    /**
+     * Used when getting/setting the (default) remote charset.
+     *
+     * The remote charset is the charset in which RouterOS stores its data.
+     * If you want to keep compatibility with your Winbox, this charset should
+     * match the default charset from your Windows' regional settings.
+     */
+    const CHARSET_REMOTE = 0;
+
+    /**
+     * Used when getting/setting the (default) local charset.
+     *
+     * The local charset is the charset in which the data from RouterOS will be
+     * returned as. This charset should match the charset of the place the data
+     * will eventually be written to.
+     */
+    const CHARSET_LOCAL = 1;
+
+    /**
+     * An array with the default charset.
+     *
+     * Charset types as keys, and the default charsets as values.
+     *
+     * @var array<string,string|null>
+     */
+    protected static $defaultCharsets = array(
+        self::CHARSET_REMOTE => null,
+        self::CHARSET_LOCAL  => null
+    );
+
+    /**
+     * An array with the current charset.
+     *
+     * Charset types as keys, and the current charsets as values.
+     *
+     * @var array<string,string|null>
+     */
+    protected $charsets = array();
+
+    /**
+     * The transmitter for the connection.
+     *
+     * @var T\TcpClient
+     */
+    protected $trans;
+
+    /**
+     * Creates a new connection with the specified options.
+     *
+     * @param string        $host    Hostname (IP or domain) of RouterOS.
+     * @param int|null      $port    The port on which the RouterOS host
+     *     provides the API service. You can also specify NULL, in which case
+     *     the port will automatically be chosen between 8728 and 8729,
+     *     depending on the value of $crypto.
+     * @param bool          $persist Whether or not the connection should be a
+     *     persistent one.
+     * @param double|null   $timeout The timeout for the connection.
+     * @param string        $key     A string that uniquely identifies the
+     *     connection.
+     * @param string        $crypto  The encryption for this connection.
+     *     Must be one of the PEAR2\Net\Transmitter\NetworkStream::CRYPTO_*
+     *     constants. Off by default. RouterOS currently supports only TLS, but
+     *     the setting is provided in this fashion for forward compatibility's
+     *     sake. And for the sake of simplicity, if you specify an encryption,
+     *     don't specify a context and your default context uses the value
+     *     "DEFAULT" for ciphers, "ADH" will be automatically added to the list
+     *     of ciphers.
+     * @param resource|null $context A context for the socket.
+     *
+     * @see sendWord()
+     */
+    public function __construct(
+        $host,
+        $port = 8728,
+        $persist = false,
+        $timeout = null,
+        $key = '',
+        $crypto = T\NetworkStream::CRYPTO_OFF,
+        $context = null
+    ) {
+        $isUnencrypted = T\NetworkStream::CRYPTO_OFF === $crypto;
+        if (($context === null) && !$isUnencrypted) {
+            $context = stream_context_get_default();
+            $opts = stream_context_get_options($context);
+            if (!isset($opts['ssl']['ciphers'])
+                || 'DEFAULT' === $opts['ssl']['ciphers']
+            ) {
+                stream_context_set_option(
+                    $context,
+                    array(
+                        'ssl' => array(
+                            'ciphers' => 'ADH',
+                            'verify_peer' => false,
+                            'verify_peer_name' => false
+                        )
+                    )
+                );
+            }
+        }
+        // @codeCoverageIgnoreStart
+        // The $port is customizable in testing.
+        if (null === $port) {
+            $port = $isUnencrypted ? 8728 : 8729;
+        }
+        // @codeCoverageIgnoreEnd
+
+        try {
+            $this->trans = new T\TcpClient(
+                $host,
+                $port,
+                $persist,
+                $timeout,
+                $key,
+                $crypto,
+                $context
+            );
+        } catch (T\Exception $e) {
+            throw new SocketException(
+                'Error connecting to RouterOS',
+                SocketException::CODE_CONNECTION_FAIL,
+                $e
+            );
+        }
+        $this->setCharset(
+            self::getDefaultCharset(self::CHARSET_ALL),
+            self::CHARSET_ALL
+        );
+    }
+
+    /**
+     * A shorthand gateway.
+     *
+     * This is a magic PHP method that allows you to call the object as a
+     * function. Depending on the argument given, one of the other functions in
+     * the class is invoked and its returned value is returned by this function.
+     *
+     * @param string|null $string A string of the word to send, or NULL to get
+     *     the next word as a string.
+     *
+     * @return int|string If a string is provided, returns the number of bytes
+     *     sent, otherwise returns the next word as a string.
+     */
+    public function __invoke($string = null)
+    {
+        return null === $string ? $this->getNextWord()
+            : $this->sendWord($string);
+    }
+
+    /**
+     * Checks whether a variable is a seekable stream resource.
+     *
+     * @param mixed $var The value to check.
+     *
+     * @return bool TRUE if $var is a seekable stream, FALSE otherwise.
+     */
+    public static function isSeekableStream($var)
+    {
+        if (T\Stream::isStream($var)) {
+            $meta = stream_get_meta_data($var);
+            return $meta['seekable'];
+        }
+        return false;
+    }
+
+    /**
+     * Uses iconv to convert a stream from one charset to another.
+     *
+     * @param string   $inCharset  The charset of the stream.
+     * @param string   $outCharset The desired resulting charset.
+     * @param resource $stream     The stream to convert. The stream is assumed
+     *     to be seekable, and is read from its current position to its end,
+     *     after which, it is seeked back to its starting position.
+     *
+     * @return resource A new stream that uses the $out_charset. The stream is a
+     *     subset from the original stream, from its current position to its
+     *     end, seeked at its start.
+     */
+    public static function iconvStream($inCharset, $outCharset, $stream)
+    {
+        $bytes = 0;
+        $result = fopen('php://temp', 'r+b');
+        $iconvFilter = stream_filter_append(
+            $result,
+            'convert.iconv.' . $inCharset . '.' . $outCharset,
+            STREAM_FILTER_WRITE
+        );
+
+        flock($stream, LOCK_SH);
+        $reader = new T\Stream($stream, false);
+        $writer = new T\Stream($result, false);
+        $chunkSize = $reader->getChunk(T\Stream::DIRECTION_RECEIVE);
+        while ($reader->isAvailable() && $reader->isDataAwaiting()) {
+            $bytes += $writer->send(fread($stream, $chunkSize));
+        }
+        fseek($stream, -$bytes, SEEK_CUR);
+        flock($stream, LOCK_UN);
+
+        stream_filter_remove($iconvFilter);
+        rewind($result);
+        return $result;
+    }
+
+    /**
+     * Sets the default charset(s) for new connections.
+     *
+     * @param mixed $charset     The charset to set. If $charsetType is
+     *     {@link self::CHARSET_ALL}, you can supply either a string to use for
+     *     all charsets, or an array with the charset types as keys, and the
+     *     charsets as values.
+     * @param int   $charsetType Which charset to set. Valid values are the
+     *     CHARSET_* constants. Any other value is treated as
+     *     {@link self::CHARSET_ALL}.
+     *
+     * @return string|array The old charset. If $charsetType is
+     *     {@link self::CHARSET_ALL}, the old values will be returned as an
+     *     array with the types as keys, and charsets as values.
+     *
+     * @see setCharset()
+     */
+    public static function setDefaultCharset(
+        $charset,
+        $charsetType = self::CHARSET_ALL
+    ) {
+        if (array_key_exists($charsetType, self::$defaultCharsets)) {
+             $oldCharset = self::$defaultCharsets[$charsetType];
+             self::$defaultCharsets[$charsetType] = $charset;
+             return $oldCharset;
+        } else {
+            $oldCharsets = self::$defaultCharsets;
+            self::$defaultCharsets = is_array($charset) ? $charset : array_fill(
+                0,
+                count(self::$defaultCharsets),
+                $charset
+            );
+            return $oldCharsets;
+        }
+    }
+
+    /**
+     * Gets the default charset(s).
+     *
+     * @param int $charsetType Which charset to get. Valid values are the
+     *     CHARSET_* constants. Any other value is treated as
+     *     {@link self::CHARSET_ALL}.
+     *
+     * @return string|array The current charset. If $charsetType is
+     *     {@link self::CHARSET_ALL}, the current values will be returned as an
+     *     array with the types as keys, and charsets as values.
+     *
+     * @see setDefaultCharset()
+     */
+    public static function getDefaultCharset($charsetType)
+    {
+        return array_key_exists($charsetType, self::$defaultCharsets)
+            ? self::$defaultCharsets[$charsetType] : self::$defaultCharsets;
+    }
+
+    /**
+     * Gets the length of a seekable stream.
+     *
+     * Gets the length of a seekable stream.
+     *
+     * @param resource $stream The stream to check. The stream is assumed to be
+     *     seekable.
+     *
+     * @return double The number of bytes in the stream between its current
+     *     position and its end.
+     */
+    public static function seekableStreamLength($stream)
+    {
+        $streamPosition = (double) sprintf('%u', ftell($stream));
+        fseek($stream, 0, SEEK_END);
+        $streamLength = ((double) sprintf('%u', ftell($stream)))
+            - $streamPosition;
+        fseek($stream, $streamPosition, SEEK_SET);
+        return $streamLength;
+    }
+
+    /**
+     * Sets the charset(s) for this connection.
+     *
+     * Sets the charset(s) for this connection. The specified charset(s) will be
+     * used for all future words. When sending, {@link self::CHARSET_LOCAL} is
+     * converted to {@link self::CHARSET_REMOTE}, and when receiving,
+     * {@link self::CHARSET_REMOTE} is converted to {@link self::CHARSET_LOCAL}.
+     * Setting  NULL to either charset will disable charset conversion, and data
+     * will be both sent and received "as is".
+     *
+     * @param mixed $charset     The charset to set. If $charsetType is
+     *     {@link self::CHARSET_ALL}, you can supply either a string to use for
+     *     all charsets, or an array with the charset types as keys, and the
+     *     charsets as values.
+     * @param int   $charsetType Which charset to set. Valid values are the
+     *     CHARSET_* constants. Any other value is treated as
+     *     {@link self::CHARSET_ALL}.
+     *
+     * @return string|array The old charset. If $charsetType is
+     *     {@link self::CHARSET_ALL}, the old values will be returned as an
+     *     array with the types as keys, and charsets as values.
+     *
+     * @see setDefaultCharset()
+     */
+    public function setCharset($charset, $charsetType = self::CHARSET_ALL)
+    {
+        if (array_key_exists($charsetType, $this->charsets)) {
+             $oldCharset = $this->charsets[$charsetType];
+             $this->charsets[$charsetType] = $charset;
+             return $oldCharset;
+        } else {
+            $oldCharsets = $this->charsets;
+            $this->charsets = is_array($charset) ? $charset : array_fill(
+                0,
+                count($this->charsets),
+                $charset
+            );
+            return $oldCharsets;
+        }
+    }
+
+    /**
+     * Gets the charset(s) for this connection.
+     *
+     * @param int $charsetType Which charset to get. Valid values are the
+     *     CHARSET_* constants. Any other value is treated as
+     *     {@link self::CHARSET_ALL}.
+     *
+     * @return string|array The current charset. If $charsetType is
+     *     {@link self::CHARSET_ALL}, the current values will be returned as an
+     *     array with the types as keys, and charsets as values.
+     *
+     * @see getDefaultCharset()
+     * @see setCharset()
+     */
+    public function getCharset($charsetType)
+    {
+        return array_key_exists($charsetType, $this->charsets)
+            ? $this->charsets[$charsetType] : $this->charsets;
+    }
+
+    /**
+     * Gets the transmitter for this connection.
+     *
+     * @return T\TcpClient The transmitter for this connection.
+     */
+    public function getTransmitter()
+    {
+        return $this->trans;
+    }
+
+    /**
+     * Sends a word.
+     *
+     * Sends a word and automatically encodes its length when doing so.
+     *
+     * @param string $word The word to send.
+     *
+     * @return int The number of bytes sent.
+     *
+     * @see sendWordFromStream()
+     * @see getNextWord()
+     */
+    public function sendWord($word)
+    {
+        if (null !== ($remoteCharset = $this->getCharset(self::CHARSET_REMOTE))
+            && null !== ($localCharset = $this->getCharset(self::CHARSET_LOCAL))
+        ) {
+            $word = iconv(
+                $localCharset,
+                $remoteCharset . '//IGNORE//TRANSLIT',
+                $word
+            );
+        }
+        $length = strlen($word);
+        static::verifyLengthSupport($length);
+        if ($this->trans->isPersistent()) {
+            $old = $this->trans->lock(T\Stream::DIRECTION_SEND);
+            $bytes = $this->trans->send(self::encodeLength($length) . $word);
+            $this->trans->lock($old, true);
+            return $bytes;
+        }
+        return $this->trans->send(self::encodeLength($length) . $word);
+    }
+
+    /**
+     * Sends a word based on a stream.
+     *
+     * Sends a word based on a stream and automatically encodes its length when
+     * doing so. The stream is read from its current position to its end, and
+     * then returned to its current position. Because of those operations, the
+     * supplied stream must be seekable.
+     *
+     * @param string   $prefix A string to prepend before the stream contents.
+     * @param resource $stream The seekable stream to send.
+     *
+     * @return int The number of bytes sent.
+     *
+     * @see sendWord()
+     */
+    public function sendWordFromStream($prefix, $stream)
+    {
+        if (!self::isSeekableStream($stream)) {
+            throw new InvalidArgumentException(
+                'The stream must be seekable.',
+                InvalidArgumentException::CODE_SEEKABLE_REQUIRED
+            );
+        }
+        if (null !== ($remoteCharset = $this->getCharset(self::CHARSET_REMOTE))
+            && null !== ($localCharset = $this->getCharset(self::CHARSET_LOCAL))
+        ) {
+            $prefix = iconv(
+                $localCharset,
+                $remoteCharset . '//IGNORE//TRANSLIT',
+                $prefix
+            );
+            $stream = self::iconvStream(
+                $localCharset,
+                $remoteCharset . '//IGNORE//TRANSLIT',
+                $stream
+            );
+        }
+
+        flock($stream, LOCK_SH);
+        $totalLength = strlen($prefix) + self::seekableStreamLength($stream);
+        static::verifyLengthSupport($totalLength);
+
+        $bytes = $this->trans->send(self::encodeLength($totalLength) . $prefix);
+        $bytes += $this->trans->send($stream);
+
+        flock($stream, LOCK_UN);
+        return $bytes;
+    }
+
+    /**
+     * Verifies that the length is supported.
+     *
+     * Verifies if the specified length is supported by the API. Throws a
+     * {@link LengthException} if that's not the case. Currently, RouterOS
+     * supports words up to 0xFFFFFFFF in length, so that's the only check
+     * performed.
+     *
+     * @param int $length The length to verify.
+     *
+     * @return void
+     */
+    public static function verifyLengthSupport($length)
+    {
+        if ($length > 0xFFFFFFFF) {
+            throw new LengthException(
+                'Words with length above 0xFFFFFFFF are not supported.',
+                LengthException::CODE_UNSUPPORTED,
+                null,
+                $length
+            );
+        }
+    }
+
+    /**
+     * Encodes the length as required by the RouterOS API.
+     *
+     * @param int $length The length to encode.
+     *
+     * @return string The encoded length.
+     */
+    public static function encodeLength($length)
+    {
+        if ($length < 0) {
+            throw new LengthException(
+                'Length must not be negative.',
+                LengthException::CODE_INVALID,
+                null,
+                $length
+            );
+        } elseif ($length < 0x80) {
+            return chr($length);
+        } elseif ($length < 0x4000) {
+            return pack('n', $length |= 0x8000);
+        } elseif ($length < 0x200000) {
+            $length |= 0xC00000;
+            return pack('n', $length >> 8) . chr($length & 0xFF);
+        } elseif ($length < 0x10000000) {
+            return pack('N', $length |= 0xE0000000);
+        } elseif ($length <= 0xFFFFFFFF) {
+            return chr(0xF0) . pack('N', $length);
+        } elseif ($length <= 0x7FFFFFFFF) {
+            $length = 'f' . base_convert($length, 10, 16);
+            return chr(hexdec(substr($length, 0, 2))) .
+                pack('N', hexdec(substr($length, 2)));
+        }
+        throw new LengthException(
+            'Length must not be above 0x7FFFFFFFF.',
+            LengthException::CODE_BEYOND_SHEME,
+            null,
+            $length
+        );
+    }
+
+    /**
+     * Get the next word in queue as a string.
+     *
+     * Get the next word in queue as a string, after automatically decoding its
+     * length.
+     *
+     * @return string The word.
+     *
+     * @see close()
+     */
+    public function getNextWord()
+    {
+        if ($this->trans->isPersistent()) {
+            $old = $this->trans->lock(T\Stream::DIRECTION_RECEIVE);
+            $word = $this->trans->receive(
+                self::decodeLength($this->trans),
+                'word'
+            );
+            $this->trans->lock($old, true);
+        } else {
+            $word = $this->trans->receive(
+                self::decodeLength($this->trans),
+                'word'
+            );
+        }
+
+        if (null !== ($remoteCharset = $this->getCharset(self::CHARSET_REMOTE))
+            && null !== ($localCharset = $this->getCharset(self::CHARSET_LOCAL))
+        ) {
+            $word = iconv(
+                $remoteCharset,
+                $localCharset . '//IGNORE//TRANSLIT',
+                $word
+            );
+        }
+
+        return $word;
+    }
+
+    /**
+     * Get the next word in queue as a stream.
+     *
+     * Get the next word in queue as a stream, after automatically decoding its
+     * length.
+     *
+     * @return resource The word, as a stream.
+     *
+     * @see close()
+     */
+    public function getNextWordAsStream()
+    {
+        $filters = new T\FilterCollection();
+        if (null !== ($remoteCharset = $this->getCharset(self::CHARSET_REMOTE))
+            && null !== ($localCharset = $this->getCharset(self::CHARSET_LOCAL))
+        ) {
+            $filters->append(
+                'convert.iconv.' .
+                $remoteCharset . '.' . $localCharset . '//IGNORE//TRANSLIT'
+            );
+        }
+
+        if ($this->trans->isPersistent()) {
+            $old = $this->trans->lock(T\Stream::DIRECTION_RECEIVE);
+            $stream = $this->trans->receiveStream(
+                self::decodeLength($this->trans),
+                $filters,
+                'stream word'
+            );
+            $this->trans->lock($old, true);
+        } else {
+            $stream = $this->trans->receiveStream(
+                self::decodeLength($this->trans),
+                $filters,
+                'stream word'
+            );
+        }
+
+        return $stream;
+    }
+
+    /**
+     * Decodes the length of the incoming message.
+     *
+     * Decodes the length of the incoming message, as specified by the RouterOS
+     * API.
+     *
+     * @param T\Stream $trans The transmitter from which to decode the length of
+     * the incoming message.
+     *
+     * @return int|double The decoded length.
+     *     Is of type "double" only for values above "2 << 31".
+     */
+    public static function decodeLength(T\Stream $trans)
+    {
+        if ($trans->isPersistent() && $trans instanceof T\TcpClient) {
+            $old = $trans->lock($trans::DIRECTION_RECEIVE);
+            $length = self::_decodeLength($trans);
+            $trans->lock($old, true);
+            return $length;
+        }
+        return self::_decodeLength($trans);
+    }
+
+    /**
+     * Decodes the length of the incoming message.
+     *
+     * Decodes the length of the incoming message, as specified by the RouterOS
+     * API.
+     *
+     * Difference with the non private function is that this one doesn't perform
+     * locking if the connection is a persistent one.
+     *
+     * @param T\Stream $trans The transmitter from which to decode the length of
+     *     the incoming message.
+     *
+     * @return int|double The decoded length.
+     *     Is of type "double" only for values above "2 << 31".
+     */
+    private static function _decodeLength(T\Stream $trans)
+    {
+        $byte = ord($trans->receive(1, 'initial length byte'));
+        if ($byte & 0x80) {
+            if (($byte & 0xC0) === 0x80) {
+                return (($byte & 077) << 8 ) + ord($trans->receive(1));
+            } elseif (($byte & 0xE0) === 0xC0) {
+                $rem = unpack('n~', $trans->receive(2));
+                return (($byte & 037) << 16 ) + $rem['~'];
+            } elseif (($byte & 0xF0) === 0xE0) {
+                $rem = unpack('n~/C~~', $trans->receive(3));
+                return (($byte & 017) << 24 ) + ($rem['~'] << 8) + $rem['~~'];
+            } elseif (($byte & 0xF8) === 0xF0) {
+                $rem = unpack('N~', $trans->receive(4));
+                return (($byte & 007) * 0x100000000/* '<< 32' or '2^32' */)
+                    + (double) sprintf('%u', $rem['~']);
+            }
+            throw new NotSupportedException(
+                'Unknown control byte encountered.',
+                NotSupportedException::CODE_CONTROL_BYTE,
+                null,
+                $byte
+            );
+        } else {
+            return $byte;
+        }
+    }
+
+    /**
+     * Closes the opened connection, even if it is a persistent one.
+     *
+     * @return bool TRUE on success, FALSE on failure.
+     */
+    public function close()
+    {
+        return $this->trans->close();
+    }
+}

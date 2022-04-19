@@ -1,76 +1,410 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for ManagedServiceforMicrosoftActiveDirectoryConsumerAPI (v1).
+ *
+ * <p>
+ * The Managed Service for Microsoft Active Directory API is used for managing a
+ * highly available, hardened service running Microsoft Active Directory (AD).</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/managed-microsoft-ad/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class ManagedServiceforMicrosoftActiveDirectoryConsumerAPI extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+
+  public $projects_locations;
+  public $projects_locations_global_domains;
+  public $projects_locations_global_domains_sqlIntegrations;
+  public $projects_locations_global_operations;
+
+  /**
+   * Constructs the internal representation of the
+   * ManagedServiceforMicrosoftActiveDirectoryConsumerAPI service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://managedidentities.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'managedidentities';
+
+    $this->projects_locations = new ManagedServiceforMicrosoftActiveDirectoryConsumerAPI\Resource\ProjectsLocations(
+        $this,
+        $this->serviceName,
+        'locations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+name}/locations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_global_domains = new ManagedServiceforMicrosoftActiveDirectoryConsumerAPI\Resource\ProjectsLocationsManagedidentitiesGlobalDomains(
+        $this,
+        $this->serviceName,
+        'domains',
+        [
+          'methods' => [
+            'attachTrust' => [
+              'path' => 'v1/{+name}:attachTrust',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1/{+parent}/domains',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'domainName' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'detachTrust' => [
+              'path' => 'v1/{+name}:detachTrust',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1/{+resource}:getIamPolicy',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'options.requestedPolicyVersion' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'getLdapssettings' => [
+              'path' => 'v1/{+name}/ldapssettings',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/domains',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'reconfigureTrust' => [
+              'path' => 'v1/{+name}:reconfigureTrust',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'resetAdminPassword' => [
+              'path' => 'v1/{+name}:resetAdminPassword',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'updateLdapssettings' => [
+              'path' => 'v1/{+name}/ldapssettings',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'validateTrust' => [
+              'path' => 'v1/{+name}:validateTrust',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_global_domains_sqlIntegrations = new ManagedServiceforMicrosoftActiveDirectoryConsumerAPI\Resource\ProjectsLocationsManagedidentitiesGlobalDomainsSqlIntegrations(
+        $this,
+        $this->serviceName,
+        'sqlIntegrations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/sqlIntegrations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_global_operations = new ManagedServiceforMicrosoftActiveDirectoryConsumerAPI\Resource\ProjectsLocationsManagedidentitiesGlobalOperations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'cancel' => [
+              'path' => 'v1/{+name}:cancel',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ManagedServiceforMicrosoftActiveDirectoryConsumerAPI::class, 'Google_Service_ManagedServiceforMicrosoftActiveDirectoryConsumerAPI');

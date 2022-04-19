@@ -1,87 +1,221 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Networkconnectivity\Resource;
+
+use Google\Service\Networkconnectivity\GoogleLongrunningOperation;
+use Google\Service\Networkconnectivity\Hub;
+use Google\Service\Networkconnectivity\ListHubsResponse;
+use Google\Service\Networkconnectivity\Policy;
+use Google\Service\Networkconnectivity\SetIamPolicyRequest;
+use Google\Service\Networkconnectivity\TestIamPermissionsRequest;
+use Google\Service\Networkconnectivity\TestIamPermissionsResponse;
+
+/**
+ * The "hubs" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $networkconnectivityService = new Google\Service\Networkconnectivity(...);
+ *   $hubs = $networkconnectivityService->hubs;
+ *  </code>
+ */
+class ProjectsLocationsNetworkconnectivityGlobalHubs extends \Google\Service\Resource
+{
+  /**
+   * Creates a new Hub in a given project and location. (hubs.create)
+   *
+   * @param string $parent Required. The parent resource's name of the Hub.
+   * @param Hub $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string hubId Optional. Unique id for the Hub to create.
+   * @opt_param string requestId Optional. An optional request ID to identify
+   * requests. Specify a unique request ID so that if you must retry your request,
+   * the server will know to ignore the request if it has already been completed.
+   * The server will guarantee that for at least 60 minutes since the first
+   * request. For example, consider a situation where you make an initial request
+   * and t he request times out. If you make the request again with the same
+   * request ID, the server can check if original operation with the same request
+   * ID was received, and if so, will ignore the second request. This prevents
+   * clients from accidentally creating duplicate commitments. The request ID must
+   * be a valid UUID with the exception that zero UUID is not supported
+   * (00000000-0000-0000-0000-000000000000).
+   * @return GoogleLongrunningOperation
+   */
+  public function create($parent, Hub $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Deletes a single Hub. (hubs.delete)
+   *
+   * @param string $name Required. The name of the Hub to delete.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId Optional. An optional request ID to identify
+   * requests. Specify a unique request ID so that if you must retry your request,
+   * the server will know to ignore the request if it has already been completed.
+   * The server will guarantee that for at least 60 minutes after the first
+   * request. For example, consider a situation where you make an initial request
+   * and t he request times out. If you make the request again with the same
+   * request ID, the server can check if original operation with the same request
+   * ID was received, and if so, will ignore the second request. This prevents
+   * clients from accidentally creating duplicate commitments. The request ID must
+   * be a valid UUID with the exception that zero UUID is not supported
+   * (00000000-0000-0000-0000-000000000000).
+   * @return GoogleLongrunningOperation
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Gets details of a single Hub. (hubs.get)
+   *
+   * @param string $name Required. Name of the Hub resource to get.
+   * @param array $optParams Optional parameters.
+   * @return Hub
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Hub::class);
+  }
+  /**
+   * Gets the access control policy for a resource. Returns an empty policy if the
+   * resource exists and does not have a policy set. (hubs.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int options.requestedPolicyVersion Optional. The policy format
+   * version to be returned. Valid values are 0, 1, and 3. Requests specifying an
+   * invalid value will be rejected. Requests for policies with any conditional
+   * bindings must specify version 3. Policies without any conditional bindings
+   * may specify any valid value or leave the field unset. To learn which
+   * resources support conditions in their IAM policies, see the [IAM
+   * documentation](https://cloud.google.com/iam/help/conditions/resource-
+   * policies).
+   * @return Policy
+   */
+  public function getIamPolicy($resource, $optParams = [])
+  {
+    $params = ['resource' => $resource];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Lists Hubs in a given project and location.
+   * (hubs.listProjectsLocationsNetworkconnectivityGlobalHubs)
+   *
+   * @param string $parent Required. The parent resource's name.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters the results listed
+   * in the response.
+   * @opt_param string orderBy Sort the results by a certain order.
+   * @opt_param int pageSize The maximum number of results per page that should be
+   * returned.
+   * @opt_param string pageToken The page token.
+   * @return ListHubsResponse
+   */
+  public function listProjectsLocationsNetworkconnectivityGlobalHubs($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListHubsResponse::class);
+  }
+  /**
+   * Updates the parameters of a single Hub. (hubs.patch)
+   *
+   * @param string $name Immutable. The name of a Hub resource.
+   * @param Hub $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId Optional. An optional request ID to identify
+   * requests. Specify a unique request ID so that if you must retry your request,
+   * the server will know to ignore the request if it has already been completed.
+   * The server will guarantee that for at least 60 minutes since the first
+   * request. For example, consider a situation where you make an initial request
+   * and t he request times out. If you make the request again with the same
+   * request ID, the server can check if original operation with the same request
+   * ID was received, and if so, will ignore the second request. This prevents
+   * clients from accidentally creating duplicate commitments. The request ID must
+   * be a valid UUID with the exception that zero UUID is not supported
+   * (00000000-0000-0000-0000-000000000000).
+   * @opt_param string updateMask Optional. Field mask is used to specify the
+   * fields to be overwritten in the Hub resource by the update. The fields
+   * specified in the update_mask are relative to the resource, not the full
+   * request. A field will be overwritten if it is in the mask. If the user does
+   * not provide a mask then all fields will be overwritten.
+   * @return GoogleLongrunningOperation
+   */
+  public function patch($name, Hub $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Sets the access control policy on the specified resource. Replaces any
+   * existing policy. Can return `NOT_FOUND`, `INVALID_ARGUMENT`, and
+   * `PERMISSION_DENIED` errors. (hubs.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource. If the
+   * resource does not exist, this will return an empty set of permissions, not a
+   * `NOT_FOUND` error. Note: This operation is designed to be used for building
+   * permission-aware UIs and command-line tools, not for authorization checking.
+   * This operation may "fail open" without warning. (hubs.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsNetworkconnectivityGlobalHubs::class, 'Google_Service_Networkconnectivity_Resource_ProjectsLocationsNetworkconnectivityGlobalHubs');

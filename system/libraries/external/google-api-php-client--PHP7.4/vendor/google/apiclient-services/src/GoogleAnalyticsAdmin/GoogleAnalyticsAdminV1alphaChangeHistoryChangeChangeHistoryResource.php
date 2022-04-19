@@ -1,102 +1,218 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\GoogleAnalyticsAdmin;
+
+class GoogleAnalyticsAdminV1alphaChangeHistoryChangeChangeHistoryResource extends \Google\Model
+{
+  protected $accountType = GoogleAnalyticsAdminV1alphaAccount::class;
+  protected $accountDataType = '';
+  protected $androidAppDataStreamType = GoogleAnalyticsAdminV1alphaAndroidAppDataStream::class;
+  protected $androidAppDataStreamDataType = '';
+  protected $conversionEventType = GoogleAnalyticsAdminV1alphaConversionEvent::class;
+  protected $conversionEventDataType = '';
+  protected $customDimensionType = GoogleAnalyticsAdminV1alphaCustomDimension::class;
+  protected $customDimensionDataType = '';
+  protected $customMetricType = GoogleAnalyticsAdminV1alphaCustomMetric::class;
+  protected $customMetricDataType = '';
+  protected $firebaseLinkType = GoogleAnalyticsAdminV1alphaFirebaseLink::class;
+  protected $firebaseLinkDataType = '';
+  protected $googleAdsLinkType = GoogleAnalyticsAdminV1alphaGoogleAdsLink::class;
+  protected $googleAdsLinkDataType = '';
+  protected $googleSignalsSettingsType = GoogleAnalyticsAdminV1alphaGoogleSignalsSettings::class;
+  protected $googleSignalsSettingsDataType = '';
+  protected $iosAppDataStreamType = GoogleAnalyticsAdminV1alphaIosAppDataStream::class;
+  protected $iosAppDataStreamDataType = '';
+  protected $measurementProtocolSecretType = GoogleAnalyticsAdminV1alphaMeasurementProtocolSecret::class;
+  protected $measurementProtocolSecretDataType = '';
+  protected $propertyType = GoogleAnalyticsAdminV1alphaProperty::class;
+  protected $propertyDataType = '';
+  protected $webDataStreamType = GoogleAnalyticsAdminV1alphaWebDataStream::class;
+  protected $webDataStreamDataType = '';
+
+  /**
+   * @param GoogleAnalyticsAdminV1alphaAccount
+   */
+  public function setAccount(GoogleAnalyticsAdminV1alphaAccount $account)
+  {
+    $this->account = $account;
+  }
+  /**
+   * @return GoogleAnalyticsAdminV1alphaAccount
+   */
+  public function getAccount()
+  {
+    return $this->account;
+  }
+  /**
+   * @param GoogleAnalyticsAdminV1alphaAndroidAppDataStream
+   */
+  public function setAndroidAppDataStream(GoogleAnalyticsAdminV1alphaAndroidAppDataStream $androidAppDataStream)
+  {
+    $this->androidAppDataStream = $androidAppDataStream;
+  }
+  /**
+   * @return GoogleAnalyticsAdminV1alphaAndroidAppDataStream
+   */
+  public function getAndroidAppDataStream()
+  {
+    return $this->androidAppDataStream;
+  }
+  /**
+   * @param GoogleAnalyticsAdminV1alphaConversionEvent
+   */
+  public function setConversionEvent(GoogleAnalyticsAdminV1alphaConversionEvent $conversionEvent)
+  {
+    $this->conversionEvent = $conversionEvent;
+  }
+  /**
+   * @return GoogleAnalyticsAdminV1alphaConversionEvent
+   */
+  public function getConversionEvent()
+  {
+    return $this->conversionEvent;
+  }
+  /**
+   * @param GoogleAnalyticsAdminV1alphaCustomDimension
+   */
+  public function setCustomDimension(GoogleAnalyticsAdminV1alphaCustomDimension $customDimension)
+  {
+    $this->customDimension = $customDimension;
+  }
+  /**
+   * @return GoogleAnalyticsAdminV1alphaCustomDimension
+   */
+  public function getCustomDimension()
+  {
+    return $this->customDimension;
+  }
+  /**
+   * @param GoogleAnalyticsAdminV1alphaCustomMetric
+   */
+  public function setCustomMetric(GoogleAnalyticsAdminV1alphaCustomMetric $customMetric)
+  {
+    $this->customMetric = $customMetric;
+  }
+  /**
+   * @return GoogleAnalyticsAdminV1alphaCustomMetric
+   */
+  public function getCustomMetric()
+  {
+    return $this->customMetric;
+  }
+  /**
+   * @param GoogleAnalyticsAdminV1alphaFirebaseLink
+   */
+  public function setFirebaseLink(GoogleAnalyticsAdminV1alphaFirebaseLink $firebaseLink)
+  {
+    $this->firebaseLink = $firebaseLink;
+  }
+  /**
+   * @return GoogleAnalyticsAdminV1alphaFirebaseLink
+   */
+  public function getFirebaseLink()
+  {
+    return $this->firebaseLink;
+  }
+  /**
+   * @param GoogleAnalyticsAdminV1alphaGoogleAdsLink
+   */
+  public function setGoogleAdsLink(GoogleAnalyticsAdminV1alphaGoogleAdsLink $googleAdsLink)
+  {
+    $this->googleAdsLink = $googleAdsLink;
+  }
+  /**
+   * @return GoogleAnalyticsAdminV1alphaGoogleAdsLink
+   */
+  public function getGoogleAdsLink()
+  {
+    return $this->googleAdsLink;
+  }
+  /**
+   * @param GoogleAnalyticsAdminV1alphaGoogleSignalsSettings
+   */
+  public function setGoogleSignalsSettings(GoogleAnalyticsAdminV1alphaGoogleSignalsSettings $googleSignalsSettings)
+  {
+    $this->googleSignalsSettings = $googleSignalsSettings;
+  }
+  /**
+   * @return GoogleAnalyticsAdminV1alphaGoogleSignalsSettings
+   */
+  public function getGoogleSignalsSettings()
+  {
+    return $this->googleSignalsSettings;
+  }
+  /**
+   * @param GoogleAnalyticsAdminV1alphaIosAppDataStream
+   */
+  public function setIosAppDataStream(GoogleAnalyticsAdminV1alphaIosAppDataStream $iosAppDataStream)
+  {
+    $this->iosAppDataStream = $iosAppDataStream;
+  }
+  /**
+   * @return GoogleAnalyticsAdminV1alphaIosAppDataStream
+   */
+  public function getIosAppDataStream()
+  {
+    return $this->iosAppDataStream;
+  }
+  /**
+   * @param GoogleAnalyticsAdminV1alphaMeasurementProtocolSecret
+   */
+  public function setMeasurementProtocolSecret(GoogleAnalyticsAdminV1alphaMeasurementProtocolSecret $measurementProtocolSecret)
+  {
+    $this->measurementProtocolSecret = $measurementProtocolSecret;
+  }
+  /**
+   * @return GoogleAnalyticsAdminV1alphaMeasurementProtocolSecret
+   */
+  public function getMeasurementProtocolSecret()
+  {
+    return $this->measurementProtocolSecret;
+  }
+  /**
+   * @param GoogleAnalyticsAdminV1alphaProperty
+   */
+  public function setProperty(GoogleAnalyticsAdminV1alphaProperty $property)
+  {
+    $this->property = $property;
+  }
+  /**
+   * @return GoogleAnalyticsAdminV1alphaProperty
+   */
+  public function getProperty()
+  {
+    return $this->property;
+  }
+  /**
+   * @param GoogleAnalyticsAdminV1alphaWebDataStream
+   */
+  public function setWebDataStream(GoogleAnalyticsAdminV1alphaWebDataStream $webDataStream)
+  {
+    $this->webDataStream = $webDataStream;
+  }
+  /**
+   * @return GoogleAnalyticsAdminV1alphaWebDataStream
+   */
+  public function getWebDataStream()
+  {
+    return $this->webDataStream;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleAnalyticsAdminV1alphaChangeHistoryChangeChangeHistoryResource::class, 'Google_Service_GoogleAnalyticsAdmin_GoogleAnalyticsAdminV1alphaChangeHistoryChangeChangeHistoryResource');

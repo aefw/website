@@ -1,68 +1,151 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-pEQw0lILaFnJHm5y/hKTOpSa
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dfareporting\Resource;
+
+use Google\Service\Dfareporting\Ad;
+use Google\Service\Dfareporting\AdsListResponse;
+
+/**
+ * The "ads" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $dfareportingService = new Google\Service\Dfareporting(...);
+ *   $ads = $dfareportingService->ads;
+ *  </code>
+ */
+class Ads extends \Google\Service\Resource
+{
+  /**
+   * Gets one ad by ID. (ads.get)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param string $id Ad ID.
+   * @param array $optParams Optional parameters.
+   * @return Ad
+   */
+  public function get($profileId, $id, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Ad::class);
+  }
+  /**
+   * Inserts a new ad. (ads.insert)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param Ad $postBody
+   * @param array $optParams Optional parameters.
+   * @return Ad
+   */
+  public function insert($profileId, Ad $postBody, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Ad::class);
+  }
+  /**
+   * Retrieves a list of ads, possibly filtered. This method supports paging.
+   * (ads.listAds)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool active Select only active ads.
+   * @opt_param string advertiserId Select only ads with this advertiser ID.
+   * @opt_param bool archived Select only archived ads.
+   * @opt_param string audienceSegmentIds Select only ads with these audience
+   * segment IDs.
+   * @opt_param string campaignIds Select only ads with these campaign IDs.
+   * @opt_param string compatibility Select default ads with the specified
+   * compatibility. Applicable when type is AD_SERVING_DEFAULT_AD. DISPLAY and
+   * DISPLAY_INTERSTITIAL refer to rendering either on desktop or on mobile
+   * devices for regular or interstitial ads, respectively. APP and
+   * APP_INTERSTITIAL are for rendering in mobile apps. IN_STREAM_VIDEO refers to
+   * rendering an in-stream video ads developed with the VAST standard.
+   * @opt_param string creativeIds Select only ads with these creative IDs
+   * assigned.
+   * @opt_param string creativeOptimizationConfigurationIds Select only ads with
+   * these creative optimization configuration IDs.
+   * @opt_param bool dynamicClickTracker Select only dynamic click trackers.
+   * Applicable when type is AD_SERVING_CLICK_TRACKER. If true, select dynamic
+   * click trackers. If false, select static click trackers. Leave unset to select
+   * both.
+   * @opt_param string ids Select only ads with these IDs.
+   * @opt_param string landingPageIds Select only ads with these landing page IDs.
+   * @opt_param int maxResults Maximum number of results to return.
+   * @opt_param string overriddenEventTagId Select only ads with this event tag
+   * override ID.
+   * @opt_param string pageToken Value of the nextPageToken from the previous
+   * result page.
+   * @opt_param string placementIds Select only ads with these placement IDs
+   * assigned.
+   * @opt_param string remarketingListIds Select only ads whose list targeting
+   * expression use these remarketing list IDs.
+   * @opt_param string searchString Allows searching for objects by name or ID.
+   * Wildcards (*) are allowed. For example, "ad*2015" will return objects with
+   * names like "ad June 2015", "ad April 2015", or simply "ad 2015". Most of the
+   * searches also add wildcards implicitly at the start and the end of the search
+   * string. For example, a search string of "ad" will match objects with name "my
+   * ad", "ad 2015", or simply "ad".
+   * @opt_param string sizeIds Select only ads with these size IDs.
+   * @opt_param string sortField Field by which to sort the list.
+   * @opt_param string sortOrder Order of sorted results.
+   * @opt_param bool sslCompliant Select only ads that are SSL-compliant.
+   * @opt_param bool sslRequired Select only ads that require SSL.
+   * @opt_param string type Select only ads with these types.
+   * @return AdsListResponse
+   */
+  public function listAds($profileId, $optParams = [])
+  {
+    $params = ['profileId' => $profileId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], AdsListResponse::class);
+  }
+  /**
+   * Updates an existing ad. This method supports patch semantics. (ads.patch)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param string $id Ad ID.
+   * @param Ad $postBody
+   * @param array $optParams Optional parameters.
+   * @return Ad
+   */
+  public function patch($profileId, $id, Ad $postBody, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'id' => $id, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Ad::class);
+  }
+  /**
+   * Updates an existing ad. (ads.update)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param Ad $postBody
+   * @param array $optParams Optional parameters.
+   * @return Ad
+   */
+  public function update($profileId, Ad $postBody, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Ad::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Ads::class, 'Google_Service_Dfareporting_Resource_Ads');

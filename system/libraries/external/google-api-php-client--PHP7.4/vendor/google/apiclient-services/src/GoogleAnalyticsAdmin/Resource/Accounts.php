@@ -1,80 +1,168 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\GoogleAnalyticsAdmin\Resource;
+
+use Google\Service\GoogleAnalyticsAdmin\GoogleAnalyticsAdminV1alphaAccount;
+use Google\Service\GoogleAnalyticsAdmin\GoogleAnalyticsAdminV1alphaDataSharingSettings;
+use Google\Service\GoogleAnalyticsAdmin\GoogleAnalyticsAdminV1alphaListAccountsResponse;
+use Google\Service\GoogleAnalyticsAdmin\GoogleAnalyticsAdminV1alphaProvisionAccountTicketRequest;
+use Google\Service\GoogleAnalyticsAdmin\GoogleAnalyticsAdminV1alphaProvisionAccountTicketResponse;
+use Google\Service\GoogleAnalyticsAdmin\GoogleAnalyticsAdminV1alphaSearchChangeHistoryEventsRequest;
+use Google\Service\GoogleAnalyticsAdmin\GoogleAnalyticsAdminV1alphaSearchChangeHistoryEventsResponse;
+use Google\Service\GoogleAnalyticsAdmin\GoogleProtobufEmpty;
+
+/**
+ * The "accounts" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $analyticsadminService = new Google\Service\GoogleAnalyticsAdmin(...);
+ *   $accounts = $analyticsadminService->accounts;
+ *  </code>
+ */
+class Accounts extends \Google\Service\Resource
+{
+  /**
+   * Marks target Account as soft-deleted (ie: "trashed") and returns it. This API
+   * does not have a method to restore soft-deleted accounts. However, they can be
+   * restored using the Trash Can UI. If the accounts are not restored before the
+   * expiration time, the account and all child resources (eg: Properties,
+   * GoogleAdsLinks, Streams, UserLinks) will be permanently purged.
+   * https://support.google.com/analytics/answer/6154772 Returns an error if the
+   * target is not found. (accounts.delete)
+   *
+   * @param string $name Required. The name of the Account to soft-delete. Format:
+   * accounts/{account} Example: "accounts/100"
+   * @param array $optParams Optional parameters.
+   * @return GoogleProtobufEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
+  }
+  /**
+   * Lookup for a single Account. (accounts.get)
+   *
+   * @param string $name Required. The name of the account to lookup. Format:
+   * accounts/{account} Example: "accounts/100"
+   * @param array $optParams Optional parameters.
+   * @return GoogleAnalyticsAdminV1alphaAccount
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleAnalyticsAdminV1alphaAccount::class);
+  }
+  /**
+   * Get data sharing settings on an account. Data sharing settings are
+   * singletons. (accounts.getDataSharingSettings)
+   *
+   * @param string $name Required. The name of the settings to lookup. Format:
+   * accounts/{account}/dataSharingSettings Example:
+   * "accounts/1000/dataSharingSettings"
+   * @param array $optParams Optional parameters.
+   * @return GoogleAnalyticsAdminV1alphaDataSharingSettings
+   */
+  public function getDataSharingSettings($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('getDataSharingSettings', [$params], GoogleAnalyticsAdminV1alphaDataSharingSettings::class);
+  }
+  /**
+   * Returns all accounts accessible by the caller. Note that these accounts might
+   * not currently have GA4 properties. Soft-deleted (ie: "trashed") accounts are
+   * excluded by default. Returns an empty list if no relevant accounts are found.
+   * (accounts.listAccounts)
+   *
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The maximum number of resources to return. The
+   * service may return fewer than this value, even if there are additional pages.
+   * If unspecified, at most 50 resources will be returned. The maximum value is
+   * 200; (higher values will be coerced to the maximum)
+   * @opt_param string pageToken A page token, received from a previous
+   * `ListAccounts` call. Provide this to retrieve the subsequent page. When
+   * paginating, all other parameters provided to `ListAccounts` must match the
+   * call that provided the page token.
+   * @opt_param bool showDeleted Whether to include soft-deleted (ie: "trashed")
+   * Accounts in the results. Accounts can be inspected to determine whether they
+   * are deleted or not.
+   * @return GoogleAnalyticsAdminV1alphaListAccountsResponse
+   */
+  public function listAccounts($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleAnalyticsAdminV1alphaListAccountsResponse::class);
+  }
+  /**
+   * Updates an account. (accounts.patch)
+   *
+   * @param string $name Output only. Resource name of this account. Format:
+   * accounts/{account} Example: "accounts/100"
+   * @param GoogleAnalyticsAdminV1alphaAccount $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. The list of fields to be updated.
+   * Field names must be in snake case (e.g., "field_to_update"). Omitted fields
+   * will not be updated. To replace the entire entity, use one path with the
+   * string "*" to match all fields.
+   * @return GoogleAnalyticsAdminV1alphaAccount
+   */
+  public function patch($name, GoogleAnalyticsAdminV1alphaAccount $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], GoogleAnalyticsAdminV1alphaAccount::class);
+  }
+  /**
+   * Requests a ticket for creating an account. (accounts.provisionAccountTicket)
+   *
+   * @param GoogleAnalyticsAdminV1alphaProvisionAccountTicketRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleAnalyticsAdminV1alphaProvisionAccountTicketResponse
+   */
+  public function provisionAccountTicket(GoogleAnalyticsAdminV1alphaProvisionAccountTicketRequest $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('provisionAccountTicket', [$params], GoogleAnalyticsAdminV1alphaProvisionAccountTicketResponse::class);
+  }
+  /**
+   * Searches through all changes to an account or its children given the
+   * specified set of filters. (accounts.searchChangeHistoryEvents)
+   *
+   * @param string $account Required. The account resource for which to return
+   * change history resources.
+   * @param GoogleAnalyticsAdminV1alphaSearchChangeHistoryEventsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleAnalyticsAdminV1alphaSearchChangeHistoryEventsResponse
+   */
+  public function searchChangeHistoryEvents($account, GoogleAnalyticsAdminV1alphaSearchChangeHistoryEventsRequest $postBody, $optParams = [])
+  {
+    $params = ['account' => $account, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('searchChangeHistoryEvents', [$params], GoogleAnalyticsAdminV1alphaSearchChangeHistoryEventsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Accounts::class, 'Google_Service_GoogleAnalyticsAdmin_Resource_Accounts');

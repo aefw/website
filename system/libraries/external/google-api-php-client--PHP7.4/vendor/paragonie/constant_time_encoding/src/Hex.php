@@ -1,72 +1,159 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-cm==
+<?php
+declare(strict_types=1);
+namespace ParagonIE\ConstantTime;
+
+/**
+ *  Copyright (c) 2016 - 2018 Paragon Initiative Enterprises.
+ *  Copyright (c) 2014 Steve "Sc00bz" Thomas (steve at tobtu dot com)
+ *
+ *  Permission is hereby granted, free of charge, to any person obtaining a copy
+ *  of this software and associated documentation files (the "Software"), to deal
+ *  in the Software without restriction, including without limitation the rights
+ *  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ *  copies of the Software, and to permit persons to whom the Software is
+ *  furnished to do so, subject to the following conditions:
+ *
+ *  The above copyright notice and this permission notice shall be included in all
+ *  copies or substantial portions of the Software.
+ *
+ *  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ *  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ *  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ *  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ *  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ *  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ *  SOFTWARE.
+ */
+
+/**
+ * Class Hex
+ * @package ParagonIE\ConstantTime
+ */
+abstract class Hex implements EncoderInterface
+{
+    /**
+     * Convert a binary string into a hexadecimal string without cache-timing
+     * leaks
+     *
+     * @param string $binString (raw binary)
+     * @return string
+     * @throws \TypeError
+     */
+    public static function encode(string $binString): string
+    {
+        /** @var string $hex */
+        $hex = '';
+        $len = Binary::safeStrlen($binString);
+        for ($i = 0; $i < $len; ++$i) {
+            /** @var array<int, int> $chunk */
+            $chunk = \unpack('C', Binary::safeSubstr($binString, $i, 1));
+            /** @var int $c */
+            $c = $chunk[1] & 0xf;
+            /** @var int $b */
+            $b = $chunk[1] >> 4;
+
+            $hex .= pack(
+                'CC',
+                (87 + $b + ((($b - 10) >> 8) & ~38)),
+                (87 + $c + ((($c - 10) >> 8) & ~38))
+            );
+        }
+        return $hex;
+    }
+
+    /**
+     * Convert a binary string into a hexadecimal string without cache-timing
+     * leaks, returning uppercase letters (as per RFC 4648)
+     *
+     * @param string $binString (raw binary)
+     * @return string
+     * @throws \TypeError
+     */
+    public static function encodeUpper(string $binString): string
+    {
+        /** @var string $hex */
+        $hex = '';
+        /** @var int $len */
+        $len = Binary::safeStrlen($binString);
+
+        for ($i = 0; $i < $len; ++$i) {
+            /** @var array<int, int> $chunk */
+            $chunk = \unpack('C', Binary::safeSubstr($binString, $i, 2));
+            /** @var int $c */
+            $c = $chunk[1] & 0xf;
+            /** @var int $b */
+            $b = $chunk[1] >> 4;
+
+            $hex .= pack(
+                'CC',
+                (55 + $b + ((($b - 10) >> 8) & ~6)),
+                (55 + $c + ((($c - 10) >> 8) & ~6))
+            );
+        }
+        return $hex;
+    }
+
+    /**
+     * Convert a hexadecimal string into a binary string without cache-timing
+     * leaks
+     *
+     * @param string $encodedString
+     * @param bool $strictPadding
+     * @return string (raw binary)
+     * @throws \RangeException
+     */
+    public static function decode(string $encodedString, bool $strictPadding = false): string
+    {
+        /** @var int $hex_pos */
+        $hex_pos = 0;
+        /** @var string $bin */
+        $bin = '';
+        /** @var int $c_acc */
+        $c_acc = 0;
+        /** @var int $hex_len */
+        $hex_len = Binary::safeStrlen($encodedString);
+        /** @var int $state */
+        $state = 0;
+        if (($hex_len & 1) !== 0) {
+            if ($strictPadding) {
+                throw new \RangeException(
+                    'Expected an even number of hexadecimal characters'
+                );
+            } else {
+                $encodedString = '0' . $encodedString;
+                ++$hex_len;
+            }
+        }
+
+        /** @var array<int, int> $chunk */
+        $chunk = \unpack('C*', $encodedString);
+        while ($hex_pos < $hex_len) {
+            ++$hex_pos;
+            /** @var int $c */
+            $c = $chunk[$hex_pos];
+            /** @var int $c_num */
+            $c_num = $c ^ 48;
+            /** @var int $c_num0 */
+            $c_num0 = ($c_num - 10) >> 8;
+            /** @var int $c_alpha */
+            $c_alpha = ($c & ~32) - 55;
+            /** @var int $c_alpha0 */
+            $c_alpha0 = (($c_alpha - 10) ^ ($c_alpha - 16)) >> 8;
+
+            if (($c_num0 | $c_alpha0) === 0) {
+                throw new \RangeException(
+                    'Expected hexadecimal character'
+                );
+            }
+            /** @var int $c_val */
+            $c_val = ($c_num0 & $c_num) | ($c_alpha & $c_alpha0);
+            if ($state === 0) {
+                $c_acc = $c_val * 16;
+            } else {
+                $bin .= \pack('C', $c_acc | $c_val);
+            }
+            $state ^= 1;
+        }
+        return $bin;
+    }
+}

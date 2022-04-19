@@ -1,65 +1,88 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-6FSRkEmiVLZydG4uuItuplstxEzIl0==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AccessContextManager;
+
+class Condition extends \Google\Collection
+{
+  protected $collection_key = 'requiredAccessLevels';
+  protected $devicePolicyType = DevicePolicy::class;
+  protected $devicePolicyDataType = '';
+  public $ipSubnetworks;
+  public $members;
+  public $negate;
+  public $regions;
+  public $requiredAccessLevels;
+
+  /**
+   * @param DevicePolicy
+   */
+  public function setDevicePolicy(DevicePolicy $devicePolicy)
+  {
+    $this->devicePolicy = $devicePolicy;
+  }
+  /**
+   * @return DevicePolicy
+   */
+  public function getDevicePolicy()
+  {
+    return $this->devicePolicy;
+  }
+  public function setIpSubnetworks($ipSubnetworks)
+  {
+    $this->ipSubnetworks = $ipSubnetworks;
+  }
+  public function getIpSubnetworks()
+  {
+    return $this->ipSubnetworks;
+  }
+  public function setMembers($members)
+  {
+    $this->members = $members;
+  }
+  public function getMembers()
+  {
+    return $this->members;
+  }
+  public function setNegate($negate)
+  {
+    $this->negate = $negate;
+  }
+  public function getNegate()
+  {
+    return $this->negate;
+  }
+  public function setRegions($regions)
+  {
+    $this->regions = $regions;
+  }
+  public function getRegions()
+  {
+    return $this->regions;
+  }
+  public function setRequiredAccessLevels($requiredAccessLevels)
+  {
+    $this->requiredAccessLevels = $requiredAccessLevels;
+  }
+  public function getRequiredAccessLevels()
+  {
+    return $this->requiredAccessLevels;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Condition::class, 'Google_Service_AccessContextManager_Condition');

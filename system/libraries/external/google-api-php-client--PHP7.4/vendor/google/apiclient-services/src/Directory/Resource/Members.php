@@ -1,77 +1,162 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-hN5UPcNpv0wGwihRGW321MxbzABNdGEbB78AkW==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Directory\Resource;
+
+use Google\Service\Directory\Member;
+use Google\Service\Directory\Members as MembersModel;
+use Google\Service\Directory\MembersHasMember;
+
+/**
+ * The "members" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $adminService = new Google\Service\Directory(...);
+ *   $members = $adminService->members;
+ *  </code>
+ */
+class Members extends \Google\Service\Resource
+{
+  /**
+   * Removes a member from a group. (members.delete)
+   *
+   * @param string $groupKey Identifies the group in the API request. The value
+   * can be the group's email address, group alias, or the unique group ID.
+   * @param string $memberKey Identifies the group member in the API request. A
+   * group member can be a user or another group. The value can be the member's
+   * (group or user) primary email address, alias, or unique ID.
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($groupKey, $memberKey, $optParams = [])
+  {
+    $params = ['groupKey' => $groupKey, 'memberKey' => $memberKey];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Retrieves a group member's properties. (members.get)
+   *
+   * @param string $groupKey Identifies the group in the API request. The value
+   * can be the group's email address, group alias, or the unique group ID.
+   * @param string $memberKey Identifies the group member in the API request. A
+   * group member can be a user or another group. The value can be the member's
+   * (group or user) primary email address, alias, or unique ID.
+   * @param array $optParams Optional parameters.
+   * @return Member
+   */
+  public function get($groupKey, $memberKey, $optParams = [])
+  {
+    $params = ['groupKey' => $groupKey, 'memberKey' => $memberKey];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Member::class);
+  }
+  /**
+   * Checks whether the given user is a member of the group. Membership can be
+   * direct or nested. (members.hasMember)
+   *
+   * @param string $groupKey Identifies the group in the API request. The value
+   * can be the group's email address, group alias, or the unique group ID.
+   * @param string $memberKey Identifies the user member in the API request. The
+   * value can be the user's primary email address, alias, or unique ID.
+   * @param array $optParams Optional parameters.
+   * @return MembersHasMember
+   */
+  public function hasMember($groupKey, $memberKey, $optParams = [])
+  {
+    $params = ['groupKey' => $groupKey, 'memberKey' => $memberKey];
+    $params = array_merge($params, $optParams);
+    return $this->call('hasMember', [$params], MembersHasMember::class);
+  }
+  /**
+   * Adds a user to the specified group. (members.insert)
+   *
+   * @param string $groupKey Identifies the group in the API request. The value
+   * can be the group's email address, group alias, or the unique group ID.
+   * @param Member $postBody
+   * @param array $optParams Optional parameters.
+   * @return Member
+   */
+  public function insert($groupKey, Member $postBody, $optParams = [])
+  {
+    $params = ['groupKey' => $groupKey, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Member::class);
+  }
+  /**
+   * Retrieves a paginated list of all members in a group. (members.listMembers)
+   *
+   * @param string $groupKey Identifies the group in the API request. The value
+   * can be the group's email address, group alias, or the unique group ID.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool includeDerivedMembership Whether to list indirect
+   * memberships. Default: false.
+   * @opt_param int maxResults Maximum number of results to return. Max allowed
+   * value is 200.
+   * @opt_param string pageToken Token to specify next page in the list.
+   * @opt_param string roles The `roles` query parameter allows you to retrieve
+   * group members by role. Allowed values are `OWNER`, `MANAGER`, and `MEMBER`.
+   * @return MembersModel
+   */
+  public function listMembers($groupKey, $optParams = [])
+  {
+    $params = ['groupKey' => $groupKey];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], MembersModel::class);
+  }
+  /**
+   * Updates the membership properties of a user in the specified group. This
+   * method supports [patch semantics](/admin-
+   * sdk/directory/v1/guides/performance#patch). (members.patch)
+   *
+   * @param string $groupKey Identifies the group in the API request. The value
+   * can be the group's email address, group alias, or the unique group ID.
+   * @param string $memberKey Identifies the group member in the API request. A
+   * group member can be a user or another group. The value can be the member's
+   * (group or user) primary email address, alias, or unique ID.
+   * @param Member $postBody
+   * @param array $optParams Optional parameters.
+   * @return Member
+   */
+  public function patch($groupKey, $memberKey, Member $postBody, $optParams = [])
+  {
+    $params = ['groupKey' => $groupKey, 'memberKey' => $memberKey, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Member::class);
+  }
+  /**
+   * Updates the membership of a user in the specified group. (members.update)
+   *
+   * @param string $groupKey Identifies the group in the API request. The value
+   * can be the group's email address, group alias, or the unique group ID.
+   * @param string $memberKey Identifies the group member in the API request. A
+   * group member can be a user or another group. The value can be the member's
+   * (group or user) primary email address, alias, or unique ID.
+   * @param Member $postBody
+   * @param array $optParams Optional parameters.
+   * @return Member
+   */
+  public function update($groupKey, $memberKey, Member $postBody, $optParams = [])
+  {
+    $params = ['groupKey' => $groupKey, 'memberKey' => $memberKey, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Member::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Members::class, 'Google_Service_Directory_Resource_Members');

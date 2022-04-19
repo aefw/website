@@ -1,61 +1,144 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-++iFLSeoVPz1iFviafO=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudIdentity\Resource;
+
+use Google\Service\CloudIdentity\GoogleAppsCloudidentityDevicesV1ClientState;
+use Google\Service\CloudIdentity\GoogleAppsCloudidentityDevicesV1ListClientStatesResponse;
+use Google\Service\CloudIdentity\Operation;
+
+/**
+ * The "clientStates" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $cloudidentityService = new Google\Service\CloudIdentity(...);
+ *   $clientStates = $cloudidentityService->clientStates;
+ *  </code>
+ */
+class DevicesDeviceUsersClientStates extends \Google\Service\Resource
+{
+  /**
+   * Gets the client state for the device user (clientStates.get)
+   *
+   * @param string $name Required. [Resource
+   * name](https://cloud.google.com/apis/design/resource_names) of the ClientState
+   * in format:
+   * `devices/{device_id}/deviceUsers/{device_user_id}/clientStates/{partner_id}`,
+   * where `device_id` is the unique ID assigned to the Device, `device_user_id`
+   * is the unique ID assigned to the User and `partner_id` identifies the partner
+   * storing the data. To get the client state for devices belonging to your own
+   * organization, the `partnerId` is in the format: `customerId-*anystring*`.
+   * Where the `customerId` is your organization's customer ID and `anystring` is
+   * any suffix. This suffix is used in setting up Custom Access Levels in
+   * Context-Aware Access. You may use `my_customer` instead of the customer ID
+   * for devices managed by your own organization. You may specify `-` in place of
+   * the `{device_id}`, so the ClientState resource name can be:
+   * `devices/-/deviceUsers/{device_user_resource_id}/clientStates/{partner_id}`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string customer Optional. [Resource
+   * name](https://cloud.google.com/apis/design/resource_names) of the customer.
+   * If you're using this API for your own organization, use
+   * `customers/my_customer` If you're using this API to manage another
+   * organization, use `customers/{customer_id}`, where customer_id is the
+   * customer to whom the device belongs.
+   * @return GoogleAppsCloudidentityDevicesV1ClientState
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleAppsCloudidentityDevicesV1ClientState::class);
+  }
+  /**
+   * Lists the client states for the given search query.
+   * (clientStates.listDevicesDeviceUsersClientStates)
+   *
+   * @param string $parent Required. To list all ClientStates, set this to
+   * "devices/-/deviceUsers/-". To list all ClientStates owned by a DeviceUser,
+   * set this to the resource name of the DeviceUser. Format:
+   * devices/{device}/deviceUsers/{deviceUser}
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string customer Optional. [Resource
+   * name](https://cloud.google.com/apis/design/resource_names) of the customer.
+   * If you're using this API for your own organization, use
+   * `customers/my_customer` If you're using this API to manage another
+   * organization, use `customers/{customer_id}`, where customer_id is the
+   * customer to whom the device belongs.
+   * @opt_param string filter Optional. Additional restrictions when fetching list
+   * of client states.
+   * @opt_param string orderBy Optional. Order specification for client states in
+   * the response.
+   * @opt_param string pageToken Optional. A page token, received from a previous
+   * `ListClientStates` call. Provide this to retrieve the subsequent page. When
+   * paginating, all other parameters provided to `ListClientStates` must match
+   * the call that provided the page token.
+   * @return GoogleAppsCloudidentityDevicesV1ListClientStatesResponse
+   */
+  public function listDevicesDeviceUsersClientStates($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleAppsCloudidentityDevicesV1ListClientStatesResponse::class);
+  }
+  /**
+   * Updates the client state for the device user **Note**: This method is
+   * available only to customers who have one of the following SKUs: Enterprise
+   * Standard, Enterprise Plus, Enterprise for Education, and Cloud Identity
+   * Premium (clientStates.patch)
+   *
+   * @param string $name Output only. [Resource
+   * name](https://cloud.google.com/apis/design/resource_names) of the ClientState
+   * in format:
+   * `devices/{device_id}/deviceUsers/{device_user_id}/clientState/{partner_id}`,
+   * where partner_id corresponds to the partner storing the data. For partners
+   * belonging to the "BeyondCorp Alliance", this is the partner ID specified to
+   * you by Google. For all other callers, this is a string of the form:
+   * `{customer_id}-suffix`, where `customer_id` is your customer ID. The *suffix*
+   * is any string the caller specifies. This string will be displayed verbatim in
+   * the administration console. This suffix is used in setting up Custom Access
+   * Levels in Context-Aware Access. Your organization's customer ID can be
+   * obtained from the URL: `GET
+   * https://www.googleapis.com/admin/directory/v1/customers/my_customer` The `id`
+   * field in the response contains the customer ID starting with the letter 'C'.
+   * The customer ID to be used in this API is the string after the letter 'C'
+   * (not including 'C')
+   * @param GoogleAppsCloudidentityDevicesV1ClientState $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string customer Optional. [Resource
+   * name](https://cloud.google.com/apis/design/resource_names) of the customer.
+   * If you're using this API for your own organization, use
+   * `customers/my_customer` If you're using this API to manage another
+   * organization, use `customers/{customer_id}`, where customer_id is the
+   * customer to whom the device belongs.
+   * @opt_param string updateMask Optional. Comma-separated list of fully
+   * qualified names of fields to be updated. If not specified, all updatable
+   * fields in ClientState are updated.
+   * @return Operation
+   */
+  public function patch($name, GoogleAppsCloudidentityDevicesV1ClientState $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(DevicesDeviceUsersClientStates::class, 'Google_Service_CloudIdentity_Resource_DevicesDeviceUsersClientStates');

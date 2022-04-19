@@ -1,61 +1,89 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AndroidPublisher\Resource;
+
+use Google\Service\AndroidPublisher\Review;
+use Google\Service\AndroidPublisher\ReviewsListResponse;
+use Google\Service\AndroidPublisher\ReviewsReplyRequest;
+use Google\Service\AndroidPublisher\ReviewsReplyResponse;
+
+/**
+ * The "reviews" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $androidpublisherService = new Google\Service\AndroidPublisher(...);
+ *   $reviews = $androidpublisherService->reviews;
+ *  </code>
+ */
+class Reviews extends \Google\Service\Resource
+{
+  /**
+   * Gets a single review. (reviews.get)
+   *
+   * @param string $packageName Package name of the app.
+   * @param string $reviewId Unique identifier for a review.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string translationLanguage Language localization code.
+   * @return Review
+   */
+  public function get($packageName, $reviewId, $optParams = [])
+  {
+    $params = ['packageName' => $packageName, 'reviewId' => $reviewId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Review::class);
+  }
+  /**
+   * Lists all reviews. (reviews.listReviews)
+   *
+   * @param string $packageName Package name of the app.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string maxResults How many results the list operation should
+   * return.
+   * @opt_param string startIndex The index of the first element to return.
+   * @opt_param string token Pagination token. If empty, list starts at the first
+   * review.
+   * @opt_param string translationLanguage Language localization code.
+   * @return ReviewsListResponse
+   */
+  public function listReviews($packageName, $optParams = [])
+  {
+    $params = ['packageName' => $packageName];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ReviewsListResponse::class);
+  }
+  /**
+   * Replies to a single review, or updates an existing reply. (reviews.reply)
+   *
+   * @param string $packageName Package name of the app.
+   * @param string $reviewId Unique identifier for a review.
+   * @param ReviewsReplyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return ReviewsReplyResponse
+   */
+  public function reply($packageName, $reviewId, ReviewsReplyRequest $postBody, $optParams = [])
+  {
+    $params = ['packageName' => $packageName, 'reviewId' => $reviewId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('reply', [$params], ReviewsReplyResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Reviews::class, 'Google_Service_AndroidPublisher_Resource_Reviews');

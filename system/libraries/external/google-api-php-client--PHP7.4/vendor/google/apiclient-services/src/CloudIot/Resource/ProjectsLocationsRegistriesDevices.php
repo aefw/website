@@ -1,81 +1,206 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Gm7vOO68wb19OmOTuvHNM0PYHVR1gegwl96w20==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudIot\Resource;
+
+use Google\Service\CloudIot\CloudiotEmpty;
+use Google\Service\CloudIot\Device;
+use Google\Service\CloudIot\DeviceConfig;
+use Google\Service\CloudIot\ListDevicesResponse;
+use Google\Service\CloudIot\ModifyCloudToDeviceConfigRequest;
+use Google\Service\CloudIot\SendCommandToDeviceRequest;
+use Google\Service\CloudIot\SendCommandToDeviceResponse;
+
+/**
+ * The "devices" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $cloudiotService = new Google\Service\CloudIot(...);
+ *   $devices = $cloudiotService->devices;
+ *  </code>
+ */
+class ProjectsLocationsRegistriesDevices extends \Google\Service\Resource
+{
+  /**
+   * Creates a device in a device registry. (devices.create)
+   *
+   * @param string $parent Required. The name of the device registry where this
+   * device should be created. For example, `projects/example-project/locations
+   * /us-central1/registries/my-registry`.
+   * @param Device $postBody
+   * @param array $optParams Optional parameters.
+   * @return Device
+   */
+  public function create($parent, Device $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Device::class);
+  }
+  /**
+   * Deletes a device. (devices.delete)
+   *
+   * @param string $name Required. The name of the device. For example,
+   * `projects/p0/locations/us-central1/registries/registry0/devices/device0` or
+   * `projects/p0/locations/us-central1/registries/registry0/devices/{num_id}`.
+   * @param array $optParams Optional parameters.
+   * @return CloudiotEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], CloudiotEmpty::class);
+  }
+  /**
+   * Gets details about a device. (devices.get)
+   *
+   * @param string $name Required. The name of the device. For example,
+   * `projects/p0/locations/us-central1/registries/registry0/devices/device0` or
+   * `projects/p0/locations/us-central1/registries/registry0/devices/{num_id}`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string fieldMask The fields of the `Device` resource to be
+   * returned in the response. If the field mask is unset or empty, all fields are
+   * returned. Fields have to be provided in snake_case format, for example:
+   * `last_heartbeat_time`.
+   * @return Device
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Device::class);
+  }
+  /**
+   * List devices in a device registry.
+   * (devices.listProjectsLocationsRegistriesDevices)
+   *
+   * @param string $parent Required. The device registry path. Required. For
+   * example, `projects/my-project/locations/us-central1/registries/my-registry`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string deviceIds A list of device string IDs. For example,
+   * `['device0', 'device12']`. If empty, this field is ignored. Maximum IDs:
+   * 10,000
+   * @opt_param string deviceNumIds A list of device numeric IDs. If empty, this
+   * field is ignored. Maximum IDs: 10,000.
+   * @opt_param string fieldMask The fields of the `Device` resource to be
+   * returned in the response. The fields `id` and `num_id` are always returned,
+   * along with any other fields specified in snake_case format, for example:
+   * `last_heartbeat_time`.
+   * @opt_param string gatewayListOptions.associationsDeviceId If set, returns
+   * only the gateways with which the specified device is associated. The device
+   * ID can be numeric (`num_id`) or the user-defined string (`id`). For example,
+   * if `456` is specified, returns only the gateways to which the device with
+   * `num_id` 456 is bound.
+   * @opt_param string gatewayListOptions.associationsGatewayId If set, only
+   * devices associated with the specified gateway are returned. The gateway ID
+   * can be numeric (`num_id`) or the user-defined string (`id`). For example, if
+   * `123` is specified, only devices bound to the gateway with `num_id` 123 are
+   * returned.
+   * @opt_param string gatewayListOptions.gatewayType If `GATEWAY` is specified,
+   * only gateways are returned. If `NON_GATEWAY` is specified, only non-gateway
+   * devices are returned. If `GATEWAY_TYPE_UNSPECIFIED` is specified, all devices
+   * are returned.
+   * @opt_param int pageSize The maximum number of devices to return in the
+   * response. If this value is zero, the service will select a default size. A
+   * call may return fewer objects than requested. A non-empty `next_page_token`
+   * in the response indicates that more data is available.
+   * @opt_param string pageToken The value returned by the last
+   * `ListDevicesResponse`; indicates that this is a continuation of a prior
+   * `ListDevices` call and the system should return the next page of data.
+   * @return ListDevicesResponse
+   */
+  public function listProjectsLocationsRegistriesDevices($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListDevicesResponse::class);
+  }
+  /**
+   * Modifies the configuration for the device, which is eventually sent from the
+   * Cloud IoT Core servers. Returns the modified configuration version and its
+   * metadata. (devices.modifyCloudToDeviceConfig)
+   *
+   * @param string $name Required. The name of the device. For example,
+   * `projects/p0/locations/us-central1/registries/registry0/devices/device0` or
+   * `projects/p0/locations/us-central1/registries/registry0/devices/{num_id}`.
+   * @param ModifyCloudToDeviceConfigRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return DeviceConfig
+   */
+  public function modifyCloudToDeviceConfig($name, ModifyCloudToDeviceConfigRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('modifyCloudToDeviceConfig', [$params], DeviceConfig::class);
+  }
+  /**
+   * Updates a device. (devices.patch)
+   *
+   * @param string $name The resource path name. For example,
+   * `projects/p1/locations/us-central1/registries/registry0/devices/dev0` or
+   * `projects/p1/locations/us-central1/registries/registry0/devices/{num_id}`.
+   * When `name` is populated as a response from the service, it always ends in
+   * the device numeric ID.
+   * @param Device $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. Only updates the `device` fields
+   * indicated by this mask. The field mask must not be empty, and it must not
+   * contain fields that are immutable or only set by the server. Mutable top-
+   * level fields: `credentials`, `blocked`, and `metadata`
+   * @return Device
+   */
+  public function patch($name, Device $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Device::class);
+  }
+  /**
+   * Sends a command to the specified device. In order for a device to be able to
+   * receive commands, it must: 1) be connected to Cloud IoT Core using the MQTT
+   * protocol, and 2) be subscribed to the group of MQTT topics specified by
+   * /devices/{device-id}/commands/#. This subscription will receive commands at
+   * the top-level topic /devices/{device-id}/commands as well as commands for
+   * subfolders, like /devices/{device-id}/commands/subfolder. Note that
+   * subscribing to specific subfolders is not supported. If the command could not
+   * be delivered to the device, this method will return an error; in particular,
+   * if the device is not subscribed, this method will return FAILED_PRECONDITION.
+   * Otherwise, this method will return OK. If the subscription is QoS 1, at least
+   * once delivery will be guaranteed; for QoS 0, no acknowledgment will be
+   * expected from the device. (devices.sendCommandToDevice)
+   *
+   * @param string $name Required. The name of the device. For example,
+   * `projects/p0/locations/us-central1/registries/registry0/devices/device0` or
+   * `projects/p0/locations/us-central1/registries/registry0/devices/{num_id}`.
+   * @param SendCommandToDeviceRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return SendCommandToDeviceResponse
+   */
+  public function sendCommandToDevice($name, SendCommandToDeviceRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('sendCommandToDevice', [$params], SendCommandToDeviceResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsRegistriesDevices::class, 'Google_Service_CloudIot_Resource_ProjectsLocationsRegistriesDevices');

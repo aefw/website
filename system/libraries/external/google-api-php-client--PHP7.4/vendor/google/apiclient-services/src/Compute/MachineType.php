@@ -1,102 +1,192 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-yPJqriXFCgUB5x0a
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute;
+
+class MachineType extends \Google\Collection
+{
+  protected $collection_key = 'scratchDisks';
+  protected $acceleratorsType = MachineTypeAccelerators::class;
+  protected $acceleratorsDataType = 'array';
+  public $creationTimestamp;
+  protected $deprecatedType = DeprecationStatus::class;
+  protected $deprecatedDataType = '';
+  public $description;
+  public $guestCpus;
+  public $id;
+  public $imageSpaceGb;
+  public $isSharedCpu;
+  public $kind;
+  public $maximumPersistentDisks;
+  public $maximumPersistentDisksSizeGb;
+  public $memoryMb;
+  public $name;
+  protected $scratchDisksType = MachineTypeScratchDisks::class;
+  protected $scratchDisksDataType = 'array';
+  public $selfLink;
+  public $zone;
+
+  /**
+   * @param MachineTypeAccelerators[]
+   */
+  public function setAccelerators($accelerators)
+  {
+    $this->accelerators = $accelerators;
+  }
+  /**
+   * @return MachineTypeAccelerators[]
+   */
+  public function getAccelerators()
+  {
+    return $this->accelerators;
+  }
+  public function setCreationTimestamp($creationTimestamp)
+  {
+    $this->creationTimestamp = $creationTimestamp;
+  }
+  public function getCreationTimestamp()
+  {
+    return $this->creationTimestamp;
+  }
+  /**
+   * @param DeprecationStatus
+   */
+  public function setDeprecated(DeprecationStatus $deprecated)
+  {
+    $this->deprecated = $deprecated;
+  }
+  /**
+   * @return DeprecationStatus
+   */
+  public function getDeprecated()
+  {
+    return $this->deprecated;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setGuestCpus($guestCpus)
+  {
+    $this->guestCpus = $guestCpus;
+  }
+  public function getGuestCpus()
+  {
+    return $this->guestCpus;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setImageSpaceGb($imageSpaceGb)
+  {
+    $this->imageSpaceGb = $imageSpaceGb;
+  }
+  public function getImageSpaceGb()
+  {
+    return $this->imageSpaceGb;
+  }
+  public function setIsSharedCpu($isSharedCpu)
+  {
+    $this->isSharedCpu = $isSharedCpu;
+  }
+  public function getIsSharedCpu()
+  {
+    return $this->isSharedCpu;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setMaximumPersistentDisks($maximumPersistentDisks)
+  {
+    $this->maximumPersistentDisks = $maximumPersistentDisks;
+  }
+  public function getMaximumPersistentDisks()
+  {
+    return $this->maximumPersistentDisks;
+  }
+  public function setMaximumPersistentDisksSizeGb($maximumPersistentDisksSizeGb)
+  {
+    $this->maximumPersistentDisksSizeGb = $maximumPersistentDisksSizeGb;
+  }
+  public function getMaximumPersistentDisksSizeGb()
+  {
+    return $this->maximumPersistentDisksSizeGb;
+  }
+  public function setMemoryMb($memoryMb)
+  {
+    $this->memoryMb = $memoryMb;
+  }
+  public function getMemoryMb()
+  {
+    return $this->memoryMb;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  /**
+   * @param MachineTypeScratchDisks[]
+   */
+  public function setScratchDisks($scratchDisks)
+  {
+    $this->scratchDisks = $scratchDisks;
+  }
+  /**
+   * @return MachineTypeScratchDisks[]
+   */
+  public function getScratchDisks()
+  {
+    return $this->scratchDisks;
+  }
+  public function setSelfLink($selfLink)
+  {
+    $this->selfLink = $selfLink;
+  }
+  public function getSelfLink()
+  {
+    return $this->selfLink;
+  }
+  public function setZone($zone)
+  {
+    $this->zone = $zone;
+  }
+  public function getZone()
+  {
+    return $this->zone;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(MachineType::class, 'Google_Service_Compute_MachineType');

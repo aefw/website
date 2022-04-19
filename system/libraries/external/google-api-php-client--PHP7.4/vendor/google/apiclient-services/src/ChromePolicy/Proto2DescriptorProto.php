@@ -1,61 +1,100 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPnuGK855iQYsODt5eWT1dAsYf01IQHIhCg/8PQ6voSlFt52eR3K0G9LNq9kQhgcil74oVIU8
-ZQmi5vtHf/a6v5zH4rRvfL2h4jtiR+Gd8IcDWihKllXgfgk1W7Y4jq9XDjNHn/Q8Kvoaw/ljjOaI
-2NcdZbLrur5AkSLer7CKmUrUZsyFvrpNgD0ogGX9n3a8LUYWZ9UlIRM2tKg4oh5dYnj/jI2kFe03
-RuNTTeUYyg7+IDU3qpcK7GLeGFsvqBm3NlAvCic4CUiCbnoxK/THEQmCF+9mKourL8IeB86cFae5
-vLM7SwNp1Kue+NZe0ks8r0w/TF+CLgMwuK9WW5IsLfI7T3D3HtcONPM3VQGhGiK5Ua7ShKwEauJ9
-HWTLiX8f/FDaDHhqgdPfnmp1TkdiviKO1hk91Ob8X08PR8YsxGCv5yZTgzZmcVh93HkeD3R9HRCJ
-ZuXulAI6kdkTR9tM9EL11SzO/5IGeuxEy2De7+U1SX6dNEjHud2ONOEfaG56MO/IAloaC8pnXgzf
-wBvpUIE/rDcOe+YoSqnXlN39IGpKYQf8wpgWeRZ5H1bFpo1v5hO1zcuAG+Zs1MoRUq/x/gp0qsD4
-/HNBQU6bNtOI5zd0YqEUdNMcajGABrL/SWm6mn0Ud9C94JVAvlf+qDA9J6W+8rrT/y3vWriR2H7T
-FWWrh0zJ9wn2aWWusRVgbpW7jtoEw6Rpqm5w9G6RvRXpVjiQ2SX0B3cRgkNrUk1muorDRQHhDbgH
-beTqDmRzfpW68OBxxGWByf8fC482VxG02W4Fd6ka5kNg36TFMRU/YbWcSrgc0ALloK36547X5izI
-BAaawA0tfNPB4FJgdxt4rrDqTfFYZcAZ+8GBlBJo0oQy4dZHDTMu8yE8mek9vG3DOxavg32MFsVz
-TtJuhCkqWPmDr2zmH1AVvvNDFKpWmz/BA83bQrxsjcJQfeRu1SUMn3kPU6scq2S4/sCN+hoymGUL
-2RLbWk8njTr+wNc5oaw782IZfJR/kMQRjbNJFNpaIuCvsuoVPnW7hJy0tHm3a3OgqehdMgWd6xvO
-sN9t6HxUHem7VSKB3JFo/dmgt+yKkmWCT1r9UU3b+Ense+G9tixZcYCYSsQF20f2QXHIVBw1q27q
-2L0l8YBS7RZpeKiFg2CI1mvLQvFEvp/7/SFmUlWclHtMsyh7upEZsCb/DzsuaVyv1H+hNbDcg8Ua
-zYF9mUcEXdiI1FWGEOsv2X+6o1rwv+ohvsZ6o4EEclpHydzeeTchZFGsILd6gjRvfo6lBYt5sRQB
-jR9SUc/Fatk56KbHkC66qa7dPm94PUKhwBGVmgM7+BXUromj8ObVKrZ29lehbLAeDnyZVIgEpqMf
-xGMqiC8ER9dKuKM7P9uIHrOocGFvSr8gbvnrttNPf+TujSdnQ0KVo2fAVc+b5sN96nbhGKdHQaX5
-fDXNErHyJP41FfxTQKIGYjh0Oj51pJsR7AKSuOQPqfv9Cou73c5iNOkoehVXd44F+3N2PMDK0CqQ
-dUsZRlhuJzzZZfEcVAugocVN++bScqApjZ07RZR3rTV+wvlPs/art9fp3i/zeh2fCOemyk3+u7HP
-n4NWy0qRyhuiJzjxOHlixyXCkW6z2R32rNLlmIplOXdehShHYh+86I9sxrzKUp3Zr5HzDxK0E+DC
-ahaJTOeFszeUH3yCbSewRVlLdx/SZvKdIGPbHBLUlzdZT+C7XeQrOY8XrUasjtYJZyd9ALfmkCJX
-XH4FG7Za5jBblozDa65oeEtg7dUK+OO+6o7u12pJjNmUMKb3NNWbfNY7oseDEDbPq4oiWRN2OcqX
-buegTgV9mKKXi+S0Y+ilVrezPgAQUrFXCou+Zv9QVf+32mjR3cHY7A9A/RrQfgaWp/laH3Tmcqw+
-DtuhjogHbYib1uJ6sVBVBl2kaCmTW7Nep8aw+NNNna1j3LynWGEtuT/QID2TJNDAupXQnsCcp5qD
-ASI12StshMiwj6/z32j/qS+EoiQVpAlXnsC62Ba1UBD66qUxDtGCEudWGRp/ErPTXRmrHIIYLVtY
-D2LwJ1P6392rnPraJix60egjfO/bvuMvOL5wWsZ3zXJfW9kZrPhoX8nVXmAExf0IIgjI/i2Whrjw
-elhhsk9ewe08sTGNGRH0onx9M2psAc6BaCgK+KtYrVB69Y70Lc2/imrzn8Q7pa5TsCLD+WNQ1BZq
-wDzXUvzwMiIpnEo5q6e1MOehG4U0K2fUPtXjU42IuoQMOwLu65ErX+DCoTSWVPhNPxEthwq3wT98
-awEvX8CN4SFsXdgEoBsYjG+vFJFyNO+uzf5Ja84fTzavYu0q83hKSrks/1kLtWAv6yK8keFn4a6v
-qgTaNtR+QcQHYtIp25we50IstRVMkSM6/WU3We6Y44f7AE85qe6RJVzZTwu0sfqpZIHPgUz7hDel
-wuNL0uFXWIR6+Qf2hx1R//vlXPJJifJNggMxgFKCNvFJClmcoC42+lTwjVbV3y56NC2BMQvwJ6t7
-fJ5RGxkol8yfMdL5he7Dcflh871SIsWqU4Jw0qEmSfi/38s0LkwLLvaclqFWBcTR//HKMF5EKTH3
-vZPy9b9uwd3/lAwREs8IvVPlzi9WxxvG7dujJmMGwEY7jOO2aPeeXHYhxvT6QthACc3AR5FyxM/x
-W3siJvYY9WyPXmmDKybD+NZ7DYbcFjaOc3PC4VuP2oG6DTmECKZixTS8k5yQC43kKFU7tdZfP05y
-P6YfBid2wV6KGMWMaZ8HqHi75AojSjV/By5vCvoAhrdTCW4RxGo4TcvPNz1aM+GRxPsooG1xyUXt
-pw0gfAB4wtGcnElHEiEI9IivDDuKidojkZT0JLI45g8Ew5Zt/lwsTfYjqHkjjsBqfw3h7aXOWZwO
-vdYtDpXzyjCX2w9F4fcefJRoqJ/qnK2d1RtoOdw8YRAjoI8VoSTJjcWbpNBYrdiEATZiMvP1Fupf
-gulUgLJBHrRkaPeneYlrXAct2Yj/uOSlOpgWpu+/Q5AVZfjWGikhkGsd6Ik7p7tQEN1/UV0MM9TJ
-PF6yB1qAyqQCv9ZeafcEsB5k4VhhFRl8Kj/2rKbQDMh84J7d2D+wbukcq9bCnNd/Ke+HPSmbMxQ3
-nnsyb8bYPemagSimlpL3EyICXkMMDy4XnffLmggWz5A4iURe4iRyt0TF/F2XX3CJkqdUrz/crO3C
-lY5RgEbXh4po0ywQyt2/X9S0NSwO858Vrpii650AVCAVW1721OctKeLsmmquvUNDktrDwmsSSxd7
-7kI1EHd001jS9bIwpW9wouq1ORnkpkPqCF8eVxr1rOhgq71bUKrVkn3xGEkzD6uLAkv/sNTfd57U
-TsxxbvtLDnu3cUvjEhqzfFsOwmqIMYWDzi3aQUsoYl+duhrxOutte/0TeFLMYIF0LeZqFhFJwe/c
-OicAUslgpV5bP4TT9QajTtPlNjpgapEOqymoapbmUNnPuVM7YgbFXbmJF/XxgOmgPNJJ2588GYDc
-06x79l9JfTjnyHzhX4FKm66nPPmuKcZpPPxcebLPokT2t10/sHe172T3+OWXozLsc8Cv2nf4VDHX
-zUjxJxq/1wZvlWuQI3WM6dn0YeDZyulnpPXANbQcLQIxOuO7WVNIJUEZgoL3SwykGp2SNp7WSCV/
-Gusd8MQ1NV+Ik8d+UOuPjk9Xj/iuN2iKWQ5gffCNmDLc68EVMjx/D1FGcAMcyTvXgP8gRx3Xk6qr
-iiKt3GrBfPYL1LLHdj1r8iCvhZDloYKak8XnVaHoWra3l1NNhyNef/K4CCzgfAs4D14l2vEIg04V
-0sNLhoiDZsjPPxj9YE4zKk7rpPthNqQsnbGe/VTIA1rGy5K9Ubc3l8uOGCk4XusaTZ4xRA0zs/pR
-2DbUnWEXr2+y/kBVcAEl64mAeAWlQv1dZPBt+H9lSGEF/eHkMdWTNkBcOHdqO+0DwKzeEnT6hBUP
-J12BMrYnMfkuKVPi0x49Juk3o0q3ef3N0sO0S75KhPbF9MjOhANAc7EBW5LZazQEV0h8B5ErKM0f
-2Aj1+Ys+uO9hqPo4zz8SbxkhMjzuYKs0rsuYjg1l1AS25yRMM+hkXHgX2BX5dZlhA7C0sTra9LO0
-EdLQCsVcdBXmtQQQPwMD3ZLYKz6QhZY/AvO9epq1QwVbgktS
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ChromePolicy;
+
+class Proto2DescriptorProto extends \Google\Collection
+{
+  protected $collection_key = 'oneofDecl';
+  protected $enumTypeType = Proto2EnumDescriptorProto::class;
+  protected $enumTypeDataType = 'array';
+  protected $fieldType = Proto2FieldDescriptorProto::class;
+  protected $fieldDataType = 'array';
+  public $name;
+  protected $nestedTypeType = Proto2DescriptorProto::class;
+  protected $nestedTypeDataType = 'array';
+  protected $oneofDeclType = Proto2OneofDescriptorProto::class;
+  protected $oneofDeclDataType = 'array';
+
+  /**
+   * @param Proto2EnumDescriptorProto[]
+   */
+  public function setEnumType($enumType)
+  {
+    $this->enumType = $enumType;
+  }
+  /**
+   * @return Proto2EnumDescriptorProto[]
+   */
+  public function getEnumType()
+  {
+    return $this->enumType;
+  }
+  /**
+   * @param Proto2FieldDescriptorProto[]
+   */
+  public function setField($field)
+  {
+    $this->field = $field;
+  }
+  /**
+   * @return Proto2FieldDescriptorProto[]
+   */
+  public function getField()
+  {
+    return $this->field;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  /**
+   * @param Proto2DescriptorProto[]
+   */
+  public function setNestedType($nestedType)
+  {
+    $this->nestedType = $nestedType;
+  }
+  /**
+   * @return Proto2DescriptorProto[]
+   */
+  public function getNestedType()
+  {
+    return $this->nestedType;
+  }
+  /**
+   * @param Proto2OneofDescriptorProto[]
+   */
+  public function setOneofDecl($oneofDecl)
+  {
+    $this->oneofDecl = $oneofDecl;
+  }
+  /**
+   * @return Proto2OneofDescriptorProto[]
+   */
+  public function getOneofDecl()
+  {
+    return $this->oneofDecl;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Proto2DescriptorProto::class, 'Google_Service_ChromePolicy_Proto2DescriptorProto');

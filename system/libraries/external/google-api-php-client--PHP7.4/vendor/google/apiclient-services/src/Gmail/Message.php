@@ -1,72 +1,115 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Gmail;
+
+class Message extends \Google\Collection
+{
+  protected $collection_key = 'labelIds';
+  public $historyId;
+  public $id;
+  public $internalDate;
+  public $labelIds;
+  protected $payloadType = MessagePart::class;
+  protected $payloadDataType = '';
+  public $raw;
+  public $sizeEstimate;
+  public $snippet;
+  public $threadId;
+
+  public function setHistoryId($historyId)
+  {
+    $this->historyId = $historyId;
+  }
+  public function getHistoryId()
+  {
+    return $this->historyId;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setInternalDate($internalDate)
+  {
+    $this->internalDate = $internalDate;
+  }
+  public function getInternalDate()
+  {
+    return $this->internalDate;
+  }
+  public function setLabelIds($labelIds)
+  {
+    $this->labelIds = $labelIds;
+  }
+  public function getLabelIds()
+  {
+    return $this->labelIds;
+  }
+  /**
+   * @param MessagePart
+   */
+  public function setPayload(MessagePart $payload)
+  {
+    $this->payload = $payload;
+  }
+  /**
+   * @return MessagePart
+   */
+  public function getPayload()
+  {
+    return $this->payload;
+  }
+  public function setRaw($raw)
+  {
+    $this->raw = $raw;
+  }
+  public function getRaw()
+  {
+    return $this->raw;
+  }
+  public function setSizeEstimate($sizeEstimate)
+  {
+    $this->sizeEstimate = $sizeEstimate;
+  }
+  public function getSizeEstimate()
+  {
+    return $this->sizeEstimate;
+  }
+  public function setSnippet($snippet)
+  {
+    $this->snippet = $snippet;
+  }
+  public function getSnippet()
+  {
+    return $this->snippet;
+  }
+  public function setThreadId($threadId)
+  {
+    $this->threadId = $threadId;
+  }
+  public function getThreadId()
+  {
+    return $this->threadId;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Message::class, 'Google_Service_Gmail_Message');

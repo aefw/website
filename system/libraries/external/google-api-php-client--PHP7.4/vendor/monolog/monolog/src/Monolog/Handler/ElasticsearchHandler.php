@@ -1,99 +1,189 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Uv8EpDIi5AYc5hRTOm==
+<?php declare(strict_types=1);
+
+/*
+ * This file is part of the Monolog package.
+ *
+ * (c) Jordi Boggiano <j.boggiano@seld.be>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Monolog\Handler;
+
+use Throwable;
+use RuntimeException;
+use Monolog\Logger;
+use Monolog\Formatter\FormatterInterface;
+use Monolog\Formatter\ElasticsearchFormatter;
+use InvalidArgumentException;
+use Elasticsearch\Common\Exceptions\RuntimeException as ElasticsearchRuntimeException;
+use Elasticsearch\Client;
+
+/**
+ * Elasticsearch handler
+ *
+ * @link https://www.elastic.co/guide/en/elasticsearch/client/php-api/current/index.html
+ *
+ * Simple usage example:
+ *
+ *    $client = \Elasticsearch\ClientBuilder::create()
+ *        ->setHosts($hosts)
+ *        ->build();
+ *
+ *    $options = array(
+ *        'index' => 'elastic_index_name',
+ *        'type'  => 'elastic_doc_type',
+ *    );
+ *    $handler = new ElasticsearchHandler($client, $options);
+ *    $log = new Logger('application');
+ *    $log->pushHandler($handler);
+ *
+ * @author Avtandil Kikabidze <akalongman@gmail.com>
+ */
+class ElasticsearchHandler extends AbstractProcessingHandler
+{
+    /**
+     * @var Client
+     */
+    protected $client;
+
+    /**
+     * @var array Handler config options
+     */
+    protected $options = [];
+
+    /**
+     * @param Client     $client  Elasticsearch Client object
+     * @param array      $options Handler configuration
+     * @param string|int $level   The minimum logging level at which this handler will be triggered
+     * @param bool       $bubble  Whether the messages that are handled can bubble up the stack or not
+     */
+    public function __construct(Client $client, array $options = [], $level = Logger::DEBUG, bool $bubble = true)
+    {
+        parent::__construct($level, $bubble);
+        $this->client = $client;
+        $this->options = array_merge(
+            [
+                'index'        => 'monolog', // Elastic index name
+                'type'         => '_doc',    // Elastic document type
+                'ignore_error' => false,     // Suppress Elasticsearch exceptions
+            ],
+            $options
+        );
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    protected function write(array $record): void
+    {
+        $this->bulkSend([$record['formatted']]);
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function setFormatter(FormatterInterface $formatter): HandlerInterface
+    {
+        if ($formatter instanceof ElasticsearchFormatter) {
+            return parent::setFormatter($formatter);
+        }
+
+        throw new InvalidArgumentException('ElasticsearchHandler is only compatible with ElasticsearchFormatter');
+    }
+
+    /**
+     * Getter options
+     *
+     * @return array
+     */
+    public function getOptions(): array
+    {
+        return $this->options;
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    protected function getDefaultFormatter(): FormatterInterface
+    {
+        return new ElasticsearchFormatter($this->options['index'], $this->options['type']);
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function handleBatch(array $records): void
+    {
+        $documents = $this->getFormatter()->formatBatch($records);
+        $this->bulkSend($documents);
+    }
+
+    /**
+     * Use Elasticsearch bulk API to send list of documents
+     *
+     * @param  array             $records
+     * @throws \RuntimeException
+     */
+    protected function bulkSend(array $records): void
+    {
+        try {
+            $params = [
+                'body' => [],
+            ];
+
+            foreach ($records as $record) {
+                $params['body'][] = [
+                    'index' => [
+                        '_index' => $record['_index'],
+                        '_type'  => $record['_type'],
+                    ],
+                ];
+                unset($record['_index'], $record['_type']);
+
+                $params['body'][] = $record;
+            }
+
+            $responses = $this->client->bulk($params);
+
+            if ($responses['errors'] === true) {
+                throw $this->createExceptionFromResponses($responses);
+            }
+        } catch (Throwable $e) {
+            if (! $this->options['ignore_error']) {
+                throw new RuntimeException('Error sending messages to Elasticsearch', 0, $e);
+            }
+        }
+    }
+
+    /**
+     * Creates elasticsearch exception from responses array
+     *
+     * Only the first error is converted into an exception.
+     *
+     * @param array $responses returned by $this->client->bulk()
+     */
+    protected function createExceptionFromResponses(array $responses): ElasticsearchRuntimeException
+    {
+        foreach ($responses['items'] ?? [] as $item) {
+            if (isset($item['index']['error'])) {
+                return $this->createExceptionFromError($item['index']['error']);
+            }
+        }
+
+        return new ElasticsearchRuntimeException('Elasticsearch failed to index one or more records.');
+    }
+
+    /**
+     * Creates elasticsearch exception from error array
+     *
+     * @param array $error
+     */
+    protected function createExceptionFromError(array $error): ElasticsearchRuntimeException
+    {
+        $previous = isset($error['caused_by']) ? $this->createExceptionFromError($error['caused_by']) : null;
+
+        return new ElasticsearchRuntimeException($error['type'] . ': ' . $error['reason'], 0, $previous);
+    }
+}

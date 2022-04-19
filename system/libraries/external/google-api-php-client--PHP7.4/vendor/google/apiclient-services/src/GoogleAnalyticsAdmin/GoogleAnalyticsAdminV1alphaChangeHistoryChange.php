@@ -1,60 +1,76 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\GoogleAnalyticsAdmin;
+
+class GoogleAnalyticsAdminV1alphaChangeHistoryChange extends \Google\Model
+{
+  public $action;
+  public $resource;
+  protected $resourceAfterChangeType = GoogleAnalyticsAdminV1alphaChangeHistoryChangeChangeHistoryResource::class;
+  protected $resourceAfterChangeDataType = '';
+  protected $resourceBeforeChangeType = GoogleAnalyticsAdminV1alphaChangeHistoryChangeChangeHistoryResource::class;
+  protected $resourceBeforeChangeDataType = '';
+
+  public function setAction($action)
+  {
+    $this->action = $action;
+  }
+  public function getAction()
+  {
+    return $this->action;
+  }
+  public function setResource($resource)
+  {
+    $this->resource = $resource;
+  }
+  public function getResource()
+  {
+    return $this->resource;
+  }
+  /**
+   * @param GoogleAnalyticsAdminV1alphaChangeHistoryChangeChangeHistoryResource
+   */
+  public function setResourceAfterChange(GoogleAnalyticsAdminV1alphaChangeHistoryChangeChangeHistoryResource $resourceAfterChange)
+  {
+    $this->resourceAfterChange = $resourceAfterChange;
+  }
+  /**
+   * @return GoogleAnalyticsAdminV1alphaChangeHistoryChangeChangeHistoryResource
+   */
+  public function getResourceAfterChange()
+  {
+    return $this->resourceAfterChange;
+  }
+  /**
+   * @param GoogleAnalyticsAdminV1alphaChangeHistoryChangeChangeHistoryResource
+   */
+  public function setResourceBeforeChange(GoogleAnalyticsAdminV1alphaChangeHistoryChangeChangeHistoryResource $resourceBeforeChange)
+  {
+    $this->resourceBeforeChange = $resourceBeforeChange;
+  }
+  /**
+   * @return GoogleAnalyticsAdminV1alphaChangeHistoryChangeChangeHistoryResource
+   */
+  public function getResourceBeforeChange()
+  {
+    return $this->resourceBeforeChange;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleAnalyticsAdminV1alphaChangeHistoryChange::class, 'Google_Service_GoogleAnalyticsAdmin_GoogleAnalyticsAdminV1alphaChangeHistoryChange');

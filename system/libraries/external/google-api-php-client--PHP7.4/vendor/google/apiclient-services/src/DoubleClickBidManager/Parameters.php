@@ -1,65 +1,95 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-jpB23hktKzp7Ym==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DoubleClickBidManager;
+
+class Parameters extends \Google\Collection
+{
+  protected $collection_key = 'metrics';
+  protected $filtersType = FilterPair::class;
+  protected $filtersDataType = 'array';
+  public $groupBys;
+  public $includeInviteData;
+  public $metrics;
+  protected $optionsType = Options::class;
+  protected $optionsDataType = '';
+  public $type;
+
+  /**
+   * @param FilterPair[]
+   */
+  public function setFilters($filters)
+  {
+    $this->filters = $filters;
+  }
+  /**
+   * @return FilterPair[]
+   */
+  public function getFilters()
+  {
+    return $this->filters;
+  }
+  public function setGroupBys($groupBys)
+  {
+    $this->groupBys = $groupBys;
+  }
+  public function getGroupBys()
+  {
+    return $this->groupBys;
+  }
+  public function setIncludeInviteData($includeInviteData)
+  {
+    $this->includeInviteData = $includeInviteData;
+  }
+  public function getIncludeInviteData()
+  {
+    return $this->includeInviteData;
+  }
+  public function setMetrics($metrics)
+  {
+    $this->metrics = $metrics;
+  }
+  public function getMetrics()
+  {
+    return $this->metrics;
+  }
+  /**
+   * @param Options
+   */
+  public function setOptions(Options $options)
+  {
+    $this->options = $options;
+  }
+  /**
+   * @return Options
+   */
+  public function getOptions()
+  {
+    return $this->options;
+  }
+  public function setType($type)
+  {
+    $this->type = $type;
+  }
+  public function getType()
+  {
+    return $this->type;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Parameters::class, 'Google_Service_DoubleClickBidManager_Parameters');

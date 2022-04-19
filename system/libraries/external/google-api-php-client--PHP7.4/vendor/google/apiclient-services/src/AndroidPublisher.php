@@ -1,135 +1,1400 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for AndroidPublisher (v3).
+ *
+ * <p>
+ * Lets Android application developers access their Google Play accounts.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://developers.google.com/android-publisher" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class AndroidPublisher extends \Google\Service
+{
+  /** View and manage your Google Play Developer account. */
+  const ANDROIDPUBLISHER =
+      "https://www.googleapis.com/auth/androidpublisher";
+
+  public $edits;
+  public $edits_apks;
+  public $edits_bundles;
+  public $edits_deobfuscationfiles;
+  public $edits_details;
+  public $edits_expansionfiles;
+  public $edits_images;
+  public $edits_listings;
+  public $edits_testers;
+  public $edits_tracks;
+  public $inappproducts;
+  public $internalappsharingartifacts;
+  public $orders;
+  public $purchases_products;
+  public $purchases_subscriptions;
+  public $purchases_voidedpurchases;
+  public $reviews;
+  public $systemapks_variants;
+
+  /**
+   * Constructs the internal representation of the AndroidPublisher service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://androidpublisher.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v3';
+    $this->serviceName = 'androidpublisher';
+
+    $this->edits = new AndroidPublisher\Resource\Edits(
+        $this,
+        $this->serviceName,
+        'edits',
+        [
+          'methods' => [
+            'commit' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/edits/{editId}:commit',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'editId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'changesNotSentForReview' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/edits/{editId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'editId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/edits/{editId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'editId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/edits',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'validate' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/edits/{editId}:validate',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'editId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->edits_apks = new AndroidPublisher\Resource\EditsApks(
+        $this,
+        $this->serviceName,
+        'apks',
+        [
+          'methods' => [
+            'addexternallyhosted' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/edits/{editId}/apks/externallyHosted',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'editId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/edits/{editId}/apks',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'editId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'upload' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/edits/{editId}/apks',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'editId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->edits_bundles = new AndroidPublisher\Resource\EditsBundles(
+        $this,
+        $this->serviceName,
+        'bundles',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/edits/{editId}/bundles',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'editId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'upload' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/edits/{editId}/bundles',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'editId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'ackBundleInstallationWarning' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->edits_deobfuscationfiles = new AndroidPublisher\Resource\EditsDeobfuscationfiles(
+        $this,
+        $this->serviceName,
+        'deobfuscationfiles',
+        [
+          'methods' => [
+            'upload' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/edits/{editId}/apks/{apkVersionCode}/deobfuscationFiles/{deobfuscationFileType}',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'editId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'apkVersionCode' => [
+                  'location' => 'path',
+                  'type' => 'integer',
+                  'required' => true,
+                ],
+                'deobfuscationFileType' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->edits_details = new AndroidPublisher\Resource\EditsDetails(
+        $this,
+        $this->serviceName,
+        'details',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/edits/{editId}/details',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'editId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/edits/{editId}/details',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'editId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/edits/{editId}/details',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'editId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->edits_expansionfiles = new AndroidPublisher\Resource\EditsExpansionfiles(
+        $this,
+        $this->serviceName,
+        'expansionfiles',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/edits/{editId}/apks/{apkVersionCode}/expansionFiles/{expansionFileType}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'editId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'apkVersionCode' => [
+                  'location' => 'path',
+                  'type' => 'integer',
+                  'required' => true,
+                ],
+                'expansionFileType' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/edits/{editId}/apks/{apkVersionCode}/expansionFiles/{expansionFileType}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'editId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'apkVersionCode' => [
+                  'location' => 'path',
+                  'type' => 'integer',
+                  'required' => true,
+                ],
+                'expansionFileType' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/edits/{editId}/apks/{apkVersionCode}/expansionFiles/{expansionFileType}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'editId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'apkVersionCode' => [
+                  'location' => 'path',
+                  'type' => 'integer',
+                  'required' => true,
+                ],
+                'expansionFileType' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'upload' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/edits/{editId}/apks/{apkVersionCode}/expansionFiles/{expansionFileType}',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'editId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'apkVersionCode' => [
+                  'location' => 'path',
+                  'type' => 'integer',
+                  'required' => true,
+                ],
+                'expansionFileType' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->edits_images = new AndroidPublisher\Resource\EditsImages(
+        $this,
+        $this->serviceName,
+        'images',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/edits/{editId}/listings/{language}/{imageType}/{imageId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'editId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'language' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'imageType' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'imageId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'deleteall' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/edits/{editId}/listings/{language}/{imageType}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'editId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'language' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'imageType' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/edits/{editId}/listings/{language}/{imageType}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'editId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'language' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'imageType' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'upload' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/edits/{editId}/listings/{language}/{imageType}',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'editId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'language' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'imageType' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->edits_listings = new AndroidPublisher\Resource\EditsListings(
+        $this,
+        $this->serviceName,
+        'listings',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/edits/{editId}/listings/{language}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'editId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'language' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'deleteall' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/edits/{editId}/listings',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'editId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/edits/{editId}/listings/{language}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'editId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'language' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/edits/{editId}/listings',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'editId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/edits/{editId}/listings/{language}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'editId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'language' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/edits/{editId}/listings/{language}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'editId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'language' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->edits_testers = new AndroidPublisher\Resource\EditsTesters(
+        $this,
+        $this->serviceName,
+        'testers',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/edits/{editId}/testers/{track}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'editId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'track' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/edits/{editId}/testers/{track}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'editId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'track' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/edits/{editId}/testers/{track}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'editId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'track' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->edits_tracks = new AndroidPublisher\Resource\EditsTracks(
+        $this,
+        $this->serviceName,
+        'tracks',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/edits/{editId}/tracks/{track}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'editId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'track' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/edits/{editId}/tracks',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'editId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/edits/{editId}/tracks/{track}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'editId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'track' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/edits/{editId}/tracks/{track}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'editId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'track' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->inappproducts = new AndroidPublisher\Resource\Inappproducts(
+        $this,
+        $this->serviceName,
+        'inappproducts',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/inappproducts/{sku}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'sku' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/inappproducts/{sku}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'sku' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/inappproducts',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'autoConvertMissingPrices' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/inappproducts',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'startIndex' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'token' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/inappproducts/{sku}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'sku' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'autoConvertMissingPrices' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/inappproducts/{sku}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'sku' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'autoConvertMissingPrices' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->internalappsharingartifacts = new AndroidPublisher\Resource\Internalappsharingartifacts(
+        $this,
+        $this->serviceName,
+        'internalappsharingartifacts',
+        [
+          'methods' => [
+            'uploadapk' => [
+              'path' => 'androidpublisher/v3/applications/internalappsharing/{packageName}/artifacts/apk',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'uploadbundle' => [
+              'path' => 'androidpublisher/v3/applications/internalappsharing/{packageName}/artifacts/bundle',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->orders = new AndroidPublisher\Resource\Orders(
+        $this,
+        $this->serviceName,
+        'orders',
+        [
+          'methods' => [
+            'refund' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/orders/{orderId}:refund',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'orderId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'revoke' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->purchases_products = new AndroidPublisher\Resource\PurchasesProducts(
+        $this,
+        $this->serviceName,
+        'products',
+        [
+          'methods' => [
+            'acknowledge' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/purchases/products/{productId}/tokens/{token}:acknowledge',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'productId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'token' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/purchases/products/{productId}/tokens/{token}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'productId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'token' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->purchases_subscriptions = new AndroidPublisher\Resource\PurchasesSubscriptions(
+        $this,
+        $this->serviceName,
+        'subscriptions',
+        [
+          'methods' => [
+            'acknowledge' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/purchases/subscriptions/{subscriptionId}/tokens/{token}:acknowledge',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'subscriptionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'token' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'cancel' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/purchases/subscriptions/{subscriptionId}/tokens/{token}:cancel',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'subscriptionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'token' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'defer' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/purchases/subscriptions/{subscriptionId}/tokens/{token}:defer',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'subscriptionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'token' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/purchases/subscriptions/{subscriptionId}/tokens/{token}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'subscriptionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'token' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'refund' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/purchases/subscriptions/{subscriptionId}/tokens/{token}:refund',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'subscriptionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'token' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'revoke' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/purchases/subscriptions/{subscriptionId}/tokens/{token}:revoke',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'subscriptionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'token' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->purchases_voidedpurchases = new AndroidPublisher\Resource\PurchasesVoidedpurchases(
+        $this,
+        $this->serviceName,
+        'voidedpurchases',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/purchases/voidedpurchases',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'endTime' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'startIndex' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'startTime' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'token' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'type' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->reviews = new AndroidPublisher\Resource\Reviews(
+        $this,
+        $this->serviceName,
+        'reviews',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/reviews/{reviewId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'reviewId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'translationLanguage' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/reviews',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'startIndex' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'token' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'translationLanguage' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'reply' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/reviews/{reviewId}:reply',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'reviewId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->systemapks_variants = new AndroidPublisher\Resource\SystemapksVariants(
+        $this,
+        $this->serviceName,
+        'variants',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/systemApks/{versionCode}/variants',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'versionCode' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'download' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/systemApks/{versionCode}/variants/{variantId}:download',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'versionCode' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'variantId' => [
+                  'location' => 'path',
+                  'type' => 'integer',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/systemApks/{versionCode}/variants/{variantId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'versionCode' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'variantId' => [
+                  'location' => 'path',
+                  'type' => 'integer',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'androidpublisher/v3/applications/{packageName}/systemApks/{versionCode}/variants',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'packageName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'versionCode' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AndroidPublisher::class, 'Google_Service_AndroidPublisher');

@@ -1,170 +1,2170 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for Analytics (v3).
+ *
+ * <p>
+ * Views and manages your Google Analytics data.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://developers.google.com/analytics/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class Analytics extends \Google\Service
+{
+  /** View and manage your Google Analytics data. */
+  const ANALYTICS =
+      "https://www.googleapis.com/auth/analytics";
+  /** Edit Google Analytics management entities. */
+  const ANALYTICS_EDIT =
+      "https://www.googleapis.com/auth/analytics.edit";
+  /** Manage Google Analytics Account users by email address. */
+  const ANALYTICS_MANAGE_USERS =
+      "https://www.googleapis.com/auth/analytics.manage.users";
+  /** View Google Analytics user permissions. */
+  const ANALYTICS_MANAGE_USERS_READONLY =
+      "https://www.googleapis.com/auth/analytics.manage.users.readonly";
+  /** Create a new Google Analytics account along with its default property and view. */
+  const ANALYTICS_PROVISION =
+      "https://www.googleapis.com/auth/analytics.provision";
+  /** View your Google Analytics data. */
+  const ANALYTICS_READONLY =
+      "https://www.googleapis.com/auth/analytics.readonly";
+  /** Manage Google Analytics user deletion requests. */
+  const ANALYTICS_USER_DELETION =
+      "https://www.googleapis.com/auth/analytics.user.deletion";
+
+  public $data_ga;
+  public $data_mcf;
+  public $data_realtime;
+  public $management_accountSummaries;
+  public $management_accountUserLinks;
+  public $management_accounts;
+  public $management_clientId;
+  public $management_customDataSources;
+  public $management_customDimensions;
+  public $management_customMetrics;
+  public $management_experiments;
+  public $management_filters;
+  public $management_goals;
+  public $management_profileFilterLinks;
+  public $management_profileUserLinks;
+  public $management_profiles;
+  public $management_remarketingAudience;
+  public $management_segments;
+  public $management_unsampledReports;
+  public $management_uploads;
+  public $management_webPropertyAdWordsLinks;
+  public $management_webproperties;
+  public $management_webpropertyUserLinks;
+  public $metadata_columns;
+  public $provisioning;
+  public $userDeletion_userDeletionRequest;
+
+  /**
+   * Constructs the internal representation of the Analytics service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://analytics.googleapis.com/';
+    $this->servicePath = 'analytics/v3/';
+    $this->batchPath = 'batch/analytics/v3';
+    $this->version = 'v3';
+    $this->serviceName = 'analytics';
+
+    $this->data_ga = new Analytics\Resource\DataGa(
+        $this,
+        $this->serviceName,
+        'ga',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'data/ga',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'ids' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'start-date' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'end-date' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'metrics' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'dimensions' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'filters' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'include-empty-rows' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'max-results' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'output' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'samplingLevel' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'segment' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sort' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'start-index' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->data_mcf = new Analytics\Resource\DataMcf(
+        $this,
+        $this->serviceName,
+        'mcf',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'data/mcf',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'ids' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'start-date' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'end-date' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'metrics' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'dimensions' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'filters' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'max-results' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'samplingLevel' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sort' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'start-index' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->data_realtime = new Analytics\Resource\DataRealtime(
+        $this,
+        $this->serviceName,
+        'realtime',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'data/realtime',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'ids' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'metrics' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'dimensions' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'filters' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'max-results' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'sort' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->management_accountSummaries = new Analytics\Resource\ManagementAccountSummaries(
+        $this,
+        $this->serviceName,
+        'accountSummaries',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'management/accountSummaries',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'max-results' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'start-index' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->management_accountUserLinks = new Analytics\Resource\ManagementAccountUserLinks(
+        $this,
+        $this->serviceName,
+        'accountUserLinks',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'management/accounts/{accountId}/entityUserLinks/{linkId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'linkId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'management/accounts/{accountId}/entityUserLinks',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'management/accounts/{accountId}/entityUserLinks',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'max-results' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'start-index' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'management/accounts/{accountId}/entityUserLinks/{linkId}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'linkId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->management_accounts = new Analytics\Resource\ManagementAccounts(
+        $this,
+        $this->serviceName,
+        'accounts',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'management/accounts',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'max-results' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'start-index' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->management_clientId = new Analytics\Resource\ManagementClientId(
+        $this,
+        $this->serviceName,
+        'clientId',
+        [
+          'methods' => [
+            'hashClientId' => [
+              'path' => 'management/clientId:hashClientId',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],
+          ]
+        ]
+    );
+    $this->management_customDataSources = new Analytics\Resource\ManagementCustomDataSources(
+        $this,
+        $this->serviceName,
+        'customDataSources',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/customDataSources',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'max-results' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'start-index' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->management_customDimensions = new Analytics\Resource\ManagementCustomDimensions(
+        $this,
+        $this->serviceName,
+        'customDimensions',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/customDimensions/{customDimensionId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'customDimensionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/customDimensions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/customDimensions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'max-results' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'start-index' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/customDimensions/{customDimensionId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'customDimensionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'ignoreCustomDataSourceLinks' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/customDimensions/{customDimensionId}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'customDimensionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'ignoreCustomDataSourceLinks' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->management_customMetrics = new Analytics\Resource\ManagementCustomMetrics(
+        $this,
+        $this->serviceName,
+        'customMetrics',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/customMetrics/{customMetricId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'customMetricId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/customMetrics',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/customMetrics',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'max-results' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'start-index' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/customMetrics/{customMetricId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'customMetricId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'ignoreCustomDataSourceLinks' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/customMetrics/{customMetricId}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'customMetricId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'ignoreCustomDataSourceLinks' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->management_experiments = new Analytics\Resource\ManagementExperiments(
+        $this,
+        $this->serviceName,
+        'experiments',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/profiles/{profileId}/experiments/{experimentId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'experimentId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/profiles/{profileId}/experiments/{experimentId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'experimentId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/profiles/{profileId}/experiments',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/profiles/{profileId}/experiments',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'max-results' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'start-index' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/profiles/{profileId}/experiments/{experimentId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'experimentId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/profiles/{profileId}/experiments/{experimentId}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'experimentId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->management_filters = new Analytics\Resource\ManagementFilters(
+        $this,
+        $this->serviceName,
+        'filters',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'management/accounts/{accountId}/filters/{filterId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filterId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'management/accounts/{accountId}/filters/{filterId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filterId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'management/accounts/{accountId}/filters',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'management/accounts/{accountId}/filters',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'max-results' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'start-index' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'management/accounts/{accountId}/filters/{filterId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filterId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'management/accounts/{accountId}/filters/{filterId}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filterId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->management_goals = new Analytics\Resource\ManagementGoals(
+        $this,
+        $this->serviceName,
+        'goals',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/profiles/{profileId}/goals/{goalId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'goalId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/profiles/{profileId}/goals',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/profiles/{profileId}/goals',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'max-results' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'start-index' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/profiles/{profileId}/goals/{goalId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'goalId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/profiles/{profileId}/goals/{goalId}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'goalId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->management_profileFilterLinks = new Analytics\Resource\ManagementProfileFilterLinks(
+        $this,
+        $this->serviceName,
+        'profileFilterLinks',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/profiles/{profileId}/profileFilterLinks/{linkId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'linkId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/profiles/{profileId}/profileFilterLinks/{linkId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'linkId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/profiles/{profileId}/profileFilterLinks',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/profiles/{profileId}/profileFilterLinks',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'max-results' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'start-index' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/profiles/{profileId}/profileFilterLinks/{linkId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'linkId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/profiles/{profileId}/profileFilterLinks/{linkId}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'linkId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->management_profileUserLinks = new Analytics\Resource\ManagementProfileUserLinks(
+        $this,
+        $this->serviceName,
+        'profileUserLinks',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/profiles/{profileId}/entityUserLinks/{linkId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'linkId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/profiles/{profileId}/entityUserLinks',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/profiles/{profileId}/entityUserLinks',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'max-results' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'start-index' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/profiles/{profileId}/entityUserLinks/{linkId}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'linkId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->management_profiles = new Analytics\Resource\ManagementProfiles(
+        $this,
+        $this->serviceName,
+        'profiles',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/profiles/{profileId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/profiles/{profileId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/profiles',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/profiles',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'max-results' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'start-index' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/profiles/{profileId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/profiles/{profileId}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->management_remarketingAudience = new Analytics\Resource\ManagementRemarketingAudience(
+        $this,
+        $this->serviceName,
+        'remarketingAudience',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/remarketingAudiences/{remarketingAudienceId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'remarketingAudienceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/remarketingAudiences/{remarketingAudienceId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'remarketingAudienceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/remarketingAudiences',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/remarketingAudiences',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'max-results' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'start-index' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'type' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/remarketingAudiences/{remarketingAudienceId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'remarketingAudienceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/remarketingAudiences/{remarketingAudienceId}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'remarketingAudienceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->management_segments = new Analytics\Resource\ManagementSegments(
+        $this,
+        $this->serviceName,
+        'segments',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'management/segments',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'max-results' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'start-index' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->management_unsampledReports = new Analytics\Resource\ManagementUnsampledReports(
+        $this,
+        $this->serviceName,
+        'unsampledReports',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/profiles/{profileId}/unsampledReports/{unsampledReportId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'unsampledReportId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/profiles/{profileId}/unsampledReports/{unsampledReportId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'unsampledReportId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/profiles/{profileId}/unsampledReports',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/profiles/{profileId}/unsampledReports',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'profileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'max-results' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'start-index' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->management_uploads = new Analytics\Resource\ManagementUploads(
+        $this,
+        $this->serviceName,
+        'uploads',
+        [
+          'methods' => [
+            'deleteUploadData' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/customDataSources/{customDataSourceId}/deleteUploadData',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'customDataSourceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/customDataSources/{customDataSourceId}/uploads/{uploadId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'customDataSourceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'uploadId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/customDataSources/{customDataSourceId}/uploads',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'customDataSourceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'max-results' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'start-index' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'uploadData' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/customDataSources/{customDataSourceId}/uploads',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'customDataSourceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->management_webPropertyAdWordsLinks = new Analytics\Resource\ManagementWebPropertyAdWordsLinks(
+        $this,
+        $this->serviceName,
+        'webPropertyAdWordsLinks',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/entityAdWordsLinks/{webPropertyAdWordsLinkId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyAdWordsLinkId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/entityAdWordsLinks/{webPropertyAdWordsLinkId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyAdWordsLinkId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/entityAdWordsLinks',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/entityAdWordsLinks',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'max-results' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'start-index' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/entityAdWordsLinks/{webPropertyAdWordsLinkId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyAdWordsLinkId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/entityAdWordsLinks/{webPropertyAdWordsLinkId}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyAdWordsLinkId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->management_webproperties = new Analytics\Resource\ManagementWebproperties(
+        $this,
+        $this->serviceName,
+        'webproperties',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'management/accounts/{accountId}/webproperties',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'management/accounts/{accountId}/webproperties',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'max-results' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'start-index' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->management_webpropertyUserLinks = new Analytics\Resource\ManagementWebpropertyUserLinks(
+        $this,
+        $this->serviceName,
+        'webpropertyUserLinks',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/entityUserLinks/{linkId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'linkId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/entityUserLinks',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/entityUserLinks',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'max-results' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'start-index' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'management/accounts/{accountId}/webproperties/{webPropertyId}/entityUserLinks/{linkId}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'webPropertyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'linkId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->metadata_columns = new Analytics\Resource\MetadataColumns(
+        $this,
+        $this->serviceName,
+        'columns',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'metadata/{reportType}/columns',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'reportType' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->provisioning = new Analytics\Resource\Provisioning(
+        $this,
+        $this->serviceName,
+        'provisioning',
+        [
+          'methods' => [
+            'createAccountTicket' => [
+              'path' => 'provisioning/createAccountTicket',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'createAccountTree' => [
+              'path' => 'provisioning/createAccountTree',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],
+          ]
+        ]
+    );
+    $this->userDeletion_userDeletionRequest = new Analytics\Resource\UserDeletionUserDeletionRequest(
+        $this,
+        $this->serviceName,
+        'userDeletionRequest',
+        [
+          'methods' => [
+            'upsert' => [
+              'path' => 'userDeletion/userDeletionRequests:upsert',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Analytics::class, 'Google_Service_Analytics');

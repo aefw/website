@@ -1,68 +1,119 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Apigee\Resource;
+
+use Google\Service\Apigee\GoogleCloudApigeeV1EnvironmentGroup;
+use Google\Service\Apigee\GoogleCloudApigeeV1ListEnvironmentGroupsResponse;
+use Google\Service\Apigee\GoogleLongrunningOperation;
+
+/**
+ * The "envgroups" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $apigeeService = new Google\Service\Apigee(...);
+ *   $envgroups = $apigeeService->envgroups;
+ *  </code>
+ */
+class OrganizationsEnvgroups extends \Google\Service\Resource
+{
+  /**
+   * Creates a new environment group. (envgroups.create)
+   *
+   * @param string $parent Required. Name of the organization in which to create
+   * the environment group in the following format: `organizations/{org}`.
+   * @param GoogleCloudApigeeV1EnvironmentGroup $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string name ID of the environment group. Overrides any ID in the
+   * environment_group resource.
+   * @return GoogleLongrunningOperation
+   */
+  public function create($parent, GoogleCloudApigeeV1EnvironmentGroup $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Deletes an environment group. (envgroups.delete)
+   *
+   * @param string $name Required. Name of the environment group in the following
+   * format: `organizations/{org}/envgroups/{envgroup}`.
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Gets an environment group. (envgroups.get)
+   *
+   * @param string $name Required. Name of the environment group in the following
+   * format: `organizations/{org}/envgroups/{envgroup}`.
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1EnvironmentGroup
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudApigeeV1EnvironmentGroup::class);
+  }
+  /**
+   * Lists all environment groups. (envgroups.listOrganizationsEnvgroups)
+   *
+   * @param string $parent Required. Name of the organization for which to list
+   * environment groups in the following format: `organizations/{org}`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Maximum number of environment groups to return. The
+   * page size defaults to 25.
+   * @opt_param string pageToken Page token, returned from a previous
+   * ListEnvironmentGroups call, that you can use to retrieve the next page.
+   * @return GoogleCloudApigeeV1ListEnvironmentGroupsResponse
+   */
+  public function listOrganizationsEnvgroups($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleCloudApigeeV1ListEnvironmentGroupsResponse::class);
+  }
+  /**
+   * Updates an environment group. (envgroups.patch)
+   *
+   * @param string $name Required. Name of the environment group to update in the
+   * format: `organizations/{org}/envgroups/{envgroup}.
+   * @param GoogleCloudApigeeV1EnvironmentGroup $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask List of fields to be updated.
+   * @return GoogleLongrunningOperation
+   */
+  public function patch($name, GoogleCloudApigeeV1EnvironmentGroup $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], GoogleLongrunningOperation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(OrganizationsEnvgroups::class, 'Google_Service_Apigee_Resource_OrganizationsEnvgroups');

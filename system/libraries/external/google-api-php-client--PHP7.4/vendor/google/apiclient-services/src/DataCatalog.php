@@ -1,98 +1,856 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-3A6uDwAk+v3E/+CilyY7f6YbT3S=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for DataCatalog (v1beta1).
+ *
+ * <p>
+ * A fully managed and highly scalable data discovery and metadata management
+ * service.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/data-catalog/docs/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class DataCatalog extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+
+  public $catalog;
+  public $entries;
+  public $projects_locations_entryGroups;
+  public $projects_locations_entryGroups_entries;
+  public $projects_locations_entryGroups_entries_tags;
+  public $projects_locations_entryGroups_tags;
+  public $projects_locations_tagTemplates;
+  public $projects_locations_tagTemplates_fields;
+  public $projects_locations_tagTemplates_fields_enumValues;
+  public $projects_locations_taxonomies;
+  public $projects_locations_taxonomies_policyTags;
+
+  /**
+   * Constructs the internal representation of the DataCatalog service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://datacatalog.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1beta1';
+    $this->serviceName = 'datacatalog';
+
+    $this->catalog = new DataCatalog\Resource\Catalog(
+        $this,
+        $this->serviceName,
+        'catalog',
+        [
+          'methods' => [
+            'search' => [
+              'path' => 'v1beta1/catalog:search',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],
+          ]
+        ]
+    );
+    $this->entries = new DataCatalog\Resource\Entries(
+        $this,
+        $this->serviceName,
+        'entries',
+        [
+          'methods' => [
+            'lookup' => [
+              'path' => 'v1beta1/entries:lookup',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'linkedResource' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sqlResource' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_entryGroups = new DataCatalog\Resource\ProjectsLocationsEntryGroups(
+        $this,
+        $this->serviceName,
+        'entryGroups',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1beta1/{+parent}/entryGroups',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'entryGroupId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'force' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'readMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1beta1/{+resource}:getIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1beta1/{+parent}/entryGroups',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1beta1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1beta1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_entryGroups_entries = new DataCatalog\Resource\ProjectsLocationsEntryGroupsEntries(
+        $this,
+        $this->serviceName,
+        'entries',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1beta1/{+parent}/entries',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'entryId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1beta1/{+resource}:getIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1beta1/{+parent}/entries',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'readMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1beta1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_entryGroups_entries_tags = new DataCatalog\Resource\ProjectsLocationsEntryGroupsEntriesTags(
+        $this,
+        $this->serviceName,
+        'tags',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1beta1/{+parent}/tags',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1beta1/{+parent}/tags',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_entryGroups_tags = new DataCatalog\Resource\ProjectsLocationsEntryGroupsTags(
+        $this,
+        $this->serviceName,
+        'tags',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1beta1/{+parent}/tags',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1beta1/{+parent}/tags',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_tagTemplates = new DataCatalog\Resource\ProjectsLocationsTagTemplates(
+        $this,
+        $this->serviceName,
+        'tagTemplates',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1beta1/{+parent}/tagTemplates',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'tagTemplateId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'force' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1beta1/{+resource}:getIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1beta1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1beta1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_tagTemplates_fields = new DataCatalog\Resource\ProjectsLocationsTagTemplatesFields(
+        $this,
+        $this->serviceName,
+        'fields',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1beta1/{+parent}/fields',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'tagTemplateFieldId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'force' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'rename' => [
+              'path' => 'v1beta1/{+name}:rename',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_tagTemplates_fields_enumValues = new DataCatalog\Resource\ProjectsLocationsTagTemplatesFieldsEnumValues(
+        $this,
+        $this->serviceName,
+        'enumValues',
+        [
+          'methods' => [
+            'rename' => [
+              'path' => 'v1beta1/{+name}:rename',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_taxonomies = new DataCatalog\Resource\ProjectsLocationsTaxonomies(
+        $this,
+        $this->serviceName,
+        'taxonomies',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1beta1/{+parent}/taxonomies',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'export' => [
+              'path' => 'v1beta1/{+parent}/taxonomies:export',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'serializedTaxonomies' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'taxonomies' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1beta1/{+resource}:getIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'import' => [
+              'path' => 'v1beta1/{+parent}/taxonomies:import',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1beta1/{+parent}/taxonomies',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1beta1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1beta1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_taxonomies_policyTags = new DataCatalog\Resource\ProjectsLocationsTaxonomiesPolicyTags(
+        $this,
+        $this->serviceName,
+        'policyTags',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1beta1/{+parent}/policyTags',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1beta1/{+resource}:getIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1beta1/{+parent}/policyTags',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1beta1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1beta1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(DataCatalog::class, 'Google_Service_DataCatalog');

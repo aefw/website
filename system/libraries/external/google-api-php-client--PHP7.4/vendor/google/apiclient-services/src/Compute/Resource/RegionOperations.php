@@ -1,63 +1,150 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute\Resource;
+
+use Google\Service\Compute\Operation;
+use Google\Service\Compute\OperationList;
+
+/**
+ * The "regionOperations" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $computeService = new Google\Service\Compute(...);
+ *   $regionOperations = $computeService->regionOperations;
+ *  </code>
+ */
+class RegionOperations extends \Google\Service\Resource
+{
+  /**
+   * Deletes the specified region-specific Operations resource.
+   * (regionOperations.delete)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region for this request.
+   * @param string $operation Name of the Operations resource to delete.
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($project, $region, $operation, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'operation' => $operation];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Retrieves the specified region-specific Operations resource.
+   * (regionOperations.get)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region for this request.
+   * @param string $operation Name of the Operations resource to return.
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function get($project, $region, $operation, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'operation' => $operation];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Operation::class);
+  }
+  /**
+   * Retrieves a list of Operation resources contained within the specified
+   * region. (regionOperations.listRegionOperations)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return OperationList
+   */
+  public function listRegionOperations($project, $region, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], OperationList::class);
+  }
+  /**
+   * Waits for the specified Operation resource to return as `DONE` or for the
+   * request to approach the 2 minute deadline, and retrieves the specified
+   * Operation resource. This method differs from the `GET` method in that it
+   * waits for no more than the default deadline (2 minutes) and then returns the
+   * current state of the operation, which might be `DONE` or still in progress.
+   *
+   * This method is called on a best-effort basis. Specifically:   - In uncommon
+   * cases, when the server is overloaded, the request might return before the
+   * default deadline is reached, or might return after zero seconds.  - If the
+   * default deadline is reached, there is no guarantee that the operation is
+   * actually done when the method returns. Be prepared to retry if the operation
+   * is not `DONE`. (regionOperations.wait)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region for this request.
+   * @param string $operation Name of the Operations resource to return.
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function wait($project, $region, $operation, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'operation' => $operation];
+    $params = array_merge($params, $optParams);
+    return $this->call('wait', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(RegionOperations::class, 'Google_Service_Compute_Resource_RegionOperations');

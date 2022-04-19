@@ -1,67 +1,102 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-K9PEVTPZ8UHpM01nnd0zPvAk8MnlvwkKelD02TS=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AndroidProvisioningPartner;
+
+class Device extends \Google\Collection
+{
+  protected $collection_key = 'claims';
+  protected $claimsType = DeviceClaim::class;
+  protected $claimsDataType = 'array';
+  public $configuration;
+  public $deviceId;
+  protected $deviceIdentifierType = DeviceIdentifier::class;
+  protected $deviceIdentifierDataType = '';
+  protected $deviceMetadataType = DeviceMetadata::class;
+  protected $deviceMetadataDataType = '';
+  public $name;
+
+  /**
+   * @param DeviceClaim[]
+   */
+  public function setClaims($claims)
+  {
+    $this->claims = $claims;
+  }
+  /**
+   * @return DeviceClaim[]
+   */
+  public function getClaims()
+  {
+    return $this->claims;
+  }
+  public function setConfiguration($configuration)
+  {
+    $this->configuration = $configuration;
+  }
+  public function getConfiguration()
+  {
+    return $this->configuration;
+  }
+  public function setDeviceId($deviceId)
+  {
+    $this->deviceId = $deviceId;
+  }
+  public function getDeviceId()
+  {
+    return $this->deviceId;
+  }
+  /**
+   * @param DeviceIdentifier
+   */
+  public function setDeviceIdentifier(DeviceIdentifier $deviceIdentifier)
+  {
+    $this->deviceIdentifier = $deviceIdentifier;
+  }
+  /**
+   * @return DeviceIdentifier
+   */
+  public function getDeviceIdentifier()
+  {
+    return $this->deviceIdentifier;
+  }
+  /**
+   * @param DeviceMetadata
+   */
+  public function setDeviceMetadata(DeviceMetadata $deviceMetadata)
+  {
+    $this->deviceMetadata = $deviceMetadata;
+  }
+  /**
+   * @return DeviceMetadata
+   */
+  public function getDeviceMetadata()
+  {
+    return $this->deviceMetadata;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Device::class, 'Google_Service_AndroidProvisioningPartner_Device');

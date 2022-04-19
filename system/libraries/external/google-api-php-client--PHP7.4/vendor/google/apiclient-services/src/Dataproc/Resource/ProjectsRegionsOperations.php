@@ -1,75 +1,175 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dataproc\Resource;
+
+use Google\Service\Dataproc\DataprocEmpty;
+use Google\Service\Dataproc\GetIamPolicyRequest;
+use Google\Service\Dataproc\ListOperationsResponse;
+use Google\Service\Dataproc\Operation;
+use Google\Service\Dataproc\Policy;
+use Google\Service\Dataproc\SetIamPolicyRequest;
+use Google\Service\Dataproc\TestIamPermissionsRequest;
+use Google\Service\Dataproc\TestIamPermissionsResponse;
+
+/**
+ * The "operations" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $dataprocService = new Google\Service\Dataproc(...);
+ *   $operations = $dataprocService->operations;
+ *  </code>
+ */
+class ProjectsRegionsOperations extends \Google\Service\Resource
+{
+  /**
+   * Starts asynchronous cancellation on a long-running operation. The server
+   * makes a best effort to cancel the operation, but success is not guaranteed.
+   * If the server doesn't support this method, it returns
+   * google.rpc.Code.UNIMPLEMENTED. Clients can use Operations.GetOperation or
+   * other methods to check whether the cancellation succeeded or whether the
+   * operation completed despite cancellation. On successful cancellation, the
+   * operation is not deleted; instead, it becomes an operation with an
+   * Operation.error value with a google.rpc.Status.code of 1, corresponding to
+   * Code.CANCELLED. (operations.cancel)
+   *
+   * @param string $name The name of the operation resource to be cancelled.
+   * @param array $optParams Optional parameters.
+   * @return DataprocEmpty
+   */
+  public function cancel($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('cancel', [$params], DataprocEmpty::class);
+  }
+  /**
+   * Deletes a long-running operation. This method indicates that the client is no
+   * longer interested in the operation result. It does not cancel the operation.
+   * If the server doesn't support this method, it returns
+   * google.rpc.Code.UNIMPLEMENTED. (operations.delete)
+   *
+   * @param string $name The name of the operation resource to be deleted.
+   * @param array $optParams Optional parameters.
+   * @return DataprocEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], DataprocEmpty::class);
+  }
+  /**
+   * Gets the latest state of a long-running operation. Clients can use this
+   * method to poll the operation result at intervals as recommended by the API
+   * service. (operations.get)
+   *
+   * @param string $name The name of the operation resource.
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Operation::class);
+  }
+  /**
+   * Gets the access control policy for a resource. Returns an empty policy if the
+   * resource exists and does not have a policy set. (operations.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param GetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function getIamPolicy($resource, GetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Lists operations that match the specified filter in the request. If the
+   * server doesn't support this method, it returns UNIMPLEMENTED.NOTE: the name
+   * binding allows API services to override the binding to use different resource
+   * name schemes, such as users/operations. To override the binding, API services
+   * can add a binding such as "/v1/{name=users}/operations" to their service
+   * configuration. For backwards compatibility, the default name includes the
+   * operations collection id, however overriding users must ensure the name
+   * binding is the parent resource, without the operations collection id.
+   * (operations.listProjectsRegionsOperations)
+   *
+   * @param string $name The name of the operation's parent resource.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter The standard list filter.
+   * @opt_param int pageSize The standard list page size.
+   * @opt_param string pageToken The standard list page token.
+   * @return ListOperationsResponse
+   */
+  public function listProjectsRegionsOperations($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListOperationsResponse::class);
+  }
+  /**
+   * Sets the access control policy on the specified resource. Replaces any
+   * existing policy.Can return NOT_FOUND, INVALID_ARGUMENT, and PERMISSION_DENIED
+   * errors. (operations.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource. If the
+   * resource does not exist, this will return an empty set of permissions, not a
+   * NOT_FOUND error.Note: This operation is designed to be used for building
+   * permission-aware UIs and command-line tools, not for authorization checking.
+   * This operation may "fail open" without warning.
+   * (operations.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsRegionsOperations::class, 'Google_Service_Dataproc_Resource_ProjectsRegionsOperations');

@@ -1,108 +1,211 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-0/W9AfQwFGwIyhF0FYDxMjn6f+E1YBYugX5R
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Assuredworkloads;
+
+class GoogleCloudAssuredworkloadsV1beta1Workload extends \Google\Collection
+{
+  protected $collection_key = 'resources';
+  public $billingAccount;
+  protected $cjisSettingsType = GoogleCloudAssuredworkloadsV1beta1WorkloadCJISSettings::class;
+  protected $cjisSettingsDataType = '';
+  public $complianceRegime;
+  public $createTime;
+  public $displayName;
+  public $etag;
+  protected $fedrampHighSettingsType = GoogleCloudAssuredworkloadsV1beta1WorkloadFedrampHighSettings::class;
+  protected $fedrampHighSettingsDataType = '';
+  protected $fedrampModerateSettingsType = GoogleCloudAssuredworkloadsV1beta1WorkloadFedrampModerateSettings::class;
+  protected $fedrampModerateSettingsDataType = '';
+  protected $il4SettingsType = GoogleCloudAssuredworkloadsV1beta1WorkloadIL4Settings::class;
+  protected $il4SettingsDataType = '';
+  protected $kmsSettingsType = GoogleCloudAssuredworkloadsV1beta1WorkloadKMSSettings::class;
+  protected $kmsSettingsDataType = '';
+  public $labels;
+  public $name;
+  public $provisionedResourcesParent;
+  protected $resourceSettingsType = GoogleCloudAssuredworkloadsV1beta1WorkloadResourceSettings::class;
+  protected $resourceSettingsDataType = 'array';
+  protected $resourcesType = GoogleCloudAssuredworkloadsV1beta1WorkloadResourceInfo::class;
+  protected $resourcesDataType = 'array';
+
+  public function setBillingAccount($billingAccount)
+  {
+    $this->billingAccount = $billingAccount;
+  }
+  public function getBillingAccount()
+  {
+    return $this->billingAccount;
+  }
+  /**
+   * @param GoogleCloudAssuredworkloadsV1beta1WorkloadCJISSettings
+   */
+  public function setCjisSettings(GoogleCloudAssuredworkloadsV1beta1WorkloadCJISSettings $cjisSettings)
+  {
+    $this->cjisSettings = $cjisSettings;
+  }
+  /**
+   * @return GoogleCloudAssuredworkloadsV1beta1WorkloadCJISSettings
+   */
+  public function getCjisSettings()
+  {
+    return $this->cjisSettings;
+  }
+  public function setComplianceRegime($complianceRegime)
+  {
+    $this->complianceRegime = $complianceRegime;
+  }
+  public function getComplianceRegime()
+  {
+    return $this->complianceRegime;
+  }
+  public function setCreateTime($createTime)
+  {
+    $this->createTime = $createTime;
+  }
+  public function getCreateTime()
+  {
+    return $this->createTime;
+  }
+  public function setDisplayName($displayName)
+  {
+    $this->displayName = $displayName;
+  }
+  public function getDisplayName()
+  {
+    return $this->displayName;
+  }
+  public function setEtag($etag)
+  {
+    $this->etag = $etag;
+  }
+  public function getEtag()
+  {
+    return $this->etag;
+  }
+  /**
+   * @param GoogleCloudAssuredworkloadsV1beta1WorkloadFedrampHighSettings
+   */
+  public function setFedrampHighSettings(GoogleCloudAssuredworkloadsV1beta1WorkloadFedrampHighSettings $fedrampHighSettings)
+  {
+    $this->fedrampHighSettings = $fedrampHighSettings;
+  }
+  /**
+   * @return GoogleCloudAssuredworkloadsV1beta1WorkloadFedrampHighSettings
+   */
+  public function getFedrampHighSettings()
+  {
+    return $this->fedrampHighSettings;
+  }
+  /**
+   * @param GoogleCloudAssuredworkloadsV1beta1WorkloadFedrampModerateSettings
+   */
+  public function setFedrampModerateSettings(GoogleCloudAssuredworkloadsV1beta1WorkloadFedrampModerateSettings $fedrampModerateSettings)
+  {
+    $this->fedrampModerateSettings = $fedrampModerateSettings;
+  }
+  /**
+   * @return GoogleCloudAssuredworkloadsV1beta1WorkloadFedrampModerateSettings
+   */
+  public function getFedrampModerateSettings()
+  {
+    return $this->fedrampModerateSettings;
+  }
+  /**
+   * @param GoogleCloudAssuredworkloadsV1beta1WorkloadIL4Settings
+   */
+  public function setIl4Settings(GoogleCloudAssuredworkloadsV1beta1WorkloadIL4Settings $il4Settings)
+  {
+    $this->il4Settings = $il4Settings;
+  }
+  /**
+   * @return GoogleCloudAssuredworkloadsV1beta1WorkloadIL4Settings
+   */
+  public function getIl4Settings()
+  {
+    return $this->il4Settings;
+  }
+  /**
+   * @param GoogleCloudAssuredworkloadsV1beta1WorkloadKMSSettings
+   */
+  public function setKmsSettings(GoogleCloudAssuredworkloadsV1beta1WorkloadKMSSettings $kmsSettings)
+  {
+    $this->kmsSettings = $kmsSettings;
+  }
+  /**
+   * @return GoogleCloudAssuredworkloadsV1beta1WorkloadKMSSettings
+   */
+  public function getKmsSettings()
+  {
+    return $this->kmsSettings;
+  }
+  public function setLabels($labels)
+  {
+    $this->labels = $labels;
+  }
+  public function getLabels()
+  {
+    return $this->labels;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setProvisionedResourcesParent($provisionedResourcesParent)
+  {
+    $this->provisionedResourcesParent = $provisionedResourcesParent;
+  }
+  public function getProvisionedResourcesParent()
+  {
+    return $this->provisionedResourcesParent;
+  }
+  /**
+   * @param GoogleCloudAssuredworkloadsV1beta1WorkloadResourceSettings[]
+   */
+  public function setResourceSettings($resourceSettings)
+  {
+    $this->resourceSettings = $resourceSettings;
+  }
+  /**
+   * @return GoogleCloudAssuredworkloadsV1beta1WorkloadResourceSettings[]
+   */
+  public function getResourceSettings()
+  {
+    return $this->resourceSettings;
+  }
+  /**
+   * @param GoogleCloudAssuredworkloadsV1beta1WorkloadResourceInfo[]
+   */
+  public function setResources($resources)
+  {
+    $this->resources = $resources;
+  }
+  /**
+   * @return GoogleCloudAssuredworkloadsV1beta1WorkloadResourceInfo[]
+   */
+  public function getResources()
+  {
+    return $this->resources;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudAssuredworkloadsV1beta1Workload::class, 'Google_Service_Assuredworkloads_GoogleCloudAssuredworkloadsV1beta1Workload');

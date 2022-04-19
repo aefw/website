@@ -1,70 +1,107 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AndroidEnterprise\Resource;
+
+use Google\Service\AndroidEnterprise\ManagedConfiguration;
+use Google\Service\AndroidEnterprise\ManagedConfigurationsForUserListResponse;
+
+/**
+ * The "managedconfigurationsforuser" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $androidenterpriseService = new Google\Service\AndroidEnterprise(...);
+ *   $managedconfigurationsforuser = $androidenterpriseService->managedconfigurationsforuser;
+ *  </code>
+ */
+class Managedconfigurationsforuser extends \Google\Service\Resource
+{
+  /**
+   * Removes a per-user managed configuration for an app for the specified user.
+   * (managedconfigurationsforuser.delete)
+   *
+   * @param string $enterpriseId The ID of the enterprise.
+   * @param string $userId The ID of the user.
+   * @param string $managedConfigurationForUserId The ID of the managed
+   * configuration (a product ID), e.g. "app:com.google.android.gm".
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($enterpriseId, $userId, $managedConfigurationForUserId, $optParams = [])
+  {
+    $params = ['enterpriseId' => $enterpriseId, 'userId' => $userId, 'managedConfigurationForUserId' => $managedConfigurationForUserId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Retrieves details of a per-user managed configuration for an app for the
+   * specified user. (managedconfigurationsforuser.get)
+   *
+   * @param string $enterpriseId The ID of the enterprise.
+   * @param string $userId The ID of the user.
+   * @param string $managedConfigurationForUserId The ID of the managed
+   * configuration (a product ID), e.g. "app:com.google.android.gm".
+   * @param array $optParams Optional parameters.
+   * @return ManagedConfiguration
+   */
+  public function get($enterpriseId, $userId, $managedConfigurationForUserId, $optParams = [])
+  {
+    $params = ['enterpriseId' => $enterpriseId, 'userId' => $userId, 'managedConfigurationForUserId' => $managedConfigurationForUserId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], ManagedConfiguration::class);
+  }
+  /**
+   * Lists all the per-user managed configurations for the specified user. Only
+   * the ID is set.
+   * (managedconfigurationsforuser.listManagedconfigurationsforuser)
+   *
+   * @param string $enterpriseId The ID of the enterprise.
+   * @param string $userId The ID of the user.
+   * @param array $optParams Optional parameters.
+   * @return ManagedConfigurationsForUserListResponse
+   */
+  public function listManagedconfigurationsforuser($enterpriseId, $userId, $optParams = [])
+  {
+    $params = ['enterpriseId' => $enterpriseId, 'userId' => $userId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ManagedConfigurationsForUserListResponse::class);
+  }
+  /**
+   * Adds or updates the managed configuration settings for an app for the
+   * specified user. If you support the Managed configurations iframe, you can
+   * apply managed configurations to a user by specifying an mcmId and its
+   * associated configuration variables (if any) in the request. Alternatively,
+   * all EMMs can apply managed configurations by passing a list of managed
+   * properties. (managedconfigurationsforuser.update)
+   *
+   * @param string $enterpriseId The ID of the enterprise.
+   * @param string $userId The ID of the user.
+   * @param string $managedConfigurationForUserId The ID of the managed
+   * configuration (a product ID), e.g. "app:com.google.android.gm".
+   * @param ManagedConfiguration $postBody
+   * @param array $optParams Optional parameters.
+   * @return ManagedConfiguration
+   */
+  public function update($enterpriseId, $userId, $managedConfigurationForUserId, ManagedConfiguration $postBody, $optParams = [])
+  {
+    $params = ['enterpriseId' => $enterpriseId, 'userId' => $userId, 'managedConfigurationForUserId' => $managedConfigurationForUserId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], ManagedConfiguration::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Managedconfigurationsforuser::class, 'Google_Service_AndroidEnterprise_Resource_Managedconfigurationsforuser');

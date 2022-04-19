@@ -1,75 +1,133 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-czAE9bqD756+gYZdgaO9RvQrphLhy0WMeHeldhC=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Sheets;
+
+class ScorecardChartSpec extends \Google\Model
+{
+  public $aggregateType;
+  protected $baselineValueDataType = ChartData::class;
+  protected $baselineValueDataDataType = '';
+  protected $baselineValueFormatType = BaselineValueFormat::class;
+  protected $baselineValueFormatDataType = '';
+  protected $customFormatOptionsType = ChartCustomNumberFormatOptions::class;
+  protected $customFormatOptionsDataType = '';
+  protected $keyValueDataType = ChartData::class;
+  protected $keyValueDataDataType = '';
+  protected $keyValueFormatType = KeyValueFormat::class;
+  protected $keyValueFormatDataType = '';
+  public $numberFormatSource;
+  public $scaleFactor;
+
+  public function setAggregateType($aggregateType)
+  {
+    $this->aggregateType = $aggregateType;
+  }
+  public function getAggregateType()
+  {
+    return $this->aggregateType;
+  }
+  /**
+   * @param ChartData
+   */
+  public function setBaselineValueData(ChartData $baselineValueData)
+  {
+    $this->baselineValueData = $baselineValueData;
+  }
+  /**
+   * @return ChartData
+   */
+  public function getBaselineValueData()
+  {
+    return $this->baselineValueData;
+  }
+  /**
+   * @param BaselineValueFormat
+   */
+  public function setBaselineValueFormat(BaselineValueFormat $baselineValueFormat)
+  {
+    $this->baselineValueFormat = $baselineValueFormat;
+  }
+  /**
+   * @return BaselineValueFormat
+   */
+  public function getBaselineValueFormat()
+  {
+    return $this->baselineValueFormat;
+  }
+  /**
+   * @param ChartCustomNumberFormatOptions
+   */
+  public function setCustomFormatOptions(ChartCustomNumberFormatOptions $customFormatOptions)
+  {
+    $this->customFormatOptions = $customFormatOptions;
+  }
+  /**
+   * @return ChartCustomNumberFormatOptions
+   */
+  public function getCustomFormatOptions()
+  {
+    return $this->customFormatOptions;
+  }
+  /**
+   * @param ChartData
+   */
+  public function setKeyValueData(ChartData $keyValueData)
+  {
+    $this->keyValueData = $keyValueData;
+  }
+  /**
+   * @return ChartData
+   */
+  public function getKeyValueData()
+  {
+    return $this->keyValueData;
+  }
+  /**
+   * @param KeyValueFormat
+   */
+  public function setKeyValueFormat(KeyValueFormat $keyValueFormat)
+  {
+    $this->keyValueFormat = $keyValueFormat;
+  }
+  /**
+   * @return KeyValueFormat
+   */
+  public function getKeyValueFormat()
+  {
+    return $this->keyValueFormat;
+  }
+  public function setNumberFormatSource($numberFormatSource)
+  {
+    $this->numberFormatSource = $numberFormatSource;
+  }
+  public function getNumberFormatSource()
+  {
+    return $this->numberFormatSource;
+  }
+  public function setScaleFactor($scaleFactor)
+  {
+    $this->scaleFactor = $scaleFactor;
+  }
+  public function getScaleFactor()
+  {
+    return $this->scaleFactor;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ScorecardChartSpec::class, 'Google_Service_Sheets_ScorecardChartSpec');

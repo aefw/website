@@ -1,79 +1,172 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-k0zvt7W4JUDGcOLshlbGR6tc8z97jKANvFW=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DataLabeling\Resource;
+
+use Google\Service\DataLabeling\GoogleCloudDatalabelingV1beta1CreateEvaluationJobRequest;
+use Google\Service\DataLabeling\GoogleCloudDatalabelingV1beta1EvaluationJob;
+use Google\Service\DataLabeling\GoogleCloudDatalabelingV1beta1ListEvaluationJobsResponse;
+use Google\Service\DataLabeling\GoogleCloudDatalabelingV1beta1PauseEvaluationJobRequest;
+use Google\Service\DataLabeling\GoogleCloudDatalabelingV1beta1ResumeEvaluationJobRequest;
+use Google\Service\DataLabeling\GoogleProtobufEmpty;
+
+/**
+ * The "evaluationJobs" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $datalabelingService = new Google\Service\DataLabeling(...);
+ *   $evaluationJobs = $datalabelingService->evaluationJobs;
+ *  </code>
+ */
+class ProjectsEvaluationJobs extends \Google\Service\Resource
+{
+  /**
+   * Creates an evaluation job. (evaluationJobs.create)
+   *
+   * @param string $parent Required. Evaluation job resource parent. Format:
+   * "projects/{project_id}"
+   * @param GoogleCloudDatalabelingV1beta1CreateEvaluationJobRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudDatalabelingV1beta1EvaluationJob
+   */
+  public function create($parent, GoogleCloudDatalabelingV1beta1CreateEvaluationJobRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleCloudDatalabelingV1beta1EvaluationJob::class);
+  }
+  /**
+   * Stops and deletes an evaluation job. (evaluationJobs.delete)
+   *
+   * @param string $name Required. Name of the evaluation job that is going to be
+   * deleted. Format: "projects/{project_id}/evaluationJobs/{evaluation_job_id}"
+   * @param array $optParams Optional parameters.
+   * @return GoogleProtobufEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
+  }
+  /**
+   * Gets an evaluation job by resource name. (evaluationJobs.get)
+   *
+   * @param string $name Required. Name of the evaluation job. Format:
+   * "projects/{project_id} /evaluationJobs/{evaluation_job_id}"
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudDatalabelingV1beta1EvaluationJob
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudDatalabelingV1beta1EvaluationJob::class);
+  }
+  /**
+   * Lists all evaluation jobs within a project with possible filters. Pagination
+   * is supported. (evaluationJobs.listProjectsEvaluationJobs)
+   *
+   * @param string $parent Required. Evaluation job resource parent. Format:
+   * "projects/{project_id}"
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Optional. You can filter the jobs to list by
+   * model_id (also known as model_name, as described in
+   * EvaluationJob.modelVersion) or by evaluation job state (as described in
+   * EvaluationJob.state). To filter by both criteria, use the `AND` operator or
+   * the `OR` operator. For example, you can use the following string for your
+   * filter: "evaluation_job.model_id = {model_name} AND evaluation_job.state =
+   * {evaluation_job_state}"
+   * @opt_param int pageSize Optional. Requested page size. Server may return
+   * fewer results than requested. Default value is 100.
+   * @opt_param string pageToken Optional. A token identifying a page of results
+   * for the server to return. Typically obtained by the nextPageToken in the
+   * response to the previous request. The request returns the first page if this
+   * is empty.
+   * @return GoogleCloudDatalabelingV1beta1ListEvaluationJobsResponse
+   */
+  public function listProjectsEvaluationJobs($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleCloudDatalabelingV1beta1ListEvaluationJobsResponse::class);
+  }
+  /**
+   * Updates an evaluation job. You can only update certain fields of the job's
+   * EvaluationJobConfig: `humanAnnotationConfig.instruction`, `exampleCount`, and
+   * `exampleSamplePercentage`. If you want to change any other aspect of the
+   * evaluation job, you must delete the job and create a new one.
+   * (evaluationJobs.patch)
+   *
+   * @param string $name Output only. After you create a job, Data Labeling
+   * Service assigns a name to the job with the following format:
+   * "projects/{project_id}/evaluationJobs/ {evaluation_job_id}"
+   * @param GoogleCloudDatalabelingV1beta1EvaluationJob $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Optional. Mask for which fields to update. You
+   * can only provide the following fields: *
+   * `evaluationJobConfig.humanAnnotationConfig.instruction` *
+   * `evaluationJobConfig.exampleCount` *
+   * `evaluationJobConfig.exampleSamplePercentage` You can provide more than one
+   * of these fields by separating them with commas.
+   * @return GoogleCloudDatalabelingV1beta1EvaluationJob
+   */
+  public function patch($name, GoogleCloudDatalabelingV1beta1EvaluationJob $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], GoogleCloudDatalabelingV1beta1EvaluationJob::class);
+  }
+  /**
+   * Pauses an evaluation job. Pausing an evaluation job that is already in a
+   * `PAUSED` state is a no-op. (evaluationJobs.pause)
+   *
+   * @param string $name Required. Name of the evaluation job that is going to be
+   * paused. Format: "projects/{project_id}/evaluationJobs/{evaluation_job_id}"
+   * @param GoogleCloudDatalabelingV1beta1PauseEvaluationJobRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleProtobufEmpty
+   */
+  public function pause($name, GoogleCloudDatalabelingV1beta1PauseEvaluationJobRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('pause', [$params], GoogleProtobufEmpty::class);
+  }
+  /**
+   * Resumes a paused evaluation job. A deleted evaluation job can't be resumed.
+   * Resuming a running or scheduled evaluation job is a no-op.
+   * (evaluationJobs.resume)
+   *
+   * @param string $name Required. Name of the evaluation job that is going to be
+   * resumed. Format: "projects/{project_id}/evaluationJobs/{evaluation_job_id}"
+   * @param GoogleCloudDatalabelingV1beta1ResumeEvaluationJobRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleProtobufEmpty
+   */
+  public function resume($name, GoogleCloudDatalabelingV1beta1ResumeEvaluationJobRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('resume', [$params], GoogleProtobufEmpty::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsEvaluationJobs::class, 'Google_Service_DataLabeling_Resource_ProjectsEvaluationJobs');

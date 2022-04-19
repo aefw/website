@@ -1,67 +1,94 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-/9ecxA4O03kmmI+jGW==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudTalentSolution;
+
+class CommuteFilter extends \Google\Model
+{
+  public $allowImpreciseAddresses;
+  public $commuteMethod;
+  protected $departureTimeType = TimeOfDay::class;
+  protected $departureTimeDataType = '';
+  public $roadTraffic;
+  protected $startCoordinatesType = LatLng::class;
+  protected $startCoordinatesDataType = '';
+  public $travelDuration;
+
+  public function setAllowImpreciseAddresses($allowImpreciseAddresses)
+  {
+    $this->allowImpreciseAddresses = $allowImpreciseAddresses;
+  }
+  public function getAllowImpreciseAddresses()
+  {
+    return $this->allowImpreciseAddresses;
+  }
+  public function setCommuteMethod($commuteMethod)
+  {
+    $this->commuteMethod = $commuteMethod;
+  }
+  public function getCommuteMethod()
+  {
+    return $this->commuteMethod;
+  }
+  /**
+   * @param TimeOfDay
+   */
+  public function setDepartureTime(TimeOfDay $departureTime)
+  {
+    $this->departureTime = $departureTime;
+  }
+  /**
+   * @return TimeOfDay
+   */
+  public function getDepartureTime()
+  {
+    return $this->departureTime;
+  }
+  public function setRoadTraffic($roadTraffic)
+  {
+    $this->roadTraffic = $roadTraffic;
+  }
+  public function getRoadTraffic()
+  {
+    return $this->roadTraffic;
+  }
+  /**
+   * @param LatLng
+   */
+  public function setStartCoordinates(LatLng $startCoordinates)
+  {
+    $this->startCoordinates = $startCoordinates;
+  }
+  /**
+   * @return LatLng
+   */
+  public function getStartCoordinates()
+  {
+    return $this->startCoordinates;
+  }
+  public function setTravelDuration($travelDuration)
+  {
+    $this->travelDuration = $travelDuration;
+  }
+  public function getTravelDuration()
+  {
+    return $this->travelDuration;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(CommuteFilter::class, 'Google_Service_CloudTalentSolution_CommuteFilter');

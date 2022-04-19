@@ -1,66 +1,93 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Btg7jjHhnOvDfuS1H8m=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dialogflow;
+
+class GoogleCloudDialogflowV2beta1WebhookRequest extends \Google\Collection
+{
+  protected $collection_key = 'alternativeQueryResults';
+  protected $alternativeQueryResultsType = GoogleCloudDialogflowV2beta1QueryResult::class;
+  protected $alternativeQueryResultsDataType = 'array';
+  protected $originalDetectIntentRequestType = GoogleCloudDialogflowV2beta1OriginalDetectIntentRequest::class;
+  protected $originalDetectIntentRequestDataType = '';
+  protected $queryResultType = GoogleCloudDialogflowV2beta1QueryResult::class;
+  protected $queryResultDataType = '';
+  public $responseId;
+  public $session;
+
+  /**
+   * @param GoogleCloudDialogflowV2beta1QueryResult[]
+   */
+  public function setAlternativeQueryResults($alternativeQueryResults)
+  {
+    $this->alternativeQueryResults = $alternativeQueryResults;
+  }
+  /**
+   * @return GoogleCloudDialogflowV2beta1QueryResult[]
+   */
+  public function getAlternativeQueryResults()
+  {
+    return $this->alternativeQueryResults;
+  }
+  /**
+   * @param GoogleCloudDialogflowV2beta1OriginalDetectIntentRequest
+   */
+  public function setOriginalDetectIntentRequest(GoogleCloudDialogflowV2beta1OriginalDetectIntentRequest $originalDetectIntentRequest)
+  {
+    $this->originalDetectIntentRequest = $originalDetectIntentRequest;
+  }
+  /**
+   * @return GoogleCloudDialogflowV2beta1OriginalDetectIntentRequest
+   */
+  public function getOriginalDetectIntentRequest()
+  {
+    return $this->originalDetectIntentRequest;
+  }
+  /**
+   * @param GoogleCloudDialogflowV2beta1QueryResult
+   */
+  public function setQueryResult(GoogleCloudDialogflowV2beta1QueryResult $queryResult)
+  {
+    $this->queryResult = $queryResult;
+  }
+  /**
+   * @return GoogleCloudDialogflowV2beta1QueryResult
+   */
+  public function getQueryResult()
+  {
+    return $this->queryResult;
+  }
+  public function setResponseId($responseId)
+  {
+    $this->responseId = $responseId;
+  }
+  public function getResponseId()
+  {
+    return $this->responseId;
+  }
+  public function setSession($session)
+  {
+    $this->session = $session;
+  }
+  public function getSession()
+  {
+    return $this->session;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudDialogflowV2beta1WebhookRequest::class, 'Google_Service_Dialogflow_GoogleCloudDialogflowV2beta1WebhookRequest');

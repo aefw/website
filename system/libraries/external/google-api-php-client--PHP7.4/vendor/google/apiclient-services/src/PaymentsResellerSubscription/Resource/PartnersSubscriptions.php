@@ -1,82 +1,182 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-/JPRTO6qtAj0XR93iQnRLBsGxL62HgYb/mdE4sS=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\PaymentsResellerSubscription\Resource;
+
+use Google\Service\PaymentsResellerSubscription\GoogleCloudPaymentsResellerSubscriptionV1CancelSubscriptionRequest;
+use Google\Service\PaymentsResellerSubscription\GoogleCloudPaymentsResellerSubscriptionV1CancelSubscriptionResponse;
+use Google\Service\PaymentsResellerSubscription\GoogleCloudPaymentsResellerSubscriptionV1EntitleSubscriptionRequest;
+use Google\Service\PaymentsResellerSubscription\GoogleCloudPaymentsResellerSubscriptionV1EntitleSubscriptionResponse;
+use Google\Service\PaymentsResellerSubscription\GoogleCloudPaymentsResellerSubscriptionV1ExtendSubscriptionRequest;
+use Google\Service\PaymentsResellerSubscription\GoogleCloudPaymentsResellerSubscriptionV1ExtendSubscriptionResponse;
+use Google\Service\PaymentsResellerSubscription\GoogleCloudPaymentsResellerSubscriptionV1Subscription;
+use Google\Service\PaymentsResellerSubscription\GoogleCloudPaymentsResellerSubscriptionV1UndoCancelSubscriptionRequest;
+use Google\Service\PaymentsResellerSubscription\GoogleCloudPaymentsResellerSubscriptionV1UndoCancelSubscriptionResponse;
+
+/**
+ * The "subscriptions" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $paymentsresellersubscriptionService = new Google\Service\PaymentsResellerSubscription(...);
+ *   $subscriptions = $paymentsresellersubscriptionService->subscriptions;
+ *  </code>
+ */
+class PartnersSubscriptions extends \Google\Service\Resource
+{
+  /**
+   * Used by partners to cancel a subscription service by the end of the current
+   * billing cycle for their customers. It should be called directly by the
+   * partner using service accounts. (subscriptions.cancel)
+   *
+   * @param string $name Required. The name of the subscription resource to be
+   * cancelled. It will have the format of
+   * "partners/{partner_id}/subscriptions/{subscription_id}"
+   * @param GoogleCloudPaymentsResellerSubscriptionV1CancelSubscriptionRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudPaymentsResellerSubscriptionV1CancelSubscriptionResponse
+   */
+  public function cancel($name, GoogleCloudPaymentsResellerSubscriptionV1CancelSubscriptionRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('cancel', [$params], GoogleCloudPaymentsResellerSubscriptionV1CancelSubscriptionResponse::class);
+  }
+  /**
+   * Used by partners to create a subscription for their customers. The created
+   * subscription is associated with the end user inferred from the end user
+   * credentials. This API must be authorized by the end user using OAuth.
+   * (subscriptions.create)
+   *
+   * @param string $parent Required. The parent resource name, which is the
+   * identifier of the partner. It will have the format of
+   * "partners/{partner_id}".
+   * @param GoogleCloudPaymentsResellerSubscriptionV1Subscription $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string subscriptionId Required. Identifies the subscription
+   * resource on the Partner side. The value is restricted to 63 ASCII characters
+   * at the maximum. If a subscription was previously created with the same
+   * subscription_id, we will directly return that one.
+   * @return GoogleCloudPaymentsResellerSubscriptionV1Subscription
+   */
+  public function create($parent, GoogleCloudPaymentsResellerSubscriptionV1Subscription $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleCloudPaymentsResellerSubscriptionV1Subscription::class);
+  }
+  /**
+   * Used by partners to entitle a previously provisioned subscription to the
+   * current end user. The end user identity is inferred from the authorized
+   * credential of the request. This API must be authorized by the end user using
+   * OAuth. (subscriptions.entitle)
+   *
+   * @param string $name Required. The name of the subscription resource that is
+   * entitled to the current end user. It will have the format of
+   * "partners/{partner_id}/subscriptions/{subscription_id}"
+   * @param GoogleCloudPaymentsResellerSubscriptionV1EntitleSubscriptionRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudPaymentsResellerSubscriptionV1EntitleSubscriptionResponse
+   */
+  public function entitle($name, GoogleCloudPaymentsResellerSubscriptionV1EntitleSubscriptionRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('entitle', [$params], GoogleCloudPaymentsResellerSubscriptionV1EntitleSubscriptionResponse::class);
+  }
+  /**
+   * Used by partners to extend a subscription service for their customers. It
+   * should be called directly by the partner using service accounts.
+   * (subscriptions.extend)
+   *
+   * @param string $name Required. The name of the subscription resource to be
+   * extended. It will have the format of
+   * "partners/{partner_id}/subscriptions/{subscription_id}".
+   * @param GoogleCloudPaymentsResellerSubscriptionV1ExtendSubscriptionRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudPaymentsResellerSubscriptionV1ExtendSubscriptionResponse
+   */
+  public function extend($name, GoogleCloudPaymentsResellerSubscriptionV1ExtendSubscriptionRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('extend', [$params], GoogleCloudPaymentsResellerSubscriptionV1ExtendSubscriptionResponse::class);
+  }
+  /**
+   * Used by partners to get a subscription by id. It should be called directly by
+   * the partner using service accounts. (subscriptions.get)
+   *
+   * @param string $name Required. The name of the subscription resource to
+   * retrieve. It will have the format of
+   * "partners/{partner_id}/subscriptions/{subscription_id}"
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudPaymentsResellerSubscriptionV1Subscription
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudPaymentsResellerSubscriptionV1Subscription::class);
+  }
+  /**
+   * Used by partners to provision a subscription for their customers. This
+   * creates a subscription without associating it with the end user account.
+   * EntitleSubscription must be called separately using OAuth in order for the
+   * end user account to be associated with the subscription. It should be called
+   * directly by the partner using service accounts. (subscriptions.provision)
+   *
+   * @param string $parent Required. The parent resource name, which is the
+   * identifier of the partner. It will have the format of
+   * "partners/{partner_id}".
+   * @param GoogleCloudPaymentsResellerSubscriptionV1Subscription $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string subscriptionId Required. Identifies the subscription
+   * resource on the Partner side. The value is restricted to 63 ASCII characters
+   * at the maximum. If a subscription was previously created with the same
+   * subscription_id, we will directly return that one.
+   * @return GoogleCloudPaymentsResellerSubscriptionV1Subscription
+   */
+  public function provision($parent, GoogleCloudPaymentsResellerSubscriptionV1Subscription $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('provision', [$params], GoogleCloudPaymentsResellerSubscriptionV1Subscription::class);
+  }
+  /**
+   * Used by partners to revoke the pending cancellation of a subscription, which
+   * is currently in `STATE_CANCEL_AT_END_OF_CYCLE` state. If the subscription is
+   * already cancelled, the request will fail. It should be called directly by the
+   * partner using service accounts. (subscriptions.undoCancel)
+   *
+   * @param string $name Required. The name of the subscription resource whose
+   * pending cancellation needs to be undone. It will have the format of
+   * "partners/{partner_id}/subscriptions/{subscription_id}"
+   * @param GoogleCloudPaymentsResellerSubscriptionV1UndoCancelSubscriptionRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudPaymentsResellerSubscriptionV1UndoCancelSubscriptionResponse
+   */
+  public function undoCancel($name, GoogleCloudPaymentsResellerSubscriptionV1UndoCancelSubscriptionRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('undoCancel', [$params], GoogleCloudPaymentsResellerSubscriptionV1UndoCancelSubscriptionResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PartnersSubscriptions::class, 'Google_Service_PaymentsResellerSubscription_Resource_PartnersSubscriptions');

@@ -1,64 +1,123 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ServiceManagement\Resource;
+
+use Google\Service\ServiceManagement\ListServiceConfigsResponse;
+use Google\Service\ServiceManagement\Operation;
+use Google\Service\ServiceManagement\Service;
+use Google\Service\ServiceManagement\SubmitConfigSourceRequest;
+
+/**
+ * The "configs" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $servicemanagementService = new Google\Service\ServiceManagement(...);
+ *   $configs = $servicemanagementService->configs;
+ *  </code>
+ */
+class ServicesConfigs extends \Google\Service\Resource
+{
+  /**
+   * Creates a new service configuration (version) for a managed service. This
+   * method only stores the service configuration. To roll out the service
+   * configuration to backend systems please call CreateServiceRollout. Only the
+   * 100 most recent service configurations and ones referenced by existing
+   * rollouts are kept for each service. The rest will be deleted eventually.
+   * (configs.create)
+   *
+   * @param string $serviceName Required. The name of the service. See the
+   * [overview](/service-management/overview) for naming requirements. For
+   * example: `example.googleapis.com`.
+   * @param Service $postBody
+   * @param array $optParams Optional parameters.
+   * @return Service
+   */
+  public function create($serviceName, Service $postBody, $optParams = [])
+  {
+    $params = ['serviceName' => $serviceName, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Service::class);
+  }
+  /**
+   * Gets a service configuration (version) for a managed service. (configs.get)
+   *
+   * @param string $serviceName Required. The name of the service. See the
+   * [overview](/service-management/overview) for naming requirements. For
+   * example: `example.googleapis.com`.
+   * @param string $configId Required. The id of the service configuration
+   * resource. This field must be specified for the server to return all fields,
+   * including `SourceInfo`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string view Specifies which parts of the Service Config should be
+   * returned in the response.
+   * @return Service
+   */
+  public function get($serviceName, $configId, $optParams = [])
+  {
+    $params = ['serviceName' => $serviceName, 'configId' => $configId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Service::class);
+  }
+  /**
+   * Lists the history of the service configuration for a managed service, from
+   * the newest to the oldest. (configs.listServicesConfigs)
+   *
+   * @param string $serviceName Required. The name of the service. See the
+   * [overview](/service-management/overview) for naming requirements. For
+   * example: `example.googleapis.com`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The max number of items to include in the response
+   * list. Page size is 50 if not specified. Maximum value is 100.
+   * @opt_param string pageToken The token of the page to retrieve.
+   * @return ListServiceConfigsResponse
+   */
+  public function listServicesConfigs($serviceName, $optParams = [])
+  {
+    $params = ['serviceName' => $serviceName];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListServiceConfigsResponse::class);
+  }
+  /**
+   * Creates a new service configuration (version) for a managed service based on
+   * user-supplied configuration source files (for example: OpenAPI
+   * Specification). This method stores the source configurations as well as the
+   * generated service configuration. To rollout the service configuration to
+   * other services, please call CreateServiceRollout. Only the 100 most recent
+   * configuration sources and ones referenced by existing service configurtions
+   * are kept for each service. The rest will be deleted eventually. Operation
+   * (configs.submit)
+   *
+   * @param string $serviceName Required. The name of the service. See the
+   * [overview](/service-management/overview) for naming requirements. For
+   * example: `example.googleapis.com`.
+   * @param SubmitConfigSourceRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function submit($serviceName, SubmitConfigSourceRequest $postBody, $optParams = [])
+  {
+    $params = ['serviceName' => $serviceName, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('submit', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ServicesConfigs::class, 'Google_Service_ServiceManagement_Resource_ServicesConfigs');

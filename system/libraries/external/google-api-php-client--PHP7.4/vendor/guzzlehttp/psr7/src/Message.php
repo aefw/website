@@ -1,160 +1,252 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-RVh5
+<?php
+
+namespace GuzzleHttp\Psr7;
+
+use Psr\Http\Message\MessageInterface;
+use Psr\Http\Message\RequestInterface;
+use Psr\Http\Message\ResponseInterface;
+
+final class Message
+{
+    /**
+     * Returns the string representation of an HTTP message.
+     *
+     * @param MessageInterface $message Message to convert to a string.
+     *
+     * @return string
+     */
+    public static function toString(MessageInterface $message)
+    {
+        if ($message instanceof RequestInterface) {
+            $msg = trim($message->getMethod() . ' '
+                    . $message->getRequestTarget())
+                . ' HTTP/' . $message->getProtocolVersion();
+            if (!$message->hasHeader('host')) {
+                $msg .= "\r\nHost: " . $message->getUri()->getHost();
+            }
+        } elseif ($message instanceof ResponseInterface) {
+            $msg = 'HTTP/' . $message->getProtocolVersion() . ' '
+                . $message->getStatusCode() . ' '
+                . $message->getReasonPhrase();
+        } else {
+            throw new \InvalidArgumentException('Unknown message type');
+        }
+
+        foreach ($message->getHeaders() as $name => $values) {
+            if (strtolower($name) === 'set-cookie') {
+                foreach ($values as $value) {
+                    $msg .= "\r\n{$name}: " . $value;
+                }
+            } else {
+                $msg .= "\r\n{$name}: " . implode(', ', $values);
+            }
+        }
+
+        return "{$msg}\r\n\r\n" . $message->getBody();
+    }
+
+    /**
+     * Get a short summary of the message body.
+     *
+     * Will return `null` if the response is not printable.
+     *
+     * @param MessageInterface $message    The message to get the body summary
+     * @param int              $truncateAt The maximum allowed size of the summary
+     *
+     * @return string|null
+     */
+    public static function bodySummary(MessageInterface $message, $truncateAt = 120)
+    {
+        $body = $message->getBody();
+
+        if (!$body->isSeekable() || !$body->isReadable()) {
+            return null;
+        }
+
+        $size = $body->getSize();
+
+        if ($size === 0) {
+            return null;
+        }
+
+        $summary = $body->read($truncateAt);
+        $body->rewind();
+
+        if ($size > $truncateAt) {
+            $summary .= ' (truncated...)';
+        }
+
+        // Matches any printable character, including unicode characters:
+        // letters, marks, numbers, punctuation, spacing, and separators.
+        if (preg_match('/[^\pL\pM\pN\pP\pS\pZ\n\r\t]/u', $summary)) {
+            return null;
+        }
+
+        return $summary;
+    }
+
+    /**
+     * Attempts to rewind a message body and throws an exception on failure.
+     *
+     * The body of the message will only be rewound if a call to `tell()`
+     * returns a value other than `0`.
+     *
+     * @param MessageInterface $message Message to rewind
+     *
+     * @throws \RuntimeException
+     */
+    public static function rewindBody(MessageInterface $message)
+    {
+        $body = $message->getBody();
+
+        if ($body->tell()) {
+            $body->rewind();
+        }
+    }
+
+    /**
+     * Parses an HTTP message into an associative array.
+     *
+     * The array contains the "start-line" key containing the start line of
+     * the message, "headers" key containing an associative array of header
+     * array values, and a "body" key containing the body of the message.
+     *
+     * @param string $message HTTP request or response to parse.
+     *
+     * @return array
+     */
+    public static function parseMessage($message)
+    {
+        if (!$message) {
+            throw new \InvalidArgumentException('Invalid message');
+        }
+
+        $message = ltrim($message, "\r\n");
+
+        $messageParts = preg_split("/\r?\n\r?\n/", $message, 2);
+
+        if ($messageParts === false || count($messageParts) !== 2) {
+            throw new \InvalidArgumentException('Invalid message: Missing header delimiter');
+        }
+
+        list($rawHeaders, $body) = $messageParts;
+        $rawHeaders .= "\r\n"; // Put back the delimiter we split previously
+        $headerParts = preg_split("/\r?\n/", $rawHeaders, 2);
+
+        if ($headerParts === false || count($headerParts) !== 2) {
+            throw new \InvalidArgumentException('Invalid message: Missing status line');
+        }
+
+        list($startLine, $rawHeaders) = $headerParts;
+
+        if (preg_match("/(?:^HTTP\/|^[A-Z]+ \S+ HTTP\/)(\d+(?:\.\d+)?)/i", $startLine, $matches) && $matches[1] === '1.0') {
+            // Header folding is deprecated for HTTP/1.1, but allowed in HTTP/1.0
+            $rawHeaders = preg_replace(Rfc7230::HEADER_FOLD_REGEX, ' ', $rawHeaders);
+        }
+
+        /** @var array[] $headerLines */
+        $count = preg_match_all(Rfc7230::HEADER_REGEX, $rawHeaders, $headerLines, PREG_SET_ORDER);
+
+        // If these aren't the same, then one line didn't match and there's an invalid header.
+        if ($count !== substr_count($rawHeaders, "\n")) {
+            // Folding is deprecated, see https://tools.ietf.org/html/rfc7230#section-3.2.4
+            if (preg_match(Rfc7230::HEADER_FOLD_REGEX, $rawHeaders)) {
+                throw new \InvalidArgumentException('Invalid header syntax: Obsolete line folding');
+            }
+
+            throw new \InvalidArgumentException('Invalid header syntax');
+        }
+
+        $headers = [];
+
+        foreach ($headerLines as $headerLine) {
+            $headers[$headerLine[1]][] = $headerLine[2];
+        }
+
+        return [
+            'start-line' => $startLine,
+            'headers' => $headers,
+            'body' => $body,
+        ];
+    }
+
+    /**
+     * Constructs a URI for an HTTP request message.
+     *
+     * @param string $path    Path from the start-line
+     * @param array  $headers Array of headers (each value an array).
+     *
+     * @return string
+     */
+    public static function parseRequestUri($path, array $headers)
+    {
+        $hostKey = array_filter(array_keys($headers), function ($k) {
+            return strtolower($k) === 'host';
+        });
+
+        // If no host is found, then a full URI cannot be constructed.
+        if (!$hostKey) {
+            return $path;
+        }
+
+        $host = $headers[reset($hostKey)][0];
+        $scheme = substr($host, -4) === ':443' ? 'https' : 'http';
+
+        return $scheme . '://' . $host . '/' . ltrim($path, '/');
+    }
+
+    /**
+     * Parses a request message string into a request object.
+     *
+     * @param string $message Request message string.
+     *
+     * @return Request
+     */
+    public static function parseRequest($message)
+    {
+        $data = self::parseMessage($message);
+        $matches = [];
+        if (!preg_match('/^[\S]+\s+([a-zA-Z]+:\/\/|\/).*/', $data['start-line'], $matches)) {
+            throw new \InvalidArgumentException('Invalid request string');
+        }
+        $parts = explode(' ', $data['start-line'], 3);
+        $version = isset($parts[2]) ? explode('/', $parts[2])[1] : '1.1';
+
+        $request = new Request(
+            $parts[0],
+            $matches[1] === '/' ? self::parseRequestUri($parts[1], $data['headers']) : $parts[1],
+            $data['headers'],
+            $data['body'],
+            $version
+        );
+
+        return $matches[1] === '/' ? $request : $request->withRequestTarget($parts[1]);
+    }
+
+    /**
+     * Parses a response message string into a response object.
+     *
+     * @param string $message Response message string.
+     *
+     * @return Response
+     */
+    public static function parseResponse($message)
+    {
+        $data = self::parseMessage($message);
+        // According to https://tools.ietf.org/html/rfc7230#section-3.1.2 the space
+        // between status-code and reason-phrase is required. But browsers accept
+        // responses without space and reason as well.
+        if (!preg_match('/^HTTP\/.* [0-9]{3}( .*|$)/', $data['start-line'])) {
+            throw new \InvalidArgumentException('Invalid response string: ' . $data['start-line']);
+        }
+        $parts = explode(' ', $data['start-line'], 3);
+
+        return new Response(
+            (int) $parts[1],
+            $data['headers'],
+            $data['body'],
+            explode('/', $parts[0])[1],
+            isset($parts[2]) ? $parts[2] : null
+        );
+    }
+}

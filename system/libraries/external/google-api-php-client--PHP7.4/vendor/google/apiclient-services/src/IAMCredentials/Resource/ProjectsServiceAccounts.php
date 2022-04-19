@@ -1,65 +1,114 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-rBrRwMKK
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\IAMCredentials\Resource;
+
+use Google\Service\IAMCredentials\GenerateAccessTokenRequest;
+use Google\Service\IAMCredentials\GenerateAccessTokenResponse;
+use Google\Service\IAMCredentials\GenerateIdTokenRequest;
+use Google\Service\IAMCredentials\GenerateIdTokenResponse;
+use Google\Service\IAMCredentials\SignBlobRequest;
+use Google\Service\IAMCredentials\SignBlobResponse;
+use Google\Service\IAMCredentials\SignJwtRequest;
+use Google\Service\IAMCredentials\SignJwtResponse;
+
+/**
+ * The "serviceAccounts" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $iamcredentialsService = new Google\Service\IAMCredentials(...);
+ *   $serviceAccounts = $iamcredentialsService->serviceAccounts;
+ *  </code>
+ */
+class ProjectsServiceAccounts extends \Google\Service\Resource
+{
+  /**
+   * Generates an OAuth 2.0 access token for a service account.
+   * (serviceAccounts.generateAccessToken)
+   *
+   * @param string $name Required. The resource name of the service account for
+   * which the credentials are requested, in the following format:
+   * `projects/-/serviceAccounts/{ACCOUNT_EMAIL_OR_UNIQUEID}`. The `-` wildcard
+   * character is required; replacing it with a project ID is invalid.
+   * @param GenerateAccessTokenRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GenerateAccessTokenResponse
+   */
+  public function generateAccessToken($name, GenerateAccessTokenRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('generateAccessToken', [$params], GenerateAccessTokenResponse::class);
+  }
+  /**
+   * Generates an OpenID Connect ID token for a service account.
+   * (serviceAccounts.generateIdToken)
+   *
+   * @param string $name Required. The resource name of the service account for
+   * which the credentials are requested, in the following format:
+   * `projects/-/serviceAccounts/{ACCOUNT_EMAIL_OR_UNIQUEID}`. The `-` wildcard
+   * character is required; replacing it with a project ID is invalid.
+   * @param GenerateIdTokenRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GenerateIdTokenResponse
+   */
+  public function generateIdToken($name, GenerateIdTokenRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('generateIdToken', [$params], GenerateIdTokenResponse::class);
+  }
+  /**
+   * Signs a blob using a service account's system-managed private key.
+   * (serviceAccounts.signBlob)
+   *
+   * @param string $name Required. The resource name of the service account for
+   * which the credentials are requested, in the following format:
+   * `projects/-/serviceAccounts/{ACCOUNT_EMAIL_OR_UNIQUEID}`. The `-` wildcard
+   * character is required; replacing it with a project ID is invalid.
+   * @param SignBlobRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return SignBlobResponse
+   */
+  public function signBlob($name, SignBlobRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('signBlob', [$params], SignBlobResponse::class);
+  }
+  /**
+   * Signs a JWT using a service account's system-managed private key.
+   * (serviceAccounts.signJwt)
+   *
+   * @param string $name Required. The resource name of the service account for
+   * which the credentials are requested, in the following format:
+   * `projects/-/serviceAccounts/{ACCOUNT_EMAIL_OR_UNIQUEID}`. The `-` wildcard
+   * character is required; replacing it with a project ID is invalid.
+   * @param SignJwtRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return SignJwtResponse
+   */
+  public function signJwt($name, SignJwtRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('signJwt', [$params], SignJwtResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsServiceAccounts::class, 'Google_Service_IAMCredentials_Resource_ProjectsServiceAccounts');

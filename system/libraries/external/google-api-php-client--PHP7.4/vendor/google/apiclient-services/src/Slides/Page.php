@@ -1,75 +1,150 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-yVxiYzVL5q9O3jiDkajxJYU5905jDT5aioaIweu=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Slides;
+
+class Page extends \Google\Collection
+{
+  protected $collection_key = 'pageElements';
+  protected $layoutPropertiesType = LayoutProperties::class;
+  protected $layoutPropertiesDataType = '';
+  protected $masterPropertiesType = MasterProperties::class;
+  protected $masterPropertiesDataType = '';
+  protected $notesPropertiesType = NotesProperties::class;
+  protected $notesPropertiesDataType = '';
+  public $objectId;
+  protected $pageElementsType = PageElement::class;
+  protected $pageElementsDataType = 'array';
+  protected $pagePropertiesType = PageProperties::class;
+  protected $pagePropertiesDataType = '';
+  public $pageType;
+  public $revisionId;
+  protected $slidePropertiesType = SlideProperties::class;
+  protected $slidePropertiesDataType = '';
+
+  /**
+   * @param LayoutProperties
+   */
+  public function setLayoutProperties(LayoutProperties $layoutProperties)
+  {
+    $this->layoutProperties = $layoutProperties;
+  }
+  /**
+   * @return LayoutProperties
+   */
+  public function getLayoutProperties()
+  {
+    return $this->layoutProperties;
+  }
+  /**
+   * @param MasterProperties
+   */
+  public function setMasterProperties(MasterProperties $masterProperties)
+  {
+    $this->masterProperties = $masterProperties;
+  }
+  /**
+   * @return MasterProperties
+   */
+  public function getMasterProperties()
+  {
+    return $this->masterProperties;
+  }
+  /**
+   * @param NotesProperties
+   */
+  public function setNotesProperties(NotesProperties $notesProperties)
+  {
+    $this->notesProperties = $notesProperties;
+  }
+  /**
+   * @return NotesProperties
+   */
+  public function getNotesProperties()
+  {
+    return $this->notesProperties;
+  }
+  public function setObjectId($objectId)
+  {
+    $this->objectId = $objectId;
+  }
+  public function getObjectId()
+  {
+    return $this->objectId;
+  }
+  /**
+   * @param PageElement[]
+   */
+  public function setPageElements($pageElements)
+  {
+    $this->pageElements = $pageElements;
+  }
+  /**
+   * @return PageElement[]
+   */
+  public function getPageElements()
+  {
+    return $this->pageElements;
+  }
+  /**
+   * @param PageProperties
+   */
+  public function setPageProperties(PageProperties $pageProperties)
+  {
+    $this->pageProperties = $pageProperties;
+  }
+  /**
+   * @return PageProperties
+   */
+  public function getPageProperties()
+  {
+    return $this->pageProperties;
+  }
+  public function setPageType($pageType)
+  {
+    $this->pageType = $pageType;
+  }
+  public function getPageType()
+  {
+    return $this->pageType;
+  }
+  public function setRevisionId($revisionId)
+  {
+    $this->revisionId = $revisionId;
+  }
+  public function getRevisionId()
+  {
+    return $this->revisionId;
+  }
+  /**
+   * @param SlideProperties
+   */
+  public function setSlideProperties(SlideProperties $slideProperties)
+  {
+    $this->slideProperties = $slideProperties;
+  }
+  /**
+   * @return SlideProperties
+   */
+  public function getSlideProperties()
+  {
+    return $this->slideProperties;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Page::class, 'Google_Service_Slides_Page');

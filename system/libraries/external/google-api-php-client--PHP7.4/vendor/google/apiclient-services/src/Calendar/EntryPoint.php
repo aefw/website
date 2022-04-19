@@ -1,76 +1,117 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Uru=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Calendar;
+
+class EntryPoint extends \Google\Collection
+{
+  protected $collection_key = 'entryPointFeatures';
+  public $accessCode;
+  public $entryPointFeatures;
+  public $entryPointType;
+  public $label;
+  public $meetingCode;
+  public $passcode;
+  public $password;
+  public $pin;
+  public $regionCode;
+  public $uri;
+
+  public function setAccessCode($accessCode)
+  {
+    $this->accessCode = $accessCode;
+  }
+  public function getAccessCode()
+  {
+    return $this->accessCode;
+  }
+  public function setEntryPointFeatures($entryPointFeatures)
+  {
+    $this->entryPointFeatures = $entryPointFeatures;
+  }
+  public function getEntryPointFeatures()
+  {
+    return $this->entryPointFeatures;
+  }
+  public function setEntryPointType($entryPointType)
+  {
+    $this->entryPointType = $entryPointType;
+  }
+  public function getEntryPointType()
+  {
+    return $this->entryPointType;
+  }
+  public function setLabel($label)
+  {
+    $this->label = $label;
+  }
+  public function getLabel()
+  {
+    return $this->label;
+  }
+  public function setMeetingCode($meetingCode)
+  {
+    $this->meetingCode = $meetingCode;
+  }
+  public function getMeetingCode()
+  {
+    return $this->meetingCode;
+  }
+  public function setPasscode($passcode)
+  {
+    $this->passcode = $passcode;
+  }
+  public function getPasscode()
+  {
+    return $this->passcode;
+  }
+  public function setPassword($password)
+  {
+    $this->password = $password;
+  }
+  public function getPassword()
+  {
+    return $this->password;
+  }
+  public function setPin($pin)
+  {
+    $this->pin = $pin;
+  }
+  public function getPin()
+  {
+    return $this->pin;
+  }
+  public function setRegionCode($regionCode)
+  {
+    $this->regionCode = $regionCode;
+  }
+  public function getRegionCode()
+  {
+    return $this->regionCode;
+  }
+  public function setUri($uri)
+  {
+    $this->uri = $uri;
+  }
+  public function getUri()
+  {
+    return $this->uri;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(EntryPoint::class, 'Google_Service_Calendar_EntryPoint');

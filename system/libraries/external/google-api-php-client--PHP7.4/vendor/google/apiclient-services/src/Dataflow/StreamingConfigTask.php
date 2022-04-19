@@ -1,70 +1,97 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-66QU6CegoDQxGdf2zG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dataflow;
+
+class StreamingConfigTask extends \Google\Collection
+{
+  protected $collection_key = 'streamingComputationConfigs';
+  public $commitStreamChunkSizeBytes;
+  public $getDataStreamChunkSizeBytes;
+  public $maxWorkItemCommitBytes;
+  protected $streamingComputationConfigsType = StreamingComputationConfig::class;
+  protected $streamingComputationConfigsDataType = 'array';
+  public $userStepToStateFamilyNameMap;
+  public $windmillServiceEndpoint;
+  public $windmillServicePort;
+
+  public function setCommitStreamChunkSizeBytes($commitStreamChunkSizeBytes)
+  {
+    $this->commitStreamChunkSizeBytes = $commitStreamChunkSizeBytes;
+  }
+  public function getCommitStreamChunkSizeBytes()
+  {
+    return $this->commitStreamChunkSizeBytes;
+  }
+  public function setGetDataStreamChunkSizeBytes($getDataStreamChunkSizeBytes)
+  {
+    $this->getDataStreamChunkSizeBytes = $getDataStreamChunkSizeBytes;
+  }
+  public function getGetDataStreamChunkSizeBytes()
+  {
+    return $this->getDataStreamChunkSizeBytes;
+  }
+  public function setMaxWorkItemCommitBytes($maxWorkItemCommitBytes)
+  {
+    $this->maxWorkItemCommitBytes = $maxWorkItemCommitBytes;
+  }
+  public function getMaxWorkItemCommitBytes()
+  {
+    return $this->maxWorkItemCommitBytes;
+  }
+  /**
+   * @param StreamingComputationConfig[]
+   */
+  public function setStreamingComputationConfigs($streamingComputationConfigs)
+  {
+    $this->streamingComputationConfigs = $streamingComputationConfigs;
+  }
+  /**
+   * @return StreamingComputationConfig[]
+   */
+  public function getStreamingComputationConfigs()
+  {
+    return $this->streamingComputationConfigs;
+  }
+  public function setUserStepToStateFamilyNameMap($userStepToStateFamilyNameMap)
+  {
+    $this->userStepToStateFamilyNameMap = $userStepToStateFamilyNameMap;
+  }
+  public function getUserStepToStateFamilyNameMap()
+  {
+    return $this->userStepToStateFamilyNameMap;
+  }
+  public function setWindmillServiceEndpoint($windmillServiceEndpoint)
+  {
+    $this->windmillServiceEndpoint = $windmillServiceEndpoint;
+  }
+  public function getWindmillServiceEndpoint()
+  {
+    return $this->windmillServiceEndpoint;
+  }
+  public function setWindmillServicePort($windmillServicePort)
+  {
+    $this->windmillServicePort = $windmillServicePort;
+  }
+  public function getWindmillServicePort()
+  {
+    return $this->windmillServicePort;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(StreamingConfigTask::class, 'Google_Service_Dataflow_StreamingConfigTask');

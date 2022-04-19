@@ -1,85 +1,140 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPsVuhFijR1NyM38vsB0+ucKX20Ht9QJcmUvo/zWuDR8DIZX4x0DUwZitgEt30FoWKiKQuTtG
-ZL+2Jp20hmKCxuWaXIc4EAiE2UFTMZxerWWjJ2btDHuhA/v3CnWBa6AQlRqe37U3NFjJX/sChF84
-JYoGEi66JKI00PXOu8CWDUIMXNXtbFzMmmt5ubdHlbND79MEpdX33mYk0DhCr5be/8rG1BvLcbfn
-tD0Wk8yVEjgfvo5fQhHTkDxnXNl0KbZ9udPbfq1UKwL+edREC3Cvl/N2Dm7YS5CkDLI4g2o1fZvA
-1ULLlcnDBUJ2E3PyPDROY5Hh1G1k9EA26cOLFbRzOascXJCfZ04lienxkiUa3FFLri8Vp1hngTX1
-G+g7YIazi9gZr00BW5Uh1tXZkJat7IAEvJeW1OYqvR+HbsMPwxwBuNa+oAOrbTW9EiO9K/aO8Tkh
-uayWPWPgwWAPCWGdP1kjcZs0EsCS9dbzDplvMi7f5c/Q+MZ8Bjsa8zqOuhotpbYTD8F12tF8ffPp
-YO66Hf0Y61PRB9643Tm8wrRnckA/U8n9lP6XMnnh39M4r2OlUc+LtYWqiiDt8jzqytJvj2NZqNli
-clBuIBCFrRu44gLho1gvr7naORMN61LKDbCNpVip9VcubkbMr6kYf3fQuKyGirsOv3uHQdaPMPiB
-cYxx1sohn4T47hNbeHLaRBSCCLosaoDwVfVQL2tXjFgEdGplBaCHhv/oxbFHzfyqr4GpW5CmCEZm
-84SuLqc5qR32YZum0kEXLe1xcXgHX/4qdWWnebGXquchvH3yUa7/WNE1wcS7FZCO3eFttVdXeXr6
-rVlgr1Nj7Hdsc01BE888sGRqbM5yQUGp5WWmojfaf2ymwGrsiP0cM9bC8mj7bIFdBVhr/B7ff8CH
-UrUl3h13/2xvMIm85NFEqsHX0qyCt1FX1R4LaqJZhRcp0+MkkQXP2VeK2TfyjAasBB8LJvBaVOr1
-+C5w3bqBZl5UWmebFODKbnMNSN4h3gCSRlOhJieqe+vdSPUbGnRoWHD0W8PSFgpBrgn8eRPbsj5V
-sICz/urWHEfAfpMx8BMIQNGur7IWuEWnVlhxij/KUakjZWtMFjeo3mF6JuXefAScJj6bIZdrBryB
-ahCehMwjDDScaUapgOX98VlgndF07U3csmVhJeQO6JvCXujFZNbD0Xihyr4FS096EIpTUHIlEi8S
-5F8DtoG+5qHuM/nhIC1xu4Y2RztzEOuWg+FXHEKqIzeaxCx5/Rx+z7su2VyVQLEfBHTQGtsMKZzr
-uNh2+lzEaOBEJurXbDnz01YKoHfRHn6WYIuYvW8kWZiQwDG7ICQpxHs3hyMSWOgcpBss48/46wDG
-4lWYdyCJDYScP1LIC7itS5N28CokZzPfj+kfEpGstvegNYUXOuBCY2i/USIOBo671cdOrVJJoI4d
-iHjnRdKrj8owA9Urzy9gIyqZLgmrOutDjWLj/g7cJ/zGK82w50ZnnWgVrKCGBbgz/WH8RHf9xxk0
-7zcuhpkAaFHFTQ/LYdNo50tqT7HeHhQ7g/TlISfkdhaAiPB5EwIBp8UgDUc5g/K7Imt9BujJnqfL
-XViW1SVB/8b6v/Wwz/QA3cQuDc+gxSVBQ82qIA5viBZlssCYdlFaprMbBCtA2lNuJXX6/xubI7XD
-xVHHaimsEy1VPIbJMEheijfP0u/LK66DXR9Mw0rZKrXXbabdGLKZO/zFQhRrCtLExhotFVgj4RZh
-qAYcix+Xci+JReaWxw85UtpjzEa/COGqqu4xfKlRfk+5eIsf0GuRif8EzQLruuNLTxr6nhCCuAgx
-40rB5wfk3kA7XkBM3hkowaIY+rPbt6lfAJXgWwxeaFUX4qLLiRpYEkNbsRQIpaWlm1wADZvreJv5
-NrFpmWxKmaw7NVt/J7t1Mn2ihp1ycavGEhWgR66Y+j4u0IPO76W6uWfIN9HmgmkrZkYH7Rq+y9TY
-/7Xu9Fy+42ynGQIXWvNiE/tUPXKcNcUIxorndUFVC7dgsGWgOXsBEQRwqTpQ9IJjpjsve5Q/bZwk
-DqbYy0mEvB5qtXOh//mZOaN0iTi1PNL5QgJ+sF886npzDDkwsKWsxp4g+sSE5ydtZuLuS8nX/7+1
-zj+ndwgY8375TPGxfZwysTWCNy/gf4k3fUquTddXKi4XpG+ce4riTZshn/yb5gflpKZ5nTUaqKla
-XbiFX+2Q3Qjj57lve9ReiXX/41v7rCTyEtBmZb5Avg8WEvY6+ZS+5a9q2mX2qMDjbimSe9hbVYEg
-syGxdXQzE2d3IjTC5Bvf3fpHw25rnLtQTzla/MGzPVk5j+b1NWDyJW5buFQAUidGEhPrvJfjEEyZ
-4A2Bt/eZQzIISoamn8d8Q16lBjVZnrohfkze0fx+mkZh676OwdMfZ6V/S9u/OScQnPvKbL+4ozGX
-Xe4OUngc44X+MA+xUhYMAZ1S3/k4dYwf8ciQc7i49PbNl5K65z0B84lra/YvvdWxMi3S7tsqeHPp
-rRrljcCTBLixRRkbSQjR2b8Iz9fFjiSnngoAZbYZu8sJ9qOCsbD1CZNj5Z5DXQf1S7EHttt3TClU
-8pHlhXA/5J1y6lM6G2xKht08nS7oOe52pfQBBEuWgZLwkqBLWNjM1xkx1P82pvbBZucfFSEgtcJZ
-ehjMux8VJ9WoH0XTCG6C7O+4VMSg1WvLImQknmvuSkv3H/EwFqAdKcve5No1y5JSfuiQJrnTpNBx
-G/obI6efxO0ku8DkCSv2p3tu1IVcp9ONSfpm1UPwDyCYhR4DpvNQGWMGjAqAdugj7quQ/HjW3CM/
-JoPK623pDR84TkKJHLNtzitGL22hGenqbrdNZuPHcvlHwUWFgUQYw7rJe9aomGypn24TadLG2uDN
-HggdCDylxT8MdYKXH7kycaY33ajCbPojtecwgqFQ8lgyPClEXC5fs36hgzid9ZFsULcJlKHevorv
-JQldn99//88V2NkJCbLb65npljctcvoLiv+39FdhCJBLlFifNHtWgKRU9uSAnFQbNP7T2336+gDg
-4KhYDMEt5y4j8Dmq8qi6Lfwo+Nv/t654uFDGso5Xl5iOJBxcbxEG9pWkWSaU7gboZv5Y77bFaCid
-ZFLZW+kp5knfH83BryWEgrfuHPx17rskuUnmDosmz2O6S0oaXYNdqr3otR9doj5ky3HSveUuoM58
-z6oyoS8AqxsKgr9k7K3EUwJunpNV6j/ffp/fRZu2U0ZFcPlNzoBWOYvoJQtFjsGKfR9NjkDFfzjk
-8x+VLcU2V30aIa08a2k3U3O8a2PJU6yXS16VH6JxBIOTp8jymkzyW+w28mvOo+Sa+dM3tbl5hEFG
-2AutpHCq/iitpR4A4WXRBjKLxPtm2pE2rSpPWZLih8zZBP9iWqpY2UTeYUtdWeGlPZh8sbZK+JVP
-m7Wwxne3Hx84ofsWQ84BS/C3nx1oYWd/+IOsynrprERhPyL8aFNckGtufBEeauUbZN6Vwn2qUciF
-BSbUKkiM2XNcvnDDsEccuweEaZCNKO64mV+zmvD5GCZrta4+Gwo80/v3CObxIJNa8oK2QAXpS4pd
-HhKachvjbxmP8VHW9+PYdEqHmhBs46uUOzl5BlVvhdHpI5fBnuu+sNQP+r5MpdTTUgwfLKEiJJyd
-s9C7GkNyb7enzr0O1w7cBGn8XRQUMNjLoOiB1eUqL9P5wMy/BPzqfWoGmyGI0CaLV/uutSmTncgg
-ic01xC4F6QaLzVeqBrfrpYHyEukhA+vfxi5ssbitQwuHzrUlHWVIf+9hjqVJ0uN67LM1TVzsDggd
-c1T00ylXW3lXQ8UG1635T3urYtKkc+TxpyhtTCBqgqdt+jho5PovuNfSgk94bLoV8lHhHLuwo5YY
-7nhKDn72+H37v4zQp2kX6zLDDnXuAqVYjanB9LpCPIhf9ZQpYxbh8OrXnaGZ/UVJ0bAgUM2kG8Kn
-Au2PhArG5ZlYgnTvc5EOnKrBwaZTo1oUtharSq3FqqHqoGGCcBiF8XIzKXh6iEr6b/a3dsyxDA4T
-irDC4OdRSrnLgi9oyj80uU9g0Y33j2M5esZSWwLZ3swrDSy7kdm10eJq6DcIswLwyp1WLDXmX6B/
-eCzzIQmHBLubTMpxRaONtRY48H/a7GCp85QpxZ67ukWim/OgwLMXBP8Z5n9ObfWXZf208W6BDd1i
-awvIiLFxZGtdNdSS9tozu+MiS9hT7CZjAEcDL4T8E5oYS6ButdImhb33/VJGSqVJ6o06y1xZtWe6
-d99r6lPTspTaaopsDGreke87aYLM4uZbU5qMkHBZlsFBxNzPKqJpRsjB2vzN1qUH97/QvWPH13Le
-mBNLjZK5h21V0Puv4DU/hE/wYOg86LiGSFMPPG6gRZ2Q2I62NsmD7WHpbbKdNImUyMr3miDbLAwa
-SNK54mG145YOZv8nB2oNRZq71L+I0L5N/9l3ZPVhGUgO3RQxVAof8wszO3GMlY4zUznMyxiXzIGZ
-L1CF5uKsqo7vmNCq1zTvJWOSaw5KmXwQ5XvQ5Hp6CpOjD+iQ5IcrwKFVmdvopBaGvOnNrkdzfUWg
-EwHqhXAzCktLqS0EwYXNN9S5NZ++R7SBmgCkYV9ejuU9WWbfsq8ZtGRJ/FB9HxJ3ckYbelQUEpXM
-X2E99LCBQdl0Do0UkTgeLfhq43XCgikegERd5sqQOHR2dAkPOKHA7JZi2oMKhxZ9lIgkAWLXGs1r
-x46dFk3t8aUothbZ+/tzE0q9O0xQt1gPfIfLzqpzAlAXONKIXq83ocIHP3WCbCP1B9G+PZH2Bdb6
-WqVavhBz1jHee5hfun1NKY9S8fKjrHZhaSUzWzvxQelcWGNyCdWJUGnRAct4lhYz/iYIG8WVpiwf
-l1ocAJyl9M/ImKPOGSIEOgdEyiLbzzSd3XPTS0fAsvxukIUkOlox/V1SK+MJiShTwkHxGB3UW72R
-nUSV39eBGct8zANFVsFnFGuxTBi13iXO0fKmMrbo9ipaVFcdS4vEzup0/l2I45Y6T6nLLETFncn0
-D9Fx4HJ3jwU0MXgLlmQiLDju5VohVyTNAEe+59fwIFDg09p1T6bH4mr+N5D507yqLxIVsb8ekc1V
-NZkba1AzyBWGW7saLc14wObCkTB7Ole0PUf8KXejP/tkpf9xWPGYod08xtLxsuPkjFiqV0431oIz
-txk3Q6eQAFHvtX5LyoYBc400QCsDLrnFW6cH+wKnUa5mtMuOrh6kLDBz5J3KHmEOkn3AilldnAvw
-KJc3H7FzSYPmEXab2GRXdZPhcqVcE/xBtThFHOLCRTvxgctHiYTGvjmar7vux87vWvWIVjqM5w82
-QzLikj6tRicQQO9kKERFvUvAQf35UmGef61PKdGlzbJHgSNpPqOrh9WvNoo1D8DfO7vgJkBb8Wfv
-mT3bPuYgUCCGN2N/oPFFVZeFsbnUYDbsaM/sHoFRPlcy60dUInnkQw/dHnn828Zv4HOcvoNUHKVP
-/AQpIrfDxbYZHgebiDZKFVvwocGw9kpehFwcy9LUUGfBASIuAXZg5HZycUbj/os+eeqxCgwROEPg
-/C0UQC0M88lw7GTb7BV8nqtvFIAxk5Zlue/YeWdnNhgugA+QrnWcOy/mNNDSzDtHipRmHJBROULK
-P436WP79wZxfY7B3pnQdLE3HriVwzOXNi6oD8DCVoaEN4AysBiSWKxYSuX674wn6Kn2IFewMqsNY
-KPsxlWE5UyEsMQ0A2aSzT/URxuXwXwtRfol71hcFBdMFlxfCVPos/663TSFrrW6LKVMYC59xnTPQ
-GReGuCmDIZXqV48LLTsmt0YbI/EfdoYzf+/5b6JCkZf6XCERh3vEMfJU649EtSC77D8Ou7jFJ/UP
-ZHRtp1aaz2v4FrOrh176rYqkpISmoltQQaDN4ga65qTYiLwR5mYhhIe/hkEkEbPr/bb7UQQjwwYl
-dko0eX/IoQ8u97V/r0==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AndroidManagement;
+
+class ApplicationReport extends \Google\Collection
+{
+  protected $collection_key = 'signingKeyCertFingerprints';
+  public $applicationSource;
+  public $displayName;
+  protected $eventsType = ApplicationEvent::class;
+  protected $eventsDataType = 'array';
+  public $installerPackageName;
+  protected $keyedAppStatesType = KeyedAppState::class;
+  protected $keyedAppStatesDataType = 'array';
+  public $packageName;
+  public $packageSha256Hash;
+  public $signingKeyCertFingerprints;
+  public $state;
+  public $versionCode;
+  public $versionName;
+
+  public function setApplicationSource($applicationSource)
+  {
+    $this->applicationSource = $applicationSource;
+  }
+  public function getApplicationSource()
+  {
+    return $this->applicationSource;
+  }
+  public function setDisplayName($displayName)
+  {
+    $this->displayName = $displayName;
+  }
+  public function getDisplayName()
+  {
+    return $this->displayName;
+  }
+  /**
+   * @param ApplicationEvent[]
+   */
+  public function setEvents($events)
+  {
+    $this->events = $events;
+  }
+  /**
+   * @return ApplicationEvent[]
+   */
+  public function getEvents()
+  {
+    return $this->events;
+  }
+  public function setInstallerPackageName($installerPackageName)
+  {
+    $this->installerPackageName = $installerPackageName;
+  }
+  public function getInstallerPackageName()
+  {
+    return $this->installerPackageName;
+  }
+  /**
+   * @param KeyedAppState[]
+   */
+  public function setKeyedAppStates($keyedAppStates)
+  {
+    $this->keyedAppStates = $keyedAppStates;
+  }
+  /**
+   * @return KeyedAppState[]
+   */
+  public function getKeyedAppStates()
+  {
+    return $this->keyedAppStates;
+  }
+  public function setPackageName($packageName)
+  {
+    $this->packageName = $packageName;
+  }
+  public function getPackageName()
+  {
+    return $this->packageName;
+  }
+  public function setPackageSha256Hash($packageSha256Hash)
+  {
+    $this->packageSha256Hash = $packageSha256Hash;
+  }
+  public function getPackageSha256Hash()
+  {
+    return $this->packageSha256Hash;
+  }
+  public function setSigningKeyCertFingerprints($signingKeyCertFingerprints)
+  {
+    $this->signingKeyCertFingerprints = $signingKeyCertFingerprints;
+  }
+  public function getSigningKeyCertFingerprints()
+  {
+    return $this->signingKeyCertFingerprints;
+  }
+  public function setState($state)
+  {
+    $this->state = $state;
+  }
+  public function getState()
+  {
+    return $this->state;
+  }
+  public function setVersionCode($versionCode)
+  {
+    $this->versionCode = $versionCode;
+  }
+  public function getVersionCode()
+  {
+    return $this->versionCode;
+  }
+  public function setVersionName($versionName)
+  {
+    $this->versionName = $versionName;
+  }
+  public function getVersionName()
+  {
+    return $this->versionName;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ApplicationReport::class, 'Google_Service_AndroidManagement_ApplicationReport');

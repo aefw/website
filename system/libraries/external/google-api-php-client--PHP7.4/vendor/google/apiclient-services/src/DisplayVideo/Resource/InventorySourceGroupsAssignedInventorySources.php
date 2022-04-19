@@ -1,68 +1,147 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DisplayVideo\Resource;
+
+use Google\Service\DisplayVideo\AssignedInventorySource;
+use Google\Service\DisplayVideo\BulkEditAssignedInventorySourcesRequest;
+use Google\Service\DisplayVideo\BulkEditAssignedInventorySourcesResponse;
+use Google\Service\DisplayVideo\DisplayvideoEmpty;
+use Google\Service\DisplayVideo\ListAssignedInventorySourcesResponse;
+
+/**
+ * The "assignedInventorySources" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $displayvideoService = new Google\Service\DisplayVideo(...);
+ *   $assignedInventorySources = $displayvideoService->assignedInventorySources;
+ *  </code>
+ */
+class InventorySourceGroupsAssignedInventorySources extends \Google\Service\Resource
+{
+  /**
+   * Bulk edits multiple assignments between inventory sources and a single
+   * inventory source group. The operation will delete the assigned inventory
+   * sources provided in
+   * BulkEditAssignedInventorySourcesRequest.deleted_assigned_inventory_sources
+   * and then create the assigned inventory sources provided in
+   * BulkEditAssignedInventorySourcesRequest.created_assigned_inventory_sources.
+   * (assignedInventorySources.bulkEdit)
+   *
+   * @param string $inventorySourceGroupId Required. The ID of the inventory
+   * source group to which the assignments are assigned.
+   * @param BulkEditAssignedInventorySourcesRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return BulkEditAssignedInventorySourcesResponse
+   */
+  public function bulkEdit($inventorySourceGroupId, BulkEditAssignedInventorySourcesRequest $postBody, $optParams = [])
+  {
+    $params = ['inventorySourceGroupId' => $inventorySourceGroupId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('bulkEdit', [$params], BulkEditAssignedInventorySourcesResponse::class);
+  }
+  /**
+   * Creates an assignment between an inventory source and an inventory source
+   * group. (assignedInventorySources.create)
+   *
+   * @param string $inventorySourceGroupId Required. The ID of the inventory
+   * source group to which the assignment will be assigned.
+   * @param AssignedInventorySource $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string advertiserId The ID of the advertiser that owns the parent
+   * inventory source group. The parent partner will not have access to this
+   * assigned inventory source.
+   * @opt_param string partnerId The ID of the partner that owns the parent
+   * inventory source group. Only this partner will have write access to this
+   * assigned inventory source.
+   * @return AssignedInventorySource
+   */
+  public function create($inventorySourceGroupId, AssignedInventorySource $postBody, $optParams = [])
+  {
+    $params = ['inventorySourceGroupId' => $inventorySourceGroupId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], AssignedInventorySource::class);
+  }
+  /**
+   * Deletes the assignment between an inventory source and an inventory source
+   * group. (assignedInventorySources.delete)
+   *
+   * @param string $inventorySourceGroupId Required. The ID of the inventory
+   * source group to which this assignment is assigned.
+   * @param string $assignedInventorySourceId Required. The ID of the assigned
+   * inventory source to delete.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string advertiserId The ID of the advertiser that owns the parent
+   * inventory source group. The parent partner does not have access to this
+   * assigned inventory source.
+   * @opt_param string partnerId The ID of the partner that owns the parent
+   * inventory source group. Only this partner has write access to this assigned
+   * inventory source.
+   * @return DisplayvideoEmpty
+   */
+  public function delete($inventorySourceGroupId, $assignedInventorySourceId, $optParams = [])
+  {
+    $params = ['inventorySourceGroupId' => $inventorySourceGroupId, 'assignedInventorySourceId' => $assignedInventorySourceId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], DisplayvideoEmpty::class);
+  }
+  /**
+   * Lists inventory sources assigned to an inventory source group.
+   * (assignedInventorySources.listInventorySourceGroupsAssignedInventorySources)
+   *
+   * @param string $inventorySourceGroupId Required. The ID of the inventory
+   * source group to which these assignments are assigned.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string advertiserId The ID of the advertiser that has access to
+   * the assignment. If the parent inventory source group is partner-owned, only
+   * advertisers to which the parent group is explicitly shared can access the
+   * assigned inventory source.
+   * @opt_param string filter Allows filtering by assigned inventory source
+   * fields. Supported syntax: * Filter expressions are made up of one or more
+   * restrictions. * Restrictions can be combined by the logical operator `OR`. *
+   * A restriction has the form of `{field} {operator} {value}`. * The operator
+   * must be `EQUALS (=)`. * Supported fields: - `assignedInventorySourceId` The
+   * length of this field should be no more than 500 characters.
+   * @opt_param string orderBy Field by which to sort the list. Acceptable values
+   * are: * `assignedInventorySourceId` (default) The default sorting order is
+   * ascending. To specify descending order for a field, a suffix " desc" should
+   * be added to the field name. Example: `assignedInventorySourceId desc`.
+   * @opt_param int pageSize Requested page size. Must be between `1` and `100`.
+   * If unspecified will default to `100`. Returns error code `INVALID_ARGUMENT`
+   * if an invalid value is specified.
+   * @opt_param string pageToken A token identifying a page of results the server
+   * should return. Typically, this is the value of next_page_token returned from
+   * the previous call to `ListAssignedInventorySources` method. If not specified,
+   * the first page of results will be returned.
+   * @opt_param string partnerId The ID of the partner that has access to the
+   * assignment. If the parent inventory source group is advertiser-owned, the
+   * assignment cannot be accessed via a partner.
+   * @return ListAssignedInventorySourcesResponse
+   */
+  public function listInventorySourceGroupsAssignedInventorySources($inventorySourceGroupId, $optParams = [])
+  {
+    $params = ['inventorySourceGroupId' => $inventorySourceGroupId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListAssignedInventorySourcesResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(InventorySourceGroupsAssignedInventorySources::class, 'Google_Service_DisplayVideo_Resource_InventorySourceGroupsAssignedInventorySources');

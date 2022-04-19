@@ -1,61 +1,166 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-UwmYVH6H
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\YouTube\Resource;
+
+use Google\Service\YouTube\PlaylistItem;
+use Google\Service\YouTube\PlaylistItemListResponse;
+
+/**
+ * The "playlistItems" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $youtubeService = new Google\Service\YouTube(...);
+ *   $playlistItems = $youtubeService->playlistItems;
+ *  </code>
+ */
+class PlaylistItems extends \Google\Service\Resource
+{
+  /**
+   * Deletes a resource. (playlistItems.delete)
+   *
+   * @param string $id
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string onBehalfOfContentOwner *Note:* This parameter is intended
+   * exclusively for YouTube content partners. The *onBehalfOfContentOwner*
+   * parameter indicates that the request's authorization credentials identify a
+   * YouTube CMS user who is acting on behalf of the content owner specified in
+   * the parameter value. This parameter is intended for YouTube content partners
+   * that own and manage many different YouTube channels. It allows content owners
+   * to authenticate once and get access to all their video and channel data,
+   * without having to provide authentication credentials for each individual
+   * channel. The CMS account that the user authenticates with must be linked to
+   * the specified YouTube content owner.
+   */
+  public function delete($id, $optParams = [])
+  {
+    $params = ['id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Inserts a new resource into this collection. (playlistItems.insert)
+   *
+   * @param string|array $part The *part* parameter serves two purposes in this
+   * operation. It identifies the properties that the write operation will set as
+   * well as the properties that the API response will include.
+   * @param PlaylistItem $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string onBehalfOfContentOwner *Note:* This parameter is intended
+   * exclusively for YouTube content partners. The *onBehalfOfContentOwner*
+   * parameter indicates that the request's authorization credentials identify a
+   * YouTube CMS user who is acting on behalf of the content owner specified in
+   * the parameter value. This parameter is intended for YouTube content partners
+   * that own and manage many different YouTube channels. It allows content owners
+   * to authenticate once and get access to all their video and channel data,
+   * without having to provide authentication credentials for each individual
+   * channel. The CMS account that the user authenticates with must be linked to
+   * the specified YouTube content owner.
+   * @return PlaylistItem
+   */
+  public function insert($part, PlaylistItem $postBody, $optParams = [])
+  {
+    $params = ['part' => $part, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], PlaylistItem::class);
+  }
+  /**
+   * Retrieves a list of resources, possibly filtered.
+   * (playlistItems.listPlaylistItems)
+   *
+   * @param string|array $part The *part* parameter specifies a comma-separated
+   * list of one or more playlistItem resource properties that the API response
+   * will include. If the parameter identifies a property that contains child
+   * properties, the child properties will be included in the response. For
+   * example, in a playlistItem resource, the snippet property contains numerous
+   * fields, including the title, description, position, and resourceId
+   * properties. As such, if you set *part=snippet*, the API response will contain
+   * all of those properties.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string id
+   * @opt_param string maxResults The *maxResults* parameter specifies the maximum
+   * number of items that should be returned in the result set.
+   * @opt_param string onBehalfOfContentOwner *Note:* This parameter is intended
+   * exclusively for YouTube content partners. The *onBehalfOfContentOwner*
+   * parameter indicates that the request's authorization credentials identify a
+   * YouTube CMS user who is acting on behalf of the content owner specified in
+   * the parameter value. This parameter is intended for YouTube content partners
+   * that own and manage many different YouTube channels. It allows content owners
+   * to authenticate once and get access to all their video and channel data,
+   * without having to provide authentication credentials for each individual
+   * channel. The CMS account that the user authenticates with must be linked to
+   * the specified YouTube content owner.
+   * @opt_param string pageToken The *pageToken* parameter identifies a specific
+   * page in the result set that should be returned. In an API response, the
+   * nextPageToken and prevPageToken properties identify other pages that could be
+   * retrieved.
+   * @opt_param string playlistId Return the playlist items within the given
+   * playlist.
+   * @opt_param string videoId Return the playlist items associated with the given
+   * video ID.
+   * @return PlaylistItemListResponse
+   */
+  public function listPlaylistItems($part, $optParams = [])
+  {
+    $params = ['part' => $part];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], PlaylistItemListResponse::class);
+  }
+  /**
+   * Updates an existing resource. (playlistItems.update)
+   *
+   * @param string|array $part The *part* parameter serves two purposes in this
+   * operation. It identifies the properties that the write operation will set as
+   * well as the properties that the API response will include. Note that this
+   * method will override the existing values for all of the mutable properties
+   * that are contained in any parts that the parameter value specifies. For
+   * example, a playlist item can specify a start time and end time, which
+   * identify the times portion of the video that should play when users watch the
+   * video in the playlist. If your request is updating a playlist item that sets
+   * these values, and the request's part parameter value includes the
+   * contentDetails part, the playlist item's start and end times will be updated
+   * to whatever value the request body specifies. If the request body does not
+   * specify values, the existing start and end times will be removed and replaced
+   * with the default settings.
+   * @param PlaylistItem $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string onBehalfOfContentOwner *Note:* This parameter is intended
+   * exclusively for YouTube content partners. The *onBehalfOfContentOwner*
+   * parameter indicates that the request's authorization credentials identify a
+   * YouTube CMS user who is acting on behalf of the content owner specified in
+   * the parameter value. This parameter is intended for YouTube content partners
+   * that own and manage many different YouTube channels. It allows content owners
+   * to authenticate once and get access to all their video and channel data,
+   * without having to provide authentication credentials for each individual
+   * channel. The CMS account that the user authenticates with must be linked to
+   * the specified YouTube content owner.
+   * @return PlaylistItem
+   */
+  public function update($part, PlaylistItem $postBody, $optParams = [])
+  {
+    $params = ['part' => $part, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], PlaylistItem::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PlaylistItems::class, 'Google_Service_YouTube_Resource_PlaylistItems');

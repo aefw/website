@@ -1,69 +1,141 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-eW3+ktWX0lbx588JPbyF4EAsYgo/vMD+kG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Monitoring\Resource;
+
+use Google\Service\Monitoring\ListServiceLevelObjectivesResponse;
+use Google\Service\Monitoring\MonitoringEmpty;
+use Google\Service\Monitoring\ServiceLevelObjective;
+
+/**
+ * The "serviceLevelObjectives" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $monitoringService = new Google\Service\Monitoring(...);
+ *   $serviceLevelObjectives = $monitoringService->serviceLevelObjectives;
+ *  </code>
+ */
+class ServicesServiceLevelObjectives extends \Google\Service\Resource
+{
+  /**
+   * Create a ServiceLevelObjective for the given Service.
+   * (serviceLevelObjectives.create)
+   *
+   * @param string $parent Required. Resource name of the parent Service. The
+   * format is: projects/[PROJECT_ID_OR_NUMBER]/services/[SERVICE_ID]
+   * @param ServiceLevelObjective $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string serviceLevelObjectiveId Optional. The ServiceLevelObjective
+   * id to use for this ServiceLevelObjective. If omitted, an id will be generated
+   * instead. Must match the pattern [a-z0-9\-]+
+   * @return ServiceLevelObjective
+   */
+  public function create($parent, ServiceLevelObjective $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], ServiceLevelObjective::class);
+  }
+  /**
+   * Delete the given ServiceLevelObjective. (serviceLevelObjectives.delete)
+   *
+   * @param string $name Required. Resource name of the ServiceLevelObjective to
+   * delete. The format is: projects/[PROJECT_ID_OR_NUMBER]/services/[SERVICE_ID]/
+   * serviceLevelObjectives/[SLO_NAME]
+   * @param array $optParams Optional parameters.
+   * @return MonitoringEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], MonitoringEmpty::class);
+  }
+  /**
+   * Get a ServiceLevelObjective by name. (serviceLevelObjectives.get)
+   *
+   * @param string $name Required. Resource name of the ServiceLevelObjective to
+   * get. The format is: projects/[PROJECT_ID_OR_NUMBER]/services/[SERVICE_ID]/ser
+   * viceLevelObjectives/[SLO_NAME]
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string view View of the ServiceLevelObjective to return. If
+   * DEFAULT, return the ServiceLevelObjective as originally defined. If EXPLICIT
+   * and the ServiceLevelObjective is defined in terms of a BasicSli, replace the
+   * BasicSli with a RequestBasedSli spelling out how the SLI is computed.
+   * @return ServiceLevelObjective
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], ServiceLevelObjective::class);
+  }
+  /**
+   * List the ServiceLevelObjectives for the given Service.
+   * (serviceLevelObjectives.listServicesServiceLevelObjectives)
+   *
+   * @param string $parent Required. Resource name of the parent containing the
+   * listed SLOs, either a project or a Monitoring Workspace. The formats are:
+   * projects/[PROJECT_ID_OR_NUMBER]/services/[SERVICE_ID]
+   * workspaces/[HOST_PROJECT_ID_OR_NUMBER]/services/-
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter specifying what ServiceLevelObjectives to
+   * return.
+   * @opt_param int pageSize A non-negative number that is the maximum number of
+   * results to return. When 0, use default page size.
+   * @opt_param string pageToken If this field is not empty then it must contain
+   * the nextPageToken value returned by a previous call to this method. Using
+   * this field causes the method to return additional results from the previous
+   * method call.
+   * @opt_param string view View of the ServiceLevelObjectives to return. If
+   * DEFAULT, return each ServiceLevelObjective as originally defined. If EXPLICIT
+   * and the ServiceLevelObjective is defined in terms of a BasicSli, replace the
+   * BasicSli with a RequestBasedSli spelling out how the SLI is computed.
+   * @return ListServiceLevelObjectivesResponse
+   */
+  public function listServicesServiceLevelObjectives($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListServiceLevelObjectivesResponse::class);
+  }
+  /**
+   * Update the given ServiceLevelObjective. (serviceLevelObjectives.patch)
+   *
+   * @param string $name Resource name for this ServiceLevelObjective. The format
+   * is: projects/[PROJECT_ID_OR_NUMBER]/services/[SERVICE_ID]/serviceLevelObjecti
+   * ves/[SLO_NAME]
+   * @param ServiceLevelObjective $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask A set of field paths defining which fields to
+   * use for the update.
+   * @return ServiceLevelObjective
+   */
+  public function patch($name, ServiceLevelObjective $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], ServiceLevelObjective::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ServicesServiceLevelObjectives::class, 'Google_Service_Monitoring_Resource_ServicesServiceLevelObjectives');

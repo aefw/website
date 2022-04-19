@@ -1,123 +1,1225 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-8W71eczv0pi=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for SASPortalTesting (v1alpha1).
+ *
+ * <p>
+</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://developers.google.com/spectrum-access-system/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class SASPortalTesting extends \Google\Service
+{
+  /** See your primary Google Account email address. */
+  const USERINFO_EMAIL =
+      "https://www.googleapis.com/auth/userinfo.email";
+
+  public $customers;
+  public $customers_deployments;
+  public $customers_deployments_devices;
+  public $customers_devices;
+  public $customers_nodes;
+  public $customers_nodes_deployments;
+  public $customers_nodes_devices;
+  public $customers_nodes_nodes;
+  public $deployments;
+  public $deployments_devices;
+  public $installer;
+  public $nodes;
+  public $nodes_deployments;
+  public $nodes_deployments_devices;
+  public $nodes_devices;
+  public $nodes_nodes;
+  public $nodes_nodes_deployments;
+  public $nodes_nodes_devices;
+  public $nodes_nodes_nodes;
+  public $policies;
+
+  /**
+   * Constructs the internal representation of the SASPortalTesting service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://prod-tt-sasportal.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1alpha1';
+    $this->serviceName = 'prod_tt_sasportal';
+
+    $this->customers = new SASPortalTesting\Resource\Customers(
+        $this,
+        $this->serviceName,
+        'customers',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha1/customers',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->customers_deployments = new SASPortalTesting\Resource\CustomersDeployments(
+        $this,
+        $this->serviceName,
+        'deployments',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1alpha1/{+parent}/deployments',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha1/{+parent}/deployments',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'move' => [
+              'path' => 'v1alpha1/{+name}:move',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->customers_deployments_devices = new SASPortalTesting\Resource\CustomersDeploymentsDevices(
+        $this,
+        $this->serviceName,
+        'devices',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1alpha1/{+parent}/devices',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'createSigned' => [
+              'path' => 'v1alpha1/{+parent}/devices:createSigned',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha1/{+parent}/devices',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->customers_devices = new SASPortalTesting\Resource\CustomersDevices(
+        $this,
+        $this->serviceName,
+        'devices',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1alpha1/{+parent}/devices',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'createSigned' => [
+              'path' => 'v1alpha1/{+parent}/devices:createSigned',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha1/{+parent}/devices',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'move' => [
+              'path' => 'v1alpha1/{+name}:move',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'signDevice' => [
+              'path' => 'v1alpha1/{+name}:signDevice',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'updateSigned' => [
+              'path' => 'v1alpha1/{+name}:updateSigned',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->customers_nodes = new SASPortalTesting\Resource\CustomersNodes(
+        $this,
+        $this->serviceName,
+        'nodes',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1alpha1/{+parent}/nodes',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha1/{+parent}/nodes',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'move' => [
+              'path' => 'v1alpha1/{+name}:move',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->customers_nodes_deployments = new SASPortalTesting\Resource\CustomersNodesDeployments(
+        $this,
+        $this->serviceName,
+        'deployments',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1alpha1/{+parent}/deployments',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha1/{+parent}/deployments',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->customers_nodes_devices = new SASPortalTesting\Resource\CustomersNodesDevices(
+        $this,
+        $this->serviceName,
+        'devices',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1alpha1/{+parent}/devices',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'createSigned' => [
+              'path' => 'v1alpha1/{+parent}/devices:createSigned',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha1/{+parent}/devices',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->customers_nodes_nodes = new SASPortalTesting\Resource\CustomersNodesNodes(
+        $this,
+        $this->serviceName,
+        'nodes',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1alpha1/{+parent}/nodes',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha1/{+parent}/nodes',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->deployments = new SASPortalTesting\Resource\Deployments(
+        $this,
+        $this->serviceName,
+        'deployments',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->deployments_devices = new SASPortalTesting\Resource\DeploymentsDevices(
+        $this,
+        $this->serviceName,
+        'devices',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'move' => [
+              'path' => 'v1alpha1/{+name}:move',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'signDevice' => [
+              'path' => 'v1alpha1/{+name}:signDevice',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'updateSigned' => [
+              'path' => 'v1alpha1/{+name}:updateSigned',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->installer = new SASPortalTesting\Resource\Installer(
+        $this,
+        $this->serviceName,
+        'installer',
+        [
+          'methods' => [
+            'generateSecret' => [
+              'path' => 'v1alpha1/installer:generateSecret',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'validate' => [
+              'path' => 'v1alpha1/installer:validate',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],
+          ]
+        ]
+    );
+    $this->nodes = new SASPortalTesting\Resource\Nodes(
+        $this,
+        $this->serviceName,
+        'nodes',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->nodes_deployments = new SASPortalTesting\Resource\NodesDeployments(
+        $this,
+        $this->serviceName,
+        'deployments',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha1/{+parent}/deployments',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'move' => [
+              'path' => 'v1alpha1/{+name}:move',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->nodes_deployments_devices = new SASPortalTesting\Resource\NodesDeploymentsDevices(
+        $this,
+        $this->serviceName,
+        'devices',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1alpha1/{+parent}/devices',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'createSigned' => [
+              'path' => 'v1alpha1/{+parent}/devices:createSigned',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha1/{+parent}/devices',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->nodes_devices = new SASPortalTesting\Resource\NodesDevices(
+        $this,
+        $this->serviceName,
+        'devices',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1alpha1/{+parent}/devices',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'createSigned' => [
+              'path' => 'v1alpha1/{+parent}/devices:createSigned',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha1/{+parent}/devices',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'move' => [
+              'path' => 'v1alpha1/{+name}:move',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'signDevice' => [
+              'path' => 'v1alpha1/{+name}:signDevice',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'updateSigned' => [
+              'path' => 'v1alpha1/{+name}:updateSigned',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->nodes_nodes = new SASPortalTesting\Resource\NodesNodes(
+        $this,
+        $this->serviceName,
+        'nodes',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1alpha1/{+parent}/nodes',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha1/{+parent}/nodes',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'move' => [
+              'path' => 'v1alpha1/{+name}:move',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->nodes_nodes_deployments = new SASPortalTesting\Resource\NodesNodesDeployments(
+        $this,
+        $this->serviceName,
+        'deployments',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1alpha1/{+parent}/deployments',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha1/{+parent}/deployments',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->nodes_nodes_devices = new SASPortalTesting\Resource\NodesNodesDevices(
+        $this,
+        $this->serviceName,
+        'devices',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1alpha1/{+parent}/devices',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'createSigned' => [
+              'path' => 'v1alpha1/{+parent}/devices:createSigned',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha1/{+parent}/devices',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->nodes_nodes_nodes = new SASPortalTesting\Resource\NodesNodesNodes(
+        $this,
+        $this->serviceName,
+        'nodes',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1alpha1/{+parent}/nodes',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha1/{+parent}/nodes',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->policies = new SASPortalTesting\Resource\Policies(
+        $this,
+        $this->serviceName,
+        'policies',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1alpha1/policies:get',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'set' => [
+              'path' => 'v1alpha1/policies:set',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'test' => [
+              'path' => 'v1alpha1/policies:test',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(SASPortalTesting::class, 'Google_Service_SASPortalTesting');

@@ -1,98 +1,174 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-+RVyhzqL
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Analytics;
+
+class RemarketingAudience extends \Google\Collection
+{
+  protected $collection_key = 'linkedViews';
+  public $accountId;
+  protected $audienceDefinitionType = RemarketingAudienceAudienceDefinition::class;
+  protected $audienceDefinitionDataType = '';
+  public $audienceType;
+  public $created;
+  public $description;
+  public $id;
+  public $internalWebPropertyId;
+  public $kind;
+  protected $linkedAdAccountsType = LinkedForeignAccount::class;
+  protected $linkedAdAccountsDataType = 'array';
+  public $linkedViews;
+  public $name;
+  protected $stateBasedAudienceDefinitionType = RemarketingAudienceStateBasedAudienceDefinition::class;
+  protected $stateBasedAudienceDefinitionDataType = '';
+  public $updated;
+  public $webPropertyId;
+
+  public function setAccountId($accountId)
+  {
+    $this->accountId = $accountId;
+  }
+  public function getAccountId()
+  {
+    return $this->accountId;
+  }
+  /**
+   * @param RemarketingAudienceAudienceDefinition
+   */
+  public function setAudienceDefinition(RemarketingAudienceAudienceDefinition $audienceDefinition)
+  {
+    $this->audienceDefinition = $audienceDefinition;
+  }
+  /**
+   * @return RemarketingAudienceAudienceDefinition
+   */
+  public function getAudienceDefinition()
+  {
+    return $this->audienceDefinition;
+  }
+  public function setAudienceType($audienceType)
+  {
+    $this->audienceType = $audienceType;
+  }
+  public function getAudienceType()
+  {
+    return $this->audienceType;
+  }
+  public function setCreated($created)
+  {
+    $this->created = $created;
+  }
+  public function getCreated()
+  {
+    return $this->created;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setInternalWebPropertyId($internalWebPropertyId)
+  {
+    $this->internalWebPropertyId = $internalWebPropertyId;
+  }
+  public function getInternalWebPropertyId()
+  {
+    return $this->internalWebPropertyId;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  /**
+   * @param LinkedForeignAccount[]
+   */
+  public function setLinkedAdAccounts($linkedAdAccounts)
+  {
+    $this->linkedAdAccounts = $linkedAdAccounts;
+  }
+  /**
+   * @return LinkedForeignAccount[]
+   */
+  public function getLinkedAdAccounts()
+  {
+    return $this->linkedAdAccounts;
+  }
+  public function setLinkedViews($linkedViews)
+  {
+    $this->linkedViews = $linkedViews;
+  }
+  public function getLinkedViews()
+  {
+    return $this->linkedViews;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  /**
+   * @param RemarketingAudienceStateBasedAudienceDefinition
+   */
+  public function setStateBasedAudienceDefinition(RemarketingAudienceStateBasedAudienceDefinition $stateBasedAudienceDefinition)
+  {
+    $this->stateBasedAudienceDefinition = $stateBasedAudienceDefinition;
+  }
+  /**
+   * @return RemarketingAudienceStateBasedAudienceDefinition
+   */
+  public function getStateBasedAudienceDefinition()
+  {
+    return $this->stateBasedAudienceDefinition;
+  }
+  public function setUpdated($updated)
+  {
+    $this->updated = $updated;
+  }
+  public function getUpdated()
+  {
+    return $this->updated;
+  }
+  public function setWebPropertyId($webPropertyId)
+  {
+    $this->webPropertyId = $webPropertyId;
+  }
+  public function getWebPropertyId()
+  {
+    return $this->webPropertyId;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(RemarketingAudience::class, 'Google_Service_Analytics_RemarketingAudience');

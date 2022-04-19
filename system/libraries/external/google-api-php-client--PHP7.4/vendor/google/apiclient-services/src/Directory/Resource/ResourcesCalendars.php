@@ -1,75 +1,159 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Directory\Resource;
+
+use Google\Service\Directory\CalendarResource;
+use Google\Service\Directory\CalendarResources;
+
+/**
+ * The "calendars" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $adminService = new Google\Service\Directory(...);
+ *   $calendars = $adminService->calendars;
+ *  </code>
+ */
+class ResourcesCalendars extends \Google\Service\Resource
+{
+  /**
+   * Deletes a calendar resource. (calendars.delete)
+   *
+   * @param string $customer The unique ID for the customer's Google Workspace
+   * account. As an account administrator, you can also use the `my_customer`
+   * alias to represent your account's customer ID.
+   * @param string $calendarResourceId The unique ID of the calendar resource to
+   * delete.
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($customer, $calendarResourceId, $optParams = [])
+  {
+    $params = ['customer' => $customer, 'calendarResourceId' => $calendarResourceId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Retrieves a calendar resource. (calendars.get)
+   *
+   * @param string $customer The unique ID for the customer's Google Workspace
+   * account. As an account administrator, you can also use the `my_customer`
+   * alias to represent your account's customer ID.
+   * @param string $calendarResourceId The unique ID of the calendar resource to
+   * retrieve.
+   * @param array $optParams Optional parameters.
+   * @return CalendarResource
+   */
+  public function get($customer, $calendarResourceId, $optParams = [])
+  {
+    $params = ['customer' => $customer, 'calendarResourceId' => $calendarResourceId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], CalendarResource::class);
+  }
+  /**
+   * Inserts a calendar resource. (calendars.insert)
+   *
+   * @param string $customer The unique ID for the customer's Google Workspace
+   * account. As an account administrator, you can also use the `my_customer`
+   * alias to represent your account's customer ID.
+   * @param CalendarResource $postBody
+   * @param array $optParams Optional parameters.
+   * @return CalendarResource
+   */
+  public function insert($customer, CalendarResource $postBody, $optParams = [])
+  {
+    $params = ['customer' => $customer, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], CalendarResource::class);
+  }
+  /**
+   * Retrieves a list of calendar resources for an account.
+   * (calendars.listResourcesCalendars)
+   *
+   * @param string $customer The unique ID for the customer's Google Workspace
+   * account. As an account administrator, you can also use the `my_customer`
+   * alias to represent your account's customer ID.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int maxResults Maximum number of results to return.
+   * @opt_param string orderBy Field(s) to sort results by in either ascending or
+   * descending order. Supported fields include `resourceId`, `resourceName`,
+   * `capacity`, `buildingId`, and `floorName`. If no order is specified, defaults
+   * to ascending. Should be of the form "field [asc|desc], field [asc|desc],
+   * ...". For example `buildingId, capacity desc` would return results sorted
+   * first by `buildingId` in ascending order then by `capacity` in descending
+   * order.
+   * @opt_param string pageToken Token to specify the next page in the list.
+   * @opt_param string query String query used to filter results. Should be of the
+   * form "field operator value" where field can be any of supported fields and
+   * operators can be any of supported operations. Operators include '=' for exact
+   * match, '!=' for mismatch and ':' for prefix match or HAS match where
+   * applicable. For prefix match, the value should always be followed by a *.
+   * Logical operators NOT and AND are supported (in this order of precedence).
+   * Supported fields include `generatedResourceName`, `name`, `buildingId`,
+   * `floor_name`, `capacity`, `featureInstances.feature.name`, `resourceEmail`,
+   * `resourceCategory`. For example `buildingId=US-NYC-9TH AND
+   * featureInstances.feature.name:Phone`.
+   * @return CalendarResources
+   */
+  public function listResourcesCalendars($customer, $optParams = [])
+  {
+    $params = ['customer' => $customer];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], CalendarResources::class);
+  }
+  /**
+   * Patches a calendar resource via Apiary Patch Orchestration. (calendars.patch)
+   *
+   * @param string $customer The unique ID for the customer's Google Workspace
+   * account. As an account administrator, you can also use the `my_customer`
+   * alias to represent your account's customer ID.
+   * @param string $calendarResourceId The unique ID of the calendar resource to
+   * update.
+   * @param CalendarResource $postBody
+   * @param array $optParams Optional parameters.
+   * @return CalendarResource
+   */
+  public function patch($customer, $calendarResourceId, CalendarResource $postBody, $optParams = [])
+  {
+    $params = ['customer' => $customer, 'calendarResourceId' => $calendarResourceId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], CalendarResource::class);
+  }
+  /**
+   * Updates a calendar resource. This method supports patch semantics, meaning
+   * you only need to include the fields you wish to update. Fields that are not
+   * present in the request will be preserved. (calendars.update)
+   *
+   * @param string $customer The unique ID for the customer's Google Workspace
+   * account. As an account administrator, you can also use the `my_customer`
+   * alias to represent your account's customer ID.
+   * @param string $calendarResourceId The unique ID of the calendar resource to
+   * update.
+   * @param CalendarResource $postBody
+   * @param array $optParams Optional parameters.
+   * @return CalendarResource
+   */
+  public function update($customer, $calendarResourceId, CalendarResource $postBody, $optParams = [])
+  {
+    $params = ['customer' => $customer, 'calendarResourceId' => $calendarResourceId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], CalendarResource::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ResourcesCalendars::class, 'Google_Service_Directory_Resource_ResourcesCalendars');

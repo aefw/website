@@ -1,64 +1,86 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Ca407H3pECb3gMMcEuC0252WFkZxCG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AdExchangeBuyer;
+
+class DealTermsGuaranteedFixedPriceTerms extends \Google\Collection
+{
+  protected $collection_key = 'fixedPrices';
+  protected $billingInfoType = DealTermsGuaranteedFixedPriceTermsBillingInfo::class;
+  protected $billingInfoDataType = '';
+  protected $fixedPricesType = PricePerBuyer::class;
+  protected $fixedPricesDataType = 'array';
+  public $guaranteedImpressions;
+  public $guaranteedLooks;
+  public $minimumDailyLooks;
+
+  /**
+   * @param DealTermsGuaranteedFixedPriceTermsBillingInfo
+   */
+  public function setBillingInfo(DealTermsGuaranteedFixedPriceTermsBillingInfo $billingInfo)
+  {
+    $this->billingInfo = $billingInfo;
+  }
+  /**
+   * @return DealTermsGuaranteedFixedPriceTermsBillingInfo
+   */
+  public function getBillingInfo()
+  {
+    return $this->billingInfo;
+  }
+  /**
+   * @param PricePerBuyer[]
+   */
+  public function setFixedPrices($fixedPrices)
+  {
+    $this->fixedPrices = $fixedPrices;
+  }
+  /**
+   * @return PricePerBuyer[]
+   */
+  public function getFixedPrices()
+  {
+    return $this->fixedPrices;
+  }
+  public function setGuaranteedImpressions($guaranteedImpressions)
+  {
+    $this->guaranteedImpressions = $guaranteedImpressions;
+  }
+  public function getGuaranteedImpressions()
+  {
+    return $this->guaranteedImpressions;
+  }
+  public function setGuaranteedLooks($guaranteedLooks)
+  {
+    $this->guaranteedLooks = $guaranteedLooks;
+  }
+  public function getGuaranteedLooks()
+  {
+    return $this->guaranteedLooks;
+  }
+  public function setMinimumDailyLooks($minimumDailyLooks)
+  {
+    $this->minimumDailyLooks = $minimumDailyLooks;
+  }
+  public function getMinimumDailyLooks()
+  {
+    return $this->minimumDailyLooks;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(DealTermsGuaranteedFixedPriceTerms::class, 'Google_Service_AdExchangeBuyer_DealTermsGuaranteedFixedPriceTerms');

@@ -1,171 +1,176 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-j3U5uUa=
+<?php
+
+namespace PhpOffice\PhpSpreadsheet\Cell;
+
+use PhpOffice\PhpSpreadsheet\Calculation\Calculation;
+use PhpOffice\PhpSpreadsheet\RichText\RichText;
+use PhpOffice\PhpSpreadsheet\Shared\Date;
+use PhpOffice\PhpSpreadsheet\Shared\StringHelper;
+use PhpOffice\PhpSpreadsheet\Style\NumberFormat;
+
+class AdvancedValueBinder extends DefaultValueBinder implements IValueBinder
+{
+    /**
+     * Bind value to a cell.
+     *
+     * @param Cell $cell Cell to bind value to
+     * @param mixed $value Value to bind in cell
+     *
+     * @throws \PhpOffice\PhpSpreadsheet\Exception
+     *
+     * @return bool
+     */
+    public function bindValue(Cell $cell, $value = null)
+    {
+        // sanitize UTF-8 strings
+        if (is_string($value)) {
+            $value = StringHelper::sanitizeUTF8($value);
+        }
+
+        // Find out data type
+        $dataType = parent::dataTypeForValue($value);
+
+        // Style logic - strings
+        if ($dataType === DataType::TYPE_STRING && !$value instanceof RichText) {
+            //    Test for booleans using locale-setting
+            if ($value == Calculation::getTRUE()) {
+                $cell->setValueExplicit(true, DataType::TYPE_BOOL);
+
+                return true;
+            } elseif ($value == Calculation::getFALSE()) {
+                $cell->setValueExplicit(false, DataType::TYPE_BOOL);
+
+                return true;
+            }
+
+            // Check for number in scientific format
+            if (preg_match('/^' . Calculation::CALCULATION_REGEXP_NUMBER . '$/', $value)) {
+                $cell->setValueExplicit((float) $value, DataType::TYPE_NUMERIC);
+
+                return true;
+            }
+
+            // Check for fraction
+            if (preg_match('/^([+-]?)\s*(\d+)\s?\/\s*(\d+)$/', $value, $matches)) {
+                // Convert value to number
+                $value = $matches[2] / $matches[3];
+                if ($matches[1] == '-') {
+                    $value = 0 - $value;
+                }
+                $cell->setValueExplicit((float) $value, DataType::TYPE_NUMERIC);
+                // Set style
+                $cell->getWorksheet()->getStyle($cell->getCoordinate())
+                    ->getNumberFormat()->setFormatCode('??/??');
+
+                return true;
+            } elseif (preg_match('/^([+-]?)(\d*) +(\d*)\s?\/\s*(\d*)$/', $value, $matches)) {
+                // Convert value to number
+                $value = $matches[2] + ($matches[3] / $matches[4]);
+                if ($matches[1] == '-') {
+                    $value = 0 - $value;
+                }
+                $cell->setValueExplicit((float) $value, DataType::TYPE_NUMERIC);
+                // Set style
+                $cell->getWorksheet()->getStyle($cell->getCoordinate())
+                    ->getNumberFormat()->setFormatCode('# ??/??');
+
+                return true;
+            }
+
+            // Check for percentage
+            if (preg_match('/^\-?\d*\.?\d*\s?\%$/', $value)) {
+                // Convert value to number
+                $value = (float) str_replace('%', '', $value) / 100;
+                $cell->setValueExplicit($value, DataType::TYPE_NUMERIC);
+                // Set style
+                $cell->getWorksheet()->getStyle($cell->getCoordinate())
+                    ->getNumberFormat()->setFormatCode(NumberFormat::FORMAT_PERCENTAGE_00);
+
+                return true;
+            }
+
+            // Check for currency
+            $currencyCode = StringHelper::getCurrencyCode();
+            $decimalSeparator = StringHelper::getDecimalSeparator();
+            $thousandsSeparator = StringHelper::getThousandsSeparator();
+            if (preg_match('/^' . preg_quote($currencyCode, '/') . ' *(\d{1,3}(' . preg_quote($thousandsSeparator, '/') . '\d{3})*|(\d+))(' . preg_quote($decimalSeparator, '/') . '\d{2})?$/', $value)) {
+                // Convert value to number
+                $value = (float) trim(str_replace([$currencyCode, $thousandsSeparator, $decimalSeparator], ['', '', '.'], $value));
+                $cell->setValueExplicit($value, DataType::TYPE_NUMERIC);
+                // Set style
+                $cell->getWorksheet()->getStyle($cell->getCoordinate())
+                    ->getNumberFormat()->setFormatCode(
+                        str_replace('$', $currencyCode, NumberFormat::FORMAT_CURRENCY_USD_SIMPLE)
+                    );
+
+                return true;
+            } elseif (preg_match('/^\$ *(\d{1,3}(\,\d{3})*|(\d+))(\.\d{2})?$/', $value)) {
+                // Convert value to number
+                $value = (float) trim(str_replace(['$', ','], '', $value));
+                $cell->setValueExplicit($value, DataType::TYPE_NUMERIC);
+                // Set style
+                $cell->getWorksheet()->getStyle($cell->getCoordinate())
+                    ->getNumberFormat()->setFormatCode(NumberFormat::FORMAT_CURRENCY_USD_SIMPLE);
+
+                return true;
+            }
+
+            // Check for time without seconds e.g. '9:45', '09:45'
+            if (preg_match('/^(\d|[0-1]\d|2[0-3]):[0-5]\d$/', $value)) {
+                // Convert value to number
+                [$h, $m] = explode(':', $value);
+                $days = $h / 24 + $m / 1440;
+                $cell->setValueExplicit($days, DataType::TYPE_NUMERIC);
+                // Set style
+                $cell->getWorksheet()->getStyle($cell->getCoordinate())
+                    ->getNumberFormat()->setFormatCode(NumberFormat::FORMAT_DATE_TIME3);
+
+                return true;
+            }
+
+            // Check for time with seconds '9:45:59', '09:45:59'
+            if (preg_match('/^(\d|[0-1]\d|2[0-3]):[0-5]\d:[0-5]\d$/', $value)) {
+                // Convert value to number
+                [$h, $m, $s] = explode(':', $value);
+                $days = $h / 24 + $m / 1440 + $s / 86400;
+                // Convert value to number
+                $cell->setValueExplicit($days, DataType::TYPE_NUMERIC);
+                // Set style
+                $cell->getWorksheet()->getStyle($cell->getCoordinate())
+                    ->getNumberFormat()->setFormatCode(NumberFormat::FORMAT_DATE_TIME4);
+
+                return true;
+            }
+
+            // Check for datetime, e.g. '2008-12-31', '2008-12-31 15:59', '2008-12-31 15:59:10'
+            if (($d = Date::stringToExcel($value)) !== false) {
+                // Convert value to number
+                $cell->setValueExplicit($d, DataType::TYPE_NUMERIC);
+                // Determine style. Either there is a time part or not. Look for ':'
+                if (strpos($value, ':') !== false) {
+                    $formatCode = 'yyyy-mm-dd h:mm';
+                } else {
+                    $formatCode = 'yyyy-mm-dd';
+                }
+                $cell->getWorksheet()->getStyle($cell->getCoordinate())
+                    ->getNumberFormat()->setFormatCode($formatCode);
+
+                return true;
+            }
+
+            // Check for newline character "\n"
+            if (strpos($value, "\n") !== false) {
+                $value = StringHelper::sanitizeUTF8($value);
+                $cell->setValueExplicit($value, DataType::TYPE_STRING);
+                // Set style
+                $cell->getWorksheet()->getStyle($cell->getCoordinate())
+                    ->getAlignment()->setWrapText(true);
+
+                return true;
+            }
+        }
+
+        // Not bound yet? Use parent...
+        return parent::bindValue($cell, $value);
+    }
+}

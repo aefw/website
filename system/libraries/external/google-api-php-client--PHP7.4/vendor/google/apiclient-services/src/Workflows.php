@@ -1,61 +1,244 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for Workflows (v1).
+ *
+ * <p>
+ * Manage workflow definitions. To execute workflows and manage executions, see
+ * the Workflows Executions API.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/workflows" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class Workflows extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+
+  public $projects_locations;
+  public $projects_locations_operations;
+  public $projects_locations_workflows;
+
+  /**
+   * Constructs the internal representation of the Workflows service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://workflows.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'workflows';
+
+    $this->projects_locations = new Workflows\Resource\ProjectsLocations(
+        $this,
+        $this->serviceName,
+        'locations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+name}/locations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_operations = new Workflows\Resource\ProjectsLocationsOperations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+name}/operations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_workflows = new Workflows\Resource\ProjectsLocationsWorkflows(
+        $this,
+        $this->serviceName,
+        'workflows',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/workflows',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'workflowId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/workflows',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Workflows::class, 'Google_Service_Workflows');

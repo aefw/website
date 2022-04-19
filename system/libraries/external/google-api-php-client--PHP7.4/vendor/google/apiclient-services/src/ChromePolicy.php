@@ -1,65 +1,183 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for ChromePolicy (v1).
+ *
+ * <p>
+ * The Chrome Policy API is a suite of services that allows Chrome
+ * administrators to control the policies applied to their managed Chrome OS
+ * devices and Chrome browsers.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="http://developers.google.com/chrome/policy" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class ChromePolicy extends \Google\Service
+{
+  /** See, edit, create or delete policies applied to Chrome OS and Chrome Browsers managed within your organization. */
+  const CHROME_MANAGEMENT_POLICY =
+      "https://www.googleapis.com/auth/chrome.management.policy";
+  /** See policies applied to Chrome OS and Chrome Browsers managed within your organization. */
+  const CHROME_MANAGEMENT_POLICY_READONLY =
+      "https://www.googleapis.com/auth/chrome.management.policy.readonly";
+
+  public $customers_policies;
+  public $customers_policies_orgunits;
+  public $customers_policySchemas;
+  public $media;
+
+  /**
+   * Constructs the internal representation of the ChromePolicy service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://chromepolicy.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'chromepolicy';
+
+    $this->customers_policies = new ChromePolicy\Resource\CustomersPolicies(
+        $this,
+        $this->serviceName,
+        'policies',
+        [
+          'methods' => [
+            'resolve' => [
+              'path' => 'v1/{+customer}/policies:resolve',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->customers_policies_orgunits = new ChromePolicy\Resource\CustomersPoliciesOrgunits(
+        $this,
+        $this->serviceName,
+        'orgunits',
+        [
+          'methods' => [
+            'batchInherit' => [
+              'path' => 'v1/{+customer}/policies/orgunits:batchInherit',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'batchModify' => [
+              'path' => 'v1/{+customer}/policies/orgunits:batchModify',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->customers_policySchemas = new ChromePolicy\Resource\CustomersPolicySchemas(
+        $this,
+        $this->serviceName,
+        'policySchemas',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/policySchemas',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->media = new ChromePolicy\Resource\Media(
+        $this,
+        $this->serviceName,
+        'media',
+        [
+          'methods' => [
+            'upload' => [
+              'path' => 'v1/{+customer}/policies/files:uploadPolicyFile',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ChromePolicy::class, 'Google_Service_ChromePolicy');

@@ -1,62 +1,106 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\MyBusinessLodging;
+
+class HealthAndSafety extends \Google\Model
+{
+  protected $enhancedCleaningType = EnhancedCleaning::class;
+  protected $enhancedCleaningDataType = '';
+  protected $increasedFoodSafetyType = IncreasedFoodSafety::class;
+  protected $increasedFoodSafetyDataType = '';
+  protected $minimizedContactType = MinimizedContact::class;
+  protected $minimizedContactDataType = '';
+  protected $personalProtectionType = PersonalProtection::class;
+  protected $personalProtectionDataType = '';
+  protected $physicalDistancingType = PhysicalDistancing::class;
+  protected $physicalDistancingDataType = '';
+
+  /**
+   * @param EnhancedCleaning
+   */
+  public function setEnhancedCleaning(EnhancedCleaning $enhancedCleaning)
+  {
+    $this->enhancedCleaning = $enhancedCleaning;
+  }
+  /**
+   * @return EnhancedCleaning
+   */
+  public function getEnhancedCleaning()
+  {
+    return $this->enhancedCleaning;
+  }
+  /**
+   * @param IncreasedFoodSafety
+   */
+  public function setIncreasedFoodSafety(IncreasedFoodSafety $increasedFoodSafety)
+  {
+    $this->increasedFoodSafety = $increasedFoodSafety;
+  }
+  /**
+   * @return IncreasedFoodSafety
+   */
+  public function getIncreasedFoodSafety()
+  {
+    return $this->increasedFoodSafety;
+  }
+  /**
+   * @param MinimizedContact
+   */
+  public function setMinimizedContact(MinimizedContact $minimizedContact)
+  {
+    $this->minimizedContact = $minimizedContact;
+  }
+  /**
+   * @return MinimizedContact
+   */
+  public function getMinimizedContact()
+  {
+    return $this->minimizedContact;
+  }
+  /**
+   * @param PersonalProtection
+   */
+  public function setPersonalProtection(PersonalProtection $personalProtection)
+  {
+    $this->personalProtection = $personalProtection;
+  }
+  /**
+   * @return PersonalProtection
+   */
+  public function getPersonalProtection()
+  {
+    return $this->personalProtection;
+  }
+  /**
+   * @param PhysicalDistancing
+   */
+  public function setPhysicalDistancing(PhysicalDistancing $physicalDistancing)
+  {
+    $this->physicalDistancing = $physicalDistancing;
+  }
+  /**
+   * @return PhysicalDistancing
+   */
+  public function getPhysicalDistancing()
+  {
+    return $this->physicalDistancing;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(HealthAndSafety::class, 'Google_Service_MyBusinessLodging_HealthAndSafety');

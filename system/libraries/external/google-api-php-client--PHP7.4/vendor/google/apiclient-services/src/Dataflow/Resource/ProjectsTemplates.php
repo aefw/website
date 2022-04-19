@@ -1,59 +1,105 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-jvIbRxLfWAo28n8LGT0lZkDCXoYvIq5TVG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dataflow\Resource;
+
+use Google\Service\Dataflow\CreateJobFromTemplateRequest;
+use Google\Service\Dataflow\GetTemplateResponse;
+use Google\Service\Dataflow\Job;
+use Google\Service\Dataflow\LaunchTemplateParameters;
+use Google\Service\Dataflow\LaunchTemplateResponse;
+
+/**
+ * The "templates" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $dataflowService = new Google\Service\Dataflow(...);
+ *   $templates = $dataflowService->templates;
+ *  </code>
+ */
+class ProjectsTemplates extends \Google\Service\Resource
+{
+  /**
+   * Creates a Cloud Dataflow job from a template. (templates.create)
+   *
+   * @param string $projectId Required. The ID of the Cloud Platform project that
+   * the job belongs to.
+   * @param CreateJobFromTemplateRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Job
+   */
+  public function create($projectId, CreateJobFromTemplateRequest $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Job::class);
+  }
+  /**
+   * Get the template associated with a template. (templates.get)
+   *
+   * @param string $projectId Required. The ID of the Cloud Platform project that
+   * the job belongs to.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string gcsPath Required. A Cloud Storage path to the template from
+   * which to create the job. Must be valid Cloud Storage URL, beginning with
+   * 'gs://'.
+   * @opt_param string location The [regional endpoint]
+   * (https://cloud.google.com/dataflow/docs/concepts/regional-endpoints) to which
+   * to direct the request.
+   * @opt_param string view The view to retrieve. Defaults to METADATA_ONLY.
+   * @return GetTemplateResponse
+   */
+  public function get($projectId, $optParams = [])
+  {
+    $params = ['projectId' => $projectId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GetTemplateResponse::class);
+  }
+  /**
+   * Launch a template. (templates.launch)
+   *
+   * @param string $projectId Required. The ID of the Cloud Platform project that
+   * the job belongs to.
+   * @param LaunchTemplateParameters $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string dynamicTemplate.gcsPath Path to dynamic template spec file
+   * on Cloud Storage. The file must be a Json serialized DynamicTemplateFieSpec
+   * object.
+   * @opt_param string dynamicTemplate.stagingLocation Cloud Storage path for
+   * staging dependencies. Must be a valid Cloud Storage URL, beginning with
+   * `gs://`.
+   * @opt_param string gcsPath A Cloud Storage path to the template from which to
+   * create the job. Must be valid Cloud Storage URL, beginning with 'gs://'.
+   * @opt_param string location The [regional endpoint]
+   * (https://cloud.google.com/dataflow/docs/concepts/regional-endpoints) to which
+   * to direct the request.
+   * @opt_param bool validateOnly If true, the request is validated but not
+   * actually executed. Defaults to false.
+   * @return LaunchTemplateResponse
+   */
+  public function launch($projectId, LaunchTemplateParameters $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('launch', [$params], LaunchTemplateResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsTemplates::class, 'Google_Service_Dataflow_Resource_ProjectsTemplates');

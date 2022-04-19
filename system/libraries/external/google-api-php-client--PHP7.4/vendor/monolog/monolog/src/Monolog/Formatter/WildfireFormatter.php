@@ -1,80 +1,129 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-R2NjSuAc95FVl+MHoSy=
+<?php declare(strict_types=1);
+
+/*
+ * This file is part of the Monolog package.
+ *
+ * (c) Jordi Boggiano <j.boggiano@seld.be>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Monolog\Formatter;
+
+use Monolog\Logger;
+
+/**
+ * Serializes a log message according to Wildfire's header requirements
+ *
+ * @author Eric Clemmons (@ericclemmons) <eric@uxdriven.com>
+ * @author Christophe Coevoet <stof@notk.org>
+ * @author Kirill chEbba Chebunin <iam@chebba.org>
+ */
+class WildfireFormatter extends NormalizerFormatter
+{
+    /**
+     * Translates Monolog log levels to Wildfire levels.
+     */
+    private $logLevels = [
+        Logger::DEBUG     => 'LOG',
+        Logger::INFO      => 'INFO',
+        Logger::NOTICE    => 'INFO',
+        Logger::WARNING   => 'WARN',
+        Logger::ERROR     => 'ERROR',
+        Logger::CRITICAL  => 'ERROR',
+        Logger::ALERT     => 'ERROR',
+        Logger::EMERGENCY => 'ERROR',
+    ];
+
+    /**
+     * @param string|null $dateFormat The format of the timestamp: one supported by DateTime::format
+     */
+    public function __construct(?string $dateFormat = null)
+    {
+        parent::__construct($dateFormat);
+
+        // http headers do not like non-ISO-8559-1 characters
+        $this->removeJsonEncodeOption(JSON_UNESCAPED_UNICODE);
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function format(array $record): string
+    {
+        // Retrieve the line and file if set and remove them from the formatted extra
+        $file = $line = '';
+        if (isset($record['extra']['file'])) {
+            $file = $record['extra']['file'];
+            unset($record['extra']['file']);
+        }
+        if (isset($record['extra']['line'])) {
+            $line = $record['extra']['line'];
+            unset($record['extra']['line']);
+        }
+
+        $record = $this->normalize($record);
+        $message = ['message' => $record['message']];
+        $handleError = false;
+        if ($record['context']) {
+            $message['context'] = $record['context'];
+            $handleError = true;
+        }
+        if ($record['extra']) {
+            $message['extra'] = $record['extra'];
+            $handleError = true;
+        }
+        if (count($message) === 1) {
+            $message = reset($message);
+        }
+
+        if (isset($record['context']['table'])) {
+            $type  = 'TABLE';
+            $label = $record['channel'] .': '. $record['message'];
+            $message = $record['context']['table'];
+        } else {
+            $type  = $this->logLevels[$record['level']];
+            $label = $record['channel'];
+        }
+
+        // Create JSON object describing the appearance of the message in the console
+        $json = $this->toJson([
+            [
+                'Type'  => $type,
+                'File'  => $file,
+                'Line'  => $line,
+                'Label' => $label,
+            ],
+            $message,
+        ], $handleError);
+
+        // The message itself is a serialization of the above JSON object + it's length
+        return sprintf(
+            '%d|%s|',
+            strlen($json),
+            $json
+        );
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function formatBatch(array $records)
+    {
+        throw new \BadMethodCallException('Batch formatting does not make sense for the WildfireFormatter');
+    }
+
+    /**
+     * {@inheritdoc}
+     * @return int|bool|string|null|array|object
+     */
+    protected function normalize($data, int $depth = 0)
+    {
+        if (is_object($data) && !$data instanceof \DateTimeInterface) {
+            return $data;
+        }
+
+        return parent::normalize($data, $depth);
+    }
+}

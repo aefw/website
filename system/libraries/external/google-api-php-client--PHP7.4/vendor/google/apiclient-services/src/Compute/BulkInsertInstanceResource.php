@@ -1,71 +1,110 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-3U8RIHq4LojSspU4QQ8pXrVh
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute;
+
+class BulkInsertInstanceResource extends \Google\Model
+{
+  public $count;
+  protected $instancePropertiesType = InstanceProperties::class;
+  protected $instancePropertiesDataType = '';
+  protected $locationPolicyType = LocationPolicy::class;
+  protected $locationPolicyDataType = '';
+  public $minCount;
+  public $namePattern;
+  protected $perInstancePropertiesType = BulkInsertInstanceResourcePerInstanceProperties::class;
+  protected $perInstancePropertiesDataType = 'map';
+  public $sourceInstanceTemplate;
+
+  public function setCount($count)
+  {
+    $this->count = $count;
+  }
+  public function getCount()
+  {
+    return $this->count;
+  }
+  /**
+   * @param InstanceProperties
+   */
+  public function setInstanceProperties(InstanceProperties $instanceProperties)
+  {
+    $this->instanceProperties = $instanceProperties;
+  }
+  /**
+   * @return InstanceProperties
+   */
+  public function getInstanceProperties()
+  {
+    return $this->instanceProperties;
+  }
+  /**
+   * @param LocationPolicy
+   */
+  public function setLocationPolicy(LocationPolicy $locationPolicy)
+  {
+    $this->locationPolicy = $locationPolicy;
+  }
+  /**
+   * @return LocationPolicy
+   */
+  public function getLocationPolicy()
+  {
+    return $this->locationPolicy;
+  }
+  public function setMinCount($minCount)
+  {
+    $this->minCount = $minCount;
+  }
+  public function getMinCount()
+  {
+    return $this->minCount;
+  }
+  public function setNamePattern($namePattern)
+  {
+    $this->namePattern = $namePattern;
+  }
+  public function getNamePattern()
+  {
+    return $this->namePattern;
+  }
+  /**
+   * @param BulkInsertInstanceResourcePerInstanceProperties[]
+   */
+  public function setPerInstanceProperties($perInstanceProperties)
+  {
+    $this->perInstanceProperties = $perInstanceProperties;
+  }
+  /**
+   * @return BulkInsertInstanceResourcePerInstanceProperties[]
+   */
+  public function getPerInstanceProperties()
+  {
+    return $this->perInstanceProperties;
+  }
+  public function setSourceInstanceTemplate($sourceInstanceTemplate)
+  {
+    $this->sourceInstanceTemplate = $sourceInstanceTemplate;
+  }
+  public function getSourceInstanceTemplate()
+  {
+    return $this->sourceInstanceTemplate;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(BulkInsertInstanceResource::class, 'Google_Service_Compute_BulkInsertInstanceResource');

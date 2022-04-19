@@ -1,87 +1,203 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-T0==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudMachineLearningEngine\Resource;
+
+use Google\Service\CloudMachineLearningEngine\GoogleCloudMlV1CancelJobRequest;
+use Google\Service\CloudMachineLearningEngine\GoogleCloudMlV1Job;
+use Google\Service\CloudMachineLearningEngine\GoogleCloudMlV1ListJobsResponse;
+use Google\Service\CloudMachineLearningEngine\GoogleIamV1Policy;
+use Google\Service\CloudMachineLearningEngine\GoogleIamV1SetIamPolicyRequest;
+use Google\Service\CloudMachineLearningEngine\GoogleIamV1TestIamPermissionsRequest;
+use Google\Service\CloudMachineLearningEngine\GoogleIamV1TestIamPermissionsResponse;
+use Google\Service\CloudMachineLearningEngine\GoogleProtobufEmpty;
+
+/**
+ * The "jobs" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $mlService = new Google\Service\CloudMachineLearningEngine(...);
+ *   $jobs = $mlService->jobs;
+ *  </code>
+ */
+class ProjectsJobs extends \Google\Service\Resource
+{
+  /**
+   * Cancels a running job. (jobs.cancel)
+   *
+   * @param string $name Required. The name of the job to cancel.
+   * @param GoogleCloudMlV1CancelJobRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleProtobufEmpty
+   */
+  public function cancel($name, GoogleCloudMlV1CancelJobRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('cancel', [$params], GoogleProtobufEmpty::class);
+  }
+  /**
+   * Creates a training or a batch prediction job. (jobs.create)
+   *
+   * @param string $parent Required. The project name.
+   * @param GoogleCloudMlV1Job $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudMlV1Job
+   */
+  public function create($parent, GoogleCloudMlV1Job $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleCloudMlV1Job::class);
+  }
+  /**
+   * Describes a job. (jobs.get)
+   *
+   * @param string $name Required. The name of the job to get the description of.
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudMlV1Job
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudMlV1Job::class);
+  }
+  /**
+   * Gets the access control policy for a resource. Returns an empty policy if the
+   * resource exists and does not have a policy set. (jobs.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int options.requestedPolicyVersion Optional. The policy format
+   * version to be returned. Valid values are 0, 1, and 3. Requests specifying an
+   * invalid value will be rejected. Requests for policies with any conditional
+   * bindings must specify version 3. Policies without any conditional bindings
+   * may specify any valid value or leave the field unset. To learn which
+   * resources support conditions in their IAM policies, see the [IAM
+   * documentation](https://cloud.google.com/iam/help/conditions/resource-
+   * policies).
+   * @return GoogleIamV1Policy
+   */
+  public function getIamPolicy($resource, $optParams = [])
+  {
+    $params = ['resource' => $resource];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], GoogleIamV1Policy::class);
+  }
+  /**
+   * Lists the jobs in the project. If there are no jobs that match the request
+   * parameters, the list request returns an empty response body: {}.
+   * (jobs.listProjectsJobs)
+   *
+   * @param string $parent Required. The name of the project for which to list
+   * jobs.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Optional. Specifies the subset of jobs to retrieve.
+   * You can filter on the value of one or more attributes of the job object. For
+   * example, retrieve jobs with a job identifier that starts with 'census':
+   * gcloud ai-platform jobs list --filter='jobId:census*' List all failed jobs
+   * with names that start with 'rnn': gcloud ai-platform jobs list
+   * --filter='jobId:rnn* AND state:FAILED' For more examples, see the guide to
+   * monitoring jobs.
+   * @opt_param int pageSize Optional. The number of jobs to retrieve per "page"
+   * of results. If there are more remaining results than this number, the
+   * response message will contain a valid value in the `next_page_token` field.
+   * The default value is 20, and the maximum page size is 100.
+   * @opt_param string pageToken Optional. A page token to request the next page
+   * of results. You get the token from the `next_page_token` field of the
+   * response from the previous call.
+   * @return GoogleCloudMlV1ListJobsResponse
+   */
+  public function listProjectsJobs($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleCloudMlV1ListJobsResponse::class);
+  }
+  /**
+   * Updates a specific job resource. Currently the only supported fields to
+   * update are `labels`. (jobs.patch)
+   *
+   * @param string $name Required. The job name.
+   * @param GoogleCloudMlV1Job $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. Specifies the path, relative to `Job`,
+   * of the field to update. To adopt etag mechanism, include `etag` field in the
+   * mask, and include the `etag` value in your job resource. For example, to
+   * change the labels of a job, the `update_mask` parameter would be specified as
+   * `labels`, `etag`, and the `PATCH` request body would specify the new value,
+   * as follows: { "labels": { "owner": "Google", "color": "Blue" } "etag":
+   * "33a64df551425fcc55e4d42a148795d9f25f89d4" } If `etag` matches the one on the
+   * server, the labels of the job will be replaced with the given ones, and the
+   * server end `etag` will be recalculated. Currently the only supported update
+   * masks are `labels` and `etag`.
+   * @return GoogleCloudMlV1Job
+   */
+  public function patch($name, GoogleCloudMlV1Job $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], GoogleCloudMlV1Job::class);
+  }
+  /**
+   * Sets the access control policy on the specified resource. Replaces any
+   * existing policy. Can return `NOT_FOUND`, `INVALID_ARGUMENT`, and
+   * `PERMISSION_DENIED` errors. (jobs.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param GoogleIamV1SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleIamV1Policy
+   */
+  public function setIamPolicy($resource, GoogleIamV1SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], GoogleIamV1Policy::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource. If the
+   * resource does not exist, this will return an empty set of permissions, not a
+   * `NOT_FOUND` error. Note: This operation is designed to be used for building
+   * permission-aware UIs and command-line tools, not for authorization checking.
+   * This operation may "fail open" without warning. (jobs.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param GoogleIamV1TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleIamV1TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, GoogleIamV1TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], GoogleIamV1TestIamPermissionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsJobs::class, 'Google_Service_CloudMachineLearningEngine_Resource_ProjectsJobs');

@@ -1,70 +1,116 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-wo7KhITyFx8=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudHealthcare;
+
+class InfoTypeTransformation extends \Google\Collection
+{
+  protected $collection_key = 'infoTypes';
+  protected $characterMaskConfigType = CharacterMaskConfig::class;
+  protected $characterMaskConfigDataType = '';
+  protected $cryptoHashConfigType = CryptoHashConfig::class;
+  protected $cryptoHashConfigDataType = '';
+  protected $dateShiftConfigType = DateShiftConfig::class;
+  protected $dateShiftConfigDataType = '';
+  public $infoTypes;
+  protected $redactConfigType = RedactConfig::class;
+  protected $redactConfigDataType = '';
+  protected $replaceWithInfoTypeConfigType = ReplaceWithInfoTypeConfig::class;
+  protected $replaceWithInfoTypeConfigDataType = '';
+
+  /**
+   * @param CharacterMaskConfig
+   */
+  public function setCharacterMaskConfig(CharacterMaskConfig $characterMaskConfig)
+  {
+    $this->characterMaskConfig = $characterMaskConfig;
+  }
+  /**
+   * @return CharacterMaskConfig
+   */
+  public function getCharacterMaskConfig()
+  {
+    return $this->characterMaskConfig;
+  }
+  /**
+   * @param CryptoHashConfig
+   */
+  public function setCryptoHashConfig(CryptoHashConfig $cryptoHashConfig)
+  {
+    $this->cryptoHashConfig = $cryptoHashConfig;
+  }
+  /**
+   * @return CryptoHashConfig
+   */
+  public function getCryptoHashConfig()
+  {
+    return $this->cryptoHashConfig;
+  }
+  /**
+   * @param DateShiftConfig
+   */
+  public function setDateShiftConfig(DateShiftConfig $dateShiftConfig)
+  {
+    $this->dateShiftConfig = $dateShiftConfig;
+  }
+  /**
+   * @return DateShiftConfig
+   */
+  public function getDateShiftConfig()
+  {
+    return $this->dateShiftConfig;
+  }
+  public function setInfoTypes($infoTypes)
+  {
+    $this->infoTypes = $infoTypes;
+  }
+  public function getInfoTypes()
+  {
+    return $this->infoTypes;
+  }
+  /**
+   * @param RedactConfig
+   */
+  public function setRedactConfig(RedactConfig $redactConfig)
+  {
+    $this->redactConfig = $redactConfig;
+  }
+  /**
+   * @return RedactConfig
+   */
+  public function getRedactConfig()
+  {
+    return $this->redactConfig;
+  }
+  /**
+   * @param ReplaceWithInfoTypeConfig
+   */
+  public function setReplaceWithInfoTypeConfig(ReplaceWithInfoTypeConfig $replaceWithInfoTypeConfig)
+  {
+    $this->replaceWithInfoTypeConfig = $replaceWithInfoTypeConfig;
+  }
+  /**
+   * @return ReplaceWithInfoTypeConfig
+   */
+  public function getReplaceWithInfoTypeConfig()
+  {
+    return $this->replaceWithInfoTypeConfig;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(InfoTypeTransformation::class, 'Google_Service_CloudHealthcare_InfoTypeTransformation');

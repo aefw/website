@@ -1,71 +1,107 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute;
+
+class TargetTcpProxy extends \Google\Model
+{
+  public $creationTimestamp;
+  public $description;
+  public $id;
+  public $kind;
+  public $name;
+  public $proxyBind;
+  public $proxyHeader;
+  public $selfLink;
+  public $service;
+
+  public function setCreationTimestamp($creationTimestamp)
+  {
+    $this->creationTimestamp = $creationTimestamp;
+  }
+  public function getCreationTimestamp()
+  {
+    return $this->creationTimestamp;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setProxyBind($proxyBind)
+  {
+    $this->proxyBind = $proxyBind;
+  }
+  public function getProxyBind()
+  {
+    return $this->proxyBind;
+  }
+  public function setProxyHeader($proxyHeader)
+  {
+    $this->proxyHeader = $proxyHeader;
+  }
+  public function getProxyHeader()
+  {
+    return $this->proxyHeader;
+  }
+  public function setSelfLink($selfLink)
+  {
+    $this->selfLink = $selfLink;
+  }
+  public function getSelfLink()
+  {
+    return $this->selfLink;
+  }
+  public function setService($service)
+  {
+    $this->service = $service;
+  }
+  public function getService()
+  {
+    return $this->service;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(TargetTcpProxy::class, 'Google_Service_Compute_TargetTcpProxy');

@@ -1,80 +1,107 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-fpq6NZtmjDKgGRBvpBV+d3zBJ2t+0RkHeEhi
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dfareporting;
+
+class ReportPathToConversionCriteriaReportProperties extends \Google\Model
+{
+  public $clicksLookbackWindow;
+  public $impressionsLookbackWindow;
+  public $includeAttributedIPConversions;
+  public $includeUnattributedCookieConversions;
+  public $includeUnattributedIPConversions;
+  public $maximumClickInteractions;
+  public $maximumImpressionInteractions;
+  public $maximumInteractionGap;
+  public $pivotOnInteractionPath;
+
+  public function setClicksLookbackWindow($clicksLookbackWindow)
+  {
+    $this->clicksLookbackWindow = $clicksLookbackWindow;
+  }
+  public function getClicksLookbackWindow()
+  {
+    return $this->clicksLookbackWindow;
+  }
+  public function setImpressionsLookbackWindow($impressionsLookbackWindow)
+  {
+    $this->impressionsLookbackWindow = $impressionsLookbackWindow;
+  }
+  public function getImpressionsLookbackWindow()
+  {
+    return $this->impressionsLookbackWindow;
+  }
+  public function setIncludeAttributedIPConversions($includeAttributedIPConversions)
+  {
+    $this->includeAttributedIPConversions = $includeAttributedIPConversions;
+  }
+  public function getIncludeAttributedIPConversions()
+  {
+    return $this->includeAttributedIPConversions;
+  }
+  public function setIncludeUnattributedCookieConversions($includeUnattributedCookieConversions)
+  {
+    $this->includeUnattributedCookieConversions = $includeUnattributedCookieConversions;
+  }
+  public function getIncludeUnattributedCookieConversions()
+  {
+    return $this->includeUnattributedCookieConversions;
+  }
+  public function setIncludeUnattributedIPConversions($includeUnattributedIPConversions)
+  {
+    $this->includeUnattributedIPConversions = $includeUnattributedIPConversions;
+  }
+  public function getIncludeUnattributedIPConversions()
+  {
+    return $this->includeUnattributedIPConversions;
+  }
+  public function setMaximumClickInteractions($maximumClickInteractions)
+  {
+    $this->maximumClickInteractions = $maximumClickInteractions;
+  }
+  public function getMaximumClickInteractions()
+  {
+    return $this->maximumClickInteractions;
+  }
+  public function setMaximumImpressionInteractions($maximumImpressionInteractions)
+  {
+    $this->maximumImpressionInteractions = $maximumImpressionInteractions;
+  }
+  public function getMaximumImpressionInteractions()
+  {
+    return $this->maximumImpressionInteractions;
+  }
+  public function setMaximumInteractionGap($maximumInteractionGap)
+  {
+    $this->maximumInteractionGap = $maximumInteractionGap;
+  }
+  public function getMaximumInteractionGap()
+  {
+    return $this->maximumInteractionGap;
+  }
+  public function setPivotOnInteractionPath($pivotOnInteractionPath)
+  {
+    $this->pivotOnInteractionPath = $pivotOnInteractionPath;
+  }
+  public function getPivotOnInteractionPath()
+  {
+    return $this->pivotOnInteractionPath;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ReportPathToConversionCriteriaReportProperties::class, 'Google_Service_Dfareporting_ReportPathToConversionCriteriaReportProperties');

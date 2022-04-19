@@ -1,84 +1,190 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Apigateway\Resource;
+
+use Google\Service\Apigateway\ApigatewayApi;
+use Google\Service\Apigateway\ApigatewayListApisResponse;
+use Google\Service\Apigateway\ApigatewayOperation;
+use Google\Service\Apigateway\ApigatewayPolicy;
+use Google\Service\Apigateway\ApigatewaySetIamPolicyRequest;
+use Google\Service\Apigateway\ApigatewayTestIamPermissionsRequest;
+use Google\Service\Apigateway\ApigatewayTestIamPermissionsResponse;
+
+/**
+ * The "apis" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $apigatewayService = new Google\Service\Apigateway(...);
+ *   $apis = $apigatewayService->apis;
+ *  </code>
+ */
+class ProjectsLocationsApis extends \Google\Service\Resource
+{
+  /**
+   * Creates a new Api in a given project and location. (apis.create)
+   *
+   * @param string $parent Required. Parent resource of the API, of the form:
+   * `projects/locations/global`
+   * @param ApigatewayApi $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string apiId Required. Identifier to assign to the API. Must be
+   * unique within scope of the parent resource.
+   * @return ApigatewayOperation
+   */
+  public function create($parent, ApigatewayApi $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], ApigatewayOperation::class);
+  }
+  /**
+   * Deletes a single Api. (apis.delete)
+   *
+   * @param string $name Required. Resource name of the form:
+   * `projects/locations/global/apis`
+   * @param array $optParams Optional parameters.
+   * @return ApigatewayOperation
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], ApigatewayOperation::class);
+  }
+  /**
+   * Gets details of a single Api. (apis.get)
+   *
+   * @param string $name Required. Resource name of the form:
+   * `projects/locations/global/apis`
+   * @param array $optParams Optional parameters.
+   * @return ApigatewayApi
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], ApigatewayApi::class);
+  }
+  /**
+   * Gets the access control policy for a resource. Returns an empty policy if the
+   * resource exists and does not have a policy set. (apis.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int options.requestedPolicyVersion Optional. The policy format
+   * version to be returned. Valid values are 0, 1, and 3. Requests specifying an
+   * invalid value will be rejected. Requests for policies with any conditional
+   * bindings must specify version 3. Policies without any conditional bindings
+   * may specify any valid value or leave the field unset. To learn which
+   * resources support conditions in their IAM policies, see the [IAM
+   * documentation](https://cloud.google.com/iam/help/conditions/resource-
+   * policies).
+   * @return ApigatewayPolicy
+   */
+  public function getIamPolicy($resource, $optParams = [])
+  {
+    $params = ['resource' => $resource];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], ApigatewayPolicy::class);
+  }
+  /**
+   * Lists Apis in a given project and location. (apis.listProjectsLocationsApis)
+   *
+   * @param string $parent Required. Parent resource of the API, of the form:
+   * `projects/locations/global`
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Filter.
+   * @opt_param string orderBy Order by parameters.
+   * @opt_param int pageSize Page size.
+   * @opt_param string pageToken Page token.
+   * @return ApigatewayListApisResponse
+   */
+  public function listProjectsLocationsApis($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ApigatewayListApisResponse::class);
+  }
+  /**
+   * Updates the parameters of a single Api. (apis.patch)
+   *
+   * @param string $name Output only. Resource name of the API. Format:
+   * projects/{project}/locations/global/apis/{api}
+   * @param ApigatewayApi $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Field mask is used to specify the fields to be
+   * overwritten in the Api resource by the update. The fields specified in the
+   * update_mask are relative to the resource, not the full request. A field will
+   * be overwritten if it is in the mask. If the user does not provide a mask then
+   * all fields will be overwritten.
+   * @return ApigatewayOperation
+   */
+  public function patch($name, ApigatewayApi $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], ApigatewayOperation::class);
+  }
+  /**
+   * Sets the access control policy on the specified resource. Replaces any
+   * existing policy. Can return `NOT_FOUND`, `INVALID_ARGUMENT`, and
+   * `PERMISSION_DENIED` errors. (apis.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param ApigatewaySetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return ApigatewayPolicy
+   */
+  public function setIamPolicy($resource, ApigatewaySetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], ApigatewayPolicy::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource. If the
+   * resource does not exist, this will return an empty set of permissions, not a
+   * `NOT_FOUND` error. Note: This operation is designed to be used for building
+   * permission-aware UIs and command-line tools, not for authorization checking.
+   * This operation may "fail open" without warning. (apis.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param ApigatewayTestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return ApigatewayTestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, ApigatewayTestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], ApigatewayTestIamPermissionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsApis::class, 'Google_Service_Apigateway_Resource_ProjectsLocationsApis');

@@ -1,63 +1,87 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Sheets;
+
+class PivotValue extends \Google\Model
+{
+  public $calculatedDisplayType;
+  protected $dataSourceColumnReferenceType = DataSourceColumnReference::class;
+  protected $dataSourceColumnReferenceDataType = '';
+  public $formula;
+  public $name;
+  public $sourceColumnOffset;
+  public $summarizeFunction;
+
+  public function setCalculatedDisplayType($calculatedDisplayType)
+  {
+    $this->calculatedDisplayType = $calculatedDisplayType;
+  }
+  public function getCalculatedDisplayType()
+  {
+    return $this->calculatedDisplayType;
+  }
+  /**
+   * @param DataSourceColumnReference
+   */
+  public function setDataSourceColumnReference(DataSourceColumnReference $dataSourceColumnReference)
+  {
+    $this->dataSourceColumnReference = $dataSourceColumnReference;
+  }
+  /**
+   * @return DataSourceColumnReference
+   */
+  public function getDataSourceColumnReference()
+  {
+    return $this->dataSourceColumnReference;
+  }
+  public function setFormula($formula)
+  {
+    $this->formula = $formula;
+  }
+  public function getFormula()
+  {
+    return $this->formula;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setSourceColumnOffset($sourceColumnOffset)
+  {
+    $this->sourceColumnOffset = $sourceColumnOffset;
+  }
+  public function getSourceColumnOffset()
+  {
+    return $this->sourceColumnOffset;
+  }
+  public function setSummarizeFunction($summarizeFunction)
+  {
+    $this->summarizeFunction = $summarizeFunction;
+  }
+  public function getSummarizeFunction()
+  {
+    return $this->summarizeFunction;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PivotValue::class, 'Google_Service_Sheets_PivotValue');

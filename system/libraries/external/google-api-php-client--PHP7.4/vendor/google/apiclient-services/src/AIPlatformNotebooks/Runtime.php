@@ -1,78 +1,135 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPwndYe1Yu0wt2wuVesh2kaj4hGZdmheDywR81D8WhkinpUjyaP5rlXPk6oGhAMr8yN36DfZe
-dyHUv9eC8A4MEPfu3H3X6S7B+6UnewMSNIhC1pAlqvcI7pfXYfgaTNZUFJXWMbD5OO+7YBQLVM/j
-2T2tNAbAxYeVUEykksY9cBpNIRGSLRcIMCi6gOtTeFWBBRzmnk/J9PSAMGT3vxCex/svOhGo2fex
-iekSMXX2Q9M6a/eW6dYNt0PpTjrAmrskUEcDEgy+xDclHUkYNF3o2bYh4E9mKourL8IeB86cFae5
-vLK4S8xDDuNKgvW5PUQ8L6W5UEksSDLup0VIj88DCiy71ZMI95f2CssPacajtZzgVG5QfHGSOuUI
-/7rda0kxxqzgNkGhT1D4MCAo230x4t7PjG5f49LOi0Bp7WemKcVMwKSCxQ2VAgi6P0bGakTPnWni
-+V32uNHZOfXzQd+LA8WsUrawlXvcGRQuCgvxiS1h6c/16/5vOgFy8Y0JBlqHAHnYBCL7ehoVI05u
-21CYr+VVvP/4D7krtnfvs1xB86dtQxLciR9u1hOCN4cBhcmvGhffItx//US8BdtngXE9jU0ANMYE
-lcbnllAEAadM3e85KEMmFHNPAbmt+YDra2O+c8TF4/HnK8fQyyFqK2ly02snU7Wj6dzsR3Ndu+Pg
-qDy+rpgBzS6i5gwTDmlRqIPbhirj70y0Phf0C2caV0YDP01Fw2tGUFbPEb0KUnsoAxTZKIzOv8Ts
-4WiVvn5WnmAWzpDpbqw/vv8UUQbzniLMIPpVjjgg9w56I3RxykhWbETCaHmfM9RpK98JPOSlVfjP
-TwqN7tVapU23cawwFG0j8JCNDJs1oA0HCQ+FEmlgNU34dQssE3Gzr1YGmi0SZS3P0zufNcbPzlme
-X6uR7T130je1yYQrIVzd+yA7zEllx3Dv0SJE2bHmwZBieaKwcmmBZISuw4PcFx2Vg0/6x32lTYt7
-N3WWrpYTim8WaZRUekmG/4qLXuJcOfwJ3cOcrFcov1VyK00puC9VZEv/1IqzuLmVaA7jnPNME+Pz
-ewp00TgjmGU6s3OoG1eYJyfx5R+GVymr/rAYB65EGXwS1ZXAiJAvLULw6igNuntk3Wv4hYMWRcIF
-eoXyOQMM95H2lBZRzBMBHBtG7YME7HD+s+8p8B4lwuDxrLNSCBzvwLbQMJ1lJ9OYeH3uYsR24DHV
-4n96okMnHjWPHp9bwWrLIJ9jbDbU6C6xzr5ODbxy9QnIvA+Z0COc4KcANjoUBvx3CqaFRe+CeYQV
-ejx05GjRw2D4kANl+AG7Jr9bhrh43XcGVXF5Q9aVzmRjPHxdB/OMJfJURlFVkuse4WshR1oXnDgZ
-l2PSDofh5KyZFVy6Ie1LQ3NenqXCMZIZwCji/Ax726OT3S1xtwoejGfjtBBLijmwLbf9FKbDGdVp
-Clu64lU1cVZ9mui/4EaKOyJnM+ZETeyQwhOPBjba23YN/uUKCGOG16jQ4FqAGPJJMgZtnfGt4gP0
-lwDi6zbgl/b+w0+yI0iEvZPr9tA7iUMuO4pi/klPoRf2SbSORlJPGVRVut3bhsSUly2z3b3bkrKC
-T9SV3VWuB0x0HrBoJPiLqbldr54citebMM7X7BvAGuhqmQPPHNcVb83IxAFDG6ctTmJK/EAvMyLJ
-kLYhGB/DikmkzITLqudtzW9WTO0TLLxoZS+HdnO3rfCvRKKt6ArvCvt5T5j++gwiP72wVhSxHDx0
-gkpKR0viNGvF9o+1AcggOHlNnWOiJohN4vOfB2QvTLPaEvb3Hm7CXnjblMk3T3joFh7mOyXTPAXz
-oAHHdnwDxqYguLf0mFs2ucFFDm4Ye4KdIdtEz7bw7WWPbOLe+6ZmXWbWmW42oGPBMrZaQWkLXk2f
-7M9sRi0syNNyIAp49eu0sZt0oQgRYV0gJEjfoO+7a+Kb5XlZ0wZ0Ecogjpxhpyqwc/uNtmZdDCf0
-z1Hf33zsdP+LjGhZ1nLACregjbXwkKIVTSnGanZleh4eILAmrX6N7xXyEmReum2q4Gr4jJdNohuP
-sruu8OLvAGktpxMARlOlKcSXJqg78kmQR770jVubDUtbdHfIVAwQFNWsGqKxc+lwakcpaBUmPA66
-lZz7IiOKNqIhpDf+hjxPHhhZSI5psuzgGDrMlv31wM+dXW0/NoKmQko7E+lS5co1Us6C9EV5lJAe
-c/GZT4YH2E63SDBP6htqnznfzJv12i5gNEoJE10AxRwR7B+QpZ7pN7wWYkvsIIfMt8pATEewtGG7
-XhfJEDZBoIL5p2WnT34oZAdIgjnmXd0YhsANlkpZ8AQJbyraUT/sMFyA6Y5d51xq9Vv/y0A8PFCz
-pLkODnsM0JWbN6ypiH39rX94Pk5fZSpB6wziwjutme5LLFdlGYwKq/jn97acfzXx4GUDBdOv7c0h
-5i9gUoWCZeUH9RBWPqW/ZC6KYiZMQLomjXW/qcD8n8oeUYlXx1Cd2pFvU9wQf8hf45QEwu7WatY9
-ZqX0rrad7wEYLh6kVYXsMNGCkl6fe3NzcrpExt5Qb3eo+S7nnxr1YtBKZWPUkanQMXnVMKQ79RLi
-JQO0qK3gYyO6pi7ZvBwt81kioRyZ0hfXW774dGs2Qdhk4Kd+gfteixZDC5bm/4814ORKw82zMtw3
-6IFG92o9TbodjTO5+1lOLVHuY8T6JYYg8PONVJlLapfn75/AfD/C4s83m+RGAZfYLFpc/P8PeBSe
-SlDgmzfYOYEouph5KPMAjXtTRQuiuC4Bns5Ih1wl7Lm1dJJ/yzHr7fcl2ritfC9oX+SjcrmqRjWf
-v8IVklGbS2g9hSAQxjar5BzaWsj8siYXBQG/fxIeyPJs9yhaJQ9wQ1HQ0xu58vG0YPYnrK6wMZxI
-YD9E95HLilSS4BceWFOXsm/0L3K0STh2/EhQwFahUDaaTXKY2rZUUO8zuevoMcN7/MtwIiTJ2zq3
-f5bA35IyKusOUQObw988RxyL0CaiXWDguWYhwoau4JwFa5SqtMUlDvgpwAUwIq4dzCeic6UGDvFf
-0mucovNfMBhZCbafO11KTHuz9NqEeaoE+rpu8VnA/PcitUwWU9Pn898dHpxzYkJN8vGo/+gtc3YE
-8RxMGeQWA7H64DGOl3w7DycvEF4rucQkOz8XDm7EqqVYJ3sGNOpETknSshC7nzum/0CiW+tgLQxx
-VJIU39YTA1kTZSziJHFlNU6+jp4JdvvU6tHmBA8JacbBoP+ZlSYMIK+IfVvneo5VYixwoyG5UWrS
-EjdBOT9aDBgkwuXh0ef/6Uw9VMTyfTT2372S6hQ7wn+EQzkQ0hoOrO/mXU4pCQ0Ayi8R/bPS4UH7
-PhiPu3TjZJjD+WEDGocrwfGF3LgFpFzbcXTi0PQhIEyoyJwb/ODRAyaf/kMsL0C7gcbj80nMDfZ6
-624v5Y2KNiUVhqtzlG6MqXZlEmSmPEPc6AGS+RX2eUcvS/TWcYWW/xiYqRxKTqgJ+1Gbnw8mJftI
-ZWovz5g4jRrH3TB8AJgrqIrMiwDszz+MtH98O5X6Dy8FfHSn4EELtXt9JS4fdXXo/fZ1gRiMtGBT
-cWwEAyNCDCGTleRHDdRgce/uTDOcIBPtZXzhbUACfyAFn6Y285iNvhn3jsONNWPNNPTzee9nPvVG
-L5nlOYuZJWkqrwiNTCKkQhI3O6J3cly/s8pBjwsfH5ET4eWKFXnint8HIf1gHLGcq4afqFcc0JqV
-xfs5h7bA1kSnFntAJBHTvVY/mwH/pq02/APgqpwsu7rMDDYhmZz7QI0vutYfR+CgIN2Yj3E+5Mg7
-gbRh3ym+TcDWu54GZyLoJya0o+HuDNv5S1bIHf4DC4/lDxOmiWUC+Fz5pGpoITcw8ipt0/QV2alD
-eJD1RIzuCSc5amhLonzyRsBV+29GyeeqHYbxH2ic5KjfpRyGv5c/C7pXvWCKHVPMX46kVNe/aBi+
-FGJjrhWaFWeckwVoUJxCu2hBuroBehQd6oSNfxep2ZhjhDZblggv6+UlcAY5YWF9aeH9nkYV+apd
-dLb8M+IUGN1Wd6WE9g1XBC5ZugtSbslTiw7mEyHzCtPb7dD4Fot0UgbH9+fipH79eUOlePFWSoZL
-xYEw1bSlWaE3jVJ+yZlX8f4hw6b/QPEx8iYy8yS+fL6bj26d+lxObv3C/DitSWzD4o18VP0oRIpU
-X7pGsZG4PfruuxD6hsEdFMA59VUkCdqlVfFrTqDLG8wiX6rbYBfOMovQR3cy6amnh1VA5cYS0JrO
-DeiarUnoyI2ZPfKNbOFjIeuH2u3tLZj9+x4vJe9CAOQmI+c3gjGXbtGIaIcjiJdTYRBM9JB1yVvZ
-nXOEk0uPA88rF+CvORBgjK22JkJkAMY/vpHJAbgGUNAaj5uwM6lBZEcqThBwWiShiKLo56JSYJOQ
-OIc6O94lG5Jo0zT+J7SFcZfzddMhEItBRchvBIQ+vuy7Wr2FUhHYX5VHbEdCh/reOAQXRk/flF+v
-ojBNDAOcdEzdQ3q6pQAEooIIqKK8NWSa05J28fWwpv0Ujl/Ds4s8Ep4qe+HbC9lnpB0K47CdMsQ5
-H/Jo4OYfuUAWHOMk6NW/B+KKB6IYyAt207FAcX1yA450PcoXt9PYwCy0S/xlY81MiFtDnNWb1H+P
-vCXCM9EFJJy14vVIpf5Yln7RwTGYK6lQ3p8bppS/fdkR0TNzE6KweM7HLqOGTPFMcsEp3AHr3MhO
-s6NF8pB/McqXFfmGfZTVwT5DakW5YdQ1wKniADMQcmwzlTvi6g3drCIYZiXiCiq2DHNvUW0qznze
-E1J96f+6S/e/1Pg/LIyaX7cs72kxx2UEq9k4NzLMkb0coZ43Dk9Jd8zYhUJR+QEFhmTMwCAJs/Ct
-Mc78+pB/8XMSdHAwf8Be/Kl6NWDjzy3dv/a/9xxNqsGAKQVgV0rCy0gFxjEHmU38uEc6znQRCGdn
-I8N/ANPn/kluq8bO+ltpy9bI2bof8ui1xf4YOTdFIlXGslzFpyXp7+9aNTgRvkM3lrgj/5plUGO+
-x8ixw0uJSXQleZ2z6G7sS4A2yGzE/k4g5gUTN6J5Ll6CpVL3XmDyj3cM1kS6IuRaRLszJheN+Odu
-UHo3I/CCFqIC+3lSYns4twUSa4+3pBOfPeZXgO+/Fi6ri3DuCs0mSHew08y1+nkDa20qG6nG8QRV
-Cw+RYT6yBkbQtUHaVZFu1kSv1r02hyHbhcSX6bT5I+NwEhVWQ+Ct/F9JZ9OFHcKjA6w8j9+nxmp8
-c3dCd8fXOsfXuEFMh9Q5tFo9bXZlfMFsegIVkl899vXa2/JSugkSHARTaruWYpHNGMamZ52QYUHM
-7/9OLX+STwIGim5e62dktvjdOMnqt7iAc42DewPKtG9I0wYcmcsX6UZgpWTgdv47pB/YdFRC4pOQ
-9X+S/dvD4KXLrsv7P0mi1bQUOW5vDnXyOe5XVYCP+YoobxWetX/iy6K+6zsIHskia6COgW==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AIPlatformNotebooks;
+
+class Runtime extends \Google\Model
+{
+  protected $accessConfigType = RuntimeAccessConfig::class;
+  protected $accessConfigDataType = '';
+  public $createTime;
+  public $healthState;
+  protected $metricsType = RuntimeMetrics::class;
+  protected $metricsDataType = '';
+  public $name;
+  protected $softwareConfigType = RuntimeSoftwareConfig::class;
+  protected $softwareConfigDataType = '';
+  public $state;
+  public $updateTime;
+  protected $virtualMachineType = VirtualMachine::class;
+  protected $virtualMachineDataType = '';
+
+  /**
+   * @param RuntimeAccessConfig
+   */
+  public function setAccessConfig(RuntimeAccessConfig $accessConfig)
+  {
+    $this->accessConfig = $accessConfig;
+  }
+  /**
+   * @return RuntimeAccessConfig
+   */
+  public function getAccessConfig()
+  {
+    return $this->accessConfig;
+  }
+  public function setCreateTime($createTime)
+  {
+    $this->createTime = $createTime;
+  }
+  public function getCreateTime()
+  {
+    return $this->createTime;
+  }
+  public function setHealthState($healthState)
+  {
+    $this->healthState = $healthState;
+  }
+  public function getHealthState()
+  {
+    return $this->healthState;
+  }
+  /**
+   * @param RuntimeMetrics
+   */
+  public function setMetrics(RuntimeMetrics $metrics)
+  {
+    $this->metrics = $metrics;
+  }
+  /**
+   * @return RuntimeMetrics
+   */
+  public function getMetrics()
+  {
+    return $this->metrics;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  /**
+   * @param RuntimeSoftwareConfig
+   */
+  public function setSoftwareConfig(RuntimeSoftwareConfig $softwareConfig)
+  {
+    $this->softwareConfig = $softwareConfig;
+  }
+  /**
+   * @return RuntimeSoftwareConfig
+   */
+  public function getSoftwareConfig()
+  {
+    return $this->softwareConfig;
+  }
+  public function setState($state)
+  {
+    $this->state = $state;
+  }
+  public function getState()
+  {
+    return $this->state;
+  }
+  public function setUpdateTime($updateTime)
+  {
+    $this->updateTime = $updateTime;
+  }
+  public function getUpdateTime()
+  {
+    return $this->updateTime;
+  }
+  /**
+   * @param VirtualMachine
+   */
+  public function setVirtualMachine(VirtualMachine $virtualMachine)
+  {
+    $this->virtualMachine = $virtualMachine;
+  }
+  /**
+   * @return VirtualMachine
+   */
+  public function getVirtualMachine()
+  {
+    return $this->virtualMachine;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Runtime::class, 'Google_Service_AIPlatformNotebooks_Runtime');

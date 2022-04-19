@@ -1,82 +1,172 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-i5YgAQTQ7ld9JRlIsUmuAirMHQg7xjGM
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudBuild\Resource;
+
+use Google\Service\CloudBuild\BuildTrigger;
+use Google\Service\CloudBuild\CloudbuildEmpty;
+use Google\Service\CloudBuild\HttpBody;
+use Google\Service\CloudBuild\ListBuildTriggersResponse;
+use Google\Service\CloudBuild\Operation;
+use Google\Service\CloudBuild\ReceiveTriggerWebhookResponse;
+use Google\Service\CloudBuild\RepoSource;
+
+/**
+ * The "triggers" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $cloudbuildService = new Google\Service\CloudBuild(...);
+ *   $triggers = $cloudbuildService->triggers;
+ *  </code>
+ */
+class ProjectsTriggers extends \Google\Service\Resource
+{
+  /**
+   * Creates a new `BuildTrigger`. This API is experimental. (triggers.create)
+   *
+   * @param string $projectId Required. ID of the project for which to configure
+   * automatic builds.
+   * @param BuildTrigger $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string parent The parent resource where this trigger will be
+   * created. Format: `projects/{project}/locations/{location}`
+   * @return BuildTrigger
+   */
+  public function create($projectId, BuildTrigger $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], BuildTrigger::class);
+  }
+  /**
+   * Deletes a `BuildTrigger` by its project ID and trigger ID. This API is
+   * experimental. (triggers.delete)
+   *
+   * @param string $projectId Required. ID of the project that owns the trigger.
+   * @param string $triggerId Required. ID of the `BuildTrigger` to delete.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string name The name of the `Trigger` to delete. Format:
+   * `projects/{project}/locations/{location}/triggers/{trigger}`
+   * @return CloudbuildEmpty
+   */
+  public function delete($projectId, $triggerId, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'triggerId' => $triggerId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], CloudbuildEmpty::class);
+  }
+  /**
+   * Returns information about a `BuildTrigger`. This API is experimental.
+   * (triggers.get)
+   *
+   * @param string $projectId Required. ID of the project that owns the trigger.
+   * @param string $triggerId Required. Identifier (`id` or `name`) of the
+   * `BuildTrigger` to get.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string name The name of the `Trigger` to retrieve. Format:
+   * `projects/{project}/locations/{location}/triggers/{trigger}`
+   * @return BuildTrigger
+   */
+  public function get($projectId, $triggerId, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'triggerId' => $triggerId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], BuildTrigger::class);
+  }
+  /**
+   * Lists existing `BuildTrigger`s. This API is experimental.
+   * (triggers.listProjectsTriggers)
+   *
+   * @param string $projectId Required. ID of the project for which to list
+   * BuildTriggers.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Number of results to return in the list.
+   * @opt_param string pageToken Token to provide to skip to a particular spot in
+   * the list.
+   * @opt_param string parent The parent of the collection of `Triggers`. Format:
+   * `projects/{project}/locations/{location}`
+   * @return ListBuildTriggersResponse
+   */
+  public function listProjectsTriggers($projectId, $optParams = [])
+  {
+    $params = ['projectId' => $projectId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListBuildTriggersResponse::class);
+  }
+  /**
+   * Updates a `BuildTrigger` by its project ID and trigger ID. This API is
+   * experimental. (triggers.patch)
+   *
+   * @param string $projectId Required. ID of the project that owns the trigger.
+   * @param string $triggerId Required. ID of the `BuildTrigger` to update.
+   * @param BuildTrigger $postBody
+   * @param array $optParams Optional parameters.
+   * @return BuildTrigger
+   */
+  public function patch($projectId, $triggerId, BuildTrigger $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'triggerId' => $triggerId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], BuildTrigger::class);
+  }
+  /**
+   * Runs a `BuildTrigger` at a particular source revision. (triggers.run)
+   *
+   * @param string $projectId Required. ID of the project.
+   * @param string $triggerId Required. ID of the trigger.
+   * @param RepoSource $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string name The name of the `Trigger` to run. Format:
+   * `projects/{project}/locations/{location}/triggers/{trigger}`
+   * @return Operation
+   */
+  public function run($projectId, $triggerId, RepoSource $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'triggerId' => $triggerId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('run', [$params], Operation::class);
+  }
+  /**
+   * ReceiveTriggerWebhook [Experimental] is called when the API receives a
+   * webhook request targeted at a specific trigger. (triggers.webhook)
+   *
+   * @param string $projectId Project in which the specified trigger lives
+   * @param string $trigger Name of the trigger to run the payload against
+   * @param HttpBody $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string name The name of the `ReceiveTriggerWebhook` to retrieve.
+   * Format: `projects/{project}/locations/{location}/triggers/{trigger}`
+   * @opt_param string secret Secret token used for authorization if an OAuth
+   * token isn't provided.
+   * @return ReceiveTriggerWebhookResponse
+   */
+  public function webhook($projectId, $trigger, HttpBody $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'trigger' => $trigger, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('webhook', [$params], ReceiveTriggerWebhookResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsTriggers::class, 'Google_Service_CloudBuild_Resource_ProjectsTriggers');

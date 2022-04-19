@@ -1,97 +1,161 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-b0IrFXIoYLAjPvtZoG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Networkconnectivity;
+
+class HttpRequest extends \Google\Model
+{
+  public $cacheFillBytes;
+  public $cacheHit;
+  public $cacheLookup;
+  public $cacheValidatedWithOriginServer;
+  public $latency;
+  public $protocol;
+  public $referer;
+  public $remoteIp;
+  public $requestMethod;
+  public $requestSize;
+  public $requestUrl;
+  public $responseSize;
+  public $serverIp;
+  public $status;
+  public $userAgent;
+
+  public function setCacheFillBytes($cacheFillBytes)
+  {
+    $this->cacheFillBytes = $cacheFillBytes;
+  }
+  public function getCacheFillBytes()
+  {
+    return $this->cacheFillBytes;
+  }
+  public function setCacheHit($cacheHit)
+  {
+    $this->cacheHit = $cacheHit;
+  }
+  public function getCacheHit()
+  {
+    return $this->cacheHit;
+  }
+  public function setCacheLookup($cacheLookup)
+  {
+    $this->cacheLookup = $cacheLookup;
+  }
+  public function getCacheLookup()
+  {
+    return $this->cacheLookup;
+  }
+  public function setCacheValidatedWithOriginServer($cacheValidatedWithOriginServer)
+  {
+    $this->cacheValidatedWithOriginServer = $cacheValidatedWithOriginServer;
+  }
+  public function getCacheValidatedWithOriginServer()
+  {
+    return $this->cacheValidatedWithOriginServer;
+  }
+  public function setLatency($latency)
+  {
+    $this->latency = $latency;
+  }
+  public function getLatency()
+  {
+    return $this->latency;
+  }
+  public function setProtocol($protocol)
+  {
+    $this->protocol = $protocol;
+  }
+  public function getProtocol()
+  {
+    return $this->protocol;
+  }
+  public function setReferer($referer)
+  {
+    $this->referer = $referer;
+  }
+  public function getReferer()
+  {
+    return $this->referer;
+  }
+  public function setRemoteIp($remoteIp)
+  {
+    $this->remoteIp = $remoteIp;
+  }
+  public function getRemoteIp()
+  {
+    return $this->remoteIp;
+  }
+  public function setRequestMethod($requestMethod)
+  {
+    $this->requestMethod = $requestMethod;
+  }
+  public function getRequestMethod()
+  {
+    return $this->requestMethod;
+  }
+  public function setRequestSize($requestSize)
+  {
+    $this->requestSize = $requestSize;
+  }
+  public function getRequestSize()
+  {
+    return $this->requestSize;
+  }
+  public function setRequestUrl($requestUrl)
+  {
+    $this->requestUrl = $requestUrl;
+  }
+  public function getRequestUrl()
+  {
+    return $this->requestUrl;
+  }
+  public function setResponseSize($responseSize)
+  {
+    $this->responseSize = $responseSize;
+  }
+  public function getResponseSize()
+  {
+    return $this->responseSize;
+  }
+  public function setServerIp($serverIp)
+  {
+    $this->serverIp = $serverIp;
+  }
+  public function getServerIp()
+  {
+    return $this->serverIp;
+  }
+  public function setStatus($status)
+  {
+    $this->status = $status;
+  }
+  public function getStatus()
+  {
+    return $this->status;
+  }
+  public function setUserAgent($userAgent)
+  {
+    $this->userAgent = $userAgent;
+  }
+  public function getUserAgent()
+  {
+    return $this->userAgent;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(HttpRequest::class, 'Google_Service_Networkconnectivity_HttpRequest');

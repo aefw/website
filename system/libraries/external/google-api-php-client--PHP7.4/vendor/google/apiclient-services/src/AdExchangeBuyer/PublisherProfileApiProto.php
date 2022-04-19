@@ -1,140 +1,273 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-c7tV08BimhS9NMIwYpvZy0==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AdExchangeBuyer;
+
+class PublisherProfileApiProto extends \Google\Collection
+{
+  protected $collection_key = 'topHeadlines';
+  public $audience;
+  public $buyerPitchStatement;
+  public $directContact;
+  public $exchange;
+  public $forecastInventory;
+  public $googlePlusLink;
+  public $isParent;
+  public $isPublished;
+  public $kind;
+  public $logoUrl;
+  public $mediaKitLink;
+  public $name;
+  public $overview;
+  public $profileId;
+  public $programmaticContact;
+  public $publisherAppIds;
+  protected $publisherAppsType = MobileApplication::class;
+  protected $publisherAppsDataType = 'array';
+  public $publisherDomains;
+  public $publisherProfileId;
+  protected $publisherProvidedForecastType = PublisherProvidedForecast::class;
+  protected $publisherProvidedForecastDataType = '';
+  public $rateCardInfoLink;
+  public $samplePageLink;
+  protected $sellerType = Seller::class;
+  protected $sellerDataType = '';
+  public $state;
+  public $topHeadlines;
+
+  public function setAudience($audience)
+  {
+    $this->audience = $audience;
+  }
+  public function getAudience()
+  {
+    return $this->audience;
+  }
+  public function setBuyerPitchStatement($buyerPitchStatement)
+  {
+    $this->buyerPitchStatement = $buyerPitchStatement;
+  }
+  public function getBuyerPitchStatement()
+  {
+    return $this->buyerPitchStatement;
+  }
+  public function setDirectContact($directContact)
+  {
+    $this->directContact = $directContact;
+  }
+  public function getDirectContact()
+  {
+    return $this->directContact;
+  }
+  public function setExchange($exchange)
+  {
+    $this->exchange = $exchange;
+  }
+  public function getExchange()
+  {
+    return $this->exchange;
+  }
+  public function setForecastInventory($forecastInventory)
+  {
+    $this->forecastInventory = $forecastInventory;
+  }
+  public function getForecastInventory()
+  {
+    return $this->forecastInventory;
+  }
+  public function setGooglePlusLink($googlePlusLink)
+  {
+    $this->googlePlusLink = $googlePlusLink;
+  }
+  public function getGooglePlusLink()
+  {
+    return $this->googlePlusLink;
+  }
+  public function setIsParent($isParent)
+  {
+    $this->isParent = $isParent;
+  }
+  public function getIsParent()
+  {
+    return $this->isParent;
+  }
+  public function setIsPublished($isPublished)
+  {
+    $this->isPublished = $isPublished;
+  }
+  public function getIsPublished()
+  {
+    return $this->isPublished;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setLogoUrl($logoUrl)
+  {
+    $this->logoUrl = $logoUrl;
+  }
+  public function getLogoUrl()
+  {
+    return $this->logoUrl;
+  }
+  public function setMediaKitLink($mediaKitLink)
+  {
+    $this->mediaKitLink = $mediaKitLink;
+  }
+  public function getMediaKitLink()
+  {
+    return $this->mediaKitLink;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setOverview($overview)
+  {
+    $this->overview = $overview;
+  }
+  public function getOverview()
+  {
+    return $this->overview;
+  }
+  public function setProfileId($profileId)
+  {
+    $this->profileId = $profileId;
+  }
+  public function getProfileId()
+  {
+    return $this->profileId;
+  }
+  public function setProgrammaticContact($programmaticContact)
+  {
+    $this->programmaticContact = $programmaticContact;
+  }
+  public function getProgrammaticContact()
+  {
+    return $this->programmaticContact;
+  }
+  public function setPublisherAppIds($publisherAppIds)
+  {
+    $this->publisherAppIds = $publisherAppIds;
+  }
+  public function getPublisherAppIds()
+  {
+    return $this->publisherAppIds;
+  }
+  /**
+   * @param MobileApplication[]
+   */
+  public function setPublisherApps($publisherApps)
+  {
+    $this->publisherApps = $publisherApps;
+  }
+  /**
+   * @return MobileApplication[]
+   */
+  public function getPublisherApps()
+  {
+    return $this->publisherApps;
+  }
+  public function setPublisherDomains($publisherDomains)
+  {
+    $this->publisherDomains = $publisherDomains;
+  }
+  public function getPublisherDomains()
+  {
+    return $this->publisherDomains;
+  }
+  public function setPublisherProfileId($publisherProfileId)
+  {
+    $this->publisherProfileId = $publisherProfileId;
+  }
+  public function getPublisherProfileId()
+  {
+    return $this->publisherProfileId;
+  }
+  /**
+   * @param PublisherProvidedForecast
+   */
+  public function setPublisherProvidedForecast(PublisherProvidedForecast $publisherProvidedForecast)
+  {
+    $this->publisherProvidedForecast = $publisherProvidedForecast;
+  }
+  /**
+   * @return PublisherProvidedForecast
+   */
+  public function getPublisherProvidedForecast()
+  {
+    return $this->publisherProvidedForecast;
+  }
+  public function setRateCardInfoLink($rateCardInfoLink)
+  {
+    $this->rateCardInfoLink = $rateCardInfoLink;
+  }
+  public function getRateCardInfoLink()
+  {
+    return $this->rateCardInfoLink;
+  }
+  public function setSamplePageLink($samplePageLink)
+  {
+    $this->samplePageLink = $samplePageLink;
+  }
+  public function getSamplePageLink()
+  {
+    return $this->samplePageLink;
+  }
+  /**
+   * @param Seller
+   */
+  public function setSeller(Seller $seller)
+  {
+    $this->seller = $seller;
+  }
+  /**
+   * @return Seller
+   */
+  public function getSeller()
+  {
+    return $this->seller;
+  }
+  public function setState($state)
+  {
+    $this->state = $state;
+  }
+  public function getState()
+  {
+    return $this->state;
+  }
+  public function setTopHeadlines($topHeadlines)
+  {
+    $this->topHeadlines = $topHeadlines;
+  }
+  public function getTopHeadlines()
+  {
+    return $this->topHeadlines;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PublisherProfileApiProto::class, 'Google_Service_AdExchangeBuyer_PublisherProfileApiProto');

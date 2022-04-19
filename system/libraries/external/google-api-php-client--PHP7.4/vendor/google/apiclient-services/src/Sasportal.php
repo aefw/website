@@ -1,121 +1,1225 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cP/m6RDQ5s5GQ8CNvzGTYps8hyqgix04+Jv38v5yRzx2WaIkPjkY1vqI7PB5PvNTgz3UGVyNU
-1q47dWol1vaCbwpwSfldwIu64VH/TgOtjAW7IuzHA0RhKk7TECnB/9gPegHdTL9H2UKV5vaDrr/y
-SUrTZnB6lsV9rmhao60ef38qvZ8dW8j3zqmdD3+xmx3ShOVX+D9UICwR2NeYz6b5ZpGAW27+GT+o
-2Dp30hCmmZkxtic6TC1vHXWT4yFiBX1mi4GCu8FhuZ/edlr014L2sodBNE9mKourL8IeB86cFae5
-vLLeS8O4/sFuiSWQIl28LAmbV6e8+n3qzyt9F/ss0AgmMuzXNvuIv2noxEosZ+3MKo2TCY2hNYzN
-SXTI/4N9QtNIfugypVQBjbp4pL+rOtat2oeHCrcOPkzeDhwL4hRNLQES2FlfBQpT0ZcSxkyrS8Rw
-1/Ug0iHs1UMKG1k8d9nRb5iYt3Z662KEjkhR7f/9EqVhiWZZ5ZHv138xugm3mpTib2pZCNQInE2+
-slgF78jukGF+daxSxx3vTKlmrm0R5CYVpJ+oFwrPgtn8VcU+kSe5+mkshGAavcuFmV1qxtZlrCuH
-tiQjRENtw55aVuYg+bdsZ4Hbl9CCln8Bidc/R28gI7fIKlUauCGbcI+iAVJ88ePKD9KDHFxd1isp
-j7FFHsiNJPtpdpJHQ66xOSFy+Cd/InNZrIFQ1UryFMvJyTsZXlToSSYKbrNQKsy3YHN1L1lTmyje
-lvznlqa9ZTvekbrZ1CGaTkoAmxwj39VqvYLk4s+9C1Nus51ztw48uyUfL2D5UwdH+Pk3EKqr5Z2f
-7MUJ7qRvEfUu1v1SIqM1agsadAPJZsjwSqtxyJjx61FZPPYbTXYW62T8oJ1Pt/Yy6+kMJDPhPeZ1
-Crtm+smty0pmbZZCvJQPfrPUaQAU4pXHxvKilsEt96mu9jvxcxw7EWiTiAdkD3+ppiw3DDjYh+zM
-wtmJZ3s8ouqFNrm7W+be2k629ULW6SDCEmXj+fmYSnVT0nbVYgX3tHSaZ/IMRH80WD4mC7QJrOHp
-VbE+N4ZxTYd4f1ehgeonOKWdlR9YgorA4A8h8ZWrrkuhC4tJ57ZJt72+9isiSsD4JeZBprmOzmoZ
-A7F4d7EuCX+piPWb2h/QCceU0elOD8YDMP78m771E9YWdvq03x4r7ek8YeosaLLOi/mMer2lEoEp
-4ucqniZfFL0DzDYBmq2SwkLKGQholzFFjQtcJ2dCffobc0dv8tf7cbSBtBp0gWjRueQJYGvskcFv
-T2rPr/0PP2a5QF+gViidDjfrnGzbvL/QMuMUCQ1kFRwskb8sQ3zZJGv1vwldMCvDAnleV0IxYDKP
-OWvn/gu4Cv9K3fe0WkeL38AFVSwFa5IcW6dB30h06s03BMk3Ilgs3eO9fNxH1lL1KCoz6n+kQXMZ
-YqBnxG7K8ev6Fb3/Pe/RjgwYP469LtLQc9fMnq5G/0Xn5SJKBwQbX0nSSaxCnoHjIYhh8y2LXl25
-seEy0nKK/WO8zamRH+GxDWvkmHNyO6VSPqEr+nVh5W0hA4a6kywZ0iiWq+q9RI5DbZfAxgWH7Vjy
-D/1w+DOkLJZBzGbMFU7bG53jLMKYi0RsBAO18bax1oGJHRNLcwSXC2bsIKqCWnz7MDxU61Zt49s9
-7I7hyFtaI6A2YMFyeLEPYJdqbFaeCGWBXAZhBuo1Z3VanSj6LOEV6KQKlPKR98RDTr09iH9QwBHG
-7g0R5V6q09ZdhqZj+n11/SjKkXAPMWSSW72FJdxsHE5ofsLiTrUiyBHBx+9DHZevUne1FWnXgsqD
-NTX8xNcMHdM67pTFHFv5210wZXkDX7jAP4jce2Qc4I1x5Jh0OV5jkP2r0TVgb2KarDU//JMV4kKL
-cd5FYHH4H8cqs/p2ygFtfpIPSwVJBdBHpEez6plCgnyiJ9TwKraz4OpBtMcthfAHDVDPBvaBf8ZU
-PfUUf5g8xPjLvHFxaI7M+oQfRveN/cnj22i9U+Bm5e+71+3bSImNyj8RDDvHQSo1/88plBTxtYpM
-xEXV8kyuCvgPG05cUrtmDKsU2BDnvJzEzC/2ahhD6I1Uj1s+XDr/oz75WJr6H+FwUrXThKgwg52q
-lnw9PKo7ZFnRkTx0O4MgwUnVegSHkhuonHVLeMGGFvhx4kIB3ASSEiC8EBwAzs041B84F/vZeG36
-+a8lJLmcPWe+8e2ZPn96g04e5Flfa6E5ABcwvQcBvhLi5lwepkq8G0O8C0FxY7rLCG6aI/xo2mPv
-+UEYE2vzHqw0/ITz8DZMckNk7kiMa4AUQPpN0BsuEYUFvNcVsGZtCmI0IAZzIoB4f/e6pWIFgv1q
-s6ZqhcKfgAfdmILcBVynguJBlTdGyn7rE+xydTPF3cjxaEK/EC+LJvLb0v4N7VyTY5tA0lLWKnaa
-igY57deFDxCPrYgWnvDl2OyaIHWR85mn5+rfCiCFJgaHygQ6ziR505+CeJG9RnkEi+FH4092u5fN
-0J3HdrOYfFkWWWLczKypYSGHS7xIu/2pLVRGAtNx1VqBsuTEYCtxPT07PRZXvRdYHwvrhztwz+R5
-KFlti6murUgOyD0I+XUo2ezELOIjK31JXIZEBG5jBXXohMdmi4XW2TvjDnwiiqTwYhtr3Fs2jX/d
-8YUuvWEUg4e7EbHG2IlgssC9DtVQ4gTRYLGf+uGfygBUmjqCvGt/rx/xVC2NxzB3k/rxOwEgMpGr
-A5hf9R5VcKpnuYvfuIsVqczUD+cLUJWN3YfBZojkiOmnzY3GXYEQfmdJDYKF1BQIctGdv7ENxMup
-z+29Iw0g0c5KAxOg/QWeRFEU3mYHOWfNuWHN2kalPlB1gypHI4KJoE04DNp2lYWjfTYJL3Z4ctfc
-yWNdHDEqdiFxoxNR4zgafczWjI17ug8C1fqMQ1ukK9PTjivdDkztVRudRSTZ6DPdJLeBkAhBQ6vX
-mb6iPghVrhYjli3n+g9wBAsW5h7o0qgVK7yhA9rSlMA4SX727zCSyzyaK3wFnpDJ1+px3OYzGpKZ
-duSEUbpXrPZnN6AU5ZH77b8HofAnQTpu/6DEQilPFt55XghcSf/a8g51LaDIN+Fpf1fkU4UF01NI
-ap4LGoCikIb//bmWaBmW2SQkl9kHvBpAweCRHGskK4eDX5WDaYr+Y0Cppf4UT4/PqLZ0S4AtY3yL
-sQ7Y0XCplAOVFfzAU6Zq88DJqkj9ptzoLrqYNfV1HrMaRIZ6lf7VpRTe124RUD0X1EDCTk5mwJqQ
-aKd5mqxel7dS82jY7dIIY/10enlGWo+ncTA7u2zlTOsgq8sSj1APh6oKP3ARxG6v2bpsawB1Y0Dt
-mbtRRFyNx1jbr7ZwD/tUTZ5y+gr4R7UAAI5bujMsEfI/C9S2seg6YGxIaIbCULy+SAaY2N7K8oXR
-D8G+SqnWsDbgpPy1CH02fxTO3/7UVaj5grxfJ/yJyJRPNEhXIsH4Ne7vBmmWc/tdUZv3T9Rp1f6a
-LMv+IKXz1SY3NL3mAydpicWLjwm5+IDF/HyJeNJEBXtodM1+m6GDgtFTztXpUjZUD0cEGlTvl1QO
-+qgxqO16GRtsHgAX91DdTjV0kHwlMplGquYcjUQRNr3ufVKtrcl+fGHWzhm2guZQ1uzON43e091A
-NW+MzJ2Gz/goMNWlWWiUSeiQ+GKhIBDQm1g6TN0wJYFHB/zWT+O9H/Uy1cBE8FCKcIoeTfhgzZq2
-4eK/fR2ou0wQPf1Cq4uNPIy+hMt+/8zZqeq0on98ut6o7aF9OqH2Fx7ULTl8CR5I5+12NQ1x2/5d
-eFDI2yVXLrmz02J5s5VZrvtlOAGLNlgCjVI6jdLDEhhwCkT16N4WzgYPhoHbz5ED6p92Kmhswd47
-rRbz5Skfq7c47jG8udXSJIJKvsvFTv0Yhjv3pebxL0h8xyJ2Aow6os7YpDGObQ3GkWtwJ7ul2JJp
-sWg6Q95yh2wlVs/Z94y6lJ0kDJVPbR9BMIOjJGUon4xFWzi9Jb3UQwGS7Vn+aJ67gaTUlytzSWNM
-5ZNZNda94s6syqW/LFyoBUYxq8O0W13CtE/KiJlnMMlF6SV1ibrSikJAzAmHZvzJoXWxh5BdylL0
-krkEZ9lplJqbyFJADW/pPtgTfPG1LJCOk3lWSrnv/IZ/18k4sjdRVjG8JfvtuH35ZZKW914tNZFl
-VewuNKEYr51nkJd0bctTYvV8WR73E1ipM3/ZLv3dqW8bV18ph4UB81MsPOMnaHw56/cEgikgrHku
-Yav02r822s7/p32F0aSWRPR+VhIN+5f7ZHdZtuixR9gSWXNs3RYqyVsdaEr7S55ZZ1Xq154rSitv
-/khynhUVbXO/f3dLCvM/5zTKH1WgNT7IJyNu9aDlMXqdTAqGSsiG3zHQ0aIc0LcT2mPVdT8A7nUq
-XyZh3wjAttn3l6GAv+JiTKZR4fhQbaHq0dcOqbqxgVB9qO3EpT+XrZZrYHVvvi2hCDTdHjnmWUAc
-jKBrVGCBD0ET6GpxRjhfp8seGwhYbkX9yFxOwGgVVN0YxnztsqQRcLC8/TN/0e54vYGkBwEsUYyA
-snMb+Lf/pbDgkSxX3s1igxiOzRBJozscU6Tk9ML7RVd0M1qSmYz5x6tOWkin4++nYgWXSRp1ZTfG
-QSkF+MNNIaL0n6iceXdYBOEmFr7wgStu/1/xcX/GlnyDFVjUiiYfSIb1U8HaBaXeMSVmnNniWZkv
-2AsiVu7vBtTQkSsl7kc6QEX8gU5RAWpqsVhW1oDFeb7ea6etaCXExQ+RsWjVReXCv4WYwWqQe02C
-LexX0EbmbpR8ZJhHYQzX0UHETemAUQai2PFFYQfAS825WpTz55cjwekyktw+Km57aNwAWWghn4Uo
-dITLW4JcXefad6sFNhean6Yxtc0qazu8QgkxpF+R1ibpUvvNADnykWKV3f+3Pp5wr221Ug2uhaDS
-AP0dTWbqesjc6erkuev6nfi1zb2fIkXPM2spvXlrDXP4mmZ1GuTkAmCWmIIgVZOQ/3qnFngAaKhS
-N82WOVP2xq4EBBcabsegDeN5bNHzA0iXlxXDGECsAopA2YdaZWG8jTOc71q37c+b2q1bGbNKePbs
-WPTsDPUTlM42N3E1tqSztdUvIVLhb+N5u1fVPRWQghD91yTW69oVkfd3Jh+uId4BNdRlJAs5EWnk
-N0lDqu8AAnA2MgHzcbLkhu5UdoZ/OsQip1xoaJx3fkh1OtbFZl5cpSA5zYCa0y0AdSFVcFqz0vHy
-9DWnMFQcxoKwd1S/b+q6x3L2ksAQRkWgFqZtM3T0Mp+KziDlhbt3Rr5BDM5phx5kotgutxgp1ci8
-Sgi5EVUZbbhVHo89/P4LZQkRpzY5XpxTp5ZttxiGCINN3uLCPS8hVlkHrAn1M6ail9e3rTNU4X2Z
-4rIARJy0IVzvsobOMLXCQIU0ubEjcr7kzLnjDYwpPQRTp874wsdij2EOJ8iYxKX7iN+YTNemOB1D
-lEBhPQJXI9jGduZUA8Xk4iBHvvHq8cWnpzvnQM9+8Z68iqrqv1WBD4QzN2bgfOuY3l+6RBLwQ31h
-dQF1pNl7pJ40Do46ufeJTg7C8m31w9KDCAxS9IzSYe72tAvSy+Ao7qr7lrIFuD+/rivLj7Bf1YX7
-GhaIaVNtqViTUG5caFm1HLtPd0nYGAbXmdQlLFiTfwyEcw1XRwAPM+2MSzJ/2KkjM3E+LToTKllo
-n+ehgRO+EmtJ+RwfkYnC89PRAOaoYZ1usU0WT83ip/L0KGquu/OIBYuA1eSjEI9CuGwZiYE1c8n0
-HL6lLl/yTAGdXoOAhvAlJlvfQ8pnH0kyMyFA19InyP4kDs/Ytsbq5dNU+o8/olZN3MQHavbfkwCk
-ZelTTfhe1M97la2htVlagaxbn2SZ/zxv+Iom1r6nUfjTsQz3SsWthEwQ+Js16BO29zdYE/nY6PfH
-lNmach4L/TS1Jzo5owzeIM+7bIkTwM5mCMsWcWHWZtXqm9TS660ZE/QlHMzEQqCW7wK5no8IWZIY
-PG95Igziz+QzUosyptuUbnrQzE+cidrCN2itFJ0PGpGkWFClICwl42mI4/WIY2yiOjwrfhYZlN8X
-ExyT1w7EhkELhhBLRxVufxAtjog75YpekKuH5QL73HGcxnI3LsFHHGjfVTTiT5W8BXHrFHgGsSLJ
-/Km5qw0oIbyrJHdHoGh6r/fqvmulfAkXgnwQIyuMu0w9t0qwSYCj7oFfFoGE+x8Wp6ZMs+ZFCRf4
-huM8pnc4udRXnLJCmd2CAvhqUPrg5F39g94kR3qTJGf4mWYP68YiOmBK9wYxN/vvKB436vxahvz8
-bOn0bWLDFpP3/PyByhtIIiCv0CHb45XTlra1cpGpCBQjwFMAWCkGv8Pvj6N0P6B3L5SG2Tt8yy2N
-sZ07kcfXWANobxNP6ZIJmwP//JSTW6V9PJ1cmh5wSck9gNzg2ZZVyjKWh78WxaGSsbHEB1zvCqOx
-QhMhvVsdtAfbhGE3N1v1wIoHjUhT/VvOwbYAciR5mboq7jjOteWz3o0tdA/bT6u6bULk6iq+g9eW
-Zkg2our7zm8LDPrDVqLjYu/0G0UDMfqB/KCT7tgie2aEIPPbI/yRjmPhNr8/Ub9UWO8GyQovWZuu
-jmCatE9IdYoEyI2CQ1s2Nh8doVOAprXymVE8dYr168d/Oi2v8Ezg9hjUan2F/3j5HduBY9uAnj/t
-UA8k7Gth3BzBXZ1R8UKpFuCUTFyf1a8M/Hf+RjpJV71YKOXPS9z6IZQBZcHdkzB25I7gwpS1SuSP
-sKy1F/ASpa1nzeRX17n6elyRhh+4mhuc/8SQKoqEEDf0Z2/ELa2AdabDZUMfquGwpHvluFset0nu
-xIUJFZMry+4tOjLYVp3xa/3mvmUMvi0a7iXQcwWMNT0ObFddNsm58g6sWmwXLPfU6/7gggGwq7R5
-UQBirxOj/ylSOiiIDlw3OA7TMYPruw7MNzw6Z/2/+3OwwhsUGp9cUqYUDcHWrNQM/cWEw+VRAY5T
-FrGQJhhm7feg5TmWlrJ2fERAY4V2Xd/VsP19zCh0lmUjd0Pcw3FAaSPRKieWDI561kegzyVzUicw
-90VpgM+gvjWitagyX3vrGYSAgzRjTAE2ASokJdTPHmnm+cD033XhHACMJx+qWE0HjmQoOWhpecwi
-Vl5axV0h9JTC3nzTMb7Fc4DC+HBpA+BEBZE7C/fJWvaAcHs5XJ0dvg1aHUx5lcxSE0dbaRwMqvZN
-DrQZdwKCkFJEaPfVK3YAa/M/RO+JvvLKvtbPMsWJvzIkw4B/XqGqqlDjzAlVLFos/dG3zjoI9Fy+
-G5Rfa/iaAR+sZXzBU9bAN1LALFViQXM1Fx/Lm3yLJzWGW2ZyGMOU8mVWtIwI5VXgdLOMmrLsKcU3
-SvfA+qR2pBvEJeHYMvhdN1MVnAc0oPaC61fy2wHH6LkQon+TfhmgTUq8nBydNP7owbf0DcAgavHz
-N6pqY7Ief7Sqc02GiwjjerueNSaKCenRSAo9v5xLw2NneWtycHqIlLiKM5l1cXPtTUaYte76Vuei
-anm1lUzXVjFctDn+on2Ruj2LBIuSiTD9MPcxXA4j18NR0Iq61PTvIy4HwXfwcziw9I0Xyl4fPeom
-ugqV/zal6wxr3uJ+H1diqC499onHO1UTmfBmSbEStb6Y5yReXPLLWA3Kn4/dQQPN7RYVjIZlECgk
-eyP/ExVkjMruAJMUjwvmmYdwkBIiJwB+nBnoNt3J3W3+3dNJBCychd1SzkpWpu5m/L2LNp5Kz78N
-X6XgiPaNMazVo3+gOeDLBAe5LyN244XICuC44xw21znKGarQoQtzAsHYAKTPzLw+8grGXaZ4Gvr/
-9Cn+agf5VQ2yUl+RtWi1n8lHCKuEizZ3jdnuQPZmwOqFRifavY4M1Bbm2Fgeo9QYC4EJf+eXyxip
-+SCM81cMG8xSSHDSRnUhM/bGVkimLSYMQiVVBFSp7NBZSEHjXLGq9z9B/oyJ+tfOaPfyDuLQRc88
-wuq8iDTGMtvdYisfU2pNVNUuPh72LHn5j5SKg3FPlO6bEXGzvBfpKxXP5JAyhAj2ZRjGrbNb+Ezw
-/3Jlfk60G+PwJC7U4x8MqIQddZVS1v/nyxl6fM7dI1lXC6UvEs+DYgfP+tBwjMcwDteNQPVF/x26
-iOc4KvKuZaWHYdqvYVAWZzVa03zLqzGYX9ceCARpiWAKHWdWJZHWKRRU5WVeedLg/dkLl8+6/P4U
-SwxgjSdegurRb5SdzB0htl4MMdmZ2sGS+9DqFYvnxCS1orjG8gALNhH4/4ONGs9vqM3Y1opOom30
-RjDdemDgCyUIiSuIHb3/El4GYqdKpg7qZBwa8Sx9jl+qGKlYb3TyslU5oUz/qMIUQwrGJnuMQANn
-+roxNx3zs7E524xYVCmBnOK0jMx5QIgeoxEI36LMgH7AGOaoESp4xHBzzm1/8BM7IVhfvI3BSchZ
-97WkO1iN1L2S026uPyWBgoIn7ZkF1jBoqd5x1yta8KrvuNkvlQmNP4WPxdoetQFaQIwZD/0pE45V
-GBzCMIrmhOyGtKSpMNhoVnhGIgaiSGrOUthV/Y7Dod44g4UDRSbDOEAvHhjUaLBDAMGJtzp0BvNd
-hA5wmPOGtRPPWvjYRASN9RuD5bJhjtOWnpaZHRSNZWiK7/aI1qIfrhW9OJ8/S0Vy2JatAug//DX6
-l3Y9+3kFjQwp+wnHRt4LAWHJBpfBSGzNg+OvSBnle4id+XndkQqw8A52
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for Sasportal (v1alpha1).
+ *
+ * <p>
+</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://developers.google.com/spectrum-access-system/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class Sasportal extends \Google\Service
+{
+  /** See your primary Google Account email address. */
+  const USERINFO_EMAIL =
+      "https://www.googleapis.com/auth/userinfo.email";
+
+  public $customers;
+  public $customers_deployments;
+  public $customers_deployments_devices;
+  public $customers_devices;
+  public $customers_nodes;
+  public $customers_nodes_deployments;
+  public $customers_nodes_devices;
+  public $customers_nodes_nodes;
+  public $deployments;
+  public $deployments_devices;
+  public $installer;
+  public $nodes;
+  public $nodes_deployments;
+  public $nodes_deployments_devices;
+  public $nodes_devices;
+  public $nodes_nodes;
+  public $nodes_nodes_deployments;
+  public $nodes_nodes_devices;
+  public $nodes_nodes_nodes;
+  public $policies;
+
+  /**
+   * Constructs the internal representation of the Sasportal service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://sasportal.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1alpha1';
+    $this->serviceName = 'sasportal';
+
+    $this->customers = new Sasportal\Resource\Customers(
+        $this,
+        $this->serviceName,
+        'customers',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha1/customers',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->customers_deployments = new Sasportal\Resource\CustomersDeployments(
+        $this,
+        $this->serviceName,
+        'deployments',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1alpha1/{+parent}/deployments',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha1/{+parent}/deployments',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'move' => [
+              'path' => 'v1alpha1/{+name}:move',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->customers_deployments_devices = new Sasportal\Resource\CustomersDeploymentsDevices(
+        $this,
+        $this->serviceName,
+        'devices',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1alpha1/{+parent}/devices',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'createSigned' => [
+              'path' => 'v1alpha1/{+parent}/devices:createSigned',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha1/{+parent}/devices',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->customers_devices = new Sasportal\Resource\CustomersDevices(
+        $this,
+        $this->serviceName,
+        'devices',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1alpha1/{+parent}/devices',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'createSigned' => [
+              'path' => 'v1alpha1/{+parent}/devices:createSigned',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha1/{+parent}/devices',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'move' => [
+              'path' => 'v1alpha1/{+name}:move',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'signDevice' => [
+              'path' => 'v1alpha1/{+name}:signDevice',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'updateSigned' => [
+              'path' => 'v1alpha1/{+name}:updateSigned',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->customers_nodes = new Sasportal\Resource\CustomersNodes(
+        $this,
+        $this->serviceName,
+        'nodes',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1alpha1/{+parent}/nodes',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha1/{+parent}/nodes',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'move' => [
+              'path' => 'v1alpha1/{+name}:move',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->customers_nodes_deployments = new Sasportal\Resource\CustomersNodesDeployments(
+        $this,
+        $this->serviceName,
+        'deployments',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1alpha1/{+parent}/deployments',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha1/{+parent}/deployments',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->customers_nodes_devices = new Sasportal\Resource\CustomersNodesDevices(
+        $this,
+        $this->serviceName,
+        'devices',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1alpha1/{+parent}/devices',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'createSigned' => [
+              'path' => 'v1alpha1/{+parent}/devices:createSigned',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha1/{+parent}/devices',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->customers_nodes_nodes = new Sasportal\Resource\CustomersNodesNodes(
+        $this,
+        $this->serviceName,
+        'nodes',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1alpha1/{+parent}/nodes',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha1/{+parent}/nodes',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->deployments = new Sasportal\Resource\Deployments(
+        $this,
+        $this->serviceName,
+        'deployments',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->deployments_devices = new Sasportal\Resource\DeploymentsDevices(
+        $this,
+        $this->serviceName,
+        'devices',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'move' => [
+              'path' => 'v1alpha1/{+name}:move',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'signDevice' => [
+              'path' => 'v1alpha1/{+name}:signDevice',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'updateSigned' => [
+              'path' => 'v1alpha1/{+name}:updateSigned',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->installer = new Sasportal\Resource\Installer(
+        $this,
+        $this->serviceName,
+        'installer',
+        [
+          'methods' => [
+            'generateSecret' => [
+              'path' => 'v1alpha1/installer:generateSecret',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'validate' => [
+              'path' => 'v1alpha1/installer:validate',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],
+          ]
+        ]
+    );
+    $this->nodes = new Sasportal\Resource\Nodes(
+        $this,
+        $this->serviceName,
+        'nodes',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->nodes_deployments = new Sasportal\Resource\NodesDeployments(
+        $this,
+        $this->serviceName,
+        'deployments',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha1/{+parent}/deployments',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'move' => [
+              'path' => 'v1alpha1/{+name}:move',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->nodes_deployments_devices = new Sasportal\Resource\NodesDeploymentsDevices(
+        $this,
+        $this->serviceName,
+        'devices',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1alpha1/{+parent}/devices',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'createSigned' => [
+              'path' => 'v1alpha1/{+parent}/devices:createSigned',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha1/{+parent}/devices',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->nodes_devices = new Sasportal\Resource\NodesDevices(
+        $this,
+        $this->serviceName,
+        'devices',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1alpha1/{+parent}/devices',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'createSigned' => [
+              'path' => 'v1alpha1/{+parent}/devices:createSigned',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha1/{+parent}/devices',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'move' => [
+              'path' => 'v1alpha1/{+name}:move',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'signDevice' => [
+              'path' => 'v1alpha1/{+name}:signDevice',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'updateSigned' => [
+              'path' => 'v1alpha1/{+name}:updateSigned',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->nodes_nodes = new Sasportal\Resource\NodesNodes(
+        $this,
+        $this->serviceName,
+        'nodes',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1alpha1/{+parent}/nodes',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha1/{+parent}/nodes',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'move' => [
+              'path' => 'v1alpha1/{+name}:move',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->nodes_nodes_deployments = new Sasportal\Resource\NodesNodesDeployments(
+        $this,
+        $this->serviceName,
+        'deployments',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1alpha1/{+parent}/deployments',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha1/{+parent}/deployments',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->nodes_nodes_devices = new Sasportal\Resource\NodesNodesDevices(
+        $this,
+        $this->serviceName,
+        'devices',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1alpha1/{+parent}/devices',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'createSigned' => [
+              'path' => 'v1alpha1/{+parent}/devices:createSigned',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha1/{+parent}/devices',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->nodes_nodes_nodes = new Sasportal\Resource\NodesNodesNodes(
+        $this,
+        $this->serviceName,
+        'nodes',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1alpha1/{+parent}/nodes',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha1/{+parent}/nodes',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->policies = new Sasportal\Resource\Policies(
+        $this,
+        $this->serviceName,
+        'policies',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1alpha1/policies:get',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'set' => [
+              'path' => 'v1alpha1/policies:set',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'test' => [
+              'path' => 'v1alpha1/policies:test',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Sasportal::class, 'Google_Service_Sasportal');

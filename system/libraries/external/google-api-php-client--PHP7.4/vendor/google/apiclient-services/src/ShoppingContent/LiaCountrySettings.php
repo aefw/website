@@ -1,72 +1,117 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ShoppingContent;
+
+class LiaCountrySettings extends \Google\Model
+{
+  protected $aboutType = LiaAboutPageSettings::class;
+  protected $aboutDataType = '';
+  public $country;
+  public $hostedLocalStorefrontActive;
+  protected $inventoryType = LiaInventorySettings::class;
+  protected $inventoryDataType = '';
+  protected $onDisplayToOrderType = LiaOnDisplayToOrderSettings::class;
+  protected $onDisplayToOrderDataType = '';
+  protected $posDataProviderType = LiaPosDataProvider::class;
+  protected $posDataProviderDataType = '';
+  public $storePickupActive;
+
+  /**
+   * @param LiaAboutPageSettings
+   */
+  public function setAbout(LiaAboutPageSettings $about)
+  {
+    $this->about = $about;
+  }
+  /**
+   * @return LiaAboutPageSettings
+   */
+  public function getAbout()
+  {
+    return $this->about;
+  }
+  public function setCountry($country)
+  {
+    $this->country = $country;
+  }
+  public function getCountry()
+  {
+    return $this->country;
+  }
+  public function setHostedLocalStorefrontActive($hostedLocalStorefrontActive)
+  {
+    $this->hostedLocalStorefrontActive = $hostedLocalStorefrontActive;
+  }
+  public function getHostedLocalStorefrontActive()
+  {
+    return $this->hostedLocalStorefrontActive;
+  }
+  /**
+   * @param LiaInventorySettings
+   */
+  public function setInventory(LiaInventorySettings $inventory)
+  {
+    $this->inventory = $inventory;
+  }
+  /**
+   * @return LiaInventorySettings
+   */
+  public function getInventory()
+  {
+    return $this->inventory;
+  }
+  /**
+   * @param LiaOnDisplayToOrderSettings
+   */
+  public function setOnDisplayToOrder(LiaOnDisplayToOrderSettings $onDisplayToOrder)
+  {
+    $this->onDisplayToOrder = $onDisplayToOrder;
+  }
+  /**
+   * @return LiaOnDisplayToOrderSettings
+   */
+  public function getOnDisplayToOrder()
+  {
+    return $this->onDisplayToOrder;
+  }
+  /**
+   * @param LiaPosDataProvider
+   */
+  public function setPosDataProvider(LiaPosDataProvider $posDataProvider)
+  {
+    $this->posDataProvider = $posDataProvider;
+  }
+  /**
+   * @return LiaPosDataProvider
+   */
+  public function getPosDataProvider()
+  {
+    return $this->posDataProvider;
+  }
+  public function setStorePickupActive($storePickupActive)
+  {
+    $this->storePickupActive = $storePickupActive;
+  }
+  public function getStorePickupActive()
+  {
+    return $this->storePickupActive;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(LiaCountrySettings::class, 'Google_Service_ShoppingContent_LiaCountrySettings');

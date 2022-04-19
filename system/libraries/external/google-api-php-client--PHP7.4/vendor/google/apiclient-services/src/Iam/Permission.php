@@ -1,68 +1,98 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-41V1yHlAkeG4gODuSCSu9d104xjTGaeOlcj8Tme=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Iam;
+
+class Permission extends \Google\Model
+{
+  public $apiDisabled;
+  public $customRolesSupportLevel;
+  public $description;
+  public $name;
+  public $onlyInPredefinedRoles;
+  public $primaryPermission;
+  public $stage;
+  public $title;
+
+  public function setApiDisabled($apiDisabled)
+  {
+    $this->apiDisabled = $apiDisabled;
+  }
+  public function getApiDisabled()
+  {
+    return $this->apiDisabled;
+  }
+  public function setCustomRolesSupportLevel($customRolesSupportLevel)
+  {
+    $this->customRolesSupportLevel = $customRolesSupportLevel;
+  }
+  public function getCustomRolesSupportLevel()
+  {
+    return $this->customRolesSupportLevel;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setOnlyInPredefinedRoles($onlyInPredefinedRoles)
+  {
+    $this->onlyInPredefinedRoles = $onlyInPredefinedRoles;
+  }
+  public function getOnlyInPredefinedRoles()
+  {
+    return $this->onlyInPredefinedRoles;
+  }
+  public function setPrimaryPermission($primaryPermission)
+  {
+    $this->primaryPermission = $primaryPermission;
+  }
+  public function getPrimaryPermission()
+  {
+    return $this->primaryPermission;
+  }
+  public function setStage($stage)
+  {
+    $this->stage = $stage;
+  }
+  public function getStage()
+  {
+    return $this->stage;
+  }
+  public function setTitle($title)
+  {
+    $this->title = $title;
+  }
+  public function getTitle()
+  {
+    return $this->title;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Permission::class, 'Google_Service_Iam_Permission');

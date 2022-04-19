@@ -1,81 +1,149 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\FirebaseDynamicLinks;
+
+class DynamicLinkInfo extends \Google\Model
+{
+  protected $analyticsInfoType = AnalyticsInfo::class;
+  protected $analyticsInfoDataType = '';
+  protected $androidInfoType = AndroidInfo::class;
+  protected $androidInfoDataType = '';
+  protected $desktopInfoType = DesktopInfo::class;
+  protected $desktopInfoDataType = '';
+  public $domainUriPrefix;
+  public $dynamicLinkDomain;
+  protected $iosInfoType = IosInfo::class;
+  protected $iosInfoDataType = '';
+  public $link;
+  protected $navigationInfoType = NavigationInfo::class;
+  protected $navigationInfoDataType = '';
+  protected $socialMetaTagInfoType = SocialMetaTagInfo::class;
+  protected $socialMetaTagInfoDataType = '';
+
+  /**
+   * @param AnalyticsInfo
+   */
+  public function setAnalyticsInfo(AnalyticsInfo $analyticsInfo)
+  {
+    $this->analyticsInfo = $analyticsInfo;
+  }
+  /**
+   * @return AnalyticsInfo
+   */
+  public function getAnalyticsInfo()
+  {
+    return $this->analyticsInfo;
+  }
+  /**
+   * @param AndroidInfo
+   */
+  public function setAndroidInfo(AndroidInfo $androidInfo)
+  {
+    $this->androidInfo = $androidInfo;
+  }
+  /**
+   * @return AndroidInfo
+   */
+  public function getAndroidInfo()
+  {
+    return $this->androidInfo;
+  }
+  /**
+   * @param DesktopInfo
+   */
+  public function setDesktopInfo(DesktopInfo $desktopInfo)
+  {
+    $this->desktopInfo = $desktopInfo;
+  }
+  /**
+   * @return DesktopInfo
+   */
+  public function getDesktopInfo()
+  {
+    return $this->desktopInfo;
+  }
+  public function setDomainUriPrefix($domainUriPrefix)
+  {
+    $this->domainUriPrefix = $domainUriPrefix;
+  }
+  public function getDomainUriPrefix()
+  {
+    return $this->domainUriPrefix;
+  }
+  public function setDynamicLinkDomain($dynamicLinkDomain)
+  {
+    $this->dynamicLinkDomain = $dynamicLinkDomain;
+  }
+  public function getDynamicLinkDomain()
+  {
+    return $this->dynamicLinkDomain;
+  }
+  /**
+   * @param IosInfo
+   */
+  public function setIosInfo(IosInfo $iosInfo)
+  {
+    $this->iosInfo = $iosInfo;
+  }
+  /**
+   * @return IosInfo
+   */
+  public function getIosInfo()
+  {
+    return $this->iosInfo;
+  }
+  public function setLink($link)
+  {
+    $this->link = $link;
+  }
+  public function getLink()
+  {
+    return $this->link;
+  }
+  /**
+   * @param NavigationInfo
+   */
+  public function setNavigationInfo(NavigationInfo $navigationInfo)
+  {
+    $this->navigationInfo = $navigationInfo;
+  }
+  /**
+   * @return NavigationInfo
+   */
+  public function getNavigationInfo()
+  {
+    return $this->navigationInfo;
+  }
+  /**
+   * @param SocialMetaTagInfo
+   */
+  public function setSocialMetaTagInfo(SocialMetaTagInfo $socialMetaTagInfo)
+  {
+    $this->socialMetaTagInfo = $socialMetaTagInfo;
+  }
+  /**
+   * @return SocialMetaTagInfo
+   */
+  public function getSocialMetaTagInfo()
+  {
+    return $this->socialMetaTagInfo;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(DynamicLinkInfo::class, 'Google_Service_FirebaseDynamicLinks_DynamicLinkInfo');

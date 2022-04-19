@@ -1,74 +1,104 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudMachineLearningEngine;
+
+class GoogleCloudMlV1TrainingOutput extends \Google\Collection
+{
+  protected $collection_key = 'trials';
+  protected $builtInAlgorithmOutputType = GoogleCloudMlV1BuiltInAlgorithmOutput::class;
+  protected $builtInAlgorithmOutputDataType = '';
+  public $completedTrialCount;
+  public $consumedMLUnits;
+  public $hyperparameterMetricTag;
+  public $isBuiltInAlgorithmJob;
+  public $isHyperparameterTuningJob;
+  protected $trialsType = GoogleCloudMlV1HyperparameterOutput::class;
+  protected $trialsDataType = 'array';
+
+  /**
+   * @param GoogleCloudMlV1BuiltInAlgorithmOutput
+   */
+  public function setBuiltInAlgorithmOutput(GoogleCloudMlV1BuiltInAlgorithmOutput $builtInAlgorithmOutput)
+  {
+    $this->builtInAlgorithmOutput = $builtInAlgorithmOutput;
+  }
+  /**
+   * @return GoogleCloudMlV1BuiltInAlgorithmOutput
+   */
+  public function getBuiltInAlgorithmOutput()
+  {
+    return $this->builtInAlgorithmOutput;
+  }
+  public function setCompletedTrialCount($completedTrialCount)
+  {
+    $this->completedTrialCount = $completedTrialCount;
+  }
+  public function getCompletedTrialCount()
+  {
+    return $this->completedTrialCount;
+  }
+  public function setConsumedMLUnits($consumedMLUnits)
+  {
+    $this->consumedMLUnits = $consumedMLUnits;
+  }
+  public function getConsumedMLUnits()
+  {
+    return $this->consumedMLUnits;
+  }
+  public function setHyperparameterMetricTag($hyperparameterMetricTag)
+  {
+    $this->hyperparameterMetricTag = $hyperparameterMetricTag;
+  }
+  public function getHyperparameterMetricTag()
+  {
+    return $this->hyperparameterMetricTag;
+  }
+  public function setIsBuiltInAlgorithmJob($isBuiltInAlgorithmJob)
+  {
+    $this->isBuiltInAlgorithmJob = $isBuiltInAlgorithmJob;
+  }
+  public function getIsBuiltInAlgorithmJob()
+  {
+    return $this->isBuiltInAlgorithmJob;
+  }
+  public function setIsHyperparameterTuningJob($isHyperparameterTuningJob)
+  {
+    $this->isHyperparameterTuningJob = $isHyperparameterTuningJob;
+  }
+  public function getIsHyperparameterTuningJob()
+  {
+    return $this->isHyperparameterTuningJob;
+  }
+  /**
+   * @param GoogleCloudMlV1HyperparameterOutput[]
+   */
+  public function setTrials($trials)
+  {
+    $this->trials = $trials;
+  }
+  /**
+   * @return GoogleCloudMlV1HyperparameterOutput[]
+   */
+  public function getTrials()
+  {
+    return $this->trials;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudMlV1TrainingOutput::class, 'Google_Service_CloudMachineLearningEngine_GoogleCloudMlV1TrainingOutput');

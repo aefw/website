@@ -1,76 +1,508 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPquFd5L1ssIQRCS9TjpYkLlFQ3hrJabYYwt8kzZ90s58CNQYEZFCn9mx1nB5pikw8C7fhepW
-nXj0AUO+u0ULPrdeD7fJThsZ9O5hD4t4nByB1jA41ufXNi/Up3/l+/ZBbL5vTswDDh4uMaEtd9uV
-4FnDrdkTmMujoJYRz4dPAwVf0ThnJYLikW1cDELKbz++S4J4Aj2bM2oyhtZCnolqx8Gzp7J+dg31
-kX9caXQrNTY92EyYWBtWzP8Z+2WrrTmbiqLa1RaQAetaXeJWWNPpvCJT/k9mKourL8IeB86cFae5
-vLN7T5jjhAbih1Wjr+w8L4iK7og1S3cOjpiAgokCk9iFSNeqRzTdqqzVwR9TSX/jz82yRqy/2NSw
-Li+q5AMVH1xKhY+YE8P1t2x5DjPE5GW2/RAOoTox26KPGhGEqBuQc+9g/PGxA8vQfozQYX5d655T
-9S2egF/cUbCgX3aSM3EvvezOYontLQYs+Oza89ENUP1sFlwWzkcpXvhvRGzaLF+aQ0v9+1k7KARw
-kDib0K4IyMbnnbm6FIIqHjD761x62ehh7LWQ57ZIwqCZPh7DTfAFZ5T3gVLdSpEkAwjOg7U98Pbe
-GcwNjW9n2fYvICghrCuTFLbgCJ08J/CWggNpdlixLv8klT79CTGopBmCtlwDhed9Ufe//rLBXIi/
-j/vcbFMY6wPitUQnW3qzlwa6DaHX4hLi1yn3N5Flq8+zLa3cIq6go3CO/oN04zy+wytHgY6dvqdX
-/enIcD4isN4wRdwQPzmZoEM/JQ+73tS+8VtzW58KRxBjnwr8oW0O0UdlDscTO92qMZI4lyVfLFkC
-cqmJjzBQTWzy34MoDj+WOxtXkvNEng3qpE1oMtrlHgkVrlub3sY2JUTQMhNwogHV+KtQe9dqlwHB
-kVc/AuB2Tx7k9m3h/nWxQT4wSLtlAw83jd3fLktp0XUvLiBKw0PL/U6Vx/8RUb0YCmwVoMtnZZbv
-oC996EwDmJeuLeRIUgtJl5nriTrXTs2dxjWOiQuSf9VeFHcx+FIR3N2SGvS8tPUAHl3XhBG/zAvV
-keJlGw+m3nhj5akRKnCkhMO7OzsJCMFp4dha8zK78gx6ScfgexqPBBue+CoFuz5VRNZ28sj/sXsq
-qhRiVnjJ9l7drt7YDUGrwWAotYnxUr+fyUjsTdWEaFdw3O6yfUi8f4t8Gf/nPRV0VMzXBfT8y/Pn
-V0lsFl9oTzhRv5C20HxOMF/Gjds0JYTNO5f8MqO+nLFoNTbaHsFQHjXJUqxgwLGw4ObfUqf8Jaen
-CEYFekFNhmwPUBpVUNy331Yhq/INzD/KquolO14tKuUtqZYrVsQgUpy05QRCRBOvK7Ca9nQR0Vo8
-5R7M2x5sbnhCroQasncf35o4xW1ENxTGkFzvcduOpGednfejxa77Mh2S3eKxMgUYZUwW12YKYZLM
-H/M84CyKnGUQfFKvN/o0QjTb4dqEzEyo+pMyP+90wodSV9rNvpdgN8UrP+gYBs066h2QherFt+BQ
-BZksdLZ7JlTkxB+K0Mv6CfG8QwQ+JAQQtYu+FNamibti62Zq3a3oB0qAhfA9TVVA15DL7nAU//XX
-tvIMFnO3k1nTr6YHwgkiFVDC7/Krt8t4A9sSqVZO5PqoaeWP7gcG5WMHdcTYwg6OVr2823+iYaoP
-orzv0nnL2X1LnGliFjNzimB/5//3Rlc1q7i22GGKoi8SNPjK0NpSV5pKcTFfbmw7eG+0gRXR7UbY
-pR3D9aSiKt4KJaSOKstDhKwcIHUVgfcx/jJHRvfkPNVDPYbZBNycWgxT7TI419QRxic0u/4i0iNk
-DPDX5v40lHCkNdCeWqmvDkm6ly146WtX/h921D16ZDpZuijvHYTlhmSr3Zuetvc2dtAtupWlIKzO
-sHqvOGPoqZyZi7uztHC1M6mCQNeWKcIquCSsn2dz1VE61P2sLfNvy2cs16hJPQSjt7K7lg1ATOVq
-EzT9TdgKkMSqIUKeQ9xBiBBswmCWcu7EuZsWTVTg325imFhq3istU0imq3fVthg5xGOUgtOtcn7z
-1hJ+uoUSkjqPX8m4HnKlcumvc+eKzqtWu01tML4LxVamiq8Y/zZ+2UB8SEIlvrzikZWJy6tu1Hbn
-pAz2DslNum8b0xJYJQC1U2UlMVLjLREuji98By9SISBBOaxTu4QTLUDYOnITHz/TUE6mFPc+iiRu
-gGr32UCK4VbyV3X36VykTFcmBHpO4lNW4+6kNEgUCsuOuWrx3Pq1gL+CY7CM69wcXpSlOY4IU0a2
-cnzYyEauPtD1hHwouaC+GJ3zJg0zVIUMzMjBDH/u4KPDZPlV402NGpOmoBAK3j7PGJ/jZfVv1lkS
-A3Cofn6hw2ZqmQt5SFM8llMk6aOPffWrljMIa5GNRLYhanmk97ftFRaSxwYxNfi0oh9UN6ag3MbU
-9nTuxoMtwfRuVQb8albLQwXh63uswlw9M6nIn72uVroe5WuGjwqtVfnWCKgzXu45kc66ezE0vZ75
-02NwBFM63PGHCJbWRc5Hb2AakLFI2h57TSH8Sqqgy9zPmre4UpZU9E5xnj5JquIo5eHJ5p/98ujk
-MDWO39Tri7usfubHxx4kk3YPVENRsWa1fJP8Q5uR7HOnI/mDyo07UA8xaluBzmAcv03mynkE/WSd
-UQg7IoC76G2BQ/D9vJf8KlZ7FfvRFQOzSopOxHYntGXo4eixKNfq2dBngp6LZZTitWoqW7eXMwzl
-0J57CnxweHUtgSHi/wVLsw+4U+OcTknI0hl2VUAldxZykFWMn7NePVtPuRmGKA3SHzXe7BOaVPy2
-P5EqfSWcb2KHuouG1ULQX6O2r3GhEANPNDUtFmIGCRRPsYo4asu4c+6EH7rj4OcxGI1klLeHOJFQ
-IrrbzkLiaFQVynO5B5WgLwLI0hxE9kaRQWlpm8CnktNPhgSrLOpCslV4n9JfywXExeBGvxo8N+kV
-w8Q37254TcwFucYTEJM10JfUdLRnFmMoWYbvSWQnUDF7zL+sZHdnwPhCrZDOm3cNXGd4s0MEoTam
-IvSfkwSsDPY0kTLQ7JQGe3Ja+7qABQtXvGnLnrFuK3J6no3B+YQS/sR/qk35y2nBtqP7FtQXDUhY
-8kAfo/7B+86szGnYAdHLAdtYUMo1newXXF/nVwGKjMod0teH8eQ4QaKKOqEKN9Z6iK07jIWLJZBx
-sIs2JFX3+a2f+i4Xn+EG45Lx4D57gbuczIv3Pj8jwmPtQNWOZszP5XFVOlJMTylk+IAHY7SeHAIU
-g0Wa5F82Lxvlq9UfsM6V6vEs8Z34Utd13kXP1WVWCKBqgB0zbgbgHjamw9+AU27rhCy9LME7hQMY
-MueuFHBTIE/Cb5+cNeEfh6HlS8qTydtY6YkBT7HsR7kwrqFYnlN+8J0tttqvnmbG8BUir4zt6nnF
-qqrTLQKI8WeVV6Af0l+v9HXvxRCAGsbqHH4Z18GwG+iPMBjkRvIwg2d+3B4DgA7Gf7pGG4e+rTRo
-J6fJG3kzzLfHQEJ3VzIflepON0Gi6MgM/Ltx3Atk6eucfVnSO+LykItfX95436q4OQSeCQNOcoyn
-OD7PE0OOobrjMeHV5JYCt+j3wcO/t6dQ2OQf00/c0otFsSmtlLYGM/Jfvav+qNUqle8pMYTsYVad
-LWBKJ7/byUfPE40e/gHLqqHOkSCXAceYdEo2cGU5szF6+rzMuFoKense5tHXTR3iY5T4xWohnPy8
-ozL1jbxV3FQyhnO5BdhdgmKi3l13OZy5m5a7ECjnLOmc/3vQ1cCrP9HW9JPx09lWtZa+P0kFMVq3
-W50V//xSl5miG4zN5VhkXwVQE7SGxeA0gb20mkXtb9bcGFhcuCy6r32VZlLanssuwXsEuTh+6NJ9
-Wlgz0JMfkf8xfitpBKJAvLaAzPCWvZhTDlXEX/NxiDiUGlNVr5pvJBCH4tl5jc9Y8Idst9Xprhjq
-IlnUf3ePMrVWZdJMaY+rVHTlwWK2fng8b3JvenSnn8XUMlDVkhOt+hkGpdWVaYJXwMx8+xkqTn65
-WMHj9rfdRCz8IjpGZMoTPVi7hPZd73WH8sf7rbgs7PqUUYRSMqRs5Xd3OQFe9mTbxpso6mAjySlA
-qEP4kRO2FQaXbzH3/6D4CKwoT+nRZ2V/w/i1U3ysOwUAWcj189rYkq8f0iJ6ureK2gAyBVGd08vY
-WcohVUv9DHG7jdOZSWB7Go5Cl1JGS3x8NTDn1QGmZJaC2acgUTTXXTo7xKNL6oX7pGEPgSxIpV7j
-6AadZ+DovLRPtj2Njpj9DLs5qdf05Frw5WxER8Xwx7LIOnpLbdDaOj6ZRrN4bEPxevba42rL4ogG
-PXYNMLlcCk0upwk5o1rf1jd6B1R+0c0hQg86AePGKM7gRMMSiCgTl0qnw2AOcQL9bYE30qbcjCef
-Q1nvCq9s5IJmPv8C60kET4KQR0BHjsVj3BMkxhlPWMvZpNbj0rzsIBgMElckN7KAQKps3WmsjcER
-pTJDg9D7Hd6Ey5loPwXhO7ddN8dwTicPdSwBofIKvgMNY4v3nbkBq82BH8dl3V28hG4+Z0xA0VSr
-uljFWkBMB5ShqrbusClCtQI2bA1yt6nmDXTIBpevjloopFWjYHDoKn95zntBMNPGgLnAE3ix4aek
-Im5gzc4mfnabVVhZ/B9jVSsm6NdWQ0dfeWoXQ+dIcIjOUJI/7fwg3o6R4irx5/511ZVEQ5pNkZjF
-LkSPuU275GGPAriPihLYElNSWMpnxaVifhIGBjxV7t1vDg8QjjyMgKGYAcLoEM7BAU6Jap8f1d2A
-WP68vcrBkV76CFeRYKNOJIb6URYtgSb91dDOJC640fBPuHGdKuvKJcLaWuXnORser8t5CeihnW2M
-WXFb70BLTJrLZVpa4vSsqIkA2Ksmohuf9wgC9P3ctpvH6TjA/7HcNdUHNRer9M6ODncowTLtluDI
-VcSJoCZju0WdrBxRZS+EGjkMXUpiRm3x14CuY/UbDAcIcWZsxOGsJ8ZKEnkHi+R0WYlFXkIUJ4pB
-XCgyCe2QKE0bduKRAKbVJr4osZXSCQ6WwoV44lCc6Luz257OY5CptLTk/w0lobwnk06CMAbZiCau
-7IieBdUalkm+QfJUqpl72M/6x75K0A+omBYWmPK6HIMKkgJWAGB3L9OnrzaUM36D9fcpS2iGbX3a
-MYfQfNrY8EG6+n4gaDHuInbgccopu4vbkr2CRDlaxoeJeRZikOA5fo9iggLAZ2+oDUFL2g0YGGQz
-hthNx7qOZkTBsH8vxQcZe4VoZTodfhtH7crB0AFCW8ksD06dfIWgcyC=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for DeploymentManager (v2).
+ *
+ * <p>
+ * The Google Cloud Deployment Manager v2 API provides services for configuring,
+ * deploying, and viewing Google Cloud services and APIs via templates which
+ * specify deployments of Cloud resources.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/deployment-manager" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class DeploymentManager extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+  /** View your data across Google Cloud Platform services. */
+  const CLOUD_PLATFORM_READ_ONLY =
+      "https://www.googleapis.com/auth/cloud-platform.read-only";
+  /** View and manage your Google Cloud Platform management resources and deployment status information. */
+  const NDEV_CLOUDMAN =
+      "https://www.googleapis.com/auth/ndev.cloudman";
+  /** View your Google Cloud Platform management resources and deployment status information. */
+  const NDEV_CLOUDMAN_READONLY =
+      "https://www.googleapis.com/auth/ndev.cloudman.readonly";
+
+  public $deployments;
+  public $manifests;
+  public $operations;
+  public $resources;
+  public $types;
+
+  /**
+   * Constructs the internal representation of the DeploymentManager service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://deploymentmanager.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v2';
+    $this->serviceName = 'deploymentmanager';
+
+    $this->deployments = new DeploymentManager\Resource\Deployments(
+        $this,
+        $this->serviceName,
+        'deployments',
+        [
+          'methods' => [
+            'cancelPreview' => [
+              'path' => 'deploymentmanager/v2/projects/{project}/global/deployments/{deployment}/cancelPreview',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'deployment' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'deploymentmanager/v2/projects/{project}/global/deployments/{deployment}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'deployment' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'deletePolicy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'deploymentmanager/v2/projects/{project}/global/deployments/{deployment}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'deployment' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'deploymentmanager/v2/projects/{project}/global/deployments/{resource}/getIamPolicy',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'optionsRequestedPolicyVersion' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'deploymentmanager/v2/projects/{project}/global/deployments',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'createPolicy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'preview' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'deploymentmanager/v2/projects/{project}/global/deployments',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'deploymentmanager/v2/projects/{project}/global/deployments/{deployment}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'deployment' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'createPolicy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'deletePolicy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'preview' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'deploymentmanager/v2/projects/{project}/global/deployments/{resource}/setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'stop' => [
+              'path' => 'deploymentmanager/v2/projects/{project}/global/deployments/{deployment}/stop',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'deployment' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'deploymentmanager/v2/projects/{project}/global/deployments/{resource}/testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'deploymentmanager/v2/projects/{project}/global/deployments/{deployment}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'deployment' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'createPolicy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'deletePolicy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'preview' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->manifests = new DeploymentManager\Resource\Manifests(
+        $this,
+        $this->serviceName,
+        'manifests',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'deploymentmanager/v2/projects/{project}/global/deployments/{deployment}/manifests/{manifest}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'deployment' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'manifest' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'deploymentmanager/v2/projects/{project}/global/deployments/{deployment}/manifests',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'deployment' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->operations = new DeploymentManager\Resource\Operations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'deploymentmanager/v2/projects/{project}/global/operations/{operation}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'operation' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'deploymentmanager/v2/projects/{project}/global/operations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->resources = new DeploymentManager\Resource\Resources(
+        $this,
+        $this->serviceName,
+        'resources',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'deploymentmanager/v2/projects/{project}/global/deployments/{deployment}/resources/{resource}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'deployment' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'deploymentmanager/v2/projects/{project}/global/deployments/{deployment}/resources',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'deployment' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->types = new DeploymentManager\Resource\Types(
+        $this,
+        $this->serviceName,
+        'types',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'deploymentmanager/v2/projects/{project}/global/types',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(DeploymentManager::class, 'Google_Service_DeploymentManager');

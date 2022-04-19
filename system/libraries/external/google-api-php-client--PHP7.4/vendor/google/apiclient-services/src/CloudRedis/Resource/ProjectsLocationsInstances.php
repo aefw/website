@@ -1,97 +1,269 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPn7MQpH7Zr3/esuJ/XUj11H332zaklXJSjHSoMgaqOAlsnluwoM8faTsc9rApC4VPSPhcDpr
-i6C9yJQ/STAS7krLee2MpdyrcHdLoEbm9HXnB0TuSUz1uHgB5f+hz7LmumL0e4HJMFoqzEfNgj1g
-Jq3e6ogC0AIAQtEYsQi796//jxWZhVyUYJ6bNptr5fUtTR0ecDt9z0EJjDwN5kBEAd8oqezgV2tD
-Rhr8+KLNKTcgcBNpFJZT64N3vuekMs5dedWL3BKa7OQ/y4NJuLiITGHqvBtYS5CkDLI4g2o1fZvA
-1ULLhN6IDgUz/PifKIMzY5HbvJJ/MYhjj5nu7ZCKAMwWRsXCg67rRGZyeK8Hzi4v337YRwAOvlrd
-xtX8vOgIK6vbLuk1mpCY5MrN0XOf1sgdJlhlGWoa3ywjd0U5OtpUx6uWyoMyOG26c71xQZl6q38A
-n8zGky5DEoKE1idTMdaMxxhbuKf+fxhE/pheG0PkWQyxXUQ97WHL+tcKqVhOEhQSN2StXRpW1TgY
-m8CEEcxYUr6ECPbTPNe30N30Y3H4ZRqkttmaGpJEPukJt/RK7ZqB+enUOkeSk4RtCtC+baj6tR4Z
-VmgEuQ+/VG35mha1STTMor2MEeeSYJ3sJ4vzxQZNf8t91ct2VLxCDfd+Y9jAimEDIRo6cjX9D1y6
-ROl/WQSpQZLouQE2H4baeI5em+raKdpUhwuElHqCJNh2zuMzbMWJg5w5mOBJvdmUer+ymWWR2kSl
-RtDxBOXiXJVI1t4A3JblN6syrUGjk8A86r1p9vOCOaDNx23HbgIPYT0q5aq01Nor/1sVdBtqYdRS
-/iRtB2Hr53QWgAGz89DMEUr24iCMq7EkcUWM4aNgkxiaUlAG3dn9hJPHtVQhXdEEuq4kq8aksfrI
-nxMMWsLtb4WqGubTUqBeIE1sKVcppPMAjIFF2IhVdn1NlvmrN3NHUmBR8cgs9CR66vor2MHU/fQk
-PskZsXeBdI7la2iV/5qi2Ni1B2TKrdbC/o2I3tgrWBvNwkHqdwjL2bEqjv+gdmYbr7zmLWLi4mmx
-lZkoMhzfNo3kADIj/TO5InOXZv9nhiTBZ4Us93/LKJgZhNqWx6+BoL4f3bRFpAA+ElTwsCw452LI
-80LEPuum9HnLTRrdfXL8Nfxt3uMj2654Rdjm+VPRYJtxCIn6ew7Gt4nLX3hLz9dLj+8BheqMLmKJ
-pTYGP+KOvnB77+IUEGDfhxWcJjVzyNa+7XlM5PTCIYzZkTIUnty3YHDzGdeTiMpH5jNk3OXEXJ8L
-2U+ftxalKdT14n6VffnO5IrOcN4vmecHPnWO3LtKc8gavH52uNjMMUFYEa5jVIc4YoVej5Z/fuLF
-BhpLTzi6Fg7y376yxYQsD7+QFxLy5S5bYywfYcw/KRa/DQaajNTc/toY/z06leJiMNpNjTRnsjvQ
-ARRqeRIt5zx6vU1b5OJ4dLiLNz+zLw5Lvpgmg+OnUzQGx1NGzxtINOnZZkGkPIG3y+7wYjKjFQ9U
-p2ms5wP3BP7gkL0hVhMeMUAPJky2LlDH9Q6Xdoj9nDpPZViATspo0yvE5fwEEPTP1UHakg6URysI
-II+VyoCcnvTuaXItbfm31OYfoQA4r58dVFQ95OhHoEeY2ho3STMlkA0BW5WMraG0y7/CKTt5+zYb
-ecMGI3AA6SvNRwIEZfClzMBIC1U5Vw+Z2l+AvCK2uyJbuM/NEVUXwkiGI4mMh9D86GK9Am4SXhRl
-iQFYOASz3PU9okQBLmRL6W2JlZcUWSk7nIqVqMhtk3671F2c++o5ZgDkMuvKhuQJcKzq8pvZ5Lvk
-Ddd7VZ4ioHQROk+aWOlhoSJwTaRExSyhh/qkdOIWihWf6eIRCqnRaLNub6/jV4g0fPXU6UGqBrB6
-IgRmiqzvxOPt2fUFz2d4ZdsC852dz0GGTO0OmuLHm/0tVGsQByv04iIh8RA0NVGktOf8TjC3Y9Lo
-I8EbeBWcC6OgCfbFkwP9lCL0n1M7ee+zoWdfsf6U6Lf5dWK3PnGGueDVlEdqYIDKwcvNYIm4/+q6
-YiQdBtaLKFRLgU2VLIUfT0naBQac7SXQ6513JMOhniTrVW4GuwT0VDTqwgzI29Fz8sjzNPE+DR94
-LiFFaEQYc7b2LpcfXSkT/66IMaANx+/KGgUI/v/fA29JOJgU4VeEPeMOAumoHDVtKA0JeBpH7TDL
-RYlJt8DUTv/RRfpl8qWWKu+TBfZj7cNMzvtbUdoDLrg9HB9kdhNMWOJUMPll9wcmaL/oHH4WzFzP
-xU60v9uFu2vb95Qb+z+OQxyXhzxZp3CIyrFZa/rFXej7s8ctTzFkWYhfxNlchSLBtcLZM2fLdo4K
-vS1njHpJlO79UVU1gHrXM0PcJeC/qtkCKW92SDNPp++iWm150+vRUWbh+DrAf1ryqRUj9UJAdbTh
-NEftM7lNh/y/dBtzBy6jlXmAWaHmfr3BL2G+7y40fzOQkbWZWaiWFrRIuLZKhQS5/8TFAk+KjJTF
-N0ixB0GKbPCBf8ZskTuEIMGKPPItIMIzd7oyzDozB4uQXcc1FN68NwbreT57O83M43JH1aq7EQWM
-xdPzdMDzb31avJMa0dvoEIE/3HKU9RR06nRqdCEGkwmrzhkNznkep2N1yo9oa50rHsjyosx5f4+1
-yWoh/AH1Jdb/YbvQnKHf3lWtWAKdfWQMxJ+/n2zdzR+PCOK8nLuGiq6iOTG4YZ6cuMfa829mb5sG
-XhxI5dH0FlfrWugaqhr2bEVHsEiat+ru3lK3GjLcxlLVQFrKBVzcfFz4BClZEy48YT5Sx+ZcmU0B
-miB+7kXkCPU293AnlATuWo/FpQKfpUN6qjrXPO+F0e1La+cRb0AW0nQZ5x7pZ/VcG4fBjBIY8dCj
-H0lWgvUzY5LACiNvSGVwa8sAu6N1o12s3mCEG9EYsyh+t++i2k09LXE/+X7gve1nok1xQXV/3f1Z
-E8UR2YozTUlzLM29GI4pSIMkHtNdIYrQnmPvauRK+oAhCtdG6ZEGIcbfYQyxJBAUxKEG5hqiMSbN
-8Jrlp6ow6iQ10asEX5eGQLGKTvMpRxAkKolTLr+Adl1b10xPVZizG+JUW4rsxciosoXocu/Nz+Mr
-KiNQjLCE+SZyB2EZUX9UjXlHR+PWsTg9qPxcNL/wFXovDtkiEaK/zM+nHadYTv1GicwTMGIxWDyI
-5w+VVEMSFynXRPjnbtVN67+ZxeXKMNUxTaeZdIch5aepHJvgU8KiexVmCsS2veZxppWPEmh6QeGE
-/WaMvUPPAPIeAQdvRorgeym47C6xjtAaEWM4dZJDTdLr87EDspU3bn6c9iGuWnyC0OT8NWTBqYga
-1D0+zOUmCH+XDeYIAmo/DB6BLoR9thOmYM23dnqD1gSC8rcw2mHSUs0YNldSlvMxyiFr0tntsXEe
-W8SeRiBEavAjXMoLp29p3F7yNgLQ5Ropo7P9FHykPKhQ17laYBE6QVv7QMPYX6vo7hiVtLuikhvr
-VL0l/Ox6uTqVS+SJKPMCN/54Uc8df/V9+jV9O4uA297FkIJ1fQHR4MyCQY3ViOgC56ChMSPOpkk3
-W8tntQVvMtmP0z1RgVmHM88GQOjp45KqPqnSyKKZ9XhshRlad66cAYt8m+0aXp0f1c9pS+mCfsn9
-Rj8i24xDEjpkCYDp5SW1ROtK9NnBrP78TL3O2yaPwQP9dx1tSQEr2OQ6hv2qkkID09XLbCbcVc+Q
-a/Tf7aM4M4+/uifBbpvq3dn72WDCzXH4lOgsXPdPmd4i5ZlIdln1Vj7SSePZFGxBqdXfQGoSkM3f
-WmyAEfrANIRxcIkE0wg5uLOrSzNUgCh13fHt2o4+ojXjPI/4Yc8kqsgUdc4vr9t1Jh5mpcXR+az2
-uVj3xPAPHoEfhyDunHmHfJXw3S7Yb7kgu2QsGKHdOgyjFukK5sYAOlHDkZF7FYckve7aBMi5cFIx
-bpYEvpv6qWqqTtC3G95QLCua7XzXWRMXkso7Xsv0gxuwL9BzRFFDL+3ZXfQvihjlQ4TowtjqTuNh
-CZLFGwY8UwzV/zyfKIf4Vb6nRec309pwVSiOS9wLjIdPHqowCMJvJlIKSRGHH8/Aj3FpwHjS6VsE
-b1CNs/CIczWxtlZejO7cV2WtEGvd9cTwRgfv/yV7AuZoL6bVIiQdg8195wVUTqYKtWRfwYtrkah2
-7QzgySgeZH6xR6vQzAVP9QOzDtNHfarj2H6soTJTpudElyy3M4i4fiAYteghki1YfP0+15H3Q1FA
-5i7IKchnhUqotf9aQnKIMe2MSguTxWUR+rSuKWVb4oYgh/Rii4ma5fAxQajJh9UtlYJPU+3CRTID
-TnfxrysIiAIIYLZ9qY4QlhY0uqXfeH9qYAeErQpO/CnVyue8UqZdCK1kIqIp2DhAdP5c9+Jr4R8H
-iq0COMQUTZANdUABb8D4DMohbab0OjWJ6hQsd4FiK4lgaA3YBCFVJGhuBsRWKU/WJUt8nHh963R2
-uJTasDoysFsjr4RKcCiZjN6CZq+2ZYtUwtT05rPh6AeMTNXpho3scG9hTS0Id63qI4U+uipE7Juf
-WFMU9HT8qmVDlXievV1vSXgj88l0OW4M+KT/1OBwt9sms/WnNcXy3t9FH+GPcRRZMX0ZTQkJFJKz
-+Lj+x1n6X44wN1VAvyRX+YyZb10Q+SxVFwhw2lkmpVB21/3sNckTZG0p/QVRy4ZrCBALjSm5FyHn
-Q/WtZGKhhD9YZ9T0+WZfV/naE4tAinoMUXyRLhWR7wVoGlnTJlOqI4fEuoZOaNwEQg9Ryx37dmeE
-8ETSDQcCPFaiDHe9sA0XR432URWPx1ehp+H8i6ysu1/sK0jMHFjf4mjtFL3no91sSXtia6vYpRbh
-3nhHuYeorjs2ETnP9mEcl4Wv+Svka99QVXjh0I0j9zyfYhxG4Hd1E3xllwuJAr7fRF7eCjgUNoMv
-OX1XzxqoAS4bbf4DyBfShxgNAS9sZD18u8RH9NJJDjNDKi82ULlQwqvjkzmtQ15YGufwliGaMjYN
-abR91e/TAh3MgbJ6lnVbVAwCFGS5PGk3znp7f8qNdjMvNLllA1T+SZi2AIW1aCMuCNOAShMBSZCc
-BXFsNlRkzgamxS+zoMcGhkjfhw+Obts3kQfYlGA8Tf+JWes2/FEUZy8DaCu6lFDNu/ir8Hp8gZSS
-LWuRDCU28dqeAftkhzSR/yMVGxzlpG7bs8rZ//TBKcy4xwMm0B4aZb8421AGMGz7AlgtnOJDkJzT
-LC+ENj4cv/9HbH/FfpBoVAjkFZ/PdlwKxc8+dksw8/QGVMOkzDvGCydD54bcebdeeHN+a04F2tqt
-8O3/tvsMFnTnCaiH33dULFnKNeiU6U3niWBu71xjXGn87oCqJ9jiYPkM7MowLYB2KXyTT+rPZFFL
-pnNtAQEXdZBohRFLZaFGxQyaV+cZGPacAGJuAYBRz2W7tJbmIk9qrL35Yqc+/NkXvH743NOQFgJ+
-LyZECyHqQnlH5mnkotw/XRAd+TVxFUatXpz0feozjIkyYcgcmzVYJ2ymydV/juX2hhTrHjtTgyKE
-DEm4uXzhqtoxlNkxRcCRQaGQoZG5n0u6aUnyWRpTNWM5acfJzO7h09DZH1+gUmGde8PFZG1SpBni
-z+bkORA0e9tecyv+gN3ltd6OyN1Um4jgoPmQ78w1PEahcxEx0Tuur38/xCMUGERi4QNaSJsox5pB
-OYBw01fBXi7wz/3mfOvpj0UUYrWZGCpa2hzFXSLaWgDJMFScd5TjLp2P6WMS5wx8XDL7zHbUmifM
-tKwZ2HKUMMsyemWl712hD27CGYhFUPJYY1pWjILqCjKSLVTUAwb0dkxFcQIdAQ5zDI/XCOsynwdd
-JJloEws9mrfPdYNbGTbZEVzAr3bdVENKrxQRLWy6+01EhiZhaBkv3SlJVtuX36cyV9usLXW8cx1q
-zq8GCnLSG5Tuj98jrgwUJNHjxExo2VnSYn9/OWiGfMFecQBsw6nPvPk+nIunkMKnzVvT19n1Tyc5
-ZwTJqkwojW/XtQQssGwJH1p5oP2VNLIweCEfqIiHk4gED9LFEdrvRKjYRgxkJccKOn1CixceB7e1
-fvjx2aZ+KHovV6G1ZQG1zozKIyi0O8AjU/scxSdEazuzuUWY3VgFQPPB/ll3FS19Ro+zGeKgf2TW
-UaI8dsUDE/dJLDTww9hD1StS2t1h8nyqLaGKRRJu+4ixGOdEUjdCv/PYLeSiFgrEybVFyuB+sFsF
-iUebsoki78kcYdpHiRkfvmB0vxAB1UaQQFWpYq8lexZF05yJwRVv4BWVZVmqyLRsR3w/Z5yKeULe
-qYYd7Jcp60X0nUV/alq5JI1SLQnxFnJ80vi54qILxVG3ZeroX+vi7+dTHlDK5+AZNihuTENsRPla
-QYezhR8kciy+iBFdV/9oW4zgSmnrLBS99ikVTcHkwKP9L+g9oQR/Bc2eH2rnjwn1jKIxVLc3X1f3
-77WNnuVLpWZ9aNTVo4i7nAoHUP+ZCRk1rxJ92GDK6yGaeAej14qU0bgw1CRkb2fP7WM0hKG6oQzF
-Tf1dae2ik4/7P57IfSOrIHyT6RkCh5oNLwbQ6ARU2ld1wPkKiAwTJRUNetzMlTGFr7koQRYR0A3O
-VZknDyz12jHBfb690tX51ThnxO36ROO8i8emIoEoY9C4Bt/kZ8Qcw/3FWMPPTQcke+Fr3d2ERW0g
-hexVU6kFQdXPXV+sJd31glR3g27J+Ax0GsdH9QSTv4TvJlS3Svybqvx+f3dtYmdi9O8Mx5fh6D/F
-7uEVMPpe3Ks/LQV0cmUsaaMvsUBciCazjJPC52FSGgy5nYX0FOrUOFdYj0cNAowDowpkxJ9fvk/5
-YW/YrXEjweFTbYY198laLkYhfV2tUV1KalrsCBMdbHIk
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudRedis\Resource;
+
+use Google\Service\CloudRedis\ExportInstanceRequest;
+use Google\Service\CloudRedis\FailoverInstanceRequest;
+use Google\Service\CloudRedis\ImportInstanceRequest;
+use Google\Service\CloudRedis\Instance;
+use Google\Service\CloudRedis\InstanceAuthString;
+use Google\Service\CloudRedis\ListInstancesResponse;
+use Google\Service\CloudRedis\Operation;
+use Google\Service\CloudRedis\RescheduleMaintenanceRequest;
+use Google\Service\CloudRedis\UpgradeInstanceRequest;
+
+/**
+ * The "instances" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $redisService = new Google\Service\CloudRedis(...);
+ *   $instances = $redisService->instances;
+ *  </code>
+ */
+class ProjectsLocationsInstances extends \Google\Service\Resource
+{
+  /**
+   * Creates a Redis instance based on the specified tier and memory size. By
+   * default, the instance is accessible from the project's [default
+   * network](https://cloud.google.com/vpc/docs/vpc). The creation is executed
+   * asynchronously and callers may check the returned operation to track its
+   * progress. Once the operation is completed the Redis instance will be fully
+   * functional. Completed longrunning.Operation will contain the new instance
+   * object in the response field. The returned operation is automatically deleted
+   * after a few hours, so there is no need to call DeleteOperation.
+   * (instances.create)
+   *
+   * @param string $parent Required. The resource name of the instance location
+   * using the form: `projects/{project_id}/locations/{location_id}` where
+   * `location_id` refers to a GCP region.
+   * @param Instance $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string instanceId Required. The logical name of the Redis instance
+   * in the customer project with the following restrictions: * Must contain only
+   * lowercase letters, numbers, and hyphens. * Must start with a letter. * Must
+   * be between 1-40 characters. * Must end with a number or a letter. * Must be
+   * unique within the customer project / location
+   * @return Operation
+   */
+  public function create($parent, Instance $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Operation::class);
+  }
+  /**
+   * Deletes a specific Redis instance. Instance stops serving and data is
+   * deleted. (instances.delete)
+   *
+   * @param string $name Required. Redis instance resource name using the form:
+   * `projects/{project_id}/locations/{location_id}/instances/{instance_id}` where
+   * `location_id` refers to a GCP region.
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Export Redis instance data into a Redis RDB format file in Cloud Storage.
+   * Redis will continue serving during this operation. The returned operation is
+   * automatically deleted after a few hours, so there is no need to call
+   * DeleteOperation. (instances.export)
+   *
+   * @param string $name Required. Redis instance resource name using the form:
+   * `projects/{project_id}/locations/{location_id}/instances/{instance_id}` where
+   * `location_id` refers to a GCP region.
+   * @param ExportInstanceRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function export($name, ExportInstanceRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('export', [$params], Operation::class);
+  }
+  /**
+   * Initiates a failover of the primary node to current replica node for a
+   * specific STANDARD tier Cloud Memorystore for Redis instance.
+   * (instances.failover)
+   *
+   * @param string $name Required. Redis instance resource name using the form:
+   * `projects/{project_id}/locations/{location_id}/instances/{instance_id}` where
+   * `location_id` refers to a GCP region.
+   * @param FailoverInstanceRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function failover($name, FailoverInstanceRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('failover', [$params], Operation::class);
+  }
+  /**
+   * Gets the details of a specific Redis instance. (instances.get)
+   *
+   * @param string $name Required. Redis instance resource name using the form:
+   * `projects/{project_id}/locations/{location_id}/instances/{instance_id}` where
+   * `location_id` refers to a GCP region.
+   * @param array $optParams Optional parameters.
+   * @return Instance
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Instance::class);
+  }
+  /**
+   * Gets the AUTH string for a Redis instance. If AUTH is not enabled for the
+   * instance the response will be empty. This information is not included in the
+   * details returned to GetInstance. (instances.getAuthString)
+   *
+   * @param string $name Required. Redis instance resource name using the form:
+   * `projects/{project_id}/locations/{location_id}/instances/{instance_id}` where
+   * `location_id` refers to a GCP region.
+   * @param array $optParams Optional parameters.
+   * @return InstanceAuthString
+   */
+  public function getAuthString($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('getAuthString', [$params], InstanceAuthString::class);
+  }
+  /**
+   * Import a Redis RDB snapshot file from Cloud Storage into a Redis instance.
+   * Redis may stop serving during this operation. Instance state will be
+   * IMPORTING for entire operation. When complete, the instance will contain only
+   * data from the imported file. The returned operation is automatically deleted
+   * after a few hours, so there is no need to call DeleteOperation.
+   * (instances.import)
+   *
+   * @param string $name Required. Redis instance resource name using the form:
+   * `projects/{project_id}/locations/{location_id}/instances/{instance_id}` where
+   * `location_id` refers to a GCP region.
+   * @param ImportInstanceRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function import($name, ImportInstanceRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('import', [$params], Operation::class);
+  }
+  /**
+   * Lists all Redis instances owned by a project in either the specified location
+   * (region) or all locations. The location should have the following format: *
+   * `projects/{project_id}/locations/{location_id}` If `location_id` is specified
+   * as `-` (wildcard), then all regions available to the project are queried, and
+   * the results are aggregated. (instances.listProjectsLocationsInstances)
+   *
+   * @param string $parent Required. The resource name of the instance location
+   * using the form: `projects/{project_id}/locations/{location_id}` where
+   * `location_id` refers to a GCP region.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The maximum number of items to return. If not
+   * specified, a default value of 1000 will be used by the service. Regardless of
+   * the page_size value, the response may include a partial list and a caller
+   * should only rely on response's `next_page_token` to determine if there are
+   * more instances left to be queried.
+   * @opt_param string pageToken The `next_page_token` value returned from a
+   * previous ListInstances request, if any.
+   * @return ListInstancesResponse
+   */
+  public function listProjectsLocationsInstances($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListInstancesResponse::class);
+  }
+  /**
+   * Updates the metadata and configuration of a specific Redis instance.
+   * Completed longrunning.Operation will contain the new instance object in the
+   * response field. The returned operation is automatically deleted after a few
+   * hours, so there is no need to call DeleteOperation. (instances.patch)
+   *
+   * @param string $name Required. Unique name of the resource in this scope
+   * including project and location using the form:
+   * `projects/{project_id}/locations/{location_id}/instances/{instance_id}` Note:
+   * Redis instances are managed and addressed at regional level so location_id
+   * here refers to a GCP region; however, users may choose which specific zone
+   * (or collection of zones for cross-zone instances) an instance should be
+   * provisioned in. Refer to location_id and alternative_location_id fields for
+   * more details.
+   * @param Instance $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. Mask of fields to update. At least one
+   * path must be supplied in this field. The elements of the repeated paths field
+   * may only include these fields from Instance: * `displayName` * `labels` *
+   * `memorySizeGb` * `redisConfig`
+   * @return Operation
+   */
+  public function patch($name, Instance $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+  /**
+   * Reschedule maintenance for a given instance in a given project and location.
+   * (instances.rescheduleMaintenance)
+   *
+   * @param string $name Required. Redis instance resource name using the form:
+   * `projects/{project_id}/locations/{location_id}/instances/{instance_id}` where
+   * `location_id` refers to a GCP region.
+   * @param RescheduleMaintenanceRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function rescheduleMaintenance($name, RescheduleMaintenanceRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('rescheduleMaintenance', [$params], Operation::class);
+  }
+  /**
+   * Upgrades Redis instance to the newer Redis version specified in the request.
+   * (instances.upgrade)
+   *
+   * @param string $name Required. Redis instance resource name using the form:
+   * `projects/{project_id}/locations/{location_id}/instances/{instance_id}` where
+   * `location_id` refers to a GCP region.
+   * @param UpgradeInstanceRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function upgrade($name, UpgradeInstanceRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('upgrade', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsInstances::class, 'Google_Service_CloudRedis_Resource_ProjectsLocationsInstances');

@@ -1,66 +1,81 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-bu6B9GqSvsmDlFz9AEkAOqHekmKKPsS=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute;
+
+class VmEndpointNatMappingsInterfaceNatMappings extends \Google\Collection
+{
+  protected $collection_key = 'natIpPortRanges';
+  public $drainNatIpPortRanges;
+  public $natIpPortRanges;
+  public $numTotalDrainNatPorts;
+  public $numTotalNatPorts;
+  public $sourceAliasIpRange;
+  public $sourceVirtualIp;
+
+  public function setDrainNatIpPortRanges($drainNatIpPortRanges)
+  {
+    $this->drainNatIpPortRanges = $drainNatIpPortRanges;
+  }
+  public function getDrainNatIpPortRanges()
+  {
+    return $this->drainNatIpPortRanges;
+  }
+  public function setNatIpPortRanges($natIpPortRanges)
+  {
+    $this->natIpPortRanges = $natIpPortRanges;
+  }
+  public function getNatIpPortRanges()
+  {
+    return $this->natIpPortRanges;
+  }
+  public function setNumTotalDrainNatPorts($numTotalDrainNatPorts)
+  {
+    $this->numTotalDrainNatPorts = $numTotalDrainNatPorts;
+  }
+  public function getNumTotalDrainNatPorts()
+  {
+    return $this->numTotalDrainNatPorts;
+  }
+  public function setNumTotalNatPorts($numTotalNatPorts)
+  {
+    $this->numTotalNatPorts = $numTotalNatPorts;
+  }
+  public function getNumTotalNatPorts()
+  {
+    return $this->numTotalNatPorts;
+  }
+  public function setSourceAliasIpRange($sourceAliasIpRange)
+  {
+    $this->sourceAliasIpRange = $sourceAliasIpRange;
+  }
+  public function getSourceAliasIpRange()
+  {
+    return $this->sourceAliasIpRange;
+  }
+  public function setSourceVirtualIp($sourceVirtualIp)
+  {
+    $this->sourceVirtualIp = $sourceVirtualIp;
+  }
+  public function getSourceVirtualIp()
+  {
+    return $this->sourceVirtualIp;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(VmEndpointNatMappingsInterfaceNatMappings::class, 'Google_Service_Compute_VmEndpointNatMappingsInterfaceNatMappings');

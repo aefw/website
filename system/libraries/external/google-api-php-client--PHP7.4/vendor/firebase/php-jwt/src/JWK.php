@@ -1,95 +1,172 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-2W==
+<?php
+
+namespace Firebase\JWT;
+
+use DomainException;
+use InvalidArgumentException;
+use UnexpectedValueException;
+
+/**
+ * JSON Web Key implementation, based on this spec:
+ * https://tools.ietf.org/html/draft-ietf-jose-json-web-key-41
+ *
+ * PHP version 5
+ *
+ * @category Authentication
+ * @package  Authentication_JWT
+ * @author   Bui Sy Nguyen <nguyenbs@gmail.com>
+ * @license  http://opensource.org/licenses/BSD-3-Clause 3-clause BSD
+ * @link     https://github.com/firebase/php-jwt
+ */
+class JWK
+{
+    /**
+     * Parse a set of JWK keys
+     *
+     * @param array $jwks The JSON Web Key Set as an associative array
+     *
+     * @return array An associative array that represents the set of keys
+     *
+     * @throws InvalidArgumentException     Provided JWK Set is empty
+     * @throws UnexpectedValueException     Provided JWK Set was invalid
+     * @throws DomainException              OpenSSL failure
+     *
+     * @uses parseKey
+     */
+    public static function parseKeySet(array $jwks)
+    {
+        $keys = array();
+
+        if (!isset($jwks['keys'])) {
+            throw new UnexpectedValueException('"keys" member must exist in the JWK Set');
+        }
+        if (empty($jwks['keys'])) {
+            throw new InvalidArgumentException('JWK Set did not contain any keys');
+        }
+
+        foreach ($jwks['keys'] as $k => $v) {
+            $kid = isset($v['kid']) ? $v['kid'] : $k;
+            if ($key = self::parseKey($v)) {
+                $keys[$kid] = $key;
+            }
+        }
+
+        if (0 === \count($keys)) {
+            throw new UnexpectedValueException('No supported algorithms found in JWK Set');
+        }
+
+        return $keys;
+    }
+
+    /**
+     * Parse a JWK key
+     *
+     * @param array $jwk An individual JWK
+     *
+     * @return resource|array An associative array that represents the key
+     *
+     * @throws InvalidArgumentException     Provided JWK is empty
+     * @throws UnexpectedValueException     Provided JWK was invalid
+     * @throws DomainException              OpenSSL failure
+     *
+     * @uses createPemFromModulusAndExponent
+     */
+    public static function parseKey(array $jwk)
+    {
+        if (empty($jwk)) {
+            throw new InvalidArgumentException('JWK must not be empty');
+        }
+        if (!isset($jwk['kty'])) {
+            throw new UnexpectedValueException('JWK must contain a "kty" parameter');
+        }
+
+        switch ($jwk['kty']) {
+            case 'RSA':
+                if (!empty($jwk['d'])) {
+                    throw new UnexpectedValueException('RSA private keys are not supported');
+                }
+                if (!isset($jwk['n']) || !isset($jwk['e'])) {
+                    throw new UnexpectedValueException('RSA keys must contain values for both "n" and "e"');
+                }
+
+                $pem = self::createPemFromModulusAndExponent($jwk['n'], $jwk['e']);
+                $publicKey = \openssl_pkey_get_public($pem);
+                if (false === $publicKey) {
+                    throw new DomainException(
+                        'OpenSSL error: ' . \openssl_error_string()
+                    );
+                }
+                return $publicKey;
+            default:
+                // Currently only RSA is supported
+                break;
+        }
+    }
+
+    /**
+     * Create a public key represented in PEM format from RSA modulus and exponent information
+     *
+     * @param string $n The RSA modulus encoded in Base64
+     * @param string $e The RSA exponent encoded in Base64
+     *
+     * @return string The RSA public key represented in PEM format
+     *
+     * @uses encodeLength
+     */
+    private static function createPemFromModulusAndExponent($n, $e)
+    {
+        $modulus = JWT::urlsafeB64Decode($n);
+        $publicExponent = JWT::urlsafeB64Decode($e);
+
+        $components = array(
+            'modulus' => \pack('Ca*a*', 2, self::encodeLength(\strlen($modulus)), $modulus),
+            'publicExponent' => \pack('Ca*a*', 2, self::encodeLength(\strlen($publicExponent)), $publicExponent)
+        );
+
+        $rsaPublicKey = \pack(
+            'Ca*a*a*',
+            48,
+            self::encodeLength(\strlen($components['modulus']) + \strlen($components['publicExponent'])),
+            $components['modulus'],
+            $components['publicExponent']
+        );
+
+        // sequence(oid(1.2.840.113549.1.1.1), null)) = rsaEncryption.
+        $rsaOID = \pack('H*', '300d06092a864886f70d0101010500'); // hex version of MA0GCSqGSIb3DQEBAQUA
+        $rsaPublicKey = \chr(0) . $rsaPublicKey;
+        $rsaPublicKey = \chr(3) . self::encodeLength(\strlen($rsaPublicKey)) . $rsaPublicKey;
+
+        $rsaPublicKey = \pack(
+            'Ca*a*',
+            48,
+            self::encodeLength(\strlen($rsaOID . $rsaPublicKey)),
+            $rsaOID . $rsaPublicKey
+        );
+
+        $rsaPublicKey = "-----BEGIN PUBLIC KEY-----\r\n" .
+            \chunk_split(\base64_encode($rsaPublicKey), 64) .
+            '-----END PUBLIC KEY-----';
+
+        return $rsaPublicKey;
+    }
+
+    /**
+     * DER-encode the length
+     *
+     * DER supports lengths up to (2**8)**127, however, we'll only support lengths up to (2**8)**4.  See
+     * {@link http://itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf#p=13 X.690 paragraph 8.1.3} for more information.
+     *
+     * @param int $length
+     * @return string
+     */
+    private static function encodeLength($length)
+    {
+        if ($length <= 0x7F) {
+            return \chr($length);
+        }
+
+        $temp = \ltrim(\pack('N', $length), \chr(0));
+
+        return \pack('Ca*', 0x80 | \strlen($temp), $temp);
+    }
+}

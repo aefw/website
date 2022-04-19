@@ -1,63 +1,100 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-8X41MJk1DBLxdotp
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CivicInfo;
+
+class RepresentativeInfoResponse extends \Google\Collection
+{
+  protected $collection_key = 'officials';
+  protected $divisionsType = GeographicDivision::class;
+  protected $divisionsDataType = 'map';
+  public $kind;
+  protected $normalizedInputType = SimpleAddressType::class;
+  protected $normalizedInputDataType = '';
+  protected $officesType = Office::class;
+  protected $officesDataType = 'array';
+  protected $officialsType = Official::class;
+  protected $officialsDataType = 'array';
+
+  /**
+   * @param GeographicDivision[]
+   */
+  public function setDivisions($divisions)
+  {
+    $this->divisions = $divisions;
+  }
+  /**
+   * @return GeographicDivision[]
+   */
+  public function getDivisions()
+  {
+    return $this->divisions;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  /**
+   * @param SimpleAddressType
+   */
+  public function setNormalizedInput(SimpleAddressType $normalizedInput)
+  {
+    $this->normalizedInput = $normalizedInput;
+  }
+  /**
+   * @return SimpleAddressType
+   */
+  public function getNormalizedInput()
+  {
+    return $this->normalizedInput;
+  }
+  /**
+   * @param Office[]
+   */
+  public function setOffices($offices)
+  {
+    $this->offices = $offices;
+  }
+  /**
+   * @return Office[]
+   */
+  public function getOffices()
+  {
+    return $this->offices;
+  }
+  /**
+   * @param Official[]
+   */
+  public function setOfficials($officials)
+  {
+    $this->officials = $officials;
+  }
+  /**
+   * @return Official[]
+   */
+  public function getOfficials()
+  {
+    return $this->officials;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(RepresentativeInfoResponse::class, 'Google_Service_CivicInfo_RepresentativeInfoResponse');

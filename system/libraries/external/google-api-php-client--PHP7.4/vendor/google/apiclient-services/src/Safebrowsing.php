@@ -1,72 +1,197 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for Safebrowsing (v4).
+ *
+ * <p>
+ * Enables client applications to check web resources (most commonly URLs)
+ * against Google-generated lists of unsafe web resources. The Safe Browsing
+ * APIs are for non-commercial use only. If you need to use APIs to detect
+ * malicious URLs for commercial purposes – meaning “for sale or revenue-
+ * generating purposes” – please refer to the Web Risk API.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://developers.google.com/safe-browsing/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class Safebrowsing extends \Google\Service
+{
+
+
+  public $encodedFullHashes;
+  public $encodedUpdates;
+  public $fullHashes;
+  public $threatHits;
+  public $threatListUpdates;
+  public $threatLists;
+  public $threatMatches;
+
+  /**
+   * Constructs the internal representation of the Safebrowsing service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://safebrowsing.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v4';
+    $this->serviceName = 'safebrowsing';
+
+    $this->encodedFullHashes = new Safebrowsing\Resource\EncodedFullHashes(
+        $this,
+        $this->serviceName,
+        'encodedFullHashes',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v4/encodedFullHashes/{encodedRequest}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'encodedRequest' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'clientId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'clientVersion' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->encodedUpdates = new Safebrowsing\Resource\EncodedUpdates(
+        $this,
+        $this->serviceName,
+        'encodedUpdates',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v4/encodedUpdates/{encodedRequest}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'encodedRequest' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'clientId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'clientVersion' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->fullHashes = new Safebrowsing\Resource\FullHashes(
+        $this,
+        $this->serviceName,
+        'fullHashes',
+        [
+          'methods' => [
+            'find' => [
+              'path' => 'v4/fullHashes:find',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],
+          ]
+        ]
+    );
+    $this->threatHits = new Safebrowsing\Resource\ThreatHits(
+        $this,
+        $this->serviceName,
+        'threatHits',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v4/threatHits',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],
+          ]
+        ]
+    );
+    $this->threatListUpdates = new Safebrowsing\Resource\ThreatListUpdates(
+        $this,
+        $this->serviceName,
+        'threatListUpdates',
+        [
+          'methods' => [
+            'fetch' => [
+              'path' => 'v4/threatListUpdates:fetch',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],
+          ]
+        ]
+    );
+    $this->threatLists = new Safebrowsing\Resource\ThreatLists(
+        $this,
+        $this->serviceName,
+        'threatLists',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v4/threatLists',
+              'httpMethod' => 'GET',
+              'parameters' => [],
+            ],
+          ]
+        ]
+    );
+    $this->threatMatches = new Safebrowsing\Resource\ThreatMatches(
+        $this,
+        $this->serviceName,
+        'threatMatches',
+        [
+          'methods' => [
+            'find' => [
+              'path' => 'v4/threatMatches:find',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Safebrowsing::class, 'Google_Service_Safebrowsing');

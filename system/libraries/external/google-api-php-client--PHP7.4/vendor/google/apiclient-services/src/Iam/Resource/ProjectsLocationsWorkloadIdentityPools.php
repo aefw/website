@@ -1,73 +1,146 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Iam\Resource;
+
+use Google\Service\Iam\ListWorkloadIdentityPoolsResponse;
+use Google\Service\Iam\Operation;
+use Google\Service\Iam\UndeleteWorkloadIdentityPoolRequest;
+use Google\Service\Iam\WorkloadIdentityPool;
+
+/**
+ * The "workloadIdentityPools" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $iamService = new Google\Service\Iam(...);
+ *   $workloadIdentityPools = $iamService->workloadIdentityPools;
+ *  </code>
+ */
+class ProjectsLocationsWorkloadIdentityPools extends \Google\Service\Resource
+{
+  /**
+   * Creates a new WorkloadIdentityPool. You cannot reuse the name of a deleted
+   * pool until 30 days after deletion. (workloadIdentityPools.create)
+   *
+   * @param string $parent Required. The parent resource to create the pool in.
+   * The only supported location is `global`.
+   * @param WorkloadIdentityPool $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string workloadIdentityPoolId Required. The ID to use for the
+   * pool, which becomes the final component of the resource name. This value
+   * should be 4-32 characters, and may contain the characters [a-z0-9-]. The
+   * prefix `gcp-` is reserved for use by Google, and may not be specified.
+   * @return Operation
+   */
+  public function create($parent, WorkloadIdentityPool $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Operation::class);
+  }
+  /**
+   * Deletes a WorkloadIdentityPool. You cannot use a deleted pool to exchange
+   * external credentials for Google Cloud credentials. However, deletion does not
+   * revoke credentials that have already been issued. Credentials issued for a
+   * deleted pool do not grant access to resources. If the pool is undeleted, and
+   * the credentials are not expired, they grant access again. You can undelete a
+   * pool for 30 days. After 30 days, deletion is permanent. You cannot update
+   * deleted pools. However, you can view and list them.
+   * (workloadIdentityPools.delete)
+   *
+   * @param string $name Required. The name of the pool to delete.
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Gets an individual WorkloadIdentityPool. (workloadIdentityPools.get)
+   *
+   * @param string $name Required. The name of the pool to retrieve.
+   * @param array $optParams Optional parameters.
+   * @return WorkloadIdentityPool
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], WorkloadIdentityPool::class);
+  }
+  /**
+   * Lists all non-deleted WorkloadIdentityPools in a project. If `show_deleted`
+   * is set to `true`, then deleted pools are also listed.
+   * (workloadIdentityPools.listProjectsLocationsWorkloadIdentityPools)
+   *
+   * @param string $parent Required. The parent resource to list pools for.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The maximum number of pools to return. If
+   * unspecified, at most 50 pools are returned. The maximum value is 1000; values
+   * above are 1000 truncated to 1000.
+   * @opt_param string pageToken A page token, received from a previous
+   * `ListWorkloadIdentityPools` call. Provide this to retrieve the subsequent
+   * page.
+   * @opt_param bool showDeleted Whether to return soft-deleted pools.
+   * @return ListWorkloadIdentityPoolsResponse
+   */
+  public function listProjectsLocationsWorkloadIdentityPools($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListWorkloadIdentityPoolsResponse::class);
+  }
+  /**
+   * Updates an existing WorkloadIdentityPool. (workloadIdentityPools.patch)
+   *
+   * @param string $name Output only. The resource name of the pool.
+   * @param WorkloadIdentityPool $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. The list of fields update.
+   * @return Operation
+   */
+  public function patch($name, WorkloadIdentityPool $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+  /**
+   * Undeletes a WorkloadIdentityPool, as long as it was deleted fewer than 30
+   * days ago. (workloadIdentityPools.undelete)
+   *
+   * @param string $name Required. The name of the pool to undelete.
+   * @param UndeleteWorkloadIdentityPoolRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function undelete($name, UndeleteWorkloadIdentityPoolRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('undelete', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsWorkloadIdentityPools::class, 'Google_Service_Iam_Resource_ProjectsLocationsWorkloadIdentityPools');

@@ -1,86 +1,283 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute\Resource;
+
+use Google\Service\Compute\BackendBucket;
+use Google\Service\Compute\BackendBucketList;
+use Google\Service\Compute\Operation;
+use Google\Service\Compute\SignedUrlKey;
+
+/**
+ * The "backendBuckets" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $computeService = new Google\Service\Compute(...);
+ *   $backendBuckets = $computeService->backendBuckets;
+ *  </code>
+ */
+class BackendBuckets extends \Google\Service\Resource
+{
+  /**
+   * Adds a key for validating requests with signed URLs for this backend bucket.
+   * (backendBuckets.addSignedUrlKey)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $backendBucket Name of the BackendBucket resource to which the
+   * Signed URL Key should be added. The name should conform to RFC1035.
+   * @param SignedUrlKey $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function addSignedUrlKey($project, $backendBucket, SignedUrlKey $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'backendBucket' => $backendBucket, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('addSignedUrlKey', [$params], Operation::class);
+  }
+  /**
+   * Deletes the specified BackendBucket resource. (backendBuckets.delete)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $backendBucket Name of the BackendBucket resource to delete.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function delete($project, $backendBucket, $optParams = [])
+  {
+    $params = ['project' => $project, 'backendBucket' => $backendBucket];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Deletes a key for validating requests with signed URLs for this backend
+   * bucket. (backendBuckets.deleteSignedUrlKey)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $backendBucket Name of the BackendBucket resource to which the
+   * Signed URL Key should be added. The name should conform to RFC1035.
+   * @param string $keyName The name of the Signed URL Key to delete.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function deleteSignedUrlKey($project, $backendBucket, $keyName, $optParams = [])
+  {
+    $params = ['project' => $project, 'backendBucket' => $backendBucket, 'keyName' => $keyName];
+    $params = array_merge($params, $optParams);
+    return $this->call('deleteSignedUrlKey', [$params], Operation::class);
+  }
+  /**
+   * Returns the specified BackendBucket resource. Gets a list of available
+   * backend buckets by making a list() request. (backendBuckets.get)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $backendBucket Name of the BackendBucket resource to return.
+   * @param array $optParams Optional parameters.
+   * @return BackendBucket
+   */
+  public function get($project, $backendBucket, $optParams = [])
+  {
+    $params = ['project' => $project, 'backendBucket' => $backendBucket];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], BackendBucket::class);
+  }
+  /**
+   * Creates a BackendBucket resource in the specified project using the data
+   * included in the request. (backendBuckets.insert)
+   *
+   * @param string $project Project ID for this request.
+   * @param BackendBucket $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function insert($project, BackendBucket $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Operation::class);
+  }
+  /**
+   * Retrieves the list of BackendBucket resources available to the specified
+   * project. (backendBuckets.listBackendBuckets)
+   *
+   * @param string $project Project ID for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return BackendBucketList
+   */
+  public function listBackendBuckets($project, $optParams = [])
+  {
+    $params = ['project' => $project];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], BackendBucketList::class);
+  }
+  /**
+   * Updates the specified BackendBucket resource with the data included in the
+   * request. This method supports PATCH semantics and uses the JSON merge patch
+   * format and processing rules. (backendBuckets.patch)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $backendBucket Name of the BackendBucket resource to patch.
+   * @param BackendBucket $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function patch($project, $backendBucket, BackendBucket $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'backendBucket' => $backendBucket, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+  /**
+   * Updates the specified BackendBucket resource with the data included in the
+   * request. (backendBuckets.update)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $backendBucket Name of the BackendBucket resource to update.
+   * @param BackendBucket $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function update($project, $backendBucket, BackendBucket $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'backendBucket' => $backendBucket, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(BackendBuckets::class, 'Google_Service_Compute_Resource_BackendBuckets');

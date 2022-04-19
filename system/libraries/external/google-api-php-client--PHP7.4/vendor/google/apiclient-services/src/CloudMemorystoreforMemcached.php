@@ -1,65 +1,275 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-dBxoRO9OLE9vOB5TQR74xRs8kNiIK56LlLRfwzS=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for CloudMemorystoreforMemcached (v1).
+ *
+ * <p>
+ * Google Cloud Memorystore for Memcached API is used for creating and managing
+ * Memcached instances in GCP.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/memorystore/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class CloudMemorystoreforMemcached extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+
+  public $projects_locations;
+  public $projects_locations_instances;
+  public $projects_locations_operations;
+
+  /**
+   * Constructs the internal representation of the CloudMemorystoreforMemcached
+   * service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://memcache.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'memcache';
+
+    $this->projects_locations = new CloudMemorystoreforMemcached\Resource\ProjectsLocations(
+        $this,
+        $this->serviceName,
+        'locations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+name}/locations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_instances = new CloudMemorystoreforMemcached\Resource\ProjectsLocationsInstances(
+        $this,
+        $this->serviceName,
+        'instances',
+        [
+          'methods' => [
+            'applyParameters' => [
+              'path' => 'v1/{+name}:applyParameters',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1/{+parent}/instances',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instanceId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/instances',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'updateParameters' => [
+              'path' => 'v1/{+name}:updateParameters',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_operations = new CloudMemorystoreforMemcached\Resource\ProjectsLocationsOperations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'cancel' => [
+              'path' => 'v1/{+name}:cancel',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+name}/operations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(CloudMemorystoreforMemcached::class, 'Google_Service_CloudMemorystoreforMemcached');

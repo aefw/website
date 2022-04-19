@@ -1,73 +1,169 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-ftyEgZAI1iTs+wjxiKYLujtnYOW1hOlNks8=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ServiceUsage\Resource;
+
+use Google\Service\ServiceUsage\BatchEnableServicesRequest;
+use Google\Service\ServiceUsage\BatchGetServicesResponse;
+use Google\Service\ServiceUsage\DisableServiceRequest;
+use Google\Service\ServiceUsage\EnableServiceRequest;
+use Google\Service\ServiceUsage\GoogleApiServiceusageV1Service;
+use Google\Service\ServiceUsage\ListServicesResponse;
+use Google\Service\ServiceUsage\Operation;
+
+/**
+ * The "services" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $serviceusageService = new Google\Service\ServiceUsage(...);
+ *   $services = $serviceusageService->services;
+ *  </code>
+ */
+class Services extends \Google\Service\Resource
+{
+  /**
+   * Enable multiple services on a project. The operation is atomic: if enabling
+   * any service fails, then the entire batch fails, and no state changes occur.
+   * To enable a single service, use the `EnableService` method instead.
+   * (services.batchEnable)
+   *
+   * @param string $parent Parent to enable services on. An example name would be:
+   * `projects/123` where `123` is the project number. The `BatchEnableServices`
+   * method currently only supports projects.
+   * @param BatchEnableServicesRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function batchEnable($parent, BatchEnableServicesRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('batchEnable', [$params], Operation::class);
+  }
+  /**
+   * Returns the service configurations and enabled states for a given list of
+   * services. (services.batchGet)
+   *
+   * @param string $parent Parent to retrieve services from. If this is set, the
+   * parent of all of the services specified in `names` must match this field. An
+   * example name would be: `projects/123` where `123` is the project number. The
+   * `BatchGetServices` method currently only supports projects.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string names Names of the services to retrieve. An example name
+   * would be: `projects/123/services/serviceusage.googleapis.com` where `123` is
+   * the project number. A single request can get a maximum of 30 services at a
+   * time.
+   * @return BatchGetServicesResponse
+   */
+  public function batchGet($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('batchGet', [$params], BatchGetServicesResponse::class);
+  }
+  /**
+   * Disable a service so that it can no longer be used with a project. This
+   * prevents unintended usage that may cause unexpected billing charges or
+   * security leaks. It is not valid to call the disable method on a service that
+   * is not currently enabled. Callers will receive a `FAILED_PRECONDITION` status
+   * if the target service is not currently enabled. (services.disable)
+   *
+   * @param string $name Name of the consumer and service to disable the service
+   * on. The enable and disable methods currently only support projects. An
+   * example name would be: `projects/123/services/serviceusage.googleapis.com`
+   * where `123` is the project number.
+   * @param DisableServiceRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function disable($name, DisableServiceRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('disable', [$params], Operation::class);
+  }
+  /**
+   * Enable a service so that it can be used with a project. (services.enable)
+   *
+   * @param string $name Name of the consumer and service to enable the service
+   * on. The `EnableService` and `DisableService` methods currently only support
+   * projects. Enabling a service requires that the service is public or is shared
+   * with the user enabling the service. An example name would be:
+   * `projects/123/services/serviceusage.googleapis.com` where `123` is the
+   * project number.
+   * @param EnableServiceRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function enable($name, EnableServiceRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('enable', [$params], Operation::class);
+  }
+  /**
+   * Returns the service configuration and enabled state for a given service.
+   * (services.get)
+   *
+   * @param string $name Name of the consumer and service to get the
+   * `ConsumerState` for. An example name would be:
+   * `projects/123/services/serviceusage.googleapis.com` where `123` is the
+   * project number.
+   * @param array $optParams Optional parameters.
+   * @return GoogleApiServiceusageV1Service
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleApiServiceusageV1Service::class);
+  }
+  /**
+   * List all services available to the specified project, and the current state
+   * of those services with respect to the project. The list includes all public
+   * services, all services for which the calling user has the
+   * `servicemanagement.services.bind` permission, and all services that have
+   * already been enabled on the project. The list can be filtered to only include
+   * services in a specific state, for example to only include services enabled on
+   * the project. WARNING: If you need to query enabled services frequently or
+   * across an organization, you should use [Cloud Asset Inventory
+   * API](https://cloud.google.com/asset-inventory/docs/apis), which provides
+   * higher throughput and richer filtering capability. (services.listServices)
+   *
+   * @param string $parent Parent to search for services on. An example name would
+   * be: `projects/123` where `123` is the project number.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Only list services that conform to the given filter.
+   * The allowed filter strings are `state:ENABLED` and `state:DISABLED`.
+   * @opt_param int pageSize Requested size of the next page of data. Requested
+   * page size cannot exceed 200. If not set, the default page size is 50.
+   * @opt_param string pageToken Token identifying which result to start with,
+   * which is returned by a previous list call.
+   * @return ListServicesResponse
+   */
+  public function listServices($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListServicesResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Services::class, 'Google_Service_ServiceUsage_Resource_Services');

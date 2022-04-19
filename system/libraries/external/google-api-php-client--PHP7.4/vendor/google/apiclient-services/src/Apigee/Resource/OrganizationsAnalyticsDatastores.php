@@ -1,74 +1,130 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Apigee\Resource;
+
+use Google\Service\Apigee\GoogleCloudApigeeV1Datastore;
+use Google\Service\Apigee\GoogleCloudApigeeV1ListDatastoresResponse;
+use Google\Service\Apigee\GoogleCloudApigeeV1TestDatastoreResponse;
+use Google\Service\Apigee\GoogleProtobufEmpty;
+
+/**
+ * The "datastores" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $apigeeService = new Google\Service\Apigee(...);
+ *   $datastores = $apigeeService->datastores;
+ *  </code>
+ */
+class OrganizationsAnalyticsDatastores extends \Google\Service\Resource
+{
+  /**
+   * Create a Datastore for an org (datastores.create)
+   *
+   * @param string $parent Required. The parent organization name. Must be of the
+   * form `organizations/{org}`.
+   * @param GoogleCloudApigeeV1Datastore $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1Datastore
+   */
+  public function create($parent, GoogleCloudApigeeV1Datastore $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleCloudApigeeV1Datastore::class);
+  }
+  /**
+   * Delete a Datastore from an org. (datastores.delete)
+   *
+   * @param string $name Required. Resource name of the Datastore to be deleted.
+   * Must be of the form `organizations/{org}/analytics/datastores/{datastoreId}`
+   * @param array $optParams Optional parameters.
+   * @return GoogleProtobufEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
+  }
+  /**
+   * Get a Datastore (datastores.get)
+   *
+   * @param string $name Required. Resource name of the Datastore to be get. Must
+   * be of the form `organizations/{org}/analytics/datastores/{datastoreId}`
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1Datastore
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudApigeeV1Datastore::class);
+  }
+  /**
+   * List Datastores (datastores.listOrganizationsAnalyticsDatastores)
+   *
+   * @param string $parent Required. The parent organization name. Must be of the
+   * form `organizations/{org}`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string targetType Optional. TargetType is used to fetch all
+   * Datastores that match the type
+   * @return GoogleCloudApigeeV1ListDatastoresResponse
+   */
+  public function listOrganizationsAnalyticsDatastores($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleCloudApigeeV1ListDatastoresResponse::class);
+  }
+  /**
+   * Test if Datastore configuration is correct. This includes checking if
+   * credentials provided by customer have required permissions in target
+   * destination storage (datastores.test)
+   *
+   * @param string $parent Required. The parent organization name Must be of the
+   * form `organizations/{org}`
+   * @param GoogleCloudApigeeV1Datastore $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1TestDatastoreResponse
+   */
+  public function test($parent, GoogleCloudApigeeV1Datastore $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('test', [$params], GoogleCloudApigeeV1TestDatastoreResponse::class);
+  }
+  /**
+   * Update a Datastore (datastores.update)
+   *
+   * @param string $name Required. The resource name of datastore to be updated.
+   * Must be of the form `organizations/{org}/analytics/datastores/{datastoreId}`
+   * @param GoogleCloudApigeeV1Datastore $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1Datastore
+   */
+  public function update($name, GoogleCloudApigeeV1Datastore $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], GoogleCloudApigeeV1Datastore::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(OrganizationsAnalyticsDatastores::class, 'Google_Service_Apigee_Resource_OrganizationsAnalyticsDatastores');

@@ -1,78 +1,96 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php declare(strict_types=1);
+
+/*
+ * This file is part of the Monolog package.
+ *
+ * (c) Jordi Boggiano <j.boggiano@seld.be>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Monolog\Handler;
+
+use Monolog\Formatter\FormatterInterface;
+use Monolog\Formatter\NormalizerFormatter;
+use Monolog\Logger;
+
+/**
+ * Handler sending logs to Zend Monitor
+ *
+ * @author  Christian Bergau <cbergau86@gmail.com>
+ * @author  Jason Davis <happydude@jasondavis.net>
+ */
+class ZendMonitorHandler extends AbstractProcessingHandler
+{
+    /**
+     * Monolog level / ZendMonitor Custom Event priority map
+     *
+     * @var array
+     */
+    protected $levelMap = [];
+
+    /**
+     * @param  string|int                $level  The minimum logging level at which this handler will be triggered.
+     * @param  bool                      $bubble Whether the messages that are handled can bubble up the stack or not.
+     * @throws MissingExtensionException
+     */
+    public function __construct($level = Logger::DEBUG, bool $bubble = true)
+    {
+        if (!function_exists('zend_monitor_custom_event')) {
+            throw new MissingExtensionException(
+                'You must have Zend Server installed with Zend Monitor enabled in order to use this handler'
+            );
+        }
+        //zend monitor constants are not defined if zend monitor is not enabled.
+        $this->levelMap = [
+            Logger::DEBUG     => \ZEND_MONITOR_EVENT_SEVERITY_INFO,
+            Logger::INFO      => \ZEND_MONITOR_EVENT_SEVERITY_INFO,
+            Logger::NOTICE    => \ZEND_MONITOR_EVENT_SEVERITY_INFO,
+            Logger::WARNING   => \ZEND_MONITOR_EVENT_SEVERITY_WARNING,
+            Logger::ERROR     => \ZEND_MONITOR_EVENT_SEVERITY_ERROR,
+            Logger::CRITICAL  => \ZEND_MONITOR_EVENT_SEVERITY_ERROR,
+            Logger::ALERT     => \ZEND_MONITOR_EVENT_SEVERITY_ERROR,
+            Logger::EMERGENCY => \ZEND_MONITOR_EVENT_SEVERITY_ERROR,
+        ];
+        parent::__construct($level, $bubble);
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    protected function write(array $record): void
+    {
+        $this->writeZendMonitorCustomEvent(
+            Logger::getLevelName($record['level']),
+            $record['message'],
+            $record['formatted'],
+            $this->levelMap[$record['level']]
+        );
+    }
+
+    /**
+     * Write to Zend Monitor Events
+     * @param string $type      Text displayed in "Class Name (custom)" field
+     * @param string $message   Text displayed in "Error String"
+     * @param array  $formatted Displayed in Custom Variables tab
+     * @param int    $severity  Set the event severity level (-1,0,1)
+     */
+    protected function writeZendMonitorCustomEvent(string $type, string $message, array $formatted, int $severity): void
+    {
+        zend_monitor_custom_event($type, $message, $formatted, $severity);
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getDefaultFormatter(): FormatterInterface
+    {
+        return new NormalizerFormatter();
+    }
+
+    public function getLevelMap(): array
+    {
+        return $this->levelMap;
+    }
+}

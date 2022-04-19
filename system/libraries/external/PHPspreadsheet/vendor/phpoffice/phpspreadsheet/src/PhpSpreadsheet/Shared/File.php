@@ -1,78 +1,144 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+namespace PhpOffice\PhpSpreadsheet\Shared;
+
+use InvalidArgumentException;
+use ZipArchive;
+
+class File
+{
+    /**
+     * Use Temp or File Upload Temp for temporary files.
+     *
+     * @var bool
+     */
+    protected static $useUploadTempDirectory = false;
+
+    /**
+     * Set the flag indicating whether the File Upload Temp directory should be used for temporary files.
+     *
+     * @param bool $useUploadTempDir Use File Upload Temporary directory (true or false)
+     */
+    public static function setUseUploadTempDirectory($useUploadTempDir)
+    {
+        self::$useUploadTempDirectory = (bool) $useUploadTempDir;
+    }
+
+    /**
+     * Get the flag indicating whether the File Upload Temp directory should be used for temporary files.
+     *
+     * @return bool Use File Upload Temporary directory (true or false)
+     */
+    public static function getUseUploadTempDirectory()
+    {
+        return self::$useUploadTempDirectory;
+    }
+
+    /**
+     * Verify if a file exists.
+     *
+     * @param string $pFilename Filename
+     *
+     * @return bool
+     */
+    public static function fileExists($pFilename)
+    {
+        // Sick construction, but it seems that
+        // file_exists returns strange values when
+        // doing the original file_exists on ZIP archives...
+        if (strtolower(substr($pFilename, 0, 3)) == 'zip') {
+            // Open ZIP file and verify if the file exists
+            $zipFile = substr($pFilename, 6, strpos($pFilename, '#') - 6);
+            $archiveFile = substr($pFilename, strpos($pFilename, '#') + 1);
+
+            $zip = new ZipArchive();
+            if ($zip->open($zipFile) === true) {
+                $returnValue = ($zip->getFromName($archiveFile) !== false);
+                $zip->close();
+
+                return $returnValue;
+            }
+
+            return false;
+        }
+
+        return file_exists($pFilename);
+    }
+
+    /**
+     * Returns canonicalized absolute pathname, also for ZIP archives.
+     *
+     * @param string $pFilename
+     *
+     * @return string
+     */
+    public static function realpath($pFilename)
+    {
+        // Returnvalue
+        $returnValue = '';
+
+        // Try using realpath()
+        if (file_exists($pFilename)) {
+            $returnValue = realpath($pFilename);
+        }
+
+        // Found something?
+        if ($returnValue == '' || ($returnValue === null)) {
+            $pathArray = explode('/', $pFilename);
+            while (in_array('..', $pathArray) && $pathArray[0] != '..') {
+                $iMax = count($pathArray);
+                for ($i = 0; $i < $iMax; ++$i) {
+                    if ($pathArray[$i] == '..' && $i > 0) {
+                        unset($pathArray[$i], $pathArray[$i - 1]);
+
+                        break;
+                    }
+                }
+            }
+            $returnValue = implode('/', $pathArray);
+        }
+
+        // Return
+        return $returnValue;
+    }
+
+    /**
+     * Get the systems temporary directory.
+     *
+     * @return string
+     */
+    public static function sysGetTempDir()
+    {
+        if (self::$useUploadTempDirectory) {
+            //  use upload-directory when defined to allow running on environments having very restricted
+            //      open_basedir configs
+            if (ini_get('upload_tmp_dir') !== false) {
+                if ($temp = ini_get('upload_tmp_dir')) {
+                    if (file_exists($temp)) {
+                        return realpath($temp);
+                    }
+                }
+            }
+        }
+
+        return realpath(sys_get_temp_dir());
+    }
+
+    /**
+     * Assert that given path is an existing file and is readable, otherwise throw exception.
+     *
+     * @param string $filename
+     *
+     * @throws InvalidArgumentException
+     */
+    public static function assertFile($filename)
+    {
+        if (!is_file($filename)) {
+            throw new InvalidArgumentException('File "' . $filename . '" does not exist.');
+        }
+
+        if (!is_readable($filename)) {
+            throw new InvalidArgumentException('Could not open "' . $filename . '" for reading.');
+        }
+    }
+}

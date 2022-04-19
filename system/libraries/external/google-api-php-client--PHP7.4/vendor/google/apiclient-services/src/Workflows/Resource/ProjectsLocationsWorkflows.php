@@ -1,68 +1,140 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Workflows\Resource;
+
+use Google\Service\Workflows\ListWorkflowsResponse;
+use Google\Service\Workflows\Operation;
+use Google\Service\Workflows\Workflow;
+
+/**
+ * The "workflows" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $workflowsService = new Google\Service\Workflows(...);
+ *   $workflows = $workflowsService->workflows;
+ *  </code>
+ */
+class ProjectsLocationsWorkflows extends \Google\Service\Resource
+{
+  /**
+   * Creates a new workflow. If a workflow with the specified name already exists
+   * in the specified project and location, the long running operation will return
+   * ALREADY_EXISTS error. (workflows.create)
+   *
+   * @param string $parent Required. Project and location in which the workflow
+   * should be created. Format: projects/{project}/locations/{location}
+   * @param Workflow $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string workflowId Required. The ID of the workflow to be created.
+   * It has to fulfill the following requirements: * Must contain only letters,
+   * numbers, underscores and hyphens. * Must start with a letter. * Must be
+   * between 1-64 characters. * Must end with a number or a letter. * Must be
+   * unique within the customer project and location.
+   * @return Operation
+   */
+  public function create($parent, Workflow $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Operation::class);
+  }
+  /**
+   * Deletes a workflow with the specified name. This method also cancels and
+   * deletes all running executions of the workflow. (workflows.delete)
+   *
+   * @param string $name Required. Name of the workflow to be deleted. Format:
+   * projects/{project}/locations/{location}/workflows/{workflow}
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Gets details of a single Workflow. (workflows.get)
+   *
+   * @param string $name Required. Name of the workflow which information should
+   * be retrieved. Format:
+   * projects/{project}/locations/{location}/workflows/{workflow}
+   * @param array $optParams Optional parameters.
+   * @return Workflow
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Workflow::class);
+  }
+  /**
+   * Lists Workflows in a given project and location. The default order is not
+   * specified. (workflows.listProjectsLocationsWorkflows)
+   *
+   * @param string $parent Required. Project and location from which the workflows
+   * should be listed. Format: projects/{project}/locations/{location}
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Filter to restrict results to specific workflows.
+   * @opt_param string orderBy Comma-separated list of fields that that specify
+   * the order of the results. Default sorting order for a field is ascending. To
+   * specify descending order for a field, append a " desc" suffix. If not
+   * specified, the results will be returned in an unspecified order.
+   * @opt_param int pageSize Maximum number of workflows to return per call. The
+   * service may return fewer than this value. If the value is not specified, a
+   * default value of 500 will be used. The maximum permitted value is 1000 and
+   * values greater than 1000 will be coerced down to 1000.
+   * @opt_param string pageToken A page token, received from a previous
+   * `ListWorkflows` call. Provide this to retrieve the subsequent page. When
+   * paginating, all other parameters provided to `ListWorkflows` must match the
+   * call that provided the page token.
+   * @return ListWorkflowsResponse
+   */
+  public function listProjectsLocationsWorkflows($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListWorkflowsResponse::class);
+  }
+  /**
+   * Updates an existing workflow. Running this method has no impact on already
+   * running executions of the workflow. A new revision of the workflow may be
+   * created as a result of a successful update operation. In that case, such
+   * revision will be used in new workflow executions. (workflows.patch)
+   *
+   * @param string $name The resource name of the workflow. Format:
+   * projects/{project}/locations/{location}/workflows/{workflow}
+   * @param Workflow $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask List of fields to be updated. If not present,
+   * the entire workflow will be updated.
+   * @return Operation
+   */
+  public function patch($name, Workflow $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsWorkflows::class, 'Google_Service_Workflows_Resource_ProjectsLocationsWorkflows');

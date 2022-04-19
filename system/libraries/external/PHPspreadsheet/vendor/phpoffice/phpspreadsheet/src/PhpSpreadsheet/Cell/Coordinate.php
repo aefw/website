@@ -1,218 +1,520 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+namespace PhpOffice\PhpSpreadsheet\Cell;
+
+use PhpOffice\PhpSpreadsheet\Exception;
+use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
+
+/**
+ * Helper class to manipulate cell coordinates.
+ *
+ * Columns indexes and rows are always based on 1, **not** on 0. This match the behavior
+ * that Excel users are used to, and also match the Excel functions `COLUMN()` and `ROW()`.
+ */
+abstract class Coordinate
+{
+    /**
+     * Default range variable constant.
+     *
+     * @var string
+     */
+    const DEFAULT_RANGE = 'A1:A1';
+
+    /**
+     * Coordinate from string.
+     *
+     * @param string $pCoordinateString eg: 'A1'
+     *
+     * @throws Exception
+     *
+     * @return string[] Array containing column and row (indexes 0 and 1)
+     */
+    public static function coordinateFromString($pCoordinateString)
+    {
+        if (preg_match('/^([$]?[A-Z]{1,3})([$]?\\d{1,7})$/', $pCoordinateString, $matches)) {
+            return [$matches[1], $matches[2]];
+        } elseif (self::coordinateIsRange($pCoordinateString)) {
+            throw new Exception('Cell coordinate string can not be a range of cells');
+        } elseif ($pCoordinateString == '') {
+            throw new Exception('Cell coordinate can not be zero-length string');
+        }
+
+        throw new Exception('Invalid cell coordinate ' . $pCoordinateString);
+    }
+
+    /**
+     * Checks if a coordinate represents a range of cells.
+     *
+     * @param string $coord eg: 'A1' or 'A1:A2' or 'A1:A2,C1:C2'
+     *
+     * @return bool Whether the coordinate represents a range of cells
+     */
+    public static function coordinateIsRange($coord)
+    {
+        return (strpos($coord, ':') !== false) || (strpos($coord, ',') !== false);
+    }
+
+    /**
+     * Make string row, column or cell coordinate absolute.
+     *
+     * @param string $pCoordinateString e.g. 'A' or '1' or 'A1'
+     *                    Note that this value can be a row or column reference as well as a cell reference
+     *
+     * @throws Exception
+     *
+     * @return string Absolute coordinate        e.g. '$A' or '$1' or '$A$1'
+     */
+    public static function absoluteReference($pCoordinateString)
+    {
+        if (self::coordinateIsRange($pCoordinateString)) {
+            throw new Exception('Cell coordinate string can not be a range of cells');
+        }
+
+        // Split out any worksheet name from the reference
+        [$worksheet, $pCoordinateString] = Worksheet::extractSheetTitle($pCoordinateString, true);
+        if ($worksheet > '') {
+            $worksheet .= '!';
+        }
+
+        // Create absolute coordinate
+        if (ctype_digit($pCoordinateString)) {
+            return $worksheet . '$' . $pCoordinateString;
+        } elseif (ctype_alpha($pCoordinateString)) {
+            return $worksheet . '$' . strtoupper($pCoordinateString);
+        }
+
+        return $worksheet . self::absoluteCoordinate($pCoordinateString);
+    }
+
+    /**
+     * Make string coordinate absolute.
+     *
+     * @param string $pCoordinateString e.g. 'A1'
+     *
+     * @throws Exception
+     *
+     * @return string Absolute coordinate        e.g. '$A$1'
+     */
+    public static function absoluteCoordinate($pCoordinateString)
+    {
+        if (self::coordinateIsRange($pCoordinateString)) {
+            throw new Exception('Cell coordinate string can not be a range of cells');
+        }
+
+        // Split out any worksheet name from the coordinate
+        [$worksheet, $pCoordinateString] = Worksheet::extractSheetTitle($pCoordinateString, true);
+        if ($worksheet > '') {
+            $worksheet .= '!';
+        }
+
+        // Create absolute coordinate
+        [$column, $row] = self::coordinateFromString($pCoordinateString);
+        $column = ltrim($column, '$');
+        $row = ltrim($row, '$');
+
+        return $worksheet . '$' . $column . '$' . $row;
+    }
+
+    /**
+     * Split range into coordinate strings.
+     *
+     * @param string $pRange e.g. 'B4:D9' or 'B4:D9,H2:O11' or 'B4'
+     *
+     * @return array Array containing one or more arrays containing one or two coordinate strings
+     *                                e.g. ['B4','D9'] or [['B4','D9'], ['H2','O11']]
+     *                                        or ['B4']
+     */
+    public static function splitRange($pRange)
+    {
+        // Ensure $pRange is a valid range
+        if (empty($pRange)) {
+            $pRange = self::DEFAULT_RANGE;
+        }
+
+        $exploded = explode(',', $pRange);
+        $counter = count($exploded);
+        for ($i = 0; $i < $counter; ++$i) {
+            $exploded[$i] = explode(':', $exploded[$i]);
+        }
+
+        return $exploded;
+    }
+
+    /**
+     * Build range from coordinate strings.
+     *
+     * @param array $pRange Array containg one or more arrays containing one or two coordinate strings
+     *
+     * @throws Exception
+     *
+     * @return string String representation of $pRange
+     */
+    public static function buildRange(array $pRange)
+    {
+        // Verify range
+        if (empty($pRange) || !is_array($pRange[0])) {
+            throw new Exception('Range does not contain any information');
+        }
+
+        // Build range
+        $counter = count($pRange);
+        for ($i = 0; $i < $counter; ++$i) {
+            $pRange[$i] = implode(':', $pRange[$i]);
+        }
+
+        return implode(',', $pRange);
+    }
+
+    /**
+     * Calculate range boundaries.
+     *
+     * @param string $pRange Cell range (e.g. A1:A1)
+     *
+     * @return array Range coordinates [Start Cell, End Cell]
+     *                    where Start Cell and End Cell are arrays (Column Number, Row Number)
+     */
+    public static function rangeBoundaries($pRange)
+    {
+        // Ensure $pRange is a valid range
+        if (empty($pRange)) {
+            $pRange = self::DEFAULT_RANGE;
+        }
+
+        // Uppercase coordinate
+        $pRange = strtoupper($pRange);
+
+        // Extract range
+        if (strpos($pRange, ':') === false) {
+            $rangeA = $rangeB = $pRange;
+        } else {
+            [$rangeA, $rangeB] = explode(':', $pRange);
+        }
+
+        // Calculate range outer borders
+        $rangeStart = self::coordinateFromString($rangeA);
+        $rangeEnd = self::coordinateFromString($rangeB);
+
+        // Translate column into index
+        $rangeStart[0] = self::columnIndexFromString($rangeStart[0]);
+        $rangeEnd[0] = self::columnIndexFromString($rangeEnd[0]);
+
+        return [$rangeStart, $rangeEnd];
+    }
+
+    /**
+     * Calculate range dimension.
+     *
+     * @param string $pRange Cell range (e.g. A1:A1)
+     *
+     * @return array Range dimension (width, height)
+     */
+    public static function rangeDimension($pRange)
+    {
+        // Calculate range outer borders
+        [$rangeStart, $rangeEnd] = self::rangeBoundaries($pRange);
+
+        return [($rangeEnd[0] - $rangeStart[0] + 1), ($rangeEnd[1] - $rangeStart[1] + 1)];
+    }
+
+    /**
+     * Calculate range boundaries.
+     *
+     * @param string $pRange Cell range (e.g. A1:A1)
+     *
+     * @return array Range coordinates [Start Cell, End Cell]
+     *                    where Start Cell and End Cell are arrays [Column ID, Row Number]
+     */
+    public static function getRangeBoundaries($pRange)
+    {
+        // Ensure $pRange is a valid range
+        if (empty($pRange)) {
+            $pRange = self::DEFAULT_RANGE;
+        }
+
+        // Uppercase coordinate
+        $pRange = strtoupper($pRange);
+
+        // Extract range
+        if (strpos($pRange, ':') === false) {
+            $rangeA = $rangeB = $pRange;
+        } else {
+            [$rangeA, $rangeB] = explode(':', $pRange);
+        }
+
+        return [self::coordinateFromString($rangeA), self::coordinateFromString($rangeB)];
+    }
+
+    /**
+     * Column index from string.
+     *
+     * @param string $pString eg 'A'
+     *
+     * @return int Column index (A = 1)
+     */
+    public static function columnIndexFromString($pString)
+    {
+        //    Using a lookup cache adds a slight memory overhead, but boosts speed
+        //    caching using a static within the method is faster than a class static,
+        //        though it's additional memory overhead
+        static $indexCache = [];
+
+        if (isset($indexCache[$pString])) {
+            return $indexCache[$pString];
+        }
+        //    It's surprising how costly the strtoupper() and ord() calls actually are, so we use a lookup array rather than use ord()
+        //        and make it case insensitive to get rid of the strtoupper() as well. Because it's a static, there's no significant
+        //        memory overhead either
+        static $columnLookup = [
+            'A' => 1, 'B' => 2, 'C' => 3, 'D' => 4, 'E' => 5, 'F' => 6, 'G' => 7, 'H' => 8, 'I' => 9, 'J' => 10, 'K' => 11, 'L' => 12, 'M' => 13,
+            'N' => 14, 'O' => 15, 'P' => 16, 'Q' => 17, 'R' => 18, 'S' => 19, 'T' => 20, 'U' => 21, 'V' => 22, 'W' => 23, 'X' => 24, 'Y' => 25, 'Z' => 26,
+            'a' => 1, 'b' => 2, 'c' => 3, 'd' => 4, 'e' => 5, 'f' => 6, 'g' => 7, 'h' => 8, 'i' => 9, 'j' => 10, 'k' => 11, 'l' => 12, 'm' => 13,
+            'n' => 14, 'o' => 15, 'p' => 16, 'q' => 17, 'r' => 18, 's' => 19, 't' => 20, 'u' => 21, 'v' => 22, 'w' => 23, 'x' => 24, 'y' => 25, 'z' => 26,
+        ];
+
+        //    We also use the language construct isset() rather than the more costly strlen() function to match the length of $pString
+        //        for improved performance
+        if (isset($pString[0])) {
+            if (!isset($pString[1])) {
+                $indexCache[$pString] = $columnLookup[$pString];
+
+                return $indexCache[$pString];
+            } elseif (!isset($pString[2])) {
+                $indexCache[$pString] = $columnLookup[$pString[0]] * 26 + $columnLookup[$pString[1]];
+
+                return $indexCache[$pString];
+            } elseif (!isset($pString[3])) {
+                $indexCache[$pString] = $columnLookup[$pString[0]] * 676 + $columnLookup[$pString[1]] * 26 + $columnLookup[$pString[2]];
+
+                return $indexCache[$pString];
+            }
+        }
+
+        throw new Exception('Column string index can not be ' . ((isset($pString[0])) ? 'longer than 3 characters' : 'empty'));
+    }
+
+    /**
+     * String from column index.
+     *
+     * @param int $columnIndex Column index (A = 1)
+     *
+     * @return string
+     */
+    public static function stringFromColumnIndex($columnIndex)
+    {
+        static $indexCache = [];
+
+        if (!isset($indexCache[$columnIndex])) {
+            $indexValue = $columnIndex;
+            $base26 = null;
+            do {
+                $characterValue = ($indexValue % 26) ?: 26;
+                $indexValue = ($indexValue - $characterValue) / 26;
+                $base26 = chr($characterValue + 64) . ($base26 ?: '');
+            } while ($indexValue > 0);
+            $indexCache[$columnIndex] = $base26;
+        }
+
+        return $indexCache[$columnIndex];
+    }
+
+    /**
+     * Extract all cell references in range, which may be comprised of multiple cell ranges.
+     *
+     * @param string $pRange Range (e.g. A1 or A1:C10 or A1:E10 A20:E25)
+     *
+     * @return array Array containing single cell references
+     */
+    public static function extractAllCellReferencesInRange($pRange)
+    {
+        $returnValue = [];
+
+        // Explode spaces
+        $cellBlocks = self::getCellBlocksFromRangeString($pRange);
+        foreach ($cellBlocks as $cellBlock) {
+            $returnValue = array_merge($returnValue, self::getReferencesForCellBlock($cellBlock));
+        }
+
+        //    Sort the result by column and row
+        $sortKeys = [];
+        foreach (array_unique($returnValue) as $coord) {
+            $column = '';
+            $row = 0;
+
+            sscanf($coord, '%[A-Z]%d', $column, $row);
+            $sortKeys[sprintf('%3s%09d', $column, $row)] = $coord;
+        }
+        ksort($sortKeys);
+
+        // Return value
+        return array_values($sortKeys);
+    }
+
+    /**
+     * Get all cell references for an individual cell block.
+     *
+     * @param string $cellBlock A cell range e.g. A4:B5
+     *
+     * @return array All individual cells in that range
+     */
+    private static function getReferencesForCellBlock($cellBlock)
+    {
+        $returnValue = [];
+
+        // Single cell?
+        if (!self::coordinateIsRange($cellBlock)) {
+            return (array) $cellBlock;
+        }
+
+        // Range...
+        $ranges = self::splitRange($cellBlock);
+        foreach ($ranges as $range) {
+            // Single cell?
+            if (!isset($range[1])) {
+                $returnValue[] = $range[0];
+
+                continue;
+            }
+
+            // Range...
+            [$rangeStart, $rangeEnd] = $range;
+            [$startColumn, $startRow] = self::coordinateFromString($rangeStart);
+            [$endColumn, $endRow] = self::coordinateFromString($rangeEnd);
+            $startColumnIndex = self::columnIndexFromString($startColumn);
+            $endColumnIndex = self::columnIndexFromString($endColumn);
+            ++$endColumnIndex;
+
+            // Current data
+            $currentColumnIndex = $startColumnIndex;
+            $currentRow = $startRow;
+
+            self::validateRange($cellBlock, $startColumnIndex, $endColumnIndex, $currentRow, $endRow);
+
+            // Loop cells
+            while ($currentColumnIndex < $endColumnIndex) {
+                while ($currentRow <= $endRow) {
+                    $returnValue[] = self::stringFromColumnIndex($currentColumnIndex) . $currentRow;
+                    ++$currentRow;
+                }
+                ++$currentColumnIndex;
+                $currentRow = $startRow;
+            }
+        }
+
+        return $returnValue;
+    }
+
+    /**
+     * Convert an associative array of single cell coordinates to values to an associative array
+     * of cell ranges to values.  Only adjacent cell coordinates with the same
+     * value will be merged.  If the value is an object, it must implement the method getHashCode().
+     *
+     * For example, this function converts:
+     *
+     *    [ 'A1' => 'x', 'A2' => 'x', 'A3' => 'x', 'A4' => 'y' ]
+     *
+     * to:
+     *
+     *    [ 'A1:A3' => 'x', 'A4' => 'y' ]
+     *
+     * @param array $pCoordCollection associative array mapping coordinates to values
+     *
+     * @return array associative array mapping coordinate ranges to valuea
+     */
+    public static function mergeRangesInCollection(array $pCoordCollection)
+    {
+        $hashedValues = [];
+        $mergedCoordCollection = [];
+
+        foreach ($pCoordCollection as $coord => $value) {
+            if (self::coordinateIsRange($coord)) {
+                $mergedCoordCollection[$coord] = $value;
+
+                continue;
+            }
+
+            [$column, $row] = self::coordinateFromString($coord);
+            $row = (int) (ltrim($row, '$'));
+            $hashCode = $column . '-' . (is_object($value) ? $value->getHashCode() : $value);
+
+            if (!isset($hashedValues[$hashCode])) {
+                $hashedValues[$hashCode] = (object) [
+                    'value' => $value,
+                    'col' => $column,
+                    'rows' => [$row],
+                ];
+            } else {
+                $hashedValues[$hashCode]->rows[] = $row;
+            }
+        }
+
+        ksort($hashedValues);
+
+        foreach ($hashedValues as $hashedValue) {
+            sort($hashedValue->rows);
+            $rowStart = null;
+            $rowEnd = null;
+            $ranges = [];
+
+            foreach ($hashedValue->rows as $row) {
+                if ($rowStart === null) {
+                    $rowStart = $row;
+                    $rowEnd = $row;
+                } elseif ($rowEnd === $row - 1) {
+                    $rowEnd = $row;
+                } else {
+                    if ($rowStart == $rowEnd) {
+                        $ranges[] = $hashedValue->col . $rowStart;
+                    } else {
+                        $ranges[] = $hashedValue->col . $rowStart . ':' . $hashedValue->col . $rowEnd;
+                    }
+
+                    $rowStart = $row;
+                    $rowEnd = $row;
+                }
+            }
+
+            if ($rowStart !== null) {
+                if ($rowStart == $rowEnd) {
+                    $ranges[] = $hashedValue->col . $rowStart;
+                } else {
+                    $ranges[] = $hashedValue->col . $rowStart . ':' . $hashedValue->col . $rowEnd;
+                }
+            }
+
+            foreach ($ranges as $range) {
+                $mergedCoordCollection[$range] = $hashedValue->value;
+            }
+        }
+
+        return $mergedCoordCollection;
+    }
+
+    /**
+     * Get the individual cell blocks from a range string, splitting by space and removing any $ characters.
+     *
+     * @param string $pRange
+     *
+     * @return string[]
+     */
+    private static function getCellBlocksFromRangeString($pRange)
+    {
+        return explode(' ', str_replace('$', '', strtoupper($pRange)));
+    }
+
+    /**
+     * Check that the given range is valid, i.e. that the start column and row are not greater than the end column and
+     * row.
+     *
+     * @param string $cellBlock The original range, for displaying a meaningful error message
+     * @param int $startColumnIndex
+     * @param int $endColumnIndex
+     * @param int $currentRow
+     * @param int $endRow
+     */
+    private static function validateRange($cellBlock, $startColumnIndex, $endColumnIndex, $currentRow, $endRow)
+    {
+        if ($startColumnIndex >= $endColumnIndex || $currentRow > $endRow) {
+            throw new Exception('Invalid range: "' . $cellBlock . '"');
+        }
+    }
+}

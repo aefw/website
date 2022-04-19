@@ -1,95 +1,285 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-PsU42uAu6pCb1m==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dataproc\Resource;
+
+use Google\Service\Dataproc\DataprocEmpty;
+use Google\Service\Dataproc\GetIamPolicyRequest;
+use Google\Service\Dataproc\InstantiateWorkflowTemplateRequest;
+use Google\Service\Dataproc\ListWorkflowTemplatesResponse;
+use Google\Service\Dataproc\Operation;
+use Google\Service\Dataproc\Policy;
+use Google\Service\Dataproc\SetIamPolicyRequest;
+use Google\Service\Dataproc\TestIamPermissionsRequest;
+use Google\Service\Dataproc\TestIamPermissionsResponse;
+use Google\Service\Dataproc\WorkflowTemplate;
+
+/**
+ * The "workflowTemplates" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $dataprocService = new Google\Service\Dataproc(...);
+ *   $workflowTemplates = $dataprocService->workflowTemplates;
+ *  </code>
+ */
+class ProjectsLocationsWorkflowTemplates extends \Google\Service\Resource
+{
+  /**
+   * Creates new workflow template. (workflowTemplates.create)
+   *
+   * @param string $parent Required. The resource name of the region or location,
+   * as described in https://cloud.google.com/apis/design/resource_names. For
+   * projects.regions.workflowTemplates,create, the resource name of the region
+   * has the following format: projects/{project_id}/regions/{region} For
+   * projects.locations.workflowTemplates.create, the resource name of the
+   * location has the following format: projects/{project_id}/locations/{location}
+   * @param WorkflowTemplate $postBody
+   * @param array $optParams Optional parameters.
+   * @return WorkflowTemplate
+   */
+  public function create($parent, WorkflowTemplate $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], WorkflowTemplate::class);
+  }
+  /**
+   * Deletes a workflow template. It does not cancel in-progress workflows.
+   * (workflowTemplates.delete)
+   *
+   * @param string $name Required. The resource name of the workflow template, as
+   * described in https://cloud.google.com/apis/design/resource_names. For
+   * projects.regions.workflowTemplates.delete, the resource name of the template
+   * has the following format:
+   * projects/{project_id}/regions/{region}/workflowTemplates/{template_id} For
+   * projects.locations.workflowTemplates.instantiate, the resource name of the
+   * template has the following format:
+   * projects/{project_id}/locations/{location}/workflowTemplates/{template_id}
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int version Optional. The version of workflow template to delete.
+   * If specified, will only delete the template if the current server version
+   * matches specified version.
+   * @return DataprocEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], DataprocEmpty::class);
+  }
+  /**
+   * Retrieves the latest workflow template.Can retrieve previously instantiated
+   * template by specifying optional version parameter. (workflowTemplates.get)
+   *
+   * @param string $name Required. The resource name of the workflow template, as
+   * described in https://cloud.google.com/apis/design/resource_names. For
+   * projects.regions.workflowTemplates.get, the resource name of the template has
+   * the following format:
+   * projects/{project_id}/regions/{region}/workflowTemplates/{template_id} For
+   * projects.locations.workflowTemplates.get, the resource name of the template
+   * has the following format:
+   * projects/{project_id}/locations/{location}/workflowTemplates/{template_id}
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int version Optional. The version of workflow template to
+   * retrieve. Only previously instantiated versions can be retrieved.If
+   * unspecified, retrieves the current version.
+   * @return WorkflowTemplate
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], WorkflowTemplate::class);
+  }
+  /**
+   * Gets the access control policy for a resource. Returns an empty policy if the
+   * resource exists and does not have a policy set.
+   * (workflowTemplates.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param GetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function getIamPolicy($resource, GetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Instantiates a template and begins execution.The returned Operation can be
+   * used to track execution of workflow by polling operations.get. The Operation
+   * will complete when entire workflow is finished.The running workflow can be
+   * aborted via operations.cancel. This will cause any inflight jobs to be
+   * cancelled and workflow-owned clusters to be deleted.The Operation.metadata
+   * will be WorkflowMetadata (https://cloud.google.com/dataproc/docs/reference/rp
+   * c/google.cloud.dataproc.v1#workflowmetadata). Also see Using WorkflowMetadata
+   * (https://cloud.google.com/dataproc/docs/concepts/workflows/debugging#using_wo
+   * rkflowmetadata).On successful completion, Operation.response will be Empty.
+   * (workflowTemplates.instantiate)
+   *
+   * @param string $name Required. The resource name of the workflow template, as
+   * described in https://cloud.google.com/apis/design/resource_names. For
+   * projects.regions.workflowTemplates.instantiate, the resource name of the
+   * template has the following format:
+   * projects/{project_id}/regions/{region}/workflowTemplates/{template_id} For
+   * projects.locations.workflowTemplates.instantiate, the resource name of the
+   * template has the following format:
+   * projects/{project_id}/locations/{location}/workflowTemplates/{template_id}
+   * @param InstantiateWorkflowTemplateRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function instantiate($name, InstantiateWorkflowTemplateRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('instantiate', [$params], Operation::class);
+  }
+  /**
+   * Instantiates a template and begins execution.This method is equivalent to
+   * executing the sequence CreateWorkflowTemplate, InstantiateWorkflowTemplate,
+   * DeleteWorkflowTemplate.The returned Operation can be used to track execution
+   * of workflow by polling operations.get. The Operation will complete when
+   * entire workflow is finished.The running workflow can be aborted via
+   * operations.cancel. This will cause any inflight jobs to be cancelled and
+   * workflow-owned clusters to be deleted.The Operation.metadata will be
+   * WorkflowMetadata (https://cloud.google.com/dataproc/docs/reference/rpc/google
+   * .cloud.dataproc.v1#workflowmetadata). Also see Using WorkflowMetadata (https:
+   * //cloud.google.com/dataproc/docs/concepts/workflows/debugging#using_workflowm
+   * etadata).On successful completion, Operation.response will be Empty.
+   * (workflowTemplates.instantiateInline)
+   *
+   * @param string $parent Required. The resource name of the region or location,
+   * as described in https://cloud.google.com/apis/design/resource_names. For
+   * projects.regions.workflowTemplates,instantiateinline, the resource name of
+   * the region has the following format: projects/{project_id}/regions/{region}
+   * For projects.locations.workflowTemplates.instantiateinline, the resource name
+   * of the location has the following format:
+   * projects/{project_id}/locations/{location}
+   * @param WorkflowTemplate $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId Optional. A tag that prevents multiple concurrent
+   * workflow instances with the same tag from running. This mitigates risk of
+   * concurrent instances started due to retries.It is recommended to always set
+   * this value to a UUID
+   * (https://en.wikipedia.org/wiki/Universally_unique_identifier).The tag must
+   * contain only letters (a-z, A-Z), numbers (0-9), underscores (_), and hyphens
+   * (-). The maximum length is 40 characters.
+   * @return Operation
+   */
+  public function instantiateInline($parent, WorkflowTemplate $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('instantiateInline', [$params], Operation::class);
+  }
+  /**
+   * Lists workflows that match the specified filter in the request.
+   * (workflowTemplates.listProjectsLocationsWorkflowTemplates)
+   *
+   * @param string $parent Required. The resource name of the region or location,
+   * as described in https://cloud.google.com/apis/design/resource_names. For
+   * projects.regions.workflowTemplates,list, the resource name of the region has
+   * the following format: projects/{project_id}/regions/{region} For
+   * projects.locations.workflowTemplates.list, the resource name of the location
+   * has the following format: projects/{project_id}/locations/{location}
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Optional. The maximum number of results to return in
+   * each response.
+   * @opt_param string pageToken Optional. The page token, returned by a previous
+   * call, to request the next page of results.
+   * @return ListWorkflowTemplatesResponse
+   */
+  public function listProjectsLocationsWorkflowTemplates($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListWorkflowTemplatesResponse::class);
+  }
+  /**
+   * Sets the access control policy on the specified resource. Replaces any
+   * existing policy.Can return NOT_FOUND, INVALID_ARGUMENT, and PERMISSION_DENIED
+   * errors. (workflowTemplates.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource. If the
+   * resource does not exist, this will return an empty set of permissions, not a
+   * NOT_FOUND error.Note: This operation is designed to be used for building
+   * permission-aware UIs and command-line tools, not for authorization checking.
+   * This operation may "fail open" without warning.
+   * (workflowTemplates.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+  /**
+   * Updates (replaces) workflow template. The updated template must contain
+   * version that matches the current server version. (workflowTemplates.update)
+   *
+   * @param string $name Output only. The resource name of the workflow template,
+   * as described in https://cloud.google.com/apis/design/resource_names. For
+   * projects.regions.workflowTemplates, the resource name of the template has the
+   * following format:
+   * projects/{project_id}/regions/{region}/workflowTemplates/{template_id} For
+   * projects.locations.workflowTemplates, the resource name of the template has
+   * the following format:
+   * projects/{project_id}/locations/{location}/workflowTemplates/{template_id}
+   * @param WorkflowTemplate $postBody
+   * @param array $optParams Optional parameters.
+   * @return WorkflowTemplate
+   */
+  public function update($name, WorkflowTemplate $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], WorkflowTemplate::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsWorkflowTemplates::class, 'Google_Service_Dataproc_Resource_ProjectsLocationsWorkflowTemplates');

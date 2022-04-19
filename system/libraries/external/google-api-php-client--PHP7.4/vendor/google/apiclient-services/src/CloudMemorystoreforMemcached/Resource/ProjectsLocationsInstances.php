@@ -1,82 +1,179 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudMemorystoreforMemcached\Resource;
+
+use Google\Service\CloudMemorystoreforMemcached\ApplyParametersRequest;
+use Google\Service\CloudMemorystoreforMemcached\Instance;
+use Google\Service\CloudMemorystoreforMemcached\ListInstancesResponse;
+use Google\Service\CloudMemorystoreforMemcached\Operation;
+use Google\Service\CloudMemorystoreforMemcached\UpdateParametersRequest;
+
+/**
+ * The "instances" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $memcacheService = new Google\Service\CloudMemorystoreforMemcached(...);
+ *   $instances = $memcacheService->instances;
+ *  </code>
+ */
+class ProjectsLocationsInstances extends \Google\Service\Resource
+{
+  /**
+   * `ApplyParameters` restarts the set of specified nodes in order to update them
+   * to the current set of parameters for the Memcached Instance.
+   * (instances.applyParameters)
+   *
+   * @param string $name Required. Resource name of the Memcached instance for
+   * which parameter group updates should be applied.
+   * @param ApplyParametersRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function applyParameters($name, ApplyParametersRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('applyParameters', [$params], Operation::class);
+  }
+  /**
+   * Creates a new Instance in a given location. (instances.create)
+   *
+   * @param string $parent Required. The resource name of the instance location
+   * using the form: `projects/{project_id}/locations/{location_id}` where
+   * `location_id` refers to a GCP region
+   * @param Instance $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string instanceId Required. The logical name of the Memcached
+   * instance in the user project with the following restrictions: * Must contain
+   * only lowercase letters, numbers, and hyphens. * Must start with a letter. *
+   * Must be between 1-40 characters. * Must end with a number or a letter. * Must
+   * be unique within the user project / location. If any of the above are not
+   * met, the API raises an invalid argument error.
+   * @return Operation
+   */
+  public function create($parent, Instance $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Operation::class);
+  }
+  /**
+   * Deletes a single Instance. (instances.delete)
+   *
+   * @param string $name Required. Memcached instance resource name in the format:
+   * `projects/{project_id}/locations/{location_id}/instances/{instance_id}` where
+   * `location_id` refers to a GCP region
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Gets details of a single Instance. (instances.get)
+   *
+   * @param string $name Required. Memcached instance resource name in the format:
+   * `projects/{project_id}/locations/{location_id}/instances/{instance_id}` where
+   * `location_id` refers to a GCP region
+   * @param array $optParams Optional parameters.
+   * @return Instance
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Instance::class);
+  }
+  /**
+   * Lists Instances in a given location.
+   * (instances.listProjectsLocationsInstances)
+   *
+   * @param string $parent Required. The resource name of the instance location
+   * using the form: `projects/{project_id}/locations/{location_id}` where
+   * `location_id` refers to a GCP region
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter List filter. For example, exclude all Memcached
+   * instances with name as my-instance by specifying `"name != my-instance"`.
+   * @opt_param string orderBy Sort results. Supported values are "name", "name
+   * desc" or "" (unsorted).
+   * @opt_param int pageSize The maximum number of items to return. If not
+   * specified, a default value of 1000 will be used by the service. Regardless of
+   * the `page_size` value, the response may include a partial list and a caller
+   * should only rely on response's `next_page_token` to determine if there are
+   * more instances left to be queried.
+   * @opt_param string pageToken The `next_page_token` value returned from a
+   * previous List request, if any.
+   * @return ListInstancesResponse
+   */
+  public function listProjectsLocationsInstances($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListInstancesResponse::class);
+  }
+  /**
+   * Updates an existing Instance in a given project and location.
+   * (instances.patch)
+   *
+   * @param string $name Required. Unique name of the resource in this scope
+   * including project and location using the form:
+   * `projects/{project_id}/locations/{location_id}/instances/{instance_id}` Note:
+   * Memcached instances are managed and addressed at the regional level so
+   * `location_id` here refers to a Google Cloud region; however, users may choose
+   * which zones Memcached nodes should be provisioned in within an instance.
+   * Refer to zones field for more details.
+   * @param Instance $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. Mask of fields to update. *
+   * `displayName`
+   * @return Operation
+   */
+  public function patch($name, Instance $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+  /**
+   * Updates the defined Memcached parameters for an existing instance. This
+   * method only stages the parameters, it must be followed by `ApplyParameters`
+   * to apply the parameters to nodes of the Memcached instance.
+   * (instances.updateParameters)
+   *
+   * @param string $name Required. Resource name of the Memcached instance for
+   * which the parameters should be updated.
+   * @param UpdateParametersRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function updateParameters($name, UpdateParametersRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('updateParameters', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsInstances::class, 'Google_Service_CloudMemorystoreforMemcached_Resource_ProjectsLocationsInstances');

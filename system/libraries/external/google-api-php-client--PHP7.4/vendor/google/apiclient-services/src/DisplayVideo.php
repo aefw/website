@@ -1,225 +1,2981 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-jox4eBvwXFWK
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for DisplayVideo (v1).
+ *
+ * <p>
+ * Display & Video 360 API allows users to manage and create campaigns and
+ * reports.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://developers.google.com/display-video/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class DisplayVideo extends \Google\Service
+{
+  /** Create, see, edit, and permanently delete your Display & Video 360 entities and reports. */
+  const DISPLAY_VIDEO =
+      "https://www.googleapis.com/auth/display-video";
+  /** Create, see, and edit Display & Video 360 Campaign entities and see billing invoices. */
+  const DISPLAY_VIDEO_MEDIAPLANNING =
+      "https://www.googleapis.com/auth/display-video-mediaplanning";
+  /** Private Service: https://www.googleapis.com/auth/display-video-user-management. */
+  const DISPLAY_VIDEO_USER_MANAGEMENT =
+      "https://www.googleapis.com/auth/display-video-user-management";
+  /** View and manage your reports in DoubleClick Bid Manager. */
+  const DOUBLECLICKBIDMANAGER =
+      "https://www.googleapis.com/auth/doubleclickbidmanager";
+
+  public $advertisers;
+  public $advertisers_assets;
+  public $advertisers_campaigns;
+  public $advertisers_campaigns_targetingTypes_assignedTargetingOptions;
+  public $advertisers_channels;
+  public $advertisers_channels_sites;
+  public $advertisers_creatives;
+  public $advertisers_insertionOrders;
+  public $advertisers_insertionOrders_targetingTypes_assignedTargetingOptions;
+  public $advertisers_invoices;
+  public $advertisers_lineItems;
+  public $advertisers_lineItems_targetingTypes_assignedTargetingOptions;
+  public $advertisers_locationLists;
+  public $advertisers_locationLists_assignedLocations;
+  public $advertisers_manualTriggers;
+  public $advertisers_negativeKeywordLists;
+  public $advertisers_negativeKeywordLists_negativeKeywords;
+  public $advertisers_targetingTypes_assignedTargetingOptions;
+  public $combinedAudiences;
+  public $customBiddingAlgorithms;
+  public $customLists;
+  public $firstAndThirdPartyAudiences;
+  public $floodlightGroups;
+  public $googleAudiences;
+  public $inventorySourceGroups;
+  public $inventorySourceGroups_assignedInventorySources;
+  public $inventorySources;
+  public $media;
+  public $partners;
+  public $partners_channels;
+  public $partners_channels_sites;
+  public $partners_targetingTypes_assignedTargetingOptions;
+  public $sdfdownloadtasks;
+  public $sdfdownloadtasks_operations;
+  public $targetingTypes_targetingOptions;
+  public $users;
+
+  /**
+   * Constructs the internal representation of the DisplayVideo service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://displayvideo.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'displayvideo';
+
+    $this->advertisers = new DisplayVideo\Resource\Advertisers(
+        $this,
+        $this->serviceName,
+        'advertisers',
+        [
+          'methods' => [
+            'audit' => [
+              'path' => 'v1/advertisers/{+advertiserId}:audit',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'readMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'bulkEditAdvertiserAssignedTargetingOptions' => [
+              'path' => 'v1/advertisers/{+advertiserId}:bulkEditAdvertiserAssignedTargetingOptions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'bulkListAdvertiserAssignedTargetingOptions' => [
+              'path' => 'v1/advertisers/{+advertiserId}:bulkListAdvertiserAssignedTargetingOptions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1/advertisers',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'delete' => [
+              'path' => 'v1/advertisers/{+advertiserId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/advertisers/{+advertiserId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/advertisers',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'partnerId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/advertisers/{+advertiserId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->advertisers_assets = new DisplayVideo\Resource\AdvertisersAssets(
+        $this,
+        $this->serviceName,
+        'assets',
+        [
+          'methods' => [
+            'upload' => [
+              'path' => 'v1/advertisers/{+advertiserId}/assets',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->advertisers_campaigns = new DisplayVideo\Resource\AdvertisersCampaigns(
+        $this,
+        $this->serviceName,
+        'campaigns',
+        [
+          'methods' => [
+            'bulkListCampaignAssignedTargetingOptions' => [
+              'path' => 'v1/advertisers/{+advertiserId}/campaigns/{+campaignId}:bulkListCampaignAssignedTargetingOptions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'campaignId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1/advertisers/{+advertiserId}/campaigns',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/advertisers/{+advertiserId}/campaigns/{+campaignId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'campaignId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/advertisers/{+advertiserId}/campaigns/{+campaignId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'campaignId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/advertisers/{+advertiserId}/campaigns',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/advertisers/{+advertiserId}/campaigns/{+campaignId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'campaignId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->advertisers_campaigns_targetingTypes_assignedTargetingOptions = new DisplayVideo\Resource\AdvertisersCampaignsTargetingTypesAssignedTargetingOptions(
+        $this,
+        $this->serviceName,
+        'assignedTargetingOptions',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/advertisers/{+advertiserId}/campaigns/{+campaignId}/targetingTypes/{+targetingType}/assignedTargetingOptions/{+assignedTargetingOptionId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'campaignId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'targetingType' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'assignedTargetingOptionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/advertisers/{+advertiserId}/campaigns/{+campaignId}/targetingTypes/{+targetingType}/assignedTargetingOptions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'campaignId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'targetingType' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->advertisers_channels = new DisplayVideo\Resource\AdvertisersChannels(
+        $this,
+        $this->serviceName,
+        'channels',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/advertisers/{+advertiserId}/channels',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'partnerId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/advertisers/{+advertiserId}/channels/{+channelId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'channelId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'partnerId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/advertisers/{+advertiserId}/channels',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'partnerId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/advertisers/{+advertiserId}/channels/{channelId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'channelId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'partnerId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->advertisers_channels_sites = new DisplayVideo\Resource\AdvertisersChannelsSites(
+        $this,
+        $this->serviceName,
+        'sites',
+        [
+          'methods' => [
+            'bulkEdit' => [
+              'path' => 'v1/advertisers/{advertiserId}/channels/{+channelId}/sites:bulkEdit',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'channelId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1/advertisers/{advertiserId}/channels/{+channelId}/sites',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'channelId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'partnerId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/advertisers/{advertiserId}/channels/{+channelId}/sites/{+urlOrAppId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'channelId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'urlOrAppId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'partnerId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/advertisers/{+advertiserId}/channels/{+channelId}/sites',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'channelId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'partnerId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'replace' => [
+              'path' => 'v1/advertisers/{advertiserId}/channels/{+channelId}/sites:replace',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'channelId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->advertisers_creatives = new DisplayVideo\Resource\AdvertisersCreatives(
+        $this,
+        $this->serviceName,
+        'creatives',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/advertisers/{+advertiserId}/creatives',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/advertisers/{+advertiserId}/creatives/{+creativeId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'creativeId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/advertisers/{+advertiserId}/creatives/{+creativeId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'creativeId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/advertisers/{+advertiserId}/creatives',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/advertisers/{+advertiserId}/creatives/{+creativeId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'creativeId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->advertisers_insertionOrders = new DisplayVideo\Resource\AdvertisersInsertionOrders(
+        $this,
+        $this->serviceName,
+        'insertionOrders',
+        [
+          'methods' => [
+            'bulkListInsertionOrderAssignedTargetingOptions' => [
+              'path' => 'v1/advertisers/{+advertiserId}/insertionOrders/{+insertionOrderId}:bulkListInsertionOrderAssignedTargetingOptions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'insertionOrderId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1/advertisers/{+advertiserId}/insertionOrders',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/advertisers/{+advertiserId}/insertionOrders/{+insertionOrderId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'insertionOrderId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/advertisers/{+advertiserId}/insertionOrders/{+insertionOrderId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'insertionOrderId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/advertisers/{+advertiserId}/insertionOrders',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/advertisers/{+advertiserId}/insertionOrders/{+insertionOrderId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'insertionOrderId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->advertisers_insertionOrders_targetingTypes_assignedTargetingOptions = new DisplayVideo\Resource\AdvertisersInsertionOrdersTargetingTypesAssignedTargetingOptions(
+        $this,
+        $this->serviceName,
+        'assignedTargetingOptions',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/advertisers/{+advertiserId}/insertionOrders/{+insertionOrderId}/targetingTypes/{+targetingType}/assignedTargetingOptions/{+assignedTargetingOptionId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'insertionOrderId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'targetingType' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'assignedTargetingOptionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/advertisers/{+advertiserId}/insertionOrders/{+insertionOrderId}/targetingTypes/{+targetingType}/assignedTargetingOptions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'insertionOrderId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'targetingType' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->advertisers_invoices = new DisplayVideo\Resource\AdvertisersInvoices(
+        $this,
+        $this->serviceName,
+        'invoices',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/advertisers/{+advertiserId}/invoices',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'issueMonth' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'loiSapinInvoiceType' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'lookupInvoiceCurrency' => [
+              'path' => 'v1/advertisers/{+advertiserId}/invoices:lookupInvoiceCurrency',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'invoiceMonth' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->advertisers_lineItems = new DisplayVideo\Resource\AdvertisersLineItems(
+        $this,
+        $this->serviceName,
+        'lineItems',
+        [
+          'methods' => [
+            'bulkEditLineItemAssignedTargetingOptions' => [
+              'path' => 'v1/advertisers/{+advertiserId}/lineItems/{+lineItemId}:bulkEditLineItemAssignedTargetingOptions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'lineItemId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'bulkListLineItemAssignedTargetingOptions' => [
+              'path' => 'v1/advertisers/{+advertiserId}/lineItems/{+lineItemId}:bulkListLineItemAssignedTargetingOptions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'lineItemId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1/advertisers/{+advertiserId}/lineItems',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/advertisers/{+advertiserId}/lineItems/{+lineItemId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'lineItemId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'generateDefault' => [
+              'path' => 'v1/advertisers/{+advertiserId}/lineItems:generateDefault',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/advertisers/{+advertiserId}/lineItems/{+lineItemId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'lineItemId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/advertisers/{+advertiserId}/lineItems',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/advertisers/{+advertiserId}/lineItems/{+lineItemId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'lineItemId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->advertisers_lineItems_targetingTypes_assignedTargetingOptions = new DisplayVideo\Resource\AdvertisersLineItemsTargetingTypesAssignedTargetingOptions(
+        $this,
+        $this->serviceName,
+        'assignedTargetingOptions',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/advertisers/{+advertiserId}/lineItems/{+lineItemId}/targetingTypes/{+targetingType}/assignedTargetingOptions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'lineItemId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'targetingType' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/advertisers/{+advertiserId}/lineItems/{+lineItemId}/targetingTypes/{+targetingType}/assignedTargetingOptions/{+assignedTargetingOptionId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'lineItemId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'targetingType' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'assignedTargetingOptionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/advertisers/{+advertiserId}/lineItems/{+lineItemId}/targetingTypes/{+targetingType}/assignedTargetingOptions/{+assignedTargetingOptionId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'lineItemId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'targetingType' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'assignedTargetingOptionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/advertisers/{+advertiserId}/lineItems/{+lineItemId}/targetingTypes/{+targetingType}/assignedTargetingOptions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'lineItemId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'targetingType' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->advertisers_locationLists = new DisplayVideo\Resource\AdvertisersLocationLists(
+        $this,
+        $this->serviceName,
+        'locationLists',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/advertisers/{+advertiserId}/locationLists',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/advertisers/{+advertiserId}/locationLists/{+locationListId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'locationListId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/advertisers/{+advertiserId}/locationLists',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/advertisers/{+advertiserId}/locationLists/{locationListId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'locationListId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->advertisers_locationLists_assignedLocations = new DisplayVideo\Resource\AdvertisersLocationListsAssignedLocations(
+        $this,
+        $this->serviceName,
+        'assignedLocations',
+        [
+          'methods' => [
+            'bulkEdit' => [
+              'path' => 'v1/advertisers/{advertiserId}/locationLists/{+locationListId}/assignedLocations:bulkEdit',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'locationListId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1/advertisers/{advertiserId}/locationLists/{locationListId}/assignedLocations',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'locationListId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/advertisers/{advertiserId}/locationLists/{locationListId}/assignedLocations/{+assignedLocationId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'locationListId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'assignedLocationId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/advertisers/{advertiserId}/locationLists/{locationListId}/assignedLocations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'locationListId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->advertisers_manualTriggers = new DisplayVideo\Resource\AdvertisersManualTriggers(
+        $this,
+        $this->serviceName,
+        'manualTriggers',
+        [
+          'methods' => [
+            'activate' => [
+              'path' => 'v1/advertisers/{+advertiserId}/manualTriggers/{+triggerId}:activate',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'triggerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1/advertisers/{+advertiserId}/manualTriggers',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'deactivate' => [
+              'path' => 'v1/advertisers/{+advertiserId}/manualTriggers/{+triggerId}:deactivate',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'triggerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/advertisers/{+advertiserId}/manualTriggers/{+triggerId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'triggerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/advertisers/{+advertiserId}/manualTriggers',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/advertisers/{+advertiserId}/manualTriggers/{+triggerId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'triggerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->advertisers_negativeKeywordLists = new DisplayVideo\Resource\AdvertisersNegativeKeywordLists(
+        $this,
+        $this->serviceName,
+        'negativeKeywordLists',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/advertisers/{+advertiserId}/negativeKeywordLists',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/advertisers/{+advertiserId}/negativeKeywordLists/{+negativeKeywordListId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'negativeKeywordListId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/advertisers/{+advertiserId}/negativeKeywordLists/{+negativeKeywordListId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'negativeKeywordListId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/advertisers/{+advertiserId}/negativeKeywordLists',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/advertisers/{+advertiserId}/negativeKeywordLists/{negativeKeywordListId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'negativeKeywordListId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->advertisers_negativeKeywordLists_negativeKeywords = new DisplayVideo\Resource\AdvertisersNegativeKeywordListsNegativeKeywords(
+        $this,
+        $this->serviceName,
+        'negativeKeywords',
+        [
+          'methods' => [
+            'bulkEdit' => [
+              'path' => 'v1/advertisers/{advertiserId}/negativeKeywordLists/{+negativeKeywordListId}/negativeKeywords:bulkEdit',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'negativeKeywordListId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1/advertisers/{advertiserId}/negativeKeywordLists/{+negativeKeywordListId}/negativeKeywords',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'negativeKeywordListId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/advertisers/{advertiserId}/negativeKeywordLists/{+negativeKeywordListId}/negativeKeywords/{+keywordValue}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'negativeKeywordListId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'keywordValue' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/advertisers/{+advertiserId}/negativeKeywordLists/{+negativeKeywordListId}/negativeKeywords',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'negativeKeywordListId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'replace' => [
+              'path' => 'v1/advertisers/{advertiserId}/negativeKeywordLists/{+negativeKeywordListId}/negativeKeywords:replace',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'negativeKeywordListId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->advertisers_targetingTypes_assignedTargetingOptions = new DisplayVideo\Resource\AdvertisersTargetingTypesAssignedTargetingOptions(
+        $this,
+        $this->serviceName,
+        'assignedTargetingOptions',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/advertisers/{+advertiserId}/targetingTypes/{+targetingType}/assignedTargetingOptions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'targetingType' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/advertisers/{+advertiserId}/targetingTypes/{+targetingType}/assignedTargetingOptions/{+assignedTargetingOptionId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'targetingType' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'assignedTargetingOptionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/advertisers/{+advertiserId}/targetingTypes/{+targetingType}/assignedTargetingOptions/{+assignedTargetingOptionId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'targetingType' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'assignedTargetingOptionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/advertisers/{+advertiserId}/targetingTypes/{+targetingType}/assignedTargetingOptions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'targetingType' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->combinedAudiences = new DisplayVideo\Resource\CombinedAudiences(
+        $this,
+        $this->serviceName,
+        'combinedAudiences',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/combinedAudiences/{+combinedAudienceId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'combinedAudienceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'advertiserId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'partnerId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/combinedAudiences',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'partnerId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->customBiddingAlgorithms = new DisplayVideo\Resource\CustomBiddingAlgorithms(
+        $this,
+        $this->serviceName,
+        'customBiddingAlgorithms',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/customBiddingAlgorithms/{+customBiddingAlgorithmId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'customBiddingAlgorithmId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'advertiserId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'partnerId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/customBiddingAlgorithms',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'partnerId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->customLists = new DisplayVideo\Resource\CustomLists(
+        $this,
+        $this->serviceName,
+        'customLists',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/customLists/{+customListId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'customListId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'advertiserId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/customLists',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->firstAndThirdPartyAudiences = new DisplayVideo\Resource\FirstAndThirdPartyAudiences(
+        $this,
+        $this->serviceName,
+        'firstAndThirdPartyAudiences',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/firstAndThirdPartyAudiences/{+firstAndThirdPartyAudienceId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'firstAndThirdPartyAudienceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'advertiserId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'partnerId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/firstAndThirdPartyAudiences',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'partnerId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->floodlightGroups = new DisplayVideo\Resource\FloodlightGroups(
+        $this,
+        $this->serviceName,
+        'floodlightGroups',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/floodlightGroups/{+floodlightGroupId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'floodlightGroupId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'partnerId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/floodlightGroups/{floodlightGroupId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'floodlightGroupId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'partnerId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->googleAudiences = new DisplayVideo\Resource\GoogleAudiences(
+        $this,
+        $this->serviceName,
+        'googleAudiences',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/googleAudiences/{+googleAudienceId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'googleAudienceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'advertiserId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'partnerId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/googleAudiences',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'partnerId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->inventorySourceGroups = new DisplayVideo\Resource\InventorySourceGroups(
+        $this,
+        $this->serviceName,
+        'inventorySourceGroups',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/inventorySourceGroups',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'partnerId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/inventorySourceGroups/{+inventorySourceGroupId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'inventorySourceGroupId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'advertiserId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'partnerId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/inventorySourceGroups/{+inventorySourceGroupId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'inventorySourceGroupId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'advertiserId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'partnerId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/inventorySourceGroups',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'partnerId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/inventorySourceGroups/{inventorySourceGroupId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'inventorySourceGroupId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'advertiserId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'partnerId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->inventorySourceGroups_assignedInventorySources = new DisplayVideo\Resource\InventorySourceGroupsAssignedInventorySources(
+        $this,
+        $this->serviceName,
+        'assignedInventorySources',
+        [
+          'methods' => [
+            'bulkEdit' => [
+              'path' => 'v1/inventorySourceGroups/{+inventorySourceGroupId}/assignedInventorySources:bulkEdit',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'inventorySourceGroupId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1/inventorySourceGroups/{+inventorySourceGroupId}/assignedInventorySources',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'inventorySourceGroupId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'advertiserId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'partnerId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/inventorySourceGroups/{+inventorySourceGroupId}/assignedInventorySources/{+assignedInventorySourceId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'inventorySourceGroupId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'assignedInventorySourceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'advertiserId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'partnerId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/inventorySourceGroups/{+inventorySourceGroupId}/assignedInventorySources',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'inventorySourceGroupId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'advertiserId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'partnerId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->inventorySources = new DisplayVideo\Resource\InventorySources(
+        $this,
+        $this->serviceName,
+        'inventorySources',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/inventorySources/{+inventorySourceId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'inventorySourceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'partnerId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/inventorySources',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'advertiserId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'partnerId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->media = new DisplayVideo\Resource\Media(
+        $this,
+        $this->serviceName,
+        'media',
+        [
+          'methods' => [
+            'download' => [
+              'path' => 'download/{+resourceName}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'resourceName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->partners = new DisplayVideo\Resource\Partners(
+        $this,
+        $this->serviceName,
+        'partners',
+        [
+          'methods' => [
+            'bulkEditPartnerAssignedTargetingOptions' => [
+              'path' => 'v1/partners/{+partnerId}:bulkEditPartnerAssignedTargetingOptions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'partnerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/partners/{+partnerId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'partnerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/partners',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->partners_channels = new DisplayVideo\Resource\PartnersChannels(
+        $this,
+        $this->serviceName,
+        'channels',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/partners/{+partnerId}/channels',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'partnerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'advertiserId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/partners/{+partnerId}/channels/{+channelId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'partnerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'channelId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'advertiserId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/partners/{+partnerId}/channels',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'partnerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'advertiserId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/partners/{+partnerId}/channels/{channelId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'partnerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'channelId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'advertiserId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->partners_channels_sites = new DisplayVideo\Resource\PartnersChannelsSites(
+        $this,
+        $this->serviceName,
+        'sites',
+        [
+          'methods' => [
+            'bulkEdit' => [
+              'path' => 'v1/partners/{partnerId}/channels/{+channelId}/sites:bulkEdit',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'partnerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'channelId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1/partners/{partnerId}/channels/{+channelId}/sites',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'partnerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'channelId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'advertiserId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/partners/{partnerId}/channels/{+channelId}/sites/{+urlOrAppId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'partnerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'channelId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'urlOrAppId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'advertiserId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/partners/{+partnerId}/channels/{+channelId}/sites',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'partnerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'channelId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'advertiserId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'replace' => [
+              'path' => 'v1/partners/{partnerId}/channels/{+channelId}/sites:replace',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'partnerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'channelId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->partners_targetingTypes_assignedTargetingOptions = new DisplayVideo\Resource\PartnersTargetingTypesAssignedTargetingOptions(
+        $this,
+        $this->serviceName,
+        'assignedTargetingOptions',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/partners/{+partnerId}/targetingTypes/{+targetingType}/assignedTargetingOptions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'partnerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'targetingType' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/partners/{+partnerId}/targetingTypes/{+targetingType}/assignedTargetingOptions/{+assignedTargetingOptionId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'partnerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'targetingType' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'assignedTargetingOptionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/partners/{+partnerId}/targetingTypes/{+targetingType}/assignedTargetingOptions/{+assignedTargetingOptionId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'partnerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'targetingType' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'assignedTargetingOptionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/partners/{+partnerId}/targetingTypes/{+targetingType}/assignedTargetingOptions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'partnerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'targetingType' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->sdfdownloadtasks = new DisplayVideo\Resource\Sdfdownloadtasks(
+        $this,
+        $this->serviceName,
+        'sdfdownloadtasks',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/sdfdownloadtasks',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],
+          ]
+        ]
+    );
+    $this->sdfdownloadtasks_operations = new DisplayVideo\Resource\SdfdownloadtasksOperations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->targetingTypes_targetingOptions = new DisplayVideo\Resource\TargetingTypesTargetingOptions(
+        $this,
+        $this->serviceName,
+        'targetingOptions',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/targetingTypes/{+targetingType}/targetingOptions/{+targetingOptionId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'targetingType' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'targetingOptionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'advertiserId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/targetingTypes/{+targetingType}/targetingOptions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'targetingType' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'advertiserId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'search' => [
+              'path' => 'v1/targetingTypes/{+targetingType}/targetingOptions:search',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'targetingType' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->users = new DisplayVideo\Resource\Users(
+        $this,
+        $this->serviceName,
+        'users',
+        [
+          'methods' => [
+            'bulkEditAssignedUserRoles' => [
+              'path' => 'v1/users/{+userId}:bulkEditAssignedUserRoles',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1/users',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'delete' => [
+              'path' => 'v1/users/{+userId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/users/{+userId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/users',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/users/{+userId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(DisplayVideo::class, 'Google_Service_DisplayVideo');

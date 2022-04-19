@@ -1,84 +1,147 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Apigateway;
+
+class ApigatewayApiConfig extends \Google\Collection
+{
+  protected $collection_key = 'openapiDocuments';
+  public $createTime;
+  public $displayName;
+  public $gatewayServiceAccount;
+  protected $grpcServicesType = ApigatewayApiConfigGrpcServiceDefinition::class;
+  protected $grpcServicesDataType = 'array';
+  public $labels;
+  protected $managedServiceConfigsType = ApigatewayApiConfigFile::class;
+  protected $managedServiceConfigsDataType = 'array';
+  public $name;
+  protected $openapiDocumentsType = ApigatewayApiConfigOpenApiDocument::class;
+  protected $openapiDocumentsDataType = 'array';
+  public $serviceConfigId;
+  public $state;
+  public $updateTime;
+
+  public function setCreateTime($createTime)
+  {
+    $this->createTime = $createTime;
+  }
+  public function getCreateTime()
+  {
+    return $this->createTime;
+  }
+  public function setDisplayName($displayName)
+  {
+    $this->displayName = $displayName;
+  }
+  public function getDisplayName()
+  {
+    return $this->displayName;
+  }
+  public function setGatewayServiceAccount($gatewayServiceAccount)
+  {
+    $this->gatewayServiceAccount = $gatewayServiceAccount;
+  }
+  public function getGatewayServiceAccount()
+  {
+    return $this->gatewayServiceAccount;
+  }
+  /**
+   * @param ApigatewayApiConfigGrpcServiceDefinition[]
+   */
+  public function setGrpcServices($grpcServices)
+  {
+    $this->grpcServices = $grpcServices;
+  }
+  /**
+   * @return ApigatewayApiConfigGrpcServiceDefinition[]
+   */
+  public function getGrpcServices()
+  {
+    return $this->grpcServices;
+  }
+  public function setLabels($labels)
+  {
+    $this->labels = $labels;
+  }
+  public function getLabels()
+  {
+    return $this->labels;
+  }
+  /**
+   * @param ApigatewayApiConfigFile[]
+   */
+  public function setManagedServiceConfigs($managedServiceConfigs)
+  {
+    $this->managedServiceConfigs = $managedServiceConfigs;
+  }
+  /**
+   * @return ApigatewayApiConfigFile[]
+   */
+  public function getManagedServiceConfigs()
+  {
+    return $this->managedServiceConfigs;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  /**
+   * @param ApigatewayApiConfigOpenApiDocument[]
+   */
+  public function setOpenapiDocuments($openapiDocuments)
+  {
+    $this->openapiDocuments = $openapiDocuments;
+  }
+  /**
+   * @return ApigatewayApiConfigOpenApiDocument[]
+   */
+  public function getOpenapiDocuments()
+  {
+    return $this->openapiDocuments;
+  }
+  public function setServiceConfigId($serviceConfigId)
+  {
+    $this->serviceConfigId = $serviceConfigId;
+  }
+  public function getServiceConfigId()
+  {
+    return $this->serviceConfigId;
+  }
+  public function setState($state)
+  {
+    $this->state = $state;
+  }
+  public function getState()
+  {
+    return $this->state;
+  }
+  public function setUpdateTime($updateTime)
+  {
+    $this->updateTime = $updateTime;
+  }
+  public function getUpdateTime()
+  {
+    return $this->updateTime;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ApigatewayApiConfig::class, 'Google_Service_Apigateway_ApigatewayApiConfig');

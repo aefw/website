@@ -1,59 +1,50 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+namespace PhpOffice\PhpSpreadsheet\Reader\Xlsx;
+
+use PhpOffice\PhpSpreadsheet\Cell\Coordinate;
+use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
+
+class DataValidations
+{
+    private $worksheet;
+
+    private $worksheetXml;
+
+    public function __construct(Worksheet $workSheet, \SimpleXMLElement $worksheetXml)
+    {
+        $this->worksheet = $workSheet;
+        $this->worksheetXml = $worksheetXml;
+    }
+
+    public function load()
+    {
+        foreach ($this->worksheetXml->dataValidations->dataValidation as $dataValidation) {
+            // Uppercase coordinate
+            $range = strtoupper($dataValidation['sqref']);
+            $rangeSet = explode(' ', $range);
+            foreach ($rangeSet as $range) {
+                $stRange = $this->worksheet->shrinkRangeToFit($range);
+
+                // Extract all cell references in $range
+                foreach (Coordinate::extractAllCellReferencesInRange($stRange) as $reference) {
+                    // Create validation
+                    $docValidation = $this->worksheet->getCell($reference)->getDataValidation();
+                    $docValidation->setType((string) $dataValidation['type']);
+                    $docValidation->setErrorStyle((string) $dataValidation['errorStyle']);
+                    $docValidation->setOperator((string) $dataValidation['operator']);
+                    $docValidation->setAllowBlank($dataValidation['allowBlank'] != 0);
+                    $docValidation->setShowDropDown($dataValidation['showDropDown'] == 0);
+                    $docValidation->setShowInputMessage($dataValidation['showInputMessage'] != 0);
+                    $docValidation->setShowErrorMessage($dataValidation['showErrorMessage'] != 0);
+                    $docValidation->setErrorTitle((string) $dataValidation['errorTitle']);
+                    $docValidation->setError((string) $dataValidation['error']);
+                    $docValidation->setPromptTitle((string) $dataValidation['promptTitle']);
+                    $docValidation->setPrompt((string) $dataValidation['prompt']);
+                    $docValidation->setFormula1((string) $dataValidation->formula1);
+                    $docValidation->setFormula2((string) $dataValidation->formula2);
+                }
+            }
+        }
+    }
+}

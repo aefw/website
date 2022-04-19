@@ -1,156 +1,380 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-iuqJaFXwKtY+sIJ8T/kWovBadZXC99og/XNAD0==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Container;
+
+class ClusterUpdate extends \Google\Collection
+{
+  protected $collection_key = 'desiredLocations';
+  protected $desiredAddonsConfigType = AddonsConfig::class;
+  protected $desiredAddonsConfigDataType = '';
+  protected $desiredAutopilotType = Autopilot::class;
+  protected $desiredAutopilotDataType = '';
+  protected $desiredBinaryAuthorizationType = BinaryAuthorization::class;
+  protected $desiredBinaryAuthorizationDataType = '';
+  protected $desiredClusterAutoscalingType = ClusterAutoscaling::class;
+  protected $desiredClusterAutoscalingDataType = '';
+  protected $desiredDatabaseEncryptionType = DatabaseEncryption::class;
+  protected $desiredDatabaseEncryptionDataType = '';
+  public $desiredDatapathProvider;
+  protected $desiredDefaultSnatStatusType = DefaultSnatStatus::class;
+  protected $desiredDefaultSnatStatusDataType = '';
+  public $desiredImageType;
+  protected $desiredIntraNodeVisibilityConfigType = IntraNodeVisibilityConfig::class;
+  protected $desiredIntraNodeVisibilityConfigDataType = '';
+  protected $desiredL4ilbSubsettingConfigType = ILBSubsettingConfig::class;
+  protected $desiredL4ilbSubsettingConfigDataType = '';
+  public $desiredLocations;
+  public $desiredLoggingService;
+  protected $desiredMasterAuthorizedNetworksConfigType = MasterAuthorizedNetworksConfig::class;
+  protected $desiredMasterAuthorizedNetworksConfigDataType = '';
+  public $desiredMasterVersion;
+  public $desiredMonitoringService;
+  protected $desiredNodePoolAutoscalingType = NodePoolAutoscaling::class;
+  protected $desiredNodePoolAutoscalingDataType = '';
+  public $desiredNodePoolId;
+  public $desiredNodeVersion;
+  protected $desiredNotificationConfigType = NotificationConfig::class;
+  protected $desiredNotificationConfigDataType = '';
+  protected $desiredPrivateClusterConfigType = PrivateClusterConfig::class;
+  protected $desiredPrivateClusterConfigDataType = '';
+  public $desiredPrivateIpv6GoogleAccess;
+  protected $desiredReleaseChannelType = ReleaseChannel::class;
+  protected $desiredReleaseChannelDataType = '';
+  protected $desiredResourceUsageExportConfigType = ResourceUsageExportConfig::class;
+  protected $desiredResourceUsageExportConfigDataType = '';
+  protected $desiredShieldedNodesType = ShieldedNodes::class;
+  protected $desiredShieldedNodesDataType = '';
+  protected $desiredVerticalPodAutoscalingType = VerticalPodAutoscaling::class;
+  protected $desiredVerticalPodAutoscalingDataType = '';
+  protected $desiredWorkloadIdentityConfigType = WorkloadIdentityConfig::class;
+  protected $desiredWorkloadIdentityConfigDataType = '';
+
+  /**
+   * @param AddonsConfig
+   */
+  public function setDesiredAddonsConfig(AddonsConfig $desiredAddonsConfig)
+  {
+    $this->desiredAddonsConfig = $desiredAddonsConfig;
+  }
+  /**
+   * @return AddonsConfig
+   */
+  public function getDesiredAddonsConfig()
+  {
+    return $this->desiredAddonsConfig;
+  }
+  /**
+   * @param Autopilot
+   */
+  public function setDesiredAutopilot(Autopilot $desiredAutopilot)
+  {
+    $this->desiredAutopilot = $desiredAutopilot;
+  }
+  /**
+   * @return Autopilot
+   */
+  public function getDesiredAutopilot()
+  {
+    return $this->desiredAutopilot;
+  }
+  /**
+   * @param BinaryAuthorization
+   */
+  public function setDesiredBinaryAuthorization(BinaryAuthorization $desiredBinaryAuthorization)
+  {
+    $this->desiredBinaryAuthorization = $desiredBinaryAuthorization;
+  }
+  /**
+   * @return BinaryAuthorization
+   */
+  public function getDesiredBinaryAuthorization()
+  {
+    return $this->desiredBinaryAuthorization;
+  }
+  /**
+   * @param ClusterAutoscaling
+   */
+  public function setDesiredClusterAutoscaling(ClusterAutoscaling $desiredClusterAutoscaling)
+  {
+    $this->desiredClusterAutoscaling = $desiredClusterAutoscaling;
+  }
+  /**
+   * @return ClusterAutoscaling
+   */
+  public function getDesiredClusterAutoscaling()
+  {
+    return $this->desiredClusterAutoscaling;
+  }
+  /**
+   * @param DatabaseEncryption
+   */
+  public function setDesiredDatabaseEncryption(DatabaseEncryption $desiredDatabaseEncryption)
+  {
+    $this->desiredDatabaseEncryption = $desiredDatabaseEncryption;
+  }
+  /**
+   * @return DatabaseEncryption
+   */
+  public function getDesiredDatabaseEncryption()
+  {
+    return $this->desiredDatabaseEncryption;
+  }
+  public function setDesiredDatapathProvider($desiredDatapathProvider)
+  {
+    $this->desiredDatapathProvider = $desiredDatapathProvider;
+  }
+  public function getDesiredDatapathProvider()
+  {
+    return $this->desiredDatapathProvider;
+  }
+  /**
+   * @param DefaultSnatStatus
+   */
+  public function setDesiredDefaultSnatStatus(DefaultSnatStatus $desiredDefaultSnatStatus)
+  {
+    $this->desiredDefaultSnatStatus = $desiredDefaultSnatStatus;
+  }
+  /**
+   * @return DefaultSnatStatus
+   */
+  public function getDesiredDefaultSnatStatus()
+  {
+    return $this->desiredDefaultSnatStatus;
+  }
+  public function setDesiredImageType($desiredImageType)
+  {
+    $this->desiredImageType = $desiredImageType;
+  }
+  public function getDesiredImageType()
+  {
+    return $this->desiredImageType;
+  }
+  /**
+   * @param IntraNodeVisibilityConfig
+   */
+  public function setDesiredIntraNodeVisibilityConfig(IntraNodeVisibilityConfig $desiredIntraNodeVisibilityConfig)
+  {
+    $this->desiredIntraNodeVisibilityConfig = $desiredIntraNodeVisibilityConfig;
+  }
+  /**
+   * @return IntraNodeVisibilityConfig
+   */
+  public function getDesiredIntraNodeVisibilityConfig()
+  {
+    return $this->desiredIntraNodeVisibilityConfig;
+  }
+  /**
+   * @param ILBSubsettingConfig
+   */
+  public function setDesiredL4ilbSubsettingConfig(ILBSubsettingConfig $desiredL4ilbSubsettingConfig)
+  {
+    $this->desiredL4ilbSubsettingConfig = $desiredL4ilbSubsettingConfig;
+  }
+  /**
+   * @return ILBSubsettingConfig
+   */
+  public function getDesiredL4ilbSubsettingConfig()
+  {
+    return $this->desiredL4ilbSubsettingConfig;
+  }
+  public function setDesiredLocations($desiredLocations)
+  {
+    $this->desiredLocations = $desiredLocations;
+  }
+  public function getDesiredLocations()
+  {
+    return $this->desiredLocations;
+  }
+  public function setDesiredLoggingService($desiredLoggingService)
+  {
+    $this->desiredLoggingService = $desiredLoggingService;
+  }
+  public function getDesiredLoggingService()
+  {
+    return $this->desiredLoggingService;
+  }
+  /**
+   * @param MasterAuthorizedNetworksConfig
+   */
+  public function setDesiredMasterAuthorizedNetworksConfig(MasterAuthorizedNetworksConfig $desiredMasterAuthorizedNetworksConfig)
+  {
+    $this->desiredMasterAuthorizedNetworksConfig = $desiredMasterAuthorizedNetworksConfig;
+  }
+  /**
+   * @return MasterAuthorizedNetworksConfig
+   */
+  public function getDesiredMasterAuthorizedNetworksConfig()
+  {
+    return $this->desiredMasterAuthorizedNetworksConfig;
+  }
+  public function setDesiredMasterVersion($desiredMasterVersion)
+  {
+    $this->desiredMasterVersion = $desiredMasterVersion;
+  }
+  public function getDesiredMasterVersion()
+  {
+    return $this->desiredMasterVersion;
+  }
+  public function setDesiredMonitoringService($desiredMonitoringService)
+  {
+    $this->desiredMonitoringService = $desiredMonitoringService;
+  }
+  public function getDesiredMonitoringService()
+  {
+    return $this->desiredMonitoringService;
+  }
+  /**
+   * @param NodePoolAutoscaling
+   */
+  public function setDesiredNodePoolAutoscaling(NodePoolAutoscaling $desiredNodePoolAutoscaling)
+  {
+    $this->desiredNodePoolAutoscaling = $desiredNodePoolAutoscaling;
+  }
+  /**
+   * @return NodePoolAutoscaling
+   */
+  public function getDesiredNodePoolAutoscaling()
+  {
+    return $this->desiredNodePoolAutoscaling;
+  }
+  public function setDesiredNodePoolId($desiredNodePoolId)
+  {
+    $this->desiredNodePoolId = $desiredNodePoolId;
+  }
+  public function getDesiredNodePoolId()
+  {
+    return $this->desiredNodePoolId;
+  }
+  public function setDesiredNodeVersion($desiredNodeVersion)
+  {
+    $this->desiredNodeVersion = $desiredNodeVersion;
+  }
+  public function getDesiredNodeVersion()
+  {
+    return $this->desiredNodeVersion;
+  }
+  /**
+   * @param NotificationConfig
+   */
+  public function setDesiredNotificationConfig(NotificationConfig $desiredNotificationConfig)
+  {
+    $this->desiredNotificationConfig = $desiredNotificationConfig;
+  }
+  /**
+   * @return NotificationConfig
+   */
+  public function getDesiredNotificationConfig()
+  {
+    return $this->desiredNotificationConfig;
+  }
+  /**
+   * @param PrivateClusterConfig
+   */
+  public function setDesiredPrivateClusterConfig(PrivateClusterConfig $desiredPrivateClusterConfig)
+  {
+    $this->desiredPrivateClusterConfig = $desiredPrivateClusterConfig;
+  }
+  /**
+   * @return PrivateClusterConfig
+   */
+  public function getDesiredPrivateClusterConfig()
+  {
+    return $this->desiredPrivateClusterConfig;
+  }
+  public function setDesiredPrivateIpv6GoogleAccess($desiredPrivateIpv6GoogleAccess)
+  {
+    $this->desiredPrivateIpv6GoogleAccess = $desiredPrivateIpv6GoogleAccess;
+  }
+  public function getDesiredPrivateIpv6GoogleAccess()
+  {
+    return $this->desiredPrivateIpv6GoogleAccess;
+  }
+  /**
+   * @param ReleaseChannel
+   */
+  public function setDesiredReleaseChannel(ReleaseChannel $desiredReleaseChannel)
+  {
+    $this->desiredReleaseChannel = $desiredReleaseChannel;
+  }
+  /**
+   * @return ReleaseChannel
+   */
+  public function getDesiredReleaseChannel()
+  {
+    return $this->desiredReleaseChannel;
+  }
+  /**
+   * @param ResourceUsageExportConfig
+   */
+  public function setDesiredResourceUsageExportConfig(ResourceUsageExportConfig $desiredResourceUsageExportConfig)
+  {
+    $this->desiredResourceUsageExportConfig = $desiredResourceUsageExportConfig;
+  }
+  /**
+   * @return ResourceUsageExportConfig
+   */
+  public function getDesiredResourceUsageExportConfig()
+  {
+    return $this->desiredResourceUsageExportConfig;
+  }
+  /**
+   * @param ShieldedNodes
+   */
+  public function setDesiredShieldedNodes(ShieldedNodes $desiredShieldedNodes)
+  {
+    $this->desiredShieldedNodes = $desiredShieldedNodes;
+  }
+  /**
+   * @return ShieldedNodes
+   */
+  public function getDesiredShieldedNodes()
+  {
+    return $this->desiredShieldedNodes;
+  }
+  /**
+   * @param VerticalPodAutoscaling
+   */
+  public function setDesiredVerticalPodAutoscaling(VerticalPodAutoscaling $desiredVerticalPodAutoscaling)
+  {
+    $this->desiredVerticalPodAutoscaling = $desiredVerticalPodAutoscaling;
+  }
+  /**
+   * @return VerticalPodAutoscaling
+   */
+  public function getDesiredVerticalPodAutoscaling()
+  {
+    return $this->desiredVerticalPodAutoscaling;
+  }
+  /**
+   * @param WorkloadIdentityConfig
+   */
+  public function setDesiredWorkloadIdentityConfig(WorkloadIdentityConfig $desiredWorkloadIdentityConfig)
+  {
+    $this->desiredWorkloadIdentityConfig = $desiredWorkloadIdentityConfig;
+  }
+  /**
+   * @return WorkloadIdentityConfig
+   */
+  public function getDesiredWorkloadIdentityConfig()
+  {
+    return $this->desiredWorkloadIdentityConfig;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ClusterUpdate::class, 'Google_Service_Container_ClusterUpdate');

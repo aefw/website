@@ -1,105 +1,273 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-vAiD1t4th53YVhv7UsEk
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\BigtableAdmin\Resource;
+
+use Google\Service\BigtableAdmin\BigtableadminEmpty;
+use Google\Service\BigtableAdmin\CheckConsistencyRequest;
+use Google\Service\BigtableAdmin\CheckConsistencyResponse;
+use Google\Service\BigtableAdmin\CreateTableRequest;
+use Google\Service\BigtableAdmin\DropRowRangeRequest;
+use Google\Service\BigtableAdmin\GenerateConsistencyTokenRequest;
+use Google\Service\BigtableAdmin\GenerateConsistencyTokenResponse;
+use Google\Service\BigtableAdmin\GetIamPolicyRequest;
+use Google\Service\BigtableAdmin\ListTablesResponse;
+use Google\Service\BigtableAdmin\ModifyColumnFamiliesRequest;
+use Google\Service\BigtableAdmin\Operation;
+use Google\Service\BigtableAdmin\Policy;
+use Google\Service\BigtableAdmin\RestoreTableRequest;
+use Google\Service\BigtableAdmin\SetIamPolicyRequest;
+use Google\Service\BigtableAdmin\Table;
+use Google\Service\BigtableAdmin\TestIamPermissionsRequest;
+use Google\Service\BigtableAdmin\TestIamPermissionsResponse;
+
+/**
+ * The "tables" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $bigtableadminService = new Google\Service\BigtableAdmin(...);
+ *   $tables = $bigtableadminService->tables;
+ *  </code>
+ */
+class ProjectsInstancesTables extends \Google\Service\Resource
+{
+  /**
+   * Checks replication consistency based on a consistency token, that is, if
+   * replication has caught up based on the conditions specified in the token and
+   * the check request. (tables.checkConsistency)
+   *
+   * @param string $name Required. The unique name of the Table for which to check
+   * replication consistency. Values are of the form
+   * `projects/{project}/instances/{instance}/tables/{table}`.
+   * @param CheckConsistencyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return CheckConsistencyResponse
+   */
+  public function checkConsistency($name, CheckConsistencyRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('checkConsistency', [$params], CheckConsistencyResponse::class);
+  }
+  /**
+   * Creates a new table in the specified instance. The table can be created with
+   * a full set of initial column families, specified in the request.
+   * (tables.create)
+   *
+   * @param string $parent Required. The unique name of the instance in which to
+   * create the table. Values are of the form
+   * `projects/{project}/instances/{instance}`.
+   * @param CreateTableRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Table
+   */
+  public function create($parent, CreateTableRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Table::class);
+  }
+  /**
+   * Permanently deletes a specified table and all of its data. (tables.delete)
+   *
+   * @param string $name Required. The unique name of the table to be deleted.
+   * Values are of the form
+   * `projects/{project}/instances/{instance}/tables/{table}`.
+   * @param array $optParams Optional parameters.
+   * @return BigtableadminEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], BigtableadminEmpty::class);
+  }
+  /**
+   * Permanently drop/delete a row range from a specified table. The request can
+   * specify whether to delete all rows in a table, or only those that match a
+   * particular prefix. (tables.dropRowRange)
+   *
+   * @param string $name Required. The unique name of the table on which to drop a
+   * range of rows. Values are of the form
+   * `projects/{project}/instances/{instance}/tables/{table}`.
+   * @param DropRowRangeRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return BigtableadminEmpty
+   */
+  public function dropRowRange($name, DropRowRangeRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('dropRowRange', [$params], BigtableadminEmpty::class);
+  }
+  /**
+   * Generates a consistency token for a Table, which can be used in
+   * CheckConsistency to check whether mutations to the table that finished before
+   * this call started have been replicated. The tokens will be available for 90
+   * days. (tables.generateConsistencyToken)
+   *
+   * @param string $name Required. The unique name of the Table for which to
+   * create a consistency token. Values are of the form
+   * `projects/{project}/instances/{instance}/tables/{table}`.
+   * @param GenerateConsistencyTokenRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GenerateConsistencyTokenResponse
+   */
+  public function generateConsistencyToken($name, GenerateConsistencyTokenRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('generateConsistencyToken', [$params], GenerateConsistencyTokenResponse::class);
+  }
+  /**
+   * Gets metadata information about the specified table. (tables.get)
+   *
+   * @param string $name Required. The unique name of the requested table. Values
+   * are of the form `projects/{project}/instances/{instance}/tables/{table}`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string view The view to be applied to the returned table's fields.
+   * Defaults to `SCHEMA_VIEW` if unspecified.
+   * @return Table
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Table::class);
+  }
+  /**
+   * Gets the access control policy for a Table resource. Returns an empty policy
+   * if the resource exists but does not have a policy set. (tables.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param GetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function getIamPolicy($resource, GetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Lists all tables served from a specified instance.
+   * (tables.listProjectsInstancesTables)
+   *
+   * @param string $parent Required. The unique name of the instance for which
+   * tables should be listed. Values are of the form
+   * `projects/{project}/instances/{instance}`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Maximum number of results per page. A page_size of
+   * zero lets the server choose the number of items to return. A page_size which
+   * is strictly positive will return at most that many items. A negative
+   * page_size will cause an error. Following the first request, subsequent
+   * paginated calls are not required to pass a page_size. If a page_size is set
+   * in subsequent calls, it must match the page_size given in the first request.
+   * @opt_param string pageToken The value of `next_page_token` returned by a
+   * previous call.
+   * @opt_param string view The view to be applied to the returned tables' fields.
+   * Only NAME_ONLY view (default) and REPLICATION_VIEW are supported.
+   * @return ListTablesResponse
+   */
+  public function listProjectsInstancesTables($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListTablesResponse::class);
+  }
+  /**
+   * Performs a series of column family modifications on the specified table.
+   * Either all or none of the modifications will occur before this method
+   * returns, but data requests received prior to that point may see a table where
+   * only some modifications have taken effect. (tables.modifyColumnFamilies)
+   *
+   * @param string $name Required. The unique name of the table whose families
+   * should be modified. Values are of the form
+   * `projects/{project}/instances/{instance}/tables/{table}`.
+   * @param ModifyColumnFamiliesRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Table
+   */
+  public function modifyColumnFamilies($name, ModifyColumnFamiliesRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('modifyColumnFamilies', [$params], Table::class);
+  }
+  /**
+   * Create a new table by restoring from a completed backup. The new table must
+   * be in the same project as the instance containing the backup. The returned
+   * table long-running operation can be used to track the progress of the
+   * operation, and to cancel it. The metadata field type is RestoreTableMetadata.
+   * The response type is Table, if successful. (tables.restore)
+   *
+   * @param string $parent Required. The name of the instance in which to create
+   * the restored table. This instance must be in the same project as the source
+   * backup. Values are of the form `projects//instances/`.
+   * @param RestoreTableRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function restore($parent, RestoreTableRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('restore', [$params], Operation::class);
+  }
+  /**
+   * Sets the access control policy on a Table resource. Replaces any existing
+   * policy. (tables.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Returns permissions that the caller has on the specified table resource.
+   * (tables.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsInstancesTables::class, 'Google_Service_BigtableAdmin_Resource_ProjectsInstancesTables');

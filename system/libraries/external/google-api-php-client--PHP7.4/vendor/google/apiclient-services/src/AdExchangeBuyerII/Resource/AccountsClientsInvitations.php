@@ -1,63 +1,98 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-O8JXMNvRFL4I4C2bjgkWPG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AdExchangeBuyerII\Resource;
+
+use Google\Service\AdExchangeBuyerII\ClientUserInvitation;
+use Google\Service\AdExchangeBuyerII\ListClientUserInvitationsResponse;
+
+/**
+ * The "invitations" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $adexchangebuyer2Service = new Google\Service\AdExchangeBuyerII(...);
+ *   $invitations = $adexchangebuyer2Service->invitations;
+ *  </code>
+ */
+class AccountsClientsInvitations extends \Google\Service\Resource
+{
+  /**
+   * Creates and sends out an email invitation to access an Ad Exchange client
+   * buyer account. (invitations.create)
+   *
+   * @param string $accountId Numerical account ID of the client's sponsor buyer.
+   * (required)
+   * @param string $clientAccountId Numerical account ID of the client buyer that
+   * the user should be associated with. (required)
+   * @param ClientUserInvitation $postBody
+   * @param array $optParams Optional parameters.
+   * @return ClientUserInvitation
+   */
+  public function create($accountId, $clientAccountId, ClientUserInvitation $postBody, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'clientAccountId' => $clientAccountId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], ClientUserInvitation::class);
+  }
+  /**
+   * Retrieves an existing client user invitation. (invitations.get)
+   *
+   * @param string $accountId Numerical account ID of the client's sponsor buyer.
+   * (required)
+   * @param string $clientAccountId Numerical account ID of the client buyer that
+   * the user invitation to be retrieved is associated with. (required)
+   * @param string $invitationId Numerical identifier of the user invitation to
+   * retrieve. (required)
+   * @param array $optParams Optional parameters.
+   * @return ClientUserInvitation
+   */
+  public function get($accountId, $clientAccountId, $invitationId, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'clientAccountId' => $clientAccountId, 'invitationId' => $invitationId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], ClientUserInvitation::class);
+  }
+  /**
+   * Lists all the client users invitations for a client with a given account ID.
+   * (invitations.listAccountsClientsInvitations)
+   *
+   * @param string $accountId Numerical account ID of the client's sponsor buyer.
+   * (required)
+   * @param string $clientAccountId Numerical account ID of the client buyer to
+   * list invitations for. (required) You must either specify a string
+   * representation of a numerical account identifier or the `-` character to list
+   * all the invitations for all the clients of a given sponsor buyer.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Requested page size. Server may return fewer clients
+   * than requested. If unspecified, server will pick an appropriate default.
+   * @opt_param string pageToken A token identifying a page of results the server
+   * should return. Typically, this is the value of
+   * ListClientUserInvitationsResponse.nextPageToken returned from the previous
+   * call to the clients.invitations.list method.
+   * @return ListClientUserInvitationsResponse
+   */
+  public function listAccountsClientsInvitations($accountId, $clientAccountId, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'clientAccountId' => $clientAccountId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListClientUserInvitationsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AccountsClientsInvitations::class, 'Google_Service_AdExchangeBuyerII_Resource_AccountsClientsInvitations');

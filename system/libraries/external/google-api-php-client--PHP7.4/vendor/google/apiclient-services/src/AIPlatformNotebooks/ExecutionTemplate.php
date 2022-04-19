@@ -1,81 +1,123 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-5a4DAgs5m5DReAZUkjaF
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AIPlatformNotebooks;
+
+class ExecutionTemplate extends \Google\Model
+{
+  protected $acceleratorConfigType = SchedulerAcceleratorConfig::class;
+  protected $acceleratorConfigDataType = '';
+  public $containerImageUri;
+  public $inputNotebookFile;
+  public $labels;
+  public $masterType;
+  public $outputNotebookFolder;
+  public $parameters;
+  public $paramsYamlFile;
+  public $scaleTier;
+  public $serviceAccount;
+
+  /**
+   * @param SchedulerAcceleratorConfig
+   */
+  public function setAcceleratorConfig(SchedulerAcceleratorConfig $acceleratorConfig)
+  {
+    $this->acceleratorConfig = $acceleratorConfig;
+  }
+  /**
+   * @return SchedulerAcceleratorConfig
+   */
+  public function getAcceleratorConfig()
+  {
+    return $this->acceleratorConfig;
+  }
+  public function setContainerImageUri($containerImageUri)
+  {
+    $this->containerImageUri = $containerImageUri;
+  }
+  public function getContainerImageUri()
+  {
+    return $this->containerImageUri;
+  }
+  public function setInputNotebookFile($inputNotebookFile)
+  {
+    $this->inputNotebookFile = $inputNotebookFile;
+  }
+  public function getInputNotebookFile()
+  {
+    return $this->inputNotebookFile;
+  }
+  public function setLabels($labels)
+  {
+    $this->labels = $labels;
+  }
+  public function getLabels()
+  {
+    return $this->labels;
+  }
+  public function setMasterType($masterType)
+  {
+    $this->masterType = $masterType;
+  }
+  public function getMasterType()
+  {
+    return $this->masterType;
+  }
+  public function setOutputNotebookFolder($outputNotebookFolder)
+  {
+    $this->outputNotebookFolder = $outputNotebookFolder;
+  }
+  public function getOutputNotebookFolder()
+  {
+    return $this->outputNotebookFolder;
+  }
+  public function setParameters($parameters)
+  {
+    $this->parameters = $parameters;
+  }
+  public function getParameters()
+  {
+    return $this->parameters;
+  }
+  public function setParamsYamlFile($paramsYamlFile)
+  {
+    $this->paramsYamlFile = $paramsYamlFile;
+  }
+  public function getParamsYamlFile()
+  {
+    return $this->paramsYamlFile;
+  }
+  public function setScaleTier($scaleTier)
+  {
+    $this->scaleTier = $scaleTier;
+  }
+  public function getScaleTier()
+  {
+    return $this->scaleTier;
+  }
+  public function setServiceAccount($serviceAccount)
+  {
+    $this->serviceAccount = $serviceAccount;
+  }
+  public function getServiceAccount()
+  {
+    return $this->serviceAccount;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ExecutionTemplate::class, 'Google_Service_AIPlatformNotebooks_ExecutionTemplate');

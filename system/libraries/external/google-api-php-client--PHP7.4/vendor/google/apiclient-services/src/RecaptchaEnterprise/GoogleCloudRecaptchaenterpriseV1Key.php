@@ -1,76 +1,126 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\RecaptchaEnterprise;
+
+class GoogleCloudRecaptchaenterpriseV1Key extends \Google\Model
+{
+  protected $androidSettingsType = GoogleCloudRecaptchaenterpriseV1AndroidKeySettings::class;
+  protected $androidSettingsDataType = '';
+  public $createTime;
+  public $displayName;
+  protected $iosSettingsType = GoogleCloudRecaptchaenterpriseV1IOSKeySettings::class;
+  protected $iosSettingsDataType = '';
+  public $labels;
+  public $name;
+  protected $testingOptionsType = GoogleCloudRecaptchaenterpriseV1TestingOptions::class;
+  protected $testingOptionsDataType = '';
+  protected $webSettingsType = GoogleCloudRecaptchaenterpriseV1WebKeySettings::class;
+  protected $webSettingsDataType = '';
+
+  /**
+   * @param GoogleCloudRecaptchaenterpriseV1AndroidKeySettings
+   */
+  public function setAndroidSettings(GoogleCloudRecaptchaenterpriseV1AndroidKeySettings $androidSettings)
+  {
+    $this->androidSettings = $androidSettings;
+  }
+  /**
+   * @return GoogleCloudRecaptchaenterpriseV1AndroidKeySettings
+   */
+  public function getAndroidSettings()
+  {
+    return $this->androidSettings;
+  }
+  public function setCreateTime($createTime)
+  {
+    $this->createTime = $createTime;
+  }
+  public function getCreateTime()
+  {
+    return $this->createTime;
+  }
+  public function setDisplayName($displayName)
+  {
+    $this->displayName = $displayName;
+  }
+  public function getDisplayName()
+  {
+    return $this->displayName;
+  }
+  /**
+   * @param GoogleCloudRecaptchaenterpriseV1IOSKeySettings
+   */
+  public function setIosSettings(GoogleCloudRecaptchaenterpriseV1IOSKeySettings $iosSettings)
+  {
+    $this->iosSettings = $iosSettings;
+  }
+  /**
+   * @return GoogleCloudRecaptchaenterpriseV1IOSKeySettings
+   */
+  public function getIosSettings()
+  {
+    return $this->iosSettings;
+  }
+  public function setLabels($labels)
+  {
+    $this->labels = $labels;
+  }
+  public function getLabels()
+  {
+    return $this->labels;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  /**
+   * @param GoogleCloudRecaptchaenterpriseV1TestingOptions
+   */
+  public function setTestingOptions(GoogleCloudRecaptchaenterpriseV1TestingOptions $testingOptions)
+  {
+    $this->testingOptions = $testingOptions;
+  }
+  /**
+   * @return GoogleCloudRecaptchaenterpriseV1TestingOptions
+   */
+  public function getTestingOptions()
+  {
+    return $this->testingOptions;
+  }
+  /**
+   * @param GoogleCloudRecaptchaenterpriseV1WebKeySettings
+   */
+  public function setWebSettings(GoogleCloudRecaptchaenterpriseV1WebKeySettings $webSettings)
+  {
+    $this->webSettings = $webSettings;
+  }
+  /**
+   * @return GoogleCloudRecaptchaenterpriseV1WebKeySettings
+   */
+  public function getWebSettings()
+  {
+    return $this->webSettings;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudRecaptchaenterpriseV1Key::class, 'Google_Service_RecaptchaEnterprise_GoogleCloudRecaptchaenterpriseV1Key');

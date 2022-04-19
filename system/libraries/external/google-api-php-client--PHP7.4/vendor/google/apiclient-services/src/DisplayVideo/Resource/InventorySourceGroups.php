@@ -1,69 +1,163 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Nm8il2azcBcXpBjWIXMB
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DisplayVideo\Resource;
+
+use Google\Service\DisplayVideo\DisplayvideoEmpty;
+use Google\Service\DisplayVideo\InventorySourceGroup;
+use Google\Service\DisplayVideo\ListInventorySourceGroupsResponse;
+
+/**
+ * The "inventorySourceGroups" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $displayvideoService = new Google\Service\DisplayVideo(...);
+ *   $inventorySourceGroups = $displayvideoService->inventorySourceGroups;
+ *  </code>
+ */
+class InventorySourceGroups extends \Google\Service\Resource
+{
+  /**
+   * Creates a new inventory source group. Returns the newly created inventory
+   * source group if successful. (inventorySourceGroups.create)
+   *
+   * @param InventorySourceGroup $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string advertiserId The ID of the advertiser that owns the
+   * inventory source group. The parent partner will not have access to this
+   * group.
+   * @opt_param string partnerId The ID of the partner that owns the inventory
+   * source group. Only this partner will have write access to this group. Only
+   * advertisers to which this group is explicitly shared will have read access to
+   * this group.
+   * @return InventorySourceGroup
+   */
+  public function create(InventorySourceGroup $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], InventorySourceGroup::class);
+  }
+  /**
+   * Deletes an inventory source group. (inventorySourceGroups.delete)
+   *
+   * @param string $inventorySourceGroupId Required. The ID of the inventory
+   * source group to delete.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string advertiserId The ID of the advertiser that owns the
+   * inventory source group. The parent partner does not have access to this
+   * group.
+   * @opt_param string partnerId The ID of the partner that owns the inventory
+   * source group. Only this partner has write access to this group.
+   * @return DisplayvideoEmpty
+   */
+  public function delete($inventorySourceGroupId, $optParams = [])
+  {
+    $params = ['inventorySourceGroupId' => $inventorySourceGroupId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], DisplayvideoEmpty::class);
+  }
+  /**
+   * Gets an inventory source group. (inventorySourceGroups.get)
+   *
+   * @param string $inventorySourceGroupId Required. The ID of the inventory
+   * source group to fetch.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string advertiserId The ID of the advertiser that has access to
+   * the inventory source group. If an inventory source group is partner-owned,
+   * only advertisers to which the group is explicitly shared can access the
+   * group.
+   * @opt_param string partnerId The ID of the partner that has access to the
+   * inventory source group. A partner cannot access an advertiser-owned inventory
+   * source group.
+   * @return InventorySourceGroup
+   */
+  public function get($inventorySourceGroupId, $optParams = [])
+  {
+    $params = ['inventorySourceGroupId' => $inventorySourceGroupId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], InventorySourceGroup::class);
+  }
+  /**
+   * Lists inventory source groups that are accessible to the current user. The
+   * order is defined by the order_by parameter.
+   * (inventorySourceGroups.listInventorySourceGroups)
+   *
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string advertiserId The ID of the advertiser that has access to
+   * the inventory source group. If an inventory source group is partner-owned,
+   * only advertisers to which the group is explicitly shared can access the
+   * group.
+   * @opt_param string filter Allows filtering by inventory source group
+   * properties. Supported syntax: * Filter expressions are made up of one or more
+   * restrictions. * Restrictions can be combined by the logical operator `OR`. *
+   * A restriction has the form of `{field} {operator} {value}`. * The operator
+   * must be `EQUALS (=)`. * Supported fields: - `inventorySourceGroupId` The
+   * length of this field should be no more than 500 characters.
+   * @opt_param string orderBy Field by which to sort the list. Acceptable values
+   * are: * `displayName` (default) * `inventorySourceGroupId` The default sorting
+   * order is ascending. To specify descending order for a field, a suffix "desc"
+   * should be added to the field name. For example, `displayName desc`.
+   * @opt_param int pageSize Requested page size. Must be between `1` and `100`.
+   * If unspecified will default to `100`.
+   * @opt_param string pageToken A token identifying a page of results the server
+   * should return. Typically, this is the value of next_page_token returned from
+   * the previous call to `ListInventorySources` method. If not specified, the
+   * first page of results will be returned.
+   * @opt_param string partnerId The ID of the partner that has access to the
+   * inventory source group. A partner cannot access advertiser-owned inventory
+   * source groups.
+   * @return ListInventorySourceGroupsResponse
+   */
+  public function listInventorySourceGroups($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListInventorySourceGroupsResponse::class);
+  }
+  /**
+   * Updates an inventory source group. Returns the updated inventory source group
+   * if successful. (inventorySourceGroups.patch)
+   *
+   * @param string $inventorySourceGroupId Output only. The unique ID of the
+   * inventory source group. Assigned by the system.
+   * @param InventorySourceGroup $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string advertiserId The ID of the advertiser that owns the
+   * inventory source group. The parent partner does not have access to this
+   * group.
+   * @opt_param string partnerId The ID of the partner that owns the inventory
+   * source group. Only this partner has write access to this group.
+   * @opt_param string updateMask Required. The mask to control which fields to
+   * update.
+   * @return InventorySourceGroup
+   */
+  public function patch($inventorySourceGroupId, InventorySourceGroup $postBody, $optParams = [])
+  {
+    $params = ['inventorySourceGroupId' => $inventorySourceGroupId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], InventorySourceGroup::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(InventorySourceGroups::class, 'Google_Service_DisplayVideo_Resource_InventorySourceGroups');

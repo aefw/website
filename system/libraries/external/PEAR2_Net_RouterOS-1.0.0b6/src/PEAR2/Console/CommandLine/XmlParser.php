@@ -1,148 +1,329 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-kidufEtNVTy7IgaPC3f3
+<?php
+
+/* vim: set expandtab tabstop=4 shiftwidth=4 softtabstop=4: */
+
+/**
+ * This file is part of the PEAR2\Console\CommandLine package.
+ *
+ * PHP version 5
+ *
+ * LICENSE: This source file is subject to the MIT license that is available
+ * through the world-wide-web at the following URI:
+ * http://opensource.org/licenses/mit-license.php
+ *
+ * @category  Console
+ * @package   PEAR2\Console\CommandLine
+ * @author    David JEAN LOUIS <izimobil@gmail.com>
+ * @copyright 2007-2009 David JEAN LOUIS
+ * @license   http://opensource.org/licenses/mit-license.php MIT License
+ * @version   0.2.3
+ * @link      http://pear2.php.net/PEAR2_Console_CommandLine
+ * @since     File available since release 0.1.0
+ *
+ * @filesource
+ */
+
+namespace PEAR2\Console\CommandLine;
+
+use PEAR2\Console\CommandLine;
+use DOMDocument;
+use DOMNode;
+use Phar;
+
+/**
+ * Parser for command line xml definitions.
+ *
+ * @category  Console
+ * @package   PEAR2\Console\CommandLine
+ * @author    David JEAN LOUIS <izimobil@gmail.com>
+ * @copyright 2007-2009 David JEAN LOUIS
+ * @license   http://opensource.org/licenses/mit-license.php MIT License
+ * @link      http://pear2.php.net/PEAR2_Console_CommandLine
+ * @since     Class available since release 0.1.0
+ */
+class XmlParser
+{
+    // parse() {{{
+
+    /**
+     * Parses the given xml definition file and returns a
+     * PEAR2\Console\CommandLine instance constructed with the xml data.
+     *
+     * @param string $xmlfile The xml file to parse
+     *
+     * @return PEAR2\Console\CommandLine A parser instance
+     */
+    public static function parse($xmlfile)
+    {
+        if (!is_readable($xmlfile)) {
+            CommandLine::triggerError(
+                'invalid_xml_file',
+                E_USER_ERROR,
+                array('{$file}' => $xmlfile)
+            );
+        }
+        $doc = new DOMDocument();
+        $doc->load($xmlfile);
+        self::validate($doc);
+        $nodes = $doc->getElementsByTagName('command');
+        $root  = $nodes->item(0);
+        return self::_parseCommandNode($root, true);
+    }
+
+    // }}}
+    // parseString() {{{
+
+    /**
+     * Parses the given xml definition string and returns a
+     * PEAR2\Console\CommandLine instance constructed with the xml data.
+     *
+     * @param string $xmlstr The xml string to parse
+     *
+     * @return PEAR2\Console\CommandLine A parser instance
+     */
+    public static function parseString($xmlstr)
+    {
+        $doc = new DOMDocument();
+        $doc->loadXml($xmlstr);
+        self::validate($doc);
+        $nodes = $doc->getElementsByTagName('command');
+        $root  = $nodes->item(0);
+        return self::_parseCommandNode($root, true);
+    }
+
+    // }}}
+    // validate() {{{
+
+    /**
+     * Validates the xml definition using Relax NG.
+     *
+     * @param DOMDocument $doc The document to validate
+     *
+     * @return boolean Whether the xml data is valid or not.
+     * @throws PEAR2\Console\CommandLine\Exception
+     *
+     * @todo use exceptions only
+     */
+    public static function validate(DOMDocument $doc)
+    {
+        $paths = array();
+        if (!class_exists('Phar', false) || !Phar::running()) {
+            // Pyrus
+            $paths[]
+                = 'D:\Vasko\WEB\PHP\_shared\PEAR2\data/pear2.php.net/PEAR2_Console_CommandLine/xmlschema.rng';
+            // PEAR
+            $pearDataDirEnv = getenv('PHP_PEAR_DATA_DIR');
+            if ($pearDataDirEnv) {
+                $paths[] = $pearDataDirEnv .
+                    '/PEAR2_Console_CommandLine/xmlschema.rng';
+            }
+            $paths[] = 'D:\Vasko\WEB\PHP\_shared\PEAR2\data/PEAR2_Console_CommandLine/xmlschema.rng';
+        }
+        $pkgData  = __DIR__ . '/../../../../data/';
+        // PHAR dep
+        $paths[] = $pkgData .
+            'pear2.php.net/PEAR2_Console_CommandLine/xmlschema.rng';
+        $paths[] = $pkgData . 'PEAR2_Console_CommandLine/xmlschema.rng';
+        $paths[] = $pkgData . 'pear2/console_commandline/xmlschema.rng';
+        // Git/Composer
+        $paths[] = $pkgData . 'xmlschema.rng';
+        $paths[] = 'xmlschema.rng';
+
+        foreach ($paths as $path) {
+            if (is_readable($path)) {
+                return $doc->relaxNGValidate($path);
+            }
+        }
+        CommandLine::triggerError(
+            'invalid_xml_file',
+            E_USER_ERROR,
+            array('{$file}' => $path)
+        );
+    }
+
+    // }}}
+    // _parseCommandNode() {{{
+
+    /**
+     * Parses the root command node or a command node and returns the
+     * constructed PEAR2\Console\CommandLine or PEAR2\Console\CommandLine_Command
+     * instance.
+     *
+     * @param DOMNode $node       The node to parse
+     * @param bool    $isRootNode Whether it is a root node or not
+     *
+     * @return CommandLine|CommandLine\Command An instance of CommandLine for
+     *     root node, CommandLine\Command otherwise.
+     */
+    private static function _parseCommandNode(DOMNode $node, $isRootNode = false)
+    {
+        if ($isRootNode) {
+            $obj = new CommandLine();
+        } else {
+            $obj = new CommandLine\Command();
+        }
+        foreach ($node->childNodes as $cNode) {
+            $cNodeName = $cNode->nodeName;
+            switch ($cNodeName) {
+            case 'name':
+            case 'description':
+            case 'version':
+                $obj->$cNodeName = trim($cNode->nodeValue);
+                break;
+            case 'add_help_option':
+            case 'add_version_option':
+            case 'force_posix':
+                $obj->$cNodeName = self::_bool(trim($cNode->nodeValue));
+                break;
+            case 'option':
+                $obj->addOption(self::_parseOptionNode($cNode));
+                break;
+            case 'argument':
+                $obj->addArgument(self::_parseArgumentNode($cNode));
+                break;
+            case 'command':
+                $obj->addCommand(self::_parseCommandNode($cNode));
+                break;
+            case 'aliases':
+                if (!$isRootNode) {
+                    foreach ($cNode->childNodes as $subChildNode) {
+                        if ($subChildNode->nodeName == 'alias') {
+                            $obj->aliases[] = trim($subChildNode->nodeValue);
+                        }
+                    }
+                }
+                break;
+            case 'messages':
+                $obj->messages = self::_messages($cNode);
+                break;
+            default:
+                break;
+            }
+        }
+        return $obj;
+    }
+
+    // }}}
+    // _parseOptionNode() {{{
+
+    /**
+     * Parses an option node and returns the constructed
+     * PEAR2\Console\CommandLine_Option instance.
+     *
+     * @param DOMNode $node The node to parse
+     *
+     * @return PEAR2\Console\CommandLine\Option The built option
+     */
+    private static function _parseOptionNode(DOMNode $node)
+    {
+        $obj = new CommandLine\Option($node->getAttribute('name'));
+        foreach ($node->childNodes as $cNode) {
+            $cNodeName = $cNode->nodeName;
+            switch ($cNodeName) {
+            case 'choices':
+                foreach ($cNode->childNodes as $subChildNode) {
+                    if ($subChildNode->nodeName == 'choice') {
+                        $obj->choices[] = trim($subChildNode->nodeValue);
+                    }
+                }
+                break;
+            case 'messages':
+                $obj->messages = self::_messages($cNode);
+                break;
+            default:
+                if (property_exists($obj, $cNodeName)) {
+                    $obj->$cNodeName = trim($cNode->nodeValue);
+                }
+                break;
+            }
+        }
+        if ($obj->action == 'Password') {
+            $obj->argument_optional = true;
+        }
+        return $obj;
+    }
+
+    // }}}
+    // _parseArgumentNode() {{{
+
+    /**
+     * Parses an argument node and returns the constructed
+     * PEAR2\Console\CommandLine_Argument instance.
+     *
+     * @param DOMNode $node The node to parse
+     *
+     * @return PEAR2\Console\CommandLine\Argument The built argument
+     */
+    private static function _parseArgumentNode(DOMNode $node)
+    {
+        $obj = new CommandLine\Argument($node->getAttribute('name'));
+        foreach ($node->childNodes as $cNode) {
+            $cNodeName = $cNode->nodeName;
+            switch ($cNodeName) {
+            case 'description':
+            case 'help_name':
+            case 'default':
+                $obj->$cNodeName = trim($cNode->nodeValue);
+                break;
+            case 'multiple':
+                $obj->multiple = self::_bool(trim($cNode->nodeValue));
+                break;
+            case 'optional':
+                $obj->optional = self::_bool(trim($cNode->nodeValue));
+                break;
+            case 'messages':
+                $obj->messages = self::_messages($cNode);
+                break;
+            default:
+                break;
+            }
+        }
+        return $obj;
+    }
+
+    // }}}
+    // _bool() {{{
+
+    /**
+     * Returns a boolean according to true/false possible strings.
+     *
+     * @param string $str The string to process
+     *
+     * @return boolean
+     */
+    private static function _bool($str)
+    {
+        return in_array((string)$str, array('true', '1', 'on', 'yes'));
+    }
+
+    // }}}
+    // _messages() {{{
+
+    /**
+     * Returns an array of custom messages for the element
+     *
+     * @param DOMNode $node The messages node to process
+     *
+     * @return array an array of messages
+     *
+     * @see PEAR2\Console\CommandLine::$messages
+     * @see PEAR2\Console\CommandLine_Element::$messages
+     */
+    private static function _messages(DOMNode $node)
+    {
+        $messages = array();
+
+        foreach ($node->childNodes as $cNode) {
+            if ($cNode->nodeType == XML_ELEMENT_NODE) {
+                $name  = $cNode->getAttribute('name');
+                $value = trim($cNode->nodeValue);
+
+                $messages[$name] = $value;
+            }
+        }
+
+        return $messages;
+    }
+
+    // }}}
+}

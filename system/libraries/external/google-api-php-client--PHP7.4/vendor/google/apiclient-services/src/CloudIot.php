@@ -1,79 +1,458 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-+/AqwZRA24My3fsz7e1T8m==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for CloudIot (v1).
+ *
+ * <p>
+ * Registers and manages IoT (Internet of Things) devices that connect to the
+ * Google Cloud Platform.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/iot" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class CloudIot extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+  /** Register and manage devices in the Google Cloud IoT service. */
+  const CLOUDIOT =
+      "https://www.googleapis.com/auth/cloudiot";
+
+  public $projects_locations_registries;
+  public $projects_locations_registries_devices;
+  public $projects_locations_registries_devices_configVersions;
+  public $projects_locations_registries_devices_states;
+  public $projects_locations_registries_groups;
+  public $projects_locations_registries_groups_devices;
+
+  /**
+   * Constructs the internal representation of the CloudIot service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://cloudiot.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'cloudiot';
+
+    $this->projects_locations_registries = new CloudIot\Resource\ProjectsLocationsRegistries(
+        $this,
+        $this->serviceName,
+        'registries',
+        [
+          'methods' => [
+            'bindDeviceToGateway' => [
+              'path' => 'v1/{+parent}:bindDeviceToGateway',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1/{+parent}/registries',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1/{+resource}:getIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/registries',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'unbindDeviceFromGateway' => [
+              'path' => 'v1/{+parent}:unbindDeviceFromGateway',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_registries_devices = new CloudIot\Resource\ProjectsLocationsRegistriesDevices(
+        $this,
+        $this->serviceName,
+        'devices',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/devices',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'fieldMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/devices',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'deviceIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'deviceNumIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'fieldMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'gatewayListOptions.associationsDeviceId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'gatewayListOptions.associationsGatewayId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'gatewayListOptions.gatewayType' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'modifyCloudToDeviceConfig' => [
+              'path' => 'v1/{+name}:modifyCloudToDeviceConfig',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'sendCommandToDevice' => [
+              'path' => 'v1/{+name}:sendCommandToDevice',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_registries_devices_configVersions = new CloudIot\Resource\ProjectsLocationsRegistriesDevicesConfigVersions(
+        $this,
+        $this->serviceName,
+        'configVersions',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/{+name}/configVersions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'numVersions' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_registries_devices_states = new CloudIot\Resource\ProjectsLocationsRegistriesDevicesStates(
+        $this,
+        $this->serviceName,
+        'states',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/{+name}/states',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'numStates' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_registries_groups = new CloudIot\Resource\ProjectsLocationsRegistriesGroups(
+        $this,
+        $this->serviceName,
+        'groups',
+        [
+          'methods' => [
+            'getIamPolicy' => [
+              'path' => 'v1/{+resource}:getIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_registries_groups_devices = new CloudIot\Resource\ProjectsLocationsRegistriesGroupsDevices(
+        $this,
+        $this->serviceName,
+        'devices',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/{+parent}/devices',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'deviceIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'deviceNumIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'fieldMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'gatewayListOptions.associationsDeviceId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'gatewayListOptions.associationsGatewayId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'gatewayListOptions.gatewayType' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(CloudIot::class, 'Google_Service_CloudIot');

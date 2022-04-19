@@ -1,68 +1,116 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-+2/5Cm==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudNaturalLanguage;
+
+class AnnotateTextResponse extends \Google\Collection
+{
+  protected $collection_key = 'tokens';
+  protected $categoriesType = ClassificationCategory::class;
+  protected $categoriesDataType = 'array';
+  protected $documentSentimentType = Sentiment::class;
+  protected $documentSentimentDataType = '';
+  protected $entitiesType = Entity::class;
+  protected $entitiesDataType = 'array';
+  public $language;
+  protected $sentencesType = Sentence::class;
+  protected $sentencesDataType = 'array';
+  protected $tokensType = Token::class;
+  protected $tokensDataType = 'array';
+
+  /**
+   * @param ClassificationCategory[]
+   */
+  public function setCategories($categories)
+  {
+    $this->categories = $categories;
+  }
+  /**
+   * @return ClassificationCategory[]
+   */
+  public function getCategories()
+  {
+    return $this->categories;
+  }
+  /**
+   * @param Sentiment
+   */
+  public function setDocumentSentiment(Sentiment $documentSentiment)
+  {
+    $this->documentSentiment = $documentSentiment;
+  }
+  /**
+   * @return Sentiment
+   */
+  public function getDocumentSentiment()
+  {
+    return $this->documentSentiment;
+  }
+  /**
+   * @param Entity[]
+   */
+  public function setEntities($entities)
+  {
+    $this->entities = $entities;
+  }
+  /**
+   * @return Entity[]
+   */
+  public function getEntities()
+  {
+    return $this->entities;
+  }
+  public function setLanguage($language)
+  {
+    $this->language = $language;
+  }
+  public function getLanguage()
+  {
+    return $this->language;
+  }
+  /**
+   * @param Sentence[]
+   */
+  public function setSentences($sentences)
+  {
+    $this->sentences = $sentences;
+  }
+  /**
+   * @return Sentence[]
+   */
+  public function getSentences()
+  {
+    return $this->sentences;
+  }
+  /**
+   * @param Token[]
+   */
+  public function setTokens($tokens)
+  {
+    $this->tokens = $tokens;
+  }
+  /**
+   * @return Token[]
+   */
+  public function getTokens()
+  {
+    return $this->tokens;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AnnotateTextResponse::class, 'Google_Service_CloudNaturalLanguage_AnnotateTextResponse');

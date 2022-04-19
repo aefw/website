@@ -1,145 +1,333 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPn5ZkyJorn/h+xikvpEyqTzJ/cqifkqA/ksKkkdHL8lPjdrUXVMvRL/sK/Wv0zAN5wAXYkR1
-u+rooFbG9FpVMP8G6g9sh+KN6yzTlaVVy+m88A7yEDXYefQmMhPeoos2+1NWQ/gCEVpKIgIoSHE4
-hgOhhmKfcC/FEKyQOZ0rnCplGRULsj6MXCoolNllpyRI/iR6I8PPrOVqHFpFRNVtSEsEP2cQOb7T
-2Q90unk3nw0pel34C6o/2orETyMDK77h6/5tn5pWPcbc2nxsDmW6JN+qvEJYS5CkDLI4g2o1fZvA
-1ULLPNtnbaP+q7pJkBYMY5JPZLPw3yE2tVIkATq7VRKfzfLIvqrYP+8Bps9ZDvwGuroHKTNgFb3Z
-bjGKW1op5rAXuqJGTUD7j7DghmKC4XTLkrs8pX3uNihxgvf7Dr6MsdDyC6xvGntwP3AUHv7uPGZt
-voA1QuwFQ+GMX4/pWSQjMrSPC/dXDLAFICQnEnoMxsk4zM3Oh453vEB/rGTSp+K61KPPkJ1BKGVc
-M+H7RJTuyRSRLtGJs9nwv4/zfINh8e8Wbgg0RtUXS2TaLtnaJsUVRLeOckWlVQL64lTJRX2ABrdY
-8xEmYXJyZSB8JFt17ONHA3ItVkv7CuBF7N20S7mUAOlH4UEW2IhLdf+5pawfK9fG6qJJ2p6/bHuC
-dbwubN1mpC8wzIjcTpenz7wXoleh1ixQsuorA2C4tNekokHXzboTJdnHKaPpYzSrpLfk3RmEJxpj
-Hoj0h720aeMBVYE9ETgnbXIi1HIX6LBY3op7iM8QO+0bCn74AK8h3fAzRc8GUj1ryQ58lWY7dvwc
-nFch12/PkGcsOy8FLJ393uZA3ZGlWcPJfbWENFWKzglfn6JQw6RiFxvbIrJrq6ZYT0Bkn5kI88/G
-Sg6nqSpo67EIJf75nsb3fSrUCKBhy09HSa0iydLXHLlYwQx7LOPS8T1K7KXzFdCkaRbL484SgOKk
-pwlzt4tXPQJyC/ftr+Ngdeu2CUImELwNfZa3dQKQS31A5xE9w3KzOdFco/iLs0Gp7JIjatSeodxB
-MnEVg0FMw3ybo6q+XIr01cyv60izg/vCkxMgFlhh/WQjPB6R6mHumgGDvKCgH1j1VXFM3nVYQQg8
-x5MI96q0QjQT8VezqnqoS3rrc491J7vqs3SiPWqmGSGGY+E1rm9RyVre+PChPXCjZc13zzo/Anwt
-Bj7pwQO0rN+cFgLTuvQ3wW4V0z3OpGm33tGXbiV0vkw3qqu2SdOJoKvq4j7bsmuIae6zBWdXhdy0
-yB2SRbcE5mGtLeWLwkDLPJNdaCe7QELnrxuQiOTxXod26coHAYsYLkilJdx9FMFuetqToFepudoa
-YzPe5FsKqtR/gszxUn8mjfw4AxbpHZwEJEXX1rSUxXTWbVDFlUbg7cJxR2ksLIEEAIDTIm6Y+00T
-04SWOWZ5ErKpg5hDsR0+wfSUk7uxQWnCgv72W0544GCBhVWu192dlGyu3bufuajccXpUPWhPJ24v
-rDZitFRGuULHo3hwHXGeM4rLn8eBt0Ys0fnq5EKvQhHY4Z+SsAB1ozlp46g19oYoyimjgNfG+gjl
-TIrmqxj0e7O/JCrA9+qA7U/ieerXrPX0BgxCbr+D6PD87x2qfGEuLnLbGfob/v69l4PMyEqqRQUg
-jY0jVRQyaHOW+Lg7HHVlhT8qJ++COeQbZuTOUq6uxroRyO2a7PA/nzXZGe9CytWJxr8RtZkAZoN/
-Ma0jxiNfIXhPmFOWEn10zTNp42CitsRC8JPQ411ON0OAp2VnCJlNp7IqrlUjbJhcJ618QK8igNGJ
-j+dh5r/K1MOOnEtGjwRy86CCPcv+w9jH7eOzjq3i8kuIiT2GGskHOqjOVjFfb23m7GfCxzkXJspm
-Eq9dYEJiDeVymZ5119rsSM9af4ORFmw2nqzvC/HTihzFKSHf0UFy0yP5zbvvOTX+Bt7b8uU3Y+MB
-Go8WrmXsIjf22xoJeiZ3tlqr4obvXShSfusBIc5hExkl+uI8iRNyYpU81KkDXkpyJ7cXWoywf/CU
-Wv6g9WbhTbE1iiPOTr9GgaBv9tJXilj8qsEb7/w9sAAowIQfXehE/BTwNdQjBQwjbVHSxinvV3I+
-PAnbxUTvQ9xeXjCGJS22hOjEOEtkQ/iboJeglOce8zSIXFIsnd3sX9efdy+1nrvauMt3jDbFG/N+
-TnA4kmK8K375RrYW/i4Sv96aKKZ+Laj/ofJBW2Hg8l7t7a5ssoHNclfj9GpzTz1AgFYFnJXQtOy+
-q88UxrULRf/ls9wnX7dFaDmSL6/dnHPkRhjgLDjrnqfrTNg2zBLTpWliWslwGXi975FTMedwhLIZ
-wNy76TuixKlLYnkzI/PIs7tZWWPdmrSkjgpaLUHr6+cFbPjb3LG9V+FON8fhZKl/ou5mTY2HRx5J
-/33k8HNcFopTB+ckfbk7FhYavM9w/M4C6V8vtdDgdoGoTAA+qZHDSFKzfYLYCVR8rggS1evR998R
-01LKshkfrrX6MmDeGFk1dV6PjUZb7t7DTzfW9ryoAq8lvcgUyDX8gaYmCqFQ7UTh1m+KNkXyfgPu
-h1J9Ay/1PkJKuI2VoCKOlDPgjyErzY3iE+GL5eiRsSEArAcAZAsShK1N0P14VapfftR0ajZIMcvs
-XFG/a/M1EoYPEc6Zle4jWGR7QxybvbB0OA02/z78LEM6DrUun63jruQqbVvwHHEs5C+gv/7IfxuD
-aSe+THB5WI+sr0cVivz9PB0RD7TepQM80tKIIxXp+rcqHgXfXkWtdma1DLSPfW3tkbHja807x//F
-RZdjB6zwHycOjWecMRgEErlpAG9Xu6a9L6f5+rONO5GGhN88LeoVqqdR5+GlPV/XyQ76hg1yZ6Hs
-Cd75i31Vgo2OTPQ0XD7KGw5fFvc1jidcRfGUN7MaZhP6cIbp7cCOgbxiJrMR0Pmpas3/EM/7Hv1Y
-a6aT89ur/oTt2Xg9HHs6fzgH/5mhIlHOPOTCtIXyQIj4ncNcpfGOimAuPg6kMGefIK70b4I7AVve
-b3ulBDbfWCKD0yrbSAzTgRBqcaw4MTwYn3fVgIsyLeYSMYe8olbCoGiVuJQAQXq8rhO39mltCuqj
-crbJo2yx569Qy870yaQkByDGY4RK5UpWevl9QD9Lmk6FcQN7XFB7o50zV6bOy7evCuuMwHMRrkSG
-xoeIDuB3lSN9tXo/MvOY0I38RvVUzaHw6dhLm3Ez06F/du//QLYusQKGftN+M5SOHoRQqj0/fLeD
-P9u23M1YWAZ/hK10caKTewW9JrDtmD2Tg7GanbnAzsUZqiR6uyO5ZzgTZHKsNUrP4sZnpNDGWida
-rhlizAQ8eIdI9j4Z7CGWpIpqbE0s6db/P2xwIYVZG+XXqQv1it+uUncHYKXi33LLAdtNo78TfMnW
-hC+p9hFeEORM7xRFQQ5naat38jmAue0mV9OuOmK5npS8UYjxfau6ZQioffTs5hq+bSJ2YJtVa0LM
-ash6WwwEE1jlG9nL8QKajy1RNyZmophMaMG9pPdKT8YKuaprh+qkkuVcFUyMoED7RHWCum7bG9Dy
-REUO2bsqDQRB+x95l6GswP6sslvXonws7mSBfvVCqXhVJE2rK9PdT1TxdYWCYo9ZWwfCppT6qsHf
-0wbpZOWxYCsPVvckOh6AohijWE1vM0CNmCsDvAyen68Yxf3zcnDcaalEJ/Cnzydqv5d9IZz7bRKS
-KtuGT2YXr+YmfIIrPkl2AmnLKo7yD4AVUMI2IYEJLQLEAAJaFrmCwN0h52DbPes6DLM2hco/PiK8
-jqJe7N9ASw491MvM/vX0RI+/rhG6ivCbOOkiMp6qDXpOdhVnW7gC83Eiaq+Pzv+vTHYEQBlE9X2P
-XA5RvNf/E4SAPR/xr8Q1Jqtg4aKcoP7EEzSKqAjU7wEV86ru6Tvl3OpOMr7ek8zQ66MwbRVPKpeQ
-WD2cDCRUieLf0G5nWOSnZZ1kTSeA9segkpeYH0MTaOKUrV55x8Asn2j5+s4cnLt9+GmWFG6qEmbg
-jbQ3pwiBz0MCsIDiGkKe0RvtjrNY/VC2wvDQbzhqTYBWkaMHmqvqfL8v8hz1nSt0RRwehB1ZjtlE
-HYx79jXF6TH3vpCwXtB4ZcgOOCwciaplumR3JGF3aa45HvVhsxbAQC1OaDfP/uJehmORNxRw0rIc
-KzAsYig937flDTgSY8TU9piMXf7/Ecb4yXtvp66J18R6uZiLGEmRhePz/mj+jJTuja4Nttqb/OBS
-YMDDMUyvSBFWpGiUV6BpB04a+K0FNdRSlwZwk9YcB1rymJw4HGSl2cBOu0abSzUJRXkbxaO2OT/U
-Pr7dMbqwIb4bL/2BUxSJGwuoTK55IdbqIoxkJNWdfRsDEoZYjcq0EoIYI8dg6yRi2h0NrnybqLgo
-R+Gl6y4WyFUv7xsgNQ2SWe2iTecnpVjRUQPLbw0D4cj7gdk/Cb8xRjgg7dnX8RFmR5LpmAvAikc2
-UaZmvCuF+2tjWMV8doGU+pd/oKx7ICDC0ZgjVvz76Ua6IQOgebXwnefUwvKKSqpY8GgRRd3dY4fg
-KCsW79/DgGcfUxy0RIGAAAu6/m4f9ik4WxR8h8lX8/NWmr12hFUGjf3+zq1sAe3bxlXTC5Ycg9BV
-+NoH4HdFoPhMlWIVdyNd59lIuducGsAMnkzkEtS5bQn3Hqus75cmn59zJGunsnrhCbnWShKqq/FN
-pk9d79bFqAP04oQP7o/dV4t9Q99sV6VqUVQCPb9trxM8PAaRAvh4yjcJNQikWL4X6YOx7oCOv8UP
-906ls166iMCXL4F67feYErr2LYSz+7jde9E6fvKEKSLk9hPzRVQNbZK937Gp2Gr3kbWnlGEFUWaB
-KZlDYP0RyPghdnViMSR1lnhPnr0L4fh4DNROegE6audX5i7/NQixRdMaeHS0yCyuC9IR2uqOHEbl
-RRlGDSuo8U0AcrgnRThWusSHmOcLFPQ6xE2BEIEaDF7gamJHHbX7xC6WlK2XWlrGYvzKC6ge1f/w
-YgWupI9+rJJUq7aWFjUnUgVOl9bRLns/pkrQ1YctX8T6+qmNV5sG/vR2o2vXPmYAOLMfAtKr+t2d
-hnMU31tXqSdL1Lhf6uO6Stu3/xaUfTmOBXfaqMWI0fngq7kenQ72CDON0vGKAzCZQQowZu4cOdu3
-tKkvcLdxBukGNBL6NOn1idboF+vHDEh5S2mlulZxK6m7ndDH6fGTZELkdrHSen4Q+DdAjoLFuE0U
-6QEL9XvlVWzgK9SBwPY8XSIHht8RNXfbMSw8JO099lsZ6mBzu1/kRMGCzNcoRKeAaeHeG7z/904+
-bQtQenJHoMJnDAeQfTqng+ZDqlpBEtU1KDG1AtH3oBPu3MMWefEuIbjiX3Ia9fDZkJ2y/u6tqXRU
-fP68915jyLtKOERV7HMKZ/C8QKJJtYWHPKoVCJyNtz5tjWGICJOQ3y+VJ7I09nRei/fva7RVvQuz
-rH6mqRFbEZzRVOAssRZ4ZDBMIBfVRBzohWAW59cZHtHTP+3Hz7rPTw6/z/zlwKFEdVYl0zne3o0B
-XcqnzURpK5P59RCHFPpKjv1qyokIDEHFTGZ1u2RDCYbgLsh5t3N7Ee6t1kYk0dmpxrdFfeqiOiqu
-SSSDWQQSNAwihlE1Dl2ih+wuRKyhq9hd4gaGyeB0uh38JDpR3Ua6jslU8uBIGOH5w95KtKoBgvnp
-RxzTQF4ArpwslbgaZgLL8Xc9tA4gaFXsS1Q8LmR5CbnQouHQPeEElaRkeuhJ8QtfTiEEwFztQ5Bh
-ncv4t8XN0IVmGrxlXFYg3AxJzYbMY3bL/pyCGsgPewFHiEbc1C15gdE2qJc8wFtwcDXZFqxxmVQ/
-/CygXGxQOzItRfZU0eFI/qbhyiRrtZG13maHoWKTIEDrGCkCm1hVS63ipdHyNTrKkxsfYBRk1kGp
-d3ikihZQNtmSuZbZb77kAJE9V+Oik5LnkjYe5vgUDMOqD+w1JFctYHENuwCGky/vg8JOYlYGyxER
-wfJB7OuSgQ3LmiVeoB/URfv7oXig2KaIMxla5W/1phEhnUQ2kas7yPwOZ865NBJSSbDTP4z2MvC5
-8WJaODq4Uc/jDSXTR1lauuMnsCasER2Yb4HC6fo1SL4kHP8Gy08w58DopZKtErsCFOW+c6Ph8KTW
-Qa7BjvDIyATgve2cBHqNd7sKSoUMsrVLZId25/EvPR4faXAXpeYzFiThN8tBMXMcl115k2P88tjm
-gv458TGteCJVq8mZLeluSz0BLv4V2I1Pxdna9nNFfs7Kj7H9iMXTbXGBjPp+fQ/zApJvTpMq0aCh
-e/hNq66hH7lXOMqhASaBaQzzeRe81on0tGljE6KSVucHWdXV8ZXMR/Q7WmjugFTWwEpinW3SD+1h
-OeyCUyXPc5chfy96guJvLrk7fJuEEO94nsTJajrKVojm7LTtX0G0w4x1f2In9VxcSaHvPj0Uz5Ft
-5nNSQz4zI9kcHpdC+yFFOeZ8+gOPIvW7GjkmEJcRftVJthIIUw6Qkn+NwRclxv9yIO8LSmf6djyE
-PozHTn3Y6zHixk78xypkiRMZGsBBcbbF3PVVjdm/UQpwNJeis7gIt07pd1R/k5smuKxOwVVIXoJh
-RgZeKoSIE3lbxbt2Ec9b+UpgHkHPoaz4mtfE7gboQCHwgHDtaI7p98G7VQAS8AMeOC/EGdJ3I44n
-lfXYDAQ+e0OH1g/OEsGE8h2QjBkY3oljsIqkVopxeqD3PLJXiIGAp5fbB+Wh6YMXBN8O0FT7UtmC
-CsI2sXpwLvHXGXrkvvGwrE5xeBfg9FoEXNxOdYtHB5Vbm4wwj6QPSOKHsZ/InikNqhIoEMTN8DrD
-8u/jnbbPI139vOLR7etXDWoLxGIWxNi494VJz7NAHO1WP53FOeQWjyBUXpLEZQzG28auwFDQp02f
-uzu+/XbDMfCfGogBOFTZ4xCpol9DTDi/b8uu1xbsmyGU7a+ccoo8YGTBUWXY6LhJBX7G6FBpIEhZ
-oTFoyldhgMnU/aRBxjS4rQeo5MEKw+dP764d7GoMyG/6pRxh+AyLpp/BhG2WJTFdclkO3FZLZccI
-yp0UxSlzt+TGDOhmKCBEKeTJeazg5C7kbAcpZrpyfvEELt+poCNzjkYb9jteMZSm/f7SRjqbbCCs
-2nxeJiYjyB4QORa3U+SGXkKhGFY8PUAZnfDn2qjkiYVWJySo59QTSx3BtHFZ1flPyxAl7mmb6pzG
-cx3gy/o+QHhC8yHLfphkZPFKJ6If58NNu5q13ivCVRz5Sao3l8osu9TXjxDgmhyx3Xfir76oxkiF
-vIiXi2Eycpu/Sd8Dsg6B86Zq9FBKMQIAB9QIwFfcjwkmwrgRTtMhsVozUVovmzy3YnlyMcD2ogm3
-lUgPuucfDyx+dR3HwDp1JxSOrFlUS1F6hJkVmBdCHscgERKJob6NSZFwwLkRw6XAWyMXCSOoT9zK
-rqS5djcr7p2XMvzxONsEOP1FPxGk39IO/wrKf4u3eyLvnqXYCluRnZcBtu/MCBtS8GbOBR4C6Izt
-Kk8o2jn6+301yUHeJP+k9n7nIFLWQUdq+EETABMSEPJC67ZpJHEGplFYjqzDPrueozNlTB1rEjzR
-4OV2bkgwd5EQApRCtRbUnPtX9Wlyiq9UTLzzmWNcv6GGv3gWApJOyC1gycH3xIfHgfO0TUOjtNU9
-/iApu5y49gUEeNU1slxCoYCtbfRktyRf9wwlnC3S68Zo2ONm7MKhmJcQk88NBVu7ix+cPOh+HJI8
-2jPyKRnEhNgUICX6XV/pIbIwciLNKFxA0hb2DYrdRUW0Q1H1HyYVhdU1NLEB0dG6TNDhIb3azWNF
-9Ydw91WzYhZ4mYb1GijbX5B/0djkudyQdjUCfeKFtdSTJ/ZbdeByt3JjNnJx4BC31RSE2n99LXmE
-Yz0USeL4c76ci/lcfr6qUfnJ/PmPTNmPbbvL3QFdtQfjr27ypVpx8MkoiPJTVQA4ad4fWBrpXFRD
-0FynLxFt+WhZNo+A24DMG5YYvn2Up8CStOqh74p4kOgRHEvs0vnT6YlaYtFT8QLARyPXkVj0k8kD
-4AXaDb4JTOjDFsLSNQ3RufqY3iPea9SiJsOOYktzxnM6YW1WpsQKaGTLb5Zt/IoQVUQaiqou41ko
-w4rIitQ2NspUnBa03s5JxerZMhRAeDvIulmKPU/JqODLXIZz/ojvuVVnpiNEBOQ4aZvQCXfadBdt
-lWoe8phV33a7VrlycoeIUHYuIiDxQKl0uvQnM4/5o5gpqTdBrWcgMFQ50uPKh6dgfyOYDye0EW3a
-qyRuxJ3YN8ZaEX+dthlFSuYE7eBGhjOfL++7fsCOgMSrzQOLhIloHboRQ4TNg9WFg6pVmD7cIC58
-BqTnwPCrKIFRkqjrmhfGvd2AMXj3QPazREEtkurs81XTonjS3WhqGvndzB+HSoZi7Y+UdjBgX8JT
-5FNOBkXT/AnEXrmWFs7CJkrtfwH1nrLM27gWzWB8Dq2DjvLR3uapmocTbWAt8jrHfotsbKw2cJ9b
-9YmZDWXxQ4165Wu2ODhRTxVnbCIbFh+pcOSGMvAOR71LB50BZ87RlcWgARlaYloF8DfL1d91XPmS
-uktjVU/CfpkbNTUYVWxy3lgCBt2UL9l1aLy6y6IglKEyBkhDj4voDtimpN5Ost1V/iW0yCLpc1U2
-x1/Ki2d/CnugE/8YPKc2iQsFsf/5RnyXt+QTq8uCaO8jPyTHutmuuR3iMyhjbWukAVcsEPpG/jFW
-/FOiV0G0LrHy2k8VJkxxcslb/dYR1Kxi/rS56xis5qDMJYVjn9bWIuZ6ObzmkWQAb8eLvBKIbegK
-SwMpBvYahe6M5htB9l1EGO7at81whXIriWG83JCNFskax3TfPtfmuQrcdMi5kO2XZ8iC4gh+v0z2
-OlOjE9XuRJT08HuGG5vuv11XvkvVfCpVkLj39xwLN4tIly3/S+cFP7f6tiPis97jo+vNgYM2pyu0
-oIv8l7hLkZY5sLbvCyuhLhNDH7Xu8VdsYOc2kC2oowKwIWL/y5ovsufF4fg0NYPCyADhJkCOU8Vs
-cx8h1GAI+JCbTTWezMe+685ED4RW8KQMM2wX86XkT0a6tHjxcftXEf3Bjsw+nnxrsKg7mqWWjJTb
-Sp/A0Nk0rkW9p5lrytRMcK5e7jDkv42XC/nFC9ucpAV2OQZVqNs5Ns6sdVgIwR5UxI0vZ7A7vjSe
-Z3yRfHoSZ++XV/DkITglqujQRko2OuPdgMokaX0E7ZDvE6w1Q7QElpErteicVhm0Ns+PnUjwDjYo
-N1+XueuMEpzL2RDIdNRxjySwGbh4Tt3gedugRq/BXLZA4h3P5NyOJ3Nor1gMQUbDkWZOWjsJgHeI
-k+rFhgeehEIv6Av1oOrFlN/xca3rIGemft+Q8Zfg1Aw6UhQIGpsLgdr8KACN2K6hZRSj1NKVNuSc
-qkM7HorKLOAXjxPrzlewC7HHdB3+aXfggzryyG7A9G8gk3AeeRXiOR4pUjM1Ylx7pFUiIjRimGb1
-RnmeYZcFoSKY+Q87A9vUA+mfLTZPwqg6UbelAiyGucM/un7/ES/qBROpIbt7SffGzCFBAEbtnZHF
-6Pyp4eglalRYb1kVqSFZC7URDlmIHLNuECLJuFPexLHyE8+sDK4CZKH9L/TbLKhTBqEmAVph9Z+2
-dkSNH2Ec/+VJB9M9nMw5eyJKXBnB5rfPyf3On73iBxz9r5sh1ciUvVT7LDQ60oJ/Ex9cJiDBPWM6
-pz322bhjAcgW2FjBpyhIbyVg89gbrNbFxGIYYLCPfek38yfiTvQHbAR50lrCPRJow9gYx+NB+i5z
-/t1Epi64p12riq8X3PkzrZklQP3Lm/0oZYfJDtL6VViaUT4w48puB/fGEHP0ZXmYb86dwlqtCus6
-Dbyx11/qBwmQTlDfX0DoOqpc4nWhKzfUR6+yV4xabVc017U9mjWgWiwJVASCzl0ociCEGe7G55Ci
-I/iHsUlO8IUQOtus5h3xOhSZyf5tJ/+2tkZhCTg8PO7mBygFW/QeeYjU4qtnIfVQ8JuJTAI0rdjO
-vm8VSa/b8WJph4oaC0SCPadGT0msQf35VKQROjbpLc6K+3do/UTjR5xqCOz0yhDnQes872EGcIfa
-Mhdd5uOvVIlLxT+3wpA4WILbtmU9OIjkox8PjqZnqYNd0DsAZQYoZ8JpCGsxalRL5l3SJZ5mqJ0O
-idKfz5C3vFukgJAttCZ1l+BdqbLpg5Bx3m4i6LP9W9Gx/zznZgJKrf6QWKISk4ykkWFn7H6To4nn
-G9FJQyA5Ay9Ea+GhMUyAk4kgr15dDGa+jQl3bWlwJDmxnCNcXqDxPbCM1Y4MerfC7BOaiamKpUMt
-Q0o27FtRwePJWkIEvaljm0OdKv6U2e59XKrpLu2y99Wb4Iw7KjkU5TCCKJCl2kasQZfTFSgshxdU
-cf4XwYgAbqtoh6BgtEsn4TSxBl08PztCMTCbC7R5QPUtl4YSBEpqSzZahFzs4BLLrPgTWXc4hIAh
-AkwY2G==
+<?php
+/*
+ * Copyright 2015 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+namespace Google\Auth\Credentials;
+
+use Google\Auth\CredentialsLoader;
+use Google\Auth\GetQuotaProjectInterface;
+use Google\Auth\OAuth2;
+use Google\Auth\ProjectIdProviderInterface;
+use Google\Auth\ServiceAccountSignerTrait;
+use Google\Auth\SignBlobInterface;
+use InvalidArgumentException;
+
+/**
+ * ServiceAccountCredentials supports authorization using a Google service
+ * account.
+ *
+ * (cf https://developers.google.com/accounts/docs/OAuth2ServiceAccount)
+ *
+ * It's initialized using the json key file that's downloadable from developer
+ * console, which should contain a private_key and client_email fields that it
+ * uses.
+ *
+ * Use it with AuthTokenMiddleware to authorize http requests:
+ *
+ *   use Google\Auth\Credentials\ServiceAccountCredentials;
+ *   use Google\Auth\Middleware\AuthTokenMiddleware;
+ *   use GuzzleHttp\Client;
+ *   use GuzzleHttp\HandlerStack;
+ *
+ *   $sa = new ServiceAccountCredentials(
+ *       'https://www.googleapis.com/auth/taskqueue',
+ *       '/path/to/your/json/key_file.json'
+ *   );
+ *   $middleware = new AuthTokenMiddleware($sa);
+ *   $stack = HandlerStack::create();
+ *   $stack->push($middleware);
+ *
+ *   $client = new Client([
+ *       'handler' => $stack,
+ *       'base_uri' => 'https://www.googleapis.com/taskqueue/v1beta2/projects/',
+ *       'auth' => 'google_auth' // authorize all requests
+ *   ]);
+ *
+ *   $res = $client->get('myproject/taskqueues/myqueue');
+ */
+class ServiceAccountCredentials extends CredentialsLoader implements
+    GetQuotaProjectInterface,
+    SignBlobInterface,
+    ProjectIdProviderInterface
+{
+    use ServiceAccountSignerTrait;
+
+    /**
+     * The OAuth2 instance used to conduct authorization.
+     *
+     * @var OAuth2
+     */
+    protected $auth;
+
+    /**
+     * The quota project associated with the JSON credentials
+     *
+     * @var string
+     */
+    protected $quotaProject;
+
+    /*
+     * @var string|null
+     */
+    protected $projectId;
+
+    /*
+     * @var array|null
+     */
+    private $lastReceivedJwtAccessToken;
+
+    /*
+     * @var bool
+     */
+    private $useJwtAccessWithScope = false;
+
+    /*
+     * @var ServiceAccountJwtAccessCredentials|null
+     */
+    private $jwtAccessCredentials;
+
+    /**
+     * Create a new ServiceAccountCredentials.
+     *
+     * @param string|array $scope the scope of the access request, expressed
+     *   either as an Array or as a space-delimited String.
+     * @param string|array $jsonKey JSON credential file path or JSON credentials
+     *   as an associative array
+     * @param string $sub an email address account to impersonate, in situations when
+     *   the service account has been delegated domain wide access.
+     * @param string $targetAudience The audience for the ID token.
+     */
+    public function __construct(
+        $scope,
+        $jsonKey,
+        $sub = null,
+        $targetAudience = null
+    ) {
+        if (is_string($jsonKey)) {
+            if (!file_exists($jsonKey)) {
+                throw new \InvalidArgumentException('file does not exist');
+            }
+            $jsonKeyStream = file_get_contents($jsonKey);
+            if (!$jsonKey = json_decode($jsonKeyStream, true)) {
+                throw new \LogicException('invalid json for auth config');
+            }
+        }
+        if (!array_key_exists('client_email', $jsonKey)) {
+            throw new \InvalidArgumentException(
+                'json key is missing the client_email field'
+            );
+        }
+        if (!array_key_exists('private_key', $jsonKey)) {
+            throw new \InvalidArgumentException(
+                'json key is missing the private_key field'
+            );
+        }
+        if (array_key_exists('quota_project_id', $jsonKey)) {
+            $this->quotaProject = (string) $jsonKey['quota_project_id'];
+        }
+        if ($scope && $targetAudience) {
+            throw new InvalidArgumentException(
+                'Scope and targetAudience cannot both be supplied'
+            );
+        }
+        $additionalClaims = [];
+        if ($targetAudience) {
+            $additionalClaims = ['target_audience' => $targetAudience];
+        }
+        $this->auth = new OAuth2([
+            'audience' => self::TOKEN_CREDENTIAL_URI,
+            'issuer' => $jsonKey['client_email'],
+            'scope' => $scope,
+            'signingAlgorithm' => 'RS256',
+            'signingKey' => $jsonKey['private_key'],
+            'sub' => $sub,
+            'tokenCredentialUri' => self::TOKEN_CREDENTIAL_URI,
+            'additionalClaims' => $additionalClaims,
+        ]);
+
+        $this->projectId = isset($jsonKey['project_id'])
+            ? $jsonKey['project_id']
+            : null;
+    }
+
+    /**
+     * When called, the ServiceAccountCredentials will use an instance of
+     * ServiceAccountJwtAccessCredentials to fetch (self-sign) an access token
+     * even when only scopes are supplied. Otherwise,
+     * ServiceAccountJwtAccessCredentials is only called when no scopes and an
+     * authUrl (audience) is suppled.
+     */
+    public function useJwtAccessWithScope()
+    {
+        $this->useJwtAccessWithScope = true;
+    }
+
+    /**
+     * @param callable $httpHandler
+     *
+     * @return array A set of auth related metadata, containing the following
+     * keys:
+     *   - access_token (string)
+     *   - expires_in (int)
+     *   - token_type (string)
+     */
+    public function fetchAuthToken(callable $httpHandler = null)
+    {
+        if ($this->useJwtAccessWithScope) {
+            $jwtCreds = $this->createJwtAccessCredentials();
+
+            $accessToken = $jwtCreds->fetchAuthToken($httpHandler);
+
+            if ($lastReceivedToken = $jwtCreds->getLastReceivedToken()) {
+                // Keep self-signed JWTs in memory as the last received token
+                $this->lastReceivedJwtAccessToken = $lastReceivedToken;
+            }
+
+            return $accessToken;
+        }
+        return $this->auth->fetchAuthToken($httpHandler);
+    }
+
+    /**
+     * @return string
+     */
+    public function getCacheKey()
+    {
+        $key = $this->auth->getIssuer() . ':' . $this->auth->getCacheKey();
+        if ($sub = $this->auth->getSub()) {
+            $key .= ':' . $sub;
+        }
+
+        return $key;
+    }
+
+    /**
+     * @return array
+     */
+    public function getLastReceivedToken()
+    {
+        // If self-signed JWTs are being used, fetch the last received token
+        // from memory. Else, fetch it from OAuth2
+        return $this->useSelfSignedJwt()
+            ? $this->lastReceivedJwtAccessToken
+            : $this->auth->getLastReceivedToken();
+    }
+
+    /**
+     * Get the project ID from the service account keyfile.
+     *
+     * Returns null if the project ID does not exist in the keyfile.
+     *
+     * @param callable $httpHandler Not used by this credentials type.
+     * @return string|null
+     */
+    public function getProjectId(callable $httpHandler = null)
+    {
+        return $this->projectId;
+    }
+
+    /**
+     * Updates metadata with the authorization token.
+     *
+     * @param array $metadata metadata hashmap
+     * @param string $authUri optional auth uri
+     * @param callable $httpHandler callback which delivers psr7 request
+     * @return array updated metadata hashmap
+     */
+    public function updateMetadata(
+        $metadata,
+        $authUri = null,
+        callable $httpHandler = null
+    ) {
+        // scope exists. use oauth implementation
+        if (!$this->useSelfSignedJwt()) {
+            return parent::updateMetadata($metadata, $authUri, $httpHandler);
+        }
+
+        $jwtCreds = $this->createJwtAccessCredentials();
+        if ($this->auth->getScope()) {
+            // Prefer user-provided "scope" to "audience"
+            $updatedMetadata = $jwtCreds->updateMetadata($metadata, null, $httpHandler);
+        } else {
+            $updatedMetadata = $jwtCreds->updateMetadata($metadata, $authUri, $httpHandler);
+        }
+
+        if ($lastReceivedToken = $jwtCreds->getLastReceivedToken()) {
+            // Keep self-signed JWTs in memory as the last received token
+            $this->lastReceivedJwtAccessToken = $lastReceivedToken;
+        }
+
+        return $updatedMetadata;
+    }
+
+    private function createJwtAccessCredentials()
+    {
+        if (!$this->jwtAccessCredentials) {
+            // Create credentials for self-signing a JWT (JwtAccess)
+            $credJson = array(
+                'private_key' => $this->auth->getSigningKey(),
+                'client_email' => $this->auth->getIssuer(),
+            );
+            $this->jwtAccessCredentials = new ServiceAccountJwtAccessCredentials(
+                $credJson,
+                $this->auth->getScope()
+            );
+        }
+
+        return $this->jwtAccessCredentials;
+    }
+
+    /**
+     * @param string $sub an email address account to impersonate, in situations when
+     *   the service account has been delegated domain wide access.
+     */
+    public function setSub($sub)
+    {
+        $this->auth->setSub($sub);
+    }
+
+    /**
+     * Get the client name from the keyfile.
+     *
+     * In this case, it returns the keyfile's client_email key.
+     *
+     * @param callable $httpHandler Not used by this credentials type.
+     * @return string
+     */
+    public function getClientName(callable $httpHandler = null)
+    {
+        return $this->auth->getIssuer();
+    }
+
+    /**
+     * Get the quota project used for this API request
+     *
+     * @return string|null
+     */
+    public function getQuotaProject()
+    {
+        return $this->quotaProject;
+    }
+
+    private function useSelfSignedJwt()
+    {
+        // When true, ServiceAccountCredentials will always use JwtAccess
+        if ($this->useJwtAccessWithScope) {
+            return true;
+        }
+        return is_null($this->auth->getScope());
+    }
+}

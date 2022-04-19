@@ -1,97 +1,179 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dfareporting;
+
+class CreativeAssignment extends \Google\Collection
+{
+  protected $collection_key = 'richMediaExitOverrides';
+  public $active;
+  public $applyEventTags;
+  protected $clickThroughUrlType = ClickThroughUrl::class;
+  protected $clickThroughUrlDataType = '';
+  protected $companionCreativeOverridesType = CompanionClickThroughOverride::class;
+  protected $companionCreativeOverridesDataType = 'array';
+  protected $creativeGroupAssignmentsType = CreativeGroupAssignment::class;
+  protected $creativeGroupAssignmentsDataType = 'array';
+  public $creativeId;
+  protected $creativeIdDimensionValueType = DimensionValue::class;
+  protected $creativeIdDimensionValueDataType = '';
+  public $endTime;
+  protected $richMediaExitOverridesType = RichMediaExitOverride::class;
+  protected $richMediaExitOverridesDataType = 'array';
+  public $sequence;
+  public $sslCompliant;
+  public $startTime;
+  public $weight;
+
+  public function setActive($active)
+  {
+    $this->active = $active;
+  }
+  public function getActive()
+  {
+    return $this->active;
+  }
+  public function setApplyEventTags($applyEventTags)
+  {
+    $this->applyEventTags = $applyEventTags;
+  }
+  public function getApplyEventTags()
+  {
+    return $this->applyEventTags;
+  }
+  /**
+   * @param ClickThroughUrl
+   */
+  public function setClickThroughUrl(ClickThroughUrl $clickThroughUrl)
+  {
+    $this->clickThroughUrl = $clickThroughUrl;
+  }
+  /**
+   * @return ClickThroughUrl
+   */
+  public function getClickThroughUrl()
+  {
+    return $this->clickThroughUrl;
+  }
+  /**
+   * @param CompanionClickThroughOverride[]
+   */
+  public function setCompanionCreativeOverrides($companionCreativeOverrides)
+  {
+    $this->companionCreativeOverrides = $companionCreativeOverrides;
+  }
+  /**
+   * @return CompanionClickThroughOverride[]
+   */
+  public function getCompanionCreativeOverrides()
+  {
+    return $this->companionCreativeOverrides;
+  }
+  /**
+   * @param CreativeGroupAssignment[]
+   */
+  public function setCreativeGroupAssignments($creativeGroupAssignments)
+  {
+    $this->creativeGroupAssignments = $creativeGroupAssignments;
+  }
+  /**
+   * @return CreativeGroupAssignment[]
+   */
+  public function getCreativeGroupAssignments()
+  {
+    return $this->creativeGroupAssignments;
+  }
+  public function setCreativeId($creativeId)
+  {
+    $this->creativeId = $creativeId;
+  }
+  public function getCreativeId()
+  {
+    return $this->creativeId;
+  }
+  /**
+   * @param DimensionValue
+   */
+  public function setCreativeIdDimensionValue(DimensionValue $creativeIdDimensionValue)
+  {
+    $this->creativeIdDimensionValue = $creativeIdDimensionValue;
+  }
+  /**
+   * @return DimensionValue
+   */
+  public function getCreativeIdDimensionValue()
+  {
+    return $this->creativeIdDimensionValue;
+  }
+  public function setEndTime($endTime)
+  {
+    $this->endTime = $endTime;
+  }
+  public function getEndTime()
+  {
+    return $this->endTime;
+  }
+  /**
+   * @param RichMediaExitOverride[]
+   */
+  public function setRichMediaExitOverrides($richMediaExitOverrides)
+  {
+    $this->richMediaExitOverrides = $richMediaExitOverrides;
+  }
+  /**
+   * @return RichMediaExitOverride[]
+   */
+  public function getRichMediaExitOverrides()
+  {
+    return $this->richMediaExitOverrides;
+  }
+  public function setSequence($sequence)
+  {
+    $this->sequence = $sequence;
+  }
+  public function getSequence()
+  {
+    return $this->sequence;
+  }
+  public function setSslCompliant($sslCompliant)
+  {
+    $this->sslCompliant = $sslCompliant;
+  }
+  public function getSslCompliant()
+  {
+    return $this->sslCompliant;
+  }
+  public function setStartTime($startTime)
+  {
+    $this->startTime = $startTime;
+  }
+  public function getStartTime()
+  {
+    return $this->startTime;
+  }
+  public function setWeight($weight)
+  {
+    $this->weight = $weight;
+  }
+  public function getWeight()
+  {
+    return $this->weight;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(CreativeAssignment::class, 'Google_Service_Dfareporting_CreativeAssignment');

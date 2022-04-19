@@ -1,69 +1,117 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-0AgkbZB8MlOwuI2WuJ78+Nz/DHc6e+Eu+7JGq0==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudTasks;
+
+class Queue extends \Google\Model
+{
+  protected $appEngineRoutingOverrideType = AppEngineRouting::class;
+  protected $appEngineRoutingOverrideDataType = '';
+  public $name;
+  public $purgeTime;
+  protected $rateLimitsType = RateLimits::class;
+  protected $rateLimitsDataType = '';
+  protected $retryConfigType = RetryConfig::class;
+  protected $retryConfigDataType = '';
+  protected $stackdriverLoggingConfigType = StackdriverLoggingConfig::class;
+  protected $stackdriverLoggingConfigDataType = '';
+  public $state;
+
+  /**
+   * @param AppEngineRouting
+   */
+  public function setAppEngineRoutingOverride(AppEngineRouting $appEngineRoutingOverride)
+  {
+    $this->appEngineRoutingOverride = $appEngineRoutingOverride;
+  }
+  /**
+   * @return AppEngineRouting
+   */
+  public function getAppEngineRoutingOverride()
+  {
+    return $this->appEngineRoutingOverride;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setPurgeTime($purgeTime)
+  {
+    $this->purgeTime = $purgeTime;
+  }
+  public function getPurgeTime()
+  {
+    return $this->purgeTime;
+  }
+  /**
+   * @param RateLimits
+   */
+  public function setRateLimits(RateLimits $rateLimits)
+  {
+    $this->rateLimits = $rateLimits;
+  }
+  /**
+   * @return RateLimits
+   */
+  public function getRateLimits()
+  {
+    return $this->rateLimits;
+  }
+  /**
+   * @param RetryConfig
+   */
+  public function setRetryConfig(RetryConfig $retryConfig)
+  {
+    $this->retryConfig = $retryConfig;
+  }
+  /**
+   * @return RetryConfig
+   */
+  public function getRetryConfig()
+  {
+    return $this->retryConfig;
+  }
+  /**
+   * @param StackdriverLoggingConfig
+   */
+  public function setStackdriverLoggingConfig(StackdriverLoggingConfig $stackdriverLoggingConfig)
+  {
+    $this->stackdriverLoggingConfig = $stackdriverLoggingConfig;
+  }
+  /**
+   * @return StackdriverLoggingConfig
+   */
+  public function getStackdriverLoggingConfig()
+  {
+    return $this->stackdriverLoggingConfig;
+  }
+  public function setState($state)
+  {
+    $this->state = $state;
+  }
+  public function getState()
+  {
+    return $this->state;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Queue::class, 'Google_Service_CloudTasks_Queue');

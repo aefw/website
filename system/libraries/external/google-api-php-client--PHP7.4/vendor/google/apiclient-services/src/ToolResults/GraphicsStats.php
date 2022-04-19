@@ -1,86 +1,142 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-c85VSmO5uEBwHenV+BqD+uIZsq16/G==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ToolResults;
+
+class GraphicsStats extends \Google\Collection
+{
+  protected $collection_key = 'buckets';
+  protected $bucketsType = GraphicsStatsBucket::class;
+  protected $bucketsDataType = 'array';
+  public $highInputLatencyCount;
+  public $jankyFrames;
+  public $missedVsyncCount;
+  public $p50Millis;
+  public $p90Millis;
+  public $p95Millis;
+  public $p99Millis;
+  public $slowBitmapUploadCount;
+  public $slowDrawCount;
+  public $slowUiThreadCount;
+  public $totalFrames;
+
+  /**
+   * @param GraphicsStatsBucket[]
+   */
+  public function setBuckets($buckets)
+  {
+    $this->buckets = $buckets;
+  }
+  /**
+   * @return GraphicsStatsBucket[]
+   */
+  public function getBuckets()
+  {
+    return $this->buckets;
+  }
+  public function setHighInputLatencyCount($highInputLatencyCount)
+  {
+    $this->highInputLatencyCount = $highInputLatencyCount;
+  }
+  public function getHighInputLatencyCount()
+  {
+    return $this->highInputLatencyCount;
+  }
+  public function setJankyFrames($jankyFrames)
+  {
+    $this->jankyFrames = $jankyFrames;
+  }
+  public function getJankyFrames()
+  {
+    return $this->jankyFrames;
+  }
+  public function setMissedVsyncCount($missedVsyncCount)
+  {
+    $this->missedVsyncCount = $missedVsyncCount;
+  }
+  public function getMissedVsyncCount()
+  {
+    return $this->missedVsyncCount;
+  }
+  public function setP50Millis($p50Millis)
+  {
+    $this->p50Millis = $p50Millis;
+  }
+  public function getP50Millis()
+  {
+    return $this->p50Millis;
+  }
+  public function setP90Millis($p90Millis)
+  {
+    $this->p90Millis = $p90Millis;
+  }
+  public function getP90Millis()
+  {
+    return $this->p90Millis;
+  }
+  public function setP95Millis($p95Millis)
+  {
+    $this->p95Millis = $p95Millis;
+  }
+  public function getP95Millis()
+  {
+    return $this->p95Millis;
+  }
+  public function setP99Millis($p99Millis)
+  {
+    $this->p99Millis = $p99Millis;
+  }
+  public function getP99Millis()
+  {
+    return $this->p99Millis;
+  }
+  public function setSlowBitmapUploadCount($slowBitmapUploadCount)
+  {
+    $this->slowBitmapUploadCount = $slowBitmapUploadCount;
+  }
+  public function getSlowBitmapUploadCount()
+  {
+    return $this->slowBitmapUploadCount;
+  }
+  public function setSlowDrawCount($slowDrawCount)
+  {
+    $this->slowDrawCount = $slowDrawCount;
+  }
+  public function getSlowDrawCount()
+  {
+    return $this->slowDrawCount;
+  }
+  public function setSlowUiThreadCount($slowUiThreadCount)
+  {
+    $this->slowUiThreadCount = $slowUiThreadCount;
+  }
+  public function getSlowUiThreadCount()
+  {
+    return $this->slowUiThreadCount;
+  }
+  public function setTotalFrames($totalFrames)
+  {
+    $this->totalFrames = $totalFrames;
+  }
+  public function getTotalFrames()
+  {
+    return $this->totalFrames;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GraphicsStats::class, 'Google_Service_ToolResults_GraphicsStats');

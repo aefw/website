@@ -1,86 +1,147 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\PostmasterTools;
+
+class TrafficStats extends \Google\Collection
+{
+  protected $collection_key = 'spammyFeedbackLoops';
+  protected $deliveryErrorsType = DeliveryError::class;
+  protected $deliveryErrorsDataType = 'array';
+  public $dkimSuccessRatio;
+  public $dmarcSuccessRatio;
+  public $domainReputation;
+  public $inboundEncryptionRatio;
+  protected $ipReputationsType = IpReputation::class;
+  protected $ipReputationsDataType = 'array';
+  public $name;
+  public $outboundEncryptionRatio;
+  protected $spammyFeedbackLoopsType = FeedbackLoop::class;
+  protected $spammyFeedbackLoopsDataType = 'array';
+  public $spfSuccessRatio;
+  public $userReportedSpamRatio;
+
+  /**
+   * @param DeliveryError[]
+   */
+  public function setDeliveryErrors($deliveryErrors)
+  {
+    $this->deliveryErrors = $deliveryErrors;
+  }
+  /**
+   * @return DeliveryError[]
+   */
+  public function getDeliveryErrors()
+  {
+    return $this->deliveryErrors;
+  }
+  public function setDkimSuccessRatio($dkimSuccessRatio)
+  {
+    $this->dkimSuccessRatio = $dkimSuccessRatio;
+  }
+  public function getDkimSuccessRatio()
+  {
+    return $this->dkimSuccessRatio;
+  }
+  public function setDmarcSuccessRatio($dmarcSuccessRatio)
+  {
+    $this->dmarcSuccessRatio = $dmarcSuccessRatio;
+  }
+  public function getDmarcSuccessRatio()
+  {
+    return $this->dmarcSuccessRatio;
+  }
+  public function setDomainReputation($domainReputation)
+  {
+    $this->domainReputation = $domainReputation;
+  }
+  public function getDomainReputation()
+  {
+    return $this->domainReputation;
+  }
+  public function setInboundEncryptionRatio($inboundEncryptionRatio)
+  {
+    $this->inboundEncryptionRatio = $inboundEncryptionRatio;
+  }
+  public function getInboundEncryptionRatio()
+  {
+    return $this->inboundEncryptionRatio;
+  }
+  /**
+   * @param IpReputation[]
+   */
+  public function setIpReputations($ipReputations)
+  {
+    $this->ipReputations = $ipReputations;
+  }
+  /**
+   * @return IpReputation[]
+   */
+  public function getIpReputations()
+  {
+    return $this->ipReputations;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setOutboundEncryptionRatio($outboundEncryptionRatio)
+  {
+    $this->outboundEncryptionRatio = $outboundEncryptionRatio;
+  }
+  public function getOutboundEncryptionRatio()
+  {
+    return $this->outboundEncryptionRatio;
+  }
+  /**
+   * @param FeedbackLoop[]
+   */
+  public function setSpammyFeedbackLoops($spammyFeedbackLoops)
+  {
+    $this->spammyFeedbackLoops = $spammyFeedbackLoops;
+  }
+  /**
+   * @return FeedbackLoop[]
+   */
+  public function getSpammyFeedbackLoops()
+  {
+    return $this->spammyFeedbackLoops;
+  }
+  public function setSpfSuccessRatio($spfSuccessRatio)
+  {
+    $this->spfSuccessRatio = $spfSuccessRatio;
+  }
+  public function getSpfSuccessRatio()
+  {
+    return $this->spfSuccessRatio;
+  }
+  public function setUserReportedSpamRatio($userReportedSpamRatio)
+  {
+    $this->userReportedSpamRatio = $userReportedSpamRatio;
+  }
+  public function getUserReportedSpamRatio()
+  {
+    return $this->userReportedSpamRatio;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(TrafficStats::class, 'Google_Service_PostmasterTools_TrafficStats');

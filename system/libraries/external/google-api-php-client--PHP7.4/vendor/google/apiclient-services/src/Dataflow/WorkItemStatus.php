@@ -1,105 +1,216 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-rpyWg6wVqLjH/1IWnMtTmG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dataflow;
+
+class WorkItemStatus extends \Google\Collection
+{
+  protected $collection_key = 'metricUpdates';
+  public $completed;
+  protected $counterUpdatesType = CounterUpdate::class;
+  protected $counterUpdatesDataType = 'array';
+  protected $dynamicSourceSplitType = DynamicSourceSplit::class;
+  protected $dynamicSourceSplitDataType = '';
+  protected $errorsType = Status::class;
+  protected $errorsDataType = 'array';
+  protected $metricUpdatesType = MetricUpdate::class;
+  protected $metricUpdatesDataType = 'array';
+  protected $progressType = ApproximateProgress::class;
+  protected $progressDataType = '';
+  public $reportIndex;
+  protected $reportedProgressType = ApproximateReportedProgress::class;
+  protected $reportedProgressDataType = '';
+  public $requestedLeaseDuration;
+  protected $sourceForkType = SourceFork::class;
+  protected $sourceForkDataType = '';
+  protected $sourceOperationResponseType = SourceOperationResponse::class;
+  protected $sourceOperationResponseDataType = '';
+  protected $stopPositionType = Position::class;
+  protected $stopPositionDataType = '';
+  public $totalThrottlerWaitTimeSeconds;
+  public $workItemId;
+
+  public function setCompleted($completed)
+  {
+    $this->completed = $completed;
+  }
+  public function getCompleted()
+  {
+    return $this->completed;
+  }
+  /**
+   * @param CounterUpdate[]
+   */
+  public function setCounterUpdates($counterUpdates)
+  {
+    $this->counterUpdates = $counterUpdates;
+  }
+  /**
+   * @return CounterUpdate[]
+   */
+  public function getCounterUpdates()
+  {
+    return $this->counterUpdates;
+  }
+  /**
+   * @param DynamicSourceSplit
+   */
+  public function setDynamicSourceSplit(DynamicSourceSplit $dynamicSourceSplit)
+  {
+    $this->dynamicSourceSplit = $dynamicSourceSplit;
+  }
+  /**
+   * @return DynamicSourceSplit
+   */
+  public function getDynamicSourceSplit()
+  {
+    return $this->dynamicSourceSplit;
+  }
+  /**
+   * @param Status[]
+   */
+  public function setErrors($errors)
+  {
+    $this->errors = $errors;
+  }
+  /**
+   * @return Status[]
+   */
+  public function getErrors()
+  {
+    return $this->errors;
+  }
+  /**
+   * @param MetricUpdate[]
+   */
+  public function setMetricUpdates($metricUpdates)
+  {
+    $this->metricUpdates = $metricUpdates;
+  }
+  /**
+   * @return MetricUpdate[]
+   */
+  public function getMetricUpdates()
+  {
+    return $this->metricUpdates;
+  }
+  /**
+   * @param ApproximateProgress
+   */
+  public function setProgress(ApproximateProgress $progress)
+  {
+    $this->progress = $progress;
+  }
+  /**
+   * @return ApproximateProgress
+   */
+  public function getProgress()
+  {
+    return $this->progress;
+  }
+  public function setReportIndex($reportIndex)
+  {
+    $this->reportIndex = $reportIndex;
+  }
+  public function getReportIndex()
+  {
+    return $this->reportIndex;
+  }
+  /**
+   * @param ApproximateReportedProgress
+   */
+  public function setReportedProgress(ApproximateReportedProgress $reportedProgress)
+  {
+    $this->reportedProgress = $reportedProgress;
+  }
+  /**
+   * @return ApproximateReportedProgress
+   */
+  public function getReportedProgress()
+  {
+    return $this->reportedProgress;
+  }
+  public function setRequestedLeaseDuration($requestedLeaseDuration)
+  {
+    $this->requestedLeaseDuration = $requestedLeaseDuration;
+  }
+  public function getRequestedLeaseDuration()
+  {
+    return $this->requestedLeaseDuration;
+  }
+  /**
+   * @param SourceFork
+   */
+  public function setSourceFork(SourceFork $sourceFork)
+  {
+    $this->sourceFork = $sourceFork;
+  }
+  /**
+   * @return SourceFork
+   */
+  public function getSourceFork()
+  {
+    return $this->sourceFork;
+  }
+  /**
+   * @param SourceOperationResponse
+   */
+  public function setSourceOperationResponse(SourceOperationResponse $sourceOperationResponse)
+  {
+    $this->sourceOperationResponse = $sourceOperationResponse;
+  }
+  /**
+   * @return SourceOperationResponse
+   */
+  public function getSourceOperationResponse()
+  {
+    return $this->sourceOperationResponse;
+  }
+  /**
+   * @param Position
+   */
+  public function setStopPosition(Position $stopPosition)
+  {
+    $this->stopPosition = $stopPosition;
+  }
+  /**
+   * @return Position
+   */
+  public function getStopPosition()
+  {
+    return $this->stopPosition;
+  }
+  public function setTotalThrottlerWaitTimeSeconds($totalThrottlerWaitTimeSeconds)
+  {
+    $this->totalThrottlerWaitTimeSeconds = $totalThrottlerWaitTimeSeconds;
+  }
+  public function getTotalThrottlerWaitTimeSeconds()
+  {
+    return $this->totalThrottlerWaitTimeSeconds;
+  }
+  public function setWorkItemId($workItemId)
+  {
+    $this->workItemId = $workItemId;
+  }
+  public function getWorkItemId()
+  {
+    return $this->workItemId;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(WorkItemStatus::class, 'Google_Service_Dataflow_WorkItemStatus');

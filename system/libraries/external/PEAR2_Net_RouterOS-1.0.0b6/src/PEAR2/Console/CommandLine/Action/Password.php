@@ -1,76 +1,92 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPxqu4Yb9hUOEPF672Z1wwPertX3mMlGTJiXJfXFLmB3wFrQhzQOO+dudODs4I52c4Pglxv/G
-QtQSRmQ878reKzBZxnXjMR0U8EAFnvncvPgQJMST4JJcAPrGzbMU3qsQwnatFbLE8EEZUGPxVM6t
-T6SaW3LjyeS3gxKsHYHcoN41M2GSjpw5lD5wx+ql4nVmS665RcqlvzrOGz9mk8wEuwEy09hXJr0E
-g1mfOMc72EUwz2+7Y8gBdbmgtb3x7J/6/cbcktefttdeJ//mnWZje1JPLPRYS5CkDLI4g2o1fZvA
-1ULL7svlziRFXZa11jAaYDGDU39BssSW6lW19hWbyEzry7mzxq3NejtkDnOrJOTUO1OB29lIww2f
-Qw+znu5sWduh3NsUzfZKRK7SCu1oSs5H4F/3KeudkbmALkSmJaf5albG5syhaSmcyXhdNkZTBmnN
-9r14PlZTzEI1aFPA8n3Fruji6n/t1KPyqftURfSNGCK7p39aQZ/LXc+giBnKiElIYjehTzZ91sX3
-ZP5fza3IMPvKhBS74xkvHfXWm17eQGpyzqQjv4rXteypUHAfTyNNCKQbJRLIqvRJo0cVGGg3hnq7
-oo7FWFYb7AZmVY6mn0tVJVflbkHRyECRdm3vANkVaVVvd9/y05g7kQ9mjpI30VSEKvPgv+XNUor6
-29QYtP8XUfjcAfGsCsgNoM/qvH4b4OnpL+mJoTzliCJzG/eaUTMAUm1T0fFHfHSEknAh3k5SwnCR
-24WmKP1qsUHbFepSsy/78uWua+re4tTYmd5FkKm/jRNjNXOMCU8ZRPHXT9RGWuYNFroNpMaZ2Cod
-g3cRxdsZBR0ihNd0fQQzlNHtiwP0SDsVTapqxPDj8Kw0C9BI/WA8lNLeB08viXViLbbxlQgqp0Es
-l+GRu+DPu0ha7iV28+1JE49fszbHxTaZKN7IAjmNzsvvgzNxxzPYYZ4dqRlYeOr9fCVTz+66Pxht
-8oXRK3iX+Vs1tW4zEzbGw9Edxwx2NFgW9u8BqCZgPHLq2iXhP7MoAbhvZLAKqHxqbLpL7i/GfleU
-ZTRoDcV2WBx7K3jQKQN3OO1wQmtyFRuPMQ46fNyzZVQ8I7Y8fLkBmbEPPaqGONaEvjkhlsqw2aHq
-5aPKHfYUz3w7RAHaNu6pvWMZ8S8qL6dKxI45pSUxK06yVrxCOCPdoYBLpiZCvfuROVONn382VYzN
-sY/IVlytrOohwr45sD182mIQI7h7HOM/huR1FmLSnMD5CytT810S0PDxprOLIkkMlReKe1OEOCXz
-i00osrOgAhMw9TYvzgtWMjI0HF7ABxHJMTSdT8u2YsSFBewgT1l5tMoMcmLXet9QW+6TuQUuGWEb
-To4kOrtP3Y1yg5oLdnqJ+oAuEx/HO4Atl8QDsJ/FsjiWWg0z75scvm2UG7r24sIQuMZi0rf4I0oz
-CCirB/kIOKcj0Vh0q8hz5v3y0KJMdXx9vtrz02f5uCdyR1ij3ukcKbUkuPDmUxSeCR8I0TLbS8b8
-QbD6NOKeS/kYfgdcLD/pyNQdLO0bRoQKcW6tpAaHnHmY0Co/9fe7OjdUgNeXoFdXCIPTX4r4jGGj
-d003yuzpR4vIlgOV4ruNcCv2B6ZboiibTIIyI6rmj67sDohIxBBbwdfGrdfTuX8iVQpsFQVi3/Ls
-uqvT4fcwJhPXZVsld2DWctAqV67QooVzIdJMnqMChmy3ehtlZp1h2EOolhTowa8IKO+sTTQus/Ya
-Tc9ureltu2Nr8W4KBhiM3B2Ia10r4zs+l6wCNFiih4nhtD+HeuMop4OUdfCSNEmYJKJM1XHNZrtT
-7XKHdDydpegdU3qBUoDRNSkP25oMqjIX2m/O4rKS2Axw2qB3mK2hHBExGoO3oEBs1hGpi1hLBhth
-+gpJh6E0NlGhD/ONBXlXgvJrC337ff4ESaCrkXzlOSewVvK3zOjCs0KcYbi4eUN0V5dfqqtspyKf
-3cRUqDl9kbnekJHdOc0tB64ItfXedmCDdelck0aVWdMZpgFHafWnArKPu33J1aJJCR8ehsdu9b/S
-xxmpsbmdcJwb15Ud6fzGmbAJRVoX18p0zi8f43WCcqEBnFsB0YgBn1EAHOU9J2TNhAs8w++X8Jus
-vT7AMHNX5w8BsojuBBRGIeHvAWQMXQ2RdKDiB75MY3R+3LgmoT+mQgud+ZUx6d59nlzSVASDAtqG
-pUrlArBXa/Nbn9OM+ZqjiQ3fKF4SXyndblSA914vQaLqEAuISiooOHi/jq7KMcJJZZudWQPAmgDw
-9hJhBQ3WVZIGeQj428Sea0nIi8zXFWpi1ZZ4x5SD6akXOoT+Wn7fJJqnsvqWfOnEdJce21UfDwYN
-6eNpG/sE3YxWBYzrPRLK6d0u7Gde/bxKybPK5+MRYmd2uuS+1dCuPktU4fkW9lpTqjs2gma+WKxU
-+q4ZQ3roUE8GQHVT12qhtyRq3u4qGJ4pnzkHGdAD7qM8mIB59/BvurH/i8Wcj1dcmP13Hh1zZqVr
-1PiqxHTpG/xJ7bpxatstkCRHr+kfz+P+q2xF14JY2DdYfkP2qQ3e6llNuRCncwWjnVj9wfxJDT0b
-+HEJVsZldR0gJfH15WlDZflL0DFQVVurV7QF2+YUbmJW7WaQMi33n0r+KhUzvAK0v/rMAuoz/zHr
-a4yfFupufXUEfkY/5p6BSd8PXuPrD/rjLJvUCwTR08hD0pr2r/ZpteBb2yKkP68Z4B+Bm5qWqKxb
-u57BgnGP8nKW8gXngy/jZ/UBLS0g+3/3UVDLGzJKwVKC5dRyOC9EPnU1fQzqg6YQcj5SzN5vOU/o
-xId2JKtvQ8T4HkTcB4WNc46rPILry69LDVqA+U2Xd3VqX/H6MXLydh1zDnsWQmdM9fZ50XV2GNuZ
-UBuW/hgX0a5TWk4ruBBH/ES/lEvYg6k7yhKLPVMeXWtFblbZL4Y+aDs2YVVQjP8xWI4WZAgkfvgi
-Q1nrz/H+R9+vFNWLh3KI6ASKTkMY6njbI4jgjxFm6XL1ri/j3RxBW16NRPPftdzaO4EJ5k3nUAvs
-wtSdGIswaKbIFObh30S051GIEqGj/nEC2ln7TgF6C99Sm4cQxAkB4u+abbpMxdA8mp6EvwhjpSLD
-PXBD4xbRnX4i1uLy1t4l5so1slE22FUdAVIYi3lzMs2SCW21HaJPZpT2vm+4gAnFWS10cxSiHuEP
-FKqIqcgHVkY/AcpN4aY7O/vIMKvjPDmsgLAQ8sUQuzHxQFE6GMFgikkFPC5m8f3Qo0G4ffgRHpIk
-Js6iPlXrYqAJYi1u5gFuBhIYBFPtANrx6m7cDfjpg4zejJzsWM5XaPhogFoub2jxdJPCl8KmBPhg
-H0bGlFSSa3QrVAoIxPDldQdk4C9dWRdnqwNaxKHYyvPAKZt99IZ6GgBTRFSF4S/BWfxmJsTVM6/m
-n5Y/A2RVfDctiiwi47ugtSYdlTCm2eGw6ptwYu2EwN7OLFEuSYnXgN1IX/wyJ6ENbyjWBIeefKdC
-bEtOBARK8tmdT/tc/Qcp5+d3fpBFsBvB84ExMTl04bslh8L4dsEh03c5M3lsGuCGmnBf9OltpZAM
-XmeI6Y6nrC94BdxI3O3FKOHwpYA4BnNh1CD+pZsEyUFgrC5k+cITlG6s0QybggYFnPwlHU5ZdV5O
-xrOJ2mj1UHG1Fe6+19/PPNNumDfWiEzEHhUP78EnMKCs7E+fAnBKZa1Towx9c/h11Yh1giVGMgCL
-Hkjkut+yKue9jzza8damwQ44cUnFa3xvGqFjwlOot2LJVjWDB3lk4xTNcOTl8zDY5K6tbSMZ9eun
-g+L9gL+XT00DqrCAmCWAfllnxfs2oFG6ATbG9jOvdsIl/5MQksM+1mqOSZrhLMW9cYaud+9UVQbb
-A41nX6d4AZNv5MGXyRsEKtP22IZvJralZHe5V8vM77vov0kx2r0R5Wxk0W2HLzdtSG/+fR1hV1Do
-QDH7v0SLxJKqLIqKKnBrbJtDOBDummg46iP1VSlDsbBAbrXDkjlIKTGUAjGjbtfiayEb52F4yEN3
-9Ftune9dojyv0NDtv1/udOCx0BFdnOZ/BLb05qHcwRr4zxWADjlz1QARIRl92+5fald8G1Cj+XH7
-v8JE7oGertK6jdOvbAvcYIus9J20/HRpko/CoKDCCpHoaHxGU+P421dt3EiCZs0YCfQskARnuIGl
-GkEq2tbG9KxAlaxFn8Q/8HdQkQknIHZKiUWqhZa0FukfEg8+CoeruJCuER215Cj5pjC47p66WIf2
-vcOaggIhgtnMC8+sAxmMQduLNy+PxccRufWHUMStIdaXkgp8z7wDArgDlsgiuQ5W2NLvKt3O5EjV
-Axdg73YXmFsFfr475v9tqhElkVN7NyOLahZ2bmBGaAU8qJeKT4yBeQAV5un7+rH3l0bhoKSHq+U8
-7LIYQBgPBICugodYRheXU/U+sGAhAcLo4mS+bkrP35JpzojjJZ+3BSuwlvbZWSxq37xkdeyB1+R4
-TxvrGhX0KVgN50wSVSkP4+A9RCpfM0qaVhXnzHCf/qLKC80aqKuzpNytCg1mX91wjfDZ+UB3ZJkI
-4V3RxKuu4a0xc5PlbSpODY1TGcLjriIanc5wQk5tJ47i1uuhQa2reSVOZib3KaRFL7oSARpqSrjb
-u3GQXVP+gcaCdCKgGCeD94zgZKH5D5wurDyu2RuHc4QnhvPYaPWTPTjZd/zAtnaxdDmP8C8rxb1O
-f5biGDtBvVLA+N4ADg/cFQjh0ROFgMjJEXJvEThoBS++cLK3/y4/rfGziYvAptzeKLJ2/zl7kCZz
-JCAyn3jM4oVXW++dAcbno1oto4pqhvuhjiwTK25vSgCKQhyGyM8U8Jgy8DQgxyM/iVrB7bmB4zc7
-pD+r7OH5J//u6aMTrjPLTC8Iy0A5IrSuLtfh4CNtJ7dFlvoIudopJtt76gsKjWvcG0tqd2XMffbH
-7LEH2xrYlL0bkdFjrF8R2Lf94sb17jG0D3GHN6l2QU96gNxtjCW2ly6DapX11ne7/vetxC/2Y7YI
-FK/mp+mOVM1xunIZuiy244VyBoRk9S2Sy0wuYTnZRJr7rLMWLkSg3DE6imrBFfbrd/9DrnMUTSvQ
-6LL/wA8ZTv5rDqi3K4niQgd+ko0J5Bc/NjMhdpUrDCQSamJKcor285I2t5MNy+J8d02aPI4Xi68p
-4j0oK89GPscLGms3RpUglfavuBoSU0TSoPU6yi1nP/IrIleVGnodVYjmiWN5THGcqEXAc2reU5rG
-eqPP0JORgfCSBr8kzvd8EwaHeOS8nFQ9Izmoqi46kaGkS6N/MBC9HUlkao/Zvzoz5JClSm==
+<?php
+
+/* vim: set expandtab tabstop=4 shiftwidth=4 softtabstop=4: */
+
+/**
+ * This file is part of the PEAR2\Console\CommandLine package.
+ *
+ * PHP version 5
+ *
+ * LICENSE: This source file is subject to the MIT license that is available
+ * through the world-wide-web at the following URI:
+ * http://opensource.org/licenses/mit-license.php
+ *
+ * @category  Console
+ * @package   PEAR2\Console\CommandLine
+ * @author    David JEAN LOUIS <izimobil@gmail.com>
+ * @copyright 2007-2009 David JEAN LOUIS
+ * @license   http://opensource.org/licenses/mit-license.php MIT License
+ * @version   0.2.3
+ * @link      http://pear2.php.net/PEAR2_Console_CommandLine
+ * @since     File available since release 0.1.0
+ *
+ * @filesource
+ */
+
+namespace PEAR2\Console\CommandLine\Action;
+
+use PEAR2\Console\CommandLine;
+
+/**
+ * Class that represent the Password action, a special action that allow the
+ * user to specify the password on the commandline or to be prompted for
+ * entering it.
+ *
+ * @category  Console
+ * @package   PEAR2\Console\CommandLine
+ * @author    David JEAN LOUIS <izimobil@gmail.com>
+ * @copyright 2007-2009 David JEAN LOUIS
+ * @license   http://opensource.org/licenses/mit-license.php MIT License
+ * @link      http://pear2.php.net/PEAR2_Console_CommandLine
+ * @since     Class available since release 0.1.0
+ */
+class Password extends CommandLine\Action
+{
+    // execute() {{{
+
+    /**
+     * Executes the action with the value entered by the user.
+     *
+     * @param mixed $value  The option value
+     * @param array $params An array of optional parameters
+     *
+     * @return string
+     */
+    public function execute($value = false, $params = array())
+    {
+        $this->setResult(empty($value) ? $this->_promptPassword() : $value);
+    }
+    // }}}
+    // _promptPassword() {{{
+
+    /**
+     * Prompts the password to the user without echoing it.
+     *
+     * @return string
+     *
+     * @todo not echo-ing the password does not work on windows is there a way
+     *       to make this work ?
+     */
+    private function _promptPassword()
+    {
+        if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
+            fwrite(
+                STDOUT,
+                $this->parser->message_provider->get('PASSWORD_PROMPT_ECHO')
+            );
+            @flock(STDIN, LOCK_EX);
+            $passwd = fgets(STDIN);
+            @flock(STDIN, LOCK_UN);
+        } else {
+            fwrite(STDOUT, $this->parser->message_provider->get('PASSWORD_PROMPT'));
+            // disable echoing
+            system('stty -echo');
+            @flock(STDIN, LOCK_EX);
+            $passwd = fgets(STDIN);
+            @flock(STDIN, LOCK_UN);
+            system('stty echo');
+        }
+        return trim($passwd);
+    }
+    // }}}
+}

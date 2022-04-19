@@ -1,66 +1,118 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\GameServices\Resource;
+
+use Google\Service\GameServices\GameServerConfig;
+use Google\Service\GameServices\ListGameServerConfigsResponse;
+use Google\Service\GameServices\Operation;
+
+/**
+ * The "configs" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $gameservicesService = new Google\Service\GameServices(...);
+ *   $configs = $gameservicesService->configs;
+ *  </code>
+ */
+class ProjectsLocationsGameServerDeploymentsConfigs extends \Google\Service\Resource
+{
+  /**
+   * Creates a new game server config in a given project, location, and game
+   * server deployment. Game server configs are immutable, and are not applied
+   * until referenced in the game server deployment rollout resource.
+   * (configs.create)
+   *
+   * @param string $parent Required. The parent resource name, in the following
+   * form: `projects/{project}/locations/{location}/gameServerDeployments/{deploym
+   * ent}/`.
+   * @param GameServerConfig $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string configId Required. The ID of the game server config
+   * resource to be created.
+   * @return Operation
+   */
+  public function create($parent, GameServerConfig $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Operation::class);
+  }
+  /**
+   * Deletes a single game server config. The deletion will fail if the game
+   * server config is referenced in a game server deployment rollout.
+   * (configs.delete)
+   *
+   * @param string $name Required. The name of the game server config to delete,
+   * in the following form: `projects/{project}/locations/{location}/gameServerDep
+   * loyments/{deployment}/configs/{config}`.
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Gets details of a single game server config. (configs.get)
+   *
+   * @param string $name Required. The name of the game server config to retrieve,
+   * in the following form: `projects/{project}/locations/{location}/gameServerDep
+   * loyments/{deployment}/configs/{config}`.
+   * @param array $optParams Optional parameters.
+   * @return GameServerConfig
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GameServerConfig::class);
+  }
+  /**
+   * Lists game server configs in a given project, location, and game server
+   * deployment. (configs.listProjectsLocationsGameServerDeploymentsConfigs)
+   *
+   * @param string $parent Required. The parent resource name, in the following
+   * form: `projects/{project}/locations/{location}/gameServerDeployments/{deploym
+   * ent}/configs`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Optional. The filter to apply to list results.
+   * @opt_param string orderBy Optional. Specifies the ordering of results
+   * following syntax at
+   * https://cloud.google.com/apis/design/design_patterns#sorting_order.
+   * @opt_param int pageSize Optional. The maximum number of items to return. If
+   * unspecified, server will pick an appropriate default. Server may return fewer
+   * items than requested. A caller should only rely on response's next_page_token
+   * to determine if there are more GameServerConfigs left to be queried.
+   * @opt_param string pageToken Optional. The next_page_token value returned from
+   * a previous list request, if any.
+   * @return ListGameServerConfigsResponse
+   */
+  public function listProjectsLocationsGameServerDeploymentsConfigs($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListGameServerConfigsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsGameServerDeploymentsConfigs::class, 'Google_Service_GameServices_Resource_ProjectsLocationsGameServerDeploymentsConfigs');

@@ -1,71 +1,124 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPyEREES4Je78eLIjnA4sRm9jTtEKLjh+TTyoqR/5saSObyBtEzuXiVwJrB7sPu38XKeX/ffK
-IlCBw63V9B7S+rtr6DNLRF8GdGUeBXgqbRJU+LXt4rHin3k+29/bsQDl6Bwu602VUhLt1dtsTB8W
-RBDrXNQetLMHGG3NP/i/TQvJuP+qjv3p4f/AUTI4HNurENrGiHOO5yhNHLJQeyhYzgMsXU6kEvtT
-aRDwJdnogBHMvoJ9dOSIVa4e7nudDOZKFfSzRN2SQSgBXndhLftBpWQrKFhYS5CkDLI4g2o1fZvA
-1ULLI7ObRCHG5T2UUlkTY5J3gMANMst68fbk1213hYKP6JjS2YYrN3bYWbvY1ErGhKmkG9rattp0
-H7K5k53hSB6S6MGf0QATZ3YqCwt7mRWY9G98dCVdw5K2Rmk8m5VgvPoRAwjOGjaY6KKOKQ/tRs5t
-z/+viJ/lykyHoowoFfyIhbGF/Tb/7Rao506f1SQduMcbXlKXWiUXjhYudoXUtQ4aWB60MiD1Wttz
-9OBPN4zwR9pOLiOK211AvH79abGpwZFaVLUZpoCFpKZ2yXhRr0YSeTZ3Kh/VmpIFo93RXCQEiyw8
-JhoMC+w11uMvs/gVDA1fkE/JRjY8jZyYAcAUd1KC5oImts1Tg3VbJz7M6TbyZskMYpW5+gH+O3i9
-wol7Lf1cZVUY+GZVLiZTRS211GlW/5Ci4BX+GIalqNouY8Y2Xrmvgkety/JGe+wfCMfIobIA7Fas
-M601o83V1i9KWz9UbanLYRIeX2qNB0JksjkoB5hRXRYSgStWG3GLcwjPtqmCdb8BHSXhHBo8DJa8
-UCjTZLY7fZMYplbk+i2KzeEARvFkCqC8O5I6X8v7zlwJ2OcqBjrkCdy8Uwkc3oLgfF9tUO9rTw8T
-e+YSkEhPMwLN1QMDoAznCmv1Ro8KDj6/pP9w1K0mZdvWyVnqNWHUJ0NK036T9QV4sf50RdUjFcqJ
-Sc6ZKaQoaflWUznuiZOM20nzMFUY7D5Mj+SMJARfZYqgHqWH11z2Rz7RW/iR3i+bsMVUFpyVXpfJ
-Cpq1rfhw7Lis3NKYRA23s+djZSzSBGqfZPkiQ7bSAFbZwJiVu1k04qa0o2/E4FN14NY/IVFXvhyN
-GQph5u+VA7Ij4Pn54QQEn3uusgUbFpW2WRrXEGfHbDW4Cqx4m+ChN8ErgrN9YkNnYPM1viUvqhFI
-yMhJrzVwClBR4/K/nX5/3rhOruGCC0Te51Pnv00gAgtr/1i8YU/de5dCqp+srZLMWpPJK9kmhTV8
-L0AUnd3hb2aeajfOx6qfOfa3vA/GJC5rN3dSVDlEP/Pd1AAeper7RC0CooQqux4QugafVC+Bo9Jq
-C6TfrUT/HYhj93VNGEeErJLyMzrvSwNpVyumDa0lIzEOrDDdExCEIFNLIqjNt9anl7bmMR0v7qIt
-MP4FjsMZLpJKXFWgbo0tUOAlOd/0NdlKSnL/+ukmhJslYmvl19C9sOL+PwanL487p4lh929GJhaZ
-TFu9tzN1HW6TAqSMjeIk1UatHDQ03r9BcOE65YB8RFAMXUr3z8IZghWrZqOkICAP5RPzDllDEC/S
-OMBWzWuJc18p0ao+3tTIHyOh8XKvBEtOk6nxihyLWzxf+Lx5hxGbezL21ejO1XbD/TMAorelx3SA
-cO7GVsXmloQ7DPqxC2Pt7YgFdNaGL9PMet134QuRmgk1Yz+f4E2gBVA6DCmt/zjUoYOAd5Ee5/Rm
-JAV/Ut7MANPU7f2IAvAvq0Up0rNgPnfIsFl8tWYDerJTwe6pVILKBjJKZJCEZjTUdPrNUp013iJ7
-ja+bOH06YJfrV2+mFlPV/wD5ayX+ojzrSzcR+ZlE6jDsfs0z13g0ydtRK/I8z2UX8nJyYgp+Y8XL
-MMuxdO31gZUdJ5tPfV/PTytcdQ5qngr7C8HwjwnVh2kYi0OO9VndHCQSfwiI9wQXyyBcDG3JE7gu
-XcnInpMG/4Ovd1dxkYZDJ3+7lhnT1T5zpVaoPYl2jvsl6LXrDeqn3SidrkxLvWube8bwbHLxKpJB
-BeEfAjXfp0Fb8MwqI/BRqcFLAffBUqaO4PRy6I1oEN3b2WSxUKMgXTezEjSWGLMUYyo9fF+GjqMH
-dfwWCxDbg37eAf30WHsmyf5oH0pcrIx22ElZ7arPFnG5sCEvnNieGo0RxFZcmC8iJoxjUVwLirx8
-ejeNglJ1K5/qXJLvJkF22bz1q2PhKlu7cW3N4fF81PzsYD+KhillGoee7m6uQ8R4t1IhWGgqvMyY
-LHtcbjYZhgjtY0RT7mDYb00Xx3+BqdZCtGzq+yyD/q0BdoTGIwtDsdkhPQVRVzzsvWe1hlwGjJKk
-itwwW/zMAIRdWEjzDOThX3LKVCdqps3PWt1rFmjIBlIK2ivSQ8s7ZO13UTNPoG9F0qslWfVPFaxS
-+ZtGZjU2fAeTonkDOKL7dgqGpwGdpb6KWQK2krJU8S5rZGdVnxM1/TITKnJ+JPZaMXLCXjwSnhXd
-byKvMsNGtdBRHGbUaeFeKOO+QZhhmrmR6JwPiTDIIso+AYSIsoEacY0iITq7W1DZ+7SYRaTGJpvh
-3WLz8s/DtBa0laPq6sjrNXzOoorIV8YDark+gA3xO0pdQgxw2ZucgEk0GtsdARaoH7em5z4NufLk
-cek0ICEAhfT+9s1zHhkAck/YK47ngwyUfDRkNxL6gfsJ7KJDHP7dFYgjPAriIKZuL6hS/i5jOEZC
-Z3HEWWu45o94bm2iPVx4LKvS67vGUJtQic1P/mLfuM8Uwa/7Ved+eXRUGac5uT3gAFQOS+T8vOrW
-xtQkbjGDELG8ei6rK4PUAkTiaaPLtqLPkEnsJOZyqSsOZOLLZ+LhrhS3+GHBvdnB5hPMRIbjNzg+
-xwH2qDMxudEavz5iAEQhd3VMCDCD8sLg1xowzbIHPqWxchyeMObmmE3P1oHdtFxnTFBXL7YDxFg8
-3+hGIvaLdtixtT79V2ven5GkHs3dn6b8xG9Mreb1BNa+7mCSBskNkAPiZBOOSlxlP0wNJF1jMKu9
-iOjqYVdiyraSGw0n4+YO7tUlenyvgcokEmTkwrmLyEBgTW3BjdHOMa7sbmWg+jK7bBuPGPyvwt7/
-xd5+kMdUuqTOPtX0mni/MPxYkd2LExJmyvxdQAEOsHjNCEDIEGMzCUtS/70aE4dta8vGwqn/hq30
-Xt8eAHAew4sFMCAHbDSsmZgBD1b4T0DKwvXpTeSL1kYORfxFZbhAvYLw2qWC9S69CumIrbBJscDl
-iNn3ZyRHZ9w9p8UPsqAyNcXvgU31VFkn9jX30f4qAGLOQkFDZD5t3kAoCoo2s73+ZftcnBztbpY+
-w3gtrzxCQqI4Ss02y+so4zNjVLImLF9x5MhAxLV5RUyJgAL2jwitUedUntq/8f5fDRf4n1RLmHv7
-BQij5ZrT+1l5AI+KnawmqPiZHya61eQqXz/5TchpBl320ld+cSBMJoPr3D7m32fdxUShSQ1j7a2e
-qcDAGr0oCXputen/1cH0EmIRCEz5faMz57vgUnhL6KVNX3SpWY0SXmm3XbmkNqUBkFLZ+zyr4fFs
-ssOrrKm5GA39uB5QJ0gR34ALTyKvbX4+b9XhjVqzeufda8EOHRbPXMILeKPU0TN37GVG4d8BVNnj
-szIaycGVYehbjzmmDug0tefJmgTDTJqjEcHhLjLvvE+j9vKQnjF68QHG4eNZooXrjTwyUedIapy7
-wfg1OnH+j/SgvIwGFsdFU0aLDbpyCYj51lyEY7E0EOaPXnb1nJHO0Y/Lnrb5Wan/1K2YL3vGV7yt
-vvir/s1OBK06hEeqaoy0ACkvJ0niVc0LJJAbuJ6QSmBHQOcg/HcDsR2EyssWgKcceKQfRzttfaq1
-uvb1BN1FguP0dlvRT8f7VXqc2Hp4H1ZifHMthiAJvtXrT/IceHXGocnGTy6UKf9ZPCgOB9CM/cI8
-YwlcAQWTh6pjB4FL9Q7Q+DfHapCGg9H4f5DVDrkzoGWZgTj4MsQtmpRloFT1Norkwi6aBqC35Z32
-5md9B87aDZBPRFH1QiT8AGXs1/9k3K0ve24oR+gPlzNiTl5UiVNXsvgFaP9kIr0llcQyhuMjwABO
-9Nxiv4IvqFYb61XnLikHXh2Ac1SNhA+ZwwMYTEdQSpy1Afyh9Ht4sXbphEDel+LJIaH50rzkTpxT
-x71O3OtHuAfRDOLPTpj5QvoOedrPavrJ2s0Sds7h4LFsYogxBTFpaM/6+otSlUy+CYL9q4ic/4PL
-rS50tpv3aA4NfWDQ1hmv49VD8AEtmtlQ2DQvJ5NlMDmHPV50CZ994HL/4avnDgrsSjKSIa+Noe+t
-hVPv/wO3V24Lvkm/ittKbGpOYkXiNei7/3cmnx/KRSHAdNXW2P3WfYD7s8LCMEPdPc3KQssJLBJE
-AGG1xVja1kWngRTp8E8zdURnnJHdbsxgoE49rJqwpkkLM1UaRRYjWiXu+vPEdAc6PzAUD4FlP56g
-hEkel7jDIw4nwEbvJlzijp5AasMM/Aa4BiFZSqJAvu7IMiC6TfwzEkcqY4JUimZAKPDc/U5TK+qq
-VKbHTkC/43fnZFFIAJVWud1WVhPI5ucAE3TdFhSX59rkV2OCahL/HsRc9UOtV0CD0i6FPXT30dJ5
-nMvw5I808Fc5J0rPDlfH/DpmlGJE3+tsi5w+dNFlNbnjZvGDEBU+ZopKO1GnYtMk2U9Wc+kNhR7e
-t/4zVeGX4cnyOGecwhgI/m8bmdLTXskah8LosKWPEnpARV2RrQmGi5sVUIUobUQbt3PmvjW3eddk
-YQwMxiPFIdPCGJ4zyFgjYv36AedhAP0ENzCaGDC7IrYTpXuJBF3uzpi83+BoqWMM1zDlVBBcTITT
-PRp1b3lK
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dataflow;
+
+class WorkerMessage extends \Google\Model
+{
+  public $labels;
+  public $time;
+  protected $workerHealthReportType = WorkerHealthReport::class;
+  protected $workerHealthReportDataType = '';
+  protected $workerLifecycleEventType = WorkerLifecycleEvent::class;
+  protected $workerLifecycleEventDataType = '';
+  protected $workerMessageCodeType = WorkerMessageCode::class;
+  protected $workerMessageCodeDataType = '';
+  protected $workerMetricsType = ResourceUtilizationReport::class;
+  protected $workerMetricsDataType = '';
+  protected $workerShutdownNoticeType = WorkerShutdownNotice::class;
+  protected $workerShutdownNoticeDataType = '';
+
+  public function setLabels($labels)
+  {
+    $this->labels = $labels;
+  }
+  public function getLabels()
+  {
+    return $this->labels;
+  }
+  public function setTime($time)
+  {
+    $this->time = $time;
+  }
+  public function getTime()
+  {
+    return $this->time;
+  }
+  /**
+   * @param WorkerHealthReport
+   */
+  public function setWorkerHealthReport(WorkerHealthReport $workerHealthReport)
+  {
+    $this->workerHealthReport = $workerHealthReport;
+  }
+  /**
+   * @return WorkerHealthReport
+   */
+  public function getWorkerHealthReport()
+  {
+    return $this->workerHealthReport;
+  }
+  /**
+   * @param WorkerLifecycleEvent
+   */
+  public function setWorkerLifecycleEvent(WorkerLifecycleEvent $workerLifecycleEvent)
+  {
+    $this->workerLifecycleEvent = $workerLifecycleEvent;
+  }
+  /**
+   * @return WorkerLifecycleEvent
+   */
+  public function getWorkerLifecycleEvent()
+  {
+    return $this->workerLifecycleEvent;
+  }
+  /**
+   * @param WorkerMessageCode
+   */
+  public function setWorkerMessageCode(WorkerMessageCode $workerMessageCode)
+  {
+    $this->workerMessageCode = $workerMessageCode;
+  }
+  /**
+   * @return WorkerMessageCode
+   */
+  public function getWorkerMessageCode()
+  {
+    return $this->workerMessageCode;
+  }
+  /**
+   * @param ResourceUtilizationReport
+   */
+  public function setWorkerMetrics(ResourceUtilizationReport $workerMetrics)
+  {
+    $this->workerMetrics = $workerMetrics;
+  }
+  /**
+   * @return ResourceUtilizationReport
+   */
+  public function getWorkerMetrics()
+  {
+    return $this->workerMetrics;
+  }
+  /**
+   * @param WorkerShutdownNotice
+   */
+  public function setWorkerShutdownNotice(WorkerShutdownNotice $workerShutdownNotice)
+  {
+    $this->workerShutdownNotice = $workerShutdownNotice;
+  }
+  /**
+   * @return WorkerShutdownNotice
+   */
+  public function getWorkerShutdownNotice()
+  {
+    return $this->workerShutdownNotice;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(WorkerMessage::class, 'Google_Service_Dataflow_WorkerMessage');

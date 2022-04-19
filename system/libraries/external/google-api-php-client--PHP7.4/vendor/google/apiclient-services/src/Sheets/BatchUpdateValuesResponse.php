@@ -1,65 +1,88 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-vQHC
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Sheets;
+
+class BatchUpdateValuesResponse extends \Google\Collection
+{
+  protected $collection_key = 'responses';
+  protected $responsesType = UpdateValuesResponse::class;
+  protected $responsesDataType = 'array';
+  public $spreadsheetId;
+  public $totalUpdatedCells;
+  public $totalUpdatedColumns;
+  public $totalUpdatedRows;
+  public $totalUpdatedSheets;
+
+  /**
+   * @param UpdateValuesResponse[]
+   */
+  public function setResponses($responses)
+  {
+    $this->responses = $responses;
+  }
+  /**
+   * @return UpdateValuesResponse[]
+   */
+  public function getResponses()
+  {
+    return $this->responses;
+  }
+  public function setSpreadsheetId($spreadsheetId)
+  {
+    $this->spreadsheetId = $spreadsheetId;
+  }
+  public function getSpreadsheetId()
+  {
+    return $this->spreadsheetId;
+  }
+  public function setTotalUpdatedCells($totalUpdatedCells)
+  {
+    $this->totalUpdatedCells = $totalUpdatedCells;
+  }
+  public function getTotalUpdatedCells()
+  {
+    return $this->totalUpdatedCells;
+  }
+  public function setTotalUpdatedColumns($totalUpdatedColumns)
+  {
+    $this->totalUpdatedColumns = $totalUpdatedColumns;
+  }
+  public function getTotalUpdatedColumns()
+  {
+    return $this->totalUpdatedColumns;
+  }
+  public function setTotalUpdatedRows($totalUpdatedRows)
+  {
+    $this->totalUpdatedRows = $totalUpdatedRows;
+  }
+  public function getTotalUpdatedRows()
+  {
+    return $this->totalUpdatedRows;
+  }
+  public function setTotalUpdatedSheets($totalUpdatedSheets)
+  {
+    $this->totalUpdatedSheets = $totalUpdatedSheets;
+  }
+  public function getTotalUpdatedSheets()
+  {
+    return $this->totalUpdatedSheets;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(BatchUpdateValuesResponse::class, 'Google_Service_Sheets_BatchUpdateValuesResponse');

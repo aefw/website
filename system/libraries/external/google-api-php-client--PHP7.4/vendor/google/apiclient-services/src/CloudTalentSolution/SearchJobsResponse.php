@@ -1,78 +1,134 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Y8PYqrkLNdObVoI9fe1ojm8=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudTalentSolution;
+
+class SearchJobsResponse extends \Google\Collection
+{
+  protected $collection_key = 'matchingJobs';
+  public $broadenedQueryJobsCount;
+  protected $histogramQueryResultsType = HistogramQueryResult::class;
+  protected $histogramQueryResultsDataType = 'array';
+  protected $locationFiltersType = Location::class;
+  protected $locationFiltersDataType = 'array';
+  protected $matchingJobsType = MatchingJob::class;
+  protected $matchingJobsDataType = 'array';
+  protected $metadataType = ResponseMetadata::class;
+  protected $metadataDataType = '';
+  public $nextPageToken;
+  protected $spellCorrectionType = SpellingCorrection::class;
+  protected $spellCorrectionDataType = '';
+  public $totalSize;
+
+  public function setBroadenedQueryJobsCount($broadenedQueryJobsCount)
+  {
+    $this->broadenedQueryJobsCount = $broadenedQueryJobsCount;
+  }
+  public function getBroadenedQueryJobsCount()
+  {
+    return $this->broadenedQueryJobsCount;
+  }
+  /**
+   * @param HistogramQueryResult[]
+   */
+  public function setHistogramQueryResults($histogramQueryResults)
+  {
+    $this->histogramQueryResults = $histogramQueryResults;
+  }
+  /**
+   * @return HistogramQueryResult[]
+   */
+  public function getHistogramQueryResults()
+  {
+    return $this->histogramQueryResults;
+  }
+  /**
+   * @param Location[]
+   */
+  public function setLocationFilters($locationFilters)
+  {
+    $this->locationFilters = $locationFilters;
+  }
+  /**
+   * @return Location[]
+   */
+  public function getLocationFilters()
+  {
+    return $this->locationFilters;
+  }
+  /**
+   * @param MatchingJob[]
+   */
+  public function setMatchingJobs($matchingJobs)
+  {
+    $this->matchingJobs = $matchingJobs;
+  }
+  /**
+   * @return MatchingJob[]
+   */
+  public function getMatchingJobs()
+  {
+    return $this->matchingJobs;
+  }
+  /**
+   * @param ResponseMetadata
+   */
+  public function setMetadata(ResponseMetadata $metadata)
+  {
+    $this->metadata = $metadata;
+  }
+  /**
+   * @return ResponseMetadata
+   */
+  public function getMetadata()
+  {
+    return $this->metadata;
+  }
+  public function setNextPageToken($nextPageToken)
+  {
+    $this->nextPageToken = $nextPageToken;
+  }
+  public function getNextPageToken()
+  {
+    return $this->nextPageToken;
+  }
+  /**
+   * @param SpellingCorrection
+   */
+  public function setSpellCorrection(SpellingCorrection $spellCorrection)
+  {
+    $this->spellCorrection = $spellCorrection;
+  }
+  /**
+   * @return SpellingCorrection
+   */
+  public function getSpellCorrection()
+  {
+    return $this->spellCorrection;
+  }
+  public function setTotalSize($totalSize)
+  {
+    $this->totalSize = $totalSize;
+  }
+  public function getTotalSize()
+  {
+    return $this->totalSize;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(SearchJobsResponse::class, 'Google_Service_CloudTalentSolution_SearchJobsResponse');

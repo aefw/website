@@ -1,77 +1,134 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-g0itBTlNFPhP+BjokRDadsK=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Fitness;
+
+class AggregateRequest extends \Google\Collection
+{
+  protected $collection_key = 'filteredDataQualityStandard';
+  protected $aggregateByType = AggregateBy::class;
+  protected $aggregateByDataType = 'array';
+  protected $bucketByActivitySegmentType = BucketByActivity::class;
+  protected $bucketByActivitySegmentDataType = '';
+  protected $bucketByActivityTypeType = BucketByActivity::class;
+  protected $bucketByActivityTypeDataType = '';
+  protected $bucketBySessionType = BucketBySession::class;
+  protected $bucketBySessionDataType = '';
+  protected $bucketByTimeType = BucketByTime::class;
+  protected $bucketByTimeDataType = '';
+  public $endTimeMillis;
+  public $filteredDataQualityStandard;
+  public $startTimeMillis;
+
+  /**
+   * @param AggregateBy[]
+   */
+  public function setAggregateBy($aggregateBy)
+  {
+    $this->aggregateBy = $aggregateBy;
+  }
+  /**
+   * @return AggregateBy[]
+   */
+  public function getAggregateBy()
+  {
+    return $this->aggregateBy;
+  }
+  /**
+   * @param BucketByActivity
+   */
+  public function setBucketByActivitySegment(BucketByActivity $bucketByActivitySegment)
+  {
+    $this->bucketByActivitySegment = $bucketByActivitySegment;
+  }
+  /**
+   * @return BucketByActivity
+   */
+  public function getBucketByActivitySegment()
+  {
+    return $this->bucketByActivitySegment;
+  }
+  /**
+   * @param BucketByActivity
+   */
+  public function setBucketByActivityType(BucketByActivity $bucketByActivityType)
+  {
+    $this->bucketByActivityType = $bucketByActivityType;
+  }
+  /**
+   * @return BucketByActivity
+   */
+  public function getBucketByActivityType()
+  {
+    return $this->bucketByActivityType;
+  }
+  /**
+   * @param BucketBySession
+   */
+  public function setBucketBySession(BucketBySession $bucketBySession)
+  {
+    $this->bucketBySession = $bucketBySession;
+  }
+  /**
+   * @return BucketBySession
+   */
+  public function getBucketBySession()
+  {
+    return $this->bucketBySession;
+  }
+  /**
+   * @param BucketByTime
+   */
+  public function setBucketByTime(BucketByTime $bucketByTime)
+  {
+    $this->bucketByTime = $bucketByTime;
+  }
+  /**
+   * @return BucketByTime
+   */
+  public function getBucketByTime()
+  {
+    return $this->bucketByTime;
+  }
+  public function setEndTimeMillis($endTimeMillis)
+  {
+    $this->endTimeMillis = $endTimeMillis;
+  }
+  public function getEndTimeMillis()
+  {
+    return $this->endTimeMillis;
+  }
+  public function setFilteredDataQualityStandard($filteredDataQualityStandard)
+  {
+    $this->filteredDataQualityStandard = $filteredDataQualityStandard;
+  }
+  public function getFilteredDataQualityStandard()
+  {
+    return $this->filteredDataQualityStandard;
+  }
+  public function setStartTimeMillis($startTimeMillis)
+  {
+    $this->startTimeMillis = $startTimeMillis;
+  }
+  public function getStartTimeMillis()
+  {
+    return $this->startTimeMillis;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AggregateRequest::class, 'Google_Service_Fitness_AggregateRequest');

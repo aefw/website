@@ -1,123 +1,259 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\YouTube;
+
+class ImageSettings extends \Google\Model
+{
+  protected $backgroundImageUrlType = LocalizedProperty::class;
+  protected $backgroundImageUrlDataType = '';
+  public $bannerExternalUrl;
+  public $bannerImageUrl;
+  public $bannerMobileExtraHdImageUrl;
+  public $bannerMobileHdImageUrl;
+  public $bannerMobileImageUrl;
+  public $bannerMobileLowImageUrl;
+  public $bannerMobileMediumHdImageUrl;
+  public $bannerTabletExtraHdImageUrl;
+  public $bannerTabletHdImageUrl;
+  public $bannerTabletImageUrl;
+  public $bannerTabletLowImageUrl;
+  public $bannerTvHighImageUrl;
+  public $bannerTvImageUrl;
+  public $bannerTvLowImageUrl;
+  public $bannerTvMediumImageUrl;
+  protected $largeBrandedBannerImageImapScriptType = LocalizedProperty::class;
+  protected $largeBrandedBannerImageImapScriptDataType = '';
+  protected $largeBrandedBannerImageUrlType = LocalizedProperty::class;
+  protected $largeBrandedBannerImageUrlDataType = '';
+  protected $smallBrandedBannerImageImapScriptType = LocalizedProperty::class;
+  protected $smallBrandedBannerImageImapScriptDataType = '';
+  protected $smallBrandedBannerImageUrlType = LocalizedProperty::class;
+  protected $smallBrandedBannerImageUrlDataType = '';
+  public $trackingImageUrl;
+  public $watchIconImageUrl;
+
+  /**
+   * @param LocalizedProperty
+   */
+  public function setBackgroundImageUrl(LocalizedProperty $backgroundImageUrl)
+  {
+    $this->backgroundImageUrl = $backgroundImageUrl;
+  }
+  /**
+   * @return LocalizedProperty
+   */
+  public function getBackgroundImageUrl()
+  {
+    return $this->backgroundImageUrl;
+  }
+  public function setBannerExternalUrl($bannerExternalUrl)
+  {
+    $this->bannerExternalUrl = $bannerExternalUrl;
+  }
+  public function getBannerExternalUrl()
+  {
+    return $this->bannerExternalUrl;
+  }
+  public function setBannerImageUrl($bannerImageUrl)
+  {
+    $this->bannerImageUrl = $bannerImageUrl;
+  }
+  public function getBannerImageUrl()
+  {
+    return $this->bannerImageUrl;
+  }
+  public function setBannerMobileExtraHdImageUrl($bannerMobileExtraHdImageUrl)
+  {
+    $this->bannerMobileExtraHdImageUrl = $bannerMobileExtraHdImageUrl;
+  }
+  public function getBannerMobileExtraHdImageUrl()
+  {
+    return $this->bannerMobileExtraHdImageUrl;
+  }
+  public function setBannerMobileHdImageUrl($bannerMobileHdImageUrl)
+  {
+    $this->bannerMobileHdImageUrl = $bannerMobileHdImageUrl;
+  }
+  public function getBannerMobileHdImageUrl()
+  {
+    return $this->bannerMobileHdImageUrl;
+  }
+  public function setBannerMobileImageUrl($bannerMobileImageUrl)
+  {
+    $this->bannerMobileImageUrl = $bannerMobileImageUrl;
+  }
+  public function getBannerMobileImageUrl()
+  {
+    return $this->bannerMobileImageUrl;
+  }
+  public function setBannerMobileLowImageUrl($bannerMobileLowImageUrl)
+  {
+    $this->bannerMobileLowImageUrl = $bannerMobileLowImageUrl;
+  }
+  public function getBannerMobileLowImageUrl()
+  {
+    return $this->bannerMobileLowImageUrl;
+  }
+  public function setBannerMobileMediumHdImageUrl($bannerMobileMediumHdImageUrl)
+  {
+    $this->bannerMobileMediumHdImageUrl = $bannerMobileMediumHdImageUrl;
+  }
+  public function getBannerMobileMediumHdImageUrl()
+  {
+    return $this->bannerMobileMediumHdImageUrl;
+  }
+  public function setBannerTabletExtraHdImageUrl($bannerTabletExtraHdImageUrl)
+  {
+    $this->bannerTabletExtraHdImageUrl = $bannerTabletExtraHdImageUrl;
+  }
+  public function getBannerTabletExtraHdImageUrl()
+  {
+    return $this->bannerTabletExtraHdImageUrl;
+  }
+  public function setBannerTabletHdImageUrl($bannerTabletHdImageUrl)
+  {
+    $this->bannerTabletHdImageUrl = $bannerTabletHdImageUrl;
+  }
+  public function getBannerTabletHdImageUrl()
+  {
+    return $this->bannerTabletHdImageUrl;
+  }
+  public function setBannerTabletImageUrl($bannerTabletImageUrl)
+  {
+    $this->bannerTabletImageUrl = $bannerTabletImageUrl;
+  }
+  public function getBannerTabletImageUrl()
+  {
+    return $this->bannerTabletImageUrl;
+  }
+  public function setBannerTabletLowImageUrl($bannerTabletLowImageUrl)
+  {
+    $this->bannerTabletLowImageUrl = $bannerTabletLowImageUrl;
+  }
+  public function getBannerTabletLowImageUrl()
+  {
+    return $this->bannerTabletLowImageUrl;
+  }
+  public function setBannerTvHighImageUrl($bannerTvHighImageUrl)
+  {
+    $this->bannerTvHighImageUrl = $bannerTvHighImageUrl;
+  }
+  public function getBannerTvHighImageUrl()
+  {
+    return $this->bannerTvHighImageUrl;
+  }
+  public function setBannerTvImageUrl($bannerTvImageUrl)
+  {
+    $this->bannerTvImageUrl = $bannerTvImageUrl;
+  }
+  public function getBannerTvImageUrl()
+  {
+    return $this->bannerTvImageUrl;
+  }
+  public function setBannerTvLowImageUrl($bannerTvLowImageUrl)
+  {
+    $this->bannerTvLowImageUrl = $bannerTvLowImageUrl;
+  }
+  public function getBannerTvLowImageUrl()
+  {
+    return $this->bannerTvLowImageUrl;
+  }
+  public function setBannerTvMediumImageUrl($bannerTvMediumImageUrl)
+  {
+    $this->bannerTvMediumImageUrl = $bannerTvMediumImageUrl;
+  }
+  public function getBannerTvMediumImageUrl()
+  {
+    return $this->bannerTvMediumImageUrl;
+  }
+  /**
+   * @param LocalizedProperty
+   */
+  public function setLargeBrandedBannerImageImapScript(LocalizedProperty $largeBrandedBannerImageImapScript)
+  {
+    $this->largeBrandedBannerImageImapScript = $largeBrandedBannerImageImapScript;
+  }
+  /**
+   * @return LocalizedProperty
+   */
+  public function getLargeBrandedBannerImageImapScript()
+  {
+    return $this->largeBrandedBannerImageImapScript;
+  }
+  /**
+   * @param LocalizedProperty
+   */
+  public function setLargeBrandedBannerImageUrl(LocalizedProperty $largeBrandedBannerImageUrl)
+  {
+    $this->largeBrandedBannerImageUrl = $largeBrandedBannerImageUrl;
+  }
+  /**
+   * @return LocalizedProperty
+   */
+  public function getLargeBrandedBannerImageUrl()
+  {
+    return $this->largeBrandedBannerImageUrl;
+  }
+  /**
+   * @param LocalizedProperty
+   */
+  public function setSmallBrandedBannerImageImapScript(LocalizedProperty $smallBrandedBannerImageImapScript)
+  {
+    $this->smallBrandedBannerImageImapScript = $smallBrandedBannerImageImapScript;
+  }
+  /**
+   * @return LocalizedProperty
+   */
+  public function getSmallBrandedBannerImageImapScript()
+  {
+    return $this->smallBrandedBannerImageImapScript;
+  }
+  /**
+   * @param LocalizedProperty
+   */
+  public function setSmallBrandedBannerImageUrl(LocalizedProperty $smallBrandedBannerImageUrl)
+  {
+    $this->smallBrandedBannerImageUrl = $smallBrandedBannerImageUrl;
+  }
+  /**
+   * @return LocalizedProperty
+   */
+  public function getSmallBrandedBannerImageUrl()
+  {
+    return $this->smallBrandedBannerImageUrl;
+  }
+  public function setTrackingImageUrl($trackingImageUrl)
+  {
+    $this->trackingImageUrl = $trackingImageUrl;
+  }
+  public function getTrackingImageUrl()
+  {
+    return $this->trackingImageUrl;
+  }
+  public function setWatchIconImageUrl($watchIconImageUrl)
+  {
+    $this->watchIconImageUrl = $watchIconImageUrl;
+  }
+  public function getWatchIconImageUrl()
+  {
+    return $this->watchIconImageUrl;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ImageSettings::class, 'Google_Service_YouTube_ImageSettings');

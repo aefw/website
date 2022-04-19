@@ -1,59 +1,71 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AnalyticsReporting;
+
+class SegmentMetricFilter extends \Google\Model
+{
+  public $comparisonValue;
+  public $maxComparisonValue;
+  public $metricName;
+  public $operator;
+  public $scope;
+
+  public function setComparisonValue($comparisonValue)
+  {
+    $this->comparisonValue = $comparisonValue;
+  }
+  public function getComparisonValue()
+  {
+    return $this->comparisonValue;
+  }
+  public function setMaxComparisonValue($maxComparisonValue)
+  {
+    $this->maxComparisonValue = $maxComparisonValue;
+  }
+  public function getMaxComparisonValue()
+  {
+    return $this->maxComparisonValue;
+  }
+  public function setMetricName($metricName)
+  {
+    $this->metricName = $metricName;
+  }
+  public function getMetricName()
+  {
+    return $this->metricName;
+  }
+  public function setOperator($operator)
+  {
+    $this->operator = $operator;
+  }
+  public function getOperator()
+  {
+    return $this->operator;
+  }
+  public function setScope($scope)
+  {
+    $this->scope = $scope;
+  }
+  public function getScope()
+  {
+    return $this->scope;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(SegmentMetricFilter::class, 'Google_Service_AnalyticsReporting_SegmentMetricFilter');

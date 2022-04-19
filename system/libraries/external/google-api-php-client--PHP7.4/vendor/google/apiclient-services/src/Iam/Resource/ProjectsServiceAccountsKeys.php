@@ -1,66 +1,139 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-7EmVCW==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Iam\Resource;
+
+use Google\Service\Iam\CreateServiceAccountKeyRequest;
+use Google\Service\Iam\IamEmpty;
+use Google\Service\Iam\ListServiceAccountKeysResponse;
+use Google\Service\Iam\ServiceAccountKey;
+use Google\Service\Iam\UploadServiceAccountKeyRequest;
+
+/**
+ * The "keys" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $iamService = new Google\Service\Iam(...);
+ *   $keys = $iamService->keys;
+ *  </code>
+ */
+class ProjectsServiceAccountsKeys extends \Google\Service\Resource
+{
+  /**
+   * Creates a ServiceAccountKey. (keys.create)
+   *
+   * @param string $name Required. The resource name of the service account in the
+   * following format: `projects/{PROJECT_ID}/serviceAccounts/{ACCOUNT}`. Using
+   * `-` as a wildcard for the `PROJECT_ID` will infer the project from the
+   * account. The `ACCOUNT` value can be the `email` address or the `unique_id` of
+   * the service account.
+   * @param CreateServiceAccountKeyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return ServiceAccountKey
+   */
+  public function create($name, CreateServiceAccountKeyRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], ServiceAccountKey::class);
+  }
+  /**
+   * Deletes a ServiceAccountKey. Deleting a service account key does not revoke
+   * short-lived credentials that have been issued based on the service account
+   * key. (keys.delete)
+   *
+   * @param string $name Required. The resource name of the service account key in
+   * the following format:
+   * `projects/{PROJECT_ID}/serviceAccounts/{ACCOUNT}/keys/{key}`. Using `-` as a
+   * wildcard for the `PROJECT_ID` will infer the project from the account. The
+   * `ACCOUNT` value can be the `email` address or the `unique_id` of the service
+   * account.
+   * @param array $optParams Optional parameters.
+   * @return IamEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], IamEmpty::class);
+  }
+  /**
+   * Gets a ServiceAccountKey. (keys.get)
+   *
+   * @param string $name Required. The resource name of the service account key in
+   * the following format:
+   * `projects/{PROJECT_ID}/serviceAccounts/{ACCOUNT}/keys/{key}`. Using `-` as a
+   * wildcard for the `PROJECT_ID` will infer the project from the account. The
+   * `ACCOUNT` value can be the `email` address or the `unique_id` of the service
+   * account.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string publicKeyType The output format of the public key
+   * requested. X509_PEM is the default output format.
+   * @return ServiceAccountKey
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], ServiceAccountKey::class);
+  }
+  /**
+   * Lists every ServiceAccountKey for a service account.
+   * (keys.listProjectsServiceAccountsKeys)
+   *
+   * @param string $name Required. The resource name of the service account in the
+   * following format: `projects/{PROJECT_ID}/serviceAccounts/{ACCOUNT}`. Using
+   * `-` as a wildcard for the `PROJECT_ID`, will infer the project from the
+   * account. The `ACCOUNT` value can be the `email` address or the `unique_id` of
+   * the service account.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string keyTypes Filters the types of keys the user wants to
+   * include in the list response. Duplicate key types are not allowed. If no key
+   * type is provided, all keys are returned.
+   * @return ListServiceAccountKeysResponse
+   */
+  public function listProjectsServiceAccountsKeys($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListServiceAccountKeysResponse::class);
+  }
+  /**
+   * Creates a ServiceAccountKey, using a public key that you provide.
+   * (keys.upload)
+   *
+   * @param string $name The resource name of the service account in the following
+   * format: `projects/{PROJECT_ID}/serviceAccounts/{ACCOUNT}`. Using `-` as a
+   * wildcard for the `PROJECT_ID` will infer the project from the account. The
+   * `ACCOUNT` value can be the `email` address or the `unique_id` of the service
+   * account.
+   * @param UploadServiceAccountKeyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return ServiceAccountKey
+   */
+  public function upload($name, UploadServiceAccountKeyRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('upload', [$params], ServiceAccountKey::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsServiceAccountsKeys::class, 'Google_Service_Iam_Resource_ProjectsServiceAccountsKeys');

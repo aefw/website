@@ -1,81 +1,450 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for Script (v1).
+ *
+ * <p>
+ * Manages and executes Google Apps Script projects.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://developers.google.com/apps-script/api/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class Script extends \Google\Service
+{
+  /** Read, compose, send, and permanently delete all your email from Gmail. */
+  const MAIL_GOOGLE_COM =
+      "https://mail.google.com/";
+  /** See, edit, share, and permanently delete all the calendars you can access using Google Calendar. */
+  const WWW_GOOGLE_COM_CALENDAR_FEEDS =
+      "https://www.google.com/calendar/feeds";
+  /** See, edit, download, and permanently delete your contacts. */
+  const WWW_GOOGLE_COM_M8_FEEDS =
+      "https://www.google.com/m8/feeds";
+  /** View and manage the provisioning of groups on your domain. */
+  const ADMIN_DIRECTORY_GROUP =
+      "https://www.googleapis.com/auth/admin.directory.group";
+  /** View and manage the provisioning of users on your domain. */
+  const ADMIN_DIRECTORY_USER =
+      "https://www.googleapis.com/auth/admin.directory.user";
+  /** See, create, and edit all Google Docs documents you have access to. */
+  const DOCUMENTS =
+      "https://www.googleapis.com/auth/documents";
+  /** See, edit, create, and delete all of your Google Drive files. */
+  const DRIVE =
+      "https://www.googleapis.com/auth/drive";
+  /** View and manage your forms in Google Drive. */
+  const FORMS =
+      "https://www.googleapis.com/auth/forms";
+  /** View and manage forms that this application has been installed in. */
+  const FORMS_CURRENTONLY =
+      "https://www.googleapis.com/auth/forms.currentonly";
+  /** View and manage your Google Groups. */
+  const GROUPS =
+      "https://www.googleapis.com/auth/groups";
+  /** Create and update Google Apps Script deployments. */
+  const SCRIPT_DEPLOYMENTS =
+      "https://www.googleapis.com/auth/script.deployments";
+  /** View Google Apps Script deployments. */
+  const SCRIPT_DEPLOYMENTS_READONLY =
+      "https://www.googleapis.com/auth/script.deployments.readonly";
+  /** View Google Apps Script project's metrics. */
+  const SCRIPT_METRICS =
+      "https://www.googleapis.com/auth/script.metrics";
+  /** View Google Apps Script processes. */
+  const SCRIPT_PROCESSES =
+      "https://www.googleapis.com/auth/script.processes";
+  /** Create and update Google Apps Script projects. */
+  const SCRIPT_PROJECTS =
+      "https://www.googleapis.com/auth/script.projects";
+  /** View Google Apps Script projects. */
+  const SCRIPT_PROJECTS_READONLY =
+      "https://www.googleapis.com/auth/script.projects.readonly";
+  /** See, edit, create, and delete your spreadsheets in Google Drive. */
+  const SPREADSHEETS =
+      "https://www.googleapis.com/auth/spreadsheets";
+  /** See your primary Google Account email address. */
+  const USERINFO_EMAIL =
+      "https://www.googleapis.com/auth/userinfo.email";
+
+  public $processes;
+  public $projects;
+  public $projects_deployments;
+  public $projects_versions;
+  public $scripts;
+
+  /**
+   * Constructs the internal representation of the Script service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://script.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'script';
+
+    $this->processes = new Script\Resource\Processes(
+        $this,
+        $this->serviceName,
+        'processes',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/processes',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProcessFilter.deploymentId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProcessFilter.endTime' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProcessFilter.functionName' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProcessFilter.projectName' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProcessFilter.scriptId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProcessFilter.startTime' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userProcessFilter.statuses' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'userProcessFilter.types' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'userProcessFilter.userAccessLevels' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],'listScriptProcesses' => [
+              'path' => 'v1/processes:listScriptProcesses',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'scriptId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'scriptProcessFilter.deploymentId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'scriptProcessFilter.endTime' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'scriptProcessFilter.functionName' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'scriptProcessFilter.startTime' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'scriptProcessFilter.statuses' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'scriptProcessFilter.types' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'scriptProcessFilter.userAccessLevels' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects = new Script\Resource\Projects(
+        $this,
+        $this->serviceName,
+        'projects',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/projects',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'get' => [
+              'path' => 'v1/projects/{scriptId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'scriptId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getContent' => [
+              'path' => 'v1/projects/{scriptId}/content',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'scriptId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'versionNumber' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'getMetrics' => [
+              'path' => 'v1/projects/{scriptId}/metrics',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'scriptId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'metricsFilter.deploymentId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'metricsGranularity' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'updateContent' => [
+              'path' => 'v1/projects/{scriptId}/content',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'scriptId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_deployments = new Script\Resource\ProjectsDeployments(
+        $this,
+        $this->serviceName,
+        'deployments',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/projects/{scriptId}/deployments',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'scriptId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/projects/{scriptId}/deployments/{deploymentId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'scriptId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'deploymentId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/projects/{scriptId}/deployments/{deploymentId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'scriptId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'deploymentId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/projects/{scriptId}/deployments',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'scriptId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'v1/projects/{scriptId}/deployments/{deploymentId}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'scriptId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'deploymentId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_versions = new Script\Resource\ProjectsVersions(
+        $this,
+        $this->serviceName,
+        'versions',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/projects/{scriptId}/versions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'scriptId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/projects/{scriptId}/versions/{versionNumber}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'scriptId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'versionNumber' => [
+                  'location' => 'path',
+                  'type' => 'integer',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/projects/{scriptId}/versions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'scriptId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->scripts = new Script\Resource\Scripts(
+        $this,
+        $this->serviceName,
+        'scripts',
+        [
+          'methods' => [
+            'run' => [
+              'path' => 'v1/scripts/{scriptId}:run',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'scriptId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Script::class, 'Google_Service_Script');

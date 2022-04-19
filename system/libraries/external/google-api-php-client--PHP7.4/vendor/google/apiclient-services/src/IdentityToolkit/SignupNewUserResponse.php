@@ -1,66 +1,89 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\IdentityToolkit;
+
+class SignupNewUserResponse extends \Google\Model
+{
+  public $displayName;
+  public $email;
+  public $expiresIn;
+  public $idToken;
+  public $kind;
+  public $localId;
+  public $refreshToken;
+
+  public function setDisplayName($displayName)
+  {
+    $this->displayName = $displayName;
+  }
+  public function getDisplayName()
+  {
+    return $this->displayName;
+  }
+  public function setEmail($email)
+  {
+    $this->email = $email;
+  }
+  public function getEmail()
+  {
+    return $this->email;
+  }
+  public function setExpiresIn($expiresIn)
+  {
+    $this->expiresIn = $expiresIn;
+  }
+  public function getExpiresIn()
+  {
+    return $this->expiresIn;
+  }
+  public function setIdToken($idToken)
+  {
+    $this->idToken = $idToken;
+  }
+  public function getIdToken()
+  {
+    return $this->idToken;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setLocalId($localId)
+  {
+    $this->localId = $localId;
+  }
+  public function getLocalId()
+  {
+    return $this->localId;
+  }
+  public function setRefreshToken($refreshToken)
+  {
+    $this->refreshToken = $refreshToken;
+  }
+  public function getRefreshToken()
+  {
+    return $this->refreshToken;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(SignupNewUserResponse::class, 'Google_Service_IdentityToolkit_SignupNewUserResponse');

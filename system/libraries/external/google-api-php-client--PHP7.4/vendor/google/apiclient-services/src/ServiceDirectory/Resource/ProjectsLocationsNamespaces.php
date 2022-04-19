@@ -1,85 +1,199 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-AgT72t3V6y6F39qq55e+lYG2E1y=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ServiceDirectory\Resource;
+
+use Google\Service\ServiceDirectory\GetIamPolicyRequest;
+use Google\Service\ServiceDirectory\ListNamespacesResponse;
+use Google\Service\ServiceDirectory\Policy;
+use Google\Service\ServiceDirectory\ServicedirectoryEmpty;
+use Google\Service\ServiceDirectory\ServicedirectoryNamespace;
+use Google\Service\ServiceDirectory\SetIamPolicyRequest;
+use Google\Service\ServiceDirectory\TestIamPermissionsRequest;
+use Google\Service\ServiceDirectory\TestIamPermissionsResponse;
+
+/**
+ * The "namespaces" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $servicedirectoryService = new Google\Service\ServiceDirectory(...);
+ *   $namespaces = $servicedirectoryService->namespaces;
+ *  </code>
+ */
+class ProjectsLocationsNamespaces extends \Google\Service\Resource
+{
+  /**
+   * Creates a namespace, and returns the new namespace. (namespaces.create)
+   *
+   * @param string $parent Required. The resource name of the project and location
+   * the namespace will be created in.
+   * @param ServicedirectoryNamespace $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string namespaceId Required. The Resource ID must be 1-63
+   * characters long, and comply with RFC1035. Specifically, the name must be 1-63
+   * characters long and match the regular expression
+   * `[a-z](?:[-a-z0-9]{0,61}[a-z0-9])?` which means the first character must be a
+   * lowercase letter, and all following characters must be a dash, lowercase
+   * letter, or digit, except the last character, which cannot be a dash.
+   * @return ServicedirectoryNamespace
+   */
+  public function create($parent, ServicedirectoryNamespace $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], ServicedirectoryNamespace::class);
+  }
+  /**
+   * Deletes a namespace. This also deletes all services and endpoints in the
+   * namespace. (namespaces.delete)
+   *
+   * @param string $name Required. The name of the namespace to delete.
+   * @param array $optParams Optional parameters.
+   * @return ServicedirectoryEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], ServicedirectoryEmpty::class);
+  }
+  /**
+   * Gets a namespace. (namespaces.get)
+   *
+   * @param string $name Required. The name of the namespace to retrieve.
+   * @param array $optParams Optional parameters.
+   * @return ServicedirectoryNamespace
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], ServicedirectoryNamespace::class);
+  }
+  /**
+   * Gets the IAM Policy for a resource (namespace or service only).
+   * (namespaces.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param GetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function getIamPolicy($resource, GetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Lists all namespaces. (namespaces.listProjectsLocationsNamespaces)
+   *
+   * @param string $parent Required. The resource name of the project and location
+   * whose namespaces you'd like to list.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Optional. The filter to list results by. General
+   * `filter` string syntax: ` ()` * `` can be `name` or `labels.` for map field *
+   * `` can be `<`, `>`, `<=`, `>=`, `!=`, `=`, `:`. Of which `:` means `HAS`, and
+   * is roughly the same as `=` * `` must be the same data type as field * `` can
+   * be `AND`, `OR`, `NOT` Examples of valid filters: * `labels.owner` returns
+   * namespaces that have a label with the key `owner`, this is the same as
+   * `labels:owner` * `labels.owner=sd` returns namespaces that have key/value
+   * `owner=sd` * `name>projects/my-project/locations/us-
+   * east1/namespaces/namespace-c` returns namespaces that have name that is
+   * alphabetically later than the string, so "namespace-e" is returned but
+   * "namespace-a" is not * `labels.owner!=sd AND labels.foo=bar` returns
+   * namespaces that have `owner` in label key but value is not `sd` AND have
+   * key/value `foo=bar` * `doesnotexist.foo=bar` returns an empty list. Note that
+   * namespace doesn't have a field called "doesnotexist". Since the filter does
+   * not match any namespaces, it returns no results For more information about
+   * filtering, see [API Filtering](https://aip.dev/160).
+   * @opt_param string orderBy Optional. The order to list results by. General
+   * `order_by` string syntax: ` () (,)` * `` allows value: `name` * `` ascending
+   * or descending order by ``. If this is left blank, `asc` is used Note that an
+   * empty `order_by` string results in default order, which is order by `name` in
+   * ascending order.
+   * @opt_param int pageSize Optional. The maximum number of items to return.
+   * @opt_param string pageToken Optional. The next_page_token value returned from
+   * a previous List request, if any.
+   * @return ListNamespacesResponse
+   */
+  public function listProjectsLocationsNamespaces($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListNamespacesResponse::class);
+  }
+  /**
+   * Updates a namespace. (namespaces.patch)
+   *
+   * @param string $name Immutable. The resource name for the namespace in the
+   * format `projects/locations/namespaces`.
+   * @param ServicedirectoryNamespace $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. List of fields to be updated in this
+   * request.
+   * @return ServicedirectoryNamespace
+   */
+  public function patch($name, ServicedirectoryNamespace $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], ServicedirectoryNamespace::class);
+  }
+  /**
+   * Sets the IAM Policy for a resource (namespace or service only).
+   * (namespaces.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Tests IAM permissions for a resource (namespace or service only).
+   * (namespaces.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsNamespaces::class, 'Google_Service_ServiceDirectory_Resource_ProjectsLocationsNamespaces');

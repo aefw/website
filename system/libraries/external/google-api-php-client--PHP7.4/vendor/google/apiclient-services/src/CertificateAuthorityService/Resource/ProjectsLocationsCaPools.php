@@ -1,92 +1,244 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-5JFSrVEu8KU/cipwlG3a1ru=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CertificateAuthorityService\Resource;
+
+use Google\Service\CertificateAuthorityService\CaPool;
+use Google\Service\CertificateAuthorityService\FetchCaCertsRequest;
+use Google\Service\CertificateAuthorityService\FetchCaCertsResponse;
+use Google\Service\CertificateAuthorityService\ListCaPoolsResponse;
+use Google\Service\CertificateAuthorityService\Operation;
+use Google\Service\CertificateAuthorityService\Policy;
+use Google\Service\CertificateAuthorityService\SetIamPolicyRequest;
+use Google\Service\CertificateAuthorityService\TestIamPermissionsRequest;
+use Google\Service\CertificateAuthorityService\TestIamPermissionsResponse;
+
+/**
+ * The "caPools" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $privatecaService = new Google\Service\CertificateAuthorityService(...);
+ *   $caPools = $privatecaService->caPools;
+ *  </code>
+ */
+class ProjectsLocationsCaPools extends \Google\Service\Resource
+{
+  /**
+   * Create a CaPool. (caPools.create)
+   *
+   * @param string $parent Required. The resource name of the location associated
+   * with the CaPool, in the format `projects/locations`.
+   * @param CaPool $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string caPoolId Required. It must be unique within a location and
+   * match the regular expression `[a-zA-Z0-9_-]{1,63}`
+   * @opt_param string requestId Optional. An ID to identify requests. Specify a
+   * unique request ID so that if you must retry your request, the server will
+   * know to ignore the request if it has already been completed. The server will
+   * guarantee that for at least 60 minutes since the first request. For example,
+   * consider a situation where you make an initial request and t he request times
+   * out. If you make the request again with the same request ID, the server can
+   * check if original operation with the same request ID was received, and if so,
+   * will ignore the second request. This prevents clients from accidentally
+   * creating duplicate commitments. The request ID must be a valid UUID with the
+   * exception that zero UUID is not supported
+   * (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function create($parent, CaPool $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Operation::class);
+  }
+  /**
+   * Delete a CaPool. (caPools.delete)
+   *
+   * @param string $name Required. The resource name for this CaPool in the format
+   * `projects/locations/caPools`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId Optional. An ID to identify requests. Specify a
+   * unique request ID so that if you must retry your request, the server will
+   * know to ignore the request if it has already been completed. The server will
+   * guarantee that for at least 60 minutes since the first request. For example,
+   * consider a situation where you make an initial request and t he request times
+   * out. If you make the request again with the same request ID, the server can
+   * check if original operation with the same request ID was received, and if so,
+   * will ignore the second request. This prevents clients from accidentally
+   * creating duplicate commitments. The request ID must be a valid UUID with the
+   * exception that zero UUID is not supported
+   * (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * FetchCaCerts returns the current trust anchor for the CaPool. This will
+   * include CA certificate chains for all ACTIVE CertificateAuthority resources
+   * in the CaPool. (caPools.fetchCaCerts)
+   *
+   * @param string $caPool Required. The resource name for the CaPool in the
+   * format `projects/locations/caPools`.
+   * @param FetchCaCertsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return FetchCaCertsResponse
+   */
+  public function fetchCaCerts($caPool, FetchCaCertsRequest $postBody, $optParams = [])
+  {
+    $params = ['caPool' => $caPool, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('fetchCaCerts', [$params], FetchCaCertsResponse::class);
+  }
+  /**
+   * Returns a CaPool. (caPools.get)
+   *
+   * @param string $name Required. The name of the CaPool to get.
+   * @param array $optParams Optional parameters.
+   * @return CaPool
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], CaPool::class);
+  }
+  /**
+   * Gets the access control policy for a resource. Returns an empty policy if the
+   * resource exists and does not have a policy set. (caPools.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int options.requestedPolicyVersion Optional. The policy format
+   * version to be returned. Valid values are 0, 1, and 3. Requests specifying an
+   * invalid value will be rejected. Requests for policies with any conditional
+   * bindings must specify version 3. Policies without any conditional bindings
+   * may specify any valid value or leave the field unset. To learn which
+   * resources support conditions in their IAM policies, see the [IAM
+   * documentation](https://cloud.google.com/iam/help/conditions/resource-
+   * policies).
+   * @return Policy
+   */
+  public function getIamPolicy($resource, $optParams = [])
+  {
+    $params = ['resource' => $resource];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Lists CaPools. (caPools.listProjectsLocationsCaPools)
+   *
+   * @param string $parent Required. The resource name of the location associated
+   * with the CaPools, in the format `projects/locations`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Optional. Only include resources that match the
+   * filter in the response.
+   * @opt_param string orderBy Optional. Specify how the results should be sorted.
+   * @opt_param int pageSize Optional. Limit on the number of CaPools to include
+   * in the response. Further CaPools can subsequently be obtained by including
+   * the ListCaPoolsResponse.next_page_token in a subsequent request. If
+   * unspecified, the server will pick an appropriate default.
+   * @opt_param string pageToken Optional. Pagination token, returned earlier via
+   * ListCaPoolsResponse.next_page_token.
+   * @return ListCaPoolsResponse
+   */
+  public function listProjectsLocationsCaPools($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListCaPoolsResponse::class);
+  }
+  /**
+   * Update a CaPool. (caPools.patch)
+   *
+   * @param string $name Output only. The resource name for this CaPool in the
+   * format `projects/locations/caPools`.
+   * @param CaPool $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId Optional. An ID to identify requests. Specify a
+   * unique request ID so that if you must retry your request, the server will
+   * know to ignore the request if it has already been completed. The server will
+   * guarantee that for at least 60 minutes since the first request. For example,
+   * consider a situation where you make an initial request and t he request times
+   * out. If you make the request again with the same request ID, the server can
+   * check if original operation with the same request ID was received, and if so,
+   * will ignore the second request. This prevents clients from accidentally
+   * creating duplicate commitments. The request ID must be a valid UUID with the
+   * exception that zero UUID is not supported
+   * (00000000-0000-0000-0000-000000000000).
+   * @opt_param string updateMask Required. A list of fields to be updated in this
+   * request.
+   * @return Operation
+   */
+  public function patch($name, CaPool $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+  /**
+   * Sets the access control policy on the specified resource. Replaces any
+   * existing policy. Can return `NOT_FOUND`, `INVALID_ARGUMENT`, and
+   * `PERMISSION_DENIED` errors. (caPools.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource. If the
+   * resource does not exist, this will return an empty set of permissions, not a
+   * `NOT_FOUND` error. Note: This operation is designed to be used for building
+   * permission-aware UIs and command-line tools, not for authorization checking.
+   * This operation may "fail open" without warning. (caPools.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsCaPools::class, 'Google_Service_CertificateAuthorityService_Resource_ProjectsLocationsCaPools');

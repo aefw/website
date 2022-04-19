@@ -1,103 +1,199 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute;
+
+class NodeTemplate extends \Google\Collection
+{
+  protected $collection_key = 'disks';
+  protected $acceleratorsType = AcceleratorConfig::class;
+  protected $acceleratorsDataType = 'array';
+  public $cpuOvercommitType;
+  public $creationTimestamp;
+  public $description;
+  protected $disksType = LocalDisk::class;
+  protected $disksDataType = 'array';
+  public $id;
+  public $kind;
+  public $name;
+  public $nodeAffinityLabels;
+  public $nodeType;
+  protected $nodeTypeFlexibilityType = NodeTemplateNodeTypeFlexibility::class;
+  protected $nodeTypeFlexibilityDataType = '';
+  public $region;
+  public $selfLink;
+  protected $serverBindingType = ServerBinding::class;
+  protected $serverBindingDataType = '';
+  public $status;
+  public $statusMessage;
+
+  /**
+   * @param AcceleratorConfig[]
+   */
+  public function setAccelerators($accelerators)
+  {
+    $this->accelerators = $accelerators;
+  }
+  /**
+   * @return AcceleratorConfig[]
+   */
+  public function getAccelerators()
+  {
+    return $this->accelerators;
+  }
+  public function setCpuOvercommitType($cpuOvercommitType)
+  {
+    $this->cpuOvercommitType = $cpuOvercommitType;
+  }
+  public function getCpuOvercommitType()
+  {
+    return $this->cpuOvercommitType;
+  }
+  public function setCreationTimestamp($creationTimestamp)
+  {
+    $this->creationTimestamp = $creationTimestamp;
+  }
+  public function getCreationTimestamp()
+  {
+    return $this->creationTimestamp;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  /**
+   * @param LocalDisk[]
+   */
+  public function setDisks($disks)
+  {
+    $this->disks = $disks;
+  }
+  /**
+   * @return LocalDisk[]
+   */
+  public function getDisks()
+  {
+    return $this->disks;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setNodeAffinityLabels($nodeAffinityLabels)
+  {
+    $this->nodeAffinityLabels = $nodeAffinityLabels;
+  }
+  public function getNodeAffinityLabels()
+  {
+    return $this->nodeAffinityLabels;
+  }
+  public function setNodeType($nodeType)
+  {
+    $this->nodeType = $nodeType;
+  }
+  public function getNodeType()
+  {
+    return $this->nodeType;
+  }
+  /**
+   * @param NodeTemplateNodeTypeFlexibility
+   */
+  public function setNodeTypeFlexibility(NodeTemplateNodeTypeFlexibility $nodeTypeFlexibility)
+  {
+    $this->nodeTypeFlexibility = $nodeTypeFlexibility;
+  }
+  /**
+   * @return NodeTemplateNodeTypeFlexibility
+   */
+  public function getNodeTypeFlexibility()
+  {
+    return $this->nodeTypeFlexibility;
+  }
+  public function setRegion($region)
+  {
+    $this->region = $region;
+  }
+  public function getRegion()
+  {
+    return $this->region;
+  }
+  public function setSelfLink($selfLink)
+  {
+    $this->selfLink = $selfLink;
+  }
+  public function getSelfLink()
+  {
+    return $this->selfLink;
+  }
+  /**
+   * @param ServerBinding
+   */
+  public function setServerBinding(ServerBinding $serverBinding)
+  {
+    $this->serverBinding = $serverBinding;
+  }
+  /**
+   * @return ServerBinding
+   */
+  public function getServerBinding()
+  {
+    return $this->serverBinding;
+  }
+  public function setStatus($status)
+  {
+    $this->status = $status;
+  }
+  public function getStatus()
+  {
+    return $this->status;
+  }
+  public function setStatusMessage($statusMessage)
+  {
+    $this->statusMessage = $statusMessage;
+  }
+  public function getStatusMessage()
+  {
+    return $this->statusMessage;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(NodeTemplate::class, 'Google_Service_Compute_NodeTemplate');

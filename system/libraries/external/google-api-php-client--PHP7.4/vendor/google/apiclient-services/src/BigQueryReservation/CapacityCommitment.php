@@ -1,73 +1,105 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-70==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\BigQueryReservation;
+
+class CapacityCommitment extends \Google\Model
+{
+  public $commitmentEndTime;
+  public $commitmentStartTime;
+  protected $failureStatusType = Status::class;
+  protected $failureStatusDataType = '';
+  public $name;
+  public $plan;
+  public $renewalPlan;
+  public $slotCount;
+  public $state;
+
+  public function setCommitmentEndTime($commitmentEndTime)
+  {
+    $this->commitmentEndTime = $commitmentEndTime;
+  }
+  public function getCommitmentEndTime()
+  {
+    return $this->commitmentEndTime;
+  }
+  public function setCommitmentStartTime($commitmentStartTime)
+  {
+    $this->commitmentStartTime = $commitmentStartTime;
+  }
+  public function getCommitmentStartTime()
+  {
+    return $this->commitmentStartTime;
+  }
+  /**
+   * @param Status
+   */
+  public function setFailureStatus(Status $failureStatus)
+  {
+    $this->failureStatus = $failureStatus;
+  }
+  /**
+   * @return Status
+   */
+  public function getFailureStatus()
+  {
+    return $this->failureStatus;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setPlan($plan)
+  {
+    $this->plan = $plan;
+  }
+  public function getPlan()
+  {
+    return $this->plan;
+  }
+  public function setRenewalPlan($renewalPlan)
+  {
+    $this->renewalPlan = $renewalPlan;
+  }
+  public function getRenewalPlan()
+  {
+    return $this->renewalPlan;
+  }
+  public function setSlotCount($slotCount)
+  {
+    $this->slotCount = $slotCount;
+  }
+  public function getSlotCount()
+  {
+    return $this->slotCount;
+  }
+  public function setState($state)
+  {
+    $this->state = $state;
+  }
+  public function getState()
+  {
+    return $this->state;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(CapacityCommitment::class, 'Google_Service_BigQueryReservation_CapacityCommitment');

@@ -1,108 +1,207 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DataprocMetastore;
+
+class Service extends \Google\Model
+{
+  public $artifactGcsUri;
+  public $createTime;
+  public $endpointUri;
+  protected $hiveMetastoreConfigType = HiveMetastoreConfig::class;
+  protected $hiveMetastoreConfigDataType = '';
+  public $labels;
+  protected $maintenanceWindowType = MaintenanceWindow::class;
+  protected $maintenanceWindowDataType = '';
+  protected $metadataIntegrationType = MetadataIntegration::class;
+  protected $metadataIntegrationDataType = '';
+  protected $metadataManagementActivityType = MetadataManagementActivity::class;
+  protected $metadataManagementActivityDataType = '';
+  public $name;
+  public $network;
+  public $port;
+  public $releaseChannel;
+  public $state;
+  public $stateMessage;
+  public $tier;
+  public $uid;
+  public $updateTime;
+
+  public function setArtifactGcsUri($artifactGcsUri)
+  {
+    $this->artifactGcsUri = $artifactGcsUri;
+  }
+  public function getArtifactGcsUri()
+  {
+    return $this->artifactGcsUri;
+  }
+  public function setCreateTime($createTime)
+  {
+    $this->createTime = $createTime;
+  }
+  public function getCreateTime()
+  {
+    return $this->createTime;
+  }
+  public function setEndpointUri($endpointUri)
+  {
+    $this->endpointUri = $endpointUri;
+  }
+  public function getEndpointUri()
+  {
+    return $this->endpointUri;
+  }
+  /**
+   * @param HiveMetastoreConfig
+   */
+  public function setHiveMetastoreConfig(HiveMetastoreConfig $hiveMetastoreConfig)
+  {
+    $this->hiveMetastoreConfig = $hiveMetastoreConfig;
+  }
+  /**
+   * @return HiveMetastoreConfig
+   */
+  public function getHiveMetastoreConfig()
+  {
+    return $this->hiveMetastoreConfig;
+  }
+  public function setLabels($labels)
+  {
+    $this->labels = $labels;
+  }
+  public function getLabels()
+  {
+    return $this->labels;
+  }
+  /**
+   * @param MaintenanceWindow
+   */
+  public function setMaintenanceWindow(MaintenanceWindow $maintenanceWindow)
+  {
+    $this->maintenanceWindow = $maintenanceWindow;
+  }
+  /**
+   * @return MaintenanceWindow
+   */
+  public function getMaintenanceWindow()
+  {
+    return $this->maintenanceWindow;
+  }
+  /**
+   * @param MetadataIntegration
+   */
+  public function setMetadataIntegration(MetadataIntegration $metadataIntegration)
+  {
+    $this->metadataIntegration = $metadataIntegration;
+  }
+  /**
+   * @return MetadataIntegration
+   */
+  public function getMetadataIntegration()
+  {
+    return $this->metadataIntegration;
+  }
+  /**
+   * @param MetadataManagementActivity
+   */
+  public function setMetadataManagementActivity(MetadataManagementActivity $metadataManagementActivity)
+  {
+    $this->metadataManagementActivity = $metadataManagementActivity;
+  }
+  /**
+   * @return MetadataManagementActivity
+   */
+  public function getMetadataManagementActivity()
+  {
+    return $this->metadataManagementActivity;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setNetwork($network)
+  {
+    $this->network = $network;
+  }
+  public function getNetwork()
+  {
+    return $this->network;
+  }
+  public function setPort($port)
+  {
+    $this->port = $port;
+  }
+  public function getPort()
+  {
+    return $this->port;
+  }
+  public function setReleaseChannel($releaseChannel)
+  {
+    $this->releaseChannel = $releaseChannel;
+  }
+  public function getReleaseChannel()
+  {
+    return $this->releaseChannel;
+  }
+  public function setState($state)
+  {
+    $this->state = $state;
+  }
+  public function getState()
+  {
+    return $this->state;
+  }
+  public function setStateMessage($stateMessage)
+  {
+    $this->stateMessage = $stateMessage;
+  }
+  public function getStateMessage()
+  {
+    return $this->stateMessage;
+  }
+  public function setTier($tier)
+  {
+    $this->tier = $tier;
+  }
+  public function getTier()
+  {
+    return $this->tier;
+  }
+  public function setUid($uid)
+  {
+    $this->uid = $uid;
+  }
+  public function getUid()
+  {
+    return $this->uid;
+  }
+  public function setUpdateTime($updateTime)
+  {
+    $this->updateTime = $updateTime;
+  }
+  public function getUpdateTime()
+  {
+    return $this->updateTime;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Service::class, 'Google_Service_DataprocMetastore_Service');

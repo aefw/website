@@ -1,67 +1,97 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-XkhpmDVjHhjKipIe9BBS6zw0NwzKI4oI
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\GKEHub;
+
+class ConfigManagementSyncState extends \Google\Collection
+{
+  protected $collection_key = 'errors';
+  public $code;
+  protected $errorsType = ConfigManagementSyncError::class;
+  protected $errorsDataType = 'array';
+  public $importToken;
+  public $lastSync;
+  public $lastSyncTime;
+  public $sourceToken;
+  public $syncToken;
+
+  public function setCode($code)
+  {
+    $this->code = $code;
+  }
+  public function getCode()
+  {
+    return $this->code;
+  }
+  /**
+   * @param ConfigManagementSyncError[]
+   */
+  public function setErrors($errors)
+  {
+    $this->errors = $errors;
+  }
+  /**
+   * @return ConfigManagementSyncError[]
+   */
+  public function getErrors()
+  {
+    return $this->errors;
+  }
+  public function setImportToken($importToken)
+  {
+    $this->importToken = $importToken;
+  }
+  public function getImportToken()
+  {
+    return $this->importToken;
+  }
+  public function setLastSync($lastSync)
+  {
+    $this->lastSync = $lastSync;
+  }
+  public function getLastSync()
+  {
+    return $this->lastSync;
+  }
+  public function setLastSyncTime($lastSyncTime)
+  {
+    $this->lastSyncTime = $lastSyncTime;
+  }
+  public function getLastSyncTime()
+  {
+    return $this->lastSyncTime;
+  }
+  public function setSourceToken($sourceToken)
+  {
+    $this->sourceToken = $sourceToken;
+  }
+  public function getSourceToken()
+  {
+    return $this->sourceToken;
+  }
+  public function setSyncToken($syncToken)
+  {
+    $this->syncToken = $syncToken;
+  }
+  public function getSyncToken()
+  {
+    return $this->syncToken;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ConfigManagementSyncState::class, 'Google_Service_GKEHub_ConfigManagementSyncState');

@@ -1,66 +1,97 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-kvBLvNGBNwkn7GDNq6kz8LQc21er+m==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dfareporting;
+
+class LandingPage extends \Google\Collection
+{
+  protected $collection_key = 'deepLinks';
+  public $advertiserId;
+  public $archived;
+  protected $deepLinksType = DeepLink::class;
+  protected $deepLinksDataType = 'array';
+  public $id;
+  public $kind;
+  public $name;
+  public $url;
+
+  public function setAdvertiserId($advertiserId)
+  {
+    $this->advertiserId = $advertiserId;
+  }
+  public function getAdvertiserId()
+  {
+    return $this->advertiserId;
+  }
+  public function setArchived($archived)
+  {
+    $this->archived = $archived;
+  }
+  public function getArchived()
+  {
+    return $this->archived;
+  }
+  /**
+   * @param DeepLink[]
+   */
+  public function setDeepLinks($deepLinks)
+  {
+    $this->deepLinks = $deepLinks;
+  }
+  /**
+   * @return DeepLink[]
+   */
+  public function getDeepLinks()
+  {
+    return $this->deepLinks;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setUrl($url)
+  {
+    $this->url = $url;
+  }
+  public function getUrl()
+  {
+    return $this->url;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(LandingPage::class, 'Google_Service_Dfareporting_LandingPage');

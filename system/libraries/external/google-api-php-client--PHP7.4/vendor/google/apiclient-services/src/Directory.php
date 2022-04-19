@@ -1,192 +1,2221 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for Directory (directory_v1).
+ *
+ * <p>
+ * Admin SDK lets administrators of enterprise domains to view and manage
+ * resources like user, groups etc. It also provides audit and usage reports of
+ * domain.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="http://developers.google.com/admin-sdk/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class Directory extends \Google\Service
+{
+  /** See, add, edit, and permanently delete the printers that your organization can use with Chrome. */
+  const ADMIN_CHROME_PRINTERS =
+      "https://www.googleapis.com/auth/admin.chrome.printers";
+  /** See the printers that your organization can use with Chrome. */
+  const ADMIN_CHROME_PRINTERS_READONLY =
+      "https://www.googleapis.com/auth/admin.chrome.printers.readonly";
+  /** View and manage customer related information. */
+  const ADMIN_DIRECTORY_CUSTOMER =
+      "https://www.googleapis.com/auth/admin.directory.customer";
+  /** View customer related information. */
+  const ADMIN_DIRECTORY_CUSTOMER_READONLY =
+      "https://www.googleapis.com/auth/admin.directory.customer.readonly";
+  /** View and manage your Chrome OS devices' metadata. */
+  const ADMIN_DIRECTORY_DEVICE_CHROMEOS =
+      "https://www.googleapis.com/auth/admin.directory.device.chromeos";
+  /** View your Chrome OS devices' metadata. */
+  const ADMIN_DIRECTORY_DEVICE_CHROMEOS_READONLY =
+      "https://www.googleapis.com/auth/admin.directory.device.chromeos.readonly";
+  /** View and manage your mobile devices' metadata. */
+  const ADMIN_DIRECTORY_DEVICE_MOBILE =
+      "https://www.googleapis.com/auth/admin.directory.device.mobile";
+  /** Manage your mobile devices by performing administrative tasks. */
+  const ADMIN_DIRECTORY_DEVICE_MOBILE_ACTION =
+      "https://www.googleapis.com/auth/admin.directory.device.mobile.action";
+  /** View your mobile devices' metadata. */
+  const ADMIN_DIRECTORY_DEVICE_MOBILE_READONLY =
+      "https://www.googleapis.com/auth/admin.directory.device.mobile.readonly";
+  /** View and manage the provisioning of domains for your customers. */
+  const ADMIN_DIRECTORY_DOMAIN =
+      "https://www.googleapis.com/auth/admin.directory.domain";
+  /** View domains related to your customers. */
+  const ADMIN_DIRECTORY_DOMAIN_READONLY =
+      "https://www.googleapis.com/auth/admin.directory.domain.readonly";
+  /** View and manage the provisioning of groups on your domain. */
+  const ADMIN_DIRECTORY_GROUP =
+      "https://www.googleapis.com/auth/admin.directory.group";
+  /** View and manage group subscriptions on your domain. */
+  const ADMIN_DIRECTORY_GROUP_MEMBER =
+      "https://www.googleapis.com/auth/admin.directory.group.member";
+  /** View group subscriptions on your domain. */
+  const ADMIN_DIRECTORY_GROUP_MEMBER_READONLY =
+      "https://www.googleapis.com/auth/admin.directory.group.member.readonly";
+  /** View groups on your domain. */
+  const ADMIN_DIRECTORY_GROUP_READONLY =
+      "https://www.googleapis.com/auth/admin.directory.group.readonly";
+  /** View and manage organization units on your domain. */
+  const ADMIN_DIRECTORY_ORGUNIT =
+      "https://www.googleapis.com/auth/admin.directory.orgunit";
+  /** View organization units on your domain. */
+  const ADMIN_DIRECTORY_ORGUNIT_READONLY =
+      "https://www.googleapis.com/auth/admin.directory.orgunit.readonly";
+  /** View and manage the provisioning of calendar resources on your domain. */
+  const ADMIN_DIRECTORY_RESOURCE_CALENDAR =
+      "https://www.googleapis.com/auth/admin.directory.resource.calendar";
+  /** View calendar resources on your domain. */
+  const ADMIN_DIRECTORY_RESOURCE_CALENDAR_READONLY =
+      "https://www.googleapis.com/auth/admin.directory.resource.calendar.readonly";
+  /** Manage delegated admin roles for your domain. */
+  const ADMIN_DIRECTORY_ROLEMANAGEMENT =
+      "https://www.googleapis.com/auth/admin.directory.rolemanagement";
+  /** View delegated admin roles for your domain. */
+  const ADMIN_DIRECTORY_ROLEMANAGEMENT_READONLY =
+      "https://www.googleapis.com/auth/admin.directory.rolemanagement.readonly";
+  /** View and manage the provisioning of users on your domain. */
+  const ADMIN_DIRECTORY_USER =
+      "https://www.googleapis.com/auth/admin.directory.user";
+  /** View and manage user aliases on your domain. */
+  const ADMIN_DIRECTORY_USER_ALIAS =
+      "https://www.googleapis.com/auth/admin.directory.user.alias";
+  /** View user aliases on your domain. */
+  const ADMIN_DIRECTORY_USER_ALIAS_READONLY =
+      "https://www.googleapis.com/auth/admin.directory.user.alias.readonly";
+  /** See info about users on your domain. */
+  const ADMIN_DIRECTORY_USER_READONLY =
+      "https://www.googleapis.com/auth/admin.directory.user.readonly";
+  /** Manage data access permissions for users on your domain. */
+  const ADMIN_DIRECTORY_USER_SECURITY =
+      "https://www.googleapis.com/auth/admin.directory.user.security";
+  /** View and manage the provisioning of user schemas on your domain. */
+  const ADMIN_DIRECTORY_USERSCHEMA =
+      "https://www.googleapis.com/auth/admin.directory.userschema";
+  /** View user schemas on your domain. */
+  const ADMIN_DIRECTORY_USERSCHEMA_READONLY =
+      "https://www.googleapis.com/auth/admin.directory.userschema.readonly";
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+
+  public $asps;
+  public $channels;
+  public $chromeosdevices;
+  public $customer_devices_chromeos;
+  public $customer_devices_chromeos_commands;
+  public $customers;
+  public $customers_chrome_printers;
+  public $domainAliases;
+  public $domains;
+  public $groups;
+  public $groups_aliases;
+  public $members;
+  public $mobiledevices;
+  public $orgunits;
+  public $privileges;
+  public $resources_buildings;
+  public $resources_calendars;
+  public $resources_features;
+  public $roleAssignments;
+  public $roles;
+  public $schemas;
+  public $tokens;
+  public $twoStepVerification;
+  public $users;
+  public $users_aliases;
+  public $users_photos;
+  public $verificationCodes;
+
+  /**
+   * Constructs the internal representation of the Directory service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://admin.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'directory_v1';
+    $this->serviceName = 'admin';
+
+    $this->asps = new Directory\Resource\Asps(
+        $this,
+        $this->serviceName,
+        'asps',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'admin/directory/v1/users/{userKey}/asps/{codeId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'userKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'codeId' => [
+                  'location' => 'path',
+                  'type' => 'integer',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'admin/directory/v1/users/{userKey}/asps/{codeId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'codeId' => [
+                  'location' => 'path',
+                  'type' => 'integer',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'admin/directory/v1/users/{userKey}/asps',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->channels = new Directory\Resource\Channels(
+        $this,
+        $this->serviceName,
+        'channels',
+        [
+          'methods' => [
+            'stop' => [
+              'path' => 'admin/directory_v1/channels/stop',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],
+          ]
+        ]
+    );
+    $this->chromeosdevices = new Directory\Resource\Chromeosdevices(
+        $this,
+        $this->serviceName,
+        'chromeosdevices',
+        [
+          'methods' => [
+            'action' => [
+              'path' => 'admin/directory/v1/customer/{customerId}/devices/chromeos/{resourceId}/action',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'customerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'resourceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'admin/directory/v1/customer/{customerId}/devices/chromeos/{deviceId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'customerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'deviceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'projection' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'admin/directory/v1/customer/{customerId}/devices/chromeos',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'customerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orgUnitPath' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'projection' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'query' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortOrder' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'moveDevicesToOu' => [
+              'path' => 'admin/directory/v1/customer/{customerId}/devices/chromeos/moveDevicesToOu',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'customerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'orgUnitPath' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'admin/directory/v1/customer/{customerId}/devices/chromeos/{deviceId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'customerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'deviceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'projection' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'admin/directory/v1/customer/{customerId}/devices/chromeos/{deviceId}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'customerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'deviceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'projection' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->customer_devices_chromeos = new Directory\Resource\CustomerDevicesChromeos(
+        $this,
+        $this->serviceName,
+        'chromeos',
+        [
+          'methods' => [
+            'issueCommand' => [
+              'path' => 'admin/directory/v1/customer/{customerId}/devices/chromeos/{deviceId}:issueCommand',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'customerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'deviceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->customer_devices_chromeos_commands = new Directory\Resource\CustomerDevicesChromeosCommands(
+        $this,
+        $this->serviceName,
+        'commands',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'admin/directory/v1/customer/{customerId}/devices/chromeos/{deviceId}/commands/{commandId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'customerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'deviceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'commandId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->customers = new Directory\Resource\Customers(
+        $this,
+        $this->serviceName,
+        'customers',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'admin/directory/v1/customers/{customerKey}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'customerKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'admin/directory/v1/customers/{customerKey}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'customerKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'admin/directory/v1/customers/{customerKey}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'customerKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->customers_chrome_printers = new Directory\Resource\CustomersChromePrinters(
+        $this,
+        $this->serviceName,
+        'printers',
+        [
+          'methods' => [
+            'batchCreatePrinters' => [
+              'path' => 'admin/directory/v1/{+parent}/chrome/printers:batchCreatePrinters',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'batchDeletePrinters' => [
+              'path' => 'admin/directory/v1/{+parent}/chrome/printers:batchDeletePrinters',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'admin/directory/v1/{+parent}/chrome/printers',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'admin/directory/v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'admin/directory/v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'admin/directory/v1/{+parent}/chrome/printers',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orgUnitId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'listPrinterModels' => [
+              'path' => 'admin/directory/v1/{+parent}/chrome/printers:listPrinterModels',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'admin/directory/v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'clearMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->domainAliases = new Directory\Resource\DomainAliases(
+        $this,
+        $this->serviceName,
+        'domainAliases',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'admin/directory/v1/customer/{customer}/domainaliases/{domainAliasName}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'domainAliasName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'admin/directory/v1/customer/{customer}/domainaliases/{domainAliasName}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'domainAliasName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'admin/directory/v1/customer/{customer}/domainaliases',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'admin/directory/v1/customer/{customer}/domainaliases',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'parentDomainName' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->domains = new Directory\Resource\Domains(
+        $this,
+        $this->serviceName,
+        'domains',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'admin/directory/v1/customer/{customer}/domains/{domainName}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'domainName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'admin/directory/v1/customer/{customer}/domains/{domainName}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'domainName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'admin/directory/v1/customer/{customer}/domains',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'admin/directory/v1/customer/{customer}/domains',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->groups = new Directory\Resource\Groups(
+        $this,
+        $this->serviceName,
+        'groups',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'admin/directory/v1/groups/{groupKey}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'groupKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'admin/directory/v1/groups/{groupKey}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'groupKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'admin/directory/v1/groups',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'list' => [
+              'path' => 'admin/directory/v1/groups',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'domain' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'query' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortOrder' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userKey' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'admin/directory/v1/groups/{groupKey}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'groupKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'admin/directory/v1/groups/{groupKey}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'groupKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->groups_aliases = new Directory\Resource\GroupsAliases(
+        $this,
+        $this->serviceName,
+        'aliases',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'admin/directory/v1/groups/{groupKey}/aliases/{alias}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'groupKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'alias' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'admin/directory/v1/groups/{groupKey}/aliases',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'groupKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'admin/directory/v1/groups/{groupKey}/aliases',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'groupKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->members = new Directory\Resource\Members(
+        $this,
+        $this->serviceName,
+        'members',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'admin/directory/v1/groups/{groupKey}/members/{memberKey}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'groupKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'memberKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'admin/directory/v1/groups/{groupKey}/members/{memberKey}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'groupKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'memberKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'hasMember' => [
+              'path' => 'admin/directory/v1/groups/{groupKey}/hasMember/{memberKey}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'groupKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'memberKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'admin/directory/v1/groups/{groupKey}/members',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'groupKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'admin/directory/v1/groups/{groupKey}/members',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'groupKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'includeDerivedMembership' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'roles' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'admin/directory/v1/groups/{groupKey}/members/{memberKey}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'groupKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'memberKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'admin/directory/v1/groups/{groupKey}/members/{memberKey}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'groupKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'memberKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->mobiledevices = new Directory\Resource\Mobiledevices(
+        $this,
+        $this->serviceName,
+        'mobiledevices',
+        [
+          'methods' => [
+            'action' => [
+              'path' => 'admin/directory/v1/customer/{customerId}/devices/mobile/{resourceId}/action',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'customerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'resourceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'admin/directory/v1/customer/{customerId}/devices/mobile/{resourceId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'customerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'resourceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'admin/directory/v1/customer/{customerId}/devices/mobile/{resourceId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'customerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'resourceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'projection' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'admin/directory/v1/customer/{customerId}/devices/mobile',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'customerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'projection' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'query' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortOrder' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->orgunits = new Directory\Resource\Orgunits(
+        $this,
+        $this->serviceName,
+        'orgunits',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'admin/directory/v1/customer/{customerId}/orgunits/{+orgUnitPath}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'customerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'orgUnitPath' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'allowPlus' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'admin/directory/v1/customer/{customerId}/orgunits/{+orgUnitPath}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'customerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'orgUnitPath' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'allowPlus' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'admin/directory/v1/customer/{customerId}/orgunits',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'customerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'admin/directory/v1/customer/{customerId}/orgunits',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'customerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'orgUnitPath' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'type' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'admin/directory/v1/customer/{customerId}/orgunits/{+orgUnitPath}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'customerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'orgUnitPath' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'allowPlus' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'admin/directory/v1/customer/{customerId}/orgunits/{+orgUnitPath}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'customerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'orgUnitPath' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'allowPlus' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->privileges = new Directory\Resource\Privileges(
+        $this,
+        $this->serviceName,
+        'privileges',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'admin/directory/v1/customer/{customer}/roles/ALL/privileges',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->resources_buildings = new Directory\Resource\ResourcesBuildings(
+        $this,
+        $this->serviceName,
+        'buildings',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'admin/directory/v1/customer/{customer}/resources/buildings/{buildingId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'buildingId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'admin/directory/v1/customer/{customer}/resources/buildings/{buildingId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'buildingId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'admin/directory/v1/customer/{customer}/resources/buildings',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'coordinatesSource' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'admin/directory/v1/customer/{customer}/resources/buildings',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'admin/directory/v1/customer/{customer}/resources/buildings/{buildingId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'buildingId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'coordinatesSource' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'admin/directory/v1/customer/{customer}/resources/buildings/{buildingId}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'buildingId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'coordinatesSource' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->resources_calendars = new Directory\Resource\ResourcesCalendars(
+        $this,
+        $this->serviceName,
+        'calendars',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'admin/directory/v1/customer/{customer}/resources/calendars/{calendarResourceId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'calendarResourceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'admin/directory/v1/customer/{customer}/resources/calendars/{calendarResourceId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'calendarResourceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'admin/directory/v1/customer/{customer}/resources/calendars',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'admin/directory/v1/customer/{customer}/resources/calendars',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'query' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'admin/directory/v1/customer/{customer}/resources/calendars/{calendarResourceId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'calendarResourceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'admin/directory/v1/customer/{customer}/resources/calendars/{calendarResourceId}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'calendarResourceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->resources_features = new Directory\Resource\ResourcesFeatures(
+        $this,
+        $this->serviceName,
+        'features',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'admin/directory/v1/customer/{customer}/resources/features/{featureKey}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'featureKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'admin/directory/v1/customer/{customer}/resources/features/{featureKey}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'featureKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'admin/directory/v1/customer/{customer}/resources/features',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'admin/directory/v1/customer/{customer}/resources/features',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'admin/directory/v1/customer/{customer}/resources/features/{featureKey}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'featureKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'rename' => [
+              'path' => 'admin/directory/v1/customer/{customer}/resources/features/{oldName}/rename',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'oldName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'admin/directory/v1/customer/{customer}/resources/features/{featureKey}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'featureKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->roleAssignments = new Directory\Resource\RoleAssignments(
+        $this,
+        $this->serviceName,
+        'roleAssignments',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'admin/directory/v1/customer/{customer}/roleassignments/{roleAssignmentId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'roleAssignmentId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'admin/directory/v1/customer/{customer}/roleassignments/{roleAssignmentId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'roleAssignmentId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'admin/directory/v1/customer/{customer}/roleassignments',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'admin/directory/v1/customer/{customer}/roleassignments',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'roleId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userKey' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->roles = new Directory\Resource\Roles(
+        $this,
+        $this->serviceName,
+        'roles',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'admin/directory/v1/customer/{customer}/roles/{roleId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'roleId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'admin/directory/v1/customer/{customer}/roles/{roleId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'roleId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'admin/directory/v1/customer/{customer}/roles',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'admin/directory/v1/customer/{customer}/roles',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'admin/directory/v1/customer/{customer}/roles/{roleId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'roleId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'admin/directory/v1/customer/{customer}/roles/{roleId}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'roleId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->schemas = new Directory\Resource\Schemas(
+        $this,
+        $this->serviceName,
+        'schemas',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'admin/directory/v1/customer/{customerId}/schemas/{schemaKey}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'customerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'schemaKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'admin/directory/v1/customer/{customerId}/schemas/{schemaKey}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'customerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'schemaKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'admin/directory/v1/customer/{customerId}/schemas',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'customerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'admin/directory/v1/customer/{customerId}/schemas',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'customerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'admin/directory/v1/customer/{customerId}/schemas/{schemaKey}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'customerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'schemaKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'admin/directory/v1/customer/{customerId}/schemas/{schemaKey}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'customerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'schemaKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->tokens = new Directory\Resource\Tokens(
+        $this,
+        $this->serviceName,
+        'tokens',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'admin/directory/v1/users/{userKey}/tokens/{clientId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'userKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'clientId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'admin/directory/v1/users/{userKey}/tokens/{clientId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'clientId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'admin/directory/v1/users/{userKey}/tokens',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->twoStepVerification = new Directory\Resource\TwoStepVerification(
+        $this,
+        $this->serviceName,
+        'twoStepVerification',
+        [
+          'methods' => [
+            'turnOff' => [
+              'path' => 'admin/directory/v1/users/{userKey}/twoStepVerification/turnOff',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'userKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->users = new Directory\Resource\Users(
+        $this,
+        $this->serviceName,
+        'users',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'admin/directory/v1/users/{userKey}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'userKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'admin/directory/v1/users/{userKey}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'customFieldMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'projection' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'viewType' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'admin/directory/v1/users',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'list' => [
+              'path' => 'admin/directory/v1/users',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'customFieldMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'customer' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'domain' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'event' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'projection' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'query' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'showDeleted' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortOrder' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'viewType' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'makeAdmin' => [
+              'path' => 'admin/directory/v1/users/{userKey}/makeAdmin',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'userKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'admin/directory/v1/users/{userKey}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'userKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'signOut' => [
+              'path' => 'admin/directory/v1/users/{userKey}/signOut',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'userKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'undelete' => [
+              'path' => 'admin/directory/v1/users/{userKey}/undelete',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'userKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'admin/directory/v1/users/{userKey}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'userKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'watch' => [
+              'path' => 'admin/directory/v1/users/watch',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'customFieldMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'customer' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'domain' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'event' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'projection' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'query' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'showDeleted' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortOrder' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'viewType' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->users_aliases = new Directory\Resource\UsersAliases(
+        $this,
+        $this->serviceName,
+        'aliases',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'admin/directory/v1/users/{userKey}/aliases/{alias}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'userKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'alias' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'admin/directory/v1/users/{userKey}/aliases',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'userKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'admin/directory/v1/users/{userKey}/aliases',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'event' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'watch' => [
+              'path' => 'admin/directory/v1/users/{userKey}/aliases/watch',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'userKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'event' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->users_photos = new Directory\Resource\UsersPhotos(
+        $this,
+        $this->serviceName,
+        'photos',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'admin/directory/v1/users/{userKey}/photos/thumbnail',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'userKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'admin/directory/v1/users/{userKey}/photos/thumbnail',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'admin/directory/v1/users/{userKey}/photos/thumbnail',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'userKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'admin/directory/v1/users/{userKey}/photos/thumbnail',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'userKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->verificationCodes = new Directory\Resource\VerificationCodes(
+        $this,
+        $this->serviceName,
+        'verificationCodes',
+        [
+          'methods' => [
+            'generate' => [
+              'path' => 'admin/directory/v1/users/{userKey}/verificationCodes/generate',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'userKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'invalidate' => [
+              'path' => 'admin/directory/v1/users/{userKey}/verificationCodes/invalidate',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'userKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'admin/directory/v1/users/{userKey}/verificationCodes',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userKey' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Directory::class, 'Google_Service_Directory');

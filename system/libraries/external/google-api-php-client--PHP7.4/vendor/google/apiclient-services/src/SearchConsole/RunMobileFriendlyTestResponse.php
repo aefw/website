@@ -1,64 +1,100 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-gRllt05We0BBV8u=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\SearchConsole;
+
+class RunMobileFriendlyTestResponse extends \Google\Collection
+{
+  protected $collection_key = 'resourceIssues';
+  public $mobileFriendliness;
+  protected $mobileFriendlyIssuesType = MobileFriendlyIssue::class;
+  protected $mobileFriendlyIssuesDataType = 'array';
+  protected $resourceIssuesType = ResourceIssue::class;
+  protected $resourceIssuesDataType = 'array';
+  protected $screenshotType = Image::class;
+  protected $screenshotDataType = '';
+  protected $testStatusType = TestStatus::class;
+  protected $testStatusDataType = '';
+
+  public function setMobileFriendliness($mobileFriendliness)
+  {
+    $this->mobileFriendliness = $mobileFriendliness;
+  }
+  public function getMobileFriendliness()
+  {
+    return $this->mobileFriendliness;
+  }
+  /**
+   * @param MobileFriendlyIssue[]
+   */
+  public function setMobileFriendlyIssues($mobileFriendlyIssues)
+  {
+    $this->mobileFriendlyIssues = $mobileFriendlyIssues;
+  }
+  /**
+   * @return MobileFriendlyIssue[]
+   */
+  public function getMobileFriendlyIssues()
+  {
+    return $this->mobileFriendlyIssues;
+  }
+  /**
+   * @param ResourceIssue[]
+   */
+  public function setResourceIssues($resourceIssues)
+  {
+    $this->resourceIssues = $resourceIssues;
+  }
+  /**
+   * @return ResourceIssue[]
+   */
+  public function getResourceIssues()
+  {
+    return $this->resourceIssues;
+  }
+  /**
+   * @param Image
+   */
+  public function setScreenshot(Image $screenshot)
+  {
+    $this->screenshot = $screenshot;
+  }
+  /**
+   * @return Image
+   */
+  public function getScreenshot()
+  {
+    return $this->screenshot;
+  }
+  /**
+   * @param TestStatus
+   */
+  public function setTestStatus(TestStatus $testStatus)
+  {
+    $this->testStatus = $testStatus;
+  }
+  /**
+   * @return TestStatus
+   */
+  public function getTestStatus()
+  {
+    return $this->testStatus;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(RunMobileFriendlyTestResponse::class, 'Google_Service_SearchConsole_RunMobileFriendlyTestResponse');

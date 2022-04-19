@@ -1,224 +1,988 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/**
+ * Copyright 2017 Facebook, Inc.
+ *
+ * You are hereby granted a non-exclusive, worldwide, royalty-free license to
+ * use, copy, modify, and distribute this software in source code or binary
+ * form for use in connection with the web services and APIs provided by
+ * Facebook.
+ *
+ * As with any software that integrates with the Facebook platform, your use
+ * of this software is subject to the Facebook Developer Principles and
+ * Policies [http://developers.facebook.com/policy/]. This copyright notice
+ * shall be included in all copies or substantial portions of the software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+ * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+ *
+ */
+namespace Facebook\FileUpload;
+
+/**
+ * Provides mappings of file extensions to mimetypes
+ *
+ * Taken from Guzzle
+ *
+ * @see https://github.com/guzzle/guzzle/blob/master/src/Mimetypes.php
+ *
+ * @link http://svn.apache.org/repos/asf/httpd/httpd/branches/1.3.x/conf/mime.types
+ */
+class Mimetypes
+{
+    /** @var self */
+    protected static $instance;
+
+    /** @var array Mapping of extension to mimetype */
+    protected $mimetypes = [
+        '3dml' => 'text/vnd.in3d.3dml',
+        '3g2' => 'video/3gpp2',
+        '3gp' => 'video/3gpp',
+        '7z' => 'application/x-7z-compressed',
+        'aab' => 'application/x-authorware-bin',
+        'aac' => 'audio/x-aac',
+        'aam' => 'application/x-authorware-map',
+        'aas' => 'application/x-authorware-seg',
+        'abw' => 'application/x-abiword',
+        'ac' => 'application/pkix-attr-cert',
+        'acc' => 'application/vnd.americandynamics.acc',
+        'ace' => 'application/x-ace-compressed',
+        'acu' => 'application/vnd.acucobol',
+        'acutc' => 'application/vnd.acucorp',
+        'adp' => 'audio/adpcm',
+        'aep' => 'application/vnd.audiograph',
+        'afm' => 'application/x-font-type1',
+        'afp' => 'application/vnd.ibm.modcap',
+        'ahead' => 'application/vnd.ahead.space',
+        'ai' => 'application/postscript',
+        'aif' => 'audio/x-aiff',
+        'aifc' => 'audio/x-aiff',
+        'aiff' => 'audio/x-aiff',
+        'air' => 'application/vnd.adobe.air-application-installer-package+zip',
+        'ait' => 'application/vnd.dvb.ait',
+        'ami' => 'application/vnd.amiga.ami',
+        'apk' => 'application/vnd.android.package-archive',
+        'application' => 'application/x-ms-application',
+        'apr' => 'application/vnd.lotus-approach',
+        'asa' => 'text/plain',
+        'asax' => 'application/octet-stream',
+        'asc' => 'application/pgp-signature',
+        'ascx' => 'text/plain',
+        'asf' => 'video/x-ms-asf',
+        'ashx' => 'text/plain',
+        'asm' => 'text/x-asm',
+        'asmx' => 'text/plain',
+        'aso' => 'application/vnd.accpac.simply.aso',
+        'asp' => 'text/plain',
+        'aspx' => 'text/plain',
+        'asx' => 'video/x-ms-asf',
+        'atc' => 'application/vnd.acucorp',
+        'atom' => 'application/atom+xml',
+        'atomcat' => 'application/atomcat+xml',
+        'atomsvc' => 'application/atomsvc+xml',
+        'atx' => 'application/vnd.antix.game-component',
+        'au' => 'audio/basic',
+        'avi' => 'video/x-msvideo',
+        'aw' => 'application/applixware',
+        'axd' => 'text/plain',
+        'azf' => 'application/vnd.airzip.filesecure.azf',
+        'azs' => 'application/vnd.airzip.filesecure.azs',
+        'azw' => 'application/vnd.amazon.ebook',
+        'bat' => 'application/x-msdownload',
+        'bcpio' => 'application/x-bcpio',
+        'bdf' => 'application/x-font-bdf',
+        'bdm' => 'application/vnd.syncml.dm+wbxml',
+        'bed' => 'application/vnd.realvnc.bed',
+        'bh2' => 'application/vnd.fujitsu.oasysprs',
+        'bin' => 'application/octet-stream',
+        'bmi' => 'application/vnd.bmi',
+        'bmp' => 'image/bmp',
+        'book' => 'application/vnd.framemaker',
+        'box' => 'application/vnd.previewsystems.box',
+        'boz' => 'application/x-bzip2',
+        'bpk' => 'application/octet-stream',
+        'btif' => 'image/prs.btif',
+        'bz' => 'application/x-bzip',
+        'bz2' => 'application/x-bzip2',
+        'c' => 'text/x-c',
+        'c11amc' => 'application/vnd.cluetrust.cartomobile-config',
+        'c11amz' => 'application/vnd.cluetrust.cartomobile-config-pkg',
+        'c4d' => 'application/vnd.clonk.c4group',
+        'c4f' => 'application/vnd.clonk.c4group',
+        'c4g' => 'application/vnd.clonk.c4group',
+        'c4p' => 'application/vnd.clonk.c4group',
+        'c4u' => 'application/vnd.clonk.c4group',
+        'cab' => 'application/vnd.ms-cab-compressed',
+        'car' => 'application/vnd.curl.car',
+        'cat' => 'application/vnd.ms-pki.seccat',
+        'cc' => 'text/x-c',
+        'cct' => 'application/x-director',
+        'ccxml' => 'application/ccxml+xml',
+        'cdbcmsg' => 'application/vnd.contact.cmsg',
+        'cdf' => 'application/x-netcdf',
+        'cdkey' => 'application/vnd.mediastation.cdkey',
+        'cdmia' => 'application/cdmi-capability',
+        'cdmic' => 'application/cdmi-container',
+        'cdmid' => 'application/cdmi-domain',
+        'cdmio' => 'application/cdmi-object',
+        'cdmiq' => 'application/cdmi-queue',
+        'cdx' => 'chemical/x-cdx',
+        'cdxml' => 'application/vnd.chemdraw+xml',
+        'cdy' => 'application/vnd.cinderella',
+        'cer' => 'application/pkix-cert',
+        'cfc' => 'application/x-coldfusion',
+        'cfm' => 'application/x-coldfusion',
+        'cgm' => 'image/cgm',
+        'chat' => 'application/x-chat',
+        'chm' => 'application/vnd.ms-htmlhelp',
+        'chrt' => 'application/vnd.kde.kchart',
+        'cif' => 'chemical/x-cif',
+        'cii' => 'application/vnd.anser-web-certificate-issue-initiation',
+        'cil' => 'application/vnd.ms-artgalry',
+        'cla' => 'application/vnd.claymore',
+        'class' => 'application/java-vm',
+        'clkk' => 'application/vnd.crick.clicker.keyboard',
+        'clkp' => 'application/vnd.crick.clicker.palette',
+        'clkt' => 'application/vnd.crick.clicker.template',
+        'clkw' => 'application/vnd.crick.clicker.wordbank',
+        'clkx' => 'application/vnd.crick.clicker',
+        'clp' => 'application/x-msclip',
+        'cmc' => 'application/vnd.cosmocaller',
+        'cmdf' => 'chemical/x-cmdf',
+        'cml' => 'chemical/x-cml',
+        'cmp' => 'application/vnd.yellowriver-custom-menu',
+        'cmx' => 'image/x-cmx',
+        'cod' => 'application/vnd.rim.cod',
+        'com' => 'application/x-msdownload',
+        'conf' => 'text/plain',
+        'cpio' => 'application/x-cpio',
+        'cpp' => 'text/x-c',
+        'cpt' => 'application/mac-compactpro',
+        'crd' => 'application/x-mscardfile',
+        'crl' => 'application/pkix-crl',
+        'crt' => 'application/x-x509-ca-cert',
+        'cryptonote' => 'application/vnd.rig.cryptonote',
+        'cs' => 'text/plain',
+        'csh' => 'application/x-csh',
+        'csml' => 'chemical/x-csml',
+        'csp' => 'application/vnd.commonspace',
+        'css' => 'text/css',
+        'cst' => 'application/x-director',
+        'csv' => 'text/csv',
+        'cu' => 'application/cu-seeme',
+        'curl' => 'text/vnd.curl',
+        'cww' => 'application/prs.cww',
+        'cxt' => 'application/x-director',
+        'cxx' => 'text/x-c',
+        'dae' => 'model/vnd.collada+xml',
+        'daf' => 'application/vnd.mobius.daf',
+        'dataless' => 'application/vnd.fdsn.seed',
+        'davmount' => 'application/davmount+xml',
+        'dcr' => 'application/x-director',
+        'dcurl' => 'text/vnd.curl.dcurl',
+        'dd2' => 'application/vnd.oma.dd2+xml',
+        'ddd' => 'application/vnd.fujixerox.ddd',
+        'deb' => 'application/x-debian-package',
+        'def' => 'text/plain',
+        'deploy' => 'application/octet-stream',
+        'der' => 'application/x-x509-ca-cert',
+        'dfac' => 'application/vnd.dreamfactory',
+        'dic' => 'text/x-c',
+        'dir' => 'application/x-director',
+        'dis' => 'application/vnd.mobius.dis',
+        'dist' => 'application/octet-stream',
+        'distz' => 'application/octet-stream',
+        'djv' => 'image/vnd.djvu',
+        'djvu' => 'image/vnd.djvu',
+        'dll' => 'application/x-msdownload',
+        'dmg' => 'application/octet-stream',
+        'dms' => 'application/octet-stream',
+        'dna' => 'application/vnd.dna',
+        'doc' => 'application/msword',
+        'docm' => 'application/vnd.ms-word.document.macroenabled.12',
+        'docx' => 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+        'dot' => 'application/msword',
+        'dotm' => 'application/vnd.ms-word.template.macroenabled.12',
+        'dotx' => 'application/vnd.openxmlformats-officedocument.wordprocessingml.template',
+        'dp' => 'application/vnd.osgi.dp',
+        'dpg' => 'application/vnd.dpgraph',
+        'dra' => 'audio/vnd.dra',
+        'dsc' => 'text/prs.lines.tag',
+        'dssc' => 'application/dssc+der',
+        'dtb' => 'application/x-dtbook+xml',
+        'dtd' => 'application/xml-dtd',
+        'dts' => 'audio/vnd.dts',
+        'dtshd' => 'audio/vnd.dts.hd',
+        'dump' => 'application/octet-stream',
+        'dvi' => 'application/x-dvi',
+        'dwf' => 'model/vnd.dwf',
+        'dwg' => 'image/vnd.dwg',
+        'dxf' => 'image/vnd.dxf',
+        'dxp' => 'application/vnd.spotfire.dxp',
+        'dxr' => 'application/x-director',
+        'ecelp4800' => 'audio/vnd.nuera.ecelp4800',
+        'ecelp7470' => 'audio/vnd.nuera.ecelp7470',
+        'ecelp9600' => 'audio/vnd.nuera.ecelp9600',
+        'ecma' => 'application/ecmascript',
+        'edm' => 'application/vnd.novadigm.edm',
+        'edx' => 'application/vnd.novadigm.edx',
+        'efif' => 'application/vnd.picsel',
+        'ei6' => 'application/vnd.pg.osasli',
+        'elc' => 'application/octet-stream',
+        'eml' => 'message/rfc822',
+        'emma' => 'application/emma+xml',
+        'eol' => 'audio/vnd.digital-winds',
+        'eot' => 'application/vnd.ms-fontobject',
+        'eps' => 'application/postscript',
+        'epub' => 'application/epub+zip',
+        'es3' => 'application/vnd.eszigno3+xml',
+        'esf' => 'application/vnd.epson.esf',
+        'et3' => 'application/vnd.eszigno3+xml',
+        'etx' => 'text/x-setext',
+        'exe' => 'application/x-msdownload',
+        'exi' => 'application/exi',
+        'ext' => 'application/vnd.novadigm.ext',
+        'ez' => 'application/andrew-inset',
+        'ez2' => 'application/vnd.ezpix-album',
+        'ez3' => 'application/vnd.ezpix-package',
+        'f' => 'text/x-fortran',
+        'f4v' => 'video/x-f4v',
+        'f77' => 'text/x-fortran',
+        'f90' => 'text/x-fortran',
+        'fbs' => 'image/vnd.fastbidsheet',
+        'fcs' => 'application/vnd.isac.fcs',
+        'fdf' => 'application/vnd.fdf',
+        'fe_launch' => 'application/vnd.denovo.fcselayout-link',
+        'fg5' => 'application/vnd.fujitsu.oasysgp',
+        'fgd' => 'application/x-director',
+        'fh' => 'image/x-freehand',
+        'fh4' => 'image/x-freehand',
+        'fh5' => 'image/x-freehand',
+        'fh7' => 'image/x-freehand',
+        'fhc' => 'image/x-freehand',
+        'fig' => 'application/x-xfig',
+        'fli' => 'video/x-fli',
+        'flo' => 'application/vnd.micrografx.flo',
+        'flv' => 'video/x-flv',
+        'flw' => 'application/vnd.kde.kivio',
+        'flx' => 'text/vnd.fmi.flexstor',
+        'fly' => 'text/vnd.fly',
+        'fm' => 'application/vnd.framemaker',
+        'fnc' => 'application/vnd.frogans.fnc',
+        'for' => 'text/x-fortran',
+        'fpx' => 'image/vnd.fpx',
+        'frame' => 'application/vnd.framemaker',
+        'fsc' => 'application/vnd.fsc.weblaunch',
+        'fst' => 'image/vnd.fst',
+        'ftc' => 'application/vnd.fluxtime.clip',
+        'fti' => 'application/vnd.anser-web-funds-transfer-initiation',
+        'fvt' => 'video/vnd.fvt',
+        'fxp' => 'application/vnd.adobe.fxp',
+        'fxpl' => 'application/vnd.adobe.fxp',
+        'fzs' => 'application/vnd.fuzzysheet',
+        'g2w' => 'application/vnd.geoplan',
+        'g3' => 'image/g3fax',
+        'g3w' => 'application/vnd.geospace',
+        'gac' => 'application/vnd.groove-account',
+        'gdl' => 'model/vnd.gdl',
+        'geo' => 'application/vnd.dynageo',
+        'gex' => 'application/vnd.geometry-explorer',
+        'ggb' => 'application/vnd.geogebra.file',
+        'ggt' => 'application/vnd.geogebra.tool',
+        'ghf' => 'application/vnd.groove-help',
+        'gif' => 'image/gif',
+        'gim' => 'application/vnd.groove-identity-message',
+        'gmx' => 'application/vnd.gmx',
+        'gnumeric' => 'application/x-gnumeric',
+        'gph' => 'application/vnd.flographit',
+        'gqf' => 'application/vnd.grafeq',
+        'gqs' => 'application/vnd.grafeq',
+        'gram' => 'application/srgs',
+        'gre' => 'application/vnd.geometry-explorer',
+        'grv' => 'application/vnd.groove-injector',
+        'grxml' => 'application/srgs+xml',
+        'gsf' => 'application/x-font-ghostscript',
+        'gtar' => 'application/x-gtar',
+        'gtm' => 'application/vnd.groove-tool-message',
+        'gtw' => 'model/vnd.gtw',
+        'gv' => 'text/vnd.graphviz',
+        'gxt' => 'application/vnd.geonext',
+        'h' => 'text/x-c',
+        'h261' => 'video/h261',
+        'h263' => 'video/h263',
+        'h264' => 'video/h264',
+        'hal' => 'application/vnd.hal+xml',
+        'hbci' => 'application/vnd.hbci',
+        'hdf' => 'application/x-hdf',
+        'hh' => 'text/x-c',
+        'hlp' => 'application/winhlp',
+        'hpgl' => 'application/vnd.hp-hpgl',
+        'hpid' => 'application/vnd.hp-hpid',
+        'hps' => 'application/vnd.hp-hps',
+        'hqx' => 'application/mac-binhex40',
+        'hta' => 'application/octet-stream',
+        'htc' => 'text/html',
+        'htke' => 'application/vnd.kenameaapp',
+        'htm' => 'text/html',
+        'html' => 'text/html',
+        'hvd' => 'application/vnd.yamaha.hv-dic',
+        'hvp' => 'application/vnd.yamaha.hv-voice',
+        'hvs' => 'application/vnd.yamaha.hv-script',
+        'i2g' => 'application/vnd.intergeo',
+        'icc' => 'application/vnd.iccprofile',
+        'ice' => 'x-conference/x-cooltalk',
+        'icm' => 'application/vnd.iccprofile',
+        'ico' => 'image/x-icon',
+        'ics' => 'text/calendar',
+        'ief' => 'image/ief',
+        'ifb' => 'text/calendar',
+        'ifm' => 'application/vnd.shana.informed.formdata',
+        'iges' => 'model/iges',
+        'igl' => 'application/vnd.igloader',
+        'igm' => 'application/vnd.insors.igm',
+        'igs' => 'model/iges',
+        'igx' => 'application/vnd.micrografx.igx',
+        'iif' => 'application/vnd.shana.informed.interchange',
+        'imp' => 'application/vnd.accpac.simply.imp',
+        'ims' => 'application/vnd.ms-ims',
+        'in' => 'text/plain',
+        'ini' => 'text/plain',
+        'ipfix' => 'application/ipfix',
+        'ipk' => 'application/vnd.shana.informed.package',
+        'irm' => 'application/vnd.ibm.rights-management',
+        'irp' => 'application/vnd.irepository.package+xml',
+        'iso' => 'application/octet-stream',
+        'itp' => 'application/vnd.shana.informed.formtemplate',
+        'ivp' => 'application/vnd.immervision-ivp',
+        'ivu' => 'application/vnd.immervision-ivu',
+        'jad' => 'text/vnd.sun.j2me.app-descriptor',
+        'jam' => 'application/vnd.jam',
+        'jar' => 'application/java-archive',
+        'java' => 'text/x-java-source',
+        'jisp' => 'application/vnd.jisp',
+        'jlt' => 'application/vnd.hp-jlyt',
+        'jnlp' => 'application/x-java-jnlp-file',
+        'joda' => 'application/vnd.joost.joda-archive',
+        'jpe' => 'image/jpeg',
+        'jpeg' => 'image/jpeg',
+        'jpg' => 'image/jpeg',
+        'jpgm' => 'video/jpm',
+        'jpgv' => 'video/jpeg',
+        'jpm' => 'video/jpm',
+        'js' => 'text/javascript',
+        'json' => 'application/json',
+        'kar' => 'audio/midi',
+        'karbon' => 'application/vnd.kde.karbon',
+        'kfo' => 'application/vnd.kde.kformula',
+        'kia' => 'application/vnd.kidspiration',
+        'kml' => 'application/vnd.google-earth.kml+xml',
+        'kmz' => 'application/vnd.google-earth.kmz',
+        'kne' => 'application/vnd.kinar',
+        'knp' => 'application/vnd.kinar',
+        'kon' => 'application/vnd.kde.kontour',
+        'kpr' => 'application/vnd.kde.kpresenter',
+        'kpt' => 'application/vnd.kde.kpresenter',
+        'ksp' => 'application/vnd.kde.kspread',
+        'ktr' => 'application/vnd.kahootz',
+        'ktx' => 'image/ktx',
+        'ktz' => 'application/vnd.kahootz',
+        'kwd' => 'application/vnd.kde.kword',
+        'kwt' => 'application/vnd.kde.kword',
+        'lasxml' => 'application/vnd.las.las+xml',
+        'latex' => 'application/x-latex',
+        'lbd' => 'application/vnd.llamagraphics.life-balance.desktop',
+        'lbe' => 'application/vnd.llamagraphics.life-balance.exchange+xml',
+        'les' => 'application/vnd.hhe.lesson-player',
+        'lha' => 'application/octet-stream',
+        'link66' => 'application/vnd.route66.link66+xml',
+        'list' => 'text/plain',
+        'list3820' => 'application/vnd.ibm.modcap',
+        'listafp' => 'application/vnd.ibm.modcap',
+        'log' => 'text/plain',
+        'lostxml' => 'application/lost+xml',
+        'lrf' => 'application/octet-stream',
+        'lrm' => 'application/vnd.ms-lrm',
+        'ltf' => 'application/vnd.frogans.ltf',
+        'lvp' => 'audio/vnd.lucent.voice',
+        'lwp' => 'application/vnd.lotus-wordpro',
+        'lzh' => 'application/octet-stream',
+        'm13' => 'application/x-msmediaview',
+        'm14' => 'application/x-msmediaview',
+        'm1v' => 'video/mpeg',
+        'm21' => 'application/mp21',
+        'm2a' => 'audio/mpeg',
+        'm2v' => 'video/mpeg',
+        'm3a' => 'audio/mpeg',
+        'm3u' => 'audio/x-mpegurl',
+        'm3u8' => 'application/vnd.apple.mpegurl',
+        'm4a' => 'audio/mp4',
+        'm4u' => 'video/vnd.mpegurl',
+        'm4v' => 'video/mp4',
+        'ma' => 'application/mathematica',
+        'mads' => 'application/mads+xml',
+        'mag' => 'application/vnd.ecowin.chart',
+        'maker' => 'application/vnd.framemaker',
+        'man' => 'text/troff',
+        'mathml' => 'application/mathml+xml',
+        'mb' => 'application/mathematica',
+        'mbk' => 'application/vnd.mobius.mbk',
+        'mbox' => 'application/mbox',
+        'mc1' => 'application/vnd.medcalcdata',
+        'mcd' => 'application/vnd.mcd',
+        'mcurl' => 'text/vnd.curl.mcurl',
+        'mdb' => 'application/x-msaccess',
+        'mdi' => 'image/vnd.ms-modi',
+        'me' => 'text/troff',
+        'mesh' => 'model/mesh',
+        'meta4' => 'application/metalink4+xml',
+        'mets' => 'application/mets+xml',
+        'mfm' => 'application/vnd.mfmp',
+        'mgp' => 'application/vnd.osgeo.mapguide.package',
+        'mgz' => 'application/vnd.proteus.magazine',
+        'mid' => 'audio/midi',
+        'midi' => 'audio/midi',
+        'mif' => 'application/vnd.mif',
+        'mime' => 'message/rfc822',
+        'mj2' => 'video/mj2',
+        'mjp2' => 'video/mj2',
+        'mlp' => 'application/vnd.dolby.mlp',
+        'mmd' => 'application/vnd.chipnuts.karaoke-mmd',
+        'mmf' => 'application/vnd.smaf',
+        'mmr' => 'image/vnd.fujixerox.edmics-mmr',
+        'mny' => 'application/x-msmoney',
+        'mobi' => 'application/x-mobipocket-ebook',
+        'mods' => 'application/mods+xml',
+        'mov' => 'video/quicktime',
+        'movie' => 'video/x-sgi-movie',
+        'mp2' => 'audio/mpeg',
+        'mp21' => 'application/mp21',
+        'mp2a' => 'audio/mpeg',
+        'mp3' => 'audio/mpeg',
+        'mp4' => 'video/mp4',
+        'mp4a' => 'audio/mp4',
+        'mp4s' => 'application/mp4',
+        'mp4v' => 'video/mp4',
+        'mpc' => 'application/vnd.mophun.certificate',
+        'mpe' => 'video/mpeg',
+        'mpeg' => 'video/mpeg',
+        'mpg' => 'video/mpeg',
+        'mpg4' => 'video/mp4',
+        'mpga' => 'audio/mpeg',
+        'mpkg' => 'application/vnd.apple.installer+xml',
+        'mpm' => 'application/vnd.blueice.multipass',
+        'mpn' => 'application/vnd.mophun.application',
+        'mpp' => 'application/vnd.ms-project',
+        'mpt' => 'application/vnd.ms-project',
+        'mpy' => 'application/vnd.ibm.minipay',
+        'mqy' => 'application/vnd.mobius.mqy',
+        'mrc' => 'application/marc',
+        'mrcx' => 'application/marcxml+xml',
+        'ms' => 'text/troff',
+        'mscml' => 'application/mediaservercontrol+xml',
+        'mseed' => 'application/vnd.fdsn.mseed',
+        'mseq' => 'application/vnd.mseq',
+        'msf' => 'application/vnd.epson.msf',
+        'msh' => 'model/mesh',
+        'msi' => 'application/x-msdownload',
+        'msl' => 'application/vnd.mobius.msl',
+        'msty' => 'application/vnd.muvee.style',
+        'mts' => 'model/vnd.mts',
+        'mus' => 'application/vnd.musician',
+        'musicxml' => 'application/vnd.recordare.musicxml+xml',
+        'mvb' => 'application/x-msmediaview',
+        'mwf' => 'application/vnd.mfer',
+        'mxf' => 'application/mxf',
+        'mxl' => 'application/vnd.recordare.musicxml',
+        'mxml' => 'application/xv+xml',
+        'mxs' => 'application/vnd.triscape.mxs',
+        'mxu' => 'video/vnd.mpegurl',
+        'n-gage' => 'application/vnd.nokia.n-gage.symbian.install',
+        'n3' => 'text/n3',
+        'nb' => 'application/mathematica',
+        'nbp' => 'application/vnd.wolfram.player',
+        'nc' => 'application/x-netcdf',
+        'ncx' => 'application/x-dtbncx+xml',
+        'ngdat' => 'application/vnd.nokia.n-gage.data',
+        'nlu' => 'application/vnd.neurolanguage.nlu',
+        'nml' => 'application/vnd.enliven',
+        'nnd' => 'application/vnd.noblenet-directory',
+        'nns' => 'application/vnd.noblenet-sealer',
+        'nnw' => 'application/vnd.noblenet-web',
+        'npx' => 'image/vnd.net-fpx',
+        'nsf' => 'application/vnd.lotus-notes',
+        'oa2' => 'application/vnd.fujitsu.oasys2',
+        'oa3' => 'application/vnd.fujitsu.oasys3',
+        'oas' => 'application/vnd.fujitsu.oasys',
+        'obd' => 'application/x-msbinder',
+        'oda' => 'application/oda',
+        'odb' => 'application/vnd.oasis.opendocument.database',
+        'odc' => 'application/vnd.oasis.opendocument.chart',
+        'odf' => 'application/vnd.oasis.opendocument.formula',
+        'odft' => 'application/vnd.oasis.opendocument.formula-template',
+        'odg' => 'application/vnd.oasis.opendocument.graphics',
+        'odi' => 'application/vnd.oasis.opendocument.image',
+        'odm' => 'application/vnd.oasis.opendocument.text-master',
+        'odp' => 'application/vnd.oasis.opendocument.presentation',
+        'ods' => 'application/vnd.oasis.opendocument.spreadsheet',
+        'odt' => 'application/vnd.oasis.opendocument.text',
+        'oga' => 'audio/ogg',
+        'ogg' => 'audio/ogg',
+        'ogv' => 'video/ogg',
+        'ogx' => 'application/ogg',
+        'onepkg' => 'application/onenote',
+        'onetmp' => 'application/onenote',
+        'onetoc' => 'application/onenote',
+        'onetoc2' => 'application/onenote',
+        'opf' => 'application/oebps-package+xml',
+        'oprc' => 'application/vnd.palm',
+        'org' => 'application/vnd.lotus-organizer',
+        'osf' => 'application/vnd.yamaha.openscoreformat',
+        'osfpvg' => 'application/vnd.yamaha.openscoreformat.osfpvg+xml',
+        'otc' => 'application/vnd.oasis.opendocument.chart-template',
+        'otf' => 'application/x-font-otf',
+        'otg' => 'application/vnd.oasis.opendocument.graphics-template',
+        'oth' => 'application/vnd.oasis.opendocument.text-web',
+        'oti' => 'application/vnd.oasis.opendocument.image-template',
+        'otp' => 'application/vnd.oasis.opendocument.presentation-template',
+        'ots' => 'application/vnd.oasis.opendocument.spreadsheet-template',
+        'ott' => 'application/vnd.oasis.opendocument.text-template',
+        'oxt' => 'application/vnd.openofficeorg.extension',
+        'p' => 'text/x-pascal',
+        'p10' => 'application/pkcs10',
+        'p12' => 'application/x-pkcs12',
+        'p7b' => 'application/x-pkcs7-certificates',
+        'p7c' => 'application/pkcs7-mime',
+        'p7m' => 'application/pkcs7-mime',
+        'p7r' => 'application/x-pkcs7-certreqresp',
+        'p7s' => 'application/pkcs7-signature',
+        'p8' => 'application/pkcs8',
+        'pas' => 'text/x-pascal',
+        'paw' => 'application/vnd.pawaafile',
+        'pbd' => 'application/vnd.powerbuilder6',
+        'pbm' => 'image/x-portable-bitmap',
+        'pcf' => 'application/x-font-pcf',
+        'pcl' => 'application/vnd.hp-pcl',
+        'pclxl' => 'application/vnd.hp-pclxl',
+        'pct' => 'image/x-pict',
+        'pcurl' => 'application/vnd.curl.pcurl',
+        'pcx' => 'image/x-pcx',
+        'pdb' => 'application/vnd.palm',
+        'pdf' => 'application/pdf',
+        'pfa' => 'application/x-font-type1',
+        'pfb' => 'application/x-font-type1',
+        'pfm' => 'application/x-font-type1',
+        'pfr' => 'application/font-tdpfr',
+        'pfx' => 'application/x-pkcs12',
+        'pgm' => 'image/x-portable-graymap',
+        'pgn' => 'application/x-chess-pgn',
+        'pgp' => 'application/pgp-encrypted',
+        'php' => 'text/x-php',
+        'phps' => 'application/x-httpd-phps',
+        'pic' => 'image/x-pict',
+        'pkg' => 'application/octet-stream',
+        'pki' => 'application/pkixcmp',
+        'pkipath' => 'application/pkix-pkipath',
+        'plb' => 'application/vnd.3gpp.pic-bw-large',
+        'plc' => 'application/vnd.mobius.plc',
+        'plf' => 'application/vnd.pocketlearn',
+        'pls' => 'application/pls+xml',
+        'pml' => 'application/vnd.ctc-posml',
+        'png' => 'image/png',
+        'pnm' => 'image/x-portable-anymap',
+        'portpkg' => 'application/vnd.macports.portpkg',
+        'pot' => 'application/vnd.ms-powerpoint',
+        'potm' => 'application/vnd.ms-powerpoint.template.macroenabled.12',
+        'potx' => 'application/vnd.openxmlformats-officedocument.presentationml.template',
+        'ppam' => 'application/vnd.ms-powerpoint.addin.macroenabled.12',
+        'ppd' => 'application/vnd.cups-ppd',
+        'ppm' => 'image/x-portable-pixmap',
+        'pps' => 'application/vnd.ms-powerpoint',
+        'ppsm' => 'application/vnd.ms-powerpoint.slideshow.macroenabled.12',
+        'ppsx' => 'application/vnd.openxmlformats-officedocument.presentationml.slideshow',
+        'ppt' => 'application/vnd.ms-powerpoint',
+        'pptm' => 'application/vnd.ms-powerpoint.presentation.macroenabled.12',
+        'pptx' => 'application/vnd.openxmlformats-officedocument.presentationml.presentation',
+        'pqa' => 'application/vnd.palm',
+        'prc' => 'application/x-mobipocket-ebook',
+        'pre' => 'application/vnd.lotus-freelance',
+        'prf' => 'application/pics-rules',
+        'ps' => 'application/postscript',
+        'psb' => 'application/vnd.3gpp.pic-bw-small',
+        'psd' => 'image/vnd.adobe.photoshop',
+        'psf' => 'application/x-font-linux-psf',
+        'pskcxml' => 'application/pskc+xml',
+        'ptid' => 'application/vnd.pvi.ptid1',
+        'pub' => 'application/x-mspublisher',
+        'pvb' => 'application/vnd.3gpp.pic-bw-var',
+        'pwn' => 'application/vnd.3m.post-it-notes',
+        'pya' => 'audio/vnd.ms-playready.media.pya',
+        'pyv' => 'video/vnd.ms-playready.media.pyv',
+        'qam' => 'application/vnd.epson.quickanime',
+        'qbo' => 'application/vnd.intu.qbo',
+        'qfx' => 'application/vnd.intu.qfx',
+        'qps' => 'application/vnd.publishare-delta-tree',
+        'qt' => 'video/quicktime',
+        'qwd' => 'application/vnd.quark.quarkxpress',
+        'qwt' => 'application/vnd.quark.quarkxpress',
+        'qxb' => 'application/vnd.quark.quarkxpress',
+        'qxd' => 'application/vnd.quark.quarkxpress',
+        'qxl' => 'application/vnd.quark.quarkxpress',
+        'qxt' => 'application/vnd.quark.quarkxpress',
+        'ra' => 'audio/x-pn-realaudio',
+        'ram' => 'audio/x-pn-realaudio',
+        'rar' => 'application/x-rar-compressed',
+        'ras' => 'image/x-cmu-raster',
+        'rb' => 'text/plain',
+        'rcprofile' => 'application/vnd.ipunplugged.rcprofile',
+        'rdf' => 'application/rdf+xml',
+        'rdz' => 'application/vnd.data-vision.rdz',
+        'rep' => 'application/vnd.businessobjects',
+        'res' => 'application/x-dtbresource+xml',
+        'resx' => 'text/xml',
+        'rgb' => 'image/x-rgb',
+        'rif' => 'application/reginfo+xml',
+        'rip' => 'audio/vnd.rip',
+        'rl' => 'application/resource-lists+xml',
+        'rlc' => 'image/vnd.fujixerox.edmics-rlc',
+        'rld' => 'application/resource-lists-diff+xml',
+        'rm' => 'application/vnd.rn-realmedia',
+        'rmi' => 'audio/midi',
+        'rmp' => 'audio/x-pn-realaudio-plugin',
+        'rms' => 'application/vnd.jcp.javame.midlet-rms',
+        'rnc' => 'application/relax-ng-compact-syntax',
+        'roff' => 'text/troff',
+        'rp9' => 'application/vnd.cloanto.rp9',
+        'rpss' => 'application/vnd.nokia.radio-presets',
+        'rpst' => 'application/vnd.nokia.radio-preset',
+        'rq' => 'application/sparql-query',
+        'rs' => 'application/rls-services+xml',
+        'rsd' => 'application/rsd+xml',
+        'rss' => 'application/rss+xml',
+        'rtf' => 'application/rtf',
+        'rtx' => 'text/richtext',
+        's' => 'text/x-asm',
+        'saf' => 'application/vnd.yamaha.smaf-audio',
+        'sbml' => 'application/sbml+xml',
+        'sc' => 'application/vnd.ibm.secure-container',
+        'scd' => 'application/x-msschedule',
+        'scm' => 'application/vnd.lotus-screencam',
+        'scq' => 'application/scvp-cv-request',
+        'scs' => 'application/scvp-cv-response',
+        'scurl' => 'text/vnd.curl.scurl',
+        'sda' => 'application/vnd.stardivision.draw',
+        'sdc' => 'application/vnd.stardivision.calc',
+        'sdd' => 'application/vnd.stardivision.impress',
+        'sdkd' => 'application/vnd.solent.sdkm+xml',
+        'sdkm' => 'application/vnd.solent.sdkm+xml',
+        'sdp' => 'application/sdp',
+        'sdw' => 'application/vnd.stardivision.writer',
+        'see' => 'application/vnd.seemail',
+        'seed' => 'application/vnd.fdsn.seed',
+        'sema' => 'application/vnd.sema',
+        'semd' => 'application/vnd.semd',
+        'semf' => 'application/vnd.semf',
+        'ser' => 'application/java-serialized-object',
+        'setpay' => 'application/set-payment-initiation',
+        'setreg' => 'application/set-registration-initiation',
+        'sfd-hdstx' => 'application/vnd.hydrostatix.sof-data',
+        'sfs' => 'application/vnd.spotfire.sfs',
+        'sgl' => 'application/vnd.stardivision.writer-global',
+        'sgm' => 'text/sgml',
+        'sgml' => 'text/sgml',
+        'sh' => 'application/x-sh',
+        'shar' => 'application/x-shar',
+        'shf' => 'application/shf+xml',
+        'sig' => 'application/pgp-signature',
+        'silo' => 'model/mesh',
+        'sis' => 'application/vnd.symbian.install',
+        'sisx' => 'application/vnd.symbian.install',
+        'sit' => 'application/x-stuffit',
+        'sitx' => 'application/x-stuffitx',
+        'skd' => 'application/vnd.koan',
+        'skm' => 'application/vnd.koan',
+        'skp' => 'application/vnd.koan',
+        'skt' => 'application/vnd.koan',
+        'sldm' => 'application/vnd.ms-powerpoint.slide.macroenabled.12',
+        'sldx' => 'application/vnd.openxmlformats-officedocument.presentationml.slide',
+        'slt' => 'application/vnd.epson.salt',
+        'sm' => 'application/vnd.stepmania.stepchart',
+        'smf' => 'application/vnd.stardivision.math',
+        'smi' => 'application/smil+xml',
+        'smil' => 'application/smil+xml',
+        'snd' => 'audio/basic',
+        'snf' => 'application/x-font-snf',
+        'so' => 'application/octet-stream',
+        'spc' => 'application/x-pkcs7-certificates',
+        'spf' => 'application/vnd.yamaha.smaf-phrase',
+        'spl' => 'application/x-futuresplash',
+        'spot' => 'text/vnd.in3d.spot',
+        'spp' => 'application/scvp-vp-response',
+        'spq' => 'application/scvp-vp-request',
+        'spx' => 'audio/ogg',
+        'src' => 'application/x-wais-source',
+        'srt' => 'application/octet-stream',
+        'sru' => 'application/sru+xml',
+        'srx' => 'application/sparql-results+xml',
+        'sse' => 'application/vnd.kodak-descriptor',
+        'ssf' => 'application/vnd.epson.ssf',
+        'ssml' => 'application/ssml+xml',
+        'st' => 'application/vnd.sailingtracker.track',
+        'stc' => 'application/vnd.sun.xml.calc.template',
+        'std' => 'application/vnd.sun.xml.draw.template',
+        'stf' => 'application/vnd.wt.stf',
+        'sti' => 'application/vnd.sun.xml.impress.template',
+        'stk' => 'application/hyperstudio',
+        'stl' => 'application/vnd.ms-pki.stl',
+        'str' => 'application/vnd.pg.format',
+        'stw' => 'application/vnd.sun.xml.writer.template',
+        'sub' => 'image/vnd.dvb.subtitle',
+        'sus' => 'application/vnd.sus-calendar',
+        'susp' => 'application/vnd.sus-calendar',
+        'sv4cpio' => 'application/x-sv4cpio',
+        'sv4crc' => 'application/x-sv4crc',
+        'svc' => 'application/vnd.dvb.service',
+        'svd' => 'application/vnd.svd',
+        'svg' => 'image/svg+xml',
+        'svgz' => 'image/svg+xml',
+        'swa' => 'application/x-director',
+        'swf' => 'application/x-shockwave-flash',
+        'swi' => 'application/vnd.aristanetworks.swi',
+        'sxc' => 'application/vnd.sun.xml.calc',
+        'sxd' => 'application/vnd.sun.xml.draw',
+        'sxg' => 'application/vnd.sun.xml.writer.global',
+        'sxi' => 'application/vnd.sun.xml.impress',
+        'sxm' => 'application/vnd.sun.xml.math',
+        'sxw' => 'application/vnd.sun.xml.writer',
+        't' => 'text/troff',
+        'tao' => 'application/vnd.tao.intent-module-archive',
+        'tar' => 'application/x-tar',
+        'tcap' => 'application/vnd.3gpp2.tcap',
+        'tcl' => 'application/x-tcl',
+        'teacher' => 'application/vnd.smart.teacher',
+        'tei' => 'application/tei+xml',
+        'teicorpus' => 'application/tei+xml',
+        'tex' => 'application/x-tex',
+        'texi' => 'application/x-texinfo',
+        'texinfo' => 'application/x-texinfo',
+        'text' => 'text/plain',
+        'tfi' => 'application/thraud+xml',
+        'tfm' => 'application/x-tex-tfm',
+        'thmx' => 'application/vnd.ms-officetheme',
+        'tif' => 'image/tiff',
+        'tiff' => 'image/tiff',
+        'tmo' => 'application/vnd.tmobile-livetv',
+        'torrent' => 'application/x-bittorrent',
+        'tpl' => 'application/vnd.groove-tool-template',
+        'tpt' => 'application/vnd.trid.tpt',
+        'tr' => 'text/troff',
+        'tra' => 'application/vnd.trueapp',
+        'trm' => 'application/x-msterminal',
+        'tsd' => 'application/timestamped-data',
+        'tsv' => 'text/tab-separated-values',
+        'ttc' => 'application/x-font-ttf',
+        'ttf' => 'application/x-font-ttf',
+        'ttl' => 'text/turtle',
+        'twd' => 'application/vnd.simtech-mindmapper',
+        'twds' => 'application/vnd.simtech-mindmapper',
+        'txd' => 'application/vnd.genomatix.tuxedo',
+        'txf' => 'application/vnd.mobius.txf',
+        'txt' => 'text/plain',
+        'u32' => 'application/x-authorware-bin',
+        'udeb' => 'application/x-debian-package',
+        'ufd' => 'application/vnd.ufdl',
+        'ufdl' => 'application/vnd.ufdl',
+        'umj' => 'application/vnd.umajin',
+        'unityweb' => 'application/vnd.unity',
+        'uoml' => 'application/vnd.uoml+xml',
+        'uri' => 'text/uri-list',
+        'uris' => 'text/uri-list',
+        'urls' => 'text/uri-list',
+        'ustar' => 'application/x-ustar',
+        'utz' => 'application/vnd.uiq.theme',
+        'uu' => 'text/x-uuencode',
+        'uva' => 'audio/vnd.dece.audio',
+        'uvd' => 'application/vnd.dece.data',
+        'uvf' => 'application/vnd.dece.data',
+        'uvg' => 'image/vnd.dece.graphic',
+        'uvh' => 'video/vnd.dece.hd',
+        'uvi' => 'image/vnd.dece.graphic',
+        'uvm' => 'video/vnd.dece.mobile',
+        'uvp' => 'video/vnd.dece.pd',
+        'uvs' => 'video/vnd.dece.sd',
+        'uvt' => 'application/vnd.dece.ttml+xml',
+        'uvu' => 'video/vnd.uvvu.mp4',
+        'uvv' => 'video/vnd.dece.video',
+        'uvva' => 'audio/vnd.dece.audio',
+        'uvvd' => 'application/vnd.dece.data',
+        'uvvf' => 'application/vnd.dece.data',
+        'uvvg' => 'image/vnd.dece.graphic',
+        'uvvh' => 'video/vnd.dece.hd',
+        'uvvi' => 'image/vnd.dece.graphic',
+        'uvvm' => 'video/vnd.dece.mobile',
+        'uvvp' => 'video/vnd.dece.pd',
+        'uvvs' => 'video/vnd.dece.sd',
+        'uvvt' => 'application/vnd.dece.ttml+xml',
+        'uvvu' => 'video/vnd.uvvu.mp4',
+        'uvvv' => 'video/vnd.dece.video',
+        'uvvx' => 'application/vnd.dece.unspecified',
+        'uvx' => 'application/vnd.dece.unspecified',
+        'vcd' => 'application/x-cdlink',
+        'vcf' => 'text/x-vcard',
+        'vcg' => 'application/vnd.groove-vcard',
+        'vcs' => 'text/x-vcalendar',
+        'vcx' => 'application/vnd.vcx',
+        'vis' => 'application/vnd.visionary',
+        'viv' => 'video/vnd.vivo',
+        'vor' => 'application/vnd.stardivision.writer',
+        'vox' => 'application/x-authorware-bin',
+        'vrml' => 'model/vrml',
+        'vsd' => 'application/vnd.visio',
+        'vsf' => 'application/vnd.vsf',
+        'vss' => 'application/vnd.visio',
+        'vst' => 'application/vnd.visio',
+        'vsw' => 'application/vnd.visio',
+        'vtu' => 'model/vnd.vtu',
+        'vxml' => 'application/voicexml+xml',
+        'w3d' => 'application/x-director',
+        'wad' => 'application/x-doom',
+        'wav' => 'audio/x-wav',
+        'wax' => 'audio/x-ms-wax',
+        'wbmp' => 'image/vnd.wap.wbmp',
+        'wbs' => 'application/vnd.criticaltools.wbs+xml',
+        'wbxml' => 'application/vnd.wap.wbxml',
+        'wcm' => 'application/vnd.ms-works',
+        'wdb' => 'application/vnd.ms-works',
+        'weba' => 'audio/webm',
+        'webm' => 'video/webm',
+        'webp' => 'image/webp',
+        'wg' => 'application/vnd.pmi.widget',
+        'wgt' => 'application/widget',
+        'wks' => 'application/vnd.ms-works',
+        'wm' => 'video/x-ms-wm',
+        'wma' => 'audio/x-ms-wma',
+        'wmd' => 'application/x-ms-wmd',
+        'wmf' => 'application/x-msmetafile',
+        'wml' => 'text/vnd.wap.wml',
+        'wmlc' => 'application/vnd.wap.wmlc',
+        'wmls' => 'text/vnd.wap.wmlscript',
+        'wmlsc' => 'application/vnd.wap.wmlscriptc',
+        'wmv' => 'video/x-ms-wmv',
+        'wmx' => 'video/x-ms-wmx',
+        'wmz' => 'application/x-ms-wmz',
+        'woff' => 'application/x-font-woff',
+        'wpd' => 'application/vnd.wordperfect',
+        'wpl' => 'application/vnd.ms-wpl',
+        'wps' => 'application/vnd.ms-works',
+        'wqd' => 'application/vnd.wqd',
+        'wri' => 'application/x-mswrite',
+        'wrl' => 'model/vrml',
+        'wsdl' => 'application/wsdl+xml',
+        'wspolicy' => 'application/wspolicy+xml',
+        'wtb' => 'application/vnd.webturbo',
+        'wvx' => 'video/x-ms-wvx',
+        'x32' => 'application/x-authorware-bin',
+        'x3d' => 'application/vnd.hzn-3d-crossword',
+        'xap' => 'application/x-silverlight-app',
+        'xar' => 'application/vnd.xara',
+        'xbap' => 'application/x-ms-xbap',
+        'xbd' => 'application/vnd.fujixerox.docuworks.binder',
+        'xbm' => 'image/x-xbitmap',
+        'xdf' => 'application/xcap-diff+xml',
+        'xdm' => 'application/vnd.syncml.dm+xml',
+        'xdp' => 'application/vnd.adobe.xdp+xml',
+        'xdssc' => 'application/dssc+xml',
+        'xdw' => 'application/vnd.fujixerox.docuworks',
+        'xenc' => 'application/xenc+xml',
+        'xer' => 'application/patch-ops-error+xml',
+        'xfdf' => 'application/vnd.adobe.xfdf',
+        'xfdl' => 'application/vnd.xfdl',
+        'xht' => 'application/xhtml+xml',
+        'xhtml' => 'application/xhtml+xml',
+        'xhvml' => 'application/xv+xml',
+        'xif' => 'image/vnd.xiff',
+        'xla' => 'application/vnd.ms-excel',
+        'xlam' => 'application/vnd.ms-excel.addin.macroenabled.12',
+        'xlc' => 'application/vnd.ms-excel',
+        'xlm' => 'application/vnd.ms-excel',
+        'xls' => 'application/vnd.ms-excel',
+        'xlsb' => 'application/vnd.ms-excel.sheet.binary.macroenabled.12',
+        'xlsm' => 'application/vnd.ms-excel.sheet.macroenabled.12',
+        'xlsx' => 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+        'xlt' => 'application/vnd.ms-excel',
+        'xltm' => 'application/vnd.ms-excel.template.macroenabled.12',
+        'xltx' => 'application/vnd.openxmlformats-officedocument.spreadsheetml.template',
+        'xlw' => 'application/vnd.ms-excel',
+        'xml' => 'application/xml',
+        'xo' => 'application/vnd.olpc-sugar',
+        'xop' => 'application/xop+xml',
+        'xpi' => 'application/x-xpinstall',
+        'xpm' => 'image/x-xpixmap',
+        'xpr' => 'application/vnd.is-xpr',
+        'xps' => 'application/vnd.ms-xpsdocument',
+        'xpw' => 'application/vnd.intercon.formnet',
+        'xpx' => 'application/vnd.intercon.formnet',
+        'xsl' => 'application/xml',
+        'xslt' => 'application/xslt+xml',
+        'xsm' => 'application/vnd.syncml+xml',
+        'xspf' => 'application/xspf+xml',
+        'xul' => 'application/vnd.mozilla.xul+xml',
+        'xvm' => 'application/xv+xml',
+        'xvml' => 'application/xv+xml',
+        'xwd' => 'image/x-xwindowdump',
+        'xyz' => 'chemical/x-xyz',
+        'yaml' => 'text/yaml',
+        'yang' => 'application/yang',
+        'yin' => 'application/yin+xml',
+        'yml' => 'text/yaml',
+        'zaz' => 'application/vnd.zzazz.deck+xml',
+        'zip' => 'application/zip',
+        'zir' => 'application/vnd.zul',
+        'zirz' => 'application/vnd.zul',
+        'zmm' => 'application/vnd.handheld-entertainment+xml'
+    ];
+
+    /**
+     * Get a singleton instance of the class
+     *
+     * @return self
+     * @codeCoverageIgnore
+     */
+    public static function getInstance()
+    {
+        if (!self::$instance) {
+            self::$instance = new self();
+        }
+
+        return self::$instance;
+    }
+
+    /**
+     * Get a mimetype value from a file extension
+     *
+     * @param string $extension File extension
+     *
+     * @return string|null
+     */
+    public function fromExtension($extension)
+    {
+        $extension = strtolower($extension);
+
+        return isset($this->mimetypes[$extension]) ? $this->mimetypes[$extension] : null;
+    }
+
+    /**
+     * Get a mimetype from a filename
+     *
+     * @param string $filename Filename to generate a mimetype from
+     *
+     * @return string|null
+     */
+    public function fromFilename($filename)
+    {
+        return $this->fromExtension(pathinfo($filename, PATHINFO_EXTENSION));
+    }
+}

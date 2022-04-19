@@ -1,95 +1,405 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-3cg0CuF/NLmPuikSyBIzGpFL
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute\Resource;
+
+use Google\Service\Compute\InstanceGroup;
+use Google\Service\Compute\InstanceGroupAggregatedList;
+use Google\Service\Compute\InstanceGroupList;
+use Google\Service\Compute\InstanceGroupsAddInstancesRequest;
+use Google\Service\Compute\InstanceGroupsListInstances;
+use Google\Service\Compute\InstanceGroupsListInstancesRequest;
+use Google\Service\Compute\InstanceGroupsRemoveInstancesRequest;
+use Google\Service\Compute\InstanceGroupsSetNamedPortsRequest;
+use Google\Service\Compute\Operation;
+
+/**
+ * The "instanceGroups" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $computeService = new Google\Service\Compute(...);
+ *   $instanceGroups = $computeService->instanceGroups;
+ *  </code>
+ */
+class InstanceGroups extends \Google\Service\Resource
+{
+  /**
+   * Adds a list of instances to the specified instance group. All of the
+   * instances in the instance group must be in the same network/subnetwork. Read
+   * Adding instances for more information. (instanceGroups.addInstances)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone where the instance group is located.
+   * @param string $instanceGroup The name of the instance group where you are
+   * adding instances.
+   * @param InstanceGroupsAddInstancesRequest $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function addInstances($project, $zone, $instanceGroup, InstanceGroupsAddInstancesRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'instanceGroup' => $instanceGroup, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('addInstances', [$params], Operation::class);
+  }
+  /**
+   * Retrieves the list of instance groups and sorts them by zone.
+   * (instanceGroups.aggregatedList)
+   *
+   * @param string $project Project ID for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param bool includeAllScopes Indicates whether every visible scope for
+   * each scope type (zone, region, global) should be included in the response.
+   * For new resource types added after this field, the flag has no effect as new
+   * resource types will always include every visible scope for each scope type in
+   * response. For resource types which predate this field, if this flag is
+   * omitted or false, only scopes of the scope types where the resource type is
+   * expected to be found will be included.
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return InstanceGroupAggregatedList
+   */
+  public function aggregatedList($project, $optParams = [])
+  {
+    $params = ['project' => $project];
+    $params = array_merge($params, $optParams);
+    return $this->call('aggregatedList', [$params], InstanceGroupAggregatedList::class);
+  }
+  /**
+   * Deletes the specified instance group. The instances in the group are not
+   * deleted. Note that instance group must not belong to a backend service. Read
+   * Deleting an instance group for more information. (instanceGroups.delete)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone where the instance group is located.
+   * @param string $instanceGroup The name of the instance group to delete.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function delete($project, $zone, $instanceGroup, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'instanceGroup' => $instanceGroup];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Returns the specified zonal instance group. Get a list of available zonal
+   * instance groups by making a list() request.
+   *
+   * For managed instance groups, use the instanceGroupManagers or
+   * regionInstanceGroupManagers methods instead. (instanceGroups.get)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone where the instance group is located.
+   * @param string $instanceGroup The name of the instance group.
+   * @param array $optParams Optional parameters.
+   * @return InstanceGroup
+   */
+  public function get($project, $zone, $instanceGroup, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'instanceGroup' => $instanceGroup];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], InstanceGroup::class);
+  }
+  /**
+   * Creates an instance group in the specified project using the parameters that
+   * are included in the request. (instanceGroups.insert)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone where you want to create the
+   * instance group.
+   * @param InstanceGroup $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function insert($project, $zone, InstanceGroup $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Operation::class);
+  }
+  /**
+   * Retrieves the list of zonal instance group resources contained within the
+   * specified zone.
+   *
+   * For managed instance groups, use the instanceGroupManagers or
+   * regionInstanceGroupManagers methods instead.
+   * (instanceGroups.listInstanceGroups)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone where the instance group is located.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return InstanceGroupList
+   */
+  public function listInstanceGroups($project, $zone, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], InstanceGroupList::class);
+  }
+  /**
+   * Lists the instances in the specified instance group. The orderBy query
+   * parameter is not supported. (instanceGroups.listInstances)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone where the instance group is located.
+   * @param string $instanceGroup The name of the instance group from which you
+   * want to generate a list of included instances.
+   * @param InstanceGroupsListInstancesRequest $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return InstanceGroupsListInstances
+   */
+  public function listInstances($project, $zone, $instanceGroup, InstanceGroupsListInstancesRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'instanceGroup' => $instanceGroup, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('listInstances', [$params], InstanceGroupsListInstances::class);
+  }
+  /**
+   * Removes one or more instances from the specified instance group, but does not
+   * delete those instances.
+   *
+   * If the group is part of a backend service that has enabled connection
+   * draining, it can take up to 60 seconds after the connection draining duration
+   * before the VM instance is removed or deleted.
+   * (instanceGroups.removeInstances)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone where the instance group is located.
+   * @param string $instanceGroup The name of the instance group where the
+   * specified instances will be removed.
+   * @param InstanceGroupsRemoveInstancesRequest $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function removeInstances($project, $zone, $instanceGroup, InstanceGroupsRemoveInstancesRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'instanceGroup' => $instanceGroup, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('removeInstances', [$params], Operation::class);
+  }
+  /**
+   * Sets the named ports for the specified instance group.
+   * (instanceGroups.setNamedPorts)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone where the instance group is located.
+   * @param string $instanceGroup The name of the instance group where the named
+   * ports are updated.
+   * @param InstanceGroupsSetNamedPortsRequest $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function setNamedPorts($project, $zone, $instanceGroup, InstanceGroupsSetNamedPortsRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'instanceGroup' => $instanceGroup, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setNamedPorts', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(InstanceGroups::class, 'Google_Service_Compute_Resource_InstanceGroups');

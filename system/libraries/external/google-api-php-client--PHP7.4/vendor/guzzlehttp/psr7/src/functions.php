@@ -1,105 +1,422 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-uvpw3G6bgSE8awC=
+<?php
+
+namespace GuzzleHttp\Psr7;
+
+use Psr\Http\Message\MessageInterface;
+use Psr\Http\Message\RequestInterface;
+use Psr\Http\Message\StreamInterface;
+use Psr\Http\Message\UriInterface;
+
+/**
+ * Returns the string representation of an HTTP message.
+ *
+ * @param MessageInterface $message Message to convert to a string.
+ *
+ * @return string
+ *
+ * @deprecated str will be removed in guzzlehttp/psr7:2.0. Use Message::toString instead.
+ */
+function str(MessageInterface $message)
+{
+    return Message::toString($message);
+}
+
+/**
+ * Returns a UriInterface for the given value.
+ *
+ * This function accepts a string or UriInterface and returns a
+ * UriInterface for the given value. If the value is already a
+ * UriInterface, it is returned as-is.
+ *
+ * @param string|UriInterface $uri
+ *
+ * @return UriInterface
+ *
+ * @throws \InvalidArgumentException
+ *
+ * @deprecated uri_for will be removed in guzzlehttp/psr7:2.0. Use Utils::uriFor instead.
+ */
+function uri_for($uri)
+{
+    return Utils::uriFor($uri);
+}
+
+/**
+ * Create a new stream based on the input type.
+ *
+ * Options is an associative array that can contain the following keys:
+ * - metadata: Array of custom metadata.
+ * - size: Size of the stream.
+ *
+ * This method accepts the following `$resource` types:
+ * - `Psr\Http\Message\StreamInterface`: Returns the value as-is.
+ * - `string`: Creates a stream object that uses the given string as the contents.
+ * - `resource`: Creates a stream object that wraps the given PHP stream resource.
+ * - `Iterator`: If the provided value implements `Iterator`, then a read-only
+ *   stream object will be created that wraps the given iterable. Each time the
+ *   stream is read from, data from the iterator will fill a buffer and will be
+ *   continuously called until the buffer is equal to the requested read size.
+ *   Subsequent read calls will first read from the buffer and then call `next`
+ *   on the underlying iterator until it is exhausted.
+ * - `object` with `__toString()`: If the object has the `__toString()` method,
+ *   the object will be cast to a string and then a stream will be returned that
+ *   uses the string value.
+ * - `NULL`: When `null` is passed, an empty stream object is returned.
+ * - `callable` When a callable is passed, a read-only stream object will be
+ *   created that invokes the given callable. The callable is invoked with the
+ *   number of suggested bytes to read. The callable can return any number of
+ *   bytes, but MUST return `false` when there is no more data to return. The
+ *   stream object that wraps the callable will invoke the callable until the
+ *   number of requested bytes are available. Any additional bytes will be
+ *   buffered and used in subsequent reads.
+ *
+ * @param resource|string|int|float|bool|StreamInterface|callable|\Iterator|null $resource Entity body data
+ * @param array                                                                  $options  Additional options
+ *
+ * @return StreamInterface
+ *
+ * @throws \InvalidArgumentException if the $resource arg is not valid.
+ *
+ * @deprecated stream_for will be removed in guzzlehttp/psr7:2.0. Use Utils::streamFor instead.
+ */
+function stream_for($resource = '', array $options = [])
+{
+    return Utils::streamFor($resource, $options);
+}
+
+/**
+ * Parse an array of header values containing ";" separated data into an
+ * array of associative arrays representing the header key value pair data
+ * of the header. When a parameter does not contain a value, but just
+ * contains a key, this function will inject a key with a '' string value.
+ *
+ * @param string|array $header Header to parse into components.
+ *
+ * @return array Returns the parsed header values.
+ *
+ * @deprecated parse_header will be removed in guzzlehttp/psr7:2.0. Use Header::parse instead.
+ */
+function parse_header($header)
+{
+    return Header::parse($header);
+}
+
+/**
+ * Converts an array of header values that may contain comma separated
+ * headers into an array of headers with no comma separated values.
+ *
+ * @param string|array $header Header to normalize.
+ *
+ * @return array Returns the normalized header field values.
+ *
+ * @deprecated normalize_header will be removed in guzzlehttp/psr7:2.0. Use Header::normalize instead.
+ */
+function normalize_header($header)
+{
+    return Header::normalize($header);
+}
+
+/**
+ * Clone and modify a request with the given changes.
+ *
+ * This method is useful for reducing the number of clones needed to mutate a
+ * message.
+ *
+ * The changes can be one of:
+ * - method: (string) Changes the HTTP method.
+ * - set_headers: (array) Sets the given headers.
+ * - remove_headers: (array) Remove the given headers.
+ * - body: (mixed) Sets the given body.
+ * - uri: (UriInterface) Set the URI.
+ * - query: (string) Set the query string value of the URI.
+ * - version: (string) Set the protocol version.
+ *
+ * @param RequestInterface $request Request to clone and modify.
+ * @param array            $changes Changes to apply.
+ *
+ * @return RequestInterface
+ *
+ * @deprecated modify_request will be removed in guzzlehttp/psr7:2.0. Use Utils::modifyRequest instead.
+ */
+function modify_request(RequestInterface $request, array $changes)
+{
+    return Utils::modifyRequest($request, $changes);
+}
+
+/**
+ * Attempts to rewind a message body and throws an exception on failure.
+ *
+ * The body of the message will only be rewound if a call to `tell()` returns a
+ * value other than `0`.
+ *
+ * @param MessageInterface $message Message to rewind
+ *
+ * @throws \RuntimeException
+ *
+ * @deprecated rewind_body will be removed in guzzlehttp/psr7:2.0. Use Message::rewindBody instead.
+ */
+function rewind_body(MessageInterface $message)
+{
+    Message::rewindBody($message);
+}
+
+/**
+ * Safely opens a PHP stream resource using a filename.
+ *
+ * When fopen fails, PHP normally raises a warning. This function adds an
+ * error handler that checks for errors and throws an exception instead.
+ *
+ * @param string $filename File to open
+ * @param string $mode     Mode used to open the file
+ *
+ * @return resource
+ *
+ * @throws \RuntimeException if the file cannot be opened
+ *
+ * @deprecated try_fopen will be removed in guzzlehttp/psr7:2.0. Use Utils::tryFopen instead.
+ */
+function try_fopen($filename, $mode)
+{
+    return Utils::tryFopen($filename, $mode);
+}
+
+/**
+ * Copy the contents of a stream into a string until the given number of
+ * bytes have been read.
+ *
+ * @param StreamInterface $stream Stream to read
+ * @param int             $maxLen Maximum number of bytes to read. Pass -1
+ *                                to read the entire stream.
+ *
+ * @return string
+ *
+ * @throws \RuntimeException on error.
+ *
+ * @deprecated copy_to_string will be removed in guzzlehttp/psr7:2.0. Use Utils::copyToString instead.
+ */
+function copy_to_string(StreamInterface $stream, $maxLen = -1)
+{
+    return Utils::copyToString($stream, $maxLen);
+}
+
+/**
+ * Copy the contents of a stream into another stream until the given number
+ * of bytes have been read.
+ *
+ * @param StreamInterface $source Stream to read from
+ * @param StreamInterface $dest   Stream to write to
+ * @param int             $maxLen Maximum number of bytes to read. Pass -1
+ *                                to read the entire stream.
+ *
+ * @throws \RuntimeException on error.
+ *
+ * @deprecated copy_to_stream will be removed in guzzlehttp/psr7:2.0. Use Utils::copyToStream instead.
+ */
+function copy_to_stream(StreamInterface $source, StreamInterface $dest, $maxLen = -1)
+{
+    return Utils::copyToStream($source, $dest, $maxLen);
+}
+
+/**
+ * Calculate a hash of a stream.
+ *
+ * This method reads the entire stream to calculate a rolling hash, based on
+ * PHP's `hash_init` functions.
+ *
+ * @param StreamInterface $stream    Stream to calculate the hash for
+ * @param string          $algo      Hash algorithm (e.g. md5, crc32, etc)
+ * @param bool            $rawOutput Whether or not to use raw output
+ *
+ * @return string Returns the hash of the stream
+ *
+ * @throws \RuntimeException on error.
+ *
+ * @deprecated hash will be removed in guzzlehttp/psr7:2.0. Use Utils::hash instead.
+ */
+function hash(StreamInterface $stream, $algo, $rawOutput = false)
+{
+    return Utils::hash($stream, $algo, $rawOutput);
+}
+
+/**
+ * Read a line from the stream up to the maximum allowed buffer length.
+ *
+ * @param StreamInterface $stream    Stream to read from
+ * @param int|null        $maxLength Maximum buffer length
+ *
+ * @return string
+ *
+ * @deprecated readline will be removed in guzzlehttp/psr7:2.0. Use Utils::readLine instead.
+ */
+function readline(StreamInterface $stream, $maxLength = null)
+{
+    return Utils::readLine($stream, $maxLength);
+}
+
+/**
+ * Parses a request message string into a request object.
+ *
+ * @param string $message Request message string.
+ *
+ * @return Request
+ *
+ * @deprecated parse_request will be removed in guzzlehttp/psr7:2.0. Use Message::parseRequest instead.
+ */
+function parse_request($message)
+{
+    return Message::parseRequest($message);
+}
+
+/**
+ * Parses a response message string into a response object.
+ *
+ * @param string $message Response message string.
+ *
+ * @return Response
+ *
+ * @deprecated parse_response will be removed in guzzlehttp/psr7:2.0. Use Message::parseResponse instead.
+ */
+function parse_response($message)
+{
+    return Message::parseResponse($message);
+}
+
+/**
+ * Parse a query string into an associative array.
+ *
+ * If multiple values are found for the same key, the value of that key value
+ * pair will become an array. This function does not parse nested PHP style
+ * arrays into an associative array (e.g., `foo[a]=1&foo[b]=2` will be parsed
+ * into `['foo[a]' => '1', 'foo[b]' => '2'])`.
+ *
+ * @param string   $str         Query string to parse
+ * @param int|bool $urlEncoding How the query string is encoded
+ *
+ * @return array
+ *
+ * @deprecated parse_query will be removed in guzzlehttp/psr7:2.0. Use Query::parse instead.
+ */
+function parse_query($str, $urlEncoding = true)
+{
+    return Query::parse($str, $urlEncoding);
+}
+
+/**
+ * Build a query string from an array of key value pairs.
+ *
+ * This function can use the return value of `parse_query()` to build a query
+ * string. This function does not modify the provided keys when an array is
+ * encountered (like `http_build_query()` would).
+ *
+ * @param array     $params   Query string parameters.
+ * @param int|false $encoding Set to false to not encode, PHP_QUERY_RFC3986
+ *                            to encode using RFC3986, or PHP_QUERY_RFC1738
+ *                            to encode using RFC1738.
+ *
+ * @return string
+ *
+ * @deprecated build_query will be removed in guzzlehttp/psr7:2.0. Use Query::build instead.
+ */
+function build_query(array $params, $encoding = PHP_QUERY_RFC3986)
+{
+    return Query::build($params, $encoding);
+}
+
+/**
+ * Determines the mimetype of a file by looking at its extension.
+ *
+ * @param string $filename
+ *
+ * @return string|null
+ *
+ * @deprecated mimetype_from_filename will be removed in guzzlehttp/psr7:2.0. Use MimeType::fromFilename instead.
+ */
+function mimetype_from_filename($filename)
+{
+    return MimeType::fromFilename($filename);
+}
+
+/**
+ * Maps a file extensions to a mimetype.
+ *
+ * @param $extension string The file extension.
+ *
+ * @return string|null
+ *
+ * @link http://svn.apache.org/repos/asf/httpd/httpd/branches/1.3.x/conf/mime.types
+ * @deprecated mimetype_from_extension will be removed in guzzlehttp/psr7:2.0. Use MimeType::fromExtension instead.
+ */
+function mimetype_from_extension($extension)
+{
+    return MimeType::fromExtension($extension);
+}
+
+/**
+ * Parses an HTTP message into an associative array.
+ *
+ * The array contains the "start-line" key containing the start line of
+ * the message, "headers" key containing an associative array of header
+ * array values, and a "body" key containing the body of the message.
+ *
+ * @param string $message HTTP request or response to parse.
+ *
+ * @return array
+ *
+ * @internal
+ *
+ * @deprecated _parse_message will be removed in guzzlehttp/psr7:2.0. Use Message::parseMessage instead.
+ */
+function _parse_message($message)
+{
+    return Message::parseMessage($message);
+}
+
+/**
+ * Constructs a URI for an HTTP request message.
+ *
+ * @param string $path    Path from the start-line
+ * @param array  $headers Array of headers (each value an array).
+ *
+ * @return string
+ *
+ * @internal
+ *
+ * @deprecated _parse_request_uri will be removed in guzzlehttp/psr7:2.0. Use Message::parseRequestUri instead.
+ */
+function _parse_request_uri($path, array $headers)
+{
+    return Message::parseRequestUri($path, $headers);
+}
+
+/**
+ * Get a short summary of the message body.
+ *
+ * Will return `null` if the response is not printable.
+ *
+ * @param MessageInterface $message    The message to get the body summary
+ * @param int              $truncateAt The maximum allowed size of the summary
+ *
+ * @return string|null
+ *
+ * @deprecated get_message_body_summary will be removed in guzzlehttp/psr7:2.0. Use Message::bodySummary instead.
+ */
+function get_message_body_summary(MessageInterface $message, $truncateAt = 120)
+{
+    return Message::bodySummary($message, $truncateAt);
+}
+
+/**
+ * Remove the items given by the keys, case insensitively from the data.
+ *
+ * @param iterable<string> $keys
+ *
+ * @return array
+ *
+ * @internal
+ *
+ * @deprecated _caseless_remove will be removed in guzzlehttp/psr7:2.0. Use Utils::caselessRemove instead.
+ */
+function _caseless_remove($keys, array $data)
+{
+    return Utils::caselessRemove($keys, $data);
+}

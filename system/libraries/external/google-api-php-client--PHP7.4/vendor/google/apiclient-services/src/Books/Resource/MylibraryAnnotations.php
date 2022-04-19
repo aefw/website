@@ -1,68 +1,131 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Books\Resource;
+
+use Google\Service\Books\Annotation;
+use Google\Service\Books\Annotations;
+use Google\Service\Books\AnnotationsSummary;
+use Google\Service\Books\BooksEmpty;
+
+/**
+ * The "annotations" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $booksService = new Google\Service\Books(...);
+ *   $annotations = $booksService->annotations;
+ *  </code>
+ */
+class MylibraryAnnotations extends \Google\Service\Resource
+{
+  /**
+   * Deletes an annotation. (annotations.delete)
+   *
+   * @param string $annotationId The ID for the annotation to delete.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string source String to identify the originator of this request.
+   * @return BooksEmpty
+   */
+  public function delete($annotationId, $optParams = [])
+  {
+    $params = ['annotationId' => $annotationId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], BooksEmpty::class);
+  }
+  /**
+   * Inserts a new annotation. (annotations.insert)
+   *
+   * @param Annotation $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string annotationId The ID for the annotation to insert.
+   * @opt_param string country ISO-3166-1 code to override the IP-based location.
+   * @opt_param bool showOnlySummaryInResponse Requests that only the summary of
+   * the specified layer be provided in the response.
+   * @opt_param string source String to identify the originator of this request.
+   * @return Annotation
+   */
+  public function insert(Annotation $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Annotation::class);
+  }
+  /**
+   * Retrieves a list of annotations, possibly filtered.
+   * (annotations.listMylibraryAnnotations)
+   *
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string contentVersion The content version for the requested
+   * volume.
+   * @opt_param string layerId The layer ID to limit annotation by.
+   * @opt_param string layerIds The layer ID(s) to limit annotation by.
+   * @opt_param string maxResults Maximum number of results to return
+   * @opt_param string pageToken The value of the nextToken from the previous
+   * page.
+   * @opt_param bool showDeleted Set to true to return deleted annotations.
+   * updatedMin must be in the request to use this. Defaults to false.
+   * @opt_param string source String to identify the originator of this request.
+   * @opt_param string updatedMax RFC 3339 timestamp to restrict to items updated
+   * prior to this timestamp (exclusive).
+   * @opt_param string updatedMin RFC 3339 timestamp to restrict to items updated
+   * since this timestamp (inclusive).
+   * @opt_param string volumeId The volume to restrict annotations to.
+   * @return Annotations
+   */
+  public function listMylibraryAnnotations($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], Annotations::class);
+  }
+  /**
+   * Gets the summary of specified layers. (annotations.summary)
+   *
+   * @param string|array $layerIds Array of layer IDs to get the summary for.
+   * @param string $volumeId Volume id to get the summary for.
+   * @param array $optParams Optional parameters.
+   * @return AnnotationsSummary
+   */
+  public function summary($layerIds, $volumeId, $optParams = [])
+  {
+    $params = ['layerIds' => $layerIds, 'volumeId' => $volumeId];
+    $params = array_merge($params, $optParams);
+    return $this->call('summary', [$params], AnnotationsSummary::class);
+  }
+  /**
+   * Updates an existing annotation. (annotations.update)
+   *
+   * @param string $annotationId The ID for the annotation to update.
+   * @param Annotation $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string source String to identify the originator of this request.
+   * @return Annotation
+   */
+  public function update($annotationId, Annotation $postBody, $optParams = [])
+  {
+    $params = ['annotationId' => $annotationId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Annotation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(MylibraryAnnotations::class, 'Google_Service_Books_Resource_MylibraryAnnotations');

@@ -1,73 +1,139 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudHealthcare\Resource;
+
+use Google\Service\CloudHealthcare\AttributeDefinition;
+use Google\Service\CloudHealthcare\HealthcareEmpty;
+use Google\Service\CloudHealthcare\ListAttributeDefinitionsResponse;
+
+/**
+ * The "attributeDefinitions" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $healthcareService = new Google\Service\CloudHealthcare(...);
+ *   $attributeDefinitions = $healthcareService->attributeDefinitions;
+ *  </code>
+ */
+class ProjectsLocationsDatasetsConsentStoresAttributeDefinitions extends \Google\Service\Resource
+{
+  /**
+   * Creates a new Attribute definition in the parent consent store.
+   * (attributeDefinitions.create)
+   *
+   * @param string $parent Required. The name of the consent store that this
+   * Attribute definition belongs to.
+   * @param AttributeDefinition $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string attributeDefinitionId Required. The ID of the Attribute
+   * definition to create. The string must match the following regex: `_a-
+   * zA-Z{0,255}` and must not be a reserved keyword within the Common Expression
+   * Language as listed on https://github.com/google/cel-
+   * spec/blob/master/doc/langdef.md.
+   * @return AttributeDefinition
+   */
+  public function create($parent, AttributeDefinition $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], AttributeDefinition::class);
+  }
+  /**
+   * Deletes the specified Attribute definition. Fails if the Attribute definition
+   * is referenced by any User data mapping, or the latest revision of any
+   * Consent. (attributeDefinitions.delete)
+   *
+   * @param string $name Required. The resource name of the Attribute definition
+   * to delete. To preserve referential integrity, Attribute definitions
+   * referenced by a User data mapping or the latest revision of a Consent cannot
+   * be deleted.
+   * @param array $optParams Optional parameters.
+   * @return HealthcareEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], HealthcareEmpty::class);
+  }
+  /**
+   * Gets the specified Attribute definition. (attributeDefinitions.get)
+   *
+   * @param string $name Required. The resource name of the Attribute definition
+   * to get.
+   * @param array $optParams Optional parameters.
+   * @return AttributeDefinition
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], AttributeDefinition::class);
+  }
+  /**
+   * Lists the Attribute definitions in the specified consent store. (attributeDef
+   * initions.listProjectsLocationsDatasetsConsentStoresAttributeDefinitions)
+   *
+   * @param string $parent Required. Name of the consent store to retrieve
+   * Attribute definitions from.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Optional. Restricts the attributes returned to those
+   * matching a filter. The only field available for filtering is `category`. For
+   * example, `filter=category=\"REQUEST\"`.
+   * @opt_param int pageSize Optional. Limit on the number of Attribute
+   * definitions to return in a single response. If not specified, 100 is used.
+   * May not be larger than 1000.
+   * @opt_param string pageToken Optional. Token to retrieve the next page of
+   * results or empty to get the first page.
+   * @return ListAttributeDefinitionsResponse
+   */
+  public function listProjectsLocationsDatasetsConsentStoresAttributeDefinitions($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListAttributeDefinitionsResponse::class);
+  }
+  /**
+   * Updates the specified Attribute definition. (attributeDefinitions.patch)
+   *
+   * @param string $name Resource name of the Attribute definition, of the form `p
+   * rojects/{project_id}/locations/{location_id}/datasets/{dataset_id}/consentSto
+   * res/{consent_store_id}/attributeDefinitions/{attribute_definition_id}`.
+   * Cannot be changed after creation.
+   * @param AttributeDefinition $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. The update mask that applies to the
+   * resource. For the `FieldMask` definition, see https://developers.google.com
+   * /protocol-buffers/docs/reference/google.protobuf#fieldmask. Only the
+   * `description`, `allowed_values`, `consent_default_values` and
+   * `data_mapping_default_value` fields can be updated. The updated
+   * `allowed_values` must contain all values from the previous `allowed_values`.
+   * @return AttributeDefinition
+   */
+  public function patch($name, AttributeDefinition $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], AttributeDefinition::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsDatasetsConsentStoresAttributeDefinitions::class, 'Google_Service_CloudHealthcare_Resource_ProjectsLocationsDatasetsConsentStoresAttributeDefinitions');

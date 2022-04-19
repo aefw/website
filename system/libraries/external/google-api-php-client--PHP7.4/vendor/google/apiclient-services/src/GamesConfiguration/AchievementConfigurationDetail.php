@@ -1,66 +1,94 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\GamesConfiguration;
+
+class AchievementConfigurationDetail extends \Google\Model
+{
+  protected $descriptionType = LocalizedStringBundle::class;
+  protected $descriptionDataType = '';
+  public $iconUrl;
+  public $kind;
+  protected $nameType = LocalizedStringBundle::class;
+  protected $nameDataType = '';
+  public $pointValue;
+  public $sortRank;
+
+  /**
+   * @param LocalizedStringBundle
+   */
+  public function setDescription(LocalizedStringBundle $description)
+  {
+    $this->description = $description;
+  }
+  /**
+   * @return LocalizedStringBundle
+   */
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setIconUrl($iconUrl)
+  {
+    $this->iconUrl = $iconUrl;
+  }
+  public function getIconUrl()
+  {
+    return $this->iconUrl;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  /**
+   * @param LocalizedStringBundle
+   */
+  public function setName(LocalizedStringBundle $name)
+  {
+    $this->name = $name;
+  }
+  /**
+   * @return LocalizedStringBundle
+   */
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setPointValue($pointValue)
+  {
+    $this->pointValue = $pointValue;
+  }
+  public function getPointValue()
+  {
+    return $this->pointValue;
+  }
+  public function setSortRank($sortRank)
+  {
+    $this->sortRank = $sortRank;
+  }
+  public function getSortRank()
+  {
+    return $this->sortRank;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AchievementConfigurationDetail::class, 'Google_Service_GamesConfiguration_AchievementConfigurationDetail');

@@ -1,61 +1,175 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\SecurityCommandCenter\Resource;
+
+use Google\Service\SecurityCommandCenter\GroupAssetsRequest;
+use Google\Service\SecurityCommandCenter\GroupAssetsResponse;
+use Google\Service\SecurityCommandCenter\ListAssetsResponse;
+use Google\Service\SecurityCommandCenter\SecurityMarks;
+
+/**
+ * The "assets" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $securitycenterService = new Google\Service\SecurityCommandCenter(...);
+ *   $assets = $securitycenterService->assets;
+ *  </code>
+ */
+class FoldersAssets extends \Google\Service\Resource
+{
+  /**
+   * Filters an organization's assets and groups them by their specified
+   * properties. (assets.group)
+   *
+   * @param string $parent Required. Name of the organization to groupBy. Its
+   * format is "organizations/[organization_id], folders/[folder_id], or
+   * projects/[project_id]".
+   * @param GroupAssetsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GroupAssetsResponse
+   */
+  public function group($parent, GroupAssetsRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('group', [$params], GroupAssetsResponse::class);
+  }
+  /**
+   * Lists an organization's assets. (assets.listFoldersAssets)
+   *
+   * @param string $parent Required. Name of the organization assets should belong
+   * to. Its format is "organizations/[organization_id], folders/[folder_id], or
+   * projects/[project_id]".
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string compareDuration When compare_duration is set, the
+   * ListAssetsResult's "state_change" attribute is updated to indicate whether
+   * the asset was added, removed, or remained present during the compare_duration
+   * period of time that precedes the read_time. This is the time between
+   * (read_time - compare_duration) and read_time. The state_change value is
+   * derived based on the presence of the asset at the two points in time.
+   * Intermediate state changes between the two times don't affect the result. For
+   * example, the results aren't affected if the asset is removed and re-created
+   * again. Possible "state_change" values when compare_duration is specified: *
+   * "ADDED": indicates that the asset was not present at the start of
+   * compare_duration, but present at read_time. * "REMOVED": indicates that the
+   * asset was present at the start of compare_duration, but not present at
+   * read_time. * "ACTIVE": indicates that the asset was present at both the start
+   * and the end of the time period defined by compare_duration and read_time. If
+   * compare_duration is not specified, then the only possible state_change is
+   * "UNUSED", which will be the state_change set for all assets present at
+   * read_time.
+   * @opt_param string fieldMask A field mask to specify the ListAssetsResult
+   * fields to be listed in the response. An empty field mask will list all
+   * fields.
+   * @opt_param string filter Expression that defines the filter to apply across
+   * assets. The expression is a list of zero or more restrictions combined via
+   * logical operators `AND` and `OR`. Parentheses are supported, and `OR` has
+   * higher precedence than `AND`. Restrictions have the form ` ` and may have a
+   * `-` character in front of them to indicate negation. The fields map to those
+   * defined in the Asset resource. Examples include: * name *
+   * security_center_properties.resource_name * resource_properties.a_property *
+   * security_marks.marks.marka The supported operators are: * `=` for all value
+   * types. * `>`, `<`, `>=`, `<=` for integer values. * `:`, meaning substring
+   * matching, for strings. The supported value types are: * string literals in
+   * quotes. * integer literals without quotes. * boolean literals `true` and
+   * `false` without quotes. The following are the allowed field and operator
+   * combinations: * name: `=` * update_time: `=`, `>`, `<`, `>=`, `<=` Usage:
+   * This should be milliseconds since epoch or an RFC3339 string. Examples:
+   * `update_time = "2019-06-10T16:07:18-07:00"` `update_time = 1560208038000` *
+   * create_time: `=`, `>`, `<`, `>=`, `<=` Usage: This should be milliseconds
+   * since epoch or an RFC3339 string. Examples: `create_time =
+   * "2019-06-10T16:07:18-07:00"` `create_time = 1560208038000` *
+   * iam_policy.policy_blob: `=`, `:` * resource_properties: `=`, `:`, `>`, `<`,
+   * `>=`, `<=` * security_marks.marks: `=`, `:` *
+   * security_center_properties.resource_name: `=`, `:` *
+   * security_center_properties.resource_display_name: `=`, `:` *
+   * security_center_properties.resource_type: `=`, `:` *
+   * security_center_properties.resource_parent: `=`, `:` *
+   * security_center_properties.resource_parent_display_name: `=`, `:` *
+   * security_center_properties.resource_project: `=`, `:` *
+   * security_center_properties.resource_project_display_name: `=`, `:` *
+   * security_center_properties.resource_owners: `=`, `:` For example,
+   * `resource_properties.size = 100` is a valid filter string. Use a partial
+   * match on the empty string to filter based on a property existing:
+   * `resource_properties.my_property : ""` Use a negated partial match on the
+   * empty string to filter based on a property not existing:
+   * `-resource_properties.my_property : ""`
+   * @opt_param string orderBy Expression that defines what fields and order to
+   * use for sorting. The string value should follow SQL syntax: comma separated
+   * list of fields. For example: "name,resource_properties.a_property". The
+   * default sorting order is ascending. To specify descending order for a field,
+   * a suffix " desc" should be appended to the field name. For example: "name
+   * desc,resource_properties.a_property". Redundant space characters in the
+   * syntax are insignificant. "name desc,resource_properties.a_property" and "
+   * name desc , resource_properties.a_property " are equivalent. The following
+   * fields are supported: name update_time resource_properties
+   * security_marks.marks security_center_properties.resource_name
+   * security_center_properties.resource_display_name
+   * security_center_properties.resource_parent
+   * security_center_properties.resource_parent_display_name
+   * security_center_properties.resource_project
+   * security_center_properties.resource_project_display_name
+   * security_center_properties.resource_type
+   * @opt_param int pageSize The maximum number of results to return in a single
+   * response. Default is 10, minimum is 1, maximum is 1000.
+   * @opt_param string pageToken The value returned by the last
+   * `ListAssetsResponse`; indicates that this is a continuation of a prior
+   * `ListAssets` call, and that the system should return the next page of data.
+   * @opt_param string readTime Time used as a reference point when filtering
+   * assets. The filter is limited to assets existing at the supplied time and
+   * their values are those at that specific time. Absence of this field will
+   * default to the API's version of NOW.
+   * @return ListAssetsResponse
+   */
+  public function listFoldersAssets($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListAssetsResponse::class);
+  }
+  /**
+   * Updates security marks. (assets.updateSecurityMarks)
+   *
+   * @param string $name The relative resource name of the SecurityMarks. See:
+   * https://cloud.google.com/apis/design/resource_names#relative_resource_name
+   * Examples: "organizations/{organization_id}/assets/{asset_id}/securityMarks" "
+   * organizations/{organization_id}/sources/{source_id}/findings/{finding_id}/sec
+   * urityMarks".
+   * @param SecurityMarks $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string startTime The time at which the updated SecurityMarks take
+   * effect. If not set uses current server time. Updates will be applied to the
+   * SecurityMarks that are active immediately preceding this time.
+   * @opt_param string updateMask The FieldMask to use when updating the security
+   * marks resource. The field mask must not contain duplicate fields. If empty or
+   * set to "marks", all marks will be replaced. Individual marks can be updated
+   * using "marks.".
+   * @return SecurityMarks
+   */
+  public function updateSecurityMarks($name, SecurityMarks $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('updateSecurityMarks', [$params], SecurityMarks::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(FoldersAssets::class, 'Google_Service_SecurityCommandCenter_Resource_FoldersAssets');

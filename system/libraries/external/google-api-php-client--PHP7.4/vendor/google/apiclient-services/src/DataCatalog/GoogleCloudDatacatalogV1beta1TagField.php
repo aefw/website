@@ -1,68 +1,96 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DataCatalog;
+
+class GoogleCloudDatacatalogV1beta1TagField extends \Google\Model
+{
+  public $boolValue;
+  public $displayName;
+  public $doubleValue;
+  protected $enumValueType = GoogleCloudDatacatalogV1beta1TagFieldEnumValue::class;
+  protected $enumValueDataType = '';
+  public $order;
+  public $stringValue;
+  public $timestampValue;
+
+  public function setBoolValue($boolValue)
+  {
+    $this->boolValue = $boolValue;
+  }
+  public function getBoolValue()
+  {
+    return $this->boolValue;
+  }
+  public function setDisplayName($displayName)
+  {
+    $this->displayName = $displayName;
+  }
+  public function getDisplayName()
+  {
+    return $this->displayName;
+  }
+  public function setDoubleValue($doubleValue)
+  {
+    $this->doubleValue = $doubleValue;
+  }
+  public function getDoubleValue()
+  {
+    return $this->doubleValue;
+  }
+  /**
+   * @param GoogleCloudDatacatalogV1beta1TagFieldEnumValue
+   */
+  public function setEnumValue(GoogleCloudDatacatalogV1beta1TagFieldEnumValue $enumValue)
+  {
+    $this->enumValue = $enumValue;
+  }
+  /**
+   * @return GoogleCloudDatacatalogV1beta1TagFieldEnumValue
+   */
+  public function getEnumValue()
+  {
+    return $this->enumValue;
+  }
+  public function setOrder($order)
+  {
+    $this->order = $order;
+  }
+  public function getOrder()
+  {
+    return $this->order;
+  }
+  public function setStringValue($stringValue)
+  {
+    $this->stringValue = $stringValue;
+  }
+  public function getStringValue()
+  {
+    return $this->stringValue;
+  }
+  public function setTimestampValue($timestampValue)
+  {
+    $this->timestampValue = $timestampValue;
+  }
+  public function getTimestampValue()
+  {
+    return $this->timestampValue;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudDatacatalogV1beta1TagField::class, 'Google_Service_DataCatalog_GoogleCloudDatacatalogV1beta1TagField');

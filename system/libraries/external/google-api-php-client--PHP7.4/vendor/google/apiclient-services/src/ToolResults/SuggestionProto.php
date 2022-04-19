@@ -1,80 +1,137 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ToolResults;
+
+class SuggestionProto extends \Google\Model
+{
+  public $helpUrl;
+  protected $longMessageType = SafeHtmlProto::class;
+  protected $longMessageDataType = '';
+  public $priority;
+  public $pseudoResourceId;
+  protected $regionType = RegionProto::class;
+  protected $regionDataType = '';
+  public $resourceName;
+  public $screenId;
+  public $secondaryPriority;
+  protected $shortMessageType = SafeHtmlProto::class;
+  protected $shortMessageDataType = '';
+  public $title;
+
+  public function setHelpUrl($helpUrl)
+  {
+    $this->helpUrl = $helpUrl;
+  }
+  public function getHelpUrl()
+  {
+    return $this->helpUrl;
+  }
+  /**
+   * @param SafeHtmlProto
+   */
+  public function setLongMessage(SafeHtmlProto $longMessage)
+  {
+    $this->longMessage = $longMessage;
+  }
+  /**
+   * @return SafeHtmlProto
+   */
+  public function getLongMessage()
+  {
+    return $this->longMessage;
+  }
+  public function setPriority($priority)
+  {
+    $this->priority = $priority;
+  }
+  public function getPriority()
+  {
+    return $this->priority;
+  }
+  public function setPseudoResourceId($pseudoResourceId)
+  {
+    $this->pseudoResourceId = $pseudoResourceId;
+  }
+  public function getPseudoResourceId()
+  {
+    return $this->pseudoResourceId;
+  }
+  /**
+   * @param RegionProto
+   */
+  public function setRegion(RegionProto $region)
+  {
+    $this->region = $region;
+  }
+  /**
+   * @return RegionProto
+   */
+  public function getRegion()
+  {
+    return $this->region;
+  }
+  public function setResourceName($resourceName)
+  {
+    $this->resourceName = $resourceName;
+  }
+  public function getResourceName()
+  {
+    return $this->resourceName;
+  }
+  public function setScreenId($screenId)
+  {
+    $this->screenId = $screenId;
+  }
+  public function getScreenId()
+  {
+    return $this->screenId;
+  }
+  public function setSecondaryPriority($secondaryPriority)
+  {
+    $this->secondaryPriority = $secondaryPriority;
+  }
+  public function getSecondaryPriority()
+  {
+    return $this->secondaryPriority;
+  }
+  /**
+   * @param SafeHtmlProto
+   */
+  public function setShortMessage(SafeHtmlProto $shortMessage)
+  {
+    $this->shortMessage = $shortMessage;
+  }
+  /**
+   * @return SafeHtmlProto
+   */
+  public function getShortMessage()
+  {
+    return $this->shortMessage;
+  }
+  public function setTitle($title)
+  {
+    $this->title = $title;
+  }
+  public function getTitle()
+  {
+    return $this->title;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(SuggestionProto::class, 'Google_Service_ToolResults_SuggestionProto');

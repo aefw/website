@@ -1,61 +1,109 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudResourceManager\Resource;
+
+use Google\Service\CloudResourceManager\CloudresourcemanagerEmpty;
+use Google\Service\CloudResourceManager\Lien;
+use Google\Service\CloudResourceManager\ListLiensResponse;
+
+/**
+ * The "liens" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $cloudresourcemanagerService = new Google\Service\CloudResourceManager(...);
+ *   $liens = $cloudresourcemanagerService->liens;
+ *  </code>
+ */
+class Liens extends \Google\Service\Resource
+{
+  /**
+   * Create a Lien which applies to the resource denoted by the `parent` field.
+   * Callers of this method will require permission on the `parent` resource. For
+   * example, applying to `projects/1234` requires permission
+   * `resourcemanager.projects.updateLiens`. NOTE: Some resources may limit the
+   * number of Liens which may be applied. (liens.create)
+   *
+   * @param Lien $postBody
+   * @param array $optParams Optional parameters.
+   * @return Lien
+   */
+  public function create(Lien $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Lien::class);
+  }
+  /**
+   * Delete a Lien by `name`. Callers of this method will require permission on
+   * the `parent` resource. For example, a Lien with a `parent` of `projects/1234`
+   * requires permission `resourcemanager.projects.updateLiens`. (liens.delete)
+   *
+   * @param string $name Required. The name/identifier of the Lien to delete.
+   * @param array $optParams Optional parameters.
+   * @return CloudresourcemanagerEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], CloudresourcemanagerEmpty::class);
+  }
+  /**
+   * Retrieve a Lien by `name`. Callers of this method will require permission on
+   * the `parent` resource. For example, a Lien with a `parent` of `projects/1234`
+   * requires permission `resourcemanager.projects.get` (liens.get)
+   *
+   * @param string $name Required. The name/identifier of the Lien.
+   * @param array $optParams Optional parameters.
+   * @return Lien
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Lien::class);
+  }
+  /**
+   * List all Liens applied to the `parent` resource. Callers of this method will
+   * require permission on the `parent` resource. For example, a Lien with a
+   * `parent` of `projects/1234` requires permission
+   * `resourcemanager.projects.get`. (liens.listLiens)
+   *
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The maximum number of items to return. This is a
+   * suggestion for the server.
+   * @opt_param string pageToken The `next_page_token` value returned from a
+   * previous List request, if any.
+   * @opt_param string parent Required. The name of the resource to list all
+   * attached Liens. For example, `projects/1234`.
+   * (google.api.field_policy).resource_type annotation is not set since the
+   * parent depends on the meta api implementation. This field could be a project
+   * or other sub project resources.
+   * @return ListLiensResponse
+   */
+  public function listLiens($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListLiensResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Liens::class, 'Google_Service_CloudResourceManager_Resource_Liens');

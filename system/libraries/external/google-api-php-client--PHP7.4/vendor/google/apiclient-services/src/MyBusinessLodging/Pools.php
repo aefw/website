@@ -1,140 +1,278 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\MyBusinessLodging;
+
+class Pools extends \Google\Model
+{
+  public $adultPool;
+  public $adultPoolException;
+  public $hotTub;
+  public $hotTubException;
+  public $indoorPool;
+  public $indoorPoolException;
+  public $indoorPoolsCount;
+  public $indoorPoolsCountException;
+  public $lazyRiver;
+  public $lazyRiverException;
+  public $lifeguard;
+  public $lifeguardException;
+  public $outdoorPool;
+  public $outdoorPoolException;
+  public $outdoorPoolsCount;
+  public $outdoorPoolsCountException;
+  public $pool;
+  public $poolException;
+  public $poolsCount;
+  public $poolsCountException;
+  public $wadingPool;
+  public $wadingPoolException;
+  public $waterPark;
+  public $waterParkException;
+  public $waterslide;
+  public $waterslideException;
+  public $wavePool;
+  public $wavePoolException;
+
+  public function setAdultPool($adultPool)
+  {
+    $this->adultPool = $adultPool;
+  }
+  public function getAdultPool()
+  {
+    return $this->adultPool;
+  }
+  public function setAdultPoolException($adultPoolException)
+  {
+    $this->adultPoolException = $adultPoolException;
+  }
+  public function getAdultPoolException()
+  {
+    return $this->adultPoolException;
+  }
+  public function setHotTub($hotTub)
+  {
+    $this->hotTub = $hotTub;
+  }
+  public function getHotTub()
+  {
+    return $this->hotTub;
+  }
+  public function setHotTubException($hotTubException)
+  {
+    $this->hotTubException = $hotTubException;
+  }
+  public function getHotTubException()
+  {
+    return $this->hotTubException;
+  }
+  public function setIndoorPool($indoorPool)
+  {
+    $this->indoorPool = $indoorPool;
+  }
+  public function getIndoorPool()
+  {
+    return $this->indoorPool;
+  }
+  public function setIndoorPoolException($indoorPoolException)
+  {
+    $this->indoorPoolException = $indoorPoolException;
+  }
+  public function getIndoorPoolException()
+  {
+    return $this->indoorPoolException;
+  }
+  public function setIndoorPoolsCount($indoorPoolsCount)
+  {
+    $this->indoorPoolsCount = $indoorPoolsCount;
+  }
+  public function getIndoorPoolsCount()
+  {
+    return $this->indoorPoolsCount;
+  }
+  public function setIndoorPoolsCountException($indoorPoolsCountException)
+  {
+    $this->indoorPoolsCountException = $indoorPoolsCountException;
+  }
+  public function getIndoorPoolsCountException()
+  {
+    return $this->indoorPoolsCountException;
+  }
+  public function setLazyRiver($lazyRiver)
+  {
+    $this->lazyRiver = $lazyRiver;
+  }
+  public function getLazyRiver()
+  {
+    return $this->lazyRiver;
+  }
+  public function setLazyRiverException($lazyRiverException)
+  {
+    $this->lazyRiverException = $lazyRiverException;
+  }
+  public function getLazyRiverException()
+  {
+    return $this->lazyRiverException;
+  }
+  public function setLifeguard($lifeguard)
+  {
+    $this->lifeguard = $lifeguard;
+  }
+  public function getLifeguard()
+  {
+    return $this->lifeguard;
+  }
+  public function setLifeguardException($lifeguardException)
+  {
+    $this->lifeguardException = $lifeguardException;
+  }
+  public function getLifeguardException()
+  {
+    return $this->lifeguardException;
+  }
+  public function setOutdoorPool($outdoorPool)
+  {
+    $this->outdoorPool = $outdoorPool;
+  }
+  public function getOutdoorPool()
+  {
+    return $this->outdoorPool;
+  }
+  public function setOutdoorPoolException($outdoorPoolException)
+  {
+    $this->outdoorPoolException = $outdoorPoolException;
+  }
+  public function getOutdoorPoolException()
+  {
+    return $this->outdoorPoolException;
+  }
+  public function setOutdoorPoolsCount($outdoorPoolsCount)
+  {
+    $this->outdoorPoolsCount = $outdoorPoolsCount;
+  }
+  public function getOutdoorPoolsCount()
+  {
+    return $this->outdoorPoolsCount;
+  }
+  public function setOutdoorPoolsCountException($outdoorPoolsCountException)
+  {
+    $this->outdoorPoolsCountException = $outdoorPoolsCountException;
+  }
+  public function getOutdoorPoolsCountException()
+  {
+    return $this->outdoorPoolsCountException;
+  }
+  public function setPool($pool)
+  {
+    $this->pool = $pool;
+  }
+  public function getPool()
+  {
+    return $this->pool;
+  }
+  public function setPoolException($poolException)
+  {
+    $this->poolException = $poolException;
+  }
+  public function getPoolException()
+  {
+    return $this->poolException;
+  }
+  public function setPoolsCount($poolsCount)
+  {
+    $this->poolsCount = $poolsCount;
+  }
+  public function getPoolsCount()
+  {
+    return $this->poolsCount;
+  }
+  public function setPoolsCountException($poolsCountException)
+  {
+    $this->poolsCountException = $poolsCountException;
+  }
+  public function getPoolsCountException()
+  {
+    return $this->poolsCountException;
+  }
+  public function setWadingPool($wadingPool)
+  {
+    $this->wadingPool = $wadingPool;
+  }
+  public function getWadingPool()
+  {
+    return $this->wadingPool;
+  }
+  public function setWadingPoolException($wadingPoolException)
+  {
+    $this->wadingPoolException = $wadingPoolException;
+  }
+  public function getWadingPoolException()
+  {
+    return $this->wadingPoolException;
+  }
+  public function setWaterPark($waterPark)
+  {
+    $this->waterPark = $waterPark;
+  }
+  public function getWaterPark()
+  {
+    return $this->waterPark;
+  }
+  public function setWaterParkException($waterParkException)
+  {
+    $this->waterParkException = $waterParkException;
+  }
+  public function getWaterParkException()
+  {
+    return $this->waterParkException;
+  }
+  public function setWaterslide($waterslide)
+  {
+    $this->waterslide = $waterslide;
+  }
+  public function getWaterslide()
+  {
+    return $this->waterslide;
+  }
+  public function setWaterslideException($waterslideException)
+  {
+    $this->waterslideException = $waterslideException;
+  }
+  public function getWaterslideException()
+  {
+    return $this->waterslideException;
+  }
+  public function setWavePool($wavePool)
+  {
+    $this->wavePool = $wavePool;
+  }
+  public function getWavePool()
+  {
+    return $this->wavePool;
+  }
+  public function setWavePoolException($wavePoolException)
+  {
+    $this->wavePoolException = $wavePoolException;
+  }
+  public function getWavePoolException()
+  {
+    return $this->wavePoolException;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Pools::class, 'Google_Service_MyBusinessLodging_Pools');

@@ -1,154 +1,400 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-U12GpEB13bTlGrDKQN41yP46iOE/dE0=
+<?php
+
+/**
+ *
+ * Class for the management of Matrices
+ *
+ * @copyright  Copyright (c) 2018 Mark Baker (https://github.com/MarkBaker/PHPMatrix)
+ * @license    https://opensource.org/licenses/MIT    MIT
+ */
+
+namespace Matrix;
+
+/**
+ * Matrix object.
+ *
+ * @package Matrix
+ *
+ * @property-read int $rows The number of rows in the matrix
+ * @property-read int $columns The number of columns in the matrix
+ * @method Matrix antidiagonal()
+ * @method Matrix adjoint()
+ * @method Matrix cofactors()
+ * @method float determinant()
+ * @method Matrix diagonal()
+ * @method Matrix identity()
+ * @method Matrix inverse()
+ * @method Matrix pseudoInverse()
+ * @method Matrix minors()
+ * @method float trace()
+ * @method Matrix transpose()
+ * @method Matrix add(...$matrices)
+ * @method Matrix subtract(...$matrices)
+ * @method Matrix multiply(...$matrices)
+ * @method Matrix divideby(...$matrices)
+ * @method Matrix divideinto(...$matrices)
+ */
+class Matrix
+{
+    protected $rows;
+    protected $columns;
+    protected $grid = [];
+
+    /*
+     * Create a new Matrix object from an array of values
+     *
+     * @param array $grid
+     */
+    final public function __construct(array $grid)
+    {
+        $this->buildFromArray(array_values($grid));
+    }
+
+    /*
+     * Create a new Matrix object from an array of values
+     *
+     * @param array $grid
+     */
+    protected function buildFromArray(array $grid)
+    {
+        $this->rows = count($grid);
+        $columns = array_reduce(
+            $grid,
+            function ($carry, $value) {
+                return max($carry, is_array($value) ? count($value) : 1);
+            }
+        );
+        $this->columns = $columns;
+
+        array_walk(
+            $grid,
+            function (&$value) use ($columns) {
+                if (!is_array($value)) {
+                    $value = [$value];
+                }
+                $value = array_pad(array_values($value), $columns, null);
+            }
+        );
+
+        $this->grid = $grid;
+    }
+
+    /**
+     * Validate that a row number is a positive integer
+     *
+     * @param int $row
+     * @return int
+     * @throws Exception
+     */
+    public static function validateRow($row)
+    {
+        if ((!is_numeric($row)) || (intval($row) < 1)) {
+            throw new Exception('Invalid Row');
+        }
+
+        return (int)$row;
+    }
+
+    /**
+     * Validate that a column number is a positive integer
+     *
+     * @param int $column
+     * @return int
+     * @throws Exception
+     */
+    public static function validateColumn($column)
+    {
+        if ((!is_numeric($column)) || (intval($column) < 1)) {
+            throw new Exception('Invalid Column');
+        }
+
+        return (int)$column;
+    }
+
+    /**
+     * Validate that a row number falls within the set of rows for this matrix
+     *
+     * @param int $row
+     * @return int
+     * @throws Exception
+     */
+    protected function validateRowInRange($row)
+    {
+        $row = static::validateRow($row);
+        if ($row > $this->rows) {
+            throw new Exception('Requested Row exceeds matrix size');
+        }
+
+        return $row;
+    }
+
+    /**
+     * Validate that a column number falls within the set of columns for this matrix
+     *
+     * @param int $column
+     * @return int
+     * @throws Exception
+     */
+    protected function validateColumnInRange($column)
+    {
+        $column = static::validateColumn($column);
+        if ($column > $this->columns) {
+            throw new Exception('Requested Column exceeds matrix size');
+        }
+
+        return $column;
+    }
+
+    /**
+     * Return a new matrix as a subset of rows from this matrix, starting at row number $row, and $rowCount rows
+     * A $rowCount value of 0 will return all rows of the matrix from $row
+     * A negative $rowCount value will return rows until that many rows from the end of the matrix
+     *
+     * Note that row numbers start from 1, not from 0
+     *
+     * @param int $row
+     * @param int $rowCount
+     * @return static
+     * @throws Exception
+     */
+    public function getRows($row, $rowCount = 1)
+    {
+        $row = $this->validateRowInRange($row);
+        if ($rowCount === 0) {
+            $rowCount = $this->rows - $row + 1;
+        }
+
+        return new static(array_slice($this->grid, $row - 1, (int)$rowCount));
+    }
+
+    /**
+     * Return a new matrix as a subset of columns from this matrix, starting at column number $column, and $columnCount columns
+     * A $columnCount value of 0 will return all columns of the matrix from $column
+     * A negative $columnCount value will return columns until that many columns from the end of the matrix
+     *
+     * Note that column numbers start from 1, not from 0
+     *
+     * @param int $column
+     * @param int $columnCount
+     * @return Matrix
+     * @throws Exception
+     */
+    public function getColumns($column, $columnCount = 1)
+    {
+        $column = $this->validateColumnInRange($column);
+        if ($columnCount < 1) {
+            $columnCount = $this->columns + $columnCount - $column + 1;
+        }
+
+        $grid = [];
+        for ($i = $column - 1; $i < $column + $columnCount - 1; ++$i) {
+            $grid[] = array_column($this->grid, $i);
+        }
+
+        return (new static($grid))->transpose();
+    }
+
+    /**
+     * Return a new matrix as a subset of rows from this matrix, dropping rows starting at row number $row,
+     *     and $rowCount rows
+     * A negative $rowCount value will drop rows until that many rows from the end of the matrix
+     * A $rowCount value of 0 will remove all rows of the matrix from $row
+     *
+     * Note that row numbers start from 1, not from 0
+     *
+     * @param int $row
+     * @param int $rowCount
+     * @return static
+     * @throws Exception
+     */
+    public function dropRows($row, $rowCount = 1)
+    {
+        $this->validateRowInRange($row);
+        if ($rowCount === 0) {
+            $rowCount = $this->rows - $row + 1;
+        }
+
+        $grid = $this->grid;
+        array_splice($grid, $row - 1, (int)$rowCount);
+
+        return new static($grid);
+    }
+
+    /**
+     * Return a new matrix as a subset of columns from this matrix, dropping columns starting at column number $column,
+     *     and $columnCount columns
+     * A negative $columnCount value will drop columns until that many columns from the end of the matrix
+     * A $columnCount value of 0 will remove all columns of the matrix from $column
+     *
+     * Note that column numbers start from 1, not from 0
+     *
+     * @param int $column
+     * @param int $columnCount
+     * @return static
+     * @throws Exception
+     */
+    public function dropColumns($column, $columnCount = 1)
+    {
+        $this->validateColumnInRange($column);
+        if ($columnCount < 1) {
+            $columnCount = $this->columns + $columnCount - $column + 1;
+        }
+
+        $grid = $this->grid;
+        array_walk(
+            $grid,
+            function (&$row) use ($column, $columnCount) {
+                array_splice($row, $column - 1, (int)$columnCount);
+            }
+        );
+
+        return new static($grid);
+    }
+
+    /**
+     * Return a value from this matrix, from the "cell" identified by the row and column numbers
+     * Note that row and column numbers start from 1, not from 0
+     *
+     * @param int $row
+     * @param int $column
+     * @return mixed
+     * @throws Exception
+     */
+    public function getValue($row, $column)
+    {
+        $row = $this->validateRowInRange($row);
+        $column = $this->validateColumnInRange($column);
+
+        return $this->grid[$row - 1][$column - 1];
+    }
+
+    /**
+     * Returns a Generator that will yield each row of the matrix in turn as a vector matrix
+     *     or the value of each cell if the matrix is a vector
+     *
+     * @return \Generator|Matrix[]|mixed[]
+     */
+    public function rows()
+    {
+        foreach ($this->grid as $i => $row) {
+            yield $i + 1 => ($this->columns == 1)
+                ? $row[0]
+                : new static([$row]);
+        }
+    }
+
+    /**
+     * Returns a Generator that will yield each column of the matrix in turn as a vector matrix
+     *     or the value of each cell if the matrix is a vector
+     *
+     * @return \Generator|Matrix[]|mixed[]
+     */
+    public function columns()
+    {
+        for ($i = 0; $i < $this->columns; ++$i) {
+            yield $i + 1 => ($this->rows == 1)
+                ? $this->grid[0][$i]
+                : new static(array_column($this->grid, $i));
+        }
+    }
+
+    /**
+     * Identify if the row and column dimensions of this matrix are equal,
+     *     i.e. if it is a "square" matrix
+     *
+     * @return bool
+     */
+    public function isSquare()
+    {
+        return $this->rows == $this->columns;
+    }
+
+    /**
+     * Identify if this matrix is a vector
+     *     i.e. if it comprises only a single row or a single column
+     *
+     * @return bool
+     */
+    public function isVector()
+    {
+        return $this->rows == 1 || $this->columns == 1;
+    }
+
+    /**
+     * Return the matrix as a 2-dimensional array
+     *
+     * @return array
+     */
+    public function toArray()
+    {
+        return $this->grid;
+    }
+
+    protected static $getters = [
+        'rows',
+        'columns',
+    ];
+
+    /**
+     * Access specific properties as read-only (no setters)
+     *
+     * @param string $propertyName
+     * @return mixed
+     * @throws Exception
+     */
+    public function __get($propertyName)
+    {
+        $propertyName = strtolower($propertyName);
+
+        // Test for function calls
+        if (in_array($propertyName, self::$getters)) {
+            return $this->$propertyName;
+        }
+
+        throw new Exception('Property does not exist');
+    }
+
+    protected static $functions = [
+        'antidiagonal',
+        'adjoint',
+        'cofactors',
+        'determinant',
+        'diagonal',
+        'identity',
+        'inverse',
+        'minors',
+        'trace',
+        'transpose',
+    ];
+
+    protected static $operations = [
+        'add',
+        'subtract',
+        'multiply',
+        'divideby',
+        'divideinto',
+        'directsum',
+    ];
+
+    /**
+     * Returns the result of the function call or operation
+     *
+     * @param string $functionName
+     * @param mixed[] $arguments
+     * @return Matrix|float
+     * @throws Exception
+     */
+    public function __call($functionName, $arguments)
+    {
+        $functionName = strtolower(str_replace('_', '', $functionName));
+
+        if (in_array($functionName, self::$functions) || in_array($functionName, self::$operations)) {
+            $functionName = "\\" . __NAMESPACE__ . "\\{$functionName}";
+            if (is_callable($functionName)) {
+                $arguments = array_values(array_merge([$this], $arguments));
+                return call_user_func_array($functionName, $arguments);
+            }
+        }
+        throw new Exception('Function or Operation does not exist');
+    }
+}

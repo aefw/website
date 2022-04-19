@@ -1,60 +1,86 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-e32VCl6SX5NIho1oJsS=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudMachineLearningEngine\Resource;
+
+use Google\Service\CloudMachineLearningEngine\GoogleApiHttpBody;
+use Google\Service\CloudMachineLearningEngine\GoogleCloudMlV1ExplainRequest;
+use Google\Service\CloudMachineLearningEngine\GoogleCloudMlV1GetConfigResponse;
+use Google\Service\CloudMachineLearningEngine\GoogleCloudMlV1PredictRequest;
+
+/**
+ * The "projects" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $mlService = new Google\Service\CloudMachineLearningEngine(...);
+ *   $projects = $mlService->projects;
+ *  </code>
+ */
+class Projects extends \Google\Service\Resource
+{
+  /**
+   * Performs explanation on the data in the request. {% dynamic include "/ai-
+   * platform/includes/___explain-request" %}  (projects.explain)
+   *
+   * @param string $name Required. The resource name of a model or a version.
+   * Authorization: requires the `predict` permission on the specified resource.
+   * @param GoogleCloudMlV1ExplainRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleApiHttpBody
+   */
+  public function explain($name, GoogleCloudMlV1ExplainRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('explain', [$params], GoogleApiHttpBody::class);
+  }
+  /**
+   * Get the service account information associated with your project. You need
+   * this information in order to grant the service account permissions for the
+   * Google Cloud Storage location where you put your model training code for
+   * training the model with Google Cloud Machine Learning. (projects.getConfig)
+   *
+   * @param string $name Required. The project name.
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudMlV1GetConfigResponse
+   */
+  public function getConfig($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('getConfig', [$params], GoogleCloudMlV1GetConfigResponse::class);
+  }
+  /**
+   * Performs online prediction on the data in the request. {% dynamic include
+   * "/ai-platform/includes/___predict-request" %}  (projects.predict)
+   *
+   * @param string $name Required. The resource name of a model or a version.
+   * Authorization: requires the `predict` permission on the specified resource.
+   * @param GoogleCloudMlV1PredictRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleApiHttpBody
+   */
+  public function predict($name, GoogleCloudMlV1PredictRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('predict', [$params], GoogleApiHttpBody::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Projects::class, 'Google_Service_CloudMachineLearningEngine_Resource_Projects');

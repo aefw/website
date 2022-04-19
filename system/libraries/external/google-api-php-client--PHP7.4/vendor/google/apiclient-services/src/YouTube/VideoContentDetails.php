@@ -1,81 +1,137 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Zw6XyKGONpRHXSSRaE4XKrQzI0LenB9/miRb
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\YouTube;
+
+class VideoContentDetails extends \Google\Model
+{
+  public $caption;
+  protected $contentRatingType = ContentRating::class;
+  protected $contentRatingDataType = '';
+  protected $countryRestrictionType = AccessPolicy::class;
+  protected $countryRestrictionDataType = '';
+  public $definition;
+  public $dimension;
+  public $duration;
+  public $hasCustomThumbnail;
+  public $licensedContent;
+  public $projection;
+  protected $regionRestrictionType = VideoContentDetailsRegionRestriction::class;
+  protected $regionRestrictionDataType = '';
+
+  public function setCaption($caption)
+  {
+    $this->caption = $caption;
+  }
+  public function getCaption()
+  {
+    return $this->caption;
+  }
+  /**
+   * @param ContentRating
+   */
+  public function setContentRating(ContentRating $contentRating)
+  {
+    $this->contentRating = $contentRating;
+  }
+  /**
+   * @return ContentRating
+   */
+  public function getContentRating()
+  {
+    return $this->contentRating;
+  }
+  /**
+   * @param AccessPolicy
+   */
+  public function setCountryRestriction(AccessPolicy $countryRestriction)
+  {
+    $this->countryRestriction = $countryRestriction;
+  }
+  /**
+   * @return AccessPolicy
+   */
+  public function getCountryRestriction()
+  {
+    return $this->countryRestriction;
+  }
+  public function setDefinition($definition)
+  {
+    $this->definition = $definition;
+  }
+  public function getDefinition()
+  {
+    return $this->definition;
+  }
+  public function setDimension($dimension)
+  {
+    $this->dimension = $dimension;
+  }
+  public function getDimension()
+  {
+    return $this->dimension;
+  }
+  public function setDuration($duration)
+  {
+    $this->duration = $duration;
+  }
+  public function getDuration()
+  {
+    return $this->duration;
+  }
+  public function setHasCustomThumbnail($hasCustomThumbnail)
+  {
+    $this->hasCustomThumbnail = $hasCustomThumbnail;
+  }
+  public function getHasCustomThumbnail()
+  {
+    return $this->hasCustomThumbnail;
+  }
+  public function setLicensedContent($licensedContent)
+  {
+    $this->licensedContent = $licensedContent;
+  }
+  public function getLicensedContent()
+  {
+    return $this->licensedContent;
+  }
+  public function setProjection($projection)
+  {
+    $this->projection = $projection;
+  }
+  public function getProjection()
+  {
+    return $this->projection;
+  }
+  /**
+   * @param VideoContentDetailsRegionRestriction
+   */
+  public function setRegionRestriction(VideoContentDetailsRegionRestriction $regionRestriction)
+  {
+    $this->regionRestriction = $regionRestriction;
+  }
+  /**
+   * @return VideoContentDetailsRegionRestriction
+   */
+  public function getRegionRestriction()
+  {
+    return $this->regionRestriction;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(VideoContentDetails::class, 'Google_Service_YouTube_VideoContentDetails');

@@ -1,90 +1,278 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Storage\Resource;
+
+use Google\Service\Storage\Bucket;
+use Google\Service\Storage\Buckets as BucketsModel;
+use Google\Service\Storage\Policy;
+use Google\Service\Storage\TestIamPermissionsResponse;
+
+/**
+ * The "buckets" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $storageService = new Google\Service\Storage(...);
+ *   $buckets = $storageService->buckets;
+ *  </code>
+ */
+class Buckets extends \Google\Service\Resource
+{
+  /**
+   * Permanently deletes an empty bucket. (buckets.delete)
+   *
+   * @param string $bucket Name of a bucket.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string ifMetagenerationMatch If set, only deletes the bucket if
+   * its metageneration matches this value.
+   * @opt_param string ifMetagenerationNotMatch If set, only deletes the bucket if
+   * its metageneration does not match this value.
+   * @opt_param string provisionalUserProject The project to be billed for this
+   * request if the target bucket is requester-pays bucket.
+   * @opt_param string userProject The project to be billed for this request.
+   * Required for Requester Pays buckets.
+   */
+  public function delete($bucket, $optParams = [])
+  {
+    $params = ['bucket' => $bucket];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Returns metadata for the specified bucket. (buckets.get)
+   *
+   * @param string $bucket Name of a bucket.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string ifMetagenerationMatch Makes the return of the bucket
+   * metadata conditional on whether the bucket's current metageneration matches
+   * the given value.
+   * @opt_param string ifMetagenerationNotMatch Makes the return of the bucket
+   * metadata conditional on whether the bucket's current metageneration does not
+   * match the given value.
+   * @opt_param string projection Set of properties to return. Defaults to noAcl.
+   * @opt_param string provisionalUserProject The project to be billed for this
+   * request if the target bucket is requester-pays bucket.
+   * @opt_param string userProject The project to be billed for this request.
+   * Required for Requester Pays buckets.
+   * @return Bucket
+   */
+  public function get($bucket, $optParams = [])
+  {
+    $params = ['bucket' => $bucket];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Bucket::class);
+  }
+  /**
+   * Returns an IAM policy for the specified bucket. (buckets.getIamPolicy)
+   *
+   * @param string $bucket Name of a bucket.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int optionsRequestedPolicyVersion The IAM policy format version to
+   * be returned. If the optionsRequestedPolicyVersion is for an older version
+   * that doesn't support part of the requested IAM policy, the request fails.
+   * @opt_param string provisionalUserProject The project to be billed for this
+   * request if the target bucket is requester-pays bucket.
+   * @opt_param string userProject The project to be billed for this request.
+   * Required for Requester Pays buckets.
+   * @return Policy
+   */
+  public function getIamPolicy($bucket, $optParams = [])
+  {
+    $params = ['bucket' => $bucket];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Creates a new bucket. (buckets.insert)
+   *
+   * @param string $project A valid API project identifier.
+   * @param Bucket $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string predefinedAcl Apply a predefined set of access controls to
+   * this bucket.
+   * @opt_param string predefinedDefaultObjectAcl Apply a predefined set of
+   * default object access controls to this bucket.
+   * @opt_param string projection Set of properties to return. Defaults to noAcl,
+   * unless the bucket resource specifies acl or defaultObjectAcl properties, when
+   * it defaults to full.
+   * @opt_param string provisionalUserProject The project to be billed for this
+   * request if the target bucket is requester-pays bucket.
+   * @opt_param string userProject The project to be billed for this request.
+   * @return Bucket
+   */
+  public function insert($project, Bucket $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Bucket::class);
+  }
+  /**
+   * Retrieves a list of buckets for a given project. (buckets.listBuckets)
+   *
+   * @param string $project A valid API project identifier.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string maxResults Maximum number of buckets to return in a single
+   * response. The service will use this parameter or 1,000 items, whichever is
+   * smaller.
+   * @opt_param string pageToken A previously-returned page token representing
+   * part of the larger set of results to view.
+   * @opt_param string prefix Filter results to buckets whose names begin with
+   * this prefix.
+   * @opt_param string projection Set of properties to return. Defaults to noAcl.
+   * @opt_param string provisionalUserProject The project to be billed for this
+   * request if the target bucket is requester-pays bucket.
+   * @opt_param string userProject The project to be billed for this request.
+   * @return BucketsModel
+   */
+  public function listBuckets($project, $optParams = [])
+  {
+    $params = ['project' => $project];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], BucketsModel::class);
+  }
+  /**
+   * Locks retention policy on a bucket. (buckets.lockRetentionPolicy)
+   *
+   * @param string $bucket Name of a bucket.
+   * @param string $ifMetagenerationMatch Makes the operation conditional on
+   * whether bucket's current metageneration matches the given value.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string provisionalUserProject The project to be billed for this
+   * request if the target bucket is requester-pays bucket.
+   * @opt_param string userProject The project to be billed for this request.
+   * Required for Requester Pays buckets.
+   * @return Bucket
+   */
+  public function lockRetentionPolicy($bucket, $ifMetagenerationMatch, $optParams = [])
+  {
+    $params = ['bucket' => $bucket, 'ifMetagenerationMatch' => $ifMetagenerationMatch];
+    $params = array_merge($params, $optParams);
+    return $this->call('lockRetentionPolicy', [$params], Bucket::class);
+  }
+  /**
+   * Patches a bucket. Changes to the bucket will be readable immediately after
+   * writing, but configuration changes may take time to propagate.
+   * (buckets.patch)
+   *
+   * @param string $bucket Name of a bucket.
+   * @param Bucket $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string ifMetagenerationMatch Makes the return of the bucket
+   * metadata conditional on whether the bucket's current metageneration matches
+   * the given value.
+   * @opt_param string ifMetagenerationNotMatch Makes the return of the bucket
+   * metadata conditional on whether the bucket's current metageneration does not
+   * match the given value.
+   * @opt_param string predefinedAcl Apply a predefined set of access controls to
+   * this bucket.
+   * @opt_param string predefinedDefaultObjectAcl Apply a predefined set of
+   * default object access controls to this bucket.
+   * @opt_param string projection Set of properties to return. Defaults to full.
+   * @opt_param string provisionalUserProject The project to be billed for this
+   * request if the target bucket is requester-pays bucket.
+   * @opt_param string userProject The project to be billed for this request.
+   * Required for Requester Pays buckets.
+   * @return Bucket
+   */
+  public function patch($bucket, Bucket $postBody, $optParams = [])
+  {
+    $params = ['bucket' => $bucket, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Bucket::class);
+  }
+  /**
+   * Updates an IAM policy for the specified bucket. (buckets.setIamPolicy)
+   *
+   * @param string $bucket Name of a bucket.
+   * @param Policy $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string provisionalUserProject The project to be billed for this
+   * request if the target bucket is requester-pays bucket.
+   * @opt_param string userProject The project to be billed for this request.
+   * Required for Requester Pays buckets.
+   * @return Policy
+   */
+  public function setIamPolicy($bucket, Policy $postBody, $optParams = [])
+  {
+    $params = ['bucket' => $bucket, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Tests a set of permissions on the given bucket to see which, if any, are held
+   * by the caller. (buckets.testIamPermissions)
+   *
+   * @param string $bucket Name of a bucket.
+   * @param string|array $permissions Permissions to test.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string provisionalUserProject The project to be billed for this
+   * request if the target bucket is requester-pays bucket.
+   * @opt_param string userProject The project to be billed for this request.
+   * Required for Requester Pays buckets.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($bucket, $permissions, $optParams = [])
+  {
+    $params = ['bucket' => $bucket, 'permissions' => $permissions];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+  /**
+   * Updates a bucket. Changes to the bucket will be readable immediately after
+   * writing, but configuration changes may take time to propagate.
+   * (buckets.update)
+   *
+   * @param string $bucket Name of a bucket.
+   * @param Bucket $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string ifMetagenerationMatch Makes the return of the bucket
+   * metadata conditional on whether the bucket's current metageneration matches
+   * the given value.
+   * @opt_param string ifMetagenerationNotMatch Makes the return of the bucket
+   * metadata conditional on whether the bucket's current metageneration does not
+   * match the given value.
+   * @opt_param string predefinedAcl Apply a predefined set of access controls to
+   * this bucket.
+   * @opt_param string predefinedDefaultObjectAcl Apply a predefined set of
+   * default object access controls to this bucket.
+   * @opt_param string projection Set of properties to return. Defaults to full.
+   * @opt_param string provisionalUserProject The project to be billed for this
+   * request if the target bucket is requester-pays bucket.
+   * @opt_param string userProject The project to be billed for this request.
+   * Required for Requester Pays buckets.
+   * @return Bucket
+   */
+  public function update($bucket, Bucket $postBody, $optParams = [])
+  {
+    $params = ['bucket' => $bucket, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Bucket::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Buckets::class, 'Google_Service_Storage_Resource_Buckets');

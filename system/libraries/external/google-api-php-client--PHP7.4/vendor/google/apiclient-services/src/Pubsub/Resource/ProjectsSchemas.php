@@ -1,88 +1,212 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-8KtEJq/NCgKcUfwd
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Pubsub\Resource;
+
+use Google\Service\Pubsub\ListSchemasResponse;
+use Google\Service\Pubsub\Policy;
+use Google\Service\Pubsub\PubsubEmpty;
+use Google\Service\Pubsub\Schema;
+use Google\Service\Pubsub\SetIamPolicyRequest;
+use Google\Service\Pubsub\TestIamPermissionsRequest;
+use Google\Service\Pubsub\TestIamPermissionsResponse;
+use Google\Service\Pubsub\ValidateMessageRequest;
+use Google\Service\Pubsub\ValidateMessageResponse;
+use Google\Service\Pubsub\ValidateSchemaRequest;
+use Google\Service\Pubsub\ValidateSchemaResponse;
+
+/**
+ * The "schemas" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $pubsubService = new Google\Service\Pubsub(...);
+ *   $schemas = $pubsubService->schemas;
+ *  </code>
+ */
+class ProjectsSchemas extends \Google\Service\Resource
+{
+  /**
+   * Creates a schema. (schemas.create)
+   *
+   * @param string $parent Required. The name of the project in which to create
+   * the schema. Format is `projects/{project-id}`.
+   * @param Schema $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string schemaId The ID to use for the schema, which will become
+   * the final component of the schema's resource name. See
+   * https://cloud.google.com/pubsub/docs/admin#resource_names for resource name
+   * constraints.
+   * @return Schema
+   */
+  public function create($parent, Schema $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Schema::class);
+  }
+  /**
+   * Deletes a schema. (schemas.delete)
+   *
+   * @param string $name Required. Name of the schema to delete. Format is
+   * `projects/{project}/schemas/{schema}`.
+   * @param array $optParams Optional parameters.
+   * @return PubsubEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], PubsubEmpty::class);
+  }
+  /**
+   * Gets a schema. (schemas.get)
+   *
+   * @param string $name Required. The name of the schema to get. Format is
+   * `projects/{project}/schemas/{schema}`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string view The set of fields to return in the response. If not
+   * set, returns a Schema with `name` and `type`, but not `definition`. Set to
+   * `FULL` to retrieve all fields.
+   * @return Schema
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Schema::class);
+  }
+  /**
+   * Gets the access control policy for a resource. Returns an empty policy if the
+   * resource exists and does not have a policy set. (schemas.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int options.requestedPolicyVersion Optional. The policy format
+   * version to be returned. Valid values are 0, 1, and 3. Requests specifying an
+   * invalid value will be rejected. Requests for policies with any conditional
+   * bindings must specify version 3. Policies without any conditional bindings
+   * may specify any valid value or leave the field unset. To learn which
+   * resources support conditions in their IAM policies, see the [IAM
+   * documentation](https://cloud.google.com/iam/help/conditions/resource-
+   * policies).
+   * @return Policy
+   */
+  public function getIamPolicy($resource, $optParams = [])
+  {
+    $params = ['resource' => $resource];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Lists schemas in a project. (schemas.listProjectsSchemas)
+   *
+   * @param string $parent Required. The name of the project in which to list
+   * schemas. Format is `projects/{project-id}`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Maximum number of schemas to return.
+   * @opt_param string pageToken The value returned by the last
+   * `ListSchemasResponse`; indicates that this is a continuation of a prior
+   * `ListSchemas` call, and that the system should return the next page of data.
+   * @opt_param string view The set of Schema fields to return in the response. If
+   * not set, returns Schemas with `name` and `type`, but not `definition`. Set to
+   * `FULL` to retrieve all fields.
+   * @return ListSchemasResponse
+   */
+  public function listProjectsSchemas($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListSchemasResponse::class);
+  }
+  /**
+   * Sets the access control policy on the specified resource. Replaces any
+   * existing policy. Can return `NOT_FOUND`, `INVALID_ARGUMENT`, and
+   * `PERMISSION_DENIED` errors. (schemas.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource. If the
+   * resource does not exist, this will return an empty set of permissions, not a
+   * `NOT_FOUND` error. Note: This operation is designed to be used for building
+   * permission-aware UIs and command-line tools, not for authorization checking.
+   * This operation may "fail open" without warning. (schemas.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+  /**
+   * Validates a schema. (schemas.validate)
+   *
+   * @param string $parent Required. The name of the project in which to validate
+   * schemas. Format is `projects/{project-id}`.
+   * @param ValidateSchemaRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return ValidateSchemaResponse
+   */
+  public function validate($parent, ValidateSchemaRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('validate', [$params], ValidateSchemaResponse::class);
+  }
+  /**
+   * Validates a message against a schema. (schemas.validateMessage)
+   *
+   * @param string $parent Required. The name of the project in which to validate
+   * schemas. Format is `projects/{project-id}`.
+   * @param ValidateMessageRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return ValidateMessageResponse
+   */
+  public function validateMessage($parent, ValidateMessageRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('validateMessage', [$params], ValidateMessageResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsSchemas::class, 'Google_Service_Pubsub_Resource_ProjectsSchemas');

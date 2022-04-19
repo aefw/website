@@ -1,179 +1,243 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php declare(strict_types=1);
+
+/*
+ * This file is part of the Monolog package.
+ *
+ * (c) Jordi Boggiano <j.boggiano@seld.be>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Monolog\Handler;
+
+use Monolog\Formatter\LineFormatter;
+use Monolog\Formatter\FormatterInterface;
+use Monolog\Utils;
+
+/**
+ * Handler sending logs to browser's javascript console with no browser extension required
+ *
+ * @author Olivier Poitrey <rs@dailymotion.com>
+ */
+class BrowserConsoleHandler extends AbstractProcessingHandler
+{
+    protected static $initialized = false;
+    protected static $records = [];
+
+    /**
+     * {@inheritDoc}
+     *
+     * Formatted output may contain some formatting markers to be transferred to `console.log` using the %c format.
+     *
+     * Example of formatted string:
+     *
+     *     You can do [[blue text]]{color: blue} or [[green background]]{background-color: green; color: white}
+     */
+    protected function getDefaultFormatter(): FormatterInterface
+    {
+        return new LineFormatter('[[%channel%]]{macro: autolabel} [[%level_name%]]{font-weight: bold} %message%');
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    protected function write(array $record): void
+    {
+        // Accumulate records
+        static::$records[] = $record;
+
+        // Register shutdown handler if not already done
+        if (!static::$initialized) {
+            static::$initialized = true;
+            $this->registerShutdownFunction();
+        }
+    }
+
+    /**
+     * Convert records to javascript console commands and send it to the browser.
+     * This method is automatically called on PHP shutdown if output is HTML or Javascript.
+     */
+    public static function send(): void
+    {
+        $format = static::getResponseFormat();
+        if ($format === 'unknown') {
+            return;
+        }
+
+        if (count(static::$records)) {
+            if ($format === 'html') {
+                static::writeOutput('<script>' . static::generateScript() . '</script>');
+            } elseif ($format === 'js') {
+                static::writeOutput(static::generateScript());
+            }
+            static::resetStatic();
+        }
+    }
+
+    public function close(): void
+    {
+        self::resetStatic();
+    }
+
+    public function reset()
+    {
+        parent::reset();
+
+        self::resetStatic();
+    }
+
+    /**
+     * Forget all logged records
+     */
+    public static function resetStatic(): void
+    {
+        static::$records = [];
+    }
+
+    /**
+     * Wrapper for register_shutdown_function to allow overriding
+     */
+    protected function registerShutdownFunction(): void
+    {
+        if (PHP_SAPI !== 'cli') {
+            register_shutdown_function(['Monolog\Handler\BrowserConsoleHandler', 'send']);
+        }
+    }
+
+    /**
+     * Wrapper for echo to allow overriding
+     */
+    protected static function writeOutput(string $str): void
+    {
+        echo $str;
+    }
+
+    /**
+     * Checks the format of the response
+     *
+     * If Content-Type is set to application/javascript or text/javascript -> js
+     * If Content-Type is set to text/html, or is unset -> html
+     * If Content-Type is anything else -> unknown
+     *
+     * @return string One of 'js', 'html' or 'unknown'
+     */
+    protected static function getResponseFormat(): string
+    {
+        // Check content type
+        foreach (headers_list() as $header) {
+            if (stripos($header, 'content-type:') === 0) {
+                // This handler only works with HTML and javascript outputs
+                // text/javascript is obsolete in favour of application/javascript, but still used
+                if (stripos($header, 'application/javascript') !== false || stripos($header, 'text/javascript') !== false) {
+                    return 'js';
+                }
+                if (stripos($header, 'text/html') === false) {
+                    return 'unknown';
+                }
+                break;
+            }
+        }
+
+        return 'html';
+    }
+
+    private static function generateScript(): string
+    {
+        $script = [];
+        foreach (static::$records as $record) {
+            $context = static::dump('Context', $record['context']);
+            $extra = static::dump('Extra', $record['extra']);
+
+            if (empty($context) && empty($extra)) {
+                $script[] = static::call_array('log', static::handleStyles($record['formatted']));
+            } else {
+                $script = array_merge(
+                    $script,
+                    [static::call_array('groupCollapsed', static::handleStyles($record['formatted']))],
+                    $context,
+                    $extra,
+                    [static::call('groupEnd')]
+                );
+            }
+        }
+
+        return "(function (c) {if (c && c.groupCollapsed) {\n" . implode("\n", $script) . "\n}})(console);";
+    }
+
+    private static function handleStyles(string $formatted): array
+    {
+        $args = [];
+        $format = '%c' . $formatted;
+        preg_match_all('/\[\[(.*?)\]\]\{([^}]*)\}/s', $format, $matches, PREG_OFFSET_CAPTURE | PREG_SET_ORDER);
+
+        foreach (array_reverse($matches) as $match) {
+            $args[] = '"font-weight: normal"';
+            $args[] = static::quote(static::handleCustomStyles($match[2][0], $match[1][0]));
+
+            $pos = $match[0][1];
+            $format = Utils::substr($format, 0, $pos) . '%c' . $match[1][0] . '%c' . Utils::substr($format, $pos + strlen($match[0][0]));
+        }
+
+        $args[] = static::quote('font-weight: normal');
+        $args[] = static::quote($format);
+
+        return array_reverse($args);
+    }
+
+    private static function handleCustomStyles(string $style, string $string): string
+    {
+        static $colors = ['blue', 'green', 'red', 'magenta', 'orange', 'black', 'grey'];
+        static $labels = [];
+
+        return preg_replace_callback('/macro\s*:(.*?)(?:;|$)/', function (array $m) use ($string, &$colors, &$labels) {
+            if (trim($m[1]) === 'autolabel') {
+                // Format the string as a label with consistent auto assigned background color
+                if (!isset($labels[$string])) {
+                    $labels[$string] = $colors[count($labels) % count($colors)];
+                }
+                $color = $labels[$string];
+
+                return "background-color: $color; color: white; border-radius: 3px; padding: 0 2px 0 2px";
+            }
+
+            return $m[1];
+        }, $style);
+    }
+
+    private static function dump(string $title, array $dict): array
+    {
+        $script = [];
+        $dict = array_filter($dict);
+        if (empty($dict)) {
+            return $script;
+        }
+        $script[] = static::call('log', static::quote('%c%s'), static::quote('font-weight: bold'), static::quote($title));
+        foreach ($dict as $key => $value) {
+            $value = json_encode($value);
+            if (empty($value)) {
+                $value = static::quote('');
+            }
+            $script[] = static::call('log', static::quote('%s: %o'), static::quote((string) $key), $value);
+        }
+
+        return $script;
+    }
+
+    private static function quote(string $arg): string
+    {
+        return '"' . addcslashes($arg, "\"\n\\") . '"';
+    }
+
+    private static function call(...$args): string
+    {
+        $method = array_shift($args);
+
+        return static::call_array($method, $args);
+    }
+
+    private static function call_array(string $method, array $args): string
+    {
+        return 'c.' . $method . '(' . implode(', ', $args) . ');';
+    }
+}

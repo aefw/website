@@ -1,78 +1,192 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-L9QHbxKin5r3eSTePLG=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DisplayVideo\Resource;
+
+use Google\Service\DisplayVideo\BulkListCampaignAssignedTargetingOptionsResponse;
+use Google\Service\DisplayVideo\Campaign;
+use Google\Service\DisplayVideo\DisplayvideoEmpty;
+use Google\Service\DisplayVideo\ListCampaignsResponse;
+
+/**
+ * The "campaigns" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $displayvideoService = new Google\Service\DisplayVideo(...);
+ *   $campaigns = $displayvideoService->campaigns;
+ *  </code>
+ */
+class AdvertisersCampaigns extends \Google\Service\Resource
+{
+  /**
+   * Lists assigned targeting options of a campaign across targeting types.
+   * (campaigns.bulkListCampaignAssignedTargetingOptions)
+   *
+   * @param string $advertiserId Required. The ID of the advertiser the campaign
+   * belongs to.
+   * @param string $campaignId Required. The ID of the campaign to list assigned
+   * targeting options for.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Allows filtering by assigned targeting option
+   * properties. Supported syntax: * Filter expressions are made up of one or more
+   * restrictions. * Restrictions can be combined by the logical operator `OR` on
+   * the same field. * A restriction has the form of `{field} {operator} {value}`.
+   * * The operator must be `EQUALS (=)`. * Supported fields: - `targetingType` -
+   * `inheritance` Examples: * AssignedTargetingOptions of targeting type
+   * TARGETING_TYPE_LANGUAGE or TARGETING_TYPE_GENDER
+   * `targetingType="TARGETING_TYPE_LANGUAGE" OR
+   * targetingType="TARGETING_TYPE_GENDER"` * AssignedTargetingOptions with
+   * inheritance status of NOT_INHERITED or INHERITED_FROM_PARTNER
+   * `inheritance="NOT_INHERITED" OR inheritance="INHERITED_FROM_PARTNER"` The
+   * length of this field should be no more than 500 characters.
+   * @opt_param string orderBy Field by which to sort the list. Acceptable values
+   * are: * `targetingType` (default) The default sorting order is ascending. To
+   * specify descending order for a field, a suffix "desc" should be added to the
+   * field name. Example: `targetingType desc`.
+   * @opt_param int pageSize Requested page size. The size must be an integer
+   * between `1` and `5000`. If unspecified, the default is `5000`. Returns error
+   * code `INVALID_ARGUMENT` if an invalid value is specified.
+   * @opt_param string pageToken A token that lets the client fetch the next page
+   * of results. Typically, this is the value of next_page_token returned from the
+   * previous call to `BulkListCampaignAssignedTargetingOptions` method. If not
+   * specified, the first page of results will be returned.
+   * @return BulkListCampaignAssignedTargetingOptionsResponse
+   */
+  public function bulkListCampaignAssignedTargetingOptions($advertiserId, $campaignId, $optParams = [])
+  {
+    $params = ['advertiserId' => $advertiserId, 'campaignId' => $campaignId];
+    $params = array_merge($params, $optParams);
+    return $this->call('bulkListCampaignAssignedTargetingOptions', [$params], BulkListCampaignAssignedTargetingOptionsResponse::class);
+  }
+  /**
+   * Creates a new campaign. Returns the newly created campaign if successful.
+   * (campaigns.create)
+   *
+   * @param string $advertiserId Output only. The unique ID of the advertiser the
+   * campaign belongs to.
+   * @param Campaign $postBody
+   * @param array $optParams Optional parameters.
+   * @return Campaign
+   */
+  public function create($advertiserId, Campaign $postBody, $optParams = [])
+  {
+    $params = ['advertiserId' => $advertiserId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Campaign::class);
+  }
+  /**
+   * Permanently deletes a campaign. A deleted campaign cannot be recovered. The
+   * campaign should be archived first, i.e. set entity_status to
+   * `ENTITY_STATUS_ARCHIVED`, to be able to delete it. (campaigns.delete)
+   *
+   * @param string $advertiserId The ID of the advertiser this campaign belongs
+   * to.
+   * @param string $campaignId The ID of the campaign we need to delete.
+   * @param array $optParams Optional parameters.
+   * @return DisplayvideoEmpty
+   */
+  public function delete($advertiserId, $campaignId, $optParams = [])
+  {
+    $params = ['advertiserId' => $advertiserId, 'campaignId' => $campaignId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], DisplayvideoEmpty::class);
+  }
+  /**
+   * Gets a campaign. (campaigns.get)
+   *
+   * @param string $advertiserId Required. The ID of the advertiser this campaign
+   * belongs to.
+   * @param string $campaignId Required. The ID of the campaign to fetch.
+   * @param array $optParams Optional parameters.
+   * @return Campaign
+   */
+  public function get($advertiserId, $campaignId, $optParams = [])
+  {
+    $params = ['advertiserId' => $advertiserId, 'campaignId' => $campaignId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Campaign::class);
+  }
+  /**
+   * Lists campaigns in an advertiser. The order is defined by the order_by
+   * parameter. If a filter by entity_status is not specified, campaigns with
+   * `ENTITY_STATUS_ARCHIVED` will not be included in the results.
+   * (campaigns.listAdvertisersCampaigns)
+   *
+   * @param string $advertiserId The ID of the advertiser to list campaigns for.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Allows filtering by campaign properties. Supported
+   * syntax: * Filter expressions are made up of one or more restrictions. *
+   * Restrictions can be combined by `AND` or `OR` logical operators. A sequence
+   * of restrictions implicitly uses `AND`. * A restriction has the form of
+   * `{field} {operator} {value}`. * The operator used on `updateTime` must be
+   * `GREATER THAN OR EQUAL TO (>=)` or `LESS THAN OR EQUAL TO (<=)`. * The
+   * operator must be `EQUALS (=)`. * Supported fields: - `campaignId` -
+   * `displayName` - `entityStatus` - `updateTime` (input in ISO 8601 format, or
+   * YYYY-MM-DDTHH:MM:SSZ) Examples: * All `ENTITY_STATUS_ACTIVE` or
+   * `ENTITY_STATUS_PAUSED` campaigns under an advertiser:
+   * `(entityStatus="ENTITY_STATUS_ACTIVE" OR
+   * entityStatus="ENTITY_STATUS_PAUSED")` * All campaigns with an update time
+   * less than or equal to `2020-11-04T18:54:47Z (format of ISO 8601)`:
+   * `updateTime<="2020-11-04T18:54:47Z"` * All campaigns with an update time
+   * greater than or equal to `2020-11-04T18:54:47Z (format of ISO 8601)`:
+   * `updateTime>="2020-11-04T18:54:47Z"` The length of this field should be no
+   * more than 500 characters.
+   * @opt_param string orderBy Field by which to sort the list. Acceptable values
+   * are: * `displayName` (default) * `entityStatus` * `updateTime` The default
+   * sorting order is ascending. To specify descending order for a field, a suffix
+   * "desc" should be added to the field name. Example: `displayName desc`.
+   * @opt_param int pageSize Requested page size. Must be between `1` and `100`.
+   * If unspecified will default to `100`.
+   * @opt_param string pageToken A token identifying a page of results the server
+   * should return. Typically, this is the value of next_page_token returned from
+   * the previous call to `ListCampaigns` method. If not specified, the first page
+   * of results will be returned.
+   * @return ListCampaignsResponse
+   */
+  public function listAdvertisersCampaigns($advertiserId, $optParams = [])
+  {
+    $params = ['advertiserId' => $advertiserId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListCampaignsResponse::class);
+  }
+  /**
+   * Updates an existing campaign. Returns the updated campaign if successful.
+   * (campaigns.patch)
+   *
+   * @param string $advertiserId Output only. The unique ID of the advertiser the
+   * campaign belongs to.
+   * @param string $campaignId Output only. The unique ID of the campaign.
+   * Assigned by the system.
+   * @param Campaign $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. The mask to control which fields to
+   * update.
+   * @return Campaign
+   */
+  public function patch($advertiserId, $campaignId, Campaign $postBody, $optParams = [])
+  {
+    $params = ['advertiserId' => $advertiserId, 'campaignId' => $campaignId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Campaign::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AdvertisersCampaigns::class, 'Google_Service_DisplayVideo_Resource_AdvertisersCampaigns');

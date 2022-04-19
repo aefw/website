@@ -1,187 +1,454 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AndroidManagement;
+
+class Device extends \Google\Collection
+{
+  protected $collection_key = 'previousDeviceNames';
+  public $apiLevel;
+  protected $applicationReportsType = ApplicationReport::class;
+  protected $applicationReportsDataType = 'array';
+  protected $appliedPasswordPoliciesType = PasswordRequirements::class;
+  protected $appliedPasswordPoliciesDataType = 'array';
+  public $appliedPolicyName;
+  public $appliedPolicyVersion;
+  public $appliedState;
+  protected $commonCriteriaModeInfoType = CommonCriteriaModeInfo::class;
+  protected $commonCriteriaModeInfoDataType = '';
+  protected $deviceSettingsType = DeviceSettings::class;
+  protected $deviceSettingsDataType = '';
+  protected $disabledReasonType = UserFacingMessage::class;
+  protected $disabledReasonDataType = '';
+  protected $displaysType = Display::class;
+  protected $displaysDataType = 'array';
+  public $enrollmentTime;
+  public $enrollmentTokenData;
+  public $enrollmentTokenName;
+  protected $hardwareInfoType = HardwareInfo::class;
+  protected $hardwareInfoDataType = '';
+  protected $hardwareStatusSamplesType = HardwareStatus::class;
+  protected $hardwareStatusSamplesDataType = 'array';
+  public $lastPolicyComplianceReportTime;
+  public $lastPolicySyncTime;
+  public $lastStatusReportTime;
+  public $managementMode;
+  protected $memoryEventsType = MemoryEvent::class;
+  protected $memoryEventsDataType = 'array';
+  protected $memoryInfoType = MemoryInfo::class;
+  protected $memoryInfoDataType = '';
+  public $name;
+  protected $networkInfoType = NetworkInfo::class;
+  protected $networkInfoDataType = '';
+  protected $nonComplianceDetailsType = NonComplianceDetail::class;
+  protected $nonComplianceDetailsDataType = 'array';
+  public $ownership;
+  public $policyCompliant;
+  public $policyName;
+  protected $powerManagementEventsType = PowerManagementEvent::class;
+  protected $powerManagementEventsDataType = 'array';
+  public $previousDeviceNames;
+  protected $securityPostureType = SecurityPosture::class;
+  protected $securityPostureDataType = '';
+  protected $softwareInfoType = SoftwareInfo::class;
+  protected $softwareInfoDataType = '';
+  public $state;
+  public $systemProperties;
+  protected $userType = User::class;
+  protected $userDataType = '';
+  public $userName;
+
+  public function setApiLevel($apiLevel)
+  {
+    $this->apiLevel = $apiLevel;
+  }
+  public function getApiLevel()
+  {
+    return $this->apiLevel;
+  }
+  /**
+   * @param ApplicationReport[]
+   */
+  public function setApplicationReports($applicationReports)
+  {
+    $this->applicationReports = $applicationReports;
+  }
+  /**
+   * @return ApplicationReport[]
+   */
+  public function getApplicationReports()
+  {
+    return $this->applicationReports;
+  }
+  /**
+   * @param PasswordRequirements[]
+   */
+  public function setAppliedPasswordPolicies($appliedPasswordPolicies)
+  {
+    $this->appliedPasswordPolicies = $appliedPasswordPolicies;
+  }
+  /**
+   * @return PasswordRequirements[]
+   */
+  public function getAppliedPasswordPolicies()
+  {
+    return $this->appliedPasswordPolicies;
+  }
+  public function setAppliedPolicyName($appliedPolicyName)
+  {
+    $this->appliedPolicyName = $appliedPolicyName;
+  }
+  public function getAppliedPolicyName()
+  {
+    return $this->appliedPolicyName;
+  }
+  public function setAppliedPolicyVersion($appliedPolicyVersion)
+  {
+    $this->appliedPolicyVersion = $appliedPolicyVersion;
+  }
+  public function getAppliedPolicyVersion()
+  {
+    return $this->appliedPolicyVersion;
+  }
+  public function setAppliedState($appliedState)
+  {
+    $this->appliedState = $appliedState;
+  }
+  public function getAppliedState()
+  {
+    return $this->appliedState;
+  }
+  /**
+   * @param CommonCriteriaModeInfo
+   */
+  public function setCommonCriteriaModeInfo(CommonCriteriaModeInfo $commonCriteriaModeInfo)
+  {
+    $this->commonCriteriaModeInfo = $commonCriteriaModeInfo;
+  }
+  /**
+   * @return CommonCriteriaModeInfo
+   */
+  public function getCommonCriteriaModeInfo()
+  {
+    return $this->commonCriteriaModeInfo;
+  }
+  /**
+   * @param DeviceSettings
+   */
+  public function setDeviceSettings(DeviceSettings $deviceSettings)
+  {
+    $this->deviceSettings = $deviceSettings;
+  }
+  /**
+   * @return DeviceSettings
+   */
+  public function getDeviceSettings()
+  {
+    return $this->deviceSettings;
+  }
+  /**
+   * @param UserFacingMessage
+   */
+  public function setDisabledReason(UserFacingMessage $disabledReason)
+  {
+    $this->disabledReason = $disabledReason;
+  }
+  /**
+   * @return UserFacingMessage
+   */
+  public function getDisabledReason()
+  {
+    return $this->disabledReason;
+  }
+  /**
+   * @param Display[]
+   */
+  public function setDisplays($displays)
+  {
+    $this->displays = $displays;
+  }
+  /**
+   * @return Display[]
+   */
+  public function getDisplays()
+  {
+    return $this->displays;
+  }
+  public function setEnrollmentTime($enrollmentTime)
+  {
+    $this->enrollmentTime = $enrollmentTime;
+  }
+  public function getEnrollmentTime()
+  {
+    return $this->enrollmentTime;
+  }
+  public function setEnrollmentTokenData($enrollmentTokenData)
+  {
+    $this->enrollmentTokenData = $enrollmentTokenData;
+  }
+  public function getEnrollmentTokenData()
+  {
+    return $this->enrollmentTokenData;
+  }
+  public function setEnrollmentTokenName($enrollmentTokenName)
+  {
+    $this->enrollmentTokenName = $enrollmentTokenName;
+  }
+  public function getEnrollmentTokenName()
+  {
+    return $this->enrollmentTokenName;
+  }
+  /**
+   * @param HardwareInfo
+   */
+  public function setHardwareInfo(HardwareInfo $hardwareInfo)
+  {
+    $this->hardwareInfo = $hardwareInfo;
+  }
+  /**
+   * @return HardwareInfo
+   */
+  public function getHardwareInfo()
+  {
+    return $this->hardwareInfo;
+  }
+  /**
+   * @param HardwareStatus[]
+   */
+  public function setHardwareStatusSamples($hardwareStatusSamples)
+  {
+    $this->hardwareStatusSamples = $hardwareStatusSamples;
+  }
+  /**
+   * @return HardwareStatus[]
+   */
+  public function getHardwareStatusSamples()
+  {
+    return $this->hardwareStatusSamples;
+  }
+  public function setLastPolicyComplianceReportTime($lastPolicyComplianceReportTime)
+  {
+    $this->lastPolicyComplianceReportTime = $lastPolicyComplianceReportTime;
+  }
+  public function getLastPolicyComplianceReportTime()
+  {
+    return $this->lastPolicyComplianceReportTime;
+  }
+  public function setLastPolicySyncTime($lastPolicySyncTime)
+  {
+    $this->lastPolicySyncTime = $lastPolicySyncTime;
+  }
+  public function getLastPolicySyncTime()
+  {
+    return $this->lastPolicySyncTime;
+  }
+  public function setLastStatusReportTime($lastStatusReportTime)
+  {
+    $this->lastStatusReportTime = $lastStatusReportTime;
+  }
+  public function getLastStatusReportTime()
+  {
+    return $this->lastStatusReportTime;
+  }
+  public function setManagementMode($managementMode)
+  {
+    $this->managementMode = $managementMode;
+  }
+  public function getManagementMode()
+  {
+    return $this->managementMode;
+  }
+  /**
+   * @param MemoryEvent[]
+   */
+  public function setMemoryEvents($memoryEvents)
+  {
+    $this->memoryEvents = $memoryEvents;
+  }
+  /**
+   * @return MemoryEvent[]
+   */
+  public function getMemoryEvents()
+  {
+    return $this->memoryEvents;
+  }
+  /**
+   * @param MemoryInfo
+   */
+  public function setMemoryInfo(MemoryInfo $memoryInfo)
+  {
+    $this->memoryInfo = $memoryInfo;
+  }
+  /**
+   * @return MemoryInfo
+   */
+  public function getMemoryInfo()
+  {
+    return $this->memoryInfo;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  /**
+   * @param NetworkInfo
+   */
+  public function setNetworkInfo(NetworkInfo $networkInfo)
+  {
+    $this->networkInfo = $networkInfo;
+  }
+  /**
+   * @return NetworkInfo
+   */
+  public function getNetworkInfo()
+  {
+    return $this->networkInfo;
+  }
+  /**
+   * @param NonComplianceDetail[]
+   */
+  public function setNonComplianceDetails($nonComplianceDetails)
+  {
+    $this->nonComplianceDetails = $nonComplianceDetails;
+  }
+  /**
+   * @return NonComplianceDetail[]
+   */
+  public function getNonComplianceDetails()
+  {
+    return $this->nonComplianceDetails;
+  }
+  public function setOwnership($ownership)
+  {
+    $this->ownership = $ownership;
+  }
+  public function getOwnership()
+  {
+    return $this->ownership;
+  }
+  public function setPolicyCompliant($policyCompliant)
+  {
+    $this->policyCompliant = $policyCompliant;
+  }
+  public function getPolicyCompliant()
+  {
+    return $this->policyCompliant;
+  }
+  public function setPolicyName($policyName)
+  {
+    $this->policyName = $policyName;
+  }
+  public function getPolicyName()
+  {
+    return $this->policyName;
+  }
+  /**
+   * @param PowerManagementEvent[]
+   */
+  public function setPowerManagementEvents($powerManagementEvents)
+  {
+    $this->powerManagementEvents = $powerManagementEvents;
+  }
+  /**
+   * @return PowerManagementEvent[]
+   */
+  public function getPowerManagementEvents()
+  {
+    return $this->powerManagementEvents;
+  }
+  public function setPreviousDeviceNames($previousDeviceNames)
+  {
+    $this->previousDeviceNames = $previousDeviceNames;
+  }
+  public function getPreviousDeviceNames()
+  {
+    return $this->previousDeviceNames;
+  }
+  /**
+   * @param SecurityPosture
+   */
+  public function setSecurityPosture(SecurityPosture $securityPosture)
+  {
+    $this->securityPosture = $securityPosture;
+  }
+  /**
+   * @return SecurityPosture
+   */
+  public function getSecurityPosture()
+  {
+    return $this->securityPosture;
+  }
+  /**
+   * @param SoftwareInfo
+   */
+  public function setSoftwareInfo(SoftwareInfo $softwareInfo)
+  {
+    $this->softwareInfo = $softwareInfo;
+  }
+  /**
+   * @return SoftwareInfo
+   */
+  public function getSoftwareInfo()
+  {
+    return $this->softwareInfo;
+  }
+  public function setState($state)
+  {
+    $this->state = $state;
+  }
+  public function getState()
+  {
+    return $this->state;
+  }
+  public function setSystemProperties($systemProperties)
+  {
+    $this->systemProperties = $systemProperties;
+  }
+  public function getSystemProperties()
+  {
+    return $this->systemProperties;
+  }
+  /**
+   * @param User
+   */
+  public function setUser(User $user)
+  {
+    $this->user = $user;
+  }
+  /**
+   * @return User
+   */
+  public function getUser()
+  {
+    return $this->user;
+  }
+  public function setUserName($userName)
+  {
+    $this->userName = $userName;
+  }
+  public function getUserName()
+  {
+    return $this->userName;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Device::class, 'Google_Service_AndroidManagement_Device');

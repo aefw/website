@@ -1,75 +1,191 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Bigquery\Resource;
+
+use Google\Service\Bigquery\GetQueryResultsResponse;
+use Google\Service\Bigquery\Job;
+use Google\Service\Bigquery\JobCancelResponse;
+use Google\Service\Bigquery\JobList;
+use Google\Service\Bigquery\QueryRequest;
+use Google\Service\Bigquery\QueryResponse;
+
+/**
+ * The "jobs" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $bigqueryService = new Google\Service\Bigquery(...);
+ *   $jobs = $bigqueryService->jobs;
+ *  </code>
+ */
+class Jobs extends \Google\Service\Resource
+{
+  /**
+   * Requests that a job be cancelled. This call will return immediately, and the
+   * client will need to poll for the job status to see if the cancel completed
+   * successfully. Cancelled jobs may still incur costs. (jobs.cancel)
+   *
+   * @param string $projectId [Required] Project ID of the job to cancel
+   * @param string $jobId [Required] Job ID of the job to cancel
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string location The geographic location of the job. Required
+   * except for US and EU. See details at
+   * https://cloud.google.com/bigquery/docs/locations#specifying_your_location.
+   * @return JobCancelResponse
+   */
+  public function cancel($projectId, $jobId, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'jobId' => $jobId];
+    $params = array_merge($params, $optParams);
+    return $this->call('cancel', [$params], JobCancelResponse::class);
+  }
+  /**
+   * Requests that a job is deleted. This call will return when the job is
+   * deleted. This method is available in limited preview. (jobs.delete)
+   *
+   * @param string $projectId Required. Project ID of the job to be deleted.
+   * @param string $jobId Required. Job ID of the job to be deleted. If this is a
+   * parent job which has child jobs, all child jobs will be deleted as well.
+   * Deletion of child jobs directly is not allowed.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string location The geographic location of the job. Required. See
+   * details at:
+   * https://cloud.google.com/bigquery/docs/locations#specifying_your_location.
+   */
+  public function delete($projectId, $jobId, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'jobId' => $jobId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Returns information about a specific job. Job information is available for a
+   * six month period after creation. Requires that you're the person who ran the
+   * job, or have the Is Owner project role. (jobs.get)
+   *
+   * @param string $projectId [Required] Project ID of the requested job
+   * @param string $jobId [Required] Job ID of the requested job
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string location The geographic location of the job. Required
+   * except for US and EU. See details at
+   * https://cloud.google.com/bigquery/docs/locations#specifying_your_location.
+   * @return Job
+   */
+  public function get($projectId, $jobId, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'jobId' => $jobId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Job::class);
+  }
+  /**
+   * Retrieves the results of a query job. (jobs.getQueryResults)
+   *
+   * @param string $projectId [Required] Project ID of the query job
+   * @param string $jobId [Required] Job ID of the query job
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string location The geographic location where the job should run.
+   * Required except for US and EU. See details at
+   * https://cloud.google.com/bigquery/docs/locations#specifying_your_location.
+   * @opt_param string maxResults Maximum number of results to read
+   * @opt_param string pageToken Page token, returned by a previous call, to
+   * request the next page of results
+   * @opt_param string startIndex Zero-based index of the starting row
+   * @opt_param string timeoutMs How long to wait for the query to complete, in
+   * milliseconds, before returning. Default is 10 seconds. If the timeout passes
+   * before the job completes, the 'jobComplete' field in the response will be
+   * false
+   * @return GetQueryResultsResponse
+   */
+  public function getQueryResults($projectId, $jobId, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'jobId' => $jobId];
+    $params = array_merge($params, $optParams);
+    return $this->call('getQueryResults', [$params], GetQueryResultsResponse::class);
+  }
+  /**
+   * Starts a new asynchronous job. Requires the Can View project role.
+   * (jobs.insert)
+   *
+   * @param string $projectId Project ID of the project that will be billed for
+   * the job
+   * @param Job $postBody
+   * @param array $optParams Optional parameters.
+   * @return Job
+   */
+  public function insert($projectId, Job $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Job::class);
+  }
+  /**
+   * Lists all jobs that you started in the specified project. Job information is
+   * available for a six month period after creation. The job list is sorted in
+   * reverse chronological order, by job creation time. Requires the Can View
+   * project role, or the Is Owner project role if you set the allUsers property.
+   * (jobs.listJobs)
+   *
+   * @param string $projectId Project ID of the jobs to list
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool allUsers Whether to display jobs owned by all users in the
+   * project. Default false
+   * @opt_param string maxCreationTime Max value for job creation time, in
+   * milliseconds since the POSIX epoch. If set, only jobs created before or at
+   * this timestamp are returned
+   * @opt_param string maxResults Maximum number of results to return
+   * @opt_param string minCreationTime Min value for job creation time, in
+   * milliseconds since the POSIX epoch. If set, only jobs created after or at
+   * this timestamp are returned
+   * @opt_param string pageToken Page token, returned by a previous call, to
+   * request the next page of results
+   * @opt_param string parentJobId If set, retrieves only jobs whose parent is
+   * this job. Otherwise, retrieves only jobs which have no parent
+   * @opt_param string projection Restrict information returned to a set of
+   * selected fields
+   * @opt_param string stateFilter Filter for job state
+   * @return JobList
+   */
+  public function listJobs($projectId, $optParams = [])
+  {
+    $params = ['projectId' => $projectId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], JobList::class);
+  }
+  /**
+   * Runs a BigQuery SQL query synchronously and returns query results if the
+   * query completes within a specified timeout. (jobs.query)
+   *
+   * @param string $projectId Project ID of the project billed for the query
+   * @param QueryRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return QueryResponse
+   */
+  public function query($projectId, QueryRequest $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('query', [$params], QueryResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Jobs::class, 'Google_Service_Bigquery_Resource_Jobs');

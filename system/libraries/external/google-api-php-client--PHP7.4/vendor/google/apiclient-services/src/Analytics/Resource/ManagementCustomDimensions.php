@@ -1,73 +1,134 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPyyUExuXo9+nJDQkdS76J8T4Ld9DwqFZ4U8AoK8bw/0uu8jYilmdefaJH7xj1drnmPp1CTAP
-Ux5VL4v62n4jf/oL6rt9iyxvDn8MaFDPdPMcKb9zNtJTAFI/YVXTuaDlIkGkQjdpYkQiKCfcjZJc
-wo9unD2r+6sucd9H3ont6NaSummDeMlOM3K49ChfXdpxv9hbk+aZ7p0zXDl86HdC6S5ZbQSLFyoh
-RlnlJCP0K+ONGKVkAzQ99crEtArIYXxWA+dbL1WiL2cKsMvOKM/4xarKcLGqud1JBZLKXAWiWQO+
-IWNbLQvnn5Ic6NnYgZSAYuXKQGKhDhJs8aWzaO5jV/QLOkZyOrkI4HcKLR4vXNQKyn27iiURJuk5
-ZK2QzHjw310K37By74f5uiDycOjbDC08Kg6rhk+nBo9gYNDb8Dm1IV65OfBPX/7jNQ7+bCbClkWn
-qjmC1gzGSy2UUWPkJqqpxyDMgOfaRSD/UAJiQK6VaUZoX8+MQvy4CbDt+WIFZ5k0t8PsKj4vTP5X
-tzjGy16phm4hpTGnQivWrFHt++2ALOQOnqiJ0NN2B4XTCARVuzRrW3bmqs4r0knW4nctFWBMG25q
-VI5U8FmD+Z8lfhwDJICJAqf+aLta+a2aX41q+akf69QJrFE8y1Slr6jYKZAKLo47zW7x7698rHV/
-O+v8cX4rRjmdpr7VFaiWEHGD+yOmuzIoMjDTj+cPpn+6o7pdrbMRMzjUbtykl0swAVzPKle1Mz5E
-qZMmgqQwb6Zz0G7zQ3qk1kNA4iEIhIg4kRexrcjeuYQJsGRNgNRmkcGMY8EFrHNs9izeixxo1UQ5
-sWj5uvcFjCBNYONQr2GTsp4YodwVsGjbKJqF0GYyMBw6mW6ROjxprXeuqa/XEjSTn4xFf5tZXfMv
-iGEuvVbx1GXU1saWbXs9jqvWQGDDFIb5zPsH2r+Aabs3e85hk76K9xZd6OVK33U6DLlWebrp9FJc
-kfl6QvsQ6rmI9HYPORUd3s5xZDxdJc/brnFmUECoZcwLNcVMfHbf/H/BOBrZBd+f5rmUhqln5ref
-zmPNX1uN//20V57f8WQYioddD+Sog2yJEoTO2HVtfGPEK3BAu17pan4UkL0s8+n4UXEkFtgHfLJs
-FxlCby+4ALUSjRuBYNIU/EkkOSpVUi7UwaLKn18ZdQrqiWXHnyI0CAUS0grmQVERpUQmJrNRYzn1
-kuq+e6BiMq0wnL/IxJN4ZRyZEQR9Hw3eTf2ZLZFEFhufB9vDhZaWyIAHZKeKd+juN/nGzKjuRdV8
-1lm3UQy62KrnjzBMTqasiNT3xSjOh1nFb8wR7PXvKniJkMmLekDR2suNf7wUeNFS0/TyFxbDwahQ
-ohXg7jiVKWgIUI6p4xffHjMcozxcIn7vM+6QXNYEO8mBy8eBMf/uSvhxWOhek5wC0MKJgm1UMOJB
-C3kUodAtdEfDY/tmVBKj+miCTnW9VRvtfyiVkFFZevyYlDiNESJBkVDmWVW1gXRyC1Imc8Js2rOl
-GO1cgX3kJoRVYovSZ+5TAxPO/shwrX1S+KRrBfHR033DUSyAMqEXYJH8kGyjqRkYKFRZZtOgp8Kv
-2irCGUIVSMUDSnQbbVXEZvbFdt+cE8DOpSsQKn90ySJZ1BEtrdTcBE/DFMByitu/5HIzA6BHCbWG
-FO/UHeC2xlVdIXSDVXZL4vgbhHVbsndhgqS6rQ2Z6oD0YEyehsnRCeag5v5HibCo3H/ftrgpNcR0
-bCwsbsMkNUMeG7s1iRBZuiQplx1eKPh6/yIg0w/0TeNBvQna05ALxcsEfHrrPvL8ZVDJtmAeh9fu
-PB5CUycRakzRJdcDvbqqnOnwKAFtT6ebKpgh1nl6VCGL9dpLmiEHkB0LohYS/E6mN8DSofQ6LBvV
-huHziqIMwcyYUbhgzmp0X2LPRY/cOVbvWXTOfS1QRnsuCyn50IUhPv5r1LX3r5Ba9tcTykCIAUUg
-FvzlYCarbWK4BgVdHq0VI7KFN+zXuTHNqye0Y/T56SH82JRgYsrZ1sD+1t3ooJSE/JXBs++RiJbA
-9fwxAycHYllOECl2OZluTwBccKI3jGXXJvz5AEuTMILI5PNf47JW7RK7AP37ah/R1H/EDfrDCUiw
-M29Xl2+XSpRAk08Tw98Pdu8OLCELRlHAwi6sx7Lx9mSi6ezHE/tM3cdSdnqeQGyFZAYmgqCeHMpy
-85BkcZWBdHDiY25ZJE4oWrtnqOqVhzeX6DEGE1YFs//7xNXYxuG58+6L/AiRugkOrAly36Kb4o+D
-OP0RxfEGRM7fdy2cSTYvNp7CGI1I3gK4aurQJSZXY9dybAvEZJVxb3fWDtZ+gkiuphrX/NIGU+Im
-SyoiprozQJ1sZ3rujIpf7/5XK2yg+4b+O3VFALZrCIHzKW1JKUZupSZSyyHJPMfr50ADLxZQYeBx
-ACZTHNJSaxUhhaKNGPOgZbPG4X1Ky5sUwvX11Bm7keZPBzBkaS/mqnwlwwipdHp0+DN1kMHJAy+A
-dN09SSv56L//unWX6QPpXJzZAgSK5lmKqhPAHWMJznKWax1ucVuwoFWVm3UazJ21fWs0/0yiJbWs
-zgGCTR77jEKxCw5tkmXv6kfyC6tkPtGC1y/SoOPRASznJm29ifzHW4Pk5IRxey7IbhJE9eRJ3Mxj
-T9Lst8sw8AqXFQVwgtFyq1aDurwiU15blmZNTAxU7BIuNEGpg7prATTFZLEdr7ZtdZans0RhKUKa
-rnm9yUq43kPayzlO/zVcQkmI/qfP56D0Wd362tXhkrDTzxEVMsE9gsz9wBVx+4zVGa6nwFBM0ugH
-RBenR7o+yPrDj7pg/cPYRG20GFu+mrw02N8FWcvQ82tzMBBCr9V6+pSUvLAAQCNnoOpsDV6AW2Ub
-3JCulp52GhjDlUfdH9uW5/EFQ+RjLHnPR4BLCigIhykR0jTlO9dTlurh+1DO0Iaw5FYp/9RdxHkF
-9YsLGYQj99MuiJtNpIlIfGQWJMt/uawpxJO2OakWq9WXuPae1qipWx4YCv4iPrddLmzlU3/JBmyz
-O7200Ee53HAb0j5ArMIBAyQguZ3FJFEYILnyPNoeYMWgV25ElhaPLbvzEI51i8g7gRBNH/yFX/uJ
-YGAljRqaiYTI5QCka1Euk67wfzHczRheAOVKyL59c6QIb7gkv6BKH6xjwVVgHIMazGY5GBBOfpNQ
-MdvaPP+/25j1rsLvdEn+LNt3nbT6qDSq2dY6409wgiPDMYNE9cl+9xTG0tmodUcYzcwdxI/tJjPM
-x/Z0oZtzShF1Oorp3G0aTsbQGkTIPXeLGjFX1uYh50jQlspoQ8cR+vwDdhgCE40P40OxnGvxh+ai
-HbqoAWxmIvAhOiCp0hEB69AyBgJO50ap/AoKeQxeJTY26GNdzYGvSFt/+z2DgZvcB7DlTL/S5G74
-xv1TbH+Wjtf504c8BN516d97S80r7Ben/+PqbGGD7JdWBd4i6hMc3Un53iYFCYnJlInye4T+aRor
-V73byJO6VT+onxJ1bJ0Ayt49P1bFEVzXS7nblCZ46Y7iqtzSXkH19ynS8tfuFpq+DJ6hgeTs5dZe
-hPM4pB5VHWenwobKs2KPz4YZN90d7f6hnKppjOfReqtUaSJbdEBUMiqzvKgd6C3+Mx5sW/6kD0u8
-Omt+Vu3Z0nGAZt+ydNPgMmbDwUd+WuKv4qFH7XPOQc1u3BKgeQlQvYC+mL2C4Vmqahm5tVgl/lVV
-46+LhpZck8I3gpTcLdy/0FeN82GMm40+zx6gS+R9CknAosuQDZ3y5/BbJVSwyrYxuteVvmt/0Ls7
-eBUJ7OLcjbv/ZVhmukZTxDxRqA4xP4qdQZBtyEevr08UCjq/B1mmgHPrZwGuvbGQY8mHpjP8e2wg
-W7R+NcYbAmG7r/JJ9Q4YNarwYJJVb7rNkgypNX7g1HXevQkpOactHrUlYY40K8i9l880uU2Zh6VK
-0ouZHsB6GGuUjGM8stS70jsVR1wxXZzSi+Xy3TT1cVj6IaKX8/+9lc97+D6A48NAMfd/nOx1ng5I
-ufkHGnCdLZ0hPgIQHK/aEkfiyRQMa4u92KLIjvXtlJK90kkDiDHIcByRc/8HSa31G6R7mtUbwEmQ
-w6Ut6iMWdrpf0baVCOjc+s+Ggq3NbeDm7I4OeDLNN0G9jAtz/cpG/TJSw6yM0+0NPhnf7uNHA+n4
-DtETqndTgLoBsNP8a02zIMnIUGApOGzq5hIcY0N+6DSNtCK2BoxhTfLpoQmMwKBPR5qgZwtij6o+
-3kb4Hqs4kcwsd5f0WSU3OrGNWekdWCwDApQdYjT5Ezqte7ZEAQT2euXdAcMUpvf03oP0+uDZzXSU
-UYi3tL/cXx/jPod7QCWo1DpkmV8BP4Cc1QHYblbGTK2xx36BPDLe7kYE5dQp1ysS+4JdSsxlMl2s
-mWTafcruUhWra6/mQlr/Uyjlx31DcmazSlioarNcJ4EyK7aJuZUuGWmbBolmBJvWu412ACWgxvvR
-jruUW+e7bzoxulTFTLZWuVPd0QzeUvaiTj7w8Cye+AR/97Qa/T5EX8F5KXccM6IsZSmPzYQv07oO
-UrrDIgYtB7EpU7dHYGI+shDuInap5tdmu56LPExnaCa08A8nIogy8PfbdMgTk6kkjQO2S2grEbU4
-elzHbuRDODLNK7EW15qZ4aOpUhUBEigl0YL2aP8ki02zopeF5fECDYv3NmsCbL5kD4UhA5Pn4VPS
-0MECCMJXduH6mngxsPjP74UhSn/c87tmtkNfp7nOAqfVKHE5lCysKEPHq+IJcsng419rd2AA2DYo
-baMlME9h0j8D3UY9a21pMTxbVNuqyhCmWAl+9WD6X3Qwk6SQk5hz1vJ5qbl0OhH4+eqXlQVkoLPj
-VVy6f/DCpsZLlN2aEU4Xus4Z+gfe4c/Y8mojJkoDEF6PbZgxV0niIgNjyY5kPEOsZB5nRWOXAjy/
-uZK1lSsQNQoWZmRxqCY7avhG6Mdls8c4DTpsaOkCzPUmuzB1p1s4oPr+kvJjYdPQq2ibDRowUG5A
-lgb1YX5FEMyDScnQe8s3FUxDPyHViMgHmTdmpiy6AYwZo30xGw5huSeINeXtWgfRkXVZJHq=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Analytics\Resource;
+
+use Google\Service\Analytics\CustomDimension;
+use Google\Service\Analytics\CustomDimensions;
+
+/**
+ * The "customDimensions" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $analyticsService = new Google\Service\Analytics(...);
+ *   $customDimensions = $analyticsService->customDimensions;
+ *  </code>
+ */
+class ManagementCustomDimensions extends \Google\Service\Resource
+{
+  /**
+   * Get a custom dimension to which the user has access. (customDimensions.get)
+   *
+   * @param string $accountId Account ID for the custom dimension to retrieve.
+   * @param string $webPropertyId Web property ID for the custom dimension to
+   * retrieve.
+   * @param string $customDimensionId The ID of the custom dimension to retrieve.
+   * @param array $optParams Optional parameters.
+   * @return CustomDimension
+   */
+  public function get($accountId, $webPropertyId, $customDimensionId, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'customDimensionId' => $customDimensionId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], CustomDimension::class);
+  }
+  /**
+   * Create a new custom dimension. (customDimensions.insert)
+   *
+   * @param string $accountId Account ID for the custom dimension to create.
+   * @param string $webPropertyId Web property ID for the custom dimension to
+   * create.
+   * @param CustomDimension $postBody
+   * @param array $optParams Optional parameters.
+   * @return CustomDimension
+   */
+  public function insert($accountId, $webPropertyId, CustomDimension $postBody, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], CustomDimension::class);
+  }
+  /**
+   * Lists custom dimensions to which the user has access.
+   * (customDimensions.listManagementCustomDimensions)
+   *
+   * @param string $accountId Account ID for the custom dimensions to retrieve.
+   * @param string $webPropertyId Web property ID for the custom dimensions to
+   * retrieve.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int max-results The maximum number of custom dimensions to include
+   * in this response.
+   * @opt_param int start-index An index of the first entity to retrieve. Use this
+   * parameter as a pagination mechanism along with the max-results parameter.
+   * @return CustomDimensions
+   */
+  public function listManagementCustomDimensions($accountId, $webPropertyId, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], CustomDimensions::class);
+  }
+  /**
+   * Updates an existing custom dimension. This method supports patch semantics.
+   * (customDimensions.patch)
+   *
+   * @param string $accountId Account ID for the custom dimension to update.
+   * @param string $webPropertyId Web property ID for the custom dimension to
+   * update.
+   * @param string $customDimensionId Custom dimension ID for the custom dimension
+   * to update.
+   * @param CustomDimension $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool ignoreCustomDataSourceLinks Force the update and ignore any
+   * warnings related to the custom dimension being linked to a custom data source
+   * / data set.
+   * @return CustomDimension
+   */
+  public function patch($accountId, $webPropertyId, $customDimensionId, CustomDimension $postBody, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'customDimensionId' => $customDimensionId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], CustomDimension::class);
+  }
+  /**
+   * Updates an existing custom dimension. (customDimensions.update)
+   *
+   * @param string $accountId Account ID for the custom dimension to update.
+   * @param string $webPropertyId Web property ID for the custom dimension to
+   * update.
+   * @param string $customDimensionId Custom dimension ID for the custom dimension
+   * to update.
+   * @param CustomDimension $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool ignoreCustomDataSourceLinks Force the update and ignore any
+   * warnings related to the custom dimension being linked to a custom data source
+   * / data set.
+   * @return CustomDimension
+   */
+  public function update($accountId, $webPropertyId, $customDimensionId, CustomDimension $postBody, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'webPropertyId' => $webPropertyId, 'customDimensionId' => $customDimensionId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], CustomDimension::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ManagementCustomDimensions::class, 'Google_Service_Analytics_Resource_ManagementCustomDimensions');

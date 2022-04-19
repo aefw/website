@@ -1,65 +1,136 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-LGF25EuLRcGRkQ5KqVnss+9hfTyCblq=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for Oauth2 (v2).
+ *
+ * <p>
+ * Obtains end-user authorization grants for use with other Google APIs.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://developers.google.com/identity/protocols/oauth2/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class Oauth2 extends \Google\Service
+{
+  /** View your email address. */
+  const USERINFO_EMAIL =
+      "https://www.googleapis.com/auth/userinfo.email";
+  /** See your personal info, including any personal info you've made publicly available. */
+  const USERINFO_PROFILE =
+      "https://www.googleapis.com/auth/userinfo.profile";
+  /** Associate you with your personal info on Google. */
+  const OPENID =
+      "openid";
+
+  public $userinfo;
+  public $userinfo_v2_me;
+  private $base_methods;
+  /**
+   * Constructs the internal representation of the Oauth2 service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://www.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch/oauth2/v2';
+    $this->version = 'v2';
+    $this->serviceName = 'oauth2';
+
+    $this->userinfo = new Oauth2\Resource\Userinfo(
+        $this,
+        $this->serviceName,
+        'userinfo',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'oauth2/v2/userinfo',
+              'httpMethod' => 'GET',
+              'parameters' => [],
+            ],
+          ]
+        ]
+    );
+    $this->userinfo_v2_me = new Oauth2\Resource\UserinfoV2Me(
+        $this,
+        $this->serviceName,
+        'me',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'userinfo/v2/me',
+              'httpMethod' => 'GET',
+              'parameters' => [],
+            ],
+          ]
+        ]
+    );
+    $this->base_methods = new Resource(
+        $this,
+        $this->serviceName,
+        '',
+        [
+          'methods' => [
+            'tokeninfo' => [
+              'path' => 'oauth2/v2/tokeninfo',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'access_token' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'id_token' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+  /**
+   * (tokeninfo)
+   *
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string access_token
+   * @opt_param string id_token
+   * @return Tokeninfo
+   */
+  public function tokeninfo($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->base_methods->call('tokeninfo', [$params], Tokeninfo::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Oauth2::class, 'Google_Service_Oauth2');

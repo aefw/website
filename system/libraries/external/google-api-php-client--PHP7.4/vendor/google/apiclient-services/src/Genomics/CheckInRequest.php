@@ -1,66 +1,109 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-G3L1wH9tTReL/Zrh
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Genomics;
+
+class CheckInRequest extends \Google\Collection
+{
+  protected $collection_key = 'events';
+  protected $deadlineExpiredType = GenomicsEmpty::class;
+  protected $deadlineExpiredDataType = '';
+  public $event;
+  protected $eventsType = TimestampedEvent::class;
+  protected $eventsDataType = 'array';
+  protected $resultType = Status::class;
+  protected $resultDataType = '';
+  public $sosReport;
+  protected $workerStatusType = WorkerStatus::class;
+  protected $workerStatusDataType = '';
+
+  /**
+   * @param GenomicsEmpty
+   */
+  public function setDeadlineExpired(GenomicsEmpty $deadlineExpired)
+  {
+    $this->deadlineExpired = $deadlineExpired;
+  }
+  /**
+   * @return GenomicsEmpty
+   */
+  public function getDeadlineExpired()
+  {
+    return $this->deadlineExpired;
+  }
+  public function setEvent($event)
+  {
+    $this->event = $event;
+  }
+  public function getEvent()
+  {
+    return $this->event;
+  }
+  /**
+   * @param TimestampedEvent[]
+   */
+  public function setEvents($events)
+  {
+    $this->events = $events;
+  }
+  /**
+   * @return TimestampedEvent[]
+   */
+  public function getEvents()
+  {
+    return $this->events;
+  }
+  /**
+   * @param Status
+   */
+  public function setResult(Status $result)
+  {
+    $this->result = $result;
+  }
+  /**
+   * @return Status
+   */
+  public function getResult()
+  {
+    return $this->result;
+  }
+  public function setSosReport($sosReport)
+  {
+    $this->sosReport = $sosReport;
+  }
+  public function getSosReport()
+  {
+    return $this->sosReport;
+  }
+  /**
+   * @param WorkerStatus
+   */
+  public function setWorkerStatus(WorkerStatus $workerStatus)
+  {
+    $this->workerStatus = $workerStatus;
+  }
+  /**
+   * @return WorkerStatus
+   */
+  public function getWorkerStatus()
+  {
+    return $this->workerStatus;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(CheckInRequest::class, 'Google_Service_Genomics_CheckInRequest');

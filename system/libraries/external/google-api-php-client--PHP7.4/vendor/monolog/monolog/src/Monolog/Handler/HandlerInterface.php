@@ -1,26 +1,76 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPnNCmf9t5JUbVdbNiV/zOJl1XzRKukXGBuZ88lTueZ2L5buXX5hO30V0xUOS63+uxrWsIsEA
-qbJm/l9WuK2lkJR5VzwahWSmlKDglXoI4/AQyQ4C37d7CQVi3Og0/ngwSwXmRtHnoA6Czmw8X0pE
-vBrVfF2yrPmc6iet2RBtQaqJk9Os2z1qUoBC/cKVUfut5WiF4lu0J+FjXCJKppsSRuL2U7fxZM9H
-ZPC/GkYMeBZoDwauDONPdcDaH142wZaON6P2jReiPrdLH2w4nFZK+smNU+9mKourL8IeB86cFae5
-vLKcSDLEMiaI5UkIyE68r3gzJewTaToowH+KQ2xcx/jc50gNxlYI9WjQjmMr7VDYLtsjFUmknABa
-ZOYuC9bxADTWvIT6uWrZrN+vJhfcyVBFwouz1juzurJSiTHMePr8POpxTqsMtAz8a4ZW+NE+LF97
-MjNBb8E1O/tsT5vaLbWqO/i3ZF51COmYVXpo1D+Mf+X5hvKkzfrTNl5kD/mMfvioZb9NS1R5n4rP
-38UIkKgbZuzUHDiYbobOPM8HaOofFqnnKngY1nsAyBFYbsytlVSnVgQglpQV3WQgPmD8HO52uK2Y
-VROdahv7pBb60Z0TIqnd6iGKawSiHG1SRRcTr0Je2CumG4Rti9esXy3D4VhK9j5se/i07bEEcQup
-r6ezaIGbxCWxd4UyfHJBEFcLLcEqmK6p6u1XGk1zJSiIOfY7ArxVFsC2TqfQI+qjkFtRTupaOKx8
-sod6tiG6HWdUOzXdpFsw2Yrv7vXoGUD0WuUtDuvpyl2rIFKJy1xsqLDJjzcf80HB/HQRm+dVy1oi
-3KXJqy/3Lmu10h6+s5BGP61/JRhTKIKlCRl3OhZfE2h9EkNZCcYDzrEJ6ctQujFSeEcNrVOlX0mU
-qOX0J+Ip59mL1f+seNMFlLRvmWaupcU7Ruu4uf4sXvUcUgtzQASBBR9y2EpgIH5wB6FscMpqyCiO
-6cbHGtXbDrIP5WPJI0dgGO13Yh/s2KJj9ch0oFCD8RZz73wE0WXYdccisQp2/aCwRY+jtPhvCmco
-sBNnM+7XJTFBOFMX2O6zLGIZs0icOwql66c8aj9e9BnMV/lUXfmxJvXm5hYmv3qnqEcYu0PGk9pU
-EfiT0hkIomXgijCMIMzIBgA8Gf4C8XDTFcEGmdMfDgjDvWfbMIrn6n4vS9OhbYF/MMpg2ae7B353
-BDMBWcJYeipFOLhwAoT+Z9Ri0+SGHHYzuYSlAA7tpRgI1z8bckDxPh6uaTZmxzVfYfbo1OstYrfA
-al1lE4mNlRDcnwlCsRylLJsL5p/AH+wVNg990f/+Th+hoCweYp6mIL1HAnhQyr/2jhIYwRetzHpo
-5fsYSZCqD6/is9Ge9jYaZy8ieD9T1lAJIL/XE81aiACoP45yGJ0e7T8TvEmql1ny4I0E1qGYDr6W
-u9oPRm==
+<?php declare(strict_types=1);
+
+/*
+ * This file is part of the Monolog package.
+ *
+ * (c) Jordi Boggiano <j.boggiano@seld.be>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Monolog\Handler;
+
+/**
+ * Interface that all Monolog Handlers must implement
+ *
+ * @author Jordi Boggiano <j.boggiano@seld.be>
+ */
+interface HandlerInterface
+{
+    /**
+     * Checks whether the given record will be handled by this handler.
+     *
+     * This is mostly done for performance reasons, to avoid calling processors for nothing.
+     *
+     * Handlers should still check the record levels within handle(), returning false in isHandling()
+     * is no guarantee that handle() will not be called, and isHandling() might not be called
+     * for a given record.
+     *
+     * @param array $record Partial log record containing only a level key
+     *
+     * @return bool
+     */
+    public function isHandling(array $record): bool;
+
+    /**
+     * Handles a record.
+     *
+     * All records may be passed to this method, and the handler should discard
+     * those that it does not want to handle.
+     *
+     * The return value of this function controls the bubbling process of the handler stack.
+     * Unless the bubbling is interrupted (by returning true), the Logger class will keep on
+     * calling further handlers in the stack with a given log record.
+     *
+     * @param  array $record The record to handle
+     * @return bool  true means that this handler handled the record, and that bubbling is not permitted.
+     *                      false means the record was either not processed or that this handler allows bubbling.
+     */
+    public function handle(array $record): bool;
+
+    /**
+     * Handles a set of records at once.
+     *
+     * @param array $records The records to handle (an array of record arrays)
+     */
+    public function handleBatch(array $records): void;
+
+    /**
+     * Closes the handler.
+     *
+     * Ends a log cycle and frees all resources used by the handler.
+     *
+     * Closing a Handler means flushing all buffers and freeing any open resources/handles.
+     *
+     * Implementations have to be idempotent (i.e. it should be possible to call close several times without breakage)
+     * and ideally handlers should be able to reopen themselves on handle() after they have been closed.
+     *
+     * This is useful at the end of a request and will be called automatically when the object
+     * is destroyed if you extend Monolog\Handler\Handler.
+     *
+     * If you are thinking of calling this method yourself, most likely you should be
+     * calling ResettableInterface::reset instead. Have a look.
+     */
+    public function close(): void;
+}

@@ -1,66 +1,124 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-W2yJJes+nXhoEvfpuBz+1MTU
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Firebaseappcheck\Resource;
+
+use Google\Service\Firebaseappcheck\GoogleFirebaseAppcheckV1betaBatchUpdateServicesRequest;
+use Google\Service\Firebaseappcheck\GoogleFirebaseAppcheckV1betaBatchUpdateServicesResponse;
+use Google\Service\Firebaseappcheck\GoogleFirebaseAppcheckV1betaListServicesResponse;
+use Google\Service\Firebaseappcheck\GoogleFirebaseAppcheckV1betaService;
+
+/**
+ * The "services" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $firebaseappcheckService = new Google\Service\Firebaseappcheck(...);
+ *   $services = $firebaseappcheckService->services;
+ *  </code>
+ */
+class ProjectsServices extends \Google\Service\Resource
+{
+  /**
+   * Updates the specified Service configurations atomically.
+   * (services.batchUpdate)
+   *
+   * @param string $parent Required. The parent project name shared by all Service
+   * configurations being updated, in the format ``` projects/{project_number} ```
+   * The parent collection in the `name` field of any resource being updated must
+   * match this field, or the entire batch fails.
+   * @param GoogleFirebaseAppcheckV1betaBatchUpdateServicesRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleFirebaseAppcheckV1betaBatchUpdateServicesResponse
+   */
+  public function batchUpdate($parent, GoogleFirebaseAppcheckV1betaBatchUpdateServicesRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('batchUpdate', [$params], GoogleFirebaseAppcheckV1betaBatchUpdateServicesResponse::class);
+  }
+  /**
+   * Gets the Service configuration for the specified service name. (services.get)
+   *
+   * @param string $name Required. The relative resource name of the Service to
+   * retrieve, in the format: ``` projects/{project_number}/services/{service_id}
+   * ``` Note that the `service_id` element must be a supported service ID.
+   * Currently, the following service IDs are supported: *
+   * `firebasestorage.googleapis.com` (Cloud Storage for Firebase) *
+   * `firebasedatabase.googleapis.com` (Firebase Realtime Database)
+   * @param array $optParams Optional parameters.
+   * @return GoogleFirebaseAppcheckV1betaService
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleFirebaseAppcheckV1betaService::class);
+  }
+  /**
+   * Lists all Service configurations for the specified project. Only Services
+   * which were explicitly configured using UpdateService or BatchUpdateServices
+   * will be returned. (services.listProjectsServices)
+   *
+   * @param string $parent Required. The relative resource name of the parent
+   * project for which to list each associated Service, in the format: ```
+   * projects/{project_number} ```
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The maximum number of Services to return in the
+   * response. Only explicitly configured services are returned. The server may
+   * return fewer than this at its own discretion. If no value is specified (or
+   * too large a value is specified), the server will impose its own limit.
+   * @opt_param string pageToken Token returned from a previous call to
+   * ListServices indicating where in the set of Services to resume listing.
+   * Provide this to retrieve the subsequent page. When paginating, all other
+   * parameters provided to ListServices must match the call that provided the
+   * page token; if they do not match, the result is undefined.
+   * @return GoogleFirebaseAppcheckV1betaListServicesResponse
+   */
+  public function listProjectsServices($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleFirebaseAppcheckV1betaListServicesResponse::class);
+  }
+  /**
+   * Updates the specified Service configuration. (services.patch)
+   *
+   * @param string $name Required. The relative resource name of the service
+   * configuration object, in the format: ```
+   * projects/{project_number}/services/{service_id} ``` Note that the
+   * `service_id` element must be a supported service ID. Currently, the following
+   * service IDs are supported: * `firebasestorage.googleapis.com` (Cloud Storage
+   * for Firebase) * `firebasedatabase.googleapis.com` (Firebase Realtime
+   * Database)
+   * @param GoogleFirebaseAppcheckV1betaService $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. A comma-separated list of names of
+   * fields in the Service to update. Example: `enforcement_mode`.
+   * @return GoogleFirebaseAppcheckV1betaService
+   */
+  public function patch($name, GoogleFirebaseAppcheckV1betaService $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], GoogleFirebaseAppcheckV1betaService::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsServices::class, 'Google_Service_Firebaseappcheck_Resource_ProjectsServices');

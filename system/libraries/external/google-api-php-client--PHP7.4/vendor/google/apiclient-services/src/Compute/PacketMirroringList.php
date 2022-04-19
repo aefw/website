@@ -1,65 +1,95 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-jfLW3ettUfWqLfqE8xk/uUjE9G==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute;
+
+class PacketMirroringList extends \Google\Collection
+{
+  protected $collection_key = 'items';
+  public $id;
+  protected $itemsType = PacketMirroring::class;
+  protected $itemsDataType = 'array';
+  public $kind;
+  public $nextPageToken;
+  public $selfLink;
+  protected $warningType = PacketMirroringListWarning::class;
+  protected $warningDataType = '';
+
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  /**
+   * @param PacketMirroring[]
+   */
+  public function setItems($items)
+  {
+    $this->items = $items;
+  }
+  /**
+   * @return PacketMirroring[]
+   */
+  public function getItems()
+  {
+    return $this->items;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setNextPageToken($nextPageToken)
+  {
+    $this->nextPageToken = $nextPageToken;
+  }
+  public function getNextPageToken()
+  {
+    return $this->nextPageToken;
+  }
+  public function setSelfLink($selfLink)
+  {
+    $this->selfLink = $selfLink;
+  }
+  public function getSelfLink()
+  {
+    return $this->selfLink;
+  }
+  /**
+   * @param PacketMirroringListWarning
+   */
+  public function setWarning(PacketMirroringListWarning $warning)
+  {
+    $this->warning = $warning;
+  }
+  /**
+   * @return PacketMirroringListWarning
+   */
+  public function getWarning()
+  {
+    return $this->warning;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PacketMirroringList::class, 'Google_Service_Compute_PacketMirroringList');

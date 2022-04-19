@@ -1,75 +1,134 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-kqRZTl+Ky29alX0R/gWb/beM
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudIot;
+
+class DeviceRegistry extends \Google\Collection
+{
+  protected $collection_key = 'eventNotificationConfigs';
+  protected $credentialsType = RegistryCredential::class;
+  protected $credentialsDataType = 'array';
+  protected $eventNotificationConfigsType = EventNotificationConfig::class;
+  protected $eventNotificationConfigsDataType = 'array';
+  protected $httpConfigType = HttpConfig::class;
+  protected $httpConfigDataType = '';
+  public $id;
+  public $logLevel;
+  protected $mqttConfigType = MqttConfig::class;
+  protected $mqttConfigDataType = '';
+  public $name;
+  protected $stateNotificationConfigType = StateNotificationConfig::class;
+  protected $stateNotificationConfigDataType = '';
+
+  /**
+   * @param RegistryCredential[]
+   */
+  public function setCredentials($credentials)
+  {
+    $this->credentials = $credentials;
+  }
+  /**
+   * @return RegistryCredential[]
+   */
+  public function getCredentials()
+  {
+    return $this->credentials;
+  }
+  /**
+   * @param EventNotificationConfig[]
+   */
+  public function setEventNotificationConfigs($eventNotificationConfigs)
+  {
+    $this->eventNotificationConfigs = $eventNotificationConfigs;
+  }
+  /**
+   * @return EventNotificationConfig[]
+   */
+  public function getEventNotificationConfigs()
+  {
+    return $this->eventNotificationConfigs;
+  }
+  /**
+   * @param HttpConfig
+   */
+  public function setHttpConfig(HttpConfig $httpConfig)
+  {
+    $this->httpConfig = $httpConfig;
+  }
+  /**
+   * @return HttpConfig
+   */
+  public function getHttpConfig()
+  {
+    return $this->httpConfig;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setLogLevel($logLevel)
+  {
+    $this->logLevel = $logLevel;
+  }
+  public function getLogLevel()
+  {
+    return $this->logLevel;
+  }
+  /**
+   * @param MqttConfig
+   */
+  public function setMqttConfig(MqttConfig $mqttConfig)
+  {
+    $this->mqttConfig = $mqttConfig;
+  }
+  /**
+   * @return MqttConfig
+   */
+  public function getMqttConfig()
+  {
+    return $this->mqttConfig;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  /**
+   * @param StateNotificationConfig
+   */
+  public function setStateNotificationConfig(StateNotificationConfig $stateNotificationConfig)
+  {
+    $this->stateNotificationConfig = $stateNotificationConfig;
+  }
+  /**
+   * @return StateNotificationConfig
+   */
+  public function getStateNotificationConfig()
+  {
+    return $this->stateNotificationConfig;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(DeviceRegistry::class, 'Google_Service_CloudIot_DeviceRegistry');

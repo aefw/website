@@ -1,110 +1,193 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPpDmyqvwuiTXSx1cRUqziNmmdxw4De9U2vB8c+9GgLubeS3cjuKH0TkFoT2Moj3y/Vok8SJM
-LXN/AcysUyhY6oif2oE0lXCV3rczXr2u51EtOUkrqCLhJfsXKlC9LlwKjjgp7IxB/NWI7m+WmZw3
-VkZj7It7Np1JJ8m5MeUFwIrQnuqxpk6j6KQcyKvsULfL3z33RvTKl32G4EvhbW6rixsxU11UpLH7
-iollEYzJqPI03Xh0LvwlOQoh5HhLA9SQgj+KjZuulEHDDdbRjsnwAPAAmk9mKourL8IeB86cFae5
-vLNlRYt7VcPq3KcZooQ8r6803VyRwOoO1NNCyrtKGxTL/F9+7HYDMdJ5tCOVEPQ1b0l+C2+kr6QM
-KFZPNHdcg48m4pKbvu1b2W+BOU3O3Rl6HwATwRhBt4X1HEbAVN71BP3hqmWwNpIQsp2tYST5jz8F
-17qE5Hy9BgcuMsyD1aW5QgomQfb2TlzjCaDLxdAT+39M97TYGdxLPK7JYCtDyuxqMQqAW+itd+iE
-YLoh+CK5EZesoSpYNIoXwELiEpPGr3f5QVPumw/0d9/OkAG75DwXRJ6Vwf3SvN6HydRR4PaZIvta
-yKnb0dgJUd9CnnQYBxEQD/hZYyN/WC7KMAQQ0gdSDaR3sIoBMyxiJDpBrwaspOaY/tF52hSTw7I+
-hohqIdASYvYiizMASs1AZdPztzCkcO1CFkwoBn1cM5QKBxCmjl5m7ySk3Lsl4o5fwytGUPdHAws8
-f7U1ODHJeBK2BnXdg6ZTEFiAGCqJuOMa2dQ9asdp5VbDxztHt6JZlKeXayO9gIscQCFpFuXwc15i
-EDI0PKSIwWSY1tifVxDF46IYqr9dQ6Tmd0yIfzDZgVZdZ4P6SQULhykHmpEiaNM0ew05kR4fqqhG
-9My6VmRRgLuwze7yZ+3prKzq9QxNbC4ZrmCc/29zUSuJUsPueicB+0PTWEQ9dQcxAWB+3C0q6hRB
-RYIBI5HH08xwxSrmbVbb8L585o0X2SKeB8EFD+UftbGJkU4IWaLzvT+qJT3T3EZbLXHWsjkAWEyA
-tIZDheEpwv8V4xIHxOH5u44F9RiDi75yxAFiMRjPqv3J2IDCnz4qkD4gZhRPKAwqOwMX6Yto6v2j
-phBWme7c+eUrumPOEzwNhf8LtkTpl/sQx2n4hJUPeFigqSEc6x/yjpVv0Ym/KkzCdBgjHtKNQ5Yh
-MN5V4pk3dXIObhj93xKMrvCzaZ5LRgHHEmYP1AOc4Ta2KJalU7+1BTc+A6UNDqVPZhHqFP8jQFk2
-bV59CUSXnqt+8PxJMe5159K8k0N41oovqvR3tiwChrY58APLwZuhfy/wBYuIT7KJlWc0GVyZcTSv
-G0pOJwMv+3sz7cjm33J6Fr4DsxaZ7ZX4Tsj+O7Gf3c7nNiHPW2GNs4WlAxH2KGQb5gtv0rRbu7ho
-BfF2hFHIIc+LjxdOH1VPIoNVAIeYSQTbXYE1gZTDOrUmeRXgygd6cphxeKPW92JyValbzI+s9xSJ
-FxN7mreB4DsYNNfOmKxWkSQ8Gm9QGFZTWW8+yQzhRgoLWENhydyhxDG0dvkFcJWPFNTu3elERTx/
-Y8cCS1KU2eVQqaZkzDiTA5ehHZHMwJc/pXwcp3k16NPw38Njy/5nHwBYd5LuZx0H6hlYvuQr4oOM
-0GMylRGHNBusLDb3M0uVEssNncHw57a1//VfkM5S5QQ+4KfhugF/NdbJIEZNV/gB2EiaabXStaF6
-oNQNZJg4A3UBPfJPpCvsVjJH87pmXQqZQogrpky6FR1YGJVkFnhSHwtNDcFW/2F/1wQJZ02ChaKh
-kAVU8ZtIl9qD2foSZ7EzrXQza6A/Y8dp4LoSl+ZdQgMhIdZ6CqhlQglPr0Ga/iFyAYCCyvn079I4
-h0+qEQ1uz+q5TdoJcIYdDsju6R6dE7BO8MltsLSd1sPxUcy4ZdCSP4W/zr5ZplLfm1XFk4L/7lhS
-XtdU6CYnf75p/98baBjHAhmU2094K/HDvpLS7U6AJIlvQi5hv0tp2v/JLcu0woCxOkczbXzI2eXJ
-TCnU10wIOa2CBfA8CQcbOrsOCphDRqrHlS73S2+V+lDkxdyYe4RVmBYWhMjtA14WejfqC4BDv5gE
-nKkWHPJTwmwft1s4bnw55fptpT0wqv/HVWjzcObjWe6MKyNI4PumJG/tgVoFcVxYpPl7WUyaJDcD
-B0QGAQtH3BgxIeE3/ph1ni55T03Q7z+GH4fMrAXsRNvQ2VMoGrCEKqgEdZbS/Ypagt+MjpXdsbtU
-PM1cXtbDvKcBFjEPI1zl91vyfrX8JnIm6j9X5x/gEpBLkA7D1U++KuNLMbY3cKCdyW/Xyr/wpKwX
-6CB9VavPhe/OogMNjkg4xDHa5FobXzEKeuYcV1JxVnQ8RijPZh6pa/CX8d9IQP5Ruf2vRI6jzJl2
-0mfkoxdEES+nRdgm/XV03m/4m0elKEe7oiX4lk8CIQceliW/z62baHGDJB0LeEM7Ne1YUcNJmAFI
-xanLVcdWK00DfLNA18Z2/cvXt5vk2iqv9rDnnheDTVCJ7XFSrMZ1OMcp6pPtuPapk0xmMTQF3gui
-xwwcSztsGTwIinGbV1bB2sudnOiJA51fbUKn0c428BT8LuXQG6EjssfAFxc8JrnhAvAz0gHiMxE2
-Fvu4CJhGVNYA1Ou3KZFRZbzIlbV3bbwTyo2BXttzxDRRjLRFl92bkkQ89I3QeoL+cjfCMxDRw9YP
-IYxwvn8hCJOqVnNn+WJJ04ZQo7/Oufk34DmnzGmXVmL3pTOL2dtYEiHgBfY+G8P7iDLcSuwJznWr
-a+NgfaElgkxcU3Gi/NkFsuTx4z3q6vPh8BMSkozcZ9p0EeJkTuQ54BP5M2ztx2VsXE/TabX5R+Bq
-U93P1Ogge2hzV2h9H0W0w47Ucf4fxCgKsZ4YTjZVpxa6ivdDZkdPiZqVvTKNljUeO9eSMA4QmZgU
-dLnQaf6C9LoDG6XvtTkulAUp650n8w9edmtLroQuAndQaPv8f+Y9cOEQBZg30cE2zeEj7+xGEAxV
-Ac5+uhHW2T0ekOFnwgb4fZvaj6B93LRjqfRNZxQ8bqQr3c6QPzvXOq+xrcLgY/LwDp/XqSysOlQj
-FtAPfacnjSCkr5B+J0EnDB7/34abI4J3BtdSp7ZIDe0kBf9CPE3+VkSFeOn1gCWNLCPiC11nfZLb
-y/w/av+HU8wn/oR2h4Wjufpkh3HsCwOCXWko7LUoH91i8LHQWuKNAPH1151PvooxsEPaM6WJgNUa
-kWkq6B261HmncgVJUf3wQMKYBywWGZibQXy3QP8v6wVMud9g8xvAgixEdl82O3jSi4IP3e6lji2g
-1imYuSJIeal/ImXTTfgdQUhrbiyjZQelb6x5S6RlYsf2Vkmu+iy0edUnKrcNV4oc5+pe8OYyfdHB
-586XSgbMUMcX2BKc3tfUWtHgF//j2PQWq50oQSFPOKvtb6IWFk3k1zr5SFinNUkx4I1o92pEopNL
-xmGuIgY6W2Ni5MB3wUIRKuzxIfbTbVHFidHagvCQgfNHSAfjEjy9CG7bV6H+WDwVsTQnatiNsIrF
-vGeI0jUsFSc4gBuVtvSVRrIyys5U+I35EVOqzH2OTT21hGgHbZ5lEvIf3BxUlYIO9bNOmKJSfpJ3
-69hb7GwQrMxOxndrZ/G0oF50jAvN0wNqhTlMcTF0j1wGMClg8OxEhIskP4iza5+A3CBftbOZebfJ
-r5I3jfnBc3M1Q8hNsmAZbDTZpCgphDo3tCpmlIC0SXnvpj2z2XZY7nY23PGHfxW2/se8tRMy9WoM
-Q3hsuFVjvWgw6P0TV2rSFUB8u1eOtcQMjUoZBGQSfbPUtN7r968qNGZ5L2Y7cnNNSCpv7vwsZFVQ
-ysJnz9tebBhl/ESV2BUUrasCFiV0k6r+PyPUvLUk2Q232DP7IbBewoXJgcarXgNQ+g4sv2EgTwWc
-5Ct6qiajTM70VtNdMZfEdBLGJw4M2eTOaRr9f5wTDumWd82tH6yonyxvE4fHFinzs2CmQtqjSnhg
-zwkdMcaVwJhJQJMGynZk9oX498sfkh+1X2zS/qGNeT12eqqDt410eeH2eEkl7d0bMIv7YbQD2Yeo
-u1CZ5hXKn99n/Y2RLdgK+XX0ZHw3oMNu2QtYnXgXUMKIJ7+roQZN3ueuertuEq4d8Hki7DIVk9Kk
-sLDZcb3kqMoVh3ko8xgfxBvGLwbwedwRchZrIPPo3AHRRlLpdIzd8Fp7aOnxTyUKt10C/vGrPBCl
-+4Qo6YLgvW5kDiyu/KvhsdodO+Ni6Uoi9pDwJggVVDxO9ldHVHlUUpLdlraGhLA3upRlNo5YFnBj
-g3EovM7Z02V4fh75bKoznl9Z1edJVTFxedbXkQx8qccV90Xf7rds8ke+LTNLnO+cWrFjhz1h7mmX
-GS8wTxmv5XTx+BwhMAf9B8I7yCDEYADXDCVKs81NYfL24HF8b3XvNJ9LYTRUwLY65TDuv0MnRl/e
-v67lfwUVQzpNTAY5tVB+KI5+WXe6DHsI8q7PaK+4eH4bOhLr13IhXWJHz3s5g1x25IZuZos1ImGO
-99Kq/TnwEm9UqrFpGl/UtAw+B02/bT8+F/xyRRE+EKJWf1pNbg7wlTo5i0S6u81KUraMGdvCyIPX
-4bwxukyY7lUu30Jr4IkNfhAAD6yAZncNFU6M7A2geJdqQBwrVZ93jFBBZTWqbQUXNRRS0lTK3hbK
-jnKrhsquC3QLqvrMO2ZB4jIubV/7duSkkLsh/K2Rk7LKPUp52marFSiSsnuFCnyk36qUZ4aW6QpX
-JmnNdcvunHE0r5CEcXo4Fq6tK1lrh7fTnWP3/oiutNMJjVw8JVATfs0GnnzicFAbqf9YvKpY6OUq
-kHn7S8aLJI8bFPPc95+anxPQl6I15jAHSsPDxM8Dhdvwv9YCtNgmRZJIbsBPeQwr7OjPzhGlxOyv
-IzUhlKjOjhk2Um1HAcOlDTwrviatEccWHfwvigsTYoJGdHmv9CFY6wahBgTPaOHLOEji308fFP+U
-samZKzuUt2Hnb2OuHrQKKyObY5MyKxveBWU6g2qcD4PivJKG+a2CKt9VnCcg9C/GKIEHsEgM3YCR
-c7FjYlMkf+oGHILsyCbzbomDCxlDOrPba1mnQcdIlGq+ILaAG7IijmCooDcxvwSV4WxNyO9tC6mp
-gKNlzOLgivBz/ALkjI/GNbzzbx1KPedzLnMRkf5DXaS5TNPPrtxoG8pXoAOihaqsYldnZ0b81oDm
-S1rg7w+8N11i8w76gfWlPDXXgbYGPSqeSg8F/ubXRJjK0Y53/8cdx+oSONfViN3cNX8Dm/adWmMS
-pwKx3G/zwLoLLD1RGTspPD39MLvro9s/NmO+Fil5mo8fq4QauFUH8WqRq6hJAlF+cyKD6b4TR5sd
-MOcQa1maLlvTCpggeV51yJD2O7NILJ86xi69U8qTDRanwCZao8Cix0jB/a5+NGTXL4agdvOhBmRs
-4CVOcMj5T/tmPifZZYW2ATybTq/S+mU7uVmSlY+Jpp1OVLI7JHk/9QIDqDXm1p/9nEcvEAIP6tQk
-69LVdmICKNwDWLnEyrugmVb4hVLqyKM3PRvPjgdSi74G7zqxcSpthiGXQnR+vvKspTsBq4WzSwHw
-f1Winwu2V6RA9Fs0aFzpOXkFlwy1I8Ey0Xhi8nGTtUwfd31xb5zHgXFdpwagkwRjnEeI9i9piiPh
-dfNiHTzxve/YuQA06zxrA+Tcd+FPzyFn7ZqkxgiAxMrjfqei9jL3gPStmywnSUGoxnEN9q2mPbio
-hqViz/jYJShOQaJ6iRguoSVL0Jyf4ahs4VGwmSefioeS9kNOta5aHvBL+VzvA0G4LxSI8bmtsdp1
-TVOSDtGfp5VfkJ5XOJi4/pDW6V98epjMTT5hVplJmiqZrBc4emwENZJGQ6BKHplBTZzXdbPWqITN
-vRMX9ohsTUa809luZyz8DfvmCYbR+Gtiq8cjK1s3ywmd04h/S5075lENBZJlgeydD8i41fA07R/e
-V36YPfPUYsUJkGfCEYylyBq2wQyfctc38iDAxbaRvE6Zve8XQ996xlfLpRXYe9yrtAwHIsX/mhtC
-7qchPS6NBMMQCJ/SZm1/6b7rKk+7CYjlE1DII7xmjHwyZiSWj5ffbrvFK4VS54ej7kPSueJ7flAw
-bKdtTgumGWjpPshDWPzfn+aU7spOu2CAaVklnZbdfyLdPSh0VYEq4Z5tpXPYRkoYYFWCxfKQ4yz7
-zBx/VmPqorStPcbwH/qJoIUUKRc23+UcuUzYP/r/0o/lpj4TpPbXGzwhcz2nfiwC3SdSu7yf7T0x
-m0Kx3doyMObjTm9o4lRyhcypNqTxzWx9JTa4TrIM67U2g5cX1WQxodb3fSDJoU2pCytIJkrxfqA6
-mdtr1x85y8xBUwPsHe5iYhllytHfBQUXiJ0ak76QrRhPsdoOUoHNl87QdZcabF1ikE0VCi0jv2Tn
-a/L3PFxRabSMaZaveW6WnPXiJ3QwGHbwrWCCB9/Zn/g/t6k0791+RlPyoWyT6coDn9V54ncmjiG2
-Qg1Kz7p9Bskj7rf3yZlC0a4Sq0EpBdvO6qX3GntSxlXcidFrt58AeDvS0nRCbXJnjq2O1qpWM8zg
-pEMroD+E/XCTsd1luD58JkLR4V7T7eD22g9VKYdyNhFKaRHel/t6/sWgmKoBuiSp+56+ybWd9cOG
-m8lRqE0lDl4DDXT8zi/MpjkiZt6bs1o3LiGJTMob6FqOjgYE8oSXHkN18nTOcPvFhCUUK013GPBd
-IbIlOX9DpARaBssKxgWSXoCwNjtkxlYkynABmSmvNtp/DYP8aC3SW056yVQQz/yHzqJta5J7+0I9
-zAp1N7yu8DY77n18q4asHyXearAWRAXeB4GkH8vHAsT9iUILUr0WP7+Co744u635PABP5M2jNiD3
-/yH+WJbCrXOgoO2BrT2YxQLDIkhVzUvSfNeQPx5XqBNOUKMTqWLnWlBDEXg8S/auSa9I5QLnnLzN
-IEZ5rH4BSIqhukDZwo5KQh2StKxWxFn9wZXNc2dAT/6BMYDtBNuF8OOFM1nVo2K44GHEQPrnLrQs
-jCyuHj42e+G0A9aZPtD0pZvQ+7y3iQ5FKBbOTvLlcjVNXISgTPjZ5Ts74tpRLCQE15bElpd9eXZF
-O+UMRKlkSeSNVLPvoaUlRiGkHZJ3/hIxayxDJ4UTaYqrbIpDMdgg/DOH5RQNvUv5MO7we5VVYpkl
-EXY4DDWz0E+ctjH1TrAjEpxFQD3PhoYS9CX9/LgEGmVjsZyDmVMxx0wSGYi38JktbDItFtSGt561
-ACaHMcPpEuzEkxoZucQ9/9RrHTd7IKOc9FLrroUx4ZG5UvFx9JelZi9WbKQvYUJg7UEqmVbN4YSa
-1VFcUB/+ulr953X6S0IGjDlobob2+I1Ixp1WZkBmuXNtyzqoVSAW4cuqv2gD0yGwyblF+qGCI9jT
-59fJLt0pU7/Rk79o/TtITPJPG2UaWPseoooQx9MIDpWk8aC1smWMhMaOC5u9MZRm5fm0NzPrMOeI
-DrJWzWN4V248xzFO1Lip3fCzqhutq6yVOCAnm4jrIgk1xucavCgyXhJ9HV1vEeYy/KIL4n05CtaC
-/6tp8Y9PuAElgKb+oEaof+mxVdvCzybmymLMAVVzk+Fi4iQrqubgWZ1eS5HLT8cF1hQA8+DlsD59
-7Pq6dGU5fNU5+Nctu/JEf4US0pF5N8x8ezp/w17DAU6QkwuaXIC9cZa8udG9f9/pW0jUsNRTKYIQ
-cnU43KfWG3lJZ8kLq0DMWikxMKE85Bhrom597Qz7YI94lxAlKUDitCw8Mof0y9OQqxcj1uazhCW7
-3xmVNFXj3rUk/SM9dAMFRj9vZMWACLZKI6JCHViKjtGfZhfZD55J1044Sf9zPrn9mrcR4Rgw4yWK
+<?php
+
+/**
+ * BCMath Barrett Modular Exponentiation Engine
+ *
+ * PHP version 5 and 7
+ *
+ * @category  Math
+ * @package   BigInteger
+ * @author    Jim Wigginton <terrafrost@php.net>
+ * @copyright 2017 Jim Wigginton
+ * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      http://pear.php.net/package/Math_BigInteger
+ */
+
+namespace phpseclib3\Math\BigInteger\Engines\BCMath\Reductions;
+
+use phpseclib3\Math\BigInteger\Engines\BCMath\Base;
+
+/**
+ * PHP Barrett Modular Exponentiation Engine
+ *
+ * @package PHP
+ * @author  Jim Wigginton <terrafrost@php.net>
+ * @access  public
+ */
+abstract class Barrett extends Base
+{
+    /**
+     * Cache constants
+     *
+     * $cache[self::VARIABLE] tells us whether or not the cached data is still valid.
+     *
+     * @access private
+     */
+    const VARIABLE = 0;
+    /**
+     * $cache[self::DATA] contains the cached data.
+     *
+     * @access private
+     */
+    const DATA = 1;
+
+    /**
+     * Barrett Modular Reduction
+     *
+     * See {@link http://www.cacr.math.uwaterloo.ca/hac/about/chap14.pdf#page=14 HAC 14.3.3} /
+     * {@link http://math.libtomcrypt.com/files/tommath.pdf#page=165 MPM 6.2.5} for more information.  Modified slightly,
+     * so as not to require negative numbers (initially, this script didn't support negative numbers).
+     *
+     * Employs "folding", as described at
+     * {@link http://www.cosic.esat.kuleuven.be/publications/thesis-149.pdf#page=66 thesis-149.pdf#page=66}.  To quote from
+     * it, "the idea [behind folding] is to find a value x' such that x (mod m) = x' (mod m), with x' being smaller than x."
+     *
+     * Unfortunately, the "Barrett Reduction with Folding" algorithm described in thesis-149.pdf is not, as written, all that
+     * usable on account of (1) its not using reasonable radix points as discussed in
+     * {@link http://math.libtomcrypt.com/files/tommath.pdf#page=162 MPM 6.2.2} and (2) the fact that, even with reasonable
+     * radix points, it only works when there are an even number of digits in the denominator.  The reason for (2) is that
+     * (x >> 1) + (x >> 1) != x / 2 + x / 2.  If x is even, they're the same, but if x is odd, they're not.  See the in-line
+     * comments for details.
+     *
+     * @param string $n
+     * @param string $m
+     * @return array|string
+     */
+    protected static function reduce($n, $m)
+    {
+        static $cache = [
+            self::VARIABLE => [],
+            self::DATA => []
+        ];
+
+        $m_length = strlen($m);
+
+        if (strlen($n) > 2 * $m_length) {
+            return bcmod($n, $m);
+        }
+
+        // if (m.length >> 1) + 2 <= m.length then m is too small and n can't be reduced
+        if ($m_length < 5) {
+            return self::regularBarrett($n, $m);
+        }
+        // n = 2 * m.length
+
+        if (($key = array_search($m, $cache[self::VARIABLE])) === false) {
+            $key = count($cache[self::VARIABLE]);
+            $cache[self::VARIABLE][] = $m;
+
+            $lhs = '1' . str_repeat('0', $m_length + ($m_length >> 1));
+            $u = bcdiv($lhs, $m, 0);
+            $m1 = bcsub($lhs, bcmul($u, $m));
+
+            $cache[self::DATA][] = [
+                'u' => $u, // m.length >> 1 (technically (m.length >> 1) + 1)
+                'm1'=> $m1 // m.length
+            ];
+        } else {
+            extract($cache[self::DATA][$key]);
+        }
+
+        $cutoff = $m_length + ($m_length >> 1);
+
+        $lsd = substr($n, -$cutoff);
+        $msd = substr($n, 0, -$cutoff);
+
+        $temp = bcmul($msd, $m1); // m.length + (m.length >> 1)
+        $n = bcadd($lsd, $temp); // m.length + (m.length >> 1) + 1 (so basically we're adding two same length numbers)
+        //if ($m_length & 1) {
+        //    return self::regularBarrett($n, $m);
+        //}
+
+        // (m.length + (m.length >> 1) + 1) - (m.length - 1) == (m.length >> 1) + 2
+        $temp = substr($n, 0, -$m_length + 1);
+        // if even: ((m.length >> 1) + 2) + (m.length >> 1) == m.length + 2
+        // if odd:  ((m.length >> 1) + 2) + (m.length >> 1) == (m.length - 1) + 2 == m.length + 1
+        $temp = bcmul($temp, $u);
+        // if even: (m.length + 2) - ((m.length >> 1) + 1) = m.length - (m.length >> 1) + 1
+        // if odd:  (m.length + 1) - ((m.length >> 1) + 1) = m.length - (m.length >> 1)
+        $temp = substr($temp, 0, -($m_length >> 1) - 1);
+        // if even: (m.length - (m.length >> 1) + 1) + m.length = 2 * m.length - (m.length >> 1) + 1
+        // if odd:  (m.length - (m.length >> 1)) + m.length     = 2 * m.length - (m.length >> 1)
+        $temp = bcmul($temp, $m);
+
+        // at this point, if m had an odd number of digits, we'd be subtracting a 2 * m.length - (m.length >> 1) digit
+        // number from a m.length + (m.length >> 1) + 1 digit number.  ie. there'd be an extra digit and the while loop
+        // following this comment would loop a lot (hence our calling _regularBarrett() in that situation).
+
+        $result = bcsub($n, $temp);
+
+        //if (bccomp($result, '0') < 0) {
+        if ($result[0] == '-') {
+            $temp = '1' . str_repeat('0', $m_length + 1);
+            $result = bcadd($result, $temp);
+        }
+
+        while (bccomp($result, $m) >= 0) {
+            $result = bcsub($result, $m);
+        }
+
+        return $result;
+    }
+
+    /**
+     * (Regular) Barrett Modular Reduction
+     *
+     * For numbers with more than four digits BigInteger::_barrett() is faster.  The difference between that and this
+     * is that this function does not fold the denominator into a smaller form.
+     *
+     * @param string $x
+     * @param string $n
+     * @return string
+     */
+    private static function regularBarrett($x, $n)
+    {
+        static $cache = [
+            self::VARIABLE => [],
+            self::DATA => []
+        ];
+
+        $n_length = strlen($n);
+
+        if (strlen($x) > 2 * $n_length) {
+            return bcmod($x, $n);
+        }
+
+        if (($key = array_search($n, $cache[self::VARIABLE])) === false) {
+            $key = count($cache[self::VARIABLE]);
+            $cache[self::VARIABLE][] = $n;
+            $lhs = '1' . str_repeat('0', 2 * $n_length);
+            $cache[self::DATA][] = bcdiv($lhs, $n, 0);
+        }
+
+        $temp = substr($x, 0, -$n_length + 1);
+        $temp = bcmul($temp, $cache[self::DATA][$key]);
+        $temp = substr($temp, 0, -$n_length - 1);
+
+        $r1 = substr($x, -$n_length - 1);
+        $r2 = substr(bcmul($temp, $n), -$n_length - 1);
+        $result = bcsub($r1, $r2);
+
+        //if (bccomp($result, '0') < 0) {
+        if ($result[0] == '-') {
+            $q = '1' . str_repeat('0', $n_length + 1);
+            $result = bcadd($result, $q);
+        }
+
+        while (bccomp($result, $n) >= 0) {
+            $result = bcsub($result, $n);
+        }
+
+        return $result;
+    }
+}

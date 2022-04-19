@@ -1,66 +1,88 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Sheets;
+
+class BatchUpdateValuesByDataFilterResponse extends \Google\Collection
+{
+  protected $collection_key = 'responses';
+  protected $responsesType = UpdateValuesByDataFilterResponse::class;
+  protected $responsesDataType = 'array';
+  public $spreadsheetId;
+  public $totalUpdatedCells;
+  public $totalUpdatedColumns;
+  public $totalUpdatedRows;
+  public $totalUpdatedSheets;
+
+  /**
+   * @param UpdateValuesByDataFilterResponse[]
+   */
+  public function setResponses($responses)
+  {
+    $this->responses = $responses;
+  }
+  /**
+   * @return UpdateValuesByDataFilterResponse[]
+   */
+  public function getResponses()
+  {
+    return $this->responses;
+  }
+  public function setSpreadsheetId($spreadsheetId)
+  {
+    $this->spreadsheetId = $spreadsheetId;
+  }
+  public function getSpreadsheetId()
+  {
+    return $this->spreadsheetId;
+  }
+  public function setTotalUpdatedCells($totalUpdatedCells)
+  {
+    $this->totalUpdatedCells = $totalUpdatedCells;
+  }
+  public function getTotalUpdatedCells()
+  {
+    return $this->totalUpdatedCells;
+  }
+  public function setTotalUpdatedColumns($totalUpdatedColumns)
+  {
+    $this->totalUpdatedColumns = $totalUpdatedColumns;
+  }
+  public function getTotalUpdatedColumns()
+  {
+    return $this->totalUpdatedColumns;
+  }
+  public function setTotalUpdatedRows($totalUpdatedRows)
+  {
+    $this->totalUpdatedRows = $totalUpdatedRows;
+  }
+  public function getTotalUpdatedRows()
+  {
+    return $this->totalUpdatedRows;
+  }
+  public function setTotalUpdatedSheets($totalUpdatedSheets)
+  {
+    $this->totalUpdatedSheets = $totalUpdatedSheets;
+  }
+  public function getTotalUpdatedSheets()
+  {
+    return $this->totalUpdatedSheets;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(BatchUpdateValuesByDataFilterResponse::class, 'Google_Service_Sheets_BatchUpdateValuesByDataFilterResponse');

@@ -1,61 +1,92 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-mIRYiW1nlBy=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dataproc;
+
+class AutoscalingPolicy extends \Google\Model
+{
+  protected $basicAlgorithmType = BasicAutoscalingAlgorithm::class;
+  protected $basicAlgorithmDataType = '';
+  public $id;
+  public $name;
+  protected $secondaryWorkerConfigType = InstanceGroupAutoscalingPolicyConfig::class;
+  protected $secondaryWorkerConfigDataType = '';
+  protected $workerConfigType = InstanceGroupAutoscalingPolicyConfig::class;
+  protected $workerConfigDataType = '';
+
+  /**
+   * @param BasicAutoscalingAlgorithm
+   */
+  public function setBasicAlgorithm(BasicAutoscalingAlgorithm $basicAlgorithm)
+  {
+    $this->basicAlgorithm = $basicAlgorithm;
+  }
+  /**
+   * @return BasicAutoscalingAlgorithm
+   */
+  public function getBasicAlgorithm()
+  {
+    return $this->basicAlgorithm;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  /**
+   * @param InstanceGroupAutoscalingPolicyConfig
+   */
+  public function setSecondaryWorkerConfig(InstanceGroupAutoscalingPolicyConfig $secondaryWorkerConfig)
+  {
+    $this->secondaryWorkerConfig = $secondaryWorkerConfig;
+  }
+  /**
+   * @return InstanceGroupAutoscalingPolicyConfig
+   */
+  public function getSecondaryWorkerConfig()
+  {
+    return $this->secondaryWorkerConfig;
+  }
+  /**
+   * @param InstanceGroupAutoscalingPolicyConfig
+   */
+  public function setWorkerConfig(InstanceGroupAutoscalingPolicyConfig $workerConfig)
+  {
+    $this->workerConfig = $workerConfig;
+  }
+  /**
+   * @return InstanceGroupAutoscalingPolicyConfig
+   */
+  public function getWorkerConfig()
+  {
+    return $this->workerConfig;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AutoscalingPolicy::class, 'Google_Service_Dataproc_AutoscalingPolicy');

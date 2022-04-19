@@ -1,71 +1,145 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Tk8=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Games\Resource;
+
+use Google\Service\Games\AchievementIncrementResponse;
+use Google\Service\Games\AchievementRevealResponse;
+use Google\Service\Games\AchievementSetStepsAtLeastResponse;
+use Google\Service\Games\AchievementUnlockResponse;
+use Google\Service\Games\AchievementUpdateMultipleRequest;
+use Google\Service\Games\AchievementUpdateMultipleResponse;
+use Google\Service\Games\PlayerAchievementListResponse;
+
+/**
+ * The "achievements" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $gamesService = new Google\Service\Games(...);
+ *   $achievements = $gamesService->achievements;
+ *  </code>
+ */
+class Achievements extends \Google\Service\Resource
+{
+  /**
+   * Increments the steps of the achievement with the given ID for the currently
+   * authenticated player. (achievements.increment)
+   *
+   * @param string $achievementId The ID of the achievement used by this method.
+   * @param int $stepsToIncrement The number of steps to increment.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId A randomly generated numeric ID for each request
+   * specified by the caller. This number is used at the server to ensure that the
+   * request is handled correctly across retries.
+   * @return AchievementIncrementResponse
+   */
+  public function increment($achievementId, $stepsToIncrement, $optParams = [])
+  {
+    $params = ['achievementId' => $achievementId, 'stepsToIncrement' => $stepsToIncrement];
+    $params = array_merge($params, $optParams);
+    return $this->call('increment', [$params], AchievementIncrementResponse::class);
+  }
+  /**
+   * Lists the progress for all your application's achievements for the currently
+   * authenticated player. (achievements.listAchievements)
+   *
+   * @param string $playerId A player ID. A value of `me` may be used in place of
+   * the authenticated player's ID.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string language The preferred language to use for strings returned
+   * by this method.
+   * @opt_param int maxResults The maximum number of achievement resources to
+   * return in the response, used for paging. For any response, the actual number
+   * of achievement resources returned may be less than the specified
+   * `maxResults`.
+   * @opt_param string pageToken The token returned by the previous request.
+   * @opt_param string state Tells the server to return only achievements with the
+   * specified state. If this parameter isn't specified, all achievements are
+   * returned.
+   * @return PlayerAchievementListResponse
+   */
+  public function listAchievements($playerId, $optParams = [])
+  {
+    $params = ['playerId' => $playerId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], PlayerAchievementListResponse::class);
+  }
+  /**
+   * Sets the state of the achievement with the given ID to `REVEALED` for the
+   * currently authenticated player. (achievements.reveal)
+   *
+   * @param string $achievementId The ID of the achievement used by this method.
+   * @param array $optParams Optional parameters.
+   * @return AchievementRevealResponse
+   */
+  public function reveal($achievementId, $optParams = [])
+  {
+    $params = ['achievementId' => $achievementId];
+    $params = array_merge($params, $optParams);
+    return $this->call('reveal', [$params], AchievementRevealResponse::class);
+  }
+  /**
+   * Sets the steps for the currently authenticated player towards unlocking an
+   * achievement. If the steps parameter is less than the current number of steps
+   * that the player already gained for the achievement, the achievement is not
+   * modified. (achievements.setStepsAtLeast)
+   *
+   * @param string $achievementId The ID of the achievement used by this method.
+   * @param int $steps The minimum value to set the steps to.
+   * @param array $optParams Optional parameters.
+   * @return AchievementSetStepsAtLeastResponse
+   */
+  public function setStepsAtLeast($achievementId, $steps, $optParams = [])
+  {
+    $params = ['achievementId' => $achievementId, 'steps' => $steps];
+    $params = array_merge($params, $optParams);
+    return $this->call('setStepsAtLeast', [$params], AchievementSetStepsAtLeastResponse::class);
+  }
+  /**
+   * Unlocks this achievement for the currently authenticated player.
+   * (achievements.unlock)
+   *
+   * @param string $achievementId The ID of the achievement used by this method.
+   * @param array $optParams Optional parameters.
+   * @return AchievementUnlockResponse
+   */
+  public function unlock($achievementId, $optParams = [])
+  {
+    $params = ['achievementId' => $achievementId];
+    $params = array_merge($params, $optParams);
+    return $this->call('unlock', [$params], AchievementUnlockResponse::class);
+  }
+  /**
+   * Updates multiple achievements for the currently authenticated player.
+   * (achievements.updateMultiple)
+   *
+   * @param AchievementUpdateMultipleRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return AchievementUpdateMultipleResponse
+   */
+  public function updateMultiple(AchievementUpdateMultipleRequest $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('updateMultiple', [$params], AchievementUpdateMultipleResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Achievements::class, 'Google_Service_Games_Resource_Achievements');

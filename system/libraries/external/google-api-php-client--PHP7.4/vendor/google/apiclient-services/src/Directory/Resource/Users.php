@@ -1,87 +1,250 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Directory\Resource;
+
+use Google\Service\Directory\Channel;
+use Google\Service\Directory\User;
+use Google\Service\Directory\UserMakeAdmin;
+use Google\Service\Directory\UserUndelete;
+use Google\Service\Directory\Users as UsersModel;
+
+/**
+ * The "users" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $adminService = new Google\Service\Directory(...);
+ *   $users = $adminService->users;
+ *  </code>
+ */
+class Users extends \Google\Service\Resource
+{
+  /**
+   * Deletes a user. (users.delete)
+   *
+   * @param string $userKey Identifies the user in the API request. The value can
+   * be the user's primary email address, alias email address, or unique user ID.
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($userKey, $optParams = [])
+  {
+    $params = ['userKey' => $userKey];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Retrieves a user. (users.get)
+   *
+   * @param string $userKey Identifies the user in the API request. The value can
+   * be the user's primary email address, alias email address, or unique user ID.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string customFieldMask A comma-separated list of schema names. All
+   * fields from these schemas are fetched. This should only be set when
+   * `projection=custom`.
+   * @opt_param string projection What subset of fields to fetch for this user.
+   * @opt_param string viewType Whether to fetch the administrator-only or domain-
+   * wide public view of the user. For more information, see [Retrieve a user as a
+   * non-administrator](/admin-sdk/directory/v1/guides/manage-
+   * users#retrieve_users_non_admin).
+   * @return User
+   */
+  public function get($userKey, $optParams = [])
+  {
+    $params = ['userKey' => $userKey];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], User::class);
+  }
+  /**
+   * Creates a user. (users.insert)
+   *
+   * @param User $postBody
+   * @param array $optParams Optional parameters.
+   * @return User
+   */
+  public function insert(User $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], User::class);
+  }
+  /**
+   * Retrieves a paginated list of either deleted users or all users in a domain.
+   * (users.listUsers)
+   *
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string customFieldMask A comma-separated list of schema names. All
+   * fields from these schemas are fetched. This should only be set when
+   * `projection=custom`.
+   * @opt_param string customer The unique ID for the customer's Google Workspace
+   * account. In case of a multi-domain account, to fetch all groups for a
+   * customer, fill this field instead of domain. You can also use the
+   * `my_customer` alias to represent your account's `customerId`. The
+   * `customerId` is also returned as part of the [Users resource](/admin-
+   * sdk/directory/v1/reference/users). Either the `customer` or the `domain`
+   * parameter must be provided.
+   * @opt_param string domain The domain name. Use this field to get fields from
+   * only one domain. To return all domains for a customer account, use the
+   * `customer` query parameter instead. Either the `customer` or the `domain`
+   * parameter must be provided.
+   * @opt_param string event Event on which subscription is intended (if
+   * subscribing)
+   * @opt_param int maxResults Maximum number of results to return.
+   * @opt_param string orderBy Property to use for sorting results.
+   * @opt_param string pageToken Token to specify next page in the list
+   * @opt_param string projection What subset of fields to fetch for this user.
+   * @opt_param string query Query string for searching user fields. For more
+   * information on constructing user queries, see [Search for Users](/admin-
+   * sdk/directory/v1/guides/search-users).
+   * @opt_param string showDeleted If set to `true`, retrieves the list of deleted
+   * users. (Default: `false`)
+   * @opt_param string sortOrder Whether to return results in ascending or
+   * descending order.
+   * @opt_param string viewType Whether to fetch the administrator-only or domain-
+   * wide public view of the user. For more information, see [Retrieve a user as a
+   * non-administrator](/admin-sdk/directory/v1/guides/manage-
+   * users#retrieve_users_non_admin).
+   * @return UsersModel
+   */
+  public function listUsers($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], UsersModel::class);
+  }
+  /**
+   * Makes a user a super administrator. (users.makeAdmin)
+   *
+   * @param string $userKey Identifies the user in the API request. The value can
+   * be the user's primary email address, alias email address, or unique user ID.
+   * @param UserMakeAdmin $postBody
+   * @param array $optParams Optional parameters.
+   */
+  public function makeAdmin($userKey, UserMakeAdmin $postBody, $optParams = [])
+  {
+    $params = ['userKey' => $userKey, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('makeAdmin', [$params]);
+  }
+  /**
+   * Updates a user using patch semantics. The update method should be used
+   * instead, since it also supports patch semantics and has better performance.
+   * This method is unable to clear fields that contain repeated objects
+   * (`addresses`, `phones`, etc). Use the update method instead. (users.patch)
+   *
+   * @param string $userKey Identifies the user in the API request. The value can
+   * be the user's primary email address, alias email address, or unique user ID.
+   * @param User $postBody
+   * @param array $optParams Optional parameters.
+   * @return User
+   */
+  public function patch($userKey, User $postBody, $optParams = [])
+  {
+    $params = ['userKey' => $userKey, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], User::class);
+  }
+  /**
+   * Sign a user out of all web and device sessions and reset their sign-in
+   * cookies. User will have to sign in by authenticating again. (users.signOut)
+   *
+   * @param string $userKey Identifies the target user in the API request. The
+   * value can be the user's primary email address, alias email address, or unique
+   * user ID.
+   * @param array $optParams Optional parameters.
+   */
+  public function signOut($userKey, $optParams = [])
+  {
+    $params = ['userKey' => $userKey];
+    $params = array_merge($params, $optParams);
+    return $this->call('signOut', [$params]);
+  }
+  /**
+   * Undeletes a deleted user. (users.undelete)
+   *
+   * @param string $userKey The immutable id of the user
+   * @param UserUndelete $postBody
+   * @param array $optParams Optional parameters.
+   */
+  public function undelete($userKey, UserUndelete $postBody, $optParams = [])
+  {
+    $params = ['userKey' => $userKey, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('undelete', [$params]);
+  }
+  /**
+   * Updates a user. This method supports patch semantics, meaning you only need
+   * to include the fields you wish to update. Fields that are not present in the
+   * request will be preserved, and fields set to `null` will be cleared.
+   * (users.update)
+   *
+   * @param string $userKey Identifies the user in the API request. The value can
+   * be the user's primary email address, alias email address, or unique user ID.
+   * @param User $postBody
+   * @param array $optParams Optional parameters.
+   * @return User
+   */
+  public function update($userKey, User $postBody, $optParams = [])
+  {
+    $params = ['userKey' => $userKey, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], User::class);
+  }
+  /**
+   * Watch for changes in users list (users.watch)
+   *
+   * @param Channel $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string customFieldMask Comma-separated list of schema names. All
+   * fields from these schemas are fetched. This should only be set when
+   * projection=custom.
+   * @opt_param string customer Immutable ID of the Google Workspace account. In
+   * case of multi-domain, to fetch all users for a customer, fill this field
+   * instead of domain.
+   * @opt_param string domain Name of the domain. Fill this field to get users
+   * from only this domain. To return all users in a multi-domain fill customer
+   * field instead."
+   * @opt_param string event Events to watch for.
+   * @opt_param int maxResults Maximum number of results to return.
+   * @opt_param string orderBy Column to use for sorting results
+   * @opt_param string pageToken Token to specify next page in the list
+   * @opt_param string projection What subset of fields to fetch for this user.
+   * @opt_param string query Query string search. Should be of the form "".
+   * Complete documentation is at https: //developers.google.com/admin-
+   * sdk/directory/v1/guides/search-users
+   * @opt_param string showDeleted If set to true, retrieves the list of deleted
+   * users. (Default: false)
+   * @opt_param string sortOrder Whether to return results in ascending or
+   * descending order.
+   * @opt_param string viewType Whether to fetch the administrator-only or domain-
+   * wide public view of the user. For more information, see [Retrieve a user as a
+   * non-administrator](/admin-sdk/directory/v1/guides/manage-
+   * users#retrieve_users_non_admin).
+   * @return Channel
+   */
+  public function watch(Channel $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('watch', [$params], Channel::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Users::class, 'Google_Service_Directory_Resource_Users');

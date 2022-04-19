@@ -1,66 +1,108 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\GoogleAnalyticsAdmin\Resource;
+
+use Google\Service\GoogleAnalyticsAdmin\GoogleAnalyticsAdminV1alphaGoogleAdsLink;
+use Google\Service\GoogleAnalyticsAdmin\GoogleAnalyticsAdminV1alphaListGoogleAdsLinksResponse;
+use Google\Service\GoogleAnalyticsAdmin\GoogleProtobufEmpty;
+
+/**
+ * The "googleAdsLinks" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $analyticsadminService = new Google\Service\GoogleAnalyticsAdmin(...);
+ *   $googleAdsLinks = $analyticsadminService->googleAdsLinks;
+ *  </code>
+ */
+class PropertiesGoogleAdsLinks extends \Google\Service\Resource
+{
+  /**
+   * Creates a GoogleAdsLink. (googleAdsLinks.create)
+   *
+   * @param string $parent Required. Example format: properties/1234
+   * @param GoogleAnalyticsAdminV1alphaGoogleAdsLink $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleAnalyticsAdminV1alphaGoogleAdsLink
+   */
+  public function create($parent, GoogleAnalyticsAdminV1alphaGoogleAdsLink $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleAnalyticsAdminV1alphaGoogleAdsLink::class);
+  }
+  /**
+   * Deletes a GoogleAdsLink on a property (googleAdsLinks.delete)
+   *
+   * @param string $name Required. Example format:
+   * properties/1234/googleAdsLinks/5678
+   * @param array $optParams Optional parameters.
+   * @return GoogleProtobufEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
+  }
+  /**
+   * Lists GoogleAdsLinks on a property.
+   * (googleAdsLinks.listPropertiesGoogleAdsLinks)
+   *
+   * @param string $parent Required. Example format: properties/1234
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The maximum number of resources to return. If
+   * unspecified, at most 50 resources will be returned. The maximum value is 200
+   * (higher values will be coerced to the maximum).
+   * @opt_param string pageToken A page token, received from a previous
+   * `ListGoogleAdsLinks` call. Provide this to retrieve the subsequent page. When
+   * paginating, all other parameters provided to `ListGoogleAdsLinks` must match
+   * the call that provided the page token.
+   * @return GoogleAnalyticsAdminV1alphaListGoogleAdsLinksResponse
+   */
+  public function listPropertiesGoogleAdsLinks($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleAnalyticsAdminV1alphaListGoogleAdsLinksResponse::class);
+  }
+  /**
+   * Updates a GoogleAdsLink on a property (googleAdsLinks.patch)
+   *
+   * @param string $name Output only. Format:
+   * properties/{propertyId}/googleAdsLinks/{googleAdsLinkId} Note:
+   * googleAdsLinkId is not the Google Ads customer ID.
+   * @param GoogleAnalyticsAdminV1alphaGoogleAdsLink $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. The list of fields to be updated.
+   * Field names must be in snake case (e.g., "field_to_update"). Omitted fields
+   * will not be updated. To replace the entire entity, use one path with the
+   * string "*" to match all fields.
+   * @return GoogleAnalyticsAdminV1alphaGoogleAdsLink
+   */
+  public function patch($name, GoogleAnalyticsAdminV1alphaGoogleAdsLink $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], GoogleAnalyticsAdminV1alphaGoogleAdsLink::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PropertiesGoogleAdsLinks::class, 'Google_Service_GoogleAnalyticsAdmin_Resource_PropertiesGoogleAdsLinks');

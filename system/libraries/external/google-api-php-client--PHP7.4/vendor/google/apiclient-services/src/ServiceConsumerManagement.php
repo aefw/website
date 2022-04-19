@@ -1,65 +1,272 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Pg4LAzAhrF4FLm==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for ServiceConsumerManagement (v1).
+ *
+ * <p>
+ * Manages the service consumers of a Service Infrastructure service.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/service-consumer-management/docs/overview" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class ServiceConsumerManagement extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+
+  public $operations;
+  public $services;
+  public $services_tenancyUnits;
+
+  /**
+   * Constructs the internal representation of the ServiceConsumerManagement
+   * service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://serviceconsumermanagement.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'serviceconsumermanagement';
+
+    $this->operations = new ServiceConsumerManagement\Resource\Operations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'cancel' => [
+              'path' => 'v1/{+name}:cancel',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->services = new ServiceConsumerManagement\Resource\Services(
+        $this,
+        $this->serviceName,
+        'services',
+        [
+          'methods' => [
+            'search' => [
+              'path' => 'v1/{+parent}:search',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'query' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->services_tenancyUnits = new ServiceConsumerManagement\Resource\ServicesTenancyUnits(
+        $this,
+        $this->serviceName,
+        'tenancyUnits',
+        [
+          'methods' => [
+            'addProject' => [
+              'path' => 'v1/{+parent}:addProject',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'applyProjectConfig' => [
+              'path' => 'v1/{+name}:applyProjectConfig',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'attachProject' => [
+              'path' => 'v1/{+name}:attachProject',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1/{+parent}/tenancyUnits',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'deleteProject' => [
+              'path' => 'v1/{+name}:deleteProject',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/tenancyUnits',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'removeProject' => [
+              'path' => 'v1/{+name}:removeProject',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'undeleteProject' => [
+              'path' => 'v1/{+name}:undeleteProject',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ServiceConsumerManagement::class, 'Google_Service_ServiceConsumerManagement');

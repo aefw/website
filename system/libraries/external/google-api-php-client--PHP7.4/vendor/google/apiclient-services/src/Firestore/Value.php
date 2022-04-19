@@ -1,81 +1,146 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Firestore;
+
+class Value extends \Google\Model
+{
+  protected $arrayValueType = ArrayValue::class;
+  protected $arrayValueDataType = '';
+  public $booleanValue;
+  public $bytesValue;
+  public $doubleValue;
+  protected $geoPointValueType = LatLng::class;
+  protected $geoPointValueDataType = '';
+  public $integerValue;
+  protected $mapValueType = MapValue::class;
+  protected $mapValueDataType = '';
+  public $nullValue;
+  public $referenceValue;
+  public $stringValue;
+  public $timestampValue;
+
+  /**
+   * @param ArrayValue
+   */
+  public function setArrayValue(ArrayValue $arrayValue)
+  {
+    $this->arrayValue = $arrayValue;
+  }
+  /**
+   * @return ArrayValue
+   */
+  public function getArrayValue()
+  {
+    return $this->arrayValue;
+  }
+  public function setBooleanValue($booleanValue)
+  {
+    $this->booleanValue = $booleanValue;
+  }
+  public function getBooleanValue()
+  {
+    return $this->booleanValue;
+  }
+  public function setBytesValue($bytesValue)
+  {
+    $this->bytesValue = $bytesValue;
+  }
+  public function getBytesValue()
+  {
+    return $this->bytesValue;
+  }
+  public function setDoubleValue($doubleValue)
+  {
+    $this->doubleValue = $doubleValue;
+  }
+  public function getDoubleValue()
+  {
+    return $this->doubleValue;
+  }
+  /**
+   * @param LatLng
+   */
+  public function setGeoPointValue(LatLng $geoPointValue)
+  {
+    $this->geoPointValue = $geoPointValue;
+  }
+  /**
+   * @return LatLng
+   */
+  public function getGeoPointValue()
+  {
+    return $this->geoPointValue;
+  }
+  public function setIntegerValue($integerValue)
+  {
+    $this->integerValue = $integerValue;
+  }
+  public function getIntegerValue()
+  {
+    return $this->integerValue;
+  }
+  /**
+   * @param MapValue
+   */
+  public function setMapValue(MapValue $mapValue)
+  {
+    $this->mapValue = $mapValue;
+  }
+  /**
+   * @return MapValue
+   */
+  public function getMapValue()
+  {
+    return $this->mapValue;
+  }
+  public function setNullValue($nullValue)
+  {
+    $this->nullValue = $nullValue;
+  }
+  public function getNullValue()
+  {
+    return $this->nullValue;
+  }
+  public function setReferenceValue($referenceValue)
+  {
+    $this->referenceValue = $referenceValue;
+  }
+  public function getReferenceValue()
+  {
+    return $this->referenceValue;
+  }
+  public function setStringValue($stringValue)
+  {
+    $this->stringValue = $stringValue;
+  }
+  public function getStringValue()
+  {
+    return $this->stringValue;
+  }
+  public function setTimestampValue($timestampValue)
+  {
+    $this->timestampValue = $timestampValue;
+  }
+  public function getTimestampValue()
+  {
+    return $this->timestampValue;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Value::class, 'Google_Service_Firestore_Value');

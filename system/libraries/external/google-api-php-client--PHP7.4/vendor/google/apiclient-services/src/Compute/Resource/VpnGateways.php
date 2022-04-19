@@ -1,89 +1,296 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute\Resource;
+
+use Google\Service\Compute\Operation;
+use Google\Service\Compute\RegionSetLabelsRequest;
+use Google\Service\Compute\TestPermissionsRequest;
+use Google\Service\Compute\TestPermissionsResponse;
+use Google\Service\Compute\VpnGateway;
+use Google\Service\Compute\VpnGatewayAggregatedList;
+use Google\Service\Compute\VpnGatewayList;
+use Google\Service\Compute\VpnGatewaysGetStatusResponse;
+
+/**
+ * The "vpnGateways" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $computeService = new Google\Service\Compute(...);
+ *   $vpnGateways = $computeService->vpnGateways;
+ *  </code>
+ */
+class VpnGateways extends \Google\Service\Resource
+{
+  /**
+   * Retrieves an aggregated list of VPN gateways. (vpnGateways.aggregatedList)
+   *
+   * @param string $project Project ID for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param bool includeAllScopes Indicates whether every visible scope for
+   * each scope type (zone, region, global) should be included in the response.
+   * For new resource types added after this field, the flag has no effect as new
+   * resource types will always include every visible scope for each scope type in
+   * response. For resource types which predate this field, if this flag is
+   * omitted or false, only scopes of the scope types where the resource type is
+   * expected to be found will be included.
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return VpnGatewayAggregatedList
+   */
+  public function aggregatedList($project, $optParams = [])
+  {
+    $params = ['project' => $project];
+    $params = array_merge($params, $optParams);
+    return $this->call('aggregatedList', [$params], VpnGatewayAggregatedList::class);
+  }
+  /**
+   * Deletes the specified VPN gateway. (vpnGateways.delete)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region for this request.
+   * @param string $vpnGateway Name of the VPN gateway to delete.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function delete($project, $region, $vpnGateway, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'vpnGateway' => $vpnGateway];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Returns the specified VPN gateway. Gets a list of available VPN gateways by
+   * making a list() request. (vpnGateways.get)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region for this request.
+   * @param string $vpnGateway Name of the VPN gateway to return.
+   * @param array $optParams Optional parameters.
+   * @return VpnGateway
+   */
+  public function get($project, $region, $vpnGateway, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'vpnGateway' => $vpnGateway];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], VpnGateway::class);
+  }
+  /**
+   * Returns the status for the specified VPN gateway. (vpnGateways.getStatus)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region for this request.
+   * @param string $vpnGateway Name of the VPN gateway to return.
+   * @param array $optParams Optional parameters.
+   * @return VpnGatewaysGetStatusResponse
+   */
+  public function getStatus($project, $region, $vpnGateway, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'vpnGateway' => $vpnGateway];
+    $params = array_merge($params, $optParams);
+    return $this->call('getStatus', [$params], VpnGatewaysGetStatusResponse::class);
+  }
+  /**
+   * Creates a VPN gateway in the specified project and region using the data
+   * included in the request. (vpnGateways.insert)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region for this request.
+   * @param VpnGateway $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function insert($project, $region, VpnGateway $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Operation::class);
+  }
+  /**
+   * Retrieves a list of VPN gateways available to the specified project and
+   * region. (vpnGateways.listVpnGateways)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return VpnGatewayList
+   */
+  public function listVpnGateways($project, $region, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], VpnGatewayList::class);
+  }
+  /**
+   * Sets the labels on a VpnGateway. To learn more about labels, read the
+   * Labeling Resources documentation. (vpnGateways.setLabels)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region The region for this request.
+   * @param string $resource Name or id of the resource for this request.
+   * @param RegionSetLabelsRequest $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function setLabels($project, $region, $resource, RegionSetLabelsRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setLabels', [$params], Operation::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource.
+   * (vpnGateways.testIamPermissions)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region The name of the region for this request.
+   * @param string $resource Name or id of the resource for this request.
+   * @param TestPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestPermissionsResponse
+   */
+  public function testIamPermissions($project, $region, $resource, TestPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestPermissionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(VpnGateways::class, 'Google_Service_Compute_Resource_VpnGateways');

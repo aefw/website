@@ -1,67 +1,171 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-GAgqLqd68G==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DLP\Resource;
+
+use Google\Service\DLP\GooglePrivacyDlpV2CancelDlpJobRequest;
+use Google\Service\DLP\GooglePrivacyDlpV2CreateDlpJobRequest;
+use Google\Service\DLP\GooglePrivacyDlpV2DlpJob;
+use Google\Service\DLP\GooglePrivacyDlpV2ListDlpJobsResponse;
+use Google\Service\DLP\GoogleProtobufEmpty;
+
+/**
+ * The "dlpJobs" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $dlpService = new Google\Service\DLP(...);
+ *   $dlpJobs = $dlpService->dlpJobs;
+ *  </code>
+ */
+class ProjectsDlpJobs extends \Google\Service\Resource
+{
+  /**
+   * Starts asynchronous cancellation on a long-running DlpJob. The server makes a
+   * best effort to cancel the DlpJob, but success is not guaranteed. See
+   * https://cloud.google.com/dlp/docs/inspecting-storage and
+   * https://cloud.google.com/dlp/docs/compute-risk-analysis to learn more.
+   * (dlpJobs.cancel)
+   *
+   * @param string $name Required. The name of the DlpJob resource to be
+   * cancelled.
+   * @param GooglePrivacyDlpV2CancelDlpJobRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleProtobufEmpty
+   */
+  public function cancel($name, GooglePrivacyDlpV2CancelDlpJobRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('cancel', [$params], GoogleProtobufEmpty::class);
+  }
+  /**
+   * Creates a new job to inspect storage or calculate risk metrics. See
+   * https://cloud.google.com/dlp/docs/inspecting-storage and
+   * https://cloud.google.com/dlp/docs/compute-risk-analysis to learn more. When
+   * no InfoTypes or CustomInfoTypes are specified in inspect jobs, the system
+   * will automatically choose what detectors to run. By default this may be all
+   * types, but may change over time as detectors are updated. (dlpJobs.create)
+   *
+   * @param string $parent Required. Parent resource name. The format of this
+   * value varies depending on whether you have [specified a processing
+   * location](https://cloud.google.com/dlp/docs/specifying-location): + Projects
+   * scope, location specified: `projects/`PROJECT_ID`/locations/`LOCATION_ID +
+   * Projects scope, no location specified (defaults to global):
+   * `projects/`PROJECT_ID The following example `parent` string specifies a
+   * parent project with the identifier `example-project`, and specifies the
+   * `europe-west3` location for processing data: parent=projects/example-
+   * project/locations/europe-west3
+   * @param GooglePrivacyDlpV2CreateDlpJobRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GooglePrivacyDlpV2DlpJob
+   */
+  public function create($parent, GooglePrivacyDlpV2CreateDlpJobRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GooglePrivacyDlpV2DlpJob::class);
+  }
+  /**
+   * Deletes a long-running DlpJob. This method indicates that the client is no
+   * longer interested in the DlpJob result. The job will be cancelled if
+   * possible. See https://cloud.google.com/dlp/docs/inspecting-storage and
+   * https://cloud.google.com/dlp/docs/compute-risk-analysis to learn more.
+   * (dlpJobs.delete)
+   *
+   * @param string $name Required. The name of the DlpJob resource to be deleted.
+   * @param array $optParams Optional parameters.
+   * @return GoogleProtobufEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
+  }
+  /**
+   * Gets the latest state of a long-running DlpJob. See
+   * https://cloud.google.com/dlp/docs/inspecting-storage and
+   * https://cloud.google.com/dlp/docs/compute-risk-analysis to learn more.
+   * (dlpJobs.get)
+   *
+   * @param string $name Required. The name of the DlpJob resource.
+   * @param array $optParams Optional parameters.
+   * @return GooglePrivacyDlpV2DlpJob
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GooglePrivacyDlpV2DlpJob::class);
+  }
+  /**
+   * Lists DlpJobs that match the specified filter in the request. See
+   * https://cloud.google.com/dlp/docs/inspecting-storage and
+   * https://cloud.google.com/dlp/docs/compute-risk-analysis to learn more.
+   * (dlpJobs.listProjectsDlpJobs)
+   *
+   * @param string $parent Required. Parent resource name. The format of this
+   * value varies depending on whether you have [specified a processing
+   * location](https://cloud.google.com/dlp/docs/specifying-location): + Projects
+   * scope, location specified: `projects/`PROJECT_ID`/locations/`LOCATION_ID +
+   * Projects scope, no location specified (defaults to global):
+   * `projects/`PROJECT_ID The following example `parent` string specifies a
+   * parent project with the identifier `example-project`, and specifies the
+   * `europe-west3` location for processing data: parent=projects/example-
+   * project/locations/europe-west3
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Allows filtering. Supported syntax: * Filter
+   * expressions are made up of one or more restrictions. * Restrictions can be
+   * combined by `AND` or `OR` logical operators. A sequence of restrictions
+   * implicitly uses `AND`. * A restriction has the form of `{field} {operator}
+   * {value}`. * Supported fields/values for inspect jobs: - `state` -
+   * PENDING|RUNNING|CANCELED|FINISHED|FAILED - `inspected_storage` -
+   * DATASTORE|CLOUD_STORAGE|BIGQUERY - `trigger_name` - The resource name of the
+   * trigger that created job. - 'end_time` - Corresponds to time the job
+   * finished. - 'start_time` - Corresponds to time the job finished. * Supported
+   * fields for risk analysis jobs: - `state` - RUNNING|CANCELED|FINISHED|FAILED -
+   * 'end_time` - Corresponds to time the job finished. - 'start_time` -
+   * Corresponds to time the job finished. * The operator must be `=` or `!=`.
+   * Examples: * inspected_storage = cloud_storage AND state = done *
+   * inspected_storage = cloud_storage OR inspected_storage = bigquery *
+   * inspected_storage = cloud_storage AND (state = done OR state = canceled) *
+   * end_time > \"2017-12-12T00:00:00+00:00\" The length of this field should be
+   * no more than 500 characters.
+   * @opt_param string locationId Deprecated. This field has no effect.
+   * @opt_param string orderBy Comma separated list of fields to order by,
+   * followed by `asc` or `desc` postfix. This list is case-insensitive, default
+   * sorting order is ascending, redundant space characters are insignificant.
+   * Example: `name asc, end_time asc, create_time desc` Supported fields are: -
+   * `create_time`: corresponds to time the job was created. - `end_time`:
+   * corresponds to time the job ended. - `name`: corresponds to job's name. -
+   * `state`: corresponds to `state`
+   * @opt_param int pageSize The standard list page size.
+   * @opt_param string pageToken The standard list page token.
+   * @opt_param string type The type of job. Defaults to `DlpJobType.INSPECT`
+   * @return GooglePrivacyDlpV2ListDlpJobsResponse
+   */
+  public function listProjectsDlpJobs($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GooglePrivacyDlpV2ListDlpJobsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsDlpJobs::class, 'Google_Service_DLP_Resource_ProjectsDlpJobs');

@@ -1,69 +1,97 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Cloudbilling;
+
+class PricingExpression extends \Google\Collection
+{
+  protected $collection_key = 'tieredRates';
+  public $baseUnit;
+  public $baseUnitConversionFactor;
+  public $baseUnitDescription;
+  public $displayQuantity;
+  protected $tieredRatesType = TierRate::class;
+  protected $tieredRatesDataType = 'array';
+  public $usageUnit;
+  public $usageUnitDescription;
+
+  public function setBaseUnit($baseUnit)
+  {
+    $this->baseUnit = $baseUnit;
+  }
+  public function getBaseUnit()
+  {
+    return $this->baseUnit;
+  }
+  public function setBaseUnitConversionFactor($baseUnitConversionFactor)
+  {
+    $this->baseUnitConversionFactor = $baseUnitConversionFactor;
+  }
+  public function getBaseUnitConversionFactor()
+  {
+    return $this->baseUnitConversionFactor;
+  }
+  public function setBaseUnitDescription($baseUnitDescription)
+  {
+    $this->baseUnitDescription = $baseUnitDescription;
+  }
+  public function getBaseUnitDescription()
+  {
+    return $this->baseUnitDescription;
+  }
+  public function setDisplayQuantity($displayQuantity)
+  {
+    $this->displayQuantity = $displayQuantity;
+  }
+  public function getDisplayQuantity()
+  {
+    return $this->displayQuantity;
+  }
+  /**
+   * @param TierRate[]
+   */
+  public function setTieredRates($tieredRates)
+  {
+    $this->tieredRates = $tieredRates;
+  }
+  /**
+   * @return TierRate[]
+   */
+  public function getTieredRates()
+  {
+    return $this->tieredRates;
+  }
+  public function setUsageUnit($usageUnit)
+  {
+    $this->usageUnit = $usageUnit;
+  }
+  public function getUsageUnit()
+  {
+    return $this->usageUnit;
+  }
+  public function setUsageUnitDescription($usageUnitDescription)
+  {
+    $this->usageUnitDescription = $usageUnitDescription;
+  }
+  public function getUsageUnitDescription()
+  {
+    return $this->usageUnitDescription;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PricingExpression::class, 'Google_Service_Cloudbilling_PricingExpression');

@@ -1,72 +1,138 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Storagetransfer;
+
+class TransferSpec extends \Google\Model
+{
+  protected $awsS3DataSourceType = AwsS3Data::class;
+  protected $awsS3DataSourceDataType = '';
+  protected $azureBlobStorageDataSourceType = AzureBlobStorageData::class;
+  protected $azureBlobStorageDataSourceDataType = '';
+  protected $gcsDataSinkType = GcsData::class;
+  protected $gcsDataSinkDataType = '';
+  protected $gcsDataSourceType = GcsData::class;
+  protected $gcsDataSourceDataType = '';
+  protected $httpDataSourceType = HttpData::class;
+  protected $httpDataSourceDataType = '';
+  protected $objectConditionsType = ObjectConditions::class;
+  protected $objectConditionsDataType = '';
+  protected $transferOptionsType = TransferOptions::class;
+  protected $transferOptionsDataType = '';
+
+  /**
+   * @param AwsS3Data
+   */
+  public function setAwsS3DataSource(AwsS3Data $awsS3DataSource)
+  {
+    $this->awsS3DataSource = $awsS3DataSource;
+  }
+  /**
+   * @return AwsS3Data
+   */
+  public function getAwsS3DataSource()
+  {
+    return $this->awsS3DataSource;
+  }
+  /**
+   * @param AzureBlobStorageData
+   */
+  public function setAzureBlobStorageDataSource(AzureBlobStorageData $azureBlobStorageDataSource)
+  {
+    $this->azureBlobStorageDataSource = $azureBlobStorageDataSource;
+  }
+  /**
+   * @return AzureBlobStorageData
+   */
+  public function getAzureBlobStorageDataSource()
+  {
+    return $this->azureBlobStorageDataSource;
+  }
+  /**
+   * @param GcsData
+   */
+  public function setGcsDataSink(GcsData $gcsDataSink)
+  {
+    $this->gcsDataSink = $gcsDataSink;
+  }
+  /**
+   * @return GcsData
+   */
+  public function getGcsDataSink()
+  {
+    return $this->gcsDataSink;
+  }
+  /**
+   * @param GcsData
+   */
+  public function setGcsDataSource(GcsData $gcsDataSource)
+  {
+    $this->gcsDataSource = $gcsDataSource;
+  }
+  /**
+   * @return GcsData
+   */
+  public function getGcsDataSource()
+  {
+    return $this->gcsDataSource;
+  }
+  /**
+   * @param HttpData
+   */
+  public function setHttpDataSource(HttpData $httpDataSource)
+  {
+    $this->httpDataSource = $httpDataSource;
+  }
+  /**
+   * @return HttpData
+   */
+  public function getHttpDataSource()
+  {
+    return $this->httpDataSource;
+  }
+  /**
+   * @param ObjectConditions
+   */
+  public function setObjectConditions(ObjectConditions $objectConditions)
+  {
+    $this->objectConditions = $objectConditions;
+  }
+  /**
+   * @return ObjectConditions
+   */
+  public function getObjectConditions()
+  {
+    return $this->objectConditions;
+  }
+  /**
+   * @param TransferOptions
+   */
+  public function setTransferOptions(TransferOptions $transferOptions)
+  {
+    $this->transferOptions = $transferOptions;
+  }
+  /**
+   * @return TransferOptions
+   */
+  public function getTransferOptions()
+  {
+    return $this->transferOptions;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(TransferSpec::class, 'Google_Service_Storagetransfer_TransferSpec');

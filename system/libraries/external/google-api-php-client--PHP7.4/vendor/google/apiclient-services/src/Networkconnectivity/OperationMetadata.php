@@ -1,67 +1,89 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-UMPFTJyG4PPV0cr6h3kqjo3RZG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Networkconnectivity;
+
+class OperationMetadata extends \Google\Model
+{
+  public $apiVersion;
+  public $createTime;
+  public $endTime;
+  public $requestedCancellation;
+  public $statusMessage;
+  public $target;
+  public $verb;
+
+  public function setApiVersion($apiVersion)
+  {
+    $this->apiVersion = $apiVersion;
+  }
+  public function getApiVersion()
+  {
+    return $this->apiVersion;
+  }
+  public function setCreateTime($createTime)
+  {
+    $this->createTime = $createTime;
+  }
+  public function getCreateTime()
+  {
+    return $this->createTime;
+  }
+  public function setEndTime($endTime)
+  {
+    $this->endTime = $endTime;
+  }
+  public function getEndTime()
+  {
+    return $this->endTime;
+  }
+  public function setRequestedCancellation($requestedCancellation)
+  {
+    $this->requestedCancellation = $requestedCancellation;
+  }
+  public function getRequestedCancellation()
+  {
+    return $this->requestedCancellation;
+  }
+  public function setStatusMessage($statusMessage)
+  {
+    $this->statusMessage = $statusMessage;
+  }
+  public function getStatusMessage()
+  {
+    return $this->statusMessage;
+  }
+  public function setTarget($target)
+  {
+    $this->target = $target;
+  }
+  public function getTarget()
+  {
+    return $this->target;
+  }
+  public function setVerb($verb)
+  {
+    $this->verb = $verb;
+  }
+  public function getVerb()
+  {
+    return $this->verb;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(OperationMetadata::class, 'Google_Service_Networkconnectivity_OperationMetadata');

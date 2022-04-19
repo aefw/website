@@ -1,63 +1,116 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Txf70Oo/hRQ4em==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ServiceUsage\Resource;
+
+use Google\Service\ServiceUsage\CancelOperationRequest;
+use Google\Service\ServiceUsage\ListOperationsResponse;
+use Google\Service\ServiceUsage\Operation;
+use Google\Service\ServiceUsage\ServiceusageEmpty;
+
+/**
+ * The "operations" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $serviceusageService = new Google\Service\ServiceUsage(...);
+ *   $operations = $serviceusageService->operations;
+ *  </code>
+ */
+class Operations extends \Google\Service\Resource
+{
+  /**
+   * Starts asynchronous cancellation on a long-running operation. The server
+   * makes a best effort to cancel the operation, but success is not guaranteed.
+   * If the server doesn't support this method, it returns
+   * `google.rpc.Code.UNIMPLEMENTED`. Clients can use Operations.GetOperation or
+   * other methods to check whether the cancellation succeeded or whether the
+   * operation completed despite cancellation. On successful cancellation, the
+   * operation is not deleted; instead, it becomes an operation with an
+   * Operation.error value with a google.rpc.Status.code of 1, corresponding to
+   * `Code.CANCELLED`. (operations.cancel)
+   *
+   * @param string $name The name of the operation resource to be cancelled.
+   * @param CancelOperationRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return ServiceusageEmpty
+   */
+  public function cancel($name, CancelOperationRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('cancel', [$params], ServiceusageEmpty::class);
+  }
+  /**
+   * Deletes a long-running operation. This method indicates that the client is no
+   * longer interested in the operation result. It does not cancel the operation.
+   * If the server doesn't support this method, it returns
+   * `google.rpc.Code.UNIMPLEMENTED`. (operations.delete)
+   *
+   * @param string $name The name of the operation resource to be deleted.
+   * @param array $optParams Optional parameters.
+   * @return ServiceusageEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], ServiceusageEmpty::class);
+  }
+  /**
+   * Gets the latest state of a long-running operation. Clients can use this
+   * method to poll the operation result at intervals as recommended by the API
+   * service. (operations.get)
+   *
+   * @param string $name The name of the operation resource.
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Operation::class);
+  }
+  /**
+   * Lists operations that match the specified filter in the request. If the
+   * server doesn't support this method, it returns `UNIMPLEMENTED`. NOTE: the
+   * `name` binding allows API services to override the binding to use different
+   * resource name schemes, such as `users/operations`. To override the binding,
+   * API services can add a binding such as `"/v1/{name=users}/operations"` to
+   * their service configuration. For backwards compatibility, the default name
+   * includes the operations collection id, however overriding users must ensure
+   * the name binding is the parent resource, without the operations collection
+   * id. (operations.listOperations)
+   *
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter The standard list filter.
+   * @opt_param string name The name of the operation's parent resource.
+   * @opt_param int pageSize The standard list page size.
+   * @opt_param string pageToken The standard list page token.
+   * @return ListOperationsResponse
+   */
+  public function listOperations($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListOperationsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Operations::class, 'Google_Service_ServiceUsage_Resource_Operations');

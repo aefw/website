@@ -1,133 +1,250 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-7ik/VkfuokJKljAb2dgLMG==
+<?php
+/*
+ * Copyright 2015 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+namespace Google\Auth;
+
+use Google\Auth\Credentials\InsecureCredentials;
+use Google\Auth\Credentials\ServiceAccountCredentials;
+use Google\Auth\Credentials\UserRefreshCredentials;
+use GuzzleHttp\ClientInterface;
+
+/**
+ * CredentialsLoader contains the behaviour used to locate and find default
+ * credentials files on the file system.
+ */
+abstract class CredentialsLoader implements
+    FetchAuthTokenInterface,
+    UpdateMetadataInterface
+{
+    const TOKEN_CREDENTIAL_URI = 'https://oauth2.googleapis.com/token';
+    const ENV_VAR = 'GOOGLE_APPLICATION_CREDENTIALS';
+    const WELL_KNOWN_PATH = 'gcloud/application_default_credentials.json';
+    const NON_WINDOWS_WELL_KNOWN_PATH_BASE = '.config';
+
+    /**
+     * @param string $cause
+     * @return string
+     */
+    private static function unableToReadEnv($cause)
+    {
+        $msg = 'Unable to read the credential file specified by ';
+        $msg .= ' GOOGLE_APPLICATION_CREDENTIALS: ';
+        $msg .= $cause;
+
+        return $msg;
+    }
+
+    /**
+     * @return bool
+     */
+    private static function isOnWindows()
+    {
+        return strtoupper(substr(PHP_OS, 0, 3)) === 'WIN';
+    }
+
+    /**
+     * Returns the currently available major Guzzle version.
+     *
+     * @return int
+     */
+    private static function getGuzzleMajorVersion()
+    {
+        if (defined('GuzzleHttp\ClientInterface::MAJOR_VERSION')) {
+            return ClientInterface::MAJOR_VERSION;
+        }
+
+        if (defined('GuzzleHttp\ClientInterface::VERSION')) {
+            return (int) substr(ClientInterface::VERSION, 0, 1);
+        }
+
+        throw new \Exception('Version not supported');
+    }
+
+    /**
+     * Load a JSON key from the path specified in the environment.
+     *
+     * Load a JSON key from the path specified in the environment
+     * variable GOOGLE_APPLICATION_CREDENTIALS. Return null if
+     * GOOGLE_APPLICATION_CREDENTIALS is not specified.
+     *
+     * @return array|null JSON key | null
+     */
+    public static function fromEnv()
+    {
+        $path = getenv(self::ENV_VAR);
+        if (empty($path)) {
+            return;
+        }
+        if (!file_exists($path)) {
+            $cause = 'file ' . $path . ' does not exist';
+            throw new \DomainException(self::unableToReadEnv($cause));
+        }
+        $jsonKey = file_get_contents($path);
+        return json_decode($jsonKey, true);
+    }
+
+    /**
+     * Load a JSON key from a well known path.
+     *
+     * The well known path is OS dependent:
+     *
+     * * windows: %APPDATA%/gcloud/application_default_credentials.json
+     * * others: $HOME/.config/gcloud/application_default_credentials.json
+     *
+     * If the file does not exist, this returns null.
+     *
+     * @return array|null JSON key | null
+     */
+    public static function fromWellKnownFile()
+    {
+        $rootEnv = self::isOnWindows() ? 'APPDATA' : 'HOME';
+        $path = [getenv($rootEnv)];
+        if (!self::isOnWindows()) {
+            $path[] = self::NON_WINDOWS_WELL_KNOWN_PATH_BASE;
+        }
+        $path[] = self::WELL_KNOWN_PATH;
+        $path = implode(DIRECTORY_SEPARATOR, $path);
+        if (!file_exists($path)) {
+            return;
+        }
+        $jsonKey = file_get_contents($path);
+        return json_decode($jsonKey, true);
+    }
+
+    /**
+     * Create a new Credentials instance.
+     *
+     * @param string|array $scope the scope of the access request, expressed
+     *        either as an Array or as a space-delimited String.
+     * @param array $jsonKey the JSON credentials.
+     * @param string|array $defaultScope The default scope to use if no
+     *   user-defined scopes exist, expressed either as an Array or as a
+     *   space-delimited string.
+     *
+     * @return ServiceAccountCredentials|UserRefreshCredentials
+     */
+    public static function makeCredentials(
+        $scope,
+        array $jsonKey,
+        $defaultScope = null
+    ) {
+        if (!array_key_exists('type', $jsonKey)) {
+            throw new \InvalidArgumentException('json key is missing the type field');
+        }
+
+        if ($jsonKey['type'] == 'service_account') {
+            // Do not pass $defaultScope to ServiceAccountCredentials
+            return new ServiceAccountCredentials($scope, $jsonKey);
+        }
+
+        if ($jsonKey['type'] == 'authorized_user') {
+            $anyScope = $scope ?: $defaultScope;
+            return new UserRefreshCredentials($anyScope, $jsonKey);
+        }
+
+        throw new \InvalidArgumentException('invalid value in the type field');
+    }
+
+    /**
+     * Create an authorized HTTP Client from an instance of FetchAuthTokenInterface.
+     *
+     * @param FetchAuthTokenInterface $fetcher is used to fetch the auth token
+     * @param array $httpClientOptions (optional) Array of request options to apply.
+     * @param callable $httpHandler (optional) http client to fetch the token.
+     * @param callable $tokenCallback (optional) function to be called when a new token is fetched.
+     * @return \GuzzleHttp\Client
+     */
+    public static function makeHttpClient(
+        FetchAuthTokenInterface $fetcher,
+        array $httpClientOptions = [],
+        callable $httpHandler = null,
+        callable $tokenCallback = null
+    ) {
+        if (self::getGuzzleMajorVersion() === 5) {
+            $client = new \GuzzleHttp\Client($httpClientOptions);
+            $client->setDefaultOption('auth', 'google_auth');
+            $subscriber = new Subscriber\AuthTokenSubscriber(
+                $fetcher,
+                $httpHandler,
+                $tokenCallback
+            );
+            $client->getEmitter()->attach($subscriber);
+            return $client;
+        }
+
+        $middleware = new Middleware\AuthTokenMiddleware(
+            $fetcher,
+            $httpHandler,
+            $tokenCallback
+        );
+        $stack = \GuzzleHttp\HandlerStack::create();
+        $stack->push($middleware);
+
+        return new \GuzzleHttp\Client([
+            'handler' => $stack,
+            'auth' => 'google_auth',
+        ] + $httpClientOptions);
+    }
+
+    /**
+     * Create a new instance of InsecureCredentials.
+     *
+     * @return InsecureCredentials
+     */
+    public static function makeInsecureCredentials()
+    {
+        return new InsecureCredentials();
+    }
+
+    /**
+     * export a callback function which updates runtime metadata.
+     *
+     * @return array updateMetadata function
+     * @deprecated
+     */
+    public function getUpdateMetadataFunc()
+    {
+        return array($this, 'updateMetadata');
+    }
+
+    /**
+     * Updates metadata with the authorization token.
+     *
+     * @param array $metadata metadata hashmap
+     * @param string $authUri optional auth uri
+     * @param callable $httpHandler callback which delivers psr7 request
+     * @return array updated metadata hashmap
+     */
+    public function updateMetadata(
+        $metadata,
+        $authUri = null,
+        callable $httpHandler = null
+    ) {
+        if (isset($metadata[self::AUTH_METADATA_KEY])) {
+            // Auth metadata has already been set
+            return $metadata;
+        }
+        $result = $this->fetchAuthToken($httpHandler);
+        if (!isset($result['access_token'])) {
+            return $metadata;
+        }
+        $metadata_copy = $metadata;
+        $metadata_copy[self::AUTH_METADATA_KEY] = array('Bearer ' . $result['access_token']);
+
+        return $metadata_copy;
+    }
+}

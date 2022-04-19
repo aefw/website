@@ -1,92 +1,199 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Sheets;
+
+class TreemapChartSpec extends \Google\Model
+{
+  protected $colorDataType = ChartData::class;
+  protected $colorDataDataType = '';
+  protected $colorScaleType = TreemapChartColorScale::class;
+  protected $colorScaleDataType = '';
+  protected $headerColorType = Color::class;
+  protected $headerColorDataType = '';
+  protected $headerColorStyleType = ColorStyle::class;
+  protected $headerColorStyleDataType = '';
+  public $hideTooltips;
+  public $hintedLevels;
+  protected $labelsType = ChartData::class;
+  protected $labelsDataType = '';
+  public $levels;
+  public $maxValue;
+  public $minValue;
+  protected $parentLabelsType = ChartData::class;
+  protected $parentLabelsDataType = '';
+  protected $sizeDataType = ChartData::class;
+  protected $sizeDataDataType = '';
+  protected $textFormatType = TextFormat::class;
+  protected $textFormatDataType = '';
+
+  /**
+   * @param ChartData
+   */
+  public function setColorData(ChartData $colorData)
+  {
+    $this->colorData = $colorData;
+  }
+  /**
+   * @return ChartData
+   */
+  public function getColorData()
+  {
+    return $this->colorData;
+  }
+  /**
+   * @param TreemapChartColorScale
+   */
+  public function setColorScale(TreemapChartColorScale $colorScale)
+  {
+    $this->colorScale = $colorScale;
+  }
+  /**
+   * @return TreemapChartColorScale
+   */
+  public function getColorScale()
+  {
+    return $this->colorScale;
+  }
+  /**
+   * @param Color
+   */
+  public function setHeaderColor(Color $headerColor)
+  {
+    $this->headerColor = $headerColor;
+  }
+  /**
+   * @return Color
+   */
+  public function getHeaderColor()
+  {
+    return $this->headerColor;
+  }
+  /**
+   * @param ColorStyle
+   */
+  public function setHeaderColorStyle(ColorStyle $headerColorStyle)
+  {
+    $this->headerColorStyle = $headerColorStyle;
+  }
+  /**
+   * @return ColorStyle
+   */
+  public function getHeaderColorStyle()
+  {
+    return $this->headerColorStyle;
+  }
+  public function setHideTooltips($hideTooltips)
+  {
+    $this->hideTooltips = $hideTooltips;
+  }
+  public function getHideTooltips()
+  {
+    return $this->hideTooltips;
+  }
+  public function setHintedLevels($hintedLevels)
+  {
+    $this->hintedLevels = $hintedLevels;
+  }
+  public function getHintedLevels()
+  {
+    return $this->hintedLevels;
+  }
+  /**
+   * @param ChartData
+   */
+  public function setLabels(ChartData $labels)
+  {
+    $this->labels = $labels;
+  }
+  /**
+   * @return ChartData
+   */
+  public function getLabels()
+  {
+    return $this->labels;
+  }
+  public function setLevels($levels)
+  {
+    $this->levels = $levels;
+  }
+  public function getLevels()
+  {
+    return $this->levels;
+  }
+  public function setMaxValue($maxValue)
+  {
+    $this->maxValue = $maxValue;
+  }
+  public function getMaxValue()
+  {
+    return $this->maxValue;
+  }
+  public function setMinValue($minValue)
+  {
+    $this->minValue = $minValue;
+  }
+  public function getMinValue()
+  {
+    return $this->minValue;
+  }
+  /**
+   * @param ChartData
+   */
+  public function setParentLabels(ChartData $parentLabels)
+  {
+    $this->parentLabels = $parentLabels;
+  }
+  /**
+   * @return ChartData
+   */
+  public function getParentLabels()
+  {
+    return $this->parentLabels;
+  }
+  /**
+   * @param ChartData
+   */
+  public function setSizeData(ChartData $sizeData)
+  {
+    $this->sizeData = $sizeData;
+  }
+  /**
+   * @return ChartData
+   */
+  public function getSizeData()
+  {
+    return $this->sizeData;
+  }
+  /**
+   * @param TextFormat
+   */
+  public function setTextFormat(TextFormat $textFormat)
+  {
+    $this->textFormat = $textFormat;
+  }
+  /**
+   * @return TextFormat
+   */
+  public function getTextFormat()
+  {
+    return $this->textFormat;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(TreemapChartSpec::class, 'Google_Service_Sheets_TreemapChartSpec');

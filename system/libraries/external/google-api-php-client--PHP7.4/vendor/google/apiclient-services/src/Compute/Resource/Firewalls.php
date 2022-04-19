@@ -1,73 +1,223 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute\Resource;
+
+use Google\Service\Compute\Firewall;
+use Google\Service\Compute\FirewallList;
+use Google\Service\Compute\Operation;
+
+/**
+ * The "firewalls" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $computeService = new Google\Service\Compute(...);
+ *   $firewalls = $computeService->firewalls;
+ *  </code>
+ */
+class Firewalls extends \Google\Service\Resource
+{
+  /**
+   * Deletes the specified firewall. (firewalls.delete)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $firewall Name of the firewall rule to delete.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function delete($project, $firewall, $optParams = [])
+  {
+    $params = ['project' => $project, 'firewall' => $firewall];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Returns the specified firewall. (firewalls.get)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $firewall Name of the firewall rule to return.
+   * @param array $optParams Optional parameters.
+   * @return Firewall
+   */
+  public function get($project, $firewall, $optParams = [])
+  {
+    $params = ['project' => $project, 'firewall' => $firewall];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Firewall::class);
+  }
+  /**
+   * Creates a firewall rule in the specified project using the data included in
+   * the request. (firewalls.insert)
+   *
+   * @param string $project Project ID for this request.
+   * @param Firewall $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function insert($project, Firewall $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Operation::class);
+  }
+  /**
+   * Retrieves the list of firewall rules available to the specified project.
+   * (firewalls.listFirewalls)
+   *
+   * @param string $project Project ID for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return FirewallList
+   */
+  public function listFirewalls($project, $optParams = [])
+  {
+    $params = ['project' => $project];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], FirewallList::class);
+  }
+  /**
+   * Updates the specified firewall rule with the data included in the request.
+   * This method supports PATCH semantics and uses the JSON merge patch format and
+   * processing rules. (firewalls.patch)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $firewall Name of the firewall rule to patch.
+   * @param Firewall $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function patch($project, $firewall, Firewall $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'firewall' => $firewall, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+  /**
+   * Updates the specified firewall rule with the data included in the request.
+   * Note that all fields will be updated if using PUT, even fields that are not
+   * specified. To update individual fields, please use PATCH instead.
+   * (firewalls.update)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $firewall Name of the firewall rule to update.
+   * @param Firewall $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function update($project, $firewall, Firewall $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'firewall' => $firewall, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Firewalls::class, 'Google_Service_Compute_Resource_Firewalls');

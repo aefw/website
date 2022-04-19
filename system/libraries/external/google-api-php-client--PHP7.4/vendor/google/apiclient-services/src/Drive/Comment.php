@@ -1,84 +1,156 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPuIHzYaODyiEbLjZ2Y/wyJFDchT2GepZIBZ8d9I3lKElQTIXKHmQ1fDTm7d60HV1YO3E9HAW
-Ua4G5LfRfhe4wqmaIOMPCY8wfiQDz5Kt8113igg1MPf0yv/YoiBa5nK+9To2w80Uuf2cCxiW9BXW
-IgVLiJc0hvpjzJVbCVAP94OAu+/4Es1f4oR3anN8Xjsq45W4vvl+pMDZhly5JoOzwj/mwB1F8Q4b
-Tb98gZ8tEwP4kG20JwhhhZTYZbSne/qZhCtJcIDa+jIVcn3Xyjqp0tjazk9mKourL8IeB86cFae5
-vLN7RMS811btMdbeCI28LDC0L/+s5AlU0yPgeEA7v6AF7BkvdSUOyFRgrOVT+QIjbHDHFotDyj27
-XDqj677o7nowAIOhQSRZPGhQCWOq4q87BnTFnoSDfl2mZ1crAahSdP2nq5vjD5lWECS0dzLz9Nww
-uFPk/Rmst2BTzkrrEq/jscGzfCP3L8hUabCPNKrbNsPGgXHquP04kyAGqolcNfcRV502Gnsq0CUc
-5OKd2QmGmvN1iMGUEJl1yHojRdFhS5KDUrGXxhRf6JjDew1MH+eAs1kk5/DjjPh47x7T1RHn5nTF
-WzDrANgeXASFVCn/2nS2PF8CDpbiHWl3VtFjEAnzg5sbwXLdciaqUGooYTJx1GPl/+lLIBB02bJn
-yJqIWtkAz+3KQiVc11sj32yERpRHg0GA8jc0dwqHlvNIXBZyS9MX5Lc0kghLmyGuAQ2mJvstmMwX
-JwKClLNpOkg3Eyh1oi1clkP9LiycnImiRbn/B1wvDkyEJjfDE2Pm607RpwFAdp0XNNSE3WnD/w9f
-LtoaJC5PNbUYtB1P+2CxWNBnPrR58o/URfjl5k/ScC7NhFBbEH2mlqJpxZNdstzzLkw0WPaOysq4
-k9aRieAimdJjReWf1mlsEibaATsIqqIZpni19o2dcGEBhLQmmCTxLLE6yqnEmDU+jdgeXEON2Npa
-MwSCH0/DzDJhZYcg/laK/RUV1Gp3CPfXEQqA+VP4ygCvIsRRiMf4Ql+HY6DqNQsk7Zlax2G83TXT
-sq5SBNJxVlfDEVshrSMMXwybXNX9gyPa97jPG/NU4H56SRhGQISz/6bGPr9zmgoRgeuU8XQTkLag
-nM7+rtnT7xa1AW8bluPI4jCAYiI+N16I8JBDz5tSB96UoncEKOwJot3d7kiTeOMafi/Fo5l5BJgm
-cPmrJhC+fkbLPrON5BqNrUR82DUFAiF3L7MDSWq4BpaLIwgH9IpsYdY5A1DOZ4qrEyAFQjtTndpM
-moyYpYf3UPLq7PA6by37bIj/w7eiDLAwFoHNlrwNxuSFb+mbIldwY+YOrDikY5y9wPUb2XHWOFsx
-K7BznXHu3TXEVCLxPfsmauh2QEgdjZKoz2H4haE2Eh4X3NeXtOACxok6LG8XR4RcNb7iHMLKrAgp
-TxE4e6EyJ/uvkWT65xFmWjzpxe7v2MMcBsJMU90I8jbO2tjyW+ODE+MLcCWmaHbQZ3d5xsxzjdjR
-Q4SDt8Mymir4x+kNA3+1H9LBN+Zu/R7EV5rDdqB/mV0W0vNC0Ptx5aD2WHBgytKEvXPByY9GBLxZ
-1ok4E3X36yuPRv1ggk5Yrv1/beoMeDTLGhO13IZA1db5O2M57UmjfTtrJicnIdBFV2HcizYqINJr
-lcbvia4/HNBZVP5KZ+UQS/gqdjlh3DJEYU1WC6ejcCEqCjgR8duBB5tth7Gusq+SVoNg73coDmRG
-zB98I3YCSw1mKEQDXV/CyZtQuu0Q2xlJXaPHnQ0jVeXJa3hHHaRplL9ePCSnjd2KMZZL5L1LTwjz
-45pxqz99SBkhrCy8TyUNcmedLXMeT4ap3PFJyJZBtEepah1f2gqJLRskqXUlEBw63k4wqzIoVIAt
-KKRdjJLsdeg51l/f428cDblT4KGwzcLI8VC4EhsX7nITh0J26EjnVbSa94yhw+SXVkgw6Gf3iQHU
-z+lxKbSCB95KkQ9o7+BhUexViQbA16NKWX86FzL+gqd97cS0RlktYr5J4dd4bwMGYfloAQhwkPHL
-z0ubp5p/AnCxaxquKSBZk4lscfpiW4xL1krccoBgMwnZw3U0UDVENRDxnSv5vN7W4/twCrjHcW4G
-0Olsm43gquJ2HXP1djTj7TuHML2K5P+mnhix5CMfzm8lxW1p5uFZv5BgzfFfMDTVWpE8BACDyiDC
-qUbrNNmNBBU61nzKUr2w8BGJ4k/5CjUa6SJFBv6sI/KTUUGw9/eguCOegRU9rChAH4g9Mog7VJLY
-PijueBpM1vO0hdoZ8+UhCd+Ifnh861S+Wp9Owgt7+lT63Ohg4prC87yb/mjrcoi0Pe0TgI9NutMx
-GiiWZLrZS7YaGRtOngViX0+cAYa+hdzxOP+Dakz6ApzXFVyl2Q9p3MInLs273Jk9jDLJpveN4ike
-A0APeJesos4S7GuMM9l2rEXARePuck509A98plRkmVWXU10rHnMFCQuC0NKHMLBiyGhITKtoiDPG
-CS1QIMuiEEr7dYRk9egczezqE1UmKSLW2NVuDbJgL0cTHeFJ8OFmkbj5oCYdxv+rXwz0JY7pKDEH
-hPKa4VqahYfbk1WSW2m4aW7myVSI6dbdcn8Og8k9NX/QCyhW9vfzo2MDvSPeaLKdlsRVwoxGQ6Qg
-Z8fObu0uyA9ONPrTnCQoVEv9IU3TWXFu6lM7KWfVHIwaqbfsd46J0oaLtYbnV2BmjNToGjfquVde
-xm6y2NDXygxYzAlfwof44ffPaIA8xJ6l2GJGekMhM2KzeHCkzEltE6PajiB/taR4DxdmHp1lwLDq
-aLfPsmK5S7urQn5JzkiEH4DWtyC4sZ1MWo7uYFJ5YddafdmBxR7bDCWziHCIB7pe5p+9QHzOGVNp
-k9qAnwG6eXFeBNGmAkMxBg5PpwG9cJK6g11OfiO4MKvTGv9uX7eiIn54547fvVdKWSJq5bg5acae
-2h2K5XeXhcmJOCmIwXwqHog4hdzgjuhR2g/siDS96cntbD+W49rAKFANHGTi5utG5TyTaC8lMXv0
-g9EhWF5zNtYCjk6Cr4MFSBHqgKl9WOjB38y9AP7PDKm29oD58Ml/20AXHVy8aldapa9dovyF2a2W
-W6BxO+FUGptU90hpXcWE5MD7QIFn5CYeoBxvmYgXVUFMTCrgLK8BL4i+xapOjNVUOP59UHdHdl6x
-e5nvrxvNC469iHad690LJq/WUDt1YZD/bOGE0CeWH4d5hGcNSJ1aX3yVXZ2BOKIm3w1kN/UJ/tA8
-pgDc0rgsqQ062a9IJBls9lBKBp3eFfUasyvDoijZTlDtCiHAiHLPyCn3tLotpCz328Ksp4tV5v8j
-LxUV+AZuoAvR4dwQJgOuz4gR327hEvzjQEQCEW7FlrTF6PMcwp8PzzBYGLPRknGznRyq63qb38Os
-8dPiiteLmOQYSdZYp+/3iIBgqAjnxkxGwxFQLLY/NifWcD2UadSpIaGtibyD9gTVDdf9WHWoKKVq
-NHhU4cHp52oShGrlaRJ4WRFB4XZ8453KI3wnS5DfbLQ5d52NhwKMKgEwzHmceuHwBTCNbRK/ToS2
-mf/NZRfg3M7wITeW51ArBLsIGHQ6Ji/cldS1L5wSAqSSOxFsQysmzIZRDSXGaPHVx/xNaJD6bZ1d
-ZN6/RPdibG7lOqdgdsEwNKuwBRSFjdNBbYi6ySc+7OEcTp7+ajExJn9XJSIJimosr/tgK64WjKYn
-iFpXIigCQS9Wyrsw7SpF42PdDGkn42G5xqZe0FwluY59/meBmlWmwsbOJJEEtzWHNzbes7rJSUHh
-OJRVhSs5NiRagSKXGQIr/ZalY8MM3uo/uQw7JutKl77fvq9NbrjI2FT6vb2reLE0TtjphiU2Z+gW
-OXc8ZFFuc9H3iOy5q3zDZkDSBGYjJJale980QrA0xCatOD5vwtq0dfAthaUIi8tA/tGeJF6ULWAK
-S11qwC9XoR9XKx7keNRqpWSB1AMQp75OQVW0nDS7WuE2Is7SxCXCyQoEPAaMqtNqNo8K4esEyvK3
-aMr95DAhdh5Zvt7fxHvr8+h+AJOjxf/dHynBkIdMVXaFrGCW6BqAWdXFAltjHjd0pgz8dt5DRISB
-mkCpJNdylIALPWIW/2kGlqB/AYzL47i7qKPV/5GuzvL0nLdxCjNdvBZkUOA3KN4V4Mkzv+PL3iRG
-pbLtWpeBZ4PlST4eouDpuHaTS5StFlk76Gb9JCHFJwWSprYmMfg+KHgRTyMfU4rrq1Nf3n5j+Br7
-dq/xYayIp4DdRm4IKw/Q/xhMzUw5xUYENZL4cMP8OWrQki4G5nF3WqODcXXNgklEzlRqvlez1QWv
-6Op6NKjNXM6V98AwOzUmJSuPaGU5Gh2zbGPO0f/2TMVbcXtvOTO1nDgdwn8k1/ygaz+P+5Phjv9R
-Ut+R8ei/gngP+20eCzBwJNMRA6LobSaW4mj8KIinVMigXb0IghR99bl0p19OAl+n5mQmRhHdeBo1
-4bfLzMZwifwCEfvtJNfwX50p07pzHaRipogxq6Gd0PIjHAl17lS6SiYpKqqOW6daipwDkDkagLjw
-eNLf6vxlKNxz0w8O0pjT7qQ/KzZ7SsA2ttiFpdoAv+7JyK2/bDrJ2PBnykpjFaGd5J9/E+6sknY6
-WGhUD8qN1euHeJzvJA7l18ac+NURuNc2DJGu3hdr4DM7+W8/Y2tb2hmIZk6cF/Vqk5QDjxHjTs3B
-BDR48eEIfFH1LP+AIEGeGPWdJWG8bvVqRp0OSSHpOdZGkc8kx3Z3wzNUwl5ipq8OuXmG+fb4V5eV
-jq8qdtkiGRbsoy509a9SNYST/odvaGCjDx8RfrY57AJGxG+QubBw7fA7hcJyD5rSF/nloSuChOJD
-xn8D8ERufV6N6zGxya/lv8E+4jOHsbv2p435VhjkQGtcl6uODf39CbxKhjlm750v3yuSC26oUBxG
-bXQtX67J4O5GWSVrrckrL79Rkr+0f2DUywQIvxYH9wcyQaoEP7QFd3CRJ3MGhi7Hf/l+M7zKN8F3
-Bl707E6O/jlDR50tE3hwXq858rdYRmdSe+bAxmkP7HmfnBesdJJJ3XueIymsMWoVEwUYLBojJ2s+
-K9AEM+8geCgVcXKgsK8lWbRBVc0zKKAyfNgS8Ahrq5mqLje20ElXk9ndQHr2a67/9rUYbcj/fper
-esaD1tTGa3tQ726P0kUcXiRVf+OR1uT9eMGPxmIxJdATNSw8MsnxXcbXIIJx2AKYNW9XA+k2zfAA
-8oJJwUKNt+0Y4ErO4jYm52+q2BQGQUtCSM1ybcreifd81G97boww3V/jm2N24l4JZwpOlvNSkqNY
-lb/qEnUXzATnGbaD2O4n3Pav0bYJKLpLnc3f2beNd07JIEZz6aPOV7NzoFEcUTfhdlDEz3+0g1dw
-tHJ112YrceCBEnXzaepQK1vfDAauqIsVoYvCeB9S8DPhDgIjyJkfvxD0mZ0Bnf42zpMJTF+Yc4TZ
-xLWCIJ7FEFgUArx/UQGexEmgFjEKoTOHq+gka4aAx0VAVzhnThKEL3EOw9TNmiBjlc9kxziJdkHN
-u408qU9d+BDGcIU5yqGTlT/E2SoZjI5hdF8bfGH65Bkwf3Q0qKLk2ksP2YETXco/NAo0UoYRGioG
-sFJUHblJs+oQ5u0voz6T7ghOaWLPRNIfGqg+KGX6UIGhGehUiDV1jt4VDmekmpHnqu4klCp3OTgM
-Nx+H/CLfWc9Vbd0+f8y0T1UCtVu6V4Y2gYdRNikkmyHYaomrOXoRAq0N5/6ZUiUrL1dBb8nwFKR4
-8R6Idbi27g54Vm89fH7A11RL45fqJ7KZvW1zsP9j9cbz7QBckOBKOmmREBW7oYp55eP1m0fhCHV6
-ngBB9krVOYoUUWKWP7zTucdcux624MbwYEDTrfwb06MBj26LIAtQtQBDXiA+e+ov2Gz3Sm==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Drive;
+
+class Comment extends \Google\Collection
+{
+  protected $collection_key = 'replies';
+  public $anchor;
+  protected $authorType = User::class;
+  protected $authorDataType = '';
+  public $content;
+  public $createdTime;
+  public $deleted;
+  public $htmlContent;
+  public $id;
+  public $kind;
+  public $modifiedTime;
+  protected $quotedFileContentType = CommentQuotedFileContent::class;
+  protected $quotedFileContentDataType = '';
+  protected $repliesType = Reply::class;
+  protected $repliesDataType = 'array';
+  public $resolved;
+
+  public function setAnchor($anchor)
+  {
+    $this->anchor = $anchor;
+  }
+  public function getAnchor()
+  {
+    return $this->anchor;
+  }
+  /**
+   * @param User
+   */
+  public function setAuthor(User $author)
+  {
+    $this->author = $author;
+  }
+  /**
+   * @return User
+   */
+  public function getAuthor()
+  {
+    return $this->author;
+  }
+  public function setContent($content)
+  {
+    $this->content = $content;
+  }
+  public function getContent()
+  {
+    return $this->content;
+  }
+  public function setCreatedTime($createdTime)
+  {
+    $this->createdTime = $createdTime;
+  }
+  public function getCreatedTime()
+  {
+    return $this->createdTime;
+  }
+  public function setDeleted($deleted)
+  {
+    $this->deleted = $deleted;
+  }
+  public function getDeleted()
+  {
+    return $this->deleted;
+  }
+  public function setHtmlContent($htmlContent)
+  {
+    $this->htmlContent = $htmlContent;
+  }
+  public function getHtmlContent()
+  {
+    return $this->htmlContent;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setModifiedTime($modifiedTime)
+  {
+    $this->modifiedTime = $modifiedTime;
+  }
+  public function getModifiedTime()
+  {
+    return $this->modifiedTime;
+  }
+  /**
+   * @param CommentQuotedFileContent
+   */
+  public function setQuotedFileContent(CommentQuotedFileContent $quotedFileContent)
+  {
+    $this->quotedFileContent = $quotedFileContent;
+  }
+  /**
+   * @return CommentQuotedFileContent
+   */
+  public function getQuotedFileContent()
+  {
+    return $this->quotedFileContent;
+  }
+  /**
+   * @param Reply[]
+   */
+  public function setReplies($replies)
+  {
+    $this->replies = $replies;
+  }
+  /**
+   * @return Reply[]
+   */
+  public function getReplies()
+  {
+    return $this->replies;
+  }
+  public function setResolved($resolved)
+  {
+    $this->resolved = $resolved;
+  }
+  public function getResolved()
+  {
+    return $this->resolved;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Comment::class, 'Google_Service_Drive_Comment');

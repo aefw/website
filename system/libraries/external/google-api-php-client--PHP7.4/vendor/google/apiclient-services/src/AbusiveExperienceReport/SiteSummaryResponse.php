@@ -1,68 +1,89 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AbusiveExperienceReport;
+
+class SiteSummaryResponse extends \Google\Model
+{
+  public $abusiveStatus;
+  public $enforcementTime;
+  public $filterStatus;
+  public $lastChangeTime;
+  public $reportUrl;
+  public $reviewedSite;
+  public $underReview;
+
+  public function setAbusiveStatus($abusiveStatus)
+  {
+    $this->abusiveStatus = $abusiveStatus;
+  }
+  public function getAbusiveStatus()
+  {
+    return $this->abusiveStatus;
+  }
+  public function setEnforcementTime($enforcementTime)
+  {
+    $this->enforcementTime = $enforcementTime;
+  }
+  public function getEnforcementTime()
+  {
+    return $this->enforcementTime;
+  }
+  public function setFilterStatus($filterStatus)
+  {
+    $this->filterStatus = $filterStatus;
+  }
+  public function getFilterStatus()
+  {
+    return $this->filterStatus;
+  }
+  public function setLastChangeTime($lastChangeTime)
+  {
+    $this->lastChangeTime = $lastChangeTime;
+  }
+  public function getLastChangeTime()
+  {
+    return $this->lastChangeTime;
+  }
+  public function setReportUrl($reportUrl)
+  {
+    $this->reportUrl = $reportUrl;
+  }
+  public function getReportUrl()
+  {
+    return $this->reportUrl;
+  }
+  public function setReviewedSite($reviewedSite)
+  {
+    $this->reviewedSite = $reviewedSite;
+  }
+  public function getReviewedSite()
+  {
+    return $this->reviewedSite;
+  }
+  public function setUnderReview($underReview)
+  {
+    $this->underReview = $underReview;
+  }
+  public function getUnderReview()
+  {
+    return $this->underReview;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(SiteSummaryResponse::class, 'Google_Service_AbusiveExperienceReport_SiteSummaryResponse');

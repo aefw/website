@@ -1,92 +1,130 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+/**
+ * PHP Montgomery Modular Exponentiation Engine
+ *
+ * PHP version 5 and 7
+ *
+ * @category  Math
+ * @package   BigInteger
+ * @author    Jim Wigginton <terrafrost@php.net>
+ * @copyright 2017 Jim Wigginton
+ * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      http://pear.php.net/package/Math_BigInteger
+ */
+
+namespace phpseclib3\Math\BigInteger\Engines\PHP\Reductions;
+
+use phpseclib3\Math\BigInteger\Engines\PHP\Montgomery as Progenitor;
+
+/**
+ * PHP Montgomery Modular Exponentiation Engine
+ *
+ * @package PHP
+ * @author  Jim Wigginton <terrafrost@php.net>
+ * @access  public
+ */
+abstract class Montgomery extends Progenitor
+{
+    /**
+     * Prepare a number for use in Montgomery Modular Reductions
+     *
+     * @param array $x
+     * @param array $n
+     * @param string $class
+     * @return array
+     */
+    protected static function prepareReduce(array $x, array $n, $class)
+    {
+        $lhs = new $class();
+        $lhs->value = array_merge(self::array_repeat(0, count($n)), $x);
+        $rhs = new $class();
+        $rhs->value = $n;
+
+        list(, $temp) = $lhs->divide($rhs);
+        return $temp->value;
+    }
+
+    /**
+     * Montgomery Multiply
+     *
+     * Interleaves the montgomery reduction and long multiplication algorithms together as described in
+     * {@link http://www.cacr.math.uwaterloo.ca/hac/about/chap14.pdf#page=13 HAC 14.36}
+     *
+     * @param array $x
+     * @param array $n
+     * @param string $class
+     * @return array
+     */
+    protected static function reduce(array $x, array $n, $class)
+    {
+        static $cache = [
+            self::VARIABLE => [],
+            self::DATA => []
+        ];
+
+        if (($key = array_search($n, $cache[self::VARIABLE])) === false) {
+            $key = count($cache[self::VARIABLE]);
+            $cache[self::VARIABLE][] = $x;
+            $cache[self::DATA][] = self::modInverse67108864($n, $class);
+        }
+
+        $k = count($n);
+
+        $result = [self::VALUE => $x];
+
+        for ($i = 0; $i < $k; ++$i) {
+            $temp = $result[self::VALUE][$i] * $cache[self::DATA][$key];
+            $temp = $temp - $class::BASE_FULL * ($class::BASE === 26 ? intval($temp / 0x4000000) : ($temp >> 31));
+            $temp = $class::regularMultiply([$temp], $n);
+            $temp = array_merge(self::array_repeat(0, $i), $temp);
+            $result = $class::addHelper($result[self::VALUE], false, $temp, false);
+        }
+
+        $result[self::VALUE] = array_slice($result[self::VALUE], $k);
+
+        if (self::compareHelper($result, false, $n, false) >= 0) {
+            $result = $class::subtractHelper($result[self::VALUE], false, $n, false);
+        }
+
+        return $result[self::VALUE];
+    }
+
+    /**
+     * Modular Inverse of a number mod 2**26 (eg. 67108864)
+     *
+     * Based off of the bnpInvDigit function implemented and justified in the following URL:
+     *
+     * {@link http://www-cs-students.stanford.edu/~tjw/jsbn/jsbn.js}
+     *
+     * The following URL provides more info:
+     *
+     * {@link http://groups.google.com/group/sci.crypt/msg/7a137205c1be7d85}
+     *
+     * As for why we do all the bitmasking...  strange things can happen when converting from floats to ints. For
+     * instance, on some computers, var_dump((int) -4294967297) yields int(-1) and on others, it yields
+     * int(-2147483648).  To avoid problems stemming from this, we use bitmasks to guarantee that ints aren't
+     * auto-converted to floats.  The outermost bitmask is present because without it, there's no guarantee that
+     * the "residue" returned would be the so-called "common residue".  We use fmod, in the last step, because the
+     * maximum possible $x is 26 bits and the maximum $result is 16 bits.  Thus, we have to be able to handle up to
+     * 40 bits, which only 64-bit floating points will support.
+     *
+     * Thanks to Pedro Gimeno Fortea for input!
+     *
+     * @param array $x
+     * @param string $class
+     * @return int
+     */
+    protected static function modInverse67108864(array $x, $class) // 2**26 == 67,108,864
+    {
+        $x = -$x[0];
+        $result = $x & 0x3; // x**-1 mod 2**2
+        $result = ($result * (2 - $x * $result)) & 0xF; // x**-1 mod 2**4
+        $result = ($result * (2 - ($x & 0xFF) * $result))  & 0xFF; // x**-1 mod 2**8
+        $result = ($result * ((2 - ($x & 0xFFFF) * $result) & 0xFFFF)) & 0xFFFF; // x**-1 mod 2**16
+        $result = $class::BASE == 26 ?
+            fmod($result * (2 - fmod($x * $result, $class::BASE_FULL)), $class::BASE_FULL) : // x**-1 mod 2**26
+            ($result * (2 - ($x * $result) % $class::BASE_FULL)) % $class::BASE_FULL;
+        return $result & $class::MAX_DIGIT;
+    }
+}

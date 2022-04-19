@@ -1,96 +1,243 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-UEOwmMPrkuukit9+d6Sg1n7rNWojiM3mibrO3Y4=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ContainerAnalysis\Resource;
+
+use Google\Service\ContainerAnalysis\BatchCreateOccurrencesRequest;
+use Google\Service\ContainerAnalysis\BatchCreateOccurrencesResponse;
+use Google\Service\ContainerAnalysis\ContaineranalysisEmpty;
+use Google\Service\ContainerAnalysis\GetIamPolicyRequest;
+use Google\Service\ContainerAnalysis\ListOccurrencesResponse;
+use Google\Service\ContainerAnalysis\Note;
+use Google\Service\ContainerAnalysis\Occurrence;
+use Google\Service\ContainerAnalysis\Policy;
+use Google\Service\ContainerAnalysis\SetIamPolicyRequest;
+use Google\Service\ContainerAnalysis\TestIamPermissionsRequest;
+use Google\Service\ContainerAnalysis\TestIamPermissionsResponse;
+use Google\Service\ContainerAnalysis\VulnerabilityOccurrencesSummary;
+
+/**
+ * The "occurrences" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $containeranalysisService = new Google\Service\ContainerAnalysis(...);
+ *   $occurrences = $containeranalysisService->occurrences;
+ *  </code>
+ */
+class ProjectsOccurrences extends \Google\Service\Resource
+{
+  /**
+   * Creates new occurrences in batch. (occurrences.batchCreate)
+   *
+   * @param string $parent Required. The name of the project in the form of
+   * `projects/[PROJECT_ID]`, under which the occurrences are to be created.
+   * @param BatchCreateOccurrencesRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return BatchCreateOccurrencesResponse
+   */
+  public function batchCreate($parent, BatchCreateOccurrencesRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('batchCreate', [$params], BatchCreateOccurrencesResponse::class);
+  }
+  /**
+   * Creates a new occurrence. (occurrences.create)
+   *
+   * @param string $parent Required. The name of the project in the form of
+   * `projects/[PROJECT_ID]`, under which the occurrence is to be created.
+   * @param Occurrence $postBody
+   * @param array $optParams Optional parameters.
+   * @return Occurrence
+   */
+  public function create($parent, Occurrence $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Occurrence::class);
+  }
+  /**
+   * Deletes the specified occurrence. For example, use this method to delete an
+   * occurrence when the occurrence is no longer applicable for the given
+   * resource. (occurrences.delete)
+   *
+   * @param string $name Required. The name of the occurrence in the form of
+   * `projects/[PROJECT_ID]/occurrences/[OCCURRENCE_ID]`.
+   * @param array $optParams Optional parameters.
+   * @return ContaineranalysisEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], ContaineranalysisEmpty::class);
+  }
+  /**
+   * Gets the specified occurrence. (occurrences.get)
+   *
+   * @param string $name Required. The name of the occurrence in the form of
+   * `projects/[PROJECT_ID]/occurrences/[OCCURRENCE_ID]`.
+   * @param array $optParams Optional parameters.
+   * @return Occurrence
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Occurrence::class);
+  }
+  /**
+   * Gets the access control policy for a note or an occurrence resource. Requires
+   * `containeranalysis.notes.setIamPolicy` or
+   * `containeranalysis.occurrences.setIamPolicy` permission if the resource is a
+   * note or occurrence, respectively. The resource takes the format
+   * `projects/[PROJECT_ID]/notes/[NOTE_ID]` for notes and
+   * `projects/[PROJECT_ID]/occurrences/[OCCURRENCE_ID]` for occurrences.
+   * (occurrences.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param GetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function getIamPolicy($resource, GetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Gets the note attached to the specified occurrence. Consumer projects can use
+   * this method to get a note that belongs to a provider project.
+   * (occurrences.getNotes)
+   *
+   * @param string $name Required. The name of the occurrence in the form of
+   * `projects/[PROJECT_ID]/occurrences/[OCCURRENCE_ID]`.
+   * @param array $optParams Optional parameters.
+   * @return Note
+   */
+  public function getNotes($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('getNotes', [$params], Note::class);
+  }
+  /**
+   * Gets a summary of the number and severity of occurrences.
+   * (occurrences.getVulnerabilitySummary)
+   *
+   * @param string $parent Required. The name of the project to get a
+   * vulnerability summary for in the form of `projects/[PROJECT_ID]`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter The filter expression.
+   * @return VulnerabilityOccurrencesSummary
+   */
+  public function getVulnerabilitySummary($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('getVulnerabilitySummary', [$params], VulnerabilityOccurrencesSummary::class);
+  }
+  /**
+   * Lists occurrences for the specified project.
+   * (occurrences.listProjectsOccurrences)
+   *
+   * @param string $parent Required. The name of the project to list occurrences
+   * for in the form of `projects/[PROJECT_ID]`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter The filter expression.
+   * @opt_param int pageSize Number of occurrences to return in the list. Must be
+   * positive. Max allowed page size is 1000. If not specified, page size defaults
+   * to 20.
+   * @opt_param string pageToken Token to provide to skip to a particular spot in
+   * the list.
+   * @return ListOccurrencesResponse
+   */
+  public function listProjectsOccurrences($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListOccurrencesResponse::class);
+  }
+  /**
+   * Updates the specified occurrence. (occurrences.patch)
+   *
+   * @param string $name Required. The name of the occurrence in the form of
+   * `projects/[PROJECT_ID]/occurrences/[OCCURRENCE_ID]`.
+   * @param Occurrence $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask The fields to update.
+   * @return Occurrence
+   */
+  public function patch($name, Occurrence $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Occurrence::class);
+  }
+  /**
+   * Sets the access control policy on the specified note or occurrence. Requires
+   * `containeranalysis.notes.setIamPolicy` or
+   * `containeranalysis.occurrences.setIamPolicy` permission if the resource is a
+   * note or an occurrence, respectively. The resource takes the format
+   * `projects/[PROJECT_ID]/notes/[NOTE_ID]` for notes and
+   * `projects/[PROJECT_ID]/occurrences/[OCCURRENCE_ID]` for occurrences.
+   * (occurrences.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Returns the permissions that a caller has on the specified note or
+   * occurrence. Requires list permission on the project (for example,
+   * `containeranalysis.notes.list`). The resource takes the format
+   * `projects/[PROJECT_ID]/notes/[NOTE_ID]` for notes and
+   * `projects/[PROJECT_ID]/occurrences/[OCCURRENCE_ID]` for occurrences.
+   * (occurrences.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsOccurrences::class, 'Google_Service_ContainerAnalysis_Resource_ProjectsOccurrences');

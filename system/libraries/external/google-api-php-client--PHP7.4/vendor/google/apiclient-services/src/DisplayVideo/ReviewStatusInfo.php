@@ -1,62 +1,86 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-ISVgDGHFbcAyQWgr6gUMVW==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DisplayVideo;
+
+class ReviewStatusInfo extends \Google\Collection
+{
+  protected $collection_key = 'publisherReviewStatuses';
+  public $approvalStatus;
+  public $contentAndPolicyReviewStatus;
+  public $creativeAndLandingPageReviewStatus;
+  protected $exchangeReviewStatusesType = ExchangeReviewStatus::class;
+  protected $exchangeReviewStatusesDataType = 'array';
+  protected $publisherReviewStatusesType = PublisherReviewStatus::class;
+  protected $publisherReviewStatusesDataType = 'array';
+
+  public function setApprovalStatus($approvalStatus)
+  {
+    $this->approvalStatus = $approvalStatus;
+  }
+  public function getApprovalStatus()
+  {
+    return $this->approvalStatus;
+  }
+  public function setContentAndPolicyReviewStatus($contentAndPolicyReviewStatus)
+  {
+    $this->contentAndPolicyReviewStatus = $contentAndPolicyReviewStatus;
+  }
+  public function getContentAndPolicyReviewStatus()
+  {
+    return $this->contentAndPolicyReviewStatus;
+  }
+  public function setCreativeAndLandingPageReviewStatus($creativeAndLandingPageReviewStatus)
+  {
+    $this->creativeAndLandingPageReviewStatus = $creativeAndLandingPageReviewStatus;
+  }
+  public function getCreativeAndLandingPageReviewStatus()
+  {
+    return $this->creativeAndLandingPageReviewStatus;
+  }
+  /**
+   * @param ExchangeReviewStatus[]
+   */
+  public function setExchangeReviewStatuses($exchangeReviewStatuses)
+  {
+    $this->exchangeReviewStatuses = $exchangeReviewStatuses;
+  }
+  /**
+   * @return ExchangeReviewStatus[]
+   */
+  public function getExchangeReviewStatuses()
+  {
+    return $this->exchangeReviewStatuses;
+  }
+  /**
+   * @param PublisherReviewStatus[]
+   */
+  public function setPublisherReviewStatuses($publisherReviewStatuses)
+  {
+    $this->publisherReviewStatuses = $publisherReviewStatuses;
+  }
+  /**
+   * @return PublisherReviewStatus[]
+   */
+  public function getPublisherReviewStatuses()
+  {
+    return $this->publisherReviewStatuses;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ReviewStatusInfo::class, 'Google_Service_DisplayVideo_ReviewStatusInfo');

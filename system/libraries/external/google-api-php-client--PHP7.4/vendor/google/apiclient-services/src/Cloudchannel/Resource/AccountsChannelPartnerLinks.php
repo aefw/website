@@ -1,66 +1,149 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Cloudchannel\Resource;
+
+use Google\Service\Cloudchannel\GoogleCloudChannelV1ChannelPartnerLink;
+use Google\Service\Cloudchannel\GoogleCloudChannelV1ListChannelPartnerLinksResponse;
+use Google\Service\Cloudchannel\GoogleCloudChannelV1UpdateChannelPartnerLinkRequest;
+
+/**
+ * The "channelPartnerLinks" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $cloudchannelService = new Google\Service\Cloudchannel(...);
+ *   $channelPartnerLinks = $cloudchannelService->channelPartnerLinks;
+ *  </code>
+ */
+class AccountsChannelPartnerLinks extends \Google\Service\Resource
+{
+  /**
+   * Initiates a channel partner link between a distributor and a reseller, or
+   * between resellers in an n-tier reseller channel. Invited partners need to
+   * follow the invite_link_uri provided in the response to accept. After
+   * accepting the invitation, a link is set up between the two parties. You must
+   * be a distributor to call this method. Possible error codes: *
+   * PERMISSION_DENIED: The reseller account making the request is different from
+   * the reseller account in the API request. * INVALID_ARGUMENT: Required request
+   * parameters are missing or invalid. * ALREADY_EXISTS: The ChannelPartnerLink
+   * sent in the request already exists. * NOT_FOUND: No Cloud Identity customer
+   * exists for provided domain. * INTERNAL: Any non-user error related to a
+   * technical issue in the backend. Contact Cloud Channel support. * UNKNOWN: Any
+   * non-user error related to a technical issue in the backend. Contact Cloud
+   * Channel support. Return value: The new ChannelPartnerLink resource.
+   * (channelPartnerLinks.create)
+   *
+   * @param string $parent Required. Create a channel partner link for the
+   * provided reseller account's resource name. Parent uses the format:
+   * accounts/{account_id}
+   * @param GoogleCloudChannelV1ChannelPartnerLink $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudChannelV1ChannelPartnerLink
+   */
+  public function create($parent, GoogleCloudChannelV1ChannelPartnerLink $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleCloudChannelV1ChannelPartnerLink::class);
+  }
+  /**
+   * Returns the requested ChannelPartnerLink resource. You must be a distributor
+   * to call this method. Possible error codes: * PERMISSION_DENIED: The reseller
+   * account making the request is different from the reseller account in the API
+   * request. * INVALID_ARGUMENT: Required request parameters are missing or
+   * invalid. * NOT_FOUND: ChannelPartnerLink resource not found because of an
+   * invalid channel partner link name. Return value: The ChannelPartnerLink
+   * resource. (channelPartnerLinks.get)
+   *
+   * @param string $name Required. The resource name of the channel partner link
+   * to retrieve. Name uses the format:
+   * accounts/{account_id}/channelPartnerLinks/{id} where {id} is the Cloud
+   * Identity ID of the partner.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string view Optional. The level of granularity the
+   * ChannelPartnerLink will display.
+   * @return GoogleCloudChannelV1ChannelPartnerLink
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudChannelV1ChannelPartnerLink::class);
+  }
+  /**
+   * List ChannelPartnerLinks belonging to a distributor. You must be a
+   * distributor to call this method. Possible error codes: * PERMISSION_DENIED:
+   * The reseller account making the request is different from the reseller
+   * account in the API request. * INVALID_ARGUMENT: Required request parameters
+   * are missing or invalid. Return value: The list of the distributor account's
+   * ChannelPartnerLink resources.
+   * (channelPartnerLinks.listAccountsChannelPartnerLinks)
+   *
+   * @param string $parent Required. The resource name of the reseller account for
+   * listing channel partner links. Parent uses the format: accounts/{account_id}
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Optional. Requested page size. Server might return
+   * fewer results than requested. If unspecified, server will pick a default size
+   * (25). The maximum value is 200; the server will coerce values above 200.
+   * @opt_param string pageToken Optional. A token for a page of results other
+   * than the first page. Obtained using
+   * ListChannelPartnerLinksResponse.next_page_token of the previous
+   * CloudChannelService.ListChannelPartnerLinks call.
+   * @opt_param string view Optional. The level of granularity the
+   * ChannelPartnerLink will display.
+   * @return GoogleCloudChannelV1ListChannelPartnerLinksResponse
+   */
+  public function listAccountsChannelPartnerLinks($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleCloudChannelV1ListChannelPartnerLinksResponse::class);
+  }
+  /**
+   * Updates a channel partner link. Distributors call this method to change a
+   * link's status. For example, to suspend a partner link. You must be a
+   * distributor to call this method. Possible error codes: * PERMISSION_DENIED:
+   * The reseller account making the request is different from the reseller
+   * account in the API request. * INVALID_ARGUMENT: * Required request parameters
+   * are missing or invalid. * Link state cannot change from invited to active or
+   * suspended. * Cannot send reseller_cloud_identity_id, invite_url, or name in
+   * update mask. * NOT_FOUND: ChannelPartnerLink resource not found. * INTERNAL:
+   * Any non-user error related to a technical issue in the backend. Contact Cloud
+   * Channel support. * UNKNOWN: Any non-user error related to a technical issue
+   * in the backend. Contact Cloud Channel support. Return value: The updated
+   * ChannelPartnerLink resource. (channelPartnerLinks.patch)
+   *
+   * @param string $name Required. The resource name of the channel partner link
+   * to cancel. Name uses the format:
+   * accounts/{account_id}/channelPartnerLinks/{id} where {id} is the Cloud
+   * Identity ID of the partner.
+   * @param GoogleCloudChannelV1UpdateChannelPartnerLinkRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudChannelV1ChannelPartnerLink
+   */
+  public function patch($name, GoogleCloudChannelV1UpdateChannelPartnerLinkRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], GoogleCloudChannelV1ChannelPartnerLink::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AccountsChannelPartnerLinks::class, 'Google_Service_Cloudchannel_Resource_AccountsChannelPartnerLinks');

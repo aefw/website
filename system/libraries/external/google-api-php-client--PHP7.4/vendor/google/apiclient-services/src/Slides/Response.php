@@ -1,91 +1,218 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPswZIYt6Eqy3xsVV3kYuwGbAOjK0qzr48Bp8msVsd63GOD6eDiJ4bEXrXXAwb91NDQlFzoki
-JHZQH2vphYzW7/LJa/17hWy0fTJ41h8dsEX/xZQjBXgYIBYdsMydzmu/K+Hl7wriYU6zZh/zjDwi
-zTt1u9VIBtovVVf4cHMeVl3Gh5C950UtxIzUh5t0hBg34pEeSmBVImxy8nPwTJIUAvSAVXERcTcj
-ThHyl6d1aM6rd08LJyM5h1URhnjdbSC9xqZjBg+LKUruyfUCefgBhsUi6k9mKourL8IeB86cFae5
-vLKsSuOCqVPbAsPFBnc8r5ldIVylBDPUUSPGA+7my3BFCEYhlv9GLh7Eeh5b7avyEG6wLfnBZQuL
-zMMXTlxHA+BnszZzTTunnIHn58clqbQraaRTCE3ec+9GNFEHtjfD6+fmngQvjNV+ZXrj4Y5dZ0uN
-KT8hJEBXek1wY2s4YYYZRcptZzAXauPbD0MH6wxJvDMAU+RHwvccB+QDJD/EopXEvSVE0Unz5DG2
-GZd/TyktqvW2q2LRM8KbSxHrwp+ua5/9vzmq4y0kmE5R/86vld5tTCYyis9Wp8jLBgwsqCOAt/44
-EteCogDJvvPY8pwz4uTO1LbwGQzT5HYZeevC/W78l+jmWHHNrgo4UgOZRR1TmRK69IO127Jo/bmR
-sD+SwnPXiABrIuRfwuGkzzSfrGEzuuirzJrA07+63GhPw0C6vlPwgUFLhx4cvXGbFuTDxTkTpB52
-r7UhHuX9YMGnyViMa0hqVwR5TuGC9a4oijuRBQV5Eb9ZLtsClYNl0qun9Xfwb2PPq6VkemWBbpau
-e1UWC80soIdQ2RuUFVWLTZ34m/6TxiQXMAFhwFrp7eEg0S5yngq/QUb3Eaz8Gsxa/Ge8tV9dn3qO
-1mrdRnORY1Xo2R2R1VJ2JNbBSRuaBdYsd5W93cURXO9YnO7SmLrsUnFjVJhd3EuQnjpTI1A8wbp6
-SuEkfcckfBgeVFrljy9+FvV8ql4uU1B/L5hed/6DgqkOltNRokq4UjffpAv3HJji09V7jtc91U8N
-IVFMthKhIejh1tA8wYk/oHcG/zL9CpK+7A7G/MBgLSbYr/cbQPcEOWaOL5CtuNt3uxaCHE062Y2D
-8BFtPNV4hvA9tli0RKU5ulE9kueJ0rfjsjv/vbCRolfgX3VpUK7VJrMSQhMBzxCZLpMqcC7bY90i
-M8wI350eE9RNON3s2wbhe0nq9NMezb0DMOaURp17NEL3E9yWAYY/BYETWu+9oa8UkATYdzIE/MTq
-OqZRAzu6KinZMWX9nxRcwYOA5KaSTj92HcPKfDX8HZ+wcyXOjk5Ob+XMIrwTms386rDA2//GEGSu
-xSJO9k8a5cLJLhUT6QD+r0jEucDvsOzYihi7RMJG5HLMzgS0H8lFZWu/x7hZMtC9dMWXX1Afytpq
-9mhPAyFLvHrftiY2NvqCkqKRTZNYdDnKO4oaFxP2UByink8iyCRtUk8w9WE1ZwZ6xVDRuNNZ4hTn
-HNTcNzQHaqHI7Ym9m2cYNEYvnNtDrl0Ii9hXAFgHhof9df4oUnAvDPQpW0Rr3yNRkNztLllHQl3/
-fUWkMduaCkagN4EotHU1whGWS00tPY5ylofcAdghBezCr0aJlMFNPD9pXbrFjyhyKe6RlvsDXIcL
-y4M2bZy1k3jAO39LkHdF2MiUyxarfPaYfECfI2jfHlCiazadq00anTXEPIk5QmCGml4ISv+w25Ug
-WiWB3Bs/ZQ5QfhN1fZJ/CyReEgn9T+YGDdqVvnwPPhlD+gO3dKDXfE2TRF46QuWOkr5DKwUvNbBw
-GNDp72qZZT5PThqSKyIF1Ttw6z9jqZYzugM7vjg8Pepc5DBphSCkL1x1+yeL80Hu0+TSYSWdjAgJ
-2phTcuyFq1XNXRqqa7DWw3E+WjHjMW/K8kcW4t/1uOTQryymHhY1mFGEt60AJUOK4W9SDZHvrVCN
-kR4rD0fEMdna8hQyoBNwciu2pMB35rfqbVd6mRRgHiBjHZbmgJrPDjituOoi4kWvtY6NJm+RtXN/
-hFlWhx4alfCRdBOrUmVcB10D1TbkzcYVFwqWMud6xlHSucO+aO5fZltbhLX4XyGcO7fJegoyG8QL
-o7oPRtPZD7xexaZz4ycHezYRRZUEMJP9g4FKkRopAgSoErWV291di7aCky9vRqzUkryvUU/8V9b0
-gK3lpE0I7tLh2N/RlXEKsG0b0ucKlxnqiJcqrhYM9Ta977Sd+rscBDvXCMnNZRcQP/30LHmjKtCp
-7pgpisvg5R38BGBflzzz726ghuTqkwxt/qHzMxGjnWzQRbrKGtblRLkk4YlKY5ptSLTNCpFRi44P
-ljU37SmsqZTn2CQKs5Waihs0N16tsIS54m0tSVzoDdafUbFE4R0+EdFN2SCr009/K8y1OnCsJpUZ
-aFHyqydvVj7CH9E2TOFaxJYHnnVvi5Dgy2VJBinFCRKfKP2fmpHbqTgLJw0krrsUvEggPe2jgLWC
-iQDMDzJkclUAUJbGEhrpDW+IkK+hOtq8pSg1bth9A1fU229FgmSY+SkWHYDkT7LoByOELp0Mc64o
-Fcczt+bRdlzEgmDjYNotTk4Kgj94/ao88fcUBL2PlsCPA/9uBbfdouNjhtt/GKdtIam8NIjZENsF
-giKS49f9Sv8gorBAwz1tc636d11PxMqMNpjANFuStlZEekcvO+GD2bM4FNiO7H2e2H15IuaW4HPh
-/sTWvvmR8qO+XDfnSO+Oc45V/Dy7ddCY3ghBSODv9ElTV2AfpTLq8CojUMGD1Lqa0y0sXAWYz0VA
-otGCEvuj/VkBSzXY39VTkpfGCTOg17inbklP7VzgAr4LxoYm/8FX1Cqzee4Zo/tcExpJbmJAUhj5
-SYLRNYeElKW1KYHg4nSv9UVvLTeQT2YlGqQOuU8qjabA17xjNkMkIitl1vVjsP+ZKeYbyumireL1
-MH2PBYRdvkcv7iblvdFXYBbEguuRG+eaSkBC0U76qx6y+/Oo/R8HgkkdSbt+a6EEH55kiGJa7lM5
-fGmSjDuGv5mTbq3+H9n+lGR5aSAj1RDHWMfTFterGCnjrNTwDTpM9T0DZRzjAt94WwXU3Rt6Bai8
-mKIYabFC/DdEQGJSfzm8G2AU/tETkW9TIOkQB4t9lT6faCv4OQ4N6BcLhR7vXnYvBYjhvr7lHrr2
-6OCdUmFN2RCQAWjp5OgzsFICYNzUJq3R0C+cbXJwLkaFU442Siw1I81Xwhh3RVp4DprnaflttWSe
-a7swOO9Var/+TbojPKlj37xy1u+U11g8USnQV6OiulQdWpzSxDU7UXzA83YXlELG9C7+bjl7+E4F
-d2sBwHSbXaPDQMuZQXyXx9sKg7hO2lAmUK2nTTLAwBWcDRVL3dWNrZ9geWDz9IqXrwdOQMRMSng8
-eNHLC/+3RVCl0ufgWfUhYu82h4AKUVc9KUX2mmcJZQ9rwObMua8oDlbUSQvOmdrh1hWRlTWJ1DIZ
-/0jps/hg6xXfnpsBQtE0dhyBK9BNKdRRhVADZPYv1js/MDj1xobU1+FdbHAYqQZQRyYTDOZb16JX
-IQTcqMC0KH/MWq/n+KdLrZjh0ZbgrFxFEziSKREA0CqiZs+s2gvqFs0XuP8IT1C8cKZTvITyjyZB
-ffHYWiraXoIjDeFyisTYL8eNqdAqxDLtJ/lrrAnkl1WB0itdc4sNNlCpSG8/vNoXKcz2PGOwQBAL
-nkVYfh1GKHtV068EcHcvXbsR1IZnp6HcDOULHRv/AW9zfAmsZUnB/l2GjkYwvgYSB0lIwSnJfUtT
-IGsriOGKf8eUzO2VS9OEpTZSNJK20Dc7mSukyXep4SCKeFltkNZlZq2ttYnXNF5pabnDyhaFqfQC
-tylf+bBAhvR5ULL1XYW9bW7bo4g+4lmFsG3n+UtY5hdL2v5bnIxi2+E6DBDge1NPQdr03VCmagLT
-ZLfZGFJuUY/uncgtNUNR2yZzWqL+ADHIfmxGdG4QMXmbHXbMrf4hb5wJxJZDiCRVLN2AmHV9gPzZ
-OtYNK8Ds4Ruwc0mwmPELvWVLN6Cv2Zae9hMQ5URDmWoZn37ICpKJyhQJTpUTdaOSOErvE1PzIMGv
-B5zmiIwUcqW4MiAiGeWPAVf+WXTSEYOor+DvI/MRT/6BxXcHxRtmeU6Wve65Jtu0tNkBsXPnQWky
-V2f0xsJG6u0z377fxoBYmRfSoS5mAKytwL2V725n5kri7S/+BEQBduaiGjBbhrNbhrkChUe2ninm
-6A+MebRfAXaEG7xsn0L1Eli/tLTKBmbUAmg9dYzrTpkHbsKVsULl1vJ26gE5UwZj3K3Jyw0bMcXI
-DVpFa6Vv+ZSwIaJxkiJUaUSMUN7Xt6hU/23Hvu2KKXBcAHKv1fqzhK36tLIZWpaznXQLerCHcsiR
-3cSiPXmn6aLWbo+9VveeKvWTC+l4aiT2JhOK8rrqddAvmf2xOEAc9HGxdTqwsTt+Pr1BdtOSeqfl
-cHA4wuMWKQRMJ1qSTM4hUFSZ1sJYOrz0h8LyRVjcamzCzaFx2/i3zyDOp4rN8kouHBZqpMG8tfFn
-RhGR1CNYtYjFdYErI1Ox5o2iMtWQNMRWi0dsBoCYjz/UY+WrIQdm5sJ6VL5te5YvvOt6GxlLvFOj
-YHb07aY4yyKEAuXcy7CAjllRKjBN8vYJheZXqRvHvDC5OyAoThafqlp3dfwGI8Bce4sqNSLNK/o1
-u48zaJfIGmewdkBPkeM8uXgp4rY7ML9rPc72hUpsSljDa5/CMxp5dTdafaLtKTcBmedjaVrW4tvz
-wRabAfqw1/6b3yvsiFqbB2Tv40oM+2T4JgXoybkyLbUNOFwPIrtksZAXUlIAQuY4p4/VPSRoZF4A
-vULPpj1hy8UsXWaFpWQOfyaBfqEl3udgCY9Znz3E+P/mhLbUrOdi21K9qp2Pbs+BIKuWSXYmFcqF
-JTI/lnKHgvLebdjSawXBtyzev0yv8cgLcS9g42TiwXWlk4gq/vWSiqKbbH8XvbgIAc0DGHDkMBiC
-qAMzcLuvNWUORch+Tq2cvvRG/8qnKsIjcHpRauVQO+hVrYKvKTeGEkTOBzyRlngrMGQJHLylNUfF
-GAaLx/Xuw4S7Icuz+Df9XUIEiY1k8uVAoAfamD6Mzbg2kyjDpQ+pqiuEwsijhvTAAXq7SYyOUgUl
-wvqdT0++h/quyj7D9dQleCjwvxoKzbJdtq8YJsblLbL4FcsKook2K9yTUlfCZP6V3r0Z0Zkndta+
-hJ04xq2AzHzPdlCgwcfYMjp5I8tEgwtvHM78tX5NOLsDK2H7ZUCrIDabuEOTdlG95Mc/VQ8cLd1+
-SZgntAcnhWCXQMs3fKRbQemQyaI6apJfq2LJ0M2YqHYJvutPkfeqjVCfdPBiv0P/T5eUayMwxiLD
-jT/YzndNx/aYmckNGA8pdXKTm5TcJuk3GiMAvOfM2KDHb0+x0hE99YWYjdiVK5EfqLsVgLfT2Ky9
-gm66D4cHEqRmef7oEscxtH5zPgZozbZnm4Ka5XSJPrLdZOB1+Z6TJtwukG8mM+7Bu3cMkfOs7+Va
-v/T5vukDR1a2PEOmB1sAp4h/mGj5+IPc7IK6eG0lK2BcOONZOJqzVTgeFlgU0+TcnnboW/eoDMzJ
-rTWEtIE675BLrR2Sf6tumiqi2xShMD4FHspsu47YtaDkf7QtzJwHD7cufuwCBDszcFP6Ex7d+anU
-cqPAetIKTqeu7z8m3Hci9J8DJeUryMp2a9nlM4XPxmrpiIdPc++A5yEp86yNIaueXtRQRIujRHw4
-OvHhKf+0ickNpJUxB3A2lu6dTNTaJsU3/ssxChJfl9VzOCftU/uCYYsShd04IDySsr95pkWCocnP
-Kg5MKkhC8a3hGad2L6UkOjjCEb1iJwBsYP1jwLCclkpDt9Kh5/tfV3zuxVFIobf7vIgt0Lc0e9rB
-/JADnc8B0L3+WpJeErto3PVLMN6Ekg31KixD9TcMAZ2iSonPoFU2ymB3KRSI6P1xIW8NadeRU7Hz
-r5xMZxwk+gvQp7aVCXnhHS4lR1weziP0CyuOz5bGLiiKhOSdwU4SoJudUGT6J18cw0zn8rWF8Hvf
-zuba9HTuqIsih1o5w5fOxqd2zsnAbltV2de38AXZiB8GabW3iTbOgRjTzAq/Cn9BvaazUjb14iSh
-4MYTG3GKGtbO04Td6A22gfF4gupr31r27N2LKR5YdF9v0LSSvFa8B3Q9UJhAi4Nax+s3xfb/KWcC
-zM1IsiB17fVV4fSTB2Tcr8yk5UlloO8LF+ltWJvw948GcNwerFqID6Ph7dFr3lZc40K4uwPnqTS/
-nbXxtGA/34q2cUXHCqoXhkFY5jafnnuOm/U0M56a+aFAQeAxV5OB2JHyV+bqZVRwAFGrAThiIW1Z
-CeG4g8jviu8b/ZJDNfIi4LPW3vS2AFhk4iD+rEHJlLTbFHdWfbTTAFAq9B2isNxjhxtYw3S=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Slides;
+
+class Response extends \Google\Model
+{
+  protected $createImageType = CreateImageResponse::class;
+  protected $createImageDataType = '';
+  protected $createLineType = CreateLineResponse::class;
+  protected $createLineDataType = '';
+  protected $createShapeType = CreateShapeResponse::class;
+  protected $createShapeDataType = '';
+  protected $createSheetsChartType = CreateSheetsChartResponse::class;
+  protected $createSheetsChartDataType = '';
+  protected $createSlideType = CreateSlideResponse::class;
+  protected $createSlideDataType = '';
+  protected $createTableType = CreateTableResponse::class;
+  protected $createTableDataType = '';
+  protected $createVideoType = CreateVideoResponse::class;
+  protected $createVideoDataType = '';
+  protected $duplicateObjectType = DuplicateObjectResponse::class;
+  protected $duplicateObjectDataType = '';
+  protected $groupObjectsType = GroupObjectsResponse::class;
+  protected $groupObjectsDataType = '';
+  protected $replaceAllShapesWithImageType = ReplaceAllShapesWithImageResponse::class;
+  protected $replaceAllShapesWithImageDataType = '';
+  protected $replaceAllShapesWithSheetsChartType = ReplaceAllShapesWithSheetsChartResponse::class;
+  protected $replaceAllShapesWithSheetsChartDataType = '';
+  protected $replaceAllTextType = ReplaceAllTextResponse::class;
+  protected $replaceAllTextDataType = '';
+
+  /**
+   * @param CreateImageResponse
+   */
+  public function setCreateImage(CreateImageResponse $createImage)
+  {
+    $this->createImage = $createImage;
+  }
+  /**
+   * @return CreateImageResponse
+   */
+  public function getCreateImage()
+  {
+    return $this->createImage;
+  }
+  /**
+   * @param CreateLineResponse
+   */
+  public function setCreateLine(CreateLineResponse $createLine)
+  {
+    $this->createLine = $createLine;
+  }
+  /**
+   * @return CreateLineResponse
+   */
+  public function getCreateLine()
+  {
+    return $this->createLine;
+  }
+  /**
+   * @param CreateShapeResponse
+   */
+  public function setCreateShape(CreateShapeResponse $createShape)
+  {
+    $this->createShape = $createShape;
+  }
+  /**
+   * @return CreateShapeResponse
+   */
+  public function getCreateShape()
+  {
+    return $this->createShape;
+  }
+  /**
+   * @param CreateSheetsChartResponse
+   */
+  public function setCreateSheetsChart(CreateSheetsChartResponse $createSheetsChart)
+  {
+    $this->createSheetsChart = $createSheetsChart;
+  }
+  /**
+   * @return CreateSheetsChartResponse
+   */
+  public function getCreateSheetsChart()
+  {
+    return $this->createSheetsChart;
+  }
+  /**
+   * @param CreateSlideResponse
+   */
+  public function setCreateSlide(CreateSlideResponse $createSlide)
+  {
+    $this->createSlide = $createSlide;
+  }
+  /**
+   * @return CreateSlideResponse
+   */
+  public function getCreateSlide()
+  {
+    return $this->createSlide;
+  }
+  /**
+   * @param CreateTableResponse
+   */
+  public function setCreateTable(CreateTableResponse $createTable)
+  {
+    $this->createTable = $createTable;
+  }
+  /**
+   * @return CreateTableResponse
+   */
+  public function getCreateTable()
+  {
+    return $this->createTable;
+  }
+  /**
+   * @param CreateVideoResponse
+   */
+  public function setCreateVideo(CreateVideoResponse $createVideo)
+  {
+    $this->createVideo = $createVideo;
+  }
+  /**
+   * @return CreateVideoResponse
+   */
+  public function getCreateVideo()
+  {
+    return $this->createVideo;
+  }
+  /**
+   * @param DuplicateObjectResponse
+   */
+  public function setDuplicateObject(DuplicateObjectResponse $duplicateObject)
+  {
+    $this->duplicateObject = $duplicateObject;
+  }
+  /**
+   * @return DuplicateObjectResponse
+   */
+  public function getDuplicateObject()
+  {
+    return $this->duplicateObject;
+  }
+  /**
+   * @param GroupObjectsResponse
+   */
+  public function setGroupObjects(GroupObjectsResponse $groupObjects)
+  {
+    $this->groupObjects = $groupObjects;
+  }
+  /**
+   * @return GroupObjectsResponse
+   */
+  public function getGroupObjects()
+  {
+    return $this->groupObjects;
+  }
+  /**
+   * @param ReplaceAllShapesWithImageResponse
+   */
+  public function setReplaceAllShapesWithImage(ReplaceAllShapesWithImageResponse $replaceAllShapesWithImage)
+  {
+    $this->replaceAllShapesWithImage = $replaceAllShapesWithImage;
+  }
+  /**
+   * @return ReplaceAllShapesWithImageResponse
+   */
+  public function getReplaceAllShapesWithImage()
+  {
+    return $this->replaceAllShapesWithImage;
+  }
+  /**
+   * @param ReplaceAllShapesWithSheetsChartResponse
+   */
+  public function setReplaceAllShapesWithSheetsChart(ReplaceAllShapesWithSheetsChartResponse $replaceAllShapesWithSheetsChart)
+  {
+    $this->replaceAllShapesWithSheetsChart = $replaceAllShapesWithSheetsChart;
+  }
+  /**
+   * @return ReplaceAllShapesWithSheetsChartResponse
+   */
+  public function getReplaceAllShapesWithSheetsChart()
+  {
+    return $this->replaceAllShapesWithSheetsChart;
+  }
+  /**
+   * @param ReplaceAllTextResponse
+   */
+  public function setReplaceAllText(ReplaceAllTextResponse $replaceAllText)
+  {
+    $this->replaceAllText = $replaceAllText;
+  }
+  /**
+   * @return ReplaceAllTextResponse
+   */
+  public function getReplaceAllText()
+  {
+    return $this->replaceAllText;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Response::class, 'Google_Service_Slides_Response');

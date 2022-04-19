@@ -1,65 +1,103 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-A6Q0z7yzlHwszvNGk+sl5mHRTW==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Script;
+
+class Project extends \Google\Model
+{
+  public $createTime;
+  protected $creatorType = GoogleAppsScriptTypeUser::class;
+  protected $creatorDataType = '';
+  protected $lastModifyUserType = GoogleAppsScriptTypeUser::class;
+  protected $lastModifyUserDataType = '';
+  public $parentId;
+  public $scriptId;
+  public $title;
+  public $updateTime;
+
+  public function setCreateTime($createTime)
+  {
+    $this->createTime = $createTime;
+  }
+  public function getCreateTime()
+  {
+    return $this->createTime;
+  }
+  /**
+   * @param GoogleAppsScriptTypeUser
+   */
+  public function setCreator(GoogleAppsScriptTypeUser $creator)
+  {
+    $this->creator = $creator;
+  }
+  /**
+   * @return GoogleAppsScriptTypeUser
+   */
+  public function getCreator()
+  {
+    return $this->creator;
+  }
+  /**
+   * @param GoogleAppsScriptTypeUser
+   */
+  public function setLastModifyUser(GoogleAppsScriptTypeUser $lastModifyUser)
+  {
+    $this->lastModifyUser = $lastModifyUser;
+  }
+  /**
+   * @return GoogleAppsScriptTypeUser
+   */
+  public function getLastModifyUser()
+  {
+    return $this->lastModifyUser;
+  }
+  public function setParentId($parentId)
+  {
+    $this->parentId = $parentId;
+  }
+  public function getParentId()
+  {
+    return $this->parentId;
+  }
+  public function setScriptId($scriptId)
+  {
+    $this->scriptId = $scriptId;
+  }
+  public function getScriptId()
+  {
+    return $this->scriptId;
+  }
+  public function setTitle($title)
+  {
+    $this->title = $title;
+  }
+  public function getTitle()
+  {
+    return $this->title;
+  }
+  public function setUpdateTime($updateTime)
+  {
+    $this->updateTime = $updateTime;
+  }
+  public function getUpdateTime()
+  {
+    return $this->updateTime;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Project::class, 'Google_Service_Script_Project');

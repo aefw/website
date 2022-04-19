@@ -1,68 +1,95 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-azioOuk+ZTPma49bObn04A9UOhsxvhs+MtVX
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dialogflow;
+
+class GoogleCloudDialogflowCxV3MatchIntentResponse extends \Google\Collection
+{
+  protected $collection_key = 'matches';
+  protected $currentPageType = GoogleCloudDialogflowCxV3Page::class;
+  protected $currentPageDataType = '';
+  protected $matchesType = GoogleCloudDialogflowCxV3Match::class;
+  protected $matchesDataType = 'array';
+  public $text;
+  public $transcript;
+  public $triggerEvent;
+  public $triggerIntent;
+
+  /**
+   * @param GoogleCloudDialogflowCxV3Page
+   */
+  public function setCurrentPage(GoogleCloudDialogflowCxV3Page $currentPage)
+  {
+    $this->currentPage = $currentPage;
+  }
+  /**
+   * @return GoogleCloudDialogflowCxV3Page
+   */
+  public function getCurrentPage()
+  {
+    return $this->currentPage;
+  }
+  /**
+   * @param GoogleCloudDialogflowCxV3Match[]
+   */
+  public function setMatches($matches)
+  {
+    $this->matches = $matches;
+  }
+  /**
+   * @return GoogleCloudDialogflowCxV3Match[]
+   */
+  public function getMatches()
+  {
+    return $this->matches;
+  }
+  public function setText($text)
+  {
+    $this->text = $text;
+  }
+  public function getText()
+  {
+    return $this->text;
+  }
+  public function setTranscript($transcript)
+  {
+    $this->transcript = $transcript;
+  }
+  public function getTranscript()
+  {
+    return $this->transcript;
+  }
+  public function setTriggerEvent($triggerEvent)
+  {
+    $this->triggerEvent = $triggerEvent;
+  }
+  public function getTriggerEvent()
+  {
+    return $this->triggerEvent;
+  }
+  public function setTriggerIntent($triggerIntent)
+  {
+    $this->triggerIntent = $triggerIntent;
+  }
+  public function getTriggerIntent()
+  {
+    return $this->triggerIntent;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudDialogflowCxV3MatchIntentResponse::class, 'Google_Service_Dialogflow_GoogleCloudDialogflowCxV3MatchIntentResponse');

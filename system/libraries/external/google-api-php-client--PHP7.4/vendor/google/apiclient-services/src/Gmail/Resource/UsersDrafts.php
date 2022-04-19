@@ -1,73 +1,140 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Gmail\Resource;
+
+use Google\Service\Gmail\Draft;
+use Google\Service\Gmail\ListDraftsResponse;
+use Google\Service\Gmail\Message;
+
+/**
+ * The "drafts" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $gmailService = new Google\Service\Gmail(...);
+ *   $drafts = $gmailService->drafts;
+ *  </code>
+ */
+class UsersDrafts extends \Google\Service\Resource
+{
+  /**
+   * Creates a new draft with the `DRAFT` label. (drafts.create)
+   *
+   * @param string $userId The user's email address. The special value `me` can be
+   * used to indicate the authenticated user.
+   * @param Draft $postBody
+   * @param array $optParams Optional parameters.
+   * @return Draft
+   */
+  public function create($userId, Draft $postBody, $optParams = [])
+  {
+    $params = ['userId' => $userId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Draft::class);
+  }
+  /**
+   * Immediately and permanently deletes the specified draft. Does not simply
+   * trash it. (drafts.delete)
+   *
+   * @param string $userId The user's email address. The special value `me` can be
+   * used to indicate the authenticated user.
+   * @param string $id The ID of the draft to delete.
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($userId, $id, $optParams = [])
+  {
+    $params = ['userId' => $userId, 'id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Gets the specified draft. (drafts.get)
+   *
+   * @param string $userId The user's email address. The special value `me` can be
+   * used to indicate the authenticated user.
+   * @param string $id The ID of the draft to retrieve.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string format The format to return the draft in.
+   * @return Draft
+   */
+  public function get($userId, $id, $optParams = [])
+  {
+    $params = ['userId' => $userId, 'id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Draft::class);
+  }
+  /**
+   * Lists the drafts in the user's mailbox. (drafts.listUsersDrafts)
+   *
+   * @param string $userId The user's email address. The special value `me` can be
+   * used to indicate the authenticated user.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool includeSpamTrash Include drafts from `SPAM` and `TRASH` in
+   * the results.
+   * @opt_param string maxResults Maximum number of drafts to return. This field
+   * defaults to 100. The maximum allowed value for this field is 500.
+   * @opt_param string pageToken Page token to retrieve a specific page of results
+   * in the list.
+   * @opt_param string q Only return draft messages matching the specified query.
+   * Supports the same query format as the Gmail search box. For example,
+   * `"from:someuser@example.com rfc822msgid: is:unread"`.
+   * @return ListDraftsResponse
+   */
+  public function listUsersDrafts($userId, $optParams = [])
+  {
+    $params = ['userId' => $userId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListDraftsResponse::class);
+  }
+  /**
+   * Sends the specified, existing draft to the recipients in the `To`, `Cc`, and
+   * `Bcc` headers. (drafts.send)
+   *
+   * @param string $userId The user's email address. The special value `me` can be
+   * used to indicate the authenticated user.
+   * @param Draft $postBody
+   * @param array $optParams Optional parameters.
+   * @return Message
+   */
+  public function send($userId, Draft $postBody, $optParams = [])
+  {
+    $params = ['userId' => $userId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('send', [$params], Message::class);
+  }
+  /**
+   * Replaces a draft's content. (drafts.update)
+   *
+   * @param string $userId The user's email address. The special value `me` can be
+   * used to indicate the authenticated user.
+   * @param string $id The ID of the draft to update.
+   * @param Draft $postBody
+   * @param array $optParams Optional parameters.
+   * @return Draft
+   */
+  public function update($userId, $id, Draft $postBody, $optParams = [])
+  {
+    $params = ['userId' => $userId, 'id' => $id, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Draft::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(UsersDrafts::class, 'Google_Service_Gmail_Resource_UsersDrafts');

@@ -1,106 +1,213 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-xaq12LwOh9w0Lf4=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dns;
+
+class ManagedZone extends \Google\Collection
+{
+  protected $collection_key = 'nameServers';
+  public $creationTime;
+  public $description;
+  public $dnsName;
+  protected $dnssecConfigType = ManagedZoneDnsSecConfig::class;
+  protected $dnssecConfigDataType = '';
+  protected $forwardingConfigType = ManagedZoneForwardingConfig::class;
+  protected $forwardingConfigDataType = '';
+  public $id;
+  public $kind;
+  public $labels;
+  public $name;
+  public $nameServerSet;
+  public $nameServers;
+  protected $peeringConfigType = ManagedZonePeeringConfig::class;
+  protected $peeringConfigDataType = '';
+  protected $privateVisibilityConfigType = ManagedZonePrivateVisibilityConfig::class;
+  protected $privateVisibilityConfigDataType = '';
+  protected $reverseLookupConfigType = ManagedZoneReverseLookupConfig::class;
+  protected $reverseLookupConfigDataType = '';
+  protected $serviceDirectoryConfigType = ManagedZoneServiceDirectoryConfig::class;
+  protected $serviceDirectoryConfigDataType = '';
+  public $visibility;
+
+  public function setCreationTime($creationTime)
+  {
+    $this->creationTime = $creationTime;
+  }
+  public function getCreationTime()
+  {
+    return $this->creationTime;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setDnsName($dnsName)
+  {
+    $this->dnsName = $dnsName;
+  }
+  public function getDnsName()
+  {
+    return $this->dnsName;
+  }
+  /**
+   * @param ManagedZoneDnsSecConfig
+   */
+  public function setDnssecConfig(ManagedZoneDnsSecConfig $dnssecConfig)
+  {
+    $this->dnssecConfig = $dnssecConfig;
+  }
+  /**
+   * @return ManagedZoneDnsSecConfig
+   */
+  public function getDnssecConfig()
+  {
+    return $this->dnssecConfig;
+  }
+  /**
+   * @param ManagedZoneForwardingConfig
+   */
+  public function setForwardingConfig(ManagedZoneForwardingConfig $forwardingConfig)
+  {
+    $this->forwardingConfig = $forwardingConfig;
+  }
+  /**
+   * @return ManagedZoneForwardingConfig
+   */
+  public function getForwardingConfig()
+  {
+    return $this->forwardingConfig;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setLabels($labels)
+  {
+    $this->labels = $labels;
+  }
+  public function getLabels()
+  {
+    return $this->labels;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setNameServerSet($nameServerSet)
+  {
+    $this->nameServerSet = $nameServerSet;
+  }
+  public function getNameServerSet()
+  {
+    return $this->nameServerSet;
+  }
+  public function setNameServers($nameServers)
+  {
+    $this->nameServers = $nameServers;
+  }
+  public function getNameServers()
+  {
+    return $this->nameServers;
+  }
+  /**
+   * @param ManagedZonePeeringConfig
+   */
+  public function setPeeringConfig(ManagedZonePeeringConfig $peeringConfig)
+  {
+    $this->peeringConfig = $peeringConfig;
+  }
+  /**
+   * @return ManagedZonePeeringConfig
+   */
+  public function getPeeringConfig()
+  {
+    return $this->peeringConfig;
+  }
+  /**
+   * @param ManagedZonePrivateVisibilityConfig
+   */
+  public function setPrivateVisibilityConfig(ManagedZonePrivateVisibilityConfig $privateVisibilityConfig)
+  {
+    $this->privateVisibilityConfig = $privateVisibilityConfig;
+  }
+  /**
+   * @return ManagedZonePrivateVisibilityConfig
+   */
+  public function getPrivateVisibilityConfig()
+  {
+    return $this->privateVisibilityConfig;
+  }
+  /**
+   * @param ManagedZoneReverseLookupConfig
+   */
+  public function setReverseLookupConfig(ManagedZoneReverseLookupConfig $reverseLookupConfig)
+  {
+    $this->reverseLookupConfig = $reverseLookupConfig;
+  }
+  /**
+   * @return ManagedZoneReverseLookupConfig
+   */
+  public function getReverseLookupConfig()
+  {
+    return $this->reverseLookupConfig;
+  }
+  /**
+   * @param ManagedZoneServiceDirectoryConfig
+   */
+  public function setServiceDirectoryConfig(ManagedZoneServiceDirectoryConfig $serviceDirectoryConfig)
+  {
+    $this->serviceDirectoryConfig = $serviceDirectoryConfig;
+  }
+  /**
+   * @return ManagedZoneServiceDirectoryConfig
+   */
+  public function getServiceDirectoryConfig()
+  {
+    return $this->serviceDirectoryConfig;
+  }
+  public function setVisibility($visibility)
+  {
+    $this->visibility = $visibility;
+  }
+  public function getVisibility()
+  {
+    return $this->visibility;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ManagedZone::class, 'Google_Service_Dns_ManagedZone');

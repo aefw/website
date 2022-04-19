@@ -1,64 +1,185 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\YouTube\Resource;
+
+use Google\Service\YouTube\Caption;
+use Google\Service\YouTube\CaptionListResponse;
+
+/**
+ * The "captions" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $youtubeService = new Google\Service\YouTube(...);
+ *   $captions = $youtubeService->captions;
+ *  </code>
+ */
+class Captions extends \Google\Service\Resource
+{
+  /**
+   * Deletes a resource. (captions.delete)
+   *
+   * @param string $id
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string onBehalfOf ID of the Google+ Page for the channel that the
+   * request is be on behalf of
+   * @opt_param string onBehalfOfContentOwner *Note:* This parameter is intended
+   * exclusively for YouTube content partners. The *onBehalfOfContentOwner*
+   * parameter indicates that the request's authorization credentials identify a
+   * YouTube CMS user who is acting on behalf of the content owner specified in
+   * the parameter value. This parameter is intended for YouTube content partners
+   * that own and manage many different YouTube channels. It allows content owners
+   * to authenticate once and get access to all their video and channel data,
+   * without having to provide authentication credentials for each individual
+   * channel. The actual CMS account that the user authenticates with must be
+   * linked to the specified YouTube content owner.
+   */
+  public function delete($id, $optParams = [])
+  {
+    $params = ['id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Downloads a caption track. (captions.download)
+   *
+   * @param string $id The ID of the caption track to download, required for One
+   * Platform.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string onBehalfOf ID of the Google+ Page for the channel that the
+   * request is be on behalf of
+   * @opt_param string onBehalfOfContentOwner *Note:* This parameter is intended
+   * exclusively for YouTube content partners. The *onBehalfOfContentOwner*
+   * parameter indicates that the request's authorization credentials identify a
+   * YouTube CMS user who is acting on behalf of the content owner specified in
+   * the parameter value. This parameter is intended for YouTube content partners
+   * that own and manage many different YouTube channels. It allows content owners
+   * to authenticate once and get access to all their video and channel data,
+   * without having to provide authentication credentials for each individual
+   * channel. The actual CMS account that the user authenticates with must be
+   * linked to the specified YouTube content owner.
+   * @opt_param string tfmt Convert the captions into this format. Supported
+   * options are sbv, srt, and vtt.
+   * @opt_param string tlang tlang is the language code; machine translate the
+   * captions into this language.
+   */
+  public function download($id, $optParams = [])
+  {
+    $params = ['id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('download', [$params]);
+  }
+  /**
+   * Inserts a new resource into this collection. (captions.insert)
+   *
+   * @param string|array $part The *part* parameter specifies the caption resource
+   * parts that the API response will include. Set the parameter value to snippet.
+   * @param Caption $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string onBehalfOf ID of the Google+ Page for the channel that the
+   * request is be on behalf of
+   * @opt_param string onBehalfOfContentOwner *Note:* This parameter is intended
+   * exclusively for YouTube content partners. The *onBehalfOfContentOwner*
+   * parameter indicates that the request's authorization credentials identify a
+   * YouTube CMS user who is acting on behalf of the content owner specified in
+   * the parameter value. This parameter is intended for YouTube content partners
+   * that own and manage many different YouTube channels. It allows content owners
+   * to authenticate once and get access to all their video and channel data,
+   * without having to provide authentication credentials for each individual
+   * channel. The actual CMS account that the user authenticates with must be
+   * linked to the specified YouTube content owner.
+   * @opt_param bool sync Extra parameter to allow automatically syncing the
+   * uploaded caption/transcript with the audio.
+   * @return Caption
+   */
+  public function insert($part, Caption $postBody, $optParams = [])
+  {
+    $params = ['part' => $part, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Caption::class);
+  }
+  /**
+   * Retrieves a list of resources, possibly filtered. (captions.listCaptions)
+   *
+   * @param string|array $part The *part* parameter specifies a comma-separated
+   * list of one or more caption resource parts that the API response will
+   * include. The part names that you can include in the parameter value are id
+   * and snippet.
+   * @param string $videoId Returns the captions for the specified video.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string id Returns the captions with the given IDs for Stubby or
+   * Apiary.
+   * @opt_param string onBehalfOf ID of the Google+ Page for the channel that the
+   * request is on behalf of.
+   * @opt_param string onBehalfOfContentOwner *Note:* This parameter is intended
+   * exclusively for YouTube content partners. The *onBehalfOfContentOwner*
+   * parameter indicates that the request's authorization credentials identify a
+   * YouTube CMS user who is acting on behalf of the content owner specified in
+   * the parameter value. This parameter is intended for YouTube content partners
+   * that own and manage many different YouTube channels. It allows content owners
+   * to authenticate once and get access to all their video and channel data,
+   * without having to provide authentication credentials for each individual
+   * channel. The actual CMS account that the user authenticates with must be
+   * linked to the specified YouTube content owner.
+   * @return CaptionListResponse
+   */
+  public function listCaptions($part, $videoId, $optParams = [])
+  {
+    $params = ['part' => $part, 'videoId' => $videoId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], CaptionListResponse::class);
+  }
+  /**
+   * Updates an existing resource. (captions.update)
+   *
+   * @param string|array $part The *part* parameter specifies a comma-separated
+   * list of one or more caption resource parts that the API response will
+   * include. The part names that you can include in the parameter value are id
+   * and snippet.
+   * @param Caption $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string onBehalfOf ID of the Google+ Page for the channel that the
+   * request is on behalf of.
+   * @opt_param string onBehalfOfContentOwner *Note:* This parameter is intended
+   * exclusively for YouTube content partners. The *onBehalfOfContentOwner*
+   * parameter indicates that the request's authorization credentials identify a
+   * YouTube CMS user who is acting on behalf of the content owner specified in
+   * the parameter value. This parameter is intended for YouTube content partners
+   * that own and manage many different YouTube channels. It allows content owners
+   * to authenticate once and get access to all their video and channel data,
+   * without having to provide authentication credentials for each individual
+   * channel. The actual CMS account that the user authenticates with must be
+   * linked to the specified YouTube content owner.
+   * @opt_param bool sync Extra parameter to allow automatically syncing the
+   * uploaded caption/transcript with the audio.
+   * @return Caption
+   */
+  public function update($part, Caption $postBody, $optParams = [])
+  {
+    $params = ['part' => $part, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Caption::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Captions::class, 'Google_Service_YouTube_Resource_Captions');

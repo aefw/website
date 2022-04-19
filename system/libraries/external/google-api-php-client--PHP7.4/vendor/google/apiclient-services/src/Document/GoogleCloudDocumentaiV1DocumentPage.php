@@ -1,99 +1,244 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-zbOs9x2gjXpj
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Document;
+
+class GoogleCloudDocumentaiV1DocumentPage extends \Google\Collection
+{
+  protected $collection_key = 'visualElements';
+  protected $blocksType = GoogleCloudDocumentaiV1DocumentPageBlock::class;
+  protected $blocksDataType = 'array';
+  protected $detectedLanguagesType = GoogleCloudDocumentaiV1DocumentPageDetectedLanguage::class;
+  protected $detectedLanguagesDataType = 'array';
+  protected $dimensionType = GoogleCloudDocumentaiV1DocumentPageDimension::class;
+  protected $dimensionDataType = '';
+  protected $formFieldsType = GoogleCloudDocumentaiV1DocumentPageFormField::class;
+  protected $formFieldsDataType = 'array';
+  protected $imageType = GoogleCloudDocumentaiV1DocumentPageImage::class;
+  protected $imageDataType = '';
+  protected $layoutType = GoogleCloudDocumentaiV1DocumentPageLayout::class;
+  protected $layoutDataType = '';
+  protected $linesType = GoogleCloudDocumentaiV1DocumentPageLine::class;
+  protected $linesDataType = 'array';
+  public $pageNumber;
+  protected $paragraphsType = GoogleCloudDocumentaiV1DocumentPageParagraph::class;
+  protected $paragraphsDataType = 'array';
+  protected $provenanceType = GoogleCloudDocumentaiV1DocumentProvenance::class;
+  protected $provenanceDataType = '';
+  protected $tablesType = GoogleCloudDocumentaiV1DocumentPageTable::class;
+  protected $tablesDataType = 'array';
+  protected $tokensType = GoogleCloudDocumentaiV1DocumentPageToken::class;
+  protected $tokensDataType = 'array';
+  protected $transformsType = GoogleCloudDocumentaiV1DocumentPageMatrix::class;
+  protected $transformsDataType = 'array';
+  protected $visualElementsType = GoogleCloudDocumentaiV1DocumentPageVisualElement::class;
+  protected $visualElementsDataType = 'array';
+
+  /**
+   * @param GoogleCloudDocumentaiV1DocumentPageBlock[]
+   */
+  public function setBlocks($blocks)
+  {
+    $this->blocks = $blocks;
+  }
+  /**
+   * @return GoogleCloudDocumentaiV1DocumentPageBlock[]
+   */
+  public function getBlocks()
+  {
+    return $this->blocks;
+  }
+  /**
+   * @param GoogleCloudDocumentaiV1DocumentPageDetectedLanguage[]
+   */
+  public function setDetectedLanguages($detectedLanguages)
+  {
+    $this->detectedLanguages = $detectedLanguages;
+  }
+  /**
+   * @return GoogleCloudDocumentaiV1DocumentPageDetectedLanguage[]
+   */
+  public function getDetectedLanguages()
+  {
+    return $this->detectedLanguages;
+  }
+  /**
+   * @param GoogleCloudDocumentaiV1DocumentPageDimension
+   */
+  public function setDimension(GoogleCloudDocumentaiV1DocumentPageDimension $dimension)
+  {
+    $this->dimension = $dimension;
+  }
+  /**
+   * @return GoogleCloudDocumentaiV1DocumentPageDimension
+   */
+  public function getDimension()
+  {
+    return $this->dimension;
+  }
+  /**
+   * @param GoogleCloudDocumentaiV1DocumentPageFormField[]
+   */
+  public function setFormFields($formFields)
+  {
+    $this->formFields = $formFields;
+  }
+  /**
+   * @return GoogleCloudDocumentaiV1DocumentPageFormField[]
+   */
+  public function getFormFields()
+  {
+    return $this->formFields;
+  }
+  /**
+   * @param GoogleCloudDocumentaiV1DocumentPageImage
+   */
+  public function setImage(GoogleCloudDocumentaiV1DocumentPageImage $image)
+  {
+    $this->image = $image;
+  }
+  /**
+   * @return GoogleCloudDocumentaiV1DocumentPageImage
+   */
+  public function getImage()
+  {
+    return $this->image;
+  }
+  /**
+   * @param GoogleCloudDocumentaiV1DocumentPageLayout
+   */
+  public function setLayout(GoogleCloudDocumentaiV1DocumentPageLayout $layout)
+  {
+    $this->layout = $layout;
+  }
+  /**
+   * @return GoogleCloudDocumentaiV1DocumentPageLayout
+   */
+  public function getLayout()
+  {
+    return $this->layout;
+  }
+  /**
+   * @param GoogleCloudDocumentaiV1DocumentPageLine[]
+   */
+  public function setLines($lines)
+  {
+    $this->lines = $lines;
+  }
+  /**
+   * @return GoogleCloudDocumentaiV1DocumentPageLine[]
+   */
+  public function getLines()
+  {
+    return $this->lines;
+  }
+  public function setPageNumber($pageNumber)
+  {
+    $this->pageNumber = $pageNumber;
+  }
+  public function getPageNumber()
+  {
+    return $this->pageNumber;
+  }
+  /**
+   * @param GoogleCloudDocumentaiV1DocumentPageParagraph[]
+   */
+  public function setParagraphs($paragraphs)
+  {
+    $this->paragraphs = $paragraphs;
+  }
+  /**
+   * @return GoogleCloudDocumentaiV1DocumentPageParagraph[]
+   */
+  public function getParagraphs()
+  {
+    return $this->paragraphs;
+  }
+  /**
+   * @param GoogleCloudDocumentaiV1DocumentProvenance
+   */
+  public function setProvenance(GoogleCloudDocumentaiV1DocumentProvenance $provenance)
+  {
+    $this->provenance = $provenance;
+  }
+  /**
+   * @return GoogleCloudDocumentaiV1DocumentProvenance
+   */
+  public function getProvenance()
+  {
+    return $this->provenance;
+  }
+  /**
+   * @param GoogleCloudDocumentaiV1DocumentPageTable[]
+   */
+  public function setTables($tables)
+  {
+    $this->tables = $tables;
+  }
+  /**
+   * @return GoogleCloudDocumentaiV1DocumentPageTable[]
+   */
+  public function getTables()
+  {
+    return $this->tables;
+  }
+  /**
+   * @param GoogleCloudDocumentaiV1DocumentPageToken[]
+   */
+  public function setTokens($tokens)
+  {
+    $this->tokens = $tokens;
+  }
+  /**
+   * @return GoogleCloudDocumentaiV1DocumentPageToken[]
+   */
+  public function getTokens()
+  {
+    return $this->tokens;
+  }
+  /**
+   * @param GoogleCloudDocumentaiV1DocumentPageMatrix[]
+   */
+  public function setTransforms($transforms)
+  {
+    $this->transforms = $transforms;
+  }
+  /**
+   * @return GoogleCloudDocumentaiV1DocumentPageMatrix[]
+   */
+  public function getTransforms()
+  {
+    return $this->transforms;
+  }
+  /**
+   * @param GoogleCloudDocumentaiV1DocumentPageVisualElement[]
+   */
+  public function setVisualElements($visualElements)
+  {
+    $this->visualElements = $visualElements;
+  }
+  /**
+   * @return GoogleCloudDocumentaiV1DocumentPageVisualElement[]
+   */
+  public function getVisualElements()
+  {
+    return $this->visualElements;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudDocumentaiV1DocumentPage::class, 'Google_Service_Document_GoogleCloudDocumentaiV1DocumentPage');

@@ -1,61 +1,148 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2015 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+namespace Google\Auth\Middleware;
+
+use Google\Auth\FetchAuthTokenInterface;
+use Google\Auth\GetQuotaProjectInterface;
+use Psr\Http\Message\RequestInterface;
+
+/**
+ * AuthTokenMiddleware is a Guzzle Middleware that adds an Authorization header
+ * provided by an object implementing FetchAuthTokenInterface.
+ *
+ * The FetchAuthTokenInterface#fetchAuthToken is used to obtain a hash; one of
+ * the values value in that hash is added as the authorization header.
+ *
+ * Requests will be accessed with the authorization header:
+ *
+ * 'authorization' 'Bearer <value of auth_token>'
+ */
+class AuthTokenMiddleware
+{
+    /**
+     * @var callback
+     */
+    private $httpHandler;
+
+    /**
+     * @var FetchAuthTokenInterface
+     */
+    private $fetcher;
+
+    /**
+     * @var callable
+     */
+    private $tokenCallback;
+
+    /**
+     * Creates a new AuthTokenMiddleware.
+     *
+     * @param FetchAuthTokenInterface $fetcher is used to fetch the auth token
+     * @param callable $httpHandler (optional) callback which delivers psr7 request
+     * @param callable $tokenCallback (optional) function to be called when a new token is fetched.
+     */
+    public function __construct(
+        FetchAuthTokenInterface $fetcher,
+        callable $httpHandler = null,
+        callable $tokenCallback = null
+    ) {
+        $this->fetcher = $fetcher;
+        $this->httpHandler = $httpHandler;
+        $this->tokenCallback = $tokenCallback;
+    }
+
+    /**
+     * Updates the request with an Authorization header when auth is 'google_auth'.
+     *
+     *   use Google\Auth\Middleware\AuthTokenMiddleware;
+     *   use Google\Auth\OAuth2;
+     *   use GuzzleHttp\Client;
+     *   use GuzzleHttp\HandlerStack;
+     *
+     *   $config = [..<oauth config param>.];
+     *   $oauth2 = new OAuth2($config)
+     *   $middleware = new AuthTokenMiddleware($oauth2);
+     *   $stack = HandlerStack::create();
+     *   $stack->push($middleware);
+     *
+     *   $client = new Client([
+     *       'handler' => $stack,
+     *       'base_uri' => 'https://www.googleapis.com/taskqueue/v1beta2/projects/',
+     *       'auth' => 'google_auth' // authorize all requests
+     *   ]);
+     *
+     *   $res = $client->get('myproject/taskqueues/myqueue');
+     *
+     * @param callable $handler
+     * @return \Closure
+     */
+    public function __invoke(callable $handler)
+    {
+        return function (RequestInterface $request, array $options) use ($handler) {
+            // Requests using "auth"="google_auth" will be authorized.
+            if (!isset($options['auth']) || $options['auth'] !== 'google_auth') {
+                return $handler($request, $options);
+            }
+
+            $request = $request->withHeader('authorization', 'Bearer ' . $this->fetchToken());
+
+            if ($quotaProject = $this->getQuotaProject()) {
+                $request = $request->withHeader(
+                    GetQuotaProjectInterface::X_GOOG_USER_PROJECT_HEADER,
+                    $quotaProject
+                );
+            }
+
+            return $handler($request, $options);
+        };
+    }
+
+    /**
+     * Call fetcher to fetch the token.
+     *
+     * @return string
+     */
+    private function fetchToken()
+    {
+        $auth_tokens = $this->fetcher->fetchAuthToken($this->httpHandler);
+
+        if (array_key_exists('access_token', $auth_tokens)) {
+            // notify the callback if applicable
+            if ($this->tokenCallback) {
+                call_user_func(
+                    $this->tokenCallback,
+                    $this->fetcher->getCacheKey(),
+                    $auth_tokens['access_token']
+                );
+            }
+
+            return $auth_tokens['access_token'];
+        }
+
+        if (array_key_exists('id_token', $auth_tokens)) {
+            return $auth_tokens['id_token'];
+        }
+    }
+
+    private function getQuotaProject()
+    {
+        if ($this->fetcher instanceof GetQuotaProjectInterface) {
+            return $this->fetcher->getQuotaProject();
+        }
+    }
+}

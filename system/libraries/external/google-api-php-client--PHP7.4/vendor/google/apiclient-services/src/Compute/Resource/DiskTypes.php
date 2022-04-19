@@ -1,59 +1,172 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-8R2NX3P7oAc2Y6dvK0fn+xyRLyHs
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute\Resource;
+
+use Google\Service\Compute\DiskType;
+use Google\Service\Compute\DiskTypeAggregatedList;
+use Google\Service\Compute\DiskTypeList;
+
+/**
+ * The "diskTypes" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $computeService = new Google\Service\Compute(...);
+ *   $diskTypes = $computeService->diskTypes;
+ *  </code>
+ */
+class DiskTypes extends \Google\Service\Resource
+{
+  /**
+   * Retrieves an aggregated list of disk types. (diskTypes.aggregatedList)
+   *
+   * @param string $project Project ID for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param bool includeAllScopes Indicates whether every visible scope for
+   * each scope type (zone, region, global) should be included in the response.
+   * For new resource types added after this field, the flag has no effect as new
+   * resource types will always include every visible scope for each scope type in
+   * response. For resource types which predate this field, if this flag is
+   * omitted or false, only scopes of the scope types where the resource type is
+   * expected to be found will be included.
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return DiskTypeAggregatedList
+   */
+  public function aggregatedList($project, $optParams = [])
+  {
+    $params = ['project' => $project];
+    $params = array_merge($params, $optParams);
+    return $this->call('aggregatedList', [$params], DiskTypeAggregatedList::class);
+  }
+  /**
+   * Returns the specified disk type. Gets a list of available disk types by
+   * making a list() request. (diskTypes.get)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone for this request.
+   * @param string $diskType Name of the disk type to return.
+   * @param array $optParams Optional parameters.
+   * @return DiskType
+   */
+  public function get($project, $zone, $diskType, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'diskType' => $diskType];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], DiskType::class);
+  }
+  /**
+   * Retrieves a list of disk types available to the specified project.
+   * (diskTypes.listDiskTypes)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return DiskTypeList
+   */
+  public function listDiskTypes($project, $zone, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], DiskTypeList::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(DiskTypes::class, 'Google_Service_Compute_Resource_DiskTypes');

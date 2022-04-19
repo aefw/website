@@ -1,103 +1,288 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-ug15eooGpwFhRbOmjlSNGfa=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DeploymentManager\Resource;
+
+use Google\Service\DeploymentManager\Deployment;
+use Google\Service\DeploymentManager\DeploymentsCancelPreviewRequest;
+use Google\Service\DeploymentManager\DeploymentsListResponse;
+use Google\Service\DeploymentManager\DeploymentsStopRequest;
+use Google\Service\DeploymentManager\GlobalSetPolicyRequest;
+use Google\Service\DeploymentManager\Operation;
+use Google\Service\DeploymentManager\Policy;
+use Google\Service\DeploymentManager\TestPermissionsRequest;
+use Google\Service\DeploymentManager\TestPermissionsResponse;
+
+/**
+ * The "deployments" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $deploymentmanagerService = new Google\Service\DeploymentManager(...);
+ *   $deployments = $deploymentmanagerService->deployments;
+ *  </code>
+ */
+class Deployments extends \Google\Service\Resource
+{
+  /**
+   * Cancels and removes the preview currently associated with the deployment.
+   * (deployments.cancelPreview)
+   *
+   * @param string $project The project ID for this request.
+   * @param string $deployment The name of the deployment for this request.
+   * @param DeploymentsCancelPreviewRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function cancelPreview($project, $deployment, DeploymentsCancelPreviewRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'deployment' => $deployment, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('cancelPreview', [$params], Operation::class);
+  }
+  /**
+   * Deletes a deployment and all of the resources in the deployment.
+   * (deployments.delete)
+   *
+   * @param string $project The project ID for this request.
+   * @param string $deployment The name of the deployment for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string deletePolicy Sets the policy to use for deleting resources.
+   * @return Operation
+   */
+  public function delete($project, $deployment, $optParams = [])
+  {
+    $params = ['project' => $project, 'deployment' => $deployment];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Gets information about a specific deployment. (deployments.get)
+   *
+   * @param string $project The project ID for this request.
+   * @param string $deployment The name of the deployment for this request.
+   * @param array $optParams Optional parameters.
+   * @return Deployment
+   */
+  public function get($project, $deployment, $optParams = [])
+  {
+    $params = ['project' => $project, 'deployment' => $deployment];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Deployment::class);
+  }
+  /**
+   * Gets the access control policy for a resource. May be empty if no such policy
+   * or resource exists. (deployments.getIamPolicy)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $resource Name or id of the resource for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int optionsRequestedPolicyVersion Requested IAM Policy version.
+   * @return Policy
+   */
+  public function getIamPolicy($project, $resource, $optParams = [])
+  {
+    $params = ['project' => $project, 'resource' => $resource];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Creates a deployment and all of the resources described by the deployment
+   * manifest. (deployments.insert)
+   *
+   * @param string $project The project ID for this request.
+   * @param Deployment $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string createPolicy Sets the policy to use for creating new
+   * resources.
+   * @opt_param bool preview If set to true, creates a deployment and creates
+   * "shell" resources but does not actually instantiate these resources. This
+   * allows you to preview what your deployment looks like. After previewing a
+   * deployment, you can deploy your resources by making a request with the
+   * `update()` method or you can use the `cancelPreview()` method to cancel the
+   * preview altogether. Note that the deployment will still exist after you
+   * cancel the preview and you must separately delete this deployment if you want
+   * to remove it.
+   * @return Operation
+   */
+  public function insert($project, Deployment $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Operation::class);
+  }
+  /**
+   * Lists all deployments for a given project. (deployments.listDeployments)
+   *
+   * @param string $project The project ID for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`. For example, if you are filtering Compute Engine
+   * instances, you can exclude instances named `example-instance` by specifying
+   * `name != example-instance`. You can also filter nested fields. For example,
+   * you could specify `scheduling.automaticRestart = false` to include instances
+   * only if they are not scheduled for automatic restarts. You can use filtering
+   * on nested fields to filter based on resource labels. To filter on multiple
+   * expressions, provide each separate expression within parentheses. For
+   * example: ``` (scheduling.automaticRestart = true) (cpuPlatform = "Intel
+   * Skylake") ``` By default, each expression is an `AND` expression. However,
+   * you can include `AND` and `OR` expressions explicitly. For example: ```
+   * (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel Broadwell") AND
+   * (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name. You
+   * can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first. Currently, only sorting by `name` or
+   * `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @return DeploymentsListResponse
+   */
+  public function listDeployments($project, $optParams = [])
+  {
+    $params = ['project' => $project];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], DeploymentsListResponse::class);
+  }
+  /**
+   * Patches a deployment and all of the resources described by the deployment
+   * manifest. (deployments.patch)
+   *
+   * @param string $project The project ID for this request.
+   * @param string $deployment The name of the deployment for this request.
+   * @param Deployment $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string createPolicy Sets the policy to use for creating new
+   * resources.
+   * @opt_param string deletePolicy Sets the policy to use for deleting resources.
+   * @opt_param bool preview If set to true, updates the deployment and creates
+   * and updates the "shell" resources but does not actually alter or instantiate
+   * these resources. This allows you to preview what your deployment will look
+   * like. You can use this intent to preview how an update would affect your
+   * deployment. You must provide a `target.config` with a configuration if this
+   * is set to true. After previewing a deployment, you can deploy your resources
+   * by making a request with the `update()` or you can `cancelPreview()` to
+   * remove the preview altogether. Note that the deployment will still exist
+   * after you cancel the preview and you must separately delete this deployment
+   * if you want to remove it.
+   * @return Operation
+   */
+  public function patch($project, $deployment, Deployment $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'deployment' => $deployment, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+  /**
+   * Sets the access control policy on the specified resource. Replaces any
+   * existing policy. (deployments.setIamPolicy)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $resource Name or id of the resource for this request.
+   * @param GlobalSetPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($project, $resource, GlobalSetPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Stops an ongoing operation. This does not roll back any work that has already
+   * been completed, but prevents any new work from being started.
+   * (deployments.stop)
+   *
+   * @param string $project The project ID for this request.
+   * @param string $deployment The name of the deployment for this request.
+   * @param DeploymentsStopRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function stop($project, $deployment, DeploymentsStopRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'deployment' => $deployment, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('stop', [$params], Operation::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource.
+   * (deployments.testIamPermissions)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $resource Name or id of the resource for this request.
+   * @param TestPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestPermissionsResponse
+   */
+  public function testIamPermissions($project, $resource, TestPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestPermissionsResponse::class);
+  }
+  /**
+   * Updates a deployment and all of the resources described by the deployment
+   * manifest. (deployments.update)
+   *
+   * @param string $project The project ID for this request.
+   * @param string $deployment The name of the deployment for this request.
+   * @param Deployment $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string createPolicy Sets the policy to use for creating new
+   * resources.
+   * @opt_param string deletePolicy Sets the policy to use for deleting resources.
+   * @opt_param bool preview If set to true, updates the deployment and creates
+   * and updates the "shell" resources but does not actually alter or instantiate
+   * these resources. This allows you to preview what your deployment will look
+   * like. You can use this intent to preview how an update would affect your
+   * deployment. You must provide a `target.config` with a configuration if this
+   * is set to true. After previewing a deployment, you can deploy your resources
+   * by making a request with the `update()` or you can `cancelPreview()` to
+   * remove the preview altogether. Note that the deployment will still exist
+   * after you cancel the preview and you must separately delete this deployment
+   * if you want to remove it.
+   * @return Operation
+   */
+  public function update($project, $deployment, Deployment $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'deployment' => $deployment, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Deployments::class, 'Google_Service_DeploymentManager_Resource_Deployments');

@@ -1,109 +1,523 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudHealthcare\Resource;
+
+use Google\Service\CloudHealthcare\HealthcareEmpty;
+use Google\Service\CloudHealthcare\HttpBody;
+use Google\Service\CloudHealthcare\SearchResourcesRequest;
+
+/**
+ * The "fhir" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $healthcareService = new Google\Service\CloudHealthcare(...);
+ *   $fhir = $healthcareService->fhir;
+ *  </code>
+ */
+class ProjectsLocationsDatasetsFhirStoresFhir extends \Google\Service\Resource
+{
+  /**
+   * Retrieves a Patient resource and resources related to that patient.
+   * Implements the FHIR extended operation Patient-everything
+   * ([DSTU2](http://hl7.org/implement/standards/fhir/DSTU2/patient-
+   * operations.html#everything),
+   * [STU3](http://hl7.org/implement/standards/fhir/STU3/patient-
+   * operations.html#everything), [R4](http://hl7.org/implement/standards/fhir/R4
+   * /patient-operations.html#everything)). On success, the response body contains
+   * a JSON-encoded representation of a `Bundle` resource of type `searchset`,
+   * containing the results of the operation. Errors generated by the FHIR store
+   * contain a JSON-encoded `OperationOutcome` resource describing the reason for
+   * the error. If the request cannot be mapped to a valid API method on a FHIR
+   * store, a generic GCP error might be returned instead. The resources in scope
+   * for the response are: * The patient resource itself. * All the resources
+   * directly referenced by the patient resource. * Resources directly referencing
+   * the patient resource that meet the inclusion criteria. The inclusion criteria
+   * are based on the membership rules in the patient compartment definition
+   * ([DSTU2](http://hl7.org/fhir/DSTU2/compartment-patient.html),
+   * [STU3](http://www.hl7.org/fhir/stu3/compartmentdefinition-patient.html),
+   * [R4](http://hl7.org/fhir/R4/compartmentdefinition-patient.html)), which
+   * details the eligible resource types and referencing search parameters. For
+   * samples that show how to call `Patient-everything`, see [Getting all patient
+   * compartment resources](/healthcare/docs/how-tos/fhir-
+   * resources#getting_all_patient_compartment_resources).
+   * (fhir.PatientEverything)
+   *
+   * @param string $name Name of the `Patient` resource for which the information
+   * is required.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int _count Maximum number of resources in a page. If not
+   * specified, 100 is used. May not be larger than 1000.
+   * @opt_param string _page_token Used to retrieve the next or previous page of
+   * results when using pagination. Set `_page_token` to the value of _page_token
+   * set in next or previous page links' url. Next and previous page are returned
+   * in the response bundle's links field, where `link.relation` is "previous" or
+   * "next". Omit `_page_token` if no previous request has been made.
+   * @opt_param string _since If provided, only resources updated after this time
+   * are returned. The time uses the format YYYY-MM-DDThh:mm:ss.sss+zz:zz. For
+   * example, `2015-02-07T13:28:17.239+02:00` or `2017-01-01T00:00:00Z`. The time
+   * must be specified to the second and include a time zone.
+   * @opt_param string _type String of comma-delimited FHIR resource types. If
+   * provided, only resources of the specified resource type(s) are returned.
+   * @opt_param string end The response includes records prior to the end date. If
+   * no end date is provided, all records subsequent to the start date are in
+   * scope.
+   * @opt_param string start The response includes records subsequent to the start
+   * date. If no start date is provided, all records prior to the end date are in
+   * scope.
+   * @return HttpBody
+   */
+  public function PatientEverything($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('Patient-everything', [$params], HttpBody::class);
+  }
+  /**
+   * Deletes all the historical versions of a resource (excluding the current
+   * version) from the FHIR store. To remove all versions of a resource, first
+   * delete the current version and then call this method. This is not a FHIR
+   * standard operation. For samples that show how to call `Resource-purge`, see
+   * [Deleting historical versions of a FHIR resource](/healthcare/docs/how-tos
+   * /fhir-resources#deleting_historical_versions_of_a_fhir_resource).
+   * (fhir.ResourcePurge)
+   *
+   * @param string $name The name of the resource to purge.
+   * @param array $optParams Optional parameters.
+   * @return HealthcareEmpty
+   */
+  public function ResourcePurge($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('Resource-purge', [$params], HealthcareEmpty::class);
+  }
+  /**
+   * Gets the FHIR capability statement ([STU3](http://hl7.org/implement/standards
+   * /fhir/STU3/capabilitystatement.html),
+   * [R4](http://hl7.org/implement/standards/fhir/R4/capabilitystatement.html)),
+   * or the [conformance
+   * statement](http://hl7.org/implement/standards/fhir/DSTU2/conformance.html) in
+   * the DSTU2 case for the store, which contains a description of functionality
+   * supported by the server. Implements the FHIR standard capabilities
+   * interaction
+   * ([STU3](http://hl7.org/implement/standards/fhir/STU3/http.html#capabilities),
+   * [R4](http://hl7.org/implement/standards/fhir/R4/http.html#capabilities)), or
+   * the [conformance interaction](http://hl7.org/implement/standards/fhir/DSTU2/h
+   * ttp.html#conformance) in the DSTU2 case. On success, the response body
+   * contains a JSON-encoded representation of a `CapabilityStatement` resource.
+   * (fhir.capabilities)
+   *
+   * @param string $name Name of the FHIR store to retrieve the capabilities for.
+   * @param array $optParams Optional parameters.
+   * @return HttpBody
+   */
+  public function capabilities($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('capabilities', [$params], HttpBody::class);
+  }
+  /**
+   * Creates a FHIR resource. Implements the FHIR standard create interaction
+   * ([DSTU2](http://hl7.org/implement/standards/fhir/DSTU2/http.html#create),
+   * [STU3](http://hl7.org/implement/standards/fhir/STU3/http.html#create),
+   * [R4](http://hl7.org/implement/standards/fhir/R4/http.html#create)), which
+   * creates a new resource with a server-assigned resource ID. The request body
+   * must contain a JSON-encoded FHIR resource, and the request headers must
+   * contain `Content-Type: application/fhir+json`. On success, the response body
+   * contains a JSON-encoded representation of the resource as it was created on
+   * the server, including the server-assigned resource ID and version ID. Errors
+   * generated by the FHIR store contain a JSON-encoded `OperationOutcome`
+   * resource describing the reason for the error. If the request cannot be mapped
+   * to a valid API method on a FHIR store, a generic GCP error might be returned
+   * instead. For samples that show how to call `create`, see [Creating a FHIR
+   * resource](/healthcare/docs/how-tos/fhir-resources#creating_a_fhir_resource).
+   * (fhir.create)
+   *
+   * @param string $parent The name of the FHIR store this resource belongs to.
+   * @param string $type The FHIR resource type to create, such as Patient or
+   * Observation. For a complete list, see the FHIR Resource Index
+   * ([DSTU2](http://hl7.org/implement/standards/fhir/DSTU2/resourcelist.html),
+   * [STU3](http://hl7.org/implement/standards/fhir/STU3/resourcelist.html),
+   * [R4](http://hl7.org/implement/standards/fhir/R4/resourcelist.html)). Must
+   * match the resource type in the provided content.
+   * @param HttpBody $postBody
+   * @param array $optParams Optional parameters.
+   * @return HttpBody
+   */
+  public function create($parent, $type, HttpBody $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'type' => $type, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], HttpBody::class);
+  }
+  /**
+   * Deletes a FHIR resource. Implements the FHIR standard delete interaction
+   * ([DSTU2](http://hl7.org/implement/standards/fhir/DSTU2/http.html#delete),
+   * [STU3](http://hl7.org/implement/standards/fhir/STU3/http.html#delete),
+   * [R4](http://hl7.org/implement/standards/fhir/R4/http.html#delete)). Note:
+   * Unless resource versioning is disabled by setting the
+   * disable_resource_versioning flag on the FHIR store, the deleted resources
+   * will be moved to a history repository that can still be retrieved through
+   * vread and related methods, unless they are removed by the purge method. For
+   * samples that show how to call `delete`, see [Deleting a FHIR
+   * resource](/healthcare/docs/how-tos/fhir-resources#deleting_a_fhir_resource).
+   * (fhir.delete)
+   *
+   * @param string $name The name of the resource to delete.
+   * @param array $optParams Optional parameters.
+   * @return HttpBody
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], HttpBody::class);
+  }
+  /**
+   * Executes all the requests in the given Bundle. Implements the FHIR standard
+   * batch/transaction interaction ([DSTU2](http://hl7.org/implement/standards/fhi
+   * r/DSTU2/http.html#transaction),
+   * [STU3](http://hl7.org/implement/standards/fhir/STU3/http.html#transaction),
+   * [R4](http://hl7.org/implement/standards/fhir/R4/http.html#transaction)).
+   * Supports all interactions within a bundle, except search. This method accepts
+   * Bundles of type `batch` and `transaction`, processing them according to the
+   * batch processing rules
+   * ([DSTU2](http://hl7.org/implement/standards/fhir/DSTU2/http.html#2.1.0.16.1),
+   * [STU3](http://hl7.org/implement/standards/fhir/STU3/http.html#2.21.0.17.1),
+   * [R4](http://hl7.org/implement/standards/fhir/R4/http.html#brules)) and
+   * transaction processing rules
+   * ([DSTU2](http://hl7.org/implement/standards/fhir/DSTU2/http.html#2.1.0.16.2),
+   * [STU3](http://hl7.org/implement/standards/fhir/STU3/http.html#2.21.0.17.2),
+   * [R4](http://hl7.org/implement/standards/fhir/R4/http.html#trules)). The
+   * request body must contain a JSON-encoded FHIR `Bundle` resource, and the
+   * request headers must contain `Content-Type: application/fhir+json`. For a
+   * batch bundle or a successful transaction the response body will contain a
+   * JSON-encoded representation of a `Bundle` resource of type `batch-response`
+   * or `transaction-response` containing one entry for each entry in the request,
+   * with the outcome of processing the entry. In the case of an error for a
+   * transaction bundle, the response body will contain a JSON-encoded
+   * `OperationOutcome` resource describing the reason for the error. If the
+   * request cannot be mapped to a valid API method on a FHIR store, a generic GCP
+   * error might be returned instead. For samples that show how to call
+   * `executeBundle`, see [Managing FHIR resources using FHIR
+   * bundles](/healthcare/docs/how-tos/fhir-bundles). (fhir.executeBundle)
+   *
+   * @param string $parent Name of the FHIR store in which this bundle will be
+   * executed.
+   * @param HttpBody $postBody
+   * @param array $optParams Optional parameters.
+   * @return HttpBody
+   */
+  public function executeBundle($parent, HttpBody $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('executeBundle', [$params], HttpBody::class);
+  }
+  /**
+   * Lists all the versions of a resource (including the current version and
+   * deleted versions) from the FHIR store. Implements the per-resource form of
+   * the FHIR standard history interaction
+   * ([DSTU2](http://hl7.org/implement/standards/fhir/DSTU2/http.html#history),
+   * [STU3](http://hl7.org/implement/standards/fhir/STU3/http.html#history),
+   * [R4](http://hl7.org/implement/standards/fhir/R4/http.html#history)). On
+   * success, the response body contains a JSON-encoded representation of a
+   * `Bundle` resource of type `history`, containing the version history sorted
+   * from most recent to oldest versions. Errors generated by the FHIR store
+   * contain a JSON-encoded `OperationOutcome` resource describing the reason for
+   * the error. If the request cannot be mapped to a valid API method on a FHIR
+   * store, a generic GCP error might be returned instead. For samples that show
+   * how to call `history`, see [Listing FHIR resource versions](/healthcare/docs
+   * /how-tos/fhir-resources#listing_fhir_resource_versions). (fhir.history)
+   *
+   * @param string $name The name of the resource to retrieve.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string _at Only include resource versions that were current at
+   * some point during the time period specified in the date time value. The date
+   * parameter format is yyyy-mm-ddThh:mm:ss[Z|(+|-)hh:mm] Clients may specify any
+   * of the following: * An entire year: `_at=2019` * An entire month:
+   * `_at=2019-01` * A specific day: `_at=2019-01-20` * A specific second:
+   * `_at=2018-12-31T23:59:58Z`
+   * @opt_param int _count The maximum number of search results on a page. If not
+   * specified, 100 is used. May not be larger than 1000.
+   * @opt_param string _page_token Used to retrieve the first, previous, next, or
+   * last page of resource versions when using pagination. Value should be set to
+   * the value of `_page_token` set in next or previous page links' URLs. Next and
+   * previous page are returned in the response bundle's links field, where
+   * `link.relation` is "previous" or "next". Omit `_page_token` if no previous
+   * request has been made.
+   * @opt_param string _since Only include resource versions that were created at
+   * or after the given instant in time. The instant in time uses the format YYYY-
+   * MM-DDThh:mm:ss.sss+zz:zz (for example 2015-02-07T13:28:17.239+02:00 or
+   * 2017-01-01T00:00:00Z). The time must be specified to the second and include a
+   * time zone.
+   * @return HttpBody
+   */
+  public function history($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('history', [$params], HttpBody::class);
+  }
+  /**
+   * Updates part of an existing resource by applying the operations specified in
+   * a [JSON Patch](http://jsonpatch.com/) document. Implements the FHIR standard
+   * patch interaction
+   * ([STU3](http://hl7.org/implement/standards/fhir/STU3/http.html#patch),
+   * [R4](http://hl7.org/implement/standards/fhir/R4/http.html#patch)). DSTU2
+   * doesn't define a patch method, but the server supports it in the same way it
+   * supports STU3. The request body must contain a JSON Patch document, and the
+   * request headers must contain `Content-Type: application/json-patch+json`. On
+   * success, the response body contains a JSON-encoded representation of the
+   * updated resource, including the server-assigned version ID. Errors generated
+   * by the FHIR store contain a JSON-encoded `OperationOutcome` resource
+   * describing the reason for the error. If the request cannot be mapped to a
+   * valid API method on a FHIR store, a generic GCP error might be returned
+   * instead. For samples that show how to call `patch`, see [Patching a FHIR
+   * resource](/healthcare/docs/how-tos/fhir-resources#patching_a_fhir_resource).
+   * (fhir.patch)
+   *
+   * @param string $name The name of the resource to update.
+   * @param HttpBody $postBody
+   * @param array $optParams Optional parameters.
+   * @return HttpBody
+   */
+  public function patch($name, HttpBody $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], HttpBody::class);
+  }
+  /**
+   * Gets the contents of a FHIR resource. Implements the FHIR standard read
+   * interaction
+   * ([DSTU2](http://hl7.org/implement/standards/fhir/DSTU2/http.html#read),
+   * [STU3](http://hl7.org/implement/standards/fhir/STU3/http.html#read),
+   * [R4](http://hl7.org/implement/standards/fhir/R4/http.html#read)). Also
+   * supports the FHIR standard conditional read interaction
+   * ([DSTU2](http://hl7.org/implement/standards/fhir/DSTU2/http.html#cread),
+   * [STU3](http://hl7.org/implement/standards/fhir/STU3/http.html#cread),
+   * [R4](http://hl7.org/implement/standards/fhir/R4/http.html#cread)) specified
+   * by supplying an `If-Modified-Since` header with a date/time value or an `If-
+   * None-Match` header with an ETag value. On success, the response body contains
+   * a JSON-encoded representation of the resource. Errors generated by the FHIR
+   * store contain a JSON-encoded `OperationOutcome` resource describing the
+   * reason for the error. If the request cannot be mapped to a valid API method
+   * on a FHIR store, a generic GCP error might be returned instead. For samples
+   * that show how to call `read`, see [Getting a FHIR resource](/healthcare/docs
+   * /how-tos/fhir-resources#getting_a_fhir_resource). (fhir.read)
+   *
+   * @param string $name The name of the resource to retrieve.
+   * @param array $optParams Optional parameters.
+   * @return HttpBody
+   */
+  public function read($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('read', [$params], HttpBody::class);
+  }
+  /**
+   * Searches for resources in the given FHIR store according to criteria
+   * specified as query parameters. Implements the FHIR standard search
+   * interaction
+   * ([DSTU2](http://hl7.org/implement/standards/fhir/DSTU2/http.html#search),
+   * [STU3](http://hl7.org/implement/standards/fhir/STU3/http.html#search),
+   * [R4](http://hl7.org/implement/standards/fhir/R4/http.html#search)) using the
+   * search semantics described in the FHIR Search specification
+   * ([DSTU2](http://hl7.org/implement/standards/fhir/DSTU2/search.html),
+   * [STU3](http://hl7.org/implement/standards/fhir/STU3/search.html),
+   * [R4](http://hl7.org/implement/standards/fhir/R4/search.html)). Supports four
+   * methods of search defined by the specification: * `GET [base]?[parameters]`
+   * to search across all resources. * `GET [base]/[type]?[parameters]` to search
+   * resources of a specified type. * `POST [base]/_search?[parameters]` as an
+   * alternate form having the same semantics as the `GET` method across all
+   * resources. * `POST [base]/[type]/_search?[parameters]` as an alternate form
+   * having the same semantics as the `GET` method for the specified type. The
+   * `GET` and `POST` methods do not support compartment searches. The `POST`
+   * method does not support `application/x-www-form-urlencoded` search
+   * parameters. On success, the response body contains a JSON-encoded
+   * representation of a `Bundle` resource of type `searchset`, containing the
+   * results of the search. Errors generated by the FHIR store contain a JSON-
+   * encoded `OperationOutcome` resource describing the reason for the error. If
+   * the request cannot be mapped to a valid API method on a FHIR store, a generic
+   * GCP error might be returned instead. The server's capability statement,
+   * retrieved through capabilities, indicates what search parameters are
+   * supported on each FHIR resource. A list of all search parameters defined by
+   * the specification can be found in the FHIR Search Parameter Registry
+   * ([STU3](http://hl7.org/implement/standards/fhir/STU3/searchparameter-
+   * registry.html), [R4](http://hl7.org/implement/standards/fhir/R4
+   * /searchparameter-registry.html)). FHIR search parameters for DSTU2 can be
+   * found on each resource's definition page. Supported search modifiers:
+   * `:missing`, `:exact`, `:contains`, `:text`, `:in`, `:not-in`, `:above`,
+   * `:below`, `:[type]`, `:not`, and `:recurse`. Supported search result
+   * parameters: `_sort`, `_count`, `_include`, `_revinclude`, `_summary=text`,
+   * `_summary=data`, and `_elements`. The maximum number of search results
+   * returned defaults to 100, which can be overridden by the `_count` parameter
+   * up to a maximum limit of 1000. If there are additional results, the returned
+   * `Bundle` will contain pagination links. Resources with a total size larger
+   * than 5MB or a field count larger than 50,000 might not be fully searchable as
+   * the server might trim its generated search index in those cases. Note: FHIR
+   * resources are indexed asynchronously, so there might be a slight delay
+   * between the time a resource is created or changes and when the change is
+   * reflected in search results. For samples and detailed information, see
+   * [Searching for FHIR resources](/healthcare/docs/how-tos/fhir-search) and
+   * [Advanced FHIR search features](/healthcare/docs/how-tos/fhir-advanced-
+   * search). (fhir.search)
+   *
+   * @param string $parent Name of the FHIR store to retrieve resources from.
+   * @param SearchResourcesRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return HttpBody
+   */
+  public function search($parent, SearchResourcesRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('search', [$params], HttpBody::class);
+  }
+  /**
+   * Searches for resources in the given FHIR store according to criteria
+   * specified as query parameters. Implements the FHIR standard search
+   * interaction
+   * ([DSTU2](http://hl7.org/implement/standards/fhir/DSTU2/http.html#search),
+   * [STU3](http://hl7.org/implement/standards/fhir/STU3/http.html#search),
+   * [R4](http://hl7.org/implement/standards/fhir/R4/http.html#search)) using the
+   * search semantics described in the FHIR Search specification
+   * ([DSTU2](http://hl7.org/implement/standards/fhir/DSTU2/search.html),
+   * [STU3](http://hl7.org/implement/standards/fhir/STU3/search.html),
+   * [R4](http://hl7.org/implement/standards/fhir/R4/search.html)). Supports four
+   * methods of search defined by the specification: * `GET [base]?[parameters]`
+   * to search across all resources. * `GET [base]/[type]?[parameters]` to search
+   * resources of a specified type. * `POST [base]/_search?[parameters]` as an
+   * alternate form having the same semantics as the `GET` method across all
+   * resources. * `POST [base]/[type]/_search?[parameters]` as an alternate form
+   * having the same semantics as the `GET` method for the specified type. The
+   * `GET` and `POST` methods do not support compartment searches. The `POST`
+   * method does not support `application/x-www-form-urlencoded` search
+   * parameters. On success, the response body contains a JSON-encoded
+   * representation of a `Bundle` resource of type `searchset`, containing the
+   * results of the search. Errors generated by the FHIR store contain a JSON-
+   * encoded `OperationOutcome` resource describing the reason for the error. If
+   * the request cannot be mapped to a valid API method on a FHIR store, a generic
+   * GCP error might be returned instead. The server's capability statement,
+   * retrieved through capabilities, indicates what search parameters are
+   * supported on each FHIR resource. A list of all search parameters defined by
+   * the specification can be found in the FHIR Search Parameter Registry
+   * ([STU3](http://hl7.org/implement/standards/fhir/STU3/searchparameter-
+   * registry.html), [R4](http://hl7.org/implement/standards/fhir/R4
+   * /searchparameter-registry.html)). FHIR search parameters for DSTU2 can be
+   * found on each resource's definition page. Supported search modifiers:
+   * `:missing`, `:exact`, `:contains`, `:text`, `:in`, `:not-in`, `:above`,
+   * `:below`, `:[type]`, `:not`, and `:recurse`. Supported search result
+   * parameters: `_sort`, `_count`, `_include`, `_revinclude`, `_summary=text`,
+   * `_summary=data`, and `_elements`. The maximum number of search results
+   * returned defaults to 100, which can be overridden by the `_count` parameter
+   * up to a maximum limit of 1000. If there are additional results, the returned
+   * `Bundle` will contain pagination links. Resources with a total size larger
+   * than 5MB or a field count larger than 50,000 might not be fully searchable as
+   * the server might trim its generated search index in those cases. Note: FHIR
+   * resources are indexed asynchronously, so there might be a slight delay
+   * between the time a resource is created or changes and when the change is
+   * reflected in search results. For samples and detailed information, see
+   * [Searching for FHIR resources](/healthcare/docs/how-tos/fhir-search) and
+   * [Advanced FHIR search features](/healthcare/docs/how-tos/fhir-advanced-
+   * search). (fhir.searchType)
+   *
+   * @param string $parent Name of the FHIR store to retrieve resources from.
+   * @param string $resourceType The FHIR resource type to search, such as Patient
+   * or Observation. For a complete list, see the FHIR Resource Index
+   * ([DSTU2](http://hl7.org/implement/standards/fhir/DSTU2/resourcelist.html),
+   * [STU3](http://hl7.org/implement/standards/fhir/STU3/resourcelist.html),
+   * [R4](http://hl7.org/implement/standards/fhir/R4/resourcelist.html)).
+   * @param SearchResourcesRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return HttpBody
+   */
+  public function searchType($parent, $resourceType, SearchResourcesRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'resourceType' => $resourceType, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('search-type', [$params], HttpBody::class);
+  }
+  /**
+   * Updates the entire contents of a resource. Implements the FHIR standard
+   * update interaction
+   * ([DSTU2](http://hl7.org/implement/standards/fhir/DSTU2/http.html#update),
+   * [STU3](http://hl7.org/implement/standards/fhir/STU3/http.html#update),
+   * [R4](http://hl7.org/implement/standards/fhir/R4/http.html#update)). If the
+   * specified resource does not exist and the FHIR store has enable_update_create
+   * set, creates the resource with the client-specified ID. It is strongly
+   * advised not to include or encode any sensitive data such as patient
+   * identifiers in client-specified resource IDs. Those IDs are part of the FHIR
+   * resource path recorded in Cloud Audit Logs and Pub/Sub notifications. Those
+   * IDs can also be contained in reference fields within other resources. The
+   * request body must contain a JSON-encoded FHIR resource, and the request
+   * headers must contain `Content-Type: application/fhir+json`. The resource must
+   * contain an `id` element having an identical value to the ID in the REST path
+   * of the request. On success, the response body contains a JSON-encoded
+   * representation of the updated resource, including the server-assigned version
+   * ID. Errors generated by the FHIR store contain a JSON-encoded
+   * `OperationOutcome` resource describing the reason for the error. If the
+   * request cannot be mapped to a valid API method on a FHIR store, a generic GCP
+   * error might be returned instead. For samples that show how to call `update`,
+   * see [Updating a FHIR resource](/healthcare/docs/how-tos/fhir-
+   * resources#updating_a_fhir_resource). (fhir.update)
+   *
+   * @param string $name The name of the resource to update.
+   * @param HttpBody $postBody
+   * @param array $optParams Optional parameters.
+   * @return HttpBody
+   */
+  public function update($name, HttpBody $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], HttpBody::class);
+  }
+  /**
+   * Gets the contents of a version (current or historical) of a FHIR resource by
+   * version ID. Implements the FHIR standard vread interaction
+   * ([DSTU2](http://hl7.org/implement/standards/fhir/DSTU2/http.html#vread),
+   * [STU3](http://hl7.org/implement/standards/fhir/STU3/http.html#vread),
+   * [R4](http://hl7.org/implement/standards/fhir/R4/http.html#vread)). On
+   * success, the response body contains a JSON-encoded representation of the
+   * resource. Errors generated by the FHIR store contain a JSON-encoded
+   * `OperationOutcome` resource describing the reason for the error. If the
+   * request cannot be mapped to a valid API method on a FHIR store, a generic GCP
+   * error might be returned instead. For samples that show how to call `vread`,
+   * see [Retrieving a FHIR resource version](/healthcare/docs/how-tos/fhir-
+   * resources#retrieving_a_fhir_resource_version). (fhir.vread)
+   *
+   * @param string $name The name of the resource version to retrieve.
+   * @param array $optParams Optional parameters.
+   * @return HttpBody
+   */
+  public function vread($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('vread', [$params], HttpBody::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsDatasetsFhirStoresFhir::class, 'Google_Service_CloudHealthcare_Resource_ProjectsLocationsDatasetsFhirStoresFhir');

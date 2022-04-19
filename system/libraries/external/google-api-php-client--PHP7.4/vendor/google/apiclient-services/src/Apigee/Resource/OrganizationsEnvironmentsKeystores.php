@@ -1,59 +1,88 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-hVm/ZZN1X31P32NN0OuLh7IdYKRBN0==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Apigee\Resource;
+
+use Google\Service\Apigee\GoogleCloudApigeeV1Keystore;
+
+/**
+ * The "keystores" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $apigeeService = new Google\Service\Apigee(...);
+ *   $keystores = $apigeeService->keystores;
+ *  </code>
+ */
+class OrganizationsEnvironmentsKeystores extends \Google\Service\Resource
+{
+  /**
+   * Creates a keystore or truststore. - Keystore: Contains certificates and their
+   * associated keys. - Truststore: Contains trusted certificates used to validate
+   * a server's certificate. These certificates are typically self-signed
+   * certificates or certificates that are not signed by a trusted CA.
+   * (keystores.create)
+   *
+   * @param string $parent Required. Name of the environment in which to create
+   * the keystore. Use the following format in your request:
+   * `organizations/{org}/environments/{env}`
+   * @param GoogleCloudApigeeV1Keystore $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string name Optional. Name of the keystore. Overrides the value in
+   * Keystore.
+   * @return GoogleCloudApigeeV1Keystore
+   */
+  public function create($parent, GoogleCloudApigeeV1Keystore $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleCloudApigeeV1Keystore::class);
+  }
+  /**
+   * Deletes a keystore or truststore. (keystores.delete)
+   *
+   * @param string $name Required. Name of the keystore. Use the following format
+   * in your request:
+   * `organizations/{org}/environments/{env}/keystores/{keystore}`
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1Keystore
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleCloudApigeeV1Keystore::class);
+  }
+  /**
+   * Gets a keystore or truststore. (keystores.get)
+   *
+   * @param string $name Required. Name of the keystore. Use the following format
+   * in your request:
+   * `organizations/{org}/environments/{env}/keystores/{keystore}`.
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1Keystore
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudApigeeV1Keystore::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(OrganizationsEnvironmentsKeystores::class, 'Google_Service_Apigee_Resource_OrganizationsEnvironmentsKeystores');

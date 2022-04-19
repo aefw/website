@@ -1,59 +1,88 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Oaf2Tm==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AdExchangeBuyer\Resource;
+
+use Google\Service\AdExchangeBuyer\Budget as BudgetModel;
+
+/**
+ * The "budget" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $adexchangebuyerService = new Google\Service\AdExchangeBuyer(...);
+ *   $budget = $adexchangebuyerService->budget;
+ *  </code>
+ */
+class Budget extends \Google\Service\Resource
+{
+  /**
+   * Returns the budget information for the adgroup specified by the accountId and
+   * billingId. (budget.get)
+   *
+   * @param string $accountId The account id to get the budget information for.
+   * @param string $billingId The billing id to get the budget information for.
+   * @param array $optParams Optional parameters.
+   * @return BudgetModel
+   */
+  public function get($accountId, $billingId, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'billingId' => $billingId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], BudgetModel::class);
+  }
+  /**
+   * Updates the budget amount for the budget of the adgroup specified by the
+   * accountId and billingId, with the budget amount in the request. This method
+   * supports patch semantics. (budget.patch)
+   *
+   * @param string $accountId The account id associated with the budget being
+   * updated.
+   * @param string $billingId The billing id associated with the budget being
+   * updated.
+   * @param BudgetModel $postBody
+   * @param array $optParams Optional parameters.
+   * @return BudgetModel
+   */
+  public function patch($accountId, $billingId, BudgetModel $postBody, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'billingId' => $billingId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], BudgetModel::class);
+  }
+  /**
+   * Updates the budget amount for the budget of the adgroup specified by the
+   * accountId and billingId, with the budget amount in the request.
+   * (budget.update)
+   *
+   * @param string $accountId The account id associated with the budget being
+   * updated.
+   * @param string $billingId The billing id associated with the budget being
+   * updated.
+   * @param BudgetModel $postBody
+   * @param array $optParams Optional parameters.
+   * @return BudgetModel
+   */
+  public function update($accountId, $billingId, BudgetModel $postBody, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'billingId' => $billingId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], BudgetModel::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Budget::class, 'Google_Service_AdExchangeBuyer_Resource_Budget');

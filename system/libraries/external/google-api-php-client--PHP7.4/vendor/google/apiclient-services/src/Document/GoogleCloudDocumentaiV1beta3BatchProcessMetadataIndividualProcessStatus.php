@@ -1,66 +1,85 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Document;
+
+class GoogleCloudDocumentaiV1beta3BatchProcessMetadataIndividualProcessStatus extends \Google\Model
+{
+  public $humanReviewOperation;
+  protected $humanReviewStatusType = GoogleCloudDocumentaiV1beta3HumanReviewStatus::class;
+  protected $humanReviewStatusDataType = '';
+  public $inputGcsSource;
+  public $outputGcsDestination;
+  protected $statusType = GoogleRpcStatus::class;
+  protected $statusDataType = '';
+
+  public function setHumanReviewOperation($humanReviewOperation)
+  {
+    $this->humanReviewOperation = $humanReviewOperation;
+  }
+  public function getHumanReviewOperation()
+  {
+    return $this->humanReviewOperation;
+  }
+  /**
+   * @param GoogleCloudDocumentaiV1beta3HumanReviewStatus
+   */
+  public function setHumanReviewStatus(GoogleCloudDocumentaiV1beta3HumanReviewStatus $humanReviewStatus)
+  {
+    $this->humanReviewStatus = $humanReviewStatus;
+  }
+  /**
+   * @return GoogleCloudDocumentaiV1beta3HumanReviewStatus
+   */
+  public function getHumanReviewStatus()
+  {
+    return $this->humanReviewStatus;
+  }
+  public function setInputGcsSource($inputGcsSource)
+  {
+    $this->inputGcsSource = $inputGcsSource;
+  }
+  public function getInputGcsSource()
+  {
+    return $this->inputGcsSource;
+  }
+  public function setOutputGcsDestination($outputGcsDestination)
+  {
+    $this->outputGcsDestination = $outputGcsDestination;
+  }
+  public function getOutputGcsDestination()
+  {
+    return $this->outputGcsDestination;
+  }
+  /**
+   * @param GoogleRpcStatus
+   */
+  public function setStatus(GoogleRpcStatus $status)
+  {
+    $this->status = $status;
+  }
+  /**
+   * @return GoogleRpcStatus
+   */
+  public function getStatus()
+  {
+    return $this->status;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudDocumentaiV1beta3BatchProcessMetadataIndividualProcessStatus::class, 'Google_Service_Document_GoogleCloudDocumentaiV1beta3BatchProcessMetadataIndividualProcessStatus');

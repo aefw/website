@@ -1,61 +1,123 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DisplayVideo\Resource;
+
+use Google\Service\DisplayVideo\AssignedTargetingOption;
+use Google\Service\DisplayVideo\ListCampaignAssignedTargetingOptionsResponse;
+
+/**
+ * The "assignedTargetingOptions" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $displayvideoService = new Google\Service\DisplayVideo(...);
+ *   $assignedTargetingOptions = $displayvideoService->assignedTargetingOptions;
+ *  </code>
+ */
+class AdvertisersCampaignsTargetingTypesAssignedTargetingOptions extends \Google\Service\Resource
+{
+  /**
+   * Gets a single targeting option assigned to a campaign.
+   * (assignedTargetingOptions.get)
+   *
+   * @param string $advertiserId Required. The ID of the advertiser the campaign
+   * belongs to.
+   * @param string $campaignId Required. The ID of the campaign the assigned
+   * targeting option belongs to.
+   * @param string $targetingType Required. Identifies the type of this assigned
+   * targeting option. Supported targeting types: * `TARGETING_TYPE_AGE_RANGE` *
+   * `TARGETING_TYPE_AUTHORIZED_SELLER_STATUS` *
+   * `TARGETING_TYPE_CONTENT_INSTREAM_POSITION` *
+   * `TARGETING_TYPE_CONTENT_OUTSTREAM_POSITION` *
+   * `TARGETING_TYPE_DIGITAL_CONTENT_LABEL_EXCLUSION` *
+   * `TARGETING_TYPE_ENVIRONMENT` * `TARGETING_TYPE_EXCHANGE` *
+   * `TARGETING_TYPE_GENDER` * `TARGETING_TYPE_GEO_REGION` *
+   * `TARGETING_TYPE_HOUSEHOLD_INCOME` * `TARGETING_TYPE_INVENTORY_SOURCE` *
+   * `TARGETING_TYPE_INVENTORY_SOURCE_GROUP` * `TARGETING_TYPE_LANGUAGE` *
+   * `TARGETING_TYPE_ON_SCREEN_POSITION` * `TARGETING_TYPE_PARENTAL_STATUS` *
+   * `TARGETING_TYPE_SENSITIVE_CATEGORY_EXCLUSION` * `TARGETING_TYPE_SUB_EXCHANGE`
+   * * `TARGETING_TYPE_THIRD_PARTY_VERIFIER` * `TARGETING_TYPE_VIEWABILITY`
+   * @param string $assignedTargetingOptionId Required. An identifier unique to
+   * the targeting type in this campaign that identifies the assigned targeting
+   * option being requested.
+   * @param array $optParams Optional parameters.
+   * @return AssignedTargetingOption
+   */
+  public function get($advertiserId, $campaignId, $targetingType, $assignedTargetingOptionId, $optParams = [])
+  {
+    $params = ['advertiserId' => $advertiserId, 'campaignId' => $campaignId, 'targetingType' => $targetingType, 'assignedTargetingOptionId' => $assignedTargetingOptionId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], AssignedTargetingOption::class);
+  }
+  /**
+   * Lists the targeting options assigned to a campaign for a specified targeting
+   * type. (assignedTargetingOptions.listAdvertisersCampaignsTargetingTypesAssigne
+   * dTargetingOptions)
+   *
+   * @param string $advertiserId Required. The ID of the advertiser the campaign
+   * belongs to.
+   * @param string $campaignId Required. The ID of the campaign to list assigned
+   * targeting options for.
+   * @param string $targetingType Required. Identifies the type of assigned
+   * targeting options to list. Supported targeting types: *
+   * `TARGETING_TYPE_AGE_RANGE` * `TARGETING_TYPE_AUTHORIZED_SELLER_STATUS` *
+   * `TARGETING_TYPE_CONTENT_INSTREAM_POSITION` *
+   * `TARGETING_TYPE_CONTENT_OUTSTREAM_POSITION` *
+   * `TARGETING_TYPE_DIGITAL_CONTENT_LABEL_EXCLUSION` *
+   * `TARGETING_TYPE_ENVIRONMENT` * `TARGETING_TYPE_EXCHANGE` *
+   * `TARGETING_TYPE_GENDER` * `TARGETING_TYPE_GEO_REGION` *
+   * `TARGETING_TYPE_HOUSEHOLD_INCOME` * `TARGETING_TYPE_INVENTORY_SOURCE` *
+   * `TARGETING_TYPE_INVENTORY_SOURCE_GROUP` * `TARGETING_TYPE_LANGUAGE` *
+   * `TARGETING_TYPE_ON_SCREEN_POSITION` * `TARGETING_TYPE_PARENTAL_STATUS` *
+   * `TARGETING_TYPE_SENSITIVE_CATEGORY_EXCLUSION` * `TARGETING_TYPE_SUB_EXCHANGE`
+   * * `TARGETING_TYPE_THIRD_PARTY_VERIFIER` * `TARGETING_TYPE_VIEWABILITY`
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Allows filtering by assigned targeting option
+   * properties. Supported syntax: * Filter expressions are made up of one or more
+   * restrictions. * Restrictions can be combined by the logical operator `OR`. *
+   * A restriction has the form of `{field} {operator} {value}`. * The operator
+   * must be `EQUALS (=)`. * Supported fields: - `assignedTargetingOptionId` -
+   * `inheritance` Examples: * AssignedTargetingOptions with ID 1 or 2
+   * `assignedTargetingOptionId="1" OR assignedTargetingOptionId="2"` *
+   * AssignedTargetingOptions with inheritance status of NOT_INHERITED or
+   * INHERITED_FROM_PARTNER `inheritance="NOT_INHERITED" OR
+   * inheritance="INHERITED_FROM_PARTNER"` The length of this field should be no
+   * more than 500 characters.
+   * @opt_param string orderBy Field by which to sort the list. Acceptable values
+   * are: * `assignedTargetingOptionId` (default) The default sorting order is
+   * ascending. To specify descending order for a field, a suffix "desc" should be
+   * added to the field name. Example: `assignedTargetingOptionId desc`.
+   * @opt_param int pageSize Requested page size. Must be between `1` and `100`.
+   * If unspecified will default to `100`. Returns error code `INVALID_ARGUMENT`
+   * if an invalid value is specified.
+   * @opt_param string pageToken A token identifying a page of results the server
+   * should return. Typically, this is the value of next_page_token returned from
+   * the previous call to `ListCampaignAssignedTargetingOptions` method. If not
+   * specified, the first page of results will be returned.
+   * @return ListCampaignAssignedTargetingOptionsResponse
+   */
+  public function listAdvertisersCampaignsTargetingTypesAssignedTargetingOptions($advertiserId, $campaignId, $targetingType, $optParams = [])
+  {
+    $params = ['advertiserId' => $advertiserId, 'campaignId' => $campaignId, 'targetingType' => $targetingType];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListCampaignAssignedTargetingOptionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AdvertisersCampaignsTargetingTypesAssignedTargetingOptions::class, 'Google_Service_DisplayVideo_Resource_AdvertisersCampaignsTargetingTypesAssignedTargetingOptions');

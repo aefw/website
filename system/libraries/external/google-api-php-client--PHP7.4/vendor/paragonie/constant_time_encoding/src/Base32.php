@@ -1,192 +1,471 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+declare(strict_types=1);
+namespace ParagonIE\ConstantTime;
+
+/**
+ *  Copyright (c) 2016 - 2018 Paragon Initiative Enterprises.
+ *  Copyright (c) 2014 Steve "Sc00bz" Thomas (steve at tobtu dot com)
+ *
+ *  Permission is hereby granted, free of charge, to any person obtaining a copy
+ *  of this software and associated documentation files (the "Software"), to deal
+ *  in the Software without restriction, including without limitation the rights
+ *  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ *  copies of the Software, and to permit persons to whom the Software is
+ *  furnished to do so, subject to the following conditions:
+ *
+ *  The above copyright notice and this permission notice shall be included in all
+ *  copies or substantial portions of the Software.
+ *
+ *  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ *  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ *  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ *  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ *  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ *  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ *  SOFTWARE.
+ */
+
+/**
+ * Class Base32
+ * [A-Z][2-7]
+ *
+ * @package ParagonIE\ConstantTime
+ */
+abstract class Base32 implements EncoderInterface
+{
+    /**
+     * Decode a Base32-encoded string into raw binary
+     *
+     * @param string $encodedString
+     * @param bool $strictPadding
+     * @return string
+     */
+    public static function decode(string $encodedString, bool $strictPadding = false): string
+    {
+        return static::doDecode($encodedString, false, $strictPadding);
+    }
+
+    /**
+     * Decode an uppercase Base32-encoded string into raw binary
+     *
+     * @param string $src
+     * @param bool $strictPadding
+     * @return string
+     */
+    public static function decodeUpper(string $src, bool $strictPadding = false): string
+    {
+        return static::doDecode($src, true, $strictPadding);
+    }
+
+    /**
+     * Encode into Base32 (RFC 4648)
+     *
+     * @param string $src
+     * @return string
+     * @throws \TypeError
+     */
+    public static function encode(string $src): string
+    {
+        return static::doEncode($src, false, true);
+    }
+    /**
+     * Encode into Base32 (RFC 4648)
+     *
+     * @param string $src
+     * @return string
+     * @throws \TypeError
+     */
+    public static function encodeUnpadded(string $src): string
+    {
+        return static::doEncode($src, false, false);
+    }
+
+    /**
+     * Encode into uppercase Base32 (RFC 4648)
+     *
+     * @param string $src
+     * @return string
+     * @throws \TypeError
+     */
+    public static function encodeUpper(string $src): string
+    {
+        return static::doEncode($src, true, true);
+    }
+
+    /**
+     * Encode into uppercase Base32 (RFC 4648)
+     *
+     * @param string $src
+     * @return string
+     * @throws \TypeError
+     */
+    public static function encodeUpperUnpadded(string $src): string
+    {
+        return static::doEncode($src, true, false);
+    }
+
+    /**
+     * Uses bitwise operators instead of table-lookups to turn 5-bit integers
+     * into 8-bit integers.
+     *
+     * @param int $src
+     * @return int
+     */
+    protected static function decode5Bits(int $src): int
+    {
+        $ret = -1;
+
+        // if ($src > 96 && $src < 123) $ret += $src - 97 + 1; // -64
+        $ret += (((0x60 - $src) & ($src - 0x7b)) >> 8) & ($src - 96);
+
+        // if ($src > 0x31 && $src < 0x38) $ret += $src - 24 + 1; // -23
+        $ret += (((0x31 - $src) & ($src - 0x38)) >> 8) & ($src - 23);
+
+        return $ret;
+    }
+
+    /**
+     * Uses bitwise operators instead of table-lookups to turn 5-bit integers
+     * into 8-bit integers.
+     *
+     * Uppercase variant.
+     *
+     * @param int $src
+     * @return int
+     */
+    protected static function decode5BitsUpper(int $src): int
+    {
+        $ret = -1;
+
+        // if ($src > 64 && $src < 91) $ret += $src - 65 + 1; // -64
+        $ret += (((0x40 - $src) & ($src - 0x5b)) >> 8) & ($src - 64);
+
+        // if ($src > 0x31 && $src < 0x38) $ret += $src - 24 + 1; // -23
+        $ret += (((0x31 - $src) & ($src - 0x38)) >> 8) & ($src - 23);
+
+        return $ret;
+    }
+
+    /**
+     * Uses bitwise operators instead of table-lookups to turn 8-bit integers
+     * into 5-bit integers.
+     *
+     * @param int $src
+     * @return string
+     */
+    protected static function encode5Bits(int $src): string
+    {
+        $diff = 0x61;
+
+        // if ($src > 25) $ret -= 72;
+        $diff -= ((25 - $src) >> 8) & 73;
+
+        return \pack('C', $src + $diff);
+    }
+
+    /**
+     * Uses bitwise operators instead of table-lookups to turn 8-bit integers
+     * into 5-bit integers.
+     *
+     * Uppercase variant.
+     *
+     * @param int $src
+     * @return string
+     */
+    protected static function encode5BitsUpper(int $src): string
+    {
+        $diff = 0x41;
+
+        // if ($src > 25) $ret -= 40;
+        $diff -= ((25 - $src) >> 8) & 41;
+
+        return \pack('C', $src + $diff);
+    }
+
+
+    /**
+     * Base32 decoding
+     *
+     * @param string $src
+     * @param bool $upper
+     * @param bool $strictPadding
+     * @return string
+     * @throws \TypeError
+     * @psalm-suppress RedundantCondition
+     */
+    protected static function doDecode(string $src, bool $upper = false, bool $strictPadding = false): string
+    {
+        // We do this to reduce code duplication:
+        $method = $upper
+            ? 'decode5BitsUpper'
+            : 'decode5Bits';
+
+        // Remove padding
+        $srcLen = Binary::safeStrlen($src);
+        if ($srcLen === 0) {
+            return '';
+        }
+        if ($strictPadding) {
+            if (($srcLen & 7) === 0) {
+                for ($j = 0; $j < 7; ++$j) {
+                    if ($src[$srcLen - 1] === '=') {
+                        $srcLen--;
+                    } else {
+                        break;
+                    }
+                }
+            }
+            if (($srcLen & 7) === 1) {
+                throw new \RangeException(
+                    'Incorrect padding'
+                );
+            }
+        } else {
+            $src = \rtrim($src, '=');
+            $srcLen = Binary::safeStrlen($src);
+        }
+
+        $err = 0;
+        $dest = '';
+        // Main loop (no padding):
+        for ($i = 0; $i + 8 <= $srcLen; $i += 8) {
+            /** @var array<int, int> $chunk */
+            $chunk = \unpack('C*', Binary::safeSubstr($src, $i, 8));
+            /** @var int $c0 */
+            $c0 = static::$method($chunk[1]);
+            /** @var int $c1 */
+            $c1 = static::$method($chunk[2]);
+            /** @var int $c2 */
+            $c2 = static::$method($chunk[3]);
+            /** @var int $c3 */
+            $c3 = static::$method($chunk[4]);
+            /** @var int $c4 */
+            $c4 = static::$method($chunk[5]);
+            /** @var int $c5 */
+            $c5 = static::$method($chunk[6]);
+            /** @var int $c6 */
+            $c6 = static::$method($chunk[7]);
+            /** @var int $c7 */
+            $c7 = static::$method($chunk[8]);
+
+            $dest .= \pack(
+                'CCCCC',
+                (($c0 << 3) | ($c1 >> 2)             ) & 0xff,
+                (($c1 << 6) | ($c2 << 1) | ($c3 >> 4)) & 0xff,
+                (($c3 << 4) | ($c4 >> 1)             ) & 0xff,
+                (($c4 << 7) | ($c5 << 2) | ($c6 >> 3)) & 0xff,
+                (($c6 << 5) | ($c7     )             ) & 0xff
+            );
+            $err |= ($c0 | $c1 | $c2 | $c3 | $c4 | $c5 | $c6 | $c7) >> 8;
+        }
+        // The last chunk, which may have padding:
+        if ($i < $srcLen) {
+            /** @var array<int, int> $chunk */
+            $chunk = \unpack('C*', Binary::safeSubstr($src, $i, $srcLen - $i));
+            /** @var int $c0 */
+            $c0 = static::$method($chunk[1]);
+
+            if ($i + 6 < $srcLen) {
+                /** @var int $c1 */
+                $c1 = static::$method($chunk[2]);
+                /** @var int $c2 */
+                $c2 = static::$method($chunk[3]);
+                /** @var int $c3 */
+                $c3 = static::$method($chunk[4]);
+                /** @var int $c4 */
+                $c4 = static::$method($chunk[5]);
+                /** @var int $c5 */
+                $c5 = static::$method($chunk[6]);
+                /** @var int $c6 */
+                $c6 = static::$method($chunk[7]);
+
+                $dest .= \pack(
+                    'CCCC',
+                    (($c0 << 3) | ($c1 >> 2)             ) & 0xff,
+                    (($c1 << 6) | ($c2 << 1) | ($c3 >> 4)) & 0xff,
+                    (($c3 << 4) | ($c4 >> 1)             ) & 0xff,
+                    (($c4 << 7) | ($c5 << 2) | ($c6 >> 3)) & 0xff
+                );
+                $err |= ($c0 | $c1 | $c2 | $c3 | $c4 | $c5 | $c6) >> 8;
+            } elseif ($i + 5 < $srcLen) {
+                /** @var int $c1 */
+                $c1 = static::$method($chunk[2]);
+                /** @var int $c2 */
+                $c2 = static::$method($chunk[3]);
+                /** @var int $c3 */
+                $c3 = static::$method($chunk[4]);
+                /** @var int $c4 */
+                $c4 = static::$method($chunk[5]);
+                /** @var int $c5 */
+                $c5 = static::$method($chunk[6]);
+
+                $dest .= \pack(
+                    'CCCC',
+                    (($c0 << 3) | ($c1 >> 2)             ) & 0xff,
+                    (($c1 << 6) | ($c2 << 1) | ($c3 >> 4)) & 0xff,
+                    (($c3 << 4) | ($c4 >> 1)             ) & 0xff,
+                    (($c4 << 7) | ($c5 << 2)             ) & 0xff
+                );
+                $err |= ($c0 | $c1 | $c2 | $c3 | $c4 | $c5) >> 8;
+            } elseif ($i + 4 < $srcLen) {
+                /** @var int $c1 */
+                $c1 = static::$method($chunk[2]);
+                /** @var int $c2 */
+                $c2 = static::$method($chunk[3]);
+                /** @var int $c3 */
+                $c3 = static::$method($chunk[4]);
+                /** @var int $c4 */
+                $c4 = static::$method($chunk[5]);
+
+                $dest .= \pack(
+                    'CCC',
+                    (($c0 << 3) | ($c1 >> 2)             ) & 0xff,
+                    (($c1 << 6) | ($c2 << 1) | ($c3 >> 4)) & 0xff,
+                    (($c3 << 4) | ($c4 >> 1)             ) & 0xff
+                );
+                $err |= ($c0 | $c1 | $c2 | $c3 | $c4) >> 8;
+            } elseif ($i + 3 < $srcLen) {
+                /** @var int $c1 */
+                $c1 = static::$method($chunk[2]);
+                /** @var int $c2 */
+                $c2 = static::$method($chunk[3]);
+                /** @var int $c3 */
+                $c3 = static::$method($chunk[4]);
+
+                $dest .= \pack(
+                    'CC',
+                    (($c0 << 3) | ($c1 >> 2)             ) & 0xff,
+                    (($c1 << 6) | ($c2 << 1) | ($c3 >> 4)) & 0xff
+                );
+                $err |= ($c0 | $c1 | $c2 | $c3) >> 8;
+            } elseif ($i + 2 < $srcLen) {
+                /** @var int $c1 */
+                $c1 = static::$method($chunk[2]);
+                /** @var int $c2 */
+                $c2 = static::$method($chunk[3]);
+
+                $dest .= \pack(
+                    'CC',
+                    (($c0 << 3) | ($c1 >> 2)             ) & 0xff,
+                    (($c1 << 6) | ($c2 << 1)             ) & 0xff
+                );
+                $err |= ($c0 | $c1 | $c2) >> 8;
+            } elseif ($i + 1 < $srcLen) {
+                /** @var int $c1 */
+                $c1 = static::$method($chunk[2]);
+
+                $dest .= \pack(
+                    'C',
+                    (($c0 << 3) | ($c1 >> 2)             ) & 0xff
+                );
+                $err |= ($c0 | $c1) >> 8;
+            } else {
+                $dest .= \pack(
+                    'C',
+                    (($c0 << 3)                          ) & 0xff
+                );
+                $err |= ($c0) >> 8;
+            }
+        }
+        /** @var bool $check */
+        $check = ($err === 0);
+        if (!$check) {
+            throw new \RangeException(
+                'Base32::doDecode() only expects characters in the correct base32 alphabet'
+            );
+        }
+        return $dest;
+    }
+
+    /**
+     * Base32 Encoding
+     *
+     * @param string $src
+     * @param bool $upper
+     * @param bool $pad
+     * @return string
+     * @throws \TypeError
+     */
+    protected static function doEncode(string $src, bool $upper = false, $pad = true): string
+    {
+        // We do this to reduce code duplication:
+        $method = $upper
+            ? 'encode5BitsUpper'
+            : 'encode5Bits';
+        
+        $dest = '';
+        $srcLen = Binary::safeStrlen($src);
+
+        // Main loop (no padding):
+        for ($i = 0; $i + 5 <= $srcLen; $i += 5) {
+            /** @var array<int, int> $chunk */
+            $chunk = \unpack('C*', Binary::safeSubstr($src, $i, 5));
+            $b0 = $chunk[1];
+            $b1 = $chunk[2];
+            $b2 = $chunk[3];
+            $b3 = $chunk[4];
+            $b4 = $chunk[5];
+            $dest .=
+                static::$method(              ($b0 >> 3)  & 31) .
+                static::$method((($b0 << 2) | ($b1 >> 6)) & 31) .
+                static::$method((($b1 >> 1)             ) & 31) .
+                static::$method((($b1 << 4) | ($b2 >> 4)) & 31) .
+                static::$method((($b2 << 1) | ($b3 >> 7)) & 31) .
+                static::$method((($b3 >> 2)             ) & 31) .
+                static::$method((($b3 << 3) | ($b4 >> 5)) & 31) .
+                static::$method(  $b4                     & 31);
+        }
+        // The last chunk, which may have padding:
+        if ($i < $srcLen) {
+            /** @var array<int, int> $chunk */
+            $chunk = \unpack('C*', Binary::safeSubstr($src, $i, $srcLen - $i));
+            $b0 = $chunk[1];
+            if ($i + 3 < $srcLen) {
+                $b1 = $chunk[2];
+                $b2 = $chunk[3];
+                $b3 = $chunk[4];
+                $dest .=
+                    static::$method(              ($b0 >> 3)  & 31) .
+                    static::$method((($b0 << 2) | ($b1 >> 6)) & 31) .
+                    static::$method((($b1 >> 1)             ) & 31) .
+                    static::$method((($b1 << 4) | ($b2 >> 4)) & 31) .
+                    static::$method((($b2 << 1) | ($b3 >> 7)) & 31) .
+                    static::$method((($b3 >> 2)             ) & 31) .
+                    static::$method((($b3 << 3)             ) & 31);
+                if ($pad) {
+                    $dest .= '=';
+                }
+            } elseif ($i + 2 < $srcLen) {
+                $b1 = $chunk[2];
+                $b2 = $chunk[3];
+                $dest .=
+                    static::$method(              ($b0 >> 3)  & 31) .
+                    static::$method((($b0 << 2) | ($b1 >> 6)) & 31) .
+                    static::$method((($b1 >> 1)             ) & 31) .
+                    static::$method((($b1 << 4) | ($b2 >> 4)) & 31) .
+                    static::$method((($b2 << 1)             ) & 31);
+                if ($pad) {
+                    $dest .= '===';
+                }
+            } elseif ($i + 1 < $srcLen) {
+                $b1 = $chunk[2];
+                $dest .=
+                    static::$method(              ($b0 >> 3)  & 31) .
+                    static::$method((($b0 << 2) | ($b1 >> 6)) & 31) .
+                    static::$method((($b1 >> 1)             ) & 31) .
+                    static::$method((($b1 << 4)             ) & 31);
+                if ($pad) {
+                    $dest .= '====';
+                }
+            } else {
+                $dest .=
+                    static::$method(              ($b0 >> 3)  & 31) .
+                    static::$method( ($b0 << 2)               & 31);
+                if ($pad) {
+                    $dest .= '======';
+                }
+            }
+        }
+        return $dest;
+    }
+}

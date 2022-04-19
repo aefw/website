@@ -1,90 +1,187 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-k2yAH6+9FXdfFJ0udPn+4gGxjO7d
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AndroidEnterprise\Resource;
+
+use Google\Service\AndroidEnterprise\AuthenticationToken;
+use Google\Service\AndroidEnterprise\ProductSet;
+use Google\Service\AndroidEnterprise\User;
+use Google\Service\AndroidEnterprise\UsersListResponse;
+
+/**
+ * The "users" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $androidenterpriseService = new Google\Service\AndroidEnterprise(...);
+ *   $users = $androidenterpriseService->users;
+ *  </code>
+ */
+class Users extends \Google\Service\Resource
+{
+  /**
+   * Deleted an EMM-managed user. (users.delete)
+   *
+   * @param string $enterpriseId The ID of the enterprise.
+   * @param string $userId The ID of the user.
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($enterpriseId, $userId, $optParams = [])
+  {
+    $params = ['enterpriseId' => $enterpriseId, 'userId' => $userId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Generates an authentication token which the device policy client can use to
+   * provision the given EMM-managed user account on a device. The generated token
+   * is single-use and expires after a few minutes. You can provision a maximum of
+   * 10 devices per user. This call only works with EMM-managed accounts.
+   * (users.generateAuthenticationToken)
+   *
+   * @param string $enterpriseId The ID of the enterprise.
+   * @param string $userId The ID of the user.
+   * @param array $optParams Optional parameters.
+   * @return AuthenticationToken
+   */
+  public function generateAuthenticationToken($enterpriseId, $userId, $optParams = [])
+  {
+    $params = ['enterpriseId' => $enterpriseId, 'userId' => $userId];
+    $params = array_merge($params, $optParams);
+    return $this->call('generateAuthenticationToken', [$params], AuthenticationToken::class);
+  }
+  /**
+   * Retrieves a user's details. (users.get)
+   *
+   * @param string $enterpriseId The ID of the enterprise.
+   * @param string $userId The ID of the user.
+   * @param array $optParams Optional parameters.
+   * @return User
+   */
+  public function get($enterpriseId, $userId, $optParams = [])
+  {
+    $params = ['enterpriseId' => $enterpriseId, 'userId' => $userId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], User::class);
+  }
+  /**
+   * Retrieves the set of products a user is entitled to access.
+   * (users.getAvailableProductSet)
+   *
+   * @param string $enterpriseId The ID of the enterprise.
+   * @param string $userId The ID of the user.
+   * @param array $optParams Optional parameters.
+   * @return ProductSet
+   */
+  public function getAvailableProductSet($enterpriseId, $userId, $optParams = [])
+  {
+    $params = ['enterpriseId' => $enterpriseId, 'userId' => $userId];
+    $params = array_merge($params, $optParams);
+    return $this->call('getAvailableProductSet', [$params], ProductSet::class);
+  }
+  /**
+   * Creates a new EMM-managed user. The Users resource passed in the body of the
+   * request should include an accountIdentifier and an accountType. If a
+   * corresponding user already exists with the same account identifier, the user
+   * will be updated with the resource. In this case only the displayName field
+   * can be changed. (users.insert)
+   *
+   * @param string $enterpriseId The ID of the enterprise.
+   * @param User $postBody
+   * @param array $optParams Optional parameters.
+   * @return User
+   */
+  public function insert($enterpriseId, User $postBody, $optParams = [])
+  {
+    $params = ['enterpriseId' => $enterpriseId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], User::class);
+  }
+  /**
+   * Looks up a user by primary email address. This is only supported for Google-
+   * managed users. Lookup of the id is not needed for EMM-managed users because
+   * the id is already returned in the result of the Users.insert call.
+   * (users.listUsers)
+   *
+   * @param string $enterpriseId The ID of the enterprise.
+   * @param string $email Required. The exact primary email address of the user to
+   * look up.
+   * @param array $optParams Optional parameters.
+   * @return UsersListResponse
+   */
+  public function listUsers($enterpriseId, $email, $optParams = [])
+  {
+    $params = ['enterpriseId' => $enterpriseId, 'email' => $email];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], UsersListResponse::class);
+  }
+  /**
+   * Revokes access to all devices currently provisioned to the user. The user
+   * will no longer be able to use the managed Play store on any of their managed
+   * devices. This call only works with EMM-managed accounts.
+   * (users.revokeDeviceAccess)
+   *
+   * @param string $enterpriseId The ID of the enterprise.
+   * @param string $userId The ID of the user.
+   * @param array $optParams Optional parameters.
+   */
+  public function revokeDeviceAccess($enterpriseId, $userId, $optParams = [])
+  {
+    $params = ['enterpriseId' => $enterpriseId, 'userId' => $userId];
+    $params = array_merge($params, $optParams);
+    return $this->call('revokeDeviceAccess', [$params]);
+  }
+  /**
+   * Modifies the set of products that a user is entitled to access (referred to
+   * as *whitelisted* products). Only products that are approved or products that
+   * were previously approved (products with revoked approval) can be whitelisted.
+   * (users.setAvailableProductSet)
+   *
+   * @param string $enterpriseId The ID of the enterprise.
+   * @param string $userId The ID of the user.
+   * @param ProductSet $postBody
+   * @param array $optParams Optional parameters.
+   * @return ProductSet
+   */
+  public function setAvailableProductSet($enterpriseId, $userId, ProductSet $postBody, $optParams = [])
+  {
+    $params = ['enterpriseId' => $enterpriseId, 'userId' => $userId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setAvailableProductSet', [$params], ProductSet::class);
+  }
+  /**
+   * Updates the details of an EMM-managed user. Can be used with EMM-managed
+   * users only (not Google managed users). Pass the new details in the Users
+   * resource in the request body. Only the displayName field can be changed.
+   * Other fields must either be unset or have the currently active value.
+   * (users.update)
+   *
+   * @param string $enterpriseId The ID of the enterprise.
+   * @param string $userId The ID of the user.
+   * @param User $postBody
+   * @param array $optParams Optional parameters.
+   * @return User
+   */
+  public function update($enterpriseId, $userId, User $postBody, $optParams = [])
+  {
+    $params = ['enterpriseId' => $enterpriseId, 'userId' => $userId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], User::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Users::class, 'Google_Service_AndroidEnterprise_Resource_Users');

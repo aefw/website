@@ -1,85 +1,154 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dataproc;
+
+class InstanceGroupConfig extends \Google\Collection
+{
+  protected $collection_key = 'instanceReferences';
+  protected $acceleratorsType = AcceleratorConfig::class;
+  protected $acceleratorsDataType = 'array';
+  protected $diskConfigType = DiskConfig::class;
+  protected $diskConfigDataType = '';
+  public $imageUri;
+  public $instanceNames;
+  protected $instanceReferencesType = InstanceReference::class;
+  protected $instanceReferencesDataType = 'array';
+  public $isPreemptible;
+  public $machineTypeUri;
+  protected $managedGroupConfigType = ManagedGroupConfig::class;
+  protected $managedGroupConfigDataType = '';
+  public $minCpuPlatform;
+  public $numInstances;
+  public $preemptibility;
+
+  /**
+   * @param AcceleratorConfig[]
+   */
+  public function setAccelerators($accelerators)
+  {
+    $this->accelerators = $accelerators;
+  }
+  /**
+   * @return AcceleratorConfig[]
+   */
+  public function getAccelerators()
+  {
+    return $this->accelerators;
+  }
+  /**
+   * @param DiskConfig
+   */
+  public function setDiskConfig(DiskConfig $diskConfig)
+  {
+    $this->diskConfig = $diskConfig;
+  }
+  /**
+   * @return DiskConfig
+   */
+  public function getDiskConfig()
+  {
+    return $this->diskConfig;
+  }
+  public function setImageUri($imageUri)
+  {
+    $this->imageUri = $imageUri;
+  }
+  public function getImageUri()
+  {
+    return $this->imageUri;
+  }
+  public function setInstanceNames($instanceNames)
+  {
+    $this->instanceNames = $instanceNames;
+  }
+  public function getInstanceNames()
+  {
+    return $this->instanceNames;
+  }
+  /**
+   * @param InstanceReference[]
+   */
+  public function setInstanceReferences($instanceReferences)
+  {
+    $this->instanceReferences = $instanceReferences;
+  }
+  /**
+   * @return InstanceReference[]
+   */
+  public function getInstanceReferences()
+  {
+    return $this->instanceReferences;
+  }
+  public function setIsPreemptible($isPreemptible)
+  {
+    $this->isPreemptible = $isPreemptible;
+  }
+  public function getIsPreemptible()
+  {
+    return $this->isPreemptible;
+  }
+  public function setMachineTypeUri($machineTypeUri)
+  {
+    $this->machineTypeUri = $machineTypeUri;
+  }
+  public function getMachineTypeUri()
+  {
+    return $this->machineTypeUri;
+  }
+  /**
+   * @param ManagedGroupConfig
+   */
+  public function setManagedGroupConfig(ManagedGroupConfig $managedGroupConfig)
+  {
+    $this->managedGroupConfig = $managedGroupConfig;
+  }
+  /**
+   * @return ManagedGroupConfig
+   */
+  public function getManagedGroupConfig()
+  {
+    return $this->managedGroupConfig;
+  }
+  public function setMinCpuPlatform($minCpuPlatform)
+  {
+    $this->minCpuPlatform = $minCpuPlatform;
+  }
+  public function getMinCpuPlatform()
+  {
+    return $this->minCpuPlatform;
+  }
+  public function setNumInstances($numInstances)
+  {
+    $this->numInstances = $numInstances;
+  }
+  public function getNumInstances()
+  {
+    return $this->numInstances;
+  }
+  public function setPreemptibility($preemptibility)
+  {
+    $this->preemptibility = $preemptibility;
+  }
+  public function getPreemptibility()
+  {
+    return $this->preemptibility;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(InstanceGroupConfig::class, 'Google_Service_Dataproc_InstanceGroupConfig');

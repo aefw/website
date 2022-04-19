@@ -1,63 +1,380 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for Essentialcontacts (v1).
+ *
+ * <p>
+</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/essentialcontacts/docs/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class Essentialcontacts extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+
+  public $folders_contacts;
+  public $organizations_contacts;
+  public $projects_contacts;
+
+  /**
+   * Constructs the internal representation of the Essentialcontacts service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://essentialcontacts.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'essentialcontacts';
+
+    $this->folders_contacts = new Essentialcontacts\Resource\FoldersContacts(
+        $this,
+        $this->serviceName,
+        'contacts',
+        [
+          'methods' => [
+            'compute' => [
+              'path' => 'v1/{+parent}/contacts:compute',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'notificationCategories' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1/{+parent}/contacts',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/contacts',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'sendTestMessage' => [
+              'path' => 'v1/{+resource}/contacts:sendTestMessage',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_contacts = new Essentialcontacts\Resource\OrganizationsContacts(
+        $this,
+        $this->serviceName,
+        'contacts',
+        [
+          'methods' => [
+            'compute' => [
+              'path' => 'v1/{+parent}/contacts:compute',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'notificationCategories' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1/{+parent}/contacts',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/contacts',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'sendTestMessage' => [
+              'path' => 'v1/{+resource}/contacts:sendTestMessage',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_contacts = new Essentialcontacts\Resource\ProjectsContacts(
+        $this,
+        $this->serviceName,
+        'contacts',
+        [
+          'methods' => [
+            'compute' => [
+              'path' => 'v1/{+parent}/contacts:compute',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'notificationCategories' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1/{+parent}/contacts',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/contacts',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'sendTestMessage' => [
+              'path' => 'v1/{+resource}/contacts:sendTestMessage',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Essentialcontacts::class, 'Google_Service_Essentialcontacts');

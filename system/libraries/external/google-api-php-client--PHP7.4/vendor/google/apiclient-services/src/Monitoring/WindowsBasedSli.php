@@ -1,62 +1,92 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Monitoring;
+
+class WindowsBasedSli extends \Google\Model
+{
+  public $goodBadMetricFilter;
+  protected $goodTotalRatioThresholdType = PerformanceThreshold::class;
+  protected $goodTotalRatioThresholdDataType = '';
+  protected $metricMeanInRangeType = MetricRange::class;
+  protected $metricMeanInRangeDataType = '';
+  protected $metricSumInRangeType = MetricRange::class;
+  protected $metricSumInRangeDataType = '';
+  public $windowPeriod;
+
+  public function setGoodBadMetricFilter($goodBadMetricFilter)
+  {
+    $this->goodBadMetricFilter = $goodBadMetricFilter;
+  }
+  public function getGoodBadMetricFilter()
+  {
+    return $this->goodBadMetricFilter;
+  }
+  /**
+   * @param PerformanceThreshold
+   */
+  public function setGoodTotalRatioThreshold(PerformanceThreshold $goodTotalRatioThreshold)
+  {
+    $this->goodTotalRatioThreshold = $goodTotalRatioThreshold;
+  }
+  /**
+   * @return PerformanceThreshold
+   */
+  public function getGoodTotalRatioThreshold()
+  {
+    return $this->goodTotalRatioThreshold;
+  }
+  /**
+   * @param MetricRange
+   */
+  public function setMetricMeanInRange(MetricRange $metricMeanInRange)
+  {
+    $this->metricMeanInRange = $metricMeanInRange;
+  }
+  /**
+   * @return MetricRange
+   */
+  public function getMetricMeanInRange()
+  {
+    return $this->metricMeanInRange;
+  }
+  /**
+   * @param MetricRange
+   */
+  public function setMetricSumInRange(MetricRange $metricSumInRange)
+  {
+    $this->metricSumInRange = $metricSumInRange;
+  }
+  /**
+   * @return MetricRange
+   */
+  public function getMetricSumInRange()
+  {
+    return $this->metricSumInRange;
+  }
+  public function setWindowPeriod($windowPeriod)
+  {
+    $this->windowPeriod = $windowPeriod;
+  }
+  public function getWindowPeriod()
+  {
+    return $this->windowPeriod;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(WindowsBasedSli::class, 'Google_Service_Monitoring_WindowsBasedSli');

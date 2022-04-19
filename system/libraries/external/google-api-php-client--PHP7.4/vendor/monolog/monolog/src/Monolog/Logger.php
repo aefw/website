@@ -1,208 +1,611 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php declare(strict_types=1);
+
+/*
+ * This file is part of the Monolog package.
+ *
+ * (c) Jordi Boggiano <j.boggiano@seld.be>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Monolog;
+
+use DateTimeZone;
+use Monolog\Handler\HandlerInterface;
+use Psr\Log\LoggerInterface;
+use Psr\Log\InvalidArgumentException;
+use Throwable;
+
+/**
+ * Monolog log channel
+ *
+ * It contains a stack of Handlers and a stack of Processors,
+ * and uses them to store records that are added to it.
+ *
+ * @author Jordi Boggiano <j.boggiano@seld.be>
+ */
+class Logger implements LoggerInterface, ResettableInterface
+{
+    /**
+     * Detailed debug information
+     */
+    public const DEBUG = 100;
+
+    /**
+     * Interesting events
+     *
+     * Examples: User logs in, SQL logs.
+     */
+    public const INFO = 200;
+
+    /**
+     * Uncommon events
+     */
+    public const NOTICE = 250;
+
+    /**
+     * Exceptional occurrences that are not errors
+     *
+     * Examples: Use of deprecated APIs, poor use of an API,
+     * undesirable things that are not necessarily wrong.
+     */
+    public const WARNING = 300;
+
+    /**
+     * Runtime errors
+     */
+    public const ERROR = 400;
+
+    /**
+     * Critical conditions
+     *
+     * Example: Application component unavailable, unexpected exception.
+     */
+    public const CRITICAL = 500;
+
+    /**
+     * Action must be taken immediately
+     *
+     * Example: Entire website down, database unavailable, etc.
+     * This should trigger the SMS alerts and wake you up.
+     */
+    public const ALERT = 550;
+
+    /**
+     * Urgent alert.
+     */
+    public const EMERGENCY = 600;
+
+    /**
+     * Monolog API version
+     *
+     * This is only bumped when API breaks are done and should
+     * follow the major version of the library
+     *
+     * @var int
+     */
+    public const API = 2;
+
+    /**
+     * This is a static variable and not a constant to serve as an extension point for custom levels
+     *
+     * @var array<int, string> $levels Logging levels with the levels as key
+     */
+    protected static $levels = [
+        self::DEBUG     => 'DEBUG',
+        self::INFO      => 'INFO',
+        self::NOTICE    => 'NOTICE',
+        self::WARNING   => 'WARNING',
+        self::ERROR     => 'ERROR',
+        self::CRITICAL  => 'CRITICAL',
+        self::ALERT     => 'ALERT',
+        self::EMERGENCY => 'EMERGENCY',
+    ];
+
+    /**
+     * @var string
+     */
+    protected $name;
+
+    /**
+     * The handler stack
+     *
+     * @var HandlerInterface[]
+     */
+    protected $handlers;
+
+    /**
+     * Processors that will process all log records
+     *
+     * To process records of a single handler instead, add the processor on that specific handler
+     *
+     * @var callable[]
+     */
+    protected $processors;
+
+    /**
+     * @var bool
+     */
+    protected $microsecondTimestamps = true;
+
+    /**
+     * @var DateTimeZone
+     */
+    protected $timezone;
+
+    /**
+     * @var callable|null
+     */
+    protected $exceptionHandler;
+
+    /**
+     * @psalm-param array<callable(array): array> $processors
+     *
+     * @param string             $name       The logging channel, a simple descriptive name that is attached to all log records
+     * @param HandlerInterface[] $handlers   Optional stack of handlers, the first one in the array is called first, etc.
+     * @param callable[]         $processors Optional array of processors
+     * @param DateTimeZone|null  $timezone   Optional timezone, if not provided date_default_timezone_get() will be used
+     */
+    public function __construct(string $name, array $handlers = [], array $processors = [], ?DateTimeZone $timezone = null)
+    {
+        $this->name = $name;
+        $this->setHandlers($handlers);
+        $this->processors = $processors;
+        $this->timezone = $timezone ?: new DateTimeZone(date_default_timezone_get() ?: 'UTC');
+    }
+
+    public function getName(): string
+    {
+        return $this->name;
+    }
+
+    /**
+     * Return a new cloned instance with the name changed
+     */
+    public function withName(string $name): self
+    {
+        $new = clone $this;
+        $new->name = $name;
+
+        return $new;
+    }
+
+    /**
+     * Pushes a handler on to the stack.
+     */
+    public function pushHandler(HandlerInterface $handler): self
+    {
+        array_unshift($this->handlers, $handler);
+
+        return $this;
+    }
+
+    /**
+     * Pops a handler from the stack
+     *
+     * @throws \LogicException If empty handler stack
+     */
+    public function popHandler(): HandlerInterface
+    {
+        if (!$this->handlers) {
+            throw new \LogicException('You tried to pop from an empty handler stack.');
+        }
+
+        return array_shift($this->handlers);
+    }
+
+    /**
+     * Set handlers, replacing all existing ones.
+     *
+     * If a map is passed, keys will be ignored.
+     *
+     * @param HandlerInterface[] $handlers
+     */
+    public function setHandlers(array $handlers): self
+    {
+        $this->handlers = [];
+        foreach (array_reverse($handlers) as $handler) {
+            $this->pushHandler($handler);
+        }
+
+        return $this;
+    }
+
+    /**
+     * @return HandlerInterface[]
+     */
+    public function getHandlers(): array
+    {
+        return $this->handlers;
+    }
+
+    /**
+     * Adds a processor on to the stack.
+     */
+    public function pushProcessor(callable $callback): self
+    {
+        array_unshift($this->processors, $callback);
+
+        return $this;
+    }
+
+    /**
+     * Removes the processor on top of the stack and returns it.
+     *
+     * @throws \LogicException If empty processor stack
+     * @return callable
+     */
+    public function popProcessor(): callable
+    {
+        if (!$this->processors) {
+            throw new \LogicException('You tried to pop from an empty processor stack.');
+        }
+
+        return array_shift($this->processors);
+    }
+
+    /**
+     * @return callable[]
+     */
+    public function getProcessors(): array
+    {
+        return $this->processors;
+    }
+
+    /**
+     * Control the use of microsecond resolution timestamps in the 'datetime'
+     * member of new records.
+     *
+     * As of PHP7.1 microseconds are always included by the engine, so
+     * there is no performance penalty and Monolog 2 enabled microseconds
+     * by default. This function lets you disable them though in case you want
+     * to suppress microseconds from the output.
+     *
+     * @param bool $micro True to use microtime() to create timestamps
+     */
+    public function useMicrosecondTimestamps(bool $micro): void
+    {
+        $this->microsecondTimestamps = $micro;
+    }
+
+    /**
+     * Adds a log record.
+     *
+     * @param  int     $level   The logging level
+     * @param  string  $message The log message
+     * @param  mixed[] $context The log context
+     * @return bool    Whether the record has been processed
+     */
+    public function addRecord(int $level, string $message, array $context = []): bool
+    {
+        $offset = 0;
+        $record = null;
+
+        foreach ($this->handlers as $handler) {
+            if (null === $record) {
+                // skip creating the record as long as no handler is going to handle it
+                if (!$handler->isHandling(['level' => $level])) {
+                    continue;
+                }
+
+                $levelName = static::getLevelName($level);
+
+                $record = [
+                    'message' => $message,
+                    'context' => $context,
+                    'level' => $level,
+                    'level_name' => $levelName,
+                    'channel' => $this->name,
+                    'datetime' => new DateTimeImmutable($this->microsecondTimestamps, $this->timezone),
+                    'extra' => [],
+                ];
+
+                try {
+                    foreach ($this->processors as $processor) {
+                        $record = $processor($record);
+                    }
+                } catch (Throwable $e) {
+                    $this->handleException($e, $record);
+
+                    return true;
+                }
+            }
+
+            // once the record exists, send it to all handlers as long as the bubbling chain is not interrupted
+            try {
+                if (true === $handler->handle($record)) {
+                    break;
+                }
+            } catch (Throwable $e) {
+                $this->handleException($e, $record);
+
+                return true;
+            }
+        }
+
+        return null !== $record;
+    }
+
+    /**
+     * Ends a log cycle and frees all resources used by handlers.
+     *
+     * Closing a Handler means flushing all buffers and freeing any open resources/handles.
+     * Handlers that have been closed should be able to accept log records again and re-open
+     * themselves on demand, but this may not always be possible depending on implementation.
+     *
+     * This is useful at the end of a request and will be called automatically on every handler
+     * when they get destructed.
+     */
+    public function close(): void
+    {
+        foreach ($this->handlers as $handler) {
+            $handler->close();
+        }
+    }
+
+    /**
+     * Ends a log cycle and resets all handlers and processors to their initial state.
+     *
+     * Resetting a Handler or a Processor means flushing/cleaning all buffers, resetting internal
+     * state, and getting it back to a state in which it can receive log records again.
+     *
+     * This is useful in case you want to avoid logs leaking between two requests or jobs when you
+     * have a long running process like a worker or an application server serving multiple requests
+     * in one process.
+     */
+    public function reset(): void
+    {
+        foreach ($this->handlers as $handler) {
+            if ($handler instanceof ResettableInterface) {
+                $handler->reset();
+            }
+        }
+
+        foreach ($this->processors as $processor) {
+            if ($processor instanceof ResettableInterface) {
+                $processor->reset();
+            }
+        }
+    }
+
+    /**
+     * Gets all supported logging levels.
+     *
+     * @return array<string, int> Assoc array with human-readable level names => level codes.
+     */
+    public static function getLevels(): array
+    {
+        return array_flip(static::$levels);
+    }
+
+    /**
+     * Gets the name of the logging level.
+     *
+     * @throws \Psr\Log\InvalidArgumentException If level is not defined
+     */
+    public static function getLevelName(int $level): string
+    {
+        if (!isset(static::$levels[$level])) {
+            throw new InvalidArgumentException('Level "'.$level.'" is not defined, use one of: '.implode(', ', array_keys(static::$levels)));
+        }
+
+        return static::$levels[$level];
+    }
+
+    /**
+     * Converts PSR-3 levels to Monolog ones if necessary
+     *
+     * @param  string|int                        $level Level number (monolog) or name (PSR-3)
+     * @throws \Psr\Log\InvalidArgumentException If level is not defined
+     */
+    public static function toMonologLevel($level): int
+    {
+        if (is_string($level)) {
+            if (is_numeric($level)) {
+                return intval($level);
+            }
+
+            // Contains chars of all log levels and avoids using strtoupper() which may have
+            // strange results depending on locale (for example, "i" will become "İ" in Turkish locale)
+            $upper = strtr($level, 'abcdefgilmnortuwy', 'ABCDEFGILMNORTUWY');
+            if (defined(__CLASS__.'::'.$upper)) {
+                return constant(__CLASS__ . '::' . $upper);
+            }
+
+            throw new InvalidArgumentException('Level "'.$level.'" is not defined, use one of: '.implode(', ', array_keys(static::$levels)));
+        }
+
+        if (!is_int($level)) {
+            throw new InvalidArgumentException('Level "'.var_export($level, true).'" is not defined, use one of: '.implode(', ', array_keys(static::$levels)));
+        }
+
+        return $level;
+    }
+
+    /**
+     * Checks whether the Logger has a handler that listens on the given level
+     */
+    public function isHandling(int $level): bool
+    {
+        $record = [
+            'level' => $level,
+        ];
+
+        foreach ($this->handlers as $handler) {
+            if ($handler->isHandling($record)) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    /**
+     * Set a custom exception handler that will be called if adding a new record fails
+     *
+     * The callable will receive an exception object and the record that failed to be logged
+     */
+    public function setExceptionHandler(?callable $callback): self
+    {
+        $this->exceptionHandler = $callback;
+
+        return $this;
+    }
+
+    public function getExceptionHandler(): ?callable
+    {
+        return $this->exceptionHandler;
+    }
+
+    /**
+     * Adds a log record at an arbitrary level.
+     *
+     * This method allows for compatibility with common interfaces.
+     *
+     * @param mixed   $level   The log level
+     * @param string  $message The log message
+     * @param mixed[] $context The log context
+     */
+    public function log($level, $message, array $context = []): void
+    {
+        $level = static::toMonologLevel($level);
+
+        $this->addRecord($level, (string) $message, $context);
+    }
+
+    /**
+     * Adds a log record at the DEBUG level.
+     *
+     * This method allows for compatibility with common interfaces.
+     *
+     * @param string  $message The log message
+     * @param mixed[] $context The log context
+     */
+    public function debug($message, array $context = []): void
+    {
+        $this->addRecord(static::DEBUG, (string) $message, $context);
+    }
+
+    /**
+     * Adds a log record at the INFO level.
+     *
+     * This method allows for compatibility with common interfaces.
+     *
+     * @param string  $message The log message
+     * @param mixed[] $context The log context
+     */
+    public function info($message, array $context = []): void
+    {
+        $this->addRecord(static::INFO, (string) $message, $context);
+    }
+
+    /**
+     * Adds a log record at the NOTICE level.
+     *
+     * This method allows for compatibility with common interfaces.
+     *
+     * @param string  $message The log message
+     * @param mixed[] $context The log context
+     */
+    public function notice($message, array $context = []): void
+    {
+        $this->addRecord(static::NOTICE, (string) $message, $context);
+    }
+
+    /**
+     * Adds a log record at the WARNING level.
+     *
+     * This method allows for compatibility with common interfaces.
+     *
+     * @param string  $message The log message
+     * @param mixed[] $context The log context
+     */
+    public function warning($message, array $context = []): void
+    {
+        $this->addRecord(static::WARNING, (string) $message, $context);
+    }
+
+    /**
+     * Adds a log record at the ERROR level.
+     *
+     * This method allows for compatibility with common interfaces.
+     *
+     * @param string  $message The log message
+     * @param mixed[] $context The log context
+     */
+    public function error($message, array $context = []): void
+    {
+        $this->addRecord(static::ERROR, (string) $message, $context);
+    }
+
+    /**
+     * Adds a log record at the CRITICAL level.
+     *
+     * This method allows for compatibility with common interfaces.
+     *
+     * @param string  $message The log message
+     * @param mixed[] $context The log context
+     */
+    public function critical($message, array $context = []): void
+    {
+        $this->addRecord(static::CRITICAL, (string) $message, $context);
+    }
+
+    /**
+     * Adds a log record at the ALERT level.
+     *
+     * This method allows for compatibility with common interfaces.
+     *
+     * @param string  $message The log message
+     * @param mixed[] $context The log context
+     */
+    public function alert($message, array $context = []): void
+    {
+        $this->addRecord(static::ALERT, (string) $message, $context);
+    }
+
+    /**
+     * Adds a log record at the EMERGENCY level.
+     *
+     * This method allows for compatibility with common interfaces.
+     *
+     * @param string  $message The log message
+     * @param mixed[] $context The log context
+     */
+    public function emergency($message, array $context = []): void
+    {
+        $this->addRecord(static::EMERGENCY, (string) $message, $context);
+    }
+
+    /**
+     * Sets the timezone to be used for the timestamp of log records.
+     */
+    public function setTimezone(DateTimeZone $tz): self
+    {
+        $this->timezone = $tz;
+
+        return $this;
+    }
+
+    /**
+     * Returns the timezone to be used for the timestamp of log records.
+     */
+    public function getTimezone(): DateTimeZone
+    {
+        return $this->timezone;
+    }
+
+    /**
+     * Delegates exception management to the custom exception handler,
+     * or throws the exception if no custom handler is set.
+     */
+    protected function handleException(Throwable $e, array $record): void
+    {
+        if (!$this->exceptionHandler) {
+            throw $e;
+        }
+
+        ($this->exceptionHandler)($e, $record);
+    }
+}

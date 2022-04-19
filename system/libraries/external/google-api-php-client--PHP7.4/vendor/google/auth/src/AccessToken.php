@@ -1,220 +1,479 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2019 Google LLC
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+namespace Google\Auth;
+
+use DateTime;
+use Exception;
+use Firebase\JWT\ExpiredException;
+use Firebase\JWT\JWT;
+use Firebase\JWT\SignatureInvalidException;
+use Google\Auth\Cache\MemoryCacheItemPool;
+use Google\Auth\HttpHandler\HttpClientCache;
+use Google\Auth\HttpHandler\HttpHandlerFactory;
+use GuzzleHttp\Psr7;
+use GuzzleHttp\Psr7\Request;
+use InvalidArgumentException;
+use phpseclib\Crypt\RSA;
+use phpseclib\Math\BigInteger;
+use Psr\Cache\CacheItemPoolInterface;
+use RuntimeException;
+use SimpleJWT\InvalidTokenException;
+use SimpleJWT\JWT as SimpleJWT;
+use SimpleJWT\Keys\KeyFactory;
+use SimpleJWT\Keys\KeySet;
+use UnexpectedValueException;
+
+/**
+ * Wrapper around Google Access Tokens which provides convenience functions.
+ *
+ * @experimental
+ */
+class AccessToken
+{
+    const FEDERATED_SIGNON_CERT_URL = 'https://www.googleapis.com/oauth2/v3/certs';
+    const IAP_CERT_URL = 'https://www.gstatic.com/iap/verify/public_key-jwk';
+    const IAP_ISSUER = 'https://cloud.google.com/iap';
+    const OAUTH2_ISSUER = 'accounts.google.com';
+    const OAUTH2_ISSUER_HTTPS = 'https://accounts.google.com';
+    const OAUTH2_REVOKE_URI = 'https://oauth2.googleapis.com/revoke';
+
+    /**
+     * @var callable
+     */
+    private $httpHandler;
+
+    /**
+     * @var CacheItemPoolInterface
+     */
+    private $cache;
+
+    /**
+     * @param callable $httpHandler [optional] An HTTP Handler to deliver PSR-7 requests.
+     * @param CacheItemPoolInterface $cache [optional] A PSR-6 compatible cache implementation.
+     */
+    public function __construct(
+        callable $httpHandler = null,
+        CacheItemPoolInterface $cache = null
+    ) {
+        $this->httpHandler = $httpHandler
+            ?: HttpHandlerFactory::build(HttpClientCache::getHttpClient());
+        $this->cache = $cache ?: new MemoryCacheItemPool();
+    }
+
+    /**
+     * Verifies an id token and returns the authenticated apiLoginTicket.
+     * Throws an exception if the id token is not valid.
+     * The audience parameter can be used to control which id tokens are
+     * accepted.  By default, the id token must have been issued to this OAuth2 client.
+     *
+     * @param string $token The JSON Web Token to be verified.
+     * @param array $options [optional] Configuration options.
+     * @param string $options.audience The indended recipient of the token.
+     * @param string $options.issuer The intended issuer of the token.
+     * @param string $options.cacheKey The cache key of the cached certs. Defaults to
+     *        the sha1 of $certsLocation if provided, otherwise is set to
+     *        "federated_signon_certs_v3".
+     * @param string $options.certsLocation The location (remote or local) from which
+     *        to retrieve certificates, if not cached. This value should only be
+     *        provided in limited circumstances in which you are sure of the
+     *        behavior.
+     * @param bool $options.throwException Whether the function should throw an
+     *        exception if the verification fails. This is useful for
+     *        determining the reason verification failed.
+     * @return array|bool the token payload, if successful, or false if not.
+     * @throws InvalidArgumentException If certs could not be retrieved from a local file.
+     * @throws InvalidArgumentException If received certs are in an invalid format.
+     * @throws InvalidArgumentException If the cert alg is not supported.
+     * @throws RuntimeException If certs could not be retrieved from a remote location.
+     * @throws UnexpectedValueException If the token issuer does not match.
+     * @throws UnexpectedValueException If the token audience does not match.
+     */
+    public function verify($token, array $options = [])
+    {
+        $audience = isset($options['audience'])
+            ? $options['audience']
+            : null;
+        $issuer = isset($options['issuer'])
+            ? $options['issuer']
+            : null;
+        $certsLocation = isset($options['certsLocation'])
+            ? $options['certsLocation']
+            : self::FEDERATED_SIGNON_CERT_URL;
+        $cacheKey = isset($options['cacheKey'])
+            ? $options['cacheKey']
+            : $this->getCacheKeyFromCertLocation($certsLocation);
+        $throwException = isset($options['throwException'])
+            ? $options['throwException']
+            : false; // for backwards compatibility
+
+        // Check signature against each available cert.
+        $certs = $this->getCerts($certsLocation, $cacheKey, $options);
+        $alg = $this->determineAlg($certs);
+        if (!in_array($alg, ['RS256', 'ES256'])) {
+            throw new InvalidArgumentException(
+                'unrecognized "alg" in certs, expected ES256 or RS256'
+            );
+        }
+        try {
+            if ($alg == 'RS256') {
+                return $this->verifyRs256($token, $certs, $audience, $issuer);
+            }
+            return $this->verifyEs256($token, $certs, $audience, $issuer);
+        } catch (ExpiredException $e) {  // firebase/php-jwt 3+
+        } catch (\ExpiredException $e) { // firebase/php-jwt 2
+        } catch (SignatureInvalidException $e) {  // firebase/php-jwt 3+
+        } catch (\SignatureInvalidException $e) { // firebase/php-jwt 2
+        } catch (InvalidTokenException $e) { // simplejwt
+        } catch (DomainException $e) {
+        } catch (InvalidArgumentException $e) {
+        } catch (UnexpectedValueException $e) {
+        }
+
+        if ($throwException) {
+            throw $e;
+        }
+
+        return false;
+    }
+
+    /**
+     * Identifies the expected algorithm to verify by looking at the "alg" key
+     * of the provided certs.
+     *
+     * @param array $certs Certificate array according to the JWK spec (see
+     *                     https://tools.ietf.org/html/rfc7517).
+     * @return string The expected algorithm, such as "ES256" or "RS256".
+     */
+    private function determineAlg(array $certs)
+    {
+        $alg = null;
+        foreach ($certs as $cert) {
+            if (empty($cert['alg'])) {
+                throw new InvalidArgumentException(
+                    'certs expects "alg" to be set'
+                );
+            }
+            $alg = $alg ?: $cert['alg'];
+
+            if ($alg != $cert['alg']) {
+                throw new InvalidArgumentException(
+                    'More than one alg detected in certs'
+                );
+            }
+        }
+        return $alg;
+    }
+
+    /**
+     * Verifies an ES256-signed JWT.
+     *
+     * @param string $token The JSON Web Token to be verified.
+     * @param array $certs Certificate array according to the JWK spec (see
+     *        https://tools.ietf.org/html/rfc7517).
+     * @param string|null $audience If set, returns false if the provided
+     *        audience does not match the "aud" claim on the JWT.
+     * @param string|null $issuer If set, returns false if the provided
+     *        issuer does not match the "iss" claim on the JWT.
+     * @return array|bool the token payload, if successful, or false if not.
+     */
+    private function verifyEs256($token, array $certs, $audience = null, $issuer = null)
+    {
+        $this->checkSimpleJwt();
+
+        $jwkset = new KeySet();
+        foreach ($certs as $cert) {
+            $jwkset->add(KeyFactory::create($cert, 'php'));
+        }
+
+        // Validate the signature using the key set and ES256 algorithm.
+        $jwt = $this->callSimpleJwtDecode([$token, $jwkset, 'ES256']);
+        $payload = $jwt->getClaims();
+
+        if (isset($payload['aud'])) {
+            if ($audience && $payload['aud'] != $audience) {
+                throw new UnexpectedValueException('Audience does not match');
+            }
+        }
+
+        // @see https://cloud.google.com/iap/docs/signed-headers-howto#verifying_the_jwt_payload
+        $issuer = $issuer ?: self::IAP_ISSUER;
+        if (!isset($payload['iss']) || $payload['iss'] !== $issuer) {
+            throw new UnexpectedValueException('Issuer does not match');
+        }
+
+        return $payload;
+    }
+
+    /**
+     * Verifies an RS256-signed JWT.
+     *
+     * @param string $token The JSON Web Token to be verified.
+     * @param array $certs Certificate array according to the JWK spec (see
+     *        https://tools.ietf.org/html/rfc7517).
+     * @param string|null $audience If set, returns false if the provided
+     *        audience does not match the "aud" claim on the JWT.
+     * @param string|null $issuer If set, returns false if the provided
+     *        issuer does not match the "iss" claim on the JWT.
+     * @return array|bool the token payload, if successful, or false if not.
+     */
+    private function verifyRs256($token, array $certs, $audience = null, $issuer = null)
+    {
+        $this->checkAndInitializePhpsec();
+        $keys = [];
+        foreach ($certs as $cert) {
+            if (empty($cert['kid'])) {
+                throw new InvalidArgumentException(
+                    'certs expects "kid" to be set'
+                );
+            }
+            if (empty($cert['n']) || empty($cert['e'])) {
+                throw new InvalidArgumentException(
+                    'RSA certs expects "n" and "e" to be set'
+                );
+            }
+            $rsa = new RSA();
+            $rsa->loadKey([
+                'n' => new BigInteger($this->callJwtStatic('urlsafeB64Decode', [
+                    $cert['n'],
+                ]), 256),
+                'e' => new BigInteger($this->callJwtStatic('urlsafeB64Decode', [
+                    $cert['e']
+                ]), 256),
+            ]);
+
+            // create an array of key IDs to certs for the JWT library
+            $keys[$cert['kid']] =  $rsa->getPublicKey();
+        }
+
+        $payload = $this->callJwtStatic('decode', [
+            $token,
+            $keys,
+            ['RS256']
+        ]);
+
+        if (property_exists($payload, 'aud')) {
+            if ($audience && $payload->aud != $audience) {
+                throw new UnexpectedValueException('Audience does not match');
+            }
+        }
+
+        // support HTTP and HTTPS issuers
+        // @see https://developers.google.com/identity/sign-in/web/backend-auth
+        $issuers = $issuer ? [$issuer] : [self::OAUTH2_ISSUER, self::OAUTH2_ISSUER_HTTPS];
+        if (!isset($payload->iss) || !in_array($payload->iss, $issuers)) {
+            throw new UnexpectedValueException('Issuer does not match');
+        }
+
+        return (array) $payload;
+    }
+
+    /**
+     * Revoke an OAuth2 access token or refresh token. This method will revoke the current access
+     * token, if a token isn't provided.
+     *
+     * @param string|array $token The token (access token or a refresh token) that should be revoked.
+     * @param array $options [optional] Configuration options.
+     * @return bool Returns True if the revocation was successful, otherwise False.
+     */
+    public function revoke($token, array $options = [])
+    {
+        if (is_array($token)) {
+            if (isset($token['refresh_token'])) {
+                $token = $token['refresh_token'];
+            } else {
+                $token = $token['access_token'];
+            }
+        }
+
+        $body = Psr7\stream_for(http_build_query(['token' => $token]));
+        $request = new Request('POST', self::OAUTH2_REVOKE_URI, [
+            'Cache-Control' => 'no-store',
+            'Content-Type'  => 'application/x-www-form-urlencoded',
+        ], $body);
+
+        $httpHandler = $this->httpHandler;
+
+        $response = $httpHandler($request, $options);
+
+        return $response->getStatusCode() == 200;
+    }
+
+    /**
+     * Gets federated sign-on certificates to use for verifying identity tokens.
+     * Returns certs as array structure, where keys are key ids, and values
+     * are PEM encoded certificates.
+     *
+     * @param string $location The location from which to retrieve certs.
+     * @param string $cacheKey The key under which to cache the retrieved certs.
+     * @param array $options [optional] Configuration options.
+     * @return array
+     * @throws InvalidArgumentException If received certs are in an invalid format.
+     */
+    private function getCerts($location, $cacheKey, array $options = [])
+    {
+        $cacheItem = $this->cache->getItem($cacheKey);
+        $certs = $cacheItem ? $cacheItem->get() : null;
+
+        $gotNewCerts = false;
+        if (!$certs) {
+            $certs = $this->retrieveCertsFromLocation($location, $options);
+
+            $gotNewCerts = true;
+        }
+
+        if (!isset($certs['keys'])) {
+            if ($location !== self::IAP_CERT_URL) {
+                throw new InvalidArgumentException(
+                    'federated sign-on certs expects "keys" to be set'
+                );
+            }
+            throw new InvalidArgumentException(
+                'certs expects "keys" to be set'
+            );
+        }
+
+        // Push caching off until after verifying certs are in a valid format.
+        // Don't want to cache bad data.
+        if ($gotNewCerts) {
+            $cacheItem->expiresAt(new DateTime('+1 hour'));
+            $cacheItem->set($certs);
+            $this->cache->save($cacheItem);
+        }
+
+        return $certs['keys'];
+    }
+
+    /**
+     * Retrieve and cache a certificates file.
+     *
+     * @param $url string location
+     * @param array $options [optional] Configuration options.
+     * @return array certificates
+     * @throws InvalidArgumentException If certs could not be retrieved from a local file.
+     * @throws RuntimeException If certs could not be retrieved from a remote location.
+     */
+    private function retrieveCertsFromLocation($url, array $options = [])
+    {
+        // If we're retrieving a local file, just grab it.
+        if (strpos($url, 'http') !== 0) {
+            if (!file_exists($url)) {
+                throw new InvalidArgumentException(sprintf(
+                    'Failed to retrieve verification certificates from path: %s.',
+                    $url
+                ));
+            }
+
+            return json_decode(file_get_contents($url), true);
+        }
+
+        $httpHandler = $this->httpHandler;
+        $response = $httpHandler(new Request('GET', $url), $options);
+
+        if ($response->getStatusCode() == 200) {
+            return json_decode((string) $response->getBody(), true);
+        }
+
+        throw new RuntimeException(sprintf(
+            'Failed to retrieve verification certificates: "%s".',
+            $response->getBody()->getContents()
+        ), $response->getStatusCode());
+    }
+
+    private function checkAndInitializePhpsec()
+    {
+        // @codeCoverageIgnoreStart
+        if (!class_exists('phpseclib\Crypt\RSA')) {
+            throw new RuntimeException('Please require phpseclib/phpseclib v2 to use this utility.');
+        }
+        // @codeCoverageIgnoreEnd
+
+        $this->setPhpsecConstants();
+    }
+
+    private function checkSimpleJwt()
+    {
+        // @codeCoverageIgnoreStart
+        if (!class_exists('SimpleJWT\JWT')) {
+            throw new RuntimeException('Please require kelvinmo/simplejwt ^0.2 to use this utility.');
+        }
+        // @codeCoverageIgnoreEnd
+    }
+
+    /**
+     * phpseclib calls "phpinfo" by default, which requires special
+     * whitelisting in the AppEngine VM environment. This function
+     * sets constants to bypass the need for phpseclib to check phpinfo
+     *
+     * @see phpseclib/Math/BigInteger
+     * @see https://github.com/GoogleCloudPlatform/getting-started-php/issues/85
+     * @codeCoverageIgnore
+     */
+    private function setPhpsecConstants()
+    {
+        if (filter_var(getenv('GAE_VM'), FILTER_VALIDATE_BOOLEAN)) {
+            if (!defined('MATH_BIGINTEGER_OPENSSL_ENABLED')) {
+                define('MATH_BIGINTEGER_OPENSSL_ENABLED', true);
+            }
+            if (!defined('CRYPT_RSA_MODE')) {
+                define('CRYPT_RSA_MODE', RSA::MODE_OPENSSL);
+            }
+        }
+    }
+
+    /**
+     * Provide a hook to mock calls to the JWT static methods.
+     *
+     * @param string $method
+     * @param array $args
+     * @return mixed
+     */
+    protected function callJwtStatic($method, array $args = [])
+    {
+        $class = class_exists('Firebase\JWT\JWT')
+            ? 'Firebase\JWT\JWT'
+            : 'JWT';
+        return call_user_func_array([$class, $method], $args);
+    }
+
+    /**
+     * Provide a hook to mock calls to the JWT static methods.
+     *
+     * @param array $args
+     * @return mixed
+     */
+    protected function callSimpleJwtDecode(array $args = [])
+    {
+        return call_user_func_array(['SimpleJWT\JWT', 'decode'], $args);
+    }
+
+    /**
+     * Generate a cache key based on the cert location using sha1 with the
+     * exception of using "federated_signon_certs_v3" to preserve BC.
+     *
+     * @param string $certsLocation
+     * @return string
+     */
+    private function getCacheKeyFromCertLocation($certsLocation)
+    {
+        $key = $certsLocation === self::FEDERATED_SIGNON_CERT_URL
+            ? 'federated_signon_certs_v3'
+            : sha1($certsLocation);
+
+        return 'google_auth_certs_cache|' . $key;
+    }
+}

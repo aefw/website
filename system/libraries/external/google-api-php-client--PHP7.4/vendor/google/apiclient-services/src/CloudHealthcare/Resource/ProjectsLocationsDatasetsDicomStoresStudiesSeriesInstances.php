@@ -1,64 +1,142 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudHealthcare\Resource;
+
+use Google\Service\CloudHealthcare\HealthcareEmpty;
+use Google\Service\CloudHealthcare\HttpBody;
+
+/**
+ * The "instances" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $healthcareService = new Google\Service\CloudHealthcare(...);
+ *   $instances = $healthcareService->instances;
+ *  </code>
+ */
+class ProjectsLocationsDatasetsDicomStoresStudiesSeriesInstances extends \Google\Service\Resource
+{
+  /**
+   * DeleteInstance deletes an instance associated with the given study, series,
+   * and SOP Instance UID. Delete requests are equivalent to the GET requests
+   * specified in the Retrieve transaction. Study and series search results can
+   * take a few seconds to be updated after an instance is deleted using
+   * DeleteInstance. For samples that show how to call DeleteInstance, see
+   * [Deleting a study, series, or
+   * instance](https://cloud.google.com/healthcare/docs/how-
+   * tos/dicomweb#deleting_a_study_series_or_instance). (instances.delete)
+   *
+   * @param string $parent The name of the DICOM store that is being accessed. For
+   * example, `projects/{project_id}/locations/{location_id}/datasets/{dataset_id}
+   * /dicomStores/{dicom_store_id}`.
+   * @param string $dicomWebPath The path of the DeleteInstance request. For
+   * example, `studies/{study_uid}/series/{series_uid}/instances/{instance_uid}`.
+   * @param array $optParams Optional parameters.
+   * @return HealthcareEmpty
+   */
+  public function delete($parent, $dicomWebPath, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'dicomWebPath' => $dicomWebPath];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], HealthcareEmpty::class);
+  }
+  /**
+   * RetrieveInstance returns instance associated with the given study, series,
+   * and SOP Instance UID. See [RetrieveTransaction] (http://dicom.nema.org/medica
+   * l/dicom/current/output/html/part18.html#sect_10.4). For details on the
+   * implementation of RetrieveInstance, see [DICOM study/series/instances](https:
+   * //cloud.google.com/healthcare/docs/dicom#dicom_studyseriesinstances) and
+   * [DICOM
+   * instances](https://cloud.google.com/healthcare/docs/dicom#dicom_instances) in
+   * the Cloud Healthcare API conformance statement. For samples that show how to
+   * call RetrieveInstance, see [Retrieving an
+   * instance](https://cloud.google.com/healthcare/docs/how-
+   * tos/dicomweb#retrieving_an_instance). (instances.retrieveInstance)
+   *
+   * @param string $parent The name of the DICOM store that is being accessed. For
+   * example, `projects/{project_id}/locations/{location_id}/datasets/{dataset_id}
+   * /dicomStores/{dicom_store_id}`.
+   * @param string $dicomWebPath The path of the RetrieveInstance DICOMweb
+   * request. For example,
+   * `studies/{study_uid}/series/{series_uid}/instances/{instance_uid}`.
+   * @param array $optParams Optional parameters.
+   * @return HttpBody
+   */
+  public function retrieveInstance($parent, $dicomWebPath, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'dicomWebPath' => $dicomWebPath];
+    $params = array_merge($params, $optParams);
+    return $this->call('retrieveInstance', [$params], HttpBody::class);
+  }
+  /**
+   * RetrieveInstanceMetadata returns instance associated with the given study,
+   * series, and SOP Instance UID presented as metadata with the bulk data
+   * removed. See [RetrieveTransaction] (http://dicom.nema.org/medical/dicom/curre
+   * nt/output/html/part18.html#sect_10.4). For details on the implementation of
+   * RetrieveInstanceMetadata, see [Metadata
+   * resources](https://cloud.google.com/healthcare/docs/dicom#metadata_resources)
+   * in the Cloud Healthcare API conformance statement. For samples that show how
+   * to call RetrieveInstanceMetadata, see [Retrieving
+   * metadata](https://cloud.google.com/healthcare/docs/how-
+   * tos/dicomweb#retrieving_metadata). (instances.retrieveMetadata)
+   *
+   * @param string $parent The name of the DICOM store that is being accessed. For
+   * example, `projects/{project_id}/locations/{location_id}/datasets/{dataset_id}
+   * /dicomStores/{dicom_store_id}`.
+   * @param string $dicomWebPath The path of the RetrieveInstanceMetadata DICOMweb
+   * request. For example,
+   * `studies/{study_uid}/series/{series_uid}/instances/{instance_uid}/metadata`.
+   * @param array $optParams Optional parameters.
+   * @return HttpBody
+   */
+  public function retrieveMetadata($parent, $dicomWebPath, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'dicomWebPath' => $dicomWebPath];
+    $params = array_merge($params, $optParams);
+    return $this->call('retrieveMetadata', [$params], HttpBody::class);
+  }
+  /**
+   * RetrieveRenderedInstance returns instance associated with the given study,
+   * series, and SOP Instance UID in an acceptable Rendered Media Type. See
+   * [RetrieveTransaction] (http://dicom.nema.org/medical/dicom/current/output/htm
+   * l/part18.html#sect_10.4). For details on the implementation of
+   * RetrieveRenderedInstance, see [Rendered
+   * resources](https://cloud.google.com/healthcare/docs/dicom#rendered_resources)
+   * in the Cloud Healthcare API conformance statement. For samples that show how
+   * to call RetrieveRenderedInstance, see [Retrieving consumer image
+   * formats](https://cloud.google.com/healthcare/docs/how-
+   * tos/dicomweb#retrieving_consumer_image_formats). (instances.retrieveRendered)
+   *
+   * @param string $parent The name of the DICOM store that is being accessed. For
+   * example, `projects/{project_id}/locations/{location_id}/datasets/{dataset_id}
+   * /dicomStores/{dicom_store_id}`.
+   * @param string $dicomWebPath The path of the RetrieveRenderedInstance DICOMweb
+   * request. For example,
+   * `studies/{study_uid}/series/{series_uid}/instances/{instance_uid}/rendered`.
+   * @param array $optParams Optional parameters.
+   * @return HttpBody
+   */
+  public function retrieveRendered($parent, $dicomWebPath, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'dicomWebPath' => $dicomWebPath];
+    $params = array_merge($params, $optParams);
+    return $this->call('retrieveRendered', [$params], HttpBody::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsDatasetsDicomStoresStudiesSeriesInstances::class, 'Google_Service_CloudHealthcare_Resource_ProjectsLocationsDatasetsDicomStoresStudiesSeriesInstances');

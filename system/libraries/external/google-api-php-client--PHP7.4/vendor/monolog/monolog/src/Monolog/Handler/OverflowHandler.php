@@ -1,81 +1,154 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php declare(strict_types=1);
+
+/*
+ * This file is part of the Monolog package.
+ *
+ * (c) Jordi Boggiano <j.boggiano@seld.be>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Monolog\Handler;
+
+use Monolog\Logger;
+use Monolog\Formatter\FormatterInterface;
+
+/**
+ * Handler to only pass log messages when a certain threshold of number of messages is reached.
+ *
+ * This can be useful in cases of processing a batch of data, but you're for example only interested
+ * in case it fails catastrophically instead of a warning for 1 or 2 events. Worse things can happen, right?
+ *
+ * Usage example:
+ *
+ * ```
+ *   $log = new Logger('application');
+ *   $handler = new SomeHandler(...)
+ *
+ *   // Pass all warnings to the handler when more than 10 & all error messages when more then 5
+ *   $overflow = new OverflowHandler($handler, [Logger::WARNING => 10, Logger::ERROR => 5]);
+ *
+ *   $log->pushHandler($overflow);
+ *```
+ *
+ * @author Kris Buist <krisbuist@gmail.com>
+ */
+class OverflowHandler extends AbstractHandler implements FormattableHandlerInterface
+{
+    /** @var HandlerInterface */
+    private $handler;
+
+    /** @var int[] */
+    private $thresholdMap = [
+        Logger::DEBUG => 0,
+        Logger::INFO => 0,
+        Logger::NOTICE => 0,
+        Logger::WARNING => 0,
+        Logger::ERROR => 0,
+        Logger::CRITICAL => 0,
+        Logger::ALERT => 0,
+        Logger::EMERGENCY => 0,
+    ];
+
+    /**
+     * Buffer of all messages passed to the handler before the threshold was reached
+     *
+     * @var mixed[][]
+     */
+    private $buffer = [];
+
+    /**
+     * @param HandlerInterface $handler
+     * @param int[]            $thresholdMap Dictionary of logger level => threshold
+     * @param int|string       $level        The minimum logging level at which this handler will be triggered
+     * @param bool             $bubble
+     */
+    public function __construct(
+        HandlerInterface $handler,
+        array $thresholdMap = [],
+        $level = Logger::DEBUG,
+        bool $bubble = true
+    ) {
+        $this->handler = $handler;
+        foreach ($thresholdMap as $thresholdLevel => $threshold) {
+            $this->thresholdMap[$thresholdLevel] = $threshold;
+        }
+        parent::__construct($level, $bubble);
+    }
+
+    /**
+     * Handles a record.
+     *
+     * All records may be passed to this method, and the handler should discard
+     * those that it does not want to handle.
+     *
+     * The return value of this function controls the bubbling process of the handler stack.
+     * Unless the bubbling is interrupted (by returning true), the Logger class will keep on
+     * calling further handlers in the stack with a given log record.
+     *
+     * @param array $record The record to handle
+     *
+     * @return Boolean true means that this handler handled the record, and that bubbling is not permitted.
+     *                 false means the record was either not processed or that this handler allows bubbling.
+     */
+    public function handle(array $record): bool
+    {
+        if ($record['level'] < $this->level) {
+            return false;
+        }
+
+        $level = $record['level'];
+
+        if (!isset($this->thresholdMap[$level])) {
+            $this->thresholdMap[$level] = 0;
+        }
+
+        if ($this->thresholdMap[$level] > 0) {
+            // The overflow threshold is not yet reached, so we're buffering the record and lowering the threshold by 1
+            $this->thresholdMap[$level]--;
+            $this->buffer[$level][] = $record;
+
+            return false === $this->bubble;
+        }
+
+        if ($this->thresholdMap[$level] == 0) {
+            // This current message is breaking the threshold. Flush the buffer and continue handling the current record
+            foreach ($this->buffer[$level] ?? [] as $buffered) {
+                $this->handler->handle($buffered);
+            }
+            $this->thresholdMap[$level]--;
+            unset($this->buffer[$level]);
+        }
+
+        $this->handler->handle($record);
+
+        return false === $this->bubble;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function setFormatter(FormatterInterface $formatter): HandlerInterface
+    {
+        if ($this->handler instanceof FormattableHandlerInterface) {
+            $this->handler->setFormatter($formatter);
+
+            return $this;
+        }
+
+        throw new \UnexpectedValueException('The nested handler of type '.get_class($this->handler).' does not support formatters.');
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getFormatter(): FormatterInterface
+    {
+        if ($this->handler instanceof FormattableHandlerInterface) {
+            return $this->handler->getFormatter();
+        }
+
+        throw new \UnexpectedValueException('The nested handler of type '.get_class($this->handler).' does not support formatters.');
+    }
+}

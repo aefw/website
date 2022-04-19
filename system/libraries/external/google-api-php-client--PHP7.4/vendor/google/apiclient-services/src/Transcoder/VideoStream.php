@@ -1,115 +1,215 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-xQJ+99cLyxF9qf322MLxyWHOe3QcT9i=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Transcoder;
+
+class VideoStream extends \Google\Model
+{
+  public $allowOpenGop;
+  public $aqStrength;
+  public $bFrameCount;
+  public $bPyramid;
+  public $bitrateBps;
+  public $codec;
+  public $crfLevel;
+  public $enableTwoPass;
+  public $entropyCoder;
+  public $frameRate;
+  public $gopDuration;
+  public $gopFrameCount;
+  public $heightPixels;
+  public $pixelFormat;
+  public $preset;
+  public $profile;
+  public $rateControlMode;
+  public $tune;
+  public $vbvFullnessBits;
+  public $vbvSizeBits;
+  public $widthPixels;
+
+  public function setAllowOpenGop($allowOpenGop)
+  {
+    $this->allowOpenGop = $allowOpenGop;
+  }
+  public function getAllowOpenGop()
+  {
+    return $this->allowOpenGop;
+  }
+  public function setAqStrength($aqStrength)
+  {
+    $this->aqStrength = $aqStrength;
+  }
+  public function getAqStrength()
+  {
+    return $this->aqStrength;
+  }
+  public function setBFrameCount($bFrameCount)
+  {
+    $this->bFrameCount = $bFrameCount;
+  }
+  public function getBFrameCount()
+  {
+    return $this->bFrameCount;
+  }
+  public function setBPyramid($bPyramid)
+  {
+    $this->bPyramid = $bPyramid;
+  }
+  public function getBPyramid()
+  {
+    return $this->bPyramid;
+  }
+  public function setBitrateBps($bitrateBps)
+  {
+    $this->bitrateBps = $bitrateBps;
+  }
+  public function getBitrateBps()
+  {
+    return $this->bitrateBps;
+  }
+  public function setCodec($codec)
+  {
+    $this->codec = $codec;
+  }
+  public function getCodec()
+  {
+    return $this->codec;
+  }
+  public function setCrfLevel($crfLevel)
+  {
+    $this->crfLevel = $crfLevel;
+  }
+  public function getCrfLevel()
+  {
+    return $this->crfLevel;
+  }
+  public function setEnableTwoPass($enableTwoPass)
+  {
+    $this->enableTwoPass = $enableTwoPass;
+  }
+  public function getEnableTwoPass()
+  {
+    return $this->enableTwoPass;
+  }
+  public function setEntropyCoder($entropyCoder)
+  {
+    $this->entropyCoder = $entropyCoder;
+  }
+  public function getEntropyCoder()
+  {
+    return $this->entropyCoder;
+  }
+  public function setFrameRate($frameRate)
+  {
+    $this->frameRate = $frameRate;
+  }
+  public function getFrameRate()
+  {
+    return $this->frameRate;
+  }
+  public function setGopDuration($gopDuration)
+  {
+    $this->gopDuration = $gopDuration;
+  }
+  public function getGopDuration()
+  {
+    return $this->gopDuration;
+  }
+  public function setGopFrameCount($gopFrameCount)
+  {
+    $this->gopFrameCount = $gopFrameCount;
+  }
+  public function getGopFrameCount()
+  {
+    return $this->gopFrameCount;
+  }
+  public function setHeightPixels($heightPixels)
+  {
+    $this->heightPixels = $heightPixels;
+  }
+  public function getHeightPixels()
+  {
+    return $this->heightPixels;
+  }
+  public function setPixelFormat($pixelFormat)
+  {
+    $this->pixelFormat = $pixelFormat;
+  }
+  public function getPixelFormat()
+  {
+    return $this->pixelFormat;
+  }
+  public function setPreset($preset)
+  {
+    $this->preset = $preset;
+  }
+  public function getPreset()
+  {
+    return $this->preset;
+  }
+  public function setProfile($profile)
+  {
+    $this->profile = $profile;
+  }
+  public function getProfile()
+  {
+    return $this->profile;
+  }
+  public function setRateControlMode($rateControlMode)
+  {
+    $this->rateControlMode = $rateControlMode;
+  }
+  public function getRateControlMode()
+  {
+    return $this->rateControlMode;
+  }
+  public function setTune($tune)
+  {
+    $this->tune = $tune;
+  }
+  public function getTune()
+  {
+    return $this->tune;
+  }
+  public function setVbvFullnessBits($vbvFullnessBits)
+  {
+    $this->vbvFullnessBits = $vbvFullnessBits;
+  }
+  public function getVbvFullnessBits()
+  {
+    return $this->vbvFullnessBits;
+  }
+  public function setVbvSizeBits($vbvSizeBits)
+  {
+    $this->vbvSizeBits = $vbvSizeBits;
+  }
+  public function getVbvSizeBits()
+  {
+    return $this->vbvSizeBits;
+  }
+  public function setWidthPixels($widthPixels)
+  {
+    $this->widthPixels = $widthPixels;
+  }
+  public function getWidthPixels()
+  {
+    return $this->widthPixels;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(VideoStream::class, 'Google_Service_Transcoder_VideoStream');

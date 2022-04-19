@@ -1,62 +1,216 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for CloudSourceRepositories (v1).
+ *
+ * <p>
+ * Accesses source code repositories hosted by Google.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/source-repositories/docs/apis" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class CloudSourceRepositories extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+  /** Manage your source code repositories. */
+  const SOURCE_FULL_CONTROL =
+      "https://www.googleapis.com/auth/source.full_control";
+  /** View the contents of your source code repositories. */
+  const SOURCE_READ_ONLY =
+      "https://www.googleapis.com/auth/source.read_only";
+  /** Manage the contents of your source code repositories. */
+  const SOURCE_READ_WRITE =
+      "https://www.googleapis.com/auth/source.read_write";
+
+  public $projects;
+  public $projects_repos;
+
+  /**
+   * Constructs the internal representation of the CloudSourceRepositories
+   * service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://sourcerepo.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'sourcerepo';
+
+    $this->projects = new CloudSourceRepositories\Resource\Projects(
+        $this,
+        $this->serviceName,
+        'projects',
+        [
+          'methods' => [
+            'getConfig' => [
+              'path' => 'v1/{+name}/config',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'updateConfig' => [
+              'path' => 'v1/{+name}/config',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_repos = new CloudSourceRepositories\Resource\ProjectsRepos(
+        $this,
+        $this->serviceName,
+        'repos',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/repos',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1/{+resource}:getIamPolicy',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'options.requestedPolicyVersion' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+name}/repos',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'sync' => [
+              'path' => 'v1/{+name}:sync',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(CloudSourceRepositories::class, 'Google_Service_CloudSourceRepositories');

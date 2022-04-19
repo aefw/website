@@ -1,83 +1,125 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-7ThljBL1kly5ys+/
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\SQLAdmin;
+
+class MySqlReplicaConfiguration extends \Google\Model
+{
+  public $caCertificate;
+  public $clientCertificate;
+  public $clientKey;
+  public $connectRetryInterval;
+  public $dumpFilePath;
+  public $kind;
+  public $masterHeartbeatPeriod;
+  public $password;
+  public $sslCipher;
+  public $username;
+  public $verifyServerCertificate;
+
+  public function setCaCertificate($caCertificate)
+  {
+    $this->caCertificate = $caCertificate;
+  }
+  public function getCaCertificate()
+  {
+    return $this->caCertificate;
+  }
+  public function setClientCertificate($clientCertificate)
+  {
+    $this->clientCertificate = $clientCertificate;
+  }
+  public function getClientCertificate()
+  {
+    return $this->clientCertificate;
+  }
+  public function setClientKey($clientKey)
+  {
+    $this->clientKey = $clientKey;
+  }
+  public function getClientKey()
+  {
+    return $this->clientKey;
+  }
+  public function setConnectRetryInterval($connectRetryInterval)
+  {
+    $this->connectRetryInterval = $connectRetryInterval;
+  }
+  public function getConnectRetryInterval()
+  {
+    return $this->connectRetryInterval;
+  }
+  public function setDumpFilePath($dumpFilePath)
+  {
+    $this->dumpFilePath = $dumpFilePath;
+  }
+  public function getDumpFilePath()
+  {
+    return $this->dumpFilePath;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setMasterHeartbeatPeriod($masterHeartbeatPeriod)
+  {
+    $this->masterHeartbeatPeriod = $masterHeartbeatPeriod;
+  }
+  public function getMasterHeartbeatPeriod()
+  {
+    return $this->masterHeartbeatPeriod;
+  }
+  public function setPassword($password)
+  {
+    $this->password = $password;
+  }
+  public function getPassword()
+  {
+    return $this->password;
+  }
+  public function setSslCipher($sslCipher)
+  {
+    $this->sslCipher = $sslCipher;
+  }
+  public function getSslCipher()
+  {
+    return $this->sslCipher;
+  }
+  public function setUsername($username)
+  {
+    $this->username = $username;
+  }
+  public function getUsername()
+  {
+    return $this->username;
+  }
+  public function setVerifyServerCertificate($verifyServerCertificate)
+  {
+    $this->verifyServerCertificate = $verifyServerCertificate;
+  }
+  public function getVerifyServerCertificate()
+  {
+    return $this->verifyServerCertificate;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(MySqlReplicaConfiguration::class, 'Google_Service_SQLAdmin_MySqlReplicaConfiguration');

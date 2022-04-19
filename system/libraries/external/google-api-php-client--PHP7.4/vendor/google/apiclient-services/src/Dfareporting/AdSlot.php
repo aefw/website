@@ -1,68 +1,98 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dfareporting;
+
+class AdSlot extends \Google\Model
+{
+  public $comment;
+  public $compatibility;
+  public $height;
+  public $linkedPlacementId;
+  public $name;
+  public $paymentSourceType;
+  public $primary;
+  public $width;
+
+  public function setComment($comment)
+  {
+    $this->comment = $comment;
+  }
+  public function getComment()
+  {
+    return $this->comment;
+  }
+  public function setCompatibility($compatibility)
+  {
+    $this->compatibility = $compatibility;
+  }
+  public function getCompatibility()
+  {
+    return $this->compatibility;
+  }
+  public function setHeight($height)
+  {
+    $this->height = $height;
+  }
+  public function getHeight()
+  {
+    return $this->height;
+  }
+  public function setLinkedPlacementId($linkedPlacementId)
+  {
+    $this->linkedPlacementId = $linkedPlacementId;
+  }
+  public function getLinkedPlacementId()
+  {
+    return $this->linkedPlacementId;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setPaymentSourceType($paymentSourceType)
+  {
+    $this->paymentSourceType = $paymentSourceType;
+  }
+  public function getPaymentSourceType()
+  {
+    return $this->paymentSourceType;
+  }
+  public function setPrimary($primary)
+  {
+    $this->primary = $primary;
+  }
+  public function getPrimary()
+  {
+    return $this->primary;
+  }
+  public function setWidth($width)
+  {
+    $this->width = $width;
+  }
+  public function getWidth()
+  {
+    return $this->width;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AdSlot::class, 'Google_Service_Dfareporting_AdSlot');

@@ -1,69 +1,114 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Apigee\Resource;
+
+use Google\Service\Apigee\GoogleCloudApigeeV1ApiCategory;
+use Google\Service\Apigee\GoogleCloudApigeeV1ApiCategoryData;
+use Google\Service\Apigee\GoogleCloudApigeeV1ApiResponseWrapper;
+use Google\Service\Apigee\GoogleCloudApigeeV1ListApiCategoriesResponse;
+
+/**
+ * The "apicategories" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $apigeeService = new Google\Service\Apigee(...);
+ *   $apicategories = $apigeeService->apicategories;
+ *  </code>
+ */
+class OrganizationsSitesApicategories extends \Google\Service\Resource
+{
+  /**
+   * Creates a new category on the portal. (apicategories.create)
+   *
+   * @param string $parent Required. Name of the portal. Use the following
+   * structure in your request: `organizations/{org}/sites/{site}`
+   * @param GoogleCloudApigeeV1ApiCategoryData $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1ApiCategory
+   */
+  public function create($parent, GoogleCloudApigeeV1ApiCategoryData $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleCloudApigeeV1ApiCategory::class);
+  }
+  /**
+   * Deletes a category from the portal. (apicategories.delete)
+   *
+   * @param string $name Required. Name of the category. Use the following
+   * structure in your request:
+   * `organizations/{org}/sites/{site}/apicategories/{apicategory}`
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1ApiResponseWrapper
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleCloudApigeeV1ApiResponseWrapper::class);
+  }
+  /**
+   * Gets a category on the portal. (apicategories.get)
+   *
+   * @param string $name Required. Name of the category. Use the following
+   * structure in your request:
+   * `organizations/{org}/sites/{site}/apicategories/{apicategory}`
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1ApiCategory
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudApigeeV1ApiCategory::class);
+  }
+  /**
+   * Lists the categories on the portal.
+   * (apicategories.listOrganizationsSitesApicategories)
+   *
+   * @param string $parent Required. Name of the portal. Use the following
+   * structure in your request: `organizations/{org}/sites/{site}`
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1ListApiCategoriesResponse
+   */
+  public function listOrganizationsSitesApicategories($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleCloudApigeeV1ListApiCategoriesResponse::class);
+  }
+  /**
+   * Updates a category on the portal. (apicategories.patch)
+   *
+   * @param string $name Required. Name of the category. Use the following
+   * structure in your request:
+   * `organizations/{org}/sites/{site}/apicategories/{apicategory}`
+   * @param GoogleCloudApigeeV1ApiCategoryData $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1ApiCategory
+   */
+  public function patch($name, GoogleCloudApigeeV1ApiCategoryData $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], GoogleCloudApigeeV1ApiCategory::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(OrganizationsSitesApicategories::class, 'Google_Service_Apigee_Resource_OrganizationsSitesApicategories');

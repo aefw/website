@@ -1,69 +1,129 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\PubsubLite\Resource;
+
+use Google\Service\PubsubLite\ListSubscriptionsResponse;
+use Google\Service\PubsubLite\PubsubliteEmpty;
+use Google\Service\PubsubLite\Subscription;
+
+/**
+ * The "subscriptions" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $pubsubliteService = new Google\Service\PubsubLite(...);
+ *   $subscriptions = $pubsubliteService->subscriptions;
+ *  </code>
+ */
+class AdminProjectsLocationsSubscriptions extends \Google\Service\Resource
+{
+  /**
+   * Creates a new subscription. (subscriptions.create)
+   *
+   * @param string $parent Required. The parent location in which to create the
+   * subscription. Structured like
+   * `projects/{project_number}/locations/{location}`.
+   * @param Subscription $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool skipBacklog If true, the newly created subscription will only
+   * receive messages published after the subscription was created. Otherwise, the
+   * entire message backlog will be received on the subscription. Defaults to
+   * false.
+   * @opt_param string subscriptionId Required. The ID to use for the
+   * subscription, which will become the final component of the subscription's
+   * name. This value is structured like: `my-sub-name`.
+   * @return Subscription
+   */
+  public function create($parent, Subscription $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Subscription::class);
+  }
+  /**
+   * Deletes the specified subscription. (subscriptions.delete)
+   *
+   * @param string $name Required. The name of the subscription to delete.
+   * @param array $optParams Optional parameters.
+   * @return PubsubliteEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], PubsubliteEmpty::class);
+  }
+  /**
+   * Returns the subscription configuration. (subscriptions.get)
+   *
+   * @param string $name Required. The name of the subscription whose
+   * configuration to return.
+   * @param array $optParams Optional parameters.
+   * @return Subscription
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Subscription::class);
+  }
+  /**
+   * Returns the list of subscriptions for the given project.
+   * (subscriptions.listAdminProjectsLocationsSubscriptions)
+   *
+   * @param string $parent Required. The parent whose subscriptions are to be
+   * listed. Structured like `projects/{project_number}/locations/{location}`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The maximum number of subscriptions to return. The
+   * service may return fewer than this value. If unset or zero, all subscriptions
+   * for the parent will be returned.
+   * @opt_param string pageToken A page token, received from a previous
+   * `ListSubscriptions` call. Provide this to retrieve the subsequent page. When
+   * paginating, all other parameters provided to `ListSubscriptions` must match
+   * the call that provided the page token.
+   * @return ListSubscriptionsResponse
+   */
+  public function listAdminProjectsLocationsSubscriptions($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListSubscriptionsResponse::class);
+  }
+  /**
+   * Updates properties of the specified subscription. (subscriptions.patch)
+   *
+   * @param string $name The name of the subscription. Structured like: projects/{
+   * project_number}/locations/{location}/subscriptions/{subscription_id}
+   * @param Subscription $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. A mask specifying the subscription
+   * fields to change.
+   * @return Subscription
+   */
+  public function patch($name, Subscription $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Subscription::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AdminProjectsLocationsSubscriptions::class, 'Google_Service_PubsubLite_Resource_AdminProjectsLocationsSubscriptions');

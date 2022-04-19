@@ -1,123 +1,245 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-KYqB5CNSRp5gH8wdXaM1IQ7vH7uf
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dfareporting;
+
+class FloodlightConfiguration extends \Google\Collection
+{
+  protected $collection_key = 'userDefinedVariableConfigurations';
+  public $accountId;
+  public $advertiserId;
+  protected $advertiserIdDimensionValueType = DimensionValue::class;
+  protected $advertiserIdDimensionValueDataType = '';
+  public $analyticsDataSharingEnabled;
+  protected $customViewabilityMetricType = CustomViewabilityMetric::class;
+  protected $customViewabilityMetricDataType = '';
+  public $exposureToConversionEnabled;
+  public $firstDayOfWeek;
+  public $id;
+  protected $idDimensionValueType = DimensionValue::class;
+  protected $idDimensionValueDataType = '';
+  public $inAppAttributionTrackingEnabled;
+  public $kind;
+  protected $lookbackConfigurationType = LookbackConfiguration::class;
+  protected $lookbackConfigurationDataType = '';
+  public $naturalSearchConversionAttributionOption;
+  protected $omnitureSettingsType = OmnitureSettings::class;
+  protected $omnitureSettingsDataType = '';
+  public $subaccountId;
+  protected $tagSettingsType = TagSettings::class;
+  protected $tagSettingsDataType = '';
+  protected $thirdPartyAuthenticationTokensType = ThirdPartyAuthenticationToken::class;
+  protected $thirdPartyAuthenticationTokensDataType = 'array';
+  protected $userDefinedVariableConfigurationsType = UserDefinedVariableConfiguration::class;
+  protected $userDefinedVariableConfigurationsDataType = 'array';
+
+  public function setAccountId($accountId)
+  {
+    $this->accountId = $accountId;
+  }
+  public function getAccountId()
+  {
+    return $this->accountId;
+  }
+  public function setAdvertiserId($advertiserId)
+  {
+    $this->advertiserId = $advertiserId;
+  }
+  public function getAdvertiserId()
+  {
+    return $this->advertiserId;
+  }
+  /**
+   * @param DimensionValue
+   */
+  public function setAdvertiserIdDimensionValue(DimensionValue $advertiserIdDimensionValue)
+  {
+    $this->advertiserIdDimensionValue = $advertiserIdDimensionValue;
+  }
+  /**
+   * @return DimensionValue
+   */
+  public function getAdvertiserIdDimensionValue()
+  {
+    return $this->advertiserIdDimensionValue;
+  }
+  public function setAnalyticsDataSharingEnabled($analyticsDataSharingEnabled)
+  {
+    $this->analyticsDataSharingEnabled = $analyticsDataSharingEnabled;
+  }
+  public function getAnalyticsDataSharingEnabled()
+  {
+    return $this->analyticsDataSharingEnabled;
+  }
+  /**
+   * @param CustomViewabilityMetric
+   */
+  public function setCustomViewabilityMetric(CustomViewabilityMetric $customViewabilityMetric)
+  {
+    $this->customViewabilityMetric = $customViewabilityMetric;
+  }
+  /**
+   * @return CustomViewabilityMetric
+   */
+  public function getCustomViewabilityMetric()
+  {
+    return $this->customViewabilityMetric;
+  }
+  public function setExposureToConversionEnabled($exposureToConversionEnabled)
+  {
+    $this->exposureToConversionEnabled = $exposureToConversionEnabled;
+  }
+  public function getExposureToConversionEnabled()
+  {
+    return $this->exposureToConversionEnabled;
+  }
+  public function setFirstDayOfWeek($firstDayOfWeek)
+  {
+    $this->firstDayOfWeek = $firstDayOfWeek;
+  }
+  public function getFirstDayOfWeek()
+  {
+    return $this->firstDayOfWeek;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  /**
+   * @param DimensionValue
+   */
+  public function setIdDimensionValue(DimensionValue $idDimensionValue)
+  {
+    $this->idDimensionValue = $idDimensionValue;
+  }
+  /**
+   * @return DimensionValue
+   */
+  public function getIdDimensionValue()
+  {
+    return $this->idDimensionValue;
+  }
+  public function setInAppAttributionTrackingEnabled($inAppAttributionTrackingEnabled)
+  {
+    $this->inAppAttributionTrackingEnabled = $inAppAttributionTrackingEnabled;
+  }
+  public function getInAppAttributionTrackingEnabled()
+  {
+    return $this->inAppAttributionTrackingEnabled;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  /**
+   * @param LookbackConfiguration
+   */
+  public function setLookbackConfiguration(LookbackConfiguration $lookbackConfiguration)
+  {
+    $this->lookbackConfiguration = $lookbackConfiguration;
+  }
+  /**
+   * @return LookbackConfiguration
+   */
+  public function getLookbackConfiguration()
+  {
+    return $this->lookbackConfiguration;
+  }
+  public function setNaturalSearchConversionAttributionOption($naturalSearchConversionAttributionOption)
+  {
+    $this->naturalSearchConversionAttributionOption = $naturalSearchConversionAttributionOption;
+  }
+  public function getNaturalSearchConversionAttributionOption()
+  {
+    return $this->naturalSearchConversionAttributionOption;
+  }
+  /**
+   * @param OmnitureSettings
+   */
+  public function setOmnitureSettings(OmnitureSettings $omnitureSettings)
+  {
+    $this->omnitureSettings = $omnitureSettings;
+  }
+  /**
+   * @return OmnitureSettings
+   */
+  public function getOmnitureSettings()
+  {
+    return $this->omnitureSettings;
+  }
+  public function setSubaccountId($subaccountId)
+  {
+    $this->subaccountId = $subaccountId;
+  }
+  public function getSubaccountId()
+  {
+    return $this->subaccountId;
+  }
+  /**
+   * @param TagSettings
+   */
+  public function setTagSettings(TagSettings $tagSettings)
+  {
+    $this->tagSettings = $tagSettings;
+  }
+  /**
+   * @return TagSettings
+   */
+  public function getTagSettings()
+  {
+    return $this->tagSettings;
+  }
+  /**
+   * @param ThirdPartyAuthenticationToken[]
+   */
+  public function setThirdPartyAuthenticationTokens($thirdPartyAuthenticationTokens)
+  {
+    $this->thirdPartyAuthenticationTokens = $thirdPartyAuthenticationTokens;
+  }
+  /**
+   * @return ThirdPartyAuthenticationToken[]
+   */
+  public function getThirdPartyAuthenticationTokens()
+  {
+    return $this->thirdPartyAuthenticationTokens;
+  }
+  /**
+   * @param UserDefinedVariableConfiguration[]
+   */
+  public function setUserDefinedVariableConfigurations($userDefinedVariableConfigurations)
+  {
+    $this->userDefinedVariableConfigurations = $userDefinedVariableConfigurations;
+  }
+  /**
+   * @return UserDefinedVariableConfiguration[]
+   */
+  public function getUserDefinedVariableConfigurations()
+  {
+    return $this->userDefinedVariableConfigurations;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(FloodlightConfiguration::class, 'Google_Service_Dfareporting_FloodlightConfiguration');

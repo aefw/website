@@ -1,73 +1,182 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Ix9COs3d2IjohJwgwRTrNFcGuRAa0ilC
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dfareporting\Resource;
+
+use Google\Service\Dfareporting\Placement;
+use Google\Service\Dfareporting\PlacementsGenerateTagsResponse;
+use Google\Service\Dfareporting\PlacementsListResponse;
+
+/**
+ * The "placements" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $dfareportingService = new Google\Service\Dfareporting(...);
+ *   $placements = $dfareportingService->placements;
+ *  </code>
+ */
+class Placements extends \Google\Service\Resource
+{
+  /**
+   * Generates tags for a placement. (placements.generatetags)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string campaignId Generate placements belonging to this campaign.
+   * This is a required field.
+   * @opt_param string placementIds Generate tags for these placements.
+   * @opt_param string tagFormats Tag formats to generate for these placements.
+   * *Note:* PLACEMENT_TAG_STANDARD can only be generated for 1x1 placements.
+   * @return PlacementsGenerateTagsResponse
+   */
+  public function generatetags($profileId, $optParams = [])
+  {
+    $params = ['profileId' => $profileId];
+    $params = array_merge($params, $optParams);
+    return $this->call('generatetags', [$params], PlacementsGenerateTagsResponse::class);
+  }
+  /**
+   * Gets one placement by ID. (placements.get)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param string $id Placement ID.
+   * @param array $optParams Optional parameters.
+   * @return Placement
+   */
+  public function get($profileId, $id, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Placement::class);
+  }
+  /**
+   * Inserts a new placement. (placements.insert)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param Placement $postBody
+   * @param array $optParams Optional parameters.
+   * @return Placement
+   */
+  public function insert($profileId, Placement $postBody, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Placement::class);
+  }
+  /**
+   * Retrieves a list of placements, possibly filtered. This method supports
+   * paging. (placements.listPlacements)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string advertiserIds Select only placements that belong to these
+   * advertisers.
+   * @opt_param bool archived Select only archived placements. Don't set this
+   * field to select both archived and non-archived placements.
+   * @opt_param string campaignIds Select only placements that belong to these
+   * campaigns.
+   * @opt_param string compatibilities Select only placements that are associated
+   * with these compatibilities. DISPLAY and DISPLAY_INTERSTITIAL refer to
+   * rendering either on desktop or on mobile devices for regular or interstitial
+   * ads respectively. APP and APP_INTERSTITIAL are for rendering in mobile apps.
+   * IN_STREAM_VIDEO refers to rendering in in-stream video ads developed with the
+   * VAST standard.
+   * @opt_param string contentCategoryIds Select only placements that are
+   * associated with these content categories.
+   * @opt_param string directorySiteIds Select only placements that are associated
+   * with these directory sites.
+   * @opt_param string groupIds Select only placements that belong to these
+   * placement groups.
+   * @opt_param string ids Select only placements with these IDs.
+   * @opt_param string maxEndDate Select only placements or placement groups whose
+   * end date is on or before the specified maxEndDate. The date should be
+   * formatted as "yyyy-MM-dd".
+   * @opt_param int maxResults Maximum number of results to return.
+   * @opt_param string maxStartDate Select only placements or placement groups
+   * whose start date is on or before the specified maxStartDate. The date should
+   * be formatted as "yyyy-MM-dd".
+   * @opt_param string minEndDate Select only placements or placement groups whose
+   * end date is on or after the specified minEndDate. The date should be
+   * formatted as "yyyy-MM-dd".
+   * @opt_param string minStartDate Select only placements or placement groups
+   * whose start date is on or after the specified minStartDate. The date should
+   * be formatted as "yyyy-MM-dd".
+   * @opt_param string pageToken Value of the nextPageToken from the previous
+   * result page.
+   * @opt_param string paymentSource Select only placements with this payment
+   * source.
+   * @opt_param string placementStrategyIds Select only placements that are
+   * associated with these placement strategies.
+   * @opt_param string pricingTypes Select only placements with these pricing
+   * types.
+   * @opt_param string searchString Allows searching for placements by name or ID.
+   * Wildcards (*) are allowed. For example, "placement*2015" will return
+   * placements with names like "placement June 2015", "placement May 2015", or
+   * simply "placements 2015". Most of the searches also add wildcards implicitly
+   * at the start and the end of the search string. For example, a search string
+   * of "placement" will match placements with name "my placement", "placement
+   * 2015", or simply "placement" .
+   * @opt_param string siteIds Select only placements that are associated with
+   * these sites.
+   * @opt_param string sizeIds Select only placements that are associated with
+   * these sizes.
+   * @opt_param string sortField Field by which to sort the list.
+   * @opt_param string sortOrder Order of sorted results.
+   * @return PlacementsListResponse
+   */
+  public function listPlacements($profileId, $optParams = [])
+  {
+    $params = ['profileId' => $profileId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], PlacementsListResponse::class);
+  }
+  /**
+   * Updates an existing placement. This method supports patch semantics.
+   * (placements.patch)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param string $id Placement ID.
+   * @param Placement $postBody
+   * @param array $optParams Optional parameters.
+   * @return Placement
+   */
+  public function patch($profileId, $id, Placement $postBody, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'id' => $id, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Placement::class);
+  }
+  /**
+   * Updates an existing placement. (placements.update)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param Placement $postBody
+   * @param array $optParams Optional parameters.
+   * @return Placement
+   */
+  public function update($profileId, Placement $postBody, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Placement::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Placements::class, 'Google_Service_Dfareporting_Resource_Placements');

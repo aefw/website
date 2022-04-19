@@ -1,110 +1,203 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dfareporting;
+
+class EventTag extends \Google\Collection
+{
+  protected $collection_key = 'siteIds';
+  public $accountId;
+  public $advertiserId;
+  protected $advertiserIdDimensionValueType = DimensionValue::class;
+  protected $advertiserIdDimensionValueDataType = '';
+  public $campaignId;
+  protected $campaignIdDimensionValueType = DimensionValue::class;
+  protected $campaignIdDimensionValueDataType = '';
+  public $enabledByDefault;
+  public $excludeFromAdxRequests;
+  public $id;
+  public $kind;
+  public $name;
+  public $siteFilterType;
+  public $siteIds;
+  public $sslCompliant;
+  public $status;
+  public $subaccountId;
+  public $type;
+  public $url;
+  public $urlEscapeLevels;
+
+  public function setAccountId($accountId)
+  {
+    $this->accountId = $accountId;
+  }
+  public function getAccountId()
+  {
+    return $this->accountId;
+  }
+  public function setAdvertiserId($advertiserId)
+  {
+    $this->advertiserId = $advertiserId;
+  }
+  public function getAdvertiserId()
+  {
+    return $this->advertiserId;
+  }
+  /**
+   * @param DimensionValue
+   */
+  public function setAdvertiserIdDimensionValue(DimensionValue $advertiserIdDimensionValue)
+  {
+    $this->advertiserIdDimensionValue = $advertiserIdDimensionValue;
+  }
+  /**
+   * @return DimensionValue
+   */
+  public function getAdvertiserIdDimensionValue()
+  {
+    return $this->advertiserIdDimensionValue;
+  }
+  public function setCampaignId($campaignId)
+  {
+    $this->campaignId = $campaignId;
+  }
+  public function getCampaignId()
+  {
+    return $this->campaignId;
+  }
+  /**
+   * @param DimensionValue
+   */
+  public function setCampaignIdDimensionValue(DimensionValue $campaignIdDimensionValue)
+  {
+    $this->campaignIdDimensionValue = $campaignIdDimensionValue;
+  }
+  /**
+   * @return DimensionValue
+   */
+  public function getCampaignIdDimensionValue()
+  {
+    return $this->campaignIdDimensionValue;
+  }
+  public function setEnabledByDefault($enabledByDefault)
+  {
+    $this->enabledByDefault = $enabledByDefault;
+  }
+  public function getEnabledByDefault()
+  {
+    return $this->enabledByDefault;
+  }
+  public function setExcludeFromAdxRequests($excludeFromAdxRequests)
+  {
+    $this->excludeFromAdxRequests = $excludeFromAdxRequests;
+  }
+  public function getExcludeFromAdxRequests()
+  {
+    return $this->excludeFromAdxRequests;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setSiteFilterType($siteFilterType)
+  {
+    $this->siteFilterType = $siteFilterType;
+  }
+  public function getSiteFilterType()
+  {
+    return $this->siteFilterType;
+  }
+  public function setSiteIds($siteIds)
+  {
+    $this->siteIds = $siteIds;
+  }
+  public function getSiteIds()
+  {
+    return $this->siteIds;
+  }
+  public function setSslCompliant($sslCompliant)
+  {
+    $this->sslCompliant = $sslCompliant;
+  }
+  public function getSslCompliant()
+  {
+    return $this->sslCompliant;
+  }
+  public function setStatus($status)
+  {
+    $this->status = $status;
+  }
+  public function getStatus()
+  {
+    return $this->status;
+  }
+  public function setSubaccountId($subaccountId)
+  {
+    $this->subaccountId = $subaccountId;
+  }
+  public function getSubaccountId()
+  {
+    return $this->subaccountId;
+  }
+  public function setType($type)
+  {
+    $this->type = $type;
+  }
+  public function getType()
+  {
+    return $this->type;
+  }
+  public function setUrl($url)
+  {
+    $this->url = $url;
+  }
+  public function getUrl()
+  {
+    return $this->url;
+  }
+  public function setUrlEscapeLevels($urlEscapeLevels)
+  {
+    $this->urlEscapeLevels = $urlEscapeLevels;
+  }
+  public function getUrlEscapeLevels()
+  {
+    return $this->urlEscapeLevels;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(EventTag::class, 'Google_Service_Dfareporting_EventTag');

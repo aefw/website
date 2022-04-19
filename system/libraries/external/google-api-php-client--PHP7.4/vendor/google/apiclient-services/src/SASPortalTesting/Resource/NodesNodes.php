@@ -1,74 +1,132 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-vxFVETY3wO508w+XhEIzW0==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\SASPortalTesting\Resource;
+
+use Google\Service\SASPortalTesting\SasPortalEmpty;
+use Google\Service\SASPortalTesting\SasPortalListNodesResponse;
+use Google\Service\SASPortalTesting\SasPortalMoveNodeRequest;
+use Google\Service\SASPortalTesting\SasPortalNode;
+use Google\Service\SASPortalTesting\SasPortalOperation;
+
+/**
+ * The "nodes" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $prod_tt_sasportalService = new Google\Service\SASPortalTesting(...);
+ *   $nodes = $prod_tt_sasportalService->nodes;
+ *  </code>
+ */
+class NodesNodes extends \Google\Service\Resource
+{
+  /**
+   * Creates a new node. (nodes.create)
+   *
+   * @param string $parent Required. The parent resource name where the node is to
+   * be created.
+   * @param SasPortalNode $postBody
+   * @param array $optParams Optional parameters.
+   * @return SasPortalNode
+   */
+  public function create($parent, SasPortalNode $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], SasPortalNode::class);
+  }
+  /**
+   * Deletes a node. (nodes.delete)
+   *
+   * @param string $name Required. The name of the node.
+   * @param array $optParams Optional parameters.
+   * @return SasPortalEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], SasPortalEmpty::class);
+  }
+  /**
+   * Returns a requested node. (nodes.get)
+   *
+   * @param string $name Required. The name of the node.
+   * @param array $optParams Optional parameters.
+   * @return SasPortalNode
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], SasPortalNode::class);
+  }
+  /**
+   * Lists nodes. (nodes.listNodesNodes)
+   *
+   * @param string $parent Required. The parent resource name, for example,
+   * "nodes/1".
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter The filter expression. The filter should have the
+   * following format: "DIRECT_CHILDREN" or format: "direct_children". The filter
+   * is case insensitive. If empty, then no nodes are filtered.
+   * @opt_param int pageSize The maximum number of nodes to return in the
+   * response.
+   * @opt_param string pageToken A pagination token returned from a previous call
+   * to ListNodes that indicates where this listing should continue from.
+   * @return SasPortalListNodesResponse
+   */
+  public function listNodesNodes($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], SasPortalListNodesResponse::class);
+  }
+  /**
+   * Moves a node under another node or customer. (nodes.move)
+   *
+   * @param string $name Required. The name of the node to move.
+   * @param SasPortalMoveNodeRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return SasPortalOperation
+   */
+  public function move($name, SasPortalMoveNodeRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('move', [$params], SasPortalOperation::class);
+  }
+  /**
+   * Updates an existing node. (nodes.patch)
+   *
+   * @param string $name Output only. Resource name.
+   * @param SasPortalNode $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Fields to be updated.
+   * @return SasPortalNode
+   */
+  public function patch($name, SasPortalNode $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], SasPortalNode::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(NodesNodes::class, 'Google_Service_SASPortalTesting_Resource_NodesNodes');

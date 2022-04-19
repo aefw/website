@@ -1,119 +1,248 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Bigquery;
+
+class JobStatistics extends \Google\Collection
+{
+  protected $collection_key = 'reservationUsage';
+  protected $internal_gapi_mappings = [
+        "reservationId" => "reservation_id",
+  ];
+  public $completionRatio;
+  public $creationTime;
+  public $endTime;
+  protected $extractType = JobStatistics4::class;
+  protected $extractDataType = '';
+  protected $loadType = JobStatistics3::class;
+  protected $loadDataType = '';
+  public $numChildJobs;
+  public $parentJobId;
+  protected $queryType = JobStatistics2::class;
+  protected $queryDataType = '';
+  public $quotaDeferments;
+  protected $reservationUsageType = JobStatisticsReservationUsage::class;
+  protected $reservationUsageDataType = 'array';
+  public $reservationId;
+  protected $rowLevelSecurityStatisticsType = RowLevelSecurityStatistics::class;
+  protected $rowLevelSecurityStatisticsDataType = '';
+  protected $scriptStatisticsType = ScriptStatistics::class;
+  protected $scriptStatisticsDataType = '';
+  protected $sessionInfoTemplateType = SessionInfo::class;
+  protected $sessionInfoTemplateDataType = '';
+  public $startTime;
+  public $totalBytesProcessed;
+  public $totalSlotMs;
+  protected $transactionInfoType = TransactionInfo::class;
+  protected $transactionInfoDataType = '';
+
+  public function setCompletionRatio($completionRatio)
+  {
+    $this->completionRatio = $completionRatio;
+  }
+  public function getCompletionRatio()
+  {
+    return $this->completionRatio;
+  }
+  public function setCreationTime($creationTime)
+  {
+    $this->creationTime = $creationTime;
+  }
+  public function getCreationTime()
+  {
+    return $this->creationTime;
+  }
+  public function setEndTime($endTime)
+  {
+    $this->endTime = $endTime;
+  }
+  public function getEndTime()
+  {
+    return $this->endTime;
+  }
+  /**
+   * @param JobStatistics4
+   */
+  public function setExtract(JobStatistics4 $extract)
+  {
+    $this->extract = $extract;
+  }
+  /**
+   * @return JobStatistics4
+   */
+  public function getExtract()
+  {
+    return $this->extract;
+  }
+  /**
+   * @param JobStatistics3
+   */
+  public function setLoad(JobStatistics3 $load)
+  {
+    $this->load = $load;
+  }
+  /**
+   * @return JobStatistics3
+   */
+  public function getLoad()
+  {
+    return $this->load;
+  }
+  public function setNumChildJobs($numChildJobs)
+  {
+    $this->numChildJobs = $numChildJobs;
+  }
+  public function getNumChildJobs()
+  {
+    return $this->numChildJobs;
+  }
+  public function setParentJobId($parentJobId)
+  {
+    $this->parentJobId = $parentJobId;
+  }
+  public function getParentJobId()
+  {
+    return $this->parentJobId;
+  }
+  /**
+   * @param JobStatistics2
+   */
+  public function setQuery(JobStatistics2 $query)
+  {
+    $this->query = $query;
+  }
+  /**
+   * @return JobStatistics2
+   */
+  public function getQuery()
+  {
+    return $this->query;
+  }
+  public function setQuotaDeferments($quotaDeferments)
+  {
+    $this->quotaDeferments = $quotaDeferments;
+  }
+  public function getQuotaDeferments()
+  {
+    return $this->quotaDeferments;
+  }
+  /**
+   * @param JobStatisticsReservationUsage[]
+   */
+  public function setReservationUsage($reservationUsage)
+  {
+    $this->reservationUsage = $reservationUsage;
+  }
+  /**
+   * @return JobStatisticsReservationUsage[]
+   */
+  public function getReservationUsage()
+  {
+    return $this->reservationUsage;
+  }
+  public function setReservationId($reservationId)
+  {
+    $this->reservationId = $reservationId;
+  }
+  public function getReservationId()
+  {
+    return $this->reservationId;
+  }
+  /**
+   * @param RowLevelSecurityStatistics
+   */
+  public function setRowLevelSecurityStatistics(RowLevelSecurityStatistics $rowLevelSecurityStatistics)
+  {
+    $this->rowLevelSecurityStatistics = $rowLevelSecurityStatistics;
+  }
+  /**
+   * @return RowLevelSecurityStatistics
+   */
+  public function getRowLevelSecurityStatistics()
+  {
+    return $this->rowLevelSecurityStatistics;
+  }
+  /**
+   * @param ScriptStatistics
+   */
+  public function setScriptStatistics(ScriptStatistics $scriptStatistics)
+  {
+    $this->scriptStatistics = $scriptStatistics;
+  }
+  /**
+   * @return ScriptStatistics
+   */
+  public function getScriptStatistics()
+  {
+    return $this->scriptStatistics;
+  }
+  /**
+   * @param SessionInfo
+   */
+  public function setSessionInfoTemplate(SessionInfo $sessionInfoTemplate)
+  {
+    $this->sessionInfoTemplate = $sessionInfoTemplate;
+  }
+  /**
+   * @return SessionInfo
+   */
+  public function getSessionInfoTemplate()
+  {
+    return $this->sessionInfoTemplate;
+  }
+  public function setStartTime($startTime)
+  {
+    $this->startTime = $startTime;
+  }
+  public function getStartTime()
+  {
+    return $this->startTime;
+  }
+  public function setTotalBytesProcessed($totalBytesProcessed)
+  {
+    $this->totalBytesProcessed = $totalBytesProcessed;
+  }
+  public function getTotalBytesProcessed()
+  {
+    return $this->totalBytesProcessed;
+  }
+  public function setTotalSlotMs($totalSlotMs)
+  {
+    $this->totalSlotMs = $totalSlotMs;
+  }
+  public function getTotalSlotMs()
+  {
+    return $this->totalSlotMs;
+  }
+  /**
+   * @param TransactionInfo
+   */
+  public function setTransactionInfo(TransactionInfo $transactionInfo)
+  {
+    $this->transactionInfo = $transactionInfo;
+  }
+  /**
+   * @return TransactionInfo
+   */
+  public function getTransactionInfo()
+  {
+    return $this->transactionInfo;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(JobStatistics::class, 'Google_Service_Bigquery_JobStatistics');

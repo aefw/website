@@ -1,67 +1,205 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute\Resource;
+
+use Google\Service\Compute\InstanceGroup;
+use Google\Service\Compute\Operation;
+use Google\Service\Compute\RegionInstanceGroupList;
+use Google\Service\Compute\RegionInstanceGroupsListInstances;
+use Google\Service\Compute\RegionInstanceGroupsListInstancesRequest;
+use Google\Service\Compute\RegionInstanceGroupsSetNamedPortsRequest;
+
+/**
+ * The "regionInstanceGroups" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $computeService = new Google\Service\Compute(...);
+ *   $regionInstanceGroups = $computeService->regionInstanceGroups;
+ *  </code>
+ */
+class RegionInstanceGroups extends \Google\Service\Resource
+{
+  /**
+   * Returns the specified instance group resource. (regionInstanceGroups.get)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param string $instanceGroup Name of the instance group resource to return.
+   * @param array $optParams Optional parameters.
+   * @return InstanceGroup
+   */
+  public function get($project, $region, $instanceGroup, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'instanceGroup' => $instanceGroup];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], InstanceGroup::class);
+  }
+  /**
+   * Retrieves the list of instance group resources contained within the specified
+   * region. (regionInstanceGroups.listRegionInstanceGroups)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return RegionInstanceGroupList
+   */
+  public function listRegionInstanceGroups($project, $region, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], RegionInstanceGroupList::class);
+  }
+  /**
+   * Lists the instances in the specified instance group and displays information
+   * about the named ports. Depending on the specified options, this method can
+   * list all instances or only the instances that are running. The orderBy query
+   * parameter is not supported. (regionInstanceGroups.listInstances)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param string $instanceGroup Name of the regional instance group for which we
+   * want to list the instances.
+   * @param RegionInstanceGroupsListInstancesRequest $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return RegionInstanceGroupsListInstances
+   */
+  public function listInstances($project, $region, $instanceGroup, RegionInstanceGroupsListInstancesRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'instanceGroup' => $instanceGroup, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('listInstances', [$params], RegionInstanceGroupsListInstances::class);
+  }
+  /**
+   * Sets the named ports for the specified regional instance group.
+   * (regionInstanceGroups.setNamedPorts)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param string $instanceGroup The name of the regional instance group where
+   * the named ports are updated.
+   * @param RegionInstanceGroupsSetNamedPortsRequest $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function setNamedPorts($project, $region, $instanceGroup, RegionInstanceGroupsSetNamedPortsRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'instanceGroup' => $instanceGroup, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setNamedPorts', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(RegionInstanceGroups::class, 'Google_Service_Compute_Resource_RegionInstanceGroups');

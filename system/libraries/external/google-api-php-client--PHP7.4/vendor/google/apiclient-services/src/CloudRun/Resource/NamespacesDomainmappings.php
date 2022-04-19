@@ -1,63 +1,123 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudRun\Resource;
+
+use Google\Service\CloudRun\DomainMapping;
+use Google\Service\CloudRun\ListDomainMappingsResponse;
+use Google\Service\CloudRun\Status;
+
+/**
+ * The "domainmappings" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $runService = new Google\Service\CloudRun(...);
+ *   $domainmappings = $runService->domainmappings;
+ *  </code>
+ */
+class NamespacesDomainmappings extends \Google\Service\Resource
+{
+  /**
+   * Create a new domain mapping. (domainmappings.create)
+   *
+   * @param string $parent The namespace in which the domain mapping should be
+   * created. For Cloud Run (fully managed), replace {namespace_id} with the
+   * project ID or number.
+   * @param DomainMapping $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string dryRun Indicates that the server should validate the
+   * request and populate default values without persisting the request. Supported
+   * values: `all`
+   * @return DomainMapping
+   */
+  public function create($parent, DomainMapping $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], DomainMapping::class);
+  }
+  /**
+   * Delete a domain mapping. (domainmappings.delete)
+   *
+   * @param string $name The name of the domain mapping to delete. For Cloud Run
+   * (fully managed), replace {namespace_id} with the project ID or number.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string apiVersion Cloud Run currently ignores this parameter.
+   * @opt_param string dryRun Indicates that the server should validate the
+   * request and populate default values without persisting the request. Supported
+   * values: `all`
+   * @opt_param string kind Cloud Run currently ignores this parameter.
+   * @opt_param string propagationPolicy Specifies the propagation policy of
+   * delete. Cloud Run currently ignores this setting, and deletes in the
+   * background. Please see kubernetes.io/docs/concepts/workloads/controllers
+   * /garbage-collection/ for more information.
+   * @return Status
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Status::class);
+  }
+  /**
+   * Get information about a domain mapping. (domainmappings.get)
+   *
+   * @param string $name The name of the domain mapping to retrieve. For Cloud Run
+   * (fully managed), replace {namespace_id} with the project ID or number.
+   * @param array $optParams Optional parameters.
+   * @return DomainMapping
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], DomainMapping::class);
+  }
+  /**
+   * List domain mappings. (domainmappings.listNamespacesDomainmappings)
+   *
+   * @param string $parent The namespace from which the domain mappings should be
+   * listed. For Cloud Run (fully managed), replace {namespace_id} with the
+   * project ID or number.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string continue Optional encoded string to continue paging.
+   * @opt_param string fieldSelector Allows to filter resources based on a
+   * specific value for a field name. Send this in a query string format. i.e.
+   * 'metadata.name%3Dlorem'. Not currently used by Cloud Run.
+   * @opt_param bool includeUninitialized Not currently used by Cloud Run.
+   * @opt_param string labelSelector Allows to filter resources based on a label.
+   * Supported operations are =, !=, exists, in, and notIn.
+   * @opt_param int limit The maximum number of records that should be returned.
+   * @opt_param string resourceVersion The baseline resource version from which
+   * the list or watch operation should start. Not currently used by Cloud Run.
+   * @opt_param bool watch Flag that indicates that the client expects to watch
+   * this resource as well. Not currently used by Cloud Run.
+   * @return ListDomainMappingsResponse
+   */
+  public function listNamespacesDomainmappings($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListDomainMappingsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(NamespacesDomainmappings::class, 'Google_Service_CloudRun_Resource_NamespacesDomainmappings');

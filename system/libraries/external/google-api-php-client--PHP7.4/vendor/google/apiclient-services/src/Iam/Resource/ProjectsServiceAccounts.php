@@ -1,109 +1,378 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPuWSsJ1ZjY472jnC4qe7utxEn+dpWDp2Px/8CzzvEWS+3up8T7IMuIKGGqkQ55/cvAd6u4Fc
-yoxaZyfu7ByAZR8wwHxJ+yh8Q9LbRqKkTrY6O/seSt6wQRX3bcjFq4Q8TfwooH32VS2PFhdsXKPD
-EX4P//tWm+ty8+TakJBPbrHL9kimkffxmSZZ8JLpbQox9cN+A2t7DzQQUueWiBFM7m+VKyskmWPb
-xk82qBpYobuJQJPFtybeJYVl/G1TdT4SgAiwsXz5NV0cX11eJtBBlRSVE+9mKourL8IeB86cFae5
-vLN1SksksaL75VQfWCg8r0Ly5F+DSTWXXFghXMtjYMQUjeMVKDWtXtIePtrz1tvpg/RpEXfwHMoP
-Km/DJysInoAJhyn3H9EEZfxo0xjAmNEijMbzEG8c65GvDFLOBIr7sGlIEIsoeQ+bH4QpRkBy8iyl
-Ut02E5aPtvlx98/UT8Qt8YNd2J0gzDXCo9tRMpInXtlpCS4Kl5QhGY1k7QjGjj8ASiLqVEejntRq
-scJey+DjOVMroV6nmANk3zQwd97Mu+QEPFnNiws0Sfnt/UIJbB2jWs5FFh7+mcyBmAzkNX5VOASd
-5UvTs52z3P5txttckz3mb2v1Wvj7fk+jnPm+RbvkV8WOGhAnjJP7FNs8TqVuCzjPxdeLXq6IYrWp
-hzAYu6zW65AKQbQ8a1EuXwpm0slRJgBpOBY5I6YEfjtPz05itcm3S/TktigOgOpS7rXwslbvvjGZ
-KE/VMcudTwA+UR741Ug9KQ70Z8GoBL94M5vt3llaXiPGE4I7GWFkKMFOZS04sXDt00Yo1QkR6ir9
-PLSiIRQNkZFmmOKbmlBY7ofn0YzyhG4W2R0uClwLuDohblUQhPxX9UaRqUeXB/uAPuw6guPr3Sse
-SRjV/jZbnEHPacf4DFCtpm5ENkMUUw7AmxhdgTTVUYbRpxG/H4Sw16hENmUGUEBHCI2luV7SGk9h
-yT6PWXWGJi6ExKD7z0zdCH1ahDG+QGR/Vau/qvruxbm//5FiYlc/obLIKb9CYILbNpb/hWGPm1DI
-vzuW1AK6YoaFO4z+2fMdGz6ets52MNGbZfOxt4sk+6YdmRy7oPhJl/rWD/xbgFYP4I0bzklrfgOY
-/VSIxYVcJzKKofd/YEY78MT3/d98N0ecEE9XSjjCoW8DoPU/eUno5iHa5YKLGnYCWd5d0cVNwLh2
-2ZADdq0ZzRjHSDw4lXg+iIApPcSKqqdqYtw7U66F/CZngUkbmvijkik8Cxc1en3yBiT8l3qTHY0d
-WsSQ9BCKBSRXzS1axAoNj5qSIapawUfh7KZfcdHREMW9XgiVSkALtRdwiwORYVDeTl9C8/yt3Fpw
-TmOscax3kk9h36EP4K+d7TrKtD0zPVPOack+Uu+4tnUFUruam3EvHUbMl8/eEFYec873iRKjhnXI
-MtORtag9jptp3vugaPvtkTG5xynKTvFzlYagHKCvLgGhsv8ZszFL8moSZrS/WpXFmOXGcW79x60p
-xfTIOhvO5Hf5jKaJQCx4GkqjjEtXQm92UFagM4KlCFQo4Yyjag4RTbkn2MNE4MBCMaTzbJG9W00I
-CySnjJqI0kKpHBznZSzEY2wisx2LfTk3+cTKEICZ/m87EixRVPPdDTFzGc4b4YlxpJi6IZQZOCXd
-A5z1fE9FlIYzLq1W9AyjNWPhE76/7CucPjfZkXDoGhV8anZ8pJz8z97cx5NyGgNxGTQOOD7KE8ep
-/eI/HSsSFNLQ5DQLtttmJ07brHEBpaMux9+KgYdy4F4Uxywj+6wUsWcNp590yhxp6jEdNWxQFT/q
-HlIc0/Us9fzvUU5CIeQr8PXn7rB0THDMQ2xZtPsYEzjfUunWPsRsAuGZFVzdzo1pNakiMq88ub/c
-eJ4q7Xhu7yK226kABtBE9UswqxIsJCau3MG0rneoM4mm7+rslHaHA/2Ep3zjfVuzhkfpkIYwZ1TF
-Ze8upsRxbyH6cjeZSdwjZZHEgH0qySGsfacf7mBccZQnShsXCTGBauPmQ2xaWlyY7rezrUHmfMR/
-1OMye5xkl4RUB2Udm3zkeRKb1+G/1vRNKoQSo7CaADvzUOeeQf6no3M9vm2lxUOCMpFxTQsFxT56
-1Vqje7aVYx9vwlig3BU+7BPAtrP8ltfkqIfEJ5LPQ/TJX0oUNTfHdoLZCDa9BDS0o6Hq+Yzk2juh
-a2YKrjzmpRbHvLLcZRwfXx74oV3APpc8VmsCGrv3swAEeXASXQL41l5oeY/p2Pm3Sp6K6Q0YRm9j
-op/Jfzjoq2zDGfJD1I1hYl+c3q/hGh4HIj1VTBHGhurCgVaulrQuTuYm8CLNJB+cTgXuju/GhR2P
-lMPZFxveMFkxmpEBs048UofdcJivdM/+D9tn2tecbw3jwstrcnAWi9CDEoVPm1sdG+CtEo/20PjO
-R4LCMUv7W+aCmcQXDSQ90X4+nL24/qANDDiJhSFQMjpJM0fhcz+BYe+OZza8oWV6fbAXfWlXcUih
-rhUlOGSXIB6bQyYTS3NsgEo7Lv+0tiDHmCG3wkUwsQw9CMB8Dul+E8GqV3F0zArYexsll8qsVKeq
-eWlROt9SzaVB/1eJ3vD++nSrJIIfN2Oc2C/3x/4tIykbBSvMwqKWkV5daBNc9In9z/YwGZesGQef
-/g1kBGFwUy5KUUdoL6shqBjlyPj8etinQUrhuSbZUi/L452oCGsE17i+XmAxX1YR1mN1UoUZaNSI
-OjiFHaq7yGop/yA/DTsqdJhn/M1FQ2POqhocoN6dCRGQpQtLnZ/DGNvXDvXuzmdbHk8Ra7lf27HG
-DHQR0sQNs/9irOEYL8fcKS6FxMYuM4vYebScw7r3pwb/OMrE3ip5N4E5Zvb/0+POTFH3QcRptn1N
-AyIQDGsh4MdOQJ5lmVojm2rtNiF+Fd/lM+ga94Zhc26P6vXAg6xfqt0hTnJRrrbYbd3rU6gCfW9k
-EzSZwdkPRf7m2ksRoxrX5SjLXvEsnEco+iG8QvD8xxJjG8o+pZcRwCUbAeakzEoLbEGhQGQlzv4t
-GQzncBhfpstdJnxvrHPqC7D26nBD5akHG/sE1S0/e8HFANC2X+oJJs3ydkBFahVEKxqPetLbRrx1
-O6ve8pKoCmohig1Xx+mB9mRzbL6vGO/CulDHVzYgDWcKArt5OGQE81O0k3klpW/KOLnXdQdJqFHe
-CsQ61lGgHwGP7CVPg3QeUl09RKe9c4gB6N3wsy0gCXqs3pKG2YiC9/2GaiTvYz/MSPZwNzSGkG2Z
-zAMh2KOVVUBn3IV6tglGi5/Nz4U3V38h8aY8YCYew8c1ndKLffxSv2QDXknflD+TR/AHmrwffHn4
-3fyoDcQVt7bgL7Qu/5RzOgtTBq3o3El2B62O18ocTXAx5EwKQ6rvXIjBHTgOb2w/lw/tU+gdfvM/
-UMdB5w202cPdFHl/qjENOIYkNTC9dVVfIWotynds2UksXDkXrDoTSbrwgQlqn008UBXUJXWSGr+x
-cu+kbWN2MvoUe+OhnXvwEijf3XqUvCAXhusRXV7XJEjP5kis9HcQTVdgsaZIn6NJd4m0mHn6tNZ5
-8to4/DvqbzzCBjpuoNvo6o0lJkUxnOP07SlU+yF/x29eRAtVZacjXB3eTL5yACCwyggTEJjeK6hO
-+fpcm0Slzp0+BZBneb90jfeJ09DVOc0kbPEeTqOHEmxzvVIJftElPWfi3lbCM8wETM+lFrv9GzMZ
-76rHZgk5DJPFnJ+y40bPxSGcrrssNorryEHRKF2mfmriwab8mbekAbZuHUaU/rMEfr/d2iPnIYRa
-7JzGWMWZsShe9Tfn1VvP4D9U2jgbismsPhXhHLBV99aJdnxKNp5BlRjIxUpCqOvzMshmvl225Y0r
-+QgWp/tYDURHKWPk53VEYrc9PDH2sFCaZpGhvY7nPSQLOmjEqoVGZy9MIKpRZj6n/rcUZszp/2U7
-wMozY5f3JHRuNcKXxhqlxGa5DN4pw1BfolVL4bBs2/j6mfZqJUhIM4tNW71ju7reU6XAt6uVcSjJ
-sNMLjz9uvio9sCr5XxC1530Q+AcSbkJUgbpT5w2vbfztzplriux3T8vT0QS8EKpfVefpNfQG78dA
-ag1ZGCAbEESuE/BiUF9+pHIK+g5KrAuDG1Uhac8qNHUi4rlt2mlAen4zBwbUIaqQ6gyOujpAfxiw
-JZeti1qwp13jqkYYvCzWyKRXC61H1sGFXVmMBhwvi2a4cKa8kNDpdN9QAcuQ7y6ToPtwnEEl8pBb
-ZcDukbeMTivgA22W/Pkzlv6ND5tfaCzgvhnDSTrah3QqEo4p0kexnsEsrm7vo1TfV3Y4UfH4Kcgn
-Y2o1sfwkuOUHU7cYgxnlRhU1VX9zrtVlhaY5lk9POFLnUsFSnCBx8cjls8MXpsvBxk51OB6uXi53
-nSH/WFZT7yTABxnh0ob2GbRQSqxa0sCltBROQwntbrjQa6oS5g58ujhl+G65WpHVHFysIJXrWJZ9
-a/VrVGm9ajserQNKNbuhpf0xDyIqQ0Nm0shZMy6xznUPjYfoPcDxiXunJUqRZuRIDcXGhWjLHtHt
-wbf/rSZ6krUCmrjWq0T87V0EVlNeTf+qo6KrYXR+rFdvtHElC9e3akkFLUTJaCYHZ4/CBDLWTSw9
-HhYUHR6xWnZxf7LQ/DY5TrzMuxaTERfyxBwCTwcXHXlk180GdsdNcCLuiLeBfbEPqLQ8rKJZGAaW
-QMcmIi7W6Jk6f2amPBGA3OZ/fp83TxnZw+n5HGYlPl010JWehgBqoCVYgoT+hPd8snKVW2lfXnZs
-tGqfDEsglN/m2UQrCvv2FSwkezGt/oW9MdHa+vIi6FHSJmD+Dbu4EIVSyJ12uo8+zFUWbATTWpNr
-cgNDaP6hAKKgzJ5SJ+z+M3WECqKwY9Sohn0HdTPDS5L2USWgD5veROOf/FzQ6n5y9MZ+d0E1awBw
-QGpPkW/HR5Pg5mhtJ2NdTa5ZEQ2pTD+5tn9z+sFkwEqVg2QPp756N3wL+ddFVhOEqprvuuHNGkRh
-dquERnoMTTZbOYVtO8/IMjAkTIrYKsxE1Ews2sNE0X17FlFQiOIK2anOSaJv1KqFlnqU2AcDfY37
-+i3WKvdchIJPR6BuGL9a8yNU0LHH1Pi88E1RSdetKtn7VHlNL0V8tT88Otho9I1UcddXlFjg04bf
-uivP/tGCG4HK8V/p2CuDD0B5XO2T2Bk1pi3vSHDAd2fE90d99CebcBb8mttEgxLEs73K/mDoGUGa
-3U/Ctm1cLdOntibxXl1+dyJvvZPsUCKFSA+wCUuKcxL8b3Zea18sTQ368EFy5G1QHRfAPka8zXzF
-aWgGqmhNVANlbOicATBzJ5GoTTbc0jAz9rwz2EceIsrQ7KO8JHbk1hCedpvoWYMXqOAAGiDjqsNn
-xPhJFv529dWlzyY5jCYu9b5FIN6ykMXl3RNiQRye3GH2zdt8TcMgvmXu8a0pc2UbcMvq7JBeQvnm
-NhohvkZrCWv3znA9d8btENt8hZWrPLFz8/yffxZhIuPVYP9WuzXhhCz5zGHcVr/oqui9MZZ7aWu5
-aeW6mi6SwYgy4QaA/X2AIMsBN12uNnUz4/whyRD4wg0vabgxSJJk4+Ar/9kK4TC9ebv0Y8pJ+sQc
-DUIy7UjG6QHcDoRot713yIjntQh8wc8ZGOJMN/jNJOd6QqYvdO76NOd1OXk8OF4UlxhHhmcw6ac4
-mQYMzBInNWNAZPMplko9PQO05YYLwd0TeUybyHO8Az+veafvR1OftiTt9Vp+J/X05xnAGaBMDWKG
-eaGbA6LTyf69f9kNp+i4Whq0VRGSX9bt+j+baz6JpgSjhShqu2vzN+j7S5hSRht4XtJ4oQXDzEmj
-z9Y4itQWFuuUkwq7w2NGOlj2RTnNnmaocU1UmNZegIIRffHUEO7qomvawuSwhYfHT4SIwRJIElts
-bYdkwGZG2aExVC4DJa3qGW8NSD9KW8cBmqFexDPWsOVl63kGeLFB2y1RwZc17OePGzqovuYQke/q
-gvYtNCA9qxfN2B6VRcUgUe+0b3g+IW6y2GbN6/KoJht+ACZs9v6H8RitoRr9BTCRjGEySi2XeSAb
-881DQzs3Rqe5Vp4HS927nDagM4Nx4yVq5mAGuhu0NmSSPxrC+BzCazzKHGkruaD+A39io/LZpRFF
-be+sgHTCveOtkXyK/LADi70AGsJYNt+Ghehl/ZeI4Mf2qOk39P0Hfmzxc2h04G6BcdW5GzE8na+V
-aWYKR7qL0WQacNK/E7WfzMr3cG0Z4QbCSau5JHlo8y0vIEHS4pDk5rGJ8SXHX9O0LDKZw3SLq/pB
-nzFn7dQ5Z86CL2sy4dgz6DDN55mpGJimcIWQxCxfqZxaCVE4TytEdDk3BKqYuKTTwv/hham0BHQK
-w6DvU04kgL8MLcNGbBHavMguwZUHGhVajopPX+ULSMWPLMaJFm3vBSkyIgaKpz9E3RvSLu7Br/zh
-fMtPiMko43SwlDjoRgn+7NGQbT1tFKEdMTbikTrOn6Ir6xw1jes8mzeSltwLnqu7nMboXjBmt5GL
-uFk1MtSFxuAA2q//NjRC3etPrOewYFWK+6QCBOOGKcTaxgoGIbJxmcJXR3+Z61cHhyQDFzCmNmRk
-RaU3YvPNAuR5zdWqfk8eLQpRO0GpuB0QMxRN1EclS2Qle3iD0/gNYoQTg+8SI7/84MDvDp83nkYv
-57EnaPaMOlF+ywJvAyQf8xz0Aw4AASqj4zxcat33ksKnpnNVM+jxEhOnfWGNLSUpbohEE2mevKhx
-S7/We36pN58i0+FqGDENTSqe+2w/iimdLw8zcZQUZNpVX6GBuhyg/95PUMrY6rA43WY+LkKD03VA
-vrLoRoMfyAxDdU4Rs9fQLfqMT3qgBfz+KBxQTAyCEOK04/vysrFwPop5E+K2NAU5z1EISe0WjNgG
-mYiL7sHyK4ltFVmMl9zLcOGWIpT2f+3jlsHmZOT6L3bHUVWH6b16gV2kQThCyRX6UuRF5yVu+3Np
-FTtSX8HRATpm00r1l9BMh/BrvfUffknnd511H01non2K3qjcjBpgX+GmPUyFasqW7EGlbp2Ywwt2
-eEx2guRwt5FJrb8LnOYcPLnK+8WvU147brXtQpWF+aKv6RIPAniBSEUsHaG1Q6+TjYzmqJL7af3U
-QYL/Am0WYbBmkuZ04pQvvfp+hP+N9laiYwexCLod7ZkolGmwkByjp/mekSbSIQ1p0S1d5MXUz1Zc
-Qk5pfdftWh/dKctY1SEwE3CC3bmP/uf4KW271DIrAgqHN/fyFehc6RmHGQe+ELnSEg61/Dps6iqQ
-JhRHQ9/jDuyGxE3PgkEAMY1fxICq76MoxNm9JEffMMQO06hwGGVIx0ueWRaLWpf5yzSnvhxO+Nbr
-ywZoNaXjooMhS1Vkm7iU0opZfX3gH22KEagh5ibyXqr67wk9KDQC52Q4Ixd9/t9obzhtQPRWfOSB
-ixqMD8Rxa6fY1JecWKaj9j5SoW9hiKP5TMDkLufoe4Wc/SXLxXoUk5KBb7VpAAQcwhlic0jkVE7+
-uiyqLox8Vgt+4+dMDakJ7NgU7c5eb5LheR5DholjG8DUwkMUEnUzp4+VGLsLnc258KcZ90/qc2tQ
-VMcCW9CMwWoRGfvhmrOYsg6lQlIADVwu2gv0IjKWQny4OeIlsXKQom+lC1aVfWFqNBt5LJN0Mtnc
-EFbDOLZKm+vAVEQblW+HVbFCL0ptLQt2bkhCKoMbyWXXgS7MNMl6gV1cWiITkKnLIpQX6WwPgqLg
-hzshJ+eBzWYoeUuV1iAAbQRJfXMTPXWOMjaNC5+7lyMAvQJPqoApEZ3VlB52+iUM
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Iam\Resource;
+
+use Google\Service\Iam\CreateServiceAccountRequest;
+use Google\Service\Iam\DisableServiceAccountRequest;
+use Google\Service\Iam\EnableServiceAccountRequest;
+use Google\Service\Iam\IamEmpty;
+use Google\Service\Iam\ListServiceAccountsResponse;
+use Google\Service\Iam\PatchServiceAccountRequest;
+use Google\Service\Iam\Policy;
+use Google\Service\Iam\ServiceAccount;
+use Google\Service\Iam\SetIamPolicyRequest;
+use Google\Service\Iam\SignBlobRequest;
+use Google\Service\Iam\SignBlobResponse;
+use Google\Service\Iam\SignJwtRequest;
+use Google\Service\Iam\SignJwtResponse;
+use Google\Service\Iam\TestIamPermissionsRequest;
+use Google\Service\Iam\TestIamPermissionsResponse;
+use Google\Service\Iam\UndeleteServiceAccountRequest;
+use Google\Service\Iam\UndeleteServiceAccountResponse;
+
+/**
+ * The "serviceAccounts" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $iamService = new Google\Service\Iam(...);
+ *   $serviceAccounts = $iamService->serviceAccounts;
+ *  </code>
+ */
+class ProjectsServiceAccounts extends \Google\Service\Resource
+{
+  /**
+   * Creates a ServiceAccount. (serviceAccounts.create)
+   *
+   * @param string $name Required. The resource name of the project associated
+   * with the service accounts, such as `projects/my-project-123`.
+   * @param CreateServiceAccountRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return ServiceAccount
+   */
+  public function create($name, CreateServiceAccountRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], ServiceAccount::class);
+  }
+  /**
+   * Deletes a ServiceAccount. **Warning:** After you delete a service account,
+   * you might not be able to undelete it. If you know that you need to re-enable
+   * the service account in the future, use DisableServiceAccount instead. If you
+   * delete a service account, IAM permanently removes the service account 30 days
+   * later. Google Cloud cannot recover the service account after it is
+   * permanently removed, even if you file a support request. To help avoid
+   * unplanned outages, we recommend that you disable the service account before
+   * you delete it. Use DisableServiceAccount to disable the service account, then
+   * wait at least 24 hours and watch for unintended consequences. If there are no
+   * unintended consequences, you can delete the service account.
+   * (serviceAccounts.delete)
+   *
+   * @param string $name Required. The resource name of the service account in the
+   * following format: `projects/{PROJECT_ID}/serviceAccounts/{ACCOUNT}`. Using
+   * `-` as a wildcard for the `PROJECT_ID` will infer the project from the
+   * account. The `ACCOUNT` value can be the `email` address or the `unique_id` of
+   * the service account.
+   * @param array $optParams Optional parameters.
+   * @return IamEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], IamEmpty::class);
+  }
+  /**
+   * Disables a ServiceAccount immediately. If an application uses the service
+   * account to authenticate, that application can no longer call Google APIs or
+   * access Google Cloud resources. Existing access tokens for the service account
+   * are rejected, and requests for new access tokens will fail. To re-enable the
+   * service account, use EnableServiceAccount. After you re-enable the service
+   * account, its existing access tokens will be accepted, and you can request new
+   * access tokens. To help avoid unplanned outages, we recommend that you disable
+   * the service account before you delete it. Use this method to disable the
+   * service account, then wait at least 24 hours and watch for unintended
+   * consequences. If there are no unintended consequences, you can delete the
+   * service account with DeleteServiceAccount. (serviceAccounts.disable)
+   *
+   * @param string $name The resource name of the service account in the following
+   * format: `projects/{PROJECT_ID}/serviceAccounts/{ACCOUNT}`. Using `-` as a
+   * wildcard for the `PROJECT_ID` will infer the project from the account. The
+   * `ACCOUNT` value can be the `email` address or the `unique_id` of the service
+   * account.
+   * @param DisableServiceAccountRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return IamEmpty
+   */
+  public function disable($name, DisableServiceAccountRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('disable', [$params], IamEmpty::class);
+  }
+  /**
+   * Enables a ServiceAccount that was disabled by DisableServiceAccount. If the
+   * service account is already enabled, then this method has no effect. If the
+   * service account was disabled by other means—for example, if Google disabled
+   * the service account because it was compromised—you cannot use this method to
+   * enable the service account. (serviceAccounts.enable)
+   *
+   * @param string $name The resource name of the service account in the following
+   * format: `projects/{PROJECT_ID}/serviceAccounts/{ACCOUNT}`. Using `-` as a
+   * wildcard for the `PROJECT_ID` will infer the project from the account. The
+   * `ACCOUNT` value can be the `email` address or the `unique_id` of the service
+   * account.
+   * @param EnableServiceAccountRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return IamEmpty
+   */
+  public function enable($name, EnableServiceAccountRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('enable', [$params], IamEmpty::class);
+  }
+  /**
+   * Gets a ServiceAccount. (serviceAccounts.get)
+   *
+   * @param string $name Required. The resource name of the service account in the
+   * following format: `projects/{PROJECT_ID}/serviceAccounts/{ACCOUNT}`. Using
+   * `-` as a wildcard for the `PROJECT_ID` will infer the project from the
+   * account. The `ACCOUNT` value can be the `email` address or the `unique_id` of
+   * the service account.
+   * @param array $optParams Optional parameters.
+   * @return ServiceAccount
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], ServiceAccount::class);
+  }
+  /**
+   * Gets the IAM policy that is attached to a ServiceAccount. This IAM policy
+   * specifies which members have access to the service account. This method does
+   * not tell you whether the service account has been granted any roles on other
+   * resources. To check whether a service account has role grants on a resource,
+   * use the `getIamPolicy` method for that resource. For example, to view the
+   * role grants for a project, call the Resource Manager API's
+   * [`projects.getIamPolicy`](https://cloud.google.com/resource-
+   * manager/reference/rest/v1/projects/getIamPolicy) method.
+   * (serviceAccounts.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int options.requestedPolicyVersion Optional. The policy format
+   * version to be returned. Valid values are 0, 1, and 3. Requests specifying an
+   * invalid value will be rejected. Requests for policies with any conditional
+   * bindings must specify version 3. Policies without any conditional bindings
+   * may specify any valid value or leave the field unset. To learn which
+   * resources support conditions in their IAM policies, see the [IAM
+   * documentation](https://cloud.google.com/iam/help/conditions/resource-
+   * policies).
+   * @return Policy
+   */
+  public function getIamPolicy($resource, $optParams = [])
+  {
+    $params = ['resource' => $resource];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Lists every ServiceAccount that belongs to a specific project.
+   * (serviceAccounts.listProjectsServiceAccounts)
+   *
+   * @param string $name Required. The resource name of the project associated
+   * with the service accounts, such as `projects/my-project-123`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Optional limit on the number of service accounts to
+   * include in the response. Further accounts can subsequently be obtained by
+   * including the ListServiceAccountsResponse.next_page_token in a subsequent
+   * request. The default is 20, and the maximum is 100.
+   * @opt_param string pageToken Optional pagination token returned in an earlier
+   * ListServiceAccountsResponse.next_page_token.
+   * @return ListServiceAccountsResponse
+   */
+  public function listProjectsServiceAccounts($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListServiceAccountsResponse::class);
+  }
+  /**
+   * Patches a ServiceAccount. (serviceAccounts.patch)
+   *
+   * @param string $name The resource name of the service account. Use one of the
+   * following formats: * `projects/{PROJECT_ID}/serviceAccounts/{EMAIL_ADDRESS}`
+   * * `projects/{PROJECT_ID}/serviceAccounts/{UNIQUE_ID}` As an alternative, you
+   * can use the `-` wildcard character instead of the project ID: *
+   * `projects/-/serviceAccounts/{EMAIL_ADDRESS}` *
+   * `projects/-/serviceAccounts/{UNIQUE_ID}` When possible, avoid using the `-`
+   * wildcard character, because it can cause response messages to contain
+   * misleading error codes. For example, if you try to get the service account
+   * `projects/-/serviceAccounts/fake@example.com`, which does not exist, the
+   * response contains an HTTP `403 Forbidden` error instead of a `404 Not Found`
+   * error.
+   * @param PatchServiceAccountRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return ServiceAccount
+   */
+  public function patch($name, PatchServiceAccountRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], ServiceAccount::class);
+  }
+  /**
+   * Sets the IAM policy that is attached to a ServiceAccount. Use this method to
+   * grant or revoke access to the service account. For example, you could grant a
+   * member the ability to impersonate the service account. This method does not
+   * enable the service account to access other resources. To grant roles to a
+   * service account on a resource, follow these steps: 1. Call the resource's
+   * `getIamPolicy` method to get its current IAM policy. 2. Edit the policy so
+   * that it binds the service account to an IAM role for the resource. 3. Call
+   * the resource's `setIamPolicy` method to update its IAM policy. For detailed
+   * instructions, see [Granting roles to a service account for specific
+   * resources](https://cloud.google.com/iam/help/service-accounts/granting-
+   * access-to-service-accounts). (serviceAccounts.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * **Note:** This method is deprecated. Use the
+   * [`signBlob`](https://cloud.google.com/iam/help/rest-
+   * credentials/v1/projects.serviceAccounts/signBlob) method in the IAM Service
+   * Account Credentials API instead. If you currently use this method, see the
+   * [migration guide](https://cloud.google.com/iam/help/credentials/migrate-api)
+   * for instructions. Signs a blob using the system-managed private key for a
+   * ServiceAccount. (serviceAccounts.signBlob)
+   *
+   * @param string $name Required. Deprecated. [Migrate to Service Account
+   * Credentials API](https://cloud.google.com/iam/help/credentials/migrate-api).
+   * The resource name of the service account in the following format:
+   * `projects/{PROJECT_ID}/serviceAccounts/{ACCOUNT}`. Using `-` as a wildcard
+   * for the `PROJECT_ID` will infer the project from the account. The `ACCOUNT`
+   * value can be the `email` address or the `unique_id` of the service account.
+   * @param SignBlobRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return SignBlobResponse
+   */
+  public function signBlob($name, SignBlobRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('signBlob', [$params], SignBlobResponse::class);
+  }
+  /**
+   * **Note:** This method is deprecated. Use the
+   * [`signJwt`](https://cloud.google.com/iam/help/rest-
+   * credentials/v1/projects.serviceAccounts/signJwt) method in the IAM Service
+   * Account Credentials API instead. If you currently use this method, see the
+   * [migration guide](https://cloud.google.com/iam/help/credentials/migrate-api)
+   * for instructions. Signs a JSON Web Token (JWT) using the system-managed
+   * private key for a ServiceAccount. (serviceAccounts.signJwt)
+   *
+   * @param string $name Required. Deprecated. [Migrate to Service Account
+   * Credentials API](https://cloud.google.com/iam/help/credentials/migrate-api).
+   * The resource name of the service account in the following format:
+   * `projects/{PROJECT_ID}/serviceAccounts/{ACCOUNT}`. Using `-` as a wildcard
+   * for the `PROJECT_ID` will infer the project from the account. The `ACCOUNT`
+   * value can be the `email` address or the `unique_id` of the service account.
+   * @param SignJwtRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return SignJwtResponse
+   */
+  public function signJwt($name, SignJwtRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('signJwt', [$params], SignJwtResponse::class);
+  }
+  /**
+   * Tests whether the caller has the specified permissions on a ServiceAccount.
+   * (serviceAccounts.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+  /**
+   * Restores a deleted ServiceAccount. **Important:** It is not always possible
+   * to restore a deleted service account. Use this method only as a last resort.
+   * After you delete a service account, IAM permanently removes the service
+   * account 30 days later. There is no way to restore a deleted service account
+   * that has been permanently removed. (serviceAccounts.undelete)
+   *
+   * @param string $name The resource name of the service account in the following
+   * format: `projects/{PROJECT_ID}/serviceAccounts/{ACCOUNT_UNIQUE_ID}`. Using
+   * `-` as a wildcard for the `PROJECT_ID` will infer the project from the
+   * account.
+   * @param UndeleteServiceAccountRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return UndeleteServiceAccountResponse
+   */
+  public function undelete($name, UndeleteServiceAccountRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('undelete', [$params], UndeleteServiceAccountResponse::class);
+  }
+  /**
+   * **Note:** We are in the process of deprecating this method. Use
+   * PatchServiceAccount instead. Updates a ServiceAccount. You can update only
+   * the `display_name` and `description` fields. (serviceAccounts.update)
+   *
+   * @param string $name The resource name of the service account. Use one of the
+   * following formats: * `projects/{PROJECT_ID}/serviceAccounts/{EMAIL_ADDRESS}`
+   * * `projects/{PROJECT_ID}/serviceAccounts/{UNIQUE_ID}` As an alternative, you
+   * can use the `-` wildcard character instead of the project ID: *
+   * `projects/-/serviceAccounts/{EMAIL_ADDRESS}` *
+   * `projects/-/serviceAccounts/{UNIQUE_ID}` When possible, avoid using the `-`
+   * wildcard character, because it can cause response messages to contain
+   * misleading error codes. For example, if you try to get the service account
+   * `projects/-/serviceAccounts/fake@example.com`, which does not exist, the
+   * response contains an HTTP `403 Forbidden` error instead of a `404 Not Found`
+   * error.
+   * @param ServiceAccount $postBody
+   * @param array $optParams Optional parameters.
+   * @return ServiceAccount
+   */
+  public function update($name, ServiceAccount $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], ServiceAccount::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsServiceAccounts::class, 'Google_Service_Iam_Resource_ProjectsServiceAccounts');

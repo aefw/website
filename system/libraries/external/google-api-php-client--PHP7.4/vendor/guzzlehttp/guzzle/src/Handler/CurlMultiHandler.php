@@ -1,142 +1,253 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-a2W8xx7oSPsm
+<?php
+
+namespace GuzzleHttp\Handler;
+
+use GuzzleHttp\Promise as P;
+use GuzzleHttp\Promise\Promise;
+use GuzzleHttp\Promise\PromiseInterface;
+use GuzzleHttp\Utils;
+use Psr\Http\Message\RequestInterface;
+
+/**
+ * Returns an asynchronous response using curl_multi_* functions.
+ *
+ * When using the CurlMultiHandler, custom curl options can be specified as an
+ * associative array of curl option constants mapping to values in the
+ * **curl** key of the provided request options.
+ *
+ * @property resource|\CurlMultiHandle $_mh Internal use only. Lazy loaded multi-handle.
+ *
+ * @final
+ */
+class CurlMultiHandler
+{
+    /**
+     * @var CurlFactoryInterface
+     */
+    private $factory;
+
+    /**
+     * @var int
+     */
+    private $selectTimeout;
+
+    /**
+     * @var resource|\CurlMultiHandle|null the currently executing resource in `curl_multi_exec`.
+     */
+    private $active;
+
+    /**
+     * @var array Request entry handles, indexed by handle id in `addRequest`.
+     *
+     * @see CurlMultiHandler::addRequest
+     */
+    private $handles = [];
+
+    /**
+     * @var array<int, float> An array of delay times, indexed by handle id in `addRequest`.
+     *
+     * @see CurlMultiHandler::addRequest
+     */
+    private $delays = [];
+
+    /**
+     * @var array<mixed> An associative array of CURLMOPT_* options and corresponding values for curl_multi_setopt()
+     */
+    private $options = [];
+
+    /**
+     * This handler accepts the following options:
+     *
+     * - handle_factory: An optional factory  used to create curl handles
+     * - select_timeout: Optional timeout (in seconds) to block before timing
+     *   out while selecting curl handles. Defaults to 1 second.
+     * - options: An associative array of CURLMOPT_* options and
+     *   corresponding values for curl_multi_setopt()
+     */
+    public function __construct(array $options = [])
+    {
+        $this->factory = $options['handle_factory'] ?? new CurlFactory(50);
+
+        if (isset($options['select_timeout'])) {
+            $this->selectTimeout = $options['select_timeout'];
+        } elseif ($selectTimeout = Utils::getenv('GUZZLE_CURL_SELECT_TIMEOUT')) {
+            @trigger_error('Since guzzlehttp/guzzle 7.2.0: Using environment variable GUZZLE_CURL_SELECT_TIMEOUT is deprecated. Use option "select_timeout" instead.', \E_USER_DEPRECATED);
+            $this->selectTimeout = (int) $selectTimeout;
+        } else {
+            $this->selectTimeout = 1;
+        }
+
+        $this->options = $options['options'] ?? [];
+    }
+
+    /**
+     * @param string $name
+     *
+     * @return resource|\CurlMultiHandle
+     *
+     * @throws \BadMethodCallException when another field as `_mh` will be gotten
+     * @throws \RuntimeException       when curl can not initialize a multi handle
+     */
+    public function __get($name)
+    {
+        if ($name !== '_mh') {
+            throw new \BadMethodCallException("Can not get other property as '_mh'.");
+        }
+
+        $multiHandle = \curl_multi_init();
+
+        if (false === $multiHandle) {
+            throw new \RuntimeException('Can not initialize curl multi handle.');
+        }
+
+        $this->_mh = $multiHandle;
+
+        foreach ($this->options as $option => $value) {
+            // A warning is raised in case of a wrong option.
+            curl_multi_setopt($this->_mh, $option, $value);
+        }
+
+        return $this->_mh;
+    }
+
+    public function __destruct()
+    {
+        if (isset($this->_mh)) {
+            \curl_multi_close($this->_mh);
+            unset($this->_mh);
+        }
+    }
+
+    public function __invoke(RequestInterface $request, array $options): PromiseInterface
+    {
+        $easy = $this->factory->create($request, $options);
+        $id = (int) $easy->handle;
+
+        $promise = new Promise(
+            [$this, 'execute'],
+            function () use ($id) {
+                return $this->cancel($id);
+            }
+        );
+
+        $this->addRequest(['easy' => $easy, 'deferred' => $promise]);
+
+        return $promise;
+    }
+
+    /**
+     * Ticks the curl event loop.
+     */
+    public function tick(): void
+    {
+        // Add any delayed handles if needed.
+        if ($this->delays) {
+            $currentTime = Utils::currentTime();
+            foreach ($this->delays as $id => $delay) {
+                if ($currentTime >= $delay) {
+                    unset($this->delays[$id]);
+                    \curl_multi_add_handle(
+                        $this->_mh,
+                        $this->handles[$id]['easy']->handle
+                    );
+                }
+            }
+        }
+
+        // Step through the task queue which may add additional requests.
+        P\Utils::queue()->run();
+
+        if ($this->active && \curl_multi_select($this->_mh, $this->selectTimeout) === -1) {
+            // Perform a usleep if a select returns -1.
+            // See: https://bugs.php.net/bug.php?id=61141
+            \usleep(250);
+        }
+
+        while (\curl_multi_exec($this->_mh, $this->active) === \CURLM_CALL_MULTI_PERFORM);
+
+        $this->processMessages();
+    }
+
+    /**
+     * Runs until all outstanding connections have completed.
+     */
+    public function execute(): void
+    {
+        $queue = P\Utils::queue();
+
+        while ($this->handles || !$queue->isEmpty()) {
+            // If there are no transfers, then sleep for the next delay
+            if (!$this->active && $this->delays) {
+                \usleep($this->timeToNext());
+            }
+            $this->tick();
+        }
+    }
+
+    private function addRequest(array $entry): void
+    {
+        $easy = $entry['easy'];
+        $id = (int) $easy->handle;
+        $this->handles[$id] = $entry;
+        if (empty($easy->options['delay'])) {
+            \curl_multi_add_handle($this->_mh, $easy->handle);
+        } else {
+            $this->delays[$id] = Utils::currentTime() + ($easy->options['delay'] / 1000);
+        }
+    }
+
+    /**
+     * Cancels a handle from sending and removes references to it.
+     *
+     * @param int $id Handle ID to cancel and remove.
+     *
+     * @return bool True on success, false on failure.
+     */
+    private function cancel($id): bool
+    {
+        // Cannot cancel if it has been processed.
+        if (!isset($this->handles[$id])) {
+            return false;
+        }
+
+        $handle = $this->handles[$id]['easy']->handle;
+        unset($this->delays[$id], $this->handles[$id]);
+        \curl_multi_remove_handle($this->_mh, $handle);
+        \curl_close($handle);
+
+        return true;
+    }
+
+    private function processMessages(): void
+    {
+        while ($done = \curl_multi_info_read($this->_mh)) {
+            $id = (int) $done['handle'];
+            \curl_multi_remove_handle($this->_mh, $done['handle']);
+
+            if (!isset($this->handles[$id])) {
+                // Probably was cancelled.
+                continue;
+            }
+
+            $entry = $this->handles[$id];
+            unset($this->handles[$id], $this->delays[$id]);
+            $entry['easy']->errno = $done['result'];
+            $entry['deferred']->resolve(
+                CurlFactory::finish($this, $entry['easy'], $this->factory)
+            );
+        }
+    }
+
+    private function timeToNext(): int
+    {
+        $currentTime = Utils::currentTime();
+        $nextTime = \PHP_INT_MAX;
+        foreach ($this->delays as $time) {
+            if ($time < $nextTime) {
+                $nextTime = $time;
+            }
+        }
+
+        return ((int) \max(0, $nextTime - $currentTime)) * 1000000;
+    }
+}

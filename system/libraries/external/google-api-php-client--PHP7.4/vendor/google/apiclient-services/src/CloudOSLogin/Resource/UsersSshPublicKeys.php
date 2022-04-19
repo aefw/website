@@ -1,59 +1,86 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-5W==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudOSLogin\Resource;
+
+use Google\Service\CloudOSLogin\OsloginEmpty;
+use Google\Service\CloudOSLogin\SshPublicKey;
+
+/**
+ * The "sshPublicKeys" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $osloginService = new Google\Service\CloudOSLogin(...);
+ *   $sshPublicKeys = $osloginService->sshPublicKeys;
+ *  </code>
+ */
+class UsersSshPublicKeys extends \Google\Service\Resource
+{
+  /**
+   * Deletes an SSH public key. (sshPublicKeys.delete)
+   *
+   * @param string $name Required. The fingerprint of the public key to update.
+   * Public keys are identified by their SHA-256 fingerprint. The fingerprint of
+   * the public key is in format `users/{user}/sshPublicKeys/{fingerprint}`.
+   * @param array $optParams Optional parameters.
+   * @return OsloginEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], OsloginEmpty::class);
+  }
+  /**
+   * Retrieves an SSH public key. (sshPublicKeys.get)
+   *
+   * @param string $name Required. The fingerprint of the public key to retrieve.
+   * Public keys are identified by their SHA-256 fingerprint. The fingerprint of
+   * the public key is in format `users/{user}/sshPublicKeys/{fingerprint}`.
+   * @param array $optParams Optional parameters.
+   * @return SshPublicKey
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], SshPublicKey::class);
+  }
+  /**
+   * Updates an SSH public key and returns the profile information. This method
+   * supports patch semantics. (sshPublicKeys.patch)
+   *
+   * @param string $name Required. The fingerprint of the public key to update.
+   * Public keys are identified by their SHA-256 fingerprint. The fingerprint of
+   * the public key is in format `users/{user}/sshPublicKeys/{fingerprint}`.
+   * @param SshPublicKey $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Mask to control which fields get updated.
+   * Updates all if not present.
+   * @return SshPublicKey
+   */
+  public function patch($name, SshPublicKey $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], SshPublicKey::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(UsersSshPublicKeys::class, 'Google_Service_CloudOSLogin_Resource_UsersSshPublicKeys');

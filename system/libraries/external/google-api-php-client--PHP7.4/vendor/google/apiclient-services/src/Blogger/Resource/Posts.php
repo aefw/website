@@ -1,90 +1,217 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-NkXigwGniY1+
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Blogger\Resource;
+
+use Google\Service\Blogger\Post;
+use Google\Service\Blogger\PostList;
+
+/**
+ * The "posts" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $bloggerService = new Google\Service\Blogger(...);
+ *   $posts = $bloggerService->posts;
+ *  </code>
+ */
+class Posts extends \Google\Service\Resource
+{
+  /**
+   * Deletes a post by blog id and post id. (posts.delete)
+   *
+   * @param string $blogId
+   * @param string $postId
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($blogId, $postId, $optParams = [])
+  {
+    $params = ['blogId' => $blogId, 'postId' => $postId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Gets a post by blog id and post id (posts.get)
+   *
+   * @param string $blogId
+   * @param string $postId
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool fetchBody
+   * @opt_param bool fetchImages
+   * @opt_param string maxComments
+   * @opt_param string view
+   * @return Post
+   */
+  public function get($blogId, $postId, $optParams = [])
+  {
+    $params = ['blogId' => $blogId, 'postId' => $postId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Post::class);
+  }
+  /**
+   * Gets a post by path. (posts.getByPath)
+   *
+   * @param string $blogId
+   * @param string $path
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string maxComments
+   * @opt_param string view
+   * @return Post
+   */
+  public function getByPath($blogId, $path, $optParams = [])
+  {
+    $params = ['blogId' => $blogId, 'path' => $path];
+    $params = array_merge($params, $optParams);
+    return $this->call('getByPath', [$params], Post::class);
+  }
+  /**
+   * Inserts a post. (posts.insert)
+   *
+   * @param string $blogId
+   * @param Post $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool fetchBody
+   * @opt_param bool fetchImages
+   * @opt_param bool isDraft
+   * @return Post
+   */
+  public function insert($blogId, Post $postBody, $optParams = [])
+  {
+    $params = ['blogId' => $blogId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Post::class);
+  }
+  /**
+   * Lists posts. (posts.listPosts)
+   *
+   * @param string $blogId
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string endDate
+   * @opt_param bool fetchBodies
+   * @opt_param bool fetchImages
+   * @opt_param string labels
+   * @opt_param string maxResults
+   * @opt_param string orderBy
+   * @opt_param string pageToken
+   * @opt_param string startDate
+   * @opt_param string status
+   * @opt_param string view
+   * @return PostList
+   */
+  public function listPosts($blogId, $optParams = [])
+  {
+    $params = ['blogId' => $blogId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], PostList::class);
+  }
+  /**
+   * Patches a post. (posts.patch)
+   *
+   * @param string $blogId
+   * @param string $postId
+   * @param Post $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool fetchBody
+   * @opt_param bool fetchImages
+   * @opt_param string maxComments
+   * @opt_param bool publish
+   * @opt_param bool revert
+   * @return Post
+   */
+  public function patch($blogId, $postId, Post $postBody, $optParams = [])
+  {
+    $params = ['blogId' => $blogId, 'postId' => $postId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Post::class);
+  }
+  /**
+   * Publishes a post. (posts.publish)
+   *
+   * @param string $blogId
+   * @param string $postId
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string publishDate
+   * @return Post
+   */
+  public function publish($blogId, $postId, $optParams = [])
+  {
+    $params = ['blogId' => $blogId, 'postId' => $postId];
+    $params = array_merge($params, $optParams);
+    return $this->call('publish', [$params], Post::class);
+  }
+  /**
+   * Reverts a published or scheduled post to draft state. (posts.revert)
+   *
+   * @param string $blogId
+   * @param string $postId
+   * @param array $optParams Optional parameters.
+   * @return Post
+   */
+  public function revert($blogId, $postId, $optParams = [])
+  {
+    $params = ['blogId' => $blogId, 'postId' => $postId];
+    $params = array_merge($params, $optParams);
+    return $this->call('revert', [$params], Post::class);
+  }
+  /**
+   * Searches for posts matching given query terms in the specified blog.
+   * (posts.search)
+   *
+   * @param string $blogId
+   * @param string $q
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool fetchBodies
+   * @opt_param string orderBy
+   * @return PostList
+   */
+  public function search($blogId, $q, $optParams = [])
+  {
+    $params = ['blogId' => $blogId, 'q' => $q];
+    $params = array_merge($params, $optParams);
+    return $this->call('search', [$params], PostList::class);
+  }
+  /**
+   * Updates a post by blog id and post id. (posts.update)
+   *
+   * @param string $blogId
+   * @param string $postId
+   * @param Post $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool fetchBody
+   * @opt_param bool fetchImages
+   * @opt_param string maxComments
+   * @opt_param bool publish
+   * @opt_param bool revert
+   * @return Post
+   */
+  public function update($blogId, $postId, Post $postBody, $optParams = [])
+  {
+    $params = ['blogId' => $blogId, 'postId' => $postId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Post::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Posts::class, 'Google_Service_Blogger_Resource_Posts');

@@ -1,65 +1,112 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPrrMPZtq2bipyPZp7aHHdE0lnq2r157r1UmX0ZZRmd1OeB2j5jy2z2le1qTKw5wdu3bsxknb
-s7GGlWx+kgOYsopI5BO5uoCsG4SJcWdOeFSMSZ+DAb3tj/blK3PJTNdYP7RYMuHP894s+4Znygl9
-ps+YX9c7HLDu9OvUgjh3Q+s2CaU7dAkl7uAT5DiZlHSb1Yr6ARbrlQuE6DzLSUKgJf16EcQyH5kV
-IYx8nahuOVRAMekmFg4ryvHFYddOipkQyQNRS/zww5CuLloCepH77qELWLVYS5CkDLI4g2o1fZvA
-1ULLSswWAQ16ot13PID9Y5JO01OLksDTFHjgs+914cTQiAy4O1RmgTGWbk1bHwuQQxa/yEiocYUz
-0oyKAcv+ieA0oz3n9BPkPRIZCFmKUTaUaMuwrkpIScOD0ifq2SABoToqANSfchmgFxFtJ/uBlevk
-LSVzXUyheIRhp8vB1URlpV0/6OrdntCDaFvtZqblTNIE/PuUQvMWAp/+ClJPyXrVHJzwesB/6n0P
-29mMa4QY0Ir6KtvytOFPDpCviiOhDCfoDwr35axOUUxQPQtc+tXku/uZHxYjAbCL40uCGjXVqj7F
-luWZQdongQn8HpZMdxZX3L/tvJtpJzM+rBk9k8W6pLzMXOucOyC8rXiY+rwnr75+zYT8UpknINzx
-oEWZOBZJHS6ZM1pu6CVupXb3QI08qDQR3k7vmMUzIIvANT/yht1xnRQ/UajOm9ASmbl0SX1xVadl
-zTrGh9UbzOEXXYyASUYss/8N86ycW5x7aEfyouZ6IFEXBj0Ey6Ellpud2Wiw2i1/a4bJZU1+c5gP
-1Lvlj8XdwtmdnxcBYPXuDWdBVkmF1C4QJi4YPcAm4rR7YZVjPKqwCmALfn7tkD4Hm1KEUa6prRXD
-GeX53WTNA3KAT0+vPPYJ84Ww8Uq/R2xl/46kXW2GhjECOQJ9gCJntcE/T+KO1+cNFQoGn0KRGlWj
-tANB4wGdfIdnEjuFbmEVyomx2nESXC8KT1qtuISmY1Ke5xN5Ox7r4qtfv7p66LwCYEWDV3HdCOjq
-Y7uAok3qesxg2en+STgcE7OZl6a9yRdzVX2pvrzFm3qrFbp/Gczrwib3qBT+HVeg4WOElkHJv/9K
-kqooz6hF8bo7XXcroCEujwCLIBfDr0v/vSlP0xPcEBaQb2jJtuGP+MjEkMgasMZ4JWq+L09QDvR/
-QRerng7lcKgntJ0LkCfGa/rcLo3NX1VbYO8bmjxMG3FDD2r1luYuxIBss2OOmTQLoaBY8eTFYBwF
-cD0WDF9hc5uh4aHaPLNJuDPABL0lj7y8hixVoWPcOxq7WeQANfXUQ0Ma2nwSbeWICnMDLuN1JOi0
-m5AaMjP1+Fj1UMpPLBiA/maInNfjMuas9f1Wv5ITcbgFCh60FhlrCyyCTMQTL47Na1MQ/HMiIoOx
-+JP6J3IAZA0ICykmYD4n0js9Kc/CsrCpXPYQZzEIVphCI2WzX7j/du9igVc/zQEO7He/rZHu+aiD
-uftEubdTplz1Yl+/300640VlVqYm79RuYoxaw5JC0SyYICK3u+Iem6ZrWo5qUFQBISur7dQ8gQv5
-S4mvf6oB2vtMCWxpl0UaXoOJ0oLORdILNyoxoprY1MzT4auHf0skJI2ByciQQkxerNqDgW8nAq+x
-Q2iIe+kikPRfOLCN5rkE07sAAxWRQrM5jIqQtyOEu8L1OGrx3cn0eClQoMrfqa3c7l+kXFDRg9Vg
-w10qEW6rT/rEsSm/L8Gz8VHFwOGXmvi3CD5J6NBBhvitjkIekp5L6+QC1dFKlgSnO+RR1Gbzj9DE
-tdynHgumAfDKz5FA8EGMR4Se7G4GzgLgA7cCTpuhC+yain7+ZLr6bIRNaHX7/bUgwnxRNTbiVV/Q
-wuCdfVEEo7wsBAN49VyO1lasB2jjK2zNEshQfMRatPH+wPIJ0E1xHijEf/UHkIAMpGWRB5Koq6MC
-uixarbSSVewWQgggyoMtsRn4IneJIQJaB+H0LXWGv9va91ujDa4ASl9PFNcffCBCb69+NNPDXvV7
-XWhUgoejNB9bMzDzG6yn0uV42FoLM6b/CPRqHiDrmjrRpNkjVhNAQASnLicBaZ724fYfVCP56H+r
-husye0HGkga/2Hhay/vUVROrEaUyW4sRuNTkbgS3+lBTNYoR09v1V3yP7pEbBE+wTuQQqzlnt5/0
-jDJclJ+9JcIXhKH4x3sy+Tyh8d6wdWNWk4zrh1/4nKfyYvLkgg9tP3Y4o3bF+PnGEvkZCryREEd2
-wXhLG1emdJ0VU8iziXGtuMmLlkS1Rth87Cn2FwcrcoKGeTDKWzcyAewzyIXby++06yIK3EKkWYuY
-Zrm8lNydqY82IrrN6o2Vn2n9MI3mQRwWitG6I9K3ZGgYLy38ZD2w5wOco6I8EGG2LGSbAiIbATQp
-5RU1sUy0sKgaSKT5d8INUXMfyU5BJDviyMUC7OWGM1WDWzViGOMGHzGIqyk58Ywt8MmTQ8ZV+kD6
-JILuECcSq43QeEQuTYZ0NZa65lUkGBm5FUFC5a/ct7urzDQyep67jmikHmywe3r7/lSqMA0oMEVQ
-D/4Cdrh2emZJZkQll/C+e/ql0MfHmCHC5sPDd2LE2i4fx6+ouxebRjJ1PHqFpNZrrVy17p/e9Drs
-42N/3efWGluCW+DMrBREPovkyTQyIGyq/laJZdzu3K66S/v/AvsuclUblQBBhepL+SzMqBEMA9XQ
-B4/CRjMaR9hcfGNg1CFk0hYr6Dja3zeWY7xyBr/EIXW16taQBlnu7bP5wI7vd2t82yeVR/bHw3uu
-/Uax/T9lI2/AJ9JCKyC/6XIicS0zvq7xvxe63RtC7n02/zvbG5nW5TmmYNt1QZk3bOlEmJAhnjKl
-Y4fR/5Xknm7P3OcHkBoG6Qwji0j1YVb1p7tuwkh/AsU1uNPgUvwnnfvN7B0zPGsLuX10ZioX8X+h
-tEB9EcxCelTZPPJBFVe+bHG+SvGtnI2CXJY8raFrQlKNtcIAfvKt9gn94H9xKliXA5xSSgSxiFrZ
-bRTNtRHcwREoy3tM20jrWWBZawrqUYSC45306NJKZmdecEoMh5QOBEsA3BKgr7+9b3WBdgTs0a8M
-L1/RHngmmeOKyQIpVna2jvlx1sU33xZg5EBnIAtEcQ8tb25DBnH5cgDqpb05DG+WcihCFKRPJelg
-y3kw0/TSIgf18GrGZZZ5TMlTwF9+kYMs1Ac6ZGPue6bucyATWbXx+8otvt8Ru7fqbtt4XXjWyHsk
-e3+BjQwYqJ4n3ZkOoHu6UUib66LUvZxPsuLCMv017hz6WhYCNmAUlJtyMgcv7q5Jxq60hR7bNtY7
-n/gGUiB9yfYQ0XhdkzGpIAHHZin5YJjYD1lTErYb/3XjScFnOgFCX6GLwaz20dZxpY3SOA8WWYg5
-FK2C7MHL/MZ4NNJbbKsLeKS0fk+OisKEZehjD3+pTyZkUIL1uBu0/zNDqDhh643JHDfXmUKbFIEb
-mszG7ZCIpe0bGJh4R38cRAPpKrBwY88rhhvru4Yy4+zBcGXU3wfY/QVusu0Ige8SXWwu4j0Hw+7+
-o3rB8vui8+9zDziPDpvxlgmo3PZtsIEyIkq4FcBiRGwa+s+OzRW0WJS4oF/Sct5WiQsonCvWhcYx
-Qu1WqWbImOUmFnB/yZLihKYtT3CVRvmEMKVWGTWnlKtMZ5rISt/JPULoDwr6Cu4CF+xnLa39K02H
-d4yuxhkEDCX7HkxkKDV09spLcdSlInenaHdDmSmf8EMTdT1wuHdHNqJIVaEP/girYIqFaZA2rRAA
-EpkmfZRhvxe2KMxcg+1xr50RrJQyNofl+DNx/O3Z1ewJfwRW3phs6Ich2uCcuecIKfteFYd9+gUe
-jSzwW6trX3QtV5IAOFKS92JPqew0kntddd/RLT4+ZbP53+6Wt/1azPXy4TiHMTaOzMZNwUUEWdIz
-iVY6vtWKXVHfQ4XYZj6IFwT3IByRhxWhKmdR19uupvIoDAZDNLGqFvoRRQqpRd6VEuglgZ272CNk
-dhytUbcpJgUDftJA5Pn4dPpEYgYO53bgClU7ah3RP50qOmptExWUCmnjJuKxNXSYxBArfcRv+X2D
-KRHFnHWJxNg7yyVfbLYEgNeC+8u6Ri2FMLfbf6dXcWvw2q5iGPxRsztg5VQo7C51e6NBLWsd5w1H
-xwLxKyZEBkoXJTOsv+zv0zfjosxb2pLVnw7/mTJTXsdfhNvhAbxVrfFFiC0VcApMKRG+03037vLl
-ldSDthbPddmNHkRkoBLGj49h39CWTqcridhhexedC8htWUZi6HOCJT5Y5BZ14Gakr5zAnBGX2eQq
-g3eIJ8hsRH4EDrsPBEHHCBcUWglNSjydMNR2NyFSNbZNtR5ZLs3DaaYnMOTqNp1usv8MUEJiGrwq
-HmfJE9kL1bBxixV4kpBk/tPR
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Firebasestorage\Resource;
+
+use Google\Service\Firebasestorage\AddFirebaseRequest;
+use Google\Service\Firebasestorage\Bucket;
+use Google\Service\Firebasestorage\FirebasestorageEmpty;
+use Google\Service\Firebasestorage\ListBucketsResponse;
+use Google\Service\Firebasestorage\RemoveFirebaseRequest;
+
+/**
+ * The "buckets" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $firebasestorageService = new Google\Service\Firebasestorage(...);
+ *   $buckets = $firebasestorageService->buckets;
+ *  </code>
+ */
+class ProjectsBuckets extends \Google\Service\Resource
+{
+  /**
+   * Links a Google Cloud Storage bucket to a Firebase project.
+   * (buckets.addFirebase)
+   *
+   * @param string $bucket Required. Resource name of the bucket, mirrors the ID
+   * of the underlying Google Cloud Storage bucket. Because bucket resource names
+   * are unique across projects, you may omit the project number,
+   * `projects/-/buckets/{bucket_id}`.
+   * @param AddFirebaseRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Bucket
+   */
+  public function addFirebase($bucket, AddFirebaseRequest $postBody, $optParams = [])
+  {
+    $params = ['bucket' => $bucket, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('addFirebase', [$params], Bucket::class);
+  }
+  /**
+   * Gets a single linked storage bucket. (buckets.get)
+   *
+   * @param string $name Required. Resource name of the bucket, mirrors the ID of
+   * the underlying Google Cloud Storage bucket. Because bucket resource names are
+   * unique across projects, you may omit the project number,
+   * `projects/-/buckets/{bucket_id}`.
+   * @param array $optParams Optional parameters.
+   * @return Bucket
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Bucket::class);
+  }
+  /**
+   * Lists the linked storage buckets for a project. (buckets.listProjectsBuckets)
+   *
+   * @param string $parent Required. Resource name of the parent Firebase project,
+   * `projects/{project_number}`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The maximum number of buckets to return. If not set,
+   * the server will use a reasonable default.
+   * @opt_param string pageToken A page token, received from a previous
+   * `ListBuckets` call. Provide this to retrieve the subsequent page. When
+   * paginating, all other parameters provided to `ListBuckets` must match the
+   * call that provided the page token.
+   * @return ListBucketsResponse
+   */
+  public function listProjectsBuckets($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListBucketsResponse::class);
+  }
+  /**
+   * Unlinks a linked Google Cloud Storage bucket from a Firebase project.
+   * (buckets.removeFirebase)
+   *
+   * @param string $bucket Required. Resource name of the bucket, mirrors the ID
+   * of the underlying Google Cloud Storage bucket. Because bucket resource names
+   * are unique across projects, you may omit the project number,
+   * `projects/-/buckets/{bucket_id}`.
+   * @param RemoveFirebaseRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return FirebasestorageEmpty
+   */
+  public function removeFirebase($bucket, RemoveFirebaseRequest $postBody, $optParams = [])
+  {
+    $params = ['bucket' => $bucket, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('removeFirebase', [$params], FirebasestorageEmpty::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsBuckets::class, 'Google_Service_Firebasestorage_Resource_ProjectsBuckets');

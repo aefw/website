@@ -1,67 +1,89 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Doubleclicksearch;
+
+class ReportRequestReportScope extends \Google\Model
+{
+  public $adGroupId;
+  public $adId;
+  public $advertiserId;
+  public $agencyId;
+  public $campaignId;
+  public $engineAccountId;
+  public $keywordId;
+
+  public function setAdGroupId($adGroupId)
+  {
+    $this->adGroupId = $adGroupId;
+  }
+  public function getAdGroupId()
+  {
+    return $this->adGroupId;
+  }
+  public function setAdId($adId)
+  {
+    $this->adId = $adId;
+  }
+  public function getAdId()
+  {
+    return $this->adId;
+  }
+  public function setAdvertiserId($advertiserId)
+  {
+    $this->advertiserId = $advertiserId;
+  }
+  public function getAdvertiserId()
+  {
+    return $this->advertiserId;
+  }
+  public function setAgencyId($agencyId)
+  {
+    $this->agencyId = $agencyId;
+  }
+  public function getAgencyId()
+  {
+    return $this->agencyId;
+  }
+  public function setCampaignId($campaignId)
+  {
+    $this->campaignId = $campaignId;
+  }
+  public function getCampaignId()
+  {
+    return $this->campaignId;
+  }
+  public function setEngineAccountId($engineAccountId)
+  {
+    $this->engineAccountId = $engineAccountId;
+  }
+  public function getEngineAccountId()
+  {
+    return $this->engineAccountId;
+  }
+  public function setKeywordId($keywordId)
+  {
+    $this->keywordId = $keywordId;
+  }
+  public function getKeywordId()
+  {
+    return $this->keywordId;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ReportRequestReportScope::class, 'Google_Service_Doubleclicksearch_ReportRequestReportScope');

@@ -1,68 +1,202 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-nb8+Up3GgnwfNwKjpjTK5AlMXb5BsZzdew1rJNK=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for DomainsRDAP (v1).
+ *
+ * <p>
+ * Read-only public API that lets users search for information about domain
+ * names.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://developers.google.com/domains/rdap/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class DomainsRDAP extends \Google\Service
+{
+
+
+  public $autnum;
+  public $domain;
+  public $entity;
+  public $ip;
+  public $nameserver;
+  public $v1;
+
+  /**
+   * Constructs the internal representation of the DomainsRDAP service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://domainsrdap.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'domainsrdap';
+
+    $this->autnum = new DomainsRDAP\Resource\Autnum(
+        $this,
+        $this->serviceName,
+        'autnum',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/autnum/{autnumId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'autnumId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->domain = new DomainsRDAP\Resource\Domain(
+        $this,
+        $this->serviceName,
+        'domain',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/domain/{+domainName}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'domainName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->entity = new DomainsRDAP\Resource\Entity(
+        $this,
+        $this->serviceName,
+        'entity',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/entity/{entityId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'entityId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->ip = new DomainsRDAP\Resource\Ip(
+        $this,
+        $this->serviceName,
+        'ip',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/ip/{ipId}/{ipId1}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'ipId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'ipId1' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->nameserver = new DomainsRDAP\Resource\Nameserver(
+        $this,
+        $this->serviceName,
+        'nameserver',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/nameserver/{nameserverId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'nameserverId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->v1 = new DomainsRDAP\Resource\V1(
+        $this,
+        $this->serviceName,
+        'v1',
+        [
+          'methods' => [
+            'getDomains' => [
+              'path' => 'v1/domains',
+              'httpMethod' => 'GET',
+              'parameters' => [],
+            ],'getEntities' => [
+              'path' => 'v1/entities',
+              'httpMethod' => 'GET',
+              'parameters' => [],
+            ],'getHelp' => [
+              'path' => 'v1/help',
+              'httpMethod' => 'GET',
+              'parameters' => [],
+            ],'getIp' => [
+              'path' => 'v1/ip',
+              'httpMethod' => 'GET',
+              'parameters' => [],
+            ],'getNameservers' => [
+              'path' => 'v1/nameservers',
+              'httpMethod' => 'GET',
+              'parameters' => [],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(DomainsRDAP::class, 'Google_Service_DomainsRDAP');

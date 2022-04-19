@@ -1,77 +1,157 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-BfYjlkmXA4Rvz/c3rV00TuMonLoGIm==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Sheets;
+
+class BasicChartSeries extends \Google\Collection
+{
+  protected $collection_key = 'styleOverrides';
+  protected $colorType = Color::class;
+  protected $colorDataType = '';
+  protected $colorStyleType = ColorStyle::class;
+  protected $colorStyleDataType = '';
+  protected $dataLabelType = DataLabel::class;
+  protected $dataLabelDataType = '';
+  protected $lineStyleType = LineStyle::class;
+  protected $lineStyleDataType = '';
+  protected $pointStyleType = PointStyle::class;
+  protected $pointStyleDataType = '';
+  protected $seriesType = ChartData::class;
+  protected $seriesDataType = '';
+  protected $styleOverridesType = BasicSeriesDataPointStyleOverride::class;
+  protected $styleOverridesDataType = 'array';
+  public $targetAxis;
+  public $type;
+
+  /**
+   * @param Color
+   */
+  public function setColor(Color $color)
+  {
+    $this->color = $color;
+  }
+  /**
+   * @return Color
+   */
+  public function getColor()
+  {
+    return $this->color;
+  }
+  /**
+   * @param ColorStyle
+   */
+  public function setColorStyle(ColorStyle $colorStyle)
+  {
+    $this->colorStyle = $colorStyle;
+  }
+  /**
+   * @return ColorStyle
+   */
+  public function getColorStyle()
+  {
+    return $this->colorStyle;
+  }
+  /**
+   * @param DataLabel
+   */
+  public function setDataLabel(DataLabel $dataLabel)
+  {
+    $this->dataLabel = $dataLabel;
+  }
+  /**
+   * @return DataLabel
+   */
+  public function getDataLabel()
+  {
+    return $this->dataLabel;
+  }
+  /**
+   * @param LineStyle
+   */
+  public function setLineStyle(LineStyle $lineStyle)
+  {
+    $this->lineStyle = $lineStyle;
+  }
+  /**
+   * @return LineStyle
+   */
+  public function getLineStyle()
+  {
+    return $this->lineStyle;
+  }
+  /**
+   * @param PointStyle
+   */
+  public function setPointStyle(PointStyle $pointStyle)
+  {
+    $this->pointStyle = $pointStyle;
+  }
+  /**
+   * @return PointStyle
+   */
+  public function getPointStyle()
+  {
+    return $this->pointStyle;
+  }
+  /**
+   * @param ChartData
+   */
+  public function setSeries(ChartData $series)
+  {
+    $this->series = $series;
+  }
+  /**
+   * @return ChartData
+   */
+  public function getSeries()
+  {
+    return $this->series;
+  }
+  /**
+   * @param BasicSeriesDataPointStyleOverride[]
+   */
+  public function setStyleOverrides($styleOverrides)
+  {
+    $this->styleOverrides = $styleOverrides;
+  }
+  /**
+   * @return BasicSeriesDataPointStyleOverride[]
+   */
+  public function getStyleOverrides()
+  {
+    return $this->styleOverrides;
+  }
+  public function setTargetAxis($targetAxis)
+  {
+    $this->targetAxis = $targetAxis;
+  }
+  public function getTargetAxis()
+  {
+    return $this->targetAxis;
+  }
+  public function setType($type)
+  {
+    $this->type = $type;
+  }
+  public function getType()
+  {
+    return $this->type;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(BasicChartSeries::class, 'Google_Service_Sheets_BasicChartSeries');

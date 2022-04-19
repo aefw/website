@@ -1,67 +1,71 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-bm6L152tPus4gRCRKT4=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudMemorystoreforMemcached;
+
+class GoogleCloudSaasacceleratorManagementProvidersV1MaintenanceSchedule extends \Google\Model
+{
+  public $canReschedule;
+  public $endTime;
+  public $rolloutManagementPolicy;
+  public $scheduleDeadlineTime;
+  public $startTime;
+
+  public function setCanReschedule($canReschedule)
+  {
+    $this->canReschedule = $canReschedule;
+  }
+  public function getCanReschedule()
+  {
+    return $this->canReschedule;
+  }
+  public function setEndTime($endTime)
+  {
+    $this->endTime = $endTime;
+  }
+  public function getEndTime()
+  {
+    return $this->endTime;
+  }
+  public function setRolloutManagementPolicy($rolloutManagementPolicy)
+  {
+    $this->rolloutManagementPolicy = $rolloutManagementPolicy;
+  }
+  public function getRolloutManagementPolicy()
+  {
+    return $this->rolloutManagementPolicy;
+  }
+  public function setScheduleDeadlineTime($scheduleDeadlineTime)
+  {
+    $this->scheduleDeadlineTime = $scheduleDeadlineTime;
+  }
+  public function getScheduleDeadlineTime()
+  {
+    return $this->scheduleDeadlineTime;
+  }
+  public function setStartTime($startTime)
+  {
+    $this->startTime = $startTime;
+  }
+  public function getStartTime()
+  {
+    return $this->startTime;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudSaasacceleratorManagementProvidersV1MaintenanceSchedule::class, 'Google_Service_CloudMemorystoreforMemcached_GoogleCloudSaasacceleratorManagementProvidersV1MaintenanceSchedule');

@@ -1,80 +1,138 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-ZSAIMnDfTwGNfq1OEIdYdl/ZyPrTBRDGkTkaFaC=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudHealthcare;
+
+class Message extends \Google\Collection
+{
+  protected $collection_key = 'patientIds';
+  public $createTime;
+  public $data;
+  public $labels;
+  public $messageType;
+  public $name;
+  protected $parsedDataType = ParsedData::class;
+  protected $parsedDataDataType = '';
+  protected $patientIdsType = PatientId::class;
+  protected $patientIdsDataType = 'array';
+  protected $schematizedDataType = SchematizedData::class;
+  protected $schematizedDataDataType = '';
+  public $sendFacility;
+  public $sendTime;
+
+  public function setCreateTime($createTime)
+  {
+    $this->createTime = $createTime;
+  }
+  public function getCreateTime()
+  {
+    return $this->createTime;
+  }
+  public function setData($data)
+  {
+    $this->data = $data;
+  }
+  public function getData()
+  {
+    return $this->data;
+  }
+  public function setLabels($labels)
+  {
+    $this->labels = $labels;
+  }
+  public function getLabels()
+  {
+    return $this->labels;
+  }
+  public function setMessageType($messageType)
+  {
+    $this->messageType = $messageType;
+  }
+  public function getMessageType()
+  {
+    return $this->messageType;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  /**
+   * @param ParsedData
+   */
+  public function setParsedData(ParsedData $parsedData)
+  {
+    $this->parsedData = $parsedData;
+  }
+  /**
+   * @return ParsedData
+   */
+  public function getParsedData()
+  {
+    return $this->parsedData;
+  }
+  /**
+   * @param PatientId[]
+   */
+  public function setPatientIds($patientIds)
+  {
+    $this->patientIds = $patientIds;
+  }
+  /**
+   * @return PatientId[]
+   */
+  public function getPatientIds()
+  {
+    return $this->patientIds;
+  }
+  /**
+   * @param SchematizedData
+   */
+  public function setSchematizedData(SchematizedData $schematizedData)
+  {
+    $this->schematizedData = $schematizedData;
+  }
+  /**
+   * @return SchematizedData
+   */
+  public function getSchematizedData()
+  {
+    return $this->schematizedData;
+  }
+  public function setSendFacility($sendFacility)
+  {
+    $this->sendFacility = $sendFacility;
+  }
+  public function getSendFacility()
+  {
+    return $this->sendFacility;
+  }
+  public function setSendTime($sendTime)
+  {
+    $this->sendTime = $sendTime;
+  }
+  public function getSendTime()
+  {
+    return $this->sendTime;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Message::class, 'Google_Service_CloudHealthcare_Message');

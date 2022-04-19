@@ -1,97 +1,317 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudResourceManager\Resource;
+
+use Google\Service\CloudResourceManager\Folder;
+use Google\Service\CloudResourceManager\GetIamPolicyRequest;
+use Google\Service\CloudResourceManager\ListFoldersResponse;
+use Google\Service\CloudResourceManager\MoveFolderRequest;
+use Google\Service\CloudResourceManager\Operation;
+use Google\Service\CloudResourceManager\Policy;
+use Google\Service\CloudResourceManager\SearchFoldersResponse;
+use Google\Service\CloudResourceManager\SetIamPolicyRequest;
+use Google\Service\CloudResourceManager\TestIamPermissionsRequest;
+use Google\Service\CloudResourceManager\TestIamPermissionsResponse;
+use Google\Service\CloudResourceManager\UndeleteFolderRequest;
+
+/**
+ * The "folders" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $cloudresourcemanagerService = new Google\Service\CloudResourceManager(...);
+ *   $folders = $cloudresourcemanagerService->folders;
+ *  </code>
+ */
+class Folders extends \Google\Service\Resource
+{
+  /**
+   * Creates a folder in the resource hierarchy. Returns an `Operation` which can
+   * be used to track the progress of the folder creation workflow. Upon success,
+   * the `Operation.response` field will be populated with the created Folder. In
+   * order to succeed, the addition of this new folder must not violate the folder
+   * naming, height, or fanout constraints. + The folder's `display_name` must be
+   * distinct from all other folders that share its parent. + The addition of the
+   * folder must not cause the active folder hierarchy to exceed a height of 10.
+   * Note, the full active + deleted folder hierarchy is allowed to reach a height
+   * of 20; this provides additional headroom when moving folders that contain
+   * deleted folders. + The addition of the folder must not cause the total number
+   * of folders under its parent to exceed 300. If the operation fails due to a
+   * folder constraint violation, some errors may be returned by the
+   * `CreateFolder` request, with status code `FAILED_PRECONDITION` and an error
+   * description. Other folder constraint violations will be communicated in the
+   * `Operation`, with the specific `PreconditionFailure` returned in the details
+   * list in the `Operation.error` field. The caller must have
+   * `resourcemanager.folders.create` permission on the identified parent.
+   * (folders.create)
+   *
+   * @param Folder $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function create(Folder $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Operation::class);
+  }
+  /**
+   * Requests deletion of a folder. The folder is moved into the DELETE_REQUESTED
+   * state immediately, and is deleted approximately 30 days later. This method
+   * may only be called on an empty folder, where a folder is empty if it doesn't
+   * contain any folders or projects in the ACTIVE state. If called on a folder in
+   * DELETE_REQUESTED state the operation will result in a no-op success. The
+   * caller must have `resourcemanager.folders.delete` permission on the
+   * identified folder. (folders.delete)
+   *
+   * @param string $name Required. The resource name of the folder to be deleted.
+   * Must be of the form `folders/{folder_id}`.
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Retrieves a folder identified by the supplied resource name. Valid folder
+   * resource names have the format `folders/{folder_id}` (for example,
+   * `folders/1234`). The caller must have `resourcemanager.folders.get`
+   * permission on the identified folder. (folders.get)
+   *
+   * @param string $name Required. The resource name of the folder to retrieve.
+   * Must be of the form `folders/{folder_id}`.
+   * @param array $optParams Optional parameters.
+   * @return Folder
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Folder::class);
+  }
+  /**
+   * Gets the access control policy for a folder. The returned policy may be empty
+   * if no such policy or resource exists. The `resource` field should be the
+   * folder's resource name, for example: "folders/1234". The caller must have
+   * `resourcemanager.folders.getIamPolicy` permission on the identified folder.
+   * (folders.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param GetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function getIamPolicy($resource, GetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Lists the folders that are direct descendants of supplied parent resource.
+   * `list()` provides a strongly consistent view of the folders underneath the
+   * specified parent resource. `list()` returns folders sorted based upon the
+   * (ascending) lexical ordering of their display_name. The caller must have
+   * `resourcemanager.folders.list` permission on the identified parent.
+   * (folders.listFolders)
+   *
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Optional. The maximum number of folders to return in
+   * the response. If unspecified, server picks an appropriate default.
+   * @opt_param string pageToken Optional. A pagination token returned from a
+   * previous call to `ListFolders` that indicates where this listing should
+   * continue from.
+   * @opt_param string parent Required. The resource name of the organization or
+   * folder whose folders are being listed. Must be of the form
+   * `folders/{folder_id}` or `organizations/{org_id}`. Access to this method is
+   * controlled by checking the `resourcemanager.folders.list` permission on the
+   * `parent`.
+   * @opt_param bool showDeleted Optional. Controls whether folders in the
+   * DELETE_REQUESTED state should be returned. Defaults to false.
+   * @return ListFoldersResponse
+   */
+  public function listFolders($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListFoldersResponse::class);
+  }
+  /**
+   * Moves a folder under a new resource parent. Returns an `Operation` which can
+   * be used to track the progress of the folder move workflow. Upon success, the
+   * `Operation.response` field will be populated with the moved folder. Upon
+   * failure, a `FolderOperationError` categorizing the failure cause will be
+   * returned - if the failure occurs synchronously then the
+   * `FolderOperationError` will be returned in the `Status.details` field. If it
+   * occurs asynchronously, then the FolderOperation will be returned in the
+   * `Operation.error` field. In addition, the `Operation.metadata` field will be
+   * populated with a `FolderOperation` message as an aid to stateless clients.
+   * Folder moves will be rejected if they violate either the naming, height, or
+   * fanout constraints described in the CreateFolder documentation. The caller
+   * must have `resourcemanager.folders.move` permission on the folder's current
+   * and proposed new parent. (folders.move)
+   *
+   * @param string $name Required. The resource name of the Folder to move. Must
+   * be of the form folders/{folder_id}
+   * @param MoveFolderRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function move($name, MoveFolderRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('move', [$params], Operation::class);
+  }
+  /**
+   * Updates a folder, changing its `display_name`. Changes to the folder
+   * `display_name` will be rejected if they violate either the `display_name`
+   * formatting rules or the naming constraints described in the CreateFolder
+   * documentation. The folder's `display_name` must start and end with a letter
+   * or digit, may contain letters, digits, spaces, hyphens and underscores and
+   * can be between 3 and 30 characters. This is captured by the regular
+   * expression: `\p{L}\p{N}{1,28}[\p{L}\p{N}]`. The caller must have
+   * `resourcemanager.folders.update` permission on the identified folder. If the
+   * update fails due to the unique name constraint then a `PreconditionFailure`
+   * explaining this violation will be returned in the Status.details field.
+   * (folders.patch)
+   *
+   * @param string $name Output only. The resource name of the folder. Its format
+   * is `folders/{folder_id}`, for example: "folders/1234".
+   * @param Folder $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. Fields to be updated. Only the
+   * `display_name` can be updated.
+   * @return Operation
+   */
+  public function patch($name, Folder $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+  /**
+   * Search for folders that match specific filter criteria. `search()` provides
+   * an eventually consistent view of the folders a user has access to which meet
+   * the specified filter criteria. This will only return folders on which the
+   * caller has the permission `resourcemanager.folders.get`. (folders.search)
+   *
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Optional. The maximum number of folders to return in
+   * the response. If unspecified, server picks an appropriate default.
+   * @opt_param string pageToken Optional. A pagination token returned from a
+   * previous call to `SearchFolders` that indicates from where search should
+   * continue.
+   * @opt_param string query Optional. Search criteria used to select the folders
+   * to return. If no search criteria is specified then all accessible folders
+   * will be returned. Query expressions can be used to restrict results based
+   * upon displayName, state and parent, where the operators `=` (`:`) `NOT`,
+   * `AND` and `OR` can be used along with the suffix wildcard symbol `*`. The
+   * `displayName` field in a query expression should use escaped quotes for
+   * values that include whitespace to prevent unexpected behavior. | Field |
+   * Description |
+   * |-------------------------|----------------------------------------| |
+   * displayName | Filters by displayName. | | parent | Filters by parent (for
+   * example: folders/123). | | state, lifecycleState | Filters by state. | Some
+   * example queries are: * Query `displayName=Test*` returns Folder resources
+   * whose display name starts with "Test". * Query `state=ACTIVE` returns Folder
+   * resources with `state` set to `ACTIVE`. * Query `parent=folders/123` returns
+   * Folder resources that have `folders/123` as a parent resource. * Query
+   * `parent=folders/123 AND state=ACTIVE` returns active Folder resources that
+   * have `folders/123` as a parent resource. * Query `displayName=\\"Test
+   * String\\"` returns Folder resources with display names that include both
+   * "Test" and "String".
+   * @return SearchFoldersResponse
+   */
+  public function search($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('search', [$params], SearchFoldersResponse::class);
+  }
+  /**
+   * Sets the access control policy on a folder, replacing any existing policy.
+   * The `resource` field should be the folder's resource name, for example:
+   * "folders/1234". The caller must have `resourcemanager.folders.setIamPolicy`
+   * permission on the identified folder. (folders.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified folder. The `resource`
+   * field should be the folder's resource name, for example: "folders/1234".
+   * There are no permissions required for making this API call.
+   * (folders.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+  /**
+   * Cancels the deletion request for a folder. This method may be called on a
+   * folder in any state. If the folder is in the ACTIVE state the result will be
+   * a no-op success. In order to succeed, the folder's parent must be in the
+   * ACTIVE state. In addition, reintroducing the folder into the tree must not
+   * violate folder naming, height, and fanout constraints described in the
+   * CreateFolder documentation. The caller must have
+   * `resourcemanager.folders.undelete` permission on the identified folder.
+   * (folders.undelete)
+   *
+   * @param string $name Required. The resource name of the folder to undelete.
+   * Must be of the form `folders/{folder_id}`.
+   * @param UndeleteFolderRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function undelete($name, UndeleteFolderRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('undelete', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Folders::class, 'Google_Service_CloudResourceManager_Resource_Folders');

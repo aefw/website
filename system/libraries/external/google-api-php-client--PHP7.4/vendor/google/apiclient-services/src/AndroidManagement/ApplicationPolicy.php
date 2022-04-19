@@ -1,96 +1,158 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AndroidManagement;
+
+class ApplicationPolicy extends \Google\Collection
+{
+  protected $collection_key = 'permissionGrants';
+  public $accessibleTrackIds;
+  public $autoUpdateMode;
+  public $connectedWorkAndPersonalApp;
+  public $defaultPermissionPolicy;
+  public $delegatedScopes;
+  public $disabled;
+  public $installType;
+  public $lockTaskAllowed;
+  public $managedConfiguration;
+  protected $managedConfigurationTemplateType = ManagedConfigurationTemplate::class;
+  protected $managedConfigurationTemplateDataType = '';
+  public $minimumVersionCode;
+  public $packageName;
+  protected $permissionGrantsType = PermissionGrant::class;
+  protected $permissionGrantsDataType = 'array';
+
+  public function setAccessibleTrackIds($accessibleTrackIds)
+  {
+    $this->accessibleTrackIds = $accessibleTrackIds;
+  }
+  public function getAccessibleTrackIds()
+  {
+    return $this->accessibleTrackIds;
+  }
+  public function setAutoUpdateMode($autoUpdateMode)
+  {
+    $this->autoUpdateMode = $autoUpdateMode;
+  }
+  public function getAutoUpdateMode()
+  {
+    return $this->autoUpdateMode;
+  }
+  public function setConnectedWorkAndPersonalApp($connectedWorkAndPersonalApp)
+  {
+    $this->connectedWorkAndPersonalApp = $connectedWorkAndPersonalApp;
+  }
+  public function getConnectedWorkAndPersonalApp()
+  {
+    return $this->connectedWorkAndPersonalApp;
+  }
+  public function setDefaultPermissionPolicy($defaultPermissionPolicy)
+  {
+    $this->defaultPermissionPolicy = $defaultPermissionPolicy;
+  }
+  public function getDefaultPermissionPolicy()
+  {
+    return $this->defaultPermissionPolicy;
+  }
+  public function setDelegatedScopes($delegatedScopes)
+  {
+    $this->delegatedScopes = $delegatedScopes;
+  }
+  public function getDelegatedScopes()
+  {
+    return $this->delegatedScopes;
+  }
+  public function setDisabled($disabled)
+  {
+    $this->disabled = $disabled;
+  }
+  public function getDisabled()
+  {
+    return $this->disabled;
+  }
+  public function setInstallType($installType)
+  {
+    $this->installType = $installType;
+  }
+  public function getInstallType()
+  {
+    return $this->installType;
+  }
+  public function setLockTaskAllowed($lockTaskAllowed)
+  {
+    $this->lockTaskAllowed = $lockTaskAllowed;
+  }
+  public function getLockTaskAllowed()
+  {
+    return $this->lockTaskAllowed;
+  }
+  public function setManagedConfiguration($managedConfiguration)
+  {
+    $this->managedConfiguration = $managedConfiguration;
+  }
+  public function getManagedConfiguration()
+  {
+    return $this->managedConfiguration;
+  }
+  /**
+   * @param ManagedConfigurationTemplate
+   */
+  public function setManagedConfigurationTemplate(ManagedConfigurationTemplate $managedConfigurationTemplate)
+  {
+    $this->managedConfigurationTemplate = $managedConfigurationTemplate;
+  }
+  /**
+   * @return ManagedConfigurationTemplate
+   */
+  public function getManagedConfigurationTemplate()
+  {
+    return $this->managedConfigurationTemplate;
+  }
+  public function setMinimumVersionCode($minimumVersionCode)
+  {
+    $this->minimumVersionCode = $minimumVersionCode;
+  }
+  public function getMinimumVersionCode()
+  {
+    return $this->minimumVersionCode;
+  }
+  public function setPackageName($packageName)
+  {
+    $this->packageName = $packageName;
+  }
+  public function getPackageName()
+  {
+    return $this->packageName;
+  }
+  /**
+   * @param PermissionGrant[]
+   */
+  public function setPermissionGrants($permissionGrants)
+  {
+    $this->permissionGrants = $permissionGrants;
+  }
+  /**
+   * @return PermissionGrant[]
+   */
+  public function getPermissionGrants()
+  {
+    return $this->permissionGrants;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ApplicationPolicy::class, 'Google_Service_AndroidManagement_ApplicationPolicy');

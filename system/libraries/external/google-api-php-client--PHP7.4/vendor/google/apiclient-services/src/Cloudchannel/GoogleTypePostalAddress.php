@@ -1,79 +1,126 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPrzIpd22zZ97AvjRKsvGY82H4+Li6DLjwFzLJT4pa32gt71vSfBX6RO9hhtp3sJz8jt20hLb
-tizkkiTb6F+x4/AtXY+f01yUV10GUUzRdcGBZlmhPu4rElofvkqrVTSaM2ec046opt+F3GmGIyP+
-r8XoiVPb3G+nBPDbTkvo27tNLMD2JlY7/cym48sf6ix/7tfjRsspRS65i8DCA3WRm1zNehHzLn2U
-8x2M3/DyvkYyum+uOQW2k75A2bMFWaEt8cdISkF6ucV+d4m8rj8829c3pv/YS5CkDLI4g2o1fZvA
-1ULL2cs4+KgG8pGY52tsYDJv7Xuhzi5qxNSf3ktx26Y0a/+SNFrLEBp3PRtudDSipKjk7WXx9wbZ
-x45pkxPu6PvM3zD7ZqO5UeLmUZ3bNPGFqhDd3pS4IxQ2+AVNPbopQjmTP+s6Q4MwvksCPvRC9Bmp
-+z9RnLIkkZ3Yj2oCL2wZwDIK6mrakFeV6Jz/PwZ0jD9uoD7Ixz7hTIRYalBwUiXOEpeHuWvk+IW5
-k96HHPV5fG1W706wm1baeyVs+7GjgaAQ/1ZmIW071F+gNV246li2ZPQbUPIgifpgt8PiloRGdDfb
-FsJfs26VWl99e4wJPQXwc4Yd18FSr5MQcgtWG/tvgV22w46vEn6JuqdgZDS5H235K8j0HNjYQQvG
-H31mbdWAfCcRBWjwBvf/iewVIolRXjtZEj9c4au4pemKBftnjW9fd+BBFQNq2vv0kXTy6ApvJsWM
-YGGpvNhWiVxyrVSqetqxLf/pSQGg8pUSCGqAtcAA/Z6WMreUxVDQ34mePq/CjTwqKTj3gHqPmo0q
-wWsrtaU5OWSd64cYYOjZ4ukM/98lRxSkPFGEd50fAulo3u6T24ub7iAnbzo9M01/XtepMxWLqXzx
-awOajNx7QOtee9GG8IKUflt8tHILItF5qk+uKcYDf85M8d7+e/3H/MSAz5SeNJDMhMq1H6GruKfV
-AMwjvzvdZCVU6klNi0sWkksL9+uZ4LoNMhZ3fWrGMec/Waw0Ua530aZqkOfqNZf82XYN6vnfvBVN
-DM+9FjyDMGD5XfVL/SZYc/KPKhlvzgJBrKnFk4XjbVgo7tzXvferNYJWHM8UaFYFW/ZATEwTmNp4
-J3hKbtbiXf0QNgHKYxqldbAYGPS8MG8wga3yI+cR0YNIJ5cyvAOzdYOsCW0eO9WsIsUtPdm/zPqD
-67SRUTVuEDQxKiuXdOPyCUIqdMHYH82/j3A0+MkmP7tuGvhYMl7I09VxTpqu3U9qVKDyH1XY3ovB
-OWM2mzYB2WQsvsfIeR80ykACe+M67+LcM349y6Z36XoufrJk+1+KHzAwz/vx8DROOHpotC3aTT6A
-pEnHkKh/IePhV+CTupHJ7ZSHHDYrs7Mwx1tPottc56pLgZCZnWTOkU6lP57PChgSHP+AKBcUkcbx
-jvDUlUHBGXyGq3wP6RROVqn8JUOQZFu66+/ZDcScbKnxXAhrBBIp0a6KLuC47jZmP6oRuFclTHav
-Y5r71nLSHoJRUtC6HYFK4KN/j9JUco2MbUc7YXY6hDLA+RRvlfizZxdLlQ0Zs/pgevh6Jdr3Sx7m
-MZa8Yp5AoLM4WVpXZud80ljU5Do0rE+rT41WzMN8a+wh56pJ4mpaxUHeGdz5ByI1usC4VpZ5Ww77
-AKXOClXZIRUBFi2r//IXdvht+TpaJswUV9bMGixgnS4VMVzHmOuWjeHEojhxR3lKu4/xK89YzV07
-tUBhD+fxOZ7Ujl//UHISLpWj5POdIBTB06dPd6V7VCoSFd3jYxtA5kjWrAYCMFGc80cDKxxBTRqB
-TujBXlY2vq/ISb0mAZd2dYTLgvGc7mct37Ap7xj6qsi7ZENbNoOSOrPEZtuF3attGg4IkdTjLMpR
-bAOIGMPGRfIaevJOXo+kRI+g055/vuXh5r6p5D0inXGG3DEtY/xmULEg+nJA6KKrtS+xNInLEhvX
-Q/jX9O/uvn1C15dM3ABU9hBLhCzg7n7eXDxHRkphpOXt7sonLe+bCsFWxSCBdA4/Yi8nyQo8V7Aq
-m2rEldqJ/zuly++LLBfqKb911S877XZs0egIPg3T3kNlzKzzjjHq2FCacValEv96RVGDfrpJYyGl
-+HiBrkv0yfHhJrS5i1ZI6KSeXTHQ2kBKUL8MXoIjH5I/Bw29bCILBIv2QEzfYgslsZ2F1EhN1q36
-4jzJ/FyVClYJEHlk1Lywfbo1izoOGyQkQvLBTxlCMKtVK2HjzJiW6gUYcivLMCfp5W2/5P/h43az
-r24DY/Hn3hCCnmBny1y99PAHunSow6S94GtUrPE3jYKOoto6TSwZvEB+SC/gDZ/Kiww6ARmEaDCS
-H3kpsFxFuzYnSLXk4FlLRzUx0EnOsOJ0cyxHjVDCEUVgbJGQtVQq0Xzw0XjyYsE3dQb9FfdA4a6r
-rZkcttQKlszQLPaBr8Hzg8aBiiFc9WTJN1p6ioRW5nJRG+BSZoLfmpVG4Vt1qjmOCfaoxpquwjR1
-yVHlc1V0iyxYzy3velXaZdXls0eQrJRBSnuFY1AJ9KkPGdNEXO3sfriLZs8SYK+iSP66J8i5DnQ1
-TZVKrl1J+RdBFyqG5loE9/h09+6bjxFfm0dt21gGw4C9/zmCAdSgJvF6fe7t3s1sUckW1ecFCT2F
-C6wsMOgij5yg5C1GXq8BVY9AN0MpW2tYJXXHQQBWfl98ospvHRVB759WAFpq+reSG2s9fUkvikNB
-SqVLD6K/ubE3vVLgU/+gmjJDJ886Bedjksv2U1SUI34ZHDU6dQwPPIS22kS2VUmVjJKeOIknqqWX
-eDZyRz/S9LuWNHFrgYVuepsN+UD7RAKO83x0cCXWSl73wzJqr4S1L+TCXYL2GBeA4csmlRaKHGZx
-IHF0y1qX3CHzTyvqb8kTOvrKAU9nxgMMhsyI7xYLoREt+SOIN5fb2b69FU9B5gxFGvyJdZ/v4cGd
-MYbWCI8afCDchql28kIXYLLw/UPq1pKgPlUjPsxgB2/v/ZA/9pZkwcGBnIfuZSM8syni8OwRmRN3
-YuM3j+JFC5Lyvq+MXsXWsHGa6ffpZorF4zuWZZlMxtWhA0SmM6bk7G8k/tgPTcisNBFMWnIeUF1D
-m0NTmIrfQOFL/4Xs+kdCt4k9aL6jtO02DVwVJY6k6LTAIGHMsyK5q8HbDQIedou8qqpfN8In1IQw
-b4QmYKvXyg+hzwLhJ8DhKbgQJLgx8kqGG044Tkldn9iKWwrH0L5rSLUd5YUveqgQ5ENKDqNRHlYX
-kCfxMAvVjYjYcpB4xQDZf9m1vFs8NgY8TZMgoLc7yFeK8ruIGtm8e8SqtJOUQlw31Tr/u981mhnF
-+sAgZKn6m6AiiaxoAy7UMf+xJQf2t/4uNv2SR5e34j0kQO03aGhf4G+4criveVzZ3AuzNJPe9qW5
-g27RE1LD/H/6MiSmttvPIfDMjo08hZrxJATwaEKbi1jga8jOvUv/qaQaClJpKYFD11A986p8g60M
-6E6OvtBoNQOst4s73WVvfF5HpQklkDzBI5+TEQtUgu1uNizAI7xzoWpWPwkLJSAUIcvZq1wwa77F
-C8IqgHCfzRZBOzS9dR6NfqAf9U+jRnvNZZi5R3kpWue1iANuRN0abEae8giXLHdNz4qflEK7pbHj
-JgMYRW4A7R0IWLXbPBGDCtML4hyBmEg9ZEM49lCfYK0K1ozhZWXV1uv++/O5XpkV904vGSflXeGQ
-ZYEN6+IcGP/F3jkPNnJ7AFO0/PLP0eJ0AoDAyrwZyesBC2mNnoAqFzY2076bAvCFU8nY9X0tHAYx
-k11ozBHIMTRWNCLxXkyUPoiY6LTm3P/LzTfQHk/P/S/pos2Ojy0k6Xi7V4PeJcYkYDlqUpUgT1ud
-JljJ4e3z8+5zsxNYuWpeA7dv889/mDx3lEgGpa6zbBRgB/jVhqNleynCBCWiruXHqoXDGoNNOkn1
-1TA+DJMU1q669TK/UxEO+MlNNkS9HQHQ1Hyw8bQUHW80IFHYXnGeqGvoa+DF6CVQvPW6nmhZV47G
-VXgzCzlSvvrb4jN7kWrkw4dOEFnlC4eSKC5z9l2GCk0E9NB+E8RIDvS2dzbmwh4Zyp3FomzUPVt2
-Sqrg3atrY7jQgz/IXx0xDNMTYWSN69cpcu1NoECs6Atsnv8gPgA4Eq03EH7fRYOS+lmH0Ah6+9Qt
-3EO43neH3r/rrfncO4IZ+XuqOB+I5amVGlf5nCzNrA1MnLUfRgA1YFvS2oL2giNlRdMa5NaEva0X
-7bewDhmocjKvWziiCkG6V69FOSzGcERzi3HBLUfs/yohXKk4jZx4Up+kovrQGPVypI9xh5MLxM1F
-lc2p62A6omZ1eWk684/HlwdQweZgRSeNWS7SfWhLfEhIiilH5kxmC+Bs0I2EZFMZVD4nxACYo1SM
-x9m868YJo+dYn7u4E9o0ENabKtKIsrJk8GgdIZk6riw1bkVyrGfQMKqpTez+gEuBqvY7ASTbLASJ
-bhRInIh/0OFOb3NikJ3xbUlgrh7tlsA5WiGzbllVjW4rLWTBHVB//1FieX2Uvh39z02VH05EBgMq
-6cU0m2a4hPP1Yx5aR4z63kGLfh9aJtf9bGzrNFIiO4gFPm31YRHHaANIxa+joXQbntMCGrYphus6
-xBu0NkTxNFKlzXzSLPPFfCVDObI63DRUefh79zr7O0rLMjlD9wMiw8m31WT5F+tDMrPdj940SsP2
-V8HjMQExjPSf6CL4QPUXqZcfkk4YgBnTrBTdOwhWERd27OW9zQ+34WrkdeSqmmrLx94n45IVwyev
-WfQgRG0KR9F+nlfuSHB+Srh5maGU2Xpt1Nf8n0ym5kekCEZR5wiefJ5PYVynWpSBALid5RhNNmIB
-SV3T0E8G/7NGDTIED66lW3LwlENpYT2wb56OUdojFSa+Vr7qwofkAm5aoMsgz4hyiE6e8SEcT6wr
-cgALDKSW6djnCopa60MM+RX6mNq691nA/6PHTXAp68mDNfVPdF8Kqtlh/MPm+SIfOP5lXe3pVL7v
-i9QDQsY0oaEbxY4aE+YdD7zwQVXCTXxuKe+IbQM5upGaoxOV/IMPaNyosjNiaBDsP8xdSeLpwf0t
-cHW1TnrFl2tadbyrjI6ASSJp9IePf+XDUkJ0rJzYwj82cl4WY6upaE035lxCRJwI4/Xqwz4uxybe
-dcOE/NQONPeSMtv1CT9tMpBxCXfSbysEqwD2bXYEuL4LRS5sEJv2OLOOeamt+Mxl8ilveEWnK1jV
-1zm4XhNsBjtD0f+2sVKOLGjK4bwiCUyfD1nm8JacynjtSs7xGKtbH8KX+l6SxWoYNFzx5bDtdJMP
-bu1QgAAXhHb5JwPTAxoB15cxM4lDWg7NYNxiic+MwKnkodILv30t741UZfi6fijGV34nro1sl8w6
-CJXAk60HXRcAauhZQOv63VglvJ91xrnNSHHiHNIO0L7XrAFkWJ7SIqFVxO3fJTLr1VrvE9zvG12u
-9NB0XOh8P7j8wAY3xJIMQ+9WmY3Y5EO+yKlAJBByxYd8buhoGo6ihbkLz7S=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Cloudchannel;
+
+class GoogleTypePostalAddress extends \Google\Collection
+{
+  protected $collection_key = 'recipients';
+  public $addressLines;
+  public $administrativeArea;
+  public $languageCode;
+  public $locality;
+  public $organization;
+  public $postalCode;
+  public $recipients;
+  public $regionCode;
+  public $revision;
+  public $sortingCode;
+  public $sublocality;
+
+  public function setAddressLines($addressLines)
+  {
+    $this->addressLines = $addressLines;
+  }
+  public function getAddressLines()
+  {
+    return $this->addressLines;
+  }
+  public function setAdministrativeArea($administrativeArea)
+  {
+    $this->administrativeArea = $administrativeArea;
+  }
+  public function getAdministrativeArea()
+  {
+    return $this->administrativeArea;
+  }
+  public function setLanguageCode($languageCode)
+  {
+    $this->languageCode = $languageCode;
+  }
+  public function getLanguageCode()
+  {
+    return $this->languageCode;
+  }
+  public function setLocality($locality)
+  {
+    $this->locality = $locality;
+  }
+  public function getLocality()
+  {
+    return $this->locality;
+  }
+  public function setOrganization($organization)
+  {
+    $this->organization = $organization;
+  }
+  public function getOrganization()
+  {
+    return $this->organization;
+  }
+  public function setPostalCode($postalCode)
+  {
+    $this->postalCode = $postalCode;
+  }
+  public function getPostalCode()
+  {
+    return $this->postalCode;
+  }
+  public function setRecipients($recipients)
+  {
+    $this->recipients = $recipients;
+  }
+  public function getRecipients()
+  {
+    return $this->recipients;
+  }
+  public function setRegionCode($regionCode)
+  {
+    $this->regionCode = $regionCode;
+  }
+  public function getRegionCode()
+  {
+    return $this->regionCode;
+  }
+  public function setRevision($revision)
+  {
+    $this->revision = $revision;
+  }
+  public function getRevision()
+  {
+    return $this->revision;
+  }
+  public function setSortingCode($sortingCode)
+  {
+    $this->sortingCode = $sortingCode;
+  }
+  public function getSortingCode()
+  {
+    return $this->sortingCode;
+  }
+  public function setSublocality($sublocality)
+  {
+    $this->sublocality = $sublocality;
+  }
+  public function getSublocality()
+  {
+    return $this->sublocality;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleTypePostalAddress::class, 'Google_Service_Cloudchannel_GoogleTypePostalAddress');

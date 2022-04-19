@@ -1,70 +1,103 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-wnkzT/EsHSxeTtBJLTJLPM28bmYj6vSU5W==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DisplayVideo;
+
+class FloodlightGroup extends \Google\Model
+{
+  protected $activeViewConfigType = ActiveViewVideoViewabilityMetricConfig::class;
+  protected $activeViewConfigDataType = '';
+  public $customVariables;
+  public $displayName;
+  public $floodlightGroupId;
+  protected $lookbackWindowType = LookbackWindow::class;
+  protected $lookbackWindowDataType = '';
+  public $name;
+  public $webTagType;
+
+  /**
+   * @param ActiveViewVideoViewabilityMetricConfig
+   */
+  public function setActiveViewConfig(ActiveViewVideoViewabilityMetricConfig $activeViewConfig)
+  {
+    $this->activeViewConfig = $activeViewConfig;
+  }
+  /**
+   * @return ActiveViewVideoViewabilityMetricConfig
+   */
+  public function getActiveViewConfig()
+  {
+    return $this->activeViewConfig;
+  }
+  public function setCustomVariables($customVariables)
+  {
+    $this->customVariables = $customVariables;
+  }
+  public function getCustomVariables()
+  {
+    return $this->customVariables;
+  }
+  public function setDisplayName($displayName)
+  {
+    $this->displayName = $displayName;
+  }
+  public function getDisplayName()
+  {
+    return $this->displayName;
+  }
+  public function setFloodlightGroupId($floodlightGroupId)
+  {
+    $this->floodlightGroupId = $floodlightGroupId;
+  }
+  public function getFloodlightGroupId()
+  {
+    return $this->floodlightGroupId;
+  }
+  /**
+   * @param LookbackWindow
+   */
+  public function setLookbackWindow(LookbackWindow $lookbackWindow)
+  {
+    $this->lookbackWindow = $lookbackWindow;
+  }
+  /**
+   * @return LookbackWindow
+   */
+  public function getLookbackWindow()
+  {
+    return $this->lookbackWindow;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setWebTagType($webTagType)
+  {
+    $this->webTagType = $webTagType;
+  }
+  public function getWebTagType()
+  {
+    return $this->webTagType;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(FloodlightGroup::class, 'Google_Service_DisplayVideo_FloodlightGroup');

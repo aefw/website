@@ -1,65 +1,209 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-b3ZRqsa5o+f05H3HCot31g33fWwRezch9l2O+W==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute\Resource;
+
+use Google\Service\Compute\Operation;
+use Google\Service\Compute\OperationAggregatedList;
+use Google\Service\Compute\OperationList;
+
+/**
+ * The "globalOperations" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $computeService = new Google\Service\Compute(...);
+ *   $globalOperations = $computeService->globalOperations;
+ *  </code>
+ */
+class GlobalOperations extends \Google\Service\Resource
+{
+  /**
+   * Retrieves an aggregated list of all operations.
+   * (globalOperations.aggregatedList)
+   *
+   * @param string $project Project ID for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param bool includeAllScopes Indicates whether every visible scope for
+   * each scope type (zone, region, global) should be included in the response.
+   * For new resource types added after this field, the flag has no effect as new
+   * resource types will always include every visible scope for each scope type in
+   * response. For resource types which predate this field, if this flag is
+   * omitted or false, only scopes of the scope types where the resource type is
+   * expected to be found will be included.
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return OperationAggregatedList
+   */
+  public function aggregatedList($project, $optParams = [])
+  {
+    $params = ['project' => $project];
+    $params = array_merge($params, $optParams);
+    return $this->call('aggregatedList', [$params], OperationAggregatedList::class);
+  }
+  /**
+   * Deletes the specified Operations resource. (globalOperations.delete)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $operation Name of the Operations resource to delete.
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($project, $operation, $optParams = [])
+  {
+    $params = ['project' => $project, 'operation' => $operation];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Retrieves the specified Operations resource. Gets a list of operations by
+   * making a `list()` request. (globalOperations.get)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $operation Name of the Operations resource to return.
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function get($project, $operation, $optParams = [])
+  {
+    $params = ['project' => $project, 'operation' => $operation];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Operation::class);
+  }
+  /**
+   * Retrieves a list of Operation resources contained within the specified
+   * project. (globalOperations.listGlobalOperations)
+   *
+   * @param string $project Project ID for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return OperationList
+   */
+  public function listGlobalOperations($project, $optParams = [])
+  {
+    $params = ['project' => $project];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], OperationList::class);
+  }
+  /**
+   * Waits for the specified Operation resource to return as `DONE` or for the
+   * request to approach the 2 minute deadline, and retrieves the specified
+   * Operation resource. This method differs from the `GET` method in that it
+   * waits for no more than the default deadline (2 minutes) and then returns the
+   * current state of the operation, which might be `DONE` or still in progress.
+   *
+   * This method is called on a best-effort basis. Specifically:   - In uncommon
+   * cases, when the server is overloaded, the request might return before the
+   * default deadline is reached, or might return after zero seconds.  - If the
+   * default deadline is reached, there is no guarantee that the operation is
+   * actually done when the method returns. Be prepared to retry if the operation
+   * is not `DONE`. (globalOperations.wait)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $operation Name of the Operations resource to return.
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function wait($project, $operation, $optParams = [])
+  {
+    $params = ['project' => $project, 'operation' => $operation];
+    $params = array_merge($params, $optParams);
+    return $this->call('wait', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GlobalOperations::class, 'Google_Service_Compute_Resource_GlobalOperations');

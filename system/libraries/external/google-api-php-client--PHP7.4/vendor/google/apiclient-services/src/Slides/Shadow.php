@@ -1,71 +1,119 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Slides;
+
+class Shadow extends \Google\Model
+{
+  public $alignment;
+  public $alpha;
+  protected $blurRadiusType = Dimension::class;
+  protected $blurRadiusDataType = '';
+  protected $colorType = OpaqueColor::class;
+  protected $colorDataType = '';
+  public $propertyState;
+  public $rotateWithShape;
+  protected $transformType = AffineTransform::class;
+  protected $transformDataType = '';
+  public $type;
+
+  public function setAlignment($alignment)
+  {
+    $this->alignment = $alignment;
+  }
+  public function getAlignment()
+  {
+    return $this->alignment;
+  }
+  public function setAlpha($alpha)
+  {
+    $this->alpha = $alpha;
+  }
+  public function getAlpha()
+  {
+    return $this->alpha;
+  }
+  /**
+   * @param Dimension
+   */
+  public function setBlurRadius(Dimension $blurRadius)
+  {
+    $this->blurRadius = $blurRadius;
+  }
+  /**
+   * @return Dimension
+   */
+  public function getBlurRadius()
+  {
+    return $this->blurRadius;
+  }
+  /**
+   * @param OpaqueColor
+   */
+  public function setColor(OpaqueColor $color)
+  {
+    $this->color = $color;
+  }
+  /**
+   * @return OpaqueColor
+   */
+  public function getColor()
+  {
+    return $this->color;
+  }
+  public function setPropertyState($propertyState)
+  {
+    $this->propertyState = $propertyState;
+  }
+  public function getPropertyState()
+  {
+    return $this->propertyState;
+  }
+  public function setRotateWithShape($rotateWithShape)
+  {
+    $this->rotateWithShape = $rotateWithShape;
+  }
+  public function getRotateWithShape()
+  {
+    return $this->rotateWithShape;
+  }
+  /**
+   * @param AffineTransform
+   */
+  public function setTransform(AffineTransform $transform)
+  {
+    $this->transform = $transform;
+  }
+  /**
+   * @return AffineTransform
+   */
+  public function getTransform()
+  {
+    return $this->transform;
+  }
+  public function setType($type)
+  {
+    $this->type = $type;
+  }
+  public function getType()
+  {
+    return $this->type;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Shadow::class, 'Google_Service_Slides_Shadow');

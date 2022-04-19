@@ -1,62 +1,99 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Books;
+
+class AnnotationCurrentVersionRanges extends \Google\Model
+{
+  protected $cfiRangeType = BooksAnnotationsRange::class;
+  protected $cfiRangeDataType = '';
+  public $contentVersion;
+  protected $gbImageRangeType = BooksAnnotationsRange::class;
+  protected $gbImageRangeDataType = '';
+  protected $gbTextRangeType = BooksAnnotationsRange::class;
+  protected $gbTextRangeDataType = '';
+  protected $imageCfiRangeType = BooksAnnotationsRange::class;
+  protected $imageCfiRangeDataType = '';
+
+  /**
+   * @param BooksAnnotationsRange
+   */
+  public function setCfiRange(BooksAnnotationsRange $cfiRange)
+  {
+    $this->cfiRange = $cfiRange;
+  }
+  /**
+   * @return BooksAnnotationsRange
+   */
+  public function getCfiRange()
+  {
+    return $this->cfiRange;
+  }
+  public function setContentVersion($contentVersion)
+  {
+    $this->contentVersion = $contentVersion;
+  }
+  public function getContentVersion()
+  {
+    return $this->contentVersion;
+  }
+  /**
+   * @param BooksAnnotationsRange
+   */
+  public function setGbImageRange(BooksAnnotationsRange $gbImageRange)
+  {
+    $this->gbImageRange = $gbImageRange;
+  }
+  /**
+   * @return BooksAnnotationsRange
+   */
+  public function getGbImageRange()
+  {
+    return $this->gbImageRange;
+  }
+  /**
+   * @param BooksAnnotationsRange
+   */
+  public function setGbTextRange(BooksAnnotationsRange $gbTextRange)
+  {
+    $this->gbTextRange = $gbTextRange;
+  }
+  /**
+   * @return BooksAnnotationsRange
+   */
+  public function getGbTextRange()
+  {
+    return $this->gbTextRange;
+  }
+  /**
+   * @param BooksAnnotationsRange
+   */
+  public function setImageCfiRange(BooksAnnotationsRange $imageCfiRange)
+  {
+    $this->imageCfiRange = $imageCfiRange;
+  }
+  /**
+   * @return BooksAnnotationsRange
+   */
+  public function getImageCfiRange()
+  {
+    return $this->imageCfiRange;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AnnotationCurrentVersionRanges::class, 'Google_Service_Books_AnnotationCurrentVersionRanges');

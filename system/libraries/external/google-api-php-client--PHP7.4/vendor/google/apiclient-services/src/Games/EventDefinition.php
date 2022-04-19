@@ -1,69 +1,106 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Games;
+
+class EventDefinition extends \Google\Collection
+{
+  protected $collection_key = 'childEvents';
+  protected $childEventsType = EventChild::class;
+  protected $childEventsDataType = 'array';
+  public $description;
+  public $displayName;
+  public $id;
+  public $imageUrl;
+  public $isDefaultImageUrl;
+  public $kind;
+  public $visibility;
+
+  /**
+   * @param EventChild[]
+   */
+  public function setChildEvents($childEvents)
+  {
+    $this->childEvents = $childEvents;
+  }
+  /**
+   * @return EventChild[]
+   */
+  public function getChildEvents()
+  {
+    return $this->childEvents;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setDisplayName($displayName)
+  {
+    $this->displayName = $displayName;
+  }
+  public function getDisplayName()
+  {
+    return $this->displayName;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setImageUrl($imageUrl)
+  {
+    $this->imageUrl = $imageUrl;
+  }
+  public function getImageUrl()
+  {
+    return $this->imageUrl;
+  }
+  public function setIsDefaultImageUrl($isDefaultImageUrl)
+  {
+    $this->isDefaultImageUrl = $isDefaultImageUrl;
+  }
+  public function getIsDefaultImageUrl()
+  {
+    return $this->isDefaultImageUrl;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setVisibility($visibility)
+  {
+    $this->visibility = $visibility;
+  }
+  public function getVisibility()
+  {
+    return $this->visibility;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(EventDefinition::class, 'Google_Service_Games_EventDefinition');

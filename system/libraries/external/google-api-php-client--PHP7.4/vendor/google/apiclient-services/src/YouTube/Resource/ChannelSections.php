@@ -1,61 +1,171 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPmZurQrIQIw2MpL0ZkNiz497zND0jGQCj/QXhhrS1UuUMFMXe7+vMqsOSvtnY5Fox34EY/8J
-701t+LXriBU+xi18/fM4tUH2i2PEGoWJbCciqgzJGn7ir00s9OV/XiLEo4LMjel1YD+EpOamnsWl
-YP5wwEEU12rMlwzrZaMD5XpWJ5DJcAAv8zYUxEJIa0rdmqzF9iMVE5Xm//xYG4LyAO+pi5SK4g7b
-ZllBnzX6Ctw/dYYLX5chaH5Gbtsq9bk/JkwO+8BzXE/p6WL2o34cUuqYSbBYS5CkDLI4g2o1fZvA
-1ULLL7Gh4aPqh2Ek+cbYY5HRvtWaHv9bYXZOlr6WNY3NnICA++87kAvLyRrG6DWxEoJNKBfkl5Xc
-s7jSsXIUy7YWRtMtrlNoQ+7PbQnyr43C6UwbJUf6iIfE8YIP/5bql/yQgfLWTkX2pVZ2Pp6t/Ac3
-6GZQeBe1t2hndX0RSCwH0FuzX7ueHKyOQ2Se4FeHCsDP/h+aonI6JaVMV8xADu/QIUVWNtH+rhHs
-aOZdW7wdAI6lsTcyURhUckkklcdU3WO8hJLajQSKDuPiQ7aa3Vxpl9qB1p7e7g4R1nODzrriD6lz
-jSc/k1XK0LL5jnC7KEU3K73yq6oDfW7OvqZtXz103N2x04uTIBLJTdfBQHSvthEWIrmmC/z0JvaE
-U9MIcNTHmFp4aWDOHxh1eEiQpciiH79DgWatt5iMdOwzbpFNYbSuFG6AgvOclDkd3gA0mOAaZyiT
-XThXmu/+BIzW5Me5ZvdruRdVcPR0uvMw0g5EWFxH4rG303t9i6sbxS+RmHfHtoHy8M+/GLQhTw7q
-w7IyY3K2UZwZaQw9BRP5SXb73JREToIu0tCsuXaQlHn6AheAJd/HdqQ3NzEE519p4N9A3T81eey6
-7S4N9LmagUZR572WhlTmI61bLxaMhudYHeTwioUZxuueTo+poubLgNRUxwSxsOLTsrR1AI7aakii
-T/FYWCmArP2NEy7YgZT9ldEYTnhcgNmMTxTNTjSk7UIOOMqG72zw7ShCUjwZYIqRyFUK0mmLMMV0
-KzpcgTODl803YPtrMjFuLOjWGlA9s6wxcqWBGLMKhN1+LK0hT3ZJuq2VTs8lJsgxv2fP9s+fuRdE
-xHH1P1j3Tq2MqBvOxyxwLIZztOLgHF43O66GYPC9bdi0XoYvQyZoExWeXFkojsGLhdygAbd8/p+f
-rrn5isS+lAMRQ4r1HdtLR/P8hMHDZaPNjPt0wtwy5FG5hCgf2PUo9M1FHKWA7gGDjHjQCqObAjF8
-fc00sTsdSxx8YSexFXsdJ+uPJO9LYcJ6+4Kxs24SiClmASq3q1OJAFoyZ3DsHOsQ3yfBoeIvh1t/
-D7PuxEV4+hXxftTjr5KjJih2RTCPW3s+0sNFeNbhhIq3L27AVlDIxDun4p6clDe407chUAKldNCg
-W4OwW3wf77xyIFLGOH8AJZ5J6X/G6s+g9twIxSOtl/LhPCvhNqjjFVxDJDybQY0cx4Eo7WyCBlUC
-KzOaep9WxPfhf8aY29zj15HBnQZCzMq20ODP30rklM0hBwHaNg5b4hceUJ5vzDt+4fMpUCw4LZcy
-AXDQrQiP8k/aaRh19tav7a6Hwunu/GEJUyqYQQnh5f7f+jXB6XiJx25odJFCmxWsxsx1Wuoy0PWe
-O6goS32qy37d9AoAHln4CoQrKWU0KN65uqUcR0nNvmSV0gFaomyQDI6CxGjeRRMYzxLF54/r5P4P
-4Sn9XbT8kv5u43rBqKlh4bUMBEihvFM5Z81BA6Z51Cvi4+AE9Cs/DD6EjmL6wHPVJUbMTVao9Pm/
-Li7chK02l/W68XukQ+3pKD3qvDjbXrLAhidLZ4DjaDLsCVQBwI693WfLJ2uswzVQ3vAVwrxnpysn
-RGyMwXDzfJlVUegc8gi/pAn8J5NuEjhLyhD+nbNf8kZ4hOQySTw5U3MeCXZnYJdI1ClwFtGmXPoh
-7sZw7mmGngHfUO0+te9SZ39YI9peDtwaf/h0n1oFz2DZ8uztDPnYueYrESxfFZ44Ois6Dj8w8hh9
-tg6RHCXTCmGOlgDaAEXuEHoFvXf/H/Cuaaz+EV3+mLWGhrmRnezNqi84yQyx1apc4PxVAicrpkBf
-yPrE6SSFMlvvKnMNesIVCXXmUFj4Sx0Tk/nA5t+zsrjogt7eJ9rxnZDCkABFwuA0DPctioI3QwZX
-Oj7oRnNMX7AK6QXeaVEXG792DnAhQ22Z5ySlzHMJlylNjuiF3rAsLcxpS6vHJESMzcn5o3ZNO7wD
-z4dgs/r3Kehrog1Z6LtDlWnnnr6G205NbRN7TqdORShicmpqrn/zkAPjeNC+so3NQ7SvvRRO/ZZk
-J+TKqjLWcON0/6/MQ0ny+IX1DFMHSra0DRVjTZE0/A53cHrE0o2AiLgqZK1S66rS40wvtBu1FeV6
-r01jopzzWG5mEUYmSiYHS7/h6Oghx4Xu3sBxKzmB7Vygsa1pCywtD3y7aRufkm1MR04ze8HYKUaR
-dwVrDY3CZUuxQ6RLgfDfiraUf4/e//VEgkucSeKNmtQCkgjeC2O8JlnVNYECYPN/IgSa/FTE9UM9
-s4OeujRfYKv9hhxbVlc5mZXwGZuWI41HZclZ2Nnl7d7kFMSz20RP5PH4zNcLnx+v0Z0GciGcIgAg
-C/mqsXzMSezwSLAMbwhLNy7GOjiUN0KsJqIdntF5+4Er+OHEZr1rRDxl9GAqJdqb1scZFUenIqkR
-t+f+QDDEi4UTWrKbutcLLVzG+Wex/nfpuXh+i4iwNYQHAgHOjlyHW51r2svGzeHKPRZDFzQeiqjl
-r3chQUEYAnkMey2G9qW5XmMN/wa+5j6otqZ8LDoGCqrH6hy4xr9nYpQfTgvd1zdh7F19fcLMeWOK
-eORoJ5Nqg5lcAwEUKt3bmUeGRc39hIgCRPww/WtbpscuZ4uxk63BL69dDILeLSy12IZF+MXQNaCh
-g41T6V1Y8Aqhhj2O1rIzW+ytwyGPNsew29CDHTRC4SHRCHUV5s5WzZyirHk2NZKPLT7F9PMl45UY
-XYHp27wW2kEqBOfUBaqRQPkMcdUWgrjiGBywdLWsTSI2K4cbWl2egbqps3Tp0SoJCGNzCl6WPSqc
-XSv0nNhNVfodgYi4z3D1OS2yQ7+ZXBFloXeEzQKwNF0iowmbHIghdip/RnqHMhmeZl5bRF9chf0C
-qqPQ3YkTrSSdJ6zVqp6O33iUcMuCMrFTYadWq+jrmXM89bGCCtpQWtmrZlAnDR8GxbJFV94ZNyjg
-nZLcNr8ERQ/YbYwV+1ger984JwEPb6PxKpUPTELUuy3tERDyhBNhpg21EiB8htNyxSXmBEgvUzgs
-9etBmkxv+fcC6FodOPK14sbnMYme/Wvh5FzOeRc103KImCwAbi+EJzZBTAWT44TiolfR2WARpUag
-/zgWxeON4xf1klMZk3JicDPSO4R/vs2+HLjLtsYGTieBNAy8wnb+FgL5YYuP9zqsKvc9dY9l/twv
-RCGEYjl6hxaLzPzkvZgB26fDfqPhvNTooY9rKwH7D30ZdyzPtf3VQ89dicIughK3WZ4oABCUzNAB
-owp5q1LC/B8QaP0J0uTkX1Kg3z0/WdpOsIGeb4EPs2m68Gck20laD1BdLZFs81PeQzgtbybNe/Lr
-9TtYDEenMCQqXvVA1fSxBb9Kuqs1OuJqykfUj+TGSBNdM0ZuU4j4BKxD6OHrGOx7uRa0GRgyHQfu
-L1fMB8ibxJxd9yTdtn7SHX0OrzdL74eYUFb3VWPKGme3fBtGlrh1CU1kjkhUPQsE3chbxbbNIVXR
-xPS69SP1SD0Znt/ac+CUaaklDxyuj6dG1Mm+Cu6PnntMfiZa4v13Ns0atXkki2NXPQd22hVRtOEH
-3uLwi3q8wiG+ivFbL228aQ/BPiQ//LopJKipD0h0GIP8dFr1rSAdOPDDZW5kFi6YFMLJjmmsdOwM
-2xkpJr7RSSMBR8LBU7ET3IKGuuj/54HqN1pCaL6GEty20jjS5TkkWPNxc92N9N6I/LDsZWPZHzgs
-6U/3VZeQ7lBTSs5NIBKUGsRka45x9m9HsuQzJ+BEteKZGTBcFeQ5rAjFhBk9Mj5xt8gwVn/y7trZ
-NlF2dE0LShBt0b7ogXPqxcm=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\YouTube\Resource;
+
+use Google\Service\YouTube\ChannelSection;
+use Google\Service\YouTube\ChannelSectionListResponse;
+
+/**
+ * The "channelSections" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $youtubeService = new Google\Service\YouTube(...);
+ *   $channelSections = $youtubeService->channelSections;
+ *  </code>
+ */
+class ChannelSections extends \Google\Service\Resource
+{
+  /**
+   * Deletes a resource. (channelSections.delete)
+   *
+   * @param string $id
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string onBehalfOfContentOwner *Note:* This parameter is intended
+   * exclusively for YouTube content partners. The *onBehalfOfContentOwner*
+   * parameter indicates that the request's authorization credentials identify a
+   * YouTube CMS user who is acting on behalf of the content owner specified in
+   * the parameter value. This parameter is intended for YouTube content partners
+   * that own and manage many different YouTube channels. It allows content owners
+   * to authenticate once and get access to all their video and channel data,
+   * without having to provide authentication credentials for each individual
+   * channel. The CMS account that the user authenticates with must be linked to
+   * the specified YouTube content owner.
+   */
+  public function delete($id, $optParams = [])
+  {
+    $params = ['id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Inserts a new resource into this collection. (channelSections.insert)
+   *
+   * @param string|array $part The *part* parameter serves two purposes in this
+   * operation. It identifies the properties that the write operation will set as
+   * well as the properties that the API response will include. The part names
+   * that you can include in the parameter value are snippet and contentDetails.
+   * @param ChannelSection $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string onBehalfOfContentOwner *Note:* This parameter is intended
+   * exclusively for YouTube content partners. The *onBehalfOfContentOwner*
+   * parameter indicates that the request's authorization credentials identify a
+   * YouTube CMS user who is acting on behalf of the content owner specified in
+   * the parameter value. This parameter is intended for YouTube content partners
+   * that own and manage many different YouTube channels. It allows content owners
+   * to authenticate once and get access to all their video and channel data,
+   * without having to provide authentication credentials for each individual
+   * channel. The CMS account that the user authenticates with must be linked to
+   * the specified YouTube content owner.
+   * @opt_param string onBehalfOfContentOwnerChannel This parameter can only be
+   * used in a properly authorized request. *Note:* This parameter is intended
+   * exclusively for YouTube content partners. The *onBehalfOfContentOwnerChannel*
+   * parameter specifies the YouTube channel ID of the channel to which a video is
+   * being added. This parameter is required when a request specifies a value for
+   * the onBehalfOfContentOwner parameter, and it can only be used in conjunction
+   * with that parameter. In addition, the request must be authorized using a CMS
+   * account that is linked to the content owner that the onBehalfOfContentOwner
+   * parameter specifies. Finally, the channel that the
+   * onBehalfOfContentOwnerChannel parameter value specifies must be linked to the
+   * content owner that the onBehalfOfContentOwner parameter specifies. This
+   * parameter is intended for YouTube content partners that own and manage many
+   * different YouTube channels. It allows content owners to authenticate once and
+   * perform actions on behalf of the channel specified in the parameter value,
+   * without having to provide authentication credentials for each separate
+   * channel.
+   * @return ChannelSection
+   */
+  public function insert($part, ChannelSection $postBody, $optParams = [])
+  {
+    $params = ['part' => $part, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], ChannelSection::class);
+  }
+  /**
+   * Retrieves a list of resources, possibly filtered.
+   * (channelSections.listChannelSections)
+   *
+   * @param string|array $part The *part* parameter specifies a comma-separated
+   * list of one or more channelSection resource properties that the API response
+   * will include. The part names that you can include in the parameter value are
+   * id, snippet, and contentDetails. If the parameter identifies a property that
+   * contains child properties, the child properties will be included in the
+   * response. For example, in a channelSection resource, the snippet property
+   * contains other properties, such as a display title for the channelSection. If
+   * you set *part=snippet*, the API response will also contain all of those
+   * nested properties.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string channelId Return the ChannelSections owned by the specified
+   * channel ID.
+   * @opt_param string hl Return content in specified language
+   * @opt_param string id Return the ChannelSections with the given IDs for Stubby
+   * or Apiary.
+   * @opt_param bool mine Return the ChannelSections owned by the authenticated
+   * user.
+   * @opt_param string onBehalfOfContentOwner *Note:* This parameter is intended
+   * exclusively for YouTube content partners. The *onBehalfOfContentOwner*
+   * parameter indicates that the request's authorization credentials identify a
+   * YouTube CMS user who is acting on behalf of the content owner specified in
+   * the parameter value. This parameter is intended for YouTube content partners
+   * that own and manage many different YouTube channels. It allows content owners
+   * to authenticate once and get access to all their video and channel data,
+   * without having to provide authentication credentials for each individual
+   * channel. The CMS account that the user authenticates with must be linked to
+   * the specified YouTube content owner.
+   * @return ChannelSectionListResponse
+   */
+  public function listChannelSections($part, $optParams = [])
+  {
+    $params = ['part' => $part];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ChannelSectionListResponse::class);
+  }
+  /**
+   * Updates an existing resource. (channelSections.update)
+   *
+   * @param string|array $part The *part* parameter serves two purposes in this
+   * operation. It identifies the properties that the write operation will set as
+   * well as the properties that the API response will include. The part names
+   * that you can include in the parameter value are snippet and contentDetails.
+   * @param ChannelSection $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string onBehalfOfContentOwner *Note:* This parameter is intended
+   * exclusively for YouTube content partners. The *onBehalfOfContentOwner*
+   * parameter indicates that the request's authorization credentials identify a
+   * YouTube CMS user who is acting on behalf of the content owner specified in
+   * the parameter value. This parameter is intended for YouTube content partners
+   * that own and manage many different YouTube channels. It allows content owners
+   * to authenticate once and get access to all their video and channel data,
+   * without having to provide authentication credentials for each individual
+   * channel. The CMS account that the user authenticates with must be linked to
+   * the specified YouTube content owner.
+   * @return ChannelSection
+   */
+  public function update($part, ChannelSection $postBody, $optParams = [])
+  {
+    $params = ['part' => $part, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], ChannelSection::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ChannelSections::class, 'Google_Service_YouTube_Resource_ChannelSections');

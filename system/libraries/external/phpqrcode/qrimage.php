@@ -1,66 +1,95 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-W4NUm3LXSp896yxD4x/A9QkP
+<?php
+/*
+ * PHP QR Code encoder
+ *
+ * Image output of code using GD2
+ *
+ * PHP QR Code is distributed under LGPL 3
+ * Copyright (C) 2010 Dominik Dzienia <deltalab at poczta dot fm>
+ *
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public
+ * License as published by the Free Software Foundation; either
+ * version 3 of the License, or any later version.
+ *
+ * This library is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this library; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+ */
+ 
+    define('QR_IMAGE', true);
+
+    class QRimage {
+    
+        //----------------------------------------------------------------------
+        public static function png($frame, $filename = false, $pixelPerPoint = 4, $outerFrame = 4,$saveandprint=FALSE) 
+        {
+            $image = self::image($frame, $pixelPerPoint, $outerFrame);
+            
+            if ($filename === false) {
+                Header("Content-type: image/png");
+                ImagePng($image);
+            } else {
+                if($saveandprint===TRUE){
+                    ImagePng($image, $filename);
+                    header("Content-type: image/png");
+                    ImagePng($image);
+                }else{
+                    ImagePng($image, $filename);
+                }
+            }
+            
+            ImageDestroy($image);
+        }
+    
+        //----------------------------------------------------------------------
+        public static function jpg($frame, $filename = false, $pixelPerPoint = 8, $outerFrame = 4, $q = 85) 
+        {
+            $image = self::image($frame, $pixelPerPoint, $outerFrame);
+            
+            if ($filename === false) {
+                Header("Content-type: image/jpeg");
+                ImageJpeg($image, null, $q);
+            } else {
+                ImageJpeg($image, $filename, $q);            
+            }
+            
+            ImageDestroy($image);
+        }
+    
+        //----------------------------------------------------------------------
+        private static function image($frame, $pixelPerPoint = 4, $outerFrame = 4) 
+        {
+            $h = count($frame);
+            $w = strlen($frame[0]);
+            
+            $imgW = $w + 2*$outerFrame;
+            $imgH = $h + 2*$outerFrame;
+            
+            $base_image =ImageCreate($imgW, $imgH);
+            
+            $col[0] = ImageColorAllocate($base_image,255,255,255);
+            $col[1] = ImageColorAllocate($base_image,0,0,0);
+
+            imagefill($base_image, 0, 0, $col[0]);
+
+            for($y=0; $y<$h; $y++) {
+                for($x=0; $x<$w; $x++) {
+                    if ($frame[$y][$x] == '1') {
+                        ImageSetPixel($base_image,$x+$outerFrame,$y+$outerFrame,$col[1]); 
+                    }
+                }
+            }
+            
+            $target_image =ImageCreate($imgW * $pixelPerPoint, $imgH * $pixelPerPoint);
+            ImageCopyResized($target_image, $base_image, 0, 0, 0, 0, $imgW * $pixelPerPoint, $imgH * $pixelPerPoint, $imgW, $imgH);
+            ImageDestroy($base_image);
+            
+            return $target_image;
+        }
+    }

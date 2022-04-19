@@ -1,142 +1,196 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-hw/V5joDY3Zq8wKuI/R8exPrqbC=
+<?php declare(strict_types=1);
+
+/*
+ * This file is part of the Monolog package.
+ *
+ * (c) Jordi Boggiano <j.boggiano@seld.be>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Monolog\Formatter;
+
+use Monolog\Utils;
+
+/**
+ * Formats incoming records into a one-line string
+ *
+ * This is especially useful for logging to files
+ *
+ * @author Jordi Boggiano <j.boggiano@seld.be>
+ * @author Christophe Coevoet <stof@notk.org>
+ */
+class LineFormatter extends NormalizerFormatter
+{
+    public const SIMPLE_FORMAT = "[%datetime%] %channel%.%level_name%: %message% %context% %extra%\n";
+
+    protected $format;
+    protected $allowInlineLineBreaks;
+    protected $ignoreEmptyContextAndExtra;
+    protected $includeStacktraces;
+
+    /**
+     * @param string|null $format                     The format of the message
+     * @param string|null $dateFormat                 The format of the timestamp: one supported by DateTime::format
+     * @param bool        $allowInlineLineBreaks      Whether to allow inline line breaks in log entries
+     * @param bool        $ignoreEmptyContextAndExtra
+     */
+    public function __construct(?string $format = null, ?string $dateFormat = null, bool $allowInlineLineBreaks = false, bool $ignoreEmptyContextAndExtra = false)
+    {
+        $this->format = $format === null ? static::SIMPLE_FORMAT : $format;
+        $this->allowInlineLineBreaks = $allowInlineLineBreaks;
+        $this->ignoreEmptyContextAndExtra = $ignoreEmptyContextAndExtra;
+        parent::__construct($dateFormat);
+    }
+
+    public function includeStacktraces(bool $include = true)
+    {
+        $this->includeStacktraces = $include;
+        if ($this->includeStacktraces) {
+            $this->allowInlineLineBreaks = true;
+        }
+    }
+
+    public function allowInlineLineBreaks(bool $allow = true)
+    {
+        $this->allowInlineLineBreaks = $allow;
+    }
+
+    public function ignoreEmptyContextAndExtra(bool $ignore = true)
+    {
+        $this->ignoreEmptyContextAndExtra = $ignore;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function format(array $record): string
+    {
+        $vars = parent::format($record);
+
+        $output = $this->format;
+
+        foreach ($vars['extra'] as $var => $val) {
+            if (false !== strpos($output, '%extra.'.$var.'%')) {
+                $output = str_replace('%extra.'.$var.'%', $this->stringify($val), $output);
+                unset($vars['extra'][$var]);
+            }
+        }
+
+        foreach ($vars['context'] as $var => $val) {
+            if (false !== strpos($output, '%context.'.$var.'%')) {
+                $output = str_replace('%context.'.$var.'%', $this->stringify($val), $output);
+                unset($vars['context'][$var]);
+            }
+        }
+
+        if ($this->ignoreEmptyContextAndExtra) {
+            if (empty($vars['context'])) {
+                unset($vars['context']);
+                $output = str_replace('%context%', '', $output);
+            }
+
+            if (empty($vars['extra'])) {
+                unset($vars['extra']);
+                $output = str_replace('%extra%', '', $output);
+            }
+        }
+
+        foreach ($vars as $var => $val) {
+            if (false !== strpos($output, '%'.$var.'%')) {
+                $output = str_replace('%'.$var.'%', $this->stringify($val), $output);
+            }
+        }
+
+        // remove leftover %extra.xxx% and %context.xxx% if any
+        if (false !== strpos($output, '%')) {
+            $output = preg_replace('/%(?:extra|context)\..+?%/', '', $output);
+        }
+
+        return $output;
+    }
+
+    public function formatBatch(array $records): string
+    {
+        $message = '';
+        foreach ($records as $record) {
+            $message .= $this->format($record);
+        }
+
+        return $message;
+    }
+
+    public function stringify($value): string
+    {
+        return $this->replaceNewlines($this->convertToString($value));
+    }
+
+    protected function normalizeException(\Throwable $e, int $depth = 0): string
+    {
+        $str = $this->formatException($e);
+
+        if ($previous = $e->getPrevious()) {
+            do {
+                $str .= "\n[previous exception] " . $this->formatException($previous);
+            } while ($previous = $previous->getPrevious());
+        }
+
+        return $str;
+    }
+
+    protected function convertToString($data): string
+    {
+        if (null === $data || is_bool($data)) {
+            return var_export($data, true);
+        }
+
+        if (is_scalar($data)) {
+            return (string) $data;
+        }
+
+        return $this->toJson($data, true);
+    }
+
+    protected function replaceNewlines(string $str): string
+    {
+        if ($this->allowInlineLineBreaks) {
+            if (0 === strpos($str, '{')) {
+                return str_replace(array('\r', '\n'), array("\r", "\n"), $str);
+            }
+
+            return $str;
+        }
+
+        return str_replace(["\r\n", "\r", "\n"], ' ', $str);
+    }
+
+    private function formatException(\Throwable $e): string
+    {
+        $str = '[object] (' . Utils::getClass($e) . '(code: ' . $e->getCode();
+        if ($e instanceof \SoapFault) {
+            if (isset($e->faultcode)) {
+                $str .= ' faultcode: ' . $e->faultcode;
+            }
+
+            if (isset($e->faultactor)) {
+                $str .= ' faultactor: ' . $e->faultactor;
+            }
+
+            if (isset($e->detail)) {
+                if (is_string($e->detail)) {
+                    $str .= ' detail: ' . $e->detail;
+                } elseif (is_object($e->detail) || is_array($e->detail)) {
+                    $str .= ' detail: ' . $this->toJson($e->detail, true);
+                }
+            }
+        }
+        $str .= '): ' . $e->getMessage() . ' at ' . $e->getFile() . ':' . $e->getLine() . ')';
+
+        if ($this->includeStacktraces) {
+            $str .= "\n[stacktrace]\n" . $e->getTraceAsString() . "\n";
+        }
+
+        return $str;
+    }
+}

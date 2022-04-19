@@ -1,93 +1,705 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-lceevMcUUqttElHpfpW5fESmFU2u6YeVfm==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for CloudMachineLearningEngine (v1).
+ *
+ * <p>
+ * An API to enable creating and using machine learning models.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/ml/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class CloudMachineLearningEngine extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+  /** View your data across Google Cloud Platform services. */
+  const CLOUD_PLATFORM_READ_ONLY =
+      "https://www.googleapis.com/auth/cloud-platform.read-only";
+
+  public $projects;
+  public $projects_jobs;
+  public $projects_locations;
+  public $projects_locations_operations;
+  public $projects_locations_studies;
+  public $projects_locations_studies_trials;
+  public $projects_models;
+  public $projects_models_versions;
+  public $projects_operations;
+
+  /**
+   * Constructs the internal representation of the CloudMachineLearningEngine
+   * service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://ml.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'ml';
+
+    $this->projects = new CloudMachineLearningEngine\Resource\Projects(
+        $this,
+        $this->serviceName,
+        'projects',
+        [
+          'methods' => [
+            'explain' => [
+              'path' => 'v1/{+name}:explain',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getConfig' => [
+              'path' => 'v1/{+name}:getConfig',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'predict' => [
+              'path' => 'v1/{+name}:predict',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_jobs = new CloudMachineLearningEngine\Resource\ProjectsJobs(
+        $this,
+        $this->serviceName,
+        'jobs',
+        [
+          'methods' => [
+            'cancel' => [
+              'path' => 'v1/{+name}:cancel',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1/{+parent}/jobs',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1/{+resource}:getIamPolicy',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'options.requestedPolicyVersion' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/jobs',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations = new CloudMachineLearningEngine\Resource\ProjectsLocations(
+        $this,
+        $this->serviceName,
+        'locations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/locations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_operations = new CloudMachineLearningEngine\Resource\ProjectsLocationsOperations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'cancel' => [
+              'path' => 'v1/{+name}:cancel',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_studies = new CloudMachineLearningEngine\Resource\ProjectsLocationsStudies(
+        $this,
+        $this->serviceName,
+        'studies',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/studies',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'studyId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/studies',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_studies_trials = new CloudMachineLearningEngine\Resource\ProjectsLocationsStudiesTrials(
+        $this,
+        $this->serviceName,
+        'trials',
+        [
+          'methods' => [
+            'addMeasurement' => [
+              'path' => 'v1/{+name}:addMeasurement',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'checkEarlyStoppingState' => [
+              'path' => 'v1/{+name}:checkEarlyStoppingState',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'complete' => [
+              'path' => 'v1/{+name}:complete',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1/{+parent}/trials',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/trials',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'listOptimalTrials' => [
+              'path' => 'v1/{+parent}/trials:listOptimalTrials',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'stop' => [
+              'path' => 'v1/{+name}:stop',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'suggest' => [
+              'path' => 'v1/{+parent}/trials:suggest',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_models = new CloudMachineLearningEngine\Resource\ProjectsModels(
+        $this,
+        $this->serviceName,
+        'models',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/models',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1/{+resource}:getIamPolicy',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'options.requestedPolicyVersion' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/models',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_models_versions = new CloudMachineLearningEngine\Resource\ProjectsModelsVersions(
+        $this,
+        $this->serviceName,
+        'versions',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/versions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/versions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'setDefault' => [
+              'path' => 'v1/{+name}:setDefault',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_operations = new CloudMachineLearningEngine\Resource\ProjectsOperations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'cancel' => [
+              'path' => 'v1/{+name}:cancel',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+name}/operations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(CloudMachineLearningEngine::class, 'Google_Service_CloudMachineLearningEngine');

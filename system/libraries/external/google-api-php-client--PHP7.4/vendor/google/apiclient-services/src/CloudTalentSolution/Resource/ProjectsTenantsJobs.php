@@ -1,90 +1,240 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudTalentSolution\Resource;
+
+use Google\Service\CloudTalentSolution\BatchCreateJobsRequest;
+use Google\Service\CloudTalentSolution\BatchDeleteJobsRequest;
+use Google\Service\CloudTalentSolution\BatchUpdateJobsRequest;
+use Google\Service\CloudTalentSolution\Job;
+use Google\Service\CloudTalentSolution\JobsEmpty;
+use Google\Service\CloudTalentSolution\ListJobsResponse;
+use Google\Service\CloudTalentSolution\Operation;
+use Google\Service\CloudTalentSolution\SearchJobsRequest;
+use Google\Service\CloudTalentSolution\SearchJobsResponse;
+
+/**
+ * The "jobs" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $jobsService = new Google\Service\CloudTalentSolution(...);
+ *   $jobs = $jobsService->jobs;
+ *  </code>
+ */
+class ProjectsTenantsJobs extends \Google\Service\Resource
+{
+  /**
+   * Begins executing a batch create jobs operation. (jobs.batchCreate)
+   *
+   * @param string $parent Required. The resource name of the tenant under which
+   * the job is created. The format is
+   * "projects/{project_id}/tenants/{tenant_id}". For example,
+   * "projects/foo/tenants/bar".
+   * @param BatchCreateJobsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function batchCreate($parent, BatchCreateJobsRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('batchCreate', [$params], Operation::class);
+  }
+  /**
+   * Begins executing a batch delete jobs operation. (jobs.batchDelete)
+   *
+   * @param string $parent Required. The resource name of the tenant under which
+   * the job is created. The format is
+   * "projects/{project_id}/tenants/{tenant_id}". For example,
+   * "projects/foo/tenants/bar". The parent of all of the jobs specified in
+   * `names` must match this field.
+   * @param BatchDeleteJobsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function batchDelete($parent, BatchDeleteJobsRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('batchDelete', [$params], Operation::class);
+  }
+  /**
+   * Begins executing a batch update jobs operation. (jobs.batchUpdate)
+   *
+   * @param string $parent Required. The resource name of the tenant under which
+   * the job is created. The format is
+   * "projects/{project_id}/tenants/{tenant_id}". For example,
+   * "projects/foo/tenants/bar".
+   * @param BatchUpdateJobsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function batchUpdate($parent, BatchUpdateJobsRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('batchUpdate', [$params], Operation::class);
+  }
+  /**
+   * Creates a new job. Typically, the job becomes searchable within 10 seconds,
+   * but it may take up to 5 minutes. (jobs.create)
+   *
+   * @param string $parent Required. The resource name of the tenant under which
+   * the job is created. The format is
+   * "projects/{project_id}/tenants/{tenant_id}". For example,
+   * "projects/foo/tenants/bar".
+   * @param Job $postBody
+   * @param array $optParams Optional parameters.
+   * @return Job
+   */
+  public function create($parent, Job $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Job::class);
+  }
+  /**
+   * Deletes the specified job. Typically, the job becomes unsearchable within 10
+   * seconds, but it may take up to 5 minutes. (jobs.delete)
+   *
+   * @param string $name Required. The resource name of the job to be deleted. The
+   * format is "projects/{project_id}/tenants/{tenant_id}/jobs/{job_id}". For
+   * example, "projects/foo/tenants/bar/jobs/baz".
+   * @param array $optParams Optional parameters.
+   * @return JobsEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], JobsEmpty::class);
+  }
+  /**
+   * Retrieves the specified job, whose status is OPEN or recently EXPIRED within
+   * the last 90 days. (jobs.get)
+   *
+   * @param string $name Required. The resource name of the job to retrieve. The
+   * format is "projects/{project_id}/tenants/{tenant_id}/jobs/{job_id}". For
+   * example, "projects/foo/tenants/bar/jobs/baz".
+   * @param array $optParams Optional parameters.
+   * @return Job
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Job::class);
+  }
+  /**
+   * Lists jobs by filter. (jobs.listProjectsTenantsJobs)
+   *
+   * @param string $parent Required. The resource name of the tenant under which
+   * the job is created. The format is
+   * "projects/{project_id}/tenants/{tenant_id}". For example,
+   * "projects/foo/tenants/bar".
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Required. The filter string specifies the jobs to be
+   * enumerated. Supported operator: =, AND The fields eligible for filtering are:
+   * * `companyName` (Required) * `requisitionId` * `status` Available values:
+   * OPEN, EXPIRED, ALL. Defaults to OPEN if no value is specified. Sample Query:
+   * * companyName = "projects/foo/tenants/bar/companies/baz" * companyName =
+   * "projects/foo/tenants/bar/companies/baz" AND requisitionId = "req-1" *
+   * companyName = "projects/foo/tenants/bar/companies/baz" AND status = "EXPIRED"
+   * @opt_param string jobView The desired job attributes returned for jobs in the
+   * search response. Defaults to JobView.JOB_VIEW_FULL if no value is specified.
+   * @opt_param int pageSize The maximum number of jobs to be returned per page of
+   * results. If job_view is set to JobView.JOB_VIEW_ID_ONLY, the maximum allowed
+   * page size is 1000. Otherwise, the maximum allowed page size is 100. Default
+   * is 100 if empty or a number < 1 is specified.
+   * @opt_param string pageToken The starting point of a query result.
+   * @return ListJobsResponse
+   */
+  public function listProjectsTenantsJobs($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListJobsResponse::class);
+  }
+  /**
+   * Updates specified job. Typically, updated contents become visible in search
+   * results within 10 seconds, but it may take up to 5 minutes. (jobs.patch)
+   *
+   * @param string $name Required during job update. The resource name for the
+   * job. This is generated by the service when a job is created. The format is
+   * "projects/{project_id}/tenants/{tenant_id}/jobs/{job_id}". For example,
+   * "projects/foo/tenants/bar/jobs/baz". Use of this field in job queries and API
+   * calls is preferred over the use of requisition_id since this value is unique.
+   * @param Job $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Strongly recommended for the best service
+   * experience. If update_mask is provided, only the specified fields in job are
+   * updated. Otherwise all the fields are updated. A field mask to restrict the
+   * fields that are updated. Only top level fields of Job are supported.
+   * @return Job
+   */
+  public function patch($name, Job $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Job::class);
+  }
+  /**
+   * Searches for jobs using the provided SearchJobsRequest. This call constrains
+   * the visibility of jobs present in the database, and only returns jobs that
+   * the caller has permission to search against. (jobs.search)
+   *
+   * @param string $parent Required. The resource name of the tenant to search
+   * within. The format is "projects/{project_id}/tenants/{tenant_id}". For
+   * example, "projects/foo/tenants/bar".
+   * @param SearchJobsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return SearchJobsResponse
+   */
+  public function search($parent, SearchJobsRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('search', [$params], SearchJobsResponse::class);
+  }
+  /**
+   * Searches for jobs using the provided SearchJobsRequest. This API call is
+   * intended for the use case of targeting passive job seekers (for example, job
+   * seekers who have signed up to receive email alerts about potential job
+   * opportunities), it has different algorithmic adjustments that are designed to
+   * specifically target passive job seekers. This call constrains the visibility
+   * of jobs present in the database, and only returns jobs the caller has
+   * permission to search against. (jobs.searchForAlert)
+   *
+   * @param string $parent Required. The resource name of the tenant to search
+   * within. The format is "projects/{project_id}/tenants/{tenant_id}". For
+   * example, "projects/foo/tenants/bar".
+   * @param SearchJobsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return SearchJobsResponse
+   */
+  public function searchForAlert($parent, SearchJobsRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('searchForAlert', [$params], SearchJobsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsTenantsJobs::class, 'Google_Service_CloudTalentSolution_Resource_ProjectsTenantsJobs');

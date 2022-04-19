@@ -1,91 +1,224 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\GoogleAnalyticsAdmin\Resource;
+
+use Google\Service\GoogleAnalyticsAdmin\GoogleAnalyticsAdminV1alphaAuditUserLinksRequest;
+use Google\Service\GoogleAnalyticsAdmin\GoogleAnalyticsAdminV1alphaAuditUserLinksResponse;
+use Google\Service\GoogleAnalyticsAdmin\GoogleAnalyticsAdminV1alphaBatchCreateUserLinksRequest;
+use Google\Service\GoogleAnalyticsAdmin\GoogleAnalyticsAdminV1alphaBatchCreateUserLinksResponse;
+use Google\Service\GoogleAnalyticsAdmin\GoogleAnalyticsAdminV1alphaBatchDeleteUserLinksRequest;
+use Google\Service\GoogleAnalyticsAdmin\GoogleAnalyticsAdminV1alphaBatchGetUserLinksResponse;
+use Google\Service\GoogleAnalyticsAdmin\GoogleAnalyticsAdminV1alphaBatchUpdateUserLinksRequest;
+use Google\Service\GoogleAnalyticsAdmin\GoogleAnalyticsAdminV1alphaBatchUpdateUserLinksResponse;
+use Google\Service\GoogleAnalyticsAdmin\GoogleAnalyticsAdminV1alphaListUserLinksResponse;
+use Google\Service\GoogleAnalyticsAdmin\GoogleAnalyticsAdminV1alphaUserLink;
+use Google\Service\GoogleAnalyticsAdmin\GoogleProtobufEmpty;
+
+/**
+ * The "userLinks" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $analyticsadminService = new Google\Service\GoogleAnalyticsAdmin(...);
+ *   $userLinks = $analyticsadminService->userLinks;
+ *  </code>
+ */
+class PropertiesUserLinks extends \Google\Service\Resource
+{
+  /**
+   * Lists all user links on an account or property, including implicit ones that
+   * come from effective permissions granted by groups or organization admin
+   * roles. If a returned user link does not have direct permissions, they cannot
+   * be removed from the account or property directly with the DeleteUserLink
+   * command. They have to be removed from the group/etc that gives them
+   * permissions, which is currently only usable/discoverable in the GA or GMP
+   * UIs. (userLinks.audit)
+   *
+   * @param string $parent Required. Example format: accounts/1234
+   * @param GoogleAnalyticsAdminV1alphaAuditUserLinksRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleAnalyticsAdminV1alphaAuditUserLinksResponse
+   */
+  public function audit($parent, GoogleAnalyticsAdminV1alphaAuditUserLinksRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('audit', [$params], GoogleAnalyticsAdminV1alphaAuditUserLinksResponse::class);
+  }
+  /**
+   * Creates information about multiple users' links to an account or property.
+   * This method is transactional. If any UserLink cannot be created, none of the
+   * UserLinks will be created. (userLinks.batchCreate)
+   *
+   * @param string $parent Required. The account or property that all user links
+   * in the request are for. This field is required. The parent field in the
+   * CreateUserLinkRequest messages must either be empty or match this field.
+   * Example format: accounts/1234
+   * @param GoogleAnalyticsAdminV1alphaBatchCreateUserLinksRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleAnalyticsAdminV1alphaBatchCreateUserLinksResponse
+   */
+  public function batchCreate($parent, GoogleAnalyticsAdminV1alphaBatchCreateUserLinksRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('batchCreate', [$params], GoogleAnalyticsAdminV1alphaBatchCreateUserLinksResponse::class);
+  }
+  /**
+   * Deletes information about multiple users' links to an account or property.
+   * (userLinks.batchDelete)
+   *
+   * @param string $parent Required. The account or property that all user links
+   * in the request are for. The parent of all values for user link names to
+   * delete must match this field. Example format: accounts/1234
+   * @param GoogleAnalyticsAdminV1alphaBatchDeleteUserLinksRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleProtobufEmpty
+   */
+  public function batchDelete($parent, GoogleAnalyticsAdminV1alphaBatchDeleteUserLinksRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('batchDelete', [$params], GoogleProtobufEmpty::class);
+  }
+  /**
+   * Gets information about multiple users' links to an account or property.
+   * (userLinks.batchGet)
+   *
+   * @param string $parent Required. The account or property that all user links
+   * in the request are for. The parent of all provided values for the 'names'
+   * field must match this field. Example format: accounts/1234
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string names Required. The names of the user links to retrieve. A
+   * maximum of 1000 user links can be retrieved in a batch. Format:
+   * accounts/{accountId}/userLinks/{userLinkId}
+   * @return GoogleAnalyticsAdminV1alphaBatchGetUserLinksResponse
+   */
+  public function batchGet($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('batchGet', [$params], GoogleAnalyticsAdminV1alphaBatchGetUserLinksResponse::class);
+  }
+  /**
+   * Updates information about multiple users' links to an account or property.
+   * (userLinks.batchUpdate)
+   *
+   * @param string $parent Required. The account or property that all user links
+   * in the request are for. The parent field in the UpdateUserLinkRequest
+   * messages must either be empty or match this field. Example format:
+   * accounts/1234
+   * @param GoogleAnalyticsAdminV1alphaBatchUpdateUserLinksRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleAnalyticsAdminV1alphaBatchUpdateUserLinksResponse
+   */
+  public function batchUpdate($parent, GoogleAnalyticsAdminV1alphaBatchUpdateUserLinksRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('batchUpdate', [$params], GoogleAnalyticsAdminV1alphaBatchUpdateUserLinksResponse::class);
+  }
+  /**
+   * Creates a user link on an account or property. If the user with the specified
+   * email already has permissions on the account or property, then the user's
+   * existing permissions will be unioned with the permissions specified in the
+   * new UserLink. (userLinks.create)
+   *
+   * @param string $parent Required. Example format: accounts/1234
+   * @param GoogleAnalyticsAdminV1alphaUserLink $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool notifyNewUser Optional. If set, then email the new user
+   * notifying them that they've been granted permissions to the resource.
+   * @return GoogleAnalyticsAdminV1alphaUserLink
+   */
+  public function create($parent, GoogleAnalyticsAdminV1alphaUserLink $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleAnalyticsAdminV1alphaUserLink::class);
+  }
+  /**
+   * Deletes a user link on an account or property. (userLinks.delete)
+   *
+   * @param string $name Required. Example format: accounts/1234/userLinks/5678
+   * @param array $optParams Optional parameters.
+   * @return GoogleProtobufEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
+  }
+  /**
+   * Gets information about a user's link to an account or property.
+   * (userLinks.get)
+   *
+   * @param string $name Required. Example format: accounts/1234/userLinks/5678
+   * @param array $optParams Optional parameters.
+   * @return GoogleAnalyticsAdminV1alphaUserLink
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleAnalyticsAdminV1alphaUserLink::class);
+  }
+  /**
+   * Lists all user links on an account or property.
+   * (userLinks.listPropertiesUserLinks)
+   *
+   * @param string $parent Required. Example format: accounts/1234
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The maximum number of user links to return. The
+   * service may return fewer than this value. If unspecified, at most 200 user
+   * links will be returned. The maximum value is 500; values above 500 will be
+   * coerced to 500.
+   * @opt_param string pageToken A page token, received from a previous
+   * `ListUserLinks` call. Provide this to retrieve the subsequent page. When
+   * paginating, all other parameters provided to `ListUserLinks` must match the
+   * call that provided the page token.
+   * @return GoogleAnalyticsAdminV1alphaListUserLinksResponse
+   */
+  public function listPropertiesUserLinks($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleAnalyticsAdminV1alphaListUserLinksResponse::class);
+  }
+  /**
+   * Updates a user link on an account or property. (userLinks.patch)
+   *
+   * @param string $name Output only. Example format:
+   * properties/1234/userLinks/5678
+   * @param GoogleAnalyticsAdminV1alphaUserLink $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleAnalyticsAdminV1alphaUserLink
+   */
+  public function patch($name, GoogleAnalyticsAdminV1alphaUserLink $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], GoogleAnalyticsAdminV1alphaUserLink::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PropertiesUserLinks::class, 'Google_Service_GoogleAnalyticsAdmin_Resource_PropertiesUserLinks');

@@ -1,69 +1,132 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-R1upIGphOSZA810ngcQohKsLFuq=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudNaturalLanguage\Resource;
+
+use Google\Service\CloudNaturalLanguage\AnalyzeEntitiesRequest;
+use Google\Service\CloudNaturalLanguage\AnalyzeEntitiesResponse;
+use Google\Service\CloudNaturalLanguage\AnalyzeEntitySentimentRequest;
+use Google\Service\CloudNaturalLanguage\AnalyzeEntitySentimentResponse;
+use Google\Service\CloudNaturalLanguage\AnalyzeSentimentRequest;
+use Google\Service\CloudNaturalLanguage\AnalyzeSentimentResponse;
+use Google\Service\CloudNaturalLanguage\AnalyzeSyntaxRequest;
+use Google\Service\CloudNaturalLanguage\AnalyzeSyntaxResponse;
+use Google\Service\CloudNaturalLanguage\AnnotateTextRequest;
+use Google\Service\CloudNaturalLanguage\AnnotateTextResponse;
+use Google\Service\CloudNaturalLanguage\ClassifyTextRequest;
+use Google\Service\CloudNaturalLanguage\ClassifyTextResponse;
+
+/**
+ * The "documents" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $languageService = new Google\Service\CloudNaturalLanguage(...);
+ *   $documents = $languageService->documents;
+ *  </code>
+ */
+class Documents extends \Google\Service\Resource
+{
+  /**
+   * Finds named entities (currently proper names and common nouns) in the text
+   * along with entity types, salience, mentions for each entity, and other
+   * properties. (documents.analyzeEntities)
+   *
+   * @param AnalyzeEntitiesRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return AnalyzeEntitiesResponse
+   */
+  public function analyzeEntities(AnalyzeEntitiesRequest $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('analyzeEntities', [$params], AnalyzeEntitiesResponse::class);
+  }
+  /**
+   * Finds entities, similar to AnalyzeEntities in the text and analyzes sentiment
+   * associated with each entity and its mentions.
+   * (documents.analyzeEntitySentiment)
+   *
+   * @param AnalyzeEntitySentimentRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return AnalyzeEntitySentimentResponse
+   */
+  public function analyzeEntitySentiment(AnalyzeEntitySentimentRequest $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('analyzeEntitySentiment', [$params], AnalyzeEntitySentimentResponse::class);
+  }
+  /**
+   * Analyzes the sentiment of the provided text. (documents.analyzeSentiment)
+   *
+   * @param AnalyzeSentimentRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return AnalyzeSentimentResponse
+   */
+  public function analyzeSentiment(AnalyzeSentimentRequest $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('analyzeSentiment', [$params], AnalyzeSentimentResponse::class);
+  }
+  /**
+   * Analyzes the syntax of the text and provides sentence boundaries and
+   * tokenization along with part of speech tags, dependency trees, and other
+   * properties. (documents.analyzeSyntax)
+   *
+   * @param AnalyzeSyntaxRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return AnalyzeSyntaxResponse
+   */
+  public function analyzeSyntax(AnalyzeSyntaxRequest $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('analyzeSyntax', [$params], AnalyzeSyntaxResponse::class);
+  }
+  /**
+   * A convenience method that provides all the features that analyzeSentiment,
+   * analyzeEntities, and analyzeSyntax provide in one call.
+   * (documents.annotateText)
+   *
+   * @param AnnotateTextRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return AnnotateTextResponse
+   */
+  public function annotateText(AnnotateTextRequest $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('annotateText', [$params], AnnotateTextResponse::class);
+  }
+  /**
+   * Classifies a document into categories. (documents.classifyText)
+   *
+   * @param ClassifyTextRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return ClassifyTextResponse
+   */
+  public function classifyText(ClassifyTextRequest $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('classifyText', [$params], ClassifyTextResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Documents::class, 'Google_Service_CloudNaturalLanguage_Resource_Documents');

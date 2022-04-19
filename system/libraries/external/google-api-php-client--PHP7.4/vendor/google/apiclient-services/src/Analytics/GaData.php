@@ -1,107 +1,208 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Analytics;
+
+class GaData extends \Google\Collection
+{
+  protected $collection_key = 'rows';
+  protected $columnHeadersType = GaDataColumnHeaders::class;
+  protected $columnHeadersDataType = 'array';
+  public $containsSampledData;
+  public $dataLastRefreshed;
+  protected $dataTableType = GaDataDataTable::class;
+  protected $dataTableDataType = '';
+  public $id;
+  public $itemsPerPage;
+  public $kind;
+  public $nextLink;
+  public $previousLink;
+  protected $profileInfoType = GaDataProfileInfo::class;
+  protected $profileInfoDataType = '';
+  protected $queryType = GaDataQuery::class;
+  protected $queryDataType = '';
+  public $rows;
+  public $sampleSize;
+  public $sampleSpace;
+  public $selfLink;
+  public $totalResults;
+  public $totalsForAllResults;
+
+  /**
+   * @param GaDataColumnHeaders[]
+   */
+  public function setColumnHeaders($columnHeaders)
+  {
+    $this->columnHeaders = $columnHeaders;
+  }
+  /**
+   * @return GaDataColumnHeaders[]
+   */
+  public function getColumnHeaders()
+  {
+    return $this->columnHeaders;
+  }
+  public function setContainsSampledData($containsSampledData)
+  {
+    $this->containsSampledData = $containsSampledData;
+  }
+  public function getContainsSampledData()
+  {
+    return $this->containsSampledData;
+  }
+  public function setDataLastRefreshed($dataLastRefreshed)
+  {
+    $this->dataLastRefreshed = $dataLastRefreshed;
+  }
+  public function getDataLastRefreshed()
+  {
+    return $this->dataLastRefreshed;
+  }
+  /**
+   * @param GaDataDataTable
+   */
+  public function setDataTable(GaDataDataTable $dataTable)
+  {
+    $this->dataTable = $dataTable;
+  }
+  /**
+   * @return GaDataDataTable
+   */
+  public function getDataTable()
+  {
+    return $this->dataTable;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setItemsPerPage($itemsPerPage)
+  {
+    $this->itemsPerPage = $itemsPerPage;
+  }
+  public function getItemsPerPage()
+  {
+    return $this->itemsPerPage;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setNextLink($nextLink)
+  {
+    $this->nextLink = $nextLink;
+  }
+  public function getNextLink()
+  {
+    return $this->nextLink;
+  }
+  public function setPreviousLink($previousLink)
+  {
+    $this->previousLink = $previousLink;
+  }
+  public function getPreviousLink()
+  {
+    return $this->previousLink;
+  }
+  /**
+   * @param GaDataProfileInfo
+   */
+  public function setProfileInfo(GaDataProfileInfo $profileInfo)
+  {
+    $this->profileInfo = $profileInfo;
+  }
+  /**
+   * @return GaDataProfileInfo
+   */
+  public function getProfileInfo()
+  {
+    return $this->profileInfo;
+  }
+  /**
+   * @param GaDataQuery
+   */
+  public function setQuery(GaDataQuery $query)
+  {
+    $this->query = $query;
+  }
+  /**
+   * @return GaDataQuery
+   */
+  public function getQuery()
+  {
+    return $this->query;
+  }
+  public function setRows($rows)
+  {
+    $this->rows = $rows;
+  }
+  public function getRows()
+  {
+    return $this->rows;
+  }
+  public function setSampleSize($sampleSize)
+  {
+    $this->sampleSize = $sampleSize;
+  }
+  public function getSampleSize()
+  {
+    return $this->sampleSize;
+  }
+  public function setSampleSpace($sampleSpace)
+  {
+    $this->sampleSpace = $sampleSpace;
+  }
+  public function getSampleSpace()
+  {
+    return $this->sampleSpace;
+  }
+  public function setSelfLink($selfLink)
+  {
+    $this->selfLink = $selfLink;
+  }
+  public function getSelfLink()
+  {
+    return $this->selfLink;
+  }
+  public function setTotalResults($totalResults)
+  {
+    $this->totalResults = $totalResults;
+  }
+  public function getTotalResults()
+  {
+    return $this->totalResults;
+  }
+  public function setTotalsForAllResults($totalsForAllResults)
+  {
+    $this->totalsForAllResults = $totalsForAllResults;
+  }
+  public function getTotalsForAllResults()
+  {
+    return $this->totalsForAllResults;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GaData::class, 'Google_Service_Analytics_GaData');

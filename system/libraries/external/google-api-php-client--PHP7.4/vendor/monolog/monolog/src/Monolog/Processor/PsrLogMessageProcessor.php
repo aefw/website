@@ -1,71 +1,87 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-95YjWAVCj0==
+<?php declare(strict_types=1);
+
+/*
+ * This file is part of the Monolog package.
+ *
+ * (c) Jordi Boggiano <j.boggiano@seld.be>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Monolog\Processor;
+
+use Monolog\Utils;
+
+/**
+ * Processes a record's message according to PSR-3 rules
+ *
+ * It replaces {foo} with the value from $context['foo']
+ *
+ * @author Jordi Boggiano <j.boggiano@seld.be>
+ */
+class PsrLogMessageProcessor implements ProcessorInterface
+{
+    public const SIMPLE_DATE = "Y-m-d\TH:i:s.uP";
+
+    /** @var string|null */
+    private $dateFormat;
+
+    /** @var bool */
+    private $removeUsedContextFields;
+
+    /**
+     * @param string|null $dateFormat              The format of the timestamp: one supported by DateTime::format
+     * @param bool        $removeUsedContextFields If set to true the fields interpolated into message gets unset
+     */
+    public function __construct(?string $dateFormat = null, bool $removeUsedContextFields = false)
+    {
+        $this->dateFormat = $dateFormat;
+        $this->removeUsedContextFields = $removeUsedContextFields;
+    }
+
+    /**
+     * @param  array $record
+     * @return array
+     */
+    public function __invoke(array $record): array
+    {
+        if (false === strpos($record['message'], '{')) {
+            return $record;
+        }
+
+        $replacements = [];
+        foreach ($record['context'] as $key => $val) {
+            $placeholder = '{' . $key . '}';
+            if (strpos($record['message'], $placeholder) === false) {
+                continue;
+            }
+
+            if (is_null($val) || is_scalar($val) || (is_object($val) && method_exists($val, "__toString"))) {
+                $replacements[$placeholder] = $val;
+            } elseif ($val instanceof \DateTimeInterface) {
+                if (!$this->dateFormat && $val instanceof \Monolog\DateTimeImmutable) {
+                    // handle monolog dates using __toString if no specific dateFormat was asked for
+                    // so that it follows the useMicroseconds flag
+                    $replacements[$placeholder] = (string) $val;
+                } else {
+                    $replacements[$placeholder] = $val->format($this->dateFormat ?: static::SIMPLE_DATE);
+                }
+            } elseif (is_object($val)) {
+                $replacements[$placeholder] = '[object '.Utils::getClass($val).']';
+            } elseif (is_array($val)) {
+                $replacements[$placeholder] = 'array'.Utils::jsonEncode($val, null, true);
+            } else {
+                $replacements[$placeholder] = '['.gettype($val).']';
+            }
+
+            if ($this->removeUsedContextFields) {
+                unset($record['context'][$key]);
+            }
+        }
+
+        $record['message'] = strtr($record['message'], $replacements);
+
+        return $record;
+    }
+}

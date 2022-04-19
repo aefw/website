@@ -1,89 +1,215 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPn6uEcrrBvz2S7ElJbkLNcNci3L7pVwYLifVPRWdKZwHl9OA33QXeSF98Nj5yjI0xqslzUkn
-WtIEjkitiq4oCsDaW2VlzGuQwqqQDAetKetMkccN98OLgayOnkZH4ef0b5QcPiZM4rga/TOUU9o3
-IXKgk3LGpeH9mjJ73vfeB6n5rWMnjov7y/5E69POtx+RfB6fNCM9cPQh/sI2D/mW6jEaiT7Ys4Nr
-A6YZCCiXG/iMBfShSR80tP/N0ihOc1NEZhBFiSkMGeGdiolp+ujj3cwY8kZYud1JBZLKXAWiWQO+
-IWNbLQLolSR324V4TKr+pOZK/1up/twZFNzUUOM4EdBQX7BHCMOFTZK1yjkUOMb4JEpzhBwXntVN
-VkDBIo/3anh5PDYBifcy8v68ALO/x1czlBOnPY0lgxW3fh+2sOPnmVqGsFmDpyQdiz4rOozjcoP6
-1I8SW3E091IDBEZUwJNu2jHgcwNRxLZ/0lxKogAi+9owwko6m/rS+kPDLwUeTrVO4jz59Otq7E4h
-4aR0SRe9M4xS53hbj4dNFUS1vwX3PdNr8ecG0yjqYn4eHbQnplcMSk7sCiK4VWLfL+deb0kwM44o
-tmPAoOF/8nLjYtlwzYgeWQfBTYdk7QA6+OdUtn1wIwQ9y8L+v7OIMs/1ZpVt5kuIw6J/UCluQC5X
-t18CKuIT5sv1mrgaRWaENnik3kyv5YD+5T78/eytqzQiGXDp+nN0jtvbJjLhSfI536Xg3ckrDvRM
-A3LFgGfoFd24KON6bMvUgq/suqnIESs7ugDFrj/X1Tu3lUft5wxNVOJBgenTdDP0uCfHEcsVa2d1
-Z/zYrfkHuOzKtkN8wXAUWi7MN+7Ft7TCYod6FzP2wbMAaXxfc6Cnk9ap9UFQywh4iliEIfxiNGyQ
-E+qDXWm918RczaJ6setfwWtY4TFRjuzCuYlNXAnn38nHkk93+cRk5n6pijDOMPW/V9Anz21RkX35
-4SQnshOiDSw1mewXxQOv5UoL1ACr7DcvSTcsd+UjIDWGh0DMNMmzCh5PKOgTlKR0A1C/mDi60nA9
-c2LnLEzZdXlfyL41mJ2Ol3e93kv9YET/0gHzn0Sf25eK4L8nfjnXA79R5fNPykZsI8cKwa41FcTx
-y5UkHh3F+l7KEEVqzozwru4UBUesBEeMU5rb491SV2ucz+RLb93MQ497vLg7okNyeHsBTI80Ni9w
-KUXr85FM9GJzNPTSIevQa1ZUFc6osezJvTxVY4t/t1tC/TO8/C3OuZi0p8cLYsfTuVFNEZ/xaIVK
-vGh+9cV2eeTioH+id3vu9IG2YJ8BcPUx49G7TSXwVqXSxi53qocp5IPxu7TEmE7H+K+4gMfsw51q
-qWrbTJli+SpV7B1aPDlwp6ZaR7doP4hGN4g2Lu3G0nwhGAP1Z/bFSgtsrYD9yGoifnFmudKZKW+h
-mEXALT62V9xchh7S2WkdlvoGWNdCK/vIhnVsXrPfBXWCoIGjcQD57ObLPKLkrPEVOqUTWPBkcMLX
-bPLnl4iYuCUQ9tntYFi2E3HwVO13l5Mp+IdcavQZe70g3zMOcw4XWgC+8amefXqx2XU9vZafTy91
-0MoP383hbaEVRPcGOZrElB8V1UacN0bz/08zibFE8rR7EObM6wYYmvemG9afQ1nxDf9i+EvlrZXj
-V5sMWqOMsG5mr5XnHvFRk+gc0BZPvOY0i9sqOIuKeNEiQF3aOCIIlAW9w6RwTgvJN1QEjqq5j/ci
-Yb+D/WpavpP8Fq4ZMzTUgaFr6r6DhyhI8P7oIjnLo5ydhWoE53v61jL5ty1FpkmHFaEKPVA3cCA8
-2ZBJ2B+WFxExkCDu9Iy8AqBTXdAYTwDd6cjuPsieEYRCxfeW3S5PutE+tK2bqUGWBg9Pb5DuYD5y
-IJNtMzixlc7DKRHDUcl3KfPMfoXMJJkqdHxoT35uGvyRpBKO4YThW7ffdrs4VcFCAyhYOrtK8VNp
-Vonz5RrF9gur0R/b5RWvHp4uMRizXQlFHhS5aVkLtJMBgGBD/h9icDMMeWAOGRRshzFTDVEbdW9P
-74Ic1pBKPlzrREA7wK7Phe/Y+9r1dA8HDlt8/DHpTq6dcZssm3zDqlOjHKhb7ZjOstg69JVBiChi
-m0WdEMsQWDSj+dZb07qSCBgeL6tUnBD0VhMBcmHlRqEeIzCjybGqGgmS4721SalzAiVwDVv2FsH0
-bm9NLLRg5HCQaov9NUQXnn3gX3hDPSws15Vg6blOys0zNn2GKr/Hkd/exx11Pi/AA8fUKl22ss9x
-fa0kv7YskqV3oCuLozLLoI4hFwv3nZrtRcSl58xiAL/jAxGKFlTxEl7sewWs90PufzwgM9e34McC
-Uiyf2H2X8PlwIjdhrZ6lw2X6xjSjBjKXhBvXJQPZxBUVJAH2v/r3C2zncfm3dl1FEIblIb+zlzIG
-1XU1/Aaas21lOi7bzd+FyXJlvQ7vtPNYAR5eaNvNisgFoVoXT9/J7BhVDiGdi1iT6vCsuu3Lbc+0
-xl/Ss3bZFc9nGCRbYa54Li+TI+nndBf0GlnIdo16csm0k1EkjDSRuEBPOAC33NOrTwyBHT6/4NWd
-Ryfuz2O7pBFzAo594gALs6RfzbP72WRUfH/JDI680dK5RM3fSvZwHWLsOB4QKUmtbDyOwhAqx3FM
-dx1+S7NvXTy6+AQuv+/rVyYFYlWh1IbfG5XU2BicDvpQeFDEIDBu+88RRXVZR3iN3cxi+6g1v1oy
-gxDSjR2kSDZeHdZ/qVTNwaAIhmVQ9MKTDAa6XadfEK2KcZuhWzFMJU4tP3Q0rD/S2xDn9pVCXyGl
-f1tv5uEVekSqUAZtG3yeWAF73zHrY7qg3eqShTu+fJsIkEW06lWPumxVa0sJ/xMoc1zqPIk54Ymb
-nrYtnVcDQdomAyMfNj85LxVBtAaMub899EGOvGtPVGLZC+/zraBdWEkn5VQsydj1+Qsz6M+w+XeB
-b9M/AVaxzjG2i7g3WmlK06uV4LL3saCdb9Q3tB3UBl0ZO9YgrmD/zGqWlhWCHTfZw7GQS9+ZGt2q
-4k5bsN2y6gpV9OfZ+lJ3+Iki8/xUdlKoRfqQzCpqNX+PLP251/hX6JxEXZ83xerB8Udh/MK/FK0c
-43ScioRmuZigOoV0hALW7O4GL83fN8nUeIkcmL+a2VJo3HbXfbJsoON8An8tiPan3S2iq+wzqOwK
-soxAEGrAuvp+CXdP+sUlC7nZHo4/ohN9oac6B84KyTCNhR8/hguz+g8BuHD1JzGahrXAXu+q9DGq
-a9FBUHWhrmHnQYWEHD0slzgXEnn6EH92BVasc0jqkHD2pm7z1KXjkUVzDK/dQomNLmuXGJCWYD7H
-kC5QOqg7fQj6pI0ANN48YrM1xFh+F+0IK3B4rTCPUt1JTzSE1E9vnvv8vuk+vlXDaCOGpRuHmDL6
-yK4UPwbeH05krAbFEOyz/z4oKb8GcuttTV98LcBAho/Xk4TJnAvRbXxZfziv79XxB78c8PbiArR4
-DeZf6+c2XI8WPHMyOatbrs9+rMNDQNlEkwhCeSN6RbL5eHWchm8vcDZMAdGIagem2E8/wPXBATQo
-U4xZziNvYy9H2coeS7+gGJbIWnVvDcZMH0UeV9pdCnyRrlrUMnePzP+gA9iLTafqUMtpl4b5sZUQ
-p1V7Z09tKwruWd+YzsU5ZPy/B+Yz3/cnRb2adtLW8x4u0bb5bQA3i3Xv/Q9inb00hz2I/ZWOrJYr
-+CQBX6NqD7HPFx9zHXB2SCtRH4E1ZELN3/kcCwxmHh+K/9Paa8twOV6b+dmzLznXwigl+AeOMRqW
-5VdQYsJVuhKSitxvsORrgjYAJFVhL9WjDNVGB2h7oD0hbtXVzqzasFkJYMb8Yo2R/fo9TOdnMwJb
-6sdf/zV6p/RVLeeiSUuCrUoEPL+99ICpWduYbehYtjihAfjHIRuM8PsF+SwPOP5KfK4ajxYhnQTN
-JLw/sGwpL56k4eoBgPsDj9T16yeKu738CsCq6QsqAhBS77FXdzY7D405NotE227cnGzLttGfuUvi
-R5w9K9Dv93QWuqWGqX5RPdznJvMCFpSnhJehWemXxLroROmgKoaUWcPQSrPfiqaDL9D4bO0mWkYi
-vKSo1q5j49D09N/WFc/5ewYEIe0XK//rELiwWblRjlN3ci8B9ZidJbmO8lyYuvk6Grvgw6NZVsNI
-A4jhnyRUkVxEY1v0ouIgk6yoQvGkQku2Kavxn2D5lEeTMl9raFYyypFKhqNk7ZYFUVnDjYvOUdph
-WgkXzzpPCQ7iEQQBu+mTObLWWU+QozMW0et/2JD1nGDAL++6tqYr3Sm1h/skHxAQiguS1xFrjjjX
-a2MhGDjY7+baA3lp31dYg8MBr6l5YFz9ogsPgQqHG6pCQbXFZYAd+aiP2IYgd//cdxSTkqJqGU98
-FyWeYlvOXMfBv6boxMCpxS+1vYDyxdv7N2Ind6EvQrQ3pm4VkZI+sk1D2TjmphtgwkPj/tgk/5m1
-6ZhyUWY/VpS3ScPrJATvxLd/Hg2xs5bXs6TJjsH3JTqmWPAYlkSrhGxZIm66Gd/VsFdGVRi7uWvm
-JO57OitL4Q8aqBkh8CHqmmupIXfLIBSAGfBYiU6Oee6pPtcJmjpnwdDCVrnqkB/ykndMNtDpZArl
-tIWLzdk+B3UHeO6uXMe776EDYXqD/FmiRrdfv7sexc1MO1hX8SJQHoDSmCGvJyOg/dbQT535EPVh
-GcBh8vf+kvw2xZNLFatJpTo9h6p6sV832V9DxAzZTz30WrHlw6Y4P0kJa+XqSLmR3GvFDfqqs4Nv
-pBAiabMjltYNOIiiG1e4LKn47KJPMNd/6d+O6cpWdcp0TaFXu350Lovlsr4drCkNjNt6YCmAdoOB
-H/iH4GFnRcvYQAaaHq8CC/8VZXH535XiL7W8CWZPTXmEmV/OLVnUCWKz4mgaUSH9YPH2GhKRSXsc
-x7wwZuXEI0Md9Ra+8k0e9GXSDVrIN7jRFsl1qqGdErTIqd+aJhFARwZb7sHsv0JpmYHcO8eja9XP
-Rw5cPy5i3N89/r4fM+utY+0IH8S58koNn62HHfboGRIx+CP2PKNpuTXMYPHw0ToDu/RWaD+urZw+
-7uk4XYKlHCoiC5dWUuXRz6zSOwAcQts8MnUN72enJ+nagOwbA3GMMAJOSCOrQCXdkxEPLF/CfnUQ
-iSXmR5qEvEZsdfDtY4OBY3fAhqklNd9jZxNBbRcOqPFcwKhKAJj1E1mqsL53aBZR8Clb3Uq04FZA
-pYT8soE6gvXzecArNaeSadVRMMv0a7/zNYXn+dyu1K/VBd4Lr0D7UfmPAwOFhGMi2VAGxKqEuKAG
-avvVnQyBYHx0HdtQxi5VIV3KNurYl3vqcsdjqCA7U7I+camYgEjUp20ux4V14LoqGr1hSQ1jP4qd
-2BFT/3HP+i5s8sPyaWZ6VbhavFSwrWlHpzM1O4RzzhGoP5g2gDg980lakwnf6G9akaEZiwijSPWA
-TolpNvSCKiXx5cCJ7doi9EDbcpXeLqumE1ZnX0Vdos+URed6UbkOaYfaXTzAV+vuGQUUl9zRGVgV
-vVJJXXn83yszJ1QjLMM7S9LzyWHBT8lYa9CLLxEBUyEWiU7VVx7bn8ADTIvHzOVyUWCXsHf+XvLh
-PAlrHUnSaBlxdM0l5vO28JjGH2SswOVTB7R83X3teYtIk5DiSdl7nDdY8hhxtnA9aL+ASGbrHF1u
-8fKuUcJfywnO+ceKcXrV+/H6lLoslCUqvEUzxLimcvkZbhnKye/RZ3P2bk51EmW98ZwC2uwkJF13
-qWCqZg0k58IlC4ny8abIavyPCINFGtBwpV2frRYQpCw0+BzuWpH8l/Gh8Q9QAKbMcb1U2Gtn2Xzo
-3ZWZYXSrmu7b67/RzjMtcm2dUpivpho08gcv6YKUGHWODaNjY+mxzDwPmBslLz9Lz/88Ag1NbvET
-WM+NrWZ95XFAB6F37E/oK8kzdphgI9Is872pMVev/jLokXAvQk5yeFwrbfY4y+ySq4ARfH0ihehn
-69sQJHqSPlX/t8dyM0edv//8S9VFBEZkV4dkFwXcqG73d1d0EdZXIRNW1vBZnEJcB7DP4gc9nXfm
-3usON8tr0ixhW0qBiSu3WfxeC/JbreQRsHr/YtlWrJwGTZW/ux98eVY6hE2yc+NDD4avhh+vjo9w
-3rCFLd2TegheTEoI7h/AvD0xPZ11Chve3tONX0k6mFPoHyhPN1MwO9c6Nb3RVcWeuAS7bPnFpyGL
-bYwf3x8CUG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DataFusion\Resource;
+
+use Google\Service\DataFusion\Instance;
+use Google\Service\DataFusion\ListInstancesResponse;
+use Google\Service\DataFusion\Operation;
+use Google\Service\DataFusion\Policy;
+use Google\Service\DataFusion\RestartInstanceRequest;
+use Google\Service\DataFusion\SetIamPolicyRequest;
+use Google\Service\DataFusion\TestIamPermissionsRequest;
+use Google\Service\DataFusion\TestIamPermissionsResponse;
+
+/**
+ * The "instances" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $datafusionService = new Google\Service\DataFusion(...);
+ *   $instances = $datafusionService->instances;
+ *  </code>
+ */
+class ProjectsLocationsInstances extends \Google\Service\Resource
+{
+  /**
+   * Creates a new Data Fusion instance in the specified project and location.
+   * (instances.create)
+   *
+   * @param string $parent The instance's project and location in the format
+   * projects/{project}/locations/{location}.
+   * @param Instance $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string instanceId The name of the instance to create.
+   * @return Operation
+   */
+  public function create($parent, Instance $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Operation::class);
+  }
+  /**
+   * Deletes a single Date Fusion instance. (instances.delete)
+   *
+   * @param string $name The instance resource name in the format
+   * projects/{project}/locations/{location}/instances/{instance}
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Gets details of a single Data Fusion instance. (instances.get)
+   *
+   * @param string $name The instance resource name in the format
+   * projects/{project}/locations/{location}/instances/{instance}.
+   * @param array $optParams Optional parameters.
+   * @return Instance
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Instance::class);
+  }
+  /**
+   * Gets the access control policy for a resource. Returns an empty policy if the
+   * resource exists and does not have a policy set. (instances.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int options.requestedPolicyVersion Optional. The policy format
+   * version to be returned. Valid values are 0, 1, and 3. Requests specifying an
+   * invalid value will be rejected. Requests for policies with any conditional
+   * bindings must specify version 3. Policies without any conditional bindings
+   * may specify any valid value or leave the field unset. To learn which
+   * resources support conditions in their IAM policies, see the [IAM
+   * documentation](https://cloud.google.com/iam/help/conditions/resource-
+   * policies).
+   * @return Policy
+   */
+  public function getIamPolicy($resource, $optParams = [])
+  {
+    $params = ['resource' => $resource];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Lists Data Fusion instances in the specified project and location.
+   * (instances.listProjectsLocationsInstances)
+   *
+   * @param string $parent The project and location for which to retrieve instance
+   * information in the format projects/{project}/locations/{location}. If the
+   * location is specified as '-' (wildcard), then all regions available to the
+   * project are queried, and the results are aggregated.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter List filter.
+   * @opt_param string orderBy Sort results. Supported values are "name", "name
+   * desc", or "" (unsorted).
+   * @opt_param int pageSize The maximum number of items to return.
+   * @opt_param string pageToken The next_page_token value to use if there are
+   * additional results to retrieve for this list request.
+   * @return ListInstancesResponse
+   */
+  public function listProjectsLocationsInstances($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListInstancesResponse::class);
+  }
+  /**
+   * Updates a single Data Fusion instance. (instances.patch)
+   *
+   * @param string $name Output only. The name of this instance is in the form of
+   * projects/{project}/locations/{location}/instances/{instance}.
+   * @param Instance $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Field mask is used to specify the fields that
+   * the update will overwrite in an instance resource. The fields specified in
+   * the update_mask are relative to the resource, not the full request. A field
+   * will be overwritten if it is in the mask. If the user does not provide a
+   * mask, all the supported fields (labels, options, and version currently) will
+   * be overwritten.
+   * @return Operation
+   */
+  public function patch($name, Instance $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+  /**
+   * Restart a single Data Fusion instance. At the end of an operation instance is
+   * fully restarted. (instances.restart)
+   *
+   * @param string $name Name of the Data Fusion instance which need to be
+   * restarted in the form of
+   * projects/{project}/locations/{location}/instances/{instance}
+   * @param RestartInstanceRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function restart($name, RestartInstanceRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('restart', [$params], Operation::class);
+  }
+  /**
+   * Sets the access control policy on the specified resource. Replaces any
+   * existing policy. Can return `NOT_FOUND`, `INVALID_ARGUMENT`, and
+   * `PERMISSION_DENIED` errors. (instances.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource. If the
+   * resource does not exist, this will return an empty set of permissions, not a
+   * `NOT_FOUND` error. Note: This operation is designed to be used for building
+   * permission-aware UIs and command-line tools, not for authorization checking.
+   * This operation may "fail open" without warning.
+   * (instances.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsInstances::class, 'Google_Service_DataFusion_Resource_ProjectsLocationsInstances');

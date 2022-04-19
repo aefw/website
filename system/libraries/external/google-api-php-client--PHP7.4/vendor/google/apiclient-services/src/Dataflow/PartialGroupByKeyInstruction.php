@@ -1,68 +1,95 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-ekr4MT0=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dataflow;
+
+class PartialGroupByKeyInstruction extends \Google\Collection
+{
+  protected $collection_key = 'sideInputs';
+  protected $inputType = InstructionInput::class;
+  protected $inputDataType = '';
+  public $inputElementCodec;
+  public $originalCombineValuesInputStoreName;
+  public $originalCombineValuesStepName;
+  protected $sideInputsType = SideInputInfo::class;
+  protected $sideInputsDataType = 'array';
+  public $valueCombiningFn;
+
+  /**
+   * @param InstructionInput
+   */
+  public function setInput(InstructionInput $input)
+  {
+    $this->input = $input;
+  }
+  /**
+   * @return InstructionInput
+   */
+  public function getInput()
+  {
+    return $this->input;
+  }
+  public function setInputElementCodec($inputElementCodec)
+  {
+    $this->inputElementCodec = $inputElementCodec;
+  }
+  public function getInputElementCodec()
+  {
+    return $this->inputElementCodec;
+  }
+  public function setOriginalCombineValuesInputStoreName($originalCombineValuesInputStoreName)
+  {
+    $this->originalCombineValuesInputStoreName = $originalCombineValuesInputStoreName;
+  }
+  public function getOriginalCombineValuesInputStoreName()
+  {
+    return $this->originalCombineValuesInputStoreName;
+  }
+  public function setOriginalCombineValuesStepName($originalCombineValuesStepName)
+  {
+    $this->originalCombineValuesStepName = $originalCombineValuesStepName;
+  }
+  public function getOriginalCombineValuesStepName()
+  {
+    return $this->originalCombineValuesStepName;
+  }
+  /**
+   * @param SideInputInfo[]
+   */
+  public function setSideInputs($sideInputs)
+  {
+    $this->sideInputs = $sideInputs;
+  }
+  /**
+   * @return SideInputInfo[]
+   */
+  public function getSideInputs()
+  {
+    return $this->sideInputs;
+  }
+  public function setValueCombiningFn($valueCombiningFn)
+  {
+    $this->valueCombiningFn = $valueCombiningFn;
+  }
+  public function getValueCombiningFn()
+  {
+    return $this->valueCombiningFn;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PartialGroupByKeyInstruction::class, 'Google_Service_Dataflow_PartialGroupByKeyInstruction');

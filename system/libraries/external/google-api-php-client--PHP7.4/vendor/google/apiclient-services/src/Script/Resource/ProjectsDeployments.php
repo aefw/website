@@ -1,71 +1,116 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Script\Resource;
+
+use Google\Service\Script\Deployment;
+use Google\Service\Script\DeploymentConfig;
+use Google\Service\Script\ListDeploymentsResponse;
+use Google\Service\Script\ScriptEmpty;
+use Google\Service\Script\UpdateDeploymentRequest;
+
+/**
+ * The "deployments" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $scriptService = new Google\Service\Script(...);
+ *   $deployments = $scriptService->deployments;
+ *  </code>
+ */
+class ProjectsDeployments extends \Google\Service\Resource
+{
+  /**
+   * Creates a deployment of an Apps Script project. (deployments.create)
+   *
+   * @param string $scriptId The script project's Drive ID.
+   * @param DeploymentConfig $postBody
+   * @param array $optParams Optional parameters.
+   * @return Deployment
+   */
+  public function create($scriptId, DeploymentConfig $postBody, $optParams = [])
+  {
+    $params = ['scriptId' => $scriptId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Deployment::class);
+  }
+  /**
+   * Deletes a deployment of an Apps Script project. (deployments.delete)
+   *
+   * @param string $scriptId The script project's Drive ID.
+   * @param string $deploymentId The deployment ID to be undeployed.
+   * @param array $optParams Optional parameters.
+   * @return ScriptEmpty
+   */
+  public function delete($scriptId, $deploymentId, $optParams = [])
+  {
+    $params = ['scriptId' => $scriptId, 'deploymentId' => $deploymentId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], ScriptEmpty::class);
+  }
+  /**
+   * Gets a deployment of an Apps Script project. (deployments.get)
+   *
+   * @param string $scriptId The script project's Drive ID.
+   * @param string $deploymentId The deployment ID.
+   * @param array $optParams Optional parameters.
+   * @return Deployment
+   */
+  public function get($scriptId, $deploymentId, $optParams = [])
+  {
+    $params = ['scriptId' => $scriptId, 'deploymentId' => $deploymentId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Deployment::class);
+  }
+  /**
+   * Lists the deployments of an Apps Script project.
+   * (deployments.listProjectsDeployments)
+   *
+   * @param string $scriptId The script project's Drive ID.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The maximum number of deployments on each returned
+   * page. Defaults to 50.
+   * @opt_param string pageToken The token for continuing a previous list request
+   * on the next page. This should be set to the value of `nextPageToken` from a
+   * previous response.
+   * @return ListDeploymentsResponse
+   */
+  public function listProjectsDeployments($scriptId, $optParams = [])
+  {
+    $params = ['scriptId' => $scriptId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListDeploymentsResponse::class);
+  }
+  /**
+   * Updates a deployment of an Apps Script project. (deployments.update)
+   *
+   * @param string $scriptId The script project's Drive ID.
+   * @param string $deploymentId The deployment ID for this deployment.
+   * @param UpdateDeploymentRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Deployment
+   */
+  public function update($scriptId, $deploymentId, UpdateDeploymentRequest $postBody, $optParams = [])
+  {
+    $params = ['scriptId' => $scriptId, 'deploymentId' => $deploymentId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Deployment::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsDeployments::class, 'Google_Service_Script_Resource_ProjectsDeployments');

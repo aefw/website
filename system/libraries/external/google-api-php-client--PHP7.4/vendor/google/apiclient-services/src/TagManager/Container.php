@@ -1,77 +1,117 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\TagManager;
+
+class Container extends \Google\Collection
+{
+  protected $collection_key = 'usageContext';
+  public $accountId;
+  public $containerId;
+  public $domainName;
+  public $fingerprint;
+  public $name;
+  public $notes;
+  public $path;
+  public $publicId;
+  public $tagManagerUrl;
+  public $usageContext;
+
+  public function setAccountId($accountId)
+  {
+    $this->accountId = $accountId;
+  }
+  public function getAccountId()
+  {
+    return $this->accountId;
+  }
+  public function setContainerId($containerId)
+  {
+    $this->containerId = $containerId;
+  }
+  public function getContainerId()
+  {
+    return $this->containerId;
+  }
+  public function setDomainName($domainName)
+  {
+    $this->domainName = $domainName;
+  }
+  public function getDomainName()
+  {
+    return $this->domainName;
+  }
+  public function setFingerprint($fingerprint)
+  {
+    $this->fingerprint = $fingerprint;
+  }
+  public function getFingerprint()
+  {
+    return $this->fingerprint;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setNotes($notes)
+  {
+    $this->notes = $notes;
+  }
+  public function getNotes()
+  {
+    return $this->notes;
+  }
+  public function setPath($path)
+  {
+    $this->path = $path;
+  }
+  public function getPath()
+  {
+    return $this->path;
+  }
+  public function setPublicId($publicId)
+  {
+    $this->publicId = $publicId;
+  }
+  public function getPublicId()
+  {
+    return $this->publicId;
+  }
+  public function setTagManagerUrl($tagManagerUrl)
+  {
+    $this->tagManagerUrl = $tagManagerUrl;
+  }
+  public function getTagManagerUrl()
+  {
+    return $this->tagManagerUrl;
+  }
+  public function setUsageContext($usageContext)
+  {
+    $this->usageContext = $usageContext;
+  }
+  public function getUsageContext()
+  {
+    return $this->usageContext;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Container::class, 'Google_Service_TagManager_Container');

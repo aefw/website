@@ -1,72 +1,133 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-jpCKpRO5A5TuNPYTYa6ioiyJNG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Slides;
+
+class ImageProperties extends \Google\Model
+{
+  public $brightness;
+  public $contrast;
+  protected $cropPropertiesType = CropProperties::class;
+  protected $cropPropertiesDataType = '';
+  protected $linkType = Link::class;
+  protected $linkDataType = '';
+  protected $outlineType = Outline::class;
+  protected $outlineDataType = '';
+  protected $recolorType = Recolor::class;
+  protected $recolorDataType = '';
+  protected $shadowType = Shadow::class;
+  protected $shadowDataType = '';
+  public $transparency;
+
+  public function setBrightness($brightness)
+  {
+    $this->brightness = $brightness;
+  }
+  public function getBrightness()
+  {
+    return $this->brightness;
+  }
+  public function setContrast($contrast)
+  {
+    $this->contrast = $contrast;
+  }
+  public function getContrast()
+  {
+    return $this->contrast;
+  }
+  /**
+   * @param CropProperties
+   */
+  public function setCropProperties(CropProperties $cropProperties)
+  {
+    $this->cropProperties = $cropProperties;
+  }
+  /**
+   * @return CropProperties
+   */
+  public function getCropProperties()
+  {
+    return $this->cropProperties;
+  }
+  /**
+   * @param Link
+   */
+  public function setLink(Link $link)
+  {
+    $this->link = $link;
+  }
+  /**
+   * @return Link
+   */
+  public function getLink()
+  {
+    return $this->link;
+  }
+  /**
+   * @param Outline
+   */
+  public function setOutline(Outline $outline)
+  {
+    $this->outline = $outline;
+  }
+  /**
+   * @return Outline
+   */
+  public function getOutline()
+  {
+    return $this->outline;
+  }
+  /**
+   * @param Recolor
+   */
+  public function setRecolor(Recolor $recolor)
+  {
+    $this->recolor = $recolor;
+  }
+  /**
+   * @return Recolor
+   */
+  public function getRecolor()
+  {
+    return $this->recolor;
+  }
+  /**
+   * @param Shadow
+   */
+  public function setShadow(Shadow $shadow)
+  {
+    $this->shadow = $shadow;
+  }
+  /**
+   * @return Shadow
+   */
+  public function getShadow()
+  {
+    return $this->shadow;
+  }
+  public function setTransparency($transparency)
+  {
+    $this->transparency = $transparency;
+  }
+  public function getTransparency()
+  {
+    return $this->transparency;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ImageProperties::class, 'Google_Service_Slides_ImageProperties');

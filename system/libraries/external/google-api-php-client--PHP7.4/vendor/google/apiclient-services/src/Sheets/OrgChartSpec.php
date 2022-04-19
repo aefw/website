@@ -1,74 +1,147 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-I+faQxvCsEqwihlakIi=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Sheets;
+
+class OrgChartSpec extends \Google\Model
+{
+  protected $labelsType = ChartData::class;
+  protected $labelsDataType = '';
+  protected $nodeColorType = Color::class;
+  protected $nodeColorDataType = '';
+  protected $nodeColorStyleType = ColorStyle::class;
+  protected $nodeColorStyleDataType = '';
+  public $nodeSize;
+  protected $parentLabelsType = ChartData::class;
+  protected $parentLabelsDataType = '';
+  protected $selectedNodeColorType = Color::class;
+  protected $selectedNodeColorDataType = '';
+  protected $selectedNodeColorStyleType = ColorStyle::class;
+  protected $selectedNodeColorStyleDataType = '';
+  protected $tooltipsType = ChartData::class;
+  protected $tooltipsDataType = '';
+
+  /**
+   * @param ChartData
+   */
+  public function setLabels(ChartData $labels)
+  {
+    $this->labels = $labels;
+  }
+  /**
+   * @return ChartData
+   */
+  public function getLabels()
+  {
+    return $this->labels;
+  }
+  /**
+   * @param Color
+   */
+  public function setNodeColor(Color $nodeColor)
+  {
+    $this->nodeColor = $nodeColor;
+  }
+  /**
+   * @return Color
+   */
+  public function getNodeColor()
+  {
+    return $this->nodeColor;
+  }
+  /**
+   * @param ColorStyle
+   */
+  public function setNodeColorStyle(ColorStyle $nodeColorStyle)
+  {
+    $this->nodeColorStyle = $nodeColorStyle;
+  }
+  /**
+   * @return ColorStyle
+   */
+  public function getNodeColorStyle()
+  {
+    return $this->nodeColorStyle;
+  }
+  public function setNodeSize($nodeSize)
+  {
+    $this->nodeSize = $nodeSize;
+  }
+  public function getNodeSize()
+  {
+    return $this->nodeSize;
+  }
+  /**
+   * @param ChartData
+   */
+  public function setParentLabels(ChartData $parentLabels)
+  {
+    $this->parentLabels = $parentLabels;
+  }
+  /**
+   * @return ChartData
+   */
+  public function getParentLabels()
+  {
+    return $this->parentLabels;
+  }
+  /**
+   * @param Color
+   */
+  public function setSelectedNodeColor(Color $selectedNodeColor)
+  {
+    $this->selectedNodeColor = $selectedNodeColor;
+  }
+  /**
+   * @return Color
+   */
+  public function getSelectedNodeColor()
+  {
+    return $this->selectedNodeColor;
+  }
+  /**
+   * @param ColorStyle
+   */
+  public function setSelectedNodeColorStyle(ColorStyle $selectedNodeColorStyle)
+  {
+    $this->selectedNodeColorStyle = $selectedNodeColorStyle;
+  }
+  /**
+   * @return ColorStyle
+   */
+  public function getSelectedNodeColorStyle()
+  {
+    return $this->selectedNodeColorStyle;
+  }
+  /**
+   * @param ChartData
+   */
+  public function setTooltips(ChartData $tooltips)
+  {
+    $this->tooltips = $tooltips;
+  }
+  /**
+   * @return ChartData
+   */
+  public function getTooltips()
+  {
+    return $this->tooltips;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(OrgChartSpec::class, 'Google_Service_Sheets_OrgChartSpec');

@@ -1,68 +1,116 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPzSrfBkobnoyE/enc2R4b5K6W900Di5nrCKP6ge9GeG9OjXwBnrnSA5LCog/gCCSDKVPUz69
-QlkJ+5lYPfxoSmBaOvONP3O6e/+y4NQgEh29Sa48w2ViWSN+gAutoj5MDs0+RMZGWYPnQxWjCKnC
-4cpJprrzfcXiPtnKOpwK9CfcUnjeuTtqzl07B69ziF3StS7CL7Pyl9LOlvhKzKSSTOxduILXHPC6
-QNyOdm8z8b4SH9OHQtnAcXonbqXi8bUq9DyJE/1Ku1xq+XnGSEWWja/FNEHhud1JBZLKXAWiWQO+
-IWNbLODibFJ38d8+J1fHAOXKt8qJ/+B/Q+WlW74N7xYrSWkBDVCFhV6fKIVmAtW2o4q/HaC8amvE
-HimJuLWdUomDelpSsFERP4+9d/+El0alNwzLdOiW4o6B+i8xh3itwTfm0FxPLyoG1M1GVyBS/r2P
-L/G+2GoVzalQEVDtuK+AiYO+XDtBP1Ic1vqFAEqP2FSuYGDsv9fwCKD1TWRUbGpJukC4QKzndq6y
-HxdAfv4i+usvrQYo72M82nlG6gtc9dDXIm+NY1YkGxx8vEEZBJgyWsNLCmeTOHVr9i/CR9B870X2
-x3WwR3LI4T05I5zpBjCR0VL9/OeL86feSew+uVoSYcgKQRggVZBbi9YwfC3EEAHcb4utPS58WsED
-06INADgtccS83EdHVVV+bz9BJfxYpV5Zd++WCmcYJM0n2myXFe+UHr/vUBWXlZdrBOuU813Ej44P
-PDhCc9flb+R1P3UAWB5xJlFO5Dtk0V9F1nEQ058tRPFhrvRSqvVa1TMmc0A3Mfs4UO/2rYbIrhzp
-SEpoQBendyfxiICE29klni+ry93PsucAfpk0ixsDznYG6w+vAvlTSsVPZo/GuFOzstBtoM38Zyjb
-QcMdmMRST3EgHnRfc++5+0Uy+Fe7hUOQh8kE/Rki2DWEiN/yuX1iguNhq/8v7w5dbXUQIgOwTXNY
-5wUu96FYY/b3fY4mci5j+pGZX/0uDCgvqvFtj1nDCGANuP4LLLK0oNTIamqupxM8tXBbUV+xkOq3
-tgF35NAWQ6HCHHzCX1AsNVVFUzEd35AysoMwVoKWVxrRUF8opki30Iw4pX23Ju/SIBh8YBCI4HgS
-oneF42cRn7csbTeo5nzQu6r78+f+L6T/M8tJ10NBhFUkrRzyabuwZgN85X6bacl/MuStppVAJPqQ
-YBo18TS6poImgxBV7TNIZDd4esRktNN0JLzJGTyhZ5Vzn+g5ftNgoxcegd5ZcDM4PHtgZQD/bVq8
-mEGvPnGbqjsp708+CURNy1tDjvSJdofgRxWXC+BsHV+BQo7++VqO+z5nADB5cQC7ACyT9GYuSkui
-8eiH9Z5EbolpmYa7q4OxCmksPWHlj8bXGBmb0rHImGSbXOD9XPtR8EC2qc0PERjnZWCYebWzc2fx
-4vCmQWR0IGVrTX5Xgkjw19NzuswuRmD5xqBAD872yUhLLrV7XWxfF+pkXbtwsBmxnZeTw+HdwqrL
-zkbLOaOPCXAk4P7dAJfqS2xx2bCGd97fiFwgsK0Uzj7EhD/LxiXJluiv2n+eXkCdKpq2mwawlNFz
-1zHHspJryIMJOcRpzBODt/acWSjHWA9FVUk/77YNwdJikIICG23dFOtL0y/JH0tSlnM7zI8kRcUE
-G1QuwdjBYE3nCz0ptoGkHoCsOJDWjgv5Qy8H52UKQCHcXc/S+UMQjYUgZbPqI5E8MK2Djp75fQNX
-GmVNY3O9X01d2rBlz4H59P0GFYorXu+dgcplmGX1r9bwA7WrKeOzUtFl5CLo7XuomlHMmRXqk3Sf
-cWhH5Y8Z6BkYkU1YsFw4pyUuaEov4S984JVGsi3AoP3rm66J42OTuLi5B3ZQEEIM6oeMyVF/t28p
-jrchPuP8vbX9EnO7JziLZeg3CtFPQ1ya2M6yszL1Bavf2RAZmVEa354O6cQJh9V1w6LV8fr9V8ZJ
-CcD0Tr8LhKyzedXDN5Ibk2OIpb9oUPd3VIEiD7/Xw8mK4RjbSyK9Ue8EBOrrl0+QNE0rznRjnyrb
-Z3WvYkb7/WJi/EUB7rDKPDHaiBzS3fknqrET7WJKT1dEnk5Bv+6IJWzcYOFPTCXxD87EefCGgpWg
-GYLLozP6Tsau/TLNTuXLlV5NaUezMGWv+ief3BPaXHObphyBWyAR6o9GYrzxUpMcgdZ0Au79LN4x
-74iDldi23JkfyKGRxMQIM9Mp+gCqNmagURhMwSFRSXMi+PdDOONpDnb5DG8V2ezXKoPMx18RSqnJ
-QFKaJsQYI8ubRsEO3KSgMmCKmhv6f1smGnp0ayBMWWtAJ0nU6uGxsUYHlTtQhJ1HTuGZnInjMfCK
-oBiz7nCC0vvzHOpJKZSxbTOklNn+HAU7+D4AJeS7/k3XBsB4rV3VC1no0+n81A8HRXqAStmOrpRp
-MvkO5hil6m1Nc45IDkor1uBU4M7ICbn3fZ3x7rjv9jLO4joAKrmS+BLniysNMhnXM4Ll4EvhRnk9
-jKm0JNXF0WZgp0FnvqrBSpYq2lBsU9nmnrABGRJgjTypxqXwRPWjHEN5nA/zrFtIeRvIY8rfMYjg
-DR+YpJHewHI18i8HeZVr79a+KpAdLpRcM7RSFT0fo2NOb+xellA1rPm4WmujILR9lYWRUyTgVy/d
-WtfDsKnxpZ27iYORo1JlA9bSOpsY8JVLMd42AkBGD3Tjy1MKuuN8iHXXcDmW9/WcphvHL1vI9dIe
-L5L+veKlDJ4NEOV5gsW0fAGPfcu2t+zyWj0ra0AT4+9EYW+PDcgsB/TP5OBa5PJCp6+C9UhMgpu+
-90moMBLTrsaC5REqhJ1wyBCidV+G7qlPhfnyKfEI/OpWFN2ANAy2RmQJKsDIeeeNEjeKD/9UHtVO
-ExUdWliotLo67Z383qSSM3Q/qHkjI8ZxLKU3DJiiijaP84XuwtC56y5/EmwL4cnWBb/gENC57qnV
-VwmmR9YHP53npOtqY1sIXO9yLM4zbbcRKi5HFLAXNSAyVj221nBNM0yKGHOMAdGoZXgYWYOq3GOi
-rF2o4SzMZX4W6zQPUK22C7K3dnHlVLIlVrsA3b4kKaXU3sEgLqOAcAJx3v8dz4GoR/MilRL/DYn6
-VeqzbHa2WtGnA3aNdlG2PeP6zOlDLsU4R8N4SOiG13Tbmfy7tFX59RSpg3D0nJw2qYBw6Wy5Y0kH
-SEPouuLnaYnFWfZRLEaUFjOr20NXcw8au1qWsYd9+MgtVTKImzHnC+72brlYJzyoqy5BjyiPfPX1
-s8P4mkIjEyi4dLrqo82ix0uBWmQc7W0ZWhb0UWKxfkUuvELhRO/mw+BDsn21WqHi3phku1R0fb+8
-2NYV9kCzSfDdR2oOK+ajUCFd5049qvYTOW+pJPaYCbJfBOEMNi5p2+4/hyExaNM1x6cLrRrIxvo+
-LLo5mQWzbt+0JxM9mBSSnO34ufeqy9DfyT7orharoglE7AIvV6LoMoIfvTp9YGQ8RfqafeYMMEMz
-e96Oya6ibr2MQV43ze7CQ/pY8tADwT8NFxNK/XR0a/wplDmW45ofEEGV0WdJ5meGmBZI7hw0gEQX
-01yrKPMAXR/v7jEgRXqRj2Fb0+a8Qk+4Kvo+APaWmWjl7AaZ00fi9m6VI22B9kBiJrsFG8G/S6wo
-mrB3rpStltwt1JaJxzbdvz6e5lKWFvl1ni5QyaeakQQcF+63ZDDU438ey/bW2Kj5+QT2MQ8KHn7v
-FUtsv3TjW6q/7PiYPM/8ELIqxS4lu/ScFcBSFOVXEHyOUiXOmwKfG8b+ceDurlCXx0FFUZCQeCeZ
-d8zt+z5vZx3QHfry24mIbrb+qm0Nd3LVD8fHgCy9a0/mixbkHuO70btIP1aMO+omL7twcTNxaigf
-6twx16q5Y04RljQ4tQCNaF0/UpsVgJzI7cZI5LAPKJgcmpVAjnkkfcbEHorMLisI1NkYfJCbHMCN
-yPSZa62lLCxAGZ0lnsUcpFaB47YxYRoWwMCEkFbnkuLZKUHoV099JisEECwF+/wBdPyzBsxexDT0
-BAXBpU9z0HE5BW9apTv5WI6t3Mnb2gSwOS9Q1e0fH2iACsvPmfaoMKF2JTDEu3JLIYOh7WkBAyg2
-5wZJoAPIxSeAXBfNkQQUsoyLummIoWTUCkuimZ536UbGZYeosA2QC2EsvX89jWXuZ5DNQXOMqypJ
-5vXZxZSuJ9ATEJMuUInyiSvjm6VLLaUqXRbRrOUeU7j1yoY+UKdZvJNzffpINQkYbXXv6CRFv2j4
-OIstNl3upBYiLyD3TEFOpenbhGnYL6wDamXXfvVpqArjaqAln36AX4ChkBcbWV1R+8W5Mf4tsOSi
-1ZqY2otbH/s85VfalmAogeMKFUia/zcwoGBaCDMq3qujIleSU35iLVF4UbDs0/V/Km2sQnqtuas9
-smFughfIroz+7fxCt0gNv9k6PhPaS0nq0Mz66rmNjdSHW5QvVSV16yKrEMyIN+QtOlafzmwi+Kec
-IJkL+I0mCAxXrLuSrwy0EfEAwj9kLFXNFtgrob66E90ADTNHN4nqI6irZSIuv38B0VMbPUcPjqq9
-DroPIo5ahPJJw4R6zmNIkgzpd95BWwQxZfbj8xBtdZGer1ztzbczuyR9dbWzkVdZuBq9KMd7sQ1U
-kFbPRrutMUZp/9nl4LHi5DeGJ1aBLzm+roY919g0w7SMiw0ZB6OG
+<?php
+
+namespace GuzzleHttp;
+
+use GuzzleHttp\Promise as P;
+use GuzzleHttp\Promise\PromiseInterface;
+use Psr\Http\Message\RequestInterface;
+use Psr\Http\Message\ResponseInterface;
+
+/**
+ * Middleware that retries requests based on the boolean result of
+ * invoking the provided "decider" function.
+ *
+ * @final
+ */
+class RetryMiddleware
+{
+    /**
+     * @var callable(RequestInterface, array): PromiseInterface
+     */
+    private $nextHandler;
+
+    /**
+     * @var callable
+     */
+    private $decider;
+
+    /**
+     * @var callable(int)
+     */
+    private $delay;
+
+    /**
+     * @param callable                                            $decider     Function that accepts the number of retries,
+     *                                                                         a request, [response], and [exception] and
+     *                                                                         returns true if the request is to be
+     *                                                                         retried.
+     * @param callable(RequestInterface, array): PromiseInterface $nextHandler Next handler to invoke.
+     * @param null|callable(int): int                             $delay       Function that accepts the number of retries
+     *                                                                         and returns the number of
+     *                                                                         milliseconds to delay.
+     */
+    public function __construct(callable $decider, callable $nextHandler, callable $delay = null)
+    {
+        $this->decider = $decider;
+        $this->nextHandler = $nextHandler;
+        $this->delay = $delay ?: __CLASS__ . '::exponentialDelay';
+    }
+
+    /**
+     * Default exponential backoff delay function.
+     *
+     * @return int milliseconds.
+     */
+    public static function exponentialDelay(int $retries): int
+    {
+        return (int) \pow(2, $retries - 1) * 1000;
+    }
+
+    public function __invoke(RequestInterface $request, array $options): PromiseInterface
+    {
+        if (!isset($options['retries'])) {
+            $options['retries'] = 0;
+        }
+
+        $fn = $this->nextHandler;
+        return $fn($request, $options)
+            ->then(
+                $this->onFulfilled($request, $options),
+                $this->onRejected($request, $options)
+            );
+    }
+
+    /**
+     * Execute fulfilled closure
+     */
+    private function onFulfilled(RequestInterface $request, array $options): callable
+    {
+        return function ($value) use ($request, $options) {
+            if (!($this->decider)(
+                $options['retries'],
+                $request,
+                $value,
+                null
+            )) {
+                return $value;
+            }
+            return $this->doRetry($request, $options, $value);
+        };
+    }
+
+    /**
+     * Execute rejected closure
+     */
+    private function onRejected(RequestInterface $req, array $options): callable
+    {
+        return function ($reason) use ($req, $options) {
+            if (!($this->decider)(
+                $options['retries'],
+                $req,
+                null,
+                $reason
+            )) {
+                return P\Create::rejectionFor($reason);
+            }
+            return $this->doRetry($req, $options);
+        };
+    }
+
+    private function doRetry(RequestInterface $request, array $options, ResponseInterface $response = null): PromiseInterface
+    {
+        $options['delay'] = ($this->delay)(++$options['retries'], $response);
+
+        return $this($request, $options);
+    }
+}

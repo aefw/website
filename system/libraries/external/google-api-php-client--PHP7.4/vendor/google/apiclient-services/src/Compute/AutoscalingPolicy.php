@@ -1,79 +1,143 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-+G==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute;
+
+class AutoscalingPolicy extends \Google\Collection
+{
+  protected $collection_key = 'customMetricUtilizations';
+  public $coolDownPeriodSec;
+  protected $cpuUtilizationType = AutoscalingPolicyCpuUtilization::class;
+  protected $cpuUtilizationDataType = '';
+  protected $customMetricUtilizationsType = AutoscalingPolicyCustomMetricUtilization::class;
+  protected $customMetricUtilizationsDataType = 'array';
+  protected $loadBalancingUtilizationType = AutoscalingPolicyLoadBalancingUtilization::class;
+  protected $loadBalancingUtilizationDataType = '';
+  public $maxNumReplicas;
+  public $minNumReplicas;
+  public $mode;
+  protected $scaleInControlType = AutoscalingPolicyScaleInControl::class;
+  protected $scaleInControlDataType = '';
+  protected $scalingSchedulesType = AutoscalingPolicyScalingSchedule::class;
+  protected $scalingSchedulesDataType = 'map';
+
+  public function setCoolDownPeriodSec($coolDownPeriodSec)
+  {
+    $this->coolDownPeriodSec = $coolDownPeriodSec;
+  }
+  public function getCoolDownPeriodSec()
+  {
+    return $this->coolDownPeriodSec;
+  }
+  /**
+   * @param AutoscalingPolicyCpuUtilization
+   */
+  public function setCpuUtilization(AutoscalingPolicyCpuUtilization $cpuUtilization)
+  {
+    $this->cpuUtilization = $cpuUtilization;
+  }
+  /**
+   * @return AutoscalingPolicyCpuUtilization
+   */
+  public function getCpuUtilization()
+  {
+    return $this->cpuUtilization;
+  }
+  /**
+   * @param AutoscalingPolicyCustomMetricUtilization[]
+   */
+  public function setCustomMetricUtilizations($customMetricUtilizations)
+  {
+    $this->customMetricUtilizations = $customMetricUtilizations;
+  }
+  /**
+   * @return AutoscalingPolicyCustomMetricUtilization[]
+   */
+  public function getCustomMetricUtilizations()
+  {
+    return $this->customMetricUtilizations;
+  }
+  /**
+   * @param AutoscalingPolicyLoadBalancingUtilization
+   */
+  public function setLoadBalancingUtilization(AutoscalingPolicyLoadBalancingUtilization $loadBalancingUtilization)
+  {
+    $this->loadBalancingUtilization = $loadBalancingUtilization;
+  }
+  /**
+   * @return AutoscalingPolicyLoadBalancingUtilization
+   */
+  public function getLoadBalancingUtilization()
+  {
+    return $this->loadBalancingUtilization;
+  }
+  public function setMaxNumReplicas($maxNumReplicas)
+  {
+    $this->maxNumReplicas = $maxNumReplicas;
+  }
+  public function getMaxNumReplicas()
+  {
+    return $this->maxNumReplicas;
+  }
+  public function setMinNumReplicas($minNumReplicas)
+  {
+    $this->minNumReplicas = $minNumReplicas;
+  }
+  public function getMinNumReplicas()
+  {
+    return $this->minNumReplicas;
+  }
+  public function setMode($mode)
+  {
+    $this->mode = $mode;
+  }
+  public function getMode()
+  {
+    return $this->mode;
+  }
+  /**
+   * @param AutoscalingPolicyScaleInControl
+   */
+  public function setScaleInControl(AutoscalingPolicyScaleInControl $scaleInControl)
+  {
+    $this->scaleInControl = $scaleInControl;
+  }
+  /**
+   * @return AutoscalingPolicyScaleInControl
+   */
+  public function getScaleInControl()
+  {
+    return $this->scaleInControl;
+  }
+  /**
+   * @param AutoscalingPolicyScalingSchedule[]
+   */
+  public function setScalingSchedules($scalingSchedules)
+  {
+    $this->scalingSchedules = $scalingSchedules;
+  }
+  /**
+   * @return AutoscalingPolicyScalingSchedule[]
+   */
+  public function getScalingSchedules()
+  {
+    return $this->scalingSchedules;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AutoscalingPolicy::class, 'Google_Service_Compute_AutoscalingPolicy');

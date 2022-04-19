@@ -1,69 +1,96 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-LMF6HSpIZGqRelclklMnouksvMQWJm==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Container;
+
+class PrivateClusterConfig extends \Google\Model
+{
+  public $enablePrivateEndpoint;
+  public $enablePrivateNodes;
+  protected $masterGlobalAccessConfigType = PrivateClusterMasterGlobalAccessConfig::class;
+  protected $masterGlobalAccessConfigDataType = '';
+  public $masterIpv4CidrBlock;
+  public $peeringName;
+  public $privateEndpoint;
+  public $publicEndpoint;
+
+  public function setEnablePrivateEndpoint($enablePrivateEndpoint)
+  {
+    $this->enablePrivateEndpoint = $enablePrivateEndpoint;
+  }
+  public function getEnablePrivateEndpoint()
+  {
+    return $this->enablePrivateEndpoint;
+  }
+  public function setEnablePrivateNodes($enablePrivateNodes)
+  {
+    $this->enablePrivateNodes = $enablePrivateNodes;
+  }
+  public function getEnablePrivateNodes()
+  {
+    return $this->enablePrivateNodes;
+  }
+  /**
+   * @param PrivateClusterMasterGlobalAccessConfig
+   */
+  public function setMasterGlobalAccessConfig(PrivateClusterMasterGlobalAccessConfig $masterGlobalAccessConfig)
+  {
+    $this->masterGlobalAccessConfig = $masterGlobalAccessConfig;
+  }
+  /**
+   * @return PrivateClusterMasterGlobalAccessConfig
+   */
+  public function getMasterGlobalAccessConfig()
+  {
+    return $this->masterGlobalAccessConfig;
+  }
+  public function setMasterIpv4CidrBlock($masterIpv4CidrBlock)
+  {
+    $this->masterIpv4CidrBlock = $masterIpv4CidrBlock;
+  }
+  public function getMasterIpv4CidrBlock()
+  {
+    return $this->masterIpv4CidrBlock;
+  }
+  public function setPeeringName($peeringName)
+  {
+    $this->peeringName = $peeringName;
+  }
+  public function getPeeringName()
+  {
+    return $this->peeringName;
+  }
+  public function setPrivateEndpoint($privateEndpoint)
+  {
+    $this->privateEndpoint = $privateEndpoint;
+  }
+  public function getPrivateEndpoint()
+  {
+    return $this->privateEndpoint;
+  }
+  public function setPublicEndpoint($publicEndpoint)
+  {
+    $this->publicEndpoint = $publicEndpoint;
+  }
+  public function getPublicEndpoint()
+  {
+    return $this->publicEndpoint;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PrivateClusterConfig::class, 'Google_Service_Container_PrivateClusterConfig');

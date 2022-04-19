@@ -1,88 +1,161 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Vc88
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ShoppingContent;
+
+class Service extends \Google\Collection
+{
+  protected $collection_key = 'rateGroups';
+  public $active;
+  public $currency;
+  public $deliveryCountry;
+  protected $deliveryTimeType = DeliveryTime::class;
+  protected $deliveryTimeDataType = '';
+  public $eligibility;
+  protected $minimumOrderValueType = Price::class;
+  protected $minimumOrderValueDataType = '';
+  protected $minimumOrderValueTableType = MinimumOrderValueTable::class;
+  protected $minimumOrderValueTableDataType = '';
+  public $name;
+  protected $pickupServiceType = PickupCarrierService::class;
+  protected $pickupServiceDataType = '';
+  protected $rateGroupsType = RateGroup::class;
+  protected $rateGroupsDataType = 'array';
+  public $shipmentType;
+
+  public function setActive($active)
+  {
+    $this->active = $active;
+  }
+  public function getActive()
+  {
+    return $this->active;
+  }
+  public function setCurrency($currency)
+  {
+    $this->currency = $currency;
+  }
+  public function getCurrency()
+  {
+    return $this->currency;
+  }
+  public function setDeliveryCountry($deliveryCountry)
+  {
+    $this->deliveryCountry = $deliveryCountry;
+  }
+  public function getDeliveryCountry()
+  {
+    return $this->deliveryCountry;
+  }
+  /**
+   * @param DeliveryTime
+   */
+  public function setDeliveryTime(DeliveryTime $deliveryTime)
+  {
+    $this->deliveryTime = $deliveryTime;
+  }
+  /**
+   * @return DeliveryTime
+   */
+  public function getDeliveryTime()
+  {
+    return $this->deliveryTime;
+  }
+  public function setEligibility($eligibility)
+  {
+    $this->eligibility = $eligibility;
+  }
+  public function getEligibility()
+  {
+    return $this->eligibility;
+  }
+  /**
+   * @param Price
+   */
+  public function setMinimumOrderValue(Price $minimumOrderValue)
+  {
+    $this->minimumOrderValue = $minimumOrderValue;
+  }
+  /**
+   * @return Price
+   */
+  public function getMinimumOrderValue()
+  {
+    return $this->minimumOrderValue;
+  }
+  /**
+   * @param MinimumOrderValueTable
+   */
+  public function setMinimumOrderValueTable(MinimumOrderValueTable $minimumOrderValueTable)
+  {
+    $this->minimumOrderValueTable = $minimumOrderValueTable;
+  }
+  /**
+   * @return MinimumOrderValueTable
+   */
+  public function getMinimumOrderValueTable()
+  {
+    return $this->minimumOrderValueTable;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  /**
+   * @param PickupCarrierService
+   */
+  public function setPickupService(PickupCarrierService $pickupService)
+  {
+    $this->pickupService = $pickupService;
+  }
+  /**
+   * @return PickupCarrierService
+   */
+  public function getPickupService()
+  {
+    return $this->pickupService;
+  }
+  /**
+   * @param RateGroup[]
+   */
+  public function setRateGroups($rateGroups)
+  {
+    $this->rateGroups = $rateGroups;
+  }
+  /**
+   * @return RateGroup[]
+   */
+  public function getRateGroups()
+  {
+    return $this->rateGroups;
+  }
+  public function setShipmentType($shipmentType)
+  {
+    $this->shipmentType = $shipmentType;
+  }
+  public function getShipmentType()
+  {
+    return $this->shipmentType;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Service::class, 'Google_Service_ShoppingContent_Service');

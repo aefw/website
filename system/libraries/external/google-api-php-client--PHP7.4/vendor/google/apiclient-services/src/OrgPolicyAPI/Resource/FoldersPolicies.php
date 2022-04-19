@@ -1,72 +1,161 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-z84GN8DzHKMZxH82VSGlbZfx6t4/v4wyBCLffG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\OrgPolicyAPI\Resource;
+
+use Google\Service\OrgPolicyAPI\GoogleCloudOrgpolicyV2ListPoliciesResponse;
+use Google\Service\OrgPolicyAPI\GoogleCloudOrgpolicyV2Policy;
+use Google\Service\OrgPolicyAPI\GoogleProtobufEmpty;
+
+/**
+ * The "policies" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $orgpolicyService = new Google\Service\OrgPolicyAPI(...);
+ *   $policies = $orgpolicyService->policies;
+ *  </code>
+ */
+class FoldersPolicies extends \Google\Service\Resource
+{
+  /**
+   * Creates a Policy. Returns a `google.rpc.Status` with
+   * `google.rpc.Code.NOT_FOUND` if the constraint does not exist. Returns a
+   * `google.rpc.Status` with `google.rpc.Code.ALREADY_EXISTS` if the policy
+   * already exists on the given Cloud resource. (policies.create)
+   *
+   * @param string $parent Required. The Cloud resource that will parent the new
+   * Policy. Must be in one of the following forms: * `projects/{project_number}`
+   * * `projects/{project_id}` * `folders/{folder_id}` *
+   * `organizations/{organization_id}`
+   * @param GoogleCloudOrgpolicyV2Policy $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudOrgpolicyV2Policy
+   */
+  public function create($parent, GoogleCloudOrgpolicyV2Policy $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleCloudOrgpolicyV2Policy::class);
+  }
+  /**
+   * Deletes a Policy. Returns a `google.rpc.Status` with
+   * `google.rpc.Code.NOT_FOUND` if the constraint or Org Policy does not exist.
+   * (policies.delete)
+   *
+   * @param string $name Required. Name of the policy to delete. See `Policy` for
+   * naming rules.
+   * @param array $optParams Optional parameters.
+   * @return GoogleProtobufEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
+  }
+  /**
+   * Gets a `Policy` on a resource. If no `Policy` is set on the resource,
+   * NOT_FOUND is returned. The `etag` value can be used with `UpdatePolicy()` to
+   * update a `Policy` during read-modify-write. (policies.get)
+   *
+   * @param string $name Required. Resource name of the policy. See `Policy` for
+   * naming requirements.
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudOrgpolicyV2Policy
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudOrgpolicyV2Policy::class);
+  }
+  /**
+   * Gets the effective `Policy` on a resource. This is the result of merging
+   * `Policies` in the resource hierarchy and evaluating conditions. The returned
+   * `Policy` will not have an `etag` or `condition` set because it is a computed
+   * `Policy` across multiple resources. Subtrees of Resource Manager resource
+   * hierarchy with 'under:' prefix will not be expanded.
+   * (policies.getEffectivePolicy)
+   *
+   * @param string $name Required. The effective policy to compute. See `Policy`
+   * for naming rules.
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudOrgpolicyV2Policy
+   */
+  public function getEffectivePolicy($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('getEffectivePolicy', [$params], GoogleCloudOrgpolicyV2Policy::class);
+  }
+  /**
+   * Retrieves all of the `Policies` that exist on a particular resource.
+   * (policies.listFoldersPolicies)
+   *
+   * @param string $parent Required. The target Cloud resource that parents the
+   * set of constraints and policies that will be returned from this call. Must be
+   * in one of the following forms: * `projects/{project_number}` *
+   * `projects/{project_id}` * `folders/{folder_id}` *
+   * `organizations/{organization_id}`
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Size of the pages to be returned. This is currently
+   * unsupported and will be ignored. The server may at any point start using this
+   * field to limit page size.
+   * @opt_param string pageToken Page token used to retrieve the next page. This
+   * is currently unsupported and will be ignored. The server may at any point
+   * start using this field.
+   * @return GoogleCloudOrgpolicyV2ListPoliciesResponse
+   */
+  public function listFoldersPolicies($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleCloudOrgpolicyV2ListPoliciesResponse::class);
+  }
+  /**
+   * Updates a Policy. Returns a `google.rpc.Status` with
+   * `google.rpc.Code.NOT_FOUND` if the constraint or the policy do not exist.
+   * Returns a `google.rpc.Status` with `google.rpc.Code.ABORTED` if the etag
+   * supplied in the request does not match the persisted etag of the policy Note:
+   * the supplied policy will perform a full overwrite of all fields.
+   * (policies.patch)
+   *
+   * @param string $name Immutable. The resource name of the Policy. Must be one
+   * of the following forms, where constraint_name is the name of the constraint
+   * which this Policy configures: *
+   * `projects/{project_number}/policies/{constraint_name}` *
+   * `folders/{folder_id}/policies/{constraint_name}` *
+   * `organizations/{organization_id}/policies/{constraint_name}` For example,
+   * "projects/123/policies/compute.disableSerialPortAccess". Note:
+   * `projects/{project_id}/policies/{constraint_name}` is also an acceptable name
+   * for API requests, but responses will return the name using the equivalent
+   * project number.
+   * @param GoogleCloudOrgpolicyV2Policy $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudOrgpolicyV2Policy
+   */
+  public function patch($name, GoogleCloudOrgpolicyV2Policy $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], GoogleCloudOrgpolicyV2Policy::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(FoldersPolicies::class, 'Google_Service_OrgPolicyAPI_Resource_FoldersPolicies');

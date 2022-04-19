@@ -1,67 +1,98 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-ElQw/EygClD8/BNAMWB5+5TOYE2r5JYI7m==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dfareporting;
+
+class SiteContact extends \Google\Model
+{
+  public $address;
+  public $contactType;
+  public $email;
+  public $firstName;
+  public $id;
+  public $lastName;
+  public $phone;
+  public $title;
+
+  public function setAddress($address)
+  {
+    $this->address = $address;
+  }
+  public function getAddress()
+  {
+    return $this->address;
+  }
+  public function setContactType($contactType)
+  {
+    $this->contactType = $contactType;
+  }
+  public function getContactType()
+  {
+    return $this->contactType;
+  }
+  public function setEmail($email)
+  {
+    $this->email = $email;
+  }
+  public function getEmail()
+  {
+    return $this->email;
+  }
+  public function setFirstName($firstName)
+  {
+    $this->firstName = $firstName;
+  }
+  public function getFirstName()
+  {
+    return $this->firstName;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setLastName($lastName)
+  {
+    $this->lastName = $lastName;
+  }
+  public function getLastName()
+  {
+    return $this->lastName;
+  }
+  public function setPhone($phone)
+  {
+    $this->phone = $phone;
+  }
+  public function getPhone()
+  {
+    return $this->phone;
+  }
+  public function setTitle($title)
+  {
+    $this->title = $title;
+  }
+  public function getTitle()
+  {
+    return $this->title;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(SiteContact::class, 'Google_Service_Dfareporting_SiteContact');

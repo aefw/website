@@ -1,74 +1,506 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for DataprocMetastore (v1beta).
+ *
+ * <p>
+ * The Dataproc Metastore API is used to manage the lifecycle and configuration
+ * of metastore services.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/dataproc-metastore/docs" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class DataprocMetastore extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+
+  public $projects_locations;
+  public $projects_locations_operations;
+  public $projects_locations_services;
+  public $projects_locations_services_backups;
+  public $projects_locations_services_metadataImports;
+
+  /**
+   * Constructs the internal representation of the DataprocMetastore service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://metastore.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1beta';
+    $this->serviceName = 'metastore';
+
+    $this->projects_locations = new DataprocMetastore\Resource\ProjectsLocations(
+        $this,
+        $this->serviceName,
+        'locations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1beta/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1beta/{+name}/locations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_operations = new DataprocMetastore\Resource\ProjectsLocationsOperations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'v1beta/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1beta/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1beta/{+name}/operations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_services = new DataprocMetastore\Resource\ProjectsLocationsServices(
+        $this,
+        $this->serviceName,
+        'services',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1beta/{+parent}/services',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'requestId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'serviceId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1beta/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'requestId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'exportMetadata' => [
+              'path' => 'v1beta/{+service}:exportMetadata',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'service' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1beta/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1beta/{+resource}:getIamPolicy',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'options.requestedPolicyVersion' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1beta/{+parent}/services',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1beta/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'requestId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'restore' => [
+              'path' => 'v1beta/{+service}:restore',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'service' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1beta/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1beta/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_services_backups = new DataprocMetastore\Resource\ProjectsLocationsServicesBackups(
+        $this,
+        $this->serviceName,
+        'backups',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1beta/{+parent}/backups',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'backupId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'requestId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1beta/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'requestId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1beta/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1beta/{+resource}:getIamPolicy',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'options.requestedPolicyVersion' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1beta/{+parent}/backups',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1beta/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1beta/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_services_metadataImports = new DataprocMetastore\Resource\ProjectsLocationsServicesMetadataImports(
+        $this,
+        $this->serviceName,
+        'metadataImports',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1beta/{+parent}/metadataImports',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'metadataImportId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'requestId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1beta/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1beta/{+parent}/metadataImports',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1beta/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'requestId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(DataprocMetastore::class, 'Google_Service_DataprocMetastore');

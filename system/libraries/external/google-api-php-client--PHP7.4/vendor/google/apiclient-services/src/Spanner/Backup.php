@@ -1,74 +1,115 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Ke+vlVxLjebaXZHZfNNjPwAf6nVppW==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Spanner;
+
+class Backup extends \Google\Collection
+{
+  protected $collection_key = 'referencingDatabases';
+  public $createTime;
+  public $database;
+  protected $encryptionInfoType = EncryptionInfo::class;
+  protected $encryptionInfoDataType = '';
+  public $expireTime;
+  public $name;
+  public $referencingDatabases;
+  public $sizeBytes;
+  public $state;
+  public $versionTime;
+
+  public function setCreateTime($createTime)
+  {
+    $this->createTime = $createTime;
+  }
+  public function getCreateTime()
+  {
+    return $this->createTime;
+  }
+  public function setDatabase($database)
+  {
+    $this->database = $database;
+  }
+  public function getDatabase()
+  {
+    return $this->database;
+  }
+  /**
+   * @param EncryptionInfo
+   */
+  public function setEncryptionInfo(EncryptionInfo $encryptionInfo)
+  {
+    $this->encryptionInfo = $encryptionInfo;
+  }
+  /**
+   * @return EncryptionInfo
+   */
+  public function getEncryptionInfo()
+  {
+    return $this->encryptionInfo;
+  }
+  public function setExpireTime($expireTime)
+  {
+    $this->expireTime = $expireTime;
+  }
+  public function getExpireTime()
+  {
+    return $this->expireTime;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setReferencingDatabases($referencingDatabases)
+  {
+    $this->referencingDatabases = $referencingDatabases;
+  }
+  public function getReferencingDatabases()
+  {
+    return $this->referencingDatabases;
+  }
+  public function setSizeBytes($sizeBytes)
+  {
+    $this->sizeBytes = $sizeBytes;
+  }
+  public function getSizeBytes()
+  {
+    return $this->sizeBytes;
+  }
+  public function setState($state)
+  {
+    $this->state = $state;
+  }
+  public function getState()
+  {
+    return $this->state;
+  }
+  public function setVersionTime($versionTime)
+  {
+    $this->versionTime = $versionTime;
+  }
+  public function getVersionTime()
+  {
+    return $this->versionTime;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Backup::class, 'Google_Service_Spanner_Backup');

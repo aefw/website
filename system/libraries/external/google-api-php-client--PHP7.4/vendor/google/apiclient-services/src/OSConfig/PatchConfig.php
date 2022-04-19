@@ -1,73 +1,147 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\OSConfig;
+
+class PatchConfig extends \Google\Model
+{
+  protected $aptType = AptSettings::class;
+  protected $aptDataType = '';
+  protected $gooType = GooSettings::class;
+  protected $gooDataType = '';
+  protected $postStepType = ExecStep::class;
+  protected $postStepDataType = '';
+  protected $preStepType = ExecStep::class;
+  protected $preStepDataType = '';
+  public $rebootConfig;
+  protected $windowsUpdateType = WindowsUpdateSettings::class;
+  protected $windowsUpdateDataType = '';
+  protected $yumType = YumSettings::class;
+  protected $yumDataType = '';
+  protected $zypperType = ZypperSettings::class;
+  protected $zypperDataType = '';
+
+  /**
+   * @param AptSettings
+   */
+  public function setApt(AptSettings $apt)
+  {
+    $this->apt = $apt;
+  }
+  /**
+   * @return AptSettings
+   */
+  public function getApt()
+  {
+    return $this->apt;
+  }
+  /**
+   * @param GooSettings
+   */
+  public function setGoo(GooSettings $goo)
+  {
+    $this->goo = $goo;
+  }
+  /**
+   * @return GooSettings
+   */
+  public function getGoo()
+  {
+    return $this->goo;
+  }
+  /**
+   * @param ExecStep
+   */
+  public function setPostStep(ExecStep $postStep)
+  {
+    $this->postStep = $postStep;
+  }
+  /**
+   * @return ExecStep
+   */
+  public function getPostStep()
+  {
+    return $this->postStep;
+  }
+  /**
+   * @param ExecStep
+   */
+  public function setPreStep(ExecStep $preStep)
+  {
+    $this->preStep = $preStep;
+  }
+  /**
+   * @return ExecStep
+   */
+  public function getPreStep()
+  {
+    return $this->preStep;
+  }
+  public function setRebootConfig($rebootConfig)
+  {
+    $this->rebootConfig = $rebootConfig;
+  }
+  public function getRebootConfig()
+  {
+    return $this->rebootConfig;
+  }
+  /**
+   * @param WindowsUpdateSettings
+   */
+  public function setWindowsUpdate(WindowsUpdateSettings $windowsUpdate)
+  {
+    $this->windowsUpdate = $windowsUpdate;
+  }
+  /**
+   * @return WindowsUpdateSettings
+   */
+  public function getWindowsUpdate()
+  {
+    return $this->windowsUpdate;
+  }
+  /**
+   * @param YumSettings
+   */
+  public function setYum(YumSettings $yum)
+  {
+    $this->yum = $yum;
+  }
+  /**
+   * @return YumSettings
+   */
+  public function getYum()
+  {
+    return $this->yum;
+  }
+  /**
+   * @param ZypperSettings
+   */
+  public function setZypper(ZypperSettings $zypper)
+  {
+    $this->zypper = $zypper;
+  }
+  /**
+   * @return ZypperSettings
+   */
+  public function getZypper()
+  {
+    return $this->zypper;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PatchConfig::class, 'Google_Service_OSConfig_PatchConfig');

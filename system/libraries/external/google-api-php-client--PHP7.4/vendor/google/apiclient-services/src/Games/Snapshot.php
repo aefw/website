@@ -1,81 +1,132 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPxcChPz7M1RGRaOul9mQEo+kdocQ0dVYbQJ8yxe3sgaPvE9kniGwFHdfx1oos27lO21SLdyn
-a7tP23XzswdGWvGtUxnMhR1qnOYl3f09vByzVSKQUyPyU9jqBNGuGF5+aYHKG7RfKl7smbaGZ9ea
-dUUHY/+OYdYFakwpHxdfQgaqTdDoLXKEZYhsBX5f+F52MPnTKzhz7/4TW3SkquNOJIKotyvi0nRn
-IMOarvbmafpz4QuDLQ7apcY9/mmHv4nekC9xGf7I41vwVs5044dFGozr0k9mKourL8IeB86cFae5
-vLKORWHNeyvizIJ048+8rDS0L/+aqphXHYoK7fsO6k66xUNXQVbpIPPq5F2Ez0T2CiwPIS4BHRyL
-SMBwcAAndKQCVf3tz/g3wk6zszKbs0IwpCl+6YpACDiJSnKUi6Upx1m89Hh1+MfmKeaobLNXI0km
-HS6BurEZX/I0M6MG9g36O7qzVH6za+hv9GjLCnoUiWpQvYeURgpDMCIfRD2v11qJ49DV/KrCfCrq
-UKp1UcCa2zI+gCG5s08AJR5mB2vJVDq2a7NjeZxWzMV/asD3pggw5s3YIxZ2+ApU3yYw4oU3OMAq
-TsNyj9WIDVosC4aeHwn/1yhCfhRcNXPbgbYxukGc/IWVvsNK2P1LoTn5kk0vpob8Zk9IIYC+WAtU
-qJQlNmdgPz4TAc7LCaPhQbIOj/oeliOE0TMy8/Z5L0/bvlxsRDryTQvivfFFdicbe03EIIVgqwZO
-XRTkDD9akU76uq60Lqq2kVWD8R4NxivX0953tqOT5mJlWw+/ENBm3BAedq/b0JQ0uIEXiluBsb9k
-exEOlygqHVjmEV3JpLHJS1PXBBk8m0fmJ2x1HzUT9oRWsaHzcss5Yx8S2GGa5wBszJX02JNsQPlm
-qLhNbHm4jOUrLik/js1EIVprmhZWq8Y7cni79V8RfFQDDpAQ7CTYAMlxsYJ9DHAJh9Y8FMFa1zqS
-0cly3psC/y/1aUsM6pR9QF31yg+qmJ3/3XVwyPecLOPWuz5fN4mZnAwVAwbf80aTHmPPg8Y7hVlc
-OFI5kBgRekzfXr8PEEHoCf1Krs+dO882RjzGOUIGOqLbZ6JQ+Wi7gK6+qoIsWqgDKcPd2Eh8gH4L
-YqiZRgq4Qpg3wc0bRQpJ98upNpj7flcs6YIZsSQNzImll14TReVOeBG8tRA65v0Ayi0VniXv1g6s
-pZNsPKJoxQQGfo3PtylcrQR7LI4C9UVEIKDjbbfz2RGFN4oUveEwz8SkAO/5SrI6No6x8EXjh7sC
-srQJ+Aw/WpLODoRFv/+Ogi6INkpB4Wb0XoGDi4iZkWGvmBPagdMqZcPltBJETACxXi/4QWl+ve8B
-3xcJ2K3fhehc2i4h3r2sVMDzVUpEiUCjjjaNt7Mmh5HuyP5kYErEcLdQsbuvDUyRMKgvjWgC5ICX
-f0/3iR6W3LCmhgAXGKpQiX3GLlK5JZUJVkUJEUgBImsC7lT1ZOKTHVxNkAPRbEyLWRiSgg3JSNAE
-2FVnurR3Z6oQ4D4VnQSQLBlcV5xNDYMKApzBEid86T+QSHakp2wzTmmYY2qzb9O1gSOdnHHYcC4e
-8ZrIH9BZ5kLEQyFGJ4daEhrx2rxVBhvjNz9Upb0v3UXOYgzjCS+djcto1DSgKYDeAwTYvFkVUrES
-s1r8rhdnT4tlsudQpfC22HYxPGXDmfRJEodKTa5k/mPNc+VHsSWPoh4m6XkjIkRrEr0T+fmQad6w
-dbwrLnA+2vZZsZUs5aSkgMtA8Vjp2tJCT2SvSKgqMWfhA54oDFKL1JuWfaLUmtl40iDlBv1h/VeD
-hKhwiR012u63fhsXRhEbcwsYTiaqWZwdR/H5iLVedT3aLLhB751kujgKV6mWOlzvFaMl6djuXwCh
-5A2GQFJQ5WYtVMJyzZUP4VMJHrVHBnIZz5iR8nsie5h1XWcw8zvi+RmQjgwf5J9QFdg9h6L3Sbe1
-aL6TD72asLLPNQ7XZoWxjDJTrPsl4StIt83tegst0OBZ8SOV+GkNQGzauFzfsh41shib+OxQE85y
-AozsLAvxjBsNfAnWGm+V+Oa3cY9js+XjMeklYkoTzwNJ8V9p+o0AZOjwiDGpMlp8kAJrrplvqQOU
-s0rz87GbJHhtc5UoLChwis0g3r3F029HrO0+EQ5DKWRCVqMxiMEpCap45exRQBAUMkXwb9gYyN20
-uJWfB6mE2O/XU8WDtDicpYklSA4O9XlFhM1T59m6LEvStWsUcCrB5+MdjnZ3Zfz9951bDH//6r9N
-HRr32cPQ4A7qIUy4i4BdMV7UiM1Pz+B+o0c9ECUqhiL5RGkf5GgtVUM1QTN6SQKYyIMGJ0VuizbC
-eyZxXyNZYcz8df7+O0Hqt32Nvuq1lz5HRg+2tDG8toCOTgjD2SlzIYZGEJQ3fDiN0rEdCLxdtSu4
-SDFl+v1l+BkSxig3vEwFXvgbMWRSZYYVyWUooBCcPfTOy3N0SY0njT+nppR6fsiHd7rjTZ8JsGMm
-DjORM/qSp+JJfUgHXWMBSwVKf2nN+Y/0K8iW0bqY4NBClyGqptTKMJiYA/Hh3yqXxh0IEjWFVgz2
-avybPE+weEsw7b+mjOgfRSA8vNsSTrNIyoMGp5SsLKN+l4gMAMbJE5E85pdYPNMV/xIqx37rd3BU
-94LW3lqLqFiYJPMTq72LnR0MSGhXCLK/lQv7NTl5TxwZyFqAeQFnGnh4xk7UQNzJ257ee09/EtY1
-nj6q9AXf9J4U/o8cW1AUy7Bw/qEUpAhalKqfM5qaLFGmn0dokmyjvzy2h/p2BgsosBRoNWo5Ekuc
-Pdl7eFp/zHzRUOrf4Ou8Zyob4Wm2MKMvls7MJHlEcglduDVHxs7C77EMQ/03Osamhk7X+hzpt4tR
-afYT9CccEpgfGGhtWd2GfWPTCEd2lXU0Zer7dDOs8Z/jfyZOBS1iGX/5HL60h3YcAjEH229dXH2s
-+NVk4yhuCBpVebccr1vy6i838ZtJW/UfxmTUX9WsFJ3CR1a8jODCAnDZ53acRtKFLkSzvrIQdol3
-vOaNAu8fv/j1gN+2Q+qadoKghHXt7K+O6L2JihaUp5CGchmPp6CoxTBCaKjlj3kgBhc6olpuxOJI
-l9BA8n/uAvdlfbtgiC69rjXc6DGgFkEy0KCqm1aEoi+3abwabt0KTRv7QqylcUhSED/VjMLv//SE
-dRtaYLX+TJENQ+jwg64h805kDWHfigrQ99S6gOVPIQ6F3fAHdX4vZ4JcXxkDMuCwJO9w6Xwv8bzB
-mvUbPXaEPs5+2o/oyKkADAeffeaiBmDVJs0N/Yh1aof5j14X7kmWsPGjcleffJAlPZO3yx63Nt1P
-TCI5ceLcfDJ5dSMpbx5jyLjc60v2/iJBDMNEho6U24adgZlcVbkvbT+AIVsPP0ko0jGsvtxu8wN1
-buQBn2EjaAUZ3a0RyzV7T0D3w3UKL5ws/u1+TqML4DqT5T+uqEKeUqs0wMvo+r9FOA7VpgpTkn5k
-QYOTxY8+DGeIM9Nn490cd7tLhZL/bIPkwJ9pwhqY36Yg28krf6boq+hhqXP0uvfhOboVdembpDWo
-JbTHGdqxvXZUbqea4NB2MKu/veo6RaJdLpXyv7sJ17k3eUhORGKj7Cf7//DieGV6fVVzpVYRS78b
-xLQKLiWFqmJcCgnGJdBYqi9OU6mNvdNfXyAfzGFrWOfeQeIUYKf4gduYdf53SeO51VpMjsA+BISG
-HMiZUYFUIQOGGmEkvMyhurXxwglCJWKfZTYQuq6Xqbwr9OWDpkHpgF4KgTrCqcQKIgOt9+OEQ7Lc
-jvVGJj59lSXdKQtgJLGdehxUTIEiDVVqwQuLN/BEbJ6U19U4UzVlCbo46p48RMP7ML42Q6KWQljL
-e9cNZxQgwejfLJZGC3R/Uf6iRSDJSnwos3vLKkW0W05UicpP7Ho9fuaCxkV42xCRJnisYLicLbvP
-rky0PUbjmf8/nW+8LBeBEk0xDjRHLHHC9f3uXTxs4s7PNOuRKOBM7MDCI9SjA0bKRFfAIenkIsbX
-iYe4fQK2SUaBbg+PG/ocRz29WnUaNUxjET+UY4I3wCdd/JB2iliX++6sNN5xNXkp5CLuED/rdzWF
-sdto35j2i+Or889aGfnhTizZp4/oFfnYbIw+HMs/4lSo0g+lpn5pdIdd3WsNsMU84yDDobFw3ZkC
-zd0fqUJS2Zz3N76A43hkwaYOjFFy7l+e1+QvN2kKFHMRESxmB6dagOlvh2mz+a6sGuOfEnzJ8wI2
-wquCfqeONtPoeArdz1cgaPVfrz7zhi7tK/nmM4H+34zD8RYH59biQrhtEyMVERx1mVFbUsXODVVU
-jCHl5dtb68BcLb5D5GzpaUVVj41K0Xj8RRLdszKqDQKjGgt2UOohqr682E1xsOuM0Z6S9NA/5k41
-R2dFEBurVMKCApu1VtDK0Pj1AUxIk6CUG0chFZjb8YYhCO29hP+nN0MrWcHB3kUVZMhP+QuLNadB
-RSDT0/yQFv6pORO8QFH/taebqQL5Nu6UFO6MhFW8Bw/fCZkwBmwNW74URtl8DhIooqWmsivXs4p6
-MiH+/PXfoz2jWgghq6AlLE4l7glg9dA93enK6D2AZyX5Sfw1fERA39r62llRPe9XI0uJHlk8yLPC
-3AfHZHOUHIwfXkwlRpES9mu6o79cl+vHNvBv15ptFdX/UZqdBbpFhFlJyc+Pmvlb1rmOpiDU3JHq
-gNZ0b6RDMAk4XT8G2Z9+10Nzy+Moxd1TXFX7ZVE6yIAxKhExFaPa9rYy0LZIw2bB6h/IG4gUHSRy
-8ZPFlTRjbA9H4IBEanXjnRNWUSy0EcQhb7kjyGBi3z8WGTFS5ZtMxwfqWzXurkaclZGXRlHJ3Qwr
-VzA9oqbyhoyC6rnnOwUBsyTs4/Grp45kLeleL0rgFd9bDw8QluUN+xJYW4mulJfW4AktxnIIhrad
-nENHTd/U/MQn9fIXhm/pgPuFZJ8XtslUQwyatrewNR3d6rXTFrg7LOxnxW+IbOfX4vlg/9laE5AU
-n21fCD0ExYqv+Jfq48YdLxfskW9IXv1Bq/OcH+QD6MNJxQHb7uwnOOABk17YfEb45kA6Tug0yJ2d
-0Qq5BxAiN8Kz9RWKN/aA66lRq2owDL5C4BXmbwCLcc3mwKVjxtxgVBUxay4x/pZc/2AN5oqvpcvt
-re9pHynG/30pO7oYDOnVDJDw36kmDWtbLvUerbDUE7RKn0j1yBDsSXLasSQ4EZcjwNPZl44YDAEn
-++SMa9DQ9QQd/fF7L3e/3/PMBdzlmPyG7PyifL902IvRJgY9FmV3mR7vUqYQ5H+bom7r2FWNt75v
-oa3r/hWQV3lc2Rk8dGgzAAvd0INCpa1HXhxPIJGbtx2rL+7dg3FOxSWqEh6RH+35m/qeRVFZ5DhF
-ilLzpJGaRWvCSS60yghDGqLon1/y3QDyNo6nmbijYPeEZ0MVS5w7fOh3aqvo6FyaGxYJziazzb1n
-dpSZHkHDzqiBqRxE5a9MgHJz4HF22wCf0AG57cOeNAt7N0gNydxArmNzBbgu8aePJ1uAMb3clslb
-WrY/A7zVAWKPdEvolWLsMhfXId6ge0Iwf/1ZJMhdKqzkEUgRLVHc/izoJaQ9Vhxa5NnY0ozJyUWq
-IBUmf7D/OeXm9C7ZxwZ9BXbNfY6kuSLox0==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Games;
+
+class Snapshot extends \Google\Model
+{
+  protected $coverImageType = SnapshotImage::class;
+  protected $coverImageDataType = '';
+  public $description;
+  public $driveId;
+  public $durationMillis;
+  public $id;
+  public $kind;
+  public $lastModifiedMillis;
+  public $progressValue;
+  public $title;
+  public $type;
+  public $uniqueName;
+
+  /**
+   * @param SnapshotImage
+   */
+  public function setCoverImage(SnapshotImage $coverImage)
+  {
+    $this->coverImage = $coverImage;
+  }
+  /**
+   * @return SnapshotImage
+   */
+  public function getCoverImage()
+  {
+    return $this->coverImage;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setDriveId($driveId)
+  {
+    $this->driveId = $driveId;
+  }
+  public function getDriveId()
+  {
+    return $this->driveId;
+  }
+  public function setDurationMillis($durationMillis)
+  {
+    $this->durationMillis = $durationMillis;
+  }
+  public function getDurationMillis()
+  {
+    return $this->durationMillis;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setLastModifiedMillis($lastModifiedMillis)
+  {
+    $this->lastModifiedMillis = $lastModifiedMillis;
+  }
+  public function getLastModifiedMillis()
+  {
+    return $this->lastModifiedMillis;
+  }
+  public function setProgressValue($progressValue)
+  {
+    $this->progressValue = $progressValue;
+  }
+  public function getProgressValue()
+  {
+    return $this->progressValue;
+  }
+  public function setTitle($title)
+  {
+    $this->title = $title;
+  }
+  public function getTitle()
+  {
+    return $this->title;
+  }
+  public function setType($type)
+  {
+    $this->type = $type;
+  }
+  public function getType()
+  {
+    return $this->type;
+  }
+  public function setUniqueName($uniqueName)
+  {
+    $this->uniqueName = $uniqueName;
+  }
+  public function getUniqueName()
+  {
+    return $this->uniqueName;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Snapshot::class, 'Google_Service_Games_Snapshot');

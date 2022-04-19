@@ -1,66 +1,298 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for NetworkManagement (v1).
+ *
+ * <p>
+ * The Network Management API provides a collection of network performance
+ * monitoring and diagnostic capabilities.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class NetworkManagement extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+
+  public $projects_locations;
+  public $projects_locations_global_connectivityTests;
+  public $projects_locations_global_operations;
+
+  /**
+   * Constructs the internal representation of the NetworkManagement service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://networkmanagement.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'networkmanagement';
+
+    $this->projects_locations = new NetworkManagement\Resource\ProjectsLocations(
+        $this,
+        $this->serviceName,
+        'locations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+name}/locations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_global_connectivityTests = new NetworkManagement\Resource\ProjectsLocationsNetworkmanagementGlobalConnectivityTests(
+        $this,
+        $this->serviceName,
+        'connectivityTests',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/connectivityTests',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'testId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1/{+resource}:getIamPolicy',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'options.requestedPolicyVersion' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/connectivityTests',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'rerun' => [
+              'path' => 'v1/{+name}:rerun',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_global_operations = new NetworkManagement\Resource\ProjectsLocationsNetworkmanagementGlobalOperations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'cancel' => [
+              'path' => 'v1/{+name}:cancel',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+name}/operations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(NetworkManagement::class, 'Google_Service_NetworkManagement');

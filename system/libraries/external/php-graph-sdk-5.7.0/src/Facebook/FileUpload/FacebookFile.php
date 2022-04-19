@@ -1,70 +1,169 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/**
+ * Copyright 2017 Facebook, Inc.
+ *
+ * You are hereby granted a non-exclusive, worldwide, royalty-free license to
+ * use, copy, modify, and distribute this software in source code or binary
+ * form for use in connection with the web services and APIs provided by
+ * Facebook.
+ *
+ * As with any software that integrates with the Facebook platform, your use
+ * of this software is subject to the Facebook Developer Principles and
+ * Policies [http://developers.facebook.com/policy/]. This copyright notice
+ * shall be included in all copies or substantial portions of the software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+ * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+ *
+ */
+namespace Facebook\FileUpload;
+
+use Facebook\Exceptions\FacebookSDKException;
+
+/**
+ * Class FacebookFile
+ *
+ * @package Facebook
+ */
+class FacebookFile
+{
+    /**
+     * @var string The path to the file on the system.
+     */
+    protected $path;
+
+    /**
+     * @var int The maximum bytes to read. Defaults to -1 (read all the remaining buffer).
+     */
+    private $maxLength;
+
+    /**
+     * @var int Seek to the specified offset before reading. If this number is negative, no seeking will occur and reading will start from the current position.
+     */
+    private $offset;
+
+    /**
+     * @var resource The stream pointing to the file.
+     */
+    protected $stream;
+
+    /**
+     * Creates a new FacebookFile entity.
+     *
+     * @param string $filePath
+     * @param int $maxLength
+     * @param int $offset
+     *
+     * @throws FacebookSDKException
+     */
+    public function __construct($filePath, $maxLength = -1, $offset = -1)
+    {
+        $this->path = $filePath;
+        $this->maxLength = $maxLength;
+        $this->offset = $offset;
+        $this->open();
+    }
+
+    /**
+     * Closes the stream when destructed.
+     */
+    public function __destruct()
+    {
+        $this->close();
+    }
+
+    /**
+     * Opens a stream for the file.
+     *
+     * @throws FacebookSDKException
+     */
+    public function open()
+    {
+        if (!$this->isRemoteFile($this->path) && !is_readable($this->path)) {
+            throw new FacebookSDKException('Failed to create FacebookFile entity. Unable to read resource: ' . $this->path . '.');
+        }
+
+        $this->stream = fopen($this->path, 'r');
+
+        if (!$this->stream) {
+            throw new FacebookSDKException('Failed to create FacebookFile entity. Unable to open resource: ' . $this->path . '.');
+        }
+    }
+
+    /**
+     * Stops the file stream.
+     */
+    public function close()
+    {
+        if (is_resource($this->stream)) {
+            fclose($this->stream);
+        }
+    }
+
+    /**
+     * Return the contents of the file.
+     *
+     * @return string
+     */
+    public function getContents()
+    {
+        return stream_get_contents($this->stream, $this->maxLength, $this->offset);
+    }
+
+    /**
+     * Return the name of the file.
+     *
+     * @return string
+     */
+    public function getFileName()
+    {
+        return basename($this->path);
+    }
+
+    /**
+     * Return the path of the file.
+     *
+     * @return string
+     */
+    public function getFilePath()
+    {
+        return $this->path;
+    }
+
+    /**
+     * Return the size of the file.
+     *
+     * @return int
+     */
+    public function getSize()
+    {
+        return filesize($this->path);
+    }
+
+    /**
+     * Return the mimetype of the file.
+     *
+     * @return string
+     */
+    public function getMimetype()
+    {
+        return Mimetypes::getInstance()->fromFilename($this->path) ?: 'text/plain';
+    }
+
+    /**
+     * Returns true if the path to the file is remote.
+     *
+     * @param string $pathToFile
+     *
+     * @return boolean
+     */
+    protected function isRemoteFile($pathToFile)
+    {
+        return preg_match('/^(https?|ftp):\/\/.*/', $pathToFile) === 1;
+    }
+}

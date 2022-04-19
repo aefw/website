@@ -1,69 +1,124 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Firestore;
+
+class FieldTransform extends \Google\Model
+{
+  protected $appendMissingElementsType = ArrayValue::class;
+  protected $appendMissingElementsDataType = '';
+  public $fieldPath;
+  protected $incrementType = Value::class;
+  protected $incrementDataType = '';
+  protected $maximumType = Value::class;
+  protected $maximumDataType = '';
+  protected $minimumType = Value::class;
+  protected $minimumDataType = '';
+  protected $removeAllFromArrayType = ArrayValue::class;
+  protected $removeAllFromArrayDataType = '';
+  public $setToServerValue;
+
+  /**
+   * @param ArrayValue
+   */
+  public function setAppendMissingElements(ArrayValue $appendMissingElements)
+  {
+    $this->appendMissingElements = $appendMissingElements;
+  }
+  /**
+   * @return ArrayValue
+   */
+  public function getAppendMissingElements()
+  {
+    return $this->appendMissingElements;
+  }
+  public function setFieldPath($fieldPath)
+  {
+    $this->fieldPath = $fieldPath;
+  }
+  public function getFieldPath()
+  {
+    return $this->fieldPath;
+  }
+  /**
+   * @param Value
+   */
+  public function setIncrement(Value $increment)
+  {
+    $this->increment = $increment;
+  }
+  /**
+   * @return Value
+   */
+  public function getIncrement()
+  {
+    return $this->increment;
+  }
+  /**
+   * @param Value
+   */
+  public function setMaximum(Value $maximum)
+  {
+    $this->maximum = $maximum;
+  }
+  /**
+   * @return Value
+   */
+  public function getMaximum()
+  {
+    return $this->maximum;
+  }
+  /**
+   * @param Value
+   */
+  public function setMinimum(Value $minimum)
+  {
+    $this->minimum = $minimum;
+  }
+  /**
+   * @return Value
+   */
+  public function getMinimum()
+  {
+    return $this->minimum;
+  }
+  /**
+   * @param ArrayValue
+   */
+  public function setRemoveAllFromArray(ArrayValue $removeAllFromArray)
+  {
+    $this->removeAllFromArray = $removeAllFromArray;
+  }
+  /**
+   * @return ArrayValue
+   */
+  public function getRemoveAllFromArray()
+  {
+    return $this->removeAllFromArray;
+  }
+  public function setSetToServerValue($setToServerValue)
+  {
+    $this->setToServerValue = $setToServerValue;
+  }
+  public function getSetToServerValue()
+  {
+    return $this->setToServerValue;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(FieldTransform::class, 'Google_Service_Firestore_FieldTransform');

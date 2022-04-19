@@ -1,67 +1,121 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-knzyQMnLT3zsbRUdQGCKvG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Logging\Resource;
+
+use Google\Service\Logging\ListLogMetricsResponse;
+use Google\Service\Logging\LogMetric;
+use Google\Service\Logging\LoggingEmpty;
+
+/**
+ * The "metrics" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $loggingService = new Google\Service\Logging(...);
+ *   $metrics = $loggingService->metrics;
+ *  </code>
+ */
+class ProjectsMetrics extends \Google\Service\Resource
+{
+  /**
+   * Creates a logs-based metric. (metrics.create)
+   *
+   * @param string $parent Required. The resource name of the project in which to
+   * create the metric: "projects/[PROJECT_ID]" The new metric must be provided in
+   * the request.
+   * @param LogMetric $postBody
+   * @param array $optParams Optional parameters.
+   * @return LogMetric
+   */
+  public function create($parent, LogMetric $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], LogMetric::class);
+  }
+  /**
+   * Deletes a logs-based metric. (metrics.delete)
+   *
+   * @param string $metricName Required. The resource name of the metric to
+   * delete: "projects/[PROJECT_ID]/metrics/[METRIC_ID]"
+   * @param array $optParams Optional parameters.
+   * @return LoggingEmpty
+   */
+  public function delete($metricName, $optParams = [])
+  {
+    $params = ['metricName' => $metricName];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], LoggingEmpty::class);
+  }
+  /**
+   * Gets a logs-based metric. (metrics.get)
+   *
+   * @param string $metricName Required. The resource name of the desired metric:
+   * "projects/[PROJECT_ID]/metrics/[METRIC_ID]"
+   * @param array $optParams Optional parameters.
+   * @return LogMetric
+   */
+  public function get($metricName, $optParams = [])
+  {
+    $params = ['metricName' => $metricName];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], LogMetric::class);
+  }
+  /**
+   * Lists logs-based metrics. (metrics.listProjectsMetrics)
+   *
+   * @param string $parent Required. The name of the project containing the
+   * metrics: "projects/[PROJECT_ID]"
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Optional. The maximum number of results to return
+   * from this request. Non-positive values are ignored. The presence of
+   * nextPageToken in the response indicates that more results might be available.
+   * @opt_param string pageToken Optional. If present, then retrieve the next
+   * batch of results from the preceding call to this method. pageToken must be
+   * the value of nextPageToken from the previous response. The values of other
+   * method parameters should be identical to those in the previous call.
+   * @return ListLogMetricsResponse
+   */
+  public function listProjectsMetrics($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListLogMetricsResponse::class);
+  }
+  /**
+   * Creates or updates a logs-based metric. (metrics.update)
+   *
+   * @param string $metricName Required. The resource name of the metric to
+   * update: "projects/[PROJECT_ID]/metrics/[METRIC_ID]" The updated metric must
+   * be provided in the request and it's name field must be the same as
+   * [METRIC_ID] If the metric does not exist in [PROJECT_ID], then a new metric
+   * is created.
+   * @param LogMetric $postBody
+   * @param array $optParams Optional parameters.
+   * @return LogMetric
+   */
+  public function update($metricName, LogMetric $postBody, $optParams = [])
+  {
+    $params = ['metricName' => $metricName, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], LogMetric::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsMetrics::class, 'Google_Service_Logging_Resource_ProjectsMetrics');

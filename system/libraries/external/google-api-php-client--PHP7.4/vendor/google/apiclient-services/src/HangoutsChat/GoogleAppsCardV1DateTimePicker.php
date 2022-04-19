@@ -1,65 +1,87 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\HangoutsChat;
+
+class GoogleAppsCardV1DateTimePicker extends \Google\Model
+{
+  public $label;
+  public $name;
+  protected $onChangeActionType = GoogleAppsCardV1Action::class;
+  protected $onChangeActionDataType = '';
+  public $timezoneOffsetDate;
+  public $type;
+  public $valueMsEpoch;
+
+  public function setLabel($label)
+  {
+    $this->label = $label;
+  }
+  public function getLabel()
+  {
+    return $this->label;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  /**
+   * @param GoogleAppsCardV1Action
+   */
+  public function setOnChangeAction(GoogleAppsCardV1Action $onChangeAction)
+  {
+    $this->onChangeAction = $onChangeAction;
+  }
+  /**
+   * @return GoogleAppsCardV1Action
+   */
+  public function getOnChangeAction()
+  {
+    return $this->onChangeAction;
+  }
+  public function setTimezoneOffsetDate($timezoneOffsetDate)
+  {
+    $this->timezoneOffsetDate = $timezoneOffsetDate;
+  }
+  public function getTimezoneOffsetDate()
+  {
+    return $this->timezoneOffsetDate;
+  }
+  public function setType($type)
+  {
+    $this->type = $type;
+  }
+  public function getType()
+  {
+    return $this->type;
+  }
+  public function setValueMsEpoch($valueMsEpoch)
+  {
+    $this->valueMsEpoch = $valueMsEpoch;
+  }
+  public function getValueMsEpoch()
+  {
+    return $this->valueMsEpoch;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleAppsCardV1DateTimePicker::class, 'Google_Service_HangoutsChat_GoogleAppsCardV1DateTimePicker');

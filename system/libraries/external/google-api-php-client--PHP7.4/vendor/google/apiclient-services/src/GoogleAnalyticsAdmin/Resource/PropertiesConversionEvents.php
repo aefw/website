@@ -1,66 +1,107 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-JSdZjcTxTpBwOk1/O6JCeNm51ZEE9nEapq4vL0==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\GoogleAnalyticsAdmin\Resource;
+
+use Google\Service\GoogleAnalyticsAdmin\GoogleAnalyticsAdminV1alphaConversionEvent;
+use Google\Service\GoogleAnalyticsAdmin\GoogleAnalyticsAdminV1alphaListConversionEventsResponse;
+use Google\Service\GoogleAnalyticsAdmin\GoogleProtobufEmpty;
+
+/**
+ * The "conversionEvents" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $analyticsadminService = new Google\Service\GoogleAnalyticsAdmin(...);
+ *   $conversionEvents = $analyticsadminService->conversionEvents;
+ *  </code>
+ */
+class PropertiesConversionEvents extends \Google\Service\Resource
+{
+  /**
+   * Creates a conversion event with the specified attributes.
+   * (conversionEvents.create)
+   *
+   * @param string $parent Required. The resource name of the parent property
+   * where this conversion event will be created. Format: properties/123
+   * @param GoogleAnalyticsAdminV1alphaConversionEvent $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleAnalyticsAdminV1alphaConversionEvent
+   */
+  public function create($parent, GoogleAnalyticsAdminV1alphaConversionEvent $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleAnalyticsAdminV1alphaConversionEvent::class);
+  }
+  /**
+   * Deletes a conversion event in a property. (conversionEvents.delete)
+   *
+   * @param string $name Required. The resource name of the conversion event to
+   * delete. Format: properties/{property}/conversionEvents/{conversion_event}
+   * Example: "properties/123/conversionEvents/456"
+   * @param array $optParams Optional parameters.
+   * @return GoogleProtobufEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
+  }
+  /**
+   * Retrieve a single conversion event. (conversionEvents.get)
+   *
+   * @param string $name Required. The resource name of the conversion event to
+   * retrieve. Format: properties/{property}/conversionEvents/{conversion_event}
+   * Example: "properties/123/conversionEvents/456"
+   * @param array $optParams Optional parameters.
+   * @return GoogleAnalyticsAdminV1alphaConversionEvent
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleAnalyticsAdminV1alphaConversionEvent::class);
+  }
+  /**
+   * Returns a list of conversion events in the specified parent property. Returns
+   * an empty list if no conversion events are found.
+   * (conversionEvents.listPropertiesConversionEvents)
+   *
+   * @param string $parent Required. The resource name of the parent property.
+   * Example: 'properties/123'
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The maximum number of resources to return. If
+   * unspecified, at most 50 resources will be returned. The maximum value is 200;
+   * (higher values will be coerced to the maximum)
+   * @opt_param string pageToken A page token, received from a previous
+   * `ListConversionEvents` call. Provide this to retrieve the subsequent page.
+   * When paginating, all other parameters provided to `ListConversionEvents` must
+   * match the call that provided the page token.
+   * @return GoogleAnalyticsAdminV1alphaListConversionEventsResponse
+   */
+  public function listPropertiesConversionEvents($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleAnalyticsAdminV1alphaListConversionEventsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PropertiesConversionEvents::class, 'Google_Service_GoogleAnalyticsAdmin_Resource_PropertiesConversionEvents');

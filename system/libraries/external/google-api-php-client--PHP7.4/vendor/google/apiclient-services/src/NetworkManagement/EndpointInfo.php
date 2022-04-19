@@ -1,66 +1,89 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\NetworkManagement;
+
+class EndpointInfo extends \Google\Model
+{
+  public $destinationIp;
+  public $destinationNetworkUri;
+  public $destinationPort;
+  public $protocol;
+  public $sourceIp;
+  public $sourceNetworkUri;
+  public $sourcePort;
+
+  public function setDestinationIp($destinationIp)
+  {
+    $this->destinationIp = $destinationIp;
+  }
+  public function getDestinationIp()
+  {
+    return $this->destinationIp;
+  }
+  public function setDestinationNetworkUri($destinationNetworkUri)
+  {
+    $this->destinationNetworkUri = $destinationNetworkUri;
+  }
+  public function getDestinationNetworkUri()
+  {
+    return $this->destinationNetworkUri;
+  }
+  public function setDestinationPort($destinationPort)
+  {
+    $this->destinationPort = $destinationPort;
+  }
+  public function getDestinationPort()
+  {
+    return $this->destinationPort;
+  }
+  public function setProtocol($protocol)
+  {
+    $this->protocol = $protocol;
+  }
+  public function getProtocol()
+  {
+    return $this->protocol;
+  }
+  public function setSourceIp($sourceIp)
+  {
+    $this->sourceIp = $sourceIp;
+  }
+  public function getSourceIp()
+  {
+    return $this->sourceIp;
+  }
+  public function setSourceNetworkUri($sourceNetworkUri)
+  {
+    $this->sourceNetworkUri = $sourceNetworkUri;
+  }
+  public function getSourceNetworkUri()
+  {
+    return $this->sourceNetworkUri;
+  }
+  public function setSourcePort($sourcePort)
+  {
+    $this->sourcePort = $sourcePort;
+  }
+  public function getSourcePort()
+  {
+    return $this->sourcePort;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(EndpointInfo::class, 'Google_Service_NetworkManagement_EndpointInfo');

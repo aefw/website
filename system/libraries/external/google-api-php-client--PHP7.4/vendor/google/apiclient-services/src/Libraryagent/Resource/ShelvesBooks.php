@@ -1,59 +1,103 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-FH4j39TEAHwIW7NNp5fcBjQ2arYWmQ19E/Qj
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Libraryagent\Resource;
+
+use Google\Service\Libraryagent\GoogleExampleLibraryagentV1Book;
+use Google\Service\Libraryagent\GoogleExampleLibraryagentV1ListBooksResponse;
+
+/**
+ * The "books" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $libraryagentService = new Google\Service\Libraryagent(...);
+ *   $books = $libraryagentService->books;
+ *  </code>
+ */
+class ShelvesBooks extends \Google\Service\Resource
+{
+  /**
+   * Borrow a book from the library. Returns the book if it is borrowed
+   * successfully. Returns NOT_FOUND if the book does not exist in the library.
+   * Returns quota exceeded error if the amount of books borrowed exceeds
+   * allocation quota in any dimensions. (books.borrow)
+   *
+   * @param string $name Required. The name of the book to borrow.
+   * @param array $optParams Optional parameters.
+   * @return GoogleExampleLibraryagentV1Book
+   */
+  public function borrow($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('borrow', [$params], GoogleExampleLibraryagentV1Book::class);
+  }
+  /**
+   * Gets a book. Returns NOT_FOUND if the book does not exist. (books.get)
+   *
+   * @param string $name Required. The name of the book to retrieve.
+   * @param array $optParams Optional parameters.
+   * @return GoogleExampleLibraryagentV1Book
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleExampleLibraryagentV1Book::class);
+  }
+  /**
+   * Lists books in a shelf. The order is unspecified but deterministic. Newly
+   * created books will not necessarily be added to the end of this list. Returns
+   * NOT_FOUND if the shelf does not exist. (books.listShelvesBooks)
+   *
+   * @param string $parent Required. The name of the shelf whose books we'd like
+   * to list.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Requested page size. Server may return fewer books
+   * than requested. If unspecified, server will pick an appropriate default.
+   * @opt_param string pageToken A token identifying a page of results the server
+   * should return. Typically, this is the value of
+   * ListBooksResponse.next_page_token. returned from the previous call to
+   * `ListBooks` method.
+   * @return GoogleExampleLibraryagentV1ListBooksResponse
+   */
+  public function listShelvesBooks($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleExampleLibraryagentV1ListBooksResponse::class);
+  }
+  /**
+   * Return a book to the library. Returns the book if it is returned to the
+   * library successfully. Returns error if the book does not belong to the
+   * library or the users didn't borrow before. (books.returnShelvesBooks)
+   *
+   * @param string $name Required. The name of the book to return.
+   * @param array $optParams Optional parameters.
+   * @return GoogleExampleLibraryagentV1Book
+   */
+  public function returnShelvesBooks($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('return', [$params], GoogleExampleLibraryagentV1Book::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ShelvesBooks::class, 'Google_Service_Libraryagent_Resource_ShelvesBooks');

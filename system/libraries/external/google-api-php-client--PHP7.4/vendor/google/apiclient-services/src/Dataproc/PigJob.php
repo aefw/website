@@ -1,69 +1,104 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-OqLDyDvi02wMEaJPqHlRrAJVTipn
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dataproc;
+
+class PigJob extends \Google\Collection
+{
+  protected $collection_key = 'jarFileUris';
+  public $continueOnFailure;
+  public $jarFileUris;
+  protected $loggingConfigType = LoggingConfig::class;
+  protected $loggingConfigDataType = '';
+  public $properties;
+  public $queryFileUri;
+  protected $queryListType = QueryList::class;
+  protected $queryListDataType = '';
+  public $scriptVariables;
+
+  public function setContinueOnFailure($continueOnFailure)
+  {
+    $this->continueOnFailure = $continueOnFailure;
+  }
+  public function getContinueOnFailure()
+  {
+    return $this->continueOnFailure;
+  }
+  public function setJarFileUris($jarFileUris)
+  {
+    $this->jarFileUris = $jarFileUris;
+  }
+  public function getJarFileUris()
+  {
+    return $this->jarFileUris;
+  }
+  /**
+   * @param LoggingConfig
+   */
+  public function setLoggingConfig(LoggingConfig $loggingConfig)
+  {
+    $this->loggingConfig = $loggingConfig;
+  }
+  /**
+   * @return LoggingConfig
+   */
+  public function getLoggingConfig()
+  {
+    return $this->loggingConfig;
+  }
+  public function setProperties($properties)
+  {
+    $this->properties = $properties;
+  }
+  public function getProperties()
+  {
+    return $this->properties;
+  }
+  public function setQueryFileUri($queryFileUri)
+  {
+    $this->queryFileUri = $queryFileUri;
+  }
+  public function getQueryFileUri()
+  {
+    return $this->queryFileUri;
+  }
+  /**
+   * @param QueryList
+   */
+  public function setQueryList(QueryList $queryList)
+  {
+    $this->queryList = $queryList;
+  }
+  /**
+   * @return QueryList
+   */
+  public function getQueryList()
+  {
+    return $this->queryList;
+  }
+  public function setScriptVariables($scriptVariables)
+  {
+    $this->scriptVariables = $scriptVariables;
+  }
+  public function getScriptVariables()
+  {
+    return $this->scriptVariables;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PigJob::class, 'Google_Service_Dataproc_PigJob');

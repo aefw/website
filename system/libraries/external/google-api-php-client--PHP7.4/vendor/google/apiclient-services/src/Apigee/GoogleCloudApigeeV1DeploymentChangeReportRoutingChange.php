@@ -1,65 +1,85 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Cokb7byUZRPd584pSWgtQFa4hm==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Apigee;
+
+class GoogleCloudApigeeV1DeploymentChangeReportRoutingChange extends \Google\Model
+{
+  public $description;
+  public $environmentGroup;
+  protected $fromDeploymentType = GoogleCloudApigeeV1DeploymentChangeReportRoutingDeployment::class;
+  protected $fromDeploymentDataType = '';
+  public $shouldSequenceRollout;
+  protected $toDeploymentType = GoogleCloudApigeeV1DeploymentChangeReportRoutingDeployment::class;
+  protected $toDeploymentDataType = '';
+
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setEnvironmentGroup($environmentGroup)
+  {
+    $this->environmentGroup = $environmentGroup;
+  }
+  public function getEnvironmentGroup()
+  {
+    return $this->environmentGroup;
+  }
+  /**
+   * @param GoogleCloudApigeeV1DeploymentChangeReportRoutingDeployment
+   */
+  public function setFromDeployment(GoogleCloudApigeeV1DeploymentChangeReportRoutingDeployment $fromDeployment)
+  {
+    $this->fromDeployment = $fromDeployment;
+  }
+  /**
+   * @return GoogleCloudApigeeV1DeploymentChangeReportRoutingDeployment
+   */
+  public function getFromDeployment()
+  {
+    return $this->fromDeployment;
+  }
+  public function setShouldSequenceRollout($shouldSequenceRollout)
+  {
+    $this->shouldSequenceRollout = $shouldSequenceRollout;
+  }
+  public function getShouldSequenceRollout()
+  {
+    return $this->shouldSequenceRollout;
+  }
+  /**
+   * @param GoogleCloudApigeeV1DeploymentChangeReportRoutingDeployment
+   */
+  public function setToDeployment(GoogleCloudApigeeV1DeploymentChangeReportRoutingDeployment $toDeployment)
+  {
+    $this->toDeployment = $toDeployment;
+  }
+  /**
+   * @return GoogleCloudApigeeV1DeploymentChangeReportRoutingDeployment
+   */
+  public function getToDeployment()
+  {
+    return $this->toDeployment;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudApigeeV1DeploymentChangeReportRoutingChange::class, 'Google_Service_Apigee_GoogleCloudApigeeV1DeploymentChangeReportRoutingChange');

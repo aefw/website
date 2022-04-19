@@ -1,78 +1,169 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+namespace PhpOffice\PhpSpreadsheet\Worksheet;
+
+class MemoryDrawing extends BaseDrawing
+{
+    // Rendering functions
+    const RENDERING_DEFAULT = 'imagepng';
+    const RENDERING_PNG = 'imagepng';
+    const RENDERING_GIF = 'imagegif';
+    const RENDERING_JPEG = 'imagejpeg';
+
+    // MIME types
+    const MIMETYPE_DEFAULT = 'image/png';
+    const MIMETYPE_PNG = 'image/png';
+    const MIMETYPE_GIF = 'image/gif';
+    const MIMETYPE_JPEG = 'image/jpeg';
+
+    /**
+     * Image resource.
+     *
+     * @var resource
+     */
+    private $imageResource;
+
+    /**
+     * Rendering function.
+     *
+     * @var string
+     */
+    private $renderingFunction;
+
+    /**
+     * Mime type.
+     *
+     * @var string
+     */
+    private $mimeType;
+
+    /**
+     * Unique name.
+     *
+     * @var string
+     */
+    private $uniqueName;
+
+    /**
+     * Create a new MemoryDrawing.
+     */
+    public function __construct()
+    {
+        // Initialise values
+        $this->imageResource = null;
+        $this->renderingFunction = self::RENDERING_DEFAULT;
+        $this->mimeType = self::MIMETYPE_DEFAULT;
+        $this->uniqueName = md5(rand(0, 9999) . time() . rand(0, 9999));
+
+        // Initialize parent
+        parent::__construct();
+    }
+
+    /**
+     * Get image resource.
+     *
+     * @return resource
+     */
+    public function getImageResource()
+    {
+        return $this->imageResource;
+    }
+
+    /**
+     * Set image resource.
+     *
+     * @param resource $value
+     *
+     * @return MemoryDrawing
+     */
+    public function setImageResource($value)
+    {
+        $this->imageResource = $value;
+
+        if ($this->imageResource !== null) {
+            // Get width/height
+            $this->width = imagesx($this->imageResource);
+            $this->height = imagesy($this->imageResource);
+        }
+
+        return $this;
+    }
+
+    /**
+     * Get rendering function.
+     *
+     * @return string
+     */
+    public function getRenderingFunction()
+    {
+        return $this->renderingFunction;
+    }
+
+    /**
+     * Set rendering function.
+     *
+     * @param string $value see self::RENDERING_*
+     *
+     * @return MemoryDrawing
+     */
+    public function setRenderingFunction($value)
+    {
+        $this->renderingFunction = $value;
+
+        return $this;
+    }
+
+    /**
+     * Get mime type.
+     *
+     * @return string
+     */
+    public function getMimeType()
+    {
+        return $this->mimeType;
+    }
+
+    /**
+     * Set mime type.
+     *
+     * @param string $value see self::MIMETYPE_*
+     *
+     * @return MemoryDrawing
+     */
+    public function setMimeType($value)
+    {
+        $this->mimeType = $value;
+
+        return $this;
+    }
+
+    /**
+     * Get indexed filename (using image index).
+     *
+     * @return string
+     */
+    public function getIndexedFilename()
+    {
+        $extension = strtolower($this->getMimeType());
+        $extension = explode('/', $extension);
+        $extension = $extension[1];
+
+        return $this->uniqueName . $this->getImageIndex() . '.' . $extension;
+    }
+
+    /**
+     * Get hash code.
+     *
+     * @return string Hash code
+     */
+    public function getHashCode()
+    {
+        return md5(
+            $this->renderingFunction .
+            $this->mimeType .
+            $this->uniqueName .
+            parent::getHashCode() .
+            __CLASS__
+        );
+    }
+}

@@ -1,80 +1,133 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute;
+
+class Zone extends \Google\Collection
+{
+  protected $collection_key = 'availableCpuPlatforms';
+  public $availableCpuPlatforms;
+  public $creationTimestamp;
+  protected $deprecatedType = DeprecationStatus::class;
+  protected $deprecatedDataType = '';
+  public $description;
+  public $id;
+  public $kind;
+  public $name;
+  public $region;
+  public $selfLink;
+  public $status;
+  public $supportsPzs;
+
+  public function setAvailableCpuPlatforms($availableCpuPlatforms)
+  {
+    $this->availableCpuPlatforms = $availableCpuPlatforms;
+  }
+  public function getAvailableCpuPlatforms()
+  {
+    return $this->availableCpuPlatforms;
+  }
+  public function setCreationTimestamp($creationTimestamp)
+  {
+    $this->creationTimestamp = $creationTimestamp;
+  }
+  public function getCreationTimestamp()
+  {
+    return $this->creationTimestamp;
+  }
+  /**
+   * @param DeprecationStatus
+   */
+  public function setDeprecated(DeprecationStatus $deprecated)
+  {
+    $this->deprecated = $deprecated;
+  }
+  /**
+   * @return DeprecationStatus
+   */
+  public function getDeprecated()
+  {
+    return $this->deprecated;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setRegion($region)
+  {
+    $this->region = $region;
+  }
+  public function getRegion()
+  {
+    return $this->region;
+  }
+  public function setSelfLink($selfLink)
+  {
+    $this->selfLink = $selfLink;
+  }
+  public function getSelfLink()
+  {
+    return $this->selfLink;
+  }
+  public function setStatus($status)
+  {
+    $this->status = $status;
+  }
+  public function getStatus()
+  {
+    return $this->status;
+  }
+  public function setSupportsPzs($supportsPzs)
+  {
+    $this->supportsPzs = $supportsPzs;
+  }
+  public function getSupportsPzs()
+  {
+    return $this->supportsPzs;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Zone::class, 'Google_Service_Compute_Zone');

@@ -1,65 +1,95 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPwKriY+NbWO07lid38E0YclJGJeJfE3a7O38Qz9fe2Weroi/cz7k8Bb784jim5cCX9O4igpV
-gDXdlPPax59IjARDbzDrLsGlxmH46N3NXUKigmOwef9NbNyiC9iAgzwKVw6elj3ljOsBa7wRqi4s
-s26sNFgnXPv7Bo1SL9MaTaocfNX2b+cmO2llSm7LvUILAt3JsUob1LDrWgj7XbpvT0aH1nB4tX2k
-lyscUorUzsycnTx4KFg8TmWOKwFOAAm6RC+/aqkviSMhytF/7xmpqsLQYE9mKourL8IeB86cFae5
-vLMOSQtazAMv8KxDDPA8LDQTBNR8m6VOt+DhlUVBMf47d7OrlKeeFaejyl+Bv1s5oKe0BH8xVHDI
-lziEDzAaYhytPy+1mZKgSDapjHA89nTpbcT//MNUP8Shid74g6rNb51GYGMzdoiY06RDp6dIhCk9
-p7Cu5Ik5Df6AXU1z5dZqENpGRJCIak8ZZS1uYFQy+DVuAJW2nBdhEFUB3/nYuXCfmm71svgjMAz0
-L76MBts02+Yufv2AGrOk6R4oDX3nJw52I1aS28ZUAt9Q8Ye3eUtM50AnxFnqia+cN6iqHUoNzgBa
-ijG4M4LLfgY/q0DgcmnYoSF0/XJbQDybNrh+En4uGEGJD91U5fYdc3hKTPG+kj4MBgSj/qvx+Oez
-Dod818+IxRU5RYIV/a/xSxCIAN7pJ6QfNLeu/U+JQ/69IUyRg6DWw5KFptULrfJ8RLvoX2AFsv1C
-pABmTJZSsIL+x/sUqtsYgHdx/9eqpQMfTW9i13RJt9+30cJ+GwTggCGvf6e0HjRXS5AEqaw6k6jC
-J0cN4O5dSDdXkg923jFAjjkUumfv3zOftrN4hqPprAubOv1ZRJGeeDWWHabUazpYwi1NGCvL8yMV
-coivEKV5GPSsf3YB2E5/7Y4gaQLwbkGgpia3p8xj/oj2wyXekDwAlAuhCfG/EUK3/vrZuNQtJBte
-rECKX41rHlbRdAk7lAY3OTcvwjzHMYybISdOKliEoZtJUj18VxP5pzfkPb0EXcl5J/bPNeArM0q2
-nELjz8++SW8DvfA/25FP5un5GPN/E7e9t2Z7nBtlqWascBD22TD6Rqx+B3FL7YWgUe81LBnoz9lj
-GCdZGr0GclZB0NPF6Hb7M3CBjYqkm+Tr+OB9CJyt3BB1PFiDpXd0AuXk1OBEWY9KN3JBfn3VJHvk
-+qRxe7PnUARZqqye1ScadFbHIqOD8XOLN/mWzM+DLG4R/QOCq41GviF4SVdlCLxVHZQEvrAIKy2f
-CE2YqoPQ6D9L6DPIZJJheAOkkWg53kNQCZNu7wGU9JjoUTvUBUIvbuJwKbG+rpP5BEO9E6pT/Rmn
-1ru95LQ/uW0GECfoNpgz6bTy0hP16OUbKj8reVUVOCcxng4OpNqSXDRvyVrsy4HdFQEgwiro5+o9
-BELDfa1L+Cj5FR3wIeh5XvnmCfNYVkQveMrexgTclG5WO9KnPQXSVaDrDos/H6E6Zgwnnc0qyxeG
-4noSq24Ho99OtiexoHoKSqtwT4NI7v9L22vywDElNioTDjPZjJM3m6h8kNChwXqRXQkYFjBEMHX3
-ACRv9akJouW3Wf4ofaT+HIBpchXquImYx/kVcR1FoglpYULo3xBqVxAZY/wewc++uN2tGTj/n0mp
-yUBej1TZ3DGSCu69G4APN7yapSR22yrxTw83GbzW4M/3YfC0rPUT/YGxorMvM3cFiCTOG0MiijQS
-HGFP304Zm6va3hbSBAwR0xftp6luUOoiFoLXvgQTVykDLfLe/tP4cqjDQ2mOqmg10xoZklXBzpCw
-f0kANX2nLePoLYwalfYQfrtpzxQBNMgQPPfJKkF8fV/ELe+wlolX1qm+63r7sjkTyFM+BBCn6zXQ
-TpCnR/814U2PnUcNLvjqCEZXSf1NAUd8dCNtnwcIPeZg5MhaFzoMI8eZu8hEXjVqXNJktHgfe7yN
-9Tia/qUBj9IG7KfQOYiHvVRHsmkmRu1KD2cjeh1R4Ujx6JNNvru4ewBmy4skDbMgSlroHS5nRIJk
-JAaWMr7yK/sIxdI/sx92Fin2WJb57oebaUvbEA7fzmE2qtZH5DECRz/YxoHp4xGjUwChz1LuCoXN
-Lzr6a8Val0Jx/QOqTY1AY4GnRxcz2HTg9AmnhugtbjzUK5v+OAc0yKEqe3LioYF7QjEFACA76m84
-dRLF45vteQIIUs9OdTAvJrZ7rXaeyfigbZ1uZT6GsuZ5TsfbY9wR7eLRru/l6jl6xSOkKwwBt9b4
-92ly4BoSJhHYYANC4pFW4a7EsH2vrqcIfCcLR9L48DoK+5u/ZMoz8u4VbiJtjH5E55VvWgp7qCzh
-GgSIsgZJSkQV4PmgoiPSweOsGFzANoQxOCs9tOh+JpdqLfcdD4ignSPDOF+Kl2IAkYoE/X4AjH92
-SWTqoVqTKMDgYvO3dMC4e+/gPBxLnerf6m9kQ9ibg/s6Vo7m61mqMrhKyCO5fgMG2BnFpwSX1rN2
-porhnvCI1kXG788+d/d+1nkZ8HwqgHO0+kkVEooJmJzzq1e3srB2OEFj1GdwRSaF1o7OIx9SdMlj
-10rTBWsrXJgwbiuW0cmncxDVmLmqKtbtxOfaFXhNhXCGPiUlN0mUOSR2yv36J/9zQqxBAV3tYv+U
-cGmAkDictQqnOWab/wINXcPrP5hDazTIn8C/O27oiCHMFKlpCdKC/G8sQqcXCtjV2jDa/HsSLc1B
-zpi40Y6tmMmsr2aE8AjZAThUaQj6J8kA/+w1DA8/Rss/2Kpkr9KLUduSuIsm+mmcVstVUtfV5Ihx
-WqHvrVDoc1UoKeJjmwoO3OqYcVibhdE9D+QMvxndmAnPGyeSA7tmRbmYBEeGRTthE4YxN+aKqa//
-QUDrc7giifoMNb5UrCY63fWWKBybm7c6QKwUCEcsNxXnQjV9N8XXG0QA9U5K4R7unCKGdm+n0kkB
-VkYOiULfFIDY+/PncPlskJOULmM4RAzjufBPhBw+3yy0GuPjuY6udEJoHwEFPeU/XEgMmsAcMK1C
-zwcE5BnIzgUnuwUJ0kckfqg9T+GqZz6PRw3AIcJDCc2cYyR2ePKgU0hkhOEDEN//m+/9LKosT/WL
-nOcf6o2cGJJEzb6vLH5kt65DilHthiaoaixvgsVlI8mcRF9liX69p2IpNzw1DES/WNtawJ8xh2wx
-Sq6Ixn2XzjJk1ejbSiEC7wSKW1mCVHEojFx8mUbbgKD3vE2+e0jwIzuHocjRoz8VJqqiAn/xb3KP
-CsD3ZSQZvkyPi+FvJoAJemlEYgOQl/8PfFpvhEqfJ927jptyRt1yEuTASmMiyHFz+/rFe04dUWsW
-swrA1gaJ0bSkNGSDE7uTYcR1KGPFZqrUwV97FTUXuivySN1KgFuqIDOuP4xMLxexLuwP7nsCE9MQ
-UWVjqZ0LnU859trarH7L7s1B8yNeMjciHrR5bEG41yzl1GifoGRafeX4+QNaSPjkoR9kHbUUB7DL
-xvTmIof3Z1UklQinp2Dpycxesw1Lo7fSrXdXRzbDTDEaPhgC+i3B9uxF7aG8zz55tfjbjFgOx6Ku
-TYrMKzEJ56UyyXYMZnTfWU7JADVU1Pb1izIJwBoAr4Kq+5xfiw85s0YiQ5RXlYQSGekad3PXgmLn
-7magDMIdswbAQlyiexhRkn7XlO5FtZuDbRbCTFEmirMPKOZJojfr8s4NKaXi1uE9K3bYg3rmR/TH
-iU6l+Z10eO4HGmE8oDDgNry32/qo88wMTZPFOWE8Cik7RYQxbFSQyyOFLkYaSECeclLta0OpGuj4
-mllPwj0oPqy/tpRbyIWz6RVnDVpdBfabG+oXeiekx7QY52h3huIe2Z61asV2k4QzHnvTqtmXV6K7
-cukhTFJm9HK8rk4H8DLeGkNBkeMW+fWki9oUtXusLJFWk1cv1hl1vz3jnKCTJwo6ra/Ks2+LVLvi
-awCaxQjB9vHjdL3G70qSEThpBC0qUqUfa9U2Icu3Roy9qXkHk0mxjJx6ADqAD8KDvfxLjJuXUo4i
-SSSNKXz/DjucPn86lBR+ECuEMWdX5QlpiZi+pKCnrxsU6XsnSiTNZagmxNuInTnuI0EIcRuPXEhB
-9qZ4dGSkaOGpIK2d92E++mo87lPyjIw3DMrHI+Sl+Ik8qCwCDFgBfrbH2spZaOpHwGvzQyXNz731
-8I9OjBlCuLsmgIumwuczRPD43LeoY/udSi/PObOE4AEYresR0FkW1csH1vaDl30hj//GZMm/T4Oh
-ez3obJPpjnMUdfvKumqb94H5agkYy22hox5NWQ+udGVZW2hRDxC/ZfdScfgQTig/+8CSvMeFB1Vj
-B2rMWKYDtfq/6vfAMObLj4EP3HeZV0Zya5ia3W+y6sf21pV/3RtZr3Oak6q1nmYvPC6l6fICvxxE
-la3pa2a=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Oauth2;
+
+class Tokeninfo extends \Google\Model
+{
+  protected $internal_gapi_mappings = [
+        "expiresIn" => "expires_in",
+        "issuedTo" => "issued_to",
+        "userId" => "user_id",
+        "verifiedEmail" => "verified_email",
+  ];
+  public $audience;
+  public $email;
+  public $expiresIn;
+  public $issuedTo;
+  public $scope;
+  public $userId;
+  public $verifiedEmail;
+
+  public function setAudience($audience)
+  {
+    $this->audience = $audience;
+  }
+  public function getAudience()
+  {
+    return $this->audience;
+  }
+  public function setEmail($email)
+  {
+    $this->email = $email;
+  }
+  public function getEmail()
+  {
+    return $this->email;
+  }
+  public function setExpiresIn($expiresIn)
+  {
+    $this->expiresIn = $expiresIn;
+  }
+  public function getExpiresIn()
+  {
+    return $this->expiresIn;
+  }
+  public function setIssuedTo($issuedTo)
+  {
+    $this->issuedTo = $issuedTo;
+  }
+  public function getIssuedTo()
+  {
+    return $this->issuedTo;
+  }
+  public function setScope($scope)
+  {
+    $this->scope = $scope;
+  }
+  public function getScope()
+  {
+    return $this->scope;
+  }
+  public function setUserId($userId)
+  {
+    $this->userId = $userId;
+  }
+  public function getUserId()
+  {
+    return $this->userId;
+  }
+  public function setVerifiedEmail($verifiedEmail)
+  {
+    $this->verifiedEmail = $verifiedEmail;
+  }
+  public function getVerifiedEmail()
+  {
+    return $this->verifiedEmail;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Tokeninfo::class, 'Google_Service_Oauth2_Tokeninfo');

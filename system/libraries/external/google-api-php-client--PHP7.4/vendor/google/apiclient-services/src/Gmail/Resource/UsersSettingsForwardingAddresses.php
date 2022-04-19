@@ -1,65 +1,103 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-C/ZogW==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Gmail\Resource;
+
+use Google\Service\Gmail\ForwardingAddress;
+use Google\Service\Gmail\ListForwardingAddressesResponse;
+
+/**
+ * The "forwardingAddresses" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $gmailService = new Google\Service\Gmail(...);
+ *   $forwardingAddresses = $gmailService->forwardingAddresses;
+ *  </code>
+ */
+class UsersSettingsForwardingAddresses extends \Google\Service\Resource
+{
+  /**
+   * Creates a forwarding address. If ownership verification is required, a
+   * message will be sent to the recipient and the resource's verification status
+   * will be set to `pending`; otherwise, the resource will be created with
+   * verification status set to `accepted`. This method is only available to
+   * service account clients that have been delegated domain-wide authority.
+   * (forwardingAddresses.create)
+   *
+   * @param string $userId User's email address. The special value "me" can be
+   * used to indicate the authenticated user.
+   * @param ForwardingAddress $postBody
+   * @param array $optParams Optional parameters.
+   * @return ForwardingAddress
+   */
+  public function create($userId, ForwardingAddress $postBody, $optParams = [])
+  {
+    $params = ['userId' => $userId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], ForwardingAddress::class);
+  }
+  /**
+   * Deletes the specified forwarding address and revokes any verification that
+   * may have been required. This method is only available to service account
+   * clients that have been delegated domain-wide authority.
+   * (forwardingAddresses.delete)
+   *
+   * @param string $userId User's email address. The special value "me" can be
+   * used to indicate the authenticated user.
+   * @param string $forwardingEmail The forwarding address to be deleted.
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($userId, $forwardingEmail, $optParams = [])
+  {
+    $params = ['userId' => $userId, 'forwardingEmail' => $forwardingEmail];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Gets the specified forwarding address. (forwardingAddresses.get)
+   *
+   * @param string $userId User's email address. The special value "me" can be
+   * used to indicate the authenticated user.
+   * @param string $forwardingEmail The forwarding address to be retrieved.
+   * @param array $optParams Optional parameters.
+   * @return ForwardingAddress
+   */
+  public function get($userId, $forwardingEmail, $optParams = [])
+  {
+    $params = ['userId' => $userId, 'forwardingEmail' => $forwardingEmail];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], ForwardingAddress::class);
+  }
+  /**
+   * Lists the forwarding addresses for the specified account.
+   * (forwardingAddresses.listUsersSettingsForwardingAddresses)
+   *
+   * @param string $userId User's email address. The special value "me" can be
+   * used to indicate the authenticated user.
+   * @param array $optParams Optional parameters.
+   * @return ListForwardingAddressesResponse
+   */
+  public function listUsersSettingsForwardingAddresses($userId, $optParams = [])
+  {
+    $params = ['userId' => $userId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListForwardingAddressesResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(UsersSettingsForwardingAddresses::class, 'Google_Service_Gmail_Resource_UsersSettingsForwardingAddresses');

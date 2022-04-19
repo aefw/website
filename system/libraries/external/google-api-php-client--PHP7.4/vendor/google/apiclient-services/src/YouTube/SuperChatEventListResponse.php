@@ -1,74 +1,120 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPpWxf/ZXhnl/0eppCjlOd/IjfL0xQkfro+GL5IlqgmB7XmO/vRjvU4RaQqtzojowgh86HQ84
-3CenBJl+YVaDLGJWyxS9ZVf88y7RjPo6Jihc+NXS6+KifSNt3q6YgSlfVEe36AV/L6/kMmwNh7NR
-XE65iQ0JyJTzEIX1MgfKlqkcM3LfR72BGlNrcLBdJt1JwSfoYZhyKq03CCLmYtmY3ycDM0Bnf69g
-JeQFK3WAhvuL1hpHOttuaEi3z/R6bEZO+qEJc0Zm6tdkWjBpo1fzB7wT56VYS5CkDLI4g2o1fZvA
-1ULLy7I0N+IxWF3DKYx7Y5HRvqyiaTs6NRBZjn50OCXt1hfBs6rGhbEzKJkPhxzbdlKBlblfs786
-FUaqoAiCOGAFKXJIQ+2BL6M37VgOdeHySluu+lPXvFMQpiBpqKEbVKHifW01KQure3D/f095NSQk
-M24Doe2MDMTcuWxnwicyXtw9wt72C9OVw8eByzfP+M5JdpOcKGauP9tbSStWwF1KAC78bor1adZj
-LgmtzKHf9+RMU3HNgyirts1ZrP7YA3UvCH2Wa/2HQ6BSf03UJwmzG4O+X9RrMR5Goj0fVz9OTG5E
-flbWFULBrfuZ5x2qZW65IVwxSoKYxrm0sflHYfrLY5kmmnqS1jFGGWUp3vHVKnGEVUcfPZK6PvPZ
-n9VZRoCwLg3q6BCSn1nNJub1yfC/ezFiXxvW78LwOaPTHvuzspbYTtrm4cgbIG6OMORtVyaJtb0j
-G8E2p/3DMngiPmtlxFLF29GUODF621V9D3g22zdvayj+pewbfOzaB8I0KzdGBFJ6tSwyruBNIjq6
-g/6VjjKswnWjvr7WkVGJ93VZOxRvm7xYY3ZBqc6hfuYMGbfvVBo36g56J5Pz1RNC691sO4D7xu4b
-V7b1xmpV1M9pLLwO/F2D4rykChUaCwLtWT2eYRv/k8b84fltPJue1LF3/igdbsIJV/GJjOiM4+MQ
-YAmptauX1gn4BrzUkBJKbId9funiR1YOCSuW/nMY4Cpt9mpqhEm1z0wOBs6USDsB8rCzNza8GhOl
-5pd1NcAvj6vYkyMax5rhckvcgcrm9s24Dw5nqi+wNyhYHkEF8PeGI+fL2C+V4GUSbcvqD7XiCZXH
-Zpj3rKk5Ra7C5CfYLfBdFSX42Lj+/39d0EwW+DoVaDAmHm625hnlqdPBhFjATY3gmHkCTrhEv/nm
-L+GFoa4Z/9qScmJKm4trTdf+bIl15D/pdWe3M41i4hq+bYEzoW7Sym6lccxKkIyFKIGxBDvMQ3qm
-NuPOfhFeq7iFIFi9H/CJE7CCky2WjWAGsK6pzFIrZiwo+rEZuAiaP8U8wZxrhQ/unb/FJyrSDad/
-QAOIJOIhAoa6QMnE2ZTcoxdd2svseLYGQ+L+rlXnWi8LONR0oIK8I/j6TZCu5YGk3fUOddsTuWJ7
-gPM6+rLShAflmZhR9vBn5QzG6b3JYfYxBwXL8KM/vqp9ryPUxhwvcG737+g43284L67Pc8wwW2vE
-M3eApZSVCfEo9ouYu5KhbR+A1xZenvJ2Z4wQDQgRza79BqfBIG07MvEQUSJ8zu4EdshVG+yfLMcp
-2mEGS5x45xWK57bI5QXBX6R/BCoBWJVofFOE6WGcub3DRfVIanJ46gOaetfCadFqCnm0y/vhThn9
-0GCmcgckmgYrmA42z/D1nyRMK5wxDOkt+9cSSLsTHf+Ycg2UZiuflUZ03h0SRsVxXCbfh6WXVvE7
-Vm823HpACVq8BPMLuKjSvbM3U87JZ0c9+Jy1kH4BgmEJHi6yvFyusx41YKIpipHWgHGBJyo/zNQ+
-GDb8HxnhPYwHWnjUTSafczizfAioZV55iJY8ntUWQBo/jySt6qojLXOo8MddE4fq3//Cf/mHd5Ac
-hUL703y9UfGa8nVVWxCsC5SNApuQXPq88retNS4tYZOfl/Wsug0hU2zlP7nISBfve9kjLZVUNz9U
-EJLAvKhCm3RRb3/g6nkUvWiqx8XtieWgQsNekVJ42Vnj5XISMbZP+mJ9guV7aoS2bI9TbkPK2Xvp
-N/nQoOojMPXYNVeJgrrRtLGCtssPbLLNYiXgVY7R0eC+GamS0sZURT1TbUOOr7cnabrqVeN8rdjF
-Z4/DxxNErnTRQns9XQkubPyHZSd4v/m5jT8O22d8Wm1AnDiYLVPWJu72ueXMO8A5JA7WtPSehsbS
-StJLNnmC7M/i+oLOriqq1mhW1qJsHbrYgZjDqEsQY9Lpq39bwx3+KPSvbrw8OJqwyAgsumId5d5d
-9eJa6oSbcjQQ2myIsiaUU1c8CYpuM00b0T+/rOf7Zg2LiHRjZZdoQODdvpKD63cZGaUqcKoTsFqF
-hN0lpH3bSVBx7IdBndzWeyt8Qfd5RKO6VFsILIzRkZN14GnOg//shW//qj4Cy34heja/SCjOZQTx
-wk9oIdDlLDQ/MhDjk4TtXCBC4ZhBdmiPz7SeEIMiRGlGJKq5TLLx9iLtz0UD19uBWXf2u5HBY86o
-RI2cGRqN9IoPjYUSczPenvJcEFKsgu62LPKmTlNgrTrV4tpNWShXLDQ0QUFZ5DhFDPTRNlbszKH5
-KAj61mcBoX9Av7W1bSBiu1x2OIJGDmNjvahthdXS5IEEhVavFnISClPNRq9hAiH0ZzwhrCr+T+P1
-2KkfLrs6nL2UzUrf4L2NSZB32DpA6m70Myq172vNXCtR0j4MzXAL1nbsgdsZT8VWUn+F55PsgAev
-MXLiswpzXOqMQXVFKqmwpfexqXSfSudzPSB2KMGFnHVgHYt3BMgRTFcEocI36GXabLUArA5ZfT+Z
-IE1kC3TSlDuxBgOCzT8Judpb/sp0kwCt5iJrASaXAhH4a+u0eF/Pu+bKHSdp1nGb2SOKqdP3vlod
-rdZ6TCmHzYlsgMRYVEFhHr8Td95DLYnR7ekbXKUw8+zoJRTTXe36kDAZETxbKS96Ui/WrkDDjdhF
-41FiClkWuWjQYCl5Hj29Az+S/KRsT3qiqXMib8u11CvgAW+nQZb/BGMtnt7uhP3qkql8UAkP/eRw
-ZLB2uYQHLiDdUq02mpAWAvdMMurW2WALTSM0k3SH9CoyqQsSdAnqka0xvVSverXE/pqdVgyPfCfi
-KPHtkXwqla/K/3gkK760XkZEB7xLuyzQfmpPMPfMGKh1Mpaep7t2Kdz/p3wS/wdwTsNGtBO8dYS8
-91nMRtpX2w9PoA7mBcM8AYTuGsxXd6GiGLaQAsuvVGoHHOgttHTnZI+P+jbIOMWcrhBirGP0mRpY
-RN/PnJhaZaxyqv8ra00MzzYjZQc0nnTpqiMaYo7cKfqBxOQ1OU7SNp5jy++HOojOj2m+GDOD6G9q
-W1EjkuORuo9VxnvBfDtkb2Gsl6BayXKDV2Jyti/AzcqxvvyXzXTI9lWWscHSmV5QwJH37ZHt3ciW
-IGcQ+DkoODS2jkDcfC5OGu8uAMwb1O2ah9T5LSKG2hnZylM68QyWNQAG6oINte84/bsdROm6lVHR
-w8ONgoSJMLfLQJD9f6larbpFo68Ch7vvEMC8OiXTWp+TWUONEfk4Fb2kd6XxmapERoXs2VhluoTK
-Kg4RAdRB9It5sGEWYu/NW4qMOS3H0loatbAjC8Ac5eyM9ZOO8IHpbISWlYppomUHf2ouBlyOxdLB
-Au9xpFIu1aQfDcGrqOXOZgaNMHDGuLf1BoW9yVIGgEjWgLI1wHZyf02+ZbvjqRIqfc7+rYmX8DZS
-pwd1dBkYlVdLT/dregXQEazUXJEC1CuJytcJ6sj/8h98qmnz1vr6LD8eOVpmRs/t6eyD48gZUr4H
-P5sljeQn4q/91wf+m4uoMm74Vb/m/89FenBoBsd+bc/uHKSJQKt7kWnu98qLbldOfoeaA2KTOLKh
-lh6IMoI8CZWg/xmP7fkwCT14JRnCB7wS0dXZ4+pkJ1BlLeibJB0/BshhbL1M/9XSVic4f6s1S0V+
-S9J8gPCYyeoI5DwU1KocZcA3LoIG1WTqQopAensGOIsFaJSWqtWkeYs/HynWrlwRvp+OIuCe3BvN
-9SAQLzhtbqvJphoiuiImcfZw85l33A9JRyAPGFUnb0lI9MNiB33xBTZgTlF91jRz77JktlbbnbJY
-NBlWZzv8RENdYYYC0K0lfXV3xswIyaREZhTkuvFbbOmJQtFaKW0IH0XfS9sc4KP+ZxZr04spO3bm
-wdbng4eAssk+X9D631+Ts+Z/NKazto2jt5tRCPdZYfTPQSODi12S4mWqx3vCapVRmF5o7i7jgp9V
-kiV3VyRmXanRA7ioUaEu++xkd7P/qRJD47prgRUYf+e0HKLXgAcs9Dl769Qm4tMMs81BDubd/ve/
-fp3MfYilwZvfQmh3qBOhMU+rO67sGad6lVpG/9du7+NM8GP03MCpbnAPgmgQZOQbE3QGeOpZYBR1
-VFtITjhKXUKwBzZ7XgCjTP6TZtwJs1ztKmHUZeac6uBd/J5QUApwG7ACEhAbd2zlpD4jdIuiP7U3
-8KyGwXNVjGS97KPj4hytH/hXB8y4CkxurzqsaSOdzOp0tvMbRQTd0Be66A3HKIP3E8PyftvEqfX/
-bLy5+of9HATB/7r8qlGOez7o8fT1LM5JmQdD7UIZkkElouoQJeTPxrdAttChoP/fV3IMWG4DyBlY
-4xHYjwAxo1YZosMEONytBFQ+9yWDAf2dT98rtgbmcMDoS+TqTyinpnhf7w2vRlguOlpVNMCD4TV/
-obZOXCf82C69gnvf8QlqzY+EQHsvusFMTPMDQKS0jhfSLCyJWfCK7GFS5u2u32MrVGUyUHc5PyOp
-nT+AYSQc7J4Bz1RWMvhgVs9X6/fi/z0ACNYjXGXOEBf1FKLKkyF/Ccr4yrQ9W2Um8ccOH4Nf++JJ
-JrLs2o5/HrV+LpUz8krKFul7BB+XYVPIYfHgqYQXJGsfACZaf6Re7hm/qx3w31oTNbCvod5/MHrL
-GOv8NeDoeXQwZTpAshTKORr4O1BjLUD87hj6b5odjgbD4gIoWSmVgtt3nHJi5DKnH69fauvWD5Ox
-GtSronXv7dodn+8ptI1RvasBt9WZQdbvXPzeINpi+SAZJDEzSqWOiKPKKgj0jAtGLZU0+aK7n47X
-USQlxQCdwWBb
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\YouTube;
+
+class SuperChatEventListResponse extends \Google\Collection
+{
+  protected $collection_key = 'items';
+  public $etag;
+  public $eventId;
+  protected $itemsType = SuperChatEvent::class;
+  protected $itemsDataType = 'array';
+  public $kind;
+  public $nextPageToken;
+  protected $pageInfoType = PageInfo::class;
+  protected $pageInfoDataType = '';
+  protected $tokenPaginationType = TokenPagination::class;
+  protected $tokenPaginationDataType = '';
+  public $visitorId;
+
+  public function setEtag($etag)
+  {
+    $this->etag = $etag;
+  }
+  public function getEtag()
+  {
+    return $this->etag;
+  }
+  public function setEventId($eventId)
+  {
+    $this->eventId = $eventId;
+  }
+  public function getEventId()
+  {
+    return $this->eventId;
+  }
+  /**
+   * @param SuperChatEvent[]
+   */
+  public function setItems($items)
+  {
+    $this->items = $items;
+  }
+  /**
+   * @return SuperChatEvent[]
+   */
+  public function getItems()
+  {
+    return $this->items;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setNextPageToken($nextPageToken)
+  {
+    $this->nextPageToken = $nextPageToken;
+  }
+  public function getNextPageToken()
+  {
+    return $this->nextPageToken;
+  }
+  /**
+   * @param PageInfo
+   */
+  public function setPageInfo(PageInfo $pageInfo)
+  {
+    $this->pageInfo = $pageInfo;
+  }
+  /**
+   * @return PageInfo
+   */
+  public function getPageInfo()
+  {
+    return $this->pageInfo;
+  }
+  /**
+   * @param TokenPagination
+   */
+  public function setTokenPagination(TokenPagination $tokenPagination)
+  {
+    $this->tokenPagination = $tokenPagination;
+  }
+  /**
+   * @return TokenPagination
+   */
+  public function getTokenPagination()
+  {
+    return $this->tokenPagination;
+  }
+  public function setVisitorId($visitorId)
+  {
+    $this->visitorId = $visitorId;
+  }
+  public function getVisitorId()
+  {
+    return $this->visitorId;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(SuperChatEventListResponse::class, 'Google_Service_YouTube_SuperChatEventListResponse');

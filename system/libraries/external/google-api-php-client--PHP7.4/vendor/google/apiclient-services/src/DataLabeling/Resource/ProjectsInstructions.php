@@ -1,64 +1,105 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DataLabeling\Resource;
+
+use Google\Service\DataLabeling\GoogleCloudDatalabelingV1beta1CreateInstructionRequest;
+use Google\Service\DataLabeling\GoogleCloudDatalabelingV1beta1Instruction;
+use Google\Service\DataLabeling\GoogleCloudDatalabelingV1beta1ListInstructionsResponse;
+use Google\Service\DataLabeling\GoogleLongrunningOperation;
+use Google\Service\DataLabeling\GoogleProtobufEmpty;
+
+/**
+ * The "instructions" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $datalabelingService = new Google\Service\DataLabeling(...);
+ *   $instructions = $datalabelingService->instructions;
+ *  </code>
+ */
+class ProjectsInstructions extends \Google\Service\Resource
+{
+  /**
+   * Creates an instruction for how data should be labeled. (instructions.create)
+   *
+   * @param string $parent Required. Instruction resource parent, format:
+   * projects/{project_id}
+   * @param GoogleCloudDatalabelingV1beta1CreateInstructionRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function create($parent, GoogleCloudDatalabelingV1beta1CreateInstructionRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Deletes an instruction object by resource name. (instructions.delete)
+   *
+   * @param string $name Required. Instruction resource name, format:
+   * projects/{project_id}/instructions/{instruction_id}
+   * @param array $optParams Optional parameters.
+   * @return GoogleProtobufEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
+  }
+  /**
+   * Gets an instruction by resource name. (instructions.get)
+   *
+   * @param string $name Required. Instruction resource name, format:
+   * projects/{project_id}/instructions/{instruction_id}
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudDatalabelingV1beta1Instruction
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudDatalabelingV1beta1Instruction::class);
+  }
+  /**
+   * Lists instructions for a project. Pagination is supported.
+   * (instructions.listProjectsInstructions)
+   *
+   * @param string $parent Required. Instruction resource parent, format:
+   * projects/{project_id}
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Optional. Filter is not supported at this moment.
+   * @opt_param int pageSize Optional. Requested page size. Server may return
+   * fewer results than requested. Default value is 100.
+   * @opt_param string pageToken Optional. A token identifying a page of results
+   * for the server to return. Typically obtained by
+   * ListInstructionsResponse.next_page_token of the previous
+   * [DataLabelingService.ListInstructions] call. Return first page if empty.
+   * @return GoogleCloudDatalabelingV1beta1ListInstructionsResponse
+   */
+  public function listProjectsInstructions($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleCloudDatalabelingV1beta1ListInstructionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsInstructions::class, 'Google_Service_DataLabeling_Resource_ProjectsInstructions');

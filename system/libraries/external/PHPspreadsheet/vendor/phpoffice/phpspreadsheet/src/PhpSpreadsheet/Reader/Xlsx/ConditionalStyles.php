@@ -1,85 +1,92 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPzWvmbBxhpPbylDNSISOnT1PGMusHGu21CntAmVgVh0zZeL5712dRaDawpUdJYIIrSZFPgwf
-CQ2f/hoA9AMqd7n7Xxn4ABRa5ZVfpWMn/OvJVt55qfpjIYxvjtdrWtZmR+V5zqkcHb9+AlNAUOxV
-WQmtGwKe29wNLWYxD7gNDaQA1khkpLVve18AFMx+vNM5Z3tcEChw7HBhyR9NhjfrIdScG12SCCdC
-3YbpOyKGkGwn25McKhEvjc2kQEDvTe423GbtazWF9ZsDp3T8Z1VYakv89vIPud1JBZLKXAWiWQO+
-IWNbLT1khQS6xXVGTaiHueZKu7D14H8Q7yavH9GK6yHKtDVNPgpdWGaixU0lI4lT6zvbxcCeoDsi
-3PLsyRNIudf21K+qfdDvKH/tqbS5ahhDGAVSreLGYvykmde75yLA0LEdAYoC9LqkX1wKJzgftkpN
-SOJRRg3pn9FOdl0SnTW9ndh2ETzql+8V39MWdR3vB2sgu61zLfACygmaUMTK0MqvxbkvMh2h0d5m
-4cgd/1m3BnpatQg+v+68fg+c0T7920VANk6F4V/gbDM3QFmXY+WcN945mHzpYcJkKhMMkmRlrtIj
-ON4IhnkwQQdArLBHONVMuyIwIumZ25RCzuiQ2lUsfHs6od35VOMTAQjCDvVIs+6X4Vy9fKPidv+u
-JODPnT2pkF38Ns8Tm6Devg2Ryff6uFKmQmwOawUFByPoPpDIarbAizUrQsV98Fs7a1VI/vyF5NE3
-hoUQxRGpehL8WFRjHmt5gALE4EZy1e0D1hlHFgYtlVfIlo0H6lTylHGL33I7+JFOXjq3acxxxnc5
-bHIY8X5FJh4wR21VGJFYrv2PX08nrCAGN8enyA4NDZ3pNXbp9QDMe48oMt6ZcqOf0go0+QlMn9hX
-QOtBn9qXZQkjaqLwIBjzD7t99ijyfdJoQQvISuqmZ+EksbSn/s7USxAZm5VVpbmrsFMrRKDHK+5a
-JQLsTYflVItPQUBqe23XiDOFD6AXIxZbflWQOu0ZAJGzUiHRaHFcAT/ZTnXXo/elvGLaH7eZX2Ei
-qnhe5mZkKDDHYCEma4WFA1QeLcqW0IuG47uwcBSSipsagEuIFiNXphlyZP+Fdm0W+idFt+ACnnyV
-jjCLh3xXCOu5AMjelJBahUCYTJGMCWrKl4q4bBMYNjFTfuzrUKuMgZzsDuFLSdwfSSrk29HAt4GU
-rfAKbErv/Xva5S3hmAtsR4nQ62jsXDScl6hYNhSIqAv+w/x0o8gL0melWE3gkmDotFgVPCsIwz5j
-JNEj6siGeuDwnCpCRvl4k6QhTbSb8ctU0px+/G6/PQd8E/fBN5owy5xbq0ciP68Mp1MbYVeECrxQ
-q/bsMKenoHR9OxrPe87Eh04kOsedyidYr2WhnzJC8FwYLtMDNinaprKc6oiPfNX5dePlM+B1U1hM
-xtzfPnO7IPIJH6Cl2fzrbtH2BzFi3gDue/p75MNeLef7CYNubkqBfQjoxXwMPiToCA5DcHlWQyVO
-1AAL3UpM9lz/RBaIoW1TDl82wl13Wyq/2hVMXzD5XmpnynDAfmEyMcNTqT56YK3wSbGB+Iy6IjWC
-MuT76S/sm77A1H/6Nu7zh2+rbdxymFQpoW/r9XGox2rS/6lZ0dtTHrgvCXBTqz/98M/zI+972/BI
-KUw/AOXNs9Mo5sZzoNdQL6WB5oofnQMryjFgC1loKVn1JNd/DIqcHc/a/ZEGYHJoGCRGCuMatiDk
-jgY/E39t4bcMm1bhRbKiCUeHJZsxZdJg7vOfT5hvzb5/kgswS1Ob4BDiIHs/rN701dO4SuTPNYbv
-naiCT6WnbtmIaAmdD9dv/FtcdFF7U0p5jinasysujCM7wblNBv596F7JWJ9aFZTXnRzF1RumrYmq
-b8YHJwFhHbM8Tn87DxlJW91sjBrRHAY76+/MODsBgPral4WiKrMi0fZninP/uBeSt/ZA3ajHPCF4
-noDJMhO/qDWjt6dUVJbS6dqvA6/eYgDZ6/C8sSFCev81H/pVwEVnJM424il6+XqF5wveJBDt1mzh
-OCkpOZ/u1mwQelrGbpJocrNusOvQTOU3Sg7QDgt9sIpoR+ZSAmrVUYuJgviGCM/8K9fPXLxOs+A/
-BwNw06xF92xCp2nivRjAn9WKdvcoB+xxLYWvvfhcdZDbJxRcgK4EUERlvNP/hkJ7GCNsE8HxEpfT
-TnPmWfhVaFk+ejmnAQoWjqF1saYgC42xue481oUoZdcsJtAeRHRMz/37ptbe8v/Igp54EVwW1s7t
-7pbgBlfw0k/VkW1dRExQh9948KvjBebmElej6GEhDu0LzyvST+g3pcKE/9CwyhkzKBzcGDLR5lAf
-snJ8IrQWMJBOPADb1S1TJ14QtxVAQzIox1zMgGKdR+Ujzs4nNYfTO0SzSfi5oBsB52al2mtCyPbG
-rHKshxF16lrK5Jwr5YEcdCR6399qtjZLLx22e6X1w892MOOJyeS3UGNi8dRP3KxzvdjnuGSZslBR
-q1v6lwontLE7H34eZcHtXzu0S2rTHB/B3z3TxtlY/sO0wtYXCkTgv0Iz7vsA3MU83uS/Mess3ieP
-MXn2kV3tBiS+Lu6f+wDL+H6CL1RBhHeBu1tgyzQo8d2y+xn1FGjrxK3o470C6/46Ka5oeBmxCMlz
-6IEG3S1SM52D+IJCiLTwy1yVS5420g7ChaQ1SbIJlt+gud1OZUrZ99RyARFIDkcPKBktLRehqSXn
-I+b6Bu2rl2bIr9zW9hXQS6hVOMp/nAGzzHlaXOdH26ia3ehIDjrSvUG0bj63VabhJhNgTzIK0rq5
-26WkBd3vEWhO63usKEHjs0+gCH6jUYkzRMNgWAYO+1LrE6yX+s02ys6s/FEGgMAAriS8Nm+72uFC
-IjWeoSVFRmI2otec/8A4DEjxGBKTIxracwO/DMiG0qxKmDUXN4eFYrzqpNWllcOFqw+MZfomsu8h
-sulnnSmR9US5Y35+0RIuH9/Sl6zgggbvycrxnwc0iLfCsqFezRJw+MLrQQksf3VEkPqcLVmk0EVg
-ZvtSWfK0dwKzMTFmsjk6PUJ8nB4CNcTkB7VxzJ6bvJQZ9Mpl2R6HEM8v6kPcSJYZ4WsfgMlbCDRQ
-K6jpOwMFacGwE5C/6hdVqRpK93zEPIrChvTNwuDuVTg9J1OOX5QUfBiHeuMtj59x8qjhGzLYep5F
-S4uSgE0Q35JVcdm5KJdnbTbl3LNC1MZeN/8+9ek6OOmWJzYYVliIaY7h/F0ckwv8qP5txLCZfQob
-Y3gzrIp7BgJMMlUmgHFQyVzvRtQ6p3D2B68cBaw5ShwrjQIF/eMpIq/2YyLAByL5a7s3Anw9z3h9
-rjND0dAVOtxQ/xFnlJBMMoouqYP9am33qyAjNO8SnHFGURD0AKUyzUdoe7u9YYYFIt7zMMUSNNJg
-f95j9cRxYt8C5bnnBXnBoKjliVuwu9cnwKkv0u4WZ+0hBbNVL4+RAvCX3H494plN9WQ38eamjSf5
-2pgaMIzAS18CWVJ8iF4sVuUaZD3S3kMB0GdGv2VyzCBBb4KiZSz6BW3yMwim174H+kslEz35Z8cZ
-78ViY+pEi+VwprYoKQz5DvvgONIVp76rUUFZqHOJ/Mp7gLBOD7/XGYcJWpu3S3VL2MRv9bsiikti
-DB05cYdzjQGxTD81yL01dwGIjntKjdp2qJI61lrenXLwLYrZjr2HBUOPaI36MvFPc4F+zV44EdCz
-R07R+sQfhUuegYSPE4EQomTnEVawsndyBG0+ixZH2LAImCcnrtH6Bzp4mKy0wU2rjpKUCVpkrUoX
-USPILCODe3uoi9H141BgjZxw1A/46vSrFifYb5DTl1Y9FhRE/21mPOtlqAxbcs8vlnJ+QClJwOUb
-jyMUVa9hpARIJI25X4fZHhmjZIAU+nWX/wYdqZZO+9UwEQAYNvPb/OXOq48taPd8P1VAAglDQ0Ta
-MaDAryUeDqcd+w51v8W/ix/WAeQ0APVqwl2STQEbbtN8uIL8nZkycl6B7ZYU9qXbJjVHedLnYUo2
-J6bSZ8G2djORt2LAPtOdBE1ujRrBvFN0MGR5LBCwO8tk9TEEf/8EVRqaQHOhhGvHf7U/Zeuhff2I
-RBsuTihxQUGgx9FyU9OrJcslf4AqbwX+6ivJRicLhdnTp5jovAM9Z1O3Wz7wSMt7000iPK9+4EZ+
-HwlvOED7XkzgazdyZRBZY0ZZWj5z/JBwy+hX25SoAmuaSielbaZjzAVQYuDLi51JRCdPbtLpLsmw
-4b7FIxwXV7zBThoe0I3o1apX12x32zaTH7q1RmsZQC7k6z3Tk4+W9L4PaQWbaPev4zTS1mNuxq4G
-CAkU5tIwTX/eJ7fO7TXBfpAJzSmOgY4KhZJ9tutCon6kymbkpMms7WW+VQmjbQgkufo5ySKaETzo
-6lkRn8Ln2qnO2bJOPRKHCr06047u25mRZghdWX4wbrDyOjlDynEGQA8qib/pMNtEJdXVC3icyJil
-sZVzBbrXWyrkVE0bQRdD2mRS0l8U/qrDe9kXsTKZcG/sFgOsfUA26fL2e+5vV8wrHgA7Th2Bw621
-l0iFABESQ0Hn/lJsWx+JOUiQ+d0P+Fxrt+63wZE0u56DYAhvXyb7vMvZ3UnAzBb03CwUz/yKWVNP
-+LGQ4bxIByIXL3WpTNn91qokhlhu6gXxiMC7BINgakrgD9J2pn5gZnm8VchxPZ+V2T3GghLKK+iK
-rnrhRWUoeTHuvwXotpZmbl08r40BB2tmbyYfDE027c09Af0byFWx3qk2lSwb5H1VgmIsLywasV0k
-cM9P3aaRnJA9QRFsGdZXo1V+T31KiQ3RAGaZzA3o3ApNsiBb03w172R7eec0Oqv4KNi7F+xCLoX/
-wPkuNlSZzTK/u64zMDEN81QAyyRDNy8dRZ/oiOGDBDvb/2JCt/B9RlIc9VhUwcBynGrXsobhfM0J
-r5iVwLMviXrmaqgqxElRhKvTA4nTx8RCwwiCAieR3++csks86x3Bzk2nt7lDdsiz3ke4EFJEGO+5
-WHuex/sysWSlTrlG179Zxam3aRincR1gNi8//zjAl9EsopHZnV91ojVYWBXa5fBPBu3gs67BkRS1
-FISA2gKz1A98REh7lU0Fu4TkfHYKmPt5PTUTVYmHbhwDyidQOxhQQ76TfkzT3Oi1upM5eYv2n+Xr
-Wmvjgg0GtaygtwSVXSf3nx7K3m8ITVMFP2lo/uxOEEntA0NMgPe3Mr/AmNkKrlyDEcOXjgbdLWXN
-GyvX4YIONwreydi7X7Gvq/o0bHUy/vZC0jMjmLPnySAjLYzqGPzNE6++DRAFIJeKrwsfWNVPA/F6
-KosYIoaJaEPaOj/oEa3Rfl14TFoLNrJPi5uMRMHQgeJnQ6UI2QkWzrHKWivg8F2BIu91cWfEHHBD
-NZYYazm6MdJ8s1qDHtqCNmY2q8Zqa15Uqz0dSbHAXBwtDkRNEvuYTbumtCik9Cvk/3XdG9PiKYoj
-MnBkaI+rdLa3hJApuUqxzX0ouYPrERyQwadO/k5nsM6bzdXi6Nc8IAD9WkJDXs707hKIyRcagvPU
-//ee5tEIYDHvOhST2sJutYImbOt4wdo+eYi5hMWzvzdlc7bjCweYHU7NtkuRbeFBElCgi8MEWejc
-uM9zYFY9JD9vPs6zUZ4tgAsw8XH16V0EK6Lm0OC83e2Ap2VcqTed5eD4m5oEyoHGqTkJkubo1Mmz
-yZQ+SPNjDPaf6YpuRqB9+nPbtWERshGJIfmpuaJhyOOQ52d6PVSpmB7paPLGqL7ej0JWXqDfKFox
-TKrCP8qKogpK7OpuwM20K6J1F+7dWXKpup5YyrgQ8DVtKcinNUjMy+70S8JBLxDWwjbS/4xiozk4
-ezWJnom35w6uE87pnVnZhXiNjUfu5DO5yfLdGpWsE3kX4OEMZLEzlxjwGOKap3fiWMUL1Eny2686
-MsES27R0hU1L0G7EpINKC7Av/8tCGus/tuvuhRvRQZe=
+<?php
+
+namespace PhpOffice\PhpSpreadsheet\Reader\Xlsx;
+
+use PhpOffice\PhpSpreadsheet\Style\Conditional;
+use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
+
+class ConditionalStyles
+{
+    private $worksheet;
+
+    private $worksheetXml;
+
+    private $dxfs;
+
+    public function __construct(Worksheet $workSheet, \SimpleXMLElement $worksheetXml, array $dxfs = [])
+    {
+        $this->worksheet = $workSheet;
+        $this->worksheetXml = $worksheetXml;
+        $this->dxfs = $dxfs;
+    }
+
+    public function load()
+    {
+        $this->setConditionalStyles(
+            $this->worksheet,
+            $this->readConditionalStyles($this->worksheetXml)
+        );
+    }
+
+    private function readConditionalStyles($xmlSheet)
+    {
+        $conditionals = [];
+        foreach ($xmlSheet->conditionalFormatting as $conditional) {
+            foreach ($conditional->cfRule as $cfRule) {
+                if (((string) $cfRule['type'] == Conditional::CONDITION_NONE
+                    || (string) $cfRule['type'] == Conditional::CONDITION_CELLIS
+                    || (string) $cfRule['type'] == Conditional::CONDITION_CONTAINSTEXT
+                    || (string) $cfRule['type'] == Conditional::CONDITION_EXPRESSION)
+                    && isset($this->dxfs[(int) ($cfRule['dxfId'])])) {
+                    $conditionals[(string) $conditional['sqref']][(int) ($cfRule['priority'])] = $cfRule;
+                }
+            }
+        }
+
+        return $conditionals;
+    }
+
+    private function setConditionalStyles(Worksheet $worksheet, array $conditionals)
+    {
+        foreach ($conditionals as $ref => $cfRules) {
+            ksort($cfRules);
+            $conditionalStyles = $this->readStyleRules($cfRules);
+
+            // Extract all cell references in $ref
+            $cellBlocks = explode(' ', str_replace('$', '', strtoupper($ref)));
+            foreach ($cellBlocks as $cellBlock) {
+                $worksheet->getStyle($cellBlock)->setConditionalStyles($conditionalStyles);
+            }
+        }
+    }
+
+    private function readStyleRules($cfRules)
+    {
+        $conditionalStyles = [];
+        foreach ($cfRules as $cfRule) {
+            $objConditional = new Conditional();
+            $objConditional->setConditionType((string) $cfRule['type']);
+            $objConditional->setOperatorType((string) $cfRule['operator']);
+
+            if ((string) $cfRule['text'] != '') {
+                $objConditional->setText((string) $cfRule['text']);
+            }
+
+            if (isset($cfRule['stopIfTrue']) && (int) $cfRule['stopIfTrue'] === 1) {
+                $objConditional->setStopIfTrue(true);
+            }
+
+            if (count($cfRule->formula) > 1) {
+                foreach ($cfRule->formula as $formula) {
+                    $objConditional->addCondition((string) $formula);
+                }
+            } else {
+                $objConditional->addCondition((string) $cfRule->formula);
+            }
+            $objConditional->setStyle(clone $this->dxfs[(int) ($cfRule['dxfId'])]);
+            $conditionalStyles[] = $objConditional;
+        }
+
+        return $conditionalStyles;
+    }
+}

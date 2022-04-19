@@ -1,60 +1,113 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Kne5ls3cJzaPZFUNy1DKLJXeJKZuqhicW82U
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\YouTubeReporting\Resource;
+
+use Google\Service\YouTubeReporting\Job;
+use Google\Service\YouTubeReporting\ListJobsResponse;
+use Google\Service\YouTubeReporting\YoutubereportingEmpty;
+
+/**
+ * The "jobs" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $youtubereportingService = new Google\Service\YouTubeReporting(...);
+ *   $jobs = $youtubereportingService->jobs;
+ *  </code>
+ */
+class Jobs extends \Google\Service\Resource
+{
+  /**
+   * Creates a job and returns it. (jobs.create)
+   *
+   * @param Job $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string onBehalfOfContentOwner The content owner's external ID on
+   * which behalf the user is acting on. If not set, the user is acting for
+   * himself (his own channel).
+   * @return Job
+   */
+  public function create(Job $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Job::class);
+  }
+  /**
+   * Deletes a job. (jobs.delete)
+   *
+   * @param string $jobId The ID of the job to delete.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string onBehalfOfContentOwner The content owner's external ID on
+   * which behalf the user is acting on. If not set, the user is acting for
+   * himself (his own channel).
+   * @return YoutubereportingEmpty
+   */
+  public function delete($jobId, $optParams = [])
+  {
+    $params = ['jobId' => $jobId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], YoutubereportingEmpty::class);
+  }
+  /**
+   * Gets a job. (jobs.get)
+   *
+   * @param string $jobId The ID of the job to retrieve.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string onBehalfOfContentOwner The content owner's external ID on
+   * which behalf the user is acting on. If not set, the user is acting for
+   * himself (his own channel).
+   * @return Job
+   */
+  public function get($jobId, $optParams = [])
+  {
+    $params = ['jobId' => $jobId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Job::class);
+  }
+  /**
+   * Lists jobs. (jobs.listJobs)
+   *
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool includeSystemManaged If set to true, also system-managed jobs
+   * will be returned; otherwise only user-created jobs will be returned. System-
+   * managed jobs can neither be modified nor deleted.
+   * @opt_param string onBehalfOfContentOwner The content owner's external ID on
+   * which behalf the user is acting on. If not set, the user is acting for
+   * himself (his own channel).
+   * @opt_param int pageSize Requested page size. Server may return fewer jobs
+   * than requested. If unspecified, server will pick an appropriate default.
+   * @opt_param string pageToken A token identifying a page of results the server
+   * should return. Typically, this is the value of
+   * ListReportTypesResponse.next_page_token returned in response to the previous
+   * call to the `ListJobs` method.
+   * @return ListJobsResponse
+   */
+  public function listJobs($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListJobsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Jobs::class, 'Google_Service_YouTubeReporting_Resource_Jobs');

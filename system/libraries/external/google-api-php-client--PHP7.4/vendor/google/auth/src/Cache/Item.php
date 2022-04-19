@@ -1,94 +1,190 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2016 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+namespace Google\Auth\Cache;
+
+use Psr\Cache\CacheItemInterface;
+
+/**
+ * A cache item.
+ */
+final class Item implements CacheItemInterface
+{
+    /**
+     * @var string
+     */
+    private $key;
+
+    /**
+     * @var mixed
+     */
+    private $value;
+
+    /**
+     * @var \DateTime|null
+     */
+    private $expiration;
+
+    /**
+     * @var bool
+     */
+    private $isHit = false;
+
+    /**
+     * @param string $key
+     */
+    public function __construct($key)
+    {
+        $this->key = $key;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getKey()
+    {
+        return $this->key;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function get()
+    {
+        return $this->isHit() ? $this->value : null;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function isHit()
+    {
+        if (!$this->isHit) {
+            return false;
+        }
+
+        if ($this->expiration === null) {
+            return true;
+        }
+
+        return $this->currentTime()->getTimestamp() < $this->expiration->getTimestamp();
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function set($value)
+    {
+        $this->isHit = true;
+        $this->value = $value;
+
+        return $this;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function expiresAt($expiration)
+    {
+        if ($this->isValidExpiration($expiration)) {
+            $this->expiration = $expiration;
+
+            return $this;
+        }
+
+        $implementationMessage = interface_exists('DateTimeInterface')
+            ? 'implement interface DateTimeInterface'
+            : 'be an instance of DateTime';
+
+        $error = sprintf(
+            'Argument 1 passed to %s::expiresAt() must %s, %s given',
+            get_class($this),
+            $implementationMessage,
+            gettype($expiration)
+        );
+
+        $this->handleError($error);
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function expiresAfter($time)
+    {
+        if (is_int($time)) {
+            $this->expiration = $this->currentTime()->add(new \DateInterval("PT{$time}S"));
+        } elseif ($time instanceof \DateInterval) {
+            $this->expiration = $this->currentTime()->add($time);
+        } elseif ($time === null) {
+            $this->expiration = $time;
+        } else {
+            $message = 'Argument 1 passed to %s::expiresAfter() must be an ' .
+                       'instance of DateInterval or of the type integer, %s given';
+            $error = sprintf($message, get_class($this), gettype($time));
+
+            $this->handleError($error);
+        }
+
+        return $this;
+    }
+
+    /**
+     * Handles an error.
+     *
+     * @param string $error
+     * @throws \TypeError
+     */
+    private function handleError($error)
+    {
+        if (class_exists('TypeError')) {
+            throw new \TypeError($error);
+        }
+
+        trigger_error($error, E_USER_ERROR);
+    }
+
+    /**
+     * Determines if an expiration is valid based on the rules defined by PSR6.
+     *
+     * @param mixed $expiration
+     * @return bool
+     */
+    private function isValidExpiration($expiration)
+    {
+        if ($expiration === null) {
+            return true;
+        }
+
+        // We test for two types here due to the fact the DateTimeInterface
+        // was not introduced until PHP 5.5. Checking for the DateTime type as
+        // well allows us to support 5.4.
+        if ($expiration instanceof \DateTimeInterface) {
+            return true;
+        }
+
+        if ($expiration instanceof \DateTime) {
+            return true;
+        }
+
+        return false;
+    }
+
+    protected function currentTime()
+    {
+        return new \DateTime('now', new \DateTimeZone('UTC'));
+    }
+}

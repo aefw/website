@@ -1,72 +1,115 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Bm==
+<?php
+/*
+ * Copyright 2020 Google LLC
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Task;
+
+use Composer\Script\Event;
+use Symfony\Component\Filesystem\Filesystem;
+use Symfony\Component\Finder\Finder;
+use InvalidArgumentException;
+
+class Composer
+{
+  /**
+   * @param Event $event Composer event passed in for any script method
+   * @param Filesystem $filesystem Optional. Used for testing.
+   */
+  public static function cleanup(
+      Event $event,
+      Filesystem $filesystem = null
+  ) {
+    $composer = $event->getComposer();
+    $extra = $composer->getPackage()->getExtra();
+    $servicesToKeep = isset($extra['google/apiclient-services']) ?
+      $extra['google/apiclient-services'] : [];
+    if ($servicesToKeep) {
+      $vendorDir = $composer->getConfig()->get('vendor-dir');
+      $serviceDir = sprintf(
+          '%s/google/apiclient-services/src/Google/Service',
+          $vendorDir
+      );
+      if (!is_dir($serviceDir)) {
+        // path for google/apiclient-services >= 0.200.0
+        $serviceDir = sprintf(
+            '%s/google/apiclient-services/src',
+            $vendorDir
+        );
+      }
+      self::verifyServicesToKeep($serviceDir, $servicesToKeep);
+      $finder = self::getServicesToRemove($serviceDir, $servicesToKeep);
+      $filesystem = $filesystem ?: new Filesystem();
+      if (0 !== $count = count($finder)) {
+        $event->getIO()->write(
+            sprintf(
+                'Removing %s google services',
+                $count
+            )
+        );
+        foreach ($finder as $file) {
+          $realpath = $file->getRealPath();
+          $filesystem->remove($realpath);
+          $filesystem->remove($realpath . '.php');
+        }
+      }
+    }
+  }
+
+  /**
+   * @throws InvalidArgumentException when the service doesn't exist
+   */
+  private static function verifyServicesToKeep(
+      $serviceDir,
+      array $servicesToKeep
+  ) {
+    $finder = (new Finder())
+        ->directories()
+        ->depth('== 0');
+
+    foreach ($servicesToKeep as $service) {
+      if (!preg_match('/^[a-zA-Z0-9]*$/', $service)) {
+        throw new InvalidArgumentException(
+            sprintf(
+                'Invalid Google service name "%s"',
+                $service
+            )
+        );
+      }
+      try {
+        $finder->in($serviceDir . '/' . $service);
+      } catch (InvalidArgumentException $e) {
+        throw new InvalidArgumentException(
+            sprintf(
+                'Google service "%s" does not exist or was removed previously',
+                $service
+            )
+        );
+      }
+    }
+  }
+
+  private static function getServicesToRemove(
+      $serviceDir,
+      array $servicesToKeep
+  ) {
+    // find all files in the current directory
+    return (new Finder())
+        ->directories()
+        ->depth('== 0')
+        ->in($serviceDir)
+        ->exclude($servicesToKeep);
+  }
+}

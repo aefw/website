@@ -1,67 +1,88 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-+W==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AndroidManagement;
+
+class PersonalUsagePolicies extends \Google\Collection
+{
+  protected $collection_key = 'personalApplications';
+  public $accountTypesWithManagementDisabled;
+  public $cameraDisabled;
+  public $maxDaysWithWorkOff;
+  protected $personalApplicationsType = PersonalApplicationPolicy::class;
+  protected $personalApplicationsDataType = 'array';
+  public $personalPlayStoreMode;
+  public $screenCaptureDisabled;
+
+  public function setAccountTypesWithManagementDisabled($accountTypesWithManagementDisabled)
+  {
+    $this->accountTypesWithManagementDisabled = $accountTypesWithManagementDisabled;
+  }
+  public function getAccountTypesWithManagementDisabled()
+  {
+    return $this->accountTypesWithManagementDisabled;
+  }
+  public function setCameraDisabled($cameraDisabled)
+  {
+    $this->cameraDisabled = $cameraDisabled;
+  }
+  public function getCameraDisabled()
+  {
+    return $this->cameraDisabled;
+  }
+  public function setMaxDaysWithWorkOff($maxDaysWithWorkOff)
+  {
+    $this->maxDaysWithWorkOff = $maxDaysWithWorkOff;
+  }
+  public function getMaxDaysWithWorkOff()
+  {
+    return $this->maxDaysWithWorkOff;
+  }
+  /**
+   * @param PersonalApplicationPolicy[]
+   */
+  public function setPersonalApplications($personalApplications)
+  {
+    $this->personalApplications = $personalApplications;
+  }
+  /**
+   * @return PersonalApplicationPolicy[]
+   */
+  public function getPersonalApplications()
+  {
+    return $this->personalApplications;
+  }
+  public function setPersonalPlayStoreMode($personalPlayStoreMode)
+  {
+    $this->personalPlayStoreMode = $personalPlayStoreMode;
+  }
+  public function getPersonalPlayStoreMode()
+  {
+    return $this->personalPlayStoreMode;
+  }
+  public function setScreenCaptureDisabled($screenCaptureDisabled)
+  {
+    $this->screenCaptureDisabled = $screenCaptureDisabled;
+  }
+  public function getScreenCaptureDisabled()
+  {
+    return $this->screenCaptureDisabled;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PersonalUsagePolicies::class, 'Google_Service_AndroidManagement_PersonalUsagePolicies');

@@ -1,103 +1,170 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPn3x6Z6EKFyA1YSzZnAI/Go/6X9fovrCVj1x1wjrLzR2lVFFBnwm5QSGMxX3BV7yOVYHGNml
-OuZyEWF04ZVTU2IW7QNtOtDjq3aJ7mDeE94ENnmuqsJXd2wIZgpg5VMiw1kbR2VH72wT7+xJFgpf
-NmiYjeJxrLf1TDkcfPfaXek38kMPgTBgxRaJPp4aO8/AOmTIqFV8kqoiSKo+WyBRHmGDAN9old5M
-Js/LBvgU44GsjSbJrpBzqv9WiwCvA6wu1MaM78WC62yBJoIyqL4Mm+Bj2WtYS5CkDLI4g2o1fZvA
-1ULL5sb8DYYXTPb1wAwqY5JGdHZ/xdV51Jaxoff1z7c5AZuVdTsETTdy8NjLxHFphnhxM9uHRi3/
-Jpui2dQHGfphxndOhcO9vLxfx77kic9CWnEH6dFQbAkXhWxJ+cwrvCRmE7CNbtH8KDyeUHSaYl0c
-40Joyyf9eiGYLZW6pC6MxRk6Rkn3UQtYdwlN4Mun8RI7hI2sp0BmZ7GRljWv5fEC59Y3vcROlS4t
-TDLuEob/DoJ5BaSfgGwaIOBX9Pfe/KUqmLA0ehlu7C8ghdUPBIACJ4YMm637goU4RsTgYRlAUo+h
-q0UsgCAiELafK7/PGIovb9HC5TcgvCbBGguaoKebyJB9nY772lqbDQ5qoT1NWkpo72QoxSYHkb/I
-vZGvan8CaT0IiziptZJIR/Ek2K3nLOpnafX3tx/o1fnOFeKBW+v2TlEW+vAISePPbi3goHEj9Mqb
-liBDbg8blO9n18M9XNQco9e7La19G+ASKDvR/CAP2pbJR3lbQORXRHqaJf0kl1RZnoZhUti2vjOP
-nO5i8qNefEIPQ+BK2gWYh2sBXYU6dS/lPiVMK82ZdaW9YHk2u0dMMDSLhW0dMJ01e4TQXKOKdfSq
-2qOLLbC00UefUT2sb1SqHjJe7x8GdE40pl9dIR/Ca1ThmyY0ai5QYV/3gO7Af1XtXKc/Ki6wIgG+
-3xWYVhMhYk9hgCgG4qpH/QAc4Ix22K2QThqfdVrg2KmUOIVhwxq+segd05rBqwc5j7H+hbZ6G9zu
-gdxfSa/JZU0xE+up8zlEs4emfJPU9u2XJz0LxQQmDUgHwJcChZ902KfjNMiK76bjoFHi+JqXYPQH
-c4gS8FqpCCCGVdUDks4wqnn6I71Faig07YYNU/jgs5mwChGKW+RKf81PHjlxLjZxf1pnMb1RxvqY
-mOhESPGDWNPGr2F71Db/xw5CdwKl/SEXjf+oK3CD7H5byrYwPy1lutss90OnXmD4O2UpBnLim8U0
-1sNDXV/lhcCsreznoepMQkJhQDU//B3nuCm7Vdg0lGStnHj8rAxa3CbqipJ9bAIZTCth9sXQrtfu
-jc2QVfn9ULt/hvKlckjycDDdOjzUUKmzGpY/qQaOjAWkE8XrSR2euyQXpipxCpsmV3h2J0llfcaA
-wd8LAC3BOMoMJE5l3hU660FWIQlXDwsc2dbYHCBhIr5JvXo5jILrhDPvhCav2/QKgjw631JD0MjJ
-ri/btH8bHtfprMqU+zx5mrbUqXz3TlsntVpk4NfFFbHzfkDDHjwWmVKcj/xzGj/Dgs4pstxRbGdS
-CwRsLVo9wL3Uwc2wRgT3H0YG1U53WiZHC7PttPpiAtBmNUkl8LyrTUNgQ9JRSqew8R4e8nQO+4SV
-y1A+5R3uTDXL1ISOdO8WANdZnspf8pGfFqloJwYpwkXbDGKW33jLvTfhrIiq+nBGRYzi2Nty0dzn
-sAHLicY5j1S++wR9Y/ShqHT78vw1ca4WshPrZupDiJeTxAIq0tN2c4G1NuJv6C9mDQOOQhCmpsvr
-ul2ZMd3XUPjIf4yGc8BvSd9ZgYmOMLSR63rJUoqMrk8o12ziO4xFE3YVcB50xltkTkgbr6RxS0Fz
-G4AahstbkzEaEW/fIC7ZLdHiJjfbFXI1cnXCudYIh+1Eg6xTm9CCVnEEK4z6g/06xv1m/mEOwayj
-bbU3eKJ/hla6YjTLnE6QZ+ZiDgA6lIIInHS9ocLt9F2hyadCXmBPAAbsldnsRjfJ+F5QvV2kxeq9
-Zj48q1j7Dph2uyEUIWT2g4qG6kM9dGtaRXoI2obg62iiLsSWJvG9UgkJsGliGLl6tkvgYmkwfh3r
-tZAjqgkqpmehjyT23mvKWf4jUCeKNMD0XoylJYkrOACQgd0HBsYnvhrTkcR9KpcBBfGHgLN+Z6N1
-VAkbNfjYNM+XkqKe3OOarPOAXENneWIGTND3FG07g++k4j7SQx3EExH8RTH/Cvi5bezF1bZVszJK
-cg/smU9BzE9tK6imorpy7TkVdAx54kte7ClUjibe97aPiC7WCcqEkzNIEFiFl4yoWdRXGDm4eXMP
-jIWL+m8XAwGXfKFMLr6ET4Dc5KBZrLKqWAQSXi145EKGESqSdMvuYacFzZ05IBOCBeJt1vb6S2z8
-V+oXxDnQ/qKme1HaCZBuW0PXiHcZLPXTcSVx5O8lu1WPu0E4qgw1HNbAjzo0d+cNCksPySATdN9F
-HFozsW7MY079vqYmGfn8cHhEbyg9/3/K6N2dQHjaQAdOFhSnWH50Z+D+LGvXzkOu0o3z3O3bFmDe
-XB9kvWu0MgaA7lLcI4mZG3CRL2ydDmHaWKRD6UBf+tmL2DY7/pfbg1uZT+FN9OieONSuOnOuUxt5
-TU6pLineGNpM9oaxUx4Fg9cc8icZcGdxGL62n0pemKbX7ge3UbBx0L/b/1TSfjxT5qLu9gK5RGDV
-/i33OOdnr9GeQfR4aB9U1rJC0KhoFnC0ZVuq7bgDJ9EPO5+0J7G8wrdzYPWa6i/b/hZlWlpampPN
-rfJ3Qk0v3/6VDPudg5sg4elYLGIP2+IAtgDyI7xrjcCXaqhntZGLpVmjihINbM8cwbt9sCm2kxtJ
-jnS8iYsOYSpUtvwGT0wGNxPopOs0yy41LHcTqrMMZe2ugWp39GjQl9d6MVNki82/qglvgvBakMZj
-rXi1JYEVxdJJRXfOh0gcLeuGYQwu6j+DOx3r02mPym8vg0tLyHhmaw8fHHl84XW5T2Ek49hPGwmj
-uSq7R78NLWRt5luAvo5T5Ynm8LXjqXGokRRk19cXpsqzDkk4JQd1OBOjIN2ADu6Yze5eAnU+SxsS
-M7kJN83h0BFNLrWUPbwkeyRk8GsvvodyIb/VRrZRQUAymXxyjWKH7bspJKbmpTee1zIp3h/QUnSn
-QjY0Ei01qeohtoFStc7uefSCzUuXZiFiD7Fco2n1WaZSe2oUx5brsoWo0+qtig8k8vUCofoQZyU6
-YKgkph1M54j0BYmPc1SL777fvdrjbJNoLvjrIHab9rClImiRczPM3EsScRUPAEI/FhCmjfQK7bwQ
-BfUYEfuaMueDXs9RSrsPc3GIaLELJrSR+eUAfB4N5gTq/FVN5B2NPfoC7noSDiRYIXt1Ay1lXqFP
-ibKJFkBvh07eydJ2boVzNYVYPtUcXIRwTqJfdVnquhttkrkuFGiEg9JMSFul1cr0WfqmFUZc3JVF
-ZCeH5eJr1rFSSgDd2SvRrqWg2YTyLOJ4VNUVQJjogBqZBOVtjvvj+Lz6n8JuRxHlYwGh9APynuCt
-XDXY8tbQcWQMgP1iCnQLJYbpv+wstv1wP9MfQ+pgjkXSl92+wG5a003IRcm2MEUnhED10Xv+Gwr2
-ygF0b6RsCgvcWoV7I1Rtrf1sRVlbWvgZzXzeXsmZRm3l0+RlblRR94SHVR32vwJd7sqmlzIwqh1J
-ehKOq9D9szXJ9g3v1tLPz3/WtXTox9WHWt7F5qZwfVPJR7v9UivuLjL7zWajgTF3ie/0zCYz30aP
-dISm2c/PvxDVxpCNmDbapwmI8ReI4JV89DmJoWHzvw83Yz2bU66X7BPxJKk2VypTxWKVY7QiuUL6
-7gUWHhtzcz26Uiugb6nS+m0RhJaD9fgoeUqhKtf+zczXdRqxmmuqQ3bdy29ClTL8aJx6wh1X8G2l
-zPysMHgxu8zb8u+wUnTwzg5hXtRmxrrljLYW1mQ0zZyJKU0U36mlDDo+puMvWDYtCNHb0JxLI75z
-Z3rXkAZmLd8AJKSWtbar9ERXEAAq6hXCWN8NjYT1aT+qzxCX+7LhX328UyqeapDGf54BieJwM2+R
-0wHrQ6QN9vz1o3sLRmWn0nZkgCd9m6981ARtI5c3atHBsL+P/XJUFkOFtnZUunqcpVXoeG651Xl5
-up9qY9BJaj768BnUvKGU+CRWk2M8pg1hyaOnMsITIWksjZkqEUF8DoqAK/85O6Vn/fGaon2kN5bU
-e0HBMOjN8Br/V+taZYwSe10nPu7HRBtVrEXhG+HZ+hC7tMYduowCBwKSywExTxyFWFnPyFO36PK3
-7H4ML6fYE2yOIdfm9WkR5McsbNdKqioyKolorYg5LoqofkWYfUdhnHrGAm6OkCmzy4WHoACayhz7
-Wep6EEzc0q5mIekm0HREbnCnqmIlBe7w5tPh8yfBNMyLL/V9ZVQCEM9LKVkBYb8XidVZcNFHkKHj
-yqzSrdVEv+Q5B9/lkI0NzOEQ4J8igmmlOc9o5eoR4Hhxl0MsX6RvH4fFB11DaIVDLvi4EisfdTD1
-lK/akVjFbc8bKZA2XbWoEPt9MVM1aRmXN+5ZUt65mXPd5qpd9aa8UsvxNuuvwaWvtHjvUUC6kg8F
-KiFdMPD9iB2/uuAY4mECIicJEtcO55xZkFp3M60s77o5L07oMuoQK+njPAEc8KxG3wZUgjqQ4U6g
-4dbfQbP/qjwkzaD0u5PkMdwV3G7VMAaRsCZPYx0M3uDunl65cZEAGJ7Dr964ytRQnelG54BffwEX
-3AEPkPfUQcrXl1rDw4MfaZFmtVhFzKTEDJqfFeUh9RP9lP5GKKNg35jsWkIFCsdyaj+gI2VuDRxx
-rUmL/op4GA57WXNrSDZxQyeOb4QIBvRIsKY2Zga2hXCgT1gYJl9dUK4QCZEsdN6DnPsFyLSHGXXy
-MeVkcVohsNtHwkbY95Y2/CPdmIZZ4N/0A1JjKUZ6V4cjYq5ZMv0k8ik/FVMBLN/UUfN9YKUQgDiO
-XXOp0bbRL5zp2JGHJkdutaNy7OT1OmY+ZQaLqlsclsLSwkkNrykkao1SO7n9Ad934hVA/R6WSuRy
-AycWNPsp/Yug3jipoF/DQZYh7dmx+CbBsFQJQoq0jOgv4ZiLXJ6gqs3/WvmGAQtMKGBtcJOwxP9Z
-Mptnz59sOUGa1RG7CehPT5i784nv2atLvk4RbOjoCIqmxdBCvE/GIvyfKYAtaLjYuWbrzON4AfR2
-MIQ7Aq6tWrf9NzcncgshVlJpzgh90SS/ZUaR6Rgb3m61QWzjfnFXqqIjxwtJZA5iANJVqE6RyH6q
-XeTW0JxDpwsSt6z/nQev+e7FfLctshAN2wd7NBdsVWi1b9g652DYmzi4nLhrr56vfmv8agRnETIt
-ywJe5w4bauWuH9hJjgjhJ+ab9qoD9PzEZ42cMdkexvF1e2fZ6vrRvq3vxHXRrTDE3vn40cHfFsiU
-DK5DthN8TK1Nv3AVk22Fo+wFJzk8TU2gHr37lv0CGaDA5OoexoTu71RqoL4E21OIovBjtYj0tu/6
-nbxTroMoOQd5JVysUYW0SM/oppz4N360HPVS49va7yAy5Al9h8FGQSbDBccbrYXzABNM0W2XlWNQ
-1lc6ITsB5iIL3N/ICbVptj5WZl0Cb2sbMoFW/nOfL2wtIdj5zcLLxfDSaEzv2985MAXyG+THeEg3
-K+UkHUx4dzElPDu7Fgt25/gd4dC3TD+DZ/mW4Bj5/yyDh2unhvyVneMhA75cKpqcFccTDGskB5mT
-SCY6+/Cjbrc105umsA14CNXarBRfnY/Ia18rBwb6RBIjZ4aDwRAQqeCfvjhTLxmC4K4aESt5kIYA
-gergyN5/LjIPpdLdFz2M1S31qlkoYcbvX3+OmcaRxyq7lp9hpnSQlu/6BiH+NK8EDq33Cx9xWSFM
-jsAbRu4gr/bo7qKZePWgTXHxX2zZ/s6ZHXkXP67nAjcWNCQoTDO9YTM2LxLTMP3NVUyf4MYOjmXZ
-FXnFgvG1Jz3egKskYnYlURDJCxmaPtvoAdLZyl8EpLUPe3AI9eOtnvactmz5u3W98QeqWcPVF+Z8
-bRk13ND2JIpv0WhMpMKsDRVOeTLFR4VAI9QkyvvOpIyVzr3PMW38Z6Cf54qtbhWAXO66tNodZaOV
-iettckK4FvrAPgDowVK8YKbcPhCL9AafyRrzRwdojXQbRPCgiP7paR1m1CW+TERWmXn3JYfGudk2
-5OU796QK9vqVBXjTMrD1byYKcndEtzksWgspUDMiWRiIAQWqtHNu9RUWsaEsIVVFrnncWwxZgLfV
-h++ptuwf0nDimyfXjMeoASYM6yiI4xkJWcKohiZCgPU9SrYd9uDbmNhBd3TbTMDr1evCZmLKeOXf
-POxXHDWJMLupYxtEL81f9jSfqVA5K1kANMS+2BWY/PBlXflDtmLdBetNPShFKN7mGnvl2o6oGe31
-JyJZizd7vEBgKXce2+KwcfMnswoVmkIqi4gpASdjcM3Q6uqC0kMLmMNmRFK8rmnizsc9q0QPy0Pt
-pBkpy2106dTnAyhPn+VlY4HCbQLYao72WX1w85QBal0vcA5iTzRSXM23c/R/0V6M6l/nOldQIOph
-t6yZRVRhz/3oiPK2gJKqB4wub/sVP5dK0A0pIT0+erJBiEvRDtD9bxk4a+ncy6DpxUqgJdiKpTEl
-hUNCbsvdyQxea5s4RPGFoasvtbERB5dFJfW4RM793ae5Xug9x02c9doaGKrZMonQEPES1SPYInsI
-4t1o1nwc0hgwTUZHZWjPIz1xZef8XdWfzs3sIg0CcRfmD0ZVtsUxpkZuWcpMa7T2kJVVqghRzgly
-riG84x2nw8dG9UsF/GyVfdly6gzFUnE3eWqgAMIXTojYJegYCKAYExhoUGHk4ypzFq4G4BzCNNoD
-Yyg9QWQM2bJdGaj4REkrzOSQ0GHo7b631j9mHdZkNZsC5dhkHRirv+9TI27D+wrtbfhSy9AeQOEp
-JeAkWSXdCgieecjqjp9EPLZQlwj5VwDqTLi63jO92KYwhLoxVMXacsEdDLPxpBiRL5yxw8Q0jEOJ
-luPN9W3VfTx453kud3fcHmOQ+Ih5f4iNdw2J6LMP2u3pzsHLn8HXS7kMWNLcwOJ/G/xyxkZO5qsp
-jLhr/ZA6fdfZenLpXwYOBOc8ILm57cO/asnhu6ooIIruPKhyqBbfGzclOxB7op9keN5RJR1Ycatc
-DugwOI3CuVTtbHy43WxdWMb5mqHGUCgfBskKAdW3C75hC0CtX+QZYeQ4PGhyEUXgHjtkbG4pVa4E
-uEVTZ8iZoEtofFmkfcwxP39kuG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\MyBusinessLodging;
+
+class LivingAreaAccessibility extends \Google\Model
+{
+  public $adaCompliantUnit;
+  public $adaCompliantUnitException;
+  public $hearingAccessibleDoorbell;
+  public $hearingAccessibleDoorbellException;
+  public $hearingAccessibleFireAlarm;
+  public $hearingAccessibleFireAlarmException;
+  public $hearingAccessibleUnit;
+  public $hearingAccessibleUnitException;
+  public $mobilityAccessibleBathtub;
+  public $mobilityAccessibleBathtubException;
+  public $mobilityAccessibleShower;
+  public $mobilityAccessibleShowerException;
+  public $mobilityAccessibleToilet;
+  public $mobilityAccessibleToiletException;
+  public $mobilityAccessibleUnit;
+  public $mobilityAccessibleUnitException;
+
+  public function setAdaCompliantUnit($adaCompliantUnit)
+  {
+    $this->adaCompliantUnit = $adaCompliantUnit;
+  }
+  public function getAdaCompliantUnit()
+  {
+    return $this->adaCompliantUnit;
+  }
+  public function setAdaCompliantUnitException($adaCompliantUnitException)
+  {
+    $this->adaCompliantUnitException = $adaCompliantUnitException;
+  }
+  public function getAdaCompliantUnitException()
+  {
+    return $this->adaCompliantUnitException;
+  }
+  public function setHearingAccessibleDoorbell($hearingAccessibleDoorbell)
+  {
+    $this->hearingAccessibleDoorbell = $hearingAccessibleDoorbell;
+  }
+  public function getHearingAccessibleDoorbell()
+  {
+    return $this->hearingAccessibleDoorbell;
+  }
+  public function setHearingAccessibleDoorbellException($hearingAccessibleDoorbellException)
+  {
+    $this->hearingAccessibleDoorbellException = $hearingAccessibleDoorbellException;
+  }
+  public function getHearingAccessibleDoorbellException()
+  {
+    return $this->hearingAccessibleDoorbellException;
+  }
+  public function setHearingAccessibleFireAlarm($hearingAccessibleFireAlarm)
+  {
+    $this->hearingAccessibleFireAlarm = $hearingAccessibleFireAlarm;
+  }
+  public function getHearingAccessibleFireAlarm()
+  {
+    return $this->hearingAccessibleFireAlarm;
+  }
+  public function setHearingAccessibleFireAlarmException($hearingAccessibleFireAlarmException)
+  {
+    $this->hearingAccessibleFireAlarmException = $hearingAccessibleFireAlarmException;
+  }
+  public function getHearingAccessibleFireAlarmException()
+  {
+    return $this->hearingAccessibleFireAlarmException;
+  }
+  public function setHearingAccessibleUnit($hearingAccessibleUnit)
+  {
+    $this->hearingAccessibleUnit = $hearingAccessibleUnit;
+  }
+  public function getHearingAccessibleUnit()
+  {
+    return $this->hearingAccessibleUnit;
+  }
+  public function setHearingAccessibleUnitException($hearingAccessibleUnitException)
+  {
+    $this->hearingAccessibleUnitException = $hearingAccessibleUnitException;
+  }
+  public function getHearingAccessibleUnitException()
+  {
+    return $this->hearingAccessibleUnitException;
+  }
+  public function setMobilityAccessibleBathtub($mobilityAccessibleBathtub)
+  {
+    $this->mobilityAccessibleBathtub = $mobilityAccessibleBathtub;
+  }
+  public function getMobilityAccessibleBathtub()
+  {
+    return $this->mobilityAccessibleBathtub;
+  }
+  public function setMobilityAccessibleBathtubException($mobilityAccessibleBathtubException)
+  {
+    $this->mobilityAccessibleBathtubException = $mobilityAccessibleBathtubException;
+  }
+  public function getMobilityAccessibleBathtubException()
+  {
+    return $this->mobilityAccessibleBathtubException;
+  }
+  public function setMobilityAccessibleShower($mobilityAccessibleShower)
+  {
+    $this->mobilityAccessibleShower = $mobilityAccessibleShower;
+  }
+  public function getMobilityAccessibleShower()
+  {
+    return $this->mobilityAccessibleShower;
+  }
+  public function setMobilityAccessibleShowerException($mobilityAccessibleShowerException)
+  {
+    $this->mobilityAccessibleShowerException = $mobilityAccessibleShowerException;
+  }
+  public function getMobilityAccessibleShowerException()
+  {
+    return $this->mobilityAccessibleShowerException;
+  }
+  public function setMobilityAccessibleToilet($mobilityAccessibleToilet)
+  {
+    $this->mobilityAccessibleToilet = $mobilityAccessibleToilet;
+  }
+  public function getMobilityAccessibleToilet()
+  {
+    return $this->mobilityAccessibleToilet;
+  }
+  public function setMobilityAccessibleToiletException($mobilityAccessibleToiletException)
+  {
+    $this->mobilityAccessibleToiletException = $mobilityAccessibleToiletException;
+  }
+  public function getMobilityAccessibleToiletException()
+  {
+    return $this->mobilityAccessibleToiletException;
+  }
+  public function setMobilityAccessibleUnit($mobilityAccessibleUnit)
+  {
+    $this->mobilityAccessibleUnit = $mobilityAccessibleUnit;
+  }
+  public function getMobilityAccessibleUnit()
+  {
+    return $this->mobilityAccessibleUnit;
+  }
+  public function setMobilityAccessibleUnitException($mobilityAccessibleUnitException)
+  {
+    $this->mobilityAccessibleUnitException = $mobilityAccessibleUnitException;
+  }
+  public function getMobilityAccessibleUnitException()
+  {
+    return $this->mobilityAccessibleUnitException;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(LivingAreaAccessibility::class, 'Google_Service_MyBusinessLodging_LivingAreaAccessibility');

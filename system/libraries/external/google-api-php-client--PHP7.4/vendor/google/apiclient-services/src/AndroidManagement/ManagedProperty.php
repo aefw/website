@@ -1,68 +1,104 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AndroidManagement;
+
+class ManagedProperty extends \Google\Collection
+{
+  protected $collection_key = 'nestedProperties';
+  public $defaultValue;
+  public $description;
+  protected $entriesType = ManagedPropertyEntry::class;
+  protected $entriesDataType = 'array';
+  public $key;
+  protected $nestedPropertiesType = ManagedProperty::class;
+  protected $nestedPropertiesDataType = 'array';
+  public $title;
+  public $type;
+
+  public function setDefaultValue($defaultValue)
+  {
+    $this->defaultValue = $defaultValue;
+  }
+  public function getDefaultValue()
+  {
+    return $this->defaultValue;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  /**
+   * @param ManagedPropertyEntry[]
+   */
+  public function setEntries($entries)
+  {
+    $this->entries = $entries;
+  }
+  /**
+   * @return ManagedPropertyEntry[]
+   */
+  public function getEntries()
+  {
+    return $this->entries;
+  }
+  public function setKey($key)
+  {
+    $this->key = $key;
+  }
+  public function getKey()
+  {
+    return $this->key;
+  }
+  /**
+   * @param ManagedProperty[]
+   */
+  public function setNestedProperties($nestedProperties)
+  {
+    $this->nestedProperties = $nestedProperties;
+  }
+  /**
+   * @return ManagedProperty[]
+   */
+  public function getNestedProperties()
+  {
+    return $this->nestedProperties;
+  }
+  public function setTitle($title)
+  {
+    $this->title = $title;
+  }
+  public function getTitle()
+  {
+    return $this->title;
+  }
+  public function setType($type)
+  {
+    $this->type = $type;
+  }
+  public function getType()
+  {
+    return $this->type;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ManagedProperty::class, 'Google_Service_AndroidManagement_ManagedProperty');

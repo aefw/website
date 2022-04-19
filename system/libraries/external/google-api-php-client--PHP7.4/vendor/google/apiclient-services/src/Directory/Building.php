@@ -1,71 +1,113 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Directory;
+
+class Building extends \Google\Collection
+{
+  protected $collection_key = 'floorNames';
+  protected $addressType = BuildingAddress::class;
+  protected $addressDataType = '';
+  public $buildingId;
+  public $buildingName;
+  protected $coordinatesType = BuildingCoordinates::class;
+  protected $coordinatesDataType = '';
+  public $description;
+  public $etags;
+  public $floorNames;
+  public $kind;
+
+  /**
+   * @param BuildingAddress
+   */
+  public function setAddress(BuildingAddress $address)
+  {
+    $this->address = $address;
+  }
+  /**
+   * @return BuildingAddress
+   */
+  public function getAddress()
+  {
+    return $this->address;
+  }
+  public function setBuildingId($buildingId)
+  {
+    $this->buildingId = $buildingId;
+  }
+  public function getBuildingId()
+  {
+    return $this->buildingId;
+  }
+  public function setBuildingName($buildingName)
+  {
+    $this->buildingName = $buildingName;
+  }
+  public function getBuildingName()
+  {
+    return $this->buildingName;
+  }
+  /**
+   * @param BuildingCoordinates
+   */
+  public function setCoordinates(BuildingCoordinates $coordinates)
+  {
+    $this->coordinates = $coordinates;
+  }
+  /**
+   * @return BuildingCoordinates
+   */
+  public function getCoordinates()
+  {
+    return $this->coordinates;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setEtags($etags)
+  {
+    $this->etags = $etags;
+  }
+  public function getEtags()
+  {
+    return $this->etags;
+  }
+  public function setFloorNames($floorNames)
+  {
+    $this->floorNames = $floorNames;
+  }
+  public function getFloorNames()
+  {
+    return $this->floorNames;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Building::class, 'Google_Service_Directory_Building');

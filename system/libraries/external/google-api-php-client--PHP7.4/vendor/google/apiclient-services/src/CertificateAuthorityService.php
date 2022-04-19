@@ -1,89 +1,794 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Eem=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for CertificateAuthorityService (v1).
+ *
+ * <p>
+ * The Certificate Authority Service API is a highly-available, scalable service
+ * that enables you to simplify and automate the management of private
+ * certificate authorities (CAs) while staying in control of your private keys."</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class CertificateAuthorityService extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+
+  public $projects_locations;
+  public $projects_locations_caPools;
+  public $projects_locations_caPools_certificateAuthorities;
+  public $projects_locations_caPools_certificateAuthorities_certificateRevocationLists;
+  public $projects_locations_caPools_certificates;
+  public $projects_locations_certificateTemplates;
+  public $projects_locations_operations;
+
+  /**
+   * Constructs the internal representation of the CertificateAuthorityService
+   * service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://privateca.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'privateca';
+
+    $this->projects_locations = new CertificateAuthorityService\Resource\ProjectsLocations(
+        $this,
+        $this->serviceName,
+        'locations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+name}/locations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_caPools = new CertificateAuthorityService\Resource\ProjectsLocationsCaPools(
+        $this,
+        $this->serviceName,
+        'caPools',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/caPools',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'caPoolId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'requestId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'requestId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'fetchCaCerts' => [
+              'path' => 'v1/{+caPool}:fetchCaCerts',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'caPool' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1/{+resource}:getIamPolicy',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'options.requestedPolicyVersion' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/caPools',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'requestId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_caPools_certificateAuthorities = new CertificateAuthorityService\Resource\ProjectsLocationsCaPoolsCertificateAuthorities(
+        $this,
+        $this->serviceName,
+        'certificateAuthorities',
+        [
+          'methods' => [
+            'activate' => [
+              'path' => 'v1/{+name}:activate',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1/{+parent}/certificateAuthorities',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'certificateAuthorityId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'requestId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'ignoreActiveCertificates' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'requestId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'disable' => [
+              'path' => 'v1/{+name}:disable',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'enable' => [
+              'path' => 'v1/{+name}:enable',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'fetch' => [
+              'path' => 'v1/{+name}:fetch',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/certificateAuthorities',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'requestId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'undelete' => [
+              'path' => 'v1/{+name}:undelete',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_caPools_certificateAuthorities_certificateRevocationLists = new CertificateAuthorityService\Resource\ProjectsLocationsCaPoolsCertificateAuthoritiesCertificateRevocationLists(
+        $this,
+        $this->serviceName,
+        'certificateRevocationLists',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1/{+resource}:getIamPolicy',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'options.requestedPolicyVersion' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/certificateRevocationLists',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'requestId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_caPools_certificates = new CertificateAuthorityService\Resource\ProjectsLocationsCaPoolsCertificates(
+        $this,
+        $this->serviceName,
+        'certificates',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/certificates',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'certificateId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'issuingCertificateAuthorityId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'requestId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'validateOnly' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/certificates',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'requestId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'revoke' => [
+              'path' => 'v1/{+name}:revoke',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_certificateTemplates = new CertificateAuthorityService\Resource\ProjectsLocationsCertificateTemplates(
+        $this,
+        $this->serviceName,
+        'certificateTemplates',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/certificateTemplates',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'certificateTemplateId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'requestId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'requestId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1/{+resource}:getIamPolicy',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'options.requestedPolicyVersion' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/certificateTemplates',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'requestId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_operations = new CertificateAuthorityService\Resource\ProjectsLocationsOperations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'cancel' => [
+              'path' => 'v1/{+name}:cancel',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+name}/operations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(CertificateAuthorityService::class, 'Google_Service_CertificateAuthorityService');

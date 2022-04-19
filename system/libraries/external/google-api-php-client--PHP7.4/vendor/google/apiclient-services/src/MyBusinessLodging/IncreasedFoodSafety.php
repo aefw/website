@@ -1,81 +1,116 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-MRlWeiyh9bo/pUmJpDrIYBazhRb3
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\MyBusinessLodging;
+
+class IncreasedFoodSafety extends \Google\Model
+{
+  public $diningAreasAdditionalSanitation;
+  public $diningAreasAdditionalSanitationException;
+  public $disposableFlatware;
+  public $disposableFlatwareException;
+  public $foodPreparationAndServingAdditionalSafety;
+  public $foodPreparationAndServingAdditionalSafetyException;
+  public $individualPackagedMeals;
+  public $individualPackagedMealsException;
+  public $singleUseFoodMenus;
+  public $singleUseFoodMenusException;
+
+  public function setDiningAreasAdditionalSanitation($diningAreasAdditionalSanitation)
+  {
+    $this->diningAreasAdditionalSanitation = $diningAreasAdditionalSanitation;
+  }
+  public function getDiningAreasAdditionalSanitation()
+  {
+    return $this->diningAreasAdditionalSanitation;
+  }
+  public function setDiningAreasAdditionalSanitationException($diningAreasAdditionalSanitationException)
+  {
+    $this->diningAreasAdditionalSanitationException = $diningAreasAdditionalSanitationException;
+  }
+  public function getDiningAreasAdditionalSanitationException()
+  {
+    return $this->diningAreasAdditionalSanitationException;
+  }
+  public function setDisposableFlatware($disposableFlatware)
+  {
+    $this->disposableFlatware = $disposableFlatware;
+  }
+  public function getDisposableFlatware()
+  {
+    return $this->disposableFlatware;
+  }
+  public function setDisposableFlatwareException($disposableFlatwareException)
+  {
+    $this->disposableFlatwareException = $disposableFlatwareException;
+  }
+  public function getDisposableFlatwareException()
+  {
+    return $this->disposableFlatwareException;
+  }
+  public function setFoodPreparationAndServingAdditionalSafety($foodPreparationAndServingAdditionalSafety)
+  {
+    $this->foodPreparationAndServingAdditionalSafety = $foodPreparationAndServingAdditionalSafety;
+  }
+  public function getFoodPreparationAndServingAdditionalSafety()
+  {
+    return $this->foodPreparationAndServingAdditionalSafety;
+  }
+  public function setFoodPreparationAndServingAdditionalSafetyException($foodPreparationAndServingAdditionalSafetyException)
+  {
+    $this->foodPreparationAndServingAdditionalSafetyException = $foodPreparationAndServingAdditionalSafetyException;
+  }
+  public function getFoodPreparationAndServingAdditionalSafetyException()
+  {
+    return $this->foodPreparationAndServingAdditionalSafetyException;
+  }
+  public function setIndividualPackagedMeals($individualPackagedMeals)
+  {
+    $this->individualPackagedMeals = $individualPackagedMeals;
+  }
+  public function getIndividualPackagedMeals()
+  {
+    return $this->individualPackagedMeals;
+  }
+  public function setIndividualPackagedMealsException($individualPackagedMealsException)
+  {
+    $this->individualPackagedMealsException = $individualPackagedMealsException;
+  }
+  public function getIndividualPackagedMealsException()
+  {
+    return $this->individualPackagedMealsException;
+  }
+  public function setSingleUseFoodMenus($singleUseFoodMenus)
+  {
+    $this->singleUseFoodMenus = $singleUseFoodMenus;
+  }
+  public function getSingleUseFoodMenus()
+  {
+    return $this->singleUseFoodMenus;
+  }
+  public function setSingleUseFoodMenusException($singleUseFoodMenusException)
+  {
+    $this->singleUseFoodMenusException = $singleUseFoodMenusException;
+  }
+  public function getSingleUseFoodMenusException()
+  {
+    return $this->singleUseFoodMenusException;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(IncreasedFoodSafety::class, 'Google_Service_MyBusinessLodging_IncreasedFoodSafety');

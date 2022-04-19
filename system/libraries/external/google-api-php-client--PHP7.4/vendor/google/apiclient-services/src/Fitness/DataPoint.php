@@ -1,70 +1,106 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Fitness;
+
+class DataPoint extends \Google\Collection
+{
+  protected $collection_key = 'value';
+  public $computationTimeMillis;
+  public $dataTypeName;
+  public $endTimeNanos;
+  public $modifiedTimeMillis;
+  public $originDataSourceId;
+  public $rawTimestampNanos;
+  public $startTimeNanos;
+  protected $valueType = Value::class;
+  protected $valueDataType = 'array';
+
+  public function setComputationTimeMillis($computationTimeMillis)
+  {
+    $this->computationTimeMillis = $computationTimeMillis;
+  }
+  public function getComputationTimeMillis()
+  {
+    return $this->computationTimeMillis;
+  }
+  public function setDataTypeName($dataTypeName)
+  {
+    $this->dataTypeName = $dataTypeName;
+  }
+  public function getDataTypeName()
+  {
+    return $this->dataTypeName;
+  }
+  public function setEndTimeNanos($endTimeNanos)
+  {
+    $this->endTimeNanos = $endTimeNanos;
+  }
+  public function getEndTimeNanos()
+  {
+    return $this->endTimeNanos;
+  }
+  public function setModifiedTimeMillis($modifiedTimeMillis)
+  {
+    $this->modifiedTimeMillis = $modifiedTimeMillis;
+  }
+  public function getModifiedTimeMillis()
+  {
+    return $this->modifiedTimeMillis;
+  }
+  public function setOriginDataSourceId($originDataSourceId)
+  {
+    $this->originDataSourceId = $originDataSourceId;
+  }
+  public function getOriginDataSourceId()
+  {
+    return $this->originDataSourceId;
+  }
+  public function setRawTimestampNanos($rawTimestampNanos)
+  {
+    $this->rawTimestampNanos = $rawTimestampNanos;
+  }
+  public function getRawTimestampNanos()
+  {
+    return $this->rawTimestampNanos;
+  }
+  public function setStartTimeNanos($startTimeNanos)
+  {
+    $this->startTimeNanos = $startTimeNanos;
+  }
+  public function getStartTimeNanos()
+  {
+    return $this->startTimeNanos;
+  }
+  /**
+   * @param Value[]
+   */
+  public function setValue($value)
+  {
+    $this->value = $value;
+  }
+  /**
+   * @return Value[]
+   */
+  public function getValue()
+  {
+    return $this->value;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(DataPoint::class, 'Google_Service_Fitness_DataPoint');

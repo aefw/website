@@ -1,274 +1,474 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-BjiRqYLstE26ExEmHYozRG==
+<?php
+
+namespace GuzzleHttp;
+
+use GuzzleHttp\Cookie\CookieJar;
+use GuzzleHttp\Exception\GuzzleException;
+use GuzzleHttp\Exception\InvalidArgumentException;
+use GuzzleHttp\Promise as P;
+use GuzzleHttp\Promise\PromiseInterface;
+use Psr\Http\Message\RequestInterface;
+use Psr\Http\Message\ResponseInterface;
+use Psr\Http\Message\UriInterface;
+
+/**
+ * @final
+ */
+class Client implements ClientInterface, \Psr\Http\Client\ClientInterface
+{
+    use ClientTrait;
+
+    /**
+     * @var array Default request options
+     */
+    private $config;
+
+    /**
+     * Clients accept an array of constructor parameters.
+     *
+     * Here's an example of creating a client using a base_uri and an array of
+     * default request options to apply to each request:
+     *
+     *     $client = new Client([
+     *         'base_uri'        => 'http://www.foo.com/1.0/',
+     *         'timeout'         => 0,
+     *         'allow_redirects' => false,
+     *         'proxy'           => '192.168.16.1:10'
+     *     ]);
+     *
+     * Client configuration settings include the following options:
+     *
+     * - handler: (callable) Function that transfers HTTP requests over the
+     *   wire. The function is called with a Psr7\Http\Message\RequestInterface
+     *   and array of transfer options, and must return a
+     *   GuzzleHttp\Promise\PromiseInterface that is fulfilled with a
+     *   Psr7\Http\Message\ResponseInterface on success.
+     *   If no handler is provided, a default handler will be created
+     *   that enables all of the request options below by attaching all of the
+     *   default middleware to the handler.
+     * - base_uri: (string|UriInterface) Base URI of the client that is merged
+     *   into relative URIs. Can be a string or instance of UriInterface.
+     * - **: any request option
+     *
+     * @param array $config Client configuration settings.
+     *
+     * @see \GuzzleHttp\RequestOptions for a list of available request options.
+     */
+    public function __construct(array $config = [])
+    {
+        if (!isset($config['handler'])) {
+            $config['handler'] = HandlerStack::create();
+        } elseif (!\is_callable($config['handler'])) {
+            throw new InvalidArgumentException('handler must be a callable');
+        }
+
+        // Convert the base_uri to a UriInterface
+        if (isset($config['base_uri'])) {
+            $config['base_uri'] = Psr7\Utils::uriFor($config['base_uri']);
+        }
+
+        $this->configureDefaults($config);
+    }
+
+    /**
+     * @param string $method
+     * @param array  $args
+     *
+     * @return PromiseInterface|ResponseInterface
+     *
+     * @deprecated Client::__call will be removed in guzzlehttp/guzzle:8.0.
+     */
+    public function __call($method, $args)
+    {
+        if (\count($args) < 1) {
+            throw new InvalidArgumentException('Magic request methods require a URI and optional options array');
+        }
+
+        $uri = $args[0];
+        $opts = $args[1] ?? [];
+
+        return \substr($method, -5) === 'Async'
+            ? $this->requestAsync(\substr($method, 0, -5), $uri, $opts)
+            : $this->request($method, $uri, $opts);
+    }
+
+    /**
+     * Asynchronously send an HTTP request.
+     *
+     * @param array $options Request options to apply to the given
+     *                       request and to the transfer. See \GuzzleHttp\RequestOptions.
+     */
+    public function sendAsync(RequestInterface $request, array $options = []): PromiseInterface
+    {
+        // Merge the base URI into the request URI if needed.
+        $options = $this->prepareDefaults($options);
+
+        return $this->transfer(
+            $request->withUri($this->buildUri($request->getUri(), $options), $request->hasHeader('Host')),
+            $options
+        );
+    }
+
+    /**
+     * Send an HTTP request.
+     *
+     * @param array $options Request options to apply to the given
+     *                       request and to the transfer. See \GuzzleHttp\RequestOptions.
+     *
+     * @throws GuzzleException
+     */
+    public function send(RequestInterface $request, array $options = []): ResponseInterface
+    {
+        $options[RequestOptions::SYNCHRONOUS] = true;
+        return $this->sendAsync($request, $options)->wait();
+    }
+
+    /**
+     * The HttpClient PSR (PSR-18) specify this method.
+     *
+     * @inheritDoc
+     */
+    public function sendRequest(RequestInterface $request): ResponseInterface
+    {
+        $options[RequestOptions::SYNCHRONOUS] = true;
+        $options[RequestOptions::ALLOW_REDIRECTS] = false;
+        $options[RequestOptions::HTTP_ERRORS] = false;
+
+        return $this->sendAsync($request, $options)->wait();
+    }
+
+    /**
+     * Create and send an asynchronous HTTP request.
+     *
+     * Use an absolute path to override the base path of the client, or a
+     * relative path to append to the base path of the client. The URL can
+     * contain the query string as well. Use an array to provide a URL
+     * template and additional variables to use in the URL template expansion.
+     *
+     * @param string              $method  HTTP method
+     * @param string|UriInterface $uri     URI object or string.
+     * @param array               $options Request options to apply. See \GuzzleHttp\RequestOptions.
+     */
+    public function requestAsync(string $method, $uri = '', array $options = []): PromiseInterface
+    {
+        $options = $this->prepareDefaults($options);
+        // Remove request modifying parameter because it can be done up-front.
+        $headers = $options['headers'] ?? [];
+        $body = $options['body'] ?? null;
+        $version = $options['version'] ?? '1.1';
+        // Merge the URI into the base URI.
+        $uri = $this->buildUri(Psr7\Utils::uriFor($uri), $options);
+        if (\is_array($body)) {
+            throw $this->invalidBody();
+        }
+        $request = new Psr7\Request($method, $uri, $headers, $body, $version);
+        // Remove the option so that they are not doubly-applied.
+        unset($options['headers'], $options['body'], $options['version']);
+
+        return $this->transfer($request, $options);
+    }
+
+    /**
+     * Create and send an HTTP request.
+     *
+     * Use an absolute path to override the base path of the client, or a
+     * relative path to append to the base path of the client. The URL can
+     * contain the query string as well.
+     *
+     * @param string              $method  HTTP method.
+     * @param string|UriInterface $uri     URI object or string.
+     * @param array               $options Request options to apply. See \GuzzleHttp\RequestOptions.
+     *
+     * @throws GuzzleException
+     */
+    public function request(string $method, $uri = '', array $options = []): ResponseInterface
+    {
+        $options[RequestOptions::SYNCHRONOUS] = true;
+        return $this->requestAsync($method, $uri, $options)->wait();
+    }
+
+    /**
+     * Get a client configuration option.
+     *
+     * These options include default request options of the client, a "handler"
+     * (if utilized by the concrete client), and a "base_uri" if utilized by
+     * the concrete client.
+     *
+     * @param string|null $option The config option to retrieve.
+     *
+     * @return mixed
+     *
+     * @deprecated Client::getConfig will be removed in guzzlehttp/guzzle:8.0.
+     */
+    public function getConfig(?string $option = null)
+    {
+        return $option === null
+            ? $this->config
+            : ($this->config[$option] ?? null);
+    }
+
+    private function buildUri(UriInterface $uri, array $config): UriInterface
+    {
+        if (isset($config['base_uri'])) {
+            $uri = Psr7\UriResolver::resolve(Psr7\Utils::uriFor($config['base_uri']), $uri);
+        }
+
+        if (isset($config['idn_conversion']) && ($config['idn_conversion'] !== false)) {
+            $idnOptions = ($config['idn_conversion'] === true) ? \IDNA_DEFAULT : $config['idn_conversion'];
+            $uri = Utils::idnUriConvert($uri, $idnOptions);
+        }
+
+        return $uri->getScheme() === '' && $uri->getHost() !== '' ? $uri->withScheme('http') : $uri;
+    }
+
+    /**
+     * Configures the default options for a client.
+     */
+    private function configureDefaults(array $config): void
+    {
+        $defaults = [
+            'allow_redirects' => RedirectMiddleware::$defaultSettings,
+            'http_errors'     => true,
+            'decode_content'  => true,
+            'verify'          => true,
+            'cookies'         => false,
+            'idn_conversion'  => false,
+        ];
+
+        // Use the standard Linux HTTP_PROXY and HTTPS_PROXY if set.
+
+        // We can only trust the HTTP_PROXY environment variable in a CLI
+        // process due to the fact that PHP has no reliable mechanism to
+        // get environment variables that start with "HTTP_".
+        if (\PHP_SAPI === 'cli' && ($proxy = Utils::getenv('HTTP_PROXY'))) {
+            $defaults['proxy']['http'] = $proxy;
+        }
+
+        if ($proxy = Utils::getenv('HTTPS_PROXY')) {
+            $defaults['proxy']['https'] = $proxy;
+        }
+
+        if ($noProxy = Utils::getenv('NO_PROXY')) {
+            $cleanedNoProxy = \str_replace(' ', '', $noProxy);
+            $defaults['proxy']['no'] = \explode(',', $cleanedNoProxy);
+        }
+
+        $this->config = $config + $defaults;
+
+        if (!empty($config['cookies']) && $config['cookies'] === true) {
+            $this->config['cookies'] = new CookieJar();
+        }
+
+        // Add the default user-agent header.
+        if (!isset($this->config['headers'])) {
+            $this->config['headers'] = ['User-Agent' => Utils::defaultUserAgent()];
+        } else {
+            // Add the User-Agent header if one was not already set.
+            foreach (\array_keys($this->config['headers']) as $name) {
+                if (\strtolower($name) === 'user-agent') {
+                    return;
+                }
+            }
+            $this->config['headers']['User-Agent'] = Utils::defaultUserAgent();
+        }
+    }
+
+    /**
+     * Merges default options into the array.
+     *
+     * @param array $options Options to modify by reference
+     */
+    private function prepareDefaults(array $options): array
+    {
+        $defaults = $this->config;
+
+        if (!empty($defaults['headers'])) {
+            // Default headers are only added if they are not present.
+            $defaults['_conditional'] = $defaults['headers'];
+            unset($defaults['headers']);
+        }
+
+        // Special handling for headers is required as they are added as
+        // conditional headers and as headers passed to a request ctor.
+        if (\array_key_exists('headers', $options)) {
+            // Allows default headers to be unset.
+            if ($options['headers'] === null) {
+                $defaults['_conditional'] = [];
+                unset($options['headers']);
+            } elseif (!\is_array($options['headers'])) {
+                throw new InvalidArgumentException('headers must be an array');
+            }
+        }
+
+        // Shallow merge defaults underneath options.
+        $result = $options + $defaults;
+
+        // Remove null values.
+        foreach ($result as $k => $v) {
+            if ($v === null) {
+                unset($result[$k]);
+            }
+        }
+
+        return $result;
+    }
+
+    /**
+     * Transfers the given request and applies request options.
+     *
+     * The URI of the request is not modified and the request options are used
+     * as-is without merging in default options.
+     *
+     * @param array $options See \GuzzleHttp\RequestOptions.
+     */
+    private function transfer(RequestInterface $request, array $options): PromiseInterface
+    {
+        $request = $this->applyOptions($request, $options);
+        /** @var HandlerStack $handler */
+        $handler = $options['handler'];
+
+        try {
+            return P\Create::promiseFor($handler($request, $options));
+        } catch (\Exception $e) {
+            return P\Create::rejectionFor($e);
+        }
+    }
+
+    /**
+     * Applies the array of request options to a request.
+     */
+    private function applyOptions(RequestInterface $request, array &$options): RequestInterface
+    {
+        $modify = [
+            'set_headers' => [],
+        ];
+
+        if (isset($options['headers'])) {
+            $modify['set_headers'] = $options['headers'];
+            unset($options['headers']);
+        }
+
+        if (isset($options['form_params'])) {
+            if (isset($options['multipart'])) {
+                throw new InvalidArgumentException('You cannot use '
+                    . 'form_params and multipart at the same time. Use the '
+                    . 'form_params option if you want to send application/'
+                    . 'x-www-form-urlencoded requests, and the multipart '
+                    . 'option to send multipart/form-data requests.');
+            }
+            $options['body'] = \http_build_query($options['form_params'], '', '&');
+            unset($options['form_params']);
+            // Ensure that we don't have the header in different case and set the new value.
+            $options['_conditional'] = Psr7\Utils::caselessRemove(['Content-Type'], $options['_conditional']);
+            $options['_conditional']['Content-Type'] = 'application/x-www-form-urlencoded';
+        }
+
+        if (isset($options['multipart'])) {
+            $options['body'] = new Psr7\MultipartStream($options['multipart']);
+            unset($options['multipart']);
+        }
+
+        if (isset($options['json'])) {
+            $options['body'] = Utils::jsonEncode($options['json']);
+            unset($options['json']);
+            // Ensure that we don't have the header in different case and set the new value.
+            $options['_conditional'] = Psr7\Utils::caselessRemove(['Content-Type'], $options['_conditional']);
+            $options['_conditional']['Content-Type'] = 'application/json';
+        }
+
+        if (!empty($options['decode_content'])
+            && $options['decode_content'] !== true
+        ) {
+            // Ensure that we don't have the header in different case and set the new value.
+            $options['_conditional'] = Psr7\Utils::caselessRemove(['Accept-Encoding'], $options['_conditional']);
+            $modify['set_headers']['Accept-Encoding'] = $options['decode_content'];
+        }
+
+        if (isset($options['body'])) {
+            if (\is_array($options['body'])) {
+                throw $this->invalidBody();
+            }
+            $modify['body'] = Psr7\Utils::streamFor($options['body']);
+            unset($options['body']);
+        }
+
+        if (!empty($options['auth']) && \is_array($options['auth'])) {
+            $value = $options['auth'];
+            $type = isset($value[2]) ? \strtolower($value[2]) : 'basic';
+            switch ($type) {
+                case 'basic':
+                    // Ensure that we don't have the header in different case and set the new value.
+                    $modify['set_headers'] = Psr7\Utils::caselessRemove(['Authorization'], $modify['set_headers']);
+                    $modify['set_headers']['Authorization'] = 'Basic '
+                        . \base64_encode("$value[0]:$value[1]");
+                    break;
+                case 'digest':
+                    // @todo: Do not rely on curl
+                    $options['curl'][\CURLOPT_HTTPAUTH] = \CURLAUTH_DIGEST;
+                    $options['curl'][\CURLOPT_USERPWD] = "$value[0]:$value[1]";
+                    break;
+                case 'ntlm':
+                    $options['curl'][\CURLOPT_HTTPAUTH] = \CURLAUTH_NTLM;
+                    $options['curl'][\CURLOPT_USERPWD] = "$value[0]:$value[1]";
+                    break;
+            }
+        }
+
+        if (isset($options['query'])) {
+            $value = $options['query'];
+            if (\is_array($value)) {
+                $value = \http_build_query($value, '', '&', \PHP_QUERY_RFC3986);
+            }
+            if (!\is_string($value)) {
+                throw new InvalidArgumentException('query must be a string or array');
+            }
+            $modify['query'] = $value;
+            unset($options['query']);
+        }
+
+        // Ensure that sink is not an invalid value.
+        if (isset($options['sink'])) {
+            // TODO: Add more sink validation?
+            if (\is_bool($options['sink'])) {
+                throw new InvalidArgumentException('sink must not be a boolean');
+            }
+        }
+
+        $request = Psr7\Utils::modifyRequest($request, $modify);
+        if ($request->getBody() instanceof Psr7\MultipartStream) {
+            // Use a multipart/form-data POST if a Content-Type is not set.
+            // Ensure that we don't have the header in different case and set the new value.
+            $options['_conditional'] = Psr7\Utils::caselessRemove(['Content-Type'], $options['_conditional']);
+            $options['_conditional']['Content-Type'] = 'multipart/form-data; boundary='
+                . $request->getBody()->getBoundary();
+        }
+
+        // Merge in conditional headers if they are not present.
+        if (isset($options['_conditional'])) {
+            // Build up the changes so it's in a single clone of the message.
+            $modify = [];
+            foreach ($options['_conditional'] as $k => $v) {
+                if (!$request->hasHeader($k)) {
+                    $modify['set_headers'][$k] = $v;
+                }
+            }
+            $request = Psr7\Utils::modifyRequest($request, $modify);
+            // Don't pass this internal value along to middleware/handlers.
+            unset($options['_conditional']);
+        }
+
+        return $request;
+    }
+
+    /**
+     * Return an InvalidArgumentException with pre-set message.
+     */
+    private function invalidBody(): InvalidArgumentException
+    {
+        return new InvalidArgumentException('Passing in the "body" request '
+            . 'option as an array to send a request is not supported. '
+            . 'Please use the "form_params" request option to send a '
+            . 'application/x-www-form-urlencoded request, or the "multipart" '
+            . 'request option to send a multipart/form-data request.');
+    }
+}

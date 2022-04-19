@@ -1,79 +1,138 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPujmN2AlrQGLnhd90PusuDXhfPvXhJNXRBZ8zFzEINczXuHLD6j5mMfDc/7JmqfxkLY2gy9m
-Os/zlCSJY4Y//cExVO/+gR8jXgwO+scwQ3sjVpx/HF4schyjhfcOURqigAPMhv5SKGocdlvaNBJj
-bfpYPRApn8ZnA2Tg9wUDg2FzwxLUTWr0a4ekr5yRM9sg0j9QmQPZZ6J8ceHIM4e87NKmfp5bHxmu
-EzZihWIk4p6J9tNbKF0BPfV+yiAdE/D56iYFgC5XaucF/RzzItWWbMXjEE9mKourL8IeB86cFae5
-vLNxTFl+m5SO9aYlk4c8LD80SRK0SXBOvGlLKs3rW0NghqcmZKnN8DSqNQTEEkpO4G9JjoSD7s+C
-WyLIWUuBrPlPwPbbeuMSmd5jNmZrchoidG8eK5zDhAJm+5Xa4DcWDo+ClfwbemHlrb5f6JfFuzib
-h+p1vDcqFNKBnBES+Pc/x2lcXWRg+YAUzlCi7U+PC61TqErgq8xYrXNN/fSWD1H4S8yJ0LnTXx6I
-kvv70PfVZUZPdoyX8e+E4ilNFNDqGPNko9mgdJEXaJD5IO5myBu1pXOFshb/j7IIXqcqcyleNoS1
-iBbKGgIY9sedp2ljQDPThjhpR1ZoAwbVR/u7ozRN7sxlpr09YsTEomOB7HiZ+EjvY31Y/no8XqKu
-dqrsfigsSDBw3kvXNUuA8KBZQ1fk6aY0qZ0D/yHf/4qwtmx2AwuqOH1XBPfpjEmjwh58gxqcG0b+
-upwc1Los8Pc8KQyaDe7UqUuvU3RSMmOhlc2HHRmxDXBHsn4sIIzQEhpPuMPt4baYSJUXv0yd80vL
-a5ywfL42YnCYzvC13css2Y3BJNjh/alB+gYpXj2hD7oog/slXjnO2hLpbzjaHI9UTALybJTruTXD
-S9xjEPbBRKqcu3uHpTimh4bBQ7Z/caRuUiBQxahxKdkUdxK3QHH07O7MVoDMm9yDuyDbmB3Qiicp
-hNNfSMH5q1A1GsTgLTiDpKAQO45JBncCLON7bfWO8YF28TAYBLhF2NKWUYdv7FfQ/o+f13+sHpAC
-ebexs9jJKqgFK1r76UM0B7PYQ7JE7DLEOcuvHJNV695znFYTFjH0brQbsiyxjmbepsqoPd8sVgOP
-S/J9Q9jccKKgq3kj1MPmi3h6GBYIjNvQDVdsci+Cgkd8MOjocVgG2KVG9KamWfqQCwUPlJOc2CSb
-fipmO1JMpY3+UePbyhHNr8fSQR+5zqd2b/XYnVSJ8yC07SRMUrCRQ7ihAe0fCSwTD9OIiyRubgF9
-d1SkIFwfDnfEaoLRBrS+wSfD2VJ+t41jQK/ldhTeLGwjNdG2n1j3OC25ZflVaWSmMmS+vJYpnEV7
-Qb2XRly+RC2DKC4a3PblOlc0I0wY44BpSQc97SJ8kmKIH5gfvuMsSKVd1AbhKMnLyKknsTC7+OPs
-fmyik+rO/lpaoKJFSRpDdF8ihzxs/8LWBVYQ++jQuysQFzHqUSM02KV1yV0V/72TtaTWr03WP5Mu
-DtUG2s3efpMyGpJF7gL2/xPYiHIqn3ab1UrmYzBu/cw2Y+P7KZDPRvwvbk2N0SdI2GbnnzOnUFKW
-IQv65vvOQnkkYO0pEvY7jCE373GdLZ8bqK4McEt+Z/+NLs+BXPsGQtu1WWxI08Izv44d9fol+x9K
-kWjZ7pPvEGQKEZMLfabzgVriCMybChK316LcURYc1PPDSKtBu9/SjMRyHzF9rIz6TTpKYuVWgKTE
-n8SJt6mAllg04M7LJrQjukNhMUH17q9RAkPUx8eZkgIHbXBMN7L/5mygDHn/TG47nun4hu2E9pia
-S9AaYrTwt7YcAQcsJL5pV9NhWypXuChPJP72iKdQbihsZV0r7BvTIqqEGHVyIma/v6ARCRtoGBnR
-FNIOdKpK0PILatLmDTUxVHj8tzh2iUjPiKvfVWjgi/hO31AoAW5SoOWCf0z2isggtheq7o63NHMd
-s7ymn8v9KM5q7MteL19ZllT+RvrrhKGdKrbVkgaFehXb5HHql7FCFxMPihVcrWWWXV07+sC7KH+7
-vrS+QmWRNykblsHL+3Sm8uu1sX9mSu0ia1kKE2nKmoQswF7Fc4hnGnKxkneQCSWlbHLRnPZSsWwE
-EvPGlYFK49d+uUbMkhRcKFOzL/nDiuU5gl1REDh+Vogi1Ni3Irv8MuJa1AbnxH/YTfLr5VNs91UV
-9vWFSrlvIzX2eym3ibgGDplZyCgcf7AmRZjhSQei2ur4wqfMNMZeaulTUMXoJ1jYNkpQIjfOo2Pe
-HRUxVF2QPje9N2IJJCvkEqCGbA3DAh/XqRqRq4NYrfCGpfqjIYkO3Qqo2gU94aZE77hMZT2HPv//
-Q6A9BDMn4uHKgExS/p/4JdiM0Uaqrr74h0bzf9JhAlyG6qjmf06ck3+/6Ztcb3qam7FVfXr8J1OI
-C6+iu8/tNbSfb82NPShQgg4vx4E3fbptf+6zQmt5AnZL946rKAj1yVt0qjv46u7TcWjK7vUQ8D2+
-m6/P6+rGlL9u4VqgT4N1YFpabCQb3CZF2y2KPGAXQXPCVY5lFvyRitHuwhGYOoNe0KIWaloefEzs
-h3D89Ox3+J+XOQ/yOaEJZAgY4nTS1WF8bM98lKtlV1d7+5TV/haixlqINw/BfxsrFqiGU6reIivv
-AWqRX3yEybN+KqrAgs4B/83Jjd6NSM6dILPK7mvx0A6Vkq0QEHPCKheYP9UsX85pOjh6J0TR4U7p
-uMwj7w81DCPlQqbah0FkzMxaiSDVk4jl0O6ayNwGxyCgcGllA1uSzOPpTOE33ZKUorzQ2JPzbug5
-essB+M4VdrKn4jXt9bcaz/N96tImL92REOF8Zh4j3E3eigTRI3Sl9rXXyCGfzE5375wsOOtNmC/S
-arlyL043V8YZWr0BmGoygRLYlALnqI2WpKcARqFbRDE43JeTjM2ld3KVd87KsOtncV5leBjI771X
-ZEAgUXrUYCVuqqSaPTd5Jp28ImwM18BxzAdvNJ/q1Gb7zjsVJ1r64D8CRQSf7BW2Kf3FeJ/GqlbC
-W6pJi6IbkrW7xnEpJOm24FIV3/e+E8oZcGBGppJBLgWJcxorbss5Ba0mM9jhqHVsWjsuaKN/j+R5
-NTdUwwFnqR4te0Kxu6JmU3T5ehN7GOaBr8hoL8lAXcqgq1U3JCGS3Vr8rk1u9IlDjN9vUaqUhv81
-7PCMQO4ne++Oq/isgW64t8jtoqVvA5Z6MbT22AakZvCOuz4xmRdu2gzENlnL0YM5C0+LjJteXGZO
-wuneT6RUZA2bQ4V08OssbbCoBvGWtJ+tLF1IK9PwLsh2S/x51N4+Zk2okH421ncZtBq5fN3mfvPn
-7DREVKeLijdfRNDFh64bQsTFARSr+q+qj4QneWBeDglqWWO61wWunN7BuL2oZbrM9a9WOv55fk9F
-86fQJzZ3nZ6WBSjUFbj2uPYrp0tRjtj83nqkPIHqzx5+nyqbaBoUtnyNWOlF44zhUfsyyBls7OyP
-8E7Y69y86PzgAib45QnVbax6EwcmHuuS2Uf3iRmwMsYReCStcEBQaTm/wm0PFU9y8vrvzzn0Hw+V
-3e7djeyXtPen/PzCGCA1fDYc6bxIHC0MtLq4dNdzKYDQdNPT/5jBtBDdyKtz7D/Vm856WcmoPZg6
-mHcswyAxJfZhklzpnhcLJDrrIKjiuOmblrXWLWF5CskFRkuQN5Y9iczBU5kQWSW2PW0eaBOG+RGL
-LiFj+yr630/3QKjxx6k+2JtS/gwF8vXC/lyAGvxEU4MGqiucLou0Uro+IXVYPCt9zl0ARPhQibH9
-2F7C+S7KaWHMYTbiUck2qdP0RFg03rxqdhKHHgLGzCbvkYiXqVF1W0KWNnakGw8uYIyp/HU2cb22
-l3Cz6wv29/sO4moP21Q1KfCh1Njn75blZ4s0QZLtiJNS/sqp9Q9W5pWRaIaGKKuLN/o53ZaLVe6d
-n32cXBsujSJ84RQjh8oHiPnSTNF2ZFuLUvMJ3yRG59KR9oEf1OA9mnkk5soTIlVTVr2B2z6lNPaJ
-6taQQvBZm9RChUYyxXgmaHkqIdxdpkOoHEIPKeE9qvX5XRIBp/dBnpVPojwhKfnEeodeiGTFMwI+
-afdT6euf6fe4HfNRVoralxhJt1E86XtWvOgK7L1Vr4QlUoKSCIEbMv76jlJD5e95C+SFz8faVQU9
-z78pDjzx+8Kq1U92MhMRYD15EPRNrSE7z5dcdC+iTEFH5dPU6svrG6m/DRxa5F5wsx8RAF7l66v/
-L/YkoaC/Y64keXYbdyVWD4uCjLXS6X4+KJ2rNk/6tnJw67LBFy7m39SD1pjoeKtbgj7hII197nMf
-YVZ3FrF2RCmbefPqbFLn1DElgClLMdxGyVgAmJyBpvYRXPFP8QtU/dKX8UrDxKPdu/MP7AQiivbc
-Jdn3VJ3iSVtQW5CLTPRtZ+wocOWaUNEEcogReVXEQpUtiQYskhxqa/lxylLR4MvhSayT79dARfAA
-k1eOA5ylsvR3RIqoZg8tSoJksLFyY3QxH5oJSDrcB8D+0zthywiz3FAGAd55RnojYnfhpkiY1tYD
-a0NH1krG8rxuNIS6NFr2n8l3PRR8rFSKvwU9yNd4Hn5FhJ68WjcD6dHwImJFlkfLYLL3Z731VgwR
-0j9l57dW6gMVKS9QNhKZ6WbvMjnck8j/KFcNtskNIeJUcTcu4eYNkxw3ZT2keFPAOMkTBlcq1gcy
-AIQvrmyfoy1efb/3t/+roXHDDwKsWNEKWWwk1Mdl9XoVOOpcwlIVidcYrNgZNVthJhv3OvIJ8YZA
-Eeo9uRmpk8cG+XXoqd9OSAz3DwHJjwCFYYRop+wIoXy+vvI36GcosZ02/tIZhJRxKDrdiSoz2r3X
-C+co40fnbyvW/dFr4YTIwWCf8UArgIG1WqwvefLDVGdVsGNtfQC0KrqUOWrCpSYd1zlDIcdAYHPo
-GOI17bHW0kWz/G/ggQ3uOBOkhlWW5zVvy0HXlK+RrkqHhFZbt5PYL7Tl8vASMUsP9W5sg3XvdpYG
-fGVCp5kYH0DLbVOx2fA/PSKG77fsk4r4YRQ+ZA69/q6DU7zPPHSnqMOfbHEdTXdWzPS64klbAnBr
-RyUnJc2VSDMgxe4LIH9j3QxO9j+1lloIaIXicDKgGRz4jkp71vOj2LUOazME75qtOU02SVYHn5ri
-0o8MyUkXbzFfjelOisfS7Y+PI/+T5iTha6QrENN/ZrIZr1Z/gkJia+mhVuzKYIIfD/C/oX2qBikZ
-VKjs5DzwTzfonuNwOx3Rud6l+9MxUT6s192dx4AObwEeX5LzXP+atrtLxqCl0w4EmWwAr3+5bWl3
-DohMZ8qFi+6PqgnuBwN3PZqLd+NmjbsIFRVO4JF2qA7zmrz0fGDFZYeXb1MXLlb5O10tQf149lSA
-ID+Cl4NWVpXjogLLra/LLa/Cip0Ggszjwe2LERWZUQ8plJRgMvzLxKh0CvpZRGrjj3lS6/7vOopD
-k0hfvhh1JSdV3/lHCAt5LwOTXZNY
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Eventarc;
+
+class Trigger extends \Google\Collection
+{
+  protected $collection_key = 'eventFilters';
+  public $createTime;
+  protected $destinationType = Destination::class;
+  protected $destinationDataType = '';
+  public $etag;
+  protected $eventFiltersType = EventFilter::class;
+  protected $eventFiltersDataType = 'array';
+  public $labels;
+  public $name;
+  public $serviceAccount;
+  protected $transportType = Transport::class;
+  protected $transportDataType = '';
+  public $uid;
+  public $updateTime;
+
+  public function setCreateTime($createTime)
+  {
+    $this->createTime = $createTime;
+  }
+  public function getCreateTime()
+  {
+    return $this->createTime;
+  }
+  /**
+   * @param Destination
+   */
+  public function setDestination(Destination $destination)
+  {
+    $this->destination = $destination;
+  }
+  /**
+   * @return Destination
+   */
+  public function getDestination()
+  {
+    return $this->destination;
+  }
+  public function setEtag($etag)
+  {
+    $this->etag = $etag;
+  }
+  public function getEtag()
+  {
+    return $this->etag;
+  }
+  /**
+   * @param EventFilter[]
+   */
+  public function setEventFilters($eventFilters)
+  {
+    $this->eventFilters = $eventFilters;
+  }
+  /**
+   * @return EventFilter[]
+   */
+  public function getEventFilters()
+  {
+    return $this->eventFilters;
+  }
+  public function setLabels($labels)
+  {
+    $this->labels = $labels;
+  }
+  public function getLabels()
+  {
+    return $this->labels;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setServiceAccount($serviceAccount)
+  {
+    $this->serviceAccount = $serviceAccount;
+  }
+  public function getServiceAccount()
+  {
+    return $this->serviceAccount;
+  }
+  /**
+   * @param Transport
+   */
+  public function setTransport(Transport $transport)
+  {
+    $this->transport = $transport;
+  }
+  /**
+   * @return Transport
+   */
+  public function getTransport()
+  {
+    return $this->transport;
+  }
+  public function setUid($uid)
+  {
+    $this->uid = $uid;
+  }
+  public function getUid()
+  {
+    return $this->uid;
+  }
+  public function setUpdateTime($updateTime)
+  {
+    $this->updateTime = $updateTime;
+  }
+  public function getUpdateTime()
+  {
+    return $this->updateTime;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Trigger::class, 'Google_Service_Eventarc_Trigger');

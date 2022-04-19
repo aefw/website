@@ -1,65 +1,104 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+namespace GuzzleHttp;
+
+use GuzzleHttp\Promise\PromiseInterface;
+use Psr\Http\Message\RequestInterface;
+
+/**
+ * Prepares requests that contain a body, adding the Content-Length,
+ * Content-Type, and Expect headers.
+ *
+ * @final
+ */
+class PrepareBodyMiddleware
+{
+    /**
+     * @var callable(RequestInterface, array): PromiseInterface
+     */
+    private $nextHandler;
+
+    /**
+     * @param callable(RequestInterface, array): PromiseInterface $nextHandler Next handler to invoke.
+     */
+    public function __construct(callable $nextHandler)
+    {
+        $this->nextHandler = $nextHandler;
+    }
+
+    public function __invoke(RequestInterface $request, array $options): PromiseInterface
+    {
+        $fn = $this->nextHandler;
+
+        // Don't do anything if the request has no body.
+        if ($request->getBody()->getSize() === 0) {
+            return $fn($request, $options);
+        }
+
+        $modify = [];
+
+        // Add a default content-type if possible.
+        if (!$request->hasHeader('Content-Type')) {
+            if ($uri = $request->getBody()->getMetadata('uri')) {
+                if (is_string($uri) && $type = Psr7\MimeType::fromFilename($uri)) {
+                    $modify['set_headers']['Content-Type'] = $type;
+                }
+            }
+        }
+
+        // Add a default content-length or transfer-encoding header.
+        if (!$request->hasHeader('Content-Length')
+            && !$request->hasHeader('Transfer-Encoding')
+        ) {
+            $size = $request->getBody()->getSize();
+            if ($size !== null) {
+                $modify['set_headers']['Content-Length'] = $size;
+            } else {
+                $modify['set_headers']['Transfer-Encoding'] = 'chunked';
+            }
+        }
+
+        // Add the expect header if needed.
+        $this->addExpectHeader($request, $options, $modify);
+
+        return $fn(Psr7\Utils::modifyRequest($request, $modify), $options);
+    }
+
+    /**
+     * Add expect header
+     */
+    private function addExpectHeader(RequestInterface $request, array $options, array &$modify): void
+    {
+        // Determine if the Expect header should be used
+        if ($request->hasHeader('Expect')) {
+            return;
+        }
+
+        $expect = $options['expect'] ?? null;
+
+        // Return if disabled or if you're not using HTTP/1.1 or HTTP/2.0
+        if ($expect === false || $request->getProtocolVersion() < 1.1) {
+            return;
+        }
+
+        // The expect header is unconditionally enabled
+        if ($expect === true) {
+            $modify['set_headers']['Expect'] = '100-Continue';
+            return;
+        }
+
+        // By default, send the expect header when the payload is > 1mb
+        if ($expect === null) {
+            $expect = 1048576;
+        }
+
+        // Always add if the body cannot be rewound, the size cannot be
+        // determined, or the size is greater than the cutoff threshold
+        $body = $request->getBody();
+        $size = $body->getSize();
+
+        if ($size === null || $size >= (int) $expect || !$body->isSeekable()) {
+            $modify['set_headers']['Expect'] = '100-Continue';
+        }
+    }
+}

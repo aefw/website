@@ -1,152 +1,680 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+namespace PhpOffice\PhpSpreadsheet\Chart;
+
+use PhpOffice\PhpSpreadsheet\Settings;
+use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
+
+class Chart
+{
+    /**
+     * Chart Name.
+     *
+     * @var string
+     */
+    private $name = '';
+
+    /**
+     * Worksheet.
+     *
+     * @var Worksheet
+     */
+    private $worksheet;
+
+    /**
+     * Chart Title.
+     *
+     * @var Title
+     */
+    private $title;
+
+    /**
+     * Chart Legend.
+     *
+     * @var Legend
+     */
+    private $legend;
+
+    /**
+     * X-Axis Label.
+     *
+     * @var Title
+     */
+    private $xAxisLabel;
+
+    /**
+     * Y-Axis Label.
+     *
+     * @var Title
+     */
+    private $yAxisLabel;
+
+    /**
+     * Chart Plot Area.
+     *
+     * @var PlotArea
+     */
+    private $plotArea;
+
+    /**
+     * Plot Visible Only.
+     *
+     * @var bool
+     */
+    private $plotVisibleOnly = true;
+
+    /**
+     * Display Blanks as.
+     *
+     * @var string
+     */
+    private $displayBlanksAs = '0';
+
+    /**
+     * Chart Asix Y as.
+     *
+     * @var Axis
+     */
+    private $yAxis;
+
+    /**
+     * Chart Asix X as.
+     *
+     * @var Axis
+     */
+    private $xAxis;
+
+    /**
+     * Chart Major Gridlines as.
+     *
+     * @var GridLines
+     */
+    private $majorGridlines;
+
+    /**
+     * Chart Minor Gridlines as.
+     *
+     * @var GridLines
+     */
+    private $minorGridlines;
+
+    /**
+     * Top-Left Cell Position.
+     *
+     * @var string
+     */
+    private $topLeftCellRef = 'A1';
+
+    /**
+     * Top-Left X-Offset.
+     *
+     * @var int
+     */
+    private $topLeftXOffset = 0;
+
+    /**
+     * Top-Left Y-Offset.
+     *
+     * @var int
+     */
+    private $topLeftYOffset = 0;
+
+    /**
+     * Bottom-Right Cell Position.
+     *
+     * @var string
+     */
+    private $bottomRightCellRef = 'A1';
+
+    /**
+     * Bottom-Right X-Offset.
+     *
+     * @var int
+     */
+    private $bottomRightXOffset = 10;
+
+    /**
+     * Bottom-Right Y-Offset.
+     *
+     * @var int
+     */
+    private $bottomRightYOffset = 10;
+
+    /**
+     * Create a new Chart.
+     *
+     * @param mixed $name
+     * @param null|Title $title
+     * @param null|Legend $legend
+     * @param null|PlotArea $plotArea
+     * @param mixed $plotVisibleOnly
+     * @param mixed $displayBlanksAs
+     * @param null|Title $xAxisLabel
+     * @param null|Title $yAxisLabel
+     * @param null|Axis $xAxis
+     * @param null|Axis $yAxis
+     * @param null|GridLines $majorGridlines
+     * @param null|GridLines $minorGridlines
+     */
+    public function __construct($name, Title $title = null, Legend $legend = null, PlotArea $plotArea = null, $plotVisibleOnly = true, $displayBlanksAs = 'gap', Title $xAxisLabel = null, Title $yAxisLabel = null, Axis $xAxis = null, Axis $yAxis = null, GridLines $majorGridlines = null, GridLines $minorGridlines = null)
+    {
+        $this->name = $name;
+        $this->title = $title;
+        $this->legend = $legend;
+        $this->xAxisLabel = $xAxisLabel;
+        $this->yAxisLabel = $yAxisLabel;
+        $this->plotArea = $plotArea;
+        $this->plotVisibleOnly = $plotVisibleOnly;
+        $this->displayBlanksAs = $displayBlanksAs;
+        $this->xAxis = $xAxis;
+        $this->yAxis = $yAxis;
+        $this->majorGridlines = $majorGridlines;
+        $this->minorGridlines = $minorGridlines;
+    }
+
+    /**
+     * Get Name.
+     *
+     * @return string
+     */
+    public function getName()
+    {
+        return $this->name;
+    }
+
+    /**
+     * Get Worksheet.
+     *
+     * @return Worksheet
+     */
+    public function getWorksheet()
+    {
+        return $this->worksheet;
+    }
+
+    /**
+     * Set Worksheet.
+     *
+     * @param Worksheet $pValue
+     *
+     * @return Chart
+     */
+    public function setWorksheet(Worksheet $pValue = null)
+    {
+        $this->worksheet = $pValue;
+
+        return $this;
+    }
+
+    /**
+     * Get Title.
+     *
+     * @return Title
+     */
+    public function getTitle()
+    {
+        return $this->title;
+    }
+
+    /**
+     * Set Title.
+     *
+     * @param Title $title
+     *
+     * @return Chart
+     */
+    public function setTitle(Title $title)
+    {
+        $this->title = $title;
+
+        return $this;
+    }
+
+    /**
+     * Get Legend.
+     *
+     * @return Legend
+     */
+    public function getLegend()
+    {
+        return $this->legend;
+    }
+
+    /**
+     * Set Legend.
+     *
+     * @param Legend $legend
+     *
+     * @return Chart
+     */
+    public function setLegend(Legend $legend)
+    {
+        $this->legend = $legend;
+
+        return $this;
+    }
+
+    /**
+     * Get X-Axis Label.
+     *
+     * @return Title
+     */
+    public function getXAxisLabel()
+    {
+        return $this->xAxisLabel;
+    }
+
+    /**
+     * Set X-Axis Label.
+     *
+     * @param Title $label
+     *
+     * @return Chart
+     */
+    public function setXAxisLabel(Title $label)
+    {
+        $this->xAxisLabel = $label;
+
+        return $this;
+    }
+
+    /**
+     * Get Y-Axis Label.
+     *
+     * @return Title
+     */
+    public function getYAxisLabel()
+    {
+        return $this->yAxisLabel;
+    }
+
+    /**
+     * Set Y-Axis Label.
+     *
+     * @param Title $label
+     *
+     * @return Chart
+     */
+    public function setYAxisLabel(Title $label)
+    {
+        $this->yAxisLabel = $label;
+
+        return $this;
+    }
+
+    /**
+     * Get Plot Area.
+     *
+     * @return PlotArea
+     */
+    public function getPlotArea()
+    {
+        return $this->plotArea;
+    }
+
+    /**
+     * Get Plot Visible Only.
+     *
+     * @return bool
+     */
+    public function getPlotVisibleOnly()
+    {
+        return $this->plotVisibleOnly;
+    }
+
+    /**
+     * Set Plot Visible Only.
+     *
+     * @param bool $plotVisibleOnly
+     *
+     * @return Chart
+     */
+    public function setPlotVisibleOnly($plotVisibleOnly)
+    {
+        $this->plotVisibleOnly = $plotVisibleOnly;
+
+        return $this;
+    }
+
+    /**
+     * Get Display Blanks as.
+     *
+     * @return string
+     */
+    public function getDisplayBlanksAs()
+    {
+        return $this->displayBlanksAs;
+    }
+
+    /**
+     * Set Display Blanks as.
+     *
+     * @param string $displayBlanksAs
+     *
+     * @return Chart
+     */
+    public function setDisplayBlanksAs($displayBlanksAs)
+    {
+        $this->displayBlanksAs = $displayBlanksAs;
+
+        return $this;
+    }
+
+    /**
+     * Get yAxis.
+     *
+     * @return Axis
+     */
+    public function getChartAxisY()
+    {
+        if ($this->yAxis !== null) {
+            return $this->yAxis;
+        }
+
+        return new Axis();
+    }
+
+    /**
+     * Get xAxis.
+     *
+     * @return Axis
+     */
+    public function getChartAxisX()
+    {
+        if ($this->xAxis !== null) {
+            return $this->xAxis;
+        }
+
+        return new Axis();
+    }
+
+    /**
+     * Get Major Gridlines.
+     *
+     * @return GridLines
+     */
+    public function getMajorGridlines()
+    {
+        if ($this->majorGridlines !== null) {
+            return $this->majorGridlines;
+        }
+
+        return new GridLines();
+    }
+
+    /**
+     * Get Minor Gridlines.
+     *
+     * @return GridLines
+     */
+    public function getMinorGridlines()
+    {
+        if ($this->minorGridlines !== null) {
+            return $this->minorGridlines;
+        }
+
+        return new GridLines();
+    }
+
+    /**
+     * Set the Top Left position for the chart.
+     *
+     * @param string $cell
+     * @param int $xOffset
+     * @param int $yOffset
+     *
+     * @return Chart
+     */
+    public function setTopLeftPosition($cell, $xOffset = null, $yOffset = null)
+    {
+        $this->topLeftCellRef = $cell;
+        if ($xOffset !== null) {
+            $this->setTopLeftXOffset($xOffset);
+        }
+        if ($yOffset !== null) {
+            $this->setTopLeftYOffset($yOffset);
+        }
+
+        return $this;
+    }
+
+    /**
+     * Get the top left position of the chart.
+     *
+     * @return array an associative array containing the cell address, X-Offset and Y-Offset from the top left of that cell
+     */
+    public function getTopLeftPosition()
+    {
+        return [
+            'cell' => $this->topLeftCellRef,
+            'xOffset' => $this->topLeftXOffset,
+            'yOffset' => $this->topLeftYOffset,
+        ];
+    }
+
+    /**
+     * Get the cell address where the top left of the chart is fixed.
+     *
+     * @return string
+     */
+    public function getTopLeftCell()
+    {
+        return $this->topLeftCellRef;
+    }
+
+    /**
+     * Set the Top Left cell position for the chart.
+     *
+     * @param string $cell
+     *
+     * @return Chart
+     */
+    public function setTopLeftCell($cell)
+    {
+        $this->topLeftCellRef = $cell;
+
+        return $this;
+    }
+
+    /**
+     * Set the offset position within the Top Left cell for the chart.
+     *
+     * @param int $xOffset
+     * @param int $yOffset
+     *
+     * @return Chart
+     */
+    public function setTopLeftOffset($xOffset, $yOffset)
+    {
+        if ($xOffset !== null) {
+            $this->setTopLeftXOffset($xOffset);
+        }
+
+        if ($yOffset !== null) {
+            $this->setTopLeftYOffset($yOffset);
+        }
+
+        return $this;
+    }
+
+    /**
+     * Get the offset position within the Top Left cell for the chart.
+     *
+     * @return int[]
+     */
+    public function getTopLeftOffset()
+    {
+        return [
+            'X' => $this->topLeftXOffset,
+            'Y' => $this->topLeftYOffset,
+        ];
+    }
+
+    public function setTopLeftXOffset($xOffset)
+    {
+        $this->topLeftXOffset = $xOffset;
+
+        return $this;
+    }
+
+    public function getTopLeftXOffset()
+    {
+        return $this->topLeftXOffset;
+    }
+
+    public function setTopLeftYOffset($yOffset)
+    {
+        $this->topLeftYOffset = $yOffset;
+
+        return $this;
+    }
+
+    public function getTopLeftYOffset()
+    {
+        return $this->topLeftYOffset;
+    }
+
+    /**
+     * Set the Bottom Right position of the chart.
+     *
+     * @param string $cell
+     * @param int $xOffset
+     * @param int $yOffset
+     *
+     * @return Chart
+     */
+    public function setBottomRightPosition($cell, $xOffset = null, $yOffset = null)
+    {
+        $this->bottomRightCellRef = $cell;
+        if ($xOffset !== null) {
+            $this->setBottomRightXOffset($xOffset);
+        }
+        if ($yOffset !== null) {
+            $this->setBottomRightYOffset($yOffset);
+        }
+
+        return $this;
+    }
+
+    /**
+     * Get the bottom right position of the chart.
+     *
+     * @return array an associative array containing the cell address, X-Offset and Y-Offset from the top left of that cell
+     */
+    public function getBottomRightPosition()
+    {
+        return [
+            'cell' => $this->bottomRightCellRef,
+            'xOffset' => $this->bottomRightXOffset,
+            'yOffset' => $this->bottomRightYOffset,
+        ];
+    }
+
+    public function setBottomRightCell($cell)
+    {
+        $this->bottomRightCellRef = $cell;
+
+        return $this;
+    }
+
+    /**
+     * Get the cell address where the bottom right of the chart is fixed.
+     *
+     * @return string
+     */
+    public function getBottomRightCell()
+    {
+        return $this->bottomRightCellRef;
+    }
+
+    /**
+     * Set the offset position within the Bottom Right cell for the chart.
+     *
+     * @param int $xOffset
+     * @param int $yOffset
+     *
+     * @return Chart
+     */
+    public function setBottomRightOffset($xOffset, $yOffset)
+    {
+        if ($xOffset !== null) {
+            $this->setBottomRightXOffset($xOffset);
+        }
+
+        if ($yOffset !== null) {
+            $this->setBottomRightYOffset($yOffset);
+        }
+
+        return $this;
+    }
+
+    /**
+     * Get the offset position within the Bottom Right cell for the chart.
+     *
+     * @return int[]
+     */
+    public function getBottomRightOffset()
+    {
+        return [
+            'X' => $this->bottomRightXOffset,
+            'Y' => $this->bottomRightYOffset,
+        ];
+    }
+
+    public function setBottomRightXOffset($xOffset)
+    {
+        $this->bottomRightXOffset = $xOffset;
+
+        return $this;
+    }
+
+    public function getBottomRightXOffset()
+    {
+        return $this->bottomRightXOffset;
+    }
+
+    public function setBottomRightYOffset($yOffset)
+    {
+        $this->bottomRightYOffset = $yOffset;
+
+        return $this;
+    }
+
+    public function getBottomRightYOffset()
+    {
+        return $this->bottomRightYOffset;
+    }
+
+    public function refresh()
+    {
+        if ($this->worksheet !== null) {
+            $this->plotArea->refresh($this->worksheet);
+        }
+    }
+
+    /**
+     * Render the chart to given file (or stream).
+     *
+     * @param string $outputDestination Name of the file render to
+     *
+     * @return bool true on success
+     */
+    public function render($outputDestination = null)
+    {
+        if ($outputDestination == 'php://output') {
+            $outputDestination = null;
+        }
+
+        $libraryName = Settings::getChartRenderer();
+        if ($libraryName === null) {
+            return false;
+        }
+
+        // Ensure that data series values are up-to-date before we render
+        $this->refresh();
+
+        $renderer = new $libraryName($this);
+
+        return $renderer->render($outputDestination);
+    }
+}

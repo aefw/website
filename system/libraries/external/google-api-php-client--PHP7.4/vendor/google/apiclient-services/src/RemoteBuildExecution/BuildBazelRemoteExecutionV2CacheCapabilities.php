@@ -1,72 +1,95 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\RemoteBuildExecution;
+
+class BuildBazelRemoteExecutionV2CacheCapabilities extends \Google\Collection
+{
+  protected $collection_key = 'supportedCompressor';
+  protected $actionCacheUpdateCapabilitiesType = BuildBazelRemoteExecutionV2ActionCacheUpdateCapabilities::class;
+  protected $actionCacheUpdateCapabilitiesDataType = '';
+  protected $cachePriorityCapabilitiesType = BuildBazelRemoteExecutionV2PriorityCapabilities::class;
+  protected $cachePriorityCapabilitiesDataType = '';
+  public $digestFunction;
+  public $maxBatchTotalSizeBytes;
+  public $supportedCompressor;
+  public $symlinkAbsolutePathStrategy;
+
+  /**
+   * @param BuildBazelRemoteExecutionV2ActionCacheUpdateCapabilities
+   */
+  public function setActionCacheUpdateCapabilities(BuildBazelRemoteExecutionV2ActionCacheUpdateCapabilities $actionCacheUpdateCapabilities)
+  {
+    $this->actionCacheUpdateCapabilities = $actionCacheUpdateCapabilities;
+  }
+  /**
+   * @return BuildBazelRemoteExecutionV2ActionCacheUpdateCapabilities
+   */
+  public function getActionCacheUpdateCapabilities()
+  {
+    return $this->actionCacheUpdateCapabilities;
+  }
+  /**
+   * @param BuildBazelRemoteExecutionV2PriorityCapabilities
+   */
+  public function setCachePriorityCapabilities(BuildBazelRemoteExecutionV2PriorityCapabilities $cachePriorityCapabilities)
+  {
+    $this->cachePriorityCapabilities = $cachePriorityCapabilities;
+  }
+  /**
+   * @return BuildBazelRemoteExecutionV2PriorityCapabilities
+   */
+  public function getCachePriorityCapabilities()
+  {
+    return $this->cachePriorityCapabilities;
+  }
+  public function setDigestFunction($digestFunction)
+  {
+    $this->digestFunction = $digestFunction;
+  }
+  public function getDigestFunction()
+  {
+    return $this->digestFunction;
+  }
+  public function setMaxBatchTotalSizeBytes($maxBatchTotalSizeBytes)
+  {
+    $this->maxBatchTotalSizeBytes = $maxBatchTotalSizeBytes;
+  }
+  public function getMaxBatchTotalSizeBytes()
+  {
+    return $this->maxBatchTotalSizeBytes;
+  }
+  public function setSupportedCompressor($supportedCompressor)
+  {
+    $this->supportedCompressor = $supportedCompressor;
+  }
+  public function getSupportedCompressor()
+  {
+    return $this->supportedCompressor;
+  }
+  public function setSymlinkAbsolutePathStrategy($symlinkAbsolutePathStrategy)
+  {
+    $this->symlinkAbsolutePathStrategy = $symlinkAbsolutePathStrategy;
+  }
+  public function getSymlinkAbsolutePathStrategy()
+  {
+    return $this->symlinkAbsolutePathStrategy;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(BuildBazelRemoteExecutionV2CacheCapabilities::class, 'Google_Service_RemoteBuildExecution_BuildBazelRemoteExecutionV2CacheCapabilities');

@@ -1,72 +1,114 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-uZk98eN0qLEyMePPgtCWmGHORaRpgaMzVkC=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ShoppingContent\Resource;
+
+use Google\Service\ShoppingContent\ListReturnPolicyOnlineResponse;
+use Google\Service\ShoppingContent\ReturnPolicyOnline as ReturnPolicyOnlineModel;
+
+/**
+ * The "returnpolicyonline" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $contentService = new Google\Service\ShoppingContent(...);
+ *   $returnpolicyonline = $contentService->returnpolicyonline;
+ *  </code>
+ */
+class Returnpolicyonline extends \Google\Service\Resource
+{
+  /**
+   * Creates a new return policy. (returnpolicyonline.create)
+   *
+   * @param string $merchantId Required. The id of the merchant for which to
+   * retrieve the return policy online object.
+   * @param ReturnPolicyOnlineModel $postBody
+   * @param array $optParams Optional parameters.
+   * @return ReturnPolicyOnlineModel
+   */
+  public function create($merchantId, ReturnPolicyOnlineModel $postBody, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], ReturnPolicyOnlineModel::class);
+  }
+  /**
+   * Deletes an existing return policy. (returnpolicyonline.delete)
+   *
+   * @param string $merchantId Required. The id of the merchant for which to
+   * retrieve the return policy online object.
+   * @param string $returnPolicyId Required. The id of the return policy to
+   * delete.
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($merchantId, $returnPolicyId, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'returnPolicyId' => $returnPolicyId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Gets an existing return policy. (returnpolicyonline.get)
+   *
+   * @param string $merchantId Required. The id of the merchant for which to
+   * retrieve the return policy online object.
+   * @param string $returnPolicyId Required. The id of the return policy to
+   * retrieve.
+   * @param array $optParams Optional parameters.
+   * @return ReturnPolicyOnlineModel
+   */
+  public function get($merchantId, $returnPolicyId, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'returnPolicyId' => $returnPolicyId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], ReturnPolicyOnlineModel::class);
+  }
+  /**
+   * Lists all existing return policies.
+   * (returnpolicyonline.listReturnpolicyonline)
+   *
+   * @param string $merchantId Required. The id of the merchant for which to
+   * retrieve the return policy online object.
+   * @param array $optParams Optional parameters.
+   * @return ListReturnPolicyOnlineResponse
+   */
+  public function listReturnpolicyonline($merchantId, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListReturnPolicyOnlineResponse::class);
+  }
+  /**
+   * Updates an existing return policy. (returnpolicyonline.patch)
+   *
+   * @param string $merchantId Required. The id of the merchant for which to
+   * retrieve the return policy online object.
+   * @param string $returnPolicyId Required. The id of the return policy to
+   * update.
+   * @param ReturnPolicyOnlineModel $postBody
+   * @param array $optParams Optional parameters.
+   * @return ReturnPolicyOnlineModel
+   */
+  public function patch($merchantId, $returnPolicyId, ReturnPolicyOnlineModel $postBody, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'returnPolicyId' => $returnPolicyId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], ReturnPolicyOnlineModel::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Returnpolicyonline::class, 'Google_Service_ShoppingContent_Resource_Returnpolicyonline');

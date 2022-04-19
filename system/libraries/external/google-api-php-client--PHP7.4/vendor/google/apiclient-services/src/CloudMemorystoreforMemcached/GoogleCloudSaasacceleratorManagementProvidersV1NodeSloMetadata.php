@@ -1,59 +1,61 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-bzS2ya4Mzzkn1bBFOm==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudMemorystoreforMemcached;
+
+class GoogleCloudSaasacceleratorManagementProvidersV1NodeSloMetadata extends \Google\Collection
+{
+  protected $collection_key = 'exclusions';
+  protected $exclusionsType = GoogleCloudSaasacceleratorManagementProvidersV1SloExclusion::class;
+  protected $exclusionsDataType = 'array';
+  public $location;
+  public $nodeId;
+
+  /**
+   * @param GoogleCloudSaasacceleratorManagementProvidersV1SloExclusion[]
+   */
+  public function setExclusions($exclusions)
+  {
+    $this->exclusions = $exclusions;
+  }
+  /**
+   * @return GoogleCloudSaasacceleratorManagementProvidersV1SloExclusion[]
+   */
+  public function getExclusions()
+  {
+    return $this->exclusions;
+  }
+  public function setLocation($location)
+  {
+    $this->location = $location;
+  }
+  public function getLocation()
+  {
+    return $this->location;
+  }
+  public function setNodeId($nodeId)
+  {
+    $this->nodeId = $nodeId;
+  }
+  public function getNodeId()
+  {
+    return $this->nodeId;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudSaasacceleratorManagementProvidersV1NodeSloMetadata::class, 'Google_Service_CloudMemorystoreforMemcached_GoogleCloudSaasacceleratorManagementProvidersV1NodeSloMetadata');

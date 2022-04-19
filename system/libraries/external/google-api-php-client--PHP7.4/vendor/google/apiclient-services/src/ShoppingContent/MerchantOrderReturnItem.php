@@ -1,90 +1,161 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ShoppingContent;
+
+class MerchantOrderReturnItem extends \Google\Collection
+{
+  protected $collection_key = 'returnShipmentIds';
+  protected $customerReturnReasonType = CustomerReturnReason::class;
+  protected $customerReturnReasonDataType = '';
+  public $itemId;
+  protected $merchantRejectionReasonType = MerchantRejectionReason::class;
+  protected $merchantRejectionReasonDataType = '';
+  protected $merchantReturnReasonType = RefundReason::class;
+  protected $merchantReturnReasonDataType = '';
+  protected $productType = OrderLineItemProduct::class;
+  protected $productDataType = '';
+  protected $refundableAmountType = MonetaryAmount::class;
+  protected $refundableAmountDataType = '';
+  public $returnItemId;
+  public $returnShipmentIds;
+  public $shipmentGroupId;
+  public $shipmentUnitId;
+  public $state;
+
+  /**
+   * @param CustomerReturnReason
+   */
+  public function setCustomerReturnReason(CustomerReturnReason $customerReturnReason)
+  {
+    $this->customerReturnReason = $customerReturnReason;
+  }
+  /**
+   * @return CustomerReturnReason
+   */
+  public function getCustomerReturnReason()
+  {
+    return $this->customerReturnReason;
+  }
+  public function setItemId($itemId)
+  {
+    $this->itemId = $itemId;
+  }
+  public function getItemId()
+  {
+    return $this->itemId;
+  }
+  /**
+   * @param MerchantRejectionReason
+   */
+  public function setMerchantRejectionReason(MerchantRejectionReason $merchantRejectionReason)
+  {
+    $this->merchantRejectionReason = $merchantRejectionReason;
+  }
+  /**
+   * @return MerchantRejectionReason
+   */
+  public function getMerchantRejectionReason()
+  {
+    return $this->merchantRejectionReason;
+  }
+  /**
+   * @param RefundReason
+   */
+  public function setMerchantReturnReason(RefundReason $merchantReturnReason)
+  {
+    $this->merchantReturnReason = $merchantReturnReason;
+  }
+  /**
+   * @return RefundReason
+   */
+  public function getMerchantReturnReason()
+  {
+    return $this->merchantReturnReason;
+  }
+  /**
+   * @param OrderLineItemProduct
+   */
+  public function setProduct(OrderLineItemProduct $product)
+  {
+    $this->product = $product;
+  }
+  /**
+   * @return OrderLineItemProduct
+   */
+  public function getProduct()
+  {
+    return $this->product;
+  }
+  /**
+   * @param MonetaryAmount
+   */
+  public function setRefundableAmount(MonetaryAmount $refundableAmount)
+  {
+    $this->refundableAmount = $refundableAmount;
+  }
+  /**
+   * @return MonetaryAmount
+   */
+  public function getRefundableAmount()
+  {
+    return $this->refundableAmount;
+  }
+  public function setReturnItemId($returnItemId)
+  {
+    $this->returnItemId = $returnItemId;
+  }
+  public function getReturnItemId()
+  {
+    return $this->returnItemId;
+  }
+  public function setReturnShipmentIds($returnShipmentIds)
+  {
+    $this->returnShipmentIds = $returnShipmentIds;
+  }
+  public function getReturnShipmentIds()
+  {
+    return $this->returnShipmentIds;
+  }
+  public function setShipmentGroupId($shipmentGroupId)
+  {
+    $this->shipmentGroupId = $shipmentGroupId;
+  }
+  public function getShipmentGroupId()
+  {
+    return $this->shipmentGroupId;
+  }
+  public function setShipmentUnitId($shipmentUnitId)
+  {
+    $this->shipmentUnitId = $shipmentUnitId;
+  }
+  public function getShipmentUnitId()
+  {
+    return $this->shipmentUnitId;
+  }
+  public function setState($state)
+  {
+    $this->state = $state;
+  }
+  public function getState()
+  {
+    return $this->state;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(MerchantOrderReturnItem::class, 'Google_Service_ShoppingContent_MerchantOrderReturnItem');

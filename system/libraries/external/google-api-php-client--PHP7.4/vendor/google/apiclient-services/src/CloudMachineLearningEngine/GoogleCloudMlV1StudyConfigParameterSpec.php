@@ -1,95 +1,182 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudMachineLearningEngine;
+
+class GoogleCloudMlV1StudyConfigParameterSpec extends \Google\Collection
+{
+  protected $collection_key = 'childParameterSpecs';
+  protected $categoricalValueSpecType = GoogleCloudMlV1StudyConfigParameterSpecCategoricalValueSpec::class;
+  protected $categoricalValueSpecDataType = '';
+  protected $childParameterSpecsType = GoogleCloudMlV1StudyConfigParameterSpec::class;
+  protected $childParameterSpecsDataType = 'array';
+  protected $discreteValueSpecType = GoogleCloudMlV1StudyConfigParameterSpecDiscreteValueSpec::class;
+  protected $discreteValueSpecDataType = '';
+  protected $doubleValueSpecType = GoogleCloudMlV1StudyConfigParameterSpecDoubleValueSpec::class;
+  protected $doubleValueSpecDataType = '';
+  protected $integerValueSpecType = GoogleCloudMlV1StudyConfigParameterSpecIntegerValueSpec::class;
+  protected $integerValueSpecDataType = '';
+  public $parameter;
+  protected $parentCategoricalValuesType = GoogleCloudMlV1StudyConfigParameterSpecMatchingParentCategoricalValueSpec::class;
+  protected $parentCategoricalValuesDataType = '';
+  protected $parentDiscreteValuesType = GoogleCloudMlV1StudyConfigParameterSpecMatchingParentDiscreteValueSpec::class;
+  protected $parentDiscreteValuesDataType = '';
+  protected $parentIntValuesType = GoogleCloudMlV1StudyConfigParameterSpecMatchingParentIntValueSpec::class;
+  protected $parentIntValuesDataType = '';
+  public $scaleType;
+  public $type;
+
+  /**
+   * @param GoogleCloudMlV1StudyConfigParameterSpecCategoricalValueSpec
+   */
+  public function setCategoricalValueSpec(GoogleCloudMlV1StudyConfigParameterSpecCategoricalValueSpec $categoricalValueSpec)
+  {
+    $this->categoricalValueSpec = $categoricalValueSpec;
+  }
+  /**
+   * @return GoogleCloudMlV1StudyConfigParameterSpecCategoricalValueSpec
+   */
+  public function getCategoricalValueSpec()
+  {
+    return $this->categoricalValueSpec;
+  }
+  /**
+   * @param GoogleCloudMlV1StudyConfigParameterSpec[]
+   */
+  public function setChildParameterSpecs($childParameterSpecs)
+  {
+    $this->childParameterSpecs = $childParameterSpecs;
+  }
+  /**
+   * @return GoogleCloudMlV1StudyConfigParameterSpec[]
+   */
+  public function getChildParameterSpecs()
+  {
+    return $this->childParameterSpecs;
+  }
+  /**
+   * @param GoogleCloudMlV1StudyConfigParameterSpecDiscreteValueSpec
+   */
+  public function setDiscreteValueSpec(GoogleCloudMlV1StudyConfigParameterSpecDiscreteValueSpec $discreteValueSpec)
+  {
+    $this->discreteValueSpec = $discreteValueSpec;
+  }
+  /**
+   * @return GoogleCloudMlV1StudyConfigParameterSpecDiscreteValueSpec
+   */
+  public function getDiscreteValueSpec()
+  {
+    return $this->discreteValueSpec;
+  }
+  /**
+   * @param GoogleCloudMlV1StudyConfigParameterSpecDoubleValueSpec
+   */
+  public function setDoubleValueSpec(GoogleCloudMlV1StudyConfigParameterSpecDoubleValueSpec $doubleValueSpec)
+  {
+    $this->doubleValueSpec = $doubleValueSpec;
+  }
+  /**
+   * @return GoogleCloudMlV1StudyConfigParameterSpecDoubleValueSpec
+   */
+  public function getDoubleValueSpec()
+  {
+    return $this->doubleValueSpec;
+  }
+  /**
+   * @param GoogleCloudMlV1StudyConfigParameterSpecIntegerValueSpec
+   */
+  public function setIntegerValueSpec(GoogleCloudMlV1StudyConfigParameterSpecIntegerValueSpec $integerValueSpec)
+  {
+    $this->integerValueSpec = $integerValueSpec;
+  }
+  /**
+   * @return GoogleCloudMlV1StudyConfigParameterSpecIntegerValueSpec
+   */
+  public function getIntegerValueSpec()
+  {
+    return $this->integerValueSpec;
+  }
+  public function setParameter($parameter)
+  {
+    $this->parameter = $parameter;
+  }
+  public function getParameter()
+  {
+    return $this->parameter;
+  }
+  /**
+   * @param GoogleCloudMlV1StudyConfigParameterSpecMatchingParentCategoricalValueSpec
+   */
+  public function setParentCategoricalValues(GoogleCloudMlV1StudyConfigParameterSpecMatchingParentCategoricalValueSpec $parentCategoricalValues)
+  {
+    $this->parentCategoricalValues = $parentCategoricalValues;
+  }
+  /**
+   * @return GoogleCloudMlV1StudyConfigParameterSpecMatchingParentCategoricalValueSpec
+   */
+  public function getParentCategoricalValues()
+  {
+    return $this->parentCategoricalValues;
+  }
+  /**
+   * @param GoogleCloudMlV1StudyConfigParameterSpecMatchingParentDiscreteValueSpec
+   */
+  public function setParentDiscreteValues(GoogleCloudMlV1StudyConfigParameterSpecMatchingParentDiscreteValueSpec $parentDiscreteValues)
+  {
+    $this->parentDiscreteValues = $parentDiscreteValues;
+  }
+  /**
+   * @return GoogleCloudMlV1StudyConfigParameterSpecMatchingParentDiscreteValueSpec
+   */
+  public function getParentDiscreteValues()
+  {
+    return $this->parentDiscreteValues;
+  }
+  /**
+   * @param GoogleCloudMlV1StudyConfigParameterSpecMatchingParentIntValueSpec
+   */
+  public function setParentIntValues(GoogleCloudMlV1StudyConfigParameterSpecMatchingParentIntValueSpec $parentIntValues)
+  {
+    $this->parentIntValues = $parentIntValues;
+  }
+  /**
+   * @return GoogleCloudMlV1StudyConfigParameterSpecMatchingParentIntValueSpec
+   */
+  public function getParentIntValues()
+  {
+    return $this->parentIntValues;
+  }
+  public function setScaleType($scaleType)
+  {
+    $this->scaleType = $scaleType;
+  }
+  public function getScaleType()
+  {
+    return $this->scaleType;
+  }
+  public function setType($type)
+  {
+    $this->type = $type;
+  }
+  public function getType()
+  {
+    return $this->type;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudMlV1StudyConfigParameterSpec::class, 'Google_Service_CloudMachineLearningEngine_GoogleCloudMlV1StudyConfigParameterSpec');

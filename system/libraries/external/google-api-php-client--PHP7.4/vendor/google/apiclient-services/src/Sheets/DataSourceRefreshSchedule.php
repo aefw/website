@@ -1,66 +1,108 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Sheets;
+
+class DataSourceRefreshSchedule extends \Google\Model
+{
+  protected $dailyScheduleType = DataSourceRefreshDailySchedule::class;
+  protected $dailyScheduleDataType = '';
+  public $enabled;
+  protected $monthlyScheduleType = DataSourceRefreshMonthlySchedule::class;
+  protected $monthlyScheduleDataType = '';
+  protected $nextRunType = Interval::class;
+  protected $nextRunDataType = '';
+  public $refreshScope;
+  protected $weeklyScheduleType = DataSourceRefreshWeeklySchedule::class;
+  protected $weeklyScheduleDataType = '';
+
+  /**
+   * @param DataSourceRefreshDailySchedule
+   */
+  public function setDailySchedule(DataSourceRefreshDailySchedule $dailySchedule)
+  {
+    $this->dailySchedule = $dailySchedule;
+  }
+  /**
+   * @return DataSourceRefreshDailySchedule
+   */
+  public function getDailySchedule()
+  {
+    return $this->dailySchedule;
+  }
+  public function setEnabled($enabled)
+  {
+    $this->enabled = $enabled;
+  }
+  public function getEnabled()
+  {
+    return $this->enabled;
+  }
+  /**
+   * @param DataSourceRefreshMonthlySchedule
+   */
+  public function setMonthlySchedule(DataSourceRefreshMonthlySchedule $monthlySchedule)
+  {
+    $this->monthlySchedule = $monthlySchedule;
+  }
+  /**
+   * @return DataSourceRefreshMonthlySchedule
+   */
+  public function getMonthlySchedule()
+  {
+    return $this->monthlySchedule;
+  }
+  /**
+   * @param Interval
+   */
+  public function setNextRun(Interval $nextRun)
+  {
+    $this->nextRun = $nextRun;
+  }
+  /**
+   * @return Interval
+   */
+  public function getNextRun()
+  {
+    return $this->nextRun;
+  }
+  public function setRefreshScope($refreshScope)
+  {
+    $this->refreshScope = $refreshScope;
+  }
+  public function getRefreshScope()
+  {
+    return $this->refreshScope;
+  }
+  /**
+   * @param DataSourceRefreshWeeklySchedule
+   */
+  public function setWeeklySchedule(DataSourceRefreshWeeklySchedule $weeklySchedule)
+  {
+    $this->weeklySchedule = $weeklySchedule;
+  }
+  /**
+   * @return DataSourceRefreshWeeklySchedule
+   */
+  public function getWeeklySchedule()
+  {
+    return $this->weeklySchedule;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(DataSourceRefreshSchedule::class, 'Google_Service_Sheets_DataSourceRefreshSchedule');

@@ -1,67 +1,96 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Monitoring;
+
+class ServiceLevelObjective extends \Google\Model
+{
+  public $calendarPeriod;
+  public $displayName;
+  public $goal;
+  public $name;
+  public $rollingPeriod;
+  protected $serviceLevelIndicatorType = ServiceLevelIndicator::class;
+  protected $serviceLevelIndicatorDataType = '';
+  public $userLabels;
+
+  public function setCalendarPeriod($calendarPeriod)
+  {
+    $this->calendarPeriod = $calendarPeriod;
+  }
+  public function getCalendarPeriod()
+  {
+    return $this->calendarPeriod;
+  }
+  public function setDisplayName($displayName)
+  {
+    $this->displayName = $displayName;
+  }
+  public function getDisplayName()
+  {
+    return $this->displayName;
+  }
+  public function setGoal($goal)
+  {
+    $this->goal = $goal;
+  }
+  public function getGoal()
+  {
+    return $this->goal;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setRollingPeriod($rollingPeriod)
+  {
+    $this->rollingPeriod = $rollingPeriod;
+  }
+  public function getRollingPeriod()
+  {
+    return $this->rollingPeriod;
+  }
+  /**
+   * @param ServiceLevelIndicator
+   */
+  public function setServiceLevelIndicator(ServiceLevelIndicator $serviceLevelIndicator)
+  {
+    $this->serviceLevelIndicator = $serviceLevelIndicator;
+  }
+  /**
+   * @return ServiceLevelIndicator
+   */
+  public function getServiceLevelIndicator()
+  {
+    return $this->serviceLevelIndicator;
+  }
+  public function setUserLabels($userLabels)
+  {
+    $this->userLabels = $userLabels;
+  }
+  public function getUserLabels()
+  {
+    return $this->userLabels;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ServiceLevelObjective::class, 'Google_Service_Monitoring_ServiceLevelObjective');

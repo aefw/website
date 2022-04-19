@@ -1,66 +1,88 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DLP;
+
+class GooglePrivacyDlpV2CloudStorageOptions extends \Google\Collection
+{
+  protected $collection_key = 'fileTypes';
+  public $bytesLimitPerFile;
+  public $bytesLimitPerFilePercent;
+  protected $fileSetType = GooglePrivacyDlpV2FileSet::class;
+  protected $fileSetDataType = '';
+  public $fileTypes;
+  public $filesLimitPercent;
+  public $sampleMethod;
+
+  public function setBytesLimitPerFile($bytesLimitPerFile)
+  {
+    $this->bytesLimitPerFile = $bytesLimitPerFile;
+  }
+  public function getBytesLimitPerFile()
+  {
+    return $this->bytesLimitPerFile;
+  }
+  public function setBytesLimitPerFilePercent($bytesLimitPerFilePercent)
+  {
+    $this->bytesLimitPerFilePercent = $bytesLimitPerFilePercent;
+  }
+  public function getBytesLimitPerFilePercent()
+  {
+    return $this->bytesLimitPerFilePercent;
+  }
+  /**
+   * @param GooglePrivacyDlpV2FileSet
+   */
+  public function setFileSet(GooglePrivacyDlpV2FileSet $fileSet)
+  {
+    $this->fileSet = $fileSet;
+  }
+  /**
+   * @return GooglePrivacyDlpV2FileSet
+   */
+  public function getFileSet()
+  {
+    return $this->fileSet;
+  }
+  public function setFileTypes($fileTypes)
+  {
+    $this->fileTypes = $fileTypes;
+  }
+  public function getFileTypes()
+  {
+    return $this->fileTypes;
+  }
+  public function setFilesLimitPercent($filesLimitPercent)
+  {
+    $this->filesLimitPercent = $filesLimitPercent;
+  }
+  public function getFilesLimitPercent()
+  {
+    return $this->filesLimitPercent;
+  }
+  public function setSampleMethod($sampleMethod)
+  {
+    $this->sampleMethod = $sampleMethod;
+  }
+  public function getSampleMethod()
+  {
+    return $this->sampleMethod;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GooglePrivacyDlpV2CloudStorageOptions::class, 'Google_Service_DLP_GooglePrivacyDlpV2CloudStorageOptions');

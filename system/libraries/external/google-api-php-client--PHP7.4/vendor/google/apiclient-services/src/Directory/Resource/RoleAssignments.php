@@ -1,63 +1,99 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Directory\Resource;
+
+use Google\Service\Directory\RoleAssignment;
+use Google\Service\Directory\RoleAssignments as RoleAssignmentsModel;
+
+/**
+ * The "roleAssignments" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $adminService = new Google\Service\Directory(...);
+ *   $roleAssignments = $adminService->roleAssignments;
+ *  </code>
+ */
+class RoleAssignments extends \Google\Service\Resource
+{
+  /**
+   * Deletes a role assignment. (roleAssignments.delete)
+   *
+   * @param string $customer Immutable ID of the Google Workspace account.
+   * @param string $roleAssignmentId Immutable ID of the role assignment.
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($customer, $roleAssignmentId, $optParams = [])
+  {
+    $params = ['customer' => $customer, 'roleAssignmentId' => $roleAssignmentId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Retrieve a role assignment. (roleAssignments.get)
+   *
+   * @param string $customer Immutable ID of the Google Workspace account.
+   * @param string $roleAssignmentId Immutable ID of the role assignment.
+   * @param array $optParams Optional parameters.
+   * @return RoleAssignment
+   */
+  public function get($customer, $roleAssignmentId, $optParams = [])
+  {
+    $params = ['customer' => $customer, 'roleAssignmentId' => $roleAssignmentId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], RoleAssignment::class);
+  }
+  /**
+   * Creates a role assignment. (roleAssignments.insert)
+   *
+   * @param string $customer Immutable ID of the Google Workspace account.
+   * @param RoleAssignment $postBody
+   * @param array $optParams Optional parameters.
+   * @return RoleAssignment
+   */
+  public function insert($customer, RoleAssignment $postBody, $optParams = [])
+  {
+    $params = ['customer' => $customer, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], RoleAssignment::class);
+  }
+  /**
+   * Retrieves a paginated list of all roleAssignments.
+   * (roleAssignments.listRoleAssignments)
+   *
+   * @param string $customer Immutable ID of the Google Workspace account.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int maxResults Maximum number of results to return.
+   * @opt_param string pageToken Token to specify the next page in the list.
+   * @opt_param string roleId Immutable ID of a role. If included in the request,
+   * returns only role assignments containing this role ID.
+   * @opt_param string userKey The user's primary email address, alias email
+   * address, or unique user ID. If included in the request, returns role
+   * assignments only for this user.
+   * @return RoleAssignmentsModel
+   */
+  public function listRoleAssignments($customer, $optParams = [])
+  {
+    $params = ['customer' => $customer];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], RoleAssignmentsModel::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(RoleAssignments::class, 'Google_Service_Directory_Resource_RoleAssignments');

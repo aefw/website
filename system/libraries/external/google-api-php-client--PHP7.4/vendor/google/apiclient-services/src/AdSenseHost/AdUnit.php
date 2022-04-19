@@ -1,71 +1,119 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AdSenseHost;
+
+class AdUnit extends \Google\Model
+{
+  public $code;
+  protected $contentAdsSettingsType = AdUnitContentAdsSettings::class;
+  protected $contentAdsSettingsDataType = '';
+  protected $customStyleType = AdStyle::class;
+  protected $customStyleDataType = '';
+  public $id;
+  public $kind;
+  protected $mobileContentAdsSettingsType = AdUnitMobileContentAdsSettings::class;
+  protected $mobileContentAdsSettingsDataType = '';
+  public $name;
+  public $status;
+
+  public function setCode($code)
+  {
+    $this->code = $code;
+  }
+  public function getCode()
+  {
+    return $this->code;
+  }
+  /**
+   * @param AdUnitContentAdsSettings
+   */
+  public function setContentAdsSettings(AdUnitContentAdsSettings $contentAdsSettings)
+  {
+    $this->contentAdsSettings = $contentAdsSettings;
+  }
+  /**
+   * @return AdUnitContentAdsSettings
+   */
+  public function getContentAdsSettings()
+  {
+    return $this->contentAdsSettings;
+  }
+  /**
+   * @param AdStyle
+   */
+  public function setCustomStyle(AdStyle $customStyle)
+  {
+    $this->customStyle = $customStyle;
+  }
+  /**
+   * @return AdStyle
+   */
+  public function getCustomStyle()
+  {
+    return $this->customStyle;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  /**
+   * @param AdUnitMobileContentAdsSettings
+   */
+  public function setMobileContentAdsSettings(AdUnitMobileContentAdsSettings $mobileContentAdsSettings)
+  {
+    $this->mobileContentAdsSettings = $mobileContentAdsSettings;
+  }
+  /**
+   * @return AdUnitMobileContentAdsSettings
+   */
+  public function getMobileContentAdsSettings()
+  {
+    return $this->mobileContentAdsSettings;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setStatus($status)
+  {
+    $this->status = $status;
+  }
+  public function getStatus()
+  {
+    return $this->status;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AdUnit::class, 'Google_Service_AdSenseHost_AdUnit');

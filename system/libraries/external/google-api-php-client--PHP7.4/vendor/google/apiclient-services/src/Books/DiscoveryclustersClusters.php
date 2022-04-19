@@ -1,66 +1,98 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Books;
+
+class DiscoveryclustersClusters extends \Google\Collection
+{
+  protected $collection_key = 'volumes';
+  protected $internal_gapi_mappings = [
+        "bannerWithContentContainer" => "banner_with_content_container",
+  ];
+  protected $bannerWithContentContainerType = DiscoveryclustersClustersBannerWithContentContainer::class;
+  protected $bannerWithContentContainerDataType = '';
+  public $subTitle;
+  public $title;
+  public $totalVolumes;
+  public $uid;
+  protected $volumesType = Volume::class;
+  protected $volumesDataType = 'array';
+
+  /**
+   * @param DiscoveryclustersClustersBannerWithContentContainer
+   */
+  public function setBannerWithContentContainer(DiscoveryclustersClustersBannerWithContentContainer $bannerWithContentContainer)
+  {
+    $this->bannerWithContentContainer = $bannerWithContentContainer;
+  }
+  /**
+   * @return DiscoveryclustersClustersBannerWithContentContainer
+   */
+  public function getBannerWithContentContainer()
+  {
+    return $this->bannerWithContentContainer;
+  }
+  public function setSubTitle($subTitle)
+  {
+    $this->subTitle = $subTitle;
+  }
+  public function getSubTitle()
+  {
+    return $this->subTitle;
+  }
+  public function setTitle($title)
+  {
+    $this->title = $title;
+  }
+  public function getTitle()
+  {
+    return $this->title;
+  }
+  public function setTotalVolumes($totalVolumes)
+  {
+    $this->totalVolumes = $totalVolumes;
+  }
+  public function getTotalVolumes()
+  {
+    return $this->totalVolumes;
+  }
+  public function setUid($uid)
+  {
+    $this->uid = $uid;
+  }
+  public function getUid()
+  {
+    return $this->uid;
+  }
+  /**
+   * @param Volume[]
+   */
+  public function setVolumes($volumes)
+  {
+    $this->volumes = $volumes;
+  }
+  /**
+   * @return Volume[]
+   */
+  public function getVolumes()
+  {
+    return $this->volumes;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(DiscoveryclustersClusters::class, 'Google_Service_Books_DiscoveryclustersClusters');

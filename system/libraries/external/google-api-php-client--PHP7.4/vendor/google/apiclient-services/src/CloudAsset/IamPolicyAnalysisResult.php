@@ -1,64 +1,93 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudAsset;
+
+class IamPolicyAnalysisResult extends \Google\Collection
+{
+  protected $collection_key = 'accessControlLists';
+  protected $accessControlListsType = GoogleCloudAssetV1AccessControlList::class;
+  protected $accessControlListsDataType = 'array';
+  public $attachedResourceFullName;
+  public $fullyExplored;
+  protected $iamBindingType = Binding::class;
+  protected $iamBindingDataType = '';
+  protected $identityListType = GoogleCloudAssetV1IdentityList::class;
+  protected $identityListDataType = '';
+
+  /**
+   * @param GoogleCloudAssetV1AccessControlList[]
+   */
+  public function setAccessControlLists($accessControlLists)
+  {
+    $this->accessControlLists = $accessControlLists;
+  }
+  /**
+   * @return GoogleCloudAssetV1AccessControlList[]
+   */
+  public function getAccessControlLists()
+  {
+    return $this->accessControlLists;
+  }
+  public function setAttachedResourceFullName($attachedResourceFullName)
+  {
+    $this->attachedResourceFullName = $attachedResourceFullName;
+  }
+  public function getAttachedResourceFullName()
+  {
+    return $this->attachedResourceFullName;
+  }
+  public function setFullyExplored($fullyExplored)
+  {
+    $this->fullyExplored = $fullyExplored;
+  }
+  public function getFullyExplored()
+  {
+    return $this->fullyExplored;
+  }
+  /**
+   * @param Binding
+   */
+  public function setIamBinding(Binding $iamBinding)
+  {
+    $this->iamBinding = $iamBinding;
+  }
+  /**
+   * @return Binding
+   */
+  public function getIamBinding()
+  {
+    return $this->iamBinding;
+  }
+  /**
+   * @param GoogleCloudAssetV1IdentityList
+   */
+  public function setIdentityList(GoogleCloudAssetV1IdentityList $identityList)
+  {
+    $this->identityList = $identityList;
+  }
+  /**
+   * @return GoogleCloudAssetV1IdentityList
+   */
+  public function getIdentityList()
+  {
+    return $this->identityList;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(IamPolicyAnalysisResult::class, 'Google_Service_CloudAsset_IamPolicyAnalysisResult');

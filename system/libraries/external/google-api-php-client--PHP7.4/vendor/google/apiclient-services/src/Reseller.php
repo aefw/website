@@ -1,66 +1,324 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-UzD5UW2jnQvU01a08+sFQWZ/XhUWi1u3u/+9
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for Reseller (v1).
+ *
+ * <p>
+ * Perform common functions that are available on the Channel Services console
+ * at scale, like placing orders and viewing customer information</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://developers.google.com/google-apps/reseller/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class Reseller extends \Google\Service
+{
+  /** Manage users on your domain. */
+  const APPS_ORDER =
+      "https://www.googleapis.com/auth/apps.order";
+  /** Manage users on your domain. */
+  const APPS_ORDER_READONLY =
+      "https://www.googleapis.com/auth/apps.order.readonly";
+
+  public $customers;
+  public $resellernotify;
+  public $subscriptions;
+
+  /**
+   * Constructs the internal representation of the Reseller service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://reseller.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'reseller';
+
+    $this->customers = new Reseller\Resource\Customers(
+        $this,
+        $this->serviceName,
+        'customers',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'apps/reseller/v1/customers/{customerId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'customerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'apps/reseller/v1/customers',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'customerAuthToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'apps/reseller/v1/customers/{customerId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'customerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'apps/reseller/v1/customers/{customerId}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'customerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->resellernotify = new Reseller\Resource\Resellernotify(
+        $this,
+        $this->serviceName,
+        'resellernotify',
+        [
+          'methods' => [
+            'getwatchdetails' => [
+              'path' => 'apps/reseller/v1/resellernotify/getwatchdetails',
+              'httpMethod' => 'GET',
+              'parameters' => [],
+            ],'register' => [
+              'path' => 'apps/reseller/v1/resellernotify/register',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'serviceAccountEmailAddress' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'unregister' => [
+              'path' => 'apps/reseller/v1/resellernotify/unregister',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'serviceAccountEmailAddress' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->subscriptions = new Reseller\Resource\Subscriptions(
+        $this,
+        $this->serviceName,
+        'subscriptions',
+        [
+          'methods' => [
+            'activate' => [
+              'path' => 'apps/reseller/v1/customers/{customerId}/subscriptions/{subscriptionId}/activate',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'customerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'subscriptionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'changePlan' => [
+              'path' => 'apps/reseller/v1/customers/{customerId}/subscriptions/{subscriptionId}/changePlan',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'customerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'subscriptionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'changeRenewalSettings' => [
+              'path' => 'apps/reseller/v1/customers/{customerId}/subscriptions/{subscriptionId}/changeRenewalSettings',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'customerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'subscriptionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'changeSeats' => [
+              'path' => 'apps/reseller/v1/customers/{customerId}/subscriptions/{subscriptionId}/changeSeats',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'customerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'subscriptionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'apps/reseller/v1/customers/{customerId}/subscriptions/{subscriptionId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'customerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'subscriptionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'deletionType' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'apps/reseller/v1/customers/{customerId}/subscriptions/{subscriptionId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'customerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'subscriptionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'apps/reseller/v1/customers/{customerId}/subscriptions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'customerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'customerAuthToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'apps/reseller/v1/subscriptions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'customerAuthToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'customerId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'customerNamePrefix' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'startPaidService' => [
+              'path' => 'apps/reseller/v1/customers/{customerId}/subscriptions/{subscriptionId}/startPaidService',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'customerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'subscriptionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'suspend' => [
+              'path' => 'apps/reseller/v1/customers/{customerId}/subscriptions/{subscriptionId}/suspend',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'customerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'subscriptionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Reseller::class, 'Google_Service_Reseller');

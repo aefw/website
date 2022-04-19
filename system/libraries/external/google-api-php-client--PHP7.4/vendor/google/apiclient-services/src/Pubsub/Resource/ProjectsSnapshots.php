@@ -1,83 +1,219 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Pubsub\Resource;
+
+use Google\Service\Pubsub\CreateSnapshotRequest;
+use Google\Service\Pubsub\ListSnapshotsResponse;
+use Google\Service\Pubsub\Policy;
+use Google\Service\Pubsub\PubsubEmpty;
+use Google\Service\Pubsub\SetIamPolicyRequest;
+use Google\Service\Pubsub\Snapshot;
+use Google\Service\Pubsub\TestIamPermissionsRequest;
+use Google\Service\Pubsub\TestIamPermissionsResponse;
+use Google\Service\Pubsub\UpdateSnapshotRequest;
+
+/**
+ * The "snapshots" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $pubsubService = new Google\Service\Pubsub(...);
+ *   $snapshots = $pubsubService->snapshots;
+ *  </code>
+ */
+class ProjectsSnapshots extends \Google\Service\Resource
+{
+  /**
+   * Creates a snapshot from the requested subscription. Snapshots are used in
+   * [Seek](https://cloud.google.com/pubsub/docs/replay-overview) operations,
+   * which allow you to manage message acknowledgments in bulk. That is, you can
+   * set the acknowledgment state of messages in an existing subscription to the
+   * state captured by a snapshot. If the snapshot already exists, returns
+   * `ALREADY_EXISTS`. If the requested subscription doesn't exist, returns
+   * `NOT_FOUND`. If the backlog in the subscription is too old -- and the
+   * resulting snapshot would expire in less than 1 hour -- then
+   * `FAILED_PRECONDITION` is returned. See also the `Snapshot.expire_time` field.
+   * If the name is not provided in the request, the server will assign a random
+   * name for this snapshot on the same project as the subscription, conforming to
+   * the [resource name format]
+   * (https://cloud.google.com/pubsub/docs/admin#resource_names). The generated
+   * name is populated in the returned Snapshot object. Note that for REST API
+   * requests, you must specify a name in the request. (snapshots.create)
+   *
+   * @param string $name Required. User-provided name for this snapshot. If the
+   * name is not provided in the request, the server will assign a random name for
+   * this snapshot on the same project as the subscription. Note that for REST API
+   * requests, you must specify a name. See the resource name rules. Format is
+   * `projects/{project}/snapshots/{snap}`.
+   * @param CreateSnapshotRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Snapshot
+   */
+  public function create($name, CreateSnapshotRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Snapshot::class);
+  }
+  /**
+   * Removes an existing snapshot. Snapshots are used in [Seek]
+   * (https://cloud.google.com/pubsub/docs/replay-overview) operations, which
+   * allow you to manage message acknowledgments in bulk. That is, you can set the
+   * acknowledgment state of messages in an existing subscription to the state
+   * captured by a snapshot. When the snapshot is deleted, all messages retained
+   * in the snapshot are immediately dropped. After a snapshot is deleted, a new
+   * one may be created with the same name, but the new one has no association
+   * with the old snapshot or its subscription, unless the same subscription is
+   * specified. (snapshots.delete)
+   *
+   * @param string $snapshot Required. The name of the snapshot to delete. Format
+   * is `projects/{project}/snapshots/{snap}`.
+   * @param array $optParams Optional parameters.
+   * @return PubsubEmpty
+   */
+  public function delete($snapshot, $optParams = [])
+  {
+    $params = ['snapshot' => $snapshot];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], PubsubEmpty::class);
+  }
+  /**
+   * Gets the configuration details of a snapshot. Snapshots are used in Seek
+   * operations, which allow you to manage message acknowledgments in bulk. That
+   * is, you can set the acknowledgment state of messages in an existing
+   * subscription to the state captured by a snapshot. (snapshots.get)
+   *
+   * @param string $snapshot Required. The name of the snapshot to get. Format is
+   * `projects/{project}/snapshots/{snap}`.
+   * @param array $optParams Optional parameters.
+   * @return Snapshot
+   */
+  public function get($snapshot, $optParams = [])
+  {
+    $params = ['snapshot' => $snapshot];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Snapshot::class);
+  }
+  /**
+   * Gets the access control policy for a resource. Returns an empty policy if the
+   * resource exists and does not have a policy set. (snapshots.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int options.requestedPolicyVersion Optional. The policy format
+   * version to be returned. Valid values are 0, 1, and 3. Requests specifying an
+   * invalid value will be rejected. Requests for policies with any conditional
+   * bindings must specify version 3. Policies without any conditional bindings
+   * may specify any valid value or leave the field unset. To learn which
+   * resources support conditions in their IAM policies, see the [IAM
+   * documentation](https://cloud.google.com/iam/help/conditions/resource-
+   * policies).
+   * @return Policy
+   */
+  public function getIamPolicy($resource, $optParams = [])
+  {
+    $params = ['resource' => $resource];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Lists the existing snapshots. Snapshots are used in [Seek](
+   * https://cloud.google.com/pubsub/docs/replay-overview) operations, which allow
+   * you to manage message acknowledgments in bulk. That is, you can set the
+   * acknowledgment state of messages in an existing subscription to the state
+   * captured by a snapshot. (snapshots.listProjectsSnapshots)
+   *
+   * @param string $project Required. The name of the project in which to list
+   * snapshots. Format is `projects/{project-id}`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Maximum number of snapshots to return.
+   * @opt_param string pageToken The value returned by the last
+   * `ListSnapshotsResponse`; indicates that this is a continuation of a prior
+   * `ListSnapshots` call, and that the system should return the next page of
+   * data.
+   * @return ListSnapshotsResponse
+   */
+  public function listProjectsSnapshots($project, $optParams = [])
+  {
+    $params = ['project' => $project];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListSnapshotsResponse::class);
+  }
+  /**
+   * Updates an existing snapshot. Snapshots are used in Seek operations, which
+   * allow you to manage message acknowledgments in bulk. That is, you can set the
+   * acknowledgment state of messages in an existing subscription to the state
+   * captured by a snapshot. (snapshots.patch)
+   *
+   * @param string $name The name of the snapshot.
+   * @param UpdateSnapshotRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Snapshot
+   */
+  public function patch($name, UpdateSnapshotRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Snapshot::class);
+  }
+  /**
+   * Sets the access control policy on the specified resource. Replaces any
+   * existing policy. Can return `NOT_FOUND`, `INVALID_ARGUMENT`, and
+   * `PERMISSION_DENIED` errors. (snapshots.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource. If the
+   * resource does not exist, this will return an empty set of permissions, not a
+   * `NOT_FOUND` error. Note: This operation is designed to be used for building
+   * permission-aware UIs and command-line tools, not for authorization checking.
+   * This operation may "fail open" without warning.
+   * (snapshots.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsSnapshots::class, 'Google_Service_Pubsub_Resource_ProjectsSnapshots');

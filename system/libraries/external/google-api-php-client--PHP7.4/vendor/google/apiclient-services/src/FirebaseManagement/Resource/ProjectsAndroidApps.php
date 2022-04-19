@@ -1,70 +1,152 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-jN+zedkYuW==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\FirebaseManagement\Resource;
+
+use Google\Service\FirebaseManagement\AndroidApp;
+use Google\Service\FirebaseManagement\AndroidAppConfig;
+use Google\Service\FirebaseManagement\ListAndroidAppsResponse;
+use Google\Service\FirebaseManagement\Operation;
+
+/**
+ * The "androidApps" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $firebaseService = new Google\Service\FirebaseManagement(...);
+ *   $androidApps = $firebaseService->androidApps;
+ *  </code>
+ */
+class ProjectsAndroidApps extends \Google\Service\Resource
+{
+  /**
+   * Requests the creation of a new AndroidApp in the specified FirebaseProject.
+   * The result of this call is an `Operation` which can be used to track the
+   * provisioning process. The `Operation` is automatically deleted after
+   * completion, so there is no need to call `DeleteOperation`.
+   * (androidApps.create)
+   *
+   * @param string $parent The resource name of the parent FirebaseProject in
+   * which to create an AndroidApp, in the format:
+   * projects/PROJECT_IDENTIFIER/androidApps Refer to the `FirebaseProject`
+   * [`name`](../projects#FirebaseProject.FIELDS.name) field for details about
+   * PROJECT_IDENTIFIER values.
+   * @param AndroidApp $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function create($parent, AndroidApp $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Operation::class);
+  }
+  /**
+   * Gets the specified AndroidApp. (androidApps.get)
+   *
+   * @param string $name The resource name of the AndroidApp, in the format:
+   * projects/ PROJECT_IDENTIFIER/androidApps/APP_ID Since an APP_ID is a unique
+   * identifier, the Unique Resource from Sub-Collection access pattern may be
+   * used here, in the format: projects/-/androidApps/APP_ID Refer to the
+   * `AndroidApp` [`name`](../projects.androidApps#AndroidApp.FIELDS.name) field
+   * for details about PROJECT_IDENTIFIER and APP_ID values.
+   * @param array $optParams Optional parameters.
+   * @return AndroidApp
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], AndroidApp::class);
+  }
+  /**
+   * Gets the configuration artifact associated with the specified AndroidApp.
+   * (androidApps.getConfig)
+   *
+   * @param string $name The resource name of the AndroidApp configuration to
+   * download, in the format:
+   * projects/PROJECT_IDENTIFIER/androidApps/APP_ID/config Since an APP_ID is a
+   * unique identifier, the Unique Resource from Sub-Collection access pattern may
+   * be used here, in the format: projects/-/androidApps/APP_ID Refer to the
+   * `AndroidApp` [`name`](../projects.androidApps#AndroidApp.FIELDS.name) field
+   * for details about PROJECT_IDENTIFIER and APP_ID values.
+   * @param array $optParams Optional parameters.
+   * @return AndroidAppConfig
+   */
+  public function getConfig($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('getConfig', [$params], AndroidAppConfig::class);
+  }
+  /**
+   * Lists each AndroidApp associated with the specified FirebaseProject. The
+   * elements are returned in no particular order, but will be a consistent view
+   * of the Apps when additional requests are made with a `pageToken`.
+   * (androidApps.listProjectsAndroidApps)
+   *
+   * @param string $parent The resource name of the parent FirebaseProject for
+   * which to list each associated AndroidApp, in the format:
+   * projects/PROJECT_IDENTIFIER /androidApps Refer to the `FirebaseProject`
+   * [`name`](../projects#FirebaseProject.FIELDS.name) field for details about
+   * PROJECT_IDENTIFIER values.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The maximum number of Apps to return in the response.
+   * The server may return fewer than this at its discretion. If no value is
+   * specified (or too large a value is specified), then the server will impose
+   * its own limit.
+   * @opt_param string pageToken Token returned from a previous call to
+   * `ListAndroidApps` indicating where in the set of Apps to resume listing.
+   * @return ListAndroidAppsResponse
+   */
+  public function listProjectsAndroidApps($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListAndroidAppsResponse::class);
+  }
+  /**
+   * Updates the attributes of the specified AndroidApp. (androidApps.patch)
+   *
+   * @param string $name The resource name of the AndroidApp, in the format:
+   * projects/ PROJECT_IDENTIFIER/androidApps/APP_ID * PROJECT_IDENTIFIER: the
+   * parent Project's
+   * [`ProjectNumber`](../projects#FirebaseProject.FIELDS.project_number)
+   * ***(recommended)*** or its
+   * [`ProjectId`](../projects#FirebaseProject.FIELDS.project_id). Learn more
+   * about using project identifiers in Google's [AIP 2510
+   * standard](https://google.aip.dev/cloud/2510). Note that the value for
+   * PROJECT_IDENTIFIER in any response body will be the `ProjectId`. * APP_ID:
+   * the globally unique, Firebase-assigned identifier for the App (see
+   * [`appId`](../projects.androidApps#AndroidApp.FIELDS.app_id)).
+   * @param AndroidApp $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Specifies which fields to update. Note that the
+   * fields `name`, `app_id`, `project_id`, and `package_name` are all immutable.
+   * @return AndroidApp
+   */
+  public function patch($name, AndroidApp $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], AndroidApp::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsAndroidApps::class, 'Google_Service_FirebaseManagement_Resource_ProjectsAndroidApps');

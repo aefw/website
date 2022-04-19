@@ -1,64 +1,87 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPuQC0IveNFe11KAK3RC+L/mnxlqalNpXmTa6gtQnDk0Z+3YpsoxY1ePkluL/rY6JKTnkpboc
-vlK1+0QG3Z94n+zr0HRMy0iPeXQDVRMX0xB8HO/pR6MHChJwkf+8tDyuARml5C3w9GwCWGql42N8
-ENSIIr/bIpSz/90d98Kg9/x1zCQUUWXZgffdhROiriH/Ecry6GsXTJaipO3i9vohczmvgQ5Bw5CB
-oIJBoYknimBFmG6CcRe53/njwbt6Wg6dkymWfJjXGGOF1AkYNWmtg5I9WeUpud1JBZLKXAWiWQO+
-IWNbLPLi27aLtu+aOZAtR8XKQGL63suozgZhzwlnX8YaWw7Wf8OgTE+kQ21DcwG2hnmHbl8MwSka
-z0iN06Yq5FEvNY4D8KZXUn+H4f+MZDEJx3AdmWAmTfUOv7bJi864f39YdbEqcIzyHHytQhg15ryU
-6nQHIM63pFVBz69bY18aeleu51ryJvbD2Bj7C5mAChVwaFYX3f1GpFO2kavorZhjlsJJECo0jBt5
-yNjlrD7xFM797AFzMuH8iv9HtbKPyeSEwOPWkE1mnLz9W84rRtuk9YjGrBA7fMbdOvp4bTqG8ulB
-WGMxVtMF2RHd3EwbOIolJE/aP+unXkLqB7MaAaVHYL4II6p/JfpVtsBXB3kS4PGZUzvdI63/GHZq
-V2t2D36PnrCFKRU3dIScoJLvnzlGBax2+7RLvzFfL1qH9XdSXdimEa2iWnfVv2QnyWF1pvvml0Mr
-AFJHGf+vdLImUpPwx6iUqkH70RpOCo2/ryqENGU1ZZq87d+s4EZQaiocjW9Z34dNMzsUbyc7KSJs
-6V5j3N7hvp7lQs1SpglItRYmBGlPVVZsPYAZnwboWA0SGr9Qt7fz71NFWHRsg95oMN8e1ccXVOWt
-C+pdyV7Lv/CKbHI8SGMaZvoeUhS6DbNCVi53TLftoX9mQSBhOB1ztM1bbH/fYa4xaMTLSWlVX2lS
-hHqSpsY3HOUH5qlaCPf7lSMXveVAmk0qRlywEkjgf1S1aQmoA+iIxHoWqDmnFRjwcUP6ERcRPynN
-ncyKXC+5IKZAfH15ZP1P0PA9Xwh2Tnoeao6Eog9fyGr/vz+SUl1Jk13M2t4znyIp1Gi8xj0RIdMP
-bIyQv8QfRqld7FFrLasHYqlZDo+zpXr5RmpX2WxDbs2i6iwiGKthlkLY8R5SVNv7LahJgtlCUzL6
-7Q0fMYMLtVtjBWd/iWibvcS9tUemMrpkGmuQqNJOlqMgzSbX1Sj6Palm5Y28/70JEGXpxSt4wOY/
-HjfHXuFyPk6YLMz850YCsL3PWaUzh7X+bfCo2qhMSDaVOi+CPMD1V2bwDdS9z3NEPjJrFyL50nnp
-mOKP2VlcBwrN01eQCxlMcDoLoIU8lDFkcOV/YY0/6zALeCVvmlE9sYwSjRQV8+90zTwX6BptlZtH
-JFb93oPY0GR8auCoZ0elXzbzpJBqCuFh650Yr4EVQ1V7MRoag2Lfr3fkMCxUt5x5LshOcUpziZLX
-uqiK4YgkZsN2hUwJUtZqiytUNC/6iEulq+ShslevqVkJhlCvGuRmeHGdmBeWJD0ch7CdqQ0IRCSW
-ATh9ZyIqA9D72v0tpituwFTbY34CHuT+euLm9IQEAoGhdhsJll7txKoAIv0rzb6F+yLoIbU+AcPk
-Ezrerv/x80auQQv5aHjpWeufnwZM3Ij4AdfQSMjSicK/KmQVqyvrXG1pt44E7WHQkS397QJraw+8
-aOK91dJ1LfyKGR7AfMw33CK7IU8IJtdJeJ19MRMkSmDEmQaxGvNtRcDWunH0REtFVpkQrEvyTgf/
-0bHJ+o+McnoBypsYV97plRMl1SqxzyACfwTGc61EwCChdsoMrNOhsQq/ahu4oRCo0iooWo3WBzd7
-HzURX5cCjAadjEfDE54IvhueM+SkAYGMKqHqtOzPtXFne1kj6GFZkY4ljdus1G9UMMTsxIwLbFBI
-WbJ29antot6eXr5uBJEEeuKrSfrtPMRCLpXN0JtZrt1/xd/Ga6VUCgFCBo/65WHmMSpwNND7jYRp
-AxQDH47pR+P2xlez7chjkodrO6ZpV1FV66sJUS3U7t08Gm/mWSRLvuYcY8m0FUIDxPwL+55Bm6s9
-a863mU7yw/kQam+BneI6TRtzacVEca5cragkOsx6TmLadm0QLI1fTilSPb0hW9dfCeNqMj6Sf1Xa
-DrGFmLAJnNhykBEegnn+DXneQccLrbML2n2pbJy+s0G9a3M+lL3BqwAD5qv23bvZMgVTHCBA9kK0
-1MKPzH0F8fpNXmokaLGZr5RTpBhgUb0TSsGuJNaqfi23APibvf4QjNXdJOS+IbSCviC3FqlIpr2T
-6Nf6aVLs2dTkma1Z7fUhYXf/7zcSvFX7Om0lM9FBHi4JuymPgw+9ysnLhOkwEyCdM9iTmwaUAdiJ
-S1oP+zfugUUkDuSK2gFUC3fWhdfbnftY3e8smeco/RYzw4mYrpwYXdf7WKVUawElNI3ry2bNlUD3
-puqqtrMf2vSMHgw1kZjd/WL6Z9l0O9Vlo9hXjqanbtKDtwkkRyiWGpjZOmIaMxLqoXxHyHYFQ5Pn
-L39m6tpMffsnieazVHE0tBMrYOoHHZjBvN9hIRMVAO8S7sWnXPcRBLF/qyL4nv43vf7NW9gzkx7e
-IFKiwEiN6aVy1YlHn2f51PlX9lyS7GLtBozLfrSt/qoV+P9sLHiCfrFfrByYgXqrGcSVBfbHYYq5
-eBUW/E6ge4FesJrCwUvpDpEqe0tM7BsOWo0ESnbjE7hqViDtAoub9ZZkegeshATUwk5IvSoH7gZB
-Bo+0HhVqxWkDjFh9HAsk9xVLvovQwGMb7YiH8yLIS9tH9ItEKIgK09Ucq5nEOBBgMGQB0ShE/JEn
-sIVyKO28pMp9gv3QKTRgZVUg07teDWE5eMnbmz/o+YzSmV+78Za9Ro+tiC3I4kXjx6TZwiaFrFkw
-tgVDz2OOMyeTEkE8eIAiR/oxtUBvVJ28Fftqz+B6TeD/5koPn00aD8q9QIDLG569dU4rMDVA+ZkZ
-mCN1LMfuiO2UuNg3r+sCA48UFqhaKXAbEm9sfuRCBhDbt/HiEOB0cCJL8gqSUV4kQVzesrv2qJ7U
-aP0p8mOmd+/OKSAU1jo0VG8TMfBeb/kG82kmg6fCu6armj2VJ2oAIhjlK0vp9w+NT0YiiBjf14cG
-hJ3syCKSktvu8bTR4ydOyxUTnU1oSTATX2G5M+bametv7oBbwKyLPKKVgZ4oSIDl86orcx1cSduo
-9RiZndvYVAXMLFfIoh+So15nbnf3QLWU9i72mTzTUd1uVf1dZNSOuP8NA0t4v1C3rDpjU3wOCKhc
-Om40Dahik2q5mzwcIRuR5gH2Kyq6pNNtEThG3WZm6OhSvTQNYULTeLGY92UOJveJWhqfm48+4PrE
-5+Tw204NU6AnqSlH29nr9Mp9SBuLaT6xD1+LBy/auy3nUNvCFf9jieJ8MA3z/MH3xDsgKyR1aimv
-IwnrHGLOx9v0YpxCrRj6QDW1p/ny8DQ68QX/G0FiAdP5CIOL++CvRueBD8oNixTPH7/WIUYjD/AN
-k+HK1NPjkIwyORd/ftQuHjMFbkXCIAG3GReaFjE1W5YMIbTOtdSprIQm5EH0AdzUT89oeI+Lg71D
-6prep0W+s1AdHAovl1n9oUdMVvReQlqHXA3RrP3rvMf3AfaX0b05xSMTRYEUPhDVUAXHNeVXgyfq
-whUenJbGvVEzr53KtxBHztNpzl2GCZeVJlml4uj5z/cQLfys8ZKR1G7GIGmJ7w8f79PYJTZ0057/
-WLHrortd0Pwf9iTnyy9AXr4XEosRhbqSXbVMrVFIaWdWApjSe0w8RZFR3S4w4ysV0/rlQXgk6/oc
-4/V0A4K3ofCQ4qM2yRiMi1xeWQpiXixTtjdGdCkBR3vSMJd2aNyiShmC58OhkC26PINIzm9/kpSN
-8DZgsglKwBLQj6zso9K3HzPweKCZydMdo8hloMGP2LWTFuiwcWQeLL76uDm0h+SfNzNJUkMmB7Zc
-wB0j7JyRESHRzvbe9IX+8iEr7O3ujU6jQCK9r6hnY5CH+ol8rLmeCLUWOrOMP2qfKNsV28TWGaCH
-y7S3Wyqz5TD/csyxEmoIgxsDVT1bMPFyg9gk7XvskWxEgdUjzwtJl7uIBCcbQQ2Kq8cTaXCUBHSY
-fCkUvobeTZV66Md3sfa6o3kZZIoBtx3GwcHA2JbNFQXcK63KYLNBkcdfsxxI8e37e9flbVdJNv2a
-27+9e0BAvBisQ3ZMkMSpvsIi7HVsYfLFG9XiZ8G1aAmwpLyrrXK/ZL3IJS7c/uT0bovhM2+9EGOn
-ppLvMM+q54kdHrr8p+B2yHPlyxvcy2gIiAZzX+kR6mT4YLwxpvUa7bD1xi0hfjC7OBJyxrcH
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Apigee;
+
+class GoogleCloudApigeeV1ExportRequest extends \Google\Model
+{
+  public $csvDelimiter;
+  public $datastoreName;
+  protected $dateRangeType = GoogleCloudApigeeV1DateRange::class;
+  protected $dateRangeDataType = '';
+  public $description;
+  public $name;
+  public $outputFormat;
+
+  public function setCsvDelimiter($csvDelimiter)
+  {
+    $this->csvDelimiter = $csvDelimiter;
+  }
+  public function getCsvDelimiter()
+  {
+    return $this->csvDelimiter;
+  }
+  public function setDatastoreName($datastoreName)
+  {
+    $this->datastoreName = $datastoreName;
+  }
+  public function getDatastoreName()
+  {
+    return $this->datastoreName;
+  }
+  /**
+   * @param GoogleCloudApigeeV1DateRange
+   */
+  public function setDateRange(GoogleCloudApigeeV1DateRange $dateRange)
+  {
+    $this->dateRange = $dateRange;
+  }
+  /**
+   * @return GoogleCloudApigeeV1DateRange
+   */
+  public function getDateRange()
+  {
+    return $this->dateRange;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setOutputFormat($outputFormat)
+  {
+    $this->outputFormat = $outputFormat;
+  }
+  public function getOutputFormat()
+  {
+    return $this->outputFormat;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudApigeeV1ExportRequest::class, 'Google_Service_Apigee_GoogleCloudApigeeV1ExportRequest');

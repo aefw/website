@@ -1,63 +1,93 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-1HXsiXORwwsOYRzd2mAga+/+oHyKPLaolJh8FMm=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Directory\Resource;
+
+use Google\Service\Directory\DomainAlias;
+use Google\Service\Directory\DomainAliases as DomainAliasesModel;
+
+/**
+ * The "domainAliases" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $adminService = new Google\Service\Directory(...);
+ *   $domainAliases = $adminService->domainAliases;
+ *  </code>
+ */
+class DomainAliases extends \Google\Service\Resource
+{
+  /**
+   * Deletes a domain Alias of the customer. (domainAliases.delete)
+   *
+   * @param string $customer Immutable ID of the Google Workspace account.
+   * @param string $domainAliasName Name of domain alias to be retrieved.
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($customer, $domainAliasName, $optParams = [])
+  {
+    $params = ['customer' => $customer, 'domainAliasName' => $domainAliasName];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Retrieves a domain alias of the customer. (domainAliases.get)
+   *
+   * @param string $customer Immutable ID of the Google Workspace account.
+   * @param string $domainAliasName Name of domain alias to be retrieved.
+   * @param array $optParams Optional parameters.
+   * @return DomainAlias
+   */
+  public function get($customer, $domainAliasName, $optParams = [])
+  {
+    $params = ['customer' => $customer, 'domainAliasName' => $domainAliasName];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], DomainAlias::class);
+  }
+  /**
+   * Inserts a domain alias of the customer. (domainAliases.insert)
+   *
+   * @param string $customer Immutable ID of the Google Workspace account.
+   * @param DomainAlias $postBody
+   * @param array $optParams Optional parameters.
+   * @return DomainAlias
+   */
+  public function insert($customer, DomainAlias $postBody, $optParams = [])
+  {
+    $params = ['customer' => $customer, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], DomainAlias::class);
+  }
+  /**
+   * Lists the domain aliases of the customer. (domainAliases.listDomainAliases)
+   *
+   * @param string $customer Immutable ID of the Google Workspace account.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string parentDomainName Name of the parent domain for which domain
+   * aliases are to be fetched.
+   * @return DomainAliasesModel
+   */
+  public function listDomainAliases($customer, $optParams = [])
+  {
+    $params = ['customer' => $customer];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], DomainAliasesModel::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(DomainAliases::class, 'Google_Service_Directory_Resource_DomainAliases');

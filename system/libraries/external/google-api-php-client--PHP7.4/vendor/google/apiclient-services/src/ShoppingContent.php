@@ -1,228 +1,2809 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-1W==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for ShoppingContent (v2.1).
+ *
+ * <p>
+ * Manage your product listings and accounts for Google Shopping</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://developers.google.com/shopping-content/v2/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class ShoppingContent extends \Google\Service
+{
+  /** Manage your product listings and accounts for Google Shopping. */
+  const CONTENT =
+      "https://www.googleapis.com/auth/content";
+
+  public $accounts;
+  public $accounts_credentials;
+  public $accounts_labels;
+  public $accounts_returncarrier;
+  public $accountstatuses;
+  public $accounttax;
+  public $buyongoogleprograms;
+  public $collections;
+  public $collectionstatuses;
+  public $csses;
+  public $datafeeds;
+  public $datafeedstatuses;
+  public $liasettings;
+  public $localinventory;
+  public $orderinvoices;
+  public $orderreports;
+  public $orderreturns;
+  public $orderreturns_labels;
+  public $orders;
+  public $ordertrackingsignals;
+  public $pos;
+  public $products;
+  public $productstatuses;
+  public $productstatuses_repricingreports;
+  public $pubsubnotificationsettings;
+  public $regionalinventory;
+  public $regions;
+  public $reports;
+  public $repricingrules;
+  public $repricingrules_repricingreports;
+  public $returnaddress;
+  public $returnpolicy;
+  public $returnpolicyonline;
+  public $settlementreports;
+  public $settlementtransactions;
+  public $shippingsettings;
+
+  /**
+   * Constructs the internal representation of the ShoppingContent service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://shoppingcontent.googleapis.com/';
+    $this->servicePath = 'content/v2.1/';
+    $this->batchPath = 'batch';
+    $this->version = 'v2.1';
+    $this->serviceName = 'content';
+
+    $this->accounts = new ShoppingContent\Resource\Accounts(
+        $this,
+        $this->serviceName,
+        'accounts',
+        [
+          'methods' => [
+            'authinfo' => [
+              'path' => 'accounts/authinfo',
+              'httpMethod' => 'GET',
+              'parameters' => [],
+            ],'claimwebsite' => [
+              'path' => '{merchantId}/accounts/{accountId}/claimwebsite',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'overwrite' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'custombatch' => [
+              'path' => 'accounts/batch',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'delete' => [
+              'path' => '{merchantId}/accounts/{accountId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'force' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'get' => [
+              'path' => '{merchantId}/accounts/{accountId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'insert' => [
+              'path' => '{merchantId}/accounts',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'link' => [
+              'path' => '{merchantId}/accounts/{accountId}/link',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => '{merchantId}/accounts',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'label' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'listlinks' => [
+              'path' => '{merchantId}/accounts/{accountId}/listlinks',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => '{merchantId}/accounts/{accountId}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'updatelabels' => [
+              'path' => '{merchantId}/accounts/{accountId}/updatelabels',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->accounts_credentials = new ShoppingContent\Resource\AccountsCredentials(
+        $this,
+        $this->serviceName,
+        'credentials',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'accounts/{accountId}/credentials',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->accounts_labels = new ShoppingContent\Resource\AccountsLabels(
+        $this,
+        $this->serviceName,
+        'labels',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'accounts/{accountId}/labels',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'accounts/{accountId}/labels/{labelId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'labelId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'accounts/{accountId}/labels',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'accounts/{accountId}/labels/{labelId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'labelId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->accounts_returncarrier = new ShoppingContent\Resource\AccountsReturncarrier(
+        $this,
+        $this->serviceName,
+        'returncarrier',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'accounts/{accountId}/returncarrier',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'accounts/{accountId}/returncarrier/{carrierAccountId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'carrierAccountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'accounts/{accountId}/returncarrier',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'accounts/{accountId}/returncarrier/{carrierAccountId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'carrierAccountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->accountstatuses = new ShoppingContent\Resource\Accountstatuses(
+        $this,
+        $this->serviceName,
+        'accountstatuses',
+        [
+          'methods' => [
+            'custombatch' => [
+              'path' => 'accountstatuses/batch',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'get' => [
+              'path' => '{merchantId}/accountstatuses/{accountId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'destinations' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => '{merchantId}/accountstatuses',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'destinations' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->accounttax = new ShoppingContent\Resource\Accounttax(
+        $this,
+        $this->serviceName,
+        'accounttax',
+        [
+          'methods' => [
+            'custombatch' => [
+              'path' => 'accounttax/batch',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'get' => [
+              'path' => '{merchantId}/accounttax/{accountId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => '{merchantId}/accounttax',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => '{merchantId}/accounttax/{accountId}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->buyongoogleprograms = new ShoppingContent\Resource\Buyongoogleprograms(
+        $this,
+        $this->serviceName,
+        'buyongoogleprograms',
+        [
+          'methods' => [
+            'activate' => [
+              'path' => '{merchantId}/buyongoogleprograms/{regionCode}/activate',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'regionCode' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => '{merchantId}/buyongoogleprograms/{regionCode}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'regionCode' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'onboard' => [
+              'path' => '{merchantId}/buyongoogleprograms/{regionCode}/onboard',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'regionCode' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'pause' => [
+              'path' => '{merchantId}/buyongoogleprograms/{regionCode}/pause',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'regionCode' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'requestreview' => [
+              'path' => '{merchantId}/buyongoogleprograms/{regionCode}/requestreview',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'regionCode' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->collections = new ShoppingContent\Resource\Collections(
+        $this,
+        $this->serviceName,
+        'collections',
+        [
+          'methods' => [
+            'create' => [
+              'path' => '{merchantId}/collections',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => '{merchantId}/collections/{collectionId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'collectionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => '{merchantId}/collections/{collectionId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'collectionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => '{merchantId}/collections',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->collectionstatuses = new ShoppingContent\Resource\Collectionstatuses(
+        $this,
+        $this->serviceName,
+        'collectionstatuses',
+        [
+          'methods' => [
+            'get' => [
+              'path' => '{merchantId}/collectionstatuses/{collectionId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'collectionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => '{merchantId}/collectionstatuses',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->csses = new ShoppingContent\Resource\Csses(
+        $this,
+        $this->serviceName,
+        'csses',
+        [
+          'methods' => [
+            'get' => [
+              'path' => '{cssGroupId}/csses/{cssDomainId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'cssGroupId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'cssDomainId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => '{cssGroupId}/csses',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'cssGroupId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'updatelabels' => [
+              'path' => '{cssGroupId}/csses/{cssDomainId}/updatelabels',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'cssGroupId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'cssDomainId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->datafeeds = new ShoppingContent\Resource\Datafeeds(
+        $this,
+        $this->serviceName,
+        'datafeeds',
+        [
+          'methods' => [
+            'custombatch' => [
+              'path' => 'datafeeds/batch',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'delete' => [
+              'path' => '{merchantId}/datafeeds/{datafeedId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'datafeedId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'fetchnow' => [
+              'path' => '{merchantId}/datafeeds/{datafeedId}/fetchNow',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'datafeedId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => '{merchantId}/datafeeds/{datafeedId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'datafeedId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => '{merchantId}/datafeeds',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => '{merchantId}/datafeeds',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => '{merchantId}/datafeeds/{datafeedId}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'datafeedId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->datafeedstatuses = new ShoppingContent\Resource\Datafeedstatuses(
+        $this,
+        $this->serviceName,
+        'datafeedstatuses',
+        [
+          'methods' => [
+            'custombatch' => [
+              'path' => 'datafeedstatuses/batch',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'get' => [
+              'path' => '{merchantId}/datafeedstatuses/{datafeedId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'datafeedId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'country' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'language' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => '{merchantId}/datafeedstatuses',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->liasettings = new ShoppingContent\Resource\Liasettings(
+        $this,
+        $this->serviceName,
+        'liasettings',
+        [
+          'methods' => [
+            'custombatch' => [
+              'path' => 'liasettings/batch',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'get' => [
+              'path' => '{merchantId}/liasettings/{accountId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getaccessiblegmbaccounts' => [
+              'path' => '{merchantId}/liasettings/{accountId}/accessiblegmbaccounts',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => '{merchantId}/liasettings',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'listposdataproviders' => [
+              'path' => 'liasettings/posdataproviders',
+              'httpMethod' => 'GET',
+              'parameters' => [],
+            ],'requestgmbaccess' => [
+              'path' => '{merchantId}/liasettings/{accountId}/requestgmbaccess',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'gmbEmail' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'requestinventoryverification' => [
+              'path' => '{merchantId}/liasettings/{accountId}/requestinventoryverification/{country}',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'country' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'setinventoryverificationcontact' => [
+              'path' => '{merchantId}/liasettings/{accountId}/setinventoryverificationcontact',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'country' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'language' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'contactName' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'contactEmail' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'setposdataprovider' => [
+              'path' => '{merchantId}/liasettings/{accountId}/setposdataprovider',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'country' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'posDataProviderId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'posExternalAccountId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => '{merchantId}/liasettings/{accountId}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->localinventory = new ShoppingContent\Resource\Localinventory(
+        $this,
+        $this->serviceName,
+        'localinventory',
+        [
+          'methods' => [
+            'custombatch' => [
+              'path' => 'localinventory/batch',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'insert' => [
+              'path' => '{merchantId}/products/{productId}/localinventory',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'productId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->orderinvoices = new ShoppingContent\Resource\Orderinvoices(
+        $this,
+        $this->serviceName,
+        'orderinvoices',
+        [
+          'methods' => [
+            'createchargeinvoice' => [
+              'path' => '{merchantId}/orderinvoices/{orderId}/createChargeInvoice',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'orderId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'createrefundinvoice' => [
+              'path' => '{merchantId}/orderinvoices/{orderId}/createRefundInvoice',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'orderId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->orderreports = new ShoppingContent\Resource\Orderreports(
+        $this,
+        $this->serviceName,
+        'orderreports',
+        [
+          'methods' => [
+            'listdisbursements' => [
+              'path' => '{merchantId}/orderreports/disbursements',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'disbursementEndDate' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'disbursementStartDate' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'listtransactions' => [
+              'path' => '{merchantId}/orderreports/disbursements/{disbursementId}/transactions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'disbursementId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'transactionEndDate' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'transactionStartDate' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->orderreturns = new ShoppingContent\Resource\Orderreturns(
+        $this,
+        $this->serviceName,
+        'orderreturns',
+        [
+          'methods' => [
+            'acknowledge' => [
+              'path' => '{merchantId}/orderreturns/{returnId}/acknowledge',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'returnId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'createorderreturn' => [
+              'path' => '{merchantId}/orderreturns/createOrderReturn',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => '{merchantId}/orderreturns/{returnId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'returnId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => '{merchantId}/orderreturns',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'acknowledged' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'createdEndDate' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'createdStartDate' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'googleOrderIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'shipmentStates' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'shipmentStatus' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'shipmentTrackingNumbers' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'shipmentTypes' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],'process' => [
+              'path' => '{merchantId}/orderreturns/{returnId}/process',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'returnId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->orderreturns_labels = new ShoppingContent\Resource\OrderreturnsLabels(
+        $this,
+        $this->serviceName,
+        'labels',
+        [
+          'methods' => [
+            'create' => [
+              'path' => '{merchantId}/orderreturns/{returnId}/labels',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'returnId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->orders = new ShoppingContent\Resource\Orders(
+        $this,
+        $this->serviceName,
+        'orders',
+        [
+          'methods' => [
+            'acknowledge' => [
+              'path' => '{merchantId}/orders/{orderId}/acknowledge',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'orderId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'advancetestorder' => [
+              'path' => '{merchantId}/testorders/{orderId}/advance',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'orderId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'cancel' => [
+              'path' => '{merchantId}/orders/{orderId}/cancel',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'orderId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'cancellineitem' => [
+              'path' => '{merchantId}/orders/{orderId}/cancelLineItem',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'orderId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'canceltestorderbycustomer' => [
+              'path' => '{merchantId}/testorders/{orderId}/cancelByCustomer',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'orderId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'createtestorder' => [
+              'path' => '{merchantId}/testorders',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'createtestreturn' => [
+              'path' => '{merchantId}/orders/{orderId}/testreturn',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'orderId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => '{merchantId}/orders/{orderId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'orderId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getbymerchantorderid' => [
+              'path' => '{merchantId}/ordersbymerchantid/{merchantOrderId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'merchantOrderId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'gettestordertemplate' => [
+              'path' => '{merchantId}/testordertemplates/{templateName}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'templateName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'country' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'instorerefundlineitem' => [
+              'path' => '{merchantId}/orders/{orderId}/inStoreRefundLineItem',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'orderId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => '{merchantId}/orders',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'acknowledged' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'placedDateEnd' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'placedDateStart' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'statuses' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],'refunditem' => [
+              'path' => '{merchantId}/orders/{orderId}/refunditem',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'orderId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'refundorder' => [
+              'path' => '{merchantId}/orders/{orderId}/refundorder',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'orderId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'rejectreturnlineitem' => [
+              'path' => '{merchantId}/orders/{orderId}/rejectReturnLineItem',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'orderId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'returnrefundlineitem' => [
+              'path' => '{merchantId}/orders/{orderId}/returnRefundLineItem',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'orderId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'setlineitemmetadata' => [
+              'path' => '{merchantId}/orders/{orderId}/setLineItemMetadata',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'orderId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'shiplineitems' => [
+              'path' => '{merchantId}/orders/{orderId}/shipLineItems',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'orderId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'updatelineitemshippingdetails' => [
+              'path' => '{merchantId}/orders/{orderId}/updateLineItemShippingDetails',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'orderId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'updatemerchantorderid' => [
+              'path' => '{merchantId}/orders/{orderId}/updateMerchantOrderId',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'orderId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'updateshipment' => [
+              'path' => '{merchantId}/orders/{orderId}/updateShipment',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'orderId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->ordertrackingsignals = new ShoppingContent\Resource\Ordertrackingsignals(
+        $this,
+        $this->serviceName,
+        'ordertrackingsignals',
+        [
+          'methods' => [
+            'create' => [
+              'path' => '{merchantId}/ordertrackingsignals',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->pos = new ShoppingContent\Resource\Pos(
+        $this,
+        $this->serviceName,
+        'pos',
+        [
+          'methods' => [
+            'custombatch' => [
+              'path' => 'pos/batch',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'delete' => [
+              'path' => '{merchantId}/pos/{targetMerchantId}/store/{storeCode}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'targetMerchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'storeCode' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => '{merchantId}/pos/{targetMerchantId}/store/{storeCode}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'targetMerchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'storeCode' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => '{merchantId}/pos/{targetMerchantId}/store',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'targetMerchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'inventory' => [
+              'path' => '{merchantId}/pos/{targetMerchantId}/inventory',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'targetMerchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => '{merchantId}/pos/{targetMerchantId}/store',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'targetMerchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'sale' => [
+              'path' => '{merchantId}/pos/{targetMerchantId}/sale',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'targetMerchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->products = new ShoppingContent\Resource\Products(
+        $this,
+        $this->serviceName,
+        'products',
+        [
+          'methods' => [
+            'custombatch' => [
+              'path' => 'products/batch',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'delete' => [
+              'path' => '{merchantId}/products/{productId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'productId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'feedId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'get' => [
+              'path' => '{merchantId}/products/{productId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'productId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => '{merchantId}/products',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'feedId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => '{merchantId}/products',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => '{merchantId}/products/{productId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'productId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->productstatuses = new ShoppingContent\Resource\Productstatuses(
+        $this,
+        $this->serviceName,
+        'productstatuses',
+        [
+          'methods' => [
+            'custombatch' => [
+              'path' => 'productstatuses/batch',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'get' => [
+              'path' => '{merchantId}/productstatuses/{productId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'productId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'destinations' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => '{merchantId}/productstatuses',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'destinations' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->productstatuses_repricingreports = new ShoppingContent\Resource\ProductstatusesRepricingreports(
+        $this,
+        $this->serviceName,
+        'repricingreports',
+        [
+          'methods' => [
+            'list' => [
+              'path' => '{merchantId}/productstatuses/{productId}/repricingreports',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'productId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'endDate' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ruleId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'startDate' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->pubsubnotificationsettings = new ShoppingContent\Resource\Pubsubnotificationsettings(
+        $this,
+        $this->serviceName,
+        'pubsubnotificationsettings',
+        [
+          'methods' => [
+            'get' => [
+              'path' => '{merchantId}/pubsubnotificationsettings',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => '{merchantId}/pubsubnotificationsettings',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->regionalinventory = new ShoppingContent\Resource\Regionalinventory(
+        $this,
+        $this->serviceName,
+        'regionalinventory',
+        [
+          'methods' => [
+            'custombatch' => [
+              'path' => 'regionalinventory/batch',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'insert' => [
+              'path' => '{merchantId}/products/{productId}/regionalinventory',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'productId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->regions = new ShoppingContent\Resource\Regions(
+        $this,
+        $this->serviceName,
+        'regions',
+        [
+          'methods' => [
+            'create' => [
+              'path' => '{merchantId}/regions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'regionId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => '{merchantId}/regions/{regionId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'regionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => '{merchantId}/regions/{regionId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'regionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => '{merchantId}/regions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => '{merchantId}/regions/{regionId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'regionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->reports = new ShoppingContent\Resource\Reports(
+        $this,
+        $this->serviceName,
+        'reports',
+        [
+          'methods' => [
+            'search' => [
+              'path' => '{merchantId}/reports/search',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->repricingrules = new ShoppingContent\Resource\Repricingrules(
+        $this,
+        $this->serviceName,
+        'repricingrules',
+        [
+          'methods' => [
+            'create' => [
+              'path' => '{merchantId}/repricingrules',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'ruleId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => '{merchantId}/repricingrules/{ruleId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'ruleId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => '{merchantId}/repricingrules/{ruleId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'ruleId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => '{merchantId}/repricingrules',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'countryCode' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'languageCode' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => '{merchantId}/repricingrules/{ruleId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'ruleId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->repricingrules_repricingreports = new ShoppingContent\Resource\RepricingrulesRepricingreports(
+        $this,
+        $this->serviceName,
+        'repricingreports',
+        [
+          'methods' => [
+            'list' => [
+              'path' => '{merchantId}/repricingrules/{ruleId}/repricingreports',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'ruleId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'endDate' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'startDate' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->returnaddress = new ShoppingContent\Resource\Returnaddress(
+        $this,
+        $this->serviceName,
+        'returnaddress',
+        [
+          'methods' => [
+            'custombatch' => [
+              'path' => 'returnaddress/batch',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'delete' => [
+              'path' => '{merchantId}/returnaddress/{returnAddressId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'returnAddressId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => '{merchantId}/returnaddress/{returnAddressId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'returnAddressId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => '{merchantId}/returnaddress',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => '{merchantId}/returnaddress',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'country' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->returnpolicy = new ShoppingContent\Resource\Returnpolicy(
+        $this,
+        $this->serviceName,
+        'returnpolicy',
+        [
+          'methods' => [
+            'custombatch' => [
+              'path' => 'returnpolicy/batch',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'delete' => [
+              'path' => '{merchantId}/returnpolicy/{returnPolicyId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'returnPolicyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => '{merchantId}/returnpolicy/{returnPolicyId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'returnPolicyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'insert' => [
+              'path' => '{merchantId}/returnpolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => '{merchantId}/returnpolicy',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->returnpolicyonline = new ShoppingContent\Resource\Returnpolicyonline(
+        $this,
+        $this->serviceName,
+        'returnpolicyonline',
+        [
+          'methods' => [
+            'create' => [
+              'path' => '{merchantId}/returnpolicyonline',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => '{merchantId}/returnpolicyonline/{returnPolicyId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'returnPolicyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => '{merchantId}/returnpolicyonline/{returnPolicyId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'returnPolicyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => '{merchantId}/returnpolicyonline',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => '{merchantId}/returnpolicyonline/{returnPolicyId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'returnPolicyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->settlementreports = new ShoppingContent\Resource\Settlementreports(
+        $this,
+        $this->serviceName,
+        'settlementreports',
+        [
+          'methods' => [
+            'get' => [
+              'path' => '{merchantId}/settlementreports/{settlementId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'settlementId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => '{merchantId}/settlementreports',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'transferEndDate' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'transferStartDate' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->settlementtransactions = new ShoppingContent\Resource\Settlementtransactions(
+        $this,
+        $this->serviceName,
+        'settlementtransactions',
+        [
+          'methods' => [
+            'list' => [
+              'path' => '{merchantId}/settlementreports/{settlementId}/transactions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'settlementId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'transactionIds' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->shippingsettings = new ShoppingContent\Resource\Shippingsettings(
+        $this,
+        $this->serviceName,
+        'shippingsettings',
+        [
+          'methods' => [
+            'custombatch' => [
+              'path' => 'shippingsettings/batch',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'get' => [
+              'path' => '{merchantId}/shippingsettings/{accountId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getsupportedcarriers' => [
+              'path' => '{merchantId}/supportedCarriers',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getsupportedholidays' => [
+              'path' => '{merchantId}/supportedHolidays',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getsupportedpickupservices' => [
+              'path' => '{merchantId}/supportedPickupServices',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => '{merchantId}/shippingsettings',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => '{merchantId}/shippingsettings/{accountId}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'merchantId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'accountId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ShoppingContent::class, 'Google_Service_ShoppingContent');

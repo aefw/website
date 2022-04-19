@@ -1,66 +1,90 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-6fEYh1G4fVi=
+<?php
+
+namespace PhpOffice\PhpSpreadsheet\Shared\Trend;
+
+class LogarithmicBestFit extends BestFit
+{
+    /**
+     * Algorithm type to use for best-fit
+     * (Name of this Trend class).
+     *
+     * @var string
+     */
+    protected $bestFitType = 'logarithmic';
+
+    /**
+     * Return the Y-Value for a specified value of X.
+     *
+     * @param float $xValue X-Value
+     *
+     * @return float Y-Value
+     */
+    public function getValueOfYForX($xValue)
+    {
+        return $this->getIntersect() + $this->getSlope() * log($xValue - $this->xOffset);
+    }
+
+    /**
+     * Return the X-Value for a specified value of Y.
+     *
+     * @param float $yValue Y-Value
+     *
+     * @return float X-Value
+     */
+    public function getValueOfXForY($yValue)
+    {
+        return exp(($yValue - $this->getIntersect()) / $this->getSlope());
+    }
+
+    /**
+     * Return the Equation of the best-fit line.
+     *
+     * @param int $dp Number of places of decimal precision to display
+     *
+     * @return string
+     */
+    public function getEquation($dp = 0)
+    {
+        $slope = $this->getSlope($dp);
+        $intersect = $this->getIntersect($dp);
+
+        return 'Y = ' . $intersect . ' + ' . $slope . ' * log(X)';
+    }
+
+    /**
+     * Execute the regression and calculate the goodness of fit for a set of X and Y data values.
+     *
+     * @param float[] $yValues The set of Y-values for this regression
+     * @param float[] $xValues The set of X-values for this regression
+     * @param bool $const
+     */
+    private function logarithmicRegression($yValues, $xValues, $const)
+    {
+        foreach ($xValues as &$value) {
+            if ($value < 0.0) {
+                $value = 0 - log(abs($value));
+            } elseif ($value > 0.0) {
+                $value = log($value);
+            }
+        }
+        unset($value);
+
+        $this->leastSquareFit($yValues, $xValues, $const);
+    }
+
+    /**
+     * Define the regression and calculate the goodness of fit for a set of X and Y data values.
+     *
+     * @param float[] $yValues The set of Y-values for this regression
+     * @param float[] $xValues The set of X-values for this regression
+     * @param bool $const
+     */
+    public function __construct($yValues, $xValues = [], $const = true)
+    {
+        parent::__construct($yValues, $xValues);
+
+        if (!$this->error) {
+            $this->logarithmicRegression($yValues, $xValues, $const);
+        }
+    }
+}

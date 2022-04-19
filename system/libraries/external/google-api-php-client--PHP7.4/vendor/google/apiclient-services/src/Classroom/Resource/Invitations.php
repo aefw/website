@@ -1,62 +1,141 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Classroom\Resource;
+
+use Google\Service\Classroom\ClassroomEmpty;
+use Google\Service\Classroom\Invitation;
+use Google\Service\Classroom\ListInvitationsResponse;
+
+/**
+ * The "invitations" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $classroomService = new Google\Service\Classroom(...);
+ *   $invitations = $classroomService->invitations;
+ *  </code>
+ */
+class Invitations extends \Google\Service\Resource
+{
+  /**
+   * Accepts an invitation, removing it and adding the invited user to the
+   * teachers or students (as appropriate) of the specified course. Only the
+   * invited user may accept an invitation. This method returns the following
+   * error codes: * `PERMISSION_DENIED` if the requesting user is not permitted to
+   * accept the requested invitation or for access errors. * `FAILED_PRECONDITION`
+   * for the following request errors: * CourseMemberLimitReached *
+   * CourseNotModifiable * CourseTeacherLimitReached *
+   * UserGroupsMembershipLimitReached * `NOT_FOUND` if no invitation exists with
+   * the requested ID. (invitations.accept)
+   *
+   * @param string $id Identifier of the invitation to accept.
+   * @param array $optParams Optional parameters.
+   * @return ClassroomEmpty
+   */
+  public function accept($id, $optParams = [])
+  {
+    $params = ['id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('accept', [$params], ClassroomEmpty::class);
+  }
+  /**
+   * Creates an invitation. Only one invitation for a user and course may exist at
+   * a time. Delete and re-create an invitation to make changes. This method
+   * returns the following error codes: * `PERMISSION_DENIED` if the requesting
+   * user is not permitted to create invitations for this course or for access
+   * errors. * `NOT_FOUND` if the course or the user does not exist. *
+   * `FAILED_PRECONDITION` if the requested user's account is disabled or if the
+   * user already has this role or a role with greater permissions. *
+   * `ALREADY_EXISTS` if an invitation for the specified user and course already
+   * exists. (invitations.create)
+   *
+   * @param Invitation $postBody
+   * @param array $optParams Optional parameters.
+   * @return Invitation
+   */
+  public function create(Invitation $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Invitation::class);
+  }
+  /**
+   * Deletes an invitation. This method returns the following error codes: *
+   * `PERMISSION_DENIED` if the requesting user is not permitted to delete the
+   * requested invitation or for access errors. * `NOT_FOUND` if no invitation
+   * exists with the requested ID. (invitations.delete)
+   *
+   * @param string $id Identifier of the invitation to delete.
+   * @param array $optParams Optional parameters.
+   * @return ClassroomEmpty
+   */
+  public function delete($id, $optParams = [])
+  {
+    $params = ['id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], ClassroomEmpty::class);
+  }
+  /**
+   * Returns an invitation. This method returns the following error codes: *
+   * `PERMISSION_DENIED` if the requesting user is not permitted to view the
+   * requested invitation or for access errors. * `NOT_FOUND` if no invitation
+   * exists with the requested ID. (invitations.get)
+   *
+   * @param string $id Identifier of the invitation to return.
+   * @param array $optParams Optional parameters.
+   * @return Invitation
+   */
+  public function get($id, $optParams = [])
+  {
+    $params = ['id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Invitation::class);
+  }
+  /**
+   * Returns a list of invitations that the requesting user is permitted to view,
+   * restricted to those that match the list request. *Note:* At least one of
+   * `user_id` or `course_id` must be supplied. Both fields can be supplied. This
+   * method returns the following error codes: * `PERMISSION_DENIED` for access
+   * errors. (invitations.listInvitations)
+   *
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string courseId Restricts returned invitations to those for a
+   * course with the specified identifier.
+   * @opt_param int pageSize Maximum number of items to return. The default is 500
+   * if unspecified or `0`. The server may return fewer than the specified number
+   * of results.
+   * @opt_param string pageToken nextPageToken value returned from a previous list
+   * call, indicating that the subsequent page of results should be returned. The
+   * list request must be otherwise identical to the one that resulted in this
+   * token.
+   * @opt_param string userId Restricts returned invitations to those for a
+   * specific user. The identifier can be one of the following: * the numeric
+   * identifier for the user * the email address of the user * the string literal
+   * `"me"`, indicating the requesting user
+   * @return ListInvitationsResponse
+   */
+  public function listInvitations($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListInvitationsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Invitations::class, 'Google_Service_Classroom_Resource_Invitations');

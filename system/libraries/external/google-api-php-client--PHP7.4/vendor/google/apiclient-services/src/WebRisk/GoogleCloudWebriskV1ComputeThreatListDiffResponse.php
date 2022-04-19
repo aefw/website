@@ -1,69 +1,101 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-7VS0lqnEbQD6LeWK
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\WebRisk;
+
+class GoogleCloudWebriskV1ComputeThreatListDiffResponse extends \Google\Model
+{
+  protected $additionsType = GoogleCloudWebriskV1ThreatEntryAdditions::class;
+  protected $additionsDataType = '';
+  protected $checksumType = GoogleCloudWebriskV1ComputeThreatListDiffResponseChecksum::class;
+  protected $checksumDataType = '';
+  public $newVersionToken;
+  public $recommendedNextDiff;
+  protected $removalsType = GoogleCloudWebriskV1ThreatEntryRemovals::class;
+  protected $removalsDataType = '';
+  public $responseType;
+
+  /**
+   * @param GoogleCloudWebriskV1ThreatEntryAdditions
+   */
+  public function setAdditions(GoogleCloudWebriskV1ThreatEntryAdditions $additions)
+  {
+    $this->additions = $additions;
+  }
+  /**
+   * @return GoogleCloudWebriskV1ThreatEntryAdditions
+   */
+  public function getAdditions()
+  {
+    return $this->additions;
+  }
+  /**
+   * @param GoogleCloudWebriskV1ComputeThreatListDiffResponseChecksum
+   */
+  public function setChecksum(GoogleCloudWebriskV1ComputeThreatListDiffResponseChecksum $checksum)
+  {
+    $this->checksum = $checksum;
+  }
+  /**
+   * @return GoogleCloudWebriskV1ComputeThreatListDiffResponseChecksum
+   */
+  public function getChecksum()
+  {
+    return $this->checksum;
+  }
+  public function setNewVersionToken($newVersionToken)
+  {
+    $this->newVersionToken = $newVersionToken;
+  }
+  public function getNewVersionToken()
+  {
+    return $this->newVersionToken;
+  }
+  public function setRecommendedNextDiff($recommendedNextDiff)
+  {
+    $this->recommendedNextDiff = $recommendedNextDiff;
+  }
+  public function getRecommendedNextDiff()
+  {
+    return $this->recommendedNextDiff;
+  }
+  /**
+   * @param GoogleCloudWebriskV1ThreatEntryRemovals
+   */
+  public function setRemovals(GoogleCloudWebriskV1ThreatEntryRemovals $removals)
+  {
+    $this->removals = $removals;
+  }
+  /**
+   * @return GoogleCloudWebriskV1ThreatEntryRemovals
+   */
+  public function getRemovals()
+  {
+    return $this->removals;
+  }
+  public function setResponseType($responseType)
+  {
+    $this->responseType = $responseType;
+  }
+  public function getResponseType()
+  {
+    return $this->responseType;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudWebriskV1ComputeThreatListDiffResponse::class, 'Google_Service_WebRisk_GoogleCloudWebriskV1ComputeThreatListDiffResponse');

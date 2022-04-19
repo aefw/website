@@ -1,67 +1,90 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-4qshZ1hotm==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ContainerAnalysis;
+
+class Deployment extends \Google\Collection
+{
+  protected $collection_key = 'resourceUri';
+  public $address;
+  public $config;
+  public $deployTime;
+  public $platform;
+  public $resourceUri;
+  public $undeployTime;
+  public $userEmail;
+
+  public function setAddress($address)
+  {
+    $this->address = $address;
+  }
+  public function getAddress()
+  {
+    return $this->address;
+  }
+  public function setConfig($config)
+  {
+    $this->config = $config;
+  }
+  public function getConfig()
+  {
+    return $this->config;
+  }
+  public function setDeployTime($deployTime)
+  {
+    $this->deployTime = $deployTime;
+  }
+  public function getDeployTime()
+  {
+    return $this->deployTime;
+  }
+  public function setPlatform($platform)
+  {
+    $this->platform = $platform;
+  }
+  public function getPlatform()
+  {
+    return $this->platform;
+  }
+  public function setResourceUri($resourceUri)
+  {
+    $this->resourceUri = $resourceUri;
+  }
+  public function getResourceUri()
+  {
+    return $this->resourceUri;
+  }
+  public function setUndeployTime($undeployTime)
+  {
+    $this->undeployTime = $undeployTime;
+  }
+  public function getUndeployTime()
+  {
+    return $this->undeployTime;
+  }
+  public function setUserEmail($userEmail)
+  {
+    $this->userEmail = $userEmail;
+  }
+  public function getUserEmail()
+  {
+    return $this->userEmail;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Deployment::class, 'Google_Service_ContainerAnalysis_Deployment');

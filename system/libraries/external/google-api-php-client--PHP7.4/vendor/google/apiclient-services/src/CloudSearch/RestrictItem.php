@@ -1,59 +1,99 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-N8gkgJWW3G==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudSearch;
+
+class RestrictItem extends \Google\Model
+{
+  protected $driveFollowUpRestrictType = DriveFollowUpRestrict::class;
+  protected $driveFollowUpRestrictDataType = '';
+  protected $driveLocationRestrictType = DriveLocationRestrict::class;
+  protected $driveLocationRestrictDataType = '';
+  protected $driveMimeTypeRestrictType = DriveMimeTypeRestrict::class;
+  protected $driveMimeTypeRestrictDataType = '';
+  protected $driveTimeSpanRestrictType = DriveTimeSpanRestrict::class;
+  protected $driveTimeSpanRestrictDataType = '';
+  public $searchOperator;
+
+  /**
+   * @param DriveFollowUpRestrict
+   */
+  public function setDriveFollowUpRestrict(DriveFollowUpRestrict $driveFollowUpRestrict)
+  {
+    $this->driveFollowUpRestrict = $driveFollowUpRestrict;
+  }
+  /**
+   * @return DriveFollowUpRestrict
+   */
+  public function getDriveFollowUpRestrict()
+  {
+    return $this->driveFollowUpRestrict;
+  }
+  /**
+   * @param DriveLocationRestrict
+   */
+  public function setDriveLocationRestrict(DriveLocationRestrict $driveLocationRestrict)
+  {
+    $this->driveLocationRestrict = $driveLocationRestrict;
+  }
+  /**
+   * @return DriveLocationRestrict
+   */
+  public function getDriveLocationRestrict()
+  {
+    return $this->driveLocationRestrict;
+  }
+  /**
+   * @param DriveMimeTypeRestrict
+   */
+  public function setDriveMimeTypeRestrict(DriveMimeTypeRestrict $driveMimeTypeRestrict)
+  {
+    $this->driveMimeTypeRestrict = $driveMimeTypeRestrict;
+  }
+  /**
+   * @return DriveMimeTypeRestrict
+   */
+  public function getDriveMimeTypeRestrict()
+  {
+    return $this->driveMimeTypeRestrict;
+  }
+  /**
+   * @param DriveTimeSpanRestrict
+   */
+  public function setDriveTimeSpanRestrict(DriveTimeSpanRestrict $driveTimeSpanRestrict)
+  {
+    $this->driveTimeSpanRestrict = $driveTimeSpanRestrict;
+  }
+  /**
+   * @return DriveTimeSpanRestrict
+   */
+  public function getDriveTimeSpanRestrict()
+  {
+    return $this->driveTimeSpanRestrict;
+  }
+  public function setSearchOperator($searchOperator)
+  {
+    $this->searchOperator = $searchOperator;
+  }
+  public function getSearchOperator()
+  {
+    return $this->searchOperator;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(RestrictItem::class, 'Google_Service_CloudSearch_RestrictItem');

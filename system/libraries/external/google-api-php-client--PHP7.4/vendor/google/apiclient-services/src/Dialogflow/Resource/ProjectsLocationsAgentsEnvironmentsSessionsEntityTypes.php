@@ -1,72 +1,127 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cP/+ppRy0g9a4DyK5AYDQpXqST4EkQSss2j13W7YzhHwmIEOuMCyRakNL1h0xn1FztK0QN6HD
-8SdCHy6IgVuKSIvWuT75onSZLPyJJFQoHibyTbN6IaGNwFBwlFSGSTvNkrz6gzKCg+25C1qEI8ha
-mAMr+Wa4Cg0XdVF7ofYlaCp1VEtA9e4sdpRGBvd3ijmDxcnuYA/7cTlXUw6U/T9xCWiX+Y6Y8b5h
-HkLkUGTsKy2SH+BR24dlXYpesjfZ3136QDO+j6nlybLKAv/e0yq7g+nd+I5Zud1JBZLKXAWiWQO+
-IWNbLM5pcvFcUpjShJ8iLOXKmwb/NWXEwXm7zinzwYDkrIhMm4nl1FkPjmKL+qYpsVZWz9ggUh6f
-jzLOvjhUy+bmcDkWQMn4H+lUach2zTU1+u5qp8XdXlJYOmY8UDsb9Q5ToFpA49b3VYWaIp9ZwGMB
-kV+Vl4IWynIC2+v/Vz++2SK3aAnttgpOX+I9i67GsEp10BePDHUBSCdfo0hsMTtH1kBixU7SSRPD
-oX29bxHkkh91/Hd8Pb66LHFvMzzPiyUDBxJuP+7cP2btXQdCYVQljof95Hm9uvwYENcG4T/6EGFS
-hSoyMyxDFqqTCmtFJE/rzS6X95Vzld1VIAat/ULWi+wQ7gIuWUXk7lvd4+FlRlp+rPOpBpxeoUry
-eYt0v0AHPgYfFJDKQR23q1odSnWB592FcW7WkvcHxAh7s+2kVT2OXylLgds2SmjhtK3w+Nc+HJK5
-HaB3pYDsvdyJVe9ig8dFjgckZ46z7zHBcDIf+aErOSqNIjDM5CXs6zoKJ57jFPDOAUVQuM2gijzO
-lD0/j8GkJp6iwQqvHH8XC8Vb2EENxTS9W4TCAV1aIdlnm3F2sDl4MqwuqVluyg7n4d0Q/wteY6Fd
-tbEywz5lElRsEUNHSNHvqt6pABu8sk+9YysS8K19wNdo9bwdve8bejc8LYru6/JkD1wJ5zRHZlmi
-EfvpKGyGGItRvyC8o2alkONTWQgH2I06nVhJjyg2E/y3oFntErkbvaCqGCbwX5Ufl1+IrwZrI2EO
-Q1efJUq5k8UuGv46P6/DJyTRtpYsrc82MIpP+s4mW4/Zf+KDQAy5AVlNFT8IDhB5RLJCqO3CZUe/
-/ILSAAYetn8mz1M+aC7joaJze6Eh7FnSU9ZXINSx/LfkcOBIQgjHzxM2JT9YUbph/vOr8/ZtBnlM
-VLuvYfSAa1vlqX1rey3hIXLGshR3cXtrY6UpsQ7tQX0DeZ1pm16T26yq5M+Kv+ZpxJwRJp/OaIIS
-/v4sOfP5GE+m/pxE10gFzzGsXMI2lS2nkIl79yDOaa+Kcnt65n1aVbfnd5iWzdH8BLdROq+bDYR2
-22mR++Bmr2EbJHce+A8dtl4HB8Ac32weDbQX+UmDLrCbH99YiXhMhfpWDtM00KEJmBJRGpDtaJ++
-Pz1IoCb+YmsWVMWai+TzjcuXKPqSujya+kbtrqxZ6iDx2hJI99VJaXtbBfieICNTXvif3u71EhEY
-9VFfd9JmNjB77wEUPmT3G8BDIkUiOoRGKR3hh4GuC2Qyd69nT1uZoMZyeNysunS/+r++TWd1p+SP
-MW9BGNdXX4gMraXYdvv2W9bBoU8HykfSprlv4c73kP89GCt/bZ25uR2yJA6puKMZFSHsxXi14INH
-JgKIGprJu+7RkwF9ckTVJxm3RiJ/ngOOuCRjcw9N0uKTfWf4vmJlz/aHqcmbJFSPdtPtOtu7ImmK
-RqGCw/l5xItvdm5nWSI0JizE2uVvsXc87UZOetWV/oVqYoKWn2W/tMmPQ8GbDMMAf3G+OcCtqGwC
-SVI3HjdkNDfLwaE9ZrTn4vLEA/AxvGnxUGTCwejulj5CyuMy0KvZGe1fEzOzaqBZllKYoFbob9EK
-wtzxgU20yF00QhYueS4ROftKfKgnrIMX0X+8UtUyVTwlHCxpJdg3VYrDClGZcC10NRnuIvRW43L8
-z2zy6HJIGj4KsAxg2Xo25Vb9hmhDjPrrW/F9+1uR+ofxMr9d3J41ykATIIw8/06pcZzO7W2LLT4f
-qAG2OLEHHPjmtcFd7GNDBFYoe9stLrCg+YkUn0Gi9dA6E0w7N8oCLYTPFUzzsjnhboD4nHWpTKBa
-Ke0uQGSYY7WSz9LhzlGC6dCVU29o47SgBRq1PwSsLaqWPFxExLC26mQPZvJGuz2P4PUHT0UwT2c3
-LiG9bCSHTKa7IR0UG3MvO5h8FLoEm0QREWy4AaojGec6sp+LewY2vfQf42+bHKU7JKvEbCjlwFY6
-A/G/Pb7Gpfqe9TquD11bjxMcRywv91nr7lqD4Wfl6oN0xfxMwiUdeCqk/yPs/vXiTPV93E1Sv8aE
-LxKmCHDChgTal946U2UjIWw7lmP82JLddkW31GPu2rtAPrHviYWt/Z3xRojL0YJIuwk0Py0rPBJg
-bvAsQDNmdbGohkPXdMnnnykNiRPSBKqJI2OIJ1uzaQwVwFV+GMDT7GdNObXBPPSYNFvcoIiznS5B
-l7Jer4kIDhMv/KbG8QKJS6d3ZagbYZRhLOfe5GE2zFSf4ulfWTXggfwL5bO6Rf0KSRUxbXPOYwPp
-/phv/xndM05OA1eV+ymRqHjyjDevx++L61qRqyVnwZL28jXTh3hxd/aLIZQO70+Gd/YXt/wLfAIy
-URdA+N5bYZzQ7g3w2ebnwtAjjFwXHO7Uf/FqQp2lHUzsPrcOiGSN1KW57RQkR9Vl0z9iekSlq/VB
-UJ+SfpIh6j4AMBQ9Boc0L6hTpmup6vgOUJq7Tj+GMswD/0X93EPsY7+IYGmI8LQbbzQQwtQ4r7VH
-pLAQNUhDsDuf7QqILwkH7fcE3WqQ6h6QV1chF/0YcINlkZ1MLSS5Jtpsw0FlpHvI5rQegeX27RLr
-z0Sj8SEJ3BpHimV5ljidC8twhwAuB1ekbtaeUUkdbLUI5Xa8GHTF4iK/vMWJIB6oKRWSRHd0DaPf
-87e6hJQSj4onPhzgwjAbTcd4GqtRZEx+qz+73SGg/C2WOWk7fjR3Jdnoqw6ET/C/e5knzHoT46Pl
-MvEvdW7H72QISbwffLtK2xU72VnVTqeY1tPfhqwShV0EXZ0HmofKPgIscvhpkDvSMoQr65biy2qp
-lTROOClEjAxg7KDeUhqVA7RlQg34PQHbdWjkQoQc4mNkEF3WYiUNDBxobqVchF97H86sqoNxINS4
-eMHs2JaShQKNTK6Wgn20CnJ1oSkYdGubP1nBtsr2s0rWzhW6QLkmg9HoU9Uyq8S2pesvL6qkHtAJ
-49sizZB6mVGsmHPPZ7ZPQwh+x76JSSXZWFRk4Yhc9LPO0LSDMmOCurCEgG8Pf/hWnHs7k/dixYUQ
-ozW15jL3fF2ZXz25n1LMn7GEUhNABKczICOreW3cehJnMj/+6pPLMfe3O437vv5W14bpHEiGgNEk
-x/MKVVagAao6+GuT6mBSGg1cFqSr2pq5f8YfiASBpcBniulKK8cDEoPv90uG/x4eniO2COKj7bWt
-KrIgfmA0oduTzz7HKmsu254gVkjmKhU8pDf2qEREHA6+Sg8dg2WKrnstOJAQtZclYTTyGseVFN9v
-btzaTirbSWY40h3ORBYOuZV97t2hCYKZCZ4VZpvm/GPMSSPECPExx+uROFIAmcujud63vbWU5xPk
-GHrCCYbdkT55oV/GsS0Y9qA0folIA4/9c1r7nYDDPZ640yOQXCCh9SUlSy6WttWiQCWXchwP115D
-Bs283TzhykjvTWKbyjkLbGV/P3qFacHmVhibs5csCDbNl9gjpgSeqcd44QD0Ez4UjJQ9FRlWCUEN
-zxktZfM5jCLOQAuW4ak02LBH0ZEq+ETIDwwtMxOYH110wRzCgY8gVs0nMtGKYkiIaxZ2vpRXHt6c
-eklW5RDplHh5SHHCMNxbwbhFoGYv8kUwbU7TiIglJf5afRjQhUL/zwL2pqThFP5IiVhe/BQqOyra
-cLObTQ1GxssX0dasmVXatVeUjp65OAXwDHonRp87JBfHgx8gd0HUjMnwvmpuryJBURzMd/a4l+kB
-SnCCizYGBpqOpYmzsn07xSahczkTeSWeBfqVMd4OsHkUyazLlwDUKzv/MA8pYURTUkT76XaBwHAI
-4qajfsp9YB2gOl9HwBV7ybUFnlP7mNjOe8L4myXMfZLeDGkb6+rruoi9nz/hmT3aR/zo8Z3aGXKH
-dpgRqDVo5x45cW+lv7umTYL7xqVDLISkwgGVfauzQXn5sPZvWylUFjY2SNjw9gfIe+vdeQ/FDsfp
-ZIV1JYBi4CieU2j27XCRSWKxQuLbqmeDLDOq4bJkZcOGh7KHZPg1LagMzg0KeoLnnHhJfp+JqJYL
-Xrbbd2dH22RwI6g2GQ4thwvmomQvzfttfE+5e6IfqHpO5m5RH5uECtMKE/Q6bJ8fGHijaBogb/gs
-R6qBUOiVKAFQKETX9X5hRhx5lb9ECwMr+X0KNmkltF6fGeMm2XXG5WHx4AA7BK+FbssjO0lo0BMn
-IS5zn1lk8TUfeOLk0EAEKc7D7ym9/yqcE1p/AAfQseDaAwl6ScVAwRIS9Qn1cYvVJQGU7LLQn2V9
-mM6ksI43bcl514OqAmWVLYaI/LJUx3X+PXdm3gRxJum5s2ClWzVPTmtLOPFdlekU5M4rMmXatl9d
-ioISIes063sBTm2P6yMYrT5Px+a/sVewd/OOEabUZw8xFqq0CGdnZYwjBeAJlx7Ol1s0RBgoqLzs
-J34aLz+5pHYNsskCk+ZcuaNOk07sa3CHbGSYWGpWdULwLHPdKbzOPabYnvSZBtf63L9OCqA8nrSA
-XTyl/UHxrV/eZ+HyVUSQs3l2ixbSAUtK+6z+eXUq0RUeyFZKJbsVR0qxJ1NhAMkr81XoH7QiEr26
-3h/iPddW8EDONogeqZ4UHhHXXQd4lrHEjYNX6f/emWIHlV91bvjAU+wTfCx/6+5ws/GKq+P8sDRO
-z2t+nBb7kto8vJhH+74XCe29E3s0VoW4Tyv5nIytK6HMklr48GmAyPxcbhAZXY8gMhYkfMJJPgG=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dialogflow\Resource;
+
+use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3ListSessionEntityTypesResponse;
+use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3SessionEntityType;
+use Google\Service\Dialogflow\GoogleProtobufEmpty;
+
+/**
+ * The "entityTypes" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $dialogflowService = new Google\Service\Dialogflow(...);
+ *   $entityTypes = $dialogflowService->entityTypes;
+ *  </code>
+ */
+class ProjectsLocationsAgentsEnvironmentsSessionsEntityTypes extends \Google\Service\Resource
+{
+  /**
+   * Creates a session entity type. (entityTypes.create)
+   *
+   * @param string $parent Required. The session to create a session entity type
+   * for. Format: `projects//locations//agents//sessions/` or
+   * `projects//locations//agents//environments//sessions/`. If `Environment ID`
+   * is not specified, we assume default 'draft' environment.
+   * @param GoogleCloudDialogflowCxV3SessionEntityType $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudDialogflowCxV3SessionEntityType
+   */
+  public function create($parent, GoogleCloudDialogflowCxV3SessionEntityType $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleCloudDialogflowCxV3SessionEntityType::class);
+  }
+  /**
+   * Deletes the specified session entity type. (entityTypes.delete)
+   *
+   * @param string $name Required. The name of the session entity type to delete.
+   * Format: `projects//locations//agents//sessions//entityTypes/` or
+   * `projects//locations//agents//environments//sessions//entityTypes/`. If
+   * `Environment ID` is not specified, we assume default 'draft' environment.
+   * @param array $optParams Optional parameters.
+   * @return GoogleProtobufEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
+  }
+  /**
+   * Retrieves the specified session entity type. (entityTypes.get)
+   *
+   * @param string $name Required. The name of the session entity type. Format:
+   * `projects//locations//agents//sessions//entityTypes/` or
+   * `projects//locations//agents//environments//sessions//entityTypes/`. If
+   * `Environment ID` is not specified, we assume default 'draft' environment.
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudDialogflowCxV3SessionEntityType
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudDialogflowCxV3SessionEntityType::class);
+  }
+  /**
+   * Returns the list of all session entity types in the specified session.
+   * (entityTypes.listProjectsLocationsAgentsEnvironmentsSessionsEntityTypes)
+   *
+   * @param string $parent Required. The session to list all session entity types
+   * from. Format: `projects//locations//agents//sessions/` or
+   * `projects//locations//agents//environments//sessions/`. If `Environment ID`
+   * is not specified, we assume default 'draft' environment.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The maximum number of items to return in a single
+   * page. By default 100 and at most 1000.
+   * @opt_param string pageToken The next_page_token value returned from a
+   * previous list request.
+   * @return GoogleCloudDialogflowCxV3ListSessionEntityTypesResponse
+   */
+  public function listProjectsLocationsAgentsEnvironmentsSessionsEntityTypes($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleCloudDialogflowCxV3ListSessionEntityTypesResponse::class);
+  }
+  /**
+   * Updates the specified session entity type. (entityTypes.patch)
+   *
+   * @param string $name Required. The unique identifier of the session entity
+   * type. Format: `projects//locations//agents//sessions//entityTypes/` or
+   * `projects//locations//agents//environments//sessions//entityTypes/`. If
+   * `Environment ID` is not specified, we assume default 'draft' environment.
+   * @param GoogleCloudDialogflowCxV3SessionEntityType $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask The mask to control which fields get updated.
+   * @return GoogleCloudDialogflowCxV3SessionEntityType
+   */
+  public function patch($name, GoogleCloudDialogflowCxV3SessionEntityType $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], GoogleCloudDialogflowCxV3SessionEntityType::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsAgentsEnvironmentsSessionsEntityTypes::class, 'Google_Service_Dialogflow_Resource_ProjectsLocationsAgentsEnvironmentsSessionsEntityTypes');

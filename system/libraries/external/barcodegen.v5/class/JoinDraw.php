@@ -1,101 +1,194 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+<?php
+/**
+ *--------------------------------------------------------------------
+ *
+ * Enable to join 2 BCGDrawing or 2 image object to make only one image.
+ * There are some options for alignment.
+ *
+ *--------------------------------------------------------------------
+ * Copyright (C) Jean-Sebastien Goupil
+ * http://www.barcodephp.com
+ */
+class JoinDraw {
+    const ALIGN_RIGHT       = 0;
+    const ALIGN_BOTTOM      = 0;
+    const ALIGN_LEFT        = 1;
+    const ALIGN_TOP         = 1;
+    const ALIGN_CENTER      = 2;
+
+    const POSITION_RIGHT    = 0;
+    const POSITION_BOTTOM   = 1;
+    const POSITION_LEFT     = 2;
+    const POSITION_TOP      = 3;
+
+    private $image1;
+    private $image2;
+    private $alignement;
+    private $position;
+    private $space;
+    private $im;
+
+    /**
+     * Construct the JoinDrawing Object.
+     *  - $image1 and $image2 have to be BCGDrawing object or image object.
+     *  - $space is the space between the two graphics in pixel.
+     *  - $position is the position of the $image2 depending the $image1.
+     *  - $alignment is the alignment of the $image2 if this one is smaller than $image1;
+     *    if $image2 is bigger than $image1, the $image1 will be positionned on the opposite side specified.
+     *
+     * @param mixed $image1
+     * @param mixed $image2
+     * @param BCGColor $background
+     * @param int $space
+     * @param int $position
+     * @param int $alignment
+     */
+    public function __construct($image1, $image2, $background, $space = 10, $position = self::POSITION_RIGHT, $alignment = self::ALIGN_TOP) {
+        if ($image1 instanceof BCGDrawing) {
+            $this->image1 = $image1->get_im();
+        } else {
+            $this->image1 = $image1;
+        }
+        if ($image2 instanceof BCGDrawing) {
+            $this->image2 = $image2->get_im();
+        } else {
+            $this->image2 = $image2;
+        }
+
+        $this->background = $background;
+        $this->space = (int)$space;
+        $this->position = (int)$position;
+        $this->alignment = (int)$alignment;
+
+        $this->createIm();
+    }
+
+    /**
+     * Destroys the image.
+     */
+    public function __destruct() {
+        imagedestroy($this->im);
+    }
+
+    /**
+     * Finds the position where the barcode should be aligned.
+     *
+     * @param int $size1
+     * @param int $size2
+     * @param int $ailgnment
+     * @return int
+     */
+    private function findPosition($size1, $size2, $alignment) {
+        $rsize1 = max($size1, $size2);
+        $rsize2 = min($size1, $size2);
+
+        if ($alignment === self::ALIGN_LEFT) { // Or TOP
+            return 0;
+        } elseif ($alignment === self::ALIGN_CENTER) {
+            return $rsize1 / 2 - $rsize2 / 2;
+        } else { // RIGHT or TOP
+            return $rsize1 - $rsize2;
+        }
+    }
+
+    /**
+     * Change the alignments.
+     *
+     * @param int $alignment
+     * @return int
+     */
+    private function changeAlignment($alignment) {
+        if ($alignment === 0) {
+            return 1;
+        } elseif ($alignment === 1) {
+            return 0;
+        } else {
+            return 2;
+        }
+    }
+
+    /**
+     * Creates the image.
+     */
+    private function createIm() {
+        $w1 = imagesx($this->image1);
+        $w2 = imagesx($this->image2);
+        $h1 = imagesy($this->image1);
+        $h2 = imagesy($this->image2);
+
+        if ($this->position === self::POSITION_LEFT || $this->position === self::POSITION_RIGHT) {
+            $w = $w1 + $w2 + $this->space;
+            $h = max($h1, $h2);
+        } else {
+            $w = max($w1, $w2);
+            $h = $h1 + $h2 + $this->space;
+        }
+
+        $this->im = imagecreatetruecolor($w, $h);
+        imagefill($this->im, 0, 0, $this->background->allocate($this->im));
+
+        // We start defining position of images
+        if ($this->position === self::POSITION_TOP) {
+            if ($w1 > $w2) {
+                $posX1 = 0;
+                $posX2 = $this->findPosition($w1, $w2, $this->alignment);
+            } else {
+                $a = $this->changeAlignment($this->alignment);
+                $posX1 = $this->findPosition($w1, $w2, $a);
+                $posX2 = 0;
+            }
+
+            $posY2 = 0;
+            $posY1 = $h2 + $this->space;
+        } elseif ($this->position === self::POSITION_LEFT) {
+            if ($w1 > $w2) {
+                $posY1 = 0;
+                $posY2 = $this->findPosition($h1, $h2, $this->alignment);
+            } else {
+                $a = $this->changeAlignment($this->alignment);
+                $posY2 = 0;
+                $posY1 = $this->findPosition($h1, $h2, $a);
+            }
+
+            $posX2 = 0;
+            $posX1 = $w2 + $this->space;
+        } elseif ($this->position === self::POSITION_BOTTOM) {
+            if ($w1 > $w2) {
+                $posX2 = $this->findPosition($w1, $w2, $this->alignment);
+                $posX1 = 0;
+            } else {
+                $a = $this->changeAlignment($this->alignment);
+                $posX2 = 0;
+                $posX1 = $this->findPosition($w1, $w2, $a);
+            }
+
+            $posY1 = 0;
+            $posY2 = $h1 + $this->space;
+        } else { // defaults to RIGHT
+            if ($w1 > $w2) {
+                $posY2 = $this->findPosition($h1, $h2, $this->alignment);
+                $posY1 = 0;
+            } else {
+                $a = $this->changeAlignment($this->alignment);
+                $posY2 = 0;
+                $posY1 = $this->findPosition($h1, $h2, $a);
+            }
+
+            $posX1 = 0;
+            $posX2 = $w1 + $this->space;
+        }
+
+        imagecopy($this->im, $this->image1, $posX1, $posY1, 0, 0, $w1, $h1);
+        imagecopy($this->im, $this->image2, $posX2, $posY2, 0, 0, $w2, $h2);
+    }
+
+    /**
+     * Returns the new $im created.
+     *
+     * @return resource
+     */
+    public function get_im() {
+        return $this->im;
+    }
+}
 ?>
-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

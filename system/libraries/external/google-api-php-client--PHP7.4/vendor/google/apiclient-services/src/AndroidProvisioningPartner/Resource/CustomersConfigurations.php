@@ -1,72 +1,121 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-ltx+
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AndroidProvisioningPartner\Resource;
+
+use Google\Service\AndroidProvisioningPartner\AndroiddeviceprovisioningEmpty;
+use Google\Service\AndroidProvisioningPartner\Configuration;
+use Google\Service\AndroidProvisioningPartner\CustomerListConfigurationsResponse;
+
+/**
+ * The "configurations" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $androiddeviceprovisioningService = new Google\Service\AndroidProvisioningPartner(...);
+ *   $configurations = $androiddeviceprovisioningService->configurations;
+ *  </code>
+ */
+class CustomersConfigurations extends \Google\Service\Resource
+{
+  /**
+   * Creates a new configuration. Once created, a customer can apply the
+   * configuration to devices. (configurations.create)
+   *
+   * @param string $parent Required. The customer that manages the configuration.
+   * An API resource name in the format `customers/[CUSTOMER_ID]`.
+   * @param Configuration $postBody
+   * @param array $optParams Optional parameters.
+   * @return Configuration
+   */
+  public function create($parent, Configuration $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Configuration::class);
+  }
+  /**
+   * Deletes an unused configuration. The API call fails if the customer has
+   * devices with the configuration applied. (configurations.delete)
+   *
+   * @param string $name Required. The configuration to delete. An API resource
+   * name in the format
+   * `customers/[CUSTOMER_ID]/configurations/[CONFIGURATION_ID]`. If the
+   * configuration is applied to any devices, the API call fails.
+   * @param array $optParams Optional parameters.
+   * @return AndroiddeviceprovisioningEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], AndroiddeviceprovisioningEmpty::class);
+  }
+  /**
+   * Gets the details of a configuration. (configurations.get)
+   *
+   * @param string $name Required. The configuration to get. An API resource name
+   * in the format `customers/[CUSTOMER_ID]/configurations/[CONFIGURATION_ID]`.
+   * @param array $optParams Optional parameters.
+   * @return Configuration
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Configuration::class);
+  }
+  /**
+   * Lists a customer's configurations.
+   * (configurations.listCustomersConfigurations)
+   *
+   * @param string $parent Required. The customer that manages the listed
+   * configurations. An API resource name in the format `customers/[CUSTOMER_ID]`.
+   * @param array $optParams Optional parameters.
+   * @return CustomerListConfigurationsResponse
+   */
+  public function listCustomersConfigurations($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], CustomerListConfigurationsResponse::class);
+  }
+  /**
+   * Updates a configuration's field values. (configurations.patch)
+   *
+   * @param string $name Output only. The API resource name in the format
+   * `customers/[CUSTOMER_ID]/configurations/[CONFIGURATION_ID]`. Assigned by the
+   * server.
+   * @param Configuration $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. The field mask applied to the target
+   * `Configuration` before updating the fields. To learn more about using field
+   * masks, read [FieldMask](/protocol-
+   * buffers/docs/reference/google.protobuf#fieldmask) in the Protocol Buffers
+   * documentation.
+   * @return Configuration
+   */
+  public function patch($name, Configuration $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Configuration::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(CustomersConfigurations::class, 'Google_Service_AndroidProvisioningPartner_Resource_CustomersConfigurations');

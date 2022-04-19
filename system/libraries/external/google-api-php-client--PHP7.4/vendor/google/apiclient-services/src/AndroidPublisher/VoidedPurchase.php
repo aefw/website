@@ -1,67 +1,89 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-vMaOisvB+zXbeUqgmUy=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AndroidPublisher;
+
+class VoidedPurchase extends \Google\Model
+{
+  public $kind;
+  public $orderId;
+  public $purchaseTimeMillis;
+  public $purchaseToken;
+  public $voidedReason;
+  public $voidedSource;
+  public $voidedTimeMillis;
+
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setOrderId($orderId)
+  {
+    $this->orderId = $orderId;
+  }
+  public function getOrderId()
+  {
+    return $this->orderId;
+  }
+  public function setPurchaseTimeMillis($purchaseTimeMillis)
+  {
+    $this->purchaseTimeMillis = $purchaseTimeMillis;
+  }
+  public function getPurchaseTimeMillis()
+  {
+    return $this->purchaseTimeMillis;
+  }
+  public function setPurchaseToken($purchaseToken)
+  {
+    $this->purchaseToken = $purchaseToken;
+  }
+  public function getPurchaseToken()
+  {
+    return $this->purchaseToken;
+  }
+  public function setVoidedReason($voidedReason)
+  {
+    $this->voidedReason = $voidedReason;
+  }
+  public function getVoidedReason()
+  {
+    return $this->voidedReason;
+  }
+  public function setVoidedSource($voidedSource)
+  {
+    $this->voidedSource = $voidedSource;
+  }
+  public function getVoidedSource()
+  {
+    return $this->voidedSource;
+  }
+  public function setVoidedTimeMillis($voidedTimeMillis)
+  {
+    $this->voidedTimeMillis = $voidedTimeMillis;
+  }
+  public function getVoidedTimeMillis()
+  {
+    return $this->voidedTimeMillis;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(VoidedPurchase::class, 'Google_Service_AndroidPublisher_VoidedPurchase');

@@ -1,78 +1,116 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DataLabeling;
+
+class GoogleCloudDatalabelingV1beta1ConfidenceMetricsEntry extends \Google\Model
+{
+  public $confidenceThreshold;
+  public $f1Score;
+  public $f1ScoreAt1;
+  public $f1ScoreAt5;
+  public $precision;
+  public $precisionAt1;
+  public $precisionAt5;
+  public $recall;
+  public $recallAt1;
+  public $recallAt5;
+
+  public function setConfidenceThreshold($confidenceThreshold)
+  {
+    $this->confidenceThreshold = $confidenceThreshold;
+  }
+  public function getConfidenceThreshold()
+  {
+    return $this->confidenceThreshold;
+  }
+  public function setF1Score($f1Score)
+  {
+    $this->f1Score = $f1Score;
+  }
+  public function getF1Score()
+  {
+    return $this->f1Score;
+  }
+  public function setF1ScoreAt1($f1ScoreAt1)
+  {
+    $this->f1ScoreAt1 = $f1ScoreAt1;
+  }
+  public function getF1ScoreAt1()
+  {
+    return $this->f1ScoreAt1;
+  }
+  public function setF1ScoreAt5($f1ScoreAt5)
+  {
+    $this->f1ScoreAt5 = $f1ScoreAt5;
+  }
+  public function getF1ScoreAt5()
+  {
+    return $this->f1ScoreAt5;
+  }
+  public function setPrecision($precision)
+  {
+    $this->precision = $precision;
+  }
+  public function getPrecision()
+  {
+    return $this->precision;
+  }
+  public function setPrecisionAt1($precisionAt1)
+  {
+    $this->precisionAt1 = $precisionAt1;
+  }
+  public function getPrecisionAt1()
+  {
+    return $this->precisionAt1;
+  }
+  public function setPrecisionAt5($precisionAt5)
+  {
+    $this->precisionAt5 = $precisionAt5;
+  }
+  public function getPrecisionAt5()
+  {
+    return $this->precisionAt5;
+  }
+  public function setRecall($recall)
+  {
+    $this->recall = $recall;
+  }
+  public function getRecall()
+  {
+    return $this->recall;
+  }
+  public function setRecallAt1($recallAt1)
+  {
+    $this->recallAt1 = $recallAt1;
+  }
+  public function getRecallAt1()
+  {
+    return $this->recallAt1;
+  }
+  public function setRecallAt5($recallAt5)
+  {
+    $this->recallAt5 = $recallAt5;
+  }
+  public function getRecallAt5()
+  {
+    return $this->recallAt5;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudDatalabelingV1beta1ConfidenceMetricsEntry::class, 'Google_Service_DataLabeling_GoogleCloudDatalabelingV1beta1ConfidenceMetricsEntry');

@@ -1,72 +1,27 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/**
+ * Persian/Farsi PHPMailer language file: refer to English translation for definitive list
+ * @package PHPMailer
+ * @author Ali Jazayeri <jaza.ali@gmail.com>
+ * @author Mohammad Hossein Mojtahedi <mhm5000@gmail.com>
+ */
+
+$PHPMAILER_LANG['authenticate']         = 'خطای SMTP: احراز هویت با شکست مواجه شد.';
+$PHPMAILER_LANG['connect_host']         = 'خطای SMTP: اتصال به سرور SMTP برقرار نشد.';
+$PHPMAILER_LANG['data_not_accepted']    = 'خطای SMTP: داده‌ها نا‌درست هستند.';
+$PHPMAILER_LANG['empty_message']        = 'بخش متن پیام خالی است.';
+$PHPMAILER_LANG['encoding']             = 'کد‌گذاری نا‌شناخته: ';
+$PHPMAILER_LANG['execute']              = 'امکان اجرا وجود ندارد: ';
+$PHPMAILER_LANG['file_access']          = 'امکان دسترسی به فایل وجود ندارد: ';
+$PHPMAILER_LANG['file_open']            = 'خطای File: امکان بازکردن فایل وجود ندارد: ';
+$PHPMAILER_LANG['from_failed']          = 'آدرس فرستنده اشتباه است: ';
+$PHPMAILER_LANG['instantiate']          = 'امکان معرفی تابع ایمیل وجود ندارد.';
+$PHPMAILER_LANG['invalid_address']      = 'آدرس ایمیل معتبر نیست: ';
+$PHPMAILER_LANG['mailer_not_supported'] = ' mailer پشتیبانی نمی‌شود.';
+$PHPMAILER_LANG['provide_address']      = 'باید حداقل یک آدرس گیرنده وارد کنید.';
+$PHPMAILER_LANG['recipients_failed']    = 'خطای SMTP: ارسال به آدرس گیرنده با خطا مواجه شد: ';
+$PHPMAILER_LANG['signing']              = 'خطا در امضا: ';
+$PHPMAILER_LANG['smtp_connect_failed']  = 'خطا در اتصال به SMTP.';
+$PHPMAILER_LANG['smtp_error']           = 'خطا در SMTP Server: ';
+$PHPMAILER_LANG['variable_set']         = 'امکان ارسال یا ارسال مجدد متغیر‌ها وجود ندارد: ';
+$PHPMAILER_LANG['extension_missing']    = 'افزونه موجود نیست: ';

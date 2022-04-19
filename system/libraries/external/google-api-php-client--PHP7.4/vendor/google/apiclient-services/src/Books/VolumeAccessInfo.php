@@ -1,99 +1,173 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Books;
+
+class VolumeAccessInfo extends \Google\Model
+{
+  public $accessViewStatus;
+  public $country;
+  protected $downloadAccessType = DownloadAccessRestriction::class;
+  protected $downloadAccessDataType = '';
+  public $driveImportedContentLink;
+  public $embeddable;
+  protected $epubType = VolumeAccessInfoEpub::class;
+  protected $epubDataType = '';
+  public $explicitOfflineLicenseManagement;
+  protected $pdfType = VolumeAccessInfoPdf::class;
+  protected $pdfDataType = '';
+  public $publicDomain;
+  public $quoteSharingAllowed;
+  public $textToSpeechPermission;
+  public $viewOrderUrl;
+  public $viewability;
+  public $webReaderLink;
+
+  public function setAccessViewStatus($accessViewStatus)
+  {
+    $this->accessViewStatus = $accessViewStatus;
+  }
+  public function getAccessViewStatus()
+  {
+    return $this->accessViewStatus;
+  }
+  public function setCountry($country)
+  {
+    $this->country = $country;
+  }
+  public function getCountry()
+  {
+    return $this->country;
+  }
+  /**
+   * @param DownloadAccessRestriction
+   */
+  public function setDownloadAccess(DownloadAccessRestriction $downloadAccess)
+  {
+    $this->downloadAccess = $downloadAccess;
+  }
+  /**
+   * @return DownloadAccessRestriction
+   */
+  public function getDownloadAccess()
+  {
+    return $this->downloadAccess;
+  }
+  public function setDriveImportedContentLink($driveImportedContentLink)
+  {
+    $this->driveImportedContentLink = $driveImportedContentLink;
+  }
+  public function getDriveImportedContentLink()
+  {
+    return $this->driveImportedContentLink;
+  }
+  public function setEmbeddable($embeddable)
+  {
+    $this->embeddable = $embeddable;
+  }
+  public function getEmbeddable()
+  {
+    return $this->embeddable;
+  }
+  /**
+   * @param VolumeAccessInfoEpub
+   */
+  public function setEpub(VolumeAccessInfoEpub $epub)
+  {
+    $this->epub = $epub;
+  }
+  /**
+   * @return VolumeAccessInfoEpub
+   */
+  public function getEpub()
+  {
+    return $this->epub;
+  }
+  public function setExplicitOfflineLicenseManagement($explicitOfflineLicenseManagement)
+  {
+    $this->explicitOfflineLicenseManagement = $explicitOfflineLicenseManagement;
+  }
+  public function getExplicitOfflineLicenseManagement()
+  {
+    return $this->explicitOfflineLicenseManagement;
+  }
+  /**
+   * @param VolumeAccessInfoPdf
+   */
+  public function setPdf(VolumeAccessInfoPdf $pdf)
+  {
+    $this->pdf = $pdf;
+  }
+  /**
+   * @return VolumeAccessInfoPdf
+   */
+  public function getPdf()
+  {
+    return $this->pdf;
+  }
+  public function setPublicDomain($publicDomain)
+  {
+    $this->publicDomain = $publicDomain;
+  }
+  public function getPublicDomain()
+  {
+    return $this->publicDomain;
+  }
+  public function setQuoteSharingAllowed($quoteSharingAllowed)
+  {
+    $this->quoteSharingAllowed = $quoteSharingAllowed;
+  }
+  public function getQuoteSharingAllowed()
+  {
+    return $this->quoteSharingAllowed;
+  }
+  public function setTextToSpeechPermission($textToSpeechPermission)
+  {
+    $this->textToSpeechPermission = $textToSpeechPermission;
+  }
+  public function getTextToSpeechPermission()
+  {
+    return $this->textToSpeechPermission;
+  }
+  public function setViewOrderUrl($viewOrderUrl)
+  {
+    $this->viewOrderUrl = $viewOrderUrl;
+  }
+  public function getViewOrderUrl()
+  {
+    return $this->viewOrderUrl;
+  }
+  public function setViewability($viewability)
+  {
+    $this->viewability = $viewability;
+  }
+  public function getViewability()
+  {
+    return $this->viewability;
+  }
+  public function setWebReaderLink($webReaderLink)
+  {
+    $this->webReaderLink = $webReaderLink;
+  }
+  public function getWebReaderLink()
+  {
+    return $this->webReaderLink;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(VolumeAccessInfo::class, 'Google_Service_Books_VolumeAccessInfo');

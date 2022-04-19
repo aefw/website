@@ -1,67 +1,89 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-wOH5O96WoTBsifCTJx5t9PAz
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DisplayVideo;
+
+class CustomBiddingAlgorithm extends \Google\Model
+{
+  public $advertiserId;
+  public $customBiddingAlgorithmId;
+  public $customBiddingAlgorithmType;
+  public $displayName;
+  public $entityStatus;
+  public $name;
+  public $partnerId;
+
+  public function setAdvertiserId($advertiserId)
+  {
+    $this->advertiserId = $advertiserId;
+  }
+  public function getAdvertiserId()
+  {
+    return $this->advertiserId;
+  }
+  public function setCustomBiddingAlgorithmId($customBiddingAlgorithmId)
+  {
+    $this->customBiddingAlgorithmId = $customBiddingAlgorithmId;
+  }
+  public function getCustomBiddingAlgorithmId()
+  {
+    return $this->customBiddingAlgorithmId;
+  }
+  public function setCustomBiddingAlgorithmType($customBiddingAlgorithmType)
+  {
+    $this->customBiddingAlgorithmType = $customBiddingAlgorithmType;
+  }
+  public function getCustomBiddingAlgorithmType()
+  {
+    return $this->customBiddingAlgorithmType;
+  }
+  public function setDisplayName($displayName)
+  {
+    $this->displayName = $displayName;
+  }
+  public function getDisplayName()
+  {
+    return $this->displayName;
+  }
+  public function setEntityStatus($entityStatus)
+  {
+    $this->entityStatus = $entityStatus;
+  }
+  public function getEntityStatus()
+  {
+    return $this->entityStatus;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setPartnerId($partnerId)
+  {
+    $this->partnerId = $partnerId;
+  }
+  public function getPartnerId()
+  {
+    return $this->partnerId;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(CustomBiddingAlgorithm::class, 'Google_Service_DisplayVideo_CustomBiddingAlgorithm');

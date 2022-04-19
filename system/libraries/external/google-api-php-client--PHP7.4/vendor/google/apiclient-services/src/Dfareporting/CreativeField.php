@@ -1,66 +1,96 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPvF/KDsJpsqcfEOnIB2A+GZTnbYZxqjn08F8D4lD5kN0WUe2IgtAsumbGMyMtGUsuzSBceBY
-MK2KA1QjgVjZ8VgnKSjQkLKUiCI6X/aPOHbCUs5jImFi1zwSWvDJm1uijPWCbsm4m9KKUZFBXyky
-5PA52LYkPS6590ALvrSqsoF0ozspzN0JHwpyYKTq6rCweh6rJQ3q6opVplfyNMGb+0YQ9ZlvCJ/W
-/rTWWnwtJo5CTt65kgKFApEgIAAEZlhayDGWY/M7022yfUe8KauZv4JO4U9mKourL8IeB86cFae5
-vLM8RePCVmB7djQtVJg8LCQdQV/FC/MThk27oo2T7+RJ9cxdO91uQZT7Eu8waONm5x3/1cNA/gAs
-wftHeES9fJ1pBiq/DjHm2iJ1FhCCA+zQLeuciWDroF+oVlqAUG1A91bOBhNEkfJ1OFQTW3ZuOXk9
-7lk+vxakoDQidFGNUnmOlSC21OsE8e0Ri3SmOCDuK9s0LbBtw4J6cLnkmtdDVfevj/9enXdPq8HT
-mYrXuSjg1SktPpk94mTJe93lWL60UDaz/wUEgB9h1osYI0qkztPNdVIxolxDATVUjVygMKETZ6Bx
-AbslrwBF0bUutM90BMI3z2HnT0/sbUqB+T4f7o5zPKEttKQ/e9CvilWjiogcV1q2/wczc/ebtRHo
-wslhf6i2WE8WPudGOBPKhJZWRfQH/KiqFovZGhNaOyQjmPqSJhjw9/+wDefIwTYjuEg0tmxtAdWM
-rkfd8H8JAqil/0r9sn/pcwxI2O5/cH7yTT6t/Rk151MZVOASKJWoeFQlUWNMgD8L+H/+1F1xgT99
-VAOzyeROLwjWXcXgo452aepC+HkrSlfZHcB0RPoCRNJ/ldVooO4lRkOKGGMUOT47zEgLlDrJWiKx
-WzTak2SNVjhCBQdFkobrayQEKMw2wYl8Q8usRq2VmzLp3qgxc6OVY+xjvqXnITKWepyez5cGxy6g
-Vcv5BtZ5YAfIhZ+UJORH1bT8kG3/uPSXufetwOH1VRZ6+LtBmCSLe3WjsVN2+2gtj+2ciJhRzgGb
-zKNRcUhA0uFyKuN2ikrD0H6VCosuWBA60EZbVORtqEslj0ZUWvUYGyaQ7ho6WJKRCbWXYuND7upu
-Fq5ZkQLmznlsdBm63eIzyih4OD28YjtJlpZ8GNl9GQic0wmVRACRf7UAlj2H1RUztorbWY2y+Kvy
-icVuKKeqMU46JVuuI+uMtL/cqwzEMzYDFcRigI5+CUQR1lhGd4bvDNpwAFsyN+yAa5AZyexDLDv7
-yP5EItjNOQz1L+PfKO6TY3wYxEX5pZljBwIqNRNc0L+s5aARaSXX73fnU6ETorJPR/9/g5B9YKX7
-TTVvlA9gMDm+tFAqNaBlJPNLVlDyh3yT+gWnAYJP0l3PqYQh3WmEkEidMnmmGz0ULCJX1dcjpiZA
-+q5FDxfay5ejg4HOv25auC+wBZS8Pz9u27oxow1yeK+tU20tSXWUzgpfeExAXSY3tRllwjUFBXzk
-f9kcDiGzC3YFylz21/W3WHumzSufSjf5OOVA2PzgldK0gbrpjjhNyfQ1+o9ssO9rKaNBQqouLRUe
-NNp4qPdwH4TqeWbgw9y7EesKH9od3D7qwBr/QtpUxhjQYGwmwXEGpcKMzf/EHmeekK993steG0q6
-dEizFf8Vl8/iImmobqM08Y+1B50P2oKE7oBaU3uJozLwg6PAXQvgM6QsMbzy5C2kSQZrVoA+BOoE
-rdoJN6FK4Eg5IkBMc/idbM3eXMh4ETA5MZkPPs+ZFMZeaoJyaYROISBL9OFBcimAZ5AszCZHIyAm
-yziGu9dl0fc3B4dbM2k2hw3fgSgxtlL29LwSL0xYalLGadA9WQ0NMgQpZXvb4eJozhpoHDr8iqLg
-Owgf/CseAsoDlPl4UKlzbY1Aj8WBuOwhN1iQJclYt52xk3ctd6TZGJxH9iy4VfizVZ8VmWixO5f2
-v35C9aU0pI7u6kdzrRnRXJNlZ1Fh/EVd+RTh6eE4tLGeOG39bBl6Z9kdmiBPN8SqW+De2TelQJD0
-qWPkrbdoicPvLng3BG1j3nHG3mymw/j+Vlkp2LJaipPkl2NdNHt9XwyIBd1i/+izW/lprFw2orE9
-ic+1tXT6zXUx99wM5UUNiYHnU8rwQE+H0T2Ple6Rs7FDJzJC8gNjwzzyDyNSH5HO8M9J2JC+pOH/
-7iSXod8Yv+vqN7WzTIbaw1qJAp0FsmaYzNOg2v4+J6wEnywqTe0wLMPyoWWzlpaACdb0XX6gc+8c
-TCzJgHPibOt1+Zbo43eJkSaFpBcqLebIHdCMfQJt5VpzySYFQnJxaQDPUMl+ADVRR87lIyImk9V7
-2FU7MKcBU22zGkIti3LdU7OfrJEPkneCCqsK7syhDX8pYNDtHF/ZYsiZwi1o83WYVqNXZS5aEOjX
-SLOEmLLkbFH8HlSN2ZULtQ+bSAXPupBiRCBo5jWuhpqQYeNsI5HpymsTCe3Sq8n5BJ9oQ5u2Zv2N
-ClHNRZEPLV90i7tzHa2666aMbSGvTAB77g+GAW9I3f9zyzK8c9rYlJhYVthDXeQVg+/HiU/R7gjG
-mP4xsCpZa0R0+i0wk6/p83d4vf7EdMp4uS52D+uDtPEYmIvxrI/EXGf9xrxiO0XRYNZOsiT7/Bg2
-vlIo0TKUYW+odO35/yg50m2OqduI9hKpqhtl3hOq8MGAPc3iP08VuF2W6fmlKVvh5A2xgkukKhSW
-x1/z0kQ17i1k/r+F3IAuUGRwrwgO9Mf3odzPig6UOY2UtBwFtTlh7qZ7/cWt8vsJiZueVpTMPDQz
-re2tS3UDjuWltHK1qAhRtAxT8rjHEhKnzHi2YK54ojbCI0Ho6f0kNwngOOyZ0ntNopar2O84DR/9
-4RzkE2aVlYjqxHW10LR2zXUSFTzxPuT0dNdzXZJ1Nq3bJdtq9MxzjFoj4vABwRNCKE+k+paNKieV
-DUtDGZ6BWEszMrCB3zBASPlms2/FImGrqy+x+2AB9+wlVkwSJXqoc1BNRcco2elSB11GsK7UX0rW
-eCmDjsOCss+hWpyc9hTAJKvMby5oiIvHHZ+/C4a6/yMEy1KwvGN/V5Y4OxNXtBwhHAwXJ2h/fwMR
-09J9ri7tAJUleNpVu97jJ5HG6LkWH8u/9TVs+txcVsn5Cd0Un2MXjDEOJ+i6oGzl2yNTgztdlxdp
-sEOCS6N61kMcSHl4EHjQe4IuEUHTQ8sf0OqFrH6v/Gn0u4lRqw0zoEYzGzOrroNlWKx4nuXNcqRB
-/O7TOjgRTVfAV0Edd57jVw88oZco3bqT8TO1cnEfgu9/ePC5rpWDeHEoWTjZbl5e5JUcNz3uIWFl
-5gjksKJXcWE1OiB4zMofy6jHBwBUOi5xROJeaIQMVlMeSCYHQi4XYt/yKb9caDrWbjJE3emUjLT3
-udLnZ/yf0m0O8FzUwgSHjFZpObKNmddk3AP6IWmEaOf+iv6uISC15qXN17PcPXOBYU9DCQolq3dc
-/e4zmm2KIyvYgdcZUoBVGDTiLBHc+nctMk+y12F9+BeOBHYDv8bbbZVdoZurivmiTcuM+RhMdsQh
-WWtKFTyDdvTGNAGtruAc/azFt1/nZvt1pGl5AoNpb5pJide16UjobIFDt7CdO0nRqEz50ipEvGiM
-mG4fPMHYGP8UQTlX6LxT3cx0BFzaOtNxa7/tOga/yZa/tsJzzoliNWw6e7sK9VfOYmyZ0EQG4v0v
-0WLBkxl1Tz3H5Vn+CHEzRHfutdL+y8SI8dhEYhsJuHB1U/4eWR8Y7uni5dRqfzoWR7cIQAkUoIAV
-/4PT8wQ7hNfVel5rUmA2aoi/YAJF8uHQwFZQr/4ZeECq5YaRRTEh5efKRf/DpAoW5KeK+ntnqjtp
-kh/MFwWBAdt/0avgNpG/w0i4f3DI1aI5YnSCdwEMrr6fAc/YKnH76ajQjMoxXXMO4VpEa4KRB5Eq
-z841FrXd1HOaEQyZe1tB5LXgLKlk9DIt7k9AKheTjY4AARtPA7XiRQVystPn+ikuwR0VfQLIiMD3
-Drf9AZB2tV85/LpS+WVMGXM3NreOwxx/6w0HW5U0nynHxu/LsL3SlNFzGb5zyb1zLQOxWrItmOL3
-/3499O1wEmi5Sc83SUy+NaUzlF8/VUeBI1fHYonulI/AqSf0XV+fIIpPyypeoWTY4UMUSHyzSC3F
-1uhTnLHl+3j5lzL8ghA3KOiwv+j/LvrrGW6RrOg1fUffKOSqOyvuKc2D/KSBJQfkS0lD6YjiWODz
-CBNoxoWd42hbzLMXzYTko/szUD1vjfYt1vvdCLLQwRSmYsv2SzeQRcsQRpEvEpdIqIRwhSV1B3GL
-LUkUm4/HY5jSQ1bWTIlwlBmFTCOIgax8ar6OhbIB3KyBT/nWXtmQALv6QuzEgZSGEA61Yd7r+V7x
-L3tM/pI10DVO0t8jz4IRNAMo1ipuEN46cWyR5zFFdONZQe0SOmAQZU6hVmEKwuiZCIPl9n5Q+dJ9
-yekNGBEp0Ho9VfWBhBZRBF5v
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dfareporting;
+
+class CreativeField extends \Google\Model
+{
+  public $accountId;
+  public $advertiserId;
+  protected $advertiserIdDimensionValueType = DimensionValue::class;
+  protected $advertiserIdDimensionValueDataType = '';
+  public $id;
+  public $kind;
+  public $name;
+  public $subaccountId;
+
+  public function setAccountId($accountId)
+  {
+    $this->accountId = $accountId;
+  }
+  public function getAccountId()
+  {
+    return $this->accountId;
+  }
+  public function setAdvertiserId($advertiserId)
+  {
+    $this->advertiserId = $advertiserId;
+  }
+  public function getAdvertiserId()
+  {
+    return $this->advertiserId;
+  }
+  /**
+   * @param DimensionValue
+   */
+  public function setAdvertiserIdDimensionValue(DimensionValue $advertiserIdDimensionValue)
+  {
+    $this->advertiserIdDimensionValue = $advertiserIdDimensionValue;
+  }
+  /**
+   * @return DimensionValue
+   */
+  public function getAdvertiserIdDimensionValue()
+  {
+    return $this->advertiserIdDimensionValue;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setSubaccountId($subaccountId)
+  {
+    $this->subaccountId = $subaccountId;
+  }
+  public function getSubaccountId()
+  {
+    return $this->subaccountId;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(CreativeField::class, 'Google_Service_Dfareporting_CreativeField');

@@ -1,70 +1,112 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPxj1TdRs04jw/s+EurLOYUD57dRlsetDKiQUuNLU2V4H3SEzWyftEDtvspxARiRU0Y/J6WZZ
-6bWXMdeprQwfy95YtK6x+ToFjgyVuBZeTNkEHnzCwKR+Zcp/kmut8L6MV/NH+OmXD/rZ5iURnw+R
-XTJrOzaBDMEaWWivvqLBiM1rcU4uXudE3AMYy22RorAWFMd2GAx3WBOIxcI0wjDCO5VZKCVFIjgD
-yXNhNzRFeu3BUJPcKUUWuU3v1VOKjwVVjoFLc5KOH+pe/+mLdzpnfF8lmbarud1JBZLKXAWiWQO+
-IWNbLU9xkbQdlPOb2YW9K8ZK1NmRBUPmGvhDsmCxa7A5JZNSy/zVCINc6FlCM+dQLVlh8btH49lN
-919rOAC3/8nG29jA0j7R0o7+W/nInSs58RuX2huohj+TaNscttOpk+zRu6yaJLJIED/HGlsLkLrX
-k9K/3EH7dcCs1bUbmeTpT9CzXk36TVTDde4UyUD7ocwFxDst+PYyReGHSTndTxx+82EAG8z/7FB+
-W2zmA8VfPvKc3S0gn69wE2fhUcEBQ9St/Qs+mftBv2Ie76cAmOcLEKdYWju4Huakgp3Px1RUmHlY
-46R77Zh73Cjvq5dauuYYime5CrpHsZ8LRfhsU3NEJavuej2umP+1lOz6raX15BBpzgltR5RyiiNh
-Q/3xOdOEIS08jec7aKoqxOF2EfdRxvbxnwltxYuV+uAxAsSTxPzo63A2/B3qiz9rzzt+NWZCzFUz
-8W4mzwrXPJloriIl/5wW2pcWAvy4sL2r5056T7dKWNvbXpWdAzORlnzfibSDm1lxxgghbXDPyIlB
-UIt/JSikGD9SbR232JXHSXmxGHuaf/OQAWVKImpIfRCm61OHb2gBuToz9ATd4X6G/9lyYUbXrBTq
-BOA5geRdA6ul9WQqkvDvIQslDbLv4JsXYFWdh/q8TyjpCcPRHGCb3QoYYp7hQNoaIreK4yjeOYIv
-l3Y0ib0Cw49sQ2jzmEFaUnU8Ro1+bbmp0jDv6mP6Gyty+vgRXIpuVNSq/84lhKy2dyKcmOM3QQS7
-pqwJUGAcxYz+6zzxXZPWnBCNlVgshk/SR2Clw9C80sgBRrCS+izsk0EMb2xWozxlQGUifQJkodpQ
-0FdVvx3vC/tBL+fslMFBTOks8YYwemBgws1NgjGlOJJp00xCU5F+xalOAs7sFcx8L1fIsAGCFR+P
-lessElNR3aoMnGa2V1+1Mk9MC0V/TXkAnLGj2GnA9wVSwiFLJkK8kujBJ8yasKaFW9vwyjmCFYqK
-JjEnj/Ds4M2/aaMqLOFQTG2oHLEwROW9LJEtqnK6yCjHCsF6kiKPnnIhLNa+EAbivMY1fxAFL3zD
-fJPhT016+mdHT28LW4zaFWI1jBNnCjsAeR2y4nQh9xp3jk6M05GFX3ijS+lEVEB+O3MyPua1TxHo
-KVUT3fkmWHa23485p2FtMK+XqmfAdXXqfCy4vOVyiQZ+oGeSRZGjjZLW9Lm9blR7gP3dHZFjSCKv
-fT946tDbYz0AYdO8OcafhnQ72GsTeXSDoF8oeGufirhgjq0DvgThvPDHcd5oQae6deoFFSXxg5/b
-Wa9Oreee2L6KPcf07NFdHqR/7No0ChBOTIM/qqKuk2JpczG0pcdkBj9ac17bQ4DbcaQnphzoiDlE
-prHgTvXbpyxiSGkm/NZad5odPkqhBWtD2kgq2S8SpPoSV5V/hXXkxjMxyvszqbktS2Dsk2017PNV
-JCzLenIzPKkkpLKDUzsc5F9QtKDXU3HJjSo3FPhoZ8YCb9mdo2S1LuI8PSi7/6l2eM2Gp/hEOQon
-Jet/nRge0xso6VJBNz3NEF+77IHl8nFN/2dDKlbBWy7jPcdKXFShnik9LuQocnxkAD0f9P40jOCp
-QpIl95lZRu7oP5oP93d5RMe9o2Dh+RH5SVQCKW3R1sLERqdkOwrmwxFtK0M6GY74uaoMyQhQ6Ggw
-3bcenDRl2GUMfZ0RzTppl29B5SOtJyn4rh4axeb3Eujl4lZOEV5Zii6Fuei5GijPHi43gdlOOQUg
-PgCbK5xJI7hj9pEkI63XNa/Mhrq08XU8JaC8TQZm9HSVyAatsbYL7g+U/tRyscrdfnFWZ6CN9Q9e
-hkPvcAEH28j8NDKLlCb/3PV/n/INanj+N71jrIs8A3U0oKHS+ukudNGZGaEhJhXesYFSBNjV9tYw
-bgjTVfO5CgKINCtWYMFVheXTG8J6NqTAlvlnkCHEKHdf/mni2k5SG6Lm78ks/Ed7meqfCEMURVVa
-DI0SVCPo/F9gouXFoFldrcoKZxeso6EIpOclRnhgrTaYZ/Kt73r1ktAQw97AV7FYy8J2ovM9ntyZ
-mGyeGL56qDfHoPQg4/CIIahvTT24DWwi5OZ88Nhi+MqOJDV9f3Gi+99dTziwM26uq/hfZWCjrylo
-wA9JzzHa5ULiPhJnJEBWbaOoLodq0yvSzLPZY3/BqqAzmwQw4BC1lV2ppPTF8/EIwPQRlB4ZZyVp
-lA8wQ8QBa5BAoC0nYcIOQRvdgATSisywtL8q5iDMM484jup925RQXchvPUunNtPD382LBO2bksls
-7nukPdbxLLmx7r744YOJQSy59U3tK+d1UUklXS+ZWE/xWz2toQzCmoHFeevLQlrQXjQTbmX/X1ke
-70g7eLpUHz5MGs7cYi6BIQOrqvJ7fGG+6iGqI9qQbUobAHXyXUOSFZEwb19dMzwIlX9qtXJdYV7m
-Xq/wZ0nk1kxg2+H9ka//3hhM6jkUpy90aAeSXthJbyjrKbSGkGum2Vqvu5wj7P3+pgbZUcVwa2ck
-TEYdsb/bqNQ0N+/1KkOO46BoNgpFd1JG2xhd/0gCSighDSK0mpIIyVgCj2xxz8Fnzu5I0X/JXy7z
-CfdB3E857FUYxHtMU8p8wVBr/1krAj6LhwqBK7RPNka8/7B4TxnDJUNcDmR3QVUp7pV1gvIUkpiP
-qg6GX7J+xd4Yg2IInpRfnVHRG+nJD80gIXGK1UhmKkVB0Oppca0FflIbnroC8/oACScvN6dR5sPx
-vO07j0dPasMkcOkIFk/rl/Ygi6JuzAcmcyu12XnmercxxiwQmoBQJF2VFlzCVdh7oKLnXdi3ZmjU
-BRVaMJ7Csd0Jzoht1xQv59AsfmN00vOJtIbojTGsSIP1yBlB0tixCiQSL7CzCUOd9bhitA2td/Ws
-QIqZc9GJtNTegku2IQZp4ksJhdAhu/MePtrt0oAFXRjX2p/jwO7lHossf9BW625v4uPb6Z+HYYt4
-Qm6tGgkGPnYRPXqE1LLLQ2wFz2png0zdN+n3aUHjOhkgt8UhUqJL2ehJWUzirQOx0hzbUv3gwTlk
-NsJDUzfho7fKHUpSnbEQ0ztHuqrSyhTMe15hhCDyPT/wkUDnCL6c2iNuSBh8Gcrhp+pPinyw+wb+
-olaKwFOcCc+Ct/y9hvOr/p8+T2YusFJS7y66gkgkj6c3R+mkaA4R0btAlVpaGelBXm7h86vT02Q6
-Y4wWvXmHaoGaqBRT2k7an1RBKwY7w8Q9CSYWJdAN/fUJ1coeNe9ToJNOayoEPpP9NZ6kdukgaoYN
-/Dyko/zdjNucn3g92Y8aM/suTP7qLcDHVu6c7DgwKi1oZW2vNI+fH8jo1fm8ZpHhGIbQ8Y134yTr
-uGyJYm7cmArvSEexbKuBMEXIMxvRtp8vTxy6mRajakTAisr960V7rKojaXFOSbut+D/vyLP+vu2Y
-RwFvjHWzh9BNbVwwXN4sD7MyRowAEt9Bw3bucO8INtc7J15cFxaf10je+2x/D3vcR/74Rf7QNLxa
-yiBxFWW/qzPANuP+PxEjMI3ANY2VjTNKl7UF272n+KqWu0E+LPqn08k1lsnNNfONWnPABMjSMJl7
-JUafh/plh/McwZ+5wPJmgeXW1hNZFjii6V+IbVBzzXkx68fpIUPiXmisQTPAQkiCECskX/YtTNBU
-UOuGsOduUBtdsFmfGp49OCmIsWuls19bXJdfegw9cBou36O/UoFLxv61sevxX/D54uq5DeLtKRSt
-xFoADVcD0tNps50YL/2KuE3e1gQs043QIE30lR7yB8mdOWRxwZ6oMDnLsi5WhNJHxgYiUNqUh1kc
-KIqRADkPqo8z1oqvCqTE0l+DTjqViP1PH99btje69Iyv9Qam2vcqmMP8peVipitZ9mRa8GDpt2f9
-3HhqaVbkLem3eou7zZwW1T4zA2CGjemDlmqM3jLZnoHzGZZskc2TVwP88e/jojgNp6Ra+gHwWIi7
-RXqnUc6istkKUQCVh0VvtwETSRaYQwdR7YPZAneoJFgrKZ6RVQriZ3QE0+fGQcg8cpQPBj4lJrAd
-wPn4SJCsXUEb5LEZBOc5/DkENqZfr4sdAyfryxKUcJrz9fSvb3aBNRUgh8BIoxCIKVWehROxiIrc
-IvmnuYmaH7lBmHVzmuyOWvn2OJWaBMeanX9dUtU8aaC2gfZNKQfDM7WsMYGJx/r1uy1E9js2cc6C
-Np5KTd4f/+guWDr6CTBmo8OCz9vd8Ee5UjH8sR6KjAM7S8Go26oPjmWHDnemNXR4FUtoAWOz0utw
-ux/vnkNnAGWezQjsarmQiXwY9hJeuqD4UhFBMulAS2DZWW7T2lzYr0IIbZO0oJPd/agbUzMvXnBC
-trYx4B8vpa8C+qEzVgFT88Z65eIOiYvzbn917T0dnkvbAWCjuQA45fX8p/miZgRzYUDio7+HltFo
-STrLC/MDb2C2NAHOu6Ta8Q8V+OL56WgH1aHsW9JlXnkIQP7d+N92IxK4pw6bUZZkpSYnCI+zuOYB
-asns3rceUVKR7dyqXTqzB7hbosm3RBUtgj+bHxK=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\HangoutsChat;
+
+class KeyValue extends \Google\Model
+{
+  public $bottomLabel;
+  protected $buttonType = Button::class;
+  protected $buttonDataType = '';
+  public $content;
+  public $contentMultiline;
+  public $icon;
+  public $iconUrl;
+  protected $onClickType = OnClick::class;
+  protected $onClickDataType = '';
+  public $topLabel;
+
+  public function setBottomLabel($bottomLabel)
+  {
+    $this->bottomLabel = $bottomLabel;
+  }
+  public function getBottomLabel()
+  {
+    return $this->bottomLabel;
+  }
+  /**
+   * @param Button
+   */
+  public function setButton(Button $button)
+  {
+    $this->button = $button;
+  }
+  /**
+   * @return Button
+   */
+  public function getButton()
+  {
+    return $this->button;
+  }
+  public function setContent($content)
+  {
+    $this->content = $content;
+  }
+  public function getContent()
+  {
+    return $this->content;
+  }
+  public function setContentMultiline($contentMultiline)
+  {
+    $this->contentMultiline = $contentMultiline;
+  }
+  public function getContentMultiline()
+  {
+    return $this->contentMultiline;
+  }
+  public function setIcon($icon)
+  {
+    $this->icon = $icon;
+  }
+  public function getIcon()
+  {
+    return $this->icon;
+  }
+  public function setIconUrl($iconUrl)
+  {
+    $this->iconUrl = $iconUrl;
+  }
+  public function getIconUrl()
+  {
+    return $this->iconUrl;
+  }
+  /**
+   * @param OnClick
+   */
+  public function setOnClick(OnClick $onClick)
+  {
+    $this->onClick = $onClick;
+  }
+  /**
+   * @return OnClick
+   */
+  public function getOnClick()
+  {
+    return $this->onClick;
+  }
+  public function setTopLabel($topLabel)
+  {
+    $this->topLabel = $topLabel;
+  }
+  public function getTopLabel()
+  {
+    return $this->topLabel;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(KeyValue::class, 'Google_Service_HangoutsChat_KeyValue');

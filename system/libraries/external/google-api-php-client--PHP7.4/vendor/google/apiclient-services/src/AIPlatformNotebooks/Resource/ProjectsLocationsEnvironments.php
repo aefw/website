@@ -1,65 +1,104 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AIPlatformNotebooks\Resource;
+
+use Google\Service\AIPlatformNotebooks\Environment;
+use Google\Service\AIPlatformNotebooks\ListEnvironmentsResponse;
+use Google\Service\AIPlatformNotebooks\Operation;
+
+/**
+ * The "environments" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $notebooksService = new Google\Service\AIPlatformNotebooks(...);
+ *   $environments = $notebooksService->environments;
+ *  </code>
+ */
+class ProjectsLocationsEnvironments extends \Google\Service\Resource
+{
+  /**
+   * Creates a new Environment. (environments.create)
+   *
+   * @param string $parent Required. Format:
+   * `projects/{project_id}/locations/{location}`
+   * @param Environment $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string environmentId Required. User-defined unique ID of this
+   * environment. The `environment_id` must be 1 to 63 characters long and contain
+   * only lowercase letters, numeric characters, and dashes. The first character
+   * must be a lowercase letter and the last character cannot be a dash.
+   * @return Operation
+   */
+  public function create($parent, Environment $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Operation::class);
+  }
+  /**
+   * Deletes a single Environment. (environments.delete)
+   *
+   * @param string $name Required. Format:
+   * `projects/{project_id}/locations/{location}/environments/{environment_id}`
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Gets details of a single Environment. (environments.get)
+   *
+   * @param string $name Required. Format:
+   * `projects/{project_id}/locations/{location}/environments/{environment_id}`
+   * @param array $optParams Optional parameters.
+   * @return Environment
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Environment::class);
+  }
+  /**
+   * Lists environments in a project.
+   * (environments.listProjectsLocationsEnvironments)
+   *
+   * @param string $parent Required. Format:
+   * `projects/{project_id}/locations/{location}`
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Maximum return size of the list call.
+   * @opt_param string pageToken A previous returned page token that can be used
+   * to continue listing from the last result.
+   * @return ListEnvironmentsResponse
+   */
+  public function listProjectsLocationsEnvironments($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListEnvironmentsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsEnvironments::class, 'Google_Service_AIPlatformNotebooks_Resource_ProjectsLocationsEnvironments');

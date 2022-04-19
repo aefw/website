@@ -1,66 +1,115 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AdExchangeBuyerII;
+
+class ServingContext extends \Google\Model
+{
+  public $all;
+  protected $appTypeType = AppContext::class;
+  protected $appTypeDataType = '';
+  protected $auctionTypeType = AuctionContext::class;
+  protected $auctionTypeDataType = '';
+  protected $locationType = LocationContext::class;
+  protected $locationDataType = '';
+  protected $platformType = PlatformContext::class;
+  protected $platformDataType = '';
+  protected $securityTypeType = SecurityContext::class;
+  protected $securityTypeDataType = '';
+
+  public function setAll($all)
+  {
+    $this->all = $all;
+  }
+  public function getAll()
+  {
+    return $this->all;
+  }
+  /**
+   * @param AppContext
+   */
+  public function setAppType(AppContext $appType)
+  {
+    $this->appType = $appType;
+  }
+  /**
+   * @return AppContext
+   */
+  public function getAppType()
+  {
+    return $this->appType;
+  }
+  /**
+   * @param AuctionContext
+   */
+  public function setAuctionType(AuctionContext $auctionType)
+  {
+    $this->auctionType = $auctionType;
+  }
+  /**
+   * @return AuctionContext
+   */
+  public function getAuctionType()
+  {
+    return $this->auctionType;
+  }
+  /**
+   * @param LocationContext
+   */
+  public function setLocation(LocationContext $location)
+  {
+    $this->location = $location;
+  }
+  /**
+   * @return LocationContext
+   */
+  public function getLocation()
+  {
+    return $this->location;
+  }
+  /**
+   * @param PlatformContext
+   */
+  public function setPlatform(PlatformContext $platform)
+  {
+    $this->platform = $platform;
+  }
+  /**
+   * @return PlatformContext
+   */
+  public function getPlatform()
+  {
+    return $this->platform;
+  }
+  /**
+   * @param SecurityContext
+   */
+  public function setSecurityType(SecurityContext $securityType)
+  {
+    $this->securityType = $securityType;
+  }
+  /**
+   * @return SecurityContext
+   */
+  public function getSecurityType()
+  {
+    return $this->securityType;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ServingContext::class, 'Google_Service_AdExchangeBuyerII_ServingContext');

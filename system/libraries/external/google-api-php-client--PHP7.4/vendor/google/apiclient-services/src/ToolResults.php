@@ -1,100 +1,882 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-1b/U7QaY2+py
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for ToolResults (v1beta3).
+ *
+ * <p>
+ * API to publish and access results from developer tools.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://firebase.google.com/docs/test-lab/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class ToolResults extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+
+  public $projects;
+  public $projects_histories;
+  public $projects_histories_executions;
+  public $projects_histories_executions_clusters;
+  public $projects_histories_executions_environments;
+  public $projects_histories_executions_steps;
+  public $projects_histories_executions_steps_perfMetricsSummary;
+  public $projects_histories_executions_steps_perfSampleSeries;
+  public $projects_histories_executions_steps_perfSampleSeries_samples;
+  public $projects_histories_executions_steps_testCases;
+  public $projects_histories_executions_steps_thumbnails;
+
+  /**
+   * Constructs the internal representation of the ToolResults service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://toolresults.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1beta3';
+    $this->serviceName = 'toolresults';
+
+    $this->projects = new ToolResults\Resource\Projects(
+        $this,
+        $this->serviceName,
+        'projects',
+        [
+          'methods' => [
+            'getSettings' => [
+              'path' => 'toolresults/v1beta3/projects/{projectId}/settings',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'initializeSettings' => [
+              'path' => 'toolresults/v1beta3/projects/{projectId}:initializeSettings',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_histories = new ToolResults\Resource\ProjectsHistories(
+        $this,
+        $this->serviceName,
+        'histories',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'toolresults/v1beta3/projects/{projectId}/histories',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'requestId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'toolresults/v1beta3/projects/{projectId}/histories/{historyId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'historyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'toolresults/v1beta3/projects/{projectId}/histories',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filterByName' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_histories_executions = new ToolResults\Resource\ProjectsHistoriesExecutions(
+        $this,
+        $this->serviceName,
+        'executions',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'toolresults/v1beta3/projects/{projectId}/histories/{historyId}/executions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'historyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'requestId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'toolresults/v1beta3/projects/{projectId}/histories/{historyId}/executions/{executionId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'historyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'executionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'toolresults/v1beta3/projects/{projectId}/histories/{historyId}/executions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'historyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'toolresults/v1beta3/projects/{projectId}/histories/{historyId}/executions/{executionId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'historyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'executionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'requestId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_histories_executions_clusters = new ToolResults\Resource\ProjectsHistoriesExecutionsClusters(
+        $this,
+        $this->serviceName,
+        'clusters',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'toolresults/v1beta3/projects/{projectId}/histories/{historyId}/executions/{executionId}/clusters/{clusterId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'historyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'executionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'clusterId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'toolresults/v1beta3/projects/{projectId}/histories/{historyId}/executions/{executionId}/clusters',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'historyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'executionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_histories_executions_environments = new ToolResults\Resource\ProjectsHistoriesExecutionsEnvironments(
+        $this,
+        $this->serviceName,
+        'environments',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'toolresults/v1beta3/projects/{projectId}/histories/{historyId}/executions/{executionId}/environments/{environmentId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'historyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'executionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'environmentId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'toolresults/v1beta3/projects/{projectId}/histories/{historyId}/executions/{executionId}/environments',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'historyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'executionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_histories_executions_steps = new ToolResults\Resource\ProjectsHistoriesExecutionsSteps(
+        $this,
+        $this->serviceName,
+        'steps',
+        [
+          'methods' => [
+            'accessibilityClusters' => [
+              'path' => 'toolresults/v1beta3/{+name}:accessibilityClusters',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'locale' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'create' => [
+              'path' => 'toolresults/v1beta3/projects/{projectId}/histories/{historyId}/executions/{executionId}/steps',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'historyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'executionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'requestId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'toolresults/v1beta3/projects/{projectId}/histories/{historyId}/executions/{executionId}/steps/{stepId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'historyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'executionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'stepId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getPerfMetricsSummary' => [
+              'path' => 'toolresults/v1beta3/projects/{projectId}/histories/{historyId}/executions/{executionId}/steps/{stepId}/perfMetricsSummary',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'historyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'executionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'stepId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'toolresults/v1beta3/projects/{projectId}/histories/{historyId}/executions/{executionId}/steps',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'historyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'executionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'toolresults/v1beta3/projects/{projectId}/histories/{historyId}/executions/{executionId}/steps/{stepId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'historyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'executionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'stepId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'requestId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'publishXunitXmlFiles' => [
+              'path' => 'toolresults/v1beta3/projects/{projectId}/histories/{historyId}/executions/{executionId}/steps/{stepId}:publishXunitXmlFiles',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'historyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'executionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'stepId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_histories_executions_steps_perfMetricsSummary = new ToolResults\Resource\ProjectsHistoriesExecutionsStepsPerfMetricsSummary(
+        $this,
+        $this->serviceName,
+        'perfMetricsSummary',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'toolresults/v1beta3/projects/{projectId}/histories/{historyId}/executions/{executionId}/steps/{stepId}/perfMetricsSummary',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'historyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'executionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'stepId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_histories_executions_steps_perfSampleSeries = new ToolResults\Resource\ProjectsHistoriesExecutionsStepsPerfSampleSeries(
+        $this,
+        $this->serviceName,
+        'perfSampleSeries',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'toolresults/v1beta3/projects/{projectId}/histories/{historyId}/executions/{executionId}/steps/{stepId}/perfSampleSeries',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'historyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'executionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'stepId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'toolresults/v1beta3/projects/{projectId}/histories/{historyId}/executions/{executionId}/steps/{stepId}/perfSampleSeries/{sampleSeriesId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'historyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'executionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'stepId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'sampleSeriesId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'toolresults/v1beta3/projects/{projectId}/histories/{historyId}/executions/{executionId}/steps/{stepId}/perfSampleSeries',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'historyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'executionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'stepId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_histories_executions_steps_perfSampleSeries_samples = new ToolResults\Resource\ProjectsHistoriesExecutionsStepsPerfSampleSeriesSamples(
+        $this,
+        $this->serviceName,
+        'samples',
+        [
+          'methods' => [
+            'batchCreate' => [
+              'path' => 'toolresults/v1beta3/projects/{projectId}/histories/{historyId}/executions/{executionId}/steps/{stepId}/perfSampleSeries/{sampleSeriesId}/samples:batchCreate',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'historyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'executionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'stepId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'sampleSeriesId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'toolresults/v1beta3/projects/{projectId}/histories/{historyId}/executions/{executionId}/steps/{stepId}/perfSampleSeries/{sampleSeriesId}/samples',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'historyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'executionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'stepId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'sampleSeriesId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_histories_executions_steps_testCases = new ToolResults\Resource\ProjectsHistoriesExecutionsStepsTestCases(
+        $this,
+        $this->serviceName,
+        'testCases',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'toolresults/v1beta3/projects/{projectId}/histories/{historyId}/executions/{executionId}/steps/{stepId}/testCases/{testCaseId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'historyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'executionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'stepId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'testCaseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'toolresults/v1beta3/projects/{projectId}/histories/{historyId}/executions/{executionId}/steps/{stepId}/testCases',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'historyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'executionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'stepId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_histories_executions_steps_thumbnails = new ToolResults\Resource\ProjectsHistoriesExecutionsStepsThumbnails(
+        $this,
+        $this->serviceName,
+        'thumbnails',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'toolresults/v1beta3/projects/{projectId}/histories/{historyId}/executions/{executionId}/steps/{stepId}/thumbnails',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'historyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'executionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'stepId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ToolResults::class, 'Google_Service_ToolResults');

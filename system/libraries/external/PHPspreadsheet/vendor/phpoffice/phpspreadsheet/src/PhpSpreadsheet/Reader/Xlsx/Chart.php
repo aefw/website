@@ -1,369 +1,570 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-qRiQn8/tgmItOnWN1lgOjisL+Tu=
+<?php
+
+namespace PhpOffice\PhpSpreadsheet\Reader\Xlsx;
+
+use PhpOffice\PhpSpreadsheet\Calculation\Functions;
+use PhpOffice\PhpSpreadsheet\Chart\DataSeries;
+use PhpOffice\PhpSpreadsheet\Chart\DataSeriesValues;
+use PhpOffice\PhpSpreadsheet\Chart\Layout;
+use PhpOffice\PhpSpreadsheet\Chart\Legend;
+use PhpOffice\PhpSpreadsheet\Chart\PlotArea;
+use PhpOffice\PhpSpreadsheet\Chart\Title;
+use PhpOffice\PhpSpreadsheet\RichText\RichText;
+use PhpOffice\PhpSpreadsheet\Style\Color;
+use PhpOffice\PhpSpreadsheet\Style\Font;
+use SimpleXMLElement;
+
+class Chart
+{
+    /**
+     * @param SimpleXMLElement $component
+     * @param string $name
+     * @param string $format
+     *
+     * @return null|bool|float|int|string
+     */
+    private static function getAttribute(SimpleXMLElement $component, $name, $format)
+    {
+        $attributes = $component->attributes();
+        if (isset($attributes[$name])) {
+            if ($format == 'string') {
+                return (string) $attributes[$name];
+            } elseif ($format == 'integer') {
+                return (int) $attributes[$name];
+            } elseif ($format == 'boolean') {
+                return (bool) ($attributes[$name] === '0' || $attributes[$name] !== 'true') ? false : true;
+            }
+
+            return (float) $attributes[$name];
+        }
+
+        return null;
+    }
+
+    private static function readColor($color, $background = false)
+    {
+        if (isset($color['rgb'])) {
+            return (string) $color['rgb'];
+        } elseif (isset($color['indexed'])) {
+            return Color::indexedColor($color['indexed'] - 7, $background)->getARGB();
+        }
+    }
+
+    /**
+     * @param SimpleXMLElement $chartElements
+     * @param string $chartName
+     *
+     * @return \PhpOffice\PhpSpreadsheet\Chart\Chart
+     */
+    public static function readChart(SimpleXMLElement $chartElements, $chartName)
+    {
+        $namespacesChartMeta = $chartElements->getNamespaces(true);
+        $chartElementsC = $chartElements->children($namespacesChartMeta['c']);
+
+        $XaxisLabel = $YaxisLabel = $legend = $title = null;
+        $dispBlanksAs = $plotVisOnly = null;
+
+        foreach ($chartElementsC as $chartElementKey => $chartElement) {
+            switch ($chartElementKey) {
+                case 'chart':
+                    foreach ($chartElement as $chartDetailsKey => $chartDetails) {
+                        $chartDetailsC = $chartDetails->children($namespacesChartMeta['c']);
+                        switch ($chartDetailsKey) {
+                            case 'plotArea':
+                                $plotAreaLayout = $XaxisLable = $YaxisLable = null;
+                                $plotSeries = $plotAttributes = [];
+                                foreach ($chartDetails as $chartDetailKey => $chartDetail) {
+                                    switch ($chartDetailKey) {
+                                        case 'layout':
+                                            $plotAreaLayout = self::chartLayoutDetails($chartDetail, $namespacesChartMeta);
+
+                                            break;
+                                        case 'catAx':
+                                            if (isset($chartDetail->title)) {
+                                                $XaxisLabel = self::chartTitle($chartDetail->title->children($namespacesChartMeta['c']), $namespacesChartMeta);
+                                            }
+
+                                            break;
+                                        case 'dateAx':
+                                            if (isset($chartDetail->title)) {
+                                                $XaxisLabel = self::chartTitle($chartDetail->title->children($namespacesChartMeta['c']), $namespacesChartMeta);
+                                            }
+
+                                            break;
+                                        case 'valAx':
+                                            if (isset($chartDetail->title)) {
+                                                $YaxisLabel = self::chartTitle($chartDetail->title->children($namespacesChartMeta['c']), $namespacesChartMeta);
+                                            }
+
+                                            break;
+                                        case 'barChart':
+                                        case 'bar3DChart':
+                                            $barDirection = self::getAttribute($chartDetail->barDir, 'val', 'string');
+                                            $plotSer = self::chartDataSeries($chartDetail, $namespacesChartMeta, $chartDetailKey);
+                                            $plotSer->setPlotDirection($barDirection);
+                                            $plotSeries[] = $plotSer;
+                                            $plotAttributes = self::readChartAttributes($chartDetail);
+
+                                            break;
+                                        case 'lineChart':
+                                        case 'line3DChart':
+                                            $plotSeries[] = self::chartDataSeries($chartDetail, $namespacesChartMeta, $chartDetailKey);
+                                            $plotAttributes = self::readChartAttributes($chartDetail);
+
+                                            break;
+                                        case 'areaChart':
+                                        case 'area3DChart':
+                                            $plotSeries[] = self::chartDataSeries($chartDetail, $namespacesChartMeta, $chartDetailKey);
+                                            $plotAttributes = self::readChartAttributes($chartDetail);
+
+                                            break;
+                                        case 'doughnutChart':
+                                        case 'pieChart':
+                                        case 'pie3DChart':
+                                            $explosion = isset($chartDetail->ser->explosion);
+                                            $plotSer = self::chartDataSeries($chartDetail, $namespacesChartMeta, $chartDetailKey);
+                                            $plotSer->setPlotStyle($explosion);
+                                            $plotSeries[] = $plotSer;
+                                            $plotAttributes = self::readChartAttributes($chartDetail);
+
+                                            break;
+                                        case 'scatterChart':
+                                            $scatterStyle = self::getAttribute($chartDetail->scatterStyle, 'val', 'string');
+                                            $plotSer = self::chartDataSeries($chartDetail, $namespacesChartMeta, $chartDetailKey);
+                                            $plotSer->setPlotStyle($scatterStyle);
+                                            $plotSeries[] = $plotSer;
+                                            $plotAttributes = self::readChartAttributes($chartDetail);
+
+                                            break;
+                                        case 'bubbleChart':
+                                            $bubbleScale = self::getAttribute($chartDetail->bubbleScale, 'val', 'integer');
+                                            $plotSer = self::chartDataSeries($chartDetail, $namespacesChartMeta, $chartDetailKey);
+                                            $plotSer->setPlotStyle($bubbleScale);
+                                            $plotSeries[] = $plotSer;
+                                            $plotAttributes = self::readChartAttributes($chartDetail);
+
+                                            break;
+                                        case 'radarChart':
+                                            $radarStyle = self::getAttribute($chartDetail->radarStyle, 'val', 'string');
+                                            $plotSer = self::chartDataSeries($chartDetail, $namespacesChartMeta, $chartDetailKey);
+                                            $plotSer->setPlotStyle($radarStyle);
+                                            $plotSeries[] = $plotSer;
+                                            $plotAttributes = self::readChartAttributes($chartDetail);
+
+                                            break;
+                                        case 'surfaceChart':
+                                        case 'surface3DChart':
+                                            $wireFrame = self::getAttribute($chartDetail->wireframe, 'val', 'boolean');
+                                            $plotSer = self::chartDataSeries($chartDetail, $namespacesChartMeta, $chartDetailKey);
+                                            $plotSer->setPlotStyle($wireFrame);
+                                            $plotSeries[] = $plotSer;
+                                            $plotAttributes = self::readChartAttributes($chartDetail);
+
+                                            break;
+                                        case 'stockChart':
+                                            $plotSeries[] = self::chartDataSeries($chartDetail, $namespacesChartMeta, $chartDetailKey);
+                                            $plotAttributes = self::readChartAttributes($plotAreaLayout);
+
+                                            break;
+                                    }
+                                }
+                                if ($plotAreaLayout == null) {
+                                    $plotAreaLayout = new Layout();
+                                }
+                                $plotArea = new PlotArea($plotAreaLayout, $plotSeries);
+                                self::setChartAttributes($plotAreaLayout, $plotAttributes);
+
+                                break;
+                            case 'plotVisOnly':
+                                $plotVisOnly = self::getAttribute($chartDetails, 'val', 'string');
+
+                                break;
+                            case 'dispBlanksAs':
+                                $dispBlanksAs = self::getAttribute($chartDetails, 'val', 'string');
+
+                                break;
+                            case 'title':
+                                $title = self::chartTitle($chartDetails, $namespacesChartMeta);
+
+                                break;
+                            case 'legend':
+                                $legendPos = 'r';
+                                $legendLayout = null;
+                                $legendOverlay = false;
+                                foreach ($chartDetails as $chartDetailKey => $chartDetail) {
+                                    switch ($chartDetailKey) {
+                                        case 'legendPos':
+                                            $legendPos = self::getAttribute($chartDetail, 'val', 'string');
+
+                                            break;
+                                        case 'overlay':
+                                            $legendOverlay = self::getAttribute($chartDetail, 'val', 'boolean');
+
+                                            break;
+                                        case 'layout':
+                                            $legendLayout = self::chartLayoutDetails($chartDetail, $namespacesChartMeta);
+
+                                            break;
+                                    }
+                                }
+                                $legend = new Legend($legendPos, $legendLayout, $legendOverlay);
+
+                                break;
+                        }
+                    }
+            }
+        }
+        $chart = new \PhpOffice\PhpSpreadsheet\Chart\Chart($chartName, $title, $legend, $plotArea, $plotVisOnly, $dispBlanksAs, $XaxisLabel, $YaxisLabel);
+
+        return $chart;
+    }
+
+    private static function chartTitle(SimpleXMLElement $titleDetails, array $namespacesChartMeta)
+    {
+        $caption = [];
+        $titleLayout = null;
+        foreach ($titleDetails as $titleDetailKey => $chartDetail) {
+            switch ($titleDetailKey) {
+                case 'tx':
+                    $titleDetails = $chartDetail->rich->children($namespacesChartMeta['a']);
+                    foreach ($titleDetails as $titleKey => $titleDetail) {
+                        switch ($titleKey) {
+                            case 'p':
+                                $titleDetailPart = $titleDetail->children($namespacesChartMeta['a']);
+                                $caption[] = self::parseRichText($titleDetailPart);
+                        }
+                    }
+
+                    break;
+                case 'layout':
+                    $titleLayout = self::chartLayoutDetails($chartDetail, $namespacesChartMeta);
+
+                    break;
+            }
+        }
+
+        return new Title($caption, $titleLayout);
+    }
+
+    private static function chartLayoutDetails($chartDetail, $namespacesChartMeta)
+    {
+        if (!isset($chartDetail->manualLayout)) {
+            return null;
+        }
+        $details = $chartDetail->manualLayout->children($namespacesChartMeta['c']);
+        if ($details === null) {
+            return null;
+        }
+        $layout = [];
+        foreach ($details as $detailKey => $detail) {
+            $layout[$detailKey] = self::getAttribute($detail, 'val', 'string');
+        }
+
+        return new Layout($layout);
+    }
+
+    private static function chartDataSeries($chartDetail, $namespacesChartMeta, $plotType)
+    {
+        $multiSeriesType = null;
+        $smoothLine = false;
+        $seriesLabel = $seriesCategory = $seriesValues = $plotOrder = [];
+
+        $seriesDetailSet = $chartDetail->children($namespacesChartMeta['c']);
+        foreach ($seriesDetailSet as $seriesDetailKey => $seriesDetails) {
+            switch ($seriesDetailKey) {
+                case 'grouping':
+                    $multiSeriesType = self::getAttribute($chartDetail->grouping, 'val', 'string');
+
+                    break;
+                case 'ser':
+                    $marker = null;
+                    $seriesIndex = '';
+                    foreach ($seriesDetails as $seriesKey => $seriesDetail) {
+                        switch ($seriesKey) {
+                            case 'idx':
+                                $seriesIndex = self::getAttribute($seriesDetail, 'val', 'integer');
+
+                                break;
+                            case 'order':
+                                $seriesOrder = self::getAttribute($seriesDetail, 'val', 'integer');
+                                $plotOrder[$seriesIndex] = $seriesOrder;
+
+                                break;
+                            case 'tx':
+                                $seriesLabel[$seriesIndex] = self::chartDataSeriesValueSet($seriesDetail, $namespacesChartMeta);
+
+                                break;
+                            case 'marker':
+                                $marker = self::getAttribute($seriesDetail->symbol, 'val', 'string');
+
+                                break;
+                            case 'smooth':
+                                $smoothLine = self::getAttribute($seriesDetail, 'val', 'boolean');
+
+                                break;
+                            case 'cat':
+                                $seriesCategory[$seriesIndex] = self::chartDataSeriesValueSet($seriesDetail, $namespacesChartMeta);
+
+                                break;
+                            case 'val':
+                                $seriesValues[$seriesIndex] = self::chartDataSeriesValueSet($seriesDetail, $namespacesChartMeta, $marker);
+
+                                break;
+                            case 'xVal':
+                                $seriesCategory[$seriesIndex] = self::chartDataSeriesValueSet($seriesDetail, $namespacesChartMeta, $marker);
+
+                                break;
+                            case 'yVal':
+                                $seriesValues[$seriesIndex] = self::chartDataSeriesValueSet($seriesDetail, $namespacesChartMeta, $marker);
+
+                                break;
+                        }
+                    }
+            }
+        }
+
+        return new DataSeries($plotType, $multiSeriesType, $plotOrder, $seriesLabel, $seriesCategory, $seriesValues, $smoothLine);
+    }
+
+    private static function chartDataSeriesValueSet($seriesDetail, $namespacesChartMeta, $marker = null)
+    {
+        if (isset($seriesDetail->strRef)) {
+            $seriesSource = (string) $seriesDetail->strRef->f;
+            $seriesData = self::chartDataSeriesValues($seriesDetail->strRef->strCache->children($namespacesChartMeta['c']), 's');
+
+            return new DataSeriesValues(DataSeriesValues::DATASERIES_TYPE_STRING, $seriesSource, $seriesData['formatCode'], $seriesData['pointCount'], $seriesData['dataValues'], $marker);
+        } elseif (isset($seriesDetail->numRef)) {
+            $seriesSource = (string) $seriesDetail->numRef->f;
+            $seriesData = self::chartDataSeriesValues($seriesDetail->numRef->numCache->children($namespacesChartMeta['c']));
+
+            return new DataSeriesValues(DataSeriesValues::DATASERIES_TYPE_NUMBER, $seriesSource, $seriesData['formatCode'], $seriesData['pointCount'], $seriesData['dataValues'], $marker);
+        } elseif (isset($seriesDetail->multiLvlStrRef)) {
+            $seriesSource = (string) $seriesDetail->multiLvlStrRef->f;
+            $seriesData = self::chartDataSeriesValuesMultiLevel($seriesDetail->multiLvlStrRef->multiLvlStrCache->children($namespacesChartMeta['c']), 's');
+            $seriesData['pointCount'] = count($seriesData['dataValues']);
+
+            return new DataSeriesValues(DataSeriesValues::DATASERIES_TYPE_STRING, $seriesSource, $seriesData['formatCode'], $seriesData['pointCount'], $seriesData['dataValues'], $marker);
+        } elseif (isset($seriesDetail->multiLvlNumRef)) {
+            $seriesSource = (string) $seriesDetail->multiLvlNumRef->f;
+            $seriesData = self::chartDataSeriesValuesMultiLevel($seriesDetail->multiLvlNumRef->multiLvlNumCache->children($namespacesChartMeta['c']), 's');
+            $seriesData['pointCount'] = count($seriesData['dataValues']);
+
+            return new DataSeriesValues(DataSeriesValues::DATASERIES_TYPE_STRING, $seriesSource, $seriesData['formatCode'], $seriesData['pointCount'], $seriesData['dataValues'], $marker);
+        }
+
+        return null;
+    }
+
+    private static function chartDataSeriesValues($seriesValueSet, $dataType = 'n')
+    {
+        $seriesVal = [];
+        $formatCode = '';
+        $pointCount = 0;
+
+        foreach ($seriesValueSet as $seriesValueIdx => $seriesValue) {
+            switch ($seriesValueIdx) {
+                case 'ptCount':
+                    $pointCount = self::getAttribute($seriesValue, 'val', 'integer');
+
+                    break;
+                case 'formatCode':
+                    $formatCode = (string) $seriesValue;
+
+                    break;
+                case 'pt':
+                    $pointVal = self::getAttribute($seriesValue, 'idx', 'integer');
+                    if ($dataType == 's') {
+                        $seriesVal[$pointVal] = (string) $seriesValue->v;
+                    } elseif ($seriesValue->v === Functions::NA()) {
+                        $seriesVal[$pointVal] = null;
+                    } else {
+                        $seriesVal[$pointVal] = (float) $seriesValue->v;
+                    }
+
+                    break;
+            }
+        }
+
+        return [
+            'formatCode' => $formatCode,
+            'pointCount' => $pointCount,
+            'dataValues' => $seriesVal,
+        ];
+    }
+
+    private static function chartDataSeriesValuesMultiLevel($seriesValueSet, $dataType = 'n')
+    {
+        $seriesVal = [];
+        $formatCode = '';
+        $pointCount = 0;
+
+        foreach ($seriesValueSet->lvl as $seriesLevelIdx => $seriesLevel) {
+            foreach ($seriesLevel as $seriesValueIdx => $seriesValue) {
+                switch ($seriesValueIdx) {
+                    case 'ptCount':
+                        $pointCount = self::getAttribute($seriesValue, 'val', 'integer');
+
+                        break;
+                    case 'formatCode':
+                        $formatCode = (string) $seriesValue;
+
+                        break;
+                    case 'pt':
+                        $pointVal = self::getAttribute($seriesValue, 'idx', 'integer');
+                        if ($dataType == 's') {
+                            $seriesVal[$pointVal][] = (string) $seriesValue->v;
+                        } elseif ($seriesValue->v === Functions::NA()) {
+                            $seriesVal[$pointVal] = null;
+                        } else {
+                            $seriesVal[$pointVal][] = (float) $seriesValue->v;
+                        }
+
+                        break;
+                }
+            }
+        }
+
+        return [
+            'formatCode' => $formatCode,
+            'pointCount' => $pointCount,
+            'dataValues' => $seriesVal,
+        ];
+    }
+
+    private static function parseRichText(SimpleXMLElement $titleDetailPart)
+    {
+        $value = new RichText();
+        $objText = null;
+        foreach ($titleDetailPart as $titleDetailElementKey => $titleDetailElement) {
+            if (isset($titleDetailElement->t)) {
+                $objText = $value->createTextRun((string) $titleDetailElement->t);
+            }
+            if (isset($titleDetailElement->rPr)) {
+                if (isset($titleDetailElement->rPr->rFont['val'])) {
+                    $objText->getFont()->setName((string) $titleDetailElement->rPr->rFont['val']);
+                }
+
+                $fontSize = (self::getAttribute($titleDetailElement->rPr, 'sz', 'integer'));
+                if ($fontSize !== null) {
+                    $objText->getFont()->setSize(floor($fontSize / 100));
+                }
+
+                $fontColor = (self::getAttribute($titleDetailElement->rPr, 'color', 'string'));
+                if ($fontColor !== null) {
+                    $objText->getFont()->setColor(new Color(self::readColor($fontColor)));
+                }
+
+                $bold = self::getAttribute($titleDetailElement->rPr, 'b', 'boolean');
+                if ($bold !== null) {
+                    $objText->getFont()->setBold($bold);
+                }
+
+                $italic = self::getAttribute($titleDetailElement->rPr, 'i', 'boolean');
+                if ($italic !== null) {
+                    $objText->getFont()->setItalic($italic);
+                }
+
+                $baseline = self::getAttribute($titleDetailElement->rPr, 'baseline', 'integer');
+                if ($baseline !== null) {
+                    if ($baseline > 0) {
+                        $objText->getFont()->setSuperscript(true);
+                    } elseif ($baseline < 0) {
+                        $objText->getFont()->setSubscript(true);
+                    }
+                }
+
+                $underscore = (self::getAttribute($titleDetailElement->rPr, 'u', 'string'));
+                if ($underscore !== null) {
+                    if ($underscore == 'sng') {
+                        $objText->getFont()->setUnderline(Font::UNDERLINE_SINGLE);
+                    } elseif ($underscore == 'dbl') {
+                        $objText->getFont()->setUnderline(Font::UNDERLINE_DOUBLE);
+                    } else {
+                        $objText->getFont()->setUnderline(Font::UNDERLINE_NONE);
+                    }
+                }
+
+                $strikethrough = (self::getAttribute($titleDetailElement->rPr, 's', 'string'));
+                if ($strikethrough !== null) {
+                    if ($strikethrough == 'noStrike') {
+                        $objText->getFont()->setStrikethrough(false);
+                    } else {
+                        $objText->getFont()->setStrikethrough(true);
+                    }
+                }
+            }
+        }
+
+        return $value;
+    }
+
+    private static function readChartAttributes($chartDetail)
+    {
+        $plotAttributes = [];
+        if (isset($chartDetail->dLbls)) {
+            if (isset($chartDetail->dLbls->howLegendKey)) {
+                $plotAttributes['showLegendKey'] = self::getAttribute($chartDetail->dLbls->showLegendKey, 'val', 'string');
+            }
+            if (isset($chartDetail->dLbls->showVal)) {
+                $plotAttributes['showVal'] = self::getAttribute($chartDetail->dLbls->showVal, 'val', 'string');
+            }
+            if (isset($chartDetail->dLbls->showCatName)) {
+                $plotAttributes['showCatName'] = self::getAttribute($chartDetail->dLbls->showCatName, 'val', 'string');
+            }
+            if (isset($chartDetail->dLbls->showSerName)) {
+                $plotAttributes['showSerName'] = self::getAttribute($chartDetail->dLbls->showSerName, 'val', 'string');
+            }
+            if (isset($chartDetail->dLbls->showPercent)) {
+                $plotAttributes['showPercent'] = self::getAttribute($chartDetail->dLbls->showPercent, 'val', 'string');
+            }
+            if (isset($chartDetail->dLbls->showBubbleSize)) {
+                $plotAttributes['showBubbleSize'] = self::getAttribute($chartDetail->dLbls->showBubbleSize, 'val', 'string');
+            }
+            if (isset($chartDetail->dLbls->showLeaderLines)) {
+                $plotAttributes['showLeaderLines'] = self::getAttribute($chartDetail->dLbls->showLeaderLines, 'val', 'string');
+            }
+        }
+
+        return $plotAttributes;
+    }
+
+    /**
+     * @param Layout $plotArea
+     * @param mixed $plotAttributes
+     */
+    private static function setChartAttributes(Layout $plotArea, $plotAttributes)
+    {
+        foreach ($plotAttributes as $plotAttributeKey => $plotAttributeValue) {
+            switch ($plotAttributeKey) {
+                case 'showLegendKey':
+                    $plotArea->setShowLegendKey($plotAttributeValue);
+
+                    break;
+                case 'showVal':
+                    $plotArea->setShowVal($plotAttributeValue);
+
+                    break;
+                case 'showCatName':
+                    $plotArea->setShowCatName($plotAttributeValue);
+
+                    break;
+                case 'showSerName':
+                    $plotArea->setShowSerName($plotAttributeValue);
+
+                    break;
+                case 'showPercent':
+                    $plotArea->setShowPercent($plotAttributeValue);
+
+                    break;
+                case 'showBubbleSize':
+                    $plotArea->setShowBubbleSize($plotAttributeValue);
+
+                    break;
+                case 'showLeaderLines':
+                    $plotArea->setShowLeaderLines($plotAttributeValue);
+
+                    break;
+            }
+        }
+    }
+}

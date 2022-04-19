@@ -1,270 +1,641 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Pv2BuHkttgGJIIS2HB6zMh5hrm==
+<?php
+
+namespace PhpOffice\PhpSpreadsheet\Style;
+
+use PhpOffice\PhpSpreadsheet\Cell\Coordinate;
+use PhpOffice\PhpSpreadsheet\Spreadsheet;
+
+class Style extends Supervisor
+{
+    /**
+     * Font.
+     *
+     * @var Font
+     */
+    protected $font;
+
+    /**
+     * Fill.
+     *
+     * @var Fill
+     */
+    protected $fill;
+
+    /**
+     * Borders.
+     *
+     * @var Borders
+     */
+    protected $borders;
+
+    /**
+     * Alignment.
+     *
+     * @var Alignment
+     */
+    protected $alignment;
+
+    /**
+     * Number Format.
+     *
+     * @var NumberFormat
+     */
+    protected $numberFormat;
+
+    /**
+     * Conditional styles.
+     *
+     * @var Conditional[]
+     */
+    protected $conditionalStyles;
+
+    /**
+     * Protection.
+     *
+     * @var Protection
+     */
+    protected $protection;
+
+    /**
+     * Index of style in collection. Only used for real style.
+     *
+     * @var int
+     */
+    protected $index;
+
+    /**
+     * Use Quote Prefix when displaying in cell editor. Only used for real style.
+     *
+     * @var bool
+     */
+    protected $quotePrefix = false;
+
+    /**
+     * Create a new Style.
+     *
+     * @param bool $isSupervisor Flag indicating if this is a supervisor or not
+     *         Leave this value at default unless you understand exactly what
+     *    its ramifications are
+     * @param bool $isConditional Flag indicating if this is a conditional style or not
+     *       Leave this value at default unless you understand exactly what
+     *    its ramifications are
+     */
+    public function __construct($isSupervisor = false, $isConditional = false)
+    {
+        parent::__construct($isSupervisor);
+
+        // Initialise values
+        $this->conditionalStyles = [];
+        $this->font = new Font($isSupervisor, $isConditional);
+        $this->fill = new Fill($isSupervisor, $isConditional);
+        $this->borders = new Borders($isSupervisor, $isConditional);
+        $this->alignment = new Alignment($isSupervisor, $isConditional);
+        $this->numberFormat = new NumberFormat($isSupervisor, $isConditional);
+        $this->protection = new Protection($isSupervisor, $isConditional);
+
+        // bind parent if we are a supervisor
+        if ($isSupervisor) {
+            $this->font->bindParent($this);
+            $this->fill->bindParent($this);
+            $this->borders->bindParent($this);
+            $this->alignment->bindParent($this);
+            $this->numberFormat->bindParent($this);
+            $this->protection->bindParent($this);
+        }
+    }
+
+    /**
+     * Get the shared style component for the currently active cell in currently active sheet.
+     * Only used for style supervisor.
+     *
+     * @return Style
+     */
+    public function getSharedComponent()
+    {
+        $activeSheet = $this->getActiveSheet();
+        $selectedCell = $this->getActiveCell(); // e.g. 'A1'
+
+        if ($activeSheet->cellExists($selectedCell)) {
+            $xfIndex = $activeSheet->getCell($selectedCell)->getXfIndex();
+        } else {
+            $xfIndex = 0;
+        }
+
+        return $this->parent->getCellXfByIndex($xfIndex);
+    }
+
+    /**
+     * Get parent. Only used for style supervisor.
+     *
+     * @return Spreadsheet
+     */
+    public function getParent()
+    {
+        return $this->parent;
+    }
+
+    /**
+     * Build style array from subcomponents.
+     *
+     * @param array $array
+     *
+     * @return array
+     */
+    public function getStyleArray($array)
+    {
+        return ['quotePrefix' => $array];
+    }
+
+    /**
+     * Apply styles from array.
+     *
+     * <code>
+     * $spreadsheet->getActiveSheet()->getStyle('B2')->applyFromArray(
+     *     [
+     *         'font' => [
+     *             'name' => 'Arial',
+     *             'bold' => true,
+     *             'italic' => false,
+     *             'underline' => Font::UNDERLINE_DOUBLE,
+     *             'strikethrough' => false,
+     *             'color' => [
+     *                 'rgb' => '808080'
+     *             ]
+     *         ],
+     *         'borders' => [
+     *             'bottom' => [
+     *                 'borderStyle' => Border::BORDER_DASHDOT,
+     *                 'color' => [
+     *                     'rgb' => '808080'
+     *                 ]
+     *             ],
+     *             'top' => [
+     *                 'borderStyle' => Border::BORDER_DASHDOT,
+     *                 'color' => [
+     *                     'rgb' => '808080'
+     *                 ]
+     *             ]
+     *         ],
+     *         'alignment' => [
+     *             'horizontal' => Alignment::HORIZONTAL_CENTER,
+     *             'vertical' => Alignment::VERTICAL_CENTER,
+     *             'wrapText' => true,
+     *         ],
+     *         'quotePrefix'    => true
+     *     ]
+     * );
+     * </code>
+     *
+     * @param array $pStyles Array containing style information
+     * @param bool $pAdvanced advanced mode for setting borders
+     *
+     * @return Style
+     */
+    public function applyFromArray(array $pStyles, $pAdvanced = true)
+    {
+        if ($this->isSupervisor) {
+            $pRange = $this->getSelectedCells();
+
+            // Uppercase coordinate
+            $pRange = strtoupper($pRange);
+
+            // Is it a cell range or a single cell?
+            if (strpos($pRange, ':') === false) {
+                $rangeA = $pRange;
+                $rangeB = $pRange;
+            } else {
+                [$rangeA, $rangeB] = explode(':', $pRange);
+            }
+
+            // Calculate range outer borders
+            $rangeStart = Coordinate::coordinateFromString($rangeA);
+            $rangeEnd = Coordinate::coordinateFromString($rangeB);
+
+            // Translate column into index
+            $rangeStart[0] = Coordinate::columnIndexFromString($rangeStart[0]);
+            $rangeEnd[0] = Coordinate::columnIndexFromString($rangeEnd[0]);
+
+            // Make sure we can loop upwards on rows and columns
+            if ($rangeStart[0] > $rangeEnd[0] && $rangeStart[1] > $rangeEnd[1]) {
+                $tmp = $rangeStart;
+                $rangeStart = $rangeEnd;
+                $rangeEnd = $tmp;
+            }
+
+            // ADVANCED MODE:
+            if ($pAdvanced && isset($pStyles['borders'])) {
+                // 'allBorders' is a shorthand property for 'outline' and 'inside' and
+                //        it applies to components that have not been set explicitly
+                if (isset($pStyles['borders']['allBorders'])) {
+                    foreach (['outline', 'inside'] as $component) {
+                        if (!isset($pStyles['borders'][$component])) {
+                            $pStyles['borders'][$component] = $pStyles['borders']['allBorders'];
+                        }
+                    }
+                    unset($pStyles['borders']['allBorders']); // not needed any more
+                }
+                // 'outline' is a shorthand property for 'top', 'right', 'bottom', 'left'
+                //        it applies to components that have not been set explicitly
+                if (isset($pStyles['borders']['outline'])) {
+                    foreach (['top', 'right', 'bottom', 'left'] as $component) {
+                        if (!isset($pStyles['borders'][$component])) {
+                            $pStyles['borders'][$component] = $pStyles['borders']['outline'];
+                        }
+                    }
+                    unset($pStyles['borders']['outline']); // not needed any more
+                }
+                // 'inside' is a shorthand property for 'vertical' and 'horizontal'
+                //        it applies to components that have not been set explicitly
+                if (isset($pStyles['borders']['inside'])) {
+                    foreach (['vertical', 'horizontal'] as $component) {
+                        if (!isset($pStyles['borders'][$component])) {
+                            $pStyles['borders'][$component] = $pStyles['borders']['inside'];
+                        }
+                    }
+                    unset($pStyles['borders']['inside']); // not needed any more
+                }
+                // width and height characteristics of selection, 1, 2, or 3 (for 3 or more)
+                $xMax = min($rangeEnd[0] - $rangeStart[0] + 1, 3);
+                $yMax = min($rangeEnd[1] - $rangeStart[1] + 1, 3);
+
+                // loop through up to 3 x 3 = 9 regions
+                for ($x = 1; $x <= $xMax; ++$x) {
+                    // start column index for region
+                    $colStart = ($x == 3) ?
+                        Coordinate::stringFromColumnIndex($rangeEnd[0])
+                            : Coordinate::stringFromColumnIndex($rangeStart[0] + $x - 1);
+                    // end column index for region
+                    $colEnd = ($x == 1) ?
+                        Coordinate::stringFromColumnIndex($rangeStart[0])
+                            : Coordinate::stringFromColumnIndex($rangeEnd[0] - $xMax + $x);
+
+                    for ($y = 1; $y <= $yMax; ++$y) {
+                        // which edges are touching the region
+                        $edges = [];
+                        if ($x == 1) {
+                            // are we at left edge
+                            $edges[] = 'left';
+                        }
+                        if ($x == $xMax) {
+                            // are we at right edge
+                            $edges[] = 'right';
+                        }
+                        if ($y == 1) {
+                            // are we at top edge?
+                            $edges[] = 'top';
+                        }
+                        if ($y == $yMax) {
+                            // are we at bottom edge?
+                            $edges[] = 'bottom';
+                        }
+
+                        // start row index for region
+                        $rowStart = ($y == 3) ?
+                            $rangeEnd[1] : $rangeStart[1] + $y - 1;
+
+                        // end row index for region
+                        $rowEnd = ($y == 1) ?
+                            $rangeStart[1] : $rangeEnd[1] - $yMax + $y;
+
+                        // build range for region
+                        $range = $colStart . $rowStart . ':' . $colEnd . $rowEnd;
+
+                        // retrieve relevant style array for region
+                        $regionStyles = $pStyles;
+                        unset($regionStyles['borders']['inside']);
+
+                        // what are the inner edges of the region when looking at the selection
+                        $innerEdges = array_diff(['top', 'right', 'bottom', 'left'], $edges);
+
+                        // inner edges that are not touching the region should take the 'inside' border properties if they have been set
+                        foreach ($innerEdges as $innerEdge) {
+                            switch ($innerEdge) {
+                                case 'top':
+                                case 'bottom':
+                                    // should pick up 'horizontal' border property if set
+                                    if (isset($pStyles['borders']['horizontal'])) {
+                                        $regionStyles['borders'][$innerEdge] = $pStyles['borders']['horizontal'];
+                                    } else {
+                                        unset($regionStyles['borders'][$innerEdge]);
+                                    }
+
+                                    break;
+                                case 'left':
+                                case 'right':
+                                    // should pick up 'vertical' border property if set
+                                    if (isset($pStyles['borders']['vertical'])) {
+                                        $regionStyles['borders'][$innerEdge] = $pStyles['borders']['vertical'];
+                                    } else {
+                                        unset($regionStyles['borders'][$innerEdge]);
+                                    }
+
+                                    break;
+                            }
+                        }
+
+                        // apply region style to region by calling applyFromArray() in simple mode
+                        $this->getActiveSheet()->getStyle($range)->applyFromArray($regionStyles, false);
+                    }
+                }
+
+                // restore initial cell selection range
+                $this->getActiveSheet()->getStyle($pRange);
+
+                return $this;
+            }
+
+            // SIMPLE MODE:
+            // Selection type, inspect
+            if (preg_match('/^[A-Z]+1:[A-Z]+1048576$/', $pRange)) {
+                $selectionType = 'COLUMN';
+            } elseif (preg_match('/^A\d+:XFD\d+$/', $pRange)) {
+                $selectionType = 'ROW';
+            } else {
+                $selectionType = 'CELL';
+            }
+
+            // First loop through columns, rows, or cells to find out which styles are affected by this operation
+            switch ($selectionType) {
+                case 'COLUMN':
+                    $oldXfIndexes = [];
+                    for ($col = $rangeStart[0]; $col <= $rangeEnd[0]; ++$col) {
+                        $oldXfIndexes[$this->getActiveSheet()->getColumnDimensionByColumn($col)->getXfIndex()] = true;
+                    }
+
+                    break;
+                case 'ROW':
+                    $oldXfIndexes = [];
+                    for ($row = $rangeStart[1]; $row <= $rangeEnd[1]; ++$row) {
+                        if ($this->getActiveSheet()->getRowDimension($row)->getXfIndex() == null) {
+                            $oldXfIndexes[0] = true; // row without explicit style should be formatted based on default style
+                        } else {
+                            $oldXfIndexes[$this->getActiveSheet()->getRowDimension($row)->getXfIndex()] = true;
+                        }
+                    }
+
+                    break;
+                case 'CELL':
+                    $oldXfIndexes = [];
+                    for ($col = $rangeStart[0]; $col <= $rangeEnd[0]; ++$col) {
+                        for ($row = $rangeStart[1]; $row <= $rangeEnd[1]; ++$row) {
+                            $oldXfIndexes[$this->getActiveSheet()->getCellByColumnAndRow($col, $row)->getXfIndex()] = true;
+                        }
+                    }
+
+                    break;
+            }
+
+            // clone each of the affected styles, apply the style array, and add the new styles to the workbook
+            $workbook = $this->getActiveSheet()->getParent();
+            foreach ($oldXfIndexes as $oldXfIndex => $dummy) {
+                $style = $workbook->getCellXfByIndex($oldXfIndex);
+                $newStyle = clone $style;
+                $newStyle->applyFromArray($pStyles);
+
+                if ($existingStyle = $workbook->getCellXfByHashCode($newStyle->getHashCode())) {
+                    // there is already such cell Xf in our collection
+                    $newXfIndexes[$oldXfIndex] = $existingStyle->getIndex();
+                } else {
+                    // we don't have such a cell Xf, need to add
+                    $workbook->addCellXf($newStyle);
+                    $newXfIndexes[$oldXfIndex] = $newStyle->getIndex();
+                }
+            }
+
+            // Loop through columns, rows, or cells again and update the XF index
+            switch ($selectionType) {
+                case 'COLUMN':
+                    for ($col = $rangeStart[0]; $col <= $rangeEnd[0]; ++$col) {
+                        $columnDimension = $this->getActiveSheet()->getColumnDimensionByColumn($col);
+                        $oldXfIndex = $columnDimension->getXfIndex();
+                        $columnDimension->setXfIndex($newXfIndexes[$oldXfIndex]);
+                    }
+
+                    break;
+                case 'ROW':
+                    for ($row = $rangeStart[1]; $row <= $rangeEnd[1]; ++$row) {
+                        $rowDimension = $this->getActiveSheet()->getRowDimension($row);
+                        $oldXfIndex = $rowDimension->getXfIndex() === null ?
+                            0 : $rowDimension->getXfIndex(); // row without explicit style should be formatted based on default style
+                        $rowDimension->setXfIndex($newXfIndexes[$oldXfIndex]);
+                    }
+
+                    break;
+                case 'CELL':
+                    for ($col = $rangeStart[0]; $col <= $rangeEnd[0]; ++$col) {
+                        for ($row = $rangeStart[1]; $row <= $rangeEnd[1]; ++$row) {
+                            $cell = $this->getActiveSheet()->getCellByColumnAndRow($col, $row);
+                            $oldXfIndex = $cell->getXfIndex();
+                            $cell->setXfIndex($newXfIndexes[$oldXfIndex]);
+                        }
+                    }
+
+                    break;
+            }
+        } else {
+            // not a supervisor, just apply the style array directly on style object
+            if (isset($pStyles['fill'])) {
+                $this->getFill()->applyFromArray($pStyles['fill']);
+            }
+            if (isset($pStyles['font'])) {
+                $this->getFont()->applyFromArray($pStyles['font']);
+            }
+            if (isset($pStyles['borders'])) {
+                $this->getBorders()->applyFromArray($pStyles['borders']);
+            }
+            if (isset($pStyles['alignment'])) {
+                $this->getAlignment()->applyFromArray($pStyles['alignment']);
+            }
+            if (isset($pStyles['numberFormat'])) {
+                $this->getNumberFormat()->applyFromArray($pStyles['numberFormat']);
+            }
+            if (isset($pStyles['protection'])) {
+                $this->getProtection()->applyFromArray($pStyles['protection']);
+            }
+            if (isset($pStyles['quotePrefix'])) {
+                $this->quotePrefix = $pStyles['quotePrefix'];
+            }
+        }
+
+        return $this;
+    }
+
+    /**
+     * Get Fill.
+     *
+     * @return Fill
+     */
+    public function getFill()
+    {
+        return $this->fill;
+    }
+
+    /**
+     * Get Font.
+     *
+     * @return Font
+     */
+    public function getFont()
+    {
+        return $this->font;
+    }
+
+    /**
+     * Set font.
+     *
+     * @param Font $font
+     *
+     * @return Style
+     */
+    public function setFont(Font $font)
+    {
+        $this->font = $font;
+
+        return $this;
+    }
+
+    /**
+     * Get Borders.
+     *
+     * @return Borders
+     */
+    public function getBorders()
+    {
+        return $this->borders;
+    }
+
+    /**
+     * Get Alignment.
+     *
+     * @return Alignment
+     */
+    public function getAlignment()
+    {
+        return $this->alignment;
+    }
+
+    /**
+     * Get Number Format.
+     *
+     * @return NumberFormat
+     */
+    public function getNumberFormat()
+    {
+        return $this->numberFormat;
+    }
+
+    /**
+     * Get Conditional Styles. Only used on supervisor.
+     *
+     * @return Conditional[]
+     */
+    public function getConditionalStyles()
+    {
+        return $this->getActiveSheet()->getConditionalStyles($this->getActiveCell());
+    }
+
+    /**
+     * Set Conditional Styles. Only used on supervisor.
+     *
+     * @param Conditional[] $pValue Array of conditional styles
+     *
+     * @return Style
+     */
+    public function setConditionalStyles(array $pValue)
+    {
+        $this->getActiveSheet()->setConditionalStyles($this->getSelectedCells(), $pValue);
+
+        return $this;
+    }
+
+    /**
+     * Get Protection.
+     *
+     * @return Protection
+     */
+    public function getProtection()
+    {
+        return $this->protection;
+    }
+
+    /**
+     * Get quote prefix.
+     *
+     * @return bool
+     */
+    public function getQuotePrefix()
+    {
+        if ($this->isSupervisor) {
+            return $this->getSharedComponent()->getQuotePrefix();
+        }
+
+        return $this->quotePrefix;
+    }
+
+    /**
+     * Set quote prefix.
+     *
+     * @param bool $pValue
+     *
+     * @return Style
+     */
+    public function setQuotePrefix($pValue)
+    {
+        if ($pValue == '') {
+            $pValue = false;
+        }
+        if ($this->isSupervisor) {
+            $styleArray = ['quotePrefix' => $pValue];
+            $this->getActiveSheet()->getStyle($this->getSelectedCells())->applyFromArray($styleArray);
+        } else {
+            $this->quotePrefix = (bool) $pValue;
+        }
+
+        return $this;
+    }
+
+    /**
+     * Get hash code.
+     *
+     * @return string Hash code
+     */
+    public function getHashCode()
+    {
+        $hashConditionals = '';
+        foreach ($this->conditionalStyles as $conditional) {
+            $hashConditionals .= $conditional->getHashCode();
+        }
+
+        return md5(
+            $this->fill->getHashCode() .
+            $this->font->getHashCode() .
+            $this->borders->getHashCode() .
+            $this->alignment->getHashCode() .
+            $this->numberFormat->getHashCode() .
+            $hashConditionals .
+            $this->protection->getHashCode() .
+            ($this->quotePrefix ? 't' : 'f') .
+            __CLASS__
+        );
+    }
+
+    /**
+     * Get own index in style collection.
+     *
+     * @return int
+     */
+    public function getIndex()
+    {
+        return $this->index;
+    }
+
+    /**
+     * Set own index in style collection.
+     *
+     * @param int $pValue
+     */
+    public function setIndex($pValue)
+    {
+        $this->index = $pValue;
+    }
+}

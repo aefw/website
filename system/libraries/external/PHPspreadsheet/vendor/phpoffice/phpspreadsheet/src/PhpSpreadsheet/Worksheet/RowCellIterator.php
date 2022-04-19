@@ -1,114 +1,205 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-qJVlpZT7WgOYQQ3dxDke84Kmba4LRQ7tKiHA
+<?php
+
+namespace PhpOffice\PhpSpreadsheet\Worksheet;
+
+use PhpOffice\PhpSpreadsheet\Cell\Coordinate;
+use PhpOffice\PhpSpreadsheet\Exception as PhpSpreadsheetException;
+
+class RowCellIterator extends CellIterator
+{
+    /**
+     * Current iterator position.
+     *
+     * @var int
+     */
+    private $currentColumnIndex;
+
+    /**
+     * Row index.
+     *
+     * @var int
+     */
+    private $rowIndex = 1;
+
+    /**
+     * Start position.
+     *
+     * @var int
+     */
+    private $startColumnIndex = 1;
+
+    /**
+     * End position.
+     *
+     * @var int
+     */
+    private $endColumnIndex = 1;
+
+    /**
+     * Create a new column iterator.
+     *
+     * @param Worksheet $worksheet The worksheet to iterate over
+     * @param int $rowIndex The row that we want to iterate
+     * @param string $startColumn The column address at which to start iterating
+     * @param string $endColumn Optionally, the column address at which to stop iterating
+     */
+    public function __construct(Worksheet $worksheet = null, $rowIndex = 1, $startColumn = 'A', $endColumn = null)
+    {
+        // Set subject and row index
+        $this->worksheet = $worksheet;
+        $this->rowIndex = $rowIndex;
+        $this->resetEnd($endColumn);
+        $this->resetStart($startColumn);
+    }
+
+    /**
+     * (Re)Set the start column and the current column pointer.
+     *
+     * @param string $startColumn The column address at which to start iterating
+     *
+     * @throws PhpSpreadsheetException
+     *
+     * @return RowCellIterator
+     */
+    public function resetStart($startColumn = 'A')
+    {
+        $this->startColumnIndex = Coordinate::columnIndexFromString($startColumn);
+        $this->adjustForExistingOnlyRange();
+        $this->seek(Coordinate::stringFromColumnIndex($this->startColumnIndex));
+
+        return $this;
+    }
+
+    /**
+     * (Re)Set the end column.
+     *
+     * @param string $endColumn The column address at which to stop iterating
+     *
+     * @throws PhpSpreadsheetException
+     *
+     * @return RowCellIterator
+     */
+    public function resetEnd($endColumn = null)
+    {
+        $endColumn = $endColumn ? $endColumn : $this->worksheet->getHighestColumn();
+        $this->endColumnIndex = Coordinate::columnIndexFromString($endColumn);
+        $this->adjustForExistingOnlyRange();
+
+        return $this;
+    }
+
+    /**
+     * Set the column pointer to the selected column.
+     *
+     * @param string $column The column address to set the current pointer at
+     *
+     * @throws PhpSpreadsheetException
+     *
+     * @return RowCellIterator
+     */
+    public function seek($column = 'A')
+    {
+        $column = Coordinate::columnIndexFromString($column);
+        if (($column < $this->startColumnIndex) || ($column > $this->endColumnIndex)) {
+            throw new PhpSpreadsheetException("Column $column is out of range ({$this->startColumnIndex} - {$this->endColumnIndex})");
+        } elseif ($this->onlyExistingCells && !($this->worksheet->cellExistsByColumnAndRow($column, $this->rowIndex))) {
+            throw new PhpSpreadsheetException('In "IterateOnlyExistingCells" mode and Cell does not exist');
+        }
+        $this->currentColumnIndex = $column;
+
+        return $this;
+    }
+
+    /**
+     * Rewind the iterator to the starting column.
+     */
+    public function rewind()
+    {
+        $this->currentColumnIndex = $this->startColumnIndex;
+    }
+
+    /**
+     * Return the current cell in this worksheet row.
+     *
+     * @return \PhpOffice\PhpSpreadsheet\Cell\Cell
+     */
+    public function current()
+    {
+        return $this->worksheet->getCellByColumnAndRow($this->currentColumnIndex, $this->rowIndex);
+    }
+
+    /**
+     * Return the current iterator key.
+     *
+     * @return string
+     */
+    public function key()
+    {
+        return Coordinate::stringFromColumnIndex($this->currentColumnIndex);
+    }
+
+    /**
+     * Set the iterator to its next value.
+     */
+    public function next()
+    {
+        do {
+            ++$this->currentColumnIndex;
+        } while (($this->onlyExistingCells) && (!$this->worksheet->cellExistsByColumnAndRow($this->currentColumnIndex, $this->rowIndex)) && ($this->currentColumnIndex <= $this->endColumnIndex));
+    }
+
+    /**
+     * Set the iterator to its previous value.
+     *
+     * @throws PhpSpreadsheetException
+     */
+    public function prev()
+    {
+        do {
+            --$this->currentColumnIndex;
+        } while (($this->onlyExistingCells) && (!$this->worksheet->cellExistsByColumnAndRow($this->currentColumnIndex, $this->rowIndex)) && ($this->currentColumnIndex >= $this->startColumnIndex));
+    }
+
+    /**
+     * Indicate if more columns exist in the worksheet range of columns that we're iterating.
+     *
+     * @return bool
+     */
+    public function valid()
+    {
+        return $this->currentColumnIndex <= $this->endColumnIndex && $this->currentColumnIndex >= $this->startColumnIndex;
+    }
+
+    /**
+     * Return the current iterator position.
+     *
+     * @return int
+     */
+    public function getCurrentColumnIndex()
+    {
+        return $this->currentColumnIndex;
+    }
+
+    /**
+     * Validate start/end values for "IterateOnlyExistingCells" mode, and adjust if necessary.
+     *
+     * @throws PhpSpreadsheetException
+     */
+    protected function adjustForExistingOnlyRange()
+    {
+        if ($this->onlyExistingCells) {
+            while ((!$this->worksheet->cellExistsByColumnAndRow($this->startColumnIndex, $this->rowIndex)) && ($this->startColumnIndex <= $this->endColumnIndex)) {
+                ++$this->startColumnIndex;
+            }
+            if ($this->startColumnIndex > $this->endColumnIndex) {
+                throw new PhpSpreadsheetException('No cells exist within the specified range');
+            }
+            while ((!$this->worksheet->cellExistsByColumnAndRow($this->endColumnIndex, $this->rowIndex)) && ($this->endColumnIndex >= $this->startColumnIndex)) {
+                --$this->endColumnIndex;
+            }
+            if ($this->endColumnIndex < $this->startColumnIndex) {
+                throw new PhpSpreadsheetException('No cells exist within the specified range');
+            }
+        }
+    }
+}

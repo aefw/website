@@ -1,79 +1,142 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Sheets;
+
+class SlicerSpec extends \Google\Model
+{
+  public $applyToPivotTables;
+  protected $backgroundColorType = Color::class;
+  protected $backgroundColorDataType = '';
+  protected $backgroundColorStyleType = ColorStyle::class;
+  protected $backgroundColorStyleDataType = '';
+  public $columnIndex;
+  protected $dataRangeType = GridRange::class;
+  protected $dataRangeDataType = '';
+  protected $filterCriteriaType = FilterCriteria::class;
+  protected $filterCriteriaDataType = '';
+  public $horizontalAlignment;
+  protected $textFormatType = TextFormat::class;
+  protected $textFormatDataType = '';
+  public $title;
+
+  public function setApplyToPivotTables($applyToPivotTables)
+  {
+    $this->applyToPivotTables = $applyToPivotTables;
+  }
+  public function getApplyToPivotTables()
+  {
+    return $this->applyToPivotTables;
+  }
+  /**
+   * @param Color
+   */
+  public function setBackgroundColor(Color $backgroundColor)
+  {
+    $this->backgroundColor = $backgroundColor;
+  }
+  /**
+   * @return Color
+   */
+  public function getBackgroundColor()
+  {
+    return $this->backgroundColor;
+  }
+  /**
+   * @param ColorStyle
+   */
+  public function setBackgroundColorStyle(ColorStyle $backgroundColorStyle)
+  {
+    $this->backgroundColorStyle = $backgroundColorStyle;
+  }
+  /**
+   * @return ColorStyle
+   */
+  public function getBackgroundColorStyle()
+  {
+    return $this->backgroundColorStyle;
+  }
+  public function setColumnIndex($columnIndex)
+  {
+    $this->columnIndex = $columnIndex;
+  }
+  public function getColumnIndex()
+  {
+    return $this->columnIndex;
+  }
+  /**
+   * @param GridRange
+   */
+  public function setDataRange(GridRange $dataRange)
+  {
+    $this->dataRange = $dataRange;
+  }
+  /**
+   * @return GridRange
+   */
+  public function getDataRange()
+  {
+    return $this->dataRange;
+  }
+  /**
+   * @param FilterCriteria
+   */
+  public function setFilterCriteria(FilterCriteria $filterCriteria)
+  {
+    $this->filterCriteria = $filterCriteria;
+  }
+  /**
+   * @return FilterCriteria
+   */
+  public function getFilterCriteria()
+  {
+    return $this->filterCriteria;
+  }
+  public function setHorizontalAlignment($horizontalAlignment)
+  {
+    $this->horizontalAlignment = $horizontalAlignment;
+  }
+  public function getHorizontalAlignment()
+  {
+    return $this->horizontalAlignment;
+  }
+  /**
+   * @param TextFormat
+   */
+  public function setTextFormat(TextFormat $textFormat)
+  {
+    $this->textFormat = $textFormat;
+  }
+  /**
+   * @return TextFormat
+   */
+  public function getTextFormat()
+  {
+    return $this->textFormat;
+  }
+  public function setTitle($title)
+  {
+    $this->title = $title;
+  }
+  public function getTitle()
+  {
+    return $this->title;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(SlicerSpec::class, 'Google_Service_Sheets_SlicerSpec');

@@ -1,66 +1,107 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ShoppingContent\Resource;
+
+use Google\Service\ShoppingContent\AccountTax as AccountTaxModel;
+use Google\Service\ShoppingContent\AccounttaxCustomBatchRequest;
+use Google\Service\ShoppingContent\AccounttaxCustomBatchResponse;
+use Google\Service\ShoppingContent\AccounttaxListResponse;
+
+/**
+ * The "accounttax" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $contentService = new Google\Service\ShoppingContent(...);
+ *   $accounttax = $contentService->accounttax;
+ *  </code>
+ */
+class Accounttax extends \Google\Service\Resource
+{
+  /**
+   * Retrieves and updates tax settings of multiple accounts in a single request.
+   * (accounttax.custombatch)
+   *
+   * @param AccounttaxCustomBatchRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return AccounttaxCustomBatchResponse
+   */
+  public function custombatch(AccounttaxCustomBatchRequest $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('custombatch', [$params], AccounttaxCustomBatchResponse::class);
+  }
+  /**
+   * Retrieves the tax settings of the account. (accounttax.get)
+   *
+   * @param string $merchantId The ID of the managing account. If this parameter
+   * is not the same as accountId, then this account must be a multi-client
+   * account and `accountId` must be the ID of a sub-account of this account.
+   * @param string $accountId The ID of the account for which to get/update
+   * account tax settings.
+   * @param array $optParams Optional parameters.
+   * @return AccountTaxModel
+   */
+  public function get($merchantId, $accountId, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'accountId' => $accountId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], AccountTaxModel::class);
+  }
+  /**
+   * Lists the tax settings of the sub-accounts in your Merchant Center account.
+   * (accounttax.listAccounttax)
+   *
+   * @param string $merchantId The ID of the managing account. This must be a
+   * multi-client account.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string maxResults The maximum number of tax settings to return in
+   * the response, used for paging.
+   * @opt_param string pageToken The token returned by the previous request.
+   * @return AccounttaxListResponse
+   */
+  public function listAccounttax($merchantId, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], AccounttaxListResponse::class);
+  }
+  /**
+   * Updates the tax settings of the account. Any fields that are not provided are
+   * deleted from the resource. (accounttax.update)
+   *
+   * @param string $merchantId The ID of the managing account. If this parameter
+   * is not the same as accountId, then this account must be a multi-client
+   * account and `accountId` must be the ID of a sub-account of this account.
+   * @param string $accountId The ID of the account for which to get/update
+   * account tax settings.
+   * @param AccountTaxModel $postBody
+   * @param array $optParams Optional parameters.
+   * @return AccountTaxModel
+   */
+  public function update($merchantId, $accountId, AccountTaxModel $postBody, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'accountId' => $accountId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], AccountTaxModel::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Accounttax::class, 'Google_Service_ShoppingContent_Resource_Accounttax');

@@ -1,83 +1,143 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-d3cW4GeR5QZH1A1aYxX8+aFy
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ShoppingContent\Resource;
+
+use Google\Service\ShoppingContent\PosCustomBatchRequest;
+use Google\Service\ShoppingContent\PosCustomBatchResponse;
+use Google\Service\ShoppingContent\PosInventoryRequest;
+use Google\Service\ShoppingContent\PosInventoryResponse;
+use Google\Service\ShoppingContent\PosListResponse;
+use Google\Service\ShoppingContent\PosSaleRequest;
+use Google\Service\ShoppingContent\PosSaleResponse;
+use Google\Service\ShoppingContent\PosStore;
+
+/**
+ * The "pos" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $contentService = new Google\Service\ShoppingContent(...);
+ *   $pos = $contentService->pos;
+ *  </code>
+ */
+class Pos extends \Google\Service\Resource
+{
+  /**
+   * Batches multiple POS-related calls in a single request. (pos.custombatch)
+   *
+   * @param PosCustomBatchRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return PosCustomBatchResponse
+   */
+  public function custombatch(PosCustomBatchRequest $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('custombatch', [$params], PosCustomBatchResponse::class);
+  }
+  /**
+   * Deletes a store for the given merchant. (pos.delete)
+   *
+   * @param string $merchantId The ID of the POS or inventory data provider.
+   * @param string $targetMerchantId The ID of the target merchant.
+   * @param string $storeCode A store code that is unique per merchant.
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($merchantId, $targetMerchantId, $storeCode, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'targetMerchantId' => $targetMerchantId, 'storeCode' => $storeCode];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Retrieves information about the given store. (pos.get)
+   *
+   * @param string $merchantId The ID of the POS or inventory data provider.
+   * @param string $targetMerchantId The ID of the target merchant.
+   * @param string $storeCode A store code that is unique per merchant.
+   * @param array $optParams Optional parameters.
+   * @return PosStore
+   */
+  public function get($merchantId, $targetMerchantId, $storeCode, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'targetMerchantId' => $targetMerchantId, 'storeCode' => $storeCode];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], PosStore::class);
+  }
+  /**
+   * Creates a store for the given merchant. (pos.insert)
+   *
+   * @param string $merchantId The ID of the POS or inventory data provider.
+   * @param string $targetMerchantId The ID of the target merchant.
+   * @param PosStore $postBody
+   * @param array $optParams Optional parameters.
+   * @return PosStore
+   */
+  public function insert($merchantId, $targetMerchantId, PosStore $postBody, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'targetMerchantId' => $targetMerchantId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], PosStore::class);
+  }
+  /**
+   * Submit inventory for the given merchant. (pos.inventory)
+   *
+   * @param string $merchantId The ID of the POS or inventory data provider.
+   * @param string $targetMerchantId The ID of the target merchant.
+   * @param PosInventoryRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return PosInventoryResponse
+   */
+  public function inventory($merchantId, $targetMerchantId, PosInventoryRequest $postBody, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'targetMerchantId' => $targetMerchantId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('inventory', [$params], PosInventoryResponse::class);
+  }
+  /**
+   * Lists the stores of the target merchant. (pos.listPos)
+   *
+   * @param string $merchantId The ID of the POS or inventory data provider.
+   * @param string $targetMerchantId The ID of the target merchant.
+   * @param array $optParams Optional parameters.
+   * @return PosListResponse
+   */
+  public function listPos($merchantId, $targetMerchantId, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'targetMerchantId' => $targetMerchantId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], PosListResponse::class);
+  }
+  /**
+   * Submit a sale event for the given merchant. (pos.sale)
+   *
+   * @param string $merchantId The ID of the POS or inventory data provider.
+   * @param string $targetMerchantId The ID of the target merchant.
+   * @param PosSaleRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return PosSaleResponse
+   */
+  public function sale($merchantId, $targetMerchantId, PosSaleRequest $postBody, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'targetMerchantId' => $targetMerchantId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('sale', [$params], PosSaleResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Pos::class, 'Google_Service_ShoppingContent_Resource_Pos');

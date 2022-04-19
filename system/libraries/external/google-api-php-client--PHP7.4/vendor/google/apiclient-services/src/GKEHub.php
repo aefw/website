@@ -1,72 +1,468 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPrD4xhLq1zEwSOjxbY3S3/r3G7fRIDGhDfZ80fqM06MnxdzAMT5ME7EM3dScjRMLLMVPdSZv
-Ty6wBBcXFMCDo+HaMfL2b9rgjmt2uqw4HANiaQ4Ymt7LXRO1By6ioq5GkYrdqiqHLtu0TdcaNGzX
-uucx7syr2Eb5eblRagh2zeLpbF1msCqPi3eHYWP14LzAkIXhAPJXjlficKMh9VygXxWtLs4ssZkO
-VLotosLxGWP1OO01PZtEC3FXDvyCTHGGQ/Ub8He083RYdHhfe4rYLaH6tU9mKourL8IeB86cFae5
-vLNzQAK/IS3Cupqrb7g8LAKb89s5YmRVTyNjAcSqXCT7O1zWMVr/a7wQWgn+YkwPPDfPAgzV4/g3
-7X2B6tncNd6NM7Kh0h0uigfgCnTqnnN7tbosqs0xL9Cnl3YSWO56/LfQcTlUd4rLereHPSVJuKo8
-RtydZRO5A4Rs61448s9XNjsAVwSq2XnZDT0cD1w4qsPLjJRCJloItVqt9Pssu0khLSgX4EGUJjjq
-sj/OIlgmW1OeJRTPLgli+pzPQxqTbS47C3Rjqpsi6s7O5kZ5kyFa0dKtQ1vKNfciLn9lER3CUn4R
-+pDQa/bHrtWI0Y9ORBr2nEBI/tjJStYKK/wHpT0+YAe44yi97Cxb9m8Mdjg/BrgZ1F+Y1Xf//w8C
-XxxmL1gRq0fFz1jexZYK1hGojGIN66Y5Qxs4Mf5DD0tuzyfdbIGkopYOnVnBYoytHVYbedMVb29a
-jTk16SGxRwo0IrAyf9/0tTh0iu2SRUWo/tavq7ERRl7FRJBXdAb49p4inIxkdK3RZEJ6FO1zo4jh
-gs9WwNMkggm8UohTYnNoaZNUsw9/5VZ7zyq/yTAEIlCk5fhgCySWMI9f1tfFOHgUnsoZiptMEI/L
-Jq9BPlZObhU/xG10F+Vnb570479pvKGQRUTpn1hwnsgJ6gUFPK3PUUBIJO1/kO8J5g2kl4dudYCY
-qz9qEt067r2IWjnqDaHBk2gSAVxoRwgngLx/c6l7j9b2HsGAQvNnM9AGJ9K9hHnLfdGYg1wDuyNB
-+WU9H177G2Skd3GVT4IwsuBYLhTtCf3ytl6dGTEQJ9p2vJtPZ5MIHZYeO+c+WHD6aQuIgv2i2qGs
-V/JapIbtA2j+ZfoaRaXFP/XoXC/hzTXNioYEdEOo6T9QFr02RzEAfbBsmpCatq61WglRKkinHI6m
-Jkl/T79OThOV6NVNqNlsRJjQ07Fwj1ZP86qf4sShNVIGXxKnKI7wtWR2TEAQ7XYzdyOFSEcdVR15
-JVNHkXNRd7nG7wDntXnqP93A5gOucV0+LyE2+atZCDG2VsD2QWrrfteR5JygrcbGdbDmu4EFVV+2
-O1k0nOaXtaDdhL962EqQ/jkVBG0kpmZojN5cyw02fx95P66aaZLJ2Yk8R855HJJ4IdP3fYVSqau9
-csURCRUTpwG8oBtNoDgJL7Bu6N1uNs170WGvBP73h9hBCTMon0sbHc8AkFs+Lj19N1an4NhA6Sqj
-QQ5jua/I4el2xqMsu9zN6E29WcKt44RKRsYyRZaw8Mx5GGh071/R2IWdmldafZCj6toyMceeoGns
-58JHrAKzXUpfHT3cJlGcg+zpMWW1urRT33TNo/5kq0YiX7hBqTMrJSljdTn9Z5Qf0cnFnkSkwF/O
-Zx0IR1hgEUAUUGEZzh3XYtpx7UE+407KaRDP5fSZeZ3rLUDbLsA6HqjhNxVuTzohzREPyYpetL1A
-xFByJfoHiY66CSbSpaVL+94W3LHFN5zcmGl5xGSqrEM9kns346AdxwP56YbM/+5Y9FcuP6y+1Lbo
-cvsfIsVAeOFhyV030vCn6PtkCN6s3SMVedxlPQyzsbbSoCJM2xXTIwyH25YSNwDGaax91EdvhAUy
-NDIlZx6HCY6xGWNaLpqclglgxrmOyPTrAlVVDJd/xStPX16dIv5jeFWk7P78TbH9RIPQbrHgVkWB
-8v62vzgvOZjqbKHswb9Tjaeskm+ZAPmF2mjpvXmz1C2Z3IyX8kN6zYXaiw80p3veNkc+7Ij/J8RI
-eLvsjFMCeyaHcp54NZKjX+dYWezEe6IL1x2rtJwP4VoTQGu2/1tJZT4KGzI0gSQEgK/yZ+DyMU3i
-dO1bbIwKyZJm9L3X02rzfANqlI6Bh8+v4dpKqwVVWvFSe2esEKy4c0FPs34bgEmjX7AePw8VKDnv
-WsNXIMSd9vwW20RdTfcdUVE8I5meuta1lpBivRV4qpWVulvItwpDq5mIGgRRjuq001IO+9ZFBWBj
-aMmdJPn2AbWa8pV8J35NXpdHqCemI1vuhSPiS3ltBQPAvM7xyEH8Un3WaKaYR2mW7zZhqDBmyamH
-tak6jjoofujJR9s0moGeowWjcGHlt71ns9oFqOX4qYjlOG+tk9UjUYNNP4YW+/ZKvhUF2XxPaM9h
-5Grv8qz/9YEAwt2fovgSQZ7qTNIccXC/sOxgEu5VNIIT2a/K8E7LsPzMra3JZQy/o++qtIp6orzn
-fw8pQ+JSfdc389A4M4m5NUCjInkfAw7A7EDNzo8IHxN14Pot91D/FIR8qAisbFRJHRxpBhdpP1cl
-QzumBuUTCA/5Yfdzl6LZsfuZA03fL0SzJGjzEdFT+q241DwJfUE84pglnhjpT6WgnSQxAXpOVCom
-wzx/UdKBCBJ87KLIlk9JRgDkaD2BFcJEa9soPiLVcvZTkRTjd4QWGMiMEb4xo6yH+xl/3308jXO1
-y6DKfXD9StvReB96nzr8IulsAD69QsMyM8QiTqHEteOsQ/i1Mw4a9IUBkIdESmuQM0IB7KJZeRM/
-65ngXDJAxfv1lLA2TbQp4H5C3+lceBPZnUeGHr9UZTr1O8YYQqCF9wDznKJqJeFb3tRv+vAuD+6Z
-sdztk49l4EqQWIijvxteTvhw4RnLdgYGiKQhnXOPAHdyfajNlyG/DwM1ePOOV5fcYufNRwq7me9b
-7dKK0twgcwvN0PKfWXkvgONv7vCGBLn+5vFsLk8xMWBX+Icm15BpzQL/xn05z4Xcbr8cS4br/Llz
-ZgFcCRpPZVLa3omXJXiDYYzOrY7YvujJHxpE9tzmuZDaxVq/0wmBWz/v6uZ7bKvp/qhHEVAMHuDG
-Y3vp4sGP6novJpKbZgBJd8EhOU+bV5IDsP6Fs/WZnB9zg693Zoggj2HnkSD7XJEpV9JZggj2bsqt
-SFg/L+jVGj+N4KfPPJhlkaWXOkTlwhf6FmeQUIk0VEODRzvIaHB19eR33BYZblOJEWGBdDvN/7dZ
-flfQh3EBIeLkZTnDSGMWJPQRLJk7HgxeWByr9fBGRY5nAjZCee3Ml1mHu0aGiRo6OO9VV7MX56ph
-LAF43hmbWsvKX2HIdKQ/mE+krN6Zrde59q0erEpwfhIAE6ij8JWuVx8bqoOXUtLvYsAcLUNHoySQ
-qQcugWA/EbZ1SYnLlUE/Y9c7w8+ByrJPGlyihL/wXEbyGwzcdDjJv9j4smwHuJ9myUGj9cC3VpOb
-W96lEROzbubSzkajWcYPbDDCfjHAUfD94t1HeTKTG8sY+oxO4gf+4tAymqYq+bpcU+kTLF5QcwXK
-izbzbMI8ah6fyyFpBVLe73Q9UGRumaDexE2kof5yZ1B/qGJU9Xvxsrb2BpXzqgzBFubdGzk2U4fb
-8tRQztJuhJltKK6tC2ChYJJ5kXjZrwcM+J9x7TB1fa6t4kCg0qn8NYNeVnBp9oKgkCqSw3K6BZHD
-FnUNpqV86BOglnPSf8MfyKSaktfn1Q61q5aV9ey4LMf6UTvd2HcxUTL64Z7tVoZkp8Bo15byo7E3
-dVQ18tkAxWcSzHxF1zUeH6UfJiihG7cnMNCMIm5u+n07dsf63dasbbXDBA1ybu+eUop0fZeGNHun
-4XtSwo2I60Z4KVDISI3ZkqL4TsZv6ssFVn4pWBrKVTaDXv7e1OSimzOwkre3DSkfl2OakBXE9Cbc
-goPzSaWV+QMUeMnofDNWjsLvObdi9jFj+F/c4ekaAOKUc4pnmYD2qELo/jfsXTu/NGOoev1gCzJA
-+ff7MtuJYRdSpXN6fdi9IUmUa7SbaR5LyRp8dBS1C7+KSHYcXtTzbbjqnPcIaawZrhiBHbvcW4MI
-P0qOGGBzNqDBRvTc1hJQr4+5kcfs6e7HKmMWSMh9bJQAD0eIKLCRxDMspUn4OLsoRIWLmXgwK1nE
-8vLEMftQXIF1HZqo6A6zTG1dEbNGFtDsNSOKMt1nXoZA+9KnxRV7rxRME8a12oVa6Tof1e+Zel7E
-k11kGkolZIcGV0OS/CbzQmfl/0hRqJRNLzP1WopyHSdAe8Wc59MXIsFBZkP3hKHS5GKnu9PKRCMt
-bWrWT9uVYWrVSJWXo8aXcgRl5yPV+e0gdRyGVdckN+u6UXEWIiI4h7N2c7FNPKZ0jss/wCt8c3Rh
-RpvqGT019P38C+sGi+vzC1vvSUcZlWHMKQWWhYH5mmCTj3P3r4Hpd0xN3q43R4W9V9O0aSLWVQwi
-xFiP2WzEGYoMQBVULLsNuTwKsi2sZq4jAGaCPmffJsanHX+IyVZ+YEl+bep2rxsIshHcuu8P24SP
-B03oiQAqLa5YgPMGTQ57kNfEm+mClh3W7cTuNVK0IpAbXR/kpz2WdPsHdClHquk31UgP3y/fKzLx
-QzVJx8vaHNvIABhV5eZwSefr3NAQ5DY1yGV2BVdqiaZ9ixGZDSa3pTXzeikXG+rSxSsfhuCWh8IO
-AcRoL/itG2PlkfiUy9HT+5f4pZhN+7uo7AgjB5dGBCI1VNtx1cmJfTlLBk8W61HXshpLXz0QNEtx
-lOYqNSTgLq+WAzEtD1wn9j63zHGHBNQI3/uM17ge6YYKLhEpcTgZoMjS4DUYh5H592MUbPeq5DBg
-vmkSC4qxAZ+q747WwMeJLPvESE25blVimSRMmus98MZVIzt+9qF5ubAnc5lStjKlYkAktT4F09tL
-g9LlyLrTD4E+sxH220==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for GKEHub (v1).
+ *
+ * <p>
+</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/anthos/multicluster-management/connect/registering-a-cluster" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class GKEHub extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+
+  public $projects_locations;
+  public $projects_locations_features;
+  public $projects_locations_memberships;
+  public $projects_locations_operations;
+
+  /**
+   * Constructs the internal representation of the GKEHub service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://gkehub.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'gkehub';
+
+    $this->projects_locations = new GKEHub\Resource\ProjectsLocations(
+        $this,
+        $this->serviceName,
+        'locations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+name}/locations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_features = new GKEHub\Resource\ProjectsLocationsFeatures(
+        $this,
+        $this->serviceName,
+        'features',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/features',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'featureId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'requestId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'force' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'requestId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1/{+resource}:getIamPolicy',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'options.requestedPolicyVersion' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/features',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'requestId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_memberships = new GKEHub\Resource\ProjectsLocationsMemberships(
+        $this,
+        $this->serviceName,
+        'memberships',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/memberships',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'membershipId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'requestId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'requestId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'generateConnectManifest' => [
+              'path' => 'v1/{+name}:generateConnectManifest',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'imagePullSecretContent' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'isUpgrade' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'namespace' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'proxy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'registry' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'version' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1/{+resource}:getIamPolicy',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'options.requestedPolicyVersion' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/memberships',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'requestId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_operations = new GKEHub\Resource\ProjectsLocationsOperations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'cancel' => [
+              'path' => 'v1/{+name}:cancel',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+name}/operations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GKEHub::class, 'Google_Service_GKEHub');

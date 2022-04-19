@@ -1,76 +1,105 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-gcCi9vm=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\FirebaseDynamicLinks;
+
+class GetIosPostInstallAttributionRequest extends \Google\Model
+{
+  public $appInstallationTime;
+  public $bundleId;
+  protected $deviceType = DeviceInfo::class;
+  protected $deviceDataType = '';
+  public $iosVersion;
+  public $retrievalMethod;
+  public $sdkVersion;
+  public $uniqueMatchLinkToCheck;
+  public $visualStyle;
+
+  public function setAppInstallationTime($appInstallationTime)
+  {
+    $this->appInstallationTime = $appInstallationTime;
+  }
+  public function getAppInstallationTime()
+  {
+    return $this->appInstallationTime;
+  }
+  public function setBundleId($bundleId)
+  {
+    $this->bundleId = $bundleId;
+  }
+  public function getBundleId()
+  {
+    return $this->bundleId;
+  }
+  /**
+   * @param DeviceInfo
+   */
+  public function setDevice(DeviceInfo $device)
+  {
+    $this->device = $device;
+  }
+  /**
+   * @return DeviceInfo
+   */
+  public function getDevice()
+  {
+    return $this->device;
+  }
+  public function setIosVersion($iosVersion)
+  {
+    $this->iosVersion = $iosVersion;
+  }
+  public function getIosVersion()
+  {
+    return $this->iosVersion;
+  }
+  public function setRetrievalMethod($retrievalMethod)
+  {
+    $this->retrievalMethod = $retrievalMethod;
+  }
+  public function getRetrievalMethod()
+  {
+    return $this->retrievalMethod;
+  }
+  public function setSdkVersion($sdkVersion)
+  {
+    $this->sdkVersion = $sdkVersion;
+  }
+  public function getSdkVersion()
+  {
+    return $this->sdkVersion;
+  }
+  public function setUniqueMatchLinkToCheck($uniqueMatchLinkToCheck)
+  {
+    $this->uniqueMatchLinkToCheck = $uniqueMatchLinkToCheck;
+  }
+  public function getUniqueMatchLinkToCheck()
+  {
+    return $this->uniqueMatchLinkToCheck;
+  }
+  public function setVisualStyle($visualStyle)
+  {
+    $this->visualStyle = $visualStyle;
+  }
+  public function getVisualStyle()
+  {
+    return $this->visualStyle;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GetIosPostInstallAttributionRequest::class, 'Google_Service_FirebaseDynamicLinks_GetIosPostInstallAttributionRequest');

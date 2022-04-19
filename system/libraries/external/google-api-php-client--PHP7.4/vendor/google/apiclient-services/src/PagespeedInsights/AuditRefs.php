@@ -1,59 +1,72 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-GVJoU/MMSJc+nqLYQm==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\PagespeedInsights;
+
+class AuditRefs extends \Google\Collection
+{
+  protected $collection_key = 'relevantAudits';
+  public $acronym;
+  public $group;
+  public $id;
+  public $relevantAudits;
+  public $weight;
+
+  public function setAcronym($acronym)
+  {
+    $this->acronym = $acronym;
+  }
+  public function getAcronym()
+  {
+    return $this->acronym;
+  }
+  public function setGroup($group)
+  {
+    $this->group = $group;
+  }
+  public function getGroup()
+  {
+    return $this->group;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setRelevantAudits($relevantAudits)
+  {
+    $this->relevantAudits = $relevantAudits;
+  }
+  public function getRelevantAudits()
+  {
+    return $this->relevantAudits;
+  }
+  public function setWeight($weight)
+  {
+    $this->weight = $weight;
+  }
+  public function getWeight()
+  {
+    return $this->weight;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AuditRefs::class, 'Google_Service_PagespeedInsights_AuditRefs');

@@ -1,107 +1,204 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-t9cQ/wGsew2E
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dialogflow;
+
+class GoogleCloudDialogflowCxV3QueryResult extends \Google\Collection
+{
+  protected $collection_key = 'webhookStatuses';
+  protected $currentPageType = GoogleCloudDialogflowCxV3Page::class;
+  protected $currentPageDataType = '';
+  public $diagnosticInfo;
+  protected $intentType = GoogleCloudDialogflowCxV3Intent::class;
+  protected $intentDataType = '';
+  public $intentDetectionConfidence;
+  public $languageCode;
+  protected $matchType = GoogleCloudDialogflowCxV3Match::class;
+  protected $matchDataType = '';
+  public $parameters;
+  protected $responseMessagesType = GoogleCloudDialogflowCxV3ResponseMessage::class;
+  protected $responseMessagesDataType = 'array';
+  protected $sentimentAnalysisResultType = GoogleCloudDialogflowCxV3SentimentAnalysisResult::class;
+  protected $sentimentAnalysisResultDataType = '';
+  public $text;
+  public $transcript;
+  public $triggerEvent;
+  public $triggerIntent;
+  public $webhookPayloads;
+  protected $webhookStatusesType = GoogleRpcStatus::class;
+  protected $webhookStatusesDataType = 'array';
+
+  /**
+   * @param GoogleCloudDialogflowCxV3Page
+   */
+  public function setCurrentPage(GoogleCloudDialogflowCxV3Page $currentPage)
+  {
+    $this->currentPage = $currentPage;
+  }
+  /**
+   * @return GoogleCloudDialogflowCxV3Page
+   */
+  public function getCurrentPage()
+  {
+    return $this->currentPage;
+  }
+  public function setDiagnosticInfo($diagnosticInfo)
+  {
+    $this->diagnosticInfo = $diagnosticInfo;
+  }
+  public function getDiagnosticInfo()
+  {
+    return $this->diagnosticInfo;
+  }
+  /**
+   * @param GoogleCloudDialogflowCxV3Intent
+   */
+  public function setIntent(GoogleCloudDialogflowCxV3Intent $intent)
+  {
+    $this->intent = $intent;
+  }
+  /**
+   * @return GoogleCloudDialogflowCxV3Intent
+   */
+  public function getIntent()
+  {
+    return $this->intent;
+  }
+  public function setIntentDetectionConfidence($intentDetectionConfidence)
+  {
+    $this->intentDetectionConfidence = $intentDetectionConfidence;
+  }
+  public function getIntentDetectionConfidence()
+  {
+    return $this->intentDetectionConfidence;
+  }
+  public function setLanguageCode($languageCode)
+  {
+    $this->languageCode = $languageCode;
+  }
+  public function getLanguageCode()
+  {
+    return $this->languageCode;
+  }
+  /**
+   * @param GoogleCloudDialogflowCxV3Match
+   */
+  public function setMatch(GoogleCloudDialogflowCxV3Match $match)
+  {
+    $this->match = $match;
+  }
+  /**
+   * @return GoogleCloudDialogflowCxV3Match
+   */
+  public function getMatch()
+  {
+    return $this->match;
+  }
+  public function setParameters($parameters)
+  {
+    $this->parameters = $parameters;
+  }
+  public function getParameters()
+  {
+    return $this->parameters;
+  }
+  /**
+   * @param GoogleCloudDialogflowCxV3ResponseMessage[]
+   */
+  public function setResponseMessages($responseMessages)
+  {
+    $this->responseMessages = $responseMessages;
+  }
+  /**
+   * @return GoogleCloudDialogflowCxV3ResponseMessage[]
+   */
+  public function getResponseMessages()
+  {
+    return $this->responseMessages;
+  }
+  /**
+   * @param GoogleCloudDialogflowCxV3SentimentAnalysisResult
+   */
+  public function setSentimentAnalysisResult(GoogleCloudDialogflowCxV3SentimentAnalysisResult $sentimentAnalysisResult)
+  {
+    $this->sentimentAnalysisResult = $sentimentAnalysisResult;
+  }
+  /**
+   * @return GoogleCloudDialogflowCxV3SentimentAnalysisResult
+   */
+  public function getSentimentAnalysisResult()
+  {
+    return $this->sentimentAnalysisResult;
+  }
+  public function setText($text)
+  {
+    $this->text = $text;
+  }
+  public function getText()
+  {
+    return $this->text;
+  }
+  public function setTranscript($transcript)
+  {
+    $this->transcript = $transcript;
+  }
+  public function getTranscript()
+  {
+    return $this->transcript;
+  }
+  public function setTriggerEvent($triggerEvent)
+  {
+    $this->triggerEvent = $triggerEvent;
+  }
+  public function getTriggerEvent()
+  {
+    return $this->triggerEvent;
+  }
+  public function setTriggerIntent($triggerIntent)
+  {
+    $this->triggerIntent = $triggerIntent;
+  }
+  public function getTriggerIntent()
+  {
+    return $this->triggerIntent;
+  }
+  public function setWebhookPayloads($webhookPayloads)
+  {
+    $this->webhookPayloads = $webhookPayloads;
+  }
+  public function getWebhookPayloads()
+  {
+    return $this->webhookPayloads;
+  }
+  /**
+   * @param GoogleRpcStatus[]
+   */
+  public function setWebhookStatuses($webhookStatuses)
+  {
+    $this->webhookStatuses = $webhookStatuses;
+  }
+  /**
+   * @return GoogleRpcStatus[]
+   */
+  public function getWebhookStatuses()
+  {
+    return $this->webhookStatuses;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudDialogflowCxV3QueryResult::class, 'Google_Service_Dialogflow_GoogleCloudDialogflowCxV3QueryResult');

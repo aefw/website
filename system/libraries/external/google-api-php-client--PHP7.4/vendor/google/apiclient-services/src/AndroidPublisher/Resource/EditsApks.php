@@ -1,61 +1,84 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-HGD505Ed+uOCT0==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AndroidPublisher\Resource;
+
+use Google\Service\AndroidPublisher\Apk;
+use Google\Service\AndroidPublisher\ApksAddExternallyHostedRequest;
+use Google\Service\AndroidPublisher\ApksAddExternallyHostedResponse;
+use Google\Service\AndroidPublisher\ApksListResponse;
+
+/**
+ * The "apks" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $androidpublisherService = new Google\Service\AndroidPublisher(...);
+ *   $apks = $androidpublisherService->apks;
+ *  </code>
+ */
+class EditsApks extends \Google\Service\Resource
+{
+  /**
+   * Creates a new APK without uploading the APK itself to Google Play, instead
+   * hosting the APK at a specified URL. This function is only available to
+   * organizations using Managed Play whose application is configured to restrict
+   * distribution to the organizations. (apks.addexternallyhosted)
+   *
+   * @param string $packageName Package name of the app.
+   * @param string $editId Identifier of the edit.
+   * @param ApksAddExternallyHostedRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return ApksAddExternallyHostedResponse
+   */
+  public function addexternallyhosted($packageName, $editId, ApksAddExternallyHostedRequest $postBody, $optParams = [])
+  {
+    $params = ['packageName' => $packageName, 'editId' => $editId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('addexternallyhosted', [$params], ApksAddExternallyHostedResponse::class);
+  }
+  /**
+   * Lists all current APKs of the app and edit. (apks.listEditsApks)
+   *
+   * @param string $packageName Package name of the app.
+   * @param string $editId Identifier of the edit.
+   * @param array $optParams Optional parameters.
+   * @return ApksListResponse
+   */
+  public function listEditsApks($packageName, $editId, $optParams = [])
+  {
+    $params = ['packageName' => $packageName, 'editId' => $editId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ApksListResponse::class);
+  }
+  /**
+   * Uploads an APK and adds to the current edit. (apks.upload)
+   *
+   * @param string $packageName Package name of the app.
+   * @param string $editId Identifier of the edit.
+   * @param array $optParams Optional parameters.
+   * @return Apk
+   */
+  public function upload($packageName, $editId, $optParams = [])
+  {
+    $params = ['packageName' => $packageName, 'editId' => $editId];
+    $params = array_merge($params, $optParams);
+    return $this->call('upload', [$params], Apk::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(EditsApks::class, 'Google_Service_AndroidPublisher_Resource_EditsApks');

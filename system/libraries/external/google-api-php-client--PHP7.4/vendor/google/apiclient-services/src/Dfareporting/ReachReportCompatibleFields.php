@@ -1,67 +1,116 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Al7/Sfkuy5WgwQtCEe9jI5BRDXEZEr90GG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dfareporting;
+
+class ReachReportCompatibleFields extends \Google\Collection
+{
+  protected $collection_key = 'reachByFrequencyMetrics';
+  protected $dimensionFiltersType = Dimension::class;
+  protected $dimensionFiltersDataType = 'array';
+  protected $dimensionsType = Dimension::class;
+  protected $dimensionsDataType = 'array';
+  public $kind;
+  protected $metricsType = Metric::class;
+  protected $metricsDataType = 'array';
+  protected $pivotedActivityMetricsType = Metric::class;
+  protected $pivotedActivityMetricsDataType = 'array';
+  protected $reachByFrequencyMetricsType = Metric::class;
+  protected $reachByFrequencyMetricsDataType = 'array';
+
+  /**
+   * @param Dimension[]
+   */
+  public function setDimensionFilters($dimensionFilters)
+  {
+    $this->dimensionFilters = $dimensionFilters;
+  }
+  /**
+   * @return Dimension[]
+   */
+  public function getDimensionFilters()
+  {
+    return $this->dimensionFilters;
+  }
+  /**
+   * @param Dimension[]
+   */
+  public function setDimensions($dimensions)
+  {
+    $this->dimensions = $dimensions;
+  }
+  /**
+   * @return Dimension[]
+   */
+  public function getDimensions()
+  {
+    return $this->dimensions;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  /**
+   * @param Metric[]
+   */
+  public function setMetrics($metrics)
+  {
+    $this->metrics = $metrics;
+  }
+  /**
+   * @return Metric[]
+   */
+  public function getMetrics()
+  {
+    return $this->metrics;
+  }
+  /**
+   * @param Metric[]
+   */
+  public function setPivotedActivityMetrics($pivotedActivityMetrics)
+  {
+    $this->pivotedActivityMetrics = $pivotedActivityMetrics;
+  }
+  /**
+   * @return Metric[]
+   */
+  public function getPivotedActivityMetrics()
+  {
+    return $this->pivotedActivityMetrics;
+  }
+  /**
+   * @param Metric[]
+   */
+  public function setReachByFrequencyMetrics($reachByFrequencyMetrics)
+  {
+    $this->reachByFrequencyMetrics = $reachByFrequencyMetrics;
+  }
+  /**
+   * @return Metric[]
+   */
+  public function getReachByFrequencyMetrics()
+  {
+    return $this->reachByFrequencyMetrics;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ReachReportCompatibleFields::class, 'Google_Service_Dfareporting_ReachReportCompatibleFields');

@@ -1,79 +1,120 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Safebrowsing;
+
+class GoogleSecuritySafebrowsingV4FetchThreatListUpdatesResponseListUpdateResponse extends \Google\Collection
+{
+  protected $collection_key = 'removals';
+  protected $additionsType = GoogleSecuritySafebrowsingV4ThreatEntrySet::class;
+  protected $additionsDataType = 'array';
+  protected $checksumType = GoogleSecuritySafebrowsingV4Checksum::class;
+  protected $checksumDataType = '';
+  public $newClientState;
+  public $platformType;
+  protected $removalsType = GoogleSecuritySafebrowsingV4ThreatEntrySet::class;
+  protected $removalsDataType = 'array';
+  public $responseType;
+  public $threatEntryType;
+  public $threatType;
+
+  /**
+   * @param GoogleSecuritySafebrowsingV4ThreatEntrySet[]
+   */
+  public function setAdditions($additions)
+  {
+    $this->additions = $additions;
+  }
+  /**
+   * @return GoogleSecuritySafebrowsingV4ThreatEntrySet[]
+   */
+  public function getAdditions()
+  {
+    return $this->additions;
+  }
+  /**
+   * @param GoogleSecuritySafebrowsingV4Checksum
+   */
+  public function setChecksum(GoogleSecuritySafebrowsingV4Checksum $checksum)
+  {
+    $this->checksum = $checksum;
+  }
+  /**
+   * @return GoogleSecuritySafebrowsingV4Checksum
+   */
+  public function getChecksum()
+  {
+    return $this->checksum;
+  }
+  public function setNewClientState($newClientState)
+  {
+    $this->newClientState = $newClientState;
+  }
+  public function getNewClientState()
+  {
+    return $this->newClientState;
+  }
+  public function setPlatformType($platformType)
+  {
+    $this->platformType = $platformType;
+  }
+  public function getPlatformType()
+  {
+    return $this->platformType;
+  }
+  /**
+   * @param GoogleSecuritySafebrowsingV4ThreatEntrySet[]
+   */
+  public function setRemovals($removals)
+  {
+    $this->removals = $removals;
+  }
+  /**
+   * @return GoogleSecuritySafebrowsingV4ThreatEntrySet[]
+   */
+  public function getRemovals()
+  {
+    return $this->removals;
+  }
+  public function setResponseType($responseType)
+  {
+    $this->responseType = $responseType;
+  }
+  public function getResponseType()
+  {
+    return $this->responseType;
+  }
+  public function setThreatEntryType($threatEntryType)
+  {
+    $this->threatEntryType = $threatEntryType;
+  }
+  public function getThreatEntryType()
+  {
+    return $this->threatEntryType;
+  }
+  public function setThreatType($threatType)
+  {
+    $this->threatType = $threatType;
+  }
+  public function getThreatType()
+  {
+    return $this->threatType;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleSecuritySafebrowsingV4FetchThreatListUpdatesResponseListUpdateResponse::class, 'Google_Service_Safebrowsing_GoogleSecuritySafebrowsingV4FetchThreatListUpdatesResponseListUpdateResponse');

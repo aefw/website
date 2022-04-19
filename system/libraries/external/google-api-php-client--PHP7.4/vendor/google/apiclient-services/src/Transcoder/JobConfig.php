@@ -1,82 +1,187 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-OjxLlG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Transcoder;
+
+class JobConfig extends \Google\Collection
+{
+  protected $collection_key = 'spriteSheets';
+  protected $adBreaksType = AdBreak::class;
+  protected $adBreaksDataType = 'array';
+  protected $editListType = EditAtom::class;
+  protected $editListDataType = 'array';
+  protected $elementaryStreamsType = ElementaryStream::class;
+  protected $elementaryStreamsDataType = 'array';
+  protected $inputsType = Input::class;
+  protected $inputsDataType = 'array';
+  protected $manifestsType = Manifest::class;
+  protected $manifestsDataType = 'array';
+  protected $muxStreamsType = MuxStream::class;
+  protected $muxStreamsDataType = 'array';
+  protected $outputType = Output::class;
+  protected $outputDataType = '';
+  protected $overlaysType = Overlay::class;
+  protected $overlaysDataType = 'array';
+  protected $pubsubDestinationType = PubsubDestination::class;
+  protected $pubsubDestinationDataType = '';
+  protected $spriteSheetsType = SpriteSheet::class;
+  protected $spriteSheetsDataType = 'array';
+
+  /**
+   * @param AdBreak[]
+   */
+  public function setAdBreaks($adBreaks)
+  {
+    $this->adBreaks = $adBreaks;
+  }
+  /**
+   * @return AdBreak[]
+   */
+  public function getAdBreaks()
+  {
+    return $this->adBreaks;
+  }
+  /**
+   * @param EditAtom[]
+   */
+  public function setEditList($editList)
+  {
+    $this->editList = $editList;
+  }
+  /**
+   * @return EditAtom[]
+   */
+  public function getEditList()
+  {
+    return $this->editList;
+  }
+  /**
+   * @param ElementaryStream[]
+   */
+  public function setElementaryStreams($elementaryStreams)
+  {
+    $this->elementaryStreams = $elementaryStreams;
+  }
+  /**
+   * @return ElementaryStream[]
+   */
+  public function getElementaryStreams()
+  {
+    return $this->elementaryStreams;
+  }
+  /**
+   * @param Input[]
+   */
+  public function setInputs($inputs)
+  {
+    $this->inputs = $inputs;
+  }
+  /**
+   * @return Input[]
+   */
+  public function getInputs()
+  {
+    return $this->inputs;
+  }
+  /**
+   * @param Manifest[]
+   */
+  public function setManifests($manifests)
+  {
+    $this->manifests = $manifests;
+  }
+  /**
+   * @return Manifest[]
+   */
+  public function getManifests()
+  {
+    return $this->manifests;
+  }
+  /**
+   * @param MuxStream[]
+   */
+  public function setMuxStreams($muxStreams)
+  {
+    $this->muxStreams = $muxStreams;
+  }
+  /**
+   * @return MuxStream[]
+   */
+  public function getMuxStreams()
+  {
+    return $this->muxStreams;
+  }
+  /**
+   * @param Output
+   */
+  public function setOutput(Output $output)
+  {
+    $this->output = $output;
+  }
+  /**
+   * @return Output
+   */
+  public function getOutput()
+  {
+    return $this->output;
+  }
+  /**
+   * @param Overlay[]
+   */
+  public function setOverlays($overlays)
+  {
+    $this->overlays = $overlays;
+  }
+  /**
+   * @return Overlay[]
+   */
+  public function getOverlays()
+  {
+    return $this->overlays;
+  }
+  /**
+   * @param PubsubDestination
+   */
+  public function setPubsubDestination(PubsubDestination $pubsubDestination)
+  {
+    $this->pubsubDestination = $pubsubDestination;
+  }
+  /**
+   * @return PubsubDestination
+   */
+  public function getPubsubDestination()
+  {
+    return $this->pubsubDestination;
+  }
+  /**
+   * @param SpriteSheet[]
+   */
+  public function setSpriteSheets($spriteSheets)
+  {
+    $this->spriteSheets = $spriteSheets;
+  }
+  /**
+   * @return SpriteSheet[]
+   */
+  public function getSpriteSheets()
+  {
+    return $this->spriteSheets;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(JobConfig::class, 'Google_Service_Transcoder_JobConfig');

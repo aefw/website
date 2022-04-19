@@ -1,145 +1,333 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+namespace PhpOffice\PhpSpreadsheet\Helper;
+
+class Migrator
+{
+    /**
+     * @var string[]
+     */
+    private $from;
+
+    /**
+     * @var string[]
+     */
+    private $to;
+
+    public function __construct()
+    {
+        $this->from = array_keys($this->getMapping());
+        $this->to = array_values($this->getMapping());
+    }
+
+    /**
+     * Return the ordered mapping from old PHPExcel class names to new PhpSpreadsheet one.
+     *
+     * @return string[]
+     */
+    public function getMapping()
+    {
+        // Order matters here, we should have the deepest namespaces first (the most "unique" strings)
+        $classes = [
+            'PHPExcel_Shared_Escher_DggContainer_BstoreContainer_BSE_Blip' => \PhpOffice\PhpSpreadsheet\Shared\Escher\DggContainer\BstoreContainer\BSE\Blip::class,
+            'PHPExcel_Shared_Escher_DgContainer_SpgrContainer_SpContainer' => \PhpOffice\PhpSpreadsheet\Shared\Escher\DgContainer\SpgrContainer\SpContainer::class,
+            'PHPExcel_Shared_Escher_DggContainer_BstoreContainer_BSE' => \PhpOffice\PhpSpreadsheet\Shared\Escher\DggContainer\BstoreContainer\BSE::class,
+            'PHPExcel_Shared_Escher_DgContainer_SpgrContainer' => \PhpOffice\PhpSpreadsheet\Shared\Escher\DgContainer\SpgrContainer::class,
+            'PHPExcel_Shared_Escher_DggContainer_BstoreContainer' => \PhpOffice\PhpSpreadsheet\Shared\Escher\DggContainer\BstoreContainer::class,
+            'PHPExcel_Shared_OLE_PPS_File' => \PhpOffice\PhpSpreadsheet\Shared\OLE\PPS\File::class,
+            'PHPExcel_Shared_OLE_PPS_Root' => \PhpOffice\PhpSpreadsheet\Shared\OLE\PPS\Root::class,
+            'PHPExcel_Worksheet_AutoFilter_Column_Rule' => \PhpOffice\PhpSpreadsheet\Worksheet\AutoFilter\Column\Rule::class,
+            'PHPExcel_Writer_OpenDocument_Cell_Comment' => \PhpOffice\PhpSpreadsheet\Writer\Ods\Cell\Comment::class,
+            'PHPExcel_Calculation_Token_Stack' => \PhpOffice\PhpSpreadsheet\Calculation\Token\Stack::class,
+            'PHPExcel_Chart_Renderer_jpgraph' => \PhpOffice\PhpSpreadsheet\Chart\Renderer\JpGraph::class,
+            'PHPExcel_Reader_Excel5_Escher' => \PhpOffice\PhpSpreadsheet\Reader\Xls\Escher::class,
+            'PHPExcel_Reader_Excel5_MD5' => \PhpOffice\PhpSpreadsheet\Reader\Xls\MD5::class,
+            'PHPExcel_Reader_Excel5_RC4' => \PhpOffice\PhpSpreadsheet\Reader\Xls\RC4::class,
+            'PHPExcel_Reader_Excel2007_Chart' => \PhpOffice\PhpSpreadsheet\Reader\Xlsx\Chart::class,
+            'PHPExcel_Reader_Excel2007_Theme' => \PhpOffice\PhpSpreadsheet\Reader\Xlsx\Theme::class,
+            'PHPExcel_Shared_Escher_DgContainer' => \PhpOffice\PhpSpreadsheet\Shared\Escher\DgContainer::class,
+            'PHPExcel_Shared_Escher_DggContainer' => \PhpOffice\PhpSpreadsheet\Shared\Escher\DggContainer::class,
+            'CholeskyDecomposition' => \PhpOffice\PhpSpreadsheet\Shared\JAMA\CholeskyDecomposition::class,
+            'EigenvalueDecomposition' => \PhpOffice\PhpSpreadsheet\Shared\JAMA\EigenvalueDecomposition::class,
+            'PHPExcel_Shared_JAMA_LUDecomposition' => \PhpOffice\PhpSpreadsheet\Shared\JAMA\LUDecomposition::class,
+            'PHPExcel_Shared_JAMA_Matrix' => \PhpOffice\PhpSpreadsheet\Shared\JAMA\Matrix::class,
+            'QRDecomposition' => \PhpOffice\PhpSpreadsheet\Shared\JAMA\QRDecomposition::class,
+            'PHPExcel_Shared_JAMA_QRDecomposition' => \PhpOffice\PhpSpreadsheet\Shared\JAMA\QRDecomposition::class,
+            'SingularValueDecomposition' => \PhpOffice\PhpSpreadsheet\Shared\JAMA\SingularValueDecomposition::class,
+            'PHPExcel_Shared_OLE_ChainedBlockStream' => \PhpOffice\PhpSpreadsheet\Shared\OLE\ChainedBlockStream::class,
+            'PHPExcel_Shared_OLE_PPS' => \PhpOffice\PhpSpreadsheet\Shared\OLE\PPS::class,
+            'PHPExcel_Best_Fit' => \PhpOffice\PhpSpreadsheet\Shared\Trend\BestFit::class,
+            'PHPExcel_Exponential_Best_Fit' => \PhpOffice\PhpSpreadsheet\Shared\Trend\ExponentialBestFit::class,
+            'PHPExcel_Linear_Best_Fit' => \PhpOffice\PhpSpreadsheet\Shared\Trend\LinearBestFit::class,
+            'PHPExcel_Logarithmic_Best_Fit' => \PhpOffice\PhpSpreadsheet\Shared\Trend\LogarithmicBestFit::class,
+            'polynomialBestFit' => \PhpOffice\PhpSpreadsheet\Shared\Trend\PolynomialBestFit::class,
+            'PHPExcel_Polynomial_Best_Fit' => \PhpOffice\PhpSpreadsheet\Shared\Trend\PolynomialBestFit::class,
+            'powerBestFit' => \PhpOffice\PhpSpreadsheet\Shared\Trend\PowerBestFit::class,
+            'PHPExcel_Power_Best_Fit' => \PhpOffice\PhpSpreadsheet\Shared\Trend\PowerBestFit::class,
+            'trendClass' => \PhpOffice\PhpSpreadsheet\Shared\Trend\Trend::class,
+            'PHPExcel_Worksheet_AutoFilter_Column' => \PhpOffice\PhpSpreadsheet\Worksheet\AutoFilter\Column::class,
+            'PHPExcel_Worksheet_Drawing_Shadow' => \PhpOffice\PhpSpreadsheet\Worksheet\Drawing\Shadow::class,
+            'PHPExcel_Writer_OpenDocument_Content' => \PhpOffice\PhpSpreadsheet\Writer\Ods\Content::class,
+            'PHPExcel_Writer_OpenDocument_Meta' => \PhpOffice\PhpSpreadsheet\Writer\Ods\Meta::class,
+            'PHPExcel_Writer_OpenDocument_MetaInf' => \PhpOffice\PhpSpreadsheet\Writer\Ods\MetaInf::class,
+            'PHPExcel_Writer_OpenDocument_Mimetype' => \PhpOffice\PhpSpreadsheet\Writer\Ods\Mimetype::class,
+            'PHPExcel_Writer_OpenDocument_Settings' => \PhpOffice\PhpSpreadsheet\Writer\Ods\Settings::class,
+            'PHPExcel_Writer_OpenDocument_Styles' => \PhpOffice\PhpSpreadsheet\Writer\Ods\Styles::class,
+            'PHPExcel_Writer_OpenDocument_Thumbnails' => \PhpOffice\PhpSpreadsheet\Writer\Ods\Thumbnails::class,
+            'PHPExcel_Writer_OpenDocument_WriterPart' => \PhpOffice\PhpSpreadsheet\Writer\Ods\WriterPart::class,
+            'PHPExcel_Writer_PDF_Core' => \PhpOffice\PhpSpreadsheet\Writer\Pdf::class,
+            'PHPExcel_Writer_PDF_DomPDF' => \PhpOffice\PhpSpreadsheet\Writer\Pdf\Dompdf::class,
+            'PHPExcel_Writer_PDF_mPDF' => \PhpOffice\PhpSpreadsheet\Writer\Pdf\Mpdf::class,
+            'PHPExcel_Writer_PDF_tcPDF' => \PhpOffice\PhpSpreadsheet\Writer\Pdf\Tcpdf::class,
+            'PHPExcel_Writer_Excel5_BIFFwriter' => \PhpOffice\PhpSpreadsheet\Writer\Xls\BIFFwriter::class,
+            'PHPExcel_Writer_Excel5_Escher' => \PhpOffice\PhpSpreadsheet\Writer\Xls\Escher::class,
+            'PHPExcel_Writer_Excel5_Font' => \PhpOffice\PhpSpreadsheet\Writer\Xls\Font::class,
+            'PHPExcel_Writer_Excel5_Parser' => \PhpOffice\PhpSpreadsheet\Writer\Xls\Parser::class,
+            'PHPExcel_Writer_Excel5_Workbook' => \PhpOffice\PhpSpreadsheet\Writer\Xls\Workbook::class,
+            'PHPExcel_Writer_Excel5_Worksheet' => \PhpOffice\PhpSpreadsheet\Writer\Xls\Worksheet::class,
+            'PHPExcel_Writer_Excel5_Xf' => \PhpOffice\PhpSpreadsheet\Writer\Xls\Xf::class,
+            'PHPExcel_Writer_Excel2007_Chart' => \PhpOffice\PhpSpreadsheet\Writer\Xlsx\Chart::class,
+            'PHPExcel_Writer_Excel2007_Comments' => \PhpOffice\PhpSpreadsheet\Writer\Xlsx\Comments::class,
+            'PHPExcel_Writer_Excel2007_ContentTypes' => \PhpOffice\PhpSpreadsheet\Writer\Xlsx\ContentTypes::class,
+            'PHPExcel_Writer_Excel2007_DocProps' => \PhpOffice\PhpSpreadsheet\Writer\Xlsx\DocProps::class,
+            'PHPExcel_Writer_Excel2007_Drawing' => \PhpOffice\PhpSpreadsheet\Writer\Xlsx\Drawing::class,
+            'PHPExcel_Writer_Excel2007_Rels' => \PhpOffice\PhpSpreadsheet\Writer\Xlsx\Rels::class,
+            'PHPExcel_Writer_Excel2007_RelsRibbon' => \PhpOffice\PhpSpreadsheet\Writer\Xlsx\RelsRibbon::class,
+            'PHPExcel_Writer_Excel2007_RelsVBA' => \PhpOffice\PhpSpreadsheet\Writer\Xlsx\RelsVBA::class,
+            'PHPExcel_Writer_Excel2007_StringTable' => \PhpOffice\PhpSpreadsheet\Writer\Xlsx\StringTable::class,
+            'PHPExcel_Writer_Excel2007_Style' => \PhpOffice\PhpSpreadsheet\Writer\Xlsx\Style::class,
+            'PHPExcel_Writer_Excel2007_Theme' => \PhpOffice\PhpSpreadsheet\Writer\Xlsx\Theme::class,
+            'PHPExcel_Writer_Excel2007_Workbook' => \PhpOffice\PhpSpreadsheet\Writer\Xlsx\Workbook::class,
+            'PHPExcel_Writer_Excel2007_Worksheet' => \PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet::class,
+            'PHPExcel_Writer_Excel2007_WriterPart' => \PhpOffice\PhpSpreadsheet\Writer\Xlsx\WriterPart::class,
+            'PHPExcel_CachedObjectStorage_CacheBase' => \PhpOffice\PhpSpreadsheet\Collection\Cells::class,
+            'PHPExcel_CalcEngine_CyclicReferenceStack' => \PhpOffice\PhpSpreadsheet\Calculation\Engine\CyclicReferenceStack::class,
+            'PHPExcel_CalcEngine_Logger' => \PhpOffice\PhpSpreadsheet\Calculation\Engine\Logger::class,
+            'PHPExcel_Calculation_Functions' => \PhpOffice\PhpSpreadsheet\Calculation\Functions::class,
+            'PHPExcel_Calculation_Function' => \PhpOffice\PhpSpreadsheet\Calculation\Category::class,
+            'PHPExcel_Calculation_Database' => \PhpOffice\PhpSpreadsheet\Calculation\Database::class,
+            'PHPExcel_Calculation_DateTime' => \PhpOffice\PhpSpreadsheet\Calculation\DateTime::class,
+            'PHPExcel_Calculation_Engineering' => \PhpOffice\PhpSpreadsheet\Calculation\Engineering::class,
+            'PHPExcel_Calculation_Exception' => \PhpOffice\PhpSpreadsheet\Calculation\Exception::class,
+            'PHPExcel_Calculation_ExceptionHandler' => \PhpOffice\PhpSpreadsheet\Calculation\ExceptionHandler::class,
+            'PHPExcel_Calculation_Financial' => \PhpOffice\PhpSpreadsheet\Calculation\Financial::class,
+            'PHPExcel_Calculation_FormulaParser' => \PhpOffice\PhpSpreadsheet\Calculation\FormulaParser::class,
+            'PHPExcel_Calculation_FormulaToken' => \PhpOffice\PhpSpreadsheet\Calculation\FormulaToken::class,
+            'PHPExcel_Calculation_Logical' => \PhpOffice\PhpSpreadsheet\Calculation\Logical::class,
+            'PHPExcel_Calculation_LookupRef' => \PhpOffice\PhpSpreadsheet\Calculation\LookupRef::class,
+            'PHPExcel_Calculation_MathTrig' => \PhpOffice\PhpSpreadsheet\Calculation\MathTrig::class,
+            'PHPExcel_Calculation_Statistical' => \PhpOffice\PhpSpreadsheet\Calculation\Statistical::class,
+            'PHPExcel_Calculation_TextData' => \PhpOffice\PhpSpreadsheet\Calculation\TextData::class,
+            'PHPExcel_Cell_AdvancedValueBinder' => \PhpOffice\PhpSpreadsheet\Cell\AdvancedValueBinder::class,
+            'PHPExcel_Cell_DataType' => \PhpOffice\PhpSpreadsheet\Cell\DataType::class,
+            'PHPExcel_Cell_DataValidation' => \PhpOffice\PhpSpreadsheet\Cell\DataValidation::class,
+            'PHPExcel_Cell_DefaultValueBinder' => \PhpOffice\PhpSpreadsheet\Cell\DefaultValueBinder::class,
+            'PHPExcel_Cell_Hyperlink' => \PhpOffice\PhpSpreadsheet\Cell\Hyperlink::class,
+            'PHPExcel_Cell_IValueBinder' => \PhpOffice\PhpSpreadsheet\Cell\IValueBinder::class,
+            'PHPExcel_Chart_Axis' => \PhpOffice\PhpSpreadsheet\Chart\Axis::class,
+            'PHPExcel_Chart_DataSeries' => \PhpOffice\PhpSpreadsheet\Chart\DataSeries::class,
+            'PHPExcel_Chart_DataSeriesValues' => \PhpOffice\PhpSpreadsheet\Chart\DataSeriesValues::class,
+            'PHPExcel_Chart_Exception' => \PhpOffice\PhpSpreadsheet\Chart\Exception::class,
+            'PHPExcel_Chart_GridLines' => \PhpOffice\PhpSpreadsheet\Chart\GridLines::class,
+            'PHPExcel_Chart_Layout' => \PhpOffice\PhpSpreadsheet\Chart\Layout::class,
+            'PHPExcel_Chart_Legend' => \PhpOffice\PhpSpreadsheet\Chart\Legend::class,
+            'PHPExcel_Chart_PlotArea' => \PhpOffice\PhpSpreadsheet\Chart\PlotArea::class,
+            'PHPExcel_Properties' => \PhpOffice\PhpSpreadsheet\Chart\Properties::class,
+            'PHPExcel_Chart_Title' => \PhpOffice\PhpSpreadsheet\Chart\Title::class,
+            'PHPExcel_DocumentProperties' => \PhpOffice\PhpSpreadsheet\Document\Properties::class,
+            'PHPExcel_DocumentSecurity' => \PhpOffice\PhpSpreadsheet\Document\Security::class,
+            'PHPExcel_Helper_HTML' => \PhpOffice\PhpSpreadsheet\Helper\Html::class,
+            'PHPExcel_Reader_Abstract' => \PhpOffice\PhpSpreadsheet\Reader\BaseReader::class,
+            'PHPExcel_Reader_CSV' => \PhpOffice\PhpSpreadsheet\Reader\Csv::class,
+            'PHPExcel_Reader_DefaultReadFilter' => \PhpOffice\PhpSpreadsheet\Reader\DefaultReadFilter::class,
+            'PHPExcel_Reader_Excel2003XML' => \PhpOffice\PhpSpreadsheet\Reader\Xml::class,
+            'PHPExcel_Reader_Exception' => \PhpOffice\PhpSpreadsheet\Reader\Exception::class,
+            'PHPExcel_Reader_Gnumeric' => \PhpOffice\PhpSpreadsheet\Reader\Gnumeric::class,
+            'PHPExcel_Reader_HTML' => \PhpOffice\PhpSpreadsheet\Reader\Html::class,
+            'PHPExcel_Reader_IReadFilter' => \PhpOffice\PhpSpreadsheet\Reader\IReadFilter::class,
+            'PHPExcel_Reader_IReader' => \PhpOffice\PhpSpreadsheet\Reader\IReader::class,
+            'PHPExcel_Reader_OOCalc' => \PhpOffice\PhpSpreadsheet\Reader\Ods::class,
+            'PHPExcel_Reader_SYLK' => \PhpOffice\PhpSpreadsheet\Reader\Slk::class,
+            'PHPExcel_Reader_Excel5' => \PhpOffice\PhpSpreadsheet\Reader\Xls::class,
+            'PHPExcel_Reader_Excel2007' => \PhpOffice\PhpSpreadsheet\Reader\Xlsx::class,
+            'PHPExcel_RichText_ITextElement' => \PhpOffice\PhpSpreadsheet\RichText\ITextElement::class,
+            'PHPExcel_RichText_Run' => \PhpOffice\PhpSpreadsheet\RichText\Run::class,
+            'PHPExcel_RichText_TextElement' => \PhpOffice\PhpSpreadsheet\RichText\TextElement::class,
+            'PHPExcel_Shared_CodePage' => \PhpOffice\PhpSpreadsheet\Shared\CodePage::class,
+            'PHPExcel_Shared_Date' => \PhpOffice\PhpSpreadsheet\Shared\Date::class,
+            'PHPExcel_Shared_Drawing' => \PhpOffice\PhpSpreadsheet\Shared\Drawing::class,
+            'PHPExcel_Shared_Escher' => \PhpOffice\PhpSpreadsheet\Shared\Escher::class,
+            'PHPExcel_Shared_File' => \PhpOffice\PhpSpreadsheet\Shared\File::class,
+            'PHPExcel_Shared_Font' => \PhpOffice\PhpSpreadsheet\Shared\Font::class,
+            'PHPExcel_Shared_OLE' => \PhpOffice\PhpSpreadsheet\Shared\OLE::class,
+            'PHPExcel_Shared_OLERead' => \PhpOffice\PhpSpreadsheet\Shared\OLERead::class,
+            'PHPExcel_Shared_PasswordHasher' => \PhpOffice\PhpSpreadsheet\Shared\PasswordHasher::class,
+            'PHPExcel_Shared_String' => \PhpOffice\PhpSpreadsheet\Shared\StringHelper::class,
+            'PHPExcel_Shared_TimeZone' => \PhpOffice\PhpSpreadsheet\Shared\TimeZone::class,
+            'PHPExcel_Shared_XMLWriter' => \PhpOffice\PhpSpreadsheet\Shared\XMLWriter::class,
+            'PHPExcel_Shared_Excel5' => \PhpOffice\PhpSpreadsheet\Shared\Xls::class,
+            'PHPExcel_Style_Alignment' => \PhpOffice\PhpSpreadsheet\Style\Alignment::class,
+            'PHPExcel_Style_Border' => \PhpOffice\PhpSpreadsheet\Style\Border::class,
+            'PHPExcel_Style_Borders' => \PhpOffice\PhpSpreadsheet\Style\Borders::class,
+            'PHPExcel_Style_Color' => \PhpOffice\PhpSpreadsheet\Style\Color::class,
+            'PHPExcel_Style_Conditional' => \PhpOffice\PhpSpreadsheet\Style\Conditional::class,
+            'PHPExcel_Style_Fill' => \PhpOffice\PhpSpreadsheet\Style\Fill::class,
+            'PHPExcel_Style_Font' => \PhpOffice\PhpSpreadsheet\Style\Font::class,
+            'PHPExcel_Style_NumberFormat' => \PhpOffice\PhpSpreadsheet\Style\NumberFormat::class,
+            'PHPExcel_Style_Protection' => \PhpOffice\PhpSpreadsheet\Style\Protection::class,
+            'PHPExcel_Style_Supervisor' => \PhpOffice\PhpSpreadsheet\Style\Supervisor::class,
+            'PHPExcel_Worksheet_AutoFilter' => \PhpOffice\PhpSpreadsheet\Worksheet\AutoFilter::class,
+            'PHPExcel_Worksheet_BaseDrawing' => \PhpOffice\PhpSpreadsheet\Worksheet\BaseDrawing::class,
+            'PHPExcel_Worksheet_CellIterator' => \PhpOffice\PhpSpreadsheet\Worksheet\CellIterator::class,
+            'PHPExcel_Worksheet_Column' => \PhpOffice\PhpSpreadsheet\Worksheet\Column::class,
+            'PHPExcel_Worksheet_ColumnCellIterator' => \PhpOffice\PhpSpreadsheet\Worksheet\ColumnCellIterator::class,
+            'PHPExcel_Worksheet_ColumnDimension' => \PhpOffice\PhpSpreadsheet\Worksheet\ColumnDimension::class,
+            'PHPExcel_Worksheet_ColumnIterator' => \PhpOffice\PhpSpreadsheet\Worksheet\ColumnIterator::class,
+            'PHPExcel_Worksheet_Drawing' => \PhpOffice\PhpSpreadsheet\Worksheet\Drawing::class,
+            'PHPExcel_Worksheet_HeaderFooter' => \PhpOffice\PhpSpreadsheet\Worksheet\HeaderFooter::class,
+            'PHPExcel_Worksheet_HeaderFooterDrawing' => \PhpOffice\PhpSpreadsheet\Worksheet\HeaderFooterDrawing::class,
+            'PHPExcel_WorksheetIterator' => \PhpOffice\PhpSpreadsheet\Worksheet\Iterator::class,
+            'PHPExcel_Worksheet_MemoryDrawing' => \PhpOffice\PhpSpreadsheet\Worksheet\MemoryDrawing::class,
+            'PHPExcel_Worksheet_PageMargins' => \PhpOffice\PhpSpreadsheet\Worksheet\PageMargins::class,
+            'PHPExcel_Worksheet_PageSetup' => \PhpOffice\PhpSpreadsheet\Worksheet\PageSetup::class,
+            'PHPExcel_Worksheet_Protection' => \PhpOffice\PhpSpreadsheet\Worksheet\Protection::class,
+            'PHPExcel_Worksheet_Row' => \PhpOffice\PhpSpreadsheet\Worksheet\Row::class,
+            'PHPExcel_Worksheet_RowCellIterator' => \PhpOffice\PhpSpreadsheet\Worksheet\RowCellIterator::class,
+            'PHPExcel_Worksheet_RowDimension' => \PhpOffice\PhpSpreadsheet\Worksheet\RowDimension::class,
+            'PHPExcel_Worksheet_RowIterator' => \PhpOffice\PhpSpreadsheet\Worksheet\RowIterator::class,
+            'PHPExcel_Worksheet_SheetView' => \PhpOffice\PhpSpreadsheet\Worksheet\SheetView::class,
+            'PHPExcel_Writer_Abstract' => \PhpOffice\PhpSpreadsheet\Writer\BaseWriter::class,
+            'PHPExcel_Writer_CSV' => \PhpOffice\PhpSpreadsheet\Writer\Csv::class,
+            'PHPExcel_Writer_Exception' => \PhpOffice\PhpSpreadsheet\Writer\Exception::class,
+            'PHPExcel_Writer_HTML' => \PhpOffice\PhpSpreadsheet\Writer\Html::class,
+            'PHPExcel_Writer_IWriter' => \PhpOffice\PhpSpreadsheet\Writer\IWriter::class,
+            'PHPExcel_Writer_OpenDocument' => \PhpOffice\PhpSpreadsheet\Writer\Ods::class,
+            'PHPExcel_Writer_PDF' => \PhpOffice\PhpSpreadsheet\Writer\Pdf::class,
+            'PHPExcel_Writer_Excel5' => \PhpOffice\PhpSpreadsheet\Writer\Xls::class,
+            'PHPExcel_Writer_Excel2007' => \PhpOffice\PhpSpreadsheet\Writer\Xlsx::class,
+            'PHPExcel_CachedObjectStorageFactory' => \PhpOffice\PhpSpreadsheet\Collection\CellsFactory::class,
+            'PHPExcel_Calculation' => \PhpOffice\PhpSpreadsheet\Calculation\Calculation::class,
+            'PHPExcel_Cell' => \PhpOffice\PhpSpreadsheet\Cell\Cell::class,
+            'PHPExcel_Chart' => \PhpOffice\PhpSpreadsheet\Chart\Chart::class,
+            'PHPExcel_Comment' => \PhpOffice\PhpSpreadsheet\Comment::class,
+            'PHPExcel_Exception' => \PhpOffice\PhpSpreadsheet\Exception::class,
+            'PHPExcel_HashTable' => \PhpOffice\PhpSpreadsheet\HashTable::class,
+            'PHPExcel_IComparable' => \PhpOffice\PhpSpreadsheet\IComparable::class,
+            'PHPExcel_IOFactory' => \PhpOffice\PhpSpreadsheet\IOFactory::class,
+            'PHPExcel_NamedRange' => \PhpOffice\PhpSpreadsheet\NamedRange::class,
+            'PHPExcel_ReferenceHelper' => \PhpOffice\PhpSpreadsheet\ReferenceHelper::class,
+            'PHPExcel_RichText' => \PhpOffice\PhpSpreadsheet\RichText\RichText::class,
+            'PHPExcel_Settings' => \PhpOffice\PhpSpreadsheet\Settings::class,
+            'PHPExcel_Style' => \PhpOffice\PhpSpreadsheet\Style\Style::class,
+            'PHPExcel_Worksheet' => \PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::class,
+        ];
+
+        $methods = [
+            'MINUTEOFHOUR' => 'MINUTE',
+            'SECONDOFMINUTE' => 'SECOND',
+            'DAYOFWEEK' => 'WEEKDAY',
+            'WEEKOFYEAR' => 'WEEKNUM',
+            'ExcelToPHPObject' => 'excelToDateTimeObject',
+            'ExcelToPHP' => 'excelToTimestamp',
+            'FormattedPHPToExcel' => 'formattedPHPToExcel',
+            'Cell::absoluteCoordinate' => 'Coordinate::absoluteCoordinate',
+            'Cell::absoluteReference' => 'Coordinate::absoluteReference',
+            'Cell::buildRange' => 'Coordinate::buildRange',
+            'Cell::columnIndexFromString' => 'Coordinate::columnIndexFromString',
+            'Cell::coordinateFromString' => 'Coordinate::coordinateFromString',
+            'Cell::extractAllCellReferencesInRange' => 'Coordinate::extractAllCellReferencesInRange',
+            'Cell::getRangeBoundaries' => 'Coordinate::getRangeBoundaries',
+            'Cell::mergeRangesInCollection' => 'Coordinate::mergeRangesInCollection',
+            'Cell::rangeBoundaries' => 'Coordinate::rangeBoundaries',
+            'Cell::rangeDimension' => 'Coordinate::rangeDimension',
+            'Cell::splitRange' => 'Coordinate::splitRange',
+            'Cell::stringFromColumnIndex' => 'Coordinate::stringFromColumnIndex',
+        ];
+
+        // Keep '\' prefix for class names
+        $prefixedClasses = [];
+        foreach ($classes as $key => &$value) {
+            $value = str_replace('PhpOffice\\', '\\PhpOffice\\', $value);
+            $prefixedClasses['\\' . $key] = $value;
+        }
+        $mapping = $prefixedClasses + $classes + $methods;
+
+        return $mapping;
+    }
+
+    /**
+     * Search in all files in given directory.
+     *
+     * @param string $path
+     */
+    private function recursiveReplace($path)
+    {
+        $patterns = [
+            '/*.md',
+            '/*.txt',
+            '/*.TXT',
+            '/*.php',
+            '/*.phpt',
+            '/*.php3',
+            '/*.php4',
+            '/*.php5',
+            '/*.phtml',
+        ];
+
+        foreach ($patterns as $pattern) {
+            foreach (glob($path . $pattern) as $file) {
+                if (strpos($path, '/vendor/') !== false) {
+                    echo $file . " skipped\n";
+
+                    continue;
+                }
+                $original = file_get_contents($file);
+                $converted = $this->replace($original);
+
+                if ($original !== $converted) {
+                    echo $file . " converted\n";
+                    file_put_contents($file, $converted);
+                }
+            }
+        }
+
+        // Do the recursion in subdirectory
+        foreach (glob($path . '/*', GLOB_ONLYDIR) as $subpath) {
+            if (strpos($subpath, $path . '/') === 0) {
+                $this->recursiveReplace($subpath);
+            }
+        }
+    }
+
+    public function migrate()
+    {
+        $path = realpath(getcwd());
+        echo 'This will search and replace recursively in ' . $path . PHP_EOL;
+        echo 'You MUST backup your files first, or you risk losing data.' . PHP_EOL;
+        echo 'Are you sure ? (y/n)';
+
+        $confirm = fread(STDIN, 1);
+        if ($confirm === 'y') {
+            $this->recursiveReplace($path);
+        }
+    }
+
+    /**
+     * Migrate the given code from PHPExcel to PhpSpreadsheet.
+     *
+     * @param string $original
+     *
+     * @return string
+     */
+    public function replace($original)
+    {
+        $converted = str_replace($this->from, $this->to, $original);
+
+        // The string "PHPExcel" gets special treatment because of how common it might be.
+        // This regex requires a word boundary around the string, and it can't be
+        // preceded by $ or -> (goal is to filter out cases where a variable is named $PHPExcel or similar)
+        $converted = preg_replace('~(?<!\$|->)(\b|\\\\)PHPExcel\b~', '\\' . \PhpOffice\PhpSpreadsheet\Spreadsheet::class, $converted);
+
+        return $converted;
+    }
+}

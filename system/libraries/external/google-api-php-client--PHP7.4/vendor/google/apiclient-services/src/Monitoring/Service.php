@@ -1,82 +1,165 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Monitoring;
+
+class Service extends \Google\Model
+{
+  protected $appEngineType = AppEngine::class;
+  protected $appEngineDataType = '';
+  protected $cloudEndpointsType = CloudEndpoints::class;
+  protected $cloudEndpointsDataType = '';
+  protected $clusterIstioType = ClusterIstio::class;
+  protected $clusterIstioDataType = '';
+  protected $customType = Custom::class;
+  protected $customDataType = '';
+  public $displayName;
+  protected $istioCanonicalServiceType = IstioCanonicalService::class;
+  protected $istioCanonicalServiceDataType = '';
+  protected $meshIstioType = MeshIstio::class;
+  protected $meshIstioDataType = '';
+  public $name;
+  protected $telemetryType = Telemetry::class;
+  protected $telemetryDataType = '';
+  public $userLabels;
+
+  /**
+   * @param AppEngine
+   */
+  public function setAppEngine(AppEngine $appEngine)
+  {
+    $this->appEngine = $appEngine;
+  }
+  /**
+   * @return AppEngine
+   */
+  public function getAppEngine()
+  {
+    return $this->appEngine;
+  }
+  /**
+   * @param CloudEndpoints
+   */
+  public function setCloudEndpoints(CloudEndpoints $cloudEndpoints)
+  {
+    $this->cloudEndpoints = $cloudEndpoints;
+  }
+  /**
+   * @return CloudEndpoints
+   */
+  public function getCloudEndpoints()
+  {
+    return $this->cloudEndpoints;
+  }
+  /**
+   * @param ClusterIstio
+   */
+  public function setClusterIstio(ClusterIstio $clusterIstio)
+  {
+    $this->clusterIstio = $clusterIstio;
+  }
+  /**
+   * @return ClusterIstio
+   */
+  public function getClusterIstio()
+  {
+    return $this->clusterIstio;
+  }
+  /**
+   * @param Custom
+   */
+  public function setCustom(Custom $custom)
+  {
+    $this->custom = $custom;
+  }
+  /**
+   * @return Custom
+   */
+  public function getCustom()
+  {
+    return $this->custom;
+  }
+  public function setDisplayName($displayName)
+  {
+    $this->displayName = $displayName;
+  }
+  public function getDisplayName()
+  {
+    return $this->displayName;
+  }
+  /**
+   * @param IstioCanonicalService
+   */
+  public function setIstioCanonicalService(IstioCanonicalService $istioCanonicalService)
+  {
+    $this->istioCanonicalService = $istioCanonicalService;
+  }
+  /**
+   * @return IstioCanonicalService
+   */
+  public function getIstioCanonicalService()
+  {
+    return $this->istioCanonicalService;
+  }
+  /**
+   * @param MeshIstio
+   */
+  public function setMeshIstio(MeshIstio $meshIstio)
+  {
+    $this->meshIstio = $meshIstio;
+  }
+  /**
+   * @return MeshIstio
+   */
+  public function getMeshIstio()
+  {
+    return $this->meshIstio;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  /**
+   * @param Telemetry
+   */
+  public function setTelemetry(Telemetry $telemetry)
+  {
+    $this->telemetry = $telemetry;
+  }
+  /**
+   * @return Telemetry
+   */
+  public function getTelemetry()
+  {
+    return $this->telemetry;
+  }
+  public function setUserLabels($userLabels)
+  {
+    $this->userLabels = $userLabels;
+  }
+  public function getUserLabels()
+  {
+    return $this->userLabels;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Service::class, 'Google_Service_Monitoring_Service');

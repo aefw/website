@@ -1,70 +1,140 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-2iJyf3cd2VfmqSK7GCbbJRHBbgjfbXqU
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\BigtableAdmin\Resource;
+
+use Google\Service\BigtableAdmin\AppProfile;
+use Google\Service\BigtableAdmin\BigtableadminEmpty;
+use Google\Service\BigtableAdmin\ListAppProfilesResponse;
+use Google\Service\BigtableAdmin\Operation;
+
+/**
+ * The "appProfiles" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $bigtableadminService = new Google\Service\BigtableAdmin(...);
+ *   $appProfiles = $bigtableadminService->appProfiles;
+ *  </code>
+ */
+class ProjectsInstancesAppProfiles extends \Google\Service\Resource
+{
+  /**
+   * Creates an app profile within an instance. (appProfiles.create)
+   *
+   * @param string $parent Required. The unique name of the instance in which to
+   * create the new app profile. Values are of the form
+   * `projects/{project}/instances/{instance}`.
+   * @param AppProfile $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string appProfileId Required. The ID to be used when referring to
+   * the new app profile within its instance, e.g., just `myprofile` rather than
+   * `projects/myproject/instances/myinstance/appProfiles/myprofile`.
+   * @opt_param bool ignoreWarnings If true, ignore safety checks when creating
+   * the app profile.
+   * @return AppProfile
+   */
+  public function create($parent, AppProfile $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], AppProfile::class);
+  }
+  /**
+   * Deletes an app profile from an instance. (appProfiles.delete)
+   *
+   * @param string $name Required. The unique name of the app profile to be
+   * deleted. Values are of the form
+   * `projects/{project}/instances/{instance}/appProfiles/{app_profile}`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool ignoreWarnings Required. If true, ignore safety checks when
+   * deleting the app profile.
+   * @return BigtableadminEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], BigtableadminEmpty::class);
+  }
+  /**
+   * Gets information about an app profile. (appProfiles.get)
+   *
+   * @param string $name Required. The unique name of the requested app profile.
+   * Values are of the form
+   * `projects/{project}/instances/{instance}/appProfiles/{app_profile}`.
+   * @param array $optParams Optional parameters.
+   * @return AppProfile
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], AppProfile::class);
+  }
+  /**
+   * Lists information about app profiles in an instance.
+   * (appProfiles.listProjectsInstancesAppProfiles)
+   *
+   * @param string $parent Required. The unique name of the instance for which a
+   * list of app profiles is requested. Values are of the form
+   * `projects/{project}/instances/{instance}`. Use `{instance} = '-'` to list
+   * AppProfiles for all Instances in a project, e.g.,
+   * `projects/myproject/instances/-`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Maximum number of results per page. A page_size of
+   * zero lets the server choose the number of items to return. A page_size which
+   * is strictly positive will return at most that many items. A negative
+   * page_size will cause an error. Following the first request, subsequent
+   * paginated calls are not required to pass a page_size. If a page_size is set
+   * in subsequent calls, it must match the page_size given in the first request.
+   * @opt_param string pageToken The value of `next_page_token` returned by a
+   * previous call.
+   * @return ListAppProfilesResponse
+   */
+  public function listProjectsInstancesAppProfiles($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListAppProfilesResponse::class);
+  }
+  /**
+   * Updates an app profile within an instance. (appProfiles.patch)
+   *
+   * @param string $name The unique name of the app profile. Values are of the
+   * form `projects/{project}/instances/{instance}/appProfiles/_a-zA-Z0-9*`.
+   * @param AppProfile $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool ignoreWarnings If true, ignore safety checks when updating
+   * the app profile.
+   * @opt_param string updateMask Required. The subset of app profile fields which
+   * should be replaced. If unset, all fields will be replaced.
+   * @return Operation
+   */
+  public function patch($name, AppProfile $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsInstancesAppProfiles::class, 'Google_Service_BigtableAdmin_Resource_ProjectsInstancesAppProfiles');

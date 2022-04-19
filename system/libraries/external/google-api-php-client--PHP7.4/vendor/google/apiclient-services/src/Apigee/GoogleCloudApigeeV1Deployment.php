@@ -1,78 +1,136 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Apigee;
+
+class GoogleCloudApigeeV1Deployment extends \Google\Collection
+{
+  protected $collection_key = 'routeConflicts';
+  public $apiProxy;
+  public $deployStartTime;
+  public $environment;
+  protected $errorsType = GoogleRpcStatus::class;
+  protected $errorsDataType = 'array';
+  protected $instancesType = GoogleCloudApigeeV1InstanceDeploymentStatus::class;
+  protected $instancesDataType = 'array';
+  protected $podsType = GoogleCloudApigeeV1PodStatus::class;
+  protected $podsDataType = 'array';
+  public $revision;
+  protected $routeConflictsType = GoogleCloudApigeeV1DeploymentChangeReportRoutingConflict::class;
+  protected $routeConflictsDataType = 'array';
+  public $state;
+
+  public function setApiProxy($apiProxy)
+  {
+    $this->apiProxy = $apiProxy;
+  }
+  public function getApiProxy()
+  {
+    return $this->apiProxy;
+  }
+  public function setDeployStartTime($deployStartTime)
+  {
+    $this->deployStartTime = $deployStartTime;
+  }
+  public function getDeployStartTime()
+  {
+    return $this->deployStartTime;
+  }
+  public function setEnvironment($environment)
+  {
+    $this->environment = $environment;
+  }
+  public function getEnvironment()
+  {
+    return $this->environment;
+  }
+  /**
+   * @param GoogleRpcStatus[]
+   */
+  public function setErrors($errors)
+  {
+    $this->errors = $errors;
+  }
+  /**
+   * @return GoogleRpcStatus[]
+   */
+  public function getErrors()
+  {
+    return $this->errors;
+  }
+  /**
+   * @param GoogleCloudApigeeV1InstanceDeploymentStatus[]
+   */
+  public function setInstances($instances)
+  {
+    $this->instances = $instances;
+  }
+  /**
+   * @return GoogleCloudApigeeV1InstanceDeploymentStatus[]
+   */
+  public function getInstances()
+  {
+    return $this->instances;
+  }
+  /**
+   * @param GoogleCloudApigeeV1PodStatus[]
+   */
+  public function setPods($pods)
+  {
+    $this->pods = $pods;
+  }
+  /**
+   * @return GoogleCloudApigeeV1PodStatus[]
+   */
+  public function getPods()
+  {
+    return $this->pods;
+  }
+  public function setRevision($revision)
+  {
+    $this->revision = $revision;
+  }
+  public function getRevision()
+  {
+    return $this->revision;
+  }
+  /**
+   * @param GoogleCloudApigeeV1DeploymentChangeReportRoutingConflict[]
+   */
+  public function setRouteConflicts($routeConflicts)
+  {
+    $this->routeConflicts = $routeConflicts;
+  }
+  /**
+   * @return GoogleCloudApigeeV1DeploymentChangeReportRoutingConflict[]
+   */
+  public function getRouteConflicts()
+  {
+    return $this->routeConflicts;
+  }
+  public function setState($state)
+  {
+    $this->state = $state;
+  }
+  public function getState()
+  {
+    return $this->state;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudApigeeV1Deployment::class, 'Google_Service_Apigee_GoogleCloudApigeeV1Deployment');

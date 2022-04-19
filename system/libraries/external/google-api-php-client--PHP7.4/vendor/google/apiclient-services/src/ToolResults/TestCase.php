@@ -1,79 +1,150 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Fm==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ToolResults;
+
+class TestCase extends \Google\Collection
+{
+  protected $collection_key = 'toolOutputs';
+  protected $elapsedTimeType = Duration::class;
+  protected $elapsedTimeDataType = '';
+  protected $endTimeType = Timestamp::class;
+  protected $endTimeDataType = '';
+  public $skippedMessage;
+  protected $stackTracesType = StackTrace::class;
+  protected $stackTracesDataType = 'array';
+  protected $startTimeType = Timestamp::class;
+  protected $startTimeDataType = '';
+  public $status;
+  public $testCaseId;
+  protected $testCaseReferenceType = TestCaseReference::class;
+  protected $testCaseReferenceDataType = '';
+  protected $toolOutputsType = ToolOutputReference::class;
+  protected $toolOutputsDataType = 'array';
+
+  /**
+   * @param Duration
+   */
+  public function setElapsedTime(Duration $elapsedTime)
+  {
+    $this->elapsedTime = $elapsedTime;
+  }
+  /**
+   * @return Duration
+   */
+  public function getElapsedTime()
+  {
+    return $this->elapsedTime;
+  }
+  /**
+   * @param Timestamp
+   */
+  public function setEndTime(Timestamp $endTime)
+  {
+    $this->endTime = $endTime;
+  }
+  /**
+   * @return Timestamp
+   */
+  public function getEndTime()
+  {
+    return $this->endTime;
+  }
+  public function setSkippedMessage($skippedMessage)
+  {
+    $this->skippedMessage = $skippedMessage;
+  }
+  public function getSkippedMessage()
+  {
+    return $this->skippedMessage;
+  }
+  /**
+   * @param StackTrace[]
+   */
+  public function setStackTraces($stackTraces)
+  {
+    $this->stackTraces = $stackTraces;
+  }
+  /**
+   * @return StackTrace[]
+   */
+  public function getStackTraces()
+  {
+    return $this->stackTraces;
+  }
+  /**
+   * @param Timestamp
+   */
+  public function setStartTime(Timestamp $startTime)
+  {
+    $this->startTime = $startTime;
+  }
+  /**
+   * @return Timestamp
+   */
+  public function getStartTime()
+  {
+    return $this->startTime;
+  }
+  public function setStatus($status)
+  {
+    $this->status = $status;
+  }
+  public function getStatus()
+  {
+    return $this->status;
+  }
+  public function setTestCaseId($testCaseId)
+  {
+    $this->testCaseId = $testCaseId;
+  }
+  public function getTestCaseId()
+  {
+    return $this->testCaseId;
+  }
+  /**
+   * @param TestCaseReference
+   */
+  public function setTestCaseReference(TestCaseReference $testCaseReference)
+  {
+    $this->testCaseReference = $testCaseReference;
+  }
+  /**
+   * @return TestCaseReference
+   */
+  public function getTestCaseReference()
+  {
+    return $this->testCaseReference;
+  }
+  /**
+   * @param ToolOutputReference[]
+   */
+  public function setToolOutputs($toolOutputs)
+  {
+    $this->toolOutputs = $toolOutputs;
+  }
+  /**
+   * @return ToolOutputReference[]
+   */
+  public function getToolOutputs()
+  {
+    return $this->toolOutputs;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(TestCase::class, 'Google_Service_ToolResults_TestCase');

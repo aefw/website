@@ -1,64 +1,106 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Apigee\Resource;
+
+use Google\Service\Apigee\GoogleCloudApigeeV1InstanceAttachment;
+use Google\Service\Apigee\GoogleCloudApigeeV1ListInstanceAttachmentsResponse;
+use Google\Service\Apigee\GoogleLongrunningOperation;
+
+/**
+ * The "attachments" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $apigeeService = new Google\Service\Apigee(...);
+ *   $attachments = $apigeeService->attachments;
+ *  </code>
+ */
+class OrganizationsInstancesAttachments extends \Google\Service\Resource
+{
+  /**
+   * Creates a new attachment of an environment to an instance. **Note:** Not
+   * supported for Apigee hybrid. (attachments.create)
+   *
+   * @param string $parent Required. Name of the instance. Use the following
+   * structure in your request: `organizations/{org}/instances/{instance}`.
+   * @param GoogleCloudApigeeV1InstanceAttachment $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function create($parent, GoogleCloudApigeeV1InstanceAttachment $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Deletes an attachment. **Note:** Not supported for Apigee hybrid.
+   * (attachments.delete)
+   *
+   * @param string $name Required. Name of the attachment. Use the following
+   * structure in your request:
+   * `organizations/{org}/instances/{instance}/attachments/{attachment}`.
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Gets an attachment. **Note:** Not supported for Apigee hybrid.
+   * (attachments.get)
+   *
+   * @param string $name Required. Name of the attachment. Use the following
+   * structure in your request:
+   * `organizations/{org}/instances/{instance}/attachments/{attachment}`
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1InstanceAttachment
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudApigeeV1InstanceAttachment::class);
+  }
+  /**
+   * Lists all attachments to an instance. **Note:** Not supported for Apigee
+   * hybrid. (attachments.listOrganizationsInstancesAttachments)
+   *
+   * @param string $parent Required. Name of the organization. Use the following
+   * structure in your request: `organizations/{org}/instances/{instance}`
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Maximum number of instance attachments to return.
+   * Defaults to 25.
+   * @opt_param string pageToken Page token, returned by a previous
+   * ListInstanceAttachments call, that you can use to retrieve the next page of
+   * content.
+   * @return GoogleCloudApigeeV1ListInstanceAttachmentsResponse
+   */
+  public function listOrganizationsInstancesAttachments($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleCloudApigeeV1ListInstanceAttachmentsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(OrganizationsInstancesAttachments::class, 'Google_Service_Apigee_Resource_OrganizationsInstancesAttachments');

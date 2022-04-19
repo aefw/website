@@ -1,96 +1,230 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Zpqf23z+yC0ImEYtqCEtUMwWBG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudKMS\Resource;
+
+use Google\Service\CloudKMS\AsymmetricDecryptRequest;
+use Google\Service\CloudKMS\AsymmetricDecryptResponse;
+use Google\Service\CloudKMS\AsymmetricSignRequest;
+use Google\Service\CloudKMS\AsymmetricSignResponse;
+use Google\Service\CloudKMS\CryptoKeyVersion;
+use Google\Service\CloudKMS\DestroyCryptoKeyVersionRequest;
+use Google\Service\CloudKMS\ImportCryptoKeyVersionRequest;
+use Google\Service\CloudKMS\ListCryptoKeyVersionsResponse;
+use Google\Service\CloudKMS\PublicKey;
+use Google\Service\CloudKMS\RestoreCryptoKeyVersionRequest;
+
+/**
+ * The "cryptoKeyVersions" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $cloudkmsService = new Google\Service\CloudKMS(...);
+ *   $cryptoKeyVersions = $cloudkmsService->cryptoKeyVersions;
+ *  </code>
+ */
+class ProjectsLocationsKeyRingsCryptoKeysCryptoKeyVersions extends \Google\Service\Resource
+{
+  /**
+   * Decrypts data that was encrypted with a public key retrieved from
+   * GetPublicKey corresponding to a CryptoKeyVersion with CryptoKey.purpose
+   * ASYMMETRIC_DECRYPT. (cryptoKeyVersions.asymmetricDecrypt)
+   *
+   * @param string $name Required. The resource name of the CryptoKeyVersion to
+   * use for decryption.
+   * @param AsymmetricDecryptRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return AsymmetricDecryptResponse
+   */
+  public function asymmetricDecrypt($name, AsymmetricDecryptRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('asymmetricDecrypt', [$params], AsymmetricDecryptResponse::class);
+  }
+  /**
+   * Signs data using a CryptoKeyVersion with CryptoKey.purpose ASYMMETRIC_SIGN,
+   * producing a signature that can be verified with the public key retrieved from
+   * GetPublicKey. (cryptoKeyVersions.asymmetricSign)
+   *
+   * @param string $name Required. The resource name of the CryptoKeyVersion to
+   * use for signing.
+   * @param AsymmetricSignRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return AsymmetricSignResponse
+   */
+  public function asymmetricSign($name, AsymmetricSignRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('asymmetricSign', [$params], AsymmetricSignResponse::class);
+  }
+  /**
+   * Create a new CryptoKeyVersion in a CryptoKey. The server will assign the next
+   * sequential id. If unset, state will be set to ENABLED.
+   * (cryptoKeyVersions.create)
+   *
+   * @param string $parent Required. The name of the CryptoKey associated with the
+   * CryptoKeyVersions.
+   * @param CryptoKeyVersion $postBody
+   * @param array $optParams Optional parameters.
+   * @return CryptoKeyVersion
+   */
+  public function create($parent, CryptoKeyVersion $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], CryptoKeyVersion::class);
+  }
+  /**
+   * Schedule a CryptoKeyVersion for destruction. Upon calling this method,
+   * CryptoKeyVersion.state will be set to DESTROY_SCHEDULED and destroy_time will
+   * be set to a time 24 hours in the future, at which point the state will be
+   * changed to DESTROYED, and the key material will be irrevocably destroyed.
+   * Before the destroy_time is reached, RestoreCryptoKeyVersion may be called to
+   * reverse the process. (cryptoKeyVersions.destroy)
+   *
+   * @param string $name Required. The resource name of the CryptoKeyVersion to
+   * destroy.
+   * @param DestroyCryptoKeyVersionRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return CryptoKeyVersion
+   */
+  public function destroy($name, DestroyCryptoKeyVersionRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('destroy', [$params], CryptoKeyVersion::class);
+  }
+  /**
+   * Returns metadata for a given CryptoKeyVersion. (cryptoKeyVersions.get)
+   *
+   * @param string $name Required. The name of the CryptoKeyVersion to get.
+   * @param array $optParams Optional parameters.
+   * @return CryptoKeyVersion
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], CryptoKeyVersion::class);
+  }
+  /**
+   * Returns the public key for the given CryptoKeyVersion. The CryptoKey.purpose
+   * must be ASYMMETRIC_SIGN or ASYMMETRIC_DECRYPT.
+   * (cryptoKeyVersions.getPublicKey)
+   *
+   * @param string $name Required. The name of the CryptoKeyVersion public key to
+   * get.
+   * @param array $optParams Optional parameters.
+   * @return PublicKey
+   */
+  public function getPublicKey($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('getPublicKey', [$params], PublicKey::class);
+  }
+  /**
+   * Imports a new CryptoKeyVersion into an existing CryptoKey using the wrapped
+   * key material provided in the request. The version ID will be assigned the
+   * next sequential id within the CryptoKey. (cryptoKeyVersions.import)
+   *
+   * @param string $parent Required. The name of the CryptoKey to be imported
+   * into.
+   * @param ImportCryptoKeyVersionRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return CryptoKeyVersion
+   */
+  public function import($parent, ImportCryptoKeyVersionRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('import', [$params], CryptoKeyVersion::class);
+  }
+  /**
+   * Lists CryptoKeyVersions.
+   * (cryptoKeyVersions.listProjectsLocationsKeyRingsCryptoKeysCryptoKeyVersions)
+   *
+   * @param string $parent Required. The resource name of the CryptoKey to list,
+   * in the format `projects/locations/keyRings/cryptoKeys`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Optional. Only include resources that match the
+   * filter in the response. For more information, see [Sorting and filtering list
+   * results](https://cloud.google.com/kms/docs/sorting-and-filtering).
+   * @opt_param string orderBy Optional. Specify how the results should be sorted.
+   * If not specified, the results will be sorted in the default order. For more
+   * information, see [Sorting and filtering list
+   * results](https://cloud.google.com/kms/docs/sorting-and-filtering).
+   * @opt_param int pageSize Optional. Optional limit on the number of
+   * CryptoKeyVersions to include in the response. Further CryptoKeyVersions can
+   * subsequently be obtained by including the
+   * ListCryptoKeyVersionsResponse.next_page_token in a subsequent request. If
+   * unspecified, the server will pick an appropriate default.
+   * @opt_param string pageToken Optional. Optional pagination token, returned
+   * earlier via ListCryptoKeyVersionsResponse.next_page_token.
+   * @opt_param string view The fields to include in the response.
+   * @return ListCryptoKeyVersionsResponse
+   */
+  public function listProjectsLocationsKeyRingsCryptoKeysCryptoKeyVersions($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListCryptoKeyVersionsResponse::class);
+  }
+  /**
+   * Update a CryptoKeyVersion's metadata. state may be changed between ENABLED
+   * and DISABLED using this method. See DestroyCryptoKeyVersion and
+   * RestoreCryptoKeyVersion to move between other states.
+   * (cryptoKeyVersions.patch)
+   *
+   * @param string $name Output only. The resource name for this CryptoKeyVersion
+   * in the format `projects/locations/keyRings/cryptoKeys/cryptoKeyVersions`.
+   * @param CryptoKeyVersion $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. List of fields to be updated in this
+   * request.
+   * @return CryptoKeyVersion
+   */
+  public function patch($name, CryptoKeyVersion $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], CryptoKeyVersion::class);
+  }
+  /**
+   * Restore a CryptoKeyVersion in the DESTROY_SCHEDULED state. Upon restoration
+   * of the CryptoKeyVersion, state will be set to DISABLED, and destroy_time will
+   * be cleared. (cryptoKeyVersions.restore)
+   *
+   * @param string $name Required. The resource name of the CryptoKeyVersion to
+   * restore.
+   * @param RestoreCryptoKeyVersionRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return CryptoKeyVersion
+   */
+  public function restore($name, RestoreCryptoKeyVersionRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('restore', [$params], CryptoKeyVersion::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsKeyRingsCryptoKeysCryptoKeyVersions::class, 'Google_Service_CloudKMS_Resource_ProjectsLocationsKeyRingsCryptoKeysCryptoKeyVersions');

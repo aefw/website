@@ -1,84 +1,139 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\YouTubeReporting;
+
+class GdataCompositeMedia extends \Google\Model
+{
+  public $blobRef;
+  protected $blobstore2InfoType = GdataBlobstore2Info::class;
+  protected $blobstore2InfoDataType = '';
+  public $cosmoBinaryReference;
+  public $crc32cHash;
+  public $inline;
+  public $length;
+  public $md5Hash;
+  protected $objectIdType = GdataObjectId::class;
+  protected $objectIdDataType = '';
+  public $path;
+  public $referenceType;
+  public $sha1Hash;
+
+  public function setBlobRef($blobRef)
+  {
+    $this->blobRef = $blobRef;
+  }
+  public function getBlobRef()
+  {
+    return $this->blobRef;
+  }
+  /**
+   * @param GdataBlobstore2Info
+   */
+  public function setBlobstore2Info(GdataBlobstore2Info $blobstore2Info)
+  {
+    $this->blobstore2Info = $blobstore2Info;
+  }
+  /**
+   * @return GdataBlobstore2Info
+   */
+  public function getBlobstore2Info()
+  {
+    return $this->blobstore2Info;
+  }
+  public function setCosmoBinaryReference($cosmoBinaryReference)
+  {
+    $this->cosmoBinaryReference = $cosmoBinaryReference;
+  }
+  public function getCosmoBinaryReference()
+  {
+    return $this->cosmoBinaryReference;
+  }
+  public function setCrc32cHash($crc32cHash)
+  {
+    $this->crc32cHash = $crc32cHash;
+  }
+  public function getCrc32cHash()
+  {
+    return $this->crc32cHash;
+  }
+  public function setInline($inline)
+  {
+    $this->inline = $inline;
+  }
+  public function getInline()
+  {
+    return $this->inline;
+  }
+  public function setLength($length)
+  {
+    $this->length = $length;
+  }
+  public function getLength()
+  {
+    return $this->length;
+  }
+  public function setMd5Hash($md5Hash)
+  {
+    $this->md5Hash = $md5Hash;
+  }
+  public function getMd5Hash()
+  {
+    return $this->md5Hash;
+  }
+  /**
+   * @param GdataObjectId
+   */
+  public function setObjectId(GdataObjectId $objectId)
+  {
+    $this->objectId = $objectId;
+  }
+  /**
+   * @return GdataObjectId
+   */
+  public function getObjectId()
+  {
+    return $this->objectId;
+  }
+  public function setPath($path)
+  {
+    $this->path = $path;
+  }
+  public function getPath()
+  {
+    return $this->path;
+  }
+  public function setReferenceType($referenceType)
+  {
+    $this->referenceType = $referenceType;
+  }
+  public function getReferenceType()
+  {
+    return $this->referenceType;
+  }
+  public function setSha1Hash($sha1Hash)
+  {
+    $this->sha1Hash = $sha1Hash;
+  }
+  public function getSha1Hash()
+  {
+    return $this->sha1Hash;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GdataCompositeMedia::class, 'Google_Service_YouTubeReporting_GdataCompositeMedia');

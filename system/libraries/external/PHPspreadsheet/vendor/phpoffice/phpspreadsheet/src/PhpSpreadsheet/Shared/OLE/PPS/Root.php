@@ -1,309 +1,466 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+namespace PhpOffice\PhpSpreadsheet\Shared\OLE\PPS;
+
+// vim: set expandtab tabstop=4 shiftwidth=4:
+// +----------------------------------------------------------------------+
+// | PHP Version 4                                                        |
+// +----------------------------------------------------------------------+
+// | Copyright (c) 1997-2002 The PHP Group                                |
+// +----------------------------------------------------------------------+
+// | This source file is subject to version 2.02 of the PHP license,      |
+// | that is bundled with this package in the file LICENSE, and is        |
+// | available at through the world-wide-web at                           |
+// | http://www.php.net/license/2_02.txt.                                 |
+// | If you did not receive a copy of the PHP license and are unable to   |
+// | obtain it through the world-wide-web, please send a note to          |
+// | license@php.net so we can mail you a copy immediately.               |
+// +----------------------------------------------------------------------+
+// | Author: Xavier Noguer <xnoguer@php.net>                              |
+// | Based on OLE::Storage_Lite by Kawai, Takanori                        |
+// +----------------------------------------------------------------------+
+//
+use PhpOffice\PhpSpreadsheet\Shared\OLE;
+use PhpOffice\PhpSpreadsheet\Shared\OLE\PPS;
+use PhpOffice\PhpSpreadsheet\Writer\Exception as WriterException;
+
+/**
+ * Class for creating Root PPS's for OLE containers.
+ *
+ * @author   Xavier Noguer <xnoguer@php.net>
+ *
+ * @category PhpSpreadsheet
+ */
+class Root extends PPS
+{
+    /**
+     * Directory for temporary files.
+     *
+     * @var string
+     */
+    protected $tempDirectory;
+
+    /**
+     * @var resource
+     */
+    private $fileHandle;
+
+    /**
+     * @var string
+     */
+    private $tempFilename;
+
+    /**
+     * @var int
+     */
+    private $smallBlockSize;
+
+    /**
+     * @var int
+     */
+    private $bigBlockSize;
+
+    /**
+     * @param int $time_1st A timestamp
+     * @param int $time_2nd A timestamp
+     * @param File[] $raChild
+     */
+    public function __construct($time_1st, $time_2nd, $raChild)
+    {
+        $this->tempDirectory = \PhpOffice\PhpSpreadsheet\Shared\File::sysGetTempDir();
+
+        parent::__construct(null, OLE::ascToUcs('Root Entry'), OLE::OLE_PPS_TYPE_ROOT, null, null, null, $time_1st, $time_2nd, null, $raChild);
+    }
+
+    /**
+     * Method for saving the whole OLE container (including files).
+     * In fact, if called with an empty argument (or '-'), it saves to a
+     * temporary file and then outputs it's contents to stdout.
+     * If a resource pointer to a stream created by fopen() is passed
+     * it will be used, but you have to close such stream by yourself.
+     *
+     * @param resource|string $filename the name of the file or stream where to save the OLE container
+     *
+     * @throws WriterException
+     *
+     * @return bool true on success
+     */
+    public function save($filename)
+    {
+        // Initial Setting for saving
+        $this->bigBlockSize = pow(
+            2,
+            (isset($this->bigBlockSize)) ? self::adjust2($this->bigBlockSize) : 9
+        );
+        $this->smallBlockSize = pow(
+            2,
+            (isset($this->smallBlockSize)) ? self::adjust2($this->smallBlockSize) : 6
+        );
+
+        if (is_resource($filename)) {
+            $this->fileHandle = $filename;
+        } elseif ($filename == '-' || $filename == '') {
+            if ($this->tempDirectory === null) {
+                $this->tempDirectory = \PhpOffice\PhpSpreadsheet\Shared\File::sysGetTempDir();
+            }
+            $this->tempFilename = tempnam($this->tempDirectory, 'OLE_PPS_Root');
+            $this->fileHandle = fopen($this->tempFilename, 'w+b');
+            if ($this->fileHandle == false) {
+                throw new WriterException("Can't create temporary file.");
+            }
+        } else {
+            $this->fileHandle = fopen($filename, 'wb');
+        }
+        if ($this->fileHandle == false) {
+            throw new WriterException("Can't open $filename. It may be in use or protected.");
+        }
+        // Make an array of PPS's (for Save)
+        $aList = [];
+        PPS::_savePpsSetPnt($aList, [$this]);
+        // calculate values for header
+        [$iSBDcnt, $iBBcnt, $iPPScnt] = $this->_calcSize($aList); //, $rhInfo);
+        // Save Header
+        $this->_saveHeader($iSBDcnt, $iBBcnt, $iPPScnt);
+
+        // Make Small Data string (write SBD)
+        $this->_data = $this->_makeSmallData($aList);
+
+        // Write BB
+        $this->_saveBigData($iSBDcnt, $aList);
+        // Write PPS
+        $this->_savePps($aList);
+        // Write Big Block Depot and BDList and Adding Header informations
+        $this->_saveBbd($iSBDcnt, $iBBcnt, $iPPScnt);
+
+        if (!is_resource($filename)) {
+            fclose($this->fileHandle);
+        }
+
+        return true;
+    }
+
+    /**
+     * Calculate some numbers.
+     *
+     * @param array $raList Reference to an array of PPS's
+     *
+     * @return float[] The array of numbers
+     */
+    public function _calcSize(&$raList)
+    {
+        // Calculate Basic Setting
+        [$iSBDcnt, $iBBcnt, $iPPScnt] = [0, 0, 0];
+        $iSmallLen = 0;
+        $iSBcnt = 0;
+        $iCount = count($raList);
+        for ($i = 0; $i < $iCount; ++$i) {
+            if ($raList[$i]->Type == OLE::OLE_PPS_TYPE_FILE) {
+                $raList[$i]->Size = $raList[$i]->getDataLen();
+                if ($raList[$i]->Size < OLE::OLE_DATA_SIZE_SMALL) {
+                    $iSBcnt += floor($raList[$i]->Size / $this->smallBlockSize)
+                                  + (($raList[$i]->Size % $this->smallBlockSize) ? 1 : 0);
+                } else {
+                    $iBBcnt += (floor($raList[$i]->Size / $this->bigBlockSize) +
+                        (($raList[$i]->Size % $this->bigBlockSize) ? 1 : 0));
+                }
+            }
+        }
+        $iSmallLen = $iSBcnt * $this->smallBlockSize;
+        $iSlCnt = floor($this->bigBlockSize / OLE::OLE_LONG_INT_SIZE);
+        $iSBDcnt = floor($iSBcnt / $iSlCnt) + (($iSBcnt % $iSlCnt) ? 1 : 0);
+        $iBBcnt += (floor($iSmallLen / $this->bigBlockSize) +
+                      (($iSmallLen % $this->bigBlockSize) ? 1 : 0));
+        $iCnt = count($raList);
+        $iBdCnt = $this->bigBlockSize / OLE::OLE_PPS_SIZE;
+        $iPPScnt = (floor($iCnt / $iBdCnt) + (($iCnt % $iBdCnt) ? 1 : 0));
+
+        return [$iSBDcnt, $iBBcnt, $iPPScnt];
+    }
+
+    /**
+     * Helper function for caculating a magic value for block sizes.
+     *
+     * @param int $i2 The argument
+     *
+     * @see save()
+     *
+     * @return float
+     */
+    private static function adjust2($i2)
+    {
+        $iWk = log($i2) / log(2);
+
+        return ($iWk > floor($iWk)) ? floor($iWk) + 1 : $iWk;
+    }
+
+    /**
+     * Save OLE header.
+     *
+     * @param int $iSBDcnt
+     * @param int $iBBcnt
+     * @param int $iPPScnt
+     */
+    public function _saveHeader($iSBDcnt, $iBBcnt, $iPPScnt)
+    {
+        $FILE = $this->fileHandle;
+
+        // Calculate Basic Setting
+        $iBlCnt = $this->bigBlockSize / OLE::OLE_LONG_INT_SIZE;
+        $i1stBdL = ($this->bigBlockSize - 0x4C) / OLE::OLE_LONG_INT_SIZE;
+
+        $iBdExL = 0;
+        $iAll = $iBBcnt + $iPPScnt + $iSBDcnt;
+        $iAllW = $iAll;
+        $iBdCntW = floor($iAllW / $iBlCnt) + (($iAllW % $iBlCnt) ? 1 : 0);
+        $iBdCnt = floor(($iAll + $iBdCntW) / $iBlCnt) + ((($iAllW + $iBdCntW) % $iBlCnt) ? 1 : 0);
+
+        // Calculate BD count
+        if ($iBdCnt > $i1stBdL) {
+            while (1) {
+                ++$iBdExL;
+                ++$iAllW;
+                $iBdCntW = floor($iAllW / $iBlCnt) + (($iAllW % $iBlCnt) ? 1 : 0);
+                $iBdCnt = floor(($iAllW + $iBdCntW) / $iBlCnt) + ((($iAllW + $iBdCntW) % $iBlCnt) ? 1 : 0);
+                if ($iBdCnt <= ($iBdExL * $iBlCnt + $i1stBdL)) {
+                    break;
+                }
+            }
+        }
+
+        // Save Header
+        fwrite(
+            $FILE,
+            "\xD0\xCF\x11\xE0\xA1\xB1\x1A\xE1"
+            . "\x00\x00\x00\x00"
+            . "\x00\x00\x00\x00"
+            . "\x00\x00\x00\x00"
+            . "\x00\x00\x00\x00"
+            . pack('v', 0x3b)
+            . pack('v', 0x03)
+            . pack('v', -2)
+            . pack('v', 9)
+            . pack('v', 6)
+            . pack('v', 0)
+            . "\x00\x00\x00\x00"
+            . "\x00\x00\x00\x00"
+            . pack('V', $iBdCnt)
+            . pack('V', $iBBcnt + $iSBDcnt) //ROOT START
+            . pack('V', 0)
+            . pack('V', 0x1000)
+            . pack('V', $iSBDcnt ? 0 : -2) //Small Block Depot
+            . pack('V', $iSBDcnt)
+        );
+        // Extra BDList Start, Count
+        if ($iBdCnt < $i1stBdL) {
+            fwrite(
+                $FILE,
+                pack('V', -2) // Extra BDList Start
+                . pack('V', 0)// Extra BDList Count
+            );
+        } else {
+            fwrite($FILE, pack('V', $iAll + $iBdCnt) . pack('V', $iBdExL));
+        }
+
+        // BDList
+        for ($i = 0; $i < $i1stBdL && $i < $iBdCnt; ++$i) {
+            fwrite($FILE, pack('V', $iAll + $i));
+        }
+        if ($i < $i1stBdL) {
+            $jB = $i1stBdL - $i;
+            for ($j = 0; $j < $jB; ++$j) {
+                fwrite($FILE, (pack('V', -1)));
+            }
+        }
+    }
+
+    /**
+     * Saving big data (PPS's with data bigger than \PhpOffice\PhpSpreadsheet\Shared\OLE::OLE_DATA_SIZE_SMALL).
+     *
+     * @param int $iStBlk
+     * @param array &$raList Reference to array of PPS's
+     */
+    public function _saveBigData($iStBlk, &$raList)
+    {
+        $FILE = $this->fileHandle;
+
+        // cycle through PPS's
+        $iCount = count($raList);
+        for ($i = 0; $i < $iCount; ++$i) {
+            if ($raList[$i]->Type != OLE::OLE_PPS_TYPE_DIR) {
+                $raList[$i]->Size = $raList[$i]->getDataLen();
+                if (($raList[$i]->Size >= OLE::OLE_DATA_SIZE_SMALL) || (($raList[$i]->Type == OLE::OLE_PPS_TYPE_ROOT) && isset($raList[$i]->_data))) {
+                    fwrite($FILE, $raList[$i]->_data);
+
+                    if ($raList[$i]->Size % $this->bigBlockSize) {
+                        fwrite($FILE, str_repeat("\x00", $this->bigBlockSize - ($raList[$i]->Size % $this->bigBlockSize)));
+                    }
+                    // Set For PPS
+                    $raList[$i]->startBlock = $iStBlk;
+                    $iStBlk +=
+                            (floor($raList[$i]->Size / $this->bigBlockSize) +
+                                (($raList[$i]->Size % $this->bigBlockSize) ? 1 : 0));
+                }
+            }
+        }
+    }
+
+    /**
+     * get small data (PPS's with data smaller than \PhpOffice\PhpSpreadsheet\Shared\OLE::OLE_DATA_SIZE_SMALL).
+     *
+     * @param array &$raList Reference to array of PPS's
+     *
+     * @return string
+     */
+    public function _makeSmallData(&$raList)
+    {
+        $sRes = '';
+        $FILE = $this->fileHandle;
+        $iSmBlk = 0;
+
+        $iCount = count($raList);
+        for ($i = 0; $i < $iCount; ++$i) {
+            // Make SBD, small data string
+            if ($raList[$i]->Type == OLE::OLE_PPS_TYPE_FILE) {
+                if ($raList[$i]->Size <= 0) {
+                    continue;
+                }
+                if ($raList[$i]->Size < OLE::OLE_DATA_SIZE_SMALL) {
+                    $iSmbCnt = floor($raList[$i]->Size / $this->smallBlockSize)
+                                  + (($raList[$i]->Size % $this->smallBlockSize) ? 1 : 0);
+                    // Add to SBD
+                    $jB = $iSmbCnt - 1;
+                    for ($j = 0; $j < $jB; ++$j) {
+                        fwrite($FILE, pack('V', $j + $iSmBlk + 1));
+                    }
+                    fwrite($FILE, pack('V', -2));
+
+                    // Add to Data String(this will be written for RootEntry)
+                    $sRes .= $raList[$i]->_data;
+                    if ($raList[$i]->Size % $this->smallBlockSize) {
+                        $sRes .= str_repeat("\x00", $this->smallBlockSize - ($raList[$i]->Size % $this->smallBlockSize));
+                    }
+                    // Set for PPS
+                    $raList[$i]->startBlock = $iSmBlk;
+                    $iSmBlk += $iSmbCnt;
+                }
+            }
+        }
+        $iSbCnt = floor($this->bigBlockSize / OLE::OLE_LONG_INT_SIZE);
+        if ($iSmBlk % $iSbCnt) {
+            $iB = $iSbCnt - ($iSmBlk % $iSbCnt);
+            for ($i = 0; $i < $iB; ++$i) {
+                fwrite($FILE, pack('V', -1));
+            }
+        }
+
+        return $sRes;
+    }
+
+    /**
+     * Saves all the PPS's WKs.
+     *
+     * @param array $raList Reference to an array with all PPS's
+     */
+    public function _savePps(&$raList)
+    {
+        // Save each PPS WK
+        $iC = count($raList);
+        for ($i = 0; $i < $iC; ++$i) {
+            fwrite($this->fileHandle, $raList[$i]->_getPpsWk());
+        }
+        // Adjust for Block
+        $iCnt = count($raList);
+        $iBCnt = $this->bigBlockSize / OLE::OLE_PPS_SIZE;
+        if ($iCnt % $iBCnt) {
+            fwrite($this->fileHandle, str_repeat("\x00", ($iBCnt - ($iCnt % $iBCnt)) * OLE::OLE_PPS_SIZE));
+        }
+    }
+
+    /**
+     * Saving Big Block Depot.
+     *
+     * @param int $iSbdSize
+     * @param int $iBsize
+     * @param int $iPpsCnt
+     */
+    public function _saveBbd($iSbdSize, $iBsize, $iPpsCnt)
+    {
+        $FILE = $this->fileHandle;
+        // Calculate Basic Setting
+        $iBbCnt = $this->bigBlockSize / OLE::OLE_LONG_INT_SIZE;
+        $i1stBdL = ($this->bigBlockSize - 0x4C) / OLE::OLE_LONG_INT_SIZE;
+
+        $iBdExL = 0;
+        $iAll = $iBsize + $iPpsCnt + $iSbdSize;
+        $iAllW = $iAll;
+        $iBdCntW = floor($iAllW / $iBbCnt) + (($iAllW % $iBbCnt) ? 1 : 0);
+        $iBdCnt = floor(($iAll + $iBdCntW) / $iBbCnt) + ((($iAllW + $iBdCntW) % $iBbCnt) ? 1 : 0);
+        // Calculate BD count
+        if ($iBdCnt > $i1stBdL) {
+            while (1) {
+                ++$iBdExL;
+                ++$iAllW;
+                $iBdCntW = floor($iAllW / $iBbCnt) + (($iAllW % $iBbCnt) ? 1 : 0);
+                $iBdCnt = floor(($iAllW + $iBdCntW) / $iBbCnt) + ((($iAllW + $iBdCntW) % $iBbCnt) ? 1 : 0);
+                if ($iBdCnt <= ($iBdExL * $iBbCnt + $i1stBdL)) {
+                    break;
+                }
+            }
+        }
+
+        // Making BD
+        // Set for SBD
+        if ($iSbdSize > 0) {
+            for ($i = 0; $i < ($iSbdSize - 1); ++$i) {
+                fwrite($FILE, pack('V', $i + 1));
+            }
+            fwrite($FILE, pack('V', -2));
+        }
+        // Set for B
+        for ($i = 0; $i < ($iBsize - 1); ++$i) {
+            fwrite($FILE, pack('V', $i + $iSbdSize + 1));
+        }
+        fwrite($FILE, pack('V', -2));
+
+        // Set for PPS
+        for ($i = 0; $i < ($iPpsCnt - 1); ++$i) {
+            fwrite($FILE, pack('V', $i + $iSbdSize + $iBsize + 1));
+        }
+        fwrite($FILE, pack('V', -2));
+        // Set for BBD itself ( 0xFFFFFFFD : BBD)
+        for ($i = 0; $i < $iBdCnt; ++$i) {
+            fwrite($FILE, pack('V', 0xFFFFFFFD));
+        }
+        // Set for ExtraBDList
+        for ($i = 0; $i < $iBdExL; ++$i) {
+            fwrite($FILE, pack('V', 0xFFFFFFFC));
+        }
+        // Adjust for Block
+        if (($iAllW + $iBdCnt) % $iBbCnt) {
+            $iBlock = ($iBbCnt - (($iAllW + $iBdCnt) % $iBbCnt));
+            for ($i = 0; $i < $iBlock; ++$i) {
+                fwrite($FILE, pack('V', -1));
+            }
+        }
+        // Extra BDList
+        if ($iBdCnt > $i1stBdL) {
+            $iN = 0;
+            $iNb = 0;
+            for ($i = $i1stBdL; $i < $iBdCnt; $i++, ++$iN) {
+                if ($iN >= ($iBbCnt - 1)) {
+                    $iN = 0;
+                    ++$iNb;
+                    fwrite($FILE, pack('V', $iAll + $iBdCnt + $iNb));
+                }
+                fwrite($FILE, pack('V', $iBsize + $iSbdSize + $iPpsCnt + $i));
+            }
+            if (($iBdCnt - $i1stBdL) % ($iBbCnt - 1)) {
+                $iB = ($iBbCnt - 1) - (($iBdCnt - $i1stBdL) % ($iBbCnt - 1));
+                for ($i = 0; $i < $iB; ++$i) {
+                    fwrite($FILE, pack('V', -1));
+                }
+            }
+            fwrite($FILE, pack('V', -2));
+        }
+    }
+}

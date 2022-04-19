@@ -1,63 +1,226 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-zbm18hGdnDBUZZWflSsq9gG=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for Storagetransfer (v1).
+ *
+ * <p>
+ * Transfers data from external data sources to a Google Cloud Storage bucket or
+ * between Google Cloud Storage buckets.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/storage-transfer/docs" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class Storagetransfer extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+
+  public $googleServiceAccounts;
+  public $transferJobs;
+  public $transferOperations;
+
+  /**
+   * Constructs the internal representation of the Storagetransfer service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://storagetransfer.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'storagetransfer';
+
+    $this->googleServiceAccounts = new Storagetransfer\Resource\GoogleServiceAccounts(
+        $this,
+        $this->serviceName,
+        'googleServiceAccounts',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/googleServiceAccounts/{projectId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->transferJobs = new Storagetransfer\Resource\TransferJobs(
+        $this,
+        $this->serviceName,
+        'transferJobs',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/transferJobs',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'get' => [
+              'path' => 'v1/{+jobName}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'jobName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'projectId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/transferJobs',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+jobName}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'jobName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'run' => [
+              'path' => 'v1/{+jobName}:run',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'jobName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->transferOperations = new Storagetransfer\Resource\TransferOperations(
+        $this,
+        $this->serviceName,
+        'transferOperations',
+        [
+          'methods' => [
+            'cancel' => [
+              'path' => 'v1/{+name}:cancel',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'pause' => [
+              'path' => 'v1/{+name}:pause',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'resume' => [
+              'path' => 'v1/{+name}:resume',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Storagetransfer::class, 'Google_Service_Storagetransfer');

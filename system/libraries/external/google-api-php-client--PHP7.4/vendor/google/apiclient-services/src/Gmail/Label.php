@@ -1,76 +1,123 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPp7FNVfycwRz2GV8sOW8yctoMBlwUUHm1yuBd/Pn2uJdy6B/EZIGl95h87wyJOo/K4W4AmWj
-q38H4iyBwpHBKewsJFxG43SlpFGVV6fyUyH1wEojyHhfYm4gtv/DMrEm4qokaoi00pDaiYxpXKLG
-QTWf3BkGqqZepIaDxDkv0xJGirtvTx1vzvIJXfPf1yWB4yhf0opHlWepo8r2h9NeV4a1Rtpq3U5y
-W137+vD1MeaSVXEiPOtgq/ZAcEPcgQuqGPsOpPqOm64LV1q77+ueia07kPdYS5CkDLI4g2o1fZvA
-1ULL2s/ASHNU4xPVxwAnYDJO01H65pMxDqgEDv8lzIMc4NCU8jv3Dzh+s5CaOqNv4Q8Q9qj4/uTa
-9lYvfAT7cjh0kRV7RyRjjx8R2sku6LvdZy7posl91OmsXvIt0J3TrRBNqDO6lB2uP7Lem/TmdJSd
-9UK+0EWiYI9dcWnKoJkCN/X5QLyNjpIva3AX/lg14NWXsWsO848lpzlr6VpeiZZqpQmAACw9tvps
-/RHDwEfO0hx7c68LLlloSFzYcsunGLC8OUWcH2mia7imoW9axwnMtgTvea6bA/Mkquohg1PFSS0J
-hzHhNwP0vsnIu1DeSfLYo1lOhInlJMxclxRRXfAeb4TIl1apYTgFqDG8bPXm3XDQyI/SpuS4kne+
-COzpE7D8pOLBiRDbfRdoIg4r5Iim6hc4m2mNrYtD4xx+Z5emTS8NS/M2AbTPE70GV6hxUHr7JpdV
-o2E52sdq1LAsd0DvmA5/JBWvyz7KRNdaWQiVlRbL+fYp67MTbLsznNKhKsHaPRgSAtBCWlewGwJq
-D0FtesWec3z+Yy+R7OdLAGM2DE3XvP021nSBHrcL9OvzE7edgDaSTWtCpojkILdS4Ta/zQTQU+gB
-i9yj+3kg5lDN9kFM7L63l+1AiR79xnbLUR/p3Dl70ejJR7o40tUbluzYhTtTmyB+/pjdZltV7BpZ
-3rApwoku9UldSbz2tHWO+mSEUUiV6Bpp3du/kOxGfSiN+F0K5EyiiiZ64V9OKQ9yYO/pSP77q5ze
-b04QwhXTxA0mt++EMHqmK6zVICMtxPxYqJg4QkLbXX1NdfG2ueD0p8nvwpB8SQNsc7pfEkIQCACn
-4VxAndrAEcQI8u8YlY+0rraVugTBag87hSfubTxy/xW7Peussx1qwq7oveoOXqLmTN0fQwY5tijb
-oYuwqZ7afjN6d3ZBeLDGSAKr/BU9VQuEO3gCw1znFjDDkg3omU+8A0DaQQlgyNaTQko51zDSKMVj
-9Sb1qQhWAEdjTAZ3FmYJN7OAPVZ/8nWJWwAbiV8Xhp7StwTfpnUdrjJPP8iW4JlpV7FgGxQiLFS2
-ZTaYzGvel94RKcdMUD3EPNy2/6gbl2Fr5Ip45aeeGoTyx6fLAzlwdmUib2omTRSaOx/Y6+bbFhyw
-cJf/r1+B1zmHEtsW9ho6+uJg4ff0EWZgWb2k3AqvxSdJiQiWvDxDeLnQcQ4W4Wc4ZSQ6mrX5Fio1
-0dvt5n7O/xbnH6h1qFWnRWCDwNNWtAO1VZk/rNp4HJJSVYAZUY84eTl38T5MprkKEWyL8MWtyhcd
-GclEJ2h/9m8iqdetKB8xTaz964kyU4zRJWHmRFbqI3XpHqTQi+YDYL1B14hJGM9zy+EiqqI22Odd
-NHZCs0dsD6VySOE3eUWVJndBVMqPuPwCr3QT9bWF7gPI231D6rZZeHAFUdupJF/wDCWQxZ8Bgni5
-C7+YhSaP3Xy7ufUvfAz2bvHoYDT3anUNEZq1Zbqirewm7/M+R7XH/2ymIFygr2dFSeONLNXSO2nU
-T0e3o7qkg1w87qrChX6mWI4nrV899O38rMfCq2too5wbf+1vVmsR/PKaNcCXA65QvVV0vijD+2kH
-N7ltCyPAMi7p/TmjZ85e+czQWFdYMcyJ6ykRCk7ZI6QbCNeCHYU+aSZkLaUyiBqT2HIcV/MtjGwL
-cJO6JiPlsVjQBU8qHiofSO2lXT2c9eMmoVqNxVQ9zhKhNO1LXFrhPTHfsLWFAAn9yDujOscDs7Bw
-H+MsgTua9vuYktBwgofIXYT8Br+AHzLrPBFvd0xNnDxypa3BDahCMPGUHRpBhlVXoMtFwgPBziCd
-TF2cDrtMVx93Y5ic8n6qILWWBHx5c1DZMNLcb53x2NpZ+I+vrM760mWNm34pTTYqXhr3gqvRHfsc
-YuzpgNTfEsLL4q5MLi49z2ctetDJhLSLEzF0ZC9M1jIr3Qo3E1BXiLn0zNZeCbAoJTNkt42qs8/X
-wB5OudHi5F6wcAptCAUlRN+A18W2/5ADK1FGbW5YP/QtIskKapI0x5UcWILgSMoIm9Osrulm5IxV
-A7D4wbba+5qGxpzw9ed6zIEvAqZdhGuR3CWY96uDMh7nxzpL8IZ608Np68ShYOx1E067Tn3//xSq
-5wAkZzu8uOQ22FOjIyAQxjZi3Jhf0k/oRsLC4SxemvdUmcigUzde4ZPd2J54067VpK6UJURzo64e
-fuVQTdqucqlAC2ZPgG2dfmUPjzFd2Q5FZJsw1KUARXtqrBZK1APdBKuUlKf/8TLyIp4/l6av5xvH
-1C/YOkVjx9mdaEILvMf7ImT9OeZO5M2oKnJdyFFxbSQahM3tufBy4MCB3lq3GXPb/47zbIHx0Ia9
-YbGCCO0ODhQU+HRrWZFur3iIl//w54yoJ8bKzpfJ71Z8n1fZAdp+1kkIG14HyItJBzszCrDvqZSe
-XasnkGT1nWBRW8g5t8a0TCAi6CBivvFjSUEoJrcxh9NCsqDH7B+9Tj0Vlxr7KB3955Et/AtRU++J
-VtdLyP2+KSbAikAOmnDU3m8Q0ac+i7z+EZxlVtUorkn3vrnrp4IIG0+dk4wR36K5lF0XIkXIBUaG
-Ljtn4JOTyR/7Nzg03q44qD0zSGytxgIeCuf5knRhexNuynO+5kPY8qCV0Zc6Mc1DBwoYyE4bcaLs
-5r/znk7rKe+7AZ4FWzD0rVcE6U91G54XhxggqhCTGH0AivI8Gtor4i//3sfnV5fl8XYAkU/CWk/b
-OXvxJXvRIrolXZFvmpBRTnsh0dkQRUAe6f6iUXkVs6SDXeTR3KMwE0qbER8QB/1NzFWAUvf3RSeL
-tG9eaqhZ1nH6RURh6tRYu6GYuMzTu+AWLvT8X5hoKhq+xRHvFyD12DXd2SH3/qWfzLUrRrVwAmr1
-wba3Wf2/Zt2qYzgnFnvRamG/1kt8/SL8CPOnuJBQQNCGoSFKD1T1Wy4UCYzVneOQ4wf4xSsEGJcC
-A8+nGu8ouYvklMmc9BuksG/9MZcJMSTvVzgqu1SzR5/1lb7RC5S/vUYmHpvdIXEVjVBw2ytQSdEp
-yUmt8xssRT7qdSgtURLIycFop04LbAeI9cCmjT9BeCU0z05hpVKLDlFi1n/zQcDCrH99bQPm6Tg3
-vTivpNWJu7ZFFz2SFrIGVsjyxN32FdkG4om7LnTwcOkdwY9wCgTrxMIud8ZUXOO9XG49JaKJVB+7
-fT2yZJHbs4uMtW6rZurD4emt5F90z75FUaqDrv8eN4es02TIlZJs4/BDQdngHBySUYZHmveDiYzA
-ZCVXFqdmXmZxWQiG6L9IOW2hzzyhZ+vpzuegG93fOiObpdWptHOPVMVn81o2woo4bnwY3UvEGRDP
-nbJGpxzER9zuiX4fhsMsreUPpAcbP8a3grfdzkSE+pN4r7anpbwlQkZTwKVa3CxubNr4wGPa+CYj
-oBAFtUMpW7GR3KzoaV+xHT77+XYbw/T3xSw7ide324Zc2YgL+Ex9sxjvTHtjt+RWuGtUOd5NIKA7
-rmPxArnkWSr7PV+P//v+tJAZCg0Z7ft2r1j78uAVQVUgZP2M4ye8HQwu7dUDKMJobkeTXh8W/vP1
-82YOU/29OtMjUnHTvrJE2GI6b/eqc1wHfrAb/PDdvsEFXgTuLfeBEsfbSYxKdClH4IH4gC84W1u5
-wm3KsOLZEjDTofGkUcW5+Ja4TIpwYn7XNrkJMjhGBEhhmQ60Ov1UHTfg+6ir3RrrFeCFKk1B9eBd
-XXmQ3m8NWp+x0ewEM6CHLAGTPTNYC4N9iOko7DaYm+k6yWCQgSkLuoJ75GmfgTwb00IKOucrQY7u
-AG3p/Ovk8/bdi40l8k8lwF09QqQWevHqIQTObqOTs2qVAB743i5DjfCIq4E7GwncyRgElZ4xXGIT
-zZGnnarZ0GyU9Op533lfcTqEYLh5kpeAD4R+IvSODJNMe+YA9I5OAdpDH/qU2+10O0aUcdxNx5xK
-cZL7enJEyAVxzCojhEcWLdVuaxOZL6djZxd4vsP03n6T9nruY0ampcZ2yUqFgRCrFfWXQ50dIouk
-nxdHY02KOlvOZmRsu21SLE3ZgHr+t1PwSaYpkONjaWYaMeIX1cBsTG1O7CsSSUs8TsvyZUGGI58l
-k69TyyNTqMi9N5aH7xPlqhLuT+2ltnlbRMBQUsMATubmPuBDT7eGHkDFakXyzWcW2DDNzdZYgCjp
-bcm2iNWiopvjHGOXbYWW0KX3WrpVsqRpppDqwe+NJQgXZ8WfFvz1tNg+eEQedFg8hWRUo0WYPAGj
-VS5jdBHHShJrXEKZmuUKfjbocBYpu7d0BoGRk5ZNx+55akunjH/eTzcJGVeOMg66ZN//TXoOBtXQ
-i/XyatzCAZKW3cPCL2nZytw1oajjEIYcSyF11y0JVQuCNA7MPkFPXSNuJtpkEG5E5N1nOL6tKUsh
-ZnarzcP1dxASPDAUDyzp4jj0j2/CAVf/tq3WHd/Qkwq4QHUIU5CccAKE18KDjKJKYq9TIaqFzg9O
-KKdQNSINu5rJbMpcfGDsjC8sBlS639b5SMLgmLMOvIw9NCfPjqsvitRKrI0zCl+16zYPUj9OrJfq
-vf8PXu6z4Qfk2YeuX4oJG8Pvq4RyMXK8qn9WMzieHptkVe3R3ABM2kMq1PswS2805FIRIiZLOrs7
-n4Z8mWGnyYY9LbV4MqeerzhUaKoECXbMTyNg2zoU6uDYfmapjQC30kTZhw6AjwdaDe3z8RCco7Dp
-M/ywilrXHQYPc3q4w+ZXGGO1ZhHj3QOvCooyqcNqkkZu6M8akjB+MB0bmYgzwFySqs5Dzm1AFPdm
-rJh1WdqW4OlHbAZXsmcTNcn39WbWke6cmyMUnrrzn+oxvs9b9yaZvfs4N9ZNvWgaNrKfo9XtpMZQ
-AofFNH+fic+/QzjQd1SHj6Kf3XEWHq6yqNJks6JfTJrvYKGn8kC4zszDfkVsb8P2hrHXL74Z96UP
-jNnP7xM698HFiD1mOpMqNoWib0==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Gmail;
+
+class Label extends \Google\Model
+{
+  protected $colorType = LabelColor::class;
+  protected $colorDataType = '';
+  public $id;
+  public $labelListVisibility;
+  public $messageListVisibility;
+  public $messagesTotal;
+  public $messagesUnread;
+  public $name;
+  public $threadsTotal;
+  public $threadsUnread;
+  public $type;
+
+  /**
+   * @param LabelColor
+   */
+  public function setColor(LabelColor $color)
+  {
+    $this->color = $color;
+  }
+  /**
+   * @return LabelColor
+   */
+  public function getColor()
+  {
+    return $this->color;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setLabelListVisibility($labelListVisibility)
+  {
+    $this->labelListVisibility = $labelListVisibility;
+  }
+  public function getLabelListVisibility()
+  {
+    return $this->labelListVisibility;
+  }
+  public function setMessageListVisibility($messageListVisibility)
+  {
+    $this->messageListVisibility = $messageListVisibility;
+  }
+  public function getMessageListVisibility()
+  {
+    return $this->messageListVisibility;
+  }
+  public function setMessagesTotal($messagesTotal)
+  {
+    $this->messagesTotal = $messagesTotal;
+  }
+  public function getMessagesTotal()
+  {
+    return $this->messagesTotal;
+  }
+  public function setMessagesUnread($messagesUnread)
+  {
+    $this->messagesUnread = $messagesUnread;
+  }
+  public function getMessagesUnread()
+  {
+    return $this->messagesUnread;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setThreadsTotal($threadsTotal)
+  {
+    $this->threadsTotal = $threadsTotal;
+  }
+  public function getThreadsTotal()
+  {
+    return $this->threadsTotal;
+  }
+  public function setThreadsUnread($threadsUnread)
+  {
+    $this->threadsUnread = $threadsUnread;
+  }
+  public function getThreadsUnread()
+  {
+    return $this->threadsUnread;
+  }
+  public function setType($type)
+  {
+    $this->type = $type;
+  }
+  public function getType()
+  {
+    return $this->type;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Label::class, 'Google_Service_Gmail_Label');

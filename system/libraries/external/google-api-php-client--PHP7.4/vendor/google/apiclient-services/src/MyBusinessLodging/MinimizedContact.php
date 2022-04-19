@@ -1,97 +1,152 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-IhTz2OokOQg8SZcX
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\MyBusinessLodging;
+
+class MinimizedContact extends \Google\Model
+{
+  public $contactlessCheckinCheckout;
+  public $contactlessCheckinCheckoutException;
+  public $digitalGuestRoomKeys;
+  public $digitalGuestRoomKeysException;
+  public $housekeepingScheduledRequestOnly;
+  public $housekeepingScheduledRequestOnlyException;
+  public $noHighTouchItemsCommonAreas;
+  public $noHighTouchItemsCommonAreasException;
+  public $noHighTouchItemsGuestRooms;
+  public $noHighTouchItemsGuestRoomsException;
+  public $plasticKeycardsDisinfected;
+  public $plasticKeycardsDisinfectedException;
+  public $roomBookingsBuffer;
+  public $roomBookingsBufferException;
+
+  public function setContactlessCheckinCheckout($contactlessCheckinCheckout)
+  {
+    $this->contactlessCheckinCheckout = $contactlessCheckinCheckout;
+  }
+  public function getContactlessCheckinCheckout()
+  {
+    return $this->contactlessCheckinCheckout;
+  }
+  public function setContactlessCheckinCheckoutException($contactlessCheckinCheckoutException)
+  {
+    $this->contactlessCheckinCheckoutException = $contactlessCheckinCheckoutException;
+  }
+  public function getContactlessCheckinCheckoutException()
+  {
+    return $this->contactlessCheckinCheckoutException;
+  }
+  public function setDigitalGuestRoomKeys($digitalGuestRoomKeys)
+  {
+    $this->digitalGuestRoomKeys = $digitalGuestRoomKeys;
+  }
+  public function getDigitalGuestRoomKeys()
+  {
+    return $this->digitalGuestRoomKeys;
+  }
+  public function setDigitalGuestRoomKeysException($digitalGuestRoomKeysException)
+  {
+    $this->digitalGuestRoomKeysException = $digitalGuestRoomKeysException;
+  }
+  public function getDigitalGuestRoomKeysException()
+  {
+    return $this->digitalGuestRoomKeysException;
+  }
+  public function setHousekeepingScheduledRequestOnly($housekeepingScheduledRequestOnly)
+  {
+    $this->housekeepingScheduledRequestOnly = $housekeepingScheduledRequestOnly;
+  }
+  public function getHousekeepingScheduledRequestOnly()
+  {
+    return $this->housekeepingScheduledRequestOnly;
+  }
+  public function setHousekeepingScheduledRequestOnlyException($housekeepingScheduledRequestOnlyException)
+  {
+    $this->housekeepingScheduledRequestOnlyException = $housekeepingScheduledRequestOnlyException;
+  }
+  public function getHousekeepingScheduledRequestOnlyException()
+  {
+    return $this->housekeepingScheduledRequestOnlyException;
+  }
+  public function setNoHighTouchItemsCommonAreas($noHighTouchItemsCommonAreas)
+  {
+    $this->noHighTouchItemsCommonAreas = $noHighTouchItemsCommonAreas;
+  }
+  public function getNoHighTouchItemsCommonAreas()
+  {
+    return $this->noHighTouchItemsCommonAreas;
+  }
+  public function setNoHighTouchItemsCommonAreasException($noHighTouchItemsCommonAreasException)
+  {
+    $this->noHighTouchItemsCommonAreasException = $noHighTouchItemsCommonAreasException;
+  }
+  public function getNoHighTouchItemsCommonAreasException()
+  {
+    return $this->noHighTouchItemsCommonAreasException;
+  }
+  public function setNoHighTouchItemsGuestRooms($noHighTouchItemsGuestRooms)
+  {
+    $this->noHighTouchItemsGuestRooms = $noHighTouchItemsGuestRooms;
+  }
+  public function getNoHighTouchItemsGuestRooms()
+  {
+    return $this->noHighTouchItemsGuestRooms;
+  }
+  public function setNoHighTouchItemsGuestRoomsException($noHighTouchItemsGuestRoomsException)
+  {
+    $this->noHighTouchItemsGuestRoomsException = $noHighTouchItemsGuestRoomsException;
+  }
+  public function getNoHighTouchItemsGuestRoomsException()
+  {
+    return $this->noHighTouchItemsGuestRoomsException;
+  }
+  public function setPlasticKeycardsDisinfected($plasticKeycardsDisinfected)
+  {
+    $this->plasticKeycardsDisinfected = $plasticKeycardsDisinfected;
+  }
+  public function getPlasticKeycardsDisinfected()
+  {
+    return $this->plasticKeycardsDisinfected;
+  }
+  public function setPlasticKeycardsDisinfectedException($plasticKeycardsDisinfectedException)
+  {
+    $this->plasticKeycardsDisinfectedException = $plasticKeycardsDisinfectedException;
+  }
+  public function getPlasticKeycardsDisinfectedException()
+  {
+    return $this->plasticKeycardsDisinfectedException;
+  }
+  public function setRoomBookingsBuffer($roomBookingsBuffer)
+  {
+    $this->roomBookingsBuffer = $roomBookingsBuffer;
+  }
+  public function getRoomBookingsBuffer()
+  {
+    return $this->roomBookingsBuffer;
+  }
+  public function setRoomBookingsBufferException($roomBookingsBufferException)
+  {
+    $this->roomBookingsBufferException = $roomBookingsBufferException;
+  }
+  public function getRoomBookingsBufferException()
+  {
+    return $this->roomBookingsBufferException;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(MinimizedContact::class, 'Google_Service_MyBusinessLodging_MinimizedContact');

@@ -1,67 +1,113 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-WNQgGJuRi0==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Apigee\Resource;
+
+use Google\Service\Apigee\GoogleCloudApigeeV1DebugSession;
+use Google\Service\Apigee\GoogleCloudApigeeV1ListDebugSessionsResponse;
+use Google\Service\Apigee\GoogleProtobufEmpty;
+
+/**
+ * The "debugsessions" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $apigeeService = new Google\Service\Apigee(...);
+ *   $debugsessions = $apigeeService->debugsessions;
+ *  </code>
+ */
+class OrganizationsEnvironmentsApisRevisionsDebugsessions extends \Google\Service\Resource
+{
+  /**
+   * Creates a debug session for a deployed API Proxy revision.
+   * (debugsessions.create)
+   *
+   * @param string $parent Required. The resource name of the API Proxy revision
+   * deployment for which to create the DebugSession. Must be of the form `organiz
+   * ations/{organization}/environments/{environment}/apis/{api}/revisions/{revisi
+   * on}`.
+   * @param GoogleCloudApigeeV1DebugSession $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string timeout Optional. The time in seconds after which this
+   * DebugSession should end. A timeout specified in DebugSession will overwrite
+   * this value.
+   * @return GoogleCloudApigeeV1DebugSession
+   */
+  public function create($parent, GoogleCloudApigeeV1DebugSession $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleCloudApigeeV1DebugSession::class);
+  }
+  /**
+   * Deletes the data from a debug session. This does not cancel the debug session
+   * or prevent further data from being collected if the session is still active
+   * in runtime pods. (debugsessions.deleteData)
+   *
+   * @param string $name Required. The name of the debug session to delete. Must
+   * be of the form: `organizations/{organization}/environments/{environment}/apis
+   * /{api}/revisions/{revision}/debugsessions/{debugsession}`.
+   * @param array $optParams Optional parameters.
+   * @return GoogleProtobufEmpty
+   */
+  public function deleteData($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('deleteData', [$params], GoogleProtobufEmpty::class);
+  }
+  /**
+   * Retrieves a debug session. (debugsessions.get)
+   *
+   * @param string $name Required. The name of the debug session to retrieve. Must
+   * be of the form: `organizations/{organization}/environments/{environment}/apis
+   * /{api}/revisions/{revision}/debugsessions/{session}`.
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1DebugSession
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudApigeeV1DebugSession::class);
+  }
+  /**
+   * Lists debug sessions that are currently active in the given API Proxy
+   * revision.
+   * (debugsessions.listOrganizationsEnvironmentsApisRevisionsDebugsessions)
+   *
+   * @param string $parent Required. The name of the API Proxy revision deployment
+   * for which to list debug sessions. Must be of the form: `organizations/{organi
+   * zation}/environments/{environment}/apis/{api}/revisions/{revision}`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Maximum number of debug sessions to return. The page
+   * size defaults to 25.
+   * @opt_param string pageToken Page token, returned from a previous
+   * ListDebugSessions call, that you can use to retrieve the next page.
+   * @return GoogleCloudApigeeV1ListDebugSessionsResponse
+   */
+  public function listOrganizationsEnvironmentsApisRevisionsDebugsessions($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleCloudApigeeV1ListDebugSessionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(OrganizationsEnvironmentsApisRevisionsDebugsessions::class, 'Google_Service_Apigee_Resource_OrganizationsEnvironmentsApisRevisionsDebugsessions');

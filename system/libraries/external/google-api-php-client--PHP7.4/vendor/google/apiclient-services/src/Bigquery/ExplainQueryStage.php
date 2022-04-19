@@ -1,147 +1,304 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Bigquery;
+
+class ExplainQueryStage extends \Google\Collection
+{
+  protected $collection_key = 'steps';
+  public $completedParallelInputs;
+  public $computeMsAvg;
+  public $computeMsMax;
+  public $computeRatioAvg;
+  public $computeRatioMax;
+  public $endMs;
+  public $id;
+  public $inputStages;
+  public $name;
+  public $parallelInputs;
+  public $readMsAvg;
+  public $readMsMax;
+  public $readRatioAvg;
+  public $readRatioMax;
+  public $recordsRead;
+  public $recordsWritten;
+  public $shuffleOutputBytes;
+  public $shuffleOutputBytesSpilled;
+  public $slotMs;
+  public $startMs;
+  public $status;
+  protected $stepsType = ExplainQueryStep::class;
+  protected $stepsDataType = 'array';
+  public $waitMsAvg;
+  public $waitMsMax;
+  public $waitRatioAvg;
+  public $waitRatioMax;
+  public $writeMsAvg;
+  public $writeMsMax;
+  public $writeRatioAvg;
+  public $writeRatioMax;
+
+  public function setCompletedParallelInputs($completedParallelInputs)
+  {
+    $this->completedParallelInputs = $completedParallelInputs;
+  }
+  public function getCompletedParallelInputs()
+  {
+    return $this->completedParallelInputs;
+  }
+  public function setComputeMsAvg($computeMsAvg)
+  {
+    $this->computeMsAvg = $computeMsAvg;
+  }
+  public function getComputeMsAvg()
+  {
+    return $this->computeMsAvg;
+  }
+  public function setComputeMsMax($computeMsMax)
+  {
+    $this->computeMsMax = $computeMsMax;
+  }
+  public function getComputeMsMax()
+  {
+    return $this->computeMsMax;
+  }
+  public function setComputeRatioAvg($computeRatioAvg)
+  {
+    $this->computeRatioAvg = $computeRatioAvg;
+  }
+  public function getComputeRatioAvg()
+  {
+    return $this->computeRatioAvg;
+  }
+  public function setComputeRatioMax($computeRatioMax)
+  {
+    $this->computeRatioMax = $computeRatioMax;
+  }
+  public function getComputeRatioMax()
+  {
+    return $this->computeRatioMax;
+  }
+  public function setEndMs($endMs)
+  {
+    $this->endMs = $endMs;
+  }
+  public function getEndMs()
+  {
+    return $this->endMs;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setInputStages($inputStages)
+  {
+    $this->inputStages = $inputStages;
+  }
+  public function getInputStages()
+  {
+    return $this->inputStages;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setParallelInputs($parallelInputs)
+  {
+    $this->parallelInputs = $parallelInputs;
+  }
+  public function getParallelInputs()
+  {
+    return $this->parallelInputs;
+  }
+  public function setReadMsAvg($readMsAvg)
+  {
+    $this->readMsAvg = $readMsAvg;
+  }
+  public function getReadMsAvg()
+  {
+    return $this->readMsAvg;
+  }
+  public function setReadMsMax($readMsMax)
+  {
+    $this->readMsMax = $readMsMax;
+  }
+  public function getReadMsMax()
+  {
+    return $this->readMsMax;
+  }
+  public function setReadRatioAvg($readRatioAvg)
+  {
+    $this->readRatioAvg = $readRatioAvg;
+  }
+  public function getReadRatioAvg()
+  {
+    return $this->readRatioAvg;
+  }
+  public function setReadRatioMax($readRatioMax)
+  {
+    $this->readRatioMax = $readRatioMax;
+  }
+  public function getReadRatioMax()
+  {
+    return $this->readRatioMax;
+  }
+  public function setRecordsRead($recordsRead)
+  {
+    $this->recordsRead = $recordsRead;
+  }
+  public function getRecordsRead()
+  {
+    return $this->recordsRead;
+  }
+  public function setRecordsWritten($recordsWritten)
+  {
+    $this->recordsWritten = $recordsWritten;
+  }
+  public function getRecordsWritten()
+  {
+    return $this->recordsWritten;
+  }
+  public function setShuffleOutputBytes($shuffleOutputBytes)
+  {
+    $this->shuffleOutputBytes = $shuffleOutputBytes;
+  }
+  public function getShuffleOutputBytes()
+  {
+    return $this->shuffleOutputBytes;
+  }
+  public function setShuffleOutputBytesSpilled($shuffleOutputBytesSpilled)
+  {
+    $this->shuffleOutputBytesSpilled = $shuffleOutputBytesSpilled;
+  }
+  public function getShuffleOutputBytesSpilled()
+  {
+    return $this->shuffleOutputBytesSpilled;
+  }
+  public function setSlotMs($slotMs)
+  {
+    $this->slotMs = $slotMs;
+  }
+  public function getSlotMs()
+  {
+    return $this->slotMs;
+  }
+  public function setStartMs($startMs)
+  {
+    $this->startMs = $startMs;
+  }
+  public function getStartMs()
+  {
+    return $this->startMs;
+  }
+  public function setStatus($status)
+  {
+    $this->status = $status;
+  }
+  public function getStatus()
+  {
+    return $this->status;
+  }
+  /**
+   * @param ExplainQueryStep[]
+   */
+  public function setSteps($steps)
+  {
+    $this->steps = $steps;
+  }
+  /**
+   * @return ExplainQueryStep[]
+   */
+  public function getSteps()
+  {
+    return $this->steps;
+  }
+  public function setWaitMsAvg($waitMsAvg)
+  {
+    $this->waitMsAvg = $waitMsAvg;
+  }
+  public function getWaitMsAvg()
+  {
+    return $this->waitMsAvg;
+  }
+  public function setWaitMsMax($waitMsMax)
+  {
+    $this->waitMsMax = $waitMsMax;
+  }
+  public function getWaitMsMax()
+  {
+    return $this->waitMsMax;
+  }
+  public function setWaitRatioAvg($waitRatioAvg)
+  {
+    $this->waitRatioAvg = $waitRatioAvg;
+  }
+  public function getWaitRatioAvg()
+  {
+    return $this->waitRatioAvg;
+  }
+  public function setWaitRatioMax($waitRatioMax)
+  {
+    $this->waitRatioMax = $waitRatioMax;
+  }
+  public function getWaitRatioMax()
+  {
+    return $this->waitRatioMax;
+  }
+  public function setWriteMsAvg($writeMsAvg)
+  {
+    $this->writeMsAvg = $writeMsAvg;
+  }
+  public function getWriteMsAvg()
+  {
+    return $this->writeMsAvg;
+  }
+  public function setWriteMsMax($writeMsMax)
+  {
+    $this->writeMsMax = $writeMsMax;
+  }
+  public function getWriteMsMax()
+  {
+    return $this->writeMsMax;
+  }
+  public function setWriteRatioAvg($writeRatioAvg)
+  {
+    $this->writeRatioAvg = $writeRatioAvg;
+  }
+  public function getWriteRatioAvg()
+  {
+    return $this->writeRatioAvg;
+  }
+  public function setWriteRatioMax($writeRatioMax)
+  {
+    $this->writeRatioMax = $writeRatioMax;
+  }
+  public function getWriteRatioMax()
+  {
+    return $this->writeRatioMax;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ExplainQueryStage::class, 'Google_Service_Bigquery_ExplainQueryStage');

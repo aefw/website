@@ -1,62 +1,189 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for OnDemandScanning (v1).
+ *
+ * <p>
+ * A service to scan container images for vulnerabilities.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/container-analysis/docs/on-demand-scanning/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class OnDemandScanning extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+
+  public $projects_locations_operations;
+  public $projects_locations_scans;
+  public $projects_locations_scans_vulnerabilities;
+
+  /**
+   * Constructs the internal representation of the OnDemandScanning service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://ondemandscanning.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'ondemandscanning';
+
+    $this->projects_locations_operations = new OnDemandScanning\Resource\ProjectsLocationsOperations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'cancel' => [
+              'path' => 'v1/{+name}:cancel',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+name}/operations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'wait' => [
+              'path' => 'v1/{+name}:wait',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'timeout' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_scans = new OnDemandScanning\Resource\ProjectsLocationsScans(
+        $this,
+        $this->serviceName,
+        'scans',
+        [
+          'methods' => [
+            'analyzePackages' => [
+              'path' => 'v1/{+parent}/scans:analyzePackages',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_scans_vulnerabilities = new OnDemandScanning\Resource\ProjectsLocationsScansVulnerabilities(
+        $this,
+        $this->serviceName,
+        'vulnerabilities',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/{+parent}/vulnerabilities',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(OnDemandScanning::class, 'Google_Service_OnDemandScanning');

@@ -1,86 +1,153 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-yN2DNjuB8YgYpsHDZvNoPBaGKmC1
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DatabaseMigrationService;
+
+class ConnectionProfile extends \Google\Model
+{
+  protected $cloudsqlType = CloudSqlConnectionProfile::class;
+  protected $cloudsqlDataType = '';
+  public $createTime;
+  public $displayName;
+  protected $errorType = Status::class;
+  protected $errorDataType = '';
+  public $labels;
+  protected $mysqlType = MySqlConnectionProfile::class;
+  protected $mysqlDataType = '';
+  public $name;
+  protected $postgresqlType = PostgreSqlConnectionProfile::class;
+  protected $postgresqlDataType = '';
+  public $provider;
+  public $state;
+  public $updateTime;
+
+  /**
+   * @param CloudSqlConnectionProfile
+   */
+  public function setCloudsql(CloudSqlConnectionProfile $cloudsql)
+  {
+    $this->cloudsql = $cloudsql;
+  }
+  /**
+   * @return CloudSqlConnectionProfile
+   */
+  public function getCloudsql()
+  {
+    return $this->cloudsql;
+  }
+  public function setCreateTime($createTime)
+  {
+    $this->createTime = $createTime;
+  }
+  public function getCreateTime()
+  {
+    return $this->createTime;
+  }
+  public function setDisplayName($displayName)
+  {
+    $this->displayName = $displayName;
+  }
+  public function getDisplayName()
+  {
+    return $this->displayName;
+  }
+  /**
+   * @param Status
+   */
+  public function setError(Status $error)
+  {
+    $this->error = $error;
+  }
+  /**
+   * @return Status
+   */
+  public function getError()
+  {
+    return $this->error;
+  }
+  public function setLabels($labels)
+  {
+    $this->labels = $labels;
+  }
+  public function getLabels()
+  {
+    return $this->labels;
+  }
+  /**
+   * @param MySqlConnectionProfile
+   */
+  public function setMysql(MySqlConnectionProfile $mysql)
+  {
+    $this->mysql = $mysql;
+  }
+  /**
+   * @return MySqlConnectionProfile
+   */
+  public function getMysql()
+  {
+    return $this->mysql;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  /**
+   * @param PostgreSqlConnectionProfile
+   */
+  public function setPostgresql(PostgreSqlConnectionProfile $postgresql)
+  {
+    $this->postgresql = $postgresql;
+  }
+  /**
+   * @return PostgreSqlConnectionProfile
+   */
+  public function getPostgresql()
+  {
+    return $this->postgresql;
+  }
+  public function setProvider($provider)
+  {
+    $this->provider = $provider;
+  }
+  public function getProvider()
+  {
+    return $this->provider;
+  }
+  public function setState($state)
+  {
+    $this->state = $state;
+  }
+  public function getState()
+  {
+    return $this->state;
+  }
+  public function setUpdateTime($updateTime)
+  {
+    $this->updateTime = $updateTime;
+  }
+  public function getUpdateTime()
+  {
+    return $this->updateTime;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ConnectionProfile::class, 'Google_Service_DatabaseMigrationService_ConnectionProfile');

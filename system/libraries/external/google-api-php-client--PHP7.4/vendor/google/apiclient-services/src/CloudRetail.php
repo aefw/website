@@ -1,78 +1,381 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for CloudRetail (v2).
+ *
+ * <p>
+ * Cloud Retail service enables customers to build end-to-end personalized
+ * recommendation systems without requiring a high level of expertise in machine
+ * learning, recommendation system, or Google Cloud.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/recommendations" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class CloudRetail extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+
+  public $projects_locations_catalogs;
+  public $projects_locations_catalogs_branches_operations;
+  public $projects_locations_catalogs_branches_products;
+  public $projects_locations_catalogs_operations;
+  public $projects_locations_catalogs_placements;
+  public $projects_locations_catalogs_userEvents;
+  public $projects_locations_operations;
+
+  /**
+   * Constructs the internal representation of the CloudRetail service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://retail.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v2';
+    $this->serviceName = 'retail';
+
+    $this->projects_locations_catalogs = new CloudRetail\Resource\ProjectsLocationsCatalogs(
+        $this,
+        $this->serviceName,
+        'catalogs',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v2/{+parent}/catalogs',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_catalogs_branches_operations = new CloudRetail\Resource\ProjectsLocationsCatalogsBranchesOperations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_catalogs_branches_products = new CloudRetail\Resource\ProjectsLocationsCatalogsBranchesProducts(
+        $this,
+        $this->serviceName,
+        'products',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v2/{+parent}/products',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'productId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'import' => [
+              'path' => 'v2/{+parent}/products:import',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'allowMissing' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_catalogs_operations = new CloudRetail\Resource\ProjectsLocationsCatalogsOperations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v2/{+name}/operations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_catalogs_placements = new CloudRetail\Resource\ProjectsLocationsCatalogsPlacements(
+        $this,
+        $this->serviceName,
+        'placements',
+        [
+          'methods' => [
+            'predict' => [
+              'path' => 'v2/{+placement}:predict',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'placement' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_catalogs_userEvents = new CloudRetail\Resource\ProjectsLocationsCatalogsUserEvents(
+        $this,
+        $this->serviceName,
+        'userEvents',
+        [
+          'methods' => [
+            'collect' => [
+              'path' => 'v2/{+parent}/userEvents:collect',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'ets' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'uri' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userEvent' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'import' => [
+              'path' => 'v2/{+parent}/userEvents:import',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'purge' => [
+              'path' => 'v2/{+parent}/userEvents:purge',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'rejoin' => [
+              'path' => 'v2/{+parent}/userEvents:rejoin',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'write' => [
+              'path' => 'v2/{+parent}/userEvents:write',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_operations = new CloudRetail\Resource\ProjectsLocationsOperations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v2/{+name}/operations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(CloudRetail::class, 'Google_Service_CloudRetail');

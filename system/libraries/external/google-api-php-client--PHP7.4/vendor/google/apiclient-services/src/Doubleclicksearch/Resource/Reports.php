@@ -1,61 +1,88 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Doubleclicksearch\Resource;
+
+use Google\Service\Doubleclicksearch\Report;
+use Google\Service\Doubleclicksearch\ReportRequest;
+
+/**
+ * The "reports" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $doubleclicksearchService = new Google\Service\Doubleclicksearch(...);
+ *   $reports = $doubleclicksearchService->reports;
+ *  </code>
+ */
+class Reports extends \Google\Service\Resource
+{
+  /**
+   * Generates and returns a report immediately. (reports.generate)
+   *
+   * @param ReportRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Report
+   */
+  public function generate(ReportRequest $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('generate', [$params], Report::class);
+  }
+  /**
+   * Polls for the status of a report request. (reports.get)
+   *
+   * @param string $reportId ID of the report request being polled.
+   * @param array $optParams Optional parameters.
+   * @return Report
+   */
+  public function get($reportId, $optParams = [])
+  {
+    $params = ['reportId' => $reportId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Report::class);
+  }
+  /**
+   * Downloads a report file encoded in UTF-8. (reports.getFile)
+   *
+   * @param string $reportId ID of the report.
+   * @param int $reportFragment The index of the report fragment to download.
+   * @param array $optParams Optional parameters.
+   */
+  public function getFile($reportId, $reportFragment, $optParams = [])
+  {
+    $params = ['reportId' => $reportId, 'reportFragment' => $reportFragment];
+    $params = array_merge($params, $optParams);
+    return $this->call('getFile', [$params]);
+  }
+  /**
+   * Inserts a report request into the reporting system. (reports.request)
+   *
+   * @param ReportRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Report
+   */
+  public function request(ReportRequest $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('request', [$params], Report::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Reports::class, 'Google_Service_Doubleclicksearch_Resource_Reports');

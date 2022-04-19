@@ -1,62 +1,112 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Storage\Resource;
+
+use Google\Service\Storage\Notification;
+use Google\Service\Storage\Notifications as NotificationsModel;
+
+/**
+ * The "notifications" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $storageService = new Google\Service\Storage(...);
+ *   $notifications = $storageService->notifications;
+ *  </code>
+ */
+class Notifications extends \Google\Service\Resource
+{
+  /**
+   * Permanently deletes a notification subscription. (notifications.delete)
+   *
+   * @param string $bucket The parent bucket of the notification.
+   * @param string $notification ID of the notification to delete.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string provisionalUserProject The project to be billed for this
+   * request if the target bucket is requester-pays bucket.
+   * @opt_param string userProject The project to be billed for this request.
+   * Required for Requester Pays buckets.
+   */
+  public function delete($bucket, $notification, $optParams = [])
+  {
+    $params = ['bucket' => $bucket, 'notification' => $notification];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * View a notification configuration. (notifications.get)
+   *
+   * @param string $bucket The parent bucket of the notification.
+   * @param string $notification Notification ID
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string provisionalUserProject The project to be billed for this
+   * request if the target bucket is requester-pays bucket.
+   * @opt_param string userProject The project to be billed for this request.
+   * Required for Requester Pays buckets.
+   * @return Notification
+   */
+  public function get($bucket, $notification, $optParams = [])
+  {
+    $params = ['bucket' => $bucket, 'notification' => $notification];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Notification::class);
+  }
+  /**
+   * Creates a notification subscription for a given bucket.
+   * (notifications.insert)
+   *
+   * @param string $bucket The parent bucket of the notification.
+   * @param Notification $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string provisionalUserProject The project to be billed for this
+   * request if the target bucket is requester-pays bucket.
+   * @opt_param string userProject The project to be billed for this request.
+   * Required for Requester Pays buckets.
+   * @return Notification
+   */
+  public function insert($bucket, Notification $postBody, $optParams = [])
+  {
+    $params = ['bucket' => $bucket, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Notification::class);
+  }
+  /**
+   * Retrieves a list of notification subscriptions for a given bucket.
+   * (notifications.listNotifications)
+   *
+   * @param string $bucket Name of a Google Cloud Storage bucket.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string provisionalUserProject The project to be billed for this
+   * request if the target bucket is requester-pays bucket.
+   * @opt_param string userProject The project to be billed for this request.
+   * Required for Requester Pays buckets.
+   * @return NotificationsModel
+   */
+  public function listNotifications($bucket, $optParams = [])
+  {
+    $params = ['bucket' => $bucket];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], NotificationsModel::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Notifications::class, 'Google_Service_Storage_Resource_Notifications');

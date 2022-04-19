@@ -1,148 +1,321 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Books;
+
+class VolumeVolumeInfo extends \Google\Collection
+{
+  protected $collection_key = 'industryIdentifiers';
+  public $allowAnonLogging;
+  public $authors;
+  public $averageRating;
+  public $canonicalVolumeLink;
+  public $categories;
+  public $comicsContent;
+  public $contentVersion;
+  public $description;
+  protected $dimensionsType = VolumeVolumeInfoDimensions::class;
+  protected $dimensionsDataType = '';
+  protected $imageLinksType = VolumeVolumeInfoImageLinks::class;
+  protected $imageLinksDataType = '';
+  protected $industryIdentifiersType = VolumeVolumeInfoIndustryIdentifiers::class;
+  protected $industryIdentifiersDataType = 'array';
+  public $infoLink;
+  public $language;
+  public $mainCategory;
+  public $maturityRating;
+  public $pageCount;
+  protected $panelizationSummaryType = VolumeVolumeInfoPanelizationSummary::class;
+  protected $panelizationSummaryDataType = '';
+  public $previewLink;
+  public $printType;
+  public $printedPageCount;
+  public $publishedDate;
+  public $publisher;
+  public $ratingsCount;
+  protected $readingModesType = VolumeVolumeInfoReadingModes::class;
+  protected $readingModesDataType = '';
+  public $samplePageCount;
+  protected $seriesInfoType = Volumeseriesinfo::class;
+  protected $seriesInfoDataType = '';
+  public $subtitle;
+  public $title;
+
+  public function setAllowAnonLogging($allowAnonLogging)
+  {
+    $this->allowAnonLogging = $allowAnonLogging;
+  }
+  public function getAllowAnonLogging()
+  {
+    return $this->allowAnonLogging;
+  }
+  public function setAuthors($authors)
+  {
+    $this->authors = $authors;
+  }
+  public function getAuthors()
+  {
+    return $this->authors;
+  }
+  public function setAverageRating($averageRating)
+  {
+    $this->averageRating = $averageRating;
+  }
+  public function getAverageRating()
+  {
+    return $this->averageRating;
+  }
+  public function setCanonicalVolumeLink($canonicalVolumeLink)
+  {
+    $this->canonicalVolumeLink = $canonicalVolumeLink;
+  }
+  public function getCanonicalVolumeLink()
+  {
+    return $this->canonicalVolumeLink;
+  }
+  public function setCategories($categories)
+  {
+    $this->categories = $categories;
+  }
+  public function getCategories()
+  {
+    return $this->categories;
+  }
+  public function setComicsContent($comicsContent)
+  {
+    $this->comicsContent = $comicsContent;
+  }
+  public function getComicsContent()
+  {
+    return $this->comicsContent;
+  }
+  public function setContentVersion($contentVersion)
+  {
+    $this->contentVersion = $contentVersion;
+  }
+  public function getContentVersion()
+  {
+    return $this->contentVersion;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  /**
+   * @param VolumeVolumeInfoDimensions
+   */
+  public function setDimensions(VolumeVolumeInfoDimensions $dimensions)
+  {
+    $this->dimensions = $dimensions;
+  }
+  /**
+   * @return VolumeVolumeInfoDimensions
+   */
+  public function getDimensions()
+  {
+    return $this->dimensions;
+  }
+  /**
+   * @param VolumeVolumeInfoImageLinks
+   */
+  public function setImageLinks(VolumeVolumeInfoImageLinks $imageLinks)
+  {
+    $this->imageLinks = $imageLinks;
+  }
+  /**
+   * @return VolumeVolumeInfoImageLinks
+   */
+  public function getImageLinks()
+  {
+    return $this->imageLinks;
+  }
+  /**
+   * @param VolumeVolumeInfoIndustryIdentifiers[]
+   */
+  public function setIndustryIdentifiers($industryIdentifiers)
+  {
+    $this->industryIdentifiers = $industryIdentifiers;
+  }
+  /**
+   * @return VolumeVolumeInfoIndustryIdentifiers[]
+   */
+  public function getIndustryIdentifiers()
+  {
+    return $this->industryIdentifiers;
+  }
+  public function setInfoLink($infoLink)
+  {
+    $this->infoLink = $infoLink;
+  }
+  public function getInfoLink()
+  {
+    return $this->infoLink;
+  }
+  public function setLanguage($language)
+  {
+    $this->language = $language;
+  }
+  public function getLanguage()
+  {
+    return $this->language;
+  }
+  public function setMainCategory($mainCategory)
+  {
+    $this->mainCategory = $mainCategory;
+  }
+  public function getMainCategory()
+  {
+    return $this->mainCategory;
+  }
+  public function setMaturityRating($maturityRating)
+  {
+    $this->maturityRating = $maturityRating;
+  }
+  public function getMaturityRating()
+  {
+    return $this->maturityRating;
+  }
+  public function setPageCount($pageCount)
+  {
+    $this->pageCount = $pageCount;
+  }
+  public function getPageCount()
+  {
+    return $this->pageCount;
+  }
+  /**
+   * @param VolumeVolumeInfoPanelizationSummary
+   */
+  public function setPanelizationSummary(VolumeVolumeInfoPanelizationSummary $panelizationSummary)
+  {
+    $this->panelizationSummary = $panelizationSummary;
+  }
+  /**
+   * @return VolumeVolumeInfoPanelizationSummary
+   */
+  public function getPanelizationSummary()
+  {
+    return $this->panelizationSummary;
+  }
+  public function setPreviewLink($previewLink)
+  {
+    $this->previewLink = $previewLink;
+  }
+  public function getPreviewLink()
+  {
+    return $this->previewLink;
+  }
+  public function setPrintType($printType)
+  {
+    $this->printType = $printType;
+  }
+  public function getPrintType()
+  {
+    return $this->printType;
+  }
+  public function setPrintedPageCount($printedPageCount)
+  {
+    $this->printedPageCount = $printedPageCount;
+  }
+  public function getPrintedPageCount()
+  {
+    return $this->printedPageCount;
+  }
+  public function setPublishedDate($publishedDate)
+  {
+    $this->publishedDate = $publishedDate;
+  }
+  public function getPublishedDate()
+  {
+    return $this->publishedDate;
+  }
+  public function setPublisher($publisher)
+  {
+    $this->publisher = $publisher;
+  }
+  public function getPublisher()
+  {
+    return $this->publisher;
+  }
+  public function setRatingsCount($ratingsCount)
+  {
+    $this->ratingsCount = $ratingsCount;
+  }
+  public function getRatingsCount()
+  {
+    return $this->ratingsCount;
+  }
+  /**
+   * @param VolumeVolumeInfoReadingModes
+   */
+  public function setReadingModes(VolumeVolumeInfoReadingModes $readingModes)
+  {
+    $this->readingModes = $readingModes;
+  }
+  /**
+   * @return VolumeVolumeInfoReadingModes
+   */
+  public function getReadingModes()
+  {
+    return $this->readingModes;
+  }
+  public function setSamplePageCount($samplePageCount)
+  {
+    $this->samplePageCount = $samplePageCount;
+  }
+  public function getSamplePageCount()
+  {
+    return $this->samplePageCount;
+  }
+  /**
+   * @param Volumeseriesinfo
+   */
+  public function setSeriesInfo(Volumeseriesinfo $seriesInfo)
+  {
+    $this->seriesInfo = $seriesInfo;
+  }
+  /**
+   * @return Volumeseriesinfo
+   */
+  public function getSeriesInfo()
+  {
+    return $this->seriesInfo;
+  }
+  public function setSubtitle($subtitle)
+  {
+    $this->subtitle = $subtitle;
+  }
+  public function getSubtitle()
+  {
+    return $this->subtitle;
+  }
+  public function setTitle($title)
+  {
+    $this->title = $title;
+  }
+  public function getTitle()
+  {
+    return $this->title;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(VolumeVolumeInfo::class, 'Google_Service_Books_VolumeVolumeInfo');

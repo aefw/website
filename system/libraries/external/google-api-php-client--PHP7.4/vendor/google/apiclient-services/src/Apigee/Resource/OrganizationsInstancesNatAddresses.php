@@ -1,70 +1,128 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-bg/uwTu8vfIhvepbIG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Apigee\Resource;
+
+use Google\Service\Apigee\GoogleCloudApigeeV1ActivateNatAddressRequest;
+use Google\Service\Apigee\GoogleCloudApigeeV1ListNatAddressesResponse;
+use Google\Service\Apigee\GoogleCloudApigeeV1NatAddress;
+use Google\Service\Apigee\GoogleLongrunningOperation;
+
+/**
+ * The "natAddresses" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $apigeeService = new Google\Service\Apigee(...);
+ *   $natAddresses = $apigeeService->natAddresses;
+ *  </code>
+ */
+class OrganizationsInstancesNatAddresses extends \Google\Service\Resource
+{
+  /**
+   * Activates the NAT address. The Apigee instance can now use this for Internet
+   * egress traffic. **Note:** Not supported for Apigee hybrid.
+   * (natAddresses.activate)
+   *
+   * @param string $name Required. Name of the nat address. Use the following
+   * structure in your request:
+   * `organizations/{org}/instances/{instances}/natAddresses/{nataddress}``
+   * @param GoogleCloudApigeeV1ActivateNatAddressRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function activate($name, GoogleCloudApigeeV1ActivateNatAddressRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('activate', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Creates a NAT address. The address is created in the RESERVED state and a
+   * static external IP address will be provisioned. At this time, the instance
+   * will not use this IP address for Internet egress traffic. The address can be
+   * activated for use once any required firewall IP whitelisting has been
+   * completed. **Note:** Not supported for Apigee hybrid. (natAddresses.create)
+   *
+   * @param string $parent Required. Name of the instance. Use the following
+   * structure in your request: `organizations/{org}/instances/{instance}`
+   * @param GoogleCloudApigeeV1NatAddress $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function create($parent, GoogleCloudApigeeV1NatAddress $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Deletes the NAT address. Connections that are actively using the address are
+   * drained before it is removed. **Note:** Not supported for Apigee hybrid.
+   * (natAddresses.delete)
+   *
+   * @param string $name Required. Name of the nat address. Use the following
+   * structure in your request:
+   * `organizations/{org}/instances/{instances}/natAddresses/{nataddress}``
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Gets the details of a NAT address. **Note:** Not supported for Apigee hybrid.
+   * (natAddresses.get)
+   *
+   * @param string $name Required. Name of the nat address. Use the following
+   * structure in your request:
+   * `organizations/{org}/instances/{instances}/natAddresses/{nataddress}`
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1NatAddress
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudApigeeV1NatAddress::class);
+  }
+  /**
+   * Lists the NAT addresses for an Apigee instance. **Note:** Not supported for
+   * Apigee hybrid. (natAddresses.listOrganizationsInstancesNatAddresses)
+   *
+   * @param string $parent Required. Name of the instance. Use the following
+   * structure in your request: `organizations/{org}/instances/{instance}`
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Maximum number of natAddresses to return. Defaults to
+   * 25.
+   * @opt_param string pageToken Page token, returned from a previous
+   * ListNatAddresses call, that you can use to retrieve the next page of content.
+   * @return GoogleCloudApigeeV1ListNatAddressesResponse
+   */
+  public function listOrganizationsInstancesNatAddresses($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleCloudApigeeV1ListNatAddressesResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(OrganizationsInstancesNatAddresses::class, 'Google_Service_Apigee_Resource_OrganizationsInstancesNatAddresses');

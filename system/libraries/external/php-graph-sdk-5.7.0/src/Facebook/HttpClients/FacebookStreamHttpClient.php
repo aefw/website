@@ -1,66 +1,94 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-W8Ok2vQ9eEGNFse=
+<?php
+/**
+ * Copyright 2017 Facebook, Inc.
+ *
+ * You are hereby granted a non-exclusive, worldwide, royalty-free license to
+ * use, copy, modify, and distribute this software in source code or binary
+ * form for use in connection with the web services and APIs provided by
+ * Facebook.
+ *
+ * As with any software that integrates with the Facebook platform, your use
+ * of this software is subject to the Facebook Developer Principles and
+ * Policies [http://developers.facebook.com/policy/]. This copyright notice
+ * shall be included in all copies or substantial portions of the software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+ * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+ *
+ */
+namespace Facebook\HttpClients;
+
+use Facebook\Http\GraphRawResponse;
+use Facebook\Exceptions\FacebookSDKException;
+
+class FacebookStreamHttpClient implements FacebookHttpClientInterface
+{
+    /**
+     * @var FacebookStream Procedural stream wrapper as object.
+     */
+    protected $facebookStream;
+
+    /**
+     * @param FacebookStream|null Procedural stream wrapper as object.
+     */
+    public function __construct(FacebookStream $facebookStream = null)
+    {
+        $this->facebookStream = $facebookStream ?: new FacebookStream();
+    }
+
+    /**
+     * @inheritdoc
+     */
+    public function send($url, $method, $body, array $headers, $timeOut)
+    {
+        $options = [
+            'http' => [
+                'method' => $method,
+                'header' => $this->compileHeader($headers),
+                'content' => $body,
+                'timeout' => $timeOut,
+                'ignore_errors' => true
+            ],
+            'ssl' => [
+                'verify_peer' => true,
+                'verify_peer_name' => true,
+                'allow_self_signed' => true, // All root certificates are self-signed
+                'cafile' => __DIR__ . '/certs/DigiCertHighAssuranceEVRootCA.pem',
+            ],
+        ];
+
+        $this->facebookStream->streamContextCreate($options);
+        $rawBody = $this->facebookStream->fileGetContents($url);
+        $rawHeaders = $this->facebookStream->getResponseHeaders();
+
+        if ($rawBody === false || empty($rawHeaders)) {
+            throw new FacebookSDKException('Stream returned an empty response', 660);
+        }
+
+        $rawHeaders = implode("\r\n", $rawHeaders);
+
+        return new GraphRawResponse($rawHeaders, $rawBody);
+    }
+
+    /**
+     * Formats the headers for use in the stream wrapper.
+     *
+     * @param array $headers The request headers.
+     *
+     * @return string
+     */
+    public function compileHeader(array $headers)
+    {
+        $header = [];
+        foreach ($headers as $k => $v) {
+            $header[] = $k . ': ' . $v;
+        }
+
+        return implode("\r\n", $header);
+    }
+}

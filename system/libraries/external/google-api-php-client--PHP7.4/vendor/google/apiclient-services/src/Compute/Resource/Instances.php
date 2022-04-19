@@ -1,278 +1,1352 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPqpYMYyUThy0bnpF3FpVFLATBmAhRS9sGD0TIH5agm7hdgsBlUmqX4tW8WP2f5PMIrG6/bss
-eFQhggOWRllN/D9AKDQXL9A1CcBpCxsLS/sDt34EvnI6FqIX7ewlC56uQw4EEeKmNcwVHBv0EZrZ
-kFkCMC/+hNg6WCKP3iVOuml4ke59d2FLgrLGT5knRAHR/Pu6oY/T+NEi/IECVzb2cWMLQqDVatwX
-+pCYzeKc4TP/4COwuOsdLdr4FYlB1rGeLUryPTZHTPpu05XdeEMIsgIRT5dYS5CkDLI4g2o1fZvA
-1ULL4M+XE5bTBMOAH4C+YDJx7YLHnoUzoYUrmIFMzTW9L41d0B3NtEqrCaHMM+4UvlUAAXqcnUG1
-UMz6yVKEb/7ZddRYP/+mZX2xqAqlN+0HOSWgGy6qZeyRbMVBBkVukydLD4LOXGicEyz4txkeX+Sw
-oxAUA20RAlVlo+XP7xouXj1kwvhuROmVZ9gQ5ORB7JAOUKOeOdW9Ch1p4aybRCJnIwIGIm66YqDw
-SAXXuHKA+8Xx6sx7eWt1vOL137fTjFpayo9o4/nyxX0HrK0AXP7tDozf5aBgg+gSknnb1VWsP3Um
-ZehTL4g6IC3j8jddm7/IHiXEIqLKGDmzy22LZkULWDxp3HlisuFeW0yrJlSZuX0mXGr8Niecf+ie
-mN2ZpzL1jTzOLDh8AxfU8QhsrSdNnA6ui4uny2JnLhJWew8VkGmu//WKGJKxHD8L83hxwPj1JQtA
-nt5dlfaaHTv9v49ZVELCDQXi7l+/GUvrwxyqO6pUEaKujkM29WKmtbUj1pkqYPkyGxvjCluvJ+7g
-+ruFoi5saDmatiYo+aPy2Z7UiaSsX9iFXlv6W6FgbFLA2debSEolIXuIo9W3Z5Hzq/2OQAwrYGet
-upMNIqIs6O06rtHwk2l2rECXTbUN16s88vOZO3l0C9r1Yy7TnQWXYkqNChnq7/eCYXvhW5fxqbT1
-NM/ER0rrtQ7uSPYxLLoWT2KeSpy5tRsCXDZh0V1jdom1A5h/3suM+w1GJK7+tGhoBlpsZE8TkYtc
-JidXQuQJNkHBB5sVMVzj/WVccm4P5U34oRdaM8vG8NRDkBF8wfznu8PWVe9nZFiEnEMbJ6QPTVvG
-X1ILEE7Omipv1nAblMqUdX1Ff65j8EF8eAXLtW4L4YnPRkVGurXwiQzPUKdPDUKP0Hwk6HFjm3sq
-x+Hk8xuPTD6gYyZ1FGSkmxwS1aWRsnhpNlkPiSfHDBAlGlK8lnj8iw292fpvY5YICkhuTrDpmKFW
-NrJXQaoyvXYQE6Xor6UUzEyF/uZSCwnGh0ruVTe8dSxzhxuUoUvI3QWeB9kqKE4x/ivLkQruh9U7
-EfrB/IA/O/+dtWj45eeYu+BW3hArTslZiZbwYIsSkCm9/j1kSRb2/QaqN/FmrfLshNTdHiilz2Pr
-mvqmeBC9CWyjVXvU+mYFQGPtj06WIk1EwTkN+8rJNExoB1SCJdHixr+WOoaDHsirVkVbpfe3JhCu
-SAUe4uMKS0Qv9Jgjce3f9iaB7mXohWzGMnAElECNEq0YNxkpSY9rsCDAAe9n5H2UZYk34jORSAZC
-4zg6aUrwa/cU/Nka//KThG1D1STow+m0TzgDTS9LoQPPozr4olHSe6hCGn/NJC5XsCNiyhiNjLDa
-Kc03XNfF1/mRIzcNh645fZx2DGy8DSQy3xDX72w9BSP+nw89Y2cCYmB+m/LEe4FezPUVKoID6aMh
-uYo96CiL7FUbRxQ9Wd+Htre2i4pALKxYfdJ74xvy1hH1zXGGpDE5HPpJ812QCy74EkagmENTkebZ
-1rIlXPeaQHJJSB4kGSk2djKBtPqar0/LnMfJZ2yHmfTJ80GfjDxSt7ZRHKJ/goeqSEkbmGKbH5SV
-zaI9psHsE1P9Q0taabb+wJ1CiMvwRx6IriZwPDFPo2Ah3NFKJJskuzF9jYl4dlYHu1ptbHz+eeUU
-E5JT4wfBI3PSKWw1H8VJ5GX67SIy8yV0HNYy5opl8rsitkTY5X5YidpI+gO+OzZOS4jweCA6SWi9
-2sbpJ53Fju+46sUi7iOpTEWANDmcdQqbzMLOUf4dazgN72VTb5lINk2lwHm3nU24RMIiXGvqh/PJ
-Ql8ST6Bi20BNxoIiMrxKnRm9H2YIOFsjzj1r8hjuNE6SehzrkkbSn6Lod8vNI8ocqrRD6R9TZK6r
-OdSKGRV3nNCIDjkSa6fwDYYOgRSMeUGbVHqiKtg3qh3a8ZeJ7MBKbtc2PmPaUjrSSr8HcLGnOwry
-9GbgXwB/9JhN21vXYeT9HnGwVikdIiVtkAQbvTb13bz7481XuOUh6ptIk8FP9mfWtzVheWWSZ8cO
-EG7UAnEiUElU0qGmpgwVwRA2efOkzuXqGozFZi4uztjdpxjWYuRYJBVrPeMG0ZaNoNH8guT3VHMG
-H2BtdRdaDFNKw8gpZ/hpAiPZepCG6DgyXZrbjMyOCQSEW3RWM2MvrgvCUNCO/v+2pnUE8ncN2Ckw
-hzkQT2LhQPt+7cHk3vNE5aUQ+8u83HTovcgHz62AFmX8makqGtH39is3hvoxM91DS0iaLhRxEKC1
-OdktqVIgvlXtbamlq+E489ieupj1DZRZVfexu79xjdbW53/A8sPfc1FUvTQNSdhk968RkSSqaRyB
-zmjxZKZSKcFzjLiV322WgXddEA7pqPUZMJQZX8SeP9hCfb3KN/yMlkhGU59FeTzSLrWec74psCxp
-cU8IZZAMbLjZbEuEwEz/Ib0RuYia8pPC3VhBZvZkmyXidB3vjcgC4ILWZt2Eq0ug8Y8+1E6J9f2x
-7B9B7juaIHruOnlCZ3y/DyngM+H3gxWZVeFAowbdCUufdUVJB+1SEQPcG7RDodH12SOziZ5Y6wT6
-YciPv11WmnIrP8yXEkHDNaklgMVAkA8hXOGka876xGwPduJrWEClRuu4bSU0CuIZJRQ24SDI1VcP
-ZNrSKq0Wifbo2KtLiYW6yURy9xkSXGtNLVT36iFbvNhDuwaFekqNyUtKNqhAaYG7HX3/BYuA3Rqr
-BOKKSDVYPuynjtu4mX7YjpCTmG8pDnK21usZHixKrSkm/nnK6/DhSkQb+uJoU6tz5War5KDQS849
-G5x/8OLWkpgkAdm3Aan1sI03V0M4AYeN/xD93JdH6KA1WSEjOg+KlC7uFSg+qcsxL9F5Z3WXDfc7
-Uth7J3MbDnaI3pTIWdXx5Kyr6UOrRpY6N54h+KztSO/YQFq7W/5MgrEPwAbv36e65ggY5NCmWVyf
-RsxuWwZwXwqjYwq5otB8KMw6HyOXOqSKxyQy6inG8SwSHh6W9LhQlspzCHPLDZUAKUQn+L57ln3u
-IWbiRhXi/HE82OdKL8cU2BWMXtFivdkKWFc6kUdQk9XI1hlJtVhneNN7zIAj6SLvGinY8uH862Bc
-j/66B09WsckIpYMzYSFbKSxlghgh6Q6Qb5Lh6jXXIFzzVLpuPzIQzWsytqzJrOqLr4m0eAgNVAxK
-Fmy6FHU0rcC5+S7whR4P0RGiLtsvxayNURdqg0pmPgvWeFXUuJxjFcSkkggNKtpRx4hO3D0gGWUr
-3jRPHcmHnTDwUjuYWvqeuWN9TW4Dqfs3lCca9VQils0GKazhiJQ5eUQBm2VmT1P5PvhYbS5L+oDZ
-D6YyU+V9ARXiUg2c1Kj2kCh4VSRYfuHXC4oleAfAINhiScIQBueMlZ0cN/MQFlv+iqVBl3PzFkiF
-PHGtd0EQjzX+VdsY/8igyGkuHYMCfFleGnvO5xOJy/scKLbZ3xka2U6B8MhJZBcuAgy7ROQWvnIW
-R91g3SrgikvcAi5XYanL3x2AmL7nBJqXibE5xNjLuKaAuxl5SzyL74AeyTOPM6Tx4klWbuxxUPS8
-05g9W9qjE0hlPrHRShvH3Xs8TRCbae2WD7GgiD2zZ/0u9HnM3ido46GzQj1o1q7yC6OPlnDd0GHc
-DRuqiCC5tlQRPq+r38ZOYgrGVkX3oMPezjPQj72wIj/jei/ASNXEtTP3BlabVEPd+E1tMz64vWik
-lx//1o8KgWhKBPEteEnNr2JGX76y5Z2B9wjL840t81j0+VNsYPxH96UYcrhzjfgv8FRScLM/z10C
-NKmgmDD4iSgQPpqFGEMtFP4ieSLF0AuLMNuH3G7A51hc5bbl9Gr1yKKT/qtOd0sirUoS6iDaRMBG
-boaelV49HtMZFPlsNtGvl0OlM4mm6T04kghYR5cAPn5FU/sogPgTdCztP9T9L7TwUSFT+ouuQxWw
-uSjVmhMC6zJ3MDJZmQMf+RiDh9T3trAtDNtCS/Lkc7SHcP0PZ+88rxZZmIC63Ko4GKKTpENK/Ees
-uO1fmH69NGmwJ0jTWkEb+rGGU6hgFkGzcQ8SFys3p0VMbbx2R7dSJFJrxGpQSRDtYo+gnrxmUuFv
-elumb/UuTzD3Po3hiczc5AnCNkhsKTTGiwxtFLNYG/04hFJVWZYlYKNyLIHh8Y5iLw3vxSSFuqSA
-fecLBJcwZc8UUWBQFveV98+iKjVMybQLSOhyrTAkXbZKBpcmmv2HuUMvW58OpxwjPxEcu2dGY7cd
-2BumiId4dN6slYwMCOV8/IiLKyCYv9FLiFEFFTYoPc5Yf+aA/6RU3IKVcPsAoE05q5aNosHA00G9
-uzfwenB7/yvMP15SLBuYVqhNFtvXUbl4zWT/I0vM7yCbU5jUgdhoLeMCXpHjNOGgHMpKf8ok1uGq
-PeGLqj/MZwf2NZ8beMGpxCbhdW+OI3K92OQDn1Hotc+fj0ZV2/9P/oMfXWHBjk4e8EHYf7nC4yWW
-W+UjXhLIboCduI2VqX2pbBn59Xjgyps2GHpRNLKZVonle3rA2vio4lHC1azL/usZVCPzQQLpZyUB
-IU3XNCZxTW6pm+ygzDdx/qoMzyG5p002IbbBAecrOLLYGw/KFQ1SelUZOx9dQhGwBa9CHZCTVpjM
-Rxd46xoiSO+274JYi4r8u9N08EwySpJnqrHuPc4ncQ287b62rzcga3bQk7s3hwG0pMuRwyW7f+N2
-5R01x4CjBuJQjmw1q2PNJZCq0WJIkwgLktZDidOU4vSCvdA9mYEAWOWpzqJH7Scc4TcJU88NdNEc
-Rhw7J45PfpOpFHzo68QZRUeTEXcWL1I/BPQe8E1wZsxgrMqqqhh/3LVzvk+y0pkkBfC3KCjTfvAy
-7xxYPynmniX9FrnoGFFOs0BxGebRptPeYvO4jfLASna29EeiPe7ux3eockLlQMMHnSc+woxT0Qwj
-FrdYjBoTjjVmHRCCOwlA3Hd6jrHq7nsU8q+uzZ+MoqNTyTNR3tkD3OeqWEHYzmSAHIDwJTNArXnq
-sk+JzSW1etiwrg33WI7hRkBYXhmktaK7Opyak3jE3XSXHAd/CHjYy4xSqqtAp4nucE4TQR/QaFNC
-Ez0b5ayTUlyca1tT0GyzulCz9+a6Tvvz6ohgwFLJhPekdkoPwO11sPcvtdOS/fl6tMECalMuNJOT
-QlmsPZVe6mubclKwLA1pHefCEoRNdgzEiC0T1GC4xkwT7l+PsxLLG9c25be3vPzEUBkt4g7GCd7E
-RT65GbhJfQXD8SrcFfH5/V0TPlh70HrD+coLU/tKlpZFR43YO+a8l7iVZn1OXcv9ZK36E27iW0dO
-F+JEaYPqBwdv03JzlFxkSTIRklGTE4ZlCloVyxy0GyVK0dc443aGeBRTgnk57746dHL62PW0HODd
-7GiOa/009gyTeecd1EfF1CbMjZNLQilCVeiCO/revwpswl0obdTiPB0V749OjcV9y0NUU/Czi2X1
-Qkqd6k5d/9HTcBryG+Z+7RKuDrajpqGsMufk4mE1wjvDII+fmaR8WR/Jsj1+sM3JwOqeXtTTYYUY
-nD9C/Flz8ZqrDSIX0jrXlKTErpFo+jOsnFC5LB+hDV/URayaI0CCZIoxJeMIh3qAnrSY9jQ+t++M
-TRk3fJs6oqGtEnJ47DSUJ72uYBv5euZLuFIfRyGg4Bb5cq7fuwrEbb6d8yK+lsQZoechMw083JuQ
-To1e+xJQK+/j4oNOa6ysYiZsuGdwKlG1plekXiNjg1kwB7kTd24HABXakiLdoIbY+bXN3rp6A7qo
-M0pfCHDtzUDaAjGxufef5FVxTyhvh+0Cl477bN1V4/CtPz9nxsNQmMVtWui8qW5lNKcMfJKw6W8i
-0i4012aqhNyCEgkendChZtOzLVz7gw5XVgrtWkggSYWOJjgAfLc7+UAypfIqqZHPPj5uwbzqxcOL
-v7tYqad5cDZIPVojAUJnnqVWjR3gXfriwPG8oqNoTZFl8NVqDnV9C+id/dGmXVUFeUgxNsGIME3U
-jnoTJurcA5/XIt65my3ZSYYvFx8RFmHFrzVqzmjtkRsjiY4nptd0rFupGQhqm+2IADw3E2eb6vfd
-Ifsxq5sx/OJ2n0H2G/X1sEu3aXV3T3qI/zxX0CE4ObHS1SUo7YWgFoP+R3HwxVuY1PUCrtV71UHZ
-dKOlbcvbhmaJ/0KfFwExvqgRRuCxb9EiA2es8du+OcqPq+UGlVDrsSDGsnVEyBxdvu1RzVpHRVaW
-HK/P0ymGaSzIdBJMvPLM7OIbK5yNPd5+xsRDTyXS7FzEX9+LuUvTK2NlM0ZVX7PpDm7O3PQjYhcc
-9HMkZIgSLWPHyojJ6h8mf8mIA9jcy1ZJtGFwpTzm3ivoqlMvZqa9LvYyMufZXV5vLPao9JrwQCRz
-nDM5Nhw2Wsbwc+1Xtl7gjzstoj/EQEOL+/+xdNKAR06JWvGZbpXdCc5cNdi2zueNKo++KaP/fw0M
-DsUBphsQHHE0xBSRdx3X3CQn9vZlUxWYgAhPML9ISpAabYdqttfm7fwz8bEGmvZBTmHCTsu+qe2Z
-jGVXQ5fwWpfDPe+BGVEw2cP3Oca3PUQnysLkPznCFW33Qab6hGXCgL3PRv52zZfGP6e+NNo2IWzl
-UOSLEuoWdSfGmXPIHQGd/E+UXjqGcjtGKaM0WmmXsOd/4hxUHIHnfetNSeDR2n6MVOwCIywPVsyd
-XgoAJn/E2W6mYiHAmawFhMc24eTRji1dnaFkTDY/3tcFOfJfivI8D7fSQy+j4qx5lAwl4f3S9TCg
-+NnZRH9UHyp5/cOBFxajk8tDRVltE29Sc8MljL5KwNOTCjW37mnKKu8jMDLOUoTr0sxqgm7cUuT6
-JYNJaP9hdgoloNpxrxKrobRDHk0FQXdJubkF+eF3Bb22qPHrw7d68WFA4CFOdn2HbnHFNEkx0Npl
-1hPhCwvf/NJR5g9+0PY2iPGNKjGKhIGMDj/2On+1zbArNzRgQ9cZZCjKZbwTopIYxrjKChatsak8
-TSjp7E9crftNO3CYsS7ImRzrIoGYNYaerxcIXU4CdmFiq7pz+dEEx6whZUHvcttwZegznwhuk/ym
-p/F3E3MQSkm1dVvP+IHWn2oJvOTfmxN26xBASavd1FlbVRKLOS0Uv2aCayuE1efQGWUrvhZozC9R
-JZvShCQOCDesiMNtbNqwJsTtDxA81YnbTCE7p1VnEVLj+vNfeJPqIXW3BlpNYGa3QmaL79eAnSZ6
-uytiEzlDk335o82agW7WwOXFKvstHUsqVR7UXeA0JI17tzBPneUsvAPQv4T4TGjNagTqSbtxwBAn
-i3Ojj/igIG/mzAGM/rjkIx0bKHpJPd/tA87yhSYvY2cRR2bPR5HaPBFyM9hvS/lFJEXTKl9ReivA
-6FGDDhaaI5XqxYK8NkfuVibe7Hnk2vKMQFN7oqEyn75EjkGfOPaJPLXO9+dAVvAGE66v2XNHaiyO
-ThRl3B+nb0YNnw3vnb2KRfKvKjcZ1lzC37e25SI+0Q9WEhfSbLtJ8jJE0uCUKaGmFahTM0Pt1iUh
-7WgPss0/v6yVcKSA115dqGchzXGuHHMnDLRJDhOH95bnGl6LzfGWkAjF+22aCGLYTx8AhygmDVtX
-QfzuEH+ym6xniXUiDGGiXtI9oqoEpey1UUTBljVEJeJs3qGb8i6VUGrpRIxJ9r7x9S2GfwQKimu2
-dbh2KmET/qpLaZJJggjmrwPn/rp3XFeU66qn6DIuQUeHXSvCl49Ge8Us9xFmS2CeJqg/FjskE159
-HCrgFVKJesK9nopePMQiyE+T2Cd+AHfBt24EU09PU1hvwE0+vc2xkV6wcergJ6bGL+nETA2WOWgZ
-P8ImmT45X7MLQ5ofDFdytCxqu8w4R4OhTzHWtOOJu0qorq1NaPbGWGqg8oGfKi+Ijky1DuY0e2j4
-MTh6OOph97VfLCgIrOZZkh4QyWuPG2rp4vz6OYry8iyFjrRgK5UC37KXOAH/goADesdLisFoYVrb
-5AZg6FZuWxgZRLW2ODE5q0AxIorsCam7W0D7SVo63WuxgDXYJE0ZxamHfZe7Pc6qlyx3T/6+5lWK
-In+Io0Rhu22BoHyXh6c+pTDJn1BaQ4dj4S3/SRf55w2W/o72WeCaK1MkSJ2YdrTRhmewgOaqFMwU
-NrbxO6NHSe1/63R7eEjki6M3gRLBHVZgJPgcCVg3zzJCbklgcHMd+8hKt55C8Co8iD8mHGTJr48R
-hDoG6YZI3iouIWQHEp5GkJgF8xAeobJlQRtCMBhYxZGn9ue6pYCGzI2KlCReuOSJ9X4apWCETToc
-SEUVEDz/Nqe3CjaBwajj8J4bWHY3FJUo1CzwUDPt+Ttbrtu4uj/VduTbrLfSX3LNQVk9i+4o/xNF
-N9hRDLBz/UYFpqw6cOoSeHqItGtjtwUYIrYb345+pc8PXqySREi+8Z9G5g7XyMZQQc21lynSgYFU
-q1DjoQU5ouKjgm6AYVLq7gYpiVA5/CCqB1gg/nHtLRLRSmx+4/uc2+ecM2odGHP+noXbNY5cGRyt
-GHJKmYlrO8AG1u/CBSzaxR9gUJJYlo/0EftCNdjVxMILpAhWfKEj8HHGz8k+q/K+R98eJBmZ554L
-DxliBMqRuanuKDvWCGFpqV9V1mBQnekeSvoeGq+d2Y4nJPU+2B3pHrjCCSfBhpZNTXLcoT8d5HyJ
-J7u7JdgWjVEjYWOHl/rw6vKGwMHBqA35SXqwsRrlr7ZsCdOqLK9/G7UYzOt9nkmeW/cHya4YXaVm
-T5Chs2xxGPUutEhnJif9DnRrpUsEtEetCxZbr9rm1CJxSQsUAFJtoeCuSLo6gxGlB12unltfCdB0
-cBvI26/oyjpS2D1+sKO0wNOJtL/7WGuglowSVCFsYQK7Hi/IixXC8o18iu9FrJHvkz00r7R1NCDL
-g7TnURUDq5L9kTIg2Kfh5b0BAhlMdnPt2f5hjIigPAznDtBMw3vy6SKV/E4apKF71CetnyRVEt6p
-KEgfyp1RQj5gwtAoyUPTcEsQZ3T7JTgoGQOewj7yCCBfc3s1EuzBJiPGk82Us27CaoywlQXIuUUv
-2F+is/osniqonC/XY+t58O8Dqw4782uQjdQ3RBrQQBJtGjsvjie8jUDsfUP8Cp7euL7dAWq0GJV6
-lL+WKeJLLostTEm4u1Fdg0uQgp3jYdGcxP24RH00haC1i6x/fZqoI62aRrLsivzFoy7f2ayWMjYJ
-tam0SSN71Q8Wz0+cJ5+uminpdXcUNb2zAGidUFoQ4xwTwNJcErV9gKLJC+Bfu+ADgEl40qX5++Qh
-caW/py29Q6X6Q1BpSiJsLozaDSj/82vCy8LRxexyONrZ44rPrOqfi28N+Dp6VZgjZGTjIOD84nmE
-50zXT2JYz89S3LBsLbO4VmTm6Ja5vbkBMJjLV4vy/zvwZiEQS1Tonsrky/zjik3h3tGPdx8weI2/
-kMWMWNu4Lq4chhN+FWvWJP1o43TI6dqvtjNiOQOsiGkFjNVlEefDJ0tZoqwRzqRaJwoOqeERTfuR
-q2BoE4MmQi3JCe5yooQflAeoyo1GA3iDoDdBYOJBM/tM6e1ehyxf7RBnpAhUJToaH9L6Z090F/aD
-BeU+2remTJZwXeT3RJBUr1ZXgV0wdPF+BLdGKxUTIGEV4fxcOEj+RYPIRG9De/TXvCLzV1eIBVfh
-sQws3RVRgqG7Gi758BHVGw2J7pYFuxAUoPVMQ9vjEvGcUFbG9xtUIiRJj6mYAFIjYdecQyEPBLZk
-xaSW+l+rUIL2Y2InJdj5j4UVLWa6UkWuJ0/CiZxnAxeCLew7j6jpQpTFvANscc0wgC9E5FhXy/t0
-FUL6+JV9rDaoNp7PQqp5hSwCOu1v02hlo595yaI+mxd4PkNT8QRb5lor6fxVd/CQ7o17171jP/Sa
-6R8U79GakEo4suSPQdbqht2oIxZl/Kdml/BaeMoGM6GBDirU2gRxyeiBI1TfFtONBcZeZ2wHb4XU
-1yCPLKp1hltm2eX385A9OH5tnE+sIV1s0xforeHGYkAFX6FN0qTjd0bHH1bYXpfuRqNrPT8G2Mh+
-mtTyLEFhRhGaUhdTg+5/01Ygq9Cj0Ex/5aOciP8aedPJQm8jfFJF55eCIl2OQZcNnlS98OgcDdAh
-5kKifl1bscw8iBerDMXw1zztaQ+28NRbunPofW1nHle0Rf0YMFAHDvGfQfRnmO3nmSFNHJIZrZye
-xE0PcE8+Pc0SVEq3jvvo3NYKiJIa0y7sBTfOE/ccZKLoXSJyOxtfxgEzCwLViS/cp0IRfuXvXqSj
-VLhMWRILnZ6aSUW1CQurctmIlrE4nMf9Git8Z0Djd5dK6uGH2vm0+e4p0wcxm/8kRJtPBWcYYrFr
-cWyQULVn6CKTcFW4X/TU+I2amBKjUTPQ5i6m/Vw6JZH0FN+yxGnCXbdhcsftXkKwmLbmg51/pG5J
-gi7cL9m9cK6dnW+B0D9gDaTiK3sbfY9sp5QpNJlZTRm/5Q/66tUT1CT7L19+8El5T2P4KfPjfRVl
-qYwMrE3zENkdy32ZUOfnNnQu9G+yszCF+JCfP0+NV7b1KIAcizw3dsnsiToXLa6pTxLAACBIlbP7
-n4wbQNNvJ0aqoTZOUTlWTYV6DWUjMqPDPTCmU7O/lgCWj5Y0DeIeCzKLM8T6FcgqzEX327WVf4eo
-tY7fJrDM8oZwPQwgZ6q4PFBIvxI/CrjVbgmmcIg47vOpGK1dEwp0XhdNsISkNFttHX2BG4AP0Poy
-b5WZaUweYGUh6lXS1Gllna5lzcq1p5rUYHwNooGt25DW0+SDKGFrmluLtC8dOfOHSg3UiXzCCRYy
-5E5+XHytnsz6kNmFS8RYuAE+5CMBzbSK1k/kqRop/YM6+b5fiL9g+r+ozw/EokVz0XS0WUxB3FoZ
-gl/R7BqhhXqkOQXOlhZ6mSM6ElOqHyvyAIW+SvZJiFPlu823meJ6uoeTxFUeZ1Kq5wQwkGEbDNaO
-goTcX/zvT7lA8nnBGrph5za56sJUiMdFc/9rWVwISWiD/DZOIQs1qQMVfetVut2Ovn6OH3iLWSFQ
-QIsPFHvyY3qt3pRUaJLLHdbmJHV63w57KoxcMBHij1AeBZk5r00Rq14FrmvhXN0FiDHQxj1TmwoR
-m+QYfsVDVlhvQmXsatzKfEiR8tvN5BvTu8ZA4YqfV+BFzTXMUUULyWs49CWCw+w4yxQXVKtGFSHZ
-kyjjI7Q0Da3JU33xdS3ktFfYQjnGHPTI30veQlXnKshcfGgrV0HZ3Ez+SIfFHnbb5+GB4XCgE0ZP
-Ux3lOwgM7qu4iaUF188I0jgsYeFRRjEc1qdy/t+meZHDEblVzY75DSv7udI9kcD/MZKf2Oj0/2LS
-m5Ov1/EJQ43FHN4vE06a11rDFP0BvCdfZBYgUy+4RB7f44uITL9Z2I/7XSuk9Ku/EH1yoS91KPBj
-BT8HNDMeECJga4q+qEg7huh3ej6ccb1lnBpspLI/kUSV9w4S1d9K74q0Mziam/MoOkbt0HZfwwK4
-mjZvPmxLsIQWmDXW0fyZ/g5s7yPvI+pp/tKpIOjMyz8XaRKJqd1gcnpWsuxLvx7P82JXAjfQSZvA
-10L7Np0nBVfAcDqQGHxK6u+Nmr9Z00cVMzQ9JwMUAXIZi1ViHaD8rzKBCbGUxXlDMi+C9dEKs+HZ
-ywF7QuZnS1w9neI6ymuIRTnXaNzIkkKj3x9losh3VXMrbNrfvhAhW3rjDZDxQGL/ByRo/KQt93U+
-Aa3c+UxvDG8uwp4h0HoBDQj/sGQGCjuV62QgI1zOh9zxwhOZ09lSh6G/Pvp+n6ESZY4qAP4IixH8
-EcfHCkTlq87qcggzStT4jPRSaJDY1ZEQdpOxR2YzlfIIae4gMF+i2lEExughy0kgxy5Q+aqBjen0
-LD2pfvcIf9c4FhXjOWRPgeeUucUZveJ/pNu56bwxzQI+wwGATj28WORJKtrwDGVc1CCplaj74iDW
-kDwTUanJC54HOlzJud+0haT3eqkyGEpCZAhBFvnnvFkzgGcWvrbi/hCp2/2KjA3ruOqQD/VfzXI8
-SVzPLs00cuCjf+MtN5C+qX35S1kApGLnMDbsCzHyg8aXDz0iMWTx1/vp+h3xT90HP+U82V8mRC6O
-llXm8aE9JhLqNc4SECwOjhEG7UkZ3MTF6yWwajUdB4BgkH//wFJebVzIiRWGx1Y29ePnRVmdjMqH
-Q0u2YwGBK/qSEeuJq0r8QM8D9SlUXkICXXqThxk7yamEdDtM2TJi94ieh5/ayjAVX0I6wTES/gsz
-MHNLgUD/zAydm4YS3rvPghJWpfc7WVk9PE0F0ZXX5u0GEABVHUvVtm5FTGNVM6PU5m9qKmSt7kCS
-H4hhqmP5bVWfRHxjSriYPHlegrBHaUQy/KAbPCWzAVnKtgFBrbw7PQPcv1s4Sc+UsqXg3KmEnITD
-oxehawijCcj5w/W5sUlcgN2o0e18hLYcgy1QQVOPr84HyjXd1QHe9EHsc4MtG7gR5BeIw3R5cPKp
-/waPXZfvCrc2iFafJO/zy7lcdgIjnMZrdYumaZHRWbt6c9RJAPd57Gm0amd6bo/UfAijaqUycNjr
-AHo7dgeZD7u2VDqsHMRInno3rFPMreWplP/H0P6Qfi02vawiBTC0LXhPD3zJBvr/GtkjbV3y/Aju
-ZFFSBIDgd9KgvYpBN7xJSURo8RjrZPtzIOECXrJ4wXrNzTG115YjoZ7XSFvEDTeOveIsJcJXNwtw
-WflrtjFbZj/uv8F7TVUpQkqkKNTlpxAD6rqI/lrzUOyAakq/e919Dh7cxYZf2jR6fC97p2Esh4KC
-ZrKBcIXbdN/1RVOt6IIEYKSz650uO1ZeIpMLzwdKvdU3aMiXutbNInHztvsaUHzWbYwiuBwqXlb6
-PXczq7GggoqsUVRvkCLHeApiFp7CTB+nmR52BVixiHWNPohPJCWIKmne1otPjErwUqdkZlOxmwAY
-gms6ePnWFvk3mSwXW52S1NCuFf7G1LoE5dc6OzoDP4ZMAYFHon7LDxBB2WqeWy9tMOFvEf6LEsXX
-w7EJNzPQdGl+mjmpf0XaPVhYs2Vdsi3g9oW7vCLDdzdzrpjFcNzTpuWwbThXENe9iVTX5dhwqMjC
-YbfIaZgvdVbo21dMvDXSSmoy/3qUYkZa1GzC0VlpP2KjX2iPUFblc8AWBvGqGpijEGaxVY7b2rb7
-p1Z8LMcAXAmHxXiBfdON7meXdZV+8wsE40ti+xHB3Q+8X0EpXn5vQ1NT6DEDruKa68D/2mCvwQ5X
-4LvOZ/+guJgudZxABPdKCjxjWOD0xKML4+b/2amXYQmHjqnpZoSTTWkBPy9F6/8E4XPZK6rRRLut
-bpHpOvcSc6eMOhC76wbPqi7objh/cr32xr5cX2yxbi/lnuiKfQGb01iIoW3Oqc9bpNzpUE7VihMB
-Uh1LEmEoRm2gx+ROvZBzWHkxC/BUFhUUN7Aj52vjpMgmeVGA5o2MpHBJsU4DBStNWpSLTbJ4/T2I
-9WbYl200YnV7676AGzCpL1PLXgfjsy8eplC3rj/bpls/qj4hQ3vnP+oZ7PUFsLUXdkfRHo5aZV8/
-kE5atDMqWj4MTWQMbgzPE2W5RvtFhfeMG+S9jydQCq11sT9MNNkKt7BE9L9BQEF8INswj4v6WbYl
-YnXNaUg/R+SMXfaImx3GcZ3H+pi7TCiIVTwNzJqAQ0C0zwfAC8Glz8U0TX24P04Myf3ArgF33w/a
-D5a2uQcmRfXqlICmeAPfrO8lBM/KUpbdayJV8F24JKe2qj7eIa5e2wglTZMGuSIs6JveASdtb0dq
-yNwquWfIVrEaBC4qJpjUPB9GhncSOvhCLjclOCxGCQ4aBGF753ZnnhVullZIfQ5wiyvro+FwxUde
-X7u5Whlca8KeE6s0VkkHPKySOrqrPW3A0FMt7PskfMb0jNmHcvU13TAStFjqvjhJ+XcYFa3Brs1i
-Dgapke4kD11r3EOVqu5uBbqXDc2HbRFiQgmaVEMhMV5N3lwycAKooS7e6zbjFmyvIHaJV8eT+ham
-0BZ19+WXFr1n0kLA4ktTnY6lz+jJKBF6s9ckP/H43RvpkCXspPZRrX+3gdHBzIztaMt5KK3ocVtD
-EOA4GAvTBez6rU5V5zbeD2p2VVTO9XwfeL3lSixUGteQQDPzHzMI2minHsYR0wL4tXou6lhh0708
-jX52C+Yb7J1WPbPg6rSAoU47rE1mvnuTErYmDR7Bw51gvN0B5qI6BioYptlC2HgyeaDh9cXHnoCY
-vjsBNWhpjHuhej7DV8muG1Y+cILj+Ly19ka533LbJ4M/Uj30y/tABknE//vROiGolBEiGEv1wrEV
-y0hNK8pjCOh9Y6+R7XL0GCAIdXaHIQu86LHPBs9CinPqT34iFYDeiz4ETj/yoqFsRUbL3wTRTJ7e
-Jktv2Nzl/2L2LbE+mqMXM/FsYDX+X75eaGe/e2S/Gr77WoompQOrP7hvGEYbIfUQrlTvY1w/KtL2
-t6xuTarGQvL2bnsImx51keZZ38Yd81N842UoEig+qyt4rmzYoAosJfr85jNkH/HINJ7hTj2BET9a
-VAvbV0bG8aUzk6BEKxJT8X6/Suu+Cq0vKYxwXkPZru5SMMWxKj0NM5W0lm0WINm6e9/GQmqxRPsK
-KwHb6ywQJtaGktdrxGR/ivYriGAHbl7BYhcC6nfBOP3lRZzaiemeW3rYzMEGd9UN8kqSOGBx/bsP
-zN1/YMMINGjekZ5CWoTfR6zxhd8IdN2h/BlzV2oHxItDischIimqQQOxQTZQqQDeYETazCpwhvoD
-y0jjLGCCxwWwhEh5Gy8rVSGfU+5gp0rvnun43XNU3+fuI1N7GR+PnRenBKM0txOMtv0v3IVVlCy9
-zat1SAYHcI65QzdxDQ2rYsgnSqqHaD35oIsSahXYwhFurNDJGUinJf0gUyNv1QaWZchItXXMJl6v
-pqce9rLY4oF/GFJ6DA+sBZPOJi6VgyNeuXQK/Mghpl2DXbPHJvX70klMMm/xTp+jzTgEoB0j1vid
-uiQRyGrbcAmxqT9tuT2nmvATNOvaWG2E2QcMqOaLjdKhOReujuRrysUi7J2vpF4qe5qsBsQI9QJU
-y/SBK4FU55LBAJByOFJqtrpz+cWL8Bregun3yw+zdJFnn4Voswbx31PBa2kx17yZ6psDrnc9eeiX
-8e+cpQOeqUN3C4WC54o/inMNfijrrk4byagjrM7ii6v/ijJWBCvor465jm+rqn2ilt8u56QCHe47
-hRvmZiz+tGRgVEbu3U7IYsTwLBX5xEFUxS3JXHczDdL90ipxJado7kxLAQUfoJqfvf4h0QhFfZEB
-5e2Q4coGhlbDCYd1ZWQy/FCTBOT+woyJaCrT+gdgESJqi/SmJGNqmF8sGLaN9AELqtLNAE+85s8C
-7IP3A2BK+eGt22pLFrw41Dq1hTXEVdrewkqfKKv7lakTpy+bSecwOgjVR2uN8nY+f1SIjiPYcYwn
-CzzSsLqhnKUyhDL3QELC9dBP4DOmXhBPLmx/wDAmTm10hdL+U3W765HO3eQR7mW4YctxHDNSUkSn
-SZZ6jidRCAeoRQUYhq2v3qn0f48kwwPdLPtxZ+CBP5Z+2lUhOSNt7b+LVKDtUlQkJJWuBtKI50L1
-kyne7+h3RVUFgOZUosxfu1/RwWOrFu+ZdBwLxJUU2aCJZaXjPj1NhmbYtVBYw/IbJOJldtDKpNv+
-2+PqmdOLXtJ5Hk9Ix96iznycVgzJ5KL0NBqhcr0Ybhs7MyPVJeZTnB9h7b2snYv2AcbNflAPMK8U
-Yo0+tyQAHkaXtFmG8YxJHjqge9NJbXNTapuvga58L5ZIyKWTpehCOhm6WvYD0FHyYWu6SFgxNyul
-A1Nal73gtklrhOXE1+fnbqtygE7Wy/Jf1EbhnHNZ1RBCWCmXoFOzu0tTNa1843euM2C1hcHDPH/V
-K46UjnelFNSPp4B5XoMRlnf+crribwA3mjxlvoemhV4LTNeAUe4oTDZ7aDUoYzGFMyO9BVHMcdRb
-uqCM3u7B73iZ+rwI0E4UcdWslrmAhlvUgluIGPHM0EPBwbfRH1rANTyBzRe9OZJmPHWCv2LUMlyj
-jPI4inAeDq4CfSLxAVXvAVOjl88BHzczojQT1teaEFQeVf1QxF0MLMkuuh4HowV68urxX00KgY+F
-XJs6Tz52CKKmmJg+5LmjFkULZ7N0bMUxrDQE/GQCBKRPFWz40y+6heltagfgSVYxISOkl0xOtcRR
-RgEZGn6UWJaJQfkqEe3GDMTwu8+Wgg4M4gujGpNN41IEMdD77SEA70/KpVEBpQT5eiD9YmN1Bnxn
-aMWPR02rzDVVZdOGA8B1HWzHRbWzLyD/zb3ucQxP7qq4aklrS4B9Wcxfd2H9eFap3XEHB0YWxNkW
-Cu8mHvDwf0ZoLOrHnGUoz2Mou1SsBlB1s0u4rwA/+G7UDoODReHQKJxBVijS08hkAWSvhylwrRhX
-raEnGmkWMOO5+GsXyJ6Ez7yZa2nCju6Mbkpio7DBRIR+dhStveEQnh4vhucwvjBkYSwvi6K8D2Q6
-LsTlMhPZnRj6wJcSBr3RpM2QnGxqqFWpeb/4IoNtcClrxKfLWGPLpS1NazVCf2dFTwQWoA2j4Rmk
-0F0pTEmRgQHm/iuMPkZ3ElfADPvaSnDtZlTVOYUJY8cwydcZBn0o8pqJHiWbwZjZW3NZ2B/sbxJo
-TdbsU7zPY15+MSoYCgwIv1bmAxuZrE2GQza6hfvhu0WNcpe3p614caDp+vXlz/Gv3A58XHlSH4QN
-l7ptlUQoVDV/jUb1sRhqninFgsjqu769mxugIe/FACtLrJ554TVqpsFyn2dcT1NBGiepL18BkFpL
-AlaDdLxUQ7g5Qt260uY7u8rX8ZxO/smfPBWSDFXBTaYgCLSfhIgEqE7WRg9dV6i9hzBanAT8GWQD
-oU7jMS0A23M1152eG79nMAt7fGumA4Ge9cZDG3Pypd6Qv+9Zhf6IM++y6GF2TWXg96GgNuqt/4Pf
-YJs/yic0KX5eteWO5hvPGO/GBRNIm3k74NJZjiiP0S/Fo2a777SORBRVnQoicB8utRBiNuF258mC
-avme5v6Eh09NNYc/Gpic0ba5sLS+PSg2g397626NshokAaTAaIPwEfzc+F9hSS/OvnrnEvxEPW4d
-XW8/1zVygNAzKfIVN4yi+omClgLJybgOakW2U+zt+zNyjHpBButcnk6ZHtPSNjAOsxdVy5AH+N1q
-PnYFHLLF0WmHxM4Y0Nyooxir1oJ8vtU5UKSBuAUHYqaXgKaZHaMfVPQ1s7wckFORSk+VJB4MwnZF
-ZaiGjDXRP/EYpbiITEYr4iqdNM86pcvt/qRvU9LAGKuISv2G+qlCFbOf5exfPgxrUhwlewIfO5II
-xWuT9NrBOypzlmfB5Vz0guAgvESpZaiwcjdx7B944QSLlz8dPFsUSA5gdUul241XPGalTJKHaf6k
-rrDSH0AU0nnVaTL/Q5Tlh9L+yFIX5ybk0beP5tt4wORo5/oL2dd7HzCNTC+P89duHx95Xfrvp/eR
-hwYEiEsT5xK4g5xs2+WAvTT7L6ntbXlP4TL+3I/lcKrRdxuF4YyE5MPYC8Dvqr8APL/xOUWVQhqE
-Gu86+aR0Royh/sLZEBgxQYS4+E7dTVsDeb6GQvr6aLft9UzlncfRL9UFSl1GmXDsnosJmCqxZ8Y0
-HAnW4V79950v345ErdANpKWqsMdd3PGszF8m0LbSRVR3cm9aJDfqac5VQ+Lt/8jJs/s21nHrMaWJ
-qtR9efc0V44Ww2G12uYeUX6gBnLGzU9OauL4YjOSeJDAetRYLNGvtQ0f1w3ofNXkPhsrh9OkAeaE
-XYSd4iUAboDmGFPLr8Z+JFDe1tj0nUotNZAL7iog+wH8fd3r/lnwxmIO3pL1q2AjSy6gsMyYSzVz
-KdK5jDlC6MpY9WYcLyygeqigMsYhySoSCXTuCjFvzVFMKEcEh3CDy3GK6sPdcJb+ua92hwWSORIw
-jRi31eUtasQAaOciQXUufmr6M8dw3DORtpqcwGZJ9rJoXC5viiX7qJkQtC8mJnvWxCR7l5wLKnOc
-3tKwLPzlCUZLAoZwXFWxaHtbhBfsPrs6S9dc8RbpstWP1vPh4HnrUOHD50hKJtEYZBUBOYQkPRST
-7qDltbQpHKh8UbCTSfHrrHMxg4Wa9DYstmAeocJWapCSH+zNx25xSGoZciMGoeKI9FY7YMIttlJr
-yQDWNOaEkfYmK2aDRXhbnKtOfgJl9xYqa5tj4stUBuUVex4p9fgz1AkMabZfQfmMC9Mg5g4tsZq3
-DYGrjLOhdOALz+P6cr6p1RxDl3O+L7D+qgOsW7z9+9dqWFJxx8yPgemKGzNJQJwSmKn1dTFYLWZl
-ehYeq5QpzPmrEXUHoEoqkAMR9HPdmTdxdcUf7WgaUbIK/2b2HQgboa86na5PJOwt1beHwCamYaOV
-tqM3JxpGxJeBsXoz2moAVqLj124Tiq9lKdURzEdVAedD3VYgybeIKjvVgji5aOGGTT9sFahmZBkG
-D6l8uLVwg3NVyK/llfqH7oSSRKNXwMgxnXn1aoak52NJsFfAgCusOiI9jvSRq4/r/NjB5Sjc/awS
-q7a7NCJ66zFEHIHvt3zmmnoHLXo2NNQPDCZg8aeJiUnx6boP+t6e2JAqicIHv3376esyodVIXNIc
-xkEsOFTHiiocsYht/BZUfrT2IcLUjaGpfHTvkFS5GHUcMZKoq6jGnKkCdpfa7USV+fQHqQ08kJWM
-hlUiFR923FSr81oMO45IOEjbX21PDXAU/KxvCOCnIltRC626ksGboO8nGwrgckFX9KYqjFnNA0DP
-pfHg/CM3BD8+EpbjTR5MOGI3N6sHLWgiVaB/wbslMa3VK1iqe01/zuH1Ch21+S2V/ABTlOR/drFN
-Kd2ncUfAYNaM7wKT/ogPD3jkDks0bbRNnfC4IWPjaV6uQSCqqJyWUMf1GxuNXjH4lxHdNE+ML/u+
-ha3cuw/XL7ghL8OJLvQ4nenFqL+q1ZVh/8td9wQE1w06pvcHczD9MJ9OIHSsexxAbR7MbOsoGMtG
-nifo4Ug5Q2SvAGppoINl6bGE1bjBFTjztd42yZldLVPx8IL1Fq+DViJgQ0oKdE4RjZFpWmETu6qs
-bEKouYaUdObAQKBQG0sVnLFr6qV1bO/DjJ5HffZvDe3GEtzUgpJYOP6z8EQRHrgp1YSsQ1ZO5MY9
-iQymuEBC5+69EBIlcEwpdEVSM728PG9JJwZk7o+MtkIua55RBNM+ZwstqW8Hobdmi0t7kZ0CjZvz
-8URgpAq2UnB/TpF3KfQ5AdB8+3UkYE9cigYG/usIZZwP08nNBKbRdy1Wh7L0+7AkUXI22GkIxSDJ
-rVdcwwvckjONn5C2OG6l/+n+kIRmRRK6dZUEQ9/jURDMTA0BHUKkzcdvYTvaFHedp/8p4S+DClB0
-fCsvv5CuqL3jQvePU+b2jG3L1jSjxNbFWOO4MkedAhckG1Uk8YDFpyV/0a/ujiDCUuwtsXkWFhiL
-DEYIP+05vEYmZ/aetpYQSCEU9PksaMoD7mitcYbvkQ4a7srxePidvIXew4exumc+UDI+41Tkdzgp
-vVCaiwAReAtUR9CceYdcljyDdIOBlZzYB1MsilUXBzGN7WFD+CE1+ZbP5iqiBRyNHB6+cGHD42XS
-1AjoEw90hfM11053pZ94rIljQBvOT3LJBPyWeBI3DWrhfBRvEROkd+W2iOZl44VOx+7zdOiTv46C
-6Pxa1TmtDi5MuP2+4xNsyzhnC93Eje3HN/D/ASFuNH0J29K30DVdvevJXxYYcK0YHGRYUf9WEX9V
-ui/ZGzUFt/D9mOsYNUBgUU/UhOx/2NSVEQz9YPP2v4Pi2bp8tPmAWJq2iMA1a3CQ+89foJ++ADg4
-Wsx2IZAI9Uk5Cqk9fn5StehNW9MWS29FXKuObY3+PIQwM9xnHQQwvSy2cSiGJUzhoN+6A8YN/tIi
-xZWErzAps6EVUYHKNEn9NNi5Y5nI47xau2XZZiiUPcdp6HwIRwWhZTWog264JbAUqwB3h4dGQKl3
-K9zZ8usgZrOtzp+ugs/c7ylALlSrW85csLforArOvGmL3MMu/VQIHWniRfNzdagNUsv8Wi6/Mw7o
-DtTepcnNuWmTIY9XNOnM+qQRZ4aL1sLOoFuw8PJn3sUeeR9nRB+MP5uz3PxH7m8UyrcupN30dt1r
-nkZ9hvDl97EE+ESAFj7ry3fyKwScKObQ1ZPma0pEPTkH4jztEt+E3divrbqi+58FZ2OJ3RVyHYi0
-SBohxbJrjnMs4HS4XmKQGSXmzDaKo06yQbGd9G1drg1ktWLCeG1dhQX/TkPn4w27Pe3E3lv8tZgl
-YmRnUWHKdvfUNKsHzWHxN9fzb/7xV+PT6JQBxgKAuIPyKqiQov6S6ucuf5RPjA4CrinLfOweuqW=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute\Resource;
+
+use Google\Service\Compute\AccessConfig;
+use Google\Service\Compute\AttachedDisk;
+use Google\Service\Compute\BulkInsertInstanceResource;
+use Google\Service\Compute\DisplayDevice;
+use Google\Service\Compute\GuestAttributes;
+use Google\Service\Compute\Instance;
+use Google\Service\Compute\InstanceAggregatedList;
+use Google\Service\Compute\InstanceList;
+use Google\Service\Compute\InstanceListReferrers;
+use Google\Service\Compute\InstancesAddResourcePoliciesRequest;
+use Google\Service\Compute\InstancesGetEffectiveFirewallsResponse;
+use Google\Service\Compute\InstancesRemoveResourcePoliciesRequest;
+use Google\Service\Compute\InstancesSetLabelsRequest;
+use Google\Service\Compute\InstancesSetMachineResourcesRequest;
+use Google\Service\Compute\InstancesSetMachineTypeRequest;
+use Google\Service\Compute\InstancesSetMinCpuPlatformRequest;
+use Google\Service\Compute\InstancesSetServiceAccountRequest;
+use Google\Service\Compute\InstancesStartWithEncryptionKeyRequest;
+use Google\Service\Compute\Metadata;
+use Google\Service\Compute\NetworkInterface;
+use Google\Service\Compute\Operation;
+use Google\Service\Compute\Policy;
+use Google\Service\Compute\Scheduling;
+use Google\Service\Compute\Screenshot;
+use Google\Service\Compute\SerialPortOutput;
+use Google\Service\Compute\ShieldedInstanceConfig;
+use Google\Service\Compute\ShieldedInstanceIdentity;
+use Google\Service\Compute\ShieldedInstanceIntegrityPolicy;
+use Google\Service\Compute\Tags;
+use Google\Service\Compute\TestPermissionsRequest;
+use Google\Service\Compute\TestPermissionsResponse;
+use Google\Service\Compute\ZoneSetPolicyRequest;
+
+/**
+ * The "instances" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $computeService = new Google\Service\Compute(...);
+ *   $instances = $computeService->instances;
+ *  </code>
+ */
+class Instances extends \Google\Service\Resource
+{
+  /**
+   * Adds an access config to an instance's network interface.
+   * (instances.addAccessConfig)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone for this request.
+   * @param string $instance The instance name for this request.
+   * @param string $networkInterface The name of the network interface to add to
+   * this instance.
+   * @param AccessConfig $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function addAccessConfig($project, $zone, $instance, $networkInterface, AccessConfig $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'instance' => $instance, 'networkInterface' => $networkInterface, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('addAccessConfig', [$params], Operation::class);
+  }
+  /**
+   * Adds existing resource policies to an instance. You can only add one policy
+   * right now which will be applied to this instance for scheduling live
+   * migrations. (instances.addResourcePolicies)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone for this request.
+   * @param string $instance The instance name for this request.
+   * @param InstancesAddResourcePoliciesRequest $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function addResourcePolicies($project, $zone, $instance, InstancesAddResourcePoliciesRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'instance' => $instance, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('addResourcePolicies', [$params], Operation::class);
+  }
+  /**
+   * Retrieves aggregated list of all of the instances in your project across all
+   * regions and zones. (instances.aggregatedList)
+   *
+   * @param string $project Project ID for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param bool includeAllScopes Indicates whether every visible scope for
+   * each scope type (zone, region, global) should be included in the response.
+   * For new resource types added after this field, the flag has no effect as new
+   * resource types will always include every visible scope for each scope type in
+   * response. For resource types which predate this field, if this flag is
+   * omitted or false, only scopes of the scope types where the resource type is
+   * expected to be found will be included.
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return InstanceAggregatedList
+   */
+  public function aggregatedList($project, $optParams = [])
+  {
+    $params = ['project' => $project];
+    $params = array_merge($params, $optParams);
+    return $this->call('aggregatedList', [$params], InstanceAggregatedList::class);
+  }
+  /**
+   * Attaches an existing Disk resource to an instance. You must first create the
+   * disk before you can attach it. It is not possible to create and attach a disk
+   * at the same time. For more information, read Adding a persistent disk to your
+   * instance. (instances.attachDisk)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone for this request.
+   * @param string $instance The instance name for this request.
+   * @param AttachedDisk $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool forceAttach Whether to force attach the regional disk even if
+   * it's currently attached to another instance. If you try to force attach a
+   * zonal disk to an instance, you will receive an error.
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function attachDisk($project, $zone, $instance, AttachedDisk $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'instance' => $instance, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('attachDisk', [$params], Operation::class);
+  }
+  /**
+   * Creates multiple instances. Count specifies the number of instances to
+   * create. (instances.bulkInsert)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone for this request.
+   * @param BulkInsertInstanceResource $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function bulkInsert($project, $zone, BulkInsertInstanceResource $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('bulkInsert', [$params], Operation::class);
+  }
+  /**
+   * Deletes the specified Instance resource. For more information, see Deleting
+   * an instance. (instances.delete)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone for this request.
+   * @param string $instance Name of the instance resource to delete.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function delete($project, $zone, $instance, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'instance' => $instance];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Deletes an access config from an instance's network interface.
+   * (instances.deleteAccessConfig)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone for this request.
+   * @param string $instance The instance name for this request.
+   * @param string $accessConfig The name of the access config to delete.
+   * @param string $networkInterface The name of the network interface.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function deleteAccessConfig($project, $zone, $instance, $accessConfig, $networkInterface, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'instance' => $instance, 'accessConfig' => $accessConfig, 'networkInterface' => $networkInterface];
+    $params = array_merge($params, $optParams);
+    return $this->call('deleteAccessConfig', [$params], Operation::class);
+  }
+  /**
+   * Detaches a disk from an instance. (instances.detachDisk)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone for this request.
+   * @param string $instance Instance name for this request.
+   * @param string $deviceName The device name of the disk to detach. Make a get()
+   * request on the instance to view currently attached disks and device names.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function detachDisk($project, $zone, $instance, $deviceName, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'instance' => $instance, 'deviceName' => $deviceName];
+    $params = array_merge($params, $optParams);
+    return $this->call('detachDisk', [$params], Operation::class);
+  }
+  /**
+   * Returns the specified Instance resource. Gets a list of available instances
+   * by making a list() request. (instances.get)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone for this request.
+   * @param string $instance Name of the instance resource to return.
+   * @param array $optParams Optional parameters.
+   * @return Instance
+   */
+  public function get($project, $zone, $instance, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'instance' => $instance];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Instance::class);
+  }
+  /**
+   * Returns effective firewalls applied to an interface of the instance.
+   * (instances.getEffectiveFirewalls)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone for this request.
+   * @param string $instance Name of the instance scoping this request.
+   * @param string $networkInterface The name of the network interface to get the
+   * effective firewalls.
+   * @param array $optParams Optional parameters.
+   * @return InstancesGetEffectiveFirewallsResponse
+   */
+  public function getEffectiveFirewalls($project, $zone, $instance, $networkInterface, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'instance' => $instance, 'networkInterface' => $networkInterface];
+    $params = array_merge($params, $optParams);
+    return $this->call('getEffectiveFirewalls', [$params], InstancesGetEffectiveFirewallsResponse::class);
+  }
+  /**
+   * Returns the specified guest attributes entry. (instances.getGuestAttributes)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone for this request.
+   * @param string $instance Name of the instance scoping this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string queryPath Specifies the guest attributes path to be
+   * queried.
+   * @opt_param string variableKey Specifies the key for the guest attributes
+   * entry.
+   * @return GuestAttributes
+   */
+  public function getGuestAttributes($project, $zone, $instance, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'instance' => $instance];
+    $params = array_merge($params, $optParams);
+    return $this->call('getGuestAttributes', [$params], GuestAttributes::class);
+  }
+  /**
+   * Gets the access control policy for a resource. May be empty if no such policy
+   * or resource exists. (instances.getIamPolicy)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone for this request.
+   * @param string $resource Name or id of the resource for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int optionsRequestedPolicyVersion Requested IAM Policy version.
+   * @return Policy
+   */
+  public function getIamPolicy($project, $zone, $resource, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'resource' => $resource];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Returns the screenshot from the specified instance. (instances.getScreenshot)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone for this request.
+   * @param string $instance Name of the instance scoping this request.
+   * @param array $optParams Optional parameters.
+   * @return Screenshot
+   */
+  public function getScreenshot($project, $zone, $instance, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'instance' => $instance];
+    $params = array_merge($params, $optParams);
+    return $this->call('getScreenshot', [$params], Screenshot::class);
+  }
+  /**
+   * Returns the last 1 MB of serial port output from the specified instance.
+   * (instances.getSerialPortOutput)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone for this request.
+   * @param string $instance Name of the instance for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int port Specifies which COM or serial port to retrieve data from.
+   * @opt_param string start Specifies the starting byte position of the output to
+   * return. To start with the first byte of output to the specified port, omit
+   * this field or set it to `0`.
+   *
+   * If the output for that byte position is available, this field matches the
+   * `start` parameter sent with the request. If the amount of serial console
+   * output exceeds the size of the buffer (1 MB), the oldest output is discarded
+   * and is no longer available. If the requested start position refers to
+   * discarded output, the start position is adjusted to the oldest output still
+   * available, and the adjusted start position is returned as the `start`
+   * property value.
+   *
+   * You can also provide a negative start position, which translates to the most
+   * recent number of bytes written to the serial port. For example, -3 is
+   * interpreted as the most recent 3 bytes written to the serial console.
+   * @return SerialPortOutput
+   */
+  public function getSerialPortOutput($project, $zone, $instance, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'instance' => $instance];
+    $params = array_merge($params, $optParams);
+    return $this->call('getSerialPortOutput', [$params], SerialPortOutput::class);
+  }
+  /**
+   * Returns the Shielded Instance Identity of an instance
+   * (instances.getShieldedInstanceIdentity)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone for this request.
+   * @param string $instance Name or id of the instance scoping this request.
+   * @param array $optParams Optional parameters.
+   * @return ShieldedInstanceIdentity
+   */
+  public function getShieldedInstanceIdentity($project, $zone, $instance, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'instance' => $instance];
+    $params = array_merge($params, $optParams);
+    return $this->call('getShieldedInstanceIdentity', [$params], ShieldedInstanceIdentity::class);
+  }
+  /**
+   * Creates an instance resource in the specified project using the data included
+   * in the request. (instances.insert)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone for this request.
+   * @param Instance $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @opt_param string sourceInstanceTemplate Specifies instance template to
+   * create the instance.
+   *
+   * This field is optional. It can be a full or partial URL. For example, the
+   * following are all valid URLs to an instance template:   - https://www.googlea
+   * pis.com/compute/v1/projects/project/global/instanceTemplates/instanceTemplate
+   * - projects/project/global/instanceTemplates/instanceTemplate  -
+   * global/instanceTemplates/instanceTemplate
+   * @return Operation
+   */
+  public function insert($project, $zone, Instance $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Operation::class);
+  }
+  /**
+   * Retrieves the list of instances contained within the specified zone.
+   * (instances.listInstances)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return InstanceList
+   */
+  public function listInstances($project, $zone, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], InstanceList::class);
+  }
+  /**
+   * Retrieves a list of resources that refer to the VM instance specified in the
+   * request. For example, if the VM instance is part of a managed or unmanaged
+   * instance group, the referrers list includes the instance group. For more
+   * information, read Viewing referrers to VM instances.
+   * (instances.listReferrers)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone for this request.
+   * @param string $instance Name of the target instance scoping this request, or
+   * '-' if the request should span over all instances in the container.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return InstanceListReferrers
+   */
+  public function listReferrers($project, $zone, $instance, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'instance' => $instance];
+    $params = array_merge($params, $optParams);
+    return $this->call('listReferrers', [$params], InstanceListReferrers::class);
+  }
+  /**
+   * Removes resource policies from an instance.
+   * (instances.removeResourcePolicies)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone for this request.
+   * @param string $instance The instance name for this request.
+   * @param InstancesRemoveResourcePoliciesRequest $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function removeResourcePolicies($project, $zone, $instance, InstancesRemoveResourcePoliciesRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'instance' => $instance, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('removeResourcePolicies', [$params], Operation::class);
+  }
+  /**
+   * Performs a reset on the instance. This is a hard reset the VM does not do a
+   * graceful shutdown. For more information, see Resetting an instance.
+   * (instances.reset)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone for this request.
+   * @param string $instance Name of the instance scoping this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function reset($project, $zone, $instance, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'instance' => $instance];
+    $params = array_merge($params, $optParams);
+    return $this->call('reset', [$params], Operation::class);
+  }
+  /**
+   * Sets deletion protection on the instance. (instances.setDeletionProtection)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone for this request.
+   * @param string $resource Name or id of the resource for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool deletionProtection Whether the resource should be protected
+   * against deletion.
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function setDeletionProtection($project, $zone, $resource, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'resource' => $resource];
+    $params = array_merge($params, $optParams);
+    return $this->call('setDeletionProtection', [$params], Operation::class);
+  }
+  /**
+   * Sets the auto-delete flag for a disk attached to an instance.
+   * (instances.setDiskAutoDelete)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone for this request.
+   * @param string $instance The instance name for this request.
+   * @param bool $autoDelete Whether to auto-delete the disk when the instance is
+   * deleted.
+   * @param string $deviceName The device name of the disk to modify. Make a get()
+   * request on the instance to view currently attached disks and device names.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function setDiskAutoDelete($project, $zone, $instance, $autoDelete, $deviceName, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'instance' => $instance, 'autoDelete' => $autoDelete, 'deviceName' => $deviceName];
+    $params = array_merge($params, $optParams);
+    return $this->call('setDiskAutoDelete', [$params], Operation::class);
+  }
+  /**
+   * Sets the access control policy on the specified resource. Replaces any
+   * existing policy. (instances.setIamPolicy)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone for this request.
+   * @param string $resource Name or id of the resource for this request.
+   * @param ZoneSetPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($project, $zone, $resource, ZoneSetPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Sets labels on an instance. To learn more about labels, read the Labeling
+   * Resources documentation. (instances.setLabels)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone for this request.
+   * @param string $instance Name of the instance scoping this request.
+   * @param InstancesSetLabelsRequest $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function setLabels($project, $zone, $instance, InstancesSetLabelsRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'instance' => $instance, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setLabels', [$params], Operation::class);
+  }
+  /**
+   * Changes the number and/or type of accelerator for a stopped instance to the
+   * values specified in the request. (instances.setMachineResources)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone for this request.
+   * @param string $instance Name of the instance scoping this request.
+   * @param InstancesSetMachineResourcesRequest $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function setMachineResources($project, $zone, $instance, InstancesSetMachineResourcesRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'instance' => $instance, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setMachineResources', [$params], Operation::class);
+  }
+  /**
+   * Changes the machine type for a stopped instance to the machine type specified
+   * in the request. (instances.setMachineType)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone for this request.
+   * @param string $instance Name of the instance scoping this request.
+   * @param InstancesSetMachineTypeRequest $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function setMachineType($project, $zone, $instance, InstancesSetMachineTypeRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'instance' => $instance, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setMachineType', [$params], Operation::class);
+  }
+  /**
+   * Sets metadata for the specified instance to the data included in the request.
+   * (instances.setMetadata)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone for this request.
+   * @param string $instance Name of the instance scoping this request.
+   * @param Metadata $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function setMetadata($project, $zone, $instance, Metadata $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'instance' => $instance, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setMetadata', [$params], Operation::class);
+  }
+  /**
+   * Changes the minimum CPU platform that this instance should use. This method
+   * can only be called on a stopped instance. For more information, read
+   * Specifying a Minimum CPU Platform. (instances.setMinCpuPlatform)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone for this request.
+   * @param string $instance Name of the instance scoping this request.
+   * @param InstancesSetMinCpuPlatformRequest $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function setMinCpuPlatform($project, $zone, $instance, InstancesSetMinCpuPlatformRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'instance' => $instance, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setMinCpuPlatform', [$params], Operation::class);
+  }
+  /**
+   * Sets an instance's scheduling options. You can only call this method on a
+   * stopped instance, that is, a VM instance that is in a `TERMINATED` state. See
+   * Instance Life Cycle for more information on the possible instance states.
+   * (instances.setScheduling)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone for this request.
+   * @param string $instance Instance name for this request.
+   * @param Scheduling $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function setScheduling($project, $zone, $instance, Scheduling $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'instance' => $instance, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setScheduling', [$params], Operation::class);
+  }
+  /**
+   * Sets the service account on the instance. For more information, read Changing
+   * the service account and access scopes for an instance.
+   * (instances.setServiceAccount)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone for this request.
+   * @param string $instance Name of the instance resource to start.
+   * @param InstancesSetServiceAccountRequest $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function setServiceAccount($project, $zone, $instance, InstancesSetServiceAccountRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'instance' => $instance, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setServiceAccount', [$params], Operation::class);
+  }
+  /**
+   * Sets the Shielded Instance integrity policy for an instance. You can only use
+   * this method on a running instance. This method supports PATCH semantics and
+   * uses the JSON merge patch format and processing rules.
+   * (instances.setShieldedInstanceIntegrityPolicy)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone for this request.
+   * @param string $instance Name or id of the instance scoping this request.
+   * @param ShieldedInstanceIntegrityPolicy $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function setShieldedInstanceIntegrityPolicy($project, $zone, $instance, ShieldedInstanceIntegrityPolicy $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'instance' => $instance, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setShieldedInstanceIntegrityPolicy', [$params], Operation::class);
+  }
+  /**
+   * Sets network tags for the specified instance to the data included in the
+   * request. (instances.setTags)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone for this request.
+   * @param string $instance Name of the instance scoping this request.
+   * @param Tags $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function setTags($project, $zone, $instance, Tags $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'instance' => $instance, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setTags', [$params], Operation::class);
+  }
+  /**
+   * Simulates a maintenance event on the instance.
+   * (instances.simulateMaintenanceEvent)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone for this request.
+   * @param string $instance Name of the instance scoping this request.
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function simulateMaintenanceEvent($project, $zone, $instance, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'instance' => $instance];
+    $params = array_merge($params, $optParams);
+    return $this->call('simulateMaintenanceEvent', [$params], Operation::class);
+  }
+  /**
+   * Starts an instance that was stopped using the instances().stop method. For
+   * more information, see Restart an instance. (instances.start)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone for this request.
+   * @param string $instance Name of the instance resource to start.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function start($project, $zone, $instance, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'instance' => $instance];
+    $params = array_merge($params, $optParams);
+    return $this->call('start', [$params], Operation::class);
+  }
+  /**
+   * Starts an instance that was stopped using the instances().stop method. For
+   * more information, see Restart an instance. (instances.startWithEncryptionKey)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone for this request.
+   * @param string $instance Name of the instance resource to start.
+   * @param InstancesStartWithEncryptionKeyRequest $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function startWithEncryptionKey($project, $zone, $instance, InstancesStartWithEncryptionKeyRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'instance' => $instance, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('startWithEncryptionKey', [$params], Operation::class);
+  }
+  /**
+   * Stops a running instance, shutting it down cleanly, and allows you to restart
+   * the instance at a later time. Stopped instances do not incur VM usage charges
+   * while they are stopped. However, resources that the VM is using, such as
+   * persistent disks and static IP addresses, will continue to be charged until
+   * they are deleted. For more information, see Stopping an instance.
+   * (instances.stop)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone for this request.
+   * @param string $instance Name of the instance resource to stop.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function stop($project, $zone, $instance, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'instance' => $instance];
+    $params = array_merge($params, $optParams);
+    return $this->call('stop', [$params], Operation::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource.
+   * (instances.testIamPermissions)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone for this request.
+   * @param string $resource Name or id of the resource for this request.
+   * @param TestPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestPermissionsResponse
+   */
+  public function testIamPermissions($project, $zone, $resource, TestPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestPermissionsResponse::class);
+  }
+  /**
+   * Updates an instance only if the necessary resources are available. This
+   * method can update only a specific set of instance properties. See  Updating a
+   * running instance for a list of updatable instance properties.
+   * (instances.update)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone for this request.
+   * @param string $instance Name of the instance resource to update.
+   * @param Instance $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string minimalAction Specifies the action to take when updating an
+   * instance even if the updated properties do not require it. If not specified,
+   * then Compute Engine acts based on the minimum action that the updated
+   * properties require.
+   * @opt_param string mostDisruptiveAllowedAction Specifies the most disruptive
+   * action that can be taken on the instance as part of the update. Compute
+   * Engine returns an error if the instance properties require a more disruptive
+   * action as part of the instance update. Valid options from lowest to highest
+   * are NO_EFFECT, REFRESH, and RESTART.
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function update($project, $zone, $instance, Instance $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'instance' => $instance, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Operation::class);
+  }
+  /**
+   * Updates the specified access config from an instance's network interface with
+   * the data included in the request. This method supports PATCH semantics and
+   * uses the JSON merge patch format and processing rules.
+   * (instances.updateAccessConfig)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone for this request.
+   * @param string $instance The instance name for this request.
+   * @param string $networkInterface The name of the network interface where the
+   * access config is attached.
+   * @param AccessConfig $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function updateAccessConfig($project, $zone, $instance, $networkInterface, AccessConfig $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'instance' => $instance, 'networkInterface' => $networkInterface, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('updateAccessConfig', [$params], Operation::class);
+  }
+  /**
+   * Updates the Display config for a VM instance. You can only use this method on
+   * a stopped VM instance. This method supports PATCH semantics and uses the JSON
+   * merge patch format and processing rules. (instances.updateDisplayDevice)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone for this request.
+   * @param string $instance Name of the instance scoping this request.
+   * @param DisplayDevice $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function updateDisplayDevice($project, $zone, $instance, DisplayDevice $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'instance' => $instance, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('updateDisplayDevice', [$params], Operation::class);
+  }
+  /**
+   * Updates an instance's network interface. This method can only update an
+   * interface's alias IP range and attached network. See Modifying alias IP
+   * ranges for an existing instance for instructions on changing alias IP ranges.
+   * See Migrating a VM between networks for instructions on migrating an
+   * interface. This method follows PATCH semantics.
+   * (instances.updateNetworkInterface)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone for this request.
+   * @param string $instance The instance name for this request.
+   * @param string $networkInterface The name of the network interface to update.
+   * @param NetworkInterface $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function updateNetworkInterface($project, $zone, $instance, $networkInterface, NetworkInterface $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'instance' => $instance, 'networkInterface' => $networkInterface, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('updateNetworkInterface', [$params], Operation::class);
+  }
+  /**
+   * Updates the Shielded Instance config for an instance. You can only use this
+   * method on a stopped instance. This method supports PATCH semantics and uses
+   * the JSON merge patch format and processing rules.
+   * (instances.updateShieldedInstanceConfig)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $zone The name of the zone for this request.
+   * @param string $instance Name or id of the instance scoping this request.
+   * @param ShieldedInstanceConfig $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function updateShieldedInstanceConfig($project, $zone, $instance, ShieldedInstanceConfig $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'zone' => $zone, 'instance' => $instance, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('updateShieldedInstanceConfig', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Instances::class, 'Google_Service_Compute_Resource_Instances');

@@ -1,64 +1,101 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AdExchangeBuyer\Resource;
+
+use Google\Service\AdExchangeBuyer\AddOrderDealsRequest;
+use Google\Service\AdExchangeBuyer\AddOrderDealsResponse;
+use Google\Service\AdExchangeBuyer\DeleteOrderDealsRequest;
+use Google\Service\AdExchangeBuyer\DeleteOrderDealsResponse;
+use Google\Service\AdExchangeBuyer\EditAllOrderDealsRequest;
+use Google\Service\AdExchangeBuyer\EditAllOrderDealsResponse;
+use Google\Service\AdExchangeBuyer\GetOrderDealsResponse;
+
+/**
+ * The "marketplacedeals" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $adexchangebuyerService = new Google\Service\AdExchangeBuyer(...);
+ *   $marketplacedeals = $adexchangebuyerService->marketplacedeals;
+ *  </code>
+ */
+class Marketplacedeals extends \Google\Service\Resource
+{
+  /**
+   * Delete the specified deals from the proposal (marketplacedeals.delete)
+   *
+   * @param string $proposalId The proposalId to delete deals from.
+   * @param DeleteOrderDealsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return DeleteOrderDealsResponse
+   */
+  public function delete($proposalId, DeleteOrderDealsRequest $postBody, $optParams = [])
+  {
+    $params = ['proposalId' => $proposalId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], DeleteOrderDealsResponse::class);
+  }
+  /**
+   * Add new deals for the specified proposal (marketplacedeals.insert)
+   *
+   * @param string $proposalId proposalId for which deals need to be added.
+   * @param AddOrderDealsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return AddOrderDealsResponse
+   */
+  public function insert($proposalId, AddOrderDealsRequest $postBody, $optParams = [])
+  {
+    $params = ['proposalId' => $proposalId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], AddOrderDealsResponse::class);
+  }
+  /**
+   * List all the deals for a given proposal
+   * (marketplacedeals.listMarketplacedeals)
+   *
+   * @param string $proposalId The proposalId to get deals for. To search across
+   * all proposals specify order_id = '-' as part of the URL.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string pqlQuery Query string to retrieve specific deals.
+   * @return GetOrderDealsResponse
+   */
+  public function listMarketplacedeals($proposalId, $optParams = [])
+  {
+    $params = ['proposalId' => $proposalId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GetOrderDealsResponse::class);
+  }
+  /**
+   * Replaces all the deals in the proposal with the passed in deals
+   * (marketplacedeals.update)
+   *
+   * @param string $proposalId The proposalId to edit deals on.
+   * @param EditAllOrderDealsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return EditAllOrderDealsResponse
+   */
+  public function update($proposalId, EditAllOrderDealsRequest $postBody, $optParams = [])
+  {
+    $params = ['proposalId' => $proposalId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], EditAllOrderDealsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Marketplacedeals::class, 'Google_Service_AdExchangeBuyer_Resource_Marketplacedeals');

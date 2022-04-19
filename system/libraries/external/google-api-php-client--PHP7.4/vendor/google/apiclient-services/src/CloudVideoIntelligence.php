@@ -1,62 +1,184 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-qy9IQBi2C2vpOJr0q+eA7rTwFi55zEws7QpSym==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for CloudVideoIntelligence (v1).
+ *
+ * <p>
+ * Detects objects, explicit content, and scene changes in videos. It also
+ * specifies the region for annotation and transcribes speech to text. Supports
+ * both asynchronous API and streaming API.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/video-intelligence/docs/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class CloudVideoIntelligence extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+
+  public $operations_projects_locations_operations;
+  public $projects_locations_operations;
+  public $videos;
+
+  /**
+   * Constructs the internal representation of the CloudVideoIntelligence
+   * service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://videointelligence.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'videointelligence';
+
+    $this->operations_projects_locations_operations = new CloudVideoIntelligence\Resource\OperationsProjectsLocationsOperations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'cancel' => [
+              'path' => 'v1/operations/{+name}:cancel',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/operations/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/operations/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_operations = new CloudVideoIntelligence\Resource\ProjectsLocationsOperations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'cancel' => [
+              'path' => 'v1/{+name}:cancel',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+name}/operations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->videos = new CloudVideoIntelligence\Resource\Videos(
+        $this,
+        $this->serviceName,
+        'videos',
+        [
+          'methods' => [
+            'annotate' => [
+              'path' => 'v1/videos:annotate',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(CloudVideoIntelligence::class, 'Google_Service_CloudVideoIntelligence');

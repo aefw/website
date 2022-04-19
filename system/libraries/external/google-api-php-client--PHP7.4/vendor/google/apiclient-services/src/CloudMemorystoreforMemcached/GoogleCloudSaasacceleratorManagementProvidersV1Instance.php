@@ -1,110 +1,190 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-ek2aOgkMhSIJ3VU4CAm2xj3c
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudMemorystoreforMemcached;
+
+class GoogleCloudSaasacceleratorManagementProvidersV1Instance extends \Google\Collection
+{
+  protected $collection_key = 'provisionedResources';
+  public $consumerDefinedName;
+  public $createTime;
+  public $labels;
+  public $maintenancePolicyNames;
+  protected $maintenanceSchedulesType = GoogleCloudSaasacceleratorManagementProvidersV1MaintenanceSchedule::class;
+  protected $maintenanceSchedulesDataType = 'map';
+  protected $maintenanceSettingsType = GoogleCloudSaasacceleratorManagementProvidersV1MaintenanceSettings::class;
+  protected $maintenanceSettingsDataType = '';
+  public $name;
+  public $producerMetadata;
+  protected $provisionedResourcesType = GoogleCloudSaasacceleratorManagementProvidersV1ProvisionedResource::class;
+  protected $provisionedResourcesDataType = 'array';
+  public $slmInstanceTemplate;
+  protected $sloMetadataType = GoogleCloudSaasacceleratorManagementProvidersV1SloMetadata::class;
+  protected $sloMetadataDataType = '';
+  public $softwareVersions;
+  public $state;
+  public $tenantProjectId;
+  public $updateTime;
+
+  public function setConsumerDefinedName($consumerDefinedName)
+  {
+    $this->consumerDefinedName = $consumerDefinedName;
+  }
+  public function getConsumerDefinedName()
+  {
+    return $this->consumerDefinedName;
+  }
+  public function setCreateTime($createTime)
+  {
+    $this->createTime = $createTime;
+  }
+  public function getCreateTime()
+  {
+    return $this->createTime;
+  }
+  public function setLabels($labels)
+  {
+    $this->labels = $labels;
+  }
+  public function getLabels()
+  {
+    return $this->labels;
+  }
+  public function setMaintenancePolicyNames($maintenancePolicyNames)
+  {
+    $this->maintenancePolicyNames = $maintenancePolicyNames;
+  }
+  public function getMaintenancePolicyNames()
+  {
+    return $this->maintenancePolicyNames;
+  }
+  /**
+   * @param GoogleCloudSaasacceleratorManagementProvidersV1MaintenanceSchedule[]
+   */
+  public function setMaintenanceSchedules($maintenanceSchedules)
+  {
+    $this->maintenanceSchedules = $maintenanceSchedules;
+  }
+  /**
+   * @return GoogleCloudSaasacceleratorManagementProvidersV1MaintenanceSchedule[]
+   */
+  public function getMaintenanceSchedules()
+  {
+    return $this->maintenanceSchedules;
+  }
+  /**
+   * @param GoogleCloudSaasacceleratorManagementProvidersV1MaintenanceSettings
+   */
+  public function setMaintenanceSettings(GoogleCloudSaasacceleratorManagementProvidersV1MaintenanceSettings $maintenanceSettings)
+  {
+    $this->maintenanceSettings = $maintenanceSettings;
+  }
+  /**
+   * @return GoogleCloudSaasacceleratorManagementProvidersV1MaintenanceSettings
+   */
+  public function getMaintenanceSettings()
+  {
+    return $this->maintenanceSettings;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setProducerMetadata($producerMetadata)
+  {
+    $this->producerMetadata = $producerMetadata;
+  }
+  public function getProducerMetadata()
+  {
+    return $this->producerMetadata;
+  }
+  /**
+   * @param GoogleCloudSaasacceleratorManagementProvidersV1ProvisionedResource[]
+   */
+  public function setProvisionedResources($provisionedResources)
+  {
+    $this->provisionedResources = $provisionedResources;
+  }
+  /**
+   * @return GoogleCloudSaasacceleratorManagementProvidersV1ProvisionedResource[]
+   */
+  public function getProvisionedResources()
+  {
+    return $this->provisionedResources;
+  }
+  public function setSlmInstanceTemplate($slmInstanceTemplate)
+  {
+    $this->slmInstanceTemplate = $slmInstanceTemplate;
+  }
+  public function getSlmInstanceTemplate()
+  {
+    return $this->slmInstanceTemplate;
+  }
+  /**
+   * @param GoogleCloudSaasacceleratorManagementProvidersV1SloMetadata
+   */
+  public function setSloMetadata(GoogleCloudSaasacceleratorManagementProvidersV1SloMetadata $sloMetadata)
+  {
+    $this->sloMetadata = $sloMetadata;
+  }
+  /**
+   * @return GoogleCloudSaasacceleratorManagementProvidersV1SloMetadata
+   */
+  public function getSloMetadata()
+  {
+    return $this->sloMetadata;
+  }
+  public function setSoftwareVersions($softwareVersions)
+  {
+    $this->softwareVersions = $softwareVersions;
+  }
+  public function getSoftwareVersions()
+  {
+    return $this->softwareVersions;
+  }
+  public function setState($state)
+  {
+    $this->state = $state;
+  }
+  public function getState()
+  {
+    return $this->state;
+  }
+  public function setTenantProjectId($tenantProjectId)
+  {
+    $this->tenantProjectId = $tenantProjectId;
+  }
+  public function getTenantProjectId()
+  {
+    return $this->tenantProjectId;
+  }
+  public function setUpdateTime($updateTime)
+  {
+    $this->updateTime = $updateTime;
+  }
+  public function getUpdateTime()
+  {
+    return $this->updateTime;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudSaasacceleratorManagementProvidersV1Instance::class, 'Google_Service_CloudMemorystoreforMemcached_GoogleCloudSaasacceleratorManagementProvidersV1Instance');

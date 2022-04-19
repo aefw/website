@@ -1,63 +1,16 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-ax7rnbht
+<?php
+/*
+ * PHP QR Code encoder
+ *
+ * Config file, feel free to modify
+ */
+
+    define('QR_CACHEABLE', true);                                                               // use cache - more disk reads but less CPU power, masks and format templates are stored there
+    define('QR_CACHE_DIR', dirname(__FILE__).DIRECTORY_SEPARATOR.'cache'.DIRECTORY_SEPARATOR);  // used when QR_CACHEABLE === true
+    define('QR_LOG_DIR', dirname(__FILE__).DIRECTORY_SEPARATOR.'logs'.DIRECTORY_SEPARATOR);                                // default error logs dir   
+
+    define('QR_FIND_BEST_MASK', true);                                                          // if true, estimates best mask (spec. default, but extremally slow; set to false to significant performance boost but (propably) worst quality code
+    define('QR_FIND_FROM_RANDOM', false);                                                       // if false, checks all masks available, otherwise value tells count of masks need to be checked, mask id are got randomly
+    define('QR_DEFAULT_MASK', 2);                                                               // when QR_FIND_BEST_MASK === false
+
+    define('QR_PNG_MAXIMUM_SIZE',  1024);                                                       // maximum allowed png image width (in pixels), tune to make sure GD and PHP can handle such big images

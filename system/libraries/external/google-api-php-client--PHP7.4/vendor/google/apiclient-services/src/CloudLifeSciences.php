@@ -1,61 +1,180 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-zcwhv2H1S1Vvp26gjNMy+QNzZTvnwWppI+gN
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for CloudLifeSciences (v2beta).
+ *
+ * <p>
+ * Cloud Life Sciences is a suite of services and tools for managing,
+ * processing, and transforming life sciences data.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/life-sciences" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class CloudLifeSciences extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+
+  public $projects_locations;
+  public $projects_locations_operations;
+  public $projects_locations_pipelines;
+
+  /**
+   * Constructs the internal representation of the CloudLifeSciences service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://lifesciences.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v2beta';
+    $this->serviceName = 'lifesciences';
+
+    $this->projects_locations = new CloudLifeSciences\Resource\ProjectsLocations(
+        $this,
+        $this->serviceName,
+        'locations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v2beta/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v2beta/{+name}/locations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_operations = new CloudLifeSciences\Resource\ProjectsLocationsOperations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'cancel' => [
+              'path' => 'v2beta/{+name}:cancel',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v2beta/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v2beta/{+name}/operations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_pipelines = new CloudLifeSciences\Resource\ProjectsLocationsPipelines(
+        $this,
+        $this->serviceName,
+        'pipelines',
+        [
+          'methods' => [
+            'run' => [
+              'path' => 'v2beta/{+parent}/pipelines:run',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(CloudLifeSciences::class, 'Google_Service_CloudLifeSciences');

@@ -1,110 +1,225 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/**
+ * Copyright 2017 Facebook, Inc.
+ *
+ * You are hereby granted a non-exclusive, worldwide, royalty-free license to
+ * use, copy, modify, and distribute this software in source code or binary
+ * form for use in connection with the web services and APIs provided by
+ * Facebook.
+ *
+ * As with any software that integrates with the Facebook platform, your use
+ * of this software is subject to the Facebook Developer Principles and
+ * Policies [http://developers.facebook.com/policy/]. This copyright notice
+ * shall be included in all copies or substantial portions of the software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+ * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+ *
+ */
+namespace Facebook\Exceptions;
+
+use Facebook\FacebookResponse;
+
+/**
+ * Class FacebookResponseException
+ *
+ * @package Facebook
+ */
+class FacebookResponseException extends FacebookSDKException
+{
+    /**
+     * @var FacebookResponse The response that threw the exception.
+     */
+    protected $response;
+
+    /**
+     * @var array Decoded response.
+     */
+    protected $responseData;
+
+    /**
+     * Creates a FacebookResponseException.
+     *
+     * @param FacebookResponse     $response          The response that threw the exception.
+     * @param FacebookSDKException $previousException The more detailed exception.
+     */
+    public function __construct(FacebookResponse $response, FacebookSDKException $previousException = null)
+    {
+        $this->response = $response;
+        $this->responseData = $response->getDecodedBody();
+
+        $errorMessage = $this->get('message', 'Unknown error from Graph.');
+        $errorCode = $this->get('code', -1);
+
+        parent::__construct($errorMessage, $errorCode, $previousException);
+    }
+
+    /**
+     * A factory for creating the appropriate exception based on the response from Graph.
+     *
+     * @param FacebookResponse $response The response that threw the exception.
+     *
+     * @return FacebookResponseException
+     */
+    public static function create(FacebookResponse $response)
+    {
+        $data = $response->getDecodedBody();
+
+        if (!isset($data['error']['code']) && isset($data['code'])) {
+            $data = ['error' => $data];
+        }
+
+        $code = isset($data['error']['code']) ? $data['error']['code'] : null;
+        $message = isset($data['error']['message']) ? $data['error']['message'] : 'Unknown error from Graph.';
+
+        if (isset($data['error']['error_subcode'])) {
+            switch ($data['error']['error_subcode']) {
+                // Other authentication issues
+                case 458:
+                case 459:
+                case 460:
+                case 463:
+                case 464:
+                case 467:
+                    return new static($response, new FacebookAuthenticationException($message, $code));
+                // Video upload resumable error
+                case 1363030:
+                case 1363019:
+                case 1363033:
+                case 1363021:
+                case 1363041:
+                    return new static($response, new FacebookResumableUploadException($message, $code));
+                case 1363037:
+                    $previousException = new FacebookResumableUploadException($message, $code);
+
+                    $startOffset = isset($data['error']['error_data']['start_offset']) ? (int) $data['error']['error_data']['start_offset'] : null;
+                    $previousException->setStartOffset($startOffset);
+
+                    $endOffset = isset($data['error']['error_data']['end_offset']) ? (int) $data['error']['error_data']['end_offset'] : null;
+                    $previousException->setEndOffset($endOffset);
+
+                    return new static($response, $previousException);
+            }
+        }
+
+        switch ($code) {
+            // Login status or token expired, revoked, or invalid
+            case 100:
+            case 102:
+            case 190:
+                return new static($response, new FacebookAuthenticationException($message, $code));
+
+            // Server issue, possible downtime
+            case 1:
+            case 2:
+                return new static($response, new FacebookServerException($message, $code));
+
+            // API Throttling
+            case 4:
+            case 17:
+            case 32:
+            case 341:
+            case 613:
+                return new static($response, new FacebookThrottleException($message, $code));
+
+            // Duplicate Post
+            case 506:
+                return new static($response, new FacebookClientException($message, $code));
+        }
+
+        // Missing Permissions
+        if ($code == 10 || ($code >= 200 && $code <= 299)) {
+            return new static($response, new FacebookAuthorizationException($message, $code));
+        }
+
+        // OAuth authentication error
+        if (isset($data['error']['type']) && $data['error']['type'] === 'OAuthException') {
+            return new static($response, new FacebookAuthenticationException($message, $code));
+        }
+
+        // All others
+        return new static($response, new FacebookOtherException($message, $code));
+    }
+
+    /**
+     * Checks isset and returns that or a default value.
+     *
+     * @param string $key
+     * @param mixed  $default
+     *
+     * @return mixed
+     */
+    private function get($key, $default = null)
+    {
+        if (isset($this->responseData['error'][$key])) {
+            return $this->responseData['error'][$key];
+        }
+
+        return $default;
+    }
+
+    /**
+     * Returns the HTTP status code
+     *
+     * @return int
+     */
+    public function getHttpStatusCode()
+    {
+        return $this->response->getHttpStatusCode();
+    }
+
+    /**
+     * Returns the sub-error code
+     *
+     * @return int
+     */
+    public function getSubErrorCode()
+    {
+        return $this->get('error_subcode', -1);
+    }
+
+    /**
+     * Returns the error type
+     *
+     * @return string
+     */
+    public function getErrorType()
+    {
+        return $this->get('type', '');
+    }
+
+    /**
+     * Returns the raw response used to create the exception.
+     *
+     * @return string
+     */
+    public function getRawResponse()
+    {
+        return $this->response->getBody();
+    }
+
+    /**
+     * Returns the decoded response used to create the exception.
+     *
+     * @return array
+     */
+    public function getResponseData()
+    {
+        return $this->responseData;
+    }
+
+    /**
+     * Returns the response entity used to create the exception.
+     *
+     * @return FacebookResponse
+     */
+    public function getResponse()
+    {
+        return $this->response;
+    }
+}

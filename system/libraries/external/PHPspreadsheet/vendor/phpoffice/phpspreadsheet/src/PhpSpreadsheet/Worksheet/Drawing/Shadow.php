@@ -1,88 +1,289 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-GgyvzRL4VjMMA+Cw412aIvQU/W==
+<?php
+
+namespace PhpOffice\PhpSpreadsheet\Worksheet\Drawing;
+
+use PhpOffice\PhpSpreadsheet\IComparable;
+use PhpOffice\PhpSpreadsheet\Style\Color;
+
+class Shadow implements IComparable
+{
+    // Shadow alignment
+    const SHADOW_BOTTOM = 'b';
+    const SHADOW_BOTTOM_LEFT = 'bl';
+    const SHADOW_BOTTOM_RIGHT = 'br';
+    const SHADOW_CENTER = 'ctr';
+    const SHADOW_LEFT = 'l';
+    const SHADOW_TOP = 't';
+    const SHADOW_TOP_LEFT = 'tl';
+    const SHADOW_TOP_RIGHT = 'tr';
+
+    /**
+     * Visible.
+     *
+     * @var bool
+     */
+    private $visible;
+
+    /**
+     * Blur radius.
+     *
+     * Defaults to 6
+     *
+     * @var int
+     */
+    private $blurRadius;
+
+    /**
+     * Shadow distance.
+     *
+     * Defaults to 2
+     *
+     * @var int
+     */
+    private $distance;
+
+    /**
+     * Shadow direction (in degrees).
+     *
+     * @var int
+     */
+    private $direction;
+
+    /**
+     * Shadow alignment.
+     *
+     * @var int
+     */
+    private $alignment;
+
+    /**
+     * Color.
+     *
+     * @var Color
+     */
+    private $color;
+
+    /**
+     * Alpha.
+     *
+     * @var int
+     */
+    private $alpha;
+
+    /**
+     * Create a new Shadow.
+     */
+    public function __construct()
+    {
+        // Initialise values
+        $this->visible = false;
+        $this->blurRadius = 6;
+        $this->distance = 2;
+        $this->direction = 0;
+        $this->alignment = self::SHADOW_BOTTOM_RIGHT;
+        $this->color = new Color(Color::COLOR_BLACK);
+        $this->alpha = 50;
+    }
+
+    /**
+     * Get Visible.
+     *
+     * @return bool
+     */
+    public function getVisible()
+    {
+        return $this->visible;
+    }
+
+    /**
+     * Set Visible.
+     *
+     * @param bool $pValue
+     *
+     * @return Shadow
+     */
+    public function setVisible($pValue)
+    {
+        $this->visible = $pValue;
+
+        return $this;
+    }
+
+    /**
+     * Get Blur radius.
+     *
+     * @return int
+     */
+    public function getBlurRadius()
+    {
+        return $this->blurRadius;
+    }
+
+    /**
+     * Set Blur radius.
+     *
+     * @param int $pValue
+     *
+     * @return Shadow
+     */
+    public function setBlurRadius($pValue)
+    {
+        $this->blurRadius = $pValue;
+
+        return $this;
+    }
+
+    /**
+     * Get Shadow distance.
+     *
+     * @return int
+     */
+    public function getDistance()
+    {
+        return $this->distance;
+    }
+
+    /**
+     * Set Shadow distance.
+     *
+     * @param int $pValue
+     *
+     * @return Shadow
+     */
+    public function setDistance($pValue)
+    {
+        $this->distance = $pValue;
+
+        return $this;
+    }
+
+    /**
+     * Get Shadow direction (in degrees).
+     *
+     * @return int
+     */
+    public function getDirection()
+    {
+        return $this->direction;
+    }
+
+    /**
+     * Set Shadow direction (in degrees).
+     *
+     * @param int $pValue
+     *
+     * @return Shadow
+     */
+    public function setDirection($pValue)
+    {
+        $this->direction = $pValue;
+
+        return $this;
+    }
+
+    /**
+     * Get Shadow alignment.
+     *
+     * @return int
+     */
+    public function getAlignment()
+    {
+        return $this->alignment;
+    }
+
+    /**
+     * Set Shadow alignment.
+     *
+     * @param int $pValue
+     *
+     * @return Shadow
+     */
+    public function setAlignment($pValue)
+    {
+        $this->alignment = $pValue;
+
+        return $this;
+    }
+
+    /**
+     * Get Color.
+     *
+     * @return Color
+     */
+    public function getColor()
+    {
+        return $this->color;
+    }
+
+    /**
+     * Set Color.
+     *
+     * @param Color $pValue
+     *
+     * @return Shadow
+     */
+    public function setColor(Color $pValue = null)
+    {
+        $this->color = $pValue;
+
+        return $this;
+    }
+
+    /**
+     * Get Alpha.
+     *
+     * @return int
+     */
+    public function getAlpha()
+    {
+        return $this->alpha;
+    }
+
+    /**
+     * Set Alpha.
+     *
+     * @param int $pValue
+     *
+     * @return Shadow
+     */
+    public function setAlpha($pValue)
+    {
+        $this->alpha = $pValue;
+
+        return $this;
+    }
+
+    /**
+     * Get hash code.
+     *
+     * @return string Hash code
+     */
+    public function getHashCode()
+    {
+        return md5(
+            ($this->visible ? 't' : 'f') .
+            $this->blurRadius .
+            $this->distance .
+            $this->direction .
+            $this->alignment .
+            $this->color->getHashCode() .
+            $this->alpha .
+            __CLASS__
+        );
+    }
+
+    /**
+     * Implement PHP __clone to create a deep clone, not just a shallow copy.
+     */
+    public function __clone()
+    {
+        $vars = get_object_vars($this);
+        foreach ($vars as $key => $value) {
+            if (is_object($value)) {
+                $this->$key = clone $value;
+            } else {
+                $this->$key = $value;
+            }
+        }
+    }
+}

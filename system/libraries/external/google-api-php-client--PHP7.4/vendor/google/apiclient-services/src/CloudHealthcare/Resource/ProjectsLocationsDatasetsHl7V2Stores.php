@@ -1,87 +1,211 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-xMeDum==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudHealthcare\Resource;
+
+use Google\Service\CloudHealthcare\HealthcareEmpty;
+use Google\Service\CloudHealthcare\Hl7V2Store;
+use Google\Service\CloudHealthcare\ListHl7V2StoresResponse;
+use Google\Service\CloudHealthcare\Policy;
+use Google\Service\CloudHealthcare\SetIamPolicyRequest;
+use Google\Service\CloudHealthcare\TestIamPermissionsRequest;
+use Google\Service\CloudHealthcare\TestIamPermissionsResponse;
+
+/**
+ * The "hl7V2Stores" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $healthcareService = new Google\Service\CloudHealthcare(...);
+ *   $hl7V2Stores = $healthcareService->hl7V2Stores;
+ *  </code>
+ */
+class ProjectsLocationsDatasetsHl7V2Stores extends \Google\Service\Resource
+{
+  /**
+   * Creates a new HL7v2 store within the parent dataset. (hl7V2Stores.create)
+   *
+   * @param string $parent The name of the dataset this HL7v2 store belongs to.
+   * @param Hl7V2Store $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string hl7V2StoreId The ID of the HL7v2 store that is being
+   * created. The string must match the following regex:
+   * `[\p{L}\p{N}_\-\.]{1,256}`.
+   * @return Hl7V2Store
+   */
+  public function create($parent, Hl7V2Store $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Hl7V2Store::class);
+  }
+  /**
+   * Deletes the specified HL7v2 store and removes all messages that it contains.
+   * (hl7V2Stores.delete)
+   *
+   * @param string $name The resource name of the HL7v2 store to delete.
+   * @param array $optParams Optional parameters.
+   * @return HealthcareEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], HealthcareEmpty::class);
+  }
+  /**
+   * Gets the specified HL7v2 store. (hl7V2Stores.get)
+   *
+   * @param string $name The resource name of the HL7v2 store to get.
+   * @param array $optParams Optional parameters.
+   * @return Hl7V2Store
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Hl7V2Store::class);
+  }
+  /**
+   * Gets the access control policy for a resource. Returns an empty policy if the
+   * resource exists and does not have a policy set. (hl7V2Stores.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int options.requestedPolicyVersion Optional. The policy format
+   * version to be returned. Valid values are 0, 1, and 3. Requests specifying an
+   * invalid value will be rejected. Requests for policies with any conditional
+   * bindings must specify version 3. Policies without any conditional bindings
+   * may specify any valid value or leave the field unset. To learn which
+   * resources support conditions in their IAM policies, see the [IAM
+   * documentation](https://cloud.google.com/iam/help/conditions/resource-
+   * policies).
+   * @return Policy
+   */
+  public function getIamPolicy($resource, $optParams = [])
+  {
+    $params = ['resource' => $resource];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Lists the HL7v2 stores in the given dataset.
+   * (hl7V2Stores.listProjectsLocationsDatasetsHl7V2Stores)
+   *
+   * @param string $parent Name of the dataset.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Restricts stores returned to those matching a
+   * filter. The following syntax is available: * A string field value can be
+   * written as text inside quotation marks, for example `"query text"`. The only
+   * valid relational operation for text fields is equality (`=`), where text is
+   * searched within the field, rather than having the field be equal to the text.
+   * For example, `"Comment = great"` returns messages with `great` in the comment
+   * field. * A number field value can be written as an integer, a decimal, or an
+   * exponential. The valid relational operators for number fields are the
+   * equality operator (`=`), along with the less than/greater than operators
+   * (`<`, `<=`, `>`, `>=`). Note that there is no inequality (`!=`) operator. You
+   * can prepend the `NOT` operator to an expression to negate it. * A date field
+   * value must be written in `yyyy-mm-dd` form. Fields with date and time use the
+   * RFC3339 time format. Leading zeros are required for one-digit months and
+   * days. The valid relational operators for date fields are the equality
+   * operator (`=`) , along with the less than/greater than operators (`<`, `<=`,
+   * `>`, `>=`). Note that there is no inequality (`!=`) operator. You can prepend
+   * the `NOT` operator to an expression to negate it. * Multiple field query
+   * expressions can be combined in one query by adding `AND` or `OR` operators
+   * between the expressions. If a boolean operator appears within a quoted
+   * string, it is not treated as special, it's just another part of the character
+   * string to be matched. You can prepend the `NOT` operator to an expression to
+   * negate it. Only filtering on labels is supported. For example,
+   * `labels.key=value`.
+   * @opt_param int pageSize Limit on the number of HL7v2 stores to return in a
+   * single response. If not specified, 100 is used. May not be larger than 1000.
+   * @opt_param string pageToken The next_page_token value returned from the
+   * previous List request, if any.
+   * @return ListHl7V2StoresResponse
+   */
+  public function listProjectsLocationsDatasetsHl7V2Stores($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListHl7V2StoresResponse::class);
+  }
+  /**
+   * Updates the HL7v2 store. (hl7V2Stores.patch)
+   *
+   * @param string $name Resource name of the HL7v2 store, of the form
+   * `projects/{project_id}/datasets/{dataset_id}/hl7V2Stores/{hl7v2_store_id}`.
+   * @param Hl7V2Store $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask The update mask applies to the resource. For the
+   * `FieldMask` definition, see https://developers.google.com/protocol-
+   * buffers/docs/reference/google.protobuf#fieldmask
+   * @return Hl7V2Store
+   */
+  public function patch($name, Hl7V2Store $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Hl7V2Store::class);
+  }
+  /**
+   * Sets the access control policy on the specified resource. Replaces any
+   * existing policy. Can return `NOT_FOUND`, `INVALID_ARGUMENT`, and
+   * `PERMISSION_DENIED` errors. (hl7V2Stores.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource. If the
+   * resource does not exist, this will return an empty set of permissions, not a
+   * `NOT_FOUND` error. Note: This operation is designed to be used for building
+   * permission-aware UIs and command-line tools, not for authorization checking.
+   * This operation may "fail open" without warning.
+   * (hl7V2Stores.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsDatasetsHl7V2Stores::class, 'Google_Service_CloudHealthcare_Resource_ProjectsLocationsDatasetsHl7V2Stores');

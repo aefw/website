@@ -1,76 +1,148 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AnalyticsData;
+
+class RunPivotReportResponse extends \Google\Collection
+{
+  protected $collection_key = 'rows';
+  protected $aggregatesType = Row::class;
+  protected $aggregatesDataType = 'array';
+  protected $dimensionHeadersType = DimensionHeader::class;
+  protected $dimensionHeadersDataType = 'array';
+  public $kind;
+  protected $metadataType = ResponseMetaData::class;
+  protected $metadataDataType = '';
+  protected $metricHeadersType = MetricHeader::class;
+  protected $metricHeadersDataType = 'array';
+  protected $pivotHeadersType = PivotHeader::class;
+  protected $pivotHeadersDataType = 'array';
+  protected $propertyQuotaType = PropertyQuota::class;
+  protected $propertyQuotaDataType = '';
+  protected $rowsType = Row::class;
+  protected $rowsDataType = 'array';
+
+  /**
+   * @param Row[]
+   */
+  public function setAggregates($aggregates)
+  {
+    $this->aggregates = $aggregates;
+  }
+  /**
+   * @return Row[]
+   */
+  public function getAggregates()
+  {
+    return $this->aggregates;
+  }
+  /**
+   * @param DimensionHeader[]
+   */
+  public function setDimensionHeaders($dimensionHeaders)
+  {
+    $this->dimensionHeaders = $dimensionHeaders;
+  }
+  /**
+   * @return DimensionHeader[]
+   */
+  public function getDimensionHeaders()
+  {
+    return $this->dimensionHeaders;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  /**
+   * @param ResponseMetaData
+   */
+  public function setMetadata(ResponseMetaData $metadata)
+  {
+    $this->metadata = $metadata;
+  }
+  /**
+   * @return ResponseMetaData
+   */
+  public function getMetadata()
+  {
+    return $this->metadata;
+  }
+  /**
+   * @param MetricHeader[]
+   */
+  public function setMetricHeaders($metricHeaders)
+  {
+    $this->metricHeaders = $metricHeaders;
+  }
+  /**
+   * @return MetricHeader[]
+   */
+  public function getMetricHeaders()
+  {
+    return $this->metricHeaders;
+  }
+  /**
+   * @param PivotHeader[]
+   */
+  public function setPivotHeaders($pivotHeaders)
+  {
+    $this->pivotHeaders = $pivotHeaders;
+  }
+  /**
+   * @return PivotHeader[]
+   */
+  public function getPivotHeaders()
+  {
+    return $this->pivotHeaders;
+  }
+  /**
+   * @param PropertyQuota
+   */
+  public function setPropertyQuota(PropertyQuota $propertyQuota)
+  {
+    $this->propertyQuota = $propertyQuota;
+  }
+  /**
+   * @return PropertyQuota
+   */
+  public function getPropertyQuota()
+  {
+    return $this->propertyQuota;
+  }
+  /**
+   * @param Row[]
+   */
+  public function setRows($rows)
+  {
+    $this->rows = $rows;
+  }
+  /**
+   * @return Row[]
+   */
+  public function getRows()
+  {
+    return $this->rows;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(RunPivotReportResponse::class, 'Google_Service_AnalyticsData_RunPivotReportResponse');

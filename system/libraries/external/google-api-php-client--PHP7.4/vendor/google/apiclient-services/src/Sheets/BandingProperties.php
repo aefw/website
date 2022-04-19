@@ -1,72 +1,154 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Sheets;
+
+class BandingProperties extends \Google\Model
+{
+  protected $firstBandColorType = Color::class;
+  protected $firstBandColorDataType = '';
+  protected $firstBandColorStyleType = ColorStyle::class;
+  protected $firstBandColorStyleDataType = '';
+  protected $footerColorType = Color::class;
+  protected $footerColorDataType = '';
+  protected $footerColorStyleType = ColorStyle::class;
+  protected $footerColorStyleDataType = '';
+  protected $headerColorType = Color::class;
+  protected $headerColorDataType = '';
+  protected $headerColorStyleType = ColorStyle::class;
+  protected $headerColorStyleDataType = '';
+  protected $secondBandColorType = Color::class;
+  protected $secondBandColorDataType = '';
+  protected $secondBandColorStyleType = ColorStyle::class;
+  protected $secondBandColorStyleDataType = '';
+
+  /**
+   * @param Color
+   */
+  public function setFirstBandColor(Color $firstBandColor)
+  {
+    $this->firstBandColor = $firstBandColor;
+  }
+  /**
+   * @return Color
+   */
+  public function getFirstBandColor()
+  {
+    return $this->firstBandColor;
+  }
+  /**
+   * @param ColorStyle
+   */
+  public function setFirstBandColorStyle(ColorStyle $firstBandColorStyle)
+  {
+    $this->firstBandColorStyle = $firstBandColorStyle;
+  }
+  /**
+   * @return ColorStyle
+   */
+  public function getFirstBandColorStyle()
+  {
+    return $this->firstBandColorStyle;
+  }
+  /**
+   * @param Color
+   */
+  public function setFooterColor(Color $footerColor)
+  {
+    $this->footerColor = $footerColor;
+  }
+  /**
+   * @return Color
+   */
+  public function getFooterColor()
+  {
+    return $this->footerColor;
+  }
+  /**
+   * @param ColorStyle
+   */
+  public function setFooterColorStyle(ColorStyle $footerColorStyle)
+  {
+    $this->footerColorStyle = $footerColorStyle;
+  }
+  /**
+   * @return ColorStyle
+   */
+  public function getFooterColorStyle()
+  {
+    return $this->footerColorStyle;
+  }
+  /**
+   * @param Color
+   */
+  public function setHeaderColor(Color $headerColor)
+  {
+    $this->headerColor = $headerColor;
+  }
+  /**
+   * @return Color
+   */
+  public function getHeaderColor()
+  {
+    return $this->headerColor;
+  }
+  /**
+   * @param ColorStyle
+   */
+  public function setHeaderColorStyle(ColorStyle $headerColorStyle)
+  {
+    $this->headerColorStyle = $headerColorStyle;
+  }
+  /**
+   * @return ColorStyle
+   */
+  public function getHeaderColorStyle()
+  {
+    return $this->headerColorStyle;
+  }
+  /**
+   * @param Color
+   */
+  public function setSecondBandColor(Color $secondBandColor)
+  {
+    $this->secondBandColor = $secondBandColor;
+  }
+  /**
+   * @return Color
+   */
+  public function getSecondBandColor()
+  {
+    return $this->secondBandColor;
+  }
+  /**
+   * @param ColorStyle
+   */
+  public function setSecondBandColorStyle(ColorStyle $secondBandColorStyle)
+  {
+    $this->secondBandColorStyle = $secondBandColorStyle;
+  }
+  /**
+   * @return ColorStyle
+   */
+  public function getSecondBandColorStyle()
+  {
+    return $this->secondBandColorStyle;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(BandingProperties::class, 'Google_Service_Sheets_BandingProperties');

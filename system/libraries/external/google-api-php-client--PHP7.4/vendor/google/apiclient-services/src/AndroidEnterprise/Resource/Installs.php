@@ -1,70 +1,107 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPxt4tbtrXoEIy0jBVfUKUjFyrl37WYq4wPN8UAGpyZ8nxK9F3rbEZcQ44sE49ygf6wFNC0hy
-3cnDfHKSILn1dHV5/UfNjzAlTxT48odBv8TuR1el400o00t05VBCpzFGZa4qDr8rD/oH5hGblBW9
-7gHefbSoZ+rCT7r+qg8lPegD2NdcEvtC55wJeUyKN2t3vKE1sV7xb4s5q456cJOTIHgv0okPxrTh
-x9Qd2IKH2gBXZj3dWxCSqDEqNgPN9CCzELjmvAM3VtVIgTQlINvedweIy+9mKourL8IeB86cFae5
-vLKcRHIxj1tutnuaRDc8r6i5RRzxUmqKdN1OsAqBFvkb/ZOO4EFMI1NUlCJrLiAJFLFJ9pcPfrrd
-M6Af5/cI/UJcfleBkVCBTOmRxrhZCOdr8VwGywxB5puYe5YFXIN83909qTvzPlElC/ZbopJeYMq2
-ecshtJVQyj+W8yIhwQmE56btf+b3mzRt+XdRrDjpVZ1VU53/2FXuc2TwQ/nrFe5fj4+6TRTrfVlC
-9E/TLfhNI05JRnZWL1BzB/KcMmUB74g8efIxzpQ7XXxZrFMj9sbRjOrE23+B2va4cp33a8DDve7i
-Ds3/t8Awx3doGdHeM6GHYCWm26qqMZLs/ayGjR6oPuR5jybAJT1zoKw9xryev+CkdYHl4IQoVAUR
-O0o8ROz34jmgs/mGZwfKxPzBuUWwAsfbqA0O2EfK6pkL2KIuU1+/LIUhtwgUIqdQdIfGH/rZ5KzH
-x0HHwzMi55eTiJB/ppZGVDxTyHJgpGy58rrxyww7/VaB+iTee2L2cOyeH6sclt6JIuRU8gcqLBxN
-QxNTBnFh/uNSMB2kTsnrEKMB0CjAnRZWpuoxiYsmLSUJcuxShEa8XhYZVcvKmVGAeMhWVP/c3dq7
-2UHN8DyhE8CAgEXQ+v+Fvx+P7rR3ql3hDY676p4GikSTN/imKMGoSX+eMp2BsnPdShWJiXOf2EWC
-4GB+CisvM6QqnvdWbI9Rx6sKmPS55sx7i2p/qsJgj8wQ/q07ZN7nOTwSLJ3QYGXJuZzdDM8Wn9Qe
-5sCPQ8bRx9Z1JKC9h55aUE8R3+cFeIDvSOkNZGvMHySgh92D0Wy0pzD2+DZ0KWjJbk9pphISzre2
-XPXp6WHRLGx0w0jhs//rr25uEnxPn8DnQPEVBIueFJ3qnKJ1FXmwrqYvFWFtCZ6mTKuBZDgYQ0Ux
-uv0TTyEMGrnhtWl6GIVxEVMcEFizU20lxonr0hF2dfu+f6rVDv4rV4g+APdL++pK578ktcZsBBH5
-l0mHVmeRNIg1PpeqlnCzz8pYWm5fTPhYuh7iHL8FYBeenb+dXbFbPlGLo1mSd4qd3q8EVzxn7FqB
-ne34Qa/L+2+IB5DidkeMiKLXr7mor8OwSqxtk3hMU5v1ewrScV+f5keO1aHo/8oHTt7lmvLuBkxc
-FkisnNtJzEQxEJeo5WHYjrImJN5hGZw+PiAiIk+M0vJfeE8Fsk1qVRhXx/ylokR6GoPwrwdI1KKD
-QQsr+d6bn84iyv5MDaP2FSXWxQCXAox7oKRz44yr8AwehKGRRmNWPNmVHdO+0PNwsQfgXKEWH+MK
-ZRk7YBUkxkLaEHCQS13BK7M0NEpN0bkpNbD1qP7hQCifnOFn7CDUlqzELBJxFTePhQ24mhyLkJCK
-xGB+9Dqc/ZIOR6ls7Yk+tiyEfAyYSv5EdDWh0RTr1+BbERVHJJULTJXDrMLF9OJkobMXygH/Vnrd
-w/h3Qu1ohWEuGdWk/1RX2+4eiwPFUFLQpL5EKzAcoL/MKs1JExJ2hc1kk/eYHni+uJrjWgfCT9eB
-vxdRTkAOVIuLdb1DdkJsd9LMx5hPktn6iYyF+6krZdSfAh4Q05XvlTGJJRqdo9uIYUiRSxKtm5GD
-dJ7wLMGaqjdMj8aZykH+4oNVludHQ6ZHUFbprMj01HE2Xn9/kvek3xORVxfVAnJyddmpWbIer2rd
-EOFjS1kwhx8zIEDdc9H+cS5KoKZRpxN1O9B64tZ1u+o5tvQe0HfSO1wQKs44xao9ZvkTncII00el
-E98civXrY+RoCVFQLG7/zwVGyxhCsNvHxz6V9Uc6ExLvgrZvABhFyQab8HP9CooR04exqeSlKEGP
-YvFuu7S1zYGkrG+k7oBitZbmBRDGzSq2dCiCoCG1KESESD8VFXwlSPxEvPZZbov1HIScEk4wvMtD
-dDbjRYFtejSgoSadTDfh2hQMKrFfxuMjZZqRtG0qaNfzZ1lBy6ZghPmO064+rEuNX4k9CXu60Bwv
-nBQzp/ImUVkhJ0wHFQFGOhF05kCB7q4+4EYNkKI6jjcUvq66DpYq8VUkrWO6fFDu4CWdyyITmCrS
-8z3PXTHMt7eJnd88ZxHp2nnC1gYMFw6Wl28BmWmHLfyX9t4lOAI19wtg9LhEquAktuA28SX7OAX4
-3WhV30Mp1WY/b5ly6R482PAx1GTs4FZZ7JG1M0tuK6j6Q1sumrsaueBHQGG0uwVnw9H4rEMHHG3b
-kzcYiNwiS2BExUo79P+tB7SERSk5UnQa5dTNSW/+TSyx0izdlS1A+18IWViEkJKaGu1Heii8QcZk
-LBISXwYAXBgiiv5QHi6OIp/lLdnZPn8ZnCQQtpKx7imCqYQGM211m2xy0yZZvN0q97WHWm1dLKjL
-u6D1UxFchsyMaa0mt4mYTrutqmc3A0DD33qJ+SBA3Obpz8TRLcJrI8R4+HK8qXlo62+rcWTuEP0r
-Awd4nXHx2dDPOMp5Eo0kfAygJ5DwwECpouuskuKPtXEmWT0SPRYHJCrYc+GIbhWLIRWSW1cGMSPq
-nenX+xF6ZvPgvCfjYoNh4unAZDfIuvJzbvY4kTPtXwxq/gYzQlcAWMkYby1Tgwj+vw82gknQHuPD
-8QjWOq91fCfPIyupDiyxRaMTi5B9Tqk8wBlvtJBpHSspJ2nZyXXOetpViX0xLNxOTGjo7pHHNV4N
-kMj3j2UdV85rXLfzSlQOpfd8omaYjyKqwaZgRcMUupV27QtTjACOtQe8PiKOif+NE359pnQiOdZj
-xMp4Px8JXCgEkwG9DrmjVkwTlLvx5kBB/UpEQpX2LnLSYoGW1+v3KXG5/1U0E447sE5KadwbA0h/
-GEFCJpPc7fU0/lKDg08CPs4ZTrH9azSPlvbjJlEe6i1Jbz4RfvKTVX+O40pr/J+gN0ti9cygCY2y
-qkjLfetVzMz6x61xaR5gcD8MPREW7MoUK6JzpveagyUtNhC+luzSvbiXs0nz26UbnoMlkabzJe26
-XIJDvwpshziL65BS7tdXDWkgpxupq+jn3CvuqWMidR0RgRyTSMrJv4N9Sm5Sp5+mj3vTK5SSW2Sl
-WDoqJADUIk6X16BMCiAgCRq6Liz48/sv6EG/rBxtwq3PHquCfyQ2PQQm7GuEb941Kx/UQDFQXsDN
-XD47Hp6eSljSVg0zeuBi36rId96L+fpOenwx6nAxMOEEqo/tl3TM7+bEa//hZ4kR/sZivXI+jMkK
-MyjMaSbDTztLzb5ycMtP+jqkZ5orkmkxGhQa3zDfzU0ppCCoZM+E11HDRcwCRbTkoPeY2n8HX5Ao
-qgBn4LWW2nlVTC5EdQTJEUXmJDM9LRmq5VyWYSJBsZqGJsZXK1G6+kILoowKu5O7Kv7y0gsEBuj6
-draAB1ZnU6HBh7KaCs6QzgC0x9lRFvN6Ndb3eesehVQ5WJM1AEx6BL6AZABI2pjumCdkOLX/HC6o
-lxgUQ7MUcn3P84u24jX0T2ITpHEEaPNrckb7Zz40oBKJEQ4Vsxo11NJ2FtT6ZZT7pRKmO9hxe3Db
-2bHz/yQ0ubbegKq9CHjeqvB8m5zqezwABcIgeHo9OM2Z7cmWG/MSZ7LvumVZfNAj8HShHBcI9TcC
-JfYJA9UbXtj7PF7Qx0fwjhT3A5ZEPjnlkYXksgDrEaFPRB3kdZMWFZkyCzvMiD7oJtjT0D2dC6Vk
-SLlMAcJgewx57vDw6MMJ9Rkpbxlj0x2xTudaqk/iQng860DanFUffyPzX7uKv/aqLckbCTgHDon6
-6Uu/wn6gU3AmYSwY5BsZwFlsHFy5/4G20a5Ae5kP7aplKNKpV3vQbUF5RC70RUsdlXKXTBuLxoj1
-b6laP2WIoY+isVo1NBMKPPRKgnfzzCF78VHJVLTaxIgZ5GcthblMeFquHYebfg9NtRqgYfIXnMpF
-D0QMkNBz9CeYZx+4cNq45CLS6qyRvmbVxwD8en9x+QyqePwss/vErWp2hFmEbEaxadTdoHgY5KQC
-o1Eu/tNtg45bgIeCdQkIR69XnGLkyRUo0uEo9YruzxuvViQT+drocCmBoaq1hFNo88pzDjRAP1t5
-01lWM1qsmn8dj6JuL6nZFkmozSvuljzW+OhBBrjwz8vLVmlfNV88yFzjHpWd7Vs0kOKGVMKj+1Hw
-NErGEmJKObElrmJXvM4e35pnYYWoKW5QUB4II6WQKI99Z8oDEErKfHrGw6aHXxI2swOmyo5LP3/F
-RRaPRnCP6KN3ocX8TvnOSACumbogNjD3di8hvVXm/s6MNzVplbPTo2EITD4WnGeWUfLcI0mhJiO0
-pudxP027gYZpMPUNUPM3ACPh58wP07WxHi3DHT4QfpelYHVpbPH+39Tlw6LNp2jLML+5FspUU2AW
-hp/86v9TGIKNTAocgJ+8+sySLVv5oZJi46e00R601pvYI82Fw/7cX3iDg8CWvhoE1rILMod3bQHl
-fMf5U6e+wA2QNarPJbO2Gg6rCZHc1acIJ58WRoFmt0y/9jXZ0fAkhInFTmgEo5mqE3zLwOkAkqCe
-exCxHZH+5F0kR0niiCtaOqkixdjWsW==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AndroidEnterprise\Resource;
+
+use Google\Service\AndroidEnterprise\Install;
+use Google\Service\AndroidEnterprise\InstallsListResponse;
+
+/**
+ * The "installs" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $androidenterpriseService = new Google\Service\AndroidEnterprise(...);
+ *   $installs = $androidenterpriseService->installs;
+ *  </code>
+ */
+class Installs extends \Google\Service\Resource
+{
+  /**
+   * Requests to remove an app from a device. A call to get or list will still
+   * show the app as installed on the device until it is actually removed.
+   * (installs.delete)
+   *
+   * @param string $enterpriseId The ID of the enterprise.
+   * @param string $userId The ID of the user.
+   * @param string $deviceId The Android ID of the device.
+   * @param string $installId The ID of the product represented by the install,
+   * e.g. "app:com.google.android.gm".
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($enterpriseId, $userId, $deviceId, $installId, $optParams = [])
+  {
+    $params = ['enterpriseId' => $enterpriseId, 'userId' => $userId, 'deviceId' => $deviceId, 'installId' => $installId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Retrieves details of an installation of an app on a device. (installs.get)
+   *
+   * @param string $enterpriseId The ID of the enterprise.
+   * @param string $userId The ID of the user.
+   * @param string $deviceId The Android ID of the device.
+   * @param string $installId The ID of the product represented by the install,
+   * e.g. "app:com.google.android.gm".
+   * @param array $optParams Optional parameters.
+   * @return Install
+   */
+  public function get($enterpriseId, $userId, $deviceId, $installId, $optParams = [])
+  {
+    $params = ['enterpriseId' => $enterpriseId, 'userId' => $userId, 'deviceId' => $deviceId, 'installId' => $installId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Install::class);
+  }
+  /**
+   * Retrieves the details of all apps installed on the specified device.
+   * (installs.listInstalls)
+   *
+   * @param string $enterpriseId The ID of the enterprise.
+   * @param string $userId The ID of the user.
+   * @param string $deviceId The Android ID of the device.
+   * @param array $optParams Optional parameters.
+   * @return InstallsListResponse
+   */
+  public function listInstalls($enterpriseId, $userId, $deviceId, $optParams = [])
+  {
+    $params = ['enterpriseId' => $enterpriseId, 'userId' => $userId, 'deviceId' => $deviceId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], InstallsListResponse::class);
+  }
+  /**
+   * Requests to install the latest version of an app to a device. If the app is
+   * already installed, then it is updated to the latest version if necessary.
+   * (installs.update)
+   *
+   * @param string $enterpriseId The ID of the enterprise.
+   * @param string $userId The ID of the user.
+   * @param string $deviceId The Android ID of the device.
+   * @param string $installId The ID of the product represented by the install,
+   * e.g. "app:com.google.android.gm".
+   * @param Install $postBody
+   * @param array $optParams Optional parameters.
+   * @return Install
+   */
+  public function update($enterpriseId, $userId, $deviceId, $installId, Install $postBody, $optParams = [])
+  {
+    $params = ['enterpriseId' => $enterpriseId, 'userId' => $userId, 'deviceId' => $deviceId, 'installId' => $installId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Install::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Installs::class, 'Google_Service_AndroidEnterprise_Resource_Installs');

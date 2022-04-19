@@ -1,90 +1,202 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-mgA7tw6xeUCF
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudSourceRepositories\Resource;
+
+use Google\Service\CloudSourceRepositories\ListReposResponse;
+use Google\Service\CloudSourceRepositories\Operation;
+use Google\Service\CloudSourceRepositories\Policy;
+use Google\Service\CloudSourceRepositories\Repo;
+use Google\Service\CloudSourceRepositories\SetIamPolicyRequest;
+use Google\Service\CloudSourceRepositories\SourcerepoEmpty;
+use Google\Service\CloudSourceRepositories\SyncRepoRequest;
+use Google\Service\CloudSourceRepositories\TestIamPermissionsRequest;
+use Google\Service\CloudSourceRepositories\TestIamPermissionsResponse;
+use Google\Service\CloudSourceRepositories\UpdateRepoRequest;
+
+/**
+ * The "repos" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $sourcerepoService = new Google\Service\CloudSourceRepositories(...);
+ *   $repos = $sourcerepoService->repos;
+ *  </code>
+ */
+class ProjectsRepos extends \Google\Service\Resource
+{
+  /**
+   * Creates a repo in the given project with the given name. If the named
+   * repository already exists, `CreateRepo` returns `ALREADY_EXISTS`.
+   * (repos.create)
+   *
+   * @param string $parent The project in which to create the repo. Values are of
+   * the form `projects/`.
+   * @param Repo $postBody
+   * @param array $optParams Optional parameters.
+   * @return Repo
+   */
+  public function create($parent, Repo $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Repo::class);
+  }
+  /**
+   * Deletes a repo. (repos.delete)
+   *
+   * @param string $name The name of the repo to delete. Values are of the form
+   * `projects//repos/`.
+   * @param array $optParams Optional parameters.
+   * @return SourcerepoEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], SourcerepoEmpty::class);
+  }
+  /**
+   * Returns information about a repo. (repos.get)
+   *
+   * @param string $name The name of the requested repository. Values are of the
+   * form `projects//repos/`.
+   * @param array $optParams Optional parameters.
+   * @return Repo
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Repo::class);
+  }
+  /**
+   * Gets the access control policy for a resource. Returns an empty policy if the
+   * resource exists and does not have a policy set. (repos.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int options.requestedPolicyVersion Optional. The policy format
+   * version to be returned. Valid values are 0, 1, and 3. Requests specifying an
+   * invalid value will be rejected. Requests for policies with any conditional
+   * bindings must specify version 3. Policies without any conditional bindings
+   * may specify any valid value or leave the field unset. To learn which
+   * resources support conditions in their IAM policies, see the [IAM
+   * documentation](https://cloud.google.com/iam/help/conditions/resource-
+   * policies).
+   * @return Policy
+   */
+  public function getIamPolicy($resource, $optParams = [])
+  {
+    $params = ['resource' => $resource];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Returns all repos belonging to a project. The sizes of the repos are not set
+   * by ListRepos. To get the size of a repo, use GetRepo.
+   * (repos.listProjectsRepos)
+   *
+   * @param string $name The project ID whose repos should be listed. Values are
+   * of the form `projects/`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Maximum number of repositories to return; between 1
+   * and 500. If not set or zero, defaults to 100 at the server.
+   * @opt_param string pageToken Resume listing repositories where a prior
+   * ListReposResponse left off. This is an opaque token that must be obtained
+   * from a recent, prior ListReposResponse's next_page_token field.
+   * @return ListReposResponse
+   */
+  public function listProjectsRepos($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListReposResponse::class);
+  }
+  /**
+   * Updates information about a repo. (repos.patch)
+   *
+   * @param string $name The name of the requested repository. Values are of the
+   * form `projects//repos/`.
+   * @param UpdateRepoRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Repo
+   */
+  public function patch($name, UpdateRepoRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Repo::class);
+  }
+  /**
+   * Sets the access control policy on the specified resource. Replaces any
+   * existing policy. (repos.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Synchronize a connected repo. The response contains SyncRepoMetadata in the
+   * metadata field. (repos.sync)
+   *
+   * @param string $name The name of the repo to synchronize. Values are of the
+   * form `projects//repos/`.
+   * @param SyncRepoRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function sync($name, SyncRepoRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('sync', [$params], Operation::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource. If the
+   * resource does not exist, this will return an empty set of permissions, not a
+   * NOT_FOUND error. (repos.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsRepos::class, 'Google_Service_CloudSourceRepositories_Resource_ProjectsRepos');

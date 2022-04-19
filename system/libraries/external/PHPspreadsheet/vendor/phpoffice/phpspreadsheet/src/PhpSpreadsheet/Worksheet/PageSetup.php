@@ -1,203 +1,851 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+namespace PhpOffice\PhpSpreadsheet\Worksheet;
+
+use PhpOffice\PhpSpreadsheet\Cell\Coordinate;
+use PhpOffice\PhpSpreadsheet\Exception as PhpSpreadsheetException;
+
+/**
+ * <code>
+ * Paper size taken from Office Open XML Part 4 - Markup Language Reference, page 1988:.
+ *
+ * 1 = Letter paper (8.5 in. by 11 in.)
+ * 2 = Letter small paper (8.5 in. by 11 in.)
+ * 3 = Tabloid paper (11 in. by 17 in.)
+ * 4 = Ledger paper (17 in. by 11 in.)
+ * 5 = Legal paper (8.5 in. by 14 in.)
+ * 6 = Statement paper (5.5 in. by 8.5 in.)
+ * 7 = Executive paper (7.25 in. by 10.5 in.)
+ * 8 = A3 paper (297 mm by 420 mm)
+ * 9 = A4 paper (210 mm by 297 mm)
+ * 10 = A4 small paper (210 mm by 297 mm)
+ * 11 = A5 paper (148 mm by 210 mm)
+ * 12 = B4 paper (250 mm by 353 mm)
+ * 13 = B5 paper (176 mm by 250 mm)
+ * 14 = Folio paper (8.5 in. by 13 in.)
+ * 15 = Quarto paper (215 mm by 275 mm)
+ * 16 = Standard paper (10 in. by 14 in.)
+ * 17 = Standard paper (11 in. by 17 in.)
+ * 18 = Note paper (8.5 in. by 11 in.)
+ * 19 = #9 envelope (3.875 in. by 8.875 in.)
+ * 20 = #10 envelope (4.125 in. by 9.5 in.)
+ * 21 = #11 envelope (4.5 in. by 10.375 in.)
+ * 22 = #12 envelope (4.75 in. by 11 in.)
+ * 23 = #14 envelope (5 in. by 11.5 in.)
+ * 24 = C paper (17 in. by 22 in.)
+ * 25 = D paper (22 in. by 34 in.)
+ * 26 = E paper (34 in. by 44 in.)
+ * 27 = DL envelope (110 mm by 220 mm)
+ * 28 = C5 envelope (162 mm by 229 mm)
+ * 29 = C3 envelope (324 mm by 458 mm)
+ * 30 = C4 envelope (229 mm by 324 mm)
+ * 31 = C6 envelope (114 mm by 162 mm)
+ * 32 = C65 envelope (114 mm by 229 mm)
+ * 33 = B4 envelope (250 mm by 353 mm)
+ * 34 = B5 envelope (176 mm by 250 mm)
+ * 35 = B6 envelope (176 mm by 125 mm)
+ * 36 = Italy envelope (110 mm by 230 mm)
+ * 37 = Monarch envelope (3.875 in. by 7.5 in.).
+ * 38 = 6 3/4 envelope (3.625 in. by 6.5 in.)
+ * 39 = US standard fanfold (14.875 in. by 11 in.)
+ * 40 = German standard fanfold (8.5 in. by 12 in.)
+ * 41 = German legal fanfold (8.5 in. by 13 in.)
+ * 42 = ISO B4 (250 mm by 353 mm)
+ * 43 = Japanese double postcard (200 mm by 148 mm)
+ * 44 = Standard paper (9 in. by 11 in.)
+ * 45 = Standard paper (10 in. by 11 in.)
+ * 46 = Standard paper (15 in. by 11 in.)
+ * 47 = Invite envelope (220 mm by 220 mm)
+ * 50 = Letter extra paper (9.275 in. by 12 in.)
+ * 51 = Legal extra paper (9.275 in. by 15 in.)
+ * 52 = Tabloid extra paper (11.69 in. by 18 in.)
+ * 53 = A4 extra paper (236 mm by 322 mm)
+ * 54 = Letter transverse paper (8.275 in. by 11 in.)
+ * 55 = A4 transverse paper (210 mm by 297 mm)
+ * 56 = Letter extra transverse paper (9.275 in. by 12 in.)
+ * 57 = SuperA/SuperA/A4 paper (227 mm by 356 mm)
+ * 58 = SuperB/SuperB/A3 paper (305 mm by 487 mm)
+ * 59 = Letter plus paper (8.5 in. by 12.69 in.)
+ * 60 = A4 plus paper (210 mm by 330 mm)
+ * 61 = A5 transverse paper (148 mm by 210 mm)
+ * 62 = JIS B5 transverse paper (182 mm by 257 mm)
+ * 63 = A3 extra paper (322 mm by 445 mm)
+ * 64 = A5 extra paper (174 mm by 235 mm)
+ * 65 = ISO B5 extra paper (201 mm by 276 mm)
+ * 66 = A2 paper (420 mm by 594 mm)
+ * 67 = A3 transverse paper (297 mm by 420 mm)
+ * 68 = A3 extra transverse paper (322 mm by 445 mm)
+ * </code>
+ *
+ * @category   PhpSpreadsheet
+ *
+ * @copyright  Copyright (c) 2006 - 2016 PhpSpreadsheet (https://github.com/PHPOffice/PhpSpreadsheet)
+ */
+class PageSetup
+{
+    // Paper size
+    const PAPERSIZE_LETTER = 1;
+    const PAPERSIZE_LETTER_SMALL = 2;
+    const PAPERSIZE_TABLOID = 3;
+    const PAPERSIZE_LEDGER = 4;
+    const PAPERSIZE_LEGAL = 5;
+    const PAPERSIZE_STATEMENT = 6;
+    const PAPERSIZE_EXECUTIVE = 7;
+    const PAPERSIZE_A3 = 8;
+    const PAPERSIZE_A4 = 9;
+    const PAPERSIZE_A4_SMALL = 10;
+    const PAPERSIZE_A5 = 11;
+    const PAPERSIZE_B4 = 12;
+    const PAPERSIZE_B5 = 13;
+    const PAPERSIZE_FOLIO = 14;
+    const PAPERSIZE_QUARTO = 15;
+    const PAPERSIZE_STANDARD_1 = 16;
+    const PAPERSIZE_STANDARD_2 = 17;
+    const PAPERSIZE_NOTE = 18;
+    const PAPERSIZE_NO9_ENVELOPE = 19;
+    const PAPERSIZE_NO10_ENVELOPE = 20;
+    const PAPERSIZE_NO11_ENVELOPE = 21;
+    const PAPERSIZE_NO12_ENVELOPE = 22;
+    const PAPERSIZE_NO14_ENVELOPE = 23;
+    const PAPERSIZE_C = 24;
+    const PAPERSIZE_D = 25;
+    const PAPERSIZE_E = 26;
+    const PAPERSIZE_DL_ENVELOPE = 27;
+    const PAPERSIZE_C5_ENVELOPE = 28;
+    const PAPERSIZE_C3_ENVELOPE = 29;
+    const PAPERSIZE_C4_ENVELOPE = 30;
+    const PAPERSIZE_C6_ENVELOPE = 31;
+    const PAPERSIZE_C65_ENVELOPE = 32;
+    const PAPERSIZE_B4_ENVELOPE = 33;
+    const PAPERSIZE_B5_ENVELOPE = 34;
+    const PAPERSIZE_B6_ENVELOPE = 35;
+    const PAPERSIZE_ITALY_ENVELOPE = 36;
+    const PAPERSIZE_MONARCH_ENVELOPE = 37;
+    const PAPERSIZE_6_3_4_ENVELOPE = 38;
+    const PAPERSIZE_US_STANDARD_FANFOLD = 39;
+    const PAPERSIZE_GERMAN_STANDARD_FANFOLD = 40;
+    const PAPERSIZE_GERMAN_LEGAL_FANFOLD = 41;
+    const PAPERSIZE_ISO_B4 = 42;
+    const PAPERSIZE_JAPANESE_DOUBLE_POSTCARD = 43;
+    const PAPERSIZE_STANDARD_PAPER_1 = 44;
+    const PAPERSIZE_STANDARD_PAPER_2 = 45;
+    const PAPERSIZE_STANDARD_PAPER_3 = 46;
+    const PAPERSIZE_INVITE_ENVELOPE = 47;
+    const PAPERSIZE_LETTER_EXTRA_PAPER = 48;
+    const PAPERSIZE_LEGAL_EXTRA_PAPER = 49;
+    const PAPERSIZE_TABLOID_EXTRA_PAPER = 50;
+    const PAPERSIZE_A4_EXTRA_PAPER = 51;
+    const PAPERSIZE_LETTER_TRANSVERSE_PAPER = 52;
+    const PAPERSIZE_A4_TRANSVERSE_PAPER = 53;
+    const PAPERSIZE_LETTER_EXTRA_TRANSVERSE_PAPER = 54;
+    const PAPERSIZE_SUPERA_SUPERA_A4_PAPER = 55;
+    const PAPERSIZE_SUPERB_SUPERB_A3_PAPER = 56;
+    const PAPERSIZE_LETTER_PLUS_PAPER = 57;
+    const PAPERSIZE_A4_PLUS_PAPER = 58;
+    const PAPERSIZE_A5_TRANSVERSE_PAPER = 59;
+    const PAPERSIZE_JIS_B5_TRANSVERSE_PAPER = 60;
+    const PAPERSIZE_A3_EXTRA_PAPER = 61;
+    const PAPERSIZE_A5_EXTRA_PAPER = 62;
+    const PAPERSIZE_ISO_B5_EXTRA_PAPER = 63;
+    const PAPERSIZE_A2_PAPER = 64;
+    const PAPERSIZE_A3_TRANSVERSE_PAPER = 65;
+    const PAPERSIZE_A3_EXTRA_TRANSVERSE_PAPER = 66;
+
+    // Page orientation
+    const ORIENTATION_DEFAULT = 'default';
+    const ORIENTATION_LANDSCAPE = 'landscape';
+    const ORIENTATION_PORTRAIT = 'portrait';
+
+    // Print Range Set Method
+    const SETPRINTRANGE_OVERWRITE = 'O';
+    const SETPRINTRANGE_INSERT = 'I';
+
+    /**
+     * Paper size.
+     *
+     * @var int
+     */
+    private $paperSize = self::PAPERSIZE_LETTER;
+
+    /**
+     * Orientation.
+     *
+     * @var string
+     */
+    private $orientation = self::ORIENTATION_DEFAULT;
+
+    /**
+     * Scale (Print Scale).
+     *
+     * Print scaling. Valid values range from 10 to 400
+     * This setting is overridden when fitToWidth and/or fitToHeight are in use
+     *
+     * @var int?
+     */
+    private $scale = 100;
+
+    /**
+     * Fit To Page
+     * Whether scale or fitToWith / fitToHeight applies.
+     *
+     * @var bool
+     */
+    private $fitToPage = false;
+
+    /**
+     * Fit To Height
+     * Number of vertical pages to fit on.
+     *
+     * @var int?
+     */
+    private $fitToHeight = 1;
+
+    /**
+     * Fit To Width
+     * Number of horizontal pages to fit on.
+     *
+     * @var int?
+     */
+    private $fitToWidth = 1;
+
+    /**
+     * Columns to repeat at left.
+     *
+     * @var array Containing start column and end column, empty array if option unset
+     */
+    private $columnsToRepeatAtLeft = ['', ''];
+
+    /**
+     * Rows to repeat at top.
+     *
+     * @var array Containing start row number and end row number, empty array if option unset
+     */
+    private $rowsToRepeatAtTop = [0, 0];
+
+    /**
+     * Center page horizontally.
+     *
+     * @var bool
+     */
+    private $horizontalCentered = false;
+
+    /**
+     * Center page vertically.
+     *
+     * @var bool
+     */
+    private $verticalCentered = false;
+
+    /**
+     * Print area.
+     *
+     * @var string
+     */
+    private $printArea;
+
+    /**
+     * First page number.
+     *
+     * @var int
+     */
+    private $firstPageNumber;
+
+    /**
+     * Create a new PageSetup.
+     */
+    public function __construct()
+    {
+    }
+
+    /**
+     * Get Paper Size.
+     *
+     * @return int
+     */
+    public function getPaperSize()
+    {
+        return $this->paperSize;
+    }
+
+    /**
+     * Set Paper Size.
+     *
+     * @param int $pValue see self::PAPERSIZE_*
+     *
+     * @return PageSetup
+     */
+    public function setPaperSize($pValue)
+    {
+        $this->paperSize = $pValue;
+
+        return $this;
+    }
+
+    /**
+     * Get Orientation.
+     *
+     * @return string
+     */
+    public function getOrientation()
+    {
+        return $this->orientation;
+    }
+
+    /**
+     * Set Orientation.
+     *
+     * @param string $pValue see self::ORIENTATION_*
+     *
+     * @return PageSetup
+     */
+    public function setOrientation($pValue)
+    {
+        $this->orientation = $pValue;
+
+        return $this;
+    }
+
+    /**
+     * Get Scale.
+     *
+     * @return int?
+     */
+    public function getScale()
+    {
+        return $this->scale;
+    }
+
+    /**
+     * Set Scale.
+     * Print scaling. Valid values range from 10 to 400
+     * This setting is overridden when fitToWidth and/or fitToHeight are in use.
+     *
+     * @param null|int $pValue
+     * @param bool $pUpdate Update fitToPage so scaling applies rather than fitToHeight / fitToWidth
+     *
+     * @throws PhpSpreadsheetException
+     *
+     * @return PageSetup
+     */
+    public function setScale($pValue, $pUpdate = true)
+    {
+        // Microsoft Office Excel 2007 only allows setting a scale between 10 and 400 via the user interface,
+        // but it is apparently still able to handle any scale >= 0, where 0 results in 100
+        if (($pValue >= 0) || $pValue === null) {
+            $this->scale = $pValue;
+            if ($pUpdate) {
+                $this->fitToPage = false;
+            }
+        } else {
+            throw new PhpSpreadsheetException('Scale must not be negative');
+        }
+
+        return $this;
+    }
+
+    /**
+     * Get Fit To Page.
+     *
+     * @return bool
+     */
+    public function getFitToPage()
+    {
+        return $this->fitToPage;
+    }
+
+    /**
+     * Set Fit To Page.
+     *
+     * @param bool $pValue
+     *
+     * @return PageSetup
+     */
+    public function setFitToPage($pValue)
+    {
+        $this->fitToPage = $pValue;
+
+        return $this;
+    }
+
+    /**
+     * Get Fit To Height.
+     *
+     * @return int?
+     */
+    public function getFitToHeight()
+    {
+        return $this->fitToHeight;
+    }
+
+    /**
+     * Set Fit To Height.
+     *
+     * @param null|int $pValue
+     * @param bool $pUpdate Update fitToPage so it applies rather than scaling
+     *
+     * @return PageSetup
+     */
+    public function setFitToHeight($pValue, $pUpdate = true)
+    {
+        $this->fitToHeight = $pValue;
+        if ($pUpdate) {
+            $this->fitToPage = true;
+        }
+
+        return $this;
+    }
+
+    /**
+     * Get Fit To Width.
+     *
+     * @return int?
+     */
+    public function getFitToWidth()
+    {
+        return $this->fitToWidth;
+    }
+
+    /**
+     * Set Fit To Width.
+     *
+     * @param null|int $pValue
+     * @param bool $pUpdate Update fitToPage so it applies rather than scaling
+     *
+     * @return PageSetup
+     */
+    public function setFitToWidth($pValue, $pUpdate = true)
+    {
+        $this->fitToWidth = $pValue;
+        if ($pUpdate) {
+            $this->fitToPage = true;
+        }
+
+        return $this;
+    }
+
+    /**
+     * Is Columns to repeat at left set?
+     *
+     * @return bool
+     */
+    public function isColumnsToRepeatAtLeftSet()
+    {
+        if (is_array($this->columnsToRepeatAtLeft)) {
+            if ($this->columnsToRepeatAtLeft[0] != '' && $this->columnsToRepeatAtLeft[1] != '') {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    /**
+     * Get Columns to repeat at left.
+     *
+     * @return array Containing start column and end column, empty array if option unset
+     */
+    public function getColumnsToRepeatAtLeft()
+    {
+        return $this->columnsToRepeatAtLeft;
+    }
+
+    /**
+     * Set Columns to repeat at left.
+     *
+     * @param array $pValue Containing start column and end column, empty array if option unset
+     *
+     * @return PageSetup
+     */
+    public function setColumnsToRepeatAtLeft(array $pValue)
+    {
+        $this->columnsToRepeatAtLeft = $pValue;
+
+        return $this;
+    }
+
+    /**
+     * Set Columns to repeat at left by start and end.
+     *
+     * @param string $pStart eg: 'A'
+     * @param string $pEnd eg: 'B'
+     *
+     * @return PageSetup
+     */
+    public function setColumnsToRepeatAtLeftByStartAndEnd($pStart, $pEnd)
+    {
+        $this->columnsToRepeatAtLeft = [$pStart, $pEnd];
+
+        return $this;
+    }
+
+    /**
+     * Is Rows to repeat at top set?
+     *
+     * @return bool
+     */
+    public function isRowsToRepeatAtTopSet()
+    {
+        if (is_array($this->rowsToRepeatAtTop)) {
+            if ($this->rowsToRepeatAtTop[0] != 0 && $this->rowsToRepeatAtTop[1] != 0) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    /**
+     * Get Rows to repeat at top.
+     *
+     * @return array Containing start column and end column, empty array if option unset
+     */
+    public function getRowsToRepeatAtTop()
+    {
+        return $this->rowsToRepeatAtTop;
+    }
+
+    /**
+     * Set Rows to repeat at top.
+     *
+     * @param array $pValue Containing start column and end column, empty array if option unset
+     *
+     * @return PageSetup
+     */
+    public function setRowsToRepeatAtTop(array $pValue)
+    {
+        $this->rowsToRepeatAtTop = $pValue;
+
+        return $this;
+    }
+
+    /**
+     * Set Rows to repeat at top by start and end.
+     *
+     * @param int $pStart eg: 1
+     * @param int $pEnd eg: 1
+     *
+     * @return PageSetup
+     */
+    public function setRowsToRepeatAtTopByStartAndEnd($pStart, $pEnd)
+    {
+        $this->rowsToRepeatAtTop = [$pStart, $pEnd];
+
+        return $this;
+    }
+
+    /**
+     * Get center page horizontally.
+     *
+     * @return bool
+     */
+    public function getHorizontalCentered()
+    {
+        return $this->horizontalCentered;
+    }
+
+    /**
+     * Set center page horizontally.
+     *
+     * @param bool $value
+     *
+     * @return PageSetup
+     */
+    public function setHorizontalCentered($value)
+    {
+        $this->horizontalCentered = $value;
+
+        return $this;
+    }
+
+    /**
+     * Get center page vertically.
+     *
+     * @return bool
+     */
+    public function getVerticalCentered()
+    {
+        return $this->verticalCentered;
+    }
+
+    /**
+     * Set center page vertically.
+     *
+     * @param bool $value
+     *
+     * @return PageSetup
+     */
+    public function setVerticalCentered($value)
+    {
+        $this->verticalCentered = $value;
+
+        return $this;
+    }
+
+    /**
+     * Get print area.
+     *
+     * @param int $index Identifier for a specific print area range if several ranges have been set
+     *                            Default behaviour, or a index value of 0, will return all ranges as a comma-separated string
+     *                            Otherwise, the specific range identified by the value of $index will be returned
+     *                            Print areas are numbered from 1
+     *
+     * @throws PhpSpreadsheetException
+     *
+     * @return string
+     */
+    public function getPrintArea($index = 0)
+    {
+        if ($index == 0) {
+            return $this->printArea;
+        }
+        $printAreas = explode(',', $this->printArea);
+        if (isset($printAreas[$index - 1])) {
+            return $printAreas[$index - 1];
+        }
+
+        throw new PhpSpreadsheetException('Requested Print Area does not exist');
+    }
+
+    /**
+     * Is print area set?
+     *
+     * @param int $index Identifier for a specific print area range if several ranges have been set
+     *                            Default behaviour, or an index value of 0, will identify whether any print range is set
+     *                            Otherwise, existence of the range identified by the value of $index will be returned
+     *                            Print areas are numbered from 1
+     *
+     * @return bool
+     */
+    public function isPrintAreaSet($index = 0)
+    {
+        if ($index == 0) {
+            return $this->printArea !== null;
+        }
+        $printAreas = explode(',', $this->printArea);
+
+        return isset($printAreas[$index - 1]);
+    }
+
+    /**
+     * Clear a print area.
+     *
+     * @param int $index Identifier for a specific print area range if several ranges have been set
+     *                            Default behaviour, or an index value of 0, will clear all print ranges that are set
+     *                            Otherwise, the range identified by the value of $index will be removed from the series
+     *                            Print areas are numbered from 1
+     *
+     * @return PageSetup
+     */
+    public function clearPrintArea($index = 0)
+    {
+        if ($index == 0) {
+            $this->printArea = null;
+        } else {
+            $printAreas = explode(',', $this->printArea);
+            if (isset($printAreas[$index - 1])) {
+                unset($printAreas[$index - 1]);
+                $this->printArea = implode(',', $printAreas);
+            }
+        }
+
+        return $this;
+    }
+
+    /**
+     * Set print area. e.g. 'A1:D10' or 'A1:D10,G5:M20'.
+     *
+     * @param string $value
+     * @param int $index Identifier for a specific print area range allowing several ranges to be set
+     *                            When the method is "O"verwrite, then a positive integer index will overwrite that indexed
+     *                                entry in the print areas list; a negative index value will identify which entry to
+     *                                overwrite working bacward through the print area to the list, with the last entry as -1.
+     *                                Specifying an index value of 0, will overwrite <b>all</b> existing print ranges.
+     *                            When the method is "I"nsert, then a positive index will insert after that indexed entry in
+     *                                the print areas list, while a negative index will insert before the indexed entry.
+     *                                Specifying an index value of 0, will always append the new print range at the end of the
+     *                                list.
+     *                            Print areas are numbered from 1
+     * @param string $method Determines the method used when setting multiple print areas
+     *                            Default behaviour, or the "O" method, overwrites existing print area
+     *                            The "I" method, inserts the new print area before any specified index, or at the end of the list
+     *
+     * @throws PhpSpreadsheetException
+     *
+     * @return PageSetup
+     */
+    public function setPrintArea($value, $index = 0, $method = self::SETPRINTRANGE_OVERWRITE)
+    {
+        if (strpos($value, '!') !== false) {
+            throw new PhpSpreadsheetException('Cell coordinate must not specify a worksheet.');
+        } elseif (strpos($value, ':') === false) {
+            throw new PhpSpreadsheetException('Cell coordinate must be a range of cells.');
+        } elseif (strpos($value, '$') !== false) {
+            throw new PhpSpreadsheetException('Cell coordinate must not be absolute.');
+        }
+        $value = strtoupper($value);
+
+        if ($method == self::SETPRINTRANGE_OVERWRITE) {
+            if ($index == 0) {
+                $this->printArea = $value;
+            } else {
+                $printAreas = explode(',', $this->printArea);
+                if ($index < 0) {
+                    $index = count($printAreas) - abs($index) + 1;
+                }
+                if (($index <= 0) || ($index > count($printAreas))) {
+                    throw new PhpSpreadsheetException('Invalid index for setting print range.');
+                }
+                $printAreas[$index - 1] = $value;
+                $this->printArea = implode(',', $printAreas);
+            }
+        } elseif ($method == self::SETPRINTRANGE_INSERT) {
+            if ($index == 0) {
+                $this->printArea .= ($this->printArea == '') ? $value : ',' . $value;
+            } else {
+                $printAreas = explode(',', $this->printArea);
+                if ($index < 0) {
+                    $index = abs($index) - 1;
+                }
+                if ($index > count($printAreas)) {
+                    throw new PhpSpreadsheetException('Invalid index for setting print range.');
+                }
+                $printAreas = array_merge(array_slice($printAreas, 0, $index), [$value], array_slice($printAreas, $index));
+                $this->printArea = implode(',', $printAreas);
+            }
+        } else {
+            throw new PhpSpreadsheetException('Invalid method for setting print range.');
+        }
+
+        return $this;
+    }
+
+    /**
+     * Add a new print area (e.g. 'A1:D10' or 'A1:D10,G5:M20') to the list of print areas.
+     *
+     * @param string $value
+     * @param int $index Identifier for a specific print area range allowing several ranges to be set
+     *                            A positive index will insert after that indexed entry in the print areas list, while a
+     *                                negative index will insert before the indexed entry.
+     *                                Specifying an index value of 0, will always append the new print range at the end of the
+     *                                list.
+     *                            Print areas are numbered from 1
+     *
+     * @throws PhpSpreadsheetException
+     *
+     * @return PageSetup
+     */
+    public function addPrintArea($value, $index = -1)
+    {
+        return $this->setPrintArea($value, $index, self::SETPRINTRANGE_INSERT);
+    }
+
+    /**
+     * Set print area.
+     *
+     * @param int $column1 Column 1
+     * @param int $row1 Row 1
+     * @param int $column2 Column 2
+     * @param int $row2 Row 2
+     * @param int $index Identifier for a specific print area range allowing several ranges to be set
+     *                                When the method is "O"verwrite, then a positive integer index will overwrite that indexed
+     *                                    entry in the print areas list; a negative index value will identify which entry to
+     *                                    overwrite working backward through the print area to the list, with the last entry as -1.
+     *                                    Specifying an index value of 0, will overwrite <b>all</b> existing print ranges.
+     *                                When the method is "I"nsert, then a positive index will insert after that indexed entry in
+     *                                    the print areas list, while a negative index will insert before the indexed entry.
+     *                                    Specifying an index value of 0, will always append the new print range at the end of the
+     *                                    list.
+     *                                Print areas are numbered from 1
+     * @param string $method Determines the method used when setting multiple print areas
+     *                                Default behaviour, or the "O" method, overwrites existing print area
+     *                                The "I" method, inserts the new print area before any specified index, or at the end of the list
+     *
+     * @throws PhpSpreadsheetException
+     *
+     * @return PageSetup
+     */
+    public function setPrintAreaByColumnAndRow($column1, $row1, $column2, $row2, $index = 0, $method = self::SETPRINTRANGE_OVERWRITE)
+    {
+        return $this->setPrintArea(
+            Coordinate::stringFromColumnIndex($column1) . $row1 . ':' . Coordinate::stringFromColumnIndex($column2) . $row2,
+            $index,
+            $method
+        );
+    }
+
+    /**
+     * Add a new print area to the list of print areas.
+     *
+     * @param int $column1 Start Column for the print area
+     * @param int $row1 Start Row for the print area
+     * @param int $column2 End Column for the print area
+     * @param int $row2 End Row for the print area
+     * @param int $index Identifier for a specific print area range allowing several ranges to be set
+     *                                A positive index will insert after that indexed entry in the print areas list, while a
+     *                                    negative index will insert before the indexed entry.
+     *                                    Specifying an index value of 0, will always append the new print range at the end of the
+     *                                    list.
+     *                                Print areas are numbered from 1
+     *
+     * @throws PhpSpreadsheetException
+     *
+     * @return PageSetup
+     */
+    public function addPrintAreaByColumnAndRow($column1, $row1, $column2, $row2, $index = -1)
+    {
+        return $this->setPrintArea(
+            Coordinate::stringFromColumnIndex($column1) . $row1 . ':' . Coordinate::stringFromColumnIndex($column2) . $row2,
+            $index,
+            self::SETPRINTRANGE_INSERT
+        );
+    }
+
+    /**
+     * Get first page number.
+     *
+     * @return int
+     */
+    public function getFirstPageNumber()
+    {
+        return $this->firstPageNumber;
+    }
+
+    /**
+     * Set first page number.
+     *
+     * @param int $value
+     *
+     * @return PageSetup
+     */
+    public function setFirstPageNumber($value)
+    {
+        $this->firstPageNumber = $value;
+
+        return $this;
+    }
+
+    /**
+     * Reset first page number.
+     *
+     * @return PageSetup
+     */
+    public function resetFirstPageNumber()
+    {
+        return $this->setFirstPageNumber(null);
+    }
+
+    /**
+     * Implement PHP __clone to create a deep clone, not just a shallow copy.
+     */
+    public function __clone()
+    {
+        $vars = get_object_vars($this);
+        foreach ($vars as $key => $value) {
+            if (is_object($value)) {
+                $this->$key = clone $value;
+            } else {
+                $this->$key = $value;
+            }
+        }
+    }
+}

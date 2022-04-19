@@ -1,65 +1,79 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Assuredworkloads;
+
+class GoogleCloudAssuredworkloadsV1beta1CreateWorkloadOperationMetadata extends \Google\Collection
+{
+  protected $collection_key = 'resourceSettings';
+  public $complianceRegime;
+  public $createTime;
+  public $displayName;
+  public $parent;
+  protected $resourceSettingsType = GoogleCloudAssuredworkloadsV1beta1WorkloadResourceSettings::class;
+  protected $resourceSettingsDataType = 'array';
+
+  public function setComplianceRegime($complianceRegime)
+  {
+    $this->complianceRegime = $complianceRegime;
+  }
+  public function getComplianceRegime()
+  {
+    return $this->complianceRegime;
+  }
+  public function setCreateTime($createTime)
+  {
+    $this->createTime = $createTime;
+  }
+  public function getCreateTime()
+  {
+    return $this->createTime;
+  }
+  public function setDisplayName($displayName)
+  {
+    $this->displayName = $displayName;
+  }
+  public function getDisplayName()
+  {
+    return $this->displayName;
+  }
+  public function setParent($parent)
+  {
+    $this->parent = $parent;
+  }
+  public function getParent()
+  {
+    return $this->parent;
+  }
+  /**
+   * @param GoogleCloudAssuredworkloadsV1beta1WorkloadResourceSettings[]
+   */
+  public function setResourceSettings($resourceSettings)
+  {
+    $this->resourceSettings = $resourceSettings;
+  }
+  /**
+   * @return GoogleCloudAssuredworkloadsV1beta1WorkloadResourceSettings[]
+   */
+  public function getResourceSettings()
+  {
+    return $this->resourceSettings;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudAssuredworkloadsV1beta1CreateWorkloadOperationMetadata::class, 'Google_Service_Assuredworkloads_GoogleCloudAssuredworkloadsV1beta1CreateWorkloadOperationMetadata');

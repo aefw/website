@@ -1,65 +1,103 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-UlMHPE5VwekvzUBGvG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\OSConfig;
+
+class InventoryItem extends \Google\Model
+{
+  protected $availablePackageType = InventorySoftwarePackage::class;
+  protected $availablePackageDataType = '';
+  public $createTime;
+  public $id;
+  protected $installedPackageType = InventorySoftwarePackage::class;
+  protected $installedPackageDataType = '';
+  public $originType;
+  public $type;
+  public $updateTime;
+
+  /**
+   * @param InventorySoftwarePackage
+   */
+  public function setAvailablePackage(InventorySoftwarePackage $availablePackage)
+  {
+    $this->availablePackage = $availablePackage;
+  }
+  /**
+   * @return InventorySoftwarePackage
+   */
+  public function getAvailablePackage()
+  {
+    return $this->availablePackage;
+  }
+  public function setCreateTime($createTime)
+  {
+    $this->createTime = $createTime;
+  }
+  public function getCreateTime()
+  {
+    return $this->createTime;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  /**
+   * @param InventorySoftwarePackage
+   */
+  public function setInstalledPackage(InventorySoftwarePackage $installedPackage)
+  {
+    $this->installedPackage = $installedPackage;
+  }
+  /**
+   * @return InventorySoftwarePackage
+   */
+  public function getInstalledPackage()
+  {
+    return $this->installedPackage;
+  }
+  public function setOriginType($originType)
+  {
+    $this->originType = $originType;
+  }
+  public function getOriginType()
+  {
+    return $this->originType;
+  }
+  public function setType($type)
+  {
+    $this->type = $type;
+  }
+  public function getType()
+  {
+    return $this->type;
+  }
+  public function setUpdateTime($updateTime)
+  {
+    $this->updateTime = $updateTime;
+  }
+  public function getUpdateTime()
+  {
+    return $this->updateTime;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(InventoryItem::class, 'Google_Service_OSConfig_InventoryItem');

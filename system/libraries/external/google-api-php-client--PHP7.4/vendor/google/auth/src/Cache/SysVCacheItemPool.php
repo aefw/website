@@ -1,112 +1,241 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/**
+ * Copyright 2018 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+namespace Google\Auth\Cache;
+
+use Psr\Cache\CacheItemInterface;
+use Psr\Cache\CacheItemPoolInterface;
+
+/**
+ * SystemV shared memory based CacheItemPool implementation.
+ *
+ * This CacheItemPool implementation can be used among multiple processes, but
+ * it doesn't provide any locking mechanism. If multiple processes write to
+ * this ItemPool, you have to avoid race condition manually in your code.
+ */
+class SysVCacheItemPool implements CacheItemPoolInterface
+{
+    const VAR_KEY = 1;
+
+    const DEFAULT_PROJ = 'A';
+
+    const DEFAULT_MEMSIZE = 10000;
+
+    const DEFAULT_PERM = 0600;
+
+    /** @var int */
+    private $sysvKey;
+
+    /**
+     * @var CacheItemInterface[]
+     */
+    private $items;
+
+    /**
+     * @var CacheItemInterface[]
+     */
+    private $deferredItems;
+
+    /**
+     * @var array
+     */
+    private $options;
+
+    /*
+     * @var bool
+     */
+    private $hasLoadedItems = false;
+
+    /**
+     * Create a SystemV shared memory based CacheItemPool.
+     *
+     * @param array $options [optional] Configuration options.
+     * @param int $options.variableKey The variable key for getting the data from
+     *        the shared memory. **Defaults to** 1.
+     * @param $options.proj string The project identifier for ftok. This needs to
+     *        be a one character string. **Defaults to** 'A'.
+     * @param $options.memsize int The memory size in bytes for shm_attach.
+     *        **Defaults to** 10000.
+     * @param $options.perm int The permission for shm_attach. **Defaults to**
+     *        0600.
+     */
+    public function __construct($options = [])
+    {
+        if (! extension_loaded('sysvshm')) {
+            throw new \RuntimeException(
+                'sysvshm extension is required to use this ItemPool'
+            );
+        }
+        $this->options = $options + [
+            'variableKey' => self::VAR_KEY,
+            'proj' => self::DEFAULT_PROJ,
+            'memsize' => self::DEFAULT_MEMSIZE,
+            'perm' => self::DEFAULT_PERM
+        ];
+        $this->items = [];
+        $this->deferredItems = [];
+        $this->sysvKey = ftok(__FILE__, $this->options['proj']);
+    }
+
+    public function getItem($key)
+    {
+        $this->loadItems();
+        return current($this->getItems([$key]));
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getItems(array $keys = [])
+    {
+        $this->loadItems();
+        $items = [];
+        foreach ($keys as $key) {
+            $items[$key] = $this->hasItem($key) ?
+                clone $this->items[$key] :
+                new Item($key);
+        }
+        return $items;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function hasItem($key)
+    {
+        $this->loadItems();
+        return isset($this->items[$key]) && $this->items[$key]->isHit();
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function clear()
+    {
+        $this->items = [];
+        $this->deferredItems = [];
+        return $this->saveCurrentItems();
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function deleteItem($key)
+    {
+        return $this->deleteItems([$key]);
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function deleteItems(array $keys)
+    {
+        if (!$this->hasLoadedItems) {
+            $this->loadItems();
+        }
+
+        foreach ($keys as $key) {
+            unset($this->items[$key]);
+        }
+        return $this->saveCurrentItems();
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function save(CacheItemInterface $item)
+    {
+        if (!$this->hasLoadedItems) {
+            $this->loadItems();
+        }
+
+        $this->items[$item->getKey()] = $item;
+        return $this->saveCurrentItems();
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function saveDeferred(CacheItemInterface $item)
+    {
+        $this->deferredItems[$item->getKey()] = $item;
+        return true;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function commit()
+    {
+        foreach ($this->deferredItems as $item) {
+            if ($this->save($item) === false) {
+                return false;
+            }
+        }
+        $this->deferredItems = [];
+        return true;
+    }
+
+    /**
+     * Save the current items.
+     *
+     * @return bool true when success, false upon failure
+     */
+    private function saveCurrentItems()
+    {
+        $shmid = shm_attach(
+            $this->sysvKey,
+            $this->options['memsize'],
+            $this->options['perm']
+        );
+        if ($shmid !== false) {
+            $ret = shm_put_var(
+                $shmid,
+                $this->options['variableKey'],
+                $this->items
+            );
+            shm_detach($shmid);
+            return $ret;
+        }
+        return false;
+    }
+
+    /**
+     * Load the items from the shared memory.
+     *
+     * @return bool true when success, false upon failure
+     */
+    private function loadItems()
+    {
+        $shmid = shm_attach(
+            $this->sysvKey,
+            $this->options['memsize'],
+            $this->options['perm']
+        );
+        if ($shmid !== false) {
+            $data = @shm_get_var($shmid, $this->options['variableKey']);
+            if (!empty($data)) {
+                $this->items = $data;
+            } else {
+                $this->items = [];
+            }
+            shm_detach($shmid);
+            $this->hasLoadedItems = true;
+            return true;
+        }
+        return false;
+    }
+}

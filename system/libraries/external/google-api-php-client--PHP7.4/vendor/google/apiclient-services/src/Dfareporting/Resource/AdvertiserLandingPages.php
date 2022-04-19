@@ -1,71 +1,130 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-a4rw7qk6HuIqHheskG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dfareporting\Resource;
+
+use Google\Service\Dfareporting\AdvertiserLandingPagesListResponse;
+use Google\Service\Dfareporting\LandingPage;
+
+/**
+ * The "advertiserLandingPages" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $dfareportingService = new Google\Service\Dfareporting(...);
+ *   $advertiserLandingPages = $dfareportingService->advertiserLandingPages;
+ *  </code>
+ */
+class AdvertiserLandingPages extends \Google\Service\Resource
+{
+  /**
+   * Gets one landing page by ID. (advertiserLandingPages.get)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param string $id Landing page ID.
+   * @param array $optParams Optional parameters.
+   * @return LandingPage
+   */
+  public function get($profileId, $id, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], LandingPage::class);
+  }
+  /**
+   * Inserts a new landing page. (advertiserLandingPages.insert)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param LandingPage $postBody
+   * @param array $optParams Optional parameters.
+   * @return LandingPage
+   */
+  public function insert($profileId, LandingPage $postBody, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], LandingPage::class);
+  }
+  /**
+   * Retrieves a list of landing pages.
+   * (advertiserLandingPages.listAdvertiserLandingPages)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string advertiserIds Select only landing pages that belong to
+   * these advertisers.
+   * @opt_param bool archived Select only archived landing pages. Don't set this
+   * field to select both archived and non-archived landing pages.
+   * @opt_param string campaignIds Select only landing pages that are associated
+   * with these campaigns.
+   * @opt_param string ids Select only landing pages with these IDs.
+   * @opt_param int maxResults Maximum number of results to return.
+   * @opt_param string pageToken Value of the nextPageToken from the previous
+   * result page.
+   * @opt_param string searchString Allows searching for landing pages by name or
+   * ID. Wildcards (*) are allowed. For example, "landingpage*2017" will return
+   * landing pages with names like "landingpage July 2017", "landingpage March
+   * 2017", or simply "landingpage 2017". Most of the searches also add wildcards
+   * implicitly at the start and the end of the search string. For example, a
+   * search string of "landingpage" will match campaigns with name "my
+   * landingpage", "landingpage 2015", or simply "landingpage".
+   * @opt_param string sortField Field by which to sort the list.
+   * @opt_param string sortOrder Order of sorted results.
+   * @opt_param string subaccountId Select only landing pages that belong to this
+   * subaccount.
+   * @return AdvertiserLandingPagesListResponse
+   */
+  public function listAdvertiserLandingPages($profileId, $optParams = [])
+  {
+    $params = ['profileId' => $profileId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], AdvertiserLandingPagesListResponse::class);
+  }
+  /**
+   * Updates an existing advertiser landing page. This method supports patch
+   * semantics. (advertiserLandingPages.patch)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param string $id LandingPage ID.
+   * @param LandingPage $postBody
+   * @param array $optParams Optional parameters.
+   * @return LandingPage
+   */
+  public function patch($profileId, $id, LandingPage $postBody, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'id' => $id, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], LandingPage::class);
+  }
+  /**
+   * Updates an existing landing page. (advertiserLandingPages.update)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param LandingPage $postBody
+   * @param array $optParams Optional parameters.
+   * @return LandingPage
+   */
+  public function update($profileId, LandingPage $postBody, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], LandingPage::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AdvertiserLandingPages::class, 'Google_Service_Dfareporting_Resource_AdvertiserLandingPages');

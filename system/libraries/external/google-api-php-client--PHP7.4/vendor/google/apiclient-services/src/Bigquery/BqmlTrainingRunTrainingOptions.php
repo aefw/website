@@ -1,74 +1,107 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-YR3YvgmV
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Bigquery;
+
+class BqmlTrainingRunTrainingOptions extends \Google\Model
+{
+  public $earlyStop;
+  public $l1Reg;
+  public $l2Reg;
+  public $learnRate;
+  public $learnRateStrategy;
+  public $lineSearchInitLearnRate;
+  public $maxIteration;
+  public $minRelProgress;
+  public $warmStart;
+
+  public function setEarlyStop($earlyStop)
+  {
+    $this->earlyStop = $earlyStop;
+  }
+  public function getEarlyStop()
+  {
+    return $this->earlyStop;
+  }
+  public function setL1Reg($l1Reg)
+  {
+    $this->l1Reg = $l1Reg;
+  }
+  public function getL1Reg()
+  {
+    return $this->l1Reg;
+  }
+  public function setL2Reg($l2Reg)
+  {
+    $this->l2Reg = $l2Reg;
+  }
+  public function getL2Reg()
+  {
+    return $this->l2Reg;
+  }
+  public function setLearnRate($learnRate)
+  {
+    $this->learnRate = $learnRate;
+  }
+  public function getLearnRate()
+  {
+    return $this->learnRate;
+  }
+  public function setLearnRateStrategy($learnRateStrategy)
+  {
+    $this->learnRateStrategy = $learnRateStrategy;
+  }
+  public function getLearnRateStrategy()
+  {
+    return $this->learnRateStrategy;
+  }
+  public function setLineSearchInitLearnRate($lineSearchInitLearnRate)
+  {
+    $this->lineSearchInitLearnRate = $lineSearchInitLearnRate;
+  }
+  public function getLineSearchInitLearnRate()
+  {
+    return $this->lineSearchInitLearnRate;
+  }
+  public function setMaxIteration($maxIteration)
+  {
+    $this->maxIteration = $maxIteration;
+  }
+  public function getMaxIteration()
+  {
+    return $this->maxIteration;
+  }
+  public function setMinRelProgress($minRelProgress)
+  {
+    $this->minRelProgress = $minRelProgress;
+  }
+  public function getMinRelProgress()
+  {
+    return $this->minRelProgress;
+  }
+  public function setWarmStart($warmStart)
+  {
+    $this->warmStart = $warmStart;
+  }
+  public function getWarmStart()
+  {
+    return $this->warmStart;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(BqmlTrainingRunTrainingOptions::class, 'Google_Service_Bigquery_BqmlTrainingRunTrainingOptions');

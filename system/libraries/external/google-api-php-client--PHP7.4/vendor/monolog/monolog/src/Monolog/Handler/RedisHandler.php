@@ -1,76 +1,96 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php declare(strict_types=1);
+
+/*
+ * This file is part of the Monolog package.
+ *
+ * (c) Jordi Boggiano <j.boggiano@seld.be>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Monolog\Handler;
+
+use Monolog\Formatter\LineFormatter;
+use Monolog\Formatter\FormatterInterface;
+use Monolog\Logger;
+
+/**
+ * Logs to a Redis key using rpush
+ *
+ * usage example:
+ *
+ *   $log = new Logger('application');
+ *   $redis = new RedisHandler(new Predis\Client("tcp://localhost:6379"), "logs", "prod");
+ *   $log->pushHandler($redis);
+ *
+ * @author Thomas Tourlourat <thomas@tourlourat.com>
+ */
+class RedisHandler extends AbstractProcessingHandler
+{
+    private $redisClient;
+    private $redisKey;
+    protected $capSize;
+
+    /**
+     * @param \Predis\Client|\Redis $redis   The redis instance
+     * @param string                $key     The key name to push records to
+     * @param string|int            $level   The minimum logging level at which this handler will be triggered
+     * @param bool                  $bubble  Whether the messages that are handled can bubble up the stack or not
+     * @param int                   $capSize Number of entries to limit list size to, 0 = unlimited
+     */
+    public function __construct($redis, string $key, $level = Logger::DEBUG, bool $bubble = true, int $capSize = 0)
+    {
+        if (!(($redis instanceof \Predis\Client) || ($redis instanceof \Redis))) {
+            throw new \InvalidArgumentException('Predis\Client or Redis instance required');
+        }
+
+        $this->redisClient = $redis;
+        $this->redisKey = $key;
+        $this->capSize = $capSize;
+
+        parent::__construct($level, $bubble);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    protected function write(array $record): void
+    {
+        if ($this->capSize) {
+            $this->writeCapped($record);
+        } else {
+            $this->redisClient->rpush($this->redisKey, $record["formatted"]);
+        }
+    }
+
+    /**
+     * Write and cap the collection
+     * Writes the record to the redis list and caps its
+     */
+    protected function writeCapped(array $record): void
+    {
+        if ($this->redisClient instanceof \Redis) {
+            $mode = defined('\Redis::MULTI') ? \Redis::MULTI : 1;
+            $this->redisClient->multi($mode)
+                ->rpush($this->redisKey, $record["formatted"])
+                ->ltrim($this->redisKey, -$this->capSize, -1)
+                ->exec();
+        } else {
+            $redisKey = $this->redisKey;
+            $capSize = $this->capSize;
+            $this->redisClient->transaction(function ($tx) use ($record, $redisKey, $capSize) {
+                $tx->rpush($redisKey, $record["formatted"]);
+                $tx->ltrim($redisKey, -$capSize, -1);
+            });
+        }
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    protected function getDefaultFormatter(): FormatterInterface
+    {
+        return new LineFormatter();
+    }
+}

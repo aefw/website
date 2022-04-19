@@ -1,82 +1,180 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-lUZC0Jy4lhZT6Fa=
+<?php
+/*
+ * Copyright 2015 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+namespace Google\Auth\Subscriber;
+
+use Google\Auth\CacheTrait;
+use GuzzleHttp\Event\BeforeEvent;
+use GuzzleHttp\Event\RequestEvents;
+use GuzzleHttp\Event\SubscriberInterface;
+use Psr\Cache\CacheItemPoolInterface;
+
+/**
+ * ScopedAccessTokenSubscriber is a Guzzle Subscriber that adds an Authorization
+ * header provided by a closure.
+ *
+ * The closure returns an access token, taking the scope, either a single
+ * string or an array of strings, as its value.  If provided, a cache will be
+ * used to preserve the access token for a given lifetime.
+ *
+ * Requests will be accessed with the authorization header:
+ *
+ * 'authorization' 'Bearer <access token obtained from the closure>'
+ */
+class ScopedAccessTokenSubscriber implements SubscriberInterface
+{
+    use CacheTrait;
+
+    const DEFAULT_CACHE_LIFETIME = 1500;
+
+    /**
+     * @var CacheItemPoolInterface
+     */
+    private $cache;
+
+    /**
+     * @var callable The access token generator function
+     */
+    private $tokenFunc;
+
+    /**
+     * @var array|string The scopes used to generate the token
+     */
+    private $scopes;
+
+    /**
+     * @var array
+     */
+    private $cacheConfig;
+
+    /**
+     * Creates a new ScopedAccessTokenSubscriber.
+     *
+     * @param callable $tokenFunc a token generator function
+     * @param array|string $scopes the token authentication scopes
+     * @param array $cacheConfig configuration for the cache when it's present
+     * @param CacheItemPoolInterface $cache an implementation of CacheItemPoolInterface
+     */
+    public function __construct(
+        callable $tokenFunc,
+        $scopes,
+        array $cacheConfig = null,
+        CacheItemPoolInterface $cache = null
+    ) {
+        $this->tokenFunc = $tokenFunc;
+        if (!(is_string($scopes) || is_array($scopes))) {
+            throw new \InvalidArgumentException(
+                'wants scope should be string or array'
+            );
+        }
+        $this->scopes = $scopes;
+
+        if (!is_null($cache)) {
+            $this->cache = $cache;
+            $this->cacheConfig = array_merge([
+                'lifetime' => self::DEFAULT_CACHE_LIFETIME,
+                'prefix' => '',
+            ], $cacheConfig);
+        }
+    }
+
+    /**
+     * @return array
+     */
+    public function getEvents()
+    {
+        return ['before' => ['onBefore', RequestEvents::SIGN_REQUEST]];
+    }
+
+    /**
+     * Updates the request with an Authorization header when auth is 'scoped'.
+     *
+     * E.g this could be used to authenticate using the AppEngine AppIdentityService.
+     *
+     * Example:
+     * ```
+     * use google\appengine\api\app_identity\AppIdentityService;
+     * use Google\Auth\Subscriber\ScopedAccessTokenSubscriber;
+     * use GuzzleHttp\Client;
+     *
+     * $scope = 'https://www.googleapis.com/auth/taskqueue'
+     * $subscriber = new ScopedAccessToken(
+     *     'AppIdentityService::getAccessToken',
+     *     $scope,
+     *     ['prefix' => 'Google\Auth\ScopedAccessToken::'],
+     *     $cache = new Memcache()
+     * );
+     *
+     * $client = new Client([
+     *     'base_url' => 'https://www.googleapis.com/taskqueue/v1beta2/projects/',
+     *     'defaults' => ['auth' => 'scoped']
+     * ]);
+     * $client->getEmitter()->attach($subscriber);
+     *
+     * $res = $client->get('myproject/taskqueues/myqueue');
+     * ```
+     *
+     * @param BeforeEvent $event
+     */
+    public function onBefore(BeforeEvent $event)
+    {
+        // Requests using "auth"="scoped" will be authorized.
+        $request = $event->getRequest();
+        if ($request->getConfig()['auth'] != 'scoped') {
+            return;
+        }
+        $auth_header = 'Bearer ' . $this->fetchToken();
+        $request->setHeader('authorization', $auth_header);
+    }
+
+    /**
+     * @return string
+     */
+    private function getCacheKey()
+    {
+        $key = null;
+
+        if (is_string($this->scopes)) {
+            $key .= $this->scopes;
+        } elseif (is_array($this->scopes)) {
+            $key .= implode(':', $this->scopes);
+        }
+
+        return $key;
+    }
+
+    /**
+     * Determine if token is available in the cache, if not call tokenFunc to
+     * fetch it.
+     *
+     * @return string
+     */
+    private function fetchToken()
+    {
+        $cacheKey = $this->getCacheKey();
+        $cached = $this->getCachedValue($cacheKey);
+
+        if (!empty($cached)) {
+            return $cached;
+        }
+
+        $token = call_user_func($this->tokenFunc, $this->scopes);
+        $this->setCachedValue($cacheKey, $token);
+
+        return $token;
+    }
+}

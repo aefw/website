@@ -1,74 +1,112 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\FirebaseCloudMessaging;
+
+class AndroidConfig extends \Google\Model
+{
+  public $collapseKey;
+  public $data;
+  public $directBootOk;
+  protected $fcmOptionsType = AndroidFcmOptions::class;
+  protected $fcmOptionsDataType = '';
+  protected $notificationType = AndroidNotification::class;
+  protected $notificationDataType = '';
+  public $priority;
+  public $restrictedPackageName;
+  public $ttl;
+
+  public function setCollapseKey($collapseKey)
+  {
+    $this->collapseKey = $collapseKey;
+  }
+  public function getCollapseKey()
+  {
+    return $this->collapseKey;
+  }
+  public function setData($data)
+  {
+    $this->data = $data;
+  }
+  public function getData()
+  {
+    return $this->data;
+  }
+  public function setDirectBootOk($directBootOk)
+  {
+    $this->directBootOk = $directBootOk;
+  }
+  public function getDirectBootOk()
+  {
+    return $this->directBootOk;
+  }
+  /**
+   * @param AndroidFcmOptions
+   */
+  public function setFcmOptions(AndroidFcmOptions $fcmOptions)
+  {
+    $this->fcmOptions = $fcmOptions;
+  }
+  /**
+   * @return AndroidFcmOptions
+   */
+  public function getFcmOptions()
+  {
+    return $this->fcmOptions;
+  }
+  /**
+   * @param AndroidNotification
+   */
+  public function setNotification(AndroidNotification $notification)
+  {
+    $this->notification = $notification;
+  }
+  /**
+   * @return AndroidNotification
+   */
+  public function getNotification()
+  {
+    return $this->notification;
+  }
+  public function setPriority($priority)
+  {
+    $this->priority = $priority;
+  }
+  public function getPriority()
+  {
+    return $this->priority;
+  }
+  public function setRestrictedPackageName($restrictedPackageName)
+  {
+    $this->restrictedPackageName = $restrictedPackageName;
+  }
+  public function getRestrictedPackageName()
+  {
+    return $this->restrictedPackageName;
+  }
+  public function setTtl($ttl)
+  {
+    $this->ttl = $ttl;
+  }
+  public function getTtl()
+  {
+    return $this->ttl;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AndroidConfig::class, 'Google_Service_FirebaseCloudMessaging_AndroidConfig');

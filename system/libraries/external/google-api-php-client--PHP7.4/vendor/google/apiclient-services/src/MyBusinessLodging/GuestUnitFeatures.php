@@ -1,121 +1,220 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\MyBusinessLodging;
+
+class GuestUnitFeatures extends \Google\Model
+{
+  public $bungalowOrVilla;
+  public $bungalowOrVillaException;
+  public $connectingUnitAvailable;
+  public $connectingUnitAvailableException;
+  public $executiveFloor;
+  public $executiveFloorException;
+  public $maxAdultOccupantsCount;
+  public $maxAdultOccupantsCountException;
+  public $maxChildOccupantsCount;
+  public $maxChildOccupantsCountException;
+  public $maxOccupantsCount;
+  public $maxOccupantsCountException;
+  public $privateHome;
+  public $privateHomeException;
+  public $suite;
+  public $suiteException;
+  public $tier;
+  public $tierException;
+  protected $totalLivingAreasType = LivingArea::class;
+  protected $totalLivingAreasDataType = '';
+  protected $viewsType = ViewsFromUnit::class;
+  protected $viewsDataType = '';
+
+  public function setBungalowOrVilla($bungalowOrVilla)
+  {
+    $this->bungalowOrVilla = $bungalowOrVilla;
+  }
+  public function getBungalowOrVilla()
+  {
+    return $this->bungalowOrVilla;
+  }
+  public function setBungalowOrVillaException($bungalowOrVillaException)
+  {
+    $this->bungalowOrVillaException = $bungalowOrVillaException;
+  }
+  public function getBungalowOrVillaException()
+  {
+    return $this->bungalowOrVillaException;
+  }
+  public function setConnectingUnitAvailable($connectingUnitAvailable)
+  {
+    $this->connectingUnitAvailable = $connectingUnitAvailable;
+  }
+  public function getConnectingUnitAvailable()
+  {
+    return $this->connectingUnitAvailable;
+  }
+  public function setConnectingUnitAvailableException($connectingUnitAvailableException)
+  {
+    $this->connectingUnitAvailableException = $connectingUnitAvailableException;
+  }
+  public function getConnectingUnitAvailableException()
+  {
+    return $this->connectingUnitAvailableException;
+  }
+  public function setExecutiveFloor($executiveFloor)
+  {
+    $this->executiveFloor = $executiveFloor;
+  }
+  public function getExecutiveFloor()
+  {
+    return $this->executiveFloor;
+  }
+  public function setExecutiveFloorException($executiveFloorException)
+  {
+    $this->executiveFloorException = $executiveFloorException;
+  }
+  public function getExecutiveFloorException()
+  {
+    return $this->executiveFloorException;
+  }
+  public function setMaxAdultOccupantsCount($maxAdultOccupantsCount)
+  {
+    $this->maxAdultOccupantsCount = $maxAdultOccupantsCount;
+  }
+  public function getMaxAdultOccupantsCount()
+  {
+    return $this->maxAdultOccupantsCount;
+  }
+  public function setMaxAdultOccupantsCountException($maxAdultOccupantsCountException)
+  {
+    $this->maxAdultOccupantsCountException = $maxAdultOccupantsCountException;
+  }
+  public function getMaxAdultOccupantsCountException()
+  {
+    return $this->maxAdultOccupantsCountException;
+  }
+  public function setMaxChildOccupantsCount($maxChildOccupantsCount)
+  {
+    $this->maxChildOccupantsCount = $maxChildOccupantsCount;
+  }
+  public function getMaxChildOccupantsCount()
+  {
+    return $this->maxChildOccupantsCount;
+  }
+  public function setMaxChildOccupantsCountException($maxChildOccupantsCountException)
+  {
+    $this->maxChildOccupantsCountException = $maxChildOccupantsCountException;
+  }
+  public function getMaxChildOccupantsCountException()
+  {
+    return $this->maxChildOccupantsCountException;
+  }
+  public function setMaxOccupantsCount($maxOccupantsCount)
+  {
+    $this->maxOccupantsCount = $maxOccupantsCount;
+  }
+  public function getMaxOccupantsCount()
+  {
+    return $this->maxOccupantsCount;
+  }
+  public function setMaxOccupantsCountException($maxOccupantsCountException)
+  {
+    $this->maxOccupantsCountException = $maxOccupantsCountException;
+  }
+  public function getMaxOccupantsCountException()
+  {
+    return $this->maxOccupantsCountException;
+  }
+  public function setPrivateHome($privateHome)
+  {
+    $this->privateHome = $privateHome;
+  }
+  public function getPrivateHome()
+  {
+    return $this->privateHome;
+  }
+  public function setPrivateHomeException($privateHomeException)
+  {
+    $this->privateHomeException = $privateHomeException;
+  }
+  public function getPrivateHomeException()
+  {
+    return $this->privateHomeException;
+  }
+  public function setSuite($suite)
+  {
+    $this->suite = $suite;
+  }
+  public function getSuite()
+  {
+    return $this->suite;
+  }
+  public function setSuiteException($suiteException)
+  {
+    $this->suiteException = $suiteException;
+  }
+  public function getSuiteException()
+  {
+    return $this->suiteException;
+  }
+  public function setTier($tier)
+  {
+    $this->tier = $tier;
+  }
+  public function getTier()
+  {
+    return $this->tier;
+  }
+  public function setTierException($tierException)
+  {
+    $this->tierException = $tierException;
+  }
+  public function getTierException()
+  {
+    return $this->tierException;
+  }
+  /**
+   * @param LivingArea
+   */
+  public function setTotalLivingAreas(LivingArea $totalLivingAreas)
+  {
+    $this->totalLivingAreas = $totalLivingAreas;
+  }
+  /**
+   * @return LivingArea
+   */
+  public function getTotalLivingAreas()
+  {
+    return $this->totalLivingAreas;
+  }
+  /**
+   * @param ViewsFromUnit
+   */
+  public function setViews(ViewsFromUnit $views)
+  {
+    $this->views = $views;
+  }
+  /**
+   * @return ViewsFromUnit
+   */
+  public function getViews()
+  {
+    return $this->views;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GuestUnitFeatures::class, 'Google_Service_MyBusinessLodging_GuestUnitFeatures');

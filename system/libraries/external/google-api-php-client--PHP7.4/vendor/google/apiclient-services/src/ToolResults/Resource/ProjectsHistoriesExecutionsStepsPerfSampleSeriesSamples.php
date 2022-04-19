@@ -1,64 +1,93 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-EmnsBRK632cPyye2rd4tii7PSJu=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ToolResults\Resource;
+
+use Google\Service\ToolResults\BatchCreatePerfSamplesRequest;
+use Google\Service\ToolResults\BatchCreatePerfSamplesResponse;
+use Google\Service\ToolResults\ListPerfSamplesResponse;
+
+/**
+ * The "samples" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $toolresultsService = new Google\Service\ToolResults(...);
+ *   $samples = $toolresultsService->samples;
+ *  </code>
+ */
+class ProjectsHistoriesExecutionsStepsPerfSampleSeriesSamples extends \Google\Service\Resource
+{
+  /**
+   * Creates a batch of PerfSamples - a client can submit multiple batches of Perf
+   * Samples through repeated calls to this method in order to split up a large
+   * request payload - duplicates and existing timestamp entries will be ignored.
+   * - the batch operation may partially succeed - the set of elements
+   * successfully inserted is returned in the response (omits items which already
+   * existed in the database). May return any of the following canonical error
+   * codes: - NOT_FOUND - The containing PerfSampleSeries does not exist
+   * (samples.batchCreate)
+   *
+   * @param string $projectId The cloud project
+   * @param string $historyId A tool results history ID.
+   * @param string $executionId A tool results execution ID.
+   * @param string $stepId A tool results step ID.
+   * @param string $sampleSeriesId A sample series id
+   * @param BatchCreatePerfSamplesRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return BatchCreatePerfSamplesResponse
+   */
+  public function batchCreate($projectId, $historyId, $executionId, $stepId, $sampleSeriesId, BatchCreatePerfSamplesRequest $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'historyId' => $historyId, 'executionId' => $executionId, 'stepId' => $stepId, 'sampleSeriesId' => $sampleSeriesId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('batchCreate', [$params], BatchCreatePerfSamplesResponse::class);
+  }
+  /**
+   * Lists the Performance Samples of a given Sample Series - The list results are
+   * sorted by timestamps ascending - The default page size is 500 samples; and
+   * maximum size allowed 5000 - The response token indicates the last returned
+   * PerfSample timestamp - When the results size exceeds the page size, submit a
+   * subsequent request including the page token to return the rest of the samples
+   * up to the page limit May return any of the following canonical error codes: -
+   * OUT_OF_RANGE - The specified request page_token is out of valid range -
+   * NOT_FOUND - The containing PerfSampleSeries does not exist
+   * (samples.listProjectsHistoriesExecutionsStepsPerfSampleSeriesSamples)
+   *
+   * @param string $projectId The cloud project
+   * @param string $historyId A tool results history ID.
+   * @param string $executionId A tool results execution ID.
+   * @param string $stepId A tool results step ID.
+   * @param string $sampleSeriesId A sample series id
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The default page size is 500 samples, and the maximum
+   * size is 5000. If the page_size is greater than 5000, the effective page size
+   * will be 5000
+   * @opt_param string pageToken Optional, the next_page_token returned in the
+   * previous response
+   * @return ListPerfSamplesResponse
+   */
+  public function listProjectsHistoriesExecutionsStepsPerfSampleSeriesSamples($projectId, $historyId, $executionId, $stepId, $sampleSeriesId, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'historyId' => $historyId, 'executionId' => $executionId, 'stepId' => $stepId, 'sampleSeriesId' => $sampleSeriesId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListPerfSamplesResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsHistoriesExecutionsStepsPerfSampleSeriesSamples::class, 'Google_Service_ToolResults_Resource_ProjectsHistoriesExecutionsStepsPerfSampleSeriesSamples');

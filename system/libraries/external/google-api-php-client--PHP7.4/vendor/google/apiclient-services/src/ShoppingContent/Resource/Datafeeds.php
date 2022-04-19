@@ -1,81 +1,153 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPyGpkCANb03r7lajuK4FcmKHThvluUOtuP38e8AFLXzQpkpkrfbboV/aPpssWhjM3yv3707g
-8HCFk9+Wp7X9DsAqs08XV1oS4pTvFR8Cq7sNUTxFwTjW9lyHwYWpZC6QXXSxMMlLkCSA1uJcE+9x
-x+/zQOwOgV6HicndgL2fZaA9fa3rVwFu5J3C1VDOIHIX5gODFshs/jryf7VMyjIxXpTREimKAQpL
-9oIZZmLE/Nh7GMlbEIUXYF59zIUl+pVQYUSXCR/T9z3cCZqUTeOk4bbSIE9mKourL8IeB86cFae5
-vLL5SMfKQy8k/HBgr/I8r5Fd7TcHsMFZXCKrbOUoHiHF0JfRaJCOTIYCKJlTZsqYjbp+poYWgvs5
-ZtdF0o2I2OlbUlZIi/3kpZjmqINm47KYDF1JditN10Ude4YjFeqDN7HCasmlKNTVn+B/rj51RURW
-m/V9yPMcc1ApdtlhomZ34beW3W/sQneegcyIl5RuLigFjD4lq1Zx40om78KVAGrqRfSDbdQo/KPv
-xIlYeTXOa6eTUz2Uf+Gp+8t1vzIkdFhsEEQryagZpMJ6/RPiqYBFfDFQ3w0xOn0hFqBkZ0cVfvPL
-86+c+av6240JdUDr9SLosNRWYULpMM23hQhHiCtbhC7sQemzP8bzfz8+bjVG9xdSgqSE/ynUH38S
-2XojB726r86p1r0OLXnkhhRG1aE3+Y9zbzbCjZrzQFDatqwWv2O4rNSduwA9sCXeBR5rvef7Sw1d
-w3AXlxXHbYVsczTZPAusSvKI0iuzrPHDpZ+K1TdCYux6CqO3fUMsN0FkUkfaEV0WFmRVSfwTwCg1
-p2/t1fzs4f5SDhRlJ0HDuO6LUlojxVN9hsTXlM2dZzEc6y7SJRXq30M6kYJXShIgCEfbg1lnStpV
-wxVMDsFs1OqoUK3YwtTgMIO/6kzdoEem0x3jJRLeb29Pkj91ukTYnYYS1NQQq3hufNuIG6E9yHnj
-J3sOFlXNw9kmAp2a900at0lpDB/RhMl/RbX6LIlxazXOy0I0l2y8WIJ0MC0NfEqINA6WSDGnlbDE
-6vBp5OI1mLY12AnIbDtvb/NkdLfFk23FiL5Ylifxu2lHHqYOUA5WJTgp1aEXRRE+WqnGS8i+k5D0
-dD099bKkjf9sMNGK4um7UGoEjz+trKonzbByZLSvIgt6uQpNDRp2bXT6QCiOYoDhXjmHDCGC0P/i
-Z5y/iUOZubmK8dhCcC1VuqLndHH8N/DZo+vhpUzv8c1AUvNAGam/GbO2yz00WUojhStI5ekneDJy
-mWXk30qPKaB67Ji9/SFLSbtwWJ5ryTEu2eSZp+MvMisxI5Fwfe6kVWwmWZgSe+0MD35OVYZeTpKa
-qln2XhKfKGdcY3VIr4quXKhiNG86O/rGGYBq/nzjUbs8Cq2qdeqSEx/ae3VFmJZNj8xDfd459XKq
-dHTV/xgNwY8ZmC9onYdwGnE/iVsbJd/i9ah/e1NC81ldaakl5u64kAKZd7e5LvUuRIV4ch/dlBiO
-EkSQ9DtE95CZZnEUjfDARA0+o+w2Ftg9IK6IpxPCeWdJLPF26etEqLg7HbeliKvn3//phEL4NZXv
-s3Hfs8fwI1r2nzP7SDvF9HNS4OKPG49C0bld0eP12LCXNStMt+jCwClzjbccDgj7tEWfLwhIC6No
-Azw9dtGmYrvzYrxWTCaThW6qH4jhCw+Cbkkyt6eOPZPIVefdnPPKTg/Merjolf4q73jVdZAhzzi1
-aeuqA85WXOt5XTDJ1MMj9Rlvt/ilBIIvaYyzRXkhsBD7t4nWiq8YNBTygo//Ywf1S0e2xnhVPyQo
-CD60CwaLai/0uP4WhIQwc796KOQs5WueGWmohCaNffG/GCXDBN8tewDPSdUIcfAq758eUqC4y8+s
-b6aXe2DtxAih6IJuiIWafEBpgf01ukzLNGR5QEiHhPZ+Mo6nbysQxfSYXM36xldPJMk2hf9QoeK8
-vG+miDuQtj3jGtUwH3GvA4mmd1vi1LGkDap1Z9DN9/8V5CVQhCvqcZf6f9alBROSGYRriixhSLsA
-JHmkqIkP+WnKwZKhkc2HsCL7cTixHefpm9WSbJ4JuyQfAKpTxW7Y5k1tsXjqgh4/V4Iv6zu5i7jD
-9HVMg892ku+qJDX0TX34EF4t0hxMlffT269CtI542KISD0eOzP/pVc9jtu5zq/h+Orp/E4uJ9m5p
-9D669iFax+U2zNK6nmwuYoeuW+tmm0YeQ1I5gFZ0ueda8sQ0GDN2Br4IeYY2/O2WAstD20aD9rT+
-o/IoMXWxmhGnWievvMcbNvEjwSOG4B7evHPHHg2n5HKQARokGvvApZR89g9B1tpWT9cTr5wpKQdS
-I69bOCp2fheuhKN+YGNPfNZmDUzNVSP3d8AsKq8zrSOeNX3DlmmXxxknChsnQOl+Ibnfd31dEXYO
-/vjKY9M19obvzICN4HI0WyGGOsYWWbQuSdRw5IucB08W1EChPy3ZJDD+G86QYAFzflLftXAhwxuC
-/jlLMX14pE4cCeUvr+1jJne67VONeE9vkmX7TDh+kW/p/99gf2mL7DIpM8ZYfL7Yh49c8gAuJfpT
-05FYwdJHdJexqe2UdusRYGbWS/yFkZ7hxi8n36z3uyIYy5Lrjkpz5dnvdvMgzpUhvevZ8YrhIA3Q
-+YdipMrP4NoGkPvISptWsreQ9AdY8CBen9pPo+Eyw4mILXR2byckoc07o13iVn9T4DWxBND1vCij
-yM9MTdl9QP+MJY2APz5hq06rS7jAlG1ZbTv7b3erWZXU1t7WiIBgAiUT9v/8Cv2gSs33LPsG4Vno
-XSks79YI6A8Jk9G8dPxObHIMNziTVdJT9e/YIuRCvtkx6NTi8rhq1FwNosy94qgHKVK6Tgsdn/tQ
-MlB9zXA9yRoRrToObYsxJZK/FpK523QNivuDF+ZkracQEfIffiDRZP78RDlb4d0BNgyid/M4s4e3
-Fcw/WEdseszO0Kocn0xwVBiKABygkFGftlpqa1aQEr6Y5rK3rzPPqOgd2466LQoPJf1d+CMBPiYw
-fdzNjU7Lqri4KyNfxQcmrZR8+pR8DbJ4qMMWnANu1xgjWrJOsupMFOM7O9QKSLpTYVtaK1vbagCO
-2llFEtLptqWAzrWMhR4gEiOY4oOsrDSqQgBgBcYFZ7AstaeYGEox6cGavL23CMqwd4YbRGkqTepp
-IFr7DJLOAb4qUAGz8Inbm3Kxj6P0Jd2m8I7HTocyKGD4CXgomIbvnYoU0H1VxVNhscZPD5eCTF5s
-utCuurEww1f4uIn4443zhTIx8f5VVzJLxvoLdMsxWFPHmBWUf0ezvawhSkdCGSCZ17F1RKxS5fzR
-5a2H/Ik3XLX9g/QTRF6ln3U5zyOVTyVvwgEGqIGvDODSHkuMPpyIHqzxcfqG98S0Y1PcLQSK+DcK
-UECdn86d9mYv9qDEV49A1LcYUu6Drs4zT3X9GIb59l+I/q2nDWYCcwXBjhkg2YRW/J+3+MhQD4Te
-h7jHfw8Cp5+PgHq7yRLR7uS90nsObUNc/jNnzqoSf1p/ClURgz8twkFKauq/Plk5deviVUXMcLbQ
-SwNl92k7P00KhcRA/cudv0+h4MW8lCavMX2K3CTnLkpVutkyMlkGkHghzkvRD3Ecu2qmz+M7ijyT
-ZUSF+vBxX+SVtf2V7I9yVHrXAB9XpIZKNhaxMRdeiJ8nW5X0iJJHINeFmNNsj3tqhVK1rje5Q7sh
-iVTKSqL+InTGsHZ18YYDefJyy5wHKbr4Pn9ap5C6dzMCgizIIvRBHew8dfLnYRWUtCp4tzqcPeAF
-lwz8lG050qezUzr4m3EmBE03AljLD3EpmCbHIOn3J+ufpfcPHzR32wHtSWLUoux0QU6swl9clLVD
-DLKhMCCYgDcTdkbj2a57xgmb+pJe3t5wq1fIPgUPgnZ+mQ2pzll4HmZLcIVj8g594i0KJo+o6FZh
-Wk2H/5xOCoArd73bItmP2ZwTY2iUj8Js6H4n7tCqpYpuRx2ZjVe9ntOe3Dms9DZ0UdTFs5KcDICN
-j/XllK+yA64+DjW6RJLjG089HqtlzuWM02C7hdekH1uYSLdmXuJ2ul6s1pRN6o3QXVyT5a2Jxmmf
-ywuqtu1hGWtFUxTz/8NvD5b8HcYdWgXK3nkKivSLl9mHT+ZO7otbid4fEYxW/SA1Q497JrrqJnlG
-LU6gJhr8dPlxyUo2mo3RCnp3zRh7RR3aU1EHNcJLUJ/ewoxGMI3qatSHVEGppuk5+CF3mftgIGa6
-WQJy+mNI06RStZcqPeIXwGpr6fwUWIENAeJz/2sDm2TtFllAyrhC0BkJh5lyz44cYNKxnhZ9cSVX
-noU8sbb2XjGQurlwxoD7NGJ4ULSSwtiYp9LtMJa7ca21LnoQ5ABilweX4v2u695faEx7xln/CYQO
-wYuPRk2Y8NtjgOmxVMLMCVlSYAIPV5av2DcHq4BGFRoWy1WiIwu333EZwB149ko3YTAKfhvT2E5L
-Qvuj8cTvKaNY2uRj6CWlAI1RKzvi4I8+N73+itsdpTnXzPRUhkfINbkXXF3HB+fs2ea43LduXb2a
-FfhxMn6r8wIg4vJm14BaEqFYSXuRTIFmubESfMqDitHl9nOuNYjQvEDOXRdaOnhZiExEX39jrNx3
-gckv/PryQQQQYPPqyhd/dFUAx9qwQ+sdjHC8r8rxFtRc7Ner18HHfQUIWTrSvLJKe5tVls3n8BKq
-NlngLYUbdkfHZ1LwHzr1zPyiUJTv8cDPHPBn46RlhBLACijXSxvwC/Y/ti2yV38fdaR3IsyUokHO
-aK3/NS9JKBrsMQu3lwO7wKI6KKT887ts3HOH23DDJdJ8e8j6dmeB3VQ2OnYlRwF5Ts4N85DX1/2g
-dHMop661pMfO2EHsPLnu4Bynx97pLt1Uy6mCyDRaJphK3e/fxbgQR2S2fKnsGP0hE4h8TAjRhMKC
-5j7Uy+1mDdA6Y/JUIDnoyHXMN4nPaka6Au538hgiFu+/vm13wfpto8ex1t8MwwC+RHcSRFwpLjxZ
-DdoKiBwf5pCi5njebJQnaUVuC3S3RteL78uDNM2UGkGcX/dJ/QHZnlNnPmqAP7/5KV1DJDisl4tp
-/fjs0hv9VTiPnzUqpM1pCD8nOrlrXxLfoiHm7qidV9pd+LZ7/wpGOs5A54Q7+Lqhwcto+Ouai0lt
-ycBbAwOgua3rvkRZqYvfsX8Cou/XocFV8PaYpXhTHScHJNw2uFaJIeRkkVOlS0MwHH4R4N586IIQ
-35zaosW2FK3JqZwcRNGnBNr+ad//tkm0Oa7vLFHTuYc2JSSViaHei7yb9Zy88vPRTOXGf2FAZgA2
-uwAwtaAWEGEAdYYhcevvX/TrnLc5fh+KMW3WMM6Tx/m7sT73o7/Zw26kLcAxfnm4bXLoS9uaQdo1
-4MgkzInTlgXvnMWcwvuIsc2Q9Q9QXzpoRPS9WG0xnzJjycxNBatvI8jqTtRZqocqUgZ3vgRJD6RI
-2u8PsYknMRCXNtWPUFAHU40vpKoSdZwU6AUuXlYT4pi6ZfbC7BZOPN0J4N1FG8VisZeKmFRNqVZT
-fQRL54Gu+mPh6obBnstJlYPXCUJ7h5+vbCU02ZRy9MZz04f/fLVQl9raVw2W6jJqYJcac9jP2H0A
-N+vdkKyKoVvENNIHf3DVknRA4RO=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ShoppingContent\Resource;
+
+use Google\Service\ShoppingContent\Datafeed;
+use Google\Service\ShoppingContent\DatafeedsCustomBatchRequest;
+use Google\Service\ShoppingContent\DatafeedsCustomBatchResponse;
+use Google\Service\ShoppingContent\DatafeedsFetchNowResponse;
+use Google\Service\ShoppingContent\DatafeedsListResponse;
+
+/**
+ * The "datafeeds" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $contentService = new Google\Service\ShoppingContent(...);
+ *   $datafeeds = $contentService->datafeeds;
+ *  </code>
+ */
+class Datafeeds extends \Google\Service\Resource
+{
+  /**
+   * Deletes, fetches, gets, inserts and updates multiple datafeeds in a single
+   * request. (datafeeds.custombatch)
+   *
+   * @param DatafeedsCustomBatchRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return DatafeedsCustomBatchResponse
+   */
+  public function custombatch(DatafeedsCustomBatchRequest $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('custombatch', [$params], DatafeedsCustomBatchResponse::class);
+  }
+  /**
+   * Deletes a datafeed configuration from your Merchant Center account.
+   * (datafeeds.delete)
+   *
+   * @param string $merchantId The ID of the account that manages the datafeed.
+   * This account cannot be a multi-client account.
+   * @param string $datafeedId The ID of the datafeed.
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($merchantId, $datafeedId, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'datafeedId' => $datafeedId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Invokes a fetch for the datafeed in your Merchant Center account. If you need
+   * to call this method more than once per day, we recommend you use the Products
+   * service to update your product data. (datafeeds.fetchnow)
+   *
+   * @param string $merchantId The ID of the account that manages the datafeed.
+   * This account cannot be a multi-client account.
+   * @param string $datafeedId The ID of the datafeed to be fetched.
+   * @param array $optParams Optional parameters.
+   * @return DatafeedsFetchNowResponse
+   */
+  public function fetchnow($merchantId, $datafeedId, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'datafeedId' => $datafeedId];
+    $params = array_merge($params, $optParams);
+    return $this->call('fetchnow', [$params], DatafeedsFetchNowResponse::class);
+  }
+  /**
+   * Retrieves a datafeed configuration from your Merchant Center account.
+   * (datafeeds.get)
+   *
+   * @param string $merchantId The ID of the account that manages the datafeed.
+   * This account cannot be a multi-client account.
+   * @param string $datafeedId The ID of the datafeed.
+   * @param array $optParams Optional parameters.
+   * @return Datafeed
+   */
+  public function get($merchantId, $datafeedId, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'datafeedId' => $datafeedId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Datafeed::class);
+  }
+  /**
+   * Registers a datafeed configuration with your Merchant Center account.
+   * (datafeeds.insert)
+   *
+   * @param string $merchantId The ID of the account that manages the datafeed.
+   * This account cannot be a multi-client account.
+   * @param Datafeed $postBody
+   * @param array $optParams Optional parameters.
+   * @return Datafeed
+   */
+  public function insert($merchantId, Datafeed $postBody, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Datafeed::class);
+  }
+  /**
+   * Lists the configurations for datafeeds in your Merchant Center account.
+   * (datafeeds.listDatafeeds)
+   *
+   * @param string $merchantId The ID of the account that manages the datafeeds.
+   * This account cannot be a multi-client account.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string maxResults The maximum number of products to return in the
+   * response, used for paging.
+   * @opt_param string pageToken The token returned by the previous request.
+   * @return DatafeedsListResponse
+   */
+  public function listDatafeeds($merchantId, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], DatafeedsListResponse::class);
+  }
+  /**
+   * Updates a datafeed configuration of your Merchant Center account. Any fields
+   * that are not provided are deleted from the resource. (datafeeds.update)
+   *
+   * @param string $merchantId The ID of the account that manages the datafeed.
+   * This account cannot be a multi-client account.
+   * @param string $datafeedId The ID of the datafeed.
+   * @param Datafeed $postBody
+   * @param array $optParams Optional parameters.
+   * @return Datafeed
+   */
+  public function update($merchantId, $datafeedId, Datafeed $postBody, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'datafeedId' => $datafeedId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Datafeed::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Datafeeds::class, 'Google_Service_ShoppingContent_Resource_Datafeeds');

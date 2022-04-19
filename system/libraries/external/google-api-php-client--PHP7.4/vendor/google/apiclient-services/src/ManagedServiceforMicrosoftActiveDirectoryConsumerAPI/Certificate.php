@@ -1,66 +1,79 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-S0TzxmTiyos4fQuFzea=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ManagedServiceforMicrosoftActiveDirectoryConsumerAPI;
+
+class Certificate extends \Google\Collection
+{
+  protected $collection_key = 'subjectAlternativeName';
+  public $expireTime;
+  protected $issuingCertificateType = Certificate::class;
+  protected $issuingCertificateDataType = '';
+  public $subject;
+  public $subjectAlternativeName;
+  public $thumbprint;
+
+  public function setExpireTime($expireTime)
+  {
+    $this->expireTime = $expireTime;
+  }
+  public function getExpireTime()
+  {
+    return $this->expireTime;
+  }
+  /**
+   * @param Certificate
+   */
+  public function setIssuingCertificate(Certificate $issuingCertificate)
+  {
+    $this->issuingCertificate = $issuingCertificate;
+  }
+  /**
+   * @return Certificate
+   */
+  public function getIssuingCertificate()
+  {
+    return $this->issuingCertificate;
+  }
+  public function setSubject($subject)
+  {
+    $this->subject = $subject;
+  }
+  public function getSubject()
+  {
+    return $this->subject;
+  }
+  public function setSubjectAlternativeName($subjectAlternativeName)
+  {
+    $this->subjectAlternativeName = $subjectAlternativeName;
+  }
+  public function getSubjectAlternativeName()
+  {
+    return $this->subjectAlternativeName;
+  }
+  public function setThumbprint($thumbprint)
+  {
+    $this->thumbprint = $thumbprint;
+  }
+  public function getThumbprint()
+  {
+    return $this->thumbprint;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Certificate::class, 'Google_Service_ManagedServiceforMicrosoftActiveDirectoryConsumerAPI_Certificate');

@@ -1,68 +1,104 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DomainsRDAP;
+
+class RdapResponse extends \Google\Collection
+{
+  protected $collection_key = 'rdapConformance';
+  public $description;
+  public $errorCode;
+  protected $jsonResponseType = HttpBody::class;
+  protected $jsonResponseDataType = '';
+  public $lang;
+  protected $noticesType = Notice::class;
+  protected $noticesDataType = 'array';
+  public $rdapConformance;
+  public $title;
+
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setErrorCode($errorCode)
+  {
+    $this->errorCode = $errorCode;
+  }
+  public function getErrorCode()
+  {
+    return $this->errorCode;
+  }
+  /**
+   * @param HttpBody
+   */
+  public function setJsonResponse(HttpBody $jsonResponse)
+  {
+    $this->jsonResponse = $jsonResponse;
+  }
+  /**
+   * @return HttpBody
+   */
+  public function getJsonResponse()
+  {
+    return $this->jsonResponse;
+  }
+  public function setLang($lang)
+  {
+    $this->lang = $lang;
+  }
+  public function getLang()
+  {
+    return $this->lang;
+  }
+  /**
+   * @param Notice[]
+   */
+  public function setNotices($notices)
+  {
+    $this->notices = $notices;
+  }
+  /**
+   * @return Notice[]
+   */
+  public function getNotices()
+  {
+    return $this->notices;
+  }
+  public function setRdapConformance($rdapConformance)
+  {
+    $this->rdapConformance = $rdapConformance;
+  }
+  public function getRdapConformance()
+  {
+    return $this->rdapConformance;
+  }
+  public function setTitle($title)
+  {
+    $this->title = $title;
+  }
+  public function getTitle()
+  {
+    return $this->title;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(RdapResponse::class, 'Google_Service_DomainsRDAP_RdapResponse');

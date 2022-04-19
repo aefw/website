@@ -1,63 +1,54 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+namespace PhpOffice\PhpSpreadsheet\Writer\Ods;
+
+use PhpOffice\PhpSpreadsheet\Shared\XMLWriter;
+use PhpOffice\PhpSpreadsheet\Spreadsheet;
+
+class Settings extends WriterPart
+{
+    /**
+     * Write settings.xml to XML format.
+     *
+     * @param Spreadsheet $spreadsheet
+     *
+     * @throws \PhpOffice\PhpSpreadsheet\Writer\Exception
+     *
+     * @return string XML Output
+     */
+    public function write(Spreadsheet $spreadsheet = null)
+    {
+        $objWriter = null;
+        if ($this->getParentWriter()->getUseDiskCaching()) {
+            $objWriter = new XMLWriter(XMLWriter::STORAGE_DISK, $this->getParentWriter()->getDiskCachingDirectory());
+        } else {
+            $objWriter = new XMLWriter(XMLWriter::STORAGE_MEMORY);
+        }
+
+        // XML header
+        $objWriter->startDocument('1.0', 'UTF-8');
+
+        // Settings
+        $objWriter->startElement('office:document-settings');
+        $objWriter->writeAttribute('xmlns:office', 'urn:oasis:names:tc:opendocument:xmlns:office:1.0');
+        $objWriter->writeAttribute('xmlns:xlink', 'http://www.w3.org/1999/xlink');
+        $objWriter->writeAttribute('xmlns:config', 'urn:oasis:names:tc:opendocument:xmlns:config:1.0');
+        $objWriter->writeAttribute('xmlns:ooo', 'http://openoffice.org/2004/office');
+        $objWriter->writeAttribute('office:version', '1.2');
+
+        $objWriter->startElement('office:settings');
+        $objWriter->startElement('config:config-item-set');
+        $objWriter->writeAttribute('config:name', 'ooo:view-settings');
+        $objWriter->startElement('config:config-item-map-indexed');
+        $objWriter->writeAttribute('config:name', 'Views');
+        $objWriter->endElement();
+        $objWriter->endElement();
+        $objWriter->startElement('config:config-item-set');
+        $objWriter->writeAttribute('config:name', 'ooo:configuration-settings');
+        $objWriter->endElement();
+        $objWriter->endElement();
+        $objWriter->endElement();
+
+        return $objWriter->getData();
+    }
+}

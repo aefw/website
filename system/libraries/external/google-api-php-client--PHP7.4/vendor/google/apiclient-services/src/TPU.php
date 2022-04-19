@@ -1,69 +1,355 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for TPU (v1).
+ *
+ * <p>
+ * TPU API provides customers with access to Google TPU technology.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/tpu/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class TPU extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+
+  public $projects_locations;
+  public $projects_locations_acceleratorTypes;
+  public $projects_locations_nodes;
+  public $projects_locations_operations;
+  public $projects_locations_tensorflowVersions;
+
+  /**
+   * Constructs the internal representation of the TPU service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://tpu.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'tpu';
+
+    $this->projects_locations = new TPU\Resource\ProjectsLocations(
+        $this,
+        $this->serviceName,
+        'locations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+name}/locations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_acceleratorTypes = new TPU\Resource\ProjectsLocationsAcceleratorTypes(
+        $this,
+        $this->serviceName,
+        'acceleratorTypes',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/acceleratorTypes',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_nodes = new TPU\Resource\ProjectsLocationsNodes(
+        $this,
+        $this->serviceName,
+        'nodes',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/nodes',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'nodeId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/nodes',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'reimage' => [
+              'path' => 'v1/{+name}:reimage',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'start' => [
+              'path' => 'v1/{+name}:start',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'stop' => [
+              'path' => 'v1/{+name}:stop',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_operations = new TPU\Resource\ProjectsLocationsOperations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'cancel' => [
+              'path' => 'v1/{+name}:cancel',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+name}/operations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_tensorflowVersions = new TPU\Resource\ProjectsLocationsTensorflowVersions(
+        $this,
+        $this->serviceName,
+        'tensorflowVersions',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/tensorflowVersions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(TPU::class, 'Google_Service_TPU');

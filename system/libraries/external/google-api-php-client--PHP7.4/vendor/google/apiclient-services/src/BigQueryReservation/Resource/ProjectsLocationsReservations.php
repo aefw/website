@@ -1,70 +1,122 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\BigQueryReservation\Resource;
+
+use Google\Service\BigQueryReservation\BigqueryreservationEmpty;
+use Google\Service\BigQueryReservation\ListReservationsResponse;
+use Google\Service\BigQueryReservation\Reservation;
+
+/**
+ * The "reservations" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $bigqueryreservationService = new Google\Service\BigQueryReservation(...);
+ *   $reservations = $bigqueryreservationService->reservations;
+ *  </code>
+ */
+class ProjectsLocationsReservations extends \Google\Service\Resource
+{
+  /**
+   * Creates a new reservation resource. (reservations.create)
+   *
+   * @param string $parent Required. Project, location. E.g.,
+   * `projects/myproject/locations/US`
+   * @param Reservation $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string reservationId The reservation ID. This field must only
+   * contain lower case alphanumeric characters or dash. Max length is 64
+   * characters.
+   * @return Reservation
+   */
+  public function create($parent, Reservation $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Reservation::class);
+  }
+  /**
+   * Deletes a reservation. Returns `google.rpc.Code.FAILED_PRECONDITION` when
+   * reservation has assignments. (reservations.delete)
+   *
+   * @param string $name Required. Resource name of the reservation to retrieve.
+   * E.g., `projects/myproject/locations/US/reservations/team1-prod`
+   * @param array $optParams Optional parameters.
+   * @return BigqueryreservationEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], BigqueryreservationEmpty::class);
+  }
+  /**
+   * Returns information about the reservation. (reservations.get)
+   *
+   * @param string $name Required. Resource name of the reservation to retrieve.
+   * E.g., `projects/myproject/locations/US/reservations/team1-prod`
+   * @param array $optParams Optional parameters.
+   * @return Reservation
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Reservation::class);
+  }
+  /**
+   * Lists all the reservations for the project in the specified location.
+   * (reservations.listProjectsLocationsReservations)
+   *
+   * @param string $parent Required. The parent resource name containing project
+   * and location, e.g.: `projects/myproject/locations/US`
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The maximum number of items to return per page.
+   * @opt_param string pageToken The next_page_token value returned from a
+   * previous List request, if any.
+   * @return ListReservationsResponse
+   */
+  public function listProjectsLocationsReservations($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListReservationsResponse::class);
+  }
+  /**
+   * Updates an existing reservation resource. (reservations.patch)
+   *
+   * @param string $name The resource name of the reservation, e.g.,
+   * `projects/locations/reservations/team1-prod`.
+   * @param Reservation $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Standard field mask for the set of fields to be
+   * updated.
+   * @return Reservation
+   */
+  public function patch($name, Reservation $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Reservation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsReservations::class, 'Google_Service_BigQueryReservation_Resource_ProjectsLocationsReservations');

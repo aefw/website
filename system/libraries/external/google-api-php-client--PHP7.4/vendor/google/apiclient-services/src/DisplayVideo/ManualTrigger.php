@@ -1,66 +1,89 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DisplayVideo;
+
+class ManualTrigger extends \Google\Model
+{
+  public $activationDurationMinutes;
+  public $advertiserId;
+  public $displayName;
+  public $latestActivationTime;
+  public $name;
+  public $state;
+  public $triggerId;
+
+  public function setActivationDurationMinutes($activationDurationMinutes)
+  {
+    $this->activationDurationMinutes = $activationDurationMinutes;
+  }
+  public function getActivationDurationMinutes()
+  {
+    return $this->activationDurationMinutes;
+  }
+  public function setAdvertiserId($advertiserId)
+  {
+    $this->advertiserId = $advertiserId;
+  }
+  public function getAdvertiserId()
+  {
+    return $this->advertiserId;
+  }
+  public function setDisplayName($displayName)
+  {
+    $this->displayName = $displayName;
+  }
+  public function getDisplayName()
+  {
+    return $this->displayName;
+  }
+  public function setLatestActivationTime($latestActivationTime)
+  {
+    $this->latestActivationTime = $latestActivationTime;
+  }
+  public function getLatestActivationTime()
+  {
+    return $this->latestActivationTime;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setState($state)
+  {
+    $this->state = $state;
+  }
+  public function getState()
+  {
+    return $this->state;
+  }
+  public function setTriggerId($triggerId)
+  {
+    $this->triggerId = $triggerId;
+  }
+  public function getTriggerId()
+  {
+    return $this->triggerId;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ManualTrigger::class, 'Google_Service_DisplayVideo_ManualTrigger');

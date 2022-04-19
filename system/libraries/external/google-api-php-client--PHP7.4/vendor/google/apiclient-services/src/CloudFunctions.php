@@ -1,65 +1,274 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for CloudFunctions (v1).
+ *
+ * <p>
+ * Manages lightweight user-provided functions executed in response to events.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/functions" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class CloudFunctions extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+
+  public $operations;
+  public $projects_locations;
+  public $projects_locations_functions;
+
+  /**
+   * Constructs the internal representation of the CloudFunctions service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://cloudfunctions.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'cloudfunctions';
+
+    $this->operations = new CloudFunctions\Resource\Operations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/operations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'name' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations = new CloudFunctions\Resource\ProjectsLocations(
+        $this,
+        $this->serviceName,
+        'locations',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/{+name}/locations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_functions = new CloudFunctions\Resource\ProjectsLocationsFunctions(
+        $this,
+        $this->serviceName,
+        'functions',
+        [
+          'methods' => [
+            'call' => [
+              'path' => 'v1/{+name}:call',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1/{+location}/functions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'location' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'generateDownloadUrl' => [
+              'path' => 'v1/{+name}:generateDownloadUrl',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'generateUploadUrl' => [
+              'path' => 'v1/{+parent}/functions:generateUploadUrl',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1/{+resource}:getIamPolicy',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'options.requestedPolicyVersion' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/functions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(CloudFunctions::class, 'Google_Service_CloudFunctions');

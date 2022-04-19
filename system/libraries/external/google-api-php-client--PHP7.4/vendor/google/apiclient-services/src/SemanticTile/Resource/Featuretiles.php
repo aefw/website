@@ -1,45 +1,109 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\SemanticTile\Resource;
+
+use Google\Service\SemanticTile\FeatureTile;
+
+/**
+ * The "featuretiles" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $vectortileService = new Google\Service\SemanticTile(...);
+ *   $featuretiles = $vectortileService->featuretiles;
+ *  </code>
+ */
+class Featuretiles extends \Google\Service\Resource
+{
+  /**
+   * Gets a feature tile by its tile resource name. (featuretiles.get)
+   *
+   * @param string $name Required. Resource name of the tile. The tile resource
+   * name is prefixed by its collection ID `tiles/` followed by the resource ID,
+   * which encodes the tile's global x and y coordinates and zoom level as `@,,z`.
+   * For example, `tiles/@1,2,3z`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool alwaysIncludeBuildingFootprints Flag indicating whether the
+   * returned tile will always contain 2.5D footprints for structures. If
+   * enabled_modeled_volumes is set, this will mean that structures will have both
+   * their 3D models and 2.5D footprints returned.
+   * @opt_param string clientInfo.apiClient API client name and version. For
+   * example, the SDK calling the API. The exact format is up to the client.
+   * @opt_param string clientInfo.applicationId Application ID, such as the
+   * package name on Android and the bundle identifier on iOS platforms.
+   * @opt_param string clientInfo.applicationVersion Application version number,
+   * such as "1.2.3". The exact format is application-dependent.
+   * @opt_param string clientInfo.deviceModel Device model as reported by the
+   * device. The exact format is platform-dependent.
+   * @opt_param string clientInfo.operatingSystem Operating system name and
+   * version as reported by the OS. For example, "Mac OS X 10.10.4". The exact
+   * format is platform-dependent.
+   * @opt_param string clientInfo.platform Platform where the application is
+   * running.
+   * @opt_param string clientInfo.userId Required. A client-generated user ID. The
+   * ID should be generated and persisted during the first user session or
+   * whenever a pre-existing ID is not found. The exact format is up to the
+   * client. This must be non-empty in a GetFeatureTileRequest (whether via the
+   * header or GetFeatureTileRequest.client_info).
+   * @opt_param string clientTileVersionId Optional version id identifying the
+   * tile that is already in the client's cache. This field should be populated
+   * with the most recent version_id value returned by the API for the requested
+   * tile. If the version id is empty the server always returns a newly rendered
+   * tile. If it is provided the server checks if the tile contents would be
+   * identical to one that's already on the client, and if so, returns a stripped-
+   * down response tile with STATUS_OK_DATA_UNCHANGED instead.
+   * @opt_param bool enableDetailedHighwayTypes Flag indicating whether detailed
+   * highway types should be returned. If this is set, the
+   * CONTROLLED_ACCESS_HIGHWAY type may be returned. If not, then these highways
+   * will have the generic HIGHWAY type. This exists for backwards compatibility
+   * reasons.
+   * @opt_param bool enableFeatureNames Flag indicating whether human-readable
+   * names should be returned for features. If this is set, the display_name field
+   * on the feature will be filled out.
+   * @opt_param bool enableModeledVolumes Flag indicating whether 3D building
+   * models should be enabled. If this is set structures will be returned as 3D
+   * modeled volumes rather than 2.5D extruded areas where possible.
+   * @opt_param bool enablePoliticalFeatures Flag indicating whether political
+   * features should be returned.
+   * @opt_param bool enablePrivateRoads Flag indicating whether the returned tile
+   * will contain road features that are marked private. Private roads are
+   * indicated by the Feature.segment_info.road_info.is_private field.
+   * @opt_param bool enableUnclippedBuildings Flag indicating whether unclipped
+   * buildings should be returned. If this is set, building render ops will extend
+   * beyond the tile boundary. Buildings will only be returned on the tile that
+   * contains their centroid.
+   * @opt_param string languageCode Required. The BCP-47 language code
+   * corresponding to the language in which the name was requested, such as "en-
+   * US" or "sr-Latn". For more information, see
+   * http://www.unicode.org/reports/tr35/#Unicode_locale_identifier.
+   * @opt_param string regionCode Required. The Unicode country/region code (CLDR)
+   * of the location from which the request is coming from, such as "US" and
+   * "419". For more information, see
+   * http://www.unicode.org/reports/tr35/#unicode_region_subtag.
+   * @return FeatureTile
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], FeatureTile::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Featuretiles::class, 'Google_Service_SemanticTile_Resource_Featuretiles');

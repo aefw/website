@@ -1,82 +1,81 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-K6I/hHrc0NxAiA84yuat
+<?php
+
+/**
+ * PHP Montgomery Modular Exponentiation Engine with interleaved multiplication
+ *
+ * PHP version 5 and 7
+ *
+ * @category  Math
+ * @package   BigInteger
+ * @author    Jim Wigginton <terrafrost@php.net>
+ * @copyright 2017 Jim Wigginton
+ * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      http://pear.php.net/package/Math_BigInteger
+ */
+
+namespace phpseclib3\Math\BigInteger\Engines\PHP\Reductions;
+
+use phpseclib3\Math\BigInteger\Engines\PHP\Base;
+
+/**
+ * PHP Montgomery Modular Exponentiation Engine with interleaved multiplication
+ *
+ * @package PHP
+ * @author  Jim Wigginton <terrafrost@php.net>
+ * @access  public
+ */
+abstract class MontgomeryMult extends Montgomery
+{
+    /**
+     * Montgomery Multiply
+     *
+     * Interleaves the montgomery reduction and long multiplication algorithms together as described in
+     * {@link http://www.cacr.math.uwaterloo.ca/hac/about/chap14.pdf#page=13 HAC 14.36}
+     *
+     * @see self::_prepMontgomery()
+     * @see self::_montgomery()
+     * @access private
+     * @param array $x
+     * @param array $y
+     * @param array $m
+     * @param string $class
+     * @return array
+     */
+    public static function multiplyReduce(array $x, array $y, array $m, $class)
+    {
+        // the following code, although not callable, can be run independently of the above code
+        // although the above code performed better in my benchmarks the following could might
+        // perform better under different circumstances. in lieu of deleting it it's just been
+        // made uncallable
+
+        static $cache = [
+            self::VARIABLE => [],
+            self::DATA => []
+        ];
+
+        if (($key = array_search($m, $cache[self::VARIABLE])) === false) {
+            $key = count($cache[self::VARIABLE]);
+            $cache[self::VARIABLE][] = $m;
+            $cache[self::DATA][] = self::modInverse67108864($m, $class);
+        }
+
+        $n = max(count($x), count($y), count($m));
+        $x = array_pad($x, $n, 0);
+        $y = array_pad($y, $n, 0);
+        $m = array_pad($m, $n, 0);
+        $a = [self::VALUE => self::array_repeat(0, $n + 1)];
+        for ($i = 0; $i < $n; ++$i) {
+            $temp = $a[self::VALUE][0] + $x[$i] * $y[0];
+            $temp = $temp - $class::BASE_FULL * ($class::BASE === 26 ? intval($temp / 0x4000000) : ($temp >> 31));
+            $temp = $temp * $cache[self::DATA][$key];
+            $temp = $temp - $class::BASE_FULL * ($class::BASE === 26 ? intval($temp / 0x4000000) : ($temp >> 31));
+            $temp = $class::addHelper($class::regularMultiply([$x[$i]], $y), false, $class::regularMultiply([$temp], $m), false);
+            $a = $class::addHelper($a[self::VALUE], false, $temp[self::VALUE], false);
+            $a[self::VALUE] = array_slice($a[self::VALUE], 1);
+        }
+        if (self::compareHelper($a[self::VALUE], false, $m, false) >= 0) {
+            $a = $class::subtractHelper($a[self::VALUE], false, $m, false);
+        }
+        return $a[self::VALUE];
+    }
+}

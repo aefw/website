@@ -1,85 +1,231 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPx45NbCMmw9ady/BS6/BGIN4Xcv0d0c7EyEL72F0Gktzpqip0EfrtNR68GdmyhhkbfbznrC6
-rxPH9h1fpIs0HbZplU8AfG+d+CEsVauZ7fmT7KuIPUxla0U7FW4C0fx8IV6BDbJxoUvpmfEl5/2w
-TaOL6qVRv0r6AUP4Myy8cybL5ORJBREUdQnj6CS3c/Wi2ccIQgpzDIIKG0aprRUlEy5SOCR4Jwiw
-Nuy6/GDBXvY1Cl/WWYpnDbA0gnM3N+xTGXPNik5jAMDxhSa8dneHe2Xo1plYS5CkDLI4g2o1fZvA
-1ULL2siB6amUcbc5Zv43Y5Hc1GLjt0JX4evtI+JMbRkdRxZlqYhTU5YROnz/zIPprVUoiTYU4LZZ
-RsobNE8+g4kkhMUcaPSUU2KRIySxhEfw9FCRnDdj4Pv+xATzSSMwLaEnnh3mXxdXjEPOaC/yTWw4
-MG205ziJ6/Mp+1nhO+VNteKGAv4is6HfnyXpbtUxKvhukEp638bIioYUyMUFkOSViZylWEmWYCBI
-KqZY0Hf2N0wVkG7vfC+FmLHZSz5kXKzKMKM+zZ6iuiZKQKx0PAvP4lpA0b81QNZXA9XHf+FAzUEV
-PGFpsz4oJnQcopfOl/XvTcvKwLqkIj8EqDxgrFKKx0mcOi3qFikS3nsdJqI5A+1828ahEKVdHjcd
-4uElItq0UYZQtw/Uy8E6Xrm2DvFeGo3kPoqLHzSrDFYCx/SMcOaFR3wdxpaM1qQCxbh2yjKlqH+2
-gPFRrsk84cV73fdl1xVW0HhgBQA6RF5dFNjgOsHmiKm4yWweZEzRblX/AUpepWDggslhjBPj9Fw5
-AunyZFUOCRiatrQrgTdEpPL0qHMKj4hmMBU5p94S9tTfSQ7lyv3OWE9nq/kCpRjQGgkT4nbF8acg
-gkfaeru5RM/o95u5YP9V9Z2ne9JnsgSTdbCvQCUVAvV/t5uh9Nsh/EYWtoXhgIVXAgrmGjGdAWM4
-/TkQIa6nG81nqI6qiOmEXZkz/Id77U3fVwnvlSQ+sQDixQe9/SgY+BzX+S/f2BkWPwTQdDt2nwoC
-OPs6EliYSO5mV7MKeCy0uzHrBT/uKfzUlH4KZcmJrQKgRx3QTsMbVvPzztm1dSEkRDlx3r/z0/9I
-nOpWBPxWqy4eoUHw0bXy0JGranLq+EUY6KEbi84kMTWWmOO2wY1e4pBjgnTOrHM7fVSRGn+9gHoZ
-oc2cVG/M0qdajFSoi8/Ey4BOPB+3PgEx1DJB3CrNCZMkQ/NCh+o+pMK7Wrvfb9blBa6CYyRJYja2
-XKly0p89o55ccH30TFua/ncRfDrjzwYi5vdXVM4J6iLq41jj+pznrMMa60Q0d8UFcibygQ/g503B
-gnvAw1UjQ+Vk3EX34eQKOMttXRnQxcVD52XYNNi0NPog2NgUkDuz07c2YO4fA8NmtSGdTCBlzCyd
-pHHIlKUtAhZkH2TZn7pDSAdUJmMUhru6xuLa/jZYdkva2mSku9ESC7AJQOvuX3LEeHOv78n900BA
-51VcN0BHgddvFOAl+t/ZHiZpcWwbQ89N5hHReTZopqa7712QlpCffUP6v4nG6jjxeP6C88rXbzm+
-YVSw4ZkkKS+NinI0GpUmh/nvVX4ZP/6IOZOGZGJ5emR3T/g73DwDJSR8Y2kpvO4znpVk1emjMFIC
-0/xTcdovb12fAjR3UjzG6zf30t2AxlChABkhvBz75HI5GZv6RYck9bYKUEMyAqIKQMfnkmQg6VHE
-+ygk2PpfVTXbAwlZw51iXyeglGVaP3YxyaZYfzK41Qsu0dJoaC5+VfZBY/VR1L2S+mNyicTa6qhT
-MviTAOsLioH05HI/YiFoXZTNfWwxycATu6CG8kdZHG3l3oG18uLfGQ0OTnOlVRzVOhEuaXaGTHjK
-hdGxVXCQmJUkQJLoXBGlXv6dJ/8/4FSGEFT1S0wnE4R/jCtiyBEPVpXTDccZRAJzAGGj7n30Pzyf
-nfBFhZgpD7QBZh5SAA+WJYXRa/79PyAnKcvC4jlZ+ZkbKh+cS+sdFHshqvZPGOhrGwq14+y3Zna5
-jh4aPInxZ9pvItYIBBO6/rBkjmLG4rauTlcC8F+4yCwSCxDb9IQ9dP++NicVd73Jz+IbhdWiJfz9
-A1HncQyUnY3KAMHZzmZUpiWoWUq9Oh2fHayQvWCiYiyBJ2BRxax9SBmJK75GKpGNaPyzLnpEnEdz
-7ApIBSr/hwMlsWG9ogMRy1h5ALn9h3zVMYSpX8jMBkTZz8JHWlvcaX+V1N32HcOiCpCa7+7wpCpI
-q3i8thaJeZuH0h1CSKkJ/CDl3J+VGavn4qYYXCjwCbzjNzS/4q8i/OA5EGCRvvuuURGPCOZ6H3b6
-LFWG7i1gFyMyqHVyt4mzkeD6anxS5tFf5PXHV+mDm6fO8P/38ahEQO8rEWYXwGbLvvQlmp8QrY6q
-XXOmwxb7kpCwDlUG1KPeqWg2VXn9Qt03cN2MlDvuucE7R7CaD9Eac0hvsDcH7+XyPR4geS64Et5k
-c1Rcp5M61cNy8enyduZoJ35K6gIW3U3XHw6/NeX0n5q+GBjsbI/mQvsViu8fhQI9aUC6ckVlDPAt
-3tN2WhISfDdezDJPYClUSzxEXHdPeO49Feoc8NiOsMzzhZI8DGPTND76iOtxJ/8i65QbUB+YJmQA
-ZVa+Y6aaOgPE356XIlY3RUxeM/CWGqVuBlzOWG9lfksEv2l63LQpi3c+sk9KTH+xO7Jv/U1iqmni
-+1Utl5lXJpIlt91U7e++KlF+0CBLIul5CMg7eO2Za+iKYtahBJEu3pxF0VRUBn6xWzZJXLavs9az
-laDMnGg8VnKu9XyRPxgcWMg3AD+0nAFPSXf3MkXViS3OWbgbr3NLN1OTaXbWtsv4LK0tHAkLPkph
-gD3c00TpLeJ5h8GcXdJV/frdRDih2ALJP2i9cUsfO8VOE6Fa2UxZwZEPXbkSdQH3qgktvp9qVx+l
-pB5+SBeVavAHYdRMlD6kCz83UkN5khKxTaAuyMpUf7r2GNdu6n9zYO934e0EP3kek+MRj2Locruz
-woDy3+3qgoD1e5FFS5IQ4xrHOnHD1kZh7wHQoPveoJK/wxwMH9O2xPqwiLs7XliiTaq1kKf5Dp2A
-xb5M9nIAd798lmMycdjNZthjm9tuFv9AWZhPOOWP4C94HZJiq/nAULKx1V83uaYZYa/DXiqhqRxF
-n2vTfjswwqh9YlLukQ637q9UqhJ9gli93ob0W4tYLsgxIJaVKwHA/a7Ut3tkV/AgJ4TwQkgx+rX9
-YjbOKdljCnIHBp3qd1XdfJ8fs+t6TNX3xbNYkWPO/I65Ohb1KwJfiw6XGSHXEaR7dvDi7zIJx4/t
-7FJVAjKCmR/ixqKWYZ8Z2ciblCqVQvPdg4xrKHIkcentp+XDXn3q3BOo2FqDESZ9pWe9qK/tCLBC
-rCPoPXdgGBlnfIamHXPshhojhES0Bk6u4ABOOZafzrnW1Eb8BvUywyX2E4CGyptDbng9HwQGnUeL
-EcNTxqMAshLIgaXB514Fzmm9CWKM9vzkWtfm12w2TYJ1IeLLyb0OUNFab3VGSEdZMfXdCKGOQqMH
-rtFAOF6XyZvWwedf2QyWkQv1TtVi51qLNMpeQcDmOt2NPeZURK66W7/GUPHGvhDJbud0DzKH5Nsg
-M4Eai52mOs6gG5eXKiYURrTspN77pFUbLfXswhiWdmvIjW+nfsagL8hEXAZpnd0tiyvLxi+b/haV
-JlaiVYw3nk99/g/n+vQBhvQLrTadjSBfo0L7/Kyaht/DAN8sWDE7OA1TLTA5aisSaZXe39E9pOGu
-HWFxT1yY1CGNHSU2WmgsZvTSYtncqToaXnwnY55CmVL/lbRkgcp3DYEIOsbjpUXizxCijVF0/2i1
-pJ64ar65IeRQ6F1PIee+btSbw2Ekk9px6maPvVmsSa29h4O+D6z88JbY5EZVY+ItZsSPQWWYrffy
-5/gYCz+k4uL0JuqXakEASFYeDxBeP0bRFraxwl0GN+dWNBXZ2THeB0f8z7gItEJ2oLhYAqpmME+E
-fBdDSRPYJap1YTnzZgZYgdVRlAzxUeulpW+A3o0bXOx6CPp+aqDgcLsAQxT/kTXYuQMxEencC6d4
-XtflHAOZCBDUxe0oEnr9CIb8mzohnD+92067C1wJhWy5c71haArKvlOR+5//rAnN/6lOuPIMrE34
-yQnckT32/OI6mKd9PbHU5nD+jgAWgVpFVn8XshUs2JESp8tTsN0EEbjwd0Cey/BZnB8IlmyUtWEJ
-lwfV0d3dbzWUnZLTpmAokRuWSko1esyZXRdUIwvLE0CwMl1/ek2d5e5rVCZ7IqPwjjWgjHUVijV7
-drJ3RK8+DNg3QKE03zjmJoOkXziUMZc7CBTnUPSrhw6ThQGGX99o/Kss2vy3qPSxYvN1z/wbk6ny
-S7/QmF6sDV5pB/Qg0ycIzew7LlgQ+PXsIaSV31gDo3/mxlQsSZ7KMnjj+va0Z3VOYq8ezSdGYI6m
-hR1DOnUAlReWbpSa0RvDFikZpbGTNri2C+GKxDEA9NGNuxJlbFzxbsPxKXszJSsbe92gzpe+UCFF
-EaOLPtrt53r7v5Idl6/J+o4qiMAjlI/c3xpdYRNGW1Ah0i44QuFaPumvedp2TIrrJNDCQ8zC5Grt
-/up/QIc18dri9b0mAD9F5WDwo+l1XUxutiBmpLLVkxx0pJ6vtWUSB2ehr0P/Bf2rpS7jhma6iGW7
-Kxrli1Dh0I4FuHSwOrkaPP38KVjNUX08T24uha7rU8nRXHL7c15rnAPFYZrRjCaSxPu/03Cshkyh
-oG9c5vZi8OHhfKiROX1lUCnDijxnHpuV8beHg/vWrNuBEINNAk5BZa6yX7yzoTHAzeOlVUeV5HmP
-GeBlxFAXiJf/IXW/fd9WkDEY5lNi4KgBTutJY0nDVGISc9YgWtmgq1ZDrqfVxe75J9IE7jN1CHi9
-vEX+Guk5lZ1XLogQef21bbdO60kMHUccE6qSoD5UQE89Ispt5Qr257kxYW1Bu/T6X3OAGxZPs6Py
-XBDhnNt57mgMC/byYs269c8gSQjCKR8Ktqal0ARuDghHYofnsJqkJr0/Z0P2sUvwiS0ACbh9bhZe
-G9P5BXBLqCrMdgQyMIOuD8p84+3APfU8mX+KvLifUK+4ki1tXKBpW0bpmghXFadbr+eX96JBKyfg
-xs8xyPuvq4j6Eug1I0WNo6Rfw3kFxJCJS1JOx4WVaRYbvf/SfzEt58+p4vENFUkesezvzgIYJMS/
-+T18HI9GZlZgUJbjU8VNZrrQr4i8g4ShE8XliV3m8VO5Z6ZDa7PkDs0iKSSLDhBJF//HXSzD9r7S
-hOiOrwlvHaRKF/5/lTN4eqO+wo0o8ywdXPG2tXu2bjlNO4mT9+4Jx4aZ8UViaR8CEmV7URdbrXmF
-L9fQm47BJW2G2bt/3FoI0lspTklBaoNSNgiFiFejLjb8EGDo3JJ79pwGnp4UuwC8IVvvYkwP/lx5
-UkoE25rT7uqZPb8VbfrJvNxL7VLkUiWnpG1Mebn63lsr8ZTtkh4iFOFnebNxeNh2qNSvuzT6LVy1
-ZkNHecc5gHKp0DjXIuIUrRvXhiarBu9ihlBF4pL8T2pilHaRMrLbOoCwei2/LHFb15tR/P6C71yR
-96pYi9++NFoCpO6GZwez2xnmBhtnE3VZCk0Ffs/OsynO1SJnXw2cW4rAflHhtaEQPmcPidNEFbwf
-ur52jwG+W95RW2CNbfqL9SumZcocdH6eoemth7KuN1XlhOOIwvdCwwzAcVTMdT1aYv4JABU+3jri
-7YDxWPY6vWlC8Oqsi4WNaVxh7WseADTmN2guiEobNebwPIc+cT38GFjb4aO7yp7tGOIgvO5fVcDw
-RQ1O/HhaXaNbv3kV33d6K6ad4x8cqQhNwLbcD1Oz+fQqxrPsyu8bTm6MTz39wwxfmxrv2cqiadNk
-jLNj1B5YK5BEGeBIGV4i7NOjO/GlrbQama4bCW==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\BigtableAdmin\Resource;
+
+use Google\Service\BigtableAdmin\Backup;
+use Google\Service\BigtableAdmin\BigtableadminEmpty;
+use Google\Service\BigtableAdmin\GetIamPolicyRequest;
+use Google\Service\BigtableAdmin\ListBackupsResponse;
+use Google\Service\BigtableAdmin\Operation;
+use Google\Service\BigtableAdmin\Policy;
+use Google\Service\BigtableAdmin\SetIamPolicyRequest;
+use Google\Service\BigtableAdmin\TestIamPermissionsRequest;
+use Google\Service\BigtableAdmin\TestIamPermissionsResponse;
+
+/**
+ * The "backups" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $bigtableadminService = new Google\Service\BigtableAdmin(...);
+ *   $backups = $bigtableadminService->backups;
+ *  </code>
+ */
+class ProjectsInstancesClustersBackups extends \Google\Service\Resource
+{
+  /**
+   * Starts creating a new Cloud Bigtable Backup. The returned backup long-running
+   * operation can be used to track creation of the backup. The metadata field
+   * type is CreateBackupMetadata. The response field type is Backup, if
+   * successful. Cancelling the returned operation will stop the creation and
+   * delete the backup. (backups.create)
+   *
+   * @param string $parent Required. This must be one of the clusters in the
+   * instance in which this table is located. The backup will be stored in this
+   * cluster. Values are of the form
+   * `projects/{project}/instances/{instance}/clusters/{cluster}`.
+   * @param Backup $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string backupId Required. The id of the backup to be created. The
+   * `backup_id` along with the parent `parent` are combined as
+   * {parent}/backups/{backup_id} to create the full backup name, of the form: `pr
+   * ojects/{project}/instances/{instance}/clusters/{cluster}/backups/{backup_id}`
+   * . This string must be between 1 and 50 characters in length and match the
+   * regex _a-zA-Z0-9*.
+   * @return Operation
+   */
+  public function create($parent, Backup $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Operation::class);
+  }
+  /**
+   * Deletes a pending or completed Cloud Bigtable backup. (backups.delete)
+   *
+   * @param string $name Required. Name of the backup to delete. Values are of the
+   * form `projects/{project}/instances/{instance}/clusters/{cluster}/backups/{bac
+   * kup}`.
+   * @param array $optParams Optional parameters.
+   * @return BigtableadminEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], BigtableadminEmpty::class);
+  }
+  /**
+   * Gets metadata on a pending or completed Cloud Bigtable Backup. (backups.get)
+   *
+   * @param string $name Required. Name of the backup. Values are of the form `pro
+   * jects/{project}/instances/{instance}/clusters/{cluster}/backups/{backup}`.
+   * @param array $optParams Optional parameters.
+   * @return Backup
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Backup::class);
+  }
+  /**
+   * Gets the access control policy for a Table resource. Returns an empty policy
+   * if the resource exists but does not have a policy set. (backups.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param GetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function getIamPolicy($resource, GetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Lists Cloud Bigtable backups. Returns both completed and pending backups.
+   * (backups.listProjectsInstancesClustersBackups)
+   *
+   * @param string $parent Required. The cluster to list backups from. Values are
+   * of the form `projects/{project}/instances/{instance}/clusters/{cluster}`. Use
+   * `{cluster} = '-'` to list backups for all clusters in an instance, e.g.,
+   * `projects/{project}/instances/{instance}/clusters/-`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters backups listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be <, >, <=,
+   * >=, !=, =, or :. Colon ':' represents a HAS operator which is roughly
+   * synonymous with equality. Filter rules are case insensitive. The fields
+   * eligible for filtering are: * `name` * `source_table` * `state` *
+   * `start_time` (and values are of the format YYYY-MM-DDTHH:MM:SSZ) * `end_time`
+   * (and values are of the format YYYY-MM-DDTHH:MM:SSZ) * `expire_time` (and
+   * values are of the format YYYY-MM-DDTHH:MM:SSZ) * `size_bytes` To filter on
+   * multiple expressions, provide each separate expression within parentheses. By
+   * default, each expression is an AND expression. However, you can include AND,
+   * OR, and NOT expressions explicitly. Some examples of using filters are: *
+   * `name:"exact"` --> The backup's name is the string "exact". * `name:howl` -->
+   * The backup's name contains the string "howl". * `source_table:prod` --> The
+   * source_table's name contains the string "prod". * `state:CREATING` --> The
+   * backup is pending creation. * `state:READY` --> The backup is fully created
+   * and ready for use. * `(name:howl) AND (start_time <
+   * \"2018-03-28T14:50:00Z\")` --> The backup name contains the string "howl" and
+   * start_time of the backup is before 2018-03-28T14:50:00Z. * `size_bytes >
+   * 10000000000` --> The backup's size is greater than 10GB
+   * @opt_param string orderBy An expression for specifying the sort order of the
+   * results of the request. The string value should specify one or more fields in
+   * Backup. The full syntax is described at https://aip.dev/132#ordering. Fields
+   * supported are: * name * source_table * expire_time * start_time * end_time *
+   * size_bytes * state For example, "start_time". The default sorting order is
+   * ascending. To specify descending order for the field, a suffix " desc" should
+   * be appended to the field name. For example, "start_time desc". Redundant
+   * space characters in the syntax are insigificant. If order_by is empty,
+   * results will be sorted by `start_time` in descending order starting from the
+   * most recently created backup.
+   * @opt_param int pageSize Number of backups to be returned in the response. If
+   * 0 or less, defaults to the server's maximum allowed page size.
+   * @opt_param string pageToken If non-empty, `page_token` should contain a
+   * next_page_token from a previous ListBackupsResponse to the same `parent` and
+   * with the same `filter`.
+   * @return ListBackupsResponse
+   */
+  public function listProjectsInstancesClustersBackups($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListBackupsResponse::class);
+  }
+  /**
+   * Updates a pending or completed Cloud Bigtable Backup. (backups.patch)
+   *
+   * @param string $name A globally unique identifier for the backup which cannot
+   * be changed. Values are of the form
+   * `projects/{project}/instances/{instance}/clusters/{cluster}/ backups/_a-
+   * zA-Z0-9*` The final segment of the name must be between 1 and 50 characters
+   * in length. The backup is stored in the cluster identified by the prefix of
+   * the backup name of the form
+   * `projects/{project}/instances/{instance}/clusters/{cluster}`.
+   * @param Backup $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. A mask specifying which fields (e.g.
+   * `expire_time`) in the Backup resource should be updated. This mask is
+   * relative to the Backup resource, not to the request message. The field mask
+   * must always be specified; this prevents any future fields from being erased
+   * accidentally by clients that do not know about them.
+   * @return Backup
+   */
+  public function patch($name, Backup $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Backup::class);
+  }
+  /**
+   * Sets the access control policy on a Table resource. Replaces any existing
+   * policy. (backups.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Returns permissions that the caller has on the specified table resource.
+   * (backups.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsInstancesClustersBackups::class, 'Google_Service_BigtableAdmin_Resource_ProjectsInstancesClustersBackups');

@@ -1,73 +1,165 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPo+Heb2kDHTdnratSz2tSzhzNbjJkZHhY9J8H/dHQXAQitj1hCR8UXY6pRsQQPqB89QqoEA3
-hbDIhSI6l5CcvgPwN14vMUJy8TwVEmVyaTeXy2qMBZzi0u/Sx8gVvnhS2ybpPXGWHEKpbWg5c+HF
-/R4Ok63IkmTcixHkEhB0QKF7rPyJoEGQNu/Sbh+u+TzlJoutjlyOCbd70TyncqM9Bb7SINefyST1
-N8pKcKy5BY3s3WatsE3z2qKoI/UgvujoqdowQrrTdV7JUqieJvihcWn3HU9mKourL8IeB86cFae5
-vLMBRyB5DUu81FBobcY8L6a5B/+AxWIybIKbfWmhMkC4drHtP1LsMLDdhzfjCWtBxjQTUE5uPmcr
-zTC7TDGO+KXXxfgeSPb22dqKCo6NK+LxhVEcmicFyCrrm2cXr/aBdkabWjcQi0DVPRbJsQn5qvGH
-fDpTAl6S8J6eYPJX0KLymeAjQpYroLZv9yk/exZXXryBdO4rvu7LeRC4mSX8TEtKk5Nzxw8IJZVb
-szdww3RYfnjqewjllvUIcimUuopfpmIYvW85oCpkxR9BkjuRKeVtDKqx5LTivrdx/F5wiqb7H23G
-KIdIu7xeTz6g1/3FkR0FkEP+1h5ID/i39RwTU/BAEBFVaMRrD2c9S/+KmJxbUiev/wjvNMGe8DP4
-aySuesY7o1blKSu/JB3oe2Wlb6egxxY5w/YNTFednSXjYmOnjXbhuagkm7KS3nUbtfgFfZGtK+Ml
-cyI4msVmmLuVHoTYsEz9OYpU0PogzmDNfh8vrzfOQskYWCCMROrxcX77lFszxRYPRCbZjgGbSNIs
-geMhsA7+ROwFYj3VlOsaddY1W607g8Gtmn7x5hjx36lph72kqieVBCp2h42T1dmd2qpXoZh42Y/p
-lEBc8vcBfRJhWcfODhWW2brF1bnD0d94/VhYkalURiXhDMudKtKN/KBKdZJssJW5xkF6uh+wDyMW
-u5CFdESamNQOt5BMv93hfpYQwbC5HFx8ljoJi4Grnuf78lHU+VHq0hRRgiG1K70OMNX/SacKpz72
-sehObH8MAcdoh6JfGV1vOJahgMP8pKdLrz+4mGnAplIOrCGMLEFYhWEDbvLGL0/NdsvtzdJsdmca
-Uw0rJczs2E2QtEutq1MC9CRNVMYjXTOFlAl2OGxiT2bQijL3LxMC0SNkt8IhYb2CLrruh6O6nCcm
-KOr9EL6zjMMBeeHQQgSNBzOThL4Ig6gR2P4CGQm3EnlHc1NuCWfg8VmiObMX8hfKSI1BmlLaahgi
-l5vqsgf4kUQ+b53Ppb+PtNUqU4XIeA7TrnXYzE16KlDJlnJR1irVSvbE932M/kMLuBK4528c58kH
-LF+MEhDWGf9f3z2PVsSqYbrdUdpJhVOGiY2r9Bxrcxp00QuERnsmF/g2fWhomZYFvgn51DP0yBn4
-1UqYiG5YxnKvfadlGgVGIwhCSgnPpkp0+mAZgS9caYHaNbwSPC02y1+BITigkM8km0sKYz2p14Ku
-pHvA/r42VYi8sdwI0BxTqXKHJj5aHntuI4kYKSJ4IEmwHSJHs0GxzRSnk/+ad1DxfIiV1U8AwV8A
-3Al2Qzz1gbnUbcIPA8JXQmlcaA6fqrNuR1n7CUbv3Au0l1SF1012hULaYkMLT05LEr8hseU5YCVt
-W6VX7hEPoEPWS796WnpJF+fePDJCSInhUuWEQMHtKKaww3xt3ZTuV6KUbPTt2cr0ONlnV8C/ckVh
-HxgqEornt1xcij4dWzxGqyQoG/F+lqpO83K0/3kN+zSFqKlBm0p3PLvD5t+VFm18YRahaqNxE9UN
-00PqCvEr3to0kN2cV3OxuscoENVqNmE6WLchZ2tGKEk3niTzXNSh4GX1mAoLM2s9tSH4XRlJa947
-SvyFeTTbd1rNoJuMmTHv8o3XuyHpEzcwXjUcAPcP8huk65dNSJJKLXxDyonHFJgeALM0RABkpHav
-GSG8qLq0R7wKx2XOWAMa+6wQLLN8TmNnSxB4LJUxihsKhNkzuDP2gTjhRQa7NTvmAurYchw44rcF
-usYRzcgf2207bTlqXocuk82LFlU3sW93yW1muj2suTeqbqynPDgXJxR8W2Z2i8xq96inmOiq4abN
-PDpj1+yhldqkwBtoKIlM85PZ4gEDz/CmJmlStripTtbtQFaeqpkB/thxuANkO+fu4TsWrrVNHULX
-MZUnrfuRbikS4Mwz/veESv64b7/k686ZM92H9p7rq1j2wdoWzD9JfCA0A6ApWYvKAWJtj31zbwVB
-uOORGZdQdM0OvUGzVBuQ2p9SZ3C1h9EAXFsHlx0d6UCeboZq5yxbTygpnsXflQZwCdQq4KOxdmSo
-rbFhLX4osh1GnmbcXn/bu8IEX/rOjwBECf0qvaRvocVLBi83KipVGFzcOB3NJwVjthhI5wcflGNt
-ERtrkF86/uUe7JU52hGhHCLPG+Fe0jEXTi3QgxuX5IhxmshWz5pzZgX9Aen/lJ1GNlj9+1yj0AFA
-qxVDDUYqTLgQ96CoufWFUOBAKtWU53Re3PyX6Od/tdRm/mLU9DQhOLen3VZYNWfnmeKOmQe9vsrb
-TJjFbuY+4T9xUY8SVwsUWkM9kOA1R44l6mjoLUPP2gCAhc+fBwP5hw9eYoeSzdjPt4qt+Q+wLNPT
-IAndHPRR03VykglkaXFO+ggthXJujI1sLYl/A6jB+5zEP9yWvlNxt5G4z+hXtQSoyF5/gWS6zXY7
-HTJvXqNU4jYkAMya/yM072lAmrTDzMLF5Fd0hvy2N1Wb3b4eN3Nr+E+kwxIa8MlcbfrNX9PNl1Hw
-L3EXOZcsPayej9urV8AaGsBdieDtUV0n++lrBTmoZs9QvoFMivjp7t1VH/1pH49WXIwHYi9SPVXp
-XNgo0DYkoqvoIOYrEIgjnGXPw7ySh1+aONNyNGSPs8zz7VSG1L0HOIqnxKXj5kYjhcohXPRZTS6l
-tzbvYhNd9ejUlqFMqrSpU/VB8RdY6mXglJdV/3qePojYnvSWDZfIV6+hA2Day40DxqzQ1ES8b/3N
-yMzoVqE9AYj9Qjxg992ub3hP6InpYOrCyKRlB3EMviqot7JzpnLdOJt/RMbairtqypLxzx+jCYj+
-tat2ttTJcr0NyaR9vwgsRCiKEbG73R3ccpFaolxJPazz/DF5zRuv0YGp81d2T1vmMdpux/3uThWx
-vSrR3bxrTIqDpWkk72PF+8R6gWZhZ5Q7D54rAHpAn+r1MDcLFiRBXEqmUQIECtl9A+87qeGV+HFl
-f6YYEqdhq3dCY+8hxCra7V70B9Tz8gy9Dgd3aNYlJyvv6ttVd+yNKj6sUx31xeR0egbLErP8xoq3
-+7ddZ2K3LsUW1Dubdh/8PuMs6AdanGb/AiYptGipyPSm6p2CoDhYcOuITBd6JkfGLdH9JdK9u853
-0APfANxk3xhNlWtZ6dp507TGHWE6o/jXcnk+wYuKzvY7/yD8arvyzqvx+dsd4c0+FuznrSJjad9L
-R6LYa7IsANnbJ+x/WTfj06sb5HPxrEI1L+bWJl++r/4GhTfqywnAJGpPEg5BEEItrg5FFxvu9QxB
-L5KGmqVl0AVPLDzNib49nsyWftbENdl/cXLRM9XvHK0rtmgVP7SV37kE9dbZnOp6TY9ungmzyuoD
-+sl3MM+NuPG3N+JKyCV+o8cqhOAxqlU/U6RiahS5BrCeMVEBu7BERsnJX6eLxXtM5DUNu/BDw3U0
-uI2RorufcvkpC3kSSXccA+MZcAgBK280xmKaGD/SeKuuqBxIq6akSuobH5IYE/5FA/nksbaTpryC
-+0mFZr/uEFQap2/HCoYbHA9CRsPkWou2O0Kryrld1HWohYgFkXtJwvBefWmVk9TGo0N32UgjUDZF
-7ea1fAIEcnL3Vg23l3vkRubWKEpcsWlcIDuqlpC9EdBAJ7YD4nZYpSv+OrD2UQ1UlsfxVzdKV+iS
-SQQYzS0hTLew1WRpBS+aff+qOg0anfC6VgzKkHkTh7rXeDTSTgkWAMJv/7TU/Zgn749xETefiRr4
-jyxuVH00rnRlBO1L9hmSB5CjyoM82tnebn7xyfYrBAZbmiWac0DuyLhEIWZAylqFdvv+joYYZHnA
-a1srbhYuOHunN1KRULmZ+YC5QTh2aK7/tdFTY+d1UYFx86frtNibbLrrPUZZlkjZSaaSN1yQT8SZ
-krMMWUm4SFgTNzB+4doeUB/KWV6Ur4KK5Ds4JmlmX9k6tK999gPY/OaenLc+NS0VAp/tDut9SBOz
-4BNhEuQ/pAMPPJ2ExUvrdhbqrAxe54QW9+OR0bdXV0fQTuM+790eytovWAbos90+XGmEXQd3aIFM
-mgJXa4RTobStRQNi4MmlXAX+uNRucGKqRHd7mkl1I93S7OaGyIZNZ1QWBsbInqffalZtxlQmAN2R
-ht2BKS0RtIxiT/I831i0xuDPROe23Cod4J337+NaGPymTod7Bx/DMl/ueTdQ1tlXDQj71/zZsTHa
-npM5n/6JsoLSG/cPQIfLEO4oGVNsYmpvsURzp6HtDTd3ZPIE27kbohFSp/TPTTJkKWSJdQVltGEO
-yNld5N2M04tjgGk/ZOqCq/aquRZHdcANneIudCfWVFE+OJbcD9+QxjqsLjyHKqhK8WQSFKwD9tPk
-a30i0N9gqtm0IfvQZGegWJzAFg6wvBIlKGa7zGaRFqNuWVIQtySw7o0gI5+Ryz6bXHCN3MiQzoPy
-EidxYOlo6IfZ3hxwd/quVfW5JokP9vKEYr9QacU3lxBeH74IOTVLMdlK7+FKfXTsjr2mhx/TYT5f
-7iDHdcbqvnBH+9kbxgYuTEKxJaKYnVSFZvO5ZaJgf8jpzwtvDfOBzP/Nlku+sD6V1jheoDMBWPdK
-v3K7cjEDgco4gWylTlEa3E2gZr8gi92L2/WIFg4/xANiLgCP5VfhsfbIYV9j1yH66UDmLVvHsAKe
-09VMBS87N9/b3vyHHedj7v/dFIsTEO5J+L6wJFGvVLpwuhXlIiXeNGfgWkpBFyHsiSyZd/wqZqGv
-29K0rSA9i0RlkzS9c2O=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Apigee\Resource;
+
+use Google\Service\Apigee\GoogleApiHttpBody;
+use Google\Service\Apigee\GoogleCloudApigeeV1Alias;
+
+/**
+ * The "aliases" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $apigeeService = new Google\Service\Apigee(...);
+ *   $aliases = $apigeeService->aliases;
+ *  </code>
+ */
+class OrganizationsEnvironmentsKeystoresAliases extends \Google\Service\Resource
+{
+  /**
+   * Creates an alias from a key/certificate pair. The structure of the request is
+   * controlled by the `format` query parameter: - `keycertfile` - Separate PEM-
+   * encoded key and certificate files are uploaded. Set `Content-Type: multipart
+   * /form-data` and include the `keyFile`, `certFile`, and `password` (if keys
+   * are encrypted) fields in the request body. If uploading to a truststore, omit
+   * `keyFile`. - `pkcs12` - A PKCS12 file is uploaded. Set `Content-Type:
+   * multipart/form-data`, provide the file in the `file` field, and include the
+   * `password` field if the file is encrypted in the request body. -
+   * `selfsignedcert` - A new private key and certificate are generated. Set
+   * `Content-Type: application/json` and include CertificateGenerationSpec in the
+   * request body. (aliases.create)
+   *
+   * @param string $parent Required. Name of the keystore. Use the following
+   * format in your request:
+   * `organizations/{org}/environments/{env}/keystores/{keystore}`.
+   * @param GoogleApiHttpBody $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string _password DEPRECATED: For improved security, specify the
+   * password in the request body instead of using the query parameter. To specify
+   * the password in the request body, set `Content-type: multipart/form-data`
+   * part with name `password`. Password for the private key file, if required.
+   * @opt_param string alias Alias for the key/certificate pair. Values must match
+   * the regular expression `[\w\s-.]{1,255}`. This must be provided for all
+   * formats except `selfsignedcert`; self-signed certs may specify the alias in
+   * either this parameter or the JSON body.
+   * @opt_param string format Required. Format of the data. Valid values include:
+   * `selfsignedcert`, `keycertfile`, or `pkcs12`
+   * @opt_param bool ignoreExpiryValidation Flag that specifies whether to ignore
+   * expiry validation. If set to `true`, no expiry validation will be performed.
+   * @opt_param bool ignoreNewlineValidation Flag that specifies whether to ignore
+   * newline validation. If set to `true`, no error is thrown when the file
+   * contains a certificate chain with no newline between each certificate.
+   * Defaults to `false`.
+   * @return GoogleCloudApigeeV1Alias
+   */
+  public function create($parent, GoogleApiHttpBody $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleCloudApigeeV1Alias::class);
+  }
+  /**
+   * Generates a PKCS #10 Certificate Signing Request for the private key in an
+   * alias. (aliases.csr)
+   *
+   * @param string $name Required. Name of the alias. Use the following format in
+   * your request: `organizations/{org}/environments/{env}/keystores/{keystore}/al
+   * iases/{alias}`.
+   * @param array $optParams Optional parameters.
+   * @return GoogleApiHttpBody
+   */
+  public function csr($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('csr', [$params], GoogleApiHttpBody::class);
+  }
+  /**
+   * Deletes an alias. (aliases.delete)
+   *
+   * @param string $name Required. Name of the alias. Use the following format in
+   * your request: `organizations/{org}/environments/{env}/keystores/{keystore}/al
+   * iases/{alias}`.
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1Alias
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleCloudApigeeV1Alias::class);
+  }
+  /**
+   * Gets an alias. (aliases.get)
+   *
+   * @param string $name Required. Name of the alias. Use the following format in
+   * your request: `organizations/{org}/environments/{env}/keystores/{keystore}/al
+   * iases/{alias}`.
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1Alias
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudApigeeV1Alias::class);
+  }
+  /**
+   * Gets the certificate from an alias in PEM-encoded form.
+   * (aliases.getCertificate)
+   *
+   * @param string $name Required. Name of the alias. Use the following format in
+   * your request: `organizations/{org}/environments/{env}/keystores/{keystore}/al
+   * iases/{alias}`.
+   * @param array $optParams Optional parameters.
+   * @return GoogleApiHttpBody
+   */
+  public function getCertificate($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('getCertificate', [$params], GoogleApiHttpBody::class);
+  }
+  /**
+   * Updates the certificate in an alias. (aliases.update)
+   *
+   * @param string $name Required. Name of the alias. Use the following format in
+   * your request:
+   * `organizations/{org}/environments/{env}/keystores/{keystore}/aliases/{alias}`
+   * @param GoogleApiHttpBody $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool ignoreExpiryValidation Required. Flag that specifies whether
+   * to ignore expiry validation. If set to `true`, no expiry validation will be
+   * performed.
+   * @opt_param bool ignoreNewlineValidation Flag that specifies whether to ignore
+   * newline validation. If set to `true`, no error is thrown when the file
+   * contains a certificate chain with no newline between each certificate.
+   * Defaults to `false`.
+   * @return GoogleCloudApigeeV1Alias
+   */
+  public function update($name, GoogleApiHttpBody $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], GoogleCloudApigeeV1Alias::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(OrganizationsEnvironmentsKeystoresAliases::class, 'Google_Service_Apigee_Resource_OrganizationsEnvironmentsKeystoresAliases');

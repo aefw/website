@@ -1,64 +1,108 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ShoppingContent\Resource;
+
+use Google\Service\ShoppingContent\Collection;
+use Google\Service\ShoppingContent\ListCollectionsResponse;
+
+/**
+ * The "collections" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $contentService = new Google\Service\ShoppingContent(...);
+ *   $collections = $contentService->collections;
+ *  </code>
+ */
+class Collections extends \Google\Service\Resource
+{
+  /**
+   * Uploads a collection to your Merchant Center account. If a collection with
+   * the same collectionId already exists, this method updates that entry. In each
+   * update, the collection is completely replaced by the fields in the body of
+   * the update request. (collections.create)
+   *
+   * @param string $merchantId Required. The ID of the account that contains the
+   * collection. This account cannot be a multi-client account.
+   * @param Collection $postBody
+   * @param array $optParams Optional parameters.
+   * @return Collection
+   */
+  public function create($merchantId, Collection $postBody, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Collection::class);
+  }
+  /**
+   * Deletes a collection from your Merchant Center account. (collections.delete)
+   *
+   * @param string $merchantId Required. The ID of the account that contains the
+   * collection. This account cannot be a multi-client account.
+   * @param string $collectionId Required. The collectionId of the collection.
+   * CollectionId is the same as the REST ID of the collection.
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($merchantId, $collectionId, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'collectionId' => $collectionId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Retrieves a collection from your Merchant Center account. (collections.get)
+   *
+   * @param string $merchantId Required. The ID of the account that contains the
+   * collection. This account cannot be a multi-client account.
+   * @param string $collectionId Required. The REST ID of the collection.
+   * @param array $optParams Optional parameters.
+   * @return Collection
+   */
+  public function get($merchantId, $collectionId, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'collectionId' => $collectionId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Collection::class);
+  }
+  /**
+   * Lists the collections in your Merchant Center account. The response might
+   * contain fewer items than specified by page_size. Rely on next_page_token to
+   * determine if there are more items to be requested.
+   * (collections.listCollections)
+   *
+   * @param string $merchantId Required. The ID of the account that contains the
+   * collection. This account cannot be a multi-client account.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The maximum number of collections to return in the
+   * response, used for paging. Defaults to 50; values above 1000 will be coerced
+   * to 1000.
+   * @opt_param string pageToken Token (if provided) to retrieve the subsequent
+   * page. All other parameters must match the original call that provided the
+   * page token.
+   * @return ListCollectionsResponse
+   */
+  public function listCollections($merchantId, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListCollectionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Collections::class, 'Google_Service_ShoppingContent_Resource_Collections');

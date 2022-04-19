@@ -1,74 +1,132 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-No9Vpuv9kRVByZJF
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dfareporting;
+
+class ReportFloodlightCriteria extends \Google\Collection
+{
+  protected $collection_key = 'metricNames';
+  protected $customRichMediaEventsType = DimensionValue::class;
+  protected $customRichMediaEventsDataType = 'array';
+  protected $dateRangeType = DateRange::class;
+  protected $dateRangeDataType = '';
+  protected $dimensionFiltersType = DimensionValue::class;
+  protected $dimensionFiltersDataType = 'array';
+  protected $dimensionsType = SortedDimension::class;
+  protected $dimensionsDataType = 'array';
+  protected $floodlightConfigIdType = DimensionValue::class;
+  protected $floodlightConfigIdDataType = '';
+  public $metricNames;
+  protected $reportPropertiesType = ReportFloodlightCriteriaReportProperties::class;
+  protected $reportPropertiesDataType = '';
+
+  /**
+   * @param DimensionValue[]
+   */
+  public function setCustomRichMediaEvents($customRichMediaEvents)
+  {
+    $this->customRichMediaEvents = $customRichMediaEvents;
+  }
+  /**
+   * @return DimensionValue[]
+   */
+  public function getCustomRichMediaEvents()
+  {
+    return $this->customRichMediaEvents;
+  }
+  /**
+   * @param DateRange
+   */
+  public function setDateRange(DateRange $dateRange)
+  {
+    $this->dateRange = $dateRange;
+  }
+  /**
+   * @return DateRange
+   */
+  public function getDateRange()
+  {
+    return $this->dateRange;
+  }
+  /**
+   * @param DimensionValue[]
+   */
+  public function setDimensionFilters($dimensionFilters)
+  {
+    $this->dimensionFilters = $dimensionFilters;
+  }
+  /**
+   * @return DimensionValue[]
+   */
+  public function getDimensionFilters()
+  {
+    return $this->dimensionFilters;
+  }
+  /**
+   * @param SortedDimension[]
+   */
+  public function setDimensions($dimensions)
+  {
+    $this->dimensions = $dimensions;
+  }
+  /**
+   * @return SortedDimension[]
+   */
+  public function getDimensions()
+  {
+    return $this->dimensions;
+  }
+  /**
+   * @param DimensionValue
+   */
+  public function setFloodlightConfigId(DimensionValue $floodlightConfigId)
+  {
+    $this->floodlightConfigId = $floodlightConfigId;
+  }
+  /**
+   * @return DimensionValue
+   */
+  public function getFloodlightConfigId()
+  {
+    return $this->floodlightConfigId;
+  }
+  public function setMetricNames($metricNames)
+  {
+    $this->metricNames = $metricNames;
+  }
+  public function getMetricNames()
+  {
+    return $this->metricNames;
+  }
+  /**
+   * @param ReportFloodlightCriteriaReportProperties
+   */
+  public function setReportProperties(ReportFloodlightCriteriaReportProperties $reportProperties)
+  {
+    $this->reportProperties = $reportProperties;
+  }
+  /**
+   * @return ReportFloodlightCriteriaReportProperties
+   */
+  public function getReportProperties()
+  {
+    return $this->reportProperties;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ReportFloodlightCriteria::class, 'Google_Service_Dfareporting_ReportFloodlightCriteria');

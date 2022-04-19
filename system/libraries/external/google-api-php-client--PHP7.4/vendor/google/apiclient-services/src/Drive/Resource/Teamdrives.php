@@ -1,66 +1,120 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Drive\Resource;
+
+use Google\Service\Drive\TeamDrive;
+use Google\Service\Drive\TeamDriveList;
+
+/**
+ * The "teamdrives" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $driveService = new Google\Service\Drive(...);
+ *   $teamdrives = $driveService->teamdrives;
+ *  </code>
+ */
+class Teamdrives extends \Google\Service\Resource
+{
+  /**
+   * Deprecated use drives.create instead. (teamdrives.create)
+   *
+   * @param string $requestId An ID, such as a random UUID, which uniquely
+   * identifies this user's request for idempotent creation of a Team Drive. A
+   * repeated request by the same user and with the same request ID will avoid
+   * creating duplicates by attempting to create the same Team Drive. If the Team
+   * Drive already exists a 409 error will be returned.
+   * @param TeamDrive $postBody
+   * @param array $optParams Optional parameters.
+   * @return TeamDrive
+   */
+  public function create($requestId, TeamDrive $postBody, $optParams = [])
+  {
+    $params = ['requestId' => $requestId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], TeamDrive::class);
+  }
+  /**
+   * Deprecated use drives.delete instead. (teamdrives.delete)
+   *
+   * @param string $teamDriveId The ID of the Team Drive
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($teamDriveId, $optParams = [])
+  {
+    $params = ['teamDriveId' => $teamDriveId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Deprecated use drives.get instead. (teamdrives.get)
+   *
+   * @param string $teamDriveId The ID of the Team Drive
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool useDomainAdminAccess Issue the request as a domain
+   * administrator; if set to true, then the requester will be granted access if
+   * they are an administrator of the domain to which the Team Drive belongs.
+   * @return TeamDrive
+   */
+  public function get($teamDriveId, $optParams = [])
+  {
+    $params = ['teamDriveId' => $teamDriveId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], TeamDrive::class);
+  }
+  /**
+   * Deprecated use drives.list instead. (teamdrives.listTeamdrives)
+   *
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Maximum number of Team Drives to return.
+   * @opt_param string pageToken Page token for Team Drives.
+   * @opt_param string q Query string for searching Team Drives.
+   * @opt_param bool useDomainAdminAccess Issue the request as a domain
+   * administrator; if set to true, then all Team Drives of the domain in which
+   * the requester is an administrator are returned.
+   * @return TeamDriveList
+   */
+  public function listTeamdrives($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], TeamDriveList::class);
+  }
+  /**
+   * Deprecated use drives.update instead (teamdrives.update)
+   *
+   * @param string $teamDriveId The ID of the Team Drive
+   * @param TeamDrive $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool useDomainAdminAccess Issue the request as a domain
+   * administrator; if set to true, then the requester will be granted access if
+   * they are an administrator of the domain to which the Team Drive belongs.
+   * @return TeamDrive
+   */
+  public function update($teamDriveId, TeamDrive $postBody, $optParams = [])
+  {
+    $params = ['teamDriveId' => $teamDriveId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], TeamDrive::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Teamdrives::class, 'Google_Service_Drive_Resource_Teamdrives');

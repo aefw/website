@@ -1,59 +1,62 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-GdIa
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudIdentity;
+
+class GoogleAppsCloudidentityDevicesV1AndroidAttributes extends \Google\Model
+{
+  public $enabledUnknownSources;
+  public $ownerProfileAccount;
+  public $ownershipPrivilege;
+  public $supportsWorkProfile;
+
+  public function setEnabledUnknownSources($enabledUnknownSources)
+  {
+    $this->enabledUnknownSources = $enabledUnknownSources;
+  }
+  public function getEnabledUnknownSources()
+  {
+    return $this->enabledUnknownSources;
+  }
+  public function setOwnerProfileAccount($ownerProfileAccount)
+  {
+    $this->ownerProfileAccount = $ownerProfileAccount;
+  }
+  public function getOwnerProfileAccount()
+  {
+    return $this->ownerProfileAccount;
+  }
+  public function setOwnershipPrivilege($ownershipPrivilege)
+  {
+    $this->ownershipPrivilege = $ownershipPrivilege;
+  }
+  public function getOwnershipPrivilege()
+  {
+    return $this->ownershipPrivilege;
+  }
+  public function setSupportsWorkProfile($supportsWorkProfile)
+  {
+    $this->supportsWorkProfile = $supportsWorkProfile;
+  }
+  public function getSupportsWorkProfile()
+  {
+    return $this->supportsWorkProfile;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleAppsCloudidentityDevicesV1AndroidAttributes::class, 'Google_Service_CloudIdentity_GoogleAppsCloudidentityDevicesV1AndroidAttributes');

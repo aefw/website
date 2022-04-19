@@ -1,70 +1,105 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Z4ISdOgw9t0/+m==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dfareporting;
+
+class ObaIcon extends \Google\Model
+{
+  public $iconClickThroughUrl;
+  public $iconClickTrackingUrl;
+  public $iconViewTrackingUrl;
+  public $program;
+  public $resourceUrl;
+  protected $sizeType = Size::class;
+  protected $sizeDataType = '';
+  public $xPosition;
+  public $yPosition;
+
+  public function setIconClickThroughUrl($iconClickThroughUrl)
+  {
+    $this->iconClickThroughUrl = $iconClickThroughUrl;
+  }
+  public function getIconClickThroughUrl()
+  {
+    return $this->iconClickThroughUrl;
+  }
+  public function setIconClickTrackingUrl($iconClickTrackingUrl)
+  {
+    $this->iconClickTrackingUrl = $iconClickTrackingUrl;
+  }
+  public function getIconClickTrackingUrl()
+  {
+    return $this->iconClickTrackingUrl;
+  }
+  public function setIconViewTrackingUrl($iconViewTrackingUrl)
+  {
+    $this->iconViewTrackingUrl = $iconViewTrackingUrl;
+  }
+  public function getIconViewTrackingUrl()
+  {
+    return $this->iconViewTrackingUrl;
+  }
+  public function setProgram($program)
+  {
+    $this->program = $program;
+  }
+  public function getProgram()
+  {
+    return $this->program;
+  }
+  public function setResourceUrl($resourceUrl)
+  {
+    $this->resourceUrl = $resourceUrl;
+  }
+  public function getResourceUrl()
+  {
+    return $this->resourceUrl;
+  }
+  /**
+   * @param Size
+   */
+  public function setSize(Size $size)
+  {
+    $this->size = $size;
+  }
+  /**
+   * @return Size
+   */
+  public function getSize()
+  {
+    return $this->size;
+  }
+  public function setXPosition($xPosition)
+  {
+    $this->xPosition = $xPosition;
+  }
+  public function getXPosition()
+  {
+    return $this->xPosition;
+  }
+  public function setYPosition($yPosition)
+  {
+    $this->yPosition = $yPosition;
+  }
+  public function getYPosition()
+  {
+    return $this->yPosition;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ObaIcon::class, 'Google_Service_Dfareporting_ObaIcon');

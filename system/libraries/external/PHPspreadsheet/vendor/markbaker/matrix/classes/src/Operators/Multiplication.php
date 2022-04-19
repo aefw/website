@@ -1,62 +1,77 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+namespace Matrix\Operators;
+
+use Matrix\Matrix;
+use \Matrix\Builder;
+use Matrix\Exception;
+
+class Multiplication extends Operator
+{
+    /**
+     * Execute the multiplication
+     *
+     * @param mixed $value The matrix or numeric value to multiply the current base value by
+     * @throws Exception If the provided argument is not appropriate for the operation
+     * @return $this The operation object, allowing multiple multiplications to be chained
+     **/
+    public function execute($value)
+    {
+        if (is_array($value)) {
+            $value = new Matrix($value);
+        }
+
+        if (is_object($value) && ($value instanceof Matrix)) {
+            return $this->multiplyMatrix($value);
+        } elseif (is_numeric($value)) {
+            return $this->multiplyScalar($value);
+        }
+
+        throw new Exception('Invalid argument for multiplication');
+    }
+
+    /**
+     * Execute the multiplication for a scalar
+     *
+     * @param mixed $value The numeric value to multiply with the current base value
+     * @return $this The operation object, allowing multiple mutiplications to be chained
+     **/
+    protected function multiplyScalar($value)
+    {
+        for ($row = 0; $row < $this->rows; ++$row) {
+            for ($column = 0; $column < $this->columns; ++$column) {
+                $this->matrix[$row][$column] *= $value;
+            }
+        }
+
+        return $this;
+    }
+
+    /**
+     * Execute the multiplication for a matrix
+     *
+     * @param Matrix $value The numeric value to multiply with the current base value
+     * @return $this The operation object, allowing multiple mutiplications to be chained
+     * @throws Exception If the provided argument is not appropriate for the operation
+     **/
+    protected function multiplyMatrix(Matrix $value)
+    {
+        $this->validateReflectingDimensions($value);
+
+        $newRows = $this->rows;
+        $newColumns = $value->columns;
+        $matrix = Builder::createFilledMatrix(0, $newRows, $newColumns)
+            ->toArray();
+        for ($row = 0; $row < $newRows; ++$row) {
+            for ($column = 0; $column < $newColumns; ++$column) {
+                $columnData = $value->getColumns($column + 1)->toArray();
+                foreach ($this->matrix[$row] as $key => $valueData) {
+                    $matrix[$row][$column] += $valueData * $columnData[$key][0];
+                }
+            }
+        }
+        $this->matrix = $matrix;
+
+        return $this;
+    }
+}

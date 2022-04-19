@@ -1,70 +1,87 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ManagedServiceforMicrosoftActiveDirectoryConsumerAPI;
+
+class LDAPSSettings extends \Google\Model
+{
+  protected $certificateType = Certificate::class;
+  protected $certificateDataType = '';
+  public $certificatePassword;
+  public $certificatePfx;
+  public $name;
+  public $state;
+  public $updateTime;
+
+  /**
+   * @param Certificate
+   */
+  public function setCertificate(Certificate $certificate)
+  {
+    $this->certificate = $certificate;
+  }
+  /**
+   * @return Certificate
+   */
+  public function getCertificate()
+  {
+    return $this->certificate;
+  }
+  public function setCertificatePassword($certificatePassword)
+  {
+    $this->certificatePassword = $certificatePassword;
+  }
+  public function getCertificatePassword()
+  {
+    return $this->certificatePassword;
+  }
+  public function setCertificatePfx($certificatePfx)
+  {
+    $this->certificatePfx = $certificatePfx;
+  }
+  public function getCertificatePfx()
+  {
+    return $this->certificatePfx;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setState($state)
+  {
+    $this->state = $state;
+  }
+  public function getState()
+  {
+    return $this->state;
+  }
+  public function setUpdateTime($updateTime)
+  {
+    $this->updateTime = $updateTime;
+  }
+  public function getUpdateTime()
+  {
+    return $this->updateTime;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(LDAPSSettings::class, 'Google_Service_ManagedServiceforMicrosoftActiveDirectoryConsumerAPI_LDAPSSettings');

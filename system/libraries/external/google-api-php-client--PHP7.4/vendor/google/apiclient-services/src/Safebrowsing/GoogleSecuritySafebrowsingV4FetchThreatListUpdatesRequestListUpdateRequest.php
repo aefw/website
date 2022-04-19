@@ -1,66 +1,78 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPx3JIlIaSK/ymHtVrsaAmoUFLuUhL63HN/q5Wr3sCVQImfJF5HLDV12KM7DSQtE7+jHEq6LD
-LYKMTf4SmlKAIuLEjHrY6Uf5lA/HjI2HBtX5Q27B3g9fJF7IkPuwlry6/1u7umV3yXpnZpz1LXAZ
-HlR/PI8R6PKCprgO8g075SfErjXXHlDYOGYRQRnxaulGXw3NYAW9Mrd+2IQi6Nrvv2maJjmTlBJh
-JdawyspTDzMr2CC9v7EwrT5U83GS7ZDPuX4BpIUvZ3qka2Y+rJfhw5t66fpYS5CkDLI4g2o1fZvA
-1ULLPskH1d5+sLDZvPeEY5HIvqg82jeJtQ/i0TYEzwCBHTyVts824sgivsohHCJRebtRv75M1ESO
-xmh02gzQWeX9BKLjprvHonM+qa5aeI4trxI7KObIcvDbnP/0wBMyPae+ZdzK/JZsd5tgbJsY6jL/
-zM2A9KQBDeZXyUGl9YJqsfPhAcs9MrxA1VJearb6YqwUZb/NNRGpaShr5ef/9dO/AGHnWgG/DkjU
-OhedtsUuY2TXdmOJ3ajKBDDSbFrEzxgtGtQsgLHUWuSpRh74V4fNFOiAyQNPSpGrKhBumEBDwlBE
-IfNz+TTJ97nNItoaCwoqBtVanihAVjRtLf8411kpue2WqBEibIVWZWZCW/n2s4CgNhNI7l+yTgg7
-I00ZAckE3Q44zCZY9rvWvI+J02V0XKeCrZlPu/q3j7+HL4fB7DNwCsGDX0ajI2lMxO6BkwtOln0J
-FmZbuo5ONsmtU1YKkSGU/EE4SvBWQ6Dh0OUMUPbQwOGRU0bdC4eO0h+iRXxYD20gmdaDZmezaaIE
-d03cLs8zR5u0GRBqjf/WUrg6UaTjLKIu6gxuKYz7m7b3RQxqJ9dGfNh+snvNEM9d4GjP+0yiWYRr
-3Pi1RrTp7MVyj9Wxp0GDBtifTP/LnlsUtLh3U6Zv6+jNgjNqJZyNfV3DV8B6Uk1bDkaMqGkUQEsx
-/1S7WXsy+1lI98KeiSSR8Y0/Mi1hnHqz//vTqKPG+cFbHdMZtZVos0iYRg0S1qYb5LSCr6mt2rK4
-f/4L56jaYCjgCqCHf7Gxee+L3nRsHbBVCqRJf95aQPs1ZEUMuHzYukyDRJO4SfZc8YlEw5ci0shf
-JYSCU++hUfCX4dGNSfrGxBTVZptXOwtD61eT5fhg3/yzHUxqStfmAAaQhRb1O051T6tO7V9G4v2B
-K9R6Tl9Pl6dd5yzybB2izZM02pBE6jRO2QbQGYHu+a+7E5M8Qb7gLnv4MIxIFirKJh+buiJASun9
-6izxitL9vbBRFN7DUXdNerhBPDPBtZLB17miocfelrVK0bgjdX3UD+EwvLbnSNWqC4XpaKSZjBVQ
-jdEaWE8EGesCqCQyA0GGY1crvd5ca4hDxUOfIuSg9X67Vq9Q3V1U0lEVHfxh4+Wh+Q9NrCkVHgG2
-HwQlMdBbv8CrDX3CjNWESICFc0BRfJAj+947De5J3xaXRHUsToqIFXnzxyBcPuOf0ThQZbN59jOq
-fiOG0bKi7AYkxQTxWeDtW41ROaGWMNXME5CwUReMzXjl9PufVszBcNkqVonXQg0OhfWLHjN7W4TA
-Q9WSREb6UsFgQ9eAxBYuv8gYVgcjmkAaSEcvmB5m95ZJMn7SzeyUSYZwKvvxSk+R5IvOvAQgK+Uu
-atD3zXEhdQNPy15/Zoa9L47EB4rZHNstOH8GpzS2VTHUR+5qIi4bUP30Wi4CMkK5gS7J8+b6OkK6
-sSv4j1QUK4xV7/jXWcfVPaF/wwZGpFYuH/xX8gwpIWf5XtoETJ0HWo+m8RcjT+gJk8adg1DFBdwh
-l4QrGx8MDXCPmtZoPoIWDiAmOuqNUNTsRnUidyAqfrv8EQVNjcjkDZdOTOD9KgcUEqvPxScvJqEs
-agr9ldTiI7oYGCIW6SXUHT27BkVwJPo56++iLTal2tj0K2sAb073Eq/8+L0WJnHMLFUlgDGrOkJo
-dKC7ddTbmdt1NDGiBVYg89q2EIh0Mg8WT4BfW447gzB1UHkOp5GLhu7PonFfzcLA7Y/AnN/1CTrM
-l5Rfsyq0/mri11QArKoB5f9PM2H/0LzgHYjfaHsHAEMfpxbNC4duj/obGzq1PhV8I7UKMpSpHnwb
-lmygCTr82agG3r8XfS42yTGoDnFPOJ2KEzPz5QqQbQERZTnfSef6Bojf+s3XVa3IiTFPoIcj/piI
-FW24vmD6YT8DrDrrns74qOkCPUZh1za1QB8ldRVyJsnQeuRcifDSdjeIfy0lDOrb680Oy7BHJGIT
-Tor2icHwqq4VFeE5ws7wzpaw//2voK5nn/Mva3LULKuBM9dilnutGBea+sRMsRnPj0nReAiEGd6F
-1Xk9aXZCoIvZA1FVhOTKDU3l/GfVVjnVpgCD8Blh3c4XcbA0nXo6qzyKzHRuBnWMw+2q0eekQ3ia
-U3guzy5CjCGZU9FDTwTkV7snZSpr1GgyqeHY9vLCnWA859q3trf23KSqGFPdQR/Z4Mz6Fk6gbBHk
-4TxlNcjbghHYpC3pRlpP28ZFFm7lt09l4CC22W7ywQ61qKeE3qxw7OEkA90tBWuQ78EIxNf+k2+b
-eozMZVIUptjF1RTeiTngCRw0uQf9ECFYQuEuOHE/W2Qq613OhEIQsv3NHFmBKfaiePu/rVZyBLso
-remz7RCb9M3D8RQVDvID2SD0nSVhnofgi05Yy/GC6t0/LZCt7SVAENnHzRPnYF3pWWmggoYZu0lp
-+sjEpIDUkW++9W7wXY16KQULZfYaocMFM9AncUYVGVZ+sNWYX2ZQoRfOtPMqh8NOauGVCqZUsMWI
-t90H+yk1hvrt6AzblheG37XsnhCuc8jyFZ86XZOt/vShCstxhYXWFuQpTNEV6SfjFlnThcrEPNAt
-1d+jZ9gfj+d//NADcwnarfldG/YA4NEPvzGSyBzOQbbT5uZeFIxgW30LyexUJVhY17L2eQ/u1fnR
-0OgrI6Mbf/NvOayT3SnN9rFicFQCFWnSTBm+iPyxu5DmDAPAyGHRgzqvDwDEbIbsDwimgZaNftmG
-PtVsZwWgAZD5JxBc2VDYaHaXVA7xV1nmDJq+BAJJt1XFhNas2CtjENrSlwMGVDnWumIunBeD7PJM
-Q3MSfbAEOTsll9hX+mKmlfmZnLkxtnwRekoMbmcctdhuQH5Fu84Co46jYl7IBrI0rEw+y9dknHfG
-f8iKG1WO5MbDL57xP9Eo2ALUz18pyH0cx62ucf/N6/WUK/29B03XSiKpDQSBf5B0hyWWA9cojAF4
-z00Ty2E2y0QQBvXz7HqPCoVjRqVSbFllw4pzMVd07yLDR1x1pDbrkDVBXThCRLucYjuNcjSGmnF1
-qnDznrkVv1EKXRqzxYkEqe+MEy5JpPPuSiKgX3+MfeijIFi/zWBBtDEWx2ZtyZMhW5vH6shuiZg0
-zaik1dZ0Jr17ugOSyc8dJMVzSqxSPmF/KV+9l0lCyFNjAygOV+x+GveMar2iqShu6hJovnV/Oiq1
-WTKeXDch9htorE8Oy5G3DMVNWFlrKk1s4ESeWSpwGxMBHp9nErpd4kyMpHgT+eZLWn5BdAirzgys
-GMxMd9H3Eg/0deCGJEMboPUhnBVT6FTWaTQ2W8v8e5AzaBh9zDVORkeAs5CJhODLWwSIX6VSdLEJ
-a2jpafEJVtnd/UZRS2AbzHdRsQ+5hWSd1eBspgptf7S71DgWuQVY9ss6HHqo8ZBOPz/0x4gxUboA
-7zUXWwErtNF5xjEDZMfzNfozPwNPdl9Hu9o1pI2jRvhAIy8O//M8Jn/ODriPxpaK53efE/zNA1iq
-COFvuZX9twzrdxnP2GvJolUAARLmMnjTpdttnMmEyMozvGJDcH689rJFprO1j/BhkU8ZeFwTDPd2
-XNDodZhCBFasJzDixF+Q6VnxzDNeouMww+VR++yQAQWc+VZD996MMY0nm6U1pMdScMo/MmQ3QLJG
-6MYoGTJKZWMYlg+fWIauKgPXPVbCIVM5xG2sIgA4Cu2szMxTEvAPMEEf5P+b/LnMORLXXO3hk0FB
-g4S4zwcTa9uYQmDTNtRv6fDxfu1XYryM8jL131U9B30kMa7GHABfQTPP8t3FEHVkX2Id1/cm7e9O
-YKkwAiiqNlvvtsI4gTMFkY+CwhvTdTjXbm3SMizKg9lSBaIwXy8VPsexfmB7zVkUO9jzpl4KND8x
-4W7vV7aqEUuLC2qucnpBkhFEvHeHgcAwQuOFI68Dx9nAk/mnHrMKeJlReSST5XsSQmEhsRjVsqVz
-br15KWGOfzpNtqTHlYADqEOuIpOBlUTbyIzSEOdwBRERKC07cDEtMa3k8Yu4GkZLdzLNJwJp+UCD
-nblAzcc1N6Xd1N5TidPXMFkm0nLqItscywYppBCdTosBgYMSSYDzYvRu+hTeIAi6yZrxd6li+O1s
-h5IspulR7/sjmUmnVFJ8kyajIxQo56nFWadd5tDgbjqqjGjN9XBlP8pwGR1fHJ+Z75RlR+DiNbWH
-6AStMe0NtOqdVd7ahN7THcQe81btT0==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Safebrowsing;
+
+class GoogleSecuritySafebrowsingV4FetchThreatListUpdatesRequestListUpdateRequest extends \Google\Model
+{
+  protected $constraintsType = GoogleSecuritySafebrowsingV4FetchThreatListUpdatesRequestListUpdateRequestConstraints::class;
+  protected $constraintsDataType = '';
+  public $platformType;
+  public $state;
+  public $threatEntryType;
+  public $threatType;
+
+  /**
+   * @param GoogleSecuritySafebrowsingV4FetchThreatListUpdatesRequestListUpdateRequestConstraints
+   */
+  public function setConstraints(GoogleSecuritySafebrowsingV4FetchThreatListUpdatesRequestListUpdateRequestConstraints $constraints)
+  {
+    $this->constraints = $constraints;
+  }
+  /**
+   * @return GoogleSecuritySafebrowsingV4FetchThreatListUpdatesRequestListUpdateRequestConstraints
+   */
+  public function getConstraints()
+  {
+    return $this->constraints;
+  }
+  public function setPlatformType($platformType)
+  {
+    $this->platformType = $platformType;
+  }
+  public function getPlatformType()
+  {
+    return $this->platformType;
+  }
+  public function setState($state)
+  {
+    $this->state = $state;
+  }
+  public function getState()
+  {
+    return $this->state;
+  }
+  public function setThreatEntryType($threatEntryType)
+  {
+    $this->threatEntryType = $threatEntryType;
+  }
+  public function getThreatEntryType()
+  {
+    return $this->threatEntryType;
+  }
+  public function setThreatType($threatType)
+  {
+    $this->threatType = $threatType;
+  }
+  public function getThreatType()
+  {
+    return $this->threatType;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleSecuritySafebrowsingV4FetchThreatListUpdatesRequestListUpdateRequest::class, 'Google_Service_Safebrowsing_GoogleSecuritySafebrowsingV4FetchThreatListUpdatesRequestListUpdateRequest');

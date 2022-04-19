@@ -1,66 +1,106 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Doubleclicksearch\Resource;
+
+use Google\Service\Doubleclicksearch\ConversionList;
+use Google\Service\Doubleclicksearch\UpdateAvailabilityRequest;
+use Google\Service\Doubleclicksearch\UpdateAvailabilityResponse;
+
+/**
+ * The "conversion" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $doubleclicksearchService = new Google\Service\Doubleclicksearch(...);
+ *   $conversion = $doubleclicksearchService->conversion;
+ *  </code>
+ */
+class Conversion extends \Google\Service\Resource
+{
+  /**
+   * Retrieves a list of conversions from a DoubleClick Search engine account.
+   * (conversion.get)
+   *
+   * @param string $agencyId Numeric ID of the agency.
+   * @param string $advertiserId Numeric ID of the advertiser.
+   * @param string $engineAccountId Numeric ID of the engine account.
+   * @param int $endDate Last date (inclusive) on which to retrieve conversions.
+   * Format is yyyymmdd.
+   * @param int $rowCount The number of conversions to return per call.
+   * @param int $startDate First date (inclusive) on which to retrieve
+   * conversions. Format is yyyymmdd.
+   * @param string $startRow The 0-based starting index for retrieving conversions
+   * results.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string adGroupId Numeric ID of the ad group.
+   * @opt_param string adId Numeric ID of the ad.
+   * @opt_param string campaignId Numeric ID of the campaign.
+   * @opt_param string criterionId Numeric ID of the criterion.
+   * @return ConversionList
+   */
+  public function get($agencyId, $advertiserId, $engineAccountId, $endDate, $rowCount, $startDate, $startRow, $optParams = [])
+  {
+    $params = ['agencyId' => $agencyId, 'advertiserId' => $advertiserId, 'engineAccountId' => $engineAccountId, 'endDate' => $endDate, 'rowCount' => $rowCount, 'startDate' => $startDate, 'startRow' => $startRow];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], ConversionList::class);
+  }
+  /**
+   * Inserts a batch of new conversions into DoubleClick Search.
+   * (conversion.insert)
+   *
+   * @param ConversionList $postBody
+   * @param array $optParams Optional parameters.
+   * @return ConversionList
+   */
+  public function insert(ConversionList $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], ConversionList::class);
+  }
+  /**
+   * Updates a batch of conversions in DoubleClick Search. (conversion.update)
+   *
+   * @param ConversionList $postBody
+   * @param array $optParams Optional parameters.
+   * @return ConversionList
+   */
+  public function update(ConversionList $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], ConversionList::class);
+  }
+  /**
+   * Updates the availabilities of a batch of floodlight activities in DoubleClick
+   * Search. (conversion.updateAvailability)
+   *
+   * @param UpdateAvailabilityRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return UpdateAvailabilityResponse
+   */
+  public function updateAvailability(UpdateAvailabilityRequest $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('updateAvailability', [$params], UpdateAvailabilityResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Conversion::class, 'Google_Service_Doubleclicksearch_Resource_Conversion');

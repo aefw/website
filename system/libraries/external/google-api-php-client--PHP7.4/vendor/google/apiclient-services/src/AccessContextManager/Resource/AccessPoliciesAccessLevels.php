@@ -1,75 +1,162 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AccessContextManager\Resource;
+
+use Google\Service\AccessContextManager\AccessLevel;
+use Google\Service\AccessContextManager\ListAccessLevelsResponse;
+use Google\Service\AccessContextManager\Operation;
+use Google\Service\AccessContextManager\ReplaceAccessLevelsRequest;
+
+/**
+ * The "accessLevels" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $accesscontextmanagerService = new Google\Service\AccessContextManager(...);
+ *   $accessLevels = $accesscontextmanagerService->accessLevels;
+ *  </code>
+ */
+class AccessPoliciesAccessLevels extends \Google\Service\Resource
+{
+  /**
+   * Create an Access Level. The longrunning operation from this RPC will have a
+   * successful status once the Access Level has propagated to long-lasting
+   * storage. Access Levels containing errors will result in an error response for
+   * the first error encountered. (accessLevels.create)
+   *
+   * @param string $parent Required. Resource name for the access policy which
+   * owns this Access Level. Format: `accessPolicies/{policy_id}`
+   * @param AccessLevel $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function create($parent, AccessLevel $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Operation::class);
+  }
+  /**
+   * Delete an Access Level by resource name. The longrunning operation from this
+   * RPC will have a successful status once the Access Level has been removed from
+   * long-lasting storage. (accessLevels.delete)
+   *
+   * @param string $name Required. Resource name for the Access Level. Format:
+   * `accessPolicies/{policy_id}/accessLevels/{access_level_id}`
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Get an Access Level by resource name. (accessLevels.get)
+   *
+   * @param string $name Required. Resource name for the Access Level. Format:
+   * `accessPolicies/{policy_id}/accessLevels/{access_level_id}`
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string accessLevelFormat Whether to return `BasicLevels` in the
+   * Cloud Common Expression Language rather than as `BasicLevels`. Defaults to
+   * AS_DEFINED, where Access Levels are returned as `BasicLevels` or
+   * `CustomLevels` based on how they were created. If set to CEL, all Access
+   * Levels are returned as `CustomLevels`. In the CEL case, `BasicLevels` are
+   * translated to equivalent `CustomLevels`.
+   * @return AccessLevel
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], AccessLevel::class);
+  }
+  /**
+   * List all Access Levels for an access policy.
+   * (accessLevels.listAccessPoliciesAccessLevels)
+   *
+   * @param string $parent Required. Resource name for the access policy to list
+   * Access Levels from. Format: `accessPolicies/{policy_id}`
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string accessLevelFormat Whether to return `BasicLevels` in the
+   * Cloud Common Expression language, as `CustomLevels`, rather than as
+   * `BasicLevels`. Defaults to returning `AccessLevels` in the format they were
+   * defined.
+   * @opt_param int pageSize Number of Access Levels to include in the list.
+   * Default 100.
+   * @opt_param string pageToken Next page token for the next batch of Access
+   * Level instances. Defaults to the first page of results.
+   * @return ListAccessLevelsResponse
+   */
+  public function listAccessPoliciesAccessLevels($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListAccessLevelsResponse::class);
+  }
+  /**
+   * Update an Access Level. The longrunning operation from this RPC will have a
+   * successful status once the changes to the Access Level have propagated to
+   * long-lasting storage. Access Levels containing errors will result in an error
+   * response for the first error encountered. (accessLevels.patch)
+   *
+   * @param string $name Required. Resource name for the Access Level. The
+   * `short_name` component must begin with a letter and only include alphanumeric
+   * and '_'. Format: `accessPolicies/{policy_id}/accessLevels/{short_name}`. The
+   * maximum length of the `short_name` component is 50 characters.
+   * @param AccessLevel $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. Mask to control which fields get
+   * updated. Must be non-empty.
+   * @return Operation
+   */
+  public function patch($name, AccessLevel $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+  /**
+   * Replace all existing Access Levels in an Access Policy with the Access Levels
+   * provided. This is done atomically. The longrunning operation from this RPC
+   * will have a successful status once all replacements have propagated to long-
+   * lasting storage. Replacements containing errors will result in an error
+   * response for the first error encountered. Replacement will be cancelled on
+   * error, existing Access Levels will not be affected. Operation.response field
+   * will contain ReplaceAccessLevelsResponse. Removing Access Levels contained in
+   * existing Service Perimeters will result in error. (accessLevels.replaceAll)
+   *
+   * @param string $parent Required. Resource name for the access policy which
+   * owns these Access Levels. Format: `accessPolicies/{policy_id}`
+   * @param ReplaceAccessLevelsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function replaceAll($parent, ReplaceAccessLevelsRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('replaceAll', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AccessPoliciesAccessLevels::class, 'Google_Service_AccessContextManager_Resource_AccessPoliciesAccessLevels');

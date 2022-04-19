@@ -1,73 +1,98 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-eKSMKDPRERiQIJEwfU9EkhBosIq=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\PlayableLocations;
+
+class GoogleMapsUnityClientInfo extends \Google\Model
+{
+  public $apiClient;
+  public $applicationId;
+  public $applicationVersion;
+  public $deviceModel;
+  public $languageCode;
+  public $operatingSystem;
+  public $operatingSystemBuild;
+  public $platform;
+
+  public function setApiClient($apiClient)
+  {
+    $this->apiClient = $apiClient;
+  }
+  public function getApiClient()
+  {
+    return $this->apiClient;
+  }
+  public function setApplicationId($applicationId)
+  {
+    $this->applicationId = $applicationId;
+  }
+  public function getApplicationId()
+  {
+    return $this->applicationId;
+  }
+  public function setApplicationVersion($applicationVersion)
+  {
+    $this->applicationVersion = $applicationVersion;
+  }
+  public function getApplicationVersion()
+  {
+    return $this->applicationVersion;
+  }
+  public function setDeviceModel($deviceModel)
+  {
+    $this->deviceModel = $deviceModel;
+  }
+  public function getDeviceModel()
+  {
+    return $this->deviceModel;
+  }
+  public function setLanguageCode($languageCode)
+  {
+    $this->languageCode = $languageCode;
+  }
+  public function getLanguageCode()
+  {
+    return $this->languageCode;
+  }
+  public function setOperatingSystem($operatingSystem)
+  {
+    $this->operatingSystem = $operatingSystem;
+  }
+  public function getOperatingSystem()
+  {
+    return $this->operatingSystem;
+  }
+  public function setOperatingSystemBuild($operatingSystemBuild)
+  {
+    $this->operatingSystemBuild = $operatingSystemBuild;
+  }
+  public function getOperatingSystemBuild()
+  {
+    return $this->operatingSystemBuild;
+  }
+  public function setPlatform($platform)
+  {
+    $this->platform = $platform;
+  }
+  public function getPlatform()
+  {
+    return $this->platform;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleMapsUnityClientInfo::class, 'Google_Service_PlayableLocations_GoogleMapsUnityClientInfo');

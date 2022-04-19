@@ -1,70 +1,102 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Iqd0HASfiTlQU4ihj7msRA7OY74T
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudVideoIntelligence;
+
+class GoogleCloudVideointelligenceV1beta2ObjectTrackingAnnotation extends \Google\Collection
+{
+  protected $collection_key = 'frames';
+  public $confidence;
+  protected $entityType = GoogleCloudVideointelligenceV1beta2Entity::class;
+  protected $entityDataType = '';
+  protected $framesType = GoogleCloudVideointelligenceV1beta2ObjectTrackingFrame::class;
+  protected $framesDataType = 'array';
+  protected $segmentType = GoogleCloudVideointelligenceV1beta2VideoSegment::class;
+  protected $segmentDataType = '';
+  public $trackId;
+  public $version;
+
+  public function setConfidence($confidence)
+  {
+    $this->confidence = $confidence;
+  }
+  public function getConfidence()
+  {
+    return $this->confidence;
+  }
+  /**
+   * @param GoogleCloudVideointelligenceV1beta2Entity
+   */
+  public function setEntity(GoogleCloudVideointelligenceV1beta2Entity $entity)
+  {
+    $this->entity = $entity;
+  }
+  /**
+   * @return GoogleCloudVideointelligenceV1beta2Entity
+   */
+  public function getEntity()
+  {
+    return $this->entity;
+  }
+  /**
+   * @param GoogleCloudVideointelligenceV1beta2ObjectTrackingFrame[]
+   */
+  public function setFrames($frames)
+  {
+    $this->frames = $frames;
+  }
+  /**
+   * @return GoogleCloudVideointelligenceV1beta2ObjectTrackingFrame[]
+   */
+  public function getFrames()
+  {
+    return $this->frames;
+  }
+  /**
+   * @param GoogleCloudVideointelligenceV1beta2VideoSegment
+   */
+  public function setSegment(GoogleCloudVideointelligenceV1beta2VideoSegment $segment)
+  {
+    $this->segment = $segment;
+  }
+  /**
+   * @return GoogleCloudVideointelligenceV1beta2VideoSegment
+   */
+  public function getSegment()
+  {
+    return $this->segment;
+  }
+  public function setTrackId($trackId)
+  {
+    $this->trackId = $trackId;
+  }
+  public function getTrackId()
+  {
+    return $this->trackId;
+  }
+  public function setVersion($version)
+  {
+    $this->version = $version;
+  }
+  public function getVersion()
+  {
+    return $this->version;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudVideointelligenceV1beta2ObjectTrackingAnnotation::class, 'Google_Service_CloudVideoIntelligence_GoogleCloudVideointelligenceV1beta2ObjectTrackingAnnotation');

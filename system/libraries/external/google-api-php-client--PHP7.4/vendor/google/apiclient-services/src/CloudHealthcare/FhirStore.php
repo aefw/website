@@ -1,78 +1,122 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudHealthcare;
+
+class FhirStore extends \Google\Collection
+{
+  protected $collection_key = 'streamConfigs';
+  public $defaultSearchHandlingStrict;
+  public $disableReferentialIntegrity;
+  public $disableResourceVersioning;
+  public $enableUpdateCreate;
+  public $labels;
+  public $name;
+  protected $notificationConfigType = NotificationConfig::class;
+  protected $notificationConfigDataType = '';
+  protected $streamConfigsType = StreamConfig::class;
+  protected $streamConfigsDataType = 'array';
+  public $version;
+
+  public function setDefaultSearchHandlingStrict($defaultSearchHandlingStrict)
+  {
+    $this->defaultSearchHandlingStrict = $defaultSearchHandlingStrict;
+  }
+  public function getDefaultSearchHandlingStrict()
+  {
+    return $this->defaultSearchHandlingStrict;
+  }
+  public function setDisableReferentialIntegrity($disableReferentialIntegrity)
+  {
+    $this->disableReferentialIntegrity = $disableReferentialIntegrity;
+  }
+  public function getDisableReferentialIntegrity()
+  {
+    return $this->disableReferentialIntegrity;
+  }
+  public function setDisableResourceVersioning($disableResourceVersioning)
+  {
+    $this->disableResourceVersioning = $disableResourceVersioning;
+  }
+  public function getDisableResourceVersioning()
+  {
+    return $this->disableResourceVersioning;
+  }
+  public function setEnableUpdateCreate($enableUpdateCreate)
+  {
+    $this->enableUpdateCreate = $enableUpdateCreate;
+  }
+  public function getEnableUpdateCreate()
+  {
+    return $this->enableUpdateCreate;
+  }
+  public function setLabels($labels)
+  {
+    $this->labels = $labels;
+  }
+  public function getLabels()
+  {
+    return $this->labels;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  /**
+   * @param NotificationConfig
+   */
+  public function setNotificationConfig(NotificationConfig $notificationConfig)
+  {
+    $this->notificationConfig = $notificationConfig;
+  }
+  /**
+   * @return NotificationConfig
+   */
+  public function getNotificationConfig()
+  {
+    return $this->notificationConfig;
+  }
+  /**
+   * @param StreamConfig[]
+   */
+  public function setStreamConfigs($streamConfigs)
+  {
+    $this->streamConfigs = $streamConfigs;
+  }
+  /**
+   * @return StreamConfig[]
+   */
+  public function getStreamConfigs()
+  {
+    return $this->streamConfigs;
+  }
+  public function setVersion($version)
+  {
+    $this->version = $version;
+  }
+  public function getVersion()
+  {
+    return $this->version;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(FhirStore::class, 'Google_Service_CloudHealthcare_FhirStore');

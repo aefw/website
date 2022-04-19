@@ -1,80 +1,236 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute\Resource;
+
+use Google\Service\Compute\Operation;
+use Google\Service\Compute\RegionTargetHttpsProxiesSetSslCertificatesRequest;
+use Google\Service\Compute\TargetHttpsProxy;
+use Google\Service\Compute\TargetHttpsProxyList;
+use Google\Service\Compute\UrlMapReference;
+
+/**
+ * The "regionTargetHttpsProxies" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $computeService = new Google\Service\Compute(...);
+ *   $regionTargetHttpsProxies = $computeService->regionTargetHttpsProxies;
+ *  </code>
+ */
+class RegionTargetHttpsProxies extends \Google\Service\Resource
+{
+  /**
+   * Deletes the specified TargetHttpsProxy resource.
+   * (regionTargetHttpsProxies.delete)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param string $targetHttpsProxy Name of the TargetHttpsProxy resource to
+   * delete.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function delete($project, $region, $targetHttpsProxy, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'targetHttpsProxy' => $targetHttpsProxy];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Returns the specified TargetHttpsProxy resource in the specified region. Gets
+   * a list of available target HTTP proxies by making a list() request.
+   * (regionTargetHttpsProxies.get)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param string $targetHttpsProxy Name of the TargetHttpsProxy resource to
+   * return.
+   * @param array $optParams Optional parameters.
+   * @return TargetHttpsProxy
+   */
+  public function get($project, $region, $targetHttpsProxy, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'targetHttpsProxy' => $targetHttpsProxy];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], TargetHttpsProxy::class);
+  }
+  /**
+   * Creates a TargetHttpsProxy resource in the specified project and region using
+   * the data included in the request. (regionTargetHttpsProxies.insert)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param TargetHttpsProxy $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function insert($project, $region, TargetHttpsProxy $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Operation::class);
+  }
+  /**
+   * Retrieves the list of TargetHttpsProxy resources available to the specified
+   * project in the specified region.
+   * (regionTargetHttpsProxies.listRegionTargetHttpsProxies)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return TargetHttpsProxyList
+   */
+  public function listRegionTargetHttpsProxies($project, $region, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], TargetHttpsProxyList::class);
+  }
+  /**
+   * Replaces SslCertificates for TargetHttpsProxy.
+   * (regionTargetHttpsProxies.setSslCertificates)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param string $targetHttpsProxy Name of the TargetHttpsProxy resource to set
+   * an SslCertificates resource for.
+   * @param RegionTargetHttpsProxiesSetSslCertificatesRequest $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function setSslCertificates($project, $region, $targetHttpsProxy, RegionTargetHttpsProxiesSetSslCertificatesRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'targetHttpsProxy' => $targetHttpsProxy, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setSslCertificates', [$params], Operation::class);
+  }
+  /**
+   * Changes the URL map for TargetHttpsProxy.
+   * (regionTargetHttpsProxies.setUrlMap)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param string $targetHttpsProxy Name of the TargetHttpsProxy to set a URL map
+   * for.
+   * @param UrlMapReference $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function setUrlMap($project, $region, $targetHttpsProxy, UrlMapReference $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'targetHttpsProxy' => $targetHttpsProxy, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setUrlMap', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(RegionTargetHttpsProxies::class, 'Google_Service_Compute_Resource_RegionTargetHttpsProxies');

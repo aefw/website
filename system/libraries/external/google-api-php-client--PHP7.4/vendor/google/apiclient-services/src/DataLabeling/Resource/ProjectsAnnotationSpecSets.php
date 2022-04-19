@@ -1,65 +1,106 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DataLabeling\Resource;
+
+use Google\Service\DataLabeling\GoogleCloudDatalabelingV1beta1AnnotationSpecSet;
+use Google\Service\DataLabeling\GoogleCloudDatalabelingV1beta1CreateAnnotationSpecSetRequest;
+use Google\Service\DataLabeling\GoogleCloudDatalabelingV1beta1ListAnnotationSpecSetsResponse;
+use Google\Service\DataLabeling\GoogleProtobufEmpty;
+
+/**
+ * The "annotationSpecSets" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $datalabelingService = new Google\Service\DataLabeling(...);
+ *   $annotationSpecSets = $datalabelingService->annotationSpecSets;
+ *  </code>
+ */
+class ProjectsAnnotationSpecSets extends \Google\Service\Resource
+{
+  /**
+   * Creates an annotation spec set by providing a set of labels.
+   * (annotationSpecSets.create)
+   *
+   * @param string $parent Required. AnnotationSpecSet resource parent, format:
+   * projects/{project_id}
+   * @param GoogleCloudDatalabelingV1beta1CreateAnnotationSpecSetRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudDatalabelingV1beta1AnnotationSpecSet
+   */
+  public function create($parent, GoogleCloudDatalabelingV1beta1CreateAnnotationSpecSetRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleCloudDatalabelingV1beta1AnnotationSpecSet::class);
+  }
+  /**
+   * Deletes an annotation spec set by resource name. (annotationSpecSets.delete)
+   *
+   * @param string $name Required. AnnotationSpec resource name, format:
+   * `projects/{project_id}/annotationSpecSets/{annotation_spec_set_id}`.
+   * @param array $optParams Optional parameters.
+   * @return GoogleProtobufEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
+  }
+  /**
+   * Gets an annotation spec set by resource name. (annotationSpecSets.get)
+   *
+   * @param string $name Required. AnnotationSpecSet resource name, format:
+   * projects/{project_id}/annotationSpecSets/{annotation_spec_set_id}
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudDatalabelingV1beta1AnnotationSpecSet
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudDatalabelingV1beta1AnnotationSpecSet::class);
+  }
+  /**
+   * Lists annotation spec sets for a project. Pagination is supported.
+   * (annotationSpecSets.listProjectsAnnotationSpecSets)
+   *
+   * @param string $parent Required. Parent of AnnotationSpecSet resource, format:
+   * projects/{project_id}
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Optional. Filter is not supported at this moment.
+   * @opt_param int pageSize Optional. Requested page size. Server may return
+   * fewer results than requested. Default value is 100.
+   * @opt_param string pageToken Optional. A token identifying a page of results
+   * for the server to return. Typically obtained by
+   * ListAnnotationSpecSetsResponse.next_page_token of the previous
+   * [DataLabelingService.ListAnnotationSpecSets] call. Return first page if
+   * empty.
+   * @return GoogleCloudDatalabelingV1beta1ListAnnotationSpecSetsResponse
+   */
+  public function listProjectsAnnotationSpecSets($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleCloudDatalabelingV1beta1ListAnnotationSpecSetsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsAnnotationSpecSets::class, 'Google_Service_DataLabeling_Resource_ProjectsAnnotationSpecSets');

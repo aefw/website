@@ -1,91 +1,191 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-odm=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Document;
+
+class GoogleCloudDocumentaiV1Document extends \Google\Collection
+{
+  protected $collection_key = 'textStyles';
+  public $content;
+  protected $entitiesType = GoogleCloudDocumentaiV1DocumentEntity::class;
+  protected $entitiesDataType = 'array';
+  protected $entityRelationsType = GoogleCloudDocumentaiV1DocumentEntityRelation::class;
+  protected $entityRelationsDataType = 'array';
+  protected $errorType = GoogleRpcStatus::class;
+  protected $errorDataType = '';
+  public $mimeType;
+  protected $pagesType = GoogleCloudDocumentaiV1DocumentPage::class;
+  protected $pagesDataType = 'array';
+  protected $revisionsType = GoogleCloudDocumentaiV1DocumentRevision::class;
+  protected $revisionsDataType = 'array';
+  protected $shardInfoType = GoogleCloudDocumentaiV1DocumentShardInfo::class;
+  protected $shardInfoDataType = '';
+  public $text;
+  protected $textChangesType = GoogleCloudDocumentaiV1DocumentTextChange::class;
+  protected $textChangesDataType = 'array';
+  protected $textStylesType = GoogleCloudDocumentaiV1DocumentStyle::class;
+  protected $textStylesDataType = 'array';
+  public $uri;
+
+  public function setContent($content)
+  {
+    $this->content = $content;
+  }
+  public function getContent()
+  {
+    return $this->content;
+  }
+  /**
+   * @param GoogleCloudDocumentaiV1DocumentEntity[]
+   */
+  public function setEntities($entities)
+  {
+    $this->entities = $entities;
+  }
+  /**
+   * @return GoogleCloudDocumentaiV1DocumentEntity[]
+   */
+  public function getEntities()
+  {
+    return $this->entities;
+  }
+  /**
+   * @param GoogleCloudDocumentaiV1DocumentEntityRelation[]
+   */
+  public function setEntityRelations($entityRelations)
+  {
+    $this->entityRelations = $entityRelations;
+  }
+  /**
+   * @return GoogleCloudDocumentaiV1DocumentEntityRelation[]
+   */
+  public function getEntityRelations()
+  {
+    return $this->entityRelations;
+  }
+  /**
+   * @param GoogleRpcStatus
+   */
+  public function setError(GoogleRpcStatus $error)
+  {
+    $this->error = $error;
+  }
+  /**
+   * @return GoogleRpcStatus
+   */
+  public function getError()
+  {
+    return $this->error;
+  }
+  public function setMimeType($mimeType)
+  {
+    $this->mimeType = $mimeType;
+  }
+  public function getMimeType()
+  {
+    return $this->mimeType;
+  }
+  /**
+   * @param GoogleCloudDocumentaiV1DocumentPage[]
+   */
+  public function setPages($pages)
+  {
+    $this->pages = $pages;
+  }
+  /**
+   * @return GoogleCloudDocumentaiV1DocumentPage[]
+   */
+  public function getPages()
+  {
+    return $this->pages;
+  }
+  /**
+   * @param GoogleCloudDocumentaiV1DocumentRevision[]
+   */
+  public function setRevisions($revisions)
+  {
+    $this->revisions = $revisions;
+  }
+  /**
+   * @return GoogleCloudDocumentaiV1DocumentRevision[]
+   */
+  public function getRevisions()
+  {
+    return $this->revisions;
+  }
+  /**
+   * @param GoogleCloudDocumentaiV1DocumentShardInfo
+   */
+  public function setShardInfo(GoogleCloudDocumentaiV1DocumentShardInfo $shardInfo)
+  {
+    $this->shardInfo = $shardInfo;
+  }
+  /**
+   * @return GoogleCloudDocumentaiV1DocumentShardInfo
+   */
+  public function getShardInfo()
+  {
+    return $this->shardInfo;
+  }
+  public function setText($text)
+  {
+    $this->text = $text;
+  }
+  public function getText()
+  {
+    return $this->text;
+  }
+  /**
+   * @param GoogleCloudDocumentaiV1DocumentTextChange[]
+   */
+  public function setTextChanges($textChanges)
+  {
+    $this->textChanges = $textChanges;
+  }
+  /**
+   * @return GoogleCloudDocumentaiV1DocumentTextChange[]
+   */
+  public function getTextChanges()
+  {
+    return $this->textChanges;
+  }
+  /**
+   * @param GoogleCloudDocumentaiV1DocumentStyle[]
+   */
+  public function setTextStyles($textStyles)
+  {
+    $this->textStyles = $textStyles;
+  }
+  /**
+   * @return GoogleCloudDocumentaiV1DocumentStyle[]
+   */
+  public function getTextStyles()
+  {
+    return $this->textStyles;
+  }
+  public function setUri($uri)
+  {
+    $this->uri = $uri;
+  }
+  public function getUri()
+  {
+    return $this->uri;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudDocumentaiV1Document::class, 'Google_Service_Document_GoogleCloudDocumentaiV1Document');

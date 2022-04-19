@@ -1,70 +1,111 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-/HCovWG7wT3D9onxS8Y75ayerCg/lvHiFG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ShoppingContent;
+
+class RegionalInventory extends \Google\Collection
+{
+  protected $collection_key = 'customAttributes';
+  public $availability;
+  protected $customAttributesType = CustomAttribute::class;
+  protected $customAttributesDataType = 'array';
+  public $kind;
+  protected $priceType = Price::class;
+  protected $priceDataType = '';
+  public $regionId;
+  protected $salePriceType = Price::class;
+  protected $salePriceDataType = '';
+  public $salePriceEffectiveDate;
+
+  public function setAvailability($availability)
+  {
+    $this->availability = $availability;
+  }
+  public function getAvailability()
+  {
+    return $this->availability;
+  }
+  /**
+   * @param CustomAttribute[]
+   */
+  public function setCustomAttributes($customAttributes)
+  {
+    $this->customAttributes = $customAttributes;
+  }
+  /**
+   * @return CustomAttribute[]
+   */
+  public function getCustomAttributes()
+  {
+    return $this->customAttributes;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  /**
+   * @param Price
+   */
+  public function setPrice(Price $price)
+  {
+    $this->price = $price;
+  }
+  /**
+   * @return Price
+   */
+  public function getPrice()
+  {
+    return $this->price;
+  }
+  public function setRegionId($regionId)
+  {
+    $this->regionId = $regionId;
+  }
+  public function getRegionId()
+  {
+    return $this->regionId;
+  }
+  /**
+   * @param Price
+   */
+  public function setSalePrice(Price $salePrice)
+  {
+    $this->salePrice = $salePrice;
+  }
+  /**
+   * @return Price
+   */
+  public function getSalePrice()
+  {
+    return $this->salePrice;
+  }
+  public function setSalePriceEffectiveDate($salePriceEffectiveDate)
+  {
+    $this->salePriceEffectiveDate = $salePriceEffectiveDate;
+  }
+  public function getSalePriceEffectiveDate()
+  {
+    return $this->salePriceEffectiveDate;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(RegionalInventory::class, 'Google_Service_ShoppingContent_RegionalInventory');

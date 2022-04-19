@@ -1,90 +1,198 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dataproc;
+
+class OrderedJob extends \Google\Collection
+{
+  protected $collection_key = 'prerequisiteStepIds';
+  protected $hadoopJobType = HadoopJob::class;
+  protected $hadoopJobDataType = '';
+  protected $hiveJobType = HiveJob::class;
+  protected $hiveJobDataType = '';
+  public $labels;
+  protected $pigJobType = PigJob::class;
+  protected $pigJobDataType = '';
+  public $prerequisiteStepIds;
+  protected $prestoJobType = PrestoJob::class;
+  protected $prestoJobDataType = '';
+  protected $pysparkJobType = PySparkJob::class;
+  protected $pysparkJobDataType = '';
+  protected $schedulingType = JobScheduling::class;
+  protected $schedulingDataType = '';
+  protected $sparkJobType = SparkJob::class;
+  protected $sparkJobDataType = '';
+  protected $sparkRJobType = SparkRJob::class;
+  protected $sparkRJobDataType = '';
+  protected $sparkSqlJobType = SparkSqlJob::class;
+  protected $sparkSqlJobDataType = '';
+  public $stepId;
+
+  /**
+   * @param HadoopJob
+   */
+  public function setHadoopJob(HadoopJob $hadoopJob)
+  {
+    $this->hadoopJob = $hadoopJob;
+  }
+  /**
+   * @return HadoopJob
+   */
+  public function getHadoopJob()
+  {
+    return $this->hadoopJob;
+  }
+  /**
+   * @param HiveJob
+   */
+  public function setHiveJob(HiveJob $hiveJob)
+  {
+    $this->hiveJob = $hiveJob;
+  }
+  /**
+   * @return HiveJob
+   */
+  public function getHiveJob()
+  {
+    return $this->hiveJob;
+  }
+  public function setLabels($labels)
+  {
+    $this->labels = $labels;
+  }
+  public function getLabels()
+  {
+    return $this->labels;
+  }
+  /**
+   * @param PigJob
+   */
+  public function setPigJob(PigJob $pigJob)
+  {
+    $this->pigJob = $pigJob;
+  }
+  /**
+   * @return PigJob
+   */
+  public function getPigJob()
+  {
+    return $this->pigJob;
+  }
+  public function setPrerequisiteStepIds($prerequisiteStepIds)
+  {
+    $this->prerequisiteStepIds = $prerequisiteStepIds;
+  }
+  public function getPrerequisiteStepIds()
+  {
+    return $this->prerequisiteStepIds;
+  }
+  /**
+   * @param PrestoJob
+   */
+  public function setPrestoJob(PrestoJob $prestoJob)
+  {
+    $this->prestoJob = $prestoJob;
+  }
+  /**
+   * @return PrestoJob
+   */
+  public function getPrestoJob()
+  {
+    return $this->prestoJob;
+  }
+  /**
+   * @param PySparkJob
+   */
+  public function setPysparkJob(PySparkJob $pysparkJob)
+  {
+    $this->pysparkJob = $pysparkJob;
+  }
+  /**
+   * @return PySparkJob
+   */
+  public function getPysparkJob()
+  {
+    return $this->pysparkJob;
+  }
+  /**
+   * @param JobScheduling
+   */
+  public function setScheduling(JobScheduling $scheduling)
+  {
+    $this->scheduling = $scheduling;
+  }
+  /**
+   * @return JobScheduling
+   */
+  public function getScheduling()
+  {
+    return $this->scheduling;
+  }
+  /**
+   * @param SparkJob
+   */
+  public function setSparkJob(SparkJob $sparkJob)
+  {
+    $this->sparkJob = $sparkJob;
+  }
+  /**
+   * @return SparkJob
+   */
+  public function getSparkJob()
+  {
+    return $this->sparkJob;
+  }
+  /**
+   * @param SparkRJob
+   */
+  public function setSparkRJob(SparkRJob $sparkRJob)
+  {
+    $this->sparkRJob = $sparkRJob;
+  }
+  /**
+   * @return SparkRJob
+   */
+  public function getSparkRJob()
+  {
+    return $this->sparkRJob;
+  }
+  /**
+   * @param SparkSqlJob
+   */
+  public function setSparkSqlJob(SparkSqlJob $sparkSqlJob)
+  {
+    $this->sparkSqlJob = $sparkSqlJob;
+  }
+  /**
+   * @return SparkSqlJob
+   */
+  public function getSparkSqlJob()
+  {
+    return $this->sparkSqlJob;
+  }
+  public function setStepId($stepId)
+  {
+    $this->stepId = $stepId;
+  }
+  public function getStepId()
+  {
+    return $this->stepId;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(OrderedJob::class, 'Google_Service_Dataproc_OrderedJob');

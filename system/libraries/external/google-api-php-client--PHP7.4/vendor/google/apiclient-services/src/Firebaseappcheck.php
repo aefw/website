@@ -1,77 +1,394 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-k5bJ4Bu=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for Firebaseappcheck (v1beta).
+ *
+ * <p>
+ * App Check works alongside other Firebase services to help protect your
+ * backend resources from abuse, such as billing fraud or phishing. With App
+ * Check, devices running your app will use an app or device attestation
+ * provider that attests to one or both of the following: * Requests originate
+ * from your authentic app * Requests originate from an authentic, untampered
+ * device This attestation is attached to every request your app makes to your
+ * Firebase backend resources. The Firebase App Check REST API allows you to
+ * manage your App Check configurations programmatically. It also allows you to
+ * exchange attestation material for App Check tokens directly without using a
+ * Firebase SDK. Finally, it allows you to obtain the public key set necessary
+ * to validate an App Check token yourself. [Learn more about App
+ * Check](https://firebase.google.com/docs/app-check).</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://firebase.google.com/docs/app-check" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class Firebaseappcheck extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+  /** View and administer all your Firebase data and settings. */
+  const FIREBASE =
+      "https://www.googleapis.com/auth/firebase";
+
+  public $jwks;
+  public $projects_apps;
+  public $projects_apps_debugTokens;
+  public $projects_apps_deviceCheckConfig;
+  public $projects_apps_recaptchaConfig;
+  public $projects_services;
+
+  /**
+   * Constructs the internal representation of the Firebaseappcheck service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://firebaseappcheck.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1beta';
+    $this->serviceName = 'firebaseappcheck';
+
+    $this->jwks = new Firebaseappcheck\Resource\Jwks(
+        $this,
+        $this->serviceName,
+        'jwks',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1beta/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_apps = new Firebaseappcheck\Resource\ProjectsApps(
+        $this,
+        $this->serviceName,
+        'apps',
+        [
+          'methods' => [
+            'exchangeCustomToken' => [
+              'path' => 'v1beta/{+app}:exchangeCustomToken',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'app' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'exchangeDebugToken' => [
+              'path' => 'v1beta/{+app}:exchangeDebugToken',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'app' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'exchangeDeviceCheckToken' => [
+              'path' => 'v1beta/{+app}:exchangeDeviceCheckToken',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'app' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'exchangeRecaptchaToken' => [
+              'path' => 'v1beta/{+app}:exchangeRecaptchaToken',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'app' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'exchangeSafetyNetToken' => [
+              'path' => 'v1beta/{+app}:exchangeSafetyNetToken',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'app' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_apps_debugTokens = new Firebaseappcheck\Resource\ProjectsAppsDebugTokens(
+        $this,
+        $this->serviceName,
+        'debugTokens',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1beta/{+parent}/debugTokens',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1beta/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1beta/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1beta/{+parent}/debugTokens',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1beta/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_apps_deviceCheckConfig = new Firebaseappcheck\Resource\ProjectsAppsDeviceCheckConfig(
+        $this,
+        $this->serviceName,
+        'deviceCheckConfig',
+        [
+          'methods' => [
+            'batchGet' => [
+              'path' => 'v1beta/{+parent}/apps/-/deviceCheckConfig:batchGet',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'names' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1beta/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1beta/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_apps_recaptchaConfig = new Firebaseappcheck\Resource\ProjectsAppsRecaptchaConfig(
+        $this,
+        $this->serviceName,
+        'recaptchaConfig',
+        [
+          'methods' => [
+            'batchGet' => [
+              'path' => 'v1beta/{+parent}/apps/-/recaptchaConfig:batchGet',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'names' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1beta/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1beta/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_services = new Firebaseappcheck\Resource\ProjectsServices(
+        $this,
+        $this->serviceName,
+        'services',
+        [
+          'methods' => [
+            'batchUpdate' => [
+              'path' => 'v1beta/{+parent}/services:batchUpdate',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1beta/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1beta/{+parent}/services',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1beta/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Firebaseappcheck::class, 'Google_Service_Firebaseappcheck');

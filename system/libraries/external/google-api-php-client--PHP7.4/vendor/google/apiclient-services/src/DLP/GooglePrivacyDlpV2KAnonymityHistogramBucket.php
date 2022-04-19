@@ -1,62 +1,79 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-kIgHFLK=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DLP;
+
+class GooglePrivacyDlpV2KAnonymityHistogramBucket extends \Google\Collection
+{
+  protected $collection_key = 'bucketValues';
+  public $bucketSize;
+  public $bucketValueCount;
+  protected $bucketValuesType = GooglePrivacyDlpV2KAnonymityEquivalenceClass::class;
+  protected $bucketValuesDataType = 'array';
+  public $equivalenceClassSizeLowerBound;
+  public $equivalenceClassSizeUpperBound;
+
+  public function setBucketSize($bucketSize)
+  {
+    $this->bucketSize = $bucketSize;
+  }
+  public function getBucketSize()
+  {
+    return $this->bucketSize;
+  }
+  public function setBucketValueCount($bucketValueCount)
+  {
+    $this->bucketValueCount = $bucketValueCount;
+  }
+  public function getBucketValueCount()
+  {
+    return $this->bucketValueCount;
+  }
+  /**
+   * @param GooglePrivacyDlpV2KAnonymityEquivalenceClass[]
+   */
+  public function setBucketValues($bucketValues)
+  {
+    $this->bucketValues = $bucketValues;
+  }
+  /**
+   * @return GooglePrivacyDlpV2KAnonymityEquivalenceClass[]
+   */
+  public function getBucketValues()
+  {
+    return $this->bucketValues;
+  }
+  public function setEquivalenceClassSizeLowerBound($equivalenceClassSizeLowerBound)
+  {
+    $this->equivalenceClassSizeLowerBound = $equivalenceClassSizeLowerBound;
+  }
+  public function getEquivalenceClassSizeLowerBound()
+  {
+    return $this->equivalenceClassSizeLowerBound;
+  }
+  public function setEquivalenceClassSizeUpperBound($equivalenceClassSizeUpperBound)
+  {
+    $this->equivalenceClassSizeUpperBound = $equivalenceClassSizeUpperBound;
+  }
+  public function getEquivalenceClassSizeUpperBound()
+  {
+    return $this->equivalenceClassSizeUpperBound;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GooglePrivacyDlpV2KAnonymityHistogramBucket::class, 'Google_Service_DLP_GooglePrivacyDlpV2KAnonymityHistogramBucket');

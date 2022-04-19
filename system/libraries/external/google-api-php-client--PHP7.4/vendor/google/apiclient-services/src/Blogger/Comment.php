@@ -1,81 +1,153 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Blogger;
+
+class Comment extends \Google\Model
+{
+  protected $authorType = CommentAuthor::class;
+  protected $authorDataType = '';
+  protected $blogType = CommentBlog::class;
+  protected $blogDataType = '';
+  public $content;
+  public $id;
+  protected $inReplyToType = CommentInReplyTo::class;
+  protected $inReplyToDataType = '';
+  public $kind;
+  protected $postType = CommentPost::class;
+  protected $postDataType = '';
+  public $published;
+  public $selfLink;
+  public $status;
+  public $updated;
+
+  /**
+   * @param CommentAuthor
+   */
+  public function setAuthor(CommentAuthor $author)
+  {
+    $this->author = $author;
+  }
+  /**
+   * @return CommentAuthor
+   */
+  public function getAuthor()
+  {
+    return $this->author;
+  }
+  /**
+   * @param CommentBlog
+   */
+  public function setBlog(CommentBlog $blog)
+  {
+    $this->blog = $blog;
+  }
+  /**
+   * @return CommentBlog
+   */
+  public function getBlog()
+  {
+    return $this->blog;
+  }
+  public function setContent($content)
+  {
+    $this->content = $content;
+  }
+  public function getContent()
+  {
+    return $this->content;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  /**
+   * @param CommentInReplyTo
+   */
+  public function setInReplyTo(CommentInReplyTo $inReplyTo)
+  {
+    $this->inReplyTo = $inReplyTo;
+  }
+  /**
+   * @return CommentInReplyTo
+   */
+  public function getInReplyTo()
+  {
+    return $this->inReplyTo;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  /**
+   * @param CommentPost
+   */
+  public function setPost(CommentPost $post)
+  {
+    $this->post = $post;
+  }
+  /**
+   * @return CommentPost
+   */
+  public function getPost()
+  {
+    return $this->post;
+  }
+  public function setPublished($published)
+  {
+    $this->published = $published;
+  }
+  public function getPublished()
+  {
+    return $this->published;
+  }
+  public function setSelfLink($selfLink)
+  {
+    $this->selfLink = $selfLink;
+  }
+  public function getSelfLink()
+  {
+    return $this->selfLink;
+  }
+  public function setStatus($status)
+  {
+    $this->status = $status;
+  }
+  public function getStatus()
+  {
+    return $this->status;
+  }
+  public function setUpdated($updated)
+  {
+    $this->updated = $updated;
+  }
+  public function getUpdated()
+  {
+    return $this->updated;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Comment::class, 'Google_Service_Blogger_Comment');

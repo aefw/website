@@ -1,62 +1,93 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-meyqBfcZtRYQdW==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DLP;
+
+class GooglePrivacyDlpV2StoredInfoTypeVersion extends \Google\Collection
+{
+  protected $collection_key = 'errors';
+  protected $configType = GooglePrivacyDlpV2StoredInfoTypeConfig::class;
+  protected $configDataType = '';
+  public $createTime;
+  protected $errorsType = GooglePrivacyDlpV2Error::class;
+  protected $errorsDataType = 'array';
+  public $state;
+  protected $statsType = GooglePrivacyDlpV2StoredInfoTypeStats::class;
+  protected $statsDataType = '';
+
+  /**
+   * @param GooglePrivacyDlpV2StoredInfoTypeConfig
+   */
+  public function setConfig(GooglePrivacyDlpV2StoredInfoTypeConfig $config)
+  {
+    $this->config = $config;
+  }
+  /**
+   * @return GooglePrivacyDlpV2StoredInfoTypeConfig
+   */
+  public function getConfig()
+  {
+    return $this->config;
+  }
+  public function setCreateTime($createTime)
+  {
+    $this->createTime = $createTime;
+  }
+  public function getCreateTime()
+  {
+    return $this->createTime;
+  }
+  /**
+   * @param GooglePrivacyDlpV2Error[]
+   */
+  public function setErrors($errors)
+  {
+    $this->errors = $errors;
+  }
+  /**
+   * @return GooglePrivacyDlpV2Error[]
+   */
+  public function getErrors()
+  {
+    return $this->errors;
+  }
+  public function setState($state)
+  {
+    $this->state = $state;
+  }
+  public function getState()
+  {
+    return $this->state;
+  }
+  /**
+   * @param GooglePrivacyDlpV2StoredInfoTypeStats
+   */
+  public function setStats(GooglePrivacyDlpV2StoredInfoTypeStats $stats)
+  {
+    $this->stats = $stats;
+  }
+  /**
+   * @return GooglePrivacyDlpV2StoredInfoTypeStats
+   */
+  public function getStats()
+  {
+    return $this->stats;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GooglePrivacyDlpV2StoredInfoTypeVersion::class, 'Google_Service_DLP_GooglePrivacyDlpV2StoredInfoTypeVersion');

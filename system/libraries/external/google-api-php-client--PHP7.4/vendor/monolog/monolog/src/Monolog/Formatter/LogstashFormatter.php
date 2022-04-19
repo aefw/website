@@ -1,60 +1,101 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php declare(strict_types=1);
+
+/*
+ * This file is part of the Monolog package.
+ *
+ * (c) Jordi Boggiano <j.boggiano@seld.be>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Monolog\Formatter;
+
+/**
+ * Serializes a log message to Logstash Event Format
+ *
+ * @see https://www.elastic.co/products/logstash
+ * @see https://github.com/elastic/logstash/blob/master/logstash-core/src/main/java/org/logstash/Event.java
+ *
+ * @author Tim Mower <timothy.mower@gmail.com>
+ */
+class LogstashFormatter extends NormalizerFormatter
+{
+    /**
+     * @var string the name of the system for the Logstash log message, used to fill the @source field
+     */
+    protected $systemName;
+
+    /**
+     * @var string an application name for the Logstash log message, used to fill the @type field
+     */
+    protected $applicationName;
+
+    /**
+     * @var string the key for 'extra' fields from the Monolog record
+     */
+    protected $extraKey;
+
+    /**
+     * @var string the key for 'context' fields from the Monolog record
+     */
+    protected $contextKey;
+
+    /**
+     * @param string      $applicationName The application that sends the data, used as the "type" field of logstash
+     * @param string|null $systemName      The system/machine name, used as the "source" field of logstash, defaults to the hostname of the machine
+     * @param string      $extraKey        The key for extra keys inside logstash "fields", defaults to extra
+     * @param string      $contextKey      The key for context keys inside logstash "fields", defaults to context
+     */
+    public function __construct(string $applicationName, ?string $systemName = null, string $extraKey = 'extra', string $contextKey = 'context')
+    {
+        // logstash requires a ISO 8601 format date with optional millisecond precision.
+        parent::__construct('Y-m-d\TH:i:s.uP');
+
+        $this->systemName = $systemName === null ? gethostname() : $systemName;
+        $this->applicationName = $applicationName;
+        $this->extraKey = $extraKey;
+        $this->contextKey = $contextKey;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function format(array $record): string
+    {
+        $record = parent::format($record);
+
+        if (empty($record['datetime'])) {
+            $record['datetime'] = gmdate('c');
+        }
+        $message = [
+            '@timestamp' => $record['datetime'],
+            '@version' => 1,
+            'host' => $this->systemName,
+        ];
+        if (isset($record['message'])) {
+            $message['message'] = $record['message'];
+        }
+        if (isset($record['channel'])) {
+            $message['type'] = $record['channel'];
+            $message['channel'] = $record['channel'];
+        }
+        if (isset($record['level_name'])) {
+            $message['level'] = $record['level_name'];
+        }
+        if (isset($record['level'])) {
+            $message['monolog_level'] = $record['level'];
+        }
+        if ($this->applicationName) {
+            $message['type'] = $this->applicationName;
+        }
+        if (!empty($record['extra'])) {
+            $message[$this->extraKey] = $record['extra'];
+        }
+        if (!empty($record['context'])) {
+            $message[$this->contextKey] = $record['context'];
+        }
+
+        return $this->toJson($message) . "\n";
+    }
+}

@@ -1,73 +1,120 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Monitoring;
+
+class MetricThreshold extends \Google\Collection
+{
+  protected $collection_key = 'denominatorAggregations';
+  protected $aggregationsType = Aggregation::class;
+  protected $aggregationsDataType = 'array';
+  public $comparison;
+  protected $denominatorAggregationsType = Aggregation::class;
+  protected $denominatorAggregationsDataType = 'array';
+  public $denominatorFilter;
+  public $duration;
+  public $filter;
+  public $thresholdValue;
+  protected $triggerType = Trigger::class;
+  protected $triggerDataType = '';
+
+  /**
+   * @param Aggregation[]
+   */
+  public function setAggregations($aggregations)
+  {
+    $this->aggregations = $aggregations;
+  }
+  /**
+   * @return Aggregation[]
+   */
+  public function getAggregations()
+  {
+    return $this->aggregations;
+  }
+  public function setComparison($comparison)
+  {
+    $this->comparison = $comparison;
+  }
+  public function getComparison()
+  {
+    return $this->comparison;
+  }
+  /**
+   * @param Aggregation[]
+   */
+  public function setDenominatorAggregations($denominatorAggregations)
+  {
+    $this->denominatorAggregations = $denominatorAggregations;
+  }
+  /**
+   * @return Aggregation[]
+   */
+  public function getDenominatorAggregations()
+  {
+    return $this->denominatorAggregations;
+  }
+  public function setDenominatorFilter($denominatorFilter)
+  {
+    $this->denominatorFilter = $denominatorFilter;
+  }
+  public function getDenominatorFilter()
+  {
+    return $this->denominatorFilter;
+  }
+  public function setDuration($duration)
+  {
+    $this->duration = $duration;
+  }
+  public function getDuration()
+  {
+    return $this->duration;
+  }
+  public function setFilter($filter)
+  {
+    $this->filter = $filter;
+  }
+  public function getFilter()
+  {
+    return $this->filter;
+  }
+  public function setThresholdValue($thresholdValue)
+  {
+    $this->thresholdValue = $thresholdValue;
+  }
+  public function getThresholdValue()
+  {
+    return $this->thresholdValue;
+  }
+  /**
+   * @param Trigger
+   */
+  public function setTrigger(Trigger $trigger)
+  {
+    $this->trigger = $trigger;
+  }
+  /**
+   * @return Trigger
+   */
+  public function getTrigger()
+  {
+    return $this->trigger;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(MetricThreshold::class, 'Google_Service_Monitoring_MetricThreshold');

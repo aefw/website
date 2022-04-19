@@ -1,73 +1,254 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-rf6K
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for WebRisk (v1).
+ *
+ * <p>
+</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/web-risk/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class WebRisk extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+
+  public $hashes;
+  public $projects_operations;
+  public $projects_submissions;
+  public $projects_uris;
+  public $threatLists;
+  public $uris;
+
+  /**
+   * Constructs the internal representation of the WebRisk service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://webrisk.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'webrisk';
+
+    $this->hashes = new WebRisk\Resource\Hashes(
+        $this,
+        $this->serviceName,
+        'hashes',
+        [
+          'methods' => [
+            'search' => [
+              'path' => 'v1/hashes:search',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'hashPrefix' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'threatTypes' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_operations = new WebRisk\Resource\ProjectsOperations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'cancel' => [
+              'path' => 'v1/{+name}:cancel',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+name}/operations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_submissions = new WebRisk\Resource\ProjectsSubmissions(
+        $this,
+        $this->serviceName,
+        'submissions',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/submissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_uris = new WebRisk\Resource\ProjectsUris(
+        $this,
+        $this->serviceName,
+        'uris',
+        [
+          'methods' => [
+            'submit' => [
+              'path' => 'v1/{+parent}/uris:submit',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->threatLists = new WebRisk\Resource\ThreatLists(
+        $this,
+        $this->serviceName,
+        'threatLists',
+        [
+          'methods' => [
+            'computeDiff' => [
+              'path' => 'v1/threatLists:computeDiff',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'constraints.maxDatabaseEntries' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'constraints.maxDiffEntries' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'constraints.supportedCompressions' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'threatType' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'versionToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->uris = new WebRisk\Resource\Uris(
+        $this,
+        $this->serviceName,
+        'uris',
+        [
+          'methods' => [
+            'search' => [
+              'path' => 'v1/uris:search',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'threatTypes' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'uri' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(WebRisk::class, 'Google_Service_WebRisk');

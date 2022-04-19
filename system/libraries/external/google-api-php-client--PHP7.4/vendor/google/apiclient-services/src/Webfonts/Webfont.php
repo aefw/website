@@ -1,67 +1,99 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Webfonts;
+
+class Webfont extends \Google\Collection
+{
+  protected $collection_key = 'variants';
+  public $category;
+  public $family;
+  public $files;
+  public $kind;
+  public $lastModified;
+  public $subsets;
+  public $variants;
+  public $version;
+
+  public function setCategory($category)
+  {
+    $this->category = $category;
+  }
+  public function getCategory()
+  {
+    return $this->category;
+  }
+  public function setFamily($family)
+  {
+    $this->family = $family;
+  }
+  public function getFamily()
+  {
+    return $this->family;
+  }
+  public function setFiles($files)
+  {
+    $this->files = $files;
+  }
+  public function getFiles()
+  {
+    return $this->files;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setLastModified($lastModified)
+  {
+    $this->lastModified = $lastModified;
+  }
+  public function getLastModified()
+  {
+    return $this->lastModified;
+  }
+  public function setSubsets($subsets)
+  {
+    $this->subsets = $subsets;
+  }
+  public function getSubsets()
+  {
+    return $this->subsets;
+  }
+  public function setVariants($variants)
+  {
+    $this->variants = $variants;
+  }
+  public function getVariants()
+  {
+    return $this->variants;
+  }
+  public function setVersion($version)
+  {
+    $this->version = $version;
+  }
+  public function getVersion()
+  {
+    return $this->version;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Webfont::class, 'Google_Service_Webfonts_Webfont');

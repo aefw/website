@@ -1,66 +1,89 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AlertCenter;
+
+class DeviceCompromisedSecurityDetail extends \Google\Model
+{
+  public $deviceCompromisedState;
+  public $deviceId;
+  public $deviceModel;
+  public $deviceType;
+  public $iosVendorId;
+  public $resourceId;
+  public $serialNumber;
+
+  public function setDeviceCompromisedState($deviceCompromisedState)
+  {
+    $this->deviceCompromisedState = $deviceCompromisedState;
+  }
+  public function getDeviceCompromisedState()
+  {
+    return $this->deviceCompromisedState;
+  }
+  public function setDeviceId($deviceId)
+  {
+    $this->deviceId = $deviceId;
+  }
+  public function getDeviceId()
+  {
+    return $this->deviceId;
+  }
+  public function setDeviceModel($deviceModel)
+  {
+    $this->deviceModel = $deviceModel;
+  }
+  public function getDeviceModel()
+  {
+    return $this->deviceModel;
+  }
+  public function setDeviceType($deviceType)
+  {
+    $this->deviceType = $deviceType;
+  }
+  public function getDeviceType()
+  {
+    return $this->deviceType;
+  }
+  public function setIosVendorId($iosVendorId)
+  {
+    $this->iosVendorId = $iosVendorId;
+  }
+  public function getIosVendorId()
+  {
+    return $this->iosVendorId;
+  }
+  public function setResourceId($resourceId)
+  {
+    $this->resourceId = $resourceId;
+  }
+  public function getResourceId()
+  {
+    return $this->resourceId;
+  }
+  public function setSerialNumber($serialNumber)
+  {
+    $this->serialNumber = $serialNumber;
+  }
+  public function getSerialNumber()
+  {
+    return $this->serialNumber;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(DeviceCompromisedSecurityDetail::class, 'Google_Service_AlertCenter_DeviceCompromisedSecurityDetail');

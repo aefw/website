@@ -1,89 +1,191 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dialogflow\Resource;
+
+use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3Agent;
+use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3AgentValidationResult;
+use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3ExportAgentRequest;
+use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3ListAgentsResponse;
+use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3RestoreAgentRequest;
+use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3ValidateAgentRequest;
+use Google\Service\Dialogflow\GoogleLongrunningOperation;
+use Google\Service\Dialogflow\GoogleProtobufEmpty;
+
+/**
+ * The "agents" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $dialogflowService = new Google\Service\Dialogflow(...);
+ *   $agents = $dialogflowService->agents;
+ *  </code>
+ */
+class ProjectsLocationsAgents extends \Google\Service\Resource
+{
+  /**
+   * Creates an agent in the specified location. (agents.create)
+   *
+   * @param string $parent Required. The location to create a agent for. Format:
+   * `projects//locations/`.
+   * @param GoogleCloudDialogflowCxV3Agent $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudDialogflowCxV3Agent
+   */
+  public function create($parent, GoogleCloudDialogflowCxV3Agent $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleCloudDialogflowCxV3Agent::class);
+  }
+  /**
+   * Deletes the specified agent. (agents.delete)
+   *
+   * @param string $name Required. The name of the agent to delete. Format:
+   * `projects//locations//agents/`.
+   * @param array $optParams Optional parameters.
+   * @return GoogleProtobufEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
+  }
+  /**
+   * Exports the specified agent to a binary file. (agents.export)
+   *
+   * @param string $name Required. The name of the agent to export. Format:
+   * `projects//locations//agents/`.
+   * @param GoogleCloudDialogflowCxV3ExportAgentRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function export($name, GoogleCloudDialogflowCxV3ExportAgentRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('export', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Retrieves the specified agent. (agents.get)
+   *
+   * @param string $name Required. The name of the agent. Format:
+   * `projects//locations//agents/`.
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudDialogflowCxV3Agent
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudDialogflowCxV3Agent::class);
+  }
+  /**
+   * Gets the latest agent validation result. Agent validation is performed when
+   * ValidateAgent is called. (agents.getValidationResult)
+   *
+   * @param string $name Required. The agent name. Format:
+   * `projects//locations//agents//validationResult`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string languageCode If not specified, the agent's default language
+   * is used.
+   * @return GoogleCloudDialogflowCxV3AgentValidationResult
+   */
+  public function getValidationResult($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('getValidationResult', [$params], GoogleCloudDialogflowCxV3AgentValidationResult::class);
+  }
+  /**
+   * Returns the list of all agents in the specified location.
+   * (agents.listProjectsLocationsAgents)
+   *
+   * @param string $parent Required. The location to list all agents for. Format:
+   * `projects//locations/`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The maximum number of items to return in a single
+   * page. By default 100 and at most 1000.
+   * @opt_param string pageToken The next_page_token value returned from a
+   * previous list request.
+   * @return GoogleCloudDialogflowCxV3ListAgentsResponse
+   */
+  public function listProjectsLocationsAgents($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleCloudDialogflowCxV3ListAgentsResponse::class);
+  }
+  /**
+   * Updates the specified agent. (agents.patch)
+   *
+   * @param string $name The unique identifier of the agent. Required for the
+   * Agents.UpdateAgent method. Agents.CreateAgent populates the name
+   * automatically. Format: `projects//locations//agents/`.
+   * @param GoogleCloudDialogflowCxV3Agent $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask The mask to control which fields get updated. If
+   * the mask is not present, all fields will be updated.
+   * @return GoogleCloudDialogflowCxV3Agent
+   */
+  public function patch($name, GoogleCloudDialogflowCxV3Agent $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], GoogleCloudDialogflowCxV3Agent::class);
+  }
+  /**
+   * Restores the specified agent from a binary file. Replaces the current agent
+   * with a new one. Note that all existing resources in agent (e.g. intents,
+   * entity types, flows) will be removed. (agents.restore)
+   *
+   * @param string $name Required. The name of the agent to restore into. Format:
+   * `projects//locations//agents/`.
+   * @param GoogleCloudDialogflowCxV3RestoreAgentRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function restore($name, GoogleCloudDialogflowCxV3RestoreAgentRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('restore', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Validates the specified agent and creates or updates validation results. The
+   * agent in draft version is validated. Please call this API after the training
+   * is completed to get the complete validation results. (agents.validate)
+   *
+   * @param string $name Required. The agent to validate. Format:
+   * `projects//locations//agents/`.
+   * @param GoogleCloudDialogflowCxV3ValidateAgentRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudDialogflowCxV3AgentValidationResult
+   */
+  public function validate($name, GoogleCloudDialogflowCxV3ValidateAgentRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('validate', [$params], GoogleCloudDialogflowCxV3AgentValidationResult::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsAgents::class, 'Google_Service_Dialogflow_Resource_ProjectsLocationsAgents');

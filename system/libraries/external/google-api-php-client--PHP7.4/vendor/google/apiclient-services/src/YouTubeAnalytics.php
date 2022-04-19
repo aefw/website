@@ -1,65 +1,243 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for YouTubeAnalytics (v2).
+ *
+ * <p>
+ * Retrieves your YouTube Analytics data.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://developers.google.com/youtube/analytics" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class YouTubeAnalytics extends \Google\Service
+{
+  /** Manage your YouTube account. */
+  const YOUTUBE =
+      "https://www.googleapis.com/auth/youtube";
+  /** View your YouTube account. */
+  const YOUTUBE_READONLY =
+      "https://www.googleapis.com/auth/youtube.readonly";
+  /** View and manage your assets and associated content on YouTube. */
+  const YOUTUBEPARTNER =
+      "https://www.googleapis.com/auth/youtubepartner";
+  /** View monetary and non-monetary YouTube Analytics reports for your YouTube content. */
+  const YT_ANALYTICS_MONETARY_READONLY =
+      "https://www.googleapis.com/auth/yt-analytics-monetary.readonly";
+  /** View YouTube Analytics reports for your YouTube content. */
+  const YT_ANALYTICS_READONLY =
+      "https://www.googleapis.com/auth/yt-analytics.readonly";
+
+  public $groupItems;
+  public $groups;
+  public $reports;
+
+  /**
+   * Constructs the internal representation of the YouTubeAnalytics service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://youtubeanalytics.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v2';
+    $this->serviceName = 'youtubeAnalytics';
+
+    $this->groupItems = new YouTubeAnalytics\Resource\GroupItems(
+        $this,
+        $this->serviceName,
+        'groupItems',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'v2/groupItems',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'v2/groupItems',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v2/groupItems',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'groupId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->groups = new YouTubeAnalytics\Resource\Groups(
+        $this,
+        $this->serviceName,
+        'groups',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'v2/groups',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'v2/groups',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v2/groups',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'mine' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'v2/groups',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'onBehalfOfContentOwner' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->reports = new YouTubeAnalytics\Resource\Reports(
+        $this,
+        $this->serviceName,
+        'reports',
+        [
+          'methods' => [
+            'query' => [
+              'path' => 'v2/reports',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'currency' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'dimensions' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'endDate' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'filters' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ids' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'includeHistoricalChannelData' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'metrics' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sort' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'startDate' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'startIndex' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(YouTubeAnalytics::class, 'Google_Service_YouTubeAnalytics');

@@ -1,63 +1,203 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-J63GtO3c6f/07Mpq7/pLeIUuD+e=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for Ideahub (v1alpha).
+ *
+ * <p>
+</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://console.cloud.google.com/apis/library/ideahub.googleapis.com" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class Ideahub extends \Google\Service
+{
+
+
+  public $ideas;
+  public $platforms_properties_ideaStates;
+  public $platforms_properties_ideas;
+  public $platforms_properties_locales;
+
+  /**
+   * Constructs the internal representation of the Ideahub service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://ideahub.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1alpha';
+    $this->serviceName = 'ideahub';
+
+    $this->ideas = new Ideahub\Resource\Ideas(
+        $this,
+        $this->serviceName,
+        'ideas',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1alpha/ideas',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'creator.platform' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'creator.platformId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'parent' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->platforms_properties_ideaStates = new Ideahub\Resource\PlatformsPropertiesIdeaStates(
+        $this,
+        $this->serviceName,
+        'ideaStates',
+        [
+          'methods' => [
+            'patch' => [
+              'path' => 'v1alpha/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->platforms_properties_ideas = new Ideahub\Resource\PlatformsPropertiesIdeas(
+        $this,
+        $this->serviceName,
+        'ideas',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1alpha/{+parent}/ideas',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'creator.platform' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'creator.platformId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->platforms_properties_locales = new Ideahub\Resource\PlatformsPropertiesLocales(
+        $this,
+        $this->serviceName,
+        'locales',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1alpha/{+parent}/locales',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Ideahub::class, 'Google_Service_Ideahub');

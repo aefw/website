@@ -1,83 +1,142 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-IWtBpqF63McXAFcFg0==
+<?php
+
+namespace GuzzleHttp\Psr7;
+
+use Psr\Http\Message\StreamInterface;
+
+/**
+ * Provides a buffer stream that can be written to to fill a buffer, and read
+ * from to remove bytes from the buffer.
+ *
+ * This stream returns a "hwm" metadata value that tells upstream consumers
+ * what the configured high water mark of the stream is, or the maximum
+ * preferred size of the buffer.
+ *
+ * @final
+ */
+class BufferStream implements StreamInterface
+{
+    private $hwm;
+    private $buffer = '';
+
+    /**
+     * @param int $hwm High water mark, representing the preferred maximum
+     *                 buffer size. If the size of the buffer exceeds the high
+     *                 water mark, then calls to write will continue to succeed
+     *                 but will return false to inform writers to slow down
+     *                 until the buffer has been drained by reading from it.
+     */
+    public function __construct($hwm = 16384)
+    {
+        $this->hwm = $hwm;
+    }
+
+    public function __toString()
+    {
+        return $this->getContents();
+    }
+
+    public function getContents()
+    {
+        $buffer = $this->buffer;
+        $this->buffer = '';
+
+        return $buffer;
+    }
+
+    public function close()
+    {
+        $this->buffer = '';
+    }
+
+    public function detach()
+    {
+        $this->close();
+
+        return null;
+    }
+
+    public function getSize()
+    {
+        return strlen($this->buffer);
+    }
+
+    public function isReadable()
+    {
+        return true;
+    }
+
+    public function isWritable()
+    {
+        return true;
+    }
+
+    public function isSeekable()
+    {
+        return false;
+    }
+
+    public function rewind()
+    {
+        $this->seek(0);
+    }
+
+    public function seek($offset, $whence = SEEK_SET)
+    {
+        throw new \RuntimeException('Cannot seek a BufferStream');
+    }
+
+    public function eof()
+    {
+        return strlen($this->buffer) === 0;
+    }
+
+    public function tell()
+    {
+        throw new \RuntimeException('Cannot determine the position of a BufferStream');
+    }
+
+    /**
+     * Reads data from the buffer.
+     */
+    public function read($length)
+    {
+        $currentLength = strlen($this->buffer);
+
+        if ($length >= $currentLength) {
+            // No need to slice the buffer because we don't have enough data.
+            $result = $this->buffer;
+            $this->buffer = '';
+        } else {
+            // Slice up the result to provide a subset of the buffer.
+            $result = substr($this->buffer, 0, $length);
+            $this->buffer = substr($this->buffer, $length);
+        }
+
+        return $result;
+    }
+
+    /**
+     * Writes data to the buffer.
+     */
+    public function write($string)
+    {
+        $this->buffer .= $string;
+
+        // TODO: What should happen here?
+        if (strlen($this->buffer) >= $this->hwm) {
+            return false;
+        }
+
+        return strlen($string);
+    }
+
+    public function getMetadata($key = null)
+    {
+        if ($key == 'hwm') {
+            return $this->hwm;
+        }
+
+        return $key ? null : [];
+    }
+}

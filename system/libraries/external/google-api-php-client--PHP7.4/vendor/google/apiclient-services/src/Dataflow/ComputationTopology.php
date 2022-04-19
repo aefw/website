@@ -1,65 +1,109 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dataflow;
+
+class ComputationTopology extends \Google\Collection
+{
+  protected $collection_key = 'stateFamilies';
+  public $computationId;
+  protected $inputsType = StreamLocation::class;
+  protected $inputsDataType = 'array';
+  protected $keyRangesType = KeyRangeLocation::class;
+  protected $keyRangesDataType = 'array';
+  protected $outputsType = StreamLocation::class;
+  protected $outputsDataType = 'array';
+  protected $stateFamiliesType = StateFamilyConfig::class;
+  protected $stateFamiliesDataType = 'array';
+  public $systemStageName;
+
+  public function setComputationId($computationId)
+  {
+    $this->computationId = $computationId;
+  }
+  public function getComputationId()
+  {
+    return $this->computationId;
+  }
+  /**
+   * @param StreamLocation[]
+   */
+  public function setInputs($inputs)
+  {
+    $this->inputs = $inputs;
+  }
+  /**
+   * @return StreamLocation[]
+   */
+  public function getInputs()
+  {
+    return $this->inputs;
+  }
+  /**
+   * @param KeyRangeLocation[]
+   */
+  public function setKeyRanges($keyRanges)
+  {
+    $this->keyRanges = $keyRanges;
+  }
+  /**
+   * @return KeyRangeLocation[]
+   */
+  public function getKeyRanges()
+  {
+    return $this->keyRanges;
+  }
+  /**
+   * @param StreamLocation[]
+   */
+  public function setOutputs($outputs)
+  {
+    $this->outputs = $outputs;
+  }
+  /**
+   * @return StreamLocation[]
+   */
+  public function getOutputs()
+  {
+    return $this->outputs;
+  }
+  /**
+   * @param StateFamilyConfig[]
+   */
+  public function setStateFamilies($stateFamilies)
+  {
+    $this->stateFamilies = $stateFamilies;
+  }
+  /**
+   * @return StateFamilyConfig[]
+   */
+  public function getStateFamilies()
+  {
+    return $this->stateFamilies;
+  }
+  public function setSystemStageName($systemStageName)
+  {
+    $this->systemStageName = $systemStageName;
+  }
+  public function getSystemStageName()
+  {
+    return $this->systemStageName;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ComputationTopology::class, 'Google_Service_Dataflow_ComputationTopology');

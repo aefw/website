@@ -1,67 +1,88 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\SecurityCommandCenter;
+
+class GoogleCloudSecuritycenterV1p1beta1Resource extends \Google\Collection
+{
+  protected $collection_key = 'folders';
+  protected $foldersType = GoogleCloudSecuritycenterV1p1beta1Folder::class;
+  protected $foldersDataType = 'array';
+  public $name;
+  public $parent;
+  public $parentDisplayName;
+  public $project;
+  public $projectDisplayName;
+
+  /**
+   * @param GoogleCloudSecuritycenterV1p1beta1Folder[]
+   */
+  public function setFolders($folders)
+  {
+    $this->folders = $folders;
+  }
+  /**
+   * @return GoogleCloudSecuritycenterV1p1beta1Folder[]
+   */
+  public function getFolders()
+  {
+    return $this->folders;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setParent($parent)
+  {
+    $this->parent = $parent;
+  }
+  public function getParent()
+  {
+    return $this->parent;
+  }
+  public function setParentDisplayName($parentDisplayName)
+  {
+    $this->parentDisplayName = $parentDisplayName;
+  }
+  public function getParentDisplayName()
+  {
+    return $this->parentDisplayName;
+  }
+  public function setProject($project)
+  {
+    $this->project = $project;
+  }
+  public function getProject()
+  {
+    return $this->project;
+  }
+  public function setProjectDisplayName($projectDisplayName)
+  {
+    $this->projectDisplayName = $projectDisplayName;
+  }
+  public function getProjectDisplayName()
+  {
+    return $this->projectDisplayName;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudSecuritycenterV1p1beta1Resource::class, 'Google_Service_SecurityCommandCenter_GoogleCloudSecuritycenterV1p1beta1Resource');

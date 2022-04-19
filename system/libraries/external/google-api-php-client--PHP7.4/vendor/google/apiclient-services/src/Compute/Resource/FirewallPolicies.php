@@ -1,124 +1,492 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute\Resource;
+
+use Google\Service\Compute\FirewallPoliciesListAssociationsResponse;
+use Google\Service\Compute\FirewallPolicy;
+use Google\Service\Compute\FirewallPolicyAssociation;
+use Google\Service\Compute\FirewallPolicyList;
+use Google\Service\Compute\FirewallPolicyRule;
+use Google\Service\Compute\GlobalOrganizationSetPolicyRequest;
+use Google\Service\Compute\Operation;
+use Google\Service\Compute\Policy;
+use Google\Service\Compute\TestPermissionsRequest;
+use Google\Service\Compute\TestPermissionsResponse;
+
+/**
+ * The "firewallPolicies" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $computeService = new Google\Service\Compute(...);
+ *   $firewallPolicies = $computeService->firewallPolicies;
+ *  </code>
+ */
+class FirewallPolicies extends \Google\Service\Resource
+{
+  /**
+   * Inserts an association for the specified firewall policy.
+   * (firewallPolicies.addAssociation)
+   *
+   * @param string $firewallPolicy Name of the firewall policy to update.
+   * @param FirewallPolicyAssociation $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool replaceExistingAssociation Indicates whether or not to
+   * replace it if an association of the attachment already exists. This is false
+   * by default, in which case an error will be returned if an association already
+   * exists.
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function addAssociation($firewallPolicy, FirewallPolicyAssociation $postBody, $optParams = [])
+  {
+    $params = ['firewallPolicy' => $firewallPolicy, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('addAssociation', [$params], Operation::class);
+  }
+  /**
+   * Inserts a rule into a firewall policy. (firewallPolicies.addRule)
+   *
+   * @param string $firewallPolicy Name of the firewall policy to update.
+   * @param FirewallPolicyRule $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function addRule($firewallPolicy, FirewallPolicyRule $postBody, $optParams = [])
+  {
+    $params = ['firewallPolicy' => $firewallPolicy, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('addRule', [$params], Operation::class);
+  }
+  /**
+   * Copies rules to the specified firewall policy. (firewallPolicies.cloneRules)
+   *
+   * @param string $firewallPolicy Name of the firewall policy to update.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @opt_param string sourceFirewallPolicy The firewall policy from which to copy
+   * rules.
+   * @return Operation
+   */
+  public function cloneRules($firewallPolicy, $optParams = [])
+  {
+    $params = ['firewallPolicy' => $firewallPolicy];
+    $params = array_merge($params, $optParams);
+    return $this->call('cloneRules', [$params], Operation::class);
+  }
+  /**
+   * Deletes the specified policy. (firewallPolicies.delete)
+   *
+   * @param string $firewallPolicy Name of the firewall policy to delete.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function delete($firewallPolicy, $optParams = [])
+  {
+    $params = ['firewallPolicy' => $firewallPolicy];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Returns the specified firewall policy. (firewallPolicies.get)
+   *
+   * @param string $firewallPolicy Name of the firewall policy to get.
+   * @param array $optParams Optional parameters.
+   * @return FirewallPolicy
+   */
+  public function get($firewallPolicy, $optParams = [])
+  {
+    $params = ['firewallPolicy' => $firewallPolicy];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], FirewallPolicy::class);
+  }
+  /**
+   * Gets an association with the specified name.
+   * (firewallPolicies.getAssociation)
+   *
+   * @param string $firewallPolicy Name of the firewall policy to which the
+   * queried rule belongs.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string name The name of the association to get from the firewall
+   * policy.
+   * @return FirewallPolicyAssociation
+   */
+  public function getAssociation($firewallPolicy, $optParams = [])
+  {
+    $params = ['firewallPolicy' => $firewallPolicy];
+    $params = array_merge($params, $optParams);
+    return $this->call('getAssociation', [$params], FirewallPolicyAssociation::class);
+  }
+  /**
+   * Gets the access control policy for a resource. May be empty if no such policy
+   * or resource exists. (firewallPolicies.getIamPolicy)
+   *
+   * @param string $resource Name or id of the resource for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int optionsRequestedPolicyVersion Requested IAM Policy version.
+   * @return Policy
+   */
+  public function getIamPolicy($resource, $optParams = [])
+  {
+    $params = ['resource' => $resource];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Gets a rule of the specified priority. (firewallPolicies.getRule)
+   *
+   * @param string $firewallPolicy Name of the firewall policy to which the
+   * queried rule belongs.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int priority The priority of the rule to get from the firewall
+   * policy.
+   * @return FirewallPolicyRule
+   */
+  public function getRule($firewallPolicy, $optParams = [])
+  {
+    $params = ['firewallPolicy' => $firewallPolicy];
+    $params = array_merge($params, $optParams);
+    return $this->call('getRule', [$params], FirewallPolicyRule::class);
+  }
+  /**
+   * Creates a new policy in the specified project using the data included in the
+   * request. (firewallPolicies.insert)
+   *
+   * @param FirewallPolicy $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string parentId Parent ID for this request. The ID can be either
+   * be "folders/[FOLDER_ID]" if the parent is a folder or
+   * "organizations/[ORGANIZATION_ID]" if the parent is an organization.
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function insert(FirewallPolicy $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Operation::class);
+  }
+  /**
+   * Lists all the policies that have been configured for the specified folder or
+   * organization. (firewallPolicies.listFirewallPolicies)
+   *
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param string parentId Parent ID for this request.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return FirewallPolicyList
+   */
+  public function listFirewallPolicies($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], FirewallPolicyList::class);
+  }
+  /**
+   * Lists associations of a specified target, i.e., organization or folder.
+   * (firewallPolicies.listAssociations)
+   *
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string targetResource The target resource to list associations. It
+   * is an organization, or a folder.
+   * @return FirewallPoliciesListAssociationsResponse
+   */
+  public function listAssociations($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('listAssociations', [$params], FirewallPoliciesListAssociationsResponse::class);
+  }
+  /**
+   * Moves the specified firewall policy. (firewallPolicies.move)
+   *
+   * @param string $firewallPolicy Name of the firewall policy to update.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string parentId The new parent of the firewall policy.
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function move($firewallPolicy, $optParams = [])
+  {
+    $params = ['firewallPolicy' => $firewallPolicy];
+    $params = array_merge($params, $optParams);
+    return $this->call('move', [$params], Operation::class);
+  }
+  /**
+   * Patches the specified policy with the data included in the request.
+   * (firewallPolicies.patch)
+   *
+   * @param string $firewallPolicy Name of the firewall policy to update.
+   * @param FirewallPolicy $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function patch($firewallPolicy, FirewallPolicy $postBody, $optParams = [])
+  {
+    $params = ['firewallPolicy' => $firewallPolicy, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+  /**
+   * Patches a rule of the specified priority. (firewallPolicies.patchRule)
+   *
+   * @param string $firewallPolicy Name of the firewall policy to update.
+   * @param FirewallPolicyRule $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int priority The priority of the rule to patch.
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function patchRule($firewallPolicy, FirewallPolicyRule $postBody, $optParams = [])
+  {
+    $params = ['firewallPolicy' => $firewallPolicy, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patchRule', [$params], Operation::class);
+  }
+  /**
+   * Removes an association for the specified firewall policy.
+   * (firewallPolicies.removeAssociation)
+   *
+   * @param string $firewallPolicy Name of the firewall policy to update.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string name Name for the attachment that will be removed.
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function removeAssociation($firewallPolicy, $optParams = [])
+  {
+    $params = ['firewallPolicy' => $firewallPolicy];
+    $params = array_merge($params, $optParams);
+    return $this->call('removeAssociation', [$params], Operation::class);
+  }
+  /**
+   * Deletes a rule of the specified priority. (firewallPolicies.removeRule)
+   *
+   * @param string $firewallPolicy Name of the firewall policy to update.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int priority The priority of the rule to remove from the firewall
+   * policy.
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function removeRule($firewallPolicy, $optParams = [])
+  {
+    $params = ['firewallPolicy' => $firewallPolicy];
+    $params = array_merge($params, $optParams);
+    return $this->call('removeRule', [$params], Operation::class);
+  }
+  /**
+   * Sets the access control policy on the specified resource. Replaces any
+   * existing policy. (firewallPolicies.setIamPolicy)
+   *
+   * @param string $resource Name or id of the resource for this request.
+   * @param GlobalOrganizationSetPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($resource, GlobalOrganizationSetPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource.
+   * (firewallPolicies.testIamPermissions)
+   *
+   * @param string $resource Name or id of the resource for this request.
+   * @param TestPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestPermissionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(FirewallPolicies::class, 'Google_Service_Compute_Resource_FirewallPolicies');

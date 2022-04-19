@@ -1,78 +1,157 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-9OpH1ttUdMEFbCIlnWVk+Ff2MRf1huE5eGXWKam=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Blogger\Resource;
+
+use Google\Service\Blogger\Comment;
+use Google\Service\Blogger\CommentList;
+
+/**
+ * The "comments" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $bloggerService = new Google\Service\Blogger(...);
+ *   $comments = $bloggerService->comments;
+ *  </code>
+ */
+class Comments extends \Google\Service\Resource
+{
+  /**
+   * Marks a comment as not spam by blog id, post id and comment id.
+   * (comments.approve)
+   *
+   * @param string $blogId
+   * @param string $postId
+   * @param string $commentId
+   * @param array $optParams Optional parameters.
+   * @return Comment
+   */
+  public function approve($blogId, $postId, $commentId, $optParams = [])
+  {
+    $params = ['blogId' => $blogId, 'postId' => $postId, 'commentId' => $commentId];
+    $params = array_merge($params, $optParams);
+    return $this->call('approve', [$params], Comment::class);
+  }
+  /**
+   * Deletes a comment by blog id, post id and comment id. (comments.delete)
+   *
+   * @param string $blogId
+   * @param string $postId
+   * @param string $commentId
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($blogId, $postId, $commentId, $optParams = [])
+  {
+    $params = ['blogId' => $blogId, 'postId' => $postId, 'commentId' => $commentId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Gets a comment by id. (comments.get)
+   *
+   * @param string $blogId
+   * @param string $postId
+   * @param string $commentId
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string view
+   * @return Comment
+   */
+  public function get($blogId, $postId, $commentId, $optParams = [])
+  {
+    $params = ['blogId' => $blogId, 'postId' => $postId, 'commentId' => $commentId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Comment::class);
+  }
+  /**
+   * Lists comments. (comments.listComments)
+   *
+   * @param string $blogId
+   * @param string $postId
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string endDate
+   * @opt_param bool fetchBodies
+   * @opt_param string maxResults
+   * @opt_param string pageToken
+   * @opt_param string startDate
+   * @opt_param string status
+   * @opt_param string view
+   * @return CommentList
+   */
+  public function listComments($blogId, $postId, $optParams = [])
+  {
+    $params = ['blogId' => $blogId, 'postId' => $postId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], CommentList::class);
+  }
+  /**
+   * Lists comments by blog. (comments.listByBlog)
+   *
+   * @param string $blogId
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string endDate
+   * @opt_param bool fetchBodies
+   * @opt_param string maxResults
+   * @opt_param string pageToken
+   * @opt_param string startDate
+   * @opt_param string status
+   * @return CommentList
+   */
+  public function listByBlog($blogId, $optParams = [])
+  {
+    $params = ['blogId' => $blogId];
+    $params = array_merge($params, $optParams);
+    return $this->call('listByBlog', [$params], CommentList::class);
+  }
+  /**
+   * Marks a comment as spam by blog id, post id and comment id.
+   * (comments.markAsSpam)
+   *
+   * @param string $blogId
+   * @param string $postId
+   * @param string $commentId
+   * @param array $optParams Optional parameters.
+   * @return Comment
+   */
+  public function markAsSpam($blogId, $postId, $commentId, $optParams = [])
+  {
+    $params = ['blogId' => $blogId, 'postId' => $postId, 'commentId' => $commentId];
+    $params = array_merge($params, $optParams);
+    return $this->call('markAsSpam', [$params], Comment::class);
+  }
+  /**
+   * Removes the content of a comment by blog id, post id and comment id.
+   * (comments.removeContent)
+   *
+   * @param string $blogId
+   * @param string $postId
+   * @param string $commentId
+   * @param array $optParams Optional parameters.
+   * @return Comment
+   */
+  public function removeContent($blogId, $postId, $commentId, $optParams = [])
+  {
+    $params = ['blogId' => $blogId, 'postId' => $postId, 'commentId' => $commentId];
+    $params = array_merge($params, $optParams);
+    return $this->call('removeContent', [$params], Comment::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Comments::class, 'Google_Service_Blogger_Resource_Comments');

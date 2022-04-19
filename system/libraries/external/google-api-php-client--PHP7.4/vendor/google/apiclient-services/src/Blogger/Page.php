@@ -1,83 +1,148 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-mnH+eqZUBvW=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Blogger;
+
+class Page extends \Google\Model
+{
+  protected $authorType = PageAuthor::class;
+  protected $authorDataType = '';
+  protected $blogType = PageBlog::class;
+  protected $blogDataType = '';
+  public $content;
+  public $etag;
+  public $id;
+  public $kind;
+  public $published;
+  public $selfLink;
+  public $status;
+  public $title;
+  public $updated;
+  public $url;
+
+  /**
+   * @param PageAuthor
+   */
+  public function setAuthor(PageAuthor $author)
+  {
+    $this->author = $author;
+  }
+  /**
+   * @return PageAuthor
+   */
+  public function getAuthor()
+  {
+    return $this->author;
+  }
+  /**
+   * @param PageBlog
+   */
+  public function setBlog(PageBlog $blog)
+  {
+    $this->blog = $blog;
+  }
+  /**
+   * @return PageBlog
+   */
+  public function getBlog()
+  {
+    return $this->blog;
+  }
+  public function setContent($content)
+  {
+    $this->content = $content;
+  }
+  public function getContent()
+  {
+    return $this->content;
+  }
+  public function setEtag($etag)
+  {
+    $this->etag = $etag;
+  }
+  public function getEtag()
+  {
+    return $this->etag;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setPublished($published)
+  {
+    $this->published = $published;
+  }
+  public function getPublished()
+  {
+    return $this->published;
+  }
+  public function setSelfLink($selfLink)
+  {
+    $this->selfLink = $selfLink;
+  }
+  public function getSelfLink()
+  {
+    return $this->selfLink;
+  }
+  public function setStatus($status)
+  {
+    $this->status = $status;
+  }
+  public function getStatus()
+  {
+    return $this->status;
+  }
+  public function setTitle($title)
+  {
+    $this->title = $title;
+  }
+  public function getTitle()
+  {
+    return $this->title;
+  }
+  public function setUpdated($updated)
+  {
+    $this->updated = $updated;
+  }
+  public function getUpdated()
+  {
+    return $this->updated;
+  }
+  public function setUrl($url)
+  {
+    $this->url = $url;
+  }
+  public function getUrl()
+  {
+    return $this->url;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Page::class, 'Google_Service_Blogger_Page');

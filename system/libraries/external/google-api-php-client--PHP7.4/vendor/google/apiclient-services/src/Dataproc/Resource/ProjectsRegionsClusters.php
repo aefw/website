@@ -1,112 +1,343 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-UbAX5Kb9FPa0mAuzsN2AT1kJ1xm07rhe
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dataproc\Resource;
+
+use Google\Service\Dataproc\Cluster;
+use Google\Service\Dataproc\DiagnoseClusterRequest;
+use Google\Service\Dataproc\GetIamPolicyRequest;
+use Google\Service\Dataproc\InjectCredentialsRequest;
+use Google\Service\Dataproc\ListClustersResponse;
+use Google\Service\Dataproc\Operation;
+use Google\Service\Dataproc\Policy;
+use Google\Service\Dataproc\SetIamPolicyRequest;
+use Google\Service\Dataproc\StartClusterRequest;
+use Google\Service\Dataproc\StopClusterRequest;
+use Google\Service\Dataproc\TestIamPermissionsRequest;
+use Google\Service\Dataproc\TestIamPermissionsResponse;
+
+/**
+ * The "clusters" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $dataprocService = new Google\Service\Dataproc(...);
+ *   $clusters = $dataprocService->clusters;
+ *  </code>
+ */
+class ProjectsRegionsClusters extends \Google\Service\Resource
+{
+  /**
+   * Creates a cluster in a project. The returned Operation.metadata will be
+   * ClusterOperationMetadata (https://cloud.google.com/dataproc/docs/reference/rp
+   * c/google.cloud.dataproc.v1#clusteroperationmetadata). (clusters.create)
+   *
+   * @param string $projectId Required. The ID of the Google Cloud Platform
+   * project that the cluster belongs to.
+   * @param string $region Required. The Dataproc region in which to handle the
+   * request.
+   * @param Cluster $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId Optional. A unique id used to identify the
+   * request. If the server receives two CreateClusterRequest (https://cloud.googl
+   * e.com/dataproc/docs/reference/rpc/google.cloud.dataproc.v1#google.cloud.datap
+   * roc.v1.CreateClusterRequest)s with the same id, then the second request will
+   * be ignored and the first google.longrunning.Operation created and stored in
+   * the backend is returned.It is recommended to always set this value to a UUID
+   * (https://en.wikipedia.org/wiki/Universally_unique_identifier).The id must
+   * contain only letters (a-z, A-Z), numbers (0-9), underscores (_), and hyphens
+   * (-). The maximum length is 40 characters.
+   * @return Operation
+   */
+  public function create($projectId, $region, Cluster $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'region' => $region, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Operation::class);
+  }
+  /**
+   * Deletes a cluster in a project. The returned Operation.metadata will be
+   * ClusterOperationMetadata (https://cloud.google.com/dataproc/docs/reference/rp
+   * c/google.cloud.dataproc.v1#clusteroperationmetadata). (clusters.delete)
+   *
+   * @param string $projectId Required. The ID of the Google Cloud Platform
+   * project that the cluster belongs to.
+   * @param string $region Required. The Dataproc region in which to handle the
+   * request.
+   * @param string $clusterName Required. The cluster name.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string clusterUuid Optional. Specifying the cluster_uuid means the
+   * RPC should fail (with error NOT_FOUND) if cluster with specified UUID does
+   * not exist.
+   * @opt_param string requestId Optional. A unique id used to identify the
+   * request. If the server receives two DeleteClusterRequest (https://cloud.googl
+   * e.com/dataproc/docs/reference/rpc/google.cloud.dataproc.v1#google.cloud.datap
+   * roc.v1.DeleteClusterRequest)s with the same id, then the second request will
+   * be ignored and the first google.longrunning.Operation created and stored in
+   * the backend is returned.It is recommended to always set this value to a UUID
+   * (https://en.wikipedia.org/wiki/Universally_unique_identifier).The id must
+   * contain only letters (a-z, A-Z), numbers (0-9), underscores (_), and hyphens
+   * (-). The maximum length is 40 characters.
+   * @return Operation
+   */
+  public function delete($projectId, $region, $clusterName, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'region' => $region, 'clusterName' => $clusterName];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Gets cluster diagnostic information. The returned Operation.metadata will be
+   * ClusterOperationMetadata (https://cloud.google.com/dataproc/docs/reference/rp
+   * c/google.cloud.dataproc.v1#clusteroperationmetadata). After the operation
+   * completes, Operation.response contains DiagnoseClusterResults (https://cloud.
+   * google.com/dataproc/docs/reference/rpc/google.cloud.dataproc.v1#diagnoseclust
+   * erresults). (clusters.diagnose)
+   *
+   * @param string $projectId Required. The ID of the Google Cloud Platform
+   * project that the cluster belongs to.
+   * @param string $region Required. The Dataproc region in which to handle the
+   * request.
+   * @param string $clusterName Required. The cluster name.
+   * @param DiagnoseClusterRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function diagnose($projectId, $region, $clusterName, DiagnoseClusterRequest $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'region' => $region, 'clusterName' => $clusterName, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('diagnose', [$params], Operation::class);
+  }
+  /**
+   * Gets the resource representation for a cluster in a project. (clusters.get)
+   *
+   * @param string $projectId Required. The ID of the Google Cloud Platform
+   * project that the cluster belongs to.
+   * @param string $region Required. The Dataproc region in which to handle the
+   * request.
+   * @param string $clusterName Required. The cluster name.
+   * @param array $optParams Optional parameters.
+   * @return Cluster
+   */
+  public function get($projectId, $region, $clusterName, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'region' => $region, 'clusterName' => $clusterName];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Cluster::class);
+  }
+  /**
+   * Gets the access control policy for a resource. Returns an empty policy if the
+   * resource exists and does not have a policy set. (clusters.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param GetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function getIamPolicy($resource, GetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Inject encrypted credentials into all of the VMs in a cluster.The target
+   * cluster must be a personal auth cluster assigned to the user who is issuing
+   * the RPC. (clusters.injectCredentials)
+   *
+   * @param string $project Required. The ID of the Google Cloud Platform project
+   * the cluster belongs to, of the form projects/.
+   * @param string $region Required. The region containing the cluster, of the
+   * form regions/.
+   * @param string $cluster Required. The cluster, in the form clusters/.
+   * @param InjectCredentialsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function injectCredentials($project, $region, $cluster, InjectCredentialsRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'cluster' => $cluster, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('injectCredentials', [$params], Operation::class);
+  }
+  /**
+   * Lists all regions/{region}/clusters in a project alphabetically.
+   * (clusters.listProjectsRegionsClusters)
+   *
+   * @param string $projectId Required. The ID of the Google Cloud Platform
+   * project that the cluster belongs to.
+   * @param string $region Required. The Dataproc region in which to handle the
+   * request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Optional. A filter constraining the clusters to
+   * list. Filters are case-sensitive and have the following syntax:field = value
+   * AND field = value ...where field is one of status.state, clusterName, or
+   * labels.[KEY], and [KEY] is a label key. value can be * to match all values.
+   * status.state can be one of the following: ACTIVE, INACTIVE, CREATING,
+   * RUNNING, ERROR, DELETING, or UPDATING. ACTIVE contains the CREATING,
+   * UPDATING, and RUNNING states. INACTIVE contains the DELETING and ERROR
+   * states. clusterName is the name of the cluster provided at creation time.
+   * Only the logical AND operator is supported; space-separated items are treated
+   * as having an implicit AND operator.Example filter:status.state = ACTIVE AND
+   * clusterName = mycluster AND labels.env = staging AND labels.starred = *
+   * @opt_param int pageSize Optional. The standard List page size.
+   * @opt_param string pageToken Optional. The standard List page token.
+   * @return ListClustersResponse
+   */
+  public function listProjectsRegionsClusters($projectId, $region, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'region' => $region];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListClustersResponse::class);
+  }
+  /**
+   * Updates a cluster in a project. The returned Operation.metadata will be
+   * ClusterOperationMetadata (https://cloud.google.com/dataproc/docs/reference/rp
+   * c/google.cloud.dataproc.v1#clusteroperationmetadata). (clusters.patch)
+   *
+   * @param string $projectId Required. The ID of the Google Cloud Platform
+   * project the cluster belongs to.
+   * @param string $region Required. The Dataproc region in which to handle the
+   * request.
+   * @param string $clusterName Required. The cluster name.
+   * @param Cluster $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string gracefulDecommissionTimeout Optional. Timeout for graceful
+   * YARN decomissioning. Graceful decommissioning allows removing nodes from the
+   * cluster without interrupting jobs in progress. Timeout specifies how long to
+   * wait for jobs in progress to finish before forcefully removing nodes (and
+   * potentially interrupting jobs). Default timeout is 0 (for forceful
+   * decommission), and the maximum allowed timeout is 1 day. (see JSON
+   * representation of Duration (https://developers.google.com/protocol-
+   * buffers/docs/proto3#json)).Only supported on Dataproc image versions 1.2 and
+   * higher.
+   * @opt_param string requestId Optional. A unique id used to identify the
+   * request. If the server receives two UpdateClusterRequest (https://cloud.googl
+   * e.com/dataproc/docs/reference/rpc/google.cloud.dataproc.v1#google.cloud.datap
+   * roc.v1.UpdateClusterRequest)s with the same id, then the second request will
+   * be ignored and the first google.longrunning.Operation created and stored in
+   * the backend is returned.It is recommended to always set this value to a UUID
+   * (https://en.wikipedia.org/wiki/Universally_unique_identifier).The id must
+   * contain only letters (a-z, A-Z), numbers (0-9), underscores (_), and hyphens
+   * (-). The maximum length is 40 characters.
+   * @opt_param string updateMask Required. Specifies the path, relative to
+   * Cluster, of the field to update. For example, to change the number of workers
+   * in a cluster to 5, the update_mask parameter would be specified as
+   * config.worker_config.num_instances, and the PATCH request body would specify
+   * the new value, as follows: { "config":{ "workerConfig":{ "numInstances":"5" }
+   * } } Similarly, to change the number of preemptible workers in a cluster to 5,
+   * the update_mask parameter would be
+   * config.secondary_worker_config.num_instances, and the PATCH request body
+   * would be set as follows: { "config":{ "secondaryWorkerConfig":{
+   * "numInstances":"5" } } } *Note:* Currently, only the following fields can be
+   * updated: *Mask* *Purpose* *labels* Update labels
+   * *config.worker_config.num_instances* Resize primary worker group
+   * *config.secondary_worker_config.num_instances* Resize secondary worker group
+   * config.autoscaling_config.policy_uri Use, stop using, or change autoscaling
+   * policies
+   * @return Operation
+   */
+  public function patch($projectId, $region, $clusterName, Cluster $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'region' => $region, 'clusterName' => $clusterName, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+  /**
+   * Sets the access control policy on the specified resource. Replaces any
+   * existing policy.Can return NOT_FOUND, INVALID_ARGUMENT, and PERMISSION_DENIED
+   * errors. (clusters.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Starts a cluster in a project. (clusters.start)
+   *
+   * @param string $projectId Required. The ID of the Google Cloud Platform
+   * project the cluster belongs to.
+   * @param string $region Required. The Dataproc region in which to handle the
+   * request.
+   * @param string $clusterName Required. The cluster name.
+   * @param StartClusterRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function start($projectId, $region, $clusterName, StartClusterRequest $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'region' => $region, 'clusterName' => $clusterName, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('start', [$params], Operation::class);
+  }
+  /**
+   * Stops a cluster in a project. (clusters.stop)
+   *
+   * @param string $projectId Required. The ID of the Google Cloud Platform
+   * project the cluster belongs to.
+   * @param string $region Required. The Dataproc region in which to handle the
+   * request.
+   * @param string $clusterName Required. The cluster name.
+   * @param StopClusterRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function stop($projectId, $region, $clusterName, StopClusterRequest $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'region' => $region, 'clusterName' => $clusterName, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('stop', [$params], Operation::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource. If the
+   * resource does not exist, this will return an empty set of permissions, not a
+   * NOT_FOUND error.Note: This operation is designed to be used for building
+   * permission-aware UIs and command-line tools, not for authorization checking.
+   * This operation may "fail open" without warning. (clusters.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsRegionsClusters::class, 'Google_Service_Dataproc_Resource_ProjectsRegionsClusters');

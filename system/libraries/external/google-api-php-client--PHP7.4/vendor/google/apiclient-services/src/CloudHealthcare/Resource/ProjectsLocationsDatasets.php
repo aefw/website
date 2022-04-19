@@ -1,90 +1,219 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPvpQCzTRS8WOKXwcz6CgaSxNQz2WX2M0DPh8KnZne7kpNN/v3WTYnd/7fkxvXDOrB84my96Y
-VYmQON1+Qf60FQzhXlYp3WlHdP6bkceoqwj6e3dq9Pl4CYdtmf6zPAt9Fd18WXNGMmQ1d3ij4aVR
-2TN2Am3LAYMOPWVdjmx1a/OUl5Y2KRlAH3LWhCLklAS3Zy6D1nJMzX4D9Ei8qjsrfsDQ+vtNS4Y+
-EDypFq8W/Q3mrjP6+Wz5zTxRvJRrCDXznKHPVeEzCWxbQjKiRwgq9Uwt2AwyLUVvsid3kSxXEHjC
-p7F1TFc4QShv+3CVFbel28k+Rl+IXe18EKJDxbS3CN+r1/PfTwpF1CX3vYl1hra9MYnsJ0fE7r8o
-1D/7erQ7y6ku88yaSaXqCkvFsAAYNfn5disTY4I2DMwWlkdpT8TIa+ECr0U0TlIglgOAovtxhES6
-Q2pWPusFuIXGgNEtU5gNDXlB4BPestfkSi3qvrpjqYd/uvJEPLWMOg1t+BV4NSmH5QEhXMaEBxaD
-czew5Su5oXlvjQGLQvMdlYlwiFFBLIvLnDx77bJceG7GDyCI4xuOQW2Y8XYwveR5VpK6szBmSgw4
-HzuSucm5JLkSqzyHKv/42VfAAekOaJbxalneFP2Dj3a9waLUxN10Oiq7mEQ7rC86/+G07eKSdyi3
-WVoHMr/mvuBS38zYJm5p4qw9rY1VTgei+0GhuELCWr6XjPOok+O8+QUHt/Iadt0V8TbxxG0PyG3D
-JIRaQfknPrZlHWZDV2BA3H0QS9hzTuRtYugI4qn5fY2Pbuax2yd0aToe6EnYKB1QWgKrFGGrfP11
-1ew1zhuD3yOG0FMygEsatpJE9QTELy64d6Wr/QChQ5cZ21sTX4tO0ClMsk+7P/dDR0eQSSWFiSM4
-mr7YoTK0eXPmisRDICr11uhVadyxVqZX5pruTaoL4VDq0t3Ff6q3f1f2aAz5u56x/b1a4IIkSpyo
-+q17CNRSmC8jQ2fmc9m3H2gaVc//fETkt6pPc23nVIah28+OpVUY5/FfuHo4gSs7BJMjP0QLrRrH
-hoyw69LdYatdJuiP+EDkZemfq0Z1P66FZXnFPQjYNYPl6KchdVSKi1rTFGDgTWNTU6tpVgkExyED
-4vzPjLvhukXzFk6NHHNpODEa1UbmPakljdB5k7jruF0izJZqUvR1BAppJ6LLTACuwGrniDcVLMzL
-u2ZXr8HexHO04UqK46NggD+yCKhl0LAY4rq5IoLhGIHc0d36gkvr8NCdOIXY+7an8asV11Z7FSWc
-Uqeq+ErgrIK5+sXaUOTML0GJb6pxqqDfIF4aHrI4/yAfH16JHbw05wxS5Q6lMoZuFlyIN7Bq0+EB
-tu/nglDUa32xMv3PI05EKwr0SZdiY4oARG4rhpr1TSM2k5yWPyumAoAS/uAIRzuEbMbP9yew99tg
-GDnQn1brAW7jYm4JEuS66Ek2/QGOmGUGc0qD/N9BwTlA3hQqdbNUr2/f3LysZCriTO5PKBsTGoHi
-an6P2vdNPSUh58hnmtnfun8MiNb/iDzbrfNvsXroiZLSga+AEPE9gupVK8AEJAxbJGV/FdUKHkC8
-31IL/+pT74SrRaGXmLJ9ZN5/cN8bTCfryHwUZBC1YkpHuGrJhWn8zgl/YP8OTtesNVIBRiAC5ytG
-3XAhqXwdr092uxUqyhB0gn868S1t//NaP85AI32qMTs7h45WWBIW8+ttBuiS9ajpnAtkOSdKuwTk
-YsXfIZH49ThK+4oMCRp0OCkIy8CYuhT4e16tT/BTRgiLvWmEH99nb2AK8nDMjwF1ZcEKXVBFaj5d
-jWSp+dzSXp26c2A5hhGI1SuxBgrtUOaHmdijnqCIog9GuZq1NWL1oB4G9gHS3dN+l/y5DA9aSl1F
-OrPWKBdAQEzLMag/0a0fCi6JzSv24t9g1uUPKiBVqVAX19HDltpQXs18dj87MxDmQ6jHmFoCIJdD
-bNp6R3x/72AejG5JRgiSGynkfpJPPwueh9A3jzC8MqNwrIWflVes9geudS5Cpg+E+ot/lTDVAZLG
-t32kEpHS09+90uswBYUR3VdhHxI/orQ+zK4+Bm1F2Z1u8iK0O0hcE+/OzCb7uSsKT/IDO9p6N/Jg
-Eb2YNG7NiU0z3X3asOgARFYMZFm9XI4uczOMgAR56v5dqEf/igmnUg6nul+lA16Iy5VbGAgAvtMs
-qSzeQ3B4VAJxKHjQNv3lkAzmaeQyBbPbBMuF8bGzznPS8UWGQu2A/Vkr0FZwnCDnVyONaKZD8JY/
-NKOTvhG5nxsxT8WvV/plviq030io35mKP4/hOhci3TIWt36PCEtGzzB04u1xiS1LatBvqDEd/GKA
-qkY8bay+3sWJPdqgQbEy9to3oYQY0mwFczq1qxgXYMc7ThejX8CpPD0bmtCicTglq3VqPCXoG1pp
-AV66JsHhISrqw38TjFtLDd4Vn4BU1RW04xLVoqoduA3Gzv7zx6fC+wgJlTFDj7HU73G8yGrpr1NG
-Zn/TZrceN7MI5hxpYH1n5JOvNC64QEzqso27CrrjO3lUw6bsWQ0A4/3/NiA6X4LZ7trHggrsIY3u
-j63E/BZs0L+s8sUAd23vKWfL/Q2cVdzfJxY0U7r6rV233SJ3NdMM7dnIrLNxNqNuWz+jLVv0zTXF
-cE2voFeZgR7F8WnlG1N81RGmflq2X6Lb7nQrQZA3qHv5rDMX+f20eHSQFQS5ZhOF/855YlRGGJ0z
-/n0ZWLobYqD9x7iu85EGLQcV8Hed2qd8mh720X0/MJwLHTi4NUXvp+u5qj21eDCARwtYlXq3TUUU
-D8XyJOEDiNyKwM8RDGn6SovI6WixEFZyld9hcK5uA7M44L5wtEOgOPHjR+n/UdufG+YM282UF/Qu
-amUfvdYgDmEzj/UtA0NW60j+XOiR7xUr8wzPp43sQSKX5kkxVBaJdznSMDvBJ4DsAuzT2FYNGuwY
-/uO5z8qWutYCuxVHdMK92bSG+LOdnfWSI8p1H2wP09Z5PYvl/de9sXTfOccEkv0p1zgLv5Pvn0ww
-g5keNoEbyMFHXg8SFjXu3BWhLJHWcU2meslzasqCKOmpMcaG7B/N+W9CZOe1ycn0tunh4jsefHyt
-dXVgps2v2aNhMoV0IbeFOWk6Tzs4xXbUDM5gYdPHyBvlek3HJ3PRyZFQgYERM/B7Fzkygpfpv73G
-X8h1fZ693ftjm6HTG1KCdbKlmQDMOrRwefsbZaoausxuaQMktGRBk8AlEQj+v9uWgyZumQPUNzfG
-eq2kHAKN2TwhYczrhKDSN4LKC/eIPGVw46BG4CXnLPk6xDAdxn30MO0kfsX2Uu66S2k0D3dXrB3q
-3ipAu7/Ug6pEZxse/REAs4+TrWVzRC8UTiP3kZS//Fq+RZxy5bhBQ+2h7t4YAdefkSsbCAz5bBoR
-BNUJUxNSNby0qi7RlTJkb/n3KskEi2h99Pnf/6MQh6MCa/zfpg+gcMYoA4NN4Fw2KcepNKUPAPWo
-R7DzAkSmz77m/czsLmptWSlVAAnT0IS9qm2R491+bVUBtsQm/0u332rcMDFlXVBy5kyrd917SOCR
-K8YJiblqAyi8e9wZBsGq9mOep6NVoSXdplaGInqq6R2kl/2Nftc+iTyvYmNorLH5QwTueYCXAA4D
-4m6pK3BQhnjysboAtClqct1uIQSfteK8siTNA1Fl6cEi4jazYbHI3OtRv8e378tCQnMx+EQpIWw1
-VQB0Kd6sRlRICW2eAEZ4NSsUAUphly8AWSIa/xI2Zd7d9XuQ0NEQbITQ5Luu6YFmb3l85dbW90Xk
-MVkndZcw/c3svRs6/wVC8vZYSsEv9cOPuhSAVv8s98ZnixDfktTXrIL8dSdy5DSk36Op0DoKErls
-9CiM0ouLHSzgRCd60/S8eMdwXmLDSryJGhWTvfhUPB1qX7LX5mez0Hqe58/OfJua5yjKj73tHMLK
-10kiv8JU4DIH8KpzG9sAnCx/lNE1ULYFLdteoVlrytMT+CkO5R5oEbRvs5C0SnQ56r4JDBrmmkrH
-Hr8Oliwa96QyUn7EVPh/qzQRTEKgQuEDFJCRIAA3dE1zgNFb4USoU3R0ySbdIy7/YNjI6ELIa/uJ
-4aQMrdQ/JTc7fEgYOQhAHd5PfG16sPQdrg+Q2ddP06XdoKFWmoSHqkYvzvVqCx7ZrR6MTalU0U+1
-ttX6H2TJMx2SAlh4DiWJxC8A+3TiQ0u+lNYIwIf3mUQjAe0AVa1wtZhQCRx7i9v1ty2IvGelTwUi
-a7gBd63LDXrwsis/ZJzLHfss0cgQbO796LK5tk8ENI/Bh57tzOoD5t9ivIBLdkrlSEe46IqJnkPM
-CHqpSZx6RHN76b54uWJm7wKGyn0PjTgviGt3OvJLKAap0LjSbn22X05fHtu0Xb70ncskkeFfcXbt
-r6j2jEQ3VItS+cONlwijjPAVXljT/eRS1swx7IX5BGXrYrcpXpKxx9NOI0I6omgFO2q6mEkiV0W2
-DEJ762HHQWDFN9a5aZGwL+8JIJY5OAVXGHyZcbdHsZ4kZmjTL7ZuiS7MTs5qRHZ2fexR9pEraUMI
-PHviujcjSDMfRVK34QVDUOJZVtYciT2DgHncFiLo+15lJzLKr8yPPSdNzkPh1yN6cDypWJdGSQmf
-lh6Y/aQPVQcRcfgP/bwTE8eBWvkfV+syUYaHFcVHCL4ppN1f31Z9fNoYbPlUiGd7miCcdj8WIWPr
-pUWtkKxv1OmYHPdQi6bEuXjExgDf64MAPjiiIGB5WFK3/gKpuCDp5CBwuE5W1kIsfKpf5pTzR9/z
-DPQKm68CBmwXdBOmvOH5DQVomdiu3RrGbqlNTMCtqz75teKl/+HPMdUXlgUkfhMi//smaDM57L0r
-tr927TtH6Jw6p8TQX5omFQZNQjaUF/LvoUkzY4CWYY3fdFN42QWTqTYVtcaYccyKAuIJV/KBuFiN
-3lKGroJjVas2CZhiea2JQXL+dHkMAIyG8k/WUJSavtKDQuNGpBSf+nnNLrO7AdndwwfGsVhMUn6/
-kky5RbvCWdpdgk496qTuDRMfaX3+jGd25iPKeR57tE44L8vdOyxFIGmQvSG6/cqB0naAZ/LMTHth
-c9ES8xleIPMfgE6BU0gwyumfRnXbYETuKyW+KZk04jkshN7CRt/tqmdQ8+Cecl1hNZyJTCND3urL
-/WL2e7VdLta1kvduEVqqr8X0PNstrz+FAekPu+YfR+nF9NUyjiTPFGH4spVX/dwb7hbyg1Zs86Ox
-W4rnIdDBSoVPKLWAJYj9+20Ewt5k+Ksp2ge6Rkf4SjS/2Ec3ZoIYJ+i+YSCn2rVBCYJCdpG1hafZ
-SY2JbRn2FKAkaT376cXx7dZB5BTnOWIDH/WqnTUXfbmtoLv8jD4imvaXjsfSux41PnXqL+LQZYNM
-vLQPbO2xjcf+7j36NUXAfK05JarcLohereRodV2la/QNQWwZ9c4jHM0at7LYrGO5/0i6wR2Uh2Rs
-8sjVzbSp7ot9pwOif+jNBjQ2OXbBIT6i61w6P00xmtasProgPQ9DLJS/BrCVmPluU82WPiKdEmiu
-WTB6no4nkLCeikfik2ProcgfIdr9tz/WyWMja+PX7z8rGatwLDo5bSm01YnHFthdle377y3f1eFY
-PiVmwjPeuuvKuYjAL6SRrNjAyN7BQubZPEXW4YhqC1fDuIJGnEISpCoflTfE1wf1evvkZ38myyMv
-s+4EoP5j6VWo7tcqjqtO6y0p7HXXG92vlcnChXMbL00xwhSNFe4c4i1SYr9BrkTYhLg8coOw8FsC
-lbWLZjdl5ts8rp7Vu9pLcg67Ac5xRikrXJ5W8wXYprD2iVEiSGVSql5TG3IT6iA9q6JkD1fDpEa9
-KCI+Q9A+MrZRlWw1bBD+Ldqi/0HVYiGd12DQ4FT9GTD5XSnry1o6Cc2ymOt4HYJ7acn88mt3hyOS
-YnOB/uKsSsgYvPstg+sKAPzrOj6pQ66yALB2wID77Gw4v0TqekWldz6HMAzFSgGjQvffV1I3B+mx
-REGZ9tK/65tXcjgUFNCVyQxzIkSxlhBjUJuBnKtb9q+pHXHJIlFxOKzo5aJDPIJE8/yZat6W/XBt
-pnGGWFl3RpG0+QygTPv2d+ZvDX6K8sdRMUaPmGl9eevtTqRHi6AmzLjXI3Grk82TkdHSWa8IW/+H
-r9HR8jzdjOVyHRU5eYmHX88T2qEHxxA8ChTX5FB8WnThJzCrtEgzlXP9tOpOP0AFoJ1PRyVE5Ga5
-spjSnevSwb35BXebyl67sVsv8QYEoLzgNt2Jj5nJy1zNUm0wFb2YuQAaJxEg3nyY0pGJ8HEnyLZT
-h+qD5QjSa/AMOe2byLx/JaXbUjwoWOEhecAmVBg3g0==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudHealthcare\Resource;
+
+use Google\Service\CloudHealthcare\Dataset;
+use Google\Service\CloudHealthcare\DeidentifyDatasetRequest;
+use Google\Service\CloudHealthcare\HealthcareEmpty;
+use Google\Service\CloudHealthcare\ListDatasetsResponse;
+use Google\Service\CloudHealthcare\Operation;
+use Google\Service\CloudHealthcare\Policy;
+use Google\Service\CloudHealthcare\SetIamPolicyRequest;
+use Google\Service\CloudHealthcare\TestIamPermissionsRequest;
+use Google\Service\CloudHealthcare\TestIamPermissionsResponse;
+
+/**
+ * The "datasets" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $healthcareService = new Google\Service\CloudHealthcare(...);
+ *   $datasets = $healthcareService->datasets;
+ *  </code>
+ */
+class ProjectsLocationsDatasets extends \Google\Service\Resource
+{
+  /**
+   * Creates a new health dataset. Results are returned through the Operation
+   * interface which returns either an `Operation.response` which contains a
+   * Dataset or `Operation.error`. The metadata field type is OperationMetadata.
+   * (datasets.create)
+   *
+   * @param string $parent The name of the project where the server creates the
+   * dataset. For example, `projects/{project_id}/locations/{location_id}`.
+   * @param Dataset $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string datasetId The ID of the dataset that is being created. The
+   * string must match the following regex: `[\p{L}\p{N}_\-\.]{1,256}`.
+   * @return Operation
+   */
+  public function create($parent, Dataset $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Operation::class);
+  }
+  /**
+   * Creates a new dataset containing de-identified data from the source dataset.
+   * The metadata field type is OperationMetadata. If the request is successful,
+   * the response field type is DeidentifySummary. If errors occur, error is set.
+   * The LRO result may still be successful if de-identification fails for some
+   * DICOM instances. The new de-identified dataset will not contain these failed
+   * resources. Failed resource totals are tracked in Operation.metadata. Error
+   * details are also logged to Cloud Logging. For more information, see [Viewing
+   * error logs in Cloud Logging](https://cloud.google.com/healthcare/docs/how-
+   * tos/logging). (datasets.deidentify)
+   *
+   * @param string $sourceDataset Source dataset resource name. For example,
+   * `projects/{project_id}/locations/{location_id}/datasets/{dataset_id}`.
+   * @param DeidentifyDatasetRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function deidentify($sourceDataset, DeidentifyDatasetRequest $postBody, $optParams = [])
+  {
+    $params = ['sourceDataset' => $sourceDataset, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('deidentify', [$params], Operation::class);
+  }
+  /**
+   * Deletes the specified health dataset and all data contained in the dataset.
+   * Deleting a dataset does not affect the sources from which the dataset was
+   * imported (if any). (datasets.delete)
+   *
+   * @param string $name The name of the dataset to delete. For example,
+   * `projects/{project_id}/locations/{location_id}/datasets/{dataset_id}`.
+   * @param array $optParams Optional parameters.
+   * @return HealthcareEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], HealthcareEmpty::class);
+  }
+  /**
+   * Gets any metadata associated with a dataset. (datasets.get)
+   *
+   * @param string $name The name of the dataset to read. For example,
+   * `projects/{project_id}/locations/{location_id}/datasets/{dataset_id}`.
+   * @param array $optParams Optional parameters.
+   * @return Dataset
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Dataset::class);
+  }
+  /**
+   * Gets the access control policy for a resource. Returns an empty policy if the
+   * resource exists and does not have a policy set. (datasets.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int options.requestedPolicyVersion Optional. The policy format
+   * version to be returned. Valid values are 0, 1, and 3. Requests specifying an
+   * invalid value will be rejected. Requests for policies with any conditional
+   * bindings must specify version 3. Policies without any conditional bindings
+   * may specify any valid value or leave the field unset. To learn which
+   * resources support conditions in their IAM policies, see the [IAM
+   * documentation](https://cloud.google.com/iam/help/conditions/resource-
+   * policies).
+   * @return Policy
+   */
+  public function getIamPolicy($resource, $optParams = [])
+  {
+    $params = ['resource' => $resource];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Lists the health datasets in the current project.
+   * (datasets.listProjectsLocationsDatasets)
+   *
+   * @param string $parent The name of the project whose datasets should be
+   * listed. For example, `projects/{project_id}/locations/{location_id}`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The maximum number of items to return. If not
+   * specified, 100 is used. May not be larger than 1000.
+   * @opt_param string pageToken The next_page_token value returned from a
+   * previous List request, if any.
+   * @return ListDatasetsResponse
+   */
+  public function listProjectsLocationsDatasets($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListDatasetsResponse::class);
+  }
+  /**
+   * Updates dataset metadata. (datasets.patch)
+   *
+   * @param string $name Resource name of the dataset, of the form
+   * `projects/{project_id}/locations/{location_id}/datasets/{dataset_id}`.
+   * @param Dataset $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask The update mask applies to the resource. For the
+   * `FieldMask` definition, see https://developers.google.com/protocol-
+   * buffers/docs/reference/google.protobuf#fieldmask
+   * @return Dataset
+   */
+  public function patch($name, Dataset $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Dataset::class);
+  }
+  /**
+   * Sets the access control policy on the specified resource. Replaces any
+   * existing policy. Can return `NOT_FOUND`, `INVALID_ARGUMENT`, and
+   * `PERMISSION_DENIED` errors. (datasets.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource. If the
+   * resource does not exist, this will return an empty set of permissions, not a
+   * `NOT_FOUND` error. Note: This operation is designed to be used for building
+   * permission-aware UIs and command-line tools, not for authorization checking.
+   * This operation may "fail open" without warning. (datasets.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsDatasets::class, 'Google_Service_CloudHealthcare_Resource_ProjectsLocationsDatasets');

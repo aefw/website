@@ -1,62 +1,106 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Iy/5ih8XWnqJ
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ToolResults;
+
+class AndroidTest extends \Google\Model
+{
+  protected $androidAppInfoType = AndroidAppInfo::class;
+  protected $androidAppInfoDataType = '';
+  protected $androidInstrumentationTestType = AndroidInstrumentationTest::class;
+  protected $androidInstrumentationTestDataType = '';
+  protected $androidRoboTestType = AndroidRoboTest::class;
+  protected $androidRoboTestDataType = '';
+  protected $androidTestLoopType = AndroidTestLoop::class;
+  protected $androidTestLoopDataType = '';
+  protected $testTimeoutType = Duration::class;
+  protected $testTimeoutDataType = '';
+
+  /**
+   * @param AndroidAppInfo
+   */
+  public function setAndroidAppInfo(AndroidAppInfo $androidAppInfo)
+  {
+    $this->androidAppInfo = $androidAppInfo;
+  }
+  /**
+   * @return AndroidAppInfo
+   */
+  public function getAndroidAppInfo()
+  {
+    return $this->androidAppInfo;
+  }
+  /**
+   * @param AndroidInstrumentationTest
+   */
+  public function setAndroidInstrumentationTest(AndroidInstrumentationTest $androidInstrumentationTest)
+  {
+    $this->androidInstrumentationTest = $androidInstrumentationTest;
+  }
+  /**
+   * @return AndroidInstrumentationTest
+   */
+  public function getAndroidInstrumentationTest()
+  {
+    return $this->androidInstrumentationTest;
+  }
+  /**
+   * @param AndroidRoboTest
+   */
+  public function setAndroidRoboTest(AndroidRoboTest $androidRoboTest)
+  {
+    $this->androidRoboTest = $androidRoboTest;
+  }
+  /**
+   * @return AndroidRoboTest
+   */
+  public function getAndroidRoboTest()
+  {
+    return $this->androidRoboTest;
+  }
+  /**
+   * @param AndroidTestLoop
+   */
+  public function setAndroidTestLoop(AndroidTestLoop $androidTestLoop)
+  {
+    $this->androidTestLoop = $androidTestLoop;
+  }
+  /**
+   * @return AndroidTestLoop
+   */
+  public function getAndroidTestLoop()
+  {
+    return $this->androidTestLoop;
+  }
+  /**
+   * @param Duration
+   */
+  public function setTestTimeout(Duration $testTimeout)
+  {
+    $this->testTimeout = $testTimeout;
+  }
+  /**
+   * @return Duration
+   */
+  public function getTestTimeout()
+  {
+    return $this->testTimeout;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AndroidTest::class, 'Google_Service_ToolResults_AndroidTest');

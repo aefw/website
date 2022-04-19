@@ -1,68 +1,99 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPwnPXjWb27iVG9OJ++cKsbFMI8REED7chy4F+54iKDqmE4sa0Q/gJeKTwYv/vJdSej/bHc67
-TDsEdgLfvSuVWLlCajK6isQdx14nMXjdinoe0dSmBn6rarlFl8cKsDKvHQh7BlTxdymDBQ6zzPYw
-2mqJUM1qn7xVGi8VNTTa+Ipc0yF2eqbUCQHOu77eQr8dY2alrVWqjyb5QWsg6olej7GDFTEC6ACq
-CtAtMujQXkZjzykFqX3oGEgZifyOlbwIXq5gSJ//JKcpZfe4pW8SRXf+C83sud1JBZLKXAWiWQO+
-IWNbLO1m9su/HK478t5K4OXKMUSc/q0AXGT06GmGzLQMt3sge0s/EViGrSCxESKUxPJhVRDlqvCO
-/GDHyVZ7B2ukUk+3X1ex4s28EZ2bYjjiecwSnoWeVPzvh9gQ2xKErRkjRNuYZlVv4J9F26wXhuJl
-Dqtt9YmayVN46V1f9lHiv+rhXATuCDvB021YSPS0Rw2Q2jAgpFNkRcOn/nvglcro62plqSQdUGWK
-Jo1/IVcJeWpMWw8iyIGh10a8wkkrZaEwlmHWh9BwmuMfe/z0e4MHY3e1KBPer0ZZfFbEKeAvlpX3
-FW8C1GCVqqknfqdTas1VqWeByu8hY1vWMeUV4ze5aLAc1BEmkXRB0egKH3ZOjEsuqXd/xc60PUGW
-fKQHVQhGgzWpSNrn8QmKs/svuO9FreGzsuvwRs4nWGECDXvRTfH6YMsFatOEOvNgwpgap0txvDDK
-sdlwI90JUnmvLQLsc7Q3ihjYuD6FHFKsziiz1fKJTPClDVehzbdRfALv3VL/1jrtD1KcnI+yi0N9
-zq+tcJriILaoZuVUgPnsl5lK/YxKZq8+hg0hLQbRneMcj7BXAvD1ARJhJ0Mlh6sttLvDxWvhlX0n
-T1PBdt0LKvpFYOzORY3sUFkhP26wyt/oBD7DWMOC7p6QcRGDmJt6URlz1dltjP/rDn8Ncjr1V3cm
-x7pq+k/2hkl0vv32u4ZcWXaYoUaRQXN0cnoGRFN2N3LjUsPWGPF8JsF98t+Aht4XQ9ONqErq6LRr
-BCF7pjYF0UOQ2Zvi/aGATtkIZQF5wZ2OaRKgmjgKVgpLHmr1De5ocA4dNG25Kq97Lq8O9+vk94sa
-4gLAnWRjR1RwIvo47Sru6yKfXQdV2WHF+/w55xotGQgL/vFOalhMC3WSSfGmCpW+gDVJ09I3X+3q
-GsM3/4xKGVejeMcgbR4MvWsOMKUBszNJiVM6t8jcGGf8HFSKW4yWrRcsmMu5zYQa3olKMFDSnrnL
-W9n2Pb0TKvghbiLz4QNWofrFiovGnensYYrsBDOrIJkV89g1MqlOB7nkJ/T9mS4M5bneYjrO14JD
-yJq/r6dpRh8Y/uixTjZSAB3S807cBoqp1SV/XsnGqZiTVkpzJoYyZyC+VPXv5QWKJGcLfUvrxjhF
-fsVz9Ky14oXvw03fnVHFACtleWFxW8V++VdR2pPAMwinMo5LJYe9GTBjcFj049yCuS30VrXWkLOJ
-CHCFRFdZHwBeiY+xf6LHGGUqMnIbhwIu4zuIPY+o97gMDNz/YsatDQdMnmP6z4Ab9JtxFPGL69Sw
-81JWYvyVX5B45plF2uaOBKfV4fKjEPB94NyjVJTrDW/CRM6LcsTn5JsCBxqrdnGxAhIG/faTMejh
-gbyjoHz7PLg/3Qn5cdK5ODF3ClWmvrBRkGn5fmyHiGO26Kh/IaFfcFLFtKL9nISfSH8spc5/JF1L
-C3N62De0tiymJlJ4aik4TRKRzJEK2CIMyP6cur9xK8wTIWiQrgfbv/pnh0XLgSc+BFGZ5cEh2v7A
-qMbgdh8vHbRwe63era5WTKkBXGgV9UvFiJ1M0Xpl48I4wqFZ0iE2vU2IgaJ01aapYd+t3Aw4GD3D
-SXy1xaAgwVflIlDAUuJLsgfH343rkBdaTRd+67lMGqGAWyl8BXhKd4mIl0IvUVvmwMN3lZJWb3bK
-dHGNg4vJPuTaACxn/o13xJ1YxCeREVZiw+Ov3ghZgZv32GQ0gpvZgyHSrBVlNi6EKsiJKliDUFO6
-BzRmJDsYM/nXS0PSUdzOyDifQmMVEcsKStYW5yAjAaEfUsLMwzFLt6H6EpNPiXc5PoyORDeAHfbC
-S4nlMcznY8G8SvKKJ7G4A3fqjFKsu/hqrmZPb4Mw3aJbCmFXWm3/hQS9vk0oytwQ93jY+Co95UCE
-YHBw6peHkgCo1fJm608gTSDkDCIvhptslgg6aX9sU4G7n2IE8PZ+EJPJoKMV4Bq7QFmE/6oZdxnP
-sMMdWXNLYbyawvZH4OXjEbijLJqGJpcZLSBy/og5KzvL+zOkJL5qhjYs7JGjsP5v2knqN4paMsU8
-OnWtq5Yf7Lmm831lRrvekYNxErLtOCjitBBIN6GjrmIRC442cCX76V6BQ8oVxjGbI7A3sF/J5ThP
-qLBshlpXf/o7etHNkyd92w4vnVEyimEWAX8//KIWAyWHvNAkLeH8hjE95Chc4OfDMu6bO792X+4j
-2/FzS5Ir5N182ySE3LQLm2BvON+sPGakv2V9gAW1HMzpOwHntxVzMq/jb1WvZUTM16SopzXsISh4
-yYntnMQhJx4XesLb+pegpWwqKNwg5Pasf4YgQc3v8QH1GlAqSSTLs66uMqimc0sj39mvQpSd3emx
-0f+d8Vgbjw6rn33v2ioRCYCqjB70wYhk6kQO+tpnRQTkgwt80QiICYz6KjTKUpuBZIXdsTptXCtt
-u15u6gEG/J45uB3uEsXqm67ZmK7LHLXoB+N8ImM6TI9icrIF6HzXlBA5TVADDyrwFpJNF+5vZUSP
-ikTXXZ6M2GW2XyRk90aTCglHK2d16UUQhPe2r12wMDQZqKOfzqjRqIambADijqaiGU+uGURYlDuJ
-atmc48w4mrlNTYOt9y1Z6s7CevFtiieLS8ovdiieqygo73aI2dduRpXYZaw02SynbASLaHUCKEp8
-fZTZ4SxgkD8tdDQGf4aNl7WSHBUFg5tNCp7L3xz9Ln8oS3q5w8bs6oqWvwt73/wVCEQ9ctez2rcB
-zPh1Gv3QVJL8DVgfn+qQmBo1wtOR1PYJB9P9zVVO5Zi+YcjhKHOAx7hSrsMDtWK03r+R+ThKKYVP
-BFa40HwOAHySDaaHmMSiRsYS40ywTmsIn1WfV5e0VAuXtaCb5oVQX0Rmzx7NxezFpCf0p6dL1yqg
-fDvJyc5FG2yvx/s6pI81itjpo9i2jLX1PVHC7NBBsuyNNLm90sPHjoCvKkfE9O4a4amIjk6WvHJR
-N62U1pZXwZuYCDolVlQMXr+hvbHfEbSpBW88HyfBF/1iAukQTZhMxVmTzC2ob/RSBlotezkQWYof
-lmpSLvrXk78H+w0hIfs09qAXN850EpRIIaXZujndSoiTdlX9I+mHYxskALrYMuDSFrm4Pn3IpB0G
-2KMjgRXWsbTqW1CmaTpXvAqiEzl8BQQh6oSp/tIw5om+IxLKADgfJtPZT3titmBYcmFXPpNEDHnS
-3sTq4VbVgT8qv/7UV+EYxk16G7GuWe8CaDJFaBu+Ddr4BN/jssWka9cvdz5FRTDBrfXeQQErJ2ml
-DwcxbN2dKvkCEZJeUiBFeJ38sl4b8FeeuwBJLcUVY/6YGNb42MPLhuW4AeeLvSRv/QM3QdtPleYu
-Ui00KYdSdETYW8PLiPDY8saOBR2BkwBbRSy1zf6E5jwHmTHThySRhfQvTdz6ab3WuVNMrwKq+T/B
-qOOrkdte8tCUrJCYPipqzpVWnJ+mHZAwAb4BkDwsqf2xIyZBjxL43Nv26ZzwsZt6Dch+RegnNZhS
-Hn40+ZtvEGLe2Tc5oE9QVxRd5zPz+dojW+NO3ptzRYKxk1R73GyVl26oFu+NzXwkZPc/4AIwHFhQ
-BqvdbAyLCmcFwbVfRWBjBYMgrfsHWcMmd7/Ejxe3XW5QSzsRtMtoofucvjwmWIvtUSqRj50N0N+D
-qeAIfj4o9jB8/txIUmY7kdnJ6nOFpC5TK8jwFZ+7h3xum6thWoWXONO2WFrm+lZYdHjPYBQwh/qB
-ped6tW0m40GWZIbUnvsJ1fqWuKgBUZ3yvVXfdW735nOXvOdWgguqZbSJf79U0/Jlz9fnAYBAfDZM
-d0jPCXt3Gpye54JYKX6fQjmldVGKr452U2XnJjkJ9V/RevNClzrj9jevbq8A0Igsj7sN4aRhblWj
-ZSWwIyzhPaBqws9tft99EDK4EsbgcZv978P9u76h9RtP6g4bLl7anx2cUqyxwwqbYeXzdhcpKA5r
-gtHOipvo8cXiYQGMC+N3BqZV01by+MfKtlZRX69SJRcybKrJDOUCGDtY2LCOA4gYtWY3zCovDwbZ
-/ekZdxB8KXbyptbdVRvwhZUGOKt9vUmjaYHcpE/7QPaI6YLJNQMcB4b/3d8H2VbUof1kw1qXBKNF
-mY8vzxPotDStwlR98zE85KeShlZMvRKuX8j7xy8rtqPfAqmeQisHZWffBxD5u7At6FdYTg9jp1S7
-kCe1aAVu4RHFasTy9StLE+Bv9fyfV4Pgw8MzdPmCR9aSjdNPjRfYV6RjFd0K2DO9zDaj6NagOPJC
-/7sUKghSqwtiO6kCAIx48d/j1aAeqtx9fzBr4AMJdiUAZo8x31Xfl+GxraES+WyDPXM4RoISQ0Ly
-PWozcU40QKqZSoupnvj39AMuYXJ2/MYhTT35MknsrlLfegXGFy6o
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Spanner;
+
+class Instance extends \Google\Collection
+{
+  protected $collection_key = 'endpointUris';
+  public $config;
+  public $displayName;
+  public $endpointUris;
+  public $labels;
+  public $name;
+  public $nodeCount;
+  public $processingUnits;
+  public $state;
+
+  public function setConfig($config)
+  {
+    $this->config = $config;
+  }
+  public function getConfig()
+  {
+    return $this->config;
+  }
+  public function setDisplayName($displayName)
+  {
+    $this->displayName = $displayName;
+  }
+  public function getDisplayName()
+  {
+    return $this->displayName;
+  }
+  public function setEndpointUris($endpointUris)
+  {
+    $this->endpointUris = $endpointUris;
+  }
+  public function getEndpointUris()
+  {
+    return $this->endpointUris;
+  }
+  public function setLabels($labels)
+  {
+    $this->labels = $labels;
+  }
+  public function getLabels()
+  {
+    return $this->labels;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setNodeCount($nodeCount)
+  {
+    $this->nodeCount = $nodeCount;
+  }
+  public function getNodeCount()
+  {
+    return $this->nodeCount;
+  }
+  public function setProcessingUnits($processingUnits)
+  {
+    $this->processingUnits = $processingUnits;
+  }
+  public function getProcessingUnits()
+  {
+    return $this->processingUnits;
+  }
+  public function setState($state)
+  {
+    $this->state = $state;
+  }
+  public function getState()
+  {
+    return $this->state;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Instance::class, 'Google_Service_Spanner_Instance');

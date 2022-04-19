@@ -1,60 +1,86 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPxHoodQoqivvExzVLKqQyzajGupZAKdovjS1QBZ6fFqpiajueorGKuhD+MooVQ+SeqLa89LS
-XPTXTwsGJWYJPiLozbPgAMEmSEPMsproJCoPd+KDNHO87Wnu8FUQU2pEhYeCsDtGkHzn0eLRdqe6
-pUEuk3Sc7zj+nDbPGzpenjgoUhaGM1y3i09JrqEdQZMsse1sxzeoQBh2j99o+D3D6NYduxFEoBBY
-hVXEU3ZgbdonGRj2hjWlu0p0PjMWaGY4IkKKudFDujTBC4XqYHCD7RAro4ZYS5CkDLI4g2o1fZvA
-1ULLQ7G5IyUMGUM7J7JEY5HQvnZ/veRd2q2AgtOrQ1upHTbchFP4ldjgLoHUbZ99RCLloarG/yvt
-RwEOXy/EYJaVMb17Vt8q5aWdtIaaiiWqg8QBsnzuDsfxZORWgDyFwF0dOvxCudsOb+7b9PxV1S8a
-OMebUuCwgGt1aHzxfHt4qbScrGRAL5uwBZGQFcSGTKzarOCRAru3OwH6f7vIv66WNQO1BTytHKRP
-XCL2HeTlCpvE9mYFrvunzv0ds7lYtQtPxDSZ2h1HOSfZ+rH6/Ktqg9h1WJNg/iz8SBuTqH7Gbl4I
-gAK5vPSe2EZAUqJvJIqfL5Pi1BleVKohZ9uxJoTv5tJCism+6EL8GDr9ExFP8MnV5vYqCzDzS5ZO
-MsDc87/q2bpgRM+eywxb1fKPso08RPXFT8GuybiNN53MNHOpfOIbEodYtx2oBQdIqgtFrbbqG/5R
-eWb4Bi71Uk3apgL5cRyN0ON0VQBEWmSr4y9FQR8Gotn1EoqIIBgyJKUyN1TAlVDnKjwvw9cm7SNz
-RTFkaLTlivd/SUQxDzv0kcMfYEBDZxa6EdqxSNI6W9VjM6QiL2I4GU+UnYunPhWGvlBScgQN07Kn
-tVWIRIsHceDXSnSIXRB4MBkJrSRsU+QSjp2YN3AwV2X9tD9I5dlrQ2OhZh+/Qf+8urh6SfMJWaPX
-LnmOBVL8U0ISO0ATalNURas05xyZQd4GPqNDGAgJfn3MuUa7X4X6bb4/gcYLvqD1GDxuTyPxjQua
-fGcF9veBSbcbG8x4vcrYdNcdRZunZ0M4H06md9GjMwtF4pz2krqBhMOF13jXMXaMI3US7u4bJYIC
-mziNqXBtzN1jROZt44AGio10cAV53Z/9FiRdsRv6X1FIngHoNPFCqEyd4zQL/taZDV5MVQKVQc76
-XQe1ApG96FWmC1b6sSrr5cQJZNKVumSSgu3PBrRUgYpOxvyLP6N7xUB1KkmAkpleGe3QgDIefq1R
-QMuVPOPCnHKJp8RKKpdPgAvLkkL+fCN2QCiFY8Rtoz2YapGxOcL8NG+L8PzEZulilBS2lDm9bdBd
-6Yx2fP0BZQJFsjzTZw471CCgqWRte7EXlCPFzhYnst8VddFihCt7MbMtyhwwMncp9YX02r40mn3u
-IKtMSiGK5huOsx81SZd7TjRJGomFuerFEMA5q+Q2PmzMkeGBTzNAarmFMPsXnpTi5FFfHfHzL1NH
-SdzcIxhQlyHOEWxVjveJilbh3UYKWyglfvGvKe+G4e5aeyK+JAsAKIzgh1NvYdPk9HsKU1Rf4ulr
-tFPhU8ZIOwyM3zXMTj0YK+ldiGe2a5ZsUrQEGmOxkiHbTHKrYE3n5keJtNbo9xTbSyVxULX9LW/N
-OWUNqnUHsj1GWiLGo9SUV+FmWqa4CQ6vexpzSODUerGz0PGCP21nvgCtOK+fcxpPUNHrBqFh3N60
-yvUPSu0bZLPLThECNI7GWe/yseaNiudD+5TGpy3DuGt4pePUAYj/qifx5ASqkveCNIoESm7++63q
-AIBBQXJQdg7CoCrNovW+kJ2jp24XLZ6CjZD8nw0cIVEN4ReGOvqtvm3xZ+FygGPFcZxstEj3XE0a
-zRAs4m7SGzQlX+TO1j7hMgzoTz3rROoyCoG8Xq51a9tIz4B4pRB0JPIUazu7KS1T6os2tMUELvT9
-W2qKfuoGHmwEO+YcShikRe0MzjErmdE305ihrPMYiGWk5OL6caatmyG+4YsF+NROHY69ADUOdxbg
-kPvGArmqzdk/TcMBu3H2+zIfvhJILEwZu2ns21elog/LtmW/ie7CfBb0KHXc7ntfr1Yn41D82QZn
-BorXtOys4o2nsusoAmuJ8aDdfQ50bmD4bBLGl57MdYFNkF9QBKOWdNEGorrah2Pl+1wKyHYYq5E9
-JmWazoFlIZQbn3DQ91497bYI7Krx54tfG5f12Za8DL+9fw3RG1P4rrZR9bDcg4ZjezQtxDerGxhr
-EHJ3zTgS4GbR9vzLX/12QjlMje2FvZTrZZrpyqBnzQgDwEuk3nTw6JTaw505oG9+mPgv5IAT96aj
-NrFela9+0hpHrP/CDwSPs8XZIIZTLzCNB0O8exbI3s+WbEVT+jAq1muJva10DbaMl2uCK9Z2UTho
-iYEjvWi3NH7kowwQSbyJU2qjjTztaz6edPer33f+ZMMSvDvTxKQEDF3lle133wbXakYofum8DsWs
-QXROZ8ERClOE+F7ZoPxfysYSQ1i+ifOXco4Bf5z6dq6ie9jIaq4bTvMuKkzKLDw66zw+4v04Y+DU
-AkSNzEdc6XlijkrWamcRAuuQZ10zfhR0dSCeAfZdktjvuB3XMAfncT5HTVPe0EWB56MxYfHEDnQi
-25nV9PUbwhJmYndKZK8h2z6pzzV+vc9dDhG/6DH+7rEu6qgXykax9SNcmnbmTvzcloEw9ptzf3XM
-17Jic9TbUtpzqPsdkDCGpqb8s5h6SlzWgGvBBQeWxvVV+m1+xWu34RGQj7gfwmyEgamoslhlVLsK
-+CH9spbRZYWc00zDMaA3S/ByGAqZZvoMwQyAEIhPRuQx+ZsdoE4IGD3h05dFkMrdkJgACNjJX+Qd
-l9GGoUMIVw3CcXNt1LrwfbGoSEve0ZZeuzMYSLLnnTcniDz9svxg+nNSfGEot7MOI8ozKQXbJUGr
-FIbc7Mn+WFKmeI93UoT637Fe0JINshQjPI+e6bHJwUhT9sAzkrC6f2J5cm4KoEtViERdrebx4Ksn
-0yqxpMuDlUcjQWfvm4Ihbh4lHj2aRMb++VFBV+hCbepYJxDMh0xFRVRtX99N9w9GHiHCdU8vuVrz
-aTxoqYr8OIcUnj4YfvbLZh06ew8ENnBc2g9I4AaXlWs4wuif9wgkr3wYz7mlGw4StH7UQh2HBGAD
-StrxpbDp0VgvoJKWfqxwB6EVxrkFVGWanj7/h7AP/FlYUkKD8Vn7J4mDN07W2trdH0Yti9BwWPMP
-l0qi2NvBRp0pPD8VIRLCdQMhohKwtKAdXxYOkw0xc9rsBLFaasgC9HzX+nfH/kEBcni1LRjasioD
-TVukZ3Bsv9JuDfU2D4Ez5LGpeh0X1UXimC5Uq1if48WNddooWL8m2ssnmcuDGAaBQZWfuDfvGAqN
-prtQgVrfG+/k0yCeTqbW/HohvjEK18uFm2gBp7XTi0PKeWg7NH+Uq5n1bvGIvEjCJ3xcKcDvI1PX
-iHIapIyIS+WICs95xK5fOwIRBTVw7QYZ6r1n1HJiQN7b+uBeso7UMj+Q43ydBTGd9NsmPbkTsoY6
-D16d5wKkD6dUteLkNkT/EvZ6osgRKK7FWWkfFJhd6fjN9eFCLyGeYWjHAJX7DprxaE+iQOhqGtFN
-UVB0d0c3HzILlcs6LteUEbADFuHgjDtngLVeIt1mUzxjJw6Gye4LuCMrC7g4gMSYPx2s7dE0Ayul
-4/4fUCc7N0Iqr2Hq7mLwbya70yg+71pw5npaTV+jZ6prKVAQy6BoKkW6rTp6xRuU4MyBv35aqczX
-9h9M9beVQUMkQXKoZYZH61UKT8Alu/0n0ZbwtJXi/TKBIL6/K5vKLD9SJdXJ6SbQixNxDjv+xt8P
-DBFbrzosCfQgnTRl9/alwuwYHgfL5nkBr2LJ4/wZDnI1Dw0EY0mVWQ82Sc3oUaBYaj5Imyxbw/lR
-GiXB64CN4kmTl2IcQjUsUVI3Odf3sCGa1C/4BmdOfsoDcHQSYN5oqb2HeFnzxjp2OWhhILZIpVoF
-VJWcGJBBOmT+iTPPwZO=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ToolResults\Resource;
+
+use Google\Service\ToolResults\ListTestCasesResponse;
+use Google\Service\ToolResults\TestCase;
+
+/**
+ * The "testCases" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $toolresultsService = new Google\Service\ToolResults(...);
+ *   $testCases = $toolresultsService->testCases;
+ *  </code>
+ */
+class ProjectsHistoriesExecutionsStepsTestCases extends \Google\Service\Resource
+{
+  /**
+   * Gets details of a Test Case for a Step. Experimental test cases API. Still in
+   * active development. May return any of the following canonical error codes: -
+   * PERMISSION_DENIED - if the user is not authorized to write to project -
+   * INVALID_ARGUMENT - if the request is malformed - NOT_FOUND - if the
+   * containing Test Case does not exist (testCases.get)
+   *
+   * @param string $projectId A Project id. Required.
+   * @param string $historyId A History id. Required.
+   * @param string $executionId A Execution id Required.
+   * @param string $stepId A Step id. Note: This step must include a
+   * TestExecutionStep. Required.
+   * @param string $testCaseId A Test Case id. Required.
+   * @param array $optParams Optional parameters.
+   * @return TestCase
+   */
+  public function get($projectId, $historyId, $executionId, $stepId, $testCaseId, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'historyId' => $historyId, 'executionId' => $executionId, 'stepId' => $stepId, 'testCaseId' => $testCaseId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], TestCase::class);
+  }
+  /**
+   * Lists Test Cases attached to a Step. Experimental test cases API. Still in
+   * active development. May return any of the following canonical error codes: -
+   * PERMISSION_DENIED - if the user is not authorized to write to project -
+   * INVALID_ARGUMENT - if the request is malformed - NOT_FOUND - if the
+   * containing Step does not exist
+   * (testCases.listProjectsHistoriesExecutionsStepsTestCases)
+   *
+   * @param string $projectId A Project id. Required.
+   * @param string $historyId A History id. Required.
+   * @param string $executionId A Execution id Required.
+   * @param string $stepId A Step id. Note: This step must include a
+   * TestExecutionStep. Required.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The maximum number of TestCases to fetch. Default
+   * value: 100. The server will use this default if the field is not set or has a
+   * value of 0. Optional.
+   * @opt_param string pageToken A continuation token to resume the query at the
+   * next item. Optional.
+   * @return ListTestCasesResponse
+   */
+  public function listProjectsHistoriesExecutionsStepsTestCases($projectId, $historyId, $executionId, $stepId, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'historyId' => $historyId, 'executionId' => $executionId, 'stepId' => $stepId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListTestCasesResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsHistoriesExecutionsStepsTestCases::class, 'Google_Service_ToolResults_Resource_ProjectsHistoriesExecutionsStepsTestCases');

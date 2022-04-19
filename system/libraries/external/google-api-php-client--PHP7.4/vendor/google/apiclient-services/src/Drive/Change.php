@@ -1,79 +1,146 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-JX6I7PK0QefffzWmjrdtFvrAUegSoX6Dkk+zFX4=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Drive;
+
+class Change extends \Google\Model
+{
+  public $changeType;
+  protected $driveType = Drive::class;
+  protected $driveDataType = '';
+  public $driveId;
+  protected $fileType = DriveFile::class;
+  protected $fileDataType = '';
+  public $fileId;
+  public $kind;
+  public $removed;
+  protected $teamDriveType = TeamDrive::class;
+  protected $teamDriveDataType = '';
+  public $teamDriveId;
+  public $time;
+  public $type;
+
+  public function setChangeType($changeType)
+  {
+    $this->changeType = $changeType;
+  }
+  public function getChangeType()
+  {
+    return $this->changeType;
+  }
+  /**
+   * @param Drive
+   */
+  public function setDrive(Drive $drive)
+  {
+    $this->drive = $drive;
+  }
+  /**
+   * @return Drive
+   */
+  public function getDrive()
+  {
+    return $this->drive;
+  }
+  public function setDriveId($driveId)
+  {
+    $this->driveId = $driveId;
+  }
+  public function getDriveId()
+  {
+    return $this->driveId;
+  }
+  /**
+   * @param DriveFile
+   */
+  public function setFile(DriveFile $file)
+  {
+    $this->file = $file;
+  }
+  /**
+   * @return DriveFile
+   */
+  public function getFile()
+  {
+    return $this->file;
+  }
+  public function setFileId($fileId)
+  {
+    $this->fileId = $fileId;
+  }
+  public function getFileId()
+  {
+    return $this->fileId;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setRemoved($removed)
+  {
+    $this->removed = $removed;
+  }
+  public function getRemoved()
+  {
+    return $this->removed;
+  }
+  /**
+   * @param TeamDrive
+   */
+  public function setTeamDrive(TeamDrive $teamDrive)
+  {
+    $this->teamDrive = $teamDrive;
+  }
+  /**
+   * @return TeamDrive
+   */
+  public function getTeamDrive()
+  {
+    return $this->teamDrive;
+  }
+  public function setTeamDriveId($teamDriveId)
+  {
+    $this->teamDriveId = $teamDriveId;
+  }
+  public function getTeamDriveId()
+  {
+    return $this->teamDriveId;
+  }
+  public function setTime($time)
+  {
+    $this->time = $time;
+  }
+  public function getTime()
+  {
+    return $this->time;
+  }
+  public function setType($type)
+  {
+    $this->type = $type;
+  }
+  public function getType()
+  {
+    return $this->type;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Change::class, 'Google_Service_Drive_Change');

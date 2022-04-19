@@ -1,107 +1,193 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php declare(strict_types=1);
+
+/*
+ * This file is part of the Monolog package.
+ *
+ * (c) Jordi Boggiano <j.boggiano@seld.be>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Monolog\Handler;
+
+use Monolog\Logger;
+
+/**
+ * Used for testing purposes.
+ *
+ * It records all records and gives you access to them for verification.
+ *
+ * @author Jordi Boggiano <j.boggiano@seld.be>
+ *
+ * @method bool hasEmergency($record)
+ * @method bool hasAlert($record)
+ * @method bool hasCritical($record)
+ * @method bool hasError($record)
+ * @method bool hasWarning($record)
+ * @method bool hasNotice($record)
+ * @method bool hasInfo($record)
+ * @method bool hasDebug($record)
+ *
+ * @method bool hasEmergencyRecords()
+ * @method bool hasAlertRecords()
+ * @method bool hasCriticalRecords()
+ * @method bool hasErrorRecords()
+ * @method bool hasWarningRecords()
+ * @method bool hasNoticeRecords()
+ * @method bool hasInfoRecords()
+ * @method bool hasDebugRecords()
+ *
+ * @method bool hasEmergencyThatContains($message)
+ * @method bool hasAlertThatContains($message)
+ * @method bool hasCriticalThatContains($message)
+ * @method bool hasErrorThatContains($message)
+ * @method bool hasWarningThatContains($message)
+ * @method bool hasNoticeThatContains($message)
+ * @method bool hasInfoThatContains($message)
+ * @method bool hasDebugThatContains($message)
+ *
+ * @method bool hasEmergencyThatMatches($message)
+ * @method bool hasAlertThatMatches($message)
+ * @method bool hasCriticalThatMatches($message)
+ * @method bool hasErrorThatMatches($message)
+ * @method bool hasWarningThatMatches($message)
+ * @method bool hasNoticeThatMatches($message)
+ * @method bool hasInfoThatMatches($message)
+ * @method bool hasDebugThatMatches($message)
+ *
+ * @method bool hasEmergencyThatPasses($message)
+ * @method bool hasAlertThatPasses($message)
+ * @method bool hasCriticalThatPasses($message)
+ * @method bool hasErrorThatPasses($message)
+ * @method bool hasWarningThatPasses($message)
+ * @method bool hasNoticeThatPasses($message)
+ * @method bool hasInfoThatPasses($message)
+ * @method bool hasDebugThatPasses($message)
+ */
+class TestHandler extends AbstractProcessingHandler
+{
+    protected $records = [];
+    protected $recordsByLevel = [];
+    private $skipReset = false;
+
+    public function getRecords()
+    {
+        return $this->records;
+    }
+
+    public function clear()
+    {
+        $this->records = [];
+        $this->recordsByLevel = [];
+    }
+
+    public function reset()
+    {
+        if (!$this->skipReset) {
+            $this->clear();
+        }
+    }
+
+    public function setSkipReset(bool $skipReset)
+    {
+        $this->skipReset = $skipReset;
+    }
+
+    /**
+     * @param string|int $level Logging level value or name
+     */
+    public function hasRecords($level): bool
+    {
+        return isset($this->recordsByLevel[Logger::toMonologLevel($level)]);
+    }
+
+    /**
+     * @param string|array $record Either a message string or an array containing message and optionally context keys that will be checked against all records
+     * @param string|int   $level  Logging level value or name
+     */
+    public function hasRecord($record, $level): bool
+    {
+        if (is_string($record)) {
+            $record = array('message' => $record);
+        }
+
+        return $this->hasRecordThatPasses(function ($rec) use ($record) {
+            if ($rec['message'] !== $record['message']) {
+                return false;
+            }
+            if (isset($record['context']) && $rec['context'] !== $record['context']) {
+                return false;
+            }
+
+            return true;
+        }, $level);
+    }
+
+    /**
+     * @param string|int $level Logging level value or name
+     */
+    public function hasRecordThatContains(string $message, $level): bool
+    {
+        return $this->hasRecordThatPasses(function ($rec) use ($message) {
+            return strpos($rec['message'], $message) !== false;
+        }, $level);
+    }
+
+    /**
+     * @param string|int $level Logging level value or name
+     */
+    public function hasRecordThatMatches(string $regex, $level): bool
+    {
+        return $this->hasRecordThatPasses(function (array $rec) use ($regex): bool {
+            return preg_match($regex, $rec['message']) > 0;
+        }, $level);
+    }
+
+    /**
+     * @psalm-param callable(array, int): mixed $predicate
+     *
+     * @param string|int $level Logging level value or name
+     * @return bool
+     */
+    public function hasRecordThatPasses(callable $predicate, $level)
+    {
+        $level = Logger::toMonologLevel($level);
+
+        if (!isset($this->recordsByLevel[$level])) {
+            return false;
+        }
+
+        foreach ($this->recordsByLevel[$level] as $i => $rec) {
+            if ($predicate($rec, $i)) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    protected function write(array $record): void
+    {
+        $this->recordsByLevel[$record['level']][] = $record;
+        $this->records[] = $record;
+    }
+
+    public function __call($method, $args)
+    {
+        if (preg_match('/(.*)(Debug|Info|Notice|Warning|Error|Critical|Alert|Emergency)(.*)/', $method, $matches) > 0) {
+            $genericMethod = $matches[1] . ('Records' !== $matches[3] ? 'Record' : '') . $matches[3];
+            $level = constant('Monolog\Logger::' . strtoupper($matches[2]));
+            if (method_exists($this, $genericMethod)) {
+                $args[] = $level;
+
+                return call_user_func_array([$this, $genericMethod], $args);
+            }
+        }
+
+        throw new \BadMethodCallException('Call to undefined method ' . get_class($this) . '::' . $method . '()');
+    }
+}

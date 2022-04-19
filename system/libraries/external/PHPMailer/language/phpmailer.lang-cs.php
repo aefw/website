@@ -1,66 +1,25 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/**
+ * Czech PHPMailer language file: refer to English translation for definitive list
+ * @package PHPMailer
+ */
+
+$PHPMAILER_LANG['authenticate']         = 'Chyba SMTP: Autentizace selhala.';
+$PHPMAILER_LANG['connect_host']         = 'Chyba SMTP: Nelze navázat spojení se SMTP serverem.';
+$PHPMAILER_LANG['data_not_accepted']    = 'Chyba SMTP: Data nebyla přijata.';
+$PHPMAILER_LANG['empty_message']        = 'Prázdné tělo zprávy';
+$PHPMAILER_LANG['encoding']             = 'Neznámé kódování: ';
+$PHPMAILER_LANG['execute']              = 'Nelze provést: ';
+$PHPMAILER_LANG['file_access']          = 'Nelze získat přístup k souboru: ';
+$PHPMAILER_LANG['file_open']            = 'Chyba souboru: Nelze otevřít soubor pro čtení: ';
+$PHPMAILER_LANG['from_failed']          = 'Následující adresa odesílatele je nesprávná: ';
+$PHPMAILER_LANG['instantiate']          = 'Nelze vytvořit instanci emailové funkce.';
+$PHPMAILER_LANG['invalid_address']      = 'Neplatná adresa: ';
+$PHPMAILER_LANG['mailer_not_supported'] = ' mailer není podporován.';
+$PHPMAILER_LANG['provide_address']      = 'Musíte zadat alespoň jednu emailovou adresu příjemce.';
+$PHPMAILER_LANG['recipients_failed']    = 'Chyba SMTP: Následující adresy příjemců nejsou správně: ';
+$PHPMAILER_LANG['signing']              = 'Chyba přihlašování: ';
+$PHPMAILER_LANG['smtp_connect_failed']  = 'SMTP Connect() selhal.';
+$PHPMAILER_LANG['smtp_error']           = 'Chyba SMTP serveru: ';
+$PHPMAILER_LANG['variable_set']         = 'Nelze nastavit nebo změnit proměnnou: ';
+$PHPMAILER_LANG['extension_missing']    = 'Chybí rozšíření: ';

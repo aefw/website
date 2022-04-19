@@ -1,86 +1,165 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPvk2ICnvHR7ZT4dTxmTAReFlPBdrxwT1JPZ8D11XA0Y77Dv811HXlPYhRshuBBb/zHSJu8FP
-IQ95QnSEoonWvR/15xiWojVbGUVY22w+BS3ZGzN/EbqllpNu7rvzOR0rY/wZikN7dPvEOARrZtGP
-OGxxbtg7tqAWE0TyiJDcyR68rCgGQmvXnE8SSthgHaSwQkAdc1BYXRt0yAkrYe+evMjuE2NKAM08
-HxbehAvkpazFJgnM/CXOPvb+FkM0zl+y6lFaOdAUsN4jsbJw8+Lu2IRaS+9mKourL8IeB86cFae5
-vLLwTBQFRhBgvjZ9jpE8r3Az3//o9mYP3joVG5nTYVuWZaA8J3+5Leuq7hsja2RlVACXiGTUWHuC
-sh0ECcZSzzNgYVN9/9fMtaZKhv8zZ8uYd4vsPzvL6Vp8dOC48QZXAV5Z1XRFkZkLmaIrmXVkXvzk
-Q5n0td9APclGTXmqSNpvINU4oWoF3Va/Y7FyUgp83fjqygPqTTOoAC0Y4PwOGyl5SyLmmUPmyvaw
-74J0DjTIdWRUksMQLMkZTLQgqNsJOCMv+y9eqoL7VIVeT1fsWQo6Bz88qEVq56qJWky9Om4Ke82u
-8QhVMCkIwSApD5s91wwX/XRPlCHF8pG+ZPzrN+uPX7ntBdtTQxb/Pqd21jQurVi1BOeRLaAT5eFw
-cwAzrYlSFcvkxQa6Ro2g6VZXa5c9fc8d3Uffbzcs2AKzIMUmUu4uGD5jw8wwmmbeIecLfcPSeVAq
-3q+g1kNApQjVPEqHtCYmm2VjJAIhqcfenfckh23aNyvsKmsxsibI6jnV8hPhizA6p/HwR1VOoiaw
-lZcsfTiZVG5TjvZPzsRTrhbZmWOdhwGkvsYpIyIax0Yobs1Lfld2RgJbafFjXTRkRtp1poMx6rxn
-nnQC0ep2f4qowROsgSvoQCfuIvlvuI8dBAEI0xF1dQ/q1d2G3I/83z1jLoR3tsGd6scyo9/xj8uu
-2PEQcLqsZCmZD9JENXPBReLoAh7DIbt/7QAeTnIwyK/b6oeR8aScsYkTE0boHEL+kcX5SC2NONc+
-7hUpEM8NVG3k6Caes1MrvzEVCF2aH26Zm++NzNRX53xhe63+b7wcHX2zigu5hhgiQBit4ZFpz/Jw
-FyDL6CFE9dEbqe73r9e4aE5h721Uoco7fTOrmwuQ7PWelgLA/pKUL/RrpH5v7EwUk38VvPKfUM+g
-hf/kc8vE7j2hhTNTk6i5jk6UVs7Pz76+vttHl4IZ7rw0WNv47eZfsxw8ZEtJ9bLEoH4WR6DWsl9M
-8g+rp9K6CXOkSFlIAdjZfwNyvNt8woicp/sPQMQLfQ83fZYr6J1Xe2sBtmbC8T88t2QwJatdmYx1
-gDp/vcXWANyrU2zXOgTvCCRHQjH9gghbDdK1ORRsHI3Blya3SaaI3VzI+JLLesTbfQXFh89hrrSA
-78cACG5Q0uYz+zedPfpw3euZ0NBFFNSuNOdR0xPXzrVEB5M7Wd6u95GLIsH5SDGAkZwb15xa6+1b
-lMqcKQ+N6/MPvaF9KMYdtpLxozAPIKk1XnBCm0EpkVUmZubMQn22AB+wPW+H7+x/dlR0ILLYPgxX
-Na0lWujA4XY3BgJFCqSEtxvwyEo1dLS+s6mzb9QoeH8POVgzY1L3jPPSfm7Aru2TebuDpvoM+1lX
-4EbxYkhuy4PBpd9H56rX5l1lssP3iDsdHoill/CK/ruIYgGJIEiHQ4l9TBl+yFocmWdVE1yczRXu
-ONU6nGx7Xre+OVf7QYGOCdW6pELU5BI5RufpAPPCslzzKjYK/ZNkDZJ3otsjjLua5AaIuPSXWrhJ
-O2/rHojxjFNNeGjs+4tn6l4EvngwGlJVSD7vNVnWRGoFN5yVu67KKn45nVBcJH2SygPzK7fDC9sZ
-AC2/vqZkRcVg01hv8NW9kj3F5k9oFZJdh8B8pbaBD/zrfrNbc0pR1M5X5yzOnEW3nuCnJLtBQsh4
-YR7oUaIhgVHQYW/E8dtXNY0F4dDmiwJS8f1fjWP/Lbz+gwK/V67G4sIAZ4cbtDt1PR20vsdK9oZA
-Y1Z/iJuPa6Ra2GkQvuXQyf0BYygNwO+MiodzHsVLcTxDS179elZC1lEFG1RxW+1LJ7xKbYFm7hIZ
-AYDI+FoOBtx3/hKge80DJHgEsIABmltfBShg2QFgc7/umCN39hybr/kIEEjBONhEHDfRP1BrWfs5
-NGbzNm59dOxaBz06bU0Bd/jt61zbkR8ctwxaX0hlYakKlJ9adb2J0jRm0NbisI9wElnKAMPblJzQ
-mhtfzQBv4oRVcPtDGBJ/yz1EDQe5RRlHc0ETEFxPJQXo7yXMjA9Drs5/H2MGCdYjQRWt+ni2yNG+
-eJXpnBSvn7GRv13GuFWIyi0kqSmpNyWDsrI744tVBPZg9oMV9pYYWqq8kwTZILJ0NJA45pxX/RZQ
-flhMQuOX85jlfQzHdiTBTZehz5w3DvUdU49zUfiUKpSltag9xr3kl8GepQEt+/c9ZEFxzmjBu+si
-mbpYEUqZjXb40BlaScL1H4uKDypUbRUBKRUTwjgBijjAnh1gjuO8mhKquRg800q3okgCK5KFw/In
-d4qB9fX4XBDwE9W8IuriEpzRu/UgLqtUmBL71K7+PPU6dMXDlkta+E3s2/n7wFtYu+plf21iGlr3
-UHkDjNJEj/l7N9ROWs6fkSWmGkkVHuMRV6Kc4tS5p+Rkas0w965cnXZgJR9vDTICeKL92IaNy2Dy
-Q1DjLqZRuUDA/zy3YLA88nOhIdCzjCkHHYsiuFEg5bLJcay75WQf3rdqbhom3YafFN1uU6yGqgvC
-tqPsRwyztYKZgQbFjNScv+HVZ+exP+vZOReMp6D8xnktoU35SaVAwN5+0iS0c/x+wcjQsjFANnBr
-taGrHROCPBGkKRRqZsDRqMYaPncb0NPFYIkpH4IqhorL42WpTkRoVVmL944CbIUjQRKfYaZXZRIi
-4/S6+5gJt/PaFX0bx2AZW3xS362gMXKYSC/fAMmFOXilt3t7gaN19y1lkZeSohOJLe7OfKEiPkVo
-hMw0Bm8o6VlxvfD+0b5OYUO7Rzxm4KuxX8rA8PFnmrOgh8xdlGh/gFwjmjV7HKTrz40+C+F+wunz
-nc5YJHH/KJy9OHI88A+GeGG6ViV/FsDLuxiUJ3dD4DEU3O0eNXCZiwStEk4L+dMM6xEUOucKpGcv
-eO10VXbKIeEtpknKXspbm539Tw4UiDQ7ySrLRKHayDd8a0/r1a2xCUMgzfhntgw2+i48OBzSWm9u
-kqwPVRYLtvbYKdb9tY4vDglN1Y7Nc0Cm0gVLlWvrFN6XXL+sdXtCb7ngl2fGJomTBg4dKAmHCkvm
-+FaA4le0edK94z3wnDWBZGsezDk0bjJ9DdATQvUoD52RnIO+aPRUQ/XCy7IjT0rkPsalmwsu0yJC
-T6SN1L/6fYauArNgnTxHtl8VA+KhZ5ZyCP9DmCM/eeBhSr3J4LuKAP06Y2DuKphWm1PCEgKuhEcb
-+GmDcK9rdt4JK4T/y/QjSV/S2/a3ywFf3q24ToVHib1CgOBpP4zoYpXtgO8w4Z1b50XpT7PcjTED
-4M63KRdn0sN3O6pD06keun+Ptfe82ft3FaiKUXDkARzTMQ4q3gcpm9PQtM+J5P/Tbp2laKZAL07s
-9rBm41WQ0cKdr8IWwxi4BeUDXbCMAdsVUr9tRm9El9G6kqMoUbgK/Acre6AxjaSQidvoKm7dpa+p
-RwOS9IG+P42TDa1zvVY5jDcFPf0kTa0lE1lD+ZaDG7F+R0Ve5y3gs9W/YAmtMHNHZ+ZaNooTAxxe
-GF9CPB6CJRi+OejYSYCC0YQNu9ntmTg1+JDIsMraj6dv7pM8Uc0CX+703PdJKBO8p2ixZalGqWyS
-TQzmncsmNYcZS7JL6yRCf7DHxKiQoE/ycRntCysztPV61551WJytSnwUqwd3weqtjOhCPIKgvnki
-ACrPjaUHu/wVzdrsDYnbgVTq+1QnVtPekyFKPN9CG7j2Pgox6atJ0MMHAiAAA4Hb5TmUK/Y/W1cx
-t+CgWpDFlmfIzvIfRkHpX5qAwFU+CghAH496QZUyRV/LlD69/I4sQudwIk07iuIT5pIWmU3ccKwE
-2V6TgnnvWwCSunXMqDubpmV/M0XfX4gxByplobJaJNPtab6d0LrCRoTdqysFWVb1m6Sig0VbdxxK
-Jk0qgIvdfhrszhc9aZ/PaJPYaO+LA2Jv7Q10DHCZdY6yeeN52jOICn+sT9OHpLM321/HJg332zaU
-lQhu0AQfpc2IdHVb/ZcG+BTUEBOfDlSWkd4ZDPwOZ5v0SDE+gbn+lCEJdVwgecGb8eabTdErmTLs
-qhpo9rfaglM5NR0QTcpjcaNzZXKl+/lTJ7htNwiTYIrC0GQCLXZCcbq7cXBQGf+8JnM0gresRzUg
-hwbn6cl9yfdRRDhanYpsdFOnBmHhOkh4qYSOL4BJrag6YBL7VMOfeh+02V6G7vJOwaOkdGe+fHkl
-4MA2aN1KSMuTRXZ/jL+zr8A+jQCvuFka9u97AG1x0KlhzmSO34UFkas7k5zZoHc9bq0PRa6k+xIf
-UwAbbl3fX+Qdt3/sUutP3rdtq982AZQOkVVSobrcfvuxv4umco7M87OqPYzL4j41m2Hnfc7lMyAQ
-iUlUke8nrAxthc/ND0ukvkJ7KJaD56BUdr8/QhH5Fu8iO6vrrFXPniRlrxOOKdgDOyQoShPUXtMT
-IpJV3rMHRxr4fm/VJdsAWuh7QXV//u0Z4a6jOJ39yTOmxks04M2yebn5mye4kqkxtCG7BBH4IWzP
-Ytc1o4fZqD2boO2gP2WcPQ2PU9ne/rj6RadByyidPIQZ9bCBc2JnsRlvtH2LGpk1okmOLjOR0YuE
-cBg/spHA69etq9BJIRWKKIcH0MajgZHjvZrdS0uXkLemmQwKbwDwvWVBhVxiD24zSqPs+zrkC1v5
-idI5Hkb9kv5SJ4JjaFDxig3Y+3Yg7LaLnWbQMECluySv0AssVk6msQHgVgxm6f5o6DAuZIoURa26
-tztYQUVBiEHrYaIkzanqLHZkdbavJ4Yc7gkvQy4+aaxBJ2KLBlOMrVns0B58w7OlrKblzlQE5Vni
-fleRxNRo+AZkTWy7smLISQFjGBB8VEvau3YHoC+WOkadsYPnnx+1sKwSkIZix57FSWpBsBowAP/e
-bmI/hrZ1WvH7/FgapwQxdQze27CfSyMpJIVByPRCN9aniZBV4w/IY0xEhTQVm0ZnY+5wxMuzmhY4
-lozZv5SDaorFQiw6Q1cW1bBNp7U86VvO2SOu7xu+758lL4FwSYmr/5tZ+HqTzrS8CvJMDi+5g1u9
-rJuqMK3CdBE5ObT6dC1d5bP3jeB9qnC3RUVxdeFHS8ixGiP0G+U4sEvdV2nEcXVwHhpkYpdPb4y/
-l2ouh7j9aZ0S6nAWL893XVWWUP8stphiI2UCrL8pVZTbgvgf868DDxzTcrbOmOOheqXbAg7qy7M8
-R7p1QDd/MdqWOZFQ17NJtvHD2MbBTqiE4GKdwa3x995RVqhcCQfZFJ+UCXmJaa9gT+d/2XcKQttB
-LGKFEO4HWrWtfQNSbxmOiUuLu/KDHhpB48db77K1BXZjtq5T0O6aP9QGk6pztRfmeFfQ/P+Z9wws
-8DBGEMCLIUQ+46HYT4Cpeq6ks9Uf7HzIBkILWZ5Pb7iT7laYmc48ZhouGN/zUo5J2YNEOTbnk/+4
-RcK1ldJjzYdCyrUKJouTpdBieERzgBilW6RFyhqXDe900p6XHSga+VT+IGIdGAAxPG2gjhgroeSo
-ARjjw2Dx+VqA217ZqLC6YrRWjOzC0GJqfmAzlx6S+0AGlWSYMSMZqfIX1h+v79KmfaIuq7eL3WG0
-P00tZV44Dqj/5gMQ14NModjthMLSvObvxg/8PWIO5R3Q0K1qH/cuESFCPIl8ZubgBW4sC6roNCLs
-uHnh/3d2LpjAjw83r7qApQhp2WEyMWKjCWC3xMWv6OHRNiSnBPG2YSwTU4lSgrtU7lx44XLT2IqF
-GXnnvgi37MPxUtJqNFRyQHgoBCqE2B8UYLxQT4ywNg8JNri1
+<?php
+
+namespace GuzzleHttp\Psr7;
+
+use Psr\Http\Message\StreamInterface;
+
+/**
+ * Converts Guzzle streams into PHP stream resources.
+ *
+ * @final
+ */
+class StreamWrapper
+{
+    /** @var resource */
+    public $context;
+
+    /** @var StreamInterface */
+    private $stream;
+
+    /** @var string r, r+, or w */
+    private $mode;
+
+    /**
+     * Returns a resource representing the stream.
+     *
+     * @param StreamInterface $stream The stream to get a resource for
+     *
+     * @return resource
+     *
+     * @throws \InvalidArgumentException if stream is not readable or writable
+     */
+    public static function getResource(StreamInterface $stream)
+    {
+        self::register();
+
+        if ($stream->isReadable()) {
+            $mode = $stream->isWritable() ? 'r+' : 'r';
+        } elseif ($stream->isWritable()) {
+            $mode = 'w';
+        } else {
+            throw new \InvalidArgumentException('The stream must be readable, '
+                . 'writable, or both.');
+        }
+
+        return fopen('guzzle://stream', $mode, null, self::createStreamContext($stream));
+    }
+
+    /**
+     * Creates a stream context that can be used to open a stream as a php stream resource.
+     *
+     * @param StreamInterface $stream
+     *
+     * @return resource
+     */
+    public static function createStreamContext(StreamInterface $stream)
+    {
+        return stream_context_create([
+            'guzzle' => ['stream' => $stream]
+        ]);
+    }
+
+    /**
+     * Registers the stream wrapper if needed
+     */
+    public static function register()
+    {
+        if (!in_array('guzzle', stream_get_wrappers())) {
+            stream_wrapper_register('guzzle', __CLASS__);
+        }
+    }
+
+    public function stream_open($path, $mode, $options, &$opened_path)
+    {
+        $options = stream_context_get_options($this->context);
+
+        if (!isset($options['guzzle']['stream'])) {
+            return false;
+        }
+
+        $this->mode = $mode;
+        $this->stream = $options['guzzle']['stream'];
+
+        return true;
+    }
+
+    public function stream_read($count)
+    {
+        return $this->stream->read($count);
+    }
+
+    public function stream_write($data)
+    {
+        return (int) $this->stream->write($data);
+    }
+
+    public function stream_tell()
+    {
+        return $this->stream->tell();
+    }
+
+    public function stream_eof()
+    {
+        return $this->stream->eof();
+    }
+
+    public function stream_seek($offset, $whence)
+    {
+        $this->stream->seek($offset, $whence);
+
+        return true;
+    }
+
+    public function stream_cast($cast_as)
+    {
+        $stream = clone($this->stream);
+
+        return $stream->detach();
+    }
+
+    public function stream_stat()
+    {
+        static $modeMap = [
+            'r'  => 33060,
+            'rb' => 33060,
+            'r+' => 33206,
+            'w'  => 33188,
+            'wb' => 33188
+        ];
+
+        return [
+            'dev'     => 0,
+            'ino'     => 0,
+            'mode'    => $modeMap[$this->mode],
+            'nlink'   => 0,
+            'uid'     => 0,
+            'gid'     => 0,
+            'rdev'    => 0,
+            'size'    => $this->stream->getSize() ?: 0,
+            'atime'   => 0,
+            'mtime'   => 0,
+            'ctime'   => 0,
+            'blksize' => 0,
+            'blocks'  => 0
+        ];
+    }
+
+    public function url_stat($path, $flags)
+    {
+        return [
+            'dev'     => 0,
+            'ino'     => 0,
+            'mode'    => 0,
+            'nlink'   => 0,
+            'uid'     => 0,
+            'gid'     => 0,
+            'rdev'    => 0,
+            'size'    => 0,
+            'atime'   => 0,
+            'mtime'   => 0,
+            'ctime'   => 0,
+            'blksize' => 0,
+            'blocks'  => 0
+        ];
+    }
+}

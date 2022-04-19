@@ -1,77 +1,135 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DisplayVideo;
+
+class Partner extends \Google\Model
+{
+  protected $adServerConfigType = PartnerAdServerConfig::class;
+  protected $adServerConfigDataType = '';
+  protected $dataAccessConfigType = PartnerDataAccessConfig::class;
+  protected $dataAccessConfigDataType = '';
+  public $displayName;
+  public $entityStatus;
+  protected $exchangeConfigType = ExchangeConfig::class;
+  protected $exchangeConfigDataType = '';
+  protected $generalConfigType = PartnerGeneralConfig::class;
+  protected $generalConfigDataType = '';
+  public $name;
+  public $partnerId;
+  public $updateTime;
+
+  /**
+   * @param PartnerAdServerConfig
+   */
+  public function setAdServerConfig(PartnerAdServerConfig $adServerConfig)
+  {
+    $this->adServerConfig = $adServerConfig;
+  }
+  /**
+   * @return PartnerAdServerConfig
+   */
+  public function getAdServerConfig()
+  {
+    return $this->adServerConfig;
+  }
+  /**
+   * @param PartnerDataAccessConfig
+   */
+  public function setDataAccessConfig(PartnerDataAccessConfig $dataAccessConfig)
+  {
+    $this->dataAccessConfig = $dataAccessConfig;
+  }
+  /**
+   * @return PartnerDataAccessConfig
+   */
+  public function getDataAccessConfig()
+  {
+    return $this->dataAccessConfig;
+  }
+  public function setDisplayName($displayName)
+  {
+    $this->displayName = $displayName;
+  }
+  public function getDisplayName()
+  {
+    return $this->displayName;
+  }
+  public function setEntityStatus($entityStatus)
+  {
+    $this->entityStatus = $entityStatus;
+  }
+  public function getEntityStatus()
+  {
+    return $this->entityStatus;
+  }
+  /**
+   * @param ExchangeConfig
+   */
+  public function setExchangeConfig(ExchangeConfig $exchangeConfig)
+  {
+    $this->exchangeConfig = $exchangeConfig;
+  }
+  /**
+   * @return ExchangeConfig
+   */
+  public function getExchangeConfig()
+  {
+    return $this->exchangeConfig;
+  }
+  /**
+   * @param PartnerGeneralConfig
+   */
+  public function setGeneralConfig(PartnerGeneralConfig $generalConfig)
+  {
+    $this->generalConfig = $generalConfig;
+  }
+  /**
+   * @return PartnerGeneralConfig
+   */
+  public function getGeneralConfig()
+  {
+    return $this->generalConfig;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setPartnerId($partnerId)
+  {
+    $this->partnerId = $partnerId;
+  }
+  public function getPartnerId()
+  {
+    return $this->partnerId;
+  }
+  public function setUpdateTime($updateTime)
+  {
+    $this->updateTime = $updateTime;
+  }
+  public function getUpdateTime()
+  {
+    return $this->updateTime;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Partner::class, 'Google_Service_DisplayVideo_Partner');

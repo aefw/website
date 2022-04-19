@@ -1,61 +1,106 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DriveActivity;
+
+class Actor extends \Google\Model
+{
+  protected $administratorType = Administrator::class;
+  protected $administratorDataType = '';
+  protected $anonymousType = AnonymousUser::class;
+  protected $anonymousDataType = '';
+  protected $impersonationType = Impersonation::class;
+  protected $impersonationDataType = '';
+  protected $systemType = SystemEvent::class;
+  protected $systemDataType = '';
+  protected $userType = User::class;
+  protected $userDataType = '';
+
+  /**
+   * @param Administrator
+   */
+  public function setAdministrator(Administrator $administrator)
+  {
+    $this->administrator = $administrator;
+  }
+  /**
+   * @return Administrator
+   */
+  public function getAdministrator()
+  {
+    return $this->administrator;
+  }
+  /**
+   * @param AnonymousUser
+   */
+  public function setAnonymous(AnonymousUser $anonymous)
+  {
+    $this->anonymous = $anonymous;
+  }
+  /**
+   * @return AnonymousUser
+   */
+  public function getAnonymous()
+  {
+    return $this->anonymous;
+  }
+  /**
+   * @param Impersonation
+   */
+  public function setImpersonation(Impersonation $impersonation)
+  {
+    $this->impersonation = $impersonation;
+  }
+  /**
+   * @return Impersonation
+   */
+  public function getImpersonation()
+  {
+    return $this->impersonation;
+  }
+  /**
+   * @param SystemEvent
+   */
+  public function setSystem(SystemEvent $system)
+  {
+    $this->system = $system;
+  }
+  /**
+   * @return SystemEvent
+   */
+  public function getSystem()
+  {
+    return $this->system;
+  }
+  /**
+   * @param User
+   */
+  public function setUser(User $user)
+  {
+    $this->user = $user;
+  }
+  /**
+   * @return User
+   */
+  public function getUser()
+  {
+    return $this->user;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Actor::class, 'Google_Service_DriveActivity_Actor');

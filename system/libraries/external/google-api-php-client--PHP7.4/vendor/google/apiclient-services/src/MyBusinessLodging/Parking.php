@@ -1,94 +1,152 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\MyBusinessLodging;
+
+class Parking extends \Google\Model
+{
+  public $electricCarChargingStations;
+  public $electricCarChargingStationsException;
+  public $freeParking;
+  public $freeParkingException;
+  public $freeSelfParking;
+  public $freeSelfParkingException;
+  public $freeValetParking;
+  public $freeValetParkingException;
+  public $parkingAvailable;
+  public $parkingAvailableException;
+  public $selfParkingAvailable;
+  public $selfParkingAvailableException;
+  public $valetParkingAvailable;
+  public $valetParkingAvailableException;
+
+  public function setElectricCarChargingStations($electricCarChargingStations)
+  {
+    $this->electricCarChargingStations = $electricCarChargingStations;
+  }
+  public function getElectricCarChargingStations()
+  {
+    return $this->electricCarChargingStations;
+  }
+  public function setElectricCarChargingStationsException($electricCarChargingStationsException)
+  {
+    $this->electricCarChargingStationsException = $electricCarChargingStationsException;
+  }
+  public function getElectricCarChargingStationsException()
+  {
+    return $this->electricCarChargingStationsException;
+  }
+  public function setFreeParking($freeParking)
+  {
+    $this->freeParking = $freeParking;
+  }
+  public function getFreeParking()
+  {
+    return $this->freeParking;
+  }
+  public function setFreeParkingException($freeParkingException)
+  {
+    $this->freeParkingException = $freeParkingException;
+  }
+  public function getFreeParkingException()
+  {
+    return $this->freeParkingException;
+  }
+  public function setFreeSelfParking($freeSelfParking)
+  {
+    $this->freeSelfParking = $freeSelfParking;
+  }
+  public function getFreeSelfParking()
+  {
+    return $this->freeSelfParking;
+  }
+  public function setFreeSelfParkingException($freeSelfParkingException)
+  {
+    $this->freeSelfParkingException = $freeSelfParkingException;
+  }
+  public function getFreeSelfParkingException()
+  {
+    return $this->freeSelfParkingException;
+  }
+  public function setFreeValetParking($freeValetParking)
+  {
+    $this->freeValetParking = $freeValetParking;
+  }
+  public function getFreeValetParking()
+  {
+    return $this->freeValetParking;
+  }
+  public function setFreeValetParkingException($freeValetParkingException)
+  {
+    $this->freeValetParkingException = $freeValetParkingException;
+  }
+  public function getFreeValetParkingException()
+  {
+    return $this->freeValetParkingException;
+  }
+  public function setParkingAvailable($parkingAvailable)
+  {
+    $this->parkingAvailable = $parkingAvailable;
+  }
+  public function getParkingAvailable()
+  {
+    return $this->parkingAvailable;
+  }
+  public function setParkingAvailableException($parkingAvailableException)
+  {
+    $this->parkingAvailableException = $parkingAvailableException;
+  }
+  public function getParkingAvailableException()
+  {
+    return $this->parkingAvailableException;
+  }
+  public function setSelfParkingAvailable($selfParkingAvailable)
+  {
+    $this->selfParkingAvailable = $selfParkingAvailable;
+  }
+  public function getSelfParkingAvailable()
+  {
+    return $this->selfParkingAvailable;
+  }
+  public function setSelfParkingAvailableException($selfParkingAvailableException)
+  {
+    $this->selfParkingAvailableException = $selfParkingAvailableException;
+  }
+  public function getSelfParkingAvailableException()
+  {
+    return $this->selfParkingAvailableException;
+  }
+  public function setValetParkingAvailable($valetParkingAvailable)
+  {
+    $this->valetParkingAvailable = $valetParkingAvailable;
+  }
+  public function getValetParkingAvailable()
+  {
+    return $this->valetParkingAvailable;
+  }
+  public function setValetParkingAvailableException($valetParkingAvailableException)
+  {
+    $this->valetParkingAvailableException = $valetParkingAvailableException;
+  }
+  public function getValetParkingAvailableException()
+  {
+    return $this->valetParkingAvailableException;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Parking::class, 'Google_Service_MyBusinessLodging_Parking');

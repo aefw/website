@@ -1,175 +1,341 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Drive;
+
+class DriveFileCapabilities extends \Google\Model
+{
+  public $canAddChildren;
+  public $canAddFolderFromAnotherDrive;
+  public $canAddMyDriveParent;
+  public $canChangeCopyRequiresWriterPermission;
+  public $canChangeSecurityUpdateEnabled;
+  public $canChangeViewersCanCopyContent;
+  public $canComment;
+  public $canCopy;
+  public $canDelete;
+  public $canDeleteChildren;
+  public $canDownload;
+  public $canEdit;
+  public $canListChildren;
+  public $canModifyContent;
+  public $canModifyContentRestriction;
+  public $canMoveChildrenOutOfDrive;
+  public $canMoveChildrenOutOfTeamDrive;
+  public $canMoveChildrenWithinDrive;
+  public $canMoveChildrenWithinTeamDrive;
+  public $canMoveItemIntoTeamDrive;
+  public $canMoveItemOutOfDrive;
+  public $canMoveItemOutOfTeamDrive;
+  public $canMoveItemWithinDrive;
+  public $canMoveItemWithinTeamDrive;
+  public $canMoveTeamDriveItem;
+  public $canReadDrive;
+  public $canReadRevisions;
+  public $canReadTeamDrive;
+  public $canRemoveChildren;
+  public $canRemoveMyDriveParent;
+  public $canRename;
+  public $canShare;
+  public $canTrash;
+  public $canTrashChildren;
+  public $canUntrash;
+
+  public function setCanAddChildren($canAddChildren)
+  {
+    $this->canAddChildren = $canAddChildren;
+  }
+  public function getCanAddChildren()
+  {
+    return $this->canAddChildren;
+  }
+  public function setCanAddFolderFromAnotherDrive($canAddFolderFromAnotherDrive)
+  {
+    $this->canAddFolderFromAnotherDrive = $canAddFolderFromAnotherDrive;
+  }
+  public function getCanAddFolderFromAnotherDrive()
+  {
+    return $this->canAddFolderFromAnotherDrive;
+  }
+  public function setCanAddMyDriveParent($canAddMyDriveParent)
+  {
+    $this->canAddMyDriveParent = $canAddMyDriveParent;
+  }
+  public function getCanAddMyDriveParent()
+  {
+    return $this->canAddMyDriveParent;
+  }
+  public function setCanChangeCopyRequiresWriterPermission($canChangeCopyRequiresWriterPermission)
+  {
+    $this->canChangeCopyRequiresWriterPermission = $canChangeCopyRequiresWriterPermission;
+  }
+  public function getCanChangeCopyRequiresWriterPermission()
+  {
+    return $this->canChangeCopyRequiresWriterPermission;
+  }
+  public function setCanChangeSecurityUpdateEnabled($canChangeSecurityUpdateEnabled)
+  {
+    $this->canChangeSecurityUpdateEnabled = $canChangeSecurityUpdateEnabled;
+  }
+  public function getCanChangeSecurityUpdateEnabled()
+  {
+    return $this->canChangeSecurityUpdateEnabled;
+  }
+  public function setCanChangeViewersCanCopyContent($canChangeViewersCanCopyContent)
+  {
+    $this->canChangeViewersCanCopyContent = $canChangeViewersCanCopyContent;
+  }
+  public function getCanChangeViewersCanCopyContent()
+  {
+    return $this->canChangeViewersCanCopyContent;
+  }
+  public function setCanComment($canComment)
+  {
+    $this->canComment = $canComment;
+  }
+  public function getCanComment()
+  {
+    return $this->canComment;
+  }
+  public function setCanCopy($canCopy)
+  {
+    $this->canCopy = $canCopy;
+  }
+  public function getCanCopy()
+  {
+    return $this->canCopy;
+  }
+  public function setCanDelete($canDelete)
+  {
+    $this->canDelete = $canDelete;
+  }
+  public function getCanDelete()
+  {
+    return $this->canDelete;
+  }
+  public function setCanDeleteChildren($canDeleteChildren)
+  {
+    $this->canDeleteChildren = $canDeleteChildren;
+  }
+  public function getCanDeleteChildren()
+  {
+    return $this->canDeleteChildren;
+  }
+  public function setCanDownload($canDownload)
+  {
+    $this->canDownload = $canDownload;
+  }
+  public function getCanDownload()
+  {
+    return $this->canDownload;
+  }
+  public function setCanEdit($canEdit)
+  {
+    $this->canEdit = $canEdit;
+  }
+  public function getCanEdit()
+  {
+    return $this->canEdit;
+  }
+  public function setCanListChildren($canListChildren)
+  {
+    $this->canListChildren = $canListChildren;
+  }
+  public function getCanListChildren()
+  {
+    return $this->canListChildren;
+  }
+  public function setCanModifyContent($canModifyContent)
+  {
+    $this->canModifyContent = $canModifyContent;
+  }
+  public function getCanModifyContent()
+  {
+    return $this->canModifyContent;
+  }
+  public function setCanModifyContentRestriction($canModifyContentRestriction)
+  {
+    $this->canModifyContentRestriction = $canModifyContentRestriction;
+  }
+  public function getCanModifyContentRestriction()
+  {
+    return $this->canModifyContentRestriction;
+  }
+  public function setCanMoveChildrenOutOfDrive($canMoveChildrenOutOfDrive)
+  {
+    $this->canMoveChildrenOutOfDrive = $canMoveChildrenOutOfDrive;
+  }
+  public function getCanMoveChildrenOutOfDrive()
+  {
+    return $this->canMoveChildrenOutOfDrive;
+  }
+  public function setCanMoveChildrenOutOfTeamDrive($canMoveChildrenOutOfTeamDrive)
+  {
+    $this->canMoveChildrenOutOfTeamDrive = $canMoveChildrenOutOfTeamDrive;
+  }
+  public function getCanMoveChildrenOutOfTeamDrive()
+  {
+    return $this->canMoveChildrenOutOfTeamDrive;
+  }
+  public function setCanMoveChildrenWithinDrive($canMoveChildrenWithinDrive)
+  {
+    $this->canMoveChildrenWithinDrive = $canMoveChildrenWithinDrive;
+  }
+  public function getCanMoveChildrenWithinDrive()
+  {
+    return $this->canMoveChildrenWithinDrive;
+  }
+  public function setCanMoveChildrenWithinTeamDrive($canMoveChildrenWithinTeamDrive)
+  {
+    $this->canMoveChildrenWithinTeamDrive = $canMoveChildrenWithinTeamDrive;
+  }
+  public function getCanMoveChildrenWithinTeamDrive()
+  {
+    return $this->canMoveChildrenWithinTeamDrive;
+  }
+  public function setCanMoveItemIntoTeamDrive($canMoveItemIntoTeamDrive)
+  {
+    $this->canMoveItemIntoTeamDrive = $canMoveItemIntoTeamDrive;
+  }
+  public function getCanMoveItemIntoTeamDrive()
+  {
+    return $this->canMoveItemIntoTeamDrive;
+  }
+  public function setCanMoveItemOutOfDrive($canMoveItemOutOfDrive)
+  {
+    $this->canMoveItemOutOfDrive = $canMoveItemOutOfDrive;
+  }
+  public function getCanMoveItemOutOfDrive()
+  {
+    return $this->canMoveItemOutOfDrive;
+  }
+  public function setCanMoveItemOutOfTeamDrive($canMoveItemOutOfTeamDrive)
+  {
+    $this->canMoveItemOutOfTeamDrive = $canMoveItemOutOfTeamDrive;
+  }
+  public function getCanMoveItemOutOfTeamDrive()
+  {
+    return $this->canMoveItemOutOfTeamDrive;
+  }
+  public function setCanMoveItemWithinDrive($canMoveItemWithinDrive)
+  {
+    $this->canMoveItemWithinDrive = $canMoveItemWithinDrive;
+  }
+  public function getCanMoveItemWithinDrive()
+  {
+    return $this->canMoveItemWithinDrive;
+  }
+  public function setCanMoveItemWithinTeamDrive($canMoveItemWithinTeamDrive)
+  {
+    $this->canMoveItemWithinTeamDrive = $canMoveItemWithinTeamDrive;
+  }
+  public function getCanMoveItemWithinTeamDrive()
+  {
+    return $this->canMoveItemWithinTeamDrive;
+  }
+  public function setCanMoveTeamDriveItem($canMoveTeamDriveItem)
+  {
+    $this->canMoveTeamDriveItem = $canMoveTeamDriveItem;
+  }
+  public function getCanMoveTeamDriveItem()
+  {
+    return $this->canMoveTeamDriveItem;
+  }
+  public function setCanReadDrive($canReadDrive)
+  {
+    $this->canReadDrive = $canReadDrive;
+  }
+  public function getCanReadDrive()
+  {
+    return $this->canReadDrive;
+  }
+  public function setCanReadRevisions($canReadRevisions)
+  {
+    $this->canReadRevisions = $canReadRevisions;
+  }
+  public function getCanReadRevisions()
+  {
+    return $this->canReadRevisions;
+  }
+  public function setCanReadTeamDrive($canReadTeamDrive)
+  {
+    $this->canReadTeamDrive = $canReadTeamDrive;
+  }
+  public function getCanReadTeamDrive()
+  {
+    return $this->canReadTeamDrive;
+  }
+  public function setCanRemoveChildren($canRemoveChildren)
+  {
+    $this->canRemoveChildren = $canRemoveChildren;
+  }
+  public function getCanRemoveChildren()
+  {
+    return $this->canRemoveChildren;
+  }
+  public function setCanRemoveMyDriveParent($canRemoveMyDriveParent)
+  {
+    $this->canRemoveMyDriveParent = $canRemoveMyDriveParent;
+  }
+  public function getCanRemoveMyDriveParent()
+  {
+    return $this->canRemoveMyDriveParent;
+  }
+  public function setCanRename($canRename)
+  {
+    $this->canRename = $canRename;
+  }
+  public function getCanRename()
+  {
+    return $this->canRename;
+  }
+  public function setCanShare($canShare)
+  {
+    $this->canShare = $canShare;
+  }
+  public function getCanShare()
+  {
+    return $this->canShare;
+  }
+  public function setCanTrash($canTrash)
+  {
+    $this->canTrash = $canTrash;
+  }
+  public function getCanTrash()
+  {
+    return $this->canTrash;
+  }
+  public function setCanTrashChildren($canTrashChildren)
+  {
+    $this->canTrashChildren = $canTrashChildren;
+  }
+  public function getCanTrashChildren()
+  {
+    return $this->canTrashChildren;
+  }
+  public function setCanUntrash($canUntrash)
+  {
+    $this->canUntrash = $canUntrash;
+  }
+  public function getCanUntrash()
+  {
+    return $this->canUntrash;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(DriveFileCapabilities::class, 'Google_Service_Drive_DriveFileCapabilities');

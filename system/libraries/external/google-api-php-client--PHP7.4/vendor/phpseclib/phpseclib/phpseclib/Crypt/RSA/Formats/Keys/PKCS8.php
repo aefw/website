@@ -1,77 +1,149 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-ai7eevYfjxGSAARqJ2ck
+<?php
+
+/**
+ * PKCS#8 Formatted RSA Key Handler
+ *
+ * PHP version 5
+ *
+ * Used by PHP's openssl_public_encrypt() and openssl's rsautl (when -pubin is set)
+ *
+ * Processes keys with the following headers:
+ *
+ * -----BEGIN ENCRYPTED PRIVATE KEY-----
+ * -----BEGIN PRIVATE KEY-----
+ * -----BEGIN PUBLIC KEY-----
+ *
+ * Analogous to ssh-keygen's pkcs8 format (as specified by -m). Although PKCS8
+ * is specific to private keys it's basically creating a DER-encoded wrapper
+ * for keys. This just extends that same concept to public keys (much like ssh-keygen)
+ *
+ * @category  Crypt
+ * @package   RSA
+ * @author    Jim Wigginton <terrafrost@php.net>
+ * @copyright 2015 Jim Wigginton
+ * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      http://phpseclib.sourceforge.net
+ */
+
+namespace phpseclib3\Crypt\RSA\Formats\Keys;
+
+use phpseclib3\Math\BigInteger;
+use phpseclib3\Crypt\Common\Formats\Keys\PKCS8 as Progenitor;
+use phpseclib3\File\ASN1;
+use phpseclib3\Common\Functions\Strings;
+
+/**
+ * PKCS#8 Formatted RSA Key Handler
+ *
+ * @package RSA
+ * @author  Jim Wigginton <terrafrost@php.net>
+ * @access  public
+ */
+abstract class PKCS8 extends Progenitor
+{
+    /**
+     * OID Name
+     *
+     * @var string
+     * @access private
+     */
+    const OID_NAME = 'rsaEncryption';
+
+    /**
+     * OID Value
+     *
+     * @var string
+     * @access private
+     */
+    const OID_VALUE = '1.2.840.113549.1.1.1';
+
+    /**
+     * Child OIDs loaded
+     *
+     * @var bool
+     * @access private
+     */
+    protected static $childOIDsLoaded = false;
+
+    /**
+     * Break a public or private key down into its constituent components
+     *
+     * @access public
+     * @param string $key
+     * @param string $password optional
+     * @return array
+     */
+    public static function load($key, $password = '')
+    {
+        if (!Strings::is_stringable($key)) {
+            throw new \UnexpectedValueException('Key should be a string - not a ' . gettype($key));
+        }
+
+        if (strpos($key, 'PUBLIC') !== false) {
+            $components = ['isPublicKey' => true];
+        } elseif (strpos($key, 'PRIVATE') !== false) {
+            $components = ['isPublicKey' => false];
+        } else {
+            $components = [];
+        }
+
+        $key = parent::load($key, $password);
+
+        if (isset($key['privateKey'])) {
+            if (!isset($components['isPublicKey'])) {
+                $components['isPublicKey'] = false;
+            }
+            $type = 'private';
+        } else {
+            if (!isset($components['isPublicKey'])) {
+                $components['isPublicKey'] = true;
+            }
+            $type = 'public';
+        }
+
+        $result = $components + PKCS1::load($key[$type . 'Key']);
+
+        if (isset($key['meta'])) {
+            $result['meta'] = $key['meta'];
+        }
+
+        return $result;
+    }
+
+    /**
+     * Convert a private key to the appropriate format.
+     *
+     * @access public
+     * @param \phpseclib3\Math\BigInteger $n
+     * @param \phpseclib3\Math\BigInteger $e
+     * @param \phpseclib3\Math\BigInteger $d
+     * @param array $primes
+     * @param array $exponents
+     * @param array $coefficients
+     * @param string $password optional
+     * @param array $options optional
+     * @return string
+     */
+    public static function savePrivateKey(BigInteger $n, BigInteger $e, BigInteger $d, array $primes, array $exponents, array $coefficients, $password = '', array $options = [])
+    {
+        $key = PKCS1::savePrivateKey($n, $e, $d, $primes, $exponents, $coefficients);
+        $key = ASN1::extractBER($key);
+        return self::wrapPrivateKey($key, [], null, $password, $options);
+    }
+
+    /**
+     * Convert a public key to the appropriate format
+     *
+     * @access public
+     * @param \phpseclib3\Math\BigInteger $n
+     * @param \phpseclib3\Math\BigInteger $e
+     * @param array $options optional
+     * @return string
+     */
+    public static function savePublicKey(BigInteger $n, BigInteger $e, array $options = [])
+    {
+        $key = PKCS1::savePublicKey($n, $e);
+        $key = ASN1::extractBER($key);
+        return self::wrapPublicKey($key, null);
+    }
+}

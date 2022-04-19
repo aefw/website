@@ -1,68 +1,174 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-STz7TBLaPC1kHS4ZYtxcP05ngXmYypq=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Classroom\Resource;
+
+use Google\Service\Classroom\GuardianInvitation;
+use Google\Service\Classroom\ListGuardianInvitationsResponse;
+
+/**
+ * The "guardianInvitations" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $classroomService = new Google\Service\Classroom(...);
+ *   $guardianInvitations = $classroomService->guardianInvitations;
+ *  </code>
+ */
+class UserProfilesGuardianInvitations extends \Google\Service\Resource
+{
+  /**
+   * Creates a guardian invitation, and sends an email to the guardian asking them
+   * to confirm that they are the student's guardian. Once the guardian accepts
+   * the invitation, their `state` will change to `COMPLETED` and they will start
+   * receiving guardian notifications. A `Guardian` resource will also be created
+   * to represent the active guardian. The request object must have the
+   * `student_id` and `invited_email_address` fields set. Failing to set these
+   * fields, or setting any other fields in the request, will result in an error.
+   * This method returns the following error codes: * `PERMISSION_DENIED` if the
+   * current user does not have permission to manage guardians, if the guardian in
+   * question has already rejected too many requests for that student, if
+   * guardians are not enabled for the domain in question, or for other access
+   * errors. * `RESOURCE_EXHAUSTED` if the student or guardian has exceeded the
+   * guardian link limit. * `INVALID_ARGUMENT` if the guardian email address is
+   * not valid (for example, if it is too long), or if the format of the student
+   * ID provided cannot be recognized (it is not an email address, nor a `user_id`
+   * from this API). This error will also be returned if read-only fields are set,
+   * or if the `state` field is set to to a value other than `PENDING`. *
+   * `NOT_FOUND` if the student ID provided is a valid student ID, but Classroom
+   * has no record of that student. * `ALREADY_EXISTS` if there is already a
+   * pending guardian invitation for the student and `invited_email_address`
+   * provided, or if the provided `invited_email_address` matches the Google
+   * account of an existing `Guardian` for this user. (guardianInvitations.create)
+   *
+   * @param string $studentId ID of the student (in standard format)
+   * @param GuardianInvitation $postBody
+   * @param array $optParams Optional parameters.
+   * @return GuardianInvitation
+   */
+  public function create($studentId, GuardianInvitation $postBody, $optParams = [])
+  {
+    $params = ['studentId' => $studentId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GuardianInvitation::class);
+  }
+  /**
+   * Returns a specific guardian invitation. This method returns the following
+   * error codes: * `PERMISSION_DENIED` if the requesting user is not permitted to
+   * view guardian invitations for the student identified by the `student_id`, if
+   * guardians are not enabled for the domain in question, or for other access
+   * errors. * `INVALID_ARGUMENT` if a `student_id` is specified, but its format
+   * cannot be recognized (it is not an email address, nor a `student_id` from the
+   * API, nor the literal string `me`). * `NOT_FOUND` if Classroom cannot find any
+   * record of the given student or `invitation_id`. May also be returned if the
+   * student exists, but the requesting user does not have access to see that
+   * student. (guardianInvitations.get)
+   *
+   * @param string $studentId The ID of the student whose guardian invitation is
+   * being requested.
+   * @param string $invitationId The `id` field of the `GuardianInvitation` being
+   * requested.
+   * @param array $optParams Optional parameters.
+   * @return GuardianInvitation
+   */
+  public function get($studentId, $invitationId, $optParams = [])
+  {
+    $params = ['studentId' => $studentId, 'invitationId' => $invitationId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GuardianInvitation::class);
+  }
+  /**
+   * Returns a list of guardian invitations that the requesting user is permitted
+   * to view, filtered by the parameters provided. This method returns the
+   * following error codes: * `PERMISSION_DENIED` if a `student_id` is specified,
+   * and the requesting user is not permitted to view guardian invitations for
+   * that student, if `"-"` is specified as the `student_id` and the user is not a
+   * domain administrator, if guardians are not enabled for the domain in
+   * question, or for other access errors. * `INVALID_ARGUMENT` if a `student_id`
+   * is specified, but its format cannot be recognized (it is not an email
+   * address, nor a `student_id` from the API, nor the literal string `me`). May
+   * also be returned if an invalid `page_token` or `state` is provided. *
+   * `NOT_FOUND` if a `student_id` is specified, and its format can be recognized,
+   * but Classroom has no record of that student.
+   * (guardianInvitations.listUserProfilesGuardianInvitations)
+   *
+   * @param string $studentId The ID of the student whose guardian invitations are
+   * to be returned. The identifier can be one of the following: * the numeric
+   * identifier for the user * the email address of the user * the string literal
+   * `"me"`, indicating the requesting user * the string literal `"-"`, indicating
+   * that results should be returned for all students that the requesting user is
+   * permitted to view guardian invitations.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string invitedEmailAddress If specified, only results with the
+   * specified `invited_email_address` are returned.
+   * @opt_param int pageSize Maximum number of items to return. Zero or
+   * unspecified indicates that the server may assign a maximum. The server may
+   * return fewer than the specified number of results.
+   * @opt_param string pageToken nextPageToken value returned from a previous list
+   * call, indicating that the subsequent page of results should be returned. The
+   * list request must be otherwise identical to the one that resulted in this
+   * token.
+   * @opt_param string states If specified, only results with the specified
+   * `state` values are returned. Otherwise, results with a `state` of `PENDING`
+   * are returned.
+   * @return ListGuardianInvitationsResponse
+   */
+  public function listUserProfilesGuardianInvitations($studentId, $optParams = [])
+  {
+    $params = ['studentId' => $studentId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListGuardianInvitationsResponse::class);
+  }
+  /**
+   * Modifies a guardian invitation. Currently, the only valid modification is to
+   * change the `state` from `PENDING` to `COMPLETE`. This has the effect of
+   * withdrawing the invitation. This method returns the following error codes: *
+   * `PERMISSION_DENIED` if the current user does not have permission to manage
+   * guardians, if guardians are not enabled for the domain in question or for
+   * other access errors. * `FAILED_PRECONDITION` if the guardian link is not in
+   * the `PENDING` state. * `INVALID_ARGUMENT` if the format of the student ID
+   * provided cannot be recognized (it is not an email address, nor a `user_id`
+   * from this API), or if the passed `GuardianInvitation` has a `state` other
+   * than `COMPLETE`, or if it modifies fields other than `state`. * `NOT_FOUND`
+   * if the student ID provided is a valid student ID, but Classroom has no record
+   * of that student, or if the `id` field does not refer to a guardian invitation
+   * known to Classroom. (guardianInvitations.patch)
+   *
+   * @param string $studentId The ID of the student whose guardian invitation is
+   * to be modified.
+   * @param string $invitationId The `id` field of the `GuardianInvitation` to be
+   * modified.
+   * @param GuardianInvitation $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Mask that identifies which fields on the course
+   * to update. This field is required to do an update. The update fails if
+   * invalid fields are specified. The following fields are valid: * `state` When
+   * set in a query parameter, this field should be specified as
+   * `updateMask=,,...`
+   * @return GuardianInvitation
+   */
+  public function patch($studentId, $invitationId, GuardianInvitation $postBody, $optParams = [])
+  {
+    $params = ['studentId' => $studentId, 'invitationId' => $invitationId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], GuardianInvitation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(UserProfilesGuardianInvitations::class, 'Google_Service_Classroom_Resource_UserProfilesGuardianInvitations');

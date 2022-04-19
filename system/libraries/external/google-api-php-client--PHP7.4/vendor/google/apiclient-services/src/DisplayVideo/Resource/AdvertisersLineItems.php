@@ -1,90 +1,253 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-oHFzqtiFLH6Pe8LW+cW3ewm/pTat
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DisplayVideo\Resource;
+
+use Google\Service\DisplayVideo\BulkEditLineItemAssignedTargetingOptionsRequest;
+use Google\Service\DisplayVideo\BulkEditLineItemAssignedTargetingOptionsResponse;
+use Google\Service\DisplayVideo\BulkListLineItemAssignedTargetingOptionsResponse;
+use Google\Service\DisplayVideo\DisplayvideoEmpty;
+use Google\Service\DisplayVideo\GenerateDefaultLineItemRequest;
+use Google\Service\DisplayVideo\LineItem;
+use Google\Service\DisplayVideo\ListLineItemsResponse;
+
+/**
+ * The "lineItems" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $displayvideoService = new Google\Service\DisplayVideo(...);
+ *   $lineItems = $displayvideoService->lineItems;
+ *  </code>
+ */
+class AdvertisersLineItems extends \Google\Service\Resource
+{
+  /**
+   * Bulk edits targeting options under a single line item. The operation will
+   * delete the assigned targeting options provided in
+   * BulkEditLineItemAssignedTargetingOptionsRequest.delete_requests and then
+   * create the assigned targeting options provided in
+   * BulkEditLineItemAssignedTargetingOptionsRequest.create_requests .
+   * (lineItems.bulkEditLineItemAssignedTargetingOptions)
+   *
+   * @param string $advertiserId Required. The ID of the advertiser the line item
+   * belongs to.
+   * @param string $lineItemId Required. The ID of the line item the assigned
+   * targeting option will belong to.
+   * @param BulkEditLineItemAssignedTargetingOptionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return BulkEditLineItemAssignedTargetingOptionsResponse
+   */
+  public function bulkEditLineItemAssignedTargetingOptions($advertiserId, $lineItemId, BulkEditLineItemAssignedTargetingOptionsRequest $postBody, $optParams = [])
+  {
+    $params = ['advertiserId' => $advertiserId, 'lineItemId' => $lineItemId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('bulkEditLineItemAssignedTargetingOptions', [$params], BulkEditLineItemAssignedTargetingOptionsResponse::class);
+  }
+  /**
+   * Lists assigned targeting options of a line item across targeting types.
+   * (lineItems.bulkListLineItemAssignedTargetingOptions)
+   *
+   * @param string $advertiserId Required. The ID of the advertiser the line item
+   * belongs to.
+   * @param string $lineItemId Required. The ID of the line item to list assigned
+   * targeting options for.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Allows filtering by assigned targeting option
+   * properties. Supported syntax: * Filter expressions are made up of one or more
+   * restrictions. * Restrictions can be combined by the logical operator `OR` on
+   * the same field. * A restriction has the form of `{field} {operator} {value}`.
+   * * The operator must be `EQUALS (=)`. * Supported fields: - `targetingType` -
+   * `inheritance` Examples: * AssignedTargetingOptions of targeting type
+   * TARGETING_TYPE_PROXIMITY_LOCATION_LIST or TARGETING_TYPE_CHANNEL
+   * `targetingType="TARGETING_TYPE_PROXIMITY_LOCATION_LIST" OR
+   * targetingType="TARGETING_TYPE_CHANNEL"` * AssignedTargetingOptions with
+   * inheritance status of NOT_INHERITED or INHERITED_FROM_PARTNER
+   * `inheritance="NOT_INHERITED" OR inheritance="INHERITED_FROM_PARTNER"` The
+   * length of this field should be no more than 500 characters.
+   * @opt_param string orderBy Field by which to sort the list. Acceptable values
+   * are: * `targetingType` (default) The default sorting order is ascending. To
+   * specify descending order for a field, a suffix "desc" should be added to the
+   * field name. Example: `targetingType desc`.
+   * @opt_param int pageSize Requested page size. The size must be an integer
+   * between `1` and `5000`. If unspecified, the default is '5000'. Returns error
+   * code `INVALID_ARGUMENT` if an invalid value is specified.
+   * @opt_param string pageToken A token that lets the client fetch the next page
+   * of results. Typically, this is the value of next_page_token returned from the
+   * previous call to `BulkListLineItemAssignedTargetingOptions` method. If not
+   * specified, the first page of results will be returned.
+   * @return BulkListLineItemAssignedTargetingOptionsResponse
+   */
+  public function bulkListLineItemAssignedTargetingOptions($advertiserId, $lineItemId, $optParams = [])
+  {
+    $params = ['advertiserId' => $advertiserId, 'lineItemId' => $lineItemId];
+    $params = array_merge($params, $optParams);
+    return $this->call('bulkListLineItemAssignedTargetingOptions', [$params], BulkListLineItemAssignedTargetingOptionsResponse::class);
+  }
+  /**
+   * Creates a new line item. Returns the newly created line item if successful.
+   * (lineItems.create)
+   *
+   * @param string $advertiserId Output only. The unique ID of the advertiser the
+   * line item belongs to.
+   * @param LineItem $postBody
+   * @param array $optParams Optional parameters.
+   * @return LineItem
+   */
+  public function create($advertiserId, LineItem $postBody, $optParams = [])
+  {
+    $params = ['advertiserId' => $advertiserId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], LineItem::class);
+  }
+  /**
+   * Deletes a line item. Returns error code `NOT_FOUND` if the line item does not
+   * exist. The line item should be archived first, i.e. set entity_status to
+   * `ENTITY_STATUS_ARCHIVED`, to be able to delete it. (lineItems.delete)
+   *
+   * @param string $advertiserId The ID of the advertiser this line item belongs
+   * to.
+   * @param string $lineItemId The ID of the line item we need to fetch.
+   * @param array $optParams Optional parameters.
+   * @return DisplayvideoEmpty
+   */
+  public function delete($advertiserId, $lineItemId, $optParams = [])
+  {
+    $params = ['advertiserId' => $advertiserId, 'lineItemId' => $lineItemId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], DisplayvideoEmpty::class);
+  }
+  /**
+   * Creates a new line item with settings (including targeting) inherited from
+   * the insertion order and an `ENTITY_STATUS_DRAFT` entity_status. Returns the
+   * newly created line item if successful. There are default values based on the
+   * three fields: * The insertion order's insertion_order_type * The insertion
+   * order's automation_type * The given line_item_type
+   * (lineItems.generateDefault)
+   *
+   * @param string $advertiserId Required. The ID of the advertiser this line item
+   * belongs to.
+   * @param GenerateDefaultLineItemRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return LineItem
+   */
+  public function generateDefault($advertiserId, GenerateDefaultLineItemRequest $postBody, $optParams = [])
+  {
+    $params = ['advertiserId' => $advertiserId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('generateDefault', [$params], LineItem::class);
+  }
+  /**
+   * Gets a line item. (lineItems.get)
+   *
+   * @param string $advertiserId Required. The ID of the advertiser this line item
+   * belongs to.
+   * @param string $lineItemId Required. The ID of the line item to fetch.
+   * @param array $optParams Optional parameters.
+   * @return LineItem
+   */
+  public function get($advertiserId, $lineItemId, $optParams = [])
+  {
+    $params = ['advertiserId' => $advertiserId, 'lineItemId' => $lineItemId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], LineItem::class);
+  }
+  /**
+   * Lists line items in an advertiser. The order is defined by the order_by
+   * parameter. If a filter by entity_status is not specified, line items with
+   * `ENTITY_STATUS_ARCHIVED` will not be included in the results.
+   * (lineItems.listAdvertisersLineItems)
+   *
+   * @param string $advertiserId Required. The ID of the advertiser to list line
+   * items for.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Allows filtering by line item properties. Supported
+   * syntax: * Filter expressions are made up of one or more restrictions. *
+   * Restrictions can be combined by `AND` or `OR` logical operators. A sequence
+   * of restrictions implicitly uses `AND`. * A restriction has the form of
+   * `{field} {operator} {value}`. * The operator used on
+   * `flight.dateRange.endDate` must be LESS THAN (<). * The operator used on
+   * `updateTime` must be `GREATER THAN OR EQUAL TO (>=)` or `LESS THAN OR EQUAL
+   * TO (<=)`. * The operator used on `warningMessages` must be `HAS (:)`. * The
+   * operators used on all other fields must be `EQUALS (=)`. * Supported
+   * properties: - `campaignId` - `displayName` - `insertionOrderId` -
+   * `entityStatus` - `lineItemId` - `lineItemType` - `flight.dateRange.endDate`
+   * (input formatted as YYYY-MM-DD) - `warningMessages` - `flight.triggerId` -
+   * `updateTime` (input in ISO 8601 format, or YYYY-MM-DDTHH:MM:SSZ) -
+   * `targetedChannelId` - `targetedNegativeKeywordListId` Examples: * All line
+   * items under an insertion order: `insertionOrderId="1234"` * All
+   * `ENTITY_STATUS_ACTIVE` or `ENTITY_STATUS_PAUSED` and
+   * `LINE_ITEM_TYPE_DISPLAY_DEFAULT` line items under an advertiser:
+   * `(entityStatus="ENTITY_STATUS_ACTIVE" OR entityStatus="ENTITY_STATUS_PAUSED")
+   * AND lineItemType="LINE_ITEM_TYPE_DISPLAY_DEFAULT"` * All line items whose
+   * flight dates end before March 28, 2019:
+   * `flight.dateRange.endDate<"2019-03-28"` * All line items that have
+   * `NO_VALID_CREATIVE` in `warningMessages`:
+   * `warningMessages:"NO_VALID_CREATIVE"` * All line items with an update time
+   * less than or equal to `2020-11-04T18:54:47Z (format of ISO 8601)`:
+   * `updateTime<="2020-11-04T18:54:47Z"` * All line items with an update time
+   * greater than or equal to `2020-11-04T18:54:47Z (format of ISO 8601)`:
+   * `updateTime>="2020-11-04T18:54:47Z"` * All line items that are using both the
+   * specified channel and specified negative keyword list in their targeting:
+   * `targetedNegativeKeywordListId=789 AND targetedChannelId=12345` The length of
+   * this field should be no more than 500 characters.
+   * @opt_param string orderBy Field by which to sort the list. Acceptable values
+   * are: * "displayName" (default) * "entityStatus" * “flight.dateRange.endDate”
+   * * "updateTime" The default sorting order is ascending. To specify descending
+   * order for a field, a suffix "desc" should be added to the field name.
+   * Example: `displayName desc`.
+   * @opt_param int pageSize Requested page size. Must be between `1` and `100`.
+   * If unspecified will default to `100`. Returns error code `INVALID_ARGUMENT`
+   * if an invalid value is specified.
+   * @opt_param string pageToken A token identifying a page of results the server
+   * should return. Typically, this is the value of next_page_token returned from
+   * the previous call to `ListLineItems` method. If not specified, the first page
+   * of results will be returned.
+   * @return ListLineItemsResponse
+   */
+  public function listAdvertisersLineItems($advertiserId, $optParams = [])
+  {
+    $params = ['advertiserId' => $advertiserId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListLineItemsResponse::class);
+  }
+  /**
+   * Updates an existing line item. Returns the updated line item if successful.
+   * (lineItems.patch)
+   *
+   * @param string $advertiserId Output only. The unique ID of the advertiser the
+   * line item belongs to.
+   * @param string $lineItemId Output only. The unique ID of the line item.
+   * Assigned by the system.
+   * @param LineItem $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. The mask to control which fields to
+   * update.
+   * @return LineItem
+   */
+  public function patch($advertiserId, $lineItemId, LineItem $postBody, $optParams = [])
+  {
+    $params = ['advertiserId' => $advertiserId, 'lineItemId' => $lineItemId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], LineItem::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AdvertisersLineItems::class, 'Google_Service_DisplayVideo_Resource_AdvertisersLineItems');

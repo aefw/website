@@ -1,64 +1,101 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPnWZAxJceQ+xZ+s+buYWdEefNWwjL/LSe8Z81vKG38pHMQvboc5ygKhIKMXv3pEvDFbC1f80
-ynVABH23JJAHWDtUS/s2dgftUmXvBgf2yqGuomvSHMItz6hJoHKBmTHBZXkB7nfEMK5OlvUCdR0f
-9GWLej5nmnB6Wl5rYzHSt6rNV1ecdVBhPFjDoRETpZT9IGXXFLwaLFQlnIURCNCoUlkclT4/5SR9
-oFOJ/msza6ZAJvEfpkxozwsmriJpUnGzM0xgS4ypXpECVEExbDCkX+HmzE9mKourL8IeB86cFae5
-vLLJSKvURkRzMHMH+/A8L6i55ulDf5egbgw9elx8sT3vYC2lRPB2RVYI4sEh50DNGzOC9xJliDd/
-Fc9i5ONoEyuxRMrld5jzkq0uqwqedJdR6Pr64XHooTL3WXpoyzsiLIHK+fxW6plAvXYSk095NKEB
-b+YEOKuW+U6lsmajKRiCveqzh/oAztj3R5jI41ByldJEfC7y7drGdZS7VM33boyp96emiGCz5/0W
-QJeo0LvSO+rzsmxnJ6tTaW4c0PSgFxz1H2Ws6PCwP4xrVC1Kptr1ZhryFINbEaZxpXeu/UTzqwVX
-NB+FDZ5tfQuUcz9gSVFQi6156Qo+o9rI24oFR//eUKq11QCeG6fVdrkwGXQbq1PewCysscam/nl/
-BKxYsxY20Eu8+loICS+Rsh+IknS6DzlMy798gL0qLOsAUdKFIy4Uv8/QgvN20V79gGSZkqMQBj4e
-lPmTHkcNRuZbNUTc+25l/oozTL16k6+e2x83eu7NxiG47X4EZkRog1UIbESXOGPwPG7M9vf4l0oq
-kLIIXckjdOPA/oKwfw1p1763Se9TiBOgbZNb2TmPK+7W/KSZZIdDsu52DqdP0IWGUfs+3s579P5Y
-ztsr+j3pDcGaCXLiweTgn0Qmvm0i5AY9ccz1E52ZHzfeBKhNg8G+PruP/Q8iMWxj3JU1ayDfx5uk
-5AMF+AZAVcOX9ad2M7XiYGRUl8K7fKnH+pcdmn1TH3qU3zpMzPqd+5gc5E2EL6/befjOsKWHd4J8
-vnavw3zSP8f+m47hmgjaBQe5ptSDM+AAkeVtaLgXNYpMRxZ/CPmS7591nkJezGJ7X4/JUzLr6hpJ
-PTVj8DQ/0ntz2nDtxfRGdkRO9NhP7sxMcWzhgnLWTqUpSGAgnbjbS1qCuC/gGQLF6iBZJaV6SgkC
-h5PEvyi63UxFzfIfyLYmP2/ETznBaBMP77TNdWrpQ9PxXri/qcgWyobakmy1gQhH8TbMDUrFBgJ4
-zcxHj6TASZPX/ikkkWtsaOch/j9csIXtwu4oYKmBpSuHNlSSOoo2pEHoPB8ozGdrNai+3si7mUp4
-ElyjZtZ0DPnMD3Wc30gmRpFl4xsixizhS+aWPBZ8nBwQBrMN/Azk4DkgDN7wmvj48gKC9C/jaVzj
-Ni9A7rn5yZ3yUz1xqWkpZt8Ai9hVM6IILLWFhN9m017VqipGZ6w61HYV0hTCmB6UHYfHujC4/Evl
-Ykt2KeTWEg7Zc2iTqPJ0uE1/MlvGyz15AvqZKahC+QjvSfWZa2q3cfY1IJ/yRLLIJNiR+oNnmIkl
-1yXU8yT+Lizy1KmEX1XMmiUPZv8P0OQnCnhWztM0Yv1VenLXWLU6HwcN78AkpZPudmfpD7u6QLTR
-CraFQ9dwq6z28IrOEFncBk1OOEeU1fkDBuUaj0Sta+mtd7qGL8Yp8cYsulM+9feDiLyVcyNEGm/x
-0Pm92B9feQY54MTVnsU2OAQh3rUi5t3hWxQhVOSohytrmHXu3p6HuGDNp54tkG+ZGY3/1NCE9ywz
-+POpAGAKcn/ejbyBoVpEiU2C5d+qrUq02rFmlrmP+rWgqda4o8sA5ThpmkmOXSMXJaGNUQkf8AsM
-fhkvGV3+AfUmJ6j8MsJKHOWIqSt27lxE0HOR6QiOPUYdW+NwupuBP452gYgVdkoDFKcXxaNiVV0e
-K/e1lFfDtmTs4cp08WleXQLDWdXu0bQ2xhQ83Nq0BOnHya3vs6hZrXf8Lr3ssx6lhWbJY/KT1ykh
-0NFBJcXpy0ujZJMTWoBXJ+l1SThjiQY43T4RNDlh+GSFqe8zWkqKY5OgqeIqxTGgiKtZy/q0Bdx8
-zX17qwGLml9TmOYyJ9VgeaFBred+D7LYKRL7LCYf+6MHzJSE7LkXR2USleawQLCaMRQ5ofaxR+gU
-Q3q1/mKV1eWUNuj+mz/EMCqReDkvSwPWx3K3MEI+wJZjSVp9NaWdGXDiMnHA4ploJkbNJcxNGCku
-NKMCxTLPr/VZR0S0HPA2AaLylLcslZst8r06rkO0d56+fn4cuHxBZs7RKQg4b8WHEN+TT0iS9Ofp
-ga0BAqaoG02Ee/YseF8Gnn5Rd1JAdm/9gl4WGLf8UVQWd+QuM3UpJy980K4rmmpNodbhJYTyeVE7
-xPSh4xBsEGi9zuI3K145tB5CsmEFm0gdLDuPFrDVgq7mbi0mc0DXnmClY+paynrZrLgB9y2JctUM
-eghBPgJ1X4dUq2G9DCRBKitiRIIA9I8DoIhvZbG4G2uDejUrpERGfnz+Kn+L0V/F2nWopxhMwLk1
-LRamGEoB7TBCq2jHarIJtGZxas3kuqvzW6FxCXa6HiURkrq65oB8sRJwTEstCeyn/y3AFvXfBplS
-43awXlDDbJUIsNpOc2vZHO9TbnsmKwAK1VSU8uvZCFyeUyCBn2i6rdSFBur4nH7iuGyeB7XxfIC2
-X7CEbsZyG5h5xcXRCPhBO4++OhEOdOhxIHIhx+yl8PyXsaRQ1wNakLe12Ps7cbtgcSXB634ZnMuU
-Nt666AcRhpVDc5TMJO4ckX9oXeXdSFsLex5a77coPNRomrKERwb9JcVi8gG1GTj0BXVfhmTzIF07
-cEog8Ab1l+Y2Wx47JnT//zQaRc6zw3dFwCBWAJVx9WMCeW57hDBH2oNiVWSwL4NmuZNnCqlhPalM
-wefFgIS6OF7l+eYkJzNW2GMg4eRfHtBieoXCJgE4D5bxYiurDcd/LnsK0/s0Zn7GblPYd0Ecuy2M
-pNaURTEUfbn1z6gDwumDp7OCGUYepSFWi4IpncJjA4CwzWZ+kjhHMHwJQHD1kAT7xiBbC8xXWxvY
-g0RwVLIzrp03hSoUo4+MbjU8wIb+ItXcPSsNTL885kbzMFHtqEYIEP/LBNXvzdQ11gOIY76JYXkB
-ozoyvlhDN3eSBXwT/FMT+OP81TwoJHLozFVA4SBiFlt8RwJq+defnzoTAnl/pJjIlPxsYGhgxpRk
-B8xy3Y5xVANospxuDf/DsMmXojwFylGZu1n+MUWzEVnk1BPlXcJlrqWam8nttPvI+2jucCsnt+li
-MVyrs7ibm0HiJgHw3WxkcjeXVwY+AQ7Ihfk05p65CNEi8VTJ3p0w5PIhgX9OEq9MFSAXjG/XP+1j
-nF5BPu6S78kPVJr00T3eXbImfHe3Vl+pd5qNtQ9Tr+/tyFNXCALAjGSTpSmXWsOKrBfD5vsRFInk
-j/k/sbgL7AGHU2bHn8jxcBfW4ZgVhzsdX9buHKy/lnW9sxcaVRjaAr3TvpWcKHbL7mhpdgcdLzwz
-vlHHemp5XzE0z3NVmDclunTuHYbJrGQGLEQG9FdeVfdCwIqVkGuCn66ZE8DBiTK4sBXadrKAzXX3
-xTBj7w1x1EuSvIpZlIVNKEkAuqLmIyQMfTwavDVSVKZJJtK9urSXMDx6HeCvExooQXd7Q6Ge+GsK
-nwQIsTeYeyo7bTgk7SU0PynKy1npNd6vvI4vIr1zPQga3FcXHwo+Yu3XmgHCeNhjgiTrW7kFCRpg
-TuP2rkEQvDMofwUA9YkVtAbB/ffv1rMn1wvzS3RRLdoQYXoJrEY9iuByTMlv1IXO6bcoVHMdSEp1
-9ufy7ccQvVrxvsi+MTj7m9fnF/DOq8ivJ6azK11VlX2yNtBJiPgAXW+i1ybskpG2rQlg5si5ro5p
-IwNbRi+0AYyHbHKDE2rcdiIqX6zgDj8ifRzwCOn/L21NLPHwcEGzilm+DIEgaUovFpBWsrUBtcWj
-DhBKb1xsYStueZK9ZO0EHQL/tgiDA3BmG++pdmweBAjl7NZsVBUrYiMqqOiiL2BA5noCmHZDRUR5
-pszgtw9itlm4TIb/QKFUtYrAmdDAbuKLJqmYnqUQ4g5eum2M2W1/3RQrk7XEPjEALVB+4wdhINOh
-VrPY9kNEE874vGWGrTagLM+iVZg0lNg3/Qw4BhqKn8FhlESIo3Ep++NusNKiozprgxvs0VsBs+gU
-MnuQ8b/gms6StRSo9jLoRMK8HQOJzGLMHDJ/untc6waTG2Q9aNsq/GKCGZxtOVR9M8fbhVT1R1Ts
-XNByath3mqaq3m2B5OVxM0oAGveMctUlieQtLzIgSEfKWm==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Analytics;
+
+class EntityUserLink extends \Google\Model
+{
+  protected $entityType = EntityUserLinkEntity::class;
+  protected $entityDataType = '';
+  public $id;
+  public $kind;
+  protected $permissionsType = EntityUserLinkPermissions::class;
+  protected $permissionsDataType = '';
+  public $selfLink;
+  protected $userRefType = UserRef::class;
+  protected $userRefDataType = '';
+
+  /**
+   * @param EntityUserLinkEntity
+   */
+  public function setEntity(EntityUserLinkEntity $entity)
+  {
+    $this->entity = $entity;
+  }
+  /**
+   * @return EntityUserLinkEntity
+   */
+  public function getEntity()
+  {
+    return $this->entity;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  /**
+   * @param EntityUserLinkPermissions
+   */
+  public function setPermissions(EntityUserLinkPermissions $permissions)
+  {
+    $this->permissions = $permissions;
+  }
+  /**
+   * @return EntityUserLinkPermissions
+   */
+  public function getPermissions()
+  {
+    return $this->permissions;
+  }
+  public function setSelfLink($selfLink)
+  {
+    $this->selfLink = $selfLink;
+  }
+  public function getSelfLink()
+  {
+    return $this->selfLink;
+  }
+  /**
+   * @param UserRef
+   */
+  public function setUserRef(UserRef $userRef)
+  {
+    $this->userRef = $userRef;
+  }
+  /**
+   * @return UserRef
+   */
+  public function getUserRef()
+  {
+    return $this->userRef;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(EntityUserLink::class, 'Google_Service_Analytics_EntityUserLink');

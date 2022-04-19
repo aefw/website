@@ -1,122 +1,1314 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cP+eoH0v+hRmXT/7HBTjki4yNt7H1H9xNbziZVfdkNtY6OGTIcxqewP7WvHIaq4IS2kSPSqVI
-EashN1A4Suh4ZFVxf95dPXFVN2lXV+8kMPEKeQGX7ymD7WvMyi1+D8JrTJFbKjPf9s8lqFBzdTZ+
-EIi9DmTsOTmkHrgM4h0YqS3K/SPdxQyhP6Gcxok2rSbDodFP4C8sx5qLCK4PZn53dJvqZQZJlPji
-ZDVa/qINw4/bKgx51dEWLB4A8lgGi4e78ViGS7C8zPlx+ueekXSc6UtPOtHnud1JBZLKXAWiWQO+
-IWNbLVHmoI/omo0ai+lgpeXKgILJemXppDzohnTw67k0DXHjvxYiGK6n0RGJLOm9wH2zFwirMTAg
-MiDLYSm0GtPHSZg8o/f2jx0ZFKTCcB2KeXnHNlbT0JxEs5xRzScY+g1FH3K62xnhdHCnFsTaqYGZ
-9KfYVJRboOtwjdoZoxuv53NG9oMEuqAXx5J1LREGcFWWYYillGU4iE4DwkDUgwEy/yEfJitp/Asf
-W93eqgIOFPFFaXnN2FgJAJP3t7L37WwjpcmtMlQkXzZYm8GHvzYVmz94AnDpqfKE+GVsGh9d6k+e
-DSwy3/pWcSVpRYOqTQYAMlYNSZO9UwFq65/o+fR/THSxpvubY7YxtbCav/IOl6/mAJdjKVIYz5//
-tp0nD0KG8r9+x0lMmPygwBamBA9p9mBMWKEfZf5dzgA2cz3E4I8e2B/n4IrEPVs4vGB3lJaKC+1Z
-PfqKYiEXz2oakmab4JVAb8sm5QLG4eFRV+N6rEt4T9FdAsN0dauDjW2T2wGO1XdCa89SWJ5CUi7m
-BV3hl/RhZ9GgJMYTSPnWB4ZoUhqteM60yYZwSROJpdtz+ghYBgVeYNFMZnJDWkszaP23yvKe4VHq
-q+q+1LJ5vDhxXnkNqf+/gap8DN6yrssbFSBTOnNFNbQczvTxZOcb8f62QwGawGg7tnJgh2E50quo
-c20Qpf6U0QRtgn5zyLeU3mR6ScAGHBerKeS+AxeHBjXJTGXNAUBKTsiO8nLx4HfAYVViimRzFtDR
-pNKZaRfN3R+Km4slfpyCa9LfRBsdYZrMFmJKzP5HW+dgePkS5dXEPN8ctAMKUeFUqUp/dGfNw8vi
-vYLwRG7/miS4gmB1FjwE970RNPEyQ8X1TrdEZYjbV+iskVJGEldh+a2yXZXcZ+nbaSc/Y5/q3uZ7
-IQHlFU7m3w5crKTwbM+vElTAqbW9S7YeYCKlN9wrOSGIvOvxDXcHzmdx5F+BFMn4EK5X0VYmVz5P
-KyMJxKTKs9+O/eQBnLe2z0dh8qiQXEKgom9QwtO3Gvhrizb+CiVUBh7Mh3Is+BH0G6Avg4tCpECe
-qtW7SP1LWt1iXvONay4iSgcapJLjx+tyd8I2pcaza2vKhwpnpNFB0E/7Ipv2XFSXBoqkwOk2VLST
-JYcH7o+YWZvKk1Herx7a60f1iStG7u9GoUokMElSBkcmh9lo/pvp15ZR9LZS/G4QTsUB5jXTyeCF
-RyF8XsSaZOZ0sRYW3nR2Cr20726sW44AYL77+2+98PqVKR05kbNhY/37NBMmg2b9FLHZQgU8tA2Y
-k/hNQ9An3lI5YbYWJ2y+7HN2d6yJPgnt/zRaVu0tpzvxSinAY8g8UoDsLyrBUXZJ0P9w0SX3jJXu
-U8qapTygwlDeh7tG6Yin/ZSPYZCN84GrHWE+QNZKZZwlZKp/F+cy1GyBdpEqV9rCNzTxDDBaapQV
-4NwQsOQwjetTwTVnMpOBiPeoHDQxJeCdV25l1UvOeuKaWxCZ2Dm6ZV14adoSjz87qg7J+xmGys4X
-5bBEBn3iqqi4bALZ5eiZj5Y+nlwSkcz53Zk3CkE+iSnfFndfAN7Ou8qv4hNUecC1wLTskss6A6pE
-J9/kLi9HissSV7ciHIUZ3pM0Iy1pj6L83k1gpvReeFJd0PyXS25eJUBhJbZuImPFg0xpM+HiNAqQ
-2gNt8zPuWAt+Tk+IAjBs1UD8ukANPGzRnJQu3P4D/IOLoUr3s7F0w4kGSsaLpqWHjs6ETvLerrsc
-WgbaISbIUnPGpIaiaGdS6yZVsAt3S+OlAD80X4zlcwHON30waul7a651DhKPP3QmqHIDC5VlvUgb
-4MPW8QA+skAVQ4NhtVWp6tRPw8uDX2cbbbaoV6TZ4uTUFijgvsv5aRa4/J+v2pb3zy9356DzG2qM
-9erlkUii8eIQV+7Vc2HpQzkuFkihB0g2mbsIYDo2qFp1+tQRmvKKy78ZICHQwUIkAoJqtBG40+fc
-Imc1QMVwW5pfXC0wudFsrgx5aFHa+ezuuiturkBh5JPH14rKw4f8Sb3gFpUfByreUoGtwzHHaI+S
-jj14a2LGGi5aatHL7sXlkhw0VBX944T0NYuaf/ZprYBqWmZ24RKEZufB3ZO34EotnTI/9+B6zof8
-mQf7HbU3D7BkeKZMP4I20t5dk7SSTjOJtRBsK1m4BCgbjLEoCVlKL1HGg8GP6M5RK+VpTIqQd7rD
-hNYKbX2XbAYDXNAWGwYqpV5AvgpPLpR1lG3p3urCMG5roif5Y9QmJpxFaBO+IiUIfa3G9uIoU33V
-cVKBnV/1M36eihZUCVc0ug5VODV5CfWcn9sts7aJ3lxS72hR73Ze0/dMu7O78o2gG3XzRL8//SCg
-Q5P1Jj7sTEOhtyFiV8jhhbofoQHFP1CqdoPaGK3UozLdZeC+QuagEETojwyEC61vBLAJVJWWtaon
-sO7WFxorVWGWRG5NAOykwC/FCMZ/QZ+7bhB3TR8Xfo0DhFklrlVyMt27KWhg2O0Mjwu78Ey98dYb
-EfavZSh5biaihwOHvONwMDPDjf8lRut6ZBM+I/VnKXrA6ZEL1WHm9qkA4fLX3vj3Wr59SqysftHf
-h6vAAAz6ZDdIZ8MAWrq/8P/o/i87wl/KkIxybCWrMy1W5JEGUzp/uPi0c0XOUuByle8CbHQW34pc
-40OADeRfOj96HK3n72TGk1OhXrApfNy5i+oCeFfpe26FqDLIn3gdXjjhogBbQJHcs/xpcg4ZmaQQ
-YKkBTBkimk+HB0QErO1AP5FwHEzVdOu4cXNLup8nWALYYvuAdsVU5AeJ3XJDzgIDTkoYjWn7hkPX
-jMJPhTlSVROV5gdc3DEOTqDUmdBxjM6/mPwSsh+fHkheBrBI5QmNxLoW/ZVtuhq/LyxedikHs5fM
-mu08iUS/sR+E75D85BltSOCDIteFD8fk0gYvfqsi8p2sdxt1R98TZuhh5IRFofuMmcslGyDrExq/
-rI2Ged8rbxIWgNweli/cyykqq0kUv7kk0+2U0HrHOVATBdbZhtpThyM1QERecriGPP82EIb3t9N0
-ngHtL8+t/9S3isSwPGIGDpJkpvPRt057BR0OixnBC0j0kTUvRUYo7acf2BjY7cAEukkWsCJJMP+S
-yPR9VX9M3U3Da4NdWTf1wb1Wirq8wFmbpT5gxJ4ETFnQous5p5B0hK8LzCQlc0A0KCqVQuwj69r7
-T8OqEZ4Q0AAhk8MDDJ9+lSjdmlXzVYbuVEfRqDA51bDE4ViYINtZdIZaq+7yVq3ZND+ECl1xa3gI
-tyDx5zUQM/E565s+B7qMzq14rDXZHZqxqjQ4DmZAtJXPZTFOaQvPUSd3t/hHEKqhtkxTPg2P1/Eq
-nxuo20+lcufnNkv0haVn9UjvugDApJPDth09ztMFIS8VMs+G2njuplclPDFQkAy4ndjW35pPTuqc
-37Y5g7WWUZGFdjPdUIv1X1xmhw6R+H6GzSlXt2xcqDkFpXaNf6YOHWeGYKnpWOF8G0XZX8mGwgGc
-V5hINcEJVE8KfigerXbVQBzvH6d0HqiJGfaboPqKle9MUN/5Lgi9u1yvEfg7tbiHS57VyNJCdD+G
-oinws81zvQpNHTY7IJOtxKwoQNQVCd2JmG7a6NWlSzUS3k+kViF/zNzyGuqvqMPUrqVpSgXxA/kr
-NkGPLgjWjFbGyVMLFuE0jbP8JuIVBbcClteUd0HF3TA+Yt9GkvuceFumUvSeKWCwEklwweVaijbV
-6GnKEistlrLeVRsy5qJqb8bg66dRZPDgfJzwsLgoYQ2uhKzdY9g8AAV5chbsB9hV6SvrHoI4nMDE
-NzqAfixrmPEbS8Z99xROqS9EKsrvKB7AQCYOpufoaserTYdk5TecOuXnPq3DjPq+rrza3i2UlXNP
-FdsIRgq+Yx1cWBEnP0+wqdZtpPQrNjN0CR3do8grMsqQCzwfyYkaxtkkHF2Fx6GR8QtFqhg8pAIn
-8emYkiADaaIcF+7q4iZ2V42DaV+tJ28WDkO6N2ORvQcxDf+VIfedSy57Df5b7vdMu1gpLrXYIs17
-mDkB7zWDiN8RlFtuAhdxijMSKhCtl8r8aLx0NdeFqdf++E7wgTy+peMbY6K90D+W3B+Vabvu/FBF
-PcKP704Xf5Zg69EdoebkhdLYnmjK+8NRTkLYLucDpaGQhTEBd5ZoUCgZvcaFSy2vhQVG0GmvfyHm
-3pDWeYUpETn5/wmrGRWCbk5H7YsPiN/rupab18AP9vc4NXuOVvMz37lm/bDSGcrv63LK02PAvQJT
-nBOo+hZYWa4dVxzt9RXw4T5oM/FXXeqddpJX8J0wIjCGX7V3u+WXDKIItyKUP5tNvUmzaTP4ioG+
-oYfr3lFwzRVTWPG21ZX9JORr0Pj+5oMGg4bMhXd/awThd0nO6g5VO7TWYaoJPWnVTCuZC4sqUsSh
-TVGBlqjrM/K+cEkwhxK/bgy7FReHWyt7p4cJVXZ0IF1iIABw1p4L8LypoAKA7OG1YtxBhE8nwoyh
-idxhoKb/6jzVzjKadxSsXLkQSogtuBTxFMQgW/3lg9A7QVlu1qR/E6ndLkvf9lSMXu+8oq5EP3dJ
-pmAg8znWotAPUyEajI/+HpfmY6GZFrIt8IlzXfoQcPj/j69sh5EyyA6upYbVBsdl7IZcqV/2g+Un
-1uN+yBJlWqkhhSNSsPZXY0hIiToKU1psVzhS2NJELMJXM26In7L6UW5b7tPlrRou93Wn+FhAv7Il
-OFiVSkIqlRcGtiJlG7QYNNTGqu5U5x2o8jMzPZdSkUa27eSjQ7kFEjL94SSbig/z90YrSvA4tqbF
-/Jr7vRFxfdIXZ9ebiqN6m2mzDZFz19QQL2ljpUM3zSaRONoxRqhkTU0qTCmQ5xLu1vcMQFnzBb9G
-jtIIy+vo0HLeOmVwUnYpiVigWtmqi5t8axCunDNnkvlWLyuDJ73ZoF3+oE49qhPQffN4I4pOYnS5
-9n7NoQGoA75lSkF56HPYFwwr0Af3jsscO+a34ePl2kyzkSf5f2omnzkL4zBe8CjuAv2NcEnufRRX
-20rZn/hQnnHMzyFH8qYZesazB9z6z0vIm3g+zE8X2Oek5jOdI4GGSUwosLC65sQbYa9KrB++l9tD
-bIoR0PYkxO28pIJovYP1MglwD3YqPSnXZpTpb7rlHgg4TIjRNIa1ivxkxmKeHh4FH4nO31v1Uv0P
-gekFFGxFq+eBzuUMkN+p7YQRDXra/J5ZnTORp4gbTZObWqwz8gAbSQYcfPiDC4ogPEOSGYGI+NA0
-8FwkzmQj6VBqzMUq20uwK4owTwO9McyZSLoHcgh8J0PXN/f5QOqHOyxfC5c/naioBTiSYdTbHN6t
-6xYp8FRCniXxiATDwTB71dCJe67Z8rZNcgQMeh+hKafSqoKffkWs/rnjF+DCplM7nklPjOQowhlv
-aY6RCDtzgwPKoSq+Z5QTdqidl69F40HRWO5LgCq+bissdNNIB8hdYFsmPLa1X/TklGvLXeQ0mGWk
-2eVVhb4mctcxVA43cCgZMljh7qY2x14iANY7wLlDTi/sMQ4/64712Zx/14OTam2ctskFu5fng5/3
-AzmQvg6yLLTNDmvEeDdDWqYgjM3/kiByBb81ttA3q4/XnYw9CuEKE6ZfWR5AHlG2y9pMbsQxZbL0
-oaPxigi7DOwAWjR51St7eFSYBpJlFv9+Oypji7rgA6IozhQ+H8A8eQZRgNpDG2+A/CZbQH5LA5Yw
-qs+m9A7p6QL0GUqFMgWoL8RkBZh5obHqnwdpWFz0cIuNE+k8qd9Vo7NI7Jf9V8WFSW4/Gml6kP5C
-IUMtR3x9vZIWZ1zENbAdUUt3wQmXgiNhHHVEi9JrnGfJuG27p8nPPSG9k6hNP5bsttcjJxiCbtdd
-GVBrTsg8PjB8kEuGq93OD/rFJvU4tUwoXhNyNhgBDaL2x1wC0phYuk69uo6i9axHI4jt+d+LhxoB
-0/xvC4YEeBTRIWcbSbVEktpH3rIcjuhRzDJw5Fign/j/smXSL0EoCrqj3mL+iE3n170DaEN/x/Sb
-XyYmAmWKYFT3MLw8ks6pLaucQqG7VZhxEYrqMiyfcOgCDDb10EmDNkeRZZKKrkqlo9ErdSvCu7QN
-QXfr9x0Dmnl361DtGyMqHrUSH7q7qiGl5hTAn/nf2KYp4D/d166PxVGsetRgu34HZ7wBc8WtCJLM
-tOMLI7xmijGC0+DBxqmrh2+Da8APQoW7yLHBbAG0HbcyM9EiVh4UReJS5UpMiBwOWmCiflNYV7CS
-u7hhCTI7B8QKeGQ8bbq9+4LnmOfjZNn6/mq8APp4c/CSG94tsEI6GC/gcwmk/kdbMaTzx3J8zSRh
-HO43HThLzvgWeTPKZUTZg1KTYc3oTVx/zpudVe/aZ4Fvz744rP4n1lVspNNhHDhdIAEEpbZdz1KW
-1swDtYdXuWI9ahUdMWqEYqfT6IBLSVb7aKttl/pum4kI3tD9JBCVfVxfLz52JdwiOswLxLQpibfI
-HW3Ktg6bhIQoLhZkfEsyhYSqFsmqGNaw6soSCL0KjYo/Aj1uXVWwy1cArQVLbSehcs1RRreQJiLE
-T6LwQQzDK4dBpgQ4isRg/+ssyo8FrRlw6CyUEkiRYh/V5faHLjmqkS+4+bH2Kz0iurrM3NV/s8zE
-d01/DY19UgAY5sfklaFaHXchVnAaTljaPSKI5f/wqex8FwtNcTi+RnFjq12U0xhzkplAgtCLmZ4o
-na88QCX2Li3VwEhJ71RtusAw1gGDdApP5EJyHv/ZMn3h/+Fgx50NdA0UqS587UlOMC09EnBpTtfE
-TPqj8vf1JB172PkoPmzu/2W+iin1yQ2hk2fE/V4SMHwA0hAsGoV9GlTDEaPFZxxjip5OAThNL8/+
-a49NqlWJEn+62FUNJEhnGNO9nMOLpazVkcbQGehbRdAJpcl1w+syDf2G3WaphSy6J5/LDP/sIM1Q
-8gVgHVykAgFVsXVCY0gN+G+tHBI4aW6FDILuc56AAGYlIQq0okGE2FX+QJtsCqw4POw0uUD9MM0E
-Gy2Yk1iwbQKf8caPfl545EmIiDgVwLAkPoFRX4uwW57FbmUQY8dlD5kNCyA9nIkM5EPPhEd//5Al
-ehdsJBKtjPTF/gumCjCaaQBLsVfvbXnuZT1uEUl6/XFNauIcznr9xkS+GvjvnYltRoWnIOSH3aip
-9isbq5aGi1ieZX/upoRmz4G9G04Sjr2Est4Ur2syE7pujaKN2kSQSt9fvx5rXFbjwwaqfwRRX0Fz
-tqe3t4yEbptpRpaNARytWwEanbFFDhK75K1NY+rT7/6QzdoCZAOmQ8Dp99yq6bKjHMS1wUV5xBNC
-Rq0nVBaN/npStbNrxVNeDdNXnpa+4HEEp8BKBoeohP4ntsOAxtfzJCs6WxmMXVf3dgQtHnLLZgkU
-3+wUoJHYR968pSJ+VWj5cMvIf9WYDLLVG0LivHag985c6SNHnUY/ltsDzgl90/hi4PV2fdzX4ifm
-xzT82k6yCiHNriD56jbpe/14daH2AsBWxyCWayezBCUQw7nl2BmMfKdRi3hbAs5cePWBBBzyhHa/
-NYnr318Hs75W5j7OLeE3qS4VvBSMeiYJA8YA/9CWddF+8acCy5YOSJD95Ng0bpSXNSAzDIqU6rD/
-M7JcwIiRPcdy9xKTYHjev6UINosRrd3MwjMKZx6slv/AUbrsu6f2HlVVUnGcxynCDszHIVIN6akJ
-R2bqvU/Jak2d8baP9uSkx3kx1/i3X40AKooNlvjcpj4mNtrV6UfZOLvciUZjJj7Y/idwn3qdLIhc
-7h73ZqNje83CKKNXLGXVlNXBCRIG3HiQ5wIwLNwZVR+AMm47MSxh5vt5dyKwX//Owmlnp27tBaca
-5eEuHaZRs0i/9zicVlmXVK7th6NrMbjY8D6WqBTKSEKpQkrkTy9WsUFLIEj1BLRhjT1B1cMyCfVP
-QQnIfvihxMwIyARA0KSCT4PvY2cgpaeORKLLBDsd5cVaMN2Y+WT95RxTscoahY4F/AZ3tLHFKQKL
-5OrTfTTOUer4Bs3/tweSAciQV44nO39vRmMRGDZttgCDyQqvvoFi5tkUMiU8Vi9QppDlCLFzEBfE
-C1NcmbzYJwW8i+zbByuXZErom4jk4ZdXCsvlSz2ahF3yc/EG8wh/EeC3ernWUjPHQILGImAJlldd
-8UCsInRz3arRl9PsysKWMiRPR1WzRi3FL/irZvrffLv2RDpr2BbLcLQi5E3y3wNEdHFj/FYNRUz9
-3xLhhg/ZX/QuKB/WvUZ8RZj/Gu8Be1LqPWj27PQrQPDY/tZ3kCJYXNDDqu9r7Ioc6kAtwAEqxMqX
-ll7PuOWSbyclwBI+VLjc20hJx19Be8r579Yparo0FZjA82TE33j+XgfUT2gYyinFDax/Wgz/Dw42
-2S0NtcE77lMGinmQM3RNoi2mrzjO64+s4rxBpxXNQZi2PXYpvu3wh6NxOeL/tY0HjGF6+yzBd/YW
-/NyYaYENmSggPVbUi4d6GTDakYv2zHpJZIw+EMq8DtiNXEodXu0xH/haA9oyfngJKHy=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for GoogleAnalyticsAdmin (v1alpha).
+ *
+ * <p>
+</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="http://code.google.com/apis/analytics/docs/mgmt/home.html" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class GoogleAnalyticsAdmin extends \Google\Service
+{
+  /** Edit Google Analytics management entities. */
+  const ANALYTICS_EDIT =
+      "https://www.googleapis.com/auth/analytics.edit";
+  /** Manage Google Analytics Account users by email address. */
+  const ANALYTICS_MANAGE_USERS =
+      "https://www.googleapis.com/auth/analytics.manage.users";
+  /** View Google Analytics user permissions. */
+  const ANALYTICS_MANAGE_USERS_READONLY =
+      "https://www.googleapis.com/auth/analytics.manage.users.readonly";
+  /** See and download your Google Analytics data. */
+  const ANALYTICS_READONLY =
+      "https://www.googleapis.com/auth/analytics.readonly";
+
+  public $accountSummaries;
+  public $accounts;
+  public $accounts_userLinks;
+  public $properties;
+  public $properties_androidAppDataStreams;
+  public $properties_androidAppDataStreams_measurementProtocolSecrets;
+  public $properties_conversionEvents;
+  public $properties_customDimensions;
+  public $properties_customMetrics;
+  public $properties_firebaseLinks;
+  public $properties_googleAdsLinks;
+  public $properties_iosAppDataStreams;
+  public $properties_iosAppDataStreams_measurementProtocolSecrets;
+  public $properties_userLinks;
+  public $properties_webDataStreams;
+  public $properties_webDataStreams_measurementProtocolSecrets;
+
+  /**
+   * Constructs the internal representation of the GoogleAnalyticsAdmin service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://analyticsadmin.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1alpha';
+    $this->serviceName = 'analyticsadmin';
+
+    $this->accountSummaries = new GoogleAnalyticsAdmin\Resource\AccountSummaries(
+        $this,
+        $this->serviceName,
+        'accountSummaries',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1alpha/accountSummaries',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->accounts = new GoogleAnalyticsAdmin\Resource\Accounts(
+        $this,
+        $this->serviceName,
+        'accounts',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'v1alpha/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1alpha/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getDataSharingSettings' => [
+              'path' => 'v1alpha/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha/accounts',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'showDeleted' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1alpha/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'provisionAccountTicket' => [
+              'path' => 'v1alpha/accounts:provisionAccountTicket',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'searchChangeHistoryEvents' => [
+              'path' => 'v1alpha/{+account}:searchChangeHistoryEvents',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'account' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->accounts_userLinks = new GoogleAnalyticsAdmin\Resource\AccountsUserLinks(
+        $this,
+        $this->serviceName,
+        'userLinks',
+        [
+          'methods' => [
+            'audit' => [
+              'path' => 'v1alpha/{+parent}/userLinks:audit',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'batchCreate' => [
+              'path' => 'v1alpha/{+parent}/userLinks:batchCreate',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'batchDelete' => [
+              'path' => 'v1alpha/{+parent}/userLinks:batchDelete',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'batchGet' => [
+              'path' => 'v1alpha/{+parent}/userLinks:batchGet',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'names' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],'batchUpdate' => [
+              'path' => 'v1alpha/{+parent}/userLinks:batchUpdate',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1alpha/{+parent}/userLinks',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'notifyNewUser' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1alpha/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1alpha/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha/{+parent}/userLinks',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1alpha/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->properties = new GoogleAnalyticsAdmin\Resource\Properties(
+        $this,
+        $this->serviceName,
+        'properties',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1alpha/properties',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'delete' => [
+              'path' => 'v1alpha/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1alpha/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getGoogleSignalsSettings' => [
+              'path' => 'v1alpha/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha/properties',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'showDeleted' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1alpha/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'updateGoogleSignalsSettings' => [
+              'path' => 'v1alpha/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->properties_androidAppDataStreams = new GoogleAnalyticsAdmin\Resource\PropertiesAndroidAppDataStreams(
+        $this,
+        $this->serviceName,
+        'androidAppDataStreams',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'v1alpha/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1alpha/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha/{+parent}/androidAppDataStreams',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1alpha/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->properties_androidAppDataStreams_measurementProtocolSecrets = new GoogleAnalyticsAdmin\Resource\PropertiesAndroidAppDataStreamsMeasurementProtocolSecrets(
+        $this,
+        $this->serviceName,
+        'measurementProtocolSecrets',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1alpha/{+parent}/measurementProtocolSecrets',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1alpha/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1alpha/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha/{+parent}/measurementProtocolSecrets',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1alpha/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->properties_conversionEvents = new GoogleAnalyticsAdmin\Resource\PropertiesConversionEvents(
+        $this,
+        $this->serviceName,
+        'conversionEvents',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1alpha/{+parent}/conversionEvents',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1alpha/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1alpha/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha/{+parent}/conversionEvents',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->properties_customDimensions = new GoogleAnalyticsAdmin\Resource\PropertiesCustomDimensions(
+        $this,
+        $this->serviceName,
+        'customDimensions',
+        [
+          'methods' => [
+            'archive' => [
+              'path' => 'v1alpha/{+name}:archive',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1alpha/{+parent}/customDimensions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1alpha/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha/{+parent}/customDimensions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1alpha/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->properties_customMetrics = new GoogleAnalyticsAdmin\Resource\PropertiesCustomMetrics(
+        $this,
+        $this->serviceName,
+        'customMetrics',
+        [
+          'methods' => [
+            'archive' => [
+              'path' => 'v1alpha/{+name}:archive',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1alpha/{+parent}/customMetrics',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1alpha/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha/{+parent}/customMetrics',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1alpha/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->properties_firebaseLinks = new GoogleAnalyticsAdmin\Resource\PropertiesFirebaseLinks(
+        $this,
+        $this->serviceName,
+        'firebaseLinks',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1alpha/{+parent}/firebaseLinks',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1alpha/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha/{+parent}/firebaseLinks',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1alpha/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->properties_googleAdsLinks = new GoogleAnalyticsAdmin\Resource\PropertiesGoogleAdsLinks(
+        $this,
+        $this->serviceName,
+        'googleAdsLinks',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1alpha/{+parent}/googleAdsLinks',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1alpha/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha/{+parent}/googleAdsLinks',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1alpha/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->properties_iosAppDataStreams = new GoogleAnalyticsAdmin\Resource\PropertiesIosAppDataStreams(
+        $this,
+        $this->serviceName,
+        'iosAppDataStreams',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'v1alpha/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1alpha/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha/{+parent}/iosAppDataStreams',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1alpha/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->properties_iosAppDataStreams_measurementProtocolSecrets = new GoogleAnalyticsAdmin\Resource\PropertiesIosAppDataStreamsMeasurementProtocolSecrets(
+        $this,
+        $this->serviceName,
+        'measurementProtocolSecrets',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1alpha/{+parent}/measurementProtocolSecrets',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1alpha/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1alpha/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha/{+parent}/measurementProtocolSecrets',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1alpha/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->properties_userLinks = new GoogleAnalyticsAdmin\Resource\PropertiesUserLinks(
+        $this,
+        $this->serviceName,
+        'userLinks',
+        [
+          'methods' => [
+            'audit' => [
+              'path' => 'v1alpha/{+parent}/userLinks:audit',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'batchCreate' => [
+              'path' => 'v1alpha/{+parent}/userLinks:batchCreate',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'batchDelete' => [
+              'path' => 'v1alpha/{+parent}/userLinks:batchDelete',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'batchGet' => [
+              'path' => 'v1alpha/{+parent}/userLinks:batchGet',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'names' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],'batchUpdate' => [
+              'path' => 'v1alpha/{+parent}/userLinks:batchUpdate',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1alpha/{+parent}/userLinks',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'notifyNewUser' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1alpha/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1alpha/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha/{+parent}/userLinks',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1alpha/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->properties_webDataStreams = new GoogleAnalyticsAdmin\Resource\PropertiesWebDataStreams(
+        $this,
+        $this->serviceName,
+        'webDataStreams',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1alpha/{+parent}/webDataStreams',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1alpha/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1alpha/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getEnhancedMeasurementSettings' => [
+              'path' => 'v1alpha/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getGlobalSiteTag' => [
+              'path' => 'v1alpha/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha/{+parent}/webDataStreams',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1alpha/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'updateEnhancedMeasurementSettings' => [
+              'path' => 'v1alpha/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->properties_webDataStreams_measurementProtocolSecrets = new GoogleAnalyticsAdmin\Resource\PropertiesWebDataStreamsMeasurementProtocolSecrets(
+        $this,
+        $this->serviceName,
+        'measurementProtocolSecrets',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1alpha/{+parent}/measurementProtocolSecrets',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1alpha/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1alpha/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha/{+parent}/measurementProtocolSecrets',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1alpha/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleAnalyticsAdmin::class, 'Google_Service_GoogleAnalyticsAdmin');

@@ -1,79 +1,136 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Clouderrorreporting;
+
+class ErrorGroupStats extends \Google\Collection
+{
+  protected $collection_key = 'timedCounts';
+  protected $affectedServicesType = ServiceContext::class;
+  protected $affectedServicesDataType = 'array';
+  public $affectedUsersCount;
+  public $count;
+  public $firstSeenTime;
+  protected $groupType = ErrorGroup::class;
+  protected $groupDataType = '';
+  public $lastSeenTime;
+  public $numAffectedServices;
+  protected $representativeType = ErrorEvent::class;
+  protected $representativeDataType = '';
+  protected $timedCountsType = TimedCount::class;
+  protected $timedCountsDataType = 'array';
+
+  /**
+   * @param ServiceContext[]
+   */
+  public function setAffectedServices($affectedServices)
+  {
+    $this->affectedServices = $affectedServices;
+  }
+  /**
+   * @return ServiceContext[]
+   */
+  public function getAffectedServices()
+  {
+    return $this->affectedServices;
+  }
+  public function setAffectedUsersCount($affectedUsersCount)
+  {
+    $this->affectedUsersCount = $affectedUsersCount;
+  }
+  public function getAffectedUsersCount()
+  {
+    return $this->affectedUsersCount;
+  }
+  public function setCount($count)
+  {
+    $this->count = $count;
+  }
+  public function getCount()
+  {
+    return $this->count;
+  }
+  public function setFirstSeenTime($firstSeenTime)
+  {
+    $this->firstSeenTime = $firstSeenTime;
+  }
+  public function getFirstSeenTime()
+  {
+    return $this->firstSeenTime;
+  }
+  /**
+   * @param ErrorGroup
+   */
+  public function setGroup(ErrorGroup $group)
+  {
+    $this->group = $group;
+  }
+  /**
+   * @return ErrorGroup
+   */
+  public function getGroup()
+  {
+    return $this->group;
+  }
+  public function setLastSeenTime($lastSeenTime)
+  {
+    $this->lastSeenTime = $lastSeenTime;
+  }
+  public function getLastSeenTime()
+  {
+    return $this->lastSeenTime;
+  }
+  public function setNumAffectedServices($numAffectedServices)
+  {
+    $this->numAffectedServices = $numAffectedServices;
+  }
+  public function getNumAffectedServices()
+  {
+    return $this->numAffectedServices;
+  }
+  /**
+   * @param ErrorEvent
+   */
+  public function setRepresentative(ErrorEvent $representative)
+  {
+    $this->representative = $representative;
+  }
+  /**
+   * @return ErrorEvent
+   */
+  public function getRepresentative()
+  {
+    return $this->representative;
+  }
+  /**
+   * @param TimedCount[]
+   */
+  public function setTimedCounts($timedCounts)
+  {
+    $this->timedCounts = $timedCounts;
+  }
+  /**
+   * @return TimedCount[]
+   */
+  public function getTimedCounts()
+  {
+    return $this->timedCounts;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ErrorGroupStats::class, 'Google_Service_Clouderrorreporting_ErrorGroupStats');

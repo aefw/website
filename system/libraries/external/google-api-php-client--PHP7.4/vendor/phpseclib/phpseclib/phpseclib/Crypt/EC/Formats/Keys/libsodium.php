@@ -1,77 +1,122 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-kiogfKGt7Ea=
+<?php
+
+/**
+ * libsodium Key Handler
+ *
+ * Different NaCl implementations store the key differently.
+ * https://blog.mozilla.org/warner/2011/11/29/ed25519-keys/ elaborates.
+ * libsodium appears to use the same format as SUPERCOP.
+ *
+ * PHP version 5
+ *
+ * @category  Crypt
+ * @package   EC
+ * @author    Jim Wigginton <terrafrost@php.net>
+ * @copyright 2015 Jim Wigginton
+ * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      http://phpseclib.sourceforge.net
+ */
+
+namespace phpseclib3\Crypt\EC\Formats\Keys;
+
+use phpseclib3\Crypt\EC\Curves\Ed25519;
+use phpseclib3\Math\Common\FiniteField\Integer;
+use phpseclib3\Exception\UnsupportedFormatException;
+
+/**
+ * libsodium Key Handler
+ *
+ * @package EC
+ * @author  Jim Wigginton <terrafrost@php.net>
+ * @access  public
+ */
+abstract class libsodium
+{
+    use Common;
+
+    /**
+     * Is invisible flag
+     *
+     * @access private
+     */
+    const IS_INVISIBLE = true;
+
+    /**
+     * Break a public or private key down into its constituent components
+     *
+     * @access public
+     * @param string $key
+     * @param string $password optional
+     * @return array
+     */
+    public static function load($key, $password = '')
+    {
+        switch (strlen($key)) {
+            case 32:
+                $public = $key;
+                break;
+            case 64:
+                $private = substr($key, 0, 32);
+                $public = substr($key, -32);
+                break;
+            case 96:
+                $public = substr($key, -32);
+                if (substr($key, 32, 32) != $public) {
+                    throw new \RuntimeException('Keys with 96 bytes should have the 2nd and 3rd set of 32 bytes match');
+                }
+                $private = substr($key, 0, 32);
+                break;
+            default:
+                throw new \RuntimeException('libsodium keys need to either be 32 bytes long, 64 bytes long or 96 bytes long');
+        }
+
+        $curve = new Ed25519();
+        $components = ['curve' => $curve];
+        if (isset($private)) {
+            $components['dA'] = $curve->extractSecret($private);
+        }
+        $components['QA'] = isset($public) ?
+            self::extractPoint($public, $curve) :
+            $curve->multiplyPoint($curve->getBasePoint(), $components['dA']);
+        
+
+        return $components;
+    }
+
+    /**
+     * Convert an EC public key to the appropriate format
+     *
+     * @access public
+     * @param \phpseclib3\Crypt\EC\Curves\Ed25519 $curve
+     * @param \phpseclib3\Math\Common\FiniteField\Integer[] $publicKey
+     * @return string
+     */
+    public static function savePublicKey(Ed25519 $curve, array $publicKey)
+    {
+        return $curve->encodePoint($publicKey);
+    }
+
+    /**
+     * Convert a private key to the appropriate format.
+     *
+     * @access public
+     * @param \phpseclib3\Math\Common\FiniteField\Integer $privateKey
+     * @param \phpseclib3\Crypt\EC\Curves\Ed25519 $curve
+     * @param \phpseclib3\Math\Common\FiniteField\Integer[] $publicKey
+     * @param string $password optional
+     * @return string
+     */
+    public static function savePrivateKey(Integer $privateKey, Ed25519 $curve, array $publicKey, $password = '')
+    {
+        if (!isset($privateKey->secret)) {
+            throw new \RuntimeException('Private Key does not have a secret set');
+        }
+        if (strlen($privateKey->secret) != 32) {
+            throw new \RuntimeException('Private Key secret is not of the correct length');
+        }
+        if (!empty($password) && is_string($password)) {
+            throw new UnsupportedFormatException('libsodium private keys do not support encryption');
+        }
+        return $privateKey->secret . $curve->encodePoint($publicKey);
+    }
+}

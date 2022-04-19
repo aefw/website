@@ -1,72 +1,97 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Pd+vk2z1jB/GBBy=
+<?php
+/**
+ * Copyright 2017 Facebook, Inc.
+ *
+ * You are hereby granted a non-exclusive, worldwide, royalty-free license to
+ * use, copy, modify, and distribute this software in source code or binary
+ * form for use in connection with the web services and APIs provided by
+ * Facebook.
+ *
+ * As with any software that integrates with the Facebook platform, your use
+ * of this software is subject to the Facebook Developer Principles and
+ * Policies [http://developers.facebook.com/policy/]. This copyright notice
+ * shall be included in all copies or substantial portions of the software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+ * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+ *
+ */
+namespace Facebook\HttpClients;
+
+use Facebook\Http\GraphRawResponse;
+use Facebook\Exceptions\FacebookSDKException;
+
+use GuzzleHttp\Client;
+use GuzzleHttp\Message\ResponseInterface;
+use GuzzleHttp\Ring\Exception\RingException;
+use GuzzleHttp\Exception\RequestException;
+
+class FacebookGuzzleHttpClient implements FacebookHttpClientInterface
+{
+    /**
+     * @var \GuzzleHttp\Client The Guzzle client.
+     */
+    protected $guzzleClient;
+
+    /**
+     * @param \GuzzleHttp\Client|null The Guzzle client.
+     */
+    public function __construct(Client $guzzleClient = null)
+    {
+        $this->guzzleClient = $guzzleClient ?: new Client();
+    }
+
+    /**
+     * @inheritdoc
+     */
+    public function send($url, $method, $body, array $headers, $timeOut)
+    {
+        $options = [
+            'headers' => $headers,
+            'body' => $body,
+            'timeout' => $timeOut,
+            'connect_timeout' => 10,
+            'verify' => __DIR__ . '/certs/DigiCertHighAssuranceEVRootCA.pem',
+        ];
+        $request = $this->guzzleClient->createRequest($method, $url, $options);
+
+        try {
+            $rawResponse = $this->guzzleClient->send($request);
+        } catch (RequestException $e) {
+            $rawResponse = $e->getResponse();
+
+            if ($e->getPrevious() instanceof RingException || !$rawResponse instanceof ResponseInterface) {
+                throw new FacebookSDKException($e->getMessage(), $e->getCode());
+            }
+        }
+
+        $rawHeaders = $this->getHeadersAsString($rawResponse);
+        $rawBody = $rawResponse->getBody();
+        $httpStatusCode = $rawResponse->getStatusCode();
+
+        return new GraphRawResponse($rawHeaders, $rawBody, $httpStatusCode);
+    }
+
+    /**
+     * Returns the Guzzle array of headers as a string.
+     *
+     * @param ResponseInterface $response The Guzzle response.
+     *
+     * @return string
+     */
+    public function getHeadersAsString(ResponseInterface $response)
+    {
+        $headers = $response->getHeaders();
+        $rawHeaders = [];
+        foreach ($headers as $name => $values) {
+            $rawHeaders[] = $name . ": " . implode(", ", $values);
+        }
+
+        return implode("\r\n", $rawHeaders);
+    }
+}

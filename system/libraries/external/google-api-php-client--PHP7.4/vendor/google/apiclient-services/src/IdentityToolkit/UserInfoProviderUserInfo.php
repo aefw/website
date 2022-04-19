@@ -1,69 +1,98 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-i2PxwSorextTEPQ8/JT8jfjikwi=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\IdentityToolkit;
+
+class UserInfoProviderUserInfo extends \Google\Model
+{
+  public $displayName;
+  public $email;
+  public $federatedId;
+  public $phoneNumber;
+  public $photoUrl;
+  public $providerId;
+  public $rawId;
+  public $screenName;
+
+  public function setDisplayName($displayName)
+  {
+    $this->displayName = $displayName;
+  }
+  public function getDisplayName()
+  {
+    return $this->displayName;
+  }
+  public function setEmail($email)
+  {
+    $this->email = $email;
+  }
+  public function getEmail()
+  {
+    return $this->email;
+  }
+  public function setFederatedId($federatedId)
+  {
+    $this->federatedId = $federatedId;
+  }
+  public function getFederatedId()
+  {
+    return $this->federatedId;
+  }
+  public function setPhoneNumber($phoneNumber)
+  {
+    $this->phoneNumber = $phoneNumber;
+  }
+  public function getPhoneNumber()
+  {
+    return $this->phoneNumber;
+  }
+  public function setPhotoUrl($photoUrl)
+  {
+    $this->photoUrl = $photoUrl;
+  }
+  public function getPhotoUrl()
+  {
+    return $this->photoUrl;
+  }
+  public function setProviderId($providerId)
+  {
+    $this->providerId = $providerId;
+  }
+  public function getProviderId()
+  {
+    return $this->providerId;
+  }
+  public function setRawId($rawId)
+  {
+    $this->rawId = $rawId;
+  }
+  public function getRawId()
+  {
+    return $this->rawId;
+  }
+  public function setScreenName($screenName)
+  {
+    $this->screenName = $screenName;
+  }
+  public function getScreenName()
+  {
+    return $this->screenName;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(UserInfoProviderUserInfo::class, 'Google_Service_IdentityToolkit_UserInfoProviderUserInfo');

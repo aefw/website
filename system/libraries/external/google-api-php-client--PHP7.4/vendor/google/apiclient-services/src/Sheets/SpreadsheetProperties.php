@@ -1,70 +1,110 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-6sqOxG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Sheets;
+
+class SpreadsheetProperties extends \Google\Model
+{
+  public $autoRecalc;
+  protected $defaultFormatType = CellFormat::class;
+  protected $defaultFormatDataType = '';
+  protected $iterativeCalculationSettingsType = IterativeCalculationSettings::class;
+  protected $iterativeCalculationSettingsDataType = '';
+  public $locale;
+  protected $spreadsheetThemeType = SpreadsheetTheme::class;
+  protected $spreadsheetThemeDataType = '';
+  public $timeZone;
+  public $title;
+
+  public function setAutoRecalc($autoRecalc)
+  {
+    $this->autoRecalc = $autoRecalc;
+  }
+  public function getAutoRecalc()
+  {
+    return $this->autoRecalc;
+  }
+  /**
+   * @param CellFormat
+   */
+  public function setDefaultFormat(CellFormat $defaultFormat)
+  {
+    $this->defaultFormat = $defaultFormat;
+  }
+  /**
+   * @return CellFormat
+   */
+  public function getDefaultFormat()
+  {
+    return $this->defaultFormat;
+  }
+  /**
+   * @param IterativeCalculationSettings
+   */
+  public function setIterativeCalculationSettings(IterativeCalculationSettings $iterativeCalculationSettings)
+  {
+    $this->iterativeCalculationSettings = $iterativeCalculationSettings;
+  }
+  /**
+   * @return IterativeCalculationSettings
+   */
+  public function getIterativeCalculationSettings()
+  {
+    return $this->iterativeCalculationSettings;
+  }
+  public function setLocale($locale)
+  {
+    $this->locale = $locale;
+  }
+  public function getLocale()
+  {
+    return $this->locale;
+  }
+  /**
+   * @param SpreadsheetTheme
+   */
+  public function setSpreadsheetTheme(SpreadsheetTheme $spreadsheetTheme)
+  {
+    $this->spreadsheetTheme = $spreadsheetTheme;
+  }
+  /**
+   * @return SpreadsheetTheme
+   */
+  public function getSpreadsheetTheme()
+  {
+    return $this->spreadsheetTheme;
+  }
+  public function setTimeZone($timeZone)
+  {
+    $this->timeZone = $timeZone;
+  }
+  public function getTimeZone()
+  {
+    return $this->timeZone;
+  }
+  public function setTitle($title)
+  {
+    $this->title = $title;
+  }
+  public function getTitle()
+  {
+    return $this->title;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(SpreadsheetProperties::class, 'Google_Service_Sheets_SpreadsheetProperties');

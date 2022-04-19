@@ -1,121 +1,235 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DisplayVideo;
+
+class Invoice extends \Google\Collection
+{
+  protected $collection_key = 'replacedInvoiceIds';
+  public $budgetInvoiceGroupingId;
+  protected $budgetSummariesType = BudgetSummary::class;
+  protected $budgetSummariesDataType = 'array';
+  public $correctedInvoiceId;
+  public $currencyCode;
+  public $displayName;
+  protected $dueDateType = Date::class;
+  protected $dueDateDataType = '';
+  public $invoiceId;
+  public $invoiceType;
+  protected $issueDateType = Date::class;
+  protected $issueDateDataType = '';
+  public $name;
+  public $nonBudgetMicros;
+  public $paymentsAccountId;
+  public $paymentsProfileId;
+  public $pdfUrl;
+  public $purchaseOrderNumber;
+  public $replacedInvoiceIds;
+  protected $serviceDateRangeType = DateRange::class;
+  protected $serviceDateRangeDataType = '';
+  public $subtotalAmountMicros;
+  public $totalAmountMicros;
+  public $totalTaxAmountMicros;
+
+  public function setBudgetInvoiceGroupingId($budgetInvoiceGroupingId)
+  {
+    $this->budgetInvoiceGroupingId = $budgetInvoiceGroupingId;
+  }
+  public function getBudgetInvoiceGroupingId()
+  {
+    return $this->budgetInvoiceGroupingId;
+  }
+  /**
+   * @param BudgetSummary[]
+   */
+  public function setBudgetSummaries($budgetSummaries)
+  {
+    $this->budgetSummaries = $budgetSummaries;
+  }
+  /**
+   * @return BudgetSummary[]
+   */
+  public function getBudgetSummaries()
+  {
+    return $this->budgetSummaries;
+  }
+  public function setCorrectedInvoiceId($correctedInvoiceId)
+  {
+    $this->correctedInvoiceId = $correctedInvoiceId;
+  }
+  public function getCorrectedInvoiceId()
+  {
+    return $this->correctedInvoiceId;
+  }
+  public function setCurrencyCode($currencyCode)
+  {
+    $this->currencyCode = $currencyCode;
+  }
+  public function getCurrencyCode()
+  {
+    return $this->currencyCode;
+  }
+  public function setDisplayName($displayName)
+  {
+    $this->displayName = $displayName;
+  }
+  public function getDisplayName()
+  {
+    return $this->displayName;
+  }
+  /**
+   * @param Date
+   */
+  public function setDueDate(Date $dueDate)
+  {
+    $this->dueDate = $dueDate;
+  }
+  /**
+   * @return Date
+   */
+  public function getDueDate()
+  {
+    return $this->dueDate;
+  }
+  public function setInvoiceId($invoiceId)
+  {
+    $this->invoiceId = $invoiceId;
+  }
+  public function getInvoiceId()
+  {
+    return $this->invoiceId;
+  }
+  public function setInvoiceType($invoiceType)
+  {
+    $this->invoiceType = $invoiceType;
+  }
+  public function getInvoiceType()
+  {
+    return $this->invoiceType;
+  }
+  /**
+   * @param Date
+   */
+  public function setIssueDate(Date $issueDate)
+  {
+    $this->issueDate = $issueDate;
+  }
+  /**
+   * @return Date
+   */
+  public function getIssueDate()
+  {
+    return $this->issueDate;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setNonBudgetMicros($nonBudgetMicros)
+  {
+    $this->nonBudgetMicros = $nonBudgetMicros;
+  }
+  public function getNonBudgetMicros()
+  {
+    return $this->nonBudgetMicros;
+  }
+  public function setPaymentsAccountId($paymentsAccountId)
+  {
+    $this->paymentsAccountId = $paymentsAccountId;
+  }
+  public function getPaymentsAccountId()
+  {
+    return $this->paymentsAccountId;
+  }
+  public function setPaymentsProfileId($paymentsProfileId)
+  {
+    $this->paymentsProfileId = $paymentsProfileId;
+  }
+  public function getPaymentsProfileId()
+  {
+    return $this->paymentsProfileId;
+  }
+  public function setPdfUrl($pdfUrl)
+  {
+    $this->pdfUrl = $pdfUrl;
+  }
+  public function getPdfUrl()
+  {
+    return $this->pdfUrl;
+  }
+  public function setPurchaseOrderNumber($purchaseOrderNumber)
+  {
+    $this->purchaseOrderNumber = $purchaseOrderNumber;
+  }
+  public function getPurchaseOrderNumber()
+  {
+    return $this->purchaseOrderNumber;
+  }
+  public function setReplacedInvoiceIds($replacedInvoiceIds)
+  {
+    $this->replacedInvoiceIds = $replacedInvoiceIds;
+  }
+  public function getReplacedInvoiceIds()
+  {
+    return $this->replacedInvoiceIds;
+  }
+  /**
+   * @param DateRange
+   */
+  public function setServiceDateRange(DateRange $serviceDateRange)
+  {
+    $this->serviceDateRange = $serviceDateRange;
+  }
+  /**
+   * @return DateRange
+   */
+  public function getServiceDateRange()
+  {
+    return $this->serviceDateRange;
+  }
+  public function setSubtotalAmountMicros($subtotalAmountMicros)
+  {
+    $this->subtotalAmountMicros = $subtotalAmountMicros;
+  }
+  public function getSubtotalAmountMicros()
+  {
+    return $this->subtotalAmountMicros;
+  }
+  public function setTotalAmountMicros($totalAmountMicros)
+  {
+    $this->totalAmountMicros = $totalAmountMicros;
+  }
+  public function getTotalAmountMicros()
+  {
+    return $this->totalAmountMicros;
+  }
+  public function setTotalTaxAmountMicros($totalTaxAmountMicros)
+  {
+    $this->totalTaxAmountMicros = $totalTaxAmountMicros;
+  }
+  public function getTotalTaxAmountMicros()
+  {
+    return $this->totalTaxAmountMicros;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Invoice::class, 'Google_Service_DisplayVideo_Invoice');

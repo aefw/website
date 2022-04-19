@@ -1,70 +1,146 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-oWQWnuy1iW==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Fitness\Resource;
+
+use Google\Service\Fitness\DataSource;
+use Google\Service\Fitness\ListDataSourcesResponse;
+
+/**
+ * The "dataSources" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $fitnessService = new Google\Service\Fitness(...);
+ *   $dataSources = $fitnessService->dataSources;
+ *  </code>
+ */
+class UsersDataSources extends \Google\Service\Resource
+{
+  /**
+   * Creates a new data source that is unique across all data sources belonging to
+   * this user. A data source is a unique source of sensor data. Data sources can
+   * expose raw data coming from hardware sensors on local or companion devices.
+   * They can also expose derived data, created by transforming or merging other
+   * data sources. Multiple data sources can exist for the same data type. Every
+   * data point in every dataset inserted into or read from the Fitness API has an
+   * associated data source. Each data source produces a unique stream of dataset
+   * updates, with a unique data source identifier. Not all changes to data source
+   * affect the data stream ID, so that data collected by updated versions of the
+   * same application/device can still be considered to belong to the same data
+   * source. Data sources are identified using a string generated by the server,
+   * based on the contents of the source being created. The dataStreamId field
+   * should not be set when invoking this method. It will be automatically
+   * generated by the server with the correct format. If a dataStreamId is set, it
+   * must match the format that the server would generate. This format is a
+   * combination of some fields from the data source, and has a specific order. If
+   * it doesn't match, the request will fail with an error. Specifying a DataType
+   * which is not a known type (beginning with "com.google.") will create a
+   * DataSource with a *custom data type*. Custom data types are only readable by
+   * the application that created them. Custom data types are *deprecated*; use
+   * standard data types instead. In addition to the data source fields included
+   * in the data source ID, the developer project number that is authenticated
+   * when creating the data source is included. This developer project number is
+   * obfuscated when read by any other developer reading public data types.
+   * (dataSources.create)
+   *
+   * @param string $userId Create the data source for the person identified. Use
+   * me to indicate the authenticated user. Only me is supported at this time.
+   * @param DataSource $postBody
+   * @param array $optParams Optional parameters.
+   * @return DataSource
+   */
+  public function create($userId, DataSource $postBody, $optParams = [])
+  {
+    $params = ['userId' => $userId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], DataSource::class);
+  }
+  /**
+   * Deletes the specified data source. The request will fail if the data source
+   * contains any data points. (dataSources.delete)
+   *
+   * @param string $userId Retrieve a data source for the person identified. Use
+   * me to indicate the authenticated user. Only me is supported at this time.
+   * @param string $dataSourceId The data stream ID of the data source to delete.
+   * @param array $optParams Optional parameters.
+   * @return DataSource
+   */
+  public function delete($userId, $dataSourceId, $optParams = [])
+  {
+    $params = ['userId' => $userId, 'dataSourceId' => $dataSourceId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], DataSource::class);
+  }
+  /**
+   * Returns the specified data source. (dataSources.get)
+   *
+   * @param string $userId Retrieve a data source for the person identified. Use
+   * me to indicate the authenticated user. Only me is supported at this time.
+   * @param string $dataSourceId The data stream ID of the data source to
+   * retrieve.
+   * @param array $optParams Optional parameters.
+   * @return DataSource
+   */
+  public function get($userId, $dataSourceId, $optParams = [])
+  {
+    $params = ['userId' => $userId, 'dataSourceId' => $dataSourceId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], DataSource::class);
+  }
+  /**
+   * Lists all data sources that are visible to the developer, using the OAuth
+   * scopes provided. The list is not exhaustive; the user may have private data
+   * sources that are only visible to other developers, or calls using other
+   * scopes. (dataSources.listUsersDataSources)
+   *
+   * @param string $userId List data sources for the person identified. Use me to
+   * indicate the authenticated user. Only me is supported at this time.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string dataTypeName The names of data types to include in the
+   * list. If not specified, all data sources will be returned.
+   * @return ListDataSourcesResponse
+   */
+  public function listUsersDataSources($userId, $optParams = [])
+  {
+    $params = ['userId' => $userId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListDataSourcesResponse::class);
+  }
+  /**
+   * Updates the specified data source. The dataStreamId, dataType, type,
+   * dataStreamName, and device properties with the exception of version, cannot
+   * be modified. Data sources are identified by their dataStreamId.
+   * (dataSources.update)
+   *
+   * @param string $userId Update the data source for the person identified. Use
+   * me to indicate the authenticated user. Only me is supported at this time.
+   * @param string $dataSourceId The data stream ID of the data source to update.
+   * @param DataSource $postBody
+   * @param array $optParams Optional parameters.
+   * @return DataSource
+   */
+  public function update($userId, $dataSourceId, DataSource $postBody, $optParams = [])
+  {
+    $params = ['userId' => $userId, 'dataSourceId' => $dataSourceId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], DataSource::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(UsersDataSources::class, 'Google_Service_Fitness_Resource_UsersDataSources');

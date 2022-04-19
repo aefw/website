@@ -1,74 +1,111 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-ynsF
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AndroidEnterprise\Resource;
+
+use Google\Service\AndroidEnterprise\StoreCluster;
+use Google\Service\AndroidEnterprise\StoreLayoutClustersListResponse;
+
+/**
+ * The "storelayoutclusters" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $androidenterpriseService = new Google\Service\AndroidEnterprise(...);
+ *   $storelayoutclusters = $androidenterpriseService->storelayoutclusters;
+ *  </code>
+ */
+class Storelayoutclusters extends \Google\Service\Resource
+{
+  /**
+   * Deletes a cluster. (storelayoutclusters.delete)
+   *
+   * @param string $enterpriseId The ID of the enterprise.
+   * @param string $pageId The ID of the page.
+   * @param string $clusterId The ID of the cluster.
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($enterpriseId, $pageId, $clusterId, $optParams = [])
+  {
+    $params = ['enterpriseId' => $enterpriseId, 'pageId' => $pageId, 'clusterId' => $clusterId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Retrieves details of a cluster. (storelayoutclusters.get)
+   *
+   * @param string $enterpriseId The ID of the enterprise.
+   * @param string $pageId The ID of the page.
+   * @param string $clusterId The ID of the cluster.
+   * @param array $optParams Optional parameters.
+   * @return StoreCluster
+   */
+  public function get($enterpriseId, $pageId, $clusterId, $optParams = [])
+  {
+    $params = ['enterpriseId' => $enterpriseId, 'pageId' => $pageId, 'clusterId' => $clusterId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], StoreCluster::class);
+  }
+  /**
+   * Inserts a new cluster in a page. (storelayoutclusters.insert)
+   *
+   * @param string $enterpriseId The ID of the enterprise.
+   * @param string $pageId The ID of the page.
+   * @param StoreCluster $postBody
+   * @param array $optParams Optional parameters.
+   * @return StoreCluster
+   */
+  public function insert($enterpriseId, $pageId, StoreCluster $postBody, $optParams = [])
+  {
+    $params = ['enterpriseId' => $enterpriseId, 'pageId' => $pageId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], StoreCluster::class);
+  }
+  /**
+   * Retrieves the details of all clusters on the specified page.
+   * (storelayoutclusters.listStorelayoutclusters)
+   *
+   * @param string $enterpriseId The ID of the enterprise.
+   * @param string $pageId The ID of the page.
+   * @param array $optParams Optional parameters.
+   * @return StoreLayoutClustersListResponse
+   */
+  public function listStorelayoutclusters($enterpriseId, $pageId, $optParams = [])
+  {
+    $params = ['enterpriseId' => $enterpriseId, 'pageId' => $pageId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], StoreLayoutClustersListResponse::class);
+  }
+  /**
+   * Updates a cluster. (storelayoutclusters.update)
+   *
+   * @param string $enterpriseId The ID of the enterprise.
+   * @param string $pageId The ID of the page.
+   * @param string $clusterId The ID of the cluster.
+   * @param StoreCluster $postBody
+   * @param array $optParams Optional parameters.
+   * @return StoreCluster
+   */
+  public function update($enterpriseId, $pageId, $clusterId, StoreCluster $postBody, $optParams = [])
+  {
+    $params = ['enterpriseId' => $enterpriseId, 'pageId' => $pageId, 'clusterId' => $clusterId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], StoreCluster::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Storelayoutclusters::class, 'Google_Service_AndroidEnterprise_Resource_Storelayoutclusters');

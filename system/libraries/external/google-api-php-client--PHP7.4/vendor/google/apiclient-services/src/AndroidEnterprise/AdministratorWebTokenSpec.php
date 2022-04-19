@@ -1,79 +1,141 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPs/uGowIRBW16p7M3QeEeHNG8PuTHcbKeT5b0E7l+G5kYsJhKoslpHW3JxvRx/z9dEFUbVYy
-I9aUCKU5UeriUvHwNDjD0SgdnubB5Hi12FFm/UIY3hK1ZSAXqFfQh/juFdwDbEnIG72a9IZe27Vl
-Yy/o+d1CcGShL9g2R+MAjzYGOXclMFMYCx3+brfRIrCI/SIF0o6NADv0vEqlL++z9Qt5zwwEAiuD
-c1RZ7IAgup352RN/XragVt0cN6Dl9NLCGaCiJn7VZffkjk8IuJ3FW7jWJtVYS5CkDLI4g2o1fZvA
-1ULLpMxWxef4S9McM0s8Y5He1J0xe+aYyij/L1+2Tj7+6Aqe369tP+9tf9bjsRSw+ZERQnynq00U
-6s+LdgwyryECG/UrC9p/33wPoBjvYTWL0H6Lq2QZXXP+F/As42QvMYgM2aM+O8GzfA1T406BYW8C
-dNE0II6LJ3zqrXXHfVWSedvUgnFsmRZTTkISLlntDDZbC659v2Mbr0Ah2SH+H87aLTRHJ2KDA5UV
-P107s6Vqy+lDUha5lRJfDkFXNiwvqLBfsY/5N29QXky2FZJ+87AFk2j5wsMu5zYuDjLxUAMbTJ4R
-SD7qOIZGFcrvhnvq/mNTtimYcEmz0uQLGHvE8I4wGx6cp+cE6nVDkwVia9TH7bD2jP3jTpkwAPiX
-VJK81ADLQBDvx394TrHtSLBxLaBc8ThZpHUFcNa2a85Y/Quw07F53cBpNGuJ0PuaIDapKLRo8tJ8
-QzJV9vl7uh7Kz9UOe3dpG/3MjU1n64u7OZXtdTryxPmcgzz4wQR2lcnXj+u0R+jG7GEZIpcMRdbf
-SPAhI+yXmmbpOKjFWImD4g4EKFPfnMaI7/02InP1XICSAOsJ8MwMcDKE5SIoJfxttJfgofGJnC8z
-4gUF2PSCDmM9WUmUgjU6mipIdFKXq9F4nL2jSN78yXNUcDax0PFZ5eWfOuQ5z3BFQ0mkchlz2gHJ
-reGohT7bK8h4ob5hDpyMvMZCmJV91YQ1MuLzBf3vh2FN9aI0qM0AbxRE+/W12BVm7e+Wj3ta1tI9
-6Mx68HREosH0VocTIUEuYgF81GJePT1gB5uNHu4mfSJkh7vD+PhAgXf8eqU4/u+TzeIh4gs8kir4
-5qyHlaVUatJaAP73s3CveBJ373QUPvN7pkucbrSfJO4kJSvY9gISB5tSlps6xYfOB+s4jL9+6DAP
-49KnuB7OtlziXLLA4WkN9gvybjNAUPrKmwrEcGdH6iGB4z42tXp6OZQnrGzzl0Y4kviPYN61KHSo
-PERwbeuB69mMaV6nPbg3NomnVHMSgWL7FHTaYXlngUhsCkVNM06wWlIJ7m+QeeY2Qjjzcs9NAfnd
-HK1lt1K0JhqCJc3RxMsaP7x6XlFPMgSpPprxmPLAsDWcDMRJBPSM1mplkcyk4TKjgZEzHTPLWrLQ
-TOUjKuIQCeo9ePGgmCNyz6Qu/PjG8yconFhR4T1INOshWQnSTFjg0UPmvYJFWvHRmHIEkXzBNgLi
-ZYK1V+3o3/gsCzp6hQe7M5CAw6zSNENS1hY9vDR26n22BgE5Joxos0WiaiJcVOcG4jsVDJLPWkov
-owIp0qn0HpKCijcoRQ5Gd/vgKl9VS53iCaEty7/f8Yts2H3mixqIpRGtss+7n+EaC27GGmy4pD/s
-XuGeAmtrxlI3tD5e+GkyZXCd08pp0YiLe5UF/GaqRxV5eV6Goo/uqwN3TNKE/ziRBUJltR39VxpM
-sv945++ajafizzjuGcDOD5TPWDRdYnzwlyv1q+T+f1ymRt8KorSbSd2r+whVLuY6I1QR8u7YJbRX
-548PuQ8M9YDKEjgLcQihGyWBNALbGeX834Z/AWZUi6xGT7u5CdTIA5Dw0jnV9JY96gtzTWez7Myl
-B9H/VVlPYDPj4FUte1sgGr80P+Unvn9KLAERxKpJN7ArGVepDv2GAxExGslIUlImtJREQmxpcBkT
-PCD7mXUcAcLIyUC0tSsX+iiPOjk3lNBIc5hCB7C8V5XIigOVhYkt1i2aDUoSUIv8mHOz0v1/cY2w
-ae31wQbNH/p5ppknHlrrhNum6oWH//XayXy9X+9u+DijQPyP6zDZ30fw6oDFKBs/QegopuTNcUcx
-yI3pDxwCGBWOdiGDpXzYr167cgMRsOWEmHB1b29qAEMsEo621VppygYesHsscUz4yBDERU20iWwH
-jr+4PvgTTHw87xG5vbXeJ9B0enMN4p/0U7HBwzIIorw9n6rHNKJb666TPrCMtIwTnIAwIRsvAGI2
-URB2KL67IURFtC5Ye2YUKLeSzRE2Q1/fIGs4g096O9FmVyWleP6O5MTwiEOzU0WOwi7LLhD36pah
-qD2+W1LghWbWIXmtDM2zC6pjGy/f+u6EVcEn1xMMf6F4oQBqjShtDDJWgk21fSlFCZHkgX9+VVNy
-TyNf3XkNReoVlaT9ibtojsoNAVkFICVeQToMdHkXP00rBDyAbIfqlSK0/vr/aevXofp4SeBNvg3p
-U2k7VtptXEtrXySOnTkcmmeB0pLWPbi9dFIJj8IgYjGxL9ALt+coo6mlgRiYxks1/aDj9CPRROte
-4CUY8pEZONHBRrd6nlojxhw5Ujk9qf7WSZDo9SdNKyeKghttjRa2IWeMeSRumFph2oQZp/Yj0SZo
-lxk9sVXxH3RsieQg2dwX/zQz/1K4rNQ7jBEgKtlq0Ot1vUi+s8qjEM4wktDygnnG1TcTZjDZPl6d
-n/zyD0k/6ZGeevBaVaNFP9ZVO3gWQ5qi/vsBZecUkFrROx4ciET9ZLJN4U7ON6n0dEp15wIAcZQE
-PrpyXIIPid8ADdco0y/IWkRb9cni37FLvatl0Q89VrcVigcsx2MqNM7o5KhKk3zPC3SbxLoniQ3K
-qKS6MaP3Y2tkTzuqGhLi9KOodPhjQWoIsrMQ4QYDa6OWdnlZQeR4jGITiml+zK3O3KfSElPA2gsy
-3Vj6xwQm1YSe4SBq5DKuqGhNEBGR0ql4+KoN6Nlw0+yLIuGvOfekOaQzB2Re9+7dVCQFpf29KrNJ
-ZG6A5Xe98gbOUd9UWAwACI0eTPxmUxMGeVM2glrv2wZWfKc3y/hQ+6GQtS4IRVfAfL8IMr4DUcR9
-z90gFS7sVCzVGf7LSl7r0ugkVR4OLsx0R3MJiRth8rV1hAiT1jSa7tSD0PPUhOow5GOF1HPVNsHU
-zY4EUQeqBQKOuw5AHqpLx1Da7LjLreGblwMmDnYAsuRnRumdguWdkogzxwt/YTxuMNn8QWCnlm5R
-MUEO7ZVHHY0XtqUg0w+mod/5UVDAZyOFrw/9meiMllDRf7RztUTdGGLSpfTOSbdZMwVp7vQUevoS
-gMPdea8whV3k9G5GZqRrsZMkDYA0Mx3lonv15ObdHg0ZJ8fYsfmzwq68NauABfmXvV37CFDKJOza
-OflaQPeUCZefAQYLPwyDYg4GGEaMMl2NoPEYRBDveApEFnlMFk+HDnDZ1JNvKEJN0o9MLet2VtQb
-U8FGj/PxlnY9klAPdhWmWDoSN8miZrqvYb6lccHyXYEHTSC5ZfLQY88QEeoV8h1AqOh0SzhUyrnn
-H9ssK2+n7/h6tSNyg9m1N9rCLBwSXxkrTMudy/gkVNTNIAUf0smGmBgj0TGP+KLiAv32RS7l3cBA
-LbyRd0rm0V5lzTT0ECpI9kv4D+I5tnM3KFvi5OZTSqyxNsdJ6ynxPKj9xkqed9Jq/FxS4yjmZ3zP
-uh7K9odRq7ebzTZReLuDMhbW6F0vU5Aoa5Js81YmGB1gwGzFpYTGPQlw9D2PjVhffuVzzLrpsRSO
-95fA/t4wCWogrbtnGcTkRyNw5HvuuvEJWuUy8i+XwIt8CUc3+9mwrQc9b29nw9n0QNoatAIBqVQw
-Mtw1xB6ZnX4g2I0PS2N833e2R1VBkYk4IZ08/B6yCWfvoZVYVGnTgslhRuie+v9NyksnfDVkdfEU
-k8BZxoae25LXBXduuDOAu9cN/X5QlaKU1pQGXP52Dv60ZHIIe1Se6qCGeyvopzS/pkOE4EG1+b8E
-eEm+0Ze+sbODI+NoCFpGJ8rtPKNHMX7EPHyAO+N+cMxx7KUSnHIMPZlwynWc4dBbiLdL2fveby4Z
-LdzK0vZojA/SaUwh66H77WBbXxNQ9idwGabaTxvGfIC1KODcL/t9rLcro1PSnHaZItQK1UB4icdz
-v4JRuKVygtToJl471+0hXYm9mzsGanyVQHmtKal2wkjSUptP87th5rT7x2WcYOUTx5eUg6H9Mkht
-A9EypUXMEXCFYsWvEBoLCXJkbp6hOSRQRSOgXTSdUhtkdRs3IG/8Bh+IWzpuj0G314MX704vtNHd
-Tl86EzyCvDkiFiG4xCfBlWXeomEhk04trLrNwYxVLdIB9vdfRqnff5BYR6cPMijMf/7RpHKYpGyh
-Z+Fvu2iv9qmoTVy2c/smhY12pltTnu/Oq3DJl61QZA0eW9WCxvWg5N3upahCTNCNplHwZ5m1hjRS
-X9lOckIWRXcrf6EoAH+NkWsd/gnwEenJCen0yE5Ua9n8Zbyk5qSa7+3bInT/wimdhI++/ifSQ44u
-bVG3ZXLZ5wnuo/rzlH/v0goA3KerZ3CmjEUzke54WxahjJ8z+1VmraZFV9TT5Ea9sjhmM1OXtDcG
-WMfDBXVgY4y2dsiBfDmM92ls6sUWBjgoe78jqDD0JtcUGAQ0525tlkSJq7AJn6jujddQIk+hRfim
-X8qCZ/l8r6R95enwBedPVYPEsqD9dt8k5uaZPndRltdQ704ql+rfe3fzdWLjetM+wSt/HTvBEUKk
-3SpUSaOgSmRGBTrNrYKGxqE1yGxftCnNrE5J5lM7hv425AmjZaPGMhuVqc8wQx55Bp4Z2HeUV5AQ
-j6y1M2nMFaIgrvn+pU3jMZcDXRlgIZvyDC09QeRNadJUOQ42YMDt7S3x6qJ65JTrhIMqwuF+3KC0
-zYpvN30tFXWsEjRermnLhgdyNePbUz6Ab46mbcwk5tKDkRbuFowwcd445H/6eoXPxJdNiY9QuZ1A
-SnzCc+kT7OG5Fcr0YdDeCjqO9eO/jk9Yv5SShz3RwDf+r2o4C1PAwUAcImFFMPE3dnJyfxz7MPro
-+OJugNcCw5bZ0VZFoyihsalbGAXZAksBUpzZHojW4vBfT/lnMmY9nnyHkQ6Wdf0i+znuX/1XVIp1
-VsAC0nkzdb9f3+Xz7QstNpEoeBxxcBkOX0J1/cKOjKwkb7pp79y83KDIJdpw0CsUU/UuxqrVab/P
-TJd42ysBbgOwMh2XUNlaa3iC/4a28RMS7/suqfD0Nzfv/03BH9pHj6d5O8yBmpdzIC9YI9D4V0ZT
-3BBlqaLs4anP12txiRvHmP9+W9qSr0raqRq8tlUBa+I/0Ue6Zs85jUZRlptKXSizOA+KxUrKRlbF
-4CgYaEua/2zOex0oJTUsSBJC70fZZ0JNA1f2TrsSMkDKHT39CTlNQ3cHEKZPzBFx38JHTXUJyfBj
-ZXTkRQt0kJhKZpQUy2rgCM9CnvQmIH0aILDz4JYLKLsPmx36ReHfgSMOBJ4=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AndroidEnterprise;
+
+class AdministratorWebTokenSpec extends \Google\Collection
+{
+  protected $collection_key = 'permission';
+  protected $managedConfigurationsType = AdministratorWebTokenSpecManagedConfigurations::class;
+  protected $managedConfigurationsDataType = '';
+  public $parent;
+  public $permission;
+  protected $playSearchType = AdministratorWebTokenSpecPlaySearch::class;
+  protected $playSearchDataType = '';
+  protected $privateAppsType = AdministratorWebTokenSpecPrivateApps::class;
+  protected $privateAppsDataType = '';
+  protected $storeBuilderType = AdministratorWebTokenSpecStoreBuilder::class;
+  protected $storeBuilderDataType = '';
+  protected $webAppsType = AdministratorWebTokenSpecWebApps::class;
+  protected $webAppsDataType = '';
+  protected $zeroTouchType = AdministratorWebTokenSpecZeroTouch::class;
+  protected $zeroTouchDataType = '';
+
+  /**
+   * @param AdministratorWebTokenSpecManagedConfigurations
+   */
+  public function setManagedConfigurations(AdministratorWebTokenSpecManagedConfigurations $managedConfigurations)
+  {
+    $this->managedConfigurations = $managedConfigurations;
+  }
+  /**
+   * @return AdministratorWebTokenSpecManagedConfigurations
+   */
+  public function getManagedConfigurations()
+  {
+    return $this->managedConfigurations;
+  }
+  public function setParent($parent)
+  {
+    $this->parent = $parent;
+  }
+  public function getParent()
+  {
+    return $this->parent;
+  }
+  public function setPermission($permission)
+  {
+    $this->permission = $permission;
+  }
+  public function getPermission()
+  {
+    return $this->permission;
+  }
+  /**
+   * @param AdministratorWebTokenSpecPlaySearch
+   */
+  public function setPlaySearch(AdministratorWebTokenSpecPlaySearch $playSearch)
+  {
+    $this->playSearch = $playSearch;
+  }
+  /**
+   * @return AdministratorWebTokenSpecPlaySearch
+   */
+  public function getPlaySearch()
+  {
+    return $this->playSearch;
+  }
+  /**
+   * @param AdministratorWebTokenSpecPrivateApps
+   */
+  public function setPrivateApps(AdministratorWebTokenSpecPrivateApps $privateApps)
+  {
+    $this->privateApps = $privateApps;
+  }
+  /**
+   * @return AdministratorWebTokenSpecPrivateApps
+   */
+  public function getPrivateApps()
+  {
+    return $this->privateApps;
+  }
+  /**
+   * @param AdministratorWebTokenSpecStoreBuilder
+   */
+  public function setStoreBuilder(AdministratorWebTokenSpecStoreBuilder $storeBuilder)
+  {
+    $this->storeBuilder = $storeBuilder;
+  }
+  /**
+   * @return AdministratorWebTokenSpecStoreBuilder
+   */
+  public function getStoreBuilder()
+  {
+    return $this->storeBuilder;
+  }
+  /**
+   * @param AdministratorWebTokenSpecWebApps
+   */
+  public function setWebApps(AdministratorWebTokenSpecWebApps $webApps)
+  {
+    $this->webApps = $webApps;
+  }
+  /**
+   * @return AdministratorWebTokenSpecWebApps
+   */
+  public function getWebApps()
+  {
+    return $this->webApps;
+  }
+  /**
+   * @param AdministratorWebTokenSpecZeroTouch
+   */
+  public function setZeroTouch(AdministratorWebTokenSpecZeroTouch $zeroTouch)
+  {
+    $this->zeroTouch = $zeroTouch;
+  }
+  /**
+   * @return AdministratorWebTokenSpecZeroTouch
+   */
+  public function getZeroTouch()
+  {
+    return $this->zeroTouch;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AdministratorWebTokenSpec::class, 'Google_Service_AndroidEnterprise_AdministratorWebTokenSpec');

@@ -1,95 +1,269 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DataprocMetastore\Resource;
+
+use Google\Service\DataprocMetastore\ExportMetadataRequest;
+use Google\Service\DataprocMetastore\ListServicesResponse;
+use Google\Service\DataprocMetastore\Operation;
+use Google\Service\DataprocMetastore\Policy;
+use Google\Service\DataprocMetastore\RestoreServiceRequest;
+use Google\Service\DataprocMetastore\Service;
+use Google\Service\DataprocMetastore\SetIamPolicyRequest;
+use Google\Service\DataprocMetastore\TestIamPermissionsRequest;
+use Google\Service\DataprocMetastore\TestIamPermissionsResponse;
+
+/**
+ * The "services" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $metastoreService = new Google\Service\DataprocMetastore(...);
+ *   $services = $metastoreService->services;
+ *  </code>
+ */
+class ProjectsLocationsServices extends \Google\Service\Resource
+{
+  /**
+   * Creates a metastore service in a project and location. (services.create)
+   *
+   * @param string $parent Required. The relative resource name of the location in
+   * which to create a metastore service, in the following
+   * form:projects/{project_number}/locations/{location_id}.
+   * @param Service $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId Optional. A request ID. Specify a unique request
+   * ID to allow the server to ignore the request if it has completed. The server
+   * will ignore subsequent requests that provide a duplicate request ID for at
+   * least 60 minutes after the first request.For example, if an initial request
+   * times out, followed by another request with the same request ID, the server
+   * ignores the second request to prevent the creation of duplicate
+   * commitments.The request ID must be a valid UUID
+   * (https://en.wikipedia.org/wiki/Universally_unique_identifier#Format) A zero
+   * UUID (00000000-0000-0000-0000-000000000000) is not supported.
+   * @opt_param string serviceId Required. The ID of the metastore service, which
+   * is used as the final component of the metastore service's name.This value
+   * must be between 2 and 63 characters long inclusive, begin with a letter, end
+   * with a letter or number, and consist of alpha-numeric ASCII characters or
+   * hyphens.
+   * @return Operation
+   */
+  public function create($parent, Service $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Operation::class);
+  }
+  /**
+   * Deletes a single service. (services.delete)
+   *
+   * @param string $name Required. The relative resource name of the metastore
+   * service to delete, in the following
+   * form:projects/{project_number}/locations/{location_id}/services/{service_id}.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId Optional. A request ID. Specify a unique request
+   * ID to allow the server to ignore the request if it has completed. The server
+   * will ignore subsequent requests that provide a duplicate request ID for at
+   * least 60 minutes after the first request.For example, if an initial request
+   * times out, followed by another request with the same request ID, the server
+   * ignores the second request to prevent the creation of duplicate
+   * commitments.The request ID must be a valid UUID
+   * (https://en.wikipedia.org/wiki/Universally_unique_identifier#Format) A zero
+   * UUID (00000000-0000-0000-0000-000000000000) is not supported.
+   * @return Operation
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Exports metadata from a service. (services.exportMetadata)
+   *
+   * @param string $service Required. The relative resource name of the metastore
+   * service to run export, in the following
+   * form:projects/{project_id}/locations/{location_id}/services/{service_id}.
+   * @param ExportMetadataRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function exportMetadata($service, ExportMetadataRequest $postBody, $optParams = [])
+  {
+    $params = ['service' => $service, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('exportMetadata', [$params], Operation::class);
+  }
+  /**
+   * Gets the details of a single service. (services.get)
+   *
+   * @param string $name Required. The relative resource name of the metastore
+   * service to retrieve, in the following
+   * form:projects/{project_number}/locations/{location_id}/services/{service_id}.
+   * @param array $optParams Optional parameters.
+   * @return Service
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Service::class);
+  }
+  /**
+   * Gets the access control policy for a resource. Returns an empty policy if the
+   * resource exists and does not have a policy set. (services.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int options.requestedPolicyVersion Optional. The policy format
+   * version to be returned.Valid values are 0, 1, and 3. Requests specifying an
+   * invalid value will be rejected.Requests for policies with any conditional
+   * bindings must specify version 3. Policies without any conditional bindings
+   * may specify any valid value or leave the field unset.To learn which resources
+   * support conditions in their IAM policies, see the IAM documentation
+   * (https://cloud.google.com/iam/help/conditions/resource-policies).
+   * @return Policy
+   */
+  public function getIamPolicy($resource, $optParams = [])
+  {
+    $params = ['resource' => $resource];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Lists services in a project and location.
+   * (services.listProjectsLocationsServices)
+   *
+   * @param string $parent Required. The relative resource name of the location of
+   * metastore services to list, in the following
+   * form:projects/{project_number}/locations/{location_id}.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Optional. The filter to apply to list results.
+   * @opt_param string orderBy Optional. Specify the ordering of results as
+   * described in Sorting Order
+   * (https://cloud.google.com/apis/design/design_patterns#sorting_order). If not
+   * specified, the results will be sorted in the default order.
+   * @opt_param int pageSize Optional. The maximum number of services to return.
+   * The response may contain less than the maximum number. If unspecified, no
+   * more than 500 services are returned. The maximum value is 1000; values above
+   * 1000 are changed to 1000.
+   * @opt_param string pageToken Optional. A page token, received from a previous
+   * DataprocMetastore.ListServices call. Provide this token to retrieve the
+   * subsequent page.To retrieve the first page, supply an empty page token.When
+   * paginating, other parameters provided to DataprocMetastore.ListServices must
+   * match the call that provided the page token.
+   * @return ListServicesResponse
+   */
+  public function listProjectsLocationsServices($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListServicesResponse::class);
+  }
+  /**
+   * Updates the parameters of a single service. (services.patch)
+   *
+   * @param string $name Immutable. The relative resource name of the metastore
+   * service, of the
+   * form:projects/{project_number}/locations/{location_id}/services/{service_id}.
+   * @param Service $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId Optional. A request ID. Specify a unique request
+   * ID to allow the server to ignore the request if it has completed. The server
+   * will ignore subsequent requests that provide a duplicate request ID for at
+   * least 60 minutes after the first request.For example, if an initial request
+   * times out, followed by another request with the same request ID, the server
+   * ignores the second request to prevent the creation of duplicate
+   * commitments.The request ID must be a valid UUID
+   * (https://en.wikipedia.org/wiki/Universally_unique_identifier#Format) A zero
+   * UUID (00000000-0000-0000-0000-000000000000) is not supported.
+   * @opt_param string updateMask Required. A field mask used to specify the
+   * fields to be overwritten in the metastore service resource by the update.
+   * Fields specified in the update_mask are relative to the resource (not to the
+   * full request). A field is overwritten if it is in the mask.
+   * @return Operation
+   */
+  public function patch($name, Service $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+  /**
+   * Restores a service from a backup. (services.restore)
+   *
+   * @param string $service Required. The relative resource name of the metastore
+   * service to run restore, in the following
+   * form:projects/{project_id}/locations/{location_id}/services/{service_id}.
+   * @param RestoreServiceRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function restore($service, RestoreServiceRequest $postBody, $optParams = [])
+  {
+    $params = ['service' => $service, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('restore', [$params], Operation::class);
+  }
+  /**
+   * Sets the access control policy on the specified resource. Replaces any
+   * existing policy.Can return NOT_FOUND, INVALID_ARGUMENT, and PERMISSION_DENIED
+   * errors. (services.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource. If the
+   * resource does not exist, this will return an empty set of permissions, not a
+   * NOT_FOUND error.Note: This operation is designed to be used for building
+   * permission-aware UIs and command-line tools, not for authorization checking.
+   * This operation may "fail open" without warning. (services.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsServices::class, 'Google_Service_DataprocMetastore_Resource_ProjectsLocationsServices');

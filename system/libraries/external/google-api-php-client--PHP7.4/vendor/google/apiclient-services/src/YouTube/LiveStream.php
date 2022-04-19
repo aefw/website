@@ -1,67 +1,117 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\YouTube;
+
+class LiveStream extends \Google\Model
+{
+  protected $cdnType = CdnSettings::class;
+  protected $cdnDataType = '';
+  protected $contentDetailsType = LiveStreamContentDetails::class;
+  protected $contentDetailsDataType = '';
+  public $etag;
+  public $id;
+  public $kind;
+  protected $snippetType = LiveStreamSnippet::class;
+  protected $snippetDataType = '';
+  protected $statusType = LiveStreamStatus::class;
+  protected $statusDataType = '';
+
+  /**
+   * @param CdnSettings
+   */
+  public function setCdn(CdnSettings $cdn)
+  {
+    $this->cdn = $cdn;
+  }
+  /**
+   * @return CdnSettings
+   */
+  public function getCdn()
+  {
+    return $this->cdn;
+  }
+  /**
+   * @param LiveStreamContentDetails
+   */
+  public function setContentDetails(LiveStreamContentDetails $contentDetails)
+  {
+    $this->contentDetails = $contentDetails;
+  }
+  /**
+   * @return LiveStreamContentDetails
+   */
+  public function getContentDetails()
+  {
+    return $this->contentDetails;
+  }
+  public function setEtag($etag)
+  {
+    $this->etag = $etag;
+  }
+  public function getEtag()
+  {
+    return $this->etag;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  /**
+   * @param LiveStreamSnippet
+   */
+  public function setSnippet(LiveStreamSnippet $snippet)
+  {
+    $this->snippet = $snippet;
+  }
+  /**
+   * @return LiveStreamSnippet
+   */
+  public function getSnippet()
+  {
+    return $this->snippet;
+  }
+  /**
+   * @param LiveStreamStatus
+   */
+  public function setStatus(LiveStreamStatus $status)
+  {
+    $this->status = $status;
+  }
+  /**
+   * @return LiveStreamStatus
+   */
+  public function getStatus()
+  {
+    return $this->status;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(LiveStream::class, 'Google_Service_YouTube_LiveStream');

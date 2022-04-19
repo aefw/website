@@ -1,94 +1,202 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DataLabeling;
+
+class GoogleCloudDatalabelingV1beta1AnnotatedDatasetMetadata extends \Google\Model
+{
+  protected $boundingPolyConfigType = GoogleCloudDatalabelingV1beta1BoundingPolyConfig::class;
+  protected $boundingPolyConfigDataType = '';
+  protected $eventConfigType = GoogleCloudDatalabelingV1beta1EventConfig::class;
+  protected $eventConfigDataType = '';
+  protected $humanAnnotationConfigType = GoogleCloudDatalabelingV1beta1HumanAnnotationConfig::class;
+  protected $humanAnnotationConfigDataType = '';
+  protected $imageClassificationConfigType = GoogleCloudDatalabelingV1beta1ImageClassificationConfig::class;
+  protected $imageClassificationConfigDataType = '';
+  protected $objectDetectionConfigType = GoogleCloudDatalabelingV1beta1ObjectDetectionConfig::class;
+  protected $objectDetectionConfigDataType = '';
+  protected $objectTrackingConfigType = GoogleCloudDatalabelingV1beta1ObjectTrackingConfig::class;
+  protected $objectTrackingConfigDataType = '';
+  protected $polylineConfigType = GoogleCloudDatalabelingV1beta1PolylineConfig::class;
+  protected $polylineConfigDataType = '';
+  protected $segmentationConfigType = GoogleCloudDatalabelingV1beta1SegmentationConfig::class;
+  protected $segmentationConfigDataType = '';
+  protected $textClassificationConfigType = GoogleCloudDatalabelingV1beta1TextClassificationConfig::class;
+  protected $textClassificationConfigDataType = '';
+  protected $textEntityExtractionConfigType = GoogleCloudDatalabelingV1beta1TextEntityExtractionConfig::class;
+  protected $textEntityExtractionConfigDataType = '';
+  protected $videoClassificationConfigType = GoogleCloudDatalabelingV1beta1VideoClassificationConfig::class;
+  protected $videoClassificationConfigDataType = '';
+
+  /**
+   * @param GoogleCloudDatalabelingV1beta1BoundingPolyConfig
+   */
+  public function setBoundingPolyConfig(GoogleCloudDatalabelingV1beta1BoundingPolyConfig $boundingPolyConfig)
+  {
+    $this->boundingPolyConfig = $boundingPolyConfig;
+  }
+  /**
+   * @return GoogleCloudDatalabelingV1beta1BoundingPolyConfig
+   */
+  public function getBoundingPolyConfig()
+  {
+    return $this->boundingPolyConfig;
+  }
+  /**
+   * @param GoogleCloudDatalabelingV1beta1EventConfig
+   */
+  public function setEventConfig(GoogleCloudDatalabelingV1beta1EventConfig $eventConfig)
+  {
+    $this->eventConfig = $eventConfig;
+  }
+  /**
+   * @return GoogleCloudDatalabelingV1beta1EventConfig
+   */
+  public function getEventConfig()
+  {
+    return $this->eventConfig;
+  }
+  /**
+   * @param GoogleCloudDatalabelingV1beta1HumanAnnotationConfig
+   */
+  public function setHumanAnnotationConfig(GoogleCloudDatalabelingV1beta1HumanAnnotationConfig $humanAnnotationConfig)
+  {
+    $this->humanAnnotationConfig = $humanAnnotationConfig;
+  }
+  /**
+   * @return GoogleCloudDatalabelingV1beta1HumanAnnotationConfig
+   */
+  public function getHumanAnnotationConfig()
+  {
+    return $this->humanAnnotationConfig;
+  }
+  /**
+   * @param GoogleCloudDatalabelingV1beta1ImageClassificationConfig
+   */
+  public function setImageClassificationConfig(GoogleCloudDatalabelingV1beta1ImageClassificationConfig $imageClassificationConfig)
+  {
+    $this->imageClassificationConfig = $imageClassificationConfig;
+  }
+  /**
+   * @return GoogleCloudDatalabelingV1beta1ImageClassificationConfig
+   */
+  public function getImageClassificationConfig()
+  {
+    return $this->imageClassificationConfig;
+  }
+  /**
+   * @param GoogleCloudDatalabelingV1beta1ObjectDetectionConfig
+   */
+  public function setObjectDetectionConfig(GoogleCloudDatalabelingV1beta1ObjectDetectionConfig $objectDetectionConfig)
+  {
+    $this->objectDetectionConfig = $objectDetectionConfig;
+  }
+  /**
+   * @return GoogleCloudDatalabelingV1beta1ObjectDetectionConfig
+   */
+  public function getObjectDetectionConfig()
+  {
+    return $this->objectDetectionConfig;
+  }
+  /**
+   * @param GoogleCloudDatalabelingV1beta1ObjectTrackingConfig
+   */
+  public function setObjectTrackingConfig(GoogleCloudDatalabelingV1beta1ObjectTrackingConfig $objectTrackingConfig)
+  {
+    $this->objectTrackingConfig = $objectTrackingConfig;
+  }
+  /**
+   * @return GoogleCloudDatalabelingV1beta1ObjectTrackingConfig
+   */
+  public function getObjectTrackingConfig()
+  {
+    return $this->objectTrackingConfig;
+  }
+  /**
+   * @param GoogleCloudDatalabelingV1beta1PolylineConfig
+   */
+  public function setPolylineConfig(GoogleCloudDatalabelingV1beta1PolylineConfig $polylineConfig)
+  {
+    $this->polylineConfig = $polylineConfig;
+  }
+  /**
+   * @return GoogleCloudDatalabelingV1beta1PolylineConfig
+   */
+  public function getPolylineConfig()
+  {
+    return $this->polylineConfig;
+  }
+  /**
+   * @param GoogleCloudDatalabelingV1beta1SegmentationConfig
+   */
+  public function setSegmentationConfig(GoogleCloudDatalabelingV1beta1SegmentationConfig $segmentationConfig)
+  {
+    $this->segmentationConfig = $segmentationConfig;
+  }
+  /**
+   * @return GoogleCloudDatalabelingV1beta1SegmentationConfig
+   */
+  public function getSegmentationConfig()
+  {
+    return $this->segmentationConfig;
+  }
+  /**
+   * @param GoogleCloudDatalabelingV1beta1TextClassificationConfig
+   */
+  public function setTextClassificationConfig(GoogleCloudDatalabelingV1beta1TextClassificationConfig $textClassificationConfig)
+  {
+    $this->textClassificationConfig = $textClassificationConfig;
+  }
+  /**
+   * @return GoogleCloudDatalabelingV1beta1TextClassificationConfig
+   */
+  public function getTextClassificationConfig()
+  {
+    return $this->textClassificationConfig;
+  }
+  /**
+   * @param GoogleCloudDatalabelingV1beta1TextEntityExtractionConfig
+   */
+  public function setTextEntityExtractionConfig(GoogleCloudDatalabelingV1beta1TextEntityExtractionConfig $textEntityExtractionConfig)
+  {
+    $this->textEntityExtractionConfig = $textEntityExtractionConfig;
+  }
+  /**
+   * @return GoogleCloudDatalabelingV1beta1TextEntityExtractionConfig
+   */
+  public function getTextEntityExtractionConfig()
+  {
+    return $this->textEntityExtractionConfig;
+  }
+  /**
+   * @param GoogleCloudDatalabelingV1beta1VideoClassificationConfig
+   */
+  public function setVideoClassificationConfig(GoogleCloudDatalabelingV1beta1VideoClassificationConfig $videoClassificationConfig)
+  {
+    $this->videoClassificationConfig = $videoClassificationConfig;
+  }
+  /**
+   * @return GoogleCloudDatalabelingV1beta1VideoClassificationConfig
+   */
+  public function getVideoClassificationConfig()
+  {
+    return $this->videoClassificationConfig;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudDatalabelingV1beta1AnnotatedDatasetMetadata::class, 'Google_Service_DataLabeling_GoogleCloudDatalabelingV1beta1AnnotatedDatasetMetadata');

@@ -1,60 +1,85 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php declare(strict_types=1);
+
+/*
+ * This file is part of the Monolog package.
+ *
+ * (c) Jordi Boggiano <j.boggiano@seld.be>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Monolog\Handler;
+
+use MongoDB\Driver\BulkWrite;
+use MongoDB\Driver\Manager;
+use MongoDB\Client;
+use Monolog\Logger;
+use Monolog\Formatter\FormatterInterface;
+use Monolog\Formatter\MongoDBFormatter;
+
+/**
+ * Logs to a MongoDB database.
+ *
+ * Usage example:
+ *
+ *   $log = new \Monolog\Logger('application');
+ *   $client = new \MongoDB\Client('mongodb://localhost:27017');
+ *   $mongodb = new \Monolog\Handler\MongoDBHandler($client, 'logs', 'prod');
+ *   $log->pushHandler($mongodb);
+ *
+ * The above examples uses the MongoDB PHP library's client class; however, the
+ * MongoDB\Driver\Manager class from ext-mongodb is also supported.
+ */
+class MongoDBHandler extends AbstractProcessingHandler
+{
+    private $collection;
+    private $manager;
+    private $namespace;
+
+    /**
+     * Constructor.
+     *
+     * @param Client|Manager $mongodb    MongoDB library or driver client
+     * @param string         $database   Database name
+     * @param string         $collection Collection name
+     * @param string|int     $level      The minimum logging level at which this handler will be triggered
+     * @param bool           $bubble     Whether the messages that are handled can bubble up the stack or not
+     */
+    public function __construct($mongodb, string $database, string $collection, $level = Logger::DEBUG, bool $bubble = true)
+    {
+        if (!($mongodb instanceof Client || $mongodb instanceof Manager)) {
+            throw new \InvalidArgumentException('MongoDB\Client or MongoDB\Driver\Manager instance required');
+        }
+
+        if ($mongodb instanceof Client) {
+            $this->collection = $mongodb->selectCollection($database, $collection);
+        } else {
+            $this->manager = $mongodb;
+            $this->namespace = $database . '.' . $collection;
+        }
+
+        parent::__construct($level, $bubble);
+    }
+
+    protected function write(array $record): void
+    {
+        if (isset($this->collection)) {
+            $this->collection->insertOne($record['formatted']);
+        }
+
+        if (isset($this->manager, $this->namespace)) {
+            $bulk = new BulkWrite;
+            $bulk->insert($record["formatted"]);
+            $this->manager->executeBulkWrite($this->namespace, $bulk);
+        }
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    protected function getDefaultFormatter(): FormatterInterface
+    {
+        return new MongoDBFormatter;
+    }
+}

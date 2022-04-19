@@ -1,98 +1,174 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-6SksWD3O96vn39K90R+hl4TBUWriwRM7gJMF
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AdExchangeBuyerII;
+
+class FilterSet extends \Google\Collection
+{
+  protected $collection_key = 'sellerNetworkIds';
+  protected $absoluteDateRangeType = AbsoluteDateRange::class;
+  protected $absoluteDateRangeDataType = '';
+  public $breakdownDimensions;
+  public $creativeId;
+  public $dealId;
+  public $environment;
+  public $format;
+  public $formats;
+  public $name;
+  public $platforms;
+  public $publisherIdentifiers;
+  protected $realtimeTimeRangeType = RealtimeTimeRange::class;
+  protected $realtimeTimeRangeDataType = '';
+  protected $relativeDateRangeType = RelativeDateRange::class;
+  protected $relativeDateRangeDataType = '';
+  public $sellerNetworkIds;
+  public $timeSeriesGranularity;
+
+  /**
+   * @param AbsoluteDateRange
+   */
+  public function setAbsoluteDateRange(AbsoluteDateRange $absoluteDateRange)
+  {
+    $this->absoluteDateRange = $absoluteDateRange;
+  }
+  /**
+   * @return AbsoluteDateRange
+   */
+  public function getAbsoluteDateRange()
+  {
+    return $this->absoluteDateRange;
+  }
+  public function setBreakdownDimensions($breakdownDimensions)
+  {
+    $this->breakdownDimensions = $breakdownDimensions;
+  }
+  public function getBreakdownDimensions()
+  {
+    return $this->breakdownDimensions;
+  }
+  public function setCreativeId($creativeId)
+  {
+    $this->creativeId = $creativeId;
+  }
+  public function getCreativeId()
+  {
+    return $this->creativeId;
+  }
+  public function setDealId($dealId)
+  {
+    $this->dealId = $dealId;
+  }
+  public function getDealId()
+  {
+    return $this->dealId;
+  }
+  public function setEnvironment($environment)
+  {
+    $this->environment = $environment;
+  }
+  public function getEnvironment()
+  {
+    return $this->environment;
+  }
+  public function setFormat($format)
+  {
+    $this->format = $format;
+  }
+  public function getFormat()
+  {
+    return $this->format;
+  }
+  public function setFormats($formats)
+  {
+    $this->formats = $formats;
+  }
+  public function getFormats()
+  {
+    return $this->formats;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setPlatforms($platforms)
+  {
+    $this->platforms = $platforms;
+  }
+  public function getPlatforms()
+  {
+    return $this->platforms;
+  }
+  public function setPublisherIdentifiers($publisherIdentifiers)
+  {
+    $this->publisherIdentifiers = $publisherIdentifiers;
+  }
+  public function getPublisherIdentifiers()
+  {
+    return $this->publisherIdentifiers;
+  }
+  /**
+   * @param RealtimeTimeRange
+   */
+  public function setRealtimeTimeRange(RealtimeTimeRange $realtimeTimeRange)
+  {
+    $this->realtimeTimeRange = $realtimeTimeRange;
+  }
+  /**
+   * @return RealtimeTimeRange
+   */
+  public function getRealtimeTimeRange()
+  {
+    return $this->realtimeTimeRange;
+  }
+  /**
+   * @param RelativeDateRange
+   */
+  public function setRelativeDateRange(RelativeDateRange $relativeDateRange)
+  {
+    $this->relativeDateRange = $relativeDateRange;
+  }
+  /**
+   * @return RelativeDateRange
+   */
+  public function getRelativeDateRange()
+  {
+    return $this->relativeDateRange;
+  }
+  public function setSellerNetworkIds($sellerNetworkIds)
+  {
+    $this->sellerNetworkIds = $sellerNetworkIds;
+  }
+  public function getSellerNetworkIds()
+  {
+    return $this->sellerNetworkIds;
+  }
+  public function setTimeSeriesGranularity($timeSeriesGranularity)
+  {
+    $this->timeSeriesGranularity = $timeSeriesGranularity;
+  }
+  public function getTimeSeriesGranularity()
+  {
+    return $this->timeSeriesGranularity;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(FilterSet::class, 'Google_Service_AdExchangeBuyerII_FilterSet');

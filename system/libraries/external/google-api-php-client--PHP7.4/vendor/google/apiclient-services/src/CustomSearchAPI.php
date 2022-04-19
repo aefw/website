@@ -1,60 +1,340 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-os+2kG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for CustomSearchAPI (v1).
+ *
+ * <p>
+ * Searches over a website or collection of websites</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://developers.google.com/custom-search/v1/introduction" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class CustomSearchAPI extends \Google\Service
+{
+
+
+  public $cse;
+  public $cse_siterestrict;
+
+  /**
+   * Constructs the internal representation of the CustomSearchAPI service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://customsearch.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'customsearch';
+
+    $this->cse = new CustomSearchAPI\Resource\Cse(
+        $this,
+        $this->serviceName,
+        'cse',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'customsearch/v1',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'c2coff' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'cr' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'cx' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'dateRestrict' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'exactTerms' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'excludeTerms' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'fileType' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'gl' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'googlehost' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'highRange' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'hl' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'hq' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'imgColorType' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'imgDominantColor' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'imgSize' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'imgType' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'linkSite' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'lowRange' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'lr' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'num' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'orTerms' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'q' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'relatedSite' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'rights' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'safe' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'searchType' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'siteSearch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'siteSearchFilter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sort' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'start' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->cse_siterestrict = new CustomSearchAPI\Resource\CseSiterestrict(
+        $this,
+        $this->serviceName,
+        'siterestrict',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'customsearch/v1/siterestrict',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'c2coff' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'cr' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'cx' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'dateRestrict' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'exactTerms' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'excludeTerms' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'fileType' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'gl' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'googlehost' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'highRange' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'hl' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'hq' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'imgColorType' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'imgDominantColor' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'imgSize' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'imgType' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'linkSite' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'lowRange' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'lr' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'num' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'orTerms' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'q' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'relatedSite' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'rights' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'safe' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'searchType' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'siteSearch' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'siteSearchFilter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sort' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'start' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(CustomSearchAPI::class, 'Google_Service_CustomSearchAPI');

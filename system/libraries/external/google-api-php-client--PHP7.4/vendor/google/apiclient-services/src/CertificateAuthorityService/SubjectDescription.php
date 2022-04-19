@@ -1,67 +1,94 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CertificateAuthorityService;
+
+class SubjectDescription extends \Google\Model
+{
+  public $hexSerialNumber;
+  public $lifetime;
+  public $notAfterTime;
+  public $notBeforeTime;
+  protected $subjectType = Subject::class;
+  protected $subjectDataType = '';
+  protected $subjectAltNameType = SubjectAltNames::class;
+  protected $subjectAltNameDataType = '';
+
+  public function setHexSerialNumber($hexSerialNumber)
+  {
+    $this->hexSerialNumber = $hexSerialNumber;
+  }
+  public function getHexSerialNumber()
+  {
+    return $this->hexSerialNumber;
+  }
+  public function setLifetime($lifetime)
+  {
+    $this->lifetime = $lifetime;
+  }
+  public function getLifetime()
+  {
+    return $this->lifetime;
+  }
+  public function setNotAfterTime($notAfterTime)
+  {
+    $this->notAfterTime = $notAfterTime;
+  }
+  public function getNotAfterTime()
+  {
+    return $this->notAfterTime;
+  }
+  public function setNotBeforeTime($notBeforeTime)
+  {
+    $this->notBeforeTime = $notBeforeTime;
+  }
+  public function getNotBeforeTime()
+  {
+    return $this->notBeforeTime;
+  }
+  /**
+   * @param Subject
+   */
+  public function setSubject(Subject $subject)
+  {
+    $this->subject = $subject;
+  }
+  /**
+   * @return Subject
+   */
+  public function getSubject()
+  {
+    return $this->subject;
+  }
+  /**
+   * @param SubjectAltNames
+   */
+  public function setSubjectAltName(SubjectAltNames $subjectAltName)
+  {
+    $this->subjectAltName = $subjectAltName;
+  }
+  /**
+   * @return SubjectAltNames
+   */
+  public function getSubjectAltName()
+  {
+    return $this->subjectAltName;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(SubjectDescription::class, 'Google_Service_CertificateAuthorityService_SubjectDescription');

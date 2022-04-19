@@ -1,68 +1,89 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-EHlu3wjqitMlKLFSJm==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\FirebaseDynamicLinks;
+
+class DeviceInfo extends \Google\Model
+{
+  public $deviceModelName;
+  public $languageCode;
+  public $languageCodeFromWebview;
+  public $languageCodeRaw;
+  public $screenResolutionHeight;
+  public $screenResolutionWidth;
+  public $timezone;
+
+  public function setDeviceModelName($deviceModelName)
+  {
+    $this->deviceModelName = $deviceModelName;
+  }
+  public function getDeviceModelName()
+  {
+    return $this->deviceModelName;
+  }
+  public function setLanguageCode($languageCode)
+  {
+    $this->languageCode = $languageCode;
+  }
+  public function getLanguageCode()
+  {
+    return $this->languageCode;
+  }
+  public function setLanguageCodeFromWebview($languageCodeFromWebview)
+  {
+    $this->languageCodeFromWebview = $languageCodeFromWebview;
+  }
+  public function getLanguageCodeFromWebview()
+  {
+    return $this->languageCodeFromWebview;
+  }
+  public function setLanguageCodeRaw($languageCodeRaw)
+  {
+    $this->languageCodeRaw = $languageCodeRaw;
+  }
+  public function getLanguageCodeRaw()
+  {
+    return $this->languageCodeRaw;
+  }
+  public function setScreenResolutionHeight($screenResolutionHeight)
+  {
+    $this->screenResolutionHeight = $screenResolutionHeight;
+  }
+  public function getScreenResolutionHeight()
+  {
+    return $this->screenResolutionHeight;
+  }
+  public function setScreenResolutionWidth($screenResolutionWidth)
+  {
+    $this->screenResolutionWidth = $screenResolutionWidth;
+  }
+  public function getScreenResolutionWidth()
+  {
+    return $this->screenResolutionWidth;
+  }
+  public function setTimezone($timezone)
+  {
+    $this->timezone = $timezone;
+  }
+  public function getTimezone()
+  {
+    return $this->timezone;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(DeviceInfo::class, 'Google_Service_FirebaseDynamicLinks_DeviceInfo');

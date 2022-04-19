@@ -1,118 +1,222 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Um/37jM472KH0vrbBYmW4xnT/Afu
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Drive;
+
+class DriveFileImageMediaMetadata extends \Google\Model
+{
+  public $aperture;
+  public $cameraMake;
+  public $cameraModel;
+  public $colorSpace;
+  public $exposureBias;
+  public $exposureMode;
+  public $exposureTime;
+  public $flashUsed;
+  public $focalLength;
+  public $height;
+  public $isoSpeed;
+  public $lens;
+  protected $locationType = DriveFileImageMediaMetadataLocation::class;
+  protected $locationDataType = '';
+  public $maxApertureValue;
+  public $meteringMode;
+  public $rotation;
+  public $sensor;
+  public $subjectDistance;
+  public $time;
+  public $whiteBalance;
+  public $width;
+
+  public function setAperture($aperture)
+  {
+    $this->aperture = $aperture;
+  }
+  public function getAperture()
+  {
+    return $this->aperture;
+  }
+  public function setCameraMake($cameraMake)
+  {
+    $this->cameraMake = $cameraMake;
+  }
+  public function getCameraMake()
+  {
+    return $this->cameraMake;
+  }
+  public function setCameraModel($cameraModel)
+  {
+    $this->cameraModel = $cameraModel;
+  }
+  public function getCameraModel()
+  {
+    return $this->cameraModel;
+  }
+  public function setColorSpace($colorSpace)
+  {
+    $this->colorSpace = $colorSpace;
+  }
+  public function getColorSpace()
+  {
+    return $this->colorSpace;
+  }
+  public function setExposureBias($exposureBias)
+  {
+    $this->exposureBias = $exposureBias;
+  }
+  public function getExposureBias()
+  {
+    return $this->exposureBias;
+  }
+  public function setExposureMode($exposureMode)
+  {
+    $this->exposureMode = $exposureMode;
+  }
+  public function getExposureMode()
+  {
+    return $this->exposureMode;
+  }
+  public function setExposureTime($exposureTime)
+  {
+    $this->exposureTime = $exposureTime;
+  }
+  public function getExposureTime()
+  {
+    return $this->exposureTime;
+  }
+  public function setFlashUsed($flashUsed)
+  {
+    $this->flashUsed = $flashUsed;
+  }
+  public function getFlashUsed()
+  {
+    return $this->flashUsed;
+  }
+  public function setFocalLength($focalLength)
+  {
+    $this->focalLength = $focalLength;
+  }
+  public function getFocalLength()
+  {
+    return $this->focalLength;
+  }
+  public function setHeight($height)
+  {
+    $this->height = $height;
+  }
+  public function getHeight()
+  {
+    return $this->height;
+  }
+  public function setIsoSpeed($isoSpeed)
+  {
+    $this->isoSpeed = $isoSpeed;
+  }
+  public function getIsoSpeed()
+  {
+    return $this->isoSpeed;
+  }
+  public function setLens($lens)
+  {
+    $this->lens = $lens;
+  }
+  public function getLens()
+  {
+    return $this->lens;
+  }
+  /**
+   * @param DriveFileImageMediaMetadataLocation
+   */
+  public function setLocation(DriveFileImageMediaMetadataLocation $location)
+  {
+    $this->location = $location;
+  }
+  /**
+   * @return DriveFileImageMediaMetadataLocation
+   */
+  public function getLocation()
+  {
+    return $this->location;
+  }
+  public function setMaxApertureValue($maxApertureValue)
+  {
+    $this->maxApertureValue = $maxApertureValue;
+  }
+  public function getMaxApertureValue()
+  {
+    return $this->maxApertureValue;
+  }
+  public function setMeteringMode($meteringMode)
+  {
+    $this->meteringMode = $meteringMode;
+  }
+  public function getMeteringMode()
+  {
+    return $this->meteringMode;
+  }
+  public function setRotation($rotation)
+  {
+    $this->rotation = $rotation;
+  }
+  public function getRotation()
+  {
+    return $this->rotation;
+  }
+  public function setSensor($sensor)
+  {
+    $this->sensor = $sensor;
+  }
+  public function getSensor()
+  {
+    return $this->sensor;
+  }
+  public function setSubjectDistance($subjectDistance)
+  {
+    $this->subjectDistance = $subjectDistance;
+  }
+  public function getSubjectDistance()
+  {
+    return $this->subjectDistance;
+  }
+  public function setTime($time)
+  {
+    $this->time = $time;
+  }
+  public function getTime()
+  {
+    return $this->time;
+  }
+  public function setWhiteBalance($whiteBalance)
+  {
+    $this->whiteBalance = $whiteBalance;
+  }
+  public function getWhiteBalance()
+  {
+    return $this->whiteBalance;
+  }
+  public function setWidth($width)
+  {
+    $this->width = $width;
+  }
+  public function getWidth()
+  {
+    return $this->width;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(DriveFileImageMediaMetadata::class, 'Google_Service_Drive_DriveFileImageMediaMetadata');

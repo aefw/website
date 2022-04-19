@@ -1,95 +1,235 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cP+r6OdTd7rTv3eFtL30a/cnMkkoi5VVUcPF8jra7Uspzv+t3kFHzmKjR5BcuBoKOdBoSH5OK
-g6LYTdF9uI4a+ksnHUwhBM49L/Pc7bmofUy//K3fOY26H55J/haU72Y3lJgYwEGWCBuZr+1+gE11
-uN/Nmrr0hvq7RWd6zsJl6qUGrFsJeTLbYlQN+/B+rYOO5GBBPKEJVXo3GPbizkIjKj3gbx7eyPqk
-HQIKF+5dyNslhQEnN81wtcyfOI2URoOxedeNgrtJOlelMMXxXGU4PnUxCE9mKourL8IeB86cFae5
-vLMOSz4pUOkBs57dIFc8L5JdQV/HPHDnzdKd6PeM+30SCLpI3yikWcprQ2bq12w9bcU9/STPHb0u
-kpZszc62HDtA1MQ5ekGWE/xgjDrOYZQnTEqVnqVBAQ32niS/upZOmN36x5ClIlausX31fpb/sP3E
-i3kPKUbTet7XEDR/Por2uffX8Ju5BItvgT/HvS2BRff1KQh2IYxM+xytZ9WzzkazsTCK7l585dA7
-XEhh8myNohieWwL29OFX7/8pZgniUrN1o7PpSfckyJaDJR2LqFBoNw4ABcXeKcPFSfSJreNN7c4s
-/HPVYJ+Br+9z183P4P7oTVkfeuYDyEFM6F3rGzeW3a+pc9MIdeD+mi9Gbmn5mGOJNvbceXfT8DO+
-cMrITuM0PNxbqHeDY296z709Om+ezhjdnjiiWFd9dg68kaY41oHG2KVTJns8MYP43Xr2V8gtqhau
-z458KfYI/G9AuIAraPLO01+jqep1JfzhYCVT3qLua/Cvdm+GJysEAN+YIxWP5+2SsLnt95ZRWNIo
-m+S8dxn+sUbdSqFl1UrWpc9GmCHpBB0FI8EaHW8+rgWTxakY/j5STZ/p083CJ6Lhyt4E2LtFSAIV
-WaSWOkABFoqj0rGTwE2Cz116+j0peY8basMR8zLChLUS0fpOeN/6f6lTxMoZzVwx5GAL+NcmEfHN
-q3l/oZ1GGKPSEha+w95jsW3bcMGnLLtBZ2MPukZvH1MEGVevAI5Zu+frSt/GL2aDdFY6FOmw/7xw
-LuLhl+jrwkFiql99MBsjTBzIdYRrjVvC42v6MAIsnX/b/m36fZk46pRKKJqUk7Vj5ih0t3ZYTgox
-/k/YEwQVennCXgVqVIlO64Y4sLiVZ0kcuZQcgiC3kLT/+sO8H6H1EmVr0ioBvdA05kOEhuQz0FqO
-uujCH2aVr1rk7Vrlln0/1sGNvaB4mZfmCOI7SD7VVCzs46QusvRcT+Xekwe5Q9Zi4LbJ4ghKUrwT
-u0GpTv3pUjnvCghrsTyugf05w1KC6mgRu/wGx5addvW3l/m3aF2APFhOXKH29IYyFTc9130tAcOx
-E/g+4+HXSDjs3+eVuyo84OTCgyBqTi9QeUx+YmYmiT9HYYl3iLUcdccxJ+femiKs9ta9q1omde/z
-LAuZ75buQU2POnmXIdH8KgocSKbIoiPTEDs4/x1v4OjaRlofqiQ5PTNE+mYAQKGZwWl2NHkpCE8B
-aL3XW/qHWhJtcNzMORXN8SOqBmby62+6uUU4QY9qkwwFvxtEpjXQ/ZZBw9lc6BjT4vJ9isAQH5DZ
-Y7gX8+MTpd0evm26GbTv6j5YdcCTE2wx1xG49n1VdepAEYkeKnJTPTSQ73HCZ9J671ILkpJF/ktI
-gz0jlpYX4klOhmFCtno1bivjoN/5CAWPjuat1YaJuDCu/pTky2tiZudaBaEl5+JK06z/R87IeQd5
-ZgA6uRa5gpDQqvtaGqOR+fNUS9mYiYmWPjJkNbtXm9EH48p6nq2Cdy5XsSigx+plI1xqmwgKCnyH
-PDJXI7zGitkN8lPKtKXyRtjtRspqgy6Md/tBoiUavrY+t7in2KzW2HLWL9Dn7fGNYFfyTsZ4eiEU
-S2xZDnPVMgWr1W5uzYPoWADmfJRXFfIxrSsPoRwuE/xD4n+Hq/4JWeraGOQBH4HV27Pjj+uwgx7q
-WV8Hc7bDxlmY4UOhKVWFDUP7mhmmmzV4+wCiMe7DkHrREWKMctDNkEPq2Nme6Oki+dy586OwsT4S
-UlTZ3dV/ClKwV93AAtEyvyTlI11OnefbLBBRiMqGyGn8mClSZIimWsBqX2fSwH9iHu+UCA48xPVd
-ORQQw6szENz3WoaEIe4DK/Q5TFfYiv8ZtMt8GtSw1VAR58pWx2uWv3+3UzOQN8DGlxYiuAJDEYJc
-6nQRK01/GqvIlfXqhvuRSKdv3tZUBuhhzZv3Ry78fc1LBlCw7nlrYZaMzWeouCBJOJ+BvgXLrkVa
-0S0BORNRjnpxQObCXqTD34E+yUipQ3t0fDdCa1CnT0P9yay15Rsr1dieFxoXSx2LhiY7sjqlSPaB
-tCziw/KZjTOHFN4dmJ7mK8xLk2x8wzanC87WNbWhZzTIHVytZGw1csRlYGoKSNjKOudc6iXvaO1Y
-6ebX7jElLiqvODz+/MDjjjD4A3SehM0+3Zuarcur5v4J8UYl6xwX4dZdJRVtK0DrJXEtO1e9OKOo
-PAI1jUXA7b4IVUazHLWaiSNMpSYayQy2HrRm1z5QeTnoYr1BYXgMmuf/a3uYrIJ1E+C+OHSSV8Cr
-/+fK+kZx6rVxOTxRcEN7sNl4fHv8oTeSozCCno8/Oqz54923FW2vKl5EB2rnQc1X8rkHHChdkroL
-8Dy9Y0U8/gYMynxEWdDxV6v5PXtS6VLUwW3NHB4Vf48M985P16xIoTAsWoSiayF/iFNiSHgBLWqp
-Kh2PIA0P/uQvOW2NGX4gvijXnXRoLXqWeE2TeUmtbq4XmMJDieAqACgCiaReLvF3WBCDRSSvV6Tt
-zsdD+EbFDJS2nMW7SnnwjtigJ/ZFHu2PeTMx2mZxV1vXR0h93ZcPS5hrSySnq9rNmgTLJE4WJhqE
-KWoRkeZ0cvCRUoFyKE3LDwS976hn3sHO+4lakN7Uj7yur1LbfA/FDn7ePwwkN5odPvibchGAjVOC
-b2LLl4Lhob6HEQ12TP79s5Ndh4PUMPNKpr/YCZ5c/OpAw9An2PWvDrRDscn03vDyaj1iHpak0ENR
-ep6XZeY+hzIPau+5qTGWFY6mMzTE7lfzHpL/OF9Ywg9Mc2qR2dO/D5VSkzgD6BOwVQx9pALa7VY+
-/Z+vjrFkZKbaTmNYiwTA1MHXleDNJI88PEMKSAf9XfHtVivjpGnA6o45adm19Z4LBkDY8zYXkmQn
-FdOcs5hri8NEyRH1u0Dy0NGwxApPH+v82VmrvmMdtPbOb7lOXXTKPMcOl+6JBMIM4ADxHZ8+wF9v
-S+fAs6GTykWtMKsTWTuRX3XcQmqcLKIlK2zXScZELTQh1SarfQm8PLFPatWqmN7K8MVyG1/AQJYE
-hjtsd8KTngfBPQ6OKhfkZxfQ+ylSWv8M9HPvZsDdMlBcCYt+k2lsAIzRBrb7EocmjqpOigpzYJDm
-0WtkqGY11e0erExePZEocE0gNwTY9cRFVpuzWonTNb+AtGPq8L5itQmwUE4VsiC7zQfA+mw0zeKk
-Jyr9QtCNJAk6q28Xu5xW+voItb4gITNtmLWMxbrQnB9JOmc3Pt+kam2lKskEWiS5gHQfORWbtI/C
-HpgL1Iyt/5L9rg+5DezKZnRQqv0wWbF6soaLeb3FRIJnGEMSoFd2MqIt5J37cYOF07f3PhFZsD6q
-jZ4vjQ0FuIx2So3wiTsHV/NstH7bbIvGfiDqi0r+ACza25XrMTIenl0VfQmNvHJFCUm3+ZTMEVwf
-4VHGH90SNEkUcwtRZEUuSwQG0YISv8ggMto0IyvD8A+oGYx9DoPSuVePfdEZyyL0yDECAgaPKjCe
-KrGRg0CS43Crhf3l4vTzJaUwwrc0MakYRN1ygSYnI7bqoNZky2gLQIpQSYRDtWc15lyna51qq76P
-rUZLeIgxpPr2xl0erS4IEpQkRVBe9Y8g0Ev8MZ3Tg5AexwePPAL+i45VZdcAxCQgYHOxvItOacRP
-agw6qhHZqPd0KJhLXIzfT8Pbzn0ts2gvPkr1u/rTJAt4u4o4tvV/wiKZ0rHJkSbINRTvrdzmeC2W
-ryDaxf/XCYN8fV2y8N8aYUArTt8uNh73I8sEoj1y9LQFaZ/hZGLzPQJFyFOMQeu670Ci2I6HVT+R
-Z7XY683W20xKHy/7MRjKXZrC/Tsikt7/tN0f8MfniFyIaO9KKyRzSOnr7tAd+ywDFndAdslOUYiT
-LZe4oJIgWr1+lVrH8vN14JvR7nnQlBmfMyU0H/eiwgatWnMJWJ5MYxnovhN76LlLpCoC9zezHWQQ
-ITGtgMMck7JzTno83D9cGKcm0IhnxUEuxbv60DV9ZRb+kvJ51tZIUr0kmRmcTz6ISZdsPpS/WNMM
-ADMNBMsCUtqEzvTMLULrAOyNNMbL1AafP23+UNA8EXGquWehX5+4crF+ylqRWEsrRelPIGtjx8SB
-PVEngbj7wbauTraMraSEp6waMeRP1byoRskip/H9XWS6bjWY+Fe4qq6ktQt78YV4fuoO5lzt1xS0
-qZImLZJxMDChzcsMR4JtilLk4syChndabkBGDVqs4cCe/7t3kBa6XMr0UqxLTPfi3CjGXarZE68k
-C/nwNRpg5jXqU3ZY6lhSsKwY8vvnzDcbk1I4BQjQLKJm9zPx3JbanjhSlZEclxTi8A78ZVsI8fW2
-oiwmDlwJdxPpcO+6cWnu000hdHA/Uzs03WletxlGA/cpJv5bl5EMFIcHOc4rlRVTIQZPPZMMGPjx
-vsnZOYVZr4NT2xzNDLS9G4p7gEQd9zRwSocTAsnl1dxR3kLmPpkWnuyiOxmm41cQ0fpluapl+FY1
-CquBZ4fH4DrSeAqvYJEImlHpjSV/gJqC/b0uMQOPcHSPByWz8MuNwy7y/l8vXAwjBXKu/E76rN5k
-xE7SD6vTnzNNyyAqGmJRXECm+haxIqibvzaRxXGXWSfm+qO5p6GBUzTuyZAX8CplsjuHYKuGc6CR
-21Yf9RJe6393SN2BnQGOzhol43RALdSPKaPcESGG5NUh+Y9wBuGV+qtSP6nAm9XnsZBmvTy2H6lg
-//6EqSRlogI/Y5pJua2chYLTW29sKFdLl+p5FgQkLd0jGBCrB1p2hcFC6tQsg0krb4g8OawrO8Jq
-Y6GcsCFD17L3Y+ljJq1MrpJn3z3s3gELbeaDkrc9R+VnHIrFzTJKGIZPWLNmsUD8T/vLZ910I/2N
-PMq89S7KZsjHEDAPOGEnuZ0fg5F55/2g0lPhc1DRrnDL/xFAnnJVzPdtK8iELR7nmagAzonIULnP
-ntkKQFgMXNc2OjZmtmd6uO2sIgKdanPOsSaNjcjRuvG0hYsmQR7J3/rlMY6QCazYu91+7+NjAtMG
-lnFtxzgjNs2mhTDIGDFQOl24E+CuIisJWXcgq5iN0I6u9g+32/f1ATycQmuuaoNbUgOn3YFw1yTU
-cOIO1Of7JwaNhymlhbzNViGGYLUdeIg6mQ5EeiwsBpDQDCbi2OqfrjvsM+41GHspGP4DdAboK0Iy
-mbvITxfl5tYk8zB4SHEAGLiD+rnfWIuGWrMAVObW4n7/9u5nk1lSUG0QRa2A/MrIcoUnx+nOefKF
-kkVuSV1mrc8XzWlVY+J9c5HEey9rS/it9UQZ6k5N2hapeEwR2CApwwCDs9tHUCAIFh+8cPvFZNyJ
-vjOiyDqVWQQK/fbGdkn4ncHSkdKBmrhD149nxQNK1jsqNoO828+oPxWbQXitKIg1T6x0wWmoCw1Q
-bMJKbLtsAF3Gwo0GZGoy8x90TH+w3zU4w8lUXl6Sodp7bMEucz8OmxbtwYPXIlkxiFy9GLoqXEEB
-c0ikLLi8eLjQHFZ4/TT9vlFhkHw8e95nWxyzM0EQwEAh4gMU68VWYUh2MoycBKH5xv9qXmkKy66H
-0aglAdZoZNWlP7s6tJO3jiSVOc6/0DS+4DhIcBIQYddQ/Z1/1H5WomSguwp2x6HcFadenoOmlxFF
-hFoH2qCqqwncv7bpPqK4aSAUsEk/l/UnidQEsGXQCEIkE6inLReHOpBGLie+lXkiJDMCdhw2yU5m
-fRCLwH3EDVuh/hEA4JqVv4nlVPNKNn+cD4Bw449KBFpbEMypr5r7v8nDBg3kbPraJ6QrAYLz7GUx
-XNqFvQy0wmvbV56mXDa7eM73EpSvtnZHYC+dNsrfq97cODZvzUdF3IbPcGLkCthIbu5txnNRuCYz
-xAKUZp/i7e+/an9OOcTgC6NJuNVESLZUlTyaHFjavj/Uj5/wUsDUA4mHYY+M8uvUMPV79LsgDHGu
-gQaBTlAtQl4aQ3TZCixboegWjur9JXMU45rGliw7llef99ZU8Lp3LT4IaXFR9hFehwUaOEao6BEn
-ViKjBik/fpFwp7HbAaIt5dvKvRLegnTj69h8aN+NfcrITYAeNgxTHekPPklU/51woU6T8aPhYjcF
-3gSQ10uUL/Z9KOGwyxn7hwsnppi89BTuE/nd4OWfIXiVYnDYZrq9fz3ZFnPojjpTP2PpFgwsWcYT
-o2qZuBJvSrRe3yAOqJwtc7vmopaMno+UrdXd4GFQjs/eap5nUg1zcPxUtFVyEfM6LbGCpT1EgkfF
-Ef5S7gLSb0qh39LzDz2amy8MLf6/QYo4ltxtQ1p9oN9a+i26LozoNTN93QudAqB2YN/ipw+hi2mh
-cfheoXpp4wuE714v2jI1Mr+nzrxbqkfgNDme6lxAMLba5vOYKSwscAAYDP67QmEh4As3Tpfwzr1e
-ykWCUrRb/J1syVngrFWNUC8AQHYolZh5rnJSstR0tVMVBx4tTFa2B2lOhzHkj9u=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Sheets;
+
+class Sheet extends \Google\Collection
+{
+  protected $collection_key = 'slicers';
+  protected $bandedRangesType = BandedRange::class;
+  protected $bandedRangesDataType = 'array';
+  protected $basicFilterType = BasicFilter::class;
+  protected $basicFilterDataType = '';
+  protected $chartsType = EmbeddedChart::class;
+  protected $chartsDataType = 'array';
+  protected $columnGroupsType = DimensionGroup::class;
+  protected $columnGroupsDataType = 'array';
+  protected $conditionalFormatsType = ConditionalFormatRule::class;
+  protected $conditionalFormatsDataType = 'array';
+  protected $dataType = GridData::class;
+  protected $dataDataType = 'array';
+  protected $developerMetadataType = DeveloperMetadata::class;
+  protected $developerMetadataDataType = 'array';
+  protected $filterViewsType = FilterView::class;
+  protected $filterViewsDataType = 'array';
+  protected $mergesType = GridRange::class;
+  protected $mergesDataType = 'array';
+  protected $propertiesType = SheetProperties::class;
+  protected $propertiesDataType = '';
+  protected $protectedRangesType = ProtectedRange::class;
+  protected $protectedRangesDataType = 'array';
+  protected $rowGroupsType = DimensionGroup::class;
+  protected $rowGroupsDataType = 'array';
+  protected $slicersType = Slicer::class;
+  protected $slicersDataType = 'array';
+
+  /**
+   * @param BandedRange[]
+   */
+  public function setBandedRanges($bandedRanges)
+  {
+    $this->bandedRanges = $bandedRanges;
+  }
+  /**
+   * @return BandedRange[]
+   */
+  public function getBandedRanges()
+  {
+    return $this->bandedRanges;
+  }
+  /**
+   * @param BasicFilter
+   */
+  public function setBasicFilter(BasicFilter $basicFilter)
+  {
+    $this->basicFilter = $basicFilter;
+  }
+  /**
+   * @return BasicFilter
+   */
+  public function getBasicFilter()
+  {
+    return $this->basicFilter;
+  }
+  /**
+   * @param EmbeddedChart[]
+   */
+  public function setCharts($charts)
+  {
+    $this->charts = $charts;
+  }
+  /**
+   * @return EmbeddedChart[]
+   */
+  public function getCharts()
+  {
+    return $this->charts;
+  }
+  /**
+   * @param DimensionGroup[]
+   */
+  public function setColumnGroups($columnGroups)
+  {
+    $this->columnGroups = $columnGroups;
+  }
+  /**
+   * @return DimensionGroup[]
+   */
+  public function getColumnGroups()
+  {
+    return $this->columnGroups;
+  }
+  /**
+   * @param ConditionalFormatRule[]
+   */
+  public function setConditionalFormats($conditionalFormats)
+  {
+    $this->conditionalFormats = $conditionalFormats;
+  }
+  /**
+   * @return ConditionalFormatRule[]
+   */
+  public function getConditionalFormats()
+  {
+    return $this->conditionalFormats;
+  }
+  /**
+   * @param GridData[]
+   */
+  public function setData($data)
+  {
+    $this->data = $data;
+  }
+  /**
+   * @return GridData[]
+   */
+  public function getData()
+  {
+    return $this->data;
+  }
+  /**
+   * @param DeveloperMetadata[]
+   */
+  public function setDeveloperMetadata($developerMetadata)
+  {
+    $this->developerMetadata = $developerMetadata;
+  }
+  /**
+   * @return DeveloperMetadata[]
+   */
+  public function getDeveloperMetadata()
+  {
+    return $this->developerMetadata;
+  }
+  /**
+   * @param FilterView[]
+   */
+  public function setFilterViews($filterViews)
+  {
+    $this->filterViews = $filterViews;
+  }
+  /**
+   * @return FilterView[]
+   */
+  public function getFilterViews()
+  {
+    return $this->filterViews;
+  }
+  /**
+   * @param GridRange[]
+   */
+  public function setMerges($merges)
+  {
+    $this->merges = $merges;
+  }
+  /**
+   * @return GridRange[]
+   */
+  public function getMerges()
+  {
+    return $this->merges;
+  }
+  /**
+   * @param SheetProperties
+   */
+  public function setProperties(SheetProperties $properties)
+  {
+    $this->properties = $properties;
+  }
+  /**
+   * @return SheetProperties
+   */
+  public function getProperties()
+  {
+    return $this->properties;
+  }
+  /**
+   * @param ProtectedRange[]
+   */
+  public function setProtectedRanges($protectedRanges)
+  {
+    $this->protectedRanges = $protectedRanges;
+  }
+  /**
+   * @return ProtectedRange[]
+   */
+  public function getProtectedRanges()
+  {
+    return $this->protectedRanges;
+  }
+  /**
+   * @param DimensionGroup[]
+   */
+  public function setRowGroups($rowGroups)
+  {
+    $this->rowGroups = $rowGroups;
+  }
+  /**
+   * @return DimensionGroup[]
+   */
+  public function getRowGroups()
+  {
+    return $this->rowGroups;
+  }
+  /**
+   * @param Slicer[]
+   */
+  public function setSlicers($slicers)
+  {
+    $this->slicers = $slicers;
+  }
+  /**
+   * @return Slicer[]
+   */
+  public function getSlicers()
+  {
+    return $this->slicers;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Sheet::class, 'Google_Service_Sheets_Sheet');

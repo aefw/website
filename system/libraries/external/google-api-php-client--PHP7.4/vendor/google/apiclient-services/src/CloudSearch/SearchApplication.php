@@ -1,80 +1,143 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Psys6W==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudSearch;
+
+class SearchApplication extends \Google\Collection
+{
+  protected $collection_key = 'sourceConfig';
+  protected $dataSourceRestrictionsType = DataSourceRestriction::class;
+  protected $dataSourceRestrictionsDataType = 'array';
+  protected $defaultFacetOptionsType = FacetOptions::class;
+  protected $defaultFacetOptionsDataType = 'array';
+  protected $defaultSortOptionsType = SortOptions::class;
+  protected $defaultSortOptionsDataType = '';
+  public $displayName;
+  public $enableAuditLog;
+  public $name;
+  public $operationIds;
+  protected $scoringConfigType = ScoringConfig::class;
+  protected $scoringConfigDataType = '';
+  protected $sourceConfigType = SourceConfig::class;
+  protected $sourceConfigDataType = 'array';
+
+  /**
+   * @param DataSourceRestriction[]
+   */
+  public function setDataSourceRestrictions($dataSourceRestrictions)
+  {
+    $this->dataSourceRestrictions = $dataSourceRestrictions;
+  }
+  /**
+   * @return DataSourceRestriction[]
+   */
+  public function getDataSourceRestrictions()
+  {
+    return $this->dataSourceRestrictions;
+  }
+  /**
+   * @param FacetOptions[]
+   */
+  public function setDefaultFacetOptions($defaultFacetOptions)
+  {
+    $this->defaultFacetOptions = $defaultFacetOptions;
+  }
+  /**
+   * @return FacetOptions[]
+   */
+  public function getDefaultFacetOptions()
+  {
+    return $this->defaultFacetOptions;
+  }
+  /**
+   * @param SortOptions
+   */
+  public function setDefaultSortOptions(SortOptions $defaultSortOptions)
+  {
+    $this->defaultSortOptions = $defaultSortOptions;
+  }
+  /**
+   * @return SortOptions
+   */
+  public function getDefaultSortOptions()
+  {
+    return $this->defaultSortOptions;
+  }
+  public function setDisplayName($displayName)
+  {
+    $this->displayName = $displayName;
+  }
+  public function getDisplayName()
+  {
+    return $this->displayName;
+  }
+  public function setEnableAuditLog($enableAuditLog)
+  {
+    $this->enableAuditLog = $enableAuditLog;
+  }
+  public function getEnableAuditLog()
+  {
+    return $this->enableAuditLog;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setOperationIds($operationIds)
+  {
+    $this->operationIds = $operationIds;
+  }
+  public function getOperationIds()
+  {
+    return $this->operationIds;
+  }
+  /**
+   * @param ScoringConfig
+   */
+  public function setScoringConfig(ScoringConfig $scoringConfig)
+  {
+    $this->scoringConfig = $scoringConfig;
+  }
+  /**
+   * @return ScoringConfig
+   */
+  public function getScoringConfig()
+  {
+    return $this->scoringConfig;
+  }
+  /**
+   * @param SourceConfig[]
+   */
+  public function setSourceConfig($sourceConfig)
+  {
+    $this->sourceConfig = $sourceConfig;
+  }
+  /**
+   * @return SourceConfig[]
+   */
+  public function getSourceConfig()
+  {
+    return $this->sourceConfig;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(SearchApplication::class, 'Google_Service_CloudSearch_SearchApplication');

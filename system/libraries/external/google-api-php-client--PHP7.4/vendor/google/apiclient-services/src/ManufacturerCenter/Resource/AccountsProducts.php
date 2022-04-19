@@ -1,66 +1,141 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ManufacturerCenter\Resource;
+
+use Google\Service\ManufacturerCenter\Attributes;
+use Google\Service\ManufacturerCenter\ListProductsResponse;
+use Google\Service\ManufacturerCenter\ManufacturersEmpty;
+use Google\Service\ManufacturerCenter\Product;
+
+/**
+ * The "products" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $manufacturersService = new Google\Service\ManufacturerCenter(...);
+ *   $products = $manufacturersService->products;
+ *  </code>
+ */
+class AccountsProducts extends \Google\Service\Resource
+{
+  /**
+   * Deletes the product from a Manufacturer Center account. (products.delete)
+   *
+   * @param string $parent Parent ID in the format `accounts/{account_id}`.
+   * `account_id` - The ID of the Manufacturer Center account.
+   * @param string $name Name in the format
+   * `{target_country}:{content_language}:{product_id}`. `target_country` - The
+   * target country of the product as a CLDR territory code (for example, US).
+   * `content_language` - The content language of the product as a two-letter ISO
+   * 639-1 language code (for example, en). `product_id` - The ID of the product.
+   * For more information, see
+   * https://support.google.com/manufacturers/answer/6124116#id.
+   * @param array $optParams Optional parameters.
+   * @return ManufacturersEmpty
+   */
+  public function delete($parent, $name, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], ManufacturersEmpty::class);
+  }
+  /**
+   * Gets the product from a Manufacturer Center account, including product
+   * issues. A recently updated product takes around 15 minutes to process.
+   * Changes are only visible after it has been processed. While some issues may
+   * be available once the product has been processed, other issues may take days
+   * to appear. (products.get)
+   *
+   * @param string $parent Parent ID in the format `accounts/{account_id}`.
+   * `account_id` - The ID of the Manufacturer Center account.
+   * @param string $name Name in the format
+   * `{target_country}:{content_language}:{product_id}`. `target_country` - The
+   * target country of the product as a CLDR territory code (for example, US).
+   * `content_language` - The content language of the product as a two-letter ISO
+   * 639-1 language code (for example, en). `product_id` - The ID of the product.
+   * For more information, see
+   * https://support.google.com/manufacturers/answer/6124116#id.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string include The information to be included in the response.
+   * Only sections listed here will be returned.
+   * @return Product
+   */
+  public function get($parent, $name, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Product::class);
+  }
+  /**
+   * Lists all the products in a Manufacturer Center account.
+   * (products.listAccountsProducts)
+   *
+   * @param string $parent Parent ID in the format `accounts/{account_id}`.
+   * `account_id` - The ID of the Manufacturer Center account.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string include The information to be included in the response.
+   * Only sections listed here will be returned.
+   * @opt_param int pageSize Maximum number of product statuses to return in the
+   * response, used for paging.
+   * @opt_param string pageToken The token returned by the previous request.
+   * @return ListProductsResponse
+   */
+  public function listAccountsProducts($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListProductsResponse::class);
+  }
+  /**
+   * Inserts or updates the attributes of the product in a Manufacturer Center
+   * account. Creates a product with the provided attributes. If the product
+   * already exists, then all attributes are replaced with the new ones. The
+   * checks at upload time are minimal. All required attributes need to be present
+   * for a product to be valid. Issues may show up later after the API has
+   * accepted a new upload for a product and it is possible to overwrite an
+   * existing valid product with an invalid product. To detect this, you should
+   * retrieve the product and check it for issues once the new version is
+   * available. Uploaded attributes first need to be processed before they can be
+   * retrieved. Until then, new products will be unavailable, and retrieval of
+   * previously uploaded products will return the original state of the product.
+   * (products.update)
+   *
+   * @param string $parent Parent ID in the format `accounts/{account_id}`.
+   * `account_id` - The ID of the Manufacturer Center account.
+   * @param string $name Name in the format
+   * `{target_country}:{content_language}:{product_id}`. `target_country` - The
+   * target country of the product as a CLDR territory code (for example, US).
+   * `content_language` - The content language of the product as a two-letter ISO
+   * 639-1 language code (for example, en). `product_id` - The ID of the product.
+   * For more information, see
+   * https://support.google.com/manufacturers/answer/6124116#id.
+   * @param Attributes $postBody
+   * @param array $optParams Optional parameters.
+   * @return ManufacturersEmpty
+   */
+  public function update($parent, $name, Attributes $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], ManufacturersEmpty::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AccountsProducts::class, 'Google_Service_ManufacturerCenter_Resource_AccountsProducts');

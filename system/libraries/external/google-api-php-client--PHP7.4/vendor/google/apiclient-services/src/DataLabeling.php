@@ -1,117 +1,863 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-5oYNfUwwL4U/a1KAfmV2dmq=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for DataLabeling (v1beta1).
+ *
+ * <p>
+ * Public API for Google Cloud AI Data Labeling Service.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/data-labeling/docs/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class DataLabeling extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+
+  public $projects_annotationSpecSets;
+  public $projects_datasets;
+  public $projects_datasets_annotatedDatasets;
+  public $projects_datasets_annotatedDatasets_dataItems;
+  public $projects_datasets_annotatedDatasets_examples;
+  public $projects_datasets_annotatedDatasets_feedbackThreads;
+  public $projects_datasets_annotatedDatasets_feedbackThreads_feedbackMessages;
+  public $projects_datasets_dataItems;
+  public $projects_datasets_evaluations;
+  public $projects_datasets_evaluations_exampleComparisons;
+  public $projects_datasets_image;
+  public $projects_datasets_text;
+  public $projects_datasets_video;
+  public $projects_evaluationJobs;
+  public $projects_evaluations;
+  public $projects_instructions;
+  public $projects_operations;
+
+  /**
+   * Constructs the internal representation of the DataLabeling service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://datalabeling.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1beta1';
+    $this->serviceName = 'datalabeling';
+
+    $this->projects_annotationSpecSets = new DataLabeling\Resource\ProjectsAnnotationSpecSets(
+        $this,
+        $this->serviceName,
+        'annotationSpecSets',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1beta1/{+parent}/annotationSpecSets',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1beta1/{+parent}/annotationSpecSets',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_datasets = new DataLabeling\Resource\ProjectsDatasets(
+        $this,
+        $this->serviceName,
+        'datasets',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1beta1/{+parent}/datasets',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'exportData' => [
+              'path' => 'v1beta1/{+name}:exportData',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'importData' => [
+              'path' => 'v1beta1/{+name}:importData',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1beta1/{+parent}/datasets',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_datasets_annotatedDatasets = new DataLabeling\Resource\ProjectsDatasetsAnnotatedDatasets(
+        $this,
+        $this->serviceName,
+        'annotatedDatasets',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1beta1/{+parent}/annotatedDatasets',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_datasets_annotatedDatasets_dataItems = new DataLabeling\Resource\ProjectsDatasetsAnnotatedDatasetsDataItems(
+        $this,
+        $this->serviceName,
+        'dataItems',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1beta1/{+parent}/dataItems',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_datasets_annotatedDatasets_examples = new DataLabeling\Resource\ProjectsDatasetsAnnotatedDatasetsExamples(
+        $this,
+        $this->serviceName,
+        'examples',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1beta1/{+parent}/examples',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_datasets_annotatedDatasets_feedbackThreads = new DataLabeling\Resource\ProjectsDatasetsAnnotatedDatasetsFeedbackThreads(
+        $this,
+        $this->serviceName,
+        'feedbackThreads',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1beta1/{+parent}/feedbackThreads',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_datasets_annotatedDatasets_feedbackThreads_feedbackMessages = new DataLabeling\Resource\ProjectsDatasetsAnnotatedDatasetsFeedbackThreadsFeedbackMessages(
+        $this,
+        $this->serviceName,
+        'feedbackMessages',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1beta1/{+parent}/feedbackMessages',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1beta1/{+parent}/feedbackMessages',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_datasets_dataItems = new DataLabeling\Resource\ProjectsDatasetsDataItems(
+        $this,
+        $this->serviceName,
+        'dataItems',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1beta1/{+parent}/dataItems',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_datasets_evaluations = new DataLabeling\Resource\ProjectsDatasetsEvaluations(
+        $this,
+        $this->serviceName,
+        'evaluations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_datasets_evaluations_exampleComparisons = new DataLabeling\Resource\ProjectsDatasetsEvaluationsExampleComparisons(
+        $this,
+        $this->serviceName,
+        'exampleComparisons',
+        [
+          'methods' => [
+            'search' => [
+              'path' => 'v1beta1/{+parent}/exampleComparisons:search',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_datasets_image = new DataLabeling\Resource\ProjectsDatasetsImage(
+        $this,
+        $this->serviceName,
+        'image',
+        [
+          'methods' => [
+            'label' => [
+              'path' => 'v1beta1/{+parent}/image:label',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_datasets_text = new DataLabeling\Resource\ProjectsDatasetsText(
+        $this,
+        $this->serviceName,
+        'text',
+        [
+          'methods' => [
+            'label' => [
+              'path' => 'v1beta1/{+parent}/text:label',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_datasets_video = new DataLabeling\Resource\ProjectsDatasetsVideo(
+        $this,
+        $this->serviceName,
+        'video',
+        [
+          'methods' => [
+            'label' => [
+              'path' => 'v1beta1/{+parent}/video:label',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_evaluationJobs = new DataLabeling\Resource\ProjectsEvaluationJobs(
+        $this,
+        $this->serviceName,
+        'evaluationJobs',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1beta1/{+parent}/evaluationJobs',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1beta1/{+parent}/evaluationJobs',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'pause' => [
+              'path' => 'v1beta1/{+name}:pause',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'resume' => [
+              'path' => 'v1beta1/{+name}:resume',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_evaluations = new DataLabeling\Resource\ProjectsEvaluations(
+        $this,
+        $this->serviceName,
+        'evaluations',
+        [
+          'methods' => [
+            'search' => [
+              'path' => 'v1beta1/{+parent}/evaluations:search',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_instructions = new DataLabeling\Resource\ProjectsInstructions(
+        $this,
+        $this->serviceName,
+        'instructions',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1beta1/{+parent}/instructions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1beta1/{+parent}/instructions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_operations = new DataLabeling\Resource\ProjectsOperations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'cancel' => [
+              'path' => 'v1beta1/{+name}:cancel',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1beta1/{+name}/operations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(DataLabeling::class, 'Google_Service_DataLabeling');

@@ -1,75 +1,424 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-QsX6V91CJAtanSMFt3wnun+LZm==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for CloudTalentSolution (v4).
+ *
+ * <p>
+ * Cloud Talent Solution provides the capability to create, read, update, and
+ * delete job postings, as well as search jobs based on keywords and filters.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/talent-solution/job-search/docs/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class CloudTalentSolution extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+  /** Manage job postings. */
+  const JOBS =
+      "https://www.googleapis.com/auth/jobs";
+
+  public $projects_operations;
+  public $projects_tenants;
+  public $projects_tenants_clientEvents;
+  public $projects_tenants_companies;
+  public $projects_tenants_jobs;
+
+  /**
+   * Constructs the internal representation of the CloudTalentSolution service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://jobs.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v4';
+    $this->serviceName = 'jobs';
+
+    $this->projects_operations = new CloudTalentSolution\Resource\ProjectsOperations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v4/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_tenants = new CloudTalentSolution\Resource\ProjectsTenants(
+        $this,
+        $this->serviceName,
+        'tenants',
+        [
+          'methods' => [
+            'completeQuery' => [
+              'path' => 'v4/{+tenant}:completeQuery',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'tenant' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'company' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'languageCodes' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'query' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'scope' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'type' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v4/{+parent}/tenants',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v4/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v4/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v4/{+parent}/tenants',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v4/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_tenants_clientEvents = new CloudTalentSolution\Resource\ProjectsTenantsClientEvents(
+        $this,
+        $this->serviceName,
+        'clientEvents',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v4/{+parent}/clientEvents',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_tenants_companies = new CloudTalentSolution\Resource\ProjectsTenantsCompanies(
+        $this,
+        $this->serviceName,
+        'companies',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v4/{+parent}/companies',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v4/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v4/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v4/{+parent}/companies',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'requireOpenJobs' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v4/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_tenants_jobs = new CloudTalentSolution\Resource\ProjectsTenantsJobs(
+        $this,
+        $this->serviceName,
+        'jobs',
+        [
+          'methods' => [
+            'batchCreate' => [
+              'path' => 'v4/{+parent}/jobs:batchCreate',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'batchDelete' => [
+              'path' => 'v4/{+parent}/jobs:batchDelete',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'batchUpdate' => [
+              'path' => 'v4/{+parent}/jobs:batchUpdate',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v4/{+parent}/jobs',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v4/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v4/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v4/{+parent}/jobs',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'jobView' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v4/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'search' => [
+              'path' => 'v4/{+parent}/jobs:search',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'searchForAlert' => [
+              'path' => 'v4/{+parent}/jobs:searchForAlert',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(CloudTalentSolution::class, 'Google_Service_CloudTalentSolution');

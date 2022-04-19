@@ -1,96 +1,253 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CertificateAuthorityService\Resource;
+
+use Google\Service\CertificateAuthorityService\ActivateCertificateAuthorityRequest;
+use Google\Service\CertificateAuthorityService\CertificateAuthority;
+use Google\Service\CertificateAuthorityService\DisableCertificateAuthorityRequest;
+use Google\Service\CertificateAuthorityService\EnableCertificateAuthorityRequest;
+use Google\Service\CertificateAuthorityService\FetchCertificateAuthorityCsrResponse;
+use Google\Service\CertificateAuthorityService\ListCertificateAuthoritiesResponse;
+use Google\Service\CertificateAuthorityService\Operation;
+use Google\Service\CertificateAuthorityService\UndeleteCertificateAuthorityRequest;
+
+/**
+ * The "certificateAuthorities" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $privatecaService = new Google\Service\CertificateAuthorityService(...);
+ *   $certificateAuthorities = $privatecaService->certificateAuthorities;
+ *  </code>
+ */
+class ProjectsLocationsCaPoolsCertificateAuthorities extends \Google\Service\Resource
+{
+  /**
+   * Activate a CertificateAuthority that is in state AWAITING_USER_ACTIVATION and
+   * is of type SUBORDINATE. After the parent Certificate Authority signs a
+   * certificate signing request from FetchCertificateAuthorityCsr, this method
+   * can complete the activation process. (certificateAuthorities.activate)
+   *
+   * @param string $name Required. The resource name for this CertificateAuthority
+   * in the format `projects/locations/caPools/certificateAuthorities`.
+   * @param ActivateCertificateAuthorityRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function activate($name, ActivateCertificateAuthorityRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('activate', [$params], Operation::class);
+  }
+  /**
+   * Create a new CertificateAuthority in a given Project and Location.
+   * (certificateAuthorities.create)
+   *
+   * @param string $parent Required. The resource name of the CaPool associated
+   * with the CertificateAuthorities, in the format `projects/locations/caPools`.
+   * @param CertificateAuthority $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string certificateAuthorityId Required. It must be unique within a
+   * location and match the regular expression `[a-zA-Z0-9_-]{1,63}`
+   * @opt_param string requestId Optional. An ID to identify requests. Specify a
+   * unique request ID so that if you must retry your request, the server will
+   * know to ignore the request if it has already been completed. The server will
+   * guarantee that for at least 60 minutes since the first request. For example,
+   * consider a situation where you make an initial request and t he request times
+   * out. If you make the request again with the same request ID, the server can
+   * check if original operation with the same request ID was received, and if so,
+   * will ignore the second request. This prevents clients from accidentally
+   * creating duplicate commitments. The request ID must be a valid UUID with the
+   * exception that zero UUID is not supported
+   * (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function create($parent, CertificateAuthority $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Operation::class);
+  }
+  /**
+   * Delete a CertificateAuthority. (certificateAuthorities.delete)
+   *
+   * @param string $name Required. The resource name for this CertificateAuthority
+   * in the format `projects/locations/caPools/certificateAuthorities`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool ignoreActiveCertificates Optional. This field allows the CA
+   * to be deleted even if the CA has active certs. Active certs include both
+   * unrevoked and unexpired certs.
+   * @opt_param string requestId Optional. An ID to identify requests. Specify a
+   * unique request ID so that if you must retry your request, the server will
+   * know to ignore the request if it has already been completed. The server will
+   * guarantee that for at least 60 minutes since the first request. For example,
+   * consider a situation where you make an initial request and t he request times
+   * out. If you make the request again with the same request ID, the server can
+   * check if original operation with the same request ID was received, and if so,
+   * will ignore the second request. This prevents clients from accidentally
+   * creating duplicate commitments. The request ID must be a valid UUID with the
+   * exception that zero UUID is not supported
+   * (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Disable a CertificateAuthority. (certificateAuthorities.disable)
+   *
+   * @param string $name Required. The resource name for this CertificateAuthority
+   * in the format `projects/locations/caPools/certificateAuthorities`.
+   * @param DisableCertificateAuthorityRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function disable($name, DisableCertificateAuthorityRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('disable', [$params], Operation::class);
+  }
+  /**
+   * Enable a CertificateAuthority. (certificateAuthorities.enable)
+   *
+   * @param string $name Required. The resource name for this CertificateAuthority
+   * in the format `projects/locations/caPools/certificateAuthorities`.
+   * @param EnableCertificateAuthorityRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function enable($name, EnableCertificateAuthorityRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('enable', [$params], Operation::class);
+  }
+  /**
+   * Fetch a certificate signing request (CSR) from a CertificateAuthority that is
+   * in state AWAITING_USER_ACTIVATION and is of type SUBORDINATE. The CSR must
+   * then be signed by the desired parent Certificate Authority, which could be
+   * another CertificateAuthority resource, or could be an on-prem certificate
+   * authority. See also ActivateCertificateAuthority.
+   * (certificateAuthorities.fetch)
+   *
+   * @param string $name Required. The resource name for this CertificateAuthority
+   * in the format `projects/locations/caPools/certificateAuthorities`.
+   * @param array $optParams Optional parameters.
+   * @return FetchCertificateAuthorityCsrResponse
+   */
+  public function fetch($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('fetch', [$params], FetchCertificateAuthorityCsrResponse::class);
+  }
+  /**
+   * Returns a CertificateAuthority. (certificateAuthorities.get)
+   *
+   * @param string $name Required. The name of the CertificateAuthority to get.
+   * @param array $optParams Optional parameters.
+   * @return CertificateAuthority
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], CertificateAuthority::class);
+  }
+  /**
+   * Lists CertificateAuthorities.
+   * (certificateAuthorities.listProjectsLocationsCaPoolsCertificateAuthorities)
+   *
+   * @param string $parent Required. The resource name of the CaPool associated
+   * with the CertificateAuthorities, in the format `projects/locations/caPools`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Optional. Only include resources that match the
+   * filter in the response.
+   * @opt_param string orderBy Optional. Specify how the results should be sorted.
+   * @opt_param int pageSize Optional. Limit on the number of
+   * CertificateAuthorities to include in the response. Further
+   * CertificateAuthorities can subsequently be obtained by including the
+   * ListCertificateAuthoritiesResponse.next_page_token in a subsequent request.
+   * If unspecified, the server will pick an appropriate default.
+   * @opt_param string pageToken Optional. Pagination token, returned earlier via
+   * ListCertificateAuthoritiesResponse.next_page_token.
+   * @return ListCertificateAuthoritiesResponse
+   */
+  public function listProjectsLocationsCaPoolsCertificateAuthorities($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListCertificateAuthoritiesResponse::class);
+  }
+  /**
+   * Update a CertificateAuthority. (certificateAuthorities.patch)
+   *
+   * @param string $name Output only. The resource name for this
+   * CertificateAuthority in the format
+   * `projects/locations/caPools/certificateAuthorities`.
+   * @param CertificateAuthority $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId Optional. An ID to identify requests. Specify a
+   * unique request ID so that if you must retry your request, the server will
+   * know to ignore the request if it has already been completed. The server will
+   * guarantee that for at least 60 minutes since the first request. For example,
+   * consider a situation where you make an initial request and t he request times
+   * out. If you make the request again with the same request ID, the server can
+   * check if original operation with the same request ID was received, and if so,
+   * will ignore the second request. This prevents clients from accidentally
+   * creating duplicate commitments. The request ID must be a valid UUID with the
+   * exception that zero UUID is not supported
+   * (00000000-0000-0000-0000-000000000000).
+   * @opt_param string updateMask Required. A list of fields to be updated in this
+   * request.
+   * @return Operation
+   */
+  public function patch($name, CertificateAuthority $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+  /**
+   * Undelete a CertificateAuthority that has been deleted.
+   * (certificateAuthorities.undelete)
+   *
+   * @param string $name Required. The resource name for this CertificateAuthority
+   * in the format `projects/locations/caPools/certificateAuthorities`.
+   * @param UndeleteCertificateAuthorityRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function undelete($name, UndeleteCertificateAuthorityRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('undelete', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsCaPoolsCertificateAuthorities::class, 'Google_Service_CertificateAuthorityService_Resource_ProjectsLocationsCaPoolsCertificateAuthorities');

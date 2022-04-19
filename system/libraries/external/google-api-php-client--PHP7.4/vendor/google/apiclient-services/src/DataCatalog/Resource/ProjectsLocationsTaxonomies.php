@@ -1,92 +1,215 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-6QCOeRf1WzBdYZZT5LXfjQJ9ln+Yl/bjFm==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DataCatalog\Resource;
+
+use Google\Service\DataCatalog\DatacatalogEmpty;
+use Google\Service\DataCatalog\GetIamPolicyRequest;
+use Google\Service\DataCatalog\GoogleCloudDatacatalogV1beta1ExportTaxonomiesResponse;
+use Google\Service\DataCatalog\GoogleCloudDatacatalogV1beta1ImportTaxonomiesRequest;
+use Google\Service\DataCatalog\GoogleCloudDatacatalogV1beta1ImportTaxonomiesResponse;
+use Google\Service\DataCatalog\GoogleCloudDatacatalogV1beta1ListTaxonomiesResponse;
+use Google\Service\DataCatalog\GoogleCloudDatacatalogV1beta1Taxonomy;
+use Google\Service\DataCatalog\Policy;
+use Google\Service\DataCatalog\SetIamPolicyRequest;
+use Google\Service\DataCatalog\TestIamPermissionsRequest;
+use Google\Service\DataCatalog\TestIamPermissionsResponse;
+
+/**
+ * The "taxonomies" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $datacatalogService = new Google\Service\DataCatalog(...);
+ *   $taxonomies = $datacatalogService->taxonomies;
+ *  </code>
+ */
+class ProjectsLocationsTaxonomies extends \Google\Service\Resource
+{
+  /**
+   * Creates a taxonomy in the specified project. (taxonomies.create)
+   *
+   * @param string $parent Required. Resource name of the project that the
+   * taxonomy will belong to.
+   * @param GoogleCloudDatacatalogV1beta1Taxonomy $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudDatacatalogV1beta1Taxonomy
+   */
+  public function create($parent, GoogleCloudDatacatalogV1beta1Taxonomy $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleCloudDatacatalogV1beta1Taxonomy::class);
+  }
+  /**
+   * Deletes a taxonomy. This operation will also delete all policy tags in this
+   * taxonomy along with their associated policies. (taxonomies.delete)
+   *
+   * @param string $name Required. Resource name of the taxonomy to be deleted.
+   * All policy tags in this taxonomy will also be deleted.
+   * @param array $optParams Optional parameters.
+   * @return DatacatalogEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], DatacatalogEmpty::class);
+  }
+  /**
+   * Exports all taxonomies and their policy tags in a project. This method
+   * generates SerializedTaxonomy protos with nested policy tags that can be used
+   * as an input for future ImportTaxonomies calls. (taxonomies.export)
+   *
+   * @param string $parent Required. Resource name of the project that taxonomies
+   * to be exported will share.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool serializedTaxonomies Export taxonomies as serialized
+   * taxonomies.
+   * @opt_param string taxonomies Required. Resource names of the taxonomies to be
+   * exported.
+   * @return GoogleCloudDatacatalogV1beta1ExportTaxonomiesResponse
+   */
+  public function export($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('export', [$params], GoogleCloudDatacatalogV1beta1ExportTaxonomiesResponse::class);
+  }
+  /**
+   * Gets a taxonomy. (taxonomies.get)
+   *
+   * @param string $name Required. Resource name of the requested taxonomy.
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudDatacatalogV1beta1Taxonomy
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudDatacatalogV1beta1Taxonomy::class);
+  }
+  /**
+   * Gets the IAM policy for a taxonomy or a policy tag. (taxonomies.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param GetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function getIamPolicy($resource, GetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Imports all taxonomies and their policy tags to a project as new taxonomies.
+   * This method provides a bulk taxonomy / policy tag creation using nested proto
+   * structure. (taxonomies.import)
+   *
+   * @param string $parent Required. Resource name of project that the imported
+   * taxonomies will belong to.
+   * @param GoogleCloudDatacatalogV1beta1ImportTaxonomiesRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudDatacatalogV1beta1ImportTaxonomiesResponse
+   */
+  public function import($parent, GoogleCloudDatacatalogV1beta1ImportTaxonomiesRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('import', [$params], GoogleCloudDatacatalogV1beta1ImportTaxonomiesResponse::class);
+  }
+  /**
+   * Lists all taxonomies in a project in a particular location that the caller
+   * has permission to view. (taxonomies.listProjectsLocationsTaxonomies)
+   *
+   * @param string $parent Required. Resource name of the project to list the
+   * taxonomies of.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The maximum number of items to return. Must be a
+   * value between 1 and 1000. If not set, defaults to 50.
+   * @opt_param string pageToken The next_page_token value returned from a
+   * previous list request, if any. If not set, defaults to an empty string.
+   * @return GoogleCloudDatacatalogV1beta1ListTaxonomiesResponse
+   */
+  public function listProjectsLocationsTaxonomies($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleCloudDatacatalogV1beta1ListTaxonomiesResponse::class);
+  }
+  /**
+   * Updates a taxonomy. (taxonomies.patch)
+   *
+   * @param string $name Output only. Resource name of this taxonomy, whose format
+   * is: "projects/{project_number}/locations/{location_id}/taxonomies/{id}".
+   * @param GoogleCloudDatacatalogV1beta1Taxonomy $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask The update mask applies to the resource. For the
+   * `FieldMask` definition, see https://developers.google.com/protocol-
+   * buffers/docs/reference/google.protobuf#fieldmask If not set, defaults to all
+   * of the fields that are allowed to update.
+   * @return GoogleCloudDatacatalogV1beta1Taxonomy
+   */
+  public function patch($name, GoogleCloudDatacatalogV1beta1Taxonomy $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], GoogleCloudDatacatalogV1beta1Taxonomy::class);
+  }
+  /**
+   * Sets the IAM policy for a taxonomy or a policy tag. (taxonomies.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Returns the permissions that a caller has on the specified taxonomy or policy
+   * tag. (taxonomies.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsTaxonomies::class, 'Google_Service_DataCatalog_Resource_ProjectsLocationsTaxonomies');

@@ -1,63 +1,115 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dataflow;
+
+class DistributionUpdate extends \Google\Model
+{
+  protected $countType = SplitInt64::class;
+  protected $countDataType = '';
+  protected $histogramType = Histogram::class;
+  protected $histogramDataType = '';
+  protected $maxType = SplitInt64::class;
+  protected $maxDataType = '';
+  protected $minType = SplitInt64::class;
+  protected $minDataType = '';
+  protected $sumType = SplitInt64::class;
+  protected $sumDataType = '';
+  public $sumOfSquares;
+
+  /**
+   * @param SplitInt64
+   */
+  public function setCount(SplitInt64 $count)
+  {
+    $this->count = $count;
+  }
+  /**
+   * @return SplitInt64
+   */
+  public function getCount()
+  {
+    return $this->count;
+  }
+  /**
+   * @param Histogram
+   */
+  public function setHistogram(Histogram $histogram)
+  {
+    $this->histogram = $histogram;
+  }
+  /**
+   * @return Histogram
+   */
+  public function getHistogram()
+  {
+    return $this->histogram;
+  }
+  /**
+   * @param SplitInt64
+   */
+  public function setMax(SplitInt64 $max)
+  {
+    $this->max = $max;
+  }
+  /**
+   * @return SplitInt64
+   */
+  public function getMax()
+  {
+    return $this->max;
+  }
+  /**
+   * @param SplitInt64
+   */
+  public function setMin(SplitInt64 $min)
+  {
+    $this->min = $min;
+  }
+  /**
+   * @return SplitInt64
+   */
+  public function getMin()
+  {
+    return $this->min;
+  }
+  /**
+   * @param SplitInt64
+   */
+  public function setSum(SplitInt64 $sum)
+  {
+    $this->sum = $sum;
+  }
+  /**
+   * @return SplitInt64
+   */
+  public function getSum()
+  {
+    return $this->sum;
+  }
+  public function setSumOfSquares($sumOfSquares)
+  {
+    $this->sumOfSquares = $sumOfSquares;
+  }
+  public function getSumOfSquares()
+  {
+    return $this->sumOfSquares;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(DistributionUpdate::class, 'Google_Service_Dataflow_DistributionUpdate');

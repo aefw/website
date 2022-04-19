@@ -1,60 +1,79 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPmfS+YOA3Ty9ev5l1NR5F/06FZUj8iSX1VP2JiTAOe7cSzuxJ3e1THSEc2z7voZ6brWPHdU6
-YzvhBlfU4Jcrvk6snUJRyGgN5gmO4+X0orCvMMUV7OJX0wX7454My0a4qJspE36UAFAMUrI9z7WA
-Un2eqRFzx/o5vQDM17pe3eSkkMEf19NbDdvZpr4HMJqVaxe1KT9J7Dj+GsUDoVKdgBSKhg9GWg7S
-ff6Bt9+oRpty8AROiiQSCf7vi0SaBTPyAMkewfLF+1HGHPuLnudQoYtBaxKpud1JBZLKXAWiWQO+
-IWNbLPbhotVHyMtEL8RABuXKQ0Ku/zwGHlBomv270zeMzCQELktyWlxhEE3ChqaRXqp8wW84EiiN
-bJZu6nTp5UCoCjKaYFlbPIrlQj+v87Ka2bD2m1EIvDCCtEWAaMqAD2if+zjHbM+0mxPTW5w86kVS
-GDLm4aHTG/2fR8gdL8WifRcfxJ7/exP3QuWwOv74TQnquJ5XwVWsYhU9wHQsWLtJSfqs7aT/2Kmu
-s1ziQymfSZNvLq1FvYYD7mZvrHgJkjKwtM2HeebZJG4/C4ANquBN//LneZiNlmLIGrp5c1iavZkY
-KhXXHXr11LGoFVKAIOoJcBYIKVS7CCqGo0U9Q7KnBRs20DQSrkrsbf2O+RX7nGHAam901e58gGtX
-mtWXzx7nAobjAzrdAK7ZO8LT9RdfkVpANwYzqfIRIQTeYegDPOY/HHZqvuFkgmLATr8bYL3luS1m
-EuAwHRxmbt8DdNkS2vAUk27VxZ0Jk4Jt0mT3g3jS52OItVCibgKnXnqL7wFH+7v7WHObe3eV4ofX
-OdNBsHWkEox75678DZ7i97Re5lgN0FQnfsb0X46NQ4Q6WltA8VOMWIjrGOHt108leCYnJDozWfVf
-Z/GueaUK0e8zIAK3hqqiCLZvUhpmaDYgOZ1MSt4g7laBlg1/ckTLmbgN7T6PijAzLbVV1tCF3cPP
-GLZ9oK2IsQdAhwYKyfmmHlnBsxDkWJvf5j+E/73fwrT8cycfrSNuHkv16Cj1H+QIz9kU2GbGfrvM
-9rpHM2fGOTo0JY75BzzPdhN+mVDhKqyLnD8IzI9N+BFIn1SF7eap6lOrmOn8wvG3de1/t39pBW8S
-quNJe2Nf3HEPg82XjWeO+h14aKhhlD0l66pQwvfOGYlvfWrceEo64ulKn4UskUrDkvrMa+EUcIPI
-G8EYopaMiUaP+25EOoLA3ipUSKOEardIPc7o0V46BRsjgwe71MIvp4MmrAhWtnTIHQx/6HQr4Zfs
-13zaYjIB6DSUm+i63QSnIm0IsMDCbbCL7uv5LVUHM+2LSDQmTnuD0vQ51C05aVReaV+wLKqjSI1t
-OPQVUL+I/4akmQQQQqGW8Zrpoqmkl5i3pTJPCVQtPBkCh+jrV7K9H+LZpV4KGdGMUruBCMy4Abtb
-uqWF3hTSnLnfD2cYfUqqcuSrcbii2I/lTsUsF/zRJ+zAvHVxUX8MBagNyZ2Cjncr5z4tR8YpDdDw
-zySNgbwVKMxnTyYuYRLeEBB0zEZ6lNJUJjfOFYvwPZ52Ohp+S3yAIaYyQMBDC1FdjxygE6PLdPJz
-XyzCpOGRNKYQ4EaZLBKGAeQEh2dx1ArNx07eGLLLh9yZQX4rTBsvAAtdrzpNJsU6iXopDPYMd/rt
-i1tfL2f4P7jBRzkRwqMGhr8G+3BWXgXsqpxnVB+XUXMhQ5XpbAJYvveGQChvmewS2vFKWel4siAt
-6yyZW0E3XMYsd9HSD401+TNfCu/BGUSg61eT3Q6HqcasqaeAkK/2Gf5zpn33+yFYpkvn760FOiva
-9TjK2hwawZEaLmR6cuulnLRQyEFdFaattrq4OYxBJytOtHdIUvYZJelzvjjASgrVRH0LPunrs+Ku
-EKDJOdw25QK1/BcW19TYz33BfV4QaNdZHMSpEqGXmyG6nVcjKyTcFwS0/AfND4cLwiG3BkURDJe9
-CSj6OIU2GY6KyekVy5mSGBSFzRB/7pex30wyybzqTcfiVKiCuXlP6gZ+yw6aTlKobUjhD8wN7Png
-/WUwa2hyn1oUDVz7kA3VZzwllEDMSk5/lJ5Wf/I0p0QmOUWWX/SpYkdZvHZcOBsy+mjm0W3Halcx
-2Y98EkJPWNCApJdBeUdrSBWlqvm+6PBsOI4vWDJ/+nSCoFuqHv0iquc59bigXE7jUkswxcs3nKrI
-D6KjxQgkvMs8s5ClrRqO5hL4RXz1VCeHpfK4/gGUZFw/N07kChu5H5ryNvrBCUbzC5Iyr8X22VH9
-MBrj4sjDxrjzjV4q5dVUw/BHMr7wgVRWH6VKcqzS89B0K+k2hIKlNIJULrHlWTaQQESk/YiVdz8r
-9NY/dn0H69VEFJ0KKnAWozftp364YEbOmT5kzbo8SyImuXHRdHvh/+XMuJM906fJhMxD7gZJfWMq
-7cczOCb3ps2T29ZPf1RD2sIYh3uq5P+SeBjbh8f1GpYp99wVnAqAxps9CulfQYfNLCHtVcgd/Qjs
-8ATuZmTvZbO6sFHfnIPoP0WZ2IbppOIsTyCAhxjUoB75A5LOYgO+NE2sO4if1Rx5jPkJ0Eo4UJQ9
-RFEC4eommuSwwJjjAurpjW2oeDu9t/j8II7p8lM8uU4dkxGQzoadRpJLEMTLGQQv4tfNibs53nXX
-3GeDkdcDz/XSTRqnjbxyUEN9IMDyFRUCFeIQA0aWjfXmvHsr2PdhqyExHK5TbIi4ZgRlVlNBw25K
-cxGTvIGZPhSKO6wmEAQfM/Q8pxRqt21t8S1f8aCXUI4olVuFyg8HEFnUB1tWyT3A30BhE7NIsgH/
-fJv3RvlS/mFml/0BRwAWVq6/IOL6QnoNRbBO7ypvXiut3+j1Zat/djKlL/HKqQvgkbJzTfj60h6a
-bLgHWo3bq0iPTMWvJy7MZCVUQ6Wq/ZwJsO0PllbgnuN/gl5r1UKfTnPVVmFV+Bm0M2o9YSkCx+qx
-3c7WZQxf3SvuJ2z9knfJbb6EjqiVdFMnepajHcaOTSCeabePGPn5omyJNPsx44wURqoyAejHMIu+
-u22jPkoCRJPfpQ+W8SKME+oPbhOYleQJfb57kCaF8xFPCiFr0sgL/TCoExvV4dn9CR3Yf44exSKe
-M2weKa2kAMw8UVD/e547a/pBa9/Zlv9MBwWO/vdt1QfDBj7X+Rh7L9u1OoBu+2gBLBSj5c8hI6DB
-YaeN8YzDe4QsOPRekK/8lc/JD/9rO46iSYJKsFKi3++JfNZq91WdQl6jR9BuveCVH2DR7ZswnjuZ
-ad56WiBWsQPJmdPA9UxK866gR2zCZZTIkRKQVi4SC7gLHA2fWWDXOkxWL/KRB41CuA/KEuvJvmCU
-YVQ0iw7nKv6Qx1zr9qpbxbRt0M0E17Obh7M97Jk9Zs18gcg25PYcXvXTMR6Fa40NpfLsAhJ3l0uo
-1BL2sV3DQhkBoi7GoBQL6hbmRO1HpKjt8gfWxgz92awETWl1t1NSUgVNl7GR20yhpHvvoHbFi8vR
-89VW8EI8G69NrsZrxa0/Zg0ZEmjLPWosdNB6+eSpbqvD7RLnZQ9u6iLGVlgOhfKY3yWqquIz2H2S
-LsxHLnFMoW2k/qEnYaCj9HRm2H54DTzTuo5/wqUEcVsZQEyfNczsoE0VsC4B0l5XcoX5JiLpMZhm
-scDqozYc6XIowk5VYpETKFrF5VbObkHFGic1ztZY1qn+3M6bnfP38cKZBNvIUXA8wBRzlZl9bLUH
-X6iYrz5myzRh/sryyV25h76oDVtir+M1CjE0sVNbiEtksK9O8uiTSmxVj/4ehI8qe/oo+0FJ0KvH
-vXMpwAMFeWw9NovcjqT6nPveLPrqCIfirnm6qDFLcPXQt9Pb9tvSJwlO1NvmKWsxAeWjLegA7f5R
-LRZKzVsiSZZ5oVUbiFXJo/7wcJyFKAGRZW5hXQ0NdhuzJqTu4mIuR9XBA1ScDWaINe9A/qBEINZ0
-mOSQtJ2N1yWrOokzVOaIRr9Jl+jIB99faHrasho4usH/kSbUZLKjmQX9dzE9GFVH3EIK3EO0jkAL
-TR+iG0Ao31Tsybm7NkKn4QCtXDTFjByP/R+/8YfVnk6NndGUpGy4GVfgSIVI8q+gQcwM2W==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AndroidPublisher\Resource;
+
+use Google\Service\AndroidPublisher\AppDetails;
+
+/**
+ * The "details" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $androidpublisherService = new Google\Service\AndroidPublisher(...);
+ *   $details = $androidpublisherService->details;
+ *  </code>
+ */
+class EditsDetails extends \Google\Service\Resource
+{
+  /**
+   * Gets details of an app. (details.get)
+   *
+   * @param string $packageName Package name of the app.
+   * @param string $editId Identifier of the edit.
+   * @param array $optParams Optional parameters.
+   * @return AppDetails
+   */
+  public function get($packageName, $editId, $optParams = [])
+  {
+    $params = ['packageName' => $packageName, 'editId' => $editId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], AppDetails::class);
+  }
+  /**
+   * Patches details of an app. (details.patch)
+   *
+   * @param string $packageName Package name of the app.
+   * @param string $editId Identifier of the edit.
+   * @param AppDetails $postBody
+   * @param array $optParams Optional parameters.
+   * @return AppDetails
+   */
+  public function patch($packageName, $editId, AppDetails $postBody, $optParams = [])
+  {
+    $params = ['packageName' => $packageName, 'editId' => $editId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], AppDetails::class);
+  }
+  /**
+   * Updates details of an app. (details.update)
+   *
+   * @param string $packageName Package name of the app.
+   * @param string $editId Identifier of the edit.
+   * @param AppDetails $postBody
+   * @param array $optParams Optional parameters.
+   * @return AppDetails
+   */
+  public function update($packageName, $editId, AppDetails $postBody, $optParams = [])
+  {
+    $params = ['packageName' => $packageName, 'editId' => $editId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], AppDetails::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(EditsDetails::class, 'Google_Service_AndroidPublisher_Resource_EditsDetails');

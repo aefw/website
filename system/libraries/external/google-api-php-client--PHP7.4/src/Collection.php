@@ -1,83 +1,98 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+namespace Google;
+
+/**
+ * Extension to the regular Google\Model that automatically
+ * exposes the items array for iteration, so you can just
+ * iterate over the object rather than a reference inside.
+ */
+class Collection extends Model implements \Iterator, \Countable
+{
+  protected $collection_key = 'items';
+
+  public function rewind()
+  {
+    if (isset($this->{$this->collection_key})
+        && is_array($this->{$this->collection_key})) {
+      reset($this->{$this->collection_key});
+    }
+  }
+
+  public function current()
+  {
+    $this->coerceType($this->key());
+    if (is_array($this->{$this->collection_key})) {
+      return current($this->{$this->collection_key});
+    }
+  }
+
+  public function key()
+  {
+    if (isset($this->{$this->collection_key})
+        && is_array($this->{$this->collection_key})) {
+      return key($this->{$this->collection_key});
+    }
+  }
+
+  public function next()
+  {
+    return next($this->{$this->collection_key});
+  }
+
+  public function valid()
+  {
+    $key = $this->key();
+    return $key !== null && $key !== false;
+  }
+
+  public function count()
+  {
+    if (!isset($this->{$this->collection_key})) {
+      return 0;
+    }
+    return count($this->{$this->collection_key});
+  }
+
+  public function offsetExists($offset)
+  {
+    if (!is_numeric($offset)) {
+      return parent::offsetExists($offset);
+    }
+    return isset($this->{$this->collection_key}[$offset]);
+  }
+
+  public function offsetGet($offset)
+  {
+    if (!is_numeric($offset)) {
+      return parent::offsetGet($offset);
+    }
+    $this->coerceType($offset);
+    return $this->{$this->collection_key}[$offset];
+  }
+
+  public function offsetSet($offset, $value)
+  {
+    if (!is_numeric($offset)) {
+      return parent::offsetSet($offset, $value);
+    }
+    $this->{$this->collection_key}[$offset] = $value;
+  }
+
+  public function offsetUnset($offset)
+  {
+    if (!is_numeric($offset)) {
+      return parent::offsetUnset($offset);
+    }
+    unset($this->{$this->collection_key}[$offset]);
+  }
+
+  private function coerceType($offset)
+  {
+    $keyType = $this->keyType($this->collection_key);
+    if ($keyType && !is_object($this->{$this->collection_key}[$offset])) {
+      $this->{$this->collection_key}[$offset] =
+          new $keyType($this->{$this->collection_key}[$offset]);
+    }
+  }
+}

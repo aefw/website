@@ -1,68 +1,88 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-+p1KTh2zqO3ODtaQHWwA4FhtzgT/l7svs7w0l0==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\GoogleAnalyticsAdmin;
+
+class GoogleAnalyticsAdminV1alphaChangeHistoryEvent extends \Google\Collection
+{
+  protected $collection_key = 'changes';
+  public $actorType;
+  public $changeTime;
+  protected $changesType = GoogleAnalyticsAdminV1alphaChangeHistoryChange::class;
+  protected $changesDataType = 'array';
+  public $changesFiltered;
+  public $id;
+  public $userActorEmail;
+
+  public function setActorType($actorType)
+  {
+    $this->actorType = $actorType;
+  }
+  public function getActorType()
+  {
+    return $this->actorType;
+  }
+  public function setChangeTime($changeTime)
+  {
+    $this->changeTime = $changeTime;
+  }
+  public function getChangeTime()
+  {
+    return $this->changeTime;
+  }
+  /**
+   * @param GoogleAnalyticsAdminV1alphaChangeHistoryChange[]
+   */
+  public function setChanges($changes)
+  {
+    $this->changes = $changes;
+  }
+  /**
+   * @return GoogleAnalyticsAdminV1alphaChangeHistoryChange[]
+   */
+  public function getChanges()
+  {
+    return $this->changes;
+  }
+  public function setChangesFiltered($changesFiltered)
+  {
+    $this->changesFiltered = $changesFiltered;
+  }
+  public function getChangesFiltered()
+  {
+    return $this->changesFiltered;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setUserActorEmail($userActorEmail)
+  {
+    $this->userActorEmail = $userActorEmail;
+  }
+  public function getUserActorEmail()
+  {
+    return $this->userActorEmail;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleAnalyticsAdminV1alphaChangeHistoryEvent::class, 'Google_Service_GoogleAnalyticsAdmin_GoogleAnalyticsAdminV1alphaChangeHistoryEvent');

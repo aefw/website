@@ -1,148 +1,150 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+namespace PhpOffice\PhpSpreadsheet\Reader\Xlsx;
+
+use PhpOffice\PhpSpreadsheet\Cell\Coordinate;
+use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
+
+class PageSetup extends BaseParserClass
+{
+    private $worksheet;
+
+    private $worksheetXml;
+
+    public function __construct(Worksheet $workSheet, \SimpleXMLElement $worksheetXml = null)
+    {
+        $this->worksheet = $workSheet;
+        $this->worksheetXml = $worksheetXml;
+    }
+
+    public function load(array $unparsedLoadedData)
+    {
+        if (!$this->worksheetXml) {
+            return $unparsedLoadedData;
+        }
+
+        $this->margins($this->worksheetXml, $this->worksheet);
+        $unparsedLoadedData = $this->pageSetup($this->worksheetXml, $this->worksheet, $unparsedLoadedData);
+        $this->headerFooter($this->worksheetXml, $this->worksheet);
+        $this->pageBreaks($this->worksheetXml, $this->worksheet);
+
+        return $unparsedLoadedData;
+    }
+
+    private function margins(\SimpleXMLElement $xmlSheet, Worksheet $worksheet)
+    {
+        if ($xmlSheet->pageMargins) {
+            $docPageMargins = $worksheet->getPageMargins();
+            $docPageMargins->setLeft((float) ($xmlSheet->pageMargins['left']));
+            $docPageMargins->setRight((float) ($xmlSheet->pageMargins['right']));
+            $docPageMargins->setTop((float) ($xmlSheet->pageMargins['top']));
+            $docPageMargins->setBottom((float) ($xmlSheet->pageMargins['bottom']));
+            $docPageMargins->setHeader((float) ($xmlSheet->pageMargins['header']));
+            $docPageMargins->setFooter((float) ($xmlSheet->pageMargins['footer']));
+        }
+    }
+
+    private function pageSetup(\SimpleXMLElement $xmlSheet, Worksheet $worksheet, array $unparsedLoadedData)
+    {
+        if ($xmlSheet->pageSetup) {
+            $docPageSetup = $worksheet->getPageSetup();
+
+            if (isset($xmlSheet->pageSetup['orientation'])) {
+                $docPageSetup->setOrientation((string) $xmlSheet->pageSetup['orientation']);
+            }
+            if (isset($xmlSheet->pageSetup['paperSize'])) {
+                $docPageSetup->setPaperSize((int) ($xmlSheet->pageSetup['paperSize']));
+            }
+            if (isset($xmlSheet->pageSetup['scale'])) {
+                $docPageSetup->setScale((int) ($xmlSheet->pageSetup['scale']), false);
+            }
+            if (isset($xmlSheet->pageSetup['fitToHeight']) && (int) ($xmlSheet->pageSetup['fitToHeight']) >= 0) {
+                $docPageSetup->setFitToHeight((int) ($xmlSheet->pageSetup['fitToHeight']), false);
+            }
+            if (isset($xmlSheet->pageSetup['fitToWidth']) && (int) ($xmlSheet->pageSetup['fitToWidth']) >= 0) {
+                $docPageSetup->setFitToWidth((int) ($xmlSheet->pageSetup['fitToWidth']), false);
+            }
+            if (isset($xmlSheet->pageSetup['firstPageNumber'], $xmlSheet->pageSetup['useFirstPageNumber']) &&
+                self::boolean((string) $xmlSheet->pageSetup['useFirstPageNumber'])) {
+                $docPageSetup->setFirstPageNumber((int) ($xmlSheet->pageSetup['firstPageNumber']));
+            }
+
+            $relAttributes = $xmlSheet->pageSetup->attributes('http://schemas.openxmlformats.org/officeDocument/2006/relationships');
+            if (isset($relAttributes['id'])) {
+                $unparsedLoadedData['sheets'][$worksheet->getCodeName()]['pageSetupRelId'] = (string) $relAttributes['id'];
+            }
+        }
+
+        return $unparsedLoadedData;
+    }
+
+    private function headerFooter(\SimpleXMLElement $xmlSheet, Worksheet $worksheet)
+    {
+        if ($xmlSheet->headerFooter) {
+            $docHeaderFooter = $worksheet->getHeaderFooter();
+
+            if (isset($xmlSheet->headerFooter['differentOddEven']) &&
+                self::boolean((string) $xmlSheet->headerFooter['differentOddEven'])) {
+                $docHeaderFooter->setDifferentOddEven(true);
+            } else {
+                $docHeaderFooter->setDifferentOddEven(false);
+            }
+            if (isset($xmlSheet->headerFooter['differentFirst']) &&
+                self::boolean((string) $xmlSheet->headerFooter['differentFirst'])) {
+                $docHeaderFooter->setDifferentFirst(true);
+            } else {
+                $docHeaderFooter->setDifferentFirst(false);
+            }
+            if (isset($xmlSheet->headerFooter['scaleWithDoc']) &&
+                !self::boolean((string) $xmlSheet->headerFooter['scaleWithDoc'])) {
+                $docHeaderFooter->setScaleWithDocument(false);
+            } else {
+                $docHeaderFooter->setScaleWithDocument(true);
+            }
+            if (isset($xmlSheet->headerFooter['alignWithMargins']) &&
+                !self::boolean((string) $xmlSheet->headerFooter['alignWithMargins'])) {
+                $docHeaderFooter->setAlignWithMargins(false);
+            } else {
+                $docHeaderFooter->setAlignWithMargins(true);
+            }
+
+            $docHeaderFooter->setOddHeader((string) $xmlSheet->headerFooter->oddHeader);
+            $docHeaderFooter->setOddFooter((string) $xmlSheet->headerFooter->oddFooter);
+            $docHeaderFooter->setEvenHeader((string) $xmlSheet->headerFooter->evenHeader);
+            $docHeaderFooter->setEvenFooter((string) $xmlSheet->headerFooter->evenFooter);
+            $docHeaderFooter->setFirstHeader((string) $xmlSheet->headerFooter->firstHeader);
+            $docHeaderFooter->setFirstFooter((string) $xmlSheet->headerFooter->firstFooter);
+        }
+    }
+
+    private function pageBreaks(\SimpleXMLElement $xmlSheet, Worksheet $worksheet)
+    {
+        if ($xmlSheet->rowBreaks && $xmlSheet->rowBreaks->brk) {
+            $this->rowBreaks($xmlSheet, $worksheet);
+        }
+        if ($xmlSheet->colBreaks && $xmlSheet->colBreaks->brk) {
+            $this->columnBreaks($xmlSheet, $worksheet);
+        }
+    }
+
+    private function rowBreaks(\SimpleXMLElement $xmlSheet, Worksheet $worksheet)
+    {
+        foreach ($xmlSheet->rowBreaks->brk as $brk) {
+            if ($brk['man']) {
+                $worksheet->setBreak("A{$brk['id']}", Worksheet::BREAK_ROW);
+            }
+        }
+    }
+
+    private function columnBreaks(\SimpleXMLElement $xmlSheet, Worksheet $worksheet)
+    {
+        foreach ($xmlSheet->colBreaks->brk as $brk) {
+            if ($brk['man']) {
+                $worksheet->setBreak(
+                    Coordinate::stringFromColumnIndex(((int) $brk['id']) + 1) . '1',
+                    Worksheet::BREAK_COLUMN
+                );
+            }
+        }
+    }
+}

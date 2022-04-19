@@ -1,95 +1,250 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/**
+ * Copyright 2017 Facebook, Inc.
+ *
+ * You are hereby granted a non-exclusive, worldwide, royalty-free license to
+ * use, copy, modify, and distribute this software in source code or binary
+ * form for use in connection with the web services and APIs provided by
+ * Facebook.
+ *
+ * As with any software that integrates with the Facebook platform, your use
+ * of this software is subject to the Facebook Developer Principles and
+ * Policies [http://developers.facebook.com/policy/]. This copyright notice
+ * shall be included in all copies or substantial portions of the software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+ * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+ *
+ */
+namespace Facebook;
+
+use Facebook\HttpClients\FacebookHttpClientInterface;
+use Facebook\HttpClients\FacebookCurlHttpClient;
+use Facebook\HttpClients\FacebookStreamHttpClient;
+use Facebook\Exceptions\FacebookSDKException;
+
+/**
+ * Class FacebookClient
+ *
+ * @package Facebook
+ */
+class FacebookClient
+{
+    /**
+     * @const string Production Graph API URL.
+     */
+    const BASE_GRAPH_URL = 'https://graph.facebook.com';
+
+    /**
+     * @const string Graph API URL for video uploads.
+     */
+    const BASE_GRAPH_VIDEO_URL = 'https://graph-video.facebook.com';
+
+    /**
+     * @const string Beta Graph API URL.
+     */
+    const BASE_GRAPH_URL_BETA = 'https://graph.beta.facebook.com';
+
+    /**
+     * @const string Beta Graph API URL for video uploads.
+     */
+    const BASE_GRAPH_VIDEO_URL_BETA = 'https://graph-video.beta.facebook.com';
+
+    /**
+     * @const int The timeout in seconds for a normal request.
+     */
+    const DEFAULT_REQUEST_TIMEOUT = 60;
+
+    /**
+     * @const int The timeout in seconds for a request that contains file uploads.
+     */
+    const DEFAULT_FILE_UPLOAD_REQUEST_TIMEOUT = 3600;
+
+    /**
+     * @const int The timeout in seconds for a request that contains video uploads.
+     */
+    const DEFAULT_VIDEO_UPLOAD_REQUEST_TIMEOUT = 7200;
+
+    /**
+     * @var bool Toggle to use Graph beta url.
+     */
+    protected $enableBetaMode = false;
+
+    /**
+     * @var FacebookHttpClientInterface HTTP client handler.
+     */
+    protected $httpClientHandler;
+
+    /**
+     * @var int The number of calls that have been made to Graph.
+     */
+    public static $requestCount = 0;
+
+    /**
+     * Instantiates a new FacebookClient object.
+     *
+     * @param FacebookHttpClientInterface|null $httpClientHandler
+     * @param boolean                          $enableBeta
+     */
+    public function __construct(FacebookHttpClientInterface $httpClientHandler = null, $enableBeta = false)
+    {
+        $this->httpClientHandler = $httpClientHandler ?: $this->detectHttpClientHandler();
+        $this->enableBetaMode = $enableBeta;
+    }
+
+    /**
+     * Sets the HTTP client handler.
+     *
+     * @param FacebookHttpClientInterface $httpClientHandler
+     */
+    public function setHttpClientHandler(FacebookHttpClientInterface $httpClientHandler)
+    {
+        $this->httpClientHandler = $httpClientHandler;
+    }
+
+    /**
+     * Returns the HTTP client handler.
+     *
+     * @return FacebookHttpClientInterface
+     */
+    public function getHttpClientHandler()
+    {
+        return $this->httpClientHandler;
+    }
+
+    /**
+     * Detects which HTTP client handler to use.
+     *
+     * @return FacebookHttpClientInterface
+     */
+    public function detectHttpClientHandler()
+    {
+        return extension_loaded('curl') ? new FacebookCurlHttpClient() : new FacebookStreamHttpClient();
+    }
+
+    /**
+     * Toggle beta mode.
+     *
+     * @param boolean $betaMode
+     */
+    public function enableBetaMode($betaMode = true)
+    {
+        $this->enableBetaMode = $betaMode;
+    }
+
+    /**
+     * Returns the base Graph URL.
+     *
+     * @param boolean $postToVideoUrl Post to the video API if videos are being uploaded.
+     *
+     * @return string
+     */
+    public function getBaseGraphUrl($postToVideoUrl = false)
+    {
+        if ($postToVideoUrl) {
+            return $this->enableBetaMode ? static::BASE_GRAPH_VIDEO_URL_BETA : static::BASE_GRAPH_VIDEO_URL;
+        }
+
+        return $this->enableBetaMode ? static::BASE_GRAPH_URL_BETA : static::BASE_GRAPH_URL;
+    }
+
+    /**
+     * Prepares the request for sending to the client handler.
+     *
+     * @param FacebookRequest $request
+     *
+     * @return array
+     */
+    public function prepareRequestMessage(FacebookRequest $request)
+    {
+        $postToVideoUrl = $request->containsVideoUploads();
+        $url = $this->getBaseGraphUrl($postToVideoUrl) . $request->getUrl();
+
+        // If we're sending files they should be sent as multipart/form-data
+        if ($request->containsFileUploads()) {
+            $requestBody = $request->getMultipartBody();
+            $request->setHeaders([
+                'Content-Type' => 'multipart/form-data; boundary=' . $requestBody->getBoundary(),
+            ]);
+        } else {
+            $requestBody = $request->getUrlEncodedBody();
+            $request->setHeaders([
+                'Content-Type' => 'application/x-www-form-urlencoded',
+            ]);
+        }
+
+        return [
+            $url,
+            $request->getMethod(),
+            $request->getHeaders(),
+            $requestBody->getBody(),
+        ];
+    }
+
+    /**
+     * Makes the request to Graph and returns the result.
+     *
+     * @param FacebookRequest $request
+     *
+     * @return FacebookResponse
+     *
+     * @throws FacebookSDKException
+     */
+    public function sendRequest(FacebookRequest $request)
+    {
+        if (get_class($request) === 'Facebook\FacebookRequest') {
+            $request->validateAccessToken();
+        }
+
+        list($url, $method, $headers, $body) = $this->prepareRequestMessage($request);
+
+        // Since file uploads can take a while, we need to give more time for uploads
+        $timeOut = static::DEFAULT_REQUEST_TIMEOUT;
+        if ($request->containsFileUploads()) {
+            $timeOut = static::DEFAULT_FILE_UPLOAD_REQUEST_TIMEOUT;
+        } elseif ($request->containsVideoUploads()) {
+            $timeOut = static::DEFAULT_VIDEO_UPLOAD_REQUEST_TIMEOUT;
+        }
+
+        // Should throw `FacebookSDKException` exception on HTTP client error.
+        // Don't catch to allow it to bubble up.
+        $rawResponse = $this->httpClientHandler->send($url, $method, $body, $headers, $timeOut);
+
+        static::$requestCount++;
+
+        $returnResponse = new FacebookResponse(
+            $request,
+            $rawResponse->getBody(),
+            $rawResponse->getHttpResponseCode(),
+            $rawResponse->getHeaders()
+        );
+
+        if ($returnResponse->isError()) {
+            throw $returnResponse->getThrownException();
+        }
+
+        return $returnResponse;
+    }
+
+    /**
+     * Makes a batched request to Graph and returns the result.
+     *
+     * @param FacebookBatchRequest $request
+     *
+     * @return FacebookBatchResponse
+     *
+     * @throws FacebookSDKException
+     */
+    public function sendBatchRequest(FacebookBatchRequest $request)
+    {
+        $request->prepareRequestsForBatch();
+        $facebookResponse = $this->sendRequest($request);
+
+        return new FacebookBatchResponse($request, $facebookResponse);
+    }
+}

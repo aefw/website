@@ -1,61 +1,93 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Spanner;
+
+class CommitRequest extends \Google\Collection
+{
+  protected $collection_key = 'mutations';
+  protected $mutationsType = Mutation::class;
+  protected $mutationsDataType = 'array';
+  protected $requestOptionsType = RequestOptions::class;
+  protected $requestOptionsDataType = '';
+  public $returnCommitStats;
+  protected $singleUseTransactionType = TransactionOptions::class;
+  protected $singleUseTransactionDataType = '';
+  public $transactionId;
+
+  /**
+   * @param Mutation[]
+   */
+  public function setMutations($mutations)
+  {
+    $this->mutations = $mutations;
+  }
+  /**
+   * @return Mutation[]
+   */
+  public function getMutations()
+  {
+    return $this->mutations;
+  }
+  /**
+   * @param RequestOptions
+   */
+  public function setRequestOptions(RequestOptions $requestOptions)
+  {
+    $this->requestOptions = $requestOptions;
+  }
+  /**
+   * @return RequestOptions
+   */
+  public function getRequestOptions()
+  {
+    return $this->requestOptions;
+  }
+  public function setReturnCommitStats($returnCommitStats)
+  {
+    $this->returnCommitStats = $returnCommitStats;
+  }
+  public function getReturnCommitStats()
+  {
+    return $this->returnCommitStats;
+  }
+  /**
+   * @param TransactionOptions
+   */
+  public function setSingleUseTransaction(TransactionOptions $singleUseTransaction)
+  {
+    $this->singleUseTransaction = $singleUseTransaction;
+  }
+  /**
+   * @return TransactionOptions
+   */
+  public function getSingleUseTransaction()
+  {
+    return $this->singleUseTransaction;
+  }
+  public function setTransactionId($transactionId)
+  {
+    $this->transactionId = $transactionId;
+  }
+  public function getTransactionId()
+  {
+    return $this->transactionId;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(CommitRequest::class, 'Google_Service_Spanner_CommitRequest');

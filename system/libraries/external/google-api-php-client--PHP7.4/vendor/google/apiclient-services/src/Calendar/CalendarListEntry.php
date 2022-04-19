@@ -1,113 +1,219 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-XfZlVt5Jh7mqgbm=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Calendar;
+
+class CalendarListEntry extends \Google\Collection
+{
+  protected $collection_key = 'defaultReminders';
+  public $accessRole;
+  public $backgroundColor;
+  public $colorId;
+  protected $conferencePropertiesType = ConferenceProperties::class;
+  protected $conferencePropertiesDataType = '';
+  protected $defaultRemindersType = EventReminder::class;
+  protected $defaultRemindersDataType = 'array';
+  public $deleted;
+  public $description;
+  public $etag;
+  public $foregroundColor;
+  public $hidden;
+  public $id;
+  public $kind;
+  public $location;
+  protected $notificationSettingsType = CalendarListEntryNotificationSettings::class;
+  protected $notificationSettingsDataType = '';
+  public $primary;
+  public $selected;
+  public $summary;
+  public $summaryOverride;
+  public $timeZone;
+
+  public function setAccessRole($accessRole)
+  {
+    $this->accessRole = $accessRole;
+  }
+  public function getAccessRole()
+  {
+    return $this->accessRole;
+  }
+  public function setBackgroundColor($backgroundColor)
+  {
+    $this->backgroundColor = $backgroundColor;
+  }
+  public function getBackgroundColor()
+  {
+    return $this->backgroundColor;
+  }
+  public function setColorId($colorId)
+  {
+    $this->colorId = $colorId;
+  }
+  public function getColorId()
+  {
+    return $this->colorId;
+  }
+  /**
+   * @param ConferenceProperties
+   */
+  public function setConferenceProperties(ConferenceProperties $conferenceProperties)
+  {
+    $this->conferenceProperties = $conferenceProperties;
+  }
+  /**
+   * @return ConferenceProperties
+   */
+  public function getConferenceProperties()
+  {
+    return $this->conferenceProperties;
+  }
+  /**
+   * @param EventReminder[]
+   */
+  public function setDefaultReminders($defaultReminders)
+  {
+    $this->defaultReminders = $defaultReminders;
+  }
+  /**
+   * @return EventReminder[]
+   */
+  public function getDefaultReminders()
+  {
+    return $this->defaultReminders;
+  }
+  public function setDeleted($deleted)
+  {
+    $this->deleted = $deleted;
+  }
+  public function getDeleted()
+  {
+    return $this->deleted;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setEtag($etag)
+  {
+    $this->etag = $etag;
+  }
+  public function getEtag()
+  {
+    return $this->etag;
+  }
+  public function setForegroundColor($foregroundColor)
+  {
+    $this->foregroundColor = $foregroundColor;
+  }
+  public function getForegroundColor()
+  {
+    return $this->foregroundColor;
+  }
+  public function setHidden($hidden)
+  {
+    $this->hidden = $hidden;
+  }
+  public function getHidden()
+  {
+    return $this->hidden;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setLocation($location)
+  {
+    $this->location = $location;
+  }
+  public function getLocation()
+  {
+    return $this->location;
+  }
+  /**
+   * @param CalendarListEntryNotificationSettings
+   */
+  public function setNotificationSettings(CalendarListEntryNotificationSettings $notificationSettings)
+  {
+    $this->notificationSettings = $notificationSettings;
+  }
+  /**
+   * @return CalendarListEntryNotificationSettings
+   */
+  public function getNotificationSettings()
+  {
+    return $this->notificationSettings;
+  }
+  public function setPrimary($primary)
+  {
+    $this->primary = $primary;
+  }
+  public function getPrimary()
+  {
+    return $this->primary;
+  }
+  public function setSelected($selected)
+  {
+    $this->selected = $selected;
+  }
+  public function getSelected()
+  {
+    return $this->selected;
+  }
+  public function setSummary($summary)
+  {
+    $this->summary = $summary;
+  }
+  public function getSummary()
+  {
+    return $this->summary;
+  }
+  public function setSummaryOverride($summaryOverride)
+  {
+    $this->summaryOverride = $summaryOverride;
+  }
+  public function getSummaryOverride()
+  {
+    return $this->summaryOverride;
+  }
+  public function setTimeZone($timeZone)
+  {
+    $this->timeZone = $timeZone;
+  }
+  public function getTimeZone()
+  {
+    return $this->timeZone;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(CalendarListEntry::class, 'Google_Service_Calendar_CalendarListEntry');

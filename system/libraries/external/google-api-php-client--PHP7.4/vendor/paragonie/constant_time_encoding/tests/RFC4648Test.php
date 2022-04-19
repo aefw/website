@@ -1,128 +1,84 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+use \ParagonIE\ConstantTime\Base32;
+use \ParagonIE\ConstantTime\Base32Hex;
+use \ParagonIE\ConstantTime\Base64;
+use \ParagonIE\ConstantTime\Base64DotSlash;
+use \ParagonIE\ConstantTime\Base64DotSlashOrdered;
+use \ParagonIE\ConstantTime\Encoding;
+use \ParagonIE\ConstantTime\Hex;
+
+/**
+ * Class RFC4648Test
+ *
+ * @ref https://tools.ietf.org/html/rfc4648#section-10
+ */
+class RFC4648Test extends PHPUnit\Framework\TestCase
+{
+    public function testVectorBase64()
+    {
+        $this->assertSame(Base64::encode(''), '');
+        $this->assertSame(Base64::encode('f'), 'Zg==');
+        $this->assertSame(Base64::encode('fo'), 'Zm8=');
+        $this->assertSame(Base64::encode('foo'), 'Zm9v');
+        $this->assertSame(Base64::encode('foob'), 'Zm9vYg==');
+        $this->assertSame(Base64::encode('fooba'), 'Zm9vYmE=');
+        $this->assertSame(Base64::encode('foobar'), 'Zm9vYmFy');
+    }
+
+    public function testVectorBase32()
+    {
+        $this->assertSame(Base32::encode(''), '');
+        $this->assertSame(Base32::encode('f'), 'my======');
+        $this->assertSame(Base32::encode('fo'), 'mzxq====');
+        $this->assertSame(Base32::encode('foo'), 'mzxw6===');
+        $this->assertSame(Base32::encode('foob'), 'mzxw6yq=');
+        $this->assertSame(Base32::encode('fooba'), 'mzxw6ytb');
+        $this->assertSame(Base32::encode('foobar'), 'mzxw6ytboi======');
+
+        $this->assertSame(Base32::encodeUpper(''), '');
+        $this->assertSame(Base32::encodeUpper('f'), 'MY======');
+        $this->assertSame(Base32::encodeUpper('fo'), 'MZXQ====');
+        $this->assertSame(Base32::encodeUpper('foo'), 'MZXW6===');
+        $this->assertSame(Base32::encodeUpper('foob'), 'MZXW6YQ=');
+        $this->assertSame(Base32::encodeUpper('fooba'), 'MZXW6YTB');
+        $this->assertSame(Base32::encodeUpper('foobar'), 'MZXW6YTBOI======');
+    }
+
+    public function testVectorBase32Hex()
+    {
+        $this->assertSame(Base32Hex::encode(''), '');
+        $this->assertSame(Base32Hex::encode('f'), 'co======');
+        $this->assertSame(Base32Hex::encode('fo'), 'cpng====');
+        $this->assertSame(Base32Hex::encode('foo'), 'cpnmu===');
+        $this->assertSame(Base32Hex::encode('foob'), 'cpnmuog=');
+        $this->assertSame(Base32Hex::encode('fooba'), 'cpnmuoj1');
+        $this->assertSame(Base32Hex::encode('foobar'), 'cpnmuoj1e8======');
+
+        $this->assertSame(Base32Hex::encodeUpper(''), '');
+        $this->assertSame(Base32Hex::encodeUpper('f'), 'CO======');
+        $this->assertSame(Base32Hex::encodeUpper('fo'), 'CPNG====');
+        $this->assertSame(Base32Hex::encodeUpper('foo'), 'CPNMU===');
+        $this->assertSame(Base32Hex::encodeUpper('foob'), 'CPNMUOG=');
+        $this->assertSame(Base32Hex::encodeUpper('fooba'), 'CPNMUOJ1');
+        $this->assertSame(Base32Hex::encodeUpper('foobar'), 'CPNMUOJ1E8======');
+    }
+
+    public function testVectorBase16()
+    {
+        $this->assertSame(Hex::encode(''), '');
+        $this->assertSame(Hex::encode('f'), '66');
+        $this->assertSame(Hex::encode('fo'), '666f');
+        $this->assertSame(Hex::encode('foo'), '666f6f');
+        $this->assertSame(Hex::encode('foob'), '666f6f62');
+        $this->assertSame(Hex::encode('fooba'), '666f6f6261');
+        $this->assertSame(Hex::encode('foobar'), '666f6f626172');
+
+        $this->assertSame(Hex::encodeUpper(''), '');
+        $this->assertSame(Hex::encodeUpper('f'), '66');
+        $this->assertSame(Hex::encodeUpper('fo'), '666F');
+        $this->assertSame(Hex::encodeUpper('foo'), '666F6F');
+        $this->assertSame(Hex::encodeUpper('foob'), '666F6F62');
+        $this->assertSame(Hex::encodeUpper('fooba'), '666F6F6261');
+        $this->assertSame(Hex::encodeUpper('foobar'), '666F6F626172');
+    }
+}

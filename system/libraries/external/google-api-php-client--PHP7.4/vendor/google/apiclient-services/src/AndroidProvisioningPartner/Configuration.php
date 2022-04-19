@@ -1,79 +1,116 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AndroidProvisioningPartner;
+
+class Configuration extends \Google\Model
+{
+  public $companyName;
+  public $configurationId;
+  public $configurationName;
+  public $contactEmail;
+  public $contactPhone;
+  public $customMessage;
+  public $dpcExtras;
+  public $dpcResourcePath;
+  public $isDefault;
+  public $name;
+
+  public function setCompanyName($companyName)
+  {
+    $this->companyName = $companyName;
+  }
+  public function getCompanyName()
+  {
+    return $this->companyName;
+  }
+  public function setConfigurationId($configurationId)
+  {
+    $this->configurationId = $configurationId;
+  }
+  public function getConfigurationId()
+  {
+    return $this->configurationId;
+  }
+  public function setConfigurationName($configurationName)
+  {
+    $this->configurationName = $configurationName;
+  }
+  public function getConfigurationName()
+  {
+    return $this->configurationName;
+  }
+  public function setContactEmail($contactEmail)
+  {
+    $this->contactEmail = $contactEmail;
+  }
+  public function getContactEmail()
+  {
+    return $this->contactEmail;
+  }
+  public function setContactPhone($contactPhone)
+  {
+    $this->contactPhone = $contactPhone;
+  }
+  public function getContactPhone()
+  {
+    return $this->contactPhone;
+  }
+  public function setCustomMessage($customMessage)
+  {
+    $this->customMessage = $customMessage;
+  }
+  public function getCustomMessage()
+  {
+    return $this->customMessage;
+  }
+  public function setDpcExtras($dpcExtras)
+  {
+    $this->dpcExtras = $dpcExtras;
+  }
+  public function getDpcExtras()
+  {
+    return $this->dpcExtras;
+  }
+  public function setDpcResourcePath($dpcResourcePath)
+  {
+    $this->dpcResourcePath = $dpcResourcePath;
+  }
+  public function getDpcResourcePath()
+  {
+    return $this->dpcResourcePath;
+  }
+  public function setIsDefault($isDefault)
+  {
+    $this->isDefault = $isDefault;
+  }
+  public function getIsDefault()
+  {
+    return $this->isDefault;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Configuration::class, 'Google_Service_AndroidProvisioningPartner_Configuration');

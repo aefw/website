@@ -1,85 +1,198 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-n9f2gIsKcacQxvH8X0sE0h6kSYXvNG==
+<?php
+/**
+ * Copyright 2017 Facebook, Inc.
+ *
+ * You are hereby granted a non-exclusive, worldwide, royalty-free license to
+ * use, copy, modify, and distribute this software in source code or binary
+ * form for use in connection with the web services and APIs provided by
+ * Facebook.
+ *
+ * As with any software that integrates with the Facebook platform, your use
+ * of this software is subject to the Facebook Developer Principles and
+ * Policies [http://developers.facebook.com/policy/]. This copyright notice
+ * shall be included in all copies or substantial portions of the software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+ * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+ *
+ */
+namespace Facebook\GraphNodes;
+
+/**
+ * Class GraphNode
+ *
+ * @package Facebook
+ */
+class GraphNode extends Collection
+{
+    /**
+     * @var array Maps object key names to Graph object types.
+     */
+    protected static $graphObjectMap = [];
+
+    /**
+     * Init this Graph object.
+     *
+     * @param array $data
+     */
+    public function __construct(array $data = [])
+    {
+        parent::__construct($this->castItems($data));
+    }
+
+    /**
+     * Iterates over an array and detects the types each node
+     * should be cast to and returns all the items as an array.
+     *
+     * @TODO Add auto-casting to AccessToken entities.
+     *
+     * @param array $data The array to iterate over.
+     *
+     * @return array
+     */
+    public function castItems(array $data)
+    {
+        $items = [];
+
+        foreach ($data as $k => $v) {
+            if ($this->shouldCastAsDateTime($k)
+                && (is_numeric($v)
+                    || $this->isIso8601DateString($v))
+            ) {
+                $items[$k] = $this->castToDateTime($v);
+            } elseif ($k === 'birthday') {
+                $items[$k] = $this->castToBirthday($v);
+            } else {
+                $items[$k] = $v;
+            }
+        }
+
+        return $items;
+    }
+
+    /**
+     * Uncasts any auto-casted datatypes.
+     * Basically the reverse of castItems().
+     *
+     * @return array
+     */
+    public function uncastItems()
+    {
+        $items = $this->asArray();
+
+        return array_map(function ($v) {
+            if ($v instanceof \DateTime) {
+                return $v->format(\DateTime::ISO8601);
+            }
+
+            return $v;
+        }, $items);
+    }
+
+    /**
+     * Get the collection of items as JSON.
+     *
+     * @param int $options
+     *
+     * @return string
+     */
+    public function asJson($options = 0)
+    {
+        return json_encode($this->uncastItems(), $options);
+    }
+
+    /**
+     * Detects an ISO 8601 formatted string.
+     *
+     * @param string $string
+     *
+     * @return boolean
+     *
+     * @see https://developers.facebook.com/docs/graph-api/using-graph-api/#readmodifiers
+     * @see http://www.cl.cam.ac.uk/~mgk25/iso-time.html
+     * @see http://en.wikipedia.org/wiki/ISO_8601
+     */
+    public function isIso8601DateString($string)
+    {
+        // This insane regex was yoinked from here:
+        // http://www.pelagodesign.com/blog/2009/05/20/iso-8601-date-validation-that-doesnt-suck/
+        // ...and I'm all like:
+        // http://thecodinglove.com/post/95378251969/when-code-works-and-i-dont-know-why
+        $crazyInsaneRegexThatSomehowDetectsIso8601 = '/^([\+-]?\d{4}(?!\d{2}\b))'
+            . '((-?)((0[1-9]|1[0-2])(\3([12]\d|0[1-9]|3[01]))?'
+            . '|W([0-4]\d|5[0-2])(-?[1-7])?|(00[1-9]|0[1-9]\d'
+            . '|[12]\d{2}|3([0-5]\d|6[1-6])))([T\s]((([01]\d|2[0-3])'
+            . '((:?)[0-5]\d)?|24\:?00)([\.,]\d+(?!:))?)?(\17[0-5]\d'
+            . '([\.,]\d+)?)?([zZ]|([\+-])([01]\d|2[0-3]):?([0-5]\d)?)?)?)?$/';
+
+        return preg_match($crazyInsaneRegexThatSomehowDetectsIso8601, $string) === 1;
+    }
+
+    /**
+     * Determines if a value from Graph should be cast to DateTime.
+     *
+     * @param string $key
+     *
+     * @return boolean
+     */
+    public function shouldCastAsDateTime($key)
+    {
+        return in_array($key, [
+            'created_time',
+            'updated_time',
+            'start_time',
+            'end_time',
+            'backdated_time',
+            'issued_at',
+            'expires_at',
+            'publish_time',
+            'joined'
+        ], true);
+    }
+
+    /**
+     * Casts a date value from Graph to DateTime.
+     *
+     * @param int|string $value
+     *
+     * @return \DateTime
+     */
+    public function castToDateTime($value)
+    {
+        if (is_int($value)) {
+            $dt = new \DateTime();
+            $dt->setTimestamp($value);
+        } else {
+            $dt = new \DateTime($value);
+        }
+
+        return $dt;
+    }
+
+    /**
+     * Casts a birthday value from Graph to Birthday
+     *
+     * @param string $value
+     *
+     * @return Birthday
+     */
+    public function castToBirthday($value)
+    {
+        return new Birthday($value);
+    }
+
+    /**
+     * Getter for $graphObjectMap.
+     *
+     * @return array
+     */
+    public static function getObjectMap()
+    {
+        return static::$graphObjectMap;
+    }
+}

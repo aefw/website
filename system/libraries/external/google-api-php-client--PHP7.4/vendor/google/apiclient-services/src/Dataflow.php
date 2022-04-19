@@ -1,128 +1,1185 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for Dataflow (v1b3).
+ *
+ * <p>
+ * Manages Google Cloud Dataflow projects on Google Cloud Platform.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/dataflow" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class Dataflow extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+  /** View and manage your Google Compute Engine resources. */
+  const COMPUTE =
+      "https://www.googleapis.com/auth/compute";
+  /** View your Google Compute Engine resources. */
+  const COMPUTE_READONLY =
+      "https://www.googleapis.com/auth/compute.readonly";
+  /** See your primary Google Account email address. */
+  const USERINFO_EMAIL =
+      "https://www.googleapis.com/auth/userinfo.email";
+
+  public $projects;
+  public $projects_jobs;
+  public $projects_jobs_debug;
+  public $projects_jobs_messages;
+  public $projects_jobs_workItems;
+  public $projects_locations;
+  public $projects_locations_flexTemplates;
+  public $projects_locations_jobs;
+  public $projects_locations_jobs_debug;
+  public $projects_locations_jobs_messages;
+  public $projects_locations_jobs_snapshots;
+  public $projects_locations_jobs_stages;
+  public $projects_locations_jobs_workItems;
+  public $projects_locations_snapshots;
+  public $projects_locations_sql;
+  public $projects_locations_templates;
+  public $projects_snapshots;
+  public $projects_templates;
+
+  /**
+   * Constructs the internal representation of the Dataflow service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://dataflow.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1b3';
+    $this->serviceName = 'dataflow';
+
+    $this->projects = new Dataflow\Resource\Projects(
+        $this,
+        $this->serviceName,
+        'projects',
+        [
+          'methods' => [
+            'deleteSnapshots' => [
+              'path' => 'v1b3/projects/{projectId}/snapshots',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'location' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'snapshotId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'workerMessages' => [
+              'path' => 'v1b3/projects/{projectId}/WorkerMessages',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_jobs = new Dataflow\Resource\ProjectsJobs(
+        $this,
+        $this->serviceName,
+        'jobs',
+        [
+          'methods' => [
+            'aggregated' => [
+              'path' => 'v1b3/projects/{projectId}/jobs:aggregated',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'location' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1b3/projects/{projectId}/jobs',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'location' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'replaceJobId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1b3/projects/{projectId}/jobs/{jobId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'jobId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'location' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'getMetrics' => [
+              'path' => 'v1b3/projects/{projectId}/jobs/{jobId}/metrics',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'jobId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'location' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'startTime' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1b3/projects/{projectId}/jobs',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'location' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'snapshot' => [
+              'path' => 'v1b3/projects/{projectId}/jobs/{jobId}:snapshot',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'jobId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'v1b3/projects/{projectId}/jobs/{jobId}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'jobId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'location' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_jobs_debug = new Dataflow\Resource\ProjectsJobsDebug(
+        $this,
+        $this->serviceName,
+        'debug',
+        [
+          'methods' => [
+            'getConfig' => [
+              'path' => 'v1b3/projects/{projectId}/jobs/{jobId}/debug/getConfig',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'jobId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'sendCapture' => [
+              'path' => 'v1b3/projects/{projectId}/jobs/{jobId}/debug/sendCapture',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'jobId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_jobs_messages = new Dataflow\Resource\ProjectsJobsMessages(
+        $this,
+        $this->serviceName,
+        'messages',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1b3/projects/{projectId}/jobs/{jobId}/messages',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'jobId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'endTime' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'location' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'minimumImportance' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'startTime' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_jobs_workItems = new Dataflow\Resource\ProjectsJobsWorkItems(
+        $this,
+        $this->serviceName,
+        'workItems',
+        [
+          'methods' => [
+            'lease' => [
+              'path' => 'v1b3/projects/{projectId}/jobs/{jobId}/workItems:lease',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'jobId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'reportStatus' => [
+              'path' => 'v1b3/projects/{projectId}/jobs/{jobId}/workItems:reportStatus',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'jobId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations = new Dataflow\Resource\ProjectsLocations(
+        $this,
+        $this->serviceName,
+        'locations',
+        [
+          'methods' => [
+            'workerMessages' => [
+              'path' => 'v1b3/projects/{projectId}/locations/{location}/WorkerMessages',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'location' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_flexTemplates = new Dataflow\Resource\ProjectsLocationsFlexTemplates(
+        $this,
+        $this->serviceName,
+        'flexTemplates',
+        [
+          'methods' => [
+            'launch' => [
+              'path' => 'v1b3/projects/{projectId}/locations/{location}/flexTemplates:launch',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'location' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_jobs = new Dataflow\Resource\ProjectsLocationsJobs(
+        $this,
+        $this->serviceName,
+        'jobs',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1b3/projects/{projectId}/locations/{location}/jobs',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'location' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'replaceJobId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1b3/projects/{projectId}/locations/{location}/jobs/{jobId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'location' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'jobId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'getExecutionDetails' => [
+              'path' => 'v1b3/projects/{projectId}/locations/{location}/jobs/{jobId}/executionDetails',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'location' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'jobId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'getMetrics' => [
+              'path' => 'v1b3/projects/{projectId}/locations/{location}/jobs/{jobId}/metrics',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'location' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'jobId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'startTime' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1b3/projects/{projectId}/locations/{location}/jobs',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'location' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'snapshot' => [
+              'path' => 'v1b3/projects/{projectId}/locations/{location}/jobs/{jobId}:snapshot',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'location' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'jobId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'v1b3/projects/{projectId}/locations/{location}/jobs/{jobId}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'location' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'jobId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_jobs_debug = new Dataflow\Resource\ProjectsLocationsJobsDebug(
+        $this,
+        $this->serviceName,
+        'debug',
+        [
+          'methods' => [
+            'getConfig' => [
+              'path' => 'v1b3/projects/{projectId}/locations/{location}/jobs/{jobId}/debug/getConfig',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'location' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'jobId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'sendCapture' => [
+              'path' => 'v1b3/projects/{projectId}/locations/{location}/jobs/{jobId}/debug/sendCapture',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'location' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'jobId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_jobs_messages = new Dataflow\Resource\ProjectsLocationsJobsMessages(
+        $this,
+        $this->serviceName,
+        'messages',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1b3/projects/{projectId}/locations/{location}/jobs/{jobId}/messages',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'location' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'jobId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'endTime' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'minimumImportance' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'startTime' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_jobs_snapshots = new Dataflow\Resource\ProjectsLocationsJobsSnapshots(
+        $this,
+        $this->serviceName,
+        'snapshots',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1b3/projects/{projectId}/locations/{location}/jobs/{jobId}/snapshots',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'location' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'jobId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_jobs_stages = new Dataflow\Resource\ProjectsLocationsJobsStages(
+        $this,
+        $this->serviceName,
+        'stages',
+        [
+          'methods' => [
+            'getExecutionDetails' => [
+              'path' => 'v1b3/projects/{projectId}/locations/{location}/jobs/{jobId}/stages/{stageId}/executionDetails',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'location' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'jobId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'stageId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'endTime' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'startTime' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_jobs_workItems = new Dataflow\Resource\ProjectsLocationsJobsWorkItems(
+        $this,
+        $this->serviceName,
+        'workItems',
+        [
+          'methods' => [
+            'lease' => [
+              'path' => 'v1b3/projects/{projectId}/locations/{location}/jobs/{jobId}/workItems:lease',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'location' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'jobId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'reportStatus' => [
+              'path' => 'v1b3/projects/{projectId}/locations/{location}/jobs/{jobId}/workItems:reportStatus',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'location' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'jobId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_snapshots = new Dataflow\Resource\ProjectsLocationsSnapshots(
+        $this,
+        $this->serviceName,
+        'snapshots',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'v1b3/projects/{projectId}/locations/{location}/snapshots/{snapshotId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'location' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'snapshotId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1b3/projects/{projectId}/locations/{location}/snapshots/{snapshotId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'location' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'snapshotId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1b3/projects/{projectId}/locations/{location}/snapshots',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'location' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'jobId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_sql = new Dataflow\Resource\ProjectsLocationsSql(
+        $this,
+        $this->serviceName,
+        'sql',
+        [
+          'methods' => [
+            'validate' => [
+              'path' => 'v1b3/projects/{projectId}/locations/{location}/sql:validate',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'location' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'query' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_templates = new Dataflow\Resource\ProjectsLocationsTemplates(
+        $this,
+        $this->serviceName,
+        'templates',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1b3/projects/{projectId}/locations/{location}/templates',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'location' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1b3/projects/{projectId}/locations/{location}/templates:get',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'location' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'gcsPath' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'launch' => [
+              'path' => 'v1b3/projects/{projectId}/locations/{location}/templates:launch',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'location' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'dynamicTemplate.gcsPath' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'dynamicTemplate.stagingLocation' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'gcsPath' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'validateOnly' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_snapshots = new Dataflow\Resource\ProjectsSnapshots(
+        $this,
+        $this->serviceName,
+        'snapshots',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1b3/projects/{projectId}/snapshots/{snapshotId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'snapshotId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'location' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1b3/projects/{projectId}/snapshots',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'jobId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'location' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_templates = new Dataflow\Resource\ProjectsTemplates(
+        $this,
+        $this->serviceName,
+        'templates',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1b3/projects/{projectId}/templates',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1b3/projects/{projectId}/templates:get',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'gcsPath' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'location' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'launch' => [
+              'path' => 'v1b3/projects/{projectId}/templates:launch',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'dynamicTemplate.gcsPath' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'dynamicTemplate.stagingLocation' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'gcsPath' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'location' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'validateOnly' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Dataflow::class, 'Google_Service_Dataflow');

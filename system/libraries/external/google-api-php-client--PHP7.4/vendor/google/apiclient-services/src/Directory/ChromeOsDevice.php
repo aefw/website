@@ -1,184 +1,423 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPsTYStnLx4TqKBBcN/YmJMnsIyxtryKGGEjXIYFRougtajTCbh0vqW6IIA54BKXeVtfGNUNR
-0UUr0u34bLSHHhTYB93FwmoY4b0F2UTjZ/NTLuH6KeCKDQ9VQAKkBEB0dSejDSDA+eTt/8Uk7BXl
-GH4/Gc6J8o9ARk1n4CKDKy1bWhsGhqF2ENo0LPHOcaOkmygx+n1aA32pPqzhh/VQmHeVp5ZDKEvy
-5iHYI7pz5ORerP6W+rf7X6iB2bi2Xlt74lsIqNnfhQknSgeTW23GsaQYKk90ud1JBZLKXAWiWQO+
-IWNbLT9kgFYTH+hbTw1tC8ZKpQbu/seRuv86lIwzAaspZTrUX7Bx3/WOVid/BdWD7HFf8/LV1y40
-aBNVsM7CvRqiddphNhKwVBRrVN44mS32Foc/P6aBb7hGXq5iZcuto2jp5pO0apDGDy5cyNsKlOVP
-yB9n2NsO/tidwTiNSvns4KtZVA1HECbGpJhYwE1jPW61l+QK6W0hIT+QdPBeo3IGP0Mx+GsJ/tJZ
-KfQ2IuL2u4wxEk05S9QJ66HxMaxaK4RqSktZHeMkPcQRKIi3rmlrQsCb+4G9yEfS+6VG0yCFs0fo
-2rTsdot0ooNMnpeKvAX4aNOkLYWjqkUwk0+kxUEAeGH//i/VTATeWdRmBwVaWPPJndrIoFK0+CdL
-8BNWp7Kh7ex1rjv7tax84Lo42KOtRvtV7+13ZdJq1jR9D6+swOjlX6oVKONxYxo5LMMlZjziOfHo
-Bb7lSE0R1ZfyN78IUPrcHxzVFvqbTgow4veL42/Oc2c9OTN2DbyWfXjKdJxV14QoTGXzdr0QbTPo
-W+rt7UvGaIQnqrdsDMAL1t7KDsHHaMAcvAxK+sGv0xsuKv+LTGZICWfFuQgmA8JPfD9CDUM32WzK
-IlE5Hk73n7xuSZ0xHUtntEZISYmBMXzhisvkQmC77T45we2Mn2e2xXQjezBXBq0oJXKWibGD1za2
-2AHaUXmqocW1XhDXBaDqdSP0Htd7JRBlJFzfT9tBVyUUjSb8yAoNAzWt+tJMvCWaL/hd30840jHc
-k5AzA6sxOv4Ds9GgpotrFQkOwlEViIp/G6CgHr5gEu4oRG8A3lNRDRKJ6smjislwnHt1hiRZlKQy
-VSiVX5Giaz1SE6b/L8/X1ta2emUOMUIrTund8G0CDQFmgMVTYO0UCd4qZlB/SngD9yG/Jwb1KNHw
-XhztNN9PomMw7TRU2Mg/JAgqOcZs2MZRtM5Vt4Tgc+PoY2VpfdEBGJtIEjH0FHhX5u25VtctKR+V
-1oAj83+D96bCHGJ3RQVaXCNi2Bb70Xn0Bb/hYBi+KLNflsEnzN//3c4m+YMCLNMGVNxdMvSb5fOE
-zUn6fCVxhkypcKkWAfKTjh56tlk5pWDLDb+rNz9b6db0+90Pfzf84+0cNdsLT+GOPBLA4A2IQylx
-qIyJvZ9Sf9bB2P98lZ11Uwq9IMFZC6qUUqGpfcforiXRs50YD7Ric+ejnneUm8FzXLIp/uEjUtCK
-RgCL6oJtvlCbgrNfj4xu95eNU2bZLIyhfLgV+K3qThImdeuAhNZoSTZP9iAdxOgBeMuomH6b/YFv
-J8HSE3YiOWpbs+hTlZaQvfdrAgHtNJtEiItX1BPimLGLLxvp/e8LBDeUQJlxB5zJ06dmrXmuxCYm
-cyvE7Zq8omgdloRhSGKLnc5jyB+4dwD3UJj0/UcmV7fldZSFaDFA5OGkDRR0e1rijHwkb+zqgIsM
-v5s1Dha1PT3tiaMbHIfCs7gciG5W2xg9cxSGACLLP4+UHaobsl83njCoqFbfx80kqDnXeFCwMEDn
-wYk3n/t6sXm+FVtGzRcxcTg5mQWOTbfks4MRSszGVVE8WLL9rHgeS2vxebDfNgbvFwVSxvJtUPwg
-4Ixt0HNskqqwnT2WpXjw/SkrfhvQQpwuZvQGLsBJo3IPk7nWx0U1RXw6bBZEaKk+JStV88cKoJ15
-wBB3LXP//2VUahilK1mtJ2C6QZB1KtqlGAxjOIURQYV6SMeUKL0lck7hvTqH0Vo332rbjwVneITf
-mmG98Ko76yW/AqiCO1BM5d9aNO6sSVCbU7w5CZezkxw0dIxiM7vOWJjflcmSAJwhabjKBUZhRX8I
-w4iwhbzPhwVy0wLJWwu2d5Du0DkDE/b9nwi/Otq/Kfy7BaCjDC3bTdz2vOsnXnjsfTGkXBS+HLKB
-qAoqQaim2ESKPbtyD8qJYSt7IzJ/65ZdEOD2cJHP2NeiGbPm5Id8ZtEhYxoChkSzmiE/QvnZMp7W
-4uL9sPOnUXVarnDs5bhjRLBXLBkKaU4cLigoHpeTm2POwHOxzOvzyCBocmpA0Hyg3ALdXRRkRKfs
-HZ+gXlQIxkp1nbBEEixMCmB76i0Z8EhAAvsG/9AxCgleLRpLFPU/rPsBTZ8gylF/uv4XauKA9S3q
-ArQ2cM+NECvLRYtRzd3lbjur3qmYBYNR1h5W7f34yBaXUeFwzeagEvrFedeiRfSjj9PDnHqPi7WP
-r5H22qNTOFenyYDyqTL9tqJZaktWdNucDXejLsi2YLjIE/AXJEMmOUrELvg5pwvHtcUEIV/wFi0p
-+cH7ofbqe3fws3OiAAhJoJGjd+2VKAxRWdIZ7d03gf7FY+TgG47q6J3RiaFDOL72tF0rpi5KgS3C
-xqVut2R1JQWYlKHaEyIxuLKVy9VSSOPLTL2xQixuHAPd2OMx+g+AuZf92i5tyj8d5nZSllP4wWqs
-jS6OYfiW370eglD50+LK16nfU2F/UNvRVGf7um5n/dBYW1I1QYXld8iN5JcAbKjNkVxpSsE7PtCD
-mTRi9gr1nduKbKMLFIgisPi2HlE4dCU0ZbB0uWGdjgkDISf+xKBhn4JwlD5Ahu5tXns+rdHuxPyS
-Bw2Z3P/9ulXbpBVg0xhF9dUlC7QjZOPNoLxv+KQQNCR1xy9yB533H3vhiP9t5sgTM09Gh5Rh3Y6I
-QjZMHz9FZQTMvIy1tZ1OLg1R45IH3Vuja0b1joKQANtBjBE+6pAm+a095VPibUT9qmctjL0Hv9BN
-L3QfO6uak7n2zTR3xA3eWYivozx4V0sShcKM6NQx8LoOHFZoqX62Oxxv1lc6C25DIFyskxZnuh8d
-rJ857HiMUglkT0dPsBIMoI96UcNeXDdpWLprAraFYE98rPsJ618ZaiaqJkd253INHBl0ppfttyL7
-WmlBAx18z8uN3AnKosb+WYSNs/nL2++y2LYgEaxA6yEtZSLhVg0OoRItel+3TGW79+c6IyS9MMUy
-ByDDg7366FTbwCfzTeoMh3lHX6qddiA3IWjErhWLfVaBiVL8qjICDocstOAveoHjHI44zCKrnfdy
-30sCsTDjLdVYXrBGpisz0e1yAVuHmaH1bt+pnKstff7bs/ymBxQ0woxYsM4MNpAD4tHoamktnuLd
-WZlXxPB7c0uzZKRHdXG4qgRTmtitLcffjZFcqdguNDlXp9GbrefevwinsvWWy2yGqp6TQx8wSz7r
-trT/hsVly/bZKQIE2ctIAUG5RwtR8cBOsNrXTQ8ga9rr07sRLbGeh/DRK87vr9/uoiTsbuvbg97N
-46UiDoPX6CvgyOywXCXxhJdnNp2JjY5rLoglXRixwEce8Qdz2stmOp6b18xh1/bZlQnQUadbviaS
-/Gn/9T2LOAYIHrPqWv4AEcyjNoBbwQr2atcM7zJNAdmbBems2bwFAF6EPVwh7m89mWEo7pQgRko3
-SQsGLBUD13bTQOz9TA5fLw9AWOBv00ysJaPc16oNUh8YIKIkfQj5YfkL07H7pPRo6gF2u7sFBxZO
-oHS6yRsOyeUR6blkXEcioJ3i7bOFSNIuvfRFpelaJuRpxTind8kDamkBUH9e+JslKVmO2/dgHXuY
-m18mFhTOosonob5K1tsPLH8rWDI1wI8MpVbKVd9Pt6MougzxO/CtQr2PcA/ZwM/wB6Ml5g2jSq69
-sPmYh3lIlkaEXIftK+0EoUZm2nIAq2d119UTV7OQ2Kc/s/iDHRS05X8L52VYmIiKNkA+wqoiVpgM
-0qbK52rXw4H+nl/f0VweZFQDvWbXNL1SeZdadQDAC5c/fKZ541Xz8MuQ2q9vXoj471aMms0xlSls
-f10L0ZdxZSCKBhmiDSi2J+auEvEn+45KlZMpk2pL7VyrcZLbaAlB3KXZCz0ooem261wPypBaGPaL
-14OMdrC73y4N/GAzeSOC8FUN2neWj6okMZ8sqxNewnSwDVaKo7ntjp4jws+X44hWczIfRJ4PhgbE
-jAEOc/F4qqPVXr8OZVkYMK3mGMj62JAGKz3r3C+FYFSC3dpktcXmoFniuUeLdg/Kb/PhI8GoYR/h
-Y0rLgUsyfu/aR+2wXW3TZ3K6zo2hZjQOOyO6jvBaSHu5hiW4tBA/jlNxzpcsTJXRzfOzd6Rm6rSm
-kJTwG4Bg1jalu5At6lROLwxKy5gVwFPIy04xpDDFS5cFrj4ENJq7NlylcSE8w5b4z7b5tcolE8m5
-hPHA/pQt4R/eXQ8/VTw/FWMd5Mh/wmYhpwRfCzEpTnQANGicoLp09cU5aQapMpULHxarWSRMUWsU
-JosocacvwmUxvnuHWMSYt8asAxOAgkl8WzJM9WKFcLUhzr1FotIMBtLDAZh6kCkzBNm6sUfqJOiW
-LrKN+O+X7C79xWfssk2Un9MGRGPOivv60jDQUhot1MVq0Vh+fsQS1K098dFjtl0kd9BGOlsHWpbQ
-KjQWx7J2P2xBwS4zWs8xM9bnBBjQvmOfOBexcHtnVgYIVbvgpC5jVMTCe6Dph7hBRdPkGH6apEOA
-UeTp9VPC5C79oV4sIEhAJgDfm3sisqrYHpO9XRY+0199zLpX9SyMR0kdARNTrNXoh6KmPj7AU3bY
-O4TZ70gPO4Lv3/pytNKI2G5lnFeGL9I+rfy5XDICgo+ezBqwjsbay/gqGd/R2NUFX99kVqdHcRcU
-SaNakqnZ1lclK5vqQdy7CxEXvJqY++100jeAn+0V8NZhcwzxBLXkOBa33teHwSGdOFcBn+Io1i88
-TLtzXSwr0bI0TUa1dsH2Q+XMDR0YliuUScc/zGjuk8PLRsvx0wFxISVMWKGcJAwfONxCSna4V676
-92ub7iFNUhNjZrvL07F2eqj0Rce8NIQZ/eMhO6MSYSSTR4ippc+PjEj4saHgkWDqTo5xACRgEQH5
-YeZe7mG9CJWb2VyCSVsP+ObJ0LpjVp3TegBriAx1XdZ8lDmzkrQgWuVie4XfTfaxkVvtFP0Vm1Pi
-CQl5ez9aClQXjv1Nxen3ADDb6Ta3AAxyGctvmdJUeNOSIgPQTvH/3tAVpCfMR8GxVIMlYJIoiMe0
-+361E8B8BAPayHtubph+nJtc+AkZnZ7Foi39YZKdzrsubAP11kryEk4rHEjWRCzU+CwKt37cIiIO
-S0HutuZjgu3lGs5/gCE9TPypl05RoAjBhjlLTeZ2KrQJmaLRv5E1CKX/f/kGTkt5H59va8HXkrdn
-gpd85jJb3fj6ijnCuurPNikHLNsFc/CHCPDhN2QajWOENxYv8tPn/vCDyvk/n9ChgRnaqaD9Wepn
-OGDwTLdXsQIbhPpeZQ0tGU10c4cySJBCo2ye61KD+TssBdRojj7ClQ+qfBlIVPb6ZLexeXZMrZre
-uGFuStNpERFM/ltQpTfPOZGJMDsJH98VaJPWOnc2a5YHS5+BFK05rQME1PV3c0Zofvsy1THzMWNN
-LEn0z6S7GjwS2lH7vipT7tvV7Y2TvJ+u53t0Rb9PqRHvpdAZ6DUVU34eDp6qFq6U4tqJ9z3sjtMQ
-Cv01kHE/XZwj0LR+i64FnVbJGOkRV/4PtOAsALGcwRHauDqJSodDmOVTuo2X8ZbuS5jC5q+249FO
-mhoOfG3obhb3PM89mZTg/uCeQA5fWdWIzNlf5p0s+RPGS+MLl1jV1qJdU9SwXTYwPWRMSMR9ieYX
-s5I0ai7jlpuwkDr5Z23Vw5B5f80LyUMirPExIzCU8cldSZ2OnpBlObeUNg2ZwQsk0rBFmrQ8wdGC
-7Y8ee/CRXTRVDWuvqQo0xUadtxddsm/KeroHkOwy6TYxIJVGAEC2dnEpbjKse/ykaQEEhN9zuXJl
-9D/Xjv3NwzMOaQfvmiLciVznn8TXQvwnflRmKZzIZ2PeFeFA9EZDmAkHNu5/OthIT1yw2Q5321GS
-HKcU1kWrVXncD12yEAM4BOIHcMO8cQNx1ABlPxn7RyO7vtipwS0HCR4xBGYILUnlJ6yVFessUpkb
-oU9MtSfHffTanyPa62+frTMCL+cZ/bi2zMwdeY4lfxQ33rZk/CR9J6Cwfb1YnlHDlqVtbIdA8ziV
-ufl34ZAt9vcCjPhGCbKaYNySYeRUZBB03UEWtRiDKyUwuE1Ob6FRKV3ENinEnV/+wO4aIpsnXP9T
-9q5tPI4De8plpV4/eJeA2/+KSpU5j22oR25jd3b7xjHodH2M8RkAjTrd9mb7el0hV45sx12rn+lU
-/O2yFXkO94c8W8V2GaNnUzkrdSdP4MYYDbZaiog/uKK76bampcUypYas0KFzCScxS7vrYxiJz6v/
-4U+BNgHMxGvnAR4bHS6Z8uSL17TKfpagnXfo9PfCKpKiC4tFzLnQOUJDVmkkgN71vwS0M9agn/OC
-/uGEhtoUXqcIbsYI9ftsR+P19LYofCcyYZNjjEPuux34hnirVPz5hC9EVQ/VlblSpwcb4qHB3ujt
-ICduerbmBzHHzMnjL3SFcE7h2POrlVejj8zTLrDfASKr7QEFtSBzVvMoT5HLtOm/A2vvYm6RKkJ7
-Z+fevlNdR1qiLd9cF//1lvzip2oYNhqSyVvW5J90M3E9neYLuGQaYSyihqM8MJ52zfJz0eIwNZ6I
-ofsKfDAUf4iIa0TstIGKsOj6woVplZzI5eo2G0MfSSzzY039jjXzc5wQ1wXSeTuGEc5PiVf57iBh
-aUXR0qfl11vPiVPECXvM7Nu8TiSI+8UkgGvYf5HWGZl5wz80ol1k8tvv8sHe2YW3euQMyMWssH+d
-D5OeR6ARCatr2mLgb/2NVc+aG3k/mO0+cB7Mv2iFA8n7bH2FHqSce5AU0czfj86mdTsh4EuTqeRv
-xBbP4hGsRvHEZVqsTpL6SsvEdr0T31oOvjcy0GeW1FqVZW/JuvFaJCMs/X4/xrpyI5n5wULfbBBh
-oS/75Nqp3P7ICyx2LSLQuLP8yjLeNO4kVSKnXdnoTw+LZY8/ZtbsEw6he5uanqzD4t0d4+Zqf8ID
-EWufinvMvkKcqn3vyGYd4MZMC0RmkfQCQT3IGLlN7UT8jzTmwxbmNT/PAGeWUHW7ZAh/BgNRYMrT
-zAVgSfdfVxMsJkl/5rqo9fTWWVfrP89OqJVi1H2tbNm81Lam/R1+dHhZ+MUJJFcTC6VOBWTmFgXV
-QFq5EBaQBK4QiqZTqqmwXyFMWGl7KdeER5nCMm0cUYZQnWzNlbGsPHOwbBs6PIiHEGkgPJF5khrg
-4JCrS9wFPQ39llbpmrmNlhQ3x3YgLV6jQe7dxStGkiKGYyjM/XkPBNEm6YnT/TTYV/UMLcpQDTfg
-bK9Gs/WjfbFlbdAL/Y7BjmDDW+jrtHh5efL5Zsc0xlG2mJSXDkhPFn1JPRPANKhJQQpdoaW2FiI2
-f6Aq2MxjZ1Tk5ooeyhnubj4VS7J0qYVQSHHWiNPntqtVMvt5BLfTc15PP1SHLxi+nnWR2qv5rFLo
-kp7ej+G5MDL0zsDKhlicOKzOvdgmIfGAaYgWnL3vvF7L96DfCLxifFyqRhbSmARGjqOKfQN/i0CH
-KyhMuesKG0O4QHbNZnTfPsAVOXMEA9xeQCs5LTgJJSTA3Fju1WAtEx8G11tqb05w1yCt8KJdx3ja
-UI7lesmZV9B2Vxc54DTb5Lr/Fzgxd/WKS8Bh9Eqn3lkfZgiqjspKCA82t0WYZWqeBgydOtf8tKrV
-jhXwFjSNY+u83w/1h/d7Nm1eQyoOyLxbWIAoC9IuBFNGEnAtuEIN5vposcX7FfNwQJ7XCGIMpBY3
-TfbfjsVWdw7FnICQ2/4CpjUmJQEC2rd4KuWOcGlFtvrBb4GJv2ty3mek2j+xWY2oy/DBm+jgZDYz
-mpkqC74BGS3niekmjmWMObFuC++2wHFQfcsCHvdrfXcalPBKe46k1fZe4RHCHbtb+4IBE8oY6Hpd
-iyhJCCn5TUmO8PitLEu12NoOfj6oDtQFFvmmBMKY8X5pchoOzgfyS42oZfen+MePfhC6EXBV9p6h
-KUlHRO712HYLB9CPITMFr+QraF6LzGgjQvoj9pvD37Q/RnUC1AmvVxwHjZN0vl2DaQPC7SC6Xc6j
-3QjNyBTiaCFf+p4iCiRVW2EtI5vM3Mvb8mS3DbpFfnRAWzSWfnT/kkFTWU6FjJQ229F/SCt4A9Mv
-nbATA9Yd2EjjezGlmETuHmJVPnlv+i4KwOYkFPI7irxC/QdfVZ+IZPCcwuMIIpsUTNRFnzJ0zgX5
-jZdXNsKDkZSKEgN+phCXpci9jZX/u5VgmXsuFomb0ZJEm8NZFvoUyIbZbWwTvbrdiCvI7BOBKNSn
-bSdH8Up3ioC+iE456CO+BjPlA/lkgT2xOU8qxiVlJVOqW0rTJnH08p1Odxzkt/X/u+Dq0z/CZ/lr
-t0C/FJ7D/oyTfc8/ODMH0AbjTNKMR5F59AgF3WGRnMGZu4r5WW5dIlxZYOfXd6b/Hx8xNXJRhyrX
-JOqd/sg++Vn80JsiBxfTmGeFcHrUdA7CJ1016in3x9WSZB+vX/UStJaukjMDgPQVKMUSmf55P0su
-k24kdOoMTlza3UOQHi/X8yqxvxAV3XnO5pft41HHvq6rE00dqiFRu6AxgSN3tnQgk1zCcfrOudnN
-iAFoFlcBAmXVEr4FbIlas/DnEYZHn2SOWGImvwjUpBRvo3XPgU37Gm9kIkjT3xy1deZ4WYPMbxkh
-gPkwMngwMklmEmqn8r6ThVLq7cqt+alvZxOxY5Tp+8V9m+CJO4ydh2lQ6/Jx/Mw92Zcrgt6E73RD
-yk+Vx6jN7+iG6gzXTEIt2YufPAQGvfGcuE6D1qxOIKpCQw3cCdrTXSTwp9+GU40v2dpqPs9cE7TT
-fDGoEWz3JMTgzkAEL/7q/m03ZQdox/JqzgSLExeJqfmBXY5o0V7Hii1Uk8VCmGRSGBEqw69hFtAX
-lNjRzSM2VtfW1J6kGeGgYC8vasNHGVIK/yz0hkJ+65IjfJcBLQHjofbVpL5lpJtUOlCUJhy03ei5
-rysVEdb9UMye2iRyIohipnEAkR42WFEXQUbWDTzMnDjTOpFsjhyvVlO2MOZyC1HgITwMA1d0QFsy
-6iRoPXwKsMZ8Z2bG4L22Q+xtIw/tUv3aXgy2D36Xa94V87ew6upT/4CTIfLH355sLaPjCQfWMfNb
-cHDSpEFM6nKzPa7WosB9qJPKzyQu9fgKvovZ6mbbr8crkmyg9V5K4ZltyNFoIpJcHPr1nFUWRHPJ
-vJXISNfTyAR4U5behTwB3Osed8Oc9xrqgdJV1UN+5FDUUD2GWWF8o9ENdwLF7wwyDxgQMszGc0NH
-KkuvtsZe1UZzxsG0aG2gm9mDoYpByCUJz+WWLhB9ZLLSIn6BZrUdUIihBM6vkSFAGnf9TGT5huv4
-4UWeSJ26h28pS2oiSB9BMoVhHMt12nZC2PlqkZICXL0iFYcJ1YUCgxgF8YdxPdnZCakm2Yiiw9WO
-/eomnUha7MRBaRZFtJXhJ+hjGy29QYkwMRQ4UThrrFtOySgLOIkEsw9A/zFc4fga8LwwtUUEL1UU
-2YjYjXtzJM/k+pAmj7Jzz4Tg6VcDSlIqgleZJpliOABPx4p/KkBAEsbt9ItJ/Wj9Ph+6n9z9bXlJ
-jr7FtnPnCwBtBOWPfW2jbmiHVQ+eCkPWGQqK4I04MuFSk0BjjazYYS3qsOPiguP8SGNfwPj6wVXa
-+l9RxyE2U0aVQzeScrUf2NM9Z2bSXj4V9xZWMoG9s1c3ypWPgN10vsZScgbQAOiwamAB3SeuQVn5
-I8qSKcAnnsvhNlQs4F5B7tK17JTMPxmipiDU4pZPxiB4JZ+IctTOSsjjneFHnYrM5TjiAxMU6fIl
-eqv2luVUHUMlZaDcoKGpmhd0G5PP8AYB9X/wSIczi2z/t/LMbt3VQgDnu+X8xXrwTc4TDW16KLDM
-yDQkS5ufq7v3XB5ROX/NkCrf4k01BT1upYYjnkA1vaAqwBkxuHK0GNbYVmQpvFHGgDmuXqteRyj0
-l6UanJqOiGnjPfssPlTW4eT3wYaNwNJ8USYroeQlLYfnXpv6eLkGnp75xperhI46UNTEqusrcxCU
-2Cd6RBGt6f7NdZ9SNrsnBYWMv/HycCNh2UKEdLyckMWZ6Xxxo+JReSZQMrZDWK3A5CE2/ljnzPlQ
-aRpdwm/ciHTvjuOGQqvGTG188R1FZkhq+TosLfIyiQ85XsWx8HYOt3TTCruao+sZWq42Qfy8h2VG
-+T3APdpVbSB2gnNtxLSG9+2I2ZU0SPgW6fHED3NBUDPkbVfzXPiNTFNuM6ABeOdUKZ5OTNS0ismp
-Lhm0AP8NICb+P+/uXynWc4+XHmrRalt1UMiJHHMkO0CNSmbvG//bLBhe5s8poJ/twEbnLzP9HQbX
-/vMIehkgVaFI/iFfpvcsU5luBKhnkk3stMl1z2kLiAkHr16K9FHBu96ALt9VQeIy+oZDnASTwGIG
-QtP4DtqSgav4+y6w0uhzPiAEUPzpT0n0hVBKFs2GlVfAsAJZJ9t2A6upoL4JGKaZWTLTt3lEw3wn
-Rb67C92fxDJkYpL7GaaEwImAAds4hb8/Dybi1SQ4FlX4Z8z/G42TasZx2kTEw1VXfruO55VnqAsA
-o4pYGcmsFzTF+XOiEmO0P5ILTU1GUumeTmGZxeimikhve0OL4aXdxqBWXXUVn0wuOKVhdDrmPiM0
-fZ8H2f7AFSJNN45stxfDOLounjyPCru9NLD5Sq59DaUu8xycH4g/UI3FUmUBD7qG2eOhYtEa50SK
-42OwGEDZq+sEXKRT4TEFyPfbVJq9y+aIGgwgouT98vfOVuVeABT/DMKJFr5ZVFGQjgREPkrGgiN+
-t9gcFVwAqheEV2TbFIA20xQlMkfABUn3c+V/ukPwZ5i9Ah7QrZXBrw+Mr0zQRwcijvuqg+1sTa8/
-4RsKWwM0mDm6N7OJQi9eoCrLJJZHwylS1szQrsiw598iJviArhkcPnguDdAkhzdhrplTUGpaURTQ
-4ewvfGCUmCVeEXpXBj0Qx2QMBxbCwe/eqjRuGhCPpaHGQygBhCTHoLDyTeLi2zFMZ1LpuMrNgyWg
-4NIiZhd8xbo33/91R5N8dDvnYDXyAFaGscKvP2m3dayfW6BiJAINrb3StjMt8Nc3ZbUatmHF16tS
-hdj6sKT1eNP3UWI2imYsUvfMxdQjopuUSe+PQF55LUTOPgL+XzTGlDCkJRYy1g55xzzpf/cw2NGM
-kOiNZ7ysnn7rS2wdzgunnjiF3BZoBkmgcplPzNNAk+OfisynIu+T5kKf4X8Vxqib33gluPx3FNzj
-IkKHpOa8T+niU/9BMk/XXPP3hy15IMk6PmupTTFU/4UrthwbOS8GAkl1HfP2HPMFdQ48iyoPr/sy
-+wOCSGNoANxy44ovygUMz5q4rZRLrVqOkYPqKce6gnEIwxImzM4jbRM+eIEa3Nt61yKoIZAzcPVZ
-/Wb1q28xErrNenIq1skoWtmZOwMgpzdwwsw1Enj6V98KEXyoXn7xhrppACmlCjEiNbFpv/biHQGs
-YO/cNlOn5dq1BgBwFcqhV2oiNMxxRhl50QU7qs1nD2cjIL1F6u65YyOHW7eZAZ1WE3q5n37CLYhf
-apFbxySl5dq/pRquvtxPanZ/HvA4483KQHwWf7VYObp92oEsW/Gw7RfSOiRXqUbSHA8q2br8zNYm
-TtNkZeFP1Sy8MHps3nd9hsh0ODLlUyXcbGTwyky1CObVrL2Ya9fboFlV+e0RGdhkgUBUwm8f2Vxe
-Tjz7V2MqsAl6e189k23WkmB2an1mqP5tmsvj5TjVlQRaEVkzxwFAcWOmWGnm5ETd0ZvTJP8sPGbN
-/46T3HbaBTFHewtPRvi4S/PNFsitVrGF3Hhm33bCSqNgBLqMMolO4gcnxBjlCUGBIRjZXegKwl0u
-ros1DLuRmDJR5S7lQyQL9WynYFOwhYreyIFiKS2W6eVW81gV2AQfHTh62mosMKP3N1grwFCznqUT
-pn7CMIE/9dlXC8C+dwaaalANJaOFU6UpLCjagS++Ud6U70k+5pY7c8HO4gWXYoLPnZwxLvd1A9O3
-OF4NcQfacy802glNLRTYWOO0zwq8OPEoHF6x1ccYp8R5mAEItl7RS8LkIRgnlpbSTtrP81O/aM+O
-Xa2tOki/auNW9Z5eLLAJtSckT2oN2dzU8oO04SFfN+h2/edhnFffbbTIYujZRPZWsWwZY/gT9jzz
-et0G3YedJL6XsWERmLqlJEDcQl22bDstDXGKRGa3q9nBzcv/nxRpN00OjOGhHPAPXBP/7AmjEj9a
-NNsas4gCV5Al186KQHhu8DEAow1w66WcMoCTLQxW5MYwD4K8+fKUcL/28WCuq+l/tPWh8c/jzOzO
-2tWpXEfP4okTgvqvDc/ZgE5wiogm/BvagyFpRpc41rbsrVFKUWb9brVuFsLc0q7hRsJlJzcFTWs0
-63k6PpWC82dhLh0vEwqkWqZMcAzQLIxv/vddgL034NAqAUFOIrS0w33MVV/efGs8GK0kuuWY/Rhn
-j3Jj6WxJo/lcLzs0F/lFjQPNXIpmwYK1bGdfGYDMpFAkbMyC+JQ7/soObYvN5+3PYaYQn7qKKazd
-ISOJwJw6J5E/jznfn14o+w2TPI8hYmW7Kt9vEOQaiX5lsmfD9lIR0kLKUAqBv4J3wjgH3g8GDHHL
-u2pUkTkumMt/JcrOdVSuURkwHwaOS7nLREmcZERshh5w1FW2ox0me6ELSC3tHpDW1u0wqjzY1LEs
-pE6fDz9D7uYri8Vkj+FurtqCjINe3LVJP/+F6UwFJWBP1ID3QUkybtKuAKzpOUVYVMTXYnGUqqku
-0L4HCMsqTrQ+GothPBg4TFPi0mlgJAUSPBB7R4N/SxsnduDJExntM6ssBElxYGnO5afm7bJsfasQ
-gm2MXrl458uGbbeGOjf4Lg9jEeNQKc0ZAoOnRcCVPwKLSCFbEeK4VQ2ChmUZ5aew90mdO5NFGE6E
-69CAAKY9wFa5B5ZcWILRXjyu0Ya9St3+TwWCc0JKVGaeAEDJCyFx8mtIgLjBJycD7a860fy99KNU
-4Ch13DhIFjooQH3xdDw42rIhFdjQhoA+BzDD5/viLHkRZcbQ3royexg1Z8GAenfEUXtNRw3JMQ0M
-5oX5cFBMdawkyWT9u66AT1ToU2ZjjsLNkqqQVMu2LFJkzg93BptAN6BecHTfc60YutoyXjbC1I0B
-YeCOEdeX/s4RQ6bUW9VLK5Ibpkl4oj2FfBSi3nGzxgLvEm0OZl09vEWCypAjXWrcjltTQkaXuxF/
-0aVGsNkq3XkNi0==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Directory;
+
+class ChromeOsDevice extends \Google\Collection
+{
+  protected $collection_key = 'systemRamFreeReports';
+  protected $activeTimeRangesType = ChromeOsDeviceActiveTimeRanges::class;
+  protected $activeTimeRangesDataType = 'array';
+  public $annotatedAssetId;
+  public $annotatedLocation;
+  public $annotatedUser;
+  public $autoUpdateExpiration;
+  public $bootMode;
+  protected $cpuStatusReportsType = ChromeOsDeviceCpuStatusReports::class;
+  protected $cpuStatusReportsDataType = 'array';
+  protected $deviceFilesType = ChromeOsDeviceDeviceFiles::class;
+  protected $deviceFilesDataType = 'array';
+  public $deviceId;
+  protected $diskVolumeReportsType = ChromeOsDeviceDiskVolumeReports::class;
+  protected $diskVolumeReportsDataType = 'array';
+  public $dockMacAddress;
+  public $etag;
+  public $ethernetMacAddress;
+  public $ethernetMacAddress0;
+  public $firmwareVersion;
+  public $kind;
+  public $lastEnrollmentTime;
+  protected $lastKnownNetworkType = ChromeOsDeviceLastKnownNetwork::class;
+  protected $lastKnownNetworkDataType = 'array';
+  public $lastSync;
+  public $macAddress;
+  public $manufactureDate;
+  public $meid;
+  public $model;
+  public $notes;
+  public $orderNumber;
+  public $orgUnitPath;
+  public $osVersion;
+  public $platformVersion;
+  protected $recentUsersType = ChromeOsDeviceRecentUsers::class;
+  protected $recentUsersDataType = 'array';
+  protected $screenshotFilesType = ChromeOsDeviceScreenshotFiles::class;
+  protected $screenshotFilesDataType = 'array';
+  public $serialNumber;
+  public $status;
+  public $supportEndDate;
+  protected $systemRamFreeReportsType = ChromeOsDeviceSystemRamFreeReports::class;
+  protected $systemRamFreeReportsDataType = 'array';
+  public $systemRamTotal;
+  protected $tpmVersionInfoType = ChromeOsDeviceTpmVersionInfo::class;
+  protected $tpmVersionInfoDataType = '';
+  public $willAutoRenew;
+
+  /**
+   * @param ChromeOsDeviceActiveTimeRanges[]
+   */
+  public function setActiveTimeRanges($activeTimeRanges)
+  {
+    $this->activeTimeRanges = $activeTimeRanges;
+  }
+  /**
+   * @return ChromeOsDeviceActiveTimeRanges[]
+   */
+  public function getActiveTimeRanges()
+  {
+    return $this->activeTimeRanges;
+  }
+  public function setAnnotatedAssetId($annotatedAssetId)
+  {
+    $this->annotatedAssetId = $annotatedAssetId;
+  }
+  public function getAnnotatedAssetId()
+  {
+    return $this->annotatedAssetId;
+  }
+  public function setAnnotatedLocation($annotatedLocation)
+  {
+    $this->annotatedLocation = $annotatedLocation;
+  }
+  public function getAnnotatedLocation()
+  {
+    return $this->annotatedLocation;
+  }
+  public function setAnnotatedUser($annotatedUser)
+  {
+    $this->annotatedUser = $annotatedUser;
+  }
+  public function getAnnotatedUser()
+  {
+    return $this->annotatedUser;
+  }
+  public function setAutoUpdateExpiration($autoUpdateExpiration)
+  {
+    $this->autoUpdateExpiration = $autoUpdateExpiration;
+  }
+  public function getAutoUpdateExpiration()
+  {
+    return $this->autoUpdateExpiration;
+  }
+  public function setBootMode($bootMode)
+  {
+    $this->bootMode = $bootMode;
+  }
+  public function getBootMode()
+  {
+    return $this->bootMode;
+  }
+  /**
+   * @param ChromeOsDeviceCpuStatusReports[]
+   */
+  public function setCpuStatusReports($cpuStatusReports)
+  {
+    $this->cpuStatusReports = $cpuStatusReports;
+  }
+  /**
+   * @return ChromeOsDeviceCpuStatusReports[]
+   */
+  public function getCpuStatusReports()
+  {
+    return $this->cpuStatusReports;
+  }
+  /**
+   * @param ChromeOsDeviceDeviceFiles[]
+   */
+  public function setDeviceFiles($deviceFiles)
+  {
+    $this->deviceFiles = $deviceFiles;
+  }
+  /**
+   * @return ChromeOsDeviceDeviceFiles[]
+   */
+  public function getDeviceFiles()
+  {
+    return $this->deviceFiles;
+  }
+  public function setDeviceId($deviceId)
+  {
+    $this->deviceId = $deviceId;
+  }
+  public function getDeviceId()
+  {
+    return $this->deviceId;
+  }
+  /**
+   * @param ChromeOsDeviceDiskVolumeReports[]
+   */
+  public function setDiskVolumeReports($diskVolumeReports)
+  {
+    $this->diskVolumeReports = $diskVolumeReports;
+  }
+  /**
+   * @return ChromeOsDeviceDiskVolumeReports[]
+   */
+  public function getDiskVolumeReports()
+  {
+    return $this->diskVolumeReports;
+  }
+  public function setDockMacAddress($dockMacAddress)
+  {
+    $this->dockMacAddress = $dockMacAddress;
+  }
+  public function getDockMacAddress()
+  {
+    return $this->dockMacAddress;
+  }
+  public function setEtag($etag)
+  {
+    $this->etag = $etag;
+  }
+  public function getEtag()
+  {
+    return $this->etag;
+  }
+  public function setEthernetMacAddress($ethernetMacAddress)
+  {
+    $this->ethernetMacAddress = $ethernetMacAddress;
+  }
+  public function getEthernetMacAddress()
+  {
+    return $this->ethernetMacAddress;
+  }
+  public function setEthernetMacAddress0($ethernetMacAddress0)
+  {
+    $this->ethernetMacAddress0 = $ethernetMacAddress0;
+  }
+  public function getEthernetMacAddress0()
+  {
+    return $this->ethernetMacAddress0;
+  }
+  public function setFirmwareVersion($firmwareVersion)
+  {
+    $this->firmwareVersion = $firmwareVersion;
+  }
+  public function getFirmwareVersion()
+  {
+    return $this->firmwareVersion;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setLastEnrollmentTime($lastEnrollmentTime)
+  {
+    $this->lastEnrollmentTime = $lastEnrollmentTime;
+  }
+  public function getLastEnrollmentTime()
+  {
+    return $this->lastEnrollmentTime;
+  }
+  /**
+   * @param ChromeOsDeviceLastKnownNetwork[]
+   */
+  public function setLastKnownNetwork($lastKnownNetwork)
+  {
+    $this->lastKnownNetwork = $lastKnownNetwork;
+  }
+  /**
+   * @return ChromeOsDeviceLastKnownNetwork[]
+   */
+  public function getLastKnownNetwork()
+  {
+    return $this->lastKnownNetwork;
+  }
+  public function setLastSync($lastSync)
+  {
+    $this->lastSync = $lastSync;
+  }
+  public function getLastSync()
+  {
+    return $this->lastSync;
+  }
+  public function setMacAddress($macAddress)
+  {
+    $this->macAddress = $macAddress;
+  }
+  public function getMacAddress()
+  {
+    return $this->macAddress;
+  }
+  public function setManufactureDate($manufactureDate)
+  {
+    $this->manufactureDate = $manufactureDate;
+  }
+  public function getManufactureDate()
+  {
+    return $this->manufactureDate;
+  }
+  public function setMeid($meid)
+  {
+    $this->meid = $meid;
+  }
+  public function getMeid()
+  {
+    return $this->meid;
+  }
+  public function setModel($model)
+  {
+    $this->model = $model;
+  }
+  public function getModel()
+  {
+    return $this->model;
+  }
+  public function setNotes($notes)
+  {
+    $this->notes = $notes;
+  }
+  public function getNotes()
+  {
+    return $this->notes;
+  }
+  public function setOrderNumber($orderNumber)
+  {
+    $this->orderNumber = $orderNumber;
+  }
+  public function getOrderNumber()
+  {
+    return $this->orderNumber;
+  }
+  public function setOrgUnitPath($orgUnitPath)
+  {
+    $this->orgUnitPath = $orgUnitPath;
+  }
+  public function getOrgUnitPath()
+  {
+    return $this->orgUnitPath;
+  }
+  public function setOsVersion($osVersion)
+  {
+    $this->osVersion = $osVersion;
+  }
+  public function getOsVersion()
+  {
+    return $this->osVersion;
+  }
+  public function setPlatformVersion($platformVersion)
+  {
+    $this->platformVersion = $platformVersion;
+  }
+  public function getPlatformVersion()
+  {
+    return $this->platformVersion;
+  }
+  /**
+   * @param ChromeOsDeviceRecentUsers[]
+   */
+  public function setRecentUsers($recentUsers)
+  {
+    $this->recentUsers = $recentUsers;
+  }
+  /**
+   * @return ChromeOsDeviceRecentUsers[]
+   */
+  public function getRecentUsers()
+  {
+    return $this->recentUsers;
+  }
+  /**
+   * @param ChromeOsDeviceScreenshotFiles[]
+   */
+  public function setScreenshotFiles($screenshotFiles)
+  {
+    $this->screenshotFiles = $screenshotFiles;
+  }
+  /**
+   * @return ChromeOsDeviceScreenshotFiles[]
+   */
+  public function getScreenshotFiles()
+  {
+    return $this->screenshotFiles;
+  }
+  public function setSerialNumber($serialNumber)
+  {
+    $this->serialNumber = $serialNumber;
+  }
+  public function getSerialNumber()
+  {
+    return $this->serialNumber;
+  }
+  public function setStatus($status)
+  {
+    $this->status = $status;
+  }
+  public function getStatus()
+  {
+    return $this->status;
+  }
+  public function setSupportEndDate($supportEndDate)
+  {
+    $this->supportEndDate = $supportEndDate;
+  }
+  public function getSupportEndDate()
+  {
+    return $this->supportEndDate;
+  }
+  /**
+   * @param ChromeOsDeviceSystemRamFreeReports[]
+   */
+  public function setSystemRamFreeReports($systemRamFreeReports)
+  {
+    $this->systemRamFreeReports = $systemRamFreeReports;
+  }
+  /**
+   * @return ChromeOsDeviceSystemRamFreeReports[]
+   */
+  public function getSystemRamFreeReports()
+  {
+    return $this->systemRamFreeReports;
+  }
+  public function setSystemRamTotal($systemRamTotal)
+  {
+    $this->systemRamTotal = $systemRamTotal;
+  }
+  public function getSystemRamTotal()
+  {
+    return $this->systemRamTotal;
+  }
+  /**
+   * @param ChromeOsDeviceTpmVersionInfo
+   */
+  public function setTpmVersionInfo(ChromeOsDeviceTpmVersionInfo $tpmVersionInfo)
+  {
+    $this->tpmVersionInfo = $tpmVersionInfo;
+  }
+  /**
+   * @return ChromeOsDeviceTpmVersionInfo
+   */
+  public function getTpmVersionInfo()
+  {
+    return $this->tpmVersionInfo;
+  }
+  public function setWillAutoRenew($willAutoRenew)
+  {
+    $this->willAutoRenew = $willAutoRenew;
+  }
+  public function getWillAutoRenew()
+  {
+    return $this->willAutoRenew;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ChromeOsDevice::class, 'Google_Service_Directory_ChromeOsDevice');

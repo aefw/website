@@ -1,60 +1,79 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+namespace PhpOffice\PhpSpreadsheet\Collection;
+
+use Psr\SimpleCache\CacheInterface;
+
+/**
+ * This is the default implementation for in-memory cell collection.
+ *
+ * Alternatives implementation should leverage off-memory, non-volatile storage
+ * to reduce overall memory usage.
+ */
+class Memory implements CacheInterface
+{
+    private $cache = [];
+
+    public function clear()
+    {
+        $this->cache = [];
+
+        return true;
+    }
+
+    public function delete($key)
+    {
+        unset($this->cache[$key]);
+
+        return true;
+    }
+
+    public function deleteMultiple($keys)
+    {
+        foreach ($keys as $key) {
+            $this->delete($key);
+        }
+
+        return true;
+    }
+
+    public function get($key, $default = null)
+    {
+        if ($this->has($key)) {
+            return $this->cache[$key];
+        }
+
+        return $default;
+    }
+
+    public function getMultiple($keys, $default = null)
+    {
+        $results = [];
+        foreach ($keys as $key) {
+            $results[$key] = $this->get($key, $default);
+        }
+
+        return $results;
+    }
+
+    public function has($key)
+    {
+        return array_key_exists($key, $this->cache);
+    }
+
+    public function set($key, $value, $ttl = null)
+    {
+        $this->cache[$key] = $value;
+
+        return true;
+    }
+
+    public function setMultiple($values, $ttl = null)
+    {
+        foreach ($values as $key => $value) {
+            $this->set($key, $value);
+        }
+
+        return true;
+    }
+}

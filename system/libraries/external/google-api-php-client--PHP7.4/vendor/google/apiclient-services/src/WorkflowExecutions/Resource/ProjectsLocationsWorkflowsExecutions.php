@@ -1,67 +1,119 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\WorkflowExecutions\Resource;
+
+use Google\Service\WorkflowExecutions\CancelExecutionRequest;
+use Google\Service\WorkflowExecutions\Execution;
+use Google\Service\WorkflowExecutions\ListExecutionsResponse;
+
+/**
+ * The "executions" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $workflowexecutionsService = new Google\Service\WorkflowExecutions(...);
+ *   $executions = $workflowexecutionsService->executions;
+ *  </code>
+ */
+class ProjectsLocationsWorkflowsExecutions extends \Google\Service\Resource
+{
+  /**
+   * Cancels an execution of the given name. (executions.cancel)
+   *
+   * @param string $name Required. Name of the execution to be cancelled. Format:
+   * projects/{project}/locations/{location}/workflows/{workflow}/executions/{exec
+   * ution}
+   * @param CancelExecutionRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Execution
+   */
+  public function cancel($name, CancelExecutionRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('cancel', [$params], Execution::class);
+  }
+  /**
+   * Creates a new execution using the latest revision of the given workflow.
+   * (executions.create)
+   *
+   * @param string $parent Required. Name of the workflow for which an execution
+   * should be created. Format:
+   * projects/{project}/locations/{location}/workflows/{workflow} The latest
+   * revision of the workflow will be used.
+   * @param Execution $postBody
+   * @param array $optParams Optional parameters.
+   * @return Execution
+   */
+  public function create($parent, Execution $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Execution::class);
+  }
+  /**
+   * Returns an execution of the given name. (executions.get)
+   *
+   * @param string $name Required. Name of the execution to be retrieved. Format:
+   * projects/{project}/locations/{location}/workflows/{workflow}/executions/{exec
+   * ution}
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string view Optional. A view defining which fields should be
+   * filled in the returned execution. The API will default to the FULL view.
+   * @return Execution
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Execution::class);
+  }
+  /**
+   * Returns a list of executions which belong to the workflow with the given
+   * name. The method returns executions of all workflow revisions. Returned
+   * executions are ordered by their start time (newest first).
+   * (executions.listProjectsLocationsWorkflowsExecutions)
+   *
+   * @param string $parent Required. Name of the workflow for which the executions
+   * should be listed. Format:
+   * projects/{project}/locations/{location}/workflows/{workflow}
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Maximum number of executions to return per call. Max
+   * supported value depends on the selected Execution view: it's 10000 for BASIC
+   * and 100 for FULL. The default value used if the field is not specified is
+   * 100, regardless of the selected view. Values greater than the max value will
+   * be coerced down to it.
+   * @opt_param string pageToken A page token, received from a previous
+   * `ListExecutions` call. Provide this to retrieve the subsequent page. When
+   * paginating, all other parameters provided to `ListExecutions` must match the
+   * call that provided the page token.
+   * @opt_param string view Optional. A view defining which fields should be
+   * filled in the returned executions. The API will default to the BASIC view.
+   * @return ListExecutionsResponse
+   */
+  public function listProjectsLocationsWorkflowsExecutions($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListExecutionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsWorkflowsExecutions::class, 'Google_Service_WorkflowExecutions_Resource_ProjectsLocationsWorkflowsExecutions');

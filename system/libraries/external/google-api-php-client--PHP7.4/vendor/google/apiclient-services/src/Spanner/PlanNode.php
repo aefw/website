@@ -1,68 +1,104 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-ZotAd5SLuwi4cR02vzhM3uSU3EErW5QW74eixG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Spanner;
+
+class PlanNode extends \Google\Collection
+{
+  protected $collection_key = 'childLinks';
+  protected $childLinksType = ChildLink::class;
+  protected $childLinksDataType = 'array';
+  public $displayName;
+  public $executionStats;
+  public $index;
+  public $kind;
+  public $metadata;
+  protected $shortRepresentationType = ShortRepresentation::class;
+  protected $shortRepresentationDataType = '';
+
+  /**
+   * @param ChildLink[]
+   */
+  public function setChildLinks($childLinks)
+  {
+    $this->childLinks = $childLinks;
+  }
+  /**
+   * @return ChildLink[]
+   */
+  public function getChildLinks()
+  {
+    return $this->childLinks;
+  }
+  public function setDisplayName($displayName)
+  {
+    $this->displayName = $displayName;
+  }
+  public function getDisplayName()
+  {
+    return $this->displayName;
+  }
+  public function setExecutionStats($executionStats)
+  {
+    $this->executionStats = $executionStats;
+  }
+  public function getExecutionStats()
+  {
+    return $this->executionStats;
+  }
+  public function setIndex($index)
+  {
+    $this->index = $index;
+  }
+  public function getIndex()
+  {
+    return $this->index;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setMetadata($metadata)
+  {
+    $this->metadata = $metadata;
+  }
+  public function getMetadata()
+  {
+    return $this->metadata;
+  }
+  /**
+   * @param ShortRepresentation
+   */
+  public function setShortRepresentation(ShortRepresentation $shortRepresentation)
+  {
+    $this->shortRepresentation = $shortRepresentation;
+  }
+  /**
+   * @return ShortRepresentation
+   */
+  public function getShortRepresentation()
+  {
+    return $this->shortRepresentation;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PlanNode::class, 'Google_Service_Spanner_PlanNode');

@@ -1,59 +1,79 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-sxwwG7nc
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\YouTube;
+
+class I18nRegionListResponse extends \Google\Collection
+{
+  protected $collection_key = 'items';
+  public $etag;
+  public $eventId;
+  protected $itemsType = I18nRegion::class;
+  protected $itemsDataType = 'array';
+  public $kind;
+  public $visitorId;
+
+  public function setEtag($etag)
+  {
+    $this->etag = $etag;
+  }
+  public function getEtag()
+  {
+    return $this->etag;
+  }
+  public function setEventId($eventId)
+  {
+    $this->eventId = $eventId;
+  }
+  public function getEventId()
+  {
+    return $this->eventId;
+  }
+  /**
+   * @param I18nRegion[]
+   */
+  public function setItems($items)
+  {
+    $this->items = $items;
+  }
+  /**
+   * @return I18nRegion[]
+   */
+  public function getItems()
+  {
+    return $this->items;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setVisitorId($visitorId)
+  {
+    $this->visitorId = $visitorId;
+  }
+  public function getVisitorId()
+  {
+    return $this->visitorId;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(I18nRegionListResponse::class, 'Google_Service_YouTube_I18nRegionListResponse');

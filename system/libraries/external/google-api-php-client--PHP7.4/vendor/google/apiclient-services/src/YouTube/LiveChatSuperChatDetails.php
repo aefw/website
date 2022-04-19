@@ -1,59 +1,71 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\YouTube;
+
+class LiveChatSuperChatDetails extends \Google\Model
+{
+  public $amountDisplayString;
+  public $amountMicros;
+  public $currency;
+  public $tier;
+  public $userComment;
+
+  public function setAmountDisplayString($amountDisplayString)
+  {
+    $this->amountDisplayString = $amountDisplayString;
+  }
+  public function getAmountDisplayString()
+  {
+    return $this->amountDisplayString;
+  }
+  public function setAmountMicros($amountMicros)
+  {
+    $this->amountMicros = $amountMicros;
+  }
+  public function getAmountMicros()
+  {
+    return $this->amountMicros;
+  }
+  public function setCurrency($currency)
+  {
+    $this->currency = $currency;
+  }
+  public function getCurrency()
+  {
+    return $this->currency;
+  }
+  public function setTier($tier)
+  {
+    $this->tier = $tier;
+  }
+  public function getTier()
+  {
+    return $this->tier;
+  }
+  public function setUserComment($userComment)
+  {
+    $this->userComment = $userComment;
+  }
+  public function getUserComment()
+  {
+    return $this->userComment;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(LiveChatSuperChatDetails::class, 'Google_Service_YouTube_LiveChatSuperChatDetails');

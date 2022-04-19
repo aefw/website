@@ -1,104 +1,183 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Vision;
+
+class GoogleCloudVisionV1p3beta1FaceAnnotation extends \Google\Collection
+{
+  protected $collection_key = 'landmarks';
+  public $angerLikelihood;
+  public $blurredLikelihood;
+  protected $boundingPolyType = GoogleCloudVisionV1p3beta1BoundingPoly::class;
+  protected $boundingPolyDataType = '';
+  public $detectionConfidence;
+  protected $fdBoundingPolyType = GoogleCloudVisionV1p3beta1BoundingPoly::class;
+  protected $fdBoundingPolyDataType = '';
+  public $headwearLikelihood;
+  public $joyLikelihood;
+  public $landmarkingConfidence;
+  protected $landmarksType = GoogleCloudVisionV1p3beta1FaceAnnotationLandmark::class;
+  protected $landmarksDataType = 'array';
+  public $panAngle;
+  public $rollAngle;
+  public $sorrowLikelihood;
+  public $surpriseLikelihood;
+  public $tiltAngle;
+  public $underExposedLikelihood;
+
+  public function setAngerLikelihood($angerLikelihood)
+  {
+    $this->angerLikelihood = $angerLikelihood;
+  }
+  public function getAngerLikelihood()
+  {
+    return $this->angerLikelihood;
+  }
+  public function setBlurredLikelihood($blurredLikelihood)
+  {
+    $this->blurredLikelihood = $blurredLikelihood;
+  }
+  public function getBlurredLikelihood()
+  {
+    return $this->blurredLikelihood;
+  }
+  /**
+   * @param GoogleCloudVisionV1p3beta1BoundingPoly
+   */
+  public function setBoundingPoly(GoogleCloudVisionV1p3beta1BoundingPoly $boundingPoly)
+  {
+    $this->boundingPoly = $boundingPoly;
+  }
+  /**
+   * @return GoogleCloudVisionV1p3beta1BoundingPoly
+   */
+  public function getBoundingPoly()
+  {
+    return $this->boundingPoly;
+  }
+  public function setDetectionConfidence($detectionConfidence)
+  {
+    $this->detectionConfidence = $detectionConfidence;
+  }
+  public function getDetectionConfidence()
+  {
+    return $this->detectionConfidence;
+  }
+  /**
+   * @param GoogleCloudVisionV1p3beta1BoundingPoly
+   */
+  public function setFdBoundingPoly(GoogleCloudVisionV1p3beta1BoundingPoly $fdBoundingPoly)
+  {
+    $this->fdBoundingPoly = $fdBoundingPoly;
+  }
+  /**
+   * @return GoogleCloudVisionV1p3beta1BoundingPoly
+   */
+  public function getFdBoundingPoly()
+  {
+    return $this->fdBoundingPoly;
+  }
+  public function setHeadwearLikelihood($headwearLikelihood)
+  {
+    $this->headwearLikelihood = $headwearLikelihood;
+  }
+  public function getHeadwearLikelihood()
+  {
+    return $this->headwearLikelihood;
+  }
+  public function setJoyLikelihood($joyLikelihood)
+  {
+    $this->joyLikelihood = $joyLikelihood;
+  }
+  public function getJoyLikelihood()
+  {
+    return $this->joyLikelihood;
+  }
+  public function setLandmarkingConfidence($landmarkingConfidence)
+  {
+    $this->landmarkingConfidence = $landmarkingConfidence;
+  }
+  public function getLandmarkingConfidence()
+  {
+    return $this->landmarkingConfidence;
+  }
+  /**
+   * @param GoogleCloudVisionV1p3beta1FaceAnnotationLandmark[]
+   */
+  public function setLandmarks($landmarks)
+  {
+    $this->landmarks = $landmarks;
+  }
+  /**
+   * @return GoogleCloudVisionV1p3beta1FaceAnnotationLandmark[]
+   */
+  public function getLandmarks()
+  {
+    return $this->landmarks;
+  }
+  public function setPanAngle($panAngle)
+  {
+    $this->panAngle = $panAngle;
+  }
+  public function getPanAngle()
+  {
+    return $this->panAngle;
+  }
+  public function setRollAngle($rollAngle)
+  {
+    $this->rollAngle = $rollAngle;
+  }
+  public function getRollAngle()
+  {
+    return $this->rollAngle;
+  }
+  public function setSorrowLikelihood($sorrowLikelihood)
+  {
+    $this->sorrowLikelihood = $sorrowLikelihood;
+  }
+  public function getSorrowLikelihood()
+  {
+    return $this->sorrowLikelihood;
+  }
+  public function setSurpriseLikelihood($surpriseLikelihood)
+  {
+    $this->surpriseLikelihood = $surpriseLikelihood;
+  }
+  public function getSurpriseLikelihood()
+  {
+    return $this->surpriseLikelihood;
+  }
+  public function setTiltAngle($tiltAngle)
+  {
+    $this->tiltAngle = $tiltAngle;
+  }
+  public function getTiltAngle()
+  {
+    return $this->tiltAngle;
+  }
+  public function setUnderExposedLikelihood($underExposedLikelihood)
+  {
+    $this->underExposedLikelihood = $underExposedLikelihood;
+  }
+  public function getUnderExposedLikelihood()
+  {
+    return $this->underExposedLikelihood;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudVisionV1p3beta1FaceAnnotation::class, 'Google_Service_Vision_GoogleCloudVisionV1p3beta1FaceAnnotation');

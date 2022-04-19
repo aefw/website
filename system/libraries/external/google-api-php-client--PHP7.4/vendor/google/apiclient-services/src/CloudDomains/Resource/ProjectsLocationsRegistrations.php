@@ -1,127 +1,371 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudDomains\Resource;
+
+use Google\Service\CloudDomains\AuthorizationCode;
+use Google\Service\CloudDomains\ConfigureContactSettingsRequest;
+use Google\Service\CloudDomains\ConfigureDnsSettingsRequest;
+use Google\Service\CloudDomains\ConfigureManagementSettingsRequest;
+use Google\Service\CloudDomains\ExportRegistrationRequest;
+use Google\Service\CloudDomains\ListRegistrationsResponse;
+use Google\Service\CloudDomains\Operation;
+use Google\Service\CloudDomains\Policy;
+use Google\Service\CloudDomains\RegisterDomainRequest;
+use Google\Service\CloudDomains\Registration;
+use Google\Service\CloudDomains\ResetAuthorizationCodeRequest;
+use Google\Service\CloudDomains\RetrieveRegisterParametersResponse;
+use Google\Service\CloudDomains\SearchDomainsResponse;
+use Google\Service\CloudDomains\SetIamPolicyRequest;
+use Google\Service\CloudDomains\TestIamPermissionsRequest;
+use Google\Service\CloudDomains\TestIamPermissionsResponse;
+
+/**
+ * The "registrations" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $domainsService = new Google\Service\CloudDomains(...);
+ *   $registrations = $domainsService->registrations;
+ *  </code>
+ */
+class ProjectsLocationsRegistrations extends \Google\Service\Resource
+{
+  /**
+   * Updates a `Registration`'s contact settings. Some changes require
+   * confirmation by the domain's registrant contact .
+   * (registrations.configureContactSettings)
+   *
+   * @param string $registration Required. The name of the `Registration` whose
+   * contact settings are being updated, in the format
+   * `projects/locations/registrations`.
+   * @param ConfigureContactSettingsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function configureContactSettings($registration, ConfigureContactSettingsRequest $postBody, $optParams = [])
+  {
+    $params = ['registration' => $registration, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('configureContactSettings', [$params], Operation::class);
+  }
+  /**
+   * Updates a `Registration`'s DNS settings. (registrations.configureDnsSettings)
+   *
+   * @param string $registration Required. The name of the `Registration` whose
+   * DNS settings are being updated, in the format
+   * `projects/locations/registrations`.
+   * @param ConfigureDnsSettingsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function configureDnsSettings($registration, ConfigureDnsSettingsRequest $postBody, $optParams = [])
+  {
+    $params = ['registration' => $registration, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('configureDnsSettings', [$params], Operation::class);
+  }
+  /**
+   * Updates a `Registration`'s management settings.
+   * (registrations.configureManagementSettings)
+   *
+   * @param string $registration Required. The name of the `Registration` whose
+   * management settings are being updated, in the format
+   * `projects/locations/registrations`.
+   * @param ConfigureManagementSettingsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function configureManagementSettings($registration, ConfigureManagementSettingsRequest $postBody, $optParams = [])
+  {
+    $params = ['registration' => $registration, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('configureManagementSettings', [$params], Operation::class);
+  }
+  /**
+   * Deletes a `Registration` resource. This method only works on resources in one
+   * of the following states: * `state` is `EXPORTED` with `expire_time` in the
+   * past * `state` is `REGISTRATION_FAILED` (registrations.delete)
+   *
+   * @param string $name Required. The name of the `Registration` to delete, in
+   * the format `projects/locations/registrations`.
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Exports a `Registration` that you no longer want to use with Cloud Domains.
+   * You can continue to use the domain in [Google
+   * Domains](https://domains.google/) until it expires. If the export is
+   * successful: * The resource's `state` becomes `EXPORTED`, meaning that it is
+   * no longer managed by Cloud Domains * Because individual users can own domains
+   * in Google Domains, the calling user becomes the domain's sole owner.
+   * Permissions for the domain are subsequently managed in Google Domains. *
+   * Without further action, the domain does not renew automatically. The new
+   * owner can set up billing in Google Domains to renew the domain if needed.
+   * (registrations.export)
+   *
+   * @param string $name Required. The name of the `Registration` to export, in
+   * the format `projects/locations/registrations`.
+   * @param ExportRegistrationRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function export($name, ExportRegistrationRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('export', [$params], Operation::class);
+  }
+  /**
+   * Gets the details of a `Registration` resource. (registrations.get)
+   *
+   * @param string $name Required. The name of the `Registration` to get, in the
+   * format `projects/locations/registrations`.
+   * @param array $optParams Optional parameters.
+   * @return Registration
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Registration::class);
+  }
+  /**
+   * Gets the access control policy for a resource. Returns an empty policy if the
+   * resource exists and does not have a policy set. (registrations.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int options.requestedPolicyVersion Optional. The policy format
+   * version to be returned. Valid values are 0, 1, and 3. Requests specifying an
+   * invalid value will be rejected. Requests for policies with any conditional
+   * bindings must specify version 3. Policies without any conditional bindings
+   * may specify any valid value or leave the field unset. To learn which
+   * resources support conditions in their IAM policies, see the [IAM
+   * documentation](https://cloud.google.com/iam/help/conditions/resource-
+   * policies).
+   * @return Policy
+   */
+  public function getIamPolicy($resource, $optParams = [])
+  {
+    $params = ['resource' => $resource];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Lists the `Registration` resources in a project.
+   * (registrations.listProjectsLocationsRegistrations)
+   *
+   * @param string $parent Required. The project and location from which to list
+   * `Registration`s, specified in the format `projects/locations`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Filter expression to restrict the `Registration`s
+   * returned. The expression must specify the field name, a comparison operator,
+   * and the value that you want to use for filtering. The value must be a string,
+   * a number, a boolean, or an enum value. The comparison operator should be one
+   * of =, !=, >, <, >=, <=, or : for prefix or wildcard matches. For example, to
+   * filter to a specific domain name, use an expression like
+   * `domainName="example.com"`. You can also check for the existence of a field;
+   * for example, to find domains using custom DNS settings, use an expression
+   * like `dnsSettings.customDns:*`. You can also create compound filters by
+   * combining expressions with the `AND` and `OR` operators. For example, to find
+   * domains that are suspended or have specific issues flagged, use an expression
+   * like `(state=SUSPENDED) OR (issue:*)`.
+   * @opt_param int pageSize Maximum number of results to return.
+   * @opt_param string pageToken When set to the `next_page_token` from a prior
+   * response, provides the next page of results.
+   * @return ListRegistrationsResponse
+   */
+  public function listProjectsLocationsRegistrations($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListRegistrationsResponse::class);
+  }
+  /**
+   * Updates select fields of a `Registration` resource, notably `labels`. To
+   * update other fields, use the appropriate custom update method: * To update
+   * management settings, see `ConfigureManagementSettings` * To update DNS
+   * configuration, see `ConfigureDnsSettings` * To update contact information,
+   * see `ConfigureContactSettings` (registrations.patch)
+   *
+   * @param string $name Output only. Name of the `Registration` resource, in the
+   * format `projects/locations/registrations/`.
+   * @param Registration $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. The field mask describing which fields
+   * to update as a comma-separated list. For example, if only the labels are
+   * being updated, the `update_mask` would be `"labels"`.
+   * @return Operation
+   */
+  public function patch($name, Registration $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+  /**
+   * Registers a new domain name and creates a corresponding `Registration`
+   * resource. Call `RetrieveRegisterParameters` first to check availability of
+   * the domain name and determine parameters like price that are needed to build
+   * a call to this method. A successful call creates a `Registration` resource in
+   * state `REGISTRATION_PENDING`, which resolves to `ACTIVE` within 1-2 minutes,
+   * indicating that the domain was successfully registered. If the resource ends
+   * up in state `REGISTRATION_FAILED`, it indicates that the domain was not
+   * registered successfully, and you can safely delete the resource and retry
+   * registration. (registrations.register)
+   *
+   * @param string $parent Required. The parent resource of the `Registration`.
+   * Must be in the format `projects/locations`.
+   * @param RegisterDomainRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function register($parent, RegisterDomainRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('register', [$params], Operation::class);
+  }
+  /**
+   * Resets the authorization code of the `Registration` to a new random string.
+   * You can call this method only after 60 days have elapsed since the initial
+   * domain registration. (registrations.resetAuthorizationCode)
+   *
+   * @param string $registration Required. The name of the `Registration` whose
+   * authorization code is being reset, in the format
+   * `projects/locations/registrations`.
+   * @param ResetAuthorizationCodeRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return AuthorizationCode
+   */
+  public function resetAuthorizationCode($registration, ResetAuthorizationCodeRequest $postBody, $optParams = [])
+  {
+    $params = ['registration' => $registration, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('resetAuthorizationCode', [$params], AuthorizationCode::class);
+  }
+  /**
+   * Gets the authorization code of the `Registration` for the purpose of
+   * transferring the domain to another registrar. You can call this method only
+   * after 60 days have elapsed since the initial domain registration.
+   * (registrations.retrieveAuthorizationCode)
+   *
+   * @param string $registration Required. The name of the `Registration` whose
+   * authorization code is being retrieved, in the format
+   * `projects/locations/registrations`.
+   * @param array $optParams Optional parameters.
+   * @return AuthorizationCode
+   */
+  public function retrieveAuthorizationCode($registration, $optParams = [])
+  {
+    $params = ['registration' => $registration];
+    $params = array_merge($params, $optParams);
+    return $this->call('retrieveAuthorizationCode', [$params], AuthorizationCode::class);
+  }
+  /**
+   * Gets parameters needed to register a new domain name, including price and up-
+   * to-date availability. Use the returned values to call `RegisterDomain`.
+   * (registrations.retrieveRegisterParameters)
+   *
+   * @param string $location Required. The location. Must be in the format
+   * `projects/locations`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string domainName Required. The domain name. Unicode domain names
+   * must be expressed in Punycode format.
+   * @return RetrieveRegisterParametersResponse
+   */
+  public function retrieveRegisterParameters($location, $optParams = [])
+  {
+    $params = ['location' => $location];
+    $params = array_merge($params, $optParams);
+    return $this->call('retrieveRegisterParameters', [$params], RetrieveRegisterParametersResponse::class);
+  }
+  /**
+   * Searches for available domain names similar to the provided query.
+   * Availability results from this method are approximate; call
+   * `RetrieveRegisterParameters` on a domain before registering to confirm
+   * availability. (registrations.searchDomains)
+   *
+   * @param string $location Required. The location. Must be in the format
+   * `projects/locations`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string query Required. String used to search for available domain
+   * names.
+   * @return SearchDomainsResponse
+   */
+  public function searchDomains($location, $optParams = [])
+  {
+    $params = ['location' => $location];
+    $params = array_merge($params, $optParams);
+    return $this->call('searchDomains', [$params], SearchDomainsResponse::class);
+  }
+  /**
+   * Sets the access control policy on the specified resource. Replaces any
+   * existing policy. Can return `NOT_FOUND`, `INVALID_ARGUMENT`, and
+   * `PERMISSION_DENIED` errors. (registrations.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource. If the
+   * resource does not exist, this will return an empty set of permissions, not a
+   * `NOT_FOUND` error. Note: This operation is designed to be used for building
+   * permission-aware UIs and command-line tools, not for authorization checking.
+   * This operation may "fail open" without warning.
+   * (registrations.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsRegistrations::class, 'Google_Service_CloudDomains_Resource_ProjectsLocationsRegistrations');

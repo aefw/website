@@ -1,119 +1,239 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+namespace PhpOffice\PhpSpreadsheet\Style;
+
+use PhpOffice\PhpSpreadsheet\Exception as PhpSpreadsheetException;
+
+class Border extends Supervisor
+{
+    // Border style
+    const BORDER_NONE = 'none';
+    const BORDER_DASHDOT = 'dashDot';
+    const BORDER_DASHDOTDOT = 'dashDotDot';
+    const BORDER_DASHED = 'dashed';
+    const BORDER_DOTTED = 'dotted';
+    const BORDER_DOUBLE = 'double';
+    const BORDER_HAIR = 'hair';
+    const BORDER_MEDIUM = 'medium';
+    const BORDER_MEDIUMDASHDOT = 'mediumDashDot';
+    const BORDER_MEDIUMDASHDOTDOT = 'mediumDashDotDot';
+    const BORDER_MEDIUMDASHED = 'mediumDashed';
+    const BORDER_SLANTDASHDOT = 'slantDashDot';
+    const BORDER_THICK = 'thick';
+    const BORDER_THIN = 'thin';
+
+    /**
+     * Border style.
+     *
+     * @var string
+     */
+    protected $borderStyle = self::BORDER_NONE;
+
+    /**
+     * Border color.
+     *
+     * @var Color
+     */
+    protected $color;
+
+    /**
+     * @var int
+     */
+    public $colorIndex;
+
+    /**
+     * Create a new Border.
+     *
+     * @param bool $isSupervisor Flag indicating if this is a supervisor or not
+     *                                    Leave this value at default unless you understand exactly what
+     *                                        its ramifications are
+     * @param bool $isConditional Flag indicating if this is a conditional style or not
+     *                                    Leave this value at default unless you understand exactly what
+     *                                        its ramifications are
+     */
+    public function __construct($isSupervisor = false, $isConditional = false)
+    {
+        // Supervisor?
+        parent::__construct($isSupervisor);
+
+        // Initialise values
+        $this->color = new Color(Color::COLOR_BLACK, $isSupervisor);
+
+        // bind parent if we are a supervisor
+        if ($isSupervisor) {
+            $this->color->bindParent($this, 'color');
+        }
+    }
+
+    /**
+     * Get the shared style component for the currently active cell in currently active sheet.
+     * Only used for style supervisor.
+     *
+     * @throws PhpSpreadsheetException
+     *
+     * @return Border
+     */
+    public function getSharedComponent()
+    {
+        switch ($this->parentPropertyName) {
+            case 'allBorders':
+            case 'horizontal':
+            case 'inside':
+            case 'outline':
+            case 'vertical':
+                throw new PhpSpreadsheetException('Cannot get shared component for a pseudo-border.');
+
+                break;
+            case 'bottom':
+                return $this->parent->getSharedComponent()->getBottom();
+            case 'diagonal':
+                return $this->parent->getSharedComponent()->getDiagonal();
+            case 'left':
+                return $this->parent->getSharedComponent()->getLeft();
+            case 'right':
+                return $this->parent->getSharedComponent()->getRight();
+            case 'top':
+                return $this->parent->getSharedComponent()->getTop();
+        }
+    }
+
+    /**
+     * Build style array from subcomponents.
+     *
+     * @param array $array
+     *
+     * @return array
+     */
+    public function getStyleArray($array)
+    {
+        return $this->parent->getStyleArray([$this->parentPropertyName => $array]);
+    }
+
+    /**
+     * Apply styles from array.
+     *
+     * <code>
+     * $spreadsheet->getActiveSheet()->getStyle('B2')->getBorders()->getTop()->applyFromArray(
+     *        [
+     *            'borderStyle' => Border::BORDER_DASHDOT,
+     *            'color' => [
+     *                'rgb' => '808080'
+     *            ]
+     *        ]
+     * );
+     * </code>
+     *
+     * @param array $pStyles Array containing style information
+     *
+     * @throws PhpSpreadsheetException
+     *
+     * @return Border
+     */
+    public function applyFromArray(array $pStyles)
+    {
+        if ($this->isSupervisor) {
+            $this->getActiveSheet()->getStyle($this->getSelectedCells())->applyFromArray($this->getStyleArray($pStyles));
+        } else {
+            if (isset($pStyles['borderStyle'])) {
+                $this->setBorderStyle($pStyles['borderStyle']);
+            }
+            if (isset($pStyles['color'])) {
+                $this->getColor()->applyFromArray($pStyles['color']);
+            }
+        }
+
+        return $this;
+    }
+
+    /**
+     * Get Border style.
+     *
+     * @return string
+     */
+    public function getBorderStyle()
+    {
+        if ($this->isSupervisor) {
+            return $this->getSharedComponent()->getBorderStyle();
+        }
+
+        return $this->borderStyle;
+    }
+
+    /**
+     * Set Border style.
+     *
+     * @param bool|string $pValue
+     *                            When passing a boolean, FALSE equates Border::BORDER_NONE
+     *                                and TRUE to Border::BORDER_MEDIUM
+     *
+     * @return Border
+     */
+    public function setBorderStyle($pValue)
+    {
+        if (empty($pValue)) {
+            $pValue = self::BORDER_NONE;
+        } elseif (is_bool($pValue) && $pValue) {
+            $pValue = self::BORDER_MEDIUM;
+        }
+        if ($this->isSupervisor) {
+            $styleArray = $this->getStyleArray(['borderStyle' => $pValue]);
+            $this->getActiveSheet()->getStyle($this->getSelectedCells())->applyFromArray($styleArray);
+        } else {
+            $this->borderStyle = $pValue;
+        }
+
+        return $this;
+    }
+
+    /**
+     * Get Border Color.
+     *
+     * @return Color
+     */
+    public function getColor()
+    {
+        return $this->color;
+    }
+
+    /**
+     * Set Border Color.
+     *
+     * @param Color $pValue
+     *
+     * @throws PhpSpreadsheetException
+     *
+     * @return Border
+     */
+    public function setColor(Color $pValue)
+    {
+        // make sure parameter is a real color and not a supervisor
+        $color = $pValue->getIsSupervisor() ? $pValue->getSharedComponent() : $pValue;
+
+        if ($this->isSupervisor) {
+            $styleArray = $this->getColor()->getStyleArray(['argb' => $color->getARGB()]);
+            $this->getActiveSheet()->getStyle($this->getSelectedCells())->applyFromArray($styleArray);
+        } else {
+            $this->color = $color;
+        }
+
+        return $this;
+    }
+
+    /**
+     * Get hash code.
+     *
+     * @return string Hash code
+     */
+    public function getHashCode()
+    {
+        if ($this->isSupervisor) {
+            return $this->getSharedComponent()->getHashCode();
+        }
+
+        return md5(
+            $this->borderStyle .
+            $this->color->getHashCode() .
+            __CLASS__
+        );
+    }
+}

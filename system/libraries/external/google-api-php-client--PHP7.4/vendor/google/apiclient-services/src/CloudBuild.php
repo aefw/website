@@ -1,78 +1,588 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for CloudBuild (v1).
+ *
+ * <p>
+ * Creates and manages builds on Google Cloud Platform.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/cloud-build/docs/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class CloudBuild extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+
+  public $operations;
+  public $projects_builds;
+  public $projects_locations_builds;
+  public $projects_locations_operations;
+  public $projects_locations_triggers;
+  public $projects_triggers;
+
+  /**
+   * Constructs the internal representation of the CloudBuild service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://cloudbuild.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'cloudbuild';
+
+    $this->operations = new CloudBuild\Resource\Operations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'cancel' => [
+              'path' => 'v1/{+name}:cancel',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_builds = new CloudBuild\Resource\ProjectsBuilds(
+        $this,
+        $this->serviceName,
+        'builds',
+        [
+          'methods' => [
+            'cancel' => [
+              'path' => 'v1/projects/{projectId}/builds/{id}:cancel',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1/projects/{projectId}/builds',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'parent' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/projects/{projectId}/builds/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'name' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/projects/{projectId}/builds',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'parent' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'retry' => [
+              'path' => 'v1/projects/{projectId}/builds/{id}:retry',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_builds = new CloudBuild\Resource\ProjectsLocationsBuilds(
+        $this,
+        $this->serviceName,
+        'builds',
+        [
+          'methods' => [
+            'cancel' => [
+              'path' => 'v1/{+name}:cancel',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1/{+parent}/builds',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'projectId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'projectId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/builds',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'projectId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'retry' => [
+              'path' => 'v1/{+name}:retry',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_operations = new CloudBuild\Resource\ProjectsLocationsOperations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'cancel' => [
+              'path' => 'v1/{+name}:cancel',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_triggers = new CloudBuild\Resource\ProjectsLocationsTriggers(
+        $this,
+        $this->serviceName,
+        'triggers',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/triggers',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'projectId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'projectId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'triggerId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'projectId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'triggerId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/triggers',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'projectId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+resourceName}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'resourceName' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'projectId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'triggerId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'run' => [
+              'path' => 'v1/{+name}:run',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'webhook' => [
+              'path' => 'v1/{+name}:webhook',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'projectId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'secret' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'trigger' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_triggers = new CloudBuild\Resource\ProjectsTriggers(
+        $this,
+        $this->serviceName,
+        'triggers',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/projects/{projectId}/triggers',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'parent' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/projects/{projectId}/triggers/{triggerId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'triggerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'name' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/projects/{projectId}/triggers/{triggerId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'triggerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'name' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/projects/{projectId}/triggers',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'parent' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/projects/{projectId}/triggers/{triggerId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'triggerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'run' => [
+              'path' => 'v1/projects/{projectId}/triggers/{triggerId}:run',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'triggerId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'name' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'webhook' => [
+              'path' => 'v1/projects/{projectId}/triggers/{trigger}:webhook',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'trigger' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'name' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'secret' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(CloudBuild::class, 'Google_Service_CloudBuild');

@@ -1,61 +1,86 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\YouTube;
+
+class MembershipsDetails extends \Google\Collection
+{
+  protected $collection_key = 'membershipsDurationAtLevels';
+  public $accessibleLevels;
+  public $highestAccessibleLevel;
+  public $highestAccessibleLevelDisplayName;
+  protected $membershipsDurationType = MembershipsDuration::class;
+  protected $membershipsDurationDataType = '';
+  protected $membershipsDurationAtLevelsType = MembershipsDurationAtLevel::class;
+  protected $membershipsDurationAtLevelsDataType = 'array';
+
+  public function setAccessibleLevels($accessibleLevels)
+  {
+    $this->accessibleLevels = $accessibleLevels;
+  }
+  public function getAccessibleLevels()
+  {
+    return $this->accessibleLevels;
+  }
+  public function setHighestAccessibleLevel($highestAccessibleLevel)
+  {
+    $this->highestAccessibleLevel = $highestAccessibleLevel;
+  }
+  public function getHighestAccessibleLevel()
+  {
+    return $this->highestAccessibleLevel;
+  }
+  public function setHighestAccessibleLevelDisplayName($highestAccessibleLevelDisplayName)
+  {
+    $this->highestAccessibleLevelDisplayName = $highestAccessibleLevelDisplayName;
+  }
+  public function getHighestAccessibleLevelDisplayName()
+  {
+    return $this->highestAccessibleLevelDisplayName;
+  }
+  /**
+   * @param MembershipsDuration
+   */
+  public function setMembershipsDuration(MembershipsDuration $membershipsDuration)
+  {
+    $this->membershipsDuration = $membershipsDuration;
+  }
+  /**
+   * @return MembershipsDuration
+   */
+  public function getMembershipsDuration()
+  {
+    return $this->membershipsDuration;
+  }
+  /**
+   * @param MembershipsDurationAtLevel[]
+   */
+  public function setMembershipsDurationAtLevels($membershipsDurationAtLevels)
+  {
+    $this->membershipsDurationAtLevels = $membershipsDurationAtLevels;
+  }
+  /**
+   * @return MembershipsDurationAtLevel[]
+   */
+  public function getMembershipsDurationAtLevels()
+  {
+    return $this->membershipsDurationAtLevels;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(MembershipsDetails::class, 'Google_Service_YouTube_MembershipsDetails');

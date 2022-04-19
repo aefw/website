@@ -1,66 +1,88 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ServiceControl;
+
+class AuthenticationInfo extends \Google\Collection
+{
+  protected $collection_key = 'serviceAccountDelegationInfo';
+  public $authoritySelector;
+  public $principalEmail;
+  public $principalSubject;
+  protected $serviceAccountDelegationInfoType = ServiceAccountDelegationInfo::class;
+  protected $serviceAccountDelegationInfoDataType = 'array';
+  public $serviceAccountKeyName;
+  public $thirdPartyPrincipal;
+
+  public function setAuthoritySelector($authoritySelector)
+  {
+    $this->authoritySelector = $authoritySelector;
+  }
+  public function getAuthoritySelector()
+  {
+    return $this->authoritySelector;
+  }
+  public function setPrincipalEmail($principalEmail)
+  {
+    $this->principalEmail = $principalEmail;
+  }
+  public function getPrincipalEmail()
+  {
+    return $this->principalEmail;
+  }
+  public function setPrincipalSubject($principalSubject)
+  {
+    $this->principalSubject = $principalSubject;
+  }
+  public function getPrincipalSubject()
+  {
+    return $this->principalSubject;
+  }
+  /**
+   * @param ServiceAccountDelegationInfo[]
+   */
+  public function setServiceAccountDelegationInfo($serviceAccountDelegationInfo)
+  {
+    $this->serviceAccountDelegationInfo = $serviceAccountDelegationInfo;
+  }
+  /**
+   * @return ServiceAccountDelegationInfo[]
+   */
+  public function getServiceAccountDelegationInfo()
+  {
+    return $this->serviceAccountDelegationInfo;
+  }
+  public function setServiceAccountKeyName($serviceAccountKeyName)
+  {
+    $this->serviceAccountKeyName = $serviceAccountKeyName;
+  }
+  public function getServiceAccountKeyName()
+  {
+    return $this->serviceAccountKeyName;
+  }
+  public function setThirdPartyPrincipal($thirdPartyPrincipal)
+  {
+    $this->thirdPartyPrincipal = $thirdPartyPrincipal;
+  }
+  public function getThirdPartyPrincipal()
+  {
+    return $this->thirdPartyPrincipal;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AuthenticationInfo::class, 'Google_Service_ServiceControl_AuthenticationInfo');

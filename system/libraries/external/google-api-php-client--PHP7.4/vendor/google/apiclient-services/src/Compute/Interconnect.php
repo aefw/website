@@ -1,123 +1,239 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute;
+
+class Interconnect extends \Google\Collection
+{
+  protected $collection_key = 'interconnectAttachments';
+  public $adminEnabled;
+  protected $circuitInfosType = InterconnectCircuitInfo::class;
+  protected $circuitInfosDataType = 'array';
+  public $creationTimestamp;
+  public $customerName;
+  public $description;
+  protected $expectedOutagesType = InterconnectOutageNotification::class;
+  protected $expectedOutagesDataType = 'array';
+  public $googleIpAddress;
+  public $googleReferenceId;
+  public $id;
+  public $interconnectAttachments;
+  public $interconnectType;
+  public $kind;
+  public $linkType;
+  public $location;
+  public $name;
+  public $nocContactEmail;
+  public $operationalStatus;
+  public $peerIpAddress;
+  public $provisionedLinkCount;
+  public $requestedLinkCount;
+  public $selfLink;
+  public $state;
+
+  public function setAdminEnabled($adminEnabled)
+  {
+    $this->adminEnabled = $adminEnabled;
+  }
+  public function getAdminEnabled()
+  {
+    return $this->adminEnabled;
+  }
+  /**
+   * @param InterconnectCircuitInfo[]
+   */
+  public function setCircuitInfos($circuitInfos)
+  {
+    $this->circuitInfos = $circuitInfos;
+  }
+  /**
+   * @return InterconnectCircuitInfo[]
+   */
+  public function getCircuitInfos()
+  {
+    return $this->circuitInfos;
+  }
+  public function setCreationTimestamp($creationTimestamp)
+  {
+    $this->creationTimestamp = $creationTimestamp;
+  }
+  public function getCreationTimestamp()
+  {
+    return $this->creationTimestamp;
+  }
+  public function setCustomerName($customerName)
+  {
+    $this->customerName = $customerName;
+  }
+  public function getCustomerName()
+  {
+    return $this->customerName;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  /**
+   * @param InterconnectOutageNotification[]
+   */
+  public function setExpectedOutages($expectedOutages)
+  {
+    $this->expectedOutages = $expectedOutages;
+  }
+  /**
+   * @return InterconnectOutageNotification[]
+   */
+  public function getExpectedOutages()
+  {
+    return $this->expectedOutages;
+  }
+  public function setGoogleIpAddress($googleIpAddress)
+  {
+    $this->googleIpAddress = $googleIpAddress;
+  }
+  public function getGoogleIpAddress()
+  {
+    return $this->googleIpAddress;
+  }
+  public function setGoogleReferenceId($googleReferenceId)
+  {
+    $this->googleReferenceId = $googleReferenceId;
+  }
+  public function getGoogleReferenceId()
+  {
+    return $this->googleReferenceId;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setInterconnectAttachments($interconnectAttachments)
+  {
+    $this->interconnectAttachments = $interconnectAttachments;
+  }
+  public function getInterconnectAttachments()
+  {
+    return $this->interconnectAttachments;
+  }
+  public function setInterconnectType($interconnectType)
+  {
+    $this->interconnectType = $interconnectType;
+  }
+  public function getInterconnectType()
+  {
+    return $this->interconnectType;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setLinkType($linkType)
+  {
+    $this->linkType = $linkType;
+  }
+  public function getLinkType()
+  {
+    return $this->linkType;
+  }
+  public function setLocation($location)
+  {
+    $this->location = $location;
+  }
+  public function getLocation()
+  {
+    return $this->location;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setNocContactEmail($nocContactEmail)
+  {
+    $this->nocContactEmail = $nocContactEmail;
+  }
+  public function getNocContactEmail()
+  {
+    return $this->nocContactEmail;
+  }
+  public function setOperationalStatus($operationalStatus)
+  {
+    $this->operationalStatus = $operationalStatus;
+  }
+  public function getOperationalStatus()
+  {
+    return $this->operationalStatus;
+  }
+  public function setPeerIpAddress($peerIpAddress)
+  {
+    $this->peerIpAddress = $peerIpAddress;
+  }
+  public function getPeerIpAddress()
+  {
+    return $this->peerIpAddress;
+  }
+  public function setProvisionedLinkCount($provisionedLinkCount)
+  {
+    $this->provisionedLinkCount = $provisionedLinkCount;
+  }
+  public function getProvisionedLinkCount()
+  {
+    return $this->provisionedLinkCount;
+  }
+  public function setRequestedLinkCount($requestedLinkCount)
+  {
+    $this->requestedLinkCount = $requestedLinkCount;
+  }
+  public function getRequestedLinkCount()
+  {
+    return $this->requestedLinkCount;
+  }
+  public function setSelfLink($selfLink)
+  {
+    $this->selfLink = $selfLink;
+  }
+  public function getSelfLink()
+  {
+    return $this->selfLink;
+  }
+  public function setState($state)
+  {
+    $this->state = $state;
+  }
+  public function getState()
+  {
+    return $this->state;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Interconnect::class, 'Google_Service_Compute_Interconnect');

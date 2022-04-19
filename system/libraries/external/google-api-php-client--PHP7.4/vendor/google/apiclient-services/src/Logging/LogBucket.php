@@ -1,69 +1,99 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-hs/p2N2b+WfhgW84Z2KIdX3rhXs0FJ6XssGDbW==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Logging;
+
+class LogBucket extends \Google\Collection
+{
+  protected $collection_key = 'restrictedFields';
+  public $createTime;
+  public $description;
+  public $lifecycleState;
+  public $locked;
+  public $name;
+  public $restrictedFields;
+  public $retentionDays;
+  public $updateTime;
+
+  public function setCreateTime($createTime)
+  {
+    $this->createTime = $createTime;
+  }
+  public function getCreateTime()
+  {
+    return $this->createTime;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setLifecycleState($lifecycleState)
+  {
+    $this->lifecycleState = $lifecycleState;
+  }
+  public function getLifecycleState()
+  {
+    return $this->lifecycleState;
+  }
+  public function setLocked($locked)
+  {
+    $this->locked = $locked;
+  }
+  public function getLocked()
+  {
+    return $this->locked;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setRestrictedFields($restrictedFields)
+  {
+    $this->restrictedFields = $restrictedFields;
+  }
+  public function getRestrictedFields()
+  {
+    return $this->restrictedFields;
+  }
+  public function setRetentionDays($retentionDays)
+  {
+    $this->retentionDays = $retentionDays;
+  }
+  public function getRetentionDays()
+  {
+    return $this->retentionDays;
+  }
+  public function setUpdateTime($updateTime)
+  {
+    $this->updateTime = $updateTime;
+  }
+  public function getUpdateTime()
+  {
+    return $this->updateTime;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(LogBucket::class, 'Google_Service_Logging_LogBucket');

@@ -1,91 +1,156 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute;
+
+class BackendServiceCdnPolicy extends \Google\Collection
+{
+  protected $collection_key = 'signedUrlKeyNames';
+  protected $bypassCacheOnRequestHeadersType = BackendServiceCdnPolicyBypassCacheOnRequestHeader::class;
+  protected $bypassCacheOnRequestHeadersDataType = 'array';
+  protected $cacheKeyPolicyType = CacheKeyPolicy::class;
+  protected $cacheKeyPolicyDataType = '';
+  public $cacheMode;
+  public $clientTtl;
+  public $defaultTtl;
+  public $maxTtl;
+  public $negativeCaching;
+  protected $negativeCachingPolicyType = BackendServiceCdnPolicyNegativeCachingPolicy::class;
+  protected $negativeCachingPolicyDataType = 'array';
+  public $requestCoalescing;
+  public $serveWhileStale;
+  public $signedUrlCacheMaxAgeSec;
+  public $signedUrlKeyNames;
+
+  /**
+   * @param BackendServiceCdnPolicyBypassCacheOnRequestHeader[]
+   */
+  public function setBypassCacheOnRequestHeaders($bypassCacheOnRequestHeaders)
+  {
+    $this->bypassCacheOnRequestHeaders = $bypassCacheOnRequestHeaders;
+  }
+  /**
+   * @return BackendServiceCdnPolicyBypassCacheOnRequestHeader[]
+   */
+  public function getBypassCacheOnRequestHeaders()
+  {
+    return $this->bypassCacheOnRequestHeaders;
+  }
+  /**
+   * @param CacheKeyPolicy
+   */
+  public function setCacheKeyPolicy(CacheKeyPolicy $cacheKeyPolicy)
+  {
+    $this->cacheKeyPolicy = $cacheKeyPolicy;
+  }
+  /**
+   * @return CacheKeyPolicy
+   */
+  public function getCacheKeyPolicy()
+  {
+    return $this->cacheKeyPolicy;
+  }
+  public function setCacheMode($cacheMode)
+  {
+    $this->cacheMode = $cacheMode;
+  }
+  public function getCacheMode()
+  {
+    return $this->cacheMode;
+  }
+  public function setClientTtl($clientTtl)
+  {
+    $this->clientTtl = $clientTtl;
+  }
+  public function getClientTtl()
+  {
+    return $this->clientTtl;
+  }
+  public function setDefaultTtl($defaultTtl)
+  {
+    $this->defaultTtl = $defaultTtl;
+  }
+  public function getDefaultTtl()
+  {
+    return $this->defaultTtl;
+  }
+  public function setMaxTtl($maxTtl)
+  {
+    $this->maxTtl = $maxTtl;
+  }
+  public function getMaxTtl()
+  {
+    return $this->maxTtl;
+  }
+  public function setNegativeCaching($negativeCaching)
+  {
+    $this->negativeCaching = $negativeCaching;
+  }
+  public function getNegativeCaching()
+  {
+    return $this->negativeCaching;
+  }
+  /**
+   * @param BackendServiceCdnPolicyNegativeCachingPolicy[]
+   */
+  public function setNegativeCachingPolicy($negativeCachingPolicy)
+  {
+    $this->negativeCachingPolicy = $negativeCachingPolicy;
+  }
+  /**
+   * @return BackendServiceCdnPolicyNegativeCachingPolicy[]
+   */
+  public function getNegativeCachingPolicy()
+  {
+    return $this->negativeCachingPolicy;
+  }
+  public function setRequestCoalescing($requestCoalescing)
+  {
+    $this->requestCoalescing = $requestCoalescing;
+  }
+  public function getRequestCoalescing()
+  {
+    return $this->requestCoalescing;
+  }
+  public function setServeWhileStale($serveWhileStale)
+  {
+    $this->serveWhileStale = $serveWhileStale;
+  }
+  public function getServeWhileStale()
+  {
+    return $this->serveWhileStale;
+  }
+  public function setSignedUrlCacheMaxAgeSec($signedUrlCacheMaxAgeSec)
+  {
+    $this->signedUrlCacheMaxAgeSec = $signedUrlCacheMaxAgeSec;
+  }
+  public function getSignedUrlCacheMaxAgeSec()
+  {
+    return $this->signedUrlCacheMaxAgeSec;
+  }
+  public function setSignedUrlKeyNames($signedUrlKeyNames)
+  {
+    $this->signedUrlKeyNames = $signedUrlKeyNames;
+  }
+  public function getSignedUrlKeyNames()
+  {
+    return $this->signedUrlKeyNames;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(BackendServiceCdnPolicy::class, 'Google_Service_Compute_BackendServiceCdnPolicy');

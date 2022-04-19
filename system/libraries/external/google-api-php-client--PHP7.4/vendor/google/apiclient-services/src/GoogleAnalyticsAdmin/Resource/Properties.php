@@ -1,79 +1,178 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\GoogleAnalyticsAdmin\Resource;
+
+use Google\Service\GoogleAnalyticsAdmin\GoogleAnalyticsAdminV1alphaGoogleSignalsSettings;
+use Google\Service\GoogleAnalyticsAdmin\GoogleAnalyticsAdminV1alphaListPropertiesResponse;
+use Google\Service\GoogleAnalyticsAdmin\GoogleAnalyticsAdminV1alphaProperty;
+
+/**
+ * The "properties" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $analyticsadminService = new Google\Service\GoogleAnalyticsAdmin(...);
+ *   $properties = $analyticsadminService->properties;
+ *  </code>
+ */
+class Properties extends \Google\Service\Resource
+{
+  /**
+   * Creates an "GA4" property with the specified location and attributes.
+   * (properties.create)
+   *
+   * @param GoogleAnalyticsAdminV1alphaProperty $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleAnalyticsAdminV1alphaProperty
+   */
+  public function create(GoogleAnalyticsAdminV1alphaProperty $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleAnalyticsAdminV1alphaProperty::class);
+  }
+  /**
+   * Marks target Property as soft-deleted (ie: "trashed") and returns it. This
+   * API does not have a method to restore soft-deleted properties. However, they
+   * can be restored using the Trash Can UI. If the properties are not restored
+   * before the expiration time, the Property and all child resources (eg:
+   * GoogleAdsLinks, Streams, UserLinks) will be permanently purged.
+   * https://support.google.com/analytics/answer/6154772 Returns an error if the
+   * target is not found, or is not an GA4 Property. (properties.delete)
+   *
+   * @param string $name Required. The name of the Property to soft-delete.
+   * Format: properties/{property_id} Example: "properties/1000"
+   * @param array $optParams Optional parameters.
+   * @return GoogleAnalyticsAdminV1alphaProperty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleAnalyticsAdminV1alphaProperty::class);
+  }
+  /**
+   * Lookup for a single "GA4" Property. (properties.get)
+   *
+   * @param string $name Required. The name of the property to lookup. Format:
+   * properties/{property_id} Example: "properties/1000"
+   * @param array $optParams Optional parameters.
+   * @return GoogleAnalyticsAdminV1alphaProperty
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleAnalyticsAdminV1alphaProperty::class);
+  }
+  /**
+   * Lookup for Google Signals settings for a property.
+   * (properties.getGoogleSignalsSettings)
+   *
+   * @param string $name Required. The name of the google signals settings to
+   * retrieve. Format: properties/{property}/googleSignalsSettings
+   * @param array $optParams Optional parameters.
+   * @return GoogleAnalyticsAdminV1alphaGoogleSignalsSettings
+   */
+  public function getGoogleSignalsSettings($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('getGoogleSignalsSettings', [$params], GoogleAnalyticsAdminV1alphaGoogleSignalsSettings::class);
+  }
+  /**
+   * Returns child Properties under the specified parent Account. Only "GA4"
+   * properties will be returned. Properties will be excluded if the caller does
+   * not have access. Soft-deleted (ie: "trashed") properties are excluded by
+   * default. Returns an empty list if no relevant properties are found.
+   * (properties.listProperties)
+   *
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Required. An expression for filtering the results of
+   * the request. Fields eligible for filtering are: `parent:`(The resource name
+   * of the parent account) or `firebase_project:`(The id or number of the linked
+   * firebase project). Some examples of filters: ``` | Filter | Description |
+   * |-----------------------------|-------------------------------------------| |
+   * parent:accounts/123 | The account with account id: 123. | | firebase_project
+   * :project-id | The firebase project with id: project-id. | |
+   * firebase_project:123 | The firebase project with number: 123. | ```
+   * @opt_param int pageSize The maximum number of resources to return. The
+   * service may return fewer than this value, even if there are additional pages.
+   * If unspecified, at most 50 resources will be returned. The maximum value is
+   * 200; (higher values will be coerced to the maximum)
+   * @opt_param string pageToken A page token, received from a previous
+   * `ListProperties` call. Provide this to retrieve the subsequent page. When
+   * paginating, all other parameters provided to `ListProperties` must match the
+   * call that provided the page token.
+   * @opt_param bool showDeleted Whether to include soft-deleted (ie: "trashed")
+   * Properties in the results. Properties can be inspected to determine whether
+   * they are deleted or not.
+   * @return GoogleAnalyticsAdminV1alphaListPropertiesResponse
+   */
+  public function listProperties($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleAnalyticsAdminV1alphaListPropertiesResponse::class);
+  }
+  /**
+   * Updates a property. (properties.patch)
+   *
+   * @param string $name Output only. Resource name of this property. Format:
+   * properties/{property_id} Example: "properties/1000"
+   * @param GoogleAnalyticsAdminV1alphaProperty $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. The list of fields to be updated.
+   * Field names must be in snake case (e.g., "field_to_update"). Omitted fields
+   * will not be updated. To replace the entire entity, use one path with the
+   * string "*" to match all fields.
+   * @return GoogleAnalyticsAdminV1alphaProperty
+   */
+  public function patch($name, GoogleAnalyticsAdminV1alphaProperty $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], GoogleAnalyticsAdminV1alphaProperty::class);
+  }
+  /**
+   * Updates Google Signals settings for a property.
+   * (properties.updateGoogleSignalsSettings)
+   *
+   * @param string $name Output only. Resource name of this setting. Format:
+   * properties/{property_id}/googleSignalsSettings Example:
+   * "properties/1000/googleSignalsSettings"
+   * @param GoogleAnalyticsAdminV1alphaGoogleSignalsSettings $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. The list of fields to be updated.
+   * Field names must be in snake case (e.g., "field_to_update"). Omitted fields
+   * will not be updated. To replace the entire entity, use one path with the
+   * string "*" to match all fields.
+   * @return GoogleAnalyticsAdminV1alphaGoogleSignalsSettings
+   */
+  public function updateGoogleSignalsSettings($name, GoogleAnalyticsAdminV1alphaGoogleSignalsSettings $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('updateGoogleSignalsSettings', [$params], GoogleAnalyticsAdminV1alphaGoogleSignalsSettings::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Properties::class, 'Google_Service_GoogleAnalyticsAdmin_Resource_Properties');

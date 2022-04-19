@@ -1,78 +1,155 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-a6ghviUqj8Ifim==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\RecaptchaEnterprise\Resource;
+
+use Google\Service\RecaptchaEnterprise\GoogleCloudRecaptchaenterpriseV1Key;
+use Google\Service\RecaptchaEnterprise\GoogleCloudRecaptchaenterpriseV1ListKeysResponse;
+use Google\Service\RecaptchaEnterprise\GoogleCloudRecaptchaenterpriseV1Metrics;
+use Google\Service\RecaptchaEnterprise\GoogleCloudRecaptchaenterpriseV1MigrateKeyRequest;
+use Google\Service\RecaptchaEnterprise\GoogleProtobufEmpty;
+
+/**
+ * The "keys" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $recaptchaenterpriseService = new Google\Service\RecaptchaEnterprise(...);
+ *   $keys = $recaptchaenterpriseService->keys;
+ *  </code>
+ */
+class ProjectsKeys extends \Google\Service\Resource
+{
+  /**
+   * Creates a new reCAPTCHA Enterprise key. (keys.create)
+   *
+   * @param string $parent Required. The name of the project in which the key will
+   * be created, in the format "projects/{project}".
+   * @param GoogleCloudRecaptchaenterpriseV1Key $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudRecaptchaenterpriseV1Key
+   */
+  public function create($parent, GoogleCloudRecaptchaenterpriseV1Key $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleCloudRecaptchaenterpriseV1Key::class);
+  }
+  /**
+   * Deletes the specified key. (keys.delete)
+   *
+   * @param string $name Required. The name of the key to be deleted, in the
+   * format "projects/{project}/keys/{key}".
+   * @param array $optParams Optional parameters.
+   * @return GoogleProtobufEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
+  }
+  /**
+   * Returns the specified key. (keys.get)
+   *
+   * @param string $name Required. The name of the requested key, in the format
+   * "projects/{project}/keys/{key}".
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudRecaptchaenterpriseV1Key
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudRecaptchaenterpriseV1Key::class);
+  }
+  /**
+   * Get some aggregated metrics for a Key. This data can be used to build
+   * dashboards. (keys.getMetrics)
+   *
+   * @param string $name Required. The name of the requested metrics, in the
+   * format "projects/{project}/keys/{key}/metrics".
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudRecaptchaenterpriseV1Metrics
+   */
+  public function getMetrics($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('getMetrics', [$params], GoogleCloudRecaptchaenterpriseV1Metrics::class);
+  }
+  /**
+   * Returns the list of all keys that belong to a project.
+   * (keys.listProjectsKeys)
+   *
+   * @param string $parent Required. The name of the project that contains the
+   * keys that will be listed, in the format "projects/{project}".
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Optional. The maximum number of keys to return.
+   * Default is 10. Max limit is 1000.
+   * @opt_param string pageToken Optional. The next_page_token value returned from
+   * a previous. ListKeysRequest, if any.
+   * @return GoogleCloudRecaptchaenterpriseV1ListKeysResponse
+   */
+  public function listProjectsKeys($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleCloudRecaptchaenterpriseV1ListKeysResponse::class);
+  }
+  /**
+   * Migrates an existing key from reCAPTCHA to reCAPTCHA Enterprise. Once a key
+   * is migrated, it can be used from either product. SiteVerify requests are
+   * billed as CreateAssessment calls. You must be authenticated as one of the
+   * current owners of the reCAPTCHA Site Key, and your user must have the
+   * reCAPTCHA Enterprise Admin IAM role in the destination project.
+   * (keys.migrate)
+   *
+   * @param string $name Required. The name of the key to be migrated, in the
+   * format "projects/{project}/keys/{key}".
+   * @param GoogleCloudRecaptchaenterpriseV1MigrateKeyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudRecaptchaenterpriseV1Key
+   */
+  public function migrate($name, GoogleCloudRecaptchaenterpriseV1MigrateKeyRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('migrate', [$params], GoogleCloudRecaptchaenterpriseV1Key::class);
+  }
+  /**
+   * Updates the specified key. (keys.patch)
+   *
+   * @param string $name The resource name for the Key in the format
+   * "projects/{project}/keys/{key}".
+   * @param GoogleCloudRecaptchaenterpriseV1Key $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Optional. The mask to control which fields of
+   * the key get updated. If the mask is not present, all fields will be updated.
+   * @return GoogleCloudRecaptchaenterpriseV1Key
+   */
+  public function patch($name, GoogleCloudRecaptchaenterpriseV1Key $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], GoogleCloudRecaptchaenterpriseV1Key::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsKeys::class, 'Google_Service_RecaptchaEnterprise_Resource_ProjectsKeys');

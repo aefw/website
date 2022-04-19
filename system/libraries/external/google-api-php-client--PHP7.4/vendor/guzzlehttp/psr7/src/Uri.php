@@ -1,321 +1,810 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+namespace GuzzleHttp\Psr7;
+
+use Psr\Http\Message\UriInterface;
+
+/**
+ * PSR-7 URI implementation.
+ *
+ * @author Michael Dowling
+ * @author Tobias Schultze
+ * @author Matthew Weier O'Phinney
+ */
+class Uri implements UriInterface
+{
+    /**
+     * Absolute http and https URIs require a host per RFC 7230 Section 2.7
+     * but in generic URIs the host can be empty. So for http(s) URIs
+     * we apply this default host when no host is given yet to form a
+     * valid URI.
+     */
+    const HTTP_DEFAULT_HOST = 'localhost';
+
+    private static $defaultPorts = [
+        'http'  => 80,
+        'https' => 443,
+        'ftp' => 21,
+        'gopher' => 70,
+        'nntp' => 119,
+        'news' => 119,
+        'telnet' => 23,
+        'tn3270' => 23,
+        'imap' => 143,
+        'pop' => 110,
+        'ldap' => 389,
+    ];
+
+    private static $charUnreserved = 'a-zA-Z0-9_\-\.~';
+    private static $charSubDelims = '!\$&\'\(\)\*\+,;=';
+    private static $replaceQuery = ['=' => '%3D', '&' => '%26'];
+
+    /** @var string Uri scheme. */
+    private $scheme = '';
+
+    /** @var string Uri user info. */
+    private $userInfo = '';
+
+    /** @var string Uri host. */
+    private $host = '';
+
+    /** @var int|null Uri port. */
+    private $port;
+
+    /** @var string Uri path. */
+    private $path = '';
+
+    /** @var string Uri query string. */
+    private $query = '';
+
+    /** @var string Uri fragment. */
+    private $fragment = '';
+
+    /**
+     * @param string $uri URI to parse
+     */
+    public function __construct($uri = '')
+    {
+        // weak type check to also accept null until we can add scalar type hints
+        if ($uri != '') {
+            $parts = self::parse($uri);
+            if ($parts === false) {
+                throw new \InvalidArgumentException("Unable to parse URI: $uri");
+            }
+            $this->applyParts($parts);
+        }
+    }
+
+    /**
+     * UTF-8 aware \parse_url() replacement.
+     *
+     * The internal function produces broken output for non ASCII domain names
+     * (IDN) when used with locales other than "C".
+     *
+     * On the other hand, cURL understands IDN correctly only when UTF-8 locale
+     * is configured ("C.UTF-8", "en_US.UTF-8", etc.).
+     *
+     * @see https://bugs.php.net/bug.php?id=52923
+     * @see https://www.php.net/manual/en/function.parse-url.php#114817
+     * @see https://curl.haxx.se/libcurl/c/CURLOPT_URL.html#ENCODING
+     *
+     * @param string $url
+     *
+     * @return array|false
+     */
+    private static function parse($url)
+    {
+        // If IPv6
+        $prefix = '';
+        if (preg_match('%^(.*://\[[0-9:a-f]+\])(.*?)$%', $url, $matches)) {
+            $prefix = $matches[1];
+            $url = $matches[2];
+        }
+
+        $encodedUrl = preg_replace_callback(
+            '%[^:/@?&=#]+%usD',
+            static function ($matches) {
+                return urlencode($matches[0]);
+            },
+            $url
+        );
+
+        $result = parse_url($prefix . $encodedUrl);
+
+        if ($result === false) {
+            return false;
+        }
+
+        return array_map('urldecode', $result);
+    }
+
+    public function __toString()
+    {
+        return self::composeComponents(
+            $this->scheme,
+            $this->getAuthority(),
+            $this->path,
+            $this->query,
+            $this->fragment
+        );
+    }
+
+    /**
+     * Composes a URI reference string from its various components.
+     *
+     * Usually this method does not need to be called manually but instead is used indirectly via
+     * `Psr\Http\Message\UriInterface::__toString`.
+     *
+     * PSR-7 UriInterface treats an empty component the same as a missing component as
+     * getQuery(), getFragment() etc. always return a string. This explains the slight
+     * difference to RFC 3986 Section 5.3.
+     *
+     * Another adjustment is that the authority separator is added even when the authority is missing/empty
+     * for the "file" scheme. This is because PHP stream functions like `file_get_contents` only work with
+     * `file:///myfile` but not with `file:/myfile` although they are equivalent according to RFC 3986. But
+     * `file:///` is the more common syntax for the file scheme anyway (Chrome for example redirects to
+     * that format).
+     *
+     * @param string $scheme
+     * @param string $authority
+     * @param string $path
+     * @param string $query
+     * @param string $fragment
+     *
+     * @return string
+     *
+     * @link https://tools.ietf.org/html/rfc3986#section-5.3
+     */
+    public static function composeComponents($scheme, $authority, $path, $query, $fragment)
+    {
+        $uri = '';
+
+        // weak type checks to also accept null until we can add scalar type hints
+        if ($scheme != '') {
+            $uri .= $scheme . ':';
+        }
+
+        if ($authority != ''|| $scheme === 'file') {
+            $uri .= '//' . $authority;
+        }
+
+        $uri .= $path;
+
+        if ($query != '') {
+            $uri .= '?' . $query;
+        }
+
+        if ($fragment != '') {
+            $uri .= '#' . $fragment;
+        }
+
+        return $uri;
+    }
+
+    /**
+     * Whether the URI has the default port of the current scheme.
+     *
+     * `Psr\Http\Message\UriInterface::getPort` may return null or the standard port. This method can be used
+     * independently of the implementation.
+     *
+     * @param UriInterface $uri
+     *
+     * @return bool
+     */
+    public static function isDefaultPort(UriInterface $uri)
+    {
+        return $uri->getPort() === null
+            || (isset(self::$defaultPorts[$uri->getScheme()]) && $uri->getPort() === self::$defaultPorts[$uri->getScheme()]);
+    }
+
+    /**
+     * Whether the URI is absolute, i.e. it has a scheme.
+     *
+     * An instance of UriInterface can either be an absolute URI or a relative reference. This method returns true
+     * if it is the former. An absolute URI has a scheme. A relative reference is used to express a URI relative
+     * to another URI, the base URI. Relative references can be divided into several forms:
+     * - network-path references, e.g. '//example.com/path'
+     * - absolute-path references, e.g. '/path'
+     * - relative-path references, e.g. 'subpath'
+     *
+     * @param UriInterface $uri
+     *
+     * @return bool
+     *
+     * @see Uri::isNetworkPathReference
+     * @see Uri::isAbsolutePathReference
+     * @see Uri::isRelativePathReference
+     * @link https://tools.ietf.org/html/rfc3986#section-4
+     */
+    public static function isAbsolute(UriInterface $uri)
+    {
+        return $uri->getScheme() !== '';
+    }
+
+    /**
+     * Whether the URI is a network-path reference.
+     *
+     * A relative reference that begins with two slash characters is termed an network-path reference.
+     *
+     * @param UriInterface $uri
+     *
+     * @return bool
+     *
+     * @link https://tools.ietf.org/html/rfc3986#section-4.2
+     */
+    public static function isNetworkPathReference(UriInterface $uri)
+    {
+        return $uri->getScheme() === '' && $uri->getAuthority() !== '';
+    }
+
+    /**
+     * Whether the URI is a absolute-path reference.
+     *
+     * A relative reference that begins with a single slash character is termed an absolute-path reference.
+     *
+     * @param UriInterface $uri
+     *
+     * @return bool
+     *
+     * @link https://tools.ietf.org/html/rfc3986#section-4.2
+     */
+    public static function isAbsolutePathReference(UriInterface $uri)
+    {
+        return $uri->getScheme() === ''
+            && $uri->getAuthority() === ''
+            && isset($uri->getPath()[0])
+            && $uri->getPath()[0] === '/';
+    }
+
+    /**
+     * Whether the URI is a relative-path reference.
+     *
+     * A relative reference that does not begin with a slash character is termed a relative-path reference.
+     *
+     * @param UriInterface $uri
+     *
+     * @return bool
+     *
+     * @link https://tools.ietf.org/html/rfc3986#section-4.2
+     */
+    public static function isRelativePathReference(UriInterface $uri)
+    {
+        return $uri->getScheme() === ''
+            && $uri->getAuthority() === ''
+            && (!isset($uri->getPath()[0]) || $uri->getPath()[0] !== '/');
+    }
+
+    /**
+     * Whether the URI is a same-document reference.
+     *
+     * A same-document reference refers to a URI that is, aside from its fragment
+     * component, identical to the base URI. When no base URI is given, only an empty
+     * URI reference (apart from its fragment) is considered a same-document reference.
+     *
+     * @param UriInterface      $uri  The URI to check
+     * @param UriInterface|null $base An optional base URI to compare against
+     *
+     * @return bool
+     *
+     * @link https://tools.ietf.org/html/rfc3986#section-4.4
+     */
+    public static function isSameDocumentReference(UriInterface $uri, UriInterface $base = null)
+    {
+        if ($base !== null) {
+            $uri = UriResolver::resolve($base, $uri);
+
+            return ($uri->getScheme() === $base->getScheme())
+                && ($uri->getAuthority() === $base->getAuthority())
+                && ($uri->getPath() === $base->getPath())
+                && ($uri->getQuery() === $base->getQuery());
+        }
+
+        return $uri->getScheme() === '' && $uri->getAuthority() === '' && $uri->getPath() === '' && $uri->getQuery() === '';
+    }
+
+    /**
+     * Removes dot segments from a path and returns the new path.
+     *
+     * @param string $path
+     *
+     * @return string
+     *
+     * @deprecated since version 1.4. Use UriResolver::removeDotSegments instead.
+     * @see UriResolver::removeDotSegments
+     */
+    public static function removeDotSegments($path)
+    {
+        return UriResolver::removeDotSegments($path);
+    }
+
+    /**
+     * Converts the relative URI into a new URI that is resolved against the base URI.
+     *
+     * @param UriInterface        $base Base URI
+     * @param string|UriInterface $rel  Relative URI
+     *
+     * @return UriInterface
+     *
+     * @deprecated since version 1.4. Use UriResolver::resolve instead.
+     * @see UriResolver::resolve
+     */
+    public static function resolve(UriInterface $base, $rel)
+    {
+        if (!($rel instanceof UriInterface)) {
+            $rel = new self($rel);
+        }
+
+        return UriResolver::resolve($base, $rel);
+    }
+
+    /**
+     * Creates a new URI with a specific query string value removed.
+     *
+     * Any existing query string values that exactly match the provided key are
+     * removed.
+     *
+     * @param UriInterface $uri URI to use as a base.
+     * @param string       $key Query string key to remove.
+     *
+     * @return UriInterface
+     */
+    public static function withoutQueryValue(UriInterface $uri, $key)
+    {
+        $result = self::getFilteredQueryString($uri, [$key]);
+
+        return $uri->withQuery(implode('&', $result));
+    }
+
+    /**
+     * Creates a new URI with a specific query string value.
+     *
+     * Any existing query string values that exactly match the provided key are
+     * removed and replaced with the given key value pair.
+     *
+     * A value of null will set the query string key without a value, e.g. "key"
+     * instead of "key=value".
+     *
+     * @param UriInterface $uri   URI to use as a base.
+     * @param string       $key   Key to set.
+     * @param string|null  $value Value to set
+     *
+     * @return UriInterface
+     */
+    public static function withQueryValue(UriInterface $uri, $key, $value)
+    {
+        $result = self::getFilteredQueryString($uri, [$key]);
+
+        $result[] = self::generateQueryString($key, $value);
+
+        return $uri->withQuery(implode('&', $result));
+    }
+
+    /**
+     * Creates a new URI with multiple specific query string values.
+     *
+     * It has the same behavior as withQueryValue() but for an associative array of key => value.
+     *
+     * @param UriInterface $uri           URI to use as a base.
+     * @param array        $keyValueArray Associative array of key and values
+     *
+     * @return UriInterface
+     */
+    public static function withQueryValues(UriInterface $uri, array $keyValueArray)
+    {
+        $result = self::getFilteredQueryString($uri, array_keys($keyValueArray));
+
+        foreach ($keyValueArray as $key => $value) {
+            $result[] = self::generateQueryString($key, $value);
+        }
+
+        return $uri->withQuery(implode('&', $result));
+    }
+
+    /**
+     * Creates a URI from a hash of `parse_url` components.
+     *
+     * @param array $parts
+     *
+     * @return UriInterface
+     *
+     * @link http://php.net/manual/en/function.parse-url.php
+     *
+     * @throws \InvalidArgumentException If the components do not form a valid URI.
+     */
+    public static function fromParts(array $parts)
+    {
+        $uri = new self();
+        $uri->applyParts($parts);
+        $uri->validateState();
+
+        return $uri;
+    }
+
+    public function getScheme()
+    {
+        return $this->scheme;
+    }
+
+    public function getAuthority()
+    {
+        $authority = $this->host;
+        if ($this->userInfo !== '') {
+            $authority = $this->userInfo . '@' . $authority;
+        }
+
+        if ($this->port !== null) {
+            $authority .= ':' . $this->port;
+        }
+
+        return $authority;
+    }
+
+    public function getUserInfo()
+    {
+        return $this->userInfo;
+    }
+
+    public function getHost()
+    {
+        return $this->host;
+    }
+
+    public function getPort()
+    {
+        return $this->port;
+    }
+
+    public function getPath()
+    {
+        return $this->path;
+    }
+
+    public function getQuery()
+    {
+        return $this->query;
+    }
+
+    public function getFragment()
+    {
+        return $this->fragment;
+    }
+
+    public function withScheme($scheme)
+    {
+        $scheme = $this->filterScheme($scheme);
+
+        if ($this->scheme === $scheme) {
+            return $this;
+        }
+
+        $new = clone $this;
+        $new->scheme = $scheme;
+        $new->removeDefaultPort();
+        $new->validateState();
+
+        return $new;
+    }
+
+    public function withUserInfo($user, $password = null)
+    {
+        $info = $this->filterUserInfoComponent($user);
+        if ($password !== null) {
+            $info .= ':' . $this->filterUserInfoComponent($password);
+        }
+
+        if ($this->userInfo === $info) {
+            return $this;
+        }
+
+        $new = clone $this;
+        $new->userInfo = $info;
+        $new->validateState();
+
+        return $new;
+    }
+
+    public function withHost($host)
+    {
+        $host = $this->filterHost($host);
+
+        if ($this->host === $host) {
+            return $this;
+        }
+
+        $new = clone $this;
+        $new->host = $host;
+        $new->validateState();
+
+        return $new;
+    }
+
+    public function withPort($port)
+    {
+        $port = $this->filterPort($port);
+
+        if ($this->port === $port) {
+            return $this;
+        }
+
+        $new = clone $this;
+        $new->port = $port;
+        $new->removeDefaultPort();
+        $new->validateState();
+
+        return $new;
+    }
+
+    public function withPath($path)
+    {
+        $path = $this->filterPath($path);
+
+        if ($this->path === $path) {
+            return $this;
+        }
+
+        $new = clone $this;
+        $new->path = $path;
+        $new->validateState();
+
+        return $new;
+    }
+
+    public function withQuery($query)
+    {
+        $query = $this->filterQueryAndFragment($query);
+
+        if ($this->query === $query) {
+            return $this;
+        }
+
+        $new = clone $this;
+        $new->query = $query;
+
+        return $new;
+    }
+
+    public function withFragment($fragment)
+    {
+        $fragment = $this->filterQueryAndFragment($fragment);
+
+        if ($this->fragment === $fragment) {
+            return $this;
+        }
+
+        $new = clone $this;
+        $new->fragment = $fragment;
+
+        return $new;
+    }
+
+    /**
+     * Apply parse_url parts to a URI.
+     *
+     * @param array $parts Array of parse_url parts to apply.
+     */
+    private function applyParts(array $parts)
+    {
+        $this->scheme = isset($parts['scheme'])
+            ? $this->filterScheme($parts['scheme'])
+            : '';
+        $this->userInfo = isset($parts['user'])
+            ? $this->filterUserInfoComponent($parts['user'])
+            : '';
+        $this->host = isset($parts['host'])
+            ? $this->filterHost($parts['host'])
+            : '';
+        $this->port = isset($parts['port'])
+            ? $this->filterPort($parts['port'])
+            : null;
+        $this->path = isset($parts['path'])
+            ? $this->filterPath($parts['path'])
+            : '';
+        $this->query = isset($parts['query'])
+            ? $this->filterQueryAndFragment($parts['query'])
+            : '';
+        $this->fragment = isset($parts['fragment'])
+            ? $this->filterQueryAndFragment($parts['fragment'])
+            : '';
+        if (isset($parts['pass'])) {
+            $this->userInfo .= ':' . $this->filterUserInfoComponent($parts['pass']);
+        }
+
+        $this->removeDefaultPort();
+    }
+
+    /**
+     * @param string $scheme
+     *
+     * @return string
+     *
+     * @throws \InvalidArgumentException If the scheme is invalid.
+     */
+    private function filterScheme($scheme)
+    {
+        if (!is_string($scheme)) {
+            throw new \InvalidArgumentException('Scheme must be a string');
+        }
+
+        return \strtr($scheme, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz');
+    }
+
+    /**
+     * @param string $component
+     *
+     * @return string
+     *
+     * @throws \InvalidArgumentException If the user info is invalid.
+     */
+    private function filterUserInfoComponent($component)
+    {
+        if (!is_string($component)) {
+            throw new \InvalidArgumentException('User info must be a string');
+        }
+
+        return preg_replace_callback(
+            '/(?:[^%' . self::$charUnreserved . self::$charSubDelims . ']+|%(?![A-Fa-f0-9]{2}))/',
+            [$this, 'rawurlencodeMatchZero'],
+            $component
+        );
+    }
+
+    /**
+     * @param string $host
+     *
+     * @return string
+     *
+     * @throws \InvalidArgumentException If the host is invalid.
+     */
+    private function filterHost($host)
+    {
+        if (!is_string($host)) {
+            throw new \InvalidArgumentException('Host must be a string');
+        }
+
+        return \strtr($host, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz');
+    }
+
+    /**
+     * @param int|null $port
+     *
+     * @return int|null
+     *
+     * @throws \InvalidArgumentException If the port is invalid.
+     */
+    private function filterPort($port)
+    {
+        if ($port === null) {
+            return null;
+        }
+
+        $port = (int) $port;
+        if (0 > $port || 0xffff < $port) {
+            throw new \InvalidArgumentException(
+                sprintf('Invalid port: %d. Must be between 0 and 65535', $port)
+            );
+        }
+
+        return $port;
+    }
+
+    /**
+     * @param UriInterface $uri
+     * @param array        $keys
+     *
+     * @return array
+     */
+    private static function getFilteredQueryString(UriInterface $uri, array $keys)
+    {
+        $current = $uri->getQuery();
+
+        if ($current === '') {
+            return [];
+        }
+
+        $decodedKeys = array_map('rawurldecode', $keys);
+
+        return array_filter(explode('&', $current), function ($part) use ($decodedKeys) {
+            return !in_array(rawurldecode(explode('=', $part)[0]), $decodedKeys, true);
+        });
+    }
+
+    /**
+     * @param string      $key
+     * @param string|null $value
+     *
+     * @return string
+     */
+    private static function generateQueryString($key, $value)
+    {
+        // Query string separators ("=", "&") within the key or value need to be encoded
+        // (while preventing double-encoding) before setting the query string. All other
+        // chars that need percent-encoding will be encoded by withQuery().
+        $queryString = strtr($key, self::$replaceQuery);
+
+        if ($value !== null) {
+            $queryString .= '=' . strtr($value, self::$replaceQuery);
+        }
+
+        return $queryString;
+    }
+
+    private function removeDefaultPort()
+    {
+        if ($this->port !== null && self::isDefaultPort($this)) {
+            $this->port = null;
+        }
+    }
+
+    /**
+     * Filters the path of a URI
+     *
+     * @param string $path
+     *
+     * @return string
+     *
+     * @throws \InvalidArgumentException If the path is invalid.
+     */
+    private function filterPath($path)
+    {
+        if (!is_string($path)) {
+            throw new \InvalidArgumentException('Path must be a string');
+        }
+
+        return preg_replace_callback(
+            '/(?:[^' . self::$charUnreserved . self::$charSubDelims . '%:@\/]++|%(?![A-Fa-f0-9]{2}))/',
+            [$this, 'rawurlencodeMatchZero'],
+            $path
+        );
+    }
+
+    /**
+     * Filters the query string or fragment of a URI.
+     *
+     * @param string $str
+     *
+     * @return string
+     *
+     * @throws \InvalidArgumentException If the query or fragment is invalid.
+     */
+    private function filterQueryAndFragment($str)
+    {
+        if (!is_string($str)) {
+            throw new \InvalidArgumentException('Query and fragment must be a string');
+        }
+
+        return preg_replace_callback(
+            '/(?:[^' . self::$charUnreserved . self::$charSubDelims . '%:@\/\?]++|%(?![A-Fa-f0-9]{2}))/',
+            [$this, 'rawurlencodeMatchZero'],
+            $str
+        );
+    }
+
+    private function rawurlencodeMatchZero(array $match)
+    {
+        return rawurlencode($match[0]);
+    }
+
+    private function validateState()
+    {
+        if ($this->host === '' && ($this->scheme === 'http' || $this->scheme === 'https')) {
+            $this->host = self::HTTP_DEFAULT_HOST;
+        }
+
+        if ($this->getAuthority() === '') {
+            if (0 === strpos($this->path, '//')) {
+                throw new \InvalidArgumentException('The path of a URI without an authority must not start with two slashes "//"');
+            }
+            if ($this->scheme === '' && false !== strpos(explode('/', $this->path, 2)[0], ':')) {
+                throw new \InvalidArgumentException('A relative URI must not have a path beginning with a segment containing a colon');
+            }
+        } elseif (isset($this->path[0]) && $this->path[0] !== '/') {
+            @trigger_error(
+                'The path of a URI with an authority must start with a slash "/" or be empty. Automagically fixing the URI ' .
+                'by adding a leading slash to the path is deprecated since version 1.4 and will throw an exception instead.',
+                E_USER_DEPRECATED
+            );
+            $this->path = '/' . $this->path;
+            //throw new \InvalidArgumentException('The path of a URI with an authority must start with a slash "/" or be empty');
+        }
+    }
+}

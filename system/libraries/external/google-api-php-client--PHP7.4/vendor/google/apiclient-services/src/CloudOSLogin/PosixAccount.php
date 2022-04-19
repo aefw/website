@@ -1,79 +1,125 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudOSLogin;
+
+class PosixAccount extends \Google\Model
+{
+  public $accountId;
+  public $gecos;
+  public $gid;
+  public $homeDirectory;
+  public $name;
+  public $operatingSystemType;
+  public $primary;
+  public $shell;
+  public $systemId;
+  public $uid;
+  public $username;
+
+  public function setAccountId($accountId)
+  {
+    $this->accountId = $accountId;
+  }
+  public function getAccountId()
+  {
+    return $this->accountId;
+  }
+  public function setGecos($gecos)
+  {
+    $this->gecos = $gecos;
+  }
+  public function getGecos()
+  {
+    return $this->gecos;
+  }
+  public function setGid($gid)
+  {
+    $this->gid = $gid;
+  }
+  public function getGid()
+  {
+    return $this->gid;
+  }
+  public function setHomeDirectory($homeDirectory)
+  {
+    $this->homeDirectory = $homeDirectory;
+  }
+  public function getHomeDirectory()
+  {
+    return $this->homeDirectory;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setOperatingSystemType($operatingSystemType)
+  {
+    $this->operatingSystemType = $operatingSystemType;
+  }
+  public function getOperatingSystemType()
+  {
+    return $this->operatingSystemType;
+  }
+  public function setPrimary($primary)
+  {
+    $this->primary = $primary;
+  }
+  public function getPrimary()
+  {
+    return $this->primary;
+  }
+  public function setShell($shell)
+  {
+    $this->shell = $shell;
+  }
+  public function getShell()
+  {
+    return $this->shell;
+  }
+  public function setSystemId($systemId)
+  {
+    $this->systemId = $systemId;
+  }
+  public function getSystemId()
+  {
+    return $this->systemId;
+  }
+  public function setUid($uid)
+  {
+    $this->uid = $uid;
+  }
+  public function getUid()
+  {
+    return $this->uid;
+  }
+  public function setUsername($username)
+  {
+    $this->username = $username;
+  }
+  public function getUsername()
+  {
+    return $this->username;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PosixAccount::class, 'Google_Service_CloudOSLogin_PosixAccount');

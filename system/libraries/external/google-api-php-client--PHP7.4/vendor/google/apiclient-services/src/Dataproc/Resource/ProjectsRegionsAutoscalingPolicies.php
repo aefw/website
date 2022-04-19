@@ -1,84 +1,207 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPwGXaDKufsWQjUi5zbYtTj3sR/cPlh9wtSUpVgNQkJ3U3ool6lNZk4fSDXsgyPqWAfsFKgEW
-AqhAt+ejdMNn2a6yM3NgT3C0gIsi7rMv38za4vIOYDAkVXyeLQIHBh9MJX/FHXQxb3ZybagOD/oj
-mdMBq7uTk8fCpIyzqE195VRo6iUeJVJgYMmfCW18Dh0WaVA6rjIjwCk58byL4Wq2wRFhM3l53NNa
-Tms6jhvLlxMzG9fJeYHyCsnMFjr34AK+1xY+hwliXjsAr+RxdU+U54lrYN3YS5CkDLI4g2o1fZvA
-1ULLd7A9omCBX+SdHvsMYDJ1gIx/lZZ/ib3lD9pzh2ggQWzWL0zTS2oj2r2iY5dL89N6Ue10aDj4
-3VYUE6RcPAIM63sIQUczSm3bnZYVwjv1lVTz40keo2P1LMZdutVTkMAEa+eai4vjZ7lqohHg8Bx6
-jBFOIvI81m7LQsGnJlsQLtxV/CCV2psP3Xfc81nrkl4CvVLbZF/96nJDCAV/a7pl8lZJB4yQdsOr
-Kc3DyJ/f0SiZgWNSI9q2pHS8KVTZ2ikc9oJYKozkMz6MjZWsrrs29JugAr+Q8sMNe2vCVlbIFvi4
-TzTh3+rsZVIkKIdh5ZgQLjjIyAhSJaMPqIFWFroeCPIHVBy40VlLlFpWOFc0Bs6Y1QolVsjhvis/
-rzIKHpyuNn97z1miNkenwivXQemFcfhtR+Q+5Puq08Uh7eIrorsnZn10HwZ7RpCvWp/vp/I5AKwP
-S2X3Xk4TxHYzpBeOLBFpsVW2I6TCD4/X/es3f5MCfVDCfeL5NIv3bPrKqdSaPcyWnegMtTeCbINH
-pzztmmCUTCJYPkmtrjkzfQBjoGPKQSaacPBtM6Cswvy97ZSG4aoK+Sy8936Et0HWH8/fXN8FKgbZ
-VJydHcMqqT9H8qf3StuWnF5GzckhTvOzC7rISQSmW+bamYkE04TBNV3p2zqLv4ySDaLn9wVLYpOU
-DWKIKvcM+5MpH77b8vmcZI71QpD3QMHy/zttTIpLWn1D4J17mrP/9idyCOebY4CHvdqcdS0pV/SK
-HbfqUK3cMQL0Q67blN9Kt4FAAPTJznghR5yfhQZ2jmg88PZN9lDLAixdfDDWRIk5wnC/YXQeUBvb
-5vgPCM7O0rveqHxeVuLi1OYMk25N1iS/E45guPtcsIdPfN0XfzVB+ocKXzw1gB1XwJ3b1tewTfcq
-ao9GyfHSkmQycPhBEAVV2fbRRs03yao0ai/fsUhINEgVOsmnk8jUi9m1fjHueSKaIcyLEvDA8ssV
-X3dszCg5sp5ZUFV2p0FyxteU/ds2jiXp1j+A2C9allq9P1/XpZVnqYAh/XP0oQm0LOMiOtx/OoiJ
-DU75ttDEL8bBbmWTl5xPD8KtrY/xuiuQI87hJBFlNPryy00nszXjs1JJLeU/vUlU0BTl0pIyhE/X
-0DkI1jvmCm901/CbI17mcLHHgNtamN2qAtM0X3+RClat9BXMWwepwisPP4Nmud4tzvPF0MOdoCoX
-3sG2cTTO6dVGq75ccfthk3POBVw8Kk9TaVoFgQmT/XQaDSHLhAFCdwk+mqkmfaNo4yl7duGh1QDy
-1+OJ8Qlw6tJhR8q0zPpRZEjrcRlUsN1LkCfbS6x9ccw/32K5Ymx8PnMhZ+rkBzRZ3aBq9nmLI6Ea
-DNp5tg3VmZFxZmHHtdUoNtezf5zJPfNtBV/4FLS72et6qAmgVhNg07VY335quIt4llbgJ0MaUPG/
-QxYc/eOqpeR3CjuPoDhDiQKdCikhvZlWefGL0hdMaj7PLqCtNYeSuqQZPhj/kCkYKu+3u7+ZIj/c
-1pK6JmG4FNEyLgl8GFJQep3wC+swVE6t+nc67Fe1/hMgq11UqtGHtKPQ3NhOvydNZ03WcYdICWmb
-cU/ActOoNPOQydg9MDEYZoE/M32RpvnOi8PD5QmB8BHiPVS1RbTzwriAsNwRjBM7YQz7eyHztRg/
-m7n/ctBf3CPVqr/ETjaYmp0Z+NavXp3a6fpXPw3+I84HXtR2PEhOTl7cc6R3FfnIIutZtrvPM9cf
-5Xtv5kmHBOjhmJgqnOoo2KUYSMn52VDOhKlCsI9IeuhSHpMo2RqzIGy2Ec51c2DFCOYu8/XwaoKE
-cOr/1br03zlwDyFTzl8u9gEEJNKQIjAsFWtwMPcPTH6c+f/sR7msILMFamKiTfJVxciLmGyguCC9
-2LD1Sfo1i5PzIzTXkbNeDj5jYtGawo2htQhYHsBaduCP4x1IV+xqi0sQPqr93WIjSS1VqJCNxt4G
-K00IWmDBUX3NGFEIcK7XoYyTubU2EbizAORL6LoGVyf7oxC0pI4gm0FW7dZPxfwoA8ZC0xGB+WFK
-ax58BbF0o134ytYa1vYx5VpGIEw/5ibEyTxm6nV/ffqDvK60jIguGv62T5KiZ2o0ZF0nD6Sm3fCU
-qqIT3HJnrbyZ4eqj079iEs3FWIZ9Lzt5ORdW/v8DO6WMAOwvgsMGPKKtZrRgXuWsjyv8B3Q3HoI0
-eiqbxhRRCU4nqWZgNygn2Nkq3DmFuLOacG5mPCP7/UrqGL72sh6okE6/SLwxnaw8GCTv3+ajJNNh
-GQetW3LkyOsi2xv1uhFOumY7man5/558bGIB4fj6LU2nMsM7sGxbX0wdQRPZo7z+Sh/ekazPcFzb
-C++WAyX25S649A2nYoDLPTYlJbPcZQ8vLtbR0L8cMh+HmHH2C+OB5wJ6UknKFfpHL8TPTRCm5anG
-9ixGOwtavNO0EJKCD8sTCKEWDOeUkl6cZwLjOusVLtod6gvOei21I8+CAKB0WVLjifdMpkF0pwZh
-HbenGyltmdKmx+6T5NaUePLSLT236RFgSGbZQLqjN7Z3OErQg0pHH8tsXyKDh6VsFVeODkmIKmzr
-Zxmwc/5jEP4FAVgXIgSqEEh0XdExe3OBxOjA1E5O1aGStXP+vHgdhZ1p7yKDFdt78WuLwl9y0V/7
-o/ycDdhxtBwS7vdEXP53t7YE3wSux0s8HDqODc9sNG5xsRXpG8O+OJ1GAAlYKmeWncOjFJ0+3VLR
-5tsyJAxb5uYzeQeOCL9jt8iVuygSd6H/kB4w1gzGuLym/uA/Qrl9KlFWvhZYqcA7Q1cLJJs3BlNA
-WncFwUfXPMtYH+Vsas7QBwx/Tb960kcrgU5ELmmnZagwT8LWcKzKVYF+YLdzUl78kt63YG/xiUIo
-b7OSpcxaP12Gm9cRdrghG+1D/ZHgv4xNQvKmRZZaJEKm9MCBy/vjinM/+43QnLoSFHY5emyzubAW
-7/nLsasqyXwEErQNbKrXleVcY7IsN8hoU9Ots8Z724/UpqCUW6kUPxCahcAKdk2UvL74Aj/TH7LT
-GU0oOLBWLZV9aDN1EJBynBaMMVamvD5TbiTlE/8C9MYKxwaEst/KOK6mtlEeU4yDTBv3T29PKVjK
-1pswFLjJRiLkoc+fS8BfQr49K6CNXUIRmiJJptIK1ioJEtz1M2YevUONgYIOvbfBnxLAAAQyNWwh
-MJ4xL9nkQcEHmBRrdbYnNNwSeNfuWLNUuc22Z3zGZGoR0n6hMOAKHhNC7w3q7GXt7DVR5jNKft/n
-gdJYc1qdufcgyMMabD4t6qHLY59ejoWFndI1f8+HKDIlCUacETrsbhIiLtOLjupu2fzeWOmoSo1G
-q7WAZDcnPq8zThzVxiK/ppuLo5rkuSD3/r0ZAB73T971+bp0vxWg/uJIce8sMhdllVxHXPsC6R4d
-FiSTYnKSmTGsP13zj079qzTF6D+xZHK2xabcfoRrOcw1f2VA5VyDzMxupXZDLxj6bR2r2khcQkX7
-oYdUgnzTQLcI5q28cBMznHUcb8/bAmr4AlkvxlF/MhM22UJYNIC0P912uibFnFnNA3TyZB+zEW7h
-k1dk6ReOlcNUl6ZYeRgdehEB1btdJ1W6VGUR/nTQJUg4Po7yvSF/GqIb5lEbTIDaMJ1pHemkRXId
-XcQB6mutYHjYBy2+VmvK8x4ETyOV8SbY6dnTEFsXMTN4tjQCu4KYhcRTZAo+qMucr/gyBDdpBz0n
-l2gLDtYcuQzRXBwGuQu81dylKsTslUNGpidPVzZxanYr3L8WGYFX+btiya9UokcKGjXFzUakc62a
-jW9YcvbUfCal/rWdz4XxxXKODcbyi3PcLB1wGDFU0IeACY//n7deqGgiWLteAtJmnDC9qeJpRv2V
-10w9bDIU2yFespyoQKZFNcuicsmNe3glBdpv1TwgGeGIJVIKDjHfVFivwt3R2ArjDJ+EfHSWT86h
-dbnF7wfLWV4rhXMMkCOqPh+XWFtvMQeTENpDj8Rfo0r/ePcrq1V+rlAhbna9xewIjcpgjAn20GP6
-WiR9tGkEwolq12dnzPVmcrT+5PcZ1FXXgm5oWoIkRUfs0rG+KQnJLLDq1sBUfL153s51q8t/5pWJ
-eZ5JLKTcpb78FPMNItNFutnR04WKHs/zJ5+g1igxvyv8GH1dQHNHnD7f26shR5yzSsyk3Fjk7DGg
-bDbzOPyTRd2Tl1Un1wwKCak3hTjJ7ujq4IgMsRsTfDLoR/yx/qN9asTjW2TbxzqXH7tvPna4xAQR
-xdvy94HmxZNLiNd1plMphFktUe0ERe3BgZGrxzB3AiHfz53/OISEm0kTFyk0fM11AcE28fQkhcwd
-CfQoDC31vboWwRXL83BCfOL7xJKDy+IVuWDXcjq9GYH4YDqNyTkzkZxXpRynN+Zsq8DSeuBJpwsZ
-f1KxSEYyIdeIsBcxXYQvylUAOKkLAKOjASh2EGcAR+Rbz/p0ZUydjjS9aQnY+ufRwgtHAv3L60za
-hjlQbHWYAZPN/847M0WZckeKA77ojvZZ0VOevxJkYkIfiYyqbm+RforkeH2eHbvpUIHgGxhUmKr8
-KC25U0rwNh3vOxz0+eWn79P1lONpoKLwXhvZ7vLFKNX9I6ZDA0aEBqEiwXOsBdDIL7xe7zPnewge
-lgIiQKWELfOda9iSmDpd17BjNdVzrnKzdMw4tz+iVZSD5Tl2ZsbZLKD/TYtSYSc/KIH/0Q49Ai1F
-y1Lmjv8VYLJ4Sn0X5O/cyF5Aoo4hE3Qh0CWjbUDV5cdpfPvQ9V2mVou/cYWlipHl0FQQ2pYT0lIy
-W0zOro6ebuzeJWo+FOOz6IyqZRMsIlFM4xD1wOYw7Ot8Wc12hkZOl+gPMU5QaX5WCd+b2qNZ7d9Y
-GYjpfiC8GHDBhshofiD5VEZy0sFYLMoVS/zugSvD17wtqjUTMVZLxWx5RmCuU3Vf2gyOM4LyhdNr
-K24gYixcKg0cKKpAYVTqdKy+S7hUsh2xbGaTR7xVQil+/M6UDtztjIMCgb0PYE1/OWOHTq/dmE96
-lUMeb9r1jidHaN3jkamriBk2lmidcW0F4q0n5hk9WeSMkD2aJSBQ1UPRVhUF249O+WBjpKPkxjPs
-y4DrzVSpXm5RT0A6gFyvYx/ARbVZUYfkf/R7DbVQ900pUJrrXs/DySAZFqGwyR2cArR59gIKGhO5
-3iVfGFbdzY9zQJ+wKtubmN3zcg/QbWt/jCMgEcz9QIW+4OmsxOoT8hMD5GXjD/tLKCBXYqf9gli2
-mP5TK131wG9i7LQWAlMcnGEAukeriDDyYNJ6iCpF3aEeSSpp/d0EnHlo4R8IOSqsjxw18UQCrfYd
-sW1kCBxifxYh8o7nkix7gG7Zupq+z9aHlNxU1i5Z+N59dcoFeFgnuxbHES+Me8ES7T0F9jIqXxtQ
-ZnEfL5fiJXHHbgghpILyKKoAv4PqmH4644G/Acq2WBqvwWNsUFfmG6UpwCkWBYWTRTtdgqJcOv7E
-0mV8zdhp51r/3/DFADCa3WlvdpcbGdNe5Hkj5Q3cjk/Dihu4lEBGNNAHIm0beeJ12akbJ2EjHGLA
-jrQ3AC7JLaloHiFMVjXkeFQy2CAtrGA46MuDNWVMp8n3VGoRGS6sw5m39M5Y0iIwjYoHBG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dataproc\Resource;
+
+use Google\Service\Dataproc\AutoscalingPolicy;
+use Google\Service\Dataproc\DataprocEmpty;
+use Google\Service\Dataproc\GetIamPolicyRequest;
+use Google\Service\Dataproc\ListAutoscalingPoliciesResponse;
+use Google\Service\Dataproc\Policy;
+use Google\Service\Dataproc\SetIamPolicyRequest;
+use Google\Service\Dataproc\TestIamPermissionsRequest;
+use Google\Service\Dataproc\TestIamPermissionsResponse;
+
+/**
+ * The "autoscalingPolicies" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $dataprocService = new Google\Service\Dataproc(...);
+ *   $autoscalingPolicies = $dataprocService->autoscalingPolicies;
+ *  </code>
+ */
+class ProjectsRegionsAutoscalingPolicies extends \Google\Service\Resource
+{
+  /**
+   * Creates new autoscaling policy. (autoscalingPolicies.create)
+   *
+   * @param string $parent Required. The "resource name" of the region or
+   * location, as described in
+   * https://cloud.google.com/apis/design/resource_names. For
+   * projects.regions.autoscalingPolicies.create, the resource name of the region
+   * has the following format: projects/{project_id}/regions/{region} For
+   * projects.locations.autoscalingPolicies.create, the resource name of the
+   * location has the following format: projects/{project_id}/locations/{location}
+   * @param AutoscalingPolicy $postBody
+   * @param array $optParams Optional parameters.
+   * @return AutoscalingPolicy
+   */
+  public function create($parent, AutoscalingPolicy $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], AutoscalingPolicy::class);
+  }
+  /**
+   * Deletes an autoscaling policy. It is an error to delete an autoscaling policy
+   * that is in use by one or more clusters. (autoscalingPolicies.delete)
+   *
+   * @param string $name Required. The "resource name" of the autoscaling policy,
+   * as described in https://cloud.google.com/apis/design/resource_names. For
+   * projects.regions.autoscalingPolicies.delete, the resource name of the policy
+   * has the following format:
+   * projects/{project_id}/regions/{region}/autoscalingPolicies/{policy_id} For
+   * projects.locations.autoscalingPolicies.delete, the resource name of the
+   * policy has the following format:
+   * projects/{project_id}/locations/{location}/autoscalingPolicies/{policy_id}
+   * @param array $optParams Optional parameters.
+   * @return DataprocEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], DataprocEmpty::class);
+  }
+  /**
+   * Retrieves autoscaling policy. (autoscalingPolicies.get)
+   *
+   * @param string $name Required. The "resource name" of the autoscaling policy,
+   * as described in https://cloud.google.com/apis/design/resource_names. For
+   * projects.regions.autoscalingPolicies.get, the resource name of the policy has
+   * the following format:
+   * projects/{project_id}/regions/{region}/autoscalingPolicies/{policy_id} For
+   * projects.locations.autoscalingPolicies.get, the resource name of the policy
+   * has the following format:
+   * projects/{project_id}/locations/{location}/autoscalingPolicies/{policy_id}
+   * @param array $optParams Optional parameters.
+   * @return AutoscalingPolicy
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], AutoscalingPolicy::class);
+  }
+  /**
+   * Gets the access control policy for a resource. Returns an empty policy if the
+   * resource exists and does not have a policy set.
+   * (autoscalingPolicies.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param GetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function getIamPolicy($resource, GetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Lists autoscaling policies in the project.
+   * (autoscalingPolicies.listProjectsRegionsAutoscalingPolicies)
+   *
+   * @param string $parent Required. The "resource name" of the region or
+   * location, as described in
+   * https://cloud.google.com/apis/design/resource_names. For
+   * projects.regions.autoscalingPolicies.list, the resource name of the region
+   * has the following format: projects/{project_id}/regions/{region} For
+   * projects.locations.autoscalingPolicies.list, the resource name of the
+   * location has the following format: projects/{project_id}/locations/{location}
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Optional. The maximum number of results to return in
+   * each response. Must be less than or equal to 1000. Defaults to 100.
+   * @opt_param string pageToken Optional. The page token, returned by a previous
+   * call, to request the next page of results.
+   * @return ListAutoscalingPoliciesResponse
+   */
+  public function listProjectsRegionsAutoscalingPolicies($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListAutoscalingPoliciesResponse::class);
+  }
+  /**
+   * Sets the access control policy on the specified resource. Replaces any
+   * existing policy.Can return NOT_FOUND, INVALID_ARGUMENT, and PERMISSION_DENIED
+   * errors. (autoscalingPolicies.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource. If the
+   * resource does not exist, this will return an empty set of permissions, not a
+   * NOT_FOUND error.Note: This operation is designed to be used for building
+   * permission-aware UIs and command-line tools, not for authorization checking.
+   * This operation may "fail open" without warning.
+   * (autoscalingPolicies.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+  /**
+   * Updates (replaces) autoscaling policy.Disabled check for update_mask, because
+   * all updates will be full replacements. (autoscalingPolicies.update)
+   *
+   * @param string $name Output only. The "resource name" of the autoscaling
+   * policy, as described in https://cloud.google.com/apis/design/resource_names.
+   * For projects.regions.autoscalingPolicies, the resource name of the policy has
+   * the following format:
+   * projects/{project_id}/regions/{region}/autoscalingPolicies/{policy_id} For
+   * projects.locations.autoscalingPolicies, the resource name of the policy has
+   * the following format:
+   * projects/{project_id}/locations/{location}/autoscalingPolicies/{policy_id}
+   * @param AutoscalingPolicy $postBody
+   * @param array $optParams Optional parameters.
+   * @return AutoscalingPolicy
+   */
+  public function update($name, AutoscalingPolicy $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], AutoscalingPolicy::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsRegionsAutoscalingPolicies::class, 'Google_Service_Dataproc_Resource_ProjectsRegionsAutoscalingPolicies');

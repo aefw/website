@@ -1,222 +1,548 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-lomY6FYJQAlU8GJ57XOBGan/rtljNMjBk95TZey=
+<?php
+
+namespace PhpOffice\PhpSpreadsheet\Writer\Xls;
+
+use PhpOffice\PhpSpreadsheet\Style\Alignment;
+use PhpOffice\PhpSpreadsheet\Style\Border;
+use PhpOffice\PhpSpreadsheet\Style\Borders;
+use PhpOffice\PhpSpreadsheet\Style\Fill;
+use PhpOffice\PhpSpreadsheet\Style\Protection;
+use PhpOffice\PhpSpreadsheet\Style\Style;
+
+// Original file header of PEAR::Spreadsheet_Excel_Writer_Format (used as the base for this class):
+// -----------------------------------------------------------------------------------------
+// /*
+// *  Module written/ported by Xavier Noguer <xnoguer@rezebra.com>
+// *
+// *  The majority of this is _NOT_ my code.  I simply ported it from the
+// *  PERL Spreadsheet::WriteExcel module.
+// *
+// *  The author of the Spreadsheet::WriteExcel module is John McNamara
+// *  <jmcnamara@cpan.org>
+// *
+// *  I _DO_ maintain this code, and John McNamara has nothing to do with the
+// *  porting of this code to PHP.  Any questions directly related to this
+// *  class library should be directed to me.
+// *
+// *  License Information:
+// *
+// *    Spreadsheet_Excel_Writer:  A library for generating Excel Spreadsheets
+// *    Copyright (c) 2002-2003 Xavier Noguer xnoguer@rezebra.com
+// *
+// *    This library is free software; you can redistribute it and/or
+// *    modify it under the terms of the GNU Lesser General Public
+// *    License as published by the Free Software Foundation; either
+// *    version 2.1 of the License, or (at your option) any later version.
+// *
+// *    This library is distributed in the hope that it will be useful,
+// *    but WITHOUT ANY WARRANTY; without even the implied warranty of
+// *    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+// *    Lesser General Public License for more details.
+// *
+// *    You should have received a copy of the GNU Lesser General Public
+// *    License along with this library; if not, write to the Free Software
+// *    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+// */
+class Xf
+{
+    /**
+     * Style XF or a cell XF ?
+     *
+     * @var bool
+     */
+    private $isStyleXf;
+
+    /**
+     * Index to the FONT record. Index 4 does not exist.
+     *
+     * @var int
+     */
+    private $fontIndex;
+
+    /**
+     * An index (2 bytes) to a FORMAT record (number format).
+     *
+     * @var int
+     */
+    private $numberFormatIndex;
+
+    /**
+     * 1 bit, apparently not used.
+     *
+     * @var int
+     */
+    private $textJustLast;
+
+    /**
+     * The cell's foreground color.
+     *
+     * @var int
+     */
+    private $foregroundColor;
+
+    /**
+     * The cell's background color.
+     *
+     * @var int
+     */
+    private $backgroundColor;
+
+    /**
+     * Color of the bottom border of the cell.
+     *
+     * @var int
+     */
+    private $bottomBorderColor;
+
+    /**
+     * Color of the top border of the cell.
+     *
+     * @var int
+     */
+    private $topBorderColor;
+
+    /**
+     * Color of the left border of the cell.
+     *
+     * @var int
+     */
+    private $leftBorderColor;
+
+    /**
+     * Color of the right border of the cell.
+     *
+     * @var int
+     */
+    private $rightBorderColor;
+
+    /**
+     * Constructor.
+     *
+     * @param Style $style The XF format
+     */
+    public function __construct(Style $style)
+    {
+        $this->isStyleXf = false;
+        $this->fontIndex = 0;
+
+        $this->numberFormatIndex = 0;
+
+        $this->textJustLast = 0;
+
+        $this->foregroundColor = 0x40;
+        $this->backgroundColor = 0x41;
+
+        $this->_diag = 0;
+
+        $this->bottomBorderColor = 0x40;
+        $this->topBorderColor = 0x40;
+        $this->leftBorderColor = 0x40;
+        $this->rightBorderColor = 0x40;
+        $this->_diag_color = 0x40;
+        $this->_style = $style;
+    }
+
+    /**
+     * Generate an Excel BIFF XF record (style or cell).
+     *
+     * @return string The XF record
+     */
+    public function writeXf()
+    {
+        // Set the type of the XF record and some of the attributes.
+        if ($this->isStyleXf) {
+            $style = 0xFFF5;
+        } else {
+            $style = self::mapLocked($this->_style->getProtection()->getLocked());
+            $style |= self::mapHidden($this->_style->getProtection()->getHidden()) << 1;
+        }
+
+        // Flags to indicate if attributes have been set.
+        $atr_num = ($this->numberFormatIndex != 0) ? 1 : 0;
+        $atr_fnt = ($this->fontIndex != 0) ? 1 : 0;
+        $atr_alc = ((int) $this->_style->getAlignment()->getWrapText()) ? 1 : 0;
+        $atr_bdr = (self::mapBorderStyle($this->_style->getBorders()->getBottom()->getBorderStyle()) ||
+                        self::mapBorderStyle($this->_style->getBorders()->getTop()->getBorderStyle()) ||
+                        self::mapBorderStyle($this->_style->getBorders()->getLeft()->getBorderStyle()) ||
+                        self::mapBorderStyle($this->_style->getBorders()->getRight()->getBorderStyle())) ? 1 : 0;
+        $atr_pat = (($this->foregroundColor != 0x40) ||
+                        ($this->backgroundColor != 0x41) ||
+                        self::mapFillType($this->_style->getFill()->getFillType())) ? 1 : 0;
+        $atr_prot = self::mapLocked($this->_style->getProtection()->getLocked())
+                        | self::mapHidden($this->_style->getProtection()->getHidden());
+
+        // Zero the default border colour if the border has not been set.
+        if (self::mapBorderStyle($this->_style->getBorders()->getBottom()->getBorderStyle()) == 0) {
+            $this->bottomBorderColor = 0;
+        }
+        if (self::mapBorderStyle($this->_style->getBorders()->getTop()->getBorderStyle()) == 0) {
+            $this->topBorderColor = 0;
+        }
+        if (self::mapBorderStyle($this->_style->getBorders()->getRight()->getBorderStyle()) == 0) {
+            $this->rightBorderColor = 0;
+        }
+        if (self::mapBorderStyle($this->_style->getBorders()->getLeft()->getBorderStyle()) == 0) {
+            $this->leftBorderColor = 0;
+        }
+        if (self::mapBorderStyle($this->_style->getBorders()->getDiagonal()->getBorderStyle()) == 0) {
+            $this->_diag_color = 0;
+        }
+
+        $record = 0x00E0; // Record identifier
+        $length = 0x0014; // Number of bytes to follow
+
+        $ifnt = $this->fontIndex; // Index to FONT record
+        $ifmt = $this->numberFormatIndex; // Index to FORMAT record
+
+        $align = $this->mapHAlign($this->_style->getAlignment()->getHorizontal()); // Alignment
+        $align |= (int) $this->_style->getAlignment()->getWrapText() << 3;
+        $align |= self::mapVAlign($this->_style->getAlignment()->getVertical()) << 4;
+        $align |= $this->textJustLast << 7;
+
+        $used_attrib = $atr_num << 2;
+        $used_attrib |= $atr_fnt << 3;
+        $used_attrib |= $atr_alc << 4;
+        $used_attrib |= $atr_bdr << 5;
+        $used_attrib |= $atr_pat << 6;
+        $used_attrib |= $atr_prot << 7;
+
+        $icv = $this->foregroundColor; // fg and bg pattern colors
+        $icv |= $this->backgroundColor << 7;
+
+        $border1 = self::mapBorderStyle($this->_style->getBorders()->getLeft()->getBorderStyle()); // Border line style and color
+        $border1 |= self::mapBorderStyle($this->_style->getBorders()->getRight()->getBorderStyle()) << 4;
+        $border1 |= self::mapBorderStyle($this->_style->getBorders()->getTop()->getBorderStyle()) << 8;
+        $border1 |= self::mapBorderStyle($this->_style->getBorders()->getBottom()->getBorderStyle()) << 12;
+        $border1 |= $this->leftBorderColor << 16;
+        $border1 |= $this->rightBorderColor << 23;
+
+        $diagonalDirection = $this->_style->getBorders()->getDiagonalDirection();
+        $diag_tl_to_rb = $diagonalDirection == Borders::DIAGONAL_BOTH
+                            || $diagonalDirection == Borders::DIAGONAL_DOWN;
+        $diag_tr_to_lb = $diagonalDirection == Borders::DIAGONAL_BOTH
+                            || $diagonalDirection == Borders::DIAGONAL_UP;
+        $border1 |= $diag_tl_to_rb << 30;
+        $border1 |= $diag_tr_to_lb << 31;
+
+        $border2 = $this->topBorderColor; // Border color
+        $border2 |= $this->bottomBorderColor << 7;
+        $border2 |= $this->_diag_color << 14;
+        $border2 |= self::mapBorderStyle($this->_style->getBorders()->getDiagonal()->getBorderStyle()) << 21;
+        $border2 |= self::mapFillType($this->_style->getFill()->getFillType()) << 26;
+
+        $header = pack('vv', $record, $length);
+
+        //BIFF8 options: identation, shrinkToFit and  text direction
+        $biff8_options = $this->_style->getAlignment()->getIndent();
+        $biff8_options |= (int) $this->_style->getAlignment()->getShrinkToFit() << 4;
+
+        $data = pack('vvvC', $ifnt, $ifmt, $style, $align);
+        $data .= pack('CCC', self::mapTextRotation($this->_style->getAlignment()->getTextRotation()), $biff8_options, $used_attrib);
+        $data .= pack('VVv', $border1, $border2, $icv);
+
+        return $header . $data;
+    }
+
+    /**
+     * Is this a style XF ?
+     *
+     * @param bool $value
+     */
+    public function setIsStyleXf($value)
+    {
+        $this->isStyleXf = $value;
+    }
+
+    /**
+     * Sets the cell's bottom border color.
+     *
+     * @param int $colorIndex Color index
+     */
+    public function setBottomColor($colorIndex)
+    {
+        $this->bottomBorderColor = $colorIndex;
+    }
+
+    /**
+     * Sets the cell's top border color.
+     *
+     * @param int $colorIndex Color index
+     */
+    public function setTopColor($colorIndex)
+    {
+        $this->topBorderColor = $colorIndex;
+    }
+
+    /**
+     * Sets the cell's left border color.
+     *
+     * @param int $colorIndex Color index
+     */
+    public function setLeftColor($colorIndex)
+    {
+        $this->leftBorderColor = $colorIndex;
+    }
+
+    /**
+     * Sets the cell's right border color.
+     *
+     * @param int $colorIndex Color index
+     */
+    public function setRightColor($colorIndex)
+    {
+        $this->rightBorderColor = $colorIndex;
+    }
+
+    /**
+     * Sets the cell's diagonal border color.
+     *
+     * @param int $colorIndex Color index
+     */
+    public function setDiagColor($colorIndex)
+    {
+        $this->_diag_color = $colorIndex;
+    }
+
+    /**
+     * Sets the cell's foreground color.
+     *
+     * @param int $colorIndex Color index
+     */
+    public function setFgColor($colorIndex)
+    {
+        $this->foregroundColor = $colorIndex;
+    }
+
+    /**
+     * Sets the cell's background color.
+     *
+     * @param int $colorIndex Color index
+     */
+    public function setBgColor($colorIndex)
+    {
+        $this->backgroundColor = $colorIndex;
+    }
+
+    /**
+     * Sets the index to the number format record
+     * It can be date, time, currency, etc...
+     *
+     * @param int $numberFormatIndex Index to format record
+     */
+    public function setNumberFormatIndex($numberFormatIndex)
+    {
+        $this->numberFormatIndex = $numberFormatIndex;
+    }
+
+    /**
+     * Set the font index.
+     *
+     * @param int $value Font index, note that value 4 does not exist
+     */
+    public function setFontIndex($value)
+    {
+        $this->fontIndex = $value;
+    }
+
+    /**
+     * Map of BIFF2-BIFF8 codes for border styles.
+     *
+     * @var array of int
+     */
+    private static $mapBorderStyles = [
+        Border::BORDER_NONE => 0x00,
+        Border::BORDER_THIN => 0x01,
+        Border::BORDER_MEDIUM => 0x02,
+        Border::BORDER_DASHED => 0x03,
+        Border::BORDER_DOTTED => 0x04,
+        Border::BORDER_THICK => 0x05,
+        Border::BORDER_DOUBLE => 0x06,
+        Border::BORDER_HAIR => 0x07,
+        Border::BORDER_MEDIUMDASHED => 0x08,
+        Border::BORDER_DASHDOT => 0x09,
+        Border::BORDER_MEDIUMDASHDOT => 0x0A,
+        Border::BORDER_DASHDOTDOT => 0x0B,
+        Border::BORDER_MEDIUMDASHDOTDOT => 0x0C,
+        Border::BORDER_SLANTDASHDOT => 0x0D,
+    ];
+
+    /**
+     * Map border style.
+     *
+     * @param string $borderStyle
+     *
+     * @return int
+     */
+    private static function mapBorderStyle($borderStyle)
+    {
+        if (isset(self::$mapBorderStyles[$borderStyle])) {
+            return self::$mapBorderStyles[$borderStyle];
+        }
+
+        return 0x00;
+    }
+
+    /**
+     * Map of BIFF2-BIFF8 codes for fill types.
+     *
+     * @var array of int
+     */
+    private static $mapFillTypes = [
+        Fill::FILL_NONE => 0x00,
+        Fill::FILL_SOLID => 0x01,
+        Fill::FILL_PATTERN_MEDIUMGRAY => 0x02,
+        Fill::FILL_PATTERN_DARKGRAY => 0x03,
+        Fill::FILL_PATTERN_LIGHTGRAY => 0x04,
+        Fill::FILL_PATTERN_DARKHORIZONTAL => 0x05,
+        Fill::FILL_PATTERN_DARKVERTICAL => 0x06,
+        Fill::FILL_PATTERN_DARKDOWN => 0x07,
+        Fill::FILL_PATTERN_DARKUP => 0x08,
+        Fill::FILL_PATTERN_DARKGRID => 0x09,
+        Fill::FILL_PATTERN_DARKTRELLIS => 0x0A,
+        Fill::FILL_PATTERN_LIGHTHORIZONTAL => 0x0B,
+        Fill::FILL_PATTERN_LIGHTVERTICAL => 0x0C,
+        Fill::FILL_PATTERN_LIGHTDOWN => 0x0D,
+        Fill::FILL_PATTERN_LIGHTUP => 0x0E,
+        Fill::FILL_PATTERN_LIGHTGRID => 0x0F,
+        Fill::FILL_PATTERN_LIGHTTRELLIS => 0x10,
+        Fill::FILL_PATTERN_GRAY125 => 0x11,
+        Fill::FILL_PATTERN_GRAY0625 => 0x12,
+        Fill::FILL_GRADIENT_LINEAR => 0x00, // does not exist in BIFF8
+        Fill::FILL_GRADIENT_PATH => 0x00, // does not exist in BIFF8
+    ];
+
+    /**
+     * Map fill type.
+     *
+     * @param string $fillType
+     *
+     * @return int
+     */
+    private static function mapFillType($fillType)
+    {
+        if (isset(self::$mapFillTypes[$fillType])) {
+            return self::$mapFillTypes[$fillType];
+        }
+
+        return 0x00;
+    }
+
+    /**
+     * Map of BIFF2-BIFF8 codes for horizontal alignment.
+     *
+     * @var array of int
+     */
+    private static $mapHAlignments = [
+        Alignment::HORIZONTAL_GENERAL => 0,
+        Alignment::HORIZONTAL_LEFT => 1,
+        Alignment::HORIZONTAL_CENTER => 2,
+        Alignment::HORIZONTAL_RIGHT => 3,
+        Alignment::HORIZONTAL_FILL => 4,
+        Alignment::HORIZONTAL_JUSTIFY => 5,
+        Alignment::HORIZONTAL_CENTER_CONTINUOUS => 6,
+    ];
+
+    /**
+     * Map to BIFF2-BIFF8 codes for horizontal alignment.
+     *
+     * @param string $hAlign
+     *
+     * @return int
+     */
+    private function mapHAlign($hAlign)
+    {
+        if (isset(self::$mapHAlignments[$hAlign])) {
+            return self::$mapHAlignments[$hAlign];
+        }
+
+        return 0;
+    }
+
+    /**
+     * Map of BIFF2-BIFF8 codes for vertical alignment.
+     *
+     * @var array of int
+     */
+    private static $mapVAlignments = [
+        Alignment::VERTICAL_TOP => 0,
+        Alignment::VERTICAL_CENTER => 1,
+        Alignment::VERTICAL_BOTTOM => 2,
+        Alignment::VERTICAL_JUSTIFY => 3,
+    ];
+
+    /**
+     * Map to BIFF2-BIFF8 codes for vertical alignment.
+     *
+     * @param string $vAlign
+     *
+     * @return int
+     */
+    private static function mapVAlign($vAlign)
+    {
+        if (isset(self::$mapVAlignments[$vAlign])) {
+            return self::$mapVAlignments[$vAlign];
+        }
+
+        return 2;
+    }
+
+    /**
+     * Map to BIFF8 codes for text rotation angle.
+     *
+     * @param int $textRotation
+     *
+     * @return int
+     */
+    private static function mapTextRotation($textRotation)
+    {
+        if ($textRotation >= 0) {
+            return $textRotation;
+        } elseif ($textRotation == -165) {
+            return 255;
+        } elseif ($textRotation < 0) {
+            return 90 - $textRotation;
+        }
+    }
+
+    /**
+     * Map locked.
+     *
+     * @param string $locked
+     *
+     * @return int
+     */
+    private static function mapLocked($locked)
+    {
+        switch ($locked) {
+            case Protection::PROTECTION_INHERIT:
+                return 1;
+            case Protection::PROTECTION_PROTECTED:
+                return 1;
+            case Protection::PROTECTION_UNPROTECTED:
+                return 0;
+            default:
+                return 1;
+        }
+    }
+
+    /**
+     * Map hidden.
+     *
+     * @param string $hidden
+     *
+     * @return int
+     */
+    private static function mapHidden($hidden)
+    {
+        switch ($hidden) {
+            case Protection::PROTECTION_INHERIT:
+                return 0;
+            case Protection::PROTECTION_PROTECTED:
+                return 1;
+            case Protection::PROTECTION_UNPROTECTED:
+                return 0;
+            default:
+                return 0;
+        }
+    }
+}

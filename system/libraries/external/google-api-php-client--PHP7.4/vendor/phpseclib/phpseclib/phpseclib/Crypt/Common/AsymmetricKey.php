@@ -1,254 +1,619 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-EQgV1SZjsAC9ckXcu/eNEJAyaxLVlaUea/8k+0==
+<?php
+
+/**
+ * Base Class for all asymmetric key ciphers
+ *
+ * PHP version 5
+ *
+ * @category  Crypt
+ * @package   AsymmetricKey
+ * @author    Jim Wigginton <terrafrost@php.net>
+ * @copyright 2016 Jim Wigginton
+ * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      http://phpseclib.sourceforge.net
+ */
+
+namespace phpseclib3\Crypt\Common;
+
+use phpseclib3\Exception\UnsupportedFormatException;
+use phpseclib3\Exception\NoKeyLoadedException;
+use phpseclib3\Math\BigInteger;
+use phpseclib3\Crypt\Hash;
+use phpseclib3\Crypt\RSA;
+use phpseclib3\Crypt\DSA;
+use phpseclib3\Crypt\ECDSA;
+
+/**
+ * Base Class for all asymmetric cipher classes
+ *
+ * @package AsymmetricKey
+ * @author  Jim Wigginton <terrafrost@php.net>
+ */
+abstract class AsymmetricKey
+{
+    /**
+     * Precomputed Zero
+     *
+     * @var \phpseclib3\Math\BigInteger
+     * @access private
+     */
+    protected static $zero;
+
+    /**
+     * Precomputed One
+     *
+     * @var \phpseclib3\Math\BigInteger
+     * @access private
+     */
+    protected static $one;
+
+    /**
+     * Format of the loaded key
+     *
+     * @var string
+     * @access private
+     */
+    protected $format;
+
+    /**
+     * Hash function
+     *
+     * @var \phpseclib3\Crypt\Hash
+     * @access private
+     */
+    protected $hash;
+
+    /**
+     * HMAC function
+     *
+     * @var \phpseclib3\Crypt\Hash
+     * @access private
+     */
+    private $hmac;
+
+    /**
+     * Supported plugins (lower case)
+     *
+     * @see self::initialize_static_variables()
+     * @var array
+     * @access private
+     */
+    private static $plugins = [];
+
+    /**
+     * Invisible plugins
+     *
+     * @see self::initialize_static_variables()
+     * @var array
+     * @access private
+     */
+    private static $invisiblePlugins = [];
+
+    /**
+     * Supported signature formats (lower case)
+     *
+     * @see self::initialize_static_variables()
+     * @var array
+     * @access private
+     */
+    private static $signatureFormats = [];
+
+    /**
+     * Supported signature formats (original case)
+     *
+     * @see self::initialize_static_variables()
+     * @var array
+     * @access private
+     */
+    private static $signatureFileFormats = [];
+
+    /**
+     * Available Engines
+     *
+     * @var boolean[]
+     * @access private
+     */
+    protected static $engines = [];
+
+    /**
+     * Key Comment
+     *
+     * @var null|string
+     * @access private
+     */
+    private $comment;
+
+    /**
+     * The constructor
+     */
+    protected function __construct()
+    {
+        self::initialize_static_variables();
+
+        $this->hash = new Hash('sha256');
+        $this->hmac = new Hash('sha256');
+    }
+
+    /**
+     * Initialize static variables
+     */
+    protected static function initialize_static_variables()
+    {
+        if (!isset(self::$zero)) {
+            self::$zero= new BigInteger(0);
+            self::$one = new BigInteger(1);
+        }
+
+        self::loadPlugins('Keys');
+        if (static::ALGORITHM != 'RSA' && static::ALGORITHM != 'DH') {
+            self::loadPlugins('Signature');
+        }
+    }
+
+    /**
+     * Load the key
+     *
+     * @param string $key
+     * @param string $password optional
+     * @return AsymmetricKey
+     */
+    public static function load($key, $password = false)
+    {
+        self::initialize_static_variables();
+
+        $components = false;
+        foreach (self::$plugins[static::ALGORITHM]['Keys'] as $format) {
+            if (isset(self::$invisiblePlugins[static::ALGORITHM]) && in_array($format, self::$invisiblePlugins[static::ALGORITHM])) {
+                continue;
+            }
+            try {
+                $components = $format::load($key, $password);
+            } catch (\Exception $e) {
+                $components = false;
+            }
+            if ($components !== false) {
+                break;
+            }
+        }
+
+        if ($components === false) {
+            throw new NoKeyLoadedException('Unable to read key');
+        }
+
+        $components['format'] = $format;
+        $comment = isset($components['comment']) ? $components['comment'] : null;
+        $new = static::onLoad($components);
+        $new->format = $format;
+        $new->comment = $comment;
+        return $new instanceof PrivateKey ?
+            $new->withPassword($password) :
+            $new;
+    }
+
+    /**
+     * Loads a private key
+     *
+     * @return PrivateKey
+     * @access public
+     * @param string|array $key
+     * @param string $password optional
+     */
+    public function loadPrivateKey($key, $password = '')
+    {
+        $key = self::load($key, $password);
+        if (!$key instanceof PrivateKey) {
+            throw new NoKeyLoadedException('The key that was loaded was not a private key');
+        }
+        return $key;
+    }
+
+    /**
+     * Loads a public key
+     *
+     * @return PublicKey
+     * @access public
+     * @param string|array $key
+     */
+    public function loadPublicKey($key)
+    {
+        $key = self::load($key);
+        if (!$key instanceof PublicKey) {
+            throw new NoKeyLoadedException('The key that was loaded was not a public key');
+        }
+        return $key;
+    }
+
+    /**
+     * Loads parameters
+     *
+     * @return AsymmetricKey
+     * @access public
+     * @param string|array $key
+     */
+    public function loadParameters($key)
+    {
+        $key = self::load($key);
+        if (!$key instanceof PrivateKey && !$key instanceof PublicKey) {
+            throw new NoKeyLoadedException('The key that was loaded was not a parameter');
+        }
+        return $key;
+    }
+
+    /**
+     * Load the key, assuming a specific format
+     *
+     * @param string $type
+     * @param string $key
+     * @param string $password optional
+     * @return AsymmetricKey
+     */
+    public static function loadFormat($type, $key, $password = false)
+    {
+        self::initialize_static_variables();
+
+        $components = false;
+        $format = strtolower($type);
+        if (isset(self::$plugins[static::ALGORITHM]['Keys'][$format])) {
+            $format = self::$plugins[static::ALGORITHM]['Keys'][$format];
+            $components = $format::load($key, $password);
+        }
+
+        if ($components === false) {
+            throw new NoKeyLoadedException('Unable to read key');
+        }
+
+        $components['format'] = $format;
+
+        $new = static::onLoad($components);
+        $new->format = $format;
+        return $new instanceof PrivateKey ?
+            $new->withPassword($password) :
+            $new;
+    }
+
+    /**
+     * Loads a private key
+     *
+     * @return PrivateKey
+     * @access public
+     * @param string $type
+     * @param string $key
+     * @param string $password optional
+     */
+    public function loadPrivateKeyFormat($type, $key, $password = false)
+    {
+        $key = self::loadFormat($type, $key, $password);
+        if (!$key instanceof PrivateKey) {
+            throw new NoKeyLoadedException('The key that was loaded was not a private key');
+        }
+        return $key;
+    }
+
+    /**
+     * Loads a public key
+     *
+     * @return PublicKey
+     * @access public
+     * @param string $type
+     * @param string $key
+     */
+    public function loadPublicKeyFormat($type, $key)
+    {
+        $key = self::loadFormat($type, $key);
+        if (!$key instanceof PublicKey) {
+            throw new NoKeyLoadedException('The key that was loaded was not a public key');
+        }
+        return $key;
+    }
+
+    /**
+     * Loads parameters
+     *
+     * @return AsymmetricKey
+     * @access public
+     * @param string $type
+     * @param string|array $key
+     */
+    public function loadParametersFormat($type, $key)
+    {
+        $key = self::loadFormat($type, $key);
+        if (!$key instanceof PrivateKey && !$key instanceof PublicKey) {
+            throw new NoKeyLoadedException('The key that was loaded was not a parameter');
+        }
+        return $key;
+    }
+
+    /**
+     * Validate Plugin
+     *
+     * @access private
+     * @param string $format
+     * @param string $type
+     * @param string $method optional
+     * @return mixed
+     */
+    protected static function validatePlugin($format, $type, $method = NULL)
+    {
+        $type = strtolower($type);
+        if (!isset(self::$plugins[static::ALGORITHM][$format][$type])) {
+            throw new UnsupportedFormatException("$type is not a supported format");
+        }
+        $type = self::$plugins[static::ALGORITHM][$format][$type];
+        if (isset($method) && !method_exists($type, $method)) {
+            throw new UnsupportedFormatException("$type does not implement $method");
+        }
+
+        return $type;
+    }
+
+    /**
+     * Load Plugins
+     *
+     * @access private
+     * @param string $format
+     */
+    private static function loadPlugins($format)
+    {
+        if (!isset(self::$plugins[static::ALGORITHM][$format])) {
+            self::$plugins[static::ALGORITHM][$format] = [];
+            foreach (new \DirectoryIterator(__DIR__ . '/../' . static::ALGORITHM . '/Formats/' . $format . '/') as $file) {
+                if ($file->getExtension() != 'php') {
+                    continue;
+                }
+                $name = $file->getBasename('.php');
+                if ($name[0] == '.') {
+                    continue;
+                }
+                $type = 'phpseclib3\Crypt\\' . static::ALGORITHM . '\\Formats\\' . $format . '\\' . $name;
+                $reflect = new \ReflectionClass($type);
+                if ($reflect->isTrait()) {
+                    continue;
+                }
+                self::$plugins[static::ALGORITHM][$format][strtolower($name)] = $type;
+                if ($reflect->hasConstant('IS_INVISIBLE')) {
+                    self::$invisiblePlugins[static::ALGORITHM][] = $type;
+                }
+            }
+        }
+    }
+
+    /**
+     * Returns a list of supported formats.
+     *
+     * @access public
+     * @return array
+     */
+    public static function getSupportedKeyFormats()
+    {
+        self::initialize_static_variables();
+
+        return self::$plugins[static::ALGORITHM]['Keys'];
+    }
+
+    /**
+     * Add a fileformat plugin
+     *
+     * The plugin needs to either already be loaded or be auto-loadable.
+     * Loading a plugin whose shortname overwrite an existing shortname will overwrite the old plugin.
+     *
+     * @see self::load()
+     * @param string $fullname
+     * @access public
+     * @return bool
+     */
+    public static function addFileFormat($fullname)
+    {
+        self::initialize_static_variables();
+
+        if (class_exists($fullname)) {
+            $meta = new \ReflectionClass($fullname);
+            $shortname = $meta->getShortName();
+            self::$plugins[static::ALGORITHM]['Keys'][strtolower($shortname)] = $fullname;
+            if ($meta->hasConstant('IS_INVISIBLE')) {
+                self::$invisiblePlugins[static::ALGORITHM] = strtolower($name);
+            }
+        }
+    }
+
+    /**
+     * Returns the format of the loaded key.
+     *
+     * If the key that was loaded wasn't in a valid or if the key was auto-generated
+     * with RSA::createKey() then this will throw an exception.
+     *
+     * @see self::load()
+     * @access public
+     * @return mixed
+     */
+    public function getLoadedFormat()
+    {
+        if (empty($this->format)) {
+            throw new NoKeyLoadedException('This key was created with createKey - it was not loaded with load. Therefore there is no "loaded format"');
+        }
+
+        $meta = new \ReflectionClass($this->format);
+        return $meta->getShortName();
+    }
+
+    /**
+     * Returns the key's comment
+     *
+     * Not all key formats support comments. If you want to set a comment use toString()
+     *
+     * @access public
+     * @return null|string
+     */
+    public function getComment()
+    {
+        return $this->comment;
+    }
+
+    /**
+     * Tests engine validity
+     *
+     * @access public
+     */
+    public static function useBestEngine()
+    {
+        static::$engines = [
+            'PHP' => true,
+            'OpenSSL' => extension_loaded('openssl'),
+            // this test can be satisfied by either of the following:
+            // http://php.net/manual/en/book.sodium.php
+            // https://github.com/paragonie/sodium_compat
+            'libsodium' => function_exists('sodium_crypto_sign_keypair')
+        ];
+
+        return static::$engines;
+    }
+
+    /**
+     * Flag to use internal engine only (useful for unit testing)
+     *
+     * @access public
+     */
+    public static function useInternalEngine()
+    {
+        static::$engines = [
+            'PHP' => true,
+            'OpenSSL' => false,
+            'libsodium' => false
+        ];
+    }
+
+    /**
+     * __toString() magic method
+     *
+     * @return string
+     */
+    public function __toString()
+    {
+        return $this->toString('PKCS8');
+    }
+
+    /**
+     * Determines which hashing function should be used
+     *
+     * @access public
+     * @param string $hash
+     */
+    public function withHash($hash)
+    {
+        $new = clone $this;
+
+        $new->hash = new Hash($hash);
+        $new->hmac = new Hash($hash);
+
+        return $new;
+    }
+
+    /**
+     * Returns the hash algorithm currently being used
+     *
+     * @access public
+     */
+    public function getHash()
+    {
+       return clone $this->hash;
+    }
+
+    /**
+     * Compute the pseudorandom k for signature generation,
+     * using the process specified for deterministic DSA.
+     *
+     * @access public
+     * @param string $h1
+     * @return string
+     */
+    protected function computek($h1)
+    {
+        $v = str_repeat("\1", strlen($h1));
+
+        $k = str_repeat("\0", strlen($h1));
+
+        $x = $this->int2octets($this->x);
+        $h1 = $this->bits2octets($h1);
+
+        $this->hmac->setKey($k);
+        $k = $this->hmac->hash($v . "\0" . $x . $h1);
+        $this->hmac->setKey($k);
+        $v = $this->hmac->hash($v);
+        $k = $this->hmac->hash($v . "\1" . $x . $h1);
+        $this->hmac->setKey($k);
+        $v = $this->hmac->hash($v);
+
+        $qlen = $this->q->getLengthInBytes();
+
+        while (true) {
+            $t = '';
+            while (strlen($t) < $qlen) {
+                $v = $this->hmac->hash($v);
+                $t = $t . $v;
+            }
+            $k = $this->bits2int($t);
+
+            if (!$k->equals(self::$zero) && $k->compare($this->q) < 0) {
+                break;
+            }
+            $k = $this->hmac->hash($v . "\0");
+            $this->hmac->setKey($k);
+            $v = $this->hmac->hash($v);
+        }
+
+        return $k;
+    }
+
+    /**
+     * Integer to Octet String
+     *
+     * @access private
+     * @param \phpseclib3\Math\BigInteger $v
+     * @return string
+     */
+    private function int2octets($v)
+    {
+        $out = $v->toBytes();
+        $rolen = $this->q->getLengthInBytes();
+        if (strlen($out) < $rolen) {
+            return str_pad($out, $rolen, "\0", STR_PAD_LEFT);
+        } else if (strlen($out) > $rolen) {
+            return substr($out, -$rolen);
+        } else {
+            return $out;
+        }
+    }
+
+    /**
+     * Bit String to Integer
+     *
+     * @access private
+     * @param string $in
+     * @return \phpseclib3\Math\BigInteger
+     */
+    protected function bits2int($in)
+    {
+        $v = new BigInteger($in, 256);
+        $vlen = strlen($in) << 3;
+        $qlen = $this->q->getLength();
+        if ($vlen > $qlen) {
+            return $v->bitwise_rightShift($vlen - $qlen);
+        }
+        return $v;
+    }
+
+    /**
+     * Bit String to Octet String
+     *
+     * @access private
+     * @param string $in
+     * @return string
+     */
+    private function bits2octets($in)
+    {
+        $z1 = $this->bits2int($in);
+        $z2 = $z1->subtract($this->q);
+        return $z2->compare(self::$zero) < 0 ?
+            $this->int2octets($z1) :
+            $this->int2octets($z2);
+    }
+}

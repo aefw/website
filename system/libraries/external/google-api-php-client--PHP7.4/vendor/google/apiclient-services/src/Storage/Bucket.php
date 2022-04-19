@@ -1,150 +1,363 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Storage;
+
+class Bucket extends \Google\Collection
+{
+  protected $collection_key = 'zoneAffinity';
+  protected $aclType = BucketAccessControl::class;
+  protected $aclDataType = 'array';
+  protected $billingType = BucketBilling::class;
+  protected $billingDataType = '';
+  protected $corsType = BucketCors::class;
+  protected $corsDataType = 'array';
+  public $defaultEventBasedHold;
+  protected $defaultObjectAclType = ObjectAccessControl::class;
+  protected $defaultObjectAclDataType = 'array';
+  protected $encryptionType = BucketEncryption::class;
+  protected $encryptionDataType = '';
+  public $etag;
+  protected $iamConfigurationType = BucketIamConfiguration::class;
+  protected $iamConfigurationDataType = '';
+  public $id;
+  public $kind;
+  public $labels;
+  protected $lifecycleType = BucketLifecycle::class;
+  protected $lifecycleDataType = '';
+  public $location;
+  public $locationType;
+  protected $loggingType = BucketLogging::class;
+  protected $loggingDataType = '';
+  public $metageneration;
+  public $name;
+  protected $ownerType = BucketOwner::class;
+  protected $ownerDataType = '';
+  public $projectNumber;
+  protected $retentionPolicyType = BucketRetentionPolicy::class;
+  protected $retentionPolicyDataType = '';
+  public $satisfiesPZS;
+  public $selfLink;
+  public $storageClass;
+  public $timeCreated;
+  public $updated;
+  protected $versioningType = BucketVersioning::class;
+  protected $versioningDataType = '';
+  protected $websiteType = BucketWebsite::class;
+  protected $websiteDataType = '';
+  public $zoneAffinity;
+
+  /**
+   * @param BucketAccessControl[]
+   */
+  public function setAcl($acl)
+  {
+    $this->acl = $acl;
+  }
+  /**
+   * @return BucketAccessControl[]
+   */
+  public function getAcl()
+  {
+    return $this->acl;
+  }
+  /**
+   * @param BucketBilling
+   */
+  public function setBilling(BucketBilling $billing)
+  {
+    $this->billing = $billing;
+  }
+  /**
+   * @return BucketBilling
+   */
+  public function getBilling()
+  {
+    return $this->billing;
+  }
+  /**
+   * @param BucketCors[]
+   */
+  public function setCors($cors)
+  {
+    $this->cors = $cors;
+  }
+  /**
+   * @return BucketCors[]
+   */
+  public function getCors()
+  {
+    return $this->cors;
+  }
+  public function setDefaultEventBasedHold($defaultEventBasedHold)
+  {
+    $this->defaultEventBasedHold = $defaultEventBasedHold;
+  }
+  public function getDefaultEventBasedHold()
+  {
+    return $this->defaultEventBasedHold;
+  }
+  /**
+   * @param ObjectAccessControl[]
+   */
+  public function setDefaultObjectAcl($defaultObjectAcl)
+  {
+    $this->defaultObjectAcl = $defaultObjectAcl;
+  }
+  /**
+   * @return ObjectAccessControl[]
+   */
+  public function getDefaultObjectAcl()
+  {
+    return $this->defaultObjectAcl;
+  }
+  /**
+   * @param BucketEncryption
+   */
+  public function setEncryption(BucketEncryption $encryption)
+  {
+    $this->encryption = $encryption;
+  }
+  /**
+   * @return BucketEncryption
+   */
+  public function getEncryption()
+  {
+    return $this->encryption;
+  }
+  public function setEtag($etag)
+  {
+    $this->etag = $etag;
+  }
+  public function getEtag()
+  {
+    return $this->etag;
+  }
+  /**
+   * @param BucketIamConfiguration
+   */
+  public function setIamConfiguration(BucketIamConfiguration $iamConfiguration)
+  {
+    $this->iamConfiguration = $iamConfiguration;
+  }
+  /**
+   * @return BucketIamConfiguration
+   */
+  public function getIamConfiguration()
+  {
+    return $this->iamConfiguration;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setLabels($labels)
+  {
+    $this->labels = $labels;
+  }
+  public function getLabels()
+  {
+    return $this->labels;
+  }
+  /**
+   * @param BucketLifecycle
+   */
+  public function setLifecycle(BucketLifecycle $lifecycle)
+  {
+    $this->lifecycle = $lifecycle;
+  }
+  /**
+   * @return BucketLifecycle
+   */
+  public function getLifecycle()
+  {
+    return $this->lifecycle;
+  }
+  public function setLocation($location)
+  {
+    $this->location = $location;
+  }
+  public function getLocation()
+  {
+    return $this->location;
+  }
+  public function setLocationType($locationType)
+  {
+    $this->locationType = $locationType;
+  }
+  public function getLocationType()
+  {
+    return $this->locationType;
+  }
+  /**
+   * @param BucketLogging
+   */
+  public function setLogging(BucketLogging $logging)
+  {
+    $this->logging = $logging;
+  }
+  /**
+   * @return BucketLogging
+   */
+  public function getLogging()
+  {
+    return $this->logging;
+  }
+  public function setMetageneration($metageneration)
+  {
+    $this->metageneration = $metageneration;
+  }
+  public function getMetageneration()
+  {
+    return $this->metageneration;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  /**
+   * @param BucketOwner
+   */
+  public function setOwner(BucketOwner $owner)
+  {
+    $this->owner = $owner;
+  }
+  /**
+   * @return BucketOwner
+   */
+  public function getOwner()
+  {
+    return $this->owner;
+  }
+  public function setProjectNumber($projectNumber)
+  {
+    $this->projectNumber = $projectNumber;
+  }
+  public function getProjectNumber()
+  {
+    return $this->projectNumber;
+  }
+  /**
+   * @param BucketRetentionPolicy
+   */
+  public function setRetentionPolicy(BucketRetentionPolicy $retentionPolicy)
+  {
+    $this->retentionPolicy = $retentionPolicy;
+  }
+  /**
+   * @return BucketRetentionPolicy
+   */
+  public function getRetentionPolicy()
+  {
+    return $this->retentionPolicy;
+  }
+  public function setSatisfiesPZS($satisfiesPZS)
+  {
+    $this->satisfiesPZS = $satisfiesPZS;
+  }
+  public function getSatisfiesPZS()
+  {
+    return $this->satisfiesPZS;
+  }
+  public function setSelfLink($selfLink)
+  {
+    $this->selfLink = $selfLink;
+  }
+  public function getSelfLink()
+  {
+    return $this->selfLink;
+  }
+  public function setStorageClass($storageClass)
+  {
+    $this->storageClass = $storageClass;
+  }
+  public function getStorageClass()
+  {
+    return $this->storageClass;
+  }
+  public function setTimeCreated($timeCreated)
+  {
+    $this->timeCreated = $timeCreated;
+  }
+  public function getTimeCreated()
+  {
+    return $this->timeCreated;
+  }
+  public function setUpdated($updated)
+  {
+    $this->updated = $updated;
+  }
+  public function getUpdated()
+  {
+    return $this->updated;
+  }
+  /**
+   * @param BucketVersioning
+   */
+  public function setVersioning(BucketVersioning $versioning)
+  {
+    $this->versioning = $versioning;
+  }
+  /**
+   * @return BucketVersioning
+   */
+  public function getVersioning()
+  {
+    return $this->versioning;
+  }
+  /**
+   * @param BucketWebsite
+   */
+  public function setWebsite(BucketWebsite $website)
+  {
+    $this->website = $website;
+  }
+  /**
+   * @return BucketWebsite
+   */
+  public function getWebsite()
+  {
+    return $this->website;
+  }
+  public function setZoneAffinity($zoneAffinity)
+  {
+    $this->zoneAffinity = $zoneAffinity;
+  }
+  public function getZoneAffinity()
+  {
+    return $this->zoneAffinity;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Bucket::class, 'Google_Service_Storage_Bucket');

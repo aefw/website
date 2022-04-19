@@ -1,59 +1,114 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPp4MRrwajrEImTlwVGmhCXR/yMGxaEH8Wfh8dLlfKnC1Q+GBKIK8unKHj/uiSYU2fckTgyhy
-POHHeo3UlV0aL/L2NMn62TmZTr/H3BoWmRMeiltTyaPKhjg8goLkgRdXc6v5tJT7M/PwmajaGHQb
-AnRtdzyzJW+R9plrGkDv3YOF7zTEdzBVJFEFEDKHIpXyel5Om/4gldvjBzGqdh+nfMqkCPzMrhPM
-Q82WVbo5/lGNjTPpqCbd4KBl8uUPE02cKUbFyn7oH2paRR3bZfFyL8hOKU9mKourL8IeB86cFae5
-vLNyS8BNLwQOeHfUFaM8r5ldKeUx6I1xzDEKLyiDNAjsChDQ8o0RtvVBUs7k268lmV9lJz5WH3M7
-mFFmQIKhjhAxGs1Hl4jr42FRKdtEcP4wbiPgJ0wr7jiVVVsKSJOQOINRWEh8ZU4JllPZHjHYqy67
-w8oMvJxOx/Oe72BgR0IGhxOCS1tZhjUDK4OwaxIJEk39bfq5g4XCUGwIsaWFap19brWp0kJ/jlj9
-Z3dkYAfNPtnjABxM26vwrYkA609qipfADXJ2Dh1XCNrV1pUrTowwstdu+hw60lzLNKx2xfpqydYm
-p1W2ipbRJOCGQ+s5B1BRl5aoSOsf+6RfLNqI6l13Ux3X9eL7rZSAMLgocFZ4exQ9LhQR1w0bid3U
-ulRVU+hFsik2Yv5swO7YU5DbApMB7c+kBY5bf5CrvmmWAbX1rT1GREpJc5MOSTISDhXXUtAUvBLL
-maZ4j2pHfzLrfq5tx4HNmU43g73zL4dhiJ46fgmd69ZR0oYncim24t4vTdYjlpBz1uvVjVbeqX0L
-8ssSU0RawmaRY91nEFyKW9u6jdYvljXUPNYIe8865Z+U2XIY0e28H+//odnXVd0fUyA7/3djiE0H
-j6uidgw5r2yq8xMg5v90g4K7/Fyvmuz4VdLg8MimLIQ5yy3QRcBvr5k378k8d3EagC9nqPLOSuvG
-wfxEiO+O9XVeDyNAG9l4Rw5Zwj2Lv7301IdsrJXdNmkbqsBJtV8jwqrvxzhaYFI1HCjvxsqCtjHW
-IY3jUMruOisqbKKtthKpI38OEhTSntrYKSl5ysW0/b0/Osb/mgKNlLiQ2scDByI9yQCYutLea6Gj
-U6HKf8fRZtJzKIGz8VUBOgS7gnFYYzsz7v/nRzDSwh4soZ8ZuC16ZjtEy2RhmKc7uvcwjHe3z80m
-UXeZGuVeHPfgtH9cdT0GSHwlz8/qsyHJbqBpYrnZLgAxnrZ8pU6yx09z1yLiGK1EAcc1XtiwnS/k
-qPKCq4/Ie2NUX3Z+Az/J2h7C527O0DJ5CqaAwgfxTv4hUbgbH2nUJHKK2e5tsZirk21uoE6UYQZn
-3/jiWxPO0dBZLlyTcKEoLVDjG+h+Nfz0jssMYrAMT8HUZ08vxDb1pawK66AIBYNA3Pe2UT6qsFOa
-bD8tQ7+NwHTT5sgnbAw3iKq0RH8CLF+Ibi91ORE1sA9oHwy/ia20HGExIcR5qFJG4jeoJBguYtCd
-kzhkfy+PMbZeYABV3ISnbPAJA3zbcFXMB3DSjNu2INMJVuR9evFbhr0Z4HfNUt7eeWFf4kTR8uJa
-4H5tBGEo2xTzvUcD4vfrbJZTjRFz/pkYmzRAb8G4OxmhJyN6PD7FNgofAAv2h0oRP/UdjJ8t8IZ9
-qgmObjitlbKPfypcESc2iJV0ILmrlMWvZz9MJes4itZTcpFCrNnn/sXdnQ618INqtfgA9sv7DJVo
-ufT5bybBu4XeOHwCISbhsVTgmmTKlLk+aVRsg79vMlXX+gYZlh2xR3EkW8tig6qo3fZukcJRASNN
-TTxwp1vq48ize3+o1Uk7hx3344C+WZMCFGkjDFlYp/Tn2QiHFaDbkuP2rMZIL/+Xi79HkH7iZxpx
-YpeOiYsegbx6WUJsBLG7euWIv+UojzMf4gyjiJju/w1ZZjWYsdA9sfHsmhFpyGth8zO4cMIhHCGD
-k5ZNhaCjfBe36SXI1m9ScuQmnEU1/VfyJxAW1MtLWzM2fUdifw5v6YrUVaSLr7Y735S20umPTeaF
-ZLXf9LuWl6hA2n1Ul3VTRSoOM1phSZRZ3s9dL/a89Rg5VtrJvuxDVWoGHXocWX6/gEkCu9sttdXM
-WpASy1A2C1EDUmZtxgPXv1vUVxkVV/o5MdjRB9sTbWlZrYHswW/ysGj523Vl1LyC8f1O2p9cjk/t
-hQbBMoJAlFcAofKHviJnFdkx3AOMdnU09xq/xj+K16mm3io5cTY2yyEHAyR0EeiN15BEENUzkb0K
-/NRrpCR/j/cPqXQ8kyPYQNhiUF65CwXb9Tw9P2NVAg0FEI0WAgLV/2wQklW8yi1gpnSKMrlHOOha
-/zEaJ6AqtVGblQflkw7AeTI+X8Hz6bRegiVKxnwOdqb8yoJU8yVCtYxa7Yb44snUQWVd8U11vGO3
-Yfag1Xi2IXjTi8eMC3uqmRiaQ6QJ9g4YbLROQxDJSGOc1nViKHSPfLPGaifgGJ9kBLQbHJbjMVBb
-LmNOu30Ip3B6CyJawni9tp3WCv3CE2eKoKbl7GqDPQviaNsy2yqMnUy8ahKSvg1aHDa9f347maSY
-BNYeLMa/ToMO7qM690lJ9tPzs62HsY1pAtcHj+Ane2fCBYnicTxKaQC0sFGRSBIFL666Si91z2rz
-e9vFW2dkD12bGL4avHkxeF2Hd0SoofhDT7wW5BJC5NhVvzn3SnmF5ne0iNfmuOWcfO/Qtp2PXhnb
-SSEQPWW16JdrfVsyP7dee23DX5xjfwPzdG8MVSLPDhK2/pBeQMg+6kqHy2C5mfijOEA9bN5h4gOH
-90Pk9RF9nXbNxfp76BCvEsfYpD1p9PFuUkwsUrnztF3dd9WvOzgvpVZUJZNqlIvhwQqSuA9IDP2L
-hOvzp2ZgnV8ZCKrL+PH/fVF3U8WJUyKNXaY19qX01qZkd6iJSWF+w8Lg0dBfD+oNtKqOj1aTH53l
-6khBOB/PPcAgEdXuO7z0zJA3QAzLzdcftQ5HgSidZFhyoVqRjEEtDllHJSl7OrjaAI/wBP/zdm8L
-6E/Hfi4B2WFh1iUcqD3BDZ9qA/DtrM3s26TMiKtBe8UUwxXOn9Q6/6+DD3zLIiXpHA+ibx8nPb9u
-Yle7Obx/aVv9VvQW5uWG7YpkBF8ORMfJQ75GPURZ8Qvc7744JmCO4BHzV1IiS6A05Q/MFcqqdSfX
-jxVPR0gAzGSCX7PRyH8eEPYYzrWA7L8izhAlmo2I0u5RlkKf16Q4XW+m7Ps9FeP7J7SA/S+hK20T
-nR6j73a5k54r2h1efQ5O6sXTlMtR9wbhQkQG8zYZck76iFGEyGSwfw7aGaqL/tBmpxofcMOu4mgv
-f5KuwBUCNmBTbXXATfblUgtQ6Vnk2P+0Yg/okVQpJEwmxj5aCp/t1BwC2KxB9w6z1KyuSpRj7B/v
-09zj345z8env+ZU7qAtqkQt2Pvp9E/ZHn/uY+uh7N62EOmKiHrI7ieCjScMvL2Egcr60IE3Y09di
-zqvi9UPWq6zrOqto8HPDKhEiFr8m5sjeFr5vnUBveTZXFNM32VExWsKFvsce6t66i2HGdD2rfxL9
-lhgzOfLHkRujEhF6EGQoh34wTxodNDkbCNcEunwK1v8mJKy7xFN/5AFCabWwT2utaNfUGmDDjSlI
-86dUj5Ylmi8NlDS1YdvVLcgGaiNWfC3PrBWs3OljydOCwyMmefIeNerCCMKzE9k1DcczF+fSRamt
-ZTyb1kESofiTMeKmL3j4KdATeSbpfXDeR6yjWKzJ2xwknvbxdcp6byrwEbItTQtfNIYudiSxP0GZ
-03LydyB1Sf5zOYlaHXrw5nC1Y7XyvRiHWMEgrOBmQL1RCjjwHpvP5JdFiAEkg8xTTY7PsbmOmBSn
-YeWtsaXT3kd8FVuLp+/a2S3Q+nK7PN+Zie3ZXwZnf/kCP5wqssBJf5kF/NcHMnf/ba7a7Amq/O97
-TRnA1787qi9E+KcxRFezQXvpTMFWOg6uo/1of21K0BJsMpDK
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Spanner\Resource;
+
+use Google\Service\Spanner\ListOperationsResponse;
+use Google\Service\Spanner\Operation;
+use Google\Service\Spanner\SpannerEmpty;
+
+/**
+ * The "operations" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $spannerService = new Google\Service\Spanner(...);
+ *   $operations = $spannerService->operations;
+ *  </code>
+ */
+class ProjectsInstancesBackupsOperations extends \Google\Service\Resource
+{
+  /**
+   * Starts asynchronous cancellation on a long-running operation. The server
+   * makes a best effort to cancel the operation, but success is not guaranteed.
+   * If the server doesn't support this method, it returns
+   * `google.rpc.Code.UNIMPLEMENTED`. Clients can use Operations.GetOperation or
+   * other methods to check whether the cancellation succeeded or whether the
+   * operation completed despite cancellation. On successful cancellation, the
+   * operation is not deleted; instead, it becomes an operation with an
+   * Operation.error value with a google.rpc.Status.code of 1, corresponding to
+   * `Code.CANCELLED`. (operations.cancel)
+   *
+   * @param string $name The name of the operation resource to be cancelled.
+   * @param array $optParams Optional parameters.
+   * @return SpannerEmpty
+   */
+  public function cancel($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('cancel', [$params], SpannerEmpty::class);
+  }
+  /**
+   * Deletes a long-running operation. This method indicates that the client is no
+   * longer interested in the operation result. It does not cancel the operation.
+   * If the server doesn't support this method, it returns
+   * `google.rpc.Code.UNIMPLEMENTED`. (operations.delete)
+   *
+   * @param string $name The name of the operation resource to be deleted.
+   * @param array $optParams Optional parameters.
+   * @return SpannerEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], SpannerEmpty::class);
+  }
+  /**
+   * Gets the latest state of a long-running operation. Clients can use this
+   * method to poll the operation result at intervals as recommended by the API
+   * service. (operations.get)
+   *
+   * @param string $name The name of the operation resource.
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Operation::class);
+  }
+  /**
+   * Lists operations that match the specified filter in the request. If the
+   * server doesn't support this method, it returns `UNIMPLEMENTED`. NOTE: the
+   * `name` binding allows API services to override the binding to use different
+   * resource name schemes, such as `users/operations`. To override the binding,
+   * API services can add a binding such as `"/v1/{name=users}/operations"` to
+   * their service configuration. For backwards compatibility, the default name
+   * includes the operations collection id, however overriding users must ensure
+   * the name binding is the parent resource, without the operations collection
+   * id. (operations.listProjectsInstancesBackupsOperations)
+   *
+   * @param string $name The name of the operation's parent resource.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter The standard list filter.
+   * @opt_param int pageSize The standard list page size.
+   * @opt_param string pageToken The standard list page token.
+   * @return ListOperationsResponse
+   */
+  public function listProjectsInstancesBackupsOperations($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListOperationsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsInstancesBackupsOperations::class, 'Google_Service_Spanner_Resource_ProjectsInstancesBackupsOperations');

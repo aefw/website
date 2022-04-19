@@ -1,181 +1,400 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+/**
+ * Pure-PHP (EC)DH implementation
+ *
+ * PHP version 5
+ *
+ * Here's an example of how to compute a shared secret with this library:
+ * <code>
+ * <?php
+ * include 'vendor/autoload.php';
+ *
+ * $ourPrivate = \phpseclib3\Crypt\DH::createKey();
+ * $secret = DH::computeSecret($ourPrivate, $theirPublic);
+ *
+ * ?>
+ * </code>
+ *
+ * @category  Crypt
+ * @package   DH
+ * @author    Jim Wigginton <terrafrost@php.net>
+ * @copyright 2016 Jim Wigginton
+ * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      http://phpseclib.sourceforge.net
+ */
+
+namespace phpseclib3\Crypt;
+
+use phpseclib3\Exception\NoKeyLoadedException;
+use phpseclib3\Exception\UnsupportedOperationException;
+use phpseclib3\Crypt\Common\AsymmetricKey;
+use phpseclib3\Crypt\DH\PrivateKey;
+use phpseclib3\Crypt\DH\PublicKey;
+use phpseclib3\Crypt\DH\Parameters;
+use phpseclib3\Math\BigInteger;
+
+/**
+ * Pure-PHP (EC)DH implementation
+ *
+ * @package DH
+ * @author  Jim Wigginton <terrafrost@php.net>
+ * @access  public
+ */
+abstract class DH extends AsymmetricKey
+{
+    /**
+     * Algorithm Name
+     *
+     * @var string
+     * @access private
+     */
+    const ALGORITHM = 'DH';
+
+    /**
+     * DH prime
+     *
+     * @var \phpseclib3\Math\BigInteger
+     * @access private
+     */
+    protected $prime;
+
+    /**
+     * DH Base
+     *
+     * Prime divisor of p-1
+     *
+     * @var \phpseclib3\Math\BigInteger
+     * @access private
+     */
+    protected $base;
+
+    /**
+     * Create DH parameters
+     *
+     * This method is a bit polymorphic. It can take any of the following:
+     *  - two BigInteger's (prime and base)
+     *  - an integer representing the size of the prime in bits (the base is assumed to be 2)
+     *  - a string (eg. diffie-hellman-group14-sha1)
+     *
+     * @access public
+     * @return \phpseclib3\Crypt\DH|bool
+     */
+    public static function createParameters(...$args)
+    {
+        $params = new Parameters;
+        if (count($args) == 2 && $args[0] instanceof BigInteger && $args[1] instanceof BigInteger) {
+            //if (!$args[0]->isPrime()) {
+            //    throw new \InvalidArgumentException('The first parameter should be a prime number');
+            //}
+            $params->prime = $args[0];
+            $params->base = $args[1];
+            return $params;
+        } elseif (count($args) == 1 && is_numeric($args[0])) {
+            $params->prime = BigInteger::randomPrime($args[0]);
+            $params->base = new BigInteger(2);
+            return $params;
+        } elseif (count($args) != 1 || !is_string($args[0])) {
+            throw new \InvalidArgumentException('Valid parameters are either: two BigInteger\'s (prime and base), a single integer (the length of the prime; base is assumed to be 2) or a string');
+        }
+        switch ($args[0]) {
+            // see http://tools.ietf.org/html/rfc2409#section-6.2 and
+            // http://tools.ietf.org/html/rfc2412, appendex E
+            case 'diffie-hellman-group1-sha1':
+                $prime = 'FFFFFFFFFFFFFFFFC90FDAA22168C234C4C6628B80DC1CD129024E088A67CC74' .
+                         '020BBEA63B139B22514A08798E3404DDEF9519B3CD3A431B302B0A6DF25F1437' .
+                         '4FE1356D6D51C245E485B576625E7EC6F44C42E9A637ED6B0BFF5CB6F406B7ED' .
+                         'EE386BFB5A899FA5AE9F24117C4B1FE649286651ECE65381FFFFFFFFFFFFFFFF';
+                break;
+            // see http://tools.ietf.org/html/rfc3526#section-3
+            case 'diffie-hellman-group14-sha1': // 2048-bit MODP Group
+            case 'diffie-hellman-group14-sha256':
+                $prime = 'FFFFFFFFFFFFFFFFC90FDAA22168C234C4C6628B80DC1CD129024E088A67CC74' .
+                         '020BBEA63B139B22514A08798E3404DDEF9519B3CD3A431B302B0A6DF25F1437' .
+                         '4FE1356D6D51C245E485B576625E7EC6F44C42E9A637ED6B0BFF5CB6F406B7ED' .
+                         'EE386BFB5A899FA5AE9F24117C4B1FE649286651ECE45B3DC2007CB8A163BF05' .
+                         '98DA48361C55D39A69163FA8FD24CF5F83655D23DCA3AD961C62F356208552BB' .
+                         '9ED529077096966D670C354E4ABC9804F1746C08CA18217C32905E462E36CE3B' .
+                         'E39E772C180E86039B2783A2EC07A28FB5C55DF06F4C52C9DE2BCBF695581718' .
+                         '3995497CEA956AE515D2261898FA051015728E5A8AACAA68FFFFFFFFFFFFFFFF';
+                break;
+            // see https://tools.ietf.org/html/rfc3526#section-4
+            case 'diffie-hellman-group15-sha512': // 3072-bit MODP Group
+                $prime = 'FFFFFFFFFFFFFFFFC90FDAA22168C234C4C6628B80DC1CD129024E088A67CC74' .
+                         '020BBEA63B139B22514A08798E3404DDEF9519B3CD3A431B302B0A6DF25F1437' .
+                         '4FE1356D6D51C245E485B576625E7EC6F44C42E9A637ED6B0BFF5CB6F406B7ED' .
+                         'EE386BFB5A899FA5AE9F24117C4B1FE649286651ECE45B3DC2007CB8A163BF05' .
+                         '98DA48361C55D39A69163FA8FD24CF5F83655D23DCA3AD961C62F356208552BB' .
+                         '9ED529077096966D670C354E4ABC9804F1746C08CA18217C32905E462E36CE3B' .
+                         'E39E772C180E86039B2783A2EC07A28FB5C55DF06F4C52C9DE2BCBF695581718' .
+                         '3995497CEA956AE515D2261898FA051015728E5A8AAAC42DAD33170D04507A33' .
+                         'A85521ABDF1CBA64ECFB850458DBEF0A8AEA71575D060C7DB3970F85A6E1E4C7' .
+                         'ABF5AE8CDB0933D71E8C94E04A25619DCEE3D2261AD2EE6BF12FFA06D98A0864' .
+                         'D87602733EC86A64521F2B18177B200CBBE117577A615D6C770988C0BAD946E2' .
+                         '08E24FA074E5AB3143DB5BFCE0FD108E4B82D120A93AD2CAFFFFFFFFFFFFFFFF';
+                break;
+            // see https://tools.ietf.org/html/rfc3526#section-5
+            case 'diffie-hellman-group16-sha512': // 4096-bit MODP Group
+                $prime = 'FFFFFFFFFFFFFFFFC90FDAA22168C234C4C6628B80DC1CD129024E088A67CC74' .
+                         '020BBEA63B139B22514A08798E3404DDEF9519B3CD3A431B302B0A6DF25F1437' .
+                         '4FE1356D6D51C245E485B576625E7EC6F44C42E9A637ED6B0BFF5CB6F406B7ED' .
+                         'EE386BFB5A899FA5AE9F24117C4B1FE649286651ECE45B3DC2007CB8A163BF05' .
+                         '98DA48361C55D39A69163FA8FD24CF5F83655D23DCA3AD961C62F356208552BB' .
+                         '9ED529077096966D670C354E4ABC9804F1746C08CA18217C32905E462E36CE3B' .
+                         'E39E772C180E86039B2783A2EC07A28FB5C55DF06F4C52C9DE2BCBF695581718' .
+                         '3995497CEA956AE515D2261898FA051015728E5A8AAAC42DAD33170D04507A33' .
+                         'A85521ABDF1CBA64ECFB850458DBEF0A8AEA71575D060C7DB3970F85A6E1E4C7' .
+                         'ABF5AE8CDB0933D71E8C94E04A25619DCEE3D2261AD2EE6BF12FFA06D98A0864' .
+                         'D87602733EC86A64521F2B18177B200CBBE117577A615D6C770988C0BAD946E2' .
+                         '08E24FA074E5AB3143DB5BFCE0FD108E4B82D120A92108011A723C12A787E6D7' .
+                         '88719A10BDBA5B2699C327186AF4E23C1A946834B6150BDA2583E9CA2AD44CE8' .
+                         'DBBBC2DB04DE8EF92E8EFC141FBECAA6287C59474E6BC05D99B2964FA090C3A2' .
+                         '233BA186515BE7ED1F612970CEE2D7AFB81BDD762170481CD0069127D5B05AA9' .
+                         '93B4EA988D8FDDC186FFB7DC90A6C08F4DF435C934063199FFFFFFFFFFFFFFFF';
+                break;
+            // see https://tools.ietf.org/html/rfc3526#section-6
+            case 'diffie-hellman-group17-sha512': // 6144-bit MODP Group
+                $prime = 'FFFFFFFFFFFFFFFFC90FDAA22168C234C4C6628B80DC1CD129024E088A67CC74' .
+                         '020BBEA63B139B22514A08798E3404DDEF9519B3CD3A431B302B0A6DF25F1437' .
+                         '4FE1356D6D51C245E485B576625E7EC6F44C42E9A637ED6B0BFF5CB6F406B7ED' .
+                         'EE386BFB5A899FA5AE9F24117C4B1FE649286651ECE45B3DC2007CB8A163BF05' .
+                         '98DA48361C55D39A69163FA8FD24CF5F83655D23DCA3AD961C62F356208552BB' .
+                         '9ED529077096966D670C354E4ABC9804F1746C08CA18217C32905E462E36CE3B' .
+                         'E39E772C180E86039B2783A2EC07A28FB5C55DF06F4C52C9DE2BCBF695581718' .
+                         '3995497CEA956AE515D2261898FA051015728E5A8AAAC42DAD33170D04507A33' .
+                         'A85521ABDF1CBA64ECFB850458DBEF0A8AEA71575D060C7DB3970F85A6E1E4C7' .
+                         'ABF5AE8CDB0933D71E8C94E04A25619DCEE3D2261AD2EE6BF12FFA06D98A0864' .
+                         'D87602733EC86A64521F2B18177B200CBBE117577A615D6C770988C0BAD946E2' .
+                         '08E24FA074E5AB3143DB5BFCE0FD108E4B82D120A92108011A723C12A787E6D7' .
+                         '88719A10BDBA5B2699C327186AF4E23C1A946834B6150BDA2583E9CA2AD44CE8' .
+                         'DBBBC2DB04DE8EF92E8EFC141FBECAA6287C59474E6BC05D99B2964FA090C3A2' .
+                         '233BA186515BE7ED1F612970CEE2D7AFB81BDD762170481CD0069127D5B05AA9' .
+                         '93B4EA988D8FDDC186FFB7DC90A6C08F4DF435C93402849236C3FAB4D27C7026' .
+                         'C1D4DCB2602646DEC9751E763DBA37BDF8FF9406AD9E530EE5DB382F413001AE' .
+                         'B06A53ED9027D831179727B0865A8918DA3EDBEBCF9B14ED44CE6CBACED4BB1B' .
+                         'DB7F1447E6CC254B332051512BD7AF426FB8F401378CD2BF5983CA01C64B92EC' .
+                         'F032EA15D1721D03F482D7CE6E74FEF6D55E702F46980C82B5A84031900B1C9E' .
+                         '59E7C97FBEC7E8F323A97A7E36CC88BE0F1D45B7FF585AC54BD407B22B4154AA' .
+                         'CC8F6D7EBF48E1D814CC5ED20F8037E0A79715EEF29BE32806A1D58BB7C5DA76' .
+                         'F550AA3D8A1FBFF0EB19CCB1A313D55CDA56C9EC2EF29632387FE8D76E3C0468' .
+                         '043E8F663F4860EE12BF2D5B0B7474D6E694F91E6DCC4024FFFFFFFFFFFFFFFF';
+                break;
+            // see https://tools.ietf.org/html/rfc3526#section-7
+            case 'diffie-hellman-group18-sha512': // 8192-bit MODP Group
+                $prime = 'FFFFFFFFFFFFFFFFC90FDAA22168C234C4C6628B80DC1CD129024E088A67CC74' .
+                         '020BBEA63B139B22514A08798E3404DDEF9519B3CD3A431B302B0A6DF25F1437' .
+                         '4FE1356D6D51C245E485B576625E7EC6F44C42E9A637ED6B0BFF5CB6F406B7ED' .
+                         'EE386BFB5A899FA5AE9F24117C4B1FE649286651ECE45B3DC2007CB8A163BF05' .
+                         '98DA48361C55D39A69163FA8FD24CF5F83655D23DCA3AD961C62F356208552BB' .
+                         '9ED529077096966D670C354E4ABC9804F1746C08CA18217C32905E462E36CE3B' .
+                         'E39E772C180E86039B2783A2EC07A28FB5C55DF06F4C52C9DE2BCBF695581718' .
+                         '3995497CEA956AE515D2261898FA051015728E5A8AAAC42DAD33170D04507A33' .
+                         'A85521ABDF1CBA64ECFB850458DBEF0A8AEA71575D060C7DB3970F85A6E1E4C7' .
+                         'ABF5AE8CDB0933D71E8C94E04A25619DCEE3D2261AD2EE6BF12FFA06D98A0864' .
+                         'D87602733EC86A64521F2B18177B200CBBE117577A615D6C770988C0BAD946E2' .
+                         '08E24FA074E5AB3143DB5BFCE0FD108E4B82D120A92108011A723C12A787E6D7' .
+                         '88719A10BDBA5B2699C327186AF4E23C1A946834B6150BDA2583E9CA2AD44CE8' .
+                         'DBBBC2DB04DE8EF92E8EFC141FBECAA6287C59474E6BC05D99B2964FA090C3A2' .
+                         '233BA186515BE7ED1F612970CEE2D7AFB81BDD762170481CD0069127D5B05AA9' .
+                         '93B4EA988D8FDDC186FFB7DC90A6C08F4DF435C93402849236C3FAB4D27C7026' .
+                         'C1D4DCB2602646DEC9751E763DBA37BDF8FF9406AD9E530EE5DB382F413001AE' .
+                         'B06A53ED9027D831179727B0865A8918DA3EDBEBCF9B14ED44CE6CBACED4BB1B' .
+                         'DB7F1447E6CC254B332051512BD7AF426FB8F401378CD2BF5983CA01C64B92EC' .
+                         'F032EA15D1721D03F482D7CE6E74FEF6D55E702F46980C82B5A84031900B1C9E' .
+                         '59E7C97FBEC7E8F323A97A7E36CC88BE0F1D45B7FF585AC54BD407B22B4154AA' .
+                         'CC8F6D7EBF48E1D814CC5ED20F8037E0A79715EEF29BE32806A1D58BB7C5DA76' .
+                         'F550AA3D8A1FBFF0EB19CCB1A313D55CDA56C9EC2EF29632387FE8D76E3C0468' .
+                         '043E8F663F4860EE12BF2D5B0B7474D6E694F91E6DBE115974A3926F12FEE5E4' .
+                         '38777CB6A932DF8CD8BEC4D073B931BA3BC832B68D9DD300741FA7BF8AFC47ED' .
+                         '2576F6936BA424663AAB639C5AE4F5683423B4742BF1C978238F16CBE39D652D' .
+                         'E3FDB8BEFC848AD922222E04A4037C0713EB57A81A23F0C73473FC646CEA306B' .
+                         '4BCBC8862F8385DDFA9D4B7FA2C087E879683303ED5BDD3A062B3CF5B3A278A6' .
+                         '6D2A13F83F44F82DDF310EE074AB6A364597E899A0255DC164F31CC50846851D' .
+                         'F9AB48195DED7EA1B1D510BD7EE74D73FAF36BC31ECFA268359046F4EB879F92' .
+                         '4009438B481C6CD7889A002ED5EE382BC9190DA6FC026E479558E4475677E9AA' .
+                         '9E3050E2765694DFC81F56E880B96E7160C980DD98EDD3DFFFFFFFFFFFFFFFFF';
+                break;
+            default:
+                throw new \InvalidArgumentException('Invalid named prime provided');
+        }
+
+        $params->prime = new BigInteger($prime, 16);
+        $params->base = new BigInteger(2);
+
+        return $params;
+    }
+
+    /**
+     * Create public / private key pair.
+     *
+     * The rationale for the second parameter is described in http://tools.ietf.org/html/rfc4419#section-6.2 :
+     *
+     * "To increase the speed of the key exchange, both client and server may
+     *  reduce the size of their private exponents.  It should be at least
+     *  twice as long as the key material that is generated from the shared
+     *  secret.  For more details, see the paper by van Oorschot and Wiener
+     *  [VAN-OORSCHOT]."
+     *
+     * $length is in bits
+     *
+     * @param Parameters $params
+     * @param int $length optional
+     * @access public
+     * @return DH\PrivateKey
+     */
+    public static function createKey(Parameters $params, $length = 0)
+    {
+        $one = new BigInteger(1);
+        if ($length) {
+            $max = $one->bitwise_leftShift($length);
+            $max = $max->subtract($one);
+        } else {
+            $max = $params->prime->subtract($one);
+        }
+
+        $key = new PrivateKey;
+        $key->prime = $params->prime;
+        $key->base = $params->base;
+        $key->privateKey = BigInteger::randomRange($one, $max);
+        $key->publicKey = $key->base->powMod($key->privateKey, $key->prime);
+        return $key;
+    }
+
+    /**
+     * Compute Shared Secret
+     *
+     * @param PrivateKey|EC $private
+     * @param PublicKey|BigInteger|string $public
+     * @access public
+     * @return mixed
+     */
+    public static function computeSecret($private, $public)
+    {
+        if ($private instanceof PrivateKey) { // DH\PrivateKey
+            switch (true) {
+                case $public instanceof PublicKey:
+                    if (!$private->prime->equals($public->prime) || !$private->base->equals($public->base)) {
+                        throw new \InvalidArgumentException('The public and private key do not share the same prime and / or base numbers');
+                    }
+                    return $public->publicKey->powMod($private->privateKey, $private->prime)->toBytes(true);
+                case is_string($public):
+                    $public = new BigInteger($public, -256);
+                case $public instanceof BigInteger:
+                    return $public->powMod($private->privateKey, $private->prime)->toBytes(true);
+                default:
+                    throw new \InvalidArgumentException('$public needs to be an instance of DH\PublicKey, a BigInteger or a string');
+            }
+        }
+
+        if ($private instanceof EC\PrivateKey) {
+            switch (true) {
+                case $public instanceof EC\PublicKey:
+                    $public = $public->getEncodedCoordinates();
+                case is_string($public):
+                    $point = $private->multiply($public);
+                    switch ($private->getCurve()) {
+                        case 'Curve25519':
+                        case 'Curve448':
+                            $secret = $point;
+                            break;
+                        default:
+                            // according to https://www.secg.org/sec1-v2.pdf#page=33 only X is returned
+                            $secret = substr($point, 1, (strlen($point) - 1) >> 1);
+                    }
+                    /*
+                    if (($secret[0] & "\x80") === "\x80") {
+                        $secret = "\0$secret";
+                    }
+                    */
+                    return $secret;
+                default:
+                    throw new \InvalidArgumentException('$public needs to be an instance of EC\PublicKey or a string (an encoded coordinate)');
+            }
+        }
+    }
+
+    /**
+     * Load the key
+     *
+     * @param string $key
+     * @param string $password optional
+     * @return AsymmetricKey
+     */
+    public static function load($key, $password = false)
+    {
+        try {
+            return EC::load($key, $password);
+        } catch (NoKeyLoadedException $e) {}
+
+        return parent::load($key, $password);
+    }
+
+    /**
+     * OnLoad Handler
+     *
+     * @return bool
+     * @access protected
+     * @param array $components
+     */
+    protected static function onLoad($components)
+    {
+        if (!isset($components['privateKey']) && !isset($components['publicKey'])) {
+            $new = new Parameters;
+        } else {
+            $new = isset($components['privateKey']) ?
+                new PrivateKey :
+                new PublicKey;
+        }
+
+        $new->prime = $components['prime'];
+        $new->base = $components['base'];
+
+        if (isset($components['privateKey'])) {
+            $new->privateKey = $components['privateKey'];
+        }
+        if (isset($components['publicKey'])) {
+            $new->publicKey = $components['publicKey'];
+        }
+
+        return $new;
+    }
+
+    /**
+     * Determines which hashing function should be used
+     *
+     * @access public
+     * @param string $hash
+     */
+    public function withHash($hash)
+    {
+        throw new UnsupportedOperationException('DH does not use a hash algorithm');
+    }
+
+    /**
+     * Returns the hash algorithm currently being used
+     *
+     * @access public
+     */
+    public function getHash()
+    {
+        throw new UnsupportedOperationException('DH does not use a hash algorithm');
+    }
+
+    /**
+     * Returns the parameters
+     *
+     * A public / private key is only returned if the currently loaded "key" contains an x or y
+     * value.
+     *
+     * @see self::getPublicKey()
+     * @access public
+     * @return mixed
+     */
+    public function getParameters()
+    {
+        $type = self::validatePlugin('Keys', 'PKCS1', 'saveParameters');
+
+        $key = $type::saveParameters($this->prime, $this->base);
+        return self::load($key, 'PKCS1');
+    }
+}

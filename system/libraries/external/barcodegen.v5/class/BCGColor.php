@@ -1,81 +1,154 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
+<?php
+/**
+ *--------------------------------------------------------------------
+ *
+ * Holds Color in RGB Format.
+ *
+ *--------------------------------------------------------------------
+ * Copyright (C) Jean-Sebastien Goupil
+ * http://www.barcodephp.com
+ */
+class BCGColor {
+    protected $r, $g, $b;    // int Hexadecimal Value
+    protected $transparent;
+
+    /**
+     * Save RGB value into the classes.
+     *
+     * There are 4 way to associate color with this classes :
+     *  1. Gives 3 parameters int (R, G, B)
+     *  2. Gives 1 parameter string hex value (#ff0000) (preceding with #)
+     *  3. Gives 1 parameter int hex value (0xff0000)
+     *  4. Gives 1 parameter string color code (white, black, orange...)
+     *
+     * @param mixed ...
+     */
+    public function __construct() {
+        $args = func_get_args();
+        $c = count($args);
+        if ($c === 3) {
+            $this->r = intval($args[0]);
+            $this->g = intval($args[1]);
+            $this->b = intval($args[2]);
+        } elseif ($c === 1) {
+            if (is_string($args[0]) && strlen($args[0]) === 7 && $args[0]{0} === '#') {        // Hex Value in String
+                $this->r = intval(substr($args[0], 1, 2), 16);
+                $this->g = intval(substr($args[0], 3, 2), 16);
+                $this->b = intval(substr($args[0], 5, 2), 16);
+            } else {
+                if (is_string($args[0])) {
+                    $args[0] = self::getColor($args[0]);
+                }
+
+                $args[0] = intval($args[0]);
+                $this->r = ($args[0] & 0xff0000) >> 16;
+                $this->g = ($args[0] & 0x00ff00) >> 8;
+                $this->b = ($args[0] & 0x0000ff);
+            }
+        } else {
+            $this->r = $this->g = $this->b = 0;
+        }
+    }
+
+    /**
+     * Sets the color transparent.
+     *
+     * @param bool $transparent
+     */
+    public function setTransparent($transparent) {
+        $this->transparent = $transparent;
+    }
+
+    /**
+     * Returns Red Color.
+     *
+     * @return int
+     */
+    public function r() {
+        return $this->r;
+    }
+
+    /**
+     * Returns Green Color.
+     *
+     * @return int
+     */
+    public function g() {
+        return $this->g;
+    }
+
+    /**
+     * Returns Blue Color.
+     *
+     * @return int
+     */
+    public function b() {
+        return $this->b;
+    }
+
+    /**
+     * Returns the int value for PHP color.
+     *
+     * @param resource $im
+     * @return int
+     */
+    public function allocate(&$im) {
+        $allocated = imagecolorallocate($im, $this->r, $this->g, $this->b);
+        if ($this->transparent) {
+            return imagecolortransparent($im, $allocated);
+        } else {
+            return $allocated;
+        }
+    }
+
+    /**
+     * Returns class of BCGColor depending of the string color.
+     *
+     * If the color doens't exist, it takes the default one.
+     *
+     * @param string $code
+     * @param string $default
+     */
+    public static function getColor($code, $default = 'white') {
+        switch(strtolower($code)) {
+            case '':
+            case 'white':
+                return 0xffffff;
+            case 'black':
+                return 0x000000;
+            case 'maroon':
+                return 0x800000;
+            case 'red':
+                return 0xff0000;
+            case 'orange':
+                return 0xffa500;
+            case 'yellow':
+                return 0xffff00;
+            case 'olive':
+                return 0x808000;
+            case 'purple':
+                return 0x800080;
+            case 'fuchsia':
+                return 0xff00ff;
+            case 'lime':
+                return 0x00ff00;
+            case 'green':
+                return 0x008000;
+            case 'navy':
+                return 0x000080;
+            case 'blue':
+                return 0x0000ff;
+            case 'aqua':
+                return 0x00ffff;
+            case 'teal':
+                return 0x008080;
+            case 'silver':
+                return 0xc0c0c0;
+            case 'gray':
+                return 0x808080;
+            default:
+                return self::getColor($default, 'white');
+        }
+    }
+}
 ?>
-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

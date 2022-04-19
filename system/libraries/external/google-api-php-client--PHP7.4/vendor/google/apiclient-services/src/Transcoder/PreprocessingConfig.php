@@ -1,64 +1,122 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-oa3RgvVHFSq=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Transcoder;
+
+class PreprocessingConfig extends \Google\Model
+{
+  protected $audioType = Audio::class;
+  protected $audioDataType = '';
+  protected $colorType = Color::class;
+  protected $colorDataType = '';
+  protected $cropType = Crop::class;
+  protected $cropDataType = '';
+  protected $deblockType = Deblock::class;
+  protected $deblockDataType = '';
+  protected $denoiseType = Denoise::class;
+  protected $denoiseDataType = '';
+  protected $padType = Pad::class;
+  protected $padDataType = '';
+
+  /**
+   * @param Audio
+   */
+  public function setAudio(Audio $audio)
+  {
+    $this->audio = $audio;
+  }
+  /**
+   * @return Audio
+   */
+  public function getAudio()
+  {
+    return $this->audio;
+  }
+  /**
+   * @param Color
+   */
+  public function setColor(Color $color)
+  {
+    $this->color = $color;
+  }
+  /**
+   * @return Color
+   */
+  public function getColor()
+  {
+    return $this->color;
+  }
+  /**
+   * @param Crop
+   */
+  public function setCrop(Crop $crop)
+  {
+    $this->crop = $crop;
+  }
+  /**
+   * @return Crop
+   */
+  public function getCrop()
+  {
+    return $this->crop;
+  }
+  /**
+   * @param Deblock
+   */
+  public function setDeblock(Deblock $deblock)
+  {
+    $this->deblock = $deblock;
+  }
+  /**
+   * @return Deblock
+   */
+  public function getDeblock()
+  {
+    return $this->deblock;
+  }
+  /**
+   * @param Denoise
+   */
+  public function setDenoise(Denoise $denoise)
+  {
+    $this->denoise = $denoise;
+  }
+  /**
+   * @return Denoise
+   */
+  public function getDenoise()
+  {
+    return $this->denoise;
+  }
+  /**
+   * @param Pad
+   */
+  public function setPad(Pad $pad)
+  {
+    $this->pad = $pad;
+  }
+  /**
+   * @return Pad
+   */
+  public function getPad()
+  {
+    return $this->pad;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PreprocessingConfig::class, 'Google_Service_Transcoder_PreprocessingConfig');

@@ -1,70 +1,135 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-ReYaym==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudTalentSolution\Resource;
+
+use Google\Service\CloudTalentSolution\Company;
+use Google\Service\CloudTalentSolution\JobsEmpty;
+use Google\Service\CloudTalentSolution\ListCompaniesResponse;
+
+/**
+ * The "companies" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $jobsService = new Google\Service\CloudTalentSolution(...);
+ *   $companies = $jobsService->companies;
+ *  </code>
+ */
+class ProjectsTenantsCompanies extends \Google\Service\Resource
+{
+  /**
+   * Creates a new company entity. (companies.create)
+   *
+   * @param string $parent Required. Resource name of the tenant under which the
+   * company is created. The format is
+   * "projects/{project_id}/tenants/{tenant_id}", for example,
+   * "projects/foo/tenants/bar".
+   * @param Company $postBody
+   * @param array $optParams Optional parameters.
+   * @return Company
+   */
+  public function create($parent, Company $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Company::class);
+  }
+  /**
+   * Deletes specified company. Prerequisite: The company has no jobs associated
+   * with it. (companies.delete)
+   *
+   * @param string $name Required. The resource name of the company to be deleted.
+   * The format is
+   * "projects/{project_id}/tenants/{tenant_id}/companies/{company_id}", for
+   * example, "projects/foo/tenants/bar/companies/baz".
+   * @param array $optParams Optional parameters.
+   * @return JobsEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], JobsEmpty::class);
+  }
+  /**
+   * Retrieves specified company. (companies.get)
+   *
+   * @param string $name Required. The resource name of the company to be
+   * retrieved. The format is
+   * "projects/{project_id}/tenants/{tenant_id}/companies/{company_id}", for
+   * example, "projects/api-test-project/tenants/foo/companies/bar".
+   * @param array $optParams Optional parameters.
+   * @return Company
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Company::class);
+  }
+  /**
+   * Lists all companies associated with the project.
+   * (companies.listProjectsTenantsCompanies)
+   *
+   * @param string $parent Required. Resource name of the tenant under which the
+   * company is created. The format is
+   * "projects/{project_id}/tenants/{tenant_id}", for example,
+   * "projects/foo/tenants/bar".
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The maximum number of companies to be returned, at
+   * most 100. Default is 100 if a non-positive number is provided.
+   * @opt_param string pageToken The starting indicator from which to return
+   * results.
+   * @opt_param bool requireOpenJobs Set to true if the companies requested must
+   * have open jobs. Defaults to false. If true, at most page_size of companies
+   * are fetched, among which only those with open jobs are returned.
+   * @return ListCompaniesResponse
+   */
+  public function listProjectsTenantsCompanies($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListCompaniesResponse::class);
+  }
+  /**
+   * Updates specified company. (companies.patch)
+   *
+   * @param string $name Required during company update. The resource name for a
+   * company. This is generated by the service when a company is created. The
+   * format is "projects/{project_id}/tenants/{tenant_id}/companies/{company_id}",
+   * for example, "projects/foo/tenants/bar/companies/baz".
+   * @param Company $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Strongly recommended for the best service
+   * experience. If update_mask is provided, only the specified fields in company
+   * are updated. Otherwise all the fields are updated. A field mask to specify
+   * the company fields to be updated. Only top level fields of Company are
+   * supported.
+   * @return Company
+   */
+  public function patch($name, Company $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Company::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsTenantsCompanies::class, 'Google_Service_CloudTalentSolution_Resource_ProjectsTenantsCompanies');

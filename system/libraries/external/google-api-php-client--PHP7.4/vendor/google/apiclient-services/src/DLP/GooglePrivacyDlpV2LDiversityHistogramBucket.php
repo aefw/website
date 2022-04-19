@@ -1,62 +1,79 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DLP;
+
+class GooglePrivacyDlpV2LDiversityHistogramBucket extends \Google\Collection
+{
+  protected $collection_key = 'bucketValues';
+  public $bucketSize;
+  public $bucketValueCount;
+  protected $bucketValuesType = GooglePrivacyDlpV2LDiversityEquivalenceClass::class;
+  protected $bucketValuesDataType = 'array';
+  public $sensitiveValueFrequencyLowerBound;
+  public $sensitiveValueFrequencyUpperBound;
+
+  public function setBucketSize($bucketSize)
+  {
+    $this->bucketSize = $bucketSize;
+  }
+  public function getBucketSize()
+  {
+    return $this->bucketSize;
+  }
+  public function setBucketValueCount($bucketValueCount)
+  {
+    $this->bucketValueCount = $bucketValueCount;
+  }
+  public function getBucketValueCount()
+  {
+    return $this->bucketValueCount;
+  }
+  /**
+   * @param GooglePrivacyDlpV2LDiversityEquivalenceClass[]
+   */
+  public function setBucketValues($bucketValues)
+  {
+    $this->bucketValues = $bucketValues;
+  }
+  /**
+   * @return GooglePrivacyDlpV2LDiversityEquivalenceClass[]
+   */
+  public function getBucketValues()
+  {
+    return $this->bucketValues;
+  }
+  public function setSensitiveValueFrequencyLowerBound($sensitiveValueFrequencyLowerBound)
+  {
+    $this->sensitiveValueFrequencyLowerBound = $sensitiveValueFrequencyLowerBound;
+  }
+  public function getSensitiveValueFrequencyLowerBound()
+  {
+    return $this->sensitiveValueFrequencyLowerBound;
+  }
+  public function setSensitiveValueFrequencyUpperBound($sensitiveValueFrequencyUpperBound)
+  {
+    $this->sensitiveValueFrequencyUpperBound = $sensitiveValueFrequencyUpperBound;
+  }
+  public function getSensitiveValueFrequencyUpperBound()
+  {
+    return $this->sensitiveValueFrequencyUpperBound;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GooglePrivacyDlpV2LDiversityHistogramBucket::class, 'Google_Service_DLP_GooglePrivacyDlpV2LDiversityHistogramBucket');

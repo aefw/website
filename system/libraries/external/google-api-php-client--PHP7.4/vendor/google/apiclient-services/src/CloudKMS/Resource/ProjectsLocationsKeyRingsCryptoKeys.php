@@ -1,95 +1,243 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Ct2BAl229se+/bELcxd1nRgcLhuc
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudKMS\Resource;
+
+use Google\Service\CloudKMS\CryptoKey;
+use Google\Service\CloudKMS\DecryptRequest;
+use Google\Service\CloudKMS\DecryptResponse;
+use Google\Service\CloudKMS\EncryptRequest;
+use Google\Service\CloudKMS\EncryptResponse;
+use Google\Service\CloudKMS\ListCryptoKeysResponse;
+use Google\Service\CloudKMS\Policy;
+use Google\Service\CloudKMS\SetIamPolicyRequest;
+use Google\Service\CloudKMS\TestIamPermissionsRequest;
+use Google\Service\CloudKMS\TestIamPermissionsResponse;
+use Google\Service\CloudKMS\UpdateCryptoKeyPrimaryVersionRequest;
+
+/**
+ * The "cryptoKeys" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $cloudkmsService = new Google\Service\CloudKMS(...);
+ *   $cryptoKeys = $cloudkmsService->cryptoKeys;
+ *  </code>
+ */
+class ProjectsLocationsKeyRingsCryptoKeys extends \Google\Service\Resource
+{
+  /**
+   * Create a new CryptoKey within a KeyRing. CryptoKey.purpose and
+   * CryptoKey.version_template.algorithm are required. (cryptoKeys.create)
+   *
+   * @param string $parent Required. The name of the KeyRing associated with the
+   * CryptoKeys.
+   * @param CryptoKey $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string cryptoKeyId Required. It must be unique within a KeyRing
+   * and match the regular expression `[a-zA-Z0-9_-]{1,63}`
+   * @opt_param bool skipInitialVersionCreation If set to true, the request will
+   * create a CryptoKey without any CryptoKeyVersions. You must manually call
+   * CreateCryptoKeyVersion or ImportCryptoKeyVersion before you can use this
+   * CryptoKey.
+   * @return CryptoKey
+   */
+  public function create($parent, CryptoKey $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], CryptoKey::class);
+  }
+  /**
+   * Decrypts data that was protected by Encrypt. The CryptoKey.purpose must be
+   * ENCRYPT_DECRYPT. (cryptoKeys.decrypt)
+   *
+   * @param string $name Required. The resource name of the CryptoKey to use for
+   * decryption. The server will choose the appropriate version.
+   * @param DecryptRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return DecryptResponse
+   */
+  public function decrypt($name, DecryptRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('decrypt', [$params], DecryptResponse::class);
+  }
+  /**
+   * Encrypts data, so that it can only be recovered by a call to Decrypt. The
+   * CryptoKey.purpose must be ENCRYPT_DECRYPT. (cryptoKeys.encrypt)
+   *
+   * @param string $name Required. The resource name of the CryptoKey or
+   * CryptoKeyVersion to use for encryption. If a CryptoKey is specified, the
+   * server will use its primary version.
+   * @param EncryptRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return EncryptResponse
+   */
+  public function encrypt($name, EncryptRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('encrypt', [$params], EncryptResponse::class);
+  }
+  /**
+   * Returns metadata for a given CryptoKey, as well as its primary
+   * CryptoKeyVersion. (cryptoKeys.get)
+   *
+   * @param string $name Required. The name of the CryptoKey to get.
+   * @param array $optParams Optional parameters.
+   * @return CryptoKey
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], CryptoKey::class);
+  }
+  /**
+   * Gets the access control policy for a resource. Returns an empty policy if the
+   * resource exists and does not have a policy set. (cryptoKeys.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int options.requestedPolicyVersion Optional. The policy format
+   * version to be returned. Valid values are 0, 1, and 3. Requests specifying an
+   * invalid value will be rejected. Requests for policies with any conditional
+   * bindings must specify version 3. Policies without any conditional bindings
+   * may specify any valid value or leave the field unset. To learn which
+   * resources support conditions in their IAM policies, see the [IAM
+   * documentation](https://cloud.google.com/iam/help/conditions/resource-
+   * policies).
+   * @return Policy
+   */
+  public function getIamPolicy($resource, $optParams = [])
+  {
+    $params = ['resource' => $resource];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Lists CryptoKeys. (cryptoKeys.listProjectsLocationsKeyRingsCryptoKeys)
+   *
+   * @param string $parent Required. The resource name of the KeyRing to list, in
+   * the format `projects/locations/keyRings`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Optional. Only include resources that match the
+   * filter in the response. For more information, see [Sorting and filtering list
+   * results](https://cloud.google.com/kms/docs/sorting-and-filtering).
+   * @opt_param string orderBy Optional. Specify how the results should be sorted.
+   * If not specified, the results will be sorted in the default order. For more
+   * information, see [Sorting and filtering list
+   * results](https://cloud.google.com/kms/docs/sorting-and-filtering).
+   * @opt_param int pageSize Optional. Optional limit on the number of CryptoKeys
+   * to include in the response. Further CryptoKeys can subsequently be obtained
+   * by including the ListCryptoKeysResponse.next_page_token in a subsequent
+   * request. If unspecified, the server will pick an appropriate default.
+   * @opt_param string pageToken Optional. Optional pagination token, returned
+   * earlier via ListCryptoKeysResponse.next_page_token.
+   * @opt_param string versionView The fields of the primary version to include in
+   * the response.
+   * @return ListCryptoKeysResponse
+   */
+  public function listProjectsLocationsKeyRingsCryptoKeys($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListCryptoKeysResponse::class);
+  }
+  /**
+   * Update a CryptoKey. (cryptoKeys.patch)
+   *
+   * @param string $name Output only. The resource name for this CryptoKey in the
+   * format `projects/locations/keyRings/cryptoKeys`.
+   * @param CryptoKey $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. List of fields to be updated in this
+   * request.
+   * @return CryptoKey
+   */
+  public function patch($name, CryptoKey $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], CryptoKey::class);
+  }
+  /**
+   * Sets the access control policy on the specified resource. Replaces any
+   * existing policy. Can return `NOT_FOUND`, `INVALID_ARGUMENT`, and
+   * `PERMISSION_DENIED` errors. (cryptoKeys.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource. If the
+   * resource does not exist, this will return an empty set of permissions, not a
+   * `NOT_FOUND` error. Note: This operation is designed to be used for building
+   * permission-aware UIs and command-line tools, not for authorization checking.
+   * This operation may "fail open" without warning.
+   * (cryptoKeys.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+  /**
+   * Update the version of a CryptoKey that will be used in Encrypt. Returns an
+   * error if called on a key whose purpose is not ENCRYPT_DECRYPT.
+   * (cryptoKeys.updatePrimaryVersion)
+   *
+   * @param string $name Required. The resource name of the CryptoKey to update.
+   * @param UpdateCryptoKeyPrimaryVersionRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return CryptoKey
+   */
+  public function updatePrimaryVersion($name, UpdateCryptoKeyPrimaryVersionRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('updatePrimaryVersion', [$params], CryptoKey::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsKeyRingsCryptoKeys::class, 'Google_Service_CloudKMS_Resource_ProjectsLocationsKeyRingsCryptoKeys');

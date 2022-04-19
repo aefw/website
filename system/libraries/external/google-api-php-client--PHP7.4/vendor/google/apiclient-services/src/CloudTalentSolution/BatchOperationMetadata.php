@@ -1,70 +1,98 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-jwE1kX2QYsyp2wVjQz2+4sD2y0==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudTalentSolution;
+
+class BatchOperationMetadata extends \Google\Model
+{
+  public $createTime;
+  public $endTime;
+  public $failureCount;
+  public $state;
+  public $stateDescription;
+  public $successCount;
+  public $totalCount;
+  public $updateTime;
+
+  public function setCreateTime($createTime)
+  {
+    $this->createTime = $createTime;
+  }
+  public function getCreateTime()
+  {
+    return $this->createTime;
+  }
+  public function setEndTime($endTime)
+  {
+    $this->endTime = $endTime;
+  }
+  public function getEndTime()
+  {
+    return $this->endTime;
+  }
+  public function setFailureCount($failureCount)
+  {
+    $this->failureCount = $failureCount;
+  }
+  public function getFailureCount()
+  {
+    return $this->failureCount;
+  }
+  public function setState($state)
+  {
+    $this->state = $state;
+  }
+  public function getState()
+  {
+    return $this->state;
+  }
+  public function setStateDescription($stateDescription)
+  {
+    $this->stateDescription = $stateDescription;
+  }
+  public function getStateDescription()
+  {
+    return $this->stateDescription;
+  }
+  public function setSuccessCount($successCount)
+  {
+    $this->successCount = $successCount;
+  }
+  public function getSuccessCount()
+  {
+    return $this->successCount;
+  }
+  public function setTotalCount($totalCount)
+  {
+    $this->totalCount = $totalCount;
+  }
+  public function getTotalCount()
+  {
+    return $this->totalCount;
+  }
+  public function setUpdateTime($updateTime)
+  {
+    $this->updateTime = $updateTime;
+  }
+  public function getUpdateTime()
+  {
+    return $this->updateTime;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(BatchOperationMetadata::class, 'Google_Service_CloudTalentSolution_BatchOperationMetadata');

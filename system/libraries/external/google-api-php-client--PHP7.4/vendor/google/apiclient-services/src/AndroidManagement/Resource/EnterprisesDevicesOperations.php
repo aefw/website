@@ -1,60 +1,114 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-IFQtv5sVrG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AndroidManagement\Resource;
+
+use Google\Service\AndroidManagement\AndroidmanagementEmpty;
+use Google\Service\AndroidManagement\ListOperationsResponse;
+use Google\Service\AndroidManagement\Operation;
+
+/**
+ * The "operations" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $androidmanagementService = new Google\Service\AndroidManagement(...);
+ *   $operations = $androidmanagementService->operations;
+ *  </code>
+ */
+class EnterprisesDevicesOperations extends \Google\Service\Resource
+{
+  /**
+   * Starts asynchronous cancellation on a long-running operation. The server
+   * makes a best effort to cancel the operation, but success is not guaranteed.
+   * If the server doesn't support this method, it returns
+   * google.rpc.Code.UNIMPLEMENTED. Clients can use Operations.GetOperation or
+   * other methods to check whether the cancellation succeeded or whether the
+   * operation completed despite cancellation. On successful cancellation, the
+   * operation is not deleted; instead, it becomes an operation with an
+   * Operation.error value with a google.rpc.Status.code of 1, corresponding to
+   * Code.CANCELLED. (operations.cancel)
+   *
+   * @param string $name The name of the operation resource to be cancelled.
+   * @param array $optParams Optional parameters.
+   * @return AndroidmanagementEmpty
+   */
+  public function cancel($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('cancel', [$params], AndroidmanagementEmpty::class);
+  }
+  /**
+   * Deletes a long-running operation. This method indicates that the client is no
+   * longer interested in the operation result. It does not cancel the operation.
+   * If the server doesn't support this method, it returns
+   * google.rpc.Code.UNIMPLEMENTED. (operations.delete)
+   *
+   * @param string $name The name of the operation resource to be deleted.
+   * @param array $optParams Optional parameters.
+   * @return AndroidmanagementEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], AndroidmanagementEmpty::class);
+  }
+  /**
+   * Gets the latest state of a long-running operation. Clients can use this
+   * method to poll the operation result at intervals as recommended by the API
+   * service. (operations.get)
+   *
+   * @param string $name The name of the operation resource.
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Operation::class);
+  }
+  /**
+   * Lists operations that match the specified filter in the request. If the
+   * server doesn't support this method, it returns UNIMPLEMENTED.NOTE: the name
+   * binding allows API services to override the binding to use different resource
+   * name schemes, such as users/operations. To override the binding, API services
+   * can add a binding such as "/v1/{name=users}/operations" to their service
+   * configuration. For backwards compatibility, the default name includes the
+   * operations collection id, however overriding users must ensure the name
+   * binding is the parent resource, without the operations collection id.
+   * (operations.listEnterprisesDevicesOperations)
+   *
+   * @param string $name The name of the operation's parent resource.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter The standard list filter.
+   * @opt_param int pageSize The standard list page size.
+   * @opt_param string pageToken The standard list page token.
+   * @return ListOperationsResponse
+   */
+  public function listEnterprisesDevicesOperations($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListOperationsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(EnterprisesDevicesOperations::class, 'Google_Service_AndroidManagement_Resource_EnterprisesDevicesOperations');

@@ -1,74 +1,133 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\GoogleAnalyticsAdmin\Resource;
+
+use Google\Service\GoogleAnalyticsAdmin\GoogleAnalyticsAdminV1alphaListMeasurementProtocolSecretsResponse;
+use Google\Service\GoogleAnalyticsAdmin\GoogleAnalyticsAdminV1alphaMeasurementProtocolSecret;
+use Google\Service\GoogleAnalyticsAdmin\GoogleProtobufEmpty;
+
+/**
+ * The "measurementProtocolSecrets" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $analyticsadminService = new Google\Service\GoogleAnalyticsAdmin(...);
+ *   $measurementProtocolSecrets = $analyticsadminService->measurementProtocolSecrets;
+ *  </code>
+ */
+class PropertiesIosAppDataStreamsMeasurementProtocolSecrets extends \Google\Service\Resource
+{
+  /**
+   * Creates a measurement protocol secret. (measurementProtocolSecrets.create)
+   *
+   * @param string $parent Required. The parent resource where this secret will be
+   * created. Any type of stream (WebDataStream, IosAppDataStream,
+   * AndroidAppDataStream) may be a parent. Format:
+   * properties/{property}/webDataStreams/{webDataStream}
+   * @param GoogleAnalyticsAdminV1alphaMeasurementProtocolSecret $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleAnalyticsAdminV1alphaMeasurementProtocolSecret
+   */
+  public function create($parent, GoogleAnalyticsAdminV1alphaMeasurementProtocolSecret $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleAnalyticsAdminV1alphaMeasurementProtocolSecret::class);
+  }
+  /**
+   * Deletes target MeasurementProtocolSecret. (measurementProtocolSecrets.delete)
+   *
+   * @param string $name Required. The name of the MeasurementProtocolSecret to
+   * delete. Format: properties/{property}/webDataStreams/{webDataStream}/measurem
+   * entProtocolSecrets/{measurementProtocolSecret} Note: Any type of stream
+   * (WebDataStream, IosAppDataStream, AndroidAppDataStream) may be a parent.
+   * @param array $optParams Optional parameters.
+   * @return GoogleProtobufEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
+  }
+  /**
+   * Lookup for a single "GA4" MeasurementProtocolSecret.
+   * (measurementProtocolSecrets.get)
+   *
+   * @param string $name Required. The name of the measurement protocol secret to
+   * lookup. Format: properties/{property}/webDataStreams/{webDataStream}/measurem
+   * entProtocolSecrets/{measurementProtocolSecret} Note: Any type of stream
+   * (WebDataStream, IosAppDataStream, AndroidAppDataStream) may be a parent.
+   * @param array $optParams Optional parameters.
+   * @return GoogleAnalyticsAdminV1alphaMeasurementProtocolSecret
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleAnalyticsAdminV1alphaMeasurementProtocolSecret::class);
+  }
+  /**
+   * Returns child MeasurementProtocolSecrets under the specified parent Property.
+   * (measurementProtocolSecrets.listPropertiesIosAppDataStreamsMeasurementProtoco
+   * lSecrets)
+   *
+   * @param string $parent Required. The resource name of the parent stream. Any
+   * type of stream (WebDataStream, IosAppDataStream, AndroidAppDataStream) may be
+   * a parent. Format: properties/{property}/webDataStreams/{webDataStream}/measur
+   * ementProtocolSecrets
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The maximum number of resources to return. If
+   * unspecified, at most 10 resources will be returned. The maximum value is 10.
+   * Higher values will be coerced to the maximum.
+   * @opt_param string pageToken A page token, received from a previous
+   * `ListMeasurementProtocolSecrets` call. Provide this to retrieve the
+   * subsequent page. When paginating, all other parameters provided to
+   * `ListMeasurementProtocolSecrets` must match the call that provided the page
+   * token.
+   * @return GoogleAnalyticsAdminV1alphaListMeasurementProtocolSecretsResponse
+   */
+  public function listPropertiesIosAppDataStreamsMeasurementProtocolSecrets($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleAnalyticsAdminV1alphaListMeasurementProtocolSecretsResponse::class);
+  }
+  /**
+   * Updates a measurement protocol secret. (measurementProtocolSecrets.patch)
+   *
+   * @param string $name Output only. Resource name of this secret. This secret
+   * may be a child of any type of stream. Format: properties/{property}/webDataSt
+   * reams/{webDataStream}/measurementProtocolSecrets/{measurementProtocolSecret}
+   * @param GoogleAnalyticsAdminV1alphaMeasurementProtocolSecret $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask The list of fields to be updated. Omitted fields
+   * will not be updated.
+   * @return GoogleAnalyticsAdminV1alphaMeasurementProtocolSecret
+   */
+  public function patch($name, GoogleAnalyticsAdminV1alphaMeasurementProtocolSecret $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], GoogleAnalyticsAdminV1alphaMeasurementProtocolSecret::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PropertiesIosAppDataStreamsMeasurementProtocolSecrets::class, 'Google_Service_GoogleAnalyticsAdmin_Resource_PropertiesIosAppDataStreamsMeasurementProtocolSecrets');

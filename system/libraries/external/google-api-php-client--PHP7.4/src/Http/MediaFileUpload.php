@@ -1,178 +1,358 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/**
+ * Copyright 2012 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+namespace Google\Http;
+
+use Google\Client;
+use Google\Http\REST;
+use Google\Exception as GoogleException;
+use GuzzleHttp\Psr7;
+use GuzzleHttp\Psr7\Request;
+use GuzzleHttp\Psr7\Uri;
+use Psr\Http\Message\RequestInterface;
+
+/**
+ * Manage large file uploads, which may be media but can be any type
+ * of sizable data.
+ */
+class MediaFileUpload
+{
+  const UPLOAD_MEDIA_TYPE = 'media';
+  const UPLOAD_MULTIPART_TYPE = 'multipart';
+  const UPLOAD_RESUMABLE_TYPE = 'resumable';
+
+  /** @var string $mimeType */
+  private $mimeType;
+
+  /** @var string $data */
+  private $data;
+
+  /** @var bool $resumable */
+  private $resumable;
+
+  /** @var int $chunkSize */
+  private $chunkSize;
+
+  /** @var int $size */
+  private $size;
+
+  /** @var string $resumeUri */
+  private $resumeUri;
+
+  /** @var int $progress */
+  private $progress;
+
+  /** @var Client */
+  private $client;
+
+  /** @var RequestInterface */
+  private $request;
+
+  /** @var string */
+  private $boundary;
+
+  /**
+   * Result code from last HTTP call
+   * @var int
+   */
+  private $httpResultCode;
+
+  /**
+   * @param Client $client
+   * @param RequestInterface $request
+   * @param string $mimeType
+   * @param string $data The bytes you want to upload.
+   * @param bool $resumable
+   * @param bool $chunkSize File will be uploaded in chunks of this many bytes.
+   * only used if resumable=True
+   */
+  public function __construct(
+      Client $client,
+      RequestInterface $request,
+      $mimeType,
+      $data,
+      $resumable = false,
+      $chunkSize = false
+  ) {
+    $this->client = $client;
+    $this->request = $request;
+    $this->mimeType = $mimeType;
+    $this->data = $data;
+    $this->resumable = $resumable;
+    $this->chunkSize = $chunkSize;
+    $this->progress = 0;
+
+    $this->process();
+  }
+
+  /**
+   * Set the size of the file that is being uploaded.
+   * @param $size - int file size in bytes
+   */
+  public function setFileSize($size)
+  {
+    $this->size = $size;
+  }
+
+  /**
+   * Return the progress on the upload
+   * @return int progress in bytes uploaded.
+   */
+  public function getProgress()
+  {
+    return $this->progress;
+  }
+
+  /**
+   * Send the next part of the file to upload.
+   * @param string|bool $chunk Optional. The next set of bytes to send. If false will
+   * use $data passed at construct time.
+   */
+  public function nextChunk($chunk = false)
+  {
+    $resumeUri = $this->getResumeUri();
+
+    if (false == $chunk) {
+      $chunk = substr($this->data, $this->progress, $this->chunkSize);
+    }
+
+    $lastBytePos = $this->progress + strlen($chunk) - 1;
+    $headers = array(
+      'content-range' => "bytes $this->progress-$lastBytePos/$this->size",
+      'content-length' => strlen($chunk),
+      'expect' => '',
+    );
+
+    $request = new Request(
+        'PUT',
+        $resumeUri,
+        $headers,
+        Psr7\stream_for($chunk)
+    );
+
+    return $this->makePutRequest($request);
+  }
+
+  /**
+   * Return the HTTP result code from the last call made.
+   * @return int code
+   */
+  public function getHttpResultCode()
+  {
+    return $this->httpResultCode;
+  }
+
+  /**
+  * Sends a PUT-Request to google drive and parses the response,
+  * setting the appropiate variables from the response()
+  *
+  * @param RequestInterface $request the Request which will be send
+  *
+  * @return false|mixed false when the upload is unfinished or the decoded http response
+  *
+  */
+  private function makePutRequest(RequestInterface $request)
+  {
+    $response = $this->client->execute($request);
+    $this->httpResultCode = $response->getStatusCode();
+
+    if (308 == $this->httpResultCode) {
+      // Track the amount uploaded.
+      $range = $response->getHeaderLine('range');
+      if ($range) {
+        $range_array = explode('-', $range);
+        $this->progress = $range_array[1] + 1;
+      }
+
+      // Allow for changing upload URLs.
+      $location = $response->getHeaderLine('location');
+      if ($location) {
+        $this->resumeUri = $location;
+      }
+
+      // No problems, but upload not complete.
+      return false;
+    }
+
+    return REST::decodeHttpResponse($response, $this->request);
+  }
+
+  /**
+   * Resume a previously unfinished upload
+   * @param $resumeUri the resume-URI of the unfinished, resumable upload.
+   */
+  public function resume($resumeUri)
+  {
+     $this->resumeUri = $resumeUri;
+     $headers = array(
+       'content-range' => "bytes */$this->size",
+       'content-length' => 0,
+     );
+     $httpRequest = new Request(
+         'PUT',
+         $this->resumeUri,
+         $headers
+     );
+
+     return $this->makePutRequest($httpRequest);
+  }
+
+  /**
+   * @return RequestInterface
+   * @visible for testing
+   */
+  private function process()
+  {
+    $this->transformToUploadUrl();
+    $request = $this->request;
+
+    $postBody = '';
+    $contentType = false;
+
+    $meta = (string) $request->getBody();
+    $meta = is_string($meta) ? json_decode($meta, true) : $meta;
+
+    $uploadType = $this->getUploadType($meta);
+    $request = $request->withUri(
+        Uri::withQueryValue($request->getUri(), 'uploadType', $uploadType)
+    );
+
+    $mimeType = $this->mimeType ?: $request->getHeaderLine('content-type');
+
+    if (self::UPLOAD_RESUMABLE_TYPE == $uploadType) {
+      $contentType = $mimeType;
+      $postBody = is_string($meta) ? $meta : json_encode($meta);
+    } else if (self::UPLOAD_MEDIA_TYPE == $uploadType) {
+      $contentType = $mimeType;
+      $postBody = $this->data;
+    } else if (self::UPLOAD_MULTIPART_TYPE == $uploadType) {
+      // This is a multipart/related upload.
+      $boundary = $this->boundary ?: mt_rand();
+      $boundary = str_replace('"', '', $boundary);
+      $contentType = 'multipart/related; boundary=' . $boundary;
+      $related = "--$boundary\r\n";
+      $related .= "Content-Type: application/json; charset=UTF-8\r\n";
+      $related .= "\r\n" . json_encode($meta) . "\r\n";
+      $related .= "--$boundary\r\n";
+      $related .= "Content-Type: $mimeType\r\n";
+      $related .= "Content-Transfer-Encoding: base64\r\n";
+      $related .= "\r\n" . base64_encode($this->data) . "\r\n";
+      $related .= "--$boundary--";
+      $postBody = $related;
+    }
+
+    $request = $request->withBody(Psr7\stream_for($postBody));
+
+    if (isset($contentType) && $contentType) {
+      $request = $request->withHeader('content-type', $contentType);
+    }
+
+    return $this->request = $request;
+  }
+
+  /**
+   * Valid upload types:
+   * - resumable (UPLOAD_RESUMABLE_TYPE)
+   * - media (UPLOAD_MEDIA_TYPE)
+   * - multipart (UPLOAD_MULTIPART_TYPE)
+   * @param $meta
+   * @return string
+   * @visible for testing
+   */
+  public function getUploadType($meta)
+  {
+    if ($this->resumable) {
+      return self::UPLOAD_RESUMABLE_TYPE;
+    }
+
+    if (false == $meta && $this->data) {
+      return self::UPLOAD_MEDIA_TYPE;
+    }
+
+    return self::UPLOAD_MULTIPART_TYPE;
+  }
+
+  public function getResumeUri()
+  {
+    if (null === $this->resumeUri) {
+      $this->resumeUri = $this->fetchResumeUri();
+    }
+
+    return $this->resumeUri;
+  }
+
+  private function fetchResumeUri()
+  {
+    $body = $this->request->getBody();
+    if ($body) {
+      $headers = array(
+        'content-type' => 'application/json; charset=UTF-8',
+        'content-length' => $body->getSize(),
+        'x-upload-content-type' => $this->mimeType,
+        'x-upload-content-length' => $this->size,
+        'expect' => '',
+      );
+      foreach ($headers as $key => $value) {
+        $this->request = $this->request->withHeader($key, $value);
+      }
+    }
+
+    $response = $this->client->execute($this->request, false);
+    $location = $response->getHeaderLine('location');
+    $code = $response->getStatusCode();
+
+    if (200 == $code && true == $location) {
+      return $location;
+    }
+
+    $message = $code;
+    $body = json_decode((string) $this->request->getBody(), true);
+    if (isset($body['error']['errors'])) {
+      $message .= ': ';
+      foreach ($body['error']['errors'] as $error) {
+        $message .= "{$error['domain']}, {$error['message']};";
+      }
+      $message = rtrim($message, ';');
+    }
+
+    $error = "Failed to start the resumable upload (HTTP {$message})";
+    $this->client->getLogger()->error($error);
+
+    throw new GoogleException($error);
+  }
+
+  private function transformToUploadUrl()
+  {
+    $parts = parse_url((string) $this->request->getUri());
+    if (!isset($parts['path'])) {
+      $parts['path'] = '';
+    }
+    $parts['path'] = '/upload' . $parts['path'];
+    $uri = Uri::fromParts($parts);
+    $this->request = $this->request->withUri($uri);
+  }
+
+  public function setChunkSize($chunkSize)
+  {
+    $this->chunkSize = $chunkSize;
+  }
+
+  public function getRequest()
+  {
+    return $this->request;
+  }
+}

@@ -1,62 +1,101 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPpD9fWXl7Xil1eGpAo7j6Z05tVCNC1HvMuV8OQ9NWyF4M/vFgzg0Vw1Brqr8Nm0t8XLsJpKY
-mZDHenWsQf33tyapOoLc8P4zJB5KTbvjAA0clu++01usCJ5s1h1bMEgvyPx/VwjKKBgejw5PkClS
-zmsGyNhLMFTz9g/XcpR8Bj3DU7/iUE4kJeQL/Im6va04tx+0IVeVXGa9PDLjFUY9K4nqwiB03/4P
-cD/+ib+EjvGOrtFUL+0Ld1uEDaCYE6d6oOHVj/61ot2Z/xZBZ2lGvuw0DU9mKourL8IeB86cFae5
-vLNWQpOzv7SUG1wrVpc8L5hd9Vzy061HxlR00BiAb0l6AW/CVx+5XmDCyViZcJ/joHI+7+fzKSmS
-68MeUaMv4D4pnK7FhB0JOlvjn8Z8If3rk0/qaZQ4inulpphkTV244Rmb/4+e3MKnatL5zij76Kg2
-mp9l/d9xsyxrmtfWJsmBz6ygEXsG1MBrneX/bB0L6mY2JZDBlH3Ff7t1MuEB7q9BkI8RJOFYilvZ
-/KZYfEQryEZ7cM2Wf6SSlXLFU4cF+wumVjvib5Y0vn2Ba5pXeWC+7Nrk0WDZEADDyMTRRSwpRFDs
-oW5r9QF9Ci7Hf6oLpB2jxyDFiT/2n13cHFbADVzhgqcixNdQdbe8jpSpbZ6R7J94Aj2YEYQdwEtn
-SDpCcO8Fq7A0goSpLkr3zHFkq3VB3rFzwA33kivNU8tuWuJrRNeoVVnTK+UTHWSPSH3JZud0CG4h
-e6GwxpMGNKFBj8PYAhU3MAuCM9P0IsyibfwbqB1Re59bcWx9VYvXscsNRkmXQWe2TYrBVf9zN4Hy
-g4r8p4C6doQfeB7Ef6sexMqwP5mlxDMBzqcVL+Zvg3idqt5Bt2w/mtL2BS9b2OtSC2bPywkiokkm
-UoUaMv+hKqCKz0L0SJGFwZyObRIHPDavtjQ3KiqPpFQZUf2TVI/SqY79NaGVYxlrCvuZeqkK49Wd
-yBVll03FnYIswQZPac+3V6jwcHlUKpT1d2r12G2xOi7rbFltAWkHIflOzxEdkmbm1iHi6h2M16m+
-8mzIv+Z8lfn6EUQO7jJhAAPXkOaCoeN+JJJSIaWsnNDefEACgDFcOyP3G+BQzPBz+/kovvDyc63i
-KWCcODMl5mznUf5IZ8gIwoQYW6MCtsGdxXNFiU2nEJt9HkU3fFOFWoZVkC0hOBQcJt6rugMPLfHQ
-wjkEfYWdrVCcmen40Uv/v9ANvsJW6tPg3pYwpiP/yMWOfbiJvxhnkLeHTJfO283HSKE6Kk8ShHyc
-JB4OHRDjDLWdubVcaSph/jG1ob8c8uqndOlVAHO1dEyenvQMPDbNbcp0AiojOd8MdsccOEM6foBU
-/HIHDKjCWTFW2hWmFw+HMPqnI6s0JPVhhGz0IOx+Ve5lbNIoNJ+76QMRJ2R8bmF1u6JaM64YiGfq
-4dY2GoxhJemuTExizVM+fuvXALzVmVML8oSHeRL3ba3fimwzePp0uSnpyg+7v2gX7WO5LAGvxQco
-+9CeY6h7hKWcTVVwaJj+19WNBLvGtj9OhJHIu6IJfGxjVwYrADg758tQ3xvQtXtOQUzpgPBxNaOs
-p8rZQZPZ9BAWGqUXRM4BfnJb1JTLRH87K94kEd9cPlfowkaRXv/b8FEzSAMO4sA/w2A3EjU5/nfj
-w3VwgCxtP2LBilaXXwikfgYZmysw0t02NHl3GStqm6ps58fWIlbw/rF5xdBY4j8Rtqcmw6nG5H3e
-dtXyldJja7OZkRsgkV6AEYdi5BJbo1TUK4Cf3RLlrTk2YuP6QJxhsUvOyeoSZxlmJoQ4xMw7/+Lr
-y99LGDj52Hz1KDMIzZi1kJOn8xWVsNsGW+VWzeozb6yQ3yYM87UOmGr5OhvD4rymvJczEKy72tc0
-TifbG9U71J/czO0KAE8ANyzVUoKrmp629L1H74d7+yRzA4DqfHpyK0GEr/3zv6GgqEap7942dRp7
-aDRgQ75r8rFjmQTzuaYV1tKVBt07+SqKL3sPLDisxvv4WcdwlfsRQWb+QyASoQMk1scb1p71Bqj9
-dPP6LS4ugu2iHsYskpIKPs9w0p73Bcf5BROUiys2T9tmCAcao6cTpgT3uW83qUGFWYFA1PKzyWlP
-ZA1AmXKjXhjcoCpqAKNIK0scyYSFXeoJblWAzuM9XxwiR5MGp/NQjRW32Ujg6TUQ/ViQfBUtof7l
-D7qIwE8bzOMGWlLhjVrLeCl7FuNrLhFb0ZR+7hT9rL9qpuwxuupuwnUs3QgskkcjdXb46MduFd3S
-qdctCPrdGpEm+izrUaWTEjV1TWW5qhY803v8FGVjOqUj8w+eXrIG/9MYV+WQHVoPu1eKEr8oLGya
-tkL2lnJC2rHvFn0Yjx2ipWI0KiKs6eEHTMd7nzlXd1wTrkIvOX/4/HGHCl+HnrT28CsEVUevjPYA
-iB9RCCLbHQS5TcEru6cx373N/n9RKp5Nle+YxYf8tE6ne3kCJXniNBEASidK5RKrgoNaXwQJllp8
-OKqByuktOQSVagwvMiWxqi7jtT8ozSUyvfTzySpR00c1ER1T6BGt6KNfIudTyLE2qmnSjfOxcU8F
-H5gafy9q5MSRxustpoPMdwE+fIwkaO0noP9jBSgTYyeQap5dL7GqSPwzcTJY1gWrEdqAzEhEXfac
-p2JTU8IFPkZ6Z0+kqh3Zr+K6jqF8q0GZpxJcZPwUmV5GRFcSTE7ieZPjG7Uz/1AVCQV6rsz7gRN2
-eYxu53wFVUXI6THPxC55/oKqBlgNoEBqgZsuHSKxsWDvGULfdzUkjNerhmyO7xq5gNoPgjvtYCF3
-1bHDTFt5tyoPxvXN93PKuASghw0U2xJgBhSgiUDvv+AdafYc6yvwPqqIYUmLBY6jJni2y7hFRj1M
-GXhzNzDion3jOej/TLA1qyJhlXZW8iMrAK1bzdq8PpLYdqs9UxEulz7gje0UCZ369PxAf8hG4KA8
-rqN8cx+b50VG7fcjwBZ6FIi+qtfDTPBB8TQIlBdHjJyu0KXp4G4M1A9eVVko+4mehUzX8o0rwvbi
-tkdu4EA5hGMLAjGxuYxTJSKdcyrR5gHdMV2a3hMS9JXVtEaKNxlh4VFgKqEs53zSKqjR1B38/OlI
-x7vsinxnyh/7bTvlEgWJ8tRvyhY3u25mbD1omMq9B+pwh2hxlhcEHrgLQrf/gVU1gIRRvB7pacqF
-q0CvAAovKFfHemo7zEOP++Uw/Oqo9SjVwLRVWPpRPtTBKIigSZDG+UQjfwhKdLGSs2HzalRylI9w
-bTbtLz/fghteh5GKvVBRwjFQ2uOwqGGdRpRJmryQ3NMOMFD1xNt/g89yuq/VjBLsAXYAMq7jJl23
-tb189yRhpL12IaiwMh6ZY/MsrfUPZjpqm3dDQs1EzZFIOx8PDfoS3DYS8dXCNGycA0/hxJINhyoY
-Tuv2ScUBhh0aBpv0MahxRimXBlzs2jZ0/RKRcXOuz33/WCodkeiqo/dsJ05hc2DSkzc2b1TxkQox
-it/WBI2zjclq5opBn6o6KFunrx4GJCGfir96CuKtIurPajhOMR5pCvnj31WSmpxq8vJc+Rw0YrMx
-zyHxN+AEuPSoYGVvzxobk/e5fSI5R8CsG7/Z4qFbVmPf0/60C7PaBXyBVoE4ypFqbBjkZOLs3XK1
-JG/imKilsIHAdSz7Qy2L4Q0+iC+5iqgvT4dXrlVtWt/Pe6XjkTFYRPzSS3aavxmwJGWXIXAr4K5o
-jU/KStqmnEpi9SG8W+D3HczgLCuK3qUPnLU6hxm+T805OuaicC0oyLZqQnb/yaPyfbbn1lQ3W6DZ
-ECc3oi9XpVRVMzdIlMV3nIZjtEAhxflZBxg5fuLkn3+qMf6lbisG/igj7fKHXBQwV0f6x4juRYr5
-AlTv7CVui/380aP99OrcSF4cglUFPAGHI6uwIT2Hx1KD89Ic9lubyV7LDlhYBP74Uz0POl6hRqx3
-0k72+hjv/3btTcj4VH4j7spMtOQJVwIDRt0L5YFFvwfUk/ZrPF9sdKe202ASxYO+GuxqiX4lclWx
-RiIP5OYYChvnSvB1sW3yk8hnULBOcmxqctL9/HdYnTm2/025HQB3BViM0Xl9ia4KKEbRVpM6hr0P
-U0jLHmAgmeYWo+VtpRJY9fD/r59dqyA1B7bFzwrKH88tL6GiM994BLUnyAyuzB7v771SZ3L4jZRc
-Y+i8cAvNBPv8d97PWm6aKAhtQlBfV96hQkCRMOzXo82eOsqKtUzRK3/mKxAVikLpSAijvSka
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\YouTube;
+
+class PlaylistItem extends \Google\Model
+{
+  protected $contentDetailsType = PlaylistItemContentDetails::class;
+  protected $contentDetailsDataType = '';
+  public $etag;
+  public $id;
+  public $kind;
+  protected $snippetType = PlaylistItemSnippet::class;
+  protected $snippetDataType = '';
+  protected $statusType = PlaylistItemStatus::class;
+  protected $statusDataType = '';
+
+  /**
+   * @param PlaylistItemContentDetails
+   */
+  public function setContentDetails(PlaylistItemContentDetails $contentDetails)
+  {
+    $this->contentDetails = $contentDetails;
+  }
+  /**
+   * @return PlaylistItemContentDetails
+   */
+  public function getContentDetails()
+  {
+    return $this->contentDetails;
+  }
+  public function setEtag($etag)
+  {
+    $this->etag = $etag;
+  }
+  public function getEtag()
+  {
+    return $this->etag;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  /**
+   * @param PlaylistItemSnippet
+   */
+  public function setSnippet(PlaylistItemSnippet $snippet)
+  {
+    $this->snippet = $snippet;
+  }
+  /**
+   * @return PlaylistItemSnippet
+   */
+  public function getSnippet()
+  {
+    return $this->snippet;
+  }
+  /**
+   * @param PlaylistItemStatus
+   */
+  public function setStatus(PlaylistItemStatus $status)
+  {
+    $this->status = $status;
+  }
+  /**
+   * @return PlaylistItemStatus
+   */
+  public function getStatus()
+  {
+    return $this->status;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PlaylistItem::class, 'Google_Service_YouTube_PlaylistItem');

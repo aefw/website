@@ -1,81 +1,644 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Nve=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for CloudIdentity (v1).
+ *
+ * <p>
+ * API for provisioning and managing identity resources.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/identity/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class CloudIdentity extends \Google\Service
+{
+  /** See your device details. */
+  const CLOUD_IDENTITY_DEVICES_LOOKUP =
+      "https://www.googleapis.com/auth/cloud-identity.devices.lookup";
+  /** See, change, create, and delete any of the Cloud Identity Groups that you can access, including the members of each group. */
+  const CLOUD_IDENTITY_GROUPS =
+      "https://www.googleapis.com/auth/cloud-identity.groups";
+  /** See any Cloud Identity Groups that you can access, including group members and their emails. */
+  const CLOUD_IDENTITY_GROUPS_READONLY =
+      "https://www.googleapis.com/auth/cloud-identity.groups.readonly";
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+
+  public $devices;
+  public $devices_deviceUsers;
+  public $devices_deviceUsers_clientStates;
+  public $groups;
+  public $groups_memberships;
+
+  /**
+   * Constructs the internal representation of the CloudIdentity service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://cloudidentity.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'cloudidentity';
+
+    $this->devices = new CloudIdentity\Resource\Devices(
+        $this,
+        $this->serviceName,
+        'devices',
+        [
+          'methods' => [
+            'cancelWipe' => [
+              'path' => 'v1/{+name}:cancelWipe',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1/devices',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'customer' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'customer' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/devices',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'wipe' => [
+              'path' => 'v1/{+name}:wipe',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->devices_deviceUsers = new CloudIdentity\Resource\DevicesDeviceUsers(
+        $this,
+        $this->serviceName,
+        'deviceUsers',
+        [
+          'methods' => [
+            'approve' => [
+              'path' => 'v1/{+name}:approve',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'block' => [
+              'path' => 'v1/{+name}:block',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'cancelWipe' => [
+              'path' => 'v1/{+name}:cancelWipe',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'customer' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'customer' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/deviceUsers',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'customer' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'lookup' => [
+              'path' => 'v1/{+parent}:lookup',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'androidId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'rawResourceId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'wipe' => [
+              'path' => 'v1/{+name}:wipe',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->devices_deviceUsers_clientStates = new CloudIdentity\Resource\DevicesDeviceUsersClientStates(
+        $this,
+        $this->serviceName,
+        'clientStates',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'customer' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/clientStates',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'customer' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'customer' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->groups = new CloudIdentity\Resource\Groups(
+        $this,
+        $this->serviceName,
+        'groups',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/groups',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'initialGroupConfig' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/groups',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'parent' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'lookup' => [
+              'path' => 'v1/groups:lookup',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'groupKey.id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'groupKey.namespace' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'search' => [
+              'path' => 'v1/groups:search',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'query' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->groups_memberships = new CloudIdentity\Resource\GroupsMemberships(
+        $this,
+        $this->serviceName,
+        'memberships',
+        [
+          'methods' => [
+            'checkTransitiveMembership' => [
+              'path' => 'v1/{+parent}/memberships:checkTransitiveMembership',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'query' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1/{+parent}/memberships',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getMembershipGraph' => [
+              'path' => 'v1/{+parent}/memberships:getMembershipGraph',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'query' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/memberships',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'lookup' => [
+              'path' => 'v1/{+parent}/memberships:lookup',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'memberKey.id' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'memberKey.namespace' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'modifyMembershipRoles' => [
+              'path' => 'v1/{+name}:modifyMembershipRoles',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'searchTransitiveGroups' => [
+              'path' => 'v1/{+parent}/memberships:searchTransitiveGroups',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'query' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'searchTransitiveMemberships' => [
+              'path' => 'v1/{+parent}/memberships:searchTransitiveMemberships',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(CloudIdentity::class, 'Google_Service_CloudIdentity');

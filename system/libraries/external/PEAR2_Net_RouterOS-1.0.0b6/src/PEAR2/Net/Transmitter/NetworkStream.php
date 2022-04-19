@@ -1,79 +1,187 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+/**
+ * Wrapper for network stream functionality.
+
+ *
+ * PHP has built in support for various types of network streams, such as HTTP and TCP sockets. One problem that arises with them is the fact that a single fread/fwrite call might not read/write all the data you intended, regardless of whether you're in blocking mode or not. While the PHP manual offers a workaround in the form of a loop with a few variables, using it every single time you want to read/write can be tedious.
+
+This package abstracts this away, so that when you want to get exactly N amount of bytes, you can be sure the upper levels of your app will be dealing with N bytes. Oh, and the functionality is nicely wrapped in an object (but that's just the icing on the cake).
+ *
+ * PHP version 5
+ *
+ * @category  Net
+ * @package   PEAR2_Net_Transmitter
+ * @author    Vasil Rangelov <boen.robot@gmail.com>
+ * @copyright 2011 Vasil Rangelov
+ * @license   http://www.gnu.org/copyleft/lesser.html LGPL License 2.1
+ * @version   1.0.0b2
+ * @link      http://pear2.php.net/PEAR2_Net_Transmitter
+ */
+/**
+ * The namespace declaration.
+ */
+namespace PEAR2\Net\Transmitter;
+
+/**
+ * A network transmitter.
+ *
+ * This is a convenience wrapper for network streams. Used to ensure data
+ * integrity.
+ *
+ * @category Net
+ * @package  PEAR2_Net_Transmitter
+ * @author   Vasil Rangelov <boen.robot@gmail.com>
+ * @license  http://www.gnu.org/copyleft/lesser.html LGPL License 2.1
+ * @link     http://pear2.php.net/PEAR2_Net_Transmitter
+ */
+abstract class NetworkStream extends Stream
+{
+    /**
+     * Used in {@link setCrypto()} to disable encryption.
+     */
+    const CRYPTO_OFF = '';
+
+    /**
+     * Used in {@link setCrypto()} to set encryption to either SSLv2 or SSLv3,
+     * depending on what the other end supports.
+     */
+    const CRYPTO_SSL = 'SSLv23';
+
+    /**
+     * Used in {@link setCrypto()} to set encryption to SSLv2.
+     */
+    const CRYPTO_SSL2 = 'SSLv2';
+
+    /**
+     * Used in {@link setCrypto()} to set encryption to SSLv3.
+     */
+    const CRYPTO_SSL3 = 'SSLv3';
+
+    /**
+     * Used in {@link setCrypto()} to set encryption to TLS (exact version
+     * negotiated between 1.0 and 1.2).
+     */
+    const CRYPTO_TLS = 'TLS';
+
+    /**
+     * The type of stream. Can be either "_CLIENT" or "_SERVER".
+     *
+     * Used to complement the encryption type. Must be set by child classes
+     * for {@link setCrypto()} to work properly.
+     *
+     * @var string
+     */
+    protected $streamType = '';
+
+    /**
+     * The current cryptography setting.
+     *
+     * @var string
+     */
+    protected $crypto = '';
+
+    /**
+     * Wraps around the specified stream.
+     *
+     * @param resource $stream The stream to wrap around.
+     */
+    public function __construct($stream)
+    {
+        parent::__construct($stream, true);
+    }
+
+    /**
+     * Gets the current cryptography setting.
+     *
+     * @return string One of this class' CRYPTO_* constants.
+     */
+    public function getCrypto()
+    {
+        return $this->crypto;
+    }
+
+    /**
+     * Sets the current connection's cryptography setting.
+     *
+     * @param string $type The encryption type to set. Must be one of this
+     *     class' CRYPTO_* constants.
+     *
+     * @return boolean TRUE on success, FALSE on failure.
+     */
+    public function setCrypto($type)
+    {
+        if (self::CRYPTO_OFF === $type) {
+            $result = stream_socket_enable_crypto($this->stream, false);
+        } else {
+            $result = stream_socket_enable_crypto(
+                $this->stream,
+                true,
+                constant("STREAM_CRYPTO_METHOD_{$type}{$this->streamType}")
+            );
+        }
+
+        if ($result) {
+            $this->crypto = $type;
+        }
+        return $result;
+    }
+
+    /**
+     * Checks whether the stream is available for operations.
+     *
+     * @return bool TRUE if the stream is available, FALSE otherwise.
+     */
+    public function isAvailable()
+    {
+        if ($this->isStream($this->stream)) {
+            if ($this->isBlocking && feof($this->stream)) {
+                return false;
+            }
+            $meta = stream_get_meta_data($this->stream);
+            return !$meta['eof'];
+        }
+        return false;
+    }
+
+    /**
+     * Sets the size of a stream's buffer.
+     *
+     * @param int $size      The desired size of the buffer, in bytes.
+     * @param int $direction The buffer of which direction to set. Valid
+     *     values are the DIRECTION_* constants.
+     *
+     * @return bool TRUE on success, FALSE on failure.
+     */
+    public function setBuffer($size, $direction = self::DIRECTION_ALL)
+    {
+        $result = parent::setBuffer($size, $direction);
+        if (self::DIRECTION_SEND === $direction
+            && function_exists('stream_set_chunk_size') && !$result
+        ) {
+            return false !== @stream_set_chunk_size($this->stream, $size);
+        }
+        return $result;
+    }
+
+    /**
+     * Shutdown a full-duplex connection
+     *
+     * Shutdowns (partially or not) a full-duplex connection.
+     *
+     * @param int $direction The direction for which to disable further
+     *     communications.
+     *
+     * @return bool TRUE on success, FALSE on failure.
+     */
+    public function shutdown($direction = self::DIRECTION_ALL)
+    {
+        $directionMap = array(
+            self::DIRECTION_ALL => STREAM_SHUT_RDWR,
+            self::DIRECTION_SEND => STREAM_SHUT_WR,
+            self::DIRECTION_RECEIVE => STREAM_SHUT_RD
+        );
+        return array_key_exists($direction, $directionMap)
+            && stream_socket_shutdown($this->stream, $directionMap[$direction]);
+    }
+}

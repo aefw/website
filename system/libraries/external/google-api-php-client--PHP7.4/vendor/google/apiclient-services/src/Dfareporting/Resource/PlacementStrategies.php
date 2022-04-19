@@ -1,75 +1,136 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-CHJTlVaFrMu5mW5178EnRFiswW==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dfareporting\Resource;
+
+use Google\Service\Dfareporting\PlacementStrategiesListResponse;
+use Google\Service\Dfareporting\PlacementStrategy;
+
+/**
+ * The "placementStrategies" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $dfareportingService = new Google\Service\Dfareporting(...);
+ *   $placementStrategies = $dfareportingService->placementStrategies;
+ *  </code>
+ */
+class PlacementStrategies extends \Google\Service\Resource
+{
+  /**
+   * Deletes an existing placement strategy. (placementStrategies.delete)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param string $id Placement strategy ID.
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($profileId, $id, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Gets one placement strategy by ID. (placementStrategies.get)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param string $id Placement strategy ID.
+   * @param array $optParams Optional parameters.
+   * @return PlacementStrategy
+   */
+  public function get($profileId, $id, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], PlacementStrategy::class);
+  }
+  /**
+   * Inserts a new placement strategy. (placementStrategies.insert)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param PlacementStrategy $postBody
+   * @param array $optParams Optional parameters.
+   * @return PlacementStrategy
+   */
+  public function insert($profileId, PlacementStrategy $postBody, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], PlacementStrategy::class);
+  }
+  /**
+   * Retrieves a list of placement strategies, possibly filtered. This method
+   * supports paging. (placementStrategies.listPlacementStrategies)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string ids Select only placement strategies with these IDs.
+   * @opt_param int maxResults Maximum number of results to return.
+   * @opt_param string pageToken Value of the nextPageToken from the previous
+   * result page.
+   * @opt_param string searchString Allows searching for objects by name or ID.
+   * Wildcards (*) are allowed. For example, "placementstrategy*2015" will return
+   * objects with names like "placementstrategy June 2015", "placementstrategy
+   * April 2015", or simply "placementstrategy 2015". Most of the searches also
+   * add wildcards implicitly at the start and the end of the search string. For
+   * example, a search string of "placementstrategy" will match objects with name
+   * "my placementstrategy", "placementstrategy 2015", or simply
+   * "placementstrategy".
+   * @opt_param string sortField Field by which to sort the list.
+   * @opt_param string sortOrder Order of sorted results.
+   * @return PlacementStrategiesListResponse
+   */
+  public function listPlacementStrategies($profileId, $optParams = [])
+  {
+    $params = ['profileId' => $profileId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], PlacementStrategiesListResponse::class);
+  }
+  /**
+   * Updates an existing placement strategy. This method supports patch semantics.
+   * (placementStrategies.patch)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param string $id PlacementStrategy ID.
+   * @param PlacementStrategy $postBody
+   * @param array $optParams Optional parameters.
+   * @return PlacementStrategy
+   */
+  public function patch($profileId, $id, PlacementStrategy $postBody, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'id' => $id, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], PlacementStrategy::class);
+  }
+  /**
+   * Updates an existing placement strategy. (placementStrategies.update)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param PlacementStrategy $postBody
+   * @param array $optParams Optional parameters.
+   * @return PlacementStrategy
+   */
+  public function update($profileId, PlacementStrategy $postBody, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], PlacementStrategy::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PlacementStrategies::class, 'Google_Service_Dfareporting_Resource_PlacementStrategies');

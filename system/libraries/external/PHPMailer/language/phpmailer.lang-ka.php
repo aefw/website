@@ -1,88 +1,26 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/**
+ * Georgian PHPMailer language file: refer to English translation for definitive list
+ * @package PHPMailer
+ * @author Avtandil Kikabidze aka LONGMAN <akalongman@gmail.com>
+ */
+
+$PHPMAILER_LANG['authenticate']         = 'SMTP შეცდომა: ავტორიზაცია შეუძლებელია.';
+$PHPMAILER_LANG['connect_host']         = 'SMTP შეცდომა: SMTP სერვერთან დაკავშირება შეუძლებელია.';
+$PHPMAILER_LANG['data_not_accepted']    = 'SMTP შეცდომა: მონაცემები არ იქნა მიღებული.';
+$PHPMAILER_LANG['encoding']             = 'კოდირების უცნობი ტიპი: ';
+$PHPMAILER_LANG['execute']              = 'შეუძლებელია შემდეგი ბრძანების შესრულება: ';
+$PHPMAILER_LANG['file_access']          = 'შეუძლებელია წვდომა ფაილთან: ';
+$PHPMAILER_LANG['file_open']            = 'ფაილური სისტემის შეცდომა: არ იხსნება ფაილი: ';
+$PHPMAILER_LANG['from_failed']          = 'გამგზავნის არასწორი მისამართი: ';
+$PHPMAILER_LANG['instantiate']          = 'mail ფუნქციის გაშვება ვერ ხერხდება.';
+$PHPMAILER_LANG['provide_address']      = 'გთხოვთ მიუთითოთ ერთი ადრესატის e-mail მისამართი მაინც.';
+$PHPMAILER_LANG['mailer_not_supported'] = ' - საფოსტო სერვერის მხარდაჭერა არ არის.';
+$PHPMAILER_LANG['recipients_failed']    = 'SMTP შეცდომა: შემდეგ მისამართებზე გაგზავნა ვერ მოხერხდა: ';
+$PHPMAILER_LANG['empty_message']        = 'შეტყობინება ცარიელია';
+$PHPMAILER_LANG['invalid_address']      = 'არ გაიგზავნა, e-mail მისამართის არასწორი ფორმატი: ';
+$PHPMAILER_LANG['signing']              = 'ხელმოწერის შეცდომა: ';
+$PHPMAILER_LANG['smtp_connect_failed']  = 'შეცდომა SMTP სერვერთან დაკავშირებისას';
+$PHPMAILER_LANG['smtp_error']           = 'SMTP სერვერის შეცდომა: ';
+$PHPMAILER_LANG['variable_set']         = 'შეუძლებელია შემდეგი ცვლადის შექმნა ან შეცვლა: ';
+$PHPMAILER_LANG['extension_missing']    = 'ბიბლიოთეკა არ არსებობს: ';

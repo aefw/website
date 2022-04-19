@@ -1,64 +1,95 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute;
+
+class TargetInstanceList extends \Google\Collection
+{
+  protected $collection_key = 'items';
+  public $id;
+  protected $itemsType = TargetInstance::class;
+  protected $itemsDataType = 'array';
+  public $kind;
+  public $nextPageToken;
+  public $selfLink;
+  protected $warningType = TargetInstanceListWarning::class;
+  protected $warningDataType = '';
+
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  /**
+   * @param TargetInstance[]
+   */
+  public function setItems($items)
+  {
+    $this->items = $items;
+  }
+  /**
+   * @return TargetInstance[]
+   */
+  public function getItems()
+  {
+    return $this->items;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setNextPageToken($nextPageToken)
+  {
+    $this->nextPageToken = $nextPageToken;
+  }
+  public function getNextPageToken()
+  {
+    return $this->nextPageToken;
+  }
+  public function setSelfLink($selfLink)
+  {
+    $this->selfLink = $selfLink;
+  }
+  public function getSelfLink()
+  {
+    return $this->selfLink;
+  }
+  /**
+   * @param TargetInstanceListWarning
+   */
+  public function setWarning(TargetInstanceListWarning $warning)
+  {
+    $this->warning = $warning;
+  }
+  /**
+   * @return TargetInstanceListWarning
+   */
+  public function getWarning()
+  {
+    return $this->warning;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(TargetInstanceList::class, 'Google_Service_Compute_TargetInstanceList');

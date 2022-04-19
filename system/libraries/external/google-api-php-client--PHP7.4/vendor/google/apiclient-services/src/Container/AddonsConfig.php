@@ -1,76 +1,154 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Container;
+
+class AddonsConfig extends \Google\Model
+{
+  protected $cloudRunConfigType = CloudRunConfig::class;
+  protected $cloudRunConfigDataType = '';
+  protected $configConnectorConfigType = ConfigConnectorConfig::class;
+  protected $configConnectorConfigDataType = '';
+  protected $dnsCacheConfigType = DnsCacheConfig::class;
+  protected $dnsCacheConfigDataType = '';
+  protected $gcePersistentDiskCsiDriverConfigType = GcePersistentDiskCsiDriverConfig::class;
+  protected $gcePersistentDiskCsiDriverConfigDataType = '';
+  protected $horizontalPodAutoscalingType = HorizontalPodAutoscaling::class;
+  protected $horizontalPodAutoscalingDataType = '';
+  protected $httpLoadBalancingType = HttpLoadBalancing::class;
+  protected $httpLoadBalancingDataType = '';
+  protected $kubernetesDashboardType = KubernetesDashboard::class;
+  protected $kubernetesDashboardDataType = '';
+  protected $networkPolicyConfigType = NetworkPolicyConfig::class;
+  protected $networkPolicyConfigDataType = '';
+
+  /**
+   * @param CloudRunConfig
+   */
+  public function setCloudRunConfig(CloudRunConfig $cloudRunConfig)
+  {
+    $this->cloudRunConfig = $cloudRunConfig;
+  }
+  /**
+   * @return CloudRunConfig
+   */
+  public function getCloudRunConfig()
+  {
+    return $this->cloudRunConfig;
+  }
+  /**
+   * @param ConfigConnectorConfig
+   */
+  public function setConfigConnectorConfig(ConfigConnectorConfig $configConnectorConfig)
+  {
+    $this->configConnectorConfig = $configConnectorConfig;
+  }
+  /**
+   * @return ConfigConnectorConfig
+   */
+  public function getConfigConnectorConfig()
+  {
+    return $this->configConnectorConfig;
+  }
+  /**
+   * @param DnsCacheConfig
+   */
+  public function setDnsCacheConfig(DnsCacheConfig $dnsCacheConfig)
+  {
+    $this->dnsCacheConfig = $dnsCacheConfig;
+  }
+  /**
+   * @return DnsCacheConfig
+   */
+  public function getDnsCacheConfig()
+  {
+    return $this->dnsCacheConfig;
+  }
+  /**
+   * @param GcePersistentDiskCsiDriverConfig
+   */
+  public function setGcePersistentDiskCsiDriverConfig(GcePersistentDiskCsiDriverConfig $gcePersistentDiskCsiDriverConfig)
+  {
+    $this->gcePersistentDiskCsiDriverConfig = $gcePersistentDiskCsiDriverConfig;
+  }
+  /**
+   * @return GcePersistentDiskCsiDriverConfig
+   */
+  public function getGcePersistentDiskCsiDriverConfig()
+  {
+    return $this->gcePersistentDiskCsiDriverConfig;
+  }
+  /**
+   * @param HorizontalPodAutoscaling
+   */
+  public function setHorizontalPodAutoscaling(HorizontalPodAutoscaling $horizontalPodAutoscaling)
+  {
+    $this->horizontalPodAutoscaling = $horizontalPodAutoscaling;
+  }
+  /**
+   * @return HorizontalPodAutoscaling
+   */
+  public function getHorizontalPodAutoscaling()
+  {
+    return $this->horizontalPodAutoscaling;
+  }
+  /**
+   * @param HttpLoadBalancing
+   */
+  public function setHttpLoadBalancing(HttpLoadBalancing $httpLoadBalancing)
+  {
+    $this->httpLoadBalancing = $httpLoadBalancing;
+  }
+  /**
+   * @return HttpLoadBalancing
+   */
+  public function getHttpLoadBalancing()
+  {
+    return $this->httpLoadBalancing;
+  }
+  /**
+   * @param KubernetesDashboard
+   */
+  public function setKubernetesDashboard(KubernetesDashboard $kubernetesDashboard)
+  {
+    $this->kubernetesDashboard = $kubernetesDashboard;
+  }
+  /**
+   * @return KubernetesDashboard
+   */
+  public function getKubernetesDashboard()
+  {
+    return $this->kubernetesDashboard;
+  }
+  /**
+   * @param NetworkPolicyConfig
+   */
+  public function setNetworkPolicyConfig(NetworkPolicyConfig $networkPolicyConfig)
+  {
+    $this->networkPolicyConfig = $networkPolicyConfig;
+  }
+  /**
+   * @return NetworkPolicyConfig
+   */
+  public function getNetworkPolicyConfig()
+  {
+    return $this->networkPolicyConfig;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AddonsConfig::class, 'Google_Service_Container_AddonsConfig');

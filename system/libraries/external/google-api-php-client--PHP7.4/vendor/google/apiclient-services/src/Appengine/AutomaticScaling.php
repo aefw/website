@@ -1,93 +1,178 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Appengine;
+
+class AutomaticScaling extends \Google\Model
+{
+  public $coolDownPeriod;
+  protected $cpuUtilizationType = CpuUtilization::class;
+  protected $cpuUtilizationDataType = '';
+  protected $diskUtilizationType = DiskUtilization::class;
+  protected $diskUtilizationDataType = '';
+  public $maxConcurrentRequests;
+  public $maxIdleInstances;
+  public $maxPendingLatency;
+  public $maxTotalInstances;
+  public $minIdleInstances;
+  public $minPendingLatency;
+  public $minTotalInstances;
+  protected $networkUtilizationType = NetworkUtilization::class;
+  protected $networkUtilizationDataType = '';
+  protected $requestUtilizationType = RequestUtilization::class;
+  protected $requestUtilizationDataType = '';
+  protected $standardSchedulerSettingsType = StandardSchedulerSettings::class;
+  protected $standardSchedulerSettingsDataType = '';
+
+  public function setCoolDownPeriod($coolDownPeriod)
+  {
+    $this->coolDownPeriod = $coolDownPeriod;
+  }
+  public function getCoolDownPeriod()
+  {
+    return $this->coolDownPeriod;
+  }
+  /**
+   * @param CpuUtilization
+   */
+  public function setCpuUtilization(CpuUtilization $cpuUtilization)
+  {
+    $this->cpuUtilization = $cpuUtilization;
+  }
+  /**
+   * @return CpuUtilization
+   */
+  public function getCpuUtilization()
+  {
+    return $this->cpuUtilization;
+  }
+  /**
+   * @param DiskUtilization
+   */
+  public function setDiskUtilization(DiskUtilization $diskUtilization)
+  {
+    $this->diskUtilization = $diskUtilization;
+  }
+  /**
+   * @return DiskUtilization
+   */
+  public function getDiskUtilization()
+  {
+    return $this->diskUtilization;
+  }
+  public function setMaxConcurrentRequests($maxConcurrentRequests)
+  {
+    $this->maxConcurrentRequests = $maxConcurrentRequests;
+  }
+  public function getMaxConcurrentRequests()
+  {
+    return $this->maxConcurrentRequests;
+  }
+  public function setMaxIdleInstances($maxIdleInstances)
+  {
+    $this->maxIdleInstances = $maxIdleInstances;
+  }
+  public function getMaxIdleInstances()
+  {
+    return $this->maxIdleInstances;
+  }
+  public function setMaxPendingLatency($maxPendingLatency)
+  {
+    $this->maxPendingLatency = $maxPendingLatency;
+  }
+  public function getMaxPendingLatency()
+  {
+    return $this->maxPendingLatency;
+  }
+  public function setMaxTotalInstances($maxTotalInstances)
+  {
+    $this->maxTotalInstances = $maxTotalInstances;
+  }
+  public function getMaxTotalInstances()
+  {
+    return $this->maxTotalInstances;
+  }
+  public function setMinIdleInstances($minIdleInstances)
+  {
+    $this->minIdleInstances = $minIdleInstances;
+  }
+  public function getMinIdleInstances()
+  {
+    return $this->minIdleInstances;
+  }
+  public function setMinPendingLatency($minPendingLatency)
+  {
+    $this->minPendingLatency = $minPendingLatency;
+  }
+  public function getMinPendingLatency()
+  {
+    return $this->minPendingLatency;
+  }
+  public function setMinTotalInstances($minTotalInstances)
+  {
+    $this->minTotalInstances = $minTotalInstances;
+  }
+  public function getMinTotalInstances()
+  {
+    return $this->minTotalInstances;
+  }
+  /**
+   * @param NetworkUtilization
+   */
+  public function setNetworkUtilization(NetworkUtilization $networkUtilization)
+  {
+    $this->networkUtilization = $networkUtilization;
+  }
+  /**
+   * @return NetworkUtilization
+   */
+  public function getNetworkUtilization()
+  {
+    return $this->networkUtilization;
+  }
+  /**
+   * @param RequestUtilization
+   */
+  public function setRequestUtilization(RequestUtilization $requestUtilization)
+  {
+    $this->requestUtilization = $requestUtilization;
+  }
+  /**
+   * @return RequestUtilization
+   */
+  public function getRequestUtilization()
+  {
+    return $this->requestUtilization;
+  }
+  /**
+   * @param StandardSchedulerSettings
+   */
+  public function setStandardSchedulerSettings(StandardSchedulerSettings $standardSchedulerSettings)
+  {
+    $this->standardSchedulerSettings = $standardSchedulerSettings;
+  }
+  /**
+   * @return StandardSchedulerSettings
+   */
+  public function getStandardSchedulerSettings()
+  {
+    return $this->standardSchedulerSettings;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AutomaticScaling::class, 'Google_Service_Appengine_AutomaticScaling');

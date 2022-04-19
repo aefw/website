@@ -1,72 +1,111 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Firestore;
+
+class GoogleFirestoreAdminV1FieldOperationMetadata extends \Google\Collection
+{
+  protected $collection_key = 'indexConfigDeltas';
+  public $endTime;
+  public $field;
+  protected $indexConfigDeltasType = GoogleFirestoreAdminV1IndexConfigDelta::class;
+  protected $indexConfigDeltasDataType = 'array';
+  protected $progressBytesType = GoogleFirestoreAdminV1Progress::class;
+  protected $progressBytesDataType = '';
+  protected $progressDocumentsType = GoogleFirestoreAdminV1Progress::class;
+  protected $progressDocumentsDataType = '';
+  public $startTime;
+  public $state;
+
+  public function setEndTime($endTime)
+  {
+    $this->endTime = $endTime;
+  }
+  public function getEndTime()
+  {
+    return $this->endTime;
+  }
+  public function setField($field)
+  {
+    $this->field = $field;
+  }
+  public function getField()
+  {
+    return $this->field;
+  }
+  /**
+   * @param GoogleFirestoreAdminV1IndexConfigDelta[]
+   */
+  public function setIndexConfigDeltas($indexConfigDeltas)
+  {
+    $this->indexConfigDeltas = $indexConfigDeltas;
+  }
+  /**
+   * @return GoogleFirestoreAdminV1IndexConfigDelta[]
+   */
+  public function getIndexConfigDeltas()
+  {
+    return $this->indexConfigDeltas;
+  }
+  /**
+   * @param GoogleFirestoreAdminV1Progress
+   */
+  public function setProgressBytes(GoogleFirestoreAdminV1Progress $progressBytes)
+  {
+    $this->progressBytes = $progressBytes;
+  }
+  /**
+   * @return GoogleFirestoreAdminV1Progress
+   */
+  public function getProgressBytes()
+  {
+    return $this->progressBytes;
+  }
+  /**
+   * @param GoogleFirestoreAdminV1Progress
+   */
+  public function setProgressDocuments(GoogleFirestoreAdminV1Progress $progressDocuments)
+  {
+    $this->progressDocuments = $progressDocuments;
+  }
+  /**
+   * @return GoogleFirestoreAdminV1Progress
+   */
+  public function getProgressDocuments()
+  {
+    return $this->progressDocuments;
+  }
+  public function setStartTime($startTime)
+  {
+    $this->startTime = $startTime;
+  }
+  public function getStartTime()
+  {
+    return $this->startTime;
+  }
+  public function setState($state)
+  {
+    $this->state = $state;
+  }
+  public function getState()
+  {
+    return $this->state;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleFirestoreAdminV1FieldOperationMetadata::class, 'Google_Service_Firestore_GoogleFirestoreAdminV1FieldOperationMetadata');

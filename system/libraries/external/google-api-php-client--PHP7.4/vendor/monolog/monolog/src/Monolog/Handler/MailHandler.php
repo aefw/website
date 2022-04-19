@@ -1,60 +1,85 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-AoPc7ChTpsAfkdbADG==
+<?php declare(strict_types=1);
+
+/*
+ * This file is part of the Monolog package.
+ *
+ * (c) Jordi Boggiano <j.boggiano@seld.be>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Monolog\Handler;
+
+use Monolog\Formatter\FormatterInterface;
+use Monolog\Formatter\HtmlFormatter;
+
+/**
+ * Base class for all mail handlers
+ *
+ * @author Gyula Sallai
+ */
+abstract class MailHandler extends AbstractProcessingHandler
+{
+    /**
+     * {@inheritdoc}
+     */
+    public function handleBatch(array $records): void
+    {
+        $messages = [];
+
+        foreach ($records as $record) {
+            if ($record['level'] < $this->level) {
+                continue;
+            }
+            $messages[] = $this->processRecord($record);
+        }
+
+        if (!empty($messages)) {
+            $this->send((string) $this->getFormatter()->formatBatch($messages), $messages);
+        }
+    }
+
+    /**
+     * Send a mail with the given content
+     *
+     * @param string $content formatted email body to be sent
+     * @param array  $records the array of log records that formed this content
+     */
+    abstract protected function send(string $content, array $records): void;
+
+    /**
+     * {@inheritdoc}
+     */
+    protected function write(array $record): void
+    {
+        $this->send((string) $record['formatted'], [$record]);
+    }
+
+    protected function getHighestRecord(array $records): array
+    {
+        $highestRecord = null;
+        foreach ($records as $record) {
+            if ($highestRecord === null || $highestRecord['level'] < $record['level']) {
+                $highestRecord = $record;
+            }
+        }
+
+        return $highestRecord;
+    }
+
+    protected function isHtmlBody(string $body): bool
+    {
+        return substr($body, 0, 1) === '<';
+    }
+
+    /**
+     * Gets the default formatter.
+     *
+     * @return FormatterInterface
+     */
+    protected function getDefaultFormatter(): FormatterInterface
+    {
+        return new HtmlFormatter();
+    }
+}

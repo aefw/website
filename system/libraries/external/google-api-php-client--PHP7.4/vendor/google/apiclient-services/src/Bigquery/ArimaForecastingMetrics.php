@@ -1,67 +1,102 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-lgoRkiW+yza=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Bigquery;
+
+class ArimaForecastingMetrics extends \Google\Collection
+{
+  protected $collection_key = 'timeSeriesId';
+  protected $arimaFittingMetricsType = ArimaFittingMetrics::class;
+  protected $arimaFittingMetricsDataType = 'array';
+  protected $arimaSingleModelForecastingMetricsType = ArimaSingleModelForecastingMetrics::class;
+  protected $arimaSingleModelForecastingMetricsDataType = 'array';
+  public $hasDrift;
+  protected $nonSeasonalOrderType = ArimaOrder::class;
+  protected $nonSeasonalOrderDataType = 'array';
+  public $seasonalPeriods;
+  public $timeSeriesId;
+
+  /**
+   * @param ArimaFittingMetrics[]
+   */
+  public function setArimaFittingMetrics($arimaFittingMetrics)
+  {
+    $this->arimaFittingMetrics = $arimaFittingMetrics;
+  }
+  /**
+   * @return ArimaFittingMetrics[]
+   */
+  public function getArimaFittingMetrics()
+  {
+    return $this->arimaFittingMetrics;
+  }
+  /**
+   * @param ArimaSingleModelForecastingMetrics[]
+   */
+  public function setArimaSingleModelForecastingMetrics($arimaSingleModelForecastingMetrics)
+  {
+    $this->arimaSingleModelForecastingMetrics = $arimaSingleModelForecastingMetrics;
+  }
+  /**
+   * @return ArimaSingleModelForecastingMetrics[]
+   */
+  public function getArimaSingleModelForecastingMetrics()
+  {
+    return $this->arimaSingleModelForecastingMetrics;
+  }
+  public function setHasDrift($hasDrift)
+  {
+    $this->hasDrift = $hasDrift;
+  }
+  public function getHasDrift()
+  {
+    return $this->hasDrift;
+  }
+  /**
+   * @param ArimaOrder[]
+   */
+  public function setNonSeasonalOrder($nonSeasonalOrder)
+  {
+    $this->nonSeasonalOrder = $nonSeasonalOrder;
+  }
+  /**
+   * @return ArimaOrder[]
+   */
+  public function getNonSeasonalOrder()
+  {
+    return $this->nonSeasonalOrder;
+  }
+  public function setSeasonalPeriods($seasonalPeriods)
+  {
+    $this->seasonalPeriods = $seasonalPeriods;
+  }
+  public function getSeasonalPeriods()
+  {
+    return $this->seasonalPeriods;
+  }
+  public function setTimeSeriesId($timeSeriesId)
+  {
+    $this->timeSeriesId = $timeSeriesId;
+  }
+  public function getTimeSeriesId()
+  {
+    return $this->timeSeriesId;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ArimaForecastingMetrics::class, 'Google_Service_Bigquery_ArimaForecastingMetrics');

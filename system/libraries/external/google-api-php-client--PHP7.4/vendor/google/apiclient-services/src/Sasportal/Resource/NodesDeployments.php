@@ -1,67 +1,117 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Sasportal\Resource;
+
+use Google\Service\Sasportal\SasPortalDeployment;
+use Google\Service\Sasportal\SasPortalEmpty;
+use Google\Service\Sasportal\SasPortalListDeploymentsResponse;
+use Google\Service\Sasportal\SasPortalMoveDeploymentRequest;
+use Google\Service\Sasportal\SasPortalOperation;
+
+/**
+ * The "deployments" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $sasportalService = new Google\Service\Sasportal(...);
+ *   $deployments = $sasportalService->deployments;
+ *  </code>
+ */
+class NodesDeployments extends \Google\Service\Resource
+{
+  /**
+   * Deletes a deployment. (deployments.delete)
+   *
+   * @param string $name Required. The name of the deployment.
+   * @param array $optParams Optional parameters.
+   * @return SasPortalEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], SasPortalEmpty::class);
+  }
+  /**
+   * Returns a requested deployment. (deployments.get)
+   *
+   * @param string $name Required. The name of the deployment.
+   * @param array $optParams Optional parameters.
+   * @return SasPortalDeployment
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], SasPortalDeployment::class);
+  }
+  /**
+   * Lists deployments. (deployments.listNodesDeployments)
+   *
+   * @param string $parent Required. The parent resource name, for example,
+   * "nodes/1", customer/1/nodes/2.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter The filter expression. The filter should have the
+   * following format: "DIRECT_CHILDREN" or format: "direct_children". The filter
+   * is case insensitive. If empty, then no deployments are filtered.
+   * @opt_param int pageSize The maximum number of deployments to return in the
+   * response.
+   * @opt_param string pageToken A pagination token returned from a previous call
+   * to ListDeployments that indicates where this listing should continue from.
+   * @return SasPortalListDeploymentsResponse
+   */
+  public function listNodesDeployments($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], SasPortalListDeploymentsResponse::class);
+  }
+  /**
+   * Moves a deployment under another node or customer. (deployments.move)
+   *
+   * @param string $name Required. The name of the deployment to move.
+   * @param SasPortalMoveDeploymentRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return SasPortalOperation
+   */
+  public function move($name, SasPortalMoveDeploymentRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('move', [$params], SasPortalOperation::class);
+  }
+  /**
+   * Updates an existing deployment. (deployments.patch)
+   *
+   * @param string $name Output only. Resource name.
+   * @param SasPortalDeployment $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Fields to be updated.
+   * @return SasPortalDeployment
+   */
+  public function patch($name, SasPortalDeployment $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], SasPortalDeployment::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(NodesDeployments::class, 'Google_Service_Sasportal_Resource_NodesDeployments');

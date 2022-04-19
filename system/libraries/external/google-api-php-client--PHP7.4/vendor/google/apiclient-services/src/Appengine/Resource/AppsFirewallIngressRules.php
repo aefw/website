@@ -1,77 +1,145 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPveMK+XOiwVFLT/6oxIErL4fREaUUxcUgj8tk13ORRAZKctvomZKUhvT6Jrt+mVecA5PnB7P
-6gGRAdMFcmn9RniCgvEFsGJwIMbS1NYaqvMCWTOK9HX5hlwsYdUMTrnw8ECPI8/W+5VaHw8LwhYQ
-TGNAzuzTdfEEmxzTAt6Z6INcDTdtupQQ9CmUiZidKeZX/GrFabIRb8TGT93RaqQyB9kIAohRiRJj
-gQgZhuldtU/ziJDPwffDT2XpE+rhu55SbtcxhFn83/vOmqvFUykUqXNdHHxZuU9mKourL8IeB86c
-Fae5vLNeTZcJVp2snZCWWO28L6i56FypJ46h49jCUAChobESETflQzso9SG19OP4vu+lEbHtSF2V
-TFi7o2QV+gegtkQhnQg2n9wwWFxAm1vju+ebSjD4zP1/c+iSGEhtD4gdG93nLbWhxYWeyiNicMvW
-iRY8ziITeGBTt0TjSCaY93l40HY3TrE7/WdZ+GVoYFq0hpYG7Pz1nVcsvcjGr6jhqEqLQB5qlCif
-8RviQVBW3N/mqOwovNLTxRwovOLaQ4R7QqQfDpxY7mW7JifQhPfFDQ2TZkkCO4ymKPXHaba8WVJz
-QeJc3azYCQKKfBPlCAHY6J3E7eyEO5A3pynln4wwm9huf3QLJScs6XcnTQ/LXmh1voGMOr11WZJt
-gVDyb0uCfFMa3GRkJbjxqcgNeZDfhysqUP4gEVvry36fFrR9qIDPQgj81gM8ZkZyk4lkZUCFKW0J
-7cgrlmUOVPSqQm2kY3bYxnEu/92ETjP8UObH9bTzKwr/zv0c8PPVEfj6WiqsuvMbi+nCM1Kv1pzF
-Ghdhz3vTHIk9H29sYnGaP2+MY7MpDpWXZZAs6pslA7lrQeT2/8ykb+pzzmzPqklJMHhG4LxpdQpZ
-8VWe47aMsob9fxcnA0T3+3koKjEne2ar2pIzu2LPy2Ww5/+w6KYkuqdJqN2qT7vvozyrqWSvfKD+
-IoNDiemeShb4zP9pk0464yjJun+qZwlR9ZaX1TEzBCh+rOKM7moemz4pPKncr6fHJeQURcj4GOJc
-svJYcPPXSJbld+Ur8FTjZhyN5ti7EAGJq4ZnFMq7WXCY8hKcZ0oDpeCwCRpQ4CZXnRncECV8v/m/
-+tz1RpY0n6lMbxavEKeX2hqzYF6xxaDMNpXjkhuqckZbTK71OzyTcnqHXkxbwoB3DzBrpJdDauOe
-O2ptWIUOWIaMOiksQA9Spkhye4IGRvS63cwu5nSOu+VvDWsp5b7GSOr2+NvqkucIcC0Lw2rlxS8C
-0FB7/cISkwiEKzB7Canv8L0mpWk1zN0RHM0BaaitXNUIV9vIecPHsTGq2+n2X/Z1t+5UblDW2B0u
-OUvC/yzjLUWLSDK2ZTgftFko4IT1c+F/MJYtKmS3hsGR8T1/CUwfAawVP5ks/XBaKvJtgjz7nJDh
-eaFiknxbIxOkixMsyaGG5S8u0UjIg9SFpWdV/8Au9Lt/SyZHYJbq8MVbOc0dQgykkyCiYCnZBsaZ
-9hJONMc3eh191x23Qc+Z7FQui95mo0ZX9uvWCgagN+1GeWggclvs2xnBKXHnEDLtG/R/IW8pkFzo
-uKlUe3ObN/lgarTelqhMYNjQWv5fNU36N51//xipUHKSQyhTAWsRhAuJk7iUxA/aT5P5TX500hiu
-cDDjL0745Zua4V+XbIbe5k9ToP58gtmbr21t0kzRYaVD8LJox2yhQU6yfxRw8dUrK7ZFEbMKuHPO
-W/hItDxXNMyGFHXkbbChZMFSt1w0iZAzORi+dOCvsR2ahI6+0K6pwMDCbmkN+0t2wX1wO1E7yxpX
-9HPOMirSdFbYhsQbXwq5Q9d0n1GrviMQs6xd9GxECOlXIc2ZNtE6UbEOBDm95A3VWzmE0KlweI8k
-XBFMdmaUkgdONYRZiJubJmPUyy+5GGg8IgNWweEFtdnrMd3WoiuMjHDbu34QOabH3FADOGwv2kqR
-S/iFVF8UY6Ob3gWYV7fALDMA5KOquje6K8ZM025TBGa80hqEShkU2xTnJcHHaCYekk9tZ0o4LR/9
-bRx/9t4Cv4l1XEWZmzceFZqzFZin5NNcN8QPU+4HriFLH6uZz6ROs6s/GfUUymXDXj8Qq6pauIlV
-VJMpslnxzyy7RWCWGxMfOeJ6+Bhs5PsZHy7zXy7k68JpkXRqGkrWkDYtuxV+xyM4nrohd9WbAEVo
-Rpidv+7TXqEbqCT91KCCSSNa2V+Pwmp3WGhwCIVNgk5/Zh7Zh/8Jsk3N3hUGlRjkxqf+ExGWwEYl
-XAISBd8CEz0vr/NKJJKmTV+SUWdf3lJeQqiD0lwj6ZqhXcIv8dT4mEm+wpSUTeXGP6dvZYjB2iPa
-JT6h3clme8mulVj21uY8VDRZ8OwGvkd7Lp0FmgX4sl7ii7PSerx3O2QrFjH/ZMwyPWvA98kE4Rh8
-aiXkhviG5eQ9UF04XO1xcGrQjgxpCj9afGCf8NsNIzFTUDotukGocZIhLSnI51AxQfQdtiCRUCx3
-40zcvRjdFg3if7qLT4mAt/4I17hNtDKTGzqx0TzV1b5nW74nwC/fi7Mh8oQ9hGJ7+eJVePZuZYwC
-bokf45Ao/rxGJ1x/NIXtRWyf9ZVFs2WIKKOn1tU3/kimV4eMzhw/cpTU7HlXeH+d5SkfqUCSeIhS
-uxn/OkPkGVDru5XOCYCTJGr4Y00HLQAH2GjTwkjA26QHDlKaHx+Fe4AHtfMzmsugRvGxWjPnQ5w5
-08YD6sE40XEWAN6d5CQPIVGxiwcvPjj3/tc/MlUGs1eLimuC7vuUW96Qm3rhUqCeEW7jREiNqeU8
-V3ti1+gLNsI02DHi8rqN2y/088+YSGhVa5LrXc4j/X6AiWoHoRhe5ukcdmM52hVJ/lrkwUtgye49
-C1XtmNqlyWavWKIsJdiO5ibpXdURMvaXLgXIKbdG6fEbniYvfh3G3yvJ6unY0jLQJOIJ72FUcBeb
-AJM2QiosDfZbfQEMb4psuT6Ev/HEZzN1ie1OD2zW5jCYvNy2aQcCWbwXR59yprrLU32Eic+bVnsV
-aECCo1daDU4xakYMNLWkMFJbXH2yPCX3Kfs8OkAPSQGWiMCZdoUTRM46BhSsAdzkzVJTaaE7z8Bk
-hpsCMNmTTNsR5hCGCgWvuzDvIT+kEU1Ul2DgWr42GhqRk3FdXWJCdSMM8wMg+da04SX7rPukKrAa
-4zXyxj/ddN19bjlwhvxPO4zR6PgdGt808qgxqAF6/xHFJ49Tt+gnMgB54Q1NLuxaawLggfD6WrA0
-fOI5scvQUvx5gWTg3pDoM0vsWourTmTQ4IvUggMAnx35Zdto36cpa0T6cocWmc0ek/w8ILBPSc1k
-xF99RK1TfwJ3YoOE69FwEUyGmowZFzkEXuNbHL72OZuDKZdW7+MaQK5klZxb7Ah6BbQicir8Ykuq
-/lsSHeIwt4fjime9vRynknvqzX1N7WNH+SqdMpsbp527719uWOHJtRGa/BYu5ORtfxtoMSFd2F5p
-pW23zKUNpPtLzqhTOMpbOm2DaMRkx4D2CnlZqqMVwXz+cybTmJ26GQ9AQxIIGjO1wujeyWn5CUqE
-DCEChm8fp2x8Bi2XyLdez7Mp5L6FLGIedqVkmiwwp9PfWzYjS3aCjXaDEZNNpfjmSM3t5sVURzjI
-uPB2ECuVBfxn7/84EatffVG1eWe7H21/YiSzFykGM+36qcqxrCerbmYpbMFYM2fRh8wKwXhfb86I
-iScHdHlNZyGrBnrv+wc9jVgO7Pp3myZ1azEXQG2o547UTpZK/myKlWs5+xAhHqjk/tD/qiBfGGdW
-pbPB/wK2h72pPYb4cmc+P3tqrgQoYVbszQt719V2cJtFBl7c+YRrGW4dhREqqcjfaBXh+//3PHB/
-Hiy3iWuj/lwPAKQ77VT8pA4QWYHTbvNdqg45X0Br8S8h75ZLJoukteVkZfH0unhL+DazY4Dacnhx
-oNFeusXYBWgbIqBLB13O4AivuHxDc/fiQJu6iR2LfX20VwTh51fAhnUnj1HA3iULVv8UH2eSKzcl
-cGPjsXP0klIVyzOIlEWqZuNYiwc7/JbkK9DTonO1cJq1HduuwEESotoSKtkYpMgYVLdNyxTmrAT8
-5E+wMILF03OACreFYDBvnjcaEHtQEQjqr2FTGK3E/GZA0uRo2uufoHc71zHNWcpYrnSO2ZT+XAaE
-cmjXeZxVza7/bCTsXZ6+48THPAg8S76g8/0P2zMsMuaDZrcN0ZkQ3Ej5zMDmxMA87a6guGXyLOHb
-iDGfQ1bS95B0Z+MVncyVmZbpGvSP2hB04y6Y4FxND3B9c4cSVDtTNPFG3hDyOooVny73SKVCYyGB
-8TxH7tQ4MG8nA0GVLDoE8D4vTFlFIoJ1QA1rrkUhzpwDtrqYE7tGlTDu3lhxwnnIYr7JmOUacmbi
-Ocxwaz205OY3BZHxWovAOkPPCpc60JlPn6k9uf0GiLLGX6iEFz9qgAm0YQ4XYC+5rohNnoqHDgkW
-KWKOvVG5DWsXTLg5m/JWZ9PaXJbTbbj9yUcA4lhfTwQ7ajEhGHzEBBbwtQAkdjTWc+GO2/P2JISA
-sqWcKNwB+ug2BlSDH/YtAzPRDqoybTwBR8sn0I0eA/2WnL/q3DtW5ebJo7pd57XwY8lG10lIWmG3
-5niZL1kieBNks7iv0bQT768p9751tSQlorAQ8dVOzCPyl5TDH67c+vhd2xvJi8+pH1psSTmJW9gS
-Pl8cY1axC6dgGEUC9M5IwLZty636ZidOEkc9oUKRkwGt/0aKmd4W8LSE2RQlD5d8N9rK6LWFYmam
-8EDDOazMlpt5GeKZY+CrawOH1J3ERpZdp4vEJL8mHZq4ox/Fc0L58SvSGlVRYcoqCFE6THdoxUbo
-766sjFuxqbpLdaGJYFKGceN9PrORd3fPyW1fnouWBhoMKlBIVbSEcDMSRbqzJi6jDLIO55v6/6B8
-xLvRthDoXE0w/Qp6YkAOif1qvvuRdEnOMeDcTs3aTqTlM/4TSz5igV9JjBgf+WsEg8TMEoJaTDZj
-KCrUpkgyXhKKDU61WNkT0Tl8oHkCFK38rCzxAMFdGesRL6HXB98Yjyhy4iI+YjlSvGGVdSq5xx36
-EUL+FUMyixONyFU2oJi6zN3m/q5Mx3PTH5Kg7oZw7b3d76mZ7juUhOxBXj6PuoKoUXGkh3Xy2Mdq
-jMSxjooyYVU6QVDcamz5pG8k1LnTZDJutDiluEPIn719ZIdI3OE2/Pf4OUzlaEjQzaWlD5Uu9Qr5
-vmA7mtPaAQGjcHGsqF/T81EjRi2rKAXubRxwPWHu2I3Zqpr/uGU0xNYADPMld/6vJGEa6NhKoG6W
-fS57b8C=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Appengine\Resource;
+
+use Google\Service\Appengine\AppengineEmpty;
+use Google\Service\Appengine\BatchUpdateIngressRulesRequest;
+use Google\Service\Appengine\BatchUpdateIngressRulesResponse;
+use Google\Service\Appengine\FirewallRule;
+use Google\Service\Appengine\ListIngressRulesResponse;
+
+/**
+ * The "ingressRules" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $appengineService = new Google\Service\Appengine(...);
+ *   $ingressRules = $appengineService->ingressRules;
+ *  </code>
+ */
+class AppsFirewallIngressRules extends \Google\Service\Resource
+{
+  /**
+   * Replaces the entire firewall ruleset in one bulk operation. This overrides
+   * and replaces the rules of an existing firewall with the new rules.If the
+   * final rule does not match traffic with the '*' wildcard IP range, then an
+   * "allow all" rule is explicitly added to the end of the list.
+   * (ingressRules.batchUpdate)
+   *
+   * @param string $appsId Part of `name`. Name of the Firewall collection to set.
+   * Example: apps/myapp/firewall/ingressRules.
+   * @param BatchUpdateIngressRulesRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return BatchUpdateIngressRulesResponse
+   */
+  public function batchUpdate($appsId, BatchUpdateIngressRulesRequest $postBody, $optParams = [])
+  {
+    $params = ['appsId' => $appsId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('batchUpdate', [$params], BatchUpdateIngressRulesResponse::class);
+  }
+  /**
+   * Creates a firewall rule for the application. (ingressRules.create)
+   *
+   * @param string $appsId Part of `parent`. Name of the parent Firewall
+   * collection in which to create a new rule. Example:
+   * apps/myapp/firewall/ingressRules.
+   * @param FirewallRule $postBody
+   * @param array $optParams Optional parameters.
+   * @return FirewallRule
+   */
+  public function create($appsId, FirewallRule $postBody, $optParams = [])
+  {
+    $params = ['appsId' => $appsId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], FirewallRule::class);
+  }
+  /**
+   * Deletes the specified firewall rule. (ingressRules.delete)
+   *
+   * @param string $appsId Part of `name`. Name of the Firewall resource to
+   * delete. Example: apps/myapp/firewall/ingressRules/100.
+   * @param string $ingressRulesId Part of `name`. See documentation of `appsId`.
+   * @param array $optParams Optional parameters.
+   * @return AppengineEmpty
+   */
+  public function delete($appsId, $ingressRulesId, $optParams = [])
+  {
+    $params = ['appsId' => $appsId, 'ingressRulesId' => $ingressRulesId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], AppengineEmpty::class);
+  }
+  /**
+   * Gets the specified firewall rule. (ingressRules.get)
+   *
+   * @param string $appsId Part of `name`. Name of the Firewall resource to
+   * retrieve. Example: apps/myapp/firewall/ingressRules/100.
+   * @param string $ingressRulesId Part of `name`. See documentation of `appsId`.
+   * @param array $optParams Optional parameters.
+   * @return FirewallRule
+   */
+  public function get($appsId, $ingressRulesId, $optParams = [])
+  {
+    $params = ['appsId' => $appsId, 'ingressRulesId' => $ingressRulesId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], FirewallRule::class);
+  }
+  /**
+   * Lists the firewall rules of an application.
+   * (ingressRules.listAppsFirewallIngressRules)
+   *
+   * @param string $appsId Part of `parent`. Name of the Firewall collection to
+   * retrieve. Example: apps/myapp/firewall/ingressRules.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string matchingAddress A valid IP Address. If set, only rules
+   * matching this address will be returned. The first returned rule will be the
+   * rule that fires on requests from this IP.
+   * @opt_param int pageSize Maximum results to return per page.
+   * @opt_param string pageToken Continuation token for fetching the next page of
+   * results.
+   * @return ListIngressRulesResponse
+   */
+  public function listAppsFirewallIngressRules($appsId, $optParams = [])
+  {
+    $params = ['appsId' => $appsId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListIngressRulesResponse::class);
+  }
+  /**
+   * Updates the specified firewall rule. (ingressRules.patch)
+   *
+   * @param string $appsId Part of `name`. Name of the Firewall resource to
+   * update. Example: apps/myapp/firewall/ingressRules/100.
+   * @param string $ingressRulesId Part of `name`. See documentation of `appsId`.
+   * @param FirewallRule $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Standard field mask for the set of fields to be
+   * updated.
+   * @return FirewallRule
+   */
+  public function patch($appsId, $ingressRulesId, FirewallRule $postBody, $optParams = [])
+  {
+    $params = ['appsId' => $appsId, 'ingressRulesId' => $ingressRulesId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], FirewallRule::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AppsFirewallIngressRules::class, 'Google_Service_Appengine_Resource_AppsFirewallIngressRules');

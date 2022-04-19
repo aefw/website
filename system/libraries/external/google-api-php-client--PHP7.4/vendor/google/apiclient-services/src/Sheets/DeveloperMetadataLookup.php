@@ -1,67 +1,96 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Sheets;
+
+class DeveloperMetadataLookup extends \Google\Model
+{
+  public $locationMatchingStrategy;
+  public $locationType;
+  public $metadataId;
+  public $metadataKey;
+  protected $metadataLocationType = DeveloperMetadataLocation::class;
+  protected $metadataLocationDataType = '';
+  public $metadataValue;
+  public $visibility;
+
+  public function setLocationMatchingStrategy($locationMatchingStrategy)
+  {
+    $this->locationMatchingStrategy = $locationMatchingStrategy;
+  }
+  public function getLocationMatchingStrategy()
+  {
+    return $this->locationMatchingStrategy;
+  }
+  public function setLocationType($locationType)
+  {
+    $this->locationType = $locationType;
+  }
+  public function getLocationType()
+  {
+    return $this->locationType;
+  }
+  public function setMetadataId($metadataId)
+  {
+    $this->metadataId = $metadataId;
+  }
+  public function getMetadataId()
+  {
+    return $this->metadataId;
+  }
+  public function setMetadataKey($metadataKey)
+  {
+    $this->metadataKey = $metadataKey;
+  }
+  public function getMetadataKey()
+  {
+    return $this->metadataKey;
+  }
+  /**
+   * @param DeveloperMetadataLocation
+   */
+  public function setMetadataLocation(DeveloperMetadataLocation $metadataLocation)
+  {
+    $this->metadataLocation = $metadataLocation;
+  }
+  /**
+   * @return DeveloperMetadataLocation
+   */
+  public function getMetadataLocation()
+  {
+    return $this->metadataLocation;
+  }
+  public function setMetadataValue($metadataValue)
+  {
+    $this->metadataValue = $metadataValue;
+  }
+  public function getMetadataValue()
+  {
+    return $this->metadataValue;
+  }
+  public function setVisibility($visibility)
+  {
+    $this->visibility = $visibility;
+  }
+  public function getVisibility()
+  {
+    return $this->visibility;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(DeveloperMetadataLookup::class, 'Google_Service_Sheets_DeveloperMetadataLookup');

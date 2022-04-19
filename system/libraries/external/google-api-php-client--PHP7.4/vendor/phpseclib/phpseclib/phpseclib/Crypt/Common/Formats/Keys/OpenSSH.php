@@ -1,133 +1,234 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-uXJZjffyl8W=
+<?php
+
+/**
+ * OpenSSH Key Handler
+ *
+ * PHP version 5
+ *
+ * Place in $HOME/.ssh/authorized_keys
+ *
+ * @category  Crypt
+ * @package   Common
+ * @author    Jim Wigginton <terrafrost@php.net>
+ * @copyright 2015 Jim Wigginton
+ * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      http://phpseclib.sourceforge.net
+ */
+
+namespace phpseclib3\Crypt\Common\Formats\Keys;
+
+use ParagonIE\ConstantTime\Base64;
+use phpseclib3\Common\Functions\Strings;
+use phpseclib3\Crypt\Random;
+use phpseclib3\Exception\UnsupportedFormatException;
+
+/**
+ * OpenSSH Formatted RSA Key Handler
+ *
+ * @package Common
+ * @author  Jim Wigginton <terrafrost@php.net>
+ * @access  public
+ */
+abstract class OpenSSH
+{
+    /**
+     * Default comment
+     *
+     * @var string
+     * @access private
+     */
+    protected static $comment = 'phpseclib-generated-key';
+
+    /**
+     * Binary key flag
+     *
+     * @var bool
+     * @access private
+     */
+    protected static $binary = false;
+
+    /**
+     * Sets the default comment
+     *
+     * @access public
+     * @param string $comment
+     */
+    public static function setComment($comment)
+    {
+        self::$comment = str_replace(["\r", "\n"], '', $comment);
+    }
+
+    /**
+     * Break a public or private key down into its constituent components
+     *
+     * $type can be either ssh-dss or ssh-rsa
+     *
+     * @access public
+     * @param string $key
+     * @param string $password
+     * @return array
+     */
+    public static function load($key, $password = '')
+    {
+        if (!Strings::is_stringable($key)) {
+            throw new \UnexpectedValueException('Key should be a string - not a ' . gettype($key));
+        }
+
+        // key format is described here:
+        // https://cvsweb.openbsd.org/cgi-bin/cvsweb/src/usr.bin/ssh/PROTOCOL.key?annotate=HEAD
+
+        if (strpos($key, 'BEGIN OPENSSH PRIVATE KEY') !== false) {
+            $key = preg_replace('#(?:^-.*?-[\r\n]*$)|\s#ms', '', $key);
+            $key = Base64::decode($key);
+            $magic = Strings::shift($key, 15);
+            if ($magic != "openssh-key-v1\0") {
+                throw new \RuntimeException('Expected openssh-key-v1');
+            }
+            list($ciphername, $kdfname, $kdfoptions, $numKeys) = Strings::unpackSSH2('sssN', $key);
+            if ($numKeys != 1) {
+                // if we wanted to support multiple keys we could update PublicKeyLoader to preview what the # of keys
+                // would be; it'd then call Common\Keys\OpenSSH.php::load() and get the paddedKey. it'd then pass
+                // that to the appropriate key loading parser $numKey times or something
+                throw new \RuntimeException('Although the OpenSSH private key format supports multiple keys phpseclib does not');
+            }
+            if (strlen($kdfoptions) || $kdfname != 'none' || $ciphername != 'none') {
+                /*
+                  OpenSSH private keys use a customized version of bcrypt. specifically, instead of encrypting
+                  OrpheanBeholderScryDoubt 64 times OpenSSH's bcrypt variant encrypts
+                  OxychromaticBlowfishSwatDynamite 64 times. so we can't use crypt().
+
+                  bcrypt is basically Blowfish with an altered key expansion. whereas Blowfish just runs the
+                  key through the key expansion bcrypt interleaves the key expansion with the salt and
+                  password. this renders openssl / mcrypt unusuable. this forces us to use a pure-PHP implementation
+                  of bcrypt. the problem with that is that pure-PHP is too slow to be practically useful.
+
+                  in addition to encrypting a different string 64 times the OpenSSH implementation also performs bcrypt
+                  from scratch $rounds times. calling crypt() 64x with bcrypt takes 0.7s. PHP is going to be naturally
+                  slower. pure-PHP is 215x slower than OpenSSL for AES and pure-PHP is 43x slower for bcrypt.
+                  43 * 0.7 = 30s. no one wants to wait 30s to load a private key.
+
+                  another way to think about this..  according to wikipedia's article on Blowfish,
+                  "Each new key requires pre-processing equivalent to encrypting about 4 kilobytes of text".
+                  key expansion is done (9+64*2)*160 times. multiply that by 4 and it turns out that Blowfish,
+                  OpenSSH style, is the equivalent of encrypting ~80mb of text.
+
+                  more supporting evidence: sodium_compat does not implement Argon2 (another password hashing
+                  algorithm) because "It's not feasible to polyfill scrypt or Argon2 into PHP and get reasonable
+                  performance. Users would feel motivated to select parameters that downgrade security to avoid
+                  denial of service (DoS) attacks. The only winning move is not to play"
+                    -- https://github.com/paragonie/sodium_compat/blob/master/README.md
+                */
+                throw new \RuntimeException('Encrypted OpenSSH private keys are not supported');
+                //list($salt, $rounds) = Strings::unpackSSH2('sN', $kdfoptions);
+            }
+
+            list($publicKey, $paddedKey) = Strings::unpackSSH2('ss', $key);
+            list($type) = Strings::unpackSSH2('s', $publicKey);
+            list($checkint1, $checkint2) = Strings::unpackSSH2('NN', $paddedKey);
+            // any leftover bytes in $paddedKey are for padding? but they should be sequential bytes. eg. 1, 2, 3, etc.
+            if ($checkint1 != $checkint2) {
+                throw new \RuntimeException('The two checkints do not match');
+            }
+            self::checkType($type);
+
+            return compact('type', 'publicKey', 'paddedKey');
+        }
+
+        $parts = explode(' ', $key, 3);
+
+        if (!isset($parts[1])) {
+            $key = base64_decode($parts[0]);
+            $comment = isset($parts[1]) ? $parts[1] : false;
+        } else {
+            $asciiType = $parts[0];
+            self::checkType($parts[0]);
+            $key = base64_decode($parts[1]);
+            $comment = isset($parts[2]) ? $parts[2] : false;
+        }
+        if ($key === false) {
+            throw new \UnexpectedValueException('Key should be a string - not a ' . gettype($key));
+        }
+
+        list($type) = Strings::unpackSSH2('s', $key);
+        self::checkType($type);
+        if (isset($asciiType) && $asciiType != $type) {
+            throw new \RuntimeException('Two different types of keys are claimed: ' . $asciiType . ' and ' . $type);
+        }
+        if (strlen($key) <= 4) {
+            throw new \UnexpectedValueException('Key appears to be malformed');
+        }
+
+        $publicKey = $key;
+
+        return compact('type', 'publicKey', 'comment');
+    }
+
+    /**
+     * Toggle between binary and printable keys
+     *
+     * Printable keys are what are generated by default. These are the ones that go in
+     * $HOME/.ssh/authorized_key.
+     *
+     * @access public
+     * @param bool $enabled
+     */
+    public static function setBinaryOutput($enabled)
+    {
+        self::$binary = $enabled;
+    }
+
+    /**
+     * Checks to see if the type is valid
+     *
+     * @access private
+     * @param string $candidate
+     */
+    private static function checkType($candidate)
+    {
+        if (!in_array($candidate, static::$types)) {
+            throw new \RuntimeException("The key type ($candidate) is not equal to: " . implode(',', static::$types));
+        }
+    }
+
+    /**
+     * Wrap a private key appropriately
+     *
+     * @access public
+     * @param string $publicKey
+     * @param string $privateKey
+     * @param string $password
+     * @param array $options
+     * @return string
+     */
+    protected static function wrapPrivateKey($publicKey, $privateKey, $password, $options)
+    {
+        if (!empty($password) && is_string($password)) {
+            throw new UnsupportedFormatException('Encrypted OpenSSH private keys are not supported');
+        }
+
+        list(, $checkint) = unpack('N', Random::string(4));
+
+        $comment = isset($options['comment']) ? $options['comment'] : self::$comment;
+        $paddedKey = Strings::packSSH2('NN', $checkint, $checkint) .
+                     $privateKey .
+                     Strings::packSSH2('s', $comment);
+
+        /*
+           from http://tools.ietf.org/html/rfc4253#section-6 :
+
+           Note that the length of the concatenation of 'packet_length',
+           'padding_length', 'payload', and 'random padding' MUST be a multiple
+           of the cipher block size or 8, whichever is larger.
+         */
+        $paddingLength = (7 * strlen($paddedKey)) % 8;
+        for ($i = 1; $i <= $paddingLength; $i++) {
+            $paddedKey.= chr($i);
+        }
+        $key = Strings::packSSH2('sssNss', 'none', 'none', '', 1, $publicKey, $paddedKey);
+        $key = "openssh-key-v1\0$key";
+
+        return "-----BEGIN OPENSSH PRIVATE KEY-----\r\n" .
+               chunk_split(Base64::encode($key), 70) .
+               "-----END OPENSSH PRIVATE KEY-----";
+    }
+}

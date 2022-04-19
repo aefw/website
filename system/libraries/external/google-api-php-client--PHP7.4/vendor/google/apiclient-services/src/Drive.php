@@ -1,110 +1,1217 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for Drive (v3).
+ *
+ * <p>
+ * Manages files in Drive including uploading, downloading, searching, detecting
+ * changes, and updating sharing permissions.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://developers.google.com/drive/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class Drive extends \Google\Service
+{
+  /** See, edit, create, and delete all of your Google Drive files. */
+  const DRIVE =
+      "https://www.googleapis.com/auth/drive";
+  /** See, create, and delete its own configuration data in your Google Drive. */
+  const DRIVE_APPDATA =
+      "https://www.googleapis.com/auth/drive.appdata";
+  /** See, edit, create, and delete only the specific Google Drive files you use with this app. */
+  const DRIVE_FILE =
+      "https://www.googleapis.com/auth/drive.file";
+  /** View and manage metadata of files in your Google Drive. */
+  const DRIVE_METADATA =
+      "https://www.googleapis.com/auth/drive.metadata";
+  /** See information about your Google Drive files. */
+  const DRIVE_METADATA_READONLY =
+      "https://www.googleapis.com/auth/drive.metadata.readonly";
+  /** View the photos, videos and albums in your Google Photos. */
+  const DRIVE_PHOTOS_READONLY =
+      "https://www.googleapis.com/auth/drive.photos.readonly";
+  /** See and download all your Google Drive files. */
+  const DRIVE_READONLY =
+      "https://www.googleapis.com/auth/drive.readonly";
+  /** Modify your Google Apps Script scripts' behavior. */
+  const DRIVE_SCRIPTS =
+      "https://www.googleapis.com/auth/drive.scripts";
+
+  public $about;
+  public $changes;
+  public $channels;
+  public $comments;
+  public $drives;
+  public $files;
+  public $permissions;
+  public $replies;
+  public $revisions;
+  public $teamdrives;
+
+  /**
+   * Constructs the internal representation of the Drive service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://www.googleapis.com/';
+    $this->servicePath = 'drive/v3/';
+    $this->batchPath = 'batch/drive/v3';
+    $this->version = 'v3';
+    $this->serviceName = 'drive';
+
+    $this->about = new Drive\Resource\About(
+        $this,
+        $this->serviceName,
+        'about',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'about',
+              'httpMethod' => 'GET',
+              'parameters' => [],
+            ],
+          ]
+        ]
+    );
+    $this->changes = new Drive\Resource\Changes(
+        $this,
+        $this->serviceName,
+        'changes',
+        [
+          'methods' => [
+            'getStartPageToken' => [
+              'path' => 'changes/startPageToken',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'driveId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'supportsAllDrives' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'supportsTeamDrives' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'teamDriveId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'changes',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'driveId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'includeCorpusRemovals' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'includeItemsFromAllDrives' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'includePermissionsForView' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'includeRemoved' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'includeTeamDriveItems' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'restrictToMyDrive' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'spaces' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'supportsAllDrives' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'supportsTeamDrives' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'teamDriveId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'watch' => [
+              'path' => 'changes/watch',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'driveId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'includeCorpusRemovals' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'includeItemsFromAllDrives' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'includePermissionsForView' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'includeRemoved' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'includeTeamDriveItems' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'restrictToMyDrive' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'spaces' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'supportsAllDrives' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'supportsTeamDrives' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'teamDriveId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->channels = new Drive\Resource\Channels(
+        $this,
+        $this->serviceName,
+        'channels',
+        [
+          'methods' => [
+            'stop' => [
+              'path' => 'channels/stop',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],
+          ]
+        ]
+    );
+    $this->comments = new Drive\Resource\Comments(
+        $this,
+        $this->serviceName,
+        'comments',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'files/{fileId}/comments',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'fileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'files/{fileId}/comments/{commentId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'fileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'commentId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'files/{fileId}/comments/{commentId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'fileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'commentId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'includeDeleted' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'files/{fileId}/comments',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'fileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'includeDeleted' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'startModifiedTime' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'files/{fileId}/comments/{commentId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'fileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'commentId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->drives = new Drive\Resource\Drives(
+        $this,
+        $this->serviceName,
+        'drives',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'drives',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'requestId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'drives/{driveId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'driveId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'drives/{driveId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'driveId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'useDomainAdminAccess' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'hide' => [
+              'path' => 'drives/{driveId}/hide',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'driveId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'drives',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'q' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'useDomainAdminAccess' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'unhide' => [
+              'path' => 'drives/{driveId}/unhide',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'driveId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'drives/{driveId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'driveId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'useDomainAdminAccess' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->files = new Drive\Resource\Files(
+        $this,
+        $this->serviceName,
+        'files',
+        [
+          'methods' => [
+            'copy' => [
+              'path' => 'files/{fileId}/copy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'fileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'enforceSingleParent' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'ignoreDefaultVisibility' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'includePermissionsForView' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'keepRevisionForever' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'ocrLanguage' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'supportsAllDrives' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'supportsTeamDrives' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'create' => [
+              'path' => 'files',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'enforceSingleParent' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'ignoreDefaultVisibility' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'includePermissionsForView' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'keepRevisionForever' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'ocrLanguage' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'supportsAllDrives' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'supportsTeamDrives' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'useContentAsIndexableText' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'files/{fileId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'fileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'enforceSingleParent' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'supportsAllDrives' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'supportsTeamDrives' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'emptyTrash' => [
+              'path' => 'files/trash',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'enforceSingleParent' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'export' => [
+              'path' => 'files/{fileId}/export',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'fileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'mimeType' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'generateIds' => [
+              'path' => 'files/generateIds',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'count' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'space' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'type' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'files/{fileId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'fileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'acknowledgeAbuse' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'includePermissionsForView' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'supportsAllDrives' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'supportsTeamDrives' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'files',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'corpora' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'corpus' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'driveId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'includeItemsFromAllDrives' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'includePermissionsForView' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'includeTeamDriveItems' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'q' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'spaces' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'supportsAllDrives' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'supportsTeamDrives' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'teamDriveId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'files/{fileId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'fileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'addParents' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'enforceSingleParent' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'includePermissionsForView' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'keepRevisionForever' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'ocrLanguage' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'removeParents' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'supportsAllDrives' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'supportsTeamDrives' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'useContentAsIndexableText' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'watch' => [
+              'path' => 'files/{fileId}/watch',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'fileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'acknowledgeAbuse' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'includePermissionsForView' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'supportsAllDrives' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'supportsTeamDrives' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->permissions = new Drive\Resource\Permissions(
+        $this,
+        $this->serviceName,
+        'permissions',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'files/{fileId}/permissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'fileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'emailMessage' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'enforceSingleParent' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'moveToNewOwnersRoot' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'sendNotificationEmail' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'supportsAllDrives' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'supportsTeamDrives' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'transferOwnership' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'useDomainAdminAccess' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'files/{fileId}/permissions/{permissionId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'fileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'permissionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'supportsAllDrives' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'supportsTeamDrives' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'useDomainAdminAccess' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'files/{fileId}/permissions/{permissionId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'fileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'permissionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'supportsAllDrives' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'supportsTeamDrives' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'useDomainAdminAccess' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'files/{fileId}/permissions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'fileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'includePermissionsForView' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'supportsAllDrives' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'supportsTeamDrives' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'useDomainAdminAccess' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'files/{fileId}/permissions/{permissionId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'fileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'permissionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'removeExpiration' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'supportsAllDrives' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'supportsTeamDrives' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'transferOwnership' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'useDomainAdminAccess' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->replies = new Drive\Resource\Replies(
+        $this,
+        $this->serviceName,
+        'replies',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'files/{fileId}/comments/{commentId}/replies',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'fileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'commentId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'files/{fileId}/comments/{commentId}/replies/{replyId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'fileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'commentId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'replyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'files/{fileId}/comments/{commentId}/replies/{replyId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'fileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'commentId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'replyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'includeDeleted' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'files/{fileId}/comments/{commentId}/replies',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'fileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'commentId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'includeDeleted' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'files/{fileId}/comments/{commentId}/replies/{replyId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'fileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'commentId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'replyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->revisions = new Drive\Resource\Revisions(
+        $this,
+        $this->serviceName,
+        'revisions',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'files/{fileId}/revisions/{revisionId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'fileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'revisionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'files/{fileId}/revisions/{revisionId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'fileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'revisionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'acknowledgeAbuse' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'files/{fileId}/revisions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'fileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'files/{fileId}/revisions/{revisionId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'fileId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'revisionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->teamdrives = new Drive\Resource\Teamdrives(
+        $this,
+        $this->serviceName,
+        'teamdrives',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'teamdrives',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'requestId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'teamdrives/{teamDriveId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'teamDriveId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'teamdrives/{teamDriveId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'teamDriveId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'useDomainAdminAccess' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'teamdrives',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'q' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'useDomainAdminAccess' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'teamdrives/{teamDriveId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'teamDriveId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'useDomainAdminAccess' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Drive::class, 'Google_Service_Drive');

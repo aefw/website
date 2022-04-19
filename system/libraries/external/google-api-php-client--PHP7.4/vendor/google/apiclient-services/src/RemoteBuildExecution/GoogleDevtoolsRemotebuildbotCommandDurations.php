@@ -1,93 +1,143 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-cUee8zxXnoSAyUdmaMSXZwyY9fku
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\RemoteBuildExecution;
+
+class GoogleDevtoolsRemotebuildbotCommandDurations extends \Google\Model
+{
+  public $casRelease;
+  public $cmWaitForAssignment;
+  public $dockerPrep;
+  public $dockerPrepStartTime;
+  public $download;
+  public $downloadStartTime;
+  public $execStartTime;
+  public $execution;
+  public $isoPrepDone;
+  public $overall;
+  public $stdout;
+  public $upload;
+  public $uploadStartTime;
+
+  public function setCasRelease($casRelease)
+  {
+    $this->casRelease = $casRelease;
+  }
+  public function getCasRelease()
+  {
+    return $this->casRelease;
+  }
+  public function setCmWaitForAssignment($cmWaitForAssignment)
+  {
+    $this->cmWaitForAssignment = $cmWaitForAssignment;
+  }
+  public function getCmWaitForAssignment()
+  {
+    return $this->cmWaitForAssignment;
+  }
+  public function setDockerPrep($dockerPrep)
+  {
+    $this->dockerPrep = $dockerPrep;
+  }
+  public function getDockerPrep()
+  {
+    return $this->dockerPrep;
+  }
+  public function setDockerPrepStartTime($dockerPrepStartTime)
+  {
+    $this->dockerPrepStartTime = $dockerPrepStartTime;
+  }
+  public function getDockerPrepStartTime()
+  {
+    return $this->dockerPrepStartTime;
+  }
+  public function setDownload($download)
+  {
+    $this->download = $download;
+  }
+  public function getDownload()
+  {
+    return $this->download;
+  }
+  public function setDownloadStartTime($downloadStartTime)
+  {
+    $this->downloadStartTime = $downloadStartTime;
+  }
+  public function getDownloadStartTime()
+  {
+    return $this->downloadStartTime;
+  }
+  public function setExecStartTime($execStartTime)
+  {
+    $this->execStartTime = $execStartTime;
+  }
+  public function getExecStartTime()
+  {
+    return $this->execStartTime;
+  }
+  public function setExecution($execution)
+  {
+    $this->execution = $execution;
+  }
+  public function getExecution()
+  {
+    return $this->execution;
+  }
+  public function setIsoPrepDone($isoPrepDone)
+  {
+    $this->isoPrepDone = $isoPrepDone;
+  }
+  public function getIsoPrepDone()
+  {
+    return $this->isoPrepDone;
+  }
+  public function setOverall($overall)
+  {
+    $this->overall = $overall;
+  }
+  public function getOverall()
+  {
+    return $this->overall;
+  }
+  public function setStdout($stdout)
+  {
+    $this->stdout = $stdout;
+  }
+  public function getStdout()
+  {
+    return $this->stdout;
+  }
+  public function setUpload($upload)
+  {
+    $this->upload = $upload;
+  }
+  public function getUpload()
+  {
+    return $this->upload;
+  }
+  public function setUploadStartTime($uploadStartTime)
+  {
+    $this->uploadStartTime = $uploadStartTime;
+  }
+  public function getUploadStartTime()
+  {
+    return $this->uploadStartTime;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleDevtoolsRemotebuildbotCommandDurations::class, 'Google_Service_RemoteBuildExecution_GoogleDevtoolsRemotebuildbotCommandDurations');

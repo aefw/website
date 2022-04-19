@@ -1,71 +1,144 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudRetail\Resource;
+
+use Google\Service\CloudRetail\GoogleCloudRetailV2ImportProductsRequest;
+use Google\Service\CloudRetail\GoogleCloudRetailV2Product;
+use Google\Service\CloudRetail\GoogleLongrunningOperation;
+use Google\Service\CloudRetail\GoogleProtobufEmpty;
+
+/**
+ * The "products" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $retailService = new Google\Service\CloudRetail(...);
+ *   $products = $retailService->products;
+ *  </code>
+ */
+class ProjectsLocationsCatalogsBranchesProducts extends \Google\Service\Resource
+{
+  /**
+   * Creates a Product. (products.create)
+   *
+   * @param string $parent Required. The parent catalog resource name, such as
+   * `projects/locations/global/catalogs/default_catalog/branches/default_branch`.
+   * @param GoogleCloudRetailV2Product $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string productId Required. The ID to use for the Product, which
+   * will become the final component of the Product.name. If the caller does not
+   * have permission to create the Product, regardless of whether or not it
+   * exists, a PERMISSION_DENIED error is returned. This field must be unique
+   * among all Products with the same parent. Otherwise, an ALREADY_EXISTS error
+   * is returned. This field must be a UTF-8 encoded string with a length limit of
+   * 128 characters. Otherwise, an INVALID_ARGUMENT error is returned.
+   * @return GoogleCloudRetailV2Product
+   */
+  public function create($parent, GoogleCloudRetailV2Product $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleCloudRetailV2Product::class);
+  }
+  /**
+   * Deletes a Product. (products.delete)
+   *
+   * @param string $name Required. Full resource name of Product, such as `project
+   * s/locations/global/catalogs/default_catalog/branches/default_branch/products/
+   * some_product_id`. If the caller does not have permission to delete the
+   * Product, regardless of whether or not it exists, a PERMISSION_DENIED error is
+   * returned. If the Product to delete does not exist, a NOT_FOUND error is
+   * returned. The Product to delete can neither be a Product.Type.COLLECTION
+   * Product member nor a Product.Type.PRIMARY Product with more than one
+   * variants. Otherwise, an INVALID_ARGUMENT error is returned. All inventory
+   * information for the named Product will be deleted.
+   * @param array $optParams Optional parameters.
+   * @return GoogleProtobufEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
+  }
+  /**
+   * Gets a Product. (products.get)
+   *
+   * @param string $name Required. Full resource name of Product, such as `project
+   * s/locations/global/catalogs/default_catalog/branches/default_branch/products/
+   * some_product_id`. If the caller does not have permission to access the
+   * Product, regardless of whether or not it exists, a PERMISSION_DENIED error is
+   * returned. If the requested Product does not exist, a NOT_FOUND error is
+   * returned.
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudRetailV2Product
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudRetailV2Product::class);
+  }
+  /**
+   * Bulk import of multiple Products. Request processing may be synchronous. No
+   * partial updating is supported. Non-existing items are created. Note that it
+   * is possible for a subset of the Products to be successfully updated.
+   * (products.import)
+   *
+   * @param string $parent Required. `projects/1234/locations/global/catalogs/defa
+   * ult_catalog/branches/default_branch` If no updateMask is specified, requires
+   * products.create permission. If updateMask is specified, requires
+   * products.update permission.
+   * @param GoogleCloudRetailV2ImportProductsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function import($parent, GoogleCloudRetailV2ImportProductsRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('import', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Updates a Product. (products.patch)
+   *
+   * @param string $name Immutable. Full resource name of the product, such as `pr
+   * ojects/locations/global/catalogs/default_catalog/branches/default_branch/prod
+   * ucts/product_id`. The branch ID must be "default_branch".
+   * @param GoogleCloudRetailV2Product $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool allowMissing If set to true, and the Product is not found, a
+   * new Product will be created. In this situation, `update_mask` is ignored.
+   * @opt_param string updateMask Indicates which fields in the provided Product
+   * to update. The immutable and output only fields are NOT supported. If not
+   * set, all supported fields (the fields that are neither immutable nor output
+   * only) are updated. If an unsupported or unknown field is provided, an
+   * INVALID_ARGUMENT error is returned.
+   * @return GoogleCloudRetailV2Product
+   */
+  public function patch($name, GoogleCloudRetailV2Product $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], GoogleCloudRetailV2Product::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsCatalogsBranchesProducts::class, 'Google_Service_CloudRetail_Resource_ProjectsLocationsCatalogsBranchesProducts');

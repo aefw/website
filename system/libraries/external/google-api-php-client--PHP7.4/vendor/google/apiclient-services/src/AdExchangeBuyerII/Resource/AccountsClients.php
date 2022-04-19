@@ -1,67 +1,112 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Cpg95xReASIc
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AdExchangeBuyerII\Resource;
+
+use Google\Service\AdExchangeBuyerII\Client;
+use Google\Service\AdExchangeBuyerII\ListClientsResponse;
+
+/**
+ * The "clients" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $adexchangebuyer2Service = new Google\Service\AdExchangeBuyerII(...);
+ *   $clients = $adexchangebuyer2Service->clients;
+ *  </code>
+ */
+class AccountsClients extends \Google\Service\Resource
+{
+  /**
+   * Creates a new client buyer. (clients.create)
+   *
+   * @param string $accountId Unique numerical account ID for the buyer of which
+   * the client buyer is a customer; the sponsor buyer to create a client for.
+   * (required)
+   * @param Client $postBody
+   * @param array $optParams Optional parameters.
+   * @return Client
+   */
+  public function create($accountId, Client $postBody, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Client::class);
+  }
+  /**
+   * Gets a client buyer with a given client account ID. (clients.get)
+   *
+   * @param string $accountId Numerical account ID of the client's sponsor buyer.
+   * (required)
+   * @param string $clientAccountId Numerical account ID of the client buyer to
+   * retrieve. (required)
+   * @param array $optParams Optional parameters.
+   * @return Client
+   */
+  public function get($accountId, $clientAccountId, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'clientAccountId' => $clientAccountId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Client::class);
+  }
+  /**
+   * Lists all the clients for the current sponsor buyer.
+   * (clients.listAccountsClients)
+   *
+   * @param string $accountId Unique numerical account ID of the sponsor buyer to
+   * list the clients for.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Requested page size. The server may return fewer
+   * clients than requested. If unspecified, the server will pick an appropriate
+   * default.
+   * @opt_param string pageToken A token identifying a page of results the server
+   * should return. Typically, this is the value of
+   * ListClientsResponse.nextPageToken returned from the previous call to the
+   * accounts.clients.list method.
+   * @opt_param string partnerClientId Optional unique identifier (from the
+   * standpoint of an Ad Exchange sponsor buyer partner) of the client to return.
+   * If specified, at most one client will be returned in the response.
+   * @return ListClientsResponse
+   */
+  public function listAccountsClients($accountId, $optParams = [])
+  {
+    $params = ['accountId' => $accountId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListClientsResponse::class);
+  }
+  /**
+   * Updates an existing client buyer. (clients.update)
+   *
+   * @param string $accountId Unique numerical account ID for the buyer of which
+   * the client buyer is a customer; the sponsor buyer to update a client for.
+   * (required)
+   * @param string $clientAccountId Unique numerical account ID of the client to
+   * update. (required)
+   * @param Client $postBody
+   * @param array $optParams Optional parameters.
+   * @return Client
+   */
+  public function update($accountId, $clientAccountId, Client $postBody, $optParams = [])
+  {
+    $params = ['accountId' => $accountId, 'clientAccountId' => $clientAccountId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Client::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AccountsClients::class, 'Google_Service_AdExchangeBuyerII_Resource_AccountsClients');

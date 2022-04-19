@@ -1,62 +1,196 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for ArtifactRegistry (v1).
+ *
+ * <p>
+ * Store and manage build artifacts in a scalable and integrated service built
+ * on Google infrastructure.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/artifacts/docs/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class ArtifactRegistry extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+  /** View your data across Google Cloud Platform services. */
+  const CLOUD_PLATFORM_READ_ONLY =
+      "https://www.googleapis.com/auth/cloud-platform.read-only";
+
+  public $operations;
+  public $projects_locations_repositories;
+  public $projects_locations_repositories_dockerImages;
+
+  /**
+   * Constructs the internal representation of the ArtifactRegistry service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://artifactregistry.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'artifactregistry';
+
+    $this->operations = new ArtifactRegistry\Resource\Operations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'cancel' => [
+              'path' => 'v1/{+name}:cancel',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/operations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'name' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_repositories = new ArtifactRegistry\Resource\ProjectsLocationsRepositories(
+        $this,
+        $this->serviceName,
+        'repositories',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/repositories',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_repositories_dockerImages = new ArtifactRegistry\Resource\ProjectsLocationsRepositoriesDockerImages(
+        $this,
+        $this->serviceName,
+        'dockerImages',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/{+parent}/dockerImages',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ArtifactRegistry::class, 'Google_Service_ArtifactRegistry');

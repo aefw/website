@@ -1,59 +1,82 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-+zfyMDC+OP2Ym3Knf0==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\SASPortalTesting\Resource;
+
+use Google\Service\SASPortalTesting\SasPortalCustomer;
+use Google\Service\SASPortalTesting\SasPortalListCustomersResponse;
+
+/**
+ * The "customers" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $prod_tt_sasportalService = new Google\Service\SASPortalTesting(...);
+ *   $customers = $prod_tt_sasportalService->customers;
+ *  </code>
+ */
+class Customers extends \Google\Service\Resource
+{
+  /**
+   * Returns a requested customer. (customers.get)
+   *
+   * @param string $name Required. The name of the customer.
+   * @param array $optParams Optional parameters.
+   * @return SasPortalCustomer
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], SasPortalCustomer::class);
+  }
+  /**
+   * Returns a list of requested customers. (customers.listCustomers)
+   *
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The maximum number of customers to return in the
+   * response.
+   * @opt_param string pageToken A pagination token returned from a previous call
+   * to ListCustomers that indicates where this listing should continue from.
+   * @return SasPortalListCustomersResponse
+   */
+  public function listCustomers($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], SasPortalListCustomersResponse::class);
+  }
+  /**
+   * Updates an existing customer. (customers.patch)
+   *
+   * @param string $name Output only. Resource name of the customer.
+   * @param SasPortalCustomer $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Fields to be updated.
+   * @return SasPortalCustomer
+   */
+  public function patch($name, SasPortalCustomer $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], SasPortalCustomer::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Customers::class, 'Google_Service_SASPortalTesting_Resource_Customers');

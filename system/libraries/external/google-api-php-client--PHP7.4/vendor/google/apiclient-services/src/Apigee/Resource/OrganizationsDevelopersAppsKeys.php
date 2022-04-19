@@ -1,69 +1,144 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Apigee\Resource;
+
+use Google\Service\Apigee\GoogleCloudApigeeV1DeveloperAppKey;
+
+/**
+ * The "keys" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $apigeeService = new Google\Service\Apigee(...);
+ *   $keys = $apigeeService->keys;
+ *  </code>
+ */
+class OrganizationsDevelopersAppsKeys extends \Google\Service\Resource
+{
+  /**
+   * Creates a custom consumer key and secret for a developer app. This is
+   * particularly useful if you want to migrate existing consumer keys and secrets
+   * to Apigee from another system. Consumer keys and secrets can contain letters,
+   * numbers, underscores, and hyphens. No other special characters are allowed.
+   * To avoid service disruptions, a consumer key and secret should not exceed 2
+   * KBs each. **Note**: When creating the consumer key and secret, an association
+   * to API products will not be made. Therefore, you should not specify the
+   * associated API products in your request. Instead, use the
+   * UpdateDeveloperAppKey API to make the association after the consumer key and
+   * secret are created. If a consumer key and secret already exist, you can keep
+   * them or delete them using the DeleteDeveloperAppKey API. (keys.create)
+   *
+   * @param string $parent Parent of the developer app key. Use the following
+   * structure in your request:
+   * `organizations/{org}/developers/{developer_email}/apps`
+   * @param GoogleCloudApigeeV1DeveloperAppKey $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1DeveloperAppKey
+   */
+  public function create($parent, GoogleCloudApigeeV1DeveloperAppKey $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleCloudApigeeV1DeveloperAppKey::class);
+  }
+  /**
+   * Deletes an app's consumer key and removes all API products associated with
+   * the app. After the consumer key is deleted, it cannot be used to access any
+   * APIs. **Note**: After you delete a consumer key, you may want to: 1. Create a
+   * new consumer key and secret for the developer app using the
+   * CreateDeveloperAppKey API, and subsequently add an API product to the key
+   * using the UpdateDeveloperAppKey API. 2. Delete the developer app, if it is no
+   * longer required. (keys.delete)
+   *
+   * @param string $name Name of the developer app key. Use the following
+   * structure in your request:
+   * `organizations/{org}/developers/{developer_email}/apps/{app}/keys/{key}`
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1DeveloperAppKey
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleCloudApigeeV1DeveloperAppKey::class);
+  }
+  /**
+   * Gets details for a consumer key for a developer app, including the key and
+   * secret value, associated API products, and other information. (keys.get)
+   *
+   * @param string $name Name of the developer app key. Use the following
+   * structure in your request:
+   * `organizations/{org}/developers/{developer_email}/apps/{app}/keys/{key}`
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1DeveloperAppKey
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudApigeeV1DeveloperAppKey::class);
+  }
+  /**
+   * Updates the scope of an app. This API replaces the existing scopes with those
+   * specified in the request. Include or exclude any existing scopes that you
+   * want to retain or delete, respectively. The specified scopes must already be
+   * defined for the API products associated with the app. This API sets the
+   * `scopes` element under the `apiProducts` element in the attributes of the
+   * app. (keys.replaceDeveloperAppKey)
+   *
+   * @param string $name Name of the developer app key. Use the following
+   * structure in your request:
+   * `organizations/{org}/developers/{developer_email}/apps/{app}/keys/{key}`
+   * @param GoogleCloudApigeeV1DeveloperAppKey $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1DeveloperAppKey
+   */
+  public function replaceDeveloperAppKey($name, GoogleCloudApigeeV1DeveloperAppKey $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('replaceDeveloperAppKey', [$params], GoogleCloudApigeeV1DeveloperAppKey::class);
+  }
+  /**
+   * Adds an API product to a developer app key, enabling the app that holds the
+   * key to access the API resources bundled in the API product. In addition, you
+   * can add attributes to a developer app key. This API replaces the existing
+   * attributes with those specified in the request. Include or exclude any
+   * existing attributes that you want to retain or delete, respectively. You can
+   * use the same key to access all API products associated with the app.
+   * (keys.updateDeveloperAppKey)
+   *
+   * @param string $name Name of the developer app key. Use the following
+   * structure in your request:
+   * `organizations/{org}/developers/{developer_email}/apps/{app}/keys/{key}`
+   * @param GoogleCloudApigeeV1DeveloperAppKey $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string action Approve or revoke the consumer key by setting this
+   * value to `approve` or `revoke`, respectively.
+   * @return GoogleCloudApigeeV1DeveloperAppKey
+   */
+  public function updateDeveloperAppKey($name, GoogleCloudApigeeV1DeveloperAppKey $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('updateDeveloperAppKey', [$params], GoogleCloudApigeeV1DeveloperAppKey::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(OrganizationsDevelopersAppsKeys::class, 'Google_Service_Apigee_Resource_OrganizationsDevelopersAppsKeys');

@@ -1,66 +1,203 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPnsUXxXzGdo/250IcqLkokww7B8XVGMITVT6Zw8ji0JIG3k0p+jZNF8cno9s4cMc6vq/iIDz
-9sLGtU2JdVYYIlM4AI5L0iz/6Vc3bhQ5UuoYQKC3fHrg2pgWCBW0qI4jdeo1n9NB9V7DtSI45fPE
-fqmxD95yGHgUlsHnuR/c742WoxdJqNNToS5KtT2ia9eD/2mGy0bMw5GCf4EFjqG0XklfrkfoaUMM
-BFq1/XkSjQZ4/zoFDtKzuMhs63IREhCNtHegl+y3C+anOuJw+ACF6MvGrO6kl5Nd+Th9mxdEuJaR
-JCnpj7CqJkiKRaIMOMm1BmYI7cN/+v+jd6knHi9poSMDQIlzSku1RMu0QtVmo6jkwe4OtZeusXsS
-p5tbv5W2Q2Ym3zmddCGBA5omaIajKlaoxfpv+yVkVfhU+T4i5DslLKTl1q3hwJ7cr5hg6LrJUb0c
-seRt1Z5OZnU7mx99XURETiAbXHteeIr+bR2zmt7I+HiEgNxZdpcqnWWfAMm1b9y9aJIJpq4TwYAj
-WCiJhyy8HaB1Gv21lvUVYt23D7mFfmTiu1pgKhE/RQOK4ee9AsJlv+k8Hgo5RIEgqaa5Pp5Mk4L0
-SNbbaBPOlP46Oovc1Qds36Q7AgdEnb2hhJhwABzfZ97nBLmYQCiFszg2ZPH2QrfoM9UubKGKa1Ck
-DqwZAe+0mnJSomQJCnnB7rafb8zuyIoMpf4k+E/JgN1bbBKI589Va+C2bwFDlDX5MzHsjPGFYfis
-uZ4+rV3q1kQmR4F784X88b/DDNaWfIuP7Rcng1wca9E6ivZ84vP3IqvkrzlabJeXN7U5eJJyY+ny
-gQqBa/cZnQ9WedKzo8hc0RAV3lc90AKM9Y0v1YqmcDLDPr333bILFfEp93igEH6CQ7xchdfWZjp5
-ZR1lr8ZABUlDCI/EELHlTtIn9Pog55gK4H7VsF3vlRa+rns54fQvYe2+UdcV319phQg3WWI69dom
-8Nw/KgN2jYdfBCQKlhXavvJSzWUMN30G/rc/+H/Uet4ASICK/FDgOd/CSJi5uIjaWQ0u1h2FngIv
-ygMG/FQSEoFQx6pBQVftjWdfvutGbRVCTi5R8ZhPkzl5n9gcVi32rn9slpTCig9LMGn+ThQbpcHE
-PKHw6mnj5RdJgjv46b2UBn39KLS7UykEy8wcjitCgnDfGmx+UlCS8QpwVBIJnVeajeUqfvDbl0r8
-HfanCBFNp/k2LdteOuMgOI5cqMFa+svtmF7DTQd4UNlpoiadzPOE+497g/eUa7w5KCgn/lxNjG7g
-SWdC7woJumTfQHMN8brgzVKRkvQ3KA8Fk9daGth7hL2UztzDjLVEnhlRTG5CgA0AQjpQko4Uk9JP
-0V2+Ez27ZqJrUW4YJyjqtOzWjNJkJfZAJY0aWTHuXininy57jVjQHyPcqT52Wi/EsG1jGz3DLnma
-ZdKbbpYZ02SPsV61YvSzjMNPJJZ0XZUUloKmc9dG9iYp+gqmTcR8XmXRAURV35NzACUhlFu6voO6
-wG619TONWMi4Xwxstk7+0O8pCJy+a0H/+0E6sPWSUQT1OBIRfXhSAbAkoicutFRCjpfQcA599IZ4
-yQ0Wb8xVZd32laNiblZxeYYSx+P3tWc2/f91aNbStTDdvWI9VGqpwLDlhvzmI9PZcykok4Xixnz5
-iaR2vN+41YF5rv1JsXJAbJs6Fa2JicMMP7gbDIH0OLrXVmB6Nv/vOlopYg/QnZSeSY9LQJH4ywU0
-LBTx6NQo1zjAov1rrXrlsd/TFtOCMuj9ajGHonwoAlDEXrRh8qt6mqo1cAFBFnxim3Y+y2P8w/vX
-+9MyJeOZO4nX6DSjw3+JrXmfzuJ80GO12V6d9tLYz0n8myG5Rn5AdY2crIcWmTlZRXnyZTX3edkT
-wchDhPOhhjt3QutqiEsjt7FblG5aX7TL6MKwfsuWahcdMBt9IzrPGN/XA/oPZSSf4Akg1Kga2mDY
-cjHwe+8l5e7+HDSnv3j5pvx0x/GPwJqkqXcGP+jtf/lGZuJR9vHJgAYUFa5JH5iS3gQlWPbxHgp1
-SWym4KLIABHrhnIfkv9nAvVXgRVn0+7szjZIrJ9OE6OYsLmfwzcX57k2ClCjvXV2WK5eATIiR1qt
-3guREU0f8tRLUu446RpKMy15ZvCNceCv6dqKj+mcUzelsxYkUUP6qOXa7QcEJb1cZugvrinUlUoz
-j8vhW+QpZUfPMnLpZ+Jlbd4shBwaiHWjhaUUHl/AS7qFnn5GgLjX56EWLjzvTIbIU0Z4IbdbKym9
-4e8IDM7XQRq6QNeRibsLqYXF50kmlI2TA4i99HaWAn5aLOqwJRm83IoJ8Az+2y28UBSMWusXNxRE
-ZoafSkzFNpNOIymDO3E9AHghO+vanTviOdZ5A3VhiAC4c72IyzNNNmX6VUEVcBQhq+QCNX8A17sb
-24vns0B3yYiN3wmdPIGBCfXHkEQF+Qixifal+lsP3Akd/R3SA8ln38nGuLIIiMAEcFbuiX3Lr8YW
-14/n0nJT8JJBhn3WE7kVmsIinNddUJOtuPoCwnUopum56UKM4PaTg1i1ReMmlcXy2Ua7ePCjumws
-LrUnq/0DOsMfCerHpwzUUYHD7wpoBunnX5mDQBKaoL4Tni/HTP5uvNIvPxg7CyUSTwrkDrW2nmrT
-OLZc+DzOso2bGX3S7BNqFurWtQCcVXsg78FsSglz4FavTLxC82/8ItTzBj9iTjTYYidF9fFSTPSM
-gV0mjQ0GIA7COFo+Mkkq4qmV8tITCrZs3sAqc9WY0bNv0cRJZuFuZJAuu/9A2TZm5Av5GBSGbTTS
-fEq48skLKtBgk5cBnfNehVQHHg23maPlerfPS9FPwLBqS3ugzo9yvkSNyGMLWzb4EHFPAsOBqyRJ
-yEyxyn28+v5cFgMGqAPfkuDbUKvWe8EU3tKQ3UBuzPzfEkaM03iTEBYyjdmkCd/lYtegI7j6iLeX
-d4s19nFqCHKxU1RGhD2qKthCppjluGzg7ciXRCC41TaTS2kShV7OjpjlRE6ML0e7cSjaszzXgdBh
-xVASkF10PvfHf3TVmn5gKp0WdTLKm4tb4QKEoWkFnWKKV7XV+9qYNzHYCnAJBFkHIgiaz0vYRUSz
-XacKJA+GnkCrcoA7fEdezmAj7+aB3hN5wPRN5/hxIU6+IR5pAzB/Aj9P8wNjdF6L/nKCjNvdGerD
-cI2JifCBOrfilHVFPaMHO7dAVLrSrv4zNzltj1wiM64G/k9Es7MIQ+lt7mBcCdRF9vI2ZL+HwIFm
-HIP9KRaMK67c2F52fXo5hYjKqA7tmtXguw/L33trMebxBLpyZzTqAobNoS4prk428iJsb9C43JJC
-ok15J96VT3sbTK5prmW/MZ8Qxx8js4SNgdcE1m8/Zy75m/fC6Hcfjh5FPH3NdIqjlEezoKznsqWP
-ENuSLSkWTY+OAWTZUdZh+F05HZRFkRg12J+KHnB/vg8lBmSV4ptpOVElPrDvdcFcsvWIoPRAUt1P
-BJ/yWBmHYX5a8HcNrXbJ/VKbZH1XEum58aFMsEFkWI0gbSeCXAkOmjInaawgQPxi6ra0KEdBlKY5
-H4XkuHw++LcNXQ1bfHC3HAdGSv5LUTHZ8mOAVaTxdIrb7Y9xMXuNuw/o76ZFv8y7DH2940745jJ8
-mqH3rmOUvGwwkHtuATXcnNaxfS4Azd5vdcf0iFO+ZTTNXG2I48l0HCJPRjpzXton0kuUpohVt9+w
-hoJOny8wSgYmMvrw4/YyMCetCOHUd2Na7IcQyW2KTaBDPiD10x2I7qhSqJHa/+2Es0l7S0Trjkkc
-TV/qMuauURr6SPjji3jh7fFmsQBoa4hd+ncA6FbuftnBIoX9riAfP7+NxzUOWTif6Starf+/4EFQ
-II6rUYpSUYM6NYTN1hjVXJOCrLJ8+rN/Hy4rzoOP+meIEKTIcbXNpUkjC9XrxneZeyeC2eSeyUtm
-LsZ0hH9jpaWeQBPbTYRxaqC/5K9sRp+kUWOu6Z4D2rv7EA4EqX9PbC2LyGC4p6KoT18SBELY6HCL
-dasovLYAycsJCXNR1U4jsRVebO20wAcN+6F6FUUZqeHbBJjlPHE91PYIBrhTruwPAHXSgQJXfE2J
-SnbY3qrRPRsW1Ow6ej9s3c5HAVFEgsV3F+HnfXXc/rDpJpf+vngYLwEAqc7KTwQ6nnH+tINf6YwR
-lx1HZSqk6DkceDG0XIfY3EUuA8Hs/01kiNHd0kgnAmt+c3IekebyiEIfgzTms5NOAJvP82v90zlC
-1NniwCa9M94Ch/vxBeOpzKo3uRdqV1wUgf4gOY3dkXCF2vNsuLYGkhzXjutPzoczSu7Z5wfQ6RmJ
-hyCMG1mi0b7LjRbzZUS2SZzhHj/5bDQ/QtAuwGaoeyjMARFXiwfwHTYvUmb9Gqv+QtmSnLvpdUxe
-hIfBKC5IKkTj5dcLytMQKQF1FHvWyI28AWswL5IWdN57087Heg+WId+Ezopqs8r3jHgTQdbfC5NE
-85KRwbSrT14CXtGIp8QtIbfFKTVOL4zKsMsgCh8QbOPS2t8lr2hwFS406wYykMaUpSu=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute\Resource;
+
+use Google\Service\Compute\Commitment;
+use Google\Service\Compute\CommitmentAggregatedList;
+use Google\Service\Compute\CommitmentList;
+use Google\Service\Compute\Operation;
+
+/**
+ * The "regionCommitments" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $computeService = new Google\Service\Compute(...);
+ *   $regionCommitments = $computeService->regionCommitments;
+ *  </code>
+ */
+class RegionCommitments extends \Google\Service\Resource
+{
+  /**
+   * Retrieves an aggregated list of commitments.
+   * (regionCommitments.aggregatedList)
+   *
+   * @param string $project Project ID for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param bool includeAllScopes Indicates whether every visible scope for
+   * each scope type (zone, region, global) should be included in the response.
+   * For new resource types added after this field, the flag has no effect as new
+   * resource types will always include every visible scope for each scope type in
+   * response. For resource types which predate this field, if this flag is
+   * omitted or false, only scopes of the scope types where the resource type is
+   * expected to be found will be included.
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return CommitmentAggregatedList
+   */
+  public function aggregatedList($project, $optParams = [])
+  {
+    $params = ['project' => $project];
+    $params = array_merge($params, $optParams);
+    return $this->call('aggregatedList', [$params], CommitmentAggregatedList::class);
+  }
+  /**
+   * Returns the specified commitment resource. Gets a list of available
+   * commitments by making a list() request. (regionCommitments.get)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region for this request.
+   * @param string $commitment Name of the commitment to return.
+   * @param array $optParams Optional parameters.
+   * @return Commitment
+   */
+  public function get($project, $region, $commitment, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'commitment' => $commitment];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Commitment::class);
+  }
+  /**
+   * Creates a commitment in the specified project using the data included in the
+   * request. (regionCommitments.insert)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region for this request.
+   * @param Commitment $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function insert($project, $region, Commitment $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Operation::class);
+  }
+  /**
+   * Retrieves a list of commitments contained within the specified region.
+   * (regionCommitments.listRegionCommitments)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return CommitmentList
+   */
+  public function listRegionCommitments($project, $region, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], CommitmentList::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(RegionCommitments::class, 'Google_Service_Compute_Resource_RegionCommitments');

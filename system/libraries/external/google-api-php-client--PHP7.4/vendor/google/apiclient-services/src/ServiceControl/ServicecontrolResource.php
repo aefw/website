@@ -1,83 +1,134 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-5+JqEuZY758th9Y0A/F1vuhwQ9qn7OUroHdGG0==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ServiceControl;
+
+class ServicecontrolResource extends \Google\Model
+{
+  public $annotations;
+  public $createTime;
+  public $deleteTime;
+  public $displayName;
+  public $etag;
+  public $labels;
+  public $location;
+  public $name;
+  public $service;
+  public $type;
+  public $uid;
+  public $updateTime;
+
+  public function setAnnotations($annotations)
+  {
+    $this->annotations = $annotations;
+  }
+  public function getAnnotations()
+  {
+    return $this->annotations;
+  }
+  public function setCreateTime($createTime)
+  {
+    $this->createTime = $createTime;
+  }
+  public function getCreateTime()
+  {
+    return $this->createTime;
+  }
+  public function setDeleteTime($deleteTime)
+  {
+    $this->deleteTime = $deleteTime;
+  }
+  public function getDeleteTime()
+  {
+    return $this->deleteTime;
+  }
+  public function setDisplayName($displayName)
+  {
+    $this->displayName = $displayName;
+  }
+  public function getDisplayName()
+  {
+    return $this->displayName;
+  }
+  public function setEtag($etag)
+  {
+    $this->etag = $etag;
+  }
+  public function getEtag()
+  {
+    return $this->etag;
+  }
+  public function setLabels($labels)
+  {
+    $this->labels = $labels;
+  }
+  public function getLabels()
+  {
+    return $this->labels;
+  }
+  public function setLocation($location)
+  {
+    $this->location = $location;
+  }
+  public function getLocation()
+  {
+    return $this->location;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setService($service)
+  {
+    $this->service = $service;
+  }
+  public function getService()
+  {
+    return $this->service;
+  }
+  public function setType($type)
+  {
+    $this->type = $type;
+  }
+  public function getType()
+  {
+    return $this->type;
+  }
+  public function setUid($uid)
+  {
+    $this->uid = $uid;
+  }
+  public function getUid()
+  {
+    return $this->uid;
+  }
+  public function setUpdateTime($updateTime)
+  {
+    $this->updateTime = $updateTime;
+  }
+  public function getUpdateTime()
+  {
+    return $this->updateTime;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ServicecontrolResource::class, 'Google_Service_ServiceControl_ServicecontrolResource');

@@ -1,69 +1,96 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPux2tdTeWIDu1GrBLEVfSBWZDKz8vfVbTF6hlRhHMGD9a9mQaRBeTaFHpACv2lrpq4LPdx3H
-XapHnKn7AulEsAsVaOmjaUF+e6b9sry+HQWjcDjk3xvh65NM8YN2g0j9ILuKRmve+YvUAafoj10S
-y6a7qu6BZ8mpWbadDhRHBR8v+Zbv5bEvRQuIeK/nZBHFxCuSn29aJdHLl3M1H47dY/ZTl0CmnbUd
-GzZyB1d109ngMatFSPIUI5i3V6MyVa5NWMlhefz2hnoFWSPAilk37xE83WBYS5CkDLI4g2o1fZvA
-1ULLTcmfh7QZSZIv+2cyYDJ1gIgmzJXYRd7/e5vYvDtNBkCESaoMUwAt0ItjYYAzx4+4nvVe2SoX
-e2Dq5CPX50o85/1YZSLoRtNZbmTv1IaVlt5uEX4CmWwHQ2uoeDTXWXX3Knc111DEy1h9FmxNGHJg
-fsmKxEmns6iYYbML2AppzooZi2ni6AD7fZ7qbOutsb+naGlfpp9clgRUg+9/f1DxLLu9FGFe7AvL
-hUeUAamKgyb0wo9i11Vq+4w5+GrXrrDd3e2ArbmU2Vd0zJYNYtZeGDKP5WAIFo4ZNciT8zFXiSNd
-YYTedFr9BnsDtsuATB90kL0mrMqu2JIaiQzqGQ1j+2hVffUdFGJsjUDGfNwVEkDijBZEK8diTPIp
-Phy7bMZvAxAdOj6g94UNBZkcsXhifKf/nDa7Qzkwn3MArfvQQXZy99MepKKBcsTrFzDZ6edh96+o
-WmhH2ArmBFb18fcEbX60aU++kbvzV3NIBIUsNgaR+LMMBFxGysc4qhcmpo/W68DFhR6f//U4lFKs
-aOQ86EIVrTp2763G6x7d1Z8j3RiJIRDmdb053iIaShpKbSeYQf0mRQBjd5b7ZwUwBCVQtBF9TEG1
-Ujoh8aamvi6QcodwOTBVZnbAdpIIhNKSw95T2TklNI7i4Fg1w9xM3PxiBN3Co+ys5s1JWml4njNa
-A72nNN7gmMmwAA2hp8ppQJHwtTcIiqqeHLBf+K4rYjNz+u1gfi2czr7xcvtYUlsspbIwnXWendlF
-eaplKdRYIDqxslAopPvWo8+fsT8sQfEipWXmvh9ftEpgZIkW5FIZjGpl/DUegdIfB2YE8EeIdFZ2
-ao1SKTY5HEvHqfmIXzfJ5t1/rM63D3d9IRwSIb2HQlVMrhdRMVmErBPBH5X9yGvk3MMGTpi94fLe
-9IaCmGMZxbvGg726qeczY80t8rqO1UUF8sTUZFwRi2mk1Pn/OMTm+NbvReMwQaDDBc9uaiZgJZLu
-3YyAyOqGNITfT7qABwxYav+Jkptjc3uO/wXm4DdPvz2GhE2MHyrKxzun6CqQkovNJMJyREakM+kY
-Ydrw1X89l4Gvj0d/H+a2olxfUzJPfklW0AdTNzZepJWdULtbB/1KCQgZGEYRBY4PWauSs0r0YROW
-6J00KJt0TcneZg/2cz95sYc02zoKUnVgOoCJwrFZVLbeIHbl+vtdPMNI2cdr70l8EiEL53KSGFas
-mRbt1Qca5cdETvup4j31FlKXAgej2N/R+ZqBxqVbkcFddAJKQSg2Ou61uvahFIHk3H257JJAC9ie
-AtSWM0sdWq5R65uWfjbXcwKhKMWtlOaMa8XnHdQNUEw8zI2sHsG+fYcAhtcDq3qZVslwovBtcs7P
-JJcQY19R7jsgZDQUHU/C9FJPY+oHdK/4a7IxEroiocbs45qW92RfTx3My1CYNjrZ8yD4Fp3GZRUb
-3pT67RFgYGx/FuUdLNmS0iseUHnKmpYlC6SdzE6UXRBbWgKVxsRWgG4oqdZ/z6H3iOKXDXiQwGqI
-hBDqYcfSTst/snXkiXMHxE3RHhe7SSpD/MVMI3h/1Bf6FrMc95YS9KFtohgkjF6PjhjBOfnnYdaM
-4bZxQtzeyCYR2ucUVScVSvrUdkJSuYJqkKkgKXh0fEaPb256Fg6rTDlgx1fd99SxMKxs4UTxUDyv
-dAqoo77sE9JN31MreHWT40vHo3QkUSnBtcPeI8OcdwT3oX9S4nLK8Vq03RpnC0+IvsIfefr2c2if
-ijc0+13vhFhFdk1EzTq9zvWW9tkQqT6ZqYNxTGyUPP/+nwulnKC5HR/ruo3QN3DiemQe8HgyE1Ay
-S8dyGqYlAxJjccixREEjiF++q1aaEN7+ENwvOUvZpRUA84aBSavB3q3IRgFGLGcOtwCAT5GHKXWn
-0QPy6gbxxNd1a3yPRfVWqhvxePtE9tblIJVRfn1l/xqpClTcXB/vkJ/nRprvBlNgf6dzSbmjssWL
-XXBGR7CclGFCvhA+cSY/DPpXjJGJW4c4bEyj1u6HxtQ497owvfRXr6lE2xMVTkE1KS088bLd4/ZO
-c0lU5jxS4U0+u+I8sInZ+Ep+aZyprinXTECGtM1N7fweTnY96WW7XLxMWwT01YegVUf4DC7w2dtO
-tJyUMgkCrI3dxzn8AoN8UbcwZMwB1OJARSBtevrxVYzIYkLFrA4nyrHw6Wp87rWThRO11P1+cX2Q
-zzvHKk0pilzfCsqMOrAZ+Lis0SNP140tro+5VWtC/zsWAMesWRF+hbuk3rJ85lJNv2M++8mPDmk7
-cBf0z6Y3Ks6LelFN/lYIGv15xwyLaEWbdjX/uSVL/UXcJ3VNd8GGNBAxD2MmSwy3z38x2IaYIk1W
-EzuKfgkoWJgSlJFdpsKoM9LkeAYDempJChDLdZX2KUqIizSHz5A6PbxkM0UNhAKuzvLaDo+u6s5b
-ZsU7BhHxPnGwsiLylPz3ebz0/3NnLF+FgghEf/xnqa5PLXdezdwUZOG8tmjym6pMOhGZxGoNCKdU
-BNdIxt16esTo5bl38bYN8Uo02mIntoyX2In7bxqBQtreCuAvlefSn4FKGqtvK555MDY7i9DcjXYb
-Ndckx+hfqlmH1wFUtluFePbpal4eIs8jOhBopQtDj7MCjz1joHHXv1mCy9d4ApTalAD5bvMEtDpp
-dGzrJTALVHi1nIn5l8VdMNvqZOP7Hw4I0R1MTggna8hSV0FgTBZFFs2LFbT5hQzuz/tRO9JFQOTR
-tAzXCA9tuhdsJYDKUD/+86iVgx8lNTgTBd+YGAl6yz2G2XRbb+Sdob2WlrFIlMGBxp5B/vXUSsDg
-O0QUT0+ZPwQA6xLDCcNhG9AKf6zyEfupXuLpOkXP5xrF3fYY0WSI5wWAcHgBIPcajea+3uiUI90m
-bpSaIZfwvo/1EAELAnr01DGk0nmfzMCEjGI7C/S2WqLKxK3Mp1Cee0XPsV0W84AwHIwwk5so2W+b
-52mdLYJv0JigXH9sMBHep68+sdLHiWDGWin2nWjR2FIZTNertXXxuVNM3eKi3F+LGw9KceIFZVXY
-m/ksCeTLBKwiY7leNi3saL3lWvihJJ+Snk7EL/y2KvAzr6EtzIH9spKxQGUrEubhrj9hAB+cYtV8
-GqBlYWkPSDJUEV2I9iPxVEbrRLmkEnYtALqNDWu7rAX01gK99OdH0hpT5kp+f0dd9KG1kmoPC9Mr
-1jFi5yeqyogTWLdmMBTIWymStHSHlNAJg67lFbBKuM7pS5DmS5H/vGTKN+5Z+mNp3J9TNIraKzcf
-Wb9Ce05hck9MQusUwrbnn/VBn4S4Pze2N2nJxO/Xm37htKAmlE6UQFK1gs/t14gLc/dNtBNAb5dT
-/jZ8XfmJOsg5h5vzpVTGxmHdtamHVbSSUKFTTDmdV+H4mZt2cF0XAaaNvLXKL0oRWTLeSXU5DU9d
-KZa83gZmjfyhgmYdcHFoMZITXj9E0vVd6e7mH1oTtWX3QW9YQhTX6oe8sjcwLv/60ItgoWY8gRuE
-B2nnJzLpWAXQJAOGRKZWMRvx5ZeeiI60d7+1B2E6ARy7kMCYPtQLplpwq6OH3umVOTBHgG3Q7jBm
-AoaR5j8HsVWzBhOI6827hnIDP5WVziO0P/cl3oGEUJeoCqCaNqiNEUNFi1tcCaGWo7DsaQNJqOP6
-/YbJtc8ukYELkLRbFx4i2d+Tnji21Cw0AwPeFtDMCj4ma4gCKJazGgxHzbrv2O5aRDCkZB62UIR+
-qyp5X12g8eST9MgQmgJR//YggTDhhvMspNmWmRclqXgQLThyt0jc43JAXYoW1n3yE/vdOrMygTo3
-Z077qq2ucMRHesVl1efzIzfbmdiIhI550ONTtL+N6dLa/q0Vn9GnS5BdApwOocJgK3AErHOAMdCL
-ioVnPLPa19mnZvLi+QM26iLDYL5zqIez+QXVKmrDQwcVIQfg/Ep88uEonAWbOFk7ky+Dy3HffaVh
-rCtlvy04AmQLoOFzKZEQzYTV6DHbn7+9e/BtIRdTppU8gviYhr2ZZJDZpUwvBaKpx6/aPx2Cp/F7
-t5p60qhD7H2CtX9KDmsW3HZvjNo30V8ilSZRyIhIPnDd29HosIOGSE5qIWErQZtLK/e4Zczl20XJ
-IllmnvQVKTy1c9qhEe6T+MRIPun+p1qVTHtlJa7MDY8K4kqIgOMKkbLViyIDB1bdWbYSTJgEObXZ
-uwqblpsnFIZYXE/0xRzjRfiRPo2cgCRVMyUMB1HFzenhauzRxmqru1m6K1QebqBwiRY5YaWMJmSq
-4gpaJPq0q7HQK8okZcYGrbr51/Dea9Y6/RXNwX+prFiJEB6dceBWTp0KTaareuVWmnK1KvSt49EU
-vfi02n0dt3gPzZMQnKnaOdYKZE+J0/vtSt+d/z8ZLSl3qHimrRf3Cbfud6JUaiakk+NQcJGjg2V6
-YqIFQEODrq5+wLbrjNnV/AW=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DatabaseMigrationService;
+
+class PostgreSqlConnectionProfile extends \Google\Model
+{
+  public $cloudSqlId;
+  public $host;
+  public $password;
+  public $passwordSet;
+  public $port;
+  protected $sslType = SslConfig::class;
+  protected $sslDataType = '';
+  public $username;
+
+  public function setCloudSqlId($cloudSqlId)
+  {
+    $this->cloudSqlId = $cloudSqlId;
+  }
+  public function getCloudSqlId()
+  {
+    return $this->cloudSqlId;
+  }
+  public function setHost($host)
+  {
+    $this->host = $host;
+  }
+  public function getHost()
+  {
+    return $this->host;
+  }
+  public function setPassword($password)
+  {
+    $this->password = $password;
+  }
+  public function getPassword()
+  {
+    return $this->password;
+  }
+  public function setPasswordSet($passwordSet)
+  {
+    $this->passwordSet = $passwordSet;
+  }
+  public function getPasswordSet()
+  {
+    return $this->passwordSet;
+  }
+  public function setPort($port)
+  {
+    $this->port = $port;
+  }
+  public function getPort()
+  {
+    return $this->port;
+  }
+  /**
+   * @param SslConfig
+   */
+  public function setSsl(SslConfig $ssl)
+  {
+    $this->ssl = $ssl;
+  }
+  /**
+   * @return SslConfig
+   */
+  public function getSsl()
+  {
+    return $this->ssl;
+  }
+  public function setUsername($username)
+  {
+    $this->username = $username;
+  }
+  public function getUsername()
+  {
+    return $this->username;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PostgreSqlConnectionProfile::class, 'Google_Service_DatabaseMigrationService_PostgreSqlConnectionProfile');

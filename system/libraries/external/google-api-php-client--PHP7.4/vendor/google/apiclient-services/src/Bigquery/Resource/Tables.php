@@ -1,91 +1,202 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPsksGMBcBBfLZtBKGUljosETSIchomZOYgR86ZzEfUSUYQYRQFmcigTAy7KSzBcuXXxrVB33
-QEG86dU1bA6C1xUVSTGfkVbcToKN/UnADSqRirA0PImeIU6KrP7Pim18ciPQPvjRlHbo1ICaD4Nr
-UJMP+DZaoLtPuV4nh/G+y4RPC6fxOKVA8vDpuv7uhTfHTAxY2jofUaEo8eduKFRe+ciOnx32bkyl
-3VB69QPNARKl5wDVvkj5t+4xVKnPaPaCHv+KPs66Y51hwud/kVMqSmK52U9mKourL8IeB86cFae5
-vLL7TSNsMM7brnES0zA8r6O5647Yjb7uR3ZUNrQXSeDFHrpD6Hfld8UqXfs/gjDkvcpIKYSv85i0
-UCzUqTlgywbmuVNP5YPIj0uzd1y7gcvBscjudvYgPYZMZIi+6cOY0kDNc0ecAypWEdTcNLeIEAhT
-5fslUFZpn8ssgCnH5bRFXhqqHuTBs3kN6HMcu9aI2F9z043xsJ8/t2mMboQXExFGzZ3+A6zMlmHJ
-PZ5HFsgCGbXa+89G9QCjmHaP096YuqcbT0VyHmXpgh9kb5nL5zKPvFor004qzKIGu76zCRmU5VvX
-RAGabLqND7aOy3ZpkRp6myLR6d51J+y84TL1GsAHwlHDOFw3Oit7saY6Jb518qkbxaH5pi//L/zo
-lsiH65K+dTqUmqO6KhUPUVKid4xhJe5d1msYJv75OUR2RuuXm2/hxohwSgXOp1cXK7jrDq+nTpqr
-IEovlxzJW4+EtyLu422HRXEMxQpuAS8OOTfu9kggrOyH3EhZhYj47SWCxskSJHIktdrtdRgVbvLz
-adedgkiPVdZgxtiYZF0SfIc4aX8mIpQjphZKxoBjTtFjtCZ8Tf/ifGWuDUylerAtg8PsziSoI3sq
-FyXgIYfaUVJ+f2XoFmpR90FfyFddh7FFwtpYJTpI8/l0PRAG6UIjEuz26U+cUFNag3KIMfMsJjm5
-Q2XqhChKJy+1h9kbE5g1/t64+X84Io6YxsVgxP9dsJE8JJV/D+KnrTIFFHHsENxEQ0MdJTQg9j2g
-HfpSyNYpMPtqsgPhlKTMzEPBp5CP+dF6/SYPoRnIoZtaarpqOadk1uw/NPOVPTkUvlW4cN2zLSyI
-vKfi7AWYY5IpDVsAI3M8e5b5/F65r5Sx5nOo898z64KdQfIZIZL1xLh+YxLb0CBOqYtWNtWDrKEf
-3xkBGYzVzTYVzMJ5uI0SjxWCPovwfd3RjfueOkWbjSExYmka79oZ0w+1CLQEMlaUdxQjqVHlVUhb
-OXkCJjxcG2vyQ5as9ilVoPklBi9OS+xleGVMx5eWRzk9/Zz8DTK1ePbkSocRLhbP3qBcQogK9ebe
-sO/sYHKVT/+htidy9sAd8N6FCKz8ov+aWtPQuRlA6GXGE/7mnz6dxbZBVO4N9mbq+uY6/upi1diS
-DlHMWBoAhXZ7KDVCGfPZ4agfZ4bpUPSj8V9NbnyirmQMeQDuGlnmLATKCfrHWvj+9zKXXIX1yjvw
-WIFKXLNeLMd/sHaHiJWwrXYNQ3IfzCWD6uuYXDDnOPq0GvJDgt0H7RvYul9giyf5YmCYIwfl4mnM
-4moSth7uNDc0We0b91LFfUD6QfwLhSWQV7JjqcQeXM3aUvIThL+YXYTG0/QPO5+F3pDQXS7qORK1
-XCgx7U5+ngfAOT8ZqhuDxpB1KiLXPmbBbIo1j2ez3vCIubD1EsH6Lf94fY+/ajD70NUJK/u43YG9
-ug6o0zIcow0RQzwXPU/mZQjK1f04FOoRJdZwPCefhRFbcrrDgq3bWMCHQBDZ5jDd4eRa+reMBAtu
-d2rUp9l66cYaUL7TPAZFby/V2rbp8v+Jn9EG95Y6BAg6HMXacjLjPeUgiMRCVg5QTB3RjD5LbD8+
-Yh/OMQikyNT0SyJRiQLQWRuYR8kbZsTKZEONSdxb8UlAaQToJdxZwLK9rkqCAQEsmi6gJVTfUT9c
-qValgg1GLzf77EaGyKiZ6JtFXi2bJDMtbS1FEtoGdiiPOb0LFecrUiT8Qp1qli7In63BmDRWdxg6
-8f9NMWj/5a/rm1CXM2b6nbZ/aM7SvjWb1Z/b072AIqhuqz831hr1up5/Tfz4vo39cmdxev5XduPS
-ccelK6aBLBypO/0lMfxK06Da2t1QhzEHlX7haxsgjzsUbkTSS1LmTixsiWM5A36/ZjzWCParPlUM
-PjnKkmnIhZdnr3HZQzYIEPCL1SwM8pFn8g3iWdTRcwEyjhmPwqMN3GVGsQMGbgjyQZ2te/OcRvud
-y5MybZd2lspRsYpAzsSbXeMa2lQcGLpFqOb+Gh8QQ1LvtNZyVJOP+fApH46vlCcp+60tbZeTc+Eb
-5kh87M1wJbu3C/tCu+ER5aedwDVVpCsU7+hZV/xBEhpwvzZZ6yJ/rB9J1YnLFn2mea+feyigv01P
-Q4yiIzR+dsPJZPoOQ0K6+4c1XlkfyslmPuCs4CInQwd5aUbSEQHKagL1eAd+hVITOCwdApYnf94r
-SeHc9mA1FtANovJaLETGtDOWta/baK5TWaMq6wdy965J7KNpcJVHTHc5izWTXuKQz/bG+TV6d80H
-oCvVuUl9YE/M91WSoAQNXC71qcAz/9KORRsOOrh3s5zWDdKUevDTB62aes/1PJwVxjduzXkgJmJ1
-n58b19HipqHZfFlU/L9XtwpNe63YSyKQqanFlN1aNsDWPp3D1DAXKnUGLLBHJup45LPjBPDG2Dvb
-+v8f0N1Mrldv924CTwf3yrx86UzF3qvJmoh5r2F2EkZd6vURSeP04u1t/BCzyCQM4IYTj6mSAGjv
-tE0OXeIOcrko63AJyd3dNNKDHjybYK3Hb0hdmAmnISXlD5lo/xx2qHiLVNcF60ipty6KIc82ssxN
-53OpO1jY+4cEGrgRHcxFNZ+RHtTmnvZkywlnE2iVQRth0IXkRKcwyDeN9T/vaK7OpfgA6E3PLgWa
-mYx+Pm1Lys2NoTxfOoUdWNXXw3d/ElqGvjrUQYRGOwmxhbW/oyItk5OWZNw2/t9Xt9D1UZjVxP/u
-CGi3kZAUvV8Nsib650vs0zU4XdgBKOGqlUyj/IgiWSv8wmTMOaeUiq52YSic38ZcDY58j1/EbnTP
-SNk6TNjoCLf7vUR1vXTiDcGHrIWKqxoz/WKR5S5Pb87jFwWBmz+bsOu3t5HnOT9ZshXkJ3RBeMVr
-pJRN4CtgEezCVwGa24TewSFv/Yp8fvptWzAjmILLqxoNJJ6bCVQHk64buL/tY7TCZDdOwfPWa0Xj
-JItJ4CotNHF3ks5TwQVZjK3iCWQJsBddeQMLB2bPEcig3jzxSHwrV+DVZY2hMTCVqRBd5JqvdY/y
-DuZ+y6MKlb+ekbZ4+7TAbxuxruTJAN4R9ztaSDusMIFSurC1wBcmKe5f6zdYeqJ90cBY7S+sq2zy
-jCpbOzJiK14oIh79D4C/KuVidaZ3OWX3nxt3YgX0RFzMCodKha2flVsWUJMMU8V7VDHrY6/9WnW4
-wTNWsuxZAi2ngZJ8MggokCUuzMc6wnOwVxdRTGWGvRdasBYcctu+iXlNKuih93R7TFnBvEaWUcXo
-Tm5teB6V977iVIT2D33/XR6tt2U8gawIqr8ZnMxeOibuqUeutzuzay9/+6pqIQrD2trYIFTFXWpG
-nsztTukHLRUuEnS5r6MveOvd7N3YvmWx9zcw4Q1+miP1W8mSC5Ja52DaAOFKBo0tOY1djaaYZMdP
-C50i+dCL/LjKUPcdfUyXIW5F4EoxE9bszPKMxmQpw1FK2uZP5L9xCZ//Ke1Z41WmmYLnCvp6kszl
-X68IeniJbJGaKsjtekPxV37mcoKN4QDra+QR4iz2yEsh/8c3As7nrgkyVXi6yy9+fA0YwkK3SDny
-hquDWN4vtvL6O6vzCfIhi4ntNhDYpBxPGZxVaUwFMnO6oc818jNYnVH4foeMnCS4HISZ8HCuhd0Y
-YXJWdA7vJT/SAmi15mDAEFblhZx+mL/MFpVH9v/mZQvkb8RFn0e142XX5nsGorxwRqAZS8UIJXSj
-AeZSKau7VwP+0UFBJEEWgF+n0AL4DAvKHC2Qk8Q0WxjQ7iEwJoFZHCy/Wek8byu89Gr7V4IqQ0xH
-RH6V1/yCZI9FzVfOJAVUvuXn8cKKfkZcTE1xKIk87mq7n/z5WituE2F/YJPNkOTxv/x8j67F6/75
-i20DKvnFV1qKmNlGOvfvXmkEHfh4LUd1PxFwlCfiqdOb15jw9rZ4WcTE2JSK1kuade9JuL+sUdMC
-Gzg5mA6EhsyYEpjUSIzePB8nbAJtgNd5pCSqWa0gVnVkQZMtlOXEsV5VrfW+nqQBmRi4CNZnd19A
-jli64hh1w2X3840zXsfwT8dL5Fr1hadP55Y0BtQA9aMLhqOVuz3D7whQHqJZTRwzLeLdbWv7TXvL
-hIASszOf3Z9qjjBZYhXX1j9yQSpg04kVm1BsCy7SzZUGhPioQU9jQBFKKYFELhTR6JI9jWJcFPVF
-5xjZrVe85KthrNInEGJKGfaJcNTnFQ9tg+TY3L8ZTlwLy5AJ2CXkYOwgl9NlWqW/Is180DPC6SIQ
-+FBs40S3CrhaoJ6/HpgYY86Xoooq+476BBAHKrsyoeV440ZMtMwM0rN6TcIGqNRJ/WbTzyttwzvL
-mFT7mWaOS7ATNotgNMM9LtAk9nq+tPRGe/Ip9KUzz7A5uYk9Hynxg5NWWcRDiKo30XSganjqQnKW
-m5HtigPkzwBiGvyCnyeAnMIK1APV/X5dfqiZcOdh5aS/Uqbnx8EJLIx75tsvfpJhPZ0KqSAS4qXJ
-2sAfqBdis72J3TnOoJw2kzYdGmruGtNiaIOstetMHF8eA9+NpbAO8UJ4FNIkuBnfx94dfu/L2Ufg
-R7H69OEojw+Tw5jYQURdjoWZ8OJhCfFmIDcOtZkGJUpZReEL1wmaOM8WTA1QCgtgO/TFt9wpWDhU
-FsttjN+9O0LcCDYVzemefaDIQZ+OUmrIT6x+rQ9hcqqQEMKrRBAqnm3GX9NOoqNSdsLDUCjuxGR2
-BpXhXCNftDkuh+/QKIgLBVdsMapSJsJMEO0CEiNPUQMgAtIw9jfcGNz4R+4AnVm/N+TqHykSn9Kd
-WNNYONrsUwNPUWGV+fFCEHQMLyMqGKIyNi2z87osD/bsRL9s52If/hJqAVaqX6b4C06XUMXFlGXW
-YUqj4fFsGHDSv6mZDRbiAIXA+FCFtXsWH4IEQtUAtvzcgByrNq3dMaQ6dcazxQ1SPvsyA7e7zzgj
-ZTxyQ0jWEorbrSKQof5v1KyDjNWZpmPQHDgugnTFjC8Cubr5+eMowl81nFcVgMbHGA3JSkOSzhTR
-sqoJ+HfBvhiFGDeeTZO0iZq0KcIDDyqLjdCBTgWCQ/iBh3bZXIXEXbXuFnDf71+OPqL7V7reM9XT
-gKmP1zQLmHrRDo9Hnfqc9nK1+1XDKpCONM9afcMnhvt5mBp+njk7Jsn8LhRj+juBTvkTXZP7QyKH
-eXnQRKGmBgkUI5xD1dEh8EVQYhRJsq4ef/t0GhlkMs90+Pc1WuYJUADU2nHps7c5+2wYcxqAPBo3
-M/z8B9oKsnlvHhabzKxYG+ipREOekKPzXoJr0rwG/DDHj4MP+aaMgCk9IGwcpn2ashbMqxXxaELn
-mi0ZbsZfhv43ioqVX/Imjcv8F/t14D+/kW6FRBF4uonSrZvZJdCd3WDPTtb+INQW/XqptJtF0LNf
-V6/493L97l3+WKpkEa7FZmd1bbEM94NiFGf6DqanoDQtkKRkKAmmkskyE2/jVmrjpzI2C1FDzgOX
-kJcaKg5Tna6fHTp6y53KtYpy/ouf1JAPYWgJgR0F9lqIwd9fktUY28Zws8Lj1MSkKFL8PguHkcMo
-ofES5q+7HNt2iEfbkgHzsOax2XxcQqrWeVWT5zjC/vsIxN9NXWaubU4TS6YT2CtRMnoAOq1OQ+V4
-+0apPhNPshCOUxnoZt9tR/Mhcob1yQf5ZkKP+ZX66+jVkCixVIWTmSwY5VsLMMCcCy6s2eOegxU1
-J0Tz+nDvWqgq/i2sN3Wr2JOSuGBiGGF89fL08ltDhBSd7dkJmlJaK6ejrQvUjqJn49RWcqTBHCBM
-eu7GHeA7q64TcYjkg9kDx0sRQtnOlV/H2ltF5oz5JL3v/6zkUdj2sIjKm115t3q/vNj9ej3mF/wo
-JGCC9KG35WrCcCM8PlWkKGkrkiF4w1cLpOxxleSeYDpc9pFlWeEPO9Rxe6zf0DflpXQ0xQJO62ng
-J0S3n+ToXpDGSq7wr4cWhrt0opT41lj4t/JSpklmV/L5qW8M9NA2X2Ya9pKGSfISHK9ML+1wStvM
-4jwqGoj9lhcumgxiORAs0OfuCzt9lI7LbRh+YfbLcj7EckFYYtsOWkyhWakyB/oSk4UZ1+M7l69B
-74nJGtwcI1TQfqodN+i4J0==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Bigquery\Resource;
+
+use Google\Service\Bigquery\GetIamPolicyRequest;
+use Google\Service\Bigquery\Policy;
+use Google\Service\Bigquery\SetIamPolicyRequest;
+use Google\Service\Bigquery\Table;
+use Google\Service\Bigquery\TableList;
+use Google\Service\Bigquery\TestIamPermissionsRequest;
+use Google\Service\Bigquery\TestIamPermissionsResponse;
+
+/**
+ * The "tables" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $bigqueryService = new Google\Service\Bigquery(...);
+ *   $tables = $bigqueryService->tables;
+ *  </code>
+ */
+class Tables extends \Google\Service\Resource
+{
+  /**
+   * Deletes the table specified by tableId from the dataset. If the table
+   * contains data, all the data will be deleted. (tables.delete)
+   *
+   * @param string $projectId Project ID of the table to delete
+   * @param string $datasetId Dataset ID of the table to delete
+   * @param string $tableId Table ID of the table to delete
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($projectId, $datasetId, $tableId, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'datasetId' => $datasetId, 'tableId' => $tableId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Gets the specified table resource by table ID. This method does not return
+   * the data in the table, it only returns the table resource, which describes
+   * the structure of this table. (tables.get)
+   *
+   * @param string $projectId Project ID of the requested table
+   * @param string $datasetId Dataset ID of the requested table
+   * @param string $tableId Table ID of the requested table
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string selectedFields List of fields to return (comma-separated).
+   * If unspecified, all fields are returned
+   * @return Table
+   */
+  public function get($projectId, $datasetId, $tableId, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'datasetId' => $datasetId, 'tableId' => $tableId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Table::class);
+  }
+  /**
+   * Gets the access control policy for a resource. Returns an empty policy if the
+   * resource exists and does not have a policy set. (tables.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param GetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function getIamPolicy($resource, GetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Creates a new, empty table in the dataset. (tables.insert)
+   *
+   * @param string $projectId Project ID of the new table
+   * @param string $datasetId Dataset ID of the new table
+   * @param Table $postBody
+   * @param array $optParams Optional parameters.
+   * @return Table
+   */
+  public function insert($projectId, $datasetId, Table $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'datasetId' => $datasetId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Table::class);
+  }
+  /**
+   * Lists all tables in the specified dataset. Requires the READER dataset role.
+   * (tables.listTables)
+   *
+   * @param string $projectId Project ID of the tables to list
+   * @param string $datasetId Dataset ID of the tables to list
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string maxResults Maximum number of results to return
+   * @opt_param string pageToken Page token, returned by a previous call, to
+   * request the next page of results
+   * @return TableList
+   */
+  public function listTables($projectId, $datasetId, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'datasetId' => $datasetId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], TableList::class);
+  }
+  /**
+   * Updates information in an existing table. The update method replaces the
+   * entire table resource, whereas the patch method only replaces fields that are
+   * provided in the submitted table resource. This method supports patch
+   * semantics. (tables.patch)
+   *
+   * @param string $projectId Project ID of the table to update
+   * @param string $datasetId Dataset ID of the table to update
+   * @param string $tableId Table ID of the table to update
+   * @param Table $postBody
+   * @param array $optParams Optional parameters.
+   * @return Table
+   */
+  public function patch($projectId, $datasetId, $tableId, Table $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'datasetId' => $datasetId, 'tableId' => $tableId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Table::class);
+  }
+  /**
+   * Sets the access control policy on the specified resource. Replaces any
+   * existing policy. Can return `NOT_FOUND`, `INVALID_ARGUMENT`, and
+   * `PERMISSION_DENIED` errors. (tables.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource. If the
+   * resource does not exist, this will return an empty set of permissions, not a
+   * `NOT_FOUND` error. Note: This operation is designed to be used for building
+   * permission-aware UIs and command-line tools, not for authorization checking.
+   * This operation may "fail open" without warning. (tables.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+  /**
+   * Updates information in an existing table. The update method replaces the
+   * entire table resource, whereas the patch method only replaces fields that are
+   * provided in the submitted table resource. (tables.update)
+   *
+   * @param string $projectId Project ID of the table to update
+   * @param string $datasetId Dataset ID of the table to update
+   * @param string $tableId Table ID of the table to update
+   * @param Table $postBody
+   * @param array $optParams Optional parameters.
+   * @return Table
+   */
+  public function update($projectId, $datasetId, $tableId, Table $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'datasetId' => $datasetId, 'tableId' => $tableId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Table::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Tables::class, 'Google_Service_Bigquery_Resource_Tables');

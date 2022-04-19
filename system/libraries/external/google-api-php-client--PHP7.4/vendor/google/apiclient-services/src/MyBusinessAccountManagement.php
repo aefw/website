@@ -1,70 +1,302 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for MyBusinessAccountManagement (v1).
+ *
+ * <p>
+ * The My Business Account Management API provides an interface for managing
+ * access to a location on Google.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://developers.google.com/my-business/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class MyBusinessAccountManagement extends \Google\Service
+{
+
+
+  public $accounts;
+  public $accounts_admins;
+  public $accounts_invitations;
+  public $locations;
+  public $locations_admins;
+
+  /**
+   * Constructs the internal representation of the MyBusinessAccountManagement
+   * service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://mybusinessaccountmanagement.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'mybusinessaccountmanagement';
+
+    $this->accounts = new MyBusinessAccountManagement\Resource\Accounts(
+        $this,
+        $this->serviceName,
+        'accounts',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/accounts',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/accounts',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'parentAccount' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'validateOnly' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->accounts_admins = new MyBusinessAccountManagement\Resource\AccountsAdmins(
+        $this,
+        $this->serviceName,
+        'admins',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/admins',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/admins',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->accounts_invitations = new MyBusinessAccountManagement\Resource\AccountsInvitations(
+        $this,
+        $this->serviceName,
+        'invitations',
+        [
+          'methods' => [
+            'accept' => [
+              'path' => 'v1/{+name}:accept',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'decline' => [
+              'path' => 'v1/{+name}:decline',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/invitations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->locations = new MyBusinessAccountManagement\Resource\Locations(
+        $this,
+        $this->serviceName,
+        'locations',
+        [
+          'methods' => [
+            'transfer' => [
+              'path' => 'v1/{+name}:transfer',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->locations_admins = new MyBusinessAccountManagement\Resource\LocationsAdmins(
+        $this,
+        $this->serviceName,
+        'admins',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/admins',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/admins',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(MyBusinessAccountManagement::class, 'Google_Service_MyBusinessAccountManagement');

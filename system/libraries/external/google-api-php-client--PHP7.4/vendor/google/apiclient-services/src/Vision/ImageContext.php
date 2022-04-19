@@ -1,67 +1,116 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-FlAmQY6UuW==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Vision;
+
+class ImageContext extends \Google\Collection
+{
+  protected $collection_key = 'languageHints';
+  protected $cropHintsParamsType = CropHintsParams::class;
+  protected $cropHintsParamsDataType = '';
+  public $languageHints;
+  protected $latLongRectType = LatLongRect::class;
+  protected $latLongRectDataType = '';
+  protected $productSearchParamsType = ProductSearchParams::class;
+  protected $productSearchParamsDataType = '';
+  protected $textDetectionParamsType = TextDetectionParams::class;
+  protected $textDetectionParamsDataType = '';
+  protected $webDetectionParamsType = WebDetectionParams::class;
+  protected $webDetectionParamsDataType = '';
+
+  /**
+   * @param CropHintsParams
+   */
+  public function setCropHintsParams(CropHintsParams $cropHintsParams)
+  {
+    $this->cropHintsParams = $cropHintsParams;
+  }
+  /**
+   * @return CropHintsParams
+   */
+  public function getCropHintsParams()
+  {
+    return $this->cropHintsParams;
+  }
+  public function setLanguageHints($languageHints)
+  {
+    $this->languageHints = $languageHints;
+  }
+  public function getLanguageHints()
+  {
+    return $this->languageHints;
+  }
+  /**
+   * @param LatLongRect
+   */
+  public function setLatLongRect(LatLongRect $latLongRect)
+  {
+    $this->latLongRect = $latLongRect;
+  }
+  /**
+   * @return LatLongRect
+   */
+  public function getLatLongRect()
+  {
+    return $this->latLongRect;
+  }
+  /**
+   * @param ProductSearchParams
+   */
+  public function setProductSearchParams(ProductSearchParams $productSearchParams)
+  {
+    $this->productSearchParams = $productSearchParams;
+  }
+  /**
+   * @return ProductSearchParams
+   */
+  public function getProductSearchParams()
+  {
+    return $this->productSearchParams;
+  }
+  /**
+   * @param TextDetectionParams
+   */
+  public function setTextDetectionParams(TextDetectionParams $textDetectionParams)
+  {
+    $this->textDetectionParams = $textDetectionParams;
+  }
+  /**
+   * @return TextDetectionParams
+   */
+  public function getTextDetectionParams()
+  {
+    return $this->textDetectionParams;
+  }
+  /**
+   * @param WebDetectionParams
+   */
+  public function setWebDetectionParams(WebDetectionParams $webDetectionParams)
+  {
+    $this->webDetectionParams = $webDetectionParams;
+  }
+  /**
+   * @return WebDetectionParams
+   */
+  public function getWebDetectionParams()
+  {
+    return $this->webDetectionParams;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ImageContext::class, 'Google_Service_Vision_ImageContext');

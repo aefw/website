@@ -1,59 +1,102 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dfareporting\Resource;
+
+use Google\Service\Dfareporting\DirectorySite;
+use Google\Service\Dfareporting\DirectorySitesListResponse;
+
+/**
+ * The "directorySites" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $dfareportingService = new Google\Service\Dfareporting(...);
+ *   $directorySites = $dfareportingService->directorySites;
+ *  </code>
+ */
+class DirectorySites extends \Google\Service\Resource
+{
+  /**
+   * Gets one directory site by ID. (directorySites.get)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param string $id Directory site ID.
+   * @param array $optParams Optional parameters.
+   * @return DirectorySite
+   */
+  public function get($profileId, $id, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], DirectorySite::class);
+  }
+  /**
+   * Inserts a new directory site. (directorySites.insert)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param DirectorySite $postBody
+   * @param array $optParams Optional parameters.
+   * @return DirectorySite
+   */
+  public function insert($profileId, DirectorySite $postBody, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], DirectorySite::class);
+  }
+  /**
+   * Retrieves a list of directory sites, possibly filtered. This method supports
+   * paging. (directorySites.listDirectorySites)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool acceptsInStreamVideoPlacements This search filter is no
+   * longer supported and will have no effect on the results returned.
+   * @opt_param bool acceptsInterstitialPlacements This search filter is no longer
+   * supported and will have no effect on the results returned.
+   * @opt_param bool acceptsPublisherPaidPlacements Select only directory sites
+   * that accept publisher paid placements. This field can be left blank.
+   * @opt_param bool active Select only active directory sites. Leave blank to
+   * retrieve both active and inactive directory sites.
+   * @opt_param string dfpNetworkCode Select only directory sites with this Ad
+   * Manager network code.
+   * @opt_param string ids Select only directory sites with these IDs.
+   * @opt_param int maxResults Maximum number of results to return.
+   * @opt_param string pageToken Value of the nextPageToken from the previous
+   * result page.
+   * @opt_param string searchString Allows searching for objects by name, ID or
+   * URL. Wildcards (*) are allowed. For example, "directory site*2015" will
+   * return objects with names like "directory site June 2015", "directory site
+   * April 2015", or simply "directory site 2015". Most of the searches also add
+   * wildcards implicitly at the start and the end of the search string. For
+   * example, a search string of "directory site" will match objects with name "my
+   * directory site", "directory site 2015" or simply, "directory site".
+   * @opt_param string sortField Field by which to sort the list.
+   * @opt_param string sortOrder Order of sorted results.
+   * @return DirectorySitesListResponse
+   */
+  public function listDirectorySites($profileId, $optParams = [])
+  {
+    $params = ['profileId' => $profileId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], DirectorySitesListResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(DirectorySites::class, 'Google_Service_Dfareporting_Resource_DirectorySites');

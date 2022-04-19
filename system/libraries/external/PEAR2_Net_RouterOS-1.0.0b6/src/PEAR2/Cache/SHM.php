@@ -1,110 +1,375 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPr5gT8LZv4oh2ghXfbG1TKUijike1/lhmBx8jm8LJp/uNrYfDsWj+vW9m6Y2Oa96/AzlxNVh
-w4VDO6/Y/QLf+8H91EjUh4iZETkBkbuD2kC0/X3Il8p6R5jHMyjjQNs8syQH2EzK7Hmt0s9LzJB5
-r1E6SMXNbaHP0lMfKhv4oI7qaUiGSfvdr4jfq22vm4OjJsTs7BvXTxrL/SZftrW7Y1XqCp8rQ/Nt
-OLCq0Myf0SfXHgqhCijVUY9a0p/zQw7vi8dZlFdjFM5harKB03MblP/HcU9mKourL8IeB86cFae5
-vLNmRGSIYo6M5XUTvzk8r0ju8e7ykOKrfGCGP1vCB0b9lCwIghPATXRciQHjNJGbdSZreaaJQ+zl
-KYDnPh9UGg47Y2ptGwD5HDnZBMLlkY8+Crr/vsQeb+UrqNf7R2vv2LlG6ikbiJ23bDBjTtMtnNWW
-ffqe+OfM9u2UPsUwvY4IpzqzjA8FTQqDm+GCcF6zfInh+Io2sqnmaHtWN52BIjm/SL7NsH0WjtGV
-O6vEeNizLy3h6RqqfoqrQyx0QDEh6Nq4r0HijO4sDQOocxQDGnYXCL7FSKrj9nHueMyTLVHm3bpI
-ZZFxfHQ9gFunbIfBEbdUdcsvd7pAg6fORytE8X+tsq/bOiHmgOmpK0mZzEh6pbm+pYcy1dfGJw/H
-BJPtpvQMiJ9uj9C8gCf2Bde59KpMQRfCyCgA2SoQTCZ9N8N0fb/hAazHngSPCrmxRiuiFogXsqff
-2v27+IOtIgjvr1xnsM8ovowJCc+GLdgl7Ss3Mh3sLrEqvat+v9z8ZGynqhqPsFwAJwrGISF3Nbq0
-Vt5dSP3MvEQp8swKod+iPU4WI65+UkPCzy8V9ZPvd/rnKhrTLSMvLxhW+kShsmewEBOfr+wU8Een
-bPpgRSBAt7aMXeZwta+kATT/ekaVFaEOjuikyrc9GrfPc/zbfztjMV6gyPlvOctjjy9yIEhDzV7B
-oCaGYCeCH+OktSI//QhVtPlfyYGpLi8mY5S4RpTohFkTb0zCzGP4G1TcbdTFZlkHLciP92GVM+x0
-8A7gY2JrAxmtIhdPqy+ae07R0QA0rpY7zMaFcMJXabqV5NdHC1/sq1irUwP60oga2b5QihmJePTd
-akB6PyHb5Zg6XoaIVbvKznIjlwY+IZK1RO4cqhLWbsbH2mR4Zt71xuxaMmp4aSTkAO4kU12oarXN
-sZOSpH/x5kXvHTGNsd2zIcyGDPVAsSNmTMyCm0Hil12uZXicLf18aOCT08Y6ciwZQ8golXMlLlaT
-X+/Y2EfSVhofrfe4mWkrvn/fMmsybCKHzx/fNggz95V5LTY77eb8EokRHaxjCm2E3px8eW1WHwqa
-JFUMirg5CpseEaISf3ZJWOb0b8J2JADs9GyYQpCS0JtpEPlSixCEhtvz0QY0dr0qZgBlx7/M/nlK
-78zK1wiRsLvi4HwFYraqfXFXnYK+OPf6TxfUSBEaRKk/Uhc3JJR61ad29kNFB8re8F9okFLxdio9
-IbjFR6k2/rYMkP8NEMJlGhm6joctK3l2FR3qPeueW7L0Dx77ubxsB1nA4OpL2r8kjAamVDi+eHVy
-X+s3b6bkLDKG1Cx51lnMRhi83+mD8mD74bumB7XbOkSUzqWFymx6XIpBIu42f+BGFTC50HWLfw7G
-f1SVuvl37XVD7ldIV9rEw6bNqJUbDkNINTjKG7+zM8o+OSjwi7mgK1PxzyhqOzD079TzG1BWFwrU
-tM9/slZClMdpaL2BXyqkgDCYVkMwBTY7Thl1tNsWcd17Owy5YMK985zZB9w6I7dBio+AS9vH/S/Y
-++6C44+ehiI53opJNhvJnfxGtwd6nqll0avC5Kc32GGF4E4Tskq0cd0SVRLfhNzKOdJT/JSBtC7d
-cmiipPrKed8lHoxb1JPcUcdhsm0avsdii85t9y3U0J/cso8zNOXcWbVFKM7a20T4EQo6H491Q7sq
-/ThBZC0ZhJ91CXMfQS1z500E3JTb90kShOH3a/fGSzLdO+qtqAL5hSFPmjEwaFyKbx9k9LU6w5NY
-sC2D/7ERn7O71TVRBcTng13/bpgTgG2sAVNHlo0AAc2ppvYVtvWRmJeAXC03WYkK8uz7kRqoI8b+
-CDPQlG5RO+f+RzNzVaciQP2Z3yrmc8wGnQ2cBl4KYRbiIhsZrebfG7O8HFNSvvgNofE3JnT9tFgv
-svDsR2W+5OmoPTWNumqN3PHwBrEjjpir51ExSbrqGCVZZoR8z6bhK9GU4+QDZ5Qg13d6Vuty9fmc
-TbROF+GkmukTnPcAf3ApkPDrx5ECuFj8yarvTI4B92iGfHIy7Wvl1ql+0sIUwzyATCssFUgerUYl
-+OP10RqslYtKLsPC1EDZ7BE0jWJwZ49BTCBjp0C3tEo0kGNVBibrGsqbN2CZ2//1bPbkIJPqeuuC
-zazxGdjZQSOU87NuYXOcQA+sCJMVfxoGNx+dcbFON7q1J+kVyQbwooaqWvrKOf6kIzZgNqDYrdsn
-1NydCnnERHB6CM16q9zcaTXlkYnXfFjN6BSgyqPxmUmVbKg7HkouAj23g6PuSAQU+553kuo5gK1+
-dW1RcgHjOmnncevX7asMlE+seGHb7gcrS+wUjkU+V7ldFutrsWqCBI99ZxSrtIqqHU8dNAH5WMP4
-3kdZeXtFKUiUVxwZjEFPAVV4pXOk0ZwzOmvE/ZlDLQj5VICfN5QU7OfAGhdZSeH2Alx18tA/KfEY
-YYQQNNxjKJsTkqDgHnRqEEaR6DQfx8XrnYcW1s6XKDQP9UxT9UZ6jwekPPkN5EOKM8eUZbpX2Ji5
-E692Dud7hiEQffl1MNI3MCIUpfLgyGkK4aYQBFAIbsSZv6V884fPqwHdxhp3QX+Ex5V8AIEclhYM
-Tzhd/BPZKmzr3LNnswDFqLRnssv/Am15sZJadVx1nNn1TU4Nqdg7mCFzvVTwIPj93VSf7x7OBfTz
-HVIEsbjHJkcBVcEgAqrid/fF78f2w48wGv1pPI1NZs/DZupz12xbjv990ZLC2o3CyrZuhBxsVl6z
-BTM3ty+TB3Nfd4MSFJuFSglUwGzHc2N43xjNXOxrTlW9sAVZne6zCerP7Stpi9bcbN9FQtMX4oDN
-0CsJHsP/XrnQRuMSV/t8xpbiQm/Nr0YW0ZRfA60nWUbwYYj/LleVSP7Uh4u+mSpwxv0ghvSJATyc
-1+KuYIAWZC6qD2dnA3BukvB2CA/wMUUlz7ZCOebMmCaVr2ACR6QcbGe12A7jxwNJcKZzr/ecfkhf
-EHbrfQCrN67OLeDyzpyaLG9s83ck+WvVw96hA1tNNUmQ4tHIJfvqWGF4nclCMBbdtQArwqrS/Zd5
-tYdtJe9noIks6pgUFgRgoru3kmdhH8vtImphURh7MofPQq7b5R0lHihZcZNdApv35xVxaoId0VC1
-aL1W2uaXyxcQsggiIePI/yQLZdOKLtnd6DM6SfGh6Q033tvOJ8uJ2mXVs70EBgfaq3dexLMdZva2
-oR05rABmPCBG51hT7xUwHLSBcHuKAHnCCgH/zN/EOyzjdANAG8AaAQdXlV6sDSTD4xyNS6klS/eT
-duVRPvKOOGXZnTLgi3klwn7lBimSAIR9IRSZzSChC45o8yGKBOXh91MuNoVyZ0bENR1+OWuf7jFx
-YyfYCOJjSxNnwmA1xMQmZSllMP8zOlJqwEV7WDCoMxmk4Z3/Su1VQ85UOaXduFGHkBQQFpEb9FCC
-4Ltot1wZ1RYZ2TkOM14KlPlAg2Z+GiGFpXSu6buRb8iqar+HP40Kx859/PaXyl2X9PzjuOMTMk47
-HqScklYB/7cTqllZOraMjqItQz1zodOLfeHGHrgQ/46bhwL/Ti5E1hM0z2LdXWLQo1LLD5JrUn+4
-fyNBoFVSvSx3p1BxhAGU/mIqj/pjg/qkHSKs+h5L+N7a/2UwboLvJLwblN63MVX7n7mdcHJABS2O
-Cyl3LQLwb3q4GVxZIkqqPKxcL8UHTJOX5N3xNM7u8hNPgnxA1KYJ+21gvZFd7D5Exjec6FNBGkFV
-rB7Zg9IfM+/dRfIheyiHg7IGlORUT4GKml3tSfRwz311XXcM9S9gRkaWxsm64dUnBGmMonSuBRD2
-wtdp/2QK5p/JcqQqCge/UPfRitHxIz0Wyn5zh+ioM5ygnmB/pjN5N/b+HVZIPjWkFycDRz399+ji
-epYkX61+iP1sAodeiKAkBvemBKH70zbwGnFA1yCnQ1CkKqqkYMTLNXz9BxcI+HA8oLsJihGHBNtQ
-+SDq57fAyF2bC3ZoEgSzJWUtKcTX7KvqdSTKH2mH+vHN1ZO/q6wCCsKFrn1w4SjcNEkjdaBPGbr5
-XBkPOVB0H7njhKyTuhFgzlUGLgdtcfaunEDi5tkBCd9e6QtWpnHoohsq9Ay/vtf6hQul0olnlnFT
-V9BeV3VMCjXLdBCR1eth0UdwOCymnYVqSr5DrUARf0oyAtyA/fstNqwSWfPc7rZ2aUrRa9sLpWnS
-xGcNQ7gD8Wg0XTx3K/dRrLsXWWvGaPB79Sw0wC5DOBhcJynqOzKfBdDc5wBuLtFlHQ9LlA5Ay9YM
-zR4Ob5G/ZAQLdQ5QIbil2FRJQB92p4DJNJU13jx/YxRRDr7Fh+DAEjR67C2Ni3FXf8hnjz+LW6+5
-4zVNyvgqFH4WuCj83GfRrrPqAkT/r5Kqd4CH9wkZKEoj46yfBEgew8gMgrkpuDLe+tV9FoUG131Y
-8HhawCeA7WEBgcDuLSpfH52MJ4SQssLqIi4x9vybO0QEAe/bWWw0S5wUKztvnLaFWiM+cTjO90we
-EXZ8t5Wc60zdcYlIh+9C46C4YLBpGKwiqURD+Y1x7cGgqLKmUEBZGgfWY9CQlw7j4QQvdEQ92XOG
-fu5I20j/Gl3cFl29wtT5S+HkdTBGQkVhMlLldu5AXKPLVQOV8aL5b4rmXq66NbhXmn93B0UQFvPf
-45SOgMp6x/PrEuInL+aYwnuzHMUDc5nHIBliqzRMgijaOh+YKDvDqWW0e+gqARzEjGrvOVhZVyRt
-nft+MmzgWM60csG6OqOH2/YyXA8vRylPt5ovwso1r0qJjAg22CSRMRtXsTk939vTCAJGcJgc+1D9
-jcJzuoDo32mBPfWSTOAdVY4IvRB/kEvwkLZAlLpy/iOJliFmshi0KbtgDIvqr3rwXjNMvJUhhe7G
-8N0wxCv6wzmj4pgR+E9d9Serv4p/b0UcekTCgmvwgqBp83Jon60FumMaFsjRlQwPUgv0MoL5LYGV
-bKZU0bqtm86tj2vl51ho0Y3rEnNbF/gzD5S7CY7WfDPpahCz7ZVzbOgtubdodCF3RY0HPATfd/r0
-qda9MaWJQI76wC6Zr4QBsRAf1wUOUiVP13LSopkg5+3F8UB2zQ171jNc5oUVd3RSOhvK+xBEHJ5v
-PciG/x5nbUv6eNQ/UiNZ+nAA9TCAcm4N2ULB2ypfJD6Uzp5XcshTl+niQwE5T5xk7jLJEKptD/Df
-ws2qO3TG0FUBhIQ3xyiWP3NDn56cSAHApP0RfnWrz1h6exbH7CyBEqG8tmwiA3XxOX8FHxcWO2rm
-t6IY4+UIbFSCDU226tj9O/xWIm16UEciin4ktRrRWoB5YNE+TGn8JaNmDGWnzevOuwr+IZIlf5Vl
-XmSu1K9o0npjYk2UnSeKL2448CSWFaSu42h+74tZdvjMNABg409DNGLhCHTVt/WkjTlsYb6MZSII
-UEzHXXW2ofKrpmwKJ6z8hJ3njCXgVqdjCTgrHp1c5QfP5hM4UiiHgFbw0GEiLXP8c60MnNCfTJDN
-JFpxLx9eyTDvhxiQfzsv+l4GY8usSN3G41TqstAM5/W25tAoJdvCsu+nxHZP6DuDZhhnNg4mw6TI
-nE+WUsP1hZkpbvxAI4S2CVtLnP58pL0LUb4tuERQ0zREmKtzsiv/BEMjJPdlFZ9rZHobBAGuBCAw
-lC0w7So9vZwPZFg8K/3RKUav4FjAOgI+sQLtNG4iGlEh8ZVGGokUTEQ5em/O6kMyQXuTG2oHUiDA
-hy3pJ2kWqBsGo3L4FuyAWBrOLIjmFOTJaeV828wuZtO4OzBV6X64PGF7tMQMzRbj+HCzl1mdFf2u
-OJ8h+8qe7GgOuLAuYou11rkInpERLgA6J5P0AEsfbBk8Ue5la5IRPIvbAxCVroUqeXUqIklC7PUv
-pdxzNIl/yaWjiy1fxCA3wUHJuElLoUnVb+T03oYT+9SuuGq0x5jQoHcv2u3GBWvr0Qp4czm0kRTw
-RxnOG6aKefWu99+DvEaNMsaIhi0gNTMqxSU9AnZVDYrnophZ41xSscqLjqJkYoB3GLlOdizGGcyS
-+RvVG/hyI74W1CZRetr1C0TrHqNPVCYiYXe1GilWmOMACL6aUijvbCFIf7wRPtvdi2IFmrx90evl
-DKPCQG/yzUhixQhU8f3KdMIVggpiyCIVIE8O457OlUgWog/6PzTvh5a7jjw9VwMTWZAc9ptpU953
-YAPDUeGGmnqMjxsFdAUdBXmNftKY7Yl2rJcen4LZ0Nz7eV6+/Ud+OCuhvxjx8yEvBF2Zq5CeguFV
-I6Zq+wyJvguPamPpPjKeGf7MxKVwbQkhuPXvDGgxwfjC+fTL5WpDQ//4yx5Ow02IIqWEsYgufa5J
-wP4qAV7zo5eN7vvq0LJHnkJRZ74eKzoVpTo1fCHnSNtbNVpDxA6XARD/REsh5a1ZWtzdTXdftDVA
-eWVPSHi9RMhZmUvNquu786pHJYR7EU0VTvxZaTt18NU8ASK9i97OKk30XVC+hfhGIbwWBBHqOze4
-65aZeDB4Yca6IDow4SKkLXbsAQyx3bvNbnNEwmqZBYjTu4ur+E2xvubovEBpf6sU/jyGpoTDS/fo
-QwoyvgTeWseom/GsnQ6MR15KVK/OT2s9yEicz2XWnJ0zyUZDP5l9AqQKEF0O8KPJ7mtozl9wl556
-nZ9SMiJT5jMvCyaiFfZfCBUVgvG0dLgefvxXS/EBV94WLGiSmiJDyKXDSjp301PpQlDfMJJ6yB3M
-xYb+dw884ip8N61W1fRO5EwMZ0D5mCLhsbpYKBKJIjJfWC2HAgXg/gcisM1nlkOprUgBPv4ErWam
-B3BjeB17J2wYLCgIlPlVUrHnu9gDjr8zMbjWLsFx9O8IaeMedSVrieDQPujMjkgtc6EENUge1MOE
-g08jb3Lf6xwbPerEUtg9ZJLUxWhtgk4AsaoiosnNfivGCV+auD1OJKgQsZXLY7cZiLqOMmmKBVRk
-ymrwkctGeNCh98XY26ul1z/12frUuIb47acI1292lnmFvOeBRY1IC2GK2Z2NZcd607/yMta/cgpx
-Oz7G5LNkUcM9LilNakYcz35ZrGQFv+qTB7tqVt5XSvI5jlJXJUT7jYbBmoKAgjU37BeH8Xpfqe/4
-/R9+RNui11dUfXgf+pjTVirsBzaef3YlvksPMMTCpbd5J7ywvTJgH09i3+3W566eHQna1uWKKoc/
-mP42XT0m+DDmrnjIZCv3o1Y1Bn4AU2PTr93g5sTiAbJoUbvRct6Puf4IeTX5tbVQCjnf0WNUVXkT
-Mf7XSpFo/iKSUMbTe9bzqUKx+jNDomBEEL8l9yZC37eSKw6h8hcFxzxnSmwwz5piIlQY6+yisRY3
-VZwXwPP+iUwl1wic/vAZ+mrQDx8axu0zL0TvMPr7xFrpEyLmiQVgUN2EKUuJ2b1cnbx+HI2KkllU
-CkUFlReuZZe2BCH4Ei68eWNPzx4VmZGzYHru4unp08pzY7Gjlz3ALBB+dTb75VQDL62Pt8L5RdP4
-R73tvTmljWk/6OIxHsmFt4ubp8/B6i91A8pBA8UGWOKA54DuOlulxz+srOx5XoffKwO5c5iLMYbI
-VckoSEhwJ8eK6qzXzyGjYiXF4hO7yZCfhJg6gIK0cau=
+<?php
+
+/**
+ * Wrapper for shared memory and locking functionality across different extensions.
+
+ *
+ * Allows you to share data across requests as long as the PHP process is running. One of APC or WinCache is required to accomplish this, with other extensions being potentially pluggable as adapters.
+ *
+ * PHP version 5
+ *
+ * @category  Caching
+ * @package   PEAR2_Cache_SHM
+ * @author    Vasil Rangelov <boen.robot@gmail.com>
+ * @copyright 2011 Vasil Rangelov
+ * @license   http://www.gnu.org/copyleft/lesser.html LGPL License 2.1
+ * @version   0.2.0
+ * @link      http://pear2.php.net/PEAR2_Cache_SHM
+ */
+
+/**
+ * The namespace declaration.
+ */
+namespace PEAR2\Cache;
+
+/**
+ * Used as a catch-all for adapter initialization.
+ */
+use Exception as E;
+
+/**
+ * Implements this class.
+ */
+use IteratorAggregate;
+
+/**
+ * Used on failures by this class.
+ */
+use PEAR2\Cache\SHM\InvalidArgumentException;
+
+/**
+ * Main class for this package.
+ *
+ * Automatically chooses an adapter based on the available extensions.
+ *
+ * @category Caching
+ * @package  PEAR2_Cache_SHM
+ * @author   Vasil Rangelov <boen.robot@gmail.com>
+ * @license  http://www.gnu.org/copyleft/lesser.html LGPL License 2.1
+ * @link     http://pear2.php.net/PEAR2_Cache_SHM
+ */
+abstract class SHM implements IteratorAggregate
+{
+    /**
+     * An array of adapter names that meet their requirements.
+     *
+     * @var array
+     */
+    private static $_adapters = array();
+
+    /**
+     * Creates a new shared memory storage.
+     *
+     * Establishes a separate persistent storage. Adapter is automatically
+     * chosen based on the available extensions.
+     *
+     * @param string $persistentId The ID for the storage.
+     *
+     * @return static|SHM A new instance of an SHM adapter (child of this
+     * class).
+     */
+    final public static function factory($persistentId)
+    {
+        foreach (self::$_adapters as $adapter) {
+            try {
+                return new $adapter($persistentId);
+            } catch (E $e) {
+                //In case of a runtime error, try to fallback to other adapters.
+            }
+        }
+        throw new InvalidArgumentException(
+            'No appropriate adapter available',
+            1
+        );
+    }
+
+    /**
+     * Checks if the adapter meets its requirements.
+     *
+     * @return bool TRUE on success, FALSE on failure.
+     */
+    public static function isMeetingRequirements()
+    {
+        return true;
+    }
+
+    /**
+     * Registers an adapter.
+     *
+     * Registers an SHM adapter, allowing you to call it with {@link factory()}.
+     *
+     * @param string $adapter FQCN of adapter. A valid adapter is one that
+     *     extends this class. The class will be autoloaded if not already
+     *     present.
+     * @param bool   $prepend Whether to prepend this adapter into the list of
+     *     possible adapters, instead of appending to it.
+     *
+     * @return bool TRUE on success, FALSE on failure.
+     */
+    final public static function registerAdapter($adapter, $prepend = false)
+    {
+        if (class_exists($adapter, true)
+            && is_subclass_of($adapter, '\\' . __CLASS__)
+            && $adapter::isMeetingRequirements()
+        ) {
+            if ($prepend) {
+                self::$_adapters = array_merge(
+                    array($adapter),
+                    self::$_adapters
+                );
+            } else {
+                self::$_adapters[] = $adapter;
+            }
+            return true;
+        }
+        return false;
+    }
+
+    /**
+     * Adds a value to the shared memory storage.
+     *
+     * Adds a value to the storage if it doesn't exist, or fails if it does.
+     *
+     * @param string $key   Name of key to associate the value with.
+     * @param mixed  $value Value for the specified key.
+     * @param int    $ttl   Seconds to store the value. If set to 0 indicates no
+     *     time limit.
+     *
+     * @return bool TRUE on success, FALSE on failure.
+     */
+    public function __invoke($key, $value, $ttl = 0)
+    {
+        return $this->add($key, $value, $ttl);
+    }
+
+    /**
+     * Gets a value from the shared memory storage.
+     *
+     * This is a magic method, thanks to which any property you attempt to get
+     * the value of will be fetched from the adapter, treating the property name
+     * as the key of the value to get.
+     *
+     * @param string $key Name of key to get.
+     *
+     * @return mixed The current value of the specified key.
+     */
+    public function __get($key)
+    {
+        return $this->get($key);
+    }
+
+    /**
+     * Sets a value in the shared memory storage.
+     *
+     * This is a magic method, thanks to which any property you attempt to set
+     * the value of will be set by the adapter, treating the property name as
+     * the key of the value to set. The value is set without a TTL.
+     *
+     * @param string $key   Name of key to associate the value with.
+     * @param mixed  $value Value for the specified key.
+     *
+     * @return bool TRUE on success, FALSE on failure.
+     */
+    public function __set($key, $value)
+    {
+        return $this->set($key, $value);
+    }
+
+    /**
+     * Checks if a specified key is in the storage.
+     *
+     * This is a magic method, thanks to which any property you call isset() on
+     * will be checked by the adapter, treating the property name as the key
+     * of the value to check.
+     *
+     * @param string $key Name of key to check.
+     *
+     * @return bool TRUE if the key is in the storage, FALSE otherwise.
+     */
+    public function __isset($key)
+    {
+        return $this->exists($key);
+    }
+
+    /**
+     * Deletes a value from the shared memory storage.
+     *
+     * This is a magic method, thanks to which any property you attempt to unset
+     * the value of will be unset by the adapter, treating the property name as
+     * the key of the value to delete.
+     *
+     * @param string $key Name of key to delete.
+     *
+     * @return bool TRUE on success, FALSE on failure.
+     */
+    public function __unset($key)
+    {
+        return $this->delete($key);
+    }
+
+    /**
+     * Creates a new shared memory storage.
+     *
+     * Establishes a separate persistent storage.
+     *
+     * @param string $persistentId The ID for the storage. The storage will be
+     *     reused if it exists, or created if it doesn't exist. Data and locks
+     *     are namespaced by this ID.
+     */
+    abstract public function __construct($persistentId);
+
+    /**
+     * Obtains a named lock.
+     *
+     * @param string $key     Name of the key to obtain. Note that $key may
+     *     repeat for each distinct $persistentId.
+     * @param double $timeout If the lock can't be immediately obtained, the
+     *     script will block for at most the specified amount of seconds.
+     *     Setting this to 0 makes lock obtaining non blocking, and setting it
+     *     to NULL makes it block without a time limit.
+     *
+     * @return bool TRUE on success, FALSE on failure.
+     */
+    abstract public function lock($key, $timeout = null);
+
+    /**
+     * Releases a named lock.
+     *
+     * @param string $key Name of the key to release. Note that $key may
+     *     repeat for each distinct $persistentId.
+     *
+     * @return bool TRUE on success, FALSE on failure.
+     */
+    abstract public function unlock($key);
+
+    /**
+     * Checks if a specified key is in the storage.
+     *
+     * @param string $key Name of key to check.
+     *
+     * @return bool TRUE if the key is in the storage, FALSE otherwise.
+     */
+    abstract public function exists($key);
+
+    /**
+     * Adds a value to the shared memory storage.
+     *
+     * Adds a value to the storage if it doesn't exist, or fails if it does.
+     *
+     * @param string $key   Name of key to associate the value with.
+     * @param mixed  $value Value for the specified key.
+     * @param int    $ttl   Seconds to store the value. If set to 0 indicates no
+     *     time limit.
+     *
+     * @return bool TRUE on success, FALSE on failure.
+     */
+    abstract public function add($key, $value, $ttl = 0);
+
+    /**
+     * Sets a value in the shared memory storage.
+     *
+     * Adds a value to the storage if it doesn't exist, overwrites it otherwise.
+     *
+     * @param string $key   Name of key to associate the value with.
+     * @param mixed  $value Value for the specified key.
+     * @param int    $ttl   Seconds to store the value. If set to 0 indicates no
+     *     time limit.
+     *
+     * @return bool TRUE on success, FALSE on failure.
+     */
+    abstract public function set($key, $value, $ttl = 0);
+
+    /**
+     * Gets a value from the shared memory storage.
+     *
+     * Gets the current value, or throws an exception if it's not stored.
+     *
+     * @param string $key Name of key to get the value of.
+     *
+     * @return mixed The current value of the specified key.
+     */
+    abstract public function get($key);
+
+    /**
+     * Deletes a value from the shared memory storage.
+     *
+     * @param string $key Name of key to delete.
+     *
+     * @return bool TRUE on success, FALSE on failure.
+     */
+    abstract public function delete($key);
+
+    /**
+     * Increases a value from the shared memory storage.
+     *
+     * Increases a value from the shared memory storage. Unlike a plain
+     * set($key, get($key)+$step) combination, this function also implicitly
+     * performs locking.
+     *
+     * @param string $key  Name of key to increase.
+     * @param int    $step Value to increase the key by.
+     *
+     * @return int The new value.
+     */
+    abstract public function inc($key, $step = 1);
+
+    /**
+     * Decreases a value from the shared memory storage.
+     *
+     * Decreases a value from the shared memory storage. Unlike a plain
+     * set($key, get($key)-$step) combination, this function also implicitly
+     * performs locking.
+     *
+     * @param string $key  Name of key to decrease.
+     * @param int    $step Value to decrease the key by.
+     *
+     * @return int The new value.
+     */
+    abstract public function dec($key, $step = 1);
+
+    /**
+     * Sets a new value if a key has a certain value.
+     *
+     * Sets a new value if a key has a certain value. This function only works
+     * when $old and $new are longs.
+     *
+     * @param string $key Key of the value to compare and set.
+     * @param int    $old The value to compare the key against.
+     * @param int    $new The value to set the key to.
+     *
+     * @return bool TRUE on success, FALSE on failure.
+     */
+    abstract public function cas($key, $old, $new);
+
+    /**
+     * Clears the persistent storage.
+     *
+     * Clears the persistent storage, i.e. removes all keys. Locks are left
+     * intact.
+     *
+     * @return void
+     */
+    abstract public function clear();
+
+    /**
+     * Retrieve an external iterator
+     *
+     * Returns an external iterator.
+     *
+     * @param string|null $filter   A PCRE regular expression.
+     *     Only matching keys will be iterated over.
+     *     Setting this to NULL matches all keys of this instance.
+     * @param bool        $keysOnly Whether to return only the keys,
+     *     or return both the keys and values.
+     *
+     * @return \Traversable An array with all matching keys as array keys,
+     *     and values as array values. If $keysOnly is TRUE, the array keys are
+     *     numeric, and the array values are key names.
+     */
+    abstract public function getIterator($filter = null, $keysOnly = false);
+}
+
+SHM::registerAdapter('\\' . __NAMESPACE__ . '\SHM\Adapter\Placebo');
+SHM::registerAdapter('\\' . __NAMESPACE__ . '\SHM\Adapter\Wincache');
+SHM::registerAdapter('\\' . __NAMESPACE__ . '\SHM\Adapter\APCu');
+SHM::registerAdapter('\\' . __NAMESPACE__ . '\SHM\Adapter\APC');

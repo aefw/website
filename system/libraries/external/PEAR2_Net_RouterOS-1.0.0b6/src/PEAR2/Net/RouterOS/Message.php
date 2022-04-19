@@ -1,77 +1,237 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-1NlZlXh260NYv9wkHRmAKXtg
+<?php
+
+/**
+ * RouterOS API client implementation.
+
+ *
+ * RouterOS is the flag product of the company MikroTik and is a powerful router software. One of its many abilities is to allow control over it via an API. This package provides a client for that API, in turn allowing you to use PHP to control RouterOS hosts.
+ *
+ * PHP version 5
+ *
+ * @category  Net
+ * @package   PEAR2_Net_RouterOS
+ * @author    Vasil Rangelov <boen.robot@gmail.com>
+ * @copyright 2011 Vasil Rangelov
+ * @license   http://www.gnu.org/copyleft/lesser.html LGPL License 2.1
+ * @version   1.0.0b6
+ * @link      http://pear2.php.net/PEAR2_Net_RouterOS
+ */
+/**
+ * The namespace declaration.
+ */
+namespace PEAR2\Net\RouterOS;
+
+/**
+ * Implements this interface.
+ */
+use Countable;
+
+/**
+ * Implements this interface.
+ */
+use IteratorAggregate;
+
+/**
+ * Required for IteratorAggregate::getIterator() to work properly with foreach.
+ */
+use ArrayObject;
+
+/**
+ * Represents a RouterOS message.
+ *
+ * @category Net
+ * @package  PEAR2_Net_RouterOS
+ * @author   Vasil Rangelov <boen.robot@gmail.com>
+ * @license  http://www.gnu.org/copyleft/lesser.html LGPL License 2.1
+ * @link     http://pear2.php.net/PEAR2_Net_RouterOS
+ */
+abstract class Message implements IteratorAggregate, Countable
+{
+
+    /**
+     * An array with message attributes.
+     *
+     * Each array key is the the name of an attribute,
+     * and the corresponding array value is the value for that attribute.
+     *
+     * @var array<string,string|resource>
+     */
+    protected $attributes = array();
+
+    /**
+     * An optional tag to associate the message with.
+     *
+     * @var string
+     */
+    private $_tag = null;
+
+    /**
+     * A shorthand gateway.
+     *
+     * This is a magic PHP method that allows you to call the object as a
+     * function. Depending on the argument given, one of the other functions in
+     * the class is invoked and its returned value is returned by this function.
+     *
+     * @param string|null $name The name of an attribute to get the value of,
+     *     or NULL to get the tag.
+     *
+     * @return string|resource The value of the specified attribute,
+     *     or the tag if NULL is provided.
+     */
+    public function __invoke($name = null)
+    {
+        if (null === $name) {
+            return $this->getTag();
+        }
+        return $this->getAttribute($name);
+    }
+
+    /**
+     * Sanitizes a name of an attribute (message or query one).
+     *
+     * @param mixed $name The name to sanitize.
+     *
+     * @return string The sanitized name.
+     */
+    public static function sanitizeAttributeName($name)
+    {
+        $name = (string) $name;
+        if ((empty($name) && $name !== '0')
+            || preg_match('/[=\s]/s', $name)
+        ) {
+            throw new InvalidArgumentException(
+                'Invalid name of argument supplied.',
+                InvalidArgumentException::CODE_NAME_INVALID
+            );
+        }
+        return $name;
+    }
+
+    /**
+     * Sanitizes a value of an attribute (message or query one).
+     *
+     * @param mixed $value The value to sanitize.
+     *
+     * @return string|resource The sanitized value.
+     */
+    public static function sanitizeAttributeValue($value)
+    {
+        if (Communicator::isSeekableStream($value)) {
+            return $value;
+        } else {
+            return (string) $value;
+        }
+    }
+
+    /**
+     * Gets the tag that the message is associated with.
+     *
+     * @return string The current tag or NULL if there isn't a tag.
+     *
+     * @see setTag()
+     */
+    public function getTag()
+    {
+        return $this->_tag;
+    }
+
+    /**
+     * Sets the tag to associate the request with.
+     *
+     * Sets the tag to associate the message with. Setting NULL erases the
+     * currently set tag.
+     *
+     * @param string $tag The tag to set.
+     *
+     * @return $this The message object.
+     *
+     * @see getTag()
+     */
+    protected function setTag($tag)
+    {
+        $this->_tag = (null === $tag) ? null : (string) $tag;
+        return $this;
+    }
+
+    /**
+     * Gets the value of an attribute.
+     *
+     * @param string $name The name of the attribute.
+     *
+     * @return string|resource|null The value of the specified attribute.
+     *     Returns NULL if such an attribute is not set.
+     *
+     * @see setAttribute()
+     */
+    protected function getAttribute($name)
+    {
+        $name = self::sanitizeAttributeName($name);
+        if (array_key_exists($name, $this->attributes)) {
+            return $this->attributes[$name];
+        }
+        return null;
+    }
+
+    /**
+     * Gets all arguments in an array.
+     *
+     * @return ArrayObject An ArrayObject with the keys being argument names,
+     *     and the array values being argument values.
+     *
+     * @see getArgument()
+     * @see setArgument()
+     */
+    public function getIterator()
+    {
+        return new ArrayObject($this->attributes);
+    }
+
+    /**
+     * Counts the number of attributes.
+     *
+     * @return int The number of attributes.
+     */
+    public function count()
+    {
+        return count($this->attributes);
+    }
+
+    /**
+     * Sets an attribute for the message.
+     *
+     * @param string               $name  Name of the attribute.
+     * @param string|resource|null $value Value of the attribute as a string or
+     *     seekable stream.
+     *     Setting the value to NULL removes an argument of this name.
+     *     If a seekable stream is provided, it is sent from its current
+     *     position to its end, and the pointer is seeked back to its current
+     *     position after sending.
+     *     Non seekable streams, as well as all other types, are casted to a
+     *     string.
+     *
+     * @return $this The message object.
+     *
+     * @see getArgument()
+     */
+    protected function setAttribute($name, $value = '')
+    {
+        if (null === $value) {
+            unset($this->attributes[self::sanitizeAttributeName($name)]);
+        } else {
+            $this->attributes[self::sanitizeAttributeName($name)]
+                = self::sanitizeAttributeValue($value);
+        }
+        return $this;
+    }
+
+    /**
+     * Removes all attributes from the message.
+     *
+     * @return $this The message object.
+     */
+    protected function removeAllAttributes()
+    {
+        $this->attributes = array();
+        return $this;
+    }
+}

@@ -1,108 +1,197 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php declare(strict_types=1);
+
+/*
+ * This file is part of the Monolog package.
+ *
+ * (c) Jordi Boggiano <j.boggiano@seld.be>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Monolog\Handler;
+
+use Monolog\Logger;
+use Monolog\Utils;
+use Monolog\Formatter\NormalizerFormatter;
+use Monolog\Formatter\FormatterInterface;
+
+/**
+ * Class to record a log on a NewRelic application.
+ * Enabling New Relic High Security mode may prevent capture of useful information.
+ *
+ * This handler requires a NormalizerFormatter to function and expects an array in $record['formatted']
+ *
+ * @see https://docs.newrelic.com/docs/agents/php-agent
+ * @see https://docs.newrelic.com/docs/accounts-partnerships/accounts/security/high-security
+ */
+class NewRelicHandler extends AbstractProcessingHandler
+{
+    /**
+     * Name of the New Relic application that will receive logs from this handler.
+     *
+     * @var string|null
+     */
+    protected $appName;
+
+    /**
+     * Name of the current transaction
+     *
+     * @var string|null
+     */
+    protected $transactionName;
+
+    /**
+     * Some context and extra data is passed into the handler as arrays of values. Do we send them as is
+     * (useful if we are using the API), or explode them for display on the NewRelic RPM website?
+     *
+     * @var bool
+     */
+    protected $explodeArrays;
+
+    /**
+     * {@inheritDoc}
+     *
+     * @param string|int  $level           The minimum logging level at which this handler will be triggered.
+     * @param bool        $bubble          Whether the messages that are handled can bubble up the stack or not.
+     * @param string|null $appName
+     * @param bool        $explodeArrays
+     * @param string|null $transactionName
+     */
+    public function __construct(
+        $level = Logger::ERROR,
+        bool $bubble = true,
+        ?string $appName = null,
+        bool $explodeArrays = false,
+        ?string $transactionName = null
+    ) {
+        parent::__construct($level, $bubble);
+
+        $this->appName       = $appName;
+        $this->explodeArrays = $explodeArrays;
+        $this->transactionName = $transactionName;
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    protected function write(array $record): void
+    {
+        if (!$this->isNewRelicEnabled()) {
+            throw new MissingExtensionException('The newrelic PHP extension is required to use the NewRelicHandler');
+        }
+
+        if ($appName = $this->getAppName($record['context'])) {
+            $this->setNewRelicAppName($appName);
+        }
+
+        if ($transactionName = $this->getTransactionName($record['context'])) {
+            $this->setNewRelicTransactionName($transactionName);
+            unset($record['formatted']['context']['transaction_name']);
+        }
+
+        if (isset($record['context']['exception']) && $record['context']['exception'] instanceof \Throwable) {
+            newrelic_notice_error($record['message'], $record['context']['exception']);
+            unset($record['formatted']['context']['exception']);
+        } else {
+            newrelic_notice_error($record['message']);
+        }
+
+        if (isset($record['formatted']['context']) && is_array($record['formatted']['context'])) {
+            foreach ($record['formatted']['context'] as $key => $parameter) {
+                if (is_array($parameter) && $this->explodeArrays) {
+                    foreach ($parameter as $paramKey => $paramValue) {
+                        $this->setNewRelicParameter('context_' . $key . '_' . $paramKey, $paramValue);
+                    }
+                } else {
+                    $this->setNewRelicParameter('context_' . $key, $parameter);
+                }
+            }
+        }
+
+        if (isset($record['formatted']['extra']) && is_array($record['formatted']['extra'])) {
+            foreach ($record['formatted']['extra'] as $key => $parameter) {
+                if (is_array($parameter) && $this->explodeArrays) {
+                    foreach ($parameter as $paramKey => $paramValue) {
+                        $this->setNewRelicParameter('extra_' . $key . '_' . $paramKey, $paramValue);
+                    }
+                } else {
+                    $this->setNewRelicParameter('extra_' . $key, $parameter);
+                }
+            }
+        }
+    }
+
+    /**
+     * Checks whether the NewRelic extension is enabled in the system.
+     *
+     * @return bool
+     */
+    protected function isNewRelicEnabled(): bool
+    {
+        return extension_loaded('newrelic');
+    }
+
+    /**
+     * Returns the appname where this log should be sent. Each log can override the default appname, set in this
+     * handler's constructor, by providing the appname in it's context.
+     */
+    protected function getAppName(array $context): ?string
+    {
+        if (isset($context['appname'])) {
+            return $context['appname'];
+        }
+
+        return $this->appName;
+    }
+
+    /**
+     * Returns the name of the current transaction. Each log can override the default transaction name, set in this
+     * handler's constructor, by providing the transaction_name in it's context
+     */
+    protected function getTransactionName(array $context): ?string
+    {
+        if (isset($context['transaction_name'])) {
+            return $context['transaction_name'];
+        }
+
+        return $this->transactionName;
+    }
+
+    /**
+     * Sets the NewRelic application that should receive this log.
+     */
+    protected function setNewRelicAppName(string $appName): void
+    {
+        newrelic_set_appname($appName);
+    }
+
+    /**
+     * Overwrites the name of the current transaction
+     */
+    protected function setNewRelicTransactionName(string $transactionName): void
+    {
+        newrelic_name_transaction($transactionName);
+    }
+
+    /**
+     * @param string $key
+     * @param mixed  $value
+     */
+    protected function setNewRelicParameter(string $key, $value): void
+    {
+        if (null === $value || is_scalar($value)) {
+            newrelic_add_custom_parameter($key, $value);
+        } else {
+            newrelic_add_custom_parameter($key, Utils::jsonEncode($value, null, true));
+        }
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    protected function getDefaultFormatter(): FormatterInterface
+    {
+        return new NormalizerFormatter();
+    }
+}

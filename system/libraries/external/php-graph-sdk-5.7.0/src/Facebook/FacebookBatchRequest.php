@@ -1,142 +1,322 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/**
+ * Copyright 2017 Facebook, Inc.
+ *
+ * You are hereby granted a non-exclusive, worldwide, royalty-free license to
+ * use, copy, modify, and distribute this software in source code or binary
+ * form for use in connection with the web services and APIs provided by
+ * Facebook.
+ *
+ * As with any software that integrates with the Facebook platform, your use
+ * of this software is subject to the Facebook Developer Principles and
+ * Policies [http://developers.facebook.com/policy/]. This copyright notice
+ * shall be included in all copies or substantial portions of the software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+ * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+ *
+ */
+namespace Facebook;
+
+use ArrayIterator;
+use IteratorAggregate;
+use ArrayAccess;
+use Facebook\Authentication\AccessToken;
+use Facebook\Exceptions\FacebookSDKException;
+
+/**
+ * Class BatchRequest
+ *
+ * @package Facebook
+ */
+class FacebookBatchRequest extends FacebookRequest implements IteratorAggregate, ArrayAccess
+{
+    /**
+     * @var array An array of FacebookRequest entities to send.
+     */
+    protected $requests = [];
+
+    /**
+     * @var array An array of files to upload.
+     */
+    protected $attachedFiles;
+
+    /**
+     * Creates a new Request entity.
+     *
+     * @param FacebookApp|null        $app
+     * @param array                   $requests
+     * @param AccessToken|string|null $accessToken
+     * @param string|null             $graphVersion
+     */
+    public function __construct(FacebookApp $app = null, array $requests = [], $accessToken = null, $graphVersion = null)
+    {
+        parent::__construct($app, $accessToken, 'POST', '', [], null, $graphVersion);
+
+        $this->add($requests);
+    }
+
+    /**
+     * Adds a new request to the array.
+     *
+     * @param FacebookRequest|array $request
+     * @param string|null|array     $options Array of batch request options e.g. 'name', 'omit_response_on_success'.
+     *                                       If a string is given, it is the value of the 'name' option.
+     *
+     * @return FacebookBatchRequest
+     *
+     * @throws \InvalidArgumentException
+     */
+    public function add($request, $options = null)
+    {
+        if (is_array($request)) {
+            foreach ($request as $key => $req) {
+                $this->add($req, $key);
+            }
+
+            return $this;
+        }
+
+        if (!$request instanceof FacebookRequest) {
+            throw new \InvalidArgumentException('Argument for add() must be of type array or FacebookRequest.');
+        }
+
+        if (null === $options) {
+            $options = [];
+        } elseif (!is_array($options)) {
+            $options = ['name' => $options];
+        }
+
+        $this->addFallbackDefaults($request);
+
+        // File uploads
+        $attachedFiles = $this->extractFileAttachments($request);
+
+        $name = isset($options['name']) ? $options['name'] : null;
+
+        unset($options['name']);
+
+        $requestToAdd = [
+            'name' => $name,
+            'request' => $request,
+            'options' => $options,
+            'attached_files' => $attachedFiles,
+        ];
+
+        $this->requests[] = $requestToAdd;
+
+        return $this;
+    }
+
+    /**
+     * Ensures that the FacebookApp and access token fall back when missing.
+     *
+     * @param FacebookRequest $request
+     *
+     * @throws FacebookSDKException
+     */
+    public function addFallbackDefaults(FacebookRequest $request)
+    {
+        if (!$request->getApp()) {
+            $app = $this->getApp();
+            if (!$app) {
+                throw new FacebookSDKException('Missing FacebookApp on FacebookRequest and no fallback detected on FacebookBatchRequest.');
+            }
+            $request->setApp($app);
+        }
+
+        if (!$request->getAccessToken()) {
+            $accessToken = $this->getAccessToken();
+            if (!$accessToken) {
+                throw new FacebookSDKException('Missing access token on FacebookRequest and no fallback detected on FacebookBatchRequest.');
+            }
+            $request->setAccessToken($accessToken);
+        }
+    }
+
+    /**
+     * Extracts the files from a request.
+     *
+     * @param FacebookRequest $request
+     *
+     * @return string|null
+     *
+     * @throws FacebookSDKException
+     */
+    public function extractFileAttachments(FacebookRequest $request)
+    {
+        if (!$request->containsFileUploads()) {
+            return null;
+        }
+
+        $files = $request->getFiles();
+        $fileNames = [];
+        foreach ($files as $file) {
+            $fileName = uniqid();
+            $this->addFile($fileName, $file);
+            $fileNames[] = $fileName;
+        }
+
+        $request->resetFiles();
+
+        // @TODO Does Graph support multiple uploads on one endpoint?
+        return implode(',', $fileNames);
+    }
+
+    /**
+     * Return the FacebookRequest entities.
+     *
+     * @return array
+     */
+    public function getRequests()
+    {
+        return $this->requests;
+    }
+
+    /**
+     * Prepares the requests to be sent as a batch request.
+     */
+    public function prepareRequestsForBatch()
+    {
+        $this->validateBatchRequestCount();
+
+        $params = [
+            'batch' => $this->convertRequestsToJson(),
+            'include_headers' => true,
+        ];
+        $this->setParams($params);
+    }
+
+    /**
+     * Converts the requests into a JSON(P) string.
+     *
+     * @return string
+     */
+    public function convertRequestsToJson()
+    {
+        $requests = [];
+        foreach ($this->requests as $request) {
+            $options = [];
+
+            if (null !== $request['name']) {
+                $options['name'] = $request['name'];
+            }
+
+            $options += $request['options'];
+
+            $requests[] = $this->requestEntityToBatchArray($request['request'], $options, $request['attached_files']);
+        }
+
+        return json_encode($requests);
+    }
+
+    /**
+     * Validate the request count before sending them as a batch.
+     *
+     * @throws FacebookSDKException
+     */
+    public function validateBatchRequestCount()
+    {
+        $batchCount = count($this->requests);
+        if ($batchCount === 0) {
+            throw new FacebookSDKException('There are no batch requests to send.');
+        } elseif ($batchCount > 50) {
+            // Per: https://developers.facebook.com/docs/graph-api/making-multiple-requests#limits
+            throw new FacebookSDKException('You cannot send more than 50 batch requests at a time.');
+        }
+    }
+
+    /**
+     * Converts a Request entity into an array that is batch-friendly.
+     *
+     * @param FacebookRequest   $request       The request entity to convert.
+     * @param string|null|array $options       Array of batch request options e.g. 'name', 'omit_response_on_success'.
+     *                                         If a string is given, it is the value of the 'name' option.
+     * @param string|null       $attachedFiles Names of files associated with the request.
+     *
+     * @return array
+     */
+    public function requestEntityToBatchArray(FacebookRequest $request, $options = null, $attachedFiles = null)
+    {
+
+        if (null === $options) {
+            $options = [];
+        } elseif (!is_array($options)) {
+            $options = ['name' => $options];
+        }
+
+        $compiledHeaders = [];
+        $headers = $request->getHeaders();
+        foreach ($headers as $name => $value) {
+            $compiledHeaders[] = $name . ': ' . $value;
+        }
+
+        $batch = [
+            'headers' => $compiledHeaders,
+            'method' => $request->getMethod(),
+            'relative_url' => $request->getUrl(),
+        ];
+
+        // Since file uploads are moved to the root request of a batch request,
+        // the child requests will always be URL-encoded.
+        $body = $request->getUrlEncodedBody()->getBody();
+        if ($body) {
+            $batch['body'] = $body;
+        }
+
+        $batch += $options;
+
+        if (null !== $attachedFiles) {
+            $batch['attached_files'] = $attachedFiles;
+        }
+
+        return $batch;
+    }
+
+    /**
+     * Get an iterator for the items.
+     *
+     * @return ArrayIterator
+     */
+    public function getIterator()
+    {
+        return new ArrayIterator($this->requests);
+    }
+
+    /**
+     * @inheritdoc
+     */
+    public function offsetSet($offset, $value)
+    {
+        $this->add($value, $offset);
+    }
+
+    /**
+     * @inheritdoc
+     */
+    public function offsetExists($offset)
+    {
+        return isset($this->requests[$offset]);
+    }
+
+    /**
+     * @inheritdoc
+     */
+    public function offsetUnset($offset)
+    {
+        unset($this->requests[$offset]);
+    }
+
+    /**
+     * @inheritdoc
+     */
+    public function offsetGet($offset)
+    {
+        return isset($this->requests[$offset]) ? $this->requests[$offset] : null;
+    }
+}

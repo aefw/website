@@ -1,66 +1,80 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\RemoteBuildExecution;
+
+class GoogleDevtoolsRemotebuildbotResourceUsageIOStats extends \Google\Model
+{
+  public $readBytesCount;
+  public $readCount;
+  public $readTimeMs;
+  public $writeBytesCount;
+  public $writeCount;
+  public $writeTimeMs;
+
+  public function setReadBytesCount($readBytesCount)
+  {
+    $this->readBytesCount = $readBytesCount;
+  }
+  public function getReadBytesCount()
+  {
+    return $this->readBytesCount;
+  }
+  public function setReadCount($readCount)
+  {
+    $this->readCount = $readCount;
+  }
+  public function getReadCount()
+  {
+    return $this->readCount;
+  }
+  public function setReadTimeMs($readTimeMs)
+  {
+    $this->readTimeMs = $readTimeMs;
+  }
+  public function getReadTimeMs()
+  {
+    return $this->readTimeMs;
+  }
+  public function setWriteBytesCount($writeBytesCount)
+  {
+    $this->writeBytesCount = $writeBytesCount;
+  }
+  public function getWriteBytesCount()
+  {
+    return $this->writeBytesCount;
+  }
+  public function setWriteCount($writeCount)
+  {
+    $this->writeCount = $writeCount;
+  }
+  public function getWriteCount()
+  {
+    return $this->writeCount;
+  }
+  public function setWriteTimeMs($writeTimeMs)
+  {
+    $this->writeTimeMs = $writeTimeMs;
+  }
+  public function getWriteTimeMs()
+  {
+    return $this->writeTimeMs;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleDevtoolsRemotebuildbotResourceUsageIOStats::class, 'Google_Service_RemoteBuildExecution_GoogleDevtoolsRemotebuildbotResourceUsageIOStats');

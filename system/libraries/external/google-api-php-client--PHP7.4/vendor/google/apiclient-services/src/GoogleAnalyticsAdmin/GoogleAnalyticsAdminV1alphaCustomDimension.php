@@ -1,66 +1,80 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\GoogleAnalyticsAdmin;
+
+class GoogleAnalyticsAdminV1alphaCustomDimension extends \Google\Model
+{
+  public $description;
+  public $disallowAdsPersonalization;
+  public $displayName;
+  public $name;
+  public $parameterName;
+  public $scope;
+
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setDisallowAdsPersonalization($disallowAdsPersonalization)
+  {
+    $this->disallowAdsPersonalization = $disallowAdsPersonalization;
+  }
+  public function getDisallowAdsPersonalization()
+  {
+    return $this->disallowAdsPersonalization;
+  }
+  public function setDisplayName($displayName)
+  {
+    $this->displayName = $displayName;
+  }
+  public function getDisplayName()
+  {
+    return $this->displayName;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setParameterName($parameterName)
+  {
+    $this->parameterName = $parameterName;
+  }
+  public function getParameterName()
+  {
+    return $this->parameterName;
+  }
+  public function setScope($scope)
+  {
+    $this->scope = $scope;
+  }
+  public function getScope()
+  {
+    return $this->scope;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleAnalyticsAdminV1alphaCustomDimension::class, 'Google_Service_GoogleAnalyticsAdmin_GoogleAnalyticsAdminV1alphaCustomDimension');

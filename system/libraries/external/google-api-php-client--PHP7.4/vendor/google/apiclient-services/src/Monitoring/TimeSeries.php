@@ -1,68 +1,118 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-nPGfNjoe4YjyCVSnH5uKgCezLb0=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Monitoring;
+
+class TimeSeries extends \Google\Collection
+{
+  protected $collection_key = 'points';
+  protected $metadataType = MonitoredResourceMetadata::class;
+  protected $metadataDataType = '';
+  protected $metricType = Metric::class;
+  protected $metricDataType = '';
+  public $metricKind;
+  protected $pointsType = Point::class;
+  protected $pointsDataType = 'array';
+  protected $resourceType = MonitoredResource::class;
+  protected $resourceDataType = '';
+  public $unit;
+  public $valueType;
+
+  /**
+   * @param MonitoredResourceMetadata
+   */
+  public function setMetadata(MonitoredResourceMetadata $metadata)
+  {
+    $this->metadata = $metadata;
+  }
+  /**
+   * @return MonitoredResourceMetadata
+   */
+  public function getMetadata()
+  {
+    return $this->metadata;
+  }
+  /**
+   * @param Metric
+   */
+  public function setMetric(Metric $metric)
+  {
+    $this->metric = $metric;
+  }
+  /**
+   * @return Metric
+   */
+  public function getMetric()
+  {
+    return $this->metric;
+  }
+  public function setMetricKind($metricKind)
+  {
+    $this->metricKind = $metricKind;
+  }
+  public function getMetricKind()
+  {
+    return $this->metricKind;
+  }
+  /**
+   * @param Point[]
+   */
+  public function setPoints($points)
+  {
+    $this->points = $points;
+  }
+  /**
+   * @return Point[]
+   */
+  public function getPoints()
+  {
+    return $this->points;
+  }
+  /**
+   * @param MonitoredResource
+   */
+  public function setResource(MonitoredResource $resource)
+  {
+    $this->resource = $resource;
+  }
+  /**
+   * @return MonitoredResource
+   */
+  public function getResource()
+  {
+    return $this->resource;
+  }
+  public function setUnit($unit)
+  {
+    $this->unit = $unit;
+  }
+  public function getUnit()
+  {
+    return $this->unit;
+  }
+  public function setValueType($valueType)
+  {
+    $this->valueType = $valueType;
+  }
+  public function getValueType()
+  {
+    return $this->valueType;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(TimeSeries::class, 'Google_Service_Monitoring_TimeSeries');

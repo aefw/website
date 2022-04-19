@@ -1,73 +1,154 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dfareporting\Resource;
+
+use Google\Service\Dfareporting\EventTag;
+use Google\Service\Dfareporting\EventTagsListResponse;
+
+/**
+ * The "eventTags" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $dfareportingService = new Google\Service\Dfareporting(...);
+ *   $eventTags = $dfareportingService->eventTags;
+ *  </code>
+ */
+class EventTags extends \Google\Service\Resource
+{
+  /**
+   * Deletes an existing event tag. (eventTags.delete)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param string $id Event tag ID.
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($profileId, $id, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Gets one event tag by ID. (eventTags.get)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param string $id Event tag ID.
+   * @param array $optParams Optional parameters.
+   * @return EventTag
+   */
+  public function get($profileId, $id, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], EventTag::class);
+  }
+  /**
+   * Inserts a new event tag. (eventTags.insert)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param EventTag $postBody
+   * @param array $optParams Optional parameters.
+   * @return EventTag
+   */
+  public function insert($profileId, EventTag $postBody, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], EventTag::class);
+  }
+  /**
+   * Retrieves a list of event tags, possibly filtered. (eventTags.listEventTags)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string adId Select only event tags that belong to this ad.
+   * @opt_param string advertiserId Select only event tags that belong to this
+   * advertiser.
+   * @opt_param string campaignId Select only event tags that belong to this
+   * campaign.
+   * @opt_param bool definitionsOnly Examine only the specified campaign or
+   * advertiser's event tags for matching selector criteria. When set to false,
+   * the parent advertiser and parent campaign of the specified ad or campaign is
+   * examined as well. In addition, when set to false, the status field is
+   * examined as well, along with the enabledByDefault field. This parameter can
+   * not be set to true when adId is specified as ads do not define their own even
+   * tags.
+   * @opt_param bool enabled Select only enabled event tags. What is considered
+   * enabled or disabled depends on the definitionsOnly parameter. When
+   * definitionsOnly is set to true, only the specified advertiser or campaign's
+   * event tags' enabledByDefault field is examined. When definitionsOnly is set
+   * to false, the specified ad or specified campaign's parent advertiser's or
+   * parent campaign's event tags' enabledByDefault and status fields are examined
+   * as well.
+   * @opt_param string eventTagTypes Select only event tags with the specified
+   * event tag types. Event tag types can be used to specify whether to use a
+   * third-party pixel, a third-party JavaScript URL, or a third-party click-
+   * through URL for either impression or click tracking.
+   * @opt_param string ids Select only event tags with these IDs.
+   * @opt_param string searchString Allows searching for objects by name or ID.
+   * Wildcards (*) are allowed. For example, "eventtag*2015" will return objects
+   * with names like "eventtag June 2015", "eventtag April 2015", or simply
+   * "eventtag 2015". Most of the searches also add wildcards implicitly at the
+   * start and the end of the search string. For example, a search string of
+   * "eventtag" will match objects with name "my eventtag", "eventtag 2015", or
+   * simply "eventtag".
+   * @opt_param string sortField Field by which to sort the list.
+   * @opt_param string sortOrder Order of sorted results.
+   * @return EventTagsListResponse
+   */
+  public function listEventTags($profileId, $optParams = [])
+  {
+    $params = ['profileId' => $profileId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], EventTagsListResponse::class);
+  }
+  /**
+   * Updates an existing event tag. This method supports patch semantics.
+   * (eventTags.patch)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param string $id EventTag ID.
+   * @param EventTag $postBody
+   * @param array $optParams Optional parameters.
+   * @return EventTag
+   */
+  public function patch($profileId, $id, EventTag $postBody, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'id' => $id, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], EventTag::class);
+  }
+  /**
+   * Updates an existing event tag. (eventTags.update)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param EventTag $postBody
+   * @param array $optParams Optional parameters.
+   * @return EventTag
+   */
+  public function update($profileId, EventTag $postBody, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], EventTag::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(EventTags::class, 'Google_Service_Dfareporting_Resource_EventTags');

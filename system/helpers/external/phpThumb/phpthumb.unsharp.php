@@ -1,89 +1,149 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+//////////////////////////////////////////////////////////////
+////
+////            Unsharp Mask for PHP - version 2.1.1
+////
+////    Unsharp mask algorithm by Torstein Hønsi 2003-07.
+////             thoensi_at_netcom_dot_no.
+////               Please leave this notice.
+////
+//////////////////////////////////////////////////////////////
+//  From: http://vikjavev.no/computing/ump.php              //
+//                                                          //
+//  Reformatted by James Heinrich <info@silisoftware.com>   //
+//    for use in phpThumb() on 3 February 2003.             //
+//    updated to v2.1.1 on 24 April 2011                    //
+//                                                          //
+//  phpThumb() is found at http://phpthumb.sourceforge.net  //
+//         and/or https://github.com/JamesHeinrich/phpThumb //
+//////////////////////////////////////////////////////////////
+
+/*
+New:
+- In version 2.1 (February 26 2007) Tom Bishop has done some important speed enhancements.
+- From version 2 (July 17 2006) the script uses the imageconvolution function in PHP
+  version >= 5.1, which improves the performance considerably.
+
+Unsharp masking is a traditional darkroom technique that has proven very suitable for
+digital imaging. The principle of unsharp masking is to create a blurred copy of the image
+and compare it to the underlying original. The difference in colour values
+between the two images is greatest for the pixels near sharp edges. When this
+difference is subtracted from the original image, the edges will be
+accentuated.
+
+The Amount parameter simply says how much of the effect you want. 100 is 'normal'.
+Radius is the radius of the blurring circle of the mask. 'Threshold' is the least
+difference in colour values that is allowed between the original and the mask. In practice
+this means that low-contrast areas of the picture are left unrendered whereas edges
+are treated normally. This is good for pictures of e.g. skin or blue skies.
+
+Any suggenstions for improvement of the algorithm, especially regarding the speed
+and the roundoff errors in the Gaussian blur process, are welcome.
+*/
+
+class phpUnsharpMask {
+
+	public static function applyUnsharpMask(&$img, $amount, $radius, $threshold) {
+
+		// $img is an image that is already created within php using
+		// imgcreatetruecolor. No url! $img must be a truecolor image.
+
+		// Attempt to calibrate the parameters to Photoshop:
+		$amount = min($amount, 500) * 0.016;
+		$radius = abs(round(min(50, $radius) * 2)); // Only integers make sense.
+		$threshold = min(255, $threshold);
+		if ($radius == 0) {
+			return true;
+		}
+		$w = imagesx($img);
+		$h = imagesy($img);
+		$imgCanvas = imagecreatetruecolor($w, $h);
+		$imgBlur   = imagecreatetruecolor($w, $h);
+
+		// Gaussian blur matrix:
+		//
+		//    1    2    1
+		//    2    4    2
+		//    1    2    1
+		//
+		//////////////////////////////////////////////////
+
+		if (function_exists('imageconvolution')) { // PHP >= 5.1
+			$matrix = array(
+				array(1, 2, 1),
+				array(2, 4, 2),
+				array(1, 2, 1)
+			);
+			imagecopy($imgBlur, $img, 0, 0, 0, 0, $w, $h);
+			imageconvolution($imgBlur, $matrix, 16, 0);
+
+		} else {
+
+			// Move copies of the image around one pixel at the time and merge them with weight
+			// according to the matrix. The same matrix is simply repeated for higher radii.
+			for ($i = 0; $i < $radius; $i++)    {
+				imagecopy(     $imgBlur,   $img,       0, 0, 1, 0, $w - 1, $h);               // left
+				imagecopymerge($imgBlur,   $img,       1, 0, 0, 0, $w    , $h,     50);       // right
+				imagecopymerge($imgBlur,   $img,       0, 0, 0, 0, $w    , $h,     50);       // center
+				imagecopy(     $imgCanvas, $imgBlur,   0, 0, 0, 0, $w    , $h);
+				imagecopymerge($imgBlur,   $imgCanvas, 0, 0, 0, 1, $w    , $h - 1, 33.33333); // up
+				imagecopymerge($imgBlur,   $imgCanvas, 0, 1, 0, 0, $w    , $h,     25);       // down
+			}
+		}
+
+		if ($threshold > 0){
+			// Calculate the difference between the blurred pixels and the original
+			// and set the pixels
+			for ($x = 0; $x < $w-1; $x++)    { // each row
+				for ($y = 0; $y < $h; $y++)    { // each pixel
+
+					$rgbOrig = imagecolorat($img, $x, $y);
+					$rOrig = (($rgbOrig >> 16) & 0xFF);
+					$gOrig = (($rgbOrig >>  8) & 0xFF);
+					$bOrig =  ($rgbOrig        & 0xFF);
+
+					$rgbBlur = imagecolorat($imgBlur, $x, $y);
+
+					$rBlur = (($rgbBlur >> 16) & 0xFF);
+					$gBlur = (($rgbBlur >>  8) & 0xFF);
+					$bBlur =  ($rgbBlur        & 0xFF);
+
+					// When the masked pixels differ less from the original
+					// than the threshold specifies, they are set to their original value.
+					$rNew = ((abs($rOrig - $rBlur) >= $threshold) ? max(0, min(255, ($amount * ($rOrig - $rBlur)) + $rOrig)) : $rOrig);
+					$gNew = ((abs($gOrig - $gBlur) >= $threshold) ? max(0, min(255, ($amount * ($gOrig - $gBlur)) + $gOrig)) : $gOrig);
+					$bNew = ((abs($bOrig - $bBlur) >= $threshold) ? max(0, min(255, ($amount * ($bOrig - $bBlur)) + $bOrig)) : $bOrig);
+
+					if (($rOrig != $rNew) || ($gOrig != $gNew) || ($bOrig != $bNew)) {
+						$pixCol = imagecolorallocate($img, $rNew, $gNew, $bNew);
+						imagesetpixel($img, $x, $y, $pixCol);
+					}
+				}
+			}
+		} else {
+			for ($x = 0; $x < $w; $x++)    { // each row
+				for ($y = 0; $y < $h; $y++)    { // each pixel
+					$rgbOrig = imagecolorat($img, $x, $y);
+					$rOrig = (($rgbOrig >> 16) & 0xFF);
+					$gOrig = (($rgbOrig >>  8) & 0xFF);
+					$bOrig =  ($rgbOrig        & 0xFF);
+
+					$rgbBlur = imagecolorat($imgBlur, $x, $y);
+
+					$rBlur = (($rgbBlur >> 16) & 0xFF);
+					$gBlur = (($rgbBlur >>  8) & 0xFF);
+					$bBlur =  ($rgbBlur        & 0xFF);
+
+					$rNew = min(255, max(0, ($amount * ($rOrig - $rBlur)) + $rOrig));
+					$gNew = min(255, max(0, ($amount * ($gOrig - $gBlur)) + $gOrig));
+					$bNew = min(255, max(0, ($amount * ($bOrig - $bBlur)) + $bOrig));
+					$rgbNew = ($rNew << 16) + ($gNew <<8) + $bNew;
+					imagesetpixel($img, $x, $y, $rgbNew);
+				}
+			}
+		}
+		imagedestroy($imgCanvas);
+		imagedestroy($imgBlur);
+		return true;
+	}
+}

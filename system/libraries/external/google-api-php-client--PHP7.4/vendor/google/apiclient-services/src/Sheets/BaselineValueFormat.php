@@ -1,73 +1,140 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Sheets;
+
+class BaselineValueFormat extends \Google\Model
+{
+  public $comparisonType;
+  public $description;
+  protected $negativeColorType = Color::class;
+  protected $negativeColorDataType = '';
+  protected $negativeColorStyleType = ColorStyle::class;
+  protected $negativeColorStyleDataType = '';
+  protected $positionType = TextPosition::class;
+  protected $positionDataType = '';
+  protected $positiveColorType = Color::class;
+  protected $positiveColorDataType = '';
+  protected $positiveColorStyleType = ColorStyle::class;
+  protected $positiveColorStyleDataType = '';
+  protected $textFormatType = TextFormat::class;
+  protected $textFormatDataType = '';
+
+  public function setComparisonType($comparisonType)
+  {
+    $this->comparisonType = $comparisonType;
+  }
+  public function getComparisonType()
+  {
+    return $this->comparisonType;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  /**
+   * @param Color
+   */
+  public function setNegativeColor(Color $negativeColor)
+  {
+    $this->negativeColor = $negativeColor;
+  }
+  /**
+   * @return Color
+   */
+  public function getNegativeColor()
+  {
+    return $this->negativeColor;
+  }
+  /**
+   * @param ColorStyle
+   */
+  public function setNegativeColorStyle(ColorStyle $negativeColorStyle)
+  {
+    $this->negativeColorStyle = $negativeColorStyle;
+  }
+  /**
+   * @return ColorStyle
+   */
+  public function getNegativeColorStyle()
+  {
+    return $this->negativeColorStyle;
+  }
+  /**
+   * @param TextPosition
+   */
+  public function setPosition(TextPosition $position)
+  {
+    $this->position = $position;
+  }
+  /**
+   * @return TextPosition
+   */
+  public function getPosition()
+  {
+    return $this->position;
+  }
+  /**
+   * @param Color
+   */
+  public function setPositiveColor(Color $positiveColor)
+  {
+    $this->positiveColor = $positiveColor;
+  }
+  /**
+   * @return Color
+   */
+  public function getPositiveColor()
+  {
+    return $this->positiveColor;
+  }
+  /**
+   * @param ColorStyle
+   */
+  public function setPositiveColorStyle(ColorStyle $positiveColorStyle)
+  {
+    $this->positiveColorStyle = $positiveColorStyle;
+  }
+  /**
+   * @return ColorStyle
+   */
+  public function getPositiveColorStyle()
+  {
+    return $this->positiveColorStyle;
+  }
+  /**
+   * @param TextFormat
+   */
+  public function setTextFormat(TextFormat $textFormat)
+  {
+    $this->textFormat = $textFormat;
+  }
+  /**
+   * @return TextFormat
+   */
+  public function getTextFormat()
+  {
+    return $this->textFormat;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(BaselineValueFormat::class, 'Google_Service_Sheets_BaselineValueFormat');

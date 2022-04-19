@@ -1,69 +1,99 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AlertCenter;
+
+class GmailMessageInfo extends \Google\Collection
+{
+  protected $collection_key = 'attachmentsSha256Hash';
+  public $attachmentsSha256Hash;
+  public $date;
+  public $md5HashMessageBody;
+  public $md5HashSubject;
+  public $messageBodySnippet;
+  public $messageId;
+  public $recipient;
+  public $subjectText;
+
+  public function setAttachmentsSha256Hash($attachmentsSha256Hash)
+  {
+    $this->attachmentsSha256Hash = $attachmentsSha256Hash;
+  }
+  public function getAttachmentsSha256Hash()
+  {
+    return $this->attachmentsSha256Hash;
+  }
+  public function setDate($date)
+  {
+    $this->date = $date;
+  }
+  public function getDate()
+  {
+    return $this->date;
+  }
+  public function setMd5HashMessageBody($md5HashMessageBody)
+  {
+    $this->md5HashMessageBody = $md5HashMessageBody;
+  }
+  public function getMd5HashMessageBody()
+  {
+    return $this->md5HashMessageBody;
+  }
+  public function setMd5HashSubject($md5HashSubject)
+  {
+    $this->md5HashSubject = $md5HashSubject;
+  }
+  public function getMd5HashSubject()
+  {
+    return $this->md5HashSubject;
+  }
+  public function setMessageBodySnippet($messageBodySnippet)
+  {
+    $this->messageBodySnippet = $messageBodySnippet;
+  }
+  public function getMessageBodySnippet()
+  {
+    return $this->messageBodySnippet;
+  }
+  public function setMessageId($messageId)
+  {
+    $this->messageId = $messageId;
+  }
+  public function getMessageId()
+  {
+    return $this->messageId;
+  }
+  public function setRecipient($recipient)
+  {
+    $this->recipient = $recipient;
+  }
+  public function getRecipient()
+  {
+    return $this->recipient;
+  }
+  public function setSubjectText($subjectText)
+  {
+    $this->subjectText = $subjectText;
+  }
+  public function getSubjectText()
+  {
+    return $this->subjectText;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GmailMessageInfo::class, 'Google_Service_AlertCenter_GmailMessageInfo');

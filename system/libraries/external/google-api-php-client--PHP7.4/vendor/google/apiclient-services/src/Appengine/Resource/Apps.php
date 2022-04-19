@@ -1,61 +1,116 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPsZp7ScTK+RkA3w8wanv9hQrb1SEweE/PC1gevnYqkBy0RUhFYN8pgPPgnxNMHJ/7jZtJo7k
-JrMfYpQofY46hTq7Q9bZD7cjFgLSTywMfxEVax4fRZZeR8bMtf3FJ717q3HqJJgXLBfVVAxNfSXk
-Nt8PtoxyH2JCTBv7j5VRnnUx60Yf591TKuaDJQmMUpiw//9DmH8rgvX4PSacHgGX9NyWIXkhRMJv
-X56AE4ap3dtplnIoa7Z8nAENc6Le/qjJP/6av2x6Ggu5INVVfFWb1xN/zhlYS5CkDLI4g2o1fZvA
-1ULLq6zusDEerjYMxgAAY5Hf1HFnckEd/Kve4rsc3nh23mpf1KKJKgmbdxuUrFWBUvc0B/uc10g/
-HdxamQle7t4uOyn4MYcC0Mz01Sgbcg7wITTOiMP22zRYq92d7GXirg5nd85x3kPQoaj6NzyKDnuS
-kPeWQ5KwqVdzBKMeDkPBN/GTHUov+4Ry+9rXXe636jvMTVoaHprqGcR2PoznfNZjBsrvhYL9ooOf
-fYiU9EP+Bocf51PO7lq0PGNmKQlIim4S15/FZQlix9yEk264DFcf58nrHyWQ9aUCcqHO9fssntm5
-PO+5X7GVeiN/Akjls/vNUDbKe9sUcyZgI2V6f82GcZkQ49EuPWKuUjAjReOIS0V0YbO8h17vEWki
-hLT8jD4HZ+thKPes8T8FK9/X7PN436pYZEi0woBWsMpXjRNnVuO/GMQcDMJF2RdPcewX4gOpi3MQ
-vYYnoPjBRTZqfLyltEuYQwqZUsDgKQ+3pbAbELjBfEcsYhwL7FT1DRwG57WxAuuwBRyb1izlLn7T
-QnaeeqNUzFa2dwsmr6jIz7XgN12A0UJr8ZtnFvb+7QclBw7/wz1X05ZdyoVgFK6dDhunjmro+y79
-U5vHuzHu5Y5wujfYnBLLod+itrgG9jj2ZFghsRThvt9QuJrzSnL52BKkJy8/Exg3IYCTycM1cniW
-nxxcNQtRjjn0Vr3xJp7WihnfRYVkZXTSGBfeUrBFY7TQ+9J/64b18cufzjKAJNQRB+TV4/ovgz4i
-nm1aKoySsMoC6HhNe9ZDkpI64uAhOUVgE0y70ORUHejJmWPHdoFvqgf/7pwUILV9WBaHAVRoEkcF
-pWpY6HxFaDC9gCRgbBQDUr9TIKZjDfcHt7vbvATbpnkDVZaDLHZL4n20Xg9Vskru1EYuGqWgUchs
-5LXfZd9i2lJoGIkcg06VLD7bb0+aluXcf4MRgfn0M4S7vAf8TPHKH8yNt3hcYETLJ+lQhjhDWZLf
-KalhYzxI/tIhyUs8Muy8GiQvx2ZrXvb6sFdZHIuKjGffXOW6tR1Sf0HzOhP7NqVxdfnIWcCgcf9M
-1l/I4LIkrYcjfg2VveNBjBD+1DdDgP7F7Pe4kpNuY4AHwBiDAIlEMYfSP1+HXsIhHMc2PqLbDVVb
-P4+5Bjz2LDG5GLdwReXMDl1jKo9u/9fp4DDYl8z9ut4MOVlevN0NvZ7XseTE+mahkyRSaJ19NA2U
-3w8jRxe71jvZL89JzocxoOzRC9j+OuMLEbtnOVGvBWH6MoTWFjo7dZ00/Y1QFZtZuWhPcG86G7gT
-G9NJG6ci23yNm/c9GYDHzE8ROSf5kPITyHTRKC3bh5ePMTif5MS9u66R3k8117X8KYwsDEcDoDiU
-AjTk+KlGFXmciOxxd/C5/2kzDt7kThXNRE58oDNIXElYaPOPSghAL81XM8Dv71N5EC+gEmipecCf
-H/6tBMN3KcnWrC6cDPUJVEbGuf1I9AA3wWBjlVM94TyjUMwXdReQ5+y7QcfYbe18XPj6Qu+5sk63
-ixKPgcZX++o08Ex7JFo7ohRM/LJ/issxZ6bwcmot6H0PWawv0PkJ/wGvn/9dohNAXSPPneMwNPJL
-BJFJU7GB3O7fNhRVkA0b08gR/YBoZbCE3QYpcDwfjpJQ2OTg8Dc/ngRFzM9wEkBzWLhIrP+DOmzA
-cFwwN8d854L+OsxZqfKwlzRpfThjczeFy+L2N/FI573gq/7mXR0ToO8Uos2W0EuPzGLZ91+1XRfP
-/OG0WgPhkQ205tGDvRQjSajj/+NpUwHuOTrWtC2Q+g3+7B9UP1A3Ww3ib7qtStC+Ia59ctRdSUyD
-N3yANQ68gw0X893sg+R1pxEveKr2uisFaYHHP4qUGfaVgKjFHSrjIq7FGykl2ZznP9TBtVV7eD0l
-bzQWw0albviCsyHivh3uhFRM3o/vPeXKG/Ew8gpIh66z7DgSZ4PbD+oOyqT9PhwKkorEr5RdtLUj
-2n+k4r5hqy0sY/1A0UqlGNtSjRs7iz8aCkX4n7gM0AmsCTB1kvX2S1lHiHXnn20Tl8R3C2SZ1Ypo
-sr1JtkA4Cq9OOFv6DgGRWEp3zkKNjgwO6FGZyIA458am7cIuSfg7sjvRXXNuNp7/7d8pRc3ZTwAp
-NAQOIXLLNv3nATw5gw/4vEUbCAJTMbzQ1ME6RCYvW33kjS0JsRxto4Ywt38nhuxAeOTYkqLPQYqE
-fkaTaEZWJW/cm9rhvuvHpWxuL8hXDrnUCF5N9p2SNopmm+7MFzSGvYBhIdRg5BtehLPFpuY5Q06x
-Z/BjGnGd0f0etRGpuiXt3d0SL6sXX0s15LcbHBKx2YnkkRxODhdJYmnyFhpC+/Sb3MGVvoewFhSA
-Z7ta97Fi/9VQiJimFi8LjjEQ2OSh0P0Y4UPGoAmP4VjgTya1ZCMC0gx2K7BwuOy+o/cpMCCcvvg6
-OmImJQD/BBvqj7IreQ7rzBSDD/+LY6K1ozvJeKpuTtek7kEBMubuoq9LUNy8wD6VyhR+7dSnPIjf
-Tyv2f+PQiVI00+OYG5NJQ7kixOkMoJKFdQ9SItbuPANorTIYy9M471NvDGzvMpl/PQEYGY+7AoCf
-Dk/Uq82ONEm59i6TkhJP+TW+kkgMxiDFSIwhDIb3IZy5sBnFIyOmt3QrhRzPqeueGU+PGUHwbz9P
-QZINvLUt2l28o55vx3vvVHJar9acFvyJBSoLqm4aMRZ1BZRCtOnPyBAfnlLwrn4BAEPeV2AjU4jI
-rqFuJfjPxc3DtWdOA8jtn5/mXUfH0bHM2KPcVSiXTFOkbSG3jPHJaWg3uAC/pr0b0nhFd8MY2/jz
-XXVsUcWLvYyBCVB5NUPIEoOpH9Sd6/LbfK+jlMv/ejjR9Wx/oDbO7VPGqcuMJh6Gww66/tCCaRuT
-yv+O9UtzNGrYAA+h/YkjcLJvI9Cqihi32JBzeFugE+0osH11H0vcU747yJY3r6Bim4ohs/DP1XGg
-CeN+936ld/bphTMQ8CXgrRORWbM+WilsxWvE04OZY3kZiFbUlIhDVDVOpnEZRvrOJ17yYAqS6/lh
-4h4L+dw8ZnSB65GghYD0xAyswbL5C+/rGepcb7ZsJYZ97lIdHPPU8RCHhUzUDJ9vTQMrmvPXUvD3
-LrxbYtGmxQKJDg3UdCuEUo/AAl/f+NAhBrkdXHc8b1C87rE0OTLv/6XRth0uVfP4YXamemJ05N/V
-W4z3XFjAOA6dXsnH4H0/AhDue0fOdC/DJsw8GDbCQx4W7MCZG24ncrdrzd0WMwrd4W5zW5U5Q+f2
-87qfawN09w0XUeDTnvqROQqtGihFKsFFUCe/1CxGXTB9+1LenY1ezpMDWcqI6JfFWXH3MsDWVvM4
-7zGCG4W6Kgu+eBIxUz/3BHlsvvJHDdW+aaqfG0BRZCqMeinchjUYSfpxAdmJ33eIn3PgnR1U1d3y
-nUDofk/n4pjJ0M9zFrWsJosGUrcFwvLmEjoW7VrTudiM0iU9/auGZFNbz9YYhfCH43DYVPOIbOvz
-Nm7rUfZkgZbskMkzsvMa5KUnLQyx0JVR+PK+rEDG3j0tLbhYSfti/gw5wxRx1XlOQzbfh3ZrbtrA
-cAFJ2CPOdaC7wHgBi/R5CVveaNc0Pm+IOMGN5uVdhksZitzlnaioydoLfCIqVVE0XKxao2URZPxE
-LKLFLjs86Qcv+mIRyDtvNktWtqPFKBgwjCimDTlvWTj+tPZojj13fQkpCPehFc1VALQSM3R0hwpi
-JsRsgGW1b9qT5oypYmIvVhrtvj5bah+rHeJlA4gYYVzzVDpY66aMHP/qGmicmf5uD3W9R1A85lL3
-fHRWyJ32LvWqTPMCceqkzyt2074QCDSPKI3t8QsrePcmbW==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Appengine\Resource;
+
+use Google\Service\Appengine\Application;
+use Google\Service\Appengine\Operation;
+use Google\Service\Appengine\RepairApplicationRequest;
+
+/**
+ * The "apps" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $appengineService = new Google\Service\Appengine(...);
+ *   $apps = $appengineService->apps;
+ *  </code>
+ */
+class Apps extends \Google\Service\Resource
+{
+  /**
+   * Creates an App Engine application for a Google Cloud Platform project.
+   * Required fields: id - The ID of the target Cloud Platform project. location -
+   * The region (https://cloud.google.com/appengine/docs/locations) where you want
+   * the App Engine application located.For more information about App Engine
+   * applications, see Managing Projects, Applications, and Billing
+   * (https://cloud.google.com/appengine/docs/standard/python/console/).
+   * (apps.create)
+   *
+   * @param Application $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function create(Application $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Operation::class);
+  }
+  /**
+   * Gets information about an application. (apps.get)
+   *
+   * @param string $appsId Part of `name`. Name of the Application resource to
+   * get. Example: apps/myapp.
+   * @param array $optParams Optional parameters.
+   * @return Application
+   */
+  public function get($appsId, $optParams = [])
+  {
+    $params = ['appsId' => $appsId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Application::class);
+  }
+  /**
+   * Updates the specified Application resource. You can update the following
+   * fields: auth_domain - Google authentication domain for controlling user
+   * access to the application. default_cookie_expiration - Cookie expiration
+   * policy for the application. iap - Identity-Aware Proxy properties for the
+   * application. (apps.patch)
+   *
+   * @param string $appsId Part of `name`. Name of the Application resource to
+   * update. Example: apps/myapp.
+   * @param Application $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. Standard field mask for the set of
+   * fields to be updated.
+   * @return Operation
+   */
+  public function patch($appsId, Application $postBody, $optParams = [])
+  {
+    $params = ['appsId' => $appsId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+  /**
+   * Recreates the required App Engine features for the specified App Engine
+   * application, for example a Cloud Storage bucket or App Engine service
+   * account. Use this method if you receive an error message about a missing
+   * feature, for example, Error retrieving the App Engine service account. If you
+   * have deleted your App Engine service account, this will not be able to
+   * recreate it. Instead, you should attempt to use the IAM undelete API if
+   * possible at https://cloud.google.com/iam/reference/rest/v1/projects.serviceAc
+   * counts/undelete?apix_params=%7B"name"%3A"projects%2F-%2FserviceAccounts%2Funi
+   * que_id"%2C"resource"%3A%7B%7D%7D . If the deletion was recent, the numeric ID
+   * can be found in the Cloud Console Activity Log. (apps.repair)
+   *
+   * @param string $appsId Part of `name`. Name of the application to repair.
+   * Example: apps/myapp
+   * @param RepairApplicationRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function repair($appsId, RepairApplicationRequest $postBody, $optParams = [])
+  {
+    $params = ['appsId' => $appsId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('repair', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Apps::class, 'Google_Service_Appengine_Resource_Apps');

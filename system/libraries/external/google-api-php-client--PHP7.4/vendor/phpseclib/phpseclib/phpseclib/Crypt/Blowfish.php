@@ -1,405 +1,556 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+/**
+ * Pure-PHP implementation of Blowfish.
+ *
+ * Uses mcrypt, if available, and an internal implementation, otherwise.
+ *
+ * PHP version 5
+ *
+ * Useful resources are as follows:
+ *
+ *  - {@link http://en.wikipedia.org/wiki/Blowfish_(cipher) Wikipedia description of Blowfish}
+ *
+ * Here's a short example of how to use this library:
+ * <code>
+ * <?php
+ *    include 'vendor/autoload.php';
+ *
+ *    $blowfish = new \phpseclib3\Crypt\Blowfish('ctr');
+ *
+ *    $blowfish->setKey('12345678901234567890123456789012');
+ *
+ *    $plaintext = str_repeat('a', 1024);
+ *
+ *    echo $blowfish->decrypt($blowfish->encrypt($plaintext));
+ * ?>
+ * </code>
+ *
+ * @category  Crypt
+ * @package   Blowfish
+ * @author    Jim Wigginton <terrafrost@php.net>
+ * @author    Hans-Juergen Petrich <petrich@tronic-media.com>
+ * @copyright 2007 Jim Wigginton
+ * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      http://phpseclib.sourceforge.net
+ */
+
+namespace phpseclib3\Crypt;
+
+use phpseclib3\Crypt\Common\BlockCipher;
+
+/**
+ * Pure-PHP implementation of Blowfish.
+ *
+ * @package Blowfish
+ * @author  Jim Wigginton <terrafrost@php.net>
+ * @author  Hans-Juergen Petrich <petrich@tronic-media.com>
+ * @access  public
+ */
+class Blowfish extends BlockCipher
+{
+    /**
+     * Block Length of the cipher
+     *
+     * @see \phpseclib3\Crypt\Common\SymmetricKey::block_size
+     * @var int
+     * @access private
+     */
+    protected $block_size = 8;
+
+    /**
+     * The mcrypt specific name of the cipher
+     *
+     * @see \phpseclib3\Crypt\Common\SymmetricKey::cipher_name_mcrypt
+     * @var string
+     * @access private
+     */
+    protected $cipher_name_mcrypt = 'blowfish';
+
+    /**
+     * Optimizing value while CFB-encrypting
+     *
+     * @see \phpseclib3\Crypt\Common\SymmetricKey::cfb_init_len
+     * @var int
+     * @access private
+     */
+    protected $cfb_init_len = 500;
+
+    /**
+     * The fixed subkeys boxes ($sbox0 - $sbox3) with 256 entries each
+     *
+     * S-Box 0
+     *
+     * @access private
+     * @var    array
+     */
+    private static $sbox0 = [
+        0xd1310ba6, 0x98dfb5ac, 0x2ffd72db, 0xd01adfb7, 0xb8e1afed, 0x6a267e96, 0xba7c9045, 0xf12c7f99,
+        0x24a19947, 0xb3916cf7, 0x0801f2e2, 0x858efc16, 0x636920d8, 0x71574e69, 0xa458fea3, 0xf4933d7e,
+        0x0d95748f, 0x728eb658, 0x718bcd58, 0x82154aee, 0x7b54a41d, 0xc25a59b5, 0x9c30d539, 0x2af26013,
+        0xc5d1b023, 0x286085f0, 0xca417918, 0xb8db38ef, 0x8e79dcb0, 0x603a180e, 0x6c9e0e8b, 0xb01e8a3e,
+        0xd71577c1, 0xbd314b27, 0x78af2fda, 0x55605c60, 0xe65525f3, 0xaa55ab94, 0x57489862, 0x63e81440,
+        0x55ca396a, 0x2aab10b6, 0xb4cc5c34, 0x1141e8ce, 0xa15486af, 0x7c72e993, 0xb3ee1411, 0x636fbc2a,
+        0x2ba9c55d, 0x741831f6, 0xce5c3e16, 0x9b87931e, 0xafd6ba33, 0x6c24cf5c, 0x7a325381, 0x28958677,
+        0x3b8f4898, 0x6b4bb9af, 0xc4bfe81b, 0x66282193, 0x61d809cc, 0xfb21a991, 0x487cac60, 0x5dec8032,
+        0xef845d5d, 0xe98575b1, 0xdc262302, 0xeb651b88, 0x23893e81, 0xd396acc5, 0x0f6d6ff3, 0x83f44239,
+        0x2e0b4482, 0xa4842004, 0x69c8f04a, 0x9e1f9b5e, 0x21c66842, 0xf6e96c9a, 0x670c9c61, 0xabd388f0,
+        0x6a51a0d2, 0xd8542f68, 0x960fa728, 0xab5133a3, 0x6eef0b6c, 0x137a3be4, 0xba3bf050, 0x7efb2a98,
+        0xa1f1651d, 0x39af0176, 0x66ca593e, 0x82430e88, 0x8cee8619, 0x456f9fb4, 0x7d84a5c3, 0x3b8b5ebe,
+        0xe06f75d8, 0x85c12073, 0x401a449f, 0x56c16aa6, 0x4ed3aa62, 0x363f7706, 0x1bfedf72, 0x429b023d,
+        0x37d0d724, 0xd00a1248, 0xdb0fead3, 0x49f1c09b, 0x075372c9, 0x80991b7b, 0x25d479d8, 0xf6e8def7,
+        0xe3fe501a, 0xb6794c3b, 0x976ce0bd, 0x04c006ba, 0xc1a94fb6, 0x409f60c4, 0x5e5c9ec2, 0x196a2463,
+        0x68fb6faf, 0x3e6c53b5, 0x1339b2eb, 0x3b52ec6f, 0x6dfc511f, 0x9b30952c, 0xcc814544, 0xaf5ebd09,
+        0xbee3d004, 0xde334afd, 0x660f2807, 0x192e4bb3, 0xc0cba857, 0x45c8740f, 0xd20b5f39, 0xb9d3fbdb,
+        0x5579c0bd, 0x1a60320a, 0xd6a100c6, 0x402c7279, 0x679f25fe, 0xfb1fa3cc, 0x8ea5e9f8, 0xdb3222f8,
+        0x3c7516df, 0xfd616b15, 0x2f501ec8, 0xad0552ab, 0x323db5fa, 0xfd238760, 0x53317b48, 0x3e00df82,
+        0x9e5c57bb, 0xca6f8ca0, 0x1a87562e, 0xdf1769db, 0xd542a8f6, 0x287effc3, 0xac6732c6, 0x8c4f5573,
+        0x695b27b0, 0xbbca58c8, 0xe1ffa35d, 0xb8f011a0, 0x10fa3d98, 0xfd2183b8, 0x4afcb56c, 0x2dd1d35b,
+        0x9a53e479, 0xb6f84565, 0xd28e49bc, 0x4bfb9790, 0xe1ddf2da, 0xa4cb7e33, 0x62fb1341, 0xcee4c6e8,
+        0xef20cada, 0x36774c01, 0xd07e9efe, 0x2bf11fb4, 0x95dbda4d, 0xae909198, 0xeaad8e71, 0x6b93d5a0,
+        0xd08ed1d0, 0xafc725e0, 0x8e3c5b2f, 0x8e7594b7, 0x8ff6e2fb, 0xf2122b64, 0x8888b812, 0x900df01c,
+        0x4fad5ea0, 0x688fc31c, 0xd1cff191, 0xb3a8c1ad, 0x2f2f2218, 0xbe0e1777, 0xea752dfe, 0x8b021fa1,
+        0xe5a0cc0f, 0xb56f74e8, 0x18acf3d6, 0xce89e299, 0xb4a84fe0, 0xfd13e0b7, 0x7cc43b81, 0xd2ada8d9,
+        0x165fa266, 0x80957705, 0x93cc7314, 0x211a1477, 0xe6ad2065, 0x77b5fa86, 0xc75442f5, 0xfb9d35cf,
+        0xebcdaf0c, 0x7b3e89a0, 0xd6411bd3, 0xae1e7e49, 0x00250e2d, 0x2071b35e, 0x226800bb, 0x57b8e0af,
+        0x2464369b, 0xf009b91e, 0x5563911d, 0x59dfa6aa, 0x78c14389, 0xd95a537f, 0x207d5ba2, 0x02e5b9c5,
+        0x83260376, 0x6295cfa9, 0x11c81968, 0x4e734a41, 0xb3472dca, 0x7b14a94a, 0x1b510052, 0x9a532915,
+        0xd60f573f, 0xbc9bc6e4, 0x2b60a476, 0x81e67400, 0x08ba6fb5, 0x571be91f, 0xf296ec6b, 0x2a0dd915,
+        0xb6636521, 0xe7b9f9b6, 0xff34052e, 0xc5855664, 0x53b02d5d, 0xa99f8fa1, 0x08ba4799, 0x6e85076a
+    ];
+
+    /**
+     * S-Box 1
+     *
+     * @access private
+     * @var    array
+     */
+    private static $sbox1 = [
+        0x4b7a70e9, 0xb5b32944, 0xdb75092e, 0xc4192623, 0xad6ea6b0, 0x49a7df7d, 0x9cee60b8, 0x8fedb266,
+        0xecaa8c71, 0x699a17ff, 0x5664526c, 0xc2b19ee1, 0x193602a5, 0x75094c29, 0xa0591340, 0xe4183a3e,
+        0x3f54989a, 0x5b429d65, 0x6b8fe4d6, 0x99f73fd6, 0xa1d29c07, 0xefe830f5, 0x4d2d38e6, 0xf0255dc1,
+        0x4cdd2086, 0x8470eb26, 0x6382e9c6, 0x021ecc5e, 0x09686b3f, 0x3ebaefc9, 0x3c971814, 0x6b6a70a1,
+        0x687f3584, 0x52a0e286, 0xb79c5305, 0xaa500737, 0x3e07841c, 0x7fdeae5c, 0x8e7d44ec, 0x5716f2b8,
+        0xb03ada37, 0xf0500c0d, 0xf01c1f04, 0x0200b3ff, 0xae0cf51a, 0x3cb574b2, 0x25837a58, 0xdc0921bd,
+        0xd19113f9, 0x7ca92ff6, 0x94324773, 0x22f54701, 0x3ae5e581, 0x37c2dadc, 0xc8b57634, 0x9af3dda7,
+        0xa9446146, 0x0fd0030e, 0xecc8c73e, 0xa4751e41, 0xe238cd99, 0x3bea0e2f, 0x3280bba1, 0x183eb331,
+        0x4e548b38, 0x4f6db908, 0x6f420d03, 0xf60a04bf, 0x2cb81290, 0x24977c79, 0x5679b072, 0xbcaf89af,
+        0xde9a771f, 0xd9930810, 0xb38bae12, 0xdccf3f2e, 0x5512721f, 0x2e6b7124, 0x501adde6, 0x9f84cd87,
+        0x7a584718, 0x7408da17, 0xbc9f9abc, 0xe94b7d8c, 0xec7aec3a, 0xdb851dfa, 0x63094366, 0xc464c3d2,
+        0xef1c1847, 0x3215d908, 0xdd433b37, 0x24c2ba16, 0x12a14d43, 0x2a65c451, 0x50940002, 0x133ae4dd,
+        0x71dff89e, 0x10314e55, 0x81ac77d6, 0x5f11199b, 0x043556f1, 0xd7a3c76b, 0x3c11183b, 0x5924a509,
+        0xf28fe6ed, 0x97f1fbfa, 0x9ebabf2c, 0x1e153c6e, 0x86e34570, 0xeae96fb1, 0x860e5e0a, 0x5a3e2ab3,
+        0x771fe71c, 0x4e3d06fa, 0x2965dcb9, 0x99e71d0f, 0x803e89d6, 0x5266c825, 0x2e4cc978, 0x9c10b36a,
+        0xc6150eba, 0x94e2ea78, 0xa5fc3c53, 0x1e0a2df4, 0xf2f74ea7, 0x361d2b3d, 0x1939260f, 0x19c27960,
+        0x5223a708, 0xf71312b6, 0xebadfe6e, 0xeac31f66, 0xe3bc4595, 0xa67bc883, 0xb17f37d1, 0x018cff28,
+        0xc332ddef, 0xbe6c5aa5, 0x65582185, 0x68ab9802, 0xeecea50f, 0xdb2f953b, 0x2aef7dad, 0x5b6e2f84,
+        0x1521b628, 0x29076170, 0xecdd4775, 0x619f1510, 0x13cca830, 0xeb61bd96, 0x0334fe1e, 0xaa0363cf,
+        0xb5735c90, 0x4c70a239, 0xd59e9e0b, 0xcbaade14, 0xeecc86bc, 0x60622ca7, 0x9cab5cab, 0xb2f3846e,
+        0x648b1eaf, 0x19bdf0ca, 0xa02369b9, 0x655abb50, 0x40685a32, 0x3c2ab4b3, 0x319ee9d5, 0xc021b8f7,
+        0x9b540b19, 0x875fa099, 0x95f7997e, 0x623d7da8, 0xf837889a, 0x97e32d77, 0x11ed935f, 0x16681281,
+        0x0e358829, 0xc7e61fd6, 0x96dedfa1, 0x7858ba99, 0x57f584a5, 0x1b227263, 0x9b83c3ff, 0x1ac24696,
+        0xcdb30aeb, 0x532e3054, 0x8fd948e4, 0x6dbc3128, 0x58ebf2ef, 0x34c6ffea, 0xfe28ed61, 0xee7c3c73,
+        0x5d4a14d9, 0xe864b7e3, 0x42105d14, 0x203e13e0, 0x45eee2b6, 0xa3aaabea, 0xdb6c4f15, 0xfacb4fd0,
+        0xc742f442, 0xef6abbb5, 0x654f3b1d, 0x41cd2105, 0xd81e799e, 0x86854dc7, 0xe44b476a, 0x3d816250,
+        0xcf62a1f2, 0x5b8d2646, 0xfc8883a0, 0xc1c7b6a3, 0x7f1524c3, 0x69cb7492, 0x47848a0b, 0x5692b285,
+        0x095bbf00, 0xad19489d, 0x1462b174, 0x23820e00, 0x58428d2a, 0x0c55f5ea, 0x1dadf43e, 0x233f7061,
+        0x3372f092, 0x8d937e41, 0xd65fecf1, 0x6c223bdb, 0x7cde3759, 0xcbee7460, 0x4085f2a7, 0xce77326e,
+        0xa6078084, 0x19f8509e, 0xe8efd855, 0x61d99735, 0xa969a7aa, 0xc50c06c2, 0x5a04abfc, 0x800bcadc,
+        0x9e447a2e, 0xc3453484, 0xfdd56705, 0x0e1e9ec9, 0xdb73dbd3, 0x105588cd, 0x675fda79, 0xe3674340,
+        0xc5c43465, 0x713e38d8, 0x3d28f89e, 0xf16dff20, 0x153e21e7, 0x8fb03d4a, 0xe6e39f2b, 0xdb83adf7
+    ];
+
+    /**
+     * S-Box 2
+     *
+     * @access private
+     * @var    array
+     */
+    private static $sbox2 = [
+        0xe93d5a68, 0x948140f7, 0xf64c261c, 0x94692934, 0x411520f7, 0x7602d4f7, 0xbcf46b2e, 0xd4a20068,
+        0xd4082471, 0x3320f46a, 0x43b7d4b7, 0x500061af, 0x1e39f62e, 0x97244546, 0x14214f74, 0xbf8b8840,
+        0x4d95fc1d, 0x96b591af, 0x70f4ddd3, 0x66a02f45, 0xbfbc09ec, 0x03bd9785, 0x7fac6dd0, 0x31cb8504,
+        0x96eb27b3, 0x55fd3941, 0xda2547e6, 0xabca0a9a, 0x28507825, 0x530429f4, 0x0a2c86da, 0xe9b66dfb,
+        0x68dc1462, 0xd7486900, 0x680ec0a4, 0x27a18dee, 0x4f3ffea2, 0xe887ad8c, 0xb58ce006, 0x7af4d6b6,
+        0xaace1e7c, 0xd3375fec, 0xce78a399, 0x406b2a42, 0x20fe9e35, 0xd9f385b9, 0xee39d7ab, 0x3b124e8b,
+        0x1dc9faf7, 0x4b6d1856, 0x26a36631, 0xeae397b2, 0x3a6efa74, 0xdd5b4332, 0x6841e7f7, 0xca7820fb,
+        0xfb0af54e, 0xd8feb397, 0x454056ac, 0xba489527, 0x55533a3a, 0x20838d87, 0xfe6ba9b7, 0xd096954b,
+        0x55a867bc, 0xa1159a58, 0xcca92963, 0x99e1db33, 0xa62a4a56, 0x3f3125f9, 0x5ef47e1c, 0x9029317c,
+        0xfdf8e802, 0x04272f70, 0x80bb155c, 0x05282ce3, 0x95c11548, 0xe4c66d22, 0x48c1133f, 0xc70f86dc,
+        0x07f9c9ee, 0x41041f0f, 0x404779a4, 0x5d886e17, 0x325f51eb, 0xd59bc0d1, 0xf2bcc18f, 0x41113564,
+        0x257b7834, 0x602a9c60, 0xdff8e8a3, 0x1f636c1b, 0x0e12b4c2, 0x02e1329e, 0xaf664fd1, 0xcad18115,
+        0x6b2395e0, 0x333e92e1, 0x3b240b62, 0xeebeb922, 0x85b2a20e, 0xe6ba0d99, 0xde720c8c, 0x2da2f728,
+        0xd0127845, 0x95b794fd, 0x647d0862, 0xe7ccf5f0, 0x5449a36f, 0x877d48fa, 0xc39dfd27, 0xf33e8d1e,
+        0x0a476341, 0x992eff74, 0x3a6f6eab, 0xf4f8fd37, 0xa812dc60, 0xa1ebddf8, 0x991be14c, 0xdb6e6b0d,
+        0xc67b5510, 0x6d672c37, 0x2765d43b, 0xdcd0e804, 0xf1290dc7, 0xcc00ffa3, 0xb5390f92, 0x690fed0b,
+        0x667b9ffb, 0xcedb7d9c, 0xa091cf0b, 0xd9155ea3, 0xbb132f88, 0x515bad24, 0x7b9479bf, 0x763bd6eb,
+        0x37392eb3, 0xcc115979, 0x8026e297, 0xf42e312d, 0x6842ada7, 0xc66a2b3b, 0x12754ccc, 0x782ef11c,
+        0x6a124237, 0xb79251e7, 0x06a1bbe6, 0x4bfb6350, 0x1a6b1018, 0x11caedfa, 0x3d25bdd8, 0xe2e1c3c9,
+        0x44421659, 0x0a121386, 0xd90cec6e, 0xd5abea2a, 0x64af674e, 0xda86a85f, 0xbebfe988, 0x64e4c3fe,
+        0x9dbc8057, 0xf0f7c086, 0x60787bf8, 0x6003604d, 0xd1fd8346, 0xf6381fb0, 0x7745ae04, 0xd736fccc,
+        0x83426b33, 0xf01eab71, 0xb0804187, 0x3c005e5f, 0x77a057be, 0xbde8ae24, 0x55464299, 0xbf582e61,
+        0x4e58f48f, 0xf2ddfda2, 0xf474ef38, 0x8789bdc2, 0x5366f9c3, 0xc8b38e74, 0xb475f255, 0x46fcd9b9,
+        0x7aeb2661, 0x8b1ddf84, 0x846a0e79, 0x915f95e2, 0x466e598e, 0x20b45770, 0x8cd55591, 0xc902de4c,
+        0xb90bace1, 0xbb8205d0, 0x11a86248, 0x7574a99e, 0xb77f19b6, 0xe0a9dc09, 0x662d09a1, 0xc4324633,
+        0xe85a1f02, 0x09f0be8c, 0x4a99a025, 0x1d6efe10, 0x1ab93d1d, 0x0ba5a4df, 0xa186f20f, 0x2868f169,
+        0xdcb7da83, 0x573906fe, 0xa1e2ce9b, 0x4fcd7f52, 0x50115e01, 0xa70683fa, 0xa002b5c4, 0x0de6d027,
+        0x9af88c27, 0x773f8641, 0xc3604c06, 0x61a806b5, 0xf0177a28, 0xc0f586e0, 0x006058aa, 0x30dc7d62,
+        0x11e69ed7, 0x2338ea63, 0x53c2dd94, 0xc2c21634, 0xbbcbee56, 0x90bcb6de, 0xebfc7da1, 0xce591d76,
+        0x6f05e409, 0x4b7c0188, 0x39720a3d, 0x7c927c24, 0x86e3725f, 0x724d9db9, 0x1ac15bb4, 0xd39eb8fc,
+        0xed545578, 0x08fca5b5, 0xd83d7cd3, 0x4dad0fc4, 0x1e50ef5e, 0xb161e6f8, 0xa28514d9, 0x6c51133c,
+        0x6fd5c7e7, 0x56e14ec4, 0x362abfce, 0xddc6c837, 0xd79a3234, 0x92638212, 0x670efa8e, 0x406000e0
+    ];
+
+    /**
+     * S-Box 3
+     *
+     * @access private
+     * @var    array
+     */
+    private static $sbox3 = [
+        0x3a39ce37, 0xd3faf5cf, 0xabc27737, 0x5ac52d1b, 0x5cb0679e, 0x4fa33742, 0xd3822740, 0x99bc9bbe,
+        0xd5118e9d, 0xbf0f7315, 0xd62d1c7e, 0xc700c47b, 0xb78c1b6b, 0x21a19045, 0xb26eb1be, 0x6a366eb4,
+        0x5748ab2f, 0xbc946e79, 0xc6a376d2, 0x6549c2c8, 0x530ff8ee, 0x468dde7d, 0xd5730a1d, 0x4cd04dc6,
+        0x2939bbdb, 0xa9ba4650, 0xac9526e8, 0xbe5ee304, 0xa1fad5f0, 0x6a2d519a, 0x63ef8ce2, 0x9a86ee22,
+        0xc089c2b8, 0x43242ef6, 0xa51e03aa, 0x9cf2d0a4, 0x83c061ba, 0x9be96a4d, 0x8fe51550, 0xba645bd6,
+        0x2826a2f9, 0xa73a3ae1, 0x4ba99586, 0xef5562e9, 0xc72fefd3, 0xf752f7da, 0x3f046f69, 0x77fa0a59,
+        0x80e4a915, 0x87b08601, 0x9b09e6ad, 0x3b3ee593, 0xe990fd5a, 0x9e34d797, 0x2cf0b7d9, 0x022b8b51,
+        0x96d5ac3a, 0x017da67d, 0xd1cf3ed6, 0x7c7d2d28, 0x1f9f25cf, 0xadf2b89b, 0x5ad6b472, 0x5a88f54c,
+        0xe029ac71, 0xe019a5e6, 0x47b0acfd, 0xed93fa9b, 0xe8d3c48d, 0x283b57cc, 0xf8d56629, 0x79132e28,
+        0x785f0191, 0xed756055, 0xf7960e44, 0xe3d35e8c, 0x15056dd4, 0x88f46dba, 0x03a16125, 0x0564f0bd,
+        0xc3eb9e15, 0x3c9057a2, 0x97271aec, 0xa93a072a, 0x1b3f6d9b, 0x1e6321f5, 0xf59c66fb, 0x26dcf319,
+        0x7533d928, 0xb155fdf5, 0x03563482, 0x8aba3cbb, 0x28517711, 0xc20ad9f8, 0xabcc5167, 0xccad925f,
+        0x4de81751, 0x3830dc8e, 0x379d5862, 0x9320f991, 0xea7a90c2, 0xfb3e7bce, 0x5121ce64, 0x774fbe32,
+        0xa8b6e37e, 0xc3293d46, 0x48de5369, 0x6413e680, 0xa2ae0810, 0xdd6db224, 0x69852dfd, 0x09072166,
+        0xb39a460a, 0x6445c0dd, 0x586cdecf, 0x1c20c8ae, 0x5bbef7dd, 0x1b588d40, 0xccd2017f, 0x6bb4e3bb,
+        0xdda26a7e, 0x3a59ff45, 0x3e350a44, 0xbcb4cdd5, 0x72eacea8, 0xfa6484bb, 0x8d6612ae, 0xbf3c6f47,
+        0xd29be463, 0x542f5d9e, 0xaec2771b, 0xf64e6370, 0x740e0d8d, 0xe75b1357, 0xf8721671, 0xaf537d5d,
+        0x4040cb08, 0x4eb4e2cc, 0x34d2466a, 0x0115af84, 0xe1b00428, 0x95983a1d, 0x06b89fb4, 0xce6ea048,
+        0x6f3f3b82, 0x3520ab82, 0x011a1d4b, 0x277227f8, 0x611560b1, 0xe7933fdc, 0xbb3a792b, 0x344525bd,
+        0xa08839e1, 0x51ce794b, 0x2f32c9b7, 0xa01fbac9, 0xe01cc87e, 0xbcc7d1f6, 0xcf0111c3, 0xa1e8aac7,
+        0x1a908749, 0xd44fbd9a, 0xd0dadecb, 0xd50ada38, 0x0339c32a, 0xc6913667, 0x8df9317c, 0xe0b12b4f,
+        0xf79e59b7, 0x43f5bb3a, 0xf2d519ff, 0x27d9459c, 0xbf97222c, 0x15e6fc2a, 0x0f91fc71, 0x9b941525,
+        0xfae59361, 0xceb69ceb, 0xc2a86459, 0x12baa8d1, 0xb6c1075e, 0xe3056a0c, 0x10d25065, 0xcb03a442,
+        0xe0ec6e0e, 0x1698db3b, 0x4c98a0be, 0x3278e964, 0x9f1f9532, 0xe0d392df, 0xd3a0342b, 0x8971f21e,
+        0x1b0a7441, 0x4ba3348c, 0xc5be7120, 0xc37632d8, 0xdf359f8d, 0x9b992f2e, 0xe60b6f47, 0x0fe3f11d,
+        0xe54cda54, 0x1edad891, 0xce6279cf, 0xcd3e7e6f, 0x1618b166, 0xfd2c1d05, 0x848fd2c5, 0xf6fb2299,
+        0xf523f357, 0xa6327623, 0x93a83531, 0x56cccd02, 0xacf08162, 0x5a75ebb5, 0x6e163697, 0x88d273cc,
+        0xde966292, 0x81b949d0, 0x4c50901b, 0x71c65614, 0xe6c6c7bd, 0x327a140a, 0x45e1d006, 0xc3f27b9a,
+        0xc9aa53fd, 0x62a80f00, 0xbb25bfe2, 0x35bdd2f6, 0x71126905, 0xb2040222, 0xb6cbcf7c, 0xcd769c2b,
+        0x53113ec0, 0x1640e3d3, 0x38abbd60, 0x2547adf0, 0xba38209c, 0xf746ce76, 0x77afa1c5, 0x20756060,
+        0x85cbfe4e, 0x8ae88dd8, 0x7aaaf9b0, 0x4cf9aa7e, 0x1948c25c, 0x02fb8a8c, 0x01c36ae4, 0xd6ebe1f9,
+        0x90d4f869, 0xa65cdea0, 0x3f09252d, 0xc208e69f, 0xb74e6132, 0xce77e25b, 0x578fdfe3, 0x3ac372e6
+    ];
+
+    /**
+     * P-Array consists of 18 32-bit subkeys
+     *
+     * @var array
+     * @access private
+     */
+    private static $parray = [
+        0x243f6a88, 0x85a308d3, 0x13198a2e, 0x03707344, 0xa4093822, 0x299f31d0,
+        0x082efa98, 0xec4e6c89, 0x452821e6, 0x38d01377, 0xbe5466cf, 0x34e90c6c,
+        0xc0ac29b7, 0xc97c50dd, 0x3f84d5b5, 0xb5470917, 0x9216d5d9, 0x8979fb1b
+    ];
+
+    /**
+     * The BCTX-working Array
+     *
+     * Holds the expanded key [p] and the key-depended s-boxes [sb]
+     *
+     * @var array
+     * @access private
+     */
+    private $bctx;
+
+    /**
+     * Holds the last used key
+     *
+     * @var array
+     * @access private
+     */
+    private $kl;
+
+    /**
+     * The Key Length (in bytes)
+     * {@internal The max value is 256 / 8 = 32, the min value is 128 / 8 = 16.  Exists in conjunction with $Nk
+     *    because the encryption / decryption / key schedule creation requires this number and not $key_length.  We could
+     *    derive this from $key_length or vice versa, but that'd mean we'd have to do multiple shift operations, so in lieu
+     *    of that, we'll just precompute it once.}
+     *
+     * @see \phpseclib3\Crypt\Common\SymmetricKey::setKeyLength()
+     * @var int
+     * @access private
+     */
+    protected $key_length = 16;
+
+    /**
+     * Default Constructor.
+     *
+     * @param string $mode
+     * @access public
+     * @throws \InvalidArgumentException if an invalid / unsupported mode is provided
+     */
+    public function __construct($mode)
+    {
+        parent::__construct($mode);
+
+        if ($this->mode == self::MODE_STREAM) {
+            throw new \InvalidArgumentException('Block ciphers cannot be ran in stream mode');
+        }
+    }
+
+    /**
+     * Sets the key length.
+     *
+     * Key lengths can be between 32 and 448 bits.
+     *
+     * @access public
+     * @param int $length
+     */
+    public function setKeyLength($length)
+    {
+        if ($length < 32 || $length > 448) {
+                throw new \LengthException('Key size of ' . $length . ' bits is not supported by this algorithm. Only keys of sizes between 32 and 448 bits are supported');
+        }
+
+        $this->key_length = $length >> 3;
+
+        parent::setKeyLength($length);
+    }
+
+    /**
+     * Test for engine validity
+     *
+     * This is mainly just a wrapper to set things up for \phpseclib3\Crypt\Common\SymmetricKey::isValidEngine()
+     *
+     * @see \phpseclib3\Crypt\Common\SymmetricKey::isValidEngine()
+     * @param int $engine
+     * @access protected
+     * @return bool
+     */
+    protected function isValidEngineHelper($engine)
+    {
+        if ($engine == self::ENGINE_OPENSSL) {
+            if (version_compare(PHP_VERSION, '5.3.7') < 0 && $this->key_length != 16) {
+                return false;
+            }
+            if ($this->key_length < 16) {
+                return false;
+            }
+            $this->cipher_name_openssl_ecb = 'bf-ecb';
+            $this->cipher_name_openssl = 'bf-' . $this->openssl_translate_mode();
+        }
+
+        return parent::isValidEngineHelper($engine);
+    }
+
+    /**
+     * Setup the key (expansion)
+     *
+     * @see \phpseclib3\Crypt\Common\SymmetricKey::_setupKey()
+     * @access private
+     */
+    protected function setupKey()
+    {
+        if (isset($this->kl['key']) && $this->key === $this->kl['key']) {
+            // already expanded
+            return;
+        }
+        $this->kl = ['key' => $this->key];
+
+        /* key-expanding p[] and S-Box building sb[] */
+        $this->bctx = [
+            'p'  => [],
+            'sb' => [
+                self::$sbox0,
+                self::$sbox1,
+                self::$sbox2,
+                self::$sbox3
+            ]
+        ];
+
+        // unpack binary string in unsigned chars
+        $key  = array_values(unpack('C*', $this->key));
+        $keyl = count($key);
+        for ($j = 0, $i = 0; $i < 18; ++$i) {
+            // xor P1 with the first 32-bits of the key, xor P2 with the second 32-bits ...
+            for ($data = 0, $k = 0; $k < 4; ++$k) {
+                $data = ($data << 8) | $key[$j];
+                if (++$j >= $keyl) {
+                    $j = 0;
+                }
+            }
+            $this->bctx['p'][] = self::$parray[$i] ^ $data;
+        }
+
+        // encrypt the zero-string, replace P1 and P2 with the encrypted data,
+        // encrypt P3 and P4 with the new P1 and P2, do it with all P-array and subkeys
+        $data = "\0\0\0\0\0\0\0\0";
+        for ($i = 0; $i < 18; $i += 2) {
+            list($l, $r) = array_values(unpack('N*', $data = $this->encryptBlock($data)));
+            $this->bctx['p'][$i    ] = $l;
+            $this->bctx['p'][$i + 1] = $r;
+        }
+        for ($i = 0; $i < 4; ++$i) {
+            for ($j = 0; $j < 256; $j += 2) {
+                list($l, $r) = array_values(unpack('N*', $data = $this->encryptBlock($data)));
+                $this->bctx['sb'][$i][$j    ] = $l;
+                $this->bctx['sb'][$i][$j + 1] = $r;
+            }
+        }
+    }
+
+    /**
+     * Encrypts a block
+     *
+     * @access private
+     * @param string $in
+     * @return string
+     */
+    protected function encryptBlock($in)
+    {
+        $p = $this->bctx['p'];
+        // extract($this->bctx['sb'], EXTR_PREFIX_ALL, 'sb'); // slower
+        $sb_0 = $this->bctx['sb'][0];
+        $sb_1 = $this->bctx['sb'][1];
+        $sb_2 = $this->bctx['sb'][2];
+        $sb_3 = $this->bctx['sb'][3];
+
+        $in = unpack('N*', $in);
+        $l = $in[1];
+        $r = $in[2];
+
+        for ($i = 0; $i < 16; $i+= 2) {
+            $l^= $p[$i];
+            $r^= self::safe_intval((self::safe_intval($sb_0[$l >> 24 & 0xff]  + $sb_1[$l >> 16 & 0xff]) ^
+                  $sb_2[$l >>  8 & 0xff]) +
+                  $sb_3[$l       & 0xff]);
+
+            $r^= $p[$i + 1];
+            $l^= self::safe_intval((self::safe_intval($sb_0[$r >> 24 & 0xff]  + $sb_1[$r >> 16 & 0xff]) ^
+                  $sb_2[$r >>  8 & 0xff]) +
+                  $sb_3[$r       & 0xff]);
+        }
+        return pack('N*', $r ^ $p[17], $l ^ $p[16]);
+    }
+
+    /**
+     * Decrypts a block
+     *
+     * @access private
+     * @param string $in
+     * @return string
+     */
+    protected function decryptBlock($in)
+    {
+        $p = $this->bctx['p'];
+        $sb_0 = $this->bctx['sb'][0];
+        $sb_1 = $this->bctx['sb'][1];
+        $sb_2 = $this->bctx['sb'][2];
+        $sb_3 = $this->bctx['sb'][3];
+
+        $in = unpack('N*', $in);
+        $l = $in[1];
+        $r = $in[2];
+
+        for ($i = 17; $i > 2; $i-= 2) {
+            $l^= $p[$i];
+            $r^= self::safe_intval((self::safe_intval($sb_0[$l >> 24 & 0xff] + $sb_1[$l >> 16 & 0xff]) ^
+                  $sb_2[$l >>  8 & 0xff]) +
+                  $sb_3[$l       & 0xff]);
+
+            $r^= $p[$i - 1];
+            $l^= self::safe_intval((self::safe_intval($sb_0[$r >> 24 & 0xff] + $sb_1[$r >> 16 & 0xff]) ^
+                  $sb_2[$r >>  8 & 0xff]) +
+                  $sb_3[$r       & 0xff]);
+        }
+        return pack('N*', $r ^ $p[0], $l ^ $p[1]);
+    }
+
+    /**
+     * Setup the performance-optimized function for de/encrypt()
+     *
+     * @see \phpseclib3\Crypt\Common\SymmetricKey::_setupInlineCrypt()
+     * @access private
+     */
+    protected function setupInlineCrypt()
+    {
+        $p = $this->bctx['p'];
+        $init_crypt = '
+            static $sb_0, $sb_1, $sb_2, $sb_3;
+            if (!$sb_0) {
+                $sb_0 = $this->bctx["sb"][0];
+                $sb_1 = $this->bctx["sb"][1];
+                $sb_2 = $this->bctx["sb"][2];
+                $sb_3 = $this->bctx["sb"][3];
+            }
+        ';
+
+        $safeint = self::safe_intval_inline();
+
+        // Generating encrypt code:
+        $encrypt_block = '
+            $in = unpack("N*", $in);
+            $l = $in[1];
+            $r = $in[2];
+        ';
+        for ($i = 0; $i < 16; $i+= 2) {
+            $encrypt_block.= '
+                $l^= ' . $p[$i] . ';
+                $r^= ' . sprintf($safeint, '(' . sprintf($safeint, '$sb_0[$l >> 24 & 0xff] + $sb_1[$l >> 16 & 0xff]') . ' ^
+                      $sb_2[$l >>  8 & 0xff]) +
+                      $sb_3[$l       & 0xff]') . ';
+
+                $r^= ' . $p[$i + 1] . ';
+                $l^= ' . sprintf($safeint, '(' . sprintf($safeint, '$sb_0[$r >> 24 & 0xff] + $sb_1[$r >> 16 & 0xff]') . '  ^
+                      $sb_2[$r >>  8 & 0xff]) +
+                      $sb_3[$r       & 0xff]') . ';
+            ';
+        }
+        $encrypt_block.= '
+            $in = pack("N*",
+                $r ^ ' . $p[17] . ',
+                $l ^ ' . $p[16] . '
+            );
+        ';
+         // Generating decrypt code:
+        $decrypt_block = '
+            $in = unpack("N*", $in);
+            $l = $in[1];
+            $r = $in[2];
+        ';
+
+        for ($i = 17; $i > 2; $i-= 2) {
+            $decrypt_block.= '
+                $l^= ' . $p[$i] . ';
+                $r^= ' . sprintf($safeint, '(' . sprintf($safeint, '$sb_0[$l >> 24 & 0xff] + $sb_1[$l >> 16 & 0xff]') . ' ^
+                      $sb_2[$l >>  8 & 0xff]) +
+                      $sb_3[$l       & 0xff]') . ';
+
+                $r^= ' . $p[$i - 1] . ';
+                $l^= ' . sprintf($safeint, '(' . sprintf($safeint, '$sb_0[$r >> 24 & 0xff] + $sb_1[$r >> 16 & 0xff]') . ' ^
+                      $sb_2[$r >>  8 & 0xff]) +
+                      $sb_3[$r       & 0xff]') . ';
+            ';
+        }
+
+        $decrypt_block.= '
+            $in = pack("N*",
+                $r ^ ' . $p[0] . ',
+                $l ^ ' . $p[1] . '
+            );
+        ';
+
+        $this->inline_crypt = $this->createInlineCryptFunction(
+            [
+               'init_crypt'    => $init_crypt,
+               'init_encrypt'  => '',
+               'init_decrypt'  => '',
+               'encrypt_block' => $encrypt_block,
+               'decrypt_block' => $decrypt_block
+            ]
+        );
+    }
+}

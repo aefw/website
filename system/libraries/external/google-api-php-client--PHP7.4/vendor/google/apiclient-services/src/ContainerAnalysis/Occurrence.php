@@ -1,103 +1,224 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPq2zpC1r5pNtS7jPu+UjCYg5Lc3QNz7e1P38IZgdpkrK4nBkS34HGAN9ZTMNp/YpJxwcNoEc
-dnWw7lL2mNOeCbCEdTOuqgkyd5lzNRL6RS0cCNisDpwrUWN+NdK9T1DiiTivvPKHHZFU9snAdNbe
-bmnJTgKVOV9TZctKEHMEFPu96qxHnoMOP1KekUllYb6cL9Mz/kJlFvd/0HWrC9rqVtYrR+C5AKuu
-cQ/EVQBUniZkYvDq5arRGKNi/d+/4H1PMMuh+9UAliKPs81mLO/L7Dnu6E9mKourL8IeB86cFae5
-vLNDRDlE4TV0bI2utkw8rFiUI6jG31YjbfZJP1OPMpeAvUrbomwS+25Id/kfHt7JkBXfsjE3vsNt
-uBNiQk/tjl1z78TIGCwgrmq835vPY7drMCijasBjHCxb2N2bAj2/0M11gx0SFulvlfkM7Jx6Id9J
-Of3cBweqAef2fWwyZOW0DZDqRPEFU9OpLZAGt9Y8e5OPIhIMxVCMnugGlTycLNNhhONFGi2sqv1h
-KTXbFmhd1EH7rjwMeNCVZk7oG5yrObCjLcSZzacF+jKz+hOqJjHWrbpLNJqC+vCZ73zwvvkXdG4t
-dHzsop4CYJITNlxKuBVx3BHyIP3vHFkOv79FtSn6nxBVJm+mVnfQexStsK9yW2jN/zMVqcAHwVSb
-/wH+8cvVWgGmCDzxni7zoeqnPm8ETrZ6VWcWpxdH/Gardv540ONRk6+D69Venqg4CK9OPBvQUYxh
-1YgA+Iw6VSIHOEQDLlR6Q2tzeTQD0w0JnKyoxaRb4IdcoICgMga9hyHMIJUwbj4xl1v24Y8IKxti
-xNNoZTKcdzD0B+ZDAXxccVuCw6CqdV5ng692PgLVA2Rwoh4SgGeuwyzNpePfjmhdmeVe7czugTK4
-UyrjFn3SoA9bWaaaG6r9YYf6OQ9O7CUALOCVEnu/jPO3eFOlrg0WlAEM8K+zfsQQFnBaw9cMJuq4
-wUHKfuKww9Kv2tuS1fRTJcxL3PfCvhVbGKtLTavHilK+y0RzKjwC8ADl6D+XMGbbpaf7zucz75Lc
-FLUHXXBW+pwzmEA1ffnQALdAEZvs63JM0h4gMrqb/cO7/Y6nUGZw/KPkPTI6WU2piOjuLBGRZXLA
-3ynDykoLvx+f25kuDpjdMegzDftRs6okiVx2NODAcVprS5gua7LpiM7PDOxZSFiO7Zk13xkk8SF8
-e9ARg8OlULHzLGrBmvDOT4pTEoxdPA2odIqbd6LZ3arSDo421DJoRFfK7VtLC+IIYiUK76pXbKIx
-YyycKtu1r/0M3IO6VDJIi3RlqJwBis18SXzgQrmwTOZO3sE2sN3hDWjvTFZfItSd3oM7V069HYu6
-Gk5V9fk00On31OAtl1iLOnlEZp8NSkh/qDBBLXFyFLbtv1eF8NGfTujHUdpBKeJWdRlZkCp7LAAe
-zDSiU2C4/SBQqeh8k4gWT0T70jqeW7dihPmrm4snIy9I82dohDIb+MzX7FTzJaLk08KnudcuoeJ/
-nTWnFyov3iuQmQFwT1JAj9BGLwrFsS7IFi0ltPMjGx7GO87f7dBgFff5/g6znkBvCmqxqiIcU9EV
-WW+634G2Hd3epXgGfhNs3Y2QugRddWz9N6BuffAhHOf/DizMmRui141aMUgiyr+mNphlsMSt2sVu
-Gzdgu9Pbqq78cHdRBRYGaXT1euNy1QbtUypjOxCMvs0vtDV0qo1P/zXOkqce+PnUFduXDp+HaYqQ
-J5xh+QCx9UG8AUdV0sAf7tJ38Rw+tQ++29olbs6w6rVkDHi8stKfIeqCunbMcgZpdoK0Kmgl+9rl
-2VU1mDtMWCi2hBhRZPKfGZMhaEyoMW3bYp9i3DqSHde8hqEkcIoV+jNqEoF759EzNHLAXxRscAoM
-BAI3/RulK0Hv1KUuEOCW5bDkaCylcn+8WU4BD5qcXIi9ekJ2GPNtbU1sc9jBqt8a6Dtc2qLTStI4
-QTG5I/zVaAL5/UoHRbbctkDr7IzZ2Sq/WpL3PH+XPKdn066ZPlxD1TPeU98dzL1ipzSomwYDqzwe
-PaZyvSZClxvx3ap/4gpV4AuKSjvdZ1+QgGT0n7bHxnC/v/x8Q+cspXv19yIptVlNL9cqZpwsKJ9L
-zK55MGqiVclSrRbEimFa61ZsR+K6LVGmvVUpvgAkEzBdfJQtdCYce4t9JVkHl2Haw9DgJBZpfCrI
-x2Sw/I+6M3Ju+v6MXqnyA5VOTkRx0PeL7YJf5Le1WU9K4cXrHCuV2M+2EViCCMr20VZbDXA2W6EQ
-dHL8SLh5H175GPy93nR/s12x0rVel8SfkW6U0YOZl9teo63JCiCrgWSWpDe8T9at8jd1+iIW1mVc
-UulXVET4RvqWHE49BUwM2DEXyWOuEzK4Xv4d8flp72MQV3PK/GqsGmpMFyPW/cZIImPbBek3QK3O
-/8fle7nZ+qvikD1crxgDe6fS1X9L6ZyY8HPsK48YCfW/BD6e+En41ZjwMN2XN+bQQsfNu7whalPp
-GW3Q5SPKPuI+RUQG5l6KP2USyCWxalaYtC0IsD1yDTrz21b557Lga/854GUgRebCKq6a3F988XM3
-Iiu2SB95lfanOq6bNUTDC9fmUG3gauSYFZRBRLjORWgsSzdBmH2KnZULi8+xAHP19cxvK4wGk0Dr
-Ur+lbmUXZv2GphlCmfnqrhcfUl3+QURvZsp3Zludj0iLH/LHWaeSDsTMad66WFWY6Px6TGtUam6g
-59DWngARIKLERP2GJmRQe6aTpUcE/ogqmvJSV02bkEoWm9bA791Gydz0ISy+X/s/PmelOGjiR4Of
-CXooFVVZkigs8w8cYlB1OyiH3GRSBQCQOezuFNT5JSKW5zgk7UG5tIpRQ3+WK8OGTHb47ZPafxrs
-CclZ284Y/j09u8yqj/bwfKLKGRBmMJIUtcv3lI3DWSQZhNBLBjfFUJ222smhHmSdRo0TGW3EB5MW
-Ndpkdx4CDjwbugx0S5kQ0ecR6KmmKsF2vHh4DK/Sai2nY8PDqd84vaw1A0IFT32MlOIRXIETuomn
-Q+tZP6U3TvxCv0kSsN7xtURJ0HAMBrdMCsCsnli/sYcf7kCCzYpGdMx19g/gxW0s2bF/DFZaAiiR
-t0TeLlaIb/OcN4r69/pKsGiLllrfP6/C3yj23MhntnAD6tTllR5M3MW0YhzFoSNpoNjA9MoJRDfY
-QYmeDlm00QdRlkXebKAqU8Bnw+XhgxSBp5wREvSWaKljVKxKEm3rw4Oft2ymnJEdm4KABE8E4VS2
-5nMfFeHoafmbL7s2ZlNPtgMrZBozvtN/O5G/P3fL3/Flpm+U/7UqKnT7l2SNVu5YUO7aPqjem4xS
-O0wreboLQhpi+QJ+RMqFvmCNR4dBy6duoefYLXdRU+Bvn2vYgyiJkITpPmARXw8OHPeiYjgBg2Dq
-UkzZNcpHQiwRIgOEUieKUkD4P3hgS2t72ymHxg6lybsjWElorv/2aMl/qrlmkqI9X116VR7OxeZr
-szY3eCEnxNeqyhMG5m8GaZxn7XstnH3497+v/MgPmeAbOC2nsqThukrSHQ5JibdHXUCQ62zFKj5k
-w3JZ1WSvE9co6HVmOyjusYZehIwURG7um4BYQTE9+tcrNVow6mu5Uc/nKHT5BzEwO7wpCAOc/L3i
-neB6K3VuAytcyPGDJLBNXYIRU6tZneSl8ov8EeK9w4DA5IF10cGwA7B2GoOs3WRKsTHY/Subm0l7
-nlPjqZNwHP0hw/mmYUJFN2o46cawa2YiIJX+xlqXB4fopvDm1VgfIY9/YNRrohHAFlH66b8KITDJ
-h9fPXxyHbVZwcrIFEcX4FGm6UvQ9xUPSHn+dbwixEkR7omBmBojJ3QgFRJUMjFvlhp7uK8MZj2Ph
-R2lSAqGudU4GLLaGAFAZJIPw8SjquIw+zoPH5kJeEF8/EmgQ5j1d5HaXYmvFvAgDcusmw9vISbch
-/aeAJOymBYQ90NEOLK4goKVKRPz58eIh+S80g2ocRUXBSxHtJlNu2XOkzzXdhs624HzJNVDc14JP
-hTwJ3qLIO2A+9b56FidVeF+X+9jaQ7NgrQM/46lOnu9WKQR2pyWm3q1k7dvxsTGigCoDyNjYwRa5
-zBIKOQDnHGQ9TUhMo9YwrvUucZAr8nY30vW8FK/LBNTs97Zj6Alj7UYpYXg37SecEQV4QPApUIyX
-GUM3cdtKKV01mxxMvOcAiOeQowpY2PfX2plqiCt/EOMlCbpLzVhd+Z2ZUt+sYylHx7KnrXlMCKX5
-MwNF/cbrx1YONv7Wq/DtJNiI18l3F+CTKClrC8b1uMchHLm88vSaKYC3CE5Y3T42Yo88JiqSg3+U
-BqzSzPcMvWMwELRNB89pjbuuDv9y86I5nsTPEn8PAMjv4Qf0TFZFWmmG+JhZyGDsBKSmhlWlOEIo
-hxlf2d4K7vojFoafYsWE+YkTCYlWbSeZOe/B7VPngqhXyruaxiTGiq8SHdOxWWrTJYJKl9QeMzYd
-b7gd29i+4zlcNXT008qSh+RHhnBmDzT6gw/y+ERPGS5h5fx0Nglg/aTkez9NqGTiN2i8b/VEggHk
-F/3gUTsr7mX8yraAw8pwEqTEyaCjH0xmUvfriGAlgeyPx/IdQ8j/pLjVhOEy7HXX2msu+iMTgGqh
-XrdZScd4vrSLRuFjslXR5lhz78aGLaPxiVFpqFIeclhBdtF+NOIrf9xJIO3ZErdA34DwZ31jtD7b
-awzQgA8QqrEcUGbw/locnDOL3qcRJ9ogKR26h/qbRg1QQOiFM5YUVbuxUEzEQ8caj3H+VXOrpEO1
-1ZzpwQHBYSKVlBJTPs3k2ntRqcWFWDIAeSXzOLXByYySso54pQQAlu+HR6v59CM2Dw/bhwfqPe6B
-7fEOvKTXYDqgmed4DFyfMwRRXko5kUQJXOKzQNy1mYbQgmphZ1hPv0qc78w7k2iQqnlawkkedCZL
-r8kKJtPQ7rz/wapfIsqSOGM3yP24T/LT7c2I/Dr6ZFOYXkVQi5yKbwTFjsskSPGlx2H3Nzf8/xnx
-UTNWqvN3UzJJqGiV/57dwWA0DGNZAtdiHWkSPsLjrdjajw3S84Mwo8WAYTWrMln0vcx/7uU2E08w
-IdDQ1k5mDacn3IywGqyLDy6y0VcieY3zw+WJORjZR1lbc8kxnDdTV72voxEceAI3caR5fQiGG7Fi
-dtj5KwYlUCsAtz/NEAwpeM8tULm4z5lTSdqYq8X2uW6yiYEB1D2o1lAjU1ehHiLNxjeVMFgG5GrB
-3wMuHhcltCecYL7wH2z16/kBJbLdxszrleZV6zLGxdT38nU1qQpSGiR0sByGlEo20MIRaNTQ6Rst
-AUJyz855myTvGZWZZ5GOJroCOljhdoVjNZxfmdMe8/5tcy2OWfBV6Jv47GTf+rIZQfp2s24ioSnd
-7ShoiDpbeP1dctsYa6ou5UALDWNm7tMvpHMfoiykEL9K+ThSZQXjjbiPvDjVyxCp/ruIK5o+dsQ2
-QBcJbzVEi1/o87k1rYfPFcEReMOXVNhyTmuro0wNRcaR/k6q5zv6ty5HYUtnNKkVLlNuQ3DxF/+9
-BLznEO13PKNRvtcKVvyQQMQKQbdK1pPi9OIE5toljaJqwftYSLvPwIQ+4pQ6DRWvFg/DRZAjjn/9
-mFTX/VhexuEPfw7ivLjTxVPpG3NXVuP+TWWNxORsJ4UEO4ApxEejlo3lPagRWIID3+DGCtU/T4eP
-PbA7a2XSM+Jabueh7PiEeVPpLs5a2/XFXYycBfRGNSJO8Tm2G5n4yq2asGJ1cHO49SeLuYI/zJKX
-EhPfPxfROkyW8mNbZfPvDWXtkrJA0n0Fh3M3TjjXcgBNaRQak6fJaGsNj2lx9kUPSWbLRsB5k+fz
-4r3WncAry9DzV/j3Qvz2R6IGvZXMEKgnYqu7/zic23CEH4kEwGNfBXv3ZS+jfQdDfP1NQ86pKkUv
-W3AYr5AtXsN/z5cyFpN6QIwnvaAT1RwXGmHV+iQ+MeJI5XGWaeZ2IWE64u61vOa6TvVrpJkJ6bm7
-obK5L/eLtT525MbW3p024GcbNExZ9O9hT3j/EnTkPwRzwySI8DQxvyi4fmFSgzpEU/TWckYEpbg2
-8Mc9U2Z7ISjrtpbdTb0Byk3bJNKAh2eRkdkUV/Zp9cN1vvzLyicaaBEq+bJ37noFH/HXEDirx98t
-U/hr9iq4D7/yzDRGEO5Khhgy8UxC/tSO8qdAK4jtq80PcKUNGBIbZFQJOpTsMkMQVyyHKRcfdcrQ
-WNfGUYIFySV4GwDbCKvGKr0mlrWLvsb50FcNhY9B9XRl/kkNGJN2Y+15fS77lv0pXNam522p51Fc
-sXS49H1CRRXW1/avYwqvnhA/PlA9ZEx6slXMgWdyAmYNZSurf8lr1+HlUTHsp7s8rOXdw4vZBp7R
-u5w7dRj37f2aZtvxHHXP+2BGpH80RFDL8aKZaRoHSFX4EEPrWY6Aqa6TDbeQzHUrkSOnA5m5e2UL
-gFnNN1Q15iX7x+SfWJXHAy6ePc321xooo6ncxNwRvVByTEwvIWIqp0aGh6II+LERZ1yxM8uILAPN
-LrDGDdgs+Vk7/fZclW5bzw32d8OdEZS2gubvvI+h0Fyu0TjQHiGguSu/IClhgA5DMvj1mxtuw/nz
-Jcpx9lW9+8Mj8oApc0BnibpxQy5eFpSFqpBu6SqklhXpNzcyMrME7umHJzreIwsYq8U4kmF7t8UE
-aYpypVqnvAWnrf3I82G6bZjx5yKYe1Zl/xw5DAUmrPq+5aJLvTx7zvB34kuZ+ijzOFjzYyVxM1QR
-JY9zXK1Oq04bUqo3BEWMDjMrVn6y3KUl69QQYeYpE9lWm44qvXtfMIu3kNthwCPAwSHrndMrjy9t
-PRlo3K+I9R990eD/0As6mNJKgVaWH7IeHBjhVQHTJMd74EtdynO/mEr2hkvsk+FXdFAbWwOxg55e
-Kvjw/sExVFCM2SHkISAEv3q0qZwtUJKu6lllttpJ4v7AAE32hpYbR48IuQ75m2aHYj9GJfZz0tyt
-TZXBiUsUEIe8HKViZah0Gfl8kuCujpTFcMRrU1wBvqXkBYMj1MnSxG92a52If0QBKuetW+5fLjJp
-kS3KhyXtpPpqj1eaopZM+X6qdNQkFTJcEoja+dyzzT8LNnQKS7IWJuaYgbmGEX/Cp1yPxyDZ/p7r
-YFisLUFHU8hezf+msOmz/H/1IDs8rqsKc8EQ8M8+/cJ0UWqEDg0Ewjxj5E0BlwUt3uFw69Wp2zu/
-0ub9hxEDcG5scUY39dvmfNSeB4TiQoRXzJ69xsjfD5WhtCPkGnGsBhc2LxITfTH8d5OVwTlYOC/l
-5UdAm25QrFBDvFYhFWnryVEeexG1G/2L
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ContainerAnalysis;
+
+class Occurrence extends \Google\Model
+{
+  protected $attestationType = Details::class;
+  protected $attestationDataType = '';
+  protected $buildType = GrafeasV1beta1BuildDetails::class;
+  protected $buildDataType = '';
+  public $createTime;
+  protected $deploymentType = GrafeasV1beta1DeploymentDetails::class;
+  protected $deploymentDataType = '';
+  protected $derivedImageType = GrafeasV1beta1ImageDetails::class;
+  protected $derivedImageDataType = '';
+  protected $discoveredType = GrafeasV1beta1DiscoveryDetails::class;
+  protected $discoveredDataType = '';
+  protected $installationType = GrafeasV1beta1PackageDetails::class;
+  protected $installationDataType = '';
+  protected $intotoType = GrafeasV1beta1IntotoDetails::class;
+  protected $intotoDataType = '';
+  public $kind;
+  public $name;
+  public $noteName;
+  public $remediation;
+  protected $resourceType = ContaineranalysisResource::class;
+  protected $resourceDataType = '';
+  public $updateTime;
+  protected $vulnerabilityType = GrafeasV1beta1VulnerabilityDetails::class;
+  protected $vulnerabilityDataType = '';
+
+  /**
+   * @param Details
+   */
+  public function setAttestation(Details $attestation)
+  {
+    $this->attestation = $attestation;
+  }
+  /**
+   * @return Details
+   */
+  public function getAttestation()
+  {
+    return $this->attestation;
+  }
+  /**
+   * @param GrafeasV1beta1BuildDetails
+   */
+  public function setBuild(GrafeasV1beta1BuildDetails $build)
+  {
+    $this->build = $build;
+  }
+  /**
+   * @return GrafeasV1beta1BuildDetails
+   */
+  public function getBuild()
+  {
+    return $this->build;
+  }
+  public function setCreateTime($createTime)
+  {
+    $this->createTime = $createTime;
+  }
+  public function getCreateTime()
+  {
+    return $this->createTime;
+  }
+  /**
+   * @param GrafeasV1beta1DeploymentDetails
+   */
+  public function setDeployment(GrafeasV1beta1DeploymentDetails $deployment)
+  {
+    $this->deployment = $deployment;
+  }
+  /**
+   * @return GrafeasV1beta1DeploymentDetails
+   */
+  public function getDeployment()
+  {
+    return $this->deployment;
+  }
+  /**
+   * @param GrafeasV1beta1ImageDetails
+   */
+  public function setDerivedImage(GrafeasV1beta1ImageDetails $derivedImage)
+  {
+    $this->derivedImage = $derivedImage;
+  }
+  /**
+   * @return GrafeasV1beta1ImageDetails
+   */
+  public function getDerivedImage()
+  {
+    return $this->derivedImage;
+  }
+  /**
+   * @param GrafeasV1beta1DiscoveryDetails
+   */
+  public function setDiscovered(GrafeasV1beta1DiscoveryDetails $discovered)
+  {
+    $this->discovered = $discovered;
+  }
+  /**
+   * @return GrafeasV1beta1DiscoveryDetails
+   */
+  public function getDiscovered()
+  {
+    return $this->discovered;
+  }
+  /**
+   * @param GrafeasV1beta1PackageDetails
+   */
+  public function setInstallation(GrafeasV1beta1PackageDetails $installation)
+  {
+    $this->installation = $installation;
+  }
+  /**
+   * @return GrafeasV1beta1PackageDetails
+   */
+  public function getInstallation()
+  {
+    return $this->installation;
+  }
+  /**
+   * @param GrafeasV1beta1IntotoDetails
+   */
+  public function setIntoto(GrafeasV1beta1IntotoDetails $intoto)
+  {
+    $this->intoto = $intoto;
+  }
+  /**
+   * @return GrafeasV1beta1IntotoDetails
+   */
+  public function getIntoto()
+  {
+    return $this->intoto;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setNoteName($noteName)
+  {
+    $this->noteName = $noteName;
+  }
+  public function getNoteName()
+  {
+    return $this->noteName;
+  }
+  public function setRemediation($remediation)
+  {
+    $this->remediation = $remediation;
+  }
+  public function getRemediation()
+  {
+    return $this->remediation;
+  }
+  /**
+   * @param ContaineranalysisResource
+   */
+  public function setResource(ContaineranalysisResource $resource)
+  {
+    $this->resource = $resource;
+  }
+  /**
+   * @return ContaineranalysisResource
+   */
+  public function getResource()
+  {
+    return $this->resource;
+  }
+  public function setUpdateTime($updateTime)
+  {
+    $this->updateTime = $updateTime;
+  }
+  public function getUpdateTime()
+  {
+    return $this->updateTime;
+  }
+  /**
+   * @param GrafeasV1beta1VulnerabilityDetails
+   */
+  public function setVulnerability(GrafeasV1beta1VulnerabilityDetails $vulnerability)
+  {
+    $this->vulnerability = $vulnerability;
+  }
+  /**
+   * @return GrafeasV1beta1VulnerabilityDetails
+   */
+  public function getVulnerability()
+  {
+    return $this->vulnerability;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Occurrence::class, 'Google_Service_ContainerAnalysis_Occurrence');

@@ -1,66 +1,92 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-svgXTGL9BiSzyQAW2tek
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\RecommendationsAI\Resource;
+
+use Google\Service\RecommendationsAI\GoogleCloudRecommendationengineV1beta1CreatePredictionApiKeyRegistrationRequest;
+use Google\Service\RecommendationsAI\GoogleCloudRecommendationengineV1beta1ListPredictionApiKeyRegistrationsResponse;
+use Google\Service\RecommendationsAI\GoogleCloudRecommendationengineV1beta1PredictionApiKeyRegistration;
+use Google\Service\RecommendationsAI\GoogleProtobufEmpty;
+
+/**
+ * The "predictionApiKeyRegistrations" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $recommendationengineService = new Google\Service\RecommendationsAI(...);
+ *   $predictionApiKeyRegistrations = $recommendationengineService->predictionApiKeyRegistrations;
+ *  </code>
+ */
+class ProjectsLocationsCatalogsEventStoresPredictionApiKeyRegistrations extends \Google\Service\Resource
+{
+  /**
+   * Register an API key for use with predict method.
+   * (predictionApiKeyRegistrations.create)
+   *
+   * @param string $parent Required. The parent resource path. `projects/locations
+   * /global/catalogs/default_catalog/eventStores/default_event_store`.
+   * @param GoogleCloudRecommendationengineV1beta1CreatePredictionApiKeyRegistrationRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudRecommendationengineV1beta1PredictionApiKeyRegistration
+   */
+  public function create($parent, GoogleCloudRecommendationengineV1beta1CreatePredictionApiKeyRegistrationRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleCloudRecommendationengineV1beta1PredictionApiKeyRegistration::class);
+  }
+  /**
+   * Unregister an apiKey from using for predict method.
+   * (predictionApiKeyRegistrations.delete)
+   *
+   * @param string $name Required. The API key to unregister including full
+   * resource path. `projects/locations/global/catalogs/default_catalog/eventStore
+   * s/default_event_store/predictionApiKeyRegistrations/`
+   * @param array $optParams Optional parameters.
+   * @return GoogleProtobufEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
+  }
+  /**
+   * List the registered apiKeys for use with predict method. (predictionApiKeyReg
+   * istrations.listProjectsLocationsCatalogsEventStoresPredictionApiKeyRegistrati
+   * ons)
+   *
+   * @param string $parent Required. The parent placement resource name such as `p
+   * rojects/1234/locations/global/catalogs/default_catalog/eventStores/default_ev
+   * ent_store`
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Optional. Maximum number of results to return per
+   * page. If unset, the service will choose a reasonable default.
+   * @opt_param string pageToken Optional. The previous
+   * `ListPredictionApiKeyRegistration.nextPageToken`.
+   * @return GoogleCloudRecommendationengineV1beta1ListPredictionApiKeyRegistrationsResponse
+   */
+  public function listProjectsLocationsCatalogsEventStoresPredictionApiKeyRegistrations($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleCloudRecommendationengineV1beta1ListPredictionApiKeyRegistrationsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsCatalogsEventStoresPredictionApiKeyRegistrations::class, 'Google_Service_RecommendationsAI_Resource_ProjectsLocationsCatalogsEventStoresPredictionApiKeyRegistrations');

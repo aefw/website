@@ -1,67 +1,94 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-eS0/hQ0=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dialogflow;
+
+class GoogleCloudDialogflowCxV3Webhook extends \Google\Model
+{
+  public $disabled;
+  public $displayName;
+  protected $genericWebServiceType = GoogleCloudDialogflowCxV3WebhookGenericWebService::class;
+  protected $genericWebServiceDataType = '';
+  public $name;
+  protected $serviceDirectoryType = GoogleCloudDialogflowCxV3WebhookServiceDirectoryConfig::class;
+  protected $serviceDirectoryDataType = '';
+  public $timeout;
+
+  public function setDisabled($disabled)
+  {
+    $this->disabled = $disabled;
+  }
+  public function getDisabled()
+  {
+    return $this->disabled;
+  }
+  public function setDisplayName($displayName)
+  {
+    $this->displayName = $displayName;
+  }
+  public function getDisplayName()
+  {
+    return $this->displayName;
+  }
+  /**
+   * @param GoogleCloudDialogflowCxV3WebhookGenericWebService
+   */
+  public function setGenericWebService(GoogleCloudDialogflowCxV3WebhookGenericWebService $genericWebService)
+  {
+    $this->genericWebService = $genericWebService;
+  }
+  /**
+   * @return GoogleCloudDialogflowCxV3WebhookGenericWebService
+   */
+  public function getGenericWebService()
+  {
+    return $this->genericWebService;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  /**
+   * @param GoogleCloudDialogflowCxV3WebhookServiceDirectoryConfig
+   */
+  public function setServiceDirectory(GoogleCloudDialogflowCxV3WebhookServiceDirectoryConfig $serviceDirectory)
+  {
+    $this->serviceDirectory = $serviceDirectory;
+  }
+  /**
+   * @return GoogleCloudDialogflowCxV3WebhookServiceDirectoryConfig
+   */
+  public function getServiceDirectory()
+  {
+    return $this->serviceDirectory;
+  }
+  public function setTimeout($timeout)
+  {
+    $this->timeout = $timeout;
+  }
+  public function getTimeout()
+  {
+    return $this->timeout;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudDialogflowCxV3Webhook::class, 'Google_Service_Dialogflow_GoogleCloudDialogflowCxV3Webhook');

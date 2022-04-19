@@ -1,61 +1,89 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\SmartDeviceManagement\Resource;
+
+use Google\Service\SmartDeviceManagement\GoogleHomeEnterpriseSdmV1Device;
+use Google\Service\SmartDeviceManagement\GoogleHomeEnterpriseSdmV1ExecuteDeviceCommandRequest;
+use Google\Service\SmartDeviceManagement\GoogleHomeEnterpriseSdmV1ExecuteDeviceCommandResponse;
+use Google\Service\SmartDeviceManagement\GoogleHomeEnterpriseSdmV1ListDevicesResponse;
+
+/**
+ * The "devices" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $smartdevicemanagementService = new Google\Service\SmartDeviceManagement(...);
+ *   $devices = $smartdevicemanagementService->devices;
+ *  </code>
+ */
+class EnterprisesDevices extends \Google\Service\Resource
+{
+  /**
+   * Executes a command to device managed by the enterprise.
+   * (devices.executeCommand)
+   *
+   * @param string $name The name of the device requested. For example:
+   * "enterprises/XYZ/devices/123"
+   * @param GoogleHomeEnterpriseSdmV1ExecuteDeviceCommandRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleHomeEnterpriseSdmV1ExecuteDeviceCommandResponse
+   */
+  public function executeCommand($name, GoogleHomeEnterpriseSdmV1ExecuteDeviceCommandRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('executeCommand', [$params], GoogleHomeEnterpriseSdmV1ExecuteDeviceCommandResponse::class);
+  }
+  /**
+   * Gets a device managed by the enterprise. (devices.get)
+   *
+   * @param string $name The name of the device requested. For example:
+   * "enterprises/XYZ/devices/123"
+   * @param array $optParams Optional parameters.
+   * @return GoogleHomeEnterpriseSdmV1Device
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleHomeEnterpriseSdmV1Device::class);
+  }
+  /**
+   * Lists devices managed by the enterprise. (devices.listEnterprisesDevices)
+   *
+   * @param string $parent The parent enterprise to list devices under. E.g.
+   * "enterprises/XYZ".
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Optional filter to list devices. Filters can be done
+   * on: Device custom name (substring match): 'customName=wing'
+   * @opt_param int pageSize Optional requested page size. Server may return fewer
+   * devices than requested. If unspecified, server will pick an appropriate
+   * default.
+   * @opt_param string pageToken Optional token of the page to retrieve.
+   * @return GoogleHomeEnterpriseSdmV1ListDevicesResponse
+   */
+  public function listEnterprisesDevices($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleHomeEnterpriseSdmV1ListDevicesResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(EnterprisesDevices::class, 'Google_Service_SmartDeviceManagement_Resource_EnterprisesDevices');

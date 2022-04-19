@@ -1,65 +1,86 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-QxZEiBu76zqu
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ChromePolicy;
+
+class GoogleChromePolicyV1PolicySchemaFieldDescription extends \Google\Collection
+{
+  protected $collection_key = 'nestedFieldDescriptions';
+  public $description;
+  public $field;
+  public $inputConstraint;
+  protected $knownValueDescriptionsType = GoogleChromePolicyV1PolicySchemaFieldKnownValueDescription::class;
+  protected $knownValueDescriptionsDataType = 'array';
+  protected $nestedFieldDescriptionsType = GoogleChromePolicyV1PolicySchemaFieldDescription::class;
+  protected $nestedFieldDescriptionsDataType = 'array';
+
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setField($field)
+  {
+    $this->field = $field;
+  }
+  public function getField()
+  {
+    return $this->field;
+  }
+  public function setInputConstraint($inputConstraint)
+  {
+    $this->inputConstraint = $inputConstraint;
+  }
+  public function getInputConstraint()
+  {
+    return $this->inputConstraint;
+  }
+  /**
+   * @param GoogleChromePolicyV1PolicySchemaFieldKnownValueDescription[]
+   */
+  public function setKnownValueDescriptions($knownValueDescriptions)
+  {
+    $this->knownValueDescriptions = $knownValueDescriptions;
+  }
+  /**
+   * @return GoogleChromePolicyV1PolicySchemaFieldKnownValueDescription[]
+   */
+  public function getKnownValueDescriptions()
+  {
+    return $this->knownValueDescriptions;
+  }
+  /**
+   * @param GoogleChromePolicyV1PolicySchemaFieldDescription[]
+   */
+  public function setNestedFieldDescriptions($nestedFieldDescriptions)
+  {
+    $this->nestedFieldDescriptions = $nestedFieldDescriptions;
+  }
+  /**
+   * @return GoogleChromePolicyV1PolicySchemaFieldDescription[]
+   */
+  public function getNestedFieldDescriptions()
+  {
+    return $this->nestedFieldDescriptions;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleChromePolicyV1PolicySchemaFieldDescription::class, 'Google_Service_ChromePolicy_GoogleChromePolicyV1PolicySchemaFieldDescription');

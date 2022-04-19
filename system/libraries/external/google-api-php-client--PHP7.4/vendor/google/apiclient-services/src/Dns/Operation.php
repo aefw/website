@@ -1,69 +1,112 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-8MmzL0==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dns;
+
+class Operation extends \Google\Model
+{
+  protected $dnsKeyContextType = OperationDnsKeyContext::class;
+  protected $dnsKeyContextDataType = '';
+  public $id;
+  public $kind;
+  public $startTime;
+  public $status;
+  public $type;
+  public $user;
+  protected $zoneContextType = OperationManagedZoneContext::class;
+  protected $zoneContextDataType = '';
+
+  /**
+   * @param OperationDnsKeyContext
+   */
+  public function setDnsKeyContext(OperationDnsKeyContext $dnsKeyContext)
+  {
+    $this->dnsKeyContext = $dnsKeyContext;
+  }
+  /**
+   * @return OperationDnsKeyContext
+   */
+  public function getDnsKeyContext()
+  {
+    return $this->dnsKeyContext;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setStartTime($startTime)
+  {
+    $this->startTime = $startTime;
+  }
+  public function getStartTime()
+  {
+    return $this->startTime;
+  }
+  public function setStatus($status)
+  {
+    $this->status = $status;
+  }
+  public function getStatus()
+  {
+    return $this->status;
+  }
+  public function setType($type)
+  {
+    $this->type = $type;
+  }
+  public function getType()
+  {
+    return $this->type;
+  }
+  public function setUser($user)
+  {
+    $this->user = $user;
+  }
+  public function getUser()
+  {
+    return $this->user;
+  }
+  /**
+   * @param OperationManagedZoneContext
+   */
+  public function setZoneContext(OperationManagedZoneContext $zoneContext)
+  {
+    $this->zoneContext = $zoneContext;
+  }
+  /**
+   * @return OperationManagedZoneContext
+   */
+  public function getZoneContext()
+  {
+    return $this->zoneContext;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Operation::class, 'Google_Service_Dns_Operation');

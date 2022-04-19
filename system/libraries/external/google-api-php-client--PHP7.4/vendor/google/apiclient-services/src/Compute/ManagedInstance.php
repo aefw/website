@@ -1,78 +1,143 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-j2Cb1Qqlu6Lp0vDagdXU9qq=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute;
+
+class ManagedInstance extends \Google\Collection
+{
+  protected $collection_key = 'instanceHealth';
+  public $currentAction;
+  public $id;
+  public $instance;
+  protected $instanceHealthType = ManagedInstanceInstanceHealth::class;
+  protected $instanceHealthDataType = 'array';
+  public $instanceStatus;
+  protected $lastAttemptType = ManagedInstanceLastAttempt::class;
+  protected $lastAttemptDataType = '';
+  protected $preservedStateFromConfigType = PreservedState::class;
+  protected $preservedStateFromConfigDataType = '';
+  protected $preservedStateFromPolicyType = PreservedState::class;
+  protected $preservedStateFromPolicyDataType = '';
+  protected $versionType = ManagedInstanceVersion::class;
+  protected $versionDataType = '';
+
+  public function setCurrentAction($currentAction)
+  {
+    $this->currentAction = $currentAction;
+  }
+  public function getCurrentAction()
+  {
+    return $this->currentAction;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setInstance($instance)
+  {
+    $this->instance = $instance;
+  }
+  public function getInstance()
+  {
+    return $this->instance;
+  }
+  /**
+   * @param ManagedInstanceInstanceHealth[]
+   */
+  public function setInstanceHealth($instanceHealth)
+  {
+    $this->instanceHealth = $instanceHealth;
+  }
+  /**
+   * @return ManagedInstanceInstanceHealth[]
+   */
+  public function getInstanceHealth()
+  {
+    return $this->instanceHealth;
+  }
+  public function setInstanceStatus($instanceStatus)
+  {
+    $this->instanceStatus = $instanceStatus;
+  }
+  public function getInstanceStatus()
+  {
+    return $this->instanceStatus;
+  }
+  /**
+   * @param ManagedInstanceLastAttempt
+   */
+  public function setLastAttempt(ManagedInstanceLastAttempt $lastAttempt)
+  {
+    $this->lastAttempt = $lastAttempt;
+  }
+  /**
+   * @return ManagedInstanceLastAttempt
+   */
+  public function getLastAttempt()
+  {
+    return $this->lastAttempt;
+  }
+  /**
+   * @param PreservedState
+   */
+  public function setPreservedStateFromConfig(PreservedState $preservedStateFromConfig)
+  {
+    $this->preservedStateFromConfig = $preservedStateFromConfig;
+  }
+  /**
+   * @return PreservedState
+   */
+  public function getPreservedStateFromConfig()
+  {
+    return $this->preservedStateFromConfig;
+  }
+  /**
+   * @param PreservedState
+   */
+  public function setPreservedStateFromPolicy(PreservedState $preservedStateFromPolicy)
+  {
+    $this->preservedStateFromPolicy = $preservedStateFromPolicy;
+  }
+  /**
+   * @return PreservedState
+   */
+  public function getPreservedStateFromPolicy()
+  {
+    return $this->preservedStateFromPolicy;
+  }
+  /**
+   * @param ManagedInstanceVersion
+   */
+  public function setVersion(ManagedInstanceVersion $version)
+  {
+    $this->version = $version;
+  }
+  /**
+   * @return ManagedInstanceVersion
+   */
+  public function getVersion()
+  {
+    return $this->version;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ManagedInstance::class, 'Google_Service_Compute_ManagedInstance');

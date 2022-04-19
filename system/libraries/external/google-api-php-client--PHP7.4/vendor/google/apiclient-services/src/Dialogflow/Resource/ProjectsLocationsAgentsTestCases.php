@@ -1,95 +1,211 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-kYuvL/7hASKRhqevHvi=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dialogflow\Resource;
+
+use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3BatchDeleteTestCasesRequest;
+use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3BatchRunTestCasesRequest;
+use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3CalculateCoverageResponse;
+use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3ExportTestCasesRequest;
+use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3ImportTestCasesRequest;
+use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3ListTestCasesResponse;
+use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3RunTestCaseRequest;
+use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3TestCase;
+use Google\Service\Dialogflow\GoogleLongrunningOperation;
+use Google\Service\Dialogflow\GoogleProtobufEmpty;
+
+/**
+ * The "testCases" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $dialogflowService = new Google\Service\Dialogflow(...);
+ *   $testCases = $dialogflowService->testCases;
+ *  </code>
+ */
+class ProjectsLocationsAgentsTestCases extends \Google\Service\Resource
+{
+  /**
+   * Batch deletes test cases. (testCases.batchDelete)
+   *
+   * @param string $parent Required. The agent to delete test cases from. Format:
+   * `projects//locations//agents/`.
+   * @param GoogleCloudDialogflowCxV3BatchDeleteTestCasesRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleProtobufEmpty
+   */
+  public function batchDelete($parent, GoogleCloudDialogflowCxV3BatchDeleteTestCasesRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('batchDelete', [$params], GoogleProtobufEmpty::class);
+  }
+  /**
+   * Kicks off a batch run of test cases. (testCases.batchRun)
+   *
+   * @param string $parent Required. Agent name. Format:
+   * `projects//locations//agents/ `.
+   * @param GoogleCloudDialogflowCxV3BatchRunTestCasesRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function batchRun($parent, GoogleCloudDialogflowCxV3BatchRunTestCasesRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('batchRun', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Calculates the test coverage for an agent. (testCases.calculateCoverage)
+   *
+   * @param string $agent Required. The agent to calculate coverage for. Format:
+   * `projects//locations//agents/`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string type Required. The type of coverage requested.
+   * @return GoogleCloudDialogflowCxV3CalculateCoverageResponse
+   */
+  public function calculateCoverage($agent, $optParams = [])
+  {
+    $params = ['agent' => $agent];
+    $params = array_merge($params, $optParams);
+    return $this->call('calculateCoverage', [$params], GoogleCloudDialogflowCxV3CalculateCoverageResponse::class);
+  }
+  /**
+   * Creates a test case for the given agent. (testCases.create)
+   *
+   * @param string $parent Required. The agent to create the test case for.
+   * Format: `projects//locations//agents/`.
+   * @param GoogleCloudDialogflowCxV3TestCase $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudDialogflowCxV3TestCase
+   */
+  public function create($parent, GoogleCloudDialogflowCxV3TestCase $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleCloudDialogflowCxV3TestCase::class);
+  }
+  /**
+   * Exports the test cases under the agent to a Cloud Storage bucket or a local
+   * file. Filter can be applied to export a subset of test cases.
+   * (testCases.export)
+   *
+   * @param string $parent Required. The agent where to export test cases from.
+   * Format: `projects//locations//agents/`.
+   * @param GoogleCloudDialogflowCxV3ExportTestCasesRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function export($parent, GoogleCloudDialogflowCxV3ExportTestCasesRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('export', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Gets a test case. (testCases.get)
+   *
+   * @param string $name Required. The name of the testcase. Format:
+   * `projects//locations//agents//testCases/`.
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudDialogflowCxV3TestCase
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudDialogflowCxV3TestCase::class);
+  }
+  /**
+   * Imports the test cases from a Cloud Storage bucket or a local file. It always
+   * creates new test cases and won't overwite any existing ones. The provided ID
+   * in the imported test case is neglected. (testCases.import)
+   *
+   * @param string $parent Required. The agent to import test cases to. Format:
+   * `projects//locations//agents/`.
+   * @param GoogleCloudDialogflowCxV3ImportTestCasesRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function import($parent, GoogleCloudDialogflowCxV3ImportTestCasesRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('import', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Fetches a list of test cases for a given agent.
+   * (testCases.listProjectsLocationsAgentsTestCases)
+   *
+   * @param string $parent Required. The agent to list all pages for. Format:
+   * `projects//locations//agents/`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The maximum number of items to return in a single
+   * page. By default 20. Note that when TestCaseView = FULL, the maximum page
+   * size allowed is 20. When TestCaseView = BASIC, the maximum page size allowed
+   * is 500.
+   * @opt_param string pageToken The next_page_token value returned from a
+   * previous list request.
+   * @opt_param string view Specifies whether response should include all fields
+   * or just the metadata.
+   * @return GoogleCloudDialogflowCxV3ListTestCasesResponse
+   */
+  public function listProjectsLocationsAgentsTestCases($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleCloudDialogflowCxV3ListTestCasesResponse::class);
+  }
+  /**
+   * Updates the specified test case. (testCases.patch)
+   *
+   * @param string $name The unique identifier of the test case.
+   * TestCases.CreateTestCase will populate the name automatically. Otherwise use
+   * format: `projects//locations//agents/ /testCases/`.
+   * @param GoogleCloudDialogflowCxV3TestCase $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. The mask to specify which fields
+   * should be updated. The `creationTime` and `lastTestResult` cannot be updated.
+   * @return GoogleCloudDialogflowCxV3TestCase
+   */
+  public function patch($name, GoogleCloudDialogflowCxV3TestCase $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], GoogleCloudDialogflowCxV3TestCase::class);
+  }
+  /**
+   * Kicks off a test case run. (testCases.run)
+   *
+   * @param string $name Required. Format of test case name to run:
+   * `projects//locations/ /agents//testCases/`.
+   * @param GoogleCloudDialogflowCxV3RunTestCaseRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function run($name, GoogleCloudDialogflowCxV3RunTestCaseRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('run', [$params], GoogleLongrunningOperation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsAgentsTestCases::class, 'Google_Service_Dialogflow_Resource_ProjectsLocationsAgentsTestCases');

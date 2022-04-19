@@ -1,79 +1,412 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for Fitness (v1).
+ *
+ * <p>
+ * The Fitness API for managing users' fitness tracking data.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://developers.google.com/fit/rest/v1/get-started" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class Fitness extends \Google\Service
+{
+  /** Use Google Fit to see and store your physical activity data. */
+  const FITNESS_ACTIVITY_READ =
+      "https://www.googleapis.com/auth/fitness.activity.read";
+  /** Add to your Google Fit physical activity data. */
+  const FITNESS_ACTIVITY_WRITE =
+      "https://www.googleapis.com/auth/fitness.activity.write";
+  /** See info about your blood glucose in Google Fit. I consent to Google sharing my blood glucose information with this app.. */
+  const FITNESS_BLOOD_GLUCOSE_READ =
+      "https://www.googleapis.com/auth/fitness.blood_glucose.read";
+  /** Add info about your blood glucose to Google Fit. I consent to Google using my blood glucose information with this app.. */
+  const FITNESS_BLOOD_GLUCOSE_WRITE =
+      "https://www.googleapis.com/auth/fitness.blood_glucose.write";
+  /** See info about your blood pressure in Google Fit. I consent to Google sharing my blood pressure information with this app.. */
+  const FITNESS_BLOOD_PRESSURE_READ =
+      "https://www.googleapis.com/auth/fitness.blood_pressure.read";
+  /** Add info about your blood pressure in Google Fit. I consent to Google using my blood pressure information with this app.. */
+  const FITNESS_BLOOD_PRESSURE_WRITE =
+      "https://www.googleapis.com/auth/fitness.blood_pressure.write";
+  /** See info about your body measurements and heart rate in Google Fit. */
+  const FITNESS_BODY_READ =
+      "https://www.googleapis.com/auth/fitness.body.read";
+  /** Add info about your body measurements and heart rate to Google Fit. */
+  const FITNESS_BODY_WRITE =
+      "https://www.googleapis.com/auth/fitness.body.write";
+  /** See info about your body temperature in Google Fit. I consent to Google sharing my body temperature information with this app.. */
+  const FITNESS_BODY_TEMPERATURE_READ =
+      "https://www.googleapis.com/auth/fitness.body_temperature.read";
+  /** Add to info about your body temperature in Google Fit. I consent to Google using my body temperature information with this app.. */
+  const FITNESS_BODY_TEMPERATURE_WRITE =
+      "https://www.googleapis.com/auth/fitness.body_temperature.write";
+  /** See your heart rate data in Google Fit. I consent to Google sharing my heart rate information with this app.. */
+  const FITNESS_HEART_RATE_READ =
+      "https://www.googleapis.com/auth/fitness.heart_rate.read";
+  /** Add to your heart rate data in Google Fit. I consent to Google using my heart rate information with this app.. */
+  const FITNESS_HEART_RATE_WRITE =
+      "https://www.googleapis.com/auth/fitness.heart_rate.write";
+  /** See your Google Fit speed and distance data. */
+  const FITNESS_LOCATION_READ =
+      "https://www.googleapis.com/auth/fitness.location.read";
+  /** Add to your Google Fit location data. */
+  const FITNESS_LOCATION_WRITE =
+      "https://www.googleapis.com/auth/fitness.location.write";
+  /** See info about your nutrition in Google Fit. */
+  const FITNESS_NUTRITION_READ =
+      "https://www.googleapis.com/auth/fitness.nutrition.read";
+  /** Add to info about your nutrition in Google Fit. */
+  const FITNESS_NUTRITION_WRITE =
+      "https://www.googleapis.com/auth/fitness.nutrition.write";
+  /** See info about your oxygen saturation in Google Fit. I consent to Google sharing my oxygen saturation information with this app.. */
+  const FITNESS_OXYGEN_SATURATION_READ =
+      "https://www.googleapis.com/auth/fitness.oxygen_saturation.read";
+  /** Add info about your oxygen saturation in Google Fit. I consent to Google using my oxygen saturation information with this app.. */
+  const FITNESS_OXYGEN_SATURATION_WRITE =
+      "https://www.googleapis.com/auth/fitness.oxygen_saturation.write";
+  /** See info about your reproductive health in Google Fit. I consent to Google sharing my reproductive health information with this app.. */
+  const FITNESS_REPRODUCTIVE_HEALTH_READ =
+      "https://www.googleapis.com/auth/fitness.reproductive_health.read";
+  /** Add info about your reproductive health in Google Fit. I consent to Google using my reproductive health information with this app.. */
+  const FITNESS_REPRODUCTIVE_HEALTH_WRITE =
+      "https://www.googleapis.com/auth/fitness.reproductive_health.write";
+  /** See your sleep data in Google Fit. I consent to Google sharing my sleep information with this app.. */
+  const FITNESS_SLEEP_READ =
+      "https://www.googleapis.com/auth/fitness.sleep.read";
+  /** Add to your sleep data in Google Fit. I consent to Google using my sleep information with this app.. */
+  const FITNESS_SLEEP_WRITE =
+      "https://www.googleapis.com/auth/fitness.sleep.write";
+
+  public $users_dataSources;
+  public $users_dataSources_dataPointChanges;
+  public $users_dataSources_datasets;
+  public $users_dataset;
+  public $users_sessions;
+
+  /**
+   * Constructs the internal representation of the Fitness service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://fitness.googleapis.com/';
+    $this->servicePath = 'fitness/v1/users/';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'fitness';
+
+    $this->users_dataSources = new Fitness\Resource\UsersDataSources(
+        $this,
+        $this->serviceName,
+        'dataSources',
+        [
+          'methods' => [
+            'create' => [
+              'path' => '{userId}/dataSources',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => '{userId}/dataSources/{dataSourceId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'dataSourceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => '{userId}/dataSources/{dataSourceId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'dataSourceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => '{userId}/dataSources',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'dataTypeName' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => '{userId}/dataSources/{dataSourceId}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'dataSourceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->users_dataSources_dataPointChanges = new Fitness\Resource\UsersDataSourcesDataPointChanges(
+        $this,
+        $this->serviceName,
+        'dataPointChanges',
+        [
+          'methods' => [
+            'list' => [
+              'path' => '{userId}/dataSources/{dataSourceId}/dataPointChanges',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'dataSourceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'limit' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->users_dataSources_datasets = new Fitness\Resource\UsersDataSourcesDatasets(
+        $this,
+        $this->serviceName,
+        'datasets',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => '{userId}/dataSources/{dataSourceId}/datasets/{datasetId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'dataSourceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'datasetId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => '{userId}/dataSources/{dataSourceId}/datasets/{datasetId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'dataSourceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'datasetId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'limit' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => '{userId}/dataSources/{dataSourceId}/datasets/{datasetId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'dataSourceId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'datasetId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->users_dataset = new Fitness\Resource\UsersDataset(
+        $this,
+        $this->serviceName,
+        'dataset',
+        [
+          'methods' => [
+            'aggregate' => [
+              'path' => '{userId}/dataset:aggregate',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->users_sessions = new Fitness\Resource\UsersSessions(
+        $this,
+        $this->serviceName,
+        'sessions',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => '{userId}/sessions/{sessionId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'sessionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => '{userId}/sessions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'activityType' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                  'repeated' => true,
+                ],
+                'endTime' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'includeDeleted' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'startTime' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => '{userId}/sessions/{sessionId}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'sessionId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Fitness::class, 'Google_Service_Fitness');

@@ -1,93 +1,201 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\TagManager\Resource;
+
+use Google\Service\TagManager\CreateContainerVersionRequestVersionOptions;
+use Google\Service\TagManager\CreateContainerVersionResponse;
+use Google\Service\TagManager\Entity;
+use Google\Service\TagManager\GetWorkspaceStatusResponse;
+use Google\Service\TagManager\ListWorkspacesResponse;
+use Google\Service\TagManager\QuickPreviewResponse;
+use Google\Service\TagManager\SyncWorkspaceResponse;
+use Google\Service\TagManager\Workspace;
+
+/**
+ * The "workspaces" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $tagmanagerService = new Google\Service\TagManager(...);
+ *   $workspaces = $tagmanagerService->workspaces;
+ *  </code>
+ */
+class AccountsContainersWorkspaces extends \Google\Service\Resource
+{
+  /**
+   * Creates a Workspace. (workspaces.create)
+   *
+   * @param string $parent GTM parent Container's API relative path. Example:
+   * accounts/{account_id}/containers/{container_id}
+   * @param Workspace $postBody
+   * @param array $optParams Optional parameters.
+   * @return Workspace
+   */
+  public function create($parent, Workspace $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Workspace::class);
+  }
+  /**
+   * Creates a Container Version from the entities present in the workspace,
+   * deletes the workspace, and sets the base container version to the newly
+   * created version. (workspaces.create_version)
+   *
+   * @param string $path GTM Workspace's API relative path. Example:
+   * accounts/{account_id}/containers/{container_id}/workspaces/{workspace_id}
+   * @param CreateContainerVersionRequestVersionOptions $postBody
+   * @param array $optParams Optional parameters.
+   * @return CreateContainerVersionResponse
+   */
+  public function create_version($path, CreateContainerVersionRequestVersionOptions $postBody, $optParams = [])
+  {
+    $params = ['path' => $path, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create_version', [$params], CreateContainerVersionResponse::class);
+  }
+  /**
+   * Deletes a Workspace. (workspaces.delete)
+   *
+   * @param string $path GTM Workspace's API relative path. Example:
+   * accounts/{account_id}/containers/{container_id}/workspaces/{workspace_id}
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($path, $optParams = [])
+  {
+    $params = ['path' => $path];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Gets a Workspace. (workspaces.get)
+   *
+   * @param string $path GTM Workspace's API relative path. Example:
+   * accounts/{account_id}/containers/{container_id}/workspaces/{workspace_id}
+   * @param array $optParams Optional parameters.
+   * @return Workspace
+   */
+  public function get($path, $optParams = [])
+  {
+    $params = ['path' => $path];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Workspace::class);
+  }
+  /**
+   * Finds conflicting and modified entities in the workspace.
+   * (workspaces.getStatus)
+   *
+   * @param string $path GTM Workspace's API relative path. Example:
+   * accounts/{account_id}/containers/{container_id}/workspaces/{workspace_id}
+   * @param array $optParams Optional parameters.
+   * @return GetWorkspaceStatusResponse
+   */
+  public function getStatus($path, $optParams = [])
+  {
+    $params = ['path' => $path];
+    $params = array_merge($params, $optParams);
+    return $this->call('getStatus', [$params], GetWorkspaceStatusResponse::class);
+  }
+  /**
+   * Lists all Workspaces that belong to a GTM Container.
+   * (workspaces.listAccountsContainersWorkspaces)
+   *
+   * @param string $parent GTM parent Container's API relative path. Example:
+   * accounts/{account_id}/containers/{container_id}
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string pageToken Continuation token for fetching the next page of
+   * results.
+   * @return ListWorkspacesResponse
+   */
+  public function listAccountsContainersWorkspaces($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListWorkspacesResponse::class);
+  }
+  /**
+   * Quick previews a workspace by creating a fake container version from all
+   * entities in the provided workspace. (workspaces.quick_preview)
+   *
+   * @param string $path GTM Workspace's API relative path. Example:
+   * accounts/{account_id}/containers/{container_id}/workspaces/{workspace_id}
+   * @param array $optParams Optional parameters.
+   * @return QuickPreviewResponse
+   */
+  public function quick_preview($path, $optParams = [])
+  {
+    $params = ['path' => $path];
+    $params = array_merge($params, $optParams);
+    return $this->call('quick_preview', [$params], QuickPreviewResponse::class);
+  }
+  /**
+   * Resolves a merge conflict for a workspace entity by updating it to the
+   * resolved entity passed in the request. (workspaces.resolve_conflict)
+   *
+   * @param string $path GTM Workspace's API relative path. Example:
+   * accounts/{account_id}/containers/{container_id}/workspaces/{workspace_id}
+   * @param Entity $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string fingerprint When provided, this fingerprint must match the
+   * fingerprint of the entity_in_workspace in the merge conflict.
+   */
+  public function resolve_conflict($path, Entity $postBody, $optParams = [])
+  {
+    $params = ['path' => $path, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('resolve_conflict', [$params]);
+  }
+  /**
+   * Syncs a workspace to the latest container version by updating all unmodified
+   * workspace entities and displaying conflicts for modified entities.
+   * (workspaces.sync)
+   *
+   * @param string $path GTM Workspace's API relative path. Example:
+   * accounts/{account_id}/containers/{container_id}/workspaces/{workspace_id}
+   * @param array $optParams Optional parameters.
+   * @return SyncWorkspaceResponse
+   */
+  public function sync($path, $optParams = [])
+  {
+    $params = ['path' => $path];
+    $params = array_merge($params, $optParams);
+    return $this->call('sync', [$params], SyncWorkspaceResponse::class);
+  }
+  /**
+   * Updates a Workspace. (workspaces.update)
+   *
+   * @param string $path GTM Workspace's API relative path. Example:
+   * accounts/{account_id}/containers/{container_id}/workspaces/{workspace_id}
+   * @param Workspace $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string fingerprint When provided, this fingerprint must match the
+   * fingerprint of the workspace in storage.
+   * @return Workspace
+   */
+  public function update($path, Workspace $postBody, $optParams = [])
+  {
+    $params = ['path' => $path, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Workspace::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AccountsContainersWorkspaces::class, 'Google_Service_TagManager_Resource_AccountsContainersWorkspaces');

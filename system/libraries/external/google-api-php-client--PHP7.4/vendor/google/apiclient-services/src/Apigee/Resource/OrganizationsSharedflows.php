@@ -1,63 +1,113 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Apigee\Resource;
+
+use Google\Service\Apigee\GoogleApiHttpBody;
+use Google\Service\Apigee\GoogleCloudApigeeV1ListSharedFlowsResponse;
+use Google\Service\Apigee\GoogleCloudApigeeV1SharedFlow;
+use Google\Service\Apigee\GoogleCloudApigeeV1SharedFlowRevision;
+
+/**
+ * The "sharedflows" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $apigeeService = new Google\Service\Apigee(...);
+ *   $sharedflows = $apigeeService->sharedflows;
+ *  </code>
+ */
+class OrganizationsSharedflows extends \Google\Service\Resource
+{
+  /**
+   * Uploads a ZIP-formatted shared flow configuration bundle to an organization.
+   * If the shared flow already exists, this creates a new revision of it. If the
+   * shared flow does not exist, this creates it. Once imported, the shared flow
+   * revision must be deployed before it can be accessed at runtime. The size
+   * limit of a shared flow bundle is 15 MB. (sharedflows.create)
+   *
+   * @param string $parent Required. The name of the parent organization under
+   * which to create the shared flow. Must be of the form:
+   * `organizations/{organization_id}`
+   * @param GoogleApiHttpBody $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string action Required. Must be set to either `import` or
+   * `validate`.
+   * @opt_param string name Required. The name to give the shared flow
+   * @return GoogleCloudApigeeV1SharedFlowRevision
+   */
+  public function create($parent, GoogleApiHttpBody $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleCloudApigeeV1SharedFlowRevision::class);
+  }
+  /**
+   * Deletes a shared flow and all it's revisions. The shared flow must be
+   * undeployed before you can delete it. (sharedflows.delete)
+   *
+   * @param string $name Required. shared flow name of the form:
+   * `organizations/{organization_id}/sharedflows/{shared_flow_id}`
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1SharedFlow
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleCloudApigeeV1SharedFlow::class);
+  }
+  /**
+   * Gets a shared flow by name, including a list of its revisions.
+   * (sharedflows.get)
+   *
+   * @param string $name Required. The name of the shared flow to get. Must be of
+   * the form: `organizations/{organization_id}/sharedflows/{shared_flow_id}`
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1SharedFlow
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudApigeeV1SharedFlow::class);
+  }
+  /**
+   * Lists all shared flows in the organization.
+   * (sharedflows.listOrganizationsSharedflows)
+   *
+   * @param string $parent Required. The name of the parent organization under
+   * which to get shared flows. Must be of the form:
+   * `organizations/{organization_id}`
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool includeMetaData Indicates whether to include shared flow
+   * metadata in the response.
+   * @opt_param bool includeRevisions Indicates whether to include a list of
+   * revisions in the response.
+   * @return GoogleCloudApigeeV1ListSharedFlowsResponse
+   */
+  public function listOrganizationsSharedflows($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleCloudApigeeV1ListSharedFlowsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(OrganizationsSharedflows::class, 'Google_Service_Apigee_Resource_OrganizationsSharedflows');

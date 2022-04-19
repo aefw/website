@@ -1,66 +1,171 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPv0HQC3xir3eyj/zusDWYhM9ZXgQIfiM0Rd8q4mNmvV5B+vURmDfvBc1Df2g2suicGWVcVR0
-gX3VS8Immbm+nnKzOlFOSRtseJ97qxqCzoVgE2CrouGeln51+OQAkjmcnQ3T20DAn1KsIJfbddFs
-hHhIrT7x2YUf3LEz2F67OATpNHi9/LxXsjaDNSta0UfR0j+WokcjmTZ4jCrZhsd39Fx/Xmf+ejpH
-gR2wn18YSHWQ9vzoaScN7UREC6Htf5IkjFiNUWAwJXMzBvYcD4oUZ80oAU9mKourL8IeB86cFae5
-vLLPSaO02FuaVCWqmOA8rFiUNgO+3HLd1YZPhTtjGW9TBqsOnYibMzsprPbfiLuVB9zmlUQuuc5D
-QZAqTfTuoTPGIoCOm26nlhb9mCfbGmzpxY4zHVxLNtn94h8au8ei8OqNjm0Eqndfvht8qNy3tmYC
-kIN05xfmeY/DdZbc5prJLs+C7Nisx1DkZoirkO5euCVgiP9eKBPLD6BF/4qDKUG2BoDVOvUXXS14
-YfBp93gU2diAhT8kW8QHdba0M4IQUIk+1Jlzzck1uJY7Mob2JRSGHj5KFuM+mR5Qr8fc++nnrFCe
-2cZJM3Y5VsCWzZ5mQIWVzdljdT5Xtwu/NAfLIarpmXr4acgyfjxNshplQvsF11TCEcCk/rouakhS
-fmavor5L8AjJYBfwNlA/sTioKiAnekJFawU8BS+ZSW4dlkKX3l+etFNSormemQQX7e4cRA768jmH
-l50OT/arSHmw+9Q72y9YAFgY2FBUbT7y+lRcDRkJhDgadiM6yi++Bqf0nR4lAExtjPLk6LD5klpp
-HV1LuhHny2ZHx8R8ZU5fOClrUeNqGydMWV2PpSPoesrYGnGZ7xB5vqyJPAEq/whV7iGSjwGFCQM5
-DbPLGEiqy8CLqqmWzwDJzzN+Y9+eJ0dyyVaMHuL0U2I7JxsErjA4wa1dB0TJaekRCjVt2kyWxpVL
-ZovxoHbdXwIRuQpr6+weuJu0IM30G4sK0rLt1JeLY5eWMhQaeFIPTqvSO4uo4BeJKtZoNFqM0S4t
-Wr0DdC6K3zItKb9j6LuQ6/aKFQ2tI3tYfP3hXp3Vzd9wgSn3h4uD1yUOA4BBvsTpBnzXPeyMocyn
-rqz/sT57cNExlmcHWvTCczoNve0uueY3DcdReFnKJpSLIAaWljAQT7lwsu7JJZDEpLmGmFY8CKeL
-WOrTJMeqyr9Huu/kZunmLeF7u26bOO/Jd0pToaNzx8QUOaIp5tZDjDbzZhfww2uL449tUIFrW879
-x5AcSiQs3BO53ukie8AeWxDvzcWoH/sMpyGNgHQR75HRcNr8Bva2DpE9eHNkGZijdXN5zHcI4EZA
-1EqWVjjDGcoJEOmr+pR4aLCiQVnnvkv+h8go3kRFDEa6MQE4JYfl86u8wgsHl0dGKhWWLm4JuWAH
-ARCGN6QUoms1kajxUchcWi6qWJIW0e97oP9U1zzY76bmr7sXc4PrFiRxTlRNJxkUloHskX+TCVov
-OJLbffMkHh5wUgh7Z/od0JDzcmmPw2DcvS9sOdCJME9m3rIMkqOCMEtW+yYyE0vPyLi2UHHsvMlo
-xLnNg7RY4Yt9TCkyQOr2OtcGwgyW3Z0rzQXuU8feoM1Xt/u8CuJRnYWFw+AHOzzF0TFIx7738zi7
-AD06a1TK5YLjpGUC4pBppibV0+NrT0r4K+LsVdHmHehbKUt98eYPc3usJU6PDbqMu3rBXeRXhGQs
-gYC4wiFJdr9wyiIARP4ixKCIvJELtL6WkYVr7+4t8LEpfKbaVeumKrzaNpMG+n0s/mwrQljqWqmP
-15nWPhOPQmF9V0dA3mRCBH8BM0fteQDNsjdq8lnNYfD3p92OdbsGYLo12EZLaE1UWPtmnDYPjul5
-JPcGgpwXcagIv20fKlBzZgwXcIGUPO0hlQYY5d3I8X9sdaJyMeE+s6dO77KfcRmVDFF5qSLuNQmx
-Ora5HgL3fByD8JbQ413xI/AfrTVj0nj4puiIE6t0jtK4Vl3/bmkvaG6gd/ibf7gLNHRZn+QravfN
-LU4Zn7Ru0aV/exhf85wINGDawRbPSAFPfm6WknZUkAimnEymUeU0W5DOxXNwUa9a4DQFDIWh6VLC
-etTQjSe0G8adkTUtI/1C1JJ8+cqMi5B1MB5Z+NhX+vRKrLfGmccziLid35LGpEUGQAfnMR4tIZIh
-UolmFZZte5KPsXXP8gMlP0zmnUi9ZdxDIs2XkmPQNOKl5Kl2O2ip3lZWs3wlBIHAYe2NR6lbDB6W
-rriZXPS3hEM2ZwI1t1vIfmwEJsr2AlwTdw+ivTbYM4b7iCxwbzBKQkmJg6WuKsLw9XjCfMC6eURI
-g8SOqD/Y0y9s4LvIYrNg1Ns19Jg1zmChead2KASP8RA4jT5AHv4KnVzY21aXSL1xR0xfEANvIM0+
-3RiPJk+L3Q1TiTJPEoLmm79NAwrfXVpyP8W0wvFT9j4XZGoLq9/T40mYYVgCZbpS9g7jBsbquADt
-cAgrAbLt2LjW1vKJ7WQRwNoXRbhg/78tGrTsujJt1AmsWCe1gQ4v41IbKXrfK2YiY6s3UhvUaHtD
-9mNmMab9akrFdLn1XyzFPEyAnZU9SX/GMi+IVqJoiTpj7WTf+cvyq+b80i1p9zlwsrtU1mHOuA7g
-Z0g+5Voua1+X6vB8EXg26ZbdHA5dhBVismAH9LB4pG+A4JJKrsZdqKorZG2PjtKsOX/h4ueEi1jN
-TgoFpMe8av/s/BsGfN140rdMCOHU6/jAtbVQGK02uJ+HyRYlYGWW+8bqYBdpg1Bi8oyQ0vHxz47+
-varP/Drksw0pKFzWo6ylojOKzT2fNFEfSdIVvlFHUv8wYlaDE3MFPJDgPEVD2Rg2hmdlbfSwQxNP
-jL4BSpJ/HViiig6eZ9MnQfjECxQGjp2LrD2Lq1wqhKC2a/mcZoJY1eOYmo7cSVqDbnzN2tw2Eck1
-wlLwSGg9Faheenz+t01FmtEbw1W6A0U4lUiBEmh164pr/1m86jnKqtxWwq6mJj7lBUMww0/WRd+3
-Jdzf9lZtBf0Aj3J4HNKAA+XZ0mzDw+jNn7FBE9qubQTM5YTp3YyVtksav8cVMpZ/gXjWYiPNVPor
-0V1MacPtf4rQKiYe2sK3B5cI3wLp48uRUL5iL4fomiz7Mr0hzcJXREsEI+TW0sscNpdCIaraBO5C
-o2W7r5t/FMVzuEPpJpPGCDYDGr5j+VBgHTszUQzlHXMQ+c2pDWMI32tW3OjThjUZikxXH45prKP2
-N3jSrWGKerEId8qEEaQ+Kh6gONX8K6SXvDK0tp2dHMZ2sXtpqym7e0wT45+xJx9AwyS4MG164p1W
-Ie7DTLMPt/7KDPlhRrO5ymqhupgEhU1Mh5D5HARqo8hvy5bhQK1Mu4k7LeHVHr0KpCGrJmEpDFlb
-mes4MmfzRAhrxEZE00nwJtScC5oP+d3ydaY8cWsHWr/zur6E7GS2TGzfOGJ1TDjJDbohIAU4JocI
-yflGUNCIoSNGi5RXEN+ecBeOABiu/8V6dq2x6GDpd3tFc5CmLfsZN3Qlv2C8bNECO+f5bg1I6v2H
-HZiPb0AwsGaefvYUDUVyb4dabPDHdCX7UdWC+vO92QvHP8HU+oX8w0j+UKVclarWBLZA9q8pd1Tr
-4q0iI8Q1I6QnRFZuvLHm63FRbQ7o6uBj5dEvTvTWo7vqHIzJWI8G05iiuqcv+A2yi4wcQg0BL9Dg
-PPDnkEkVudnWIIdUsgk+YKwEFHilGIwk8mmBLLvgcdxnh6BXlweFYjD1r2bytbFX2czz1DH2g2us
-5TFEJWWgZqjTHGS7EsxpVzle+RyXBYIitHDvpiZYFhc1Jy2xWBLIwENw9dKe3XOxO9THh3Qoouc5
-Btj83EhJz+3mrf+fxg/u0+sUb4bH0Lpvtc09TFXsRWJv4N0k8b4nTbkS97kqpt+CcseBN5+K5tAS
-hJ2YJGeWfyltPHisDWEHMLMnPFXtasVgGD6MHR94yhVzQVJXWeHEOHxOp7nDDHAVk1oGOu9mFbOt
-SJ7jLdH8N6OhZtwgB8vJUFyB6RKfaAlQffaD4+9YVSYcdq984IzwHowcT6EN2nC7ZZ0ClxcFmDKB
-f6oHebfzG3W/RbV5eUmB/FMuQBX9oZu7hV/LJMV/oIOeGdZEeI+SdiqiQY0BooyLkX8Ny9z6gYae
-5BqnbdnYTUk29yTPIfiBD+9Y0DDcAld7XcuYy5zFiNttFPtPX03hloHMcX5uKySL6K7GST+a3iX7
-OCGfay7nt4ALMn/hpOlsbm3YwMExQ3OQgPkSygxKAKjjUUJ6uDnRYiYx2NJzg9a93rg+519C9wKl
-BDNaZWw+9It5r5lWJeCzAj2q1yudnVf/kGW5z1cw2wtJzmkVOK9VnbkYn6vArcpo29Gh2MoRXGrH
-fdxKuTuA4W3lkLOcd5p87znbqcCMa8RTLe5yuX6mm8YLyCFOPaNzfT6YecRKFUuS7SZfW/sM5P/Q
-PHpPhhkW+3zKZ+s9eQUKaB3hHRDc4Atf3VXEtMinedy9mbi=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute\Resource;
+
+use Google\Service\Compute\NotificationEndpoint;
+use Google\Service\Compute\NotificationEndpointList;
+use Google\Service\Compute\Operation;
+
+/**
+ * The "regionNotificationEndpoints" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $computeService = new Google\Service\Compute(...);
+ *   $regionNotificationEndpoints = $computeService->regionNotificationEndpoints;
+ *  </code>
+ */
+class RegionNotificationEndpoints extends \Google\Service\Resource
+{
+  /**
+   * Deletes the specified NotificationEndpoint in the given region
+   * (regionNotificationEndpoints.delete)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param string $notificationEndpoint Name of the NotificationEndpoint resource
+   * to delete.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function delete($project, $region, $notificationEndpoint, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'notificationEndpoint' => $notificationEndpoint];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Returns the specified NotificationEndpoint resource in the given region.
+   * (regionNotificationEndpoints.get)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param string $notificationEndpoint Name of the NotificationEndpoint resource
+   * to return.
+   * @param array $optParams Optional parameters.
+   * @return NotificationEndpoint
+   */
+  public function get($project, $region, $notificationEndpoint, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'notificationEndpoint' => $notificationEndpoint];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], NotificationEndpoint::class);
+  }
+  /**
+   * Create a NotificationEndpoint in the specified project in the given region
+   * using the parameters that are included in the request.
+   * (regionNotificationEndpoints.insert)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param NotificationEndpoint $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function insert($project, $region, NotificationEndpoint $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Operation::class);
+  }
+  /**
+   * Lists the NotificationEndpoints for a project in the given region.
+   * (regionNotificationEndpoints.listRegionNotificationEndpoints)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return NotificationEndpointList
+   */
+  public function listRegionNotificationEndpoints($project, $region, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], NotificationEndpointList::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(RegionNotificationEndpoints::class, 'Google_Service_Compute_Resource_RegionNotificationEndpoints');

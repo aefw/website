@@ -1,65 +1,102 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-9G==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Apigee\Resource;
+
+use Google\Service\Apigee\GoogleCloudApigeeV1Attribute;
+use Google\Service\Apigee\GoogleCloudApigeeV1Attributes;
+
+/**
+ * The "attributes" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $apigeeService = new Google\Service\Apigee(...);
+ *   $attributes = $apigeeService->attributes;
+ *  </code>
+ */
+class OrganizationsApiproductsAttributes extends \Google\Service\Resource
+{
+  /**
+   * Deletes an API product attribute. (attributes.delete)
+   *
+   * @param string $name Required. Name of the API product attribute. Use the
+   * following structure in your request:
+   * `organizations/{org}/apiproducts/{apiproduct}/attributes/{attribute}`
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1Attribute
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleCloudApigeeV1Attribute::class);
+  }
+  /**
+   * Gets the value of an API product attribute. (attributes.get)
+   *
+   * @param string $name Required. Name of the API product attribute. Use the
+   * following structure in your request:
+   * `organizations/{org}/apiproducts/{apiproduct}/attributes/{attribute}`
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1Attribute
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudApigeeV1Attribute::class);
+  }
+  /**
+   * Lists all API product attributes.
+   * (attributes.listOrganizationsApiproductsAttributes)
+   *
+   * @param string $parent Required. Name of the API product. Use the following
+   * structure in your request: `organizations/{org}/apiproducts/{apiproduct}`
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1Attributes
+   */
+  public function listOrganizationsApiproductsAttributes($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleCloudApigeeV1Attributes::class);
+  }
+  /**
+   * Updates the value of an API product attribute. **Note**: OAuth access tokens
+   * and Key Management Service (KMS) entities (apps, developers, and API
+   * products) are cached for 180 seconds (current default). Any custom attributes
+   * associated with entities also get cached for at least 180 seconds after
+   * entity is accessed during runtime. In this case, the `ExpiresIn` element on
+   * the OAuthV2 policy won't be able to expire an access token in less than 180
+   * seconds. (attributes.updateApiProductAttribute)
+   *
+   * @param string $name Required. Name of the API product. Use the following
+   * structure in your request: `organizations/{org}/apiproducts/{apiproduct}`
+   * @param GoogleCloudApigeeV1Attribute $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1Attribute
+   */
+  public function updateApiProductAttribute($name, GoogleCloudApigeeV1Attribute $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('updateApiProductAttribute', [$params], GoogleCloudApigeeV1Attribute::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(OrganizationsApiproductsAttributes::class, 'Google_Service_Apigee_Resource_OrganizationsApiproductsAttributes');

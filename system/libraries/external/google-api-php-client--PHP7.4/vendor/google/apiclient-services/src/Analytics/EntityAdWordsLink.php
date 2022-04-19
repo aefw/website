@@ -1,68 +1,104 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPs1T1q0R3FntafAIOnrIWWlRI3EHHcIGXEUQ79u+VmWf4v9ZE37aOcBplbq2nqCOA64dKdON
-qnnpVjHBvMV5xladCdmpirmrdqSdEathBAdtLwoOsZt18L+U68/gBjpORh7gwdQ3msyTHglV2zSQ
-nMp+7Ay4m0yu2BNULXIKaUTleIEsA6P6dU4tCFELXWZNQAmxx98PwRkPTJDywOOuMKQh6rKhIiFC
-Hz60RGL152yQFWeCvyaIksDf9tEP0AT18Kzq3GU/uYFQo0MowwTCluaKZ/xqKwwyLUVvsid3kSxX
-EHjCp7CbQwKmO9jduQ8YxfSlY6446V+91WrCCdwuX/Yeq1bob3NRzHAGboamy1zaLLirXlNqOrfp
-uu1X5kVphB7ttVZaM9DP5McLnl6d3wSC+bJ2WtqsdQCdQ9rmOHyH+IltiOIHsqtSYmpBEB91x486
-6BgJiT/jC0D3nwlY+MuAXbYRoa4pHXICelDnhxZ6n7SgYLfLL+3bbhQLGXgnyJLHFr0HPsNus075
-Flds0sJLaWYe+SlcHk6sIf0wYsllmOmjUc54CFazm/UXsB5qh44AJs9go7XGPQfkiFg64zCLujK6
-/KAyfqNXImVZTg569XS3gYSuILC+v13fwLNQPBMzsyIpe2nxBIJ+HmLGAi+cHePL+an4MGyvw2DK
-01G8PUsEe5UE/Ub+s1Lp3d05ea3FVgfwxehQ76Xz5247Kfo+pd3erDJrBygZd3/0Zvkf7/wB7qKo
-9n50XdCrBUwoUZlLn9c5aq2wdhtlp0SjSKe8XDTZfKyfz5XAFk9mGoAYpW8MC6CWcdVttU45RG8c
-Q0suGlQZ2D8LsEAbB7Mepa7XpIC6peTpHvFOXhWW5ReRK16hXK6lCz6Md8yomGC8DorQm5aowYj7
-Rijtt66Odrt5bhiC3cWbRG87a1m2Md+ghsK0r488bpRpRVAOdcToCLB8nEiSC5yftzMsvKu8KBv+
-FX3SV8sveFwJCYQeFg25s9noXHuQMjM4mJ//IaY7TcQV3dfqU5o/cINyHUmK/ILRd1Txm4iUh4ZX
-BY9dB5P0iRZyQdhVkMmRciwlyURM4AJQc7ZsRVor2SJV86CcwNds+XTgSZk9ih76oZ0YohTFOysH
-CjWDItiL4W4BxhDzUJbGh6Q+4y+Ii5Yi70oxaQxT5LqE6oCoH3G+QFeXWvfl7CyopPZAJS8ZwiRJ
-gKaBjGG95VTy1GV2KAnSo5E+bNt/Z9sve2P9Z1qF8wLRmYiYTaBzJH2lPGRSaChWXyV+2fmKWiXd
-ySe89P1OQT1z1n+8EsX6sxozoa67qYjuzrkXvhvoP6uVbvB3k17N3lub2Bm0eJKQOrH+nCb99o2Y
-e8ZhuUADgO0I7R/iOVurdxpwZ2cEZcdgt3wRf4eC6uVUEjvcWqOqTaSmFmVKA3GGKKdxWyR+ICrV
-PsNRnRzYNaAzm25ZGI089pCoRrWdwIy9NFvoO36GFdfbYEUbH+T2yuRpW1m6CqLoiuONfm2Bx/mS
-YRi/oDR7BTNDDwNa2K8m+QNj8ZPPhketrEXl6jZ/YzIKstCdyFhX8v5jv5zqjpGNwxqNmPBcwVmx
-JhJvpEzugIogpFVmwds8shOx2UGlxHl83VFEMLIatSFeWVCEeHvG4SqXLQ8dHv71Yq4hQbltHwVY
-h1to6YsIRwCfsYHWvxA4i3zzb4J3h022KmUSBkv9EF3eP6zyeCq6NMwEMqbVXYn9OORBjI/+/i6Y
-COG0U+MNDo1PIN7lh1a+qtgOru2hsQZwDXvzoY+LYNuInWi+CLfSNgbsuPEbYT2aAjawfxnnjr9v
-YpDWoA9VAVITD+921vCV0QQV2gTtLCOoBUNQRLcAiv8DyB8RG7cG9xnRXP+bNiI0gAV3gR4kJLmU
-Iz18YLR/BuHgI7pCByt0IzQGedfkU9fJf6bbEn1uShT/m5fk+FNNfAGkJsUZJPM0j/yt/8aUaKAe
-PchJ5WOv98PJ7LAYpQIJdO9JvKnaMtlLLXMjwPlJHDmbByM00cSZV9aaEEfnpkzB8Ka+05D70Cnv
-wgTwn1/Nkc3XDQrF/L/VAXC2+uPGX7WoYAR3+X4X4CFq5C5fs8HDpfD/6CBGk2mgf5K56+c+oicn
-Y0nYf/JXvOU3N/SqrhML6eHXgs8SnXZ9Q5DOiGb1kZuORAOm04geBihuVCBaw1JWIu4aAPqOL3GY
-b3R9pC190B42Z3g5OZswIGomeP0soHLzlzzf84nwukDPTuGXfF1KAd0xzVgj8LV2B0PTdUomHf+x
-1h6VJcPsqff3Uhqm32raxrA2H0SAYy+EUioLSJ4heHU6V7S2REV0ftd95Tv56dU8guQVY50dekhx
-BNZ42ttigmv/hM4JKeKKj8UwWnzP2JBeycMheFCC5A1ABvJ+IF/mhFcoehr2YPgCEJ2z1l7/pqj1
-UC/DQ2sFjO7CFJ7hodWtlApag0bPG7Aps4zt8PaS0PEnn+aArqVZirxK/JCVQwpCwGPUDcJe2F83
-gOqDRzOezG8uXjLcByoE4W8OaJjwEv6KhORcbz765MGuQh05OY1ODdxe+Bk89nOng8EqVGZRxb6h
-iFY5UNVrsBpDBnX/qR6EA0YlboYwTf4AC9ueCbrtanPzgs95IRQMm/URCPLPu8Rj60FaZPLU0BJL
-DbUWjvAhVPz1fcGjDOMcptiWTpW6Dog824MnPrMu2nAtrzugtJba7eis/f21Hm2B0zVi6eybu5p+
-4reQkVVMyOymjrFrTX3l+UNXxnks7E64eubnikRcrLmunjag/QZDudLRP0ApMmOImPFY/CeLKNA+
-+4YyXAXEtfcfJN+4NHktkoGYKA+AfV6ceRNCXz6wqLD5rm9ByNL8laEe1OQQu6+TS02wJN6eCPEJ
-q0bzt7I06b/mE4QcK0/o0/qP+Ow4MJs0rMGr8ubHg7KvoySjDyjRjEXJ4VJJt32gTQAbhaz1GnkS
-oJbDzlLEJSII8cgX4Xcte1qk5K+3jf30CKUe6PkBpBsF1Awrn+RfbD9L9atk31GavGNKdmf8AHgl
-G3WWpDXtS+ZVHHaMNYG6+UZKNbPMmQ/x5ZILblNO7guCwXXgvKd8UKzvum2oOB8L3z5ynlLjYz1L
-LHImzwJ5IBNQ4PVP2iaEAPKOTIftU5WZR44FPvAkSHqw9TPlPhYC5RdW1aPpuzxukcDDGe+LdU/f
-AXGABnk/Pzhjkv/a3AE7wZTpmU7tVtwfCNQu1/8DPi/Qq3Fty/Yv2ffFNvVJGv93dOyvDONKqPmm
-mZZ0aC30MLRkCV99+9XNUvz8ssRGZUX8uidzn23KWcCst4Wi+lOlnDwGaLyeKJjzQhOCyolRMUea
-zpHsXESzW/yfe2Jr2GioOiGfos2eHbpDj9bjbp3OnUY/7xBEQBBi1KW3xkQVz8d7Zg1iT67lrgiV
-mqRwRA/KKTlGTOBgKP2c15jrebZEsZi0h1UsKDYVlQP0DFPqJ05V2BvfWmi/o49sfvt+baU9ligT
-1cb6AEZJvOVQEwhftCesYhm6c8pjdyVLyjZHb7o9hYbvzE53o2kL7ABQqkTHLE4FvXF3XC4d0TM7
-ZWw20iDhnaEurXGi6ZxT4npxACyMwGHSM65vYWPJFfEzQ/bpSxBeEt0pZ8IMW1vASMkFmFFAtNPJ
-ThLp6R/apttpfnP+uc+YtDF9KTrcCf+THwHrNtmmXZQ3BTKvjpeItPhwzK1pLSC586kWpKYjpAsv
-xWO+SCRfxwdVfGEm8NxYuURYHexE7XucJyOa5vF8X7UzqyPIZWM5Qi/AQg5FepiTzAoFT6nQOR8w
-MV7JvgtYX1p81bBq6+KQT77sZwezZuFgX0C1iO/CrlrO+00tf4BYE4sIk/r8HXWUlIwY3K56+Yx3
-vHGvwE2Ii0DX/xPWi1xrSFklqU/1ETUbWKKFohjvvkavag9y0CQQHMgDzaLarz1573Uwof9q0dgu
-c+T0UqZLZdMRP8ckriFH5FzPuOmuAlBp7KjBJIpccfNLy2iSuhosbwFyYVZYDo3HW3qiVIZKlT0q
-HCjr4JNpb6Y7bmHPMbiAxj/5A8hnWACTkvFTkSNJMxDHThg+BZJh3c/jN7XVc+hoQWPXxKCJ6lxt
-zky97NsXmf+V+ki2odil3+tvar9+l2OH1/SWYHwLcd9MgFRLkutuNhIuUPkCNUPpjXJdmN7w++kk
-Y1N+nnebxSAcCWJy6GhVg37+zRYxBDYJMO0JLIDWqbtfXtQIZbdyu4XuX1sUO4zCUyBixQLjpCJ4
-bOkv50EIznIeEyhHQi7RMYHOX9poELGfH0HzNqVbw7aIDFwvGjMFsv2RBOw68rLg9bcy0I0zVyh6
-1Ue1qB6s5J6r5rYHalVSaXqiqTHu8vXqLVjQeNbfkqNvUHtbHXXb4kClbvVzoZKdSo88GQduq5Q6
-1BtxMDX18Z62yNCKn1KgTh5b4CYYt/8agFOIWC/Tu1vNqn5DonPdn8i6trDPiiG4qKuCbKRLm4mR
-7WoAsqHZJ4K/0g/16nqf2lDUk1aEtrgj+jPWBfCKtItYUUKDeq7WY857fJPqZsVotyK3wUJJeN9W
-9YwXULEIpbk8+8k8rGjtGpuxibcCUNmzZCaUjVXaGC7S9mTRpJAnrYV+YTwBxIgg2unwLCDPfNq2
-1gXy2SHJKeG89LQWP12ryh15V/gk3edGMgeN9AaFNtHL
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Analytics;
+
+class EntityAdWordsLink extends \Google\Collection
+{
+  protected $collection_key = 'profileIds';
+  protected $adWordsAccountsType = AdWordsAccount::class;
+  protected $adWordsAccountsDataType = 'array';
+  protected $entityType = EntityAdWordsLinkEntity::class;
+  protected $entityDataType = '';
+  public $id;
+  public $kind;
+  public $name;
+  public $profileIds;
+  public $selfLink;
+
+  /**
+   * @param AdWordsAccount[]
+   */
+  public function setAdWordsAccounts($adWordsAccounts)
+  {
+    $this->adWordsAccounts = $adWordsAccounts;
+  }
+  /**
+   * @return AdWordsAccount[]
+   */
+  public function getAdWordsAccounts()
+  {
+    return $this->adWordsAccounts;
+  }
+  /**
+   * @param EntityAdWordsLinkEntity
+   */
+  public function setEntity(EntityAdWordsLinkEntity $entity)
+  {
+    $this->entity = $entity;
+  }
+  /**
+   * @return EntityAdWordsLinkEntity
+   */
+  public function getEntity()
+  {
+    return $this->entity;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setProfileIds($profileIds)
+  {
+    $this->profileIds = $profileIds;
+  }
+  public function getProfileIds()
+  {
+    return $this->profileIds;
+  }
+  public function setSelfLink($selfLink)
+  {
+    $this->selfLink = $selfLink;
+  }
+  public function getSelfLink()
+  {
+    return $this->selfLink;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(EntityAdWordsLink::class, 'Google_Service_Analytics_EntityAdWordsLink');

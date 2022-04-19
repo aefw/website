@@ -1,174 +1,260 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-SsMUpUUDcCI/gbneUxwjBYvo50==
+<?php
+
+namespace GuzzleHttp;
+
+use GuzzleHttp\Cookie\CookieJarInterface;
+use GuzzleHttp\Exception\RequestException;
+use GuzzleHttp\Promise as P;
+use GuzzleHttp\Promise\PromiseInterface;
+use Psr\Http\Message\RequestInterface;
+use Psr\Http\Message\ResponseInterface;
+use Psr\Log\LoggerInterface;
+
+/**
+ * Functions used to create and wrap handlers with handler middleware.
+ */
+final class Middleware
+{
+    /**
+     * Middleware that adds cookies to requests.
+     *
+     * The options array must be set to a CookieJarInterface in order to use
+     * cookies. This is typically handled for you by a client.
+     *
+     * @return callable Returns a function that accepts the next handler.
+     */
+    public static function cookies(): callable
+    {
+        return static function (callable $handler): callable {
+            return static function ($request, array $options) use ($handler) {
+                if (empty($options['cookies'])) {
+                    return $handler($request, $options);
+                } elseif (!($options['cookies'] instanceof CookieJarInterface)) {
+                    throw new \InvalidArgumentException('cookies must be an instance of GuzzleHttp\Cookie\CookieJarInterface');
+                }
+                $cookieJar = $options['cookies'];
+                $request = $cookieJar->withCookieHeader($request);
+                return $handler($request, $options)
+                    ->then(
+                        static function (ResponseInterface $response) use ($cookieJar, $request): ResponseInterface {
+                            $cookieJar->extractCookies($request, $response);
+                            return $response;
+                        }
+                    );
+            };
+        };
+    }
+
+    /**
+     * Middleware that throws exceptions for 4xx or 5xx responses when the
+     * "http_errors" request option is set to true.
+     *
+     * @param BodySummarizerInterface|null $bodySummarizer The body summarizer to use in exception messages.
+     *
+     * @return callable(callable): callable Returns a function that accepts the next handler.
+     */
+    public static function httpErrors(BodySummarizerInterface $bodySummarizer = null): callable
+    {
+        return static function (callable $handler) use ($bodySummarizer): callable {
+            return static function ($request, array $options) use ($handler, $bodySummarizer) {
+                if (empty($options['http_errors'])) {
+                    return $handler($request, $options);
+                }
+                return $handler($request, $options)->then(
+                    static function (ResponseInterface $response) use ($request, $bodySummarizer) {
+                        $code = $response->getStatusCode();
+                        if ($code < 400) {
+                            return $response;
+                        }
+                        throw RequestException::create($request, $response, null, [], $bodySummarizer);
+                    }
+                );
+            };
+        };
+    }
+
+    /**
+     * Middleware that pushes history data to an ArrayAccess container.
+     *
+     * @param array|\ArrayAccess<int, array> $container Container to hold the history (by reference).
+     *
+     * @return callable(callable): callable Returns a function that accepts the next handler.
+     *
+     * @throws \InvalidArgumentException if container is not an array or ArrayAccess.
+     */
+    public static function history(&$container): callable
+    {
+        if (!\is_array($container) && !$container instanceof \ArrayAccess) {
+            throw new \InvalidArgumentException('history container must be an array or object implementing ArrayAccess');
+        }
+
+        return static function (callable $handler) use (&$container): callable {
+            return static function (RequestInterface $request, array $options) use ($handler, &$container) {
+                return $handler($request, $options)->then(
+                    static function ($value) use ($request, &$container, $options) {
+                        $container[] = [
+                            'request'  => $request,
+                            'response' => $value,
+                            'error'    => null,
+                            'options'  => $options
+                        ];
+                        return $value;
+                    },
+                    static function ($reason) use ($request, &$container, $options) {
+                        $container[] = [
+                            'request'  => $request,
+                            'response' => null,
+                            'error'    => $reason,
+                            'options'  => $options
+                        ];
+                        return P\Create::rejectionFor($reason);
+                    }
+                );
+            };
+        };
+    }
+
+    /**
+     * Middleware that invokes a callback before and after sending a request.
+     *
+     * The provided listener cannot modify or alter the response. It simply
+     * "taps" into the chain to be notified before returning the promise. The
+     * before listener accepts a request and options array, and the after
+     * listener accepts a request, options array, and response promise.
+     *
+     * @param callable $before Function to invoke before forwarding the request.
+     * @param callable $after  Function invoked after forwarding.
+     *
+     * @return callable Returns a function that accepts the next handler.
+     */
+    public static function tap(callable $before = null, callable $after = null): callable
+    {
+        return static function (callable $handler) use ($before, $after): callable {
+            return static function (RequestInterface $request, array $options) use ($handler, $before, $after) {
+                if ($before) {
+                    $before($request, $options);
+                }
+                $response = $handler($request, $options);
+                if ($after) {
+                    $after($request, $options, $response);
+                }
+                return $response;
+            };
+        };
+    }
+
+    /**
+     * Middleware that handles request redirects.
+     *
+     * @return callable Returns a function that accepts the next handler.
+     */
+    public static function redirect(): callable
+    {
+        return static function (callable $handler): RedirectMiddleware {
+            return new RedirectMiddleware($handler);
+        };
+    }
+
+    /**
+     * Middleware that retries requests based on the boolean result of
+     * invoking the provided "decider" function.
+     *
+     * If no delay function is provided, a simple implementation of exponential
+     * backoff will be utilized.
+     *
+     * @param callable $decider Function that accepts the number of retries,
+     *                          a request, [response], and [exception] and
+     *                          returns true if the request is to be retried.
+     * @param callable $delay   Function that accepts the number of retries and
+     *                          returns the number of milliseconds to delay.
+     *
+     * @return callable Returns a function that accepts the next handler.
+     */
+    public static function retry(callable $decider, callable $delay = null): callable
+    {
+        return static function (callable $handler) use ($decider, $delay): RetryMiddleware {
+            return new RetryMiddleware($decider, $handler, $delay);
+        };
+    }
+
+    /**
+     * Middleware that logs requests, responses, and errors using a message
+     * formatter.
+     *
+     * @phpstan-param \Psr\Log\LogLevel::* $logLevel  Level at which to log requests.
+     *
+     * @param LoggerInterface                            $logger    Logs messages.
+     * @param MessageFormatterInterface|MessageFormatter $formatter Formatter used to create message strings.
+     * @param string                                     $logLevel  Level at which to log requests.
+     *
+     * @return callable Returns a function that accepts the next handler.
+     */
+    public static function log(LoggerInterface $logger, $formatter, string $logLevel = 'info'): callable
+    {
+        // To be compatible with Guzzle 7.1.x we need to allow users to pass a MessageFormatter
+        if (!$formatter instanceof MessageFormatter && !$formatter instanceof MessageFormatterInterface) {
+            throw new \LogicException(sprintf('Argument 2 to %s::log() must be of type %s', self::class, MessageFormatterInterface::class));
+        }
+
+        return static function (callable $handler) use ($logger, $formatter, $logLevel): callable {
+            return static function (RequestInterface $request, array $options = []) use ($handler, $logger, $formatter, $logLevel) {
+                return $handler($request, $options)->then(
+                    static function ($response) use ($logger, $request, $formatter, $logLevel): ResponseInterface {
+                        $message = $formatter->format($request, $response);
+                        $logger->log($logLevel, $message);
+                        return $response;
+                    },
+                    static function ($reason) use ($logger, $request, $formatter): PromiseInterface {
+                        $response = $reason instanceof RequestException ? $reason->getResponse() : null;
+                        $message = $formatter->format($request, $response, P\Create::exceptionFor($reason));
+                        $logger->error($message);
+                        return P\Create::rejectionFor($reason);
+                    }
+                );
+            };
+        };
+    }
+
+    /**
+     * This middleware adds a default content-type if possible, a default
+     * content-length or transfer-encoding header, and the expect header.
+     */
+    public static function prepareBody(): callable
+    {
+        return static function (callable $handler): PrepareBodyMiddleware {
+            return new PrepareBodyMiddleware($handler);
+        };
+    }
+
+    /**
+     * Middleware that applies a map function to the request before passing to
+     * the next handler.
+     *
+     * @param callable $fn Function that accepts a RequestInterface and returns
+     *                     a RequestInterface.
+     */
+    public static function mapRequest(callable $fn): callable
+    {
+        return static function (callable $handler) use ($fn): callable {
+            return static function (RequestInterface $request, array $options) use ($handler, $fn) {
+                return $handler($fn($request), $options);
+            };
+        };
+    }
+
+    /**
+     * Middleware that applies a map function to the resolved promise's
+     * response.
+     *
+     * @param callable $fn Function that accepts a ResponseInterface and
+     *                     returns a ResponseInterface.
+     */
+    public static function mapResponse(callable $fn): callable
+    {
+        return static function (callable $handler) use ($fn): callable {
+            return static function (RequestInterface $request, array $options) use ($handler, $fn) {
+                return $handler($request, $options)->then($fn);
+            };
+        };
+    }
+}

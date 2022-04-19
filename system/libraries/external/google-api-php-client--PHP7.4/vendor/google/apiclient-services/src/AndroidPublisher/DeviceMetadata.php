@@ -1,82 +1,125 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-t1GJChftlUQq
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AndroidPublisher;
+
+class DeviceMetadata extends \Google\Model
+{
+  public $cpuMake;
+  public $cpuModel;
+  public $deviceClass;
+  public $glEsVersion;
+  public $manufacturer;
+  public $nativePlatform;
+  public $productName;
+  public $ramMb;
+  public $screenDensityDpi;
+  public $screenHeightPx;
+  public $screenWidthPx;
+
+  public function setCpuMake($cpuMake)
+  {
+    $this->cpuMake = $cpuMake;
+  }
+  public function getCpuMake()
+  {
+    return $this->cpuMake;
+  }
+  public function setCpuModel($cpuModel)
+  {
+    $this->cpuModel = $cpuModel;
+  }
+  public function getCpuModel()
+  {
+    return $this->cpuModel;
+  }
+  public function setDeviceClass($deviceClass)
+  {
+    $this->deviceClass = $deviceClass;
+  }
+  public function getDeviceClass()
+  {
+    return $this->deviceClass;
+  }
+  public function setGlEsVersion($glEsVersion)
+  {
+    $this->glEsVersion = $glEsVersion;
+  }
+  public function getGlEsVersion()
+  {
+    return $this->glEsVersion;
+  }
+  public function setManufacturer($manufacturer)
+  {
+    $this->manufacturer = $manufacturer;
+  }
+  public function getManufacturer()
+  {
+    return $this->manufacturer;
+  }
+  public function setNativePlatform($nativePlatform)
+  {
+    $this->nativePlatform = $nativePlatform;
+  }
+  public function getNativePlatform()
+  {
+    return $this->nativePlatform;
+  }
+  public function setProductName($productName)
+  {
+    $this->productName = $productName;
+  }
+  public function getProductName()
+  {
+    return $this->productName;
+  }
+  public function setRamMb($ramMb)
+  {
+    $this->ramMb = $ramMb;
+  }
+  public function getRamMb()
+  {
+    return $this->ramMb;
+  }
+  public function setScreenDensityDpi($screenDensityDpi)
+  {
+    $this->screenDensityDpi = $screenDensityDpi;
+  }
+  public function getScreenDensityDpi()
+  {
+    return $this->screenDensityDpi;
+  }
+  public function setScreenHeightPx($screenHeightPx)
+  {
+    $this->screenHeightPx = $screenHeightPx;
+  }
+  public function getScreenHeightPx()
+  {
+    return $this->screenHeightPx;
+  }
+  public function setScreenWidthPx($screenWidthPx)
+  {
+    $this->screenWidthPx = $screenWidthPx;
+  }
+  public function getScreenWidthPx()
+  {
+    return $this->screenWidthPx;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(DeviceMetadata::class, 'Google_Service_AndroidPublisher_DeviceMetadata');

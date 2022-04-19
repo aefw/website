@@ -1,203 +1,481 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-mD6vr4DWgG==
+<?php
+
+/*
+ * This file is part of Composer.
+ *
+ * (c) Nils Adermann <naderman@naderman.de>
+ *     Jordi Boggiano <j.boggiano@seld.be>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Composer\Autoload;
+
+/**
+ * ClassLoader implements a PSR-0, PSR-4 and classmap class loader.
+ *
+ *     $loader = new \Composer\Autoload\ClassLoader();
+ *
+ *     // register classes with namespaces
+ *     $loader->add('Symfony\Component', __DIR__.'/component');
+ *     $loader->add('Symfony',           __DIR__.'/framework');
+ *
+ *     // activate the autoloader
+ *     $loader->register();
+ *
+ *     // to enable searching the include path (eg. for PEAR packages)
+ *     $loader->setUseIncludePath(true);
+ *
+ * In this example, if you try to use a class in the Symfony\Component
+ * namespace or one of its children (Symfony\Component\Console for instance),
+ * the autoloader will first look for the class under the component/
+ * directory, and it will then fallback to the framework/ directory if not
+ * found before giving up.
+ *
+ * This class is loosely based on the Symfony UniversalClassLoader.
+ *
+ * @author Fabien Potencier <fabien@symfony.com>
+ * @author Jordi Boggiano <j.boggiano@seld.be>
+ * @see    https://www.php-fig.org/psr/psr-0/
+ * @see    https://www.php-fig.org/psr/psr-4/
+ */
+class ClassLoader
+{
+    private $vendorDir;
+
+    // PSR-4
+    private $prefixLengthsPsr4 = array();
+    private $prefixDirsPsr4 = array();
+    private $fallbackDirsPsr4 = array();
+
+    // PSR-0
+    private $prefixesPsr0 = array();
+    private $fallbackDirsPsr0 = array();
+
+    private $useIncludePath = false;
+    private $classMap = array();
+    private $classMapAuthoritative = false;
+    private $missingClasses = array();
+    private $apcuPrefix;
+
+    private static $registeredLoaders = array();
+
+    public function __construct($vendorDir = null)
+    {
+        $this->vendorDir = $vendorDir;
+    }
+
+    public function getPrefixes()
+    {
+        if (!empty($this->prefixesPsr0)) {
+            return call_user_func_array('array_merge', array_values($this->prefixesPsr0));
+        }
+
+        return array();
+    }
+
+    public function getPrefixesPsr4()
+    {
+        return $this->prefixDirsPsr4;
+    }
+
+    public function getFallbackDirs()
+    {
+        return $this->fallbackDirsPsr0;
+    }
+
+    public function getFallbackDirsPsr4()
+    {
+        return $this->fallbackDirsPsr4;
+    }
+
+    public function getClassMap()
+    {
+        return $this->classMap;
+    }
+
+    /**
+     * @param array $classMap Class to filename map
+     */
+    public function addClassMap(array $classMap)
+    {
+        if ($this->classMap) {
+            $this->classMap = array_merge($this->classMap, $classMap);
+        } else {
+            $this->classMap = $classMap;
+        }
+    }
+
+    /**
+     * Registers a set of PSR-0 directories for a given prefix, either
+     * appending or prepending to the ones previously set for this prefix.
+     *
+     * @param string       $prefix  The prefix
+     * @param array|string $paths   The PSR-0 root directories
+     * @param bool         $prepend Whether to prepend the directories
+     */
+    public function add($prefix, $paths, $prepend = false)
+    {
+        if (!$prefix) {
+            if ($prepend) {
+                $this->fallbackDirsPsr0 = array_merge(
+                    (array) $paths,
+                    $this->fallbackDirsPsr0
+                );
+            } else {
+                $this->fallbackDirsPsr0 = array_merge(
+                    $this->fallbackDirsPsr0,
+                    (array) $paths
+                );
+            }
+
+            return;
+        }
+
+        $first = $prefix[0];
+        if (!isset($this->prefixesPsr0[$first][$prefix])) {
+            $this->prefixesPsr0[$first][$prefix] = (array) $paths;
+
+            return;
+        }
+        if ($prepend) {
+            $this->prefixesPsr0[$first][$prefix] = array_merge(
+                (array) $paths,
+                $this->prefixesPsr0[$first][$prefix]
+            );
+        } else {
+            $this->prefixesPsr0[$first][$prefix] = array_merge(
+                $this->prefixesPsr0[$first][$prefix],
+                (array) $paths
+            );
+        }
+    }
+
+    /**
+     * Registers a set of PSR-4 directories for a given namespace, either
+     * appending or prepending to the ones previously set for this namespace.
+     *
+     * @param string       $prefix  The prefix/namespace, with trailing '\\'
+     * @param array|string $paths   The PSR-4 base directories
+     * @param bool         $prepend Whether to prepend the directories
+     *
+     * @throws \InvalidArgumentException
+     */
+    public function addPsr4($prefix, $paths, $prepend = false)
+    {
+        if (!$prefix) {
+            // Register directories for the root namespace.
+            if ($prepend) {
+                $this->fallbackDirsPsr4 = array_merge(
+                    (array) $paths,
+                    $this->fallbackDirsPsr4
+                );
+            } else {
+                $this->fallbackDirsPsr4 = array_merge(
+                    $this->fallbackDirsPsr4,
+                    (array) $paths
+                );
+            }
+        } elseif (!isset($this->prefixDirsPsr4[$prefix])) {
+            // Register directories for a new namespace.
+            $length = strlen($prefix);
+            if ('\\' !== $prefix[$length - 1]) {
+                throw new \InvalidArgumentException("A non-empty PSR-4 prefix must end with a namespace separator.");
+            }
+            $this->prefixLengthsPsr4[$prefix[0]][$prefix] = $length;
+            $this->prefixDirsPsr4[$prefix] = (array) $paths;
+        } elseif ($prepend) {
+            // Prepend directories for an already registered namespace.
+            $this->prefixDirsPsr4[$prefix] = array_merge(
+                (array) $paths,
+                $this->prefixDirsPsr4[$prefix]
+            );
+        } else {
+            // Append directories for an already registered namespace.
+            $this->prefixDirsPsr4[$prefix] = array_merge(
+                $this->prefixDirsPsr4[$prefix],
+                (array) $paths
+            );
+        }
+    }
+
+    /**
+     * Registers a set of PSR-0 directories for a given prefix,
+     * replacing any others previously set for this prefix.
+     *
+     * @param string       $prefix The prefix
+     * @param array|string $paths  The PSR-0 base directories
+     */
+    public function set($prefix, $paths)
+    {
+        if (!$prefix) {
+            $this->fallbackDirsPsr0 = (array) $paths;
+        } else {
+            $this->prefixesPsr0[$prefix[0]][$prefix] = (array) $paths;
+        }
+    }
+
+    /**
+     * Registers a set of PSR-4 directories for a given namespace,
+     * replacing any others previously set for this namespace.
+     *
+     * @param string       $prefix The prefix/namespace, with trailing '\\'
+     * @param array|string $paths  The PSR-4 base directories
+     *
+     * @throws \InvalidArgumentException
+     */
+    public function setPsr4($prefix, $paths)
+    {
+        if (!$prefix) {
+            $this->fallbackDirsPsr4 = (array) $paths;
+        } else {
+            $length = strlen($prefix);
+            if ('\\' !== $prefix[$length - 1]) {
+                throw new \InvalidArgumentException("A non-empty PSR-4 prefix must end with a namespace separator.");
+            }
+            $this->prefixLengthsPsr4[$prefix[0]][$prefix] = $length;
+            $this->prefixDirsPsr4[$prefix] = (array) $paths;
+        }
+    }
+
+    /**
+     * Turns on searching the include path for class files.
+     *
+     * @param bool $useIncludePath
+     */
+    public function setUseIncludePath($useIncludePath)
+    {
+        $this->useIncludePath = $useIncludePath;
+    }
+
+    /**
+     * Can be used to check if the autoloader uses the include path to check
+     * for classes.
+     *
+     * @return bool
+     */
+    public function getUseIncludePath()
+    {
+        return $this->useIncludePath;
+    }
+
+    /**
+     * Turns off searching the prefix and fallback directories for classes
+     * that have not been registered with the class map.
+     *
+     * @param bool $classMapAuthoritative
+     */
+    public function setClassMapAuthoritative($classMapAuthoritative)
+    {
+        $this->classMapAuthoritative = $classMapAuthoritative;
+    }
+
+    /**
+     * Should class lookup fail if not found in the current class map?
+     *
+     * @return bool
+     */
+    public function isClassMapAuthoritative()
+    {
+        return $this->classMapAuthoritative;
+    }
+
+    /**
+     * APCu prefix to use to cache found/not-found classes, if the extension is enabled.
+     *
+     * @param string|null $apcuPrefix
+     */
+    public function setApcuPrefix($apcuPrefix)
+    {
+        $this->apcuPrefix = function_exists('apcu_fetch') && filter_var(ini_get('apc.enabled'), FILTER_VALIDATE_BOOLEAN) ? $apcuPrefix : null;
+    }
+
+    /**
+     * The APCu prefix in use, or null if APCu caching is not enabled.
+     *
+     * @return string|null
+     */
+    public function getApcuPrefix()
+    {
+        return $this->apcuPrefix;
+    }
+
+    /**
+     * Registers this instance as an autoloader.
+     *
+     * @param bool $prepend Whether to prepend the autoloader or not
+     */
+    public function register($prepend = false)
+    {
+        spl_autoload_register(array($this, 'loadClass'), true, $prepend);
+
+        if (null === $this->vendorDir) {
+            return;
+        }
+
+        if ($prepend) {
+            self::$registeredLoaders = array($this->vendorDir => $this) + self::$registeredLoaders;
+        } else {
+            unset(self::$registeredLoaders[$this->vendorDir]);
+            self::$registeredLoaders[$this->vendorDir] = $this;
+        }
+    }
+
+    /**
+     * Unregisters this instance as an autoloader.
+     */
+    public function unregister()
+    {
+        spl_autoload_unregister(array($this, 'loadClass'));
+
+        if (null !== $this->vendorDir) {
+            unset(self::$registeredLoaders[$this->vendorDir]);
+        }
+    }
+
+    /**
+     * Loads the given class or interface.
+     *
+     * @param  string    $class The name of the class
+     * @return true|null True if loaded, null otherwise
+     */
+    public function loadClass($class)
+    {
+        if ($file = $this->findFile($class)) {
+            includeFile($file);
+
+            return true;
+        }
+
+        return null;
+    }
+
+    /**
+     * Finds the path to the file where the class is defined.
+     *
+     * @param string $class The name of the class
+     *
+     * @return string|false The path if found, false otherwise
+     */
+    public function findFile($class)
+    {
+        // class map lookup
+        if (isset($this->classMap[$class])) {
+            return $this->classMap[$class];
+        }
+        if ($this->classMapAuthoritative || isset($this->missingClasses[$class])) {
+            return false;
+        }
+        if (null !== $this->apcuPrefix) {
+            $file = apcu_fetch($this->apcuPrefix.$class, $hit);
+            if ($hit) {
+                return $file;
+            }
+        }
+
+        $file = $this->findFileWithExtension($class, '.php');
+
+        // Search for Hack files if we are running on HHVM
+        if (false === $file && defined('HHVM_VERSION')) {
+            $file = $this->findFileWithExtension($class, '.hh');
+        }
+
+        if (null !== $this->apcuPrefix) {
+            apcu_add($this->apcuPrefix.$class, $file);
+        }
+
+        if (false === $file) {
+            // Remember that this class does not exist.
+            $this->missingClasses[$class] = true;
+        }
+
+        return $file;
+    }
+
+    /**
+     * Returns the currently registered loaders indexed by their corresponding vendor directories.
+     *
+     * @return self[]
+     */
+    public static function getRegisteredLoaders()
+    {
+        return self::$registeredLoaders;
+    }
+
+    private function findFileWithExtension($class, $ext)
+    {
+        // PSR-4 lookup
+        $logicalPathPsr4 = strtr($class, '\\', DIRECTORY_SEPARATOR) . $ext;
+
+        $first = $class[0];
+        if (isset($this->prefixLengthsPsr4[$first])) {
+            $subPath = $class;
+            while (false !== $lastPos = strrpos($subPath, '\\')) {
+                $subPath = substr($subPath, 0, $lastPos);
+                $search = $subPath . '\\';
+                if (isset($this->prefixDirsPsr4[$search])) {
+                    $pathEnd = DIRECTORY_SEPARATOR . substr($logicalPathPsr4, $lastPos + 1);
+                    foreach ($this->prefixDirsPsr4[$search] as $dir) {
+                        if (file_exists($file = $dir . $pathEnd)) {
+                            return $file;
+                        }
+                    }
+                }
+            }
+        }
+
+        // PSR-4 fallback dirs
+        foreach ($this->fallbackDirsPsr4 as $dir) {
+            if (file_exists($file = $dir . DIRECTORY_SEPARATOR . $logicalPathPsr4)) {
+                return $file;
+            }
+        }
+
+        // PSR-0 lookup
+        if (false !== $pos = strrpos($class, '\\')) {
+            // namespaced class name
+            $logicalPathPsr0 = substr($logicalPathPsr4, 0, $pos + 1)
+                . strtr(substr($logicalPathPsr4, $pos + 1), '_', DIRECTORY_SEPARATOR);
+        } else {
+            // PEAR-like class name
+            $logicalPathPsr0 = strtr($class, '_', DIRECTORY_SEPARATOR) . $ext;
+        }
+
+        if (isset($this->prefixesPsr0[$first])) {
+            foreach ($this->prefixesPsr0[$first] as $prefix => $dirs) {
+                if (0 === strpos($class, $prefix)) {
+                    foreach ($dirs as $dir) {
+                        if (file_exists($file = $dir . DIRECTORY_SEPARATOR . $logicalPathPsr0)) {
+                            return $file;
+                        }
+                    }
+                }
+            }
+        }
+
+        // PSR-0 fallback dirs
+        foreach ($this->fallbackDirsPsr0 as $dir) {
+            if (file_exists($file = $dir . DIRECTORY_SEPARATOR . $logicalPathPsr0)) {
+                return $file;
+            }
+        }
+
+        // PSR-0 include paths.
+        if ($this->useIncludePath && $file = stream_resolve_include_path($logicalPathPsr0)) {
+            return $file;
+        }
+
+        return false;
+    }
+}
+
+/**
+ * Scope isolated include.
+ *
+ * Prevents access to $this/self from included files.
+ */
+function includeFile($file)
+{
+    include $file;
+}

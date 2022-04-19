@@ -1,105 +1,163 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-f1wnXJzE3m==
+<?php
+/**
+ * Copyright 2017 Facebook, Inc.
+ *
+ * You are hereby granted a non-exclusive, worldwide, royalty-free license to
+ * use, copy, modify, and distribute this software in source code or binary
+ * form for use in connection with the web services and APIs provided by
+ * Facebook.
+ *
+ * As with any software that integrates with the Facebook platform, your use
+ * of this software is subject to the Facebook Developer Principles and
+ * Policies [http://developers.facebook.com/policy/]. This copyright notice
+ * shall be included in all copies or substantial portions of the software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+ * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+ *
+ */
+namespace Facebook\HttpClients;
+
+use Facebook\Http\GraphRawResponse;
+use Facebook\Exceptions\FacebookSDKException;
+
+/**
+ * Class FacebookCurlHttpClient
+ *
+ * @package Facebook
+ */
+class FacebookCurlHttpClient implements FacebookHttpClientInterface
+{
+    /**
+     * @var string The client error message
+     */
+    protected $curlErrorMessage = '';
+
+    /**
+     * @var int The curl client error code
+     */
+    protected $curlErrorCode = 0;
+
+    /**
+     * @var string|boolean The raw response from the server
+     */
+    protected $rawResponse;
+
+    /**
+     * @var FacebookCurl Procedural curl as object
+     */
+    protected $facebookCurl;
+
+    /**
+     * @param FacebookCurl|null Procedural curl as object
+     */
+    public function __construct(FacebookCurl $facebookCurl = null)
+    {
+        $this->facebookCurl = $facebookCurl ?: new FacebookCurl();
+    }
+
+    /**
+     * @inheritdoc
+     */
+    public function send($url, $method, $body, array $headers, $timeOut)
+    {
+        $this->openConnection($url, $method, $body, $headers, $timeOut);
+        $this->sendRequest();
+
+        if ($curlErrorCode = $this->facebookCurl->errno()) {
+            throw new FacebookSDKException($this->facebookCurl->error(), $curlErrorCode);
+        }
+
+        // Separate the raw headers from the raw body
+        list($rawHeaders, $rawBody) = $this->extractResponseHeadersAndBody();
+
+        $this->closeConnection();
+
+        return new GraphRawResponse($rawHeaders, $rawBody);
+    }
+
+    /**
+     * Opens a new curl connection.
+     *
+     * @param string $url     The endpoint to send the request to.
+     * @param string $method  The request method.
+     * @param string $body    The body of the request.
+     * @param array  $headers The request headers.
+     * @param int    $timeOut The timeout in seconds for the request.
+     */
+    public function openConnection($url, $method, $body, array $headers, $timeOut)
+    {
+        $options = [
+            CURLOPT_CUSTOMREQUEST => $method,
+            CURLOPT_HTTPHEADER => $this->compileRequestHeaders($headers),
+            CURLOPT_URL => $url,
+            CURLOPT_CONNECTTIMEOUT => 10,
+            CURLOPT_TIMEOUT => $timeOut,
+            CURLOPT_RETURNTRANSFER => true, // Return response as string
+            CURLOPT_HEADER => true, // Enable header processing
+            CURLOPT_SSL_VERIFYHOST => 2,
+            CURLOPT_SSL_VERIFYPEER => true,
+            CURLOPT_CAINFO => __DIR__ . '/certs/DigiCertHighAssuranceEVRootCA.pem',
+        ];
+
+        if ($method !== "GET") {
+            $options[CURLOPT_POSTFIELDS] = $body;
+        }
+
+        $this->facebookCurl->init();
+        $this->facebookCurl->setoptArray($options);
+    }
+
+    /**
+     * Closes an existing curl connection
+     */
+    public function closeConnection()
+    {
+        $this->facebookCurl->close();
+    }
+
+    /**
+     * Send the request and get the raw response from curl
+     */
+    public function sendRequest()
+    {
+        $this->rawResponse = $this->facebookCurl->exec();
+    }
+
+    /**
+     * Compiles the request headers into a curl-friendly format.
+     *
+     * @param array $headers The request headers.
+     *
+     * @return array
+     */
+    public function compileRequestHeaders(array $headers)
+    {
+        $return = [];
+
+        foreach ($headers as $key => $value) {
+            $return[] = $key . ': ' . $value;
+        }
+
+        return $return;
+    }
+
+    /**
+     * Extracts the headers and the body into a two-part array
+     *
+     * @return array
+     */
+    public function extractResponseHeadersAndBody()
+    {
+        $parts = explode("\r\n\r\n", $this->rawResponse);
+        $rawBody = array_pop($parts);
+        $rawHeaders = implode("\r\n\r\n", $parts);
+
+        return [trim($rawHeaders), trim($rawBody)];
+    }
+}

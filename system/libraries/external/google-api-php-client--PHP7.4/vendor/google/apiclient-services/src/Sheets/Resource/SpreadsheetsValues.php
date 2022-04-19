@@ -1,96 +1,269 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPohZRyu1U5JYh2RwxThrmQA2G52gc+S4hfV8foFGAPNlHw9OXXaizH8T4TUMOL2a2hL8HGEl
-/UbG0ND+pA61pUsAaFphlA4J9ZjNGmXWAkwQjGIXRIyZrh5MxKXMo5GlM+Zh6+zyEnJFGPLDssQB
-pgyrB3EW9PEWqfofW71MKCejijMG4kPDgYa5FeaFpRkYY+rD5YuCnX76bnBmLT0q9D0eszEhKQA1
-tKWWmOBy2ug2LL+H918WUZKnRT7u7xE1is74GBqPRS8qJXmi9034s6tWx+9mKourL8IeB86cFae5
-vLK1RHtxAw5BmU/hrs+8L5JdLlzxPMgTT6SZyX6VfzqtAsC1a6SLBhAXFrSu37JlI/HJiUvHu8o2
-4Uzst+R/kwM0AlieEGWKBrVvUV2TAsvzQ/yQ7U8xd8DV0LTVJHsu4uZlrTx0liC+sDGalJBD/smm
-P8HaPdbd0SQXUrxDgx9hDcCgshnKeqr24T+FWJfJAgzBx/3Tqsmlmo/sPABYGwouBkKzr+WBfS29
-Z/NXbQvX2Kpf5P2CbmL+uEgVJ/W1psf8STNk36ow8Fbpy1Qb1MSlbz1iMS+89RK9rpzL4QHme4Gk
-MasYNb2lEfd1JddYrRQEujtVO2U8xfyLEQbva6yMB0c4xdglzfQoWmtO21n5neT1/r8BgSKvUR4Q
-rY+/0bFLHa+JxqgdluPtU9ZEaw8uoDT1pWLcCVMld1ovKOmLdXuoNeacqaBgd7eMcUD8HmsK7BRC
-nqWEoSyxEaq8JWpQ3nr/Y5H6niCH8+IINTyErwCZsSKWEHFldEg4NfGO44ljikaCEUVXe7OBYPWt
-wMUYI/ytn8u/EJRxNj2cSgd57VPtjFsFimewUS5Lt/hcQldski7eyWA2/j4ds7B6n0INTlwTEYoh
-eft2vR+2+VNtMFlg5B+4KCz+TJfcdKAgDMG2XY11A4uOHUJ67lMaPOJ+6JxTlO4fbuBb+eoAzJ2L
-71KhB6V8gf22MHVo//9K3fGp/HN//SMrQqh+UFdViFGXvZKe7Ge47U/9VJ3DV0o8QTkgLFE8vzp6
-nxU8Ekt4y11vcI779LJLj8tE3WCOsL162rYLHiVSlE8b2Lz6Y2SxaS7eYkZTEFbkeiNyfX0BlNy9
-BlSPbDKc0DeOW4OPWYWCQlbDE03s1gwmEcjFf/SXRMnTJJa1SnmDc7tgeXXXr2MZFXjuYSgWAWut
-efEWZR7Rq/PHLbw/chxoQseI299Mri6Jr71HLaZY9NtqyW0FaY817FzuH4lABsbxZDgA+xczp7P7
-fkdHVXz/LPTbwRhzQfJQKnAZZ8tMOZJWMHq3HU3m/Cy1IdgaCchwvYI7tSY6ULRJN2uM9VKYyMk5
-HvqRuS4ICgs90AvFMYWRWCSQ0pcV9N7kRkpOTZ5VVrT5xMgbka2Pd7HRdc1IeUto57xkadlUXhzg
-3TjQCq1Nsz5B+V2W5+zHaw6H3l1zzdxSoRfJ//IxkLbrp/7ehk02PTSFRR2smalLJH92wpahr+zU
-+lDBXqW162eGUWnDtALeTR8JCH9C0hGH81vvlwpird8TjANDbkV18V0aH54NM5t8udBFPQloK1hm
-U8LeehBLKstzZMzpgBYSFpcKTAzZdClU6M7ra1OmcrrNCIEv8p7+TY9o65AsqzjFLGRVibTy+wN+
-0Fa8fdtaWreh4IjTuAfKZv1frfCalDNgdyOa/ywz3jFXH+8QkdkQ9zydnYd2NWaiH9BRiXV8saZL
-ZGuZ4VQhn3BodTqQEJxcTymccjbh4zg0VSxoztzY/p0+HU3fndRoAAF8LkFECBnsb3c4P/qcmZaM
-H+9ogyUZgMmRHz2uyRPY1XG9b8zOobGsOLoFIm+hqNKMw0FOzCkDx8j6SkN05g3gMO1ccEb3X/6E
-mutaxyr3xHhUWVFHKm6vPYe13jrmIww3ngP1AOesPMXrBlCgUiDHGfdHs6JR3I3dzEN6b2Fd24LF
-s3v1K+xnUU6gWMH8lxanNaJ3vH4NTo6MXjKhDnv9DGPVUvpe7wsWfboxlZr+OYOZx/wGICqE4mAj
-XSYLlOqSuLjAfOntjwnd+eQCt4wAq+nNEh6lNRH0YRID2S2WqZsCYpa6wB9allVzzAs/feXzsb7V
-IvGE99lCQTudxAigOLu8EhfyvAuWqzZ23RSZMaXYnawvsJjc+T0Y3sG2jd1ct5IUhOkaJ7p8fIPA
-VOVfkUjKubgJv2zCPtxa622Yp5iUbCMPcNsAv+508a78XV702G7N1GEM4unKFje7psuihkzKv5h0
-W/g244r4mE1l/RuuSkbnV3Ekd/uz3RvlWV1bJgNau0oL4FO2QVFlffHOTncogY5+Vge3QHjY6EQ0
-lmTzxQybbdD5ct35WVICFlEDx0qCzNaEHgEXUIbrR8lrQ92h3E1TyyYNDTJAYjWWs6qjoyXV+sGJ
-d0iv7VOX8hWW/ZcSKXFxsH/wfFbgYowDjuQqMxMuq1LGyXyn66v7ITd5Ys0htpg3hhLZmfOeROYK
-/TkaOmuAq/vVDUy61/2jxaygAfyp8CoaopzW9cbCCTdEM3ebgFbQLCD8Vx2uFML0jJh/TdTvw9YY
-1i9sj4PiRcw82tDkk29Fbh9KE6cfyclXk+yB3//baXueRQlYSU8SJuZs0EOYVoOWmXNt7TcqshXs
-/e1RSCBdqrcQy5lioqLB79Dxmr1GAwQpBzY6sHNBkFsBTFh099vVa90UvJtvFR4RJYuHMDwUgRNS
-aR/t3ebGnxHH1lQnsUC23P5NJlXPKsbig46j0fm9Y2bBqQJ7VRoivvM2WETPVJlItrOcl+gv7N9j
-pCjTEVEBIDkuHWd74GBiSNPPaJd+M2mRQ2h5+A4OeseY+6Y7vMwsQF2JLT8YioKqgBjeztT88Wab
-FfWMlFZc+qvSYeJZFcXrrER8aXzCoU4Zonlef3sOL+1/sS0OaIOGBvXS643x2FswVUHzN6cdRQjI
-KKjYZcrjsaDSvoBJquMUQotBC8rT9Nma14zXeaTDFhSH+/K3EjMqvX3mPuBsQM4aFd+ePp9sbDsV
-+hkoRxM6h0DAsAv5MmoXJLN6eQvJYp5OjUhRSrupojWAjTD0lBcq/4ZM58+w4YN2TTxBZOSgno6r
-IUY0PZD64p7nJly1Qt64/sY1+Ha2x37gTZ/1Jvfgph/gFdwqs8QSlJuYB/VFk7qTg1gnpdt+9ao0
-sZZDGrfW5L7BQLVuG1wST+qwT2j5yZ/DXGosx2QVCxnoOHSJ+iiI/EXFeSuGYKLdXH4tPvWD85IM
-uLQsZcMfT0LCyn15x+Jep92+SwNyjxnrfMtRAMMQpEMuEbcVcnlTxBBm9K+4oiZ16DGoCQa+AkqZ
-SO8nkXjF4xsszEB6kF9dGbhpgTvHaaBS2Ga3peZ0ToXSVH6dsyFSeSaniDoFLNdn5Q1Eb91WQ7dR
-ECyHWwlE66Ny84SDWsSq4v/ruLrX659b6nFaoWsDX62xXVDeGc12JHChNfygMzq4A7DYejKNiwNT
-03vVMbZUj51AhTL0eFjCCk/w2Gfve8IJv2Qkom4BNvlezuxiIbft5en3CS+sgD3spd6vO8JP1GKa
-OX9nLGB49WobFnmXniii8R9iEOQjmuCzSbx6IH6PbGaQRY5yhL7sWFwPSL36SiOt0bnJkKbVqdB3
-1AdoRVQJWtm4XxSfQ9oqCbfZHzSMoiJO3cnczVJO4agPZiU1IHDhnEWM+VbTRsG4x5SIyo7WJ3jV
-W7PgrYruofDSAUS0BgrMzWCo+otgG9tCnEM3Sul2WH/z4/ZLTNJwbFma1Y7MZo/3Xavk7bChvBSs
-N7N8Ic1o7OhA2pEntM2/EG7sTNRjbLyckOx4HJ6SWrP5eYg7DDcZZHQyTI+1hm0JEBkZ9fpndU1x
-TFbDoPrrCfpCLbOpXBV3ORoz3lzZXH8e1OY1XITBY5WcHQBGQqvXnP8sNyXRnVtkIZXyR2Gjj7O3
-JvhPf9ofGSG4xbo+EBV9Qm8T2BzVsIyKtBoEAgp6EjD/itTvq15zQdmKh2KJeORKAs8bpygKSCLG
-I35Lftx53TqJy+RaquLv1W6dZhOJ2HLwNsTWHMRsOz8M74AcFe87LPkmgv1NIxIo9riCAPFG0GWR
-/t7AI/exX7Fd3LF74wNPKPxTzpzMRGHSvS0MsilSeDunKNSFDCKaweS3ohK3db6LFS3PbrKqxqsW
-hXygHAy0LGqc3YqfZBRAqbHfoVz6N5rA5FRYIYxnhj7uXB+8Dx7hjgDAU0YIj2bahZbSdaZM4b88
-/ewsG6/1FHEZFGVpdjGrqLv6KBjHxyZ7Lp94hNONJNp+iTnvn2Y8kSXe0p+BScnUZ744rr1pwfwA
-dsVJH/8n38YEe0mU8TI4MwtDs7B6nywU/b06IcvfC1Y21NJ2cPQ7UC60zmBjSI8IuGvtQqF7eHvv
-rwbJty7kr/2qD0mQkTugU2qjZOp4mlAqsuXEUpJFEe0suWK8IPGOmmyVJfhiveVYcVTTLiMSamLk
-31dFa14gyXdOVqwD5SwwajfUQ3w3zuiRLDL+kKdQndit5fd5uI/egpLSbLzhM5/C99Q53Vlp6Pt7
-kMAnsala3ZiI7Oif2i8L62bbdqPZdT//XGn142hZS+oVwci9ewgBbTxS3J7+YmCuLv9yOgs34nkO
-PX7DnpXfRYZJsFASfybPy6pb/5zFAIoVeMU1aQzKbFZ7WQar6EWGp9j4yBlj8hUmNbMO1yWHij4G
-xNEYEHnxFuAf4qFIetKfRApT2NuSJPZCI4u++eOKEc6sKVp6xWArory1z7jgNDfvcBPcibpPc1vG
-beW59OaN5KdbJEZmIabSKrN2vdYIXWFkwnFYTDxuEBgYC3jLlPEUkaMa9e3LLn1fm7820YgOJHxZ
-fgz8lReLzjWOytdhfd1ReKa4hefl9ZOhnYgOgyCJQMwhGmSI+O7VQ3PqQMiK05mWts0j94BSrv9y
-8eYpMAVJI59WIH4bS+rHjE21/mCLl/FhPlI8uxWIC9Gezr5mlzvxjepT5nfQO2MfwAyDTYyAI0NH
-LcRVY3FXEo+s7XMVI9nelxOc2B5dW4fl1/nUu/Aci0GaxWA63t55UfEJbdR/ZuLIFUl3GRtHsOJv
-ZNTnUdngDuHrPuCYWedqGpuMHIcLtsaF3Sqw90aEI6mYKWun+oldPj0SLDAe85h4e7M5+FaGiyou
-MiT2Uan0le5sf8Q6tPGDWXYzdq6DGr1fsFMqniPAJnVKyS1Dajdzc9lJ7/3NLHQRIn2h/ooptBA0
-9F3bcVj09U+RdHhel0Rx/D0++Ieaa377DaZNNfKu3bO6dSO2rbJGtvNRpzqGe6mxaqs4Aol5PcDz
-d3EckhK+bf7LdCnMcdCCaDT6bGOleCG3iQsm7/87GjfqXiFi1VDAv7l1ieEhqlGkZ8uwJ72Bk1qb
-MFVsPUrQ9q5zGETqbUFk54hhQqqRFOU/Shsk3cOmuGFSFayBcpcwcDqgW+61b09aniJoRO2pOUzQ
-Q9bsO0PxDIDFffVFNJQIar/Ih90iVTbGI9SzwQ+LfzbYveXApA3fjNsxbpOllilMX/tP+vWoQWGB
-E4/tYX9y8QuzWjVH3UXNCZE/VZcmkXrkNSa9bJcdfdCj45ZzXFYuo9oYNDXdXMeii1k41jtt4nvM
-5uLKwDzG2+miJ4i9mc48tS+3T09p1WOl3j2vRalet/Hoq6m8s5IiFPgzXxAEjQfR4FcdFlOSV7e9
-E2J3nu7paQ5zo8Ks+6kLmrbpnbRNnC1EakO/MeliaCtyXYXEcTn+ZQGTjywo0o5moAiGYvoQ6oA1
-WKQvpkLZuBd+2mCsw85WwqdcSfH2oLo5nZ8n/peJbdHYSMkuGs2MP485K5Dd2gsomL5NxuifKDGq
-1H+zHN3nCV/cdttOjzY6NRLYzRiiJDO2fS/bi1uVJgaW/yLDuulO6KkEAiS7K6zWj9Hv2UhF0KQf
-GrJt7PIzVWUzKERUNuFUxMUNnu1Wd+/hIriXiTsdkAe0cwnie8AnQ95osGQz0tFguRet2Gt7zDDX
-LVbzrqJnWlFj2S12ABBC8ifkJd80XfePSU9ozsAY4cTi/rC+/vIPfnaniIcWXGbXi0baColF5mQk
-y4M53nUhaVcEQN4O+0CxYWyvUzxGD4puOZ6SOUSLoxUzzQDy4N0gmMW0ckM+2EECqikkoGJIZdvY
-RHTSv+CI8+OhqItjOhiA2y6B6CGIVdSSxefM+ZDh+9tFCuIBXnLN9SnNQLVtsHyLBz9vhrDZJfhK
-Mxsmad/nH1DWuKWT31u2US4jB6LSeylGr7UuBOjqCDz/i1rr/DKLYB64GBBPkVAJvrJHoCv4TNmS
-zxRL3JAk+74HA7p+mMlpQdbLsZy0cww/kJRZQdm88/F3zZxYcePYGkFg9B3+OcUJplUWlleIRpIo
-uFdASdiRi6LNsPnu4nTNdLcDtZbubIUeKJfeAkI6k3FDFqjlcr5K8gR1i03MWZPfPCKjWX8eGltd
-pVzBMkoThrGWVac90gR5JPnnrieqMitVsu8nHkeUFcbrpycsSvu+gRxmK4tGpAeRcnvdzbdf75L+
-rZMxaSU3JDaZGioKtE30QmyYH9+NB0tad6282R2y55wz08KXHf5A0n10uh3bD1RSxHLXQudUdHI7
-/owhYemD7Ad9yywLJDnon1dulrAQayBDStC2leYnU9NsEKRAcMW+16AuxJT+HQ8+L3GWV2nDBRIY
-3CqEFSZZtNLCDUIQET6snxYqYLUQX5yUHnZFhT43WOsCdlOGugrKuRZdQu2xHnHliS46XUqxFX3M
-KK8fzK7s+r+POuDYkzHtvnO=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Sheets\Resource;
+
+use Google\Service\Sheets\AppendValuesResponse;
+use Google\Service\Sheets\BatchClearValuesByDataFilterRequest;
+use Google\Service\Sheets\BatchClearValuesByDataFilterResponse;
+use Google\Service\Sheets\BatchClearValuesRequest;
+use Google\Service\Sheets\BatchClearValuesResponse;
+use Google\Service\Sheets\BatchGetValuesByDataFilterRequest;
+use Google\Service\Sheets\BatchGetValuesByDataFilterResponse;
+use Google\Service\Sheets\BatchGetValuesResponse;
+use Google\Service\Sheets\BatchUpdateValuesByDataFilterRequest;
+use Google\Service\Sheets\BatchUpdateValuesByDataFilterResponse;
+use Google\Service\Sheets\BatchUpdateValuesRequest;
+use Google\Service\Sheets\BatchUpdateValuesResponse;
+use Google\Service\Sheets\ClearValuesRequest;
+use Google\Service\Sheets\ClearValuesResponse;
+use Google\Service\Sheets\UpdateValuesResponse;
+use Google\Service\Sheets\ValueRange;
+
+/**
+ * The "values" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $sheetsService = new Google\Service\Sheets(...);
+ *   $values = $sheetsService->values;
+ *  </code>
+ */
+class SpreadsheetsValues extends \Google\Service\Resource
+{
+  /**
+   * Appends values to a spreadsheet. The input range is used to search for
+   * existing data and find a "table" within that range. Values will be appended
+   * to the next row of the table, starting with the first column of the table.
+   * See the [guide](/sheets/api/guides/values#appending_values) and [sample
+   * code](/sheets/api/samples/writing#append_values) for specific details of how
+   * tables are detected and data is appended. The caller must specify the
+   * spreadsheet ID, range, and a valueInputOption. The `valueInputOption` only
+   * controls how the input data will be added to the sheet (column-wise or row-
+   * wise), it does not influence what cell the data starts being written to.
+   * (values.append)
+   *
+   * @param string $spreadsheetId The ID of the spreadsheet to update.
+   * @param string $range The A1 notation of a range to search for a logical table
+   * of data. Values are appended after the last row of the table.
+   * @param ValueRange $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool includeValuesInResponse Determines if the update response
+   * should include the values of the cells that were appended. By default,
+   * responses do not include the updated values.
+   * @opt_param string insertDataOption How the input data should be inserted.
+   * @opt_param string responseDateTimeRenderOption Determines how dates, times,
+   * and durations in the response should be rendered. This is ignored if
+   * response_value_render_option is FORMATTED_VALUE. The default dateTime render
+   * option is SERIAL_NUMBER.
+   * @opt_param string responseValueRenderOption Determines how values in the
+   * response should be rendered. The default render option is FORMATTED_VALUE.
+   * @opt_param string valueInputOption How the input data should be interpreted.
+   * @return AppendValuesResponse
+   */
+  public function append($spreadsheetId, $range, ValueRange $postBody, $optParams = [])
+  {
+    $params = ['spreadsheetId' => $spreadsheetId, 'range' => $range, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('append', [$params], AppendValuesResponse::class);
+  }
+  /**
+   * Clears one or more ranges of values from a spreadsheet. The caller must
+   * specify the spreadsheet ID and one or more ranges. Only values are cleared --
+   * all other properties of the cell (such as formatting, data validation, etc..)
+   * are kept. (values.batchClear)
+   *
+   * @param string $spreadsheetId The ID of the spreadsheet to update.
+   * @param BatchClearValuesRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return BatchClearValuesResponse
+   */
+  public function batchClear($spreadsheetId, BatchClearValuesRequest $postBody, $optParams = [])
+  {
+    $params = ['spreadsheetId' => $spreadsheetId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('batchClear', [$params], BatchClearValuesResponse::class);
+  }
+  /**
+   * Clears one or more ranges of values from a spreadsheet. The caller must
+   * specify the spreadsheet ID and one or more DataFilters. Ranges matching any
+   * of the specified data filters will be cleared. Only values are cleared -- all
+   * other properties of the cell (such as formatting, data validation, etc..) are
+   * kept. (values.batchClearByDataFilter)
+   *
+   * @param string $spreadsheetId The ID of the spreadsheet to update.
+   * @param BatchClearValuesByDataFilterRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return BatchClearValuesByDataFilterResponse
+   */
+  public function batchClearByDataFilter($spreadsheetId, BatchClearValuesByDataFilterRequest $postBody, $optParams = [])
+  {
+    $params = ['spreadsheetId' => $spreadsheetId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('batchClearByDataFilter', [$params], BatchClearValuesByDataFilterResponse::class);
+  }
+  /**
+   * Returns one or more ranges of values from a spreadsheet. The caller must
+   * specify the spreadsheet ID and one or more ranges. (values.batchGet)
+   *
+   * @param string $spreadsheetId The ID of the spreadsheet to retrieve data from.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string dateTimeRenderOption How dates, times, and durations should
+   * be represented in the output. This is ignored if value_render_option is
+   * FORMATTED_VALUE. The default dateTime render option is SERIAL_NUMBER.
+   * @opt_param string majorDimension The major dimension that results should use.
+   * For example, if the spreadsheet data is: `A1=1,B1=2,A2=3,B2=4`, then
+   * requesting `range=A1:B2,majorDimension=ROWS` returns `[[1,2],[3,4]]`, whereas
+   * requesting `range=A1:B2,majorDimension=COLUMNS` returns `[[1,3],[2,4]]`.
+   * @opt_param string ranges The A1 notation or R1C1 notation of the range to
+   * retrieve values from.
+   * @opt_param string valueRenderOption How values should be represented in the
+   * output. The default render option is ValueRenderOption.FORMATTED_VALUE.
+   * @return BatchGetValuesResponse
+   */
+  public function batchGet($spreadsheetId, $optParams = [])
+  {
+    $params = ['spreadsheetId' => $spreadsheetId];
+    $params = array_merge($params, $optParams);
+    return $this->call('batchGet', [$params], BatchGetValuesResponse::class);
+  }
+  /**
+   * Returns one or more ranges of values that match the specified data filters.
+   * The caller must specify the spreadsheet ID and one or more DataFilters.
+   * Ranges that match any of the data filters in the request will be returned.
+   * (values.batchGetByDataFilter)
+   *
+   * @param string $spreadsheetId The ID of the spreadsheet to retrieve data from.
+   * @param BatchGetValuesByDataFilterRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return BatchGetValuesByDataFilterResponse
+   */
+  public function batchGetByDataFilter($spreadsheetId, BatchGetValuesByDataFilterRequest $postBody, $optParams = [])
+  {
+    $params = ['spreadsheetId' => $spreadsheetId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('batchGetByDataFilter', [$params], BatchGetValuesByDataFilterResponse::class);
+  }
+  /**
+   * Sets values in one or more ranges of a spreadsheet. The caller must specify
+   * the spreadsheet ID, a valueInputOption, and one or more ValueRanges.
+   * (values.batchUpdate)
+   *
+   * @param string $spreadsheetId The ID of the spreadsheet to update.
+   * @param BatchUpdateValuesRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return BatchUpdateValuesResponse
+   */
+  public function batchUpdate($spreadsheetId, BatchUpdateValuesRequest $postBody, $optParams = [])
+  {
+    $params = ['spreadsheetId' => $spreadsheetId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('batchUpdate', [$params], BatchUpdateValuesResponse::class);
+  }
+  /**
+   * Sets values in one or more ranges of a spreadsheet. The caller must specify
+   * the spreadsheet ID, a valueInputOption, and one or more
+   * DataFilterValueRanges. (values.batchUpdateByDataFilter)
+   *
+   * @param string $spreadsheetId The ID of the spreadsheet to update.
+   * @param BatchUpdateValuesByDataFilterRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return BatchUpdateValuesByDataFilterResponse
+   */
+  public function batchUpdateByDataFilter($spreadsheetId, BatchUpdateValuesByDataFilterRequest $postBody, $optParams = [])
+  {
+    $params = ['spreadsheetId' => $spreadsheetId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('batchUpdateByDataFilter', [$params], BatchUpdateValuesByDataFilterResponse::class);
+  }
+  /**
+   * Clears values from a spreadsheet. The caller must specify the spreadsheet ID
+   * and range. Only values are cleared -- all other properties of the cell (such
+   * as formatting, data validation, etc..) are kept. (values.clear)
+   *
+   * @param string $spreadsheetId The ID of the spreadsheet to update.
+   * @param string $range The A1 notation or R1C1 notation of the values to clear.
+   * @param ClearValuesRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return ClearValuesResponse
+   */
+  public function clear($spreadsheetId, $range, ClearValuesRequest $postBody, $optParams = [])
+  {
+    $params = ['spreadsheetId' => $spreadsheetId, 'range' => $range, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('clear', [$params], ClearValuesResponse::class);
+  }
+  /**
+   * Returns a range of values from a spreadsheet. The caller must specify the
+   * spreadsheet ID and a range. (values.get)
+   *
+   * @param string $spreadsheetId The ID of the spreadsheet to retrieve data from.
+   * @param string $range The A1 notation or R1C1 notation of the range to
+   * retrieve values from.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string dateTimeRenderOption How dates, times, and durations should
+   * be represented in the output. This is ignored if value_render_option is
+   * FORMATTED_VALUE. The default dateTime render option is SERIAL_NUMBER.
+   * @opt_param string majorDimension The major dimension that results should use.
+   * For example, if the spreadsheet data is: `A1=1,B1=2,A2=3,B2=4`, then
+   * requesting `range=A1:B2,majorDimension=ROWS` returns `[[1,2],[3,4]]`, whereas
+   * requesting `range=A1:B2,majorDimension=COLUMNS` returns `[[1,3],[2,4]]`.
+   * @opt_param string valueRenderOption How values should be represented in the
+   * output. The default render option is FORMATTED_VALUE.
+   * @return ValueRange
+   */
+  public function get($spreadsheetId, $range, $optParams = [])
+  {
+    $params = ['spreadsheetId' => $spreadsheetId, 'range' => $range];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], ValueRange::class);
+  }
+  /**
+   * Sets values in a range of a spreadsheet. The caller must specify the
+   * spreadsheet ID, range, and a valueInputOption. (values.update)
+   *
+   * @param string $spreadsheetId The ID of the spreadsheet to update.
+   * @param string $range The A1 notation of the values to update.
+   * @param ValueRange $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool includeValuesInResponse Determines if the update response
+   * should include the values of the cells that were updated. By default,
+   * responses do not include the updated values. If the range to write was larger
+   * than the range actually written, the response includes all values in the
+   * requested range (excluding trailing empty rows and columns).
+   * @opt_param string responseDateTimeRenderOption Determines how dates, times,
+   * and durations in the response should be rendered. This is ignored if
+   * response_value_render_option is FORMATTED_VALUE. The default dateTime render
+   * option is SERIAL_NUMBER.
+   * @opt_param string responseValueRenderOption Determines how values in the
+   * response should be rendered. The default render option is FORMATTED_VALUE.
+   * @opt_param string valueInputOption How the input data should be interpreted.
+   * @return UpdateValuesResponse
+   */
+  public function update($spreadsheetId, $range, ValueRange $postBody, $optParams = [])
+  {
+    $params = ['spreadsheetId' => $spreadsheetId, 'range' => $range, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], UpdateValuesResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(SpreadsheetsValues::class, 'Google_Service_Sheets_Resource_SpreadsheetsValues');

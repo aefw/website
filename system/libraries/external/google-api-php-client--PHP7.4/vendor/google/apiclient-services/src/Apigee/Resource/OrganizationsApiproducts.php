@@ -1,73 +1,185 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-om==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Apigee\Resource;
+
+use Google\Service\Apigee\GoogleCloudApigeeV1ApiProduct;
+use Google\Service\Apigee\GoogleCloudApigeeV1Attributes;
+use Google\Service\Apigee\GoogleCloudApigeeV1ListApiProductsResponse;
+
+/**
+ * The "apiproducts" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $apigeeService = new Google\Service\Apigee(...);
+ *   $apiproducts = $apigeeService->apiproducts;
+ *  </code>
+ */
+class OrganizationsApiproducts extends \Google\Service\Resource
+{
+  /**
+   * Updates or creates API product attributes. This API **replaces** the current
+   * list of attributes with the attributes specified in the request body. In this
+   * way, you can update existing attributes, add new attributes, or delete
+   * existing attributes by omitting them from the request body. **Note**: OAuth
+   * access tokens and Key Management Service (KMS) entities (apps, developers,
+   * and API products) are cached for 180 seconds (current default). Any custom
+   * attributes associated with entities also get cached for at least 180 seconds
+   * after entity is accessed during runtime. In this case, the `ExpiresIn`
+   * element on the OAuthV2 policy won't be able to expire an access token in less
+   * than 180 seconds. (apiproducts.attributes)
+   *
+   * @param string $name Required. Name of the API product. Use the following
+   * structure in your request: `organizations/{org}/apiproducts/{apiproduct}`
+   * @param GoogleCloudApigeeV1Attributes $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1Attributes
+   */
+  public function attributes($name, GoogleCloudApigeeV1Attributes $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('attributes', [$params], GoogleCloudApigeeV1Attributes::class);
+  }
+  /**
+   * Creates an API product in an organization. You create API products after you
+   * have proxied backend services using API proxies. An API product is a
+   * collection of API resources combined with quota settings and metadata that
+   * you can use to deliver customized and productized API bundles to your
+   * developer community. This metadata can include: - Scope - Environments - API
+   * proxies - Extensible profile API products enable you repackage APIs on the
+   * fly, without having to do any additional coding or configuration. Apigee
+   * recommends that you start with a simple API product including only required
+   * elements. You then provision credentials to apps to enable them to start
+   * testing your APIs. After you have authentication and authorization working
+   * against a simple API product, you can iterate to create finer-grained API
+   * products, defining different sets of API resources for each API product.
+   * **WARNING:** - If you don't specify an API proxy in the request body, *any*
+   * app associated with the product can make calls to *any* API in your entire
+   * organization. - If you don't specify an environment in the request body, the
+   * product allows access to all environments. For more information, see What is
+   * an API product? (apiproducts.create)
+   *
+   * @param string $parent Required. Name of the organization in which the API
+   * product will be created. Use the following structure in your request:
+   * `organizations/{org}`
+   * @param GoogleCloudApigeeV1ApiProduct $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1ApiProduct
+   */
+  public function create($parent, GoogleCloudApigeeV1ApiProduct $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleCloudApigeeV1ApiProduct::class);
+  }
+  /**
+   * Deletes an API product from an organization. Deleting an API product causes
+   * app requests to the resource URIs defined in the API product to fail. Ensure
+   * that you create a new API product to serve existing apps, unless your
+   * intention is to disable access to the resources defined in the API product.
+   * The API product name required in the request URL is the internal name of the
+   * product, not the display name. While they may be the same, it depends on
+   * whether the API product was created via the UI or the API. View the list of
+   * API products to verify the internal name. (apiproducts.delete)
+   *
+   * @param string $name Required. Name of the API product. Use the following
+   * structure in your request: `organizations/{org}/apiproducts/{apiproduct}`
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1ApiProduct
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleCloudApigeeV1ApiProduct::class);
+  }
+  /**
+   * Gets configuration details for an API product. The API product name required
+   * in the request URL is the internal name of the product, not the display name.
+   * While they may be the same, it depends on whether the API product was created
+   * via the UI or the API. View the list of API products to verify the internal
+   * name. (apiproducts.get)
+   *
+   * @param string $name Required. Name of the API product. Use the following
+   * structure in your request: `organizations/{org}/apiproducts/{apiproduct}`
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1ApiProduct
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudApigeeV1ApiProduct::class);
+  }
+  /**
+   * Lists all API product names for an organization. Filter the list by passing
+   * an `attributename` and `attibutevalue`. The maximum number of API products
+   * returned is 1000. You can paginate the list of API products returned using
+   * the `startKey` and `count` query parameters.
+   * (apiproducts.listOrganizationsApiproducts)
+   *
+   * @param string $parent Required. Name of the organization. Use the following
+   * structure in your request: `organizations/{org}`
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string attributename Name of the attribute used to filter the
+   * search.
+   * @opt_param string attributevalue Value of the attribute used to filter the
+   * search.
+   * @opt_param string count Enter the number of API products you want returned in
+   * the API call. The limit is 1000.
+   * @opt_param bool expand Flag that specifies whether to expand the results. Set
+   * to `true` to get expanded details about each API.
+   * @opt_param string startKey Gets a list of API products starting with a
+   * specific API product in the list. For example, if you're returning 50 API
+   * products at a time (using the `count` query parameter), you can view products
+   * 50-99 by entering the name of the 50th API product in the first API (without
+   * using `startKey`). Product name is case sensitive.
+   * @return GoogleCloudApigeeV1ListApiProductsResponse
+   */
+  public function listOrganizationsApiproducts($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleCloudApigeeV1ListApiProductsResponse::class);
+  }
+  /**
+   * Updates an existing API product. You must include all required values,
+   * whether or not you are updating them, as well as any optional values that you
+   * are updating. The API product name required in the request URL is the
+   * internal name of the product, not the display name. While they may be the
+   * same, it depends on whether the API product was created via UI or API. View
+   * the list of API products to identify their internal names.
+   * (apiproducts.update)
+   *
+   * @param string $name Required. Name of the API product. Use the following
+   * structure in your request: `organizations/{org}/apiproducts/{apiproduct}`
+   * @param GoogleCloudApigeeV1ApiProduct $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1ApiProduct
+   */
+  public function update($name, GoogleCloudApigeeV1ApiProduct $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], GoogleCloudApigeeV1ApiProduct::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(OrganizationsApiproducts::class, 'Google_Service_Apigee_Resource_OrganizationsApiproducts');

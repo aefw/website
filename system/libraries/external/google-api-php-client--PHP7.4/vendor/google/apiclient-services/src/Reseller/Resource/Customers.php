@@ -1,61 +1,126 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Reseller\Resource;
+
+use Google\Service\Reseller\Customer;
+
+/**
+ * The "customers" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $resellerService = new Google\Service\Reseller(...);
+ *   $customers = $resellerService->customers;
+ *  </code>
+ */
+class Customers extends \Google\Service\Resource
+{
+  /**
+   * Get a customer account. Use this operation to see a customer account already
+   * in your reseller management, or to see the minimal account information for an
+   * existing customer that you do not manage. For more information about the API
+   * response for existing customers, see [retrieving a customer account](/admin-
+   * sdk/reseller/v1/how-tos/manage_customers#get_customer). (customers.get)
+   *
+   * @param string $customerId Either the customer's primary domain name or the
+   * customer's unique identifier. If using the domain name, we do not recommend
+   * using a `customerId` as a key for persistent data. If the domain name for a
+   * `customerId` is changed, the Google system automatically updates.
+   * @param array $optParams Optional parameters.
+   * @return Customer
+   */
+  public function get($customerId, $optParams = [])
+  {
+    $params = ['customerId' => $customerId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Customer::class);
+  }
+  /**
+   * Order a new customer's account. Before ordering a new customer account,
+   * establish whether the customer account already exists using the
+   * [`customers.get`](/admin-sdk/reseller/v1/reference/customers/get) If the
+   * customer account exists as a direct Google account or as a resold customer
+   * account from another reseller, use the `customerAuthToken\` as described in
+   * [order a resold account for an existing customer](/admin-sdk/reseller/v1/how-
+   * tos/manage_customers#create_existing_customer). For more information about
+   * ordering a new customer account, see [order a new customer account](/admin-
+   * sdk/reseller/v1/how-tos/manage_customers#create_customer). After creating a
+   * new customer account, you must provision a user as an administrator. The
+   * customer's administrator is required to sign in to the Admin console and sign
+   * the G Suite via Reseller agreement to activate the account. Resellers are
+   * prohibited from signing the G Suite via Reseller agreement on the customer's
+   * behalf. For more information, see [order a new customer account](/admin-
+   * sdk/reseller/v1/how-tos/manage_customers#tos). (customers.insert)
+   *
+   * @param Customer $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string customerAuthToken The `customerAuthToken` query string is
+   * required when creating a resold account that transfers a direct customer's
+   * subscription or transfers another reseller customer's subscription to your
+   * reseller management. This is a hexadecimal authentication token needed to
+   * complete the subscription transfer. For more information, see the
+   * administrator help center.
+   * @return Customer
+   */
+  public function insert(Customer $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Customer::class);
+  }
+  /**
+   * Update a customer account's settings. This method supports patch semantics.
+   * (customers.patch)
+   *
+   * @param string $customerId Either the customer's primary domain name or the
+   * customer's unique identifier. If using the domain name, we do not recommend
+   * using a `customerId` as a key for persistent data. If the domain name for a
+   * `customerId` is changed, the Google system automatically updates.
+   * @param Customer $postBody
+   * @param array $optParams Optional parameters.
+   * @return Customer
+   */
+  public function patch($customerId, Customer $postBody, $optParams = [])
+  {
+    $params = ['customerId' => $customerId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Customer::class);
+  }
+  /**
+   * Update a customer account's settings. For more information, see [update a
+   * customer's settings](/admin-sdk/reseller/v1/how-
+   * tos/manage_customers#update_customer). (customers.update)
+   *
+   * @param string $customerId Either the customer's primary domain name or the
+   * customer's unique identifier. If using the domain name, we do not recommend
+   * using a `customerId` as a key for persistent data. If the domain name for a
+   * `customerId` is changed, the Google system automatically updates.
+   * @param Customer $postBody
+   * @param array $optParams Optional parameters.
+   * @return Customer
+   */
+  public function update($customerId, Customer $postBody, $optParams = [])
+  {
+    $params = ['customerId' => $customerId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Customer::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Customers::class, 'Google_Service_Reseller_Resource_Customers');

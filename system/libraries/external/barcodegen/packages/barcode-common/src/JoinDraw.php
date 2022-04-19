@@ -1,109 +1,204 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+declare(strict_types=1);
+
+/**
+ *--------------------------------------------------------------------
+ *
+ * Enable to join 2 BCGDrawing or 2 image object to make only one image.
+ * There are some options for alignment.
+ *
+ *--------------------------------------------------------------------
+ * Copyright (C) Jean-Sebastien Goupil
+ * http://www.barcodebakery.com
+ */
+namespace BarcodeBakery\Common;
+
+class JoinDraw
+{
+    const ALIGN_RIGHT       = 0;
+    const ALIGN_BOTTOM      = 0;
+    const ALIGN_LEFT        = 1;
+    const ALIGN_TOP         = 1;
+    const ALIGN_CENTER      = 2;
+
+    const POSITION_RIGHT    = 0;
+    const POSITION_BOTTOM   = 1;
+    const POSITION_LEFT     = 2;
+    const POSITION_TOP      = 3;
+
+    private $image1;
+    private $image2;
+    private $alignement;
+    private $position;
+    private $space;
+    private $im;
+
+    /**
+     * Construct the JoinDrawing Object.
+     *  - $image1 and $image2 have to be BCGDrawing object or image object.
+     *  - $space is the space between the two graphics in pixel.
+     *  - $position is the position of the $image2 depending the $image1.
+     *  - $alignment is the alignment of the $image2 if this one is smaller than $image1;
+     *    if $image2 is bigger than $image1, the $image1 will be positionned on the opposite side specified.
+     *
+     * @param mixed $image1
+     * @param mixed $image2
+     * @param BCGColor $background
+     * @param int $space
+     * @param int $position
+     * @param int $alignment
+     */
+    public function __construct($image1, $image2, $background, $space = 10, $position = self::POSITION_RIGHT, $alignment = self::ALIGN_TOP)
+    {
+        if ($image1 instanceof BCGDrawing) {
+            $this->image1 = $image1->get_im();
+        } else {
+            $this->image1 = $image1;
+        }
+        if ($image2 instanceof BCGDrawing) {
+            $this->image2 = $image2->get_im();
+        } else {
+            $this->image2 = $image2;
+        }
+
+        $this->background = $background;
+        $this->space = (int)$space;
+        $this->position = (int)$position;
+        $this->alignment = (int)$alignment;
+
+        $this->createIm();
+    }
+
+    /**
+     * Destroys the image.
+     */
+    public function __destruct()
+    {
+        imagedestroy($this->im);
+    }
+
+    /**
+     * Finds the position where the barcode should be aligned.
+     *
+     * @param int $size1
+     * @param int $size2
+     * @param int $ailgnment
+     * @return int
+     */
+    private function findPosition($size1, $size2, $alignment)
+    {
+        $rsize1 = max($size1, $size2);
+        $rsize2 = min($size1, $size2);
+
+        if ($alignment === self::ALIGN_LEFT) { // Or TOP
+            return 0;
+        } elseif ($alignment === self::ALIGN_CENTER) {
+            return $rsize1 / 2 - $rsize2 / 2;
+        } else { // RIGHT or TOP
+            return $rsize1 - $rsize2;
+        }
+    }
+
+    /**
+     * Change the alignments.
+     *
+     * @param int $alignment
+     * @return int
+     */
+    private function changeAlignment($alignment)
+    {
+        if ($alignment === 0) {
+            return 1;
+        } elseif ($alignment === 1) {
+            return 0;
+        } else {
+            return 2;
+        }
+    }
+
+    /**
+     * Creates the image.
+     */
+    private function createIm()
+    {
+        $w1 = imagesx($this->image1);
+        $w2 = imagesx($this->image2);
+        $h1 = imagesy($this->image1);
+        $h2 = imagesy($this->image2);
+
+        if ($this->position === self::POSITION_LEFT || $this->position === self::POSITION_RIGHT) {
+            $w = $w1 + $w2 + $this->space;
+            $h = max($h1, $h2);
+        } else {
+            $w = max($w1, $w2);
+            $h = $h1 + $h2 + $this->space;
+        }
+
+        $this->im = imagecreatetruecolor($w, $h);
+        imagefill($this->im, 0, 0, $this->background->allocate($this->im));
+
+        // We start defining position of images
+        if ($this->position === self::POSITION_TOP) {
+            if ($w1 > $w2) {
+                $posX1 = 0;
+                $posX2 = $this->findPosition($w1, $w2, $this->alignment);
+            } else {
+                $a = $this->changeAlignment($this->alignment);
+                $posX1 = $this->findPosition($w1, $w2, $a);
+                $posX2 = 0;
+            }
+
+            $posY2 = 0;
+            $posY1 = $h2 + $this->space;
+        } elseif ($this->position === self::POSITION_LEFT) {
+            if ($w1 > $w2) {
+                $posY1 = 0;
+                $posY2 = $this->findPosition($h1, $h2, $this->alignment);
+            } else {
+                $a = $this->changeAlignment($this->alignment);
+                $posY2 = 0;
+                $posY1 = $this->findPosition($h1, $h2, $a);
+            }
+
+            $posX2 = 0;
+            $posX1 = $w2 + $this->space;
+        } elseif ($this->position === self::POSITION_BOTTOM) {
+            if ($w1 > $w2) {
+                $posX2 = $this->findPosition($w1, $w2, $this->alignment);
+                $posX1 = 0;
+            } else {
+                $a = $this->changeAlignment($this->alignment);
+                $posX2 = 0;
+                $posX1 = $this->findPosition($w1, $w2, $a);
+            }
+
+            $posY1 = 0;
+            $posY2 = $h1 + $this->space;
+        } else { // defaults to RIGHT
+            if ($w1 > $w2) {
+                $posY2 = $this->findPosition($h1, $h2, $this->alignment);
+                $posY1 = 0;
+            } else {
+                $a = $this->changeAlignment($this->alignment);
+                $posY2 = 0;
+                $posY1 = $this->findPosition($h1, $h2, $a);
+            }
+
+            $posX1 = 0;
+            $posX2 = $w1 + $this->space;
+        }
+
+        imagecopy($this->im, $this->image1, $posX1, $posY1, 0, 0, $w1, $h1);
+        imagecopy($this->im, $this->image2, $posX2, $posY2, 0, 0, $w2, $h2);
+    }
+
+    /**
+     * Returns the new $im created.
+     *
+     * @return resource
+     */
+    public function get_im()
+    {
+        return $this->im;
+    }
+}

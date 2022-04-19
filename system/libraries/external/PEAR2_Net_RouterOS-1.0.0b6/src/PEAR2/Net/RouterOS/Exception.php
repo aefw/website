@@ -1,17 +1,35 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPtJpW5sGHNcI7KWLVdzex1CNpjjcu+N+8Q/8T5ab5jo2X8/N0UXVnV2Tpq/X0p8ddvMVmxJ3
-0wHqseD1qHtSNHq2EC1CqHq5RqIxxPEBGPukhk29igRQaZC3qKMWY7ylBRo2nwzquuhf2lz1Y3gn
-MmTMFrN7DtyvXZJaQ+1CtFN2DkUHuch1Ihukar1zhkjVQCnw2+rAktN+1KJrQG+0nxd+e2hUnKY/
-FdK18cuQz6B6EBP64D3zmt+/LV4NSbKFl1/bxEQ6nnG6fScFGQJ3V0moBk9mKourL8IeB86cFae5
-vLLASTlm8DDPCxnKSdQ8LDA6PyPxAtFolIH+UsprNsKKWxc76r9C49i+eOwR+GTnfHDDhx4q524P
-w6oPYDyEUBtdRgVDWLwiwMmhd1N3ubwvcZHemt+V1h8ME5vwlKHgDz2OYlnmld6/VliDZ6pLybvz
-p8AStVdYeLcKmAThX/8w3BP5qOV5y5HiEtP8hrFIo30thBwkQqlhfsfChlJdbz8u/he9ef1wB8gT
-4Vr8V34ebiU2ahxsPOL2jQpLu803DBIyHUC3MQlL9So/lVOBO3HlWHnDLscv/Yw7U1iusivmPdnN
-Gnr2ANV3sRmIciA24h4fi/ePZsKrCdYqtHh9k59/yxHAWUVVTcizh/W5pFVJItY+nR0PEPILaOGY
-eMTnA7LRk+uWIaVUOowGi3DLU1PtRSpCublkaAJmB9vhLSBMExUXUsqncOwjqjzEU8ojMfdOOGFd
-G8wwRwX0tm==
+<?php
+
+/**
+ * RouterOS API client implementation.
+
+ *
+ * RouterOS is the flag product of the company MikroTik and is a powerful router software. One of its many abilities is to allow control over it via an API. This package provides a client for that API, in turn allowing you to use PHP to control RouterOS hosts.
+ *
+ * PHP version 5
+ *
+ * @category  Net
+ * @package   PEAR2_Net_RouterOS
+ * @author    Vasil Rangelov <boen.robot@gmail.com>
+ * @copyright 2011 Vasil Rangelov
+ * @license   http://www.gnu.org/copyleft/lesser.html LGPL License 2.1
+ * @version   1.0.0b6
+ * @link      http://pear2.php.net/PEAR2_Net_RouterOS
+ */
+/**
+ * The namespace declaration.
+ */
+namespace PEAR2\Net\RouterOS;
+
+/**
+ * Generic exception class of this package.
+ *
+ * @category Net
+ * @package  PEAR2_Net_RouterOS
+ * @author   Vasil Rangelov <boen.robot@gmail.com>
+ * @license  http://www.gnu.org/copyleft/lesser.html LGPL License 2.1
+ * @link     http://pear2.php.net/PEAR2_Net_RouterOS
+ */
+interface Exception
+{
+}

@@ -1,60 +1,215 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for SemanticTile (v1).
+ *
+ * <p>
+ * Serves vector tiles containing geospatial data.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://developers.google.com/maps/contact-sales/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class SemanticTile extends \Google\Service
+{
+
+
+  public $featuretiles;
+  public $terraintiles;
+
+  /**
+   * Constructs the internal representation of the SemanticTile service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://vectortile.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'vectortile';
+
+    $this->featuretiles = new SemanticTile\Resource\Featuretiles(
+        $this,
+        $this->serviceName,
+        'featuretiles',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'alwaysIncludeBuildingFootprints' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'clientInfo.apiClient' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'clientInfo.applicationId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'clientInfo.applicationVersion' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'clientInfo.deviceModel' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'clientInfo.operatingSystem' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'clientInfo.platform' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'clientInfo.userId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'clientTileVersionId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'enableDetailedHighwayTypes' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'enableFeatureNames' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'enableModeledVolumes' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'enablePoliticalFeatures' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'enablePrivateRoads' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'enableUnclippedBuildings' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'languageCode' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'regionCode' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->terraintiles = new SemanticTile\Resource\Terraintiles(
+        $this,
+        $this->serviceName,
+        'terraintiles',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'altitudePrecisionCentimeters' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'clientInfo.apiClient' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'clientInfo.applicationId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'clientInfo.applicationVersion' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'clientInfo.deviceModel' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'clientInfo.operatingSystem' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'clientInfo.platform' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'clientInfo.userId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxElevationResolutionCells' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'minElevationResolutionCells' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'terrainFormats' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(SemanticTile::class, 'Google_Service_SemanticTile');

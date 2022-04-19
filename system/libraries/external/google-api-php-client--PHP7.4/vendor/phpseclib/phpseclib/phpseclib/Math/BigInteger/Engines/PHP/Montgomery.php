@@ -1,68 +1,93 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-wqwyB5wuZG==
+<?php
+
+/**
+ * PHP Montgomery Modular Exponentiation Engine
+ *
+ * PHP version 5 and 7
+ *
+ * @category  Math
+ * @package   BigInteger
+ * @author    Jim Wigginton <terrafrost@php.net>
+ * @copyright 2017 Jim Wigginton
+ * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      http://pear.php.net/package/Math_BigInteger
+ */
+
+namespace phpseclib3\Math\BigInteger\Engines\PHP;
+
+use phpseclib3\Math\BigInteger\Engines\PHP\Reductions\PowerOfTwo;
+use phpseclib3\Math\BigInteger\Engines\PHP;
+use phpseclib3\Math\BigInteger\Engines\PHP\Base;
+use phpseclib3\Math\BigInteger\Engines\Engine;
+
+/**
+ * PHP Montgomery Modular Exponentiation Engine
+ *
+ * @package PHP
+ * @author  Jim Wigginton <terrafrost@php.net>
+ * @access  public
+ */
+abstract class Montgomery extends Base
+{
+    /**
+     * Test for engine validity
+     *
+     * @return bool
+     */
+    public static function isValidEngine()
+    {
+        return static::class != __CLASS__;
+    }
+
+    /**
+     * Performs modular exponentiation.
+     *
+     * @param \phpseclib3\Math\BigInteger\Engines\Engine $x
+     * @param \phpseclib3\Math\BigInteger\Engines\Engine $e
+     * @param \phpseclib3\Math\BigInteger\Engines\Engine $n
+     * @param string $class
+     * @return \phpseclib3\Math\BigInteger\Engines\Engine
+     */
+    protected static function slidingWindow(Engine $x, Engine $e, Engine $n, $class)
+    {
+        // is the modulo odd?
+        if ($n->value[0] & 1) {
+            return parent::slidingWindow($x, $e, $n, $class);
+        }
+        // if it's not, it's even
+
+        // find the lowest set bit (eg. the max pow of 2 that divides $n)
+        for ($i = 0; $i < count($n->value); ++$i) {
+            if ($n->value[$i]) {
+                $temp = decbin($n->value[$i]);
+                $j = strlen($temp) - strrpos($temp, '1') - 1;
+                $j+= $class::BASE * $i;
+                break;
+            }
+        }
+        // at this point, 2^$j * $n/(2^$j) == $n
+
+        $mod1 = clone $n;
+        $mod1->rshift($j);
+        $mod2 = new $class();
+        $mod2->value = [1];
+        $mod2->lshift($j);
+
+        $part1 = $mod1->value != [1] ? parent::slidingWindow($x, $e, $mod1, $class) : new $class();
+        $part2 = PowerOfTwo::slidingWindow($x, $e, $mod2, $class);
+
+        $y1 = $mod2->modInverse($mod1);
+        $y2 = $mod1->modInverse($mod2);
+
+        $result = $part1->multiply($mod2);
+        $result = $result->multiply($y1);
+
+        $temp = $part2->multiply($mod1);
+        $temp = $temp->multiply($y2);
+
+        $result = $result->add($temp);
+        list(, $result) = $result->divide($n);
+
+        return $result;
+    }
+}

@@ -1,71 +1,104 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-OuGDjo/X4neAWnIllioRDtS=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute;
+
+class InstanceGroupManagerAggregatedList extends \Google\Collection
+{
+  protected $collection_key = 'unreachables';
+  public $id;
+  protected $itemsType = InstanceGroupManagersScopedList::class;
+  protected $itemsDataType = 'map';
+  public $kind;
+  public $nextPageToken;
+  public $selfLink;
+  public $unreachables;
+  protected $warningType = InstanceGroupManagerAggregatedListWarning::class;
+  protected $warningDataType = '';
+
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  /**
+   * @param InstanceGroupManagersScopedList[]
+   */
+  public function setItems($items)
+  {
+    $this->items = $items;
+  }
+  /**
+   * @return InstanceGroupManagersScopedList[]
+   */
+  public function getItems()
+  {
+    return $this->items;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setNextPageToken($nextPageToken)
+  {
+    $this->nextPageToken = $nextPageToken;
+  }
+  public function getNextPageToken()
+  {
+    return $this->nextPageToken;
+  }
+  public function setSelfLink($selfLink)
+  {
+    $this->selfLink = $selfLink;
+  }
+  public function getSelfLink()
+  {
+    return $this->selfLink;
+  }
+  public function setUnreachables($unreachables)
+  {
+    $this->unreachables = $unreachables;
+  }
+  public function getUnreachables()
+  {
+    return $this->unreachables;
+  }
+  /**
+   * @param InstanceGroupManagerAggregatedListWarning
+   */
+  public function setWarning(InstanceGroupManagerAggregatedListWarning $warning)
+  {
+    $this->warning = $warning;
+  }
+  /**
+   * @return InstanceGroupManagerAggregatedListWarning
+   */
+  public function getWarning()
+  {
+    return $this->warning;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(InstanceGroupManagerAggregatedList::class, 'Google_Service_Compute_InstanceGroupManagerAggregatedList');

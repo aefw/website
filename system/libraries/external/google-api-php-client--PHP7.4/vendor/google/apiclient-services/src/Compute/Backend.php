@@ -1,83 +1,134 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-HvP2RmblhwdFmiMGftAqbU0g70==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute;
+
+class Backend extends \Google\Model
+{
+  public $balancingMode;
+  public $capacityScaler;
+  public $description;
+  public $failover;
+  public $group;
+  public $maxConnections;
+  public $maxConnectionsPerEndpoint;
+  public $maxConnectionsPerInstance;
+  public $maxRate;
+  public $maxRatePerEndpoint;
+  public $maxRatePerInstance;
+  public $maxUtilization;
+
+  public function setBalancingMode($balancingMode)
+  {
+    $this->balancingMode = $balancingMode;
+  }
+  public function getBalancingMode()
+  {
+    return $this->balancingMode;
+  }
+  public function setCapacityScaler($capacityScaler)
+  {
+    $this->capacityScaler = $capacityScaler;
+  }
+  public function getCapacityScaler()
+  {
+    return $this->capacityScaler;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setFailover($failover)
+  {
+    $this->failover = $failover;
+  }
+  public function getFailover()
+  {
+    return $this->failover;
+  }
+  public function setGroup($group)
+  {
+    $this->group = $group;
+  }
+  public function getGroup()
+  {
+    return $this->group;
+  }
+  public function setMaxConnections($maxConnections)
+  {
+    $this->maxConnections = $maxConnections;
+  }
+  public function getMaxConnections()
+  {
+    return $this->maxConnections;
+  }
+  public function setMaxConnectionsPerEndpoint($maxConnectionsPerEndpoint)
+  {
+    $this->maxConnectionsPerEndpoint = $maxConnectionsPerEndpoint;
+  }
+  public function getMaxConnectionsPerEndpoint()
+  {
+    return $this->maxConnectionsPerEndpoint;
+  }
+  public function setMaxConnectionsPerInstance($maxConnectionsPerInstance)
+  {
+    $this->maxConnectionsPerInstance = $maxConnectionsPerInstance;
+  }
+  public function getMaxConnectionsPerInstance()
+  {
+    return $this->maxConnectionsPerInstance;
+  }
+  public function setMaxRate($maxRate)
+  {
+    $this->maxRate = $maxRate;
+  }
+  public function getMaxRate()
+  {
+    return $this->maxRate;
+  }
+  public function setMaxRatePerEndpoint($maxRatePerEndpoint)
+  {
+    $this->maxRatePerEndpoint = $maxRatePerEndpoint;
+  }
+  public function getMaxRatePerEndpoint()
+  {
+    return $this->maxRatePerEndpoint;
+  }
+  public function setMaxRatePerInstance($maxRatePerInstance)
+  {
+    $this->maxRatePerInstance = $maxRatePerInstance;
+  }
+  public function getMaxRatePerInstance()
+  {
+    return $this->maxRatePerInstance;
+  }
+  public function setMaxUtilization($maxUtilization)
+  {
+    $this->maxUtilization = $maxUtilization;
+  }
+  public function getMaxUtilization()
+  {
+    return $this->maxUtilization;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Backend::class, 'Google_Service_Compute_Backend');

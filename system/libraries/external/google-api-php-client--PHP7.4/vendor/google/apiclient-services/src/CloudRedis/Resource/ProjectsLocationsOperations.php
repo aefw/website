@@ -1,59 +1,114 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudRedis\Resource;
+
+use Google\Service\CloudRedis\ListOperationsResponse;
+use Google\Service\CloudRedis\Operation;
+use Google\Service\CloudRedis\RedisEmpty;
+
+/**
+ * The "operations" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $redisService = new Google\Service\CloudRedis(...);
+ *   $operations = $redisService->operations;
+ *  </code>
+ */
+class ProjectsLocationsOperations extends \Google\Service\Resource
+{
+  /**
+   * Starts asynchronous cancellation on a long-running operation. The server
+   * makes a best effort to cancel the operation, but success is not guaranteed.
+   * If the server doesn't support this method, it returns
+   * `google.rpc.Code.UNIMPLEMENTED`. Clients can use Operations.GetOperation or
+   * other methods to check whether the cancellation succeeded or whether the
+   * operation completed despite cancellation. On successful cancellation, the
+   * operation is not deleted; instead, it becomes an operation with an
+   * Operation.error value with a google.rpc.Status.code of 1, corresponding to
+   * `Code.CANCELLED`. (operations.cancel)
+   *
+   * @param string $name The name of the operation resource to be cancelled.
+   * @param array $optParams Optional parameters.
+   * @return RedisEmpty
+   */
+  public function cancel($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('cancel', [$params], RedisEmpty::class);
+  }
+  /**
+   * Deletes a long-running operation. This method indicates that the client is no
+   * longer interested in the operation result. It does not cancel the operation.
+   * If the server doesn't support this method, it returns
+   * `google.rpc.Code.UNIMPLEMENTED`. (operations.delete)
+   *
+   * @param string $name The name of the operation resource to be deleted.
+   * @param array $optParams Optional parameters.
+   * @return RedisEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], RedisEmpty::class);
+  }
+  /**
+   * Gets the latest state of a long-running operation. Clients can use this
+   * method to poll the operation result at intervals as recommended by the API
+   * service. (operations.get)
+   *
+   * @param string $name The name of the operation resource.
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Operation::class);
+  }
+  /**
+   * Lists operations that match the specified filter in the request. If the
+   * server doesn't support this method, it returns `UNIMPLEMENTED`. NOTE: the
+   * `name` binding allows API services to override the binding to use different
+   * resource name schemes, such as `users/operations`. To override the binding,
+   * API services can add a binding such as `"/v1/{name=users}/operations"` to
+   * their service configuration. For backwards compatibility, the default name
+   * includes the operations collection id, however overriding users must ensure
+   * the name binding is the parent resource, without the operations collection
+   * id. (operations.listProjectsLocationsOperations)
+   *
+   * @param string $name The name of the operation's parent resource.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter The standard list filter.
+   * @opt_param int pageSize The standard list page size.
+   * @opt_param string pageToken The standard list page token.
+   * @return ListOperationsResponse
+   */
+  public function listProjectsLocationsOperations($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListOperationsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsOperations::class, 'Google_Service_CloudRedis_Resource_ProjectsLocationsOperations');

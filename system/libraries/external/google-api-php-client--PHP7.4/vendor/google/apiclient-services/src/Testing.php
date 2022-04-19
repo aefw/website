@@ -1,61 +1,161 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-gwuveXIThts41hm=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for Testing (v1).
+ *
+ * <p>
+ * Allows developers to run automated tests for their mobile applications on
+ * Google infrastructure.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://developers.google.com/cloud-test-lab/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class Testing extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+  /** View your data across Google Cloud Platform services. */
+  const CLOUD_PLATFORM_READ_ONLY =
+      "https://www.googleapis.com/auth/cloud-platform.read-only";
+
+  public $applicationDetailService;
+  public $projects_testMatrices;
+  public $testEnvironmentCatalog;
+
+  /**
+   * Constructs the internal representation of the Testing service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://testing.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'testing';
+
+    $this->applicationDetailService = new Testing\Resource\ApplicationDetailService(
+        $this,
+        $this->serviceName,
+        'applicationDetailService',
+        [
+          'methods' => [
+            'getApkDetails' => [
+              'path' => 'v1/applicationDetailService/getApkDetails',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],
+          ]
+        ]
+    );
+    $this->projects_testMatrices = new Testing\Resource\ProjectsTestMatrices(
+        $this,
+        $this->serviceName,
+        'testMatrices',
+        [
+          'methods' => [
+            'cancel' => [
+              'path' => 'v1/projects/{projectId}/testMatrices/{testMatrixId}:cancel',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'testMatrixId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1/projects/{projectId}/testMatrices',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'requestId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/projects/{projectId}/testMatrices/{testMatrixId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'testMatrixId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->testEnvironmentCatalog = new Testing\Resource\TestEnvironmentCatalog(
+        $this,
+        $this->serviceName,
+        'testEnvironmentCatalog',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/testEnvironmentCatalog/{environmentType}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'environmentType' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'projectId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Testing::class, 'Google_Service_Testing');

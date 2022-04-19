@@ -1,64 +1,95 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudIdentity;
+
+class GroupRelation extends \Google\Collection
+{
+  protected $collection_key = 'roles';
+  public $displayName;
+  public $group;
+  protected $groupKeyType = EntityKey::class;
+  protected $groupKeyDataType = '';
+  public $labels;
+  public $relationType;
+  protected $rolesType = TransitiveMembershipRole::class;
+  protected $rolesDataType = 'array';
+
+  public function setDisplayName($displayName)
+  {
+    $this->displayName = $displayName;
+  }
+  public function getDisplayName()
+  {
+    return $this->displayName;
+  }
+  public function setGroup($group)
+  {
+    $this->group = $group;
+  }
+  public function getGroup()
+  {
+    return $this->group;
+  }
+  /**
+   * @param EntityKey
+   */
+  public function setGroupKey(EntityKey $groupKey)
+  {
+    $this->groupKey = $groupKey;
+  }
+  /**
+   * @return EntityKey
+   */
+  public function getGroupKey()
+  {
+    return $this->groupKey;
+  }
+  public function setLabels($labels)
+  {
+    $this->labels = $labels;
+  }
+  public function getLabels()
+  {
+    return $this->labels;
+  }
+  public function setRelationType($relationType)
+  {
+    $this->relationType = $relationType;
+  }
+  public function getRelationType()
+  {
+    return $this->relationType;
+  }
+  /**
+   * @param TransitiveMembershipRole[]
+   */
+  public function setRoles($roles)
+  {
+    $this->roles = $roles;
+  }
+  /**
+   * @return TransitiveMembershipRole[]
+   */
+  public function getRoles()
+  {
+    return $this->roles;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GroupRelation::class, 'Google_Service_CloudIdentity_GroupRelation');

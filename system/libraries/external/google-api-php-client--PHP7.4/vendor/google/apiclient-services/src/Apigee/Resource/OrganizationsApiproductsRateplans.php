@@ -1,69 +1,141 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-vQYYNXvFl9Z80VcXJtArnm==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Apigee\Resource;
+
+use Google\Service\Apigee\GoogleCloudApigeeV1ListRatePlansResponse;
+use Google\Service\Apigee\GoogleCloudApigeeV1RatePlan;
+
+/**
+ * The "rateplans" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $apigeeService = new Google\Service\Apigee(...);
+ *   $rateplans = $apigeeService->rateplans;
+ *  </code>
+ */
+class OrganizationsApiproductsRateplans extends \Google\Service\Resource
+{
+  /**
+   * Create a rate plan that is associated with an API product in an organization.
+   * Using rate plans, API product owners can monetize their API products by
+   * configuring one or more of the following: - Billing frequency - Initial setup
+   * fees for using an API product - Payment funding model (postpaid only) - Fixed
+   * recurring or consumption-based charges for using an API product - Revenue
+   * sharing with developer partners An API product can have multiple rate plans
+   * associated with it but *only one* rate plan can be active at any point of
+   * time. **Note: From the developer's perspective, they purchase API products
+   * not rate plans. (rateplans.create)
+   *
+   * @param string $parent Required. Name of the API product that is associated
+   * with the rate plan. Use the following structure in your request:
+   * `organizations/{org}/apiproducts/{apiproduct}`
+   * @param GoogleCloudApigeeV1RatePlan $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1RatePlan
+   */
+  public function create($parent, GoogleCloudApigeeV1RatePlan $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleCloudApigeeV1RatePlan::class);
+  }
+  /**
+   * Deletes a rate plan. (rateplans.delete)
+   *
+   * @param string $name Required. ID of the rate plan. Use the following
+   * structure in your request:
+   * `organizations/{org}/apiproducts/{apiproduct}/rateplans/{rateplan}`
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1RatePlan
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleCloudApigeeV1RatePlan::class);
+  }
+  /**
+   * Gets the details of a rate plan. (rateplans.get)
+   *
+   * @param string $name Required. Name of the rate plan. Use the following
+   * structure in your request:
+   * `organizations/{org}/apiproducts/{apiproduct}/rateplans/{rateplan}`
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1RatePlan
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudApigeeV1RatePlan::class);
+  }
+  /**
+   * Lists all the rate plans for an API product.
+   * (rateplans.listOrganizationsApiproductsRateplans)
+   *
+   * @param string $parent Required. Name of the API product. Use the following
+   * structure in your request: `organizations/{org}/apiproducts/{apiproduct}` Use
+   * `organizations/{org}/apiproducts/-` to return rate plans for all API products
+   * within the organization.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int count Number of rate plans to return in the API call. Use with
+   * the `startKey` parameter to provide more targeted filtering. The maximum
+   * limit is 1000. Defaults to 100.
+   * @opt_param bool expand Flag that specifies whether to expand the results. Set
+   * to `true` to get expanded details about each API. Defaults to `false`.
+   * @opt_param string orderBy Name of the attribute used for sorting. Valid
+   * values include: * `name`: Name of the rate plan. * `state`: State of the rate
+   * plan (`DRAFT`, `PUBLISHED`). * `startTime`: Time when the rate plan becomes
+   * active. * `endTime`: Time when the rate plan expires. **Note**: Not supported
+   * by Apigee at this time.
+   * @opt_param string startKey Name of the rate plan from which to start
+   * displaying the list of rate plans. If omitted, the list starts from the first
+   * item. For example, to view the rate plans from 51-150, set the value of
+   * `startKey` to the name of the 51st rate plan and set the value of `count` to
+   * 100.
+   * @opt_param string state State of the rate plans (`DRAFT`, `PUBLISHED`) that
+   * you want to display.
+   * @return GoogleCloudApigeeV1ListRatePlansResponse
+   */
+  public function listOrganizationsApiproductsRateplans($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleCloudApigeeV1ListRatePlansResponse::class);
+  }
+  /**
+   * Updates an existing rate plan. (rateplans.update)
+   *
+   * @param string $name Required. Name of the rate plan. Use the following
+   * structure in your request:
+   * `organizations/{org}/apiproducts/{apiproduct}/rateplans/{rateplan}`
+   * @param GoogleCloudApigeeV1RatePlan $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudApigeeV1RatePlan
+   */
+  public function update($name, GoogleCloudApigeeV1RatePlan $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], GoogleCloudApigeeV1RatePlan::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(OrganizationsApiproductsRateplans::class, 'Google_Service_Apigee_Resource_OrganizationsApiproductsRateplans');

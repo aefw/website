@@ -1,63 +1,116 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-uFzYwsi0IdX2/fyWM1GTgnck+HW=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Gmail;
+
+class History extends \Google\Collection
+{
+  protected $collection_key = 'messagesDeleted';
+  public $id;
+  protected $labelsAddedType = HistoryLabelAdded::class;
+  protected $labelsAddedDataType = 'array';
+  protected $labelsRemovedType = HistoryLabelRemoved::class;
+  protected $labelsRemovedDataType = 'array';
+  protected $messagesType = Message::class;
+  protected $messagesDataType = 'array';
+  protected $messagesAddedType = HistoryMessageAdded::class;
+  protected $messagesAddedDataType = 'array';
+  protected $messagesDeletedType = HistoryMessageDeleted::class;
+  protected $messagesDeletedDataType = 'array';
+
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  /**
+   * @param HistoryLabelAdded[]
+   */
+  public function setLabelsAdded($labelsAdded)
+  {
+    $this->labelsAdded = $labelsAdded;
+  }
+  /**
+   * @return HistoryLabelAdded[]
+   */
+  public function getLabelsAdded()
+  {
+    return $this->labelsAdded;
+  }
+  /**
+   * @param HistoryLabelRemoved[]
+   */
+  public function setLabelsRemoved($labelsRemoved)
+  {
+    $this->labelsRemoved = $labelsRemoved;
+  }
+  /**
+   * @return HistoryLabelRemoved[]
+   */
+  public function getLabelsRemoved()
+  {
+    return $this->labelsRemoved;
+  }
+  /**
+   * @param Message[]
+   */
+  public function setMessages($messages)
+  {
+    $this->messages = $messages;
+  }
+  /**
+   * @return Message[]
+   */
+  public function getMessages()
+  {
+    return $this->messages;
+  }
+  /**
+   * @param HistoryMessageAdded[]
+   */
+  public function setMessagesAdded($messagesAdded)
+  {
+    $this->messagesAdded = $messagesAdded;
+  }
+  /**
+   * @return HistoryMessageAdded[]
+   */
+  public function getMessagesAdded()
+  {
+    return $this->messagesAdded;
+  }
+  /**
+   * @param HistoryMessageDeleted[]
+   */
+  public function setMessagesDeleted($messagesDeleted)
+  {
+    $this->messagesDeleted = $messagesDeleted;
+  }
+  /**
+   * @return HistoryMessageDeleted[]
+   */
+  public function getMessagesDeleted()
+  {
+    return $this->messagesDeleted;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(History::class, 'Google_Service_Gmail_History');

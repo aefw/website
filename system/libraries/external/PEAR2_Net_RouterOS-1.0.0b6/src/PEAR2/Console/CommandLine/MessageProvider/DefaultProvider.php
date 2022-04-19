@@ -1,71 +1,147 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+/* vim: set expandtab tabstop=4 shiftwidth=4 softtabstop=4: */
+
+/**
+ * This file is part of the PEAR2\Console\CommandLine package.
+ *
+ * PHP version 5
+ *
+ * LICENSE: This source file is subject to the MIT license that is available
+ * through the world-wide-web at the following URI:
+ * http://opensource.org/licenses/mit-license.php
+ *
+ * @category  Console
+ * @package   PEAR2\Console\CommandLine
+ * @author    David JEAN LOUIS <izimobil@gmail.com>
+ * @copyright 2007-2009 David JEAN LOUIS
+ * @license   http://opensource.org/licenses/mit-license.php MIT License
+ * @version   0.2.3
+ * @link      http://pear2.php.net/PEAR2_Console_CommandLine
+ * @since     File available since release 0.1.0
+ *
+ * @filesource
+ */
+
+namespace PEAR2\Console\CommandLine\MessageProvider;
+
+use PEAR2\Console\CommandLine\MessageProvider;
+use PEAR2\Console\CommandLine\CustomMessageProvider;
+
+/**
+ * Lightweight class that manages messages used by PEAR2\Console\CommandLine package,
+ * allowing the developper to customize these messages, for example to
+ * internationalize a command line frontend.
+ *
+ * @category  Console
+ * @package   PEAR2\Console\CommandLine
+ * @author    David JEAN LOUIS <izimobil@gmail.com>
+ * @copyright 2007-2009 David JEAN LOUIS
+ * @license   http://opensource.org/licenses/mit-license.php MIT License
+ * @link      http://pear2.php.net/PEAR2_Console_CommandLine
+ * @since     Class available since release 0.1.0
+ */
+class DefaultProvider
+    implements MessageProvider,
+    CustomMessageProvider
+{
+    // Properties {{{
+
+    /**
+     * Associative array of messages
+     *
+     * @var array $messages
+     */
+    protected $messages = array(
+        'OPTION_VALUE_REQUIRED'   => 'Option "{$name}" requires a value.',
+        'OPTION_VALUE_UNEXPECTED' => 'Option "{$name}" does not expect a value (got "{$value}").',
+        'OPTION_VALUE_NOT_VALID'  => 'Option "{$name}" must be one of the following: "{$choices}" (got "{$value}").',
+        'OPTION_VALUE_TYPE_ERROR' => 'Option "{$name}" requires a value of type {$type} (got "{$value}").',
+        'OPTION_AMBIGUOUS'        => 'Ambiguous option "{$name}", can be one of the following: {$matches}.',
+        'OPTION_UNKNOWN'          => 'Unknown option "{$name}".',
+        'ARGUMENT_REQUIRED'       => 'You must provide at least {$argnum} argument{$plural}.',
+        'PROG_HELP_LINE'          => 'Type "{$progname} --help" to get help.',
+        'PROG_VERSION_LINE'       => '{$progname} version {$version}.',
+        'COMMAND_HELP_LINE'       => 'Type "{$progname} <command> --help" to get help on specific command.',
+        'USAGE_WORD'              => 'Usage',
+        'OPTION_WORD'             => 'Options',
+        'ARGUMENT_WORD'           => 'Arguments',
+        'COMMAND_WORD'            => 'Commands',
+        'PASSWORD_PROMPT'         => 'Password: ',
+        'PASSWORD_PROMPT_ECHO'    => 'Password (warning: will echo): ',
+        'INVALID_CUSTOM_INSTANCE' => 'Instance does not implement the required interface',
+        'LIST_OPTION_MESSAGE'     => 'lists valid choices for option {$name}',
+        'LIST_DISPLAYED_MESSAGE'  => 'Valid choices are: ',
+        'INVALID_SUBCOMMAND'      => 'Command "{$command}" is not valid.',
+        'SUBCOMMAND_REQUIRED'     => 'Please enter one of the following command: {$commands}.',
+    );
+
+    // }}}
+    // get() {{{
+
+    /**
+     * Retrieve the given string identifier corresponding message.
+     *
+     * @param string $code The string identifier of the message
+     * @param array  $vars An array of template variables
+     *
+     * @return string
+     */
+    public function get($code, $vars = array())
+    {
+        if (!isset($this->messages[$code])) {
+            return 'UNKNOWN';
+        }
+        return $this->replaceTemplateVars($this->messages[$code], $vars);
+    }
+
+    // }}}
+    // getWithCustomMessages() {{{
+
+    /**
+     * Retrieve the given string identifier corresponding message.
+     *
+     * @param string $code     The string identifier of the message
+     * @param array  $vars     An array of template variables
+     * @param array  $messages An optional array of messages to use. Array
+     *                         indexes are message codes.
+     *
+     * @return string
+     */
+    public function getWithCustomMessages(
+        $code, $vars = array(), $messages = array()
+    ) {
+        // get message
+        if (isset($messages[$code])) {
+            $message = $messages[$code];
+        } elseif (isset($this->messages[$code])) {
+            $message = $this->messages[$code];
+        } else {
+            $message = 'UNKNOWN';
+        }
+        return $this->replaceTemplateVars($message, $vars);
+    }
+
+    // }}}
+    // replaceTemplateVars() {{{
+
+    /**
+     * Replaces template vars in a message
+     *
+     * @param string $message The message
+     * @param array  $vars    An array of template variables
+     *
+     * @return string
+     */
+    protected function replaceTemplateVars($message, $vars = array())
+    {
+        $tmpkeys = array_keys($vars);
+        $keys    = array();
+        foreach ($tmpkeys as $key) {
+            $keys[] = '{$' . $key . '}';
+        }
+        return str_replace($keys, array_values($vars), $message);
+    }
+
+    // }}}
+}

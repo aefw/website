@@ -1,79 +1,138 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-7HCPLTzHtUeYktI9vdq=
+<?php
+/*
+ * Copyright 2015 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+namespace Google\Auth\Credentials;
+
+use Google\Auth\CredentialsLoader;
+use Google\Auth\GetQuotaProjectInterface;
+use Google\Auth\OAuth2;
+
+/**
+ * Authenticates requests using User Refresh credentials.
+ *
+ * This class allows authorizing requests from user refresh tokens.
+ *
+ * This the end of the result of a 3LO flow.  E.g, the end result of
+ * 'gcloud auth login' saves a file with these contents in well known
+ * location
+ *
+ * @see [Application Default Credentials](http://goo.gl/mkAHpZ)
+ */
+class UserRefreshCredentials extends CredentialsLoader implements GetQuotaProjectInterface
+{
+    /**
+     * The OAuth2 instance used to conduct authorization.
+     *
+     * @var OAuth2
+     */
+    protected $auth;
+
+    /**
+     * The quota project associated with the JSON credentials
+     */
+    protected $quotaProject;
+
+    /**
+     * Create a new UserRefreshCredentials.
+     *
+     * @param string|array $scope the scope of the access request, expressed
+     *   either as an Array or as a space-delimited String.
+     * @param string|array $jsonKey JSON credential file path or JSON credentials
+     *   as an associative array
+     */
+    public function __construct(
+        $scope,
+        $jsonKey
+    ) {
+        if (is_string($jsonKey)) {
+            if (!file_exists($jsonKey)) {
+                throw new \InvalidArgumentException('file does not exist');
+            }
+            $jsonKeyStream = file_get_contents($jsonKey);
+            if (!$jsonKey = json_decode($jsonKeyStream, true)) {
+                throw new \LogicException('invalid json for auth config');
+            }
+        }
+        if (!array_key_exists('client_id', $jsonKey)) {
+            throw new \InvalidArgumentException(
+                'json key is missing the client_id field'
+            );
+        }
+        if (!array_key_exists('client_secret', $jsonKey)) {
+            throw new \InvalidArgumentException(
+                'json key is missing the client_secret field'
+            );
+        }
+        if (!array_key_exists('refresh_token', $jsonKey)) {
+            throw new \InvalidArgumentException(
+                'json key is missing the refresh_token field'
+            );
+        }
+        $this->auth = new OAuth2([
+            'clientId' => $jsonKey['client_id'],
+            'clientSecret' => $jsonKey['client_secret'],
+            'refresh_token' => $jsonKey['refresh_token'],
+            'scope' => $scope,
+            'tokenCredentialUri' => self::TOKEN_CREDENTIAL_URI,
+        ]);
+        if (array_key_exists('quota_project_id', $jsonKey)) {
+            $this->quotaProject = (string) $jsonKey['quota_project_id'];
+        }
+    }
+
+    /**
+     * @param callable $httpHandler
+     *
+     * @return array A set of auth related metadata, containing the following
+     * keys:
+     *   - access_token (string)
+     *   - expires_in (int)
+     *   - scope (string)
+     *   - token_type (string)
+     *   - id_token (string)
+     */
+    public function fetchAuthToken(callable $httpHandler = null)
+    {
+        return $this->auth->fetchAuthToken($httpHandler);
+    }
+
+    /**
+     * @return string
+     */
+    public function getCacheKey()
+    {
+        return $this->auth->getClientId() . ':' . $this->auth->getCacheKey();
+    }
+
+    /**
+     * @return array
+     */
+    public function getLastReceivedToken()
+    {
+        return $this->auth->getLastReceivedToken();
+    }
+
+    /**
+     * Get the quota project used for this API request
+     *
+     * @return string|null
+     */
+    public function getQuotaProject()
+    {
+        return $this->quotaProject;
+    }
+}

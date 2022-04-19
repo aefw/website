@@ -1,74 +1,127 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-bwG3Ww9LsZw8
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Gmail\Resource;
+
+use Google\Service\Gmail\Label;
+use Google\Service\Gmail\ListLabelsResponse;
+
+/**
+ * The "labels" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $gmailService = new Google\Service\Gmail(...);
+ *   $labels = $gmailService->labels;
+ *  </code>
+ */
+class UsersLabels extends \Google\Service\Resource
+{
+  /**
+   * Creates a new label. (labels.create)
+   *
+   * @param string $userId The user's email address. The special value `me` can be
+   * used to indicate the authenticated user.
+   * @param Label $postBody
+   * @param array $optParams Optional parameters.
+   * @return Label
+   */
+  public function create($userId, Label $postBody, $optParams = [])
+  {
+    $params = ['userId' => $userId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Label::class);
+  }
+  /**
+   * Immediately and permanently deletes the specified label and removes it from
+   * any messages and threads that it is applied to. (labels.delete)
+   *
+   * @param string $userId The user's email address. The special value `me` can be
+   * used to indicate the authenticated user.
+   * @param string $id The ID of the label to delete.
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($userId, $id, $optParams = [])
+  {
+    $params = ['userId' => $userId, 'id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Gets the specified label. (labels.get)
+   *
+   * @param string $userId The user's email address. The special value `me` can be
+   * used to indicate the authenticated user.
+   * @param string $id The ID of the label to retrieve.
+   * @param array $optParams Optional parameters.
+   * @return Label
+   */
+  public function get($userId, $id, $optParams = [])
+  {
+    $params = ['userId' => $userId, 'id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Label::class);
+  }
+  /**
+   * Lists all labels in the user's mailbox. (labels.listUsersLabels)
+   *
+   * @param string $userId The user's email address. The special value `me` can be
+   * used to indicate the authenticated user.
+   * @param array $optParams Optional parameters.
+   * @return ListLabelsResponse
+   */
+  public function listUsersLabels($userId, $optParams = [])
+  {
+    $params = ['userId' => $userId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListLabelsResponse::class);
+  }
+  /**
+   * Patch the specified label. (labels.patch)
+   *
+   * @param string $userId The user's email address. The special value `me` can be
+   * used to indicate the authenticated user.
+   * @param string $id The ID of the label to update.
+   * @param Label $postBody
+   * @param array $optParams Optional parameters.
+   * @return Label
+   */
+  public function patch($userId, $id, Label $postBody, $optParams = [])
+  {
+    $params = ['userId' => $userId, 'id' => $id, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Label::class);
+  }
+  /**
+   * Updates the specified label. (labels.update)
+   *
+   * @param string $userId The user's email address. The special value `me` can be
+   * used to indicate the authenticated user.
+   * @param string $id The ID of the label to update.
+   * @param Label $postBody
+   * @param array $optParams Optional parameters.
+   * @return Label
+   */
+  public function update($userId, $id, Label $postBody, $optParams = [])
+  {
+    $params = ['userId' => $userId, 'id' => $id, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Label::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(UsersLabels::class, 'Google_Service_Gmail_Resource_UsersLabels');

@@ -1,65 +1,86 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute;
+
+class AllocationSpecificSKUAllocationReservedInstanceProperties extends \Google\Collection
+{
+  protected $collection_key = 'localSsds';
+  protected $guestAcceleratorsType = AcceleratorConfig::class;
+  protected $guestAcceleratorsDataType = 'array';
+  protected $localSsdsType = AllocationSpecificSKUAllocationAllocatedInstancePropertiesReservedDisk::class;
+  protected $localSsdsDataType = 'array';
+  public $locationHint;
+  public $machineType;
+  public $minCpuPlatform;
+
+  /**
+   * @param AcceleratorConfig[]
+   */
+  public function setGuestAccelerators($guestAccelerators)
+  {
+    $this->guestAccelerators = $guestAccelerators;
+  }
+  /**
+   * @return AcceleratorConfig[]
+   */
+  public function getGuestAccelerators()
+  {
+    return $this->guestAccelerators;
+  }
+  /**
+   * @param AllocationSpecificSKUAllocationAllocatedInstancePropertiesReservedDisk[]
+   */
+  public function setLocalSsds($localSsds)
+  {
+    $this->localSsds = $localSsds;
+  }
+  /**
+   * @return AllocationSpecificSKUAllocationAllocatedInstancePropertiesReservedDisk[]
+   */
+  public function getLocalSsds()
+  {
+    return $this->localSsds;
+  }
+  public function setLocationHint($locationHint)
+  {
+    $this->locationHint = $locationHint;
+  }
+  public function getLocationHint()
+  {
+    return $this->locationHint;
+  }
+  public function setMachineType($machineType)
+  {
+    $this->machineType = $machineType;
+  }
+  public function getMachineType()
+  {
+    return $this->machineType;
+  }
+  public function setMinCpuPlatform($minCpuPlatform)
+  {
+    $this->minCpuPlatform = $minCpuPlatform;
+  }
+  public function getMinCpuPlatform()
+  {
+    return $this->minCpuPlatform;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AllocationSpecificSKUAllocationReservedInstanceProperties::class, 'Google_Service_Compute_AllocationSpecificSKUAllocationReservedInstanceProperties');

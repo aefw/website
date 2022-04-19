@@ -1,73 +1,176 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Translate\Resource;
+
+use Google\Service\Translate\BatchTranslateTextRequest;
+use Google\Service\Translate\DetectLanguageRequest;
+use Google\Service\Translate\DetectLanguageResponse;
+use Google\Service\Translate\ListLocationsResponse;
+use Google\Service\Translate\Location;
+use Google\Service\Translate\Operation;
+use Google\Service\Translate\SupportedLanguages;
+use Google\Service\Translate\TranslateTextRequest;
+use Google\Service\Translate\TranslateTextResponse;
+
+/**
+ * The "locations" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $translateService = new Google\Service\Translate(...);
+ *   $locations = $translateService->locations;
+ *  </code>
+ */
+class ProjectsLocations extends \Google\Service\Resource
+{
+  /**
+   * Translates a large volume of text in asynchronous batch mode. This function
+   * provides real-time output as the inputs are being processed. If caller
+   * cancels a request, the partial results (for an input file, it's all or
+   * nothing) may still be available on the specified output location. This call
+   * returns immediately and you can use google.longrunning.Operation.name to poll
+   * the status of the call. (locations.batchTranslateText)
+   *
+   * @param string $parent Required. Location to make a call. Must refer to a
+   * caller's project. Format: `projects/{project-number-or-id}/locations
+   * /{location-id}`. The `global` location is not supported for batch
+   * translation. Only AutoML Translation models or glossaries within the same
+   * region (have the same location-id) can be used, otherwise an INVALID_ARGUMENT
+   * (400) error is returned.
+   * @param BatchTranslateTextRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function batchTranslateText($parent, BatchTranslateTextRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('batchTranslateText', [$params], Operation::class);
+  }
+  /**
+   * Detects the language of text within a request. (locations.detectLanguage)
+   *
+   * @param string $parent Required. Project or location to make a call. Must
+   * refer to a caller's project. Format: `projects/{project-number-or-
+   * id}/locations/{location-id}` or `projects/{project-number-or-id}`. For global
+   * calls, use `projects/{project-number-or-id}/locations/global` or `projects
+   * /{project-number-or-id}`. Only models within the same region (has same
+   * location-id) can be used. Otherwise an INVALID_ARGUMENT (400) error is
+   * returned.
+   * @param DetectLanguageRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return DetectLanguageResponse
+   */
+  public function detectLanguage($parent, DetectLanguageRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('detectLanguage', [$params], DetectLanguageResponse::class);
+  }
+  /**
+   * Gets information about a location. (locations.get)
+   *
+   * @param string $name Resource name for the location.
+   * @param array $optParams Optional parameters.
+   * @return Location
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Location::class);
+  }
+  /**
+   * Returns a list of supported languages for translation.
+   * (locations.getSupportedLanguages)
+   *
+   * @param string $parent Required. Project or location to make a call. Must
+   * refer to a caller's project. Format: `projects/{project-number-or-id}` or
+   * `projects/{project-number-or-id}/locations/{location-id}`. For global calls,
+   * use `projects/{project-number-or-id}/locations/global` or `projects/{project-
+   * number-or-id}`. Non-global location is required for AutoML models. Only
+   * models within the same region (have same location-id) can be used, otherwise
+   * an INVALID_ARGUMENT (400) error is returned.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string displayLanguageCode Optional. The language to use to return
+   * localized, human readable names of supported languages. If missing, then
+   * display names are not returned in a response.
+   * @opt_param string model Optional. Get supported languages of this model. The
+   * format depends on model type: - AutoML Translation models: `projects
+   * /{project-number-or-id}/locations/{location-id}/models/{model-id}` - General
+   * (built-in) models: `projects/{project-number-or-id}/locations/{location-
+   * id}/models/general/nmt`, `projects/{project-number-or-id}/locations
+   * /{location-id}/models/general/base` Returns languages supported by the
+   * specified model. If missing, we get supported languages of Google general
+   * base (PBMT) model.
+   * @return SupportedLanguages
+   */
+  public function getSupportedLanguages($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('getSupportedLanguages', [$params], SupportedLanguages::class);
+  }
+  /**
+   * Lists information about the supported locations for this service.
+   * (locations.listProjectsLocations)
+   *
+   * @param string $name The resource that owns the locations collection, if
+   * applicable.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter to narrow down results to a preferred
+   * subset. The filtering language accepts strings like "displayName=tokyo", and
+   * is documented in more detail in [AIP-160](https://google.aip.dev/160).
+   * @opt_param int pageSize The maximum number of results to return. If not set,
+   * the service selects a default.
+   * @opt_param string pageToken A page token received from the `next_page_token`
+   * field in the response. Send that page token to receive the subsequent page.
+   * @return ListLocationsResponse
+   */
+  public function listProjectsLocations($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListLocationsResponse::class);
+  }
+  /**
+   * Translates input text and returns translated text. (locations.translateText)
+   *
+   * @param string $parent Required. Project or location to make a call. Must
+   * refer to a caller's project. Format: `projects/{project-number-or-id}` or
+   * `projects/{project-number-or-id}/locations/{location-id}`. For global calls,
+   * use `projects/{project-number-or-id}/locations/global` or `projects/{project-
+   * number-or-id}`. Non-global location is required for requests using AutoML
+   * models or custom glossaries. Models and glossaries must be within the same
+   * region (have same location-id), otherwise an INVALID_ARGUMENT (400) error is
+   * returned.
+   * @param TranslateTextRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TranslateTextResponse
+   */
+  public function translateText($parent, TranslateTextRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('translateText', [$params], TranslateTextResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocations::class, 'Google_Service_Translate_Resource_ProjectsLocations');

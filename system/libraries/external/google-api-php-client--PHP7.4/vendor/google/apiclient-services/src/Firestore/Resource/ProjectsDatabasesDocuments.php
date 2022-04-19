@@ -1,119 +1,348 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-V7x8T447Wy0VUGzCymbItSelYDg0IQ2AxmQj
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Firestore\Resource;
+
+use Google\Service\Firestore\BatchGetDocumentsRequest;
+use Google\Service\Firestore\BatchGetDocumentsResponse;
+use Google\Service\Firestore\BatchWriteRequest;
+use Google\Service\Firestore\BatchWriteResponse;
+use Google\Service\Firestore\BeginTransactionRequest;
+use Google\Service\Firestore\BeginTransactionResponse;
+use Google\Service\Firestore\CommitRequest;
+use Google\Service\Firestore\CommitResponse;
+use Google\Service\Firestore\Document;
+use Google\Service\Firestore\FirestoreEmpty;
+use Google\Service\Firestore\ListCollectionIdsRequest;
+use Google\Service\Firestore\ListCollectionIdsResponse;
+use Google\Service\Firestore\ListDocumentsResponse;
+use Google\Service\Firestore\ListenRequest;
+use Google\Service\Firestore\ListenResponse;
+use Google\Service\Firestore\PartitionQueryRequest;
+use Google\Service\Firestore\PartitionQueryResponse;
+use Google\Service\Firestore\RollbackRequest;
+use Google\Service\Firestore\RunQueryRequest;
+use Google\Service\Firestore\RunQueryResponse;
+use Google\Service\Firestore\WriteRequest;
+use Google\Service\Firestore\WriteResponse;
+
+/**
+ * The "documents" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $firestoreService = new Google\Service\Firestore(...);
+ *   $documents = $firestoreService->documents;
+ *  </code>
+ */
+class ProjectsDatabasesDocuments extends \Google\Service\Resource
+{
+  /**
+   * Gets multiple documents. Documents returned by this method are not guaranteed
+   * to be returned in the same order that they were requested.
+   * (documents.batchGet)
+   *
+   * @param string $database Required. The database name. In the format:
+   * `projects/{project_id}/databases/{database_id}`.
+   * @param BatchGetDocumentsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return BatchGetDocumentsResponse
+   */
+  public function batchGet($database, BatchGetDocumentsRequest $postBody, $optParams = [])
+  {
+    $params = ['database' => $database, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('batchGet', [$params], BatchGetDocumentsResponse::class);
+  }
+  /**
+   * Applies a batch of write operations. The BatchWrite method does not apply the
+   * write operations atomically and can apply them out of order. Method does not
+   * allow more than one write per document. Each write succeeds or fails
+   * independently. See the BatchWriteResponse for the success status of each
+   * write. If you require an atomically applied set of writes, use Commit
+   * instead. (documents.batchWrite)
+   *
+   * @param string $database Required. The database name. In the format:
+   * `projects/{project_id}/databases/{database_id}`.
+   * @param BatchWriteRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return BatchWriteResponse
+   */
+  public function batchWrite($database, BatchWriteRequest $postBody, $optParams = [])
+  {
+    $params = ['database' => $database, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('batchWrite', [$params], BatchWriteResponse::class);
+  }
+  /**
+   * Starts a new transaction. (documents.beginTransaction)
+   *
+   * @param string $database Required. The database name. In the format:
+   * `projects/{project_id}/databases/{database_id}`.
+   * @param BeginTransactionRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return BeginTransactionResponse
+   */
+  public function beginTransaction($database, BeginTransactionRequest $postBody, $optParams = [])
+  {
+    $params = ['database' => $database, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('beginTransaction', [$params], BeginTransactionResponse::class);
+  }
+  /**
+   * Commits a transaction, while optionally updating documents.
+   * (documents.commit)
+   *
+   * @param string $database Required. The database name. In the format:
+   * `projects/{project_id}/databases/{database_id}`.
+   * @param CommitRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return CommitResponse
+   */
+  public function commit($database, CommitRequest $postBody, $optParams = [])
+  {
+    $params = ['database' => $database, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('commit', [$params], CommitResponse::class);
+  }
+  /**
+   * Creates a new document. (documents.createDocument)
+   *
+   * @param string $parent Required. The parent resource. For example:
+   * `projects/{project_id}/databases/{database_id}/documents` or `projects/{proje
+   * ct_id}/databases/{database_id}/documents/chatrooms/{chatroom_id}`
+   * @param string $collectionId Required. The collection ID, relative to
+   * `parent`, to list. For example: `chatrooms`.
+   * @param Document $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string documentId The client-assigned document ID to use for this
+   * document. Optional. If not specified, an ID will be assigned by the service.
+   * @opt_param string mask.fieldPaths The list of field paths in the mask. See
+   * Document.fields for a field path syntax reference.
+   * @return Document
+   */
+  public function createDocument($parent, $collectionId, Document $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'collectionId' => $collectionId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('createDocument', [$params], Document::class);
+  }
+  /**
+   * Deletes a document. (documents.delete)
+   *
+   * @param string $name Required. The resource name of the Document to delete. In
+   * the format:
+   * `projects/{project_id}/databases/{database_id}/documents/{document_path}`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool currentDocument.exists When set to `true`, the target
+   * document must exist. When set to `false`, the target document must not exist.
+   * @opt_param string currentDocument.updateTime When set, the target document
+   * must exist and have been last updated at that time.
+   * @return FirestoreEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], FirestoreEmpty::class);
+  }
+  /**
+   * Gets a single document. (documents.get)
+   *
+   * @param string $name Required. The resource name of the Document to get. In
+   * the format:
+   * `projects/{project_id}/databases/{database_id}/documents/{document_path}`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string mask.fieldPaths The list of field paths in the mask. See
+   * Document.fields for a field path syntax reference.
+   * @opt_param string readTime Reads the version of the document at the given
+   * time. This may not be older than 270 seconds.
+   * @opt_param string transaction Reads the document in a transaction.
+   * @return Document
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Document::class);
+  }
+  /**
+   * Lists documents. (documents.listProjectsDatabasesDocuments)
+   *
+   * @param string $parent Required. The parent resource name. In the format:
+   * `projects/{project_id}/databases/{database_id}/documents` or
+   * `projects/{project_id}/databases/{database_id}/documents/{document_path}`.
+   * For example: `projects/my-project/databases/my-database/documents` or
+   * `projects/my-project/databases/my-database/documents/chatrooms/my-chatroom`
+   * @param string $collectionId Required. The collection ID, relative to
+   * `parent`, to list. For example: `chatrooms` or `messages`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string mask.fieldPaths The list of field paths in the mask. See
+   * Document.fields for a field path syntax reference.
+   * @opt_param string orderBy The order to sort results by. For example:
+   * `priority desc, name`.
+   * @opt_param int pageSize The maximum number of documents to return.
+   * @opt_param string pageToken The `next_page_token` value returned from a
+   * previous List request, if any.
+   * @opt_param string readTime Reads documents as they were at the given time.
+   * This may not be older than 270 seconds.
+   * @opt_param bool showMissing If the list should show missing documents. A
+   * missing document is a document that does not exist but has sub-documents.
+   * These documents will be returned with a key but will not have fields,
+   * Document.create_time, or Document.update_time set. Requests with
+   * `show_missing` may not specify `where` or `order_by`.
+   * @opt_param string transaction Reads documents in a transaction.
+   * @return ListDocumentsResponse
+   */
+  public function listProjectsDatabasesDocuments($parent, $collectionId, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'collectionId' => $collectionId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListDocumentsResponse::class);
+  }
+  /**
+   * Lists all the collection IDs underneath a document.
+   * (documents.listCollectionIds)
+   *
+   * @param string $parent Required. The parent document. In the format:
+   * `projects/{project_id}/databases/{database_id}/documents/{document_path}`.
+   * For example: `projects/my-project/databases/my-database/documents/chatrooms
+   * /my-chatroom`
+   * @param ListCollectionIdsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return ListCollectionIdsResponse
+   */
+  public function listCollectionIds($parent, ListCollectionIdsRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('listCollectionIds', [$params], ListCollectionIdsResponse::class);
+  }
+  /**
+   * Listens to changes. (documents.listen)
+   *
+   * @param string $database Required. The database name. In the format:
+   * `projects/{project_id}/databases/{database_id}`.
+   * @param ListenRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return ListenResponse
+   */
+  public function listen($database, ListenRequest $postBody, $optParams = [])
+  {
+    $params = ['database' => $database, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('listen', [$params], ListenResponse::class);
+  }
+  /**
+   * Partitions a query by returning partition cursors that can be used to run the
+   * query in parallel. The returned partition cursors are split points that can
+   * be used by RunQuery as starting/end points for the query results.
+   * (documents.partitionQuery)
+   *
+   * @param string $parent Required. The parent resource name. In the format:
+   * `projects/{project_id}/databases/{database_id}/documents`. Document resource
+   * names are not supported; only database resource names can be specified.
+   * @param PartitionQueryRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return PartitionQueryResponse
+   */
+  public function partitionQuery($parent, PartitionQueryRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('partitionQuery', [$params], PartitionQueryResponse::class);
+  }
+  /**
+   * Updates or inserts a document. (documents.patch)
+   *
+   * @param string $name The resource name of the document, for example
+   * `projects/{project_id}/databases/{database_id}/documents/{document_path}`.
+   * @param Document $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool currentDocument.exists When set to `true`, the target
+   * document must exist. When set to `false`, the target document must not exist.
+   * @opt_param string currentDocument.updateTime When set, the target document
+   * must exist and have been last updated at that time.
+   * @opt_param string mask.fieldPaths The list of field paths in the mask. See
+   * Document.fields for a field path syntax reference.
+   * @opt_param string updateMask.fieldPaths The list of field paths in the mask.
+   * See Document.fields for a field path syntax reference.
+   * @return Document
+   */
+  public function patch($name, Document $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Document::class);
+  }
+  /**
+   * Rolls back a transaction. (documents.rollback)
+   *
+   * @param string $database Required. The database name. In the format:
+   * `projects/{project_id}/databases/{database_id}`.
+   * @param RollbackRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return FirestoreEmpty
+   */
+  public function rollback($database, RollbackRequest $postBody, $optParams = [])
+  {
+    $params = ['database' => $database, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('rollback', [$params], FirestoreEmpty::class);
+  }
+  /**
+   * Runs a query. (documents.runQuery)
+   *
+   * @param string $parent Required. The parent resource name. In the format:
+   * `projects/{project_id}/databases/{database_id}/documents` or
+   * `projects/{project_id}/databases/{database_id}/documents/{document_path}`.
+   * For example: `projects/my-project/databases/my-database/documents` or
+   * `projects/my-project/databases/my-database/documents/chatrooms/my-chatroom`
+   * @param RunQueryRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return RunQueryResponse
+   */
+  public function runQuery($parent, RunQueryRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('runQuery', [$params], RunQueryResponse::class);
+  }
+  /**
+   * Streams batches of document updates and deletes, in order. (documents.write)
+   *
+   * @param string $database Required. The database name. In the format:
+   * `projects/{project_id}/databases/{database_id}`. This is only required in the
+   * first message.
+   * @param WriteRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return WriteResponse
+   */
+  public function write($database, WriteRequest $postBody, $optParams = [])
+  {
+    $params = ['database' => $database, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('write', [$params], WriteResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsDatabasesDocuments::class, 'Google_Service_Firestore_Resource_ProjectsDatabasesDocuments');

@@ -1,90 +1,210 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\BinaryAuthorization\Resource;
+
+use Google\Service\BinaryAuthorization\Attestor;
+use Google\Service\BinaryAuthorization\BinaryauthorizationEmpty;
+use Google\Service\BinaryAuthorization\IamPolicy;
+use Google\Service\BinaryAuthorization\ListAttestorsResponse;
+use Google\Service\BinaryAuthorization\SetIamPolicyRequest;
+use Google\Service\BinaryAuthorization\TestIamPermissionsRequest;
+use Google\Service\BinaryAuthorization\TestIamPermissionsResponse;
+use Google\Service\BinaryAuthorization\ValidateAttestationOccurrenceRequest;
+use Google\Service\BinaryAuthorization\ValidateAttestationOccurrenceResponse;
+
+/**
+ * The "attestors" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $binaryauthorizationService = new Google\Service\BinaryAuthorization(...);
+ *   $attestors = $binaryauthorizationService->attestors;
+ *  </code>
+ */
+class ProjectsAttestors extends \Google\Service\Resource
+{
+  /**
+   * Creates an attestor, and returns a copy of the new attestor. Returns
+   * NOT_FOUND if the project does not exist, INVALID_ARGUMENT if the request is
+   * malformed, ALREADY_EXISTS if the attestor already exists. (attestors.create)
+   *
+   * @param string $parent Required. The parent of this attestor.
+   * @param Attestor $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string attestorId Required. The attestors ID.
+   * @return Attestor
+   */
+  public function create($parent, Attestor $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Attestor::class);
+  }
+  /**
+   * Deletes an attestor. Returns NOT_FOUND if the attestor does not exist.
+   * (attestors.delete)
+   *
+   * @param string $name Required. The name of the attestors to delete, in the
+   * format `projects/attestors`.
+   * @param array $optParams Optional parameters.
+   * @return BinaryauthorizationEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], BinaryauthorizationEmpty::class);
+  }
+  /**
+   * Gets an attestor. Returns NOT_FOUND if the attestor does not exist.
+   * (attestors.get)
+   *
+   * @param string $name Required. The name of the attestor to retrieve, in the
+   * format `projects/attestors`.
+   * @param array $optParams Optional parameters.
+   * @return Attestor
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Attestor::class);
+  }
+  /**
+   * Gets the access control policy for a resource. Returns an empty policy if the
+   * resource exists and does not have a policy set. (attestors.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int options.requestedPolicyVersion Optional. The policy format
+   * version to be returned. Valid values are 0, 1, and 3. Requests specifying an
+   * invalid value will be rejected. Requests for policies with any conditional
+   * bindings must specify version 3. Policies without any conditional bindings
+   * may specify any valid value or leave the field unset. To learn which
+   * resources support conditions in their IAM policies, see the [IAM
+   * documentation](https://cloud.google.com/iam/help/conditions/resource-
+   * policies).
+   * @return IamPolicy
+   */
+  public function getIamPolicy($resource, $optParams = [])
+  {
+    $params = ['resource' => $resource];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], IamPolicy::class);
+  }
+  /**
+   * Lists attestors. Returns INVALID_ARGUMENT if the project does not exist.
+   * (attestors.listProjectsAttestors)
+   *
+   * @param string $parent Required. The resource name of the project associated
+   * with the attestors, in the format `projects`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Requested page size. The server may return fewer
+   * results than requested. If unspecified, the server will pick an appropriate
+   * default.
+   * @opt_param string pageToken A token identifying a page of results the server
+   * should return. Typically, this is the value of
+   * ListAttestorsResponse.next_page_token returned from the previous call to the
+   * `ListAttestors` method.
+   * @return ListAttestorsResponse
+   */
+  public function listProjectsAttestors($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListAttestorsResponse::class);
+  }
+  /**
+   * Sets the access control policy on the specified resource. Replaces any
+   * existing policy. Can return `NOT_FOUND`, `INVALID_ARGUMENT`, and
+   * `PERMISSION_DENIED` errors. (attestors.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return IamPolicy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], IamPolicy::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource. If the
+   * resource does not exist, this will return an empty set of permissions, not a
+   * `NOT_FOUND` error. Note: This operation is designed to be used for building
+   * permission-aware UIs and command-line tools, not for authorization checking.
+   * This operation may "fail open" without warning.
+   * (attestors.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+  /**
+   * Updates an attestor. Returns NOT_FOUND if the attestor does not exist.
+   * (attestors.update)
+   *
+   * @param string $name Required. The resource name, in the format:
+   * `projects/attestors`. This field may not be updated.
+   * @param Attestor $postBody
+   * @param array $optParams Optional parameters.
+   * @return Attestor
+   */
+  public function update($name, Attestor $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Attestor::class);
+  }
+  /**
+   * Returns whether the given Attestation for the given image URI was signed by
+   * the given Attestor (attestors.validateAttestationOccurrence)
+   *
+   * @param string $attestor Required. The resource name of the Attestor of the
+   * occurrence, in the format `projects/attestors`.
+   * @param ValidateAttestationOccurrenceRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return ValidateAttestationOccurrenceResponse
+   */
+  public function validateAttestationOccurrence($attestor, ValidateAttestationOccurrenceRequest $postBody, $optParams = [])
+  {
+    $params = ['attestor' => $attestor, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('validateAttestationOccurrence', [$params], ValidateAttestationOccurrenceResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsAttestors::class, 'Google_Service_BinaryAuthorization_Resource_ProjectsAttestors');

@@ -1,78 +1,129 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPx6lbV+fjpjkCpvc01yH3X9pfcp3JWucJC0DlTKP1YfpXIPwDY7Xlw+wLzF3OyUv/JwaOEoL
-8ShLHu0f/HwQAz7j8hymNUdAFlTUCi27lJhA6p8BHIlpICgPjgjG/aA7UWmp3Aq10TiEAVN0H2Ht
-v7VhSheI6fmcWX6/zH9BQOxF29Yu/o2mDy2PV84AAkm+XlosGIiF2eJ4J4d2GhNgBbktRmKApYwm
-wcLCoEgC9mcGJpHtHdD73OQ4eOXUClvD+6I65um7PRbeZmfmHCU62oiBIpBYS5CkDLI4g2o1fZvA
-1ULLx6L5ZSz75LnWmfxNY5HRvtOC0/LpL7ewe8TkHSazba0wD2mQJKsVEvqua/vSUxcXqI9EfK3u
-OFc4MFvgG+3mdmqW0nBsaXAE02dq5tHSdOjwnckzLzUQOYK3SnsSXOeq1FAu+tYKKIEqXicpOLsg
-vDbuovBA2AyDWK07kgxaag/nchiAD4ZRMhLz++qLjH3HLvF6r5IyCfIcUZsWj3Df+o8pS9b7JnHO
-vUSCPZ4LoriBNJdaL+98TZuoS4eH4N7J3UfndBX8HQ8hrjcxD7+xjxxV+5ly+/PNJgbnNRq3fwWo
-HQhUHK6LW/gi6gJ8WacBqGgeEwJeno86lPpmzDqwCyp3fh4+GxU9GU9qEh2T+guVotSHun6Oyb1N
-HEPpPFy7J3OtPPcNQbUVkepb7vluWQwq4VaAI0GjuFaCoIGINLcoxdDjP/zn2OHeAz2iBiJqph38
-bT+HQwyGJqvd63cXzMscweVHaExtMVSX3PXBbXKxXcsLaZEsNWqGCveZfjrkbZYKSVO3uwOB+Vtb
-yDfGp1HLtw93klx8j7UzxFK4ARlFCj24BFwrd2dCoFC2PfFMBWewuQmgSLBlMFbJ2/4EGwekBbBZ
-DRS7WxAkzojW5G7TERHpmqmry6vEMyPFHnRm4dT0GCpx8rPsYQBLbOd6FL381D+VoaqtiVsiQJ6b
-npjNuprKrL7GnmlwGYH4rxeoRmaX3bc0ugRqEJlECXHk9X54CWGhMzx2Ip1VX6mp8ENvDXCeHCJ5
-Ntvf72gpQMzQlYmSvxK+ZljXs7g9YYvJk8kTVcVNnIRO+oWA4Oc6BMuEzKv1h4txJiBmeV++jvEP
-1Ur0S7bTKWX04MRHUQKubrBWDrscXHO+jP9pghZLaC52oBIO/AAF+RvAPIyktg16KQxz1tW/nqZF
-GZ88UyD8LtRTCVpf2utzeNIv9nIBnlcg5WRrwHgs5dN+gW20wnpU3y8Pde9BLGlaZAHTniHs1j5P
-Sukk2lKVrAtpLtRKik1sQi12jSJBChMjw9WSOgS3ExapEjs9guFyMYOzf4AjlHscBKxS3Hm0DNes
-mpwaUAhhwqft2+qVumzLMidr7DenBhywDeQt2Coj652kp7uXp3ZELtkce2Od+bo6UncA6NgTbtpm
-OhZJF+o2pVyJxBKPXxLaG6Xpw1CP40P0ewYtu8rYjbN0K/M0gHlhtN6V10fRBe5hPdg3tmQTJ6Ms
-3nzH1Eo8lqtGSTRUFZYABa+75LWNvh92j0n3zhq+E9aJqNEvxmGDixQ8th/c5FFgR+kAQgLgqpQy
-l2/66T+aqRjSbo1NSIyBPln3IJCQKT3YfhtTbv1gcJ7QYrIE8w4p64kJHjwdmeWI1RFbKSq51+JA
-wI0O/nXInHc8hfNebz8ECnfpGX7v4uGL0JWEQXZKaT1tGZkkEjjE9nLQctyg2Hoju/238nzmRdDV
-t1Oaho27gXlfLD82xy8xo0f/MvgAWtBLDZ+RQ04e//IXYlsrDHlQGmkwtAYXQEWD5gQpvLJrHltB
-xW0T/HoUqimq0fAGQC+0GW6ASpECYjNzW2Ph3bjJ8YDwOgtDzCEp8qWib5Sw9kPKkG+L2amjGwVL
-hQeURSodWQKtfNvNcwtnM7ZT0Eob9LaiZlXqm/HPhKYYXc6gCIBa1h1aGCpslatPbUurK+K7DmiW
-sE54y1yVWgaMlPZ4pP4GhzVM3UarPnRBsaka+UDBYoKcNUSJ8YIH5zuCld0A9zgAgHh1dsER8f5x
-nBURRkqcPOkwHNDD0nngQ2mLzT/vFK89ZGo7tTVNhREEV6ZNM3zHIB29WfgF232brpcootG/5D92
-eNcMl1PfKHiq7F/iNGNBzp7gEjnSusQ4f1KwfYZXe3sWBtmoD7uj1m2oI3Jf21lcwZajy76rPhAa
-oo81Nq1jYeP7bfXc0Y0JfpWreQMzrC3EgkZOXwVIwtMkUr076muvkxTz+/Hb/BXO50OwGE6KcQzI
-llUEHgUwg68ItkhpWyxPzZAKjcv6nu7Z5wBOPE4F4DvCClhHR9fXecPi/7r6Zb5zyDy6vdu1RGQX
-AZ2xZtNMZdYP1hkxN1iWLyFfVTiQFzEReV05yPlgT+JZIAA+Kmzw8BUyTpNB5mr58S8L6HpU1AQg
-9ZfWScaGH0ewVy+2jptvff8xqcxc3QEqUWizfX39XaOOIpg2q3EH+MxKSDgXr+ARVTs8jP9gY2qg
-iFZmZTOSkLT3AcK98s2Oj2tgBhiXjt4qOHqtJdObM2MmE7uPnp+1SovXarIPkUpdwsphpikQdblm
-+3Uq1jgwu6BoxB3YHceeQfk8z3eguBe22VUI1bdpgZEPzTTMExuL7v34GoXC348GyjgpBiDNFOak
-v7HcrxzHTOn+c8Azq3etYVigfdz212zZt7j6lHauriJGJsSTLb8n0AyL4OhcMETwbMm5Nj+Y+Z7d
-sEeELfYKguuzq9HcYcaTZ5TiDOb+Ul/QyoG5BtfH3jqVNdcDzRy07gb7tswquzwr307ueXrkSFtp
-7qB7McBVao1ria9WtWtvUffVV+ypuXsuU6OTk3KAQ1ZvGe1xaXYcLWpl+ki63GENl283YSkJMj/k
-K2LA5sYX1zdyWNk1kpkwsdclB95XB3J2HVXuYOVApj3zwVizaKR6AAYU2n/2DdNTB6H8OQNj34Pj
-VzxMAFvaZqipu1GG+i5rmr9PJbFvZiZo6rlZbIRenKyRAnL8GrZ0CYqP6KZSvb5MUFO/zzfmalq3
-mnntl60issU6ib404wEVksVSuZBA4tR1VNZGcXmhuWYzPSQdgrq4EbP9Lw7ZDeqOdcy/EHPfuwWw
-ExFAJDjwcvHdJsN0Gi7wYESCudUCJMHXZxDh3SyR0z6qiWhasahIBrVZOXG4xgJs2eUjNv+WMvmW
-nZ5g5ciV2MXVfGRnSjbhq/pDlUrbjHUWSoYec97eSbY1BjkITz4ZO9O9EjqbrI2HRBTuaeIhjCou
-te2P77wLRJvqv/YiFUwkq6lgsLKPGqv8K2Bw8Vyu5b+4IAAp4oNyjBhNNR4gH5vzUETE6Lpk4UYp
-4g8D99cKO+Mn6AxoEKmeUstbP7rMxs19aKD/HRtVEYUs6NzwXjuoLDoR04ue8Gzzh9XSOx6qYdeR
-dnaRPOW2ZGtyeb8l0nq0vNS2/CVJgPZKa6nJXnt/b21stGOgGC3WPzQsRF1bsVPAxgVWS9nLTOb0
-w5Q/M9Qa9coUiiJgwGEmlFLph0QlhMD7bMLmU44QCOWXIRHY8/rODXTanlFAT93fFd9Q0JRy5+x6
-ymiwArqQujBZCBcU+4YRXTwpdJuNYPqOo+ibnfPA2cLkz2jSOaw7EZjwr7+sloGHa2yqwrnZqOUK
-Fo5k2P70sMfRUCrnb+UcFp2uW4Elm4wiKw38FpEEV0semdf8l89j4NnmgMtV15UKn7NKCzI3e3J8
-IkCONa3io6bn09MkJ60ui5+GJIRC6iHaff+xwctSXrpkobxHfmkU/ETxNd/+KdpscreWJetBSRst
-QFyBWp9HxLABRatjCgsMnGg0Gon7kh7bdURcx/b3oLKA1tGXMM8XD5D2iwqn10HPXAgR7zBBfJEJ
-TZvLlo4xU4ib7piZiGxyLzwXBqKtdAGSHtIei1evSuJyDrNBr3bkyuMqwOjMd/atwUJEFPLT6GxX
-QGL56Oy26gHlZviedyYT7Y5lJf1Wg/QsZt48Ap2iWrhJI/CIwjvQXJEAjEhOBj/EzvY7mO+kLcd6
-rrXa0cSAQTtO+ajYQDBAX+3LZjSFxPSk/PqiAEFgW6bTFmA9Vtk+rgM38EQTwrEmDz6Opsa8YgEA
-hxwS15V0y+dw7uUIIYxzknh2UFHJTVQ/wkINMeb6KwY1L0mOWtMYaw0SpdjTq26h2HxoEQomkfYw
-Qp1lzDTWcZTDNj+KDUlEYEkORhSPsYKhqYs4iAEIxBtvrE4hVMqTLrwVrmZW2xSeeAeNwSjCzbO4
-XZ963mV/vjC2VnAPI73p4ojf/eRUDfjTQQHMsOSXtJqz+/UilBKdoiAepPCAMDUPqqf1YdXzKgOS
-xOnvPfqc7+Hxnxje3gQgjLLqqm1BHAkPH9mn7818GJvclZFVMpTbBH26sgwR068SyzF52kuk+mMw
-Q3WK3p5IZ+SL0Fp9AvGeKlOt8+O6WTwMh5wvi75Alfl1BSEl2rRkPRC4uQ6HaWOIkyweS05zIsp9
-JF42ZcSN2XJ/5ilyH7hn1zyJbCfIs0PuIvR7kBNaIZ/Xl8bkN1RJYcm0CfEm5559Bm6VSEyx5HpI
-tKl8oJ0Pte5qzegdSyeuCD0QznSl4OjHYglV+j/YNDjahH2p7jE9Vl1p76X+KywnV1Wnytc/HaO6
-GtD5sRKnMx7dbtulY90REDFHhPSzcD1h/7ZhOg3KosA72V+zsr0GCR8sYfiMqCfHu+riIAn3Dmks
-VvJTsSzXCSHRQDvIXH0Uix8Yu0BOaSGJGnDYUIMUXjUXigOkjbWQrPPGJlJSypFQzGwe4o+h3xt+
-BEqERK2tSK/kJKatK1G//BohYm0Gjeje9ZJdKYt9heYZr3f5MnVRsFz5SXo8URJaAr4Crjt5man6
-2d7XP9ilAkV63hw6oJK5JPFeQH3Hx02pylBTGrdkWKAw8gCUng3HMd2r333rvOgfozCsZcg7hQ5G
-gd9OS6G0HdG/FyefGLR+PLT3kVusBzZX13O+OvpfLj46ybVnZzJ52pALe97LEpVR+j+kd/Ytax/v
-lEpWwwbT/sep3SUhN8PVnkAyU6+bmev8/nKJ+UiMc4f4D+mGI+bS1N7LrlET0+0ZaNUexcwepYRB
-ZhknYruYLX/ZrGmaGc0+zN4wbH/T54JqM8jVARDlV/7L7lRxzFpMCfNsnlnneDhHyKuiSvvSofvz
-XnsHNhIGv1I9qhHafPSY1dkFcvISnL2Fe61uDl6iy4qc4J4jOaWdRc+dPWkauSQgO9OA84rWWP2/
-wOfRyxXaoE/CTw6eGRmHIwhJYYSr/bwguopoaVz/b0MP0n/YMdHakerzNGZk5kq+haZg7NZV/8XL
-O2nu7iTK90K9bUlFQTkIAc+jeKYsEXUzUBnLw8gjFLDlHjgTSQzT9PVT5WgxIOLwQymhgCszac5H
-PwhHYgZAmxlaO4De
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ShoppingContent;
+
+class ReturnPolicy extends \Google\Collection
+{
+  protected $collection_key = 'seasonalOverrides';
+  public $country;
+  public $kind;
+  public $label;
+  public $name;
+  public $nonFreeReturnReasons;
+  protected $policyType = ReturnPolicyPolicy::class;
+  protected $policyDataType = '';
+  public $returnPolicyId;
+  protected $returnShippingFeeType = Price::class;
+  protected $returnShippingFeeDataType = '';
+  protected $seasonalOverridesType = ReturnPolicySeasonalOverride::class;
+  protected $seasonalOverridesDataType = 'array';
+
+  public function setCountry($country)
+  {
+    $this->country = $country;
+  }
+  public function getCountry()
+  {
+    return $this->country;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setLabel($label)
+  {
+    $this->label = $label;
+  }
+  public function getLabel()
+  {
+    return $this->label;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setNonFreeReturnReasons($nonFreeReturnReasons)
+  {
+    $this->nonFreeReturnReasons = $nonFreeReturnReasons;
+  }
+  public function getNonFreeReturnReasons()
+  {
+    return $this->nonFreeReturnReasons;
+  }
+  /**
+   * @param ReturnPolicyPolicy
+   */
+  public function setPolicy(ReturnPolicyPolicy $policy)
+  {
+    $this->policy = $policy;
+  }
+  /**
+   * @return ReturnPolicyPolicy
+   */
+  public function getPolicy()
+  {
+    return $this->policy;
+  }
+  public function setReturnPolicyId($returnPolicyId)
+  {
+    $this->returnPolicyId = $returnPolicyId;
+  }
+  public function getReturnPolicyId()
+  {
+    return $this->returnPolicyId;
+  }
+  /**
+   * @param Price
+   */
+  public function setReturnShippingFee(Price $returnShippingFee)
+  {
+    $this->returnShippingFee = $returnShippingFee;
+  }
+  /**
+   * @return Price
+   */
+  public function getReturnShippingFee()
+  {
+    return $this->returnShippingFee;
+  }
+  /**
+   * @param ReturnPolicySeasonalOverride[]
+   */
+  public function setSeasonalOverrides($seasonalOverrides)
+  {
+    $this->seasonalOverrides = $seasonalOverrides;
+  }
+  /**
+   * @return ReturnPolicySeasonalOverride[]
+   */
+  public function getSeasonalOverrides()
+  {
+    return $this->seasonalOverrides;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ReturnPolicy::class, 'Google_Service_ShoppingContent_ReturnPolicy');

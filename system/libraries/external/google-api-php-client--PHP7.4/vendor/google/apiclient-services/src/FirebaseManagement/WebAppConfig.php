@@ -1,74 +1,107 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\FirebaseManagement;
+
+class WebAppConfig extends \Google\Model
+{
+  public $apiKey;
+  public $appId;
+  public $authDomain;
+  public $databaseURL;
+  public $locationId;
+  public $measurementId;
+  public $messagingSenderId;
+  public $projectId;
+  public $storageBucket;
+
+  public function setApiKey($apiKey)
+  {
+    $this->apiKey = $apiKey;
+  }
+  public function getApiKey()
+  {
+    return $this->apiKey;
+  }
+  public function setAppId($appId)
+  {
+    $this->appId = $appId;
+  }
+  public function getAppId()
+  {
+    return $this->appId;
+  }
+  public function setAuthDomain($authDomain)
+  {
+    $this->authDomain = $authDomain;
+  }
+  public function getAuthDomain()
+  {
+    return $this->authDomain;
+  }
+  public function setDatabaseURL($databaseURL)
+  {
+    $this->databaseURL = $databaseURL;
+  }
+  public function getDatabaseURL()
+  {
+    return $this->databaseURL;
+  }
+  public function setLocationId($locationId)
+  {
+    $this->locationId = $locationId;
+  }
+  public function getLocationId()
+  {
+    return $this->locationId;
+  }
+  public function setMeasurementId($measurementId)
+  {
+    $this->measurementId = $measurementId;
+  }
+  public function getMeasurementId()
+  {
+    return $this->measurementId;
+  }
+  public function setMessagingSenderId($messagingSenderId)
+  {
+    $this->messagingSenderId = $messagingSenderId;
+  }
+  public function getMessagingSenderId()
+  {
+    return $this->messagingSenderId;
+  }
+  public function setProjectId($projectId)
+  {
+    $this->projectId = $projectId;
+  }
+  public function getProjectId()
+  {
+    return $this->projectId;
+  }
+  public function setStorageBucket($storageBucket)
+  {
+    $this->storageBucket = $storageBucket;
+  }
+  public function getStorageBucket()
+  {
+    return $this->storageBucket;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(WebAppConfig::class, 'Google_Service_FirebaseManagement_WebAppConfig');

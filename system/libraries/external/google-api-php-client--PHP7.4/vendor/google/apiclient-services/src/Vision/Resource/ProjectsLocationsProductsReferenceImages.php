@@ -1,65 +1,128 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-IZ95VBVCt2G8
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Vision\Resource;
+
+use Google\Service\Vision\ListReferenceImagesResponse;
+use Google\Service\Vision\ReferenceImage;
+use Google\Service\Vision\VisionEmpty;
+
+/**
+ * The "referenceImages" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $visionService = new Google\Service\Vision(...);
+ *   $referenceImages = $visionService->referenceImages;
+ *  </code>
+ */
+class ProjectsLocationsProductsReferenceImages extends \Google\Service\Resource
+{
+  /**
+   * Creates and returns a new ReferenceImage resource. The `bounding_poly` field
+   * is optional. If `bounding_poly` is not specified, the system will try to
+   * detect regions of interest in the image that are compatible with the
+   * product_category on the parent product. If it is specified, detection is
+   * ALWAYS skipped. The system converts polygons into non-rotated rectangles.
+   * Note that the pipeline will resize the image if the image resolution is too
+   * large to process (above 50MP). Possible errors: * Returns INVALID_ARGUMENT if
+   * the image_uri is missing or longer than 4096 characters. * Returns
+   * INVALID_ARGUMENT if the product does not exist. * Returns INVALID_ARGUMENT if
+   * bounding_poly is not provided, and nothing compatible with the parent
+   * product's product_category is detected. * Returns INVALID_ARGUMENT if
+   * bounding_poly contains more than 10 polygons. (referenceImages.create)
+   *
+   * @param string $parent Required. Resource name of the product in which to
+   * create the reference image. Format is
+   * `projects/PROJECT_ID/locations/LOC_ID/products/PRODUCT_ID`.
+   * @param ReferenceImage $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string referenceImageId A user-supplied resource id for the
+   * ReferenceImage to be added. If set, the server will attempt to use this value
+   * as the resource id. If it is already in use, an error is returned with code
+   * ALREADY_EXISTS. Must be at most 128 characters long. It cannot contain the
+   * character `/`.
+   * @return ReferenceImage
+   */
+  public function create($parent, ReferenceImage $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], ReferenceImage::class);
+  }
+  /**
+   * Permanently deletes a reference image. The image metadata will be deleted
+   * right away, but search queries against ProductSets containing the image may
+   * still work until all related caches are refreshed. The actual image files are
+   * not deleted from Google Cloud Storage. (referenceImages.delete)
+   *
+   * @param string $name Required. The resource name of the reference image to
+   * delete. Format is: `projects/PROJECT_ID/locations/LOC_ID/products/PRODUCT_ID/
+   * referenceImages/IMAGE_ID`
+   * @param array $optParams Optional parameters.
+   * @return VisionEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], VisionEmpty::class);
+  }
+  /**
+   * Gets information associated with a ReferenceImage. Possible errors: * Returns
+   * NOT_FOUND if the specified image does not exist. (referenceImages.get)
+   *
+   * @param string $name Required. The resource name of the ReferenceImage to get.
+   * Format is: `projects/PROJECT_ID/locations/LOC_ID/products/PRODUCT_ID/referenc
+   * eImages/IMAGE_ID`.
+   * @param array $optParams Optional parameters.
+   * @return ReferenceImage
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], ReferenceImage::class);
+  }
+  /**
+   * Lists reference images. Possible errors: * Returns NOT_FOUND if the parent
+   * product does not exist. * Returns INVALID_ARGUMENT if the page_size is
+   * greater than 100, or less than 1.
+   * (referenceImages.listProjectsLocationsProductsReferenceImages)
+   *
+   * @param string $parent Required. Resource name of the product containing the
+   * reference images. Format is
+   * `projects/PROJECT_ID/locations/LOC_ID/products/PRODUCT_ID`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The maximum number of items to return. Default 10,
+   * maximum 100.
+   * @opt_param string pageToken A token identifying a page of results to be
+   * returned. This is the value of `nextPageToken` returned in a previous
+   * reference image list request. Defaults to the first page if not specified.
+   * @return ListReferenceImagesResponse
+   */
+  public function listProjectsLocationsProductsReferenceImages($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListReferenceImagesResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsProductsReferenceImages::class, 'Google_Service_Vision_Resource_ProjectsLocationsProductsReferenceImages');

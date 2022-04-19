@@ -1,105 +1,165 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-HzVdQh7XTXL4TXxq+YdnzcsTJIa1Cx/RV6zA
+<?php
+declare(strict_types=1);
+
+/**
+ *--------------------------------------------------------------------
+ *
+ * Holds font for PHP.
+ *
+ *--------------------------------------------------------------------
+ * Copyright (C) Jean-Sebastien Goupil
+ * http://www.barcodebakery.com
+ */
+namespace BarcodeBakery\Common;
+
+class BCGFontPhp implements BCGFont
+{
+    private $font;
+    private $text;
+    private $rotationAngle;
+    private $backgroundColor;
+    private $foregroundColor;
+
+    /**
+     * Constructor.
+     *
+     * @param int $font
+     */
+    public function __construct($font)
+    {
+        $this->font = max(0, intval($font));
+        $this->backgroundColor = new BCGColor('white');
+        $this->foregroundColor = new BCGColor('black');
+        $this->setRotationAngle(0);
+    }
+
+    /**
+     * Gets the text associated to the font.
+     *
+     * @return string
+     */
+    public function getText()
+    {
+        return $this->text;
+    }
+
+    /**
+     * Sets the text associated to the font.
+     *
+     * @param string text
+     */
+    public function setText($text)
+    {
+        $this->text = $text;
+    }
+
+    /**
+     * Gets the rotation in degree.
+     *
+     * @return int
+     */
+    public function getRotationAngle()
+    {
+        return (360 - $this->rotationAngle) % 360;
+    }
+
+    /**
+     * Sets the rotation in degree.
+     *
+     * @param int
+     */
+    public function setRotationAngle($rotationAngle)
+    {
+        $this->rotationAngle = (int)$rotationAngle;
+        if ($this->rotationAngle !== 90 && $this->rotationAngle !== 180 && $this->rotationAngle !== 270) {
+            $this->rotationAngle = 0;
+        }
+
+        $this->rotationAngle = (360 - $this->rotationAngle) % 360;
+    }
+
+    /**
+     * Gets the background color.
+     *
+     * @return BCGColor
+     */
+    public function getBackgroundColor()
+    {
+        return $this->backgroundColor;
+    }
+
+    /**
+     * Sets the background color.
+     *
+     * @param BCGColor $backgroundColor
+     */
+    public function setBackgroundColor($backgroundColor)
+    {
+        $this->backgroundColor = $backgroundColor;
+    }
+
+    /**
+     * Gets the foreground color.
+     *
+     * @return BCGColor
+     */
+    public function getForegroundColor()
+    {
+        return $this->foregroundColor;
+    }
+
+    /**
+     * Sets the foreground color.
+     *
+     * @param BCGColor $foregroundColor
+     */
+    public function setForegroundColor($foregroundColor)
+    {
+        $this->foregroundColor = $foregroundColor;
+    }
+
+    /**
+     * Returns the width and height that the text takes to be written.
+     *
+     * @return int[]
+     */
+    public function getDimension()
+    {
+        $w = imagefontwidth($this->font) * strlen($this->text);
+        $h = imagefontheight($this->font);
+
+        $rotationAngle = $this->getRotationAngle();
+        if ($rotationAngle === 90 || $rotationAngle === 270) {
+            return array($h, $w);
+        } else {
+            return array($w, $h);
+        }
+    }
+
+    /**
+     * Draws the text on the image at a specific position.
+     * $x and $y represent the left bottom corner.
+     *
+     * @param resource $im
+     * @param int $x
+     * @param int $y
+     */
+    public function draw($im, $x, $y)
+    {
+        if ($this->getRotationAngle() !== 0) {
+            if (!function_exists('imagerotate')) {
+                throw new BCGDrawException('The method imagerotate doesn\'t exist on your server. Do not use any rotation.');
+            }
+
+            $w = imagefontwidth($this->font) * strlen($this->text);
+            $h = imagefontheight($this->font);
+            $gd = imagecreatetruecolor($w, $h);
+            imagefilledrectangle($gd, 0, 0, $w - 1, $h - 1, $this->backgroundColor->allocate($gd));
+            imagestring($gd, $this->font, 0, 0, $this->text, $this->foregroundColor->allocate($gd));
+            $gd = imagerotate($gd, $this->rotationAngle, 0);
+            imagecopy($im, $gd, $x, $y, 0, 0, imagesx($gd), imagesy($gd));
+        } else {
+            imagestring($im, $this->font, $x, $y, $this->text, $this->foregroundColor->allocate($im));
+        }
+    }
+}

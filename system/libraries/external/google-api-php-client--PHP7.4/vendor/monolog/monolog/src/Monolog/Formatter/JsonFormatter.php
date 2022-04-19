@@ -1,109 +1,188 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php declare(strict_types=1);
+
+/*
+ * This file is part of the Monolog package.
+ *
+ * (c) Jordi Boggiano <j.boggiano@seld.be>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Monolog\Formatter;
+
+use Throwable;
+
+/**
+ * Encodes whatever record data is passed to it as json
+ *
+ * This can be useful to log to databases or remote APIs
+ *
+ * @author Jordi Boggiano <j.boggiano@seld.be>
+ */
+class JsonFormatter extends NormalizerFormatter
+{
+    public const BATCH_MODE_JSON = 1;
+    public const BATCH_MODE_NEWLINES = 2;
+
+    protected $batchMode;
+    protected $appendNewline;
+    protected $ignoreEmptyContextAndExtra;
+
+    /**
+     * @var bool
+     */
+    protected $includeStacktraces = false;
+
+    public function __construct(int $batchMode = self::BATCH_MODE_JSON, bool $appendNewline = true, bool $ignoreEmptyContextAndExtra = false)
+    {
+        $this->batchMode = $batchMode;
+        $this->appendNewline = $appendNewline;
+        $this->ignoreEmptyContextAndExtra = $ignoreEmptyContextAndExtra;
+    }
+
+    /**
+     * The batch mode option configures the formatting style for
+     * multiple records. By default, multiple records will be
+     * formatted as a JSON-encoded array. However, for
+     * compatibility with some API endpoints, alternative styles
+     * are available.
+     */
+    public function getBatchMode(): int
+    {
+        return $this->batchMode;
+    }
+
+    /**
+     * True if newlines are appended to every formatted record
+     */
+    public function isAppendingNewlines(): bool
+    {
+        return $this->appendNewline;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function format(array $record): string
+    {
+        $normalized = $this->normalize($record);
+
+        if (isset($normalized['context']) && $normalized['context'] === []) {
+            if ($this->ignoreEmptyContextAndExtra) {
+                unset($normalized['context']);
+            } else {
+                $normalized['context'] = new \stdClass;
+            }
+        }
+        if (isset($normalized['extra']) && $normalized['extra'] === []) {
+            if ($this->ignoreEmptyContextAndExtra) {
+                unset($normalized['extra']);
+            } else {
+                $normalized['extra'] = new \stdClass;
+            }
+        }
+
+        return $this->toJson($normalized, true) . ($this->appendNewline ? "\n" : '');
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function formatBatch(array $records): string
+    {
+        switch ($this->batchMode) {
+            case static::BATCH_MODE_NEWLINES:
+                return $this->formatBatchNewlines($records);
+
+            case static::BATCH_MODE_JSON:
+            default:
+                return $this->formatBatchJson($records);
+        }
+    }
+
+    public function includeStacktraces(bool $include = true)
+    {
+        $this->includeStacktraces = $include;
+    }
+
+    /**
+     * Return a JSON-encoded array of records.
+     */
+    protected function formatBatchJson(array $records): string
+    {
+        return $this->toJson($this->normalize($records), true);
+    }
+
+    /**
+     * Use new lines to separate records instead of a
+     * JSON-encoded array.
+     */
+    protected function formatBatchNewlines(array $records): string
+    {
+        $instance = $this;
+
+        $oldNewline = $this->appendNewline;
+        $this->appendNewline = false;
+        array_walk($records, function (&$value, $key) use ($instance) {
+            $value = $instance->format($value);
+        });
+        $this->appendNewline = $oldNewline;
+
+        return implode("\n", $records);
+    }
+
+    /**
+     * Normalizes given $data.
+     *
+     * @param mixed $data
+     *
+     * @return mixed
+     */
+    protected function normalize($data, int $depth = 0)
+    {
+        if ($depth > $this->maxNormalizeDepth) {
+            return 'Over '.$this->maxNormalizeDepth.' levels deep, aborting normalization';
+        }
+
+        if (is_array($data)) {
+            $normalized = [];
+
+            $count = 1;
+            foreach ($data as $key => $value) {
+                if ($count++ > $this->maxNormalizeItemCount) {
+                    $normalized['...'] = 'Over '.$this->maxNormalizeItemCount.' items ('.count($data).' total), aborting normalization';
+                    break;
+                }
+
+                $normalized[$key] = $this->normalize($value, $depth + 1);
+            }
+
+            return $normalized;
+        }
+
+        if ($data instanceof Throwable) {
+            return $this->normalizeException($data, $depth);
+        }
+
+        if (is_resource($data)) {
+            return parent::normalize($data);
+        }
+
+        return $data;
+    }
+
+    /**
+     * Normalizes given exception with or without its own stack trace based on
+     * `includeStacktraces` property.
+     */
+    protected function normalizeException(Throwable $e, int $depth = 0): array
+    {
+        $data = parent::normalizeException($e, $depth);
+        if (!$this->includeStacktraces) {
+            unset($data['trace']);
+        }
+
+        return $data;
+    }
+}

@@ -1,77 +1,129 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-IOsid1VxRcJeORUT+mGnJyBzb6sWTswsf55DGG4=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Analytics;
+
+class RealtimeData extends \Google\Collection
+{
+  protected $collection_key = 'rows';
+  protected $columnHeadersType = RealtimeDataColumnHeaders::class;
+  protected $columnHeadersDataType = 'array';
+  public $id;
+  public $kind;
+  protected $profileInfoType = RealtimeDataProfileInfo::class;
+  protected $profileInfoDataType = '';
+  protected $queryType = RealtimeDataQuery::class;
+  protected $queryDataType = '';
+  public $rows;
+  public $selfLink;
+  public $totalResults;
+  public $totalsForAllResults;
+
+  /**
+   * @param RealtimeDataColumnHeaders[]
+   */
+  public function setColumnHeaders($columnHeaders)
+  {
+    $this->columnHeaders = $columnHeaders;
+  }
+  /**
+   * @return RealtimeDataColumnHeaders[]
+   */
+  public function getColumnHeaders()
+  {
+    return $this->columnHeaders;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  /**
+   * @param RealtimeDataProfileInfo
+   */
+  public function setProfileInfo(RealtimeDataProfileInfo $profileInfo)
+  {
+    $this->profileInfo = $profileInfo;
+  }
+  /**
+   * @return RealtimeDataProfileInfo
+   */
+  public function getProfileInfo()
+  {
+    return $this->profileInfo;
+  }
+  /**
+   * @param RealtimeDataQuery
+   */
+  public function setQuery(RealtimeDataQuery $query)
+  {
+    $this->query = $query;
+  }
+  /**
+   * @return RealtimeDataQuery
+   */
+  public function getQuery()
+  {
+    return $this->query;
+  }
+  public function setRows($rows)
+  {
+    $this->rows = $rows;
+  }
+  public function getRows()
+  {
+    return $this->rows;
+  }
+  public function setSelfLink($selfLink)
+  {
+    $this->selfLink = $selfLink;
+  }
+  public function getSelfLink()
+  {
+    return $this->selfLink;
+  }
+  public function setTotalResults($totalResults)
+  {
+    $this->totalResults = $totalResults;
+  }
+  public function getTotalResults()
+  {
+    return $this->totalResults;
+  }
+  public function setTotalsForAllResults($totalsForAllResults)
+  {
+    $this->totalsForAllResults = $totalsForAllResults;
+  }
+  public function getTotalsForAllResults()
+  {
+    return $this->totalsForAllResults;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(RealtimeData::class, 'Google_Service_Analytics_RealtimeData');

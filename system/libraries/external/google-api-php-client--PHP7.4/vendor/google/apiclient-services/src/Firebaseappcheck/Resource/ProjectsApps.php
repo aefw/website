@@ -1,68 +1,145 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-s9Z0rvKaNgeUjgDMJ2C=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Firebaseappcheck\Resource;
+
+use Google\Service\Firebaseappcheck\GoogleFirebaseAppcheckV1betaAttestationTokenResponse;
+use Google\Service\Firebaseappcheck\GoogleFirebaseAppcheckV1betaExchangeCustomTokenRequest;
+use Google\Service\Firebaseappcheck\GoogleFirebaseAppcheckV1betaExchangeDebugTokenRequest;
+use Google\Service\Firebaseappcheck\GoogleFirebaseAppcheckV1betaExchangeDeviceCheckTokenRequest;
+use Google\Service\Firebaseappcheck\GoogleFirebaseAppcheckV1betaExchangeRecaptchaTokenRequest;
+use Google\Service\Firebaseappcheck\GoogleFirebaseAppcheckV1betaExchangeSafetyNetTokenRequest;
+
+/**
+ * The "apps" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $firebaseappcheckService = new Google\Service\Firebaseappcheck(...);
+ *   $apps = $firebaseappcheckService->apps;
+ *  </code>
+ */
+class ProjectsApps extends \Google\Service\Resource
+{
+  /**
+   * Validates a custom token signed using your project's Admin SDK service
+   * account credentials. If valid, returns an App Check token encapsulated in an
+   * AttestationTokenResponse. (apps.exchangeCustomToken)
+   *
+   * @param string $app Required. The relative resource name of the app, in the
+   * format: ``` projects/{project_number}/apps/{app_id} ``` If necessary, the
+   * `project_number` element can be replaced with the project ID of the Firebase
+   * project. Learn more about using project identifiers in Google's [AIP
+   * 2510](https://google.aip.dev/cloud/2510) standard.
+   * @param GoogleFirebaseAppcheckV1betaExchangeCustomTokenRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleFirebaseAppcheckV1betaAttestationTokenResponse
+   */
+  public function exchangeCustomToken($app, GoogleFirebaseAppcheckV1betaExchangeCustomTokenRequest $postBody, $optParams = [])
+  {
+    $params = ['app' => $app, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('exchangeCustomToken', [$params], GoogleFirebaseAppcheckV1betaAttestationTokenResponse::class);
+  }
+  /**
+   * Validates a debug token secret that you have previously created using
+   * CreateDebugToken. If valid, returns an App Check token encapsulated in an
+   * AttestationTokenResponse. Note that a restrictive quota is enforced on this
+   * method to prevent accidental exposure of the app to abuse.
+   * (apps.exchangeDebugToken)
+   *
+   * @param string $app Required. The relative resource name of the app, in the
+   * format: ``` projects/{project_number}/apps/{app_id} ``` If necessary, the
+   * `project_number` element can be replaced with the project ID of the Firebase
+   * project. Learn more about using project identifiers in Google's [AIP
+   * 2510](https://google.aip.dev/cloud/2510) standard.
+   * @param GoogleFirebaseAppcheckV1betaExchangeDebugTokenRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleFirebaseAppcheckV1betaAttestationTokenResponse
+   */
+  public function exchangeDebugToken($app, GoogleFirebaseAppcheckV1betaExchangeDebugTokenRequest $postBody, $optParams = [])
+  {
+    $params = ['app' => $app, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('exchangeDebugToken', [$params], GoogleFirebaseAppcheckV1betaAttestationTokenResponse::class);
+  }
+  /**
+   * Accepts a [`device_token`](https://developer.apple.com/documentation/devicech
+   * eck/dcdevice) issued by DeviceCheck, and attempts to validate it with Apple.
+   * If valid, returns an App Check token encapsulated in an
+   * AttestationTokenResponse. (apps.exchangeDeviceCheckToken)
+   *
+   * @param string $app Required. The relative resource name of the iOS app, in
+   * the format: ``` projects/{project_number}/apps/{app_id} ``` If necessary, the
+   * `project_number` element can be replaced with the project ID of the Firebase
+   * project. Learn more about using project identifiers in Google's [AIP
+   * 2510](https://google.aip.dev/cloud/2510) standard.
+   * @param GoogleFirebaseAppcheckV1betaExchangeDeviceCheckTokenRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleFirebaseAppcheckV1betaAttestationTokenResponse
+   */
+  public function exchangeDeviceCheckToken($app, GoogleFirebaseAppcheckV1betaExchangeDeviceCheckTokenRequest $postBody, $optParams = [])
+  {
+    $params = ['app' => $app, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('exchangeDeviceCheckToken', [$params], GoogleFirebaseAppcheckV1betaAttestationTokenResponse::class);
+  }
+  /**
+   * Validates a [reCAPTCHA v3 response
+   * token](https://developers.google.com/recaptcha/docs/v3). If valid, returns an
+   * App Check token encapsulated in an AttestationTokenResponse.
+   * (apps.exchangeRecaptchaToken)
+   *
+   * @param string $app Required. The relative resource name of the web app, in
+   * the format: ``` projects/{project_number}/apps/{app_id} ``` If necessary, the
+   * `project_number` element can be replaced with the project ID of the Firebase
+   * project. Learn more about using project identifiers in Google's [AIP
+   * 2510](https://google.aip.dev/cloud/2510) standard.
+   * @param GoogleFirebaseAppcheckV1betaExchangeRecaptchaTokenRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleFirebaseAppcheckV1betaAttestationTokenResponse
+   */
+  public function exchangeRecaptchaToken($app, GoogleFirebaseAppcheckV1betaExchangeRecaptchaTokenRequest $postBody, $optParams = [])
+  {
+    $params = ['app' => $app, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('exchangeRecaptchaToken', [$params], GoogleFirebaseAppcheckV1betaAttestationTokenResponse::class);
+  }
+  /**
+   * Validates a [SafetyNet
+   * token](https://developer.android.com/training/safetynet/attestation#request-
+   * attestation-step). If valid, returns an App Check token encapsulated in an
+   * AttestationTokenResponse. (apps.exchangeSafetyNetToken)
+   *
+   * @param string $app Required. The relative resource name of the Android app,
+   * in the format: ``` projects/{project_number}/apps/{app_id} ``` If necessary,
+   * the `project_number` element can be replaced with the project ID of the
+   * Firebase project. Learn more about using project identifiers in Google's [AIP
+   * 2510](https://google.aip.dev/cloud/2510) standard.
+   * @param GoogleFirebaseAppcheckV1betaExchangeSafetyNetTokenRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleFirebaseAppcheckV1betaAttestationTokenResponse
+   */
+  public function exchangeSafetyNetToken($app, GoogleFirebaseAppcheckV1betaExchangeSafetyNetTokenRequest $postBody, $optParams = [])
+  {
+    $params = ['app' => $app, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('exchangeSafetyNetToken', [$params], GoogleFirebaseAppcheckV1betaAttestationTokenResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsApps::class, 'Google_Service_Firebaseappcheck_Resource_ProjectsApps');

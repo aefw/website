@@ -1,119 +1,336 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-8+Dk2gX4rwaFmZdwMZsYFmwJGwdGxxLu
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DatabaseMigrationService\Resource;
+
+use Google\Service\DatabaseMigrationService\GenerateSshScriptRequest;
+use Google\Service\DatabaseMigrationService\ListMigrationJobsResponse;
+use Google\Service\DatabaseMigrationService\MigrationJob;
+use Google\Service\DatabaseMigrationService\Operation;
+use Google\Service\DatabaseMigrationService\Policy;
+use Google\Service\DatabaseMigrationService\PromoteMigrationJobRequest;
+use Google\Service\DatabaseMigrationService\RestartMigrationJobRequest;
+use Google\Service\DatabaseMigrationService\ResumeMigrationJobRequest;
+use Google\Service\DatabaseMigrationService\SetIamPolicyRequest;
+use Google\Service\DatabaseMigrationService\SshScript;
+use Google\Service\DatabaseMigrationService\StartMigrationJobRequest;
+use Google\Service\DatabaseMigrationService\StopMigrationJobRequest;
+use Google\Service\DatabaseMigrationService\TestIamPermissionsRequest;
+use Google\Service\DatabaseMigrationService\TestIamPermissionsResponse;
+use Google\Service\DatabaseMigrationService\VerifyMigrationJobRequest;
+
+/**
+ * The "migrationJobs" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $datamigrationService = new Google\Service\DatabaseMigrationService(...);
+ *   $migrationJobs = $datamigrationService->migrationJobs;
+ *  </code>
+ */
+class ProjectsLocationsMigrationJobs extends \Google\Service\Resource
+{
+  /**
+   * Creates a new migration job in a given project and location.
+   * (migrationJobs.create)
+   *
+   * @param string $parent Required. The parent, which owns this collection of
+   * migration jobs.
+   * @param MigrationJob $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string migrationJobId Required. The ID of the instance to create.
+   * @opt_param string requestId A unique id used to identify the request. If the
+   * server receives two requests with the same id, then the second request will
+   * be ignored. It is recommended to always set this value to a UUID. The id must
+   * contain only letters (a-z, A-Z), numbers (0-9), underscores (_), and hyphens
+   * (-). The maximum length is 40 characters.
+   * @return Operation
+   */
+  public function create($parent, MigrationJob $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Operation::class);
+  }
+  /**
+   * Deletes a single migration job. (migrationJobs.delete)
+   *
+   * @param string $name Required. Name of the migration job resource to delete.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool force The destination CloudSQL connection profile is always
+   * deleted with the migration job. In case of force delete, the destination
+   * CloudSQL replica database is also deleted.
+   * @opt_param string requestId A unique id used to identify the request. If the
+   * server receives two requests with the same id, then the second request will
+   * be ignored. It is recommended to always set this value to a UUID. The id must
+   * contain only letters (a-z, A-Z), numbers (0-9), underscores (_), and hyphens
+   * (-). The maximum length is 40 characters.
+   * @return Operation
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Generate a SSH configuration script to configure the reverse SSH
+   * connectivity. (migrationJobs.generateSshScript)
+   *
+   * @param string $migrationJob Name of the migration job resource to generate
+   * the SSH script.
+   * @param GenerateSshScriptRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return SshScript
+   */
+  public function generateSshScript($migrationJob, GenerateSshScriptRequest $postBody, $optParams = [])
+  {
+    $params = ['migrationJob' => $migrationJob, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('generateSshScript', [$params], SshScript::class);
+  }
+  /**
+   * Gets details of a single migration job. (migrationJobs.get)
+   *
+   * @param string $name Required. Name of the migration job resource to get.
+   * @param array $optParams Optional parameters.
+   * @return MigrationJob
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], MigrationJob::class);
+  }
+  /**
+   * Gets the access control policy for a resource. Returns an empty policy if the
+   * resource exists and does not have a policy set. (migrationJobs.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int options.requestedPolicyVersion Optional. The policy format
+   * version to be returned. Valid values are 0, 1, and 3. Requests specifying an
+   * invalid value will be rejected. Requests for policies with any conditional
+   * bindings must specify version 3. Policies without any conditional bindings
+   * may specify any valid value or leave the field unset. To learn which
+   * resources support conditions in their IAM policies, see the [IAM
+   * documentation](https://cloud.google.com/iam/help/conditions/resource-
+   * policies).
+   * @return Policy
+   */
+  public function getIamPolicy($resource, $optParams = [])
+  {
+    $params = ['resource' => $resource];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Lists migration jobs in a given project and location.
+   * (migrationJobs.listProjectsLocationsMigrationJobs)
+   *
+   * @param string $parent Required. The parent, which owns this collection of
+   * migrationJobs.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters migration jobs
+   * listed in the response. The expression must specify the field name, a
+   * comparison operator, and the value that you want to use for filtering. The
+   * value must be a string, a number, or a boolean. The comparison operator must
+   * be either =, !=, >, or <. For example, list migration jobs created this year
+   * by specifying **createTime %gt; 2020-01-01T00:00:00.000000000Z.** You can
+   * also filter nested fields. For example, you could specify
+   * **reverseSshConnectivity.vmIp = "1.2.3.4"** to select all migration jobs
+   * connecting through the specific SSH tunnel bastion.
+   * @opt_param string orderBy Sort the results based on the migration job name.
+   * Valid values are: "name", "name asc", and "name desc".
+   * @opt_param int pageSize The maximum number of migration jobs to return. The
+   * service may return fewer than this value. If unspecified, at most 50
+   * migration jobs will be returned. The maximum value is 1000; values above 1000
+   * will be coerced to 1000.
+   * @opt_param string pageToken The nextPageToken value received in the previous
+   * call to migrationJobs.list, used in the subsequent request to retrieve the
+   * next page of results. On first call this should be left blank. When
+   * paginating, all other parameters provided to migrationJobs.list must match
+   * the call that provided the page token.
+   * @return ListMigrationJobsResponse
+   */
+  public function listProjectsLocationsMigrationJobs($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListMigrationJobsResponse::class);
+  }
+  /**
+   * Updates the parameters of a single migration job. (migrationJobs.patch)
+   *
+   * @param string $name The name (URI) of this migration job resource, in the
+   * form of: projects/{project}/locations/{location}/instances/{instance}.
+   * @param MigrationJob $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId A unique id used to identify the request. If the
+   * server receives two requests with the same id, then the second request will
+   * be ignored. It is recommended to always set this value to a UUID. The id must
+   * contain only letters (a-z, A-Z), numbers (0-9), underscores (_), and hyphens
+   * (-). The maximum length is 40 characters.
+   * @opt_param string updateMask Required. Field mask is used to specify the
+   * fields to be overwritten in the migration job resource by the update.
+   * @return Operation
+   */
+  public function patch($name, MigrationJob $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+  /**
+   * Promote a migration job, stopping replication to the destination and
+   * promoting the destination to be a standalone database.
+   * (migrationJobs.promote)
+   *
+   * @param string $name Name of the migration job resource to promote.
+   * @param PromoteMigrationJobRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function promote($name, PromoteMigrationJobRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('promote', [$params], Operation::class);
+  }
+  /**
+   * Restart a stopped or failed migration job, resetting the destination instance
+   * to its original state and starting the migration process from scratch.
+   * (migrationJobs.restart)
+   *
+   * @param string $name Name of the migration job resource to restart.
+   * @param RestartMigrationJobRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function restart($name, RestartMigrationJobRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('restart', [$params], Operation::class);
+  }
+  /**
+   * Resume a migration job that is currently stopped and is resumable (was
+   * stopped during CDC phase). (migrationJobs.resume)
+   *
+   * @param string $name Name of the migration job resource to resume.
+   * @param ResumeMigrationJobRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function resume($name, ResumeMigrationJobRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('resume', [$params], Operation::class);
+  }
+  /**
+   * Sets the access control policy on the specified resource. Replaces any
+   * existing policy. Can return `NOT_FOUND`, `INVALID_ARGUMENT`, and
+   * `PERMISSION_DENIED` errors. (migrationJobs.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Start an already created migration job. (migrationJobs.start)
+   *
+   * @param string $name Name of the migration job resource to start.
+   * @param StartMigrationJobRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function start($name, StartMigrationJobRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('start', [$params], Operation::class);
+  }
+  /**
+   * Stops a running migration job. (migrationJobs.stop)
+   *
+   * @param string $name Name of the migration job resource to stop.
+   * @param StopMigrationJobRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function stop($name, StopMigrationJobRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('stop', [$params], Operation::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource. If the
+   * resource does not exist, this will return an empty set of permissions, not a
+   * `NOT_FOUND` error. Note: This operation is designed to be used for building
+   * permission-aware UIs and command-line tools, not for authorization checking.
+   * This operation may "fail open" without warning.
+   * (migrationJobs.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+  /**
+   * Verify a migration job, making sure the destination can reach the source and
+   * that all configuration and prerequisites are met. (migrationJobs.verify)
+   *
+   * @param string $name Name of the migration job resource to verify.
+   * @param VerifyMigrationJobRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function verify($name, VerifyMigrationJobRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('verify', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsMigrationJobs::class, 'Google_Service_DatabaseMigrationService_Resource_ProjectsLocationsMigrationJobs');

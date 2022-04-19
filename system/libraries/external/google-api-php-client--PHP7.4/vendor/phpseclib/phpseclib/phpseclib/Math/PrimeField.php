@@ -1,65 +1,114 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-YeWT1vXvzHzE7UsklE/Q7W==
+<?php
+
+/**
+ * Prime Finite Fields
+ *
+ * Utilizes the factory design pattern
+ *
+ * PHP version 5 and 7
+ *
+ * @category  Math
+ * @package   BigInteger
+ * @author    Jim Wigginton <terrafrost@php.net>
+ * @copyright 2017 Jim Wigginton
+ * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      http://pear.php.net/package/Math_BigInteger
+ */
+
+namespace phpseclib3\Math;
+
+use phpseclib3\Math\Common\FiniteField;
+use phpseclib3\Math\PrimeField\Integer;
+
+/**
+ * Prime Finite Fields
+ *
+ * @package Math
+ * @author  Jim Wigginton <terrafrost@php.net>
+ * @access  public
+ */
+class PrimeField extends FiniteField
+{
+    /**
+     * Instance Counter
+     *
+     * @var int
+     */
+    private static $instanceCounter = 0;
+
+    /**
+     * Keeps track of current instance
+     *
+     * @var int
+     */
+    protected $instanceID;
+
+    /**
+     * Default constructor
+     */
+    public function __construct(BigInteger $modulo)
+    {
+        //if (!$modulo->isPrime()) {
+        //    throw new \UnexpectedValueException('PrimeField requires a prime number be passed to the constructor');
+        //}
+
+        $this->modulo = $modulo;
+
+        $this->instanceID = self::$instanceCounter++;
+        Integer::setModulo($this->instanceID, $modulo);
+        Integer::setRecurringModuloFunction($this->instanceID, $modulo->createRecurringModuloFunction());
+    }
+
+    /**
+     * Use a custom defined modular reduction function
+     */
+    public function setReduction(callable $func)
+    {
+        $this->reduce = $func->bindTo($this, $this);
+    }
+
+    /**
+     * Returns an instance of a dynamically generated PrimeFieldInteger class
+     *
+     * @return object
+     */
+    public function newInteger(BigInteger $num)
+    {
+        return new Integer($this->instanceID, $num);
+    }
+
+    /**
+     * Returns an integer on the finite field between one and the prime modulo
+     *
+     * @return object
+     */
+    public function randomInteger()
+    {
+        static $one;
+        if (!isset($one)) {
+            $one = new BigInteger(1);
+        }
+
+        return new Integer($this->instanceID, BigInteger::randomRange($one, Integer::getModulo($this->instanceID)));
+    }
+
+    /**
+     * Returns the length of the modulo in bytes
+     *
+     * @return integer
+     */
+    public function getLengthInBytes()
+    {
+        return Integer::getModulo($this->instanceID)->getLengthInBytes();
+    }
+
+    /**
+     * Returns the length of the modulo in bits
+     *
+     * @return integer
+     */
+    public function getLength()
+    {
+        return Integer::getModulo($this->instanceID)->getLength();
+    }
+}

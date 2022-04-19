@@ -1,70 +1,176 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-bGcfnndL61eLpQQ7ROkp
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Classroom\Resource;
+
+use Google\Service\Classroom\ClassroomEmpty;
+use Google\Service\Classroom\Course;
+use Google\Service\Classroom\ListCoursesResponse;
+
+/**
+ * The "courses" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $classroomService = new Google\Service\Classroom(...);
+ *   $courses = $classroomService->courses;
+ *  </code>
+ */
+class Courses extends \Google\Service\Resource
+{
+  /**
+   * Creates a course. The user specified in `ownerId` is the owner of the created
+   * course and added as a teacher. This method returns the following error codes:
+   * * `PERMISSION_DENIED` if the requesting user is not permitted to create
+   * courses or for access errors. * `NOT_FOUND` if the primary teacher is not a
+   * valid user. * `FAILED_PRECONDITION` if the course owner's account is disabled
+   * or for the following request errors: * UserGroupsMembershipLimitReached *
+   * `ALREADY_EXISTS` if an alias was specified in the `id` and already exists.
+   * (courses.create)
+   *
+   * @param Course $postBody
+   * @param array $optParams Optional parameters.
+   * @return Course
+   */
+  public function create(Course $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Course::class);
+  }
+  /**
+   * Deletes a course. This method returns the following error codes: *
+   * `PERMISSION_DENIED` if the requesting user is not permitted to delete the
+   * requested course or for access errors. * `NOT_FOUND` if no course exists with
+   * the requested ID. (courses.delete)
+   *
+   * @param string $id Identifier of the course to delete. This identifier can be
+   * either the Classroom-assigned identifier or an alias.
+   * @param array $optParams Optional parameters.
+   * @return ClassroomEmpty
+   */
+  public function delete($id, $optParams = [])
+  {
+    $params = ['id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], ClassroomEmpty::class);
+  }
+  /**
+   * Returns a course. This method returns the following error codes: *
+   * `PERMISSION_DENIED` if the requesting user is not permitted to access the
+   * requested course or for access errors. * `NOT_FOUND` if no course exists with
+   * the requested ID. (courses.get)
+   *
+   * @param string $id Identifier of the course to return. This identifier can be
+   * either the Classroom-assigned identifier or an alias.
+   * @param array $optParams Optional parameters.
+   * @return Course
+   */
+  public function get($id, $optParams = [])
+  {
+    $params = ['id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Course::class);
+  }
+  /**
+   * Returns a list of courses that the requesting user is permitted to view,
+   * restricted to those that match the request. Returned courses are ordered by
+   * creation time, with the most recently created coming first. This method
+   * returns the following error codes: * `PERMISSION_DENIED` for access errors. *
+   * `INVALID_ARGUMENT` if the query argument is malformed. * `NOT_FOUND` if any
+   * users specified in the query arguments do not exist. (courses.listCourses)
+   *
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string courseStates Restricts returned courses to those in one of
+   * the specified states The default value is ACTIVE, ARCHIVED, PROVISIONED,
+   * DECLINED.
+   * @opt_param int pageSize Maximum number of items to return. Zero or
+   * unspecified indicates that the server may assign a maximum. The server may
+   * return fewer than the specified number of results.
+   * @opt_param string pageToken nextPageToken value returned from a previous list
+   * call, indicating that the subsequent page of results should be returned. The
+   * list request must be otherwise identical to the one that resulted in this
+   * token.
+   * @opt_param string studentId Restricts returned courses to those having a
+   * student with the specified identifier. The identifier can be one of the
+   * following: * the numeric identifier for the user * the email address of the
+   * user * the string literal `"me"`, indicating the requesting user
+   * @opt_param string teacherId Restricts returned courses to those having a
+   * teacher with the specified identifier. The identifier can be one of the
+   * following: * the numeric identifier for the user * the email address of the
+   * user * the string literal `"me"`, indicating the requesting user
+   * @return ListCoursesResponse
+   */
+  public function listCourses($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListCoursesResponse::class);
+  }
+  /**
+   * Updates one or more fields in a course. This method returns the following
+   * error codes: * `PERMISSION_DENIED` if the requesting user is not permitted to
+   * modify the requested course or for access errors. * `NOT_FOUND` if no course
+   * exists with the requested ID. * `INVALID_ARGUMENT` if invalid fields are
+   * specified in the update mask or if no update mask is supplied. *
+   * `FAILED_PRECONDITION` for the following request errors: * CourseNotModifiable
+   * (courses.patch)
+   *
+   * @param string $id Identifier of the course to update. This identifier can be
+   * either the Classroom-assigned identifier or an alias.
+   * @param Course $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Mask that identifies which fields on the course
+   * to update. This field is required to do an update. The update will fail if
+   * invalid fields are specified. The following fields are valid: * `name` *
+   * `section` * `descriptionHeading` * `description` * `room` * `courseState` *
+   * `ownerId` Note: patches to ownerId are treated as being effective
+   * immediately, but in practice it may take some time for the ownership transfer
+   * of all affected resources to complete. When set in a query parameter, this
+   * field should be specified as `updateMask=,,...`
+   * @return Course
+   */
+  public function patch($id, Course $postBody, $optParams = [])
+  {
+    $params = ['id' => $id, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Course::class);
+  }
+  /**
+   * Updates a course. This method returns the following error codes: *
+   * `PERMISSION_DENIED` if the requesting user is not permitted to modify the
+   * requested course or for access errors. * `NOT_FOUND` if no course exists with
+   * the requested ID. * `FAILED_PRECONDITION` for the following request errors: *
+   * CourseNotModifiable (courses.update)
+   *
+   * @param string $id Identifier of the course to update. This identifier can be
+   * either the Classroom-assigned identifier or an alias.
+   * @param Course $postBody
+   * @param array $optParams Optional parameters.
+   * @return Course
+   */
+  public function update($id, Course $postBody, $optParams = [])
+  {
+    $params = ['id' => $id, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Course::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Courses::class, 'Google_Service_Classroom_Resource_Courses');

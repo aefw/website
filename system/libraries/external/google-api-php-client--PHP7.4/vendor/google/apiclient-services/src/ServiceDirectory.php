@@ -1,70 +1,431 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPmiRCkGcpeRBJzIdnnFdSSCp09TAI1VpgTz+NMZvjnOhUkYsvGqXM32/XeSdgUenmuLZr4U+
-DcozksnOSPcbcqcyyLlQ8PHYQf8UEQcLYFg8rqJaO3Pb4Ste88JUkFLG9pWO+bU8Gjkr3OYwfugO
-7FMt4Nos1FHjtdilJSTX3dosr8RrLZRlz055amqcquv0bsBr4UfhkqV+eKdX/+yjG/qoh+YA75yv
-yxKDVhqs+SYt6bRlZkCey3CTN79JdrcKLy9dJZECICw8oG4BQ251T40lq0lYS5CkDLI4g2o1fZvA
-1ULL9N188s6b2+wVUjBXY5Ii9Lvd51ZePllNKfuuWePd2Qk1jWzeEOR7tmOKgk13BdiNjIpVH3+R
-ATm8hDcVRa+5OtOTIhrFw++dysSnpFrY1tjIayzaNlfmwnmj4MKCyN6iqJbiUID77zH4iRLjXdf0
-mVNEJWxfE6PZLPvQD7oTvsUoPVqxIn+APnIycw571hRSJXMMLzG2rpzVyTZB6xbGrfHsIXMrSMeg
-kH9mT3x8DpAMDBUQjSI3RK2LyJ9m+KMH/H1PluM/fpIQWRAVZc3HNzRvJfDu737haxy5GuRar4MR
-WoKkfoXmc4zDgDMd57pWwc2Ytitx0GS0b3bJ4wqKs8s+x3WfEPgBXyHHJPffevsJrpy6VVbHQboY
-9JLDylA5mQminkS2bxoIJuwZ0yy3Gjfd+8nOiTkmqS7/WH/STRvfNaeG3T/A31T2dxN7e/ISDeMf
-DwRu6FmuAIrAEqd4A93gGP7NRBaInjRCSav8OjGm03QzsEFMn2Zwh1w4ZV0+J6P5TVNtirG8rUpd
-SIZfSNRWbZ6kiEixezGza+ZR4f+LdyIotmhpFRnMTYipBDQycsNCxJJ42PXKfLMrZKoDzLwFI5/q
-DYnMSsem+FxM4ha97vtrVIG7//1bZLCJGFU0R4yY6UTNxarOLdjue6H2qTr4r/Hm4wXuH/uub/XF
-8cMv9JAc+Nc8iO2amZzzi6taSwb48fw1R1v0I9Q5rBEogSLD1jGV+maRrOryQEE558y1D5tSbKPm
-2qai+RvQRLSxvRLXsgtCQD+fjQVkjAZfPsb2TAZZUZNo6K6M+joDj3w/Ny00lPZ89lbGMoAjGAq+
-+41O8LAS+JOEdg5SwLdeBUqHvfLxv2DIJ/Q9V5QjQ2nV3zj888MAweZB7UL/z+Vf52zScJLQ1PrR
-aN3snyL4bKLxo/LOrSBBD+Vql5ReTM0Zxk27iEYAVD+YGN+WdYYWGa8bf2MeEVbLwUfaBnlKp9Ms
-HROFGVF8OwHt2ZG9SzOwlof9AXlC0bhZ3/DZtDtHiid1UBwIg4/TaWDp0/zbxeZ8IXItWseknPHY
-Mnankf+BdsA9PesmEXA7ajYLFMphaQTttYEffooY3tyfdDmviH3nOW5H7EfGgzmkWyLWXpa9/u4g
-644LdJ4MzcjtM0vvJIiqiEpqkpf1rU/gDKDLgYVeOqUZnDO3LlDn/EuQO1PxXkfmgEDvfmtglhHh
-u21oWw6v240VI1V2iw5QhqZErpupAzw8pdjdll/utOo24j7UajieTofJKRFc2qcE+GYIeLSK0dY4
-jBZi0vJaWuFKZb+U5XQiC5fs0snAaaCKg5U+Z0zrSte8n8K9pWQxEEwPZihEcEvin+S5xi+tF+9X
-GXL/sdBnHlR/QXISt7pZijx1uKWCoc9mKFPXpSv5XR9Hdes0D3xjZtL7QbFb3SArDfJJVi4kIuSn
-xQP3cKyTYNNtdZRFWdmeVrVMdy/iyqVv57t1Yaytpk5uwAFKcYvorhmv3Yj/H6C2jdV4psoWlW5p
-3SFSqE80oJBPQBs03EH/rx6im2d32p1/rFgRbTvnWMcwEegfbU0CCsi746mw6brlodVyJmhWUJCp
-l8rmzI6RM22mUGUrpZlh1g614rc07aWX1cDXL778tNHS5KtuIieCmpjvNwrAyl5dGrSqLg+5kRMl
-VAq9lZ8V+vqNGswK18rk0Ji2gHVAAL0srOmF3jvyo14Qr9ne7mOKIdRXa1NzD0nFZcM4Ct4ANpjR
-xAOYIgY9kPKjbkxydAMVuKcu7Jq1StRkZFK6zFgleSHM5ufZX5we74NRjg3nLsHOmY68xMWez1nO
-icwgcQnGp2uwjva3E5RH3t1xV7l8OKWhVlSE32JQQx/tr/0oSL0ogJfVCM1Shm81MRe4cWxe32BE
-aAlLPuhOrQu7WMP7GNu8iOoQL8hnzmwcf+nR0i/f2+j4vfI6FjLOtn4Bumt/K9OzHDRhvpAyyphw
-Ci+2KXXaOb0i1zrGoVbuX0hugzxKkoUVUqgh3cDJlHl4I9p17TQybGCDJQGEwPmu1xuoGr0lzMGG
-KQsT5oVyemCb7bz5pVhhpYMHBNA7Q1Nota8fl3LEzJT7vPPT711FZfeNt49ZHQYnsEY0m1/OIQbs
-8P4fGnxjDy6PnQSaskNAXpaWUgNYcgbiNvpa8FDHfTViIiiO9YUizzNcGYqS6buGNljCOcQsGXpr
-ImSXIFTwgC01QEFy1bjmnLT2ZeOpC2hNAIqRkQTPNSYr6ZAJv0O0npYB7jEjMyqgjIAZJV4L9F5k
-n0/tHFs06P8adZDLlusY9XY+hSaJ8yurMVuFzIftZy8tVfyJIaEBoPZgAmvANv7HY0pgJcv/YSef
-CG1AdPg3JYU11Wh6LFqES5Xm6sk7Yon/jSaup48Gsib7iLSb7bPBCLdftrEi4/HCPTU9L0qZJCEi
-7QRjZmVltQ66Gx7s8JXX+G2GUCllR5AuJAtlFQhJFRLYqqpuAaPR0Kg4y3w8n6pw+GmpBe4R06uj
-SWPR15RnhYe2/Kv0HdGsD/oPchc9fQOUaJGD6Y7LqE2J/mVQxCpAnOZyBLSQRuqqIh7gfAzysURL
-VotJ0Ta/6W4WpNCHB06tpHSCK4KePkPzG3TGxIBfMP/Y8AYY796AdvAduoexl1HtXkYb1TzSVy6e
-IOaDleToWObaY1DEsRO0fVcwyBKdXPuaiZEHCIpoPQkIer+YbVb/LfUB5nzE1l5o53H7pR75THRX
-VWU1o7EM0ofLgSvL6dwYfIc2Tq8herTYiDp7tPDZkTfbtlbhHrCBa0H8MI3ECSA5hXGYlagtoyiR
-rw5Q032r1c1ee3KzzvoRCEhsQi/CTB5IA+3Nkwcitn8U4BET2XGJ4oiuL/twhpA1xL5ODEUhI6GS
-V3Wes6kpf55oz4qvLxsXXBFkIK03yvRErf7Y+N54Bh6N9u5GQ3wSW8KB7RQ7fELmqXKmHF3Lcwk0
-CI6MlNQLWjrqRf2YJmKG9MqMn8xhdftvdS40UUuxXF09npQWj/SKOdVhr16kqOj8VcQDUX4oBnKV
-NosYxVI64SjWKahykGN1V1oZ+cO/m5gA9BoJtiAjmR1vmyo8r1qvfAgyWfjIVLhDMq2L1PsrwDWO
-SGitbxYxdNNYee+MRwMPzzieSUAjdW000nwI6//poMEAAf+A+ew9C8kP3/3U+7rSr7axnKe1Q2y8
-UBg7arBH7jiUR4ySECYizQ4CdlBZBW/kAIpor7A5ilahsF70OOTT8IReCpJqJBnJXWSA6med7A1q
-9enk+VqPehbQ6vDElPcmw51bqSmeElslRYe2V1VKxqoUL8xltMyx4avuX9wUHIUFwQSvELd+13gJ
-qeiA8UlA3AWgaFKKS+IIlyMLHz+iUH/34DLyNPYvolyosd+llyo1WDP+XYhaUo0z5J6cyVHLWiG0
-wODHvL/4dm+xsZOOBYzqN91vLL/zdhU+MD2NZmqljaNVUtytlxgauHQTIQJry163upDaYdgPpBmB
-EyoRoVQ13BcdP8lFQILW/zqwmGMrahabm+4jcgDLAgNwZxCjaC//n5wg2eEUODiVqfZOXCB1a4m9
-H/CEEdYGGT5WjEGiC3zYf5GRDHdZLvIZsUf1d8pkO6w04FQ7NZc07ltjYltBfifAILcccKF82qTx
-+SiQQmLSXIiuq2wIgbozpEQLR0ZHf0x8jUupadaRavUvWgVDVnS/tpcPRGm9spUiqnE1AXMDq+81
-eocsIglzOOH+ZpXK8PLgljVWGKGkvS1/faZmeDl+tOmVmzELxHy3mNVwmRL819OIYs/CfDuo/y2c
-oz9aM5aYQHKQIQjCwDjwETEbsLbhLR6ieuvgTfkoXxvD4DeXLB+FH/DL+Y3y9uUA3R6Tf5xtR4+/
-Mp/OulWThTrsggnJJBAYMW6fUlvScRZ2C9RZaRSgtaDR98ld+XRZ9eUyzmHkNVHeCD0ELPglSs+f
-TMmxgBscEPgiLDglxqlB4QsmAFtHeCVO+dBCBO5qbi/EqT1pTFzHsW072rte1BGjL2h0hwKEOp86
-DvVLovinvcqjFx+42sxd4hzlhlKZgyiEHl1pRp1qZGkOR/Tegsd2sLRiq6s2eMv02D7WMWpBr75u
-W8pwOHcsZkkA2C3eOSxIok1dNLoQf/ZkK8dH8VpUAB3H/t9j0QHA9pNquisQ98P2KWUYMG/pMA/X
-qBBhrPf6mywQIVf4WB8n0l4B0f7u524NnAvSZospA1OMyVaXcNoESKqI+BvgmmKtGT+awmbxhe+h
-pbspZJwYRKq3/O+v0AF5HXxslqWKAeIIilR1iGoTjUa/CorLGFZrcPs4My2qAHY7Nv1XdJVPoc16
-tdc2y9CiOYUA13q1mqCMzGXX5zs2AEeCojPUc0+TEViWwX1d8FmVm6q5J7/a7WMspKhrWbqJKyyq
-7TIDqvvAFl0970Sw+HYdLw4LA5B+xtbP16MjT5bTuc0xWU8Px7FSPu/RvljH5YG/Sx68a8uOiqHO
-gymQgVLW5/bmXUpw6DSpFk9b0DlFy2t7hR6DQ3e=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for ServiceDirectory (v1).
+ *
+ * <p>
+ * Service Directory is a platform for discovering, publishing, and connecting
+ * services.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/service-directory" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class ServiceDirectory extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+
+  public $projects_locations;
+  public $projects_locations_namespaces;
+  public $projects_locations_namespaces_services;
+  public $projects_locations_namespaces_services_endpoints;
+
+  /**
+   * Constructs the internal representation of the ServiceDirectory service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://servicedirectory.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'servicedirectory';
+
+    $this->projects_locations = new ServiceDirectory\Resource\ProjectsLocations(
+        $this,
+        $this->serviceName,
+        'locations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+name}/locations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_namespaces = new ServiceDirectory\Resource\ProjectsLocationsNamespaces(
+        $this,
+        $this->serviceName,
+        'namespaces',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/namespaces',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'namespaceId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1/{+resource}:getIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/namespaces',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_namespaces_services = new ServiceDirectory\Resource\ProjectsLocationsNamespacesServices(
+        $this,
+        $this->serviceName,
+        'services',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/services',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'serviceId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1/{+resource}:getIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/services',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'resolve' => [
+              'path' => 'v1/{+name}:resolve',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_locations_namespaces_services_endpoints = new ServiceDirectory\Resource\ProjectsLocationsNamespacesServicesEndpoints(
+        $this,
+        $this->serviceName,
+        'endpoints',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/endpoints',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'endpointId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/endpoints',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ServiceDirectory::class, 'Google_Service_ServiceDirectory');

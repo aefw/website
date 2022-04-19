@@ -1,97 +1,388 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute\Resource;
+
+use Google\Service\Compute\Operation;
+use Google\Service\Compute\Router;
+use Google\Service\Compute\RouterAggregatedList;
+use Google\Service\Compute\RouterList;
+use Google\Service\Compute\RouterStatusResponse;
+use Google\Service\Compute\RoutersPreviewResponse;
+use Google\Service\Compute\VmEndpointNatMappingsList;
+
+/**
+ * The "routers" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $computeService = new Google\Service\Compute(...);
+ *   $routers = $computeService->routers;
+ *  </code>
+ */
+class Routers extends \Google\Service\Resource
+{
+  /**
+   * Retrieves an aggregated list of routers. (routers.aggregatedList)
+   *
+   * @param string $project Project ID for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param bool includeAllScopes Indicates whether every visible scope for
+   * each scope type (zone, region, global) should be included in the response.
+   * For new resource types added after this field, the flag has no effect as new
+   * resource types will always include every visible scope for each scope type in
+   * response. For resource types which predate this field, if this flag is
+   * omitted or false, only scopes of the scope types where the resource type is
+   * expected to be found will be included.
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return RouterAggregatedList
+   */
+  public function aggregatedList($project, $optParams = [])
+  {
+    $params = ['project' => $project];
+    $params = array_merge($params, $optParams);
+    return $this->call('aggregatedList', [$params], RouterAggregatedList::class);
+  }
+  /**
+   * Deletes the specified Router resource. (routers.delete)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region for this request.
+   * @param string $router Name of the Router resource to delete.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function delete($project, $region, $router, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'router' => $router];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Returns the specified Router resource. Gets a list of available routers by
+   * making a list() request. (routers.get)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region for this request.
+   * @param string $router Name of the Router resource to return.
+   * @param array $optParams Optional parameters.
+   * @return Router
+   */
+  public function get($project, $region, $router, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'router' => $router];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Router::class);
+  }
+  /**
+   * Retrieves runtime Nat mapping information of VM endpoints.
+   * (routers.getNatMappingInfo)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region for this request.
+   * @param string $router Name of the Router resource to query for Nat Mapping
+   * information of VM endpoints.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return VmEndpointNatMappingsList
+   */
+  public function getNatMappingInfo($project, $region, $router, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'router' => $router];
+    $params = array_merge($params, $optParams);
+    return $this->call('getNatMappingInfo', [$params], VmEndpointNatMappingsList::class);
+  }
+  /**
+   * Retrieves runtime information of the specified router.
+   * (routers.getRouterStatus)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region for this request.
+   * @param string $router Name of the Router resource to query.
+   * @param array $optParams Optional parameters.
+   * @return RouterStatusResponse
+   */
+  public function getRouterStatus($project, $region, $router, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'router' => $router];
+    $params = array_merge($params, $optParams);
+    return $this->call('getRouterStatus', [$params], RouterStatusResponse::class);
+  }
+  /**
+   * Creates a Router resource in the specified project and region using the data
+   * included in the request. (routers.insert)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region for this request.
+   * @param Router $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function insert($project, $region, Router $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Operation::class);
+  }
+  /**
+   * Retrieves a list of Router resources available to the specified project.
+   * (routers.listRouters)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return RouterList
+   */
+  public function listRouters($project, $region, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], RouterList::class);
+  }
+  /**
+   * Patches the specified Router resource with the data included in the request.
+   * This method supports PATCH semantics and uses JSON merge patch format and
+   * processing rules. (routers.patch)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region for this request.
+   * @param string $router Name of the Router resource to patch.
+   * @param Router $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function patch($project, $region, $router, Router $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'router' => $router, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+  /**
+   * Preview fields auto-generated during router create and update operations.
+   * Calling this method does NOT create or update the router. (routers.preview)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region for this request.
+   * @param string $router Name of the Router resource to query.
+   * @param Router $postBody
+   * @param array $optParams Optional parameters.
+   * @return RoutersPreviewResponse
+   */
+  public function preview($project, $region, $router, Router $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'router' => $router, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('preview', [$params], RoutersPreviewResponse::class);
+  }
+  /**
+   * Updates the specified Router resource with the data included in the request.
+   * This method conforms to PUT semantics, which requests that the state of the
+   * target resource be created or replaced with the state defined by the
+   * representation enclosed in the request message payload. (routers.update)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region for this request.
+   * @param string $router Name of the Router resource to update.
+   * @param Router $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function update($project, $region, $router, Router $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'router' => $router, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Routers::class, 'Google_Service_Compute_Resource_Routers');

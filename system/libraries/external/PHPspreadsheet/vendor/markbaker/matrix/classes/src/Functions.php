@@ -1,138 +1,337 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-ftNklIq=
+<?php
+
+namespace Matrix;
+
+class Functions
+{
+    /**
+     * Calculate the adjoint of the matrix
+     *
+     * @param Matrix $matrix The matrix whose adjoint we wish to calculate
+     * @return Matrix
+     *
+     * @throws Exception
+     */
+    private static function getAdjoint(Matrix $matrix)
+    {
+        return self::transpose(
+            self::getCofactors($matrix)
+        );
+    }
+
+    /**
+     * Return the adjoint of this matrix
+     * The adjugate, classical adjoint, or adjunct of a square matrix is the transpose of its cofactor matrix.
+     * The adjugate has sometimes been called the "adjoint", but today the "adjoint" of a matrix normally refers
+     *     to its corresponding adjoint operator, which is its conjugate transpose.
+     *
+     * @param Matrix $matrix The matrix whose adjoint we wish to calculate
+     * @return Matrix
+     * @throws Exception
+     **/
+    public static function adjoint(Matrix $matrix)
+    {
+        if (!$matrix->isSquare()) {
+            throw new Exception('Adjoint can only be calculated for a square matrix');
+        }
+
+        return self::getAdjoint($matrix);
+    }
+
+    /**
+     * Calculate the cofactors of the matrix
+     *
+     * @param Matrix $matrix The matrix whose cofactors we wish to calculate
+     * @return Matrix
+     *
+     * @throws Exception
+     */
+    private static function getCofactors(Matrix $matrix)
+    {
+        $cofactors = self::getMinors($matrix);
+        $dimensions = $matrix->rows;
+
+        $cof = 1;
+        for ($i = 0; $i < $dimensions; ++$i) {
+            $cofs = $cof;
+            for ($j = 0; $j < $dimensions; ++$j) {
+                $cofactors[$i][$j] *= $cofs;
+                $cofs = -$cofs;
+            }
+            $cof = -$cof;
+        }
+
+        return new Matrix($cofactors);
+    }
+
+    /**
+     * Return the cofactors of this matrix
+     *
+     * @param Matrix $matrix The matrix whose cofactors we wish to calculate
+     * @return Matrix
+     *
+     * @throws Exception
+     */
+    public static function cofactors(Matrix $matrix)
+    {
+        if (!$matrix->isSquare()) {
+            throw new Exception('Cofactors can only be calculated for a square matrix');
+        }
+
+        return self::getCofactors($matrix);
+    }
+
+    /**
+     * @param Matrix $matrix
+     * @param int $row
+     * @param int $column
+     * @return float
+     * @throws Exception
+     */
+    private static function getDeterminantSegment(Matrix $matrix, $row, $column)
+    {
+        $tmpMatrix = $matrix->toArray();
+        unset($tmpMatrix[$row]);
+        array_walk(
+            $tmpMatrix,
+            function (&$row) use ($column) {
+                unset($row[$column]);
+            }
+        );
+
+        return self::getDeterminant(new Matrix($tmpMatrix));
+    }
+
+    /**
+     * Calculate the determinant of the matrix
+     *
+     * @param Matrix $matrix The matrix whose determinant we wish to calculate
+     * @return float
+     *
+     * @throws Exception
+     */
+    private static function getDeterminant(Matrix $matrix)
+    {
+        $dimensions = $matrix->rows;
+        $determinant = 0;
+
+        switch ($dimensions) {
+            case 1:
+                $determinant = $matrix->getValue(1, 1);
+                break;
+            case 2:
+                $determinant = $matrix->getValue(1, 1) * $matrix->getValue(2, 2) -
+                    $matrix->getValue(1, 2) * $matrix->getValue(2, 1);
+                break;
+            default:
+                for ($i = 1; $i <= $dimensions; ++$i) {
+                    $det = $matrix->getValue(1, $i) * self::getDeterminantSegment($matrix, 0, $i - 1);
+                    if (($i % 2) == 0) {
+                        $determinant -= $det;
+                    } else {
+                        $determinant += $det;
+                    }
+                }
+                break;
+        }
+
+        return $determinant;
+    }
+
+    /**
+     * Return the determinant of this matrix
+     *
+     * @param Matrix $matrix The matrix whose determinant we wish to calculate
+     * @return float
+     * @throws Exception
+     **/
+    public static function determinant(Matrix $matrix)
+    {
+        if (!$matrix->isSquare()) {
+            throw new Exception('Determinant can only be calculated for a square matrix');
+        }
+
+        return self::getDeterminant($matrix);
+    }
+
+    /**
+     * Return the diagonal of this matrix
+     *
+     * @param Matrix $matrix The matrix whose diagonal we wish to calculate
+     * @return Matrix
+     * @throws Exception
+     **/
+    public static function diagonal(Matrix $matrix)
+    {
+        if (!$matrix->isSquare()) {
+            throw new Exception('Diagonal can only be extracted from a square matrix');
+        }
+
+        $dimensions = $matrix->rows;
+        $grid = Builder::createFilledMatrix(0, $dimensions, $dimensions)
+            ->toArray();
+
+        for ($i = 0; $i < $dimensions; ++$i) {
+            $grid[$i][$i] = $matrix->getValue($i + 1, $i + 1);
+        }
+
+        return new Matrix($grid);
+    }
+
+    /**
+     * Return the antidiagonal of this matrix
+     *
+     * @param Matrix $matrix The matrix whose antidiagonal we wish to calculate
+     * @return Matrix
+     * @throws Exception
+     **/
+    public static function antidiagonal(Matrix $matrix)
+    {
+        if (!$matrix->isSquare()) {
+            throw new Exception('Anti-Diagonal can only be extracted from a square matrix');
+        }
+
+        $dimensions = $matrix->rows;
+        $grid = Builder::createFilledMatrix(0, $dimensions, $dimensions)
+            ->toArray();
+
+        for ($i = 0; $i < $dimensions; ++$i) {
+            $grid[$i][$dimensions - $i - 1] = $matrix->getValue($i + 1, $dimensions - $i);
+        }
+
+        return new Matrix($grid);
+    }
+
+    /**
+     * Return the identity matrix
+     * The identity matrix, or sometimes ambiguously called a unit matrix, of size n is the n × n square matrix
+     *   with ones on the main diagonal and zeros elsewhere
+     *
+     * @param Matrix $matrix The matrix whose identity we wish to calculate
+     * @return Matrix
+     * @throws Exception
+     **/
+    public static function identity(Matrix $matrix)
+    {
+        if (!$matrix->isSquare()) {
+            throw new Exception('Identity can only be created for a square matrix');
+        }
+
+        $dimensions = $matrix->rows;
+
+        return Builder::createIdentityMatrix($dimensions);
+    }
+
+    /**
+     * Return the inverse of this matrix
+     *
+     * @param Matrix $matrix The matrix whose inverse we wish to calculate
+     * @return Matrix
+     * @throws Exception
+     **/
+    public static function inverse(Matrix $matrix)
+    {
+        if (!$matrix->isSquare()) {
+            throw new Exception('Inverse can only be calculated for a square matrix');
+        }
+
+        $determinant = self::getDeterminant($matrix);
+        if ($determinant == 0.0) {
+            throw new Exception('Inverse can only be calculated for a matrix with a non-zero determinant');
+        }
+
+        if ($matrix->rows == 1) {
+            return new Matrix([[1 / $matrix->getValue(1, 1)]]);
+        }
+
+        return self::getAdjoint($matrix)
+            ->multiply(1 / $determinant);
+    }
+
+    /**
+     * Calculate the minors of the matrix
+     *
+     * @param Matrix $matrix The matrix whose minors we wish to calculate
+     * @return array[]
+     *
+     * @throws Exception
+     */
+    protected static function getMinors(Matrix $matrix)
+    {
+        $minors = $matrix->toArray();
+        $dimensions = $matrix->rows;
+        if ($dimensions == 1) {
+            return $minors;
+        }
+
+        for ($i = 0; $i < $dimensions; ++$i) {
+            for ($j = 0; $j < $dimensions; ++$j) {
+                $minors[$i][$j] = self::getDeterminantSegment($matrix, $i, $j);
+            }
+        }
+
+        return $minors;
+    }
+
+    /**
+     * Return the minors of the matrix
+     * The minor of a matrix A is the determinant of some smaller square matrix, cut down from A by removing one or
+     *     more of its rows or columns.
+     * Minors obtained by removing just one row and one column from square matrices (first minors) are required for
+     *     calculating matrix cofactors, which in turn are useful for computing both the determinant and inverse of
+     *     square matrices.
+     *
+     * @param Matrix $matrix The matrix whose minors we wish to calculate
+     * @return Matrix
+     * @throws Exception
+     **/
+    public static function minors(Matrix $matrix)
+    {
+        if (!$matrix->isSquare()) {
+            throw new Exception('Minors can only be calculated for a square matrix');
+        }
+
+        return new Matrix(self::getMinors($matrix));
+    }
+
+    /**
+     * Return the trace of this matrix
+     * The trace is defined as the sum of the elements on the main diagonal (the diagonal from the upper left to the lower right)
+     *     of the matrix
+     *
+     * @param Matrix $matrix The matrix whose trace we wish to calculate
+     * @return float
+     * @throws Exception
+     **/
+    public static function trace(Matrix $matrix)
+    {
+        if (!$matrix->isSquare()) {
+            throw new Exception('Trace can only be extracted from a square matrix');
+        }
+
+        $dimensions = $matrix->rows;
+        $result = 0;
+        for ($i = 1; $i <= $dimensions; ++$i) {
+            $result += $matrix->getValue($i, $i);
+        }
+
+        return $result;
+    }
+
+    /**
+     * Return the transpose of this matrix
+     *
+     * @param Matrix $matrix The matrix whose transpose we wish to calculate
+     * @return Matrix
+     **/
+    public static function transpose(Matrix $matrix)
+    {
+        $array = array_values(array_merge([null], $matrix->toArray()));
+        $grid = call_user_func_array(
+            'array_map',
+            $array
+        );
+
+        return new Matrix($grid);
+    }
+}

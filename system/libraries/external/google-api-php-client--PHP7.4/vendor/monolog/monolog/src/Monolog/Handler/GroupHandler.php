@@ -1,81 +1,127 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php declare(strict_types=1);
+
+/*
+ * This file is part of the Monolog package.
+ *
+ * (c) Jordi Boggiano <j.boggiano@seld.be>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Monolog\Handler;
+
+use Monolog\Formatter\FormatterInterface;
+use Monolog\ResettableInterface;
+
+/**
+ * Forwards records to multiple handlers
+ *
+ * @author Lenar Lõhmus <lenar@city.ee>
+ */
+class GroupHandler extends Handler implements ProcessableHandlerInterface, ResettableInterface
+{
+    use ProcessableHandlerTrait;
+
+    /** @var HandlerInterface[] */
+    protected $handlers;
+    protected $bubble;
+
+    /**
+     * @param HandlerInterface[] $handlers Array of Handlers.
+     * @param bool               $bubble   Whether the messages that are handled can bubble up the stack or not
+     */
+    public function __construct(array $handlers, bool $bubble = true)
+    {
+        foreach ($handlers as $handler) {
+            if (!$handler instanceof HandlerInterface) {
+                throw new \InvalidArgumentException('The first argument of the GroupHandler must be an array of HandlerInterface instances.');
+            }
+        }
+
+        $this->handlers = $handlers;
+        $this->bubble = $bubble;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function isHandling(array $record): bool
+    {
+        foreach ($this->handlers as $handler) {
+            if ($handler->isHandling($record)) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function handle(array $record): bool
+    {
+        if ($this->processors) {
+            $record = $this->processRecord($record);
+        }
+
+        foreach ($this->handlers as $handler) {
+            $handler->handle($record);
+        }
+
+        return false === $this->bubble;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function handleBatch(array $records): void
+    {
+        if ($this->processors) {
+            $processed = [];
+            foreach ($records as $record) {
+                $processed[] = $this->processRecord($record);
+            }
+            $records = $processed;
+        }
+
+        foreach ($this->handlers as $handler) {
+            $handler->handleBatch($records);
+        }
+    }
+
+    public function reset()
+    {
+        $this->resetProcessors();
+
+        foreach ($this->handlers as $handler) {
+            if ($handler instanceof ResettableInterface) {
+                $handler->reset();
+            }
+        }
+    }
+
+    public function close(): void
+    {
+        parent::close();
+
+        foreach ($this->handlers as $handler) {
+            $handler->close();
+        }
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function setFormatter(FormatterInterface $formatter): HandlerInterface
+    {
+        foreach ($this->handlers as $handler) {
+            if ($handler instanceof FormattableHandlerInterface) {
+                $handler->setFormatter($formatter);
+            }
+        }
+
+        return $this;
+    }
+}

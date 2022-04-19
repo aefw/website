@@ -1,63 +1,77 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-klwBikS+kcTafUw5edrJgQQClYbn
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\PaymentsResellerSubscription;
+
+class GoogleCloudPaymentsResellerSubscriptionV1Product extends \Google\Collection
+{
+  protected $collection_key = 'titles';
+  public $name;
+  public $regionCodes;
+  protected $subscriptionBillingCycleDurationType = GoogleCloudPaymentsResellerSubscriptionV1Duration::class;
+  protected $subscriptionBillingCycleDurationDataType = '';
+  protected $titlesType = GoogleTypeLocalizedText::class;
+  protected $titlesDataType = 'array';
+
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setRegionCodes($regionCodes)
+  {
+    $this->regionCodes = $regionCodes;
+  }
+  public function getRegionCodes()
+  {
+    return $this->regionCodes;
+  }
+  /**
+   * @param GoogleCloudPaymentsResellerSubscriptionV1Duration
+   */
+  public function setSubscriptionBillingCycleDuration(GoogleCloudPaymentsResellerSubscriptionV1Duration $subscriptionBillingCycleDuration)
+  {
+    $this->subscriptionBillingCycleDuration = $subscriptionBillingCycleDuration;
+  }
+  /**
+   * @return GoogleCloudPaymentsResellerSubscriptionV1Duration
+   */
+  public function getSubscriptionBillingCycleDuration()
+  {
+    return $this->subscriptionBillingCycleDuration;
+  }
+  /**
+   * @param GoogleTypeLocalizedText[]
+   */
+  public function setTitles($titles)
+  {
+    $this->titles = $titles;
+  }
+  /**
+   * @return GoogleTypeLocalizedText[]
+   */
+  public function getTitles()
+  {
+    return $this->titles;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudPaymentsResellerSubscriptionV1Product::class, 'Google_Service_PaymentsResellerSubscription_GoogleCloudPaymentsResellerSubscriptionV1Product');

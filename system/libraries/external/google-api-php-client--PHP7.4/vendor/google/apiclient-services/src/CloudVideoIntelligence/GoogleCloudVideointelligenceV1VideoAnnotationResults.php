@@ -1,122 +1,292 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-ET2yRuhfLyaeOPWYeeCs7le=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudVideoIntelligence;
+
+class GoogleCloudVideointelligenceV1VideoAnnotationResults extends \Google\Collection
+{
+  protected $collection_key = 'textAnnotations';
+  protected $errorType = GoogleRpcStatus::class;
+  protected $errorDataType = '';
+  protected $explicitAnnotationType = GoogleCloudVideointelligenceV1ExplicitContentAnnotation::class;
+  protected $explicitAnnotationDataType = '';
+  protected $faceAnnotationsType = GoogleCloudVideointelligenceV1FaceAnnotation::class;
+  protected $faceAnnotationsDataType = 'array';
+  protected $faceDetectionAnnotationsType = GoogleCloudVideointelligenceV1FaceDetectionAnnotation::class;
+  protected $faceDetectionAnnotationsDataType = 'array';
+  protected $frameLabelAnnotationsType = GoogleCloudVideointelligenceV1LabelAnnotation::class;
+  protected $frameLabelAnnotationsDataType = 'array';
+  public $inputUri;
+  protected $logoRecognitionAnnotationsType = GoogleCloudVideointelligenceV1LogoRecognitionAnnotation::class;
+  protected $logoRecognitionAnnotationsDataType = 'array';
+  protected $objectAnnotationsType = GoogleCloudVideointelligenceV1ObjectTrackingAnnotation::class;
+  protected $objectAnnotationsDataType = 'array';
+  protected $personDetectionAnnotationsType = GoogleCloudVideointelligenceV1PersonDetectionAnnotation::class;
+  protected $personDetectionAnnotationsDataType = 'array';
+  protected $segmentType = GoogleCloudVideointelligenceV1VideoSegment::class;
+  protected $segmentDataType = '';
+  protected $segmentLabelAnnotationsType = GoogleCloudVideointelligenceV1LabelAnnotation::class;
+  protected $segmentLabelAnnotationsDataType = 'array';
+  protected $segmentPresenceLabelAnnotationsType = GoogleCloudVideointelligenceV1LabelAnnotation::class;
+  protected $segmentPresenceLabelAnnotationsDataType = 'array';
+  protected $shotAnnotationsType = GoogleCloudVideointelligenceV1VideoSegment::class;
+  protected $shotAnnotationsDataType = 'array';
+  protected $shotLabelAnnotationsType = GoogleCloudVideointelligenceV1LabelAnnotation::class;
+  protected $shotLabelAnnotationsDataType = 'array';
+  protected $shotPresenceLabelAnnotationsType = GoogleCloudVideointelligenceV1LabelAnnotation::class;
+  protected $shotPresenceLabelAnnotationsDataType = 'array';
+  protected $speechTranscriptionsType = GoogleCloudVideointelligenceV1SpeechTranscription::class;
+  protected $speechTranscriptionsDataType = 'array';
+  protected $textAnnotationsType = GoogleCloudVideointelligenceV1TextAnnotation::class;
+  protected $textAnnotationsDataType = 'array';
+
+  /**
+   * @param GoogleRpcStatus
+   */
+  public function setError(GoogleRpcStatus $error)
+  {
+    $this->error = $error;
+  }
+  /**
+   * @return GoogleRpcStatus
+   */
+  public function getError()
+  {
+    return $this->error;
+  }
+  /**
+   * @param GoogleCloudVideointelligenceV1ExplicitContentAnnotation
+   */
+  public function setExplicitAnnotation(GoogleCloudVideointelligenceV1ExplicitContentAnnotation $explicitAnnotation)
+  {
+    $this->explicitAnnotation = $explicitAnnotation;
+  }
+  /**
+   * @return GoogleCloudVideointelligenceV1ExplicitContentAnnotation
+   */
+  public function getExplicitAnnotation()
+  {
+    return $this->explicitAnnotation;
+  }
+  /**
+   * @param GoogleCloudVideointelligenceV1FaceAnnotation[]
+   */
+  public function setFaceAnnotations($faceAnnotations)
+  {
+    $this->faceAnnotations = $faceAnnotations;
+  }
+  /**
+   * @return GoogleCloudVideointelligenceV1FaceAnnotation[]
+   */
+  public function getFaceAnnotations()
+  {
+    return $this->faceAnnotations;
+  }
+  /**
+   * @param GoogleCloudVideointelligenceV1FaceDetectionAnnotation[]
+   */
+  public function setFaceDetectionAnnotations($faceDetectionAnnotations)
+  {
+    $this->faceDetectionAnnotations = $faceDetectionAnnotations;
+  }
+  /**
+   * @return GoogleCloudVideointelligenceV1FaceDetectionAnnotation[]
+   */
+  public function getFaceDetectionAnnotations()
+  {
+    return $this->faceDetectionAnnotations;
+  }
+  /**
+   * @param GoogleCloudVideointelligenceV1LabelAnnotation[]
+   */
+  public function setFrameLabelAnnotations($frameLabelAnnotations)
+  {
+    $this->frameLabelAnnotations = $frameLabelAnnotations;
+  }
+  /**
+   * @return GoogleCloudVideointelligenceV1LabelAnnotation[]
+   */
+  public function getFrameLabelAnnotations()
+  {
+    return $this->frameLabelAnnotations;
+  }
+  public function setInputUri($inputUri)
+  {
+    $this->inputUri = $inputUri;
+  }
+  public function getInputUri()
+  {
+    return $this->inputUri;
+  }
+  /**
+   * @param GoogleCloudVideointelligenceV1LogoRecognitionAnnotation[]
+   */
+  public function setLogoRecognitionAnnotations($logoRecognitionAnnotations)
+  {
+    $this->logoRecognitionAnnotations = $logoRecognitionAnnotations;
+  }
+  /**
+   * @return GoogleCloudVideointelligenceV1LogoRecognitionAnnotation[]
+   */
+  public function getLogoRecognitionAnnotations()
+  {
+    return $this->logoRecognitionAnnotations;
+  }
+  /**
+   * @param GoogleCloudVideointelligenceV1ObjectTrackingAnnotation[]
+   */
+  public function setObjectAnnotations($objectAnnotations)
+  {
+    $this->objectAnnotations = $objectAnnotations;
+  }
+  /**
+   * @return GoogleCloudVideointelligenceV1ObjectTrackingAnnotation[]
+   */
+  public function getObjectAnnotations()
+  {
+    return $this->objectAnnotations;
+  }
+  /**
+   * @param GoogleCloudVideointelligenceV1PersonDetectionAnnotation[]
+   */
+  public function setPersonDetectionAnnotations($personDetectionAnnotations)
+  {
+    $this->personDetectionAnnotations = $personDetectionAnnotations;
+  }
+  /**
+   * @return GoogleCloudVideointelligenceV1PersonDetectionAnnotation[]
+   */
+  public function getPersonDetectionAnnotations()
+  {
+    return $this->personDetectionAnnotations;
+  }
+  /**
+   * @param GoogleCloudVideointelligenceV1VideoSegment
+   */
+  public function setSegment(GoogleCloudVideointelligenceV1VideoSegment $segment)
+  {
+    $this->segment = $segment;
+  }
+  /**
+   * @return GoogleCloudVideointelligenceV1VideoSegment
+   */
+  public function getSegment()
+  {
+    return $this->segment;
+  }
+  /**
+   * @param GoogleCloudVideointelligenceV1LabelAnnotation[]
+   */
+  public function setSegmentLabelAnnotations($segmentLabelAnnotations)
+  {
+    $this->segmentLabelAnnotations = $segmentLabelAnnotations;
+  }
+  /**
+   * @return GoogleCloudVideointelligenceV1LabelAnnotation[]
+   */
+  public function getSegmentLabelAnnotations()
+  {
+    return $this->segmentLabelAnnotations;
+  }
+  /**
+   * @param GoogleCloudVideointelligenceV1LabelAnnotation[]
+   */
+  public function setSegmentPresenceLabelAnnotations($segmentPresenceLabelAnnotations)
+  {
+    $this->segmentPresenceLabelAnnotations = $segmentPresenceLabelAnnotations;
+  }
+  /**
+   * @return GoogleCloudVideointelligenceV1LabelAnnotation[]
+   */
+  public function getSegmentPresenceLabelAnnotations()
+  {
+    return $this->segmentPresenceLabelAnnotations;
+  }
+  /**
+   * @param GoogleCloudVideointelligenceV1VideoSegment[]
+   */
+  public function setShotAnnotations($shotAnnotations)
+  {
+    $this->shotAnnotations = $shotAnnotations;
+  }
+  /**
+   * @return GoogleCloudVideointelligenceV1VideoSegment[]
+   */
+  public function getShotAnnotations()
+  {
+    return $this->shotAnnotations;
+  }
+  /**
+   * @param GoogleCloudVideointelligenceV1LabelAnnotation[]
+   */
+  public function setShotLabelAnnotations($shotLabelAnnotations)
+  {
+    $this->shotLabelAnnotations = $shotLabelAnnotations;
+  }
+  /**
+   * @return GoogleCloudVideointelligenceV1LabelAnnotation[]
+   */
+  public function getShotLabelAnnotations()
+  {
+    return $this->shotLabelAnnotations;
+  }
+  /**
+   * @param GoogleCloudVideointelligenceV1LabelAnnotation[]
+   */
+  public function setShotPresenceLabelAnnotations($shotPresenceLabelAnnotations)
+  {
+    $this->shotPresenceLabelAnnotations = $shotPresenceLabelAnnotations;
+  }
+  /**
+   * @return GoogleCloudVideointelligenceV1LabelAnnotation[]
+   */
+  public function getShotPresenceLabelAnnotations()
+  {
+    return $this->shotPresenceLabelAnnotations;
+  }
+  /**
+   * @param GoogleCloudVideointelligenceV1SpeechTranscription[]
+   */
+  public function setSpeechTranscriptions($speechTranscriptions)
+  {
+    $this->speechTranscriptions = $speechTranscriptions;
+  }
+  /**
+   * @return GoogleCloudVideointelligenceV1SpeechTranscription[]
+   */
+  public function getSpeechTranscriptions()
+  {
+    return $this->speechTranscriptions;
+  }
+  /**
+   * @param GoogleCloudVideointelligenceV1TextAnnotation[]
+   */
+  public function setTextAnnotations($textAnnotations)
+  {
+    $this->textAnnotations = $textAnnotations;
+  }
+  /**
+   * @return GoogleCloudVideointelligenceV1TextAnnotation[]
+   */
+  public function getTextAnnotations()
+  {
+    return $this->textAnnotations;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudVideointelligenceV1VideoAnnotationResults::class, 'Google_Service_CloudVideoIntelligence_GoogleCloudVideointelligenceV1VideoAnnotationResults');

@@ -1,68 +1,90 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPrkACvAfMOYbn4MciIn4n/XNy/KczfdwgPt86oZvIVDnheCz9j7jXWNlMK5Ghrq9co0cjhQ5
-A7bJpaCxQHHmktWV+MHaJwPKeLN1zD2i08ieJB3cgLIr124+oayF3aQNYe+nKTboMRb4yVuKnf6a
-3pw3UBktheQWGOax3Mz0c9Nmzat7Ssw2ZSW3JV5XdZxu2OUvHyyH7g3TbqhUpbg/c58sFHJbqAKY
-Cvqxfc86NKKYji9PEsSXHLOa6IXfk2fWe0MklrGwXTZngmN82dFGz2AkXE9mKourL8IeB86cFae5
-vLKTR8Ia6bKjNUjgb8s8LDMTSQlkEnwK/6VuEi4HA5oKo2ET2kEWS2vgxWCoYlvH0TfzkHNqP9Cq
-ghIugTBtTQPiR3v/b5RbGVEWdHIZzG4+kt0d48VuDBq9jkoOS72qLi0tUi40FfMOdrBQaFwTxfMx
-wXQoHsOEIrttq8hTEwO80wLDvfe09DlmLOcpECCLh9XfiTcjScvvnscgGYlA3GSjI49NXAnPgFcv
-Zl4NbmFGT1o0iehJsW9ni5w10PoH6mLJJWyO+dCCDgnrNbS7qbdOKd9R90UHoQBRTuFThUBGUeW3
-cmywVb7uucrErTXROZkghA8xxTcIl3s8+QhF+6hLpOIiNjJKNopFAFFeRZCLGE7di1qQ/nqccIi1
-waD/uqugPxwxP+IftX3FI9Gprz0dVUOLHJbxPK6rFZYZmSDj6c1F6Ad7yPUm29TLkUwZ/xeIljxN
-cit5hR2hxi724Xhc6CHXhuYvwVdHPi1n05h9eWfmKgNx8dTDza2cblynPEzBXxY7ns0XhLOwPPov
-2o0wQqvvhTwVA2d5nXQnZJtS2/YV7y2Kj/fA57pYQ0x3RwSHJZshvamgsbZyUZgIyMW201rVyjRX
-7iRWqltB+7qe5YZnC/wRr9uqaVzhCFuHBv7OhhoIRXCjY86sqNxtfMqbqqsQhIbSS0LUDgQ+SnKu
-Ni8QElzokgGJufB7eqTloNGl3b2PDdJ/FeqGwhB6Zx22XOCIG1u4VaFtEhAX6ylGrpxPb8hoY2R5
-hajLbCAKFLAcbeAz2mSTpHydN5GS9BqsFcXBJJwJ07eRpUETtOFi1k030ZCqj3bhm239QcjtBYI6
-9ddwGqGe2+zKZZaOAFj4oFdY4aowPD4IZ8I3x2RE4Lr26F7zhgCfWzWjnl2CPgLmN+fP6VvgHxgt
-jwQytlIqNnrRGHRmUZrO03MYz/ZUkr+6zJLTxGlzDyokYOf9yyAAQTeA7n6xS8gMu1ElCz3XITBw
-xsmMNS4p71MxYW17D9BJ2s4MtvnQSOSlSma8zUOnNe/1bRkqh4RSC2bul7FcHR5FUg/O2//5ZMlk
-Vn95+2OZu5YG5s1UmSkJOt9di/TZksLCyBaV7F3rXbVWdLEryjwoLyH8Sx3QmvSS9SpMl40xaEm+
-QXS/P62g6wYbhzDai1VL3GT63rS1WvMt5sXrwfk+jZTz1y8Alh7VJptLOXm2E0j3YAHtHXZh767H
-WfuF2ojeBDwz46m8nPH5xcPPnwcAsP1fNb7/9GAEOhRzLYptkNHP/Sxvt1XmUYNY93Vz7b5fSPdi
-afLRp3iWUYKcdVI40EJcvyowxrGMr4xHf/b3qmpPerPZRONZEAe+Cf2MK5Fj7ERoTNEaruvbrJMa
-ZBnlG8cBMjLhHZErHE3kiL+yuUihUEHm1miiSCvFXGoGh7+G2oyV6pEPCrOx9sJG29ddclFGLicw
-wEbcJD9X3p6HnrCDSHWgQo7JbDz7N7k/NISrZexeOer2FY/FwDD94hH28sQ8GgyFw4FnU7Zilcnz
-AaHbEMk6JNItNPIq135F81MuyNjTEQWnW6pmKUta6WKz77i0Fy3gE3DhDYMesR3o5nK4uiIY9UrN
-d9CpXNwCBFBpdmKGPkuP0v+O/VOm7re3Ij9G9VtGEzg6Lj5n2/W3pKZ1YH7pS2817ZPHJyuI56nj
-tNUBYGiXuJL0bAqpOKSAy/DQBrGMaRoQjwwaueuOfOvUl9NDGHVEAaUagaPN0tjFiBu5IWws6mAT
-MLGEA66OLHppokpHBANn+AcKC4mRLoPILrsVJyzzsPbJZrfEm4v1tiDbjkONd8CtZ1m5r0xfgCHD
-AkjtI/Q+un0kUA3Bebpfz4nQqW46SBu9ixvKof2uQw8mMCozT8oHzsruz+byhS9kD/XrrsrKiPbg
-NYWU+iTGjaCNv7N2uL71Ozj0OCYEXc+Urpe/sXH1TkW3ugkaZEgPXYa3pcsejQ9fhsuzKLx+d5Fa
-xXAS3jYw5FALz5Ftz0KJqw1HnuPFe1QV7cIV4HnX2BHeFxw3cHTt3s2E6zFQlwzBniPNI2LBS0wm
-//DOfS5HNcUlZZdncIYx5ddPNHqbixDRiBFJy1DypMnhlyt7GnWPG3FxEy1A2qjYed3yNAsSHHCl
-Kv9Z6ok3wJhc9H3GpThs/FXbABhKFxrk3Nt3i0FgY/xHe9YBKCRMAZNlw8mYxIsJxFDwp5RAlAMh
-6kk2YiAO4kZh+8RjEOBQMErMtxZwhmCeUfRPvaYm7WrpZ6RuaHtAAlvq15anVr6TxMQinoUj1hs/
-sS3vmnttQ5tnJQ4HrpGbvL5Lu2IfdIrRoAEEbd0FBIZxT21ubeWUdaW0/oaYzJUF1zBDzLQ0F+yC
-W+uf014brmeDIfCw39adqIxn7GskfsSslGtuqHF+RBOP25aprReDJAiknYWiTQirVlMjrki6lxC4
-B6sXUZy2pWMHCtSq6QyVienQX/wmHRWOLDaoiF2C3vTM0XVt/CMKrNqSHECVKBxIgmkPdR1ZE3tL
-/TD5PqwRyCK+18EUtfrg7ZDL2EwbXJt/oTI6aDEUEgTCgk0NVNboWfnQIlo2gtMGAjABGiZ+NSK2
-W6whGRdDSb89zIkUDKeY5821FgY9BltJ7a6228vnEf8zWYI32rWw7h/T5bHOiDIO8OgBGN659Af1
-6w5f30/4A0wk8fbrr5iBMVuTd1mRACH2AQzzyBE1j0XaO9GtamPviGrPM/WuwuoZen42Uji8GDFG
-Yb3901XtpVrtm7PeN6R7vAPDaZkEepYmE1BY37nuzD+Q1pCuw8G3ZYWbUkb3vZHNqbGY9p38zFFL
-Bl7scCpsCehTW285nNaC3QBzqAE8Nhyx4w4tbDnuehdaMIf27cF/wkxDkEKPCD+/85bgqn5hp8XI
-YC9jGkMfp+x2OKCLka0bQfRIkpLSOARjZW8aaEVfeIK12sw4LjxbcZ3vWQAIXTRm9OycmNS4UZ9q
-Vbrc8XniAQ//1T8BNATL8GSePWR+5dNuV79aWKQEEzPkdpJMO6WD06IkNP0kxw9QJUdirVIQwxQh
-ncVqvlZlZpr8JDbsUrqiSviKTpvm8iNVYWMGp5msFsMv4lnYAxCWboc9m0skfkF/36r9SP0XULH6
-278JTcNPpsisVBWSEsSb0vZbx1KCyT5nCvZF2hKmEzyA85lfqUBVLaI6f5v6Ygg2KIiMgo95TFyK
-dRMX5DReUf3paF9UA/xAysMUYs3bVwxUpySAigMxT3sJ6ELhmlkfXbMH5GTqJ0ZiTF/5+/mEMl32
-WNF7qIiSKnRwskexw17XxM6NJPLinvTS/mnteU0Poe8cMLJWahc8yeDdllG19S1okq4ZxGUVx87q
-oD//aXL+Re6yU9ofqdCSz5LvGUy4ZxPVG7QHCTpY4wW0qIjt4gu+YcysBS4cEIMfkMyn01fnDpau
-+MBCV2BC1BDKpEXeElQoomloMNkGXj02nE1NHd799fO8OXj3wfwdBzensaPym70D/hYu+CvXd7k+
-pFJh2ifDiUHKKtrv1ZwRWNbwu3Op1xpTGMY6XF/Ev5fPR8K+KYi0qhuDADmI0/3mf8FCJh+93XaX
-0+SJ0CRPvXEXnrZEtyQPSkJm9IYnG1smcMYUtw77ACTNCD7PBXzU5XrlPZ7rvTubR1qR2tHtMBN3
-xLsF1pchmXOUqFyQhlYsu9NqjE3g0ActVGmV0tb3X2D0jJI36jwHNGnxyHiP8Nq32sgZ7gItfkTK
-2gbXozZKieG+nv6xquqKAplqjuOKft9GNdwxj3KIr6hEvaJtXAIwLhnpvgvUG+8IUdX7aIdiJACL
-2n6OywsgPVfwwjUqzK+EMtcJT8kB40WJDCBp8h2yj93XBGZNnwglGeSBGbKDKUtt0K4GXLCZqdRs
-/fKq8XuwO40WZOjNcXvB6JLYc6kURUi3FMmI/yvn0iJ0Vxo2itdIhXELYLD0nAx+BIihr+jboiyr
-43Z0tkMAILbR1k5/XA9rC7dat7bh2zcRiSyjsoCM1djRztwChhyDC3/HqzbmFvezopczlFWHb94Y
-VMLkoSVznhY897/3td6BNulKkngRYQ3+JK8Z+NfWxEouE/fJhQtQWQqHHYbEoRUbGjuL/TiNqE9T
-cIK/gPIWfSLFrllmYYfQT1RlbpU0Gr0GEf5zUiTuTwcBdlnKyGPH2jWpDq33CO3saXZpAqQbkxOm
-rnICURffmEtcy7fb/s6hyh5J60TBK8mljA0atos9D85Pyo3K6NST5HoVUnhyHq1h35oz3ay5TpZb
-WLQIZBXRuXh0hcwS/y7FaVmiueEffxkijGuTa5LneYmXJK3PvM4vB5SK6OrcSk7hB0IbZ5wLq8P9
-0mJXV3k3R+HiK1Iw8EWY4Pu+72tozeBTWP3jzmISz+RUJgc377N9aG6CA2J+YOEzwhoQM9Gi
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\OnDemandScanning;
+
+class DeploymentOccurrence extends \Google\Collection
+{
+  protected $collection_key = 'resourceUri';
+  public $address;
+  public $config;
+  public $deployTime;
+  public $platform;
+  public $resourceUri;
+  public $undeployTime;
+  public $userEmail;
+
+  public function setAddress($address)
+  {
+    $this->address = $address;
+  }
+  public function getAddress()
+  {
+    return $this->address;
+  }
+  public function setConfig($config)
+  {
+    $this->config = $config;
+  }
+  public function getConfig()
+  {
+    return $this->config;
+  }
+  public function setDeployTime($deployTime)
+  {
+    $this->deployTime = $deployTime;
+  }
+  public function getDeployTime()
+  {
+    return $this->deployTime;
+  }
+  public function setPlatform($platform)
+  {
+    $this->platform = $platform;
+  }
+  public function getPlatform()
+  {
+    return $this->platform;
+  }
+  public function setResourceUri($resourceUri)
+  {
+    $this->resourceUri = $resourceUri;
+  }
+  public function getResourceUri()
+  {
+    return $this->resourceUri;
+  }
+  public function setUndeployTime($undeployTime)
+  {
+    $this->undeployTime = $undeployTime;
+  }
+  public function getUndeployTime()
+  {
+    return $this->undeployTime;
+  }
+  public function setUserEmail($userEmail)
+  {
+    $this->userEmail = $userEmail;
+  }
+  public function getUserEmail()
+  {
+    return $this->userEmail;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(DeploymentOccurrence::class, 'Google_Service_OnDemandScanning_DeploymentOccurrence');

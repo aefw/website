@@ -1,68 +1,104 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-lg9UKy0a
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Testing;
+
+class AndroidVersion extends \Google\Collection
+{
+  protected $collection_key = 'tags';
+  public $apiLevel;
+  public $codeName;
+  protected $distributionType = Distribution::class;
+  protected $distributionDataType = '';
+  public $id;
+  protected $releaseDateType = Date::class;
+  protected $releaseDateDataType = '';
+  public $tags;
+  public $versionString;
+
+  public function setApiLevel($apiLevel)
+  {
+    $this->apiLevel = $apiLevel;
+  }
+  public function getApiLevel()
+  {
+    return $this->apiLevel;
+  }
+  public function setCodeName($codeName)
+  {
+    $this->codeName = $codeName;
+  }
+  public function getCodeName()
+  {
+    return $this->codeName;
+  }
+  /**
+   * @param Distribution
+   */
+  public function setDistribution(Distribution $distribution)
+  {
+    $this->distribution = $distribution;
+  }
+  /**
+   * @return Distribution
+   */
+  public function getDistribution()
+  {
+    return $this->distribution;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  /**
+   * @param Date
+   */
+  public function setReleaseDate(Date $releaseDate)
+  {
+    $this->releaseDate = $releaseDate;
+  }
+  /**
+   * @return Date
+   */
+  public function getReleaseDate()
+  {
+    return $this->releaseDate;
+  }
+  public function setTags($tags)
+  {
+    $this->tags = $tags;
+  }
+  public function getTags()
+  {
+    return $this->tags;
+  }
+  public function setVersionString($versionString)
+  {
+    $this->versionString = $versionString;
+  }
+  public function getVersionString()
+  {
+    return $this->versionString;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AndroidVersion::class, 'Google_Service_Testing_AndroidVersion');

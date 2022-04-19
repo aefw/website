@@ -1,111 +1,223 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Analytics;
+
+class Goal extends \Google\Model
+{
+  public $accountId;
+  public $active;
+  public $created;
+  protected $eventDetailsType = GoalEventDetails::class;
+  protected $eventDetailsDataType = '';
+  public $id;
+  public $internalWebPropertyId;
+  public $kind;
+  public $name;
+  protected $parentLinkType = GoalParentLink::class;
+  protected $parentLinkDataType = '';
+  public $profileId;
+  public $selfLink;
+  public $type;
+  public $updated;
+  protected $urlDestinationDetailsType = GoalUrlDestinationDetails::class;
+  protected $urlDestinationDetailsDataType = '';
+  public $value;
+  protected $visitNumPagesDetailsType = GoalVisitNumPagesDetails::class;
+  protected $visitNumPagesDetailsDataType = '';
+  protected $visitTimeOnSiteDetailsType = GoalVisitTimeOnSiteDetails::class;
+  protected $visitTimeOnSiteDetailsDataType = '';
+  public $webPropertyId;
+
+  public function setAccountId($accountId)
+  {
+    $this->accountId = $accountId;
+  }
+  public function getAccountId()
+  {
+    return $this->accountId;
+  }
+  public function setActive($active)
+  {
+    $this->active = $active;
+  }
+  public function getActive()
+  {
+    return $this->active;
+  }
+  public function setCreated($created)
+  {
+    $this->created = $created;
+  }
+  public function getCreated()
+  {
+    return $this->created;
+  }
+  /**
+   * @param GoalEventDetails
+   */
+  public function setEventDetails(GoalEventDetails $eventDetails)
+  {
+    $this->eventDetails = $eventDetails;
+  }
+  /**
+   * @return GoalEventDetails
+   */
+  public function getEventDetails()
+  {
+    return $this->eventDetails;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setInternalWebPropertyId($internalWebPropertyId)
+  {
+    $this->internalWebPropertyId = $internalWebPropertyId;
+  }
+  public function getInternalWebPropertyId()
+  {
+    return $this->internalWebPropertyId;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  /**
+   * @param GoalParentLink
+   */
+  public function setParentLink(GoalParentLink $parentLink)
+  {
+    $this->parentLink = $parentLink;
+  }
+  /**
+   * @return GoalParentLink
+   */
+  public function getParentLink()
+  {
+    return $this->parentLink;
+  }
+  public function setProfileId($profileId)
+  {
+    $this->profileId = $profileId;
+  }
+  public function getProfileId()
+  {
+    return $this->profileId;
+  }
+  public function setSelfLink($selfLink)
+  {
+    $this->selfLink = $selfLink;
+  }
+  public function getSelfLink()
+  {
+    return $this->selfLink;
+  }
+  public function setType($type)
+  {
+    $this->type = $type;
+  }
+  public function getType()
+  {
+    return $this->type;
+  }
+  public function setUpdated($updated)
+  {
+    $this->updated = $updated;
+  }
+  public function getUpdated()
+  {
+    return $this->updated;
+  }
+  /**
+   * @param GoalUrlDestinationDetails
+   */
+  public function setUrlDestinationDetails(GoalUrlDestinationDetails $urlDestinationDetails)
+  {
+    $this->urlDestinationDetails = $urlDestinationDetails;
+  }
+  /**
+   * @return GoalUrlDestinationDetails
+   */
+  public function getUrlDestinationDetails()
+  {
+    return $this->urlDestinationDetails;
+  }
+  public function setValue($value)
+  {
+    $this->value = $value;
+  }
+  public function getValue()
+  {
+    return $this->value;
+  }
+  /**
+   * @param GoalVisitNumPagesDetails
+   */
+  public function setVisitNumPagesDetails(GoalVisitNumPagesDetails $visitNumPagesDetails)
+  {
+    $this->visitNumPagesDetails = $visitNumPagesDetails;
+  }
+  /**
+   * @return GoalVisitNumPagesDetails
+   */
+  public function getVisitNumPagesDetails()
+  {
+    return $this->visitNumPagesDetails;
+  }
+  /**
+   * @param GoalVisitTimeOnSiteDetails
+   */
+  public function setVisitTimeOnSiteDetails(GoalVisitTimeOnSiteDetails $visitTimeOnSiteDetails)
+  {
+    $this->visitTimeOnSiteDetails = $visitTimeOnSiteDetails;
+  }
+  /**
+   * @return GoalVisitTimeOnSiteDetails
+   */
+  public function getVisitTimeOnSiteDetails()
+  {
+    return $this->visitTimeOnSiteDetails;
+  }
+  public function setWebPropertyId($webPropertyId)
+  {
+    $this->webPropertyId = $webPropertyId;
+  }
+  public function getWebPropertyId()
+  {
+    return $this->webPropertyId;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Goal::class, 'Google_Service_Analytics_Goal');

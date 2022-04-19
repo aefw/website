@@ -1,78 +1,160 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cP/Y6Dkb6GulERq+ZobS3ll6OIL8VPt9S4TrDR9QchFIFrvjcwqnBjmZVvbu/Nd7mDs8djLcP
-7ucsD8E+k5I1Uk6sJJihYWUfezr0zAKaXqOwT1+Of4GHW52OZP9rr920IRIXDEv/GLwrUZ6o2kxY
-PViMxCBkOo75cAqEP7RpjVaj0ZKTj/gUGHzapQqBw1KhJt/tf1Kuh/Qtb+ZIJI4Q0bbWlF3d1ipu
-rfPNmfInD/RgR8cmxaDBnuvrK7iLdQe7dQH038Nz6Lg91BXgIA0Bhh0oCE/YS5CkDLI4g2o1fZvA
-1ULLYd3Isjb2zz7JaMCKYDJYStqbRTvnNBxVbxZXAzOj7skTXDNmEYkU0JAeLK5qfoKNr1Ww2L7P
-Q9r8134UdARFklfdyLbVeT5yLNt8l8u4gAdhE6yqKcgpAhzgsqff5gsEQY6IwpAJDd2/yH34X6SA
-fxMqlMDRCbDnB1AWPSzHLXFWc5MjCY3JsRdFgWUiECrrxEd7WhHZHjWWy2VGnftQK42zsmp9lUBq
-24PFeF9gVJRxzAYofhn4Fe9ZJ8A+MrrmVRQMWClYVU5Wifz4L98j4/vodLfhIFiCBer1HfuQXJYY
-PVp2ioge/y5ve7zUhq9sE8BvJtSMiLXRUyE9Hg2Q7bRN3Oq7Cuc7giUQmNIT8L6HUQcNFRSHDMmZ
-xLo3lsYHt+1ynFresn9jmfxZ/fDQi0lCLxSM2bfNo0nTnTV8fJW58qnZqfnU2cPXQl/UrN1UJ4xO
-jsp40fKFATVIPsGiKeUJtoir9D7Nx1+Bl4pVPF9eO3Ig/d9rvR+xlqxgRMqDSFWlodcLNG150sk5
-xsntBOZ0Qe2OGuH7zaLDMC6jBSJiu4BZBDhud9luwlNLiSaXx5YChpYCe1Z/GRy9CnwCTxdoOude
-X1ZAAt/WmoEWW6vDJ7ashD9eKRNsV59gAmM/PkrB+7stQOesfTCcmDjS5SNBQ2JcydQCWuwmRiEV
-5RI5hqrPwniBr/qNi0QrNlb36tbdO41b5XhCxUMZu1HjfbYAQqyQ98rTXHTamumX00dhB/oAJJ0S
-Z2+XkRKSMzCdX2qtaY8DsS4ZbAG/zEob4EsF1+nSoRuMrrz+C3QKziqhMPD2bnUI9phI5Iszc06p
-YbDk9JHIR49cBDLBW/2TWKuUN0+BZY+bu5pGITVnEEiTPSeXubz1hI2Q/uzeEXvD+saqfRzYfbzr
-IP/nT5mQqo0nNcwhhelx11lrjuiMGPXW5WLbxRkDMMubl15rcTACgXE7t8ZMrOyrmgBx6fAaE/G/
-/A/X0hpM4hkDWOjfb8wR9of6HgENzik3slij/pLBAyP9+JSQiVHjE0TEBgflXhhrQiIRt19SIJ8F
-jBk7XXS76X67nJIPVLFxQFoBDF7yX/oKMT4Ed3Xv8USciFnXnieix6KfqJwp9KK/x3aDrFDUL8aP
-+/JUeiBjqV46fHNBlMAbrl0iWkFGeToeA6hJFv1trpii7LINssizH2E3eJXu0eWkN+z8Jn1A9VN2
-Qrw/BtWcuMphllZr62qAkLmFwsTk2yhRii4ixsDlE3kdITgrmjdwqIwc38X0GdxxNmIJUeHgaRtQ
-YaighrC7hAUeGpMNRiH0BUcSLTYgOr8x1Qvt5wfZUcAZFf0inFzjyIHmqzMLXdkr7rxLJb41s5Tm
-GbCWFhI6paWq09OYU0wHI1r8P6bJyH6sAiChleLZEu3a/0QiK0IJmXm3HYfjCl+jsB/Qw8zECvOu
-3j/Vdu5wFaOt/KPeJ7X6LMLVd8YwCHkkkA6A9oUeqF45tCsZaC2tkfe8AQEypOsxdvNeSjeovaTu
-mIgNe85mw0ztp+kJXW9367Xjt93NP1v4YeaCVsTwE2N4KIFqh9BUD02gZ5lSvBui0niQMIqVQu5W
-VWteITfeIOvHsuTcgCA+4+ZWwYGRdtofpAlAwp6DiqueeNCCu18PTj4+NzFEN4Ol/r1JDw9qVetH
-CvZN3tXHF+v+xOuR6T01xT2Y8ES28RRb7wD69nRoM3vyI692bSHLRlADY9BeWxPgfMkz/C6bM7ms
-vHzf79KJCq2UwK7vzz04c7r47bUzbHmb/SbQJfoBaby9CkMi367Efgijs9u2Pg/l38GANncNQQvx
-oju6JtwKQQe1XvMZPFvrvJtdlgxmdznDUd2c8H34TgJGZCm6avVxZeZO89E/5/m1DOhYCt+z4IqP
-qp+U1V/OW5gUzKUYkT7H4WgWrSmwT6acHw4oq40mdMjMnRXeRz2ZpQTzlFounWdzzvjdwYRG32rD
-epYZNTvJIrtd8EG6BEy6lk8LEjatNCY/Q0J7vgZEkaBhZPu4IwjTfHHXC1dqB283EObjSie8g1AA
-uWt9T1vWhR4Fngg6ZYdH/FDO6wrEJCU7GP+CA1Mncugq0OJeTnNCpzBNAU3YcFf6b1PzURydEJF/
-6OHGn3Sv5a2X6CJLVaaecf+oSmscGgLCeUJd8ekOgv5LJHEVn2U7pUSSdQ/ySP50py1VhGbJ0I/1
-R6aC8cafgvdmMRNykbxhYILTWCvQICdOrArnqKXhigAsQrgZoaUBoEgoT0ZW9ya5TFz5wPbJ9UEd
-DAF3wfMhFn5mtvvKvVNpV7K8exLoVlTgaOq9GwYx9dakQTaF0qg6Evegjgn2+AsIXeDwQ53h80BZ
-aUKwCTnwgcdEhmp7QMX0/BTesc4/mIM6fpJ9kav6Y7iJ+CDNlFD4RYZSEPgmK8sz+RY1hqS2NWUa
-efP7qgbFb5EXm03iJ1UlAXS0YFvFn1kVvX4cJ3WcAMBiCJ36PEfUryUzbRX0Rx2gJ76ZZGQH5WMY
-9SVV9y/TEYS96wEjYcO726Okc4pKDtOBjYXeduo5E68pV88xZrBf5fz0oAXsEptz8vSCVq24w9+e
-/DyTH8SKfwQ1okP3kqhhA4Lh16auUtjPT7sG+kIN7NexfhOHNY9OIYUbzaaf3qTU2+CeR0ScTvuI
-LqI9ZE3Gg/2eh6DtmE3NQvWdIMDrIyAPgsWOXJuK9a46jJZ/kjKLJbk0aHEHvQGlxIlhOuIIgkis
-exGhz0yScTGwgnwpkz8OB3ylyJeRjxgBHzUNz74JztgiDMKaoXlLv8x5qNlZpfQCuzu65t/QX/cI
-KcWZ5RbMDfPBGqFeVkf5z46max+Nt3w3V1t7lte9FKS2Rkz2D6907+3FGSsEhdopdt6MlQCzYMlH
-vM7qj9PhCSZHJZjOLq4hiexA61L+OXWe8IepR6oVOR6YB9QekqOURhh/uZyBThOnyAac9jimFzDr
-lARsTNUII4Ge9i6pXeCncf0p8yp/zGid+Ab18twoGPyodFe5UtngVh8QrChZnIlrSooRE+k8evBt
-d6GBSuThvO1zbYFhjRKpC6hscL1nqMFIupCEuBkLMeI2QfL0Ug2Rx4ui8PrH6Ebi8vsC8RRz8DMw
-ItPc+B4KD73zCTeszhhaxVWoHq+CmmzE8txmneJ/dDMqjLtnFW+jC8UEricH7WhnbOruuvrJQjb0
-jKRmjx/0e2dN4V01+QE1wZNBqvwwHBTlpv+yDuL0rwD10P5LEeQIDPgM0zca25RZPQ5cVN2BXnSQ
-JO9H8S8tYb1QXwMeFiPBX4NfUBZqaki9Do1LtauEtpts5kKeLXcqUBJ35v8jC8tNMvZKtLwM+LXD
-XieMsDKthXeAl9pnMtxBH86iV/iVN/6jlA7HUUbSxXCc4IDmlnXE9eoFGJ5HpVj3x7VEVal7pm4x
-YlrTnFPQPY25VrTE72bT/odBYlOKqPZwRIUc25P2HglY/SYyb5+8nvdoRVqUL3sXeP1SRi0XQvrI
-p2rVKBi+memMfgEQ8fFesoQmeNWEZ4Xu9hErGuxop2m9KJ522vTk7DqOv5hdrzM4E1dWEqe3WQ3j
-BqIkBKolzGWOqrAp1YR6bJ5Rj2BLORl4gHqrhae6JSMC2HheskTJGh06N+r/+2UDTbzoKcqZNLfx
-41/RJZTjclK0YApyNVbbjteKf+MeETAxCYsQByeYYsKlVqOq1W9fpRnVPLcs9hE2+HnheUT4nVOQ
-L6oWXCYpTlo6kef7bLnt0/HXFK7EPu5jwm/sd2nQZCHZ5kSedHIexMU2UcohWJuJniRSTu6Awn+m
-JF9Rr11irBT+wHAcj/Uhbd91A3bsHp75dktXl1wasim6Yk7Fxr2VNu8YsIqo1QdsbGMJaYW9+SNA
-Lz3TdJFVq5PfxJGAHfRD5DjIkEjuBFCFC8SXAROLjG9rC+Yjyw/7Ew0UYYLIRAEhUcTsioescA2k
-dRt5q0tkESlcj/8f7++AumGTduL2WQBBOXNLkN0QlP53C4sB+pCGmUROyhddzJiRm2JaGBrwj5ry
-80xXLFPY3tuWh2+WNEPgsmTuQvMG+YnbDllQkYdHiP5bTFsWd9aqgWfXSVicIoEH1w1LY757ll5e
-Ud/2Zdbec3YORtGSkHAzbTSKNsdW/jcQuCMc+jOxhxAXNKTSJHmV+3xeBpjEzBKZK8JNrTd+oTqI
-FyH3xVJtUQQhG5Pm75+Wf/ELl7B/qd0unv+l4OSh+rEXlSE1b+I/lmsEeKKP9ZlN3VcVm+MQP+kd
-n8S2FRkZHmg7W5ZVUy/GejxJ/c+JoZfajI+VM8O/D+oAK8tF/8K3shrRmeE9kuhObkqXxxTE/RxE
-AbQDyXkDjjlgD8ClTTVW9KCIUzT5HHcF2fVuD3fMX7Kn9k2+BQ9g1oT0QrTCpFby/+0CKknikbt+
-ZpT1Mqzwcy49/+u15aMEhgCfSJEGZcqTGd+G/1EZHDLrEqYkYw99SDpvwe5/3kMwRhhkp75h3ERN
-IXPXt0+O8lUWB/EFkbqLbuAX+eh8TmQsUWi8KrxVN+qvtbXxsrV430hKaEi8QhN+B45CrQJSlN8S
-1E5phpuBbLDH/y3H0SMPe05qTmt7pe3PakFJEGbZWu5ugmBIv04ZM6GxYwoUOHyFdI289vKF4ZSi
-aOmDIH/WLFAUCx8VtL+LEeh2iKHqNov/YTddRXYw+IgwOG0mYUiM2PRXIsxlOsRhPPPTFGfTxBiE
-4SjgDoiZdKHGY3qVIQ6m8t3xwsSFngfGuWbL3glZTi+yOXUJXnWoNwg535XUXoW7JEODC0/t7KwH
-5AMz6jK+jlcR7T1qowQ1Hk7pBjbDWLfd8yTGfnZjEefwUbj088WhnfnzOij9uEdjWw7sQ1UTwM16
-MIFIvmddbfjWqy8uIyg0K2X0sfUpDZ3fZxi0Iz6LdNbZY84dOahyyjAcZotnPqEa50UA6cJKzYih
-xA71FvqR9P49VOXUNK3Wco5HcN5wJQ2fGSxMG36dfjZVQMAOKkiLa05aGLb4suz+9O+iVXmHxH3E
-8CkqT+IhiZqTqaOLNcd24f+/LJyY1SnxnN2EnkHlY/Kg+GlvI/T20/vgPNWe5l/br3Bbyu1EAlsd
-fc3H/G==
+<?php
+
+namespace PhpOffice\PhpSpreadsheet\Reader;
+
+use PhpOffice\PhpSpreadsheet\Reader\Security\XmlScanner;
+use PhpOffice\PhpSpreadsheet\Shared\File;
+
+abstract class BaseReader implements IReader
+{
+    /**
+     * Read data only?
+     * Identifies whether the Reader should only read data values for cells, and ignore any formatting information;
+     *        or whether it should read both data and formatting.
+     *
+     * @var bool
+     */
+    protected $readDataOnly = false;
+
+    /**
+     * Read empty cells?
+     * Identifies whether the Reader should read data values for cells all cells, or should ignore cells containing
+     *         null value or empty string.
+     *
+     * @var bool
+     */
+    protected $readEmptyCells = true;
+
+    /**
+     * Read charts that are defined in the workbook?
+     * Identifies whether the Reader should read the definitions for any charts that exist in the workbook;.
+     *
+     * @var bool
+     */
+    protected $includeCharts = false;
+
+    /**
+     * Restrict which sheets should be loaded?
+     * This property holds an array of worksheet names to be loaded. If null, then all worksheets will be loaded.
+     *
+     * @var array of string
+     */
+    protected $loadSheetsOnly;
+
+    /**
+     * IReadFilter instance.
+     *
+     * @var IReadFilter
+     */
+    protected $readFilter;
+
+    protected $fileHandle;
+
+    /**
+     * @var XmlScanner
+     */
+    protected $securityScanner;
+
+    public function __construct()
+    {
+        $this->readFilter = new DefaultReadFilter();
+    }
+
+    public function getReadDataOnly()
+    {
+        return $this->readDataOnly;
+    }
+
+    public function setReadDataOnly($pValue)
+    {
+        $this->readDataOnly = (bool) $pValue;
+
+        return $this;
+    }
+
+    public function getReadEmptyCells()
+    {
+        return $this->readEmptyCells;
+    }
+
+    public function setReadEmptyCells($pValue)
+    {
+        $this->readEmptyCells = (bool) $pValue;
+
+        return $this;
+    }
+
+    public function getIncludeCharts()
+    {
+        return $this->includeCharts;
+    }
+
+    public function setIncludeCharts($pValue)
+    {
+        $this->includeCharts = (bool) $pValue;
+
+        return $this;
+    }
+
+    public function getLoadSheetsOnly()
+    {
+        return $this->loadSheetsOnly;
+    }
+
+    public function setLoadSheetsOnly($value)
+    {
+        if ($value === null) {
+            return $this->setLoadAllSheets();
+        }
+
+        $this->loadSheetsOnly = is_array($value) ? $value : [$value];
+
+        return $this;
+    }
+
+    public function setLoadAllSheets()
+    {
+        $this->loadSheetsOnly = null;
+
+        return $this;
+    }
+
+    public function getReadFilter()
+    {
+        return $this->readFilter;
+    }
+
+    public function setReadFilter(IReadFilter $pValue)
+    {
+        $this->readFilter = $pValue;
+
+        return $this;
+    }
+
+    public function getSecurityScanner()
+    {
+        if (property_exists($this, 'securityScanner')) {
+            return $this->securityScanner;
+        }
+
+        return null;
+    }
+
+    /**
+     * Open file for reading.
+     *
+     * @param string $pFilename
+     *
+     * @throws Exception
+     */
+    protected function openFile($pFilename)
+    {
+        File::assertFile($pFilename);
+
+        // Open file
+        $this->fileHandle = fopen($pFilename, 'r');
+        if ($this->fileHandle === false) {
+            throw new Exception('Could not open file ' . $pFilename . ' for reading.');
+        }
+    }
+}

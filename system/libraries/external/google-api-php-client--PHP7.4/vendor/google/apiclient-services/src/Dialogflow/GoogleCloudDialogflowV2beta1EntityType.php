@@ -1,66 +1,88 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-k4WcW1u=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dialogflow;
+
+class GoogleCloudDialogflowV2beta1EntityType extends \Google\Collection
+{
+  protected $collection_key = 'entities';
+  public $autoExpansionMode;
+  public $displayName;
+  public $enableFuzzyExtraction;
+  protected $entitiesType = GoogleCloudDialogflowV2beta1EntityTypeEntity::class;
+  protected $entitiesDataType = 'array';
+  public $kind;
+  public $name;
+
+  public function setAutoExpansionMode($autoExpansionMode)
+  {
+    $this->autoExpansionMode = $autoExpansionMode;
+  }
+  public function getAutoExpansionMode()
+  {
+    return $this->autoExpansionMode;
+  }
+  public function setDisplayName($displayName)
+  {
+    $this->displayName = $displayName;
+  }
+  public function getDisplayName()
+  {
+    return $this->displayName;
+  }
+  public function setEnableFuzzyExtraction($enableFuzzyExtraction)
+  {
+    $this->enableFuzzyExtraction = $enableFuzzyExtraction;
+  }
+  public function getEnableFuzzyExtraction()
+  {
+    return $this->enableFuzzyExtraction;
+  }
+  /**
+   * @param GoogleCloudDialogflowV2beta1EntityTypeEntity[]
+   */
+  public function setEntities($entities)
+  {
+    $this->entities = $entities;
+  }
+  /**
+   * @return GoogleCloudDialogflowV2beta1EntityTypeEntity[]
+   */
+  public function getEntities()
+  {
+    return $this->entities;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudDialogflowV2beta1EntityType::class, 'Google_Service_Dialogflow_GoogleCloudDialogflowV2beta1EntityType');

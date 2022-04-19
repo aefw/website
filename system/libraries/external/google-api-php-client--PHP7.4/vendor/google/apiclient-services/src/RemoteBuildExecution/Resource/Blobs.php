@@ -1,65 +1,158 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\RemoteBuildExecution\Resource;
+
+use Google\Service\RemoteBuildExecution\BuildBazelRemoteExecutionV2BatchReadBlobsRequest;
+use Google\Service\RemoteBuildExecution\BuildBazelRemoteExecutionV2BatchReadBlobsResponse;
+use Google\Service\RemoteBuildExecution\BuildBazelRemoteExecutionV2BatchUpdateBlobsRequest;
+use Google\Service\RemoteBuildExecution\BuildBazelRemoteExecutionV2BatchUpdateBlobsResponse;
+use Google\Service\RemoteBuildExecution\BuildBazelRemoteExecutionV2FindMissingBlobsRequest;
+use Google\Service\RemoteBuildExecution\BuildBazelRemoteExecutionV2FindMissingBlobsResponse;
+use Google\Service\RemoteBuildExecution\BuildBazelRemoteExecutionV2GetTreeResponse;
+
+/**
+ * The "blobs" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $remotebuildexecutionService = new Google\Service\RemoteBuildExecution(...);
+ *   $blobs = $remotebuildexecutionService->blobs;
+ *  </code>
+ */
+class Blobs extends \Google\Service\Resource
+{
+  /**
+   * Download many blobs at once. The server may enforce a limit of the combined
+   * total size of blobs to be downloaded using this API. This limit may be
+   * obtained using the Capabilities API. Requests exceeding the limit should
+   * either be split into smaller chunks or downloaded using the ByteStream API,
+   * as appropriate. This request is equivalent to calling a Bytestream `Read`
+   * request on each individual blob, in parallel. The requests may succeed or
+   * fail independently. Errors: * `INVALID_ARGUMENT`: The client attempted to
+   * read more than the server supported limit. Every error on individual read
+   * will be returned in the corresponding digest status. (blobs.batchRead)
+   *
+   * @param string $instanceName The instance of the execution system to operate
+   * against. A server may support multiple instances of the execution system
+   * (with their own workers, storage, caches, etc.). The server MAY require use
+   * of this field to select between them in an implementation-defined fashion,
+   * otherwise it can be omitted.
+   * @param BuildBazelRemoteExecutionV2BatchReadBlobsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return BuildBazelRemoteExecutionV2BatchReadBlobsResponse
+   */
+  public function batchRead($instanceName, BuildBazelRemoteExecutionV2BatchReadBlobsRequest $postBody, $optParams = [])
+  {
+    $params = ['instanceName' => $instanceName, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('batchRead', [$params], BuildBazelRemoteExecutionV2BatchReadBlobsResponse::class);
+  }
+  /**
+   * Upload many blobs at once. The server may enforce a limit of the combined
+   * total size of blobs to be uploaded using this API. This limit may be obtained
+   * using the Capabilities API. Requests exceeding the limit should either be
+   * split into smaller chunks or uploaded using the ByteStream API, as
+   * appropriate. This request is equivalent to calling a Bytestream `Write`
+   * request on each individual blob, in parallel. The requests may succeed or
+   * fail independently. Errors: * `INVALID_ARGUMENT`: The client attempted to
+   * upload more than the server supported limit. Individual requests may return
+   * the following errors, additionally: * `RESOURCE_EXHAUSTED`: There is
+   * insufficient disk quota to store the blob. * `INVALID_ARGUMENT`: The Digest
+   * does not match the provided data. (blobs.batchUpdate)
+   *
+   * @param string $instanceName The instance of the execution system to operate
+   * against. A server may support multiple instances of the execution system
+   * (with their own workers, storage, caches, etc.). The server MAY require use
+   * of this field to select between them in an implementation-defined fashion,
+   * otherwise it can be omitted.
+   * @param BuildBazelRemoteExecutionV2BatchUpdateBlobsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return BuildBazelRemoteExecutionV2BatchUpdateBlobsResponse
+   */
+  public function batchUpdate($instanceName, BuildBazelRemoteExecutionV2BatchUpdateBlobsRequest $postBody, $optParams = [])
+  {
+    $params = ['instanceName' => $instanceName, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('batchUpdate', [$params], BuildBazelRemoteExecutionV2BatchUpdateBlobsResponse::class);
+  }
+  /**
+   * Determine if blobs are present in the CAS. Clients can use this API before
+   * uploading blobs to determine which ones are already present in the CAS and do
+   * not need to be uploaded again. Servers SHOULD increase the lifetimes of the
+   * referenced blobs if necessary and applicable. There are no method-specific
+   * errors. (blobs.findMissing)
+   *
+   * @param string $instanceName The instance of the execution system to operate
+   * against. A server may support multiple instances of the execution system
+   * (with their own workers, storage, caches, etc.). The server MAY require use
+   * of this field to select between them in an implementation-defined fashion,
+   * otherwise it can be omitted.
+   * @param BuildBazelRemoteExecutionV2FindMissingBlobsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return BuildBazelRemoteExecutionV2FindMissingBlobsResponse
+   */
+  public function findMissing($instanceName, BuildBazelRemoteExecutionV2FindMissingBlobsRequest $postBody, $optParams = [])
+  {
+    $params = ['instanceName' => $instanceName, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('findMissing', [$params], BuildBazelRemoteExecutionV2FindMissingBlobsResponse::class);
+  }
+  /**
+   * Fetch the entire directory tree rooted at a node. This request must be
+   * targeted at a Directory stored in the ContentAddressableStorage (CAS). The
+   * server will enumerate the `Directory` tree recursively and return every node
+   * descended from the root. The GetTreeRequest.page_token parameter can be used
+   * to skip ahead in the stream (e.g. when retrying a partially completed and
+   * aborted request), by setting it to a value taken from
+   * GetTreeResponse.next_page_token of the last successfully processed
+   * GetTreeResponse). The exact traversal order is unspecified and, unless
+   * retrieving subsequent pages from an earlier request, is not guaranteed to be
+   * stable across multiple invocations of `GetTree`. If part of the tree is
+   * missing from the CAS, the server will return the portion present and omit the
+   * rest. Errors: * `NOT_FOUND`: The requested tree root is not present in the
+   * CAS. (blobs.getTree)
+   *
+   * @param string $instanceName The instance of the execution system to operate
+   * against. A server may support multiple instances of the execution system
+   * (with their own workers, storage, caches, etc.). The server MAY require use
+   * of this field to select between them in an implementation-defined fashion,
+   * otherwise it can be omitted.
+   * @param string $hash The hash. In the case of SHA-256, it will always be a
+   * lowercase hex string exactly 64 characters long.
+   * @param string $sizeBytes The size of the blob, in bytes.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize A maximum page size to request. If present, the
+   * server will request no more than this many items. Regardless of whether a
+   * page size is specified, the server may place its own limit on the number of
+   * items to be returned and require the client to retrieve more items using a
+   * subsequent request.
+   * @opt_param string pageToken A page token, which must be a value received in a
+   * previous GetTreeResponse. If present, the server will use that token as an
+   * offset, returning only that page and the ones that succeed it.
+   * @return BuildBazelRemoteExecutionV2GetTreeResponse
+   */
+  public function getTree($instanceName, $hash, $sizeBytes, $optParams = [])
+  {
+    $params = ['instanceName' => $instanceName, 'hash' => $hash, 'sizeBytes' => $sizeBytes];
+    $params = array_merge($params, $optParams);
+    return $this->call('getTree', [$params], BuildBazelRemoteExecutionV2GetTreeResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Blobs::class, 'Google_Service_RemoteBuildExecution_Resource_Blobs');

@@ -1,77 +1,139 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-+2a1sEQd+4/lTq6eIJluhW==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\SQLAdmin\Resource;
+
+use Google\Service\SQLAdmin\Database;
+use Google\Service\SQLAdmin\DatabasesListResponse;
+use Google\Service\SQLAdmin\Operation;
+
+/**
+ * The "databases" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $sqladminService = new Google\Service\SQLAdmin(...);
+ *   $databases = $sqladminService->databases;
+ *  </code>
+ */
+class Databases extends \Google\Service\Resource
+{
+  /**
+   * Deletes a database from a Cloud SQL instance. (databases.delete)
+   *
+   * @param string $project Project ID of the project that contains the instance.
+   * @param string $instance Database instance ID. This does not include the
+   * project ID.
+   * @param string $database Name of the database to be deleted in the instance.
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function delete($project, $instance, $database, $optParams = [])
+  {
+    $params = ['project' => $project, 'instance' => $instance, 'database' => $database];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Retrieves a resource containing information about a database inside a Cloud
+   * SQL instance. (databases.get)
+   *
+   * @param string $project Project ID of the project that contains the instance.
+   * @param string $instance Database instance ID. This does not include the
+   * project ID.
+   * @param string $database Name of the database in the instance.
+   * @param array $optParams Optional parameters.
+   * @return Database
+   */
+  public function get($project, $instance, $database, $optParams = [])
+  {
+    $params = ['project' => $project, 'instance' => $instance, 'database' => $database];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Database::class);
+  }
+  /**
+   * Inserts a resource containing information about a database inside a Cloud SQL
+   * instance. (databases.insert)
+   *
+   * @param string $project Project ID of the project that contains the instance.
+   * @param string $instance Database instance ID. This does not include the
+   * project ID.
+   * @param Database $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function insert($project, $instance, Database $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'instance' => $instance, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Operation::class);
+  }
+  /**
+   * Lists databases in the specified Cloud SQL instance.
+   * (databases.listDatabases)
+   *
+   * @param string $project Project ID of the project that contains the instance.
+   * @param string $instance Cloud SQL instance ID. This does not include the
+   * project ID.
+   * @param array $optParams Optional parameters.
+   * @return DatabasesListResponse
+   */
+  public function listDatabases($project, $instance, $optParams = [])
+  {
+    $params = ['project' => $project, 'instance' => $instance];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], DatabasesListResponse::class);
+  }
+  /**
+   * Partially updates a resource containing information about a database inside a
+   * Cloud SQL instance. This method supports patch semantics. (databases.patch)
+   *
+   * @param string $project Project ID of the project that contains the instance.
+   * @param string $instance Database instance ID. This does not include the
+   * project ID.
+   * @param string $database Name of the database to be updated in the instance.
+   * @param Database $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function patch($project, $instance, $database, Database $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'instance' => $instance, 'database' => $database, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+  /**
+   * Updates a resource containing information about a database inside a Cloud SQL
+   * instance. (databases.update)
+   *
+   * @param string $project Project ID of the project that contains the instance.
+   * @param string $instance Database instance ID. This does not include the
+   * project ID.
+   * @param string $database Name of the database to be updated in the instance.
+   * @param Database $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function update($project, $instance, $database, Database $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'instance' => $instance, 'database' => $database, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Databases::class, 'Google_Service_SQLAdmin_Resource_Databases');

@@ -1,64 +1,276 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for Area120Tables (v1alpha1).
+ *
+ * <p>
+</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://support.google.com/area120-tables/answer/10011390" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class Area120Tables extends \Google\Service
+{
+  /** See, edit, create, and delete all of your Google Drive files. */
+  const DRIVE =
+      "https://www.googleapis.com/auth/drive";
+  /** See, edit, create, and delete only the specific Google Drive files you use with this app. */
+  const DRIVE_FILE =
+      "https://www.googleapis.com/auth/drive.file";
+  /** See and download all your Google Drive files. */
+  const DRIVE_READONLY =
+      "https://www.googleapis.com/auth/drive.readonly";
+  /** See, edit, create, and delete your spreadsheets in Google Drive. */
+  const SPREADSHEETS =
+      "https://www.googleapis.com/auth/spreadsheets";
+  /** View your Google Spreadsheets. */
+  const SPREADSHEETS_READONLY =
+      "https://www.googleapis.com/auth/spreadsheets.readonly";
+  /** See, edit, create, and delete your tables in Tables by Area 120. */
+  const TABLES =
+      "https://www.googleapis.com/auth/tables";
+
+  public $tables;
+  public $tables_rows;
+  public $workspaces;
+
+  /**
+   * Constructs the internal representation of the Area120Tables service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://area120tables.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1alpha1';
+    $this->serviceName = 'area120tables';
+
+    $this->tables = new Area120Tables\Resource\Tables(
+        $this,
+        $this->serviceName,
+        'tables',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha1/tables',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->tables_rows = new Area120Tables\Resource\TablesRows(
+        $this,
+        $this->serviceName,
+        'rows',
+        [
+          'methods' => [
+            'batchCreate' => [
+              'path' => 'v1alpha1/{+parent}/rows:batchCreate',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'batchDelete' => [
+              'path' => 'v1alpha1/{+parent}/rows:batchDelete',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'batchUpdate' => [
+              'path' => 'v1alpha1/{+parent}/rows:batchUpdate',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1alpha1/{+parent}/rows',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha1/{+parent}/rows',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->workspaces = new Area120Tables\Resource\Workspaces(
+        $this,
+        $this->serviceName,
+        'workspaces',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1alpha1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1alpha1/workspaces',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Area120Tables::class, 'Google_Service_Area120Tables');

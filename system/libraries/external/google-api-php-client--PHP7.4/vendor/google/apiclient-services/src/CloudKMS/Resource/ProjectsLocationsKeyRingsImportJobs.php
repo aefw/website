@@ -1,77 +1,164 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-tz8qZczGupSfmAIpzQcnHSY7
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudKMS\Resource;
+
+use Google\Service\CloudKMS\ImportJob;
+use Google\Service\CloudKMS\ListImportJobsResponse;
+use Google\Service\CloudKMS\Policy;
+use Google\Service\CloudKMS\SetIamPolicyRequest;
+use Google\Service\CloudKMS\TestIamPermissionsRequest;
+use Google\Service\CloudKMS\TestIamPermissionsResponse;
+
+/**
+ * The "importJobs" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $cloudkmsService = new Google\Service\CloudKMS(...);
+ *   $importJobs = $cloudkmsService->importJobs;
+ *  </code>
+ */
+class ProjectsLocationsKeyRingsImportJobs extends \Google\Service\Resource
+{
+  /**
+   * Create a new ImportJob within a KeyRing. ImportJob.import_method is required.
+   * (importJobs.create)
+   *
+   * @param string $parent Required. The name of the KeyRing associated with the
+   * ImportJobs.
+   * @param ImportJob $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string importJobId Required. It must be unique within a KeyRing
+   * and match the regular expression `[a-zA-Z0-9_-]{1,63}`
+   * @return ImportJob
+   */
+  public function create($parent, ImportJob $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], ImportJob::class);
+  }
+  /**
+   * Returns metadata for a given ImportJob. (importJobs.get)
+   *
+   * @param string $name Required. The name of the ImportJob to get.
+   * @param array $optParams Optional parameters.
+   * @return ImportJob
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], ImportJob::class);
+  }
+  /**
+   * Gets the access control policy for a resource. Returns an empty policy if the
+   * resource exists and does not have a policy set. (importJobs.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int options.requestedPolicyVersion Optional. The policy format
+   * version to be returned. Valid values are 0, 1, and 3. Requests specifying an
+   * invalid value will be rejected. Requests for policies with any conditional
+   * bindings must specify version 3. Policies without any conditional bindings
+   * may specify any valid value or leave the field unset. To learn which
+   * resources support conditions in their IAM policies, see the [IAM
+   * documentation](https://cloud.google.com/iam/help/conditions/resource-
+   * policies).
+   * @return Policy
+   */
+  public function getIamPolicy($resource, $optParams = [])
+  {
+    $params = ['resource' => $resource];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Lists ImportJobs. (importJobs.listProjectsLocationsKeyRingsImportJobs)
+   *
+   * @param string $parent Required. The resource name of the KeyRing to list, in
+   * the format `projects/locations/keyRings`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Optional. Only include resources that match the
+   * filter in the response. For more information, see [Sorting and filtering list
+   * results](https://cloud.google.com/kms/docs/sorting-and-filtering).
+   * @opt_param string orderBy Optional. Specify how the results should be sorted.
+   * If not specified, the results will be sorted in the default order. For more
+   * information, see [Sorting and filtering list
+   * results](https://cloud.google.com/kms/docs/sorting-and-filtering).
+   * @opt_param int pageSize Optional. Optional limit on the number of ImportJobs
+   * to include in the response. Further ImportJobs can subsequently be obtained
+   * by including the ListImportJobsResponse.next_page_token in a subsequent
+   * request. If unspecified, the server will pick an appropriate default.
+   * @opt_param string pageToken Optional. Optional pagination token, returned
+   * earlier via ListImportJobsResponse.next_page_token.
+   * @return ListImportJobsResponse
+   */
+  public function listProjectsLocationsKeyRingsImportJobs($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListImportJobsResponse::class);
+  }
+  /**
+   * Sets the access control policy on the specified resource. Replaces any
+   * existing policy. Can return `NOT_FOUND`, `INVALID_ARGUMENT`, and
+   * `PERMISSION_DENIED` errors. (importJobs.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource. If the
+   * resource does not exist, this will return an empty set of permissions, not a
+   * `NOT_FOUND` error. Note: This operation is designed to be used for building
+   * permission-aware UIs and command-line tools, not for authorization checking.
+   * This operation may "fail open" without warning.
+   * (importJobs.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsKeyRingsImportJobs::class, 'Google_Service_CloudKMS_Resource_ProjectsLocationsKeyRingsImportJobs');

@@ -1,64 +1,103 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-ny3f6m6kJyXQf0==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Drive\Resource;
+
+use Google\Service\Drive\Revision;
+use Google\Service\Drive\RevisionList;
+
+/**
+ * The "revisions" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $driveService = new Google\Service\Drive(...);
+ *   $revisions = $driveService->revisions;
+ *  </code>
+ */
+class Revisions extends \Google\Service\Resource
+{
+  /**
+   * Permanently deletes a file version. You can only delete revisions for files
+   * with binary content in Google Drive, like images or videos. Revisions for
+   * other files, like Google Docs or Sheets, and the last remaining file version
+   * can't be deleted. (revisions.delete)
+   *
+   * @param string $fileId The ID of the file.
+   * @param string $revisionId The ID of the revision.
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($fileId, $revisionId, $optParams = [])
+  {
+    $params = ['fileId' => $fileId, 'revisionId' => $revisionId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Gets a revision's metadata or content by ID. (revisions.get)
+   *
+   * @param string $fileId The ID of the file.
+   * @param string $revisionId The ID of the revision.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool acknowledgeAbuse Whether the user is acknowledging the risk
+   * of downloading known malware or other abusive files. This is only applicable
+   * when alt=media.
+   * @return Revision
+   */
+  public function get($fileId, $revisionId, $optParams = [])
+  {
+    $params = ['fileId' => $fileId, 'revisionId' => $revisionId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Revision::class);
+  }
+  /**
+   * Lists a file's revisions. (revisions.listRevisions)
+   *
+   * @param string $fileId The ID of the file.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The maximum number of revisions to return per page.
+   * @opt_param string pageToken The token for continuing a previous list request
+   * on the next page. This should be set to the value of 'nextPageToken' from the
+   * previous response.
+   * @return RevisionList
+   */
+  public function listRevisions($fileId, $optParams = [])
+  {
+    $params = ['fileId' => $fileId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], RevisionList::class);
+  }
+  /**
+   * Updates a revision with patch semantics. (revisions.update)
+   *
+   * @param string $fileId The ID of the file.
+   * @param string $revisionId The ID of the revision.
+   * @param Revision $postBody
+   * @param array $optParams Optional parameters.
+   * @return Revision
+   */
+  public function update($fileId, $revisionId, Revision $postBody, $optParams = [])
+  {
+    $params = ['fileId' => $fileId, 'revisionId' => $revisionId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Revision::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Revisions::class, 'Google_Service_Drive_Resource_Revisions');

@@ -1,81 +1,189 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-2gl4TfcBlM1kHS4Z+vLae8wP+ie=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Tasks\Resource;
+
+use Google\Service\Tasks\Task;
+use Google\Service\Tasks\Tasks as TasksModel;
+
+/**
+ * The "tasks" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $tasksService = new Google\Service\Tasks(...);
+ *   $tasks = $tasksService->tasks;
+ *  </code>
+ */
+class Tasks extends \Google\Service\Resource
+{
+  /**
+   * Clears all completed tasks from the specified task list. The affected tasks
+   * will be marked as 'hidden' and no longer be returned by default when
+   * retrieving all tasks for a task list. (tasks.clear)
+   *
+   * @param string $tasklist Task list identifier.
+   * @param array $optParams Optional parameters.
+   */
+  public function clear($tasklist, $optParams = [])
+  {
+    $params = ['tasklist' => $tasklist];
+    $params = array_merge($params, $optParams);
+    return $this->call('clear', [$params]);
+  }
+  /**
+   * Deletes the specified task from the task list. (tasks.delete)
+   *
+   * @param string $tasklist Task list identifier.
+   * @param string $task Task identifier.
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($tasklist, $task, $optParams = [])
+  {
+    $params = ['tasklist' => $tasklist, 'task' => $task];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Returns the specified task. (tasks.get)
+   *
+   * @param string $tasklist Task list identifier.
+   * @param string $task Task identifier.
+   * @param array $optParams Optional parameters.
+   * @return Task
+   */
+  public function get($tasklist, $task, $optParams = [])
+  {
+    $params = ['tasklist' => $tasklist, 'task' => $task];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Task::class);
+  }
+  /**
+   * Creates a new task on the specified task list. (tasks.insert)
+   *
+   * @param string $tasklist Task list identifier.
+   * @param Task $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string parent Parent task identifier. If the task is created at
+   * the top level, this parameter is omitted. Optional.
+   * @opt_param string previous Previous sibling task identifier. If the task is
+   * created at the first position among its siblings, this parameter is omitted.
+   * Optional.
+   * @return Task
+   */
+  public function insert($tasklist, Task $postBody, $optParams = [])
+  {
+    $params = ['tasklist' => $tasklist, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Task::class);
+  }
+  /**
+   * Returns all tasks in the specified task list. (tasks.listTasks)
+   *
+   * @param string $tasklist Task list identifier.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string completedMax Upper bound for a task's completion date (as a
+   * RFC 3339 timestamp) to filter by. Optional. The default is not to filter by
+   * completion date.
+   * @opt_param string completedMin Lower bound for a task's completion date (as a
+   * RFC 3339 timestamp) to filter by. Optional. The default is not to filter by
+   * completion date.
+   * @opt_param string dueMax Upper bound for a task's due date (as a RFC 3339
+   * timestamp) to filter by. Optional. The default is not to filter by due date.
+   * @opt_param string dueMin Lower bound for a task's due date (as a RFC 3339
+   * timestamp) to filter by. Optional. The default is not to filter by due date.
+   * @opt_param int maxResults Maximum number of task lists returned on one page.
+   * Optional. The default is 20 (max allowed: 100).
+   * @opt_param string pageToken Token specifying the result page to return.
+   * Optional.
+   * @opt_param bool showCompleted Flag indicating whether completed tasks are
+   * returned in the result. Optional. The default is True. Note that showHidden
+   * must also be True to show tasks completed in first party clients, such as the
+   * web UI and Google's mobile apps.
+   * @opt_param bool showDeleted Flag indicating whether deleted tasks are
+   * returned in the result. Optional. The default is False.
+   * @opt_param bool showHidden Flag indicating whether hidden tasks are returned
+   * in the result. Optional. The default is False.
+   * @opt_param string updatedMin Lower bound for a task's last modification time
+   * (as a RFC 3339 timestamp) to filter by. Optional. The default is not to
+   * filter by last modification time.
+   * @return TasksModel
+   */
+  public function listTasks($tasklist, $optParams = [])
+  {
+    $params = ['tasklist' => $tasklist];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], TasksModel::class);
+  }
+  /**
+   * Moves the specified task to another position in the task list. This can
+   * include putting it as a child task under a new parent and/or move it to a
+   * different position among its sibling tasks. (tasks.move)
+   *
+   * @param string $tasklist Task list identifier.
+   * @param string $task Task identifier.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string parent New parent task identifier. If the task is moved to
+   * the top level, this parameter is omitted. Optional.
+   * @opt_param string previous New previous sibling task identifier. If the task
+   * is moved to the first position among its siblings, this parameter is omitted.
+   * Optional.
+   * @return Task
+   */
+  public function move($tasklist, $task, $optParams = [])
+  {
+    $params = ['tasklist' => $tasklist, 'task' => $task];
+    $params = array_merge($params, $optParams);
+    return $this->call('move', [$params], Task::class);
+  }
+  /**
+   * Updates the specified task. This method supports patch semantics.
+   * (tasks.patch)
+   *
+   * @param string $tasklist Task list identifier.
+   * @param string $task Task identifier.
+   * @param Task $postBody
+   * @param array $optParams Optional parameters.
+   * @return Task
+   */
+  public function patch($tasklist, $task, Task $postBody, $optParams = [])
+  {
+    $params = ['tasklist' => $tasklist, 'task' => $task, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Task::class);
+  }
+  /**
+   * Updates the specified task. (tasks.update)
+   *
+   * @param string $tasklist Task list identifier.
+   * @param string $task Task identifier.
+   * @param Task $postBody
+   * @param array $optParams Optional parameters.
+   * @return Task
+   */
+  public function update($tasklist, $task, Task $postBody, $optParams = [])
+  {
+    $params = ['tasklist' => $tasklist, 'task' => $task, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Task::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Tasks::class, 'Google_Service_Tasks_Resource_Tasks');

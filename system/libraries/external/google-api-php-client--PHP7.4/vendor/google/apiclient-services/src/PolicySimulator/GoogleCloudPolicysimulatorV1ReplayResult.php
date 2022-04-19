@@ -1,69 +1,108 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\PolicySimulator;
+
+class GoogleCloudPolicysimulatorV1ReplayResult extends \Google\Model
+{
+  protected $accessTupleType = GoogleCloudPolicysimulatorV1AccessTuple::class;
+  protected $accessTupleDataType = '';
+  protected $diffType = GoogleCloudPolicysimulatorV1ReplayDiff::class;
+  protected $diffDataType = '';
+  protected $errorType = GoogleRpcStatus::class;
+  protected $errorDataType = '';
+  protected $lastSeenDateType = GoogleTypeDate::class;
+  protected $lastSeenDateDataType = '';
+  public $name;
+  public $parent;
+
+  /**
+   * @param GoogleCloudPolicysimulatorV1AccessTuple
+   */
+  public function setAccessTuple(GoogleCloudPolicysimulatorV1AccessTuple $accessTuple)
+  {
+    $this->accessTuple = $accessTuple;
+  }
+  /**
+   * @return GoogleCloudPolicysimulatorV1AccessTuple
+   */
+  public function getAccessTuple()
+  {
+    return $this->accessTuple;
+  }
+  /**
+   * @param GoogleCloudPolicysimulatorV1ReplayDiff
+   */
+  public function setDiff(GoogleCloudPolicysimulatorV1ReplayDiff $diff)
+  {
+    $this->diff = $diff;
+  }
+  /**
+   * @return GoogleCloudPolicysimulatorV1ReplayDiff
+   */
+  public function getDiff()
+  {
+    return $this->diff;
+  }
+  /**
+   * @param GoogleRpcStatus
+   */
+  public function setError(GoogleRpcStatus $error)
+  {
+    $this->error = $error;
+  }
+  /**
+   * @return GoogleRpcStatus
+   */
+  public function getError()
+  {
+    return $this->error;
+  }
+  /**
+   * @param GoogleTypeDate
+   */
+  public function setLastSeenDate(GoogleTypeDate $lastSeenDate)
+  {
+    $this->lastSeenDate = $lastSeenDate;
+  }
+  /**
+   * @return GoogleTypeDate
+   */
+  public function getLastSeenDate()
+  {
+    return $this->lastSeenDate;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setParent($parent)
+  {
+    $this->parent = $parent;
+  }
+  public function getParent()
+  {
+    return $this->parent;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudPolicysimulatorV1ReplayResult::class, 'Google_Service_PolicySimulator_GoogleCloudPolicysimulatorV1ReplayResult');

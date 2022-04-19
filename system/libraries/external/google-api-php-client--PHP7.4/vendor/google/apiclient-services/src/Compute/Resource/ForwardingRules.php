@@ -1,90 +1,325 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute\Resource;
+
+use Google\Service\Compute\ForwardingRule;
+use Google\Service\Compute\ForwardingRuleAggregatedList;
+use Google\Service\Compute\ForwardingRuleList;
+use Google\Service\Compute\Operation;
+use Google\Service\Compute\RegionSetLabelsRequest;
+use Google\Service\Compute\TargetReference;
+
+/**
+ * The "forwardingRules" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $computeService = new Google\Service\Compute(...);
+ *   $forwardingRules = $computeService->forwardingRules;
+ *  </code>
+ */
+class ForwardingRules extends \Google\Service\Resource
+{
+  /**
+   * Retrieves an aggregated list of forwarding rules.
+   * (forwardingRules.aggregatedList)
+   *
+   * @param string $project Project ID for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param bool includeAllScopes Indicates whether every visible scope for
+   * each scope type (zone, region, global) should be included in the response.
+   * For new resource types added after this field, the flag has no effect as new
+   * resource types will always include every visible scope for each scope type in
+   * response. For resource types which predate this field, if this flag is
+   * omitted or false, only scopes of the scope types where the resource type is
+   * expected to be found will be included.
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return ForwardingRuleAggregatedList
+   */
+  public function aggregatedList($project, $optParams = [])
+  {
+    $params = ['project' => $project];
+    $params = array_merge($params, $optParams);
+    return $this->call('aggregatedList', [$params], ForwardingRuleAggregatedList::class);
+  }
+  /**
+   * Deletes the specified ForwardingRule resource. (forwardingRules.delete)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param string $forwardingRule Name of the ForwardingRule resource to delete.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function delete($project, $region, $forwardingRule, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'forwardingRule' => $forwardingRule];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Returns the specified ForwardingRule resource. (forwardingRules.get)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param string $forwardingRule Name of the ForwardingRule resource to return.
+   * @param array $optParams Optional parameters.
+   * @return ForwardingRule
+   */
+  public function get($project, $region, $forwardingRule, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'forwardingRule' => $forwardingRule];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], ForwardingRule::class);
+  }
+  /**
+   * Creates a ForwardingRule resource in the specified project and region using
+   * the data included in the request. (forwardingRules.insert)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param ForwardingRule $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function insert($project, $region, ForwardingRule $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Operation::class);
+  }
+  /**
+   * Retrieves a list of ForwardingRule resources available to the specified
+   * project and region. (forwardingRules.listForwardingRules)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return ForwardingRuleList
+   */
+  public function listForwardingRules($project, $region, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ForwardingRuleList::class);
+  }
+  /**
+   * Updates the specified forwarding rule with the data included in the request.
+   * This method supports PATCH semantics and uses the JSON merge patch format and
+   * processing rules. Currently, you can only patch the network_tier field.
+   * (forwardingRules.patch)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param string $forwardingRule Name of the ForwardingRule resource to patch.
+   * @param ForwardingRule $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function patch($project, $region, $forwardingRule, ForwardingRule $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'forwardingRule' => $forwardingRule, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+  /**
+   * Sets the labels on the specified resource. To learn more about labels, read
+   * the Labeling Resources documentation. (forwardingRules.setLabels)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region The region for this request.
+   * @param string $resource Name or id of the resource for this request.
+   * @param RegionSetLabelsRequest $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function setLabels($project, $region, $resource, RegionSetLabelsRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setLabels', [$params], Operation::class);
+  }
+  /**
+   * Changes target URL for forwarding rule. The new target should be of the same
+   * type as the old target. (forwardingRules.setTarget)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param string $forwardingRule Name of the ForwardingRule resource in which
+   * target is to be set.
+   * @param TargetReference $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function setTarget($project, $region, $forwardingRule, TargetReference $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'forwardingRule' => $forwardingRule, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setTarget', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ForwardingRules::class, 'Google_Service_Compute_Resource_ForwardingRules');

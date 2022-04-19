@@ -1,67 +1,101 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DisplayVideo;
+
+class CreateSdfDownloadTaskRequest extends \Google\Model
+{
+  public $advertiserId;
+  protected $idFilterType = IdFilter::class;
+  protected $idFilterDataType = '';
+  protected $inventorySourceFilterType = InventorySourceFilter::class;
+  protected $inventorySourceFilterDataType = '';
+  protected $parentEntityFilterType = ParentEntityFilter::class;
+  protected $parentEntityFilterDataType = '';
+  public $partnerId;
+  public $version;
+
+  public function setAdvertiserId($advertiserId)
+  {
+    $this->advertiserId = $advertiserId;
+  }
+  public function getAdvertiserId()
+  {
+    return $this->advertiserId;
+  }
+  /**
+   * @param IdFilter
+   */
+  public function setIdFilter(IdFilter $idFilter)
+  {
+    $this->idFilter = $idFilter;
+  }
+  /**
+   * @return IdFilter
+   */
+  public function getIdFilter()
+  {
+    return $this->idFilter;
+  }
+  /**
+   * @param InventorySourceFilter
+   */
+  public function setInventorySourceFilter(InventorySourceFilter $inventorySourceFilter)
+  {
+    $this->inventorySourceFilter = $inventorySourceFilter;
+  }
+  /**
+   * @return InventorySourceFilter
+   */
+  public function getInventorySourceFilter()
+  {
+    return $this->inventorySourceFilter;
+  }
+  /**
+   * @param ParentEntityFilter
+   */
+  public function setParentEntityFilter(ParentEntityFilter $parentEntityFilter)
+  {
+    $this->parentEntityFilter = $parentEntityFilter;
+  }
+  /**
+   * @return ParentEntityFilter
+   */
+  public function getParentEntityFilter()
+  {
+    return $this->parentEntityFilter;
+  }
+  public function setPartnerId($partnerId)
+  {
+    $this->partnerId = $partnerId;
+  }
+  public function getPartnerId()
+  {
+    return $this->partnerId;
+  }
+  public function setVersion($version)
+  {
+    $this->version = $version;
+  }
+  public function getVersion()
+  {
+    return $this->version;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(CreateSdfDownloadTaskRequest::class, 'Google_Service_DisplayVideo_CreateSdfDownloadTaskRequest');

@@ -1,81 +1,627 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-xrR5Ztk94vLARGtK8t+dMN4HGxMuFldzei329Re=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for Pubsub (v1).
+ *
+ * <p>
+ * Provides reliable, many-to-many, asynchronous messaging between applications.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/pubsub/docs" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class Pubsub extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+  /** View and manage Pub/Sub topics and subscriptions. */
+  const PUBSUB =
+      "https://www.googleapis.com/auth/pubsub";
+
+  public $projects_schemas;
+  public $projects_snapshots;
+  public $projects_subscriptions;
+  public $projects_topics;
+  public $projects_topics_snapshots;
+  public $projects_topics_subscriptions;
+
+  /**
+   * Constructs the internal representation of the Pubsub service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://pubsub.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'pubsub';
+
+    $this->projects_schemas = new Pubsub\Resource\ProjectsSchemas(
+        $this,
+        $this->serviceName,
+        'schemas',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/schemas',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'schemaId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1/{+resource}:getIamPolicy',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'options.requestedPolicyVersion' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/schemas',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'validate' => [
+              'path' => 'v1/{+parent}/schemas:validate',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'validateMessage' => [
+              'path' => 'v1/{+parent}/schemas:validateMessage',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_snapshots = new Pubsub\Resource\ProjectsSnapshots(
+        $this,
+        $this->serviceName,
+        'snapshots',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+snapshot}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'snapshot' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+snapshot}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'snapshot' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1/{+resource}:getIamPolicy',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'options.requestedPolicyVersion' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+project}/snapshots',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_subscriptions = new Pubsub\Resource\ProjectsSubscriptions(
+        $this,
+        $this->serviceName,
+        'subscriptions',
+        [
+          'methods' => [
+            'acknowledge' => [
+              'path' => 'v1/{+subscription}:acknowledge',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'subscription' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+subscription}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'subscription' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'detach' => [
+              'path' => 'v1/{+subscription}:detach',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'subscription' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+subscription}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'subscription' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1/{+resource}:getIamPolicy',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'options.requestedPolicyVersion' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+project}/subscriptions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'modifyAckDeadline' => [
+              'path' => 'v1/{+subscription}:modifyAckDeadline',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'subscription' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'modifyPushConfig' => [
+              'path' => 'v1/{+subscription}:modifyPushConfig',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'subscription' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'pull' => [
+              'path' => 'v1/{+subscription}:pull',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'subscription' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'seek' => [
+              'path' => 'v1/{+subscription}:seek',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'subscription' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_topics = new Pubsub\Resource\ProjectsTopics(
+        $this,
+        $this->serviceName,
+        'topics',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+topic}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'topic' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+topic}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'topic' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1/{+resource}:getIamPolicy',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'options.requestedPolicyVersion' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+project}/topics',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'publish' => [
+              'path' => 'v1/{+topic}:publish',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'topic' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_topics_snapshots = new Pubsub\Resource\ProjectsTopicsSnapshots(
+        $this,
+        $this->serviceName,
+        'snapshots',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/{+topic}/snapshots',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'topic' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_topics_subscriptions = new Pubsub\Resource\ProjectsTopicsSubscriptions(
+        $this,
+        $this->serviceName,
+        'subscriptions',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/{+topic}/subscriptions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'topic' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Pubsub::class, 'Google_Service_Pubsub');

@@ -1,68 +1,98 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-4rY+XG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Directory;
+
+class UserPhoto extends \Google\Model
+{
+  public $etag;
+  public $height;
+  public $id;
+  public $kind;
+  public $mimeType;
+  public $photoData;
+  public $primaryEmail;
+  public $width;
+
+  public function setEtag($etag)
+  {
+    $this->etag = $etag;
+  }
+  public function getEtag()
+  {
+    return $this->etag;
+  }
+  public function setHeight($height)
+  {
+    $this->height = $height;
+  }
+  public function getHeight()
+  {
+    return $this->height;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setMimeType($mimeType)
+  {
+    $this->mimeType = $mimeType;
+  }
+  public function getMimeType()
+  {
+    return $this->mimeType;
+  }
+  public function setPhotoData($photoData)
+  {
+    $this->photoData = $photoData;
+  }
+  public function getPhotoData()
+  {
+    return $this->photoData;
+  }
+  public function setPrimaryEmail($primaryEmail)
+  {
+    $this->primaryEmail = $primaryEmail;
+  }
+  public function getPrimaryEmail()
+  {
+    return $this->primaryEmail;
+  }
+  public function setWidth($width)
+  {
+    $this->width = $width;
+  }
+  public function getWidth()
+  {
+    return $this->width;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(UserPhoto::class, 'Google_Service_Directory_UserPhoto');

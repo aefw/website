@@ -1,60 +1,101 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-GNrIUfUuV3+Mne+rlb5cuF0=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Webmasters\Resource;
+
+use Google\Service\Webmasters\SitemapsListResponse;
+use Google\Service\Webmasters\WmxSitemap;
+
+/**
+ * The "sitemaps" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $webmastersService = new Google\Service\Webmasters(...);
+ *   $sitemaps = $webmastersService->sitemaps;
+ *  </code>
+ */
+class Sitemaps extends \Google\Service\Resource
+{
+  /**
+   * Deletes a sitemap from this site. (sitemaps.delete)
+   *
+   * @param string $siteUrl The site's URL, including protocol. For example:
+   * http://www.example.com/
+   * @param string $feedpath The URL of the actual sitemap. For example:
+   * http://www.example.com/sitemap.xml
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($siteUrl, $feedpath, $optParams = [])
+  {
+    $params = ['siteUrl' => $siteUrl, 'feedpath' => $feedpath];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Retrieves information about a specific sitemap. (sitemaps.get)
+   *
+   * @param string $siteUrl The site's URL, including protocol. For example:
+   * http://www.example.com/
+   * @param string $feedpath The URL of the actual sitemap. For example:
+   * http://www.example.com/sitemap.xml
+   * @param array $optParams Optional parameters.
+   * @return WmxSitemap
+   */
+  public function get($siteUrl, $feedpath, $optParams = [])
+  {
+    $params = ['siteUrl' => $siteUrl, 'feedpath' => $feedpath];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], WmxSitemap::class);
+  }
+  /**
+   * Lists the sitemaps-entries submitted for this site, or included in the
+   * sitemap index file (if sitemapIndex is specified in the request).
+   * (sitemaps.listSitemaps)
+   *
+   * @param string $siteUrl The site's URL, including protocol. For example:
+   * http://www.example.com/
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string sitemapIndex A URL of a site's sitemap index. For example:
+   * http://www.example.com/sitemapindex.xml
+   * @return SitemapsListResponse
+   */
+  public function listSitemaps($siteUrl, $optParams = [])
+  {
+    $params = ['siteUrl' => $siteUrl];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], SitemapsListResponse::class);
+  }
+  /**
+   * Submits a sitemap for a site. (sitemaps.submit)
+   *
+   * @param string $siteUrl The site's URL, including protocol. For example:
+   * http://www.example.com/
+   * @param string $feedpath The URL of the sitemap to add. For example:
+   * http://www.example.com/sitemap.xml
+   * @param array $optParams Optional parameters.
+   */
+  public function submit($siteUrl, $feedpath, $optParams = [])
+  {
+    $params = ['siteUrl' => $siteUrl, 'feedpath' => $feedpath];
+    $params = array_merge($params, $optParams);
+    return $this->call('submit', [$params]);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Sitemaps::class, 'Google_Service_Webmasters_Resource_Sitemaps');

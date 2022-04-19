@@ -1,71 +1,108 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudShell;
+
+class Environment extends \Google\Collection
+{
+  protected $collection_key = 'publicKeys';
+  public $dockerImage;
+  public $id;
+  public $name;
+  public $publicKeys;
+  public $sshHost;
+  public $sshPort;
+  public $sshUsername;
+  public $state;
+  public $webHost;
+
+  public function setDockerImage($dockerImage)
+  {
+    $this->dockerImage = $dockerImage;
+  }
+  public function getDockerImage()
+  {
+    return $this->dockerImage;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setPublicKeys($publicKeys)
+  {
+    $this->publicKeys = $publicKeys;
+  }
+  public function getPublicKeys()
+  {
+    return $this->publicKeys;
+  }
+  public function setSshHost($sshHost)
+  {
+    $this->sshHost = $sshHost;
+  }
+  public function getSshHost()
+  {
+    return $this->sshHost;
+  }
+  public function setSshPort($sshPort)
+  {
+    $this->sshPort = $sshPort;
+  }
+  public function getSshPort()
+  {
+    return $this->sshPort;
+  }
+  public function setSshUsername($sshUsername)
+  {
+    $this->sshUsername = $sshUsername;
+  }
+  public function getSshUsername()
+  {
+    return $this->sshUsername;
+  }
+  public function setState($state)
+  {
+    $this->state = $state;
+  }
+  public function getState()
+  {
+    return $this->state;
+  }
+  public function setWebHost($webHost)
+  {
+    $this->webHost = $webHost;
+  }
+  public function getWebHost()
+  {
+    return $this->webHost;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Environment::class, 'Google_Service_CloudShell_Environment');

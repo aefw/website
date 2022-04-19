@@ -1,74 +1,127 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AdMob;
+
+class MediationReportSpec extends \Google\Collection
+{
+  protected $collection_key = 'sortConditions';
+  protected $dateRangeType = DateRange::class;
+  protected $dateRangeDataType = '';
+  protected $dimensionFiltersType = MediationReportSpecDimensionFilter::class;
+  protected $dimensionFiltersDataType = 'array';
+  public $dimensions;
+  protected $localizationSettingsType = LocalizationSettings::class;
+  protected $localizationSettingsDataType = '';
+  public $maxReportRows;
+  public $metrics;
+  protected $sortConditionsType = MediationReportSpecSortCondition::class;
+  protected $sortConditionsDataType = 'array';
+  public $timeZone;
+
+  /**
+   * @param DateRange
+   */
+  public function setDateRange(DateRange $dateRange)
+  {
+    $this->dateRange = $dateRange;
+  }
+  /**
+   * @return DateRange
+   */
+  public function getDateRange()
+  {
+    return $this->dateRange;
+  }
+  /**
+   * @param MediationReportSpecDimensionFilter[]
+   */
+  public function setDimensionFilters($dimensionFilters)
+  {
+    $this->dimensionFilters = $dimensionFilters;
+  }
+  /**
+   * @return MediationReportSpecDimensionFilter[]
+   */
+  public function getDimensionFilters()
+  {
+    return $this->dimensionFilters;
+  }
+  public function setDimensions($dimensions)
+  {
+    $this->dimensions = $dimensions;
+  }
+  public function getDimensions()
+  {
+    return $this->dimensions;
+  }
+  /**
+   * @param LocalizationSettings
+   */
+  public function setLocalizationSettings(LocalizationSettings $localizationSettings)
+  {
+    $this->localizationSettings = $localizationSettings;
+  }
+  /**
+   * @return LocalizationSettings
+   */
+  public function getLocalizationSettings()
+  {
+    return $this->localizationSettings;
+  }
+  public function setMaxReportRows($maxReportRows)
+  {
+    $this->maxReportRows = $maxReportRows;
+  }
+  public function getMaxReportRows()
+  {
+    return $this->maxReportRows;
+  }
+  public function setMetrics($metrics)
+  {
+    $this->metrics = $metrics;
+  }
+  public function getMetrics()
+  {
+    return $this->metrics;
+  }
+  /**
+   * @param MediationReportSpecSortCondition[]
+   */
+  public function setSortConditions($sortConditions)
+  {
+    $this->sortConditions = $sortConditions;
+  }
+  /**
+   * @return MediationReportSpecSortCondition[]
+   */
+  public function getSortConditions()
+  {
+    return $this->sortConditions;
+  }
+  public function setTimeZone($timeZone)
+  {
+    $this->timeZone = $timeZone;
+  }
+  public function getTimeZone()
+  {
+    return $this->timeZone;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(MediationReportSpec::class, 'Google_Service_AdMob_MediationReportSpec');

@@ -1,94 +1,153 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AndroidManagement;
+
+class HardwareInfo extends \Google\Collection
+{
+  protected $collection_key = 'skinThrottlingTemperatures';
+  public $batteryShutdownTemperatures;
+  public $batteryThrottlingTemperatures;
+  public $brand;
+  public $cpuShutdownTemperatures;
+  public $cpuThrottlingTemperatures;
+  public $deviceBasebandVersion;
+  public $gpuShutdownTemperatures;
+  public $gpuThrottlingTemperatures;
+  public $hardware;
+  public $manufacturer;
+  public $model;
+  public $serialNumber;
+  public $skinShutdownTemperatures;
+  public $skinThrottlingTemperatures;
+
+  public function setBatteryShutdownTemperatures($batteryShutdownTemperatures)
+  {
+    $this->batteryShutdownTemperatures = $batteryShutdownTemperatures;
+  }
+  public function getBatteryShutdownTemperatures()
+  {
+    return $this->batteryShutdownTemperatures;
+  }
+  public function setBatteryThrottlingTemperatures($batteryThrottlingTemperatures)
+  {
+    $this->batteryThrottlingTemperatures = $batteryThrottlingTemperatures;
+  }
+  public function getBatteryThrottlingTemperatures()
+  {
+    return $this->batteryThrottlingTemperatures;
+  }
+  public function setBrand($brand)
+  {
+    $this->brand = $brand;
+  }
+  public function getBrand()
+  {
+    return $this->brand;
+  }
+  public function setCpuShutdownTemperatures($cpuShutdownTemperatures)
+  {
+    $this->cpuShutdownTemperatures = $cpuShutdownTemperatures;
+  }
+  public function getCpuShutdownTemperatures()
+  {
+    return $this->cpuShutdownTemperatures;
+  }
+  public function setCpuThrottlingTemperatures($cpuThrottlingTemperatures)
+  {
+    $this->cpuThrottlingTemperatures = $cpuThrottlingTemperatures;
+  }
+  public function getCpuThrottlingTemperatures()
+  {
+    return $this->cpuThrottlingTemperatures;
+  }
+  public function setDeviceBasebandVersion($deviceBasebandVersion)
+  {
+    $this->deviceBasebandVersion = $deviceBasebandVersion;
+  }
+  public function getDeviceBasebandVersion()
+  {
+    return $this->deviceBasebandVersion;
+  }
+  public function setGpuShutdownTemperatures($gpuShutdownTemperatures)
+  {
+    $this->gpuShutdownTemperatures = $gpuShutdownTemperatures;
+  }
+  public function getGpuShutdownTemperatures()
+  {
+    return $this->gpuShutdownTemperatures;
+  }
+  public function setGpuThrottlingTemperatures($gpuThrottlingTemperatures)
+  {
+    $this->gpuThrottlingTemperatures = $gpuThrottlingTemperatures;
+  }
+  public function getGpuThrottlingTemperatures()
+  {
+    return $this->gpuThrottlingTemperatures;
+  }
+  public function setHardware($hardware)
+  {
+    $this->hardware = $hardware;
+  }
+  public function getHardware()
+  {
+    return $this->hardware;
+  }
+  public function setManufacturer($manufacturer)
+  {
+    $this->manufacturer = $manufacturer;
+  }
+  public function getManufacturer()
+  {
+    return $this->manufacturer;
+  }
+  public function setModel($model)
+  {
+    $this->model = $model;
+  }
+  public function getModel()
+  {
+    return $this->model;
+  }
+  public function setSerialNumber($serialNumber)
+  {
+    $this->serialNumber = $serialNumber;
+  }
+  public function getSerialNumber()
+  {
+    return $this->serialNumber;
+  }
+  public function setSkinShutdownTemperatures($skinShutdownTemperatures)
+  {
+    $this->skinShutdownTemperatures = $skinShutdownTemperatures;
+  }
+  public function getSkinShutdownTemperatures()
+  {
+    return $this->skinShutdownTemperatures;
+  }
+  public function setSkinThrottlingTemperatures($skinThrottlingTemperatures)
+  {
+    $this->skinThrottlingTemperatures = $skinThrottlingTemperatures;
+  }
+  public function getSkinThrottlingTemperatures()
+  {
+    return $this->skinThrottlingTemperatures;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(HardwareInfo::class, 'Google_Service_AndroidManagement_HardwareInfo');

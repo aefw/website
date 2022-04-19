@@ -1,66 +1,89 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\FirebaseDynamicLinks;
+
+class IosInfo extends \Google\Model
+{
+  public $iosAppStoreId;
+  public $iosBundleId;
+  public $iosCustomScheme;
+  public $iosFallbackLink;
+  public $iosIpadBundleId;
+  public $iosIpadFallbackLink;
+  public $iosMinimumVersion;
+
+  public function setIosAppStoreId($iosAppStoreId)
+  {
+    $this->iosAppStoreId = $iosAppStoreId;
+  }
+  public function getIosAppStoreId()
+  {
+    return $this->iosAppStoreId;
+  }
+  public function setIosBundleId($iosBundleId)
+  {
+    $this->iosBundleId = $iosBundleId;
+  }
+  public function getIosBundleId()
+  {
+    return $this->iosBundleId;
+  }
+  public function setIosCustomScheme($iosCustomScheme)
+  {
+    $this->iosCustomScheme = $iosCustomScheme;
+  }
+  public function getIosCustomScheme()
+  {
+    return $this->iosCustomScheme;
+  }
+  public function setIosFallbackLink($iosFallbackLink)
+  {
+    $this->iosFallbackLink = $iosFallbackLink;
+  }
+  public function getIosFallbackLink()
+  {
+    return $this->iosFallbackLink;
+  }
+  public function setIosIpadBundleId($iosIpadBundleId)
+  {
+    $this->iosIpadBundleId = $iosIpadBundleId;
+  }
+  public function getIosIpadBundleId()
+  {
+    return $this->iosIpadBundleId;
+  }
+  public function setIosIpadFallbackLink($iosIpadFallbackLink)
+  {
+    $this->iosIpadFallbackLink = $iosIpadFallbackLink;
+  }
+  public function getIosIpadFallbackLink()
+  {
+    return $this->iosIpadFallbackLink;
+  }
+  public function setIosMinimumVersion($iosMinimumVersion)
+  {
+    $this->iosMinimumVersion = $iosMinimumVersion;
+  }
+  public function getIosMinimumVersion()
+  {
+    return $this->iosMinimumVersion;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(IosInfo::class, 'Google_Service_FirebaseDynamicLinks_IosInfo');

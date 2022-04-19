@@ -1,67 +1,26 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-LisrwI+UUxmRgdKXsTZBU0FcijnBzxy=
+<?php
+/**
+ * Malaysian PHPMailer language file: refer to English translation for definitive list
+ * @package PHPMailer
+ * @author Nawawi Jamili <nawawi@rutweb.com>
+ */
+
+$PHPMAILER_LANG['authenticate']         = 'Ralat SMTP: Tidak dapat pengesahan.';
+$PHPMAILER_LANG['connect_host']         = 'Ralat SMTP: Tidak dapat menghubungi hos pelayan SMTP.';
+$PHPMAILER_LANG['data_not_accepted']    = 'Ralat SMTP: Data tidak diterima oleh pelayan.';
+$PHPMAILER_LANG['empty_message']        = 'Tiada isi untuk mesej';
+$PHPMAILER_LANG['encoding']             = 'Pengekodan tidak diketahui: ';
+$PHPMAILER_LANG['execute']              = 'Tidak dapat melaksanakan: ';
+$PHPMAILER_LANG['file_access']          = 'Tidak dapat mengakses fail: ';
+$PHPMAILER_LANG['file_open']            = 'Ralat Fail: Tidak dapat membuka fail: ';
+$PHPMAILER_LANG['from_failed']          = 'Berikut merupakan ralat dari alamat e-mel: ';
+$PHPMAILER_LANG['instantiate']          = 'Tidak dapat memberi contoh fungsi e-mel.';
+$PHPMAILER_LANG['invalid_address']      = 'Alamat emel tidak sah: ';
+$PHPMAILER_LANG['mailer_not_supported'] = ' jenis penghantar emel tidak disokong.';
+$PHPMAILER_LANG['provide_address']      = 'Anda perlu menyediakan sekurang-kurangnya satu alamat e-mel penerima.';
+$PHPMAILER_LANG['recipients_failed']    = 'Ralat SMTP: Penerima e-mel berikut telah gagal: ';
+$PHPMAILER_LANG['signing']              = 'Ralat pada tanda tangan: ';
+$PHPMAILER_LANG['smtp_connect_failed']  = 'SMTP Connect() telah gagal.';
+$PHPMAILER_LANG['smtp_error']           = 'Ralat pada pelayan SMTP: ';
+$PHPMAILER_LANG['variable_set']         = 'Tidak boleh menetapkan atau menetapkan semula pembolehubah: ';
+$PHPMAILER_LANG['extension_missing']    = 'Sambungan hilang: ';

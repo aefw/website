@@ -1,60 +1,89 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AndroidEnterprise\Resource;
+
+use Google\Service\AndroidEnterprise\ServiceAccountKey;
+use Google\Service\AndroidEnterprise\ServiceAccountKeysListResponse;
+
+/**
+ * The "serviceaccountkeys" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $androidenterpriseService = new Google\Service\AndroidEnterprise(...);
+ *   $serviceaccountkeys = $androidenterpriseService->serviceaccountkeys;
+ *  </code>
+ */
+class Serviceaccountkeys extends \Google\Service\Resource
+{
+  /**
+   * Removes and invalidates the specified credentials for the service account
+   * associated with this enterprise. The calling service account must have been
+   * retrieved by calling Enterprises.GetServiceAccount and must have been set as
+   * the enterprise service account by calling Enterprises.SetAccount.
+   * (serviceaccountkeys.delete)
+   *
+   * @param string $enterpriseId The ID of the enterprise.
+   * @param string $keyId The ID of the key.
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($enterpriseId, $keyId, $optParams = [])
+  {
+    $params = ['enterpriseId' => $enterpriseId, 'keyId' => $keyId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Generates new credentials for the service account associated with this
+   * enterprise. The calling service account must have been retrieved by calling
+   * Enterprises.GetServiceAccount and must have been set as the enterprise
+   * service account by calling Enterprises.SetAccount. Only the type of the key
+   * should be populated in the resource to be inserted.
+   * (serviceaccountkeys.insert)
+   *
+   * @param string $enterpriseId The ID of the enterprise.
+   * @param ServiceAccountKey $postBody
+   * @param array $optParams Optional parameters.
+   * @return ServiceAccountKey
+   */
+  public function insert($enterpriseId, ServiceAccountKey $postBody, $optParams = [])
+  {
+    $params = ['enterpriseId' => $enterpriseId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], ServiceAccountKey::class);
+  }
+  /**
+   * Lists all active credentials for the service account associated with this
+   * enterprise. Only the ID and key type are returned. The calling service
+   * account must have been retrieved by calling Enterprises.GetServiceAccount and
+   * must have been set as the enterprise service account by calling
+   * Enterprises.SetAccount. (serviceaccountkeys.listServiceaccountkeys)
+   *
+   * @param string $enterpriseId The ID of the enterprise.
+   * @param array $optParams Optional parameters.
+   * @return ServiceAccountKeysListResponse
+   */
+  public function listServiceaccountkeys($enterpriseId, $optParams = [])
+  {
+    $params = ['enterpriseId' => $enterpriseId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ServiceAccountKeysListResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Serviceaccountkeys::class, 'Google_Service_AndroidEnterprise_Resource_Serviceaccountkeys');

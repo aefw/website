@@ -1,61 +1,84 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-zSIsI/0QR04FxgN2Q57g2YzdercFpOy=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudVideoIntelligence;
+
+class GoogleCloudVideointelligenceV1beta2Track extends \Google\Collection
+{
+  protected $collection_key = 'timestampedObjects';
+  protected $attributesType = GoogleCloudVideointelligenceV1beta2DetectedAttribute::class;
+  protected $attributesDataType = 'array';
+  public $confidence;
+  protected $segmentType = GoogleCloudVideointelligenceV1beta2VideoSegment::class;
+  protected $segmentDataType = '';
+  protected $timestampedObjectsType = GoogleCloudVideointelligenceV1beta2TimestampedObject::class;
+  protected $timestampedObjectsDataType = 'array';
+
+  /**
+   * @param GoogleCloudVideointelligenceV1beta2DetectedAttribute[]
+   */
+  public function setAttributes($attributes)
+  {
+    $this->attributes = $attributes;
+  }
+  /**
+   * @return GoogleCloudVideointelligenceV1beta2DetectedAttribute[]
+   */
+  public function getAttributes()
+  {
+    return $this->attributes;
+  }
+  public function setConfidence($confidence)
+  {
+    $this->confidence = $confidence;
+  }
+  public function getConfidence()
+  {
+    return $this->confidence;
+  }
+  /**
+   * @param GoogleCloudVideointelligenceV1beta2VideoSegment
+   */
+  public function setSegment(GoogleCloudVideointelligenceV1beta2VideoSegment $segment)
+  {
+    $this->segment = $segment;
+  }
+  /**
+   * @return GoogleCloudVideointelligenceV1beta2VideoSegment
+   */
+  public function getSegment()
+  {
+    return $this->segment;
+  }
+  /**
+   * @param GoogleCloudVideointelligenceV1beta2TimestampedObject[]
+   */
+  public function setTimestampedObjects($timestampedObjects)
+  {
+    $this->timestampedObjects = $timestampedObjects;
+  }
+  /**
+   * @return GoogleCloudVideointelligenceV1beta2TimestampedObject[]
+   */
+  public function getTimestampedObjects()
+  {
+    return $this->timestampedObjects;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudVideointelligenceV1beta2Track::class, 'Google_Service_CloudVideoIntelligence_GoogleCloudVideointelligenceV1beta2Track');

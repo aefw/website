@@ -1,67 +1,122 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPvZeqpGSU2WxgIP65x8sms7PnY4CIFqYLAV8JAA34q+ghWVtFfjqCUv2vksvsQHYjUHUzgRS
-V67ecfyoQkrXNziF5+R0SR5A2T2ccjYhNv1EAPDuANIUOO/27ZKrxhCYmN2K8kzsikxQZ+3PKGsX
-ts5KXB40gPeXb6ENFRJFrvYea1UrJr1FPfLTRu7D8Q/zin2UL1ATDG3Roz7dY4t+EZIoVG1Pjmr+
-JrNBIPh1MNFhfxQfl5t5RbR0d339kFeerlO5qYo73QB7+4FuPYWtape85wwyLUVvsid3kSxXEHjC
-p7DtTTvJCcz6c0zPg1al25q4OEuNkn8aUg2hUugvg1BLbB04Lu/mw3Lfpp760O2aMX8sDeII6jbu
-okXOrXgaK75xhA4QRjQQVtn81haQFuIDjJDD+8Z2A4e2HWSCk8yZEX9yulxULjgKMvtiWKm4KpHL
-bDwxVbmT7vWNm5ugPIIHCgEDSB6FH36vwidHFyqwg1SqAiSJzeWf3e3Rq1PG3LCi/Edbaunp/KTe
-RNwltzymH+cvv9K5GejWqxK8mKP5W8en2uf5HhE8z3ZeDGi37k9lKtzZgwUC6actG2vdkILl67Vg
-KyRF5qpoJnPYe7Yu75KULkSIic2SxIbl/QUrH6iJW9rx4E/lReGfuCyxPJvVxzpXhF4Y/t2l1QCt
-jDt+Ttnzkf3qDHDKhKd+9o/IZ4gp/KSpa+uSAqnqwmFkfW32wdnzr9dkHaXI+YE0Fltu6rrcPWtr
-AbVSoXPwklA5vBDSOnjTuBPfry34BWwWGhDfCufuRj7zu69mTnR8tgLTAXX2qzYblbifpeD60gjs
-+h6rpB5RWT2kvbbt2ez6JzuvQkhl8Uh6Ic1tAtg0U9sDV/mM1w+L7PucD2Dm4aU3wnASQ55g3tFv
-vuO8Hl/Cp8+ENoEVpi5NnBGkNMEinnfqnTMa3shVL98EjJASzfE35stfQ8lT+BiJi/cTuAIOHfjm
-58uKneRH4tYzdKIKGxzJya0cNLN11Xh/2HN6bEPWTB++nMG5jdlv78SY+ZUJlCS7lWNsZxkW4vWu
-gFJIyAQufrivOwPZWTlGyBOHHwQkxaDgiuSZoc3gSGYd6ddddLVSqE14hp6fceFH0aWJZ/jYI8Mx
-CUyXafGmSV2/T1AxTuhA0qw1yQua8T3n138KJndSo/xJa9KDFnd1Iyc8Fsv/wr+/rTUzWmP+doEu
-OrEKDN5/VtSxgtvnDyE1Ugrhtlrtlopl8JGkjrFSEWXCnJBLx/j49aDBhqz8oL+w7ArcM4ck+vO4
-1O5z7MYQkuvxdQ9LDILufIScRNzbKYc9Ym7LATVxGlgQ++pxSDJlD++WJQNKQsxiU9vsJ/+jpRIp
-LDI8y0hIyf+WZT4uC2t3z7Gn/+yuk+b/DYugaL6qr55mDPk4sMddQJ8Xgc98z2O+ywlYGvTX2chW
-RDhQxVL0HKp+PZx87z6zBYrZM+MNi4WrAWaTqw0ecocktTVRxxBkqCwUNEcuzdpsnuz/AVMEMiQ3
-hIMaEuqNaCCVGQHJETyOcA7ioIDfK87vFaB/T77MTiDTq3F+PX3R8/m0jjoAtOVJqMAgESr4r8Vq
-DkfoiooMJ5ViU6moyoh7xJuDjCTw7Tc6MPOGFqZ3kcgAZ5egRKhpp6yH2CmcBslvuBSZPZ6510fy
-juD4/9yCwAA6p/Is7NK2xo+G8HCsQa0LFoGTaY5+rVnhWqZ61f5JmmbNHWbKyBfACWUMKQWSzroq
-VnLo/iawyV/bLHeXmx/mOhgVs1+CfxlOKPSNZk76HvKGNWxLDZ/QnZ16PyaJA9wASPvv5h2OZN1e
-1qehtB7+UJMv+NGIkYBtAQXgbpMKEOXNjTPBx70o58aHHvUzuiSThc17A4tpq3CndiROkj0ZdAfU
-beYUdEBO4gsGdoFdJUo/MRqxDasdpbwRlphAIh8ouVsNbqDwlNzZRmKHodcvtlI/6Bl/Is8N8TgF
-n9Ej7i5F5gXkPKnqnAv8cw2Ej3P/qNaYsDy7BtpbfrzxO/wdMfXvmQyP4rxxQ0/thId/8n6q4ZP1
-xY9odMwLMafRs1Tybb3m9qo7PLXwgGbuRv0HaryctyI96cwix6GDDNJUtkldFNi839p4fgZne5rQ
-auvNCLmRUVOB7o/Vqvpa1L8RBgo1/mIl+eZ5z97R3JcteAiDg+r17WwORKQRih+APowwNcd/UfHo
-UHPaWgr1Sy0QUlYVyzfVgB1sk0E0MWjJR8A8YYdniBIpKN2ajXUbRu2IrmaUOS2o2fBt91JFCDJ2
-ne/BUU5InE+mT2J3zieFni73tRJxw+LxrnmLpeDjhJ9skSA6wIgwTNTE/Cu5dy2k6pGm6ao/6QG3
-w5d2jFx+iNc17mGOZovhg/d93bT/OIQPKKpb4ddAB+Lh/TwnGB6CS1XaanVQJdCPtx4mWoQU9pu8
-DflNfRrUgXjHSjjl+KHhWq/j8ZMpV+yLPH3idsi1O5+16jH9Y8W9LSdX+zLSjQmVOyRBNXu9yJdO
-Gh3uCVb37r6cWj9UqLO1LQHLOytwyRAu4bYQm8jv8nXRX7xmGjVmQnzp+mYDDQSx0begNeYMv3jZ
-lUEDYAdRI7TlOK3x3BJWWX2fkeZvIzwrJi+p935dE/nkRoVX7URLHjx/0d+0n3LD+wYiuFYesMn0
-9gJNU4NJMt7DDO7+OzbBe9k8vQoJEDonU0GPupQLAH1eGMvv2+gdMGTndpvuGv9Mq6Di3ClNqYh5
-Jv6IGND5ju+p7W8vZqIW/qES6Y4lc/aZlAbYFXzFFjuZ6WGEnK96DhdaOcOHBQP7MzwoPydCAUwZ
-X4WLpOzoE16xSvtuwXY4L7dAUuUKmLGR9YTo5RMCjbj4h7wzTts5c+pZicoyoSSjLV7BpFLO9ekt
-MkZrqKid4rmICUjhELzgql4YVs4MIzkOW27VhVpUIBRxNG8CPDfY30HIcSa/R/ZMdqlirikNJbEB
-9Bfj+y5FqqF1qwsufok43zI/2a1kp5ZV1w4xqsNunqgaFHpeuWmODZ8VXX4HgGJ/bubrM9VPdQbG
-e+Axi9GcHPP77Dr7eOAyH4eNeK4QwmE6NFyFwi0t+6ibdOQo1fwgw4QtH5N/lCPil4qtQr98sb/V
-agzplXm5p3B3DyulVBEKbN8tPjqLQD2uoI4B2cvthbpXFrWjpkVkbxpztkgzsNeJZDolNVHQcSsl
-ee4rw+Kj/mqCINEp1NH/d2b8TKnkqPqpR7CS9PYzVUqFX2xKEIXLZTrfCD+P5e62uvjK6bpHdMgt
-g0Wa3mFQJHHHT53reZrrdw7KP7eguHxzlt4xnctIOg8e17b8iW0N3B7SzhY2hDQSzV7j2t5s5g+v
-d4BT3zJ56pZGcG3sI9gQMLZ+bU+2TX+KykuhgF6Umcs4nl417aved2PMpgMh5M37aQr3x6TZDKqM
-SUgjCFxDnnv4vzukZOQxEIqU4iH5+H9JL4wRBF8zOndaYsdiqtgh6IfCT+Ykam9NZjQleiz6YA+V
-/TPWnwgP1pxH+gJ1USovgHmq6v7ca7vcMnO3ZueYtjiovtCrwcAygm3hukNmXELSC/A/Jz/b5HzM
-krWmq5AjXs0lQU52/f5xw5AQP9vOfNDG8neE46gSJXr8VlgKyWXp1TTGb0+yaO8+8AWwn/6yHT3/
-H54gZiXTO8wEe32LM0Ds08nqmH2vkYkBxIjAuaV9ovBcj4FTdzG6w+Qcun4N1SM2TIRsNUuG3nQe
-ZFbmKZT4bmExazHJc62hOM20SDIARjvNcVO/l1GQwbYq8P0xeE83Lt8XGsIzp9E70Nt+BMfBraeg
-UJTAloDjtn97My58bugmOqZFH7X7KCWztGxobbR28moUkrsAEbLfBdsvCLSPnvp4s/wKGj0UA1qD
-ybSMtkc5uxM6IsHo5ZjQeKnHql0+mKNGISh8VxjZjgEE74qKy6E6QC3Fbrd+5NQJkuD1uGiepgPd
-SiINh9USRhd+XDLv5En8sBVw5X5TEi4GhBSE3BE996KbWsLFAKxQ6vUat15N9+gQ9+dXj38u4/R4
-tNw2JQq2ib5TbzJ4Vmzai1e5Jr6DmOrsCNMATRPUJbMHpRMGM88DrZRPP5+Epno/B6k0p4juFtEK
-BBVMlv1B1wzpsHiQXZPlSh2OLP0D8i/kDeHUoy1th7GkJ3F0CaxkUnL2nihKJqsHKxZ/8iREIOID
-InBS5RB9kjd/SLTz7Brfa8lTKHslU2+dcm7ThuNDr/wlvJB8A1j8v0RY4qZLLj9aVoGgteKFrqLM
-2F7E6YPUy8vENNDVWyxPGoxax+17bHCK5ayZDrg1HPMdsMAdKe6CrxXD4nNljT25WEM+KvaKG9dg
-osZGqGyrN6bqZhtx3zJMzp3hZYXhf5T0oUmB20kdbJPGKIZVx65nkMFuYGk3hqHR5HQhS+qOaKAQ
-0Z1xgsfeEbyWa3HkEXB0JvgkhrXTDK1DxGJJsmZ0hUffqPb8kgpz+g0v6w8rD7ManXonYJDKQo4P
-gN1riRp+wDWEUbUqhNe5wyOsmTzp3CwchMlxwYQhFYBFlgr7CmgFRsoEILIksEzHZz/XMTzcMWNH
-KuOAuqnLNvQroq+MJ521mlWEedXWzQXqi+S/PaC=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Bigquery;
+
+class EvaluationMetrics extends \Google\Model
+{
+  protected $arimaForecastingMetricsType = ArimaForecastingMetrics::class;
+  protected $arimaForecastingMetricsDataType = '';
+  protected $binaryClassificationMetricsType = BinaryClassificationMetrics::class;
+  protected $binaryClassificationMetricsDataType = '';
+  protected $clusteringMetricsType = ClusteringMetrics::class;
+  protected $clusteringMetricsDataType = '';
+  protected $multiClassClassificationMetricsType = MultiClassClassificationMetrics::class;
+  protected $multiClassClassificationMetricsDataType = '';
+  protected $rankingMetricsType = RankingMetrics::class;
+  protected $rankingMetricsDataType = '';
+  protected $regressionMetricsType = RegressionMetrics::class;
+  protected $regressionMetricsDataType = '';
+
+  /**
+   * @param ArimaForecastingMetrics
+   */
+  public function setArimaForecastingMetrics(ArimaForecastingMetrics $arimaForecastingMetrics)
+  {
+    $this->arimaForecastingMetrics = $arimaForecastingMetrics;
+  }
+  /**
+   * @return ArimaForecastingMetrics
+   */
+  public function getArimaForecastingMetrics()
+  {
+    return $this->arimaForecastingMetrics;
+  }
+  /**
+   * @param BinaryClassificationMetrics
+   */
+  public function setBinaryClassificationMetrics(BinaryClassificationMetrics $binaryClassificationMetrics)
+  {
+    $this->binaryClassificationMetrics = $binaryClassificationMetrics;
+  }
+  /**
+   * @return BinaryClassificationMetrics
+   */
+  public function getBinaryClassificationMetrics()
+  {
+    return $this->binaryClassificationMetrics;
+  }
+  /**
+   * @param ClusteringMetrics
+   */
+  public function setClusteringMetrics(ClusteringMetrics $clusteringMetrics)
+  {
+    $this->clusteringMetrics = $clusteringMetrics;
+  }
+  /**
+   * @return ClusteringMetrics
+   */
+  public function getClusteringMetrics()
+  {
+    return $this->clusteringMetrics;
+  }
+  /**
+   * @param MultiClassClassificationMetrics
+   */
+  public function setMultiClassClassificationMetrics(MultiClassClassificationMetrics $multiClassClassificationMetrics)
+  {
+    $this->multiClassClassificationMetrics = $multiClassClassificationMetrics;
+  }
+  /**
+   * @return MultiClassClassificationMetrics
+   */
+  public function getMultiClassClassificationMetrics()
+  {
+    return $this->multiClassClassificationMetrics;
+  }
+  /**
+   * @param RankingMetrics
+   */
+  public function setRankingMetrics(RankingMetrics $rankingMetrics)
+  {
+    $this->rankingMetrics = $rankingMetrics;
+  }
+  /**
+   * @return RankingMetrics
+   */
+  public function getRankingMetrics()
+  {
+    return $this->rankingMetrics;
+  }
+  /**
+   * @param RegressionMetrics
+   */
+  public function setRegressionMetrics(RegressionMetrics $regressionMetrics)
+  {
+    $this->regressionMetrics = $regressionMetrics;
+  }
+  /**
+   * @return RegressionMetrics
+   */
+  public function getRegressionMetrics()
+  {
+    return $this->regressionMetrics;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(EvaluationMetrics::class, 'Google_Service_Bigquery_EvaluationMetrics');

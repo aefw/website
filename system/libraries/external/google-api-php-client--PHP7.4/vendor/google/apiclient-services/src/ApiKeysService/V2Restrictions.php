@@ -1,63 +1,107 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-LowD428i0Bahq9Mk5jTVmG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ApiKeysService;
+
+class V2Restrictions extends \Google\Collection
+{
+  protected $collection_key = 'apiTargets';
+  protected $androidKeyRestrictionsType = V2AndroidKeyRestrictions::class;
+  protected $androidKeyRestrictionsDataType = '';
+  protected $apiTargetsType = V2ApiTarget::class;
+  protected $apiTargetsDataType = 'array';
+  protected $browserKeyRestrictionsType = V2BrowserKeyRestrictions::class;
+  protected $browserKeyRestrictionsDataType = '';
+  protected $iosKeyRestrictionsType = V2IosKeyRestrictions::class;
+  protected $iosKeyRestrictionsDataType = '';
+  protected $serverKeyRestrictionsType = V2ServerKeyRestrictions::class;
+  protected $serverKeyRestrictionsDataType = '';
+
+  /**
+   * @param V2AndroidKeyRestrictions
+   */
+  public function setAndroidKeyRestrictions(V2AndroidKeyRestrictions $androidKeyRestrictions)
+  {
+    $this->androidKeyRestrictions = $androidKeyRestrictions;
+  }
+  /**
+   * @return V2AndroidKeyRestrictions
+   */
+  public function getAndroidKeyRestrictions()
+  {
+    return $this->androidKeyRestrictions;
+  }
+  /**
+   * @param V2ApiTarget[]
+   */
+  public function setApiTargets($apiTargets)
+  {
+    $this->apiTargets = $apiTargets;
+  }
+  /**
+   * @return V2ApiTarget[]
+   */
+  public function getApiTargets()
+  {
+    return $this->apiTargets;
+  }
+  /**
+   * @param V2BrowserKeyRestrictions
+   */
+  public function setBrowserKeyRestrictions(V2BrowserKeyRestrictions $browserKeyRestrictions)
+  {
+    $this->browserKeyRestrictions = $browserKeyRestrictions;
+  }
+  /**
+   * @return V2BrowserKeyRestrictions
+   */
+  public function getBrowserKeyRestrictions()
+  {
+    return $this->browserKeyRestrictions;
+  }
+  /**
+   * @param V2IosKeyRestrictions
+   */
+  public function setIosKeyRestrictions(V2IosKeyRestrictions $iosKeyRestrictions)
+  {
+    $this->iosKeyRestrictions = $iosKeyRestrictions;
+  }
+  /**
+   * @return V2IosKeyRestrictions
+   */
+  public function getIosKeyRestrictions()
+  {
+    return $this->iosKeyRestrictions;
+  }
+  /**
+   * @param V2ServerKeyRestrictions
+   */
+  public function setServerKeyRestrictions(V2ServerKeyRestrictions $serverKeyRestrictions)
+  {
+    $this->serverKeyRestrictions = $serverKeyRestrictions;
+  }
+  /**
+   * @return V2ServerKeyRestrictions
+   */
+  public function getServerKeyRestrictions()
+  {
+    return $this->serverKeyRestrictions;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(V2Restrictions::class, 'Google_Service_ApiKeysService_V2Restrictions');

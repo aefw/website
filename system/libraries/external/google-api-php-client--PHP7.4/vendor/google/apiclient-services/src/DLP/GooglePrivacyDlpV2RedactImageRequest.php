@@ -1,64 +1,93 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DLP;
+
+class GooglePrivacyDlpV2RedactImageRequest extends \Google\Collection
+{
+  protected $collection_key = 'imageRedactionConfigs';
+  protected $byteItemType = GooglePrivacyDlpV2ByteContentItem::class;
+  protected $byteItemDataType = '';
+  protected $imageRedactionConfigsType = GooglePrivacyDlpV2ImageRedactionConfig::class;
+  protected $imageRedactionConfigsDataType = 'array';
+  public $includeFindings;
+  protected $inspectConfigType = GooglePrivacyDlpV2InspectConfig::class;
+  protected $inspectConfigDataType = '';
+  public $locationId;
+
+  /**
+   * @param GooglePrivacyDlpV2ByteContentItem
+   */
+  public function setByteItem(GooglePrivacyDlpV2ByteContentItem $byteItem)
+  {
+    $this->byteItem = $byteItem;
+  }
+  /**
+   * @return GooglePrivacyDlpV2ByteContentItem
+   */
+  public function getByteItem()
+  {
+    return $this->byteItem;
+  }
+  /**
+   * @param GooglePrivacyDlpV2ImageRedactionConfig[]
+   */
+  public function setImageRedactionConfigs($imageRedactionConfigs)
+  {
+    $this->imageRedactionConfigs = $imageRedactionConfigs;
+  }
+  /**
+   * @return GooglePrivacyDlpV2ImageRedactionConfig[]
+   */
+  public function getImageRedactionConfigs()
+  {
+    return $this->imageRedactionConfigs;
+  }
+  public function setIncludeFindings($includeFindings)
+  {
+    $this->includeFindings = $includeFindings;
+  }
+  public function getIncludeFindings()
+  {
+    return $this->includeFindings;
+  }
+  /**
+   * @param GooglePrivacyDlpV2InspectConfig
+   */
+  public function setInspectConfig(GooglePrivacyDlpV2InspectConfig $inspectConfig)
+  {
+    $this->inspectConfig = $inspectConfig;
+  }
+  /**
+   * @return GooglePrivacyDlpV2InspectConfig
+   */
+  public function getInspectConfig()
+  {
+    return $this->inspectConfig;
+  }
+  public function setLocationId($locationId)
+  {
+    $this->locationId = $locationId;
+  }
+  public function getLocationId()
+  {
+    return $this->locationId;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GooglePrivacyDlpV2RedactImageRequest::class, 'Google_Service_DLP_GooglePrivacyDlpV2RedactImageRequest');

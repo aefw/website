@@ -1,74 +1,152 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-kw04rMLayGYTrq74ejO5HE4=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\GameServices\Resource;
+
+use Google\Service\GameServices\ListRealmsResponse;
+use Google\Service\GameServices\Operation;
+use Google\Service\GameServices\PreviewRealmUpdateResponse;
+use Google\Service\GameServices\Realm;
+
+/**
+ * The "realms" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $gameservicesService = new Google\Service\GameServices(...);
+ *   $realms = $gameservicesService->realms;
+ *  </code>
+ */
+class ProjectsLocationsRealms extends \Google\Service\Resource
+{
+  /**
+   * Creates a new realm in a given project and location. (realms.create)
+   *
+   * @param string $parent Required. The parent resource name, in the following
+   * form: `projects/{project}/locations/{location}`.
+   * @param Realm $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string realmId Required. The ID of the realm resource to be
+   * created.
+   * @return Operation
+   */
+  public function create($parent, Realm $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Operation::class);
+  }
+  /**
+   * Deletes a single realm. (realms.delete)
+   *
+   * @param string $name Required. The name of the realm to delete, in the
+   * following form: `projects/{project}/locations/{location}/realms/{realm}`.
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Gets details of a single realm. (realms.get)
+   *
+   * @param string $name Required. The name of the realm to retrieve, in the
+   * following form: `projects/{project}/locations/{location}/realms/{realm}`.
+   * @param array $optParams Optional parameters.
+   * @return Realm
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Realm::class);
+  }
+  /**
+   * Lists realms in a given project and location.
+   * (realms.listProjectsLocationsRealms)
+   *
+   * @param string $parent Required. The parent resource name, in the following
+   * form: `projects/{project}/locations/{location}`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Optional. The filter to apply to list results.
+   * @opt_param string orderBy Optional. Specifies the ordering of results
+   * following syntax at
+   * https://cloud.google.com/apis/design/design_patterns#sorting_order.
+   * @opt_param int pageSize Optional. The maximum number of items to return. If
+   * unspecified, server will pick an appropriate default. Server may return fewer
+   * items than requested. A caller should only rely on response's next_page_token
+   * to determine if there are more realms left to be queried.
+   * @opt_param string pageToken Optional. The next_page_token value returned from
+   * a previous List request, if any.
+   * @return ListRealmsResponse
+   */
+  public function listProjectsLocationsRealms($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListRealmsResponse::class);
+  }
+  /**
+   * Patches a single realm. (realms.patch)
+   *
+   * @param string $name The resource name of the realm, in the following form:
+   * `projects/{project}/locations/{location}/realms/{realm}`. For example,
+   * `projects/my-project/locations/{location}/realms/my-realm`.
+   * @param Realm $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. The update mask applies to the
+   * resource. For the `FieldMask` definition, see https://developers.google.com
+   * /protocol-buffers/docs/reference/google.protobuf#fieldmask
+   * @return Operation
+   */
+  public function patch($name, Realm $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+  /**
+   * Previews patches to a single realm. (realms.previewUpdate)
+   *
+   * @param string $name The resource name of the realm, in the following form:
+   * `projects/{project}/locations/{location}/realms/{realm}`. For example,
+   * `projects/my-project/locations/{location}/realms/my-realm`.
+   * @param Realm $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string previewTime Optional. The target timestamp to compute the
+   * preview.
+   * @opt_param string updateMask Required. The update mask applies to the
+   * resource. For the `FieldMask` definition, see https://developers.google.com
+   * /protocol-buffers/docs/reference/google.protobuf#fieldmask
+   * @return PreviewRealmUpdateResponse
+   */
+  public function previewUpdate($name, Realm $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('previewUpdate', [$params], PreviewRealmUpdateResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsRealms::class, 'Google_Service_GameServices_Resource_ProjectsLocationsRealms');

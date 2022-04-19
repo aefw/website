@@ -1,69 +1,108 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DataLabeling\Resource;
+
+use Google\Service\DataLabeling\GoogleCloudDatalabelingV1beta1FeedbackMessage;
+use Google\Service\DataLabeling\GoogleCloudDatalabelingV1beta1ListFeedbackMessagesResponse;
+use Google\Service\DataLabeling\GoogleLongrunningOperation;
+use Google\Service\DataLabeling\GoogleProtobufEmpty;
+
+/**
+ * The "feedbackMessages" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $datalabelingService = new Google\Service\DataLabeling(...);
+ *   $feedbackMessages = $datalabelingService->feedbackMessages;
+ *  </code>
+ */
+class ProjectsDatasetsAnnotatedDatasetsFeedbackThreadsFeedbackMessages extends \Google\Service\Resource
+{
+  /**
+   * Create a FeedbackMessage object. (feedbackMessages.create)
+   *
+   * @param string $parent Required. FeedbackMessage resource parent, format: proj
+   * ects/{project_id}/datasets/{dataset_id}/annotatedDatasets/{annotated_dataset_
+   * id}/feedbackThreads/{feedback_thread_id}.
+   * @param GoogleCloudDatalabelingV1beta1FeedbackMessage $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function create($parent, GoogleCloudDatalabelingV1beta1FeedbackMessage $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Delete a FeedbackMessage. (feedbackMessages.delete)
+   *
+   * @param string $name Required. Name of the FeedbackMessage that is going to be
+   * deleted. Format: 'projects/{project_id}/datasets/{dataset_id}/annotatedDatase
+   * ts/{annotated_dataset_id}/feedbackThreads/{feedback_thread_id}/feedbackMessag
+   * es/{feedback_message_id}'.
+   * @param array $optParams Optional parameters.
+   * @return GoogleProtobufEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
+  }
+  /**
+   * Get a FeedbackMessage object. (feedbackMessages.get)
+   *
+   * @param string $name Required. Name of the feedback. Format: 'projects/{projec
+   * t_id}/datasets/{dataset_id}/annotatedDatasets/{annotated_dataset_id}/feedback
+   * Threads/{feedback_thread_id}/feedbackMessages/{feedback_message_id}'.
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudDatalabelingV1beta1FeedbackMessage
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudDatalabelingV1beta1FeedbackMessage::class);
+  }
+  /**
+   * List FeedbackMessages with pagination. (feedbackMessages.listProjectsDatasets
+   * AnnotatedDatasetsFeedbackThreadsFeedbackMessages)
+   *
+   * @param string $parent Required. FeedbackMessage resource parent. Format: "pro
+   * jects/{project_id}/datasets/{dataset_id}/annotatedDatasets/{annotated_dataset
+   * _id}/feedbackThreads/{feedback_thread_id}"
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Optional. Requested page size. Server may return
+   * fewer results than requested. Default value is 100.
+   * @opt_param string pageToken Optional. A token identifying a page of results
+   * for the server to return. Typically obtained by
+   * ListFeedbackMessages.next_page_token of the previous
+   * [DataLabelingService.ListFeedbackMessages] call. Return first page if empty.
+   * @return GoogleCloudDatalabelingV1beta1ListFeedbackMessagesResponse
+   */
+  public function listProjectsDatasetsAnnotatedDatasetsFeedbackThreadsFeedbackMessages($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleCloudDatalabelingV1beta1ListFeedbackMessagesResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsDatasetsAnnotatedDatasetsFeedbackThreadsFeedbackMessages::class, 'Google_Service_DataLabeling_Resource_ProjectsDatasetsAnnotatedDatasetsFeedbackThreadsFeedbackMessages');

@@ -1,83 +1,240 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-k0TFzsDjj+Q1ECdx8scP2B5f/bYJ
+<?php
+
+namespace PhpOffice\PhpSpreadsheet;
+
+use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
+
+class NamedRange
+{
+    /**
+     * Range name.
+     *
+     * @var string
+     */
+    private $name;
+
+    /**
+     * Worksheet on which the named range can be resolved.
+     *
+     * @var Worksheet
+     */
+    private $worksheet;
+
+    /**
+     * Range of the referenced cells.
+     *
+     * @var string
+     */
+    private $range;
+
+    /**
+     * Is the named range local? (i.e. can only be used on $this->worksheet).
+     *
+     * @var bool
+     */
+    private $localOnly;
+
+    /**
+     * Scope.
+     *
+     * @var Worksheet
+     */
+    private $scope;
+
+    /**
+     * Create a new NamedRange.
+     *
+     * @param string $pName
+     * @param Worksheet $pWorksheet
+     * @param string $pRange
+     * @param bool $pLocalOnly
+     * @param null|Worksheet $pScope Scope. Only applies when $pLocalOnly = true. Null for global scope.
+     *
+     * @throws Exception
+     */
+    public function __construct($pName, Worksheet $pWorksheet, $pRange = 'A1', $pLocalOnly = false, $pScope = null)
+    {
+        // Validate data
+        if (($pName === null) || ($pWorksheet === null) || ($pRange === null)) {
+            throw new Exception('Parameters can not be null.');
+        }
+
+        // Set local members
+        $this->name = $pName;
+        $this->worksheet = $pWorksheet;
+        $this->range = $pRange;
+        $this->localOnly = $pLocalOnly;
+        $this->scope = ($pLocalOnly == true) ? (($pScope == null) ? $pWorksheet : $pScope) : null;
+    }
+
+    /**
+     * Get name.
+     *
+     * @return string
+     */
+    public function getName()
+    {
+        return $this->name;
+    }
+
+    /**
+     * Set name.
+     *
+     * @param string $value
+     *
+     * @return NamedRange
+     */
+    public function setName($value)
+    {
+        if ($value !== null) {
+            // Old title
+            $oldTitle = $this->name;
+
+            // Re-attach
+            if ($this->worksheet !== null) {
+                $this->worksheet->getParent()->removeNamedRange($this->name, $this->worksheet);
+            }
+            $this->name = $value;
+
+            if ($this->worksheet !== null) {
+                $this->worksheet->getParent()->addNamedRange($this);
+            }
+
+            // New title
+            $newTitle = $this->name;
+            ReferenceHelper::getInstance()->updateNamedFormulas($this->worksheet->getParent(), $oldTitle, $newTitle);
+        }
+
+        return $this;
+    }
+
+    /**
+     * Get worksheet.
+     *
+     * @return Worksheet
+     */
+    public function getWorksheet()
+    {
+        return $this->worksheet;
+    }
+
+    /**
+     * Set worksheet.
+     *
+     * @param Worksheet $value
+     *
+     * @return NamedRange
+     */
+    public function setWorksheet(Worksheet $value = null)
+    {
+        if ($value !== null) {
+            $this->worksheet = $value;
+        }
+
+        return $this;
+    }
+
+    /**
+     * Get range.
+     *
+     * @return string
+     */
+    public function getRange()
+    {
+        return $this->range;
+    }
+
+    /**
+     * Set range.
+     *
+     * @param string $value
+     *
+     * @return NamedRange
+     */
+    public function setRange($value)
+    {
+        if ($value !== null) {
+            $this->range = $value;
+        }
+
+        return $this;
+    }
+
+    /**
+     * Get localOnly.
+     *
+     * @return bool
+     */
+    public function getLocalOnly()
+    {
+        return $this->localOnly;
+    }
+
+    /**
+     * Set localOnly.
+     *
+     * @param bool $value
+     *
+     * @return NamedRange
+     */
+    public function setLocalOnly($value)
+    {
+        $this->localOnly = $value;
+        $this->scope = $value ? $this->worksheet : null;
+
+        return $this;
+    }
+
+    /**
+     * Get scope.
+     *
+     * @return null|Worksheet
+     */
+    public function getScope()
+    {
+        return $this->scope;
+    }
+
+    /**
+     * Set scope.
+     *
+     * @param null|Worksheet $value
+     *
+     * @return NamedRange
+     */
+    public function setScope(Worksheet $value = null)
+    {
+        $this->scope = $value;
+        $this->localOnly = $value != null;
+
+        return $this;
+    }
+
+    /**
+     * Resolve a named range to a regular cell range.
+     *
+     * @param string $pNamedRange Named range
+     * @param null|Worksheet $pSheet Scope. Use null for global scope
+     *
+     * @return NamedRange
+     */
+    public static function resolveRange($pNamedRange, Worksheet $pSheet)
+    {
+        return $pSheet->getParent()->getNamedRange($pNamedRange, $pSheet);
+    }
+
+    /**
+     * Implement PHP __clone to create a deep clone, not just a shallow copy.
+     */
+    public function __clone()
+    {
+        $vars = get_object_vars($this);
+        foreach ($vars as $key => $value) {
+            if (is_object($value)) {
+                $this->$key = clone $value;
+            } else {
+                $this->$key = $value;
+            }
+        }
+    }
+}

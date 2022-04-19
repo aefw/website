@@ -1,68 +1,123 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DisplayVideo\Resource;
+
+use Google\Service\DisplayVideo\ListLocationListsResponse;
+use Google\Service\DisplayVideo\LocationList;
+
+/**
+ * The "locationLists" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $displayvideoService = new Google\Service\DisplayVideo(...);
+ *   $locationLists = $displayvideoService->locationLists;
+ *  </code>
+ */
+class AdvertisersLocationLists extends \Google\Service\Resource
+{
+  /**
+   * Creates a new location list. Returns the newly created location list if
+   * successful. (locationLists.create)
+   *
+   * @param string $advertiserId Required. The ID of the DV360 advertiser to which
+   * the location list belongs.
+   * @param LocationList $postBody
+   * @param array $optParams Optional parameters.
+   * @return LocationList
+   */
+  public function create($advertiserId, LocationList $postBody, $optParams = [])
+  {
+    $params = ['advertiserId' => $advertiserId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], LocationList::class);
+  }
+  /**
+   * Gets a location list. (locationLists.get)
+   *
+   * @param string $advertiserId Required. The ID of the DV360 advertiser to which
+   * the fetched location list belongs.
+   * @param string $locationListId Required. The ID of the location list to fetch.
+   * @param array $optParams Optional parameters.
+   * @return LocationList
+   */
+  public function get($advertiserId, $locationListId, $optParams = [])
+  {
+    $params = ['advertiserId' => $advertiserId, 'locationListId' => $locationListId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], LocationList::class);
+  }
+  /**
+   * Lists location lists based on a given advertiser id.
+   * (locationLists.listAdvertisersLocationLists)
+   *
+   * @param string $advertiserId Required. The ID of the DV360 advertiser to which
+   * the fetched location lists belong.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Allows filtering by location list fields. Supported
+   * syntax: * Filter expressions are made up of one or more restrictions. *
+   * Restrictions can be combined by `AND` or `OR` logical operators. A sequence
+   * of restrictions implicitly uses `AND`. * A restriction has the form of
+   * `{field} {operator} {value}`. * The operator must be `EQUALS (=)`. *
+   * Supported fields: - `locationType` Examples: * All regional location list:
+   * `locationType="TARGETING_LOCATION_TYPE_REGIONAL"` * All proximity location
+   * list: `locationType="TARGETING_LOCATION_TYPE_PROXIMITY"`
+   * @opt_param string orderBy Field by which to sort the list. Acceptable values
+   * are: * `locationListId` (default) * `displayName` The default sorting order
+   * is ascending. To specify descending order for a field, a suffix "desc" should
+   * be added to the field name. Example: `displayName desc`.
+   * @opt_param int pageSize Requested page size. Must be between `1` and `100`.
+   * Defaults to `100` if not set. Returns error code `INVALID_ARGUMENT` if an
+   * invalid value is specified.
+   * @opt_param string pageToken A token identifying a page of results the server
+   * should return. Typically, this is the value of next_page_token returned from
+   * the previous call to `ListLocationLists` method. If not specified, the first
+   * page of results will be returned.
+   * @return ListLocationListsResponse
+   */
+  public function listAdvertisersLocationLists($advertiserId, $optParams = [])
+  {
+    $params = ['advertiserId' => $advertiserId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListLocationListsResponse::class);
+  }
+  /**
+   * Updates a location list. Returns the updated location list if successful.
+   * (locationLists.patch)
+   *
+   * @param string $advertiserId Required. The ID of the DV360 advertiser to which
+   * the location lists belongs.
+   * @param string $locationListId Output only. The unique ID of the location
+   * list. Assigned by the system.
+   * @param LocationList $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. The mask to control which fields to
+   * update.
+   * @return LocationList
+   */
+  public function patch($advertiserId, $locationListId, LocationList $postBody, $optParams = [])
+  {
+    $params = ['advertiserId' => $advertiserId, 'locationListId' => $locationListId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], LocationList::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AdvertisersLocationLists::class, 'Google_Service_DisplayVideo_Resource_AdvertisersLocationLists');

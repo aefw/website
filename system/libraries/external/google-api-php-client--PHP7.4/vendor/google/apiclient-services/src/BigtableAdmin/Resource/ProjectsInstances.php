@@ -1,89 +1,193 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\BigtableAdmin\Resource;
+
+use Google\Service\BigtableAdmin\BigtableadminEmpty;
+use Google\Service\BigtableAdmin\CreateInstanceRequest;
+use Google\Service\BigtableAdmin\GetIamPolicyRequest;
+use Google\Service\BigtableAdmin\Instance;
+use Google\Service\BigtableAdmin\ListInstancesResponse;
+use Google\Service\BigtableAdmin\Operation;
+use Google\Service\BigtableAdmin\Policy;
+use Google\Service\BigtableAdmin\SetIamPolicyRequest;
+use Google\Service\BigtableAdmin\TestIamPermissionsRequest;
+use Google\Service\BigtableAdmin\TestIamPermissionsResponse;
+
+/**
+ * The "instances" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $bigtableadminService = new Google\Service\BigtableAdmin(...);
+ *   $instances = $bigtableadminService->instances;
+ *  </code>
+ */
+class ProjectsInstances extends \Google\Service\Resource
+{
+  /**
+   * Create an instance within a project. (instances.create)
+   *
+   * @param string $parent Required. The unique name of the project in which to
+   * create the new instance. Values are of the form `projects/{project}`.
+   * @param CreateInstanceRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function create($parent, CreateInstanceRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Operation::class);
+  }
+  /**
+   * Delete an instance from a project. (instances.delete)
+   *
+   * @param string $name Required. The unique name of the instance to be deleted.
+   * Values are of the form `projects/{project}/instances/{instance}`.
+   * @param array $optParams Optional parameters.
+   * @return BigtableadminEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], BigtableadminEmpty::class);
+  }
+  /**
+   * Gets information about an instance. (instances.get)
+   *
+   * @param string $name Required. The unique name of the requested instance.
+   * Values are of the form `projects/{project}/instances/{instance}`.
+   * @param array $optParams Optional parameters.
+   * @return Instance
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Instance::class);
+  }
+  /**
+   * Gets the access control policy for an instance resource. Returns an empty
+   * policy if an instance exists but does not have a policy set.
+   * (instances.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param GetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function getIamPolicy($resource, GetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Lists information about instances in a project.
+   * (instances.listProjectsInstances)
+   *
+   * @param string $parent Required. The unique name of the project for which a
+   * list of instances is requested. Values are of the form `projects/{project}`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string pageToken DEPRECATED: This field is unused and ignored.
+   * @return ListInstancesResponse
+   */
+  public function listProjectsInstances($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListInstancesResponse::class);
+  }
+  /**
+   * Partially updates an instance within a project. This method can modify all
+   * fields of an Instance and is the preferred way to update an Instance.
+   * (instances.partialUpdateInstance)
+   *
+   * @param string $name The unique name of the instance. Values are of the form
+   * `projects/{project}/instances/a-z+[a-z0-9]`.
+   * @param Instance $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. The subset of Instance fields which
+   * should be replaced. Must be explicitly set.
+   * @return Operation
+   */
+  public function partialUpdateInstance($name, Instance $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('partialUpdateInstance', [$params], Operation::class);
+  }
+  /**
+   * Sets the access control policy on an instance resource. Replaces any existing
+   * policy. (instances.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Returns permissions that the caller has on the specified instance resource.
+   * (instances.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+  /**
+   * Updates an instance within a project. This method updates only the display
+   * name and type for an Instance. To update other Instance properties, such as
+   * labels, use PartialUpdateInstance. (instances.update)
+   *
+   * @param string $name The unique name of the instance. Values are of the form
+   * `projects/{project}/instances/a-z+[a-z0-9]`.
+   * @param Instance $postBody
+   * @param array $optParams Optional parameters.
+   * @return Instance
+   */
+  public function update($name, Instance $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Instance::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsInstances::class, 'Google_Service_BigtableAdmin_Resource_ProjectsInstances');

@@ -1,67 +1,101 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-BcMu
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ResourceSettings;
+
+class GoogleCloudResourcesettingsV1Value extends \Google\Model
+{
+  public $booleanValue;
+  public $durationValue;
+  protected $enumValueType = GoogleCloudResourcesettingsV1ValueEnumValue::class;
+  protected $enumValueDataType = '';
+  protected $stringMapValueType = GoogleCloudResourcesettingsV1ValueStringMap::class;
+  protected $stringMapValueDataType = '';
+  protected $stringSetValueType = GoogleCloudResourcesettingsV1ValueStringSet::class;
+  protected $stringSetValueDataType = '';
+  public $stringValue;
+
+  public function setBooleanValue($booleanValue)
+  {
+    $this->booleanValue = $booleanValue;
+  }
+  public function getBooleanValue()
+  {
+    return $this->booleanValue;
+  }
+  public function setDurationValue($durationValue)
+  {
+    $this->durationValue = $durationValue;
+  }
+  public function getDurationValue()
+  {
+    return $this->durationValue;
+  }
+  /**
+   * @param GoogleCloudResourcesettingsV1ValueEnumValue
+   */
+  public function setEnumValue(GoogleCloudResourcesettingsV1ValueEnumValue $enumValue)
+  {
+    $this->enumValue = $enumValue;
+  }
+  /**
+   * @return GoogleCloudResourcesettingsV1ValueEnumValue
+   */
+  public function getEnumValue()
+  {
+    return $this->enumValue;
+  }
+  /**
+   * @param GoogleCloudResourcesettingsV1ValueStringMap
+   */
+  public function setStringMapValue(GoogleCloudResourcesettingsV1ValueStringMap $stringMapValue)
+  {
+    $this->stringMapValue = $stringMapValue;
+  }
+  /**
+   * @return GoogleCloudResourcesettingsV1ValueStringMap
+   */
+  public function getStringMapValue()
+  {
+    return $this->stringMapValue;
+  }
+  /**
+   * @param GoogleCloudResourcesettingsV1ValueStringSet
+   */
+  public function setStringSetValue(GoogleCloudResourcesettingsV1ValueStringSet $stringSetValue)
+  {
+    $this->stringSetValue = $stringSetValue;
+  }
+  /**
+   * @return GoogleCloudResourcesettingsV1ValueStringSet
+   */
+  public function getStringSetValue()
+  {
+    return $this->stringSetValue;
+  }
+  public function setStringValue($stringValue)
+  {
+    $this->stringValue = $stringValue;
+  }
+  public function getStringValue()
+  {
+    return $this->stringValue;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudResourcesettingsV1Value::class, 'Google_Service_ResourceSettings_GoogleCloudResourcesettingsV1Value');

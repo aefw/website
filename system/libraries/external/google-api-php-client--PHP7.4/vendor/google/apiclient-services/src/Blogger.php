@@ -1,92 +1,940 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-MVKrHqzo85vpQYNllB0FgXtiFkO=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for Blogger (v3).
+ *
+ * <p>
+ * The Blogger API provides access to posts, comments and pages of a Blogger
+ * blog.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://developers.google.com/blogger/docs/3.0/getting_started" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class Blogger extends \Google\Service
+{
+  /** Manage your Blogger account. */
+  const BLOGGER =
+      "https://www.googleapis.com/auth/blogger";
+  /** View your Blogger account. */
+  const BLOGGER_READONLY =
+      "https://www.googleapis.com/auth/blogger.readonly";
+
+  public $blogUserInfos;
+  public $blogs;
+  public $comments;
+  public $pageViews;
+  public $pages;
+  public $postUserInfos;
+  public $posts;
+  public $users;
+
+  /**
+   * Constructs the internal representation of the Blogger service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://blogger.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v3';
+    $this->serviceName = 'blogger';
+
+    $this->blogUserInfos = new Blogger\Resource\BlogUserInfos(
+        $this,
+        $this->serviceName,
+        'blogUserInfos',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v3/users/{userId}/blogs/{blogId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'blogId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'maxPosts' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->blogs = new Blogger\Resource\Blogs(
+        $this,
+        $this->serviceName,
+        'blogs',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v3/blogs/{blogId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'blogId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'maxPosts' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'getByUrl' => [
+              'path' => 'v3/blogs/byurl',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'url' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'listByUser' => [
+              'path' => 'v3/users/{userId}/blogs',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'fetchUserInfo' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'role' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'status' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->comments = new Blogger\Resource\Comments(
+        $this,
+        $this->serviceName,
+        'comments',
+        [
+          'methods' => [
+            'approve' => [
+              'path' => 'v3/blogs/{blogId}/posts/{postId}/comments/{commentId}/approve',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'blogId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'postId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'commentId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v3/blogs/{blogId}/posts/{postId}/comments/{commentId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'blogId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'postId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'commentId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v3/blogs/{blogId}/posts/{postId}/comments/{commentId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'blogId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'postId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'commentId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v3/blogs/{blogId}/posts/{postId}/comments',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'blogId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'postId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'endDate' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'fetchBodies' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'startDate' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'status' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'listByBlog' => [
+              'path' => 'v3/blogs/{blogId}/comments',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'blogId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'endDate' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'fetchBodies' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'startDate' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'status' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],'markAsSpam' => [
+              'path' => 'v3/blogs/{blogId}/posts/{postId}/comments/{commentId}/spam',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'blogId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'postId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'commentId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'removeContent' => [
+              'path' => 'v3/blogs/{blogId}/posts/{postId}/comments/{commentId}/removecontent',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'blogId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'postId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'commentId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->pageViews = new Blogger\Resource\PageViews(
+        $this,
+        $this->serviceName,
+        'pageViews',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v3/blogs/{blogId}/pageviews',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'blogId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'range' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->pages = new Blogger\Resource\Pages(
+        $this,
+        $this->serviceName,
+        'pages',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'v3/blogs/{blogId}/pages/{pageId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'blogId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v3/blogs/{blogId}/pages/{pageId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'blogId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'v3/blogs/{blogId}/pages',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'blogId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'isDraft' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v3/blogs/{blogId}/pages',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'blogId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'fetchBodies' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'status' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v3/blogs/{blogId}/pages/{pageId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'blogId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'publish' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'revert' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'publish' => [
+              'path' => 'v3/blogs/{blogId}/pages/{pageId}/publish',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'blogId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'revert' => [
+              'path' => 'v3/blogs/{blogId}/pages/{pageId}/revert',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'blogId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'v3/blogs/{blogId}/pages/{pageId}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'blogId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'publish' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'revert' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->postUserInfos = new Blogger\Resource\PostUserInfos(
+        $this,
+        $this->serviceName,
+        'postUserInfos',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v3/users/{userId}/blogs/{blogId}/posts/{postId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'blogId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'postId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'maxComments' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v3/users/{userId}/blogs/{blogId}/posts',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'blogId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'endDate' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'fetchBodies' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'labels' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'startDate' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'status' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->posts = new Blogger\Resource\Posts(
+        $this,
+        $this->serviceName,
+        'posts',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'v3/blogs/{blogId}/posts/{postId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'blogId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'postId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v3/blogs/{blogId}/posts/{postId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'blogId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'postId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'fetchBody' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'fetchImages' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'maxComments' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'getByPath' => [
+              'path' => 'v3/blogs/{blogId}/posts/bypath',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'blogId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'path' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'maxComments' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'insert' => [
+              'path' => 'v3/blogs/{blogId}/posts',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'blogId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'fetchBody' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'fetchImages' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'isDraft' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v3/blogs/{blogId}/posts',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'blogId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'endDate' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'fetchBodies' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'fetchImages' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'labels' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'startDate' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'status' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v3/blogs/{blogId}/posts/{postId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'blogId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'postId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'fetchBody' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'fetchImages' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'maxComments' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'publish' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'revert' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'publish' => [
+              'path' => 'v3/blogs/{blogId}/posts/{postId}/publish',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'blogId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'postId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'publishDate' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'revert' => [
+              'path' => 'v3/blogs/{blogId}/posts/{postId}/revert',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'blogId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'postId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'search' => [
+              'path' => 'v3/blogs/{blogId}/posts/search',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'blogId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'q' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'fetchBodies' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'v3/blogs/{blogId}/posts/{postId}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'blogId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'postId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'fetchBody' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'fetchImages' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'maxComments' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'publish' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'revert' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->users = new Blogger\Resource\Users(
+        $this,
+        $this->serviceName,
+        'users',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v3/users/{userId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Blogger::class, 'Google_Service_Blogger');

@@ -1,72 +1,322 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\YouTube\Resource;
+
+use Google\Service\YouTube\LiveBroadcast;
+use Google\Service\YouTube\LiveBroadcastListResponse;
+
+/**
+ * The "liveBroadcasts" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $youtubeService = new Google\Service\YouTube(...);
+ *   $liveBroadcasts = $youtubeService->liveBroadcasts;
+ *  </code>
+ */
+class LiveBroadcasts extends \Google\Service\Resource
+{
+  /**
+   * Bind a broadcast to a stream. (liveBroadcasts.bind)
+   *
+   * @param string $id Broadcast to bind to the stream
+   * @param string|array $part The *part* parameter specifies a comma-separated
+   * list of one or more liveBroadcast resource properties that the API response
+   * will include. The part names that you can include in the parameter value are
+   * id, snippet, contentDetails, and status.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string onBehalfOfContentOwner *Note:* This parameter is intended
+   * exclusively for YouTube content partners. The *onBehalfOfContentOwner*
+   * parameter indicates that the request's authorization credentials identify a
+   * YouTube CMS user who is acting on behalf of the content owner specified in
+   * the parameter value. This parameter is intended for YouTube content partners
+   * that own and manage many different YouTube channels. It allows content owners
+   * to authenticate once and get access to all their video and channel data,
+   * without having to provide authentication credentials for each individual
+   * channel. The CMS account that the user authenticates with must be linked to
+   * the specified YouTube content owner.
+   * @opt_param string onBehalfOfContentOwnerChannel This parameter can only be
+   * used in a properly authorized request. *Note:* This parameter is intended
+   * exclusively for YouTube content partners. The *onBehalfOfContentOwnerChannel*
+   * parameter specifies the YouTube channel ID of the channel to which a video is
+   * being added. This parameter is required when a request specifies a value for
+   * the onBehalfOfContentOwner parameter, and it can only be used in conjunction
+   * with that parameter. In addition, the request must be authorized using a CMS
+   * account that is linked to the content owner that the onBehalfOfContentOwner
+   * parameter specifies. Finally, the channel that the
+   * onBehalfOfContentOwnerChannel parameter value specifies must be linked to the
+   * content owner that the onBehalfOfContentOwner parameter specifies. This
+   * parameter is intended for YouTube content partners that own and manage many
+   * different YouTube channels. It allows content owners to authenticate once and
+   * perform actions on behalf of the channel specified in the parameter value,
+   * without having to provide authentication credentials for each separate
+   * channel.
+   * @opt_param string streamId Stream to bind, if not set unbind the current one.
+   * @return LiveBroadcast
+   */
+  public function bind($id, $part, $optParams = [])
+  {
+    $params = ['id' => $id, 'part' => $part];
+    $params = array_merge($params, $optParams);
+    return $this->call('bind', [$params], LiveBroadcast::class);
+  }
+  /**
+   * Delete a given broadcast. (liveBroadcasts.delete)
+   *
+   * @param string $id Broadcast to delete.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string onBehalfOfContentOwner *Note:* This parameter is intended
+   * exclusively for YouTube content partners. The *onBehalfOfContentOwner*
+   * parameter indicates that the request's authorization credentials identify a
+   * YouTube CMS user who is acting on behalf of the content owner specified in
+   * the parameter value. This parameter is intended for YouTube content partners
+   * that own and manage many different YouTube channels. It allows content owners
+   * to authenticate once and get access to all their video and channel data,
+   * without having to provide authentication credentials for each individual
+   * channel. The CMS account that the user authenticates with must be linked to
+   * the specified YouTube content owner.
+   * @opt_param string onBehalfOfContentOwnerChannel This parameter can only be
+   * used in a properly authorized request. *Note:* This parameter is intended
+   * exclusively for YouTube content partners. The *onBehalfOfContentOwnerChannel*
+   * parameter specifies the YouTube channel ID of the channel to which a video is
+   * being added. This parameter is required when a request specifies a value for
+   * the onBehalfOfContentOwner parameter, and it can only be used in conjunction
+   * with that parameter. In addition, the request must be authorized using a CMS
+   * account that is linked to the content owner that the onBehalfOfContentOwner
+   * parameter specifies. Finally, the channel that the
+   * onBehalfOfContentOwnerChannel parameter value specifies must be linked to the
+   * content owner that the onBehalfOfContentOwner parameter specifies. This
+   * parameter is intended for YouTube content partners that own and manage many
+   * different YouTube channels. It allows content owners to authenticate once and
+   * perform actions on behalf of the channel specified in the parameter value,
+   * without having to provide authentication credentials for each separate
+   * channel.
+   */
+  public function delete($id, $optParams = [])
+  {
+    $params = ['id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Inserts a new stream for the authenticated user. (liveBroadcasts.insert)
+   *
+   * @param string|array $part The *part* parameter serves two purposes in this
+   * operation. It identifies the properties that the write operation will set as
+   * well as the properties that the API response will include. The part
+   * properties that you can include in the parameter value are id, snippet,
+   * contentDetails, and status.
+   * @param LiveBroadcast $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string onBehalfOfContentOwner *Note:* This parameter is intended
+   * exclusively for YouTube content partners. The *onBehalfOfContentOwner*
+   * parameter indicates that the request's authorization credentials identify a
+   * YouTube CMS user who is acting on behalf of the content owner specified in
+   * the parameter value. This parameter is intended for YouTube content partners
+   * that own and manage many different YouTube channels. It allows content owners
+   * to authenticate once and get access to all their video and channel data,
+   * without having to provide authentication credentials for each individual
+   * channel. The CMS account that the user authenticates with must be linked to
+   * the specified YouTube content owner.
+   * @opt_param string onBehalfOfContentOwnerChannel This parameter can only be
+   * used in a properly authorized request. *Note:* This parameter is intended
+   * exclusively for YouTube content partners. The *onBehalfOfContentOwnerChannel*
+   * parameter specifies the YouTube channel ID of the channel to which a video is
+   * being added. This parameter is required when a request specifies a value for
+   * the onBehalfOfContentOwner parameter, and it can only be used in conjunction
+   * with that parameter. In addition, the request must be authorized using a CMS
+   * account that is linked to the content owner that the onBehalfOfContentOwner
+   * parameter specifies. Finally, the channel that the
+   * onBehalfOfContentOwnerChannel parameter value specifies must be linked to the
+   * content owner that the onBehalfOfContentOwner parameter specifies. This
+   * parameter is intended for YouTube content partners that own and manage many
+   * different YouTube channels. It allows content owners to authenticate once and
+   * perform actions on behalf of the channel specified in the parameter value,
+   * without having to provide authentication credentials for each separate
+   * channel.
+   * @return LiveBroadcast
+   */
+  public function insert($part, LiveBroadcast $postBody, $optParams = [])
+  {
+    $params = ['part' => $part, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], LiveBroadcast::class);
+  }
+  /**
+   * Retrieve the list of broadcasts associated with the given channel.
+   * (liveBroadcasts.listLiveBroadcasts)
+   *
+   * @param string|array $part The *part* parameter specifies a comma-separated
+   * list of one or more liveBroadcast resource properties that the API response
+   * will include. The part names that you can include in the parameter value are
+   * id, snippet, contentDetails, status and statistics.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string broadcastStatus Return broadcasts with a certain status,
+   * e.g. active broadcasts.
+   * @opt_param string broadcastType Return only broadcasts with the selected
+   * type.
+   * @opt_param string id Return broadcasts with the given ids from Stubby or
+   * Apiary.
+   * @opt_param string maxResults The *maxResults* parameter specifies the maximum
+   * number of items that should be returned in the result set.
+   * @opt_param bool mine
+   * @opt_param string onBehalfOfContentOwner *Note:* This parameter is intended
+   * exclusively for YouTube content partners. The *onBehalfOfContentOwner*
+   * parameter indicates that the request's authorization credentials identify a
+   * YouTube CMS user who is acting on behalf of the content owner specified in
+   * the parameter value. This parameter is intended for YouTube content partners
+   * that own and manage many different YouTube channels. It allows content owners
+   * to authenticate once and get access to all their video and channel data,
+   * without having to provide authentication credentials for each individual
+   * channel. The CMS account that the user authenticates with must be linked to
+   * the specified YouTube content owner.
+   * @opt_param string onBehalfOfContentOwnerChannel This parameter can only be
+   * used in a properly authorized request. *Note:* This parameter is intended
+   * exclusively for YouTube content partners. The *onBehalfOfContentOwnerChannel*
+   * parameter specifies the YouTube channel ID of the channel to which a video is
+   * being added. This parameter is required when a request specifies a value for
+   * the onBehalfOfContentOwner parameter, and it can only be used in conjunction
+   * with that parameter. In addition, the request must be authorized using a CMS
+   * account that is linked to the content owner that the onBehalfOfContentOwner
+   * parameter specifies. Finally, the channel that the
+   * onBehalfOfContentOwnerChannel parameter value specifies must be linked to the
+   * content owner that the onBehalfOfContentOwner parameter specifies. This
+   * parameter is intended for YouTube content partners that own and manage many
+   * different YouTube channels. It allows content owners to authenticate once and
+   * perform actions on behalf of the channel specified in the parameter value,
+   * without having to provide authentication credentials for each separate
+   * channel.
+   * @opt_param string pageToken The *pageToken* parameter identifies a specific
+   * page in the result set that should be returned. In an API response, the
+   * nextPageToken and prevPageToken properties identify other pages that could be
+   * retrieved.
+   * @return LiveBroadcastListResponse
+   */
+  public function listLiveBroadcasts($part, $optParams = [])
+  {
+    $params = ['part' => $part];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], LiveBroadcastListResponse::class);
+  }
+  /**
+   * Transition a broadcast to a given status. (liveBroadcasts.transition)
+   *
+   * @param string $broadcastStatus The status to which the broadcast is going to
+   * transition.
+   * @param string $id Broadcast to transition.
+   * @param string|array $part The *part* parameter specifies a comma-separated
+   * list of one or more liveBroadcast resource properties that the API response
+   * will include. The part names that you can include in the parameter value are
+   * id, snippet, contentDetails, and status.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string onBehalfOfContentOwner *Note:* This parameter is intended
+   * exclusively for YouTube content partners. The *onBehalfOfContentOwner*
+   * parameter indicates that the request's authorization credentials identify a
+   * YouTube CMS user who is acting on behalf of the content owner specified in
+   * the parameter value. This parameter is intended for YouTube content partners
+   * that own and manage many different YouTube channels. It allows content owners
+   * to authenticate once and get access to all their video and channel data,
+   * without having to provide authentication credentials for each individual
+   * channel. The CMS account that the user authenticates with must be linked to
+   * the specified YouTube content owner.
+   * @opt_param string onBehalfOfContentOwnerChannel This parameter can only be
+   * used in a properly authorized request. *Note:* This parameter is intended
+   * exclusively for YouTube content partners. The *onBehalfOfContentOwnerChannel*
+   * parameter specifies the YouTube channel ID of the channel to which a video is
+   * being added. This parameter is required when a request specifies a value for
+   * the onBehalfOfContentOwner parameter, and it can only be used in conjunction
+   * with that parameter. In addition, the request must be authorized using a CMS
+   * account that is linked to the content owner that the onBehalfOfContentOwner
+   * parameter specifies. Finally, the channel that the
+   * onBehalfOfContentOwnerChannel parameter value specifies must be linked to the
+   * content owner that the onBehalfOfContentOwner parameter specifies. This
+   * parameter is intended for YouTube content partners that own and manage many
+   * different YouTube channels. It allows content owners to authenticate once and
+   * perform actions on behalf of the channel specified in the parameter value,
+   * without having to provide authentication credentials for each separate
+   * channel.
+   * @return LiveBroadcast
+   */
+  public function transition($broadcastStatus, $id, $part, $optParams = [])
+  {
+    $params = ['broadcastStatus' => $broadcastStatus, 'id' => $id, 'part' => $part];
+    $params = array_merge($params, $optParams);
+    return $this->call('transition', [$params], LiveBroadcast::class);
+  }
+  /**
+   * Updates an existing broadcast for the authenticated user.
+   * (liveBroadcasts.update)
+   *
+   * @param string|array $part The *part* parameter serves two purposes in this
+   * operation. It identifies the properties that the write operation will set as
+   * well as the properties that the API response will include. The part
+   * properties that you can include in the parameter value are id, snippet,
+   * contentDetails, and status. Note that this method will override the existing
+   * values for all of the mutable properties that are contained in any parts that
+   * the parameter value specifies. For example, a broadcast's privacy status is
+   * defined in the status part. As such, if your request is updating a private or
+   * unlisted broadcast, and the request's part parameter value includes the
+   * status part, the broadcast's privacy setting will be updated to whatever
+   * value the request body specifies. If the request body does not specify a
+   * value, the existing privacy setting will be removed and the broadcast will
+   * revert to the default privacy setting.
+   * @param LiveBroadcast $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string onBehalfOfContentOwner *Note:* This parameter is intended
+   * exclusively for YouTube content partners. The *onBehalfOfContentOwner*
+   * parameter indicates that the request's authorization credentials identify a
+   * YouTube CMS user who is acting on behalf of the content owner specified in
+   * the parameter value. This parameter is intended for YouTube content partners
+   * that own and manage many different YouTube channels. It allows content owners
+   * to authenticate once and get access to all their video and channel data,
+   * without having to provide authentication credentials for each individual
+   * channel. The CMS account that the user authenticates with must be linked to
+   * the specified YouTube content owner.
+   * @opt_param string onBehalfOfContentOwnerChannel This parameter can only be
+   * used in a properly authorized request. *Note:* This parameter is intended
+   * exclusively for YouTube content partners. The *onBehalfOfContentOwnerChannel*
+   * parameter specifies the YouTube channel ID of the channel to which a video is
+   * being added. This parameter is required when a request specifies a value for
+   * the onBehalfOfContentOwner parameter, and it can only be used in conjunction
+   * with that parameter. In addition, the request must be authorized using a CMS
+   * account that is linked to the content owner that the onBehalfOfContentOwner
+   * parameter specifies. Finally, the channel that the
+   * onBehalfOfContentOwnerChannel parameter value specifies must be linked to the
+   * content owner that the onBehalfOfContentOwner parameter specifies. This
+   * parameter is intended for YouTube content partners that own and manage many
+   * different YouTube channels. It allows content owners to authenticate once and
+   * perform actions on behalf of the channel specified in the parameter value,
+   * without having to provide authentication credentials for each separate
+   * channel.
+   * @return LiveBroadcast
+   */
+  public function update($part, LiveBroadcast $postBody, $optParams = [])
+  {
+    $params = ['part' => $part, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], LiveBroadcast::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(LiveBroadcasts::class, 'Google_Service_YouTube_Resource_LiveBroadcasts');

@@ -1,69 +1,113 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-QtxM
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\TagManager\Resource;
+
+use Google\Service\TagManager\ListUserPermissionsResponse;
+use Google\Service\TagManager\UserPermission;
+
+/**
+ * The "user_permissions" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $tagmanagerService = new Google\Service\TagManager(...);
+ *   $user_permissions = $tagmanagerService->user_permissions;
+ *  </code>
+ */
+class AccountsUserPermissions extends \Google\Service\Resource
+{
+  /**
+   * Creates a user's Account & Container access. (user_permissions.create)
+   *
+   * @param string $parent GTM Account's API relative path. Example:
+   * accounts/{account_id}
+   * @param UserPermission $postBody
+   * @param array $optParams Optional parameters.
+   * @return UserPermission
+   */
+  public function create($parent, UserPermission $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], UserPermission::class);
+  }
+  /**
+   * Removes a user from the account, revoking access to it and all of its
+   * containers. (user_permissions.delete)
+   *
+   * @param string $path GTM UserPermission's API relative path. Example:
+   * accounts/{account_id}/user_permissions/{user_permission_id}
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($path, $optParams = [])
+  {
+    $params = ['path' => $path];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Gets a user's Account & Container access. (user_permissions.get)
+   *
+   * @param string $path GTM UserPermission's API relative path. Example:
+   * accounts/{account_id}/user_permissions/{user_permission_id}
+   * @param array $optParams Optional parameters.
+   * @return UserPermission
+   */
+  public function get($path, $optParams = [])
+  {
+    $params = ['path' => $path];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], UserPermission::class);
+  }
+  /**
+   * List all users that have access to the account along with Account and
+   * Container user access granted to each of them.
+   * (user_permissions.listAccountsUserPermissions)
+   *
+   * @param string $parent GTM Accounts's API relative path. Example:
+   * accounts/{account_id}
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string pageToken Continuation token for fetching the next page of
+   * results.
+   * @return ListUserPermissionsResponse
+   */
+  public function listAccountsUserPermissions($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListUserPermissionsResponse::class);
+  }
+  /**
+   * Updates a user's Account & Container access. (user_permissions.update)
+   *
+   * @param string $path GTM UserPermission's API relative path. Example:
+   * accounts/{account_id}/user_permissions/{user_permission_id}
+   * @param UserPermission $postBody
+   * @param array $optParams Optional parameters.
+   * @return UserPermission
+   */
+  public function update($path, UserPermission $postBody, $optParams = [])
+  {
+    $params = ['path' => $path, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], UserPermission::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AccountsUserPermissions::class, 'Google_Service_TagManager_Resource_AccountsUserPermissions');

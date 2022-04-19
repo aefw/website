@@ -1,151 +1,416 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-fA08NqwS
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AIPlatformNotebooks\Resource;
+
+use Google\Service\AIPlatformNotebooks\GetInstanceHealthResponse;
+use Google\Service\AIPlatformNotebooks\Instance;
+use Google\Service\AIPlatformNotebooks\IsInstanceUpgradeableResponse;
+use Google\Service\AIPlatformNotebooks\ListInstancesResponse;
+use Google\Service\AIPlatformNotebooks\Operation;
+use Google\Service\AIPlatformNotebooks\Policy;
+use Google\Service\AIPlatformNotebooks\RegisterInstanceRequest;
+use Google\Service\AIPlatformNotebooks\ReportInstanceInfoRequest;
+use Google\Service\AIPlatformNotebooks\ResetInstanceRequest;
+use Google\Service\AIPlatformNotebooks\RollbackInstanceRequest;
+use Google\Service\AIPlatformNotebooks\SetIamPolicyRequest;
+use Google\Service\AIPlatformNotebooks\SetInstanceAcceleratorRequest;
+use Google\Service\AIPlatformNotebooks\SetInstanceLabelsRequest;
+use Google\Service\AIPlatformNotebooks\SetInstanceMachineTypeRequest;
+use Google\Service\AIPlatformNotebooks\StartInstanceRequest;
+use Google\Service\AIPlatformNotebooks\StopInstanceRequest;
+use Google\Service\AIPlatformNotebooks\TestIamPermissionsRequest;
+use Google\Service\AIPlatformNotebooks\TestIamPermissionsResponse;
+use Google\Service\AIPlatformNotebooks\UpdateInstanceConfigRequest;
+use Google\Service\AIPlatformNotebooks\UpdateShieldedInstanceConfigRequest;
+use Google\Service\AIPlatformNotebooks\UpgradeInstanceInternalRequest;
+use Google\Service\AIPlatformNotebooks\UpgradeInstanceRequest;
+
+/**
+ * The "instances" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $notebooksService = new Google\Service\AIPlatformNotebooks(...);
+ *   $instances = $notebooksService->instances;
+ *  </code>
+ */
+class ProjectsLocationsInstances extends \Google\Service\Resource
+{
+  /**
+   * Creates a new Instance in a given project and location. (instances.create)
+   *
+   * @param string $parent Required. Format:
+   * `parent=projects/{project_id}/locations/{location}`
+   * @param Instance $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string instanceId Required. User-defined unique ID of this
+   * instance.
+   * @return Operation
+   */
+  public function create($parent, Instance $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Operation::class);
+  }
+  /**
+   * Deletes a single Instance. (instances.delete)
+   *
+   * @param string $name Required. Format:
+   * `projects/{project_id}/locations/{location}/instances/{instance_id}`
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Gets details of a single Instance. (instances.get)
+   *
+   * @param string $name Required. Format:
+   * `projects/{project_id}/locations/{location}/instances/{instance_id}`
+   * @param array $optParams Optional parameters.
+   * @return Instance
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Instance::class);
+  }
+  /**
+   * Gets the access control policy for a resource. Returns an empty policy if the
+   * resource exists and does not have a policy set. (instances.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int options.requestedPolicyVersion Optional. The policy format
+   * version to be returned. Valid values are 0, 1, and 3. Requests specifying an
+   * invalid value will be rejected. Requests for policies with any conditional
+   * bindings must specify version 3. Policies without any conditional bindings
+   * may specify any valid value or leave the field unset. To learn which
+   * resources support conditions in their IAM policies, see the [IAM
+   * documentation](https://cloud.google.com/iam/help/conditions/resource-
+   * policies).
+   * @return Policy
+   */
+  public function getIamPolicy($resource, $optParams = [])
+  {
+    $params = ['resource' => $resource];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Check if a notebook instance is healthy. (instances.getInstanceHealth)
+   *
+   * @param string $name Required. Format:
+   * `projects/{project_id}/locations/{location}/instances/{instance_id}`
+   * @param array $optParams Optional parameters.
+   * @return GetInstanceHealthResponse
+   */
+  public function getInstanceHealth($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('getInstanceHealth', [$params], GetInstanceHealthResponse::class);
+  }
+  /**
+   * Check if a notebook instance is upgradable. (instances.isUpgradeable)
+   *
+   * @param string $notebookInstance Required. Format:
+   * `projects/{project_id}/locations/{location}/instances/{instance_id}`
+   * @param array $optParams Optional parameters.
+   * @return IsInstanceUpgradeableResponse
+   */
+  public function isUpgradeable($notebookInstance, $optParams = [])
+  {
+    $params = ['notebookInstance' => $notebookInstance];
+    $params = array_merge($params, $optParams);
+    return $this->call('isUpgradeable', [$params], IsInstanceUpgradeableResponse::class);
+  }
+  /**
+   * Lists instances in a given project and location.
+   * (instances.listProjectsLocationsInstances)
+   *
+   * @param string $parent Required. Format:
+   * `parent=projects/{project_id}/locations/{location}`
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Maximum return size of the list call.
+   * @opt_param string pageToken A previous returned page token that can be used
+   * to continue listing from the last result.
+   * @return ListInstancesResponse
+   */
+  public function listProjectsLocationsInstances($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListInstancesResponse::class);
+  }
+  /**
+   * Registers an existing legacy notebook instance to the Notebooks API server.
+   * Legacy instances are instances created with the legacy Compute Engine calls.
+   * They are not manageable by the Notebooks API out of the box. This call makes
+   * these instances manageable by the Notebooks API. (instances.register)
+   *
+   * @param string $parent Required. Format:
+   * `parent=projects/{project_id}/locations/{location}`
+   * @param RegisterInstanceRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function register($parent, RegisterInstanceRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('register', [$params], Operation::class);
+  }
+  /**
+   * Allows notebook instances to report their latest instance information to the
+   * Notebooks API server. The server will merge the reported information to the
+   * instance metadata store. Do not use this method directly. (instances.report)
+   *
+   * @param string $name Required. Format:
+   * `projects/{project_id}/locations/{location}/instances/{instance_id}`
+   * @param ReportInstanceInfoRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function report($name, ReportInstanceInfoRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('report', [$params], Operation::class);
+  }
+  /**
+   * Resets a notebook instance. (instances.reset)
+   *
+   * @param string $name Required. Format:
+   * `projects/{project_id}/locations/{location}/instances/{instance_id}`
+   * @param ResetInstanceRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function reset($name, ResetInstanceRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('reset', [$params], Operation::class);
+  }
+  /**
+   * Rollbacks a notebook instance to the previous version. (instances.rollback)
+   *
+   * @param string $name Required. Format:
+   * `projects/{project_id}/locations/{location}/instances/{instance_id}`
+   * @param RollbackInstanceRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function rollback($name, RollbackInstanceRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('rollback', [$params], Operation::class);
+  }
+  /**
+   * Updates the guest accelerators of a single Instance.
+   * (instances.setAccelerator)
+   *
+   * @param string $name Required. Format:
+   * `projects/{project_id}/locations/{location}/instances/{instance_id}`
+   * @param SetInstanceAcceleratorRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function setAccelerator($name, SetInstanceAcceleratorRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setAccelerator', [$params], Operation::class);
+  }
+  /**
+   * Sets the access control policy on the specified resource. Replaces any
+   * existing policy. Can return `NOT_FOUND`, `INVALID_ARGUMENT`, and
+   * `PERMISSION_DENIED` errors. (instances.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Replaces all the labels of an Instance. (instances.setLabels)
+   *
+   * @param string $name Required. Format:
+   * `projects/{project_id}/locations/{location}/instances/{instance_id}`
+   * @param SetInstanceLabelsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function setLabels($name, SetInstanceLabelsRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setLabels', [$params], Operation::class);
+  }
+  /**
+   * Updates the machine type of a single Instance. (instances.setMachineType)
+   *
+   * @param string $name Required. Format:
+   * `projects/{project_id}/locations/{location}/instances/{instance_id}`
+   * @param SetInstanceMachineTypeRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function setMachineType($name, SetInstanceMachineTypeRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setMachineType', [$params], Operation::class);
+  }
+  /**
+   * Starts a notebook instance. (instances.start)
+   *
+   * @param string $name Required. Format:
+   * `projects/{project_id}/locations/{location}/instances/{instance_id}`
+   * @param StartInstanceRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function start($name, StartInstanceRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('start', [$params], Operation::class);
+  }
+  /**
+   * Stops a notebook instance. (instances.stop)
+   *
+   * @param string $name Required. Format:
+   * `projects/{project_id}/locations/{location}/instances/{instance_id}`
+   * @param StopInstanceRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function stop($name, StopInstanceRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('stop', [$params], Operation::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource. If the
+   * resource does not exist, this will return an empty set of permissions, not a
+   * `NOT_FOUND` error. Note: This operation is designed to be used for building
+   * permission-aware UIs and command-line tools, not for authorization checking.
+   * This operation may "fail open" without warning.
+   * (instances.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+  /**
+   * Update Notebook Instance configurations. (instances.updateConfig)
+   *
+   * @param string $name Required. Format:
+   * `projects/{project_id}/locations/{location}/instances/{instance_id}`
+   * @param UpdateInstanceConfigRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function updateConfig($name, UpdateInstanceConfigRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('updateConfig', [$params], Operation::class);
+  }
+  /**
+   * Updates the Shielded instance configuration of a single Instance.
+   * (instances.updateShieldedInstanceConfig)
+   *
+   * @param string $name Required. Format:
+   * `projects/{project_id}/locations/{location}/instances/{instance_id}`
+   * @param UpdateShieldedInstanceConfigRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function updateShieldedInstanceConfig($name, UpdateShieldedInstanceConfigRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('updateShieldedInstanceConfig', [$params], Operation::class);
+  }
+  /**
+   * Upgrades a notebook instance to the latest version. (instances.upgrade)
+   *
+   * @param string $name Required. Format:
+   * `projects/{project_id}/locations/{location}/instances/{instance_id}`
+   * @param UpgradeInstanceRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function upgrade($name, UpgradeInstanceRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('upgrade', [$params], Operation::class);
+  }
+  /**
+   * Allows notebook instances to call this endpoint to upgrade themselves. Do not
+   * use this method directly. (instances.upgradeInternal)
+   *
+   * @param string $name Required. Format:
+   * `projects/{project_id}/locations/{location}/instances/{instance_id}`
+   * @param UpgradeInstanceInternalRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function upgradeInternal($name, UpgradeInstanceInternalRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('upgradeInternal', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsInstances::class, 'Google_Service_AIPlatformNotebooks_Resource_ProjectsLocationsInstances');

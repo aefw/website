@@ -1,124 +1,1251 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for Classroom (v1).
+ *
+ * <p>
+ * Manages classes, rosters, and invitations in Google Classroom.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://developers.google.com/classroom/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class Classroom extends \Google\Service
+{
+  /** View and manage announcements in Google Classroom. */
+  const CLASSROOM_ANNOUNCEMENTS =
+      "https://www.googleapis.com/auth/classroom.announcements";
+  /** View announcements in Google Classroom. */
+  const CLASSROOM_ANNOUNCEMENTS_READONLY =
+      "https://www.googleapis.com/auth/classroom.announcements.readonly";
+  /** See, edit, create, and permanently delete your Google Classroom classes. */
+  const CLASSROOM_COURSES =
+      "https://www.googleapis.com/auth/classroom.courses";
+  /** View your Google Classroom classes. */
+  const CLASSROOM_COURSES_READONLY =
+      "https://www.googleapis.com/auth/classroom.courses.readonly";
+  /** See, create and edit coursework items including assignments, questions, and grades. */
+  const CLASSROOM_COURSEWORK_ME =
+      "https://www.googleapis.com/auth/classroom.coursework.me";
+  /** View your course work and grades in Google Classroom. */
+  const CLASSROOM_COURSEWORK_ME_READONLY =
+      "https://www.googleapis.com/auth/classroom.coursework.me.readonly";
+  /** Manage course work and grades for students in the Google Classroom classes you teach and view the course work and grades for classes you administer. */
+  const CLASSROOM_COURSEWORK_STUDENTS =
+      "https://www.googleapis.com/auth/classroom.coursework.students";
+  /** View course work and grades for students in the Google Classroom classes you teach or administer. */
+  const CLASSROOM_COURSEWORK_STUDENTS_READONLY =
+      "https://www.googleapis.com/auth/classroom.coursework.students.readonly";
+  /** See, edit, and create classwork materials in Google Classroom. */
+  const CLASSROOM_COURSEWORKMATERIALS =
+      "https://www.googleapis.com/auth/classroom.courseworkmaterials";
+  /** See all classwork materials for your Google Classroom classes. */
+  const CLASSROOM_COURSEWORKMATERIALS_READONLY =
+      "https://www.googleapis.com/auth/classroom.courseworkmaterials.readonly";
+  /** View your Google Classroom guardians. */
+  const CLASSROOM_GUARDIANLINKS_ME_READONLY =
+      "https://www.googleapis.com/auth/classroom.guardianlinks.me.readonly";
+  /** View and manage guardians for students in your Google Classroom classes. */
+  const CLASSROOM_GUARDIANLINKS_STUDENTS =
+      "https://www.googleapis.com/auth/classroom.guardianlinks.students";
+  /** View guardians for students in your Google Classroom classes. */
+  const CLASSROOM_GUARDIANLINKS_STUDENTS_READONLY =
+      "https://www.googleapis.com/auth/classroom.guardianlinks.students.readonly";
+  /** View the email addresses of people in your classes. */
+  const CLASSROOM_PROFILE_EMAILS =
+      "https://www.googleapis.com/auth/classroom.profile.emails";
+  /** View the profile photos of people in your classes. */
+  const CLASSROOM_PROFILE_PHOTOS =
+      "https://www.googleapis.com/auth/classroom.profile.photos";
+  /** Receive notifications about your Google Classroom data. */
+  const CLASSROOM_PUSH_NOTIFICATIONS =
+      "https://www.googleapis.com/auth/classroom.push-notifications";
+  /** Manage your Google Classroom class rosters. */
+  const CLASSROOM_ROSTERS =
+      "https://www.googleapis.com/auth/classroom.rosters";
+  /** View your Google Classroom class rosters. */
+  const CLASSROOM_ROSTERS_READONLY =
+      "https://www.googleapis.com/auth/classroom.rosters.readonly";
+  /** View your course work and grades in Google Classroom. */
+  const CLASSROOM_STUDENT_SUBMISSIONS_ME_READONLY =
+      "https://www.googleapis.com/auth/classroom.student-submissions.me.readonly";
+  /** View course work and grades for students in the Google Classroom classes you teach or administer. */
+  const CLASSROOM_STUDENT_SUBMISSIONS_STUDENTS_READONLY =
+      "https://www.googleapis.com/auth/classroom.student-submissions.students.readonly";
+  /** See, create, and edit topics in Google Classroom. */
+  const CLASSROOM_TOPICS =
+      "https://www.googleapis.com/auth/classroom.topics";
+  /** View topics in Google Classroom. */
+  const CLASSROOM_TOPICS_READONLY =
+      "https://www.googleapis.com/auth/classroom.topics.readonly";
+
+  public $courses;
+  public $courses_aliases;
+  public $courses_announcements;
+  public $courses_courseWork;
+  public $courses_courseWork_studentSubmissions;
+  public $courses_courseWorkMaterials;
+  public $courses_students;
+  public $courses_teachers;
+  public $courses_topics;
+  public $invitations;
+  public $registrations;
+  public $userProfiles;
+  public $userProfiles_guardianInvitations;
+  public $userProfiles_guardians;
+
+  /**
+   * Constructs the internal representation of the Classroom service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://classroom.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'classroom';
+
+    $this->courses = new Classroom\Resource\Courses(
+        $this,
+        $this->serviceName,
+        'courses',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/courses',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'delete' => [
+              'path' => 'v1/courses/{id}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/courses/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/courses',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'courseStates' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'studentId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'teacherId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/courses/{id}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'v1/courses/{id}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->courses_aliases = new Classroom\Resource\CoursesAliases(
+        $this,
+        $this->serviceName,
+        'aliases',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/courses/{courseId}/aliases',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'courseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/courses/{courseId}/aliases/{alias}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'courseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'alias' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/courses/{courseId}/aliases',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'courseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->courses_announcements = new Classroom\Resource\CoursesAnnouncements(
+        $this,
+        $this->serviceName,
+        'announcements',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/courses/{courseId}/announcements',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'courseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/courses/{courseId}/announcements/{id}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'courseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/courses/{courseId}/announcements/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'courseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/courses/{courseId}/announcements',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'courseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'announcementStates' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'modifyAssignees' => [
+              'path' => 'v1/courses/{courseId}/announcements/{id}:modifyAssignees',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'courseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/courses/{courseId}/announcements/{id}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'courseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->courses_courseWork = new Classroom\Resource\CoursesCourseWork(
+        $this,
+        $this->serviceName,
+        'courseWork',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/courses/{courseId}/courseWork',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'courseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/courses/{courseId}/courseWork/{id}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'courseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/courses/{courseId}/courseWork/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'courseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/courses/{courseId}/courseWork',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'courseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'courseWorkStates' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'modifyAssignees' => [
+              'path' => 'v1/courses/{courseId}/courseWork/{id}:modifyAssignees',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'courseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/courses/{courseId}/courseWork/{id}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'courseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->courses_courseWork_studentSubmissions = new Classroom\Resource\CoursesCourseWorkStudentSubmissions(
+        $this,
+        $this->serviceName,
+        'studentSubmissions',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/courses/{courseId}/courseWork/{courseWorkId}/studentSubmissions/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'courseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'courseWorkId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/courses/{courseId}/courseWork/{courseWorkId}/studentSubmissions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'courseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'courseWorkId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'late' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'states' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'userId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'modifyAttachments' => [
+              'path' => 'v1/courses/{courseId}/courseWork/{courseWorkId}/studentSubmissions/{id}:modifyAttachments',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'courseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'courseWorkId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/courses/{courseId}/courseWork/{courseWorkId}/studentSubmissions/{id}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'courseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'courseWorkId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'reclaim' => [
+              'path' => 'v1/courses/{courseId}/courseWork/{courseWorkId}/studentSubmissions/{id}:reclaim',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'courseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'courseWorkId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'return' => [
+              'path' => 'v1/courses/{courseId}/courseWork/{courseWorkId}/studentSubmissions/{id}:return',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'courseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'courseWorkId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'turnIn' => [
+              'path' => 'v1/courses/{courseId}/courseWork/{courseWorkId}/studentSubmissions/{id}:turnIn',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'courseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'courseWorkId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->courses_courseWorkMaterials = new Classroom\Resource\CoursesCourseWorkMaterials(
+        $this,
+        $this->serviceName,
+        'courseWorkMaterials',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/courses/{courseId}/courseWorkMaterials',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'courseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/courses/{courseId}/courseWorkMaterials/{id}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'courseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/courses/{courseId}/courseWorkMaterials/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'courseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/courses/{courseId}/courseWorkMaterials',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'courseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'courseWorkMaterialStates' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+                'materialDriveId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'materialLink' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/courses/{courseId}/courseWorkMaterials/{id}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'courseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->courses_students = new Classroom\Resource\CoursesStudents(
+        $this,
+        $this->serviceName,
+        'students',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/courses/{courseId}/students',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'courseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'enrollmentCode' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/courses/{courseId}/students/{userId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'courseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/courses/{courseId}/students/{userId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'courseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/courses/{courseId}/students',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'courseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->courses_teachers = new Classroom\Resource\CoursesTeachers(
+        $this,
+        $this->serviceName,
+        'teachers',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/courses/{courseId}/teachers',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'courseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/courses/{courseId}/teachers/{userId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'courseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/courses/{courseId}/teachers/{userId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'courseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/courses/{courseId}/teachers',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'courseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->courses_topics = new Classroom\Resource\CoursesTopics(
+        $this,
+        $this->serviceName,
+        'topics',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/courses/{courseId}/topics',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'courseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/courses/{courseId}/topics/{id}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'courseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/courses/{courseId}/topics/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'courseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/courses/{courseId}/topics',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'courseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/courses/{courseId}/topics/{id}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'courseId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->invitations = new Classroom\Resource\Invitations(
+        $this,
+        $this->serviceName,
+        'invitations',
+        [
+          'methods' => [
+            'accept' => [
+              'path' => 'v1/invitations/{id}:accept',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1/invitations',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'delete' => [
+              'path' => 'v1/invitations/{id}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/invitations/{id}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'id' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/invitations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'courseId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'userId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->registrations = new Classroom\Resource\Registrations(
+        $this,
+        $this->serviceName,
+        'registrations',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/registrations',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'delete' => [
+              'path' => 'v1/registrations/{registrationId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'registrationId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->userProfiles = new Classroom\Resource\UserProfiles(
+        $this,
+        $this->serviceName,
+        'userProfiles',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/userProfiles/{userId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'userId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->userProfiles_guardianInvitations = new Classroom\Resource\UserProfilesGuardianInvitations(
+        $this,
+        $this->serviceName,
+        'guardianInvitations',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/userProfiles/{studentId}/guardianInvitations',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'studentId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/userProfiles/{studentId}/guardianInvitations/{invitationId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'studentId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'invitationId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/userProfiles/{studentId}/guardianInvitations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'studentId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'invitedEmailAddress' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'states' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                  'repeated' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/userProfiles/{studentId}/guardianInvitations/{invitationId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'studentId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'invitationId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->userProfiles_guardians = new Classroom\Resource\UserProfilesGuardians(
+        $this,
+        $this->serviceName,
+        'guardians',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'v1/userProfiles/{studentId}/guardians/{guardianId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'studentId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'guardianId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/userProfiles/{studentId}/guardians/{guardianId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'studentId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'guardianId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/userProfiles/{studentId}/guardians',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'studentId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'invitedEmailAddress' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Classroom::class, 'Google_Service_Classroom');

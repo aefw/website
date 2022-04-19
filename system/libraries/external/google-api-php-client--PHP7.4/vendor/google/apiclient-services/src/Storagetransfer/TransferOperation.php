@@ -1,83 +1,145 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-XlXhbW==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Storagetransfer;
+
+class TransferOperation extends \Google\Collection
+{
+  protected $collection_key = 'errorBreakdowns';
+  protected $countersType = TransferCounters::class;
+  protected $countersDataType = '';
+  public $endTime;
+  protected $errorBreakdownsType = ErrorSummary::class;
+  protected $errorBreakdownsDataType = 'array';
+  public $name;
+  protected $notificationConfigType = NotificationConfig::class;
+  protected $notificationConfigDataType = '';
+  public $projectId;
+  public $startTime;
+  public $status;
+  public $transferJobName;
+  protected $transferSpecType = TransferSpec::class;
+  protected $transferSpecDataType = '';
+
+  /**
+   * @param TransferCounters
+   */
+  public function setCounters(TransferCounters $counters)
+  {
+    $this->counters = $counters;
+  }
+  /**
+   * @return TransferCounters
+   */
+  public function getCounters()
+  {
+    return $this->counters;
+  }
+  public function setEndTime($endTime)
+  {
+    $this->endTime = $endTime;
+  }
+  public function getEndTime()
+  {
+    return $this->endTime;
+  }
+  /**
+   * @param ErrorSummary[]
+   */
+  public function setErrorBreakdowns($errorBreakdowns)
+  {
+    $this->errorBreakdowns = $errorBreakdowns;
+  }
+  /**
+   * @return ErrorSummary[]
+   */
+  public function getErrorBreakdowns()
+  {
+    return $this->errorBreakdowns;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  /**
+   * @param NotificationConfig
+   */
+  public function setNotificationConfig(NotificationConfig $notificationConfig)
+  {
+    $this->notificationConfig = $notificationConfig;
+  }
+  /**
+   * @return NotificationConfig
+   */
+  public function getNotificationConfig()
+  {
+    return $this->notificationConfig;
+  }
+  public function setProjectId($projectId)
+  {
+    $this->projectId = $projectId;
+  }
+  public function getProjectId()
+  {
+    return $this->projectId;
+  }
+  public function setStartTime($startTime)
+  {
+    $this->startTime = $startTime;
+  }
+  public function getStartTime()
+  {
+    return $this->startTime;
+  }
+  public function setStatus($status)
+  {
+    $this->status = $status;
+  }
+  public function getStatus()
+  {
+    return $this->status;
+  }
+  public function setTransferJobName($transferJobName)
+  {
+    $this->transferJobName = $transferJobName;
+  }
+  public function getTransferJobName()
+  {
+    return $this->transferJobName;
+  }
+  /**
+   * @param TransferSpec
+   */
+  public function setTransferSpec(TransferSpec $transferSpec)
+  {
+    $this->transferSpec = $transferSpec;
+  }
+  /**
+   * @return TransferSpec
+   */
+  public function getTransferSpec()
+  {
+    return $this->transferSpec;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(TransferOperation::class, 'Google_Service_Storagetransfer_TransferOperation');

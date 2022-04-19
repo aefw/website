@@ -1,78 +1,116 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-+s8unwVDn2jhdFpJ+vgk6cx46W==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AIPlatformNotebooks;
+
+class UpgradeHistoryEntry extends \Google\Model
+{
+  public $action;
+  public $containerImage;
+  public $createTime;
+  public $framework;
+  public $snapshot;
+  public $state;
+  public $targetImage;
+  public $targetVersion;
+  public $version;
+  public $vmImage;
+
+  public function setAction($action)
+  {
+    $this->action = $action;
+  }
+  public function getAction()
+  {
+    return $this->action;
+  }
+  public function setContainerImage($containerImage)
+  {
+    $this->containerImage = $containerImage;
+  }
+  public function getContainerImage()
+  {
+    return $this->containerImage;
+  }
+  public function setCreateTime($createTime)
+  {
+    $this->createTime = $createTime;
+  }
+  public function getCreateTime()
+  {
+    return $this->createTime;
+  }
+  public function setFramework($framework)
+  {
+    $this->framework = $framework;
+  }
+  public function getFramework()
+  {
+    return $this->framework;
+  }
+  public function setSnapshot($snapshot)
+  {
+    $this->snapshot = $snapshot;
+  }
+  public function getSnapshot()
+  {
+    return $this->snapshot;
+  }
+  public function setState($state)
+  {
+    $this->state = $state;
+  }
+  public function getState()
+  {
+    return $this->state;
+  }
+  public function setTargetImage($targetImage)
+  {
+    $this->targetImage = $targetImage;
+  }
+  public function getTargetImage()
+  {
+    return $this->targetImage;
+  }
+  public function setTargetVersion($targetVersion)
+  {
+    $this->targetVersion = $targetVersion;
+  }
+  public function getTargetVersion()
+  {
+    return $this->targetVersion;
+  }
+  public function setVersion($version)
+  {
+    $this->version = $version;
+  }
+  public function getVersion()
+  {
+    return $this->version;
+  }
+  public function setVmImage($vmImage)
+  {
+    $this->vmImage = $vmImage;
+  }
+  public function getVmImage()
+  {
+    return $this->vmImage;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(UpgradeHistoryEntry::class, 'Google_Service_AIPlatformNotebooks_UpgradeHistoryEntry');

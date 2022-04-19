@@ -1,104 +1,436 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-KzcN
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute\Resource;
+
+use Google\Service\Compute\DiskMoveRequest;
+use Google\Service\Compute\InstanceMoveRequest;
+use Google\Service\Compute\Metadata;
+use Google\Service\Compute\Operation;
+use Google\Service\Compute\Project;
+use Google\Service\Compute\ProjectsDisableXpnResourceRequest;
+use Google\Service\Compute\ProjectsEnableXpnResourceRequest;
+use Google\Service\Compute\ProjectsGetXpnResources;
+use Google\Service\Compute\ProjectsListXpnHostsRequest;
+use Google\Service\Compute\ProjectsSetDefaultNetworkTierRequest;
+use Google\Service\Compute\UsageExportLocation;
+use Google\Service\Compute\XpnHostList;
+
+/**
+ * The "projects" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $computeService = new Google\Service\Compute(...);
+ *   $projects = $computeService->projects;
+ *  </code>
+ */
+class Projects extends \Google\Service\Resource
+{
+  /**
+   * Disable this project as a shared VPC host project. (projects.disableXpnHost)
+   *
+   * @param string $project Project ID for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function disableXpnHost($project, $optParams = [])
+  {
+    $params = ['project' => $project];
+    $params = array_merge($params, $optParams);
+    return $this->call('disableXpnHost', [$params], Operation::class);
+  }
+  /**
+   * Disable a service resource (also known as service project) associated with
+   * this host project. (projects.disableXpnResource)
+   *
+   * @param string $project Project ID for this request.
+   * @param ProjectsDisableXpnResourceRequest $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function disableXpnResource($project, ProjectsDisableXpnResourceRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('disableXpnResource', [$params], Operation::class);
+  }
+  /**
+   * Enable this project as a shared VPC host project. (projects.enableXpnHost)
+   *
+   * @param string $project Project ID for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function enableXpnHost($project, $optParams = [])
+  {
+    $params = ['project' => $project];
+    $params = array_merge($params, $optParams);
+    return $this->call('enableXpnHost', [$params], Operation::class);
+  }
+  /**
+   * Enable service resource (a.k.a service project) for a host project, so that
+   * subnets in the host project can be used by instances in the service project.
+   * (projects.enableXpnResource)
+   *
+   * @param string $project Project ID for this request.
+   * @param ProjectsEnableXpnResourceRequest $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function enableXpnResource($project, ProjectsEnableXpnResourceRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('enableXpnResource', [$params], Operation::class);
+  }
+  /**
+   * Returns the specified Project resource. (projects.get)
+   *
+   * @param string $project Project ID for this request.
+   * @param array $optParams Optional parameters.
+   * @return Project
+   */
+  public function get($project, $optParams = [])
+  {
+    $params = ['project' => $project];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Project::class);
+  }
+  /**
+   * Gets the shared VPC host project that this project links to. May be empty if
+   * no link exists. (projects.getXpnHost)
+   *
+   * @param string $project Project ID for this request.
+   * @param array $optParams Optional parameters.
+   * @return Project
+   */
+  public function getXpnHost($project, $optParams = [])
+  {
+    $params = ['project' => $project];
+    $params = array_merge($params, $optParams);
+    return $this->call('getXpnHost', [$params], Project::class);
+  }
+  /**
+   * Gets service resources (a.k.a service project) associated with this host
+   * project. (projects.getXpnResources)
+   *
+   * @param string $project Project ID for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return ProjectsGetXpnResources
+   */
+  public function getXpnResources($project, $optParams = [])
+  {
+    $params = ['project' => $project];
+    $params = array_merge($params, $optParams);
+    return $this->call('getXpnResources', [$params], ProjectsGetXpnResources::class);
+  }
+  /**
+   * Lists all shared VPC host projects visible to the user in an organization.
+   * (projects.listXpnHosts)
+   *
+   * @param string $project Project ID for this request.
+   * @param ProjectsListXpnHostsRequest $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return XpnHostList
+   */
+  public function listXpnHosts($project, ProjectsListXpnHostsRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('listXpnHosts', [$params], XpnHostList::class);
+  }
+  /**
+   * Moves a persistent disk from one zone to another. (projects.moveDisk)
+   *
+   * @param string $project Project ID for this request.
+   * @param DiskMoveRequest $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function moveDisk($project, DiskMoveRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('moveDisk', [$params], Operation::class);
+  }
+  /**
+   * Moves an instance and its attached persistent disks from one zone to another.
+   * (projects.moveInstance)
+   *
+   * @param string $project Project ID for this request.
+   * @param InstanceMoveRequest $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function moveInstance($project, InstanceMoveRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('moveInstance', [$params], Operation::class);
+  }
+  /**
+   * Sets metadata common to all instances within the specified project using the
+   * data included in the request. (projects.setCommonInstanceMetadata)
+   *
+   * @param string $project Project ID for this request.
+   * @param Metadata $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function setCommonInstanceMetadata($project, Metadata $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setCommonInstanceMetadata', [$params], Operation::class);
+  }
+  /**
+   * Sets the default network tier of the project. The default network tier is
+   * used when an address/forwardingRule/instance is created without specifying
+   * the network tier field. (projects.setDefaultNetworkTier)
+   *
+   * @param string $project Project ID for this request.
+   * @param ProjectsSetDefaultNetworkTierRequest $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function setDefaultNetworkTier($project, ProjectsSetDefaultNetworkTierRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setDefaultNetworkTier', [$params], Operation::class);
+  }
+  /**
+   * Enables the usage export feature and sets the usage export bucket where
+   * reports are stored. If you provide an empty request body using this method,
+   * the usage export feature will be disabled. (projects.setUsageExportBucket)
+   *
+   * @param string $project Project ID for this request.
+   * @param UsageExportLocation $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function setUsageExportBucket($project, UsageExportLocation $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setUsageExportBucket', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Projects::class, 'Google_Service_Compute_Resource_Projects');

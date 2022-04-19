@@ -1,125 +1,225 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AdExchangeBuyer;
+
+class PerformanceReport extends \Google\Collection
+{
+  protected $collection_key = 'hostedMatchStatusRate';
+  public $bidRate;
+  public $bidRequestRate;
+  public $calloutStatusRate;
+  public $cookieMatcherStatusRate;
+  public $creativeStatusRate;
+  public $filteredBidRate;
+  public $hostedMatchStatusRate;
+  public $inventoryMatchRate;
+  public $kind;
+  public $latency50thPercentile;
+  public $latency85thPercentile;
+  public $latency95thPercentile;
+  public $noQuotaInRegion;
+  public $outOfQuota;
+  public $pixelMatchRequests;
+  public $pixelMatchResponses;
+  public $quotaConfiguredLimit;
+  public $quotaThrottledLimit;
+  public $region;
+  public $successfulRequestRate;
+  public $timestamp;
+  public $unsuccessfulRequestRate;
+
+  public function setBidRate($bidRate)
+  {
+    $this->bidRate = $bidRate;
+  }
+  public function getBidRate()
+  {
+    return $this->bidRate;
+  }
+  public function setBidRequestRate($bidRequestRate)
+  {
+    $this->bidRequestRate = $bidRequestRate;
+  }
+  public function getBidRequestRate()
+  {
+    return $this->bidRequestRate;
+  }
+  public function setCalloutStatusRate($calloutStatusRate)
+  {
+    $this->calloutStatusRate = $calloutStatusRate;
+  }
+  public function getCalloutStatusRate()
+  {
+    return $this->calloutStatusRate;
+  }
+  public function setCookieMatcherStatusRate($cookieMatcherStatusRate)
+  {
+    $this->cookieMatcherStatusRate = $cookieMatcherStatusRate;
+  }
+  public function getCookieMatcherStatusRate()
+  {
+    return $this->cookieMatcherStatusRate;
+  }
+  public function setCreativeStatusRate($creativeStatusRate)
+  {
+    $this->creativeStatusRate = $creativeStatusRate;
+  }
+  public function getCreativeStatusRate()
+  {
+    return $this->creativeStatusRate;
+  }
+  public function setFilteredBidRate($filteredBidRate)
+  {
+    $this->filteredBidRate = $filteredBidRate;
+  }
+  public function getFilteredBidRate()
+  {
+    return $this->filteredBidRate;
+  }
+  public function setHostedMatchStatusRate($hostedMatchStatusRate)
+  {
+    $this->hostedMatchStatusRate = $hostedMatchStatusRate;
+  }
+  public function getHostedMatchStatusRate()
+  {
+    return $this->hostedMatchStatusRate;
+  }
+  public function setInventoryMatchRate($inventoryMatchRate)
+  {
+    $this->inventoryMatchRate = $inventoryMatchRate;
+  }
+  public function getInventoryMatchRate()
+  {
+    return $this->inventoryMatchRate;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setLatency50thPercentile($latency50thPercentile)
+  {
+    $this->latency50thPercentile = $latency50thPercentile;
+  }
+  public function getLatency50thPercentile()
+  {
+    return $this->latency50thPercentile;
+  }
+  public function setLatency85thPercentile($latency85thPercentile)
+  {
+    $this->latency85thPercentile = $latency85thPercentile;
+  }
+  public function getLatency85thPercentile()
+  {
+    return $this->latency85thPercentile;
+  }
+  public function setLatency95thPercentile($latency95thPercentile)
+  {
+    $this->latency95thPercentile = $latency95thPercentile;
+  }
+  public function getLatency95thPercentile()
+  {
+    return $this->latency95thPercentile;
+  }
+  public function setNoQuotaInRegion($noQuotaInRegion)
+  {
+    $this->noQuotaInRegion = $noQuotaInRegion;
+  }
+  public function getNoQuotaInRegion()
+  {
+    return $this->noQuotaInRegion;
+  }
+  public function setOutOfQuota($outOfQuota)
+  {
+    $this->outOfQuota = $outOfQuota;
+  }
+  public function getOutOfQuota()
+  {
+    return $this->outOfQuota;
+  }
+  public function setPixelMatchRequests($pixelMatchRequests)
+  {
+    $this->pixelMatchRequests = $pixelMatchRequests;
+  }
+  public function getPixelMatchRequests()
+  {
+    return $this->pixelMatchRequests;
+  }
+  public function setPixelMatchResponses($pixelMatchResponses)
+  {
+    $this->pixelMatchResponses = $pixelMatchResponses;
+  }
+  public function getPixelMatchResponses()
+  {
+    return $this->pixelMatchResponses;
+  }
+  public function setQuotaConfiguredLimit($quotaConfiguredLimit)
+  {
+    $this->quotaConfiguredLimit = $quotaConfiguredLimit;
+  }
+  public function getQuotaConfiguredLimit()
+  {
+    return $this->quotaConfiguredLimit;
+  }
+  public function setQuotaThrottledLimit($quotaThrottledLimit)
+  {
+    $this->quotaThrottledLimit = $quotaThrottledLimit;
+  }
+  public function getQuotaThrottledLimit()
+  {
+    return $this->quotaThrottledLimit;
+  }
+  public function setRegion($region)
+  {
+    $this->region = $region;
+  }
+  public function getRegion()
+  {
+    return $this->region;
+  }
+  public function setSuccessfulRequestRate($successfulRequestRate)
+  {
+    $this->successfulRequestRate = $successfulRequestRate;
+  }
+  public function getSuccessfulRequestRate()
+  {
+    return $this->successfulRequestRate;
+  }
+  public function setTimestamp($timestamp)
+  {
+    $this->timestamp = $timestamp;
+  }
+  public function getTimestamp()
+  {
+    return $this->timestamp;
+  }
+  public function setUnsuccessfulRequestRate($unsuccessfulRequestRate)
+  {
+    $this->unsuccessfulRequestRate = $unsuccessfulRequestRate;
+  }
+  public function getUnsuccessfulRequestRate()
+  {
+    return $this->unsuccessfulRequestRate;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PerformanceReport::class, 'Google_Service_AdExchangeBuyer_PerformanceReport');

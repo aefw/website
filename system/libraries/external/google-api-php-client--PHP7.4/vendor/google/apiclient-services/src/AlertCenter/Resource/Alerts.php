@@ -1,74 +1,178 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AlertCenter\Resource;
+
+use Google\Service\AlertCenter\Alert;
+use Google\Service\AlertCenter\AlertMetadata;
+use Google\Service\AlertCenter\AlertcenterEmpty;
+use Google\Service\AlertCenter\BatchDeleteAlertsRequest;
+use Google\Service\AlertCenter\BatchDeleteAlertsResponse;
+use Google\Service\AlertCenter\BatchUndeleteAlertsRequest;
+use Google\Service\AlertCenter\BatchUndeleteAlertsResponse;
+use Google\Service\AlertCenter\ListAlertsResponse;
+use Google\Service\AlertCenter\UndeleteAlertRequest;
+
+/**
+ * The "alerts" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $alertcenterService = new Google\Service\AlertCenter(...);
+ *   $alerts = $alertcenterService->alerts;
+ *  </code>
+ */
+class Alerts extends \Google\Service\Resource
+{
+  /**
+   * Performs batch delete operation on alerts. (alerts.batchDelete)
+   *
+   * @param BatchDeleteAlertsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return BatchDeleteAlertsResponse
+   */
+  public function batchDelete(BatchDeleteAlertsRequest $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('batchDelete', [$params], BatchDeleteAlertsResponse::class);
+  }
+  /**
+   * Performs batch undelete operation on alerts. (alerts.batchUndelete)
+   *
+   * @param BatchUndeleteAlertsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return BatchUndeleteAlertsResponse
+   */
+  public function batchUndelete(BatchUndeleteAlertsRequest $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('batchUndelete', [$params], BatchUndeleteAlertsResponse::class);
+  }
+  /**
+   * Marks the specified alert for deletion. An alert that has been marked for
+   * deletion is removed from Alert Center after 30 days. Marking an alert for
+   * deletion has no effect on an alert which has already been marked for
+   * deletion. Attempting to mark a nonexistent alert for deletion results in a
+   * `NOT_FOUND` error. (alerts.delete)
+   *
+   * @param string $alertId Required. The identifier of the alert to delete.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string customerId Optional. The unique identifier of the Google
+   * Workspace organization account of the customer the alert is associated with.
+   * Inferred from the caller identity if not provided.
+   * @return AlertcenterEmpty
+   */
+  public function delete($alertId, $optParams = [])
+  {
+    $params = ['alertId' => $alertId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], AlertcenterEmpty::class);
+  }
+  /**
+   * Gets the specified alert. Attempting to get a nonexistent alert returns
+   * `NOT_FOUND` error. (alerts.get)
+   *
+   * @param string $alertId Required. The identifier of the alert to retrieve.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string customerId Optional. The unique identifier of the Google
+   * Workspace organization account of the customer the alert is associated with.
+   * Inferred from the caller identity if not provided.
+   * @return Alert
+   */
+  public function get($alertId, $optParams = [])
+  {
+    $params = ['alertId' => $alertId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Alert::class);
+  }
+  /**
+   * Returns the metadata of an alert. Attempting to get metadata for a non-
+   * existent alert returns `NOT_FOUND` error. (alerts.getMetadata)
+   *
+   * @param string $alertId Required. The identifier of the alert this metadata
+   * belongs to.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string customerId Optional. The unique identifier of the Google
+   * Workspace organization account of the customer the alert metadata is
+   * associated with. Inferred from the caller identity if not provided.
+   * @return AlertMetadata
+   */
+  public function getMetadata($alertId, $optParams = [])
+  {
+    $params = ['alertId' => $alertId];
+    $params = array_merge($params, $optParams);
+    return $this->call('getMetadata', [$params], AlertMetadata::class);
+  }
+  /**
+   * Lists the alerts. (alerts.listAlerts)
+   *
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string customerId Optional. The unique identifier of the Google
+   * Workspace organization account of the customer the alerts are associated
+   * with. Inferred from the caller identity if not provided.
+   * @opt_param string filter Optional. A query string for filtering alert
+   * results. For more details, see [Query filters](https://developers.google.com
+   * /admin-sdk/alertcenter/guides/query-filters) and [Supported query filter
+   * fields](https://developers.google.com/admin-sdk/alertcenter/reference/filter-
+   * fields#alerts.list).
+   * @opt_param string orderBy Optional. The sort order of the list results. If
+   * not specified results may be returned in arbitrary order. You can sort the
+   * results in descending order based on the creation timestamp using
+   * `order_by="create_time desc"`. Currently, supported sorting are `create_time
+   * asc`, `create_time desc`, `update_time desc`
+   * @opt_param int pageSize Optional. The requested page size. Server may return
+   * fewer items than requested. If unspecified, server picks an appropriate
+   * default.
+   * @opt_param string pageToken Optional. A token identifying a page of results
+   * the server should return. If empty, a new iteration is started. To continue
+   * an iteration, pass in the value from the previous ListAlertsResponse's
+   * next_page_token field.
+   * @return ListAlertsResponse
+   */
+  public function listAlerts($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListAlertsResponse::class);
+  }
+  /**
+   * Restores, or "undeletes", an alert that was marked for deletion within the
+   * past 30 days. Attempting to undelete an alert which was marked for deletion
+   * over 30 days ago (which has been removed from the Alert Center database) or a
+   * nonexistent alert returns a `NOT_FOUND` error. Attempting to undelete an
+   * alert which has not been marked for deletion has no effect. (alerts.undelete)
+   *
+   * @param string $alertId Required. The identifier of the alert to undelete.
+   * @param UndeleteAlertRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Alert
+   */
+  public function undelete($alertId, UndeleteAlertRequest $postBody, $optParams = [])
+  {
+    $params = ['alertId' => $alertId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('undelete', [$params], Alert::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Alerts::class, 'Google_Service_AlertCenter_Resource_Alerts');

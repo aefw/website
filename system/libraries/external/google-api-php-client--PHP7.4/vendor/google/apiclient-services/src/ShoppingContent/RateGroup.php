@@ -1,66 +1,109 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-G12zGAjs62k2gaMp6nlCUeiskSa1+Le=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ShoppingContent;
+
+class RateGroup extends \Google\Collection
+{
+  protected $collection_key = 'subtables';
+  public $applicableShippingLabels;
+  protected $carrierRatesType = CarrierRate::class;
+  protected $carrierRatesDataType = 'array';
+  protected $mainTableType = Table::class;
+  protected $mainTableDataType = '';
+  public $name;
+  protected $singleValueType = Value::class;
+  protected $singleValueDataType = '';
+  protected $subtablesType = Table::class;
+  protected $subtablesDataType = 'array';
+
+  public function setApplicableShippingLabels($applicableShippingLabels)
+  {
+    $this->applicableShippingLabels = $applicableShippingLabels;
+  }
+  public function getApplicableShippingLabels()
+  {
+    return $this->applicableShippingLabels;
+  }
+  /**
+   * @param CarrierRate[]
+   */
+  public function setCarrierRates($carrierRates)
+  {
+    $this->carrierRates = $carrierRates;
+  }
+  /**
+   * @return CarrierRate[]
+   */
+  public function getCarrierRates()
+  {
+    return $this->carrierRates;
+  }
+  /**
+   * @param Table
+   */
+  public function setMainTable(Table $mainTable)
+  {
+    $this->mainTable = $mainTable;
+  }
+  /**
+   * @return Table
+   */
+  public function getMainTable()
+  {
+    return $this->mainTable;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  /**
+   * @param Value
+   */
+  public function setSingleValue(Value $singleValue)
+  {
+    $this->singleValue = $singleValue;
+  }
+  /**
+   * @return Value
+   */
+  public function getSingleValue()
+  {
+    return $this->singleValue;
+  }
+  /**
+   * @param Table[]
+   */
+  public function setSubtables($subtables)
+  {
+    $this->subtables = $subtables;
+  }
+  /**
+   * @return Table[]
+   */
+  public function getSubtables()
+  {
+    return $this->subtables;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(RateGroup::class, 'Google_Service_ShoppingContent_RateGroup');

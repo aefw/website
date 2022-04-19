@@ -1,84 +1,282 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute\Resource;
+
+use Google\Service\Compute\Operation;
+use Google\Service\Compute\PacketMirroring;
+use Google\Service\Compute\PacketMirroringAggregatedList;
+use Google\Service\Compute\PacketMirroringList;
+use Google\Service\Compute\TestPermissionsRequest;
+use Google\Service\Compute\TestPermissionsResponse;
+
+/**
+ * The "packetMirrorings" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $computeService = new Google\Service\Compute(...);
+ *   $packetMirrorings = $computeService->packetMirrorings;
+ *  </code>
+ */
+class PacketMirrorings extends \Google\Service\Resource
+{
+  /**
+   * Retrieves an aggregated list of packetMirrorings.
+   * (packetMirrorings.aggregatedList)
+   *
+   * @param string $project Project ID for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param bool includeAllScopes Indicates whether every visible scope for
+   * each scope type (zone, region, global) should be included in the response.
+   * For new resource types added after this field, the flag has no effect as new
+   * resource types will always include every visible scope for each scope type in
+   * response. For resource types which predate this field, if this flag is
+   * omitted or false, only scopes of the scope types where the resource type is
+   * expected to be found will be included.
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return PacketMirroringAggregatedList
+   */
+  public function aggregatedList($project, $optParams = [])
+  {
+    $params = ['project' => $project];
+    $params = array_merge($params, $optParams);
+    return $this->call('aggregatedList', [$params], PacketMirroringAggregatedList::class);
+  }
+  /**
+   * Deletes the specified PacketMirroring resource. (packetMirrorings.delete)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region for this request.
+   * @param string $packetMirroring Name of the PacketMirroring resource to
+   * delete.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function delete($project, $region, $packetMirroring, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'packetMirroring' => $packetMirroring];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Returns the specified PacketMirroring resource. (packetMirrorings.get)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region for this request.
+   * @param string $packetMirroring Name of the PacketMirroring resource to
+   * return.
+   * @param array $optParams Optional parameters.
+   * @return PacketMirroring
+   */
+  public function get($project, $region, $packetMirroring, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'packetMirroring' => $packetMirroring];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], PacketMirroring::class);
+  }
+  /**
+   * Creates a PacketMirroring resource in the specified project and region using
+   * the data included in the request. (packetMirrorings.insert)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region for this request.
+   * @param PacketMirroring $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function insert($project, $region, PacketMirroring $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Operation::class);
+  }
+  /**
+   * Retrieves a list of PacketMirroring resources available to the specified
+   * project and region. (packetMirrorings.listPacketMirrorings)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return PacketMirroringList
+   */
+  public function listPacketMirrorings($project, $region, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], PacketMirroringList::class);
+  }
+  /**
+   * Patches the specified PacketMirroring resource with the data included in the
+   * request. This method supports PATCH semantics and uses JSON merge patch
+   * format and processing rules. (packetMirrorings.patch)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region for this request.
+   * @param string $packetMirroring Name of the PacketMirroring resource to patch.
+   * @param PacketMirroring $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function patch($project, $region, $packetMirroring, PacketMirroring $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'packetMirroring' => $packetMirroring, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource.
+   * (packetMirrorings.testIamPermissions)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region The name of the region for this request.
+   * @param string $resource Name or id of the resource for this request.
+   * @param TestPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestPermissionsResponse
+   */
+  public function testIamPermissions($project, $region, $resource, TestPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestPermissionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PacketMirrorings::class, 'Google_Service_Compute_Resource_PacketMirrorings');

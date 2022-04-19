@@ -1,89 +1,338 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-5cA0MAUBzPp1OMFnljAiy0Fx6o795VpmiAoZnQq=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute\Resource;
+
+use Google\Service\Compute\CacheInvalidationRule;
+use Google\Service\Compute\Operation;
+use Google\Service\Compute\UrlMap;
+use Google\Service\Compute\UrlMapList;
+use Google\Service\Compute\UrlMapsAggregatedList;
+use Google\Service\Compute\UrlMapsValidateRequest;
+use Google\Service\Compute\UrlMapsValidateResponse;
+
+/**
+ * The "urlMaps" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $computeService = new Google\Service\Compute(...);
+ *   $urlMaps = $computeService->urlMaps;
+ *  </code>
+ */
+class UrlMaps extends \Google\Service\Resource
+{
+  /**
+   * Retrieves the list of all UrlMap resources, regional and global, available to
+   * the specified project. (urlMaps.aggregatedList)
+   *
+   * @param string $project Name of the project scoping this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param bool includeAllScopes Indicates whether every visible scope for
+   * each scope type (zone, region, global) should be included in the response.
+   * For new resource types added after this field, the flag has no effect as new
+   * resource types will always include every visible scope for each scope type in
+   * response. For resource types which predate this field, if this flag is
+   * omitted or false, only scopes of the scope types where the resource type is
+   * expected to be found will be included.
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return UrlMapsAggregatedList
+   */
+  public function aggregatedList($project, $optParams = [])
+  {
+    $params = ['project' => $project];
+    $params = array_merge($params, $optParams);
+    return $this->call('aggregatedList', [$params], UrlMapsAggregatedList::class);
+  }
+  /**
+   * Deletes the specified UrlMap resource. (urlMaps.delete)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $urlMap Name of the UrlMap resource to delete.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function delete($project, $urlMap, $optParams = [])
+  {
+    $params = ['project' => $project, 'urlMap' => $urlMap];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Returns the specified UrlMap resource. Gets a list of available URL maps by
+   * making a list() request. (urlMaps.get)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $urlMap Name of the UrlMap resource to return.
+   * @param array $optParams Optional parameters.
+   * @return UrlMap
+   */
+  public function get($project, $urlMap, $optParams = [])
+  {
+    $params = ['project' => $project, 'urlMap' => $urlMap];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], UrlMap::class);
+  }
+  /**
+   * Creates a UrlMap resource in the specified project using the data included in
+   * the request. (urlMaps.insert)
+   *
+   * @param string $project Project ID for this request.
+   * @param UrlMap $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function insert($project, UrlMap $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Operation::class);
+  }
+  /**
+   * Initiates a cache invalidation operation, invalidating the specified path,
+   * scoped to the specified UrlMap.
+   *
+   * For more information, see [Invalidating cached content](/cdn/docs
+   * /invalidating-cached-content). (urlMaps.invalidateCache)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $urlMap Name of the UrlMap scoping this request.
+   * @param CacheInvalidationRule $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function invalidateCache($project, $urlMap, CacheInvalidationRule $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'urlMap' => $urlMap, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('invalidateCache', [$params], Operation::class);
+  }
+  /**
+   * Retrieves the list of UrlMap resources available to the specified project.
+   * (urlMaps.listUrlMaps)
+   *
+   * @param string $project Project ID for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return UrlMapList
+   */
+  public function listUrlMaps($project, $optParams = [])
+  {
+    $params = ['project' => $project];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], UrlMapList::class);
+  }
+  /**
+   * Patches the specified UrlMap resource with the data included in the request.
+   * This method supports PATCH semantics and uses the JSON merge patch format and
+   * processing rules. (urlMaps.patch)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $urlMap Name of the UrlMap resource to patch.
+   * @param UrlMap $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function patch($project, $urlMap, UrlMap $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'urlMap' => $urlMap, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+  /**
+   * Updates the specified UrlMap resource with the data included in the request.
+   * (urlMaps.update)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $urlMap Name of the UrlMap resource to update.
+   * @param UrlMap $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function update($project, $urlMap, UrlMap $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'urlMap' => $urlMap, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Operation::class);
+  }
+  /**
+   * Runs static validation for the UrlMap. In particular, the tests of the
+   * provided UrlMap will be run. Calling this method does NOT create the UrlMap.
+   * (urlMaps.validate)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $urlMap Name of the UrlMap resource to be validated as.
+   * @param UrlMapsValidateRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return UrlMapsValidateResponse
+   */
+  public function validate($project, $urlMap, UrlMapsValidateRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'urlMap' => $urlMap, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('validate', [$params], UrlMapsValidateResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(UrlMaps::class, 'Google_Service_Compute_Resource_UrlMaps');

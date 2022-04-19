@@ -1,105 +1,159 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+/**
+ * DSA Private Key
+ *
+ * @category  Crypt
+ * @package   DSA
+ * @author    Jim Wigginton <terrafrost@php.net>
+ * @copyright 2015 Jim Wigginton
+ * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      http://phpseclib.sourceforge.net
+ */
+
+namespace phpseclib3\Crypt\DSA;
+
+use phpseclib3\Crypt\DSA;
+use phpseclib3\Crypt\DSA\Formats\Signature\ASN1 as ASN1Signature;
+use phpseclib3\Math\BigInteger;
+use phpseclib3\Crypt\Common;
+
+/**
+ * DSA Private Key
+ *
+ * @package DSA
+ * @author  Jim Wigginton <terrafrost@php.net>
+ * @access  public
+ */
+class PrivateKey extends DSA implements Common\PrivateKey
+{
+    use Common\Traits\PasswordProtected;
+
+    /**
+     * DSA secret exponent x
+     *
+     * @var \phpseclib3\Math\BigInteger
+     * @access private
+     */
+    protected $x;
+
+    /**
+     * Returns the public key
+     *
+     * If you do "openssl rsa -in private.rsa -pubout -outform PEM" you get a PKCS8 formatted key
+     * that contains a publicKeyAlgorithm AlgorithmIdentifier and a publicKey BIT STRING.
+     * An AlgorithmIdentifier contains an OID and a parameters field. With RSA public keys this
+     * parameters field is NULL. With DSA PKCS8 public keys it is not - it contains the p, q and g
+     * variables. The publicKey BIT STRING contains, simply, the y variable. This can be verified
+     * by getting a DSA PKCS8 public key:
+     *
+     * "openssl dsa -in private.dsa -pubout -outform PEM"
+     *
+     * ie. just swap out rsa with dsa in the rsa command above.
+     *
+     * A PKCS1 public key corresponds to the publicKey portion of the PKCS8 key. In the case of RSA
+     * the publicKey portion /is/ the key. In the case of DSA it is not. You cannot verify a signature
+     * without the parameters and the PKCS1 DSA public key format does not include the parameters.
+     *
+     * @see self::getPrivateKey()
+     * @access public
+     * @return mixed
+     */
+    public function getPublicKey()
+    {
+        $type = self::validatePlugin('Keys', 'PKCS8', 'savePublicKey');
+
+        if (!isset($this->y)) {
+            $this->y = $this->g->powMod($this->x, $this->p);
+        }
+
+        $key = $type::savePublicKey($this->p, $this->q, $this->g, $this->y);
+
+        return DSA::loadFormat('PKCS8', $key)
+            ->withHash($this->hash->getHash())
+            ->withSignatureFormat($this->shortFormat);
+    }
+
+    /**
+     * Create a signature
+     *
+     * @see self::verify()
+     * @access public
+     * @param string $message
+     * @return mixed
+     */
+    public function sign($message)
+    {
+        $format = $this->sigFormat;
+
+        if (self::$engines['OpenSSL'] && in_array($this->hash->getHash(), openssl_get_md_methods())) {
+            $signature = '';
+            $result = openssl_sign($message, $signature, $this->toString('PKCS8'), $this->hash->getHash());
+
+            if ($result) {
+                if ($this->shortFormat == 'ASN1') {
+                    return $signature;
+                }
+
+                extract(ASN1Signature::load($signature));
+
+                return $format::save($r, $s);
+            }
+        }
+
+        $h = $this->hash->hash($message);
+        $h = $this->bits2int($h);
+
+        while (true) {
+            $k = BigInteger::randomRange(self::$one, $this->q->subtract(self::$one));
+            $r = $this->g->powMod($k, $this->p);
+            list(, $r) = $r->divide($this->q);
+            if ($r->equals(self::$zero)) {
+                continue;
+            }
+            $kinv = $k->modInverse($this->q);
+            $temp = $h->add($this->x->multiply($r));
+            $temp = $kinv->multiply($temp);
+            list(, $s) = $temp->divide($this->q);
+            if (!$s->equals(self::$zero)) {
+                break;
+            }
+        }
+
+        // the following is an RFC6979 compliant implementation of deterministic DSA
+        // it's unused because it's mainly intended for use when a good CSPRNG isn't
+        // available. if phpseclib's CSPRNG isn't good then even key generation is
+        // suspect
+        /*
+        $h1 = $this->hash->hash($message);
+        $k = $this->computek($h1);
+        $r = $this->g->powMod($k, $this->p);
+        list(, $r) = $r->divide($this->q);
+        $kinv = $k->modInverse($this->q);
+        $h1 = $this->bits2int($h1);
+        $temp = $h1->add($this->x->multiply($r));
+        $temp = $kinv->multiply($temp);
+        list(, $s) = $temp->divide($this->q);
+        */
+
+        return $format::save($r, $s);
+    }
+
+    /**
+     * Returns the private key
+     *
+     * @param string $type
+     * @param array $options optional
+     * @return string
+     */
+    public function toString($type, array $options = [])
+    {
+        $type = self::validatePlugin('Keys', $type, 'savePrivateKey');
+
+        if (!isset($this->y)) {
+            $this->y = $this->g->powMod($this->x, $this->p);
+        }
+
+        return $type::savePrivateKey($this->p, $this->q, $this->g, $this->y, $this->x, $this->password, $options);
+    }
+}

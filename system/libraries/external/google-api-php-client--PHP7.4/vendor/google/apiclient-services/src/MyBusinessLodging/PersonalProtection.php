@@ -1,74 +1,98 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-MMjq7c96jaJdSOc+gWjqbG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\MyBusinessLodging;
+
+class PersonalProtection extends \Google\Model
+{
+  public $commonAreasOfferSanitizingItems;
+  public $commonAreasOfferSanitizingItemsException;
+  public $faceMaskRequired;
+  public $faceMaskRequiredException;
+  public $guestRoomHygieneKitsAvailable;
+  public $guestRoomHygieneKitsAvailableException;
+  public $protectiveEquipmentAvailable;
+  public $protectiveEquipmentAvailableException;
+
+  public function setCommonAreasOfferSanitizingItems($commonAreasOfferSanitizingItems)
+  {
+    $this->commonAreasOfferSanitizingItems = $commonAreasOfferSanitizingItems;
+  }
+  public function getCommonAreasOfferSanitizingItems()
+  {
+    return $this->commonAreasOfferSanitizingItems;
+  }
+  public function setCommonAreasOfferSanitizingItemsException($commonAreasOfferSanitizingItemsException)
+  {
+    $this->commonAreasOfferSanitizingItemsException = $commonAreasOfferSanitizingItemsException;
+  }
+  public function getCommonAreasOfferSanitizingItemsException()
+  {
+    return $this->commonAreasOfferSanitizingItemsException;
+  }
+  public function setFaceMaskRequired($faceMaskRequired)
+  {
+    $this->faceMaskRequired = $faceMaskRequired;
+  }
+  public function getFaceMaskRequired()
+  {
+    return $this->faceMaskRequired;
+  }
+  public function setFaceMaskRequiredException($faceMaskRequiredException)
+  {
+    $this->faceMaskRequiredException = $faceMaskRequiredException;
+  }
+  public function getFaceMaskRequiredException()
+  {
+    return $this->faceMaskRequiredException;
+  }
+  public function setGuestRoomHygieneKitsAvailable($guestRoomHygieneKitsAvailable)
+  {
+    $this->guestRoomHygieneKitsAvailable = $guestRoomHygieneKitsAvailable;
+  }
+  public function getGuestRoomHygieneKitsAvailable()
+  {
+    return $this->guestRoomHygieneKitsAvailable;
+  }
+  public function setGuestRoomHygieneKitsAvailableException($guestRoomHygieneKitsAvailableException)
+  {
+    $this->guestRoomHygieneKitsAvailableException = $guestRoomHygieneKitsAvailableException;
+  }
+  public function getGuestRoomHygieneKitsAvailableException()
+  {
+    return $this->guestRoomHygieneKitsAvailableException;
+  }
+  public function setProtectiveEquipmentAvailable($protectiveEquipmentAvailable)
+  {
+    $this->protectiveEquipmentAvailable = $protectiveEquipmentAvailable;
+  }
+  public function getProtectiveEquipmentAvailable()
+  {
+    return $this->protectiveEquipmentAvailable;
+  }
+  public function setProtectiveEquipmentAvailableException($protectiveEquipmentAvailableException)
+  {
+    $this->protectiveEquipmentAvailableException = $protectiveEquipmentAvailableException;
+  }
+  public function getProtectiveEquipmentAvailableException()
+  {
+    return $this->protectiveEquipmentAvailableException;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PersonalProtection::class, 'Google_Service_MyBusinessLodging_PersonalProtection');

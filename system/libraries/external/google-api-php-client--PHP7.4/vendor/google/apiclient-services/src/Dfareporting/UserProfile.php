@@ -1,67 +1,98 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dfareporting;
+
+class UserProfile extends \Google\Model
+{
+  public $accountId;
+  public $accountName;
+  public $etag;
+  public $kind;
+  public $profileId;
+  public $subAccountId;
+  public $subAccountName;
+  public $userName;
+
+  public function setAccountId($accountId)
+  {
+    $this->accountId = $accountId;
+  }
+  public function getAccountId()
+  {
+    return $this->accountId;
+  }
+  public function setAccountName($accountName)
+  {
+    $this->accountName = $accountName;
+  }
+  public function getAccountName()
+  {
+    return $this->accountName;
+  }
+  public function setEtag($etag)
+  {
+    $this->etag = $etag;
+  }
+  public function getEtag()
+  {
+    return $this->etag;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setProfileId($profileId)
+  {
+    $this->profileId = $profileId;
+  }
+  public function getProfileId()
+  {
+    return $this->profileId;
+  }
+  public function setSubAccountId($subAccountId)
+  {
+    $this->subAccountId = $subAccountId;
+  }
+  public function getSubAccountId()
+  {
+    return $this->subAccountId;
+  }
+  public function setSubAccountName($subAccountName)
+  {
+    $this->subAccountName = $subAccountName;
+  }
+  public function getSubAccountName()
+  {
+    return $this->subAccountName;
+  }
+  public function setUserName($userName)
+  {
+    $this->userName = $userName;
+  }
+  public function getUserName()
+  {
+    return $this->userName;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(UserProfile::class, 'Google_Service_Dfareporting_UserProfile');

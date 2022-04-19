@@ -1,75 +1,132 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AdExchangeBuyer\Resource;
+
+use Google\Service\AdExchangeBuyer\CreateOrdersRequest;
+use Google\Service\AdExchangeBuyer\CreateOrdersResponse;
+use Google\Service\AdExchangeBuyer\GetOrdersResponse;
+use Google\Service\AdExchangeBuyer\Proposal;
+
+/**
+ * The "proposals" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $adexchangebuyerService = new Google\Service\AdExchangeBuyer(...);
+ *   $proposals = $adexchangebuyerService->proposals;
+ *  </code>
+ */
+class Proposals extends \Google\Service\Resource
+{
+  /**
+   * Get a proposal given its id (proposals.get)
+   *
+   * @param string $proposalId Id of the proposal to retrieve.
+   * @param array $optParams Optional parameters.
+   * @return Proposal
+   */
+  public function get($proposalId, $optParams = [])
+  {
+    $params = ['proposalId' => $proposalId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Proposal::class);
+  }
+  /**
+   * Create the given list of proposals (proposals.insert)
+   *
+   * @param CreateOrdersRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return CreateOrdersResponse
+   */
+  public function insert(CreateOrdersRequest $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], CreateOrdersResponse::class);
+  }
+  /**
+   * Update the given proposal. This method supports patch semantics.
+   * (proposals.patch)
+   *
+   * @param string $proposalId The proposal id to update.
+   * @param string $revisionNumber The last known revision number to update. If
+   * the head revision in the marketplace database has since changed, an error
+   * will be thrown. The caller should then fetch the latest proposal at head
+   * revision and retry the update at that revision.
+   * @param string $updateAction The proposed action to take on the proposal. This
+   * field is required and it must be set when updating a proposal.
+   * @param Proposal $postBody
+   * @param array $optParams Optional parameters.
+   * @return Proposal
+   */
+  public function patch($proposalId, $revisionNumber, $updateAction, Proposal $postBody, $optParams = [])
+  {
+    $params = ['proposalId' => $proposalId, 'revisionNumber' => $revisionNumber, 'updateAction' => $updateAction, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Proposal::class);
+  }
+  /**
+   * Search for proposals using pql query (proposals.search)
+   *
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string pqlQuery Query string to retrieve specific proposals.
+   * @return GetOrdersResponse
+   */
+  public function search($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('search', [$params], GetOrdersResponse::class);
+  }
+  /**
+   * Update the given proposal to indicate that setup has been completed.
+   * (proposals.setupcomplete)
+   *
+   * @param string $proposalId The proposal id for which the setup is complete
+   * @param array $optParams Optional parameters.
+   */
+  public function setupcomplete($proposalId, $optParams = [])
+  {
+    $params = ['proposalId' => $proposalId];
+    $params = array_merge($params, $optParams);
+    return $this->call('setupcomplete', [$params]);
+  }
+  /**
+   * Update the given proposal (proposals.update)
+   *
+   * @param string $proposalId The proposal id to update.
+   * @param string $revisionNumber The last known revision number to update. If
+   * the head revision in the marketplace database has since changed, an error
+   * will be thrown. The caller should then fetch the latest proposal at head
+   * revision and retry the update at that revision.
+   * @param string $updateAction The proposed action to take on the proposal. This
+   * field is required and it must be set when updating a proposal.
+   * @param Proposal $postBody
+   * @param array $optParams Optional parameters.
+   * @return Proposal
+   */
+  public function update($proposalId, $revisionNumber, $updateAction, Proposal $postBody, $optParams = [])
+  {
+    $params = ['proposalId' => $proposalId, 'revisionNumber' => $revisionNumber, 'updateAction' => $updateAction, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Proposal::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Proposals::class, 'Google_Service_AdExchangeBuyer_Resource_Proposals');

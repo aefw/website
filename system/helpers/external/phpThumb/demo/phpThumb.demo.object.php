@@ -1,131 +1,85 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-7ujf
+<?php
+//////////////////////////////////////////////////////////////
+//   phpThumb() by James Heinrich <info@silisoftware.com>   //
+//        available at http://phpthumb.sourceforge.net      //
+//         and/or https://github.com/JamesHeinrich/phpThumb //
+//////////////////////////////////////////////////////////////
+///                                                         //
+// phpThumb.demo.object.php                                 //
+// James Heinrich <info@silisoftware.com>                   //
+//                                                          //
+// Example of how to use phpthumb.class.php as an object    //
+//                                                          //
+//////////////////////////////////////////////////////////////
+
+// Note: phpThumb.php is where the caching code is located, if
+//   you instantiate your own phpThumb() object that code is
+//   bypassed and it's up to you to handle the reading and
+//   writing of cached files, if appropriate.
+
+die('For security reasons, this demo is disabled by default. Please comment out line '.__LINE__.' in '.basename(__FILE__));
+
+require_once '../phpthumb.class.php';
+
+// create phpThumb object
+$phpThumb = new phpThumb();
+
+// create 3 sizes of thumbnail
+$thumbnail_widths = array(160, 320, 640);
+$capture_raw_data = false; // set to true to insert to database rather than render to screen or file (see below)
+foreach ($thumbnail_widths as $thumbnail_width) {
+	// this is very important when using a single object to process multiple images
+	$phpThumb->resetObject();
+
+	// set data source -- do this first, any settings must be made AFTER this call
+	$phpThumb->setSourceFilename('images/loco.jpg');  // for static demo only
+	//$phpThumb->setSourceFilename($_FILES['userfile']['tmp_name']);
+	// or $phpThumb->setSourceData($binary_image_data);
+	// or $phpThumb->setSourceImageResource($gd_image_resource);
+
+	// PLEASE NOTE:
+	// You must set any relevant config settings here. The phpThumb
+	// object mode does NOT pull any settings from phpThumb.config.php
+	//$phpThumb->setParameter('config_document_root', '/home/groups/p/ph/phpthumb/htdocs/');
+	//$phpThumb->setParameter('config_cache_directory', '/tmp/persistent/phpthumb/cache/');
+
+	// set parameters (see "URL Parameters" in phpthumb.readme.txt)
+	$phpThumb->setParameter('w', $thumbnail_width);
+	//$phpThumb->setParameter('h', 100);
+	//$phpThumb->setParameter('fltr', 'gam|1.2');
+	//$phpThumb->setParameter('fltr', 'wmi|../watermark.jpg|C|75|20|20');
+
+	// set options (see phpThumb.config.php)
+	// here you must preface each option with "config_"
+	$phpThumb->setParameter('config_output_format', 'jpeg');
+	$phpThumb->setParameter('config_imagemagick_path', '/usr/local/bin/convert');
+	//$phpThumb->setParameter('config_allow_src_above_docroot', true); // needed if you're working outside DOCUMENT_ROOT, in a temp dir for example
+
+	// generate & output thumbnail
+	$output_filename = './thumbnails/'.basename($_FILES['userfile']['name']).'_'.$thumbnail_width.'.'.$phpThumb->config_output_format;
+	if ($phpThumb->GenerateThumbnail()) { // this line is VERY important, do not remove it!
+		$output_size_x = imagesx($phpThumb->gdimg_output);
+		$output_size_y = imagesy($phpThumb->gdimg_output);
+		if ($output_filename || $capture_raw_data) {
+			if ($capture_raw_data && $phpThumb->RenderOutput()) {
+				// RenderOutput renders the thumbnail data to $phpThumb->outputImageData, not to a file or the browser
+				$mysqli->query("INSERT INTO `table` (`thumbnail`) VALUES ('".mysqli_real_escape_string($phpThumb->outputImageData)."') WHERE (`id` = '".mysqli_real_escape_string($id)."')");
+			} elseif ($phpThumb->RenderToFile($output_filename)) {
+				// do something on success
+				echo 'Successfully rendered:<br><img src="'.$output_filename.'">';
+			} else {
+				// do something with debug/error messages
+				echo 'Failed (size='.$thumbnail_width.'):<pre>'.implode("\n\n", $phpThumb->debugmessages).'</pre>';
+			}
+			$phpThumb->purgeTempFiles();
+		} else {
+			$phpThumb->OutputThumbnail();
+		}
+	} else {
+		// do something with debug/error messages
+		echo 'Failed (size='.$thumbnail_width.').<br>';
+		echo '<div style="background-color:#FFEEDD; font-weight: bold; padding: 10px;">'.$phpThumb->fatalerror.'</div>';
+		echo '<form><textarea rows="10" cols="60" wrap="off">'.htmlentities(implode("\n* ", $phpThumb->debugmessages)).'</textarea></form><hr>';
+	}
+
+}

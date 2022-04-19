@@ -1,88 +1,224 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-W3wuuR+yYdzc
+<?php
+
+namespace PhpOffice\PhpSpreadsheet\Writer\Xls;
+
+use PhpOffice\PhpSpreadsheet\Writer\Exception as WriterException;
+
+// Original file header of PEAR::Spreadsheet_Excel_Writer_BIFFwriter (used as the base for this class):
+// -----------------------------------------------------------------------------------------
+// *  Module written/ported by Xavier Noguer <xnoguer@rezebra.com>
+// *
+// *  The majority of this is _NOT_ my code.  I simply ported it from the
+// *  PERL Spreadsheet::WriteExcel module.
+// *
+// *  The author of the Spreadsheet::WriteExcel module is John McNamara
+// *  <jmcnamara@cpan.org>
+// *
+// *  I _DO_ maintain this code, and John McNamara has nothing to do with the
+// *  porting of this code to PHP.  Any questions directly related to this
+// *  class library should be directed to me.
+// *
+// *  License Information:
+// *
+// *    Spreadsheet_Excel_Writer:  A library for generating Excel Spreadsheets
+// *    Copyright (c) 2002-2003 Xavier Noguer xnoguer@rezebra.com
+// *
+// *    This library is free software; you can redistribute it and/or
+// *    modify it under the terms of the GNU Lesser General Public
+// *    License as published by the Free Software Foundation; either
+// *    version 2.1 of the License, or (at your option) any later version.
+// *
+// *    This library is distributed in the hope that it will be useful,
+// *    but WITHOUT ANY WARRANTY; without even the implied warranty of
+// *    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+// *    Lesser General Public License for more details.
+// *
+// *    You should have received a copy of the GNU Lesser General Public
+// *    License along with this library; if not, write to the Free Software
+// *    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+// */
+class BIFFwriter
+{
+    /**
+     * The byte order of this architecture. 0 => little endian, 1 => big endian.
+     *
+     * @var int
+     */
+    private static $byteOrder;
+
+    /**
+     * The string containing the data of the BIFF stream.
+     *
+     * @var string
+     */
+    public $_data;
+
+    /**
+     * The size of the data in bytes. Should be the same as strlen($this->_data).
+     *
+     * @var int
+     */
+    public $_datasize;
+
+    /**
+     * The maximum length for a BIFF record (excluding record header and length field). See addContinue().
+     *
+     * @var int
+     *
+     * @see addContinue()
+     */
+    private $limit = 8224;
+
+    /**
+     * Constructor.
+     */
+    public function __construct()
+    {
+        $this->_data = '';
+        $this->_datasize = 0;
+    }
+
+    /**
+     * Determine the byte order and store it as class data to avoid
+     * recalculating it for each call to new().
+     *
+     * @return int
+     */
+    public static function getByteOrder()
+    {
+        if (!isset(self::$byteOrder)) {
+            // Check if "pack" gives the required IEEE 64bit float
+            $teststr = pack('d', 1.2345);
+            $number = pack('C8', 0x8D, 0x97, 0x6E, 0x12, 0x83, 0xC0, 0xF3, 0x3F);
+            if ($number == $teststr) {
+                $byte_order = 0; // Little Endian
+            } elseif ($number == strrev($teststr)) {
+                $byte_order = 1; // Big Endian
+            } else {
+                // Give up. I'll fix this in a later version.
+                throw new WriterException('Required floating point format not supported on this platform.');
+            }
+            self::$byteOrder = $byte_order;
+        }
+
+        return self::$byteOrder;
+    }
+
+    /**
+     * General storage function.
+     *
+     * @param string $data binary data to append
+     */
+    protected function append($data)
+    {
+        if (strlen($data) - 4 > $this->limit) {
+            $data = $this->addContinue($data);
+        }
+        $this->_data .= $data;
+        $this->_datasize += strlen($data);
+    }
+
+    /**
+     * General storage function like append, but returns string instead of modifying $this->_data.
+     *
+     * @param string $data binary data to write
+     *
+     * @return string
+     */
+    public function writeData($data)
+    {
+        if (strlen($data) - 4 > $this->limit) {
+            $data = $this->addContinue($data);
+        }
+        $this->_datasize += strlen($data);
+
+        return $data;
+    }
+
+    /**
+     * Writes Excel BOF record to indicate the beginning of a stream or
+     * sub-stream in the BIFF file.
+     *
+     * @param int $type type of BIFF file to write: 0x0005 Workbook,
+     *                       0x0010 Worksheet
+     */
+    protected function storeBof($type)
+    {
+        $record = 0x0809; // Record identifier    (BIFF5-BIFF8)
+        $length = 0x0010;
+
+        // by inspection of real files, MS Office Excel 2007 writes the following
+        $unknown = pack('VV', 0x000100D1, 0x00000406);
+
+        $build = 0x0DBB; //    Excel 97
+        $year = 0x07CC; //    Excel 97
+
+        $version = 0x0600; //    BIFF8
+
+        $header = pack('vv', $record, $length);
+        $data = pack('vvvv', $version, $type, $build, $year);
+        $this->append($header . $data . $unknown);
+    }
+
+    /**
+     * Writes Excel EOF record to indicate the end of a BIFF stream.
+     */
+    protected function storeEof()
+    {
+        $record = 0x000A; // Record identifier
+        $length = 0x0000; // Number of bytes to follow
+
+        $header = pack('vv', $record, $length);
+        $this->append($header);
+    }
+
+    /**
+     * Writes Excel EOF record to indicate the end of a BIFF stream.
+     */
+    public function writeEof()
+    {
+        $record = 0x000A; // Record identifier
+        $length = 0x0000; // Number of bytes to follow
+        $header = pack('vv', $record, $length);
+
+        return $this->writeData($header);
+    }
+
+    /**
+     * Excel limits the size of BIFF records. In Excel 5 the limit is 2084 bytes. In
+     * Excel 97 the limit is 8228 bytes. Records that are longer than these limits
+     * must be split up into CONTINUE blocks.
+     *
+     * This function takes a long BIFF record and inserts CONTINUE records as
+     * necessary.
+     *
+     * @param string $data The original binary data to be written
+     *
+     * @return string A very convenient string of continue blocks
+     */
+    private function addContinue($data)
+    {
+        $limit = $this->limit;
+        $record = 0x003C; // Record identifier
+
+        // The first 2080/8224 bytes remain intact. However, we have to change
+        // the length field of the record.
+        $tmp = substr($data, 0, 2) . pack('v', $limit) . substr($data, 4, $limit);
+
+        $header = pack('vv', $record, $limit); // Headers for continue records
+
+        // Retrieve chunks of 2080/8224 bytes +4 for the header.
+        $data_length = strlen($data);
+        for ($i = $limit + 4; $i < ($data_length - $limit); $i += $limit) {
+            $tmp .= $header;
+            $tmp .= substr($data, $i, $limit);
+        }
+
+        // Retrieve the last chunk of data
+        $header = pack('vv', $record, strlen($data) - $i);
+        $tmp .= $header;
+        $tmp .= substr($data, $i);
+
+        return $tmp;
+    }
+}

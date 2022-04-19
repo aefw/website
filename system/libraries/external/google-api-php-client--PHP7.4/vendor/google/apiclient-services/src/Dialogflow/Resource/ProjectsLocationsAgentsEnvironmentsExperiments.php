@@ -1,81 +1,152 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPwkPSlPQJqVwKrFdrO3k7zGbs92pngSNtfV8zH+3jDGq9AJvq8K56A1J5UB7D2jQOm033SDE
-KRP7stBug3lh3vs1X3vY8LgW1sZWdSwY5lxMfhn0JIrTqPj8t8YQz4HSkwpAvsPXu6oBmSuJUQ5x
-qMYlyXHktlgu4iXTbiXhnb4wLlHFavOKkN9Q0FAKXxDyk5sS/DimnlGagxjznn7SlUd+naxC2m9S
-j/qvUn67INlhxIs8Ryvo9P319w711hMzRCyJqMChFOsHoKOYsO98nyvYFU9mKourL8IeB86cFae5
-vLMrTQaNvz6di/OZN0Q8rCMd6Zaeue5n0fq/WQj/j9UawNM9dey4+7796jGfi43Y6UdVgpD+VjOn
-V4DAyEkSQECJVs+12UAB9Bv0nz+QTGmg36CNn35FoTuETGbzey/OElS/bxGsCSrNnnpSyxtyHSHa
-Fc04VgUpzCTEZFD/3rALL4o51PbrijQC6C91Uvze1sqZPB72aUwxa8INmD7pwl54xNAT/mgsfaFy
-0ENiNj2ICSmi3b6iKXD4io4/KfB+APuU9g59VtW4iapXxSe4bYV+vXU7P+F3ASD9TI/GEWCZMxIP
-4OQI1xw1vAfdYzanTxQShXDInTkihcqpBBlYXyyw7AA0dp4ztX3mprXU8XWWcypEbu6V4WiL6JW9
-9DrxExZes2HTJj1QVP0I5odu11K6Ojapb7QBQEqCSL+JEOklLAfjVdK7bt2PiMHCQSEUMO8sccF/
-LKaLboTb4m7IayXbmXDleNBvWCpLhM4KYlDrxzirYwvWH8BQM0+IVa+wSfHH0gJ6aAkPw/YNSAVJ
-HwnscvXSC4bU0SxFLx2u2Dca8t7HQkj+50c20pfr4wVOO+oFIogFhEaG4ptZiNmUYWpd2kF1BdQQ
-JvDCkyTKQEffQwaTfzuIYJ2cqmIO+JwVYkW1JdFTJ+Ua4s7h/FQYhel3dkOUIGb0fBVTJ1ky3Hxj
-4OIlpuKLKAn6iM4Dhwvu9ozDbA9hEplBSs1N8uN5pXNQZyTqAQAst7EG08OuWsc0TCklAjXyS49s
-DQ78PaU3NFVRj6aAz+HUohFq0QaqCo9v+iKC/vGQ4FaMC3CEPq/97XRkerRCs6yz8RIpcw8S1SoS
-MIEJPwgLKBy8M8MVSWUvtyV896spM61ZLxrui5MXCBG4jvEh9ZNOdYjbMmxvdHcMPMsGz5kIoDfb
-pXBwxZNHmXnB42El75hea+uaUHL50VTtd8GnjnI9zcLSQCil/gc8ctQYOJGeLPZ7M5s5csyxkHJ3
-DH0O3dq7QHMfB2gaEgjmxkr8DazPDl60tZq6ZfMZl+m+uYZBEvdkozUvhnfT+bGZX8cik45vl1Uc
-vWCxclJ0nTOeG5eq/rTqpBMtMdp8YWGiSxGjBNbBPNXjxAeWR0nP/n3gpjB0c8Ai5dLE2aaVcCYr
-AjPrXLcIaEVjGde1Arde2Kmu1MT1DwYb2gpMtAs5k7RaBxp+TyNT26txu79r19KT3r2pJLyIADLb
-CYGobIMMdisYoCcOvRjBvnedkC2lvVqsjziVURiapNB0dWZ4FlowYi69W6MtfkM9nyXvAb2oQCvz
-1CFD9nnsv+2/9ZFnMiVaKWkJUD36nBLG+gSYJWn0vOsJsoBBYel8m/hXevlAVy2nonpF1NDAMmVr
-K7tQJtM8VFzXrk2imCODyOZ+LKK13bzdpTMJN88tBES+zmHlQ/8ciaM6CXC5lmX19E6YwKdjYkSG
-4pgn4yBNO8XgKFK11Gj5Z4ew014ZjAkrVbCTt/PFQQqqZAZrWrLMe4+7IKvY6inDmDwFv0cSFaD8
-g51RreTcmpY/IpLK7TiKjgnkEeKHORlroS1TXzPqRFh/Ed5z0w3nKgNOOcv2KfIh8a6FxPxhq594
-mqMdh7s5VMzuk0/2X95nOCLQKclCDB3gqDwN4kIwJSpcRfXWv9L6CQcMZlREWlr37GqFKcanJIFr
-RENQT5wMcPuN7ltB0R/onY2ctkMXBfYpAG5qokGzEinIBDRjzPHdHVTClxljq99aOxTlXluLZOxN
-86hHf5icoqCLD4q2VnWOQ/y/dxiCVMOVWfaeg4r/OzXivpXyPOoSnzlK0hzQgPx5VApRu1mi6/1I
-4hstzJq2kn++5JV/Y41LL4jCCEBW3DYnaJO3aHGG4FbCir2tsV9dPHk0Hw+QYSORhwrLt9noQkED
-kNHUEq4p88dgxnEy4s9sHJhNhFWrbSY2uqLiqgn9Pj8MRaXx3PGBZSMjSL7Yh7Z8iJDDsv+rjgJr
-h7tMOU2aA7wZM/zmSpGMRcullzcZw6Bk94Ajg/qQQ1ttBagbc946kru6h+Fqhff7LjiI9jzG7dgq
-ZCDauM8wBEQsMrnxTLuUIZ+ENxQF8HmT4dDklTSf59UlSR6gNY+kvmyRhZS6WriuZ8xwsg/evy2Y
-x+2nRj/A9msJru3QH9dRsNEEyF/oqfgcoCJlfacE/vTR1NrTrbb4CnfRZllBcQa1Pmdv3+8ZJYyN
-XchSqdaSEIg1ml1rk375WX6DIQhymh+SDulrVTeEy4QyVn5+q9KLxMKSPHBNIzPwVPs777Iewb6a
-sfMrkSlxXfXl79BP3g8jgQaeVcn8tDYTpJW+TqsFauYbjHkWTwwFfJDU+H5MP4VNxCXNzgEbsOVG
-oA8i9RPYJFGjzBOzt6sX6WMv5VCGlFzbPmL9vcCqCzm22rhDP0FKGX1ZvDfzgKVQEoMIl7o8WU9J
-nrqK8MiMZzA4guRHlHBHX6CBy45/r7Q1AzSlKAF6Wuch1VqBGSIql68LK2mh8VCB3nc8s/gSVrcL
-hTgzXQa1a7zW8+GuWfAZsFE0jjCFFHUeM0IQiXHXPv34xw71XDPIKQN4HMGoPCLqxawVRpH9hkHR
-YP7gwYmplPGJa1dDHYk7uHYWltRZetpMG9/n13h0YI3ZQK8uRuCAbc0IVNsUAwzQDoh0mG3Ubk7E
-wE+NsX+xZilXs7g9bb+YnlWQMOJQbV+LScenIsQbaEqXWOrweHrwZQdkTkt9H4a+OyUZGzrB1Nrd
-k4UjO9L5CQu3/hlJaspYzWsRXGp3Z7GnZWapS9DQX+5mLdZBvqmjI26LwUFCIoRJIgUZ73u8D+yJ
-nuaK6MJUhXx8hSBsXemvXpwY3KHxBhjXgzwg1zGaZEkbS5qax1C9sctN/mfny+FCbkz+XRoCxMFy
-K565sbOGMNxUYcXXAIbehh0Y6T+lVvjnfqFx6y1X6jbscpuDAhQYWxxeyl24qJ9dHTGmIZ9PGHtU
-TB1DCIyp54h7bH5GENghREQ9TELrlij7l7RQSqDb9HAeU+CK1kc7yYKW0b8qNhgnZIx1omDWY3TI
-Ws3nnhHHziDacx4BQ7vwI3FwFZyCGomSTArnh9TMvR1SR42BHM4K9P5XYSSElrzvav8xpShZzT+d
-gCmbd5K28HFntfVW2Wy4KibL0VIM/Y2NY/M8h7i5/rBXjdd8d6OYSBV4jkffOuVptYfFIc/XLojF
-Fmkde/WPmw3A3XdG5qdHaL9MNcD97YGzSNKuRm5iKEwpJQEYjVEF9k4K6QFtPN7XpUyMJvOdGwW/
-r+Pajo5ODCN/bn+3lZhEteCHsMfDVoS9q5lFDdrnZmiwUTDdQTNI6bOJRke1T7sQjEdMcwPfu5EG
-0wWlXzWvUBHVUc+QaRB546opdniwsFQOmy0ah76xRAa+BpGqLxS5DW3ihue3gjbdQfSfRP5N0jMU
-Atf8kanqhMHaZJ1gOCTAVF6ad5LCsBhajRJWt3QQJTqBnM8riYY7ddfBRy6xMIaxrAnXH2wGbpBG
-0NyXujlp6ReePYWufb3vNCJbaeMWZPlxI6nWWXUgQXQHNNLAdqLBtIqRm1Qw9Nfq4xW90+dpJYET
-B95CokXcYsb7dhrVeKdz+bKeGAtYo8n0RbIBoGLlANpKnrXs1tbTFlFtUeuoMWm5kRqDZ9l4JSMu
-H4pOjt7Uyzzf0QKqLz7Z2psBeCUJKPgELlPZ9MAo5AJKrpt0q6JmHUqhszNPIOFTCfYHeTpmcpZ2
-VVCt3rLuig9XguMbqMXG4+sME4KRRnd7Ke1D2GJyXpa19EMx7N6PbqT3aeWRQcrBJB1YVl1tKqsI
-uGtwrlE7Xx9n3mvzkak5cZ/3eDUeA0osvvkFp5AaykrSMIpwxL+ECT5kzb0+03GaOsXaFJG3JsBP
-ycD/61r7viKO/Y1v85IF4XZ0zhiP89bmJ5grS/VrFNUY4OsaIH4+ta2ekIF08sttOL3G+7MVorkw
-D5zL+yQpsjN1Of2UZLhRUnciBuaE0DSjY4+PFuNUG217hRoYfeVEEViMh6YML90IUo1PP/+j4Osg
-tjECn7DtfIx10NAqDAibt825817rEvkMkQtnUH+80NZJB/WSk/JFebUwYs56tOu+MrYKnupbQ4VD
-J7YmW6EwGzjnBYl+G8Yq8QTK5ekhGrPqZTgzfasZKZklKsyjU1hupc6vs/iv6fcQ7cq+U+2tuRfP
-wNsoUCdlWx6EJ4GH2hG5B1Y9pNGepwMHtMfztyrLI0erU+OJnC9uf/p6ZRc7KhQhU+33ie9u7t0j
-iivRpOoJmB8QW27M6LsEiDmSvIOAkc18miUa1ZRcbXsF8j4QRQnLyaOBWDRO25VOMNrgCYrQJ43O
-0wLam88DnOnI+2NZT+uPIp/0xym5I1CsS+Tg4YS13+DSVNFomHoAYdPmmMJQoOR/OcrGJLpGHyhm
-Kkd+Cvg04+ZH80oOBobpPVq/xc7jYLwuSBlr26OXRouVhPZIK6pcHwIWK3+RR+b+RhBPM0Yd/J67
-Y2cHk07dinCeRnpZFv2kYmTyQVJNjcsMmbzUgGtJIkVZL46ygE1lmvRtLGNjMi9zIbp/Mi9YMLjm
-fJHEd1xpUUA/iEC0NaugcvIHzEUOoEVNt2VvnohijQg44uirXRCQUIDDUkvORkj8FpEO3YmCdsN3
-fiOZTjtiMmDeOq0VuyZMNHE5D5FzS0hiyTBUEPpdISQmYvPD6Pa94EOD8PERlfi6Ot8w//FOvBvW
-IiZKuyAU+hQkQ7GbKKo7enXmEM31ZJAICufdv5jeHmrTbG9L9FUfufS6KkJ1/UODlsbVvTcOv3c1
-HR/xSsiohdvihR8l1zKzGXut7xHnPkevxLYuX1M8Gm4KgZW/S9RlPrpTk0wAlCh5G6tN57QPYNuV
-3GMfu/MYyMOFFXw1JpTdDcK2tGRjF/zIDk71h6raf+VlKd37b4L/oF5id+wk4Z64ozCFaHmGijwK
-QnhJBu8MYuSCCiIOPCa6P50+0vUI2ejeWuyYyny103TSI/hespuRQCA1dpIsi3brP+92J7/AHOrz
-/pffPrB0HNQYAwjMTX6wNKssmbup/WZNlhId2413LeS8kth/xnz72Y5Hv3cEmJ6ZhEXAsr9/irfj
-BVSLVGYDAEz/VPjl8KcOVKWr87NHMjv2iChgDFOLz+p5Owyf+PRKKYEqhZj0/yVJ75szxAfIAnDk
-pQ9+ZwtpuXDPejhk6Rrl6sjIgylucMGqgJVe5TqirkgOB6yrgrfMRtxY8iDsiictRT0HRmTE0Oeh
-6EsxqK3+c8qhbN0zt4fs/YGMCbnYPfBqDd6ZHnZLXAskiu9JCsA94SJfY7scOIny45io1ri8CsKc
-ckYUW999P/iWsTebAYD+I18s+Dw+izyLKEqFYGiHCSk+PbcOo9L01nRqQlEiGa2UQA3uoqv3
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dialogflow\Resource;
+
+use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3Experiment;
+use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3ListExperimentsResponse;
+use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3StartExperimentRequest;
+use Google\Service\Dialogflow\GoogleCloudDialogflowCxV3StopExperimentRequest;
+use Google\Service\Dialogflow\GoogleProtobufEmpty;
+
+/**
+ * The "experiments" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $dialogflowService = new Google\Service\Dialogflow(...);
+ *   $experiments = $dialogflowService->experiments;
+ *  </code>
+ */
+class ProjectsLocationsAgentsEnvironmentsExperiments extends \Google\Service\Resource
+{
+  /**
+   * Creates an Experiment in the specified Environment. (experiments.create)
+   *
+   * @param string $parent Required. The Agent to create an Environment for.
+   * Format: `projects//locations//agents//environments/`.
+   * @param GoogleCloudDialogflowCxV3Experiment $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudDialogflowCxV3Experiment
+   */
+  public function create($parent, GoogleCloudDialogflowCxV3Experiment $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleCloudDialogflowCxV3Experiment::class);
+  }
+  /**
+   * Deletes the specified Experiment. (experiments.delete)
+   *
+   * @param string $name Required. The name of the Environment to delete. Format:
+   * `projects//locations//agents//environments//experiments/`.
+   * @param array $optParams Optional parameters.
+   * @return GoogleProtobufEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
+  }
+  /**
+   * Retrieves the specified Experiment. (experiments.get)
+   *
+   * @param string $name Required. The name of the Environment. Format:
+   * `projects//locations//agents//environments//experiments/`.
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudDialogflowCxV3Experiment
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudDialogflowCxV3Experiment::class);
+  }
+  /**
+   * Returns the list of all experiments in the specified Environment.
+   * (experiments.listProjectsLocationsAgentsEnvironmentsExperiments)
+   *
+   * @param string $parent Required. The Environment to list all environments for.
+   * Format: `projects//locations//agents//environments/`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The maximum number of items to return in a single
+   * page. By default 20 and at most 100.
+   * @opt_param string pageToken The next_page_token value returned from a
+   * previous list request.
+   * @return GoogleCloudDialogflowCxV3ListExperimentsResponse
+   */
+  public function listProjectsLocationsAgentsEnvironmentsExperiments($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleCloudDialogflowCxV3ListExperimentsResponse::class);
+  }
+  /**
+   * Updates the specified Experiment. (experiments.patch)
+   *
+   * @param string $name The name of the experiment. Format:
+   * projects//locations//agents//environments//experiments/..
+   * @param GoogleCloudDialogflowCxV3Experiment $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. The mask to control which fields get
+   * updated.
+   * @return GoogleCloudDialogflowCxV3Experiment
+   */
+  public function patch($name, GoogleCloudDialogflowCxV3Experiment $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], GoogleCloudDialogflowCxV3Experiment::class);
+  }
+  /**
+   * Starts the specified Experiment. This rpc only changes the state of
+   * experiment from PENDING to RUNNING. (experiments.start)
+   *
+   * @param string $name Required. Resource name of the experiment to start.
+   * Format: `projects//locations//agents//environments//experiments/`.
+   * @param GoogleCloudDialogflowCxV3StartExperimentRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudDialogflowCxV3Experiment
+   */
+  public function start($name, GoogleCloudDialogflowCxV3StartExperimentRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('start', [$params], GoogleCloudDialogflowCxV3Experiment::class);
+  }
+  /**
+   * Stops the specified Experiment. This rpc only changes the state of experiment
+   * from RUNNING to DONE. (experiments.stop)
+   *
+   * @param string $name Required. Resource name of the experiment to stop.
+   * Format: `projects//locations//agents//environments//experiments/`.
+   * @param GoogleCloudDialogflowCxV3StopExperimentRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudDialogflowCxV3Experiment
+   */
+  public function stop($name, GoogleCloudDialogflowCxV3StopExperimentRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('stop', [$params], GoogleCloudDialogflowCxV3Experiment::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsAgentsEnvironmentsExperiments::class, 'Google_Service_Dialogflow_Resource_ProjectsLocationsAgentsEnvironmentsExperiments');

@@ -1,64 +1,115 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-rp7YPNC6TxSPfuJSSqy=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Gmail\Resource;
+
+use Google\Service\Gmail\Delegate;
+use Google\Service\Gmail\ListDelegatesResponse;
+
+/**
+ * The "delegates" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $gmailService = new Google\Service\Gmail(...);
+ *   $delegates = $gmailService->delegates;
+ *  </code>
+ */
+class UsersSettingsDelegates extends \Google\Service\Resource
+{
+  /**
+   * Adds a delegate with its verification status set directly to `accepted`,
+   * without sending any verification email. The delegate user must be a member of
+   * the same G Suite organization as the delegator user. Gmail imposes
+   * limitations on the number of delegates and delegators each user in a G Suite
+   * organization can have. These limits depend on your organization, but in
+   * general each user can have up to 25 delegates and up to 10 delegators. Note
+   * that a delegate user must be referred to by their primary email address, and
+   * not an email alias. Also note that when a new delegate is created, there may
+   * be up to a one minute delay before the new delegate is available for use.
+   * This method is only available to service account clients that have been
+   * delegated domain-wide authority. (delegates.create)
+   *
+   * @param string $userId User's email address. The special value "me" can be
+   * used to indicate the authenticated user.
+   * @param Delegate $postBody
+   * @param array $optParams Optional parameters.
+   * @return Delegate
+   */
+  public function create($userId, Delegate $postBody, $optParams = [])
+  {
+    $params = ['userId' => $userId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Delegate::class);
+  }
+  /**
+   * Removes the specified delegate (which can be of any verification status), and
+   * revokes any verification that may have been required for using it. Note that
+   * a delegate user must be referred to by their primary email address, and not
+   * an email alias. This method is only available to service account clients that
+   * have been delegated domain-wide authority. (delegates.delete)
+   *
+   * @param string $userId User's email address. The special value "me" can be
+   * used to indicate the authenticated user.
+   * @param string $delegateEmail The email address of the user to be removed as a
+   * delegate.
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($userId, $delegateEmail, $optParams = [])
+  {
+    $params = ['userId' => $userId, 'delegateEmail' => $delegateEmail];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Gets the specified delegate. Note that a delegate user must be referred to by
+   * their primary email address, and not an email alias. This method is only
+   * available to service account clients that have been delegated domain-wide
+   * authority. (delegates.get)
+   *
+   * @param string $userId User's email address. The special value "me" can be
+   * used to indicate the authenticated user.
+   * @param string $delegateEmail The email address of the user whose delegate
+   * relationship is to be retrieved.
+   * @param array $optParams Optional parameters.
+   * @return Delegate
+   */
+  public function get($userId, $delegateEmail, $optParams = [])
+  {
+    $params = ['userId' => $userId, 'delegateEmail' => $delegateEmail];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Delegate::class);
+  }
+  /**
+   * Lists the delegates for the specified account. This method is only available
+   * to service account clients that have been delegated domain-wide authority.
+   * (delegates.listUsersSettingsDelegates)
+   *
+   * @param string $userId User's email address. The special value "me" can be
+   * used to indicate the authenticated user.
+   * @param array $optParams Optional parameters.
+   * @return ListDelegatesResponse
+   */
+  public function listUsersSettingsDelegates($userId, $optParams = [])
+  {
+    $params = ['userId' => $userId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListDelegatesResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(UsersSettingsDelegates::class, 'Google_Service_Gmail_Resource_UsersSettingsDelegates');

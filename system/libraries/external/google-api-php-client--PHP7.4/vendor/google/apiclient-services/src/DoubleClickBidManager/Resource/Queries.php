@@ -1,68 +1,110 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-xRXrE+rk
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DoubleClickBidManager\Resource;
+
+use Google\Service\DoubleClickBidManager\ListQueriesResponse;
+use Google\Service\DoubleClickBidManager\Query;
+use Google\Service\DoubleClickBidManager\RunQueryRequest;
+
+/**
+ * The "queries" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $doubleclickbidmanagerService = new Google\Service\DoubleClickBidManager(...);
+ *   $queries = $doubleclickbidmanagerService->queries;
+ *  </code>
+ */
+class Queries extends \Google\Service\Resource
+{
+  /**
+   * Creates a query. (queries.createquery)
+   *
+   * @param Query $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool asynchronous If true, tries to run the query asynchronously.
+   * Only applicable when the frequency is ONE_TIME.
+   * @return Query
+   */
+  public function createquery(Query $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('createquery', [$params], Query::class);
+  }
+  /**
+   * Deletes a stored query as well as the associated stored reports.
+   * (queries.deletequery)
+   *
+   * @param string $queryId Query ID to delete.
+   * @param array $optParams Optional parameters.
+   */
+  public function deletequery($queryId, $optParams = [])
+  {
+    $params = ['queryId' => $queryId];
+    $params = array_merge($params, $optParams);
+    return $this->call('deletequery', [$params]);
+  }
+  /**
+   * Retrieves a stored query. (queries.getquery)
+   *
+   * @param string $queryId Query ID to retrieve.
+   * @param array $optParams Optional parameters.
+   * @return Query
+   */
+  public function getquery($queryId, $optParams = [])
+  {
+    $params = ['queryId' => $queryId];
+    $params = array_merge($params, $optParams);
+    return $this->call('getquery', [$params], Query::class);
+  }
+  /**
+   * Retrieves stored queries. (queries.listqueries)
+   *
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Maximum number of results per page. Must be between 1
+   * and 100. Defaults to 100 if unspecified.
+   * @opt_param string pageToken Optional pagination token.
+   * @return ListQueriesResponse
+   */
+  public function listqueries($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('listqueries', [$params], ListQueriesResponse::class);
+  }
+  /**
+   * Runs a stored query to generate a report. (queries.runquery)
+   *
+   * @param string $queryId Query ID to run.
+   * @param RunQueryRequest $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool asynchronous If true, tries to run the query asynchronously.
+   */
+  public function runquery($queryId, RunQueryRequest $postBody, $optParams = [])
+  {
+    $params = ['queryId' => $queryId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('runquery', [$params]);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Queries::class, 'Google_Service_DoubleClickBidManager_Resource_Queries');

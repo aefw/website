@@ -1,78 +1,155 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ShoppingContent\Resource;
+
+use Google\Service\ShoppingContent\ShippingSettings as ShippingSettingsModel;
+use Google\Service\ShoppingContent\ShippingsettingsCustomBatchRequest;
+use Google\Service\ShoppingContent\ShippingsettingsCustomBatchResponse;
+use Google\Service\ShoppingContent\ShippingsettingsGetSupportedCarriersResponse;
+use Google\Service\ShoppingContent\ShippingsettingsGetSupportedHolidaysResponse;
+use Google\Service\ShoppingContent\ShippingsettingsGetSupportedPickupServicesResponse;
+use Google\Service\ShoppingContent\ShippingsettingsListResponse;
+
+/**
+ * The "shippingsettings" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $contentService = new Google\Service\ShoppingContent(...);
+ *   $shippingsettings = $contentService->shippingsettings;
+ *  </code>
+ */
+class Shippingsettings extends \Google\Service\Resource
+{
+  /**
+   * Retrieves and updates the shipping settings of multiple accounts in a single
+   * request. (shippingsettings.custombatch)
+   *
+   * @param ShippingsettingsCustomBatchRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return ShippingsettingsCustomBatchResponse
+   */
+  public function custombatch(ShippingsettingsCustomBatchRequest $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('custombatch', [$params], ShippingsettingsCustomBatchResponse::class);
+  }
+  /**
+   * Retrieves the shipping settings of the account. (shippingsettings.get)
+   *
+   * @param string $merchantId The ID of the managing account. If this parameter
+   * is not the same as accountId, then this account must be a multi-client
+   * account and `accountId` must be the ID of a sub-account of this account.
+   * @param string $accountId The ID of the account for which to get/update
+   * shipping settings.
+   * @param array $optParams Optional parameters.
+   * @return ShippingSettingsModel
+   */
+  public function get($merchantId, $accountId, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'accountId' => $accountId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], ShippingSettingsModel::class);
+  }
+  /**
+   * Retrieves supported carriers and carrier services for an account.
+   * (shippingsettings.getsupportedcarriers)
+   *
+   * @param string $merchantId The ID of the account for which to retrieve the
+   * supported carriers.
+   * @param array $optParams Optional parameters.
+   * @return ShippingsettingsGetSupportedCarriersResponse
+   */
+  public function getsupportedcarriers($merchantId, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId];
+    $params = array_merge($params, $optParams);
+    return $this->call('getsupportedcarriers', [$params], ShippingsettingsGetSupportedCarriersResponse::class);
+  }
+  /**
+   * Retrieves supported holidays for an account.
+   * (shippingsettings.getsupportedholidays)
+   *
+   * @param string $merchantId The ID of the account for which to retrieve the
+   * supported holidays.
+   * @param array $optParams Optional parameters.
+   * @return ShippingsettingsGetSupportedHolidaysResponse
+   */
+  public function getsupportedholidays($merchantId, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId];
+    $params = array_merge($params, $optParams);
+    return $this->call('getsupportedholidays', [$params], ShippingsettingsGetSupportedHolidaysResponse::class);
+  }
+  /**
+   * Retrieves supported pickup services for an account.
+   * (shippingsettings.getsupportedpickupservices)
+   *
+   * @param string $merchantId The ID of the account for which to retrieve the
+   * supported pickup services.
+   * @param array $optParams Optional parameters.
+   * @return ShippingsettingsGetSupportedPickupServicesResponse
+   */
+  public function getsupportedpickupservices($merchantId, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId];
+    $params = array_merge($params, $optParams);
+    return $this->call('getsupportedpickupservices', [$params], ShippingsettingsGetSupportedPickupServicesResponse::class);
+  }
+  /**
+   * Lists the shipping settings of the sub-accounts in your Merchant Center
+   * account. (shippingsettings.listShippingsettings)
+   *
+   * @param string $merchantId The ID of the managing account. This must be a
+   * multi-client account.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string maxResults The maximum number of shipping settings to
+   * return in the response, used for paging.
+   * @opt_param string pageToken The token returned by the previous request.
+   * @return ShippingsettingsListResponse
+   */
+  public function listShippingsettings($merchantId, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ShippingsettingsListResponse::class);
+  }
+  /**
+   * Updates the shipping settings of the account. Any fields that are not
+   * provided are deleted from the resource. (shippingsettings.update)
+   *
+   * @param string $merchantId The ID of the managing account. If this parameter
+   * is not the same as accountId, then this account must be a multi-client
+   * account and `accountId` must be the ID of a sub-account of this account.
+   * @param string $accountId The ID of the account for which to get/update
+   * shipping settings.
+   * @param ShippingSettingsModel $postBody
+   * @param array $optParams Optional parameters.
+   * @return ShippingSettingsModel
+   */
+  public function update($merchantId, $accountId, ShippingSettingsModel $postBody, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'accountId' => $accountId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], ShippingSettingsModel::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Shippingsettings::class, 'Google_Service_ShoppingContent_Resource_Shippingsettings');

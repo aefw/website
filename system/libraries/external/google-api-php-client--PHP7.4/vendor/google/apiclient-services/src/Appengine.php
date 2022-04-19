@@ -1,98 +1,849 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for Appengine (v1).
+ *
+ * <p>
+ * Provisions and manages developers' App Engine applications.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/appengine/docs/admin-api/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class Appengine extends \Google\Service
+{
+  /** View and manage your applications deployed on Google App Engine. */
+  const APPENGINE_ADMIN =
+      "https://www.googleapis.com/auth/appengine.admin";
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+  /** View your data across Google Cloud Platform services. */
+  const CLOUD_PLATFORM_READ_ONLY =
+      "https://www.googleapis.com/auth/cloud-platform.read-only";
+
+  public $apps;
+  public $apps_authorizedCertificates;
+  public $apps_authorizedDomains;
+  public $apps_domainMappings;
+  public $apps_firewall_ingressRules;
+  public $apps_locations;
+  public $apps_operations;
+  public $apps_services;
+  public $apps_services_versions;
+  public $apps_services_versions_instances;
+
+  /**
+   * Constructs the internal representation of the Appengine service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://appengine.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'appengine';
+
+    $this->apps = new Appengine\Resource\Apps(
+        $this,
+        $this->serviceName,
+        'apps',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/apps',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],'get' => [
+              'path' => 'v1/apps/{appsId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'appsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/apps/{appsId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'appsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'repair' => [
+              'path' => 'v1/apps/{appsId}:repair',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'appsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->apps_authorizedCertificates = new Appengine\Resource\AppsAuthorizedCertificates(
+        $this,
+        $this->serviceName,
+        'authorizedCertificates',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/apps/{appsId}/authorizedCertificates',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'appsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/apps/{appsId}/authorizedCertificates/{authorizedCertificatesId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'appsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'authorizedCertificatesId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/apps/{appsId}/authorizedCertificates/{authorizedCertificatesId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'appsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'authorizedCertificatesId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/apps/{appsId}/authorizedCertificates',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'appsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/apps/{appsId}/authorizedCertificates/{authorizedCertificatesId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'appsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'authorizedCertificatesId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->apps_authorizedDomains = new Appengine\Resource\AppsAuthorizedDomains(
+        $this,
+        $this->serviceName,
+        'authorizedDomains',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/apps/{appsId}/authorizedDomains',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'appsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->apps_domainMappings = new Appengine\Resource\AppsDomainMappings(
+        $this,
+        $this->serviceName,
+        'domainMappings',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/apps/{appsId}/domainMappings',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'appsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'overrideStrategy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/apps/{appsId}/domainMappings/{domainMappingsId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'appsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'domainMappingsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/apps/{appsId}/domainMappings/{domainMappingsId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'appsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'domainMappingsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/apps/{appsId}/domainMappings',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'appsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/apps/{appsId}/domainMappings/{domainMappingsId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'appsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'domainMappingsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->apps_firewall_ingressRules = new Appengine\Resource\AppsFirewallIngressRules(
+        $this,
+        $this->serviceName,
+        'ingressRules',
+        [
+          'methods' => [
+            'batchUpdate' => [
+              'path' => 'v1/apps/{appsId}/firewall/ingressRules:batchUpdate',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'appsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1/apps/{appsId}/firewall/ingressRules',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'appsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/apps/{appsId}/firewall/ingressRules/{ingressRulesId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'appsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'ingressRulesId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/apps/{appsId}/firewall/ingressRules/{ingressRulesId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'appsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'ingressRulesId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/apps/{appsId}/firewall/ingressRules',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'appsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'matchingAddress' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/apps/{appsId}/firewall/ingressRules/{ingressRulesId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'appsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'ingressRulesId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->apps_locations = new Appengine\Resource\AppsLocations(
+        $this,
+        $this->serviceName,
+        'locations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/apps/{appsId}/locations/{locationsId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'appsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'locationsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/apps/{appsId}/locations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'appsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->apps_operations = new Appengine\Resource\AppsOperations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/apps/{appsId}/operations/{operationsId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'appsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'operationsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/apps/{appsId}/operations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'appsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->apps_services = new Appengine\Resource\AppsServices(
+        $this,
+        $this->serviceName,
+        'services',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'v1/apps/{appsId}/services/{servicesId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'appsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'servicesId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/apps/{appsId}/services/{servicesId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'appsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'servicesId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/apps/{appsId}/services',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'appsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/apps/{appsId}/services/{servicesId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'appsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'servicesId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'migrateTraffic' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->apps_services_versions = new Appengine\Resource\AppsServicesVersions(
+        $this,
+        $this->serviceName,
+        'versions',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/apps/{appsId}/services/{servicesId}/versions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'appsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'servicesId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/apps/{appsId}/services/{servicesId}/versions/{versionsId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'appsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'servicesId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'versionsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/apps/{appsId}/services/{servicesId}/versions/{versionsId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'appsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'servicesId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'versionsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/apps/{appsId}/services/{servicesId}/versions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'appsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'servicesId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/apps/{appsId}/services/{servicesId}/versions/{versionsId}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'appsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'servicesId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'versionsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->apps_services_versions_instances = new Appengine\Resource\AppsServicesVersionsInstances(
+        $this,
+        $this->serviceName,
+        'instances',
+        [
+          'methods' => [
+            'debug' => [
+              'path' => 'v1/apps/{appsId}/services/{servicesId}/versions/{versionsId}/instances/{instancesId}:debug',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'appsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'servicesId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'versionsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instancesId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/apps/{appsId}/services/{servicesId}/versions/{versionsId}/instances/{instancesId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'appsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'servicesId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'versionsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instancesId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/apps/{appsId}/services/{servicesId}/versions/{versionsId}/instances/{instancesId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'appsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'servicesId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'versionsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'instancesId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/apps/{appsId}/services/{servicesId}/versions/{versionsId}/instances',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'appsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'servicesId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'versionsId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Appengine::class, 'Google_Service_Appengine');

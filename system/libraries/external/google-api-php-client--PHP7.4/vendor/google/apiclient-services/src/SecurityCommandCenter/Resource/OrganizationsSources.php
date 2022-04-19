@@ -1,80 +1,162 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-cj/eST2bkhK/cW==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\SecurityCommandCenter\Resource;
+
+use Google\Service\SecurityCommandCenter\GetIamPolicyRequest;
+use Google\Service\SecurityCommandCenter\ListSourcesResponse;
+use Google\Service\SecurityCommandCenter\Policy;
+use Google\Service\SecurityCommandCenter\SetIamPolicyRequest;
+use Google\Service\SecurityCommandCenter\Source;
+use Google\Service\SecurityCommandCenter\TestIamPermissionsRequest;
+use Google\Service\SecurityCommandCenter\TestIamPermissionsResponse;
+
+/**
+ * The "sources" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $securitycenterService = new Google\Service\SecurityCommandCenter(...);
+ *   $sources = $securitycenterService->sources;
+ *  </code>
+ */
+class OrganizationsSources extends \Google\Service\Resource
+{
+  /**
+   * Creates a source. (sources.create)
+   *
+   * @param string $parent Required. Resource name of the new source's parent. Its
+   * format should be "organizations/[organization_id]".
+   * @param Source $postBody
+   * @param array $optParams Optional parameters.
+   * @return Source
+   */
+  public function create($parent, Source $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Source::class);
+  }
+  /**
+   * Gets a source. (sources.get)
+   *
+   * @param string $name Required. Relative resource name of the source. Its
+   * format is "organizations/[organization_id]/source/[source_id]".
+   * @param array $optParams Optional parameters.
+   * @return Source
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Source::class);
+  }
+  /**
+   * Gets the access control policy on the specified Source.
+   * (sources.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param GetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function getIamPolicy($resource, GetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Lists all sources belonging to an organization.
+   * (sources.listOrganizationsSources)
+   *
+   * @param string $parent Required. Resource name of the parent of sources to
+   * list. Its format should be "organizations/[organization_id],
+   * folders/[folder_id], or projects/[project_id]".
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The maximum number of results to return in a single
+   * response. Default is 10, minimum is 1, maximum is 1000.
+   * @opt_param string pageToken The value returned by the last
+   * `ListSourcesResponse`; indicates that this is a continuation of a prior
+   * `ListSources` call, and that the system should return the next page of data.
+   * @return ListSourcesResponse
+   */
+  public function listOrganizationsSources($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListSourcesResponse::class);
+  }
+  /**
+   * Updates a source. (sources.patch)
+   *
+   * @param string $name The relative resource name of this source. See:
+   * https://cloud.google.com/apis/design/resource_names#relative_resource_name
+   * Example: "organizations/{organization_id}/sources/{source_id}"
+   * @param Source $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask The FieldMask to use when updating the source
+   * resource. If empty all mutable fields will be updated.
+   * @return Source
+   */
+  public function patch($name, Source $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Source::class);
+  }
+  /**
+   * Sets the access control policy on the specified Source.
+   * (sources.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Returns the permissions that a caller has on the specified source.
+   * (sources.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(OrganizationsSources::class, 'Google_Service_SecurityCommandCenter_Resource_OrganizationsSources');

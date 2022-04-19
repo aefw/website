@@ -1,62 +1,95 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-JEMXlIIvpjzqwP/WVWU1AhEAPEfmeeIt/i0=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Vault\Resource;
+
+use Google\Service\Vault\Export;
+use Google\Service\Vault\ListExportsResponse;
+use Google\Service\Vault\VaultEmpty;
+
+/**
+ * The "exports" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $vaultService = new Google\Service\Vault(...);
+ *   $exports = $vaultService->exports;
+ *  </code>
+ */
+class MattersExports extends \Google\Service\Resource
+{
+  /**
+   * Creates an Export. (exports.create)
+   *
+   * @param string $matterId The matter ID.
+   * @param Export $postBody
+   * @param array $optParams Optional parameters.
+   * @return Export
+   */
+  public function create($matterId, Export $postBody, $optParams = [])
+  {
+    $params = ['matterId' => $matterId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Export::class);
+  }
+  /**
+   * Deletes an Export. (exports.delete)
+   *
+   * @param string $matterId The matter ID.
+   * @param string $exportId The export ID.
+   * @param array $optParams Optional parameters.
+   * @return VaultEmpty
+   */
+  public function delete($matterId, $exportId, $optParams = [])
+  {
+    $params = ['matterId' => $matterId, 'exportId' => $exportId];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], VaultEmpty::class);
+  }
+  /**
+   * Gets an Export. (exports.get)
+   *
+   * @param string $matterId The matter ID.
+   * @param string $exportId The export ID.
+   * @param array $optParams Optional parameters.
+   * @return Export
+   */
+  public function get($matterId, $exportId, $optParams = [])
+  {
+    $params = ['matterId' => $matterId, 'exportId' => $exportId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Export::class);
+  }
+  /**
+   * Lists Exports. (exports.listMattersExports)
+   *
+   * @param string $matterId The matter ID.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The number of exports to return in the response.
+   * @opt_param string pageToken The pagination token as returned in the response.
+   * @return ListExportsResponse
+   */
+  public function listMattersExports($matterId, $optParams = [])
+  {
+    $params = ['matterId' => $matterId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListExportsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(MattersExports::class, 'Google_Service_Vault_Resource_MattersExports');

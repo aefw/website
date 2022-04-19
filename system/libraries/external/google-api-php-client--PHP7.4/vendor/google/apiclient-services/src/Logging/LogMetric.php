@@ -1,83 +1,139 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-AlYPC3aL+/Q+TABqMwBRZbanaxmSpsYb
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Logging;
+
+class LogMetric extends \Google\Model
+{
+  protected $bucketOptionsType = BucketOptions::class;
+  protected $bucketOptionsDataType = '';
+  public $createTime;
+  public $description;
+  public $disabled;
+  public $filter;
+  public $labelExtractors;
+  protected $metricDescriptorType = MetricDescriptor::class;
+  protected $metricDescriptorDataType = '';
+  public $name;
+  public $updateTime;
+  public $valueExtractor;
+  public $version;
+
+  /**
+   * @param BucketOptions
+   */
+  public function setBucketOptions(BucketOptions $bucketOptions)
+  {
+    $this->bucketOptions = $bucketOptions;
+  }
+  /**
+   * @return BucketOptions
+   */
+  public function getBucketOptions()
+  {
+    return $this->bucketOptions;
+  }
+  public function setCreateTime($createTime)
+  {
+    $this->createTime = $createTime;
+  }
+  public function getCreateTime()
+  {
+    return $this->createTime;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setDisabled($disabled)
+  {
+    $this->disabled = $disabled;
+  }
+  public function getDisabled()
+  {
+    return $this->disabled;
+  }
+  public function setFilter($filter)
+  {
+    $this->filter = $filter;
+  }
+  public function getFilter()
+  {
+    return $this->filter;
+  }
+  public function setLabelExtractors($labelExtractors)
+  {
+    $this->labelExtractors = $labelExtractors;
+  }
+  public function getLabelExtractors()
+  {
+    return $this->labelExtractors;
+  }
+  /**
+   * @param MetricDescriptor
+   */
+  public function setMetricDescriptor(MetricDescriptor $metricDescriptor)
+  {
+    $this->metricDescriptor = $metricDescriptor;
+  }
+  /**
+   * @return MetricDescriptor
+   */
+  public function getMetricDescriptor()
+  {
+    return $this->metricDescriptor;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setUpdateTime($updateTime)
+  {
+    $this->updateTime = $updateTime;
+  }
+  public function getUpdateTime()
+  {
+    return $this->updateTime;
+  }
+  public function setValueExtractor($valueExtractor)
+  {
+    $this->valueExtractor = $valueExtractor;
+  }
+  public function getValueExtractor()
+  {
+    return $this->valueExtractor;
+  }
+  public function setVersion($version)
+  {
+    $this->version = $version;
+  }
+  public function getVersion()
+  {
+    return $this->version;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(LogMetric::class, 'Google_Service_Logging_LogMetric');

@@ -1,159 +1,537 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+namespace PhpOffice\PhpSpreadsheet\Worksheet;
+
+use PhpOffice\PhpSpreadsheet\Cell\Hyperlink;
+use PhpOffice\PhpSpreadsheet\Exception as PhpSpreadsheetException;
+use PhpOffice\PhpSpreadsheet\IComparable;
+
+class BaseDrawing implements IComparable
+{
+    /**
+     * Image counter.
+     *
+     * @var int
+     */
+    private static $imageCounter = 0;
+
+    /**
+     * Image index.
+     *
+     * @var int
+     */
+    private $imageIndex = 0;
+
+    /**
+     * Name.
+     *
+     * @var string
+     */
+    protected $name;
+
+    /**
+     * Description.
+     *
+     * @var string
+     */
+    protected $description;
+
+    /**
+     * Worksheet.
+     *
+     * @var Worksheet
+     */
+    protected $worksheet;
+
+    /**
+     * Coordinates.
+     *
+     * @var string
+     */
+    protected $coordinates;
+
+    /**
+     * Offset X.
+     *
+     * @var int
+     */
+    protected $offsetX;
+
+    /**
+     * Offset Y.
+     *
+     * @var int
+     */
+    protected $offsetY;
+
+    /**
+     * Width.
+     *
+     * @var int
+     */
+    protected $width;
+
+    /**
+     * Height.
+     *
+     * @var int
+     */
+    protected $height;
+
+    /**
+     * Proportional resize.
+     *
+     * @var bool
+     */
+    protected $resizeProportional;
+
+    /**
+     * Rotation.
+     *
+     * @var int
+     */
+    protected $rotation;
+
+    /**
+     * Shadow.
+     *
+     * @var Drawing\Shadow
+     */
+    protected $shadow;
+
+    /**
+     * Image hyperlink.
+     *
+     * @var null|Hyperlink
+     */
+    private $hyperlink;
+
+    /**
+     * Create a new BaseDrawing.
+     */
+    public function __construct()
+    {
+        // Initialise values
+        $this->name = '';
+        $this->description = '';
+        $this->worksheet = null;
+        $this->coordinates = 'A1';
+        $this->offsetX = 0;
+        $this->offsetY = 0;
+        $this->width = 0;
+        $this->height = 0;
+        $this->resizeProportional = true;
+        $this->rotation = 0;
+        $this->shadow = new Drawing\Shadow();
+
+        // Set image index
+        ++self::$imageCounter;
+        $this->imageIndex = self::$imageCounter;
+    }
+
+    /**
+     * Get image index.
+     *
+     * @return int
+     */
+    public function getImageIndex()
+    {
+        return $this->imageIndex;
+    }
+
+    /**
+     * Get Name.
+     *
+     * @return string
+     */
+    public function getName()
+    {
+        return $this->name;
+    }
+
+    /**
+     * Set Name.
+     *
+     * @param string $pValue
+     *
+     * @return BaseDrawing
+     */
+    public function setName($pValue)
+    {
+        $this->name = $pValue;
+
+        return $this;
+    }
+
+    /**
+     * Get Description.
+     *
+     * @return string
+     */
+    public function getDescription()
+    {
+        return $this->description;
+    }
+
+    /**
+     * Set Description.
+     *
+     * @param string $description
+     *
+     * @return BaseDrawing
+     */
+    public function setDescription($description)
+    {
+        $this->description = $description;
+
+        return $this;
+    }
+
+    /**
+     * Get Worksheet.
+     *
+     * @return Worksheet
+     */
+    public function getWorksheet()
+    {
+        return $this->worksheet;
+    }
+
+    /**
+     * Set Worksheet.
+     *
+     * @param Worksheet $pValue
+     * @param bool $pOverrideOld If a Worksheet has already been assigned, overwrite it and remove image from old Worksheet?
+     *
+     * @throws PhpSpreadsheetException
+     *
+     * @return BaseDrawing
+     */
+    public function setWorksheet(Worksheet $pValue = null, $pOverrideOld = false)
+    {
+        if ($this->worksheet === null) {
+            // Add drawing to \PhpOffice\PhpSpreadsheet\Worksheet\Worksheet
+            $this->worksheet = $pValue;
+            $this->worksheet->getCell($this->coordinates);
+            $this->worksheet->getDrawingCollection()->append($this);
+        } else {
+            if ($pOverrideOld) {
+                // Remove drawing from old \PhpOffice\PhpSpreadsheet\Worksheet\Worksheet
+                $iterator = $this->worksheet->getDrawingCollection()->getIterator();
+
+                while ($iterator->valid()) {
+                    if ($iterator->current()->getHashCode() == $this->getHashCode()) {
+                        $this->worksheet->getDrawingCollection()->offsetUnset($iterator->key());
+                        $this->worksheet = null;
+
+                        break;
+                    }
+                }
+
+                // Set new \PhpOffice\PhpSpreadsheet\Worksheet\Worksheet
+                $this->setWorksheet($pValue);
+            } else {
+                throw new PhpSpreadsheetException('A Worksheet has already been assigned. Drawings can only exist on one \\PhpOffice\\PhpSpreadsheet\\Worksheet.');
+            }
+        }
+
+        return $this;
+    }
+
+    /**
+     * Get Coordinates.
+     *
+     * @return string
+     */
+    public function getCoordinates()
+    {
+        return $this->coordinates;
+    }
+
+    /**
+     * Set Coordinates.
+     *
+     * @param string $pValue eg: 'A1'
+     *
+     * @return BaseDrawing
+     */
+    public function setCoordinates($pValue)
+    {
+        $this->coordinates = $pValue;
+
+        return $this;
+    }
+
+    /**
+     * Get OffsetX.
+     *
+     * @return int
+     */
+    public function getOffsetX()
+    {
+        return $this->offsetX;
+    }
+
+    /**
+     * Set OffsetX.
+     *
+     * @param int $pValue
+     *
+     * @return BaseDrawing
+     */
+    public function setOffsetX($pValue)
+    {
+        $this->offsetX = $pValue;
+
+        return $this;
+    }
+
+    /**
+     * Get OffsetY.
+     *
+     * @return int
+     */
+    public function getOffsetY()
+    {
+        return $this->offsetY;
+    }
+
+    /**
+     * Set OffsetY.
+     *
+     * @param int $pValue
+     *
+     * @return BaseDrawing
+     */
+    public function setOffsetY($pValue)
+    {
+        $this->offsetY = $pValue;
+
+        return $this;
+    }
+
+    /**
+     * Get Width.
+     *
+     * @return int
+     */
+    public function getWidth()
+    {
+        return $this->width;
+    }
+
+    /**
+     * Set Width.
+     *
+     * @param int $pValue
+     *
+     * @return BaseDrawing
+     */
+    public function setWidth($pValue)
+    {
+        // Resize proportional?
+        if ($this->resizeProportional && $pValue != 0) {
+            $ratio = $this->height / ($this->width != 0 ? $this->width : 1);
+            $this->height = round($ratio * $pValue);
+        }
+
+        // Set width
+        $this->width = $pValue;
+
+        return $this;
+    }
+
+    /**
+     * Get Height.
+     *
+     * @return int
+     */
+    public function getHeight()
+    {
+        return $this->height;
+    }
+
+    /**
+     * Set Height.
+     *
+     * @param int $pValue
+     *
+     * @return BaseDrawing
+     */
+    public function setHeight($pValue)
+    {
+        // Resize proportional?
+        if ($this->resizeProportional && $pValue != 0) {
+            $ratio = $this->width / ($this->height != 0 ? $this->height : 1);
+            $this->width = round($ratio * $pValue);
+        }
+
+        // Set height
+        $this->height = $pValue;
+
+        return $this;
+    }
+
+    /**
+     * Set width and height with proportional resize.
+     *
+     * Example:
+     * <code>
+     * $objDrawing->setResizeProportional(true);
+     * $objDrawing->setWidthAndHeight(160,120);
+     * </code>
+     *
+     * @author Vincent@luo MSN:kele_100@hotmail.com
+     *
+     * @param int $width
+     * @param int $height
+     *
+     * @return BaseDrawing
+     */
+    public function setWidthAndHeight($width, $height)
+    {
+        $xratio = $width / ($this->width != 0 ? $this->width : 1);
+        $yratio = $height / ($this->height != 0 ? $this->height : 1);
+        if ($this->resizeProportional && !($width == 0 || $height == 0)) {
+            if (($xratio * $this->height) < $height) {
+                $this->height = ceil($xratio * $this->height);
+                $this->width = $width;
+            } else {
+                $this->width = ceil($yratio * $this->width);
+                $this->height = $height;
+            }
+        } else {
+            $this->width = $width;
+            $this->height = $height;
+        }
+
+        return $this;
+    }
+
+    /**
+     * Get ResizeProportional.
+     *
+     * @return bool
+     */
+    public function getResizeProportional()
+    {
+        return $this->resizeProportional;
+    }
+
+    /**
+     * Set ResizeProportional.
+     *
+     * @param bool $pValue
+     *
+     * @return BaseDrawing
+     */
+    public function setResizeProportional($pValue)
+    {
+        $this->resizeProportional = $pValue;
+
+        return $this;
+    }
+
+    /**
+     * Get Rotation.
+     *
+     * @return int
+     */
+    public function getRotation()
+    {
+        return $this->rotation;
+    }
+
+    /**
+     * Set Rotation.
+     *
+     * @param int $pValue
+     *
+     * @return BaseDrawing
+     */
+    public function setRotation($pValue)
+    {
+        $this->rotation = $pValue;
+
+        return $this;
+    }
+
+    /**
+     * Get Shadow.
+     *
+     * @return Drawing\Shadow
+     */
+    public function getShadow()
+    {
+        return $this->shadow;
+    }
+
+    /**
+     * Set Shadow.
+     *
+     * @param Drawing\Shadow $pValue
+     *
+     * @return BaseDrawing
+     */
+    public function setShadow(Drawing\Shadow $pValue = null)
+    {
+        $this->shadow = $pValue;
+
+        return $this;
+    }
+
+    /**
+     * Get hash code.
+     *
+     * @return string Hash code
+     */
+    public function getHashCode()
+    {
+        return md5(
+            $this->name .
+            $this->description .
+            $this->worksheet->getHashCode() .
+            $this->coordinates .
+            $this->offsetX .
+            $this->offsetY .
+            $this->width .
+            $this->height .
+            $this->rotation .
+            $this->shadow->getHashCode() .
+            __CLASS__
+        );
+    }
+
+    /**
+     * Implement PHP __clone to create a deep clone, not just a shallow copy.
+     */
+    public function __clone()
+    {
+        $vars = get_object_vars($this);
+        foreach ($vars as $key => $value) {
+            if ($key == 'worksheet') {
+                $this->worksheet = null;
+            } elseif (is_object($value)) {
+                $this->$key = clone $value;
+            } else {
+                $this->$key = $value;
+            }
+        }
+    }
+
+    /**
+     * @param null|Hyperlink $pHyperlink
+     */
+    public function setHyperlink(Hyperlink $pHyperlink = null)
+    {
+        $this->hyperlink = $pHyperlink;
+    }
+
+    /**
+     * @return null|Hyperlink
+     */
+    public function getHyperlink()
+    {
+        return $this->hyperlink;
+    }
+}

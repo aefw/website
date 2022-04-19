@@ -1,105 +1,201 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-25/tTG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Books;
+
+class Annotation extends \Google\Collection
+{
+  protected $collection_key = 'pageIds';
+  public $afterSelectedText;
+  public $beforeSelectedText;
+  protected $clientVersionRangesType = AnnotationClientVersionRanges::class;
+  protected $clientVersionRangesDataType = '';
+  public $created;
+  protected $currentVersionRangesType = AnnotationCurrentVersionRanges::class;
+  protected $currentVersionRangesDataType = '';
+  public $data;
+  public $deleted;
+  public $highlightStyle;
+  public $id;
+  public $kind;
+  public $layerId;
+  protected $layerSummaryType = AnnotationLayerSummary::class;
+  protected $layerSummaryDataType = '';
+  public $pageIds;
+  public $selectedText;
+  public $selfLink;
+  public $updated;
+  public $volumeId;
+
+  public function setAfterSelectedText($afterSelectedText)
+  {
+    $this->afterSelectedText = $afterSelectedText;
+  }
+  public function getAfterSelectedText()
+  {
+    return $this->afterSelectedText;
+  }
+  public function setBeforeSelectedText($beforeSelectedText)
+  {
+    $this->beforeSelectedText = $beforeSelectedText;
+  }
+  public function getBeforeSelectedText()
+  {
+    return $this->beforeSelectedText;
+  }
+  /**
+   * @param AnnotationClientVersionRanges
+   */
+  public function setClientVersionRanges(AnnotationClientVersionRanges $clientVersionRanges)
+  {
+    $this->clientVersionRanges = $clientVersionRanges;
+  }
+  /**
+   * @return AnnotationClientVersionRanges
+   */
+  public function getClientVersionRanges()
+  {
+    return $this->clientVersionRanges;
+  }
+  public function setCreated($created)
+  {
+    $this->created = $created;
+  }
+  public function getCreated()
+  {
+    return $this->created;
+  }
+  /**
+   * @param AnnotationCurrentVersionRanges
+   */
+  public function setCurrentVersionRanges(AnnotationCurrentVersionRanges $currentVersionRanges)
+  {
+    $this->currentVersionRanges = $currentVersionRanges;
+  }
+  /**
+   * @return AnnotationCurrentVersionRanges
+   */
+  public function getCurrentVersionRanges()
+  {
+    return $this->currentVersionRanges;
+  }
+  public function setData($data)
+  {
+    $this->data = $data;
+  }
+  public function getData()
+  {
+    return $this->data;
+  }
+  public function setDeleted($deleted)
+  {
+    $this->deleted = $deleted;
+  }
+  public function getDeleted()
+  {
+    return $this->deleted;
+  }
+  public function setHighlightStyle($highlightStyle)
+  {
+    $this->highlightStyle = $highlightStyle;
+  }
+  public function getHighlightStyle()
+  {
+    return $this->highlightStyle;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setLayerId($layerId)
+  {
+    $this->layerId = $layerId;
+  }
+  public function getLayerId()
+  {
+    return $this->layerId;
+  }
+  /**
+   * @param AnnotationLayerSummary
+   */
+  public function setLayerSummary(AnnotationLayerSummary $layerSummary)
+  {
+    $this->layerSummary = $layerSummary;
+  }
+  /**
+   * @return AnnotationLayerSummary
+   */
+  public function getLayerSummary()
+  {
+    return $this->layerSummary;
+  }
+  public function setPageIds($pageIds)
+  {
+    $this->pageIds = $pageIds;
+  }
+  public function getPageIds()
+  {
+    return $this->pageIds;
+  }
+  public function setSelectedText($selectedText)
+  {
+    $this->selectedText = $selectedText;
+  }
+  public function getSelectedText()
+  {
+    return $this->selectedText;
+  }
+  public function setSelfLink($selfLink)
+  {
+    $this->selfLink = $selfLink;
+  }
+  public function getSelfLink()
+  {
+    return $this->selfLink;
+  }
+  public function setUpdated($updated)
+  {
+    $this->updated = $updated;
+  }
+  public function getUpdated()
+  {
+    return $this->updated;
+  }
+  public function setVolumeId($volumeId)
+  {
+    $this->volumeId = $volumeId;
+  }
+  public function getVolumeId()
+  {
+    return $this->volumeId;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Annotation::class, 'Google_Service_Books_Annotation');

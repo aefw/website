@@ -1,92 +1,125 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php declare(strict_types=1);
+
+/*
+ * This file is part of the Monolog package.
+ *
+ * (c) Jordi Boggiano <j.boggiano@seld.be>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Monolog\Handler;
+
+use Monolog\Formatter\FormatterInterface;
+
+/**
+ * Sampling handler
+ *
+ * A sampled event stream can be useful for logging high frequency events in
+ * a production environment where you only need an idea of what is happening
+ * and are not concerned with capturing every occurrence. Since the decision to
+ * handle or not handle a particular event is determined randomly, the
+ * resulting sampled log is not guaranteed to contain 1/N of the events that
+ * occurred in the application, but based on the Law of large numbers, it will
+ * tend to be close to this ratio with a large number of attempts.
+ *
+ * @author Bryan Davis <bd808@wikimedia.org>
+ * @author Kunal Mehta <legoktm@gmail.com>
+ */
+class SamplingHandler extends AbstractHandler implements ProcessableHandlerInterface, FormattableHandlerInterface
+{
+    use ProcessableHandlerTrait;
+
+    /**
+     * @var callable|HandlerInterface $handler
+     */
+    protected $handler;
+
+    /**
+     * @var int $factor
+     */
+    protected $factor;
+
+    /**
+     * @psalm-param HandlerInterface|callable(array, HandlerInterface): HandlerInterface $handler
+     *
+     * @param callable|HandlerInterface $handler Handler or factory callable($record|null, $samplingHandler).
+     * @param int                       $factor  Sample factor (e.g. 10 means every ~10th record is sampled)
+     */
+    public function __construct($handler, int $factor)
+    {
+        parent::__construct();
+        $this->handler = $handler;
+        $this->factor = $factor;
+
+        if (!$this->handler instanceof HandlerInterface && !is_callable($this->handler)) {
+            throw new \RuntimeException("The given handler (".json_encode($this->handler).") is not a callable nor a Monolog\Handler\HandlerInterface object");
+        }
+    }
+
+    public function isHandling(array $record): bool
+    {
+        return $this->getHandler($record)->isHandling($record);
+    }
+
+    public function handle(array $record): bool
+    {
+        if ($this->isHandling($record) && mt_rand(1, $this->factor) === 1) {
+            if ($this->processors) {
+                $record = $this->processRecord($record);
+            }
+
+            $this->getHandler($record)->handle($record);
+        }
+
+        return false === $this->bubble;
+    }
+
+    /**
+     * Return the nested handler
+     *
+     * If the handler was provided as a factory callable, this will trigger the handler's instantiation.
+     *
+     * @return HandlerInterface
+     */
+    public function getHandler(array $record = null)
+    {
+        if (!$this->handler instanceof HandlerInterface) {
+            $this->handler = ($this->handler)($record, $this);
+            if (!$this->handler instanceof HandlerInterface) {
+                throw new \RuntimeException("The factory callable should return a HandlerInterface");
+            }
+        }
+
+        return $this->handler;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function setFormatter(FormatterInterface $formatter): HandlerInterface
+    {
+        $handler = $this->getHandler();
+        if ($handler instanceof FormattableHandlerInterface) {
+            $handler->setFormatter($formatter);
+
+            return $this;
+        }
+
+        throw new \UnexpectedValueException('The nested handler of type '.get_class($handler).' does not support formatters.');
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getFormatter(): FormatterInterface
+    {
+        $handler = $this->getHandler();
+        if ($handler instanceof FormattableHandlerInterface) {
+            return $handler->getFormatter();
+        }
+
+        throw new \UnexpectedValueException('The nested handler of type '.get_class($handler).' does not support formatters.');
+    }
+}

@@ -1,152 +1,448 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ShoppingContent\Resource;
+
+use Google\Service\ShoppingContent\Order;
+use Google\Service\ShoppingContent\OrdersAcknowledgeRequest;
+use Google\Service\ShoppingContent\OrdersAcknowledgeResponse;
+use Google\Service\ShoppingContent\OrdersAdvanceTestOrderResponse;
+use Google\Service\ShoppingContent\OrdersCancelLineItemRequest;
+use Google\Service\ShoppingContent\OrdersCancelLineItemResponse;
+use Google\Service\ShoppingContent\OrdersCancelRequest;
+use Google\Service\ShoppingContent\OrdersCancelResponse;
+use Google\Service\ShoppingContent\OrdersCancelTestOrderByCustomerRequest;
+use Google\Service\ShoppingContent\OrdersCancelTestOrderByCustomerResponse;
+use Google\Service\ShoppingContent\OrdersCreateTestOrderRequest;
+use Google\Service\ShoppingContent\OrdersCreateTestOrderResponse;
+use Google\Service\ShoppingContent\OrdersCreateTestReturnRequest;
+use Google\Service\ShoppingContent\OrdersCreateTestReturnResponse;
+use Google\Service\ShoppingContent\OrdersGetByMerchantOrderIdResponse;
+use Google\Service\ShoppingContent\OrdersGetTestOrderTemplateResponse;
+use Google\Service\ShoppingContent\OrdersInStoreRefundLineItemRequest;
+use Google\Service\ShoppingContent\OrdersInStoreRefundLineItemResponse;
+use Google\Service\ShoppingContent\OrdersListResponse;
+use Google\Service\ShoppingContent\OrdersRefundItemRequest;
+use Google\Service\ShoppingContent\OrdersRefundItemResponse;
+use Google\Service\ShoppingContent\OrdersRefundOrderRequest;
+use Google\Service\ShoppingContent\OrdersRefundOrderResponse;
+use Google\Service\ShoppingContent\OrdersRejectReturnLineItemRequest;
+use Google\Service\ShoppingContent\OrdersRejectReturnLineItemResponse;
+use Google\Service\ShoppingContent\OrdersReturnRefundLineItemRequest;
+use Google\Service\ShoppingContent\OrdersReturnRefundLineItemResponse;
+use Google\Service\ShoppingContent\OrdersSetLineItemMetadataRequest;
+use Google\Service\ShoppingContent\OrdersSetLineItemMetadataResponse;
+use Google\Service\ShoppingContent\OrdersShipLineItemsRequest;
+use Google\Service\ShoppingContent\OrdersShipLineItemsResponse;
+use Google\Service\ShoppingContent\OrdersUpdateLineItemShippingDetailsRequest;
+use Google\Service\ShoppingContent\OrdersUpdateLineItemShippingDetailsResponse;
+use Google\Service\ShoppingContent\OrdersUpdateMerchantOrderIdRequest;
+use Google\Service\ShoppingContent\OrdersUpdateMerchantOrderIdResponse;
+use Google\Service\ShoppingContent\OrdersUpdateShipmentRequest;
+use Google\Service\ShoppingContent\OrdersUpdateShipmentResponse;
+
+/**
+ * The "orders" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $contentService = new Google\Service\ShoppingContent(...);
+ *   $orders = $contentService->orders;
+ *  </code>
+ */
+class Orders extends \Google\Service\Resource
+{
+  /**
+   * Marks an order as acknowledged. (orders.acknowledge)
+   *
+   * @param string $merchantId The ID of the account that manages the order. This
+   * cannot be a multi-client account.
+   * @param string $orderId The ID of the order.
+   * @param OrdersAcknowledgeRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return OrdersAcknowledgeResponse
+   */
+  public function acknowledge($merchantId, $orderId, OrdersAcknowledgeRequest $postBody, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'orderId' => $orderId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('acknowledge', [$params], OrdersAcknowledgeResponse::class);
+  }
+  /**
+   * Sandbox only. Moves a test order from state "`inProgress`" to state
+   * "`pendingShipment`". (orders.advancetestorder)
+   *
+   * @param string $merchantId The ID of the account that manages the order. This
+   * cannot be a multi-client account.
+   * @param string $orderId The ID of the test order to modify.
+   * @param array $optParams Optional parameters.
+   * @return OrdersAdvanceTestOrderResponse
+   */
+  public function advancetestorder($merchantId, $orderId, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'orderId' => $orderId];
+    $params = array_merge($params, $optParams);
+    return $this->call('advancetestorder', [$params], OrdersAdvanceTestOrderResponse::class);
+  }
+  /**
+   * Cancels all line items in an order, making a full refund. (orders.cancel)
+   *
+   * @param string $merchantId The ID of the account that manages the order. This
+   * cannot be a multi-client account.
+   * @param string $orderId The ID of the order to cancel.
+   * @param OrdersCancelRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return OrdersCancelResponse
+   */
+  public function cancel($merchantId, $orderId, OrdersCancelRequest $postBody, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'orderId' => $orderId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('cancel', [$params], OrdersCancelResponse::class);
+  }
+  /**
+   * Cancels a line item, making a full refund. (orders.cancellineitem)
+   *
+   * @param string $merchantId The ID of the account that manages the order. This
+   * cannot be a multi-client account.
+   * @param string $orderId The ID of the order.
+   * @param OrdersCancelLineItemRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return OrdersCancelLineItemResponse
+   */
+  public function cancellineitem($merchantId, $orderId, OrdersCancelLineItemRequest $postBody, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'orderId' => $orderId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('cancellineitem', [$params], OrdersCancelLineItemResponse::class);
+  }
+  /**
+   * Sandbox only. Cancels a test order for customer-initiated cancellation.
+   * (orders.canceltestorderbycustomer)
+   *
+   * @param string $merchantId The ID of the account that manages the order. This
+   * cannot be a multi-client account.
+   * @param string $orderId The ID of the test order to cancel.
+   * @param OrdersCancelTestOrderByCustomerRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return OrdersCancelTestOrderByCustomerResponse
+   */
+  public function canceltestorderbycustomer($merchantId, $orderId, OrdersCancelTestOrderByCustomerRequest $postBody, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'orderId' => $orderId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('canceltestorderbycustomer', [$params], OrdersCancelTestOrderByCustomerResponse::class);
+  }
+  /**
+   * Sandbox only. Creates a test order. (orders.createtestorder)
+   *
+   * @param string $merchantId The ID of the account that should manage the order.
+   * This cannot be a multi-client account.
+   * @param OrdersCreateTestOrderRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return OrdersCreateTestOrderResponse
+   */
+  public function createtestorder($merchantId, OrdersCreateTestOrderRequest $postBody, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('createtestorder', [$params], OrdersCreateTestOrderResponse::class);
+  }
+  /**
+   * Sandbox only. Creates a test return. (orders.createtestreturn)
+   *
+   * @param string $merchantId The ID of the account that manages the order. This
+   * cannot be a multi-client account.
+   * @param string $orderId The ID of the order.
+   * @param OrdersCreateTestReturnRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return OrdersCreateTestReturnResponse
+   */
+  public function createtestreturn($merchantId, $orderId, OrdersCreateTestReturnRequest $postBody, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'orderId' => $orderId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('createtestreturn', [$params], OrdersCreateTestReturnResponse::class);
+  }
+  /**
+   * Retrieves an order from your Merchant Center account. (orders.get)
+   *
+   * @param string $merchantId The ID of the account that manages the order. This
+   * cannot be a multi-client account.
+   * @param string $orderId The ID of the order.
+   * @param array $optParams Optional parameters.
+   * @return Order
+   */
+  public function get($merchantId, $orderId, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'orderId' => $orderId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Order::class);
+  }
+  /**
+   * Retrieves an order using merchant order ID. (orders.getbymerchantorderid)
+   *
+   * @param string $merchantId The ID of the account that manages the order. This
+   * cannot be a multi-client account.
+   * @param string $merchantOrderId The merchant order ID to be looked for.
+   * @param array $optParams Optional parameters.
+   * @return OrdersGetByMerchantOrderIdResponse
+   */
+  public function getbymerchantorderid($merchantId, $merchantOrderId, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'merchantOrderId' => $merchantOrderId];
+    $params = array_merge($params, $optParams);
+    return $this->call('getbymerchantorderid', [$params], OrdersGetByMerchantOrderIdResponse::class);
+  }
+  /**
+   * Sandbox only. Retrieves an order template that can be used to quickly create
+   * a new order in sandbox. (orders.gettestordertemplate)
+   *
+   * @param string $merchantId The ID of the account that should manage the order.
+   * This cannot be a multi-client account.
+   * @param string $templateName The name of the template to retrieve.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string country The country of the template to retrieve. Defaults
+   * to `US`.
+   * @return OrdersGetTestOrderTemplateResponse
+   */
+  public function gettestordertemplate($merchantId, $templateName, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'templateName' => $templateName];
+    $params = array_merge($params, $optParams);
+    return $this->call('gettestordertemplate', [$params], OrdersGetTestOrderTemplateResponse::class);
+  }
+  /**
+   * Deprecated. Notifies that item return and refund was handled directly by
+   * merchant outside of Google payments processing (e.g. cash refund done in
+   * store). Note: We recommend calling the returnrefundlineitem method to refund
+   * in-store returns. We will issue the refund directly to the customer. This
+   * helps to prevent possible differences arising between merchant and Google
+   * transaction records. We also recommend having the point of sale system
+   * communicate with Google to ensure that customers do not receive a double
+   * refund by first refunding via Google then via an in-store return.
+   * (orders.instorerefundlineitem)
+   *
+   * @param string $merchantId The ID of the account that manages the order. This
+   * cannot be a multi-client account.
+   * @param string $orderId The ID of the order.
+   * @param OrdersInStoreRefundLineItemRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return OrdersInStoreRefundLineItemResponse
+   */
+  public function instorerefundlineitem($merchantId, $orderId, OrdersInStoreRefundLineItemRequest $postBody, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'orderId' => $orderId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('instorerefundlineitem', [$params], OrdersInStoreRefundLineItemResponse::class);
+  }
+  /**
+   * Lists the orders in your Merchant Center account. (orders.listOrders)
+   *
+   * @param string $merchantId The ID of the account that manages the order. This
+   * cannot be a multi-client account.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool acknowledged Obtains orders that match the acknowledgement
+   * status. When set to true, obtains orders that have been acknowledged. When
+   * false, obtains orders that have not been acknowledged. We recommend using
+   * this filter set to `false`, in conjunction with the `acknowledge` call, such
+   * that only un-acknowledged orders are returned.
+   * @opt_param string maxResults The maximum number of orders to return in the
+   * response, used for paging. The default value is 25 orders per page, and the
+   * maximum allowed value is 250 orders per page.
+   * @opt_param string orderBy Order results by placement date in descending or
+   * ascending order. Acceptable values are: - placedDateAsc - placedDateDesc
+   * @opt_param string pageToken The token returned by the previous request.
+   * @opt_param string placedDateEnd Obtains orders placed before this date
+   * (exclusively), in ISO 8601 format.
+   * @opt_param string placedDateStart Obtains orders placed after this date
+   * (inclusively), in ISO 8601 format.
+   * @opt_param string statuses Obtains orders that match any of the specified
+   * statuses. Please note that `active` is a shortcut for `pendingShipment` and
+   * `partiallyShipped`, and `completed` is a shortcut for `shipped`,
+   * `partiallyDelivered`, `delivered`, `partiallyReturned`, `returned`, and
+   * `canceled`.
+   * @return OrdersListResponse
+   */
+  public function listOrders($merchantId, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], OrdersListResponse::class);
+  }
+  /**
+   * Issues a partial or total refund for items and shipment. (orders.refunditem)
+   *
+   * @param string $merchantId The ID of the account that manages the order. This
+   * cannot be a multi-client account.
+   * @param string $orderId The ID of the order to refund.
+   * @param OrdersRefundItemRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return OrdersRefundItemResponse
+   */
+  public function refunditem($merchantId, $orderId, OrdersRefundItemRequest $postBody, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'orderId' => $orderId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('refunditem', [$params], OrdersRefundItemResponse::class);
+  }
+  /**
+   * Issues a partial or total refund for an order. (orders.refundorder)
+   *
+   * @param string $merchantId The ID of the account that manages the order. This
+   * cannot be a multi-client account.
+   * @param string $orderId The ID of the order to refund.
+   * @param OrdersRefundOrderRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return OrdersRefundOrderResponse
+   */
+  public function refundorder($merchantId, $orderId, OrdersRefundOrderRequest $postBody, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'orderId' => $orderId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('refundorder', [$params], OrdersRefundOrderResponse::class);
+  }
+  /**
+   * Rejects return on an line item. (orders.rejectreturnlineitem)
+   *
+   * @param string $merchantId The ID of the account that manages the order. This
+   * cannot be a multi-client account.
+   * @param string $orderId The ID of the order.
+   * @param OrdersRejectReturnLineItemRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return OrdersRejectReturnLineItemResponse
+   */
+  public function rejectreturnlineitem($merchantId, $orderId, OrdersRejectReturnLineItemRequest $postBody, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'orderId' => $orderId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('rejectreturnlineitem', [$params], OrdersRejectReturnLineItemResponse::class);
+  }
+  /**
+   * Returns and refunds a line item. Note that this method can only be called on
+   * fully shipped orders. Please also note that the Orderreturns API is the
+   * preferred way to handle returns after you receive a return from a customer.
+   * You can use Orderreturns.list or Orderreturns.get to search for the return,
+   * and then use Orderreturns.processreturn to issue the refund. If the return
+   * cannot be found, then we recommend using this API to issue a refund.
+   * (orders.returnrefundlineitem)
+   *
+   * @param string $merchantId The ID of the account that manages the order. This
+   * cannot be a multi-client account.
+   * @param string $orderId The ID of the order.
+   * @param OrdersReturnRefundLineItemRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return OrdersReturnRefundLineItemResponse
+   */
+  public function returnrefundlineitem($merchantId, $orderId, OrdersReturnRefundLineItemRequest $postBody, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'orderId' => $orderId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('returnrefundlineitem', [$params], OrdersReturnRefundLineItemResponse::class);
+  }
+  /**
+   * Sets (or overrides if it already exists) merchant provided annotations in the
+   * form of key-value pairs. A common use case would be to supply us with
+   * additional structured information about a line item that cannot be provided
+   * via other methods. Submitted key-value pairs can be retrieved as part of the
+   * orders resource. (orders.setlineitemmetadata)
+   *
+   * @param string $merchantId The ID of the account that manages the order. This
+   * cannot be a multi-client account.
+   * @param string $orderId The ID of the order.
+   * @param OrdersSetLineItemMetadataRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return OrdersSetLineItemMetadataResponse
+   */
+  public function setlineitemmetadata($merchantId, $orderId, OrdersSetLineItemMetadataRequest $postBody, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'orderId' => $orderId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setlineitemmetadata', [$params], OrdersSetLineItemMetadataResponse::class);
+  }
+  /**
+   * Marks line item(s) as shipped. (orders.shiplineitems)
+   *
+   * @param string $merchantId The ID of the account that manages the order. This
+   * cannot be a multi-client account.
+   * @param string $orderId The ID of the order.
+   * @param OrdersShipLineItemsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return OrdersShipLineItemsResponse
+   */
+  public function shiplineitems($merchantId, $orderId, OrdersShipLineItemsRequest $postBody, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'orderId' => $orderId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('shiplineitems', [$params], OrdersShipLineItemsResponse::class);
+  }
+  /**
+   * Updates ship by and delivery by dates for a line item.
+   * (orders.updatelineitemshippingdetails)
+   *
+   * @param string $merchantId The ID of the account that manages the order. This
+   * cannot be a multi-client account.
+   * @param string $orderId The ID of the order.
+   * @param OrdersUpdateLineItemShippingDetailsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return OrdersUpdateLineItemShippingDetailsResponse
+   */
+  public function updatelineitemshippingdetails($merchantId, $orderId, OrdersUpdateLineItemShippingDetailsRequest $postBody, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'orderId' => $orderId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('updatelineitemshippingdetails', [$params], OrdersUpdateLineItemShippingDetailsResponse::class);
+  }
+  /**
+   * Updates the merchant order ID for a given order.
+   * (orders.updatemerchantorderid)
+   *
+   * @param string $merchantId The ID of the account that manages the order. This
+   * cannot be a multi-client account.
+   * @param string $orderId The ID of the order.
+   * @param OrdersUpdateMerchantOrderIdRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return OrdersUpdateMerchantOrderIdResponse
+   */
+  public function updatemerchantorderid($merchantId, $orderId, OrdersUpdateMerchantOrderIdRequest $postBody, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'orderId' => $orderId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('updatemerchantorderid', [$params], OrdersUpdateMerchantOrderIdResponse::class);
+  }
+  /**
+   * Updates a shipment's status, carrier, and/or tracking ID.
+   * (orders.updateshipment)
+   *
+   * @param string $merchantId The ID of the account that manages the order. This
+   * cannot be a multi-client account.
+   * @param string $orderId The ID of the order.
+   * @param OrdersUpdateShipmentRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return OrdersUpdateShipmentResponse
+   */
+  public function updateshipment($merchantId, $orderId, OrdersUpdateShipmentRequest $postBody, $optParams = [])
+  {
+    $params = ['merchantId' => $merchantId, 'orderId' => $orderId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('updateshipment', [$params], OrdersUpdateShipmentResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Orders::class, 'Google_Service_ShoppingContent_Resource_Orders');

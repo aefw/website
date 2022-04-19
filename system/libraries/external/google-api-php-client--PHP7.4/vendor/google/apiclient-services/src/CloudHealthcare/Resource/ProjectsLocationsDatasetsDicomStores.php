@@ -1,122 +1,381 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-P8NruqE0B7mhv/IckkTTYEi=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudHealthcare\Resource;
+
+use Google\Service\CloudHealthcare\DeidentifyDicomStoreRequest;
+use Google\Service\CloudHealthcare\DicomStore;
+use Google\Service\CloudHealthcare\ExportDicomDataRequest;
+use Google\Service\CloudHealthcare\HealthcareEmpty;
+use Google\Service\CloudHealthcare\HttpBody;
+use Google\Service\CloudHealthcare\ImportDicomDataRequest;
+use Google\Service\CloudHealthcare\ListDicomStoresResponse;
+use Google\Service\CloudHealthcare\Operation;
+use Google\Service\CloudHealthcare\Policy;
+use Google\Service\CloudHealthcare\SetIamPolicyRequest;
+use Google\Service\CloudHealthcare\TestIamPermissionsRequest;
+use Google\Service\CloudHealthcare\TestIamPermissionsResponse;
+
+/**
+ * The "dicomStores" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $healthcareService = new Google\Service\CloudHealthcare(...);
+ *   $dicomStores = $healthcareService->dicomStores;
+ *  </code>
+ */
+class ProjectsLocationsDatasetsDicomStores extends \Google\Service\Resource
+{
+  /**
+   * Creates a new DICOM store within the parent dataset. (dicomStores.create)
+   *
+   * @param string $parent The name of the dataset this DICOM store belongs to.
+   * @param DicomStore $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string dicomStoreId The ID of the DICOM store that is being
+   * created. Any string value up to 256 characters in length.
+   * @return DicomStore
+   */
+  public function create($parent, DicomStore $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], DicomStore::class);
+  }
+  /**
+   * De-identifies data from the source store and writes it to the destination
+   * store. The metadata field type is OperationMetadata. If the request is
+   * successful, the response field type is DeidentifyDicomStoreSummary. If errors
+   * occur, error is set. The LRO result may still be successful if de-
+   * identification fails for some DICOM instances. The output DICOM store will
+   * not contain these failed resources. Failed resource totals are tracked in
+   * Operation.metadata. Error details are also logged to Cloud Logging (see
+   * [Viewing error logs in Cloud Logging](/healthcare/docs/how-tos/logging)).
+   * (dicomStores.deidentify)
+   *
+   * @param string $sourceStore Source DICOM store resource name. For example, `pr
+   * ojects/{project_id}/locations/{location_id}/datasets/{dataset_id}/dicomStores
+   * /{dicom_store_id}`.
+   * @param DeidentifyDicomStoreRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function deidentify($sourceStore, DeidentifyDicomStoreRequest $postBody, $optParams = [])
+  {
+    $params = ['sourceStore' => $sourceStore, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('deidentify', [$params], Operation::class);
+  }
+  /**
+   * Deletes the specified DICOM store and removes all images that are contained
+   * within it. (dicomStores.delete)
+   *
+   * @param string $name The resource name of the DICOM store to delete.
+   * @param array $optParams Optional parameters.
+   * @return HealthcareEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], HealthcareEmpty::class);
+  }
+  /**
+   * Exports data to the specified destination by copying it from the DICOM store.
+   * Errors are also logged to Cloud Logging. For more information, see [Viewing
+   * error logs in Cloud Logging](https://cloud.google.com/healthcare/docs/how-
+   * tos/logging). The metadata field type is OperationMetadata.
+   * (dicomStores.export)
+   *
+   * @param string $name The DICOM store resource name from which to export the
+   * data. For example, `projects/{project_id}/locations/{location_id}/datasets/{d
+   * ataset_id}/dicomStores/{dicom_store_id}`.
+   * @param ExportDicomDataRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function export($name, ExportDicomDataRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('export', [$params], Operation::class);
+  }
+  /**
+   * Gets the specified DICOM store. (dicomStores.get)
+   *
+   * @param string $name The resource name of the DICOM store to get.
+   * @param array $optParams Optional parameters.
+   * @return DicomStore
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], DicomStore::class);
+  }
+  /**
+   * Gets the access control policy for a resource. Returns an empty policy if the
+   * resource exists and does not have a policy set. (dicomStores.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int options.requestedPolicyVersion Optional. The policy format
+   * version to be returned. Valid values are 0, 1, and 3. Requests specifying an
+   * invalid value will be rejected. Requests for policies with any conditional
+   * bindings must specify version 3. Policies without any conditional bindings
+   * may specify any valid value or leave the field unset. To learn which
+   * resources support conditions in their IAM policies, see the [IAM
+   * documentation](https://cloud.google.com/iam/help/conditions/resource-
+   * policies).
+   * @return Policy
+   */
+  public function getIamPolicy($resource, $optParams = [])
+  {
+    $params = ['resource' => $resource];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Imports data into the DICOM store by copying it from the specified source.
+   * Errors are logged to Cloud Logging. For more information, see [Viewing error
+   * logs in Cloud Logging](https://cloud.google.com/healthcare/docs/how-
+   * tos/logging). The metadata field type is OperationMetadata.
+   * (dicomStores.import)
+   *
+   * @param string $name The name of the DICOM store resource into which the data
+   * is imported. For example, `projects/{project_id}/locations/{location_id}/data
+   * sets/{dataset_id}/dicomStores/{dicom_store_id}`.
+   * @param ImportDicomDataRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function import($name, ImportDicomDataRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('import', [$params], Operation::class);
+  }
+  /**
+   * Lists the DICOM stores in the given dataset.
+   * (dicomStores.listProjectsLocationsDatasetsDicomStores)
+   *
+   * @param string $parent Name of the dataset.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Restricts stores returned to those matching a
+   * filter. The following syntax is available: * A string field value can be
+   * written as text inside quotation marks, for example `"query text"`. The only
+   * valid relational operation for text fields is equality (`=`), where text is
+   * searched within the field, rather than having the field be equal to the text.
+   * For example, `"Comment = great"` returns messages with `great` in the comment
+   * field. * A number field value can be written as an integer, a decimal, or an
+   * exponential. The valid relational operators for number fields are the
+   * equality operator (`=`), along with the less than/greater than operators
+   * (`<`, `<=`, `>`, `>=`). Note that there is no inequality (`!=`) operator. You
+   * can prepend the `NOT` operator to an expression to negate it. * A date field
+   * value must be written in `yyyy-mm-dd` form. Fields with date and time use the
+   * RFC3339 time format. Leading zeros are required for one-digit months and
+   * days. The valid relational operators for date fields are the equality
+   * operator (`=`) , along with the less than/greater than operators (`<`, `<=`,
+   * `>`, `>=`). Note that there is no inequality (`!=`) operator. You can prepend
+   * the `NOT` operator to an expression to negate it. * Multiple field query
+   * expressions can be combined in one query by adding `AND` or `OR` operators
+   * between the expressions. If a boolean operator appears within a quoted
+   * string, it is not treated as special, it's just another part of the character
+   * string to be matched. You can prepend the `NOT` operator to an expression to
+   * negate it. Only filtering on labels is supported. For example,
+   * `labels.key=value`.
+   * @opt_param int pageSize Limit on the number of DICOM stores to return in a
+   * single response. If not specified, 100 is used. May not be larger than 1000.
+   * @opt_param string pageToken The next_page_token value returned from the
+   * previous List request, if any.
+   * @return ListDicomStoresResponse
+   */
+  public function listProjectsLocationsDatasetsDicomStores($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListDicomStoresResponse::class);
+  }
+  /**
+   * Updates the specified DICOM store. (dicomStores.patch)
+   *
+   * @param string $name Resource name of the DICOM store, of the form `projects/{
+   * project_id}/locations/{location_id}/datasets/{dataset_id}/dicomStores/{dicom_
+   * store_id}`.
+   * @param DicomStore $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask The update mask applies to the resource. For the
+   * `FieldMask` definition, see https://developers.google.com/protocol-
+   * buffers/docs/reference/google.protobuf#fieldmask
+   * @return DicomStore
+   */
+  public function patch($name, DicomStore $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], DicomStore::class);
+  }
+  /**
+   * SearchForInstances returns a list of matching instances. See [Search
+   * Transaction] (http://dicom.nema.org/medical/dicom/current/output/html/part18.
+   * html#sect_10.6). For details on the implementation of SearchForInstances, see
+   * [Search transaction](https://cloud.google.com/healthcare/docs/dicom#search_tr
+   * ansaction) in the Cloud Healthcare API conformance statement. For samples
+   * that show how to call SearchForInstances, see [Searching for studies, series,
+   * instances, and frames](https://cloud.google.com/healthcare/docs/how-
+   * tos/dicomweb#searching_for_studies_series_instances_and_frames).
+   * (dicomStores.searchForInstances)
+   *
+   * @param string $parent The name of the DICOM store that is being accessed. For
+   * example, `projects/{project_id}/locations/{location_id}/datasets/{dataset_id}
+   * /dicomStores/{dicom_store_id}`.
+   * @param string $dicomWebPath The path of the SearchForInstancesRequest
+   * DICOMweb request. For example, `instances`, `series/{series_uid}/instances`,
+   * or `studies/{study_uid}/instances`.
+   * @param array $optParams Optional parameters.
+   * @return HttpBody
+   */
+  public function searchForInstances($parent, $dicomWebPath, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'dicomWebPath' => $dicomWebPath];
+    $params = array_merge($params, $optParams);
+    return $this->call('searchForInstances', [$params], HttpBody::class);
+  }
+  /**
+   * SearchForSeries returns a list of matching series. See [Search Transaction] (
+   * http://dicom.nema.org/medical/dicom/current/output/html/part18.html#sect_10.6
+   * ). For details on the implementation of SearchForSeries, see [Search transact
+   * ion](https://cloud.google.com/healthcare/docs/dicom#search_transaction) in
+   * the Cloud Healthcare API conformance statement. For samples that show how to
+   * call SearchForSeries, see [Searching for studies, series, instances, and
+   * frames](https://cloud.google.com/healthcare/docs/how-
+   * tos/dicomweb#searching_for_studies_series_instances_and_frames).
+   * (dicomStores.searchForSeries)
+   *
+   * @param string $parent The name of the DICOM store that is being accessed. For
+   * example, `projects/{project_id}/locations/{location_id}/datasets/{dataset_id}
+   * /dicomStores/{dicom_store_id}`.
+   * @param string $dicomWebPath The path of the SearchForSeries DICOMweb request.
+   * For example, `series` or `studies/{study_uid}/series`.
+   * @param array $optParams Optional parameters.
+   * @return HttpBody
+   */
+  public function searchForSeries($parent, $dicomWebPath, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'dicomWebPath' => $dicomWebPath];
+    $params = array_merge($params, $optParams);
+    return $this->call('searchForSeries', [$params], HttpBody::class);
+  }
+  /**
+   * SearchForStudies returns a list of matching studies. See [Search Transaction]
+   * (http://dicom.nema.org/medical/dicom/current/output/html/part18.html#sect_10.
+   * 6). For details on the implementation of SearchForStudies, see [Search transa
+   * ction](https://cloud.google.com/healthcare/docs/dicom#search_transaction) in
+   * the Cloud Healthcare API conformance statement. For samples that show how to
+   * call SearchForStudies, see [Searching for studies, series, instances, and
+   * frames](https://cloud.google.com/healthcare/docs/how-
+   * tos/dicomweb#searching_for_studies_series_instances_and_frames).
+   * (dicomStores.searchForStudies)
+   *
+   * @param string $parent The name of the DICOM store that is being accessed. For
+   * example, `projects/{project_id}/locations/{location_id}/datasets/{dataset_id}
+   * /dicomStores/{dicom_store_id}`.
+   * @param string $dicomWebPath The path of the SearchForStudies DICOMweb
+   * request. For example, `studies`.
+   * @param array $optParams Optional parameters.
+   * @return HttpBody
+   */
+  public function searchForStudies($parent, $dicomWebPath, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'dicomWebPath' => $dicomWebPath];
+    $params = array_merge($params, $optParams);
+    return $this->call('searchForStudies', [$params], HttpBody::class);
+  }
+  /**
+   * Sets the access control policy on the specified resource. Replaces any
+   * existing policy. Can return `NOT_FOUND`, `INVALID_ARGUMENT`, and
+   * `PERMISSION_DENIED` errors. (dicomStores.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * StoreInstances stores DICOM instances associated with study instance unique
+   * identifiers (SUID). See [Store Transaction] (http://dicom.nema.org/medical/di
+   * com/current/output/html/part18.html#sect_10.5). For details on the
+   * implementation of StoreInstances, see [Store transaction](https://cloud.googl
+   * e.com/healthcare/docs/dicom#store_transaction) in the Cloud Healthcare API
+   * conformance statement. For samples that show how to call StoreInstances, see
+   * [Storing DICOM data](https://cloud.google.com/healthcare/docs/how-
+   * tos/dicomweb#storing_dicom_data). (dicomStores.storeInstances)
+   *
+   * @param string $parent The name of the DICOM store that is being accessed. For
+   * example, `projects/{project_id}/locations/{location_id}/datasets/{dataset_id}
+   * /dicomStores/{dicom_store_id}`.
+   * @param string $dicomWebPath The path of the StoreInstances DICOMweb request.
+   * For example, `studies/[{study_uid}]`. Note that the `study_uid` is optional.
+   * @param HttpBody $postBody
+   * @param array $optParams Optional parameters.
+   * @return HttpBody
+   */
+  public function storeInstances($parent, $dicomWebPath, HttpBody $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'dicomWebPath' => $dicomWebPath, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('storeInstances', [$params], HttpBody::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource. If the
+   * resource does not exist, this will return an empty set of permissions, not a
+   * `NOT_FOUND` error. Note: This operation is designed to be used for building
+   * permission-aware UIs and command-line tools, not for authorization checking.
+   * This operation may "fail open" without warning.
+   * (dicomStores.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsDatasetsDicomStores::class, 'Google_Service_CloudHealthcare_Resource_ProjectsLocationsDatasetsDicomStores');

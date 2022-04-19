@@ -1,86 +1,132 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-mqOo9KJwug7tL5mO
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AndroidManagement;
+
+class StatusReportingSettings extends \Google\Model
+{
+  protected $applicationReportingSettingsType = ApplicationReportingSettings::class;
+  protected $applicationReportingSettingsDataType = '';
+  public $applicationReportsEnabled;
+  public $commonCriteriaModeEnabled;
+  public $deviceSettingsEnabled;
+  public $displayInfoEnabled;
+  public $hardwareStatusEnabled;
+  public $memoryInfoEnabled;
+  public $networkInfoEnabled;
+  public $powerManagementEventsEnabled;
+  public $softwareInfoEnabled;
+  public $systemPropertiesEnabled;
+
+  /**
+   * @param ApplicationReportingSettings
+   */
+  public function setApplicationReportingSettings(ApplicationReportingSettings $applicationReportingSettings)
+  {
+    $this->applicationReportingSettings = $applicationReportingSettings;
+  }
+  /**
+   * @return ApplicationReportingSettings
+   */
+  public function getApplicationReportingSettings()
+  {
+    return $this->applicationReportingSettings;
+  }
+  public function setApplicationReportsEnabled($applicationReportsEnabled)
+  {
+    $this->applicationReportsEnabled = $applicationReportsEnabled;
+  }
+  public function getApplicationReportsEnabled()
+  {
+    return $this->applicationReportsEnabled;
+  }
+  public function setCommonCriteriaModeEnabled($commonCriteriaModeEnabled)
+  {
+    $this->commonCriteriaModeEnabled = $commonCriteriaModeEnabled;
+  }
+  public function getCommonCriteriaModeEnabled()
+  {
+    return $this->commonCriteriaModeEnabled;
+  }
+  public function setDeviceSettingsEnabled($deviceSettingsEnabled)
+  {
+    $this->deviceSettingsEnabled = $deviceSettingsEnabled;
+  }
+  public function getDeviceSettingsEnabled()
+  {
+    return $this->deviceSettingsEnabled;
+  }
+  public function setDisplayInfoEnabled($displayInfoEnabled)
+  {
+    $this->displayInfoEnabled = $displayInfoEnabled;
+  }
+  public function getDisplayInfoEnabled()
+  {
+    return $this->displayInfoEnabled;
+  }
+  public function setHardwareStatusEnabled($hardwareStatusEnabled)
+  {
+    $this->hardwareStatusEnabled = $hardwareStatusEnabled;
+  }
+  public function getHardwareStatusEnabled()
+  {
+    return $this->hardwareStatusEnabled;
+  }
+  public function setMemoryInfoEnabled($memoryInfoEnabled)
+  {
+    $this->memoryInfoEnabled = $memoryInfoEnabled;
+  }
+  public function getMemoryInfoEnabled()
+  {
+    return $this->memoryInfoEnabled;
+  }
+  public function setNetworkInfoEnabled($networkInfoEnabled)
+  {
+    $this->networkInfoEnabled = $networkInfoEnabled;
+  }
+  public function getNetworkInfoEnabled()
+  {
+    return $this->networkInfoEnabled;
+  }
+  public function setPowerManagementEventsEnabled($powerManagementEventsEnabled)
+  {
+    $this->powerManagementEventsEnabled = $powerManagementEventsEnabled;
+  }
+  public function getPowerManagementEventsEnabled()
+  {
+    return $this->powerManagementEventsEnabled;
+  }
+  public function setSoftwareInfoEnabled($softwareInfoEnabled)
+  {
+    $this->softwareInfoEnabled = $softwareInfoEnabled;
+  }
+  public function getSoftwareInfoEnabled()
+  {
+    return $this->softwareInfoEnabled;
+  }
+  public function setSystemPropertiesEnabled($systemPropertiesEnabled)
+  {
+    $this->systemPropertiesEnabled = $systemPropertiesEnabled;
+  }
+  public function getSystemPropertiesEnabled()
+  {
+    return $this->systemPropertiesEnabled;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(StatusReportingSettings::class, 'Google_Service_AndroidManagement_StatusReportingSettings');

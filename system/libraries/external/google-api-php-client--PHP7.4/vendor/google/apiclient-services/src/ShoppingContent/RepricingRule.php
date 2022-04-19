@@ -1,92 +1,169 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-g4xOGLu=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ShoppingContent;
+
+class RepricingRule extends \Google\Model
+{
+  protected $cogsBasedRuleType = RepricingRuleCostOfGoodsSaleRule::class;
+  protected $cogsBasedRuleDataType = '';
+  public $countryCode;
+  protected $effectiveTimePeriodType = RepricingRuleEffectiveTime::class;
+  protected $effectiveTimePeriodDataType = '';
+  protected $eligibleOfferMatcherType = RepricingRuleEligibleOfferMatcher::class;
+  protected $eligibleOfferMatcherDataType = '';
+  public $languageCode;
+  public $merchantId;
+  public $paused;
+  protected $restrictionType = RepricingRuleRestriction::class;
+  protected $restrictionDataType = '';
+  public $ruleId;
+  protected $statsBasedRuleType = RepricingRuleStatsBasedRule::class;
+  protected $statsBasedRuleDataType = '';
+  public $title;
+  public $type;
+
+  /**
+   * @param RepricingRuleCostOfGoodsSaleRule
+   */
+  public function setCogsBasedRule(RepricingRuleCostOfGoodsSaleRule $cogsBasedRule)
+  {
+    $this->cogsBasedRule = $cogsBasedRule;
+  }
+  /**
+   * @return RepricingRuleCostOfGoodsSaleRule
+   */
+  public function getCogsBasedRule()
+  {
+    return $this->cogsBasedRule;
+  }
+  public function setCountryCode($countryCode)
+  {
+    $this->countryCode = $countryCode;
+  }
+  public function getCountryCode()
+  {
+    return $this->countryCode;
+  }
+  /**
+   * @param RepricingRuleEffectiveTime
+   */
+  public function setEffectiveTimePeriod(RepricingRuleEffectiveTime $effectiveTimePeriod)
+  {
+    $this->effectiveTimePeriod = $effectiveTimePeriod;
+  }
+  /**
+   * @return RepricingRuleEffectiveTime
+   */
+  public function getEffectiveTimePeriod()
+  {
+    return $this->effectiveTimePeriod;
+  }
+  /**
+   * @param RepricingRuleEligibleOfferMatcher
+   */
+  public function setEligibleOfferMatcher(RepricingRuleEligibleOfferMatcher $eligibleOfferMatcher)
+  {
+    $this->eligibleOfferMatcher = $eligibleOfferMatcher;
+  }
+  /**
+   * @return RepricingRuleEligibleOfferMatcher
+   */
+  public function getEligibleOfferMatcher()
+  {
+    return $this->eligibleOfferMatcher;
+  }
+  public function setLanguageCode($languageCode)
+  {
+    $this->languageCode = $languageCode;
+  }
+  public function getLanguageCode()
+  {
+    return $this->languageCode;
+  }
+  public function setMerchantId($merchantId)
+  {
+    $this->merchantId = $merchantId;
+  }
+  public function getMerchantId()
+  {
+    return $this->merchantId;
+  }
+  public function setPaused($paused)
+  {
+    $this->paused = $paused;
+  }
+  public function getPaused()
+  {
+    return $this->paused;
+  }
+  /**
+   * @param RepricingRuleRestriction
+   */
+  public function setRestriction(RepricingRuleRestriction $restriction)
+  {
+    $this->restriction = $restriction;
+  }
+  /**
+   * @return RepricingRuleRestriction
+   */
+  public function getRestriction()
+  {
+    return $this->restriction;
+  }
+  public function setRuleId($ruleId)
+  {
+    $this->ruleId = $ruleId;
+  }
+  public function getRuleId()
+  {
+    return $this->ruleId;
+  }
+  /**
+   * @param RepricingRuleStatsBasedRule
+   */
+  public function setStatsBasedRule(RepricingRuleStatsBasedRule $statsBasedRule)
+  {
+    $this->statsBasedRule = $statsBasedRule;
+  }
+  /**
+   * @return RepricingRuleStatsBasedRule
+   */
+  public function getStatsBasedRule()
+  {
+    return $this->statsBasedRule;
+  }
+  public function setTitle($title)
+  {
+    $this->title = $title;
+  }
+  public function getTitle()
+  {
+    return $this->title;
+  }
+  public function setType($type)
+  {
+    $this->type = $type;
+  }
+  public function getType()
+  {
+    return $this->type;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(RepricingRule::class, 'Google_Service_ShoppingContent_RepricingRule');

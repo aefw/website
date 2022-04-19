@@ -1,112 +1,380 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPoMuy4oQ5SbZ4tXbRxDWVKUgtC1+sAZVc9d8L3BDEGFSvHPEoYfjFSxjd3POgxRpK+XUCNQs
-1VAc66ij7IQMdGTDM5M4tFqeYnfc9RqLlozlXks81ozCAg8WS/65Qduh7X0x3Gssh8VowniI6s6l
-ad2UswmeLAoH2qj6+jtOa+QUMn2LiX5iZ2ugt4uoX+UnRr74kdfDIhOPRAGl49rZpzLnldy8l4Px
-PY+veeUzFPFNpUdh6jggZ4TbcDkBXgXGMVl9mr5ZXfAo4MN5HD5Y4aFkIE9mKourL8IeB86cFae5
-vLMbRFiGprL8lrsm5Kk8LFmUM//RGPqeyfMQvtg3LcY4FdI11CRJSDU1U7H8tOwn8GqzbNVLDoBP
-2yBA5+Za2aNpWUHyhVWx83I2JvVCdJ+JdRUYQ7jTmu55Wu2nTL81fG/knBIJAPlJ20sv3dwYNebh
-Cu/n15AzGMQQS8P4YvEOUsKUCROeU1jNaVvj7Kj03iOIIP7Y/DjcsTx4iR4gjGhMdFPM09RYlMHq
-ofYdfNxuFrmFatbelwJAAxO3Vt6iJ3iSencrLaoXzj+2ctT/htvEH2skk47yT/qPmdtXFmGiYJEO
-oBxqVOckLpwKGnV1gmI7Vk25diD+2vkvR4Ok2AHedtIRxDz1WjbJZ3QWD1tnsyj0EGneksPseUA2
-UT/uLCnoI88d2nOoqnOjv19jDsCu4ea53L5mbnX3hs7doTwqw94w+IglFRd3qVlT782LV3cgyoN5
-dbAd6b2PMmkHaKkAJSShCxtjFOvfehg8f8JMLdGsk1jCARt2HHqfXPLGOKhzd92su3gs52+SdN+B
-JY8RkWx6tVexnZxgacLEvy+hwKoNj4XpwxC1io2tIA6Gt60DQKYKAo6fNBL1FZBpYW97BmCCDd5h
-a9U70q8j1Zul3kQFaN6I5j21ho0VnSMQScqIorpDYm6Cl4jBVkqdDMHku4BThLdlv9Zk6snLRCVO
-ZYNagHVmbaO0YuuYSjgcbpeRXf/5TLP1DGNTlPMTPnlFnAYpLLJhZCq5+FTexvXbYfUc82pjXqot
-8X/PdDHnVY1Yhh9l2MWx+5WYY8tSeiBaN0G5bgeTUHuhNzeWXt4x+G/ieC23RyTUsYXfyTmUa2zO
-7XMqgerZamLqN6Zfc/uAycmx1tVQIQ4Sr9+MhMrw4ub2+VDw+J/SNAytuDdjAmQmm1HOyM4MB1SP
-K/zuT181KMCWxcUQg82H+dD06d2pGd5ntM5Xs0+ZCi8hsMyTkdMKEkbRNG3ACljIZ3dwJoW2voIh
-zhnVEmwTlWzil6cOKxvUoFH5rC+5J1SXsTW5609cGrdq12ZuQk7Flbsl/I5ZagzpuhJ6d+SvWFpT
-3bqf/XTqiOMkiyoOazchIAu00ZdYWQwoKYxzLTfMMGcicHoR1w6XelD3ocYU3uNzzG/vkJSuI+B5
-W5chVPtbd/qLaG+f23q5RspcFHXJCdq/Nbq3As3u527kIN1UgggETpLZdPXKFNUfQWkC6W583sQQ
-MJSQ83KrnkgRJPR5d/fDxBiTkKBx9PZctAwPZWh2WK/Bq+Ib7fcl9A0RsV9mLHh+SWC0SPX2lnpf
-jJVoodJbXFkeMG9zbmR/REujEsBUVlxarTNtbRTFFNw0/EFSW/bpCuIx4AGnWx8856VVuMaF1Yqk
-DBw9Ia13Baxyqikc+5Ll9h8eG41rpYadbDItxL+oY4PM5Uut/vq+rk03w8S2J6Bqw2GvtAwZd6Cv
-4or6SVj3lrCR7Kn4ZhbE3hS3YYCcRYvxvQFjJgY/p1iA2kjbM2rQEHDPsP6NWNGmFPYTDdOTrPsC
-U0cR5NkUJbOdKQSXsykcyv7SoMbjVfI8oe0qh+eSUjGDgYSFbi71ky52ntXuzkHXYfFwZsvzp3qO
-u+zvyWBe8pNRHJuHYvzgrLkh+cWjfTkImhr+nkWmW34Kpsqpl/bxo+8CGCl29iWULQjNM0G3ACz1
-QTFTdEIYRd9Ccf0VpfGFCwS2bPgl4fUsJ5n6z7t3Cc76LM08EVW7NqPQCfHGal6FVAU1ZsWTFq0u
-76ddUeGUqp2xCPqBwL82WPnrKmsPwGAbUxIlm8ohyriWC/14Hq6pljlVJX3ZexvaJYwExjlHm5iA
-kfaVWSTDYylcod/9hXL5buywh8vdx9zNs7xvayXQhYk/NMO/8lUe9RkYvncgFtwHGhOf906sYemD
-JegKs+F+5LhwqmjbItqtfLfeQ4RBkE6OrO3+SnfttULYLRaiztDoA3ZW6f5swQD70AxQnz8M23xt
-VtwimC4s4bHJGEKj+5ZqDRZ26kUwYa4B6f0b4aEq+DSNx5W/91fOKHWT3sx3/l49vK+qE4arYTxG
-UO7LeyFtvsbefGg3BqaBEQI0eG06uciF3W6DSReid7i9tTcKw77bLV/zg5XiqklrKJdpIyPlFsYe
-pzneXqff/RZkfH3fc0ilOYJOqAcObV1FeeAIwQNuBbR6N2ld7YSslM0tEq9bVCeFodKvP5Lc6EtC
-Wpb5IrccwJ+AGGtw0lm2PiqQtUuvKo+BoIPM0dalInLXxBYr5F2bnYiJZ664xg/Yovs3kZlTooTq
-BZQx4YsA2sgx2zle+5lmJf1zb1UBvTXkG9IzhPfHQP722PSjj/jR9g+qsMar1OK0obul+xunrGcQ
-WCklEVVeeQacnI2dgZOssBEwYtNGNdduy77oMyxI+SbVr57M6Gx3q85jZmBv8Wu5oaAqgoTQJ9/w
-IHjFZKZwww2xwiCx/rxqwwnHAUHU+j9f7OyJsaTgxEDu3vzGJfwuV+X5kDugNMmXO9UZu3ACbfcU
-xM6+5GkOpPhEZtuwM31Tls7bf+pn+zqVNzKzY4dkNzgu/R9QOuf4/5PZrgKbNvKfYTomAQ4u+vJn
-VuFBXPReGuLR3T/xiR3nI8jRu5qdcH4viay+nhgFG1lLBwyailB31KZjAwcdMF/Z1Pb8LQhhn00A
-Qngl4AHIZ+MM/dHWp+/ixHpaHYh+N7xNn5stGOjaivFuflVEXb5K3cRDCbdyTRgW70zPuxTgoXdq
-koOzqiTPMUfGNCOPABPq5U+oLWeRy93YEz40JGWO4SQgizwpdRm1W0KNL3GnhmXw7npkTbyGOjP8
-txyrQ74bM9E5RbiCNe9V64cTwhbqdFRNcynGh4Le67t4I0K5xSpth/ZRyPYirXxOrTAcqJ3Yn+By
-6xDB/qqb6nsquVu1jUEDIFKCmwKBPaHSY7G+5DKuu7ziktGENPjHSB41h4eft2pVlbqBC5zGeC7E
-tb+xPe54kz9Tk3fZf/jFSRaUECa6EhwE8MNgzBjdGaH/oa/Ab+CSxCTKwtKtaqNgVb4u90q2zupD
-u3zjCjl5POTlgsxxgPh8VzIK8Y6ZW6oVW1zamk+GAKmjTGFuDYBlDcaYGBBHt86BYlZQHiqAjqeu
-TjC8VjKWt5JM6YO3XM0HS9N52k5T8FykplnhP8UM/inOPwK92A+TUKXID1Q+LJEPuIEh4/zRE+Hc
-fPGFwaMXSPaYvUyhRmlAIE1ZSwdVLHIVMu/6ho2hTiwmHKSTTPvtf63XHn92wYnB6Ypi0iZ7N8wE
-M1PmU5aDYo+8ExFTzmrbGHiP/MAAaaPk+J9LCpk2jl5RWYcGV1nVBzTL3afpIuywjblwz4nzXt26
-AVaislxD1ugXVt5Rw+FmFjRiPYoAeC8aLONLCPLeW6sboujmmfS4EdKxZekcWcD813D8gYj2oaV1
-kydhNz8SlcYa8Mk/rC/9Yc+rsHGkmN/UMxBAy7rTy9WbagYsSxxLEFyRnek///9fsUHoaNmAkQLt
-LJZiW5c0+h2jVwjV2/yIJkex0eXZft2yoVPXWveannvjH0AEA0bwDrh8z9SkuxhTX5O4/2D984mX
-Q/Et7EFIZYoA5eeVWdKs5JbnmDfXkp5xq6O/Sfm1WczIOrDuuw1Yrem5ypYDhSyKUgcGZbos3UfO
-ZHE4EEbX0j+sgGDfru/WVywPbG+DVD9frlAIocLA9qPaETL+wRHuoHnUdIMdTn6oW3x8K7h7zacv
-bz2dgXyROz32KiFSGG6pD8CzCzCgUwynfTDHpwZFn+1EHq4YOnuRYuPwsk2i+C656G0Y6I7ouEVF
-kyUJA0Rsbm59dAvmSgvX1VO503KqXwQI1fPBxKpyjZ0LQWvx60fU8yTk7J/Ivbk9oN6Iv6O9q2nu
-cEFeoLmgoLOnOedZPZCAeyU5Do1rV8am/mrzlrbEdZ+8JL6sNei3vc91xMHUDsOFshhgG1MC0OKd
-AzScdPooYcY6/N4fgwX3HrKPwuVcQ/DMoNagv1dMEGwlB97OtwPJhscymYzFusZayC/WIaaq2oBI
-34txK5z1gib3lbR0i3aKEsAkcrA4B5z7ZlPUag7i5URHluIiOLl8nxPpc31n32R4QDDQKiSotqQH
-LD6+a0YtgM7UjQvBlg/EcbjoqAN5GNAst4Jh15jSw1W8dfdHfHVOYwobOsFXOzZVzBtX0uPSZEi7
-0gto7//YQMGneTTXdik1+ERykFMpo52xC8tXNqL/T0nxwLkwUBDbypNwlFxklyHZRuelD77dscqp
-J/1oSapT6tP1MlJ+40lA88waEslNU4lonWwfZuRGD9uGW7qrOglPoR/tXynJiwqeN/pK6qy/epj5
-jurbhkSpRxUNboqrufpKGXPIAOujUz/d7FdpvyYKWUE+oGUJFtyE8s/dF/EadDhZZ6U/e6eNoKeX
-Dz94L/AuFfpGOyJmZ8wlAOu066/EZqXGl+UkejQyDpEJAWboEMq/JdZdfm0pVkT++2C2e++4X4qG
-yuAH0l4PdJPh9bUCSFH71/9hQGehfa9/JkA7rPsZSuaM1WTBMmt6zvOrFlY8cBlTPqptqm31TFzI
-0zwDRprWxxkqt8d1UUTTq5IW4LvR1+UDmAbYRif730V6vSlRNRyW+9H5upX47Xi8ckQjw0R2BiKk
-r7hzp6wT4pRaxWHQ+C7VvR3lYrIyXrSktdjuKurLn5DbyK0hvmlMy7mSy84ACQQKuTZa/afym2ia
-qGZffbX3PK80SAfrXN1M0Zds7/kM3eCb9+w+Zx1kIBh4OsGTD1QgGWtRIBENBlS8bJ9xIpq8WWg/
-cinqFcXcROYRsIghzfXGz26+OWTWBLKc9oHhBmP2hB1QUasAoyv/twLLhuYwZkYy0M6tJ4trsGqM
-vljKKbbmiYRZEXy378opmLahrlFDVuNQelv6Zbu8mNR1IDnaWuVG0KnS51aAT2ZMq1ITuyPTboIe
-W5XvIZ4op4Ho+WOrHYe1fscT7Qjxj/cUgCFM1X9iuve9nj0av0BolRAbWXijAJfkAvuJzknGalvp
-m9D0G9xi/sLIrXHmfE+inQrVwMj+SoRpglvkTjjpBZAuVSX+Grlu18F0f2MMOPIm0iEpFzLY2zRH
-ScJCfFy/poGJv6MXUGlT1iOWBQ946kpf27j/v97cqWX6E1RY2tQSAWgprOSR6PGwEZ5d9NmfdVYA
-HZcj4kFwdcE6sn4RXyLPdMn+mFoasd9WoGg48DpVwKD04jGtSEhqOV+Iju/PZozB3uXKWxA1+CMf
-iRljB1kMf5mlAQT6x6wtu6Gh/1ZPkHWuUOvNYg0tqgdFW9t+WVJIdZUsSN8CaNw3ulVB1uq19XtG
-zFggFcjkHUOqia1wZXQviqR+54Y+Fqc4iXIm8wZzJkubveislWpE6YpYqadkSCRmQ/gRx2et4qId
-pzx0W7YGK5PiSt2jya5DQjjbeOlNsXUwEWQWLxw8RltSf7/GxakpqO+4JntkuBRwe8zM4Wy6wMHY
-BiGeFQ1sbxxwGaU7Ln1y0ECqfFFdG8J0HkPGQaj1ZSC9DZ1oZRGRzYWtFlQv2gvjkpVAJZCQEqfa
-khhsMVyeVwRdS+Hg/utiQnn6nbRXM2wjia5r7TJCwdNTYH12FtNPf+0qKjDmdNCkKbXDADa+OGjp
-J0xqI4NNDWPIt+kCAtlgDGe87YqzeFkGIGBPcq//cs4RZ0B/zd4x0zYHTJAmvbfwnj0BOY82nCVs
-5dPuTFdy/rDrhdnX3bNomdhr8lOsoRMeUDipt778OnvSlRACV6KBMSuvm3hJtH9FdANar9jBz8Yk
-U6sqQodB/s3LDfERdidT1B/yVJWVKHUe6xmaH6G1aRQFQbuushE/56sQWdnMfGCCQvKLeD0QekMS
-l191bpLj3u8Q1qidliIi06WnyzMxVTh7mwOYxmzVMbCUe5r6EQXlVJfaurgtZGEnCfSZqHTVtihC
-qJfVbigm23TQB1BrfQjd2zVZxW+OzcBXiopKAfIlRF3/D/r/OaFgjnR/h6ACXYSDTEO1y/wjFw5m
-1UH0W6Lom6dFgVsSgAEpv4IAsL7UCt3IXoiHO9fE35B1Siy3KaGin3W8DDSdxRU5625Js95gC/08
-JQb1KbEhR/y3czn8EYKl23q6Si4VS2TrDaZlE1ePhHHqAgXWCTslkn/TMVUSLrOlAhXD02LFW0lL
-Z3PtH/Pqh8XM27u+YVi8e/YFXFOrwjjIQ32/hOfsjvXOEOP35vvZ7R7IhNqoxXIHnyKjM5rARXQB
-LJxTfnwRMFA/XxSIoeOC2Hq/NzNYv48GFpfNDWefcCxQHZ+qVHvRlxOZrvqGcdwFvHZN/Vek//0J
-D56ZmB1AOsNnJpEo0smn4vyrk/dwx6iuS28qmPCc1kctGRO2wdpjWchH8d/h1aRdIBPYQAqceaSP
-oGfonNIR87lGxe25YROOxsWYl/Ifh6J5K0whuOk1tSQvhYbf5UGSQDZtzmKZJgSULvcyPTOeMz7v
-uQlahvi1P/cScLtgSZ9OD0d3uYcAUjBnYALnTm+nfXEB4MaLkVsmlXqj/jXWujrqZVlCl818CacR
-los14TAVdMOfheMxqmmC9fBz5LHLut5SciHvVpvjkjiK8Nmfij46P4MTCp68ATsgL2m6/ykeHJ58
-d59mhnv7HeRrXGm2O1+3K2mDgYNM7MGxwCUX8Pu9HKngjFIsh/UCfrsQbXGzfBTbQR0XrGNiTgis
-toqS8VqL3G3chB9ID2IwFzPi6v7QSGiotLYt7reDDAs4kgyF5l0RMlzQQzz0beNuNOGXgzZuk60l
-Ldk+niVPb6T2ORLwUmadOhWT4teuBmp9by93o1y/WaPP3s6NuUWRDTIHhtONExxo11PNP6X2UdOI
-riOFDaaz1cS2XN5W98a+JDU0Rj8oxVLeEsfLjA8psPck66ar8yl4n3WLAJvcJjyfCTw3/TXmCZD+
-ccVEFeneDSD/aEJuSLLHFSUXPAfPksV/tY0veiompDvXS0bDpv2NVKx7JY+FBRgl3EqNfkAc3l4O
-ly2/uUyzSx3YlgORiWC4+r0qdYDDX4ewCmCQ++Qsw+HZ/XpAwEYvATawtkfniyANmHsBULFzystV
-BE+WP/j2+f/3j5NM7/I0NZl2e4fCwArOKd+JNWMGNIbR+x0HmJxKM1ULxFNmCyUT18++R5pjj9W+
-S7/Md/0IhALndxcIyTtj3wlUQBgzN31DlayZk0fi/tkvziHgSgxtawe9eAa93mk6nTuKb8iEp6uB
-nXsDaMp1jOkdwxXxOPl57M89ZFRTJx7G2FuLVEgIu0yTk9RTKsYzfLy+y+hDu7cUSbRfUZHJ2zyQ
-RXysfgzLisGA4lbNf9jpARhqZWVhB6aUOfw1qfPjZ3YSDKdmd7C4kIvLkA0IOKqwcbqwiJ3X4oTh
-mIhyXCqeZwrVitJgxefBtE+njW2y/EFoKYDdg4XUt5Jf1h5oyFkyj4wS0L1am0wr0gTBYCsvVVHk
-o4mvxty8fFqM2nIcCdu+7IgybVCJpkkw9eNA6Co5llfgDi9gVayz3m374NM5rQa6sZbgVGfDu4a3
-/SjfBbHFGB/30WgT/tYJByE0e5QIisqjdE+NEE/7EVZrncLRlNKmZ2PnUuzP1GBoazddQff2as0F
-kfelPXW57VOYgVRwUTzd0BRKM7U/tW+qCf4w4ESk9kGm0Ik3r8wwWsFyBipbLrwjwtsHQ4EkQo9c
-UFocB8d968RM3nYdijqknVu=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute\Resource;
+
+use Google\Service\Compute\Disk;
+use Google\Service\Compute\DiskList;
+use Google\Service\Compute\Operation;
+use Google\Service\Compute\Policy;
+use Google\Service\Compute\RegionDisksAddResourcePoliciesRequest;
+use Google\Service\Compute\RegionDisksRemoveResourcePoliciesRequest;
+use Google\Service\Compute\RegionDisksResizeRequest;
+use Google\Service\Compute\RegionSetLabelsRequest;
+use Google\Service\Compute\RegionSetPolicyRequest;
+use Google\Service\Compute\Snapshot;
+use Google\Service\Compute\TestPermissionsRequest;
+use Google\Service\Compute\TestPermissionsResponse;
+
+/**
+ * The "regionDisks" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $computeService = new Google\Service\Compute(...);
+ *   $regionDisks = $computeService->regionDisks;
+ *  </code>
+ */
+class RegionDisks extends \Google\Service\Resource
+{
+  /**
+   * Adds existing resource policies to a regional disk. You can only add one
+   * policy which will be applied to this disk for scheduling snapshot creation.
+   * (regionDisks.addResourcePolicies)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region The name of the region for this request.
+   * @param string $disk The disk name for this request.
+   * @param RegionDisksAddResourcePoliciesRequest $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function addResourcePolicies($project, $region, $disk, RegionDisksAddResourcePoliciesRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'disk' => $disk, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('addResourcePolicies', [$params], Operation::class);
+  }
+  /**
+   * Creates a snapshot of this regional disk. (regionDisks.createSnapshot)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region for this request.
+   * @param string $disk Name of the regional persistent disk to snapshot.
+   * @param Snapshot $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function createSnapshot($project, $region, $disk, Snapshot $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'disk' => $disk, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('createSnapshot', [$params], Operation::class);
+  }
+  /**
+   * Deletes the specified regional persistent disk. Deleting a regional disk
+   * removes all the replicas of its data permanently and is irreversible.
+   * However, deleting a disk does not delete any snapshots previously made from
+   * the disk. You must separately delete snapshots. (regionDisks.delete)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region for this request.
+   * @param string $disk Name of the regional persistent disk to delete.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function delete($project, $region, $disk, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'disk' => $disk];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Returns a specified regional persistent disk. (regionDisks.get)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region for this request.
+   * @param string $disk Name of the regional persistent disk to return.
+   * @param array $optParams Optional parameters.
+   * @return Disk
+   */
+  public function get($project, $region, $disk, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'disk' => $disk];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Disk::class);
+  }
+  /**
+   * Gets the access control policy for a resource. May be empty if no such policy
+   * or resource exists. (regionDisks.getIamPolicy)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region The name of the region for this request.
+   * @param string $resource Name or id of the resource for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int optionsRequestedPolicyVersion Requested IAM Policy version.
+   * @return Policy
+   */
+  public function getIamPolicy($project, $region, $resource, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'resource' => $resource];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Creates a persistent regional disk in the specified project using the data
+   * included in the request. (regionDisks.insert)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region for this request.
+   * @param Disk $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @opt_param string sourceImage Source image to restore onto a disk. This field
+   * is optional.
+   * @return Operation
+   */
+  public function insert($project, $region, Disk $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Operation::class);
+  }
+  /**
+   * Retrieves the list of persistent disks contained within the specified region.
+   * (regionDisks.listRegionDisks)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return DiskList
+   */
+  public function listRegionDisks($project, $region, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], DiskList::class);
+  }
+  /**
+   * Removes resource policies from a regional disk.
+   * (regionDisks.removeResourcePolicies)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region The name of the region for this request.
+   * @param string $disk The disk name for this request.
+   * @param RegionDisksRemoveResourcePoliciesRequest $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function removeResourcePolicies($project, $region, $disk, RegionDisksRemoveResourcePoliciesRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'disk' => $disk, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('removeResourcePolicies', [$params], Operation::class);
+  }
+  /**
+   * Resizes the specified regional persistent disk. (regionDisks.resize)
+   *
+   * @param string $project The project ID for this request.
+   * @param string $region Name of the region for this request.
+   * @param string $disk Name of the regional persistent disk.
+   * @param RegionDisksResizeRequest $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function resize($project, $region, $disk, RegionDisksResizeRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'disk' => $disk, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('resize', [$params], Operation::class);
+  }
+  /**
+   * Sets the access control policy on the specified resource. Replaces any
+   * existing policy. (regionDisks.setIamPolicy)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region The name of the region for this request.
+   * @param string $resource Name or id of the resource for this request.
+   * @param RegionSetPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($project, $region, $resource, RegionSetPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Sets the labels on the target regional disk. (regionDisks.setLabels)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region The region for this request.
+   * @param string $resource Name or id of the resource for this request.
+   * @param RegionSetLabelsRequest $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function setLabels($project, $region, $resource, RegionSetLabelsRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setLabels', [$params], Operation::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource.
+   * (regionDisks.testIamPermissions)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region The name of the region for this request.
+   * @param string $resource Name or id of the resource for this request.
+   * @param TestPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestPermissionsResponse
+   */
+  public function testIamPermissions($project, $region, $resource, TestPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestPermissionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(RegionDisks::class, 'Google_Service_Compute_Resource_RegionDisks');

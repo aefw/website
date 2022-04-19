@@ -1,69 +1,178 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-spSmyRkzCL9tnp/6Sdj05FAaUtjkxW==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudComposer\Resource;
+
+use Google\Service\CloudComposer\Environment;
+use Google\Service\CloudComposer\ListEnvironmentsResponse;
+use Google\Service\CloudComposer\Operation;
+
+/**
+ * The "environments" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $composerService = new Google\Service\CloudComposer(...);
+ *   $environments = $composerService->environments;
+ *  </code>
+ */
+class ProjectsLocationsEnvironments extends \Google\Service\Resource
+{
+  /**
+   * Create a new environment. (environments.create)
+   *
+   * @param string $parent The parent must be of the form
+   * "projects/{projectId}/locations/{locationId}".
+   * @param Environment $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function create($parent, Environment $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Operation::class);
+  }
+  /**
+   * Delete an environment. (environments.delete)
+   *
+   * @param string $name The environment to delete, in the form:
+   * "projects/{projectId}/locations/{locationId}/environments/{environmentId}"
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Get an existing environment. (environments.get)
+   *
+   * @param string $name The resource name of the environment to get, in the form:
+   * "projects/{projectId}/locations/{locationId}/environments/{environmentId}"
+   * @param array $optParams Optional parameters.
+   * @return Environment
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Environment::class);
+  }
+  /**
+   * List environments. (environments.listProjectsLocationsEnvironments)
+   *
+   * @param string $parent List environments in the given project and location, in
+   * the form: "projects/{projectId}/locations/{locationId}"
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The maximum number of environments to return.
+   * @opt_param string pageToken The next_page_token value returned from a
+   * previous List request, if any.
+   * @return ListEnvironmentsResponse
+   */
+  public function listProjectsLocationsEnvironments($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListEnvironmentsResponse::class);
+  }
+  /**
+   * Update an environment. (environments.patch)
+   *
+   * @param string $name The relative resource name of the environment to update,
+   * in the form:
+   * "projects/{projectId}/locations/{locationId}/environments/{environmentId}"
+   * @param Environment $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. A comma-separated list of paths,
+   * relative to `Environment`, of fields to update. For example, to set the
+   * version of scikit-learn to install in the environment to 0.19.0 and to remove
+   * an existing installation of numpy, the `updateMask` parameter would include
+   * the following two `paths` values: "config.softwareConfig.pypiPackages.scikit-
+   * learn" and "config.softwareConfig.pypiPackages.numpy". The included patch
+   * environment would specify the scikit-learn version as follows: { "config":{
+   * "softwareConfig":{ "pypiPackages":{ "scikit-learn":"==0.19.0" } } } } Note
+   * that in the above example, any existing PyPI packages other than scikit-learn
+   * and numpy will be unaffected. Only one update type may be included in a
+   * single request's `updateMask`. For example, one cannot update both the PyPI
+   * packages and labels in the same request. However, it is possible to update
+   * multiple members of a map field simultaneously in the same request. For
+   * example, to set the labels "label1" and "label2" while clearing "label3"
+   * (assuming it already exists), one can provide the paths "labels.label1",
+   * "labels.label2", and "labels.label3" and populate the patch environment as
+   * follows: { "labels":{ "label1":"new-label1-value" "label2":"new-label2-value"
+   * } } Note that in the above example, any existing labels that are not included
+   * in the `updateMask` will be unaffected. It is also possible to replace an
+   * entire map field by providing the map field's path in the `updateMask`. The
+   * new value of the field will be that which is provided in the patch
+   * environment. For example, to delete all pre-existing user-specified PyPI
+   * packages and install botocore at version 1.7.14, the `updateMask` would
+   * contain the path "config.softwareConfig.pypiPackages", and the patch
+   * environment would be the following: { "config":{ "softwareConfig":{
+   * "pypiPackages":{ "botocore":"==1.7.14" } } } } **Note:** Only the following
+   * fields can be updated: *Mask* *Purpose* config.softwareConfig.pypiPackages
+   * Replace all custom custom PyPI packages. If a replacement package map is not
+   * included in `environment`, all custom PyPI packages are cleared. It is an
+   * error to provide both this mask and a mask specifying an individual package.
+   * config.softwareConfig.pypiPackages.packagename Update the custom PyPI package
+   * packagename, preserving other packages. To delete the package, include it in
+   * `updateMask`, and omit the mapping for it in
+   * `environment.config.softwareConfig.pypiPackages`. It is an error to provide
+   * both a mask of this form and the "config.softwareConfig.pypiPackages" mask.
+   * labels Replace all environment labels. If a replacement labels map is not
+   * included in `environment`, all labels are cleared. It is an error to provide
+   * both this mask and a mask specifying one or more individual labels.
+   * labels.labelName Set the label named labelName, while preserving other
+   * labels. To delete the label, include it in `updateMask` and omit its mapping
+   * in `environment.labels`. It is an error to provide both a mask of this form
+   * and the "labels" mask. config.nodeCount Horizontally scale the number of
+   * nodes in the environment. An integer greater than or equal to 3 must be
+   * provided in the `config.nodeCount` field.
+   * config.webServerNetworkAccessControl Replace the environment's current
+   * WebServerNetworkAccessControl. config.databaseConfig Replace the
+   * environment's current DatabaseConfig. config.webServerConfig Replace the
+   * environment's current WebServerConfig.
+   * config.softwareConfig.airflowConfigOverrides Replace all Apache Airflow
+   * config overrides. If a replacement config overrides map is not included in
+   * `environment`, all config overrides are cleared. It is an error to provide
+   * both this mask and a mask specifying one or more individual config overrides.
+   * config.softwareConfig.airflowConfigOverrides.section-name Override the Apache
+   * Airflow config property name in the section named section, preserving other
+   * properties. To delete the property override, include it in `updateMask` and
+   * omit its mapping in
+   * `environment.config.softwareConfig.airflowConfigOverrides`. It is an error to
+   * provide both a mask of this form and the
+   * "config.softwareConfig.airflowConfigOverrides" mask.
+   * config.softwareConfig.envVariables Replace all environment variables. If a
+   * replacement environment variable map is not included in `environment`, all
+   * custom environment variables are cleared. It is an error to provide both this
+   * mask and a mask specifying one or more individual environment variables.
+   * @return Operation
+   */
+  public function patch($name, Environment $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsEnvironments::class, 'Google_Service_CloudComposer_Resource_ProjectsLocationsEnvironments');

@@ -1,76 +1,147 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AndroidPublisher\Resource;
+
+use Google\Service\AndroidPublisher\InAppProduct;
+use Google\Service\AndroidPublisher\InappproductsListResponse;
+
+/**
+ * The "inappproducts" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $androidpublisherService = new Google\Service\AndroidPublisher(...);
+ *   $inappproducts = $androidpublisherService->inappproducts;
+ *  </code>
+ */
+class Inappproducts extends \Google\Service\Resource
+{
+  /**
+   * Deletes an in-app product (i.e. a managed product or a subscriptions).
+   * (inappproducts.delete)
+   *
+   * @param string $packageName Package name of the app.
+   * @param string $sku Unique identifier for the in-app product.
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($packageName, $sku, $optParams = [])
+  {
+    $params = ['packageName' => $packageName, 'sku' => $sku];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Gets an in-app product, which can be a managed product or a subscription.
+   * (inappproducts.get)
+   *
+   * @param string $packageName Package name of the app.
+   * @param string $sku Unique identifier for the in-app product.
+   * @param array $optParams Optional parameters.
+   * @return InAppProduct
+   */
+  public function get($packageName, $sku, $optParams = [])
+  {
+    $params = ['packageName' => $packageName, 'sku' => $sku];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], InAppProduct::class);
+  }
+  /**
+   * Creates an in-app product (i.e. a managed product or a subscriptions).
+   * (inappproducts.insert)
+   *
+   * @param string $packageName Package name of the app.
+   * @param InAppProduct $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool autoConvertMissingPrices If true the prices for all regions
+   * targeted by the parent app that don't have a price specified for this in-app
+   * product will be auto converted to the target currency based on the default
+   * price. Defaults to false.
+   * @return InAppProduct
+   */
+  public function insert($packageName, InAppProduct $postBody, $optParams = [])
+  {
+    $params = ['packageName' => $packageName, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], InAppProduct::class);
+  }
+  /**
+   * Lists all in-app products - both managed products and subscriptions.
+   * (inappproducts.listInappproducts)
+   *
+   * @param string $packageName Package name of the app.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string maxResults How many results the list operation should
+   * return.
+   * @opt_param string startIndex The index of the first element to return.
+   * @opt_param string token Pagination token. If empty, list starts at the first
+   * product.
+   * @return InappproductsListResponse
+   */
+  public function listInappproducts($packageName, $optParams = [])
+  {
+    $params = ['packageName' => $packageName];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], InappproductsListResponse::class);
+  }
+  /**
+   * Patches an in-app product (i.e. a managed product or a subscriptions).
+   * (inappproducts.patch)
+   *
+   * @param string $packageName Package name of the app.
+   * @param string $sku Unique identifier for the in-app product.
+   * @param InAppProduct $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool autoConvertMissingPrices If true the prices for all regions
+   * targeted by the parent app that don't have a price specified for this in-app
+   * product will be auto converted to the target currency based on the default
+   * price. Defaults to false.
+   * @return InAppProduct
+   */
+  public function patch($packageName, $sku, InAppProduct $postBody, $optParams = [])
+  {
+    $params = ['packageName' => $packageName, 'sku' => $sku, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], InAppProduct::class);
+  }
+  /**
+   * Updates an in-app product (i.e. a managed product or a subscriptions).
+   * (inappproducts.update)
+   *
+   * @param string $packageName Package name of the app.
+   * @param string $sku Unique identifier for the in-app product.
+   * @param InAppProduct $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool autoConvertMissingPrices If true the prices for all regions
+   * targeted by the parent app that don't have a price specified for this in-app
+   * product will be auto converted to the target currency based on the default
+   * price. Defaults to false.
+   * @return InAppProduct
+   */
+  public function update($packageName, $sku, InAppProduct $postBody, $optParams = [])
+  {
+    $params = ['packageName' => $packageName, 'sku' => $sku, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], InAppProduct::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Inappproducts::class, 'Google_Service_AndroidPublisher_Resource_Inappproducts');

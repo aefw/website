@@ -1,61 +1,85 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute;
+
+class ResourcePolicyInstanceSchedulePolicy extends \Google\Model
+{
+  public $expirationTime;
+  public $startTime;
+  public $timeZone;
+  protected $vmStartScheduleType = ResourcePolicyInstanceSchedulePolicySchedule::class;
+  protected $vmStartScheduleDataType = '';
+  protected $vmStopScheduleType = ResourcePolicyInstanceSchedulePolicySchedule::class;
+  protected $vmStopScheduleDataType = '';
+
+  public function setExpirationTime($expirationTime)
+  {
+    $this->expirationTime = $expirationTime;
+  }
+  public function getExpirationTime()
+  {
+    return $this->expirationTime;
+  }
+  public function setStartTime($startTime)
+  {
+    $this->startTime = $startTime;
+  }
+  public function getStartTime()
+  {
+    return $this->startTime;
+  }
+  public function setTimeZone($timeZone)
+  {
+    $this->timeZone = $timeZone;
+  }
+  public function getTimeZone()
+  {
+    return $this->timeZone;
+  }
+  /**
+   * @param ResourcePolicyInstanceSchedulePolicySchedule
+   */
+  public function setVmStartSchedule(ResourcePolicyInstanceSchedulePolicySchedule $vmStartSchedule)
+  {
+    $this->vmStartSchedule = $vmStartSchedule;
+  }
+  /**
+   * @return ResourcePolicyInstanceSchedulePolicySchedule
+   */
+  public function getVmStartSchedule()
+  {
+    return $this->vmStartSchedule;
+  }
+  /**
+   * @param ResourcePolicyInstanceSchedulePolicySchedule
+   */
+  public function setVmStopSchedule(ResourcePolicyInstanceSchedulePolicySchedule $vmStopSchedule)
+  {
+    $this->vmStopSchedule = $vmStopSchedule;
+  }
+  /**
+   * @return ResourcePolicyInstanceSchedulePolicySchedule
+   */
+  public function getVmStopSchedule()
+  {
+    return $this->vmStopSchedule;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ResourcePolicyInstanceSchedulePolicy::class, 'Google_Service_Compute_ResourcePolicyInstanceSchedulePolicy');

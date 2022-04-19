@@ -1,70 +1,98 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Speech;
+
+class RecognitionMetadata extends \Google\Model
+{
+  public $audioTopic;
+  public $industryNaicsCodeOfAudio;
+  public $interactionType;
+  public $microphoneDistance;
+  public $originalMediaType;
+  public $originalMimeType;
+  public $recordingDeviceName;
+  public $recordingDeviceType;
+
+  public function setAudioTopic($audioTopic)
+  {
+    $this->audioTopic = $audioTopic;
+  }
+  public function getAudioTopic()
+  {
+    return $this->audioTopic;
+  }
+  public function setIndustryNaicsCodeOfAudio($industryNaicsCodeOfAudio)
+  {
+    $this->industryNaicsCodeOfAudio = $industryNaicsCodeOfAudio;
+  }
+  public function getIndustryNaicsCodeOfAudio()
+  {
+    return $this->industryNaicsCodeOfAudio;
+  }
+  public function setInteractionType($interactionType)
+  {
+    $this->interactionType = $interactionType;
+  }
+  public function getInteractionType()
+  {
+    return $this->interactionType;
+  }
+  public function setMicrophoneDistance($microphoneDistance)
+  {
+    $this->microphoneDistance = $microphoneDistance;
+  }
+  public function getMicrophoneDistance()
+  {
+    return $this->microphoneDistance;
+  }
+  public function setOriginalMediaType($originalMediaType)
+  {
+    $this->originalMediaType = $originalMediaType;
+  }
+  public function getOriginalMediaType()
+  {
+    return $this->originalMediaType;
+  }
+  public function setOriginalMimeType($originalMimeType)
+  {
+    $this->originalMimeType = $originalMimeType;
+  }
+  public function getOriginalMimeType()
+  {
+    return $this->originalMimeType;
+  }
+  public function setRecordingDeviceName($recordingDeviceName)
+  {
+    $this->recordingDeviceName = $recordingDeviceName;
+  }
+  public function getRecordingDeviceName()
+  {
+    return $this->recordingDeviceName;
+  }
+  public function setRecordingDeviceType($recordingDeviceType)
+  {
+    $this->recordingDeviceType = $recordingDeviceType;
+  }
+  public function getRecordingDeviceType()
+  {
+    return $this->recordingDeviceType;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(RecognitionMetadata::class, 'Google_Service_Speech_RecognitionMetadata');

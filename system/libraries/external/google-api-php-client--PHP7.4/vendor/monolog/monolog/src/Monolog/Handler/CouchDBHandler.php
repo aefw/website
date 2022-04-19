@@ -1,68 +1,73 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cP/daTH1ZPqvO2YlWCrspTmSGUsXaOiVxTu38bl4rM2maBDUBMPkflmCCdYy/VLPBhhKL8uGv
-+TyJoySphAQxT+8eqHSeBg5YMncJC+QuCTlmqaxaxeom7N+eCsYFY0CcluLNC5dxFz+G2dYCUqXs
-xs2Vdpdq79R7OK8/Rr4S8lbK70ST/G0uRg4DUUJKfPEWuYKBX69E1m1cCxy5hQe+E+xV/AQNZoHc
-nXPXo6FSESMzupVX5hD3E3aC4dE4oXgfNYd5UynhTb1Yi0MCtrneigx3/E9mKourL8IeB86cFae5
-vLNzQFfij+GRUq7aatw8L3czRyo94EKcVoCBvB0oExfms6WSYdlchJYEVwgdykO6DwUvHBt+WSqN
-EMaIFrgy3Bj6/PWpC4Ovn8ZDzsBZPy78FPR29Vr7oPJMU+hPDow8FzXV7hsEy4g7sAWzpVkdBsHf
-S/18d7u+i8pjQp2tMLUd5S44r8yJSC4NXXG7y4R1/OmeJc7bESRSs0tZKDFHFqsGJBI2YGELI1wn
-RBoBRoJp7BQ5gBfYm1Ipo4DCrH/RsEU4HAI/9zvZdbo9HH8VtHuph8eK+5rsYt2kzEgm29wFFZ0o
-XD8+1EOXwxd8gLAbUhnJhxhuiL9BMGkiGwZAQqkcagDdpmvi46S4k7UFyK/FEX42vl15jPtEv98s
-Ys589tVLZpqwCeuPEi0xbu/n47cUO/iVzYZ4KCD8IEcywJcMUagMnR0zoXWnSMYrOHKX4KGobDI7
-k/8P8HPeUQ+xoysTv9cqfkJ9Ogs/zWhWLsDwIqGliblDGNM4uKIfZJS0a9XWl1v7tq1RyMxW+vo0
-qcEo2qC3+uG8jX4wYoPBTWrDp1bQgwZcpPe/nk952gE2ZrwVX41+DWdo+E9HqrKQWi3yHsOOzluJ
-Qn4Nz6Q5doP9CrJdq26t3POWUnuST1BgzANJtFLt9IivQst+Rc8vk5XywXpOEcxtYWS75uUdIVI/
-DxT6JyHdTWD7g9cN3WhQEWXticeItf1SLc9yvM7rIscsuliV8Mb00HEuyi9B4Nk4+ACIEwuJ1ZWJ
-TZrxdiFNPqB0rzauy7cIBcWUsx2oCupJE2et7QgaRouX63NFUg7OXxpmQDuSe1D1UrwASC8G4qDe
-kMWihn2k6wf7ZVinT/K9yQt5lfkT4u92bynp1B5pB8xxThdbKeBDBnoE0WarVwwKSvTqJAgDChE6
-7EG2hal0rKGPb8cRZ+HrPGF2xqE3Q8ui/jVk9ISYQEmFVHy7LIWDQIAchGgZs5O1JqxYE+1N2P2U
-sLSdKX/HI4KN3qxKl+2JS8clBry8247bQh6Mo1WxhABtan/9KgPBIOeMYNHvKddNYOlrVyNmawBk
-UJQITOVug3l0RCqM1QDvM3Skas6fiPtXps2WR4MTfYNnpWLLLybINsQZuoqogukCBvYLkJTtdJMJ
-iKeY43vKIZsvIMhCUWEo41D2SWdHWOYHQ3c5ViLvwsC4Webe6zqZ5QVCPvq6/IHO9ldm1Ywl13Tw
-Dxo0Ui/6ku7FYO7Mc6GFOQWRj6Q0lMyBaVYLP4SnwPlJUPaS9LvhYu4DkYpASNiqy4XbCR6O53qm
-SXv/BhpQcBUFIOIy2UFAKONNitJym8V6323SHh68gBwcq/AmNaBeS8Hs9Z3VDvxRFcj7A2z9408W
-28mOP2GjFzp6ORQx/OZM46G5KVZX0jOfgoCJdYrNOD69fuEuf4DhA14i/mpUu4hBeSsA/3UJju7O
-8zY7rwW0jbpgHWAsFRRMHjBPEYez4di4o7jyllh+ijgC0b4LT5lbK9nhXIEuSvBhFuvQ98mUOuE1
-EpGvt8nc3Uljb9/pjlC2SDLZCfqFAdopRZwIIUN4Ymq+05FWP7CLSrtkI2r1bzdR6p9HMf4HvPQY
-DeU2lIqSgo7A3FLOdvIzrYeCLhBw2pdiozkF27Q7GYfAGTnhGRbyLYkZcVvGazmK/vvsAaRChXQt
-DR0dkgCNOQotUwwO05PJtsvqSjooUF71n3M3GeeqXXvLudsx9+PV6ddHgws/tZHLYBvPXJdtviRn
-64dODVHh1N8wefL8WKrqDXbF+epa/zE2jrblxpNpjKIaCsT8kNVVG4fqfQpp9Qk6AFx2FYLwepME
-fkUHJn2YtcqMjYTo2fwNJoJu+kV9KH+ER88ols+//Y5F51ZbfxdI57Cl3H8O9viBw5Y0BNxYW7PR
-tGrw8qNGgvowrYV2Y14eHpADbrEAkA59wv3/RF3gbKVAgSg6cvvAJwOKs4BNHqU/QCHPXDHSqYgx
-eFeP3bdpDhYDGTKePAaYrqTlBpueiL91ZUg3ZTzA6pge+anM2P2Uj8mw010bj+tibLJzO2FqXeee
-OVHuMpEgfu+KAhK+N8w3vjIV8RitmGhrAphrWla9Td5j9aaCoShnMOjzdHqs4FzdQicpxyyYma2Y
-Hz8BJ8AyZps08UYHR6EwDrMasC5whETzw4B411Emc/YxJqK4emgV2bu6QNRPyKrJYshOS81Cl40R
-N/DxroE7N7Y7HfpB+I6v8MC2tTLadDBp8/K3kfeU3UFph37SDQLpHK6XpMIXQ39mGWw8IRcpcUvJ
-cdWkUN1yDS/5mlBHMCDw9oFTf/rjRbfYaB7OK1utW5i7Zl3eOL/33bJHi53rnJsWHMO+/cH3jQud
-XYVxNLBAfzapOH6utD3ScwK4dSjioJW8l9KHggxiT7hjNKtXO+R95QhFHbYnl2hX+tfioDK1g7ML
-N7k2PdrHd51EoLKVMzIsJhmM/vyrepIrfJVBE2B/B0PVv7Q4vtzPI+szxJuqccqWyIz2PhO5JOXH
-eL4B0TeKJWrYWPcCoK1DEDHcMjDsD2RCwxoXHvk1C1muZuLqoI0KUMgQcrZI5YAmQo+c2maSYfyr
-DXH97LYi3OzNycf/FjchHgz1hZLGWZJ3QVIj1QeYFTwgIm+F1VLHht9JrzCUHV9jSYfIIe3wEoLy
-kPYBrMv9j7sEOZ+SwXzWjI/XJkMe1pQ+EtYG1TRwwFCCd61LvoRsOqUUww5YsWgFRcVeP7hP+3aX
-kXNYDaB7bf0POXnqdivWUAvJCwAyE1WMa1CDxzrBAu5AtkBpbtpoFa0xI1ts+dl/9GetexC63DBS
-GM2w7fih4z1xLImVkm+Fs+jbUZLu6a9Fww4byAUtCCKp8bRUdnxSI/4AInPVl+BSfX0M/vTx7RAy
-xvHmpDO9dLhRr0kepciaoQFk5iE/m/SITWPdZb7iAH1Tv9Ss32Q5TBbLQ5fYDoH+NoDstQO5dJ2D
-QIJXgyrs9zzvLBt9B6Vt7Z8uE3FJAxgg9x/dBKnsdsByw04GZQAiV/kByrvW/3FM+tSKchjdV5S2
-JieXnRMNrzjGdatBvKw8P0EWGkAOwvGtWZZ8qzHgk9AkHAJCnc72g8BfE3CVNh9/3eCYRG9D7Ex+
-kizro+hdLKTFDtEUWI8r95ozHb1r1VG9MgfcM2bAwb3hACXgUlnfnxtVMnGScoq6nJZFYNUvcWjW
-xv5dPE0DrbaAYbZFKZzlevdctC+oOb2PnNoU+dZjbVMI6z5aOcjlDi+4v8QgFQxcslUVfLkHySOW
-LOsq3RB9SnahuXjHrZzryIZztsNg8B7jwedPObqsC/+eKDn5Zi8KuMJO2Yg4hp8pwyPuUMsQlyaU
-7mYDy94qX3lxHMJpL49ujLGgZSQDnnMaZkO4XfE8d7AL2RprueAM1NW8vwcxRonDq2/lqAOBblqt
-Tcn2zFETVpqKRzpcJhq//5bBCchvYZi17bTLgwHIyn3plaScCm2ctdrNyfB2sxIP6zCR/+aRrKXB
-AvP4tEtBen5wFnU76zN5xKWr2V8uPSPLZ2cLkomF+Y4TijYxpLEA2DIx269WkR+0oR8PmE8fL+hc
-7MSeIDuGGYEkPc9Blw5BgLky2J6sp1IsPQMpiYte2R4gtdgxhM/eKbBgrYwPD8eHMSZWlXi+CGwF
-NO7xP813k1uLxkiBaLHKHKRhJxG5zX5KEtWRSHnniNecGwQxPL0EVBu6wpAjZrr+qMi+nEW7HBgR
-qIkSICHtxuQ5Ga8HI94d84zEeUyHqWo1lauJjKtMfSSEx7BCjc0CdcLdcW5C+3uLOqXua+z7Uaep
-+3VifKbIvA1bVNZ9/0xOr5Au6PIpNIlM+UrNWEj605iSiFUpyO6SITO3Pif5wY++wwNrDBbQY15D
-Qak1aJ8a1AtkIVUl78u5EvOIjysi5uSJ4T42JrWmJywed0z0kxuNtGpSxd/SolIaW7PBqA1xQeyd
-53bIwSglEabSoF7Kpt9Y4pVWzRu4QlGaTsn8wrvWA6rSsrk31+TMW/NbxOdwe9bUlOckBLCbXxm3
-GO9W7HSp1wGR1osPNHDEwARMJPOEr2MwWUh6wVIyeQDiDaetPVy6ejFomWbC86+5C8MleaGzhsqr
-nZVqbQQ7ZaiFBOkkAHir5IQl2j67quH57sK8tNjBpDwU/y6LM9No+0U9QceCJ0qHPBCEzvulbMM9
-R6NNYXgDU2JfugV/M2sIw+zwQigdtxdzGo66eC0v0qgmv57PzlO1URYbgwEfO/hXfs+WzeiXyqN0
-MDHc17biastds/Y66A/nl9vAjIF+IGDn6iI0akjzYA8ilUkWJWLaPZxvn7rBOOnH5W7ybeyu7XM6
-ksm71jd4iCQFEXkESYrqMpiXdOcJG3IhQpMYGQYo/ybuwG==
+<?php declare(strict_types=1);
+
+/*
+ * This file is part of the Monolog package.
+ *
+ * (c) Jordi Boggiano <j.boggiano@seld.be>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Monolog\Handler;
+
+use Monolog\Formatter\FormatterInterface;
+use Monolog\Formatter\JsonFormatter;
+use Monolog\Logger;
+
+/**
+ * CouchDB handler
+ *
+ * @author Markus Bachmann <markus.bachmann@bachi.biz>
+ */
+class CouchDBHandler extends AbstractProcessingHandler
+{
+    private $options;
+
+    public function __construct(array $options = [], $level = Logger::DEBUG, bool $bubble = true)
+    {
+        $this->options = array_merge([
+            'host'     => 'localhost',
+            'port'     => 5984,
+            'dbname'   => 'logger',
+            'username' => null,
+            'password' => null,
+        ], $options);
+
+        parent::__construct($level, $bubble);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    protected function write(array $record): void
+    {
+        $basicAuth = null;
+        if ($this->options['username']) {
+            $basicAuth = sprintf('%s:%s@', $this->options['username'], $this->options['password']);
+        }
+
+        $url = 'http://'.$basicAuth.$this->options['host'].':'.$this->options['port'].'/'.$this->options['dbname'];
+        $context = stream_context_create([
+            'http' => [
+                'method'        => 'POST',
+                'content'       => $record['formatted'],
+                'ignore_errors' => true,
+                'max_redirects' => 0,
+                'header'        => 'Content-type: application/json',
+            ],
+        ]);
+
+        if (false === @file_get_contents($url, false, $context)) {
+            throw new \RuntimeException(sprintf('Could not connect to %s', $url));
+        }
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    protected function getDefaultFormatter(): FormatterInterface
+    {
+        return new JsonFormatter(JsonFormatter::BATCH_MODE_JSON, false);
+    }
+}

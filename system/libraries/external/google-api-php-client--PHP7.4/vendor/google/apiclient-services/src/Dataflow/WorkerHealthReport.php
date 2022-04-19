@@ -1,67 +1,90 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dataflow;
+
+class WorkerHealthReport extends \Google\Collection
+{
+  protected $collection_key = 'pods';
+  public $msg;
+  public $pods;
+  public $reportInterval;
+  public $vmBrokenCode;
+  public $vmIsBroken;
+  public $vmIsHealthy;
+  public $vmStartupTime;
+
+  public function setMsg($msg)
+  {
+    $this->msg = $msg;
+  }
+  public function getMsg()
+  {
+    return $this->msg;
+  }
+  public function setPods($pods)
+  {
+    $this->pods = $pods;
+  }
+  public function getPods()
+  {
+    return $this->pods;
+  }
+  public function setReportInterval($reportInterval)
+  {
+    $this->reportInterval = $reportInterval;
+  }
+  public function getReportInterval()
+  {
+    return $this->reportInterval;
+  }
+  public function setVmBrokenCode($vmBrokenCode)
+  {
+    $this->vmBrokenCode = $vmBrokenCode;
+  }
+  public function getVmBrokenCode()
+  {
+    return $this->vmBrokenCode;
+  }
+  public function setVmIsBroken($vmIsBroken)
+  {
+    $this->vmIsBroken = $vmIsBroken;
+  }
+  public function getVmIsBroken()
+  {
+    return $this->vmIsBroken;
+  }
+  public function setVmIsHealthy($vmIsHealthy)
+  {
+    $this->vmIsHealthy = $vmIsHealthy;
+  }
+  public function getVmIsHealthy()
+  {
+    return $this->vmIsHealthy;
+  }
+  public function setVmStartupTime($vmStartupTime)
+  {
+    $this->vmStartupTime = $vmStartupTime;
+  }
+  public function getVmStartupTime()
+  {
+    return $this->vmStartupTime;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(WorkerHealthReport::class, 'Google_Service_Dataflow_WorkerHealthReport');

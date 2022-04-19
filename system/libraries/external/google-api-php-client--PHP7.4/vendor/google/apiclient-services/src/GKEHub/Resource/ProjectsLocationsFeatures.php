@@ -1,84 +1,233 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-4D4T
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\GKEHub\Resource;
+
+use Google\Service\GKEHub\Feature;
+use Google\Service\GKEHub\ListFeaturesResponse;
+use Google\Service\GKEHub\Operation;
+use Google\Service\GKEHub\Policy;
+use Google\Service\GKEHub\SetIamPolicyRequest;
+use Google\Service\GKEHub\TestIamPermissionsRequest;
+use Google\Service\GKEHub\TestIamPermissionsResponse;
+
+/**
+ * The "features" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $gkehubService = new Google\Service\GKEHub(...);
+ *   $features = $gkehubService->features;
+ *  </code>
+ */
+class ProjectsLocationsFeatures extends \Google\Service\Resource
+{
+  /**
+   * Adds a new Feature. (features.create)
+   *
+   * @param string $parent The parent (project and location) where the Feature
+   * will be created. Specified in the format `projects/locations`.
+   * @param Feature $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string featureId The ID of the feature to create.
+   * @opt_param string requestId Optional. A request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed. The
+   * server will guarantee that for at least 60 minutes after the first request.
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments. The request ID must be a
+   * valid UUID with the exception that zero UUID is not supported
+   * (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function create($parent, Feature $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Operation::class);
+  }
+  /**
+   * Removes a Feature. (features.delete)
+   *
+   * @param string $name The Feature resource name in the format
+   * `projects/locations/features`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool force If set to true, the delete will ignore any outstanding
+   * resources for this Feature (that is, `FeatureState.has_resources` is set to
+   * true). These resources will NOT be cleaned up or modified in any way.
+   * @opt_param string requestId Optional. A request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed. The
+   * server will guarantee that for at least 60 minutes after the first request.
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments. The request ID must be a
+   * valid UUID with the exception that zero UUID is not supported
+   * (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Gets details of a single Feature. (features.get)
+   *
+   * @param string $name The Feature resource name in the format
+   * `projects/locations/features`
+   * @param array $optParams Optional parameters.
+   * @return Feature
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Feature::class);
+  }
+  /**
+   * Gets the access control policy for a resource. Returns an empty policy if the
+   * resource exists and does not have a policy set. (features.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int options.requestedPolicyVersion Optional. The policy format
+   * version to be returned. Valid values are 0, 1, and 3. Requests specifying an
+   * invalid value will be rejected. Requests for policies with any conditional
+   * bindings must specify version 3. Policies without any conditional bindings
+   * may specify any valid value or leave the field unset. To learn which
+   * resources support conditions in their IAM policies, see the [IAM
+   * documentation](https://cloud.google.com/iam/help/conditions/resource-
+   * policies).
+   * @return Policy
+   */
+  public function getIamPolicy($resource, $optParams = [])
+  {
+    $params = ['resource' => $resource];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Lists Features in a given project and location.
+   * (features.listProjectsLocationsFeatures)
+   *
+   * @param string $parent The parent (project and location) where the Features
+   * will be listed. Specified in the format `projects/locations`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Lists Features that match the filter expression,
+   * following the syntax outlined in https://google.aip.dev/160. Examples: -
+   * Feature with the name "servicemesh" in project "foo-proj": name = "projects
+   * /foo-proj/locations/global/features/servicemesh" - Features that have a label
+   * called `foo`: labels.foo:* - Features that have a label called `foo` whose
+   * value is `bar`: labels.foo = bar
+   * @opt_param string orderBy One or more fields to compare and use to sort the
+   * output. See https://google.aip.dev/132#ordering.
+   * @opt_param int pageSize When requesting a 'page' of resources, `page_size`
+   * specifies number of resources to return. If unspecified or set to 0, all
+   * resources will be returned.
+   * @opt_param string pageToken Token returned by previous call to `ListFeatures`
+   * which specifies the position in the list from where to continue listing the
+   * resources.
+   * @return ListFeaturesResponse
+   */
+  public function listProjectsLocationsFeatures($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListFeaturesResponse::class);
+  }
+  /**
+   * Updates an existing Feature. (features.patch)
+   *
+   * @param string $name The Feature resource name in the format
+   * `projects/locations/features`.
+   * @param Feature $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId Optional. A request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed. The
+   * server will guarantee that for at least 60 minutes after the first request.
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments. The request ID must be a
+   * valid UUID with the exception that zero UUID is not supported
+   * (00000000-0000-0000-0000-000000000000).
+   * @opt_param string updateMask Mask of fields to update.
+   * @return Operation
+   */
+  public function patch($name, Feature $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+  /**
+   * Sets the access control policy on the specified resource. Replaces any
+   * existing policy. Can return `NOT_FOUND`, `INVALID_ARGUMENT`, and
+   * `PERMISSION_DENIED` errors. (features.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource. If the
+   * resource does not exist, this will return an empty set of permissions, not a
+   * `NOT_FOUND` error. Note: This operation is designed to be used for building
+   * permission-aware UIs and command-line tools, not for authorization checking.
+   * This operation may "fail open" without warning. (features.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsFeatures::class, 'Google_Service_GKEHub_Resource_ProjectsLocationsFeatures');

@@ -1,207 +1,635 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPvEpmIntCJe3VbrK3nglajbSJDhtPv/5CDKRiKJNvD9DCzb9pX8CpiWb2wM2Lawkr6RDhGz2
-ZgnyaQH+NtB5LyjfCcAJTUcpPojhotcl4DWPGiR/E9gDmU41g3Lu195NiqbCGTF3FJ3j5GB0fLB8
-yhUx0XJ1/3s51NB6fmnMRB2m3wXC+Uld4JMrPyOeIQ3HbOzw+i+4Z+ikE/YLd2ktqBUw4E7TsWZG
-b7r9N137gDnQtpyp9j/KTafhJiB7kfcpL/wxE+KoiJ6b6Q0bhlt0nPljznlYS5CkDLI4g2o1fZvA
-1ULLh7CoWheBlS7ma2FSYDIo2Zt/jPY57QHCpVw0sqsSAJ+T0GrWgxKQmK6O+pwsTN8R+72n+F0t
-73Wxqf9tklvmUIES6gkIQ3TfqqEZ13lKat9z7rH0SD/nGmAWrSusIX0ViCl0UY6rQnaVdYZQakVV
-hRIJ+lg60mz2ZTXoBHuTyGJ2UbCBrTBH7tkSq9MI0PAEOOg33uxOe32zejkTotzoKxLiPkCYXQI7
-fMPV0WPh1yr30kYND8Xf6ce5gWUbawSd7DMUp1zqPXJcLStkA6EdI4IBVF196vkaE75ycwXUS8cE
-ATAFJTsT3rDcvpRrUsA1+yLkrakErqscWRPSgVHYQSKrMLwfMKPGBYDeTvWIp3rO3//wIcLx/Cat
-pqPoFPtNynrwEkBRVWrH4Pyk2Fb6cCyN9gDhscvKkJtZ5n6agXmpOrIjn+ommYl+gAwT6X69/VVu
-C5AZqzx7lHT3Z8i8ieVidmosC41gBQP7kQaT5I2hT0OQ5zyiQNyK5I4NUJEuL0bJvJyYoyvWpEvA
-cnQIew5uLJESOAE2azBSnoADlmO0Co2Wq9fXAmzFkEmwbFzSHVqqylhHUGXcJBYo4sAbSXfZvv6k
-YMp+d5rD6zWaGiohq49MSUrKUEvNVGqM8LbD94BYAKWQk4uEvsaogbPJwLe8976yupGUwwvbHgtc
-tebYvD8g3k+o2JGF3qMDRjvY+bP3/vy9xY+GrId7ILl//GjSmGRMBviOKd3Hmz893RG6TgE01qJS
-X46rhemNN2+2vTADunzV7kewBC6EAFcgCid8jhkqyeGF0yk6gt3UMZrIwR9cBXfFnBY4lYuQhzg3
-KLZlsdIgjvrzDIIlAFNpeYgGsFMgnv5NmnpdByzNdahwujsl+B2gsgtldwwP5nqo5isrxyBU1zrs
-fEIA1QPMCXETKv4TwgcoV2VNuuaZhSdUwoKtjf6aGngxXh5OmXO7MkFv0ae0upQ098Wr/JcPLczh
-HH+w147ad+Ypj3WeXI0DTSsRzh5gcesf1TM25ucooNiIDu/jqbakj22N/L5n6Lgj25psO9GfNwTc
-pk0FBdU9vahdCPx2kO5nRX5GZMe7PdpI3W0VqihIGCiJT1ghNNkFksUG0W/A94XcGWz/FY+v2Ym2
-7jVuN24eko5ZCwhQDQNqr8V68IDZOYcQKMuFFRN/18xtTGYulcAU9GD8F/rSBzkvh2qjJGJhB9Fu
-aZ5YBlCm2q8e7kogyH43de7Jc4zJ3OY3BaZSKiPJJrEzaerhq4ASL0vvIMrU9YGfk4fZPgXx96nd
-bI1RCuH7uQcyFmYfXeJhPBvWK4Q5/7zOdrcfNgYzQHcu2Owjtd8zbY8Qtgmgtpe8qjTYVMV62llR
-equnI+NbWJBqP34Sd8yz282b11Z8UAYcQ82d0R5wIzDOrNHatqxGw2JXGo/tE41NzjWLcntPWkpB
-pNVdQai053UiOG7CJuVuVHyoBglhMDZIs2QWoB1ms8z5Jl3+3z2jlHOX5ASFt9kpfzQCVbpEdVh8
-k9FTB12YK+aZiCzVNghV5m+yY59meXdcDyXjcMXOfOuLSymFtchj+OYFQ4s5iC6S7Kok7r/m/qeK
-cYCv4ex4BdgQrHolzzUjBUz9iQ8akyaT12+XIDF7CRqps8AcSF9hqFwuW/CAhRyrCNNZYZh3M6nP
-63M6XSX/DOXUDp3A8j9QKDjVeVuMqPv6Bic9WIBXyTksstCl6Qre0Mu3dBbZHdqZgVJibIvZirsK
-q+5JRXLi7W5IUxSINHJk/TIoLVZ05EJTgptDA5vxCuQZsRy9RHa4svuglqo+9XDsL7f5tzNlvE9n
-H3UxQHE7qZ10Etx90Q0BetWi+R2COmoLPjzWGlxsyNcOqsmsoa49p1pkQfAY3O3rp6NdlDjzpfPC
-avGzMmHYo/klMu+ZyrtLybz9oZAdu8fvOKy3U7nP4leHj6lNnjEimLQCQuPLTR2crXvwhOTwZXsn
-PRG4bdLEXT1PJEHWq/iz4UnTZs+hlDTxJADIl3+BpPUTJ0kbnWMTLGyql1s7td0GwHDZzwQYSang
-N6m+sgb/1QJVH3MiOhltoLnhK1Bm9yov6tPHETLQ3jHvICCZTdqfvg+evibXy6JkzYmk80vUpCty
-sqdir6Rsauk5DWAU1zGwP4Z28Of/SsITHNpLuZfEk5MnQeibbAiqWrXk6UMJFUVtJiio6pYHn3Q5
-hFtmTd4DmjUWYlJRCAoIxrY5zi9psJIbyHAU11Do51zo9FoSeneMj6zbDeoUfzQgfNXgWKb+yFxo
-ap6j63eQLMiJ+b8a6UPRE3vO+yJNSAeQBzh7M/C/2DeUe46rlbsOwPoqwgUVoje6TLmrwKd47ojE
-SHtF8T0uRErZZrjVFbTirivQBz6JOEb+s5ZucEAEnjgm7xJ/uTPnRJdCD5uh2FLMsPVW0hh8i1wI
-RF3N9glYNWgUkfewFtRsPjXmFh+hir7yWzrSPI106r97dWLfr+LvvZKGWyNIogkd/oOsEoeWdSz+
-0bhkIEzFF+am1o24EJOwNZR1ja5h6j5XG3vhu/ATPWL9Qk0L84/CS35+pOLMLETtTZxXw81F6eV6
-jkBAPdU6pc0uXhnF7CcXqVaxdpHXYCZ0Jb7f6RJL7Zziv+40wtT4r/mZOGvNhiNQ07cw+R1Xdxp/
-Ba4CuebvHcLMcVHWvrFOuon5LnlaEkd4RCBai4oM0TTKduH527uRjfvpGSt+UVAwfo3d1Y1Fe57e
-rb8A8M8EbwJdO0pkYJjHOiO/xytLVu51l9m7L6tYJdmavE7gTWrt8miCYlCX/txrhV0xcUT9yJRm
-vm7Rvd5CuEbNJf35jESiBW/IsFgUHhi3GIu0QPE5dhlbxw+ZDwudo5H5cGGWblK1MvjrYw1J4vVv
-W0fkicYlS8N7xOCp0lmOGpDaqGnkkxVz3NYq5VI75l4jUnZkhlNJSjyrYn1X0EGifC5GatWaHFlP
-6DHNLkbIJIHtPpWwO8qJi8nIN4LJTF6fK+0j+hWl8iUAJ4aap1DnaIKIphI+3yrrUQY2igrW75bm
-vP9zSVk6U4Ga3wFInf92+7sILBYF9ZxSflVNYnnRGUW1diunAX1UVh7zcSxdsqwCk/1RnIv4wBNN
-2YoqkortEl31+U0vo0sPi4J/Oq6UIxx7D4lZQ80nFjlc8mkqp2xBRJ7hIUqfNPIdyUhGZSZu6ENr
-qJXFykco9J+Bs0Dp8UYqRteQbtHpMwMsahh3G33azHdf/6dCeKuSmFh2XtwssVqUPqUzIpWOLEtr
-6FV3hfhvr8GTfLhvVQe+I2lF7bEGdNuw3rw41QYKzIbWgxjK95HxWBi1fnCqrM1MEfQBp3EhejjE
-d131WCrysjsDXK5NO6xGV3BIO7zm6+Ccxd+vJTdLMBd2GI4oIB8qJ87uUzv4BVMW+JqcZ1v6Fjtt
-lNjvKAkr97KCRiHbmTSGfEEu6fmk6hlujEh6dJyvTGbJGxBa0MF9OP48Q55GRF/mcZXZn7FHNx5y
-eLAugTG/qmRyFogSZhyL4PX03RYghDR670QmVwkwmZJo50UV4Uxp7jogi5TcdYYK4ecAdr7vU3Vn
-K/dkAmzE/fnKC4cx8DNqtV0I44SzJaFM+37ral1iSywMgoSqmTyr8riNFpeLTjLQLbQqur/RhshW
-G4TUOqSecveVjUAAZn9QVKluXKEBD/4bSxRouToEwxZXl63BlecApD2HqKRpZFvTiGbrKsWfKVIf
-I+7kb21Cy+0/MefBzmhrd38BtBOdKB3gm0P8ju6PWE7qttVORNlSDxUQw19KcOISlMfMMgJRs36Z
-zm5CumWi5WiIb9m1rVx0lCii/uDeDHfOurPiiW8E+yxSfIf88IedKAjX7U0koGnkE4LH1pTD14fX
-5z6p3a4PIMxf+GNd8m896FOlK2t5gOvwJeQgh9TXlHFn8gPcI8xJAs7IbehF6blNvEAg9KVFr01W
-MO7D1hR2dUG2ftWi1+jAXT1E7fvUaZcnr/0iJpb6yolzt2Hb0JudbvvszXPtojuEtM90bxojbuoJ
-VVxy9te/+8F5PxJHdSxPflWp2G+1YspQRtZePTLD9Uy+eJJyBHol3mexVBb1Wak6b08ZsKUI+3vF
-6vAplyaYqdf2nPynlhRIi/ZQs2SLV8EKIm0cnz37hCJrsb+irwYyYZTsd43lY0F/CwpexU5JqB/8
-APn7+sltfz4/U4NoZRzZLEplalZr2+yCX9+QXBEzVM516qNd7LPa6xKX8GtOsc9oXQK/TIDrIt67
-sXzMAewICrETfgzVl50wlHgySBUiP6FjyC7zAtr8Qf6xha15XGPpaTenMXdQxG/we5X8/T+TSf84
-7U7hD5yS0U5tH7GFBHbHod+yRV+ooXwUQaYc2v7MtfyYgdM7fzY3H7xXzjRvr4TLrer48zuqrJgi
-ot4+DQfpmatKiExMb7U6W3KzCZ98d7/DwqqC1MQZxsWYRYig4fHk8x4EMXKMwbSAAbo0M1VeNzz9
-BFDAgQcVSFv0BsZPcIPuQbmTGmq++rNc9ikVgk4s59pdWzOKyG045TeKh6u8uwL0iPSpDvw7dc8O
-mlF1jOE2D5J1Yt2qnUNkBwa19M4YfCb6ns0/PnFdbguWI9Lp39sh6mcsPm/wHkRb3LD+4fPWj6/s
-Ef7QTv+/pEvpmtSfWcsiINr6EiY9wSNAgQhRME9wp5H/RViHsL1cM7ob0FtoxsZRH/RUmweIWInN
-snhhOeQe+Rwliiwbg4T/8+UHeveRvUEo41vj0j+R7cfEXOi9QUGctiG2b4j+vDYYkzbtZ20Cw4XE
-AEvRm7fkYVXPp03leWKX3voFvJLDxKJKHpd0BnXGuahywtyPVy6N/qEJG6XS0LZDhUqxmIgJ+6/+
-0AWSkYqOsX6tYg4Gh6m4fD3JSL6ptx7p+vZfHwdPVJT6LnLDQQHVJFAB/dJx6xNoPVGfw9VtyEKe
-dZwWur/2ReVqx3t4psPIloIR1GMJzNY7oYSauwl5hOVcKnvUsKAjxZxJ+Te5Zjyk1vwj3uVpTt46
-eNDebjy8V1qw86nlKDMU56GdNOHwP5U9nYs97r4I1soWj6cIlsVde7wnka1B1aQP9bnVN7tiJ6tV
-gIfrhGsYd9Ew8HgVDu7ZT5oRrGKNFs69UG96fgwQ0R3qQIz4YKqm7r86l+Q51rabeOiI3sXPBOfO
-oruG/f9HJC68fwMdLZRl72cks29EIveVWToNbt3yR9onyDborcPbwLrelNHDjch0Dpbq/KOfUh9g
-skZMSRvPUnikKasmje6o1FzWpPyhAIJtrABktPdo3F22hkIpA1klZsALrLiwxA+bWsoi9d0+a9gT
-BEK591dNksmzBrJGcEjU3dHva62biv7UlPWTUlY6NrsxzaI9Me9iqAQm0tvIKPkkr7vkqjsGmokQ
-hkyzhXfHQqM8yf4t2V1LCJf9cC/9L9zoYJPfQiIujzYNA1FoPC9Cpf32ERlNvLt3vLFSmROHzD+X
-MUmJzoZ3p/MI0J2YokrU58mzK+IJr3R216UlZtKAGRv84kIA9s9NxW6EUmESI6J34lYuIrVbaCn0
-0dT6P0+ZL6kZz0AEMg0Q8hsMIOA4bZOPoT7GYlWMuETqwSbjw1ti40MqKCdqgrwb19Pf0ALEil2m
-/ljtskRhcefYJSxtres9AcV3di9dbkr5tafi4okpSDssg/s1mzWbRey3m+WzFSPhX934GxJk6lia
-/VgvPZ2HXayV8NXbAAowMUdsgmcxX+Gf3NiZ6jAh3jNpZS4FVDpR14CRTNT5S0hjatJyKA17bxF6
-+igA2jhlwT4Agnh9BHj5UwlgHrh33mg8SXDI8+4+xtTCOG5xWQ1pqTqiyg8CJCw0jm0GnuYsxPf3
-QgJ166eLJGEQ282NInx3/BmOUkS1i1Y08z2Y9FMJ3i0vG2LF4mK+dv3/uRSDejL7Uc3vMUtzfA8J
-fY468OEowcLXPCL7Kk3a7uqY6jH6XJ5BMI6KhdfdMudGTrAQtXUAYyUpCqYZIDDHiWgcWwlEaTjl
-+bMikXU0ZzJCVfEjyQYKU5SU83/BoFwkSep+y6JjzpyMaqwq821iXeUMXkP8wgC8JDDACpQKg45i
-gRADKC1agvpdzRZiGNcT9YGnMBS7D0VBmDfOqCguV1ppElDz18sVS5nwkgQPNoL4HnhKv0cl16V0
-hTufdWYrbc/z6wnggv8FcqQ+mNm6XBZTXaTobwZh5cGdqCKzzVkzCb1wnxKXROOa9uF8oXXpQIQ8
-Dw7T4HyI6amfU5uM4rcJfyaSsdi/1HO1MFkYk4mXGIqb96hrejhuCL6e2/gY7ZudSFjYuAtpH1kN
-3jH8DnCfC1BW/5bCrlSld1N7aOKx2Vi6Wacxcu1PTr7CFS54V04p8p55IXDAxJU04DzXR7zqOrPx
-bmm3fcuLPYGKoiLCnEJNwJ/hH8ZyOfirginJ91P+dMDLWusf4tBeku2DAW0/1PdzeKv9IgqiCUN/
-63vPMlpj3FmXPwZhQWOOD/ai5d9lnWZYzQJBG7wsoMW0jdhccM1NHviCJpt58S2jk8aRc6PK6MTZ
-BFCetJ/ImwRYYULLHxjH8hqSmVncTaqW7Lp0SEXGWg46oqSn2W9J6G64gEcLBOo9awDjzSj20oLN
-t7soQscMiDXraD9mOZPjWQSaypCGTMh3sOgHKi9e00IcPeyGWmTnsHfkxOu1fAg9Gow3WS77v9TB
-VXOzAyW2rkXs1GiGi/GtVBaiCyBCVoFOEsE1jzaYW9LvZjNLAiqNGcNZhkny/85/YxspWI32PItu
-sPQosOO/o8Mwd34KrfyqqQbp0xAT8PBsDZ1NasC8jolDxwn26HQm0zYctEUqQupOwBeETGIl3uJd
-xGO6wOb9lzeHyX6zSbwwuwiqk0kH4xHg4BR1jphcYyrsL+iTUw3u+Ok/4KkKBY07AccVkSDTec12
-2+wpGripvRuc7xh+M7UPe79NhIiUni8kmx9stLrbu/VNvf6qyDjhyjNobA4NofNZONKqOA/E9u+6
-cOHcaVCYpWh330nJu7RJR2GhvjQJgM+/fHnBKFRqjZSJILyu9uHD4p7w5FAFwzIC+XZHMg1grMPu
-sEgTnrvfCxQVeLe2SKhxAvAWaK/xaa2yZ4+hCcpKBYCoNb6EbRHBfHvaplpZr/tS3Lg8fT/DUfU1
-zpPwC8axtVEVb5x4nc0rVdA6oKeuuYmwSnBpXn1IwUNYsL4Fn8ONqGNC/BUoRNCsABs6qfoc3fDU
-Src7yBjXtfwDgtclcQOGMIkqmqivUSHtlnifqTgHXMv26/8SCR9AP1jvifXeRsHNVkYNcUORqya9
-yiG92qZ/uh95LN+C7uqM2CfHku7RT4fZzqGgucNCiykN/nQUbg4ZQmaCrKhsbOmQ1wHl1QXylyWW
-e+Zlri7x8g+ErmqqWKyqDpRnEch5dLTNz2L08eswfl5zyWpgAC6K99027wz70RjkolmUqFO2vg9v
-vKNNxZE8VaVyhRpty1eLZA7jwWmdXzOaRQlZq3f5uIpdIg/mucluKHYG3RxzESkLZ03R01pWBMYW
-PrtNQ9/Znd+VG+NRq7vN9M8/I735zaGHWbBFQGGGS/6MQAkLRcqjTs/7MRZzpt/7Tfz1HV8PoTRQ
-U31YmGTGvrXDLgqTnIQMEul84c1G1ugc3cuvswi4WI9VIl+y5jpLOiTCm+T41gaqgM1hFcYMrfMt
-BCimB1PRLzJwrRZZJWL+mkErpGEGz+/wHCyib0QvK86vyQnCWajD9XvzzA/TPEysCwGTk+KRID3q
-brWwzeqU9wof4KObKDf6eKY5BiSdzCggxAqH+hIe4sdZ3P99hcUnDDmwePH8dmje5uKFLfR0IsAo
-EBbyScZPifcp+0oPOJyQzOniaURZ+81rc1IzaQQe81iU5BIz97yBXXX+XJgdpUSpX179Ir1dcBIM
-Q2anDGEZh/7ou7jnzLM1MOSHpvtZkimUwoob7Eo68h+73SvMlmBeDNl1oLdQlEufGxsDvbU0ejPN
-Xs7Fg1jstmgO2ZujEsAOoOlDt3sJ99aZjld823zdTVy9H/b2NEbP+/vLcbopEN0HOpYwOr+3CA1T
-V3LFq0JlmQ2ug2+OdzxUPN7JwQHI6+tUB3/K/G0KP1aElvq9YdVRYDJMsVwWOFetNt/b6pILDusq
-6wO6rR+n6BNKUgGQQAt/5xWuRQbFjg6eUuQ3kop+ktZsC180yGfh9FYEb89xMmYBylDuyYiBIqvT
-aSFCVmsjrtVNzd8rk4yqUDWuU093vuOR2RhnngUkDPE0NIyGkCzaE+beJuhDAuDDVun7vVQ+P7FJ
-jI+MGmWVsp8MdtPKSBpIyDlWM4Ew7xd18kmRERUZUjzuCCX0KKTDeOe3Mq8/mxSDnTGsoD04HF5C
-CW220FBdmRVGZDBPB5rsG1ufe8TGwg+0xyX0zw/3Qt6HZ2++SYTsRvcp4L8j4u93sYHI1IP2jLDa
-7ZY7CrcnuAW+XvSv24Qgp/LnGi9mkHc4NM8Edu+T49ExGEEYwvnni01rOfHhd7TZdDkcYyYbrHp7
-Qa5dHv6zkHUt7/II8SepA90fD3++yMZM5G7JZ2bN6gFoBqdOVntxyX4Ka6zt65cM/7TIXSSh9SXo
-pf4o7GzYBokmiHns+oeUq5quNqSHroeJ6NbWPYYft5YczcWmX6QGUzObCDjLxl86PDgUJns+QdUW
-TS9VZqeTfgBAJMRsCV/yEVTnNquMsM1RYcNsWrG5RwN4BF9K+kmBtpNrfOweHeTeoVOek7jSPMNG
-KCrtgW932u+GFLjS3AZ7IYH8BcFQSWqsjCTiB4Z2GotaommR1Bb1Hj3cekZmh+TVMiv86sYTUPYg
-cFSP+y5wFdZuFKE4ufeQdg1ss+VSdT9c4fP24fnoiFXDSnpfUlNBqxnqnRcWnCa0o9Il7gKYnLnP
-B09qQT1Hp+NyEMh0fUKYO7z8SQskm0g6L1xotdKdw0G5HNKBT40bzfRjj4/S9btar/fY7yVowmWM
-7M4qYUM1X1fm0SxHUFnsLYvh+58PE7Ih/jF9GdAqVgmaLV/EzWsC2pXqZCy5HSwLPOzT5sHFN0OZ
-1MbGlaNWawWWmHCd/uSBO1YgDwfb9Hs93wxvg5gOhkl8qdLc+a4CARDf3oW5yb2ZNKnflRq2vYjO
-nqo7m9ZV+QAIs5NjxswzCii8RtOYnMZDQXGTxpV5QyJLgncDsdeYCE89kJtNA1pGdTwSUKIeyFf9
-P9Ou03W6+avKGNErbBnBSawQvx3gOxXOP9nq9I6GGBR3ull3EEPwpUGUzghaW4iNvpGGXoRtsg3L
-w3UgmVH3swaS0ZtnEVVyUxMcQ8zFWKdUsWf4mvyoj+vWbFL40B4cu/4z0IuuYVcMTF3iuU0p0FM0
-3NNgm1X3OZWrGCUhffDzFGB/kauiOJggag2YKD5VvkjPZrIGSHwsc0Ux4CJGRbUUnc/ZA5T5cVc+
-CESrq5fWgx4JFplXfo3j4gWKI9C8ORxLlefpZdyDptFHnM3g81TYZD+HKpSfcGrIfmLwYGvxGT2q
-q4umgP4gnW7zQAoakOYNcpH5JQH4DYLnCioDOxOR9LgleHzA1EnL4yEsoxx/Ig1D31/vWf3xP5c/
-lj/tsBvgZSx+HCsb3ate+GtYeka10tM6PnU2vRFoNM8cNM8RvcvfXBOxwOvV72p7h8zuTAZlFRl1
-mbapSW6yXmSp2aQkOIJEjKNNrTLGm1EbHdQ5y/aGMldJN1rvwggMSqkMkvVC1GXwx1DPx1DmkeMG
-HG8uFONE1lCCFTNWl2/gNtwvATklY31K7FEncsTchFLbuPghK5Iwahri7HYo4FqFtPSFVSZ/Ptwr
-1VDYAU+1AUcstc/P1zeD32+vyU0XIQ8uO6DcL+DYb5RIp2kKqhyvL03F7wegiaaAnivejafhkyzJ
-Lk+zsYWJUhnqfYdDEmnUHikD4zqixKbVMNmxtGnDHa+Qo6z4bjrQTGHqAB7cMjngebr5DvO7FN+E
-8zUw7StwgQZOZzjvd2QGzRVoWL1ATS8P5uVjqp0Tblm9lJwh8D4sool3YzRddR5aFftLjFFTr+Ih
-JfbLe5TyMtmRDzhmjOVY7IYZLEbBOhv2/zYVpFrGRCQD9HHz1cpmmjgVLUMAv0rU4C4SLnjVRM2+
-wa34/y4rcy/2ujfSkHGRk2MV2IPNKuffCjJoCHRRETH/3rNuDPI0+mbj0DnqjBIO0GH2kFg6pDkG
-puPLUel2ZbZv0LVfLF+Cl7yZo4cNWT/74HOqw93EUVkrnT/SYcPlf2Xrv0SCaMt2QXqfw4faWgJR
-2IGWfWwXIVfIqQZFVZYFZDKNjG11asKGFey5hkgfA6VtrvOh3H/vEDjP34EKddlbpMiUWJSzuPjx
-9noh0GhJ4PoFFpTDlsN2HkznsXzUeOuTFjYgvOIz6bF/X4EGWZ4k7UbCNbmLwWe1RmxhML3/JSZy
-2QwOucbTlsTqQOR1yXiXnNFPfo5blJz6ywXt4rrWmu0ninFgGEv5PCeIYV+KsKC0IXFwJqBIZouH
-wV+RfotQMCU2OewvIKYeSr/0TwNcPLznZ/BhJelp5vappJ4fSUKIkM5NEsRRhdZiXHaSTeJSAjCH
-goek3R8+0AX5859eH5m2cT9HBjRN7C7ZJRQYVUoRveAErGt/ypibn2lvr01n5t7oU+Z19D12xlsY
-H655o7YiIDQSByi0ke5rWe0UTiESLIJB9yyoPFaHUhIybnSDoeHmJj4VWBM2tp0x/IjCPDeVPpto
-d3/EtPw/JtKK4uWWWwEBb4UKOgkZ2JMAi5MoAXr4/moMHi4/Dc5w/TCogKmUZ71jh4MGNYg7q9vE
-+fD32Wgbb5nNxHa/5Z6582VDwuQ8mgKJFjfU4Dd/dLRNWdkVwq+MnAmwDZItQAe0o3ylXqKkKn4g
-FacA7iHoyDJMB8ytsdRgb4c5TtzwAxkEIfx/qT1AHmgtyL4HJWwzVTUrv0eNUXDI7gS9rAwAdTkI
-/KKdQZPhco7vnUqZ01qllU8wXlC3jIckVAXG37VnPO7EsB/Ddl9Qoiep2brUWVv+rJILwCP7d0TL
-D83UEhDZ/uynJi9bgGXmHuOa91LPPUsduvQwPJaviDUDu/CgUeR8TugbeuEa1jKlOB57pCJQblm0
-i03/r5+IGSVFC7F5KMNHSDExRtlULNX68rnuwrFvz6h50CVR483qKTLa9jodAaE76n/eBKJ5BoC5
-DrtJwdZZeE2Fo8Hu5WlxM2cd19rOdqOiz+eklgGBXRZuRd/e5TT3KWNJ/pOzPRODT4nIwGJy2ZX7
-f0k6oLVXqPPYcB6vq/7rvmibfyq4UtQ5xYE4trqRspt43YQ2RVsC8fgaxPG9wn6uCCEcbceiyUhU
-5AnoysI+0pbuObJOrh8HqdvxfKYd/FNn0UXZgP6GXQUeh5d8rSuZp0/99K1f2SrQoBg8AmUWxKtY
-B+jybyj4gtHQoSnkC/Q7XKu/pNJparltxnC+xUmL3nXBBm9zHfnG7APqyLhT2k6oIk2wTQIIdoMF
-oM0laXXGDJe9c8O2rRujWyfLHQ7UEoMuARgNQ2h7O9TBXf3YxMriTrBF7R5T5RLNHa+0OagsmsGQ
-NvaErfYw1nbx60XwjFP2AS8gFYs5c4DTywGNk0WbmGRRuehF7FdRrqUQANOZfEOfFapANNGgV0Wk
-nlFPbBNL81aVmkpAbACZK8CrMan6NxFvrwfnE/xzfNfO0P8JnB/Bvriszl3Gx0D40/kk98bQOsCz
-Dk6ikuH/JCH4c6jgXKZC8sU4t9bgqmgJ/VXBRPOPLhJcIvRYT8AxqryMAjZKIVit1cuvTWbZ1nhv
-MNX3pH2rdmGp/p8l91WX1C6jpNoqpXhawOQhfqlRfhgIgzqcAhRT3gRe/i9a+01rpQr4ohOvP2bQ
-82dgXDhAoRo0l/OchjXJ9wvQwQKZmWW2+WzGwCEdGBHrCkAzGFpDiaIBlKaXTtWoBjOgj1s5AULi
-FX3b64YuP5a5NXZKf7nJhEkxbs10qMs8pnJi3V4h02nPh6VkEgpxmb6o1g4TpT5/a5MIDSnn0G5X
-F/VhLALq+7D1k/0Oz4mevyTCkZvsRDRda5UjK49+0M/yNB29psHquNzXySksatGvL+WB0ThyAgEC
-iy0H9zXJziVS83PttjJ63I6mAd2L8Uqj757vibyRJq9/NJtTg7jKQ89TPz/OuTfw3hoJxzGPZ3xP
-FyMRlI+lCF53ZvQbxFa3mTDtMey6DycayXNNXS3CpAnb27KjP+Yv3//LGoD/BRUpwCOc9Wm+djZk
-f9+b0F/Yr+mYc/HhAo4lIK/Bt81k09uYziEOWbuFf28Wz1yulB5r//Vv/ualKrn5i/RYpqVfvFkB
-95mtW8xn355bGzBsDRQcIvdTaeRWjejBV5bMG9yShiBaw+JNTcxu7FExO6lZJwRMmHu5BNXiKKf+
-vPpnUqQ3ylMxviYJ1PvwjtVkzmCQD8jz+N3lPR7PwemSDgORamL0kME13qfmFjzQmJMFEFG+QUpb
-mxijD++mBKGa0yWn2qv7gaxX0bSIIKE0m3et2+7KmcNeg74QHzarmFW7lIVHyzphUEO5lr3Uk3MM
-BYlvnquLfGcBhZK/Yr4wQVkn99miImTBd8prQKL7GMN+W51hPH5XD7pMMkAASmcYdCc2u1a1rvb/
-6H9CyQE8TdZ3oB2eK8b0V4Ip1XMPjKUIpsRB1lrtsXAdDcRXH7t/X0e83xsY1EyUB1H2i7oKQgCT
-+E5FEnMezlc3Sc3c6pgZhqdSwf+xwpufvmOKvn+lCcF2eE6B2eILz2moxcNtnlkR5g7NqP2djDhD
-jWMLQQySCd/2ok7mLei0XIcTL/8Z9glf93LMJHfIlf7J8PKKnWH5i3T3HJN8ZDCEORvEw2UVPqaD
-/nbzWlOQSHCdvWDv9RSHt+T2+8UOgZqAGBtD3Q/aMcxd7BCi8gAG+PjyiCtYsKlmUeYGCiZa0zGa
-D/EiRCJkg6PlVXsm1qdYEPkU3oBbDOw5Fw5k3SDeJVAnZcI3prAM5c3BFw0j4G5InaEa8cqwEini
-RaDEgXtq34kY3uyojH/6gsNJdoSDI4Rj69X0bdwqh+elMMRO00g0GhtTkuG+CyUS56drr+a3gwta
-hKkjRwwQo58zSp2tafODbiSovtaRjyGzt4yfHItCNVXHck/BpsiVIedkISARfq/g2ivNcxezmVby
-h8RxfcovJaHRwCy5KhMgAWbO7JOzJabcflOmwGx/NxZrZ56bQ3+nEJKiYZBgNaYsOnLSwep9M2XO
-Uu7FxiZWX5r3NcKpJ+n3uSvUsbV2tHLhInATiL/ecysD9FSA9nNQPKZ3JMZhHVgrui2g4HtHZH7g
-4zLdb5pagnI+/F8igpdMYnHWSMIovVqxfBVKcJlF60sSiYcimaiNXj47C8QNSA3uE1aoMnf+dMT7
-t0KWnRGo7QgEOlxFTx4ltc93//vokaclFqkeTIJRDpskDG2JjDmG4cLHpLt0zqdw+YzIoXsjJMpV
-5ltFijwg8Tt8BANYc4Jdzbg9vLqgka9zL6guTr5Nm4aXe8SBbxOJf52Q3jj0etDy/JhbK6huHVSQ
-Ol+GVHzqH5sZ3MleI4vKryf9vI/wHtuhHlYoPHgZ2MJw7fgZfSxqQW9buPtGpGTVVOiQSxiJLKU8
-QJ6PTZE8gM6C9G4S/oTtLIo3OOiTCoC6kr3fY3bhD5S0L/F7P2DpznNl7Bmaoa4Q0b3VlpKgLDW8
-vYMVABn1BpskLNnPfqgftPftyUbt+DVKnc6pcL/cZ5A1vO4AqSHIgVJZhLXgbvCKI5hn1gHwSkrG
-N+rYaOTAlEPlPqoBXE/Eb39rR8O4cTzDrad4ksIJswj/sm60nsTS0f0lKEEM05DdN60VZzAny7aq
-EnojGAWYAvpvCWxt1SxVtMFIcdb184/uklrP9iDVNZSwICDRdyAF0vU6Ow9J/s29EnBq/mEWq9Ex
-gfEJ8rYWWsGnNqWsCSi8uAUS0wIEHqE9+pXMhSSbOkR8UWHA3wdTtUgHoc7plWbGuM8nbbViwCHs
-UQy2OBWZu0bAfV+VRd8UT0Nf5ccXTyVYvepgnD9twv88sHm3URFGMsdbHWNIaZy37QGtmWWeOIcj
-qEhWC37RnWm2X4uNy7ck2kYBqd3eWoKzE9PfLWaG/PjP0HcDkaALoaErIbHMmx/h8APFoNWH7M0B
-aQ2WjVrFrh20xOo9Z/alrrkt98EUaB2CdJP9Abfxrq6XlaqNZyOjlezQWooBy74dPtTNWaqXBitJ
-ynzjsF0+rjqe4DtshcT/ROr2kSt40Snjvk7XfD3sfjYEdIja54i9f+/cPNYUgNw0i3Hbnw5gCTOr
-L09aHd54rL8AthwIlinD8dDWD/FkskuGWZgO0UMyBhdwYmvmoYoATQpV9Z6nq8mX7PFKuYCT1lAw
-Kaxqjv+pA1Q8zPbolrbmKxq6qAZVVTYGYXh0aOVlKnDWobhVY4i0BYG7fcYy6Jhc4Oh8aqH1QuUe
-CAdRDe2iIkfxr/UztqYDwpUzcNvJZXAiijw+NM1diB4TtYHj9E4WxrLO8yH8atdQ2leJIvBBZZVQ
-OPGz41jYPe/9PkLrZWu25griRh5bKotzk9ibVghM5DfxsHUrhCtg7fbXp6vv2wujImBKLekhJ9dW
-r+N+cxGL97HT2nFZ+Nd1Sjf8q5rof5W/euOrKtkEdUmmSZE45qZ2CswRBrGQ+Ye7Z34ZwljEQgBv
-Ms4ZBNd+3KnO3+/OOvdtg3z1jcKqHykvJ/axbu/YSQaBLYLYWjzL0ZJqSLduOeUrpfOTaUbx/SG8
-dQG+rFbZy0NUlf983cigXCofOLMbVBTYkydvK6+n4VRYqNm1NPECvMXYAkQZ4uu4byfu4Us9QVYE
-iaQtM38mt1b+SUT09dyHt75gQQRGj4jj6KBW3ksmMuMilAwW8FfaXsGbV/rmA+8bgR+bSg7zFuvR
-NfNoP5T0IPlpqwyKwf6yeauRTqLY943CmxPr56KWcun86aAszoG04fBGZEkh79jIedVR1fy=
+<?php
+/**
+ * Copyright 2017 Facebook, Inc.
+ *
+ * You are hereby granted a non-exclusive, worldwide, royalty-free license to
+ * use, copy, modify, and distribute this software in source code or binary
+ * form for use in connection with the web services and APIs provided by
+ * Facebook.
+ *
+ * As with any software that integrates with the Facebook platform, your use
+ * of this software is subject to the Facebook Developer Principles and
+ * Policies [http://developers.facebook.com/policy/]. This copyright notice
+ * shall be included in all copies or substantial portions of the software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+ * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+ *
+ */
+namespace Facebook;
+
+use Facebook\Authentication\AccessToken;
+use Facebook\Authentication\OAuth2Client;
+use Facebook\FileUpload\FacebookFile;
+use Facebook\FileUpload\FacebookResumableUploader;
+use Facebook\FileUpload\FacebookTransferChunk;
+use Facebook\FileUpload\FacebookVideo;
+use Facebook\GraphNodes\GraphEdge;
+use Facebook\Url\UrlDetectionInterface;
+use Facebook\Url\FacebookUrlDetectionHandler;
+use Facebook\PseudoRandomString\PseudoRandomStringGeneratorFactory;
+use Facebook\PseudoRandomString\PseudoRandomStringGeneratorInterface;
+use Facebook\HttpClients\HttpClientsFactory;
+use Facebook\PersistentData\PersistentDataFactory;
+use Facebook\PersistentData\PersistentDataInterface;
+use Facebook\Helpers\FacebookCanvasHelper;
+use Facebook\Helpers\FacebookJavaScriptHelper;
+use Facebook\Helpers\FacebookPageTabHelper;
+use Facebook\Helpers\FacebookRedirectLoginHelper;
+use Facebook\Exceptions\FacebookSDKException;
+
+/**
+ * Class Facebook
+ *
+ * @package Facebook
+ */
+class Facebook
+{
+    /**
+     * @const string Version number of the Facebook PHP SDK.
+     */
+    const VERSION = '5.7.0';
+
+    /**
+     * @const string Default Graph API version for requests.
+     */
+    const DEFAULT_GRAPH_VERSION = 'v2.10';
+
+    /**
+     * @const string The name of the environment variable that contains the app ID.
+     */
+    const APP_ID_ENV_NAME = 'FACEBOOK_APP_ID';
+
+    /**
+     * @const string The name of the environment variable that contains the app secret.
+     */
+    const APP_SECRET_ENV_NAME = 'FACEBOOK_APP_SECRET';
+
+    /**
+     * @var FacebookApp The FacebookApp entity.
+     */
+    protected $app;
+
+    /**
+     * @var FacebookClient The Facebook client service.
+     */
+    protected $client;
+
+    /**
+     * @var OAuth2Client The OAuth 2.0 client service.
+     */
+    protected $oAuth2Client;
+
+    /**
+     * @var UrlDetectionInterface|null The URL detection handler.
+     */
+    protected $urlDetectionHandler;
+
+    /**
+     * @var PseudoRandomStringGeneratorInterface|null The cryptographically secure pseudo-random string generator.
+     */
+    protected $pseudoRandomStringGenerator;
+
+    /**
+     * @var AccessToken|null The default access token to use with requests.
+     */
+    protected $defaultAccessToken;
+
+    /**
+     * @var string|null The default Graph version we want to use.
+     */
+    protected $defaultGraphVersion;
+
+    /**
+     * @var PersistentDataInterface|null The persistent data handler.
+     */
+    protected $persistentDataHandler;
+
+    /**
+     * @var FacebookResponse|FacebookBatchResponse|null Stores the last request made to Graph.
+     */
+    protected $lastResponse;
+
+    /**
+     * Instantiates a new Facebook super-class object.
+     *
+     * @param array $config
+     *
+     * @throws FacebookSDKException
+     */
+    public function __construct(array $config = [])
+    {
+        $config = array_merge([
+            'app_id' => getenv(static::APP_ID_ENV_NAME),
+            'app_secret' => getenv(static::APP_SECRET_ENV_NAME),
+            'default_graph_version' => static::DEFAULT_GRAPH_VERSION,
+            'enable_beta_mode' => false,
+            'http_client_handler' => null,
+            'persistent_data_handler' => null,
+            'pseudo_random_string_generator' => null,
+            'url_detection_handler' => null,
+        ], $config);
+
+        if (!$config['app_id']) {
+            throw new FacebookSDKException('Required "app_id" key not supplied in config and could not find fallback environment variable "' . static::APP_ID_ENV_NAME . '"');
+        }
+        if (!$config['app_secret']) {
+            throw new FacebookSDKException('Required "app_secret" key not supplied in config and could not find fallback environment variable "' . static::APP_SECRET_ENV_NAME . '"');
+        }
+
+        $this->app = new FacebookApp($config['app_id'], $config['app_secret']);
+        $this->client = new FacebookClient(
+            HttpClientsFactory::createHttpClient($config['http_client_handler']),
+            $config['enable_beta_mode']
+        );
+        $this->pseudoRandomStringGenerator = PseudoRandomStringGeneratorFactory::createPseudoRandomStringGenerator(
+            $config['pseudo_random_string_generator']
+        );
+        $this->setUrlDetectionHandler($config['url_detection_handler'] ?: new FacebookUrlDetectionHandler());
+        $this->persistentDataHandler = PersistentDataFactory::createPersistentDataHandler(
+            $config['persistent_data_handler']
+        );
+
+        if (isset($config['default_access_token'])) {
+            $this->setDefaultAccessToken($config['default_access_token']);
+        }
+
+        // @todo v6: Throw an InvalidArgumentException if "default_graph_version" is not set
+        $this->defaultGraphVersion = $config['default_graph_version'];
+    }
+
+    /**
+     * Returns the FacebookApp entity.
+     *
+     * @return FacebookApp
+     */
+    public function getApp()
+    {
+        return $this->app;
+    }
+
+    /**
+     * Returns the FacebookClient service.
+     *
+     * @return FacebookClient
+     */
+    public function getClient()
+    {
+        return $this->client;
+    }
+
+    /**
+     * Returns the OAuth 2.0 client service.
+     *
+     * @return OAuth2Client
+     */
+    public function getOAuth2Client()
+    {
+        if (!$this->oAuth2Client instanceof OAuth2Client) {
+            $app = $this->getApp();
+            $client = $this->getClient();
+            $this->oAuth2Client = new OAuth2Client($app, $client, $this->defaultGraphVersion);
+        }
+
+        return $this->oAuth2Client;
+    }
+
+    /**
+     * Returns the last response returned from Graph.
+     *
+     * @return FacebookResponse|FacebookBatchResponse|null
+     */
+    public function getLastResponse()
+    {
+        return $this->lastResponse;
+    }
+
+    /**
+     * Returns the URL detection handler.
+     *
+     * @return UrlDetectionInterface
+     */
+    public function getUrlDetectionHandler()
+    {
+        return $this->urlDetectionHandler;
+    }
+
+    /**
+     * Changes the URL detection handler.
+     *
+     * @param UrlDetectionInterface $urlDetectionHandler
+     */
+    private function setUrlDetectionHandler(UrlDetectionInterface $urlDetectionHandler)
+    {
+        $this->urlDetectionHandler = $urlDetectionHandler;
+    }
+
+    /**
+     * Returns the default AccessToken entity.
+     *
+     * @return AccessToken|null
+     */
+    public function getDefaultAccessToken()
+    {
+        return $this->defaultAccessToken;
+    }
+
+    /**
+     * Sets the default access token to use with requests.
+     *
+     * @param AccessToken|string $accessToken The access token to save.
+     *
+     * @throws \InvalidArgumentException
+     */
+    public function setDefaultAccessToken($accessToken)
+    {
+        if (is_string($accessToken)) {
+            $this->defaultAccessToken = new AccessToken($accessToken);
+
+            return;
+        }
+
+        if ($accessToken instanceof AccessToken) {
+            $this->defaultAccessToken = $accessToken;
+
+            return;
+        }
+
+        throw new \InvalidArgumentException('The default access token must be of type "string" or Facebook\AccessToken');
+    }
+
+    /**
+     * Returns the default Graph version.
+     *
+     * @return string
+     */
+    public function getDefaultGraphVersion()
+    {
+        return $this->defaultGraphVersion;
+    }
+
+    /**
+     * Returns the redirect login helper.
+     *
+     * @return FacebookRedirectLoginHelper
+     */
+    public function getRedirectLoginHelper()
+    {
+        return new FacebookRedirectLoginHelper(
+            $this->getOAuth2Client(),
+            $this->persistentDataHandler,
+            $this->urlDetectionHandler,
+            $this->pseudoRandomStringGenerator
+        );
+    }
+
+    /**
+     * Returns the JavaScript helper.
+     *
+     * @return FacebookJavaScriptHelper
+     */
+    public function getJavaScriptHelper()
+    {
+        return new FacebookJavaScriptHelper($this->app, $this->client, $this->defaultGraphVersion);
+    }
+
+    /**
+     * Returns the canvas helper.
+     *
+     * @return FacebookCanvasHelper
+     */
+    public function getCanvasHelper()
+    {
+        return new FacebookCanvasHelper($this->app, $this->client, $this->defaultGraphVersion);
+    }
+
+    /**
+     * Returns the page tab helper.
+     *
+     * @return FacebookPageTabHelper
+     */
+    public function getPageTabHelper()
+    {
+        return new FacebookPageTabHelper($this->app, $this->client, $this->defaultGraphVersion);
+    }
+
+    /**
+     * Sends a GET request to Graph and returns the result.
+     *
+     * @param string                  $endpoint
+     * @param AccessToken|string|null $accessToken
+     * @param string|null             $eTag
+     * @param string|null             $graphVersion
+     *
+     * @return FacebookResponse
+     *
+     * @throws FacebookSDKException
+     */
+    public function get($endpoint, $accessToken = null, $eTag = null, $graphVersion = null)
+    {
+        return $this->sendRequest(
+            'GET',
+            $endpoint,
+            $params = [],
+            $accessToken,
+            $eTag,
+            $graphVersion
+        );
+    }
+
+    /**
+     * Sends a POST request to Graph and returns the result.
+     *
+     * @param string                  $endpoint
+     * @param array                   $params
+     * @param AccessToken|string|null $accessToken
+     * @param string|null             $eTag
+     * @param string|null             $graphVersion
+     *
+     * @return FacebookResponse
+     *
+     * @throws FacebookSDKException
+     */
+    public function post($endpoint, array $params = [], $accessToken = null, $eTag = null, $graphVersion = null)
+    {
+        return $this->sendRequest(
+            'POST',
+            $endpoint,
+            $params,
+            $accessToken,
+            $eTag,
+            $graphVersion
+        );
+    }
+
+    /**
+     * Sends a DELETE request to Graph and returns the result.
+     *
+     * @param string                  $endpoint
+     * @param array                   $params
+     * @param AccessToken|string|null $accessToken
+     * @param string|null             $eTag
+     * @param string|null             $graphVersion
+     *
+     * @return FacebookResponse
+     *
+     * @throws FacebookSDKException
+     */
+    public function delete($endpoint, array $params = [], $accessToken = null, $eTag = null, $graphVersion = null)
+    {
+        return $this->sendRequest(
+            'DELETE',
+            $endpoint,
+            $params,
+            $accessToken,
+            $eTag,
+            $graphVersion
+        );
+    }
+
+    /**
+     * Sends a request to Graph for the next page of results.
+     *
+     * @param GraphEdge $graphEdge The GraphEdge to paginate over.
+     *
+     * @return GraphEdge|null
+     *
+     * @throws FacebookSDKException
+     */
+    public function next(GraphEdge $graphEdge)
+    {
+        return $this->getPaginationResults($graphEdge, 'next');
+    }
+
+    /**
+     * Sends a request to Graph for the previous page of results.
+     *
+     * @param GraphEdge $graphEdge The GraphEdge to paginate over.
+     *
+     * @return GraphEdge|null
+     *
+     * @throws FacebookSDKException
+     */
+    public function previous(GraphEdge $graphEdge)
+    {
+        return $this->getPaginationResults($graphEdge, 'previous');
+    }
+
+    /**
+     * Sends a request to Graph for the next page of results.
+     *
+     * @param GraphEdge $graphEdge The GraphEdge to paginate over.
+     * @param string    $direction The direction of the pagination: next|previous.
+     *
+     * @return GraphEdge|null
+     *
+     * @throws FacebookSDKException
+     */
+    public function getPaginationResults(GraphEdge $graphEdge, $direction)
+    {
+        $paginationRequest = $graphEdge->getPaginationRequest($direction);
+        if (!$paginationRequest) {
+            return null;
+        }
+
+        $this->lastResponse = $this->client->sendRequest($paginationRequest);
+
+        // Keep the same GraphNode subclass
+        $subClassName = $graphEdge->getSubClassName();
+        $graphEdge = $this->lastResponse->getGraphEdge($subClassName, false);
+
+        return count($graphEdge) > 0 ? $graphEdge : null;
+    }
+
+    /**
+     * Sends a request to Graph and returns the result.
+     *
+     * @param string                  $method
+     * @param string                  $endpoint
+     * @param array                   $params
+     * @param AccessToken|string|null $accessToken
+     * @param string|null             $eTag
+     * @param string|null             $graphVersion
+     *
+     * @return FacebookResponse
+     *
+     * @throws FacebookSDKException
+     */
+    public function sendRequest($method, $endpoint, array $params = [], $accessToken = null, $eTag = null, $graphVersion = null)
+    {
+        $accessToken = $accessToken ?: $this->defaultAccessToken;
+        $graphVersion = $graphVersion ?: $this->defaultGraphVersion;
+        $request = $this->request($method, $endpoint, $params, $accessToken, $eTag, $graphVersion);
+
+        return $this->lastResponse = $this->client->sendRequest($request);
+    }
+
+    /**
+     * Sends a batched request to Graph and returns the result.
+     *
+     * @param array                   $requests
+     * @param AccessToken|string|null $accessToken
+     * @param string|null             $graphVersion
+     *
+     * @return FacebookBatchResponse
+     *
+     * @throws FacebookSDKException
+     */
+    public function sendBatchRequest(array $requests, $accessToken = null, $graphVersion = null)
+    {
+        $accessToken = $accessToken ?: $this->defaultAccessToken;
+        $graphVersion = $graphVersion ?: $this->defaultGraphVersion;
+        $batchRequest = new FacebookBatchRequest(
+            $this->app,
+            $requests,
+            $accessToken,
+            $graphVersion
+        );
+
+        return $this->lastResponse = $this->client->sendBatchRequest($batchRequest);
+    }
+
+    /**
+     * Instantiates an empty FacebookBatchRequest entity.
+     *
+     * @param  AccessToken|string|null $accessToken  The top-level access token. Requests with no access token
+     *                                               will fallback to this.
+     * @param  string|null             $graphVersion The Graph API version to use.
+     * @return FacebookBatchRequest
+     */
+    public function newBatchRequest($accessToken = null, $graphVersion = null)
+    {
+        $accessToken = $accessToken ?: $this->defaultAccessToken;
+        $graphVersion = $graphVersion ?: $this->defaultGraphVersion;
+
+        return new FacebookBatchRequest(
+            $this->app,
+            [],
+            $accessToken,
+            $graphVersion
+        );
+    }
+
+    /**
+     * Instantiates a new FacebookRequest entity.
+     *
+     * @param string                  $method
+     * @param string                  $endpoint
+     * @param array                   $params
+     * @param AccessToken|string|null $accessToken
+     * @param string|null             $eTag
+     * @param string|null             $graphVersion
+     *
+     * @return FacebookRequest
+     *
+     * @throws FacebookSDKException
+     */
+    public function request($method, $endpoint, array $params = [], $accessToken = null, $eTag = null, $graphVersion = null)
+    {
+        $accessToken = $accessToken ?: $this->defaultAccessToken;
+        $graphVersion = $graphVersion ?: $this->defaultGraphVersion;
+
+        return new FacebookRequest(
+            $this->app,
+            $accessToken,
+            $method,
+            $endpoint,
+            $params,
+            $eTag,
+            $graphVersion
+        );
+    }
+
+    /**
+     * Factory to create FacebookFile's.
+     *
+     * @param string $pathToFile
+     *
+     * @return FacebookFile
+     *
+     * @throws FacebookSDKException
+     */
+    public function fileToUpload($pathToFile)
+    {
+        return new FacebookFile($pathToFile);
+    }
+
+    /**
+     * Factory to create FacebookVideo's.
+     *
+     * @param string $pathToFile
+     *
+     * @return FacebookVideo
+     *
+     * @throws FacebookSDKException
+     */
+    public function videoToUpload($pathToFile)
+    {
+        return new FacebookVideo($pathToFile);
+    }
+
+    /**
+     * Upload a video in chunks.
+     *
+     * @param int $target The id of the target node before the /videos edge.
+     * @param string $pathToFile The full path to the file.
+     * @param array $metadata The metadata associated with the video file.
+     * @param string|null $accessToken The access token.
+     * @param int $maxTransferTries The max times to retry a failed upload chunk.
+     * @param string|null $graphVersion The Graph API version to use.
+     *
+     * @return array
+     *
+     * @throws FacebookSDKException
+     */
+    public function uploadVideo($target, $pathToFile, $metadata = [], $accessToken = null, $maxTransferTries = 5, $graphVersion = null)
+    {
+        $accessToken = $accessToken ?: $this->defaultAccessToken;
+        $graphVersion = $graphVersion ?: $this->defaultGraphVersion;
+
+        $uploader = new FacebookResumableUploader($this->app, $this->client, $accessToken, $graphVersion);
+        $endpoint = '/'.$target.'/videos';
+        $file = $this->videoToUpload($pathToFile);
+        $chunk = $uploader->start($endpoint, $file);
+
+        do {
+            $chunk = $this->maxTriesTransfer($uploader, $endpoint, $chunk, $maxTransferTries);
+        } while (!$chunk->isLastChunk());
+
+        return [
+          'video_id' => $chunk->getVideoId(),
+          'success' => $uploader->finish($endpoint, $chunk->getUploadSessionId(), $metadata),
+        ];
+    }
+
+    /**
+     * Attempts to upload a chunk of a file in $retryCountdown tries.
+     *
+     * @param FacebookResumableUploader $uploader
+     * @param string $endpoint
+     * @param FacebookTransferChunk $chunk
+     * @param int $retryCountdown
+     *
+     * @return FacebookTransferChunk
+     *
+     * @throws FacebookSDKException
+     */
+    private function maxTriesTransfer(FacebookResumableUploader $uploader, $endpoint, FacebookTransferChunk $chunk, $retryCountdown)
+    {
+        $newChunk = $uploader->transfer($endpoint, $chunk, $retryCountdown < 1);
+
+        if ($newChunk !== $chunk) {
+            return $newChunk;
+        }
+
+        $retryCountdown--;
+
+        // If transfer() returned the same chunk entity, the transfer failed but is resumable.
+        return $this->maxTriesTransfer($uploader, $endpoint, $chunk, $retryCountdown);
+    }
+}

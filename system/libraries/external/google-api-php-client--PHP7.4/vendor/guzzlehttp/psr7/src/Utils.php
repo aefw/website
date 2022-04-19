@@ -1,197 +1,428 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPsrJNrX44gIVOO3AUt304j8QNE2GxDB8Qu78jMr84iTx2vNZcIPUFR96PzmuAkmtn/qGEaHT
-d0x1wN5fgYRHW9GEJOv79B4jQo+u1sev973VEAaAo71auu5xm8AfZpZ1Wtv/3/1JIqz1u8mmkbnb
-aseFfiPa7/wtSfV+ynCijwwikgjI8/N/dSPC4OQFeWxIkHZpwyPUxs5n3up/5zGbfZexXuTWKNA4
-OA1Z1vqvUxtHoA8zohUbhuyJpbnwy8hlhJ7MjPsBMY4Sp1AHzQj9HSwrO+9mKourL8IeB86cFae5
-vLMKRmJblFDf5lMJ6LE8L3MzUScW1PwNAFv1bPcim21LNl6SkXqQfs4Yr6FZ9EMV/cwDFyOBtbnY
-LMbBneUaBbDnZ9Mv8y2U0kLjQgixZ41YbN8642zzc8VyZBerwXzmqKTGhJLs8CgcwmP9B4+1B+W+
-0lKYGhrgFI0wNOYMstq7BGQn1rwyWYNv4x6vpMvT9vhu/oHwPc/LfhvwVMPy84XRJnyjeQEaeNvu
-9AgdVro+1knpfeuTpEtaSFiqvbpwzsxMT4hrSRY7kZ/4Pq04hleO6u46Ua+N95e8CFAPrX8rHMWi
-zICaT7+xT4q7X6G1DYBVWkujHPjM9va6wbkIQXsXRlz9i5ABhkQX42PqetPwXN3aOYia//YWSjrf
-11j8/xUC8/jv+abThUK0sM3oLRBfAqri1B1W+6TjJj3CPmN2pG3InTKd2NfCuNU0st0GxPXT6DqU
-E+w9TlhEK/3+d8rQRZqlPAckwHLskkVZfmsIluWl3fJG7WKYcQrrgXPaUsO+LtVMUMUxq8/p7j0K
-G58OnSNVlQ4hKkSPzxiHz+FtRgeYoaKYavt7kQwMBgeSpNK53fG/I4MEnHaI7e6zKOBgDJqviY/7
-arVjumWnV/een2OVRvQtSkytv0TiMO1o24puFVVkhsu27+Usmh8pi5o7Nn/grD1qKV9Dk1HrDWbI
-7JHsajHIHdm86Tq1fH0AstFeA5hITtTKnzbycXHZuydFz9gWXuYezHwAWXRPXfWZOHYSFWDM/pSj
-aqubmpZ8nSlI2NHjvUFyNzKt8JG+lA4qBmEDuen6hG6JSwZ3rEuW3KViwv/71xqrYMdsbxfWDH2w
-gcTgpELGDDTd5HmN87yulLpag6RDCe9YsTGGkA2speXTi6WaQGaDHNZ4Vl+jWsLd0iZtWFnnT8wh
-yM+GLq4O4oIEbVzxRqu//sRkAxkIja0Oo3CYeoTcK9aXy4UWx/vzlBsiwulhpLbN9ggrnKKFp51+
-8Tp12Wf2Elv3rlqx1GDz0dKZZPmczDbKYrHY8WV1g7cRYeJArbYo0hb8laD4SP5p6XuPuH3Al0pH
-CV+RJK0nOvwe0Gxpk5/J/a9R6UnPTQhnEVTh273fhbxy2wr097tqTLx1LsOoPTEDdWkFh4bClGPf
-6ADA6Mebpb/XQCJSWhtbIe4F8kn6IBa9bdxpdGRjavoIuJU0A5+FGFW6f5CxkSno9dm9vq67axdQ
-PAYzo72wg6Fkww2tXyHbVILI1BcoACH0HG/hGmq83TzNEcbGi+b/pFz3IF9YcSDV2pyXoeKCsNfK
-3u8u1aJOQKO7K+9OvKQh9o4PXR7SFR4D0J104Ysh8acn/4XHxPAsBKOcBt0cqRxpeUfGE6dAgzFh
-a/SPQ1OP48tboey9rebLtcdBYZ+QBzpBMS9fnVKR/zPav2pavHqVJZTBg5hkGLGKZz37M71Zu3Zo
-coiPcWksrPHVsArNvm7Cm9H/c23uWgBXu56K7aaNWi0kicRS77kIYGN2hNCh88YZU6wa7evYaRUN
-qMR8GVUjvYVnAOBZ+rWoFjkqWs7byovPHJkFBqhETUeTS7VVNeSunFtZr46Musqeg4iJVp6iAq09
-go74tHXmqsSW84+ltE24jpS2OERxINxvFwuh2txAAYE8Qqy5Jj7c36D5Pqrvb/W0FH32vXVh0wwa
-zCwjLtgDK8cnOb2uzkTnVJetCcFmHS4xYeFlxCIND7NahM9mnPxs0gGV5sAG8vLgosZEK9oOEeD0
-/6pmLvPKbMWw3yquV4iOfef25PSJQa1Z21OHYue1WkXyIXqDWGtXG1+osmVJ45Det4sYIBOb/nba
-EhsLjFnJLwhfuGpndRQu7p8oICGucZ6v+k2m7mYn5nuW6+BgBZh/ap258J5XOrIqNtiOEDFZTkyw
-geExaaF9FTBaqD6UfRsgia8n8+FOg1Y6Sb1Xs6MQ+ziT5nEZaxYvKtMBWpa/8sQqzbjWHkHfTRAy
-JeiUNt5bmPNFAQllx/+yltBelG/kakBtzKPpnmzeODC+xmJnfXiILfdpa7LfaYypFPrPC6TmbdN6
-XyNKv6m/zyfI9L3JEW3rZ0UB1oyDFy5Mma2GEhUMm2qWptV/ZMXXzXQR5Dy9LkS7PkK5IGN09eJz
-VU+p6H0Www+sBh33tno8N7VprFkNcoQK3vocqI7sajkpWyo8J1ih1dLTgIZ58YCb6PcRZV2X7JCG
-31x6491GvtwFWLuCHxVLmejOnFgVU4PZvHP30C7wLzpJzMtePjceMvQS7tG+2HN//Bgi5D277pAQ
-qDHTlyoRGnHgH671ddkqz56H3b1GGDQ9vL839a/ac5pUkUhwcuS30Bh4GU/AoPT59aJWHuqKzDUe
-KYgdVpTYOWn87nEUZwShO5O7r3fKDP2N3i3DkOkV6GhNPtObTQoPzt+tPz0Y15K9UTd9rW17KiTL
-GwTOIMxO7Eh5PNFnJor4FxwZpvtuv7Kd8XZ295v7tDJGuz0jq8iBnPix+hUI83ilDTPgY4ZvFr7y
-8PrlkZ83qNCHt8j9T2H3UKmBoJTaXCmODNQKJW4+DlObi6xZVO5D+UvHlkCBj1m945u9KushKb6b
-X08KkoHXBGt/vpxYnD0r1riOacMtaf9d8dFiaj6abrATAthw2hoYHW0QR4zWd/lkaUA53/kxsmPt
-esFhkuSAZyh7RwNw5wxyyOGsh7GZLszBsRI33afRmt5JubY2JmuGYR1MGCU4MW9rskUGqd4L3Jgj
-DQzusqssYJSclzV0yEgS5cSKXxtje2XAg8o/vrgQKiGnU6QMDlKGq14n56gWfjER9j7/9LKXlRpv
-RKjI1iVU59X2LI++mNShb5koKO+SXlbo+Ev59OMyAiVFo+/EPpSmeYwgg/KZgeJuZ6AKXlOG0m0H
-yudnoEm1Vm/7Bcv6xl9eyvA5ap7zehPe6WhZ5O+buXWfBUuCnj9PIx7rt/46bkVkIMJG9eN+TrN/
-I7TZXDzwhhwax8r0GLZOKvA23EVHFGo48x+OD2SEuU2Dj9rqQ3Umwckp3BzfI0OvAZV1pnp1FXny
-QSAZpQCqgJKZRCVetw1uSUg7MFkGsMqkfAsPr0NfBOcUn6h3II3YVtF1xfO5XzhC30O8PKM1LUF1
-Dra/1EfUzhg3BVg0B4h/qoHtsB6F041WcukyC+b1Sjduaz6ehDYu6VHG3g+jxxBItYDi2rkIrmK9
-Ar/rk4imIDE10Q+NNXlVgG+XLCrJZ04nvYKFEgjataHMydPzJq+y6npAC0edRvH8IDOOT1jiE/hd
-99hFvJMnLTQz/WqvtrmDo8M+RVWJdTx9o3OnsXHKf8oprtm+Jc43tbCOmnjKL4Q6dLx2WzeidVk0
-GHVmmekNS/5/XLr+g2jYgxO0duA/AXWYbip/OLCuwhQyWp1tZMd7+fis66CLB6iFSVxbV0xt803p
-n7E5HS/vRJ74Oxn0Mj+PkuSv/v3fzMCq4wO8cpBANwUSEOMK7ytvRJK0P2Su3VpHb6euWNG/0xti
-SaZe+NFDBnF4lupfJR8pDykqBIQkGDuu+lQ4kb6PrNlHC2B84ldsUEuE9zlumxrs53XvT8IERSLu
-BsRO/kETYVMGCc+l5s+Mr6H5wNmqXPr413jSRqPZoleYMvpO/EMcvCzi0oK31xuMMphSAP9TJxsW
-43N7+kJ7UkqRTDz+I/6Cn2DX7ri3hahWCllmxfQaqNPyVLCE41uf4sPAlr7OoIIrbcR2Fvl6e14D
-jjyEHUq02+L0M7vkaOHkFJ5bmfPQ4+N3v9h8RYaAfVVd/+Pwjt1AY8y4UDyKbaJuCzFVhuB03kpm
-6iXNB0ErpkYlHnMSv5aaXtNdDljU/r9orN7Lm485QNU8sgjvGUqcn42q94j1hwTT53Do47C5IgMu
-VfWuCuUPA9uLAZWTLn22LPDyzL7lAAE1+j64crl0G2iQbRv6i6nN7cX69Hyt57eMfELdIJJLWEen
-1thNZpQ7qAl9k0a/sMHUXnX2wpJkhd/Kcl/iqCDw1oq101mrnCZBADka1IUgsG3WSwjVE0JnG5Y+
-T+rflNnAnTy7AEtghtMOZf7fMBQRPztVZDHbjbqFguQS6qVmThgbo9j80/nYEWWDw67uCSsNMsO2
-AyEzWio2dWpN1ygKlVBori9Zfht6fStlM+6o4FcwyQDgBBJdwoKsife41dQZtQSDzs7/OoCPV+0P
-Bf4rCqJ1XR2KlbPG3ZSC8ri3NzGEhJYQbbxU/awIvnHPUxMYLhsWoYdPpN6kKOmTWUQoEXvejc2C
-yqP9UK7phWX1ZXupbEA4Mj9zi3qhMynxvC61iXvzSAN1dtEZsqHg9rZTa5smi5Q2pwtRcgA7eg6/
-siI1UzzGYaobndWYbQsNJp+mOh8Ch4WMLu5Bart4sAsMVTyXbqEmIwzkRO9zL3DEP/OI36FNq63I
-tG0eTbqbeeseC6cEo1U1EXS/YnpD9B8FqIqfQduCBesGDCRxpE6CwyfRk1HZxMps8PkwVEixam6v
-1QlSuSe8PnXjHalejxNbIObQsfV0HcCITpZWmsKzgIXs8L6pzrbTeLinG9RSkMIrRpb6W66Cl1H3
-b1WowjXngtCfn1TbCfFRDNj0r1nZ1AyZRJOrofr884LhfSaoaDmUswZ3QbVfmI7D1klFeP+ST6NY
-iuuRAeR2cIY6/5kRq+Z4/vyohQCSsonImx9Gog5X1rYjtLBBeCnKnre9Vmgb8A6Baf4+Ma9A6EfB
-DJE9+Dbz/Ae1+BexRL5U2vsJ6f6464sVRSifBG+HenV1AwhEJwV05sptrNoXNYxUyxwRoMbcsNq3
-PEMIVWTQU1eOAyblacK2kGNNnAZcuwLVl4ooXhYzQaZwedYTrIQ8n7LoqOEl1xc/pORJr8HrVq7I
-z1yed9LlH7lEYnRwasleXRhAHHVcJrttCzXbxTz+MxgSFNZaewotAyLedRbMqDnCT5o3vNGdpJDP
-ELP2Ps5fEKJWCUb8xGPjRv4wmzPst2vY/1Ar5XTlmYnSXPbmG5RGV9cLgLQH4lVOC8n7iyOv/Zqn
-WJMcbaOYOm64FnoLn39S/Bul8fYcMxkj11b2v65Gqyjtx4lbe213XOeR9HNyn0L9q1cwrmZBwlfO
-SX+JygT/qB2AIWHu3A855KaZHvpvb2BnQXhwpvsuJ0+E1Q4SmYR3iuExnQHgFeP4dtAIzKWY3ASu
-W9BhixnV3rqzxZ4zN16juQ4wZp4GNTtoSZdxwJaXzaB/mIwnpbgo2dV9DK9EMNd/0f3I0Pm7JkHE
-DfEzS+Zob8rryCRzfhQdjRycZ9JfZlCP/wdjyeC9ed7Im5/JRtBHqQzxP0ahPC6fm/SRpzX1lsUO
-d2wwGXytF+sIa/j7tzMjki6SmbovDCdkOXBPHMfSGhBDhqmX30uWMn3XL7sjM60ZL/KTjIx58WlW
-ko9ruHKLrzcBZmLuGst4fmJ6Y4u4dwKiU+g9DqKqSEJlhzLtyoFq5mHy2TQ9CsalTn1gmwyR+Yrw
-FJw+r4JMhIl3BeoLUs5Li3Xisn+XhzBG1nhmDiWnAvP27QV7/lwuqTP/I6HiEEubqtpLq7Tk/g7B
-b6n5UqAsl7vNud94SoMX0G+R2XKgLD+djHzT97w8l9yo4LKVY3PSqESGjbtoHV8qtE2LUbN72BlU
-fQbHUJ4k4hQl8wAKQ1kRL1UyZpQUc0NVg1kJwGw9uHnO1U1qBbr8BbywB+yE6WcJy7BcAt+REn2I
-BdAvpYofnmwe+/NP72B00jjyyHLEQOD4zhe8DDcls/rXW/q6lmIg9BN5NLMDkewG8trOKv0DZHrK
-w7j4W2peNlXU1k2+A9i/dqS/G1Uj7ow3+9WMDWJNHPjyLqtmx6glOKet385Nf6On0FHdS8zvwA6B
-vQz/MJlYLCmtNnz1D/n8HRhwh9PlAJYVoZ6XDM4suKIglSC0/n2mHbBscVQlkQEsDQWb6F8vh6bO
-nS3DUYXm9n2yzipyVtpSVhOiMv/w3+qkECBAVan5ee4sYkbvQCAisGiJYueN6iWImR5mvgCJqXU4
-qNjDb9yMdHuNCX//yitja3HKr9ifuTUlTeT3Av0WlfSrwEXjyTNum9edq/NDY5LXqFgfyrO3Yvnx
-1HLtm7c/U/KaQln84KZ7Q/7WFvWw50YqFHu4moKnIcODCrZ0nOAHmuKCpug5Atvr9NyvzIOWxicF
-Zmo6odJqvfxzYyFSPZQ5aXaTZaLQS7D6ARUX67HTVBV3riKswucs26G8mKeUJVxC6Th0WKlZZXMH
-k3f91EMTkMDrVMisrm97myKnBtlyIpdQFS8N2PoDE1EtMUK2/6e3Kr86YGlgKMUAaCKkdc3wm1td
-7sxrGKIpYQfs38uPQA0aRx7auJQoxAWYETixgDVWppIPRpYOtsWP+6DxZme4zmrYAS97WOmNjwrj
-/eAcw/diC2N7D7nVWorEYL8RQbsI7jqjhVAU9b2xYrmpoaZjyD6wTOH5spSPDDaGw8pY7gT6JEOf
-kAerX47esvI2B84oRxGsCHMBRP/6Quw8EU7PkksNfxeV1NS24s75vSxSimmV2cEDCKjQKJjg3rLf
-YyqskmqdhybzmC8Ffm6CEM1KbOKnMudeUjUMYSHDgr9qyijQg/dTA//0WUgMBMq2LLVnDQoXMFxB
-yxMyYNQ4BSkeK5WuzqP7ft0rAsd5J+BJQE/Pd0za+uSDMkBw7RXgLF0+VSN5MCHePcKvQ5Gw2gjJ
-wrVDcTijnKC3vu+U97JQjUy+qNTxfsScmBkRo5vaUl6u46ByXKgdJV9L3w9xK6KpCmonGQMR6G8v
-rNTpCnvWBrv5JP2PL2dIPm7A5FdTXdBHHXheqTyBdIX41i8P87mqCUmvrejTUIXl9WBoGoMkHek3
-3u7c2TuUdq0kqSUPq1bceQHKutf3WJga72hTtb6V9Rt/cMO1Ozto3ewRikQ+01/SaXnpKReq6gBX
-2A1gSdwd6xjTeDHW/++ZWgDMq9IWCZcCJB1rXjXleardJs2qLYC24OeJEo1s7wt1tzI3b4mliiGx
-qJyVXJrMxtHx2bbSp3Ub/p4Y7JjE2vuB9CO8rqUdl2wiOpM0XgsTgfYp72k1jFJHuvY1tf5cyr6T
-C1reHBN5V3YVS7KDNpxnikFtky6qJvBuutVCqFbLliKhQrqaD/VPpOjAbmWDKXz7iEdKDExgNbk9
-/PMYGMUSfMyqOLPX0W+mp7wJSzsQV5tcp0766r3x3YyOT6WR7jS9cHKio3IxIK18XR3kQb+h+jw8
-lIPa41siybUd2x7DSRRz05YmqOcwa7PneLNfUcPBTCSXTD/TT12ve5B/M9luAHLQ0ElNoIgik/P0
-mgGBnNbw2KJx816Nk5mZ+oyZMNhfOC3DS4ILC3PzLZRf5TMQX+4Awok1lNQXQFw3dfP6mdK+ELQZ
-7QYYee4F6w7GJC2MfuZ2wm/MZBezPGUNTEa43p4WPVNwuyDWbq/6+TOZ5FV55JBmi6i01X9QwzdG
-wlTyRXAkqwlRPFci1n2AiGE/t0/h6Y4632ZdJKAC8P0M4MhV3nAcPojVHuK+YsPF/3/W63f4Gxuo
-zi6DNkOpQ+aZ2BBCTLu3lgXNMYM69T1ZmdLVY574CT1mtKr3VI1YDaq+yvkKh4GJzU47nQuQ4S+Z
-l5oZyNn99dyICeFURe/dXOhM758IDblIS/VGiGyRioOGnFWiB+GKYCfQlVt6sJasdj8WPvdJr5fw
-fF5TKcJZVElZQaN9EV1mx9zxrTX8I4FviY9Aa67+xXKE3HvYCtnkp1hevP6o9+RLup+14yEE7NAj
-Z0LtsdDpmLpCMP83nWy5jRGFaR7tRsHm3b64g4/2+A7WOw1L2Y0W7kObIevID2cVQKWrv30HWLgF
-VITEkn2/DwtjMS2cq9HglfuV1s67ewgfPmffEWtoNPJ9CqMTiBBoBVRRZzbDaJU4T2U3wmf/U1OQ
-xuuK+ybujMBiUgKK7DouXiTOgG2mycUZRtimK3RLqCpclyAWLoYN4/XBjZ9456rzgLshQm5ev0f4
-e7OwTqDK4zg1hjnrrwEV18ZpUmmvX4eEp5+LcA3IIcqZabc2OWHkZf0eUhOAiAN9IS2GQ3aHJaw1
-5zm5kr/lh1Vl2bs00i4oOpPrBfq9Vy2aLJW48wKM7UDm7qlldkU3D94IigdA3BSMhXrPuBuVK+4v
-PoKJd5U4nAb5sO9EhG+GgqHLV4ULC3svXRIlK5zsEBJ6KDl2Nv8cSp7WAwy/T5cT+HPLUquAFwFq
-tUQWK3ku9UILJvsnzKN1qaBupekORDbfYzR3Cz0mpXsmnrgJuL0E08izuH5H4zA4gxeAHBwhgQ+V
-668I50mebkAo5mmHDzCS9SUzZMMhqWSuZbi6cgZ5vFHusv4IPv1doCUw/Ze/K78PXaUfY1O9MHcY
-I02Knjk99IwWcEo7q1xBuFxUTW4c0QE71qe/mzGF0h+sovm1Bd9+7qFG4tTS9+DXa/gkL0sPY11L
-Lty0A0pNksd8CgQc+fhn0+uk5hpy8fOdlXLJOPNfr4PfYeyAXWSPN///qdiiTlK290a1n3xGUp+3
-jpvmkpj4H2Bn5zepkdhg7DvBD2TCOX82T+pSZOJ1Cb0kRgrglDBK6lyrsdFXZ6iofh47G1LGrROu
-30YiQDmv0oQEFiBxH2/rO7E4jYiST3AK/iluXJZ5Y1BnUPppnXoglx2rw2aGKB+4K6jj8yNNjbHd
-SWg/VQgXDU3/iNiSaZvvzAgepzjuSZiXTb/mU4pGff46iotYDJBjtALzOdZ0GEnZNF8UASGsookl
-RF+G5hxtwiHT7hy3Fy3eShSizLA7CQ3oLXFbaiORO2U9zIjbXnIdkK1T5vnSAuHetMDOs38eN/KQ
-ig3dsMnh36juGZDjwsx2Y/16yYhDeDta2CtVPQ/HLnWoo/kw64rKp9LN8jp5wIh/IkPY38M6hYF+
-w0oTBF3eLUgU7tzhByWDtIgc4hTjNwDPgN5z+S+d/wICNgK59OnZ2bpo12JexxGWoNmaItumx6QM
-44eH4yafHYEKTHYBpPiYlSVlKzEmpQJmMQTJWhSnbpvuecnAhQDILYd37xGU4cEPYhM+HlQEE5gr
-dAjDRBzVATSGtMXPm30vK3X4j1Nt3Z3KlcG5IRrIngOC8uQttvgwzxoZ+r8k7RjgCTDTJ6r6GBn4
-iIw1bor9i7m1z9rKNRaHcsChqdzEHdtxSNUglbO5hat9Kk0jkEGVT1a6hQRGnah2dSMG2TjMxnqw
-DhPEnB++yIpe+h3Rnh3R6PtkZXMu6BBkmPWZOLo0P7WhHU0UuN06abGXGHL49+wHSmBfYsawQZKM
-jOAx6TeUCkTjDMvn+nylh+3C+68P3AptyW7jgxYsCbtcBwOs57VR3GjdleRub0RkNuB87APo37I2
-L1TJfpYPy3Aaqy/PUvQv61Nmgj70EXKZMK0oYWoguv2gHv+r33aWNOf+lK5z+0OKJFPySuVzgeV8
-UrKND0vuLDmCj/6RLkSaUx/lM++vr+D6qqK1eYe6JQzAcpcd5IBMXup5/oxWrRBO4Sl5BnWLlWyz
-T6SCTe4kAVmrdZqfwk8PJeohlT6/Kh12Qheo6v1Jrpcs5GEHYuaDv57kiDLAMEuuLIm/PasuEGUN
-+kkIfXLQTFXDc7TKe54jX6wMavwT1pazG2WKXP6aJufsAPtV24HmEVvAvhFUgwEKp+V5n5q8+thC
-iJv9uYlHCKGLAfWhb35N+4T0OEjpT5ALeJzSt42nFVGO7VXGyNmb8mWwTTssnPd5W8Cx2/OzjHbq
-lEmiazK8w5rknhIHlPZbm1WJ9wigwCIWgZ6e6rdwYG1PyZBbgtpfpE+NPi9eeS5dYxce6ReAlnDr
-nDXDc5xpa7khe1gkMuXFcyYMwvKhQBMR7DskJopyx/gv3ZrP4dHBhdcHsilfE3kAZ8L3boetmKVv
-Ibw1F+gZYkIT8PIeFvTDdseViT2ifAShwfnfkpWIBLmdLyYxOY7jnCcmgMh49+O4Bio26EWjGHgI
-2A8spiZr1Gop2uB5JR0xqqaD4qjTqJD6OXATGe+aY4gcXehpfHmaaOQIiflEma0iWvIFDV+T4dse
-b+dqGen90eNGM2NO2XvN/xCksQ3pR3df1uMfS66PnShI5EJdBhTSpIO+HDLpQghb2cWdmYLZu/4R
-vDcjmxcMbzXk1Pur9oTkwpdiHd+NpKMZWlYl3t1JVckKtWeMyb0N/BxPo4eliP8FUMt7pdoMw4Hh
-ov1xy31GcL3TkRwZTarTX1bWOVYjDAVWGE5+EpUkIVLvKBQJ7aHAMwNS/OlAj1+qdEojZln6inh2
-d/J0h1Ivs/o8FZen2wu5601nxUHHJ7YkPmx4uS7INWwC/sI5eGaCPIXGbuTNqiizarTq4Uma40ov
-FwsJ+Uep1uxZ15WSrMUiFwLrwk3a7etL+6j5y8fpSACUOWjXDTUuKnZu1YyParG2h7ySXsndmI0k
-hmS4vwxVxwah0acqqeyp2PfkNWqnklHzBMvS75oezcUFpAmR5buuox12XCZgjmWjAu0ftvglv+hM
-GroBF+pPbUPamOi7yelWMUR14qvSqgh1ySkj2TqAXoxBFNstTQaBJHAXqDNUILpbH2setZNptpOG
-6DNPBLup/0bjgsTtIYJ7yDoa1nE0TbVHZGHkRZyQ/i1XbS3DYzCmWsf0NJN4aY58fTHKjFtEjbSN
-YUTqIizde/YglDyhksT3nC6YCzoW059sAnZXJDMayobreb1xYHov/ep4VlNujVyakVtMUUw3Ndm3
-J1nYQRwb4eOiUToMuP0FThXbJjDoQW6ZYhglG7dclttzf24cjxcu6bGpysMIvAEAun0dMXlUVKAp
-J7PbfVhHrF3dfbXPZ8Q1Dwf2NY7zQYZTAF5EQvfGmoG2rFkD7GDo0pwDv0zE4lbODljob63qgUBP
-x/YxGa70UgRGDEdBNNcgD9uc0POeUAq2nLjVH5RCnYwpNuC/enzG0U4jHcGa3Epo0Gz3I4GL1wc7
-Pu8Zuem19519TX26+I8ZpunN9RkLwQatLTvdKRyb/eDDu7EWbOg6wGA+fJEdEAdr/pKEC8eM89Zs
-ucE3BK4LyP6V9KKRI3P8kXAwp6bs2tEUv/5MDHBR3mt2rS9LuSk0W1lKm2PNBdvoNxc7IaLtni7E
-XbW7cp+JsJErDfZQMFSVBMx28k8qqglmlVR0YEnL/FwM/VP/69qVboxqoWsFCxPpCeL68KLjHlR1
-KdqqOWckgug1ZAJUgOVGhxrYYYG2qCEuLnkqvcbVFk0HyofWDr7qwnA/PbbsPmfdaVUwOP9u+BdJ
-+F1Qrnbzm+buGav3sP7/CFjDiJcnR6bPp2MXHiUs+IjVt24lyufQBHLyzcuMzie3ZVlr1bcKkM3c
-JaZf9ReOmFLNlOILeT0lIKBh6NtQnizp8n4smHOQtrV7+//CaMzDMUV71Rwk8OKL3qsA7UMOtq59
-JVN50jEQ8rsAo1n1uI7//zVvHISWz0q9T8AdksAC3Q+WIbzvGokkiKfB8YIJKnHvlM273kJDJFak
-K8pkt+cd+ydhoqqc4dJl6gjZnRY8Yzn0nT/gQ6P9tSZKpswPPN1HR+e3jXNGhKpKHxk2MkrGwjQ0
-/8Y52v7vmASBUlBh03xHMufB79+PAtw83tc+nyyWDHOOh7RMbB9xcpCuyzpXAOKVyN4O+5srkB5d
-AH7Nx6X9Q5TWoZwIjNtdyo6DS6gyQzlrNuSB3e0ln53KHh5sH1Kfd5ebq49D5UoigV/IZljPRZEp
-UHyw5Pc1ZF5M59z02QWgDMVYf69RzDc6SLq/bkf7I9nhbmoD7/1xMiPlCHskL6/pSNbut7p51gh8
-w+XYJirZHa8o69v00bUYh7uty97iKTMDbIEr+kmA5llkkv8hEbPsEddJA8Xwff+grGbOV+wT2WDd
-3I8nvYeLoDH4cXzfnInPBgvVzGuewGXpzsmYMxjECBD373bTRb1Hq+CspukRJPd9PL0Ajz1q4xhr
-QLJAe0+9uAJ76vhPA8ywXpIN50zuDN3vG0g7OG27FduFZ0+6XCX8uita5bYMYhWwV4RzY/BoBSEL
-Bw+qExYgT5U23BlGa3GDWyMKVpINtH+UyXSdWGNSNtMRZd9R4B85gn/ImTzOks9hensnxzmMAhcJ
-2rfF4DhmpkOdrQeWp4A/No/as07C4xdfqBVf/cQmBYNHyHUtHYqURQ8HBmv6ug0mk44ROT3gLKxC
-prBZcPhZM5AxPmSZh/KBDHo6m7tSimgKG3Hc9WhBP4JJJGd5D+F3yFTjY39cEbiuRXcWDw+bBzbT
-GewlH0Zvlj/bhuDm/eIfNwzAkUMsq5qblawUwQisrT9j32dRNr8G9nSEGFjxMeRLrC1pCzsdAWSe
-GPCt4d9TrIaQaIZDguupUqIbYdfK3Em4r1Eb8A1TGeR+GaFlPliGMSPKcc51JEV85n7zevBsBw0V
-M3l9+LfMJJFEpfEX98ZOiDIg8/jVbeDqUj+1D9PJno1W+AN+ZcOezjApjJ/gbf4eRZao5Al4fHHo
-y51oBwmVfvnETjUS0ZU07lib4tfI5M7yi/DW+yAVD9q1+SH387fSxHt+xPSMDyqWyfoiiFymYTB1
-rPp4JyWauCkEgsw9dkfs99ulcVwcUKIowI4e/MuQekDCHv4/naV9fcjB7KTe0Ig27Seb5um3rRrU
-eDr9i9DibQnMdSe4g5vNLlr2OPS8/GUlLfpTjbvO6UMxMW83s1mVk4sijoeGLNXfdBrjHYYj4/Rx
-EkdAIy5v6/b154/G4dcBoGOTB6WSufHovnJka7tpCTyKgaKKGDolJ8UETL3sVEpMXUukJqGvRwuV
-09vkIgeP4AkKFnIjDqrP3COlrt4Y54CnfbBVHtlLcnaCAmi4GgLF1LIEEzkVNzoqoEAtWLub/qCD
-i0Zh3H2dZy8n4u04JOBCNzbjTHUBXBP61fC5XKcglb3uRpqJY793C4wYQnKmrD27SII10OOD76ue
-s2PZyQQIPZ+GWMFHtwxFS1xxEmxu5K+Xx/c7zWi982f0xDQo1z7jkeHSBHQfKhSKwgpwGCvgWzdH
-wUi2eFJlhrkpBG/GclEMoPps96zFzufnwV/oFnUSnIkYe3uDud0H68UAYmTO3eQKKH5UVyPMCDM1
-N6hneJZKuyeI0z2QorUvsT0AojffXbwnOJyZ0iCVgUfJDH6LCdQog873dDBkjgPRSCLYEANC4uPp
-GVGz8Ob3ebjZrBqYsIemwcBBy+36V4txiJOIGIIm6iL1LZSTAC1d4njSk7i8bdyAxBAcp5b+iLP9
-ecsTYW96Si9tiiy1mwgEZqdPDLLaeyrSefqutUhl5OBAA9BL7JMTQHELBlW42tDYJI8EsiLw8lgE
-JaJFO8iuNL0Ie5kCQaeG0/4Hh89npgr90aIjSwc/ZBgoZq1X1fgq9WFhC21tmDnBKQQn+WUJrvoe
-OypT8PBnyujIw4YBhdOl/3Hj3VM8M0vF+dWQgQgv6XkUX8t4V3cYb+n9+6VMW5YLtx2DIZ1t+zsB
-CzPY261LM447JbWgLxqDio05xUqMRnbTKNsryLr5W0Z12z1gViTyn2GqG0Qz///SlgxjQ/vJgny+
-G/+IqhvMUPbucgvUYYGpjjRkt88X7ORXCcOO3lDBfyL1bOLjMHYX+n3Ukn35KL7X9OrY1rh2KrDv
-mDv1f2/2T4kSqnAN5Edvk4gZqO8nEYeHtPS8TaaaCAbN4BMdg+PVf2BI+vw7c/RTbFv++VrzUdOs
-rE+bmO+EQv0HDmkF1xggK2S0x7S+gt3N7ZhseLJhgM7p78VPCqqOyh6WQlUISr8wr0HvkLwbL7FU
-XLd+WCOKXPtmAzJqqmhJ3/owSiPIJOgZO6hpw8J1/VaE+9Ewi3wt8Sw1BFLxZDlX+L96g3UTACBt
-xcdM7SEQCuZIEVctI/HMkjBMdT/CVj69UUklcl9VXFCvyGoWt1vrf7KiNa44G8ll0cDNtiveAl7o
-dBiXdEnfipqbdZE4HBcTEdjcxe965a7ABzPWHcu5BKcPp1eUv4kanpUeFfQG5ca7DJNt0ym4tXWg
-u83PkyGcWeW4VYdN+rkwvnB5IXPesozmzHoBt9ZGSmNjbzDf3HekGv+Jm6PNZhoGH9/j1KOXssfW
-0J+5zZtZKoMp9P7IVd60zNU1PvdrmS87i/Q30ljm+WwQUoJsfi785x/Uvn+xaCuwtiZdGVFCEO7y
-f89288/qxdtJjePebCC=
+<?php
+
+namespace GuzzleHttp\Psr7;
+
+use Psr\Http\Message\RequestInterface;
+use Psr\Http\Message\ServerRequestInterface;
+use Psr\Http\Message\StreamInterface;
+use Psr\Http\Message\UriInterface;
+
+final class Utils
+{
+    /**
+     * Remove the items given by the keys, case insensitively from the data.
+     *
+     * @param iterable<string> $keys
+     *
+     * @return array
+     */
+    public static function caselessRemove($keys, array $data)
+    {
+        $result = [];
+
+        foreach ($keys as &$key) {
+            $key = strtolower($key);
+        }
+
+        foreach ($data as $k => $v) {
+            if (!in_array(strtolower($k), $keys)) {
+                $result[$k] = $v;
+            }
+        }
+
+        return $result;
+    }
+
+    /**
+     * Copy the contents of a stream into another stream until the given number
+     * of bytes have been read.
+     *
+     * @param StreamInterface $source Stream to read from
+     * @param StreamInterface $dest   Stream to write to
+     * @param int             $maxLen Maximum number of bytes to read. Pass -1
+     *                                to read the entire stream.
+     *
+     * @throws \RuntimeException on error.
+     */
+    public static function copyToStream(StreamInterface $source, StreamInterface $dest, $maxLen = -1)
+    {
+        $bufferSize = 8192;
+
+        if ($maxLen === -1) {
+            while (!$source->eof()) {
+                if (!$dest->write($source->read($bufferSize))) {
+                    break;
+                }
+            }
+        } else {
+            $remaining = $maxLen;
+            while ($remaining > 0 && !$source->eof()) {
+                $buf = $source->read(min($bufferSize, $remaining));
+                $len = strlen($buf);
+                if (!$len) {
+                    break;
+                }
+                $remaining -= $len;
+                $dest->write($buf);
+            }
+        }
+    }
+
+    /**
+     * Copy the contents of a stream into a string until the given number of
+     * bytes have been read.
+     *
+     * @param StreamInterface $stream Stream to read
+     * @param int             $maxLen Maximum number of bytes to read. Pass -1
+     *                                to read the entire stream.
+     *
+     * @return string
+     *
+     * @throws \RuntimeException on error.
+     */
+    public static function copyToString(StreamInterface $stream, $maxLen = -1)
+    {
+        $buffer = '';
+
+        if ($maxLen === -1) {
+            while (!$stream->eof()) {
+                $buf = $stream->read(1048576);
+                // Using a loose equality here to match on '' and false.
+                if ($buf == null) {
+                    break;
+                }
+                $buffer .= $buf;
+            }
+            return $buffer;
+        }
+
+        $len = 0;
+        while (!$stream->eof() && $len < $maxLen) {
+            $buf = $stream->read($maxLen - $len);
+            // Using a loose equality here to match on '' and false.
+            if ($buf == null) {
+                break;
+            }
+            $buffer .= $buf;
+            $len = strlen($buffer);
+        }
+
+        return $buffer;
+    }
+
+    /**
+     * Calculate a hash of a stream.
+     *
+     * This method reads the entire stream to calculate a rolling hash, based
+     * on PHP's `hash_init` functions.
+     *
+     * @param StreamInterface $stream    Stream to calculate the hash for
+     * @param string          $algo      Hash algorithm (e.g. md5, crc32, etc)
+     * @param bool            $rawOutput Whether or not to use raw output
+     *
+     * @return string Returns the hash of the stream
+     *
+     * @throws \RuntimeException on error.
+     */
+    public static function hash(StreamInterface $stream, $algo, $rawOutput = false)
+    {
+        $pos = $stream->tell();
+
+        if ($pos > 0) {
+            $stream->rewind();
+        }
+
+        $ctx = hash_init($algo);
+        while (!$stream->eof()) {
+            hash_update($ctx, $stream->read(1048576));
+        }
+
+        $out = hash_final($ctx, (bool) $rawOutput);
+        $stream->seek($pos);
+
+        return $out;
+    }
+
+    /**
+     * Clone and modify a request with the given changes.
+     *
+     * This method is useful for reducing the number of clones needed to mutate
+     * a message.
+     *
+     * The changes can be one of:
+     * - method: (string) Changes the HTTP method.
+     * - set_headers: (array) Sets the given headers.
+     * - remove_headers: (array) Remove the given headers.
+     * - body: (mixed) Sets the given body.
+     * - uri: (UriInterface) Set the URI.
+     * - query: (string) Set the query string value of the URI.
+     * - version: (string) Set the protocol version.
+     *
+     * @param RequestInterface $request Request to clone and modify.
+     * @param array            $changes Changes to apply.
+     *
+     * @return RequestInterface
+     */
+    public static function modifyRequest(RequestInterface $request, array $changes)
+    {
+        if (!$changes) {
+            return $request;
+        }
+
+        $headers = $request->getHeaders();
+
+        if (!isset($changes['uri'])) {
+            $uri = $request->getUri();
+        } else {
+            // Remove the host header if one is on the URI
+            if ($host = $changes['uri']->getHost()) {
+                $changes['set_headers']['Host'] = $host;
+
+                if ($port = $changes['uri']->getPort()) {
+                    $standardPorts = ['http' => 80, 'https' => 443];
+                    $scheme = $changes['uri']->getScheme();
+                    if (isset($standardPorts[$scheme]) && $port != $standardPorts[$scheme]) {
+                        $changes['set_headers']['Host'] .= ':' . $port;
+                    }
+                }
+            }
+            $uri = $changes['uri'];
+        }
+
+        if (!empty($changes['remove_headers'])) {
+            $headers = self::caselessRemove($changes['remove_headers'], $headers);
+        }
+
+        if (!empty($changes['set_headers'])) {
+            $headers = self::caselessRemove(array_keys($changes['set_headers']), $headers);
+            $headers = $changes['set_headers'] + $headers;
+        }
+
+        if (isset($changes['query'])) {
+            $uri = $uri->withQuery($changes['query']);
+        }
+
+        if ($request instanceof ServerRequestInterface) {
+            $new = (new ServerRequest(
+                isset($changes['method']) ? $changes['method'] : $request->getMethod(),
+                $uri,
+                $headers,
+                isset($changes['body']) ? $changes['body'] : $request->getBody(),
+                isset($changes['version'])
+                    ? $changes['version']
+                    : $request->getProtocolVersion(),
+                $request->getServerParams()
+            ))
+            ->withParsedBody($request->getParsedBody())
+            ->withQueryParams($request->getQueryParams())
+            ->withCookieParams($request->getCookieParams())
+            ->withUploadedFiles($request->getUploadedFiles());
+
+            foreach ($request->getAttributes() as $key => $value) {
+                $new = $new->withAttribute($key, $value);
+            }
+
+            return $new;
+        }
+
+        return new Request(
+            isset($changes['method']) ? $changes['method'] : $request->getMethod(),
+            $uri,
+            $headers,
+            isset($changes['body']) ? $changes['body'] : $request->getBody(),
+            isset($changes['version'])
+                ? $changes['version']
+                : $request->getProtocolVersion()
+        );
+    }
+
+    /**
+     * Read a line from the stream up to the maximum allowed buffer length.
+     *
+     * @param StreamInterface $stream    Stream to read from
+     * @param int|null        $maxLength Maximum buffer length
+     *
+     * @return string
+     */
+    public static function readLine(StreamInterface $stream, $maxLength = null)
+    {
+        $buffer = '';
+        $size = 0;
+
+        while (!$stream->eof()) {
+            // Using a loose equality here to match on '' and false.
+            if (null == ($byte = $stream->read(1))) {
+                return $buffer;
+            }
+            $buffer .= $byte;
+            // Break when a new line is found or the max length - 1 is reached
+            if ($byte === "\n" || ++$size === $maxLength - 1) {
+                break;
+            }
+        }
+
+        return $buffer;
+    }
+
+    /**
+     * Create a new stream based on the input type.
+     *
+     * Options is an associative array that can contain the following keys:
+     * - metadata: Array of custom metadata.
+     * - size: Size of the stream.
+     *
+     * This method accepts the following `$resource` types:
+     * - `Psr\Http\Message\StreamInterface`: Returns the value as-is.
+     * - `string`: Creates a stream object that uses the given string as the contents.
+     * - `resource`: Creates a stream object that wraps the given PHP stream resource.
+     * - `Iterator`: If the provided value implements `Iterator`, then a read-only
+     *   stream object will be created that wraps the given iterable. Each time the
+     *   stream is read from, data from the iterator will fill a buffer and will be
+     *   continuously called until the buffer is equal to the requested read size.
+     *   Subsequent read calls will first read from the buffer and then call `next`
+     *   on the underlying iterator until it is exhausted.
+     * - `object` with `__toString()`: If the object has the `__toString()` method,
+     *   the object will be cast to a string and then a stream will be returned that
+     *   uses the string value.
+     * - `NULL`: When `null` is passed, an empty stream object is returned.
+     * - `callable` When a callable is passed, a read-only stream object will be
+     *   created that invokes the given callable. The callable is invoked with the
+     *   number of suggested bytes to read. The callable can return any number of
+     *   bytes, but MUST return `false` when there is no more data to return. The
+     *   stream object that wraps the callable will invoke the callable until the
+     *   number of requested bytes are available. Any additional bytes will be
+     *   buffered and used in subsequent reads.
+     *
+     * @param resource|string|int|float|bool|StreamInterface|callable|\Iterator|null $resource Entity body data
+     * @param array                                                                  $options  Additional options
+     *
+     * @return StreamInterface
+     *
+     * @throws \InvalidArgumentException if the $resource arg is not valid.
+     */
+    public static function streamFor($resource = '', array $options = [])
+    {
+        if (is_scalar($resource)) {
+            $stream = self::tryFopen('php://temp', 'r+');
+            if ($resource !== '') {
+                fwrite($stream, $resource);
+                fseek($stream, 0);
+            }
+            return new Stream($stream, $options);
+        }
+
+        switch (gettype($resource)) {
+            case 'resource':
+                /*
+                 * The 'php://input' is a special stream with quirks and inconsistencies.
+                 * We avoid using that stream by reading it into php://temp
+                 */
+                $metaData = \stream_get_meta_data($resource);
+                if (isset($metaData['uri']) && $metaData['uri'] === 'php://input') {
+                    $stream = self::tryFopen('php://temp', 'w+');
+                    fwrite($stream, stream_get_contents($resource));
+                    fseek($stream, 0);
+                    $resource = $stream;
+                }
+                return new Stream($resource, $options);
+            case 'object':
+                if ($resource instanceof StreamInterface) {
+                    return $resource;
+                } elseif ($resource instanceof \Iterator) {
+                    return new PumpStream(function () use ($resource) {
+                        if (!$resource->valid()) {
+                            return false;
+                        }
+                        $result = $resource->current();
+                        $resource->next();
+                        return $result;
+                    }, $options);
+                } elseif (method_exists($resource, '__toString')) {
+                    return Utils::streamFor((string) $resource, $options);
+                }
+                break;
+            case 'NULL':
+                return new Stream(self::tryFopen('php://temp', 'r+'), $options);
+        }
+
+        if (is_callable($resource)) {
+            return new PumpStream($resource, $options);
+        }
+
+        throw new \InvalidArgumentException('Invalid resource type: ' . gettype($resource));
+    }
+
+    /**
+     * Safely opens a PHP stream resource using a filename.
+     *
+     * When fopen fails, PHP normally raises a warning. This function adds an
+     * error handler that checks for errors and throws an exception instead.
+     *
+     * @param string $filename File to open
+     * @param string $mode     Mode used to open the file
+     *
+     * @return resource
+     *
+     * @throws \RuntimeException if the file cannot be opened
+     */
+    public static function tryFopen($filename, $mode)
+    {
+        $ex = null;
+        set_error_handler(function () use ($filename, $mode, &$ex) {
+            $ex = new \RuntimeException(sprintf(
+                'Unable to open "%s" using mode "%s": %s',
+                $filename,
+                $mode,
+                func_get_args()[1]
+            ));
+
+            return true;
+        });
+
+        try {
+            $handle = fopen($filename, $mode);
+        } catch (\Throwable $e) {
+            $ex = new \RuntimeException(sprintf(
+                'Unable to open "%s" using mode "%s": %s',
+                $filename,
+                $mode,
+                $e->getMessage()
+            ), 0, $e);
+        }
+
+        restore_error_handler();
+
+        if ($ex) {
+            /** @var $ex \RuntimeException */
+            throw $ex;
+        }
+
+        return $handle;
+    }
+
+    /**
+     * Returns a UriInterface for the given value.
+     *
+     * This function accepts a string or UriInterface and returns a
+     * UriInterface for the given value. If the value is already a
+     * UriInterface, it is returned as-is.
+     *
+     * @param string|UriInterface $uri
+     *
+     * @return UriInterface
+     *
+     * @throws \InvalidArgumentException
+     */
+    public static function uriFor($uri)
+    {
+        if ($uri instanceof UriInterface) {
+            return $uri;
+        }
+
+        if (is_string($uri)) {
+            return new Uri($uri);
+        }
+
+        throw new \InvalidArgumentException('URI must be a string or UriInterface');
+    }
+}

@@ -1,69 +1,147 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\YouTube\Resource;
+
+use Google\Service\YouTube\Comment;
+use Google\Service\YouTube\CommentListResponse;
+
+/**
+ * The "comments" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $youtubeService = new Google\Service\YouTube(...);
+ *   $comments = $youtubeService->comments;
+ *  </code>
+ */
+class Comments extends \Google\Service\Resource
+{
+  /**
+   * Deletes a resource. (comments.delete)
+   *
+   * @param string $id
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($id, $optParams = [])
+  {
+    $params = ['id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Inserts a new resource into this collection. (comments.insert)
+   *
+   * @param string|array $part The *part* parameter identifies the properties that
+   * the API response will include. Set the parameter value to snippet. The
+   * snippet part has a quota cost of 2 units.
+   * @param Comment $postBody
+   * @param array $optParams Optional parameters.
+   * @return Comment
+   */
+  public function insert($part, Comment $postBody, $optParams = [])
+  {
+    $params = ['part' => $part, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Comment::class);
+  }
+  /**
+   * Retrieves a list of resources, possibly filtered. (comments.listComments)
+   *
+   * @param string|array $part The *part* parameter specifies a comma-separated
+   * list of one or more comment resource properties that the API response will
+   * include.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string id Returns the comments with the given IDs for One
+   * Platform.
+   * @opt_param string maxResults The *maxResults* parameter specifies the maximum
+   * number of items that should be returned in the result set.
+   * @opt_param string pageToken The *pageToken* parameter identifies a specific
+   * page in the result set that should be returned. In an API response, the
+   * nextPageToken and prevPageToken properties identify other pages that could be
+   * retrieved.
+   * @opt_param string parentId Returns replies to the specified comment. Note,
+   * currently YouTube features only one level of replies (ie replies to top level
+   * comments). However replies to replies may be supported in the future.
+   * @opt_param string textFormat The requested text format for the returned
+   * comments.
+   * @return CommentListResponse
+   */
+  public function listComments($part, $optParams = [])
+  {
+    $params = ['part' => $part];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], CommentListResponse::class);
+  }
+  /**
+   * Expresses the caller's opinion that one or more comments should be flagged as
+   * spam. (comments.markAsSpam)
+   *
+   * @param string|array $id Flags the comments with the given IDs as spam in the
+   * caller's opinion.
+   * @param array $optParams Optional parameters.
+   */
+  public function markAsSpam($id, $optParams = [])
+  {
+    $params = ['id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('markAsSpam', [$params]);
+  }
+  /**
+   * Sets the moderation status of one or more comments.
+   * (comments.setModerationStatus)
+   *
+   * @param string|array $id Modifies the moderation status of the comments with
+   * the given IDs
+   * @param string $moderationStatus Specifies the requested moderation status.
+   * Note, comments can be in statuses, which are not available through this call.
+   * For example, this call does not allow to mark a comment as 'likely spam'.
+   * Valid values: MODERATION_STATUS_PUBLISHED, MODERATION_STATUS_HELD_FOR_REVIEW,
+   * MODERATION_STATUS_REJECTED.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool banAuthor If set to true the author of the comment gets added
+   * to the ban list. This means all future comments of the author will
+   * autmomatically be rejected. Only valid in combination with STATUS_REJECTED.
+   */
+  public function setModerationStatus($id, $moderationStatus, $optParams = [])
+  {
+    $params = ['id' => $id, 'moderationStatus' => $moderationStatus];
+    $params = array_merge($params, $optParams);
+    return $this->call('setModerationStatus', [$params]);
+  }
+  /**
+   * Updates an existing resource. (comments.update)
+   *
+   * @param string|array $part The *part* parameter identifies the properties that
+   * the API response will include. You must at least include the snippet part in
+   * the parameter value since that part contains all of the properties that the
+   * API request can update.
+   * @param Comment $postBody
+   * @param array $optParams Optional parameters.
+   * @return Comment
+   */
+  public function update($part, Comment $postBody, $optParams = [])
+  {
+    $params = ['part' => $part, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Comment::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Comments::class, 'Google_Service_YouTube_Resource_Comments');

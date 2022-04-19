@@ -1,79 +1,147 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPpX3tMvB12P1Oef8JO+0YG7hhVloFvwJP9J8Wb1QblgOi2LiASMM0wqIx3QzPigAVS9EbXbj
-v6pc9taSCMK9NZUKRJMQeRm2ZKBTw2nt3mJxGWpxo/DgSTYH5rPddh1ctT2EsU8bgVWkBL7Qbpvc
-be2i1HSPUylWmbieohhPSiU3kmFaXeI5tBlZhCCFqAwHq1BAqYFjPZ5ylBaXQ6nc5BZ9oySEkFZw
-y+CjAe948F2GszFz1+YHHqdDMFOHIuLxjNpb+wF1D5FkL1VGbdqxhLSQ3U9mKourL8IeB86cFae5
-vLLhSjm6vQ9jDqpykJg8rC6f6YjmTBxdml26XDse0LZLPCaUwKQPIaD/4oo8dgkJwkmjjfROULcU
-s4STPEUgcge5qsFxEhMlKkuQZtrIBPukPbyRTQRI8teC6wsn8UctLfLS89nLpootq1ofSeL0Cqg1
-DDxBa2FHtHCs4rj06HFmGOgAqBzAuxaR2b+nTHXGJMvjp58bpocr9PinxvQqZroYYRElfFt/Cbk8
-3SuKI4wGK6WaF+Ix+eW+Y1wZWruwG8qBNukT0fQxpshRFpjzNoGcbvoT2/wIHJsotEVh6/XJmlSp
-pBmUcSX2D1aATwzNsTOR/gqOKRCJ25nk9BWXw44WbcSvosp/hvUbJlcoJJaqH1nVQa1cvYB6+wvx
-fsjlDGHh+IlN3erTcaX0iVAd68kJka/b6AtUxJSMAo8BttesvT6SkyixhPjGGaSOU2tujoUKm5WQ
-TyDP4l1oeYHSEqb7VdRV7BDxbfsVpx9xAzxU0sDrwQ8myUPg+kt3ciMr6B/0cJEf+tmK0xoBFWCn
-lCvpe2A1rgnyKBf+iHlTU8nxjQmnkLaI2Tr/LwUM7Og3YZfZBxpWNbrT2IUxhHS4ewpAJ7FvT0zN
-EpFsGhcCH3EvbgIXPD6byMcrCJHc2Ac/Z/5exo7nqbu+YuC/ruZQdpaJ73KYLy8f7GwCmHZMXlHe
-6CUMhm2gZ97RVyJYfbB6HybKphFSFiQeKn0qPwSqQ4KIsC4oexhjhWPBlWQHl77QlgoVwh/Iotb6
-/IJM12PQxzWvVExp9K5VmfW1DHfNlv3yQPMLYfjoq8xTl5uzYL3z2LQGUZYkO8NVqRVIM4/VFbVX
-gCk2NGCJMEYCDGlNLfv+xRuwlcVRUIM+wZTbtsipssJO8KSlps2DRSe7J7e+kWBI7TQXBLu/bVlS
-l1BxUcNsgEKt5SMcRBYlbcSvqtpXZDdY06QNL/de1TNSQonFsUYUsvc6A1j3wNe4aOmbMlemC+d5
-P86W08cILpGnBBSlVaFtJDRd6E5CtPgaeIOWPHGTKlxCb9vPEkxk7R4aYUY5ye8MGdj9lRNP4qPC
-DFPkD6dFvUaM7m4RArIHgK54oUjKZLIRm0G1rPNruTU4G3wLs2P61GHCtYx2hXzklz0YPn9LUZ0d
-qA1VQxtAfwt10f9RLryPNfX0Ires9o2ctndzLVz71T/a2YtNaKjgq+XSmH0hhct/L0p/EigKlsgL
-/9YtNRoNMrN4j9gmoWRGqHJ4IrunpnnCsyN6Dv8OyBV+5Eej8oewi0bBiBS5E2xX+zAqvJ6NBwR/
-iF6I4kKNT6Ly/myn9L9IUFAnub0O+hGA1yLqg0FmqKrAtvnEZkJo3qj2uUiGukYlwl/iqqjXiChm
-o07/c1XI+Wm2tqGO2ZlOBkwZ7QdGzvc2IF1qv/QvHTIVXoDDEompGWsgtowz3xNeeBWx9EwkVeMh
-bxf7Rgwz+StubLQjMgZYdfpu4eQdu4t6IPABSUJZ2eIIVwHa/flYZJyK1qA+N54Io3sKHZr7bRKE
-i08xdRAqnzCCKDNsWVp4G+AafFb5ZYs3xJzOWlFCicgLkMswAocEvhPGFM+MiCX2mzsth+XXJ9QO
-hs2Xg1x+BsKKpfETn0HpfaONr+UxYX2mhcHDarU0Jzs+hBU/tDhEgKca9ukjomNcb2cCCa318qPB
-NPyqSLtx5pNY3qqq3sdJQHhyjQ7eTgcEeWU2lVFrvAgEI7irfUFxqvQnlqYUpNAVSV3mQent/SDz
-cdLbtlfm/jAKmqbWt6vnInboJMcQEIJn6zBTYVMr51EHCezUscXo4Af6rkdSH/HM18wV88rY7lsP
-hswhKG4QW0toshjj/9hSrbFyFQ6/XRmXf6uIcbEL7tmWT92GVvaaHVyoouhyQkaNZoo0xIsxIAGA
-bqOLovx6Gzmr2XZ6r+XY2Em+cOHJ8/cAzPPS8u3+oZ0pq7habbXjud7pXoLv5BDtYzq+O6JkceBK
-avmfQ37Emrgb5B49fonsfmXceF98VgNEIKvHB2CB7OCeOCvT1LaA6hwW777q2395M4XwrSsZO0IL
-2vlQf85cMWXECU93fLF0bztIVfJ4yhNkdiuChzRJs8mFsd/5AlIZ9Y7Nr0+2iZCOR04NV/+NHLiT
-imkTasISl5PaGWshbkSjutwa1mW9QhZ3fXsDspY+e3tcXuCn2VjISRLH2y/ZRiHRwa5cgjZhSiH+
-eG8Wih7pUnh9QpVjL4FKU8nFVzmAWyYd4H3jgxZispG8FJv+33WgE4ex0LyxOpLwT9YJolBmqiyO
-NumRYAxCW+X8IKLFbn193YnIEUUO9M3ea9f4kVwf+horj2Ovvd7UywASU5GgBiMGfrqpeCZX9k7R
-z0qkNRp1TRMHgE9Y0+oRGNknpd5SQyFSfdHRJTrJIFJEE/iUKyNVbcyvzs7LkQ5IOzYH5Ed7n60e
-5ZbuVSzT4xIj55gbjlt+PxunsGosPD0cVzwTnBSNxNdR3x3aaS/5mObxD3sDqojTtL8gM/AQEymT
-sjTzO7QKijEjLmBYaVXlXNPH7yNEflURtgRrANtQIl/dtKy1ttiTEGKVTCG4UVqRe06ImLvyrhwZ
-gBsnWsd9MuB1AXRSskWtrmyEAsin7srp3y7oERmMWuILy8tXt1g6CsPGRzIsFKUmMA9ggmf5ExRq
-d3jHiB345hLOQznEMGbv3t+hH29w+cM0fq5fUTs7I1nxx90V+cl4guUBPQ/TAqCWIBqt2M15P0i5
-Q38sc/T0FpY6RLaCxY6wLu7SUSLkE/1GcN5w8SAxHwBcqxeDCIfUhy8F1S/G40ORlG8ITvoL4Dsc
-9OQFYGCeAlAvYMJXDGqeTdI7a4HAPtBLNQwa/paX7fZ3VqolJiPV8Fa539q+ouDo3TQrg7cGaWM9
-W06oYD+B9J7lGyn7X4r5VmsJ3emnr939YPrUkIrfL7jlfj76Jt011qp9R28RZL2Soo/LXby0bkeU
-FbBHP8oqPhCuJ/oVWO1x3JeliCO5/0OXnM4hXIaRda6Ix/QlBfQF9bsSfZG5ZnSicgmQTj1hNVZF
-OUlSaZrorbYK7pDkghde0iae8CdZNlDsvJxit8B7JMGH2raUuvkdFYz3mIlrYWsXhHmVSSnISu+D
-YzEMcUIgqaaPBUjb7vSxfn1jT8YT+G84nPFV2+hgTx39UmoLS//lHK7g9ynX6JacpXKSR/d2BvhI
-dPcIYLQNs6A3ibdsV5mBMO+vEyJs4++EUvJJOgUt3IeSChc7xeOKWhrqtZG6ZktOWGpyyIk59Z6P
-DBGU2Ed5jKazJRyRYmT3+0qJCUw1lDpDLyZlZfEV9WFAe1deADVNCSYRC6h2IfSMk2oJAa4s4W4S
-2ifNNND62bU/BEGu8f3aOkGw7hQKwwMHbgJbQ2uc18dGVUv6Z4z0sjfM8WjiODGaBHeQisFy5xmN
-DCc40mmcFdeHGYWtWeZ+Zn9pc0DDmQ0EmJ2wFSyRM3wmk8Is6wabSUyr5aWELMU28ClbRKHebWvl
-yF3DkQIq2QXT/m08OHzBflrRkfJUf1Qz9r+P+2SJCJl/LqN/4F8uDFSAUzlmxxtRGWtOnnXO2t//
-oN3gZx3DvTp0Km7pIaTxVpZpYrp0uIN6ZAT5iWvDoCWnpfV2yP5DiwsedcYvIG68r6PIRm9MQGPs
-SkVyVGH6j+M5DDVq+W4uK/BI+XFxZABYTmLpeYCWG5RuMezwIXpjNLZSVD9kQCVikpbXjU+wlYnT
-Cz+16k82SQ3HqLQsjUnnn88a5fK1YPonni13net+gEhuDCPfdbNrscFVt0ARZ3tTAEe+I0z1EaJo
-WdY/BX/X0hwkIrp3pRxqZhZ7h9ZdUGe9Vw0ZQp+hFTauD6NJDWGc2YcBWQan6qCGSLj8+G8cv0mW
-Zv98HakrxLQcIxQne7wPnjKRs2M4obRO2/45YWRv3hqzutXNoJ9Gp0ugmA9GbLcPKqJr1TNF62jF
-IXOcyMfdHFjUO1pCo6ekjobnfMaea7PUIiUt2hyoVVZv92ScdqFAjEPBc0uCOctDdIF9oKsZmXuz
-KEJ7SuoZCitU/8KGJZurZrDK7adRwz6njMM1a0EsAhhE+Ws98Qkq7fqekMv33+6P+6jOX5dIY6tq
-Bafx1LSJ/aBGBLVs4eI5cCUli+8NBl2dbedaSfbUxpLB0XF9BfU/31dTwnb6QQ9WFvgHJbMysBHB
-wrFmJGYS4BhING26BC3VRwBscRxvoDlltcGUFleauXtDzWxNEYuJsW1pvm+pQn/G6muGemFWlYuo
-M3VayOWml8kbQ+MHYjvVg+29WP31J+Sk2erYLrJflBfDpeuEkcmnVb60iAteZcvaGSgHP3aBf33e
-C7LxJNkGZwYpIaZCVBOnwnYQ7wV7/AGsAaZT49uux9VeAM2lamwLj98MODVi3vJcumu3/3IdxDQn
-qqtwvLSMtv86AcxIgZKuquF4xrUQ+o8FwJsrVps90rXa12QCmrG+oyspfRZUJ4jR5LSz9JHPUSxI
-luPQQ9FXWLMbTexQIa4pFuFl9HgH9KRGBQe7Vh0FtgHH7egOfM3XaNZNGNW/rN2aofu7pByHut7Y
-VFP+wrp3gibYgbF5QKBOSdJar0EC5FoXzrutMk3iOkS7Gl4zOiN0mIuPyDNbldHFXmyMYD7Ot7wB
-hozENudzU4/BKsA9MIdIO+9hoSDDjkrxgazGUzs0a6AqIaZ2rZfOsJ78PjN0yHAeHieQ5jEXHG1f
-GNFuzCpZ8smHZpTyjuyf19iZUemzIYqLfuTezcLhnetCiLunoIeGeILIcqDyu72SGgpPLv5ErIxa
-bWyzDrX8+2fMMxPsACEyMeAXUCIz2argbVEWUHJm4f+Y6megYQvSw8X12CxJcpvA7kpf9BDB1Jfp
-ujFMH49lL/5BJfNUyE9xxWNuMvR9KM9QZM3cGTD0RcVytANHsvpBy9Ps++IIJE26JwQT+9+lpgc3
-q+eih1wjmcAfuUOxXPfFcGREVApC2TRcJ/KvE8Z6RpHhZrZgUPQ6mQnb4ehjze86ITOdRRyXJzwP
-We4iRuqnG76EAYchrCPu1DWxqUkQ0Y6mP5HGX8I2QYTGyr52AVJE7epgSyyf57laWHAdeNlWYyRy
-aXve1RVGXcsCucqA3CB09jcOyYSqEu87tOq9r7FjVKL9VeJEyGb39zCmWp3jIxtKdF/QMi2e+PYd
-6AI/YV5s
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dfareporting;
+
+class CompatibleFields extends \Google\Model
+{
+  protected $crossDimensionReachReportCompatibleFieldsType = CrossDimensionReachReportCompatibleFields::class;
+  protected $crossDimensionReachReportCompatibleFieldsDataType = '';
+  protected $floodlightReportCompatibleFieldsType = FloodlightReportCompatibleFields::class;
+  protected $floodlightReportCompatibleFieldsDataType = '';
+  public $kind;
+  protected $pathAttributionReportCompatibleFieldsType = PathReportCompatibleFields::class;
+  protected $pathAttributionReportCompatibleFieldsDataType = '';
+  protected $pathReportCompatibleFieldsType = PathReportCompatibleFields::class;
+  protected $pathReportCompatibleFieldsDataType = '';
+  protected $pathToConversionReportCompatibleFieldsType = PathToConversionReportCompatibleFields::class;
+  protected $pathToConversionReportCompatibleFieldsDataType = '';
+  protected $reachReportCompatibleFieldsType = ReachReportCompatibleFields::class;
+  protected $reachReportCompatibleFieldsDataType = '';
+  protected $reportCompatibleFieldsType = ReportCompatibleFields::class;
+  protected $reportCompatibleFieldsDataType = '';
+
+  /**
+   * @param CrossDimensionReachReportCompatibleFields
+   */
+  public function setCrossDimensionReachReportCompatibleFields(CrossDimensionReachReportCompatibleFields $crossDimensionReachReportCompatibleFields)
+  {
+    $this->crossDimensionReachReportCompatibleFields = $crossDimensionReachReportCompatibleFields;
+  }
+  /**
+   * @return CrossDimensionReachReportCompatibleFields
+   */
+  public function getCrossDimensionReachReportCompatibleFields()
+  {
+    return $this->crossDimensionReachReportCompatibleFields;
+  }
+  /**
+   * @param FloodlightReportCompatibleFields
+   */
+  public function setFloodlightReportCompatibleFields(FloodlightReportCompatibleFields $floodlightReportCompatibleFields)
+  {
+    $this->floodlightReportCompatibleFields = $floodlightReportCompatibleFields;
+  }
+  /**
+   * @return FloodlightReportCompatibleFields
+   */
+  public function getFloodlightReportCompatibleFields()
+  {
+    return $this->floodlightReportCompatibleFields;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  /**
+   * @param PathReportCompatibleFields
+   */
+  public function setPathAttributionReportCompatibleFields(PathReportCompatibleFields $pathAttributionReportCompatibleFields)
+  {
+    $this->pathAttributionReportCompatibleFields = $pathAttributionReportCompatibleFields;
+  }
+  /**
+   * @return PathReportCompatibleFields
+   */
+  public function getPathAttributionReportCompatibleFields()
+  {
+    return $this->pathAttributionReportCompatibleFields;
+  }
+  /**
+   * @param PathReportCompatibleFields
+   */
+  public function setPathReportCompatibleFields(PathReportCompatibleFields $pathReportCompatibleFields)
+  {
+    $this->pathReportCompatibleFields = $pathReportCompatibleFields;
+  }
+  /**
+   * @return PathReportCompatibleFields
+   */
+  public function getPathReportCompatibleFields()
+  {
+    return $this->pathReportCompatibleFields;
+  }
+  /**
+   * @param PathToConversionReportCompatibleFields
+   */
+  public function setPathToConversionReportCompatibleFields(PathToConversionReportCompatibleFields $pathToConversionReportCompatibleFields)
+  {
+    $this->pathToConversionReportCompatibleFields = $pathToConversionReportCompatibleFields;
+  }
+  /**
+   * @return PathToConversionReportCompatibleFields
+   */
+  public function getPathToConversionReportCompatibleFields()
+  {
+    return $this->pathToConversionReportCompatibleFields;
+  }
+  /**
+   * @param ReachReportCompatibleFields
+   */
+  public function setReachReportCompatibleFields(ReachReportCompatibleFields $reachReportCompatibleFields)
+  {
+    $this->reachReportCompatibleFields = $reachReportCompatibleFields;
+  }
+  /**
+   * @return ReachReportCompatibleFields
+   */
+  public function getReachReportCompatibleFields()
+  {
+    return $this->reachReportCompatibleFields;
+  }
+  /**
+   * @param ReportCompatibleFields
+   */
+  public function setReportCompatibleFields(ReportCompatibleFields $reportCompatibleFields)
+  {
+    $this->reportCompatibleFields = $reportCompatibleFields;
+  }
+  /**
+   * @return ReportCompatibleFields
+   */
+  public function getReportCompatibleFields()
+  {
+    return $this->reportCompatibleFields;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(CompatibleFields::class, 'Google_Service_Dfareporting_CompatibleFields');

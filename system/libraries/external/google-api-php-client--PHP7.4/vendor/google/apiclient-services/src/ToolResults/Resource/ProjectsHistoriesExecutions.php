@@ -1,69 +1,126 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-5H0=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ToolResults\Resource;
+
+use Google\Service\ToolResults\Execution;
+use Google\Service\ToolResults\ListExecutionsResponse;
+
+/**
+ * The "executions" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $toolresultsService = new Google\Service\ToolResults(...);
+ *   $executions = $toolresultsService->executions;
+ *  </code>
+ */
+class ProjectsHistoriesExecutions extends \Google\Service\Resource
+{
+  /**
+   * Creates an Execution. The returned Execution will have the id set. May return
+   * any of the following canonical error codes: - PERMISSION_DENIED - if the user
+   * is not authorized to write to project - INVALID_ARGUMENT - if the request is
+   * malformed - NOT_FOUND - if the containing History does not exist
+   * (executions.create)
+   *
+   * @param string $projectId A Project id. Required.
+   * @param string $historyId A History id. Required.
+   * @param Execution $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId A unique request ID for server to detect
+   * duplicated requests. For example, a UUID. Optional, but strongly recommended.
+   * @return Execution
+   */
+  public function create($projectId, $historyId, Execution $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'historyId' => $historyId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Execution::class);
+  }
+  /**
+   * Gets an Execution. May return any of the following canonical error codes: -
+   * PERMISSION_DENIED - if the user is not authorized to write to project -
+   * INVALID_ARGUMENT - if the request is malformed - NOT_FOUND - if the Execution
+   * does not exist (executions.get)
+   *
+   * @param string $projectId A Project id. Required.
+   * @param string $historyId A History id. Required.
+   * @param string $executionId An Execution id. Required.
+   * @param array $optParams Optional parameters.
+   * @return Execution
+   */
+  public function get($projectId, $historyId, $executionId, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'historyId' => $historyId, 'executionId' => $executionId];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Execution::class);
+  }
+  /**
+   * Lists Executions for a given History. The executions are sorted by
+   * creation_time in descending order. The execution_id key will be used to order
+   * the executions with the same creation_time. May return any of the following
+   * canonical error codes: - PERMISSION_DENIED - if the user is not authorized to
+   * read project - INVALID_ARGUMENT - if the request is malformed - NOT_FOUND -
+   * if the containing History does not exist
+   * (executions.listProjectsHistoriesExecutions)
+   *
+   * @param string $projectId A Project id. Required.
+   * @param string $historyId A History id. Required.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize The maximum number of Executions to fetch. Default
+   * value: 25. The server will use this default if the field is not set or has a
+   * value of 0. Optional.
+   * @opt_param string pageToken A continuation token to resume the query at the
+   * next item. Optional.
+   * @return ListExecutionsResponse
+   */
+  public function listProjectsHistoriesExecutions($projectId, $historyId, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'historyId' => $historyId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListExecutionsResponse::class);
+  }
+  /**
+   * Updates an existing Execution with the supplied partial entity. May return
+   * any of the following canonical error codes: - PERMISSION_DENIED - if the user
+   * is not authorized to write to project - INVALID_ARGUMENT - if the request is
+   * malformed - FAILED_PRECONDITION - if the requested state transition is
+   * illegal - NOT_FOUND - if the containing History does not exist
+   * (executions.patch)
+   *
+   * @param string $projectId A Project id. Required.
+   * @param string $historyId Required.
+   * @param string $executionId Required.
+   * @param Execution $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId A unique request ID for server to detect
+   * duplicated requests. For example, a UUID. Optional, but strongly recommended.
+   * @return Execution
+   */
+  public function patch($projectId, $historyId, $executionId, Execution $postBody, $optParams = [])
+  {
+    $params = ['projectId' => $projectId, 'historyId' => $historyId, 'executionId' => $executionId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Execution::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsHistoriesExecutions::class, 'Google_Service_ToolResults_Resource_ProjectsHistoriesExecutions');

@@ -1,74 +1,139 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-wb6R
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dfareporting\Resource;
+
+use Google\Service\Dfareporting\UserRole;
+use Google\Service\Dfareporting\UserRolesListResponse;
+
+/**
+ * The "userRoles" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $dfareportingService = new Google\Service\Dfareporting(...);
+ *   $userRoles = $dfareportingService->userRoles;
+ *  </code>
+ */
+class UserRoles extends \Google\Service\Resource
+{
+  /**
+   * Deletes an existing user role. (userRoles.delete)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param string $id User role ID.
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($profileId, $id, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Gets one user role by ID. (userRoles.get)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param string $id User role ID.
+   * @param array $optParams Optional parameters.
+   * @return UserRole
+   */
+  public function get($profileId, $id, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], UserRole::class);
+  }
+  /**
+   * Inserts a new user role. (userRoles.insert)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param UserRole $postBody
+   * @param array $optParams Optional parameters.
+   * @return UserRole
+   */
+  public function insert($profileId, UserRole $postBody, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], UserRole::class);
+  }
+  /**
+   * Retrieves a list of user roles, possibly filtered. This method supports
+   * paging. (userRoles.listUserRoles)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param bool accountUserRoleOnly Select only account level user roles not
+   * associated with any specific subaccount.
+   * @opt_param string ids Select only user roles with the specified IDs.
+   * @opt_param int maxResults Maximum number of results to return.
+   * @opt_param string pageToken Value of the nextPageToken from the previous
+   * result page.
+   * @opt_param string searchString Allows searching for objects by name or ID.
+   * Wildcards (*) are allowed. For example, "userrole*2015" will return objects
+   * with names like "userrole June 2015", "userrole April 2015", or simply
+   * "userrole 2015". Most of the searches also add wildcards implicitly at the
+   * start and the end of the search string. For example, a search string of
+   * "userrole" will match objects with name "my userrole", "userrole 2015", or
+   * simply "userrole".
+   * @opt_param string sortField Field by which to sort the list.
+   * @opt_param string sortOrder Order of sorted results.
+   * @opt_param string subaccountId Select only user roles that belong to this
+   * subaccount.
+   * @return UserRolesListResponse
+   */
+  public function listUserRoles($profileId, $optParams = [])
+  {
+    $params = ['profileId' => $profileId];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], UserRolesListResponse::class);
+  }
+  /**
+   * Updates an existing user role. This method supports patch semantics.
+   * (userRoles.patch)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param string $id UserRole ID.
+   * @param UserRole $postBody
+   * @param array $optParams Optional parameters.
+   * @return UserRole
+   */
+  public function patch($profileId, $id, UserRole $postBody, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'id' => $id, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], UserRole::class);
+  }
+  /**
+   * Updates an existing user role. (userRoles.update)
+   *
+   * @param string $profileId User profile ID associated with this request.
+   * @param UserRole $postBody
+   * @param array $optParams Optional parameters.
+   * @return UserRole
+   */
+  public function update($profileId, UserRole $postBody, $optParams = [])
+  {
+    $params = ['profileId' => $profileId, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], UserRole::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(UserRoles::class, 'Google_Service_Dfareporting_Resource_UserRoles');

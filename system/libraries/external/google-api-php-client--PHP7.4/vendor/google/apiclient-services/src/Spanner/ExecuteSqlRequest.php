@@ -1,81 +1,144 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Spanner;
+
+class ExecuteSqlRequest extends \Google\Model
+{
+  protected $paramTypesType = Type::class;
+  protected $paramTypesDataType = 'map';
+  public $params;
+  public $partitionToken;
+  public $queryMode;
+  protected $queryOptionsType = QueryOptions::class;
+  protected $queryOptionsDataType = '';
+  protected $requestOptionsType = RequestOptions::class;
+  protected $requestOptionsDataType = '';
+  public $resumeToken;
+  public $seqno;
+  public $sql;
+  protected $transactionType = TransactionSelector::class;
+  protected $transactionDataType = '';
+
+  /**
+   * @param Type[]
+   */
+  public function setParamTypes($paramTypes)
+  {
+    $this->paramTypes = $paramTypes;
+  }
+  /**
+   * @return Type[]
+   */
+  public function getParamTypes()
+  {
+    return $this->paramTypes;
+  }
+  public function setParams($params)
+  {
+    $this->params = $params;
+  }
+  public function getParams()
+  {
+    return $this->params;
+  }
+  public function setPartitionToken($partitionToken)
+  {
+    $this->partitionToken = $partitionToken;
+  }
+  public function getPartitionToken()
+  {
+    return $this->partitionToken;
+  }
+  public function setQueryMode($queryMode)
+  {
+    $this->queryMode = $queryMode;
+  }
+  public function getQueryMode()
+  {
+    return $this->queryMode;
+  }
+  /**
+   * @param QueryOptions
+   */
+  public function setQueryOptions(QueryOptions $queryOptions)
+  {
+    $this->queryOptions = $queryOptions;
+  }
+  /**
+   * @return QueryOptions
+   */
+  public function getQueryOptions()
+  {
+    return $this->queryOptions;
+  }
+  /**
+   * @param RequestOptions
+   */
+  public function setRequestOptions(RequestOptions $requestOptions)
+  {
+    $this->requestOptions = $requestOptions;
+  }
+  /**
+   * @return RequestOptions
+   */
+  public function getRequestOptions()
+  {
+    return $this->requestOptions;
+  }
+  public function setResumeToken($resumeToken)
+  {
+    $this->resumeToken = $resumeToken;
+  }
+  public function getResumeToken()
+  {
+    return $this->resumeToken;
+  }
+  public function setSeqno($seqno)
+  {
+    $this->seqno = $seqno;
+  }
+  public function getSeqno()
+  {
+    return $this->seqno;
+  }
+  public function setSql($sql)
+  {
+    $this->sql = $sql;
+  }
+  public function getSql()
+  {
+    return $this->sql;
+  }
+  /**
+   * @param TransactionSelector
+   */
+  public function setTransaction(TransactionSelector $transaction)
+  {
+    $this->transaction = $transaction;
+  }
+  /**
+   * @return TransactionSelector
+   */
+  public function getTransaction()
+  {
+    return $this->transaction;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ExecuteSqlRequest::class, 'Google_Service_Spanner_ExecuteSqlRequest');

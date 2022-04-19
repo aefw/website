@@ -1,68 +1,118 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute;
+
+class HttpRouteRule extends \Google\Collection
+{
+  protected $collection_key = 'matchRules';
+  public $description;
+  protected $headerActionType = HttpHeaderAction::class;
+  protected $headerActionDataType = '';
+  protected $matchRulesType = HttpRouteRuleMatch::class;
+  protected $matchRulesDataType = 'array';
+  public $priority;
+  protected $routeActionType = HttpRouteAction::class;
+  protected $routeActionDataType = '';
+  public $service;
+  protected $urlRedirectType = HttpRedirectAction::class;
+  protected $urlRedirectDataType = '';
+
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  /**
+   * @param HttpHeaderAction
+   */
+  public function setHeaderAction(HttpHeaderAction $headerAction)
+  {
+    $this->headerAction = $headerAction;
+  }
+  /**
+   * @return HttpHeaderAction
+   */
+  public function getHeaderAction()
+  {
+    return $this->headerAction;
+  }
+  /**
+   * @param HttpRouteRuleMatch[]
+   */
+  public function setMatchRules($matchRules)
+  {
+    $this->matchRules = $matchRules;
+  }
+  /**
+   * @return HttpRouteRuleMatch[]
+   */
+  public function getMatchRules()
+  {
+    return $this->matchRules;
+  }
+  public function setPriority($priority)
+  {
+    $this->priority = $priority;
+  }
+  public function getPriority()
+  {
+    return $this->priority;
+  }
+  /**
+   * @param HttpRouteAction
+   */
+  public function setRouteAction(HttpRouteAction $routeAction)
+  {
+    $this->routeAction = $routeAction;
+  }
+  /**
+   * @return HttpRouteAction
+   */
+  public function getRouteAction()
+  {
+    return $this->routeAction;
+  }
+  public function setService($service)
+  {
+    $this->service = $service;
+  }
+  public function getService()
+  {
+    return $this->service;
+  }
+  /**
+   * @param HttpRedirectAction
+   */
+  public function setUrlRedirect(HttpRedirectAction $urlRedirect)
+  {
+    $this->urlRedirect = $urlRedirect;
+  }
+  /**
+   * @return HttpRedirectAction
+   */
+  public function getUrlRedirect()
+  {
+    return $this->urlRedirect;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(HttpRouteRule::class, 'Google_Service_Compute_HttpRouteRule');

@@ -1,127 +1,278 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cP/OOdjrvtc8ITCGB/heR2/3taMLyXtKIHEyiLqpk5qtqWKLwRjFCHfISvqzBUwvgNuSHd8Lw
-RW6CSinnRwmIaZwDQbhTck3fMtPoh3LujbXKN+nAJKG77Slk4yyXHKmOE+nZicenYvVGRQgHRfmu
-T1Jo2gvZbWKrEgpOnqWlcT62sOnW6Ivi4Y1gFthMPdPmHf96sjmE7N2mpnmLW/iEdioIrqde1f56
-CiXqLOSuS3Xuox5ZRN+RdnDrmMUiuZ0jPRHxY767ibsmp9GruegFigEhp5ggbU9mKourL8IeB86c
-Fae5vLMgRVrpITw2pdVA/6M8LDgD51fZSH90pzoknABzhaTvmZ+1URdrAlsXiueH3fGe22sqojN+
-eQNN1rUPxPTTQGFe5HpUJ63zvLULdSkNeiTkgBSYnb9JuM//IOL4hOM8k0UszNrzjTfQ7yKlXRlO
-fqyiYcE+GhU6ycMMIX7rp7/ivKdFhjk5pPsKw6LDeNaLofkjhrSgAE/f/vftHioOqrLbSE7RX506
-mu9EDsFyW0eeN14FCPIJzA7fBQe2BaSRpKPdlGFnO8j6Kr6dm9XJpbH8QxIe+z7rXV0Q1njEkNDQ
-Ar6TxP4RCacd4UN1VgMJNvzjn3JzbCMJSJ+L1xq2imvdCroFwDWUrNQ6tsl/qtjbaSiBVHkDHaXA
-VaIqA16u3BUj5OZs8EvGEJ27KAfKFxd9vmbrcPEaoxLkwSUhLM6GZz8nnj55pdDP5kr3n958Rryb
-6lSqpevPtvQm0iUeE0upFvaWHO10l39mRUbm6iTZD8XZwwkFrw19awYlfj1nxBXDTxiwO4U1bdjB
-0Ekz7mkvlvKLU0Q5EufUUoeCmoaTfKBq7NpE8ew4v/Ay+qn8H+ntCZuv2r8x222oRwKgZQiYCuIa
-jdMRldTLsNmed5cpNxi2EqSmblFk6UI3iYlTstbKmy+PsEiwbmq4SLZvxYhHQUzMZ62zb2aRvy4D
-eknUDUyEBsy2wfgEmlONS6ku5nP3kW6bGlnIE18xnlunwal05PMnaV2GFjwxVs+P/NYG6rvb9afc
-L6PbgQbZ6lFc7n0OLFaw8yaboHD09/vn+Ki+Tw/hXfwVFrCnvPMzHVhCUDz8GWY7ANQC+eqJyawo
-DBmvzz/zvh0maigOc7ArYRi5URcE4xH7WXQ+84q07D0jo0lKVAyCvZB9cXSSiClI6ERwLGFjYQ15
-4oBXMbNah8R3UbOkWeNvt5+PTdrQE2Vz10j8+1WWgcVbwo4O8o2TWTxb13g1cpNNt+7ndpNzA6Ai
-Ytva8DdNVXSwyFVoW92DC9K2p+4OdoFYxt+EecJfdmOjMG+xXFSa7OD1C8LKUsLC4Oi2cG6HJ9Ap
-sRPKhhdxkUB1/6JrD//qdAnEbjFIC8+WV4CHnL3M24NOWm76lyXqv08DpAIvJ2pDDPp4UFJ/oGGH
-EbuhwfXLUJqd46q/ay1cBikAJWdNUCM3QyANOev5jlCq8HHm249473IuUCFRGx4tA4KTBoeZIu2w
-OR/rOvrmha/7eJYNe7kIWoC7nh/D+seNCfavpsfVVUyDG/kBw8qmycQ7QhHLBnFYTi0+7bRbCmiX
-+rTYXcI4IlC1+EISJft4gu50ayP9PJdLg3eN+SjmZQdJtHLV/O/NR7DWE+vHzEBre6X2QqepVesA
-lQgQsFNwJp7lPR2fzglL46Hem3ZqGekMBwLqXDeifQJNJX/TltlA9uSt//5sjrvM2IDP9QEHjnz3
-tLbJRyLQ2ML8tfDUnxnT9EmCIKaKBJA8Y3fL2fPeJJxjHX18z46Bfxy/fp3j5bTzg9rTsNb4SHf+
-kU2loK5fGXLhncxBQNvpydoxb7eCs+9k6CPTKjTEmciLRZwrEPQd2rz1iedoW4uxwTJDfLSjrGJr
-0xqNGoX2mNBO1tjrjOA8JSEMyql0x++qhCpdXiVGOv/P9luIRbjzeU3qakFAy68s8T2M9P8W6nc9
-ohSZ5h5YLnZBe9hB2+ljgUf9qZ4jDSPyiGe7PdUkLVG/kmekMbeSVYTcwqkelf7LNFvs1+AYcQY1
-bYMiz6WYIp1GHyQ0SqHP9znx0T4AZ+Cgh2z/tR8KZyiusmnYFQkg1E/aofN0zlQIF/pSbRzKMlJe
-H/I+smchKwj8oEVSYEkaqGuIzfybxGtJK2HIU+gkedo13KnNZJyDvMFcs/sW4Pk4AtGYs4KDQz8C
-mRfw8ZWK9D+Uj5ik9H8JLIs3UMaY6racLR/1I9JpKt2iUKA86Al2ysTuAe9/ICv6YW7ge5h2KiZ0
-LV/e+3cFGqulGWwY/b31Tmg+5tPhGoSA/cY/8EiDFe5uUt9F6DgCS1ArGcmjHk+/ZQM9oTyMRgrZ
-UcTIFyYA+CgQYcb+7OH3TdzAyEQN4OJn4fNKjNUFatGo4OtYS/WTmp4n0QynXXQeC+LxKVyjyd7M
-GDWFxSM3LQB+z7N341iVtRYSVT17EJCm2kmgEDXNc6lZnxyzh0VMf0Eo3kfZw2UCxNyal8gvsxg0
-PwHSHuQN58j72MGM0pdaLpZv6JEgGYJw29VSo+673JBYI/6rnvqHIux/tNp7ZFqSVigQBmHgO4c6
-TEhc6/lYyS0DpvLuHUIYgKmk8PjmB8NA4Tdy4TJW4urKXTNK4gVnorivhiQdppCphs48OfiQgDUP
-H/1OmQGWLPeB5VNCa+NgSnG81TIJj65HwwSqULxyRgML7IGKJkgjQPkl0Ahi5TRbAATdi21vuPwc
-4wkj115rvXMv791yoatbQnmrML2PsW1raMDCSu7X2MjJVJdRNloXvoj3239gpOmW2BwsXhKmrhxd
-+3Mw4ziqCJ/jQDfIo0jYu60LYsq7QQZc4FWdtPD8BzYZA6Sw8hDE872mkklTpwQvs0KZzJKt+CXb
-DIu01Qex8r06cS0NVtnwytUBlBGXidEVgBnY2UQm+XboTQujEvS2UxaGqY0N6IpueRKlWhQzjR6L
-oNSLRJGE+C2+sy2eeMRIV5PIl6arjptTbqQ9HbvM9ySeorkMqS9cKyBsrtnE1m7oPIm5M01h4csQ
-AwEh0L2urrOwiowCCJ7Ai0WkWOVTez2khjg9VulfSYHgARH9o5QWCF2wbvBJRu6sbTAfGMwF1TmU
-4OOi/xzM/uMYpSjUb9RIjbxtYoVo301LsE/tNDP9uRJ4TjbbPWnNqrNR+5QWtzvabY8KDKIPbhKr
-ofJPw+jj5NIL3uDZKqVmFOOdm5PDNw3enaW6lyknzTkVwmDUrU1BvGrBrYX0HYSGhaCq366Xk7dQ
-npWCQbLa1nxANFwY+ycbW3hdWco0L5DI4NRnyQ/NpXuG0cK7rT4s/euj2xNYYTMsAZLax1JyZ8h4
-TPxPFJ1ZRioQsZgIpPTZ1Wikp6dwoYKVgxnS5x84lGX6aQsVYknZH/F5gS9hP53ObDHVxUIydFl8
-0SxCSZzlSD4lc6lFXQ7CqYsM1LdKv4MAM67jAtnoh2U9byaMJgW+MzwAK2IdcEC1NRApMsSUxFf7
-xiFUtbOBOvA/7lbexmHgAENJSOQlE3WNyTyUeUP9LqZW5mD/IGKe3Mym2fKOtaz0ueOSDQLNMLwc
-ZbLu7xcdVNPiS83qyOyfmgy3u5G22Uo21Nvty96IJdp7ye9Le124OHrepch58jn1bEfZRxrf0167
-atbAxZ9Ru7aOtOF3yihHb+mfFJL6Xk/ANV3CYj/n6O6jrfnl867mpqEynpuW3LY68VdqRd4nw2w+
-MubdI+FF3m4ClXdTOyu7oJxjHhQPJNqgQzgFXhw6XFfMlyJKtV/FEBovx+yfhEBeWw7kx+LXaHJL
-mpRIdZQkj0xhHFyDQT035WGkRIw3Ew46J1dK5MQpGt8sbayMvGplNPzj2vKQNlPF9+bk3hNGdHf6
-No/XlxvZG8HdidBuuup67b2WD0BlLtSmv4jUwluPO86J/6ZAv+VgTWQrzktJ/8NPCF4sEBNw6XtD
-TjQd2H3lxh4Kh7VpWQ3iD8Uq3bC1ngUliIQ3+y95bxgvqQ1eFKNRiu1lsmnj8urayJHEVrBE36+z
-/JJE4fz3bIcWey2T+fhtHzSYUeEQsqHHgkUrylXjSW9mC5zwwiM5yUXbOojFgY6nVkOmVky7gXuR
-yJqYdlQf3E+DSHPxvxAr5Miuy5BPYxJayitac/z6xuhGUnl6N1vB9Y1vI1VSxSpe1/qdX/NaQvdy
-zhypcopuR5Vl3qI0aj0jNSBIFTdgYu4N5PhrKSA1yIE1SAYAgWXfl01IqmYqXvTU0C8w1Ic38vWt
-XzIRl9Y9OSRNznea6ArqpObDZPZK7tY9HvvvKyZNumZop6qQfMEDddnb4xKhg/CvXQCF+uwnNck+
-hWuQIJXCGx87Hi9ADqJMJlizQvwg9Oi0N1qB19NWpTcrmmFJBopg9qJiEO8e3fxWZQRQxJvpWQIk
-XFeQKq/5fomjDXDOQ1o1DQU2kNRtboskJfEa/QSlzegKWYXtbzJWrLtsmpa2VcpktTLJPsoc9CcT
-MhI6YxdsjVhucW+oKsekwcyR+GV639sdNejiqT350PYjL04QTqgh3T9AJ8TqZpGNQSoeRTOMkmyo
-XrmxCKHC4uCa6rB3IzRcn3w/hobWGMTXjwnNrsgC8ZfxC4qRWPtMKIDarQ87fL8Cqp62HgPvvUQa
-9tc1qK2yBDH6lPCGGwPxDGveW7Ld1HU4E5FhtBFKYYg3YIMjF/ttBvUHB5rTsZe4LfqCwmwGeq2o
-mqmctaf9GUdtmxk5UsohgySzIjgzWrIZ5AubpMTSbkTwbxcafODOd0zMU4HHfxzGN1XgA9BdKyF2
-z0XdpHVoKWItaBXXfUAfzgch035lfl2CUWeRVRJ4vV5l2j7CClhvQ3MPYc5VYNHpTqYnwMyNHsCY
-3swWa3cfoUjfSJeUHiJdIYcG5K+uwz/qyRt5KVe++W5Me92gwIL64AGDFb7pVt/vvTQXTA4ReIDc
-+Vy9pJGGwTXduCP7SDvGxG8Y8Lr1UUZk04N8RSQEtZbvATsCukb38LA7p5UR2yMJwEQ9RUxxnpep
-p7FgYzL/kgRFkTWbgSyWP6Fyz5rhpQEmV8z+kfq1zXwi4bFnMUw5VFpFE220+f7aGdwoAys/brhP
-vGd/5LUSg+lymPStmTfhshL+zZi8ORJLLeYXxalnbWU7TdIfWJN1UZKUbmtLj5+N7uN+v/r/7xus
-hWE3HQRej+WKEw+FsSl61tnsu1UMsOQUw81kgce9/meN9mzWmis26yfLvQYomoAX/+N0x0qc+HhI
-5e3P2qyNcRIkdktl70LXLd3yG/syO2p66htdDOs1EE6O6puch+Irgm7Gv8dp0RLcIT1rSMZKKBPL
-gdqJLIZ94BQyRJanAD+nhAghZmvK45gFO8+HMGLmEEX00HiPtjQQ1KE1lXdcQENtE/SRHjQgikp5
-9t5vTUG+eMiU0JVai2YaSgh1hu+U4VzTFiPeob2LTmyrMztO9T6LMxl+Qt6IrAiA4j4pHjLggmi7
-CH4KncQCBKwOqz2gDtOwkjqAyu8tb8ynwL25rbYh232/Laz5eiqtV5bfj/RLTSoJyOm4FM3MBCUd
-K6IRj3lV+Q82rDNNYrhpW6V+CNxFudEyOAg5yz4POAql7TU4HQPjN/rFIi5QiJXPrCQU/QI87v1y
-d9BuxXWEvmn6nX/kyurqrW5rWt4nHaIGD6c33EHbPqhLmVfaH+93dlF6Zr8I4CnjJjpVlq72+6ix
-Pk3Ul2Yk+04l6LxD5b8VWHb2DICsiLmtf1DKkSJyid/iLTQsn2CuEBP05Ts4Z79ZUdUfZaX8B0ck
-Ch1P5sfSKhLzrk3FcuD+VfFtXYyCM93CbQQ75deGbdZgPW60xaxR4lTYoM1IJrIUqx2+u/fXfFN6
-F+cMVif3N24smpEIq8kW/PRVfvoDUPtcyLCk8MoW5EIz3+z/bUp4aQ4KmOS2wUFxaUJdc6n6PI5e
-ZsEQOGkCfPm0EMJSvBs8ISyt/8BG+oROgg8befF9v/xvNnveOqkNTT9txva+E/qq3726Yq+X9Pzj
-3fzJoZGWkjKKb9MlgPWn/vg2pcDH0lh9zfDWMB4N0bEcHQAzdvCntVDMTV88qX7SkXv3tAO3CSC7
-/lG8oziJ3pPffhZnE5yR6Pu/j8xJVNVVskiQ9+Ixj1xMgDC+vrzjWaajBXLOL3gOJZMYSQD1TcFK
-JsBaLLPHw+aMRyYRyw5rgph6IjYylxI5ighbHkD4TI2JBpsHT4TagXKjx6UzQOzXJmyuq4CYhzNk
-+qBhRIoZEAqURkVBDiDeqpt3l9VhNtlu6KKainA4pikrawbqFUrQO/BTb8YS40P3qiC4uB1ETp7u
-zLP/rnPsImYOIBEvNFsMoq4wYvkt5xRrbpxKnlCjsgRtaHspsVukza2rRUgNhjMkKvj6D/WddkIH
-Pi0U444fdcaPa9xlYIjFn0586JLDI09hVGp3P9v2vrp8h7xJuVbu3PtjtCDn019GNvi1JW/RREXf
-GJRy5mrwdj1SdaiYnF2exC/QNnL3tT15Y1q7P4H+l20fM6/tHO0wd8U7dfMZx4powmWCfsILXKKd
-BVpMzRutssOMs574MRYfkmmW9OKIAEL5nyqYAhKJfUmTTo9VgMULWd0whFghMVW+4Ow25hpMz03J
-kFjCQwGKk5PKztAWbJGF6L7jXgCNlb9WZqhiZTeoQtQ/xMdzN5Z/5S8BfP2k4yHTUzVD1+P/ZMKf
-DHGBG6K2FS9ppZT7YtnoENJcuf57ZJLgTtXeAw0ULU0kbPehzL1nczTZW8J3DsyjljBmsQ/oZJKz
-0g65uMFN6k2a3FI0pBwQhjRSjhTVvlGKe7oHr4s8cXjUj9mjcnJQyOOsO9Gu8/Z7Co4f+gqVSIOA
-I9ekLOx+hFft97JOeEmx/sf/favhflEbnl5U6JxIdHsiozVNo8tp82kj+EdYX2zrRDS7fdrqQHnJ
-UVoxsmDOf1Ip34kLbSquBaZn6LrjBW83Cgs/7xQU+9KuaC0lU1LeLbHbzqqog+tYCyV1SFWWVSnC
-5JeX6hfHIkcZTJsMJV1EiXyBH5/+0u1Iy73srnO7FaYExWAsGxtySHvDnISFTZ/4Xt3X0PSXhFQa
-06X2uL6K7C47ZCtpt4qENRN4lYsDe35x0MaMJzHfC2nIlERGLSEoybuAIB1JJq5gYljou8jpjMpQ
-EVK+BH7Nej0ht9saR6EVcn4Z4LQntVixzc0kfzwDjVHWNwMTzEEbzLM0bTHl0G2Lz7VLm5IHMA3O
-TXLxNzuR+sgFo2theWrQG0iGNlbYESbV6HjrLCHauIOJmfyjAF/xCoGcCJHK0O9g2WUcc4xWCzpc
-WvAA12tq9gw2OLBr1othmYdzCAyeM2UWslhWtmlJ3hnvWjz4vrFsDMVhQQ8NL5w/Y09WdOqI0Sl5
-+R5SrVdmk+UGtdgT5XOECgrnn/6hYM0Z8t1Vu76/JIm2PEDoFw6zkOVmLuJipxkZyq7u0R/3om5X
-uvxu7XyIfos4PYPkJduItfMa5tymTMOsZGR4Td0C6jINzGiK7NNIqwK1u1WQDSsy+CwyWe2x13u0
-Dac1iBdOHuPz5b0C1zn90d55apbDvHIrDVn2PfrFAfTIVGwgvVd18JG3ItRJyy1HFhmkn8wQemVA
-bv0QK+NuyvXEvmh2vg3mimlyNbEJqoh/JHpasUQw9OVB/5GWPNyK0Oahbg8wBgy2QdAKuJZrzytL
-jLufMNDj61Rc8YkGgKB3yypZzPnJ+E2ISCaxfQBSnVcrWvhofkiTPLRieQ841vdCT0umR22oSn9g
-BuaJwyzWOc7+U7pwK5DIfGhGpBB0UwNaUPRrbreb4FCmOXGfmevf+8tSvEUr/6S60dUge2JH+3xK
-XRBD435tiXJbA09t6P9tj0bveOTdrSCrKJVv+yJUZIMu3jw4yUyixwqaqTzSr7wmLuWL19A/NfAz
-avV7zeabh6bFGTPwc5IDSUKzQyDKT9MrCtFTzFLNSmYDwmmYqcTNNjoSkt1I+2bd5UyTV/zPYpyE
-rMMre1iL3cPKGRSRkTt9Op2PK4T3uj2RU3wn3gtqWmVNpbDSzBuHoDtFsLT7Nk5tNpOKcaqelxuu
-715Zv5TxkBL1PN9x2qQDj/GScT2UMV+w37x0XxYi2Hq2orcLfQ1cLzxLCEYl0lfjrw8dvmX63LS5
-JxcdowlpQWmUQSj0/Gu9MtRZpZ7TBzM2WZJHvOaGRYm6EAr6XClyC3jpHSsfiSO+ftw0O7bxYObR
-cR6Kt4WSjlAvhYdmg6aP9Y8B+eFpOm3HLJfNFasius65iM6Inp45qwLfdvXYahGSjsrAdEe46MQ/
-D4uhAxY9EaXuVzDroQCq6YARd5/ZHLvv/Xk5O199xMQ0bIbxBMN9dfNaoVfwPeZimgqBbF+75bvT
-gr6B+XhBgufuyZZfID5MTeDpTX+7UkcE0he6HDMZW9tnbuI9UW27jS3OgwI4z6/z8hg9iPtsPPuM
-zxHCqvWKQRBrL2aVd2DnqgJCQQific4KL7Cf5cOWB65OfnDcOvTKXn8qB11P8b6FEnmL+k4u8Zzn
-fviqO4gxFsYdwwEGNVV+vJ9MP01TFagN9U6jVS2o5z9dEKHJmusfMzRtJecmtLjuXBVd8TJOQu29
-+wMcTrUrUkadqBUph3ChuwB3Q2XdbPIseIa+rReo/aXpiAugW90WYAGVpXT5I5beq/XxcTDf/sJ+
-fJRB0eOFROYJxG6Ks2Je+mXiTrB1AhfSXHDA92O1iY51G0FBw9Vyce4QegoRSg4bDBJf/L25Nzvb
-Z+E0PlLxUkof3fqT7CmsJbzP0/9QH5vJNaL2I02iDvPpGBaSfuAhV9f6Q0WXiMIdOLCRLC0Ho8ot
-yfo6JRxvSHhd9WWRRchKDgrCBn+5Zm3kKC1/Q5HcD+EaoXjfZA3OSw5us20w70xU3mBM8+WD0pbq
-yQTjo6Xwr0wjVCto4/9KoZidcdr/WaEJWUqzz3Q6ARG0d9hZ4/4t2+YF0AMIwQDmisfH18cW04NL
-IseD9JG2K/2Fl5Bmc516JNfuvNU0uHTDBGw00l+AhG9luAiAwQfnls5CNPS94jglHl1weF9ZPT/8
-nbv0NPwYODJ+B6IkHlx0a0D7YLojwvAzgdrtkct4DgowYk04DyvGxboH6mhc7Z8DD1EtmTlRTx/i
-PxC+H7iphDkoOyNZXt3bZ5+BbtlMvQy3GXVZMTQY8WASNGYwV6SGI+6ktWBwx0==
+<?php
+/*
+ * Copyright 2010 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+namespace Google\Auth;
+
+use Psr\Cache\CacheItemPoolInterface;
+
+/**
+ * A class to implement caching for any object implementing
+ * FetchAuthTokenInterface
+ */
+class FetchAuthTokenCache implements
+    FetchAuthTokenInterface,
+    GetQuotaProjectInterface,
+    SignBlobInterface,
+    ProjectIdProviderInterface,
+    UpdateMetadataInterface
+{
+    use CacheTrait;
+
+    /**
+     * @var FetchAuthTokenInterface
+     */
+    private $fetcher;
+
+    /**
+     * @var array
+     */
+    private $cacheConfig;
+
+    /**
+     * @var CacheItemPoolInterface
+     */
+    private $cache;
+
+    /**
+     * @param FetchAuthTokenInterface $fetcher A credentials fetcher
+     * @param array $cacheConfig Configuration for the cache
+     * @param CacheItemPoolInterface $cache
+     */
+    public function __construct(
+        FetchAuthTokenInterface $fetcher,
+        array $cacheConfig = null,
+        CacheItemPoolInterface $cache
+    ) {
+        $this->fetcher = $fetcher;
+        $this->cache = $cache;
+        $this->cacheConfig = array_merge([
+            'lifetime' => 1500,
+            'prefix' => '',
+        ], (array) $cacheConfig);
+    }
+
+    /**
+     * Implements FetchAuthTokenInterface#fetchAuthToken.
+     *
+     * Checks the cache for a valid auth token and fetches the auth tokens
+     * from the supplied fetcher.
+     *
+     * @param callable $httpHandler callback which delivers psr7 request
+     * @return array the response
+     * @throws \Exception
+     */
+    public function fetchAuthToken(callable $httpHandler = null)
+    {
+        if ($cached = $this->fetchAuthTokenFromCache()) {
+            return $cached;
+        }
+
+        $auth_token = $this->fetcher->fetchAuthToken($httpHandler);
+
+        $this->saveAuthTokenInCache($auth_token);
+
+        return $auth_token;
+    }
+
+    /**
+     * @return string
+     */
+    public function getCacheKey()
+    {
+        return $this->getFullCacheKey($this->fetcher->getCacheKey());
+    }
+
+    /**
+     * @return array|null
+     */
+    public function getLastReceivedToken()
+    {
+        return $this->fetcher->getLastReceivedToken();
+    }
+
+    /**
+     * Get the client name from the fetcher.
+     *
+     * @param callable $httpHandler An HTTP handler to deliver PSR7 requests.
+     * @return string
+     */
+    public function getClientName(callable $httpHandler = null)
+    {
+        if (!$this->fetcher instanceof SignBlobInterface) {
+            throw new \RuntimeException(
+                'Credentials fetcher does not implement ' .
+                'Google\Auth\SignBlobInterface'
+            );
+        }
+        
+        return $this->fetcher->getClientName($httpHandler);
+    }
+
+    /**
+     * Sign a blob using the fetcher.
+     *
+     * @param string $stringToSign The string to sign.
+     * @param bool $forceOpenSsl Require use of OpenSSL for local signing. Does
+     *        not apply to signing done using external services. **Defaults to**
+     *        `false`.
+     * @return string The resulting signature.
+     * @throws \RuntimeException If the fetcher does not implement
+     *     `Google\Auth\SignBlobInterface`.
+     */
+    public function signBlob($stringToSign, $forceOpenSsl = false)
+    {
+        if (!$this->fetcher instanceof SignBlobInterface) {
+            throw new \RuntimeException(
+                'Credentials fetcher does not implement ' .
+                'Google\Auth\SignBlobInterface'
+            );
+        }
+
+        // Pass the access token from cache to GCECredentials for signing a blob.
+        // This saves a call to the metadata server when a cached token exists.
+        if ($this->fetcher instanceof Credentials\GCECredentials) {
+            $cached = $this->fetchAuthTokenFromCache();
+            $accessToken = isset($cached['access_token']) ? $cached['access_token'] : null;
+            return $this->fetcher->signBlob($stringToSign, $forceOpenSsl, $accessToken);
+        }
+
+        return $this->fetcher->signBlob($stringToSign, $forceOpenSsl);
+    }
+
+    /**
+     * Get the quota project used for this API request from the credentials
+     * fetcher.
+     *
+     * @return string|null
+     */
+    public function getQuotaProject()
+    {
+        if ($this->fetcher instanceof GetQuotaProjectInterface) {
+            return $this->fetcher->getQuotaProject();
+        }
+    }
+
+    /*
+     * Get the Project ID from the fetcher.
+     *
+     * @param callable $httpHandler Callback which delivers psr7 request
+     * @return string|null
+     * @throws \RuntimeException If the fetcher does not implement
+     *     `Google\Auth\ProvidesProjectIdInterface`.
+     */
+    public function getProjectId(callable $httpHandler = null)
+    {
+        if (!$this->fetcher instanceof ProjectIdProviderInterface) {
+            throw new \RuntimeException(
+                'Credentials fetcher does not implement ' .
+                'Google\Auth\ProvidesProjectIdInterface'
+            );
+        }
+
+        return $this->fetcher->getProjectId($httpHandler);
+    }
+
+    /**
+     * Updates metadata with the authorization token.
+     *
+     * @param array $metadata metadata hashmap
+     * @param string $authUri optional auth uri
+     * @param callable $httpHandler callback which delivers psr7 request
+     * @return array updated metadata hashmap
+     * @throws \RuntimeException If the fetcher does not implement
+     *     `Google\Auth\UpdateMetadataInterface`.
+     */
+    public function updateMetadata(
+        $metadata,
+        $authUri = null,
+        callable $httpHandler = null
+    ) {
+        if (!$this->fetcher instanceof UpdateMetadataInterface) {
+            throw new \RuntimeException(
+                'Credentials fetcher does not implement ' .
+                'Google\Auth\UpdateMetadataInterface'
+            );
+        }
+
+        $cached = $this->fetchAuthTokenFromCache($authUri);
+        if ($cached) {
+            // Set the access token in the `Authorization` metadata header so
+            // the downstream call to updateMetadata know they don't need to
+            // fetch another token.
+            if (isset($cached['access_token'])) {
+                $metadata[self::AUTH_METADATA_KEY] = [
+                    'Bearer ' . $cached['access_token']
+                ];
+            }
+        }
+
+        $newMetadata = $this->fetcher->updateMetadata(
+            $metadata,
+            $authUri,
+            $httpHandler
+        );
+
+        if (!$cached && $token = $this->fetcher->getLastReceivedToken()) {
+            $this->saveAuthTokenInCache($token, $authUri);
+        }
+
+        return $newMetadata;
+    }
+
+    private function fetchAuthTokenFromCache($authUri = null)
+    {
+        // Use the cached value if its available.
+        //
+        // TODO: correct caching; update the call to setCachedValue to set the expiry
+        // to the value returned with the auth token.
+        //
+        // TODO: correct caching; enable the cache to be cleared.
+
+        // if $authUri is set, use it as the cache key
+        $cacheKey = $authUri
+            ? $this->getFullCacheKey($authUri)
+            : $this->fetcher->getCacheKey();
+
+        $cached = $this->getCachedValue($cacheKey);
+        if (is_array($cached)) {
+            if (empty($cached['expires_at'])) {
+                // If there is no expiration data, assume token is not expired.
+                // (for JwtAccess and ID tokens)
+                return $cached;
+            }
+            if (time() < $cached['expires_at']) {
+                // access token is not expired
+                return $cached;
+            }
+        }
+
+        return null;
+    }
+
+    private function saveAuthTokenInCache($authToken, $authUri = null)
+    {
+        if (isset($authToken['access_token']) ||
+            isset($authToken['id_token'])) {
+            // if $authUri is set, use it as the cache key
+            $cacheKey = $authUri
+                ? $this->getFullCacheKey($authUri)
+                : $this->fetcher->getCacheKey();
+
+            $this->setCachedValue($cacheKey, $authToken);
+        }
+    }
+}

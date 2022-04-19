@@ -1,87 +1,143 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Analytics;
+
+class FilterAdvancedDetails extends \Google\Model
+{
+  public $caseSensitive;
+  public $extractA;
+  public $extractB;
+  public $fieldA;
+  public $fieldAIndex;
+  public $fieldARequired;
+  public $fieldB;
+  public $fieldBIndex;
+  public $fieldBRequired;
+  public $outputConstructor;
+  public $outputToField;
+  public $outputToFieldIndex;
+  public $overrideOutputField;
+
+  public function setCaseSensitive($caseSensitive)
+  {
+    $this->caseSensitive = $caseSensitive;
+  }
+  public function getCaseSensitive()
+  {
+    return $this->caseSensitive;
+  }
+  public function setExtractA($extractA)
+  {
+    $this->extractA = $extractA;
+  }
+  public function getExtractA()
+  {
+    return $this->extractA;
+  }
+  public function setExtractB($extractB)
+  {
+    $this->extractB = $extractB;
+  }
+  public function getExtractB()
+  {
+    return $this->extractB;
+  }
+  public function setFieldA($fieldA)
+  {
+    $this->fieldA = $fieldA;
+  }
+  public function getFieldA()
+  {
+    return $this->fieldA;
+  }
+  public function setFieldAIndex($fieldAIndex)
+  {
+    $this->fieldAIndex = $fieldAIndex;
+  }
+  public function getFieldAIndex()
+  {
+    return $this->fieldAIndex;
+  }
+  public function setFieldARequired($fieldARequired)
+  {
+    $this->fieldARequired = $fieldARequired;
+  }
+  public function getFieldARequired()
+  {
+    return $this->fieldARequired;
+  }
+  public function setFieldB($fieldB)
+  {
+    $this->fieldB = $fieldB;
+  }
+  public function getFieldB()
+  {
+    return $this->fieldB;
+  }
+  public function setFieldBIndex($fieldBIndex)
+  {
+    $this->fieldBIndex = $fieldBIndex;
+  }
+  public function getFieldBIndex()
+  {
+    return $this->fieldBIndex;
+  }
+  public function setFieldBRequired($fieldBRequired)
+  {
+    $this->fieldBRequired = $fieldBRequired;
+  }
+  public function getFieldBRequired()
+  {
+    return $this->fieldBRequired;
+  }
+  public function setOutputConstructor($outputConstructor)
+  {
+    $this->outputConstructor = $outputConstructor;
+  }
+  public function getOutputConstructor()
+  {
+    return $this->outputConstructor;
+  }
+  public function setOutputToField($outputToField)
+  {
+    $this->outputToField = $outputToField;
+  }
+  public function getOutputToField()
+  {
+    return $this->outputToField;
+  }
+  public function setOutputToFieldIndex($outputToFieldIndex)
+  {
+    $this->outputToFieldIndex = $outputToFieldIndex;
+  }
+  public function getOutputToFieldIndex()
+  {
+    return $this->outputToFieldIndex;
+  }
+  public function setOverrideOutputField($overrideOutputField)
+  {
+    $this->overrideOutputField = $overrideOutputField;
+  }
+  public function getOverrideOutputField()
+  {
+    return $this->overrideOutputField;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(FilterAdvancedDetails::class, 'Google_Service_Analytics_FilterAdvancedDetails');

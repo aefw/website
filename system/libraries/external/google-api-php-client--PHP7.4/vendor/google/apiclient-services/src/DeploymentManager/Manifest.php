@@ -1,81 +1,131 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DeploymentManager;
+
+class Manifest extends \Google\Collection
+{
+  protected $collection_key = 'imports';
+  protected $configType = ConfigFile::class;
+  protected $configDataType = '';
+  public $expandedConfig;
+  public $id;
+  protected $importsType = ImportFile::class;
+  protected $importsDataType = 'array';
+  public $insertTime;
+  public $layout;
+  public $manifestSizeBytes;
+  public $manifestSizeLimitBytes;
+  public $name;
+  public $selfLink;
+
+  /**
+   * @param ConfigFile
+   */
+  public function setConfig(ConfigFile $config)
+  {
+    $this->config = $config;
+  }
+  /**
+   * @return ConfigFile
+   */
+  public function getConfig()
+  {
+    return $this->config;
+  }
+  public function setExpandedConfig($expandedConfig)
+  {
+    $this->expandedConfig = $expandedConfig;
+  }
+  public function getExpandedConfig()
+  {
+    return $this->expandedConfig;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  /**
+   * @param ImportFile[]
+   */
+  public function setImports($imports)
+  {
+    $this->imports = $imports;
+  }
+  /**
+   * @return ImportFile[]
+   */
+  public function getImports()
+  {
+    return $this->imports;
+  }
+  public function setInsertTime($insertTime)
+  {
+    $this->insertTime = $insertTime;
+  }
+  public function getInsertTime()
+  {
+    return $this->insertTime;
+  }
+  public function setLayout($layout)
+  {
+    $this->layout = $layout;
+  }
+  public function getLayout()
+  {
+    return $this->layout;
+  }
+  public function setManifestSizeBytes($manifestSizeBytes)
+  {
+    $this->manifestSizeBytes = $manifestSizeBytes;
+  }
+  public function getManifestSizeBytes()
+  {
+    return $this->manifestSizeBytes;
+  }
+  public function setManifestSizeLimitBytes($manifestSizeLimitBytes)
+  {
+    $this->manifestSizeLimitBytes = $manifestSizeLimitBytes;
+  }
+  public function getManifestSizeLimitBytes()
+  {
+    return $this->manifestSizeLimitBytes;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setSelfLink($selfLink)
+  {
+    $this->selfLink = $selfLink;
+  }
+  public function getSelfLink()
+  {
+    return $this->selfLink;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Manifest::class, 'Google_Service_DeploymentManager_Manifest');

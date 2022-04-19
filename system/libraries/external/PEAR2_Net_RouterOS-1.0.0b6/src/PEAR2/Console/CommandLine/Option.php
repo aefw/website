@@ -1,143 +1,396 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-lu2+hG==
+<?php
+
+/* vim: set expandtab tabstop=4 shiftwidth=4 softtabstop=4: */
+
+/**
+ * This file is part of the PEAR2\Console\CommandLine package.
+ *
+ * PHP version 5
+ *
+ * LICENSE: This source file is subject to the MIT license that is available
+ * through the world-wide-web at the following URI:
+ * http://opensource.org/licenses/mit-license.php
+ *
+ * @category  Console
+ * @package   PEAR2\Console\CommandLine
+ * @author    David JEAN LOUIS <izimobil@gmail.com>
+ * @copyright 2007-2009 David JEAN LOUIS
+ * @license   http://opensource.org/licenses/mit-license.php MIT License
+ * @version   0.2.3
+ * @link      http://pear2.php.net/PEAR2_Console_CommandLine
+ * @since     File available since release 0.1.0
+ *
+ * @filesource
+ */
+
+namespace PEAR2\Console\CommandLine;
+
+use PEAR2\Console;
+
+/**
+ * Class that represent a commandline option.
+ *
+ * @category  Console
+ * @package   PEAR2\Console\CommandLine
+ * @author    David JEAN LOUIS <izimobil@gmail.com>
+ * @copyright 2007-2009 David JEAN LOUIS
+ * @license   http://opensource.org/licenses/mit-license.php MIT License
+ * @link      http://pear2.php.net/PEAR2_Console_CommandLine
+ * @since     Class available since release 0.1.0
+ */
+class Option extends Element
+{
+    // Public properties {{{
+
+    /**
+     * The option short name (ex: -v).
+     *
+     * @var string $short_name Short name of the option
+     */
+    public $short_name;
+
+    /**
+     * The option long name (ex: --verbose).
+     *
+     * @var string $long_name Long name of the option
+     */
+    public $long_name;
+
+    /**
+     * The option action, defaults to "StoreString".
+     *
+     * @var string $action Option action
+     */
+    public $action = 'StoreString';
+
+    /**
+     * An array of possible values for the option. If this array is not empty
+     * and the value passed is not in the array an exception is raised.
+     * This only make sense for actions that accept values of course.
+     *
+     * @var array $choices Valid choices for the option
+     */
+    public $choices = array();
+
+    /**
+     * The callback function (or method) to call for an action of type
+     * Callback, this can be any callable supported by the php function
+     * call_user_func.
+     *
+     * Example:
+     *
+     * <code>
+     * $parser->addOption('myoption', array(
+     *     'short_name' => '-m',
+     *     'long_name'  => '--myoption',
+     *     'action'     => 'Callback',
+     *     'callback'   => 'myCallbackFunction'
+     * ));
+     * </code>
+     *
+     * @var callable $callback The option callback
+     */
+    public $callback;
+
+    /**
+     * An associative array of additional params to pass to the class
+     * corresponding to the action, this array will also be passed to the
+     * callback defined for an action of type Callback, Example:
+     *
+     * <code>
+     * // for a custom action
+     * $parser->addOption('myoption', array(
+     *     'short_name'    => '-m',
+     *     'long_name'     => '--myoption',
+     *     'action'        => 'MyCustomAction',
+     *     'action_params' => array('foo'=>true, 'bar'=>false)
+     * ));
+     *
+     * // if the user type:
+     * // $ <yourprogram> -m spam
+     * // in your MyCustomAction class the execute() method will be called
+     * // with the value 'spam' as first parameter and
+     * // array('foo'=>true, 'bar'=>false) as second parameter
+     * </code>
+     *
+     * @var array $action_params Additional parameters to pass to the action
+     */
+    public $action_params = array();
+
+    /**
+     * For options that expect an argument, this property tells the parser if
+     * the option argument is optional and can be ommited.
+     *
+     * @var bool $argumentOptional Whether the option arg is optional or not
+     */
+    public $argument_optional = false;
+
+    /**
+     * For options that uses the "choice" property only.
+     * Adds a --list-<choice> option to the parser that displays the list of
+     * choices for the option.
+     *
+     * @var bool $add_list_option Whether to add a list option or not
+     */
+    public $add_list_option = false;
+
+    // }}}
+    // Private properties {{{
+
+    /**
+     * When an action is called remember it to allow for multiple calls.
+     *
+     * @var object $action_instance Placeholder for action
+     */
+    private $_action_instance = null;
+
+    // }}}
+    // __construct() {{{
+
+    /**
+     * Constructor.
+     *
+     * @param string $name   The name of the option
+     * @param array  $params An optional array of parameters
+     *
+     * @return void
+     */
+    public function __construct($name = null, $params = array())
+    {
+        parent::__construct($name, $params);
+        if ($this->action == 'Password') {
+            // special case for Password action, password can be passed to the
+            // commandline or prompted by the parser
+            $this->argument_optional = true;
+        }
+    }
+
+    // }}}
+    // toString() {{{
+
+    /**
+     * Returns the string representation of the option.
+     *
+     * @param string $delim Delimiter to use between short and long option
+     *
+     * @return string The string representation of the option
+     * 
+     * @todo use __toString() instead
+     */
+    public function toString($delim = ", ")
+    {
+        $ret     = '';
+        $padding = '';
+        if ($this->short_name != null) {
+            $ret .= $this->short_name;
+            if ($this->expectsArgument()) {
+                $ret .= ' ' . $this->help_name;
+            }
+            $padding = $delim;
+        }
+        if ($this->long_name != null) {
+            $ret .= $padding . $this->long_name;
+            if ($this->expectsArgument()) {
+                $ret .= '=' . $this->help_name;
+            }
+        }
+        return $ret;
+    }
+
+    // }}}
+    // expectsArgument() {{{
+
+    /**
+     * Returns true if the option requires one or more argument and false
+     * otherwise.
+     *
+     * @return bool Whether the option expects an argument or not
+     */
+    public function expectsArgument()
+    {
+        if ($this->action == 'StoreTrue'
+            || $this->action == 'StoreFalse'
+            || $this->action == 'Help'
+            || $this->action == 'Version'
+            || $this->action == 'Counter'
+            || $this->action == 'List'
+        ) {
+            return false;
+        }
+        return true;
+    }
+
+    // }}}
+    // dispatchAction() {{{
+
+    /**
+     * Formats the value $value according to the action of the option and
+     * updates the passed PEAR2\Console\CommandLine_Result object.
+     *
+     * @param mixed                            $value  The value to format
+     * @param PEAR2\Console\CommandLine_Result $result The result instance
+     * @param PEAR2\Console\CommandLine        $parser The parser instance
+     *
+     * @return void
+     * @throws PEAR2\Console\CommandLine\Exception
+     */
+    public function dispatchAction($value, $result, $parser)
+    {
+        $actionInfo = Console\CommandLine::$actions[$this->action];
+        $clsname    = $actionInfo[0];
+        if ($this->_action_instance === null) {
+            $this->_action_instance  = new $clsname($result, $this, $parser);
+        }
+
+        // check value is in option choices
+        if (!empty($this->choices)
+            && !in_array(
+                $this->_action_instance->format($value),
+                $this->choices
+            )
+        ) {
+            throw Console\CommandLine\Exception::factory(
+                'OPTION_VALUE_NOT_VALID',
+                array(
+                    'name'    => $this->name,
+                    'choices' => implode('", "', $this->choices),
+                    'value'   => $value,
+                ),
+                $parser,
+                $this->messages
+            );
+        }
+        $this->_action_instance->execute($value, $this->action_params);
+    }
+
+    // }}}
+    // validate() {{{
+
+    /**
+     * Validates the option instance.
+     *
+     * @return void
+     * @throws PEAR2\Console\CommandLine\Exception
+     * 
+     * @todo use exceptions instead
+     */
+    public function validate()
+    {
+        // check if the option name is valid
+        if (!preg_match(
+            '/^[a-zA-Z_\x7f-\xff]+[a-zA-Z0-9_\x7f-\xff]*$/',
+            $this->name
+        )
+        ) {
+            Console\CommandLine::triggerError(
+                'option_bad_name',
+                E_USER_ERROR,
+                array('{$name}' => $this->name)
+            );
+        }
+        // call the parent validate method
+        parent::validate();
+        // a short_name or a long_name must be provided
+        if ($this->short_name == null && $this->long_name == null) {
+            Console\CommandLine::triggerError(
+                'option_long_and_short_name_missing',
+                E_USER_ERROR,
+                array('{$name}' => $this->name)
+            );
+        }
+        // check if the option short_name is valid
+        if ($this->short_name != null
+            && !(preg_match('/^\-[a-zA-Z]{1}$/', $this->short_name))
+        ) {
+            Console\CommandLine::triggerError(
+                'option_bad_short_name',
+                E_USER_ERROR,
+                array(
+                    '{$name}' => $this->name,
+                    '{$short_name}' => $this->short_name
+                )
+            );
+        }
+        // check if the option long_name is valid
+        if ($this->long_name != null
+            && !preg_match('/^\-\-[a-zA-Z]+[a-zA-Z0-9_\-]*$/', $this->long_name)
+        ) {
+            Console\CommandLine::triggerError(
+                'option_bad_long_name',
+                E_USER_ERROR,
+                array(
+                    '{$name}' => $this->name,
+                    '{$long_name}' => $this->long_name
+                )
+            );
+        }
+        // check if we have a valid action
+        if (!is_string($this->action)) {
+            Console\CommandLine::triggerError(
+                'option_bad_action',
+                E_USER_ERROR,
+                array('{$name}' => $this->name)
+            );
+        }
+        if (!isset(Console\CommandLine::$actions[$this->action])) {
+            Console\CommandLine::triggerError(
+                'option_unregistered_action',
+                E_USER_ERROR,
+                array(
+                    '{$action}' => $this->action,
+                    '{$name}' => $this->name
+                )
+            );
+        }
+        // if the action is a callback, check that we have a valid callback
+        if ($this->action == 'Callback' && !is_callable($this->callback)) {
+            Console\CommandLine::triggerError(
+                'option_invalid_callback',
+                E_USER_ERROR,
+                array('{$name}' => $this->name)
+            );
+        }
+    }
+
+    // }}}
+    // setDefaults() {{{
+
+    /**
+     * Set the default value according to the configured action.
+     *
+     * Note that for backward compatibility issues this method is only called
+     * when the 'force_options_defaults' is set to true, it will become the
+     * default behaviour in the next major release of PEAR2\Console\CommandLine.
+     *
+     * @return void
+     */
+    public function setDefaults()
+    {
+        if ($this->default !== null) {
+            // already set
+            return;
+        }
+        switch ($this->action) {
+        case 'Counter':
+        case 'StoreInt':
+            $this->default = 0;
+            break;
+        case 'StoreFloat':
+            $this->default = 0.0;
+            break;
+        case 'StoreArray':
+            $this->default = array();
+            break;
+        case 'StoreTrue':
+            $this->default = false;
+            break;
+        case 'StoreFalse':
+            $this->default = true;
+            break;
+        default:
+            return;
+        }
+    }
+
+    // }}}
+}

@@ -1,68 +1,117 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\YouTube;
+
+class ChannelSection extends \Google\Model
+{
+  protected $contentDetailsType = ChannelSectionContentDetails::class;
+  protected $contentDetailsDataType = '';
+  public $etag;
+  public $id;
+  public $kind;
+  protected $localizationsType = ChannelSectionLocalization::class;
+  protected $localizationsDataType = 'map';
+  protected $snippetType = ChannelSectionSnippet::class;
+  protected $snippetDataType = '';
+  protected $targetingType = ChannelSectionTargeting::class;
+  protected $targetingDataType = '';
+
+  /**
+   * @param ChannelSectionContentDetails
+   */
+  public function setContentDetails(ChannelSectionContentDetails $contentDetails)
+  {
+    $this->contentDetails = $contentDetails;
+  }
+  /**
+   * @return ChannelSectionContentDetails
+   */
+  public function getContentDetails()
+  {
+    return $this->contentDetails;
+  }
+  public function setEtag($etag)
+  {
+    $this->etag = $etag;
+  }
+  public function getEtag()
+  {
+    return $this->etag;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  /**
+   * @param ChannelSectionLocalization[]
+   */
+  public function setLocalizations($localizations)
+  {
+    $this->localizations = $localizations;
+  }
+  /**
+   * @return ChannelSectionLocalization[]
+   */
+  public function getLocalizations()
+  {
+    return $this->localizations;
+  }
+  /**
+   * @param ChannelSectionSnippet
+   */
+  public function setSnippet(ChannelSectionSnippet $snippet)
+  {
+    $this->snippet = $snippet;
+  }
+  /**
+   * @return ChannelSectionSnippet
+   */
+  public function getSnippet()
+  {
+    return $this->snippet;
+  }
+  /**
+   * @param ChannelSectionTargeting
+   */
+  public function setTargeting(ChannelSectionTargeting $targeting)
+  {
+    $this->targeting = $targeting;
+  }
+  /**
+   * @return ChannelSectionTargeting
+   */
+  public function getTargeting()
+  {
+    return $this->targeting;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ChannelSection::class, 'Google_Service_YouTube_ChannelSection');

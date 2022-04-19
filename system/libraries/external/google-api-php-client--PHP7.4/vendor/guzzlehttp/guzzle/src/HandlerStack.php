@@ -1,140 +1,271 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+namespace GuzzleHttp;
+
+use GuzzleHttp\Promise\PromiseInterface;
+use Psr\Http\Message\RequestInterface;
+use Psr\Http\Message\ResponseInterface;
+
+/**
+ * Creates a composed Guzzle handler function by stacking middlewares on top of
+ * an HTTP handler function.
+ *
+ * @final
+ */
+class HandlerStack
+{
+    /**
+     * @var null|callable(RequestInterface, array): PromiseInterface
+     */
+    private $handler;
+
+    /**
+     * @var array{(callable(callable(RequestInterface, array): PromiseInterface): callable), (string|null)}[]
+     */
+    private $stack = [];
+
+    /**
+     * @var null|callable(RequestInterface, array): PromiseInterface
+     */
+    private $cached;
+
+    /**
+     * Creates a default handler stack that can be used by clients.
+     *
+     * The returned handler will wrap the provided handler or use the most
+     * appropriate default handler for your system. The returned HandlerStack has
+     * support for cookies, redirects, HTTP error exceptions, and preparing a body
+     * before sending.
+     *
+     * The returned handler stack can be passed to a client in the "handler"
+     * option.
+     *
+     * @param null|callable(RequestInterface, array): PromiseInterface $handler HTTP handler function to use with the stack. If no
+     *                                                                          handler is provided, the best handler for your
+     *                                                                          system will be utilized.
+     */
+    public static function create(?callable $handler = null): self
+    {
+        $stack = new self($handler ?: Utils::chooseHandler());
+        $stack->push(Middleware::httpErrors(), 'http_errors');
+        $stack->push(Middleware::redirect(), 'allow_redirects');
+        $stack->push(Middleware::cookies(), 'cookies');
+        $stack->push(Middleware::prepareBody(), 'prepare_body');
+
+        return $stack;
+    }
+
+    /**
+     * @param null|callable(RequestInterface, array): PromiseInterface $handler Underlying HTTP handler.
+     */
+    public function __construct(callable $handler = null)
+    {
+        $this->handler = $handler;
+    }
+
+    /**
+     * Invokes the handler stack as a composed handler
+     *
+     * @return ResponseInterface|PromiseInterface
+     */
+    public function __invoke(RequestInterface $request, array $options)
+    {
+        $handler = $this->resolve();
+
+        return $handler($request, $options);
+    }
+
+    /**
+     * Dumps a string representation of the stack.
+     *
+     * @return string
+     */
+    public function __toString()
+    {
+        $depth = 0;
+        $stack = [];
+
+        if ($this->handler !== null) {
+            $stack[] = "0) Handler: " . $this->debugCallable($this->handler);
+        }
+
+        $result = '';
+        foreach (\array_reverse($this->stack) as $tuple) {
+            $depth++;
+            $str = "{$depth}) Name: '{$tuple[1]}', ";
+            $str .= "Function: " . $this->debugCallable($tuple[0]);
+            $result = "> {$str}\n{$result}";
+            $stack[] = $str;
+        }
+
+        foreach (\array_keys($stack) as $k) {
+            $result .= "< {$stack[$k]}\n";
+        }
+
+        return $result;
+    }
+
+    /**
+     * Set the HTTP handler that actually returns a promise.
+     *
+     * @param callable(RequestInterface, array): PromiseInterface $handler Accepts a request and array of options and
+     *                                                                     returns a Promise.
+     */
+    public function setHandler(callable $handler): void
+    {
+        $this->handler = $handler;
+        $this->cached = null;
+    }
+
+    /**
+     * Returns true if the builder has a handler.
+     */
+    public function hasHandler(): bool
+    {
+        return $this->handler !== null ;
+    }
+
+    /**
+     * Unshift a middleware to the bottom of the stack.
+     *
+     * @param callable(callable): callable $middleware Middleware function
+     * @param string                       $name       Name to register for this middleware.
+     */
+    public function unshift(callable $middleware, ?string $name = null): void
+    {
+        \array_unshift($this->stack, [$middleware, $name]);
+        $this->cached = null;
+    }
+
+    /**
+     * Push a middleware to the top of the stack.
+     *
+     * @param callable(callable): callable $middleware Middleware function
+     * @param string                       $name       Name to register for this middleware.
+     */
+    public function push(callable $middleware, string $name = ''): void
+    {
+        $this->stack[] = [$middleware, $name];
+        $this->cached = null;
+    }
+
+    /**
+     * Add a middleware before another middleware by name.
+     *
+     * @param string                       $findName   Middleware to find
+     * @param callable(callable): callable $middleware Middleware function
+     * @param string                       $withName   Name to register for this middleware.
+     */
+    public function before(string $findName, callable $middleware, string $withName = ''): void
+    {
+        $this->splice($findName, $withName, $middleware, true);
+    }
+
+    /**
+     * Add a middleware after another middleware by name.
+     *
+     * @param string                       $findName   Middleware to find
+     * @param callable(callable): callable $middleware Middleware function
+     * @param string                       $withName   Name to register for this middleware.
+     */
+    public function after(string $findName, callable $middleware, string $withName = ''): void
+    {
+        $this->splice($findName, $withName, $middleware, false);
+    }
+
+    /**
+     * Remove a middleware by instance or name from the stack.
+     *
+     * @param callable|string $remove Middleware to remove by instance or name.
+     */
+    public function remove($remove): void
+    {
+        $this->cached = null;
+        $idx = \is_callable($remove) ? 0 : 1;
+        $this->stack = \array_values(\array_filter(
+            $this->stack,
+            static function ($tuple) use ($idx, $remove) {
+                return $tuple[$idx] !== $remove;
+            }
+        ));
+    }
+
+    /**
+     * Compose the middleware and handler into a single callable function.
+     *
+     * @return callable(RequestInterface, array): PromiseInterface
+     */
+    public function resolve(): callable
+    {
+        if ($this->cached === null) {
+            if (($prev = $this->handler) === null) {
+                throw new \LogicException('No handler has been specified');
+            }
+
+            foreach (\array_reverse($this->stack) as $fn) {
+                /** @var callable(RequestInterface, array): PromiseInterface $prev */
+                $prev = $fn[0]($prev);
+            }
+
+            $this->cached = $prev;
+        }
+
+        return $this->cached;
+    }
+
+    private function findByName(string $name): int
+    {
+        foreach ($this->stack as $k => $v) {
+            if ($v[1] === $name) {
+                return $k;
+            }
+        }
+
+        throw new \InvalidArgumentException("Middleware not found: $name");
+    }
+
+    /**
+     * Splices a function into the middleware list at a specific position.
+     */
+    private function splice(string $findName, string $withName, callable $middleware, bool $before): void
+    {
+        $this->cached = null;
+        $idx = $this->findByName($findName);
+        $tuple = [$middleware, $withName];
+
+        if ($before) {
+            if ($idx === 0) {
+                \array_unshift($this->stack, $tuple);
+            } else {
+                $replacement = [$tuple, $this->stack[$idx]];
+                \array_splice($this->stack, $idx, 1, $replacement);
+            }
+        } elseif ($idx === \count($this->stack) - 1) {
+            $this->stack[] = $tuple;
+        } else {
+            $replacement = [$this->stack[$idx], $tuple];
+            \array_splice($this->stack, $idx, 1, $replacement);
+        }
+    }
+
+    /**
+     * Provides a debug string for a given callable.
+     *
+     * @param callable $fn Function to write as a string.
+     */
+    private function debugCallable($fn): string
+    {
+        if (\is_string($fn)) {
+            return "callable({$fn})";
+        }
+
+        if (\is_array($fn)) {
+            return \is_string($fn[0])
+                ? "callable({$fn[0]}::{$fn[1]})"
+                : "callable(['" . \get_class($fn[0]) . "', '{$fn[1]}'])";
+        }
+
+        /** @var object $fn */
+        return 'callable(' . \spl_object_hash($fn) . ')';
+    }
+}

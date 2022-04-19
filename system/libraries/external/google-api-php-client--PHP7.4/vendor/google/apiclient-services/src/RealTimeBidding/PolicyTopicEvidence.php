@@ -1,73 +1,138 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\RealTimeBidding;
+
+class PolicyTopicEvidence extends \Google\Model
+{
+  protected $destinationNotCrawlableType = DestinationNotCrawlableEvidence::class;
+  protected $destinationNotCrawlableDataType = '';
+  protected $destinationNotWorkingType = DestinationNotWorkingEvidence::class;
+  protected $destinationNotWorkingDataType = '';
+  protected $destinationUrlType = DestinationUrlEvidence::class;
+  protected $destinationUrlDataType = '';
+  protected $domainCallType = DomainCallEvidence::class;
+  protected $domainCallDataType = '';
+  protected $downloadSizeType = DownloadSizeEvidence::class;
+  protected $downloadSizeDataType = '';
+  protected $httpCallType = HttpCallEvidence::class;
+  protected $httpCallDataType = '';
+  protected $httpCookieType = HttpCookieEvidence::class;
+  protected $httpCookieDataType = '';
+
+  /**
+   * @param DestinationNotCrawlableEvidence
+   */
+  public function setDestinationNotCrawlable(DestinationNotCrawlableEvidence $destinationNotCrawlable)
+  {
+    $this->destinationNotCrawlable = $destinationNotCrawlable;
+  }
+  /**
+   * @return DestinationNotCrawlableEvidence
+   */
+  public function getDestinationNotCrawlable()
+  {
+    return $this->destinationNotCrawlable;
+  }
+  /**
+   * @param DestinationNotWorkingEvidence
+   */
+  public function setDestinationNotWorking(DestinationNotWorkingEvidence $destinationNotWorking)
+  {
+    $this->destinationNotWorking = $destinationNotWorking;
+  }
+  /**
+   * @return DestinationNotWorkingEvidence
+   */
+  public function getDestinationNotWorking()
+  {
+    return $this->destinationNotWorking;
+  }
+  /**
+   * @param DestinationUrlEvidence
+   */
+  public function setDestinationUrl(DestinationUrlEvidence $destinationUrl)
+  {
+    $this->destinationUrl = $destinationUrl;
+  }
+  /**
+   * @return DestinationUrlEvidence
+   */
+  public function getDestinationUrl()
+  {
+    return $this->destinationUrl;
+  }
+  /**
+   * @param DomainCallEvidence
+   */
+  public function setDomainCall(DomainCallEvidence $domainCall)
+  {
+    $this->domainCall = $domainCall;
+  }
+  /**
+   * @return DomainCallEvidence
+   */
+  public function getDomainCall()
+  {
+    return $this->domainCall;
+  }
+  /**
+   * @param DownloadSizeEvidence
+   */
+  public function setDownloadSize(DownloadSizeEvidence $downloadSize)
+  {
+    $this->downloadSize = $downloadSize;
+  }
+  /**
+   * @return DownloadSizeEvidence
+   */
+  public function getDownloadSize()
+  {
+    return $this->downloadSize;
+  }
+  /**
+   * @param HttpCallEvidence
+   */
+  public function setHttpCall(HttpCallEvidence $httpCall)
+  {
+    $this->httpCall = $httpCall;
+  }
+  /**
+   * @return HttpCallEvidence
+   */
+  public function getHttpCall()
+  {
+    return $this->httpCall;
+  }
+  /**
+   * @param HttpCookieEvidence
+   */
+  public function setHttpCookie(HttpCookieEvidence $httpCookie)
+  {
+    $this->httpCookie = $httpCookie;
+  }
+  /**
+   * @return HttpCookieEvidence
+   */
+  public function getHttpCookie()
+  {
+    return $this->httpCookie;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PolicyTopicEvidence::class, 'Google_Service_RealTimeBidding_PolicyTopicEvidence');

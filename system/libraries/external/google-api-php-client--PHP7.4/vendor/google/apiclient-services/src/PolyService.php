@@ -1,60 +1,197 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Ccv99m==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for PolyService (v1).
+ *
+ * <p>
+ * The Poly API provides read access to assets hosted on poly.google.com to all,
+ * and upload access to poly.google.com for whitelisted accounts.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://developers.google.com/poly/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class PolyService extends \Google\Service
+{
+
+
+  public $assets;
+  public $users_assets;
+  public $users_likedassets;
+
+  /**
+   * Constructs the internal representation of the PolyService service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://poly.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'poly';
+
+    $this->assets = new PolyService\Resource\Assets(
+        $this,
+        $this->serviceName,
+        'assets',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/assets',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'category' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'curated' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'format' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'keywords' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxComplexity' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->users_assets = new PolyService\Resource\UsersAssets(
+        $this,
+        $this->serviceName,
+        'assets',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/{+name}/assets',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'format' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'visibility' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->users_likedassets = new PolyService\Resource\UsersLikedassets(
+        $this,
+        $this->serviceName,
+        'likedassets',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/{+name}/likedassets',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'format' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(PolyService::class, 'Google_Service_PolyService');

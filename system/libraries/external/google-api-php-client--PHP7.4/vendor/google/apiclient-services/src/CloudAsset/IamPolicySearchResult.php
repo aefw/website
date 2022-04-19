@@ -1,69 +1,104 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudAsset;
+
+class IamPolicySearchResult extends \Google\Collection
+{
+  protected $collection_key = 'folders';
+  public $assetType;
+  protected $explanationType = Explanation::class;
+  protected $explanationDataType = '';
+  public $folders;
+  public $organization;
+  protected $policyType = Policy::class;
+  protected $policyDataType = '';
+  public $project;
+  public $resource;
+
+  public function setAssetType($assetType)
+  {
+    $this->assetType = $assetType;
+  }
+  public function getAssetType()
+  {
+    return $this->assetType;
+  }
+  /**
+   * @param Explanation
+   */
+  public function setExplanation(Explanation $explanation)
+  {
+    $this->explanation = $explanation;
+  }
+  /**
+   * @return Explanation
+   */
+  public function getExplanation()
+  {
+    return $this->explanation;
+  }
+  public function setFolders($folders)
+  {
+    $this->folders = $folders;
+  }
+  public function getFolders()
+  {
+    return $this->folders;
+  }
+  public function setOrganization($organization)
+  {
+    $this->organization = $organization;
+  }
+  public function getOrganization()
+  {
+    return $this->organization;
+  }
+  /**
+   * @param Policy
+   */
+  public function setPolicy(Policy $policy)
+  {
+    $this->policy = $policy;
+  }
+  /**
+   * @return Policy
+   */
+  public function getPolicy()
+  {
+    return $this->policy;
+  }
+  public function setProject($project)
+  {
+    $this->project = $project;
+  }
+  public function getProject()
+  {
+    return $this->project;
+  }
+  public function setResource($resource)
+  {
+    $this->resource = $resource;
+  }
+  public function getResource()
+  {
+    return $this->resource;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(IamPolicySearchResult::class, 'Google_Service_CloudAsset_IamPolicySearchResult');

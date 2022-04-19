@@ -1,72 +1,387 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for OrgPolicyAPI (v2).
+ *
+ * <p>
+ * The Org Policy API allows users to configure governance ruleson their GCP
+ * resources across the Cloud Resource Hierarchy.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/orgpolicy/docs/reference/rest/index.html" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class OrgPolicyAPI extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+
+  public $folders_constraints;
+  public $folders_policies;
+  public $organizations_constraints;
+  public $organizations_policies;
+  public $projects_constraints;
+  public $projects_policies;
+
+  /**
+   * Constructs the internal representation of the OrgPolicyAPI service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://orgpolicy.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v2';
+    $this->serviceName = 'orgpolicy';
+
+    $this->folders_constraints = new OrgPolicyAPI\Resource\FoldersConstraints(
+        $this,
+        $this->serviceName,
+        'constraints',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v2/{+parent}/constraints',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->folders_policies = new OrgPolicyAPI\Resource\FoldersPolicies(
+        $this,
+        $this->serviceName,
+        'policies',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v2/{+parent}/policies',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getEffectivePolicy' => [
+              'path' => 'v2/{+name}:getEffectivePolicy',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v2/{+parent}/policies',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_constraints = new OrgPolicyAPI\Resource\OrganizationsConstraints(
+        $this,
+        $this->serviceName,
+        'constraints',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v2/{+parent}/constraints',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_policies = new OrgPolicyAPI\Resource\OrganizationsPolicies(
+        $this,
+        $this->serviceName,
+        'policies',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v2/{+parent}/policies',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getEffectivePolicy' => [
+              'path' => 'v2/{+name}:getEffectivePolicy',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v2/{+parent}/policies',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_constraints = new OrgPolicyAPI\Resource\ProjectsConstraints(
+        $this,
+        $this->serviceName,
+        'constraints',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v2/{+parent}/constraints',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_policies = new OrgPolicyAPI\Resource\ProjectsPolicies(
+        $this,
+        $this->serviceName,
+        'policies',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v2/{+parent}/policies',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getEffectivePolicy' => [
+              'path' => 'v2/{+name}:getEffectivePolicy',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v2/{+parent}/policies',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v2/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(OrgPolicyAPI::class, 'Google_Service_OrgPolicyAPI');

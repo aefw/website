@@ -1,69 +1,106 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-JO+D8FwbnlWVpMHqvUQ8PT9RAcGmQhofWd3T
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Analytics;
+
+class AccountSummaries extends \Google\Collection
+{
+  protected $collection_key = 'items';
+  protected $itemsType = AccountSummary::class;
+  protected $itemsDataType = 'array';
+  public $itemsPerPage;
+  public $kind;
+  public $nextLink;
+  public $previousLink;
+  public $startIndex;
+  public $totalResults;
+  public $username;
+
+  /**
+   * @param AccountSummary[]
+   */
+  public function setItems($items)
+  {
+    $this->items = $items;
+  }
+  /**
+   * @return AccountSummary[]
+   */
+  public function getItems()
+  {
+    return $this->items;
+  }
+  public function setItemsPerPage($itemsPerPage)
+  {
+    $this->itemsPerPage = $itemsPerPage;
+  }
+  public function getItemsPerPage()
+  {
+    return $this->itemsPerPage;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setNextLink($nextLink)
+  {
+    $this->nextLink = $nextLink;
+  }
+  public function getNextLink()
+  {
+    return $this->nextLink;
+  }
+  public function setPreviousLink($previousLink)
+  {
+    $this->previousLink = $previousLink;
+  }
+  public function getPreviousLink()
+  {
+    return $this->previousLink;
+  }
+  public function setStartIndex($startIndex)
+  {
+    $this->startIndex = $startIndex;
+  }
+  public function getStartIndex()
+  {
+    return $this->startIndex;
+  }
+  public function setTotalResults($totalResults)
+  {
+    $this->totalResults = $totalResults;
+  }
+  public function getTotalResults()
+  {
+    return $this->totalResults;
+  }
+  public function setUsername($username)
+  {
+    $this->username = $username;
+  }
+  public function getUsername()
+  {
+    return $this->username;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AccountSummaries::class, 'Google_Service_Analytics_AccountSummaries');

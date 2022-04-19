@@ -1,69 +1,121 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPnDkIga9/KwFfA7VYcxqy/kO6lx1jB6i/fZ8LmdF0apcSllT0bEzll6E1oNerhFm8bfBqJZA
-tMxz0+tGKsEfOJ1sxCYACigpkonA/Gzsob/QOvjRpZhwZ9I9U/Byso6lSsfYvrDVnUZ9ExFd9LSM
-xSDnia/l8ErEkE6wtO5K3ChA6yAM5RSFJcpqkgOfm4m3RL1wmANtUzGd5+izJEWPeBzXUDiTLW93
-wLNle4ozOR75VkSU57VrdB2c92dcYz94s3gf0gzfEVrSG6KuOG2K58hLHU9mKourL8IeB86cFae5
-vLLLTokl19dzE0UQP/U8r5ldNj3S6KVVX9artDZp7fzujMU7zrSO9/LdwYyBe+mLuZwuoAgnBrSp
-CWKokSTCmEv/AlAuI6kAlN1zsEKggTueFU++w7mQuMd5kjkMSVdB3G08T0lR9gaj3u+N+WS9I1Oc
-bO21k40F8PVk0xDzu0mtzh7PFtfAgG3HziBqT+ro13OgQeCkaGzpglWo9hSk9UUJVi7T6GE4VinM
-NWKVEiaBpsWndM8q4Pq4gk2rAjM/dMR+X6Jfmj7pAUUfI6tfOZ2jImBhAEdzWAyUqvC6MqCOb7r5
-dXvmBWojbkEttOQvjOAOzbTakegAABqqPl2M1/ZC1rR8S0LKYnGVgoIPUP+XNq9bxDiZsiCv0ryZ
-NaIi0Z9d7SzjVD3RFqR1Rlrapsq2Kjh6l/IiDLwxh65AWTuvaOXBVvMQzB9xTBDWc8gV6mZ5wYeO
-ls13TUvCyrMVJSXrmtwcw3dYnJBs1+FgefbIoEkkV0QNIErq3Si6FbDbulS3HRBEHCc0O13N9xqj
-6L1YN2ciaR2opk1VaEHR7ONX1nJgBq4oN03ytnzB9pbfCXnMwrxRChUU4a5NfdQy3FO2oVR56pf2
-i4HZ8f1qKSpCtAzsIBntvA0BDQVvXutfbkv7+0U+yetIkcdpYfOM3FvlWmTC3qN0YK1yhZ/6MhO8
-U2xuMeozFHHVN6/irOcWrbLxe6fuWMQwrbgISNAnN0Qsx3rXspqmCO7syzxW6JJWHYGNZ3YpcOy7
-DhxLhOqq5UgOFHiq9Bd2/xsITe4OyAudXSWiEFv/uHQexKQVPesYN9jBuJDYOWr5jfdhG5m2BB0D
-OOVvgtUfGsdDl+lA3DM8H4tNgNxU0NMh9dO4u7VgE+C0BzTUKEANhNenB+XwUkolONUZETyr68VX
-IEFbde7ZU1MDlRyr0ysvPJFr+v9xANZUfpyStBNsIJqlcX1EabjiCt6KFPyDp9jONK4rmWMr/aTQ
-UiGs9ro3jIkbKbkyxrt+rlzrnbjJ3o0Lr4v4spqxCxpFMeppH07bXBqD5rbd1o55WLAnpCqLncGZ
-rYQMgWouMllZQV/lY2NsliNI+q0EUd90iP0F4M2Utnd/gwyGOFk7ezJkkiMtTsOMbsJGScaScrje
-haODWSGlrnN+vvaECI1z6IjSXU7+3k86CW7rZgijFXEd5inHbfuw1wsVHfOHPU8C2rCqKXXv3+dm
-EGMRct8/74Zq0TpNUnP/mfXX7bZGLNEt3psyINj9Xi1EquERIAJDGsAYKyASRntvUxGGtJUmJ3VI
-wtqr9+QocgsycYHcsZY6HpPavYPWEri4dCHEt4W42CaQvHDXaWnxujOD4UmzxyPkweyemnwD8d6O
-jEOc7VcLDYgUwqrntvJ/m018jeG/kk9YZIGXhH0M027gC+UdcHqlP56v0vagNwKK+g4/faazvxm8
-JyngxXuMAI/4Moq8Sz0Dw2sXVVOwBDnorGTTZGQom3RhO3/oNe15WPhoYabdMTDRlaywbbvCXXI2
-WIbjj4j/aZDMclbpHqz0EDnukzCtz4jEwfoFVJfQICSId4gPpH6Is0bM/4Lopy/ORtqOauo7ddC0
-v/ArguRyLuG+LmPnVh5WMHSXBqBwan7IegOmsKvbciaXsAnhd3Gbde1l0Hq2Gl7jFYE39wWFG/zX
-B9nz7OD2cX8iFpq3BIImoiTw2ZcJmq5yc6fHTvf/AOJ7DRtF2CiQrXNi2220tEH2q9rdusN5ktk3
-vG3ReXuPcBJKmMFo83kq6ct/up4G2LjRsXu4pA2lf9cKO+3eDhiEjHiPeFIz/Cyt3uvsN+UfKMdy
-ZYX7v7Ov1WL6xnh+evr/Z2f9Zu1hvhxtW5R1fnRi2K9YU9epsdz0yPeG5IYlTwKMT+5VGDbZG6Pa
-CP76ilyloFoJePpJYcWHnIOsZNoT5ueuRlLK1tVL5glR/okOu+R/cLw7/5FEluvFvGpmk9eBEAXf
-u3whU3BViYyjAfWTNJT2JDQzZoWfvmjkWb+vnEA9nC4RNNVaQEiAgBef61Zt3TRzM+FQsJMhZRkC
-JcKFmx2oAz/qffl33Gg0EWsOMDdeMh2JWzbOpPO8YvMbsyZT2A4r8ihbi7rXCly5AaVESQumsqYg
-ifPIMIDbFbXX1bRLMEQU28kCXxmiqPoqKrOz6IOkSpwkHqX2godY4x77CWXOUIQwtbZ6LJxLn8LF
-b5f9dS0Tvrgys0i/gVAuFau021O+ksRNnfAE3emPIEOkzyox6W6UzbzRuefeNjj3xv7+SUvcEyPW
-TKNb6Vr1aZSCODH87lzXpfy4iFjyRe8fua3y72TZy2P/9XwicqFAQmfJL/3KyvtPqpfO4sIecris
-Tul829Z35hZUq5oG5y/ok3JmAa9eY2csInZuu4Wql0qsxL+Fv/HUff6OoBNkz+azJY9aA/IIiM4P
-U8G/b93gdHcIXvLRCvUENU40//9ynCe67viVjgG/VWzx11FBj7PbGt4ZYHxs5rjjdydjha6ekxvd
-HF+9p6Vu4Se0QmQ61wNS1jiJ4S2HhIkAgJaXi2RtM/ueGBoCqV+GpH7xq3DrJNtcP+Pws4mQ/UMQ
-50l1yiHkWZl4ursLCNU33pSnYtOTyCZ56QiQLNltOX6qDLgad3MUZBCbNHjNh6GL51jscDoATMND
-vrMAU9RDQpzOSnL1jZfa6IVkkOrraUM/x6YcgXqXQuRtJpeV7dKm3qPryuLbVisTYKnC7HWapROh
-Dm5nSHEri4CijchiB0J+Fj0BoeJJY6M4R2Uo16HPJ6eTi4ZM4+AUwBya1nmcCZR/9+kmbNSaoP3D
-xICVvcGKbPJiCWFNgENorJZDUqEGAxuHsXTAjxjc4EYW5KwTfJfxeLyGn1eVGHN9o57pyXkTPUWS
-zNU+/Sl6jKKswdIiiJjHOOz/UhK1KUbA2AO6BbgrxcD0K0FAJqA9vWIsWe3D7QDzJ86RAVwMnVtj
-651bly2/hfqhd+/7Dcm9oJrKyHhvfVbIi/driLW7dudXA7qWDUpR/KH3MT5Wz00ksodwXIWDQXta
-wT9Cfj1I6oUlfLztZgTyIHjyrj7KibPT2/G/6exS9ENlaqooc3svgf4WB0xZPkNawum7gCEBAaBA
-FT09SCpruxrEsGqxr0nHgig4Hl/9vRLCxlX+biXzQVksK1AWgEZoayz6ede3JmXSj+0O3fLKLm0n
-yzBJ8HF36jOU4s02mKE7VO9GIQgxn1wAX+5GCGfiyLO+ylEqWVMJzPBKBjQK1jE3e8N2kBExpQso
-bi2a8W3LEVPjS0kWfPQPynievtZuJXi0UDnTum6o6/YCx9i977vYsurZsWkmiAFT3ODGr92BoITo
-FqMD+5L8Q5wK7MDiI0Jy1cjXmyL5LAoCDblBAzud4zl4vASkz+bs3vf1amwPkG5vWruXj+JiYdZV
-M4c52NGX+vTm85akl1Dsio/P8qlX3rsC+eOopj5PQoRsGYztdP9mJE+ZVdm1DqWS1QG/Qsa3d0e2
-D9wgQNu91ICoA6mhQQCRkDj04GieSn9qwTizEIK48j4fGPYq6b8eqaea17DafS80eAP9yr621oil
-uCn9nlovwyJ23aoAZbiT5PvlOd+rm76pAVu4KyZ9ynFk/+nM8mFrQYvSIyYHTxABynOq4Zz6B+ty
-NPfmOgXAo9rgy5FlFO7J3oepfG99phFfM1SE+8BgwsdsptBUX1jjOkNxLBN/FPRiR5+EpoNZPwON
-QYu6Vc6S+KN39cLHgBHYXTisbmR7Boecn/HzvlzDLcA5B3iHbnz/0IeZUzZC5RWEHvQM4yRQknfH
-aZKAIVnrHU7altBendIhrDJyA9Ruc/f89epPBs27i8kPMVunkIU337QRHKukAEx5XUk8gZbFSqZY
-dEcxeDFlaxaCY+dlsncrWl+FlIgldqXiqS6xq8+DplKtIIJ3sfLJ2Drl+h0sC/mk01soUMEDVs3U
-OrDH1R2d8cQrRBzh4VCRKW2IMyyUTNdJC0ymwAMZ+QkB2k2aWFK/RrlyX8VkcqL7QqOGrbV7PiBV
-wGMc5NL4CTKmb/w5ewhuSa8+YgLDyFkUsqn5VHdqZ2Vca5OzZfVaiugje2cBg1HzpCB8zLRMrLE8
-MBiRMcyW9BOMBXEVbGyiT080+oxzHY8ZoJOsTKmb+hl7j0NmOdw9kMeYUnIfY1rDxOIBOyW7CUew
-ONWRX6C61NHq/3j8W/rAksllgZPEFT3F41Yq+9mx4xdINr0w8qqJQeXqKfov77tMD0MmLhncieZr
-wzG5NaPHAesoRHMjCdHA/Xw135zbUN/QGZXAV+XfjLUoKF41LBevVHosmTyOjU1rzzSnokvRwcKe
-269TFlcE4vwTg5fIhKd5PiNKBDjnwh1+yCfDT9T6x6gc1KoO4v8hka3a114YsioyYbTCVPMoPpL9
-8O7mKXcj+opI43kFD4/exNRHkoDZULgG0gU+iJ5xKhE+crX9Om==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Tasks\Resource;
+
+use Google\Service\Tasks\TaskList;
+use Google\Service\Tasks\TaskLists as TaskListsModel;
+
+/**
+ * The "tasklists" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $tasksService = new Google\Service\Tasks(...);
+ *   $tasklists = $tasksService->tasklists;
+ *  </code>
+ */
+class Tasklists extends \Google\Service\Resource
+{
+  /**
+   * Deletes the authenticated user's specified task list. (tasklists.delete)
+   *
+   * @param string $tasklist Task list identifier.
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($tasklist, $optParams = [])
+  {
+    $params = ['tasklist' => $tasklist];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Returns the authenticated user's specified task list. (tasklists.get)
+   *
+   * @param string $tasklist Task list identifier.
+   * @param array $optParams Optional parameters.
+   * @return TaskList
+   */
+  public function get($tasklist, $optParams = [])
+  {
+    $params = ['tasklist' => $tasklist];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], TaskList::class);
+  }
+  /**
+   * Creates a new task list and adds it to the authenticated user's task lists.
+   * (tasklists.insert)
+   *
+   * @param TaskList $postBody
+   * @param array $optParams Optional parameters.
+   * @return TaskList
+   */
+  public function insert(TaskList $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], TaskList::class);
+  }
+  /**
+   * Returns all the authenticated user's task lists. (tasklists.listTasklists)
+   *
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int maxResults Maximum number of task lists returned on one page.
+   * Optional. The default is 20 (max allowed: 100).
+   * @opt_param string pageToken Token specifying the result page to return.
+   * Optional.
+   * @return TaskListsModel
+   */
+  public function listTasklists($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], TaskListsModel::class);
+  }
+  /**
+   * Updates the authenticated user's specified task list. This method supports
+   * patch semantics. (tasklists.patch)
+   *
+   * @param string $tasklist Task list identifier.
+   * @param TaskList $postBody
+   * @param array $optParams Optional parameters.
+   * @return TaskList
+   */
+  public function patch($tasklist, TaskList $postBody, $optParams = [])
+  {
+    $params = ['tasklist' => $tasklist, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], TaskList::class);
+  }
+  /**
+   * Updates the authenticated user's specified task list. (tasklists.update)
+   *
+   * @param string $tasklist Task list identifier.
+   * @param TaskList $postBody
+   * @param array $optParams Optional parameters.
+   * @return TaskList
+   */
+  public function update($tasklist, TaskList $postBody, $optParams = [])
+  {
+    $params = ['tasklist' => $tasklist, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], TaskList::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Tasklists::class, 'Google_Service_Tasks_Resource_Tasklists');

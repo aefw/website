@@ -1,74 +1,108 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-ydb8jQtgeuC=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AdSenseHost;
+
+class AssociationSession extends \Google\Collection
+{
+  protected $collection_key = 'productCodes';
+  public $accountId;
+  public $id;
+  public $kind;
+  public $productCodes;
+  public $redirectUrl;
+  public $status;
+  public $userLocale;
+  public $websiteLocale;
+  public $websiteUrl;
+
+  public function setAccountId($accountId)
+  {
+    $this->accountId = $accountId;
+  }
+  public function getAccountId()
+  {
+    return $this->accountId;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setProductCodes($productCodes)
+  {
+    $this->productCodes = $productCodes;
+  }
+  public function getProductCodes()
+  {
+    return $this->productCodes;
+  }
+  public function setRedirectUrl($redirectUrl)
+  {
+    $this->redirectUrl = $redirectUrl;
+  }
+  public function getRedirectUrl()
+  {
+    return $this->redirectUrl;
+  }
+  public function setStatus($status)
+  {
+    $this->status = $status;
+  }
+  public function getStatus()
+  {
+    return $this->status;
+  }
+  public function setUserLocale($userLocale)
+  {
+    $this->userLocale = $userLocale;
+  }
+  public function getUserLocale()
+  {
+    return $this->userLocale;
+  }
+  public function setWebsiteLocale($websiteLocale)
+  {
+    $this->websiteLocale = $websiteLocale;
+  }
+  public function getWebsiteLocale()
+  {
+    return $this->websiteLocale;
+  }
+  public function setWebsiteUrl($websiteUrl)
+  {
+    $this->websiteUrl = $websiteUrl;
+  }
+  public function getWebsiteUrl()
+  {
+    return $this->websiteUrl;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AssociationSession::class, 'Google_Service_AdSenseHost_AssociationSession');

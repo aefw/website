@@ -1,63 +1,149 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+namespace PhpOffice\PhpSpreadsheet\Calculation\Token;
+
+use PhpOffice\PhpSpreadsheet\Calculation\Calculation;
+
+class Stack
+{
+    /**
+     * The parser stack for formulae.
+     *
+     * @var mixed[]
+     */
+    private $stack = [];
+
+    /**
+     * Count of entries in the parser stack.
+     *
+     * @var int
+     */
+    private $count = 0;
+
+    /**
+     * Return the number of entries on the stack.
+     *
+     * @return int
+     */
+    public function count()
+    {
+        return $this->count;
+    }
+
+    /**
+     * Push a new entry onto the stack.
+     *
+     * @param mixed $type
+     * @param mixed $value
+     * @param mixed $reference
+     * @param null|string $storeKey will store the result under this alias
+     * @param null|string $onlyIf will only run computation if the matching
+     *      store key is true
+     * @param null|string $onlyIfNot will only run computation if the matching
+     *      store key is false
+     */
+    public function push(
+        $type,
+        $value,
+        $reference = null,
+        $storeKey = null,
+        $onlyIf = null,
+        $onlyIfNot = null
+    ) {
+        $stackItem = $this->getStackItem($type, $value, $reference, $storeKey, $onlyIf, $onlyIfNot);
+
+        $this->stack[$this->count++] = $stackItem;
+
+        if ($type == 'Function') {
+            $localeFunction = Calculation::localeFunc($value);
+            if ($localeFunction != $value) {
+                $this->stack[($this->count - 1)]['localeValue'] = $localeFunction;
+            }
+        }
+    }
+
+    public function getStackItem(
+        $type,
+        $value,
+        $reference = null,
+        $storeKey = null,
+        $onlyIf = null,
+        $onlyIfNot = null
+    ) {
+        $stackItem = [
+            'type' => $type,
+            'value' => $value,
+            'reference' => $reference,
+        ];
+
+        if (isset($storeKey)) {
+            $stackItem['storeKey'] = $storeKey;
+        }
+
+        if (isset($onlyIf)) {
+            $stackItem['onlyIf'] = $onlyIf;
+        }
+
+        if (isset($onlyIfNot)) {
+            $stackItem['onlyIfNot'] = $onlyIfNot;
+        }
+
+        return $stackItem;
+    }
+
+    /**
+     * Pop the last entry from the stack.
+     *
+     * @return mixed
+     */
+    public function pop()
+    {
+        if ($this->count > 0) {
+            return $this->stack[--$this->count];
+        }
+
+        return null;
+    }
+
+    /**
+     * Return an entry from the stack without removing it.
+     *
+     * @param int $n number indicating how far back in the stack we want to look
+     *
+     * @return mixed
+     */
+    public function last($n = 1)
+    {
+        if ($this->count - $n < 0) {
+            return null;
+        }
+
+        return $this->stack[$this->count - $n];
+    }
+
+    /**
+     * Clear the stack.
+     */
+    public function clear()
+    {
+        $this->stack = [];
+        $this->count = 0;
+    }
+
+    public function __toString()
+    {
+        $str = 'Stack: ';
+        foreach ($this->stack as $index => $item) {
+            if ($index > $this->count - 1) {
+                break;
+            }
+            $value = $item['value'] ?? 'no value';
+            while (is_array($value)) {
+                $value = array_pop($value);
+            }
+            $str .= $value . ' |> ';
+        }
+
+        return $str;
+    }
+}

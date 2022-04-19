@@ -1,64 +1,122 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\GamesConfiguration;
+
+class GamesNumberAffixConfiguration extends \Google\Model
+{
+  protected $fewType = LocalizedStringBundle::class;
+  protected $fewDataType = '';
+  protected $manyType = LocalizedStringBundle::class;
+  protected $manyDataType = '';
+  protected $oneType = LocalizedStringBundle::class;
+  protected $oneDataType = '';
+  protected $otherType = LocalizedStringBundle::class;
+  protected $otherDataType = '';
+  protected $twoType = LocalizedStringBundle::class;
+  protected $twoDataType = '';
+  protected $zeroType = LocalizedStringBundle::class;
+  protected $zeroDataType = '';
+
+  /**
+   * @param LocalizedStringBundle
+   */
+  public function setFew(LocalizedStringBundle $few)
+  {
+    $this->few = $few;
+  }
+  /**
+   * @return LocalizedStringBundle
+   */
+  public function getFew()
+  {
+    return $this->few;
+  }
+  /**
+   * @param LocalizedStringBundle
+   */
+  public function setMany(LocalizedStringBundle $many)
+  {
+    $this->many = $many;
+  }
+  /**
+   * @return LocalizedStringBundle
+   */
+  public function getMany()
+  {
+    return $this->many;
+  }
+  /**
+   * @param LocalizedStringBundle
+   */
+  public function setOne(LocalizedStringBundle $one)
+  {
+    $this->one = $one;
+  }
+  /**
+   * @return LocalizedStringBundle
+   */
+  public function getOne()
+  {
+    return $this->one;
+  }
+  /**
+   * @param LocalizedStringBundle
+   */
+  public function setOther(LocalizedStringBundle $other)
+  {
+    $this->other = $other;
+  }
+  /**
+   * @return LocalizedStringBundle
+   */
+  public function getOther()
+  {
+    return $this->other;
+  }
+  /**
+   * @param LocalizedStringBundle
+   */
+  public function setTwo(LocalizedStringBundle $two)
+  {
+    $this->two = $two;
+  }
+  /**
+   * @return LocalizedStringBundle
+   */
+  public function getTwo()
+  {
+    return $this->two;
+  }
+  /**
+   * @param LocalizedStringBundle
+   */
+  public function setZero(LocalizedStringBundle $zero)
+  {
+    $this->zero = $zero;
+  }
+  /**
+   * @return LocalizedStringBundle
+   */
+  public function getZero()
+  {
+    return $this->zero;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GamesNumberAffixConfiguration::class, 'Google_Service_GamesConfiguration_GamesNumberAffixConfiguration');

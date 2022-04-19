@@ -1,62 +1,83 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-QFfbX3ycGe+js9jEbY2wyJSImHKprwpgg8QH
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DataLabeling;
+
+class GoogleCloudDatalabelingV1beta1LabelTextRequest extends \Google\Model
+{
+  protected $basicConfigType = GoogleCloudDatalabelingV1beta1HumanAnnotationConfig::class;
+  protected $basicConfigDataType = '';
+  public $feature;
+  protected $textClassificationConfigType = GoogleCloudDatalabelingV1beta1TextClassificationConfig::class;
+  protected $textClassificationConfigDataType = '';
+  protected $textEntityExtractionConfigType = GoogleCloudDatalabelingV1beta1TextEntityExtractionConfig::class;
+  protected $textEntityExtractionConfigDataType = '';
+
+  /**
+   * @param GoogleCloudDatalabelingV1beta1HumanAnnotationConfig
+   */
+  public function setBasicConfig(GoogleCloudDatalabelingV1beta1HumanAnnotationConfig $basicConfig)
+  {
+    $this->basicConfig = $basicConfig;
+  }
+  /**
+   * @return GoogleCloudDatalabelingV1beta1HumanAnnotationConfig
+   */
+  public function getBasicConfig()
+  {
+    return $this->basicConfig;
+  }
+  public function setFeature($feature)
+  {
+    $this->feature = $feature;
+  }
+  public function getFeature()
+  {
+    return $this->feature;
+  }
+  /**
+   * @param GoogleCloudDatalabelingV1beta1TextClassificationConfig
+   */
+  public function setTextClassificationConfig(GoogleCloudDatalabelingV1beta1TextClassificationConfig $textClassificationConfig)
+  {
+    $this->textClassificationConfig = $textClassificationConfig;
+  }
+  /**
+   * @return GoogleCloudDatalabelingV1beta1TextClassificationConfig
+   */
+  public function getTextClassificationConfig()
+  {
+    return $this->textClassificationConfig;
+  }
+  /**
+   * @param GoogleCloudDatalabelingV1beta1TextEntityExtractionConfig
+   */
+  public function setTextEntityExtractionConfig(GoogleCloudDatalabelingV1beta1TextEntityExtractionConfig $textEntityExtractionConfig)
+  {
+    $this->textEntityExtractionConfig = $textEntityExtractionConfig;
+  }
+  /**
+   * @return GoogleCloudDatalabelingV1beta1TextEntityExtractionConfig
+   */
+  public function getTextEntityExtractionConfig()
+  {
+    return $this->textEntityExtractionConfig;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudDatalabelingV1beta1LabelTextRequest::class, 'Google_Service_DataLabeling_GoogleCloudDatalabelingV1beta1LabelTextRequest');

@@ -1,127 +1,222 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+namespace GuzzleHttp\Psr7;
+
+use Psr\Http\Message\UriInterface;
+
+/**
+ * Resolves a URI reference in the context of a base URI and the opposite way.
+ *
+ * @author Tobias Schultze
+ *
+ * @link https://tools.ietf.org/html/rfc3986#section-5
+ */
+final class UriResolver
+{
+    /**
+     * Removes dot segments from a path and returns the new path.
+     *
+     * @param string $path
+     *
+     * @return string
+     *
+     * @link http://tools.ietf.org/html/rfc3986#section-5.2.4
+     */
+    public static function removeDotSegments($path)
+    {
+        if ($path === '' || $path === '/') {
+            return $path;
+        }
+
+        $results = [];
+        $segments = explode('/', $path);
+        foreach ($segments as $segment) {
+            if ($segment === '..') {
+                array_pop($results);
+            } elseif ($segment !== '.') {
+                $results[] = $segment;
+            }
+        }
+
+        $newPath = implode('/', $results);
+
+        if ($path[0] === '/' && (!isset($newPath[0]) || $newPath[0] !== '/')) {
+            // Re-add the leading slash if necessary for cases like "/.."
+            $newPath = '/' . $newPath;
+        } elseif ($newPath !== '' && ($segment === '.' || $segment === '..')) {
+            // Add the trailing slash if necessary
+            // If newPath is not empty, then $segment must be set and is the last segment from the foreach
+            $newPath .= '/';
+        }
+
+        return $newPath;
+    }
+
+    /**
+     * Converts the relative URI into a new URI that is resolved against the base URI.
+     *
+     * @param UriInterface $base Base URI
+     * @param UriInterface $rel  Relative URI
+     *
+     * @return UriInterface
+     *
+     * @link http://tools.ietf.org/html/rfc3986#section-5.2
+     */
+    public static function resolve(UriInterface $base, UriInterface $rel)
+    {
+        if ((string) $rel === '') {
+            // we can simply return the same base URI instance for this same-document reference
+            return $base;
+        }
+
+        if ($rel->getScheme() != '') {
+            return $rel->withPath(self::removeDotSegments($rel->getPath()));
+        }
+
+        if ($rel->getAuthority() != '') {
+            $targetAuthority = $rel->getAuthority();
+            $targetPath = self::removeDotSegments($rel->getPath());
+            $targetQuery = $rel->getQuery();
+        } else {
+            $targetAuthority = $base->getAuthority();
+            if ($rel->getPath() === '') {
+                $targetPath = $base->getPath();
+                $targetQuery = $rel->getQuery() != '' ? $rel->getQuery() : $base->getQuery();
+            } else {
+                if ($rel->getPath()[0] === '/') {
+                    $targetPath = $rel->getPath();
+                } else {
+                    if ($targetAuthority != '' && $base->getPath() === '') {
+                        $targetPath = '/' . $rel->getPath();
+                    } else {
+                        $lastSlashPos = strrpos($base->getPath(), '/');
+                        if ($lastSlashPos === false) {
+                            $targetPath = $rel->getPath();
+                        } else {
+                            $targetPath = substr($base->getPath(), 0, $lastSlashPos + 1) . $rel->getPath();
+                        }
+                    }
+                }
+                $targetPath = self::removeDotSegments($targetPath);
+                $targetQuery = $rel->getQuery();
+            }
+        }
+
+        return new Uri(Uri::composeComponents(
+            $base->getScheme(),
+            $targetAuthority,
+            $targetPath,
+            $targetQuery,
+            $rel->getFragment()
+        ));
+    }
+
+    /**
+     * Returns the target URI as a relative reference from the base URI.
+     *
+     * This method is the counterpart to resolve():
+     *
+     *    (string) $target === (string) UriResolver::resolve($base, UriResolver::relativize($base, $target))
+     *
+     * One use-case is to use the current request URI as base URI and then generate relative links in your documents
+     * to reduce the document size or offer self-contained downloadable document archives.
+     *
+     *    $base = new Uri('http://example.com/a/b/');
+     *    echo UriResolver::relativize($base, new Uri('http://example.com/a/b/c'));  // prints 'c'.
+     *    echo UriResolver::relativize($base, new Uri('http://example.com/a/x/y'));  // prints '../x/y'.
+     *    echo UriResolver::relativize($base, new Uri('http://example.com/a/b/?q')); // prints '?q'.
+     *    echo UriResolver::relativize($base, new Uri('http://example.org/a/b/'));   // prints '//example.org/a/b/'.
+     *
+     * This method also accepts a target that is already relative and will try to relativize it further. Only a
+     * relative-path reference will be returned as-is.
+     *
+     *    echo UriResolver::relativize($base, new Uri('/a/b/c'));  // prints 'c' as well
+     *
+     * @param UriInterface $base   Base URI
+     * @param UriInterface $target Target URI
+     *
+     * @return UriInterface The relative URI reference
+     */
+    public static function relativize(UriInterface $base, UriInterface $target)
+    {
+        if ($target->getScheme() !== '' &&
+            ($base->getScheme() !== $target->getScheme() || $target->getAuthority() === '' && $base->getAuthority() !== '')
+        ) {
+            return $target;
+        }
+
+        if (Uri::isRelativePathReference($target)) {
+            // As the target is already highly relative we return it as-is. It would be possible to resolve
+            // the target with `$target = self::resolve($base, $target);` and then try make it more relative
+            // by removing a duplicate query. But let's not do that automatically.
+            return $target;
+        }
+
+        if ($target->getAuthority() !== '' && $base->getAuthority() !== $target->getAuthority()) {
+            return $target->withScheme('');
+        }
+
+        // We must remove the path before removing the authority because if the path starts with two slashes, the URI
+        // would turn invalid. And we also cannot set a relative path before removing the authority, as that is also
+        // invalid.
+        $emptyPathUri = $target->withScheme('')->withPath('')->withUserInfo('')->withPort(null)->withHost('');
+
+        if ($base->getPath() !== $target->getPath()) {
+            return $emptyPathUri->withPath(self::getRelativePath($base, $target));
+        }
+
+        if ($base->getQuery() === $target->getQuery()) {
+            // Only the target fragment is left. And it must be returned even if base and target fragment are the same.
+            return $emptyPathUri->withQuery('');
+        }
+
+        // If the base URI has a query but the target has none, we cannot return an empty path reference as it would
+        // inherit the base query component when resolving.
+        if ($target->getQuery() === '') {
+            $segments = explode('/', $target->getPath());
+            $lastSegment = end($segments);
+
+            return $emptyPathUri->withPath($lastSegment === '' ? './' : $lastSegment);
+        }
+
+        return $emptyPathUri;
+    }
+
+    private static function getRelativePath(UriInterface $base, UriInterface $target)
+    {
+        $sourceSegments = explode('/', $base->getPath());
+        $targetSegments = explode('/', $target->getPath());
+        array_pop($sourceSegments);
+        $targetLastSegment = array_pop($targetSegments);
+        foreach ($sourceSegments as $i => $segment) {
+            if (isset($targetSegments[$i]) && $segment === $targetSegments[$i]) {
+                unset($sourceSegments[$i], $targetSegments[$i]);
+            } else {
+                break;
+            }
+        }
+        $targetSegments[] = $targetLastSegment;
+        $relativePath = str_repeat('../', count($sourceSegments)) . implode('/', $targetSegments);
+
+        // A reference to am empty last segment or an empty first sub-segment must be prefixed with "./".
+        // This also applies to a segment with a colon character (e.g., "file:colon") that cannot be used
+        // as the first segment of a relative-path reference, as it would be mistaken for a scheme name.
+        if ('' === $relativePath || false !== strpos(explode('/', $relativePath, 2)[0], ':')) {
+            $relativePath = "./$relativePath";
+        } elseif ('/' === $relativePath[0]) {
+            if ($base->getAuthority() != '' && $base->getPath() === '') {
+                // In this case an extra slash is added by resolve() automatically. So we must not add one here.
+                $relativePath = ".$relativePath";
+            } else {
+                $relativePath = "./$relativePath";
+            }
+        }
+
+        return $relativePath;
+    }
+
+    private function __construct()
+    {
+        // cannot be instantiated
+    }
+}

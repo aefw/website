@@ -1,70 +1,151 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-A9i91FIX6M8Yam==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudResourceManager\Resource;
+
+use Google\Service\CloudResourceManager\GetIamPolicyRequest;
+use Google\Service\CloudResourceManager\Organization;
+use Google\Service\CloudResourceManager\Policy;
+use Google\Service\CloudResourceManager\SearchOrganizationsResponse;
+use Google\Service\CloudResourceManager\SetIamPolicyRequest;
+use Google\Service\CloudResourceManager\TestIamPermissionsRequest;
+use Google\Service\CloudResourceManager\TestIamPermissionsResponse;
+
+/**
+ * The "organizations" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $cloudresourcemanagerService = new Google\Service\CloudResourceManager(...);
+ *   $organizations = $cloudresourcemanagerService->organizations;
+ *  </code>
+ */
+class Organizations extends \Google\Service\Resource
+{
+  /**
+   * Fetches an organization resource identified by the specified resource name.
+   * (organizations.get)
+   *
+   * @param string $name Required. The resource name of the Organization to fetch.
+   * This is the organization's relative path in the API, formatted as
+   * "organizations/[organizationId]". For example, "organizations/1234".
+   * @param array $optParams Optional parameters.
+   * @return Organization
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Organization::class);
+  }
+  /**
+   * Gets the access control policy for an organization resource. The policy may
+   * be empty if no such policy or resource exists. The `resource` field should be
+   * the organization's resource name, for example: "organizations/123".
+   * Authorization requires the IAM permission
+   * `resourcemanager.organizations.getIamPolicy` on the specified organization.
+   * (organizations.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param GetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function getIamPolicy($resource, GetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Searches organization resources that are visible to the user and satisfy the
+   * specified filter. This method returns organizations in an unspecified order.
+   * New organizations do not necessarily appear at the end of the results, and
+   * may take a small amount of time to appear. Search will only return
+   * organizations on which the user has the permission
+   * `resourcemanager.organizations.get` (organizations.search)
+   *
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Optional. The maximum number of organizations to
+   * return in the response. If unspecified, server picks an appropriate default.
+   * @opt_param string pageToken Optional. A pagination token returned from a
+   * previous call to `SearchOrganizations` that indicates from where listing
+   * should continue.
+   * @opt_param string query Optional. An optional query string used to filter the
+   * Organizations to return in the response. Query rules are case-insensitive. |
+   * Field | Description |
+   * |------------------|--------------------------------------------| |
+   * directoryCustomerId, owner.directoryCustomerId | Filters by directory
+   * customer id. | | domain | Filters by domain. | Organizations may be queried
+   * by `directoryCustomerId` or by `domain`, where the domain is a G Suite
+   * domain, for example: * Query `directorycustomerid:123456789` returns
+   * Organization resources with `owner.directory_customer_id` equal to
+   * `123456789`. * Query `domain:google.com` returns Organization resources
+   * corresponding to the domain `google.com`.
+   * @return SearchOrganizationsResponse
+   */
+  public function search($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('search', [$params], SearchOrganizationsResponse::class);
+  }
+  /**
+   * Sets the access control policy on an organization resource. Replaces any
+   * existing policy. The `resource` field should be the organization's resource
+   * name, for example: "organizations/123". Authorization requires the IAM
+   * permission `resourcemanager.organizations.setIamPolicy` on the specified
+   * organization. (organizations.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Returns the permissions that a caller has on the specified organization. The
+   * `resource` field should be the organization's resource name, for example:
+   * "organizations/123". There are no permissions required for making this API
+   * call. (organizations.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Organizations::class, 'Google_Service_CloudResourceManager_Resource_Organizations');

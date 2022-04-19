@@ -1,101 +1,192 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-50==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute;
+
+class Commitment extends \Google\Collection
+{
+  protected $collection_key = 'resources';
+  public $category;
+  public $creationTimestamp;
+  public $description;
+  public $endTimestamp;
+  public $id;
+  public $kind;
+  protected $licenseResourceType = LicenseResourceCommitment::class;
+  protected $licenseResourceDataType = '';
+  public $name;
+  public $plan;
+  public $region;
+  protected $reservationsType = Reservation::class;
+  protected $reservationsDataType = 'array';
+  protected $resourcesType = ResourceCommitment::class;
+  protected $resourcesDataType = 'array';
+  public $selfLink;
+  public $startTimestamp;
+  public $status;
+  public $statusMessage;
+
+  public function setCategory($category)
+  {
+    $this->category = $category;
+  }
+  public function getCategory()
+  {
+    return $this->category;
+  }
+  public function setCreationTimestamp($creationTimestamp)
+  {
+    $this->creationTimestamp = $creationTimestamp;
+  }
+  public function getCreationTimestamp()
+  {
+    return $this->creationTimestamp;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setEndTimestamp($endTimestamp)
+  {
+    $this->endTimestamp = $endTimestamp;
+  }
+  public function getEndTimestamp()
+  {
+    return $this->endTimestamp;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  /**
+   * @param LicenseResourceCommitment
+   */
+  public function setLicenseResource(LicenseResourceCommitment $licenseResource)
+  {
+    $this->licenseResource = $licenseResource;
+  }
+  /**
+   * @return LicenseResourceCommitment
+   */
+  public function getLicenseResource()
+  {
+    return $this->licenseResource;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setPlan($plan)
+  {
+    $this->plan = $plan;
+  }
+  public function getPlan()
+  {
+    return $this->plan;
+  }
+  public function setRegion($region)
+  {
+    $this->region = $region;
+  }
+  public function getRegion()
+  {
+    return $this->region;
+  }
+  /**
+   * @param Reservation[]
+   */
+  public function setReservations($reservations)
+  {
+    $this->reservations = $reservations;
+  }
+  /**
+   * @return Reservation[]
+   */
+  public function getReservations()
+  {
+    return $this->reservations;
+  }
+  /**
+   * @param ResourceCommitment[]
+   */
+  public function setResources($resources)
+  {
+    $this->resources = $resources;
+  }
+  /**
+   * @return ResourceCommitment[]
+   */
+  public function getResources()
+  {
+    return $this->resources;
+  }
+  public function setSelfLink($selfLink)
+  {
+    $this->selfLink = $selfLink;
+  }
+  public function getSelfLink()
+  {
+    return $this->selfLink;
+  }
+  public function setStartTimestamp($startTimestamp)
+  {
+    $this->startTimestamp = $startTimestamp;
+  }
+  public function getStartTimestamp()
+  {
+    return $this->startTimestamp;
+  }
+  public function setStatus($status)
+  {
+    $this->status = $status;
+  }
+  public function getStatus()
+  {
+    return $this->status;
+  }
+  public function setStatusMessage($statusMessage)
+  {
+    $this->statusMessage = $statusMessage;
+  }
+  public function getStatusMessage()
+  {
+    return $this->statusMessage;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Commitment::class, 'Google_Service_Compute_Commitment');

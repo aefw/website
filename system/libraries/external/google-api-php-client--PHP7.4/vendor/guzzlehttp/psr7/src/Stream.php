@@ -1,152 +1,270 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+namespace GuzzleHttp\Psr7;
+
+use Psr\Http\Message\StreamInterface;
+
+/**
+ * PHP stream implementation.
+ *
+ * @var $stream
+ */
+class Stream implements StreamInterface
+{
+    /**
+     * Resource modes.
+     *
+     * @var string
+     *
+     * @see http://php.net/manual/function.fopen.php
+     * @see http://php.net/manual/en/function.gzopen.php
+     */
+    const READABLE_MODES = '/r|a\+|ab\+|w\+|wb\+|x\+|xb\+|c\+|cb\+/';
+    const WRITABLE_MODES = '/a|w|r\+|rb\+|rw|x|c/';
+
+    private $stream;
+    private $size;
+    private $seekable;
+    private $readable;
+    private $writable;
+    private $uri;
+    private $customMetadata;
+
+    /**
+     * This constructor accepts an associative array of options.
+     *
+     * - size: (int) If a read stream would otherwise have an indeterminate
+     *   size, but the size is known due to foreknowledge, then you can
+     *   provide that size, in bytes.
+     * - metadata: (array) Any additional metadata to return when the metadata
+     *   of the stream is accessed.
+     *
+     * @param resource $stream  Stream resource to wrap.
+     * @param array    $options Associative array of options.
+     *
+     * @throws \InvalidArgumentException if the stream is not a stream resource
+     */
+    public function __construct($stream, $options = [])
+    {
+        if (!is_resource($stream)) {
+            throw new \InvalidArgumentException('Stream must be a resource');
+        }
+
+        if (isset($options['size'])) {
+            $this->size = $options['size'];
+        }
+
+        $this->customMetadata = isset($options['metadata'])
+            ? $options['metadata']
+            : [];
+
+        $this->stream = $stream;
+        $meta = stream_get_meta_data($this->stream);
+        $this->seekable = $meta['seekable'];
+        $this->readable = (bool)preg_match(self::READABLE_MODES, $meta['mode']);
+        $this->writable = (bool)preg_match(self::WRITABLE_MODES, $meta['mode']);
+        $this->uri = $this->getMetadata('uri');
+    }
+
+    /**
+     * Closes the stream when the destructed
+     */
+    public function __destruct()
+    {
+        $this->close();
+    }
+
+    public function __toString()
+    {
+        try {
+            if ($this->isSeekable()) {
+                $this->seek(0);
+            }
+            return $this->getContents();
+        } catch (\Exception $e) {
+            return '';
+        }
+    }
+
+    public function getContents()
+    {
+        if (!isset($this->stream)) {
+            throw new \RuntimeException('Stream is detached');
+        }
+
+        $contents = stream_get_contents($this->stream);
+
+        if ($contents === false) {
+            throw new \RuntimeException('Unable to read stream contents');
+        }
+
+        return $contents;
+    }
+
+    public function close()
+    {
+        if (isset($this->stream)) {
+            if (is_resource($this->stream)) {
+                fclose($this->stream);
+            }
+            $this->detach();
+        }
+    }
+
+    public function detach()
+    {
+        if (!isset($this->stream)) {
+            return null;
+        }
+
+        $result = $this->stream;
+        unset($this->stream);
+        $this->size = $this->uri = null;
+        $this->readable = $this->writable = $this->seekable = false;
+
+        return $result;
+    }
+
+    public function getSize()
+    {
+        if ($this->size !== null) {
+            return $this->size;
+        }
+
+        if (!isset($this->stream)) {
+            return null;
+        }
+
+        // Clear the stat cache if the stream has a URI
+        if ($this->uri) {
+            clearstatcache(true, $this->uri);
+        }
+
+        $stats = fstat($this->stream);
+        if (isset($stats['size'])) {
+            $this->size = $stats['size'];
+            return $this->size;
+        }
+
+        return null;
+    }
+
+    public function isReadable()
+    {
+        return $this->readable;
+    }
+
+    public function isWritable()
+    {
+        return $this->writable;
+    }
+
+    public function isSeekable()
+    {
+        return $this->seekable;
+    }
+
+    public function eof()
+    {
+        if (!isset($this->stream)) {
+            throw new \RuntimeException('Stream is detached');
+        }
+
+        return feof($this->stream);
+    }
+
+    public function tell()
+    {
+        if (!isset($this->stream)) {
+            throw new \RuntimeException('Stream is detached');
+        }
+
+        $result = ftell($this->stream);
+
+        if ($result === false) {
+            throw new \RuntimeException('Unable to determine stream position');
+        }
+
+        return $result;
+    }
+
+    public function rewind()
+    {
+        $this->seek(0);
+    }
+
+    public function seek($offset, $whence = SEEK_SET)
+    {
+        $whence = (int) $whence;
+
+        if (!isset($this->stream)) {
+            throw new \RuntimeException('Stream is detached');
+        }
+        if (!$this->seekable) {
+            throw new \RuntimeException('Stream is not seekable');
+        }
+        if (fseek($this->stream, $offset, $whence) === -1) {
+            throw new \RuntimeException('Unable to seek to stream position '
+                . $offset . ' with whence ' . var_export($whence, true));
+        }
+    }
+
+    public function read($length)
+    {
+        if (!isset($this->stream)) {
+            throw new \RuntimeException('Stream is detached');
+        }
+        if (!$this->readable) {
+            throw new \RuntimeException('Cannot read from non-readable stream');
+        }
+        if ($length < 0) {
+            throw new \RuntimeException('Length parameter cannot be negative');
+        }
+
+        if (0 === $length) {
+            return '';
+        }
+
+        $string = fread($this->stream, $length);
+        if (false === $string) {
+            throw new \RuntimeException('Unable to read from stream');
+        }
+
+        return $string;
+    }
+
+    public function write($string)
+    {
+        if (!isset($this->stream)) {
+            throw new \RuntimeException('Stream is detached');
+        }
+        if (!$this->writable) {
+            throw new \RuntimeException('Cannot write to a non-writable stream');
+        }
+
+        // We can't know the size after writing anything
+        $this->size = null;
+        $result = fwrite($this->stream, $string);
+
+        if ($result === false) {
+            throw new \RuntimeException('Unable to write to stream');
+        }
+
+        return $result;
+    }
+
+    public function getMetadata($key = null)
+    {
+        if (!isset($this->stream)) {
+            return $key ? null : [];
+        } elseif (!$key) {
+            return $this->customMetadata + stream_get_meta_data($this->stream);
+        } elseif (isset($this->customMetadata[$key])) {
+            return $this->customMetadata[$key];
+        }
+
+        $meta = stream_get_meta_data($this->stream);
+
+        return isset($meta[$key]) ? $meta[$key] : null;
+    }
+}

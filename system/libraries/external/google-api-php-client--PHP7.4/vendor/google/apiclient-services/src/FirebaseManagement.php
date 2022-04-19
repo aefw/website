@@ -1,89 +1,548 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for FirebaseManagement (v1beta1).
+ *
+ * <p>
+ * The Firebase Management API enables programmatic setup and management of
+ * Firebase projects, including a project's Firebase resources and Firebase
+ * apps.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://firebase.google.com" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class FirebaseManagement extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+  /** View your data across Google Cloud Platform services. */
+  const CLOUD_PLATFORM_READ_ONLY =
+      "https://www.googleapis.com/auth/cloud-platform.read-only";
+  /** View and administer all your Firebase data and settings. */
+  const FIREBASE =
+      "https://www.googleapis.com/auth/firebase";
+  /** View all your Firebase data and settings. */
+  const FIREBASE_READONLY =
+      "https://www.googleapis.com/auth/firebase.readonly";
+
+  public $availableProjects;
+  public $operations;
+  public $projects;
+  public $projects_androidApps;
+  public $projects_androidApps_sha;
+  public $projects_availableLocations;
+  public $projects_defaultLocation;
+  public $projects_iosApps;
+  public $projects_webApps;
+
+  /**
+   * Constructs the internal representation of the FirebaseManagement service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://firebase.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1beta1';
+    $this->serviceName = 'firebase';
+
+    $this->availableProjects = new FirebaseManagement\Resource\AvailableProjects(
+        $this,
+        $this->serviceName,
+        'availableProjects',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1beta1/availableProjects',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->operations = new FirebaseManagement\Resource\Operations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects = new FirebaseManagement\Resource\Projects(
+        $this,
+        $this->serviceName,
+        'projects',
+        [
+          'methods' => [
+            'addFirebase' => [
+              'path' => 'v1beta1/{+project}:addFirebase',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'addGoogleAnalytics' => [
+              'path' => 'v1beta1/{+parent}:addGoogleAnalytics',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getAdminSdkConfig' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getAnalyticsDetails' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1beta1/projects',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'removeAnalytics' => [
+              'path' => 'v1beta1/{+parent}:removeAnalytics',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'searchApps' => [
+              'path' => 'v1beta1/{+parent}:searchApps',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_androidApps = new FirebaseManagement\Resource\ProjectsAndroidApps(
+        $this,
+        $this->serviceName,
+        'androidApps',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1beta1/{+parent}/androidApps',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getConfig' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1beta1/{+parent}/androidApps',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_androidApps_sha = new FirebaseManagement\Resource\ProjectsAndroidAppsSha(
+        $this,
+        $this->serviceName,
+        'sha',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1beta1/{+parent}/sha',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1beta1/{+parent}/sha',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_availableLocations = new FirebaseManagement\Resource\ProjectsAvailableLocations(
+        $this,
+        $this->serviceName,
+        'availableLocations',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1beta1/{+parent}/availableLocations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_defaultLocation = new FirebaseManagement\Resource\ProjectsDefaultLocation(
+        $this,
+        $this->serviceName,
+        'defaultLocation',
+        [
+          'methods' => [
+            'finalize' => [
+              'path' => 'v1beta1/{+parent}/defaultLocation:finalize',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_iosApps = new FirebaseManagement\Resource\ProjectsIosApps(
+        $this,
+        $this->serviceName,
+        'iosApps',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1beta1/{+parent}/iosApps',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getConfig' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1beta1/{+parent}/iosApps',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_webApps = new FirebaseManagement\Resource\ProjectsWebApps(
+        $this,
+        $this->serviceName,
+        'webApps',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1beta1/{+parent}/webApps',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getConfig' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1beta1/{+parent}/webApps',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1beta1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(FirebaseManagement::class, 'Google_Service_FirebaseManagement');

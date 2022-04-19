@@ -1,94 +1,311 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-XZRJL2Vk2XS3Jk+20k3V2C81m80BhKuAo4y=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Cloudchannel\Resource;
+
+use Google\Service\Cloudchannel\GoogleCloudChannelV1Customer;
+use Google\Service\Cloudchannel\GoogleCloudChannelV1ListCustomersResponse;
+use Google\Service\Cloudchannel\GoogleCloudChannelV1ListPurchasableOffersResponse;
+use Google\Service\Cloudchannel\GoogleCloudChannelV1ListPurchasableSkusResponse;
+use Google\Service\Cloudchannel\GoogleCloudChannelV1ProvisionCloudIdentityRequest;
+use Google\Service\Cloudchannel\GoogleCloudChannelV1TransferEntitlementsRequest;
+use Google\Service\Cloudchannel\GoogleCloudChannelV1TransferEntitlementsToGoogleRequest;
+use Google\Service\Cloudchannel\GoogleLongrunningOperation;
+use Google\Service\Cloudchannel\GoogleProtobufEmpty;
+
+/**
+ * The "customers" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $cloudchannelService = new Google\Service\Cloudchannel(...);
+ *   $customers = $cloudchannelService->customers;
+ *  </code>
+ */
+class AccountsCustomers extends \Google\Service\Resource
+{
+  /**
+   * Creates a new Customer resource under the reseller or distributor account.
+   * Possible error codes: * PERMISSION_DENIED: The reseller account making the
+   * request is different from the reseller account in the API request. *
+   * INVALID_ARGUMENT: * Required request parameters are missing or invalid. *
+   * Domain field value doesn't match the primary email domain. Return value: The
+   * newly created Customer resource. (customers.create)
+   *
+   * @param string $parent Required. The resource name of reseller account in
+   * which to create the customer. Parent uses the format: accounts/{account_id}
+   * @param GoogleCloudChannelV1Customer $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudChannelV1Customer
+   */
+  public function create($parent, GoogleCloudChannelV1Customer $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleCloudChannelV1Customer::class);
+  }
+  /**
+   * Deletes the given Customer permanently. Possible error codes: *
+   * PERMISSION_DENIED: The account making the request does not own this customer.
+   * * INVALID_ARGUMENT: Required request parameters are missing or invalid. *
+   * FAILED_PRECONDITION: The customer has existing entitlements. * NOT_FOUND: No
+   * Customer resource found for the name in the request. (customers.delete)
+   *
+   * @param string $name Required. The resource name of the customer to delete.
+   * @param array $optParams Optional parameters.
+   * @return GoogleProtobufEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
+  }
+  /**
+   * Returns the requested Customer resource. Possible error codes: *
+   * PERMISSION_DENIED: The reseller account making the request is different from
+   * the reseller account in the API request. * INVALID_ARGUMENT: Required request
+   * parameters are missing or invalid. * NOT_FOUND: The customer resource doesn't
+   * exist. Usually the result of an invalid name parameter. Return value: The
+   * Customer resource. (customers.get)
+   *
+   * @param string $name Required. The resource name of the customer to retrieve.
+   * Name uses the format: accounts/{account_id}/customers/{customer_id}
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudChannelV1Customer
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudChannelV1Customer::class);
+  }
+  /**
+   * List Customers. Possible error codes: * PERMISSION_DENIED: The reseller
+   * account making the request is different from the reseller account in the API
+   * request. * INVALID_ARGUMENT: Required request parameters are missing or
+   * invalid. Return value: List of Customers, or an empty list if there are no
+   * customers. (customers.listAccountsCustomers)
+   *
+   * @param string $parent Required. The resource name of the reseller account to
+   * list customers from. Parent uses the format: accounts/{account_id}.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Optional. The maximum number of customers to return.
+   * The service may return fewer than this value. If unspecified, returns at most
+   * 10 customers. The maximum value is 50.
+   * @opt_param string pageToken Optional. A token identifying a page of results
+   * other than the first page. Obtained through
+   * ListCustomersResponse.next_page_token of the previous
+   * CloudChannelService.ListCustomers call.
+   * @return GoogleCloudChannelV1ListCustomersResponse
+   */
+  public function listAccountsCustomers($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleCloudChannelV1ListCustomersResponse::class);
+  }
+  /**
+   * Lists the following: * Offers that you can purchase for a customer. * Offers
+   * that you can change for an entitlement. Possible error codes: *
+   * PERMISSION_DENIED: The customer doesn't belong to the reseller *
+   * INVALID_ARGUMENT: Required request parameters are missing or invalid.
+   * (customers.listPurchasableOffers)
+   *
+   * @param string $customer Required. The resource name of the customer to list
+   * Offers for. Format: accounts/{account_id}/customers/{customer_id}.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string changeOfferPurchase.entitlement Required. Resource name of
+   * the entitlement. Format:
+   * accounts/{account_id}/customers/{customer_id}/entitlements/{entitlement_id}
+   * @opt_param string changeOfferPurchase.newSku Optional. Resource name of the
+   * new target SKU. Provide this SKU when upgrading or downgrading an
+   * entitlement. Format: products/{product_id}/skus/{sku_id}
+   * @opt_param string createEntitlementPurchase.sku Required. SKU that the result
+   * should be restricted to. Format: products/{product_id}/skus/{sku_id}.
+   * @opt_param string languageCode Optional. The BCP-47 language code. For
+   * example, "en-US". The response will localize in the corresponding language
+   * code, if specified. The default value is "en-US".
+   * @opt_param int pageSize Optional. Requested page size. Server might return
+   * fewer results than requested. If unspecified, returns at most 100 Offers. The
+   * maximum value is 1000; the server will coerce values above 1000.
+   * @opt_param string pageToken Optional. A token for a page of results other
+   * than the first page.
+   * @return GoogleCloudChannelV1ListPurchasableOffersResponse
+   */
+  public function listPurchasableOffers($customer, $optParams = [])
+  {
+    $params = ['customer' => $customer];
+    $params = array_merge($params, $optParams);
+    return $this->call('listPurchasableOffers', [$params], GoogleCloudChannelV1ListPurchasableOffersResponse::class);
+  }
+  /**
+   * Lists the following: * SKUs that you can purchase for a customer * SKUs that
+   * you can upgrade or downgrade for an entitlement. Possible error codes: *
+   * PERMISSION_DENIED: The customer doesn't belong to the reseller. *
+   * INVALID_ARGUMENT: Required request parameters are missing or invalid.
+   * (customers.listPurchasableSkus)
+   *
+   * @param string $customer Required. The resource name of the customer to list
+   * SKUs for. Format: accounts/{account_id}/customers/{customer_id}.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string changeOfferPurchase.changeType Required. Change Type for
+   * the entitlement.
+   * @opt_param string changeOfferPurchase.entitlement Required. Resource name of
+   * the entitlement. Format:
+   * accounts/{account_id}/customers/{customer_id}/entitlements/{entitlement_id}
+   * @opt_param string createEntitlementPurchase.product Required. List SKUs
+   * belonging to this Product. Format: products/{product_id}. Supports products/-
+   * to retrieve SKUs for all products.
+   * @opt_param string languageCode Optional. The BCP-47 language code. For
+   * example, "en-US". The response will localize in the corresponding language
+   * code, if specified. The default value is "en-US".
+   * @opt_param int pageSize Optional. Requested page size. Server might return
+   * fewer results than requested. If unspecified, returns at most 100 SKUs. The
+   * maximum value is 1000; the server will coerce values above 1000.
+   * @opt_param string pageToken Optional. A token for a page of results other
+   * than the first page.
+   * @return GoogleCloudChannelV1ListPurchasableSkusResponse
+   */
+  public function listPurchasableSkus($customer, $optParams = [])
+  {
+    $params = ['customer' => $customer];
+    $params = array_merge($params, $optParams);
+    return $this->call('listPurchasableSkus', [$params], GoogleCloudChannelV1ListPurchasableSkusResponse::class);
+  }
+  /**
+   * Updates an existing Customer resource for the reseller or distributor.
+   * Possible error codes: * PERMISSION_DENIED: The reseller account making the
+   * request is different from the reseller account in the API request. *
+   * INVALID_ARGUMENT: Required request parameters are missing or invalid. *
+   * NOT_FOUND: No Customer resource found for the name in the request. Return
+   * value: The updated Customer resource. (customers.patch)
+   *
+   * @param string $name Output only. Resource name of the customer. Format:
+   * accounts/{account_id}/customers/{customer_id}
+   * @param GoogleCloudChannelV1Customer $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask The update mask that applies to the resource.
+   * Optional.
+   * @return GoogleCloudChannelV1Customer
+   */
+  public function patch($name, GoogleCloudChannelV1Customer $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], GoogleCloudChannelV1Customer::class);
+  }
+  /**
+   * Creates a Cloud Identity for the given customer using the customer's
+   * information, or the information provided here. Possible error codes: *
+   * PERMISSION_DENIED: The customer doesn't belong to the reseller. *
+   * INVALID_ARGUMENT: Required request parameters are missing or invalid. *
+   * NOT_FOUND: The customer was not found. * ALREADY_EXISTS: The customer's
+   * primary email already exists. Retry after changing the customer's primary
+   * contact email. * INTERNAL: Any non-user error related to a technical issue in
+   * the backend. Contact Cloud Channel support. * UNKNOWN: Any non-user error
+   * related to a technical issue in the backend. Contact Cloud Channel support.
+   * Return value: The ID of a long-running operation. To get the results of the
+   * operation, call the GetOperation method of CloudChannelOperationsService. The
+   * Operation metadata contains an instance of OperationMetadata.
+   * (customers.provisionCloudIdentity)
+   *
+   * @param string $customer Required. Resource name of the customer. Format:
+   * accounts/{account_id}/customers/{customer_id}
+   * @param GoogleCloudChannelV1ProvisionCloudIdentityRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function provisionCloudIdentity($customer, GoogleCloudChannelV1ProvisionCloudIdentityRequest $postBody, $optParams = [])
+  {
+    $params = ['customer' => $customer, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('provisionCloudIdentity', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Transfers customer entitlements to new reseller. Possible error codes: *
+   * PERMISSION_DENIED: The customer doesn't belong to the reseller. *
+   * INVALID_ARGUMENT: Required request parameters are missing or invalid. *
+   * NOT_FOUND: The customer or offer resource was not found. * ALREADY_EXISTS:
+   * The SKU was already transferred for the customer. * CONDITION_NOT_MET or
+   * FAILED_PRECONDITION: * The SKU requires domain verification to transfer, but
+   * the domain is not verified. * An Add-On SKU (example, Vault or Drive) is
+   * missing the pre-requisite SKU (example, G Suite Basic). * (Developer accounts
+   * only) Reseller and resold domain must meet the following naming requirements:
+   * * Domain names must start with goog-test. * Domain names must include the
+   * reseller domain. * Specify all transferring entitlements. * INTERNAL: Any
+   * non-user error related to a technical issue in the backend. Contact Cloud
+   * Channel support. * UNKNOWN: Any non-user error related to a technical issue
+   * in the backend. Contact Cloud Channel support. Return value: The ID of a
+   * long-running operation. To get the results of the operation, call the
+   * GetOperation method of CloudChannelOperationsService. The Operation metadata
+   * will contain an instance of OperationMetadata.
+   * (customers.transferEntitlements)
+   *
+   * @param string $parent Required. The resource name of the reseller's customer
+   * account that will receive transferred entitlements. Parent uses the format:
+   * accounts/{account_id}/customers/{customer_id}
+   * @param GoogleCloudChannelV1TransferEntitlementsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function transferEntitlements($parent, GoogleCloudChannelV1TransferEntitlementsRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('transferEntitlements', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Transfers customer entitlements from their current reseller to Google.
+   * Possible error codes: * PERMISSION_DENIED: The customer doesn't belong to the
+   * reseller. * INVALID_ARGUMENT: Required request parameters are missing or
+   * invalid. * NOT_FOUND: The customer or offer resource was not found. *
+   * ALREADY_EXISTS: The SKU was already transferred for the customer. *
+   * CONDITION_NOT_MET or FAILED_PRECONDITION: * The SKU requires domain
+   * verification to transfer, but the domain is not verified. * An Add-On SKU
+   * (example, Vault or Drive) is missing the pre-requisite SKU (example, G Suite
+   * Basic). * (Developer accounts only) Reseller and resold domain must meet the
+   * following naming requirements: * Domain names must start with goog-test. *
+   * Domain names must include the reseller domain. * INTERNAL: Any non-user error
+   * related to a technical issue in the backend. Contact Cloud Channel support. *
+   * UNKNOWN: Any non-user error related to a technical issue in the backend.
+   * Contact Cloud Channel support. Return value: The ID of a long-running
+   * operation. To get the results of the operation, call the GetOperation method
+   * of CloudChannelOperationsService. The response will contain
+   * google.protobuf.Empty on success. The Operation metadata will contain an
+   * instance of OperationMetadata. (customers.transferEntitlementsToGoogle)
+   *
+   * @param string $parent Required. The resource name of the reseller's customer
+   * account where the entitlements transfer from. Parent uses the format:
+   * accounts/{account_id}/customers/{customer_id}
+   * @param GoogleCloudChannelV1TransferEntitlementsToGoogleRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function transferEntitlementsToGoogle($parent, GoogleCloudChannelV1TransferEntitlementsToGoogleRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('transferEntitlementsToGoogle', [$params], GoogleLongrunningOperation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(AccountsCustomers::class, 'Google_Service_Cloudchannel_Resource_AccountsCustomers');

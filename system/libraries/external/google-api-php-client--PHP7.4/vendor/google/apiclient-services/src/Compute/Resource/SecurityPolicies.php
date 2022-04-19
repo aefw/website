@@ -1,95 +1,319 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-v4aGV/8bAqCjhATNJ8eB
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute\Resource;
+
+use Google\Service\Compute\Operation;
+use Google\Service\Compute\SecurityPoliciesListPreconfiguredExpressionSetsResponse;
+use Google\Service\Compute\SecurityPolicy;
+use Google\Service\Compute\SecurityPolicyList;
+use Google\Service\Compute\SecurityPolicyRule;
+
+/**
+ * The "securityPolicies" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $computeService = new Google\Service\Compute(...);
+ *   $securityPolicies = $computeService->securityPolicies;
+ *  </code>
+ */
+class SecurityPolicies extends \Google\Service\Resource
+{
+  /**
+   * Inserts a rule into a security policy. (securityPolicies.addRule)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $securityPolicy Name of the security policy to update.
+   * @param SecurityPolicyRule $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function addRule($project, $securityPolicy, SecurityPolicyRule $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'securityPolicy' => $securityPolicy, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('addRule', [$params], Operation::class);
+  }
+  /**
+   * Deletes the specified policy. (securityPolicies.delete)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $securityPolicy Name of the security policy to delete.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function delete($project, $securityPolicy, $optParams = [])
+  {
+    $params = ['project' => $project, 'securityPolicy' => $securityPolicy];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * List all of the ordered rules present in a single specified policy.
+   * (securityPolicies.get)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $securityPolicy Name of the security policy to get.
+   * @param array $optParams Optional parameters.
+   * @return SecurityPolicy
+   */
+  public function get($project, $securityPolicy, $optParams = [])
+  {
+    $params = ['project' => $project, 'securityPolicy' => $securityPolicy];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], SecurityPolicy::class);
+  }
+  /**
+   * Gets a rule at the specified priority. (securityPolicies.getRule)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $securityPolicy Name of the security policy to which the
+   * queried rule belongs.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int priority The priority of the rule to get from the security
+   * policy.
+   * @return SecurityPolicyRule
+   */
+  public function getRule($project, $securityPolicy, $optParams = [])
+  {
+    $params = ['project' => $project, 'securityPolicy' => $securityPolicy];
+    $params = array_merge($params, $optParams);
+    return $this->call('getRule', [$params], SecurityPolicyRule::class);
+  }
+  /**
+   * Creates a new policy in the specified project using the data included in the
+   * request. (securityPolicies.insert)
+   *
+   * @param string $project Project ID for this request.
+   * @param SecurityPolicy $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function insert($project, SecurityPolicy $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Operation::class);
+  }
+  /**
+   * List all the policies that have been configured for the specified project.
+   * (securityPolicies.listSecurityPolicies)
+   *
+   * @param string $project Project ID for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return SecurityPolicyList
+   */
+  public function listSecurityPolicies($project, $optParams = [])
+  {
+    $params = ['project' => $project];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], SecurityPolicyList::class);
+  }
+  /**
+   * Gets the current list of preconfigured Web Application Firewall (WAF)
+   * expressions. (securityPolicies.listPreconfiguredExpressionSets)
+   *
+   * @param string $project Project ID for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return SecurityPoliciesListPreconfiguredExpressionSetsResponse
+   */
+  public function listPreconfiguredExpressionSets($project, $optParams = [])
+  {
+    $params = ['project' => $project];
+    $params = array_merge($params, $optParams);
+    return $this->call('listPreconfiguredExpressionSets', [$params], SecurityPoliciesListPreconfiguredExpressionSetsResponse::class);
+  }
+  /**
+   * Patches the specified policy with the data included in the request. This
+   * cannot be used to be update the rules in the policy. Please use the per rule
+   * methods like addRule, patchRule, and removeRule instead.
+   * (securityPolicies.patch)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $securityPolicy Name of the security policy to update.
+   * @param SecurityPolicy $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function patch($project, $securityPolicy, SecurityPolicy $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'securityPolicy' => $securityPolicy, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+  /**
+   * Patches a rule at the specified priority. (securityPolicies.patchRule)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $securityPolicy Name of the security policy to update.
+   * @param SecurityPolicyRule $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int priority The priority of the rule to patch.
+   * @return Operation
+   */
+  public function patchRule($project, $securityPolicy, SecurityPolicyRule $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'securityPolicy' => $securityPolicy, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patchRule', [$params], Operation::class);
+  }
+  /**
+   * Deletes a rule at the specified priority. (securityPolicies.removeRule)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $securityPolicy Name of the security policy to update.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int priority The priority of the rule to remove from the security
+   * policy.
+   * @return Operation
+   */
+  public function removeRule($project, $securityPolicy, $optParams = [])
+  {
+    $params = ['project' => $project, 'securityPolicy' => $securityPolicy];
+    $params = array_merge($params, $optParams);
+    return $this->call('removeRule', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(SecurityPolicies::class, 'Google_Service_Compute_Resource_SecurityPolicies');

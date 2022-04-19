@@ -1,97 +1,170 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-klluDR77SFx8REXnFZkfW+OuFjk/gN4Rq0==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\MyBusinessLodging;
+
+class ViewsFromUnit extends \Google\Model
+{
+  public $beachView;
+  public $beachViewException;
+  public $cityView;
+  public $cityViewException;
+  public $gardenView;
+  public $gardenViewException;
+  public $lakeView;
+  public $lakeViewException;
+  public $landmarkView;
+  public $landmarkViewException;
+  public $oceanView;
+  public $oceanViewException;
+  public $poolView;
+  public $poolViewException;
+  public $valleyView;
+  public $valleyViewException;
+
+  public function setBeachView($beachView)
+  {
+    $this->beachView = $beachView;
+  }
+  public function getBeachView()
+  {
+    return $this->beachView;
+  }
+  public function setBeachViewException($beachViewException)
+  {
+    $this->beachViewException = $beachViewException;
+  }
+  public function getBeachViewException()
+  {
+    return $this->beachViewException;
+  }
+  public function setCityView($cityView)
+  {
+    $this->cityView = $cityView;
+  }
+  public function getCityView()
+  {
+    return $this->cityView;
+  }
+  public function setCityViewException($cityViewException)
+  {
+    $this->cityViewException = $cityViewException;
+  }
+  public function getCityViewException()
+  {
+    return $this->cityViewException;
+  }
+  public function setGardenView($gardenView)
+  {
+    $this->gardenView = $gardenView;
+  }
+  public function getGardenView()
+  {
+    return $this->gardenView;
+  }
+  public function setGardenViewException($gardenViewException)
+  {
+    $this->gardenViewException = $gardenViewException;
+  }
+  public function getGardenViewException()
+  {
+    return $this->gardenViewException;
+  }
+  public function setLakeView($lakeView)
+  {
+    $this->lakeView = $lakeView;
+  }
+  public function getLakeView()
+  {
+    return $this->lakeView;
+  }
+  public function setLakeViewException($lakeViewException)
+  {
+    $this->lakeViewException = $lakeViewException;
+  }
+  public function getLakeViewException()
+  {
+    return $this->lakeViewException;
+  }
+  public function setLandmarkView($landmarkView)
+  {
+    $this->landmarkView = $landmarkView;
+  }
+  public function getLandmarkView()
+  {
+    return $this->landmarkView;
+  }
+  public function setLandmarkViewException($landmarkViewException)
+  {
+    $this->landmarkViewException = $landmarkViewException;
+  }
+  public function getLandmarkViewException()
+  {
+    return $this->landmarkViewException;
+  }
+  public function setOceanView($oceanView)
+  {
+    $this->oceanView = $oceanView;
+  }
+  public function getOceanView()
+  {
+    return $this->oceanView;
+  }
+  public function setOceanViewException($oceanViewException)
+  {
+    $this->oceanViewException = $oceanViewException;
+  }
+  public function getOceanViewException()
+  {
+    return $this->oceanViewException;
+  }
+  public function setPoolView($poolView)
+  {
+    $this->poolView = $poolView;
+  }
+  public function getPoolView()
+  {
+    return $this->poolView;
+  }
+  public function setPoolViewException($poolViewException)
+  {
+    $this->poolViewException = $poolViewException;
+  }
+  public function getPoolViewException()
+  {
+    return $this->poolViewException;
+  }
+  public function setValleyView($valleyView)
+  {
+    $this->valleyView = $valleyView;
+  }
+  public function getValleyView()
+  {
+    return $this->valleyView;
+  }
+  public function setValleyViewException($valleyViewException)
+  {
+    $this->valleyViewException = $valleyViewException;
+  }
+  public function getValleyViewException()
+  {
+    return $this->valleyViewException;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ViewsFromUnit::class, 'Google_Service_MyBusinessLodging_ViewsFromUnit');

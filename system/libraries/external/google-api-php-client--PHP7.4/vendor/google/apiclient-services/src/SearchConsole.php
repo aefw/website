@@ -1,66 +1,217 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-PWSYu84svPMz1AQzKF6RhV88aCC=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for SearchConsole (v1).
+ *
+ * <p>
+ * The Search Console API provides access to both Search Console data (verified
+ * users only) and to public information on an URL basis (anyone)</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://developers.google.com/webmaster-tools/search-console-api/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class SearchConsole extends \Google\Service
+{
+  /** View and manage Search Console data for your verified sites. */
+  const WEBMASTERS =
+      "https://www.googleapis.com/auth/webmasters";
+  /** View Search Console data for your verified sites. */
+  const WEBMASTERS_READONLY =
+      "https://www.googleapis.com/auth/webmasters.readonly";
+
+  public $searchanalytics;
+  public $sitemaps;
+  public $sites;
+  public $urlTestingTools_mobileFriendlyTest;
+
+  /**
+   * Constructs the internal representation of the SearchConsole service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://searchconsole.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'searchconsole';
+
+    $this->searchanalytics = new SearchConsole\Resource\Searchanalytics(
+        $this,
+        $this->serviceName,
+        'searchanalytics',
+        [
+          'methods' => [
+            'query' => [
+              'path' => 'webmasters/v3/sites/{siteUrl}/searchAnalytics/query',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'siteUrl' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->sitemaps = new SearchConsole\Resource\Sitemaps(
+        $this,
+        $this->serviceName,
+        'sitemaps',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'webmasters/v3/sites/{siteUrl}/sitemaps/{feedpath}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'siteUrl' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'feedpath' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'webmasters/v3/sites/{siteUrl}/sitemaps/{feedpath}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'siteUrl' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'feedpath' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'webmasters/v3/sites/{siteUrl}/sitemaps',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'siteUrl' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'sitemapIndex' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'submit' => [
+              'path' => 'webmasters/v3/sites/{siteUrl}/sitemaps/{feedpath}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'siteUrl' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'feedpath' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->sites = new SearchConsole\Resource\Sites(
+        $this,
+        $this->serviceName,
+        'sites',
+        [
+          'methods' => [
+            'add' => [
+              'path' => 'webmasters/v3/sites/{siteUrl}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'siteUrl' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'webmasters/v3/sites/{siteUrl}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'siteUrl' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'webmasters/v3/sites/{siteUrl}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'siteUrl' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'webmasters/v3/sites',
+              'httpMethod' => 'GET',
+              'parameters' => [],
+            ],
+          ]
+        ]
+    );
+    $this->urlTestingTools_mobileFriendlyTest = new SearchConsole\Resource\UrlTestingToolsMobileFriendlyTest(
+        $this,
+        $this->serviceName,
+        'mobileFriendlyTest',
+        [
+          'methods' => [
+            'run' => [
+              'path' => 'v1/urlTestingTools/mobileFriendlyTest:run',
+              'httpMethod' => 'POST',
+              'parameters' => [],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(SearchConsole::class, 'Google_Service_SearchConsole');

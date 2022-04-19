@@ -1,61 +1,109 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\PagespeedInsights;
+
+class Categories extends \Google\Model
+{
+  protected $internal_gapi_mappings = [
+        "bestPractices" => "best-practices",
+  ];
+  protected $accessibilityType = LighthouseCategoryV5::class;
+  protected $accessibilityDataType = '';
+  protected $bestPracticesType = LighthouseCategoryV5::class;
+  protected $bestPracticesDataType = '';
+  protected $performanceType = LighthouseCategoryV5::class;
+  protected $performanceDataType = '';
+  protected $pwaType = LighthouseCategoryV5::class;
+  protected $pwaDataType = '';
+  protected $seoType = LighthouseCategoryV5::class;
+  protected $seoDataType = '';
+
+  /**
+   * @param LighthouseCategoryV5
+   */
+  public function setAccessibility(LighthouseCategoryV5 $accessibility)
+  {
+    $this->accessibility = $accessibility;
+  }
+  /**
+   * @return LighthouseCategoryV5
+   */
+  public function getAccessibility()
+  {
+    return $this->accessibility;
+  }
+  /**
+   * @param LighthouseCategoryV5
+   */
+  public function setBestPractices(LighthouseCategoryV5 $bestPractices)
+  {
+    $this->bestPractices = $bestPractices;
+  }
+  /**
+   * @return LighthouseCategoryV5
+   */
+  public function getBestPractices()
+  {
+    return $this->bestPractices;
+  }
+  /**
+   * @param LighthouseCategoryV5
+   */
+  public function setPerformance(LighthouseCategoryV5 $performance)
+  {
+    $this->performance = $performance;
+  }
+  /**
+   * @return LighthouseCategoryV5
+   */
+  public function getPerformance()
+  {
+    return $this->performance;
+  }
+  /**
+   * @param LighthouseCategoryV5
+   */
+  public function setPwa(LighthouseCategoryV5 $pwa)
+  {
+    $this->pwa = $pwa;
+  }
+  /**
+   * @return LighthouseCategoryV5
+   */
+  public function getPwa()
+  {
+    return $this->pwa;
+  }
+  /**
+   * @param LighthouseCategoryV5
+   */
+  public function setSeo(LighthouseCategoryV5 $seo)
+  {
+    $this->seo = $seo;
+  }
+  /**
+   * @return LighthouseCategoryV5
+   */
+  public function getSeo()
+  {
+    return $this->seo;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Categories::class, 'Google_Service_PagespeedInsights_Categories');

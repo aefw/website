@@ -1,70 +1,87 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-YltKeQnEWztL
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudVideoIntelligence;
+
+class GoogleCloudVideointelligenceV1p1beta1VideoAnnotationProgress extends \Google\Model
+{
+  public $feature;
+  public $inputUri;
+  public $progressPercent;
+  protected $segmentType = GoogleCloudVideointelligenceV1p1beta1VideoSegment::class;
+  protected $segmentDataType = '';
+  public $startTime;
+  public $updateTime;
+
+  public function setFeature($feature)
+  {
+    $this->feature = $feature;
+  }
+  public function getFeature()
+  {
+    return $this->feature;
+  }
+  public function setInputUri($inputUri)
+  {
+    $this->inputUri = $inputUri;
+  }
+  public function getInputUri()
+  {
+    return $this->inputUri;
+  }
+  public function setProgressPercent($progressPercent)
+  {
+    $this->progressPercent = $progressPercent;
+  }
+  public function getProgressPercent()
+  {
+    return $this->progressPercent;
+  }
+  /**
+   * @param GoogleCloudVideointelligenceV1p1beta1VideoSegment
+   */
+  public function setSegment(GoogleCloudVideointelligenceV1p1beta1VideoSegment $segment)
+  {
+    $this->segment = $segment;
+  }
+  /**
+   * @return GoogleCloudVideointelligenceV1p1beta1VideoSegment
+   */
+  public function getSegment()
+  {
+    return $this->segment;
+  }
+  public function setStartTime($startTime)
+  {
+    $this->startTime = $startTime;
+  }
+  public function getStartTime()
+  {
+    return $this->startTime;
+  }
+  public function setUpdateTime($updateTime)
+  {
+    $this->updateTime = $updateTime;
+  }
+  public function getUpdateTime()
+  {
+    return $this->updateTime;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudVideointelligenceV1p1beta1VideoAnnotationProgress::class, 'Google_Service_CloudVideoIntelligence_GoogleCloudVideointelligenceV1p1beta1VideoAnnotationProgress');

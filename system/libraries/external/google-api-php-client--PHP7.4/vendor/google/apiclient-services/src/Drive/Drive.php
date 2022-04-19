@@ -1,81 +1,146 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-VXVU0F2xrxzAb0==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Drive;
+
+class Drive extends \Google\Model
+{
+  protected $backgroundImageFileType = DriveBackgroundImageFile::class;
+  protected $backgroundImageFileDataType = '';
+  public $backgroundImageLink;
+  protected $capabilitiesType = DriveCapabilities::class;
+  protected $capabilitiesDataType = '';
+  public $colorRgb;
+  public $createdTime;
+  public $hidden;
+  public $id;
+  public $kind;
+  public $name;
+  protected $restrictionsType = DriveRestrictions::class;
+  protected $restrictionsDataType = '';
+  public $themeId;
+
+  /**
+   * @param DriveBackgroundImageFile
+   */
+  public function setBackgroundImageFile(DriveBackgroundImageFile $backgroundImageFile)
+  {
+    $this->backgroundImageFile = $backgroundImageFile;
+  }
+  /**
+   * @return DriveBackgroundImageFile
+   */
+  public function getBackgroundImageFile()
+  {
+    return $this->backgroundImageFile;
+  }
+  public function setBackgroundImageLink($backgroundImageLink)
+  {
+    $this->backgroundImageLink = $backgroundImageLink;
+  }
+  public function getBackgroundImageLink()
+  {
+    return $this->backgroundImageLink;
+  }
+  /**
+   * @param DriveCapabilities
+   */
+  public function setCapabilities(DriveCapabilities $capabilities)
+  {
+    $this->capabilities = $capabilities;
+  }
+  /**
+   * @return DriveCapabilities
+   */
+  public function getCapabilities()
+  {
+    return $this->capabilities;
+  }
+  public function setColorRgb($colorRgb)
+  {
+    $this->colorRgb = $colorRgb;
+  }
+  public function getColorRgb()
+  {
+    return $this->colorRgb;
+  }
+  public function setCreatedTime($createdTime)
+  {
+    $this->createdTime = $createdTime;
+  }
+  public function getCreatedTime()
+  {
+    return $this->createdTime;
+  }
+  public function setHidden($hidden)
+  {
+    $this->hidden = $hidden;
+  }
+  public function getHidden()
+  {
+    return $this->hidden;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  /**
+   * @param DriveRestrictions
+   */
+  public function setRestrictions(DriveRestrictions $restrictions)
+  {
+    $this->restrictions = $restrictions;
+  }
+  /**
+   * @return DriveRestrictions
+   */
+  public function getRestrictions()
+  {
+    return $this->restrictions;
+  }
+  public function setThemeId($themeId)
+  {
+    $this->themeId = $themeId;
+  }
+  public function getThemeId()
+  {
+    return $this->themeId;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Drive::class, 'Google_Service_Drive_Drive');

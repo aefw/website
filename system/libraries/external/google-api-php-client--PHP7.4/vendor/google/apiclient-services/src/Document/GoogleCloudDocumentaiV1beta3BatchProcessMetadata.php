@@ -1,63 +1,79 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-zujLkHq6/7rlOfsnnuf1B66BjttW4bUplzIhZG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Document;
+
+class GoogleCloudDocumentaiV1beta3BatchProcessMetadata extends \Google\Collection
+{
+  protected $collection_key = 'individualProcessStatuses';
+  public $createTime;
+  protected $individualProcessStatusesType = GoogleCloudDocumentaiV1beta3BatchProcessMetadataIndividualProcessStatus::class;
+  protected $individualProcessStatusesDataType = 'array';
+  public $state;
+  public $stateMessage;
+  public $updateTime;
+
+  public function setCreateTime($createTime)
+  {
+    $this->createTime = $createTime;
+  }
+  public function getCreateTime()
+  {
+    return $this->createTime;
+  }
+  /**
+   * @param GoogleCloudDocumentaiV1beta3BatchProcessMetadataIndividualProcessStatus[]
+   */
+  public function setIndividualProcessStatuses($individualProcessStatuses)
+  {
+    $this->individualProcessStatuses = $individualProcessStatuses;
+  }
+  /**
+   * @return GoogleCloudDocumentaiV1beta3BatchProcessMetadataIndividualProcessStatus[]
+   */
+  public function getIndividualProcessStatuses()
+  {
+    return $this->individualProcessStatuses;
+  }
+  public function setState($state)
+  {
+    $this->state = $state;
+  }
+  public function getState()
+  {
+    return $this->state;
+  }
+  public function setStateMessage($stateMessage)
+  {
+    $this->stateMessage = $stateMessage;
+  }
+  public function getStateMessage()
+  {
+    return $this->stateMessage;
+  }
+  public function setUpdateTime($updateTime)
+  {
+    $this->updateTime = $updateTime;
+  }
+  public function getUpdateTime()
+  {
+    return $this->updateTime;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudDocumentaiV1beta3BatchProcessMetadata::class, 'Google_Service_Document_GoogleCloudDocumentaiV1beta3BatchProcessMetadata');

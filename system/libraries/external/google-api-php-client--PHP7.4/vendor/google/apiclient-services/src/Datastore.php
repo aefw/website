@@ -1,65 +1,303 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-LyD0tQoKu7SU
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for Datastore (v1).
+ *
+ * <p>
+ * Accesses the schemaless NoSQL database to provide fully managed, robust,
+ * scalable storage for your application.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/datastore/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class Datastore extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+  /** View and manage your Google Cloud Datastore data. */
+  const DATASTORE =
+      "https://www.googleapis.com/auth/datastore";
+
+  public $projects;
+  public $projects_indexes;
+  public $projects_operations;
+
+  /**
+   * Constructs the internal representation of the Datastore service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://datastore.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'datastore';
+
+    $this->projects = new Datastore\Resource\Projects(
+        $this,
+        $this->serviceName,
+        'projects',
+        [
+          'methods' => [
+            'allocateIds' => [
+              'path' => 'v1/projects/{projectId}:allocateIds',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'beginTransaction' => [
+              'path' => 'v1/projects/{projectId}:beginTransaction',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'commit' => [
+              'path' => 'v1/projects/{projectId}:commit',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'export' => [
+              'path' => 'v1/projects/{projectId}:export',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'import' => [
+              'path' => 'v1/projects/{projectId}:import',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'lookup' => [
+              'path' => 'v1/projects/{projectId}:lookup',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'reserveIds' => [
+              'path' => 'v1/projects/{projectId}:reserveIds',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'rollback' => [
+              'path' => 'v1/projects/{projectId}:rollback',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'runQuery' => [
+              'path' => 'v1/projects/{projectId}:runQuery',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_indexes = new Datastore\Resource\ProjectsIndexes(
+        $this,
+        $this->serviceName,
+        'indexes',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/projects/{projectId}/indexes',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/projects/{projectId}/indexes/{indexId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'indexId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/projects/{projectId}/indexes/{indexId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'indexId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/projects/{projectId}/indexes',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'projectId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_operations = new Datastore\Resource\ProjectsOperations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'cancel' => [
+              'path' => 'v1/{+name}:cancel',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+name}/operations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Datastore::class, 'Google_Service_Datastore');

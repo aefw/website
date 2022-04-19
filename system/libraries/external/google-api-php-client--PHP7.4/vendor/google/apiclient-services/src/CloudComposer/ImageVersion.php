@@ -1,66 +1,88 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Iga=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudComposer;
+
+class ImageVersion extends \Google\Collection
+{
+  protected $collection_key = 'supportedPythonVersions';
+  public $creationDisabled;
+  public $imageVersionId;
+  public $isDefault;
+  protected $releaseDateType = Date::class;
+  protected $releaseDateDataType = '';
+  public $supportedPythonVersions;
+  public $upgradeDisabled;
+
+  public function setCreationDisabled($creationDisabled)
+  {
+    $this->creationDisabled = $creationDisabled;
+  }
+  public function getCreationDisabled()
+  {
+    return $this->creationDisabled;
+  }
+  public function setImageVersionId($imageVersionId)
+  {
+    $this->imageVersionId = $imageVersionId;
+  }
+  public function getImageVersionId()
+  {
+    return $this->imageVersionId;
+  }
+  public function setIsDefault($isDefault)
+  {
+    $this->isDefault = $isDefault;
+  }
+  public function getIsDefault()
+  {
+    return $this->isDefault;
+  }
+  /**
+   * @param Date
+   */
+  public function setReleaseDate(Date $releaseDate)
+  {
+    $this->releaseDate = $releaseDate;
+  }
+  /**
+   * @return Date
+   */
+  public function getReleaseDate()
+  {
+    return $this->releaseDate;
+  }
+  public function setSupportedPythonVersions($supportedPythonVersions)
+  {
+    $this->supportedPythonVersions = $supportedPythonVersions;
+  }
+  public function getSupportedPythonVersions()
+  {
+    return $this->supportedPythonVersions;
+  }
+  public function setUpgradeDisabled($upgradeDisabled)
+  {
+    $this->upgradeDisabled = $upgradeDisabled;
+  }
+  public function getUpgradeDisabled()
+  {
+    return $this->upgradeDisabled;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ImageVersion::class, 'Google_Service_CloudComposer_ImageVersion');

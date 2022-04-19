@@ -1,106 +1,70 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+/*
+ * PHP QR Code encoder
+ *
+ * Tool for merging all library files into one, simpler to incorporate.
+ * 
+ * MAKE SURE THAT RESULTING PHPQRCode.php (and its dir) ARE WRITABLE!
+ *
+ * PHP QR Code is distributed under LGPL 3
+ * Copyright (C) 2010 Dominik Dzienia <deltalab at poczta dot fm>
+ *
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public
+ * License as published by the Free Software Foundation; either
+ * version 3 of the License, or any later version.
+ *
+ * This library is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this library; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+ */
+ 
+    $QR_BASEDIR = dirname(__FILE__).DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR;
+    $QR_TOOLSDIR = dirname(__FILE__).DIRECTORY_SEPARATOR;
+    
+    $outputFile = $QR_BASEDIR.'phpqrcode.php';
+    
+    // Required libs
+    
+    $fileList = array(
+        $QR_BASEDIR.'qrconst.php',
+        $QR_TOOLSDIR.'merged_config.php',
+        $QR_BASEDIR.'qrtools.php',
+        $QR_BASEDIR.'qrspec.php',
+        $QR_BASEDIR.'qrimage.php',
+        $QR_BASEDIR.'qrinput.php',
+        $QR_BASEDIR.'qrbitstream.php',
+        $QR_BASEDIR.'qrsplit.php',
+        $QR_BASEDIR.'qrrscode.php',
+        $QR_BASEDIR.'qrmask.php',
+        $QR_BASEDIR.'qrencode.php'
+    );
+    
+    $headerFile = $QR_TOOLSDIR.'merged_header.php';
+    $versionFile = $QR_BASEDIR.'VERSION';
+    
+    $outputCode = '';
+    
+    foreach($fileList as $fileName) {
+        $outputCode .= "\n\n".'//---- '.basename($fileName).' -----------------------------'."\n\n";
+        $anotherCode = file_get_contents($fileName);
+        $anotherCode = preg_replace ('/^<\?php/', '', $anotherCode);
+        $anotherCode = preg_replace ('/\?>\*$/', '', $anotherCode);
+        $outputCode .= "\n\n".$anotherCode."\n\n";
+    }
+    
+	$versionDataEx = explode("\n", file_get_contents($versionFile));
+	
+    $outputContents = file_get_contents($headerFile);
+    $outputContents .= "\n\n/*\n * Version: ".trim($versionDataEx[0])."\n * Build: ".trim($versionDataEx[1])."\n */\n\n";
+    $outputContents .= $outputCode;
+    
+    file_put_contents($outputFile, $outputContents);
+    
+    

@@ -1,61 +1,260 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-SEZZb68ug4plTedbRammxYccTfKOP0==
+<?php
+declare(strict_types=1);
+namespace ParagonIE\ConstantTime;
+
+/**
+ *  Copyright (c) 2016 - 2018 Paragon Initiative Enterprises.
+ *  Copyright (c) 2014 Steve "Sc00bz" Thomas (steve at tobtu dot com)
+ *
+ *  Permission is hereby granted, free of charge, to any person obtaining a copy
+ *  of this software and associated documentation files (the "Software"), to deal
+ *  in the Software without restriction, including without limitation the rights
+ *  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ *  copies of the Software, and to permit persons to whom the Software is
+ *  furnished to do so, subject to the following conditions:
+ *
+ *  The above copyright notice and this permission notice shall be included in all
+ *  copies or substantial portions of the Software.
+ *
+ *  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ *  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ *  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ *  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ *  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ *  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ *  SOFTWARE.
+ */
+
+/**
+ * Class Encoding
+ * @package ParagonIE\ConstantTime
+ */
+abstract class Encoding
+{
+    /**
+     * RFC 4648 Base32 encoding
+     *
+     * @param string $str
+     * @return string
+     * @throws \TypeError
+     */
+    public static function base32Encode(string $str): string
+    {
+        return Base32::encode($str);
+    }
+
+    /**
+     * RFC 4648 Base32 encoding
+     *
+     * @param string $str
+     * @return string
+     * @throws \TypeError
+     */
+    public static function base32EncodeUpper(string $str): string
+    {
+        return Base32::encodeUpper($str);
+    }
+
+    /**
+     * RFC 4648 Base32 decoding
+     *
+     * @param string $str
+     * @return string
+     * @throws \TypeError
+     */
+    public static function base32Decode(string $str): string
+    {
+        return Base32::decode($str);
+    }
+
+    /**
+     * RFC 4648 Base32 decoding
+     *
+     * @param string $str
+     * @return string
+     * @throws \TypeError
+     */
+    public static function base32DecodeUpper(string $str): string
+    {
+        return Base32::decodeUpper($str);
+    }
+
+    /**
+     * RFC 4648 Base32 encoding
+     *
+     * @param string $str
+     * @return string
+     * @throws \TypeError
+     */
+    public static function base32HexEncode(string $str): string
+    {
+        return Base32Hex::encode($str);
+    }
+
+    /**
+     * RFC 4648 Base32Hex encoding
+     *
+     * @param string $str
+     * @return string
+     * @throws \TypeError
+     */
+    public static function base32HexEncodeUpper(string $str): string
+    {
+        return Base32Hex::encodeUpper($str);
+    }
+
+    /**
+     * RFC 4648 Base32Hex decoding
+     *
+     * @param string $str
+     * @return string
+     * @throws \TypeError
+     */
+    public static function base32HexDecode(string $str): string
+    {
+        return Base32Hex::decode($str);
+    }
+
+    /**
+     * RFC 4648 Base32Hex decoding
+     *
+     * @param string $str
+     * @return string
+     * @throws \TypeError
+     */
+    public static function base32HexDecodeUpper(string $str): string
+    {
+        return Base32Hex::decodeUpper($str);
+    }
+
+    /**
+     * RFC 4648 Base64 encoding
+     *
+     * @param string $str
+     * @return string
+     * @throws \TypeError
+     */
+    public static function base64Encode(string $str): string
+    {
+        return Base64::encode($str);
+    }
+
+    /**
+     * RFC 4648 Base64 decoding
+     *
+     * @param string $str
+     * @return string
+     * @throws \TypeError
+     */
+    public static function base64Decode(string $str): string
+    {
+        return Base64::decode($str);
+    }
+
+    /**
+     * Encode into Base64
+     *
+     * Base64 character set "./[A-Z][a-z][0-9]"
+     * @param string $str
+     * @return string
+     * @throws \TypeError
+     */
+    public static function base64EncodeDotSlash(string $str): string
+    {
+        return Base64DotSlash::encode($str);
+    }
+
+    /**
+     * Decode from base64 to raw binary
+     *
+     * Base64 character set "./[A-Z][a-z][0-9]"
+     *
+     * @param string $str
+     * @return string
+     * @throws \RangeException
+     * @throws \TypeError
+     */
+    public static function base64DecodeDotSlash(string $str): string
+    {
+        return Base64DotSlash::decode($str);
+    }
+
+    /**
+     * Encode into Base64
+     *
+     * Base64 character set "[.-9][A-Z][a-z]" or "./[0-9][A-Z][a-z]"
+     * @param string $str
+     * @return string
+     * @throws \TypeError
+     */
+    public static function base64EncodeDotSlashOrdered(string $str): string
+    {
+        return Base64DotSlashOrdered::encode($str);
+    }
+
+    /**
+     * Decode from base64 to raw binary
+     *
+     * Base64 character set "[.-9][A-Z][a-z]" or "./[0-9][A-Z][a-z]"
+     *
+     * @param string $str
+     * @return string
+     * @throws \RangeException
+     * @throws \TypeError
+     */
+    public static function base64DecodeDotSlashOrdered(string $str): string
+    {
+        return Base64DotSlashOrdered::decode($str);
+    }
+
+    /**
+     * Convert a binary string into a hexadecimal string without cache-timing
+     * leaks
+     *
+     * @param string $bin_string (raw binary)
+     * @return string
+     * @throws \TypeError
+     */
+    public static function hexEncode(string $bin_string): string
+    {
+        return Hex::encode($bin_string);
+    }
+
+    /**
+     * Convert a hexadecimal string into a binary string without cache-timing
+     * leaks
+     *
+     * @param string $hex_string
+     * @return string (raw binary)
+     * @throws \RangeException
+     */
+    public static function hexDecode(string $hex_string): string
+    {
+        return Hex::decode($hex_string);
+    }
+
+    /**
+     * Convert a binary string into a hexadecimal string without cache-timing
+     * leaks
+     *
+     * @param string $bin_string (raw binary)
+     * @return string
+     * @throws \TypeError
+     */
+    public static function hexEncodeUpper(string $bin_string): string
+    {
+        return Hex::encodeUpper($bin_string);
+    }
+
+    /**
+     * Convert a binary string into a hexadecimal string without cache-timing
+     * leaks
+     *
+     * @param string $bin_string (raw binary)
+     * @return string
+     */
+    public static function hexDecodeUpper(string $bin_string): string
+    {
+        return Hex::decode($bin_string);
+    }
+}

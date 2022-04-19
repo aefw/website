@@ -1,67 +1,102 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-oBJcjkFQRMuJ9wBKBsRHeC4nWTS=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DLP;
+
+class GooglePrivacyDlpV2BigQueryOptions extends \Google\Collection
+{
+  protected $collection_key = 'identifyingFields';
+  protected $excludedFieldsType = GooglePrivacyDlpV2FieldId::class;
+  protected $excludedFieldsDataType = 'array';
+  protected $identifyingFieldsType = GooglePrivacyDlpV2FieldId::class;
+  protected $identifyingFieldsDataType = 'array';
+  public $rowsLimit;
+  public $rowsLimitPercent;
+  public $sampleMethod;
+  protected $tableReferenceType = GooglePrivacyDlpV2BigQueryTable::class;
+  protected $tableReferenceDataType = '';
+
+  /**
+   * @param GooglePrivacyDlpV2FieldId[]
+   */
+  public function setExcludedFields($excludedFields)
+  {
+    $this->excludedFields = $excludedFields;
+  }
+  /**
+   * @return GooglePrivacyDlpV2FieldId[]
+   */
+  public function getExcludedFields()
+  {
+    return $this->excludedFields;
+  }
+  /**
+   * @param GooglePrivacyDlpV2FieldId[]
+   */
+  public function setIdentifyingFields($identifyingFields)
+  {
+    $this->identifyingFields = $identifyingFields;
+  }
+  /**
+   * @return GooglePrivacyDlpV2FieldId[]
+   */
+  public function getIdentifyingFields()
+  {
+    return $this->identifyingFields;
+  }
+  public function setRowsLimit($rowsLimit)
+  {
+    $this->rowsLimit = $rowsLimit;
+  }
+  public function getRowsLimit()
+  {
+    return $this->rowsLimit;
+  }
+  public function setRowsLimitPercent($rowsLimitPercent)
+  {
+    $this->rowsLimitPercent = $rowsLimitPercent;
+  }
+  public function getRowsLimitPercent()
+  {
+    return $this->rowsLimitPercent;
+  }
+  public function setSampleMethod($sampleMethod)
+  {
+    $this->sampleMethod = $sampleMethod;
+  }
+  public function getSampleMethod()
+  {
+    return $this->sampleMethod;
+  }
+  /**
+   * @param GooglePrivacyDlpV2BigQueryTable
+   */
+  public function setTableReference(GooglePrivacyDlpV2BigQueryTable $tableReference)
+  {
+    $this->tableReference = $tableReference;
+  }
+  /**
+   * @return GooglePrivacyDlpV2BigQueryTable
+   */
+  public function getTableReference()
+  {
+    return $this->tableReference;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GooglePrivacyDlpV2BigQueryOptions::class, 'Google_Service_DLP_GooglePrivacyDlpV2BigQueryOptions');

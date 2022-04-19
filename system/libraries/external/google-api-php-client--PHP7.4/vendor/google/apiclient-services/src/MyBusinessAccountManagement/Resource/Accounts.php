@@ -1,64 +1,119 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\MyBusinessAccountManagement\Resource;
+
+use Google\Service\MyBusinessAccountManagement\Account;
+use Google\Service\MyBusinessAccountManagement\ListAccountsResponse;
+
+/**
+ * The "accounts" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $mybusinessaccountmanagementService = new Google\Service\MyBusinessAccountManagement(...);
+ *   $accounts = $mybusinessaccountmanagementService->accounts;
+ *  </code>
+ */
+class Accounts extends \Google\Service\Resource
+{
+  /**
+   * Creates an account with the specified name and type under the given parent. -
+   * Personal accounts and Organizations cannot be created. - User Groups cannot
+   * be created with a Personal account as primary owner. - Location Groups cannot
+   * be created with a primary owner of a Personal account if the Personal account
+   * is in an Organization. - Location Groups cannot own Location Groups.
+   * (accounts.create)
+   *
+   * @param Account $postBody
+   * @param array $optParams Optional parameters.
+   * @return Account
+   */
+  public function create(Account $postBody, $optParams = [])
+  {
+    $params = ['postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Account::class);
+  }
+  /**
+   * Gets the specified account. Returns `NOT_FOUND` if the account does not exist
+   * or if the caller does not have access rights to it. (accounts.get)
+   *
+   * @param string $name Required. The name of the account to fetch.
+   * @param array $optParams Optional parameters.
+   * @return Account
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Account::class);
+  }
+  /**
+   * Lists all of the accounts for the authenticated user. This includes all
+   * accounts that the user owns, as well as any accounts for which the user has
+   * management rights. (accounts.listAccounts)
+   *
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Optional. A filter constraining the accounts to
+   * return. The response includes only entries that match the filter. If `filter`
+   * is empty, then no constraints are applied and all accounts (paginated) are
+   * retrieved for the requested account. For example, a request with the filter
+   * `type=USER_GROUP` will only return user groups. The `type` field is the only
+   * supported filter.
+   * @opt_param int pageSize Optional. How many accounts to fetch per page. The
+   * minimum supported page_size is 2. The default and maximum is 20.
+   * @opt_param string pageToken Optional. If specified, the next page of accounts
+   * is retrieved. The `pageToken` is returned when a call to `accounts.list`
+   * returns more results than can fit into the requested page size.
+   * @opt_param string parentAccount Optional. The resource name of the account
+   * for which the list of directly accessible accounts is to be retrieved. This
+   * only makes sense for Organizations and User Groups. If empty, will return
+   * `ListAccounts` for the authenticated user. `accounts/{account_id}`.
+   * @return ListAccountsResponse
+   */
+  public function listAccounts($optParams = [])
+  {
+    $params = [];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListAccountsResponse::class);
+  }
+  /**
+   * Updates the specified business account. Personal accounts cannot be updated
+   * using this method. (accounts.patch)
+   *
+   * @param string $name Immutable. The resource name, in the format
+   * `accounts/{account_id}`.
+   * @param Account $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. The specific fields that should be
+   * updated. The only editable field is `accountName`.
+   * @opt_param bool validateOnly Optional. If true, the request is validated
+   * without actually updating the account.
+   * @return Account
+   */
+  public function patch($name, Account $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Account::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Accounts::class, 'Google_Service_MyBusinessAccountManagement_Resource_Accounts');

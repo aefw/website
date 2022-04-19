@@ -1,67 +1,89 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-g0kxOscrUBYZD3Sd
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ToolResults;
+
+class FailureDetail extends \Google\Model
+{
+  public $crashed;
+  public $deviceOutOfMemory;
+  public $failedRoboscript;
+  public $notInstalled;
+  public $otherNativeCrash;
+  public $timedOut;
+  public $unableToCrawl;
+
+  public function setCrashed($crashed)
+  {
+    $this->crashed = $crashed;
+  }
+  public function getCrashed()
+  {
+    return $this->crashed;
+  }
+  public function setDeviceOutOfMemory($deviceOutOfMemory)
+  {
+    $this->deviceOutOfMemory = $deviceOutOfMemory;
+  }
+  public function getDeviceOutOfMemory()
+  {
+    return $this->deviceOutOfMemory;
+  }
+  public function setFailedRoboscript($failedRoboscript)
+  {
+    $this->failedRoboscript = $failedRoboscript;
+  }
+  public function getFailedRoboscript()
+  {
+    return $this->failedRoboscript;
+  }
+  public function setNotInstalled($notInstalled)
+  {
+    $this->notInstalled = $notInstalled;
+  }
+  public function getNotInstalled()
+  {
+    return $this->notInstalled;
+  }
+  public function setOtherNativeCrash($otherNativeCrash)
+  {
+    $this->otherNativeCrash = $otherNativeCrash;
+  }
+  public function getOtherNativeCrash()
+  {
+    return $this->otherNativeCrash;
+  }
+  public function setTimedOut($timedOut)
+  {
+    $this->timedOut = $timedOut;
+  }
+  public function getTimedOut()
+  {
+    return $this->timedOut;
+  }
+  public function setUnableToCrawl($unableToCrawl)
+  {
+    $this->unableToCrawl = $unableToCrawl;
+  }
+  public function getUnableToCrawl()
+  {
+    return $this->unableToCrawl;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(FailureDetail::class, 'Google_Service_ToolResults_FailureDetail');

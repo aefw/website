@@ -1,88 +1,214 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-V862hfUe4Jj0s3trLCKsXBIgmAe2GW==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Pubsub\Resource;
+
+use Google\Service\Pubsub\ListTopicsResponse;
+use Google\Service\Pubsub\Policy;
+use Google\Service\Pubsub\PublishRequest;
+use Google\Service\Pubsub\PublishResponse;
+use Google\Service\Pubsub\PubsubEmpty;
+use Google\Service\Pubsub\SetIamPolicyRequest;
+use Google\Service\Pubsub\TestIamPermissionsRequest;
+use Google\Service\Pubsub\TestIamPermissionsResponse;
+use Google\Service\Pubsub\Topic;
+use Google\Service\Pubsub\UpdateTopicRequest;
+
+/**
+ * The "topics" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $pubsubService = new Google\Service\Pubsub(...);
+ *   $topics = $pubsubService->topics;
+ *  </code>
+ */
+class ProjectsTopics extends \Google\Service\Resource
+{
+  /**
+   * Creates the given topic with the given name. See the [resource name rules]
+   * (https://cloud.google.com/pubsub/docs/admin#resource_names). (topics.create)
+   *
+   * @param string $name Required. The name of the topic. It must have the format
+   * `"projects/{project}/topics/{topic}"`. `{topic}` must start with a letter,
+   * and contain only letters (`[A-Za-z]`), numbers (`[0-9]`), dashes (`-`),
+   * underscores (`_`), periods (`.`), tildes (`~`), plus (`+`) or percent signs
+   * (`%`). It must be between 3 and 255 characters in length, and it must not
+   * start with `"goog"`.
+   * @param Topic $postBody
+   * @param array $optParams Optional parameters.
+   * @return Topic
+   */
+  public function create($name, Topic $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Topic::class);
+  }
+  /**
+   * Deletes the topic with the given name. Returns `NOT_FOUND` if the topic does
+   * not exist. After a topic is deleted, a new topic may be created with the same
+   * name; this is an entirely new topic with none of the old configuration or
+   * subscriptions. Existing subscriptions to this topic are not deleted, but
+   * their `topic` field is set to `_deleted-topic_`. (topics.delete)
+   *
+   * @param string $topic Required. Name of the topic to delete. Format is
+   * `projects/{project}/topics/{topic}`.
+   * @param array $optParams Optional parameters.
+   * @return PubsubEmpty
+   */
+  public function delete($topic, $optParams = [])
+  {
+    $params = ['topic' => $topic];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], PubsubEmpty::class);
+  }
+  /**
+   * Gets the configuration of a topic. (topics.get)
+   *
+   * @param string $topic Required. The name of the topic to get. Format is
+   * `projects/{project}/topics/{topic}`.
+   * @param array $optParams Optional parameters.
+   * @return Topic
+   */
+  public function get($topic, $optParams = [])
+  {
+    $params = ['topic' => $topic];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Topic::class);
+  }
+  /**
+   * Gets the access control policy for a resource. Returns an empty policy if the
+   * resource exists and does not have a policy set. (topics.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int options.requestedPolicyVersion Optional. The policy format
+   * version to be returned. Valid values are 0, 1, and 3. Requests specifying an
+   * invalid value will be rejected. Requests for policies with any conditional
+   * bindings must specify version 3. Policies without any conditional bindings
+   * may specify any valid value or leave the field unset. To learn which
+   * resources support conditions in their IAM policies, see the [IAM
+   * documentation](https://cloud.google.com/iam/help/conditions/resource-
+   * policies).
+   * @return Policy
+   */
+  public function getIamPolicy($resource, $optParams = [])
+  {
+    $params = ['resource' => $resource];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Lists matching topics. (topics.listProjectsTopics)
+   *
+   * @param string $project Required. The name of the project in which to list
+   * topics. Format is `projects/{project-id}`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Maximum number of topics to return.
+   * @opt_param string pageToken The value returned by the last
+   * `ListTopicsResponse`; indicates that this is a continuation of a prior
+   * `ListTopics` call, and that the system should return the next page of data.
+   * @return ListTopicsResponse
+   */
+  public function listProjectsTopics($project, $optParams = [])
+  {
+    $params = ['project' => $project];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListTopicsResponse::class);
+  }
+  /**
+   * Updates an existing topic. Note that certain properties of a topic are not
+   * modifiable. (topics.patch)
+   *
+   * @param string $name Required. The name of the topic. It must have the format
+   * `"projects/{project}/topics/{topic}"`. `{topic}` must start with a letter,
+   * and contain only letters (`[A-Za-z]`), numbers (`[0-9]`), dashes (`-`),
+   * underscores (`_`), periods (`.`), tildes (`~`), plus (`+`) or percent signs
+   * (`%`). It must be between 3 and 255 characters in length, and it must not
+   * start with `"goog"`.
+   * @param UpdateTopicRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Topic
+   */
+  public function patch($name, UpdateTopicRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Topic::class);
+  }
+  /**
+   * Adds one or more messages to the topic. Returns `NOT_FOUND` if the topic does
+   * not exist. (topics.publish)
+   *
+   * @param string $topic Required. The messages in the request will be published
+   * on this topic. Format is `projects/{project}/topics/{topic}`.
+   * @param PublishRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return PublishResponse
+   */
+  public function publish($topic, PublishRequest $postBody, $optParams = [])
+  {
+    $params = ['topic' => $topic, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('publish', [$params], PublishResponse::class);
+  }
+  /**
+   * Sets the access control policy on the specified resource. Replaces any
+   * existing policy. Can return `NOT_FOUND`, `INVALID_ARGUMENT`, and
+   * `PERMISSION_DENIED` errors. (topics.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource. If the
+   * resource does not exist, this will return an empty set of permissions, not a
+   * `NOT_FOUND` error. Note: This operation is designed to be used for building
+   * permission-aware UIs and command-line tools, not for authorization checking.
+   * This operation may "fail open" without warning. (topics.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsTopics::class, 'Google_Service_Pubsub_Resource_ProjectsTopics');

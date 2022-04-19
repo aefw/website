@@ -1,125 +1,333 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPwyqXWlhgteiWlSJAEDQayeMAoRAXBPmmvx8K2qZEGnDsi1meBCX2AwgrHVWKTAEmq9JuKop
-EzJYFGm+x7kW7LrFouRJQHYsSY4Q49Joqo197FJWPSTzP4lI2NnSgqmv42edbRDz+8bH6i9YVszj
-rVIpkksFd7uWwN4xMwpvjqCV1YQgODGCWCagEdV0ORjFmH4VZwD2Qx16X/5VTYkkGhPSDQHpwu0V
-pT7n7Uu2e2jdmovFuNPG/fhvyxuSBhkj0zpRuMj+KVyu5bCYEH373eLCNk9mKourL8IeB86cFae5
-vLNwQxn1nLUMNWwiOZU8LBGAUlz1+Whalu6tu1aGR5TRO9sU3LtiPc45atDja/daxgblaRhhwQ8a
-cw4AMRmDhoapPtw/T+iYmK5+TpD4v4tGVa6MX47+oNxeFNxur8CofGlACZI8iA2svwcKTxI/WjPO
-Y8UvrTZryHm7a1slv2wm+MHfLoGJpMEtNF0nKr3evf8ix/D9G6bjDDDXW06uh/LHaStWSOcXQW7T
-04FYmPXO/9G5lG4DXecGKQzU70TxK6j9afhThTbg3kTj1OqJolEz4gpjkCCfik5V34CXG7XpNwo6
-LEx6ERqVeeLqAskOLxmjp0c2ELr1LylDYObcUsrZ5Se2ibYm5R0r6ZNV22L/aNTx/qrv7ruSdDQL
-b5gcPXQ9XrkkLtlpfuzF7M6V7eE6B9a7ePvhTMIfoVj9YGw+FzCzFv6BA3T8wg2Ll2V4raBn/s1H
-R33NlLTo+kR+v7paIL+q/5YvmKcYSsDgBRGrSRbCaPJhg//8x84X6MIWOFT6zNx6ZNXKKYJwe1RO
-NVBeED2qGjS/hYAeomHZ60xKbLnV/uHKU4V2Oehip3BYqLXLlXCl6EwjE3CVMv20iI0JNNjh6HKW
-nCEocV6K+/JfVJDa87wXssiQtd/HTC/4qpbjMFxmHR7++og+GL2S7M7qXuNjT2hzIriATGGeFxo+
-GvLyuFUG784O0H07GgVOypHvnMucZm+HJHkYmb7vrtLWUQo9aJ5quotAi8F2A1pFSbpDtsdMqUZg
-MyUERI3O6aA2i51Lav7yGdPhi8qdDXARSFMl0j7aVDv+3wWPdLmfWEG8dYQQ+TMy63Cush54k23x
-V6HhtP8hea5W0+HwfJPzOd81Yj+3iXu587lIPfxYRU5v+vc4paP4qXWUWh8+dHRqIZ50nAqkQvgT
-Qwh5SOMTKX0zaCzpuGzPnNjGatK9fzAUenUMUJfTPBy3tl/itkLy83K+BSwDkvJea6rLZAf5jfmq
-5vjtuSVqFS7VMbx69RgBX23omJs5yFjZ2RQ/rBZJbYxdHu1C8Wd7TvTqHSm5Gpr0HHtb8/+bAGsl
-6V3FHFHlHfZKZSPrDFU2Rj50Gw+L4GOj2cNQ3Rx4Ru0a/nbCkCBQD/PPthXfnfgZfjAC31THQelH
-0+CIb9YDkdV0st3htOW19aoKwa9ZrwD+8Eb4c3xC9No/Jvk5jnj1h7cuoLQkzZ/GG7K44ptIOgJG
-tu0fUwLNWNBqDcAK427GeIAVJq8ujaFYRyASp5BoCvyzPRIrrTy3kYhTfbIgG0cEY/xqrrakai5A
-xDywHq0VaicvNw0uwLQzhESTaynp7m+Nni+4ArWHqkZ0Fkx3+Oa9drt7JPcAiv2+c3tUxuDaaVtW
-G0DGEbxhQElRDFcu0Fde16ZdYWohkV5B/xiMamGm8z3cp9iDkKisHGmd7RwiSxNIGt9ZEOLsfOcG
-exqixCJhRmyfl9zNoCdGoky1hLsGZrgE27B2Tnk025upANP5B80EK5BY7nzaNhK2K0csmhRU5Mcc
-sM0+JCmRmeh6TYRDmis/28HFASvty7w1f8sTgptHzIzMfpAkRhgAmPv+AIeYt/CMCBxqRYZ56QM1
-2wGKs10ssU/wdHk977tgc0JUf77iGlMWm9QTvk7V6QTeXCGFjIos6iZGNtDafSJ8ZEGUrSzJ07bc
-DGJXSY64PJd9uCWme96d6xxJMCDj7DbTqWekW2oZuXWAfAtwxAgprTDp81c0rq4GXVNFGXJ/WaGH
-yNwAtnMEU5JRQrhONBtWFNjheqjQS5Bpysfreo7GO33qwQU4TxfM/4QK/vaCxOKwbxxmNstw4/7/
-X9/aK8YGnyZSPq3NqiE0kNpWR6jLtZW9pUk9St8WauBnNFUrzshYV9h+BB6HfT1R2jausMxFoNB7
-lNNTjTzc7KANKTDZmEdy7runM9h42sIB/b+1R02DzRxwPfPmMU/90bF9Hn97lz7zL3bTr64djPDB
-PFf6noIRJncyTu4j7sRsVprpG4Lpdv8L3/kr+iYX+fyq31rr+gCQwFsD452dSIUP7c+eNhlVZ7v0
-ZS1Yo+3mbX2pWo8kMFUwxoVyiN34lvv5M//1ka/ZlAqxYWpLVLORsxnYlVkLTrNpKA3m0qqNI1yD
-Qr2O3y8fYNBiads5d4VUBftMRfe21g76s68NA5dtZ12nLOLY5dxxk/XDTuIdY1Gu5jotH/O36gwQ
-oFqu52+Z6SgmNl84cW/bUnLs386dOby+M5GXlmanYxVihHXnjjIjyPmUcIKP4nT0360pkdXhN6gv
-A1M3S19S1tLW94Z381XCdxBiw3vH+3iPw8U0t4zj+usfJbxKTUVZE+ZyPQ9ZDxPL8BZDnVl99IQP
-8AJE02MDkcRn4oxVeE7/NMdIP9GoXYqNtJa+fBm8RmG3sdWXrOBDXghjyj4Y7+IYbOOCTS1C9lD/
-xxe7kEglrNRseGc9H4hEA3/lOaZ8AiUA1D7ROAzGSEISoqcoZ1Oms2Xgr/X0Veklp0U6o097fECe
-6iPzCpXUjw+K/g4SLcp5R2r58wz6aG3nTWTyyWhGt9UE0U3qUhfNMpI1FTWcHgyQHwFP2pRVM15t
-P6f5m4O9NNvwGs5lDYY6Zo+/gJRIoti11WDwTBConulnkmyEzLc2AF3rkeVz+QFzkvJBN42+yWSI
-0HVE5xnB7+b0ILNS4RLVwyvTmdfUaCsjpczp1G1h0PWBdYl7bGSkkTtXNuiNazJ2KC/Slk5/1bO7
-M4Di0Kex+qk55G9YLYz2XGH1FwJ4KVMf0ySKrtd/WNT8VEy+JiuI5vEtYkhHClmIOBwG5peo+0RI
-pjCc2+Di1vc0/6rcm7nysZBB+WhXi2CsjUvlwjFU79FrFYp6BGO9/KeoECcTFIXtuT7UIKIjtKUs
-ueBEiCB4rVzpMYE+Aifh4s6cKTcHlBdtFH8hCeCWLym7OaJTDdTZ59wKlZAOOEbVy6fiCUb4lox4
-BV+LfcB+lNc10efUvEgCSP7O2bmI5HOQrQr2nzjK/LyKT3Zyq7PcNe3Kl7F6s2KwVM5I3Vmf96hk
-mr2iXnulreLIehbnFWnQ5IsTqYDf3bXmFSx5MGZOVmqXQ/NH/qxl21MXnzytQX075WviRNlffyWU
-H/zZu3zG9jr8GLBFIrPqJhK3UBuN06lHADojs8c7XJc1LzE93tSU1+3syLfz42jvgWxvVMUhJ3zX
-tLrtLTrV2rXGeuhCe/lLPp2hR/bPAw5iti9Pgr4vARNK3sD0xhCM6xyq2nWTUVdHKW+OjrZlb0Ym
-Y0dThvs37UKiijj2z1SsOeD/PlC+5BhcPQN40jYRiXH1VK6zJ9wEmR+8/a+iM5XgAbX/m29q/jWc
-q0GCqcMv1hLY07cASf+QRne3V+ZD09Ht+sBftmaXLtFk++qFaWSVee+XEO0Bwb4onLG8+Tx7AQQ6
-nJWdh73caK6Vls7aj59ixk9txf55oCMSv3xQ2hbt3iiStYDW8ypKRF1wZRnkbo48EAML0+TxoA6K
-fgyGwDgFgeW54lSQKtYVmaG37WIxb6ZZc5VEZOeHWyBVuYS1wRkOZOjnvtOSRB+2YBXGLpLwgVyR
-EAA5KKFHKA6Elt2mcx1GAZuI1lb+sYfIc83IcWAyODBq8tDEKGWobEvwwkySrjEjY4L/KeNjCcm1
-6XCJJ2EgYOWP6WhAPDwwBA22t3wbCr+GZP3E15/Hb7pKNQ0cNwBGWfsswrI5Te7lWqq9ddtDw0g2
-aT274eDlErXkBs4R6WnycSHUmdaPLSE07nZvgIwF+Wi/qHibCNpVYww8JGBkk8ke3F3Cd30k6h6A
-HquV1CXX5T/9i3vcN3qKk5gKHHbmkdMcm3KBglBeeRj6TQsj/MYq/B8YdwnFpH8oljzFq0jjAIYW
-TNvg5VgajGGh9vHxQDgr2NUeiKDLzwbbRTyhwn6A8NK5GIO2W8IWHeuYu3rJP6K51AxSEkmoCFEL
-dd8Ec3lw2+ObopNvQSyZMaF1cRbjyzpKLSLCtan+ExD0JfJiq6W7cqLg0lLgS8GgeKINuXplLGRO
-sd2H8N0DzHOk6qYRHE/OebMyr5NnGIUNqPT8n72E2ByELq/7sp+AB2IX8C/9w5MJ8p5LU8f9XMBd
-+/dIlvCnjgdGbih+KzK0cYNdJJVNfQuOnc9SgvSJmWZy8FPe0EExa+prR/+j+yo9036GwiQov7ve
-4krD/corQfjgHbefwflFrVNeeh5SAYtEr+DwLRNPbcKxTbCVJb7i6C0PxG2HFqS9Ufpe//ElCPYd
-JXCm8u4Zxif+fQYl72oLJxG/UQLydDO2DW+4z7E+GkstJmhpRLgdqUyW+gie5HuKGsuUNuddX8s8
-BJj+pUGJ49imVbaZ42U/tSh3mmLtzEw6+L2vI3cHUpxB9YUJzTHd1UOBroAoBX+5j033btkiUo/H
-unGKZLRblaliYZlqBDQPzmv6PF7kl/LGPvv/LUkGGS2MX8wUUsNJMTFfa0MVYiO+H7l38YjaeVHK
-8dYVTy6uXZLWK2ZyZMKI/uiam2VKUz8AWGtlx+9ON2Q3Cy3RJW+aj53C28nf6r3qCuND5hji0QFG
-QIuFiOgfulCRod24K+Gg7d15tP4wVTSLfZF2Ug0R/zWeIT7c+Upd5/nE1rh2Z4PD23Lnugxo5Edt
-QWfzRjfkRSzaBt/uqHozivA10LDWCuopwq3mtzpqOGa5TGKPLs5/0W4eFM5l8YG6wPRKb3zS3LFb
-0F5lQ+BNlu9u5BqWNEitWmVc9mFT7ITT2woVxzVGovDufkYzJJ6XvuakFUt/pi513smdloUZDh1r
-QhWg+9jvMWCbwQUgxXmrbfKBlcHchJ4P5lfe5wTT1P7mPyW6ZAN+d/3//Nl++t0iwYdunxOM0gf3
-rJwEq2bu4owg4S3i59+wixLZuL+IvgZMZGxp/F+0pbXJDZMyrW6daoWSAx08tCOpjwDzC6RV6Ccw
-7yyGQ+yQL2NzmRZimSAVWP/wNKSVXKZMH/GL+zfYMIYb9YMsglUM5nEB30f27Fr8FhDoSfq65kmw
-rIUu6o7GWa1kuYFyiIoMltPcmPi7syboIX4BcFyP1W63HfkKuoIZYN1i8fFM4myVshJ5ixd0vRVR
-WIJdJSY5DjL6Se29SaOjm7PUt8/TBWcBLNH529PBMV9tvi1xrwpTUdUKiEOggH8Q1c+6DL8TN/BF
-LgYCy/6i3YECHzyAnzQR9YchS5oF4pcAy3/YNWRUUD4+rtp740qEIerTMg5B0iV0MW0iZ/eBcu6d
-m6nJkOUYk5RX65bP+cfmPxFyTc2/m2po9Cx6TfP3awJbAWdQaEzkzYlgIEZ3zKCVPfzroXKxbU8N
-uZ/IkjSkuT1v0TOqnnuihhgvSy1o3WbaR58V26BaxvakP1FiPrvC7B5aBWJhiwsFnzUdHuXb/t2Z
-6Qks6JFnrACIXm4DR5TPsIHRYVWzKykQv5mDSvStTPE8hoc2Jqs0NYOpWxUwtJhAkFAQFYS0rX3+
-pE+nGkiVEbSAo/uUDSWCVSdvxcrFlmXVR1U62vSXprE/5gaN7p4ZIsZh1j3nAOfFBu1od7xnZM/2
-ioiFjCYW/FKlVsKigdz2nUbGuvlA1XUHjuYCpcp4glggABOYsFFNLejlQHq/NDpQj4l7UDsnENRy
-o/NKp6iWRsHPmlcheF8gJpvxJMcxBD5rQCnwTs/aTOyxQzKhbjgZdPh8XilwMdNVg/AQ2Pzh/USA
-F+kQWHEfbOzj0aiU6f1XZyZvPpIF0qZwRNb113uwi8Pf3PaEs1Ee88890j9lrPP+IqaPAdv8vX5v
-5CQCZgfmDHz/n6zX0GdN2nYSy4oelIAMBb/JVrE2zLWQmVipFrJWuZ63ZJ3QLGtX5jUC696IP2Zh
-KAUOva0N6UNJdj1Tkfum6LoiEMeh72SWv6C2rOX3/mfmRXwE1fnt7/2J8koLDCBudtFJXgXEKZSZ
-2cEoYxNDkmYF3XJHWe392SVIBYYrpzdj7fghjG9MEST90sQNd5nPHQ4w7lpc9LaKzagCv5n76OFC
-QedUHObEIUQDfgTzZ+vVCzbir8EZAvOO2mCFXmP2FYqpnOCWUk+N0fQP2vMK4TYGKd/n8Qnzgfku
-7R6U4I66r9DoVuu21ZO5wGYtdTeKSHkPcRW15MXEKeAVLWi5xVPJ8uYuQ7cilM6YhrgJGvfwCNbx
-fiUSMKslUz2UTdFTGcWDSvgCT9S6zneHz8q6XY7cRYcPkQqTann0lhu80dLnzcNlAFhETf2xuDmQ
-UoM3xEAMYFLxPDx4U5W8UGa5S4yQQmucv7gXguIxXNYgYSeq+a2mSMLLTrhNUyjCHUyF1wu/IjWA
-3fVfvznnVrHxrN+E3MWZuwBaio7Qd+YvEyiRPRvdCoQ2KY50pQISlBwmknmtUpH7u6+nTZZKv01j
-SRirHVzKwLSgH1EJLLLniTBNpcU5RH9xufiQRwNUDiDWxNFA8SoeKBMq5yUxVBdiqIDONufPmg2P
-3VMgvcTMBYQBuNgJD1ZlK67t/gioi4jz1o/u/5iJ1AuwcjjDseVboBCFStc26JHYHSwESxUfGLcp
-O12fZZ9476pNyYLUN8/+tgvqLWKpxzROGgXXuIPIZvrIPPvxnOXov/momWw5LBu/Uqaoq7T8erkc
-T/ht328SyQzGou5waVWUXlov8U0qTKVvvkaPCMwjmYh+xZui/FvwTsVVWH7azEcz6nAU8wgKQJNI
-VSXZPbcmxchPXHxUuBViPUnbIKFDAb31rCg2bE9jrxRgjgZW/97NVSfBpv4EQ922skszkq836Dwz
-DSwqtjYF2PA8jatGZOaTfb/mZ0NGguMIHWNmAD37tuObTrgQUvGF6y3hPM8WH8WpNudXME7C+XXw
-PGp6c0sFuuXFZEThrvufH4qKVGBGgNgkknigqoqlhBiED303iSV9pLkqA1VA9NcKsCPcQJKksONW
-QdlXiQ5t1u3vbDyaZ3s8TFkAhlgD3Qwfzb5/Tt8F63TGug5GQU2mKEaxtJvBEiDGwxOdznZBSZiE
-7/TOy4zXSLDeYsMBB0oZj3vBeuml/OPC93Kkspj1GeDE+/ryk7VpAe79fSOYAZdShvDL+5zo+ejk
-M4q6h3QQ88F8txzJefOca1UIbq4QhqRwFPPj61u9Zl+pOY0AgcSbX1WKO2Rg2rWhLvv54cmA7QV1
-1Anp7MA2meItLePV/CHzKeKouYKdjoXSxRpQBPgpjjDS4kNrgdC+B8mnXAjCCsaPS+2ZDiGiQtqF
-J5fald+bvEFGFkXgVwdpepYtqqjrCsQjNfJCUX4vjpXpGgM8w+BiDpGFoS4SKpZ/wZGGvf/7xyyj
-pyP7xxGdKqDavb3C+BsoDXtDbPVQY+KDW5t9IEnLRXcoCovFJ6i1wuetg/GWYpxohpZWIA4BsvIC
-Bpj6rfU8H43gLhC/j7hbHpkCfWPUO0xZWKtABeUjmhOjzWfecj8dny9ykxuom7Z5MTB+6HvrIkY8
-FLNrrAjZckvrFItDWQ1zahpMvt7p5YOGjLamrmKB4NHYBPmahokMT84oNtvdhYoW0ofVh2uUrRE9
-MRBtOo+hghRaNlWA3DgLGq+ZCk/mLtK8y9u2ZKPZAu2lfobSZLl3V4XtHKqrTwvdebjyaBMPVmZ4
-75/OOjBW2y1zpKN6cn8zs4mw7jEX6GHE8+1utBDn/iMwNgfpSxXt8BTa9iZxioAdJ0sDWba/o7EQ
-1+e8Xjgb9V/0qvQHhtmCwFNDJzzgF/V40kmoNIm0eARwnuQzrTC2qnR/sgJeQ2HbJ6R3L+bj4wl2
-9Ci03pjbNt/iWeM0K2/b1cHXhHVp43YlsQ91PxzYGQlKvWmRfAOkPcfB2gB2hKTHCRRhX/R006YP
-wsogdLJ6bCrpjr9+CeYUIG0J6p4dSb5z9hs5RS/I8Z/kbhaJm1LxZ0svURGM3Xya9OyPAiJ5o6eW
-Se+mdlHA61VPXcBNtexsY5p5ZzW4JVa4MFsA82JcXehl8G4HWTTd49thfnvhc20k+eNkFWa+FcbU
-7QBnueLonEFWRptQKS0kCQPmAjMkvs9RNhlhIJapdbLWuGa/8rVbRxaAl9AyhrISkCUrDep4IKhR
-l1Ar7teOcYdPoctVDJyFg4cYjPpDdAuPmy0FcOXWPXCPfyJh/qXCXCXvPP4uqnr5yDFro04GkzCi
-khC9UEbG9carBfJzIEepwR67RXFO95dyd9+MQevgwhpQA5GjPVkOr3uwjl67eIz6iu006PZf60uU
-0wLjx0idtYwLadt7mHPzQKXueN8hYtXu+z2M5KhG0OwsKAJefXKmOvajiVZAKfuKk06Me8P/6eNQ
-1Su7JlIPDl+XWWcxZ6Yp4SdORDxjJ9PUCRqIbVvs/4e4rzxKE8hH13kzFHLgjamH8xj1e5B/o8mS
-afjN9EwJ9v5SBWwpYmqnVElhLDYSJ0cXNKk73y0im+/fUoUO5su2hHshv3S1rfS6CrZQvLj9QFEF
-6oidvC12oFLsIwwiKrYLx5ePfAPuZV3bhMIM/p4ao8h7avsgyplYrqJU9+gf5c8n56xMmTBWUYEt
-OSHYCLB3g08DTuv9tGhs9+XspUrl8vwCasfbP8Ic2ztx/TtqEEJfrsjzmsyZ7Fsm7Nmnh6GAYqBn
-kp1V+9LuUvrLcGTQixzYBBwo9VYvdOwT0eWXepRr/uZTb8CDC+ZHCakelXj1nSMN5VxOEfsM18Pl
-Q2Y+Ml95HG4nPfx8gE9I8bvuBw2yCABjV940n9dxIRm+D58j+3M6c44alcD2jI9G+U+eIx9R2G==
+<?php
+/**
+ * Copyright 2017 Facebook, Inc.
+ *
+ * You are hereby granted a non-exclusive, worldwide, royalty-free license to
+ * use, copy, modify, and distribute this software in source code or binary
+ * form for use in connection with the web services and APIs provided by
+ * Facebook.
+ *
+ * As with any software that integrates with the Facebook platform, your use
+ * of this software is subject to the Facebook Developer Principles and
+ * Policies [http://developers.facebook.com/policy/]. This copyright notice
+ * shall be included in all copies or substantial portions of the software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+ * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+ *
+ */
+namespace Facebook\Helpers;
+
+use Facebook\Authentication\AccessToken;
+use Facebook\Authentication\OAuth2Client;
+use Facebook\Exceptions\FacebookSDKException;
+use Facebook\PersistentData\FacebookSessionPersistentDataHandler;
+use Facebook\PersistentData\PersistentDataInterface;
+use Facebook\PseudoRandomString\PseudoRandomStringGeneratorFactory;
+use Facebook\PseudoRandomString\PseudoRandomStringGeneratorInterface;
+use Facebook\Url\FacebookUrlDetectionHandler;
+use Facebook\Url\FacebookUrlManipulator;
+use Facebook\Url\UrlDetectionInterface;
+
+/**
+ * Class FacebookRedirectLoginHelper
+ *
+ * @package Facebook
+ */
+class FacebookRedirectLoginHelper
+{
+    /**
+     * @const int The length of CSRF string to validate the login link.
+     */
+    const CSRF_LENGTH = 32;
+
+    /**
+     * @var OAuth2Client The OAuth 2.0 client service.
+     */
+    protected $oAuth2Client;
+
+    /**
+     * @var UrlDetectionInterface The URL detection handler.
+     */
+    protected $urlDetectionHandler;
+
+    /**
+     * @var PersistentDataInterface The persistent data handler.
+     */
+    protected $persistentDataHandler;
+
+    /**
+     * @var PseudoRandomStringGeneratorInterface The cryptographically secure pseudo-random string generator.
+     */
+    protected $pseudoRandomStringGenerator;
+
+    /**
+     * @param OAuth2Client                              $oAuth2Client          The OAuth 2.0 client service.
+     * @param PersistentDataInterface|null              $persistentDataHandler The persistent data handler.
+     * @param UrlDetectionInterface|null                $urlHandler            The URL detection handler.
+     * @param PseudoRandomStringGeneratorInterface|null $prsg                  The cryptographically secure pseudo-random string generator.
+     */
+    public function __construct(OAuth2Client $oAuth2Client, PersistentDataInterface $persistentDataHandler = null, UrlDetectionInterface $urlHandler = null, PseudoRandomStringGeneratorInterface $prsg = null)
+    {
+        $this->oAuth2Client = $oAuth2Client;
+        $this->persistentDataHandler = $persistentDataHandler ?: new FacebookSessionPersistentDataHandler();
+        $this->urlDetectionHandler = $urlHandler ?: new FacebookUrlDetectionHandler();
+        $this->pseudoRandomStringGenerator = PseudoRandomStringGeneratorFactory::createPseudoRandomStringGenerator($prsg);
+    }
+
+    /**
+     * Returns the persistent data handler.
+     *
+     * @return PersistentDataInterface
+     */
+    public function getPersistentDataHandler()
+    {
+        return $this->persistentDataHandler;
+    }
+
+    /**
+     * Returns the URL detection handler.
+     *
+     * @return UrlDetectionInterface
+     */
+    public function getUrlDetectionHandler()
+    {
+        return $this->urlDetectionHandler;
+    }
+
+    /**
+     * Returns the cryptographically secure pseudo-random string generator.
+     *
+     * @return PseudoRandomStringGeneratorInterface
+     */
+    public function getPseudoRandomStringGenerator()
+    {
+        return $this->pseudoRandomStringGenerator;
+    }
+
+    /**
+     * Stores CSRF state and returns a URL to which the user should be sent to in order to continue the login process with Facebook.
+     *
+     * @param string $redirectUrl The URL Facebook should redirect users to after login.
+     * @param array  $scope       List of permissions to request during login.
+     * @param array  $params      An array of parameters to generate URL.
+     * @param string $separator   The separator to use in http_build_query().
+     *
+     * @return string
+     */
+    private function makeUrl($redirectUrl, array $scope, array $params = [], $separator = '&')
+    {
+        $state = $this->persistentDataHandler->get('state') ?: $this->pseudoRandomStringGenerator->getPseudoRandomString(static::CSRF_LENGTH);
+        $this->persistentDataHandler->set('state', $state);
+
+        return $this->oAuth2Client->getAuthorizationUrl($redirectUrl, $state, $scope, $params, $separator);
+    }
+
+    /**
+     * Returns the URL to send the user in order to login to Facebook.
+     *
+     * @param string $redirectUrl The URL Facebook should redirect users to after login.
+     * @param array  $scope       List of permissions to request during login.
+     * @param string $separator   The separator to use in http_build_query().
+     *
+     * @return string
+     */
+    public function getLoginUrl($redirectUrl, array $scope = [], $separator = '&')
+    {
+        return $this->makeUrl($redirectUrl, $scope, [], $separator);
+    }
+
+    /**
+     * Returns the URL to send the user in order to log out of Facebook.
+     *
+     * @param AccessToken|string $accessToken The access token that will be logged out.
+     * @param string             $next        The url Facebook should redirect the user to after a successful logout.
+     * @param string             $separator   The separator to use in http_build_query().
+     *
+     * @return string
+     *
+     * @throws FacebookSDKException
+     */
+    public function getLogoutUrl($accessToken, $next, $separator = '&')
+    {
+        if (!$accessToken instanceof AccessToken) {
+            $accessToken = new AccessToken($accessToken);
+        }
+
+        if ($accessToken->isAppAccessToken()) {
+            throw new FacebookSDKException('Cannot generate a logout URL with an app access token.', 722);
+        }
+
+        $params = [
+            'next' => $next,
+            'access_token' => $accessToken->getValue(),
+        ];
+
+        return 'https://www.facebook.com/logout.php?' . http_build_query($params, null, $separator);
+    }
+
+    /**
+     * Returns the URL to send the user in order to login to Facebook with permission(s) to be re-asked.
+     *
+     * @param string $redirectUrl The URL Facebook should redirect users to after login.
+     * @param array  $scope       List of permissions to request during login.
+     * @param string $separator   The separator to use in http_build_query().
+     *
+     * @return string
+     */
+    public function getReRequestUrl($redirectUrl, array $scope = [], $separator = '&')
+    {
+        $params = ['auth_type' => 'rerequest'];
+
+        return $this->makeUrl($redirectUrl, $scope, $params, $separator);
+    }
+
+    /**
+     * Returns the URL to send the user in order to login to Facebook with user to be re-authenticated.
+     *
+     * @param string $redirectUrl The URL Facebook should redirect users to after login.
+     * @param array  $scope       List of permissions to request during login.
+     * @param string $separator   The separator to use in http_build_query().
+     *
+     * @return string
+     */
+    public function getReAuthenticationUrl($redirectUrl, array $scope = [], $separator = '&')
+    {
+        $params = ['auth_type' => 'reauthenticate'];
+
+        return $this->makeUrl($redirectUrl, $scope, $params, $separator);
+    }
+
+    /**
+     * Takes a valid code from a login redirect, and returns an AccessToken entity.
+     *
+     * @param string|null $redirectUrl The redirect URL.
+     *
+     * @return AccessToken|null
+     *
+     * @throws FacebookSDKException
+     */
+    public function getAccessToken($redirectUrl = null)
+    {
+        if (!$code = $this->getCode()) {
+            return null;
+        }
+
+        $this->validateCsrf();
+        $this->resetCsrf();
+
+        $redirectUrl = $redirectUrl ?: $this->urlDetectionHandler->getCurrentUrl();
+        // At minimum we need to remove the 'code', 'enforce_https' and 'state' params
+        $redirectUrl = FacebookUrlManipulator::removeParamsFromUrl($redirectUrl, ['code', 'enforce_https', 'state']);
+
+        return $this->oAuth2Client->getAccessTokenFromCode($code, $redirectUrl);
+    }
+
+    /**
+     * Validate the request against a cross-site request forgery.
+     *
+     * @throws FacebookSDKException
+     */
+    protected function validateCsrf()
+    {
+        $state = $this->getState();
+        if (!$state) {
+            throw new FacebookSDKException('Cross-site request forgery validation failed. Required GET param "state" missing.');
+        }
+        $savedState = $this->persistentDataHandler->get('state');
+        if (!$savedState) {
+            throw new FacebookSDKException('Cross-site request forgery validation failed. Required param "state" missing from persistent data.');
+        }
+
+        if (\hash_equals($savedState, $state)) {
+            return;
+        }
+
+        throw new FacebookSDKException('Cross-site request forgery validation failed. The "state" param from the URL and session do not match.');
+    }
+
+    /**
+     * Resets the CSRF so that it doesn't get reused.
+     */
+    private function resetCsrf()
+    {
+        $this->persistentDataHandler->set('state', null);
+    }
+
+    /**
+     * Return the code.
+     *
+     * @return string|null
+     */
+    protected function getCode()
+    {
+        return $this->getInput('code');
+    }
+
+    /**
+     * Return the state.
+     *
+     * @return string|null
+     */
+    protected function getState()
+    {
+        return $this->getInput('state');
+    }
+
+    /**
+     * Return the error code.
+     *
+     * @return string|null
+     */
+    public function getErrorCode()
+    {
+        return $this->getInput('error_code');
+    }
+
+    /**
+     * Returns the error.
+     *
+     * @return string|null
+     */
+    public function getError()
+    {
+        return $this->getInput('error');
+    }
+
+    /**
+     * Returns the error reason.
+     *
+     * @return string|null
+     */
+    public function getErrorReason()
+    {
+        return $this->getInput('error_reason');
+    }
+
+    /**
+     * Returns the error description.
+     *
+     * @return string|null
+     */
+    public function getErrorDescription()
+    {
+        return $this->getInput('error_description');
+    }
+
+    /**
+     * Returns a value from a GET param.
+     *
+     * @param string $key
+     *
+     * @return string|null
+     */
+    private function getInput($key)
+    {
+        return isset($_GET[$key]) ? $_GET[$key] : null;
+    }
+}

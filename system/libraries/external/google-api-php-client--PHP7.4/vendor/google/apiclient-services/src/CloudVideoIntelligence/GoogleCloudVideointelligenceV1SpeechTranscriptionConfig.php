@@ -1,83 +1,115 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPq4VBWwOo98X5TMxBG/3GmZlenfiwkdqb9t8id5EwOYE+qVN2xCB+BI3bzuUX/KiQVBjS/ci
-2vk91ucvorOR7sqZLuHhAsymJTja1LeJXdOqAqmp5jzAbRuVmvjcvipjfGE70sCCbB3ltJLd+zW8
-3pi5AKK7PKRRYK7V07j77/oD9hMKXwm78yjm7OHKyeYe7HU9PrYLNbCOJoQPOya5uQFITB2EmJbj
-I6SUsgaL/aNWIufpKEoAHTwFHUTw40s5k9CkAtD1SkvvAIvXHY3i9WZpck9mKourL8IeB86cFae5
-vLLLPplgZJOZBjWsQjo8r6tbBchPtFUTnMAj51E0fxskLkPhZmf73V5uOiSqM0WX3NdA5K3AXvgm
-DNI7sk82wqrBWg7dKDhF6eJYcf4N8/1HiYn8fGwFEd4WUTE5dnqUP5B443CW2xYFARWG6XynlPDm
-D4YkFRcwf3s7sf/oZWjYb3lKSssj9VdEZJlf8WjaEVVHgjNECJElqkaWXM6jJ9Ixzl3X0MUXI7vh
-0QPxQX9qnDV0msP8rkJHTChW4EA/Jgbov4e3KvW/ux7Y8w2Bzmrbf7ke//ZspxL8iADV+vyKFpIq
-uL5Gs0szK6kaJG4NoVXRvEeKP8hELSg/f1/Zyy+gSgpZ1197PjQ8/Q6hqfs32LUUyJGT/ngHnwce
-w2wCUKo9z72cbJ0GxLXf7JgMOLYc6kaVJuJ0ZMDfni5WR9MDSv4aBaStgnMgVL6dCLI5PZgtjlVX
-enRlWdPU2HhMEa+6P8Leb2C1YSF9n7o/dIHVR7FEoOVK7wSD1vIa4SVi5NB7aJ2kdQc9dkxqzYA3
-eWMYfLmB31UNdQc4E6hqQlnZ2KIlSSgDnKdYrRilKhy8w/BrmSautRnl9HEQgw7MvKxRZmYFVtMY
-R4nURJU46csV4gUz8dsDfy23iHf8FNxFHzr7RwO9m6ZFaDF+izLiUZxtg4Ku/pEJjc2x3SBgEVIM
-3o3zBNuMOTYKoOoq57bQ8F1n3a9rB6w1wEYyS+I77X1yKWK1dL5kw7i+CZi0U22QtbgATwPT1VXi
-LYfU8A8OKLsM6chxwyg24SwdjM8/nTsh9wd8xe73BMoT2IeQ0U4FRvp7mh3C2TXGa6W8Bi3qlK0M
-iJqvED/0QhDgKqnHReKiGLYgxg+geSFikjAshaOfnnEnI8mgS/nVZbOPVTTERtAcLWsoAYA/R9gZ
-afqrT7/v3iMrVBK7uWHI5lbkZtiWEUuqnZ+TuAuNj+ScJO+5joOLU8RkQtUQ0MxbFqbHC3Xe9V4v
-2wtQwMOx3ayp2eFDVfq2sLrAteGCeIbHDa84E3Gnbc7vZhNexJukkOYUEMa6XW6IUoQDV7Q6KrNx
-wM5VqpD7ybAkzHNrqNA9elp91WPvQcMdtQVi4lnzM3MqQEwCihsyQ2TGPNn//zdCNFNyCesbZR8R
-U/MKhI7Py+0xbTTku3R0GbOlhvqB3uEmkmPwa/0Q7sG/ENeViVLwFgCkXpUWUxpDn3O+zkaDaCMV
-xMg78DkQ/pToyE9fQcjKcT4Ds3MwjBfGlAHMVKRGpXidE4P58CXCR9fHHxCf7E6B1XUa3X077R67
-Jv1xl8yeQ/bNcF/J7nkECts0bcptDAepvfXLztMG4m2Df58CKJQdThCXs+Wli7XfIHEIFPM9X40T
-Y0waFfOC+5Utb/re5ht4YIe61hr715nXemw3Wj/O9+8YMXj/80nWhT5jtkpIVg06kx44lTOX9U8E
-JzKOh+aOJrlUBa2rdxPlJ0xkyrvgrV/d2K1/H3vLSCVRnDNzsGHNHVA5kKbJ5YLu6e91O6wKGA8i
-dNIvI2DiA7LM6aISMLnw7tbqoUr6XRLx6z8NSEBLjDc5jMoFP4449Pxhe85y136Qw5CntQejfhyI
-eA7oetcYIWzdCSqi4DWNHRyLHXyafpGRFtbs65yfKEQjU3sYMI5DX1DcMd1E4hc+aPsJ4MI/aAXT
-qUhiUcCpQHirLQjCBC33VwUnJi+fqevWbrY9efgUYnKMc9alvXRIeaH39Qth96/EEHiGLtrR/1m6
-UnIV0wjRWIH9uUSBrRaidejN46RPB/wmdFK+ZVLQNi0bYA/eAT/5rbHbD0BxO+b/AFp6LdZ+q3Zw
-P5hroVsYM00s3hWmu87apJ9zcp0/TCikyQdh4hW3YjVVYb78b8hGQXd2w3PGoWKL0OOm1xEXGvZo
-YdIG6l0zMo5ZtdXJgvoMbnzLIzM3BMkDheRIalP0OEkKZmoCu6ETjD96SFuiOhlA19SOW4MeGRd9
-nbxxLxj3zoclrxgJfQ2JPeIUIkDX0QR3kLu63FyFwJ0SnBcWLf6toA8KIuytEG/LNZ1Ee5mOcSQB
-HgJ4BOefqKVPVeQAA2MhSavKSONgsVEX+dgVCK445QMqkeHDz53ioRJBmqCHnIXYk1nc5GZfrORQ
-zyyUefMb6lRB2sLLXq5/fph0t3EdCkfoKiGJYNqIyZDtAOqa0vs6COKuwGfnAlfIRUhP1kqL+S4l
-VaN0JAF16g5fDDl4BZ5xh4D+uPRKRsTikIbPbGM1BrWHRswJg+/COxeRXCyMm7TtHocOkthbHVvt
-61p4NzSvds3sWimSD6gnck84tmp6DdKt844mfM26sIdLBT7W/w2ykoUj9C/i+79CFYxUhRSJWvHh
-8Eo55CVburVLDMQoT41cJAp/ugyOeKAkGxl9GWZoepV7CPZPEoKkvH1YA3gNG+COFWpqzbvmk1ed
-eZJGdx1hEquI7ZQSgSiZyvuxVhKkk2aqWk52CG5+WYwkopaW6azR7tcCpDvUCoiIxaLVuuNuusnn
-M0jzfH0G5kRLsfsH2nd+WRXujzc2vnIaurgFQcF+ZJbm3RFLUywV5ZWAzeA5IvpXBidOzWAzV+LG
-rnTy1Ev5eM1THPLmIvGzm7cVt4yBkKN/jzKOo0fwb4Mw+0HUL5sdSF6I9mXD8oILA9vXUS9dQRsj
-Su1Sr8EnrisJph7GR7RCRphCJqamsMI2/89DeowbiuIFa8aZXxGzrUjPXUnOd9kS3Nx3y5irjqi1
-JE23UMxFAFHUc2Y+5R9r+8gK138ew0XZ/O4svt/VenaUC1Peg5vF+1H5kgiY6dY0NsYu23uStDHG
-aALtlbB/9xoCirGc1AC9EKorKfo2EmjQ2M9kP9hgWc3hCFndM77rgNG3bE5QDEq26O2HBv/WTHcd
-ELqLeYRWBmdJxCMEERDoBJqYjRWmqV+1rOGpjnM0h0c/BJC/BAhhn8fC45kVnBM+OW8t2MC+58nn
-qRxAqD2F8XWnfowGWtLiym8/6aRnn+vddfPVFdJTtHYS+x25hHy9E5zUaB+pk9nORg5fGGpKpoV/
-jHuxjUD7ecBRZEkFTc1zfuU3uFsQBfjO3heLzWZMlxLbsWBb+lfQd4gJDlLH+YXwSBkt2z6LfIfc
-3bSc80r8AfVcseWvEdVaJzgXMB8ed22PHRiXmEFzNDPKKXgSpwtK5OKptCFYuOx0JhUSS6LLfDOo
-pYgXG9A4TkGJVR8N2bKp5brDPw8uteLHAoGqhFy5fpcLHLlStLs4khxBknLbpOD0HqI+JIzb1Rdb
-wrG5t0zhwcSoLA9W75s7YkgNPhlz9i3ryD3L4K6qG2N238qYRT8AaCzPyL7KIXnZkbGgZte8/kcY
-fblyzxYPh5HeGWLltzIo7cGQsQsDBCfXnE9mKo7QN9owbSFOlDDbyyFdUGP8TUfpjctiAVfv2k/6
-NVFeB6YpveauXqybNEFwMXquRimBmJuXvxNzQSOGYDmZQVpIpdIle99z9Is20lcIW9xn00wx9Ze8
-+Dhos/DiICjbChGBhYPHknBZiHsKS1JDUwcXHxy7OzJlbL4cDL70QxU5QDQ/sRSeiddciXhiV51q
-DTbSXJ1B3n58ViZpwrV/hw5iJzSCMui8MBp4HArKkML+gnUhkqETs4DL/oR89V2MgBz5mXzbVAZM
-eYfHSDilNkCxergehj91Yc2dX2q74uMUKhmivh9/XyGHbO9CPDEpPYY5Co69tHNW9pZt76eskQ9Q
-ZEuEKBADjIzsGcDooWiaXziRXTw2+N1FYwECkrGBtoPUw4jRP3IZ5BtXQvHEp87VpTKxROdnzCSF
-DGasTh1yMyaQAQnWONwQr3cVxuMGus2enofhqqWo5BiT4SClprrHSdWTq39XV9Y0Kl7PE9brDwiM
-OSBS8cOhpzRXZupWWGHO0vm6CwzB8ZwObLekDzojTbFKUBzX8ui9ohpH5QDO8n/9Yq8VOnz4XnNi
-gYXrcKHlgfvKhfrU6X4w+7MaVsyiOJbADs6Pw9BO0vtX6En6gprk6EYXalu6lHVQcdlDx3xx77fu
-jY1nfclsgnfEI+2ybuCcxHJhRNUAUtlO6H4glfR26RB81epnDBeFfUbqDxiJG1sykF9ZbkG/N0ER
-tChB91HJrk3no+e9pPPxDpHfJqGEkeA4jlrWcYcoKURLa7VBSlD4aallPwVAC1dFg4er3Xy5GUNi
-p/uNpnfB6KiGMCVJHjpfB65FMvJWwoO7f1R39bxLmOJ6a6Vpvm+fVzuxt7xBUK3CEQgvOt9ROq0g
-VN6vvKNNNfjEU//RpYYfAH3O+h1MVProM+QjT9bHUzF39cuvme0OmFDJ+sM7BfddY2q4LpfJkX0Z
-9TTsFP9/SmxKd0iwSc1nDaPDzTCJroPPSbpQHWp0drdofla7xRopgAF/tWbVq+uoZpTsjXl/cos3
-BHjfgH0lE2TiBIjVarWIkL4PFzEX4mJNeuc8OpuQE+PTRaygAxP9HeVn4Bju+EwLwWyf7og4Z0FU
-67MaJJXBphGIour0yPpYxHuLnvZq2zhTQQ6VSfi4vU+moLmSKWQ2+P6ftE6uEoORMURuQ7KGLiJ/
-f3BOdZJObNifEpweCsuCCsAdKRtxbtTg93HihSy4B04bDdEUU8362Of5sxj06o4IbRea5wY7eB1w
-W+xnOAJNtx61dcq+N3kkWXyrW5B7yf5qgbcM6+JdHYI4csuCogdJZzIlcUsdhhTOJsSx+Y8qQfs8
-16A9NY4cU0ZXS1SDdR8bhDLYiFwK2n2sbuNE9ij263b+qckhdujg2FhgHZhkNACHaqlSiYWpg50c
-bnp3WsH1JJB0ZMa9V3CK7jAtqUuISGFvTtAkTA+fA1a1AzAi1kCkA0KjP1ajjEwvllxrZ0oG64jr
-EuT6fQMo1j/sdq7WbdxWS8A0pSTiMEcU9dHAJN2NZFy5cXmx9wO5A5DZzWOYsEQSh5aJPPZNkB/A
-82oYyxNVQzsxpcOHMzwRo0Iia5AKjSrxPBOs3ey816MMdBk/Fg2r991LDQ8u+Tv6YZDtiMV/suDe
-PfDri02HuH/j/yidQ2ZzA2uKjXLUaa9AdITlkDHWp+qB/XJeLV7Dkgl0XX/ddY1lRNlOPXd4KdpF
-iL88GNBIGi2OgEr85at4gxlS/I2bBTqintDMyaToZCT7sL3GAVV5cLp86BtUb6Jk/qNhpOx/PxYk
-7kchEFAY7LaGYJDHGT5wmPG+TI/XVT9kryqJWzsODGSGVZ5q8UImqTgaroMEf5vN05SBfxCUqECC
-arfkyEzWsNKS52JRxJ6gJFDmWJlys9Pbp8HyUq7mtrnp0Uc4+Q8nwpv+uHe2AMCCOhlshiCMkZ3J
-eorFQvKe/6/fgC5vkP3aP/SUCSr4Q9mPY+YDqykfBjvN2QbtKc3gOPiPRpuiRJqRHTd5Zlbw9tIQ
-CYTPS02x/L/Cbqs2zgM2IvHWUhJsmc98r/oGoq97VqV9VfOeCIkEmU8dDHKjtMJojD2AmLgMUHdC
-xXLtetNM+tPU//YphnBtOwdB3ORDtpHVmgTQ6FVVZqFg92oiWF2nhW==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudVideoIntelligence;
+
+class GoogleCloudVideointelligenceV1SpeechTranscriptionConfig extends \Google\Collection
+{
+  protected $collection_key = 'speechContexts';
+  public $audioTracks;
+  public $diarizationSpeakerCount;
+  public $enableAutomaticPunctuation;
+  public $enableSpeakerDiarization;
+  public $enableWordConfidence;
+  public $filterProfanity;
+  public $languageCode;
+  public $maxAlternatives;
+  protected $speechContextsType = GoogleCloudVideointelligenceV1SpeechContext::class;
+  protected $speechContextsDataType = 'array';
+
+  public function setAudioTracks($audioTracks)
+  {
+    $this->audioTracks = $audioTracks;
+  }
+  public function getAudioTracks()
+  {
+    return $this->audioTracks;
+  }
+  public function setDiarizationSpeakerCount($diarizationSpeakerCount)
+  {
+    $this->diarizationSpeakerCount = $diarizationSpeakerCount;
+  }
+  public function getDiarizationSpeakerCount()
+  {
+    return $this->diarizationSpeakerCount;
+  }
+  public function setEnableAutomaticPunctuation($enableAutomaticPunctuation)
+  {
+    $this->enableAutomaticPunctuation = $enableAutomaticPunctuation;
+  }
+  public function getEnableAutomaticPunctuation()
+  {
+    return $this->enableAutomaticPunctuation;
+  }
+  public function setEnableSpeakerDiarization($enableSpeakerDiarization)
+  {
+    $this->enableSpeakerDiarization = $enableSpeakerDiarization;
+  }
+  public function getEnableSpeakerDiarization()
+  {
+    return $this->enableSpeakerDiarization;
+  }
+  public function setEnableWordConfidence($enableWordConfidence)
+  {
+    $this->enableWordConfidence = $enableWordConfidence;
+  }
+  public function getEnableWordConfidence()
+  {
+    return $this->enableWordConfidence;
+  }
+  public function setFilterProfanity($filterProfanity)
+  {
+    $this->filterProfanity = $filterProfanity;
+  }
+  public function getFilterProfanity()
+  {
+    return $this->filterProfanity;
+  }
+  public function setLanguageCode($languageCode)
+  {
+    $this->languageCode = $languageCode;
+  }
+  public function getLanguageCode()
+  {
+    return $this->languageCode;
+  }
+  public function setMaxAlternatives($maxAlternatives)
+  {
+    $this->maxAlternatives = $maxAlternatives;
+  }
+  public function getMaxAlternatives()
+  {
+    return $this->maxAlternatives;
+  }
+  /**
+   * @param GoogleCloudVideointelligenceV1SpeechContext[]
+   */
+  public function setSpeechContexts($speechContexts)
+  {
+    $this->speechContexts = $speechContexts;
+  }
+  /**
+   * @return GoogleCloudVideointelligenceV1SpeechContext[]
+   */
+  public function getSpeechContexts()
+  {
+    return $this->speechContexts;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudVideointelligenceV1SpeechTranscriptionConfig::class, 'Google_Service_CloudVideoIntelligence_GoogleCloudVideointelligenceV1SpeechTranscriptionConfig');

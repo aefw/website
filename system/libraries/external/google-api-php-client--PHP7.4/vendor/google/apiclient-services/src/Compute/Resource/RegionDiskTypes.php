@@ -1,54 +1,109 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-n6bMkohQ+E4=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute\Resource;
+
+use Google\Service\Compute\DiskType;
+use Google\Service\Compute\RegionDiskTypeList;
+
+/**
+ * The "regionDiskTypes" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $computeService = new Google\Service\Compute(...);
+ *   $regionDiskTypes = $computeService->regionDiskTypes;
+ *  </code>
+ */
+class RegionDiskTypes extends \Google\Service\Resource
+{
+  /**
+   * Returns the specified regional disk type. Gets a list of available disk types
+   * by making a list() request. (regionDiskTypes.get)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region The name of the region for this request.
+   * @param string $diskType Name of the disk type to return.
+   * @param array $optParams Optional parameters.
+   * @return DiskType
+   */
+  public function get($project, $region, $diskType, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'diskType' => $diskType];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], DiskType::class);
+  }
+  /**
+   * Retrieves a list of regional disk types available to the specified project.
+   * (regionDiskTypes.listRegionDiskTypes)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region The name of the region for this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return RegionDiskTypeList
+   */
+  public function listRegionDiskTypes($project, $region, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], RegionDiskTypeList::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(RegionDiskTypes::class, 'Google_Service_Compute_Resource_RegionDiskTypes');

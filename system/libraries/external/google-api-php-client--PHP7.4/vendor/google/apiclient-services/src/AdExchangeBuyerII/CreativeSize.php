@@ -1,65 +1,95 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-ffXQkH7xj1y=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AdExchangeBuyerII;
+
+class CreativeSize extends \Google\Collection
+{
+  protected $collection_key = 'companionSizes';
+  public $allowedFormats;
+  protected $companionSizesType = Size::class;
+  protected $companionSizesDataType = 'array';
+  public $creativeSizeType;
+  public $nativeTemplate;
+  protected $sizeType = Size::class;
+  protected $sizeDataType = '';
+  public $skippableAdType;
+
+  public function setAllowedFormats($allowedFormats)
+  {
+    $this->allowedFormats = $allowedFormats;
+  }
+  public function getAllowedFormats()
+  {
+    return $this->allowedFormats;
+  }
+  /**
+   * @param Size[]
+   */
+  public function setCompanionSizes($companionSizes)
+  {
+    $this->companionSizes = $companionSizes;
+  }
+  /**
+   * @return Size[]
+   */
+  public function getCompanionSizes()
+  {
+    return $this->companionSizes;
+  }
+  public function setCreativeSizeType($creativeSizeType)
+  {
+    $this->creativeSizeType = $creativeSizeType;
+  }
+  public function getCreativeSizeType()
+  {
+    return $this->creativeSizeType;
+  }
+  public function setNativeTemplate($nativeTemplate)
+  {
+    $this->nativeTemplate = $nativeTemplate;
+  }
+  public function getNativeTemplate()
+  {
+    return $this->nativeTemplate;
+  }
+  /**
+   * @param Size
+   */
+  public function setSize(Size $size)
+  {
+    $this->size = $size;
+  }
+  /**
+   * @return Size
+   */
+  public function getSize()
+  {
+    return $this->size;
+  }
+  public function setSkippableAdType($skippableAdType)
+  {
+    $this->skippableAdType = $skippableAdType;
+  }
+  public function getSkippableAdType()
+  {
+    return $this->skippableAdType;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(CreativeSize::class, 'Google_Service_AdExchangeBuyerII_CreativeSize');

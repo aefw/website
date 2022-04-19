@@ -1,290 +1,544 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-AnvWudLIOleIRdu1+gmdHI8R
+<?php
+
+namespace Firebase\JWT;
+
+use DomainException;
+use Exception;
+use InvalidArgumentException;
+use UnexpectedValueException;
+use DateTime;
+
+/**
+ * JSON Web Token implementation, based on this spec:
+ * https://tools.ietf.org/html/rfc7519
+ *
+ * PHP version 5
+ *
+ * @category Authentication
+ * @package  Authentication_JWT
+ * @author   Neuman Vong <neuman@twilio.com>
+ * @author   Anant Narayanan <anant@php.net>
+ * @license  http://opensource.org/licenses/BSD-3-Clause 3-clause BSD
+ * @link     https://github.com/firebase/php-jwt
+ */
+class JWT
+{
+    const ASN1_INTEGER = 0x02;
+    const ASN1_SEQUENCE = 0x10;
+    const ASN1_BIT_STRING = 0x03;
+
+    /**
+     * When checking nbf, iat or expiration times,
+     * we want to provide some extra leeway time to
+     * account for clock skew.
+     */
+    public static $leeway = 0;
+
+    /**
+     * Allow the current timestamp to be specified.
+     * Useful for fixing a value within unit testing.
+     *
+     * Will default to PHP time() value if null.
+     */
+    public static $timestamp = null;
+
+    public static $supported_algs = array(
+        'ES384' => array('openssl', 'SHA384'),
+        'ES256' => array('openssl', 'SHA256'),
+        'HS256' => array('hash_hmac', 'SHA256'),
+        'HS384' => array('hash_hmac', 'SHA384'),
+        'HS512' => array('hash_hmac', 'SHA512'),
+        'RS256' => array('openssl', 'SHA256'),
+        'RS384' => array('openssl', 'SHA384'),
+        'RS512' => array('openssl', 'SHA512'),
+        'EdDSA' => array('sodium_crypto', 'EdDSA'),
+    );
+
+    /**
+     * Decodes a JWT string into a PHP object.
+     *
+     * @param string                    $jwt            The JWT
+     * @param string|array|resource     $key            The key, or map of keys.
+     *                                                  If the algorithm used is asymmetric, this is the public key
+     * @param array                     $allowed_algs   List of supported verification algorithms
+     *                                                  Supported algorithms are 'ES384','ES256', 'HS256', 'HS384',
+     *                                                  'HS512', 'RS256', 'RS384', and 'RS512'
+     *
+     * @return object The JWT's payload as a PHP object
+     *
+     * @throws InvalidArgumentException     Provided JWT was empty
+     * @throws UnexpectedValueException     Provided JWT was invalid
+     * @throws SignatureInvalidException    Provided JWT was invalid because the signature verification failed
+     * @throws BeforeValidException         Provided JWT is trying to be used before it's eligible as defined by 'nbf'
+     * @throws BeforeValidException         Provided JWT is trying to be used before it's been created as defined by 'iat'
+     * @throws ExpiredException             Provided JWT has since expired, as defined by the 'exp' claim
+     *
+     * @uses jsonDecode
+     * @uses urlsafeB64Decode
+     */
+    public static function decode($jwt, $key, array $allowed_algs = array())
+    {
+        $timestamp = \is_null(static::$timestamp) ? \time() : static::$timestamp;
+
+        if (empty($key)) {
+            throw new InvalidArgumentException('Key may not be empty');
+        }
+        $tks = \explode('.', $jwt);
+        if (\count($tks) != 3) {
+            throw new UnexpectedValueException('Wrong number of segments');
+        }
+        list($headb64, $bodyb64, $cryptob64) = $tks;
+        if (null === ($header = static::jsonDecode(static::urlsafeB64Decode($headb64)))) {
+            throw new UnexpectedValueException('Invalid header encoding');
+        }
+        if (null === $payload = static::jsonDecode(static::urlsafeB64Decode($bodyb64))) {
+            throw new UnexpectedValueException('Invalid claims encoding');
+        }
+        if (false === ($sig = static::urlsafeB64Decode($cryptob64))) {
+            throw new UnexpectedValueException('Invalid signature encoding');
+        }
+        if (empty($header->alg)) {
+            throw new UnexpectedValueException('Empty algorithm');
+        }
+        if (empty(static::$supported_algs[$header->alg])) {
+            throw new UnexpectedValueException('Algorithm not supported');
+        }
+        if (!\in_array($header->alg, $allowed_algs)) {
+            throw new UnexpectedValueException('Algorithm not allowed');
+        }
+        if ($header->alg === 'ES256' || $header->alg === 'ES384') {
+            // OpenSSL expects an ASN.1 DER sequence for ES256/ES384 signatures
+            $sig = self::signatureToDER($sig);
+        }
+
+        if (\is_array($key) || $key instanceof \ArrayAccess) {
+            if (isset($header->kid)) {
+                if (!isset($key[$header->kid])) {
+                    throw new UnexpectedValueException('"kid" invalid, unable to lookup correct key');
+                }
+                $key = $key[$header->kid];
+            } else {
+                throw new UnexpectedValueException('"kid" empty, unable to lookup correct key');
+            }
+        }
+
+        // Check the signature
+        if (!static::verify("$headb64.$bodyb64", $sig, $key, $header->alg)) {
+            throw new SignatureInvalidException('Signature verification failed');
+        }
+
+        // Check the nbf if it is defined. This is the time that the
+        // token can actually be used. If it's not yet that time, abort.
+        if (isset($payload->nbf) && $payload->nbf > ($timestamp + static::$leeway)) {
+            throw new BeforeValidException(
+                'Cannot handle token prior to ' . \date(DateTime::ISO8601, $payload->nbf)
+            );
+        }
+
+        // Check that this token has been created before 'now'. This prevents
+        // using tokens that have been created for later use (and haven't
+        // correctly used the nbf claim).
+        if (isset($payload->iat) && $payload->iat > ($timestamp + static::$leeway)) {
+            throw new BeforeValidException(
+                'Cannot handle token prior to ' . \date(DateTime::ISO8601, $payload->iat)
+            );
+        }
+
+        // Check if this token has expired.
+        if (isset($payload->exp) && ($timestamp - static::$leeway) >= $payload->exp) {
+            throw new ExpiredException('Expired token');
+        }
+
+        return $payload;
+    }
+
+    /**
+     * Converts and signs a PHP object or array into a JWT string.
+     *
+     * @param object|array      $payload    PHP object or array
+     * @param string|resource   $key        The secret key.
+     *                                      If the algorithm used is asymmetric, this is the private key
+     * @param string            $alg        The signing algorithm.
+     *                                      Supported algorithms are 'ES384','ES256', 'HS256', 'HS384',
+     *                                      'HS512', 'RS256', 'RS384', and 'RS512'
+     * @param mixed             $keyId
+     * @param array             $head       An array with header elements to attach
+     *
+     * @return string A signed JWT
+     *
+     * @uses jsonEncode
+     * @uses urlsafeB64Encode
+     */
+    public static function encode($payload, $key, $alg = 'HS256', $keyId = null, $head = null)
+    {
+        $header = array('typ' => 'JWT', 'alg' => $alg);
+        if ($keyId !== null) {
+            $header['kid'] = $keyId;
+        }
+        if (isset($head) && \is_array($head)) {
+            $header = \array_merge($head, $header);
+        }
+        $segments = array();
+        $segments[] = static::urlsafeB64Encode(static::jsonEncode($header));
+        $segments[] = static::urlsafeB64Encode(static::jsonEncode($payload));
+        $signing_input = \implode('.', $segments);
+
+        $signature = static::sign($signing_input, $key, $alg);
+        $segments[] = static::urlsafeB64Encode($signature);
+
+        return \implode('.', $segments);
+    }
+
+    /**
+     * Sign a string with a given key and algorithm.
+     *
+     * @param string            $msg    The message to sign
+     * @param string|resource   $key    The secret key
+     * @param string            $alg    The signing algorithm.
+     *                                  Supported algorithms are 'ES384','ES256', 'HS256', 'HS384',
+     *                                  'HS512', 'RS256', 'RS384', and 'RS512'
+     *
+     * @return string An encrypted message
+     *
+     * @throws DomainException Unsupported algorithm or bad key was specified
+     */
+    public static function sign($msg, $key, $alg = 'HS256')
+    {
+        if (empty(static::$supported_algs[$alg])) {
+            throw new DomainException('Algorithm not supported');
+        }
+        list($function, $algorithm) = static::$supported_algs[$alg];
+        switch ($function) {
+            case 'hash_hmac':
+                return \hash_hmac($algorithm, $msg, $key, true);
+            case 'openssl':
+                $signature = '';
+                $success = \openssl_sign($msg, $signature, $key, $algorithm);
+                if (!$success) {
+                    throw new DomainException("OpenSSL unable to sign data");
+                }
+                if ($alg === 'ES256') {
+                    $signature = self::signatureFromDER($signature, 256);
+                } elseif ($alg === 'ES384') {
+                    $signature = self::signatureFromDER($signature, 384);
+                }
+                return $signature;
+            case 'sodium_crypto':
+                if (!function_exists('sodium_crypto_sign_detached')) {
+                    throw new DomainException('libsodium is not available');
+                }
+                try {
+                    // The last non-empty line is used as the key.
+                    $lines = array_filter(explode("\n", $key));
+                    $key = base64_decode(end($lines));
+                    return sodium_crypto_sign_detached($msg, $key);
+                } catch (Exception $e) {
+                    throw new DomainException($e->getMessage(), 0, $e);
+                }
+        }
+    }
+
+    /**
+     * Verify a signature with the message, key and method. Not all methods
+     * are symmetric, so we must have a separate verify and sign method.
+     *
+     * @param string            $msg        The original message (header and body)
+     * @param string            $signature  The original signature
+     * @param string|resource   $key        For HS*, a string key works. for RS*, must be a resource of an openssl public key
+     * @param string            $alg        The algorithm
+     *
+     * @return bool
+     *
+     * @throws DomainException Invalid Algorithm, bad key, or OpenSSL failure
+     */
+    private static function verify($msg, $signature, $key, $alg)
+    {
+        if (empty(static::$supported_algs[$alg])) {
+            throw new DomainException('Algorithm not supported');
+        }
+
+        list($function, $algorithm) = static::$supported_algs[$alg];
+        switch ($function) {
+            case 'openssl':
+                $success = \openssl_verify($msg, $signature, $key, $algorithm);
+                if ($success === 1) {
+                    return true;
+                } elseif ($success === 0) {
+                    return false;
+                }
+                // returns 1 on success, 0 on failure, -1 on error.
+                throw new DomainException(
+                    'OpenSSL error: ' . \openssl_error_string()
+                );
+            case 'sodium_crypto':
+              if (!function_exists('sodium_crypto_sign_verify_detached')) {
+                  throw new DomainException('libsodium is not available');
+              }
+              try {
+                  // The last non-empty line is used as the key.
+                  $lines = array_filter(explode("\n", $key));
+                  $key = base64_decode(end($lines));
+                  return sodium_crypto_sign_verify_detached($signature, $msg, $key);
+              } catch (Exception $e) {
+                  throw new DomainException($e->getMessage(), 0, $e);
+              }
+            case 'hash_hmac':
+            default:
+                $hash = \hash_hmac($algorithm, $msg, $key, true);
+                if (\function_exists('hash_equals')) {
+                    return \hash_equals($signature, $hash);
+                }
+                $len = \min(static::safeStrlen($signature), static::safeStrlen($hash));
+
+                $status = 0;
+                for ($i = 0; $i < $len; $i++) {
+                    $status |= (\ord($signature[$i]) ^ \ord($hash[$i]));
+                }
+                $status |= (static::safeStrlen($signature) ^ static::safeStrlen($hash));
+
+                return ($status === 0);
+        }
+    }
+
+    /**
+     * Decode a JSON string into a PHP object.
+     *
+     * @param string $input JSON string
+     *
+     * @return object Object representation of JSON string
+     *
+     * @throws DomainException Provided string was invalid JSON
+     */
+    public static function jsonDecode($input)
+    {
+        if (\version_compare(PHP_VERSION, '5.4.0', '>=') && !(\defined('JSON_C_VERSION') && PHP_INT_SIZE > 4)) {
+            /** In PHP >=5.4.0, json_decode() accepts an options parameter, that allows you
+             * to specify that large ints (like Steam Transaction IDs) should be treated as
+             * strings, rather than the PHP default behaviour of converting them to floats.
+             */
+            $obj = \json_decode($input, false, 512, JSON_BIGINT_AS_STRING);
+        } else {
+            /** Not all servers will support that, however, so for older versions we must
+             * manually detect large ints in the JSON string and quote them (thus converting
+             *them to strings) before decoding, hence the preg_replace() call.
+             */
+            $max_int_length = \strlen((string) PHP_INT_MAX) - 1;
+            $json_without_bigints = \preg_replace('/:\s*(-?\d{'.$max_int_length.',})/', ': "$1"', $input);
+            $obj = \json_decode($json_without_bigints);
+        }
+
+        if ($errno = \json_last_error()) {
+            static::handleJsonError($errno);
+        } elseif ($obj === null && $input !== 'null') {
+            throw new DomainException('Null result with non-null input');
+        }
+        return $obj;
+    }
+
+    /**
+     * Encode a PHP object into a JSON string.
+     *
+     * @param object|array $input A PHP object or array
+     *
+     * @return string JSON representation of the PHP object or array
+     *
+     * @throws DomainException Provided object could not be encoded to valid JSON
+     */
+    public static function jsonEncode($input)
+    {
+        $json = \json_encode($input);
+        if ($errno = \json_last_error()) {
+            static::handleJsonError($errno);
+        } elseif ($json === 'null' && $input !== null) {
+            throw new DomainException('Null result with non-null input');
+        }
+        return $json;
+    }
+
+    /**
+     * Decode a string with URL-safe Base64.
+     *
+     * @param string $input A Base64 encoded string
+     *
+     * @return string A decoded string
+     */
+    public static function urlsafeB64Decode($input)
+    {
+        $remainder = \strlen($input) % 4;
+        if ($remainder) {
+            $padlen = 4 - $remainder;
+            $input .= \str_repeat('=', $padlen);
+        }
+        return \base64_decode(\strtr($input, '-_', '+/'));
+    }
+
+    /**
+     * Encode a string with URL-safe Base64.
+     *
+     * @param string $input The string you want encoded
+     *
+     * @return string The base64 encode of what you passed in
+     */
+    public static function urlsafeB64Encode($input)
+    {
+        return \str_replace('=', '', \strtr(\base64_encode($input), '+/', '-_'));
+    }
+
+    /**
+     * Helper method to create a JSON error.
+     *
+     * @param int $errno An error number from json_last_error()
+     *
+     * @return void
+     */
+    private static function handleJsonError($errno)
+    {
+        $messages = array(
+            JSON_ERROR_DEPTH => 'Maximum stack depth exceeded',
+            JSON_ERROR_STATE_MISMATCH => 'Invalid or malformed JSON',
+            JSON_ERROR_CTRL_CHAR => 'Unexpected control character found',
+            JSON_ERROR_SYNTAX => 'Syntax error, malformed JSON',
+            JSON_ERROR_UTF8 => 'Malformed UTF-8 characters' //PHP >= 5.3.3
+        );
+        throw new DomainException(
+            isset($messages[$errno])
+            ? $messages[$errno]
+            : 'Unknown JSON error: ' . $errno
+        );
+    }
+
+    /**
+     * Get the number of bytes in cryptographic strings.
+     *
+     * @param string $str
+     *
+     * @return int
+     */
+    private static function safeStrlen($str)
+    {
+        if (\function_exists('mb_strlen')) {
+            return \mb_strlen($str, '8bit');
+        }
+        return \strlen($str);
+    }
+
+    /**
+     * Convert an ECDSA signature to an ASN.1 DER sequence
+     *
+     * @param   string $sig The ECDSA signature to convert
+     * @return  string The encoded DER object
+     */
+    private static function signatureToDER($sig)
+    {
+        // Separate the signature into r-value and s-value
+        list($r, $s) = \str_split($sig, (int) (\strlen($sig) / 2));
+
+        // Trim leading zeros
+        $r = \ltrim($r, "\x00");
+        $s = \ltrim($s, "\x00");
+
+        // Convert r-value and s-value from unsigned big-endian integers to
+        // signed two's complement
+        if (\ord($r[0]) > 0x7f) {
+            $r = "\x00" . $r;
+        }
+        if (\ord($s[0]) > 0x7f) {
+            $s = "\x00" . $s;
+        }
+
+        return self::encodeDER(
+            self::ASN1_SEQUENCE,
+            self::encodeDER(self::ASN1_INTEGER, $r) .
+            self::encodeDER(self::ASN1_INTEGER, $s)
+        );
+    }
+
+    /**
+     * Encodes a value into a DER object.
+     *
+     * @param   int     $type DER tag
+     * @param   string  $value the value to encode
+     * @return  string  the encoded object
+     */
+    private static function encodeDER($type, $value)
+    {
+        $tag_header = 0;
+        if ($type === self::ASN1_SEQUENCE) {
+            $tag_header |= 0x20;
+        }
+
+        // Type
+        $der = \chr($tag_header | $type);
+
+        // Length
+        $der .= \chr(\strlen($value));
+
+        return $der . $value;
+    }
+
+    /**
+     * Encodes signature from a DER object.
+     *
+     * @param   string  $der binary signature in DER format
+     * @param   int     $keySize the number of bits in the key
+     * @return  string  the signature
+     */
+    private static function signatureFromDER($der, $keySize)
+    {
+        // OpenSSL returns the ECDSA signatures as a binary ASN.1 DER SEQUENCE
+        list($offset, $_) = self::readDER($der);
+        list($offset, $r) = self::readDER($der, $offset);
+        list($offset, $s) = self::readDER($der, $offset);
+
+        // Convert r-value and s-value from signed two's compliment to unsigned
+        // big-endian integers
+        $r = \ltrim($r, "\x00");
+        $s = \ltrim($s, "\x00");
+
+        // Pad out r and s so that they are $keySize bits long
+        $r = \str_pad($r, $keySize / 8, "\x00", STR_PAD_LEFT);
+        $s = \str_pad($s, $keySize / 8, "\x00", STR_PAD_LEFT);
+
+        return $r . $s;
+    }
+
+    /**
+     * Reads binary DER-encoded data and decodes into a single object
+     *
+     * @param string $der the binary data in DER format
+     * @param int $offset the offset of the data stream containing the object
+     * to decode
+     * @return array [$offset, $data] the new offset and the decoded object
+     */
+    private static function readDER($der, $offset = 0)
+    {
+        $pos = $offset;
+        $size = \strlen($der);
+        $constructed = (\ord($der[$pos]) >> 5) & 0x01;
+        $type = \ord($der[$pos++]) & 0x1f;
+
+        // Length
+        $len = \ord($der[$pos++]);
+        if ($len & 0x80) {
+            $n = $len & 0x1f;
+            $len = 0;
+            while ($n-- && $pos < $size) {
+                $len = ($len << 8) | \ord($der[$pos++]);
+            }
+        }
+
+        // Value
+        if ($type == self::ASN1_BIT_STRING) {
+            $pos++; // Skip the first contents octet (padding indicator)
+            $data = \substr($der, $pos, $len - 1);
+            $pos += $len - 1;
+        } elseif (!$constructed) {
+            $data = \substr($der, $pos, $len);
+            $pos += $len;
+        } else {
+            $data = null;
+        }
+
+        return array($pos, $data);
+    }
+}

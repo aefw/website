@@ -1,66 +1,96 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudRetail;
+
+class GoogleCloudRetailV2PredictRequest extends \Google\Model
+{
+  public $filter;
+  public $labels;
+  public $pageSize;
+  public $pageToken;
+  public $params;
+  protected $userEventType = GoogleCloudRetailV2UserEvent::class;
+  protected $userEventDataType = '';
+  public $validateOnly;
+
+  public function setFilter($filter)
+  {
+    $this->filter = $filter;
+  }
+  public function getFilter()
+  {
+    return $this->filter;
+  }
+  public function setLabels($labels)
+  {
+    $this->labels = $labels;
+  }
+  public function getLabels()
+  {
+    return $this->labels;
+  }
+  public function setPageSize($pageSize)
+  {
+    $this->pageSize = $pageSize;
+  }
+  public function getPageSize()
+  {
+    return $this->pageSize;
+  }
+  public function setPageToken($pageToken)
+  {
+    $this->pageToken = $pageToken;
+  }
+  public function getPageToken()
+  {
+    return $this->pageToken;
+  }
+  public function setParams($params)
+  {
+    $this->params = $params;
+  }
+  public function getParams()
+  {
+    return $this->params;
+  }
+  /**
+   * @param GoogleCloudRetailV2UserEvent
+   */
+  public function setUserEvent(GoogleCloudRetailV2UserEvent $userEvent)
+  {
+    $this->userEvent = $userEvent;
+  }
+  /**
+   * @return GoogleCloudRetailV2UserEvent
+   */
+  public function getUserEvent()
+  {
+    return $this->userEvent;
+  }
+  public function setValidateOnly($validateOnly)
+  {
+    $this->validateOnly = $validateOnly;
+  }
+  public function getValidateOnly()
+  {
+    return $this->validateOnly;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleCloudRetailV2PredictRequest::class, 'Google_Service_CloudRetail_GoogleCloudRetailV2PredictRequest');

@@ -1,129 +1,257 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DeploymentManager;
+
+class Operation extends \Google\Collection
+{
+  protected $collection_key = 'warnings';
+  public $clientOperationId;
+  public $creationTimestamp;
+  public $description;
+  public $endTime;
+  protected $errorType = OperationError::class;
+  protected $errorDataType = '';
+  public $httpErrorMessage;
+  public $httpErrorStatusCode;
+  public $id;
+  public $insertTime;
+  public $kind;
+  public $name;
+  public $operationGroupId;
+  public $operationType;
+  public $progress;
+  public $region;
+  public $selfLink;
+  public $startTime;
+  public $status;
+  public $statusMessage;
+  public $targetId;
+  public $targetLink;
+  public $user;
+  protected $warningsType = OperationWarnings::class;
+  protected $warningsDataType = 'array';
+  public $zone;
+
+  public function setClientOperationId($clientOperationId)
+  {
+    $this->clientOperationId = $clientOperationId;
+  }
+  public function getClientOperationId()
+  {
+    return $this->clientOperationId;
+  }
+  public function setCreationTimestamp($creationTimestamp)
+  {
+    $this->creationTimestamp = $creationTimestamp;
+  }
+  public function getCreationTimestamp()
+  {
+    return $this->creationTimestamp;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setEndTime($endTime)
+  {
+    $this->endTime = $endTime;
+  }
+  public function getEndTime()
+  {
+    return $this->endTime;
+  }
+  /**
+   * @param OperationError
+   */
+  public function setError(OperationError $error)
+  {
+    $this->error = $error;
+  }
+  /**
+   * @return OperationError
+   */
+  public function getError()
+  {
+    return $this->error;
+  }
+  public function setHttpErrorMessage($httpErrorMessage)
+  {
+    $this->httpErrorMessage = $httpErrorMessage;
+  }
+  public function getHttpErrorMessage()
+  {
+    return $this->httpErrorMessage;
+  }
+  public function setHttpErrorStatusCode($httpErrorStatusCode)
+  {
+    $this->httpErrorStatusCode = $httpErrorStatusCode;
+  }
+  public function getHttpErrorStatusCode()
+  {
+    return $this->httpErrorStatusCode;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setInsertTime($insertTime)
+  {
+    $this->insertTime = $insertTime;
+  }
+  public function getInsertTime()
+  {
+    return $this->insertTime;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setOperationGroupId($operationGroupId)
+  {
+    $this->operationGroupId = $operationGroupId;
+  }
+  public function getOperationGroupId()
+  {
+    return $this->operationGroupId;
+  }
+  public function setOperationType($operationType)
+  {
+    $this->operationType = $operationType;
+  }
+  public function getOperationType()
+  {
+    return $this->operationType;
+  }
+  public function setProgress($progress)
+  {
+    $this->progress = $progress;
+  }
+  public function getProgress()
+  {
+    return $this->progress;
+  }
+  public function setRegion($region)
+  {
+    $this->region = $region;
+  }
+  public function getRegion()
+  {
+    return $this->region;
+  }
+  public function setSelfLink($selfLink)
+  {
+    $this->selfLink = $selfLink;
+  }
+  public function getSelfLink()
+  {
+    return $this->selfLink;
+  }
+  public function setStartTime($startTime)
+  {
+    $this->startTime = $startTime;
+  }
+  public function getStartTime()
+  {
+    return $this->startTime;
+  }
+  public function setStatus($status)
+  {
+    $this->status = $status;
+  }
+  public function getStatus()
+  {
+    return $this->status;
+  }
+  public function setStatusMessage($statusMessage)
+  {
+    $this->statusMessage = $statusMessage;
+  }
+  public function getStatusMessage()
+  {
+    return $this->statusMessage;
+  }
+  public function setTargetId($targetId)
+  {
+    $this->targetId = $targetId;
+  }
+  public function getTargetId()
+  {
+    return $this->targetId;
+  }
+  public function setTargetLink($targetLink)
+  {
+    $this->targetLink = $targetLink;
+  }
+  public function getTargetLink()
+  {
+    return $this->targetLink;
+  }
+  public function setUser($user)
+  {
+    $this->user = $user;
+  }
+  public function getUser()
+  {
+    return $this->user;
+  }
+  /**
+   * @param OperationWarnings[]
+   */
+  public function setWarnings($warnings)
+  {
+    $this->warnings = $warnings;
+  }
+  /**
+   * @return OperationWarnings[]
+   */
+  public function getWarnings()
+  {
+    return $this->warnings;
+  }
+  public function setZone($zone)
+  {
+    $this->zone = $zone;
+  }
+  public function getZone()
+  {
+    return $this->zone;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Operation::class, 'Google_Service_DeploymentManager_Operation');

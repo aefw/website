@@ -1,71 +1,105 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-kCuRiE+aB0q=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\WorkflowExecutions;
+
+class Execution extends \Google\Model
+{
+  public $argument;
+  public $endTime;
+  protected $errorType = Error::class;
+  protected $errorDataType = '';
+  public $name;
+  public $result;
+  public $startTime;
+  public $state;
+  public $workflowRevisionId;
+
+  public function setArgument($argument)
+  {
+    $this->argument = $argument;
+  }
+  public function getArgument()
+  {
+    return $this->argument;
+  }
+  public function setEndTime($endTime)
+  {
+    $this->endTime = $endTime;
+  }
+  public function getEndTime()
+  {
+    return $this->endTime;
+  }
+  /**
+   * @param Error
+   */
+  public function setError(Error $error)
+  {
+    $this->error = $error;
+  }
+  /**
+   * @return Error
+   */
+  public function getError()
+  {
+    return $this->error;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  public function setResult($result)
+  {
+    $this->result = $result;
+  }
+  public function getResult()
+  {
+    return $this->result;
+  }
+  public function setStartTime($startTime)
+  {
+    $this->startTime = $startTime;
+  }
+  public function getStartTime()
+  {
+    return $this->startTime;
+  }
+  public function setState($state)
+  {
+    $this->state = $state;
+  }
+  public function getState()
+  {
+    return $this->state;
+  }
+  public function setWorkflowRevisionId($workflowRevisionId)
+  {
+    $this->workflowRevisionId = $workflowRevisionId;
+  }
+  public function getWorkflowRevisionId()
+  {
+    return $this->workflowRevisionId;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Execution::class, 'Google_Service_WorkflowExecutions_Execution');

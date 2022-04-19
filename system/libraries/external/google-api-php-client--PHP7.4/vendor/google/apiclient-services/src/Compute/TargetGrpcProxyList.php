@@ -1,65 +1,95 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-cxQRHRFkjMBrgvq=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute;
+
+class TargetGrpcProxyList extends \Google\Collection
+{
+  protected $collection_key = 'items';
+  public $id;
+  protected $itemsType = TargetGrpcProxy::class;
+  protected $itemsDataType = 'array';
+  public $kind;
+  public $nextPageToken;
+  public $selfLink;
+  protected $warningType = TargetGrpcProxyListWarning::class;
+  protected $warningDataType = '';
+
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  /**
+   * @param TargetGrpcProxy[]
+   */
+  public function setItems($items)
+  {
+    $this->items = $items;
+  }
+  /**
+   * @return TargetGrpcProxy[]
+   */
+  public function getItems()
+  {
+    return $this->items;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setNextPageToken($nextPageToken)
+  {
+    $this->nextPageToken = $nextPageToken;
+  }
+  public function getNextPageToken()
+  {
+    return $this->nextPageToken;
+  }
+  public function setSelfLink($selfLink)
+  {
+    $this->selfLink = $selfLink;
+  }
+  public function getSelfLink()
+  {
+    return $this->selfLink;
+  }
+  /**
+   * @param TargetGrpcProxyListWarning
+   */
+  public function setWarning(TargetGrpcProxyListWarning $warning)
+  {
+    $this->warning = $warning;
+  }
+  /**
+   * @return TargetGrpcProxyListWarning
+   */
+  public function getWarning()
+  {
+    return $this->warning;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(TargetGrpcProxyList::class, 'Google_Service_Compute_TargetGrpcProxyList');

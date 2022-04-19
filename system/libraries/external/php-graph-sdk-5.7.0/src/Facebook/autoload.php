@@ -1,59 +1,81 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-KtHv/7nULMumfyCbp14=
+<?php
+/**
+ * Copyright 2017 Facebook, Inc.
+ *
+ * You are hereby granted a non-exclusive, worldwide, royalty-free license to
+ * use, copy, modify, and distribute this software in source code or binary
+ * form for use in connection with the web services and APIs provided by
+ * Facebook.
+ *
+ * As with any software that integrates with the Facebook platform, your use
+ * of this software is subject to the Facebook Developer Principles and
+ * Policies [http://developers.facebook.com/policy/]. This copyright notice
+ * shall be included in all copies or substantial portions of the software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+ * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+ *
+ */
+
+/**
+ * You only need this file if you are not using composer.
+ * Why are you not using composer?
+ * https://getcomposer.org/
+ */
+
+if (version_compare(PHP_VERSION, '5.4.0', '<')) {
+    throw new Exception('The Facebook SDK requires PHP version 5.4 or higher.');
+}
+
+require_once __DIR__ . '/polyfills.php';
+
+/**
+ * Register the autoloader for the Facebook SDK classes.
+ *
+ * Based off the official PSR-4 autoloader example found here:
+ * https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader-examples.md
+ *
+ * @param string $class The fully-qualified class name.
+ *
+ * @return void
+ */
+spl_autoload_register(function ($class) {
+    // project-specific namespace prefix
+    $prefix = 'Facebook\\';
+
+    // For backwards compatibility
+    $customBaseDir = '';
+    // @todo v6: Remove support for 'FACEBOOK_SDK_V4_SRC_DIR'
+    if (defined('FACEBOOK_SDK_V4_SRC_DIR')) {
+        $customBaseDir = FACEBOOK_SDK_V4_SRC_DIR;
+    } elseif (defined('FACEBOOK_SDK_SRC_DIR')) {
+        $customBaseDir = FACEBOOK_SDK_SRC_DIR;
+    }
+    // base directory for the namespace prefix
+    $baseDir = $customBaseDir ?: __DIR__ . '/';
+
+    // does the class use the namespace prefix?
+    $len = strlen($prefix);
+    if (strncmp($prefix, $class, $len) !== 0) {
+        // no, move to the next registered autoloader
+        return;
+    }
+
+    // get the relative class name
+    $relativeClass = substr($class, $len);
+
+    // replace the namespace prefix with the base directory, replace namespace
+    // separators with directory separators in the relative class name, append
+    // with .php
+    $file = rtrim($baseDir, '/') . '/' . str_replace('\\', '/', $relativeClass) . '.php';
+
+    // if the file exists, require it
+    if (file_exists($file)) {
+        require $file;
+    }
+});

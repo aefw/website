@@ -1,67 +1,94 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-IOx3i6pNk05v0fdxXatSQBKKZQHlDCr8
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute;
+
+class InstanceGroupManagerUpdatePolicy extends \Google\Model
+{
+  public $instanceRedistributionType;
+  protected $maxSurgeType = FixedOrPercent::class;
+  protected $maxSurgeDataType = '';
+  protected $maxUnavailableType = FixedOrPercent::class;
+  protected $maxUnavailableDataType = '';
+  public $minimalAction;
+  public $replacementMethod;
+  public $type;
+
+  public function setInstanceRedistributionType($instanceRedistributionType)
+  {
+    $this->instanceRedistributionType = $instanceRedistributionType;
+  }
+  public function getInstanceRedistributionType()
+  {
+    return $this->instanceRedistributionType;
+  }
+  /**
+   * @param FixedOrPercent
+   */
+  public function setMaxSurge(FixedOrPercent $maxSurge)
+  {
+    $this->maxSurge = $maxSurge;
+  }
+  /**
+   * @return FixedOrPercent
+   */
+  public function getMaxSurge()
+  {
+    return $this->maxSurge;
+  }
+  /**
+   * @param FixedOrPercent
+   */
+  public function setMaxUnavailable(FixedOrPercent $maxUnavailable)
+  {
+    $this->maxUnavailable = $maxUnavailable;
+  }
+  /**
+   * @return FixedOrPercent
+   */
+  public function getMaxUnavailable()
+  {
+    return $this->maxUnavailable;
+  }
+  public function setMinimalAction($minimalAction)
+  {
+    $this->minimalAction = $minimalAction;
+  }
+  public function getMinimalAction()
+  {
+    return $this->minimalAction;
+  }
+  public function setReplacementMethod($replacementMethod)
+  {
+    $this->replacementMethod = $replacementMethod;
+  }
+  public function getReplacementMethod()
+  {
+    return $this->replacementMethod;
+  }
+  public function setType($type)
+  {
+    $this->type = $type;
+  }
+  public function getType()
+  {
+    return $this->type;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(InstanceGroupManagerUpdatePolicy::class, 'Google_Service_Compute_InstanceGroupManagerUpdatePolicy');

@@ -1,89 +1,174 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPvdeqdFcVoT4ZoD7KFGb73I6HLjakTsYrEnQuyj5X74NC6Z6uLpNPxBt71TNfYhR2UfDQYHr
-dAjuqkZSBMxghsaUV2hrusI94LIMxUApC+uJnlZqG6dix4q1eYbCwSUiTCIADrhUemfDIgzyUNGJ
-2bD5yUnKaMsn2jA+XvqEWl0LWz01Ur9eDkzmnWudRfjSH8LiqWmmpyDO9hBKGVL1eswGAUoE8bs5
-ebI1kR8S0/rbZBWcJ/A1eB+17NhOWKZGKwCVlbVEXBvtqRxaK9QnSEEnsOtYS5CkDLI4g2o1fZvA
-1ULL5tExY8CYWl0MgIDtY5Hj1K//KDzJ/l28hSFJ6MKujwiIqai9cG6dZFsgKFzkxI8SNpWcqprn
-BD0RI8ngiTlodj/285FURl271KztVJYEANsJbmHRxqbtmBHFSkMULuO/5aZy9QO/Kf1bdRLbIbZ0
-HTtR+g7i3Qh/IMBrjGqcDwkAyUy+HKMiw23T3B/a79N2qSAhfKp35DyXespPVH2hqeU+AG+WIENR
-6xCHQy9NiWoZAR+vG0WmhmrqpvmT1eekdnJV8/8IJNgNmDyBuTwiOqG3/pXTKpNnXgODqkbr9xQF
-3sZGniKMs48q+Z5USW/xn9W1YknzEXkhLYndwqYUVQcclmRhu4LnBnNvy/FxdNEG6dGRKqUpen3l
-tpNqt85CvNdDLWDTQZvfAtgrrr9ZSAVTbV/3wQIG7KTmTiR0cx1/MZunp9vfz2+vWZxfZ320jOVj
-sTb5BaI+O5RkIJi1VO/2EcRyaomNguyP04pHZNWKB9uME48ADS3DT53r3+2wKBj3FGCXc9hF7bpF
-D5lCtxoJdVPgLElz19HCtrcL4/NHSxZTtRyVjhFdQWIYmL3WNx62ojCW2O1Ka77/2yaOcyH1zhtP
-JA+dsUH+3eQ3WXb+Rf3bQns1Go204VAL7tZVBONi+nuVLPxyD2qg6V2iV6bOsOAXpspBQq5A2JVz
-lNnqMhS8iztbH05nai1RRxjcD7FBkJhC1WmL/ABjD3ak5WrRxKepIlfMydgFpx9V9tw7RzocaX/Y
-/sZ17uDXLy1BBAVZHk8QYhi42zBuuHorrdhm6PW+IqljfxXIc4BiDjSjRzBUZjwhHUaGzXHdJzWd
-SI32X5qlv8idekLwdEfELvVT1FhmoNXrBco9FhMsDv66GI6HSzm1h9uXMx2Rj4sKNjybLVFfx/Kp
-kxVz5CD80sozkcMk4KfdhHdc54PWKvwzxYZrHZl+FtoGozRD+bqzuAZRDI+wI5UpT9Eh/tM14q46
-HoJUMWdVG/fkTJDzlB0RqKkSRKIc+yeCGY/Um54BYligxjNtIn/5U+BnaCY9je0Mb1Tz5PMLVW9B
-wctTSThqP1gVcJNJ1LQx78x3SQ5pbeWNo0HdOEbP77s6LOPsACuWCHn8BYqgrHFNt8EJ5/aa5tJd
-2uvm5cbjti7YA7CXANnWg3FNKMIbc/I9GTKCQjDFg+pgyTgDm/XXSgnKeeP/GPxbxCOKjJHwPL2m
-FHzDJ5SfYHfJLUCMWRavj0k3qUF1gQ7YzT6J/IR36AR3sV/NgDVSs1MDlKBHDvZKBbLLrmNZbPgL
-DYOX/i6POsM5DbVSZltxDlngZALOwHAFVmtT+xozD4qlGkhFrxG6yO25GZjMylqrhXyCKXYDrKiX
-0CGq6C3dwCCknOMiPKqctnAvtUyWf6V61xxfqTlodQEa1LM4/W5QwIFV786gE8mjIITawqWpwyq8
-GVtcdbBKN4C0rFTz1gVC4dESlfIC7hui6t5swMVuIKOG2JwACqKbGGKXlsFdbxpQW/LeQn1Xczxh
-7wmV3LkEXPGp2pc74iXpuKLPIqtnazixdPcFvi9kqjA1S8/E68WCE37P+oB+Em9whMIAucslEdNt
-wNwLYHoPku9Ghn73PjRkwjLIRIBept9HhBcSUZUvB1W7DzeK3kLs42Z7hHBBl5LScfOl5S0CYyGf
-G6kXptAtU7yfsjU5FOSRTiS82owiOSTttZjI3s0+Si8jTt8jv/S3jwqSiRBftJY6w0IgLYiASmfd
-UqDR4ID3DHCBDwPH63SfcI10enXTke75vM2myBNgV4LqVHxqHv6I6UQR3li8KXPJklpoL4hsDb10
-lhSvBLvsdeyebfvsmP1+JGHHB2C6oJBX3qqss9Bm02AQmbSpKpXgtHspW9ePiyt4yXvKUAiULkJA
-UW/zXc80y61qndeJsY1H312oJmsoqmDvW82xI6oU++yxgq2r6ekw3lpn6j41cHMibU/qOPxeOoPk
-ZEFtscdvnf3BqvzUKp/EsxpnVZR1hHZh5uDh1bgwWm1kPEL0WSKZjx8c/fx/sg4SZQvxpSfMUNxv
-cMLkqnsdQSEqPf7vPQTU41GzQZUfrI5L6n8Vg7UAfVA7Oyx7o6LL5XufXLR/sjukoF0jpyHv9X3n
-UWsGulOISJG2zUkHTADQrRP8k2iKq56PXUG81/DOIzVzlyWd/EcrEsWFmb4vJWv56kM3YIwELJ5I
-6nRWnroJx/HD+76sT2vkgwfUkljsHAP4Bl3V0OUu6ljbX9fUZ92CU0R/1B9d83NnIL+ysEuNCChf
-5SjMQ7XA5r6CTnfB266hBQTxpeFShqZv24VQu8DEtvEoEK8/w6wVH+yGSgMPOX6e4Tp13/Eizmhc
-lf5XV0kyHjPldS38tSHXTPSxlQKhqP8cRNnvEAft8gVjgAxyMzTYImTwt5Yz2bEP1/EmuxG8l8GG
-5Njl4Utq9OZfYRVPybTN4IoVHtJVPYcjqnfyePJBIc+sUR3haR5Si6c1GTxwLtdmiiS+Lwv2c8Hy
-04r/QP7SULdhxtI22JGTV7yrtuB4Y9IZyihd0XOSLp+JxoOCBtubteS3tEIUj696yHcQM1lQhU2Q
-hDJB+dIgbkE3Fop0uwMDWyn0AyP+/3M0z+cj1zyrh5dunq/w6o720vbiAtXQiVOY30eVSSMGv8SE
-t+mPnsrbE8ue6pqAiza3YGnrxhLfE9Cmq+YYyKrcxRsmiriYML+6BDvHvp47HfthurnIJ+YjjhMk
-9EFy8lkuPVb5B+SxkAkKMKD6nJ1iiDS4XcNKq5E83Kz7fWTdV90ZTvoC6TdySMHgcV0goerFsv8b
-83Xfq8nhyC2iCtwtR6td13cSyPUckd0OEJEiSoMHspIux/P0t1mSneBMxurvQjCZNrnGPr1Iz++0
-P50GN1wHlWCN5Z18L8fbj3Uactmml+la78JRbcYiZP5I/vTaMj40LiWgGRLq3dssh7o26OxmiEMW
-TMAO17HgSYlGA3iQsmyKGVVhOOdy/fz8gB/YRX7U6SYWA2h30p+XlFNQwMoBBQ1vjEhHOX607ucW
-l3Ry7WhkFh0eENaa7xquYcK5G5yYoRjmTZcAX28qEupTuUggaVbpe/3l0ZCsmMetZoZyKLYDtp3r
-5PMfUaiiAhNgwRiv5Z2pVOTgZrbze1glcaqTIyxqqSjqqH/4CaHfuDg2aEKDilkv+19qWkU6m1gD
-qZrQXLcPWjqp1DCfCGR8g7xYzO7S1OEcU9i9QPmny+FH5qIWOsw1hwGm/5jXJv/rYbh0+hGnuG1w
-FYkz9/EZz7X+9Hy1xc/iM7kWyEFjHZRHD9tPxSH+g8tLbUoRdKjRXYUZRnh3Xln09gOtXTqol1aM
-P2AaYSZd0+yJmeX6A8IpQJ3I3ckVEV88rGFyQ8pbvDAfqAlfDlQAufnKC07wadBHMrZrKz2pJfCF
-QSxqQ3Ee+4LtZ4gGKTr0pzEceqrppg26pH3tOQ20pTK2l5QyfUpepUWufOt+4V3x22n3EV497JNW
-H6su7OnjSjgT1jGLEDH2PYpnXFizO9wmlI5Y8paVkcsG/yp5qtc/Wa3XeuyTFqlw0NeBhIY+LSKs
-MP8wYlvS0HfDUyYOfxZZptTocuycnnNpG60wZQ56qmCtFkx4zPCczvTnx0kc62w+i0v1wSlPGZff
-tsnVjiT3sVFqSl5MeNXvLC87tkSlWCjGciAkU3TIo9qULd897rfGwLM2IU5UbYOV/CwU9zTjqu99
-XoxuIIbDyPZ8uz0uM0w9micQ8gRst4q8H9mXUtcoCb1kQlaG0zLrHVxlxUjqQDpRrVjE3cphH86j
-1+edc4TDb6RZ5CH2lCEUQaocOZUvRRLuED9Y9vnpEoDAm5COMMefbRruFMKfyLRQQ9DtcnlhirEX
-VrBBmu5itPzu87rJ1YiQl0phFQTqaysWwW3UBI6hVQir3J2yMp3BrNaUNHbgM/7ZbuuFP5spFTbe
-8h9jGCjcSV6tkbwJcF0vfOg17CA2vNPKqDQoe8Fac/5GRzWHWRlxrDtuDoAt0UUtppgAWF84WXDE
-nR7Fh+K07/PHPCSFOwPUP6JCM4InGlr0geal9fafI/OWaNuWD9SCWEtyuAJ/7L2osPIdV00VvxUA
-vhMyiESaAbIWqR9DBnJGC+JR+HlTlDC1Q6kbsJFQzTL51XHj2S3/ZD0JXVkzhCOtIpjaR58hIP1M
-9r0nS0evbHH/uoDpT3lg4EFVb0OoqmkvKvqSHtmWjQpfg4HJKA/EY3hDImi/fJwAfMQPMnb96Ip+
-bLwTlcrNVEWVjt9Hu4seg/1sluX6aC8bvpJYWJk9x1cYU1OsrIh5gqfi39ziDwMLd3C7MI5DauPG
-CLPADx8PS4bsQE4/KeDECeiIDLU48pl5899NgI6Hk059KH/QJSn5PGi18g3atdMvUS5NleOO03vQ
-/6iJ+84tqSBeOMF3kF35I9YvHd/1GJcaH994bqbFF/2Dr1omso9DWl+F1wpRtHJxJXoX8D9sYRMn
-yF6loyJhsnZbfsTqzuxU1qrDEtkHLPaWbXvu8v4xJq8m8YRqNXOheRbwEl+KEiMJiWB+Hp8DrjXr
-kd09kCPbEiM+Z64CHErdGGB+XvZTlfSLfcKS/+T0kvII3g3sOpPakH87utb3D4qeq0zcODrdXwgF
-Du7Rhq+K6y7zNU6ubWh3peJAJLlIFvjP1g0tauzgnfNCJZOMeTPNoLozT9TWcC1E8wAiXq92VF8c
-Ak6FBNsAYcMSHqVUH4OcsiTrDBMdAmLjXNDid5CEe4OK6QWjm6z524hSlv7x7FdX0I+F8ipOjbVN
-+w4x51lLJKKYfff8/C29NMVkKg7Z6CMPj9c4WOraL5ISDVgwJ+kKxqgvrbPC3zDud+jb9cCEEhEb
-V3wjsOUdueSc+aKTUDzz/s35L8VR3JxbMjtY2htiBiVg8onvgTVPeRWNZpJjbSPyM9sL2vbKwsEm
-8WyeUIvKJ/TXqaVTVPUL392tPA40UUsJB0hN8LOu7EwVSflF+D9v/qxFKqWaC09RZBNY1ZDKLER0
-y7wj3LFreUIJVqyOHEtSA4JAGeZsbDSGRSciVO0FRiUQw8Gd6egHJ2WMkuD2FgTAhPFMZkQ7nUCL
-iOqiTAwELiEyAf3wFtX3OuI62l44E5xM6K8e+vfk/sHoROCHO4sNnJuvP2pbLISuAmbBchgkZ3FO
-XE+RRTdBW+xceIYaFH8H11zywJ4xx+rWSwqqIyKx6w2ndfznztRYmHDOIKA7wdzvMPJUoGtkFzmE
-sFgd/OoEN3JlgPK5RLcqNAA5+OTSDHpbuIoju90A4DZ5c99CRX0YiCKKsIhJzaBefyMxakcfKkjB
-EdOQwlRecGXgEtCmJdaXraco+zWkmeu5p0RM8BsPtajroYX1rM2unk0uaoIx9eX08rFiabxcCI66
-dhWMN7G3Mkb/WbeqJ+FQeKqoG0pbfXgL4MuIjgVki/NXrtYc6oNCSFu3WSZZ32w0MzVLuNKla8J2
-NLu7ybkQDCdKlTY5d5MWAkVLOyBbhXuXo9jp4pE5uBmnQCIKLmidc6aFiMbuRkpF/P9iAyIzRxdl
-J5hl2Bzzn1L09KckBFL7ET4pdT7sDLJw9Pe+a/p8bg5SZEchtTxqjAmHykfTsud3usFEbhUi4Y6Y
-avBuNzD0Tw86/t7Xf3dGswkt+HFp6XMAGNq5iUa1jExoX4Au2XDi6ONksh+h15n+OgwL3tix0M8z
-8HWJ5UOza7BQLu8Az5oxSbC1I4Csvnm0+6BoGoAQjb0Io9MCzNHelVXK6iTufDg37A3NAJZwVL+R
-2WLklLIJv50BsQy1rsgbKPZqDeUzDcngIOUP9C4Y8qPD1v9ulUNtIsjA8Wf7RPnxd+xMf8QV9EJj
-LHGvnHXRDLX5DNBRGSMrGYi7PVDZwkSLkUQTttMhB0wGfQLHHdEr5DCO8jlwYfH3+i6IOtvY/wma
-2ho308sK+2Zw1VEnlBAPwm==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudComposer;
+
+class EnvironmentConfig extends \Google\Model
+{
+  public $airflowUri;
+  public $dagGcsPrefix;
+  protected $databaseConfigType = DatabaseConfig::class;
+  protected $databaseConfigDataType = '';
+  protected $encryptionConfigType = EncryptionConfig::class;
+  protected $encryptionConfigDataType = '';
+  public $gkeCluster;
+  protected $nodeConfigType = NodeConfig::class;
+  protected $nodeConfigDataType = '';
+  public $nodeCount;
+  protected $privateEnvironmentConfigType = PrivateEnvironmentConfig::class;
+  protected $privateEnvironmentConfigDataType = '';
+  protected $softwareConfigType = SoftwareConfig::class;
+  protected $softwareConfigDataType = '';
+  protected $webServerConfigType = WebServerConfig::class;
+  protected $webServerConfigDataType = '';
+  protected $webServerNetworkAccessControlType = WebServerNetworkAccessControl::class;
+  protected $webServerNetworkAccessControlDataType = '';
+
+  public function setAirflowUri($airflowUri)
+  {
+    $this->airflowUri = $airflowUri;
+  }
+  public function getAirflowUri()
+  {
+    return $this->airflowUri;
+  }
+  public function setDagGcsPrefix($dagGcsPrefix)
+  {
+    $this->dagGcsPrefix = $dagGcsPrefix;
+  }
+  public function getDagGcsPrefix()
+  {
+    return $this->dagGcsPrefix;
+  }
+  /**
+   * @param DatabaseConfig
+   */
+  public function setDatabaseConfig(DatabaseConfig $databaseConfig)
+  {
+    $this->databaseConfig = $databaseConfig;
+  }
+  /**
+   * @return DatabaseConfig
+   */
+  public function getDatabaseConfig()
+  {
+    return $this->databaseConfig;
+  }
+  /**
+   * @param EncryptionConfig
+   */
+  public function setEncryptionConfig(EncryptionConfig $encryptionConfig)
+  {
+    $this->encryptionConfig = $encryptionConfig;
+  }
+  /**
+   * @return EncryptionConfig
+   */
+  public function getEncryptionConfig()
+  {
+    return $this->encryptionConfig;
+  }
+  public function setGkeCluster($gkeCluster)
+  {
+    $this->gkeCluster = $gkeCluster;
+  }
+  public function getGkeCluster()
+  {
+    return $this->gkeCluster;
+  }
+  /**
+   * @param NodeConfig
+   */
+  public function setNodeConfig(NodeConfig $nodeConfig)
+  {
+    $this->nodeConfig = $nodeConfig;
+  }
+  /**
+   * @return NodeConfig
+   */
+  public function getNodeConfig()
+  {
+    return $this->nodeConfig;
+  }
+  public function setNodeCount($nodeCount)
+  {
+    $this->nodeCount = $nodeCount;
+  }
+  public function getNodeCount()
+  {
+    return $this->nodeCount;
+  }
+  /**
+   * @param PrivateEnvironmentConfig
+   */
+  public function setPrivateEnvironmentConfig(PrivateEnvironmentConfig $privateEnvironmentConfig)
+  {
+    $this->privateEnvironmentConfig = $privateEnvironmentConfig;
+  }
+  /**
+   * @return PrivateEnvironmentConfig
+   */
+  public function getPrivateEnvironmentConfig()
+  {
+    return $this->privateEnvironmentConfig;
+  }
+  /**
+   * @param SoftwareConfig
+   */
+  public function setSoftwareConfig(SoftwareConfig $softwareConfig)
+  {
+    $this->softwareConfig = $softwareConfig;
+  }
+  /**
+   * @return SoftwareConfig
+   */
+  public function getSoftwareConfig()
+  {
+    return $this->softwareConfig;
+  }
+  /**
+   * @param WebServerConfig
+   */
+  public function setWebServerConfig(WebServerConfig $webServerConfig)
+  {
+    $this->webServerConfig = $webServerConfig;
+  }
+  /**
+   * @return WebServerConfig
+   */
+  public function getWebServerConfig()
+  {
+    return $this->webServerConfig;
+  }
+  /**
+   * @param WebServerNetworkAccessControl
+   */
+  public function setWebServerNetworkAccessControl(WebServerNetworkAccessControl $webServerNetworkAccessControl)
+  {
+    $this->webServerNetworkAccessControl = $webServerNetworkAccessControl;
+  }
+  /**
+   * @return WebServerNetworkAccessControl
+   */
+  public function getWebServerNetworkAccessControl()
+  {
+    return $this->webServerNetworkAccessControl;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(EnvironmentConfig::class, 'Google_Service_CloudComposer_EnvironmentConfig');

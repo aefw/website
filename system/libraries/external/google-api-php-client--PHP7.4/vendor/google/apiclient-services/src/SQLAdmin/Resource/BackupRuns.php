@@ -1,64 +1,109 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\SQLAdmin\Resource;
+
+use Google\Service\SQLAdmin\BackupRun;
+use Google\Service\SQLAdmin\BackupRunsListResponse;
+use Google\Service\SQLAdmin\Operation;
+
+/**
+ * The "backupRuns" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $sqladminService = new Google\Service\SQLAdmin(...);
+ *   $backupRuns = $sqladminService->backupRuns;
+ *  </code>
+ */
+class BackupRuns extends \Google\Service\Resource
+{
+  /**
+   * Deletes the backup taken by a backup run. (backupRuns.delete)
+   *
+   * @param string $project Project ID of the project that contains the instance.
+   * @param string $instance Cloud SQL instance ID. This does not include the
+   * project ID.
+   * @param string $id The ID of the Backup Run to delete. To find a Backup Run
+   * ID, use the list method.
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function delete($project, $instance, $id, $optParams = [])
+  {
+    $params = ['project' => $project, 'instance' => $instance, 'id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Retrieves a resource containing information about a backup run.
+   * (backupRuns.get)
+   *
+   * @param string $project Project ID of the project that contains the instance.
+   * @param string $instance Cloud SQL instance ID. This does not include the
+   * project ID.
+   * @param string $id The ID of this Backup Run.
+   * @param array $optParams Optional parameters.
+   * @return BackupRun
+   */
+  public function get($project, $instance, $id, $optParams = [])
+  {
+    $params = ['project' => $project, 'instance' => $instance, 'id' => $id];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], BackupRun::class);
+  }
+  /**
+   * Creates a new backup run on demand. This method is applicable only to Second
+   * Generation instances. (backupRuns.insert)
+   *
+   * @param string $project Project ID of the project that contains the instance.
+   * @param string $instance Cloud SQL instance ID. This does not include the
+   * project ID.
+   * @param BackupRun $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function insert($project, $instance, BackupRun $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'instance' => $instance, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Operation::class);
+  }
+  /**
+   * Lists all backup runs associated with a given instance and configuration in
+   * the reverse chronological order of the backup initiation time.
+   * (backupRuns.listBackupRuns)
+   *
+   * @param string $project Project ID of the project that contains the instance.
+   * @param string $instance Cloud SQL instance ID. This does not include the
+   * project ID.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int maxResults Maximum number of backup runs per response.
+   * @opt_param string pageToken A previously-returned page token representing
+   * part of the larger set of results to view.
+   * @return BackupRunsListResponse
+   */
+  public function listBackupRuns($project, $instance, $optParams = [])
+  {
+    $params = ['project' => $project, 'instance' => $instance];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], BackupRunsListResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(BackupRuns::class, 'Google_Service_SQLAdmin_Resource_BackupRuns');

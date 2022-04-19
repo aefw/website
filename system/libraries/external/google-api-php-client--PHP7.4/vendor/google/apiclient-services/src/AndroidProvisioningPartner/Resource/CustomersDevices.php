@@ -1,72 +1,122 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AndroidProvisioningPartner\Resource;
+
+use Google\Service\AndroidProvisioningPartner\AndroiddeviceprovisioningEmpty;
+use Google\Service\AndroidProvisioningPartner\CustomerApplyConfigurationRequest;
+use Google\Service\AndroidProvisioningPartner\CustomerListDevicesResponse;
+use Google\Service\AndroidProvisioningPartner\CustomerRemoveConfigurationRequest;
+use Google\Service\AndroidProvisioningPartner\CustomerUnclaimDeviceRequest;
+use Google\Service\AndroidProvisioningPartner\Device;
+
+/**
+ * The "devices" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $androiddeviceprovisioningService = new Google\Service\AndroidProvisioningPartner(...);
+ *   $devices = $androiddeviceprovisioningService->devices;
+ *  </code>
+ */
+class CustomersDevices extends \Google\Service\Resource
+{
+  /**
+   * Applies a Configuration to the device to register the device for zero-touch
+   * enrollment. After applying a configuration to a device, the device
+   * automatically provisions itself on first boot, or next factory reset.
+   * (devices.applyConfiguration)
+   *
+   * @param string $parent Required. The customer managing the device. An API
+   * resource name in the format `customers/[CUSTOMER_ID]`.
+   * @param CustomerApplyConfigurationRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return AndroiddeviceprovisioningEmpty
+   */
+  public function applyConfiguration($parent, CustomerApplyConfigurationRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('applyConfiguration', [$params], AndroiddeviceprovisioningEmpty::class);
+  }
+  /**
+   * Gets the details of a device. (devices.get)
+   *
+   * @param string $name Required. The device to get. An API resource name in the
+   * format `customers/[CUSTOMER_ID]/devices/[DEVICE_ID]`.
+   * @param array $optParams Optional parameters.
+   * @return Device
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Device::class);
+  }
+  /**
+   * Lists a customer's devices. (devices.listCustomersDevices)
+   *
+   * @param string $parent Required. The customer managing the devices. An API
+   * resource name in the format `customers/[CUSTOMER_ID]`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string pageSize The maximum number of devices to show in a page of
+   * results. Must be between 1 and 100 inclusive.
+   * @opt_param string pageToken A token specifying which result page to return.
+   * @return CustomerListDevicesResponse
+   */
+  public function listCustomersDevices($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], CustomerListDevicesResponse::class);
+  }
+  /**
+   * Removes a configuration from device. (devices.removeConfiguration)
+   *
+   * @param string $parent Required. The customer managing the device in the
+   * format `customers/[CUSTOMER_ID]`.
+   * @param CustomerRemoveConfigurationRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return AndroiddeviceprovisioningEmpty
+   */
+  public function removeConfiguration($parent, CustomerRemoveConfigurationRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('removeConfiguration', [$params], AndroiddeviceprovisioningEmpty::class);
+  }
+  /**
+   * Unclaims a device from a customer and removes it from zero-touch enrollment.
+   * After removing a device, a customer must contact their reseller to register
+   * the device into zero-touch enrollment again. (devices.unclaim)
+   *
+   * @param string $parent Required. The customer managing the device. An API
+   * resource name in the format `customers/[CUSTOMER_ID]`.
+   * @param CustomerUnclaimDeviceRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return AndroiddeviceprovisioningEmpty
+   */
+  public function unclaim($parent, CustomerUnclaimDeviceRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('unclaim', [$params], AndroiddeviceprovisioningEmpty::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(CustomersDevices::class, 'Google_Service_AndroidProvisioningPartner_Resource_CustomersDevices');

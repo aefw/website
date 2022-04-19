@@ -1,151 +1,779 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-jPTGy0C=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Compute\Resource;
+
+use Google\Service\Compute\InstanceGroupManager;
+use Google\Service\Compute\Operation;
+use Google\Service\Compute\RegionInstanceGroupManagerDeleteInstanceConfigReq;
+use Google\Service\Compute\RegionInstanceGroupManagerList;
+use Google\Service\Compute\RegionInstanceGroupManagerPatchInstanceConfigReq;
+use Google\Service\Compute\RegionInstanceGroupManagerUpdateInstanceConfigReq;
+use Google\Service\Compute\RegionInstanceGroupManagersAbandonInstancesRequest;
+use Google\Service\Compute\RegionInstanceGroupManagersApplyUpdatesRequest;
+use Google\Service\Compute\RegionInstanceGroupManagersCreateInstancesRequest;
+use Google\Service\Compute\RegionInstanceGroupManagersDeleteInstancesRequest;
+use Google\Service\Compute\RegionInstanceGroupManagersListErrorsResponse;
+use Google\Service\Compute\RegionInstanceGroupManagersListInstanceConfigsResp;
+use Google\Service\Compute\RegionInstanceGroupManagersListInstancesResponse;
+use Google\Service\Compute\RegionInstanceGroupManagersRecreateRequest;
+use Google\Service\Compute\RegionInstanceGroupManagersSetTargetPoolsRequest;
+use Google\Service\Compute\RegionInstanceGroupManagersSetTemplateRequest;
+
+/**
+ * The "regionInstanceGroupManagers" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $computeService = new Google\Service\Compute(...);
+ *   $regionInstanceGroupManagers = $computeService->regionInstanceGroupManagers;
+ *  </code>
+ */
+class RegionInstanceGroupManagers extends \Google\Service\Resource
+{
+  /**
+   * Flags the specified instances to be immediately removed from the managed
+   * instance group. Abandoning an instance does not delete the instance, but it
+   * does remove the instance from any target pools that are applied by the
+   * managed instance group. This method reduces the targetSize of the managed
+   * instance group by the number of instances that you abandon. This operation is
+   * marked as DONE when the action is scheduled even if the instances have not
+   * yet been removed from the group. You must separately verify the status of the
+   * abandoning action with the listmanagedinstances method.
+   *
+   * If the group is part of a backend service that has enabled connection
+   * draining, it can take up to 60 seconds after the connection draining duration
+   * has elapsed before the VM instance is removed or deleted.
+   *
+   * You can specify a maximum of 1000 instances with this method per request.
+   * (regionInstanceGroupManagers.abandonInstances)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param string $instanceGroupManager Name of the managed instance group.
+   * @param RegionInstanceGroupManagersAbandonInstancesRequest $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function abandonInstances($project, $region, $instanceGroupManager, RegionInstanceGroupManagersAbandonInstancesRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'instanceGroupManager' => $instanceGroupManager, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('abandonInstances', [$params], Operation::class);
+  }
+  /**
+   * Apply updates to selected instances the managed instance group.
+   * (regionInstanceGroupManagers.applyUpdatesToInstances)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request, should conform
+   * to RFC1035.
+   * @param string $instanceGroupManager The name of the managed instance group,
+   * should conform to RFC1035.
+   * @param RegionInstanceGroupManagersApplyUpdatesRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function applyUpdatesToInstances($project, $region, $instanceGroupManager, RegionInstanceGroupManagersApplyUpdatesRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'instanceGroupManager' => $instanceGroupManager, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('applyUpdatesToInstances', [$params], Operation::class);
+  }
+  /**
+   * Creates instances with per-instance configs in this regional managed instance
+   * group. Instances are created using the current instance template. The create
+   * instances operation is marked DONE if the createInstances request is
+   * successful. The underlying actions take additional time. You must separately
+   * verify the status of the creating or actions with the listmanagedinstances
+   * method. (regionInstanceGroupManagers.createInstances)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region The name of the region where the managed instance group
+   * is located. It should conform to RFC1035.
+   * @param string $instanceGroupManager The name of the managed instance group.
+   * It should conform to RFC1035.
+   * @param RegionInstanceGroupManagersCreateInstancesRequest $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function createInstances($project, $region, $instanceGroupManager, RegionInstanceGroupManagersCreateInstancesRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'instanceGroupManager' => $instanceGroupManager, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('createInstances', [$params], Operation::class);
+  }
+  /**
+   * Deletes the specified managed instance group and all of the instances in that
+   * group. (regionInstanceGroupManagers.delete)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param string $instanceGroupManager Name of the managed instance group to
+   * delete.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function delete($project, $region, $instanceGroupManager, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'instanceGroupManager' => $instanceGroupManager];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Flags the specified instances in the managed instance group to be immediately
+   * deleted. The instances are also removed from any target pools of which they
+   * were a member. This method reduces the targetSize of the managed instance
+   * group by the number of instances that you delete. The deleteInstances
+   * operation is marked DONE if the deleteInstances request is successful. The
+   * underlying actions take additional time. You must separately verify the
+   * status of the deleting action with the listmanagedinstances method.
+   *
+   * If the group is part of a backend service that has enabled connection
+   * draining, it can take up to 60 seconds after the connection draining duration
+   * has elapsed before the VM instance is removed or deleted.
+   *
+   * You can specify a maximum of 1000 instances with this method per request.
+   * (regionInstanceGroupManagers.deleteInstances)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param string $instanceGroupManager Name of the managed instance group.
+   * @param RegionInstanceGroupManagersDeleteInstancesRequest $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function deleteInstances($project, $region, $instanceGroupManager, RegionInstanceGroupManagersDeleteInstancesRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'instanceGroupManager' => $instanceGroupManager, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('deleteInstances', [$params], Operation::class);
+  }
+  /**
+   * Deletes selected per-instance configs for the managed instance group.
+   * (regionInstanceGroupManagers.deletePerInstanceConfigs)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request, should conform
+   * to RFC1035.
+   * @param string $instanceGroupManager The name of the managed instance group.
+   * It should conform to RFC1035.
+   * @param RegionInstanceGroupManagerDeleteInstanceConfigReq $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function deletePerInstanceConfigs($project, $region, $instanceGroupManager, RegionInstanceGroupManagerDeleteInstanceConfigReq $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'instanceGroupManager' => $instanceGroupManager, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('deletePerInstanceConfigs', [$params], Operation::class);
+  }
+  /**
+   * Returns all of the details about the specified managed instance group.
+   * (regionInstanceGroupManagers.get)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param string $instanceGroupManager Name of the managed instance group to
+   * return.
+   * @param array $optParams Optional parameters.
+   * @return InstanceGroupManager
+   */
+  public function get($project, $region, $instanceGroupManager, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'instanceGroupManager' => $instanceGroupManager];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], InstanceGroupManager::class);
+  }
+  /**
+   * Creates a managed instance group using the information that you specify in
+   * the request. After the group is created, instances in the group are created
+   * using the specified instance template. This operation is marked as DONE when
+   * the group is created even if the instances in the group have not yet been
+   * created. You must separately verify the status of the individual instances
+   * with the listmanagedinstances method.
+   *
+   * A regional managed instance group can contain up to 2000 instances.
+   * (regionInstanceGroupManagers.insert)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param InstanceGroupManager $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function insert($project, $region, InstanceGroupManager $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Operation::class);
+  }
+  /**
+   * Retrieves the list of managed instance groups that are contained within the
+   * specified region.
+   * (regionInstanceGroupManagers.listRegionInstanceGroupManagers)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return RegionInstanceGroupManagerList
+   */
+  public function listRegionInstanceGroupManagers($project, $region, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], RegionInstanceGroupManagerList::class);
+  }
+  /**
+   * Lists all errors thrown by actions on instances for a given regional managed
+   * instance group. The filter and orderBy query parameters are not supported.
+   * (regionInstanceGroupManagers.listErrors)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request. This should
+   * conform to RFC1035.
+   * @param string $instanceGroupManager The name of the managed instance group.
+   * It must be a string that meets the requirements in RFC1035, or an unsigned
+   * long integer: must match regexp pattern:
+   * (?:[a-z](?:[-a-z0-9]{0,61}[a-z0-9])?)|[1-9][0-9]{0,19}.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return RegionInstanceGroupManagersListErrorsResponse
+   */
+  public function listErrors($project, $region, $instanceGroupManager, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'instanceGroupManager' => $instanceGroupManager];
+    $params = array_merge($params, $optParams);
+    return $this->call('listErrors', [$params], RegionInstanceGroupManagersListErrorsResponse::class);
+  }
+  /**
+   * Lists the instances in the managed instance group and instances that are
+   * scheduled to be created. The list includes any current actions that the group
+   * has scheduled for its instances. The orderBy query parameter is not
+   * supported. (regionInstanceGroupManagers.listManagedInstances)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param string $instanceGroupManager The name of the managed instance group.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return RegionInstanceGroupManagersListInstancesResponse
+   */
+  public function listManagedInstances($project, $region, $instanceGroupManager, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'instanceGroupManager' => $instanceGroupManager];
+    $params = array_merge($params, $optParams);
+    return $this->call('listManagedInstances', [$params], RegionInstanceGroupManagersListInstancesResponse::class);
+  }
+  /**
+   * Lists all of the per-instance configs defined for the managed instance group.
+   * The orderBy query parameter is not supported.
+   * (regionInstanceGroupManagers.listPerInstanceConfigs)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request, should conform
+   * to RFC1035.
+   * @param string $instanceGroupManager The name of the managed instance group.
+   * It should conform to RFC1035.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression must specify the field name, a comparison
+   * operator, and the value that you want to use for filtering. The value must be
+   * a string, a number, or a boolean. The comparison operator must be either `=`,
+   * `!=`, `>`, or `<`.
+   *
+   * For example, if you are filtering Compute Engine instances, you can exclude
+   * instances named `example-instance` by specifying `name != example-instance`.
+   *
+   * You can also filter nested fields. For example, you could specify
+   * `scheduling.automaticRestart = false` to include instances only if they are
+   * not scheduled for automatic restarts. You can use filtering on nested fields
+   * to filter based on resource labels.
+   *
+   * To filter on multiple expressions, provide each separate expression within
+   * parentheses. For example: ``` (scheduling.automaticRestart = true)
+   * (cpuPlatform = "Intel Skylake") ``` By default, each expression is an `AND`
+   * expression. However, you can include `AND` and `OR` expressions explicitly.
+   * For example: ``` (cpuPlatform = "Intel Skylake") OR (cpuPlatform = "Intel
+   * Broadwell") AND (scheduling.automaticRestart = true) ```
+   * @opt_param string maxResults The maximum number of results per page that
+   * should be returned. If the number of available results is larger than
+   * `maxResults`, Compute Engine returns a `nextPageToken` that can be used to
+   * get the next page of results in subsequent list requests. Acceptable values
+   * are `0` to `500`, inclusive. (Default: `500`)
+   * @opt_param string orderBy Sorts list results by a certain order. By default,
+   * results are returned in alphanumerical order based on the resource name.
+   *
+   * You can also sort results in descending order based on the creation timestamp
+   * using `orderBy="creationTimestamp desc"`. This sorts results based on the
+   * `creationTimestamp` field in reverse chronological order (newest result
+   * first). Use this to sort resources like operations so that the newest
+   * operation is returned first.
+   *
+   * Currently, only sorting by `name` or `creationTimestamp desc` is supported.
+   * @opt_param string pageToken Specifies a page token to use. Set `pageToken` to
+   * the `nextPageToken` returned by a previous list request to get the next page
+   * of results.
+   * @opt_param bool returnPartialSuccess Opt-in for partial success behavior
+   * which provides partial results in case of failure. The default value is
+   * false.
+   * @return RegionInstanceGroupManagersListInstanceConfigsResp
+   */
+  public function listPerInstanceConfigs($project, $region, $instanceGroupManager, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'instanceGroupManager' => $instanceGroupManager];
+    $params = array_merge($params, $optParams);
+    return $this->call('listPerInstanceConfigs', [$params], RegionInstanceGroupManagersListInstanceConfigsResp::class);
+  }
+  /**
+   * Updates a managed instance group using the information that you specify in
+   * the request. This operation is marked as DONE when the group is patched even
+   * if the instances in the group are still in the process of being patched. You
+   * must separately verify the status of the individual instances with the
+   * listmanagedinstances method. This method supports PATCH semantics and uses
+   * the JSON merge patch format and processing rules.
+   * (regionInstanceGroupManagers.patch)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param string $instanceGroupManager The name of the instance group manager.
+   * @param InstanceGroupManager $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function patch($project, $region, $instanceGroupManager, InstanceGroupManager $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'instanceGroupManager' => $instanceGroupManager, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+  /**
+   * Inserts or patches per-instance configs for the managed instance group.
+   * perInstanceConfig.name serves as a key used to distinguish whether to perform
+   * insert or patch. (regionInstanceGroupManagers.patchPerInstanceConfigs)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request, should conform
+   * to RFC1035.
+   * @param string $instanceGroupManager The name of the managed instance group.
+   * It should conform to RFC1035.
+   * @param RegionInstanceGroupManagerPatchInstanceConfigReq $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function patchPerInstanceConfigs($project, $region, $instanceGroupManager, RegionInstanceGroupManagerPatchInstanceConfigReq $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'instanceGroupManager' => $instanceGroupManager, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patchPerInstanceConfigs', [$params], Operation::class);
+  }
+  /**
+   * Flags the specified VM instances in the managed instance group to be
+   * immediately recreated. Each instance is recreated using the group's current
+   * configuration. This operation is marked as DONE when the flag is set even if
+   * the instances have not yet been recreated. You must separately verify the
+   * status of each instance by checking its currentAction field; for more
+   * information, see Checking the status of managed instances.
+   *
+   * If the group is part of a backend service that has enabled connection
+   * draining, it can take up to 60 seconds after the connection draining duration
+   * has elapsed before the VM instance is removed or deleted.
+   *
+   * You can specify a maximum of 1000 instances with this method per request.
+   * (regionInstanceGroupManagers.recreateInstances)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param string $instanceGroupManager Name of the managed instance group.
+   * @param RegionInstanceGroupManagersRecreateRequest $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function recreateInstances($project, $region, $instanceGroupManager, RegionInstanceGroupManagersRecreateRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'instanceGroupManager' => $instanceGroupManager, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('recreateInstances', [$params], Operation::class);
+  }
+  /**
+   * Changes the intended size of the managed instance group. If you increase the
+   * size, the group creates new instances using the current instance template. If
+   * you decrease the size, the group deletes one or more instances.
+   *
+   * The resize operation is marked DONE if the resize request is successful. The
+   * underlying actions take additional time. You must separately verify the
+   * status of the creating or deleting actions with the listmanagedinstances
+   * method.
+   *
+   * If the group is part of a backend service that has enabled connection
+   * draining, it can take up to 60 seconds after the connection draining duration
+   * has elapsed before the VM instance is removed or deleted.
+   * (regionInstanceGroupManagers.resize)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param string $instanceGroupManager Name of the managed instance group.
+   * @param int $size Number of instances that should exist in this instance group
+   * manager.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function resize($project, $region, $instanceGroupManager, $size, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'instanceGroupManager' => $instanceGroupManager, 'size' => $size];
+    $params = array_merge($params, $optParams);
+    return $this->call('resize', [$params], Operation::class);
+  }
+  /**
+   * Sets the instance template to use when creating new instances or recreating
+   * instances in this group. Existing instances are not affected.
+   * (regionInstanceGroupManagers.setInstanceTemplate)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param string $instanceGroupManager The name of the managed instance group.
+   * @param RegionInstanceGroupManagersSetTemplateRequest $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function setInstanceTemplate($project, $region, $instanceGroupManager, RegionInstanceGroupManagersSetTemplateRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'instanceGroupManager' => $instanceGroupManager, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setInstanceTemplate', [$params], Operation::class);
+  }
+  /**
+   * Modifies the target pools to which all new instances in this group are
+   * assigned. Existing instances in the group are not affected.
+   * (regionInstanceGroupManagers.setTargetPools)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request.
+   * @param string $instanceGroupManager Name of the managed instance group.
+   * @param RegionInstanceGroupManagersSetTargetPoolsRequest $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function setTargetPools($project, $region, $instanceGroupManager, RegionInstanceGroupManagersSetTargetPoolsRequest $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'instanceGroupManager' => $instanceGroupManager, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setTargetPools', [$params], Operation::class);
+  }
+  /**
+   * Inserts or updates per-instance configs for the managed instance group.
+   * perInstanceConfig.name serves as a key used to distinguish whether to perform
+   * insert or patch. (regionInstanceGroupManagers.updatePerInstanceConfigs)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region scoping this request, should conform
+   * to RFC1035.
+   * @param string $instanceGroupManager The name of the managed instance group.
+   * It should conform to RFC1035.
+   * @param RegionInstanceGroupManagerUpdateInstanceConfigReq $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string requestId An optional request ID to identify requests.
+   * Specify a unique request ID so that if you must retry your request, the
+   * server will know to ignore the request if it has already been completed.
+   *
+   * For example, consider a situation where you make an initial request and the
+   * request times out. If you make the request again with the same request ID,
+   * the server can check if original operation with the same request ID was
+   * received, and if so, will ignore the second request. This prevents clients
+   * from accidentally creating duplicate commitments.
+   *
+   * The request ID must be a valid UUID with the exception that zero UUID is not
+   * supported (00000000-0000-0000-0000-000000000000).
+   * @return Operation
+   */
+  public function updatePerInstanceConfigs($project, $region, $instanceGroupManager, RegionInstanceGroupManagerUpdateInstanceConfigReq $postBody, $optParams = [])
+  {
+    $params = ['project' => $project, 'region' => $region, 'instanceGroupManager' => $instanceGroupManager, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('updatePerInstanceConfigs', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(RegionInstanceGroupManagers::class, 'Google_Service_Compute_Resource_RegionInstanceGroupManagers');

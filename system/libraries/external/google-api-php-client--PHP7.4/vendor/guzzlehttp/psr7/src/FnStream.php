@@ -1,97 +1,163 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPzpRy0xcSCaXZnvbBQBm31/k4c9Z6OfsJzSbAyaGhmQ4m7IfpXV4LAclUWGNz5qCPcJZxkWN
-HyrhdZX60+iVov6YNfKlyEWwhk25vfRjHEXwyTfouXjPucawIHmPUUICd8Ai8kFHeZblRCneJRpb
-suQFyGTWOpMS21XYTiPS/NsGVxksvqy1gN5WYpUmOkXLnYZgbHemspJfh9iGdDUH1Jde0C4z6Pow
-45Gb5tRdOBMPvTrcBx557csSyqgj4pY/zcaCsCDFEEdlZmTkMUALtvps0TxYS5CkDLI4g2o1fZvA
-1ULLHd4JdSosZdJBFhMhY5JQZGV/BSj/ONIvy4266gKmiazruDaaQ+wBF+D67AyAbM/NILqxW+Hp
-NQe3AuLd+L2KrC40HV8qRo/8mnUrG7oqa47ZgQTbQWozEWI+2e4qlcn4tzoZ3mmsMzsJbJQG/V6x
-hsBcwb5A4G8EWR585YVu4s72h6aejnDD4immlrkBuLbVWruaVDKPv9n8wdwCGP77ptOvjW/f6nIZ
-L67FPKUcGpe4XZVn1bQ0rPR0UIW88JaJ0YCB4kYRALHCtjRqI5tTjl1jB8W/qNJPbpzGvEL8/n0e
-zqoXOOR01iaohZeIp17LTcWDK3sWPjpMf5WeTcwXascI5UwEntp3tG20CTKFM3J3JLdD34/Dp86w
-huVonl9avfPx8rYfloQFBF4nsImOwsNSZWCqGejWaAolJiBeSYnXSFjvc0EsvC4Fw0I18XTDsuPv
-uW/a/qexwN03Bh0zxPl4mCyQR9EjvYTuM8qRROzLmsNj8h6qq2mXMzYqQsmv1UuC0Yz0duZmjZw5
-T4TUQSL/CUqqsW68MeTWgaSaD8V75g24svLMqAlyfo2jqEGapoXuwNaT8AH2RWXl6ToMCRL85j7f
-8dO+SyfxJ4VrLFiVAfydlveT9clyE8P6ZqCpvc1Cvd1rJVGuQE2+7q6oYoP6XWJwAseUyxNPgdmS
-Detv5nKWEg2TmK6kaxNr6GFgzQnmCTDsnmjVXpqNVDzWeHFuRwSZRFZAJjHn8+wcyRfjE84hyx2I
-C5R44qK+NtFy2yqX/0iDeZ79XKLWbEhVybOMQc2lShBMzERXHMPuZFPx+gwAmFiWQ/Jy9MWd7rr4
-jy4VCF41vgMFiMRYRPTMOXfhOOT1G8j1UK7nPhj1iUd6XmO+/outh+qOvRPJBKPVIfztRdSKW1Vi
-Z2+L3WMzMyp5Fh7mlfv5p38sJXrkAqrxmS4x8v0SNXCagwtQkLSEJCb18D/mlOCpTLPTuWp4QzUk
-LZtqpaOCsJOfNwTqupXwp5Y4SeDSCiNtR9HSoy6GcxVip4xHSW8GiE8+MoW98nspd1elJ5H5vZSK
-80vLkePyhG7y++kcpPA+MtKgmjkAbhpWqsRwEzrvybdM7W5MRy+5+wcOHdlwmTSNrKS+3Iut4l/u
-LexkcRaIkhryphOXVACA5e8DVcKkjNRMMW3P79vhwuwgFgboMz48wC1KsmApt+Y1Q7s/83ZpHcal
-WXPEQw1Oli/iCbc+VAtVf46UhzkssLS42wGxDNQoS5YO8OJu7VNoNs68OLMHw9OrAVD/CPN3O7EA
-2wWI9nGAkB1u5sIhfNFIt1B9hktqp7RkwkZxduajV9VAsdeqt6sLjomTZuRZ4apoUVQfOvB5hq4o
-fBNSgrMjFpQJ/T0qzFDdSBX1G65+a2sM059pYh3zGzfKSlysRwGmSKnOS/l137Bl7RM2iNARlyMn
-7bxMfWyJ3zl0CUFsAsPqWoBTOz0Y0G+irAfgzvJkO2SS8gvRV8sMH3T5vz0KJ9eOWdldk1d/3xmv
-QwZfmZ2jTVokt+Yq0cDNnT85lu/ULC6WaPq/o41Y7ZrNOr13IuvKkj9w4U6GDrhRNbW4gEAoARgN
-dlBbBFVtIrvbEoXoBZE47hCM2a4qK8XzmSkCRcHPg15ueT88DJsAV6wkKZ+JMC/Y3DqpLezl3glt
-tPlJdrrWcjvgplmRdPd5qJ7Sq8Yk7n3aUY7Jbaeh01PjgObUdIV2z0xpD5AG1T2JDjXQfu7CsugD
-ouoi29uA5pTt/jbgWJ9gg0bS4J0Jw+WTx0xbNOZKYaDFYChliYbW5mcyZOYuiadVJv1V5x4FEWpk
-ahHqXtQC8wAwKQzLP+Gg2p86Z4PHcAZVjd9aOYNzyLut68HgFKq9NtplDEGL/8YBdmGp2hp3z0Gz
-W6RcsNYhniF1noTuZvGdqWXtyOOsYK9Zhb24NY9lBcCFSDSmXXNGr5zEg5M2Ua6fgH3XygJMSVEF
-RHauahIJgCCB/1QuerWE75lGRLGQu/OYEysJtyvCMIaYaMdcRr9DCwC7fAbP6ZadvhlgHrltxCCA
-UK2P1Je3oOoLcd8/8VlbBkwDFzukpCE8yf+nvHzHvjP4RWM9wfGAwSGUDg4r7sJ/Mmnv47hBtFkf
-nc+xkbvXBIThFePSvM/5+ljBpQwzDty6rzIuZpk8K+1tyWbat4SHmKXv9Llmw4iVXDWpL8o/ibRE
-sAIkiLZWck8AANZld8YdY7+4R066UyA0UIthJOOkjWvV58aJVSeYD/oQFRusIuggcEG0FMMFrJ2j
-2Js1/aeghtxhd2aMzT8kVKOkW8qsQL2b8snic1cwRXclMp6tkb8zt4vGpREUXW1kVObD8QN0JvYy
-IVGhj3uN+PyCq1AmwHz3H0HpRlyKC+i4ZecPawhkr/h2UHhG0YNEWq371Cico39piZA3wxNYljdy
-oACMoAMmO4ADfbPANEFd0c8PTV/mlr24Pw6fs/deNnuUdY7fBNXADy10GwfIIz3NG/4YvhL7zNPt
-BteM5jwJa8wh6alLmcmKWM8+rySBVf/ThCbvGEcinyo2w8DgaMg14fpS3K3ThJOjob6beGz1CD8b
-GjQRv9zhpSmP5dopShMDAUbHAOb7R1Ychb5kL8USFUzPzXMwxUBDXqiNM/HVaF+qc+HkzO5vKWfH
-NpxcwZuIPKImk45PK+YI3Z69LLlDvamcpkJPNI9xVjGG7llyfGMWjhCtPFaWB3sr1NtLT7ENze6U
-OdfEy06ETgvih4XxxfVRs4KjPSVBgIOTyi4DadPu3bY5Eo2koG96L3lHd/aQNqyj/xow9ufVG632
-IDYOZ4+eRylJRyzWlr2Y1XPd7ohmH9RifrtB9PQCZBUWX5FBlyAZWMfg1yRbvBX4PC+xyX6uRFqj
-7q3r34bP79FJxjVU/+57ukJFquEgs4KnCnSr+ec8xy5q/Lj4T+QqRXDhPztFkYi4Gnq6WgLaQZtm
-zxOJmgWAdx3TlEQoha0qN/yAN2DJM01NEgPYOmI9nMcWUG7dExerJ2TYhInAGhge/l16T4Qk0Aui
-zYvyIlzaWGJ95y7mz5EmzB2YNfuEHfg/n16j4RObPOzdqhKN8kp39DT1SSmzN6UkOUNpUaNMq9GP
-4iIY+vOw8g+IEJwHOqVHZePNFsx/M/wBsi/wRzijn0br7Xst4p5LHJX0O/RCxGRl1pTSUtQk3nhc
-12wk0fTZngOZn7bTDy39lJ0KRQLHYkg//DkVpgc0hHFuTFKRToWccJqVXsjbrgDmKI0GXApG4HLG
-/iJh2mld9mN1tRwFk6K6OVtrMF4Ch/C9Gr5imZh3PqGpGo5KKzTgq2Ph/2Wm9x+5ToFHblkR/LA2
-tqJCv3cvSIkzmUqFo9ZJzL0lCJ3linuDWqa+AD3RSYdw24U6rX2+cpzuGXImKHVrTjx8ZzeTyb3/
-z8g5JhQmHSL79GSEoZdp9OUMN+92GGnm+pi9cLhajQvvQm0r6Gbw6yLeggJuPOiG23CW6+KEx/SM
-B7kXCkJipYZzK5jrq8AyqG81MRJPXykyAvY16EDOYhmAsTq+o8Z50Syrcqc8sGFBvw4fnQm14Eii
-SJK7CESiEa916KvRiUszIwgmx8VjcTbXq1vjP5H5DdX5LslbGKyWChCC1WiI46NBkv0ZciSWbxnN
-b/DPO8szz4wqTC2DExfo5IB3YACpqQeIAt3dxvng4uzg2jnmXjpPBdYEQNG/H+LgA03Nsw4h8/TW
-jI6EyzBFbhW05/Ad6gIsuoNjiSkEPKWfWqn3jtNEWwiH9B+Lvt+/xUybMvOFqDmOcXSukjUKvymn
-PCWtkSxe1tAvy8yx1sIxS0QXBwWeMTjk/vKIFvo00g+H1I93g6bLTOYClro+sdW0EoMxKdugRtRJ
-PBYeauBiof5qoTbIxcsZTwRqjNEfsOcrY7pnxEfBgk6SYGmJfMxhxcZGYPSPDuzg+56XeeW7ueZD
-ys2YZo6t2nRWWXn4nnnE17mvIF9+aHN63pWefLmjxYJbSuoqh+AXkcSKLgvlzG7qeC0xIpJ0bXJt
-zkjXSRqlv0av7n4SzgDO0l3HxZK6xgjv8Om8GFaLqI51owSljY1gB3T+bcT7MjYvp31EZCUUsV+Y
-JZhJv2Ywi9zVWgKqSMFi74XsTtbajUJPTrMBp7wOwQJsNhxKcCesQCSBuF+NEDL8P6N48Kh/6xbs
-JCFGoPAdf9BQFI1gNFFpYX4ElT0D1BYjj/xS8Eyup2GOruOqKRnYFSMXImt0SUtT2jqCAceqJDkZ
-dri2SCpwUyd0OV9kJa9ajMVEl+uD2sZFmZfq0kLXtQCRArMTW2yraR3sIHls3BAdlUDqyVBMFqIj
-hdLQkzEIJqrsKw1dvEoa8EsZGOBuroHQwU6m6mLcgYne3ltXiGUfeyfNcso1afT2Ycp4JQXRhh42
-a2UPLx0SNUYzrAbFe2UJLLLz3ibLUJ5dYxJ893S1myToMdmbciZkd8r0Eovx8VuftS8pAUSfFrvF
-/G4s8Ba+LEu6AJfjGg/tMPqlDs1UBzG85gersELBpe1N4eQqjy+2PySmX8olxEi52xZ34frPmK5z
-YHbyBlqVAC2DU4LIIZqbcZLmqpvC7e1iDRsR8DNR98cOdMbKzfD/5R5tz4GdSyOKyrBOWhm9fOm+
-Gsr6rohcs9mhl93ULrUpPnUocLpF1qhTBaDMkeOavUlh18ifG0bZkbYSlSaLE8a4Uye21xk6t2yg
-1CzY1CQwwMgRr7xqqKFRbOiTiybMlVioyfQSCH0b+DtbzOH21NmtID4MQQsOaLLQ0LwQL2516Nwo
-ex92eAo2t5LpxlyYrKd3AHqlBl7fZ1KZYhzIXN8nE2/PR6oegJXxAIKF1TlkGobvhaVED1dmXl6d
-sQTDbdjlRGPFXRtBX/CgIctF7EH5RxsANnKLkR8XQbH143yxAOmlg22zCPWOpR9DPE7Bk8iO5DQi
-zwl6g870h1AJD6sOr4qESdFvJwOMDOhLt4aj94To53/edj/msaZrSlZcadGvL3jky14lB1CujyrT
-IOMFyNIH8fwMhmdFS6BDf/U7HwPMYYKB66gws5LPY/rWxW8RsDOVC4ekApt1KUI1kz/DzhAzgRP1
-83ikQbn8MYwNuhWAx48G49iic64AAATXq8FL4OHCPW+Cc7rnGLv9DeX+xKyn3VlEvG37DWJlAZFt
-+7H2POX1UNEC8MkPjjsKuxqnYpj42Vvl+BW9XRnJX9cKEDrIVp1Urbu3SxF2XC8aDUkXUT7E6PmM
-9yNo7DUniU+IaxcDVOLZ1TEPXs45LVeP0hJh5WZ0KLlx39LQa/mnHSL/Ngqz/GdBYcZwwygd5ib1
-HpJa0dSlqo5aUr4EmcPnwzzt3P3aHasF8fD/Nb98VM+jh6Hdy7BdfsWB1R3j2jzygoT5I6iXDyA4
-mTrNPSHn3NTuljKivW31YLC1AUJ+xlSjDTUOM+PSFscdu2a6CHjLaO3Iv8RTLqKnJDgLGjUKmg4S
-8oEXY5Vv1d6XFGfBx9HAu/sT1+7bcKyPVeiH3lBJtY5xX3BgwBR/sUMSgkicGbgTGhAx5WXzUgoF
-5boNl08Cbp41dsYI75qYzieLBkHJqp7tvNXbCUXc14CZAVEY9XD/LCi6dZbJPlH1dUcPmY8xJ7eH
-gCJGUIV7VlY7RF+Osx1MW8Qy/MRr0ai4brGoFsYhkgoVftSNHzN0czppBTkPcoaZDE/gcll3FhGK
-oAtiTndLWbWEJsfk+3HD4tmqo1whZAAzluvbZswbcxmWno5N2Mc3K5WaMAG4nzE505ChZjydrBSx
-PZk4X3NC+fAp8fHYWmlW8vbT5EnIoSGkpcsCudr2K/Sh0Hd+ADF/giVYQnDu+m55aJeNfS5QFs0/
-TyJkOArSMuCLzGbX6VW+PGErA/AEo5WQhbifvPdB+Ce37ZSwS4j7XKtYrz3NVJGHY49bA9XyZaEm
-eUnMQWzYKT7+cPtcfr3Q3emN6CPSBgmdoD+AmfvKGEJDF+c5dLSnjNAF/7uO9++8522AvxAgZdQX
-PXfAo/JAhLqVXRBjPgeuonr2R7GSziIAofl7JQgFnfU805t82M/4Oem7kjmQoqIJlkyxNqJW7mRV
-YuNh8VtBf/bssPyN5O4TFLawvAG6Ve7v7jAwvkeC0AggtzFPz7c6+KqbB0wzZn5uIGzqfNHtjFhA
-DAAcnKoWOtj2YaXglY+0qpSFSB9SNlaYLgYWyihIBQVxbuTLDgf6CHZ9CUq6soTgDWE2gnRwxJ88
-bWNI4EsdOatxO3fPFtiTNHUzLlEY2opOdenJaskL9lYs8nN2p2PCLvZiLZOPZ1M8rlTMaKVBMsnh
-dMC4y/U46f8AZbRJ8+2mSD7MrIbtGAuUERnWxpuuGsLfbT8JNWOPj/RYf+T8v7/fcLYyJA8TADgv
-7yjpiePTizYVE52ngETFoYqXY7+kXPPArYDphbfOUiuidjvcNQLknG2Pqu7RUiJyAHQ5+VsB7GWB
-efeHQ5aTwlHGqKCqx1eh4y3H18gIe2fe7zUa2Fo+Uf82efeLk3c/eUZn1+eRYSraRk/CrXzbfAPY
-DNkLjcW2TSg+MswKCG==
+<?php
+
+namespace GuzzleHttp\Psr7;
+
+use Psr\Http\Message\StreamInterface;
+
+/**
+ * Compose stream implementations based on a hash of functions.
+ *
+ * Allows for easy testing and extension of a provided stream without needing
+ * to create a concrete class for a simple extension point.
+ *
+ * @final
+ */
+class FnStream implements StreamInterface
+{
+    /** @var array */
+    private $methods;
+
+    /** @var array Methods that must be implemented in the given array */
+    private static $slots = ['__toString', 'close', 'detach', 'rewind',
+        'getSize', 'tell', 'eof', 'isSeekable', 'seek', 'isWritable', 'write',
+        'isReadable', 'read', 'getContents', 'getMetadata'];
+
+    /**
+     * @param array $methods Hash of method name to a callable.
+     */
+    public function __construct(array $methods)
+    {
+        $this->methods = $methods;
+
+        // Create the functions on the class
+        foreach ($methods as $name => $fn) {
+            $this->{'_fn_' . $name} = $fn;
+        }
+    }
+
+    /**
+     * Lazily determine which methods are not implemented.
+     *
+     * @throws \BadMethodCallException
+     */
+    public function __get($name)
+    {
+        throw new \BadMethodCallException(str_replace('_fn_', '', $name)
+            . '() is not implemented in the FnStream');
+    }
+
+    /**
+     * The close method is called on the underlying stream only if possible.
+     */
+    public function __destruct()
+    {
+        if (isset($this->_fn_close)) {
+            call_user_func($this->_fn_close);
+        }
+    }
+
+    /**
+     * An unserialize would allow the __destruct to run when the unserialized value goes out of scope.
+     *
+     * @throws \LogicException
+     */
+    public function __wakeup()
+    {
+        throw new \LogicException('FnStream should never be unserialized');
+    }
+
+    /**
+     * Adds custom functionality to an underlying stream by intercepting
+     * specific method calls.
+     *
+     * @param StreamInterface $stream  Stream to decorate
+     * @param array           $methods Hash of method name to a closure
+     *
+     * @return FnStream
+     */
+    public static function decorate(StreamInterface $stream, array $methods)
+    {
+        // If any of the required methods were not provided, then simply
+        // proxy to the decorated stream.
+        foreach (array_diff(self::$slots, array_keys($methods)) as $diff) {
+            $methods[$diff] = [$stream, $diff];
+        }
+
+        return new self($methods);
+    }
+
+    public function __toString()
+    {
+        return call_user_func($this->_fn___toString);
+    }
+
+    public function close()
+    {
+        return call_user_func($this->_fn_close);
+    }
+
+    public function detach()
+    {
+        return call_user_func($this->_fn_detach);
+    }
+
+    public function getSize()
+    {
+        return call_user_func($this->_fn_getSize);
+    }
+
+    public function tell()
+    {
+        return call_user_func($this->_fn_tell);
+    }
+
+    public function eof()
+    {
+        return call_user_func($this->_fn_eof);
+    }
+
+    public function isSeekable()
+    {
+        return call_user_func($this->_fn_isSeekable);
+    }
+
+    public function rewind()
+    {
+        call_user_func($this->_fn_rewind);
+    }
+
+    public function seek($offset, $whence = SEEK_SET)
+    {
+        call_user_func($this->_fn_seek, $offset, $whence);
+    }
+
+    public function isWritable()
+    {
+        return call_user_func($this->_fn_isWritable);
+    }
+
+    public function write($string)
+    {
+        return call_user_func($this->_fn_write, $string);
+    }
+
+    public function isReadable()
+    {
+        return call_user_func($this->_fn_isReadable);
+    }
+
+    public function read($length)
+    {
+        return call_user_func($this->_fn_read, $length);
+    }
+
+    public function getContents()
+    {
+        return call_user_func($this->_fn_getContents);
+    }
+
+    public function getMetadata($key = null)
+    {
+        return call_user_func($this->_fn_getMetadata, $key);
+    }
+}

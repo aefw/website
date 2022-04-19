@@ -1,91 +1,190 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-fG1dsIYGi4YVfRHh19AQkG7puyW=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Sheets;
+
+class BubbleChartSpec extends \Google\Model
+{
+  protected $bubbleBorderColorType = Color::class;
+  protected $bubbleBorderColorDataType = '';
+  protected $bubbleBorderColorStyleType = ColorStyle::class;
+  protected $bubbleBorderColorStyleDataType = '';
+  protected $bubbleLabelsType = ChartData::class;
+  protected $bubbleLabelsDataType = '';
+  public $bubbleMaxRadiusSize;
+  public $bubbleMinRadiusSize;
+  public $bubbleOpacity;
+  protected $bubbleSizesType = ChartData::class;
+  protected $bubbleSizesDataType = '';
+  protected $bubbleTextStyleType = TextFormat::class;
+  protected $bubbleTextStyleDataType = '';
+  protected $domainType = ChartData::class;
+  protected $domainDataType = '';
+  protected $groupIdsType = ChartData::class;
+  protected $groupIdsDataType = '';
+  public $legendPosition;
+  protected $seriesType = ChartData::class;
+  protected $seriesDataType = '';
+
+  /**
+   * @param Color
+   */
+  public function setBubbleBorderColor(Color $bubbleBorderColor)
+  {
+    $this->bubbleBorderColor = $bubbleBorderColor;
+  }
+  /**
+   * @return Color
+   */
+  public function getBubbleBorderColor()
+  {
+    return $this->bubbleBorderColor;
+  }
+  /**
+   * @param ColorStyle
+   */
+  public function setBubbleBorderColorStyle(ColorStyle $bubbleBorderColorStyle)
+  {
+    $this->bubbleBorderColorStyle = $bubbleBorderColorStyle;
+  }
+  /**
+   * @return ColorStyle
+   */
+  public function getBubbleBorderColorStyle()
+  {
+    return $this->bubbleBorderColorStyle;
+  }
+  /**
+   * @param ChartData
+   */
+  public function setBubbleLabels(ChartData $bubbleLabels)
+  {
+    $this->bubbleLabels = $bubbleLabels;
+  }
+  /**
+   * @return ChartData
+   */
+  public function getBubbleLabels()
+  {
+    return $this->bubbleLabels;
+  }
+  public function setBubbleMaxRadiusSize($bubbleMaxRadiusSize)
+  {
+    $this->bubbleMaxRadiusSize = $bubbleMaxRadiusSize;
+  }
+  public function getBubbleMaxRadiusSize()
+  {
+    return $this->bubbleMaxRadiusSize;
+  }
+  public function setBubbleMinRadiusSize($bubbleMinRadiusSize)
+  {
+    $this->bubbleMinRadiusSize = $bubbleMinRadiusSize;
+  }
+  public function getBubbleMinRadiusSize()
+  {
+    return $this->bubbleMinRadiusSize;
+  }
+  public function setBubbleOpacity($bubbleOpacity)
+  {
+    $this->bubbleOpacity = $bubbleOpacity;
+  }
+  public function getBubbleOpacity()
+  {
+    return $this->bubbleOpacity;
+  }
+  /**
+   * @param ChartData
+   */
+  public function setBubbleSizes(ChartData $bubbleSizes)
+  {
+    $this->bubbleSizes = $bubbleSizes;
+  }
+  /**
+   * @return ChartData
+   */
+  public function getBubbleSizes()
+  {
+    return $this->bubbleSizes;
+  }
+  /**
+   * @param TextFormat
+   */
+  public function setBubbleTextStyle(TextFormat $bubbleTextStyle)
+  {
+    $this->bubbleTextStyle = $bubbleTextStyle;
+  }
+  /**
+   * @return TextFormat
+   */
+  public function getBubbleTextStyle()
+  {
+    return $this->bubbleTextStyle;
+  }
+  /**
+   * @param ChartData
+   */
+  public function setDomain(ChartData $domain)
+  {
+    $this->domain = $domain;
+  }
+  /**
+   * @return ChartData
+   */
+  public function getDomain()
+  {
+    return $this->domain;
+  }
+  /**
+   * @param ChartData
+   */
+  public function setGroupIds(ChartData $groupIds)
+  {
+    $this->groupIds = $groupIds;
+  }
+  /**
+   * @return ChartData
+   */
+  public function getGroupIds()
+  {
+    return $this->groupIds;
+  }
+  public function setLegendPosition($legendPosition)
+  {
+    $this->legendPosition = $legendPosition;
+  }
+  public function getLegendPosition()
+  {
+    return $this->legendPosition;
+  }
+  /**
+   * @param ChartData
+   */
+  public function setSeries(ChartData $series)
+  {
+    $this->series = $series;
+  }
+  /**
+   * @return ChartData
+   */
+  public function getSeries()
+  {
+    return $this->series;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(BubbleChartSpec::class, 'Google_Service_Sheets_BubbleChartSpec');

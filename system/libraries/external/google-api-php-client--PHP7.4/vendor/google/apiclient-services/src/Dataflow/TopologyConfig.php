@@ -1,61 +1,86 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dataflow;
+
+class TopologyConfig extends \Google\Collection
+{
+  protected $collection_key = 'dataDiskAssignments';
+  protected $computationsType = ComputationTopology::class;
+  protected $computationsDataType = 'array';
+  protected $dataDiskAssignmentsType = DataDiskAssignment::class;
+  protected $dataDiskAssignmentsDataType = 'array';
+  public $forwardingKeyBits;
+  public $persistentStateVersion;
+  public $userStageToComputationNameMap;
+
+  /**
+   * @param ComputationTopology[]
+   */
+  public function setComputations($computations)
+  {
+    $this->computations = $computations;
+  }
+  /**
+   * @return ComputationTopology[]
+   */
+  public function getComputations()
+  {
+    return $this->computations;
+  }
+  /**
+   * @param DataDiskAssignment[]
+   */
+  public function setDataDiskAssignments($dataDiskAssignments)
+  {
+    $this->dataDiskAssignments = $dataDiskAssignments;
+  }
+  /**
+   * @return DataDiskAssignment[]
+   */
+  public function getDataDiskAssignments()
+  {
+    return $this->dataDiskAssignments;
+  }
+  public function setForwardingKeyBits($forwardingKeyBits)
+  {
+    $this->forwardingKeyBits = $forwardingKeyBits;
+  }
+  public function getForwardingKeyBits()
+  {
+    return $this->forwardingKeyBits;
+  }
+  public function setPersistentStateVersion($persistentStateVersion)
+  {
+    $this->persistentStateVersion = $persistentStateVersion;
+  }
+  public function getPersistentStateVersion()
+  {
+    return $this->persistentStateVersion;
+  }
+  public function setUserStageToComputationNameMap($userStageToComputationNameMap)
+  {
+    $this->userStageToComputationNameMap = $userStageToComputationNameMap;
+  }
+  public function getUserStageToComputationNameMap()
+  {
+    return $this->userStageToComputationNameMap;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(TopologyConfig::class, 'Google_Service_Dataflow_TopologyConfig');

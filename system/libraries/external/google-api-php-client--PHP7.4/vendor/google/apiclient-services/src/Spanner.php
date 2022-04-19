@@ -1,102 +1,944 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for Spanner (v1).
+ *
+ * <p>
+ * Cloud Spanner is a managed, mission-critical, globally consistent and
+ * scalable relational database service.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/spanner/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class Spanner extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+  /** Administer your Spanner databases. */
+  const SPANNER_ADMIN =
+      "https://www.googleapis.com/auth/spanner.admin";
+  /** View and manage the contents of your Spanner databases. */
+  const SPANNER_DATA =
+      "https://www.googleapis.com/auth/spanner.data";
+
+  public $projects_instanceConfigs;
+  public $projects_instances;
+  public $projects_instances_backupOperations;
+  public $projects_instances_backups;
+  public $projects_instances_backups_operations;
+  public $projects_instances_databaseOperations;
+  public $projects_instances_databases;
+  public $projects_instances_databases_operations;
+  public $projects_instances_databases_sessions;
+  public $projects_instances_operations;
+  public $scans;
+
+  /**
+   * Constructs the internal representation of the Spanner service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://spanner.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'spanner';
+
+    $this->projects_instanceConfigs = new Spanner\Resource\ProjectsInstanceConfigs(
+        $this,
+        $this->serviceName,
+        'instanceConfigs',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/instanceConfigs',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_instances = new Spanner\Resource\ProjectsInstances(
+        $this,
+        $this->serviceName,
+        'instances',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/instances',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'fieldMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1/{+resource}:getIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/instances',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'instanceDeadline' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_instances_backupOperations = new Spanner\Resource\ProjectsInstancesBackupOperations(
+        $this,
+        $this->serviceName,
+        'backupOperations',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/{+parent}/backupOperations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_instances_backups = new Spanner\Resource\ProjectsInstancesBackups(
+        $this,
+        $this->serviceName,
+        'backups',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/backups',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'backupId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'encryptionConfig.encryptionType' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'encryptionConfig.kmsKeyName' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1/{+resource}:getIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/backups',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_instances_backups_operations = new Spanner\Resource\ProjectsInstancesBackupsOperations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'cancel' => [
+              'path' => 'v1/{+name}:cancel',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_instances_databaseOperations = new Spanner\Resource\ProjectsInstancesDatabaseOperations(
+        $this,
+        $this->serviceName,
+        'databaseOperations',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/{+parent}/databaseOperations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_instances_databases = new Spanner\Resource\ProjectsInstancesDatabases(
+        $this,
+        $this->serviceName,
+        'databases',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/databases',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'dropDatabase' => [
+              'path' => 'v1/{+database}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'database' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getDdl' => [
+              'path' => 'v1/{+database}/ddl',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'database' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1/{+resource}:getIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getScans' => [
+              'path' => 'v1/{+name}/scans',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'endTime' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'startTime' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/databases',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'restore' => [
+              'path' => 'v1/{+parent}/databases:restore',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'updateDdl' => [
+              'path' => 'v1/{+database}/ddl',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'database' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_instances_databases_operations = new Spanner\Resource\ProjectsInstancesDatabasesOperations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'cancel' => [
+              'path' => 'v1/{+name}:cancel',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_instances_databases_sessions = new Spanner\Resource\ProjectsInstancesDatabasesSessions(
+        $this,
+        $this->serviceName,
+        'sessions',
+        [
+          'methods' => [
+            'batchCreate' => [
+              'path' => 'v1/{+database}/sessions:batchCreate',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'database' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'beginTransaction' => [
+              'path' => 'v1/{+session}:beginTransaction',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'session' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'commit' => [
+              'path' => 'v1/{+session}:commit',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'session' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1/{+database}/sessions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'database' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'executeBatchDml' => [
+              'path' => 'v1/{+session}:executeBatchDml',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'session' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'executeSql' => [
+              'path' => 'v1/{+session}:executeSql',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'session' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'executeStreamingSql' => [
+              'path' => 'v1/{+session}:executeStreamingSql',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'session' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+database}/sessions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'database' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'partitionQuery' => [
+              'path' => 'v1/{+session}:partitionQuery',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'session' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'partitionRead' => [
+              'path' => 'v1/{+session}:partitionRead',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'session' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'read' => [
+              'path' => 'v1/{+session}:read',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'session' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'rollback' => [
+              'path' => 'v1/{+session}:rollback',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'session' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'streamingRead' => [
+              'path' => 'v1/{+session}:streamingRead',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'session' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_instances_operations = new Spanner\Resource\ProjectsInstancesOperations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'cancel' => [
+              'path' => 'v1/{+name}:cancel',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->scans = new Spanner\Resource\Scans(
+        $this,
+        $this->serviceName,
+        'scans',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/{+parent}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Spanner::class, 'Google_Service_Spanner');

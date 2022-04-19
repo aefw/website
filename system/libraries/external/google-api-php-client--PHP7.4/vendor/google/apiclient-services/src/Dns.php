@@ -1,87 +1,710 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for Dns (v1).
+ *
+ * <p>
+</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/dns/docs" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class Dns extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+  /** View your data across Google Cloud Platform services. */
+  const CLOUD_PLATFORM_READ_ONLY =
+      "https://www.googleapis.com/auth/cloud-platform.read-only";
+  /** View your DNS records hosted by Google Cloud DNS. */
+  const NDEV_CLOUDDNS_READONLY =
+      "https://www.googleapis.com/auth/ndev.clouddns.readonly";
+  /** View and manage your DNS records hosted by Google Cloud DNS. */
+  const NDEV_CLOUDDNS_READWRITE =
+      "https://www.googleapis.com/auth/ndev.clouddns.readwrite";
+
+  public $changes;
+  public $dnsKeys;
+  public $managedZoneOperations;
+  public $managedZones;
+  public $policies;
+  public $projects;
+  public $projects_managedZones_rrsets;
+  public $resourceRecordSets;
+
+  /**
+   * Constructs the internal representation of the Dns service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://dns.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'dns';
+
+    $this->changes = new Dns\Resource\Changes(
+        $this,
+        $this->serviceName,
+        'changes',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'dns/v1/projects/{project}/managedZones/{managedZone}/changes',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'managedZone' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'clientOperationId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'dns/v1/projects/{project}/managedZones/{managedZone}/changes/{changeId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'managedZone' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'changeId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'clientOperationId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dns/v1/projects/{project}/managedZones/{managedZone}/changes',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'managedZone' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortOrder' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->dnsKeys = new Dns\Resource\DnsKeys(
+        $this,
+        $this->serviceName,
+        'dnsKeys',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'dns/v1/projects/{project}/managedZones/{managedZone}/dnsKeys/{dnsKeyId}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'managedZone' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'dnsKeyId' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'clientOperationId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'digestType' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dns/v1/projects/{project}/managedZones/{managedZone}/dnsKeys',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'managedZone' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'digestType' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->managedZoneOperations = new Dns\Resource\ManagedZoneOperations(
+        $this,
+        $this->serviceName,
+        'managedZoneOperations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'dns/v1/projects/{project}/managedZones/{managedZone}/operations/{operation}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'managedZone' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'operation' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'clientOperationId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dns/v1/projects/{project}/managedZones/{managedZone}/operations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'managedZone' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->managedZones = new Dns\Resource\ManagedZones(
+        $this,
+        $this->serviceName,
+        'managedZones',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'dns/v1/projects/{project}/managedZones',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'clientOperationId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'dns/v1/projects/{project}/managedZones/{managedZone}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'managedZone' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'clientOperationId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'dns/v1/projects/{project}/managedZones/{managedZone}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'managedZone' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'clientOperationId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dns/v1/projects/{project}/managedZones',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'dnsName' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'dns/v1/projects/{project}/managedZones/{managedZone}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'managedZone' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'clientOperationId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'dns/v1/projects/{project}/managedZones/{managedZone}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'managedZone' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'clientOperationId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->policies = new Dns\Resource\Policies(
+        $this,
+        $this->serviceName,
+        'policies',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'dns/v1/projects/{project}/policies',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'clientOperationId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'dns/v1/projects/{project}/policies/{policy}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'policy' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'clientOperationId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'dns/v1/projects/{project}/policies/{policy}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'policy' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'clientOperationId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'dns/v1/projects/{project}/policies',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'dns/v1/projects/{project}/policies/{policy}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'policy' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'clientOperationId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'dns/v1/projects/{project}/policies/{policy}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'policy' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'clientOperationId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects = new Dns\Resource\Projects(
+        $this,
+        $this->serviceName,
+        'projects',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'dns/v1/projects/{project}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'clientOperationId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects_managedZones_rrsets = new Dns\Resource\ProjectsManagedZonesRrsets(
+        $this,
+        $this->serviceName,
+        'rrsets',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'dns/v1/projects/{project}/managedZones/{managedZone}/rrsets',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'managedZone' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'clientOperationId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'dns/v1/projects/{project}/managedZones/{managedZone}/rrsets/{name}/{type}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'managedZone' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'type' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'clientOperationId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'dns/v1/projects/{project}/managedZones/{managedZone}/rrsets/{name}/{type}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'managedZone' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'type' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'clientOperationId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'dns/v1/projects/{project}/managedZones/{managedZone}/rrsets/{name}/{type}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'managedZone' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'type' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'clientOperationId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->resourceRecordSets = new Dns\Resource\ResourceRecordSets(
+        $this,
+        $this->serviceName,
+        'resourceRecordSets',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'dns/v1/projects/{project}/managedZones/{managedZone}/rrsets',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'managedZone' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'maxResults' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'name' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'type' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Dns::class, 'Google_Service_Dns');

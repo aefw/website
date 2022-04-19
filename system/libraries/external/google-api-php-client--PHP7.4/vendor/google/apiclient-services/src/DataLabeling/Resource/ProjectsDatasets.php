@@ -1,73 +1,142 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\DataLabeling\Resource;
+
+use Google\Service\DataLabeling\GoogleCloudDatalabelingV1beta1CreateDatasetRequest;
+use Google\Service\DataLabeling\GoogleCloudDatalabelingV1beta1Dataset;
+use Google\Service\DataLabeling\GoogleCloudDatalabelingV1beta1ExportDataRequest;
+use Google\Service\DataLabeling\GoogleCloudDatalabelingV1beta1ImportDataRequest;
+use Google\Service\DataLabeling\GoogleCloudDatalabelingV1beta1ListDatasetsResponse;
+use Google\Service\DataLabeling\GoogleLongrunningOperation;
+use Google\Service\DataLabeling\GoogleProtobufEmpty;
+
+/**
+ * The "datasets" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $datalabelingService = new Google\Service\DataLabeling(...);
+ *   $datasets = $datalabelingService->datasets;
+ *  </code>
+ */
+class ProjectsDatasets extends \Google\Service\Resource
+{
+  /**
+   * Creates dataset. If success return a Dataset resource. (datasets.create)
+   *
+   * @param string $parent Required. Dataset resource parent, format:
+   * projects/{project_id}
+   * @param GoogleCloudDatalabelingV1beta1CreateDatasetRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudDatalabelingV1beta1Dataset
+   */
+  public function create($parent, GoogleCloudDatalabelingV1beta1CreateDatasetRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], GoogleCloudDatalabelingV1beta1Dataset::class);
+  }
+  /**
+   * Deletes a dataset by resource name. (datasets.delete)
+   *
+   * @param string $name Required. Dataset resource name, format:
+   * projects/{project_id}/datasets/{dataset_id}
+   * @param array $optParams Optional parameters.
+   * @return GoogleProtobufEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], GoogleProtobufEmpty::class);
+  }
+  /**
+   * Exports data and annotations from dataset. (datasets.exportData)
+   *
+   * @param string $name Required. Dataset resource name, format:
+   * projects/{project_id}/datasets/{dataset_id}
+   * @param GoogleCloudDatalabelingV1beta1ExportDataRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function exportData($name, GoogleCloudDatalabelingV1beta1ExportDataRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('exportData', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Gets dataset by resource name. (datasets.get)
+   *
+   * @param string $name Required. Dataset resource name, format:
+   * projects/{project_id}/datasets/{dataset_id}
+   * @param array $optParams Optional parameters.
+   * @return GoogleCloudDatalabelingV1beta1Dataset
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GoogleCloudDatalabelingV1beta1Dataset::class);
+  }
+  /**
+   * Imports data into dataset based on source locations defined in request. It
+   * can be called multiple times for the same dataset. Each dataset can only have
+   * one long running operation running on it. For example, no labeling task (also
+   * long running operation) can be started while importing is still ongoing. Vice
+   * versa. (datasets.importData)
+   *
+   * @param string $name Required. Dataset resource name, format:
+   * projects/{project_id}/datasets/{dataset_id}
+   * @param GoogleCloudDatalabelingV1beta1ImportDataRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return GoogleLongrunningOperation
+   */
+  public function importData($name, GoogleCloudDatalabelingV1beta1ImportDataRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('importData', [$params], GoogleLongrunningOperation::class);
+  }
+  /**
+   * Lists datasets under a project. Pagination is supported.
+   * (datasets.listProjectsDatasets)
+   *
+   * @param string $parent Required. Dataset resource parent, format:
+   * projects/{project_id}
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Optional. Filter on dataset is not supported at this
+   * moment.
+   * @opt_param int pageSize Optional. Requested page size. Server may return
+   * fewer results than requested. Default value is 100.
+   * @opt_param string pageToken Optional. A token identifying a page of results
+   * for the server to return. Typically obtained by
+   * ListDatasetsResponse.next_page_token of the previous
+   * [DataLabelingService.ListDatasets] call. Returns the first page if empty.
+   * @return GoogleCloudDatalabelingV1beta1ListDatasetsResponse
+   */
+  public function listProjectsDatasets($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], GoogleCloudDatalabelingV1beta1ListDatasetsResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsDatasets::class, 'Google_Service_DataLabeling_Resource_ProjectsDatasets');

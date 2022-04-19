@@ -1,146 +1,344 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-k8Iu7SQyDTDZ4a13MCvV9TLIo+o+DY+/YXXdO0==
+<?php
+
+/**
+ * Pure-PHP FIPS 186-4 compliant implementation of DSA.
+ *
+ * PHP version 5
+ *
+ * Here's an example of how to create signatures and verify signatures with this library:
+ * <code>
+ * <?php
+ * include 'vendor/autoload.php';
+ *
+ * $private = \phpseclib3\Crypt\DSA::createKey();
+ * $public = $private->getPublicKey();
+ *
+ * $plaintext = 'terrafrost';
+ *
+ * $signature = $private->sign($plaintext);
+ *
+ * echo $public->verify($plaintext, $signature) ? 'verified' : 'unverified';
+ * ?>
+ * </code>
+ *
+ * @category  Crypt
+ * @package   DSA
+ * @author    Jim Wigginton <terrafrost@php.net>
+ * @copyright 2016 Jim Wigginton
+ * @license   http://www.opensource.org/licenses/mit-license.html  MIT License
+ * @link      http://phpseclib.sourceforge.net
+ */
+
+namespace phpseclib3\Crypt;
+
+use phpseclib3\Crypt\Common\AsymmetricKey;
+use phpseclib3\Crypt\DSA\PrivateKey;
+use phpseclib3\Crypt\DSA\PublicKey;
+use phpseclib3\Crypt\DSA\Parameters;
+use phpseclib3\Math\BigInteger;
+use phpseclib3\Exception\InsufficientSetupException;
+
+/**
+ * Pure-PHP FIPS 186-4 compliant implementation of DSA.
+ *
+ * @package DSA
+ * @author  Jim Wigginton <terrafrost@php.net>
+ * @access  public
+ */
+abstract class DSA extends AsymmetricKey
+{
+    /**
+     * Algorithm Name
+     *
+     * @var string
+     * @access private
+     */
+    const ALGORITHM = 'DSA';
+
+    /**
+     * DSA Prime P
+     *
+     * @var \phpseclib3\Math\BigInteger
+     * @access private
+     */
+    protected $p;
+
+    /**
+     * DSA Group Order q
+     *
+     * Prime divisor of p-1
+     *
+     * @var \phpseclib3\Math\BigInteger
+     * @access private
+     */
+    protected $q;
+
+    /**
+     * DSA Group Generator G
+     *
+     * @var \phpseclib3\Math\BigInteger
+     * @access private
+     */
+    protected $g;
+
+    /**
+     * DSA public key value y
+     *
+     * @var \phpseclib3\Math\BigInteger
+     * @access private
+     */
+    protected $y;
+
+    /**
+     * Signature Format
+     *
+     * @var string
+     * @access private
+     */
+    protected $sigFormat;
+
+    /**
+     * Signature Format (Short)
+     *
+     * @var string
+     * @access private
+     */
+    protected $shortFormat;
+
+    /**
+     * Create DSA parameters
+     *
+     * @access public
+     * @param int $L
+     * @param int $N
+     * @return \phpseclib3\Crypt\DSA|bool
+     */
+    public static function createParameters($L = 2048, $N = 224)
+    {
+        self::initialize_static_variables();
+
+        if (!isset(self::$engines['PHP'])) {
+            self::useBestEngine();
+        }
+
+        switch (true) {
+            case $N == 160:
+            /*
+              in FIPS 186-1 and 186-2 N was fixed at 160 whereas K had an upper bound of 1024.
+              RFC 4253 (SSH Transport Layer Protocol) references FIPS 186-2 and as such most
+              SSH DSA implementations only support keys with an N of 160.
+              puttygen let's you set the size of L (but not the size of N) and uses 2048 as the
+              default L value. that's not really compliant with any of the FIPS standards, however,
+              for the purposes of maintaining compatibility with puttygen, we'll support it 
+            */
+            //case ($L >= 512 || $L <= 1024) && (($L & 0x3F) == 0) && $N == 160:
+            // FIPS 186-3 changed this as follows:
+            //case $L == 1024 && $N == 160:
+            case $L == 2048 && $N == 224:
+            case $L == 2048 && $N == 256:
+            case $L == 3072 && $N == 256:
+                break;
+            default:
+                throw new \InvalidArgumentException('Invalid values for N and L');
+        }
+
+        $two = new BigInteger(2);
+
+        $q = BigInteger::randomPrime($N);
+        $divisor = $q->multiply($two);
+
+        do {
+            $x = BigInteger::random($L);
+            list(, $c) = $x->divide($divisor);
+            $p = $x->subtract($c->subtract(self::$one));
+        } while ($p->getLength() != $L || !$p->isPrime());
+
+        $p_1 = $p->subtract(self::$one);
+        list($e) = $p_1->divide($q);
+
+        // quoting http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-4.pdf#page=50 ,
+        // "h could be obtained from a random number generator or from a counter that
+        //  changes after each use". PuTTY (sshdssg.c) starts h off at 1 and increments
+        // it on each loop. wikipedia says "commonly h = 2 is used" so we'll just do that
+        $h = clone $two;
+        while (true) {
+            $g = $h->powMod($e, $p);
+            if (!$g->equals(self::$one)) {
+                break;
+            }
+            $h = $h->add(self::$one);
+        }
+
+        $dsa = new Parameters;
+        $dsa->p = $p;
+        $dsa->q = $q;
+        $dsa->g = $g;
+
+        return $dsa;
+    }
+
+    /**
+     * Create public / private key pair.
+     *
+     * This method is a bit polymorphic. It can take a DSA/Parameters object, L / N as two distinct parameters or
+     * no parameters (at which point L and N will be generated with this method)
+     *
+     * Returns the private key, from which the publickey can be extracted
+     *
+     * @param int[] ...$args
+     * @access public
+     * @return DSA\PrivateKey
+     */
+    public static function createKey(...$args)
+    {
+        self::initialize_static_variables();
+
+        if (!isset(self::$engines['PHP'])) {
+            self::useBestEngine();
+        }
+
+        if (count($args) == 2 && is_int($args[0]) && is_int($args[1])) {
+            $params = self::createParameters($args[0], $args[1]);
+        } else if (count($args) == 1 && $args[0] instanceof Parameters) {
+            $params = $args[0];
+        } else if (!count($args)) {
+            $params = self::createParameters();
+        } else {
+            throw new InsufficientSetupException('Valid parameters are either two integers (L and N), a single DSA object or no parameters at all.');
+        }
+
+        $private = new PrivateKey;
+        $private->p = $params->p;
+        $private->q = $params->q;
+        $private->g = $params->g;
+
+        $private->x = BigInteger::randomRange(self::$one, $private->q->subtract(self::$one));
+        $private->y = $private->g->powMod($private->x, $private->p);
+
+        //$public = clone $private;
+        //unset($public->x);
+
+        return $private
+            ->withHash($params->hash->getHash())
+            ->withSignatureFormat($params->shortFormat);
+    }
+
+    /**
+     * OnLoad Handler
+     *
+     * @return bool
+     * @access protected
+     * @param array $components
+     */
+    protected static function onLoad($components)
+    {
+        if (!isset(self::$engines['PHP'])) {
+            self::useBestEngine();
+        }
+
+        if (!isset($components['x']) && !isset($components['y'])) {
+            $new = new Parameters;
+        } else if (isset($components['x'])) {
+            $new = new PrivateKey;
+            $new->x = $components['x'];
+        } else {
+            $new = new PublicKey;
+        }
+
+        $new->p = $components['p'];
+        $new->q = $components['q'];
+        $new->g = $components['g'];
+
+        if (isset($components['y'])) {
+            $new->y = $components['y'];
+        }
+
+        return $new;
+    }
+
+    /**
+     * Constructor
+     *
+     * PublicKey and PrivateKey objects can only be created from abstract RSA class
+     */
+    protected function __construct()
+    {
+        $this->sigFormat = self::validatePlugin('Signature', 'ASN1');
+        $this->shortFormat = 'ASN1';
+
+        parent::__construct();
+    }
+
+    /**
+     * Returns the key size
+     *
+     * More specifically, this L (the length of DSA Prime P) and N (the length of DSA Group Order q)
+     *
+     * @access public
+     * @return array
+     */
+    public function getLength()
+    {
+        return ['L' => $this->p->getLength(), 'N' => $this->q->getLength()];
+    }
+
+    /**
+     * Returns the current engine being used
+     *
+     * @see self::useInternalEngine()
+     * @see self::useBestEngine()
+     * @access public
+     * @return string
+     */
+    public function getEngine()
+    {
+        return self::$engines['OpenSSL'] && in_array($this->hash->getHash(), openssl_get_md_methods()) ?
+            'OpenSSL' : 'PHP';
+    }
+
+    /**
+     * Returns the parameters
+     *
+     * A public / private key is only returned if the currently loaded "key" contains an x or y
+     * value.
+     *
+     * @see self::getPublicKey()
+     * @access public
+     * @return mixed
+     */
+    public function getParameters()
+    {
+        $type = self::validatePlugin('Keys', 'PKCS1', 'saveParameters');
+
+        $key = $type::saveParameters($this->p, $this->q, $this->g);
+        return DSA::load($key, 'PKCS1')
+            ->withHash($this->hash->getHash())
+            ->withSignatureFormat($this->shortFormat);
+    }
+
+    /**
+     * Determines the signature padding mode
+     *
+     * Valid values are: ASN1, SSH2, Raw
+     *
+     * @access public
+     * @param string $format
+     */
+    public function withSignatureFormat($format)
+    {
+        $new = clone $this;
+        $new->shortFormat = $format;
+        $new->sigFormat = self::validatePlugin('Signature', $format);
+        return $new;
+    }
+
+    /**
+     * Returns the signature format currently being used
+     *
+     * @access public
+     */
+    public function getSignatureFormat()
+    {
+       return $this->shortFormat;
+    }
+}

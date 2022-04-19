@@ -1,84 +1,132 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AndroidManagement;
+
+class SoftwareInfo extends \Google\Model
+{
+  public $androidBuildNumber;
+  public $androidBuildTime;
+  public $androidDevicePolicyVersionCode;
+  public $androidDevicePolicyVersionName;
+  public $androidVersion;
+  public $bootloaderVersion;
+  public $deviceBuildSignature;
+  public $deviceKernelVersion;
+  public $primaryLanguageCode;
+  public $securityPatchLevel;
+  protected $systemUpdateInfoType = SystemUpdateInfo::class;
+  protected $systemUpdateInfoDataType = '';
+
+  public function setAndroidBuildNumber($androidBuildNumber)
+  {
+    $this->androidBuildNumber = $androidBuildNumber;
+  }
+  public function getAndroidBuildNumber()
+  {
+    return $this->androidBuildNumber;
+  }
+  public function setAndroidBuildTime($androidBuildTime)
+  {
+    $this->androidBuildTime = $androidBuildTime;
+  }
+  public function getAndroidBuildTime()
+  {
+    return $this->androidBuildTime;
+  }
+  public function setAndroidDevicePolicyVersionCode($androidDevicePolicyVersionCode)
+  {
+    $this->androidDevicePolicyVersionCode = $androidDevicePolicyVersionCode;
+  }
+  public function getAndroidDevicePolicyVersionCode()
+  {
+    return $this->androidDevicePolicyVersionCode;
+  }
+  public function setAndroidDevicePolicyVersionName($androidDevicePolicyVersionName)
+  {
+    $this->androidDevicePolicyVersionName = $androidDevicePolicyVersionName;
+  }
+  public function getAndroidDevicePolicyVersionName()
+  {
+    return $this->androidDevicePolicyVersionName;
+  }
+  public function setAndroidVersion($androidVersion)
+  {
+    $this->androidVersion = $androidVersion;
+  }
+  public function getAndroidVersion()
+  {
+    return $this->androidVersion;
+  }
+  public function setBootloaderVersion($bootloaderVersion)
+  {
+    $this->bootloaderVersion = $bootloaderVersion;
+  }
+  public function getBootloaderVersion()
+  {
+    return $this->bootloaderVersion;
+  }
+  public function setDeviceBuildSignature($deviceBuildSignature)
+  {
+    $this->deviceBuildSignature = $deviceBuildSignature;
+  }
+  public function getDeviceBuildSignature()
+  {
+    return $this->deviceBuildSignature;
+  }
+  public function setDeviceKernelVersion($deviceKernelVersion)
+  {
+    $this->deviceKernelVersion = $deviceKernelVersion;
+  }
+  public function getDeviceKernelVersion()
+  {
+    return $this->deviceKernelVersion;
+  }
+  public function setPrimaryLanguageCode($primaryLanguageCode)
+  {
+    $this->primaryLanguageCode = $primaryLanguageCode;
+  }
+  public function getPrimaryLanguageCode()
+  {
+    return $this->primaryLanguageCode;
+  }
+  public function setSecurityPatchLevel($securityPatchLevel)
+  {
+    $this->securityPatchLevel = $securityPatchLevel;
+  }
+  public function getSecurityPatchLevel()
+  {
+    return $this->securityPatchLevel;
+  }
+  /**
+   * @param SystemUpdateInfo
+   */
+  public function setSystemUpdateInfo(SystemUpdateInfo $systemUpdateInfo)
+  {
+    $this->systemUpdateInfo = $systemUpdateInfo;
+  }
+  /**
+   * @return SystemUpdateInfo
+   */
+  public function getSystemUpdateInfo()
+  {
+    return $this->systemUpdateInfo;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(SoftwareInfo::class, 'Google_Service_AndroidManagement_SoftwareInfo');

@@ -1,308 +1,3647 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-jbrySRYm2KuU32jo6gGo9kkiBYDqzm==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for Apigee (v1).
+ *
+ * <p>
+ * Use the Apigee API to programmatically develop and manage APIs with a set of
+ * RESTful operations. Develop and secure API proxies, deploy and undeploy API
+ * proxy revisions, monitor APIs, configure environments, manage users, and
+ * more. Note: This product is available as a free trial for a time period of 60
+ * days.</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/apigee-api-management/" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class Apigee extends \Google\Service
+{
+  /** See, edit, configure, and delete your Google Cloud Platform data. */
+  const CLOUD_PLATFORM =
+      "https://www.googleapis.com/auth/cloud-platform";
+
+  public $hybrid_issuers;
+  public $organizations;
+  public $organizations_analytics_datastores;
+  public $organizations_apiproducts;
+  public $organizations_apiproducts_attributes;
+  public $organizations_apiproducts_rateplans;
+  public $organizations_apis;
+  public $organizations_apis_deployments;
+  public $organizations_apis_keyvaluemaps;
+  public $organizations_apis_revisions;
+  public $organizations_apis_revisions_deployments;
+  public $organizations_apps;
+  public $organizations_datacollectors;
+  public $organizations_deployments;
+  public $organizations_developers;
+  public $organizations_developers_apps;
+  public $organizations_developers_apps_attributes;
+  public $organizations_developers_apps_keys;
+  public $organizations_developers_apps_keys_apiproducts;
+  public $organizations_developers_apps_keys_create;
+  public $organizations_developers_attributes;
+  public $organizations_developers_subscriptions;
+  public $organizations_envgroups;
+  public $organizations_envgroups_attachments;
+  public $organizations_environments;
+  public $organizations_environments_analytics_admin;
+  public $organizations_environments_analytics_exports;
+  public $organizations_environments_apis_deployments;
+  public $organizations_environments_apis_revisions;
+  public $organizations_environments_apis_revisions_debugsessions;
+  public $organizations_environments_apis_revisions_debugsessions_data;
+  public $organizations_environments_apis_revisions_deployments;
+  public $organizations_environments_caches;
+  public $organizations_environments_deployments;
+  public $organizations_environments_flowhooks;
+  public $organizations_environments_keystores;
+  public $organizations_environments_keystores_aliases;
+  public $organizations_environments_keyvaluemaps;
+  public $organizations_environments_optimizedStats;
+  public $organizations_environments_queries;
+  public $organizations_environments_references;
+  public $organizations_environments_resourcefiles;
+  public $organizations_environments_sharedflows_deployments;
+  public $organizations_environments_sharedflows_revisions;
+  public $organizations_environments_stats;
+  public $organizations_environments_targetservers;
+  public $organizations_environments_traceConfig_overrides;
+  public $organizations_hostQueries;
+  public $organizations_hostStats;
+  public $organizations_instances;
+  public $organizations_instances_attachments;
+  public $organizations_instances_canaryevaluations;
+  public $organizations_instances_natAddresses;
+  public $organizations_keyvaluemaps;
+  public $organizations_operations;
+  public $organizations_optimizedHostStats;
+  public $organizations_reports;
+  public $organizations_sharedflows;
+  public $organizations_sharedflows_deployments;
+  public $organizations_sharedflows_revisions;
+  public $organizations_sharedflows_revisions_deployments;
+  public $organizations_sites_apicategories;
+  public $projects;
+
+  /**
+   * Constructs the internal representation of the Apigee service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://apigee.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'apigee';
+
+    $this->hybrid_issuers = new Apigee\Resource\HybridIssuers(
+        $this,
+        $this->serviceName,
+        'issuers',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations = new Apigee\Resource\Organizations(
+        $this,
+        $this->serviceName,
+        'organizations',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/organizations',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getDeployedIngressConfig' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'getSyncAuthorization' => [
+              'path' => 'v1/{+name}:getSyncAuthorization',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'setAddons' => [
+              'path' => 'v1/{+org}:setAddons',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'org' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'setSyncAuthorization' => [
+              'path' => 'v1/{+name}:setSyncAuthorization',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_analytics_datastores = new Apigee\Resource\OrganizationsAnalyticsDatastores(
+        $this,
+        $this->serviceName,
+        'datastores',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/analytics/datastores',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/analytics/datastores',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'targetType' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'test' => [
+              'path' => 'v1/{+parent}/analytics/datastores:test',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_apiproducts = new Apigee\Resource\OrganizationsApiproducts(
+        $this,
+        $this->serviceName,
+        'apiproducts',
+        [
+          'methods' => [
+            'attributes' => [
+              'path' => 'v1/{+name}/attributes',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1/{+parent}/apiproducts',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/apiproducts',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'attributename' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'attributevalue' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'count' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'expand' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'startKey' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_apiproducts_attributes = new Apigee\Resource\OrganizationsApiproductsAttributes(
+        $this,
+        $this->serviceName,
+        'attributes',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/attributes',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'updateApiProductAttribute' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_apiproducts_rateplans = new Apigee\Resource\OrganizationsApiproductsRateplans(
+        $this,
+        $this->serviceName,
+        'rateplans',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/rateplans',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/rateplans',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'count' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'expand' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'orderBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'startKey' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'state' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_apis = new Apigee\Resource\OrganizationsApis(
+        $this,
+        $this->serviceName,
+        'apis',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/apis',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'action' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'name' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'validate' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/apis',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'includeMetaData' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'includeRevisions' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_apis_deployments = new Apigee\Resource\OrganizationsApisDeployments(
+        $this,
+        $this->serviceName,
+        'deployments',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/{+parent}/deployments',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_apis_keyvaluemaps = new Apigee\Resource\OrganizationsApisKeyvaluemaps(
+        $this,
+        $this->serviceName,
+        'keyvaluemaps',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/keyvaluemaps',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_apis_revisions = new Apigee\Resource\OrganizationsApisRevisions(
+        $this,
+        $this->serviceName,
+        'revisions',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'format' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'updateApiProxyRevision' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'validate' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_apis_revisions_deployments = new Apigee\Resource\OrganizationsApisRevisionsDeployments(
+        $this,
+        $this->serviceName,
+        'deployments',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/{+parent}/deployments',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_apps = new Apigee\Resource\OrganizationsApps(
+        $this,
+        $this->serviceName,
+        'apps',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/apps',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'apiProduct' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'apptype' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'expand' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'ids' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'includeCred' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'keyStatus' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'rows' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'startKey' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'status' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_datacollectors = new Apigee\Resource\OrganizationsDatacollectors(
+        $this,
+        $this->serviceName,
+        'datacollectors',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/datacollectors',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'dataCollectorId' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/datacollectors',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_deployments = new Apigee\Resource\OrganizationsDeployments(
+        $this,
+        $this->serviceName,
+        'deployments',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/{+parent}/deployments',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'sharedFlows' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_developers = new Apigee\Resource\OrganizationsDevelopers(
+        $this,
+        $this->serviceName,
+        'developers',
+        [
+          'methods' => [
+            'attributes' => [
+              'path' => 'v1/{+parent}/attributes',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1/{+parent}/developers',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'action' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/developers',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'app' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'count' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'expand' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'ids' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'includeCompany' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'startKey' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'setDeveloperStatus' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'action' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_developers_apps = new Apigee\Resource\OrganizationsDevelopersApps(
+        $this,
+        $this->serviceName,
+        'apps',
+        [
+          'methods' => [
+            'attributes' => [
+              'path' => 'v1/{+name}/attributes',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1/{+parent}/apps',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'generateKeyPairOrUpdateDeveloperAppStatus' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'action' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'entity' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'query' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/apps',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'count' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'expand' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'shallowExpand' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'startKey' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_developers_apps_attributes = new Apigee\Resource\OrganizationsDevelopersAppsAttributes(
+        $this,
+        $this->serviceName,
+        'attributes',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/attributes',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'updateDeveloperAppAttribute' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_developers_apps_keys = new Apigee\Resource\OrganizationsDevelopersAppsKeys(
+        $this,
+        $this->serviceName,
+        'keys',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/keys',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'replaceDeveloperAppKey' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'updateDeveloperAppKey' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'action' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_developers_apps_keys_apiproducts = new Apigee\Resource\OrganizationsDevelopersAppsKeysApiproducts(
+        $this,
+        $this->serviceName,
+        'apiproducts',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'updateDeveloperAppKeyApiProduct' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'action' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_developers_apps_keys_create = new Apigee\Resource\OrganizationsDevelopersAppsKeysCreate(
+        $this,
+        $this->serviceName,
+        'create',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/keys/create',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_developers_attributes = new Apigee\Resource\OrganizationsDevelopersAttributes(
+        $this,
+        $this->serviceName,
+        'attributes',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/attributes',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'updateDeveloperAttribute' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_developers_subscriptions = new Apigee\Resource\OrganizationsDevelopersSubscriptions(
+        $this,
+        $this->serviceName,
+        'subscriptions',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/subscriptions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'expire' => [
+              'path' => 'v1/{+name}:expire',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/subscriptions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'count' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'startKey' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_envgroups = new Apigee\Resource\OrganizationsEnvgroups(
+        $this,
+        $this->serviceName,
+        'envgroups',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/envgroups',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'name' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/envgroups',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_envgroups_attachments = new Apigee\Resource\OrganizationsEnvgroupsAttachments(
+        $this,
+        $this->serviceName,
+        'attachments',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/attachments',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/attachments',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_environments = new Apigee\Resource\OrganizationsEnvironments(
+        $this,
+        $this->serviceName,
+        'environments',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/environments',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'name' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getDebugmask' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getDeployedConfig' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getIamPolicy' => [
+              'path' => 'v1/{+resource}:getIamPolicy',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'options.requestedPolicyVersion' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+              ],
+            ],'getTraceConfig' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'setIamPolicy' => [
+              'path' => 'v1/{+resource}:setIamPolicy',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'subscribe' => [
+              'path' => 'v1/{+parent}:subscribe',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'testIamPermissions' => [
+              'path' => 'v1/{+resource}:testIamPermissions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'resource' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'unsubscribe' => [
+              'path' => 'v1/{+parent}:unsubscribe',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'updateDebugmask' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'replaceRepeatedFields' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'updateEnvironment' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'updateTraceConfig' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_environments_analytics_admin = new Apigee\Resource\OrganizationsEnvironmentsAnalyticsAdmin(
+        $this,
+        $this->serviceName,
+        'admin',
+        [
+          'methods' => [
+            'getSchemav2' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'disableCache' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'type' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_environments_analytics_exports = new Apigee\Resource\OrganizationsEnvironmentsAnalyticsExports(
+        $this,
+        $this->serviceName,
+        'exports',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/analytics/exports',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/analytics/exports',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_environments_apis_deployments = new Apigee\Resource\OrganizationsEnvironmentsApisDeployments(
+        $this,
+        $this->serviceName,
+        'deployments',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/{+parent}/deployments',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_environments_apis_revisions = new Apigee\Resource\OrganizationsEnvironmentsApisRevisions(
+        $this,
+        $this->serviceName,
+        'revisions',
+        [
+          'methods' => [
+            'deploy' => [
+              'path' => 'v1/{+name}/deployments',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'override' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'sequencedRollout' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'getDeployments' => [
+              'path' => 'v1/{+name}/deployments',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'undeploy' => [
+              'path' => 'v1/{+name}/deployments',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'sequencedRollout' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_environments_apis_revisions_debugsessions = new Apigee\Resource\OrganizationsEnvironmentsApisRevisionsDebugsessions(
+        $this,
+        $this->serviceName,
+        'debugsessions',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/debugsessions',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'timeout' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'deleteData' => [
+              'path' => 'v1/{+name}/data',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/debugsessions',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_environments_apis_revisions_debugsessions_data = new Apigee\Resource\OrganizationsEnvironmentsApisRevisionsDebugsessionsData(
+        $this,
+        $this->serviceName,
+        'data',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_environments_apis_revisions_deployments = new Apigee\Resource\OrganizationsEnvironmentsApisRevisionsDeployments(
+        $this,
+        $this->serviceName,
+        'deployments',
+        [
+          'methods' => [
+            'generateDeployChangeReport' => [
+              'path' => 'v1/{+name}/deployments:generateDeployChangeReport',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'override' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'generateUndeployChangeReport' => [
+              'path' => 'v1/{+name}/deployments:generateUndeployChangeReport',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_environments_caches = new Apigee\Resource\OrganizationsEnvironmentsCaches(
+        $this,
+        $this->serviceName,
+        'caches',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_environments_deployments = new Apigee\Resource\OrganizationsEnvironmentsDeployments(
+        $this,
+        $this->serviceName,
+        'deployments',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/{+parent}/deployments',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'sharedFlows' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_environments_flowhooks = new Apigee\Resource\OrganizationsEnvironmentsFlowhooks(
+        $this,
+        $this->serviceName,
+        'flowhooks',
+        [
+          'methods' => [
+            'attachSharedFlowToFlowHook' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'detachSharedFlowFromFlowHook' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_environments_keystores = new Apigee\Resource\OrganizationsEnvironmentsKeystores(
+        $this,
+        $this->serviceName,
+        'keystores',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/keystores',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'name' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_environments_keystores_aliases = new Apigee\Resource\OrganizationsEnvironmentsKeystoresAliases(
+        $this,
+        $this->serviceName,
+        'aliases',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/aliases',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                '_password' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'alias' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'format' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'ignoreExpiryValidation' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'ignoreNewlineValidation' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'csr' => [
+              'path' => 'v1/{+name}/csr',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getCertificate' => [
+              'path' => 'v1/{+name}/certificate',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'ignoreExpiryValidation' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'ignoreNewlineValidation' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_environments_keyvaluemaps = new Apigee\Resource\OrganizationsEnvironmentsKeyvaluemaps(
+        $this,
+        $this->serviceName,
+        'keyvaluemaps',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/keyvaluemaps',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_environments_optimizedStats = new Apigee\Resource\OrganizationsEnvironmentsOptimizedStats(
+        $this,
+        $this->serviceName,
+        'optimizedStats',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'accuracy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'aggTable' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'limit' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'offset' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'realtime' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'select' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sonar' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'sort' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortby' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'timeRange' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'timeUnit' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'topk' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'tsAscending' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'tzo' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_environments_queries = new Apigee\Resource\OrganizationsEnvironmentsQueries(
+        $this,
+        $this->serviceName,
+        'queries',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/queries',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getResult' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/queries',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'dataset' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'from' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'inclQueriesWithoutReport' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'status' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'submittedBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'to' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_environments_references = new Apigee\Resource\OrganizationsEnvironmentsReferences(
+        $this,
+        $this->serviceName,
+        'references',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/references',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_environments_resourcefiles = new Apigee\Resource\OrganizationsEnvironmentsResourcefiles(
+        $this,
+        $this->serviceName,
+        'resourcefiles',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/resourcefiles',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'name' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'type' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+parent}/resourcefiles/{type}/{name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'type' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+parent}/resourcefiles/{type}/{name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'type' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/resourcefiles',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'type' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'listEnvironmentResources' => [
+              'path' => 'v1/{+parent}/resourcefiles/{type}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'type' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'v1/{+parent}/resourcefiles/{type}/{name}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'type' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_environments_sharedflows_deployments = new Apigee\Resource\OrganizationsEnvironmentsSharedflowsDeployments(
+        $this,
+        $this->serviceName,
+        'deployments',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/{+parent}/deployments',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_environments_sharedflows_revisions = new Apigee\Resource\OrganizationsEnvironmentsSharedflowsRevisions(
+        $this,
+        $this->serviceName,
+        'revisions',
+        [
+          'methods' => [
+            'deploy' => [
+              'path' => 'v1/{+name}/deployments',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'override' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'getDeployments' => [
+              'path' => 'v1/{+name}/deployments',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'undeploy' => [
+              'path' => 'v1/{+name}/deployments',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_environments_stats = new Apigee\Resource\OrganizationsEnvironmentsStats(
+        $this,
+        $this->serviceName,
+        'stats',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'accuracy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'aggTable' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'limit' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'offset' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'realtime' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'select' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sonar' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'sort' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortby' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'timeRange' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'timeUnit' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'topk' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'tsAscending' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'tzo' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_environments_targetservers = new Apigee\Resource\OrganizationsEnvironmentsTargetservers(
+        $this,
+        $this->serviceName,
+        'targetservers',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/targetservers',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'name' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'update' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_environments_traceConfig_overrides = new Apigee\Resource\OrganizationsEnvironmentsTraceConfigOverrides(
+        $this,
+        $this->serviceName,
+        'overrides',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/overrides',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/overrides',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_hostQueries = new Apigee\Resource\OrganizationsHostQueries(
+        $this,
+        $this->serviceName,
+        'hostQueries',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/hostQueries',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getResult' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'getResultView' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/hostQueries',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'dataset' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'envgroupHostname' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'from' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'inclQueriesWithoutReport' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'status' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'submittedBy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'to' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_hostStats = new Apigee\Resource\OrganizationsHostStats(
+        $this,
+        $this->serviceName,
+        'hostStats',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'accuracy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'envgroupHostname' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'limit' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'offset' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'realtime' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'select' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sort' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortby' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'timeRange' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'timeUnit' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'topk' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'tsAscending' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'tzo' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_instances = new Apigee\Resource\OrganizationsInstances(
+        $this,
+        $this->serviceName,
+        'instances',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/instances',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/instances',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'reportStatus' => [
+              'path' => 'v1/{+instance}:reportStatus',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'instance' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_instances_attachments = new Apigee\Resource\OrganizationsInstancesAttachments(
+        $this,
+        $this->serviceName,
+        'attachments',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/attachments',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/attachments',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_instances_canaryevaluations = new Apigee\Resource\OrganizationsInstancesCanaryevaluations(
+        $this,
+        $this->serviceName,
+        'canaryevaluations',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/canaryevaluations',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_instances_natAddresses = new Apigee\Resource\OrganizationsInstancesNatAddresses(
+        $this,
+        $this->serviceName,
+        'natAddresses',
+        [
+          'methods' => [
+            'activate' => [
+              'path' => 'v1/{+name}:activate',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1/{+parent}/natAddresses',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/natAddresses',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_keyvaluemaps = new Apigee\Resource\OrganizationsKeyvaluemaps(
+        $this,
+        $this->serviceName,
+        'keyvaluemaps',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/keyvaluemaps',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_operations = new Apigee\Resource\OrganizationsOperations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+name}/operations',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_optimizedHostStats = new Apigee\Resource\OrganizationsOptimizedHostStats(
+        $this,
+        $this->serviceName,
+        'optimizedHostStats',
+        [
+          'methods' => [
+            'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'accuracy' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'envgroupHostname' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'limit' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'offset' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'realtime' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'select' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sort' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'sortby' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'timeRange' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'timeUnit' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'topk' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'tsAscending' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'tzo' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_reports = new Apigee\Resource\OrganizationsReports(
+        $this,
+        $this->serviceName,
+        'reports',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/reports',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/reports',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'expand' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],'update' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PUT',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_sharedflows = new Apigee\Resource\OrganizationsSharedflows(
+        $this,
+        $this->serviceName,
+        'sharedflows',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/sharedflows',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'action' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'name' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/sharedflows',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'includeMetaData' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+                'includeRevisions' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_sharedflows_deployments = new Apigee\Resource\OrganizationsSharedflowsDeployments(
+        $this,
+        $this->serviceName,
+        'deployments',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/{+parent}/deployments',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_sharedflows_revisions = new Apigee\Resource\OrganizationsSharedflowsRevisions(
+        $this,
+        $this->serviceName,
+        'revisions',
+        [
+          'methods' => [
+            'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'format' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'updateSharedFlowRevision' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'validate' => [
+                  'location' => 'query',
+                  'type' => 'boolean',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_sharedflows_revisions_deployments = new Apigee\Resource\OrganizationsSharedflowsRevisionsDeployments(
+        $this,
+        $this->serviceName,
+        'deployments',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/{+parent}/deployments',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->organizations_sites_apicategories = new Apigee\Resource\OrganizationsSitesApicategories(
+        $this,
+        $this->serviceName,
+        'apicategories',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/apicategories',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/apicategories',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->projects = new Apigee\Resource\Projects(
+        $this,
+        $this->serviceName,
+        'projects',
+        [
+          'methods' => [
+            'provisionOrganization' => [
+              'path' => 'v1/{+project}:provisionOrganization',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'project' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Apigee::class, 'Google_Service_Apigee');

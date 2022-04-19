@@ -1,87 +1,182 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-1JWteKhkNEUq3bjxV6RF77MiU94xIG5qfGyiVAa=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudSearch;
+
+class SearchResponse extends \Google\Collection
+{
+  protected $collection_key = 'structuredResults';
+  protected $debugInfoType = ResponseDebugInfo::class;
+  protected $debugInfoDataType = '';
+  protected $errorInfoType = ErrorInfo::class;
+  protected $errorInfoDataType = '';
+  protected $facetResultsType = FacetResult::class;
+  protected $facetResultsDataType = 'array';
+  public $hasMoreResults;
+  protected $queryInterpretationType = QueryInterpretation::class;
+  protected $queryInterpretationDataType = '';
+  public $resultCountEstimate;
+  public $resultCountExact;
+  protected $resultCountsType = ResultCounts::class;
+  protected $resultCountsDataType = '';
+  protected $resultsType = SearchResult::class;
+  protected $resultsDataType = 'array';
+  protected $spellResultsType = SpellResult::class;
+  protected $spellResultsDataType = 'array';
+  protected $structuredResultsType = StructuredResult::class;
+  protected $structuredResultsDataType = 'array';
+
+  /**
+   * @param ResponseDebugInfo
+   */
+  public function setDebugInfo(ResponseDebugInfo $debugInfo)
+  {
+    $this->debugInfo = $debugInfo;
+  }
+  /**
+   * @return ResponseDebugInfo
+   */
+  public function getDebugInfo()
+  {
+    return $this->debugInfo;
+  }
+  /**
+   * @param ErrorInfo
+   */
+  public function setErrorInfo(ErrorInfo $errorInfo)
+  {
+    $this->errorInfo = $errorInfo;
+  }
+  /**
+   * @return ErrorInfo
+   */
+  public function getErrorInfo()
+  {
+    return $this->errorInfo;
+  }
+  /**
+   * @param FacetResult[]
+   */
+  public function setFacetResults($facetResults)
+  {
+    $this->facetResults = $facetResults;
+  }
+  /**
+   * @return FacetResult[]
+   */
+  public function getFacetResults()
+  {
+    return $this->facetResults;
+  }
+  public function setHasMoreResults($hasMoreResults)
+  {
+    $this->hasMoreResults = $hasMoreResults;
+  }
+  public function getHasMoreResults()
+  {
+    return $this->hasMoreResults;
+  }
+  /**
+   * @param QueryInterpretation
+   */
+  public function setQueryInterpretation(QueryInterpretation $queryInterpretation)
+  {
+    $this->queryInterpretation = $queryInterpretation;
+  }
+  /**
+   * @return QueryInterpretation
+   */
+  public function getQueryInterpretation()
+  {
+    return $this->queryInterpretation;
+  }
+  public function setResultCountEstimate($resultCountEstimate)
+  {
+    $this->resultCountEstimate = $resultCountEstimate;
+  }
+  public function getResultCountEstimate()
+  {
+    return $this->resultCountEstimate;
+  }
+  public function setResultCountExact($resultCountExact)
+  {
+    $this->resultCountExact = $resultCountExact;
+  }
+  public function getResultCountExact()
+  {
+    return $this->resultCountExact;
+  }
+  /**
+   * @param ResultCounts
+   */
+  public function setResultCounts(ResultCounts $resultCounts)
+  {
+    $this->resultCounts = $resultCounts;
+  }
+  /**
+   * @return ResultCounts
+   */
+  public function getResultCounts()
+  {
+    return $this->resultCounts;
+  }
+  /**
+   * @param SearchResult[]
+   */
+  public function setResults($results)
+  {
+    $this->results = $results;
+  }
+  /**
+   * @return SearchResult[]
+   */
+  public function getResults()
+  {
+    return $this->results;
+  }
+  /**
+   * @param SpellResult[]
+   */
+  public function setSpellResults($spellResults)
+  {
+    $this->spellResults = $spellResults;
+  }
+  /**
+   * @return SpellResult[]
+   */
+  public function getSpellResults()
+  {
+    return $this->spellResults;
+  }
+  /**
+   * @param StructuredResult[]
+   */
+  public function setStructuredResults($structuredResults)
+  {
+    $this->structuredResults = $structuredResults;
+  }
+  /**
+   * @return StructuredResult[]
+   */
+  public function getStructuredResults()
+  {
+    return $this->structuredResults;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(SearchResponse::class, 'Google_Service_CloudSearch_SearchResponse');

@@ -1,69 +1,98 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-PTHWQDndlRsmPbgklG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\CloudBuild;
+
+class RepoSource extends \Google\Model
+{
+  public $branchName;
+  public $commitSha;
+  public $dir;
+  public $invertRegex;
+  public $projectId;
+  public $repoName;
+  public $substitutions;
+  public $tagName;
+
+  public function setBranchName($branchName)
+  {
+    $this->branchName = $branchName;
+  }
+  public function getBranchName()
+  {
+    return $this->branchName;
+  }
+  public function setCommitSha($commitSha)
+  {
+    $this->commitSha = $commitSha;
+  }
+  public function getCommitSha()
+  {
+    return $this->commitSha;
+  }
+  public function setDir($dir)
+  {
+    $this->dir = $dir;
+  }
+  public function getDir()
+  {
+    return $this->dir;
+  }
+  public function setInvertRegex($invertRegex)
+  {
+    $this->invertRegex = $invertRegex;
+  }
+  public function getInvertRegex()
+  {
+    return $this->invertRegex;
+  }
+  public function setProjectId($projectId)
+  {
+    $this->projectId = $projectId;
+  }
+  public function getProjectId()
+  {
+    return $this->projectId;
+  }
+  public function setRepoName($repoName)
+  {
+    $this->repoName = $repoName;
+  }
+  public function getRepoName()
+  {
+    return $this->repoName;
+  }
+  public function setSubstitutions($substitutions)
+  {
+    $this->substitutions = $substitutions;
+  }
+  public function getSubstitutions()
+  {
+    return $this->substitutions;
+  }
+  public function setTagName($tagName)
+  {
+    $this->tagName = $tagName;
+  }
+  public function getTagName()
+  {
+    return $this->tagName;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(RepoSource::class, 'Google_Service_CloudBuild_RepoSource');

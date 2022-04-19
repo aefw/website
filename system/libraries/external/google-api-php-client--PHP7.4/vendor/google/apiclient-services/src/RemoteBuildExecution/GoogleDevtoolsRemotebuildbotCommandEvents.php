@@ -1,74 +1,98 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-1F59hjUS6AdJwQ9n
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\RemoteBuildExecution;
+
+class GoogleDevtoolsRemotebuildbotCommandEvents extends \Google\Model
+{
+  public $cmUsage;
+  public $dockerCacheHit;
+  public $dockerImageName;
+  public $inputCacheMiss;
+  public $numErrors;
+  public $numWarnings;
+  public $outputLocation;
+  public $usedAsyncContainer;
+
+  public function setCmUsage($cmUsage)
+  {
+    $this->cmUsage = $cmUsage;
+  }
+  public function getCmUsage()
+  {
+    return $this->cmUsage;
+  }
+  public function setDockerCacheHit($dockerCacheHit)
+  {
+    $this->dockerCacheHit = $dockerCacheHit;
+  }
+  public function getDockerCacheHit()
+  {
+    return $this->dockerCacheHit;
+  }
+  public function setDockerImageName($dockerImageName)
+  {
+    $this->dockerImageName = $dockerImageName;
+  }
+  public function getDockerImageName()
+  {
+    return $this->dockerImageName;
+  }
+  public function setInputCacheMiss($inputCacheMiss)
+  {
+    $this->inputCacheMiss = $inputCacheMiss;
+  }
+  public function getInputCacheMiss()
+  {
+    return $this->inputCacheMiss;
+  }
+  public function setNumErrors($numErrors)
+  {
+    $this->numErrors = $numErrors;
+  }
+  public function getNumErrors()
+  {
+    return $this->numErrors;
+  }
+  public function setNumWarnings($numWarnings)
+  {
+    $this->numWarnings = $numWarnings;
+  }
+  public function getNumWarnings()
+  {
+    return $this->numWarnings;
+  }
+  public function setOutputLocation($outputLocation)
+  {
+    $this->outputLocation = $outputLocation;
+  }
+  public function getOutputLocation()
+  {
+    return $this->outputLocation;
+  }
+  public function setUsedAsyncContainer($usedAsyncContainer)
+  {
+    $this->usedAsyncContainer = $usedAsyncContainer;
+  }
+  public function getUsedAsyncContainer()
+  {
+    return $this->usedAsyncContainer;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleDevtoolsRemotebuildbotCommandEvents::class, 'Google_Service_RemoteBuildExecution_GoogleDevtoolsRemotebuildbotCommandEvents');

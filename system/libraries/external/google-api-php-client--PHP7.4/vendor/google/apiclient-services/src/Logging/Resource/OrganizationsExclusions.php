@@ -1,67 +1,142 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-og4m9Fe2ddrBf2ZY+JPgWkAxeJ8tHG==
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Logging\Resource;
+
+use Google\Service\Logging\ListExclusionsResponse;
+use Google\Service\Logging\LogExclusion;
+use Google\Service\Logging\LoggingEmpty;
+
+/**
+ * The "exclusions" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $loggingService = new Google\Service\Logging(...);
+ *   $exclusions = $loggingService->exclusions;
+ *  </code>
+ */
+class OrganizationsExclusions extends \Google\Service\Resource
+{
+  /**
+   * Creates a new exclusion in a specified parent resource. Only log entries
+   * belonging to that resource can be excluded. You can have up to 10 exclusions
+   * in a resource. (exclusions.create)
+   *
+   * @param string $parent Required. The parent resource in which to create the
+   * exclusion: "projects/[PROJECT_ID]" "organizations/[ORGANIZATION_ID]"
+   * "billingAccounts/[BILLING_ACCOUNT_ID]" "folders/[FOLDER_ID]" Examples:
+   * "projects/my-logging-project", "organizations/123456789".
+   * @param LogExclusion $postBody
+   * @param array $optParams Optional parameters.
+   * @return LogExclusion
+   */
+  public function create($parent, LogExclusion $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], LogExclusion::class);
+  }
+  /**
+   * Deletes an exclusion. (exclusions.delete)
+   *
+   * @param string $name Required. The resource name of an existing exclusion to
+   * delete: "projects/[PROJECT_ID]/exclusions/[EXCLUSION_ID]"
+   * "organizations/[ORGANIZATION_ID]/exclusions/[EXCLUSION_ID]"
+   * "billingAccounts/[BILLING_ACCOUNT_ID]/exclusions/[EXCLUSION_ID]"
+   * "folders/[FOLDER_ID]/exclusions/[EXCLUSION_ID]" Example: "projects/my-
+   * project-id/exclusions/my-exclusion-id".
+   * @param array $optParams Optional parameters.
+   * @return LoggingEmpty
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], LoggingEmpty::class);
+  }
+  /**
+   * Gets the description of an exclusion. (exclusions.get)
+   *
+   * @param string $name Required. The resource name of an existing exclusion:
+   * "projects/[PROJECT_ID]/exclusions/[EXCLUSION_ID]"
+   * "organizations/[ORGANIZATION_ID]/exclusions/[EXCLUSION_ID]"
+   * "billingAccounts/[BILLING_ACCOUNT_ID]/exclusions/[EXCLUSION_ID]"
+   * "folders/[FOLDER_ID]/exclusions/[EXCLUSION_ID]" Example: "projects/my-
+   * project-id/exclusions/my-exclusion-id".
+   * @param array $optParams Optional parameters.
+   * @return LogExclusion
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], LogExclusion::class);
+  }
+  /**
+   * Lists all the exclusions in a parent resource.
+   * (exclusions.listOrganizationsExclusions)
+   *
+   * @param string $parent Required. The parent resource whose exclusions are to
+   * be listed. "projects/[PROJECT_ID]" "organizations/[ORGANIZATION_ID]"
+   * "billingAccounts/[BILLING_ACCOUNT_ID]" "folders/[FOLDER_ID]"
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int pageSize Optional. The maximum number of results to return
+   * from this request. Non-positive values are ignored. The presence of
+   * nextPageToken in the response indicates that more results might be available.
+   * @opt_param string pageToken Optional. If present, then retrieve the next
+   * batch of results from the preceding call to this method. pageToken must be
+   * the value of nextPageToken from the previous response. The values of other
+   * method parameters should be identical to those in the previous call.
+   * @return ListExclusionsResponse
+   */
+  public function listOrganizationsExclusions($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListExclusionsResponse::class);
+  }
+  /**
+   * Changes one or more properties of an existing exclusion. (exclusions.patch)
+   *
+   * @param string $name Required. The resource name of the exclusion to update:
+   * "projects/[PROJECT_ID]/exclusions/[EXCLUSION_ID]"
+   * "organizations/[ORGANIZATION_ID]/exclusions/[EXCLUSION_ID]"
+   * "billingAccounts/[BILLING_ACCOUNT_ID]/exclusions/[EXCLUSION_ID]"
+   * "folders/[FOLDER_ID]/exclusions/[EXCLUSION_ID]" Example: "projects/my-
+   * project-id/exclusions/my-exclusion-id".
+   * @param LogExclusion $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. A non-empty list of fields to change
+   * in the existing exclusion. New values for the fields are taken from the
+   * corresponding fields in the LogExclusion included in this request. Fields not
+   * mentioned in update_mask are not changed and are ignored in the request.For
+   * example, to change the filter and description of an exclusion, specify an
+   * update_mask of "filter,description".
+   * @return LogExclusion
+   */
+  public function patch($name, LogExclusion $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], LogExclusion::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(OrganizationsExclusions::class, 'Google_Service_Logging_Resource_OrganizationsExclusions');

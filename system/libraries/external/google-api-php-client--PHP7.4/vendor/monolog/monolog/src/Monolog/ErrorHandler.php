@@ -1,214 +1,266 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-zzO=
+<?php declare(strict_types=1);
+
+/*
+ * This file is part of the Monolog package.
+ *
+ * (c) Jordi Boggiano <j.boggiano@seld.be>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Monolog;
+
+use Psr\Log\LoggerInterface;
+use Psr\Log\LogLevel;
+
+/**
+ * Monolog error handler
+ *
+ * A facility to enable logging of runtime errors, exceptions and fatal errors.
+ *
+ * Quick setup: <code>ErrorHandler::register($logger);</code>
+ *
+ * @author Jordi Boggiano <j.boggiano@seld.be>
+ */
+class ErrorHandler
+{
+    private $logger;
+
+    private $previousExceptionHandler;
+    private $uncaughtExceptionLevelMap;
+
+    private $previousErrorHandler;
+    private $errorLevelMap;
+    private $handleOnlyReportedErrors;
+
+    private $hasFatalErrorHandler;
+    private $fatalLevel;
+    private $reservedMemory;
+    private $lastFatalTrace;
+    private static $fatalErrors = [E_ERROR, E_PARSE, E_CORE_ERROR, E_COMPILE_ERROR, E_USER_ERROR];
+
+    public function __construct(LoggerInterface $logger)
+    {
+        $this->logger = $logger;
+    }
+
+    /**
+     * Registers a new ErrorHandler for a given Logger
+     *
+     * By default it will handle errors, exceptions and fatal errors
+     *
+     * @param  LoggerInterface   $logger
+     * @param  array|false       $errorLevelMap     an array of E_* constant to LogLevel::* constant mapping, or false to disable error handling
+     * @param  array|false       $exceptionLevelMap an array of class name to LogLevel::* constant mapping, or false to disable exception handling
+     * @param  string|null|false $fatalLevel        a LogLevel::* constant, null to use the default LogLevel::ALERT or false to disable fatal error handling
+     * @return ErrorHandler
+     */
+    public static function register(LoggerInterface $logger, $errorLevelMap = [], $exceptionLevelMap = [], $fatalLevel = null): self
+    {
+        /** @phpstan-ignore-next-line */
+        $handler = new static($logger);
+        if ($errorLevelMap !== false) {
+            $handler->registerErrorHandler($errorLevelMap);
+        }
+        if ($exceptionLevelMap !== false) {
+            $handler->registerExceptionHandler($exceptionLevelMap);
+        }
+        if ($fatalLevel !== false) {
+            $handler->registerFatalHandler($fatalLevel);
+        }
+
+        return $handler;
+    }
+
+    public function registerExceptionHandler($levelMap = [], $callPrevious = true): self
+    {
+        $prev = set_exception_handler(function (\Throwable $e): void {
+            $this->handleException($e);
+        });
+        $this->uncaughtExceptionLevelMap = $levelMap;
+        foreach ($this->defaultExceptionLevelMap() as $class => $level) {
+            if (!isset($this->uncaughtExceptionLevelMap[$class])) {
+                $this->uncaughtExceptionLevelMap[$class] = $level;
+            }
+        }
+        if ($callPrevious && $prev) {
+            $this->previousExceptionHandler = $prev;
+        }
+
+        return $this;
+    }
+
+    public function registerErrorHandler(array $levelMap = [], $callPrevious = true, $errorTypes = -1, $handleOnlyReportedErrors = true): self
+    {
+        $prev = set_error_handler([$this, 'handleError'], $errorTypes);
+        $this->errorLevelMap = array_replace($this->defaultErrorLevelMap(), $levelMap);
+        if ($callPrevious) {
+            $this->previousErrorHandler = $prev ?: true;
+        }
+
+        $this->handleOnlyReportedErrors = $handleOnlyReportedErrors;
+
+        return $this;
+    }
+
+    /**
+     * @param string|null $level              a LogLevel::* constant, null to use the default LogLevel::ALERT or false to disable fatal error handling
+     * @param int         $reservedMemorySize Amount of KBs to reserve in memory so that it can be freed when handling fatal errors giving Monolog some room in memory to get its job done
+     */
+    public function registerFatalHandler($level = null, int $reservedMemorySize = 20): self
+    {
+        register_shutdown_function([$this, 'handleFatalError']);
+
+        $this->reservedMemory = str_repeat(' ', 1024 * $reservedMemorySize);
+        $this->fatalLevel = $level;
+        $this->hasFatalErrorHandler = true;
+
+        return $this;
+    }
+
+    protected function defaultExceptionLevelMap(): array
+    {
+        return [
+            'ParseError' => LogLevel::CRITICAL,
+            'Throwable' => LogLevel::ERROR,
+        ];
+    }
+
+    protected function defaultErrorLevelMap(): array
+    {
+        return [
+            E_ERROR             => LogLevel::CRITICAL,
+            E_WARNING           => LogLevel::WARNING,
+            E_PARSE             => LogLevel::ALERT,
+            E_NOTICE            => LogLevel::NOTICE,
+            E_CORE_ERROR        => LogLevel::CRITICAL,
+            E_CORE_WARNING      => LogLevel::WARNING,
+            E_COMPILE_ERROR     => LogLevel::ALERT,
+            E_COMPILE_WARNING   => LogLevel::WARNING,
+            E_USER_ERROR        => LogLevel::ERROR,
+            E_USER_WARNING      => LogLevel::WARNING,
+            E_USER_NOTICE       => LogLevel::NOTICE,
+            E_STRICT            => LogLevel::NOTICE,
+            E_RECOVERABLE_ERROR => LogLevel::ERROR,
+            E_DEPRECATED        => LogLevel::NOTICE,
+            E_USER_DEPRECATED   => LogLevel::NOTICE,
+        ];
+    }
+
+    private function handleException(\Throwable $e)
+    {
+        $level = LogLevel::ERROR;
+        foreach ($this->uncaughtExceptionLevelMap as $class => $candidate) {
+            if ($e instanceof $class) {
+                $level = $candidate;
+                break;
+            }
+        }
+
+        $this->logger->log(
+            $level,
+            sprintf('Uncaught Exception %s: "%s" at %s line %s', Utils::getClass($e), $e->getMessage(), $e->getFile(), $e->getLine()),
+            ['exception' => $e]
+        );
+
+        if ($this->previousExceptionHandler) {
+            ($this->previousExceptionHandler)($e);
+        }
+
+        if (!headers_sent() && !ini_get('display_errors')) {
+            http_response_code(500);
+        }
+
+        exit(255);
+    }
+
+    /**
+     * @private
+     */
+    public function handleError($code, $message, $file = '', $line = 0, $context = [])
+    {
+        if ($this->handleOnlyReportedErrors && !(error_reporting() & $code)) {
+            return;
+        }
+
+        // fatal error codes are ignored if a fatal error handler is present as well to avoid duplicate log entries
+        if (!$this->hasFatalErrorHandler || !in_array($code, self::$fatalErrors, true)) {
+            $level = $this->errorLevelMap[$code] ?? LogLevel::CRITICAL;
+            $this->logger->log($level, self::codeToString($code).': '.$message, ['code' => $code, 'message' => $message, 'file' => $file, 'line' => $line]);
+        } else {
+            $trace = debug_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS);
+            array_shift($trace); // Exclude handleError from trace
+            $this->lastFatalTrace = $trace;
+        }
+
+        if ($this->previousErrorHandler === true) {
+            return false;
+        } elseif ($this->previousErrorHandler) {
+            return ($this->previousErrorHandler)($code, $message, $file, $line, $context);
+        }
+
+        return true;
+    }
+
+    /**
+     * @private
+     */
+    public function handleFatalError()
+    {
+        $this->reservedMemory = '';
+
+        $lastError = error_get_last();
+        if ($lastError && in_array($lastError['type'], self::$fatalErrors, true)) {
+            $this->logger->log(
+                $this->fatalLevel === null ? LogLevel::ALERT : $this->fatalLevel,
+                'Fatal Error ('.self::codeToString($lastError['type']).'): '.$lastError['message'],
+                ['code' => $lastError['type'], 'message' => $lastError['message'], 'file' => $lastError['file'], 'line' => $lastError['line'], 'trace' => $this->lastFatalTrace]
+            );
+
+            if ($this->logger instanceof Logger) {
+                foreach ($this->logger->getHandlers() as $handler) {
+                    $handler->close();
+                }
+            }
+        }
+    }
+
+    private static function codeToString($code): string
+    {
+        switch ($code) {
+            case E_ERROR:
+                return 'E_ERROR';
+            case E_WARNING:
+                return 'E_WARNING';
+            case E_PARSE:
+                return 'E_PARSE';
+            case E_NOTICE:
+                return 'E_NOTICE';
+            case E_CORE_ERROR:
+                return 'E_CORE_ERROR';
+            case E_CORE_WARNING:
+                return 'E_CORE_WARNING';
+            case E_COMPILE_ERROR:
+                return 'E_COMPILE_ERROR';
+            case E_COMPILE_WARNING:
+                return 'E_COMPILE_WARNING';
+            case E_USER_ERROR:
+                return 'E_USER_ERROR';
+            case E_USER_WARNING:
+                return 'E_USER_WARNING';
+            case E_USER_NOTICE:
+                return 'E_USER_NOTICE';
+            case E_STRICT:
+                return 'E_STRICT';
+            case E_RECOVERABLE_ERROR:
+                return 'E_RECOVERABLE_ERROR';
+            case E_DEPRECATED:
+                return 'E_DEPRECATED';
+            case E_USER_DEPRECATED:
+                return 'E_USER_DEPRECATED';
+        }
+
+        return 'Unknown PHP error';
+    }
+}

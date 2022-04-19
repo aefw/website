@@ -1,106 +1,296 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-UkGzXnwXJgapRT4Q
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\GameServices\Resource;
+
+use Google\Service\GameServices\FetchDeploymentStateRequest;
+use Google\Service\GameServices\FetchDeploymentStateResponse;
+use Google\Service\GameServices\GameServerDeployment;
+use Google\Service\GameServices\GameServerDeploymentRollout;
+use Google\Service\GameServices\ListGameServerDeploymentsResponse;
+use Google\Service\GameServices\Operation;
+use Google\Service\GameServices\Policy;
+use Google\Service\GameServices\PreviewGameServerDeploymentRolloutResponse;
+use Google\Service\GameServices\SetIamPolicyRequest;
+use Google\Service\GameServices\TestIamPermissionsRequest;
+use Google\Service\GameServices\TestIamPermissionsResponse;
+
+/**
+ * The "gameServerDeployments" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $gameservicesService = new Google\Service\GameServices(...);
+ *   $gameServerDeployments = $gameservicesService->gameServerDeployments;
+ *  </code>
+ */
+class ProjectsLocationsGameServerDeployments extends \Google\Service\Resource
+{
+  /**
+   * Creates a new game server deployment in a given project and location.
+   * (gameServerDeployments.create)
+   *
+   * @param string $parent Required. The parent resource name, in the following
+   * form: `projects/{project}/locations/{location}`.
+   * @param GameServerDeployment $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string deploymentId Required. The ID of the game server delpoyment
+   * resource to be created.
+   * @return Operation
+   */
+  public function create($parent, GameServerDeployment $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('create', [$params], Operation::class);
+  }
+  /**
+   * Deletes a single game server deployment. (gameServerDeployments.delete)
+   *
+   * @param string $name Required. The name of the game server delpoyment to
+   * delete, in the following form:
+   * `projects/{project}/locations/{location}/gameServerDeployments/{deployment}`.
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function delete($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params], Operation::class);
+  }
+  /**
+   * Retrieves information about the current state of the game server deployment.
+   * Gathers all the Agones fleets and Agones autoscalers, including fleets
+   * running an older version of the game server deployment.
+   * (gameServerDeployments.fetchDeploymentState)
+   *
+   * @param string $name Required. The name of the game server delpoyment, in the
+   * following form:
+   * `projects/{project}/locations/{location}/gameServerDeployments/{deployment}`.
+   * @param FetchDeploymentStateRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return FetchDeploymentStateResponse
+   */
+  public function fetchDeploymentState($name, FetchDeploymentStateRequest $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('fetchDeploymentState', [$params], FetchDeploymentStateResponse::class);
+  }
+  /**
+   * Gets details of a single game server deployment. (gameServerDeployments.get)
+   *
+   * @param string $name Required. The name of the game server delpoyment to
+   * retrieve, in the following form:
+   * `projects/{project}/locations/{location}/gameServerDeployments/{deployment}`.
+   * @param array $optParams Optional parameters.
+   * @return GameServerDeployment
+   */
+  public function get($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], GameServerDeployment::class);
+  }
+  /**
+   * Gets the access control policy for a resource. Returns an empty policy if the
+   * resource exists and does not have a policy set.
+   * (gameServerDeployments.getIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * requested. See the operation documentation for the appropriate value for this
+   * field.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int options.requestedPolicyVersion Optional. The policy format
+   * version to be returned. Valid values are 0, 1, and 3. Requests specifying an
+   * invalid value will be rejected. Requests for policies with any conditional
+   * bindings must specify version 3. Policies without any conditional bindings
+   * may specify any valid value or leave the field unset. To learn which
+   * resources support conditions in their IAM policies, see the [IAM
+   * documentation](https://cloud.google.com/iam/help/conditions/resource-
+   * policies).
+   * @return Policy
+   */
+  public function getIamPolicy($resource, $optParams = [])
+  {
+    $params = ['resource' => $resource];
+    $params = array_merge($params, $optParams);
+    return $this->call('getIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Gets details a single game server deployment rollout.
+   * (gameServerDeployments.getRollout)
+   *
+   * @param string $name Required. The name of the game server delpoyment to
+   * retrieve, in the following form: `projects/{project}/locations/{location}/gam
+   * eServerDeployments/{deployment}/rollout`.
+   * @param array $optParams Optional parameters.
+   * @return GameServerDeploymentRollout
+   */
+  public function getRollout($name, $optParams = [])
+  {
+    $params = ['name' => $name];
+    $params = array_merge($params, $optParams);
+    return $this->call('getRollout', [$params], GameServerDeploymentRollout::class);
+  }
+  /**
+   * Lists game server deployments in a given project and location.
+   * (gameServerDeployments.listProjectsLocationsGameServerDeployments)
+   *
+   * @param string $parent Required. The parent resource name, in the following
+   * form: `projects/{project}/locations/{location}`.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string filter Optional. The filter to apply to list results.
+   * @opt_param string orderBy Optional. Specifies the ordering of results
+   * following syntax at
+   * https://cloud.google.com/apis/design/design_patterns#sorting_order.
+   * @opt_param int pageSize Optional. The maximum number of items to return. If
+   * unspecified, the server will pick an appropriate default. The server may
+   * return fewer items than requested. A caller should only rely on response's
+   * next_page_token to determine if there are more GameServerDeployments left to
+   * be queried.
+   * @opt_param string pageToken Optional. The next_page_token value returned from
+   * a previous List request, if any.
+   * @return ListGameServerDeploymentsResponse
+   */
+  public function listProjectsLocationsGameServerDeployments($parent, $optParams = [])
+  {
+    $params = ['parent' => $parent];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], ListGameServerDeploymentsResponse::class);
+  }
+  /**
+   * Patches a game server deployment. (gameServerDeployments.patch)
+   *
+   * @param string $name The resource name of the game server deployment, in the
+   * following form:
+   * `projects/{project}/locations/{location}/gameServerDeployments/{deployment}`.
+   * For example, `projects/my-project/locations/global/gameServerDeployments/my-
+   * deployment`.
+   * @param GameServerDeployment $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. Mask of fields to update. At least one
+   * path must be supplied in this field. For the `FieldMask` definition, see
+   * https://developers.google.com/protocol-
+   * buffers/docs/reference/google.protobuf#fieldmask
+   * @return Operation
+   */
+  public function patch($name, GameServerDeployment $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Operation::class);
+  }
+  /**
+   * Previews the game server deployment rollout. This API does not mutate the
+   * rollout resource. (gameServerDeployments.previewRollout)
+   *
+   * @param string $name The resource name of the game server deployment rollout,
+   * in the following form: `projects/{project}/locations/{location}/gameServerDep
+   * loyments/{deployment}/rollout`. For example, `projects/my-
+   * project/locations/global/gameServerDeployments/my-deployment/rollout`.
+   * @param GameServerDeploymentRollout $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string previewTime Optional. The target timestamp to compute the
+   * preview. Defaults to the immediately after the proposed rollout completes.
+   * @opt_param string updateMask Optional. Mask of fields to update. At least one
+   * path must be supplied in this field. For the `FieldMask` definition, see
+   * https://developers.google.com/protocol-
+   * buffers/docs/reference/google.protobuf#fieldmask
+   * @return PreviewGameServerDeploymentRolloutResponse
+   */
+  public function previewRollout($name, GameServerDeploymentRollout $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('previewRollout', [$params], PreviewGameServerDeploymentRolloutResponse::class);
+  }
+  /**
+   * Sets the access control policy on the specified resource. Replaces any
+   * existing policy. Can return `NOT_FOUND`, `INVALID_ARGUMENT`, and
+   * `PERMISSION_DENIED` errors. (gameServerDeployments.setIamPolicy)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy is being
+   * specified. See the operation documentation for the appropriate value for this
+   * field.
+   * @param SetIamPolicyRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Policy
+   */
+  public function setIamPolicy($resource, SetIamPolicyRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('setIamPolicy', [$params], Policy::class);
+  }
+  /**
+   * Returns permissions that a caller has on the specified resource. If the
+   * resource does not exist, this will return an empty set of permissions, not a
+   * `NOT_FOUND` error. Note: This operation is designed to be used for building
+   * permission-aware UIs and command-line tools, not for authorization checking.
+   * This operation may "fail open" without warning.
+   * (gameServerDeployments.testIamPermissions)
+   *
+   * @param string $resource REQUIRED: The resource for which the policy detail is
+   * being requested. See the operation documentation for the appropriate value
+   * for this field.
+   * @param TestIamPermissionsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return TestIamPermissionsResponse
+   */
+  public function testIamPermissions($resource, TestIamPermissionsRequest $postBody, $optParams = [])
+  {
+    $params = ['resource' => $resource, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('testIamPermissions', [$params], TestIamPermissionsResponse::class);
+  }
+  /**
+   * Patches a single game server deployment rollout. The method will not return
+   * an error if the update does not affect any existing realms. For example - if
+   * the default_game_server_config is changed but all existing realms use the
+   * override, that is valid. Similarly, if a non existing realm is explicitly
+   * called out in game_server_config_overrides field, that will also not result
+   * in an error. (gameServerDeployments.updateRollout)
+   *
+   * @param string $name The resource name of the game server deployment rollout,
+   * in the following form: `projects/{project}/locations/{location}/gameServerDep
+   * loyments/{deployment}/rollout`. For example, `projects/my-
+   * project/locations/global/gameServerDeployments/my-deployment/rollout`.
+   * @param GameServerDeploymentRollout $postBody
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param string updateMask Required. Mask of fields to update. At least one
+   * path must be supplied in this field. For the `FieldMask` definition, see
+   * https://developers.google.com/protocol-
+   * buffers/docs/reference/google.protobuf#fieldmask
+   * @return Operation
+   */
+  public function updateRollout($name, GameServerDeploymentRollout $postBody, $optParams = [])
+  {
+    $params = ['name' => $name, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('updateRollout', [$params], Operation::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ProjectsLocationsGameServerDeployments::class, 'Google_Service_GameServices_Resource_ProjectsLocationsGameServerDeployments');

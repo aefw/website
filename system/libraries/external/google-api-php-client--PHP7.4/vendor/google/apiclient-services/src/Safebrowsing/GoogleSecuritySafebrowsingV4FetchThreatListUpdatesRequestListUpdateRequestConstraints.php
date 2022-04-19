@@ -1,71 +1,81 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Safebrowsing;
+
+class GoogleSecuritySafebrowsingV4FetchThreatListUpdatesRequestListUpdateRequestConstraints extends \Google\Collection
+{
+  protected $collection_key = 'supportedCompressions';
+  public $deviceLocation;
+  public $language;
+  public $maxDatabaseEntries;
+  public $maxUpdateEntries;
+  public $region;
+  public $supportedCompressions;
+
+  public function setDeviceLocation($deviceLocation)
+  {
+    $this->deviceLocation = $deviceLocation;
+  }
+  public function getDeviceLocation()
+  {
+    return $this->deviceLocation;
+  }
+  public function setLanguage($language)
+  {
+    $this->language = $language;
+  }
+  public function getLanguage()
+  {
+    return $this->language;
+  }
+  public function setMaxDatabaseEntries($maxDatabaseEntries)
+  {
+    $this->maxDatabaseEntries = $maxDatabaseEntries;
+  }
+  public function getMaxDatabaseEntries()
+  {
+    return $this->maxDatabaseEntries;
+  }
+  public function setMaxUpdateEntries($maxUpdateEntries)
+  {
+    $this->maxUpdateEntries = $maxUpdateEntries;
+  }
+  public function getMaxUpdateEntries()
+  {
+    return $this->maxUpdateEntries;
+  }
+  public function setRegion($region)
+  {
+    $this->region = $region;
+  }
+  public function getRegion()
+  {
+    return $this->region;
+  }
+  public function setSupportedCompressions($supportedCompressions)
+  {
+    $this->supportedCompressions = $supportedCompressions;
+  }
+  public function getSupportedCompressions()
+  {
+    return $this->supportedCompressions;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleSecuritySafebrowsingV4FetchThreatListUpdatesRequestListUpdateRequestConstraints::class, 'Google_Service_Safebrowsing_GoogleSecuritySafebrowsingV4FetchThreatListUpdatesRequestListUpdateRequestConstraints');

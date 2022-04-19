@@ -1,71 +1,113 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-RlmsEUP8e4YBPXG=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Dns;
+
+class Policy extends \Google\Collection
+{
+  protected $collection_key = 'networks';
+  protected $alternativeNameServerConfigType = PolicyAlternativeNameServerConfig::class;
+  protected $alternativeNameServerConfigDataType = '';
+  public $description;
+  public $enableInboundForwarding;
+  public $enableLogging;
+  public $id;
+  public $kind;
+  public $name;
+  protected $networksType = PolicyNetwork::class;
+  protected $networksDataType = 'array';
+
+  /**
+   * @param PolicyAlternativeNameServerConfig
+   */
+  public function setAlternativeNameServerConfig(PolicyAlternativeNameServerConfig $alternativeNameServerConfig)
+  {
+    $this->alternativeNameServerConfig = $alternativeNameServerConfig;
+  }
+  /**
+   * @return PolicyAlternativeNameServerConfig
+   */
+  public function getAlternativeNameServerConfig()
+  {
+    return $this->alternativeNameServerConfig;
+  }
+  public function setDescription($description)
+  {
+    $this->description = $description;
+  }
+  public function getDescription()
+  {
+    return $this->description;
+  }
+  public function setEnableInboundForwarding($enableInboundForwarding)
+  {
+    $this->enableInboundForwarding = $enableInboundForwarding;
+  }
+  public function getEnableInboundForwarding()
+  {
+    return $this->enableInboundForwarding;
+  }
+  public function setEnableLogging($enableLogging)
+  {
+    $this->enableLogging = $enableLogging;
+  }
+  public function getEnableLogging()
+  {
+    return $this->enableLogging;
+  }
+  public function setId($id)
+  {
+    $this->id = $id;
+  }
+  public function getId()
+  {
+    return $this->id;
+  }
+  public function setKind($kind)
+  {
+    $this->kind = $kind;
+  }
+  public function getKind()
+  {
+    return $this->kind;
+  }
+  public function setName($name)
+  {
+    $this->name = $name;
+  }
+  public function getName()
+  {
+    return $this->name;
+  }
+  /**
+   * @param PolicyNetwork[]
+   */
+  public function setNetworks($networks)
+  {
+    $this->networks = $networks;
+  }
+  /**
+   * @return PolicyNetwork[]
+   */
+  public function getNetworks()
+  {
+    return $this->networks;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Policy::class, 'Google_Service_Dns_Policy');

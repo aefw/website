@@ -1,68 +1,143 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-jrPBsN52dxCkhyXakh0=
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\ServiceNetworking\Resource;
+
+use Google\Service\ServiceNetworking\AddSubnetworkRequest;
+use Google\Service\ServiceNetworking\DisableVpcServiceControlsRequest;
+use Google\Service\ServiceNetworking\EnableVpcServiceControlsRequest;
+use Google\Service\ServiceNetworking\Operation;
+use Google\Service\ServiceNetworking\SearchRangeRequest;
+use Google\Service\ServiceNetworking\ValidateConsumerConfigRequest;
+use Google\Service\ServiceNetworking\ValidateConsumerConfigResponse;
+
+/**
+ * The "services" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $servicenetworkingService = new Google\Service\ServiceNetworking(...);
+ *   $services = $servicenetworkingService->services;
+ *  </code>
+ */
+class Services extends \Google\Service\Resource
+{
+  /**
+   * For service producers, provisions a new subnet in a peered service's shared
+   * VPC network in the requested region and with the requested size that's
+   * expressed as a CIDR range (number of leading bits of ipV4 network mask). The
+   * method checks against the assigned allocated ranges to find a non-conflicting
+   * IP address range. The method will reuse a subnet if subsequent calls contain
+   * the same subnet name, region, and prefix length. This method will make
+   * producer's tenant project to be a shared VPC service project as needed.
+   * (services.addSubnetwork)
+   *
+   * @param string $parent Required. A tenant project in the service producer
+   * organization, in the following format: services/{service}/{collection-id
+   * }/{resource-id}. {collection-id} is the cloud resource collection type that
+   * represents the tenant project. Only `projects` are supported. {resource-id}
+   * is the tenant project numeric id, such as `123456`. {service} the name of the
+   * peering service, such as `service-peering.example.com`. This service must
+   * already be enabled in the service consumer's project.
+   * @param AddSubnetworkRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function addSubnetwork($parent, AddSubnetworkRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('addSubnetwork', [$params], Operation::class);
+  }
+  /**
+   * Disables VPC service controls for a connection.
+   * (services.disableVpcServiceControls)
+   *
+   * @param string $parent The service that is managing peering connectivity for a
+   * service producer's organization. For Google services that support this
+   * functionality, this value is `services/servicenetworking.googleapis.com`.
+   * @param DisableVpcServiceControlsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function disableVpcServiceControls($parent, DisableVpcServiceControlsRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('disableVpcServiceControls', [$params], Operation::class);
+  }
+  /**
+   * Enables VPC service controls for a connection.
+   * (services.enableVpcServiceControls)
+   *
+   * @param string $parent The service that is managing peering connectivity for a
+   * service producer's organization. For Google services that support this
+   * functionality, this value is `services/servicenetworking.googleapis.com`.
+   * @param EnableVpcServiceControlsRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function enableVpcServiceControls($parent, EnableVpcServiceControlsRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('enableVpcServiceControls', [$params], Operation::class);
+  }
+  /**
+   * Service producers can use this method to find a currently unused range within
+   * consumer allocated ranges. This returned range is not reserved, and not
+   * guaranteed to remain unused. It will validate previously provided allocated
+   * ranges, find non-conflicting sub-range of requested size (expressed in number
+   * of leading bits of ipv4 network mask, as in CIDR range notation).
+   * (services.searchRange)
+   *
+   * @param string $parent Required. This is in a form services/{service}.
+   * {service} the name of the private access management service, for example
+   * 'service-peering.example.com'.
+   * @param SearchRangeRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return Operation
+   */
+  public function searchRange($parent, SearchRangeRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('searchRange', [$params], Operation::class);
+  }
+  /**
+   * Service producers use this method to validate if the consumer provided
+   * network, project and requested range are valid. This allows them to use a
+   * fail-fast mechanism for consumer requests, and not have to wait for
+   * AddSubnetwork operation completion to determine if user request is invalid.
+   * (services.validate)
+   *
+   * @param string $parent Required. This is in a form services/{service} where
+   * {service} is the name of the private access management service. For example
+   * 'service-peering.example.com'.
+   * @param ValidateConsumerConfigRequest $postBody
+   * @param array $optParams Optional parameters.
+   * @return ValidateConsumerConfigResponse
+   */
+  public function validate($parent, ValidateConsumerConfigRequest $postBody, $optParams = [])
+  {
+    $params = ['parent' => $parent, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('validate', [$params], ValidateConsumerConfigResponse::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Services::class, 'Google_Service_ServiceNetworking_Resource_Services');

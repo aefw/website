@@ -1,72 +1,107 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-qvCd58u8Fg3OCThtoaf6sa1ZmQo0leOY
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Bigquery;
+
+class BinaryConfusionMatrix extends \Google\Model
+{
+  public $accuracy;
+  public $f1Score;
+  public $falseNegatives;
+  public $falsePositives;
+  public $positiveClassThreshold;
+  public $precision;
+  public $recall;
+  public $trueNegatives;
+  public $truePositives;
+
+  public function setAccuracy($accuracy)
+  {
+    $this->accuracy = $accuracy;
+  }
+  public function getAccuracy()
+  {
+    return $this->accuracy;
+  }
+  public function setF1Score($f1Score)
+  {
+    $this->f1Score = $f1Score;
+  }
+  public function getF1Score()
+  {
+    return $this->f1Score;
+  }
+  public function setFalseNegatives($falseNegatives)
+  {
+    $this->falseNegatives = $falseNegatives;
+  }
+  public function getFalseNegatives()
+  {
+    return $this->falseNegatives;
+  }
+  public function setFalsePositives($falsePositives)
+  {
+    $this->falsePositives = $falsePositives;
+  }
+  public function getFalsePositives()
+  {
+    return $this->falsePositives;
+  }
+  public function setPositiveClassThreshold($positiveClassThreshold)
+  {
+    $this->positiveClassThreshold = $positiveClassThreshold;
+  }
+  public function getPositiveClassThreshold()
+  {
+    return $this->positiveClassThreshold;
+  }
+  public function setPrecision($precision)
+  {
+    $this->precision = $precision;
+  }
+  public function getPrecision()
+  {
+    return $this->precision;
+  }
+  public function setRecall($recall)
+  {
+    $this->recall = $recall;
+  }
+  public function getRecall()
+  {
+    return $this->recall;
+  }
+  public function setTrueNegatives($trueNegatives)
+  {
+    $this->trueNegatives = $trueNegatives;
+  }
+  public function getTrueNegatives()
+  {
+    return $this->trueNegatives;
+  }
+  public function setTruePositives($truePositives)
+  {
+    $this->truePositives = $truePositives;
+  }
+  public function getTruePositives()
+  {
+    return $this->truePositives;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(BinaryConfusionMatrix::class, 'Google_Service_Bigquery_BinaryConfusionMatrix');

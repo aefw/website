@@ -1,80 +1,136 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-Km==
+<?php declare(strict_types=1);
+
+/*
+ * This file is part of the Monolog package.
+ *
+ * (c) Jordi Boggiano <j.boggiano@seld.be>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Monolog\Handler;
+
+use Monolog\ResettableInterface;
+use Monolog\Formatter\FormatterInterface;
+
+/**
+ * This simple wrapper class can be used to extend handlers functionality.
+ *
+ * Example: A custom filtering that can be applied to any handler.
+ *
+ * Inherit from this class and override handle() like this:
+ *
+ *   public function handle(array $record)
+ *   {
+ *        if ($record meets certain conditions) {
+ *            return false;
+ *        }
+ *        return $this->handler->handle($record);
+ *   }
+ *
+ * @author Alexey Karapetov <alexey@karapetov.com>
+ */
+class HandlerWrapper implements HandlerInterface, ProcessableHandlerInterface, FormattableHandlerInterface, ResettableInterface
+{
+    /**
+     * @var HandlerInterface
+     */
+    protected $handler;
+
+    public function __construct(HandlerInterface $handler)
+    {
+        $this->handler = $handler;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function isHandling(array $record): bool
+    {
+        return $this->handler->isHandling($record);
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function handle(array $record): bool
+    {
+        return $this->handler->handle($record);
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function handleBatch(array $records): void
+    {
+        $this->handler->handleBatch($records);
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function close(): void
+    {
+        $this->handler->close();
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function pushProcessor(callable $callback): HandlerInterface
+    {
+        if ($this->handler instanceof ProcessableHandlerInterface) {
+            $this->handler->pushProcessor($callback);
+
+            return $this;
+        }
+
+        throw new \LogicException('The wrapped handler does not implement ' . ProcessableHandlerInterface::class);
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function popProcessor(): callable
+    {
+        if ($this->handler instanceof ProcessableHandlerInterface) {
+            return $this->handler->popProcessor();
+        }
+
+        throw new \LogicException('The wrapped handler does not implement ' . ProcessableHandlerInterface::class);
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function setFormatter(FormatterInterface $formatter): HandlerInterface
+    {
+        if ($this->handler instanceof FormattableHandlerInterface) {
+            $this->handler->setFormatter($formatter);
+
+            return $this;
+        }
+
+        throw new \LogicException('The wrapped handler does not implement ' . FormattableHandlerInterface::class);
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function getFormatter(): FormatterInterface
+    {
+        if ($this->handler instanceof FormattableHandlerInterface) {
+            return $this->handler->getFormatter();
+        }
+
+        throw new \LogicException('The wrapped handler does not implement ' . FormattableHandlerInterface::class);
+    }
+
+    public function reset()
+    {
+        if ($this->handler instanceof ResettableInterface) {
+            $this->handler->reset();
+        }
+    }
+}

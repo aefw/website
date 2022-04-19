@@ -1,80 +1,152 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\Directory\Resource;
+
+use Google\Service\Directory\Feature;
+use Google\Service\Directory\FeatureRename;
+use Google\Service\Directory\Features;
+
+/**
+ * The "features" collection of methods.
+ * Typical usage is:
+ *  <code>
+ *   $adminService = new Google\Service\Directory(...);
+ *   $features = $adminService->features;
+ *  </code>
+ */
+class ResourcesFeatures extends \Google\Service\Resource
+{
+  /**
+   * Deletes a feature. (features.delete)
+   *
+   * @param string $customer The unique ID for the customer's Google Workspace
+   * account. As an account administrator, you can also use the `my_customer`
+   * alias to represent your account's customer ID.
+   * @param string $featureKey The unique ID of the feature to delete.
+   * @param array $optParams Optional parameters.
+   */
+  public function delete($customer, $featureKey, $optParams = [])
+  {
+    $params = ['customer' => $customer, 'featureKey' => $featureKey];
+    $params = array_merge($params, $optParams);
+    return $this->call('delete', [$params]);
+  }
+  /**
+   * Retrieves a feature. (features.get)
+   *
+   * @param string $customer The unique ID for the customer's Google Workspace
+   * account. As an account administrator, you can also use the `my_customer`
+   * alias to represent your account's customer ID.
+   * @param string $featureKey The unique ID of the feature to retrieve.
+   * @param array $optParams Optional parameters.
+   * @return Feature
+   */
+  public function get($customer, $featureKey, $optParams = [])
+  {
+    $params = ['customer' => $customer, 'featureKey' => $featureKey];
+    $params = array_merge($params, $optParams);
+    return $this->call('get', [$params], Feature::class);
+  }
+  /**
+   * Inserts a feature. (features.insert)
+   *
+   * @param string $customer The unique ID for the customer's Google Workspace
+   * account. As an account administrator, you can also use the `my_customer`
+   * alias to represent your account's customer ID.
+   * @param Feature $postBody
+   * @param array $optParams Optional parameters.
+   * @return Feature
+   */
+  public function insert($customer, Feature $postBody, $optParams = [])
+  {
+    $params = ['customer' => $customer, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('insert', [$params], Feature::class);
+  }
+  /**
+   * Retrieves a list of features for an account. (features.listResourcesFeatures)
+   *
+   * @param string $customer The unique ID for the customer's Google Workspace
+   * account. As an account administrator, you can also use the `my_customer`
+   * alias to represent your account's customer ID.
+   * @param array $optParams Optional parameters.
+   *
+   * @opt_param int maxResults Maximum number of results to return.
+   * @opt_param string pageToken Token to specify the next page in the list.
+   * @return Features
+   */
+  public function listResourcesFeatures($customer, $optParams = [])
+  {
+    $params = ['customer' => $customer];
+    $params = array_merge($params, $optParams);
+    return $this->call('list', [$params], Features::class);
+  }
+  /**
+   * Patches a feature via Apiary Patch Orchestration. (features.patch)
+   *
+   * @param string $customer The unique ID for the customer's Google Workspace
+   * account. As an account administrator, you can also use the `my_customer`
+   * alias to represent your account's customer ID.
+   * @param string $featureKey The unique ID of the feature to update.
+   * @param Feature $postBody
+   * @param array $optParams Optional parameters.
+   * @return Feature
+   */
+  public function patch($customer, $featureKey, Feature $postBody, $optParams = [])
+  {
+    $params = ['customer' => $customer, 'featureKey' => $featureKey, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('patch', [$params], Feature::class);
+  }
+  /**
+   * Renames a feature. (features.rename)
+   *
+   * @param string $customer The unique ID for the customer's Google Workspace
+   * account. As an account administrator, you can also use the `my_customer`
+   * alias to represent your account's customer ID.
+   * @param string $oldName The unique ID of the feature to rename.
+   * @param FeatureRename $postBody
+   * @param array $optParams Optional parameters.
+   */
+  public function rename($customer, $oldName, FeatureRename $postBody, $optParams = [])
+  {
+    $params = ['customer' => $customer, 'oldName' => $oldName, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('rename', [$params]);
+  }
+  /**
+   * Updates a feature. (features.update)
+   *
+   * @param string $customer The unique ID for the customer's Google Workspace
+   * account. As an account administrator, you can also use the `my_customer`
+   * alias to represent your account's customer ID.
+   * @param string $featureKey The unique ID of the feature to update.
+   * @param Feature $postBody
+   * @param array $optParams Optional parameters.
+   * @return Feature
+   */
+  public function update($customer, $featureKey, Feature $postBody, $optParams = [])
+  {
+    $params = ['customer' => $customer, 'featureKey' => $featureKey, 'postBody' => $postBody];
+    $params = array_merge($params, $optParams);
+    return $this->call('update', [$params], Feature::class);
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(ResourcesFeatures::class, 'Google_Service_Directory_Resource_ResourcesFeatures');

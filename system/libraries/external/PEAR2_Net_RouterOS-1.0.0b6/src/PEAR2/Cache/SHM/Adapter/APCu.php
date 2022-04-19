@@ -1,158 +1,416 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+/**
+ * Wrapper for shared memory and locking functionality across different extensions.
+
+ *
+ * Allows you to share data across requests as long as the PHP process is running. One of APC or WinCache is required to accomplish this, with other extensions being potentially pluggable as adapters.
+ *
+ * PHP version 5
+ *
+ * @category  Caching
+ * @package   PEAR2_Cache_SHM
+ * @author    Vasil Rangelov <boen.robot@gmail.com>
+ * @copyright 2011 Vasil Rangelov
+ * @license   http://www.gnu.org/copyleft/lesser.html LGPL License 2.1
+ * @version   0.2.0
+ * @link      http://pear2.php.net/PEAR2_Cache_SHM
+ */
+/**
+ * The namespace declaration.
+ */
+namespace PEAR2\Cache\SHM\Adapter;
+
+/**
+ * Throws exceptions from this namespace, and extends from this class.
+ */
+use PEAR2\Cache\SHM;
+
+/**
+ * {@link APC::getIterator()} returns this object.
+ */
+use ArrayObject;
+
+/**
+ * Shared memory adapter for the APC extension.
+ *
+ * @category Caching
+ * @package  PEAR2_Cache_SHM
+ * @author   Vasil Rangelov <boen.robot@gmail.com>
+ * @license  http://www.gnu.org/copyleft/lesser.html LGPL License 2.1
+ * @link     http://pear2.php.net/PEAR2_Cache_SHM
+ */
+class APCu extends SHM
+{
+    /**
+     * ID of the current storage.
+     *
+     * @var string
+     */
+    protected $persistentId;
+
+    /**
+     * List of persistent IDs.
+     *
+     * A list of persistent IDs within the current request (as keys) with an int
+     * (as a value) specifying the number of instances in the current request.
+     * Used as an attempt to ensure implicit lock releases even on errors in the
+     * critical sections, since APC doesn't have an actual locking function.
+     *
+     * @var array
+     */
+    protected static $requestInstances = array();
+
+    /**
+     * Array of lock names for each persistent ID.
+     *
+     * Array of lock names (as values) for each persistent ID (as key) obtained
+     * during the current request.
+     *
+     * @var array
+     */
+    protected static $locksBackup = array();
+
+    /**
+     * Creates a new shared memory storage.
+     *
+     * Establishes a separate persistent storage.
+     *
+     * @param string $persistentId The ID for the storage. The storage will be
+     *     reused if it exists, or created if it doesn't exist. Data and locks
+     *     are namespaced by this ID.
+     */
+    public function __construct($persistentId)
+    {
+        $this->persistentId = __CLASS__ . ' ' . $persistentId;
+        if (isset(static::$requestInstances[$this->persistentId])) {
+            static::$requestInstances[$this->persistentId]++;
+        } else {
+            static::$requestInstances[$this->persistentId] = 1;
+            static::$locksBackup[$this->persistentId] = array();
+        }
+        register_shutdown_function(
+            get_called_class() . '::releaseLocks',
+            $this->persistentId,
+            true
+        );
+    }
+
+    /**
+     * Checks if the adapter meets its requirements.
+     *
+     * @return bool TRUE on success, FALSE on failure.
+     */
+    public static function isMeetingRequirements()
+    {
+        return extension_loaded('apcu')
+            && version_compare(phpversion('apcu'), '5.0.0', '>=')
+            && ini_get('apc.enabled')
+            && ('cli' !== PHP_SAPI || ini_get('apc.enable_cli'));
+    }
+
+    /**
+     * Releases all locks in a storage.
+     *
+     * This function is not meant to be used directly. It is implicitly called
+     * by the the destructor and as a shutdown function when the request ends.
+     * One of these calls ends up releasing any unreleased locks obtained
+     * during the request. A lock is also implicitly released as soon as there
+     * are no objects left in the current request using the same persistent ID.
+     *
+     * @param string $internalPersistentId The internal persistent ID, the locks
+     *     of which are being released.
+     * @param bool   $isAtShutdown         Whether the function was executed at
+     *     shutdown.
+     *
+     * @return void
+     *
+     * @internal
+     */
+    public static function releaseLocks($internalPersistentId, $isAtShutdown)
+    {
+        $hasInstances = 0 !== static::$requestInstances[$internalPersistentId];
+        if ($isAtShutdown === $hasInstances) {
+            foreach (static::$locksBackup[$internalPersistentId] as $key) {
+                apcu_delete($internalPersistentId . 'l ' . $key);
+            }
+        }
+    }
+
+    /**
+     * Releases any locks obtained by this instance as soon as there are no more
+     * references to the object's persistent ID.
+     */
+    public function __destruct()
+    {
+        static::$requestInstances[$this->persistentId]--;
+        static::releaseLocks($this->persistentId, false);
+    }
+
+
+    /**
+     * Obtains a named lock.
+     *
+     * @param string $key     Name of the key to obtain. Note that $key may
+     *     repeat for each distinct $persistentId.
+     * @param double $timeout If the lock can't be immediately obtained, the
+     *     script will block for at most the specified amount of seconds.
+     *     Setting this to 0 makes lock obtaining non blocking, and setting it
+     *     to NULL makes it block without a time limit.
+     *
+     * @return bool TRUE on success, FALSE on failure.
+     */
+    public function lock($key, $timeout = null)
+    {
+        $lock = $this->persistentId . 'l ' . $key;
+        $hasTimeout = $timeout !== null;
+        $start = microtime(true);
+        while (!apcu_add($lock, 1)) {
+            if ($hasTimeout && (microtime(true) - $start) > $timeout) {
+                return false;
+            }
+        }
+        static::$locksBackup[$this->persistentId] = $key;
+        return true;
+    }
+
+    /**
+     * Releases a named lock.
+     *
+     * @param string $key Name of the key to release. Note that $key may
+     *     repeat for each distinct $persistentId.
+     *
+     * @return bool TRUE on success, FALSE on failure.
+     */
+    public function unlock($key)
+    {
+        $lock = $this->persistentId . 'l ' . $key;
+        $success = apcu_delete($lock);
+        if ($success) {
+            unset(
+                static::$locksBackup[$this->persistentId][array_search(
+                    $key,
+                    static::$locksBackup[$this->persistentId],
+                    true
+                )]
+            );
+            return true;
+        }
+        return false;
+    }
+
+    /**
+     * Checks if a specified key is in the storage.
+     *
+     * @param string $key Name of key to check.
+     *
+     * @return bool TRUE if the key is in the storage, FALSE otherwise.
+     */
+    public function exists($key)
+    {
+        return apcu_exists($this->persistentId . 'd ' . $key);
+    }
+
+    /**
+     * Adds a value to the shared memory storage.
+     *
+     * Adds a value to the storage if it doesn't exist, or fails if it does.
+     *
+     * @param string $key   Name of key to associate the value with.
+     * @param mixed  $value Value for the specified key.
+     * @param int    $ttl   Seconds to store the value. If set to 0 indicates no
+     *     time limit.
+     *
+     * @return bool TRUE on success, FALSE on failure.
+     */
+    public function add($key, $value, $ttl = 0)
+    {
+        return apcu_add($this->persistentId . 'd ' . $key, $value, $ttl);
+    }
+
+    /**
+     * Sets a value in the shared memory storage.
+     *
+     * Adds a value to the storage if it doesn't exist, overwrites it otherwise.
+     *
+     * @param string $key   Name of key to associate the value with.
+     * @param mixed  $value Value for the specified key.
+     * @param int    $ttl   Seconds to store the value. If set to 0 indicates no
+     *     time limit.
+     *
+     * @return bool TRUE on success, FALSE on failure.
+     */
+    public function set($key, $value, $ttl = 0)
+    {
+        return apcu_store($this->persistentId . 'd ' . $key, $value, $ttl);
+    }
+
+    /**
+     * Gets a value from the shared memory storage.
+     *
+     * Gets the current value, or throws an exception if it's not stored.
+     *
+     * @param string $key Name of key to get the value of.
+     *
+     * @return mixed The current value of the specified key.
+     */
+    public function get($key)
+    {
+        $fullKey = $this->persistentId . 'd ' . $key;
+        if (apcu_exists($fullKey)) {
+            $value = apcu_fetch($fullKey, $success);
+            if (!$success) {
+                throw new SHM\InvalidArgumentException(
+                    'Unable to fetch key. ' .
+                    'Key has either just now expired or (if no TTL was set) ' .
+                    'is possibly in a race condition with another request.',
+                    100
+                );
+            }
+            return $value;
+        }
+        throw new SHM\InvalidArgumentException('No such key in cache', 101);
+    }
+
+    /**
+     * Deletes a value from the shared memory storage.
+     *
+     * @param string $key Name of key to delete.
+     *
+     * @return bool TRUE on success, FALSE on failure.
+     */
+    public function delete($key)
+    {
+        return apcu_delete($this->persistentId . 'd ' . $key);
+    }
+
+    /**
+     * Increases a value from the shared memory storage.
+     *
+     * Increases a value from the shared memory storage. Unlike a plain
+     * set($key, get($key)+$step) combination, this function also implicitly
+     * performs locking.
+     *
+     * @param string $key  Name of key to increase.
+     * @param int    $step Value to increase the key by.
+     *
+     * @return int The new value.
+     */
+    public function inc($key, $step = 1)
+    {
+        $newValue = apcu_inc(
+            $this->persistentId . 'd ' . $key,
+            (int) $step,
+            $success
+        );
+        if (!$success) {
+            throw new SHM\InvalidArgumentException(
+                'Unable to increase the value. Are you sure the value is int?',
+                102
+            );
+        }
+        return $newValue;
+    }
+
+    /**
+     * Decreases a value from the shared memory storage.
+     *
+     * Decreases a value from the shared memory storage. Unlike a plain
+     * set($key, get($key)-$step) combination, this function also implicitly
+     * performs locking.
+     *
+     * @param string $key  Name of key to decrease.
+     * @param int    $step Value to decrease the key by.
+     *
+     * @return int The new value.
+     */
+    public function dec($key, $step = 1)
+    {
+        $newValue = apcu_dec(
+            $this->persistentId . 'd ' . $key,
+            (int) $step,
+            $success
+        );
+        if (!$success) {
+            throw new SHM\InvalidArgumentException(
+                'Unable to decrease the value. Are you sure the value is int?',
+                103
+            );
+        }
+        return $newValue;
+    }
+
+    /**
+     * Sets a new value if a key has a certain value.
+     *
+     * Sets a new value if a key has a certain value. This function only works
+     * when $old and $new are longs.
+     *
+     * @param string $key Key of the value to compare and set.
+     * @param int    $old The value to compare the key against.
+     * @param int    $new The value to set the key to.
+     *
+     * @return bool TRUE on success, FALSE on failure.
+     */
+    public function cas($key, $old, $new)
+    {
+        return apcu_cas($this->persistentId . 'd ' . $key, $old, $new);
+    }
+
+    /**
+     * Clears the persistent storage.
+     *
+     * Clears the persistent storage, i.e. removes all keys. Locks are left
+     * intact.
+     *
+     * @return void
+     */
+    public function clear()
+    {
+        foreach (new APCIterator(
+            'user',
+            '/^' . preg_quote($this->persistentId, '/') . 'd /',
+            APC_ITER_KEY,
+            100,
+            APC_LIST_ACTIVE
+        ) as $key) {
+            apcu_delete($key);
+        }
+    }
+
+    /**
+     * Retrieve an external iterator
+     *
+     * Returns an external iterator.
+     *
+     * @param string|null $filter   A PCRE regular expression.
+     *     Only matching keys will be iterated over.
+     *     Setting this to NULL matches all keys of this instance.
+     * @param bool        $keysOnly Whether to return only the keys,
+     *     or return both the keys and values.
+     *
+     * @return ArrayObject An array with all matching keys as array keys,
+     *     and values as array values. If $keysOnly is TRUE, the array keys are
+     *     numeric, and the array values are key names.
+     */
+    public function getIterator($filter = null, $keysOnly = false)
+    {
+        $result = array();
+        foreach (new APCUIterator(
+            '/^' . preg_quote($this->persistentId, '/') . 'd /',
+            APC_ITER_KEY,
+            100,
+            APC_LIST_ACTIVE
+        ) as $key) {
+            $localKey = strstr($key, $this->persistentId . 'd ');
+            if (null === $filter || preg_match($filter, $localKey)) {
+                if ($keysOnly) {
+                    $result[] = $localKey;
+                } else {
+                    $result[$localKey] = apcu_fetch($key);
+                }
+            }
+        }
+        return new ArrayObject($result);
+    }
+}

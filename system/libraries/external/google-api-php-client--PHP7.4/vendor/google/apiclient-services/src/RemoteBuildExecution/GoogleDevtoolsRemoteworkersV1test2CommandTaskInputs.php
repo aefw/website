@@ -1,66 +1,93 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\RemoteBuildExecution;
+
+class GoogleDevtoolsRemoteworkersV1test2CommandTaskInputs extends \Google\Collection
+{
+  protected $collection_key = 'inlineBlobs';
+  public $arguments;
+  protected $environmentVariablesType = GoogleDevtoolsRemoteworkersV1test2CommandTaskInputsEnvironmentVariable::class;
+  protected $environmentVariablesDataType = 'array';
+  protected $filesType = GoogleDevtoolsRemoteworkersV1test2Digest::class;
+  protected $filesDataType = 'array';
+  protected $inlineBlobsType = GoogleDevtoolsRemoteworkersV1test2Blob::class;
+  protected $inlineBlobsDataType = 'array';
+  public $workingDirectory;
+
+  public function setArguments($arguments)
+  {
+    $this->arguments = $arguments;
+  }
+  public function getArguments()
+  {
+    return $this->arguments;
+  }
+  /**
+   * @param GoogleDevtoolsRemoteworkersV1test2CommandTaskInputsEnvironmentVariable[]
+   */
+  public function setEnvironmentVariables($environmentVariables)
+  {
+    $this->environmentVariables = $environmentVariables;
+  }
+  /**
+   * @return GoogleDevtoolsRemoteworkersV1test2CommandTaskInputsEnvironmentVariable[]
+   */
+  public function getEnvironmentVariables()
+  {
+    return $this->environmentVariables;
+  }
+  /**
+   * @param GoogleDevtoolsRemoteworkersV1test2Digest[]
+   */
+  public function setFiles($files)
+  {
+    $this->files = $files;
+  }
+  /**
+   * @return GoogleDevtoolsRemoteworkersV1test2Digest[]
+   */
+  public function getFiles()
+  {
+    return $this->files;
+  }
+  /**
+   * @param GoogleDevtoolsRemoteworkersV1test2Blob[]
+   */
+  public function setInlineBlobs($inlineBlobs)
+  {
+    $this->inlineBlobs = $inlineBlobs;
+  }
+  /**
+   * @return GoogleDevtoolsRemoteworkersV1test2Blob[]
+   */
+  public function getInlineBlobs()
+  {
+    return $this->inlineBlobs;
+  }
+  public function setWorkingDirectory($workingDirectory)
+  {
+    $this->workingDirectory = $workingDirectory;
+  }
+  public function getWorkingDirectory()
+  {
+    return $this->workingDirectory;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(GoogleDevtoolsRemoteworkersV1test2CommandTaskInputs::class, 'Google_Service_RemoteBuildExecution_GoogleDevtoolsRemoteworkersV1test2CommandTaskInputs');

@@ -1,95 +1,750 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-ev54i9kf4CvvmWpZG9hZMH5upWpC4RL+9w8X
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service;
+
+use Google\Client;
+
+/**
+ * Service definition for Cloudchannel (v1).
+ *
+ * <p>
+</p>
+ *
+ * <p>
+ * For more information about this service, see the API
+ * <a href="https://cloud.google.com/channel" target="_blank">Documentation</a>
+ * </p>
+ *
+ * @author Google, Inc.
+ */
+class Cloudchannel extends \Google\Service
+{
+  /** Manage users on your domain. */
+  const APPS_ORDER =
+      "https://www.googleapis.com/auth/apps.order";
+
+  public $accounts;
+  public $accounts_channelPartnerLinks;
+  public $accounts_channelPartnerLinks_customers;
+  public $accounts_customers;
+  public $accounts_customers_entitlements;
+  public $accounts_offers;
+  public $operations;
+  public $products;
+  public $products_skus;
+
+  /**
+   * Constructs the internal representation of the Cloudchannel service.
+   *
+   * @param Client|array $clientOrConfig The client used to deliver requests, or a
+   *                                     config array to pass to a new Client instance.
+   * @param string $rootUrl The root URL used for requests to the service.
+   */
+  public function __construct($clientOrConfig = [], $rootUrl = null)
+  {
+    parent::__construct($clientOrConfig);
+    $this->rootUrl = $rootUrl ?: 'https://cloudchannel.googleapis.com/';
+    $this->servicePath = '';
+    $this->batchPath = 'batch';
+    $this->version = 'v1';
+    $this->serviceName = 'cloudchannel';
+
+    $this->accounts = new Cloudchannel\Resource\Accounts(
+        $this,
+        $this->serviceName,
+        'accounts',
+        [
+          'methods' => [
+            'checkCloudIdentityAccountsExist' => [
+              'path' => 'v1/{+parent}:checkCloudIdentityAccountsExist',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'listSubscribers' => [
+              'path' => 'v1/{+account}:listSubscribers',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'account' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'listTransferableOffers' => [
+              'path' => 'v1/{+parent}:listTransferableOffers',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'listTransferableSkus' => [
+              'path' => 'v1/{+parent}:listTransferableSkus',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'register' => [
+              'path' => 'v1/{+account}:register',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'account' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'unregister' => [
+              'path' => 'v1/{+account}:unregister',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'account' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->accounts_channelPartnerLinks = new Cloudchannel\Resource\AccountsChannelPartnerLinks(
+        $this,
+        $this->serviceName,
+        'channelPartnerLinks',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/channelPartnerLinks',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/channelPartnerLinks',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'view' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->accounts_channelPartnerLinks_customers = new Cloudchannel\Resource\AccountsChannelPartnerLinksCustomers(
+        $this,
+        $this->serviceName,
+        'customers',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/customers',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/customers',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->accounts_customers = new Cloudchannel\Resource\AccountsCustomers(
+        $this,
+        $this->serviceName,
+        'customers',
+        [
+          'methods' => [
+            'create' => [
+              'path' => 'v1/{+parent}/customers',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/customers',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'listPurchasableOffers' => [
+              'path' => 'v1/{+customer}:listPurchasableOffers',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'changeOfferPurchase.entitlement' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'changeOfferPurchase.newSku' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'createEntitlementPurchase.sku' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'languageCode' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'listPurchasableSkus' => [
+              'path' => 'v1/{+customer}:listPurchasableSkus',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'changeOfferPurchase.changeType' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'changeOfferPurchase.entitlement' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'createEntitlementPurchase.product' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'languageCode' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'patch' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'PATCH',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'updateMask' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'provisionCloudIdentity' => [
+              'path' => 'v1/{+customer}:provisionCloudIdentity',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'customer' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'transferEntitlements' => [
+              'path' => 'v1/{+parent}:transferEntitlements',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'transferEntitlementsToGoogle' => [
+              'path' => 'v1/{+parent}:transferEntitlementsToGoogle',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->accounts_customers_entitlements = new Cloudchannel\Resource\AccountsCustomersEntitlements(
+        $this,
+        $this->serviceName,
+        'entitlements',
+        [
+          'methods' => [
+            'activate' => [
+              'path' => 'v1/{+name}:activate',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'cancel' => [
+              'path' => 'v1/{+name}:cancel',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'changeOffer' => [
+              'path' => 'v1/{+name}:changeOffer',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'changeParameters' => [
+              'path' => 'v1/{+name}:changeParameters',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'changeRenewalSettings' => [
+              'path' => 'v1/{+name}:changeRenewalSettings',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'create' => [
+              'path' => 'v1/{+parent}/entitlements',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+parent}/entitlements',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],'lookupOffer' => [
+              'path' => 'v1/{+entitlement}:lookupOffer',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'entitlement' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'startPaidService' => [
+              'path' => 'v1/{+name}:startPaidService',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'suspend' => [
+              'path' => 'v1/{+name}:suspend',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->accounts_offers = new Cloudchannel\Resource\AccountsOffers(
+        $this,
+        $this->serviceName,
+        'offers',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/{+parent}/offers',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'languageCode' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->operations = new Cloudchannel\Resource\Operations(
+        $this,
+        $this->serviceName,
+        'operations',
+        [
+          'methods' => [
+            'cancel' => [
+              'path' => 'v1/{+name}:cancel',
+              'httpMethod' => 'POST',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'delete' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'DELETE',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'get' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+              ],
+            ],'list' => [
+              'path' => 'v1/{+name}',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'name' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'filter' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->products = new Cloudchannel\Resource\Products(
+        $this,
+        $this->serviceName,
+        'products',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/products',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'account' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'languageCode' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+    $this->products_skus = new Cloudchannel\Resource\ProductsSkus(
+        $this,
+        $this->serviceName,
+        'skus',
+        [
+          'methods' => [
+            'list' => [
+              'path' => 'v1/{+parent}/skus',
+              'httpMethod' => 'GET',
+              'parameters' => [
+                'parent' => [
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ],
+                'account' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'languageCode' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+                'pageSize' => [
+                  'location' => 'query',
+                  'type' => 'integer',
+                ],
+                'pageToken' => [
+                  'location' => 'query',
+                  'type' => 'string',
+                ],
+              ],
+            ],
+          ]
+        ]
+    );
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(Cloudchannel::class, 'Google_Service_Cloudchannel');

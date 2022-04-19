@@ -1,67 +1,95 @@
-<?php //00551
-// --------------------------
-// Created by Dodols Team
-// --------------------------
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-XYNysxu8tNGjaw3oAo2+
+<?php
+/*
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+
+namespace Google\Service\AnalyticsReporting;
+
+class SearchUserActivityRequest extends \Google\Collection
+{
+  protected $collection_key = 'activityTypes';
+  public $activityTypes;
+  protected $dateRangeType = DateRange::class;
+  protected $dateRangeDataType = '';
+  public $pageSize;
+  public $pageToken;
+  protected $userType = User::class;
+  protected $userDataType = '';
+  public $viewId;
+
+  public function setActivityTypes($activityTypes)
+  {
+    $this->activityTypes = $activityTypes;
+  }
+  public function getActivityTypes()
+  {
+    return $this->activityTypes;
+  }
+  /**
+   * @param DateRange
+   */
+  public function setDateRange(DateRange $dateRange)
+  {
+    $this->dateRange = $dateRange;
+  }
+  /**
+   * @return DateRange
+   */
+  public function getDateRange()
+  {
+    return $this->dateRange;
+  }
+  public function setPageSize($pageSize)
+  {
+    $this->pageSize = $pageSize;
+  }
+  public function getPageSize()
+  {
+    return $this->pageSize;
+  }
+  public function setPageToken($pageToken)
+  {
+    $this->pageToken = $pageToken;
+  }
+  public function getPageToken()
+  {
+    return $this->pageToken;
+  }
+  /**
+   * @param User
+   */
+  public function setUser(User $user)
+  {
+    $this->user = $user;
+  }
+  /**
+   * @return User
+   */
+  public function getUser()
+  {
+    return $this->user;
+  }
+  public function setViewId($viewId)
+  {
+    $this->viewId = $viewId;
+  }
+  public function getViewId()
+  {
+    return $this->viewId;
+  }
+}
+
+// Adding a class alias for backwards compatibility with the previous class name.
+class_alias(SearchUserActivityRequest::class, 'Google_Service_AnalyticsReporting_SearchUserActivityRequest');
